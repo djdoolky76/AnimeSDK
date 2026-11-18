@@ -4,32 +4,37 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_3B42BC0680587011;
-class Class_3_707412604A129938;
-class Class_3_883E597458B91E77;
-class Class_3_AA6DF3A878195D3F;
-class Class_3_C93CC3D2C2AC4067;
-class Class_3_D2084E0C2DD39509;
-class Class_3_F33F9DC5F4112336;
+class ACNLKLCDALA;
+class DIAEPBNFKBO;
+class DKPJAEANAPO;
+class GEIHCPAOKKK;
+class JOOHBDMHGCA;
+class LACHKEHCGNO;
+class NLNIIPDCABP;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_FLUSHSTARTMOVE_OFFSET UNITYSDK_OFFSET(0xA13A40)
-#define STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_FLUSHTICKMOVE_OFFSET UNITYSDK_OFFSET(0xA13A50)
-#define STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_TRIGGERSTARTMOVE_OFFSET UNITYSDK_OFFSET(0xA139A0)
-#define STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E351E30)
+#define STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_FLUSHSTARTMOVE_OFFSET UNITYSDK_OFFSET(0x849860)
+#define STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_FLUSHSTOPMOVE_OFFSET UNITYSDK_OFFSET(0x849880)
+#define STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_FLUSHTICKMOVE_OFFSET UNITYSDK_OFFSET(0x849870)
+#define STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_TRIGGERSTARTMOVE_OFFSET UNITYSDK_OFFSET(0x8496F0)
+#define STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_TRIGGERSTOPMOVE_OFFSET UNITYSDK_OFFSET(0x849790)
+#define STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_UPDATETARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x8497E0)
+#define STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6BE1F0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int MonsterMovementContextState_TypeDefinitionIndex = 70669;
+	inline static constexpr unsigned int MonsterMovementContextState_TypeDefinitionIndex = 53605;
 
 	struct alignas(4) MonsterMovementContextState
 	{
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_PathBuffer()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(MonsterMovementContextState_TypeDefinitionIndex)->GetStaticField(0x50390);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(MonsterMovementContextState_TypeDefinitionIndex)->GetStaticField(0x51B70);
 		}
 		::StateTreeGameplay::ContextTrigger StartTrigger; // 0x10
-		::System::Boolean StopAtTarget; // 0x11
+		::StateTreeGameplay::ContextTrigger StopTrigger; // 0x11
+		::System::Boolean StopAtTarget; // 0x12
+		::System::Byte _padding0[0x1];
 		::UnityEngine::Vector3 TargetPosition; // 0x14
 		::System::Boolean IsMoving; // 0x20
 
@@ -43,14 +48,29 @@ namespace StateTreeGameplay
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_TRIGGERSTARTMOVE_OFFSET))(this, position, stopAtTarget);
 		}
 
-		::System::Void FlushStartMove(::Class_3_707412604A129938* baseDataComponent, ::Class_3_AA6DF3A878195D3F* steerComponent)
+		::System::Boolean TriggerStopMove()
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_707412604A129938*, ::Class_3_AA6DF3A878195D3F*))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_FLUSHSTARTMOVE_OFFSET))(this, baseDataComponent, steerComponent);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_TRIGGERSTOPMOVE_OFFSET))(this);
 		}
 
-		::System::Void FlushTickMove(::Class_3_707412604A129938* baseDataComponent, ::Class_3_C93CC3D2C2AC4067* modelComponent, ::Class_3_883E597458B91E77* movementComponent, ::Class_3_AA6DF3A878195D3F* steerComponent, ::Class_3_F33F9DC5F4112336* animatorComponent, ::Class_3_D2084E0C2DD39509* navmeshComponent, ::Class_3_3B42BC0680587011* inputComponent)
+		::System::Void UpdateTargetPosition(::UnityEngine::Vector3 position)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_707412604A129938*, ::Class_3_C93CC3D2C2AC4067*, ::Class_3_883E597458B91E77*, ::Class_3_AA6DF3A878195D3F*, ::Class_3_F33F9DC5F4112336*, ::Class_3_D2084E0C2DD39509*, ::Class_3_3B42BC0680587011*))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_FLUSHTICKMOVE_OFFSET))(this, baseDataComponent, modelComponent, movementComponent, steerComponent, animatorComponent, navmeshComponent, inputComponent);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_UPDATETARGETPOSITION_OFFSET))(this, position);
+		}
+
+		::System::Void FlushStartMove(::DIAEPBNFKBO* baseDataComponent, ::DKPJAEANAPO* steerComponent)
+		{
+			return ((::System::Void(*)(::PVOID, ::DIAEPBNFKBO*, ::DKPJAEANAPO*))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_FLUSHSTARTMOVE_OFFSET))(this, baseDataComponent, steerComponent);
+		}
+
+		::System::Void FlushTickMove(::DIAEPBNFKBO* baseDataComponent, ::GEIHCPAOKKK* modelComponent, ::JOOHBDMHGCA* movementComponent, ::DKPJAEANAPO* steerComponent, ::NLNIIPDCABP* animatorComponent, ::LACHKEHCGNO* navmeshComponent, ::ACNLKLCDALA* inputComponent)
+		{
+			return ((::System::Void(*)(::PVOID, ::DIAEPBNFKBO*, ::GEIHCPAOKKK*, ::JOOHBDMHGCA*, ::DKPJAEANAPO*, ::NLNIIPDCABP*, ::LACHKEHCGNO*, ::ACNLKLCDALA*))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_FLUSHTICKMOVE_OFFSET))(this, baseDataComponent, modelComponent, movementComponent, steerComponent, animatorComponent, navmeshComponent, inputComponent);
+		}
+
+		::System::Void FlushStopMove(::GEIHCPAOKKK* modelComponent, ::ACNLKLCDALA* inputComponent)
+		{
+			return ((::System::Void(*)(::PVOID, ::GEIHCPAOKKK*, ::ACNLKLCDALA*))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_MONSTERMOVEMENTCONTEXTSTATE_FLUSHSTOPMOVE_OFFSET))(this, modelComponent, inputComponent);
 		}
 	};
 }

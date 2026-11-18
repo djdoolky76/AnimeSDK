@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 
 namespace UnityEngine { class Collider; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDCOLLIDER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E85D950)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E85DA10)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDCOLLIDER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1EB02B00)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB02BC0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedCollider_TypeDefinitionIndex = 33913;
+	inline static constexpr unsigned int SharedCollider_TypeDefinitionIndex = 33459;
 
-	class SharedCollider : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::Collider*>
+	class SharedCollider
 	{
 	public:
 		::System::Void _ctor()

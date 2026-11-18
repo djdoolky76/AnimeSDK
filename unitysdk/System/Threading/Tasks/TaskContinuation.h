@@ -4,12 +4,12 @@
 
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_TASKCONTINUATION_INLINEIFPOSSIBLEORELSEQUEUE_OFFSET UNITYSDK_OFFSET(0x1DC10B90)
-#define SYSTEM_THREADING_TASKS_TASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC10D10)
+#define SYSTEM_THREADING_TASKS_TASKCONTINUATION_INLINEIFPOSSIBLEORELSEQUEUE_OFFSET UNITYSDK_OFFSET(0x1DF91A20)
+#define SYSTEM_THREADING_TASKS_TASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF91BA0)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskContinuation_TypeDefinitionIndex = 922;
+	inline static constexpr unsigned int TaskContinuation_TypeDefinitionIndex = 921;
 
 	class TaskContinuation : public ::System::Object
 	{

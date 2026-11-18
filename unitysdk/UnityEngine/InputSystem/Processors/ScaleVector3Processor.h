@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/InputSystem/InputProcessor_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputControl; }
 
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEVECTOR3PROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F16C480)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEVECTOR3PROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F16C4B0)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEVECTOR3PROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F16C580)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEVECTOR3PROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F571A30)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEVECTOR3PROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F571A60)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEVECTOR3PROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F571B30)
 
 namespace UnityEngine::InputSystem::Processors
 {
-	inline static constexpr unsigned int ScaleVector3Processor_TypeDefinitionIndex = 32592;
+	inline static constexpr unsigned int ScaleVector3Processor_TypeDefinitionIndex = 32041;
 
-	class ScaleVector3Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3>
+	class ScaleVector3Processor
 	{
 	public:
-		::System::Single y; // 0x10
-		::System::Single z; // 0x14
-		::System::Single x; // 0x18
+		::System::Single x; // 0x10
+		::System::Single y; // 0x14
+		::System::Single z; // 0x18
 
 		::System::Void _ctor()
 		{

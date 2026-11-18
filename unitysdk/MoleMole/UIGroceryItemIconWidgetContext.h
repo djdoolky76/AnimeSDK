@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_0_16E4307DCC419505_591;
+class HJLKCMIHAAI;
 
-#define MOLEMOLE_UIGROCERYITEMICONWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E936B0)
+#define MOLEMOLE_UIGROCERYITEMICONWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C5AA90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGroceryItemIconWidgetContext_TypeDefinitionIndex = 60307;
+	inline static constexpr unsigned int UIGroceryItemIconWidgetContext_TypeDefinitionIndex = 52595;
 
 	class UIGroceryItemIconWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_0_16E4307DCC419505_591* IconStyle; // 0x28
+		::HJLKCMIHAAI* IconStyle; // 0x28
 
-		::System::Void _ctor(::Class_0_16E4307DCC419505_591* iconStyle)
+		::System::Void _ctor(::HJLKCMIHAAI* iconStyle)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_591*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGROCERYITEMICONWIDGETCONTEXT__CTOR_OFFSET))(this, iconStyle);
+			return ((::System::Void(*)(::PVOID, ::HJLKCMIHAAI*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGROCERYITEMICONWIDGETCONTEXT__CTOR_OFFSET))(this, iconStyle);
 		}
 	};
 }

@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardEventNode_1.h"
-#include "unitysdk/MoleMole/HackerGamePlayerEffectTypeChangedData.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERPLAYEREFFECTTYPECHANGEDEVENT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x1A9995A0)
-#define MOLEMOLE_FLOWCANVAS_HACKERPLAYEREFFECTTYPECHANGEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A999600)
+#define MOLEMOLE_FLOWCANVAS_HACKERPLAYEREFFECTTYPECHANGEDEVENT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x10D09320)
+#define MOLEMOLE_FLOWCANVAS_HACKERPLAYEREFFECTTYPECHANGEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x10D09380)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerPlayerEffectTypeChangedEvent_TypeDefinitionIndex = 41609;
+	inline static constexpr unsigned int HackerPlayerEffectTypeChangedEvent_TypeDefinitionIndex = 92243;
 
-	class HackerPlayerEffectTypeChangedEvent : public ::MoleMole::FlowCanvas::ChessboardEventNode_1<::MoleMole::HackerGamePlayerEffectTypeChangedData>
+	class HackerPlayerEffectTypeChangedEvent
 	{
 	public:
 		::System::Void _ctor()

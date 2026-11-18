@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGDataRequestRasterization_ModeEnum_TypeDefinitionIndex = 39550;
+	inline static constexpr unsigned int CGDataRequestRasterization_ModeEnum_TypeDefinitionIndex = 37655;
 
 	enum class CGDataRequestRasterization_ModeEnum : ::System::Int32
 	{

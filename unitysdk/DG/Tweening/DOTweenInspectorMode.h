@@ -3,7 +3,7 @@
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int DOTweenInspectorMode_TypeDefinitionIndex = 35131;
+	inline static constexpr unsigned int DOTweenInspectorMode_TypeDefinitionIndex = 34680;
 
 	enum class DOTweenInspectorMode : ::System::Int32
 	{

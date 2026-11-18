@@ -7,22 +7,24 @@
 namespace MoleMole { class UICinemaRewardLevelWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UICINEMAREWARDLEVELWIDGETCONTROLLER__SETSHOWLEVEL_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8629C0)
-#define MOLEMOLE_UICINEMAREWARDLEVELWIDGETCONTROLLER__SETSHOWLEVEL_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_UICINEMAREWARDLEVELWIDGETCONTROLLER__SETSHOWLEVEL_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7A13F0)
+#define MOLEMOLE_UICINEMAREWARDLEVELWIDGETCONTROLLER__SETSHOWLEVEL_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaRewardLevelWidgetController__SetShowLevel_d__9_TypeDefinitionIndex = 44368;
+	inline static constexpr unsigned int UICinemaRewardLevelWidgetController__SetShowLevel_d__9_TypeDefinitionIndex = 65286;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	struct alignas(8) UICinemaRewardLevelWidgetController__SetShowLevel_d__9
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
 		::MoleMole::UICinemaRewardLevelWidgetController* __4__this; // 0x28
 		::System::Int32 level; // 0x30
-		::System::Int32 __1__state; // 0x34
-		::System::Boolean isGold; // 0x38
-		::System::Boolean hasEffect; // 0x39
+		::System::Boolean isGold; // 0x34
+		::System::Boolean hasEffect; // 0x35
+		::System::Byte _padding0[0x2];
+		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()
 		{

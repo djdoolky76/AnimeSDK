@@ -8,13 +8,13 @@
 namespace System { class String; }
 namespace UnityEngine { class Mesh; }
 
-#define MONONOTRELATEGAMELOGIC_MONOCUSTOMTEXTMESH_AWAKE_OFFSET UNITYSDK_OFFSET(0x10F1B960)
-#define MONONOTRELATEGAMELOGIC_MONOCUSTOMTEXTMESH_REBUILD_OFFSET UNITYSDK_OFFSET(0x10F1BA70)
-#define MONONOTRELATEGAMELOGIC_MONOCUSTOMTEXTMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x10F1BBF0)
+#define MONONOTRELATEGAMELOGIC_MONOCUSTOMTEXTMESH_AWAKE_OFFSET UNITYSDK_OFFSET(0x13B4B720)
+#define MONONOTRELATEGAMELOGIC_MONOCUSTOMTEXTMESH_REBUILD_OFFSET UNITYSDK_OFFSET(0x13B4B830)
+#define MONONOTRELATEGAMELOGIC_MONOCUSTOMTEXTMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x13B4B9B0)
 
 namespace MonoNotRelateGameLogic
 {
-	inline static constexpr unsigned int MonoCustomTextMesh_TypeDefinitionIndex = 64630;
+	inline static constexpr unsigned int MonoCustomTextMesh_TypeDefinitionIndex = 84337;
 
 	class MonoCustomTextMesh : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,6 +23,7 @@ namespace MonoNotRelateGameLogic
 		::Il2CppArray<::UnityEngine::Vector3>* verticies; // 0x20
 		::Il2CppArray<::System::Int32>* triangles; // 0x28
 		::System::Boolean serialized; // 0x30
+		::System::Byte _padding0[0x3];
 		::MonoNotRelateGameLogic::MonoCustomTextMesh_fontType FontType; // 0x34
 		::System::String* m_text; // 0x38
 		::System::Single m_fontSize; // 0x40

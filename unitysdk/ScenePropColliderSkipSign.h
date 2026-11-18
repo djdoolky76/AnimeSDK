@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define SCENEPROPCOLLIDERSKIPSIGN_REMOVE_OFFSET UNITYSDK_OFFSET(0x1BC3F7A0)
-#define SCENEPROPCOLLIDERSKIPSIGN__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3F820)
+#define SCENEPROPCOLLIDERSKIPSIGN_REMOVE_OFFSET UNITYSDK_OFFSET(0x1C1F0680)
+#define SCENEPROPCOLLIDERSKIPSIGN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1F0700)
 
-inline static constexpr unsigned int ScenePropColliderSkipSign_TypeDefinitionIndex = 40575;
+inline static constexpr unsigned int ScenePropColliderSkipSign_TypeDefinitionIndex = 43805;
 
 class ScenePropColliderSkipSign : public ::UnityEngine::MonoBehaviour
 {

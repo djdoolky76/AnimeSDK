@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class OCLLKJMICKK;
+
+#define NFKAGFKKMHC_CBLLFDMDCEL_OFFSET UNITYSDK_OFFSET(0x1E88B390)
+#define NFKAGFKKMHC_CEFBOGGCEAI_OFFSET UNITYSDK_OFFSET(0x1E88B750)
+#define NFKAGFKKMHC_CEFKDBBIONM_OFFSET UNITYSDK_OFFSET(0x1E88BA80)
+#define NFKAGFKKMHC_GKLJGBBODIN_OFFSET UNITYSDK_OFFSET(0x1E88AD30)
+#define NFKAGFKKMHC_KMHOKFENABH_OFFSET UNITYSDK_OFFSET(0x1E88B6C0)
+#define NFKAGFKKMHC_LGJJLPNECDO_OFFSET UNITYSDK_OFFSET(0x1E88B060)
+
+inline static constexpr unsigned int NFKAGFKKMHC_TypeDefinitionIndex = 94856;
+
+class NFKAGFKKMHC : public ::System::Object
+{
+public:
+	static ::System::Boolean GKLJGBBODIN(::OCLLKJMICKK* KMHICJLIECP, ::System::Int32 CPJEAOLKPLL, ::System::Boolean MCAABONCOOM)
+	{
+		return ((::System::Boolean(*)(::OCLLKJMICKK*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + NFKAGFKKMHC_GKLJGBBODIN_OFFSET))(KMHICJLIECP, CPJEAOLKPLL, MCAABONCOOM);
+	}
+
+	static ::System::Boolean LGJJLPNECDO(::OCLLKJMICKK* KMHICJLIECP, ::System::Int32 GIAOKGFENJD, ::System::Boolean MCAABONCOOM)
+	{
+		return ((::System::Boolean(*)(::OCLLKJMICKK*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + NFKAGFKKMHC_LGJJLPNECDO_OFFSET))(KMHICJLIECP, GIAOKGFENJD, MCAABONCOOM);
+	}
+
+	static ::System::Boolean CBLLFDMDCEL(::OCLLKJMICKK* KMHICJLIECP, ::System::Int32 IHFMJPOLCMC, ::System::Int32 BDJFDABNMIM, ::System::Boolean MCAABONCOOM)
+	{
+		return ((::System::Boolean(*)(::OCLLKJMICKK*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + NFKAGFKKMHC_CBLLFDMDCEL_OFFSET))(KMHICJLIECP, IHFMJPOLCMC, BDJFDABNMIM, MCAABONCOOM);
+	}
+
+	static ::System::Int32 KMHOKFENABH(::OCLLKJMICKK* KMHICJLIECP)
+	{
+		return ((::System::Int32(*)(::OCLLKJMICKK*))((::PBYTE)hIl2Cpp + NFKAGFKKMHC_KMHOKFENABH_OFFSET))(KMHICJLIECP);
+	}
+
+	static ::System::Boolean CEFBOGGCEAI(::OCLLKJMICKK* KMHICJLIECP, ::System::Int32 KCNOHOOPNAH, ::System::Int32 ABMMHDHLILI, ::System::Boolean MCAABONCOOM)
+	{
+		return ((::System::Boolean(*)(::OCLLKJMICKK*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + NFKAGFKKMHC_CEFBOGGCEAI_OFFSET))(KMHICJLIECP, KCNOHOOPNAH, ABMMHDHLILI, MCAABONCOOM);
+	}
+
+	static ::System::Boolean CEFKDBBIONM(::OCLLKJMICKK* KMHICJLIECP, ::System::Boolean MCAABONCOOM)
+	{
+		return ((::System::Boolean(*)(::OCLLKJMICKK*, ::System::Boolean))((::PBYTE)hIl2Cpp + NFKAGFKKMHC_CEFKDBBIONM_OFFSET))(KMHICJLIECP, MCAABONCOOM);
+	}
+};

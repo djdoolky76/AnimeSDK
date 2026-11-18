@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERCARDPLAYMODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B0BB00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERCARDPLAYMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B0BC40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERCARDPLAYMODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8E8B20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERCARDPLAYMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E8C60)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetMonsterCardPlayMode_TypeDefinitionIndex = 83032;
+	inline static constexpr unsigned int LDGetMonsterCardPlayMode_TypeDefinitionIndex = 48321;
 
-	class LDGetMonsterCardPlayMode : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
+	class LDGetMonsterCardPlayMode
 	{
 	public:
 		::System::Void _ctor()

@@ -5,14 +5,14 @@
 namespace MoleMole::Battle { class AnimatorParamControl; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_TLSTARTENDENTITYANIMATORPARAMCONTROL_ISBLENDINVALID_OFFSET UNITYSDK_OFFSET(0x173A9CD0)
-#define MOLEMOLE_TLSTARTENDENTITYANIMATORPARAMCONTROL_ISBLENDOUTVALID_OFFSET UNITYSDK_OFFSET(0x173A9D30)
-#define MOLEMOLE_TLSTARTENDENTITYANIMATORPARAMCONTROL_ISENABLEANIMBLENDTARGETV2_OFFSET UNITYSDK_OFFSET(0x173A9D90)
-#define MOLEMOLE_TLSTARTENDENTITYANIMATORPARAMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x173A9E70)
+#define MOLEMOLE_TLSTARTENDENTITYANIMATORPARAMCONTROL_ISBLENDINVALID_OFFSET UNITYSDK_OFFSET(0x13F15870)
+#define MOLEMOLE_TLSTARTENDENTITYANIMATORPARAMCONTROL_ISBLENDOUTVALID_OFFSET UNITYSDK_OFFSET(0x13F158D0)
+#define MOLEMOLE_TLSTARTENDENTITYANIMATORPARAMCONTROL_ISENABLEANIMBLENDTARGETV2_OFFSET UNITYSDK_OFFSET(0x13F15930)
+#define MOLEMOLE_TLSTARTENDENTITYANIMATORPARAMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x13F15A10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TLStartEndEntityAnimatorParamControl_TypeDefinitionIndex = 84652;
+	inline static constexpr unsigned int TLStartEndEntityAnimatorParamControl_TypeDefinitionIndex = 69919;
 
 	class TLStartEndEntityAnimatorParamControl : public ::System::Object
 	{
@@ -20,8 +20,10 @@ namespace MoleMole
 		::MoleMole::Battle::AnimatorParamControl* StartEntityAnimatorParamControl; // 0x10
 		::MoleMole::Battle::AnimatorParamControl* EndEntityAnimatorParamControl; // 0x18
 		::System::Single BlendInTime; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* BlendInCurve; // 0x28
 		::System::Single BlendOutTime; // 0x30
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* BlendOutCurve; // 0x38
 		::System::Boolean ForceEnableAnimBlendTargetV2; // 0x40
 

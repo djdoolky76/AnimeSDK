@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Reflection/MemberTypes.h"
 
-namespace System { class String; }
-namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Reflection { class CustomAttributeData; }
 namespace System::Reflection { class Module; }
 
-#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_083577508CCFDAF3_OFFSET UNITYSDK_OFFSET(0x1CE8A840)
-#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_25CFC3357C613FED_OFFSET UNITYSDK_OFFSET(0x1CE8A600)
-#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_5B4DF2D4F0210D87_OFFSET UNITYSDK_OFFSET(0x1CE8A610)
-#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_6B3DB65915D7BACD_OFFSET UNITYSDK_OFFSET(0x1CE8A670)
-#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_7101133FC49589A6_OFFSET UNITYSDK_OFFSET(0x1CE8A830)
-#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1CE8A5F0)
-#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_A1F4A94C90AD24D9_OFFSET UNITYSDK_OFFSET(0x1CE8A700)
-#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_B525722F60E6B94F_OFFSET UNITYSDK_OFFSET(0x1CE8A660)
-#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x1CE8A850)
+#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_0_OFFSET UNITYSDK_OFFSET(0x1D4236C0)
+#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_10_10_OFFSET UNITYSDK_OFFSET(0x1D423730)
+#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_11_11_OFFSET UNITYSDK_OFFSET(0x1D423740)
+#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_12_12_OFFSET UNITYSDK_OFFSET(0x1D4237D0)
+#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_13_13_OFFSET UNITYSDK_OFFSET(0x1D423900)
+#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_14_14_OFFSET UNITYSDK_OFFSET(0x1D423910)
+#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_15_15_OFFSET UNITYSDK_OFFSET(0x1D423920)
+#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_5_5_OFFSET UNITYSDK_OFFSET(0x1D4236D0)
+#define SYSTEM_REFLECTION_MEMBERINFO_METHOD_9_9_OFFSET UNITYSDK_OFFSET(0x1D4236E0)
 
 namespace System::Reflection
 {
@@ -27,49 +24,49 @@ namespace System::Reflection
 	class MemberInfo : public ::System::Object
 	{
 	public:
-		::System::Void Method_1_832295EC279E5994()
+		::System::Void Method_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_0_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Reflection::CustomAttributeData*>* Method_1_25CFC3357C613FED()
+		::System::Collections::Generic::IEnumerable_1<::System::Reflection::CustomAttributeData*>* Method_5_5()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::CustomAttributeData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_25CFC3357C613FED_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::CustomAttributeData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_5_5_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* Method_1_5B4DF2D4F0210D87()
+		::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* Method_9_9()
 		{
-			return ((::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_5B4DF2D4F0210D87_OFFSET))(this);
+			return ((::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_9_9_OFFSET))(this);
 		}
 
-		::System::Int32 Method_1_B525722F60E6B94F()
+		::System::Int32 Method_10_10()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_B525722F60E6B94F_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_10_10_OFFSET))(this);
 		}
 
-		::System::Reflection::Module* Method_1_6B3DB65915D7BACD()
+		::System::Reflection::Module* Method_11_11()
 		{
-			return ((::System::Reflection::Module*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_6B3DB65915D7BACD_OFFSET))(this);
+			return ((::System::Reflection::Module*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_11_11_OFFSET))(this);
 		}
 
-		static ::System::Boolean Method_1_A1F4A94C90AD24D9(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right)
+		static ::System::Boolean Method_12_12(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_A1F4A94C90AD24D9_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_12_12_OFFSET))(left, right);
 		}
 
-		static ::System::Boolean Method_1_7101133FC49589A6(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right)
+		static ::System::Boolean Method_13_13(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_7101133FC49589A6_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_13_13_OFFSET))(left, right);
 		}
 
-		::System::Boolean Method_1_083577508CCFDAF3(::System::Object* obj)
+		::System::Boolean Method_14_14(::System::Object* obj)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_083577508CCFDAF3_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_14_14_OFFSET))(this, obj);
 		}
 
-		::System::Int32 Method_1_C74CF020AA42ED85()
+		::System::Int32 Method_15_15()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_1_C74CF020AA42ED85_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_METHOD_15_15_OFFSET))(this);
 		}
 	};
 }

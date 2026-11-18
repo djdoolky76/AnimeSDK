@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace MoleMole::Config { class BoolUISpecialNum; }
 namespace MoleMole::Config { class StringUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGSETGLOBALINPUTBLOCKERCOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16262550)
-#define MOLEMOLE_CONFIG_CONFIGSETGLOBALINPUTBLOCKERCOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x162625C0)
+#define MOLEMOLE_CONFIG_CONFIGSETGLOBALINPUTBLOCKERCOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x19B1BFC0)
+#define MOLEMOLE_CONFIG_CONFIGSETGLOBALINPUTBLOCKERCOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B1C030)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSetGlobalInputBlockerCommonNode_TypeDefinitionIndex = 53574;
+	inline static constexpr unsigned int ConfigSetGlobalInputBlockerCommonNode_TypeDefinitionIndex = 64917;
 
 	class ConfigSetGlobalInputBlockerCommonNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::MoleMole::Config::BoolUISpecialNum* IsBlockInput; // 0x18
+		::MoleMole::Config::StringUISpecialNum* UIControllerKey; // 0x18
 		::MoleMole::Config::BoolUISpecialNum* UICtrlForceSet; // 0x20
-		::MoleMole::Config::StringUISpecialNum* UIControllerKey; // 0x28
+		::MoleMole::Config::BoolUISpecialNum* IsBlockInput; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSETGLOBALINPUTBLOCKERCOMMONNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSETGLOBALINPUTBLOCKERCOMMONNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSETGLOBALINPUTBLOCKERCOMMONNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

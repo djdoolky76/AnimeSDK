@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIWindowController.h"
 
-#define MOLEMOLE_UIWINDOWCONTROLLERWITHPUMPQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1610DE00)
+#define MOLEMOLE_UIWINDOWCONTROLLERWITHPUMPQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x167F6DF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWindowControllerWithPumpQueue_TypeDefinitionIndex = 87934;
+	inline static constexpr unsigned int UIWindowControllerWithPumpQueue_TypeDefinitionIndex = 86835;
 
 	class UIWindowControllerWithPumpQueue : public ::MoleMole::UIWindowController
 	{

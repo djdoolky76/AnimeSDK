@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS72_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC12740)
-#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS72_0__DOBLENDABLECOLOR_B__0_OFFSET UNITYSDK_OFFSET(0x1FC12750)
-#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS72_0__DOBLENDABLECOLOR_B__1_OFFSET UNITYSDK_OFFSET(0x1FC12760)
+#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS72_0__CTOR_OFFSET UNITYSDK_OFFSET(0x20013510)
+#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS72_0__DOBLENDABLECOLOR_B__0_OFFSET UNITYSDK_OFFSET(0x20013520)
+#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS72_0__DOBLENDABLECOLOR_B__1_OFFSET UNITYSDK_OFFSET(0x20013530)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int ShortcutExtensions___c__DisplayClass72_0_TypeDefinitionIndex = 28527;
+	inline static constexpr unsigned int ShortcutExtensions___c__DisplayClass72_0_TypeDefinitionIndex = 27966;
 
 	class ShortcutExtensions___c__DisplayClass72_0 : public ::System::Object
 	{
 	public:
-		::System::String* property; // 0x10
-		::UnityEngine::Material* target; // 0x18
+		::UnityEngine::Material* target; // 0x10
+		::System::String* property; // 0x18
 		::UnityEngine::Color to; // 0x20
 
 		::System::Void _ctor()

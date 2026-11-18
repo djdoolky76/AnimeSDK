@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_3.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYSOUNDPATHBYCELL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B5974A0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYSOUNDPATHBYCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B597580)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYSOUNDPATHBYCELL_INVOKE_OFFSET UNITYSDK_OFFSET(0x13562FB0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYSOUNDPATHBYCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x13563090)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardPlaySoundPathByCell_TypeDefinitionIndex = 65796;
+	inline static constexpr unsigned int ChessboardPlaySoundPathByCell_TypeDefinitionIndex = 84111;
 
-	class ChessboardPlaySoundPathByCell : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_3<::MoleMole::HollowChessboard::HollowCell, ::System::String*, ::System::Boolean>
+	class ChessboardPlaySoundPathByCell
 	{
 	public:
 		::System::Void _ctor()

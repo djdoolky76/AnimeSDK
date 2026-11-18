@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class FAPOJHHEIMH;
+
+#define PNJDGHBEMLK_LKEOODFIGLM_PLPONJAKNEB_OFFSET UNITYSDK_OFFSET(0x150E1E00)
+#define PNJDGHBEMLK_LKEOODFIGLM__CTOR_OFFSET UNITYSDK_OFFSET(0x150E1CB0)
+
+inline static constexpr unsigned int PNJDGHBEMLK_LKEOODFIGLM_TypeDefinitionIndex = 64974;
+
+class PNJDGHBEMLK_LKEOODFIGLM : public ::System::Object
+{
+public:
+	::FAPOJHHEIMH* FDINDAJMEBD; // 0x10
+	::FAPOJHHEIMH* CKKGCMLEJAF; // 0x18
+	::FAPOJHHEIMH* ADNNBGJDAHO; // 0x20
+	::FAPOJHHEIMH* KBAFDICBEKJ; // 0x28
+	::FAPOJHHEIMH* JLANABLDDKA; // 0x30
+	::FAPOJHHEIMH* APKADCJCOFL; // 0x38
+	::FAPOJHHEIMH* ANPNLABHOPB; // 0x40
+	::FAPOJHHEIMH* EPGPENDOLKH; // 0x48
+	::FAPOJHHEIMH* PLABEKHIMOJ; // 0x50
+	::FAPOJHHEIMH* CHLGDLCIGJL; // 0x58
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PNJDGHBEMLK_LKEOODFIGLM__CTOR_OFFSET))(this);
+	}
+
+	::System::Void PLPONJAKNEB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PNJDGHBEMLK_LKEOODFIGLM_PLPONJAKNEB_OFFSET))(this);
+	}
+};

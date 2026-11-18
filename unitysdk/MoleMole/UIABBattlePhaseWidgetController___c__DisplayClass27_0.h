@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_80486DA64C1484CD;
+class EMPEGMEDAHH;
 namespace MoleMole { class UIABBattlePhaseWidgetController; }
 
-#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B220160)
-#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS27_0__REFRESHSTARTTIPSBASEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1B220170)
+#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0E71D0)
+#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS27_0__REFRESHSTARTTIPSBASEINFO_B__0_OFFSET UNITYSDK_OFFSET(0x1C0E71E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABBattlePhaseWidgetController___c__DisplayClass27_0_TypeDefinitionIndex = 54932;
+	inline static constexpr unsigned int UIABBattlePhaseWidgetController___c__DisplayClass27_0_TypeDefinitionIndex = 87228;
 
 	class UIABBattlePhaseWidgetController___c__DisplayClass27_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RefreshStartTipsBaseInfo_b__0(::Class_2_80486DA64C1484CD* x)
+		::System::Boolean _RefreshStartTipsBaseInfo_b__0(::EMPEGMEDAHH* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_80486DA64C1484CD*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS27_0__REFRESHSTARTTIPSBASEINFO_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::EMPEGMEDAHH*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS27_0__REFRESHSTARTTIPSBASEINFO_B__0_OFFSET))(this, x);
 		}
 	};
 }

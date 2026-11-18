@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_2DAF815691F591CB;
+class MEKLFHEOCDC;
 namespace NapProfiler { class FpsCalc; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -11,45 +11,45 @@ namespace System::Net::Sockets { class TcpClient; }
 namespace System::Net::Sockets { class TcpListener; }
 namespace System::Threading { class Thread; }
 
-#define NAPPROFILER_PROFILERSERVER_APPENDDATA_OFFSET UNITYSDK_OFFSET(0x12D41EF0)
-#define NAPPROFILER_PROFILERSERVER_CLOSE_OFFSET UNITYSDK_OFFSET(0x12D42220)
-#define NAPPROFILER_PROFILERSERVER_GETFPS_OFFSET UNITYSDK_OFFSET(0x12D41A80)
-#define NAPPROFILER_PROFILERSERVER_GETIPADDRESS_OFFSET UNITYSDK_OFFSET(0x12D42580)
-#define NAPPROFILER_PROFILERSERVER_METHOD_5_AC7CD4175E0A3EF8_OFFSET UNITYSDK_OFFSET(0x12D42810)
-#define NAPPROFILER_PROFILERSERVER_METHOD_5_C87BCBC40D606D5F_OFFSET UNITYSDK_OFFSET(0x12D42BC0)
-#define NAPPROFILER_PROFILERSERVER_METHOD_5_F978A1D172468895_OFFSET UNITYSDK_OFFSET(0x12D42DC0)
-#define NAPPROFILER_PROFILERSERVER_ONSTARTUP_OFFSET UNITYSDK_OFFSET(0x12D41580)
-#define NAPPROFILER_PROFILERSERVER_QUERYFPS_OFFSET UNITYSDK_OFFSET(0x12D418B0)
-#define NAPPROFILER_PROFILERSERVER_SENDDATA_OFFSET UNITYSDK_OFFSET(0x12D41C10)
-#define NAPPROFILER_PROFILERSERVER_STARTSERVER_OFFSET UNITYSDK_OFFSET(0x12D415C0)
-#define NAPPROFILER_PROFILERSERVER_START_OFFSET UNITYSDK_OFFSET(0x12D423C0)
-#define NAPPROFILER_PROFILERSERVER_STOPSERVER_OFFSET UNITYSDK_OFFSET(0x12D42010)
-#define NAPPROFILER_PROFILERSERVER_UPDATE_OFFSET UNITYSDK_OFFSET(0x12D42600)
-#define NAPPROFILER_PROFILERSERVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12D42B90)
-#define NAPPROFILER_PROFILERSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x12D42AF0)
+#define NAPPROFILER_PROFILERSERVER_APPENDDATA_OFFSET UNITYSDK_OFFSET(0x14F49350)
+#define NAPPROFILER_PROFILERSERVER_CLOSE_OFFSET UNITYSDK_OFFSET(0x14F49680)
+#define NAPPROFILER_PROFILERSERVER_GETFPS_OFFSET UNITYSDK_OFFSET(0x14F48ED0)
+#define NAPPROFILER_PROFILERSERVER_GETIPADDRESS_OFFSET UNITYSDK_OFFSET(0x14F499E0)
+#define NAPPROFILER_PROFILERSERVER_HADEPEEANED_OFFSET UNITYSDK_OFFSET(0x14F49C70)
+#define NAPPROFILER_PROFILERSERVER_MAGKIFNFMLD_OFFSET UNITYSDK_OFFSET(0x14F4A220)
+#define NAPPROFILER_PROFILERSERVER_MNMLODIGJFJ_OFFSET UNITYSDK_OFFSET(0x14F4A020)
+#define NAPPROFILER_PROFILERSERVER_ONSTARTUP_OFFSET UNITYSDK_OFFSET(0x14F489D0)
+#define NAPPROFILER_PROFILERSERVER_QUERYFPS_OFFSET UNITYSDK_OFFSET(0x14F48D00)
+#define NAPPROFILER_PROFILERSERVER_SENDDATA_OFFSET UNITYSDK_OFFSET(0x14F49060)
+#define NAPPROFILER_PROFILERSERVER_STARTSERVER_OFFSET UNITYSDK_OFFSET(0x14F48A10)
+#define NAPPROFILER_PROFILERSERVER_START_OFFSET UNITYSDK_OFFSET(0x14F49820)
+#define NAPPROFILER_PROFILERSERVER_STOPSERVER_OFFSET UNITYSDK_OFFSET(0x14F49470)
+#define NAPPROFILER_PROFILERSERVER_UPDATE_OFFSET UNITYSDK_OFFSET(0x14F49A60)
+#define NAPPROFILER_PROFILERSERVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F49FF0)
+#define NAPPROFILER_PROFILERSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x14F49F50)
 
 namespace NapProfiler
 {
-	inline static constexpr unsigned int ProfilerServer_TypeDefinitionIndex = 78513;
+	inline static constexpr unsigned int ProfilerServer_TypeDefinitionIndex = 40783;
 
 	class ProfilerServer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Object** StaticGet_Field_5_0()
+		static ::System::Object** StaticGet_PIMAICCKPMP()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ProfilerServer_TypeDefinitionIndex)->GetStaticField(0x43360);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ProfilerServer_TypeDefinitionIndex)->GetStaticField(0x49140);
 		}
-		static ::NapProfiler::ProfilerServer** StaticGet_Field_5_7()
+		static ::NapProfiler::ProfilerServer** StaticGet_PIGLBPEIAIC()
 		{
-			return (::NapProfiler::ProfilerServer**)Il2CppClass::FromTypeDefinitionIndex(ProfilerServer_TypeDefinitionIndex)->GetStaticField(0x43368);
+			return (::NapProfiler::ProfilerServer**)Il2CppClass::FromTypeDefinitionIndex(ProfilerServer_TypeDefinitionIndex)->GetStaticField(0x49148);
 		}
 		// static const ::System::Int32 Port = 0x1F74; // 0x0
-		::System::Net::Sockets::TcpListener* Field_5_6; // 0x18
-		::System::Threading::Thread* Field_5_5; // 0x20
-		::System::Net::Sockets::TcpClient* Field_5_4; // 0x28
-		::System::Collections::Concurrent::ConcurrentQueue_1<::Class_1_2DAF815691F591CB*>* Field_5_11; // 0x30
-		::NapProfiler::FpsCalc* Field_5_10; // 0x38
-		::System::String* Field_5_9; // 0x40
+		::System::Net::Sockets::TcpListener* PAJNPEDPFAM; // 0x18
+		::System::Threading::Thread* LMDGOHKOCKF; // 0x20
+		::System::Net::Sockets::TcpClient* CABCCNNNAIF; // 0x28
+		::System::Collections::Concurrent::ConcurrentQueue_1<::MEKLFHEOCDC*>* LCJKJCBCJEN; // 0x30
+		::NapProfiler::FpsCalc* IPALFBAFKKA; // 0x38
+		::System::String* KKIKNLPBIOH; // 0x40
 
 		::System::Void _ctor()
 		{
@@ -76,9 +76,9 @@ namespace NapProfiler
 			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_QUERYFPS_OFFSET))();
 		}
 
-		static ::System::Void SendData(::Class_1_2DAF815691F591CB* a1)
+		static ::System::Void SendData(::MEKLFHEOCDC* LJBPECKCCEA)
 		{
-			return ((::System::Void(*)(::Class_1_2DAF815691F591CB*))((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_SENDDATA_OFFSET))(a1);
+			return ((::System::Void(*)(::MEKLFHEOCDC*))((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_SENDDATA_OFFSET))(LJBPECKCCEA);
 		}
 
 		static ::System::Void StopServer()
@@ -106,9 +106,9 @@ namespace NapProfiler
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_GETFPS_OFFSET))(this);
 		}
 
-		::System::Void AppendData(::Class_1_2DAF815691F591CB* a1)
+		::System::Void AppendData(::MEKLFHEOCDC* LJBPECKCCEA)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_2DAF815691F591CB*))((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_APPENDDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MEKLFHEOCDC*))((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_APPENDDATA_OFFSET))(this, LJBPECKCCEA);
 		}
 
 		::System::Void Close()
@@ -116,19 +116,19 @@ namespace NapProfiler
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_CLOSE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_AC7CD4175E0A3EF8()
+		::System::String* MNMLODIGJFJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_METHOD_5_AC7CD4175E0A3EF8_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_MNMLODIGJFJ_OFFSET))(this);
 		}
 
-		::System::String* Method_5_C87BCBC40D606D5F()
+		::System::Void MAGKIFNFMLD()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_METHOD_5_C87BCBC40D606D5F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_MAGKIFNFMLD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_F978A1D172468895()
+		::System::Void HADEPEEANED()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_METHOD_5_F978A1D172468895_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPPROFILER_PROFILERSERVER_HADEPEEANED_OFFSET))(this);
 		}
 	};
 }

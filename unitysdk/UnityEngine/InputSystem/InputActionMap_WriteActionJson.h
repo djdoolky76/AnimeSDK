@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputAction; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_WRITEACTIONJSON_FROMACTION_OFFSET UNITYSDK_OFFSET(0x1F7E5AC0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_WRITEACTIONJSON_FROMACTION_OFFSET UNITYSDK_OFFSET(0x1FBF9A30)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionMap_WriteActionJson_TypeDefinitionIndex = 32161;
+	inline static constexpr unsigned int InputActionMap_WriteActionJson_TypeDefinitionIndex = 31610;
 
 	struct alignas(8) InputActionMap_WriteActionJson
 	{
@@ -21,9 +21,11 @@ namespace UnityEngine::InputSystem
 		::System::String* interactions; // 0x38
 		::System::Boolean initialStateCheck; // 0x40
 
+		/*
 		static ::UnityEngine::InputSystem::InputActionMap_WriteActionJson FromAction(::UnityEngine::InputSystem::InputAction* action)
 		{
 			return ((::UnityEngine::InputSystem::InputActionMap_WriteActionJson(*)(::UnityEngine::InputSystem::InputAction*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_WRITEACTIONJSON_FROMACTION_OFFSET))(action);
 		}
+		*/
 	};
 }

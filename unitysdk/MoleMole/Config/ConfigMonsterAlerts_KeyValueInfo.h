@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_20E58F76D44AFEF6;
+class PNDIFMAINIM;
 namespace MoleMole::Config { class ConfigMonsterAlerts_ConfigMonsterAlertItemSurrogate; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_KEYVALUEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B4CF060)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CF050)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_KEYVALUEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12775EE0)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12775ED0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMonsterAlerts_KeyValueInfo_TypeDefinitionIndex = 89847;
+	inline static constexpr unsigned int ConfigMonsterAlerts_KeyValueInfo_TypeDefinitionIndex = 85199;
 
 	class ConfigMonsterAlerts_KeyValueInfo : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_KEYVALUEINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* _keyInst, ::Class_1_20E58F76D44AFEF6* _valueInst)
+		::System::Void _ctor_1(::System::String* _keyInst, ::PNDIFMAINIM* _valueInst)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Class_1_20E58F76D44AFEF6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_KEYVALUEINFO__CTOR_1_OFFSET))(this, _keyInst, _valueInst);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::PNDIFMAINIM*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_KEYVALUEINFO__CTOR_1_OFFSET))(this, _keyInst, _valueInst);
 		}
 	};
 }

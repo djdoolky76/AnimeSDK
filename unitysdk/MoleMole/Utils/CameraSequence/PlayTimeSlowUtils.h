@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_C87309B6DF67BFA9;
+class NJNMJAPABKB;
 namespace System { class String; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_CLEARTIMESLOWKEY_OFFSET UNITYSDK_OFFSET(0x1149CA20)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_GETTIMESLOWKEY_OFFSET UNITYSDK_OFFSET(0x1149CB50)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_INVOKETIMESLOWKEY_OFFSET UNITYSDK_OFFSET(0x1149C140)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_PROCESSMAXSTARTTIME_OFFSET UNITYSDK_OFFSET(0x1149C330)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_CLEARTIMESLOWKEY_OFFSET UNITYSDK_OFFSET(0x13C0EC10)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_GETTIMESLOWKEY_OFFSET UNITYSDK_OFFSET(0x13C0ED40)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_INVOKETIMESLOWKEY_OFFSET UNITYSDK_OFFSET(0x13C0E330)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_PROCESSMAXSTARTTIME_OFFSET UNITYSDK_OFFSET(0x13C0E520)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int PlayTimeSlowUtils_TypeDefinitionIndex = 58634;
+	inline static constexpr unsigned int PlayTimeSlowUtils_TypeDefinitionIndex = 92807;
 
 	class PlayTimeSlowUtils : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MoleMole::Utils::CameraSequence
 			return ((::System::Void(*)(::System::String*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_INVOKETIMESLOWKEY_OFFSET))(timeSlowKey, minStartTime, maxStartTime);
 		}
 
-		static ::System::Void ProcessMaxStartTime(::Class_1_C87309B6DF67BFA9* timeSlowData, ::System::Single minStartTime, ::System::Single maxStartTime)
+		static ::System::Void ProcessMaxStartTime(::NJNMJAPABKB* timeSlowData, ::System::Single minStartTime, ::System::Single maxStartTime)
 		{
-			return ((::System::Void(*)(::Class_1_C87309B6DF67BFA9*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_PROCESSMAXSTARTTIME_OFFSET))(timeSlowData, minStartTime, maxStartTime);
+			return ((::System::Void(*)(::NJNMJAPABKB*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_PROCESSMAXSTARTTIME_OFFSET))(timeSlowData, minStartTime, maxStartTime);
 		}
 
 		static ::System::Void ClearTimeSlowKey(::System::String* timeSlowKey)

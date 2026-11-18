@@ -1,0 +1,71 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class DCNGDMKEFIB;
+class JECNGBBIEMN;
+class LGINJIKKBJA;
+class MonoUITableScrollV2;
+class NBEBLJIEAGG;
+namespace MoleMole { class UIActivityCompWeekRewardBtnWidgetController; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+namespace UnityEngine::UI::Extension { class UITimeWidget; }
+template <typename T> class MEKABAIJMNM_1;
+
+#define BGCLHGEEDKM_FAAFMPDBCAM_OFFSET UNITYSDK_OFFSET(0x1866D7C0)
+#define BGCLHGEEDKM_GBJGIJONEFG_1_OFFSET UNITYSDK_OFFSET(0x1866D6C0)
+#define BGCLHGEEDKM_GBJGIJONEFG_OFFSET UNITYSDK_OFFSET(0x1866D640)
+#define BGCLHGEEDKM_JPPEEOLOGGP_1_OFFSET UNITYSDK_OFFSET(0x1866D7E0)
+#define BGCLHGEEDKM_JPPEEOLOGGP_OFFSET UNITYSDK_OFFSET(0x1866D740)
+#define BGCLHGEEDKM_NBEICDBDCKD_OFFSET UNITYSDK_OFFSET(0x1866D7D0)
+#define BGCLHGEEDKM__CTOR_OFFSET UNITYSDK_OFFSET(0x1866D500)
+
+inline static constexpr unsigned int BGCLHGEEDKM_TypeDefinitionIndex = 72188;
+
+class BGCLHGEEDKM : public ::System::Object
+{
+public:
+	::UnityEngine::UI::Extension::UITimeWidget* CJLPFJGCAAI; // 0x10
+	::MonoUITableScrollV2* OLLEHOJAOGN; // 0x18
+	::DCNGDMKEFIB* _AEANKPFAPHM_k__BackingField; // 0x20
+	::LGINJIKKBJA* ANOCCCJPLFL; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* HFILCGNGJBK; // 0x30
+	::LGINJIKKBJA* PJGLNHAAGOD; // 0x38
+	::MEKABAIJMNM_1<::MoleMole::UIActivityCompWeekRewardBtnWidgetController*>* NHOPFJNDAHA; // 0x40
+	::LGINJIKKBJA* CNEMGKPCIBB; // 0x48
+
+	::System::Void _ctor(::DCNGDMKEFIB* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::DCNGDMKEFIB*))((::PBYTE)hIl2Cpp + BGCLHGEEDKM__CTOR_OFFSET))(this, IOKOLJDCKPN);
+	}
+
+	static ::BGCLHGEEDKM* JPPEEOLOGGP(::JECNGBBIEMN* IOKOLJDCKPN)
+	{
+		return ((::BGCLHGEEDKM*(*)(::JECNGBBIEMN*))((::PBYTE)hIl2Cpp + BGCLHGEEDKM_JPPEEOLOGGP_OFFSET))(IOKOLJDCKPN);
+	}
+
+	::DCNGDMKEFIB* FAAFMPDBCAM()
+	{
+		return ((::DCNGDMKEFIB*(*)(::PVOID))((::PBYTE)hIl2Cpp + BGCLHGEEDKM_FAAFMPDBCAM_OFFSET))(this);
+	}
+
+	::System::Void NBEICDBDCKD(::DCNGDMKEFIB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::DCNGDMKEFIB*))((::PBYTE)hIl2Cpp + BGCLHGEEDKM_NBEICDBDCKD_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	static ::BGCLHGEEDKM* JPPEEOLOGGP_1(::NBEBLJIEAGG* IOKOLJDCKPN)
+	{
+		return ((::BGCLHGEEDKM*(*)(::NBEBLJIEAGG*))((::PBYTE)hIl2Cpp + BGCLHGEEDKM_JPPEEOLOGGP_1_OFFSET))(IOKOLJDCKPN);
+	}
+
+	::System::Void GBJGIJONEFG(::NBEBLJIEAGG* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::NBEBLJIEAGG*))((::PBYTE)hIl2Cpp + BGCLHGEEDKM_GBJGIJONEFG_OFFSET))(this, IOKOLJDCKPN);
+	}
+
+	::System::Void GBJGIJONEFG_1(::JECNGBBIEMN* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::JECNGBBIEMN*))((::PBYTE)hIl2Cpp + BGCLHGEEDKM_GBJGIJONEFG_1_OFFSET))(this, IOKOLJDCKPN);
+	}
+};

@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AOKFPNKJOON_BIIINGKDJKA_JNNFOPGBDOG;
+class AOKFPNKJOON_EMJKPEHOPGH;
+class GDCLGFPAMDH;
+class PJHKDJEGJOG;
+
+#define AOKFPNKJOON_AFBMPKGPOAM_IDPNGDJJECL_OFFSET UNITYSDK_OFFSET(0x17DE8E70)
+#define AOKFPNKJOON_AFBMPKGPOAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17DE8E60)
+
+inline static constexpr unsigned int AOKFPNKJOON_AFBMPKGPOAM_TypeDefinitionIndex = 51466;
+
+class AOKFPNKJOON_AFBMPKGPOAM : public ::System::Object
+{
+public:
+	::PJHKDJEGJOG* EGGOCICCFJC; // 0x10
+	::AOKFPNKJOON_BIIINGKDJKA_JNNFOPGBDOG* FKLOOAEOIDF; // 0x18
+	::GDCLGFPAMDH* NEMKJPLPOKD; // 0x20
+	::AOKFPNKJOON_EMJKPEHOPGH* FGBNBFHOKAA; // 0x28
+	::System::Single HHMMKIAFHOC; // 0x30
+	::System::Boolean PLCJLHLIMGG; // 0x34
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOKFPNKJOON_AFBMPKGPOAM__CTOR_OFFSET))(this);
+	}
+
+	::System::Void IDPNGDJJECL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOKFPNKJOON_AFBMPKGPOAM_IDPNGDJJECL_OFFSET))(this);
+	}
+};

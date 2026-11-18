@@ -5,21 +5,21 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTRENAMEEVENTARGS_GET_COMPONENT_OFFSET UNITYSDK_OFFSET(0x1DD12470)
-#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTRENAMEEVENTARGS_GET_NEWNAME_OFFSET UNITYSDK_OFFSET(0x1DD12490)
-#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTRENAMEEVENTARGS_GET_OLDNAME_OFFSET UNITYSDK_OFFSET(0x1DD12480)
-#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTRENAMEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD124A0)
+#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTRENAMEEVENTARGS_GET_COMPONENT_OFFSET UNITYSDK_OFFSET(0x1E0B3190)
+#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTRENAMEEVENTARGS_GET_NEWNAME_OFFSET UNITYSDK_OFFSET(0x1E0B31B0)
+#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTRENAMEEVENTARGS_GET_OLDNAME_OFFSET UNITYSDK_OFFSET(0x1E0B31A0)
+#define SYSTEM_COMPONENTMODEL_DESIGN_COMPONENTRENAMEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0B31C0)
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int ComponentRenameEventArgs_TypeDefinitionIndex = 3040;
+	inline static constexpr unsigned int ComponentRenameEventArgs_TypeDefinitionIndex = 3039;
 
 	class ComponentRenameEventArgs : public ::System::EventArgs
 	{
 	public:
 		::System::Object* component; // 0x10
-		::System::String* newName; // 0x18
-		::System::String* oldName; // 0x20
+		::System::String* oldName; // 0x18
+		::System::String* newName; // 0x20
 
 		::System::Void _ctor(::System::Object* component, ::System::String* oldName, ::System::String* newName)
 		{

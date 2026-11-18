@@ -7,19 +7,19 @@ namespace System::ComponentModel { class RunWorkerCompletedEventArgs; }
 namespace System::Net::Mail { class MailMessage; }
 namespace System::Net::Mail { class SmtpClient; }
 
-#define SYSTEM_NET_MAIL_SMTPCLIENT___C__DISPLAYCLASS90_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4756B0)
-#define SYSTEM_NET_MAIL_SMTPCLIENT___C__DISPLAYCLASS90_0__SENDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1D4756C0)
-#define SYSTEM_NET_MAIL_SMTPCLIENT___C__DISPLAYCLASS90_0__SENDASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1D475790)
+#define SYSTEM_NET_MAIL_SMTPCLIENT___C__DISPLAYCLASS90_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D930820)
+#define SYSTEM_NET_MAIL_SMTPCLIENT___C__DISPLAYCLASS90_0__SENDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1D930830)
+#define SYSTEM_NET_MAIL_SMTPCLIENT___C__DISPLAYCLASS90_0__SENDASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1D930900)
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int SmtpClient___c__DisplayClass90_0_TypeDefinitionIndex = 3599;
+	inline static constexpr unsigned int SmtpClient___c__DisplayClass90_0_TypeDefinitionIndex = 3598;
 
 	class SmtpClient___c__DisplayClass90_0 : public ::System::Object
 	{
 	public:
-		::System::Net::Mail::MailMessage* message; // 0x10
-		::System::Net::Mail::SmtpClient* __4__this; // 0x18
+		::System::Net::Mail::SmtpClient* __4__this; // 0x10
+		::System::Net::Mail::MailMessage* message; // 0x18
 
 		::System::Void _ctor()
 		{

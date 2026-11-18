@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_D375C91CCE5D3999;
+class CJIEIHEDMME;
 
-#define MOLEMOLE_UIACTIVITYAVATARAWARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B240580)
+#define MOLEMOLE_UIACTIVITYAVATARAWARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C107560)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityAvatarAwardContext_TypeDefinitionIndex = 50217;
+	inline static constexpr unsigned int UIActivityAvatarAwardContext_TypeDefinitionIndex = 53932;
 
 	class UIActivityAvatarAwardContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_D375C91CCE5D3999* componentActivityData; // 0x28
+		::CJIEIHEDMME* componentActivityData; // 0x28
 
 		::System::Void _ctor()
 		{

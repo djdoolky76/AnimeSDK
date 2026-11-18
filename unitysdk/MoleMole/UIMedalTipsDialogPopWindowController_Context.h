@@ -2,20 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-namespace System { class String; }
+class JFDMHLOBDGB;
 
-#define MOLEMOLE_UIMEDALTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x168D12C0)
+#define MOLEMOLE_UIMEDALTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17C76E00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMedalTipsDialogPopWindowController_Context_TypeDefinitionIndex = 71347;
+	inline static constexpr unsigned int UIMedalTipsDialogPopWindowController_Context_TypeDefinitionIndex = 63921;
 
 	class UIMedalTipsDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* currMedalValue; // 0x28
-		::System::UInt32 medalID; // 0x30
-		::System::Boolean isHideMedalVal; // 0x34
+		::JFDMHLOBDGB* FriendSystemMedalData; // 0x28
 
 		::System::Void _ctor()
 		{

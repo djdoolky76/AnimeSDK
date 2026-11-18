@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Reflection/Emit/Label.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 
-namespace MessagePack::Internal { class DynamicObjectTypeBuilder___c__DisplayClass9_2; }
 namespace System { class String; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_3__BUILDDESERIALIZE_B__6_OFFSET UNITYSDK_OFFSET(0x1E7AE320)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_3__BUILDDESERIALIZE_B__7_OFFSET UNITYSDK_OFFSET(0x1E7AE530)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AE210)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_3__BUILDDESERIALIZE_B__6_OFFSET UNITYSDK_OFFSET(0x1EA5F3E0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_3__BUILDDESERIALIZE_B__7_OFFSET UNITYSDK_OFFSET(0x1EA5F5F0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5F2D0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass9_3_TypeDefinitionIndex = 31063;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass9_3_TypeDefinitionIndex = 30641;
 
+	template <typename T1, typename T2, typename T3>
 	class DynamicObjectTypeBuilder___c__DisplayClass9_3 : public ::System::Object
 	{
 	public:
-		::MessagePack::Internal::DynamicObjectTypeBuilder___c__DisplayClass9_2* CS___8__locals3; // 0x10
+		::System::Object* CS___8__locals3; // 0x10
 		::System::Reflection::Emit::Label readNext; // 0x18
 		::System::Reflection::Emit::Label loopEnd; // 0x1C
 

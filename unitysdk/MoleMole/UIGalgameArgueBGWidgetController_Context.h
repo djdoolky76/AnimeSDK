@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/GalGame/GalNPCLocation.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIGALGAMEARGUEBGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1938FF20)
+#define MOLEMOLE_UIGALGAMEARGUEBGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16EDC430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgameArgueBGWidgetController_Context_TypeDefinitionIndex = 74806;
+	inline static constexpr unsigned int UIGalgameArgueBGWidgetController_Context_TypeDefinitionIndex = 57394;
 
 	class UIGalgameArgueBGWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

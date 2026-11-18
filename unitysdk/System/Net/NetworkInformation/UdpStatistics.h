@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_UDPSTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D897A30)
+#define SYSTEM_NET_NETWORKINFORMATION_UDPSTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD45330)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int UdpStatistics_TypeDefinitionIndex = 3747;
+	inline static constexpr unsigned int UdpStatistics_TypeDefinitionIndex = 3746;
 
 	class UdpStatistics : public ::System::Object
 	{

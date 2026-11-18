@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Net/Http/Headers/Token.h"
 #include "unitysdk/System/Net/Http/Headers/TransferCodingHeaderValue.h"
+#include "unitysdk/System/Net/Http/Headers/Token.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class Lexer; }
 
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGWITHQUALITYHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1E8485F0)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGWITHQUALITYHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E848570)
-#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGWITHQUALITYHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E848560)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGWITHQUALITYHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1EAED840)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGWITHQUALITYHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EAED7C0)
+#define SYSTEM_NET_HTTP_HEADERS_TRANSFERCODINGWITHQUALITYHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAED7B0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int TransferCodingWithQualityHeaderValue_TypeDefinitionIndex = 26749;
+	inline static constexpr unsigned int TransferCodingWithQualityHeaderValue_TypeDefinitionIndex = 26117;
 
 	class TransferCodingWithQualityHeaderValue : public ::System::Net::Http::Headers::TransferCodingHeaderValue
 	{

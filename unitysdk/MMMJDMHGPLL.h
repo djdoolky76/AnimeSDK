@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HJFKHEKOPBD.h"
+
+class ANAPNFPOMNG;
+
+#define MMMJDMHGPLL_ANEOCOIFDDJ_OFFSET UNITYSDK_OFFSET(0x17D52B90)
+#define MMMJDMHGPLL_BAEOMKCHECF_OFFSET UNITYSDK_OFFSET(0x17D52A70)
+#define MMMJDMHGPLL_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x17D52C20)
+#define MMMJDMHGPLL_FCMNHLDLJCI_OFFSET UNITYSDK_OFFSET(0x17D52AC0)
+#define MMMJDMHGPLL_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x17D52A10)
+#define MMMJDMHGPLL_OMEIBIPJGDH_OFFSET UNITYSDK_OFFSET(0x17D52CB0)
+#define MMMJDMHGPLL__CTOR_OFFSET UNITYSDK_OFFSET(0x17D52B80)
+
+inline static constexpr unsigned int MMMJDMHGPLL_TypeDefinitionIndex = 64287;
+
+class MMMJDMHGPLL : public ::HJFKHEKOPBD
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MMMJDMHGPLL__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MMMJDMHGPLL_OJENCMOGDKL_OFFSET))(this);
+	}
+
+	::System::Void BAEOMKCHECF(::ANAPNFPOMNG* DACKALLJNNF)
+	{
+		return ((::System::Void(*)(::PVOID, ::ANAPNFPOMNG*))((::PBYTE)hIl2Cpp + MMMJDMHGPLL_BAEOMKCHECF_OFFSET))(this, DACKALLJNNF);
+	}
+
+	::System::Void FCMNHLDLJCI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MMMJDMHGPLL_FCMNHLDLJCI_OFFSET))(this);
+	}
+
+	::System::Void ANEOCOIFDDJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MMMJDMHGPLL_ANEOCOIFDDJ_OFFSET))(this);
+	}
+
+	::System::Void ECNOGHHOPPF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MMMJDMHGPLL_ECNOGHHOPPF_OFFSET))(this);
+	}
+
+	::System::Void OMEIBIPJGDH(::ANAPNFPOMNG* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::ANAPNFPOMNG*))((::PBYTE)hIl2Cpp + MMMJDMHGPLL_OMEIBIPJGDH_OFFSET))(this, MIALFKCCCPI);
+	}
+};

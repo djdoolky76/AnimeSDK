@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 30119;
+	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 30806;
 
 	template <typename T>
-	class Buffer_1 : public ::FlowCanvas::Nodes::PureFunctionNode_3<T, T, ::System::Int32>
+	class Buffer_1
 	{
 	public:
 		::System::Int32 lastFrame; // 0x0

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/UriParser.h"
 
-#define SYSTEM_HTTPSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FABA0)
+#define SYSTEM_HTTPSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D882B60)
 
 namespace System
 {
-	inline static constexpr unsigned int HttpStyleUriParser_TypeDefinitionIndex = 2679;
+	inline static constexpr unsigned int HttpStyleUriParser_TypeDefinitionIndex = 2678;
 
 	class HttpStyleUriParser : public ::System::UriParser
 	{

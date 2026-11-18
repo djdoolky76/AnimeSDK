@@ -3,7 +3,7 @@
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int IImmutableList_TypeDefinitionIndex = 6496;
+	inline static constexpr unsigned int IImmutableList_TypeDefinitionIndex = 6502;
 
 	class IImmutableList
 	{

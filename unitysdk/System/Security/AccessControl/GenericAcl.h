@@ -7,33 +7,33 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Security::AccessControl { class AceEnumerator; }
 namespace System::Security::AccessControl { class GenericAce; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_COPYTO_OFFSET UNITYSDK_OFFSET(0x1DDE9D40)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DDE9F60)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x1DDE9D20)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x1DDE9D30)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_SYSTEM_COLLECTIONS_ICOLLECTION_COPYTO_OFFSET UNITYSDK_OFFSET(0x1DDE9EE0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DDE9FB0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDE9CF0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE9D10)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_COPYTO_OFFSET UNITYSDK_OFFSET(0x1E26AA40)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E26AC60)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_GET_ISSYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x1E26AA20)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x1E26AA30)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_SYSTEM_COLLECTIONS_ICOLLECTION_COPYTO_OFFSET UNITYSDK_OFFSET(0x1E26ABE0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E26ACB0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E26A9F0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICACL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E26AA10)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int GenericAcl_TypeDefinitionIndex = 983;
+	inline static constexpr unsigned int GenericAcl_TypeDefinitionIndex = 982;
 
 	class GenericAcl : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_MaxBinaryLength()
+		static ::System::Byte* StaticGet_AclRevisionDS()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GenericAcl_TypeDefinitionIndex)->GetStaticField(0x110);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(GenericAcl_TypeDefinitionIndex)->GetStaticField(0x110);
 		}
 		static ::System::Byte* StaticGet_AclRevision()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(GenericAcl_TypeDefinitionIndex)->GetStaticField(0x114);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(GenericAcl_TypeDefinitionIndex)->GetStaticField(0x111);
 		}
-		static ::System::Byte* StaticGet_AclRevisionDS()
+		static ::System::Int32* StaticGet_MaxBinaryLength()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(GenericAcl_TypeDefinitionIndex)->GetStaticField(0x115);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GenericAcl_TypeDefinitionIndex)->GetStaticField(0x114);
 		}
 
 		static ::System::Void _cctor()

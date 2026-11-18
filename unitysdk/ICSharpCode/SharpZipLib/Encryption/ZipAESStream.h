@@ -6,22 +6,22 @@
 namespace ICSharpCode::SharpZipLib::Encryption { class ZipAESTransform; }
 namespace System::IO { class Stream; }
 
-#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_ZIPAESSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1FB72C70)
-#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_ZIPAESSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1FB73080)
-#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_ZIPAESSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB72BC0)
+#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_ZIPAESSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1FF738D0)
+#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_ZIPAESSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1FF73CE0)
+#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_ZIPAESSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF73820)
 
 namespace ICSharpCode::SharpZipLib::Encryption
 {
-	inline static constexpr unsigned int ZipAESStream_TypeDefinitionIndex = 6803;
+	inline static constexpr unsigned int ZipAESStream_TypeDefinitionIndex = 6810;
 
 	class ZipAESStream : public ::System::Security::Cryptography::CryptoStream
 	{
 	public:
 		// static const ::System::Int32 AUTH_CODE_LENGTH = 0xA; // 0x0
 		// static const ::System::Int32 CRYPTO_BLOCK_SIZE = 0x10; // 0x0
-		::System::IO::Stream* _stream; // 0x60
-		::Il2CppArray<::System::Byte>* _slideBuffer; // 0x68
-		::ICSharpCode::SharpZipLib::Encryption::ZipAESTransform* _transform; // 0x70
+		::ICSharpCode::SharpZipLib::Encryption::ZipAESTransform* _transform; // 0x60
+		::System::IO::Stream* _stream; // 0x68
+		::Il2CppArray<::System::Byte>* _slideBuffer; // 0x70
 		::System::Int32 _slideBufStartPos; // 0x78
 		::System::Int32 _blockAndAuth; // 0x7C
 		::System::Int32 _slideBufFreePos; // 0x80

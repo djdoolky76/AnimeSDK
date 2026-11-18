@@ -1,55 +1,55 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/FName.h"
+#include "unitysdk/PipelineCamera/CameraSequence/MoveByBlending_MoveTargetDataProvider.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
-#include "unitysdk/PipelineCamera/CameraSequence/MoveByBlending_MoveTargetDataProvider.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace MoleMole::FlowCanvas::Nodes { class AspectRatioProvider; }
 namespace Nap::NapECS { class EcsWorld; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x11A27F60)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_AVATARID_OFFSET UNITYSDK_OFFSET(0x11A28260)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_ENTITYWORLD_OFFSET UNITYSDK_OFFSET(0x11A28310)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_FIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x11A28100)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_HEIGHTRATIO_OFFSET UNITYSDK_OFFSET(0x11A281B0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_GETDATA_OFFSET UNITYSDK_OFFSET(0x11A27820)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_GETDESIREDRADIUS_OFFSET UNITYSDK_OFFSET(0x11A27610)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x11A27EB0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_SETPATH_OFFSET UNITYSDK_OFFSET(0x11A27EC0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO__CCTOR_OFFSET UNITYSDK_OFFSET(0x11A28410)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x11A283C0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x11A28520)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x11A28610)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x18F7A8E0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_AVATARID_OFFSET UNITYSDK_OFFSET(0x18F7ABE0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_ENTITYWORLD_OFFSET UNITYSDK_OFFSET(0x18F7AC90)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_FIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x18F7AA80)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_FETCH_HEIGHTRATIO_OFFSET UNITYSDK_OFFSET(0x18F7AB30)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_GETDATA_OFFSET UNITYSDK_OFFSET(0x18F7A1A0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_GETDESIREDRADIUS_OFFSET UNITYSDK_OFFSET(0x18F79FA0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x18F7A830)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO_SETPATH_OFFSET UNITYSDK_OFFSET(0x18F7A840)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F7AD90)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x18F7AD40)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x18F7AEA0)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_MOVEFORWARDTARGETBYHEIGHTRATIO___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x18F7AF90)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int MoveForwardTargetByHeightRatio_TypeDefinitionIndex = 40347;
+	inline static constexpr unsigned int MoveForwardTargetByHeightRatio_TypeDefinitionIndex = 60935;
 
 	class MoveForwardTargetByHeightRatio : public ::PipelineCamera::CameraSequence::MoveByBlending_MoveTargetDataProvider
 	{
 	public:
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_heightRatio()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_AvatarId()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xF9C0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0x10F90);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityWorld()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xF9C8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0x10F98);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_heightRatio()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0x10FA0);
 		}
 		static ::Foundation::Unreal::FName* StaticGet_CachedId()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xF9D0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0x10FA8);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_fieldOfView()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xF9D8);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_AvatarId()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0xF9E0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(MoveForwardTargetByHeightRatio_TypeDefinitionIndex)->GetStaticField(0x10FB0);
 		}
 		::MoleMole::FlowCanvas::Nodes::AspectRatioProvider* aspectRatio; // 0x40
 		::System::Single fieldOfView; // 0x48

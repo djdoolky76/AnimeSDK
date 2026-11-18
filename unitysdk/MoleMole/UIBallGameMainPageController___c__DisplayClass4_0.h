@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBallGameMainPageController; }
 
-#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3E86E0)
-#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER___C__DISPLAYCLASS4_0__OPENTUTORIAL_B__0_OFFSET UNITYSDK_OFFSET(0x1F3E86F0)
+#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F695530)
+#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER___C__DISPLAYCLASS4_0__OPENTUTORIAL_B__0_OFFSET UNITYSDK_OFFSET(0x1F695540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameMainPageController___c__DisplayClass4_0_TypeDefinitionIndex = 93362;
+	inline static constexpr unsigned int UIBallGameMainPageController___c__DisplayClass4_0_TypeDefinitionIndex = 95144;
 
 	class UIBallGameMainPageController___c__DisplayClass4_0 : public ::System::Object
 	{

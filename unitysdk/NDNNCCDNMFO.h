@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class ENGKPGFGGLM;
+class JEKOHJMBOOI;
+class MJHDNMKGLBJ;
+namespace System { class String; }
+
+#define NDNNCCDNMFO_ANEOCOIFDDJ_OFFSET UNITYSDK_OFFSET(0x10D71160)
+#define NDNNCCDNMFO_BPKNEKOKBCK_OFFSET UNITYSDK_OFFSET(0x10D71170)
+#define NDNNCCDNMFO_CIKEFIMLOPE_OFFSET UNITYSDK_OFFSET(0x10D71180)
+#define NDNNCCDNMFO_EFJCEJALMMG_OFFSET UNITYSDK_OFFSET(0x10D70D50)
+#define NDNNCCDNMFO_KLKDOHADIDL_OFFSET UNITYSDK_OFFSET(0x10D712B0)
+#define NDNNCCDNMFO_ONEVENT_OFFSET UNITYSDK_OFFSET(0x10D70FD0)
+#define NDNNCCDNMFO_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x10D71120)
+#define NDNNCCDNMFO__CTOR_OFFSET UNITYSDK_OFFSET(0x10D70E30)
+
+inline static constexpr unsigned int NDNNCCDNMFO_TypeDefinitionIndex = 81834;
+
+class NDNNCCDNMFO
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NDNNCCDNMFO__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean EFJCEJALMMG(::MJHDNMKGLBJ*& HBNBIBADGNH)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::MJHDNMKGLBJ*&))((::PBYTE)hIl2Cpp + NDNNCCDNMFO_EFJCEJALMMG_OFFSET))(this, HBNBIBADGNH);
+	}
+
+	::System::Void OnEvent(::ENGKPGFGGLM* FFNKDGGHBPP)
+	{
+		return ((::System::Void(*)(::PVOID, ::ENGKPGFGGLM*))((::PBYTE)hIl2Cpp + NDNNCCDNMFO_ONEVENT_OFFSET))(this, FFNKDGGHBPP);
+	}
+
+	::System::Void OnRecycle()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NDNNCCDNMFO_ONRECYCLE_OFFSET))(this);
+	}
+
+	::System::Void ANEOCOIFDDJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NDNNCCDNMFO_ANEOCOIFDDJ_OFFSET))(this);
+	}
+
+	::System::Void BPKNEKOKBCK(::ENGKPGFGGLM* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::ENGKPGFGGLM*))((::PBYTE)hIl2Cpp + NDNNCCDNMFO_BPKNEKOKBCK_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::JEKOHJMBOOI* CIKEFIMLOPE(::System::Int32 KFIGDGKJAHA, ::System::String* FKMHMOELCIO)
+	{
+		return ((::JEKOHJMBOOI*(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + NDNNCCDNMFO_CIKEFIMLOPE_OFFSET))(this, KFIGDGKJAHA, FKMHMOELCIO);
+	}
+
+	::System::Void KLKDOHADIDL(::System::Int32 KFIGDGKJAHA, ::System::Int32 FFFFBNGHDKF)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NDNNCCDNMFO_KLKDOHADIDL_OFFSET))(this, KFIGDGKJAHA, FFFFBNGHDKF);
+	}
+};

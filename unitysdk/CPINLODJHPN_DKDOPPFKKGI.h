@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class CPINLODJHPN_CPOIENCAPPG;
+class CPINLODJHPN_PDLBILPIEMH;
+
+#define CPINLODJHPN_DKDOPPFKKGI_OKBKCKGNCNH_OFFSET UNITYSDK_OFFSET(0x1327EE80)
+#define CPINLODJHPN_DKDOPPFKKGI__CTOR_OFFSET UNITYSDK_OFFSET(0x13278C90)
+
+inline static constexpr unsigned int CPINLODJHPN_DKDOPPFKKGI_TypeDefinitionIndex = 77476;
+
+class CPINLODJHPN_DKDOPPFKKGI : public ::System::Object
+{
+public:
+	::CPINLODJHPN_PDLBILPIEMH* KGFKHBMEKBL; // 0x10
+	::System::Int32 ABHBKFJKINO; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CPINLODJHPN_DKDOPPFKKGI__CTOR_OFFSET))(this);
+	}
+
+	::CPINLODJHPN_CPOIENCAPPG* OKBKCKGNCNH()
+	{
+		return ((::CPINLODJHPN_CPOIENCAPPG*(*)(::PVOID))((::PBYTE)hIl2Cpp + CPINLODJHPN_DKDOPPFKKGI_OKBKCKGNCNH_OFFSET))(this);
+	}
+};

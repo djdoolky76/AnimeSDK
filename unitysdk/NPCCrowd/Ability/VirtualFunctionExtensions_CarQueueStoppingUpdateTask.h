@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Ability/CarQueueStoppingUpdateTask.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/NPCCrowd/Ability/CarQueueStoppingUpdateTask.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_CARQUEUESTOPPINGUPDATETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x12D0C1B0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_CARQUEUESTOPPINGUPDATETASK_LINK_OFFSET UNITYSDK_OFFSET(0x12D0C0D0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_CARQUEUESTOPPINGUPDATETASK_TICK_OFFSET UNITYSDK_OFFSET(0x12D0C2A0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_CARQUEUESTOPPINGUPDATETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1378CA80)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_CARQUEUESTOPPINGUPDATETASK_LINK_OFFSET UNITYSDK_OFFSET(0x1378C9A0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_CARQUEUESTOPPINGUPDATETASK_TICK_OFFSET UNITYSDK_OFFSET(0x1378CB70)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_CarQueueStoppingUpdateTask_TypeDefinitionIndex = 80672;
+	inline static constexpr unsigned int VirtualFunctionExtensions_CarQueueStoppingUpdateTask_TypeDefinitionIndex = 77396;
 
 	class VirtualFunctionExtensions_CarQueueStoppingUpdateTask : public ::System::Object
 	{

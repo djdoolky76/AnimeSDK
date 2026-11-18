@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DynamicArray_1_TypeDefinitionIndex = 5996;
+	inline static constexpr unsigned int DynamicArray_1_TypeDefinitionIndex = 6004;
 
 	template <typename T>
 	class DynamicArray_1 : public ::System::Object

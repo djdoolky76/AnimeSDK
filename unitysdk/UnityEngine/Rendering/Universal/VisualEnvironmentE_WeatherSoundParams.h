@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisualEnvironmentE_WeatherSoundParams_TypeDefinitionIndex = 27438;
+	inline static constexpr unsigned int VisualEnvironmentE_WeatherSoundParams_TypeDefinitionIndex = 26362;
 
 	struct alignas(8) VisualEnvironmentE_WeatherSoundParams
 	{

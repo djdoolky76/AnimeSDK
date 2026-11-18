@@ -8,15 +8,17 @@ namespace MoleMole::Config { class ChessboardPerformEventTimeLineElement; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessboardTimeLineConfig_TypeDefinitionIndex = 51942;
+	inline static constexpr unsigned int ChessboardTimeLineConfig_TypeDefinitionIndex = 89661;
 
 	struct alignas(8) ChessboardTimeLineConfig
 	{
 		::System::Boolean isUseStartIndex; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Int32 startChessPieceIndex; // 0x14
 		::System::Single startChessPieceDelayTime; // 0x18
 		::System::Int32 fairyConfigID; // 0x1C
 		::System::Single performanceDelayTime; // 0x20
+		::System::Byte _padding1[0x4];
 		::MoleMole::Config::ChessboardCameraTimeLineElement* cameraInitEvent1; // 0x28
 		::MoleMole::Config::ChessboardAnimTimeLineElement* chessboardAnimEvent; // 0x30
 		::MoleMole::Config::ChessboardPerformEventTimeLineElement* chessboardPerformEvent; // 0x38

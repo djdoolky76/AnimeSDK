@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class CustomAttributeData; }
 
-#define SQLITE_TABLEMAPPING_COLUMN___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA0DE80)
-#define SQLITE_TABLEMAPPING_COLUMN___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA0DEC0)
-#define SQLITE_TABLEMAPPING_COLUMN___C___CTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1EA0DED0)
+#define SQLITE_TABLEMAPPING_COLUMN___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED02B00)
+#define SQLITE_TABLEMAPPING_COLUMN___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED02B40)
+#define SQLITE_TABLEMAPPING_COLUMN___C___CTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1ED02B50)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int TableMapping_Column___c_TypeDefinitionIndex = 39055;
+	inline static constexpr unsigned int TableMapping_Column___c_TypeDefinitionIndex = 37055;
 
 	class TableMapping_Column___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TableMapping_Column___c_TypeDefinitionIndex)->GetStaticField(0x2BCC0);
+		}
 		static ::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>** StaticGet___9__53_0()
 		{
-			return (::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TableMapping_Column___c_TypeDefinitionIndex)->GetStaticField(0x2A960);
-		}
-		static ::SQLite::TableMapping_Column___c** StaticGet___9()
-		{
-			return (::SQLite::TableMapping_Column___c**)Il2CppClass::FromTypeDefinitionIndex(TableMapping_Column___c_TypeDefinitionIndex)->GetStaticField(0x2A968);
+			return (::System::Func_2<::System::Reflection::CustomAttributeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TableMapping_Column___c_TypeDefinitionIndex)->GetStaticField(0x2BCC8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,11 +3,11 @@
 
 namespace AniMeshTick
 {
-	inline static constexpr unsigned int AniMeshTickManager_TargetType_TypeDefinitionIndex = 86035;
+	inline static constexpr unsigned int AniMeshTickManager_TargetType_TypeDefinitionIndex = 84759;
 
 	enum class AniMeshTickManager_TargetType : ::System::Int32
 	{
-		Spline = 0,
 		Controller = 1,
+		Spline = 0,
 	};
 }

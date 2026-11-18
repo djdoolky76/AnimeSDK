@@ -8,23 +8,25 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINCLIPPLANE_GETFOLLOWTARGET2_OFFSET UNITYSDK_OFFSET(0x118E71C0)
-#define MOLEMOLE_MONOEFFECTPLUGINCLIPPLANE_GETFOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0x118E7050)
-#define MOLEMOLE_MONOEFFECTPLUGINCLIPPLANE__CTOR_OFFSET UNITYSDK_OFFSET(0x118E7200)
+#define MOLEMOLE_MONOEFFECTPLUGINCLIPPLANE_GETFOLLOWTARGET2_OFFSET UNITYSDK_OFFSET(0x16267340)
+#define MOLEMOLE_MONOEFFECTPLUGINCLIPPLANE_GETFOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0x162671D0)
+#define MOLEMOLE_MONOEFFECTPLUGINCLIPPLANE__CTOR_OFFSET UNITYSDK_OFFSET(0x16267380)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginClipPlane_TypeDefinitionIndex = 56393;
+	inline static constexpr unsigned int MonoEffectPluginClipPlane_TypeDefinitionIndex = 64589;
 
 	class MonoEffectPluginClipPlane : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean NeedCheckFollowTargetActiveState; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Transform* FollowTarget; // 0x20
 		::UnityEngine::Transform* FollowTarget2; // 0x28
 		::System::String* MaterialPropertyModifierKey; // 0x30
 		::System::Collections::Generic::List_1<::MoleMole::Config::RenderMaterial*>* MaterialFilters; // 0x38
 		::System::Boolean OnlyFirstFrame; // 0x40
+		::System::Byte _padding1[0x7];
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* ParticleSystemsToClipPlane; // 0x48
 
 		::System::Void _ctor()

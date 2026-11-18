@@ -7,7 +7,7 @@ namespace UnityEngine { class Animation; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIGameObjectNumber_NumberAnimation_TypeDefinitionIndex = 89104;
+	inline static constexpr unsigned int MonoUIGameObjectNumber_NumberAnimation_TypeDefinitionIndex = 86277;
 
 	struct alignas(8) MonoUIGameObjectNumber_NumberAnimation
 	{

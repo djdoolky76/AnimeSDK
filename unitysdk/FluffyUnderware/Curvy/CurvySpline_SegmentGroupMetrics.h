@@ -5,16 +5,16 @@
 namespace FluffyUnderware::Curvy { class CurvySplineSegment; }
 namespace System { class Object; }
 
-#define FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xAB6850)
-#define FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_EQUALS_OFFSET UNITYSDK_OFFSET(0xAB6800)
-#define FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xAB68E0)
-#define FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_INCREMENT_OFFSET UNITYSDK_OFFSET(0xAB67B0)
-#define FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F86D120)
-#define FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1F86D170)
+#define FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x99D140)
+#define FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_EQUALS_OFFSET UNITYSDK_OFFSET(0x99D0F0)
+#define FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x99D1D0)
+#define FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_INCREMENT_OFFSET UNITYSDK_OFFSET(0x99D0A0)
+#define FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1FC889F0)
+#define FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1FC88A40)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvySpline_SegmentGroupMetrics_TypeDefinitionIndex = 39674;
+	inline static constexpr unsigned int CurvySpline_SegmentGroupMetrics_TypeDefinitionIndex = 37468;
 
 	struct alignas(4) CurvySpline_SegmentGroupMetrics
 	{
@@ -27,10 +27,12 @@ namespace FluffyUnderware::Curvy
 			return ((::System::Void(*)(::PVOID, ::FluffyUnderware::Curvy::CurvySplineSegment*))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_INCREMENT_OFFSET))(this, segment);
 		}
 
+		/*
 		::System::Boolean Equals(::FluffyUnderware::Curvy::CurvySpline_SegmentGroupMetrics other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::FluffyUnderware::Curvy::CurvySpline_SegmentGroupMetrics))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{
@@ -42,14 +44,18 @@ namespace FluffyUnderware::Curvy
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_GETHASHCODE_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::FluffyUnderware::Curvy::CurvySpline_SegmentGroupMetrics left, ::FluffyUnderware::Curvy::CurvySpline_SegmentGroupMetrics right)
 		{
 			return ((::System::Boolean(*)(::FluffyUnderware::Curvy::CurvySpline_SegmentGroupMetrics, ::FluffyUnderware::Curvy::CurvySpline_SegmentGroupMetrics))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_OP_EQUALITY_OFFSET))(left, right);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::FluffyUnderware::Curvy::CurvySpline_SegmentGroupMetrics left, ::FluffyUnderware::Curvy::CurvySpline_SegmentGroupMetrics right)
 		{
 			return ((::System::Boolean(*)(::FluffyUnderware::Curvy::CurvySpline_SegmentGroupMetrics, ::FluffyUnderware::Curvy::CurvySpline_SegmentGroupMetrics))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_CURVYSPLINE_SEGMENTGROUPMETRICS_OP_INEQUALITY_OFFSET))(left, right);
 		}
+		*/
 	};
 }

@@ -6,12 +6,12 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System::Net::Sockets { class Socket_SendFileHandler; }
 
-#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS259_0__BEGINSENDFILE_B__0_OFFSET UNITYSDK_OFFSET(0x1D6C0510)
-#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS259_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BEEB0)
+#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS259_0__BEGINSENDFILE_B__0_OFFSET UNITYSDK_OFFSET(0x1DBBA6A0)
+#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS259_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBB9050)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int Socket___c__DisplayClass259_0_TypeDefinitionIndex = 3659;
+	inline static constexpr unsigned int Socket___c__DisplayClass259_0_TypeDefinitionIndex = 3658;
 
 	class Socket___c__DisplayClass259_0 : public ::System::Object
 	{

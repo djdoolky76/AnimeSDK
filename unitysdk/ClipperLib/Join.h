@@ -5,17 +5,17 @@
 
 namespace ClipperLib { class OutPt; }
 
-#define CLIPPERLIB_JOIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C8DC0)
+#define CLIPPERLIB_JOIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E60BF80)
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int Join_TypeDefinitionIndex = 33423;
+	inline static constexpr unsigned int Join_TypeDefinitionIndex = 32883;
 
 	class Join : public ::System::Object
 	{
 	public:
-		::ClipperLib::OutPt* OutPt2; // 0x10
-		::ClipperLib::OutPt* OutPt1; // 0x18
+		::ClipperLib::OutPt* OutPt1; // 0x10
+		::ClipperLib::OutPt* OutPt2; // 0x18
 		::ClipperLib::IntPoint OffPt; // 0x20
 
 		::System::Void _ctor()

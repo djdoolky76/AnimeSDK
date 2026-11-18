@@ -2,20 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class SceneMaterialParameterRewriter_MaterialAnimationOverrideElement;
-class SceneMaterialParameterRewriter_TargetElement;
+#define SCENEMATERIALPARAMETERREWRITER_MATERIALANIMATIONOVERRIDEDATA_APPLY_OFFSET UNITYSDK_OFFSET(0x1E156850)
+#define SCENEMATERIALPARAMETERREWRITER_MATERIALANIMATIONOVERRIDEDATA_CLEARMPB_OFFSET UNITYSDK_OFFSET(0x1E1568F0)
+#define SCENEMATERIALPARAMETERREWRITER_MATERIALANIMATIONOVERRIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E156990)
 
-#define SCENEMATERIALPARAMETERREWRITER_MATERIALANIMATIONOVERRIDEDATA_APPLY_OFFSET UNITYSDK_OFFSET(0x1DDF4C80)
-#define SCENEMATERIALPARAMETERREWRITER_MATERIALANIMATIONOVERRIDEDATA_CLEARMPB_OFFSET UNITYSDK_OFFSET(0x1DDF4D20)
-#define SCENEMATERIALPARAMETERREWRITER_MATERIALANIMATIONOVERRIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF4DC0)
-
-inline static constexpr unsigned int SceneMaterialParameterRewriter_MaterialAnimationOverrideData_TypeDefinitionIndex = 27000;
+inline static constexpr unsigned int SceneMaterialParameterRewriter_MaterialAnimationOverrideData_TypeDefinitionIndex = 26794;
 
 class SceneMaterialParameterRewriter_MaterialAnimationOverrideData : public ::System::Object
 {
 public:
-	::Il2CppArray<::SceneMaterialParameterRewriter_TargetElement*>* renderList; // 0x10
-	::Il2CppArray<::SceneMaterialParameterRewriter_MaterialAnimationOverrideElement*>* propertyList; // 0x18
+	::Il2CppArray<::System::Object*>* renderList; // 0x10
+	::Il2CppArray<::System::Object*>* propertyList; // 0x18
 
 	::System::Void _ctor()
 	{

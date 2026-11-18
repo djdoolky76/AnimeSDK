@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIBINDERGENERALLEVELRESISTANCEANDRECOMMANDATTRIBUTEWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1802DC30)
+#define MOLEMOLE_UIBINDERGENERALLEVELRESISTANCEANDRECOMMANDATTRIBUTEWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x191922C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBinderGeneralLevelResistanceAndRecommandAttributeWidgetController_Context_TypeDefinitionIndex = 64216;
+	inline static constexpr unsigned int UIBinderGeneralLevelResistanceAndRecommandAttributeWidgetController_Context_TypeDefinitionIndex = 87038;
 
 	class UIBinderGeneralLevelResistanceAndRecommandAttributeWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

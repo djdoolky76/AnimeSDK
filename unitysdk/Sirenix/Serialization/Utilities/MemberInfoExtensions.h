@@ -3,15 +3,13 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Reflection { class ICustomAttributeProvider; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SIRENIX_SERIALIZATION_UTILITIES_MEMBERINFOEXTENSIONS_GETNICENAME_OFFSET UNITYSDK_OFFSET(0x1FB99350)
+#define SIRENIX_SERIALIZATION_UTILITIES_MEMBERINFOEXTENSIONS_GETNICENAME_OFFSET UNITYSDK_OFFSET(0x1FF9CE00)
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int MemberInfoExtensions_TypeDefinitionIndex = 7622;
+	inline static constexpr unsigned int MemberInfoExtensions_TypeDefinitionIndex = 7634;
 
 	class MemberInfoExtensions : public ::System::Object
 	{

@@ -5,23 +5,23 @@
 namespace MoleMole { class UIInLevelRankingSABInfoRowWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIINLEVELRANKINGSABINFOROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184AADA0)
-#define MOLEMOLE_UIINLEVELRANKINGSABINFOROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__REPLAY_B__0_OFFSET UNITYSDK_OFFSET(0x184AADB0)
-#define MOLEMOLE_UIINLEVELRANKINGSABINFOROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__REPLAY_B__1_OFFSET UNITYSDK_OFFSET(0x184AAE80)
-#define MOLEMOLE_UIINLEVELRANKINGSABINFOROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__REPLAY_B__2_OFFSET UNITYSDK_OFFSET(0x184AAF70)
+#define MOLEMOLE_UIINLEVELRANKINGSABINFOROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CEDA30)
+#define MOLEMOLE_UIINLEVELRANKINGSABINFOROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__REPLAY_B__0_OFFSET UNITYSDK_OFFSET(0x18CEDA40)
+#define MOLEMOLE_UIINLEVELRANKINGSABINFOROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__REPLAY_B__1_OFFSET UNITYSDK_OFFSET(0x18CEDB10)
+#define MOLEMOLE_UIINLEVELRANKINGSABINFOROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__REPLAY_B__2_OFFSET UNITYSDK_OFFSET(0x18CEDC00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelRankingSABInfoRowWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 89113;
+	inline static constexpr unsigned int UIInLevelRankingSABInfoRowWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 39404;
 
 	class UIInLevelRankingSABInfoRowWidgetController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
+		::System::Action* fadeInFinish; // 0x10
 		::MoleMole::UIInLevelRankingSABInfoRowWidgetController* __4__this; // 0x18
-		::System::Action* fadeInFinish; // 0x20
-		::System::Action* __9__1; // 0x28
-		::System::Action* finish; // 0x30
+		::System::Action* finish; // 0x20
+		::System::Action* __9__2; // 0x28
+		::System::Action* __9__1; // 0x30
 		::System::Boolean hasDuration; // 0x38
 
 		::System::Void _ctor()

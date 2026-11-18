@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/ConfigUICommon_Input_MobileButtonPositionInfo.h"
+#include "unitysdk/MoleMole/ConfigUICommon_Input_PositionType.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class Object; }
+
+#define EKDFCBELLOJ_JIHHMHPEEJE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x654BB0)
+#define EKDFCBELLOJ_JIHHMHPEEJE_EQUALS_OFFSET UNITYSDK_OFFSET(0x654AD0)
+#define EKDFCBELLOJ_JIHHMHPEEJE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x654BC0)
+#define EKDFCBELLOJ_JIHHMHPEEJE_HLPHPBAODIF_OFFSET UNITYSDK_OFFSET(0x654C50)
+#define EKDFCBELLOJ_JIHHMHPEEJE_INCFIJKMIGG_OFFSET UNITYSDK_OFFSET(0x10F3BCC0)
+#define EKDFCBELLOJ_JIHHMHPEEJE_JGBGPJACDOG_OFFSET UNITYSDK_OFFSET(0x654CB0)
+#define EKDFCBELLOJ_JIHHMHPEEJE_NOGJIJMACNO_OFFSET UNITYSDK_OFFSET(0x10F3BEC0)
+#define EKDFCBELLOJ_JIHHMHPEEJE_PPGBHNIJOIB_OFFSET UNITYSDK_OFFSET(0x10F3BEB0)
+#define EKDFCBELLOJ_JIHHMHPEEJE__CTOR_OFFSET UNITYSDK_OFFSET(0x35FE80)
+
+inline static constexpr unsigned int EKDFCBELLOJ_JIHHMHPEEJE_TypeDefinitionIndex = 42366;
+
+struct alignas(4) EKDFCBELLOJ_JIHHMHPEEJE
+{
+	::MoleMole::ConfigUICommon_Input_MobileButtonPositionInfo OCGBFLMCBLF; // 0x10
+	::MoleMole::ConfigUICommon_Input_PositionType ADBABEGHOBP; // 0x1C
+
+	::System::Void _ctor(::MoleMole::ConfigUICommon_Input_MobileButtonPositionInfo EFHMLKDJMAB, ::MoleMole::ConfigUICommon_Input_PositionType KJKHOJJANFO)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::ConfigUICommon_Input_MobileButtonPositionInfo, ::MoleMole::ConfigUICommon_Input_PositionType))((::PBYTE)hIl2Cpp + EKDFCBELLOJ_JIHHMHPEEJE__CTOR_OFFSET))(this, EFHMLKDJMAB, KJKHOJJANFO);
+	}
+
+	/*
+	::System::Boolean Equals(::EKDFCBELLOJ_JIHHMHPEEJE LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::EKDFCBELLOJ_JIHHMHPEEJE))((::PBYTE)hIl2Cpp + EKDFCBELLOJ_JIHHMHPEEJE_EQUALS_OFFSET))(this, LIBPKNHDIGP);
+	}
+	*/
+
+	::System::Boolean Equals_1(::System::Object* EIFONLCJOPG)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EKDFCBELLOJ_JIHHMHPEEJE_EQUALS_1_OFFSET))(this, EIFONLCJOPG);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EKDFCBELLOJ_JIHHMHPEEJE_GETHASHCODE_OFFSET))(this);
+	}
+
+	/*
+	static ::System::Boolean INCFIJKMIGG(::EKDFCBELLOJ_JIHHMHPEEJE KILPCOMOCMD, ::EKDFCBELLOJ_JIHHMHPEEJE BBCODANAFGI)
+	{
+		return ((::System::Boolean(*)(::EKDFCBELLOJ_JIHHMHPEEJE, ::EKDFCBELLOJ_JIHHMHPEEJE))((::PBYTE)hIl2Cpp + EKDFCBELLOJ_JIHHMHPEEJE_INCFIJKMIGG_OFFSET))(KILPCOMOCMD, BBCODANAFGI);
+	}
+	*/
+
+	::System::Int32 HLPHPBAODIF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EKDFCBELLOJ_JIHHMHPEEJE_HLPHPBAODIF_OFFSET))(this);
+	}
+
+	::System::Boolean JGBGPJACDOG(::System::Object* MIALFKCCCPI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EKDFCBELLOJ_JIHHMHPEEJE_JGBGPJACDOG_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	/*
+	static ::EKDFCBELLOJ_JIHHMHPEEJE PPGBHNIJOIB()
+	{
+		return ((::EKDFCBELLOJ_JIHHMHPEEJE(*)())((::PBYTE)hIl2Cpp + EKDFCBELLOJ_JIHHMHPEEJE_PPGBHNIJOIB_OFFSET))();
+	}
+	*/
+
+	/*
+	static ::System::Boolean NOGJIJMACNO(::EKDFCBELLOJ_JIHHMHPEEJE KILPCOMOCMD, ::EKDFCBELLOJ_JIHHMHPEEJE BBCODANAFGI)
+	{
+		return ((::System::Boolean(*)(::EKDFCBELLOJ_JIHHMHPEEJE, ::EKDFCBELLOJ_JIHHMHPEEJE))((::PBYTE)hIl2Cpp + EKDFCBELLOJ_JIHHMHPEEJE_NOGJIJMACNO_OFFSET))(KILPCOMOCMD, BBCODANAFGI);
+	}
+	*/
+};

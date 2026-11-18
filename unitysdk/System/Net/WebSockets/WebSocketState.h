@@ -3,7 +3,7 @@
 
 namespace System::Net::WebSockets
 {
-	inline static constexpr unsigned int WebSocketState_TypeDefinitionIndex = 3905;
+	inline static constexpr unsigned int WebSocketState_TypeDefinitionIndex = 3904;
 
 	enum class WebSocketState : ::System::Int32
 	{

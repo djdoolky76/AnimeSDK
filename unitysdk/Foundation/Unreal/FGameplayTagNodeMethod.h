@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/Foundation/Unreal/FGameplayTagContainer.h"
 #include "unitysdk/Foundation/Unreal/FGameplayTagNode.h"
 #include "unitysdk/Foundation/Unreal/FGameplayTagNodeIndex.h"
-#include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEMETHOD_GETCHILDTAGNODES_OFFSET UNITYSDK_OFFSET(0x1890EDB0)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEMETHOD_GETSINGLETAGCONTAINER_OFFSET UNITYSDK_OFFSET(0x1890EDA0)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEMETHOD_GETCHILDTAGNODES_OFFSET UNITYSDK_OFFSET(0x16641590)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEMETHOD_GETSINGLETAGCONTAINER_OFFSET UNITYSDK_OFFSET(0x16641580)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagNodeMethod_TypeDefinitionIndex = 16619;
+	inline static constexpr unsigned int FGameplayTagNodeMethod_TypeDefinitionIndex = 16633;
 
 	class FGameplayTagNodeMethod : public ::System::Object
 	{

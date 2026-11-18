@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+namespace System { class String; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS249_0__CB_REPORTFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x1FC4E080)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS249_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC4E070)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS249_0__CB_CONSOLEFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x20045470)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS249_0__CTOR_OFFSET UNITYSDK_OFFSET(0x20045460)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c__DisplayClass249_0_TypeDefinitionIndex = 33180;
+	inline static constexpr unsigned int Browser___c__DisplayClass249_0_TypeDefinitionIndex = 32637;
 
 	class Browser___c__DisplayClass249_0 : public ::System::Object
 	{
 	public:
 		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x10
-		::System::Int64 param2; // 0x18
-		::System::Int32 browserId; // 0x20
-		::System::Int32 eventId; // 0x24
-		::System::Int64 param1; // 0x28
+		::System::String* source; // 0x18
+		::System::String* message; // 0x20
+		::System::Int32 line; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS249_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _CB_ReportFunc_b__0()
+		::System::Void _CB_ConsoleFunc_b__0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS249_0__CB_REPORTFUNC_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS249_0__CB_CONSOLEFUNC_B__0_OFFSET))(this);
 		}
 	};
 }

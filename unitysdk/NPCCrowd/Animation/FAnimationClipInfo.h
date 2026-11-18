@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_FANIMATIONCLIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x351680)
+#define NPCCROWD_ANIMATION_FANIMATIONCLIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x3B58E0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int FAnimationClipInfo_TypeDefinitionIndex = 55335;
+	inline static constexpr unsigned int FAnimationClipInfo_TypeDefinitionIndex = 87368;
 
 	struct alignas(8) FAnimationClipInfo
 	{

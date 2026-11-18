@@ -4,9 +4,9 @@
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int VoidTaskResult_TypeDefinitionIndex = 914;
+	inline static constexpr unsigned int VoidTaskResult_TypeDefinitionIndex = 913;
 
-	struct alignas(1) VoidTaskResult
+	struct alignas(4) VoidTaskResult
 	{
 	};
 }

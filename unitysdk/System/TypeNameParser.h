@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/StackCrawlMark.h"
+#include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 namespace System { class Type; }
@@ -10,8 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class Assembly; }
 namespace System::Reflection { class AssemblyName; }
 
-#define SYSTEM_TYPENAMEPARSER_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1DC13A30)
-#define SYSTEM_TYPENAMEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC13A70)
+#define SYSTEM_TYPENAMEPARSER_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1DF948C0)
+#define SYSTEM_TYPENAMEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF94900)
 
 namespace System
 {

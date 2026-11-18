@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int EventLogPermissionAccess_TypeDefinitionIndex = 4170;
+	inline static constexpr unsigned int EventLogPermissionAccess_TypeDefinitionIndex = 4169;
 
 	enum class EventLogPermissionAccess : ::System::Int32
 	{

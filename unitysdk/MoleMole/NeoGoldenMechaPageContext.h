@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_6BD9E25D4C69114D;
+class DAGJADOGKFB;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_NEOGOLDENMECHAPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1997C260)
+#define MOLEMOLE_NEOGOLDENMECHAPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14BB3400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NeoGoldenMechaPageContext_TypeDefinitionIndex = 53569;
+	inline static constexpr unsigned int NeoGoldenMechaPageContext_TypeDefinitionIndex = 71552;
 
 	class NeoGoldenMechaPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_6BD9E25D4C69114D*>* AllLevelGroups; // 0x28
+		::System::Collections::Generic::List_1<::DAGJADOGKFB*>* AllLevelGroups; // 0x28
 
 		::System::Void _ctor()
 		{

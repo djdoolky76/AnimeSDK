@@ -4,7 +4,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int WriteFlowParameter_1_TypeDefinitionIndex = 29901;
+	inline static constexpr unsigned int WriteFlowParameter_1_TypeDefinitionIndex = 29162;
 
 	template <typename T>
 	class WriteFlowParameter_1 : public ::FlowCanvas::Nodes::FlowControlNode

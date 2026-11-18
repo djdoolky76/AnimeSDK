@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileOptions_Types_OptimizeMode_TypeDefinitionIndex = 29127;
+	inline static constexpr unsigned int FileOptions_Types_OptimizeMode_TypeDefinitionIndex = 28566;
 
 	enum class FileOptions_Types_OptimizeMode : ::System::Int32
 	{

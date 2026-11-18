@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FlatBuffers/Table.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace FlatBuffers { class ByteBuffer; }
+namespace System { class String; }
+
+#define IGOONPLGFHF_ACOEONABOJL_OFFSET UNITYSDK_OFFSET(0x754C80)
+#define IGOONPLGFHF_BHGNCCMLJKB_OFFSET UNITYSDK_OFFSET(0x754A40)
+#define IGOONPLGFHF_GET_BYTEBUFFER_OFFSET UNITYSDK_OFFSET(0x2E38E0)
+#define IGOONPLGFHF_MEHAPAMMBEO_OFFSET UNITYSDK_OFFSET(0x754F10)
+#define IGOONPLGFHF_NIFCDDGDILA_OFFSET UNITYSDK_OFFSET(0x754B50)
+#define IGOONPLGFHF_OAKBBAANKCP_OFFSET UNITYSDK_OFFSET(0x1934E120)
+#define IGOONPLGFHF___INIT_OFFSET UNITYSDK_OFFSET(0x754910)
+
+inline static constexpr unsigned int IGOONPLGFHF_TypeDefinitionIndex = 12109;
+
+struct alignas(4) IGOONPLGFHF
+{
+	::FlatBuffers::Table KHCKCFFKIGG; // 0x10
+
+	::FlatBuffers::ByteBuffer* get_ByteBuffer()
+	{
+		return ((::FlatBuffers::ByteBuffer*(*)(::PVOID))((::PBYTE)hIl2Cpp + IGOONPLGFHF_GET_BYTEBUFFER_OFFSET))(this);
+	}
+
+	::System::Void __init(::System::Int32 FLPJIBCILFC, ::FlatBuffers::ByteBuffer* GBOBNIDOGCP)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + IGOONPLGFHF___INIT_OFFSET))(this, FLPJIBCILFC, GBOBNIDOGCP);
+	}
+
+	::System::Int32 ACOEONABOJL()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + IGOONPLGFHF_ACOEONABOJL_OFFSET))(this);
+	}
+
+	::System::String* MEHAPAMMBEO()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + IGOONPLGFHF_MEHAPAMMBEO_OFFSET))(this);
+	}
+
+	/*
+	static ::IGOONPLGFHF OAKBBAANKCP(::System::Int32 PFJFICMOJKP, ::System::Int32 MCOHLHMKLIP, ::FlatBuffers::ByteBuffer* DHEOPJNHFJP, ::System::Int32& ABHBKFJKINO)
+	{
+		return ((::IGOONPLGFHF(*)(::System::Int32, ::System::Int32, ::FlatBuffers::ByteBuffer*, ::System::Int32&))((::PBYTE)hIl2Cpp + IGOONPLGFHF_OAKBBAANKCP_OFFSET))(PFJFICMOJKP, MCOHLHMKLIP, DHEOPJNHFJP, ABHBKFJKINO);
+	}
+	*/
+
+	/*
+	::IGOONPLGFHF BHGNCCMLJKB(::System::Int32 FLPJIBCILFC, ::FlatBuffers::ByteBuffer* GBOBNIDOGCP)
+	{
+		return ((::IGOONPLGFHF(*)(::PVOID, ::System::Int32, ::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + IGOONPLGFHF_BHGNCCMLJKB_OFFSET))(this, FLPJIBCILFC, GBOBNIDOGCP);
+	}
+	*/
+
+	::System::Int32 NIFCDDGDILA()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + IGOONPLGFHF_NIFCDDGDILA_OFFSET))(this);
+	}
+};

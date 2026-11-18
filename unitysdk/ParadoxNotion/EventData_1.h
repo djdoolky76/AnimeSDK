@@ -7,10 +7,10 @@ namespace UnityEngine { class GameObject; }
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int EventData_1_TypeDefinitionIndex = 30266;
+	inline static constexpr unsigned int EventData_1_TypeDefinitionIndex = 29935;
 
 	template <typename T>
-	struct EventData_1
+	struct alignas(8) EventData_1
 	{
 		::UnityEngine::GameObject* _receiver_k__BackingField; // 0x0
 		::System::Object* _sender_k__BackingField; // 0x0

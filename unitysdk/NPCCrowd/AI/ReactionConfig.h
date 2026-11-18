@@ -11,17 +11,20 @@ namespace System { class String; }
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int ReactionConfig_TypeDefinitionIndex = 72870;
+	inline static constexpr unsigned int ReactionConfig_TypeDefinitionIndex = 51651;
 
 	struct alignas(8) ReactionConfig
 	{
 		::System::UInt32 ID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* name; // 0x18
 		::System::UInt32 priority; // 0x20
+		::System::Byte _padding1[0x4];
 		::Foundation::Unreal::SerializableGameplayTag* tag; // 0x28
 		::NPCCrowd::AI::TimePeriodTypeFlag timePeriodType; // 0x30
 		::NPCCrowd::AI::DayOfWeekFlag dayOfWeek; // 0x34
 		::System::Boolean tagFilter; // 0x38
+		::System::Byte _padding2[0x7];
 		::Foundation::Unreal::SerializableGameplayTagQuery* tagMatchExpression; // 0x40
 		::Il2CppArray<::NPCCrowd::AI::AIActionRefItem*>* actions; // 0x48
 	};

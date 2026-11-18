@@ -3,12 +3,12 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int FBIKChain_Smoothing_TypeDefinitionIndex = 38939;
+	inline static constexpr unsigned int FBIKChain_Smoothing_TypeDefinitionIndex = 36784;
 
 	enum class FBIKChain_Smoothing : ::System::Int32
 	{
-		None = 0,
-		Cubic = 2,
 		Exponential = 1,
+		Cubic = 2,
+		None = 0,
 	};
 }

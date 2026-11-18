@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-template <typename T1, typename T2> class Class_1_516A565475879095;
+template <typename T1, typename T2> class ELKFEFPPPFL_2;
 
-#define MOLEMOLE_UIRABSTAGEITEMREWARDPOPWINDOWCONTROLLER_RABSTAGEITEMREWARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E2C010)
+#define MOLEMOLE_UIRABSTAGEITEMREWARDPOPWINDOWCONTROLLER_RABSTAGEITEMREWARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18704270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABStageItemRewardPopWindowController_RABStageItemRewardContext_TypeDefinitionIndex = 89508;
+	inline static constexpr unsigned int UIRABStageItemRewardPopWindowController_RABStageItemRewardContext_TypeDefinitionIndex = 77270;
 
 	class UIRABStageItemRewardPopWindowController_RABStageItemRewardContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_516A565475879095<::System::UInt32, ::System::UInt32>* ItemRewardMap; // 0x28
+		::ELKFEFPPPFL_2<::System::UInt32, ::System::UInt32>* ItemRewardMap; // 0x28
 
 		::System::Void _ctor()
 		{

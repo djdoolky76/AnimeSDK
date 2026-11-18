@@ -1,90 +1,91 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Color.h"
 
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace UnityEngine::UI::Extension { class UIImgText; }
 
-#define MOLEMOLE_IMGTEXTPARSERBASE_METHOD_5_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x19089480)
-#define MOLEMOLE_IMGTEXTPARSERBASE_METHOD_5_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x19089410)
-#define MOLEMOLE_IMGTEXTPARSERBASE_METHOD_5_8F68D3DD3F7032DF_OFFSET UNITYSDK_OFFSET(0x19088A50)
-#define MOLEMOLE_IMGTEXTPARSERBASE_METHOD_5_BCC281DC419BB5B6_OFFSET UNITYSDK_OFFSET(0x19089370)
-#define MOLEMOLE_IMGTEXTPARSERBASE_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x190888B0)
-#define MOLEMOLE_IMGTEXTPARSERBASE_SETKEY_OFFSET UNITYSDK_OFFSET(0x19088CD0)
-#define MOLEMOLE_IMGTEXTPARSERBASE_SETTEXTFUNCNOTCLEARFUNC_OFFSET UNITYSDK_OFFSET(0x19088D90)
-#define MOLEMOLE_IMGTEXTPARSERBASE_SETTEXTFUNC_OFFSET UNITYSDK_OFFSET(0x19088C10)
-#define MOLEMOLE_IMGTEXTPARSERBASE_SETTEXTNOTCLEARFUNC_OFFSET UNITYSDK_OFFSET(0x19089180)
-#define MOLEMOLE_IMGTEXTPARSERBASE_SETTEXT_OFFSET UNITYSDK_OFFSET(0x19088F90)
-#define MOLEMOLE_IMGTEXTPARSERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x190893C0)
+#define MOLEMOLE_IMGTEXTPARSERBASE_JADNONIJFPP_OFFSET UNITYSDK_OFFSET(0x180EFF40)
+#define MOLEMOLE_IMGTEXTPARSERBASE_JIMGPANJFAD_OFFSET UNITYSDK_OFFSET(0x180EF4F0)
+#define MOLEMOLE_IMGTEXTPARSERBASE_LIPEGBMCMJE_OFFSET UNITYSDK_OFFSET(0x180EFEA0)
+#define MOLEMOLE_IMGTEXTPARSERBASE_NALHONEIFEO_OFFSET UNITYSDK_OFFSET(0x180EFE00)
+#define MOLEMOLE_IMGTEXTPARSERBASE_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x180EF350)
+#define MOLEMOLE_IMGTEXTPARSERBASE_SETKEY_OFFSET UNITYSDK_OFFSET(0x180EF770)
+#define MOLEMOLE_IMGTEXTPARSERBASE_SETTEXTFUNCNOTCLEARFUNC_OFFSET UNITYSDK_OFFSET(0x180EF830)
+#define MOLEMOLE_IMGTEXTPARSERBASE_SETTEXTFUNC_OFFSET UNITYSDK_OFFSET(0x180EF6B0)
+#define MOLEMOLE_IMGTEXTPARSERBASE_SETTEXTNOTCLEARFUNC_OFFSET UNITYSDK_OFFSET(0x180EFC10)
+#define MOLEMOLE_IMGTEXTPARSERBASE_SETTEXT_OFFSET UNITYSDK_OFFSET(0x180EFA20)
+#define MOLEMOLE_IMGTEXTPARSERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x180EFE50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ImgTextParserBase_TypeDefinitionIndex = 49589;
+	inline static constexpr unsigned int ImgTextParserBase_TypeDefinitionIndex = 55325;
 
 	class ImgTextParserBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::String* oriText; // 0x18
-		::UnityEngine::UI::Extension::UIImgText* Field_5_0; // 0x20
-		::System::Boolean Field_5_7; // 0x28
-		::System::Func_1<::System::String*>* Field_5_6; // 0x30
-		::System::String* Field_5_5; // 0x38
+		::UnityEngine::UI::Extension::UIImgText* OOEHPMOECMP; // 0x20
+		::System::Boolean MLOAECNLPCH; // 0x28
+		::System::Byte _padding0[0x7];
+		::System::Func_1<::System::String*>* EKPEIIMOMIB; // 0x30
+		::System::String* NAFJLOEDKEC; // 0x38
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetColor(::UnityEngine::Color a1)
+		::System::Void SetColor(::UnityEngine::Color JBBFCGAMDHI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_SETCOLOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_SETCOLOR_OFFSET))(this, JBBFCGAMDHI);
 		}
 
-		::System::Void SetTextFunc(::System::Func_1<::System::String*>* a1)
+		::System::Void SetTextFunc(::System::Func_1<::System::String*>* HLCNFMGDBPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_1<::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_SETTEXTFUNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Func_1<::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_SETTEXTFUNC_OFFSET))(this, HLCNFMGDBPI);
 		}
 
-		::System::Void SetKey(::System::String* a1)
+		::System::Void SetKey(::System::String* MCOHLHMKLIP)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_SETKEY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_SETKEY_OFFSET))(this, MCOHLHMKLIP);
 		}
 
-		::System::Void SetTextFuncNotClearFunc(::System::Func_1<::System::String*>* a1, ::System::Boolean a2)
+		::System::Void SetTextFuncNotClearFunc(::System::Func_1<::System::String*>* HLCNFMGDBPI, ::System::Boolean NPPMJEIPMFC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Func_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_SETTEXTFUNCNOTCLEARFUNC_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Func_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_SETTEXTFUNCNOTCLEARFUNC_OFFSET))(this, HLCNFMGDBPI, NPPMJEIPMFC);
 		}
 
-		::System::Void SetText(::System::String* a1, ::System::Boolean a2)
+		::System::Void SetText(::System::String* FCCLIEJAKLI, ::System::Boolean NPPMJEIPMFC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_SETTEXT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_SETTEXT_OFFSET))(this, FCCLIEJAKLI, NPPMJEIPMFC);
 		}
 
-		::System::Void SetTextNotClearFunc(::System::String* a1, ::System::Boolean a2)
+		::System::Void SetTextNotClearFunc(::System::String* FCCLIEJAKLI, ::System::Boolean NPPMJEIPMFC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_SETTEXTNOTCLEARFUNC_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_SETTEXTNOTCLEARFUNC_OFFSET))(this, FCCLIEJAKLI, NPPMJEIPMFC);
 		}
 
-		::System::String* Method_5_BCC281DC419BB5B6(::System::String* a1)
+		::System::String* NALHONEIFEO(::System::String* FCCLIEJAKLI)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_METHOD_5_BCC281DC419BB5B6_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_NALHONEIFEO_OFFSET))(this, FCCLIEJAKLI);
 		}
 
-		::UnityEngine::UI::Extension::UIImgText* Method_5_8F68D3DD3F7032DF()
+		::System::String* LIPEGBMCMJE()
 		{
-			return ((::UnityEngine::UI::Extension::UIImgText*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_METHOD_5_8F68D3DD3F7032DF_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_LIPEGBMCMJE_OFFSET))(this);
 		}
 
-		::System::String* Method_5_88B60F3B95FAA4F1()
+		::System::String* JADNONIJFPP()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_METHOD_5_88B60F3B95FAA4F1_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_JADNONIJFPP_OFFSET))(this);
 		}
 
-		::System::String* Method_5_35EA095E1AFDD9C8()
+		::UnityEngine::UI::Extension::UIImgText* JIMGPANJFAD()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_METHOD_5_35EA095E1AFDD9C8_OFFSET))(this);
+			return ((::UnityEngine::UI::Extension::UIImgText*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTPARSERBASE_JIMGPANJFAD_OFFSET))(this);
 		}
 	};
 }

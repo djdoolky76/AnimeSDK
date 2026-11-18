@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK::Uploader { class AWSUploader; }
 namespace MiHoYo::SDK::Uploader { class Task; }
 
-#define MIHOYO_SDK_UPLOADER_AWSUPLOADER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A7E60)
-#define MIHOYO_SDK_UPLOADER_AWSUPLOADER___C__DISPLAYCLASS2_0__INTERNALUPLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x1D3A7E70)
+#define MIHOYO_SDK_UPLOADER_AWSUPLOADER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F1760)
+#define MIHOYO_SDK_UPLOADER_AWSUPLOADER___C__DISPLAYCLASS2_0__INTERNALUPLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x1F0F1770)
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int AWSUploader___c__DisplayClass2_0_TypeDefinitionIndex = 37701;
+	inline static constexpr unsigned int AWSUploader___c__DisplayClass2_0_TypeDefinitionIndex = 35699;
 
 	class AWSUploader___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Uploader::Task* task; // 0x10
-		::MiHoYo::SDK::Uploader::AWSUploader* __4__this; // 0x18
+		::MiHoYo::SDK::Uploader::AWSUploader* __4__this; // 0x10
+		::MiHoYo::SDK::Uploader::Task* task; // 0x18
 
 		::System::Void _ctor()
 		{

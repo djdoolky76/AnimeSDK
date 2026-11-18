@@ -2,37 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_477;
+class FOLOGHLENFB;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15146650)
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15146690)
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__REFRESHMATERIALPREVIEW_B__28_0_OFFSET UNITYSDK_OFFSET(0x151466A0)
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__REFRESHMATERIALPREVIEW_B__28_2_OFFSET UNITYSDK_OFFSET(0x151466F0)
-#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__REFRESHMATERIALPREVIEW_B__28_6_OFFSET UNITYSDK_OFFSET(0x15146740)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13E7BFC0)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13E7C000)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__REFRESHMATERIALPREVIEW_B__28_0_OFFSET UNITYSDK_OFFSET(0x13E7C010)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__REFRESHMATERIALPREVIEW_B__28_2_OFFSET UNITYSDK_OFFSET(0x13E7C060)
+#define MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__REFRESHMATERIALPREVIEW_B__28_6_OFFSET UNITYSDK_OFFSET(0x13E7C0B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistMainPageController___c_TypeDefinitionIndex = 65460;
+	inline static constexpr unsigned int UIWishlistMainPageController___c_TypeDefinitionIndex = 45179;
 
 	class UIWishlistMainPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIWishlistMainPageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIWishlistMainPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIWishlistMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47410);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIWishlistMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4C5F0);
 		}
-		static ::System::Comparison_1<::Class_2_208CC9941471731A_477*>** StaticGet___9__28_6()
+		static ::System::Comparison_1<::FOLOGHLENFB*>** StaticGet___9__28_2()
 		{
-			return (::System::Comparison_1<::Class_2_208CC9941471731A_477*>**)Il2CppClass::FromTypeDefinitionIndex(UIWishlistMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47418);
+			return (::System::Comparison_1<::FOLOGHLENFB*>**)Il2CppClass::FromTypeDefinitionIndex(UIWishlistMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4C5F8);
 		}
-		static ::System::Comparison_1<::Class_2_208CC9941471731A_477*>** StaticGet___9__28_2()
+		static ::System::Comparison_1<::FOLOGHLENFB*>** StaticGet___9__28_6()
 		{
-			return (::System::Comparison_1<::Class_2_208CC9941471731A_477*>**)Il2CppClass::FromTypeDefinitionIndex(UIWishlistMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47420);
+			return (::System::Comparison_1<::FOLOGHLENFB*>**)Il2CppClass::FromTypeDefinitionIndex(UIWishlistMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4C600);
 		}
-		static ::System::Comparison_1<::Class_2_208CC9941471731A_477*>** StaticGet___9__28_0()
+		static ::System::Comparison_1<::FOLOGHLENFB*>** StaticGet___9__28_0()
 		{
-			return (::System::Comparison_1<::Class_2_208CC9941471731A_477*>**)Il2CppClass::FromTypeDefinitionIndex(UIWishlistMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47428);
+			return (::System::Comparison_1<::FOLOGHLENFB*>**)Il2CppClass::FromTypeDefinitionIndex(UIWishlistMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4C608);
 		}
 
 		static ::System::Void _cctor()
@@ -45,19 +45,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _RefreshMaterialPreview_b__28_0(::Class_2_208CC9941471731A_477* ext, ::Class_2_208CC9941471731A_477* templateExt)
+		::System::Int32 _RefreshMaterialPreview_b__28_0(::FOLOGHLENFB* ext, ::FOLOGHLENFB* templateExt)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_477*, ::Class_2_208CC9941471731A_477*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__REFRESHMATERIALPREVIEW_B__28_0_OFFSET))(this, ext, templateExt);
+			return ((::System::Int32(*)(::PVOID, ::FOLOGHLENFB*, ::FOLOGHLENFB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__REFRESHMATERIALPREVIEW_B__28_0_OFFSET))(this, ext, templateExt);
 		}
 
-		::System::Int32 _RefreshMaterialPreview_b__28_2(::Class_2_208CC9941471731A_477* ext, ::Class_2_208CC9941471731A_477* templateExt)
+		::System::Int32 _RefreshMaterialPreview_b__28_2(::FOLOGHLENFB* ext, ::FOLOGHLENFB* templateExt)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_477*, ::Class_2_208CC9941471731A_477*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__REFRESHMATERIALPREVIEW_B__28_2_OFFSET))(this, ext, templateExt);
+			return ((::System::Int32(*)(::PVOID, ::FOLOGHLENFB*, ::FOLOGHLENFB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__REFRESHMATERIALPREVIEW_B__28_2_OFFSET))(this, ext, templateExt);
 		}
 
-		::System::Int32 _RefreshMaterialPreview_b__28_6(::Class_2_208CC9941471731A_477* ext, ::Class_2_208CC9941471731A_477* templateExt)
+		::System::Int32 _RefreshMaterialPreview_b__28_6(::FOLOGHLENFB* ext, ::FOLOGHLENFB* templateExt)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_477*, ::Class_2_208CC9941471731A_477*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__REFRESHMATERIALPREVIEW_B__28_6_OFFSET))(this, ext, templateExt);
+			return ((::System::Int32(*)(::PVOID, ::FOLOGHLENFB*, ::FOLOGHLENFB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIWISHLISTMAINPAGECONTROLLER___C__REFRESHMATERIALPREVIEW_B__28_6_OFFSET))(this, ext, templateExt);
 		}
 	};
 }

@@ -2,23 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelBaseResult.h"
 
+namespace MiHoYo::SDK::PC::OS { class DiscordAuthTokenExtension; }
+namespace MiHoYo::SDK::PC::OS { class EpicAuthTokenExtension; }
 namespace MiHoYo::SDK::PC::OS { class XboxAuthTokenExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1C932C10)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1C932C00)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C932C50)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1CE38450)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1CE38440)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE38490)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelAuthTokenResult_TypeDefinitionIndex = 20690;
+	inline static constexpr unsigned int HoYoChannelAuthTokenResult_TypeDefinitionIndex = 19887;
 
 	class HoYoChannelAuthTokenResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
-		// static const ::System::Int32 CHANNEL_USER_NOT_SIGNED_IN = 0xFFFFF82F; // 0x0
+		// static const ::System::Int32 CHANNEL_USER_NOT_SIGNED_IN = -0x7D1; // 0x0
 		::System::String* token; // 0x30
 		::MiHoYo::SDK::PC::OS::XboxAuthTokenExtension* xbox; // 0x38
+		::MiHoYo::SDK::PC::OS::EpicAuthTokenExtension* epic; // 0x40
+		::MiHoYo::SDK::PC::OS::DiscordAuthTokenExtension* discord; // 0x48
 
 		::System::Void _ctor()
 		{

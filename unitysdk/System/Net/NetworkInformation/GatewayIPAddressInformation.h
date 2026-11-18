@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Net { class IPAddress; }
-
-#define SYSTEM_NET_NETWORKINFORMATION_GATEWAYIPADDRESSINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC8DD0)
+#define SYSTEM_NET_NETWORKINFORMATION_GATEWAYIPADDRESSINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF09AF0)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int GatewayIPAddressInformation_TypeDefinitionIndex = 3704;
+	inline static constexpr unsigned int GatewayIPAddressInformation_TypeDefinitionIndex = 3703;
 
 	class GatewayIPAddressInformation : public ::System::Object
 	{

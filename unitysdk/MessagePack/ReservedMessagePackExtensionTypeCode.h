@@ -4,11 +4,11 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int ReservedMessagePackExtensionTypeCode_TypeDefinitionIndex = 31505;
+	inline static constexpr unsigned int ReservedMessagePackExtensionTypeCode_TypeDefinitionIndex = 29879;
 
 	class ReservedMessagePackExtensionTypeCode : public ::System::Object
 	{
 	public:
-		// static const ::System::SByte DateTime = 0xFF; // 0x0
+		// static const ::System::SByte DateTime = -0x1; // 0x0
 	};
 }

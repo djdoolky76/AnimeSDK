@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x9A60C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x8BEB30)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int Wave_TypeDefinitionIndex = 27812;
+	inline static constexpr unsigned int Wave_TypeDefinitionIndex = 26268;
 
 	struct alignas(4) Wave
 	{

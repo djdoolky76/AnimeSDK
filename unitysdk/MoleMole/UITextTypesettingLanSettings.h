@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/LanguageType.h"
 #include "unitysdk/MoleMole/UITextTypesettingSettings.h"
 
-#define MOLEMOLE_UITEXTTYPESETTINGLANSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1513A760)
+#define MOLEMOLE_UITEXTTYPESETTINGLANSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x14839D40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITextTypesettingLanSettings_TypeDefinitionIndex = 64811;
+	inline static constexpr unsigned int UITextTypesettingLanSettings_TypeDefinitionIndex = 71644;
 
 	class UITextTypesettingLanSettings : public ::MoleMole::UITextTypesettingSettings
 	{

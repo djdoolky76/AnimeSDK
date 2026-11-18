@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Ability/IdleAnimationTask.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_IDLEANIMATIONTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x10642140)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_IDLEANIMATIONTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x106421E0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_IDLEANIMATIONTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x106420B0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_IDLEANIMATIONTASK_LINK_OFFSET UNITYSDK_OFFSET(0x10642040)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_IDLEANIMATIONTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xE1C2B90)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_IDLEANIMATIONTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xE1C2C30)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_IDLEANIMATIONTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xE1C2B00)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_IDLEANIMATIONTASK_LINK_OFFSET UNITYSDK_OFFSET(0xE1C2A90)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_IdleAnimationTask_TypeDefinitionIndex = 61371;
+	inline static constexpr unsigned int VirtualFunctionExtensions_IdleAnimationTask_TypeDefinitionIndex = 52673;
 
 	class VirtualFunctionExtensions_IdleAnimationTask : public ::System::Object
 	{

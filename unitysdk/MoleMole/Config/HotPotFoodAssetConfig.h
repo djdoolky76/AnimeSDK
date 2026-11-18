@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace UnityEngine { class Collider2D; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_CONFIG_HOTPOTFOODASSETCONFIG_SETUPFOODICON_OFFSET UNITYSDK_OFFSET(0x1B921BD0)
-#define MOLEMOLE_CONFIG_HOTPOTFOODASSETCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B921F90)
-#define MOLEMOLE_CONFIG_HOTPOTFOODASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B921F30)
+#define MOLEMOLE_CONFIG_HOTPOTFOODASSETCONFIG_SETUPFOODICON_OFFSET UNITYSDK_OFFSET(0x19259C80)
+#define MOLEMOLE_CONFIG_HOTPOTFOODASSETCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1925A040)
+#define MOLEMOLE_CONFIG_HOTPOTFOODASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19259FE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HotPotFoodAssetConfig_TypeDefinitionIndex = 58400;
+	inline static constexpr unsigned int HotPotFoodAssetConfig_TypeDefinitionIndex = 92338;
 
 	class HotPotFoodAssetConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::System::Int32* StaticGet_ErosionTex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HotPotFoodAssetConfig_TypeDefinitionIndex)->GetStaticField(0xDBA0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HotPotFoodAssetConfig_TypeDefinitionIndex)->GetStaticField(0xDB40);
 		}
 		::System::String* foodTexturePath; // 0x18
 		::System::String* erosionTexturePath; // 0x20

@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/ConfigSubSystemSettingBase.h"
 #include "unitysdk/MoleMole/ESystemSettingType.h"
 
-#define MOLEMOLE_CONFIG_CONFIGSUMMERACTIVITYSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x177E35F0)
-#define MOLEMOLE_CONFIG_CONFIGSUMMERACTIVITYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x177E3600)
+#define MOLEMOLE_CONFIG_CONFIGSUMMERACTIVITYSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x1A76AC50)
+#define MOLEMOLE_CONFIG_CONFIGSUMMERACTIVITYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A76AC60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSummerActivitySetting_TypeDefinitionIndex = 64918;
+	inline static constexpr unsigned int ConfigSummerActivitySetting_TypeDefinitionIndex = 75492;
 
 	class ConfigSummerActivitySetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/MessagePack/MessagePackCompression.h"
 #include "unitysdk/System/Object.h"
 
-#define MESSAGEPACK_MESSAGEPACKCOMPRESSIONEXTENSIONS_ISCOMPRESSION_OFFSET UNITYSDK_OFFSET(0x1E22DC60)
+#define MESSAGEPACK_MESSAGEPACKCOMPRESSIONEXTENSIONS_ISCOMPRESSION_OFFSET UNITYSDK_OFFSET(0x1EBAF480)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackCompressionExtensions_TypeDefinitionIndex = 31013;
+	inline static constexpr unsigned int MessagePackCompressionExtensions_TypeDefinitionIndex = 29895;
 
 	class MessagePackCompressionExtensions : public ::System::Object
 	{

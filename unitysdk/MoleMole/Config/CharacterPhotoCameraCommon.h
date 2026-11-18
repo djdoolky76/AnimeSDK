@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CHARACTERPHOTOCAMERACOMMON__CTOR_OFFSET UNITYSDK_OFFSET(0x134F3FF0)
+#define MOLEMOLE_CONFIG_CHARACTERPHOTOCAMERACOMMON__CTOR_OFFSET UNITYSDK_OFFSET(0x11A64900)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CharacterPhotoCameraCommon_TypeDefinitionIndex = 73167;
+	inline static constexpr unsigned int CharacterPhotoCameraCommon_TypeDefinitionIndex = 42715;
 
 	class CharacterPhotoCameraCommon : public ::System::Object
 	{

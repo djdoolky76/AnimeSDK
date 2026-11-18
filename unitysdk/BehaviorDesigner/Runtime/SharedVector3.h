@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDVECTOR3_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F528800)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5288E0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDVECTOR3_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F8F9180)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8F9260)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedVector3_TypeDefinitionIndex = 33935;
+	inline static constexpr unsigned int SharedVector3_TypeDefinitionIndex = 33481;
 
-	class SharedVector3 : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::Vector3>
+	class SharedVector3
 	{
 	public:
 		::System::Void _ctor()

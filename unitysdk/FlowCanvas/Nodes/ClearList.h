@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 
 namespace System::Collections { class IList; }
 
-#define FLOWCANVAS_NODES_CLEARLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DB24100)
-#define FLOWCANVAS_NODES_CLEARLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB241D0)
+#define FLOWCANVAS_NODES_CLEARLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DE96FA0)
+#define FLOWCANVAS_NODES_CLEARLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE97070)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ClearList_TypeDefinitionIndex = 31309;
+	inline static constexpr unsigned int ClearList_TypeDefinitionIndex = 30686;
 
-	class ClearList : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Collections::IList*, ::System::Collections::IList*>
+	class ClearList
 	{
 	public:
 		::System::Void _ctor()

@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define FLOWCANVAS_NODES_ISOFTYPE_GET_OBJECT_OFFSET UNITYSDK_OFFSET(0x1D056610)
-#define FLOWCANVAS_NODES_ISOFTYPE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D056630)
-#define FLOWCANVAS_NODES_ISOFTYPE_SET_OBJECT_OFFSET UNITYSDK_OFFSET(0x1D056620)
-#define FLOWCANVAS_NODES_ISOFTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0566D0)
+#define FLOWCANVAS_NODES_ISOFTYPE_GET_OBJECT_OFFSET UNITYSDK_OFFSET(0x1D5D0A00)
+#define FLOWCANVAS_NODES_ISOFTYPE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D5D0A20)
+#define FLOWCANVAS_NODES_ISOFTYPE_SET_OBJECT_OFFSET UNITYSDK_OFFSET(0x1D5D0A10)
+#define FLOWCANVAS_NODES_ISOFTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D0AC0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IsOfType_TypeDefinitionIndex = 29739;
+	inline static constexpr unsigned int IsOfType_TypeDefinitionIndex = 30647;
 
-	class IsOfType : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Boolean, ::System::Object*, ::System::Type*>
+	class IsOfType
 	{
 	public:
 		::System::Object* _OBJECT_k__BackingField; // 0x30

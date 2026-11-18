@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PathCreation/Examples/PathPlacer_MainAxis.h"
 #include "unitysdk/PathCreation/Examples/PathPlacer_PlaceObjType.h"
-#include "unitysdk/PathCreation/Examples/PathPlacer_PropData.h"
 #include "unitysdk/PathCreation/Examples/PathPlacer_PropPlaceType.h"
 #include "unitysdk/PathCreation/Examples/PathSceneTool.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
@@ -15,11 +15,11 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define PATHCREATION_EXAMPLES_PATHPLACER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB0FF0)
+#define PATHCREATION_EXAMPLES_PATHPLACER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F233010)
 
 namespace PathCreation::Examples
 {
-	inline static constexpr unsigned int PathPlacer_TypeDefinitionIndex = 38121;
+	inline static constexpr unsigned int PathPlacer_TypeDefinitionIndex = 36123;
 
 	class PathPlacer : public ::PathCreation::Examples::PathSceneTool
 	{
@@ -28,7 +28,7 @@ namespace PathCreation::Examples
 		::PathCreation::Examples::PathPlacer_PlaceObjType m_PlaceObjType; // 0x30
 		::PathCreation::Examples::PathPlacer_PropPlaceType m_PropPlaceType; // 0x34
 		::UnityEngine::GameObject* m_Holder; // 0x38
-		::System::Collections::Generic::List_1<::PathCreation::Examples::PathPlacer_PropData>* m_PrefabDataList; // 0x40
+		::System::Collections::Generic::List_1<::System::Object*>* m_PrefabDataList; // 0x40
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* m_PrefabList; // 0x48
 		::UnityEngine::GameObject* m_Prefab; // 0x50
 		::UnityEngine::Vector3 m_RotateOffset; // 0x58
@@ -37,12 +37,15 @@ namespace PathCreation::Examples
 		::System::Single m_RailWayLikeThickness; // 0x74
 		::Il2CppArray<::UnityEngine::Material*>* m_Materials; // 0x78
 		::System::Boolean m_UseGeneratedNormal; // 0x80
+		::System::Byte _padding0[0x3];
 		::PathCreation::Examples::PathPlacer_MainAxis axis; // 0x84
 		::System::Boolean snapToCollider; // 0x88
+		::System::Byte _padding1[0x3];
 		::System::Single snapColliderOffset; // 0x8C
 		::UnityEngine::LayerMask snapColliderLayer; // 0x90
 		::System::Boolean meshAutoScale; // 0x94
 		::System::Boolean isNeedSave; // 0x95
+		::System::Byte _padding2[0x2];
 		::UnityEngine::MeshFilter* m_MeshFilter; // 0x98
 		::UnityEngine::MeshRenderer* m_MeshRenderer; // 0xA0
 		::UnityEngine::GameObject* m_MeshHolder; // 0xA8

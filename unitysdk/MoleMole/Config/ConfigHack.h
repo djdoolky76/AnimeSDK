@@ -7,19 +7,19 @@
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-namespace MoleMole::Config { class ConfigHack_HackObjectTipKeyEntry; }
 namespace MoleMole::Config { class HackObjectTrait; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture2D; }
 
-#define MOLEMOLE_CONFIG_CONFIGHACK__CTOR_OFFSET UNITYSDK_OFFSET(0x143759A0)
+#define MOLEMOLE_CONFIG_CONFIGHACK__CTOR_OFFSET UNITYSDK_OFFSET(0x121C0020)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHack_TypeDefinitionIndex = 50932;
+	inline static constexpr unsigned int ConfigHack_TypeDefinitionIndex = 79027;
 
 	class ConfigHack : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -39,24 +39,27 @@ namespace MoleMole::Config
 		::System::Single HackScreenCenterY; // 0x8C
 		::System::Single HackPriorityCenterX; // 0x90
 		::System::Single HackPriorityCenterY; // 0x94
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::HackObjectType, ::MoleMole::Config::ConfigHack_HackObjectTipKeyEntry*>* HackInteractPointTipsKeyDic; // 0x98
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::HackObjectType, ::System::Object*>* HackInteractPointTipsKeyDic; // 0x98
 		::Foundation::AssetPath HackInteractButtonActiveIconPath; // 0xA0
 		::Foundation::AssetPath HackInteractButtonIconPath; // 0xB0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::HackObjectTrait*>* AvatarHackTraitMap; // 0xC0
 		::System::Boolean EnableNPCSpacing; // 0xC8
 		::System::Boolean DisableInteractPointTipsOnFocusInCameraHack; // 0xC9
+		::System::Byte _padding0[0x2];
 		::System::Single CameraHackMajorAxisLength; // 0xCC
 		::System::Single CameraHackMinorAxisLength; // 0xD0
 		::System::Single CameraHackScreenCenterX; // 0xD4
 		::System::Single CameraHackScreenCenterY; // 0xD8
 		::System::Single CameraHackPriorityCenterX; // 0xDC
 		::System::Single CameraHackPriorityCenterY; // 0xE0
+		::System::Byte _padding1[0x4];
 		::System::String* cameraHackEnterSoundActionKey; // 0xE8
 		::System::String* cameraHackExitSoundActionKey; // 0xF0
 		::System::String* cameraMoveSpeedRtpcName; // 0xF8
 		::System::String* cameraMoveLimitSoundActionKey; // 0x100
 		::UnityEngine::Color AvatarOccludedOverlayColor; // 0x108
 		::System::Single AvatarOccludedOverlayIntensity; // 0x118
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Texture2D* AvatarOccludedOverlayBaseTexture; // 0x120
 		::System::Single AvatarOccludedOverlayBaseTextureIntensity; // 0x128
 		::UnityEngine::Vector2 AvatarOccludedOverlayBaseTextureTiling; // 0x12C
@@ -64,12 +67,14 @@ namespace MoleMole::Config
 		::UnityEngine::Color AvatarOccludedOverlayBaseColorB; // 0x144
 		::System::Single AvatarOccludedOverlayBaseScrollSpeed; // 0x154
 		::System::Single AvatarOccludedOcclusionDepthEpsilon; // 0x158
+		::System::Byte _padding3[0x4];
 		::UnityEngine::Gradient* OutlineColorGradient; // 0x160
 		::System::Single OutlineColorIntensity; // 0x168
 		::System::Single OutlineAnimLifetime; // 0x16C
 		::System::Boolean OccludedByDepth; // 0x170
 		::System::Boolean OccludedByCharacters; // 0x171
 		::System::Boolean UseLODGroup; // 0x172
+		::System::Byte _padding4[0x1];
 		::System::Single outlineThickness; // 0x174
 		::System::String* HighlightMaterialPath; // 0x178
 		::UnityEngine::Color OverlayColor; // 0x180

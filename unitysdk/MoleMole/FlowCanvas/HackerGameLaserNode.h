@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_5.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
@@ -8,16 +7,16 @@ namespace MoleMole { class ChessEntity; }
 namespace MoleMole { class ChessEntityCollection; }
 namespace MoleMole { class HackerGameBaseDamage; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMELASERNODE_APPLYLASERDAMAGE_OFFSET UNITYSDK_OFFSET(0x1B528DB0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMELASERNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B5272D0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMELASERNODE_ISINLASERAREA_OFFSET UNITYSDK_OFFSET(0x1B528D30)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMELASERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B528E70)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMELASERNODE_APPLYLASERDAMAGE_OFFSET UNITYSDK_OFFSET(0x142F3990)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMELASERNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x142F1ED0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMELASERNODE_ISINLASERAREA_OFFSET UNITYSDK_OFFSET(0x142F3900)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMELASERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x142F3A50)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameLaserNode_TypeDefinitionIndex = 47137;
+	inline static constexpr unsigned int HackerGameLaserNode_TypeDefinitionIndex = 53654;
 
-	class HackerGameLaserNode : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_5<::MoleMole::ChessEntityCollection*, ::MoleMole::ChessEntityCollection*, ::MoleMole::HackerGameBaseDamage*, ::MoleMole::HollowChessboard::HollowCell, ::MoleMole::HollowChessboard::HollowCell>
+	class HackerGameLaserNode
 	{
 	public:
 		::System::Void _ctor()

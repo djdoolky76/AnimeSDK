@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_A862B1AB621733B6;
+class ODLBEJANMEG;
 
-#define MOLEMOLE_UINEWBIEGUIDEGETROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15F4A0E0)
+#define MOLEMOLE_UINEWBIEGUIDEGETROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x168CFA40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINewbieGuideGetRowWidgetController_Data_TypeDefinitionIndex = 43314;
+	inline static constexpr unsigned int UINewbieGuideGetRowWidgetController_Data_TypeDefinitionIndex = 56462;
 
 	class UINewbieGuideGetRowWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_1_A862B1AB621733B6* AccessData; // 0x10
+		::ODLBEJANMEG* AccessData; // 0x10
 		::System::Boolean IsLast; // 0x18
 
 		::System::Void _ctor()

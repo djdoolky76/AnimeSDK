@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RUBYMEASURERESULT_GET_RUBYCENTER_OFFSET UNITYSDK_OFFSET(0xA68BD0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RUBYMEASURERESULT_GET_RUBYCENTER_OFFSET UNITYSDK_OFFSET(0x91FE90)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int RubyFeature_RubyMeasureResult_TypeDefinitionIndex = 74241;
+	inline static constexpr unsigned int RubyFeature_RubyMeasureResult_TypeDefinitionIndex = 74769;
 
 	struct alignas(4) RubyFeature_RubyMeasureResult
 	{

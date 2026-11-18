@@ -6,11 +6,11 @@
 namespace MoleMole::Config { class ConfigUISimpleParkourGame_SerializableJudgmentConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SIMPLEPARKOURGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C467070)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SIMPLEPARKOURGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6DC800)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUISimpleParkourGame_SimpleParkourGlobalConfig_TypeDefinitionIndex = 73973;
+	inline static constexpr unsigned int ConfigUISimpleParkourGame_SimpleParkourGlobalConfig_TypeDefinitionIndex = 64081;
 
 	class ConfigUISimpleParkourGame_SimpleParkourGlobalConfig : public ::System::Object
 	{
@@ -19,6 +19,7 @@ namespace MoleMole::Config
 		::MoleMole::MiniUIGame::SimpleParkour::ETrackType DefaultPlayerInitialTrack; // 0x14
 		::System::Single DefaultPlayerInitialSpeed; // 0x18
 		::System::Boolean DefaultPlayerClockwise; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::Single TrackSwitchDuration; // 0x20
 		::System::Single TrackSwitchTriggerTime; // 0x24
 		::System::Single DefaultPlayerViewAngle; // 0x28

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOUIRALLYROWPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x11A323A0)
+#define MONOUIRALLYROWPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18F84560)
 
-inline static constexpr unsigned int MonoUIRallyRowParam_TypeDefinitionIndex = 49239;
+inline static constexpr unsigned int MonoUIRallyRowParam_TypeDefinitionIndex = 52321;
 
 class MonoUIRallyRowParam : public ::UnityEngine::MonoBehaviour
 {

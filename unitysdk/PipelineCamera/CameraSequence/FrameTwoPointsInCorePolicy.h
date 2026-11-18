@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_3.h"
-#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_FRAMETWOPOINTSINCOREPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1B5D50)
+#define PIPELINECAMERA_CAMERASEQUENCE_FRAMETWOPOINTSINCOREPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F501130)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FrameTwoPointsInCorePolicy_TypeDefinitionIndex = 38571;
+	inline static constexpr unsigned int FrameTwoPointsInCorePolicy_TypeDefinitionIndex = 36570;
 
-	class FrameTwoPointsInCorePolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_3<::PipelineCamera::WorldBasicCameraData, ::UnityEngine::Vector3, ::UnityEngine::Vector3>
+	class FrameTwoPointsInCorePolicy
 	{
 	public:
 		::System::Void _ctor()

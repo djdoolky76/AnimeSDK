@@ -7,12 +7,12 @@ namespace System { class Type; }
 namespace System::Text::RegularExpressions { class Match; }
 namespace System::Text::RegularExpressions { class MatchEvaluator; }
 
-#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E082810)
-#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS2_0__READMETHOD_B__0_OFFSET UNITYSDK_OFFSET(0x1E083C80)
+#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E418CD0)
+#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS2_0__READMETHOD_B__0_OFFSET UNITYSDK_OFFSET(0x1E41A140)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager___c__DisplayClass2_0_TypeDefinitionIndex = 6923;
+	inline static constexpr unsigned int PatchManager___c__DisplayClass2_0_TypeDefinitionIndex = 6930;
 
 	class PatchManager___c__DisplayClass2_0 : public ::System::Object
 	{

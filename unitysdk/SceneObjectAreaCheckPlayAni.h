@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define SCENEOBJECTAREACHECKPLAYANI__CTOR_OFFSET UNITYSDK_OFFSET(0x18C59340)
+#define SCENEOBJECTAREACHECKPLAYANI__CTOR_OFFSET UNITYSDK_OFFSET(0x1A808A30)
 
-inline static constexpr unsigned int SceneObjectAreaCheckPlayAni_TypeDefinitionIndex = 46742;
+inline static constexpr unsigned int SceneObjectAreaCheckPlayAni_TypeDefinitionIndex = 53917;
 
 class SceneObjectAreaCheckPlayAni : public ::System::Object
 {

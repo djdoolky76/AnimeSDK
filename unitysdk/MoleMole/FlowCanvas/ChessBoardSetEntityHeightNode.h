@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/FlowNode.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 #include "unitysdk/Share/GridDir.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
@@ -11,24 +11,24 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole { class ChessEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13A7B100)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE_START_OFFSET UNITYSDK_OFFSET(0x13A7B220)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A7C150)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x13A7C210)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x146559A0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE_START_OFFSET UNITYSDK_OFFSET(0x14655AC0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x14656950)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETENTITYHEIGHTNODE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x14656A10)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoardSetEntityHeightNode_TypeDefinitionIndex = 54755;
+	inline static constexpr unsigned int ChessBoardSetEntityHeightNode_TypeDefinitionIndex = 40722;
 
 	class ChessBoardSetEntityHeightNode : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* output; // 0xA8
-		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* tmpCells; // 0xB0
+		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* tmpCells; // 0xA8
+		::FlowCanvas::FlowOutput* output; // 0xB0
 		::FlowCanvas::FlowInput* input; // 0xB8
-		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* nextCells; // 0xC0
+		::FlowCanvas::ValueInput_1<::Share::GridDir>* targetDir; // 0xC0
 		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntity*>* entity; // 0xC8
-		::FlowCanvas::ValueInput_1<::Share::GridDir>* targetDir; // 0xD0
+		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>* nextCells; // 0xD0
 
 		::System::Void _ctor()
 		{

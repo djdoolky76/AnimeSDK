@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/ReflectedMethodRegistrationOptions.h"
 #include "unitysdk/System/Object.h"
 
-namespace FlowCanvas { class FlowNode; }
 namespace System { class String; }
 namespace System::Reflection { class MethodInfo; }
 
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDMETHODNODE_CREATE_OFFSET UNITYSDK_OFFSET(0x1EBB4980)
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDMETHODNODE_GETNAME_OFFSET UNITYSDK_OFFSET(0x1EBB5190)
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDMETHODNODE_TRYCREATEJIT_OFFSET UNITYSDK_OFFSET(0x1EBB4B00)
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDMETHODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB4970)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDMETHODNODE_CREATE_OFFSET UNITYSDK_OFFSET(0x1EF87250)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDMETHODNODE_GETNAME_OFFSET UNITYSDK_OFFSET(0x1EF87A60)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDMETHODNODE_TRYCREATEJIT_OFFSET UNITYSDK_OFFSET(0x1EF873D0)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDMETHODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF87240)
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int ReflectedMethodNode_TypeDefinitionIndex = 30730;
+	inline static constexpr unsigned int ReflectedMethodNode_TypeDefinitionIndex = 29873;
 
 	class ReflectedMethodNode : public ::System::Object
 	{

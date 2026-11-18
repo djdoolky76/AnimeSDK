@@ -4,12 +4,12 @@
 
 namespace System::Collections { class IEnumerable; }
 
-#define MOLEMOLE_CONFIG_CONFIGMISC_PLAYERINITSETTING_GETALLAVATARIDS_OFFSET UNITYSDK_OFFSET(0x1B4CEEE0)
-#define MOLEMOLE_CONFIG_CONFIGMISC_PLAYERINITSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CEF40)
+#define MOLEMOLE_CONFIG_CONFIGMISC_PLAYERINITSETTING_GETALLAVATARIDS_OFFSET UNITYSDK_OFFSET(0x12775D60)
+#define MOLEMOLE_CONFIG_CONFIGMISC_PLAYERINITSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x12775DC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMisc_PlayerInitSetting_TypeDefinitionIndex = 48040;
+	inline static constexpr unsigned int ConfigMisc_PlayerInitSetting_TypeDefinitionIndex = 92040;
 
 	class ConfigMisc_PlayerInitSetting : public ::System::Object
 	{

@@ -8,11 +8,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Gradient; }
 
-#define MOLEMOLE_CONFIG_CONFIGPHOTOWALL__CTOR_OFFSET UNITYSDK_OFFSET(0x16C47000)
+#define MOLEMOLE_CONFIG_CONFIGPHOTOWALL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0327A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPhotoWall_TypeDefinitionIndex = 89830;
+	inline static constexpr unsigned int ConfigPhotoWall_TypeDefinitionIndex = 88707;
 
 	class ConfigPhotoWall : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -20,6 +20,7 @@ namespace MoleMole::Config
 		::System::Single ValidOverlapRate; // 0x58
 		::System::Single ValidWallOverlapRate; // 0x5C
 		::System::Single DragEnableRate; // 0x60
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Gradient* CursorSelectColor; // 0x68
 		::UnityEngine::Gradient* EditingSelectColor; // 0x70
 		::UnityEngine::Gradient* ErrorSelectColor; // 0x78
@@ -37,9 +38,11 @@ namespace MoleMole::Config
 		::System::Single ExClampValue; // 0xAC
 		::UnityEngine::AnimationCurve* ExClampCurve; // 0xB0
 		::System::Int32 SectionId; // 0xB8
+		::System::Byte _padding1[0x4];
 		::System::String* MalePos; // 0xC0
 		::System::String* FemalePos; // 0xC8
 		::System::Int32 OtherDefaultWall; // 0xD0
+		::System::Byte _padding2[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::Config::SFixPhotoData>* OtherDefaults; // 0xD8
 
 		::System::Void _ctor()

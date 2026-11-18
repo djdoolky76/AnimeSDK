@@ -4,32 +4,33 @@
 #include "unitysdk/MoleMole/Config/ConfigSoundActionGeneral.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_197;
+class EIOKLKEJAME;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B4DA7C0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x1B4DA700)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_GET_PARAMHINT_OFFSET UNITYSDK_OFFSET(0x1B4DA740)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1B4DB1C0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_WALK_OFFSET UNITYSDK_OFFSET(0x1B4DB260)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4DB370)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1B4DB3B0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION___BASE_WALK_OFFSET UNITYSDK_OFFSET(0x1B4DB3C0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_EXECUTE_OFFSET UNITYSDK_OFFSET(0x12784890)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x127847D0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_GET_PARAMHINT_OFFSET UNITYSDK_OFFSET(0x12784810)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_ISMATCH_OFFSET UNITYSDK_OFFSET(0x12785290)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_WALK_OFFSET UNITYSDK_OFFSET(0x12785330)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x12785440)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x12785480)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION___BASE_WALK_OFFSET UNITYSDK_OFFSET(0x12785490)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_OffsetPosition_TypeDefinitionIndex = 83235;
+	inline static constexpr unsigned int ConfigSoundAction_OffsetPosition_TypeDefinitionIndex = 71216;
 
 	class ConfigSoundAction_OffsetPosition : public ::MoleMole::Config::ConfigSoundActionGeneral
 	{
 	public:
-		::MoleMole::Config::ConfigSoundActionGeneral* action; // 0x20
-		::MoleMole::Config::ConfigSoundActionGeneral* actionOnComplete; // 0x28
-		::System::Boolean createNewEmitter; // 0x30
-		::DG::Tweening::Ease moveEase; // 0x34
-		::System::Single moveDuration; // 0x38
-		::UnityEngine::Vector3 offset; // 0x3C
+		::MoleMole::Config::ConfigSoundActionGeneral* actionOnComplete; // 0x20
+		::MoleMole::Config::ConfigSoundActionGeneral* action; // 0x28
+		::UnityEngine::Vector3 offset; // 0x30
+		::System::Single moveDuration; // 0x3C
+		::System::Boolean createNewEmitter; // 0x40
+		::System::Byte _padding0[0x3];
+		::DG::Tweening::Ease moveEase; // 0x44
 
 		::System::Void _ctor()
 		{
@@ -46,9 +47,9 @@ namespace MoleMole::Config
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_GET_PARAMHINT_OFFSET))(this);
 		}
 
-		::System::Void Execute(::Class_0_16E4307DCC419505_197* context)
+		::System::Void Execute(::EIOKLKEJAME* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_197*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_EXECUTE_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::EIOKLKEJAME*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_OFFSETPOSITION_EXECUTE_OFFSET))(this, context);
 		}
 
 		::System::Boolean IsMatch(::System::String* pattern)

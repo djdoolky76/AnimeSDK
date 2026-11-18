@@ -5,12 +5,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigInteractionFanCylinder_TypeDefinitionIndex = 78907;
+	inline static constexpr unsigned int ConfigInteractionFanCylinder_TypeDefinitionIndex = 66396;
 
 	struct alignas(4) ConfigInteractionFanCylinder
 	{
 		::MoleMole::Config::ConfigCircularSector3D CircularSector3D; // 0x10
 		::System::Boolean EnableVerticalCheck; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::Single HeightOffsetFromOrigin; // 0x34
 	};
 }

@@ -10,28 +10,28 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GUIStyle; }
 
-#define RICHTAPCONSOLE_ADDMESSAGE_OFFSET UNITYSDK_OFFSET(0x1F227EC0)
-#define RICHTAPCONSOLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F230710)
-#define RICHTAPCONSOLE_CLAMPWINDOWPOSITION_OFFSET UNITYSDK_OFFSET(0x1F230D80)
-#define RICHTAPCONSOLE_CLEARALLMESSAGES_OFFSET UNITYSDK_OFFSET(0x1F231260)
-#define RICHTAPCONSOLE_DRAWCONSOLEWINDOW_OFFSET UNITYSDK_OFFSET(0x1F230C70)
-#define RICHTAPCONSOLE_DRAWTOOLBAR_OFFSET UNITYSDK_OFFSET(0x1F231090)
-#define RICHTAPCONSOLE_DRAWWINDOWCONTENT_OFFSET UNITYSDK_OFFSET(0x1F230E00)
-#define RICHTAPCONSOLE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F230700)
-#define RICHTAPCONSOLE_INITGUISTYLE_OFFSET UNITYSDK_OFFSET(0x1F2309E0)
-#define RICHTAPCONSOLE_INITWINDOWRECT_OFFSET UNITYSDK_OFFSET(0x1F230970)
-#define RICHTAPCONSOLE_ONGUI_OFFSET UNITYSDK_OFFSET(0x1F230C60)
-#define RICHTAPCONSOLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F230C50)
-#define RICHTAPCONSOLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F231330)
+#define RICHTAPCONSOLE_ADDMESSAGE_OFFSET UNITYSDK_OFFSET(0x1F61BA50)
+#define RICHTAPCONSOLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F6242A0)
+#define RICHTAPCONSOLE_CLAMPWINDOWPOSITION_OFFSET UNITYSDK_OFFSET(0x1F624910)
+#define RICHTAPCONSOLE_CLEARALLMESSAGES_OFFSET UNITYSDK_OFFSET(0x1F624E00)
+#define RICHTAPCONSOLE_DRAWCONSOLEWINDOW_OFFSET UNITYSDK_OFFSET(0x1F624800)
+#define RICHTAPCONSOLE_DRAWTOOLBAR_OFFSET UNITYSDK_OFFSET(0x1F624C30)
+#define RICHTAPCONSOLE_DRAWWINDOWCONTENT_OFFSET UNITYSDK_OFFSET(0x1F624990)
+#define RICHTAPCONSOLE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F624290)
+#define RICHTAPCONSOLE_INITGUISTYLE_OFFSET UNITYSDK_OFFSET(0x1F624570)
+#define RICHTAPCONSOLE_INITWINDOWRECT_OFFSET UNITYSDK_OFFSET(0x1F624500)
+#define RICHTAPCONSOLE_ONGUI_OFFSET UNITYSDK_OFFSET(0x1F6247F0)
+#define RICHTAPCONSOLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F6247E0)
+#define RICHTAPCONSOLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F624ED0)
 
-inline static constexpr unsigned int RichTapConsole_TypeDefinitionIndex = 38737;
+inline static constexpr unsigned int RichTapConsole_TypeDefinitionIndex = 36737;
 
 class RichTapConsole : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::RichTapConsole** StaticGet__instance()
 	{
-		return (::RichTapConsole**)Il2CppClass::FromTypeDefinitionIndex(RichTapConsole_TypeDefinitionIndex)->GetStaticField(0x2A770);
+		return (::RichTapConsole**)Il2CppClass::FromTypeDefinitionIndex(RichTapConsole_TypeDefinitionIndex)->GetStaticField(0x2BAD0);
 	}
 	// static const ::System::Int32 ConsoleWindowID = 0x29A; // 0x0
 	// static const ::System::Int32 ConsoleEdge = 0x14; // 0x0
@@ -39,10 +39,12 @@ public:
 	::UnityEngine::KeyCode ShortcutKey; // 0x18
 	::System::Single shakeAcceleration; // 0x1C
 	::System::Int32 maxMessages; // 0x20
+	::System::Byte _padding0[0x4];
 	::System::Collections::Generic::List_1<::System::String*>* messages; // 0x28
 	::System::Single initWidthRatio; // 0x30
 	::UnityEngine::Vector2 scrollPosition; // 0x34
 	::UnityEngine::Rect windowRect; // 0x3C
+	::System::Byte _padding1[0x4];
 	::UnityEngine::GUIStyle* textStyle; // 0x50
 	::UnityEngine::GUIStyle* clearButtonStyle; // 0x58
 	::System::Object* _lock; // 0x60

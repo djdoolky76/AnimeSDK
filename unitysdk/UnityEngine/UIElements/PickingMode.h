@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PickingMode_TypeDefinitionIndex = 28076;
+	inline static constexpr unsigned int PickingMode_TypeDefinitionIndex = 27494;
 
 	enum class PickingMode : ::System::Int32
 	{

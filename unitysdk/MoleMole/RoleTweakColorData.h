@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_ROLETWEAKCOLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x190A81F0)
+#define MOLEMOLE_ROLETWEAKCOLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1810FFE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RoleTweakColorData_TypeDefinitionIndex = 90453;
+	inline static constexpr unsigned int RoleTweakColorData_TypeDefinitionIndex = 42705;
 
 	class RoleTweakColorData : public ::System::Object
 	{

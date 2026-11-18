@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Diagnostics/TextWriterTraceListener.h"
 
-#define SYSTEM_DIAGNOSTICS_CONSOLETRACELISTENER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D46BAB0)
-#define SYSTEM_DIAGNOSTICS_CONSOLETRACELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D46BA70)
+#define SYSTEM_DIAGNOSTICS_CONSOLETRACELISTENER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D926C20)
+#define SYSTEM_DIAGNOSTICS_CONSOLETRACELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D926BE0)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int ConsoleTraceListener_TypeDefinitionIndex = 4165;
+	inline static constexpr unsigned int ConsoleTraceListener_TypeDefinitionIndex = 4164;
 
 	class ConsoleTraceListener : public ::System::Diagnostics::TextWriterTraceListener
 	{

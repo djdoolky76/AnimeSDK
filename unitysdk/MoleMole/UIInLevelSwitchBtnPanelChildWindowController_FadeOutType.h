@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSwitchBtnPanelChildWindowController_FadeOutType_TypeDefinitionIndex = 91115;
+	inline static constexpr unsigned int UIInLevelSwitchBtnPanelChildWindowController_FadeOutType_TypeDefinitionIndex = 71875;
 
 	enum class UIInLevelSwitchBtnPanelChildWindowController_FadeOutType : ::System::Int32
 	{

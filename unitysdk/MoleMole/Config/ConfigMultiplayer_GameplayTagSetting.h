@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER_GAMEPLAYTAGSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1437D2E0)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER_GAMEPLAYTAGSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x121C91F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMultiplayer_GameplayTagSetting_TypeDefinitionIndex = 61662;
+	inline static constexpr unsigned int ConfigMultiplayer_GameplayTagSetting_TypeDefinitionIndex = 72561;
 
 	class ConfigMultiplayer_GameplayTagSetting : public ::System::Object
 	{

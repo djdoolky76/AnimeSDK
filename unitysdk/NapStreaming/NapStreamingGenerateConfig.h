@@ -10,11 +10,11 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAPSTREAMING_NAPSTREAMINGGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11950DA0)
+#define NAPSTREAMING_NAPSTREAMINGGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10605240)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingGenerateConfig_TypeDefinitionIndex = 72561;
+	inline static constexpr unsigned int NapStreamingGenerateConfig_TypeDefinitionIndex = 46372;
 
 	class NapStreamingGenerateConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{
@@ -24,8 +24,10 @@ namespace NapStreaming
 		::System::Collections::Generic::List_1<::NapStreaming::NonStreamingGenerateData>* nonStreamingNamePatterns; // 0x68
 		::System::Boolean cookPvs; // 0x70
 		::System::Boolean cookYGap; // 0x71
+		::System::Byte _padding0[0x2];
 		::System::Single yGapDistance; // 0x74
 		::System::Boolean mergeCollider; // 0x78
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector3 pvsCellSize; // 0x7C
 		::UnityEngine::Vector3 pvsSampleGap; // 0x88
 		::System::Int32 pvsSampleCount; // 0x94

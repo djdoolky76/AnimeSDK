@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETINTERACTIONGAMEPLAYTAGBYENTITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x192466B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETINTERACTIONGAMEPLAYTAGBYENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19246840)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETINTERACTIONGAMEPLAYTAGBYENTITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x119122F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETINTERACTIONGAMEPLAYTAGBYENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x11912490)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetInteractionGameplayTagByEntity_TypeDefinitionIndex = 46274;
+	inline static constexpr unsigned int LD_AbyssS2_GetInteractionGameplayTagByEntity_TypeDefinitionIndex = 59191;
 
-	class LD_AbyssS2_GetInteractionGameplayTagByEntity : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Collections::Generic::List_1<::System::String*>*, ::MoleMole::Battle::Entity*, ::System::Int32>
+	class LD_AbyssS2_GetInteractionGameplayTagByEntity
 	{
 	public:
 		::System::Void _ctor()

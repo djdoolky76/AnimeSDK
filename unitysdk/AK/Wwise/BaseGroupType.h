@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AK/Wwise/BaseType.h"
-#include "unitysdk/WwiseObjectType.h"
 
 class WwiseObjectReference;
 
-#define AK_WWISE_BASEGROUPTYPE_GET_GROUPGUID_OFFSET UNITYSDK_OFFSET(0x1FB46990)
-#define AK_WWISE_BASEGROUPTYPE_GET_GROUPID_1_OFFSET UNITYSDK_OFFSET(0x1FB46850)
-#define AK_WWISE_BASEGROUPTYPE_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1FB465E0)
-#define AK_WWISE_BASEGROUPTYPE_GET_GROUPWWISEOBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1FB46470)
-#define AK_WWISE_BASEGROUPTYPE_ISVALID_OFFSET UNITYSDK_OFFSET(0x1FB46720)
-#define AK_WWISE_BASEGROUPTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB46B80)
+#define AK_WWISE_BASEGROUPTYPE_GET_GROUPGUID_OFFSET UNITYSDK_OFFSET(0x1FF4DFC0)
+#define AK_WWISE_BASEGROUPTYPE_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1FF4DC10)
+#define AK_WWISE_BASEGROUPTYPE_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1FF4DE80)
+#define AK_WWISE_BASEGROUPTYPE_GET_GROUPWWISEOBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1FF4DAA0)
+#define AK_WWISE_BASEGROUPTYPE_ISVALID_OFFSET UNITYSDK_OFFSET(0x1FF4DD50)
+#define AK_WWISE_BASEGROUPTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF4E1B0)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int BaseGroupType_TypeDefinitionIndex = 33834;
+	inline static constexpr unsigned int BaseGroupType_TypeDefinitionIndex = 33380;
 
 	class BaseGroupType : public ::AK::Wwise::BaseType
 	{
 	public:
 		::System::Int32 groupIdInternal; // 0x20
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Byte>* groupGuidInternal; // 0x28
 
 		::System::Void _ctor()
@@ -42,9 +42,9 @@ namespace AK::Wwise
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASEGROUPTYPE_ISVALID_OFFSET))(this);
 		}
 
-		::System::Int32 get_groupID_1()
+		::System::Int32 get_groupID()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASEGROUPTYPE_GET_GROUPID_1_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASEGROUPTYPE_GET_GROUPID_OFFSET))(this);
 		}
 
 		::Il2CppArray<::System::Byte>* get_groupGuid()

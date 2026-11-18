@@ -6,7 +6,7 @@ namespace UnityEngine::NAPRenderPipeline0 { class PerCameraLensFlareData; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LensFlareDataDrivenJobData_TypeDefinitionIndex = 18893;
+	inline static constexpr unsigned int LensFlareDataDrivenJobData_TypeDefinitionIndex = 18047;
 
 	struct alignas(8) LensFlareDataDrivenJobData
 	{
@@ -14,6 +14,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Int32 QuadMeshID; // 0x14
 		::System::Single ScreenRatio; // 0x18
 		::System::Boolean OcclusionPassOn; // 0x1C
+		::System::Byte _padding0[0x3];
 		::UnityEngine::NAPRenderPipeline0::PerCameraLensFlareData* CameraLensFlareData; // 0x20
 	};
 }

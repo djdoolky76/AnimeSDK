@@ -6,12 +6,12 @@
 
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define DEST_MATH_CONVEXHULL_CREATE2D_OFFSET UNITYSDK_OFFSET(0x1FC69380)
-#define DEST_MATH_CONVEXHULL_CREATE3D_OFFSET UNITYSDK_OFFSET(0x1FC69490)
+#define DEST_MATH_CONVEXHULL_CREATE2D_OFFSET UNITYSDK_OFFSET(0x2006C060)
+#define DEST_MATH_CONVEXHULL_CREATE3D_OFFSET UNITYSDK_OFFSET(0x2006C170)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ConvexHull_TypeDefinitionIndex = 35334;
+	inline static constexpr unsigned int ConvexHull_TypeDefinitionIndex = 34907;
 
 	class ConvexHull : public ::System::Object
 	{

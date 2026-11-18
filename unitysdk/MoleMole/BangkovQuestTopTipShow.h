@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GeneralTopTipShow.h"
 
-class Class_2_112BCAD317CC03C6;
+class PBJKEMDGJFN;
 
-#define MOLEMOLE_BANGKOVQUESTTOPTIPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1726A5B0)
-#define MOLEMOLE_BANGKOVQUESTTOPTIPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1726A590)
-#define MOLEMOLE_BANGKOVQUESTTOPTIPSHOW___BASE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1726A770)
+#define MOLEMOLE_BANGKOVQUESTTOPTIPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x163DA880)
+#define MOLEMOLE_BANGKOVQUESTTOPTIPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x163DA860)
+#define MOLEMOLE_BANGKOVQUESTTOPTIPSHOW___BASE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x163DAA40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BangkovQuestTopTipShow_TypeDefinitionIndex = 89952;
+	inline static constexpr unsigned int BangkovQuestTopTipShow_TypeDefinitionIndex = 40609;
 
 	class BangkovQuestTopTipShow : public ::MoleMole::GeneralTopTipShow
 	{
 	public:
-		::Class_2_112BCAD317CC03C6* _context; // 0x30
+		::PBJKEMDGJFN* _context; // 0x30
 
-		::System::Void _ctor(::Class_2_112BCAD317CC03C6* context)
+		::System::Void _ctor(::PBJKEMDGJFN* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_112BCAD317CC03C6*))((::PBYTE)hIl2Cpp + MOLEMOLE_BANGKOVQUESTTOPTIPSHOW__CTOR_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::PBJKEMDGJFN*))((::PBYTE)hIl2Cpp + MOLEMOLE_BANGKOVQUESTTOPTIPSHOW__CTOR_OFFSET))(this, context);
 		}
 
 		::System::Void OnProcess()

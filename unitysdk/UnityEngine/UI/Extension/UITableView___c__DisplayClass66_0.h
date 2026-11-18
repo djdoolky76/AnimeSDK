@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/UI/Extension/UITableView_Data.h"
 
-#define UNITYENGINE_UI_EXTENSION_UITABLEVIEW___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18B51320)
-#define UNITYENGINE_UI_EXTENSION_UITABLEVIEW___C__DISPLAYCLASS66_0__REMOVEDATA_B__0_OFFSET UNITYSDK_OFFSET(0x18B51330)
+#define UNITYENGINE_UI_EXTENSION_UITABLEVIEW___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x194D2730)
+#define UNITYENGINE_UI_EXTENSION_UITABLEVIEW___C__DISPLAYCLASS66_0__REMOVEDATA_B__0_OFFSET UNITYSDK_OFFSET(0x194D2740)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITableView___c__DisplayClass66_0_TypeDefinitionIndex = 65406;
+	inline static constexpr unsigned int UITableView___c__DisplayClass66_0_TypeDefinitionIndex = 79719;
 
 	class UITableView___c__DisplayClass66_0 : public ::System::Object
 	{

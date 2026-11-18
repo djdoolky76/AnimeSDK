@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
+inline static constexpr unsigned int __f__AnonymousType1_1_TypeDefinitionIndex = 94233;
 
-inline static constexpr unsigned int __f__AnonymousType1_1_TypeDefinitionIndex = 92408;
-
-template <typename _BattleUuid_j__TPar>
+template <typename T>
 class __f__AnonymousType1_1 : public ::System::Object
 {
 public:
-	_BattleUuid_j__TPar _BattleUuid_i__Field; // 0x0
+	T _BattleUuid_i__Field; // 0x0
 };

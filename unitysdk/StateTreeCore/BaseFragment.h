@@ -6,28 +6,28 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructOpsTraitsBase; }
 
-#define STATETREECORE_BASEFRAGMENT_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x296F30)
-#define STATETREECORE_BASEFRAGMENT_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x296F30)
-#define STATETREECORE_BASEFRAGMENT_CREATE_OFFSET UNITYSDK_OFFSET(0x1ED74B00)
-#define STATETREECORE_BASEFRAGMENT_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0x296F30)
-#define STATETREECORE_BASEFRAGMENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x296F30)
-#define STATETREECORE_BASEFRAGMENT_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0xA7BCF0)
-#define STATETREECORE_BASEFRAGMENT_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0xA7BD50)
-#define STATETREECORE_BASEFRAGMENT_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0x296F30)
-#define STATETREECORE_BASEFRAGMENT_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x296F30)
-#define STATETREECORE_BASEFRAGMENT_RESET_OFFSET UNITYSDK_OFFSET(0x463A20)
-#define STATETREECORE_BASEFRAGMENT_UNREALTYPES_ISTRUCT_STATETREECORE_BASEFRAGMENT__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x296F30)
-#define STATETREECORE_BASEFRAGMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED74C30)
+#define STATETREECORE_BASEFRAGMENT_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
+#define STATETREECORE_BASEFRAGMENT_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
+#define STATETREECORE_BASEFRAGMENT_CREATE_OFFSET UNITYSDK_OFFSET(0x1F2DCD00)
+#define STATETREECORE_BASEFRAGMENT_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
+#define STATETREECORE_BASEFRAGMENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
+#define STATETREECORE_BASEFRAGMENT_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0x9647E0)
+#define STATETREECORE_BASEFRAGMENT_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0x964840)
+#define STATETREECORE_BASEFRAGMENT_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
+#define STATETREECORE_BASEFRAGMENT_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
+#define STATETREECORE_BASEFRAGMENT_RESET_OFFSET UNITYSDK_OFFSET(0x5916C0)
+#define STATETREECORE_BASEFRAGMENT_UNREALTYPES_ISTRUCT_STATETREECORE_BASEFRAGMENT__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
+#define STATETREECORE_BASEFRAGMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2DCE30)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int BaseFragment_TypeDefinitionIndex = 31581;
+	inline static constexpr unsigned int BaseFragment_TypeDefinitionIndex = 31018;
 
-	struct alignas(1) BaseFragment
+	struct alignas(4) BaseFragment
 	{
 		static ::UnrealTypes::StructOpsTraitsBase** StaticGet_StaticStructOpsTraits()
 		{
-			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(BaseFragment_TypeDefinitionIndex)->GetStaticField(0x266D0);
+			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(BaseFragment_TypeDefinitionIndex)->GetStaticField(0x27640);
 		}
 		// static const ::System::UInt32 PersistentTypeHash = 0x25BCCC24; // 0x0
 
@@ -41,35 +41,47 @@ namespace StateTreeCore
 			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_BASEFRAGMENT_GET_STATICSTRUCT_OFFSET))(this);
 		}
 
+		/*
 		static ::StateTreeCore::BaseFragment Create()
 		{
 			return ((::StateTreeCore::BaseFragment(*)())((::PBYTE)hIl2Cpp + STATETREECORE_BASEFRAGMENT_CREATE_OFFSET))();
 		}
+		*/
 
+		/*
 		::StateTreeCore::BaseFragment DefaultCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::BaseFragment(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_BASEFRAGMENT_DEFAULTCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::StateTreeCore::BaseFragment CopyCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::BaseFragment(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_BASEFRAGMENT_COPYCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::StateTreeCore::BaseFragment MoveCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::BaseFragment(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_BASEFRAGMENT_MOVECREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::System::Void CopyAssign(::StateTreeCore::BaseFragment& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::BaseFragment&))((::PBYTE)hIl2Cpp + STATETREECORE_BASEFRAGMENT_COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		::System::Void MoveAssign(::StateTreeCore::BaseFragment& temp)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::BaseFragment&))((::PBYTE)hIl2Cpp + STATETREECORE_BASEFRAGMENT_MOVEASSIGN_OFFSET))(this, temp);
 		}
+		*/
 
 		::System::Void Reset()
 		{
@@ -86,9 +98,11 @@ namespace StateTreeCore
 			return ((::UnrealTypes::StructOpsTraitsBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_BASEFRAGMENT_GET_STRUCTOPSTRAITS_OFFSET))(this);
 		}
 
+		/*
 		::System::Void UnrealTypes_IStruct_StateTreeCore_BaseFragment__CopyAssign(::StateTreeCore::BaseFragment& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::BaseFragment&))((::PBYTE)hIl2Cpp + STATETREECORE_BASEFRAGMENT_UNREALTYPES_ISTRUCT_STATETREECORE_BASEFRAGMENT__COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 	};
 }

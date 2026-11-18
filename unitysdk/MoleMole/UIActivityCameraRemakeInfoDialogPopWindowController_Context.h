@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIACTIVITYCAMERAREMAKEINFODIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E5270)
+#define MOLEMOLE_UIACTIVITYCAMERAREMAKEINFODIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A757660)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCameraRemakeInfoDialogPopWindowController_Context_TypeDefinitionIndex = 78115;
+	inline static constexpr unsigned int UIActivityCameraRemakeInfoDialogPopWindowController_Context_TypeDefinitionIndex = 52162;
 
 	class UIActivityCameraRemakeInfoDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* Desc1; // 0x28
-		::System::String* Desc2; // 0x30
-		::System::String* PicPath; // 0x38
+		::System::String* PicPath; // 0x28
+		::System::String* Desc1; // 0x30
+		::System::String* Desc2; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface_UGCErrorCode_TypeDefinitionIndex = 37477;
+	inline static constexpr unsigned int UGCInterface_UGCErrorCode_TypeDefinitionIndex = 35455;
 
 	enum class UGCInterface_UGCErrorCode : ::System::Int32
 	{

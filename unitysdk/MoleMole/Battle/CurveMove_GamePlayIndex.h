@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_113D492E8CB1C3A7_1_OFFSET UNITYSDK_OFFSET(0x17799D90)
-#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_113D492E8CB1C3A7_OFFSET UNITYSDK_OFFSET(0x17799CB0)
-#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x86EC60)
-#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_4B3633E534F4FF78_1_OFFSET UNITYSDK_OFFSET(0x17799D40)
-#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_4B3633E534F4FF78_2_OFFSET UNITYSDK_OFFSET(0x17799DD0)
-#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_4B3633E534F4FF78_3_OFFSET UNITYSDK_OFFSET(0x17799E20)
-#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_4B3633E534F4FF78_4_OFFSET UNITYSDK_OFFSET(0x17799E70)
-#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_4B3633E534F4FF78_5_OFFSET UNITYSDK_OFFSET(0x17799F40)
-#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_4B3633E534F4FF78_OFFSET UNITYSDK_OFFSET(0x17799CF0)
-#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x86EC50)
+#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_ANOCBOGBGIB_OFFSET UNITYSDK_OFFSET(0x174C04E0)
+#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_CKCFGGBHNNF_OFFSET UNITYSDK_OFFSET(0x174C0490)
+#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x7A9410)
+#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_HINIAKPGJAJ_OFFSET UNITYSDK_OFFSET(0x174C0320)
+#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_HLLCKLIOIMN_OFFSET UNITYSDK_OFFSET(0x174C0440)
+#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_INCFIJKMIGG_OFFSET UNITYSDK_OFFSET(0x174C0530)
+#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_JCIODAGLLGB_OFFSET UNITYSDK_OFFSET(0x174C0370)
+#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_JPPEEOLOGGP_OFFSET UNITYSDK_OFFSET(0x174C0400)
+#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_NOGJIJMACNO_OFFSET UNITYSDK_OFFSET(0x174C03B0)
+#define MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x7A9400)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int CurveMove_GamePlayIndex_TypeDefinitionIndex = 58666;
+	inline static constexpr unsigned int CurveMove_GamePlayIndex_TypeDefinitionIndex = 62199;
 
 	struct alignas(4) CurveMove_GamePlayIndex
 	{
@@ -28,49 +28,65 @@ namespace MoleMole::Battle
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_TOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Int32 Method_2_113D492E8CB1C3A7(::MoleMole::Battle::CurveMove_GamePlayIndex a1)
+		/*
+		static ::System::Boolean HINIAKPGJAJ(::MoleMole::Battle::CurveMove_GamePlayIndex EJCBEJMGFAJ, ::MoleMole::Battle::CurveMove_GamePlayIndex EBFCACIEKBC)
 		{
-			return ((::System::Int32(*)(::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_113D492E8CB1C3A7_OFFSET))(a1);
+			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_GamePlayIndex, ::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_HINIAKPGJAJ_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
+		*/
 
-		static ::System::Boolean Method_2_4B3633E534F4FF78(::MoleMole::Battle::CurveMove_GamePlayIndex a1, ::MoleMole::Battle::CurveMove_GamePlayIndex a2)
+		/*
+		static ::System::Int32 JCIODAGLLGB(::MoleMole::Battle::CurveMove_GamePlayIndex EGEGIMGMJHN)
 		{
-			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_GamePlayIndex, ::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_4B3633E534F4FF78_OFFSET))(a1, a2);
+			return ((::System::Int32(*)(::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_JCIODAGLLGB_OFFSET))(EGEGIMGMJHN);
 		}
+		*/
 
-		static ::System::Boolean Method_2_4B3633E534F4FF78_1(::MoleMole::Battle::CurveMove_GamePlayIndex a1, ::MoleMole::Battle::CurveMove_GamePlayIndex a2)
+		/*
+		static ::System::Boolean NOGJIJMACNO(::MoleMole::Battle::CurveMove_GamePlayIndex EJCBEJMGFAJ, ::MoleMole::Battle::CurveMove_GamePlayIndex EBFCACIEKBC)
 		{
-			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_GamePlayIndex, ::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_4B3633E534F4FF78_1_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_GamePlayIndex, ::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_NOGJIJMACNO_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
+		*/
 
-		static ::MoleMole::Battle::CurveMove_GamePlayIndex Method_2_113D492E8CB1C3A7_1(::System::Int32 a1)
+		/*
+		static ::MoleMole::Battle::CurveMove_GamePlayIndex JPPEEOLOGGP(::System::Int32 EGEGIMGMJHN)
 		{
-			return ((::MoleMole::Battle::CurveMove_GamePlayIndex(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_113D492E8CB1C3A7_1_OFFSET))(a1);
+			return ((::MoleMole::Battle::CurveMove_GamePlayIndex(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_JPPEEOLOGGP_OFFSET))(EGEGIMGMJHN);
 		}
+		*/
 
-		static ::System::Boolean Method_2_4B3633E534F4FF78_2(::MoleMole::Battle::CurveMove_GamePlayIndex a1, ::MoleMole::Battle::CurveMove_GamePlayIndex a2)
+		/*
+		static ::System::Boolean HLLCKLIOIMN(::MoleMole::Battle::CurveMove_GamePlayIndex EJCBEJMGFAJ, ::MoleMole::Battle::CurveMove_GamePlayIndex EBFCACIEKBC)
 		{
-			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_GamePlayIndex, ::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_4B3633E534F4FF78_2_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_GamePlayIndex, ::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_HLLCKLIOIMN_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
+		*/
 
-		static ::System::Boolean Method_2_4B3633E534F4FF78_3(::MoleMole::Battle::CurveMove_GamePlayIndex a1, ::MoleMole::Battle::CurveMove_GamePlayIndex a2)
+		/*
+		static ::System::Boolean CKCFGGBHNNF(::MoleMole::Battle::CurveMove_GamePlayIndex EJCBEJMGFAJ, ::MoleMole::Battle::CurveMove_GamePlayIndex EBFCACIEKBC)
 		{
-			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_GamePlayIndex, ::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_4B3633E534F4FF78_3_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_GamePlayIndex, ::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_CKCFGGBHNNF_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
+		*/
 
-		static ::System::Boolean Method_2_4B3633E534F4FF78_4(::MoleMole::Battle::CurveMove_GamePlayIndex a1, ::MoleMole::Battle::CurveMove_GamePlayIndex a2)
+		/*
+		static ::System::Boolean ANOCBOGBGIB(::MoleMole::Battle::CurveMove_GamePlayIndex EJCBEJMGFAJ, ::MoleMole::Battle::CurveMove_GamePlayIndex EBFCACIEKBC)
 		{
-			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_GamePlayIndex, ::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_4B3633E534F4FF78_4_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_GamePlayIndex, ::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_ANOCBOGBGIB_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
+		*/
 
-		::System::String* Method_2_35EA095E1AFDD9C8()
+		/*
+		static ::System::Boolean INCFIJKMIGG(::MoleMole::Battle::CurveMove_GamePlayIndex EJCBEJMGFAJ, ::MoleMole::Battle::CurveMove_GamePlayIndex EBFCACIEKBC)
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_35EA095E1AFDD9C8_OFFSET))(this);
+			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_GamePlayIndex, ::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_INCFIJKMIGG_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
+		*/
 
-		static ::System::Boolean Method_2_4B3633E534F4FF78_5(::MoleMole::Battle::CurveMove_GamePlayIndex a1, ::MoleMole::Battle::CurveMove_GamePlayIndex a2)
+		::System::String* DPIHOJBBGLA()
 		{
-			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_GamePlayIndex, ::MoleMole::Battle::CurveMove_GamePlayIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_METHOD_2_4B3633E534F4FF78_5_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_GAMEPLAYINDEX_DPIHOJBBGLA_OFFSET))(this);
 		}
 	};
 }

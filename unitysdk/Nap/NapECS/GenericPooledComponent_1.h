@@ -3,13 +3,12 @@
 #include "unitysdk/System/Object.h"
 
 namespace Nap::NapECS { class EcsComponent; }
-namespace Nap::NapECS { class EcsWorld; }
 namespace Nap::NapECS { template <typename T> class ObjectPool_1; }
 namespace System { template <typename T> class Action_1; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int GenericPooledComponent_1_TypeDefinitionIndex = 37955;
+	inline static constexpr unsigned int GenericPooledComponent_1_TypeDefinitionIndex = 36005;
 
 	template <typename T>
 	class GenericPooledComponent_1 : public ::System::Object

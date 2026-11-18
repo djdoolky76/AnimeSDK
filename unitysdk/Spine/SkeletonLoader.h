@@ -4,26 +4,21 @@
 
 namespace Spine { class Atlas; }
 namespace Spine { class AttachmentLoader; }
-namespace Spine { class SkeletonData; }
-namespace Spine { class SkeletonLoader_LinkedMesh; }
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SPINE_SKELETONLOADER_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x1F77FDF0)
-#define SPINE_SKELETONLOADER_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x1F77FE00)
-#define SPINE_SKELETONLOADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F77FD20)
-#define SPINE_SKELETONLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F77FC30)
+#define SPINE_SKELETONLOADER_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x1F8BC5E0)
+#define SPINE_SKELETONLOADER_SET_SCALE_OFFSET UNITYSDK_OFFSET(0x1F8BC5F0)
+#define SPINE_SKELETONLOADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F8BC560)
+#define SPINE_SKELETONLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8BC4B0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SkeletonLoader_TypeDefinitionIndex = 33534;
+	inline static constexpr unsigned int SkeletonLoader_TypeDefinitionIndex = 33061;
 
 	class SkeletonLoader : public ::System::Object
 	{
 	public:
 		::Spine::AttachmentLoader* attachmentLoader; // 0x10
-		::System::Collections::Generic::List_1<::Spine::SkeletonLoader_LinkedMesh*>* linkedMeshes; // 0x18
-		::System::Single scale; // 0x20
+		::System::Single scale; // 0x18
 
 		::System::Void _ctor(::Il2CppArray<::Spine::Atlas*>* atlasArray)
 		{

@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_542A772D07AFD4EA;
+class DBEJKJDLNAI;
 namespace System { template <typename T> class Predicate_1; }
 
-#define MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x186E8500)
-#define MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x186E8540)
-#define MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__REFRESHCONFIGDATA_B__20_0_OFFSET UNITYSDK_OFFSET(0x186E8550)
+#define MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x182A65C0)
+#define MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x182A6600)
+#define MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__REFRESHCONFIGDATA_B__20_0_OFFSET UNITYSDK_OFFSET(0x182A6610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowErosionWidgetController___c_TypeDefinitionIndex = 47071;
+	inline static constexpr unsigned int UIHollowErosionWidgetController___c_TypeDefinitionIndex = 86714;
 
 	class UIHollowErosionWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::Class_2_542A772D07AFD4EA*>** StaticGet___9__20_0()
+		static ::System::Predicate_1<::DBEJKJDLNAI*>** StaticGet___9__20_0()
 		{
-			return (::System::Predicate_1<::Class_2_542A772D07AFD4EA*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowErosionWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4EB70);
+			return (::System::Predicate_1<::DBEJKJDLNAI*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowErosionWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x421D0);
 		}
-		static ::MoleMole::UIHollowErosionWidgetController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIHollowErosionWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowErosionWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4EB78);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIHollowErosionWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x421D8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RefreshConfigData_b__20_0(::Class_2_542A772D07AFD4EA* x)
+		::System::Boolean _RefreshConfigData_b__20_0(::DBEJKJDLNAI* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_542A772D07AFD4EA*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__REFRESHCONFIGDATA_B__20_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::DBEJKJDLNAI*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWEROSIONWIDGETCONTROLLER___C__REFRESHCONFIGDATA_B__20_0_OFFSET))(this, x);
 		}
 	};
 }

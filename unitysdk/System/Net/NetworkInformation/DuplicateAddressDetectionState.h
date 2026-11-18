@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int DuplicateAddressDetectionState_TypeDefinitionIndex = 3703;
+	inline static constexpr unsigned int DuplicateAddressDetectionState_TypeDefinitionIndex = 3702;
 
 	enum class DuplicateAddressDetectionState : ::System::Int32
 	{

@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/AssetPath.h"
-#include "unitysdk/NPCCrowd/NPCSoftAssetPath_1.h"
 
-namespace UnityEngine { class Mesh; }
-
-#define NPCCROWD_NPCSOFTMESHPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x10CB3D30)
-#define NPCCROWD_NPCSOFTMESHPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x10CB3D10)
+#define NPCCROWD_NPCSOFTMESHPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB2F4830)
+#define NPCCROWD_NPCSOFTMESHPATH__CTOR_OFFSET UNITYSDK_OFFSET(0xB2F4810)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCSoftMeshPath_TypeDefinitionIndex = 46072;
+	inline static constexpr unsigned int NPCSoftMeshPath_TypeDefinitionIndex = 58796;
 
-	class NPCSoftMeshPath : public ::NPCCrowd::NPCSoftAssetPath_1<::UnityEngine::Mesh*>
+	class NPCSoftMeshPath
 	{
 	public:
 		::System::Void _ctor()

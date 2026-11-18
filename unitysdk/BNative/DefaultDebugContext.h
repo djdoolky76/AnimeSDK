@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define BNATIVE_DEFAULTDEBUGCONTEXT_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x17764A20)
-#define BNATIVE_DEFAULTDEBUGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17764A10)
+#define BNATIVE_DEFAULTDEBUGCONTEXT_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x11521B70)
+#define BNATIVE_DEFAULTDEBUGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11521B60)
 
 namespace BNative
 {
-	inline static constexpr unsigned int DefaultDebugContext_TypeDefinitionIndex = 43166;
+	inline static constexpr unsigned int DefaultDebugContext_TypeDefinitionIndex = 83028;
 
 	class DefaultDebugContext : public ::System::Object
 	{

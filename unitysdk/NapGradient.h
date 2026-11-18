@@ -3,9 +3,9 @@
 #include "unitysdk/NapGradientAlphaKey.h"
 #include "unitysdk/NapGradientColorKey.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/GradientMode.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/Color.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Gradient; }
@@ -13,60 +13,61 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define NAPGRADIENT_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF6194B0)
-#define NAPGRADIENT_GET_HDR_OFFSET UNITYSDK_OFFSET(0xF619490)
-#define NAPGRADIENT_RENDER_OFFSET UNITYSDK_OFFSET(0xF619C40)
-#define NAPGRADIENT_SET_HDR_OFFSET UNITYSDK_OFFSET(0xF6194A0)
-#define NAPGRADIENT_VALIDATION_OFFSET UNITYSDK_OFFSET(0xF619B90)
-#define NAPGRADIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0xF61ABC0)
-#define NAPGRADIENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0xF61AA80)
-#define NAPGRADIENT__CTOR_OFFSET UNITYSDK_OFFSET(0xF61A680)
+#define NAPGRADIENT_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15F4D050)
+#define NAPGRADIENT_GET_HDR_OFFSET UNITYSDK_OFFSET(0x15F4D030)
+#define NAPGRADIENT_RENDER_OFFSET UNITYSDK_OFFSET(0x15F4D7E0)
+#define NAPGRADIENT_SET_HDR_OFFSET UNITYSDK_OFFSET(0x15F4D040)
+#define NAPGRADIENT_VALIDATION_OFFSET UNITYSDK_OFFSET(0x15F4D730)
+#define NAPGRADIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F4E760)
+#define NAPGRADIENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15F4E620)
+#define NAPGRADIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F4E220)
 
-inline static constexpr unsigned int NapGradient_TypeDefinitionIndex = 90539;
+inline static constexpr unsigned int NapGradient_TypeDefinitionIndex = 66519;
 
 class NapGradient : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_alphas()
 	{
-		return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0x3D8F0);
+		return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0x3F820);
 	}
 	static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_colors()
 	{
-		return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0x3D8F8);
-	}
-	static ::System::Int32* StaticGet__Offset()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE630);
+		return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0x3F828);
 	}
 	static ::System::Int32* StaticGet__ColorKeyCount()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE634);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xEAC0);
 	}
-	static ::System::Int32* StaticGet__AlphaKeyCount()
+	static ::System::Int32* StaticGet__Offset()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE638);
-	}
-	static ::System::Int32* StaticGet__Scale()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE63C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xEAC4);
 	}
 	static ::System::Int32* StaticGet__Mode()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE640);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xEAC8);
 	}
-	static ::System::Int32* StaticGet__ColorKeys()
+	static ::System::Int32* StaticGet__Scale()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE644);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xEACC);
 	}
 	static ::System::Int32* StaticGet__AlphaKeys()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xE648);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xEAD0);
+	}
+	static ::System::Int32* StaticGet__ColorKeys()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xEAD4);
+	}
+	static ::System::Int32* StaticGet__AlphaKeyCount()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapGradient_TypeDefinitionIndex)->GetStaticField(0xEAD8);
 	}
 	::System::Collections::Generic::List_1<::NapGradientColorKey>* colorKeys; // 0x10
 	::System::Collections::Generic::List_1<::NapGradientAlphaKey>* alphaKeys; // 0x18
 	::UnityEngine::GradientMode mode; // 0x20
 	::System::Boolean _HDR_k__BackingField; // 0x24
+	::System::Byte _padding0[0x3];
 	::UnityEngine::Material* _material; // 0x28
 
 	::System::Void _ctor(::UnityEngine::Gradient* gradient)

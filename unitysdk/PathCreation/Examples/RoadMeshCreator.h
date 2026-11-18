@@ -8,15 +8,15 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define PATHCREATION_EXAMPLES_ROADMESHCREATOR_ASSIGNMATERIALS_OFFSET UNITYSDK_OFFSET(0x1EEB1E10)
-#define PATHCREATION_EXAMPLES_ROADMESHCREATOR_ASSIGNMESHCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1EEB1630)
-#define PATHCREATION_EXAMPLES_ROADMESHCREATOR_CREATEROADMESH_OFFSET UNITYSDK_OFFSET(0x1EEB22A0)
-#define PATHCREATION_EXAMPLES_ROADMESHCREATOR_PATHUPDATED_OFFSET UNITYSDK_OFFSET(0x1EEB14E0)
-#define PATHCREATION_EXAMPLES_ROADMESHCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB3C60)
+#define PATHCREATION_EXAMPLES_ROADMESHCREATOR_ASSIGNMATERIALS_OFFSET UNITYSDK_OFFSET(0x1F233E30)
+#define PATHCREATION_EXAMPLES_ROADMESHCREATOR_ASSIGNMESHCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1F233650)
+#define PATHCREATION_EXAMPLES_ROADMESHCREATOR_CREATEROADMESH_OFFSET UNITYSDK_OFFSET(0x1F2342C0)
+#define PATHCREATION_EXAMPLES_ROADMESHCREATOR_PATHUPDATED_OFFSET UNITYSDK_OFFSET(0x1F233500)
+#define PATHCREATION_EXAMPLES_ROADMESHCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F235C80)
 
 namespace PathCreation::Examples
 {
-	inline static constexpr unsigned int RoadMeshCreator_TypeDefinitionIndex = 38128;
+	inline static constexpr unsigned int RoadMeshCreator_TypeDefinitionIndex = 36130;
 
 	class RoadMeshCreator : public ::PathCreation::Examples::PathSceneTool
 	{
@@ -24,9 +24,11 @@ namespace PathCreation::Examples
 		::System::Single roadWidth; // 0x30
 		::System::Single thickness; // 0x34
 		::System::Boolean flattenSurface; // 0x38
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Material* roadMaterial; // 0x40
 		::UnityEngine::Material* undersideMaterial; // 0x48
 		::System::Single textureTiling; // 0x50
+		::System::Byte _padding1[0x4];
 		::UnityEngine::GameObject* meshHolder; // 0x58
 		::UnityEngine::MeshFilter* meshFilter; // 0x60
 		::UnityEngine::MeshRenderer* meshRenderer; // 0x68

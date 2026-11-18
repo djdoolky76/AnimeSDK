@@ -6,35 +6,36 @@
 #include "unitysdk/MoleMole/MaterialPropertyModifierValueFloat.h"
 #include "unitysdk/MoleMole/MaterialPropertyModifierValueTexture.h"
 
-class Class_1_413B2BDBE645DB66;
+class ILLCEFBALCI;
 
-#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_DOAFTERONENTER_OFFSET UNITYSDK_OFFSET(0x1B4F7760)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1B4F76A0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_DOWARMUP_OFFSET UNITYSDK_OFFSET(0x1B4F8CE0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PREPAREONENTER_OFFSET UNITYSDK_OFFSET(0x1B4F7540)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PREPAREONEXIT_OFFSET UNITYSDK_OFFSET(0x1B4F7850)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PROCESSENTER_OFFSET UNITYSDK_OFFSET(0x1B4F77C0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PROCESSEXIT_OFFSET UNITYSDK_OFFSET(0x1B4F7890)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PROCESSKEEP_OFFSET UNITYSDK_OFFSET(0x1B4F8100)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_SYNCENABLES_OFFSET UNITYSDK_OFFSET(0x1B4F7D00)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_SYNCVALUES_OFFSET UNITYSDK_OFFSET(0x1B4F7980)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F8E10)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_DOAFTERONENTER_OFFSET UNITYSDK_OFFSET(0x127A3860)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_DOONENTER_OFFSET UNITYSDK_OFFSET(0x127A37A0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_DOWARMUP_OFFSET UNITYSDK_OFFSET(0x127A4DF0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PREPAREONENTER_OFFSET UNITYSDK_OFFSET(0x127A3640)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PREPAREONEXIT_OFFSET UNITYSDK_OFFSET(0x127A3950)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PROCESSENTER_OFFSET UNITYSDK_OFFSET(0x127A38C0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PROCESSEXIT_OFFSET UNITYSDK_OFFSET(0x127A3990)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PROCESSKEEP_OFFSET UNITYSDK_OFFSET(0x127A4200)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_SYNCENABLES_OFFSET UNITYSDK_OFFSET(0x127A3E00)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_SYNCVALUES_OFFSET UNITYSDK_OFFSET(0x127A3A80)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x127A4F20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigMaterialPropertyNoiseLerpModifier_TypeDefinitionIndex = 46995;
+	inline static constexpr unsigned int ConfigMaterialPropertyNoiseLerpModifier_TypeDefinitionIndex = 83570;
 
 	class ConfigMaterialPropertyNoiseLerpModifier : public ::MoleMole::ConfigMaterialPropertyModifier
 	{
 	public:
 		::MoleMole::MaterialPropertyModifierValueTexture _NoiseLerpMask; // 0x48
 		::MoleMole::MaterialPropertyModifierValueFloat _NoiseLerpValue; // 0x78
-		::MoleMole::MaterialPropertyModifierValueColor _NoiseLerpColor; // 0x80
-		::MoleMole::MaterialPropertyModifierValueColor _NoiseLerpEdgeColor; // 0x94
-		::MoleMole::MaterialPropertyModifierValueFloat _NoiseLerpEdgeRange; // 0xA8
-		::MoleMole::MaterialPropertyModifierValueBool _UseLerpEdgeColor; // 0xB0
-		::MoleMole::MaterialPropertyModifierValueBool _NoiseLerp; // 0xB3
-		::MoleMole::MaterialPropertyModifierValueBool _NoiseUseUV2; // 0xB6
+		::MoleMole::MaterialPropertyModifierValueFloat _NoiseLerpEdgeRange; // 0x80
+		::MoleMole::MaterialPropertyModifierValueColor _NoiseLerpEdgeColor; // 0x88
+		::MoleMole::MaterialPropertyModifierValueBool _NoiseLerp; // 0x9C
+		::MoleMole::MaterialPropertyModifierValueBool _UseLerpEdgeColor; // 0x9F
+		::MoleMole::MaterialPropertyModifierValueBool _NoiseUseUV2; // 0xA2
+		::System::Byte _padding0[0x3];
+		::MoleMole::MaterialPropertyModifierValueColor _NoiseLerpColor; // 0xA8
 
 		::System::Void _ctor()
 		{
@@ -46,44 +47,44 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PREPAREONENTER_OFFSET))(this);
 		}
 
-		::System::Void DoOnEnter(::Class_1_413B2BDBE645DB66* instance)
+		::System::Void DoOnEnter(::ILLCEFBALCI* instance)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_DOONENTER_OFFSET))(this, instance);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_DOONENTER_OFFSET))(this, instance);
 		}
 
-		::System::Void DoAfterOnEnter(::Class_1_413B2BDBE645DB66* instance)
+		::System::Void DoAfterOnEnter(::ILLCEFBALCI* instance)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_DOAFTERONENTER_OFFSET))(this, instance);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_DOAFTERONENTER_OFFSET))(this, instance);
 		}
 
-		::System::Void ProcessEnter(::Class_1_413B2BDBE645DB66* instance, ::System::Single timer)
+		::System::Void ProcessEnter(::ILLCEFBALCI* instance, ::System::Single timer)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PROCESSENTER_OFFSET))(this, instance, timer);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PROCESSENTER_OFFSET))(this, instance, timer);
 		}
 
-		::System::Void PrepareOnExit(::Class_1_413B2BDBE645DB66* instance)
+		::System::Void PrepareOnExit(::ILLCEFBALCI* instance)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PREPAREONEXIT_OFFSET))(this, instance);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PREPAREONEXIT_OFFSET))(this, instance);
 		}
 
-		::System::Void ProcessExit(::Class_1_413B2BDBE645DB66* instance, ::System::Single timer)
+		::System::Void ProcessExit(::ILLCEFBALCI* instance, ::System::Single timer)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PROCESSEXIT_OFFSET))(this, instance, timer);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PROCESSEXIT_OFFSET))(this, instance, timer);
 		}
 
-		::System::Void SyncValues(::Class_1_413B2BDBE645DB66* instance)
+		::System::Void SyncValues(::ILLCEFBALCI* instance)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_SYNCVALUES_OFFSET))(this, instance);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_SYNCVALUES_OFFSET))(this, instance);
 		}
 
-		::System::Void SyncEnables(::Class_1_413B2BDBE645DB66* instance, ::System::Boolean stop)
+		::System::Void SyncEnables(::ILLCEFBALCI* instance, ::System::Boolean stop)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_SYNCENABLES_OFFSET))(this, instance, stop);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_SYNCENABLES_OFFSET))(this, instance, stop);
 		}
 
-		::System::Void ProcessKeep(::Class_1_413B2BDBE645DB66* instance, ::System::Single timer)
+		::System::Void ProcessKeep(::ILLCEFBALCI* instance, ::System::Single timer)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PROCESSKEEP_OFFSET))(this, instance, timer);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYNOISELERPMODIFIER_PROCESSKEEP_OFFSET))(this, instance, timer);
 		}
 
 		::System::Void DoWarmUp()

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/DigitalOpus/MB/Core/AtlasPadding.h"
-#include "unitysdk/DigitalOpus/MB/Core/DRect.h"
 #include "unitysdk/DigitalOpus/MB/Core/MB2_LogLevel.h"
 #include "unitysdk/DigitalOpus/MB/Core/MB3_TextureCombinerPackerRoot.h"
+#include "unitysdk/DigitalOpus/MB/Core/AtlasPadding.h"
+#include "unitysdk/DigitalOpus/MB/Core/DRect.h"
 #include "unitysdk/UnityEngine/Color.h"
 
 namespace DigitalOpus::MB::Core { class AtlasPackingResult; }
@@ -17,14 +17,14 @@ namespace DigitalOpus::MB::Core { class ShaderTextureProperty; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Texture2D; }
 
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER_COPYSCALEDANDTILEDTOATLAS_OFFSET UNITYSDK_OFFSET(0x1E745C10)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER_CREATEATLASES_OFFSET UNITYSDK_OFFSET(0x1E745B80)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1E745B70)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E745D10)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER_COPYSCALEDANDTILEDTOATLAS_OFFSET UNITYSDK_OFFSET(0x1E9EAED0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER_CREATEATLASES_OFFSET UNITYSDK_OFFSET(0x1E9EAE40)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1E9EAE30)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EAFD0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerPackerMeshBaker_TypeDefinitionIndex = 94652;
+	inline static constexpr unsigned int MB3_TextureCombinerPackerMeshBaker_TypeDefinitionIndex = 96339;
 
 	class MB3_TextureCombinerPackerMeshBaker : public ::DigitalOpus::MB::Core::MB3_TextureCombinerPackerRoot
 	{

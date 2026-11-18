@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_LOGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC55E30)
+#define MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_LOGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1EACB940)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKGameReportModel_LogInfo_TypeDefinitionIndex = 37392;
+	inline static constexpr unsigned int MiHoYoSDKGameReportModel_LogInfo_TypeDefinitionIndex = 35370;
 
 	class MiHoYoSDKGameReportModel_LogInfo : public ::System::Object
 	{
@@ -16,6 +16,7 @@ namespace MiHoYo::SDK
 		::System::String* log_time; // 0x10
 		::System::String* region; // 0x18
 		::System::Int32 action_id; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::String* action_name; // 0x28
 		::System::String* c_body; // 0x30
 

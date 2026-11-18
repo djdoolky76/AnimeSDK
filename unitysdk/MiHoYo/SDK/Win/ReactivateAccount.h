@@ -3,29 +3,28 @@
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
 
 namespace System { class Action; }
-namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CD2DB00)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_CLOSE_OFFSET UNITYSDK_OFFSET(0x1CD2E360)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_HIDE_OFFSET UNITYSDK_OFFSET(0x1CD2E2F0)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CD2E390)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_SHOW_OFFSET UNITYSDK_OFFSET(0x1CD2D9D0)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1CD2E380)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1CD2E0D0)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD2E3B0)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D165D80)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_CLOSE_OFFSET UNITYSDK_OFFSET(0x1D1665D0)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_HIDE_OFFSET UNITYSDK_OFFSET(0x1D166560)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D166600)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_SHOW_OFFSET UNITYSDK_OFFSET(0x1D165C50)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1D1665F0)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1D166340)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D166620)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ReactivateAccount_TypeDefinitionIndex = 21642;
+	inline static constexpr unsigned int ReactivateAccount_TypeDefinitionIndex = 20842;
 
 	class ReactivateAccount : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::Win::ReactivateAccount** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::ReactivateAccount**)Il2CppClass::FromTypeDefinitionIndex(ReactivateAccount_TypeDefinitionIndex)->GetStaticField(0xA820);
+			return (::MiHoYo::SDK::Win::ReactivateAccount**)Il2CppClass::FromTypeDefinitionIndex(ReactivateAccount_TypeDefinitionIndex)->GetStaticField(0xA800);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* CloseButtonPath; // 0x0

@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_96F6662CA3713095_10.h"
+#include "unitysdk/EGAANNPEJCH.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
 namespace System { class Action; }
 
-#define MOLEMOLE_ACTIVITYRHYTHMCLICKRESULTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x162349E0)
+#define MOLEMOLE_ACTIVITYRHYTHMCLICKRESULTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10792170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityRhythmClickResultContext_TypeDefinitionIndex = 57413;
+	inline static constexpr unsigned int ActivityRhythmClickResultContext_TypeDefinitionIndex = 66579;
 
 	class ActivityRhythmClickResultContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action* onClose; // 0x28
-		::System::Action* onRestart; // 0x30
+		::System::Action* onRestart; // 0x28
+		::System::Action* onClose; // 0x30
 		::System::Int32 PerfectNum; // 0x38
-		::Enum_3_96F6662CA3713095_10 Rank; // 0x3C
+		::EGAANNPEJCH Rank; // 0x3C
 		::System::Int32 MissNum; // 0x40
 
 		::System::Void _ctor()

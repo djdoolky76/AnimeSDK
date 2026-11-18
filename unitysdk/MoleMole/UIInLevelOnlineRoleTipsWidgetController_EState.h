@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelOnlineRoleTipsWidgetController_EState_TypeDefinitionIndex = 58425;
+	inline static constexpr unsigned int UIInLevelOnlineRoleTipsWidgetController_EState_TypeDefinitionIndex = 71311;
 
 	enum class UIInLevelOnlineRoleTipsWidgetController_EState : ::System::Int32
 	{
-		Show = 1,
 		HideToShow = 2,
-		Hide = 0,
 		ShowToHide = 3,
+		Hide = 0,
+		Show = 1,
 	};
 }

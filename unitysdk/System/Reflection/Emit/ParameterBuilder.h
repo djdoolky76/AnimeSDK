@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_REFLECTION_EMIT_PARAMETERBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8101E0)
+#define SYSTEM_REFLECTION_EMIT_PARAMETERBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD179A0)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int ParameterBuilder_TypeDefinitionIndex = 624;
+	inline static constexpr unsigned int ParameterBuilder_TypeDefinitionIndex = 623;
 
 	class ParameterBuilder : public ::System::Object
 	{

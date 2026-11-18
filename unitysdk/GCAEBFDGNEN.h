@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MBMEINOEBDJ.h"
+
+class EEDBDOIOFAG;
+class HLMKDFDCBAL;
+class KHLJFPECEGH;
+namespace System { class Object; }
+
+#define GCAEBFDGNEN_CELHLLIAIKB_OFFSET UNITYSDK_OFFSET(0x15CD1C70)
+#define GCAEBFDGNEN_GFJEIIOEAEP_OFFSET UNITYSDK_OFFSET(0x15CD1E50)
+#define GCAEBFDGNEN_MAHIPDLGCKK_OFFSET UNITYSDK_OFFSET(0x15CD1E40)
+#define GCAEBFDGNEN_MFGBBOCOEKI_OFFSET UNITYSDK_OFFSET(0x15CD1E60)
+#define GCAEBFDGNEN_PPMLKHILEIH_OFFSET UNITYSDK_OFFSET(0x15CD1E70)
+#define GCAEBFDGNEN__CTOR_OFFSET UNITYSDK_OFFSET(0x15CD1E30)
+
+inline static constexpr unsigned int GCAEBFDGNEN_TypeDefinitionIndex = 54885;
+
+class GCAEBFDGNEN : public ::MBMEINOEBDJ
+{
+public:
+	::EEDBDOIOFAG* _FDEHENFHJPH_k__BackingField; // 0x10
+	::HLMKDFDCBAL* _INJIGELEMJN_k__BackingField; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GCAEBFDGNEN__CTOR_OFFSET))(this);
+	}
+
+	::KHLJFPECEGH* CELHLLIAIKB(::Il2CppArray<::System::Object*>* INBACCBOBDN)
+	{
+		return ((::KHLJFPECEGH*(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + GCAEBFDGNEN_CELHLLIAIKB_OFFSET))(this, INBACCBOBDN);
+	}
+
+	::System::Void MAHIPDLGCKK(::EEDBDOIOFAG* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::EEDBDOIOFAG*))((::PBYTE)hIl2Cpp + GCAEBFDGNEN_MAHIPDLGCKK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::EEDBDOIOFAG* GFJEIIOEAEP()
+	{
+		return ((::EEDBDOIOFAG*(*)(::PVOID))((::PBYTE)hIl2Cpp + GCAEBFDGNEN_GFJEIIOEAEP_OFFSET))(this);
+	}
+
+	::HLMKDFDCBAL* MFGBBOCOEKI()
+	{
+		return ((::HLMKDFDCBAL*(*)(::PVOID))((::PBYTE)hIl2Cpp + GCAEBFDGNEN_MFGBBOCOEKI_OFFSET))(this);
+	}
+
+	::System::Void PPMLKHILEIH(::HLMKDFDCBAL* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::HLMKDFDCBAL*))((::PBYTE)hIl2Cpp + GCAEBFDGNEN_PPMLKHILEIH_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

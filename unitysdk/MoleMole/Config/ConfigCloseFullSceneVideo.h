@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 
-#define MOLEMOLE_CONFIG_CONFIGCLOSEFULLSCENEVIDEO_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16C3BC50)
-#define MOLEMOLE_CONFIG_CONFIGCLOSEFULLSCENEVIDEO__CTOR_OFFSET UNITYSDK_OFFSET(0x16C3BD10)
+#define MOLEMOLE_CONFIG_CONFIGCLOSEFULLSCENEVIDEO_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x18B91D20)
+#define MOLEMOLE_CONFIG_CONFIGCLOSEFULLSCENEVIDEO__CTOR_OFFSET UNITYSDK_OFFSET(0x18B91DE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCloseFullSceneVideo_TypeDefinitionIndex = 56193;
+	inline static constexpr unsigned int ConfigCloseFullSceneVideo_TypeDefinitionIndex = 74107;
 
 	class ConfigCloseFullSceneVideo : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
@@ -19,9 +19,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCLOSEFULLSCENEVIDEO__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCLOSEFULLSCENEVIDEO_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCLOSEFULLSCENEVIDEO_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

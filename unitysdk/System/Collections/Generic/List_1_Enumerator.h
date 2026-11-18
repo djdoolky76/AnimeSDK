@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int List_1_Enumerator_TypeDefinitionIndex = 1557;
+	inline static constexpr unsigned int List_1_Enumerator_TypeDefinitionIndex = 1556;
 
 	template <typename T>
-	struct List_1_Enumerator
+	struct alignas(8) List_1_Enumerator
 	{
 		::System::Collections::Generic::List_1<T>* list; // 0x0
 		::System::Int32 index; // 0x0

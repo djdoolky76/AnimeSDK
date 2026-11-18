@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace MoleMole::Config { class StringUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGCLOSEUICONTROLLERCOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B7E4590)
-#define MOLEMOLE_CONFIG_CONFIGCLOSEUICONTROLLERCOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E4600)
+#define MOLEMOLE_CONFIG_CONFIGCLOSEUICONTROLLERCOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x192971E0)
+#define MOLEMOLE_CONFIG_CONFIGCLOSEUICONTROLLERCOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19297250)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCloseUIControllerCommonNode_TypeDefinitionIndex = 49566;
+	inline static constexpr unsigned int ConfigCloseUIControllerCommonNode_TypeDefinitionIndex = 72782;
 
 	class ConfigCloseUIControllerCommonNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
@@ -22,9 +22,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCLOSEUICONTROLLERCOMMONNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCLOSEUICONTROLLERCOMMONNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCLOSEUICONTROLLERCOMMONNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

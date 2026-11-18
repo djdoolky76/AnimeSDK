@@ -1,18 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_B7EF4EB8F9E112AA.h"
+#include "unitysdk/MBBLMLFDOMJ.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_3_C1714D5E615D4B4B_7;
+class KFMKEIJENBH;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCompTaskFlowerArrangementWidgetController_ActivityListGroupStateStruct_TypeDefinitionIndex = 51452;
+	inline static constexpr unsigned int UIActivityCompTaskFlowerArrangementWidgetController_ActivityListGroupStateStruct_TypeDefinitionIndex = 83219;
 
 	struct alignas(8) UIActivityCompTaskFlowerArrangementWidgetController_ActivityListGroupStateStruct
 	{
-		::Enum_3_B7EF4EB8F9E112AA questState; // 0x10
-		::Class_3_C1714D5E615D4B4B_7* nowGroupData; // 0x18
-		::Class_3_C1714D5E615D4B4B_7* nextGroupData; // 0x20
+		::MBBLMLFDOMJ questState; // 0x10
+		::System::Byte _padding0[0x4];
+		::KFMKEIJENBH* nowGroupData; // 0x18
+		::KFMKEIJENBH* nextGroupData; // 0x20
 	};
 }

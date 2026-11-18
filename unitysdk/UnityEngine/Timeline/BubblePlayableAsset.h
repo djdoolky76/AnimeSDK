@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class BubbleBehavior; }
 
-#define UNITYENGINE_TIMELINE_BUBBLEPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F1A1E90)
-#define UNITYENGINE_TIMELINE_BUBBLEPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F1A1F60)
-#define UNITYENGINE_TIMELINE_BUBBLEPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1A1F70)
+#define UNITYENGINE_TIMELINE_BUBBLEPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F5964C0)
+#define UNITYENGINE_TIMELINE_BUBBLEPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F5965A0)
+#define UNITYENGINE_TIMELINE_BUBBLEPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5965B0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int BubblePlayableAsset_TypeDefinitionIndex = 32935;
+	inline static constexpr unsigned int BubblePlayableAsset_TypeDefinitionIndex = 32390;
 
 	class BubblePlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

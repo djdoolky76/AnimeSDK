@@ -2,14 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYCANRUNINBACKGROUND_CREATE_OFFSET UNITYSDK_OFFSET(0x1F1F6AD0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYCANRUNINBACKGROUND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0xA96BB0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYCANRUNINBACKGROUND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F1F6AB0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYCANRUNINBACKGROUND_CREATE_OFFSET UNITYSDK_OFFSET(0x1F5F2420)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYCANRUNINBACKGROUND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x97D770)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYCANRUNINBACKGROUND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F5F2400)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int QueryCanRunInBackground_TypeDefinitionIndex = 32473;
+	inline static constexpr unsigned int QueryCanRunInBackground_TypeDefinitionIndex = 31922;
 
 	struct alignas(4) QueryCanRunInBackground
 	{
@@ -17,23 +18,21 @@ namespace UnityEngine::InputSystem::LowLevel
 		::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand; // 0x10
 		::System::Boolean canRunInBackground; // 0x18
 
-		/*
 		static ::UnityEngine::InputSystem::Utilities::FourCC get_Type()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYCANRUNINBACKGROUND_GET_TYPE_OFFSET))();
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYCANRUNINBACKGROUND_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::LowLevel::QueryCanRunInBackground Create()
 		{
 			return ((::UnityEngine::InputSystem::LowLevel::QueryCanRunInBackground(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYCANRUNINBACKGROUND_CREATE_OFFSET))();
 		}
+		*/
 	};
 }

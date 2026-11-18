@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LJFJPGPKIEJ_TypeDefinitionIndex = 93291;
+
+enum class LJFJPGPKIEJ : ::System::Int32
+{
+	IFDPFFCKJFD = 113,
+	KMGILABBFJH = 101,
+	MEMACOJOCHC = 104,
+	PHILOGPLJBI = 108,
+	LIHABGLBBJC = 103,
+	CPLLPCMDLLB = 112,
+	JKICKMJMELO = 105,
+	MELBMFCNBCC = 109,
+	CGICCOBHACH = 100,
+	KAOFDOBODON = 102,
+	PBDDADMPJNL = 107,
+	FODEGHGNEBJ = 106,
+	IMMGKGNMGIA = 111,
+	DFODOICCHDK = 110,
+	ACIJOIEBAOD = 114,
+};

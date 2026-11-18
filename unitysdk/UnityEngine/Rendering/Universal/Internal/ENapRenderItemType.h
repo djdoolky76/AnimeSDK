@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int ENapRenderItemType_TypeDefinitionIndex = 26868;
+	inline static constexpr unsigned int ENapRenderItemType_TypeDefinitionIndex = 27294;
 
 	enum class ENapRenderItemType : ::System::Int32
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/ConfigMaterialPropertyModifier.h"
 #include "unitysdk/MoleMole/MaterialPropertyModifierEnumDefine/MaterialPropertyModifierValueScreenMaskUVType.h"
+#include "unitysdk/MoleMole/ConfigMaterialPropertyModifier.h"
 #include "unitysdk/MoleMole/MaterialPropertyModifierValueBool.h"
 #include "unitysdk/MoleMole/MaterialPropertyModifierValueColor.h"
 #include "unitysdk/MoleMole/MaterialPropertyModifierValueFloat.h"
@@ -9,25 +9,25 @@
 #include "unitysdk/MoleMole/MaterialPropertyModifierValueVector.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-class Class_1_413B2BDBE645DB66;
+class ILLCEFBALCI;
 
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOAFTERONENTER_OFFSET UNITYSDK_OFFSET(0x1351B6C0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOONENTER_FORUSER_OFFSET UNITYSDK_OFFSET(0x1351DB10)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1351B5E0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOWARMUP_OFFSET UNITYSDK_OFFSET(0x1351DA50)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_ONDONE_OFFSET UNITYSDK_OFFSET(0x1351DB80)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PREPAREONENTER_OFFSET UNITYSDK_OFFSET(0x1351B320)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PREPAREONEXIT_OFFSET UNITYSDK_OFFSET(0x1351B860)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PROCESSENTER_OFFSET UNITYSDK_OFFSET(0x1351B7A0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PROCESSEXIT_OFFSET UNITYSDK_OFFSET(0x1351B8C0)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PROCESSKEEP_OFFSET UNITYSDK_OFFSET(0x1351C750)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_SYNCENABLES_OFFSET UNITYSDK_OFFSET(0x1351C070)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_SYNCVALUES_OFFSET UNITYSDK_OFFSET(0x1351BA20)
-#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1351DC00)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOAFTERONENTER_OFFSET UNITYSDK_OFFSET(0x1B9443F0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOONENTER_FORUSER_OFFSET UNITYSDK_OFFSET(0x1B946820)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1B944310)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOWARMUP_OFFSET UNITYSDK_OFFSET(0x1B946760)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_ONDONE_OFFSET UNITYSDK_OFFSET(0x1B946890)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PREPAREONENTER_OFFSET UNITYSDK_OFFSET(0x1B944050)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PREPAREONEXIT_OFFSET UNITYSDK_OFFSET(0x1B944580)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PROCESSENTER_OFFSET UNITYSDK_OFFSET(0x1B9444C0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PROCESSEXIT_OFFSET UNITYSDK_OFFSET(0x1B9445E0)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PROCESSKEEP_OFFSET UNITYSDK_OFFSET(0x1B945460)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_SYNCENABLES_OFFSET UNITYSDK_OFFSET(0x1B944D80)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_SYNCVALUES_OFFSET UNITYSDK_OFFSET(0x1B944740)
+#define MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B946910)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigMaterialPropertyScreenImageModifier_TypeDefinitionIndex = 60594;
+	inline static constexpr unsigned int ConfigMaterialPropertyScreenImageModifier_TypeDefinitionIndex = 86199;
 
 	class ConfigMaterialPropertyScreenImageModifier : public ::MoleMole::ConfigMaterialPropertyModifier
 	{
@@ -35,19 +35,20 @@ namespace MoleMole
 		::MoleMole::MaterialPropertyModifierValueTexture _ScreenTex; // 0x48
 		::MoleMole::MaterialPropertyModifierValueTexture _ScreenMask; // 0x78
 		::UnityEngine::Color _ScreenColorDefault; // 0xA8
-		::MoleMole::MaterialPropertyModifierValueFloat _MatCapBlendModeFx; // 0xB8
-		::MoleMole::MaterialPropertyModifierValueVector _BlinkOpacity; // 0xC0
-		::MoleMole::MaterialPropertyModifierEnumDefine::MaterialPropertyModifierValueScreenMaskUVType _ScreenMaskUV; // 0xD8
-		::MoleMole::MaterialPropertyModifierValueBool _ScreenImage; // 0xDB
-		::MoleMole::MaterialPropertyModifierValueBool _UseInvSecondaryEmissionMask; // 0xDE
-		::MoleMole::MaterialPropertyModifierValueBool _Blink; // 0xE1
-		::MoleMole::MaterialPropertyModifierValueBool _ScreenScale; // 0xE4
-		::MoleMole::MaterialPropertyModifierValueBool _MultiplySrcColor; // 0xE7
-		::MoleMole::MaterialPropertyModifierValueFloat _BlinkFrequency; // 0xEC
-		::MoleMole::MaterialPropertyModifierValueVector _ScreenImageUvMove; // 0xF4
-		::MoleMole::MaterialPropertyModifierValueColor _ScreenColor; // 0x10C
-		::UnityEngine::Color _ScreenColorRef; // 0x120
-		::MoleMole::MaterialPropertyModifierValueFloat _MatCapNormalVSpeedFx; // 0x130
+		::MoleMole::MaterialPropertyModifierValueColor _ScreenColor; // 0xB8
+		::MoleMole::MaterialPropertyModifierValueFloat _MatCapBlendModeFx; // 0xCC
+		::MoleMole::MaterialPropertyModifierValueBool _ScreenImage; // 0xD4
+		::MoleMole::MaterialPropertyModifierValueBool _ScreenScale; // 0xD7
+		::MoleMole::MaterialPropertyModifierValueBool _MultiplySrcColor; // 0xDA
+		::MoleMole::MaterialPropertyModifierEnumDefine::MaterialPropertyModifierValueScreenMaskUVType _ScreenMaskUV; // 0xDD
+		::MoleMole::MaterialPropertyModifierValueVector _ScreenImageUvMove; // 0xE0
+		::MoleMole::MaterialPropertyModifierValueFloat _BlinkFrequency; // 0xF8
+		::MoleMole::MaterialPropertyModifierValueVector _BlinkOpacity; // 0x100
+		::MoleMole::MaterialPropertyModifierValueFloat _MatCapNormalVSpeedFx; // 0x118
+		::MoleMole::MaterialPropertyModifierValueBool _Blink; // 0x120
+		::MoleMole::MaterialPropertyModifierValueBool _UseInvSecondaryEmissionMask; // 0x123
+		::System::Byte _padding0[0x2];
+		::UnityEngine::Color _ScreenColorRef; // 0x128
 
 		::System::Void _ctor()
 		{
@@ -59,44 +60,44 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PREPAREONENTER_OFFSET))(this);
 		}
 
-		::System::Void DoOnEnter(::Class_1_413B2BDBE645DB66* instance)
+		::System::Void DoOnEnter(::ILLCEFBALCI* instance)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOONENTER_OFFSET))(this, instance);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOONENTER_OFFSET))(this, instance);
 		}
 
-		::System::Void DoAfterOnEnter(::Class_1_413B2BDBE645DB66* instance)
+		::System::Void DoAfterOnEnter(::ILLCEFBALCI* instance)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOAFTERONENTER_OFFSET))(this, instance);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOAFTERONENTER_OFFSET))(this, instance);
 		}
 
-		::System::Void ProcessEnter(::Class_1_413B2BDBE645DB66* instance, ::System::Single timer)
+		::System::Void ProcessEnter(::ILLCEFBALCI* instance, ::System::Single timer)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PROCESSENTER_OFFSET))(this, instance, timer);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PROCESSENTER_OFFSET))(this, instance, timer);
 		}
 
-		::System::Void PrepareOnExit(::Class_1_413B2BDBE645DB66* instance)
+		::System::Void PrepareOnExit(::ILLCEFBALCI* instance)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PREPAREONEXIT_OFFSET))(this, instance);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PREPAREONEXIT_OFFSET))(this, instance);
 		}
 
-		::System::Void ProcessExit(::Class_1_413B2BDBE645DB66* instance, ::System::Single timer)
+		::System::Void ProcessExit(::ILLCEFBALCI* instance, ::System::Single timer)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PROCESSEXIT_OFFSET))(this, instance, timer);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PROCESSEXIT_OFFSET))(this, instance, timer);
 		}
 
-		::System::Void SyncValues(::Class_1_413B2BDBE645DB66* instance)
+		::System::Void SyncValues(::ILLCEFBALCI* instance)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_SYNCVALUES_OFFSET))(this, instance);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_SYNCVALUES_OFFSET))(this, instance);
 		}
 
-		::System::Void SyncEnables(::Class_1_413B2BDBE645DB66* instance, ::System::Boolean stop)
+		::System::Void SyncEnables(::ILLCEFBALCI* instance, ::System::Boolean stop)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_SYNCENABLES_OFFSET))(this, instance, stop);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_SYNCENABLES_OFFSET))(this, instance, stop);
 		}
 
-		::System::Void ProcessKeep(::Class_1_413B2BDBE645DB66* instance, ::System::Single timer)
+		::System::Void ProcessKeep(::ILLCEFBALCI* instance, ::System::Single timer)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PROCESSKEEP_OFFSET))(this, instance, timer);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_PROCESSKEEP_OFFSET))(this, instance, timer);
 		}
 
 		::System::Void DoWarmUp()
@@ -104,14 +105,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOWARMUP_OFFSET))(this);
 		}
 
-		::System::Void DoOnEnter_ForUser(::Class_1_413B2BDBE645DB66* instance)
+		::System::Void DoOnEnter_ForUser(::ILLCEFBALCI* instance)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOONENTER_FORUSER_OFFSET))(this, instance);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_DOONENTER_FORUSER_OFFSET))(this, instance);
 		}
 
-		::System::Void OnDone(::Class_1_413B2BDBE645DB66* instance)
+		::System::Void OnDone(::ILLCEFBALCI* instance)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_413B2BDBE645DB66*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_ONDONE_OFFSET))(this, instance);
+			return ((::System::Void(*)(::PVOID, ::ILLCEFBALCI*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMATERIALPROPERTYSCREENIMAGEMODIFIER_ONDONE_OFFSET))(this, instance);
 		}
 	};
 }

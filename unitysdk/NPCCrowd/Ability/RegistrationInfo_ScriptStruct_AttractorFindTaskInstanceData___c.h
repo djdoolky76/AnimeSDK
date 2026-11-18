@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORFINDTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x952CC30)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORFINDTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x952CC70)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORFINDTASKINSTANCEDATA___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x952CC80)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORFINDTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE10AEE0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORFINDTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE10AF20)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_ATTRACTORFINDTASKINSTANCEDATA___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xE10AF30)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_AttractorFindTaskInstanceData___c_TypeDefinitionIndex = 46097;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_AttractorFindTaskInstanceData___c_TypeDefinitionIndex = 87678;
 
 	class RegistrationInfo_ScriptStruct_AttractorFindTaskInstanceData___c : public ::System::Object
 	{
 	public:
-		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_AttractorFindTaskInstanceData___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_AttractorFindTaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AttractorFindTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x51190);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AttractorFindTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x426C0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ERewardReason_TypeDefinitionIndex = 18412;
+	inline static constexpr unsigned int ERewardReason_TypeDefinitionIndex = 16738;
 
 	enum class ERewardReason : ::System::Int16
 	{
 		AvatarDefaultItem = 2,
-		MainCityQuest = 1,
 		Unknow = 0,
+		MainCityQuest = 1,
 	};
 }

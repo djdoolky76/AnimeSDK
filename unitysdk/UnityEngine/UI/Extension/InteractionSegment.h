@@ -3,17 +3,17 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int InteractionSegment_TypeDefinitionIndex = 84744;
+	inline static constexpr unsigned int InteractionSegment_TypeDefinitionIndex = 75684;
 
 	enum class InteractionSegment : ::System::Int32
 	{
-		None = 0,
-		Drag = 2,
 		BeginDrag = 1,
-		BeforeScroll = 8,
+		Drag = 2,
 		EndTwoPointDrag = 64,
 		EndScroll = 16,
 		BeforeTwoPointDrag = 32,
+		None = 0,
+		BeforeScroll = 8,
 		EndDrag = 4,
 	};
 }

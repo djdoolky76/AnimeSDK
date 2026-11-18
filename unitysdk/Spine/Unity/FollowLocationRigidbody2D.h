@@ -5,19 +5,20 @@
 namespace UnityEngine { class Rigidbody2D; }
 namespace UnityEngine { class Transform; }
 
-#define SPINE_UNITY_FOLLOWLOCATIONRIGIDBODY2D_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C165F10)
-#define SPINE_UNITY_FOLLOWLOCATIONRIGIDBODY2D_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1C165FA0)
-#define SPINE_UNITY_FOLLOWLOCATIONRIGIDBODY2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1C166170)
+#define SPINE_UNITY_FOLLOWLOCATIONRIGIDBODY2D_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FBF4B30)
+#define SPINE_UNITY_FOLLOWLOCATIONRIGIDBODY2D_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1FBF4BC0)
+#define SPINE_UNITY_FOLLOWLOCATIONRIGIDBODY2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBF4D90)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int FollowLocationRigidbody2D_TypeDefinitionIndex = 40148;
+	inline static constexpr unsigned int FollowLocationRigidbody2D_TypeDefinitionIndex = 38162;
 
 	class FollowLocationRigidbody2D : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Transform* reference; // 0x18
 		::System::Boolean followFlippedX; // 0x20
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Rigidbody2D* ownRigidbody; // 0x28
 
 		::System::Void _ctor()

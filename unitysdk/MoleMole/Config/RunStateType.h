@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int RunStateType_TypeDefinitionIndex = 40565;
+	inline static constexpr unsigned int RunStateType_TypeDefinitionIndex = 86894;
 
 	enum class RunStateType : ::System::Int32
 	{
 		WalkLoop = 3,
-		Unknown = 0,
 		WalkEnd = 4,
+		Unknown = 0,
 		RunEnd = 2,
 		RunLoop = 1,
 	};

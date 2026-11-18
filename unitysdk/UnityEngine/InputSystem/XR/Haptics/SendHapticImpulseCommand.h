@@ -2,14 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
-#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDHAPTICIMPULSECOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1F1F78A0)
-#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDHAPTICIMPULSECOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0xA96C50)
-#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDHAPTICIMPULSECOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F1F7880)
+#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDHAPTICIMPULSECOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1F5F31E0)
+#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDHAPTICIMPULSECOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x97D810)
+#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDHAPTICIMPULSECOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F5F31C0)
 
 namespace UnityEngine::InputSystem::XR::Haptics
 {
-	inline static constexpr unsigned int SendHapticImpulseCommand_TypeDefinitionIndex = 32359;
+	inline static constexpr unsigned int SendHapticImpulseCommand_TypeDefinitionIndex = 31808;
 
 	struct alignas(4) SendHapticImpulseCommand
 	{
@@ -19,23 +20,21 @@ namespace UnityEngine::InputSystem::XR::Haptics
 		::System::Single amplitude; // 0x1C
 		::System::Single duration; // 0x20
 
-		/*
 		static ::UnityEngine::InputSystem::Utilities::FourCC get_Type()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDHAPTICIMPULSECOMMAND_GET_TYPE_OFFSET))();
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDHAPTICIMPULSECOMMAND_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand Create(::System::Int32 motorChannel, ::System::Single motorAmplitude, ::System::Single motorDuration)
 		{
 			return ((::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand(*)(::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDHAPTICIMPULSECOMMAND_CREATE_OFFSET))(motorChannel, motorAmplitude, motorDuration);
 		}
+		*/
 	};
 }

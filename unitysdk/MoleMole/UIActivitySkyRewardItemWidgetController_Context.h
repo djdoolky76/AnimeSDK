@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYSKYREWARDITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19761870)
+#define MOLEMOLE_UIACTIVITYSKYREWARDITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0DACD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivitySkyRewardItemWidgetController_Context_TypeDefinitionIndex = 75893;
+	inline static constexpr unsigned int UIActivitySkyRewardItemWidgetController_Context_TypeDefinitionIndex = 48913;
 
 	class UIActivitySkyRewardItemWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

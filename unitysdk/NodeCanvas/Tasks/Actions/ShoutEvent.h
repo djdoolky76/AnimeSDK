@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
 namespace NodeCanvas::Framework { class GraphOwner; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_ACTIONS_SHOUTEVENT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EF93680)
-#define NODECANVAS_TASKS_ACTIONS_SHOUTEVENT_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1EF93A90)
-#define NODECANVAS_TASKS_ACTIONS_SHOUTEVENT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF93700)
-#define NODECANVAS_TASKS_ACTIONS_SHOUTEVENT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EF937B0)
-#define NODECANVAS_TASKS_ACTIONS_SHOUTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF93CC0)
+#define NODECANVAS_TASKS_ACTIONS_SHOUTEVENT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1F302920)
+#define NODECANVAS_TASKS_ACTIONS_SHOUTEVENT_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1F302D30)
+#define NODECANVAS_TASKS_ACTIONS_SHOUTEVENT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1F3029A0)
+#define NODECANVAS_TASKS_ACTIONS_SHOUTEVENT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F302A50)
+#define NODECANVAS_TASKS_ACTIONS_SHOUTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F302F60)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int ShoutEvent_TypeDefinitionIndex = 31091;
+	inline static constexpr unsigned int ShoutEvent_TypeDefinitionIndex = 29516;
 
-	class ShoutEvent : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>
+	class ShoutEvent
 	{
 	public:
 		::Il2CppArray<::NodeCanvas::Framework::GraphOwner*>* owners; // 0x60

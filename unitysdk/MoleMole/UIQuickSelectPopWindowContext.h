@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_6C0CB58803DAE0C3.h"
+#include "unitysdk/LNEOPDAIHOJ.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIQUICKSELECTPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A7DDD0)
+#define MOLEMOLE_UIQUICKSELECTPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x167780F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuickSelectPopWindowContext_TypeDefinitionIndex = 67128;
+	inline static constexpr unsigned int UIQuickSelectPopWindowContext_TypeDefinitionIndex = 60718;
 
 	class UIQuickSelectPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* ItemList; // 0x28
-		::Enum_3_6C0CB58803DAE0C3 Type; // 0x30
+		::System::Collections::Generic::List_1<::HGAJKHIMKJP*>* ItemList; // 0x28
+		::LNEOPDAIHOJ Type; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -1,26 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/AccessControl/InheritanceFlags.h"
 #include "unitysdk/System/Security/AccessControl/PropagationFlags.h"
+#include "unitysdk/System/Object.h"
 
 namespace System::Security::Principal { class IdentityReference; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_AUTHORIZATIONRULE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CD530D0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_AUTHORIZATIONRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD53230)
+#define SYSTEM_SECURITY_ACCESSCONTROL_AUTHORIZATIONRULE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D2D16A0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_AUTHORIZATIONRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D1800)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int AuthorizationRule_TypeDefinitionIndex = 971;
+	inline static constexpr unsigned int AuthorizationRule_TypeDefinitionIndex = 970;
 
 	class AuthorizationRule : public ::System::Object
 	{
 	public:
 		::System::Security::Principal::IdentityReference* identity; // 0x10
-		::System::Boolean isInherited; // 0x18
-		::System::Int32 accessMask; // 0x1C
-		::System::Security::AccessControl::PropagationFlags propagationFlags; // 0x20
-		::System::Security::AccessControl::InheritanceFlags inheritanceFlags; // 0x24
+		::System::Security::AccessControl::InheritanceFlags inheritanceFlags; // 0x18
+		::System::Security::AccessControl::PropagationFlags propagationFlags; // 0x1C
+		::System::Boolean isInherited; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::Int32 accessMask; // 0x24
 
 		::System::Void _ctor()
 		{

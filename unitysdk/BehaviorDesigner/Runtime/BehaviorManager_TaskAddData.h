@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace BehaviorDesigner::Runtime { class BehaviorManager_TaskAddData_OverrideFieldValue; }
 namespace BehaviorDesigner::Runtime::Tasks { class ParentTask; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_TASKADDDATA_DESTROY_OFFSET UNITYSDK_OFFSET(0x1F5D10B0)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_TASKADDDATA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F5D1050)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_TASKADDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D1260)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_TASKADDDATA_DESTROY_OFFSET UNITYSDK_OFFSET(0x1F994EF0)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_TASKADDDATA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F994E80)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER_TASKADDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9950A0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int BehaviorManager_TaskAddData_TypeDefinitionIndex = 33865;
+	inline static constexpr unsigned int BehaviorManager_TaskAddData_TypeDefinitionIndex = 33411;
 
 	class BehaviorManager_TaskAddData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::BehaviorDesigner::Runtime::BehaviorManager_TaskAddData_OverrideFieldValue*>* overrideFields; // 0x10
+		::BehaviorDesigner::Runtime::Tasks::ParentTask* parentTask; // 0x10
 		::System::String* errorTaskName; // 0x18
-		::BehaviorDesigner::Runtime::Tasks::ParentTask* parentTask; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* overrideFields; // 0x20
 		::System::Collections::Generic::HashSet_1<::System::Object*>* overiddenFields; // 0x28
-		::System::Int32 errorTask; // 0x30
-		::System::Boolean fromExternalTask; // 0x34
-		::System::Int32 parentIndex; // 0x38
+		::System::Int32 depth; // 0x30
+		::System::Int32 parentIndex; // 0x34
+		::System::Boolean fromExternalTask; // 0x38
+		::System::Byte _padding0[0x3];
 		::System::Int32 compositeParentIndex; // 0x3C
-		::System::Int32 depth; // 0x40
+		::System::Int32 errorTask; // 0x40
 
 		::System::Void _ctor()
 		{

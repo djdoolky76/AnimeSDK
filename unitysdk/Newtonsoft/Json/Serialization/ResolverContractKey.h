@@ -5,14 +5,14 @@
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_RESOLVERCONTRACTKEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA48230)
-#define NEWTONSOFT_JSON_SERIALIZATION_RESOLVERCONTRACTKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xA481D0)
-#define NEWTONSOFT_JSON_SERIALIZATION_RESOLVERCONTRACTKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA48160)
-#define NEWTONSOFT_JSON_SERIALIZATION_RESOLVERCONTRACTKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
+#define NEWTONSOFT_JSON_SERIALIZATION_RESOLVERCONTRACTKEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x928860)
+#define NEWTONSOFT_JSON_SERIALIZATION_RESOLVERCONTRACTKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x928800)
+#define NEWTONSOFT_JSON_SERIALIZATION_RESOLVERCONTRACTKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x928790)
+#define NEWTONSOFT_JSON_SERIALIZATION_RESOLVERCONTRACTKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x3657B0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int ResolverContractKey_TypeDefinitionIndex = 7099;
+	inline static constexpr unsigned int ResolverContractKey_TypeDefinitionIndex = 7106;
 
 	struct alignas(8) ResolverContractKey
 	{
@@ -34,9 +34,11 @@ namespace Newtonsoft::Json::Serialization
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_RESOLVERCONTRACTKEY_EQUALS_OFFSET))(this, obj);
 		}
 
+		/*
 		::System::Boolean Equals_1(::Newtonsoft::Json::Serialization::ResolverContractKey other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Newtonsoft::Json::Serialization::ResolverContractKey))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_RESOLVERCONTRACTKEY_EQUALS_1_OFFSET))(this, other);
 		}
+		*/
 	};
 }

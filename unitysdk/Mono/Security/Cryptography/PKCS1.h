@@ -7,55 +7,51 @@ namespace System::Security::Cryptography { class HashAlgorithm; }
 namespace System::Security::Cryptography { class RSA; }
 namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EF54640)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_CREATEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1EF560F0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_CREATEFROMOID_OFFSET UNITYSDK_OFFSET(0x1EF56DA0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_DECRYPT_OAEP_OFFSET UNITYSDK_OFFSET(0x1EF550E0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_DECRYPT_V15_OFFSET UNITYSDK_OFFSET(0x1EF556C0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_ENCODE_V15_OFFSET UNITYSDK_OFFSET(0x1EF559F0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_ENCRYPT_OAEP_OFFSET UNITYSDK_OFFSET(0x1EF54C00)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_ENCRYPT_V15_OFFSET UNITYSDK_OFFSET(0x1EF55490)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_GETEMPTYHASH_OFFSET UNITYSDK_OFFSET(0x1EF54770)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_HASHNAMEFROMOID_OFFSET UNITYSDK_OFFSET(0x1EF56A90)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_I2OSP_1_OFFSET UNITYSDK_OFFSET(0x1EF549E0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_I2OSP_OFFSET UNITYSDK_OFFSET(0x1EF54910)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_MGF1_OFFSET UNITYSDK_OFFSET(0x1EF54F20)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_OS2IP_OFFSET UNITYSDK_OFFSET(0x1EF54A60)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_RSADP_OFFSET UNITYSDK_OFFSET(0x1EF54B70)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_RSAEP_OFFSET UNITYSDK_OFFSET(0x1EF54B40)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_RSASP1_OFFSET UNITYSDK_OFFSET(0x1EF54BA0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_RSAVP1_OFFSET UNITYSDK_OFFSET(0x1EF54BD0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_SIGN_V15_1_OFFSET UNITYSDK_OFFSET(0x1EF55FE0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_SIGN_V15_OFFSET UNITYSDK_OFFSET(0x1EF558E0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_VERIFY_V15_1_OFFSET UNITYSDK_OFFSET(0x1EF56970)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_VERIFY_V15_2_OFFSET UNITYSDK_OFFSET(0x1EF56680)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_VERIFY_V15_OFFSET UNITYSDK_OFFSET(0x1EF56600)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_XOR_OFFSET UNITYSDK_OFFSET(0x1EF546B0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF56E00)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF54630)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_COMPARE_OFFSET UNITYSDK_OFFSET(0x1D75F5A0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_CREATEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1D760C00)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_DECRYPT_OAEP_OFFSET UNITYSDK_OFFSET(0x1D760040)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_ENCODE_V15_OFFSET UNITYSDK_OFFSET(0x1D760500)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_ENCRYPT_OAEP_OFFSET UNITYSDK_OFFSET(0x1D75FB60)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_GETEMPTYHASH_OFFSET UNITYSDK_OFFSET(0x1D75F6D0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_I2OSP_1_OFFSET UNITYSDK_OFFSET(0x1D75F940)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_I2OSP_OFFSET UNITYSDK_OFFSET(0x1D75F870)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_MGF1_OFFSET UNITYSDK_OFFSET(0x1D75FE80)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_OS2IP_OFFSET UNITYSDK_OFFSET(0x1D75F9C0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_RSADP_OFFSET UNITYSDK_OFFSET(0x1D75FAD0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_RSAEP_OFFSET UNITYSDK_OFFSET(0x1D75FAA0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_RSASP1_OFFSET UNITYSDK_OFFSET(0x1D75FB00)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_RSAVP1_OFFSET UNITYSDK_OFFSET(0x1D75FB30)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_SIGN_V15_1_OFFSET UNITYSDK_OFFSET(0x1D760AF0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_SIGN_V15_OFFSET UNITYSDK_OFFSET(0x1D7603F0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_VERIFY_V15_1_OFFSET UNITYSDK_OFFSET(0x1D7614B0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_VERIFY_V15_2_OFFSET UNITYSDK_OFFSET(0x1D7611C0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_VERIFY_V15_OFFSET UNITYSDK_OFFSET(0x1D761140)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_XOR_OFFSET UNITYSDK_OFFSET(0x1D75F610)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7616C0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1__CTOR_OFFSET UNITYSDK_OFFSET(0x1D75F590)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int PKCS1_TypeDefinitionIndex = 2461;
+	inline static constexpr unsigned int PKCS1_TypeDefinitionIndex = 70;
 
 	class PKCS1 : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA384()
+		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA256()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x2310);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x400);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA512()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x2318);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x408);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA1()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x2320);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x410);
 		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA256()
+		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA384()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x2328);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x418);
 		}
 
 		::System::Void _ctor()
@@ -128,16 +124,6 @@ namespace Mono::Security::Cryptography
 			return ((::Il2CppArray<::System::Byte>*(*)(::System::Security::Cryptography::RSA*, ::System::Security::Cryptography::HashAlgorithm*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_PKCS1_DECRYPT_OAEP_OFFSET))(rsa, hash, C);
 		}
 
-		static ::Il2CppArray<::System::Byte>* Encrypt_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::RandomNumberGenerator* rng, ::Il2CppArray<::System::Byte>* M)
-		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::Security::Cryptography::RSA*, ::System::Security::Cryptography::RandomNumberGenerator*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_PKCS1_ENCRYPT_V15_OFFSET))(rsa, rng, M);
-		}
-
-		static ::Il2CppArray<::System::Byte>* Decrypt_v15(::System::Security::Cryptography::RSA* rsa, ::Il2CppArray<::System::Byte>* C)
-		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::System::Security::Cryptography::RSA*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_PKCS1_DECRYPT_V15_OFFSET))(rsa, C);
-		}
-
 		static ::Il2CppArray<::System::Byte>* Sign_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::Il2CppArray<::System::Byte>* hashValue)
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::System::Security::Cryptography::RSA*, ::System::Security::Cryptography::HashAlgorithm*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_PKCS1_SIGN_V15_OFFSET))(rsa, hash, hashValue);
@@ -171,16 +157,6 @@ namespace Mono::Security::Cryptography
 		static ::Il2CppArray<::System::Byte>* MGF1(::System::Security::Cryptography::HashAlgorithm* hash, ::Il2CppArray<::System::Byte>* mgfSeed, ::System::Int32 maskLen)
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::System::Security::Cryptography::HashAlgorithm*, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_PKCS1_MGF1_OFFSET))(hash, mgfSeed, maskLen);
-		}
-
-		static ::System::String* HashNameFromOid(::System::String* oid, ::System::Boolean throwOnError)
-		{
-			return ((::System::String*(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_PKCS1_HASHNAMEFROMOID_OFFSET))(oid, throwOnError);
-		}
-
-		static ::System::Security::Cryptography::HashAlgorithm* CreateFromOid(::System::String* oid)
-		{
-			return ((::System::Security::Cryptography::HashAlgorithm*(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_PKCS1_CREATEFROMOID_OFFSET))(oid);
 		}
 
 		static ::System::Security::Cryptography::HashAlgorithm* CreateFromName(::System::String* name)

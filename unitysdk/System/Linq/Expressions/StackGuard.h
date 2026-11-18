@@ -2,14 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
-namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
-namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
-namespace System { template <typename T1, typename T2> class Action_2; }
-namespace System { template <typename T1, typename T2> class Func_2; }
-
-#define SYSTEM_LINQ_EXPRESSIONS_STACKGUARD_TRYENTERONCURRENTSTACK_OFFSET UNITYSDK_OFFSET(0x1F082960)
-#define SYSTEM_LINQ_EXPRESSIONS_STACKGUARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1F082990)
+#define SYSTEM_LINQ_EXPRESSIONS_STACKGUARD_TRYENTERONCURRENTSTACK_OFFSET UNITYSDK_OFFSET(0x1F41A730)
+#define SYSTEM_LINQ_EXPRESSIONS_STACKGUARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1F41A760)
 
 namespace System::Linq::Expressions
 {

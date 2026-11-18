@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSITEMPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF89A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSITEMPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E15A620)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassItemProxy_TypeDefinitionIndex = 27840;
+	inline static constexpr unsigned int GPUGrassItemProxy_TypeDefinitionIndex = 27268;
 
 	class GPUGrassItemProxy : public ::UnityEngine::MonoBehaviour
 	{

@@ -4,36 +4,32 @@
 #include "unitysdk/System/ValueType.h"
 
 namespace MiHoYoSDKJSON { class JSONNode; }
-namespace System { class String; }
+namespace System { class Object; }
 
-#define MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x3E7EB0)
-#define MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x984020)
-#define MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x99BFE0)
-#define MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x983FC0)
-#define MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3E7950)
-#define MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x983F80)
+#define MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x36ADF0)
+#define MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x8CAF10)
+#define MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x95D6D0)
+#define MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8CAEB0)
+#define MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR__CTOR_2_OFFSET UNITYSDK_OFFSET(0x36A940)
+#define MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x8CAE70)
 
 namespace MiHoYoSDKJSON
 {
-	inline static constexpr unsigned int JSONNode_ValueEnumerator_TypeDefinitionIndex = 37093;
+	inline static constexpr unsigned int JSONNode_ValueEnumerator_TypeDefinitionIndex = 35079;
 
-	struct alignas(8) JSONNode_ValueEnumerator
+	struct alignas(4) JSONNode_ValueEnumerator
 	{
 		::MiHoYoSDKJSON::JSONNode_Enumerator m_Enumerator; // 0x10
 
-		/*
-		::System::Void _ctor(::System::Collections::Generic::List_1_Enumerator<::MiHoYoSDKJSON::JSONNode*> aArrayEnum)
+		::System::Void _ctor(::System::Object* aArrayEnum)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1_Enumerator<::MiHoYoSDKJSON::JSONNode*>))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR__CTOR_OFFSET))(this, aArrayEnum);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR__CTOR_OFFSET))(this, aArrayEnum);
 		}
-		*/
 
-		/*
-		::System::Void _ctor_1(::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MiHoYoSDKJSON::JSONNode*> aDictEnum)
+		::System::Void _ctor_1(::System::Object* aDictEnum)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MiHoYoSDKJSON::JSONNode*>))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR__CTOR_1_OFFSET))(this, aDictEnum);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR__CTOR_1_OFFSET))(this, aDictEnum);
 		}
-		*/
 
 		::System::Void _ctor_2(::MiHoYoSDKJSON::JSONNode_Enumerator aEnumerator)
 		{
@@ -50,9 +46,11 @@ namespace MiHoYoSDKJSON
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR_MOVENEXT_OFFSET))(this);
 		}
 
+		/*
 		::MiHoYoSDKJSON::JSONNode_ValueEnumerator GetEnumerator()
 		{
 			return ((::MiHoYoSDKJSON::JSONNode_ValueEnumerator(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOSDKJSON_JSONNODE_VALUEENUMERATOR_GETENUMERATOR_OFFSET))(this);
 		}
+		*/
 	};
 }

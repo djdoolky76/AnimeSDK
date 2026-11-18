@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int QualityLevel_TypeDefinitionIndex = 5223;
+	inline static constexpr unsigned int QualityLevel_TypeDefinitionIndex = 5225;
 
 	enum class QualityLevel : ::System::Int32
 	{

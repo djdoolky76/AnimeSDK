@@ -1,24 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Guid.h"
 
 namespace System { class String; }
 namespace UnityEngine::Networking::PlayerConnection { class PlayerEditorConnectionEvents_MessageEvent; }
 
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_MESSAGETYPESUBSCRIBERS_GET_MESSAGETYPEID_OFFSET UNITYSDK_OFFSET(0x1E48E660)
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_MESSAGETYPESUBSCRIBERS_SET_MESSAGETYPEID_OFFSET UNITYSDK_OFFSET(0x1E48E690)
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_MESSAGETYPESUBSCRIBERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E48E6E0)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_MESSAGETYPESUBSCRIBERS_GET_MESSAGETYPEID_OFFSET UNITYSDK_OFFSET(0x1E6566B0)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_MESSAGETYPESUBSCRIBERS_SET_MESSAGETYPEID_OFFSET UNITYSDK_OFFSET(0x1E6566E0)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_MESSAGETYPESUBSCRIBERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E656730)
 
 namespace UnityEngine::Networking::PlayerConnection
 {
-	inline static constexpr unsigned int PlayerEditorConnectionEvents_MessageTypeSubscribers_TypeDefinitionIndex = 5682;
+	inline static constexpr unsigned int PlayerEditorConnectionEvents_MessageTypeSubscribers_TypeDefinitionIndex = 5686;
 
 	class PlayerEditorConnectionEvents_MessageTypeSubscribers : public ::System::Object
 	{
 	public:
 		::System::String* m_messageTypeId; // 0x10
 		::System::Int32 subscriberCount; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageEvent* messageCallback; // 0x20
 
 		::System::Void _ctor()

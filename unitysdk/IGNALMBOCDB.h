@@ -1,0 +1,106 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ABKOPPMAKPH.h"
+
+class CJIEIHEDMME;
+class IGNALMBOCDB_CBFJNJGNEDA;
+class JJEDBKAPLJJ;
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+template <typename T> class DFDEIDBBGHG_1;
+
+#define IGNALMBOCDB_ACNHDOBIDKD_OFFSET UNITYSDK_OFFSET(0xEBD6D00)
+#define IGNALMBOCDB_ANCCKDLLCMC_OFFSET UNITYSDK_OFFSET(0xEBD6C10)
+#define IGNALMBOCDB_DEJIJCLDGIG_OFFSET UNITYSDK_OFFSET(0xEBD6780)
+#define IGNALMBOCDB_DJDJKILDPGP_OFFSET UNITYSDK_OFFSET(0xEBD5440)
+#define IGNALMBOCDB_FHFADMFLFKD_OFFSET UNITYSDK_OFFSET(0xEBD6F70)
+#define IGNALMBOCDB_GAMMGFLDANN_OFFSET UNITYSDK_OFFSET(0xEBD6B30)
+#define IGNALMBOCDB_HNDGJKPNIHA_OFFSET UNITYSDK_OFFSET(0xEBD55B0)
+#define IGNALMBOCDB_HOBKEHELFAI_OFFSET UNITYSDK_OFFSET(0xEBD68E0)
+#define IGNALMBOCDB_IHBEFPBBJPJ_OFFSET UNITYSDK_OFFSET(0xEBD6DF0)
+#define IGNALMBOCDB_JDPDNGKKHKI_OFFSET UNITYSDK_OFFSET(0xEBD6A30)
+#define IGNALMBOCDB_LJJBEGGAPAI_OFFSET UNITYSDK_OFFSET(0xEBD5990)
+#define IGNALMBOCDB_MDLEALCBDCG_OFFSET UNITYSDK_OFFSET(0xEBD6280)
+#define IGNALMBOCDB_MEDHGMPAHNN_OFFSET UNITYSDK_OFFSET(0xEBD5B90)
+#define IGNALMBOCDB__CTOR_OFFSET UNITYSDK_OFFSET(0xEBD5970)
+
+inline static constexpr unsigned int IGNALMBOCDB_TypeDefinitionIndex = 90740;
+
+class IGNALMBOCDB
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* PHMEAOFFPMB; // 0x10
+	::System::Collections::Generic::Dictionary_2<::ABKOPPMAKPH, ::JJEDBKAPLJJ*>* LGPLPFJJMBN; // 0x18
+	::System::Collections::Generic::HashSet_1<::System::Int32>* NLGCAAPMIKN; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IGNALMBOCDB__CTOR_OFFSET))(this);
+	}
+
+	::System::Void DJDJKILDPGP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IGNALMBOCDB_DJDJKILDPGP_OFFSET))(this);
+	}
+
+	::System::Void HNDGJKPNIHA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IGNALMBOCDB_HNDGJKPNIHA_OFFSET))(this);
+	}
+
+	::System::Void LJJBEGGAPAI(::DFDEIDBBGHG_1<::JJEDBKAPLJJ*>* IIHHLAJGPMD)
+	{
+		return ((::System::Void(*)(::PVOID, ::DFDEIDBBGHG_1<::JJEDBKAPLJJ*>*))((::PBYTE)hIl2Cpp + IGNALMBOCDB_LJJBEGGAPAI_OFFSET))(this, IIHHLAJGPMD);
+	}
+
+	::System::Boolean MEDHGMPAHNN(::ABKOPPMAKPH EHNJCPCLCOJ)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::ABKOPPMAKPH))((::PBYTE)hIl2Cpp + IGNALMBOCDB_MEDHGMPAHNN_OFFSET))(this, EHNJCPCLCOJ);
+	}
+
+	::System::Int32 DEJIJCLDGIG(::System::Int32 FMJPOIFLFOJ)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IGNALMBOCDB_DEJIJCLDGIG_OFFSET))(this, FMJPOIFLFOJ);
+	}
+
+	::System::Int32 JDPDNGKKHKI(::System::Int32 FMJPOIFLFOJ)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IGNALMBOCDB_JDPDNGKKHKI_OFFSET))(this, FMJPOIFLFOJ);
+	}
+
+	::System::Int32 ANCCKDLLCMC(::ABKOPPMAKPH EHNJCPCLCOJ)
+	{
+		return ((::System::Int32(*)(::PVOID, ::ABKOPPMAKPH))((::PBYTE)hIl2Cpp + IGNALMBOCDB_ANCCKDLLCMC_OFFSET))(this, EHNJCPCLCOJ);
+	}
+
+	::IGNALMBOCDB_CBFJNJGNEDA* ACNHDOBIDKD(::System::Int32 FMJPOIFLFOJ)
+	{
+		return ((::IGNALMBOCDB_CBFJNJGNEDA*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IGNALMBOCDB_ACNHDOBIDKD_OFFSET))(this, FMJPOIFLFOJ);
+	}
+
+	::System::Void GAMMGFLDANN(::System::Int32 CANJKOGCPAF)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IGNALMBOCDB_GAMMGFLDANN_OFFSET))(this, CANJKOGCPAF);
+	}
+
+	::System::Void MDLEALCBDCG(::System::UInt32 INEPJABHIIG)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + IGNALMBOCDB_MDLEALCBDCG_OFFSET))(this, INEPJABHIIG);
+	}
+
+	::System::Void IHBEFPBBJPJ(::CJIEIHEDMME* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::CJIEIHEDMME*))((::PBYTE)hIl2Cpp + IGNALMBOCDB_IHBEFPBBJPJ_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Int32 HOBKEHELFAI(::System::Int32 AOCOIDIMLIH)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IGNALMBOCDB_HOBKEHELFAI_OFFSET))(this, AOCOIDIMLIH);
+	}
+
+	::System::Void FHFADMFLFKD(::CJIEIHEDMME* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::CJIEIHEDMME*))((::PBYTE)hIl2Cpp + IGNALMBOCDB_FHFADMFLFKD_OFFSET))(this, LJBPECKCCEA);
+	}
+};

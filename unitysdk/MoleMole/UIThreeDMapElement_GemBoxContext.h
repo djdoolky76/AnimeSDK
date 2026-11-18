@@ -1,0 +1,124 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIUrbanMapPointWidgetContext.h"
+#include "unitysdk/OLPPOJJADDO.h"
+
+class HGPCABLDKEB;
+namespace MoleMole { class UIUrbanMapPointGroupWidgetContext; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x15632FE0)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0x15632F40)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_GETDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x15632C60)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_GETICONWIDGETNAME_OFFSET UNITYSDK_OFFSET(0x15632BA0)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_GETKEY_OFFSET UNITYSDK_OFFSET(0x15632C10)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_GETWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x15632EB0)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_GET_GETAREAMAPPANELCONFIGID_OFFSET UNITYSDK_OFFSET(0x15632EA0)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_ISTRACKING_OFFSET UNITYSDK_OFFSET(0x156330F0)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_ONSHOWPANEL_OFFSET UNITYSDK_OFFSET(0x15632CC0)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15633490)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x15633530)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_GETDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x15633540)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_GETICONWIDGETNAME_OFFSET UNITYSDK_OFFSET(0x15633600)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_GETKEY_OFFSET UNITYSDK_OFFSET(0x15633680)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_GETWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x15633720)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_ISTRACKING_OFFSET UNITYSDK_OFFSET(0x15633840)
+#define MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_ONSHOWPANEL_OFFSET UNITYSDK_OFFSET(0x15633850)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIThreeDMapElement_GemBoxContext_TypeDefinitionIndex = 48619;
+
+	class UIThreeDMapElement_GemBoxContext : public ::MoleMole::UIUrbanMapPointWidgetContext
+	{
+	public:
+		::HGPCABLDKEB* Data; // 0x58
+		::System::Boolean _isTracking; // 0x60
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT__CTOR_OFFSET))(this);
+		}
+
+		::System::String* GetIconWidgetName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_GETICONWIDGETNAME_OFFSET))(this);
+		}
+
+		::System::UInt64 GetKey()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_GETKEY_OFFSET))(this);
+		}
+
+		::System::String* GetDebugInfo()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_GETDEBUGINFO_OFFSET))(this);
+		}
+
+		::System::Void OnShowPanel(::MoleMole::UIUrbanMapPointGroupWidgetContext* fromGroupContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIUrbanMapPointGroupWidgetContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_ONSHOWPANEL_OFFSET))(this, fromGroupContext);
+		}
+
+		::System::Int32 get_GetAreaMapPanelConfigId()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_GET_GETAREAMAPPANELCONFIGID_OFFSET))(this);
+		}
+
+		::OLPPOJJADDO GetWorldPosition()
+		{
+			return ((::OLPPOJJADDO(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_GETWORLDPOSITION_OFFSET))(this);
+		}
+
+		::System::Boolean Equals(::MoleMole::UIThreeDMapElement_GemBoxContext* other)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UIThreeDMapElement_GemBoxContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_EQUALS_OFFSET))(this, other);
+		}
+
+		::System::Boolean Equals_1(::System::Object* obj)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_EQUALS_1_OFFSET))(this, obj);
+		}
+
+		::System::Boolean IsTracking()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT_ISTRACKING_OFFSET))(this);
+		}
+
+		::System::Boolean __base_Equals(::System::Object* P0)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_EQUALS_OFFSET))(this, P0);
+		}
+
+		::System::String* __base_GetDebugInfo()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_GETDEBUGINFO_OFFSET))(this);
+		}
+
+		::System::String* __base_GetIconWidgetName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_GETICONWIDGETNAME_OFFSET))(this);
+		}
+
+		::System::UInt64 __base_GetKey()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_GETKEY_OFFSET))(this);
+		}
+
+		::OLPPOJJADDO __base_GetWorldPosition()
+		{
+			return ((::OLPPOJJADDO(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_GETWORLDPOSITION_OFFSET))(this);
+		}
+
+		::System::Boolean __base_IsTracking()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_ISTRACKING_OFFSET))(this);
+		}
+
+		::System::Void __base_OnShowPanel(::MoleMole::UIUrbanMapPointGroupWidgetContext* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIUrbanMapPointGroupWidgetContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITHREEDMAPELEMENT_GEMBOXCONTEXT___BASE_ONSHOWPANEL_OFFSET))(this, P0);
+		}
+	};
+}

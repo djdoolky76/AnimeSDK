@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
@@ -11,15 +11,15 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_IDLEANIMATIONTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x11931FC0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_IDLEANIMATIONTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x11932030)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_IDLEANIMATIONTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x11931F60)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_IDLEANIMATIONTASK_LINK_OFFSET UNITYSDK_OFFSET(0x11931EF0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_IDLEANIMATIONTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x119320A0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_IDLEANIMATIONTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x105E36A0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_IDLEANIMATIONTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x105E3710)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_IDLEANIMATIONTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x105E3640)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_IDLEANIMATIONTASK_LINK_OFFSET UNITYSDK_OFFSET(0x105E35D0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_IDLEANIMATIONTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x105E3780)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_IdleAnimationTask_TypeDefinitionIndex = 80138;
+	inline static constexpr unsigned int VirtualProxy_IdleAnimationTask_TypeDefinitionIndex = 69744;
 
 	class VirtualProxy_IdleAnimationTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{

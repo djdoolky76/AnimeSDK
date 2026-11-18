@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_FLOATFLOATPAIR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B7ED930)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_FLOATFLOATPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7ED920)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_FLOATFLOATPAIR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x192A0FF0)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_FLOATFLOATPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x192A0FE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMonsterAlerts_FloatFloatPair_TypeDefinitionIndex = 89848;
+	inline static constexpr unsigned int ConfigMonsterAlerts_FloatFloatPair_TypeDefinitionIndex = 85198;
 
 	class ConfigMonsterAlerts_FloatFloatPair : public ::System::Object
 	{

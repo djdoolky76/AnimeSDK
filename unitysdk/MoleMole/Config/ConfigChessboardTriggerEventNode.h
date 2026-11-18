@@ -3,14 +3,14 @@
 #include "unitysdk/MoleMole/Config/ConfigChessboardTriggerEventNode_EventType.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDTRIGGEREVENTNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x134F6FC0)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDTRIGGEREVENTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x134F7080)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDTRIGGEREVENTNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B9144F0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDTRIGGEREVENTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9145B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardTriggerEventNode_TypeDefinitionIndex = 76129;
+	inline static constexpr unsigned int ConfigChessboardTriggerEventNode_TypeDefinitionIndex = 53253;
 
 	class ConfigChessboardTriggerEventNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
@@ -23,9 +23,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHESSBOARDTRIGGEREVENTNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHESSBOARDTRIGGEREVENTNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHESSBOARDTRIGGEREVENTNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

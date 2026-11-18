@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace MoleMole::Config { class ConfigHollowChessboard_Flash; }
-namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDELEVATORDOWNSPLASH_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16C3B7F0)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDELEVATORDOWNSPLASH__CTOR_OFFSET UNITYSDK_OFFSET(0x16C3B8B0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDELEVATORDOWNSPLASH_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x18B918C0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDELEVATORDOWNSPLASH__CTOR_OFFSET UNITYSDK_OFFSET(0x18B91980)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardElevatorDownSplash_TypeDefinitionIndex = 82806;
+	inline static constexpr unsigned int ConfigChessboardElevatorDownSplash_TypeDefinitionIndex = 66753;
 
 	class ConfigChessboardElevatorDownSplash : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
@@ -25,9 +24,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHESSBOARDELEVATORDOWNSPLASH__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHESSBOARDELEVATORDOWNSPLASH_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHESSBOARDELEVATORDOWNSPLASH_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

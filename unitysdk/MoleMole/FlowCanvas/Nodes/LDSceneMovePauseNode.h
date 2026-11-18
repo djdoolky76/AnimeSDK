@@ -1,47 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
-#include "unitysdk/MoleMole/FlowCanvas/Nodes/LDSceneMovePauseNode_PauseType.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
-class Class_3_8CC859447F33469F;
+class FPLDABGFDMJ;
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE_BEIGIN_OFFSET UNITYSDK_OFFSET(0x19DB59F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE_BREAK_OFFSET UNITYSDK_OFFSET(0x19DB5C50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE_CHECKFINISH_OFFSET UNITYSDK_OFFSET(0x19DB6510)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE_INITSCENEMOVEGROUP_OFFSET UNITYSDK_OFFSET(0x19DB5D20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE_INTERNALCOROUTINE_OFFSET UNITYSDK_OFFSET(0x19DB5BA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19DB5800)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB6720)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE__REGISTERPORTS_B__14_0_OFFSET UNITYSDK_OFFSET(0x19DB67F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE__REGISTERPORTS_B__14_1_OFFSET UNITYSDK_OFFSET(0x19DB6820)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE__REGISTERPORTS_B__14_2_OFFSET UNITYSDK_OFFSET(0x19DB6850)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE_BEIGIN_OFFSET UNITYSDK_OFFSET(0x12B3BDF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE_BREAK_OFFSET UNITYSDK_OFFSET(0x12B3C050)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE_CHECKFINISH_OFFSET UNITYSDK_OFFSET(0x12B3C920)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE_INITSCENEMOVEGROUP_OFFSET UNITYSDK_OFFSET(0x12B3C120)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE_INTERNALCOROUTINE_OFFSET UNITYSDK_OFFSET(0x12B3BFA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12B3BC00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3CB30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE__REGISTERPORTS_B__14_0_OFFSET UNITYSDK_OFFSET(0x12B3CC00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE__REGISTERPORTS_B__14_1_OFFSET UNITYSDK_OFFSET(0x12B3CC30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEMOVEPAUSENODE__REGISTERPORTS_B__14_2_OFFSET UNITYSDK_OFFSET(0x12B3CC60)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSceneMovePauseNode_TypeDefinitionIndex = 64393;
+	inline static constexpr unsigned int LDSceneMovePauseNode_TypeDefinitionIndex = 71795;
 
 	class LDSceneMovePauseNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* breakOutput; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::LDSceneMovePauseNode_PauseType>* pauseTypeInput; // 0xB0
-		::FlowCanvas::FlowInput* start; // 0xB8
-		::System::Collections::Generic::List_1<::Class_3_8CC859447F33469F*>* childSceneMoveComponents; // 0xC0
-		::Class_3_8CC859447F33469F* mainSceneMoveComponent; // 0xC8
-		::FlowCanvas::FlowOutput* output; // 0xD0
-		::FlowCanvas::FlowInput* breakInput; // 0xD8
-		::UnityEngine::Coroutine* coroutine; // 0xE0
-		::FlowCanvas::ValueInput_1<::System::String*>* groupInput; // 0xE8
-		::FlowCanvas::FlowOutput* finishOutput; // 0xF0
-		::FlowCanvas::FlowInput* restart; // 0xF8
+		::FlowCanvas::FlowInput* restart; // 0xA8
+		::FlowCanvas::FlowInput* start; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Object*>* pauseTypeInput; // 0xB8
+		::UnityEngine::Coroutine* coroutine; // 0xC0
+		::FlowCanvas::FlowOutput* finishOutput; // 0xC8
+		::FPLDABGFDMJ* mainSceneMoveComponent; // 0xD0
+		::FlowCanvas::FlowOutput* breakOutput; // 0xD8
+		::FlowCanvas::FlowOutput* output; // 0xE0
+		::FlowCanvas::FlowInput* breakInput; // 0xE8
+		::FlowCanvas::ValueInput_1<::System::String*>* groupInput; // 0xF0
+		::System::Collections::Generic::List_1<::FPLDABGFDMJ*>* childSceneMoveComponents; // 0xF8
 		::System::Boolean isStart; // 0x100
 		::System::Boolean finish; // 0x101
 

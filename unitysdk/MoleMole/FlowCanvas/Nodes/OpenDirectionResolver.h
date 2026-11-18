@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_3.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1383E100)
+#define MOLEMOLE_FLOWCANVAS_NODES_OPENDIRECTIONRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x139E4630)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int OpenDirectionResolver_TypeDefinitionIndex = 62158;
+	inline static constexpr unsigned int OpenDirectionResolver_TypeDefinitionIndex = 47875;
 
-	class OpenDirectionResolver : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single>
+	class OpenDirectionResolver
 	{
 	public:
 		::System::Void _ctor()

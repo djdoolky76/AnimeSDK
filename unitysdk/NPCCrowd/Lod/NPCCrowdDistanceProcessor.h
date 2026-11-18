@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_LOD_NPCCROWDDISTANCEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x112A3440)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x11FC3270)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdDistanceProcessor_TypeDefinitionIndex = 63859;
+	inline static constexpr unsigned int NPCCrowdDistanceProcessor_TypeDefinitionIndex = 77007;
 
 	class NPCCrowdDistanceProcessor : public ::System::Object
 	{

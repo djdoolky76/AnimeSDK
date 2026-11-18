@@ -7,13 +7,13 @@ namespace MoleMole::Config { class ConfigDecorBase; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define FOUNDATION_VIEWOBJECT_DONJON_DECORUTILS_FOREACHDECOR_1_OFFSET UNITYSDK_OFFSET(0x1595DD90)
-#define FOUNDATION_VIEWOBJECT_DONJON_DECORUTILS_FOREACHDECOR_OFFSET UNITYSDK_OFFSET(0x1595DD30)
-#define FOUNDATION_VIEWOBJECT_DONJON_DECORUTILS__REALFOREACHDECOR_OFFSET UNITYSDK_OFFSET(0x1595D800)
+#define FOUNDATION_VIEWOBJECT_DONJON_DECORUTILS_FOREACHDECOR_1_OFFSET UNITYSDK_OFFSET(0x165C8970)
+#define FOUNDATION_VIEWOBJECT_DONJON_DECORUTILS_FOREACHDECOR_OFFSET UNITYSDK_OFFSET(0x165C8910)
+#define FOUNDATION_VIEWOBJECT_DONJON_DECORUTILS__REALFOREACHDECOR_OFFSET UNITYSDK_OFFSET(0x165C83E0)
 
 namespace Foundation::ViewObject::Donjon
 {
-	inline static constexpr unsigned int DecorUtils_TypeDefinitionIndex = 59033;
+	inline static constexpr unsigned int DecorUtils_TypeDefinitionIndex = 60000;
 
 	class DecorUtils : public ::System::Object
 	{

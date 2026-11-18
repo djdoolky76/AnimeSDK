@@ -6,17 +6,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PRELOADSINGLESTREAMINGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x108203F0)
+#define MOLEMOLE_PRELOADSINGLESTREAMINGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15AD1AB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PreloadSingleStreaminGameConfig_TypeDefinitionIndex = 58106;
+	inline static constexpr unsigned int PreloadSingleStreaminGameConfig_TypeDefinitionIndex = 66727;
 
 	class PreloadSingleStreaminGameConfig : public ::System::Object
 	{
 	public:
 		::System::Int32 floorId; // 0x10
 		::System::Boolean enableMonsterEffectLazyPreload; // 0x14
+		::System::Byte _padding0[0x3];
 		::System::Collections::Generic::List_1<::Foundation::AssetPath>* preloadPaths; // 0x18
 		::System::Collections::Generic::List_1<::System::Int32>* preloadMonsters; // 0x20
 		::System::Collections::Generic::List_1<::MoleMole::AssetWarmupConfig>* warmupEffects; // 0x28

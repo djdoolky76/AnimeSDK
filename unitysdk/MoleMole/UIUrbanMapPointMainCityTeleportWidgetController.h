@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/UIUrbanMapPointWidgetController_2.h"
 
-class Class_3_98695EF754FED5C3;
-namespace MoleMole { class UIThreeDMapElement_MainCityTeleportContext; }
-
-#define MOLEMOLE_UIURBANMAPPOINTMAINCITYTELEPORTWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x112C1DC0)
+#define MOLEMOLE_UIURBANMAPPOINTMAINCITYTELEPORTWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1055DEF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapPointMainCityTeleportWidgetController_TypeDefinitionIndex = 56981;
+	inline static constexpr unsigned int UIUrbanMapPointMainCityTeleportWidgetController_TypeDefinitionIndex = 60978;
 
-	class UIUrbanMapPointMainCityTeleportWidgetController : public ::MoleMole::UIUrbanMapPointWidgetController_2<::Class_3_98695EF754FED5C3*, ::MoleMole::UIThreeDMapElement_MainCityTeleportContext*>
+	class UIUrbanMapPointMainCityTeleportWidgetController
 	{
 	public:
 		::System::Void _ctor()

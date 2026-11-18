@@ -1,36 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_443A885B4E84B185.h"
+#include "unitysdk/BABFBCHGIHG.h"
 #include "unitysdk/NPCCrowd/NPCCrowdModuleSubSystemBase.h"
 
-class Class_3_F2DAD7F45F518868;
+class COCJHGGDBCA;
+namespace MoleMole::Battle { class Entity; }
 namespace NPCCrowd { class CrowdTickControlInstance; }
+namespace NPCCrowd::Animation { class NPCCPUAnimator; }
 namespace Nap::NapECS { class EcsWorld; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Transform; }
 
-#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xD89E270)
-#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_INIT_OFFSET UNITYSDK_OFFSET(0xD89E140)
-#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_POPLOOKIKTYPE_OFFSET UNITYSDK_OFFSET(0xD89F040)
-#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_PUSHLOOKIKTYPE_OFFSET UNITYSDK_OFFSET(0xD89EFC0)
-#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_UPDATEFILTERFUNC_OFFSET UNITYSDK_OFFSET(0xD89E470)
-#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_UPDATELOOKATIK_OFFSET UNITYSDK_OFFSET(0xD89E7E0)
-#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xD89E380)
-#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xD89F150)
-#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD89F140)
-#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xD89F210)
-#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM___BASE_INIT_OFFSET UNITYSDK_OFFSET(0xD89F220)
-#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD89F260)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x15FA1590)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_INIT_OFFSET UNITYSDK_OFFSET(0x15FA1460)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_POPLOOKIKTYPE_OFFSET UNITYSDK_OFFSET(0x15FA2620)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_PUSHLOOKIKTYPE_OFFSET UNITYSDK_OFFSET(0x15FA2560)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_RESOLVEENTITYTARGET_OFFSET UNITYSDK_OFFSET(0x15FA2220)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_RESOLVELOOKATTARGET_OFFSET UNITYSDK_OFFSET(0x15FA1DA0)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_RUNLEGACYUPDATE_OFFSET UNITYSDK_OFFSET(0x15FA1890)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_UPDATEFILTERFUNC_OFFSET UNITYSDK_OFFSET(0x15FA1970)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_UPDATELOOKATIK_OFFSET UNITYSDK_OFFSET(0x15FA1A80)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0x15FA16A0)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x15FA2780)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15FA2770)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x15FA2840)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM___BASE_INIT_OFFSET UNITYSDK_OFFSET(0x15FA2850)
+#define NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x15FA2890)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCAnimationSubSystem_TypeDefinitionIndex = 45622;
+	inline static constexpr unsigned int NPCAnimationSubSystem_TypeDefinitionIndex = 39525;
 
 	class NPCAnimationSubSystem : public ::NPCCrowd::NPCCrowdModuleSubSystemBase
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_LODTickScaleList()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(NPCAnimationSubSystem_TypeDefinitionIndex)->GetStaticField(0x51C30);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(NPCAnimationSubSystem_TypeDefinitionIndex)->GetStaticField(0x4EE90);
 		}
 		::NPCCrowd::CrowdTickControlInstance* UpdateControl; // 0x20
 
@@ -59,24 +65,39 @@ namespace NPCCrowd::Lod
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_UPDATE_OFFSET))(this, deltaTime);
 		}
 
-		static ::System::Void UpdateFilterFunc(::Class_3_F2DAD7F45F518868* npcComp, ::NPCCrowd::Lod::NPCAnimationSubSystem* system)
+		::System::Void RunLegacyUpdate()
 		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*, ::NPCCrowd::Lod::NPCAnimationSubSystem*))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_UPDATEFILTERFUNC_OFFSET))(npcComp, system);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_RUNLEGACYUPDATE_OFFSET))(this);
 		}
 
-		static ::System::Void UpdateLookAtIK(::Class_3_F2DAD7F45F518868* npcComp)
+		static ::System::Void UpdateFilterFunc(::COCJHGGDBCA* npcComp, ::NPCCrowd::Lod::NPCAnimationSubSystem* system)
 		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_UPDATELOOKATIK_OFFSET))(npcComp);
+			return ((::System::Void(*)(::COCJHGGDBCA*, ::NPCCrowd::Lod::NPCAnimationSubSystem*))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_UPDATEFILTERFUNC_OFFSET))(npcComp, system);
 		}
 
-		static ::System::Void PushLookIKType(::Class_3_F2DAD7F45F518868* component, ::Enum_3_443A885B4E84B185 ikType, ::System::Int32 ikParam)
+		static ::System::Void UpdateLookAtIK(::COCJHGGDBCA* npcComp)
 		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*, ::Enum_3_443A885B4E84B185, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_PUSHLOOKIKTYPE_OFFSET))(component, ikType, ikParam);
+			return ((::System::Void(*)(::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_UPDATELOOKATIK_OFFSET))(npcComp);
 		}
 
-		static ::System::Boolean PopLookIKType(::Class_3_F2DAD7F45F518868* component, ::Enum_3_443A885B4E84B185 ikType)
+		static ::UnityEngine::Transform* ResolveLookAtTarget(::NPCCrowd::Animation::NPCCPUAnimator* animator, ::System::Int32 ikType, ::System::Int32 ikParam)
 		{
-			return ((::System::Boolean(*)(::Class_3_F2DAD7F45F518868*, ::Enum_3_443A885B4E84B185))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_POPLOOKIKTYPE_OFFSET))(component, ikType);
+			return ((::UnityEngine::Transform*(*)(::NPCCrowd::Animation::NPCCPUAnimator*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_RESOLVELOOKATTARGET_OFFSET))(animator, ikType, ikParam);
+		}
+
+		static ::UnityEngine::Transform* ResolveEntityTarget(::NPCCrowd::Animation::NPCCPUAnimator* animator, ::MoleMole::Battle::Entity* entity)
+		{
+			return ((::UnityEngine::Transform*(*)(::NPCCrowd::Animation::NPCCPUAnimator*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_RESOLVEENTITYTARGET_OFFSET))(animator, entity);
+		}
+
+		static ::System::Void PushLookIKType(::COCJHGGDBCA* component, ::BABFBCHGIHG ikType, ::System::Int32 ikParam)
+		{
+			return ((::System::Void(*)(::COCJHGGDBCA*, ::BABFBCHGIHG, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_PUSHLOOKIKTYPE_OFFSET))(component, ikType, ikParam);
+		}
+
+		static ::System::Boolean PopLookIKType(::COCJHGGDBCA* component, ::BABFBCHGIHG ikType)
+		{
+			return ((::System::Boolean(*)(::COCJHGGDBCA*, ::BABFBCHGIHG))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCANIMATIONSUBSYSTEM_POPLOOKIKTYPE_OFFSET))(component, ikType);
 		}
 
 		::System::Void __base_CreateFilters(::Nap::NapECS::EcsWorld* P0)

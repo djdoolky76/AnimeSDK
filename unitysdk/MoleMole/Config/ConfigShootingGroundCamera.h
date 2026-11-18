@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D9D50)
+#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x127832B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShootingGroundCamera_TypeDefinitionIndex = 44388;
+	inline static constexpr unsigned int ConfigShootingGroundCamera_TypeDefinitionIndex = 44841;
 
 	class ConfigShootingGroundCamera : public ::System::Object
 	{
@@ -18,11 +18,13 @@ namespace MoleMole::Config
 		::System::Single NormalOffsetBlendInDuration; // 0x1C
 		::System::String* NormalOffsetBlendInCurve; // 0x20
 		::System::Single NormalOffsetBlendOutDuration; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::String* NormalOffsetBlendOutCurve; // 0x30
 		::UnityEngine::Vector3 ZoomOffset; // 0x38
 		::System::Single ZoomOffsetBlendInDuration; // 0x44
 		::System::String* ZoomOffsetBlendInCurve; // 0x48
 		::System::Single ZoomOffsetBlendOutDuration; // 0x50
+		::System::Byte _padding1[0x4];
 		::System::String* ZoomOffsetBlendOutCurve; // 0x58
 		::System::Single LeftYawLimit; // 0x60
 		::System::Single RightYawLimit; // 0x64

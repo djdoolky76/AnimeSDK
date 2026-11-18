@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_PRIVATEMESSAGEPARAMS_AWAKE_OFFSET UNITYSDK_OFFSET(0x190A6A00)
-#define MOLEMOLE_PRIVATEMESSAGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x190A6BE0)
+#define MOLEMOLE_PRIVATEMESSAGEPARAMS_AWAKE_OFFSET UNITYSDK_OFFSET(0x1810F420)
+#define MOLEMOLE_PRIVATEMESSAGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1810F600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PrivateMessageParams_TypeDefinitionIndex = 66207;
+	inline static constexpr unsigned int PrivateMessageParams_TypeDefinitionIndex = 59399;
 
 	class PrivateMessageParams : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,6 +24,7 @@ namespace MoleMole
 		::UnityEngine::AnimationCurve* ReadSpeedCurve; // 0x30
 		::Il2CppArray<::System::Single>* OtherReadSpeedRatios; // 0x38
 		::System::Single MaxVoiceLength; // 0x40
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* VoiceLengthCurve; // 0x48
 		::System::Single WaitNextReplyTime; // 0x50
 		::System::Single ReplyFinishTime; // 0x54

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int VREffects_NativeSRP_ColorBlendMethod_TypeDefinitionIndex = 6118;
+	inline static constexpr unsigned int VREffects_NativeSRP_ColorBlendMethod_TypeDefinitionIndex = 6126;
 
 	enum class VREffects_NativeSRP_ColorBlendMethod : ::System::Int32
 	{

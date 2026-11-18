@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
-#include "unitysdk/Struct_2_BD9D83395C3D28CB.h"
+#include "unitysdk/PGCKDGJCNLH.h"
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIPLAYERSKINSWITCHROLECARDWIDGETCONTROLLERCONTEXT_AVATARFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x17577BA0)
+#define MOLEMOLE_UIPLAYERSKINSWITCHROLECARDWIDGETCONTROLLERCONTEXT_AVATARFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x18FEF1D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerSkinSwitchRoleCardWidgetControllerContext_AvatarForm_TypeDefinitionIndex = 46178;
+	inline static constexpr unsigned int UIPlayerSkinSwitchRoleCardWidgetControllerContext_AvatarForm_TypeDefinitionIndex = 72924;
 
 	class UIPlayerSkinSwitchRoleCardWidgetControllerContext_AvatarForm : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Action* OnClickItemAction; // 0x28
-		::Struct_2_BD9D83395C3D28CB FormConfigData; // 0x30
-		::System::Boolean Unlocked; // 0x48
-		::System::Boolean Equipped; // 0x49
+		::PGCKDGJCNLH FormConfigData; // 0x30
+		::System::Boolean Equipped; // 0x48
+		::System::Boolean Unlocked; // 0x49
 
 		::System::Void _ctor()
 		{

@@ -21,17 +21,18 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ScriptableObject; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define MIHOYO_TOOLKIT_CGTOOLKIT_MONOCGTIMELINEREFERENCEMANAGER_GET__PLAYABLEDIRECTOR_OFFSET UNITYSDK_OFFSET(0x16C09460)
-#define MIHOYO_TOOLKIT_CGTOOLKIT_MONOCGTIMELINEREFERENCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16C09510)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_MONOCGTIMELINEREFERENCEMANAGER_GET__PLAYABLEDIRECTOR_OFFSET UNITYSDK_OFFSET(0x18B60F10)
+#define MIHOYO_TOOLKIT_CGTOOLKIT_MONOCGTIMELINEREFERENCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18B60FC0)
 
 namespace MiHoYo::ToolKit::CGToolKit
 {
-	inline static constexpr unsigned int MonoCGTimelineReferenceManager_TypeDefinitionIndex = 57542;
+	inline static constexpr unsigned int MonoCGTimelineReferenceManager_TypeDefinitionIndex = 69257;
 
 	class MonoCGTimelineReferenceManager : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
 	public:
 		::System::Boolean showDetail; // 0x58
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::MiHoYo::ToolKit::CGToolKit::TrackReference*>* timelineTrackReferences; // 0x60
 		::System::Collections::Generic::List_1<::MiHoYo::ToolKit::CGToolKit::BehaviorCompReference*>* prefabReferences; // 0x68
 		::System::Collections::Generic::List_1<::MiHoYo::ToolKit::CGToolKit::RenderCompReference*>* meshRendererReferences; // 0x70

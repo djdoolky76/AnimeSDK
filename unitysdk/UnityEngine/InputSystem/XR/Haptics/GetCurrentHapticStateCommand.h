@@ -2,15 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
+#include "unitysdk/UnityEngine/InputSystem/XR/Haptics/HapticState.h"
 
-#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_GETCURRENTHAPTICSTATECOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1EB4DBF0)
-#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_GETCURRENTHAPTICSTATECOMMAND_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0x31CCF0)
-#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_GETCURRENTHAPTICSTATECOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0xA5BDC0)
-#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_GETCURRENTHAPTICSTATECOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EB4DBC0)
+#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_GETCURRENTHAPTICSTATECOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1EEDE750)
+#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_GETCURRENTHAPTICSTATECOMMAND_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0x2E38E0)
+#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_GETCURRENTHAPTICSTATECOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x93CE50)
+#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_GETCURRENTHAPTICSTATECOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EEDE720)
 
 namespace UnityEngine::InputSystem::XR::Haptics
 {
-	inline static constexpr unsigned int GetCurrentHapticStateCommand_TypeDefinitionIndex = 32354;
+	inline static constexpr unsigned int GetCurrentHapticStateCommand_TypeDefinitionIndex = 31803;
 
 	struct alignas(4) GetCurrentHapticStateCommand
 	{
@@ -19,30 +21,26 @@ namespace UnityEngine::InputSystem::XR::Haptics
 		::System::UInt32 samplesQueued; // 0x18
 		::System::UInt32 samplesAvailable; // 0x1C
 
-		/*
 		static ::UnityEngine::InputSystem::Utilities::FourCC get_Type()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_GETCURRENTHAPTICSTATECOMMAND_GET_TYPE_OFFSET))();
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_GETCURRENTHAPTICSTATECOMMAND_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::XR::Haptics::HapticState get_currentState()
 		{
 			return ((::UnityEngine::InputSystem::XR::Haptics::HapticState(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_GETCURRENTHAPTICSTATECOMMAND_GET_CURRENTSTATE_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand Create()
 		{
 			return ((::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_GETCURRENTHAPTICSTATECOMMAND_CREATE_OFFSET))();
 		}
+		*/
 	};
 }

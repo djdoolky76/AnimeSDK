@@ -6,7 +6,7 @@ namespace NPCCrowd::AI { class PathGraphNodeRuntime; }
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphRuntime_PathFindingResult_FPathFindingResultNode_TypeDefinitionIndex = 60103;
+	inline static constexpr unsigned int PathGraphRuntime_PathFindingResult_FPathFindingResultNode_TypeDefinitionIndex = 58722;
 
 	struct alignas(8) PathGraphRuntime_PathFindingResult_FPathFindingResultNode
 	{

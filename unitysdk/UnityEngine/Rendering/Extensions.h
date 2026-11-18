@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/ForwardRendererData_ShaderConfig.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/ForwardRendererData_ShaderFeature.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/ForwardRendererData_ShaderConfig.h"
 
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
@@ -13,32 +13,32 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define UNITYENGINE_RENDERING_EXTENSIONS_EDITORDESTROY_OFFSET UNITYSDK_OFFSET(0x1E65EDB0)
-#define UNITYENGINE_RENDERING_EXTENSIONS_FINDGAMEOBJECTBYPATH_OFFSET UNITYSDK_OFFSET(0x1E65EF30)
-#define UNITYENGINE_RENDERING_EXTENSIONS_FINDINALLCHILDREN_OFFSET UNITYSDK_OFFSET(0x1E65F070)
-#define UNITYENGINE_RENDERING_EXTENSIONS_FINDROOTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1E65EFD0)
-#define UNITYENGINE_RENDERING_EXTENSIONS_GETFULLPATH_OFFSET UNITYSDK_OFFSET(0x1E65EAA0)
-#define UNITYENGINE_RENDERING_EXTENSIONS_GETSHADERCONFIG_OFFSET UNITYSDK_OFFSET(0x1E65E3C0)
-#define UNITYENGINE_RENDERING_EXTENSIONS_GETSHADERFEATURE_OFFSET UNITYSDK_OFFSET(0x1E65EA00)
-#define UNITYENGINE_RENDERING_EXTENSIONS_SETPROPERTYBLOCKEXT_1_OFFSET UNITYSDK_OFFSET(0x1E65E250)
-#define UNITYENGINE_RENDERING_EXTENSIONS_SETPROPERTYBLOCKEXT_OFFSET UNITYSDK_OFFSET(0x1E65E0D0)
-#define UNITYENGINE_RENDERING_EXTENSIONS_SUPPORTFEATURE_OFFSET UNITYSDK_OFFSET(0x1E65E950)
-#define UNITYENGINE_RENDERING_EXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E65F720)
+#define UNITYENGINE_RENDERING_EXTENSIONS_EDITORDESTROY_OFFSET UNITYSDK_OFFSET(0x1E8E27D0)
+#define UNITYENGINE_RENDERING_EXTENSIONS_FINDGAMEOBJECTBYPATH_OFFSET UNITYSDK_OFFSET(0x1E8E2950)
+#define UNITYENGINE_RENDERING_EXTENSIONS_FINDINALLCHILDREN_OFFSET UNITYSDK_OFFSET(0x1E8E2A90)
+#define UNITYENGINE_RENDERING_EXTENSIONS_FINDROOTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1E8E29F0)
+#define UNITYENGINE_RENDERING_EXTENSIONS_GETFULLPATH_OFFSET UNITYSDK_OFFSET(0x1E8E24C0)
+#define UNITYENGINE_RENDERING_EXTENSIONS_GETSHADERCONFIG_OFFSET UNITYSDK_OFFSET(0x1E8E1DE0)
+#define UNITYENGINE_RENDERING_EXTENSIONS_GETSHADERFEATURE_OFFSET UNITYSDK_OFFSET(0x1E8E2420)
+#define UNITYENGINE_RENDERING_EXTENSIONS_SETPROPERTYBLOCKEXT_1_OFFSET UNITYSDK_OFFSET(0x1E8E1C70)
+#define UNITYENGINE_RENDERING_EXTENSIONS_SETPROPERTYBLOCKEXT_OFFSET UNITYSDK_OFFSET(0x1E8E1AF0)
+#define UNITYENGINE_RENDERING_EXTENSIONS_SUPPORTFEATURE_OFFSET UNITYSDK_OFFSET(0x1E8E2370)
+#define UNITYENGINE_RENDERING_EXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8E3140)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int Extensions_TypeDefinitionIndex = 26988;
+	inline static constexpr unsigned int Extensions_TypeDefinitionIndex = 26818;
 
 	class Extensions : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_FindGameObject()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(Extensions_TypeDefinitionIndex)->GetStaticField(0x237F0);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(Extensions_TypeDefinitionIndex)->GetStaticField(0x24840);
 		}
 		static ::System::Boolean* StaticGet_optimizeFind()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Extensions_TypeDefinitionIndex)->GetStaticField(0x6F80);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Extensions_TypeDefinitionIndex)->GetStaticField(0x6FF0);
 		}
 
 		static ::System::Void _cctor()

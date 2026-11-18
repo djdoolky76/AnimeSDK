@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_2_72BDD67FEA972F1C;
+class BLCIDFMMHIL;
 namespace System { class String; }
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FAgentInteractionArgs_TypeDefinitionIndex = 42563;
+	inline static constexpr unsigned int FAgentInteractionArgs_TypeDefinitionIndex = 78864;
 
 	struct alignas(8) FAgentInteractionArgs
 	{
@@ -17,6 +17,7 @@ namespace Foundation::ViewObject::Structures
 		::System::Int32 TargetVoId; // 0x20
 		::System::Single RequiredInputHoldTime; // 0x24
 		::System::Single CurrentInputHoldTime; // 0x28
-		::Class_2_72BDD67FEA972F1C* Instance; // 0x30
+		::System::Byte _padding0[0x4];
+		::BLCIDFMMHIL* Instance; // 0x30
 	};
 }

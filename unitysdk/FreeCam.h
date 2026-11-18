@@ -3,10 +3,10 @@
 #include "unitysdk/FreeCam_RotationAxes.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define FREECAM_UPDATE_OFFSET UNITYSDK_OFFSET(0x17F2A390)
-#define FREECAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17F2A9A0)
+#define FREECAM_UPDATE_OFFSET UNITYSDK_OFFSET(0x142C2BB0)
+#define FREECAM__CTOR_OFFSET UNITYSDK_OFFSET(0x142C31C0)
 
-inline static constexpr unsigned int FreeCam_TypeDefinitionIndex = 45715;
+inline static constexpr unsigned int FreeCam_TypeDefinitionIndex = 75354;
 
 class FreeCam : public ::UnityEngine::MonoBehaviour
 {
@@ -20,6 +20,7 @@ public:
 	::System::Single maximumY; // 0x30
 	::System::Single moveSpeed; // 0x34
 	::System::Boolean lockHeight; // 0x38
+	::System::Byte _padding0[0x3];
 	::System::Single rotationY; // 0x3C
 
 	::System::Void _ctor()

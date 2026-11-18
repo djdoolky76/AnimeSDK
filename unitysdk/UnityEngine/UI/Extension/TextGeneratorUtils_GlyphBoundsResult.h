@@ -6,7 +6,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int TextGeneratorUtils_GlyphBoundsResult_TypeDefinitionIndex = 83741;
+	inline static constexpr unsigned int TextGeneratorUtils_GlyphBoundsResult_TypeDefinitionIndex = 46063;
 
 	struct alignas(4) TextGeneratorUtils_GlyphBoundsResult
 	{

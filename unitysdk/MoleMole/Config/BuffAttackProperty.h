@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigEntityAttackProperty; }
 
-#define MOLEMOLE_CONFIG_BUFFATTACKPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x12EF81E0)
+#define MOLEMOLE_CONFIG_BUFFATTACKPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1276B770)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BuffAttackProperty_TypeDefinitionIndex = 87212;
+	inline static constexpr unsigned int BuffAttackProperty_TypeDefinitionIndex = 76987;
 
 	class BuffAttackProperty : public ::System::Object
 	{

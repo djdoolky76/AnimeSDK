@@ -3,15 +3,13 @@
 #include "unitysdk/Newtonsoft/Json/Linq/JsonPath/QueryOperator.h"
 #include "unitysdk/System/Object.h"
 
-namespace Newtonsoft::Json::Linq { class JToken; }
-
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_QUERYEXPRESSION_GET_OPERATOR_OFFSET UNITYSDK_OFFSET(0x1F5523F0)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_QUERYEXPRESSION_SET_OPERATOR_OFFSET UNITYSDK_OFFSET(0x1F552400)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_QUERYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F552410)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_QUERYEXPRESSION_GET_OPERATOR_OFFSET UNITYSDK_OFFSET(0x1F9355B0)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_QUERYEXPRESSION_SET_OPERATOR_OFFSET UNITYSDK_OFFSET(0x1F9355C0)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_QUERYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9355D0)
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
-	inline static constexpr unsigned int QueryExpression_TypeDefinitionIndex = 7216;
+	inline static constexpr unsigned int QueryExpression_TypeDefinitionIndex = 7223;
 
 	class QueryExpression : public ::System::Object
 	{

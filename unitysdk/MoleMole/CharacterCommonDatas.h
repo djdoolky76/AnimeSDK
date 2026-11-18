@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CHARACTERCOMMONDATAS__CTOR_OFFSET UNITYSDK_OFFSET(0x14358C20)
+#define MOLEMOLE_CHARACTERCOMMONDATAS__CTOR_OFFSET UNITYSDK_OFFSET(0x121A1F40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterCommonDatas_TypeDefinitionIndex = 71578;
+	inline static constexpr unsigned int CharacterCommonDatas_TypeDefinitionIndex = 81364;
 
 	class CharacterCommonDatas : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -56,6 +56,7 @@ namespace MoleMole
 		::System::String* MainCityCharEffectPrefabkey01; // 0x180
 		::System::String* MainCityCharEffectPrefabkey02; // 0x188
 		::System::Int32 MainCityCharDelayFrameCounter; // 0x190
+		::System::Byte _padding0[0x4];
 		::System::String* UISwitchSkinOutlinekey; // 0x198
 		::System::String* UISwitchSkinSecondkey; // 0x1A0
 		::System::String* UISwitchSkinColorCorrectionkey; // 0x1A8

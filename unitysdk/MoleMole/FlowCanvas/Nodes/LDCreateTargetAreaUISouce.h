@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/LDDTargetAreaUIData.h"
 
 namespace MoleMole::FlowCanvas::Nodes { class LDDTargetAreaSource; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATETARGETAREAUISOUCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B831C90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATETARGETAREAUISOUCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B831EE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATETARGETAREAUISOUCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x180D8150)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATETARGETAREAUISOUCE__CTOR_OFFSET UNITYSDK_OFFSET(0x180D83A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCreateTargetAreaUISouce_TypeDefinitionIndex = 69629;
+	inline static constexpr unsigned int LDCreateTargetAreaUISouce_TypeDefinitionIndex = 44692;
 
-	class LDCreateTargetAreaUISouce : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::MoleMole::FlowCanvas::Nodes::LDDTargetAreaSource*, ::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LDDTargetAreaUIData>*>
+	class LDCreateTargetAreaUISouce
 	{
 	public:
 		::System::Void _ctor()

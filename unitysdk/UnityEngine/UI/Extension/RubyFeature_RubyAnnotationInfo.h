@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int RubyFeature_RubyAnnotationInfo_TypeDefinitionIndex = 74238;
+	inline static constexpr unsigned int RubyFeature_RubyAnnotationInfo_TypeDefinitionIndex = 74767;
 
 	struct alignas(8) RubyFeature_RubyAnnotationInfo
 	{

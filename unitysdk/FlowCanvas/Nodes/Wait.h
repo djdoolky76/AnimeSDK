@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/LatentActionNode_1.h"
 
 namespace System::Collections { class IEnumerator; }
 
-#define FLOWCANVAS_NODES_WAIT_GET_NORMALIZED_OFFSET UNITYSDK_OFFSET(0x1EBB5F30)
-#define FLOWCANVAS_NODES_WAIT_GET_TIMELEFT_OFFSET UNITYSDK_OFFSET(0x1EBB5F10)
-#define FLOWCANVAS_NODES_WAIT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EBB5F50)
-#define FLOWCANVAS_NODES_WAIT_SET_NORMALIZED_OFFSET UNITYSDK_OFFSET(0x1EBB5F40)
-#define FLOWCANVAS_NODES_WAIT_SET_TIMELEFT_OFFSET UNITYSDK_OFFSET(0x1EBB5F20)
-#define FLOWCANVAS_NODES_WAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB5FB0)
+#define FLOWCANVAS_NODES_WAIT_GET_NORMALIZED_OFFSET UNITYSDK_OFFSET(0x1EF887C0)
+#define FLOWCANVAS_NODES_WAIT_GET_TIMELEFT_OFFSET UNITYSDK_OFFSET(0x1EF887A0)
+#define FLOWCANVAS_NODES_WAIT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF887E0)
+#define FLOWCANVAS_NODES_WAIT_SET_NORMALIZED_OFFSET UNITYSDK_OFFSET(0x1EF887D0)
+#define FLOWCANVAS_NODES_WAIT_SET_TIMELEFT_OFFSET UNITYSDK_OFFSET(0x1EF887B0)
+#define FLOWCANVAS_NODES_WAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF88840)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Wait_TypeDefinitionIndex = 30444;
+	inline static constexpr unsigned int Wait_TypeDefinitionIndex = 30319;
 
-	class Wait : public ::FlowCanvas::Nodes::LatentActionNode_1<::System::Single>
+	class Wait
 	{
 	public:
-		::System::Single _normalized_k__BackingField; // 0x60
-		::System::Single _timeLeft_k__BackingField; // 0x64
+		::System::Single _timeLeft_k__BackingField; // 0x60
+		::System::Single _normalized_k__BackingField; // 0x64
 
 		::System::Void _ctor()
 		{

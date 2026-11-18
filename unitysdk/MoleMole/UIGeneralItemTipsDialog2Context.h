@@ -1,58 +1,59 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_A734210DD9FF658C.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIGeneralItemTipsDialog2Context_DialogType.h"
+#include "unitysdk/PKLFCIEFPNA.h"
 #include "unitysdk/Share/EBattleRewardType.h"
 #include "unitysdk/System/Nullable_1.h"
 
-class Class_0_16E4307DCC419505_10;
-class Class_1_0D6706375CDAAE8C;
-class Class_1_499EDFA3518A0E64;
+class EFCCPGCGLIE;
+class GLEINMCDBFC;
+class HGAJKHIMKJP;
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT_GET_USECUSTOMITEMPACKAGETYPE_OFFSET UNITYSDK_OFFSET(0x17BCED90)
-#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17BCEE60)
-#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17BCEEF0)
-#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_3_OFFSET UNITYSDK_OFFSET(0x17BCEF70)
-#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_4_OFFSET UNITYSDK_OFFSET(0x17BCEFF0)
-#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_5_OFFSET UNITYSDK_OFFSET(0x17BCF070)
-#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17BCEDE0)
+#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT_GET_USECUSTOMITEMPACKAGETYPE_OFFSET UNITYSDK_OFFSET(0x17599E30)
+#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17599E80)
+#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17599F20)
+#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_3_OFFSET UNITYSDK_OFFSET(0x17599FA0)
+#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1759A030)
+#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_5_OFFSET UNITYSDK_OFFSET(0x1759A0C0)
+#define MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175741D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralItemTipsDialog2Context_TypeDefinitionIndex = 65184;
+	inline static constexpr unsigned int UIGeneralItemTipsDialog2Context_TypeDefinitionIndex = 72349;
 
 	class UIGeneralItemTipsDialog2Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action* equipStateCtrlChangeAction; // 0x28
-		::Class_0_16E4307DCC419505_10* photoItem; // 0x30
-		::Class_1_499EDFA3518A0E64* cafeItem; // 0x38
-		::System::Collections::Generic::List_1<::System::Int32>* dungeonTagIds; // 0x40
-		::Class_1_0D6706375CDAAE8C* itemdata; // 0x48
+		::GLEINMCDBFC* photoItem; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* dungeonTagIds; // 0x30
+		::EFCCPGCGLIE* cafeItem; // 0x38
+		::System::Action* equipStateCtrlChangeAction; // 0x40
+		::HGAJKHIMKJP* itemdata; // 0x48
 		::System::Action_1<::System::Boolean>* OnAfterJump; // 0x50
-		::System::Int64 cafeBeginTime; // 0x58
-		::MoleMole::UIGeneralItemTipsDialog2Context_DialogType type; // 0x60
-		::System::Int32 spiceId; // 0x64
-		::System::Int32 NeedCount; // 0x68
-		::System::Nullable_1<::System::Int32> overrideCount; // 0x6C
-		::Enum_3_A734210DD9FF658C itemPackageType; // 0x74
-		::System::Boolean disableJump; // 0x78
-		::System::Boolean checkSuibianProductState; // 0x79
-		::System::Nullable_1<::Share::EBattleRewardType> rewardType; // 0x7A
-		::System::Int32 ramenId; // 0x80
+		::System::Int32 NeedCount; // 0x58
+		::System::Byte _padding0[0x4];
+		::System::Int64 cafeBeginTime; // 0x60
+		::System::Int32 ramenId; // 0x68
+		::MoleMole::UIGeneralItemTipsDialog2Context_DialogType type; // 0x6C
+		::System::Int32 spiceId; // 0x70
+		::System::Nullable_1<::System::Int32> overrideCount; // 0x74
+		::PKLFCIEFPNA itemPackageType; // 0x7C
+		::System::Boolean checkSuibianProductState; // 0x80
+		::System::Boolean disableJump; // 0x81
+		::System::Nullable_1<::Share::EBattleRewardType> rewardType; // 0x82
 
-		::System::Void _ctor(::Class_1_0D6706375CDAAE8C* itemdata, ::System::Boolean disableJump)
+		::System::Void _ctor(::HGAJKHIMKJP* itemdata, ::System::Boolean disableJump)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_0D6706375CDAAE8C*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_OFFSET))(this, itemdata, disableJump);
+			return ((::System::Void(*)(::PVOID, ::HGAJKHIMKJP*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_OFFSET))(this, itemdata, disableJump);
 		}
 
-		::System::Void _ctor_1(::Class_1_0D6706375CDAAE8C* itemdata, ::Share::EBattleRewardType rewardType, ::System::Boolean disableJump)
+		::System::Void _ctor_1(::HGAJKHIMKJP* itemdata, ::Share::EBattleRewardType rewardType, ::System::Boolean disableJump)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_0D6706375CDAAE8C*, ::Share::EBattleRewardType, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_1_OFFSET))(this, itemdata, rewardType, disableJump);
+			return ((::System::Void(*)(::PVOID, ::HGAJKHIMKJP*, ::Share::EBattleRewardType, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_1_OFFSET))(this, itemdata, rewardType, disableJump);
 		}
 
 		::System::Void _ctor_2(::System::Collections::Generic::List_1<::System::Int32>* buffs)
@@ -65,14 +66,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_3_OFFSET))(this, ramenID, spiceID);
 		}
 
-		::System::Void _ctor_4(::Class_1_499EDFA3518A0E64* cafeItem)
+		::System::Void _ctor_4(::EFCCPGCGLIE* cafeItem)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_499EDFA3518A0E64*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_4_OFFSET))(this, cafeItem);
+			return ((::System::Void(*)(::PVOID, ::EFCCPGCGLIE*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_4_OFFSET))(this, cafeItem);
 		}
 
-		::System::Void _ctor_5(::Class_0_16E4307DCC419505_10* photoItem)
+		::System::Void _ctor_5(::GLEINMCDBFC* photoItem)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_10*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_5_OFFSET))(this, photoItem);
+			return ((::System::Void(*)(::PVOID, ::GLEINMCDBFC*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALITEMTIPSDIALOG2CONTEXT__CTOR_5_OFFSET))(this, photoItem);
 		}
 
 		::System::Boolean get_UseCustomItemPackageType()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_HIDENETWORKBEHAVIOURFIELDSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F770610)
+#define SIRENIX_ODININSPECTOR_HIDENETWORKBEHAVIOURFIELDSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB80830)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int HideNetworkBehaviourFieldsAttribute_TypeDefinitionIndex = 7318;
+	inline static constexpr unsigned int HideNetworkBehaviourFieldsAttribute_TypeDefinitionIndex = 7325;
 
 	class HideNetworkBehaviourFieldsAttribute : public ::System::Attribute
 	{

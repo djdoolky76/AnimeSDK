@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int FDFPHJFCHCC_TypeDefinitionIndex = 23041;
+
+enum class FDFPHJFCHCC : ::System::Int32
+{
+	HOLLOW_BATTLE_EVENT_TYPE_LEVEL_END = 4,
+	HOLLOW_BATTLE_EVENT_TYPE_ELITE = 2,
+	HOLLOW_BATTLE_EVENT_TYPE_NORMAL = 1,
+	HOLLOW_BATTLE_EVENT_TYPE_BOSS = 3,
+	HOLLOW_BATTLE_EVENT_TYPE_DEFAULT = 0,
+	HOLLOW_BATTLE_EVENT_TYPE_LEVEL_FIN = 5,
+};

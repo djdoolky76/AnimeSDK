@@ -4,35 +4,35 @@
 
 namespace UnityEngine::UI { class LayoutElement; }
 
-#define MOLEMOLE_MONOUILAYOUTELEMENT_GET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x199779E0)
-#define MOLEMOLE_MONOUILAYOUTELEMENT_MARKVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x19977A00)
-#define MOLEMOLE_MONOUILAYOUTELEMENT_REINITFROMLAYOUTELEMENT_OFFSET UNITYSDK_OFFSET(0x199776D0)
-#define MOLEMOLE_MONOUILAYOUTELEMENT_SET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x199779F0)
-#define MOLEMOLE_MONOUILAYOUTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x199776C0)
+#define MOLEMOLE_MONOUILAYOUTELEMENT_GET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1A936460)
+#define MOLEMOLE_MONOUILAYOUTELEMENT_MARKVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1A936480)
+#define MOLEMOLE_MONOUILAYOUTELEMENT_REINITFROMLAYOUTELEMENT_OFFSET UNITYSDK_OFFSET(0x1A936150)
+#define MOLEMOLE_MONOUILAYOUTELEMENT_SET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1A936470)
+#define MOLEMOLE_MONOUILAYOUTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A936140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUILayoutElement_TypeDefinitionIndex = 70440;
+	inline static constexpr unsigned int MonoUILayoutElement_TypeDefinitionIndex = 77291;
 
 	class MonoUILayoutElement : public ::System::Object
 	{
 	public:
 		::UnityEngine::UI::LayoutElement* layoutElement; // 0x10
 		::System::Int32 layoutPriority; // 0x18
-		::System::Single minWidth; // 0x1C
-		::System::Boolean ignoreLayout; // 0x20
-		::System::Boolean isFlexibleWidth; // 0x21
-		::System::Boolean _valueChanged_k__BackingField; // 0x22
-		::System::Boolean isPreferredWidth; // 0x23
+		::System::Single flexibleHeight; // 0x1C
+		::System::Single minHeight; // 0x20
 		::System::Single flexibleWidth; // 0x24
 		::System::Single preferredHeight; // 0x28
-		::System::Single flexibleHeight; // 0x2C
-		::System::Boolean isPreFerredHeight; // 0x30
-		::System::Boolean isMinWidth; // 0x31
-		::System::Boolean isFlexibleHeight; // 0x32
-		::System::Boolean isMinHeight; // 0x33
-		::System::Single minHeight; // 0x34
-		::System::Single preferredWidth; // 0x38
+		::System::Boolean isPreFerredHeight; // 0x2C
+		::System::Boolean isMinHeight; // 0x2D
+		::System::Boolean isFlexibleHeight; // 0x2E
+		::System::Boolean isPreferredWidth; // 0x2F
+		::System::Single minWidth; // 0x30
+		::System::Single preferredWidth; // 0x34
+		::System::Boolean isFlexibleWidth; // 0x38
+		::System::Boolean _valueChanged_k__BackingField; // 0x39
+		::System::Boolean ignoreLayout; // 0x3A
+		::System::Boolean isMinWidth; // 0x3B
 
 		::System::Void _ctor(::UnityEngine::UI::LayoutElement* layoutElement)
 		{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
@@ -9,23 +9,23 @@ namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETFOLLOWERGUIDEPRIORITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x144CA6E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETFOLLOWERGUIDEPRIORITY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x144CA5A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETFOLLOWERGUIDEPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x144CA900)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETFOLLOWERGUIDEPRIORITY__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x144CA940)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETFOLLOWERGUIDEPRIORITY__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x144CA950)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETFOLLOWERGUIDEPRIORITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x104130C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETFOLLOWERGUIDEPRIORITY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10412F80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETFOLLOWERGUIDEPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x104132E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETFOLLOWERGUIDEPRIORITY__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x10413320)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETFOLLOWERGUIDEPRIORITY__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x10413330)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetFollowerGuidePriority_TypeDefinitionIndex = 67559;
+	inline static constexpr unsigned int LDSetFollowerGuidePriority_TypeDefinitionIndex = 67525;
 
 	class LDSetFollowerGuidePriority : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* output; // 0xA8
-		::FlowCanvas::ValueOutput_1<::System::String*>* targetValueOutput; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::String*>*>* paramInput; // 0xB8
-		::System::String* currTarget; // 0xC0
+		::System::String* currTarget; // 0xA8
+		::FlowCanvas::FlowOutput* output; // 0xB0
+		::FlowCanvas::ValueOutput_1<::System::String*>* targetValueOutput; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::String*>*>* paramInput; // 0xC0
 
 		::System::Void _ctor()
 		{

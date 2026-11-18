@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/PipeSplineDeformation/CubicBezierSegment.h"
 #include "unitysdk/PipeSplineDeformation/CurveSample.h"
 #include "unitysdk/PipeSplineDeformation/PipeInstanceData.h"
 #include "unitysdk/PipeSplineDeformation/PipeSplineGpuBuildResult.h"
 #include "unitysdk/PipeSplineDeformation/PipeSplineGpuBuildSettings.h"
-#include "unitysdk/PipeSplineDeformation/PipeSplineGpuConverter_DenseSample.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_ADDPIPEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C4CEED0)
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILDDENSESAMPLES_OFFSET UNITYSDK_OFFSET(0x1C4CC810)
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILDPARALLELTRANSPORTFRAMES_OFFSET UNITYSDK_OFFSET(0x1C4CD900)
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILDPIPEINSTANCES_OFFSET UNITYSDK_OFFSET(0x1C4CE3C0)
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILDRENDERBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C4CE790)
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILD_OFFSET UNITYSDK_OFFSET(0x1C4CC270)
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_CALCULATESAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x1C4CD010)
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_ESTIMATECONTROLPOLYGONLENGTH_OFFSET UNITYSDK_OFFSET(0x1C4CECB0)
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_REBUILDTANGENTSFROMARCSAMPLES_OFFSET UNITYSDK_OFFSET(0x1C4CD5F0)
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_RESAMPLEBYDISTANCE_OFFSET UNITYSDK_OFFSET(0x1C4CD0B0)
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_SAFENORMALIZE_OFFSET UNITYSDK_OFFSET(0x1C4CEDB0)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_ADDPIPEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C977C50)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILDDENSESAMPLES_OFFSET UNITYSDK_OFFSET(0x1C975590)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILDPARALLELTRANSPORTFRAMES_OFFSET UNITYSDK_OFFSET(0x1C976680)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILDPIPEINSTANCES_OFFSET UNITYSDK_OFFSET(0x1C977140)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILDRENDERBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C977510)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILD_OFFSET UNITYSDK_OFFSET(0x1C974FF0)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_CALCULATESAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x1C975D90)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_ESTIMATECONTROLPOLYGONLENGTH_OFFSET UNITYSDK_OFFSET(0x1C977A30)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_REBUILDTANGENTSFROMARCSAMPLES_OFFSET UNITYSDK_OFFSET(0x1C976370)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_RESAMPLEBYDISTANCE_OFFSET UNITYSDK_OFFSET(0x1C975E30)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_SAFENORMALIZE_OFFSET UNITYSDK_OFFSET(0x1C977B30)
 
 namespace PipeSplineDeformation
 {
-	inline static constexpr unsigned int PipeSplineGpuConverter_TypeDefinitionIndex = 27400;
+	inline static constexpr unsigned int PipeSplineGpuConverter_TypeDefinitionIndex = 26498;
 
 	class PipeSplineGpuConverter : public ::System::Object
 	{
@@ -39,14 +38,14 @@ namespace PipeSplineDeformation
 			return ((::PipeSplineDeformation::PipeSplineGpuBuildResult(*)(::System::Collections::Generic::IReadOnlyList_1<::PipeSplineDeformation::CubicBezierSegment>*, ::PipeSplineDeformation::PipeSplineGpuBuildSettings, ::System::Collections::Generic::List_1<::PipeSplineDeformation::CurveSample>*, ::System::Collections::Generic::List_1<::PipeSplineDeformation::PipeInstanceData>*))((::PBYTE)hIl2Cpp + PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILD_OFFSET))(segments, settings, curveSamples, pipeInstances);
 		}
 
-		static ::System::Collections::Generic::List_1<::PipeSplineDeformation::PipeSplineGpuConverter_DenseSample>* BuildDenseSamples(::System::Collections::Generic::IReadOnlyList_1<::PipeSplineDeformation::CubicBezierSegment>* segments, ::System::Single requestedSpacing, ::System::Single& totalLength)
+		static ::System::Collections::Generic::List_1<::System::Object*>* BuildDenseSamples(::System::Collections::Generic::IReadOnlyList_1<::PipeSplineDeformation::CubicBezierSegment>* segments, ::System::Single requestedSpacing, ::System::Single& totalLength)
 		{
-			return ((::System::Collections::Generic::List_1<::PipeSplineDeformation::PipeSplineGpuConverter_DenseSample>*(*)(::System::Collections::Generic::IReadOnlyList_1<::PipeSplineDeformation::CubicBezierSegment>*, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILDDENSESAMPLES_OFFSET))(segments, requestedSpacing, totalLength);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::System::Collections::Generic::IReadOnlyList_1<::PipeSplineDeformation::CubicBezierSegment>*, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_BUILDDENSESAMPLES_OFFSET))(segments, requestedSpacing, totalLength);
 		}
 
-		static ::System::Void ResampleByDistance(::System::Collections::Generic::IReadOnlyList_1<::PipeSplineDeformation::PipeSplineGpuConverter_DenseSample>* denseSamples, ::System::Single totalLength, ::System::Single spacing, ::System::Int32 desiredCount, ::System::Collections::Generic::List_1<::PipeSplineDeformation::CurveSample>* curveSamples)
+		static ::System::Void ResampleByDistance(::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* denseSamples, ::System::Single totalLength, ::System::Single spacing, ::System::Int32 desiredCount, ::System::Collections::Generic::List_1<::PipeSplineDeformation::CurveSample>* curveSamples)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IReadOnlyList_1<::PipeSplineDeformation::PipeSplineGpuConverter_DenseSample>*, ::System::Single, ::System::Single, ::System::Int32, ::System::Collections::Generic::List_1<::PipeSplineDeformation::CurveSample>*))((::PBYTE)hIl2Cpp + PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_RESAMPLEBYDISTANCE_OFFSET))(denseSamples, totalLength, spacing, desiredCount, curveSamples);
+			return ((::System::Void(*)(::System::Collections::Generic::IReadOnlyList_1<::System::Object*>*, ::System::Single, ::System::Single, ::System::Int32, ::System::Collections::Generic::List_1<::PipeSplineDeformation::CurveSample>*))((::PBYTE)hIl2Cpp + PIPESPLINEDEFORMATION_PIPESPLINEGPUCONVERTER_RESAMPLEBYDISTANCE_OFFSET))(denseSamples, totalLength, spacing, desiredCount, curveSamples);
 		}
 
 		static ::System::Void RebuildTangentsFromArcSamples(::System::Collections::Generic::List_1<::PipeSplineDeformation::CurveSample>* samples)

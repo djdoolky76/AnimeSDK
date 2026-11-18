@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SSAOQuality_TypeDefinitionIndex = 5883;
+	inline static constexpr unsigned int SSAOQuality_TypeDefinitionIndex = 5889;
 
 	enum class SSAOQuality : ::System::Int32
 	{

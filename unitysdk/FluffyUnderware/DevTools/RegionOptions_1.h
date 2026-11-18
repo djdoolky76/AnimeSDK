@@ -7,10 +7,10 @@ namespace System { class String; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int RegionOptions_1_TypeDefinitionIndex = 28977;
+	inline static constexpr unsigned int RegionOptions_1_TypeDefinitionIndex = 28416;
 
 	template <typename T>
-	struct RegionOptions_1
+	struct alignas(8) RegionOptions_1
 	{
 		::System::String* LabelFrom; // 0x0
 		::System::String* LabelTo; // 0x0

@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace MoleMole::Config { class BoolUISpecialNum; }
 namespace MoleMole::Config { class StringUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGSTOPTIMELINECOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B7FA170)
-#define MOLEMOLE_CONFIG_CONFIGSTOPTIMELINECOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FA1E0)
+#define MOLEMOLE_CONFIG_CONFIGSTOPTIMELINECOMMONNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x192AD670)
+#define MOLEMOLE_CONFIG_CONFIGSTOPTIMELINECOMMONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x192AD6E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigStopTimelineCommonNode_TypeDefinitionIndex = 80005;
+	inline static constexpr unsigned int ConfigStopTimelineCommonNode_TypeDefinitionIndex = 81830;
 
 	class ConfigStopTimelineCommonNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::MoleMole::Config::StringUISpecialNum* TimelineKey; // 0x18
-		::MoleMole::Config::BoolUISpecialNum* InvokeFinishCallback; // 0x20
+		::MoleMole::Config::BoolUISpecialNum* InvokeFinishCallback; // 0x18
+		::MoleMole::Config::StringUISpecialNum* TimelineKey; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSTOPTIMELINECOMMONNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSTOPTIMELINECOMMONNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSTOPTIMELINECOMMONNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

@@ -3,23 +3,22 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Linq { template <typename T> class IdentityFunction_1___c; }
 
 namespace System::Linq
 {
 	inline static constexpr unsigned int IdentityFunction_1___c_TypeDefinitionIndex = 4372;
 
-	template <typename TElement>
+	template <typename T>
 	class IdentityFunction_1___c : public ::System::Object
 	{
 	public:
-		static ::System::Linq::IdentityFunction_1___c<TElement>** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Linq::IdentityFunction_1___c<TElement>**)Il2CppClass::FromTypeDefinitionIndex(IdentityFunction_1___c_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(IdentityFunction_1___c_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		static ::System::Func_2<TElement, TElement>** StaticGet___9__1_0()
+		static ::System::Func_2<T, T>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<TElement, TElement>**)Il2CppClass::FromTypeDefinitionIndex(IdentityFunction_1___c_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Func_2<T, T>**)Il2CppClass::FromTypeDefinitionIndex(IdentityFunction_1___c_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 	};
 }

@@ -5,20 +5,20 @@
 
 namespace System::Net { class IPEndPoint; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMTCPCONNECTIONINFORMATION_GET_LOCALENDPOINT_OFFSET UNITYSDK_OFFSET(0x1DAC8ED0)
-#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMTCPCONNECTIONINFORMATION_GET_REMOTEENDPOINT_OFFSET UNITYSDK_OFFSET(0x1DAC8EE0)
-#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMTCPCONNECTIONINFORMATION_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1DAC8EC0)
-#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMTCPCONNECTIONINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC8EB0)
+#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMTCPCONNECTIONINFORMATION_GET_LOCALENDPOINT_OFFSET UNITYSDK_OFFSET(0x1DF09BF0)
+#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMTCPCONNECTIONINFORMATION_GET_REMOTEENDPOINT_OFFSET UNITYSDK_OFFSET(0x1DF09C00)
+#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMTCPCONNECTIONINFORMATION_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1DF09BE0)
+#define SYSTEM_NET_NETWORKINFORMATION_SYSTEMTCPCONNECTIONINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF09BD0)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int SystemTcpConnectionInformation_TypeDefinitionIndex = 3743;
+	inline static constexpr unsigned int SystemTcpConnectionInformation_TypeDefinitionIndex = 3742;
 
 	class SystemTcpConnectionInformation : public ::System::Net::NetworkInformation::TcpConnectionInformation
 	{
 	public:
-		::System::Net::IPEndPoint* localEndPoint; // 0x10
-		::System::Net::IPEndPoint* remoteEndPoint; // 0x18
+		::System::Net::IPEndPoint* remoteEndPoint; // 0x10
+		::System::Net::IPEndPoint* localEndPoint; // 0x18
 		::System::Net::NetworkInformation::TcpState state; // 0x20
 
 		::System::Void _ctor(::System::Net::IPEndPoint* local, ::System::Net::IPEndPoint* remote, ::System::Net::NetworkInformation::TcpState state)

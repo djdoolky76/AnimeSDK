@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1383C300)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1383CAF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1383CB30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT__STARTMUTE_OFFSET UNITYSDK_OFFSET(0x1383C430)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x139E2840)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x139E3030)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x139E3070)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_FORBIDINTERACT__STARTMUTE_OFFSET UNITYSDK_OFFSET(0x139E2970)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ForbidInteract_TypeDefinitionIndex = 78305;
+	inline static constexpr unsigned int LD_ForbidInteract_TypeDefinitionIndex = 45230;
 
 	class LD_ForbidInteract : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isForbid; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* ownerEntity; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::String*>* interactTag; // 0xB8
-		::FlowCanvas::FlowOutput* output; // 0xC0
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* ownerEntity; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isForbid; // 0xB0
+		::FlowCanvas::FlowOutput* output; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::String*>* interactTag; // 0xC0
 
 		::System::Void _ctor()
 		{

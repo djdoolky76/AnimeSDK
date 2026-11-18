@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigLockTargetMiscInfo; }
 
-#define MOLEMOLE_CONFIG_CONFIGLOCKTARGETMISC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CE500)
+#define MOLEMOLE_CONFIG_CONFIGLOCKTARGETMISC__CTOR_OFFSET UNITYSDK_OFFSET(0x12775390)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLockTargetMisc_TypeDefinitionIndex = 76205;
+	inline static constexpr unsigned int ConfigLockTargetMisc_TypeDefinitionIndex = 58854;
 
 	class ConfigLockTargetMisc : public ::Foundation::MihoyoSerializedScriptableObject
 	{

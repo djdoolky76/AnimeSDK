@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DG_TWEENING_PLUGINS_CORE_PATHCORE_CONTROLPOINT_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1F9CE590)
-#define DG_TWEENING_PLUGINS_CORE_PATHCORE_CONTROLPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x3975A0)
+#define DG_TWEENING_PLUGINS_CORE_PATHCORE_CONTROLPOINT_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1FDDCA50)
+#define DG_TWEENING_PLUGINS_CORE_PATHCORE_CONTROLPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x3CAAD0)
 
 namespace DG::Tweening::Plugins::Core::PathCore
 {
-	inline static constexpr unsigned int ControlPoint_TypeDefinitionIndex = 28575;
+	inline static constexpr unsigned int ControlPoint_TypeDefinitionIndex = 28014;
 
 	struct alignas(4) ControlPoint
 	{
@@ -20,9 +20,11 @@ namespace DG::Tweening::Plugins::Core::PathCore
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + DG_TWEENING_PLUGINS_CORE_PATHCORE_CONTROLPOINT__CTOR_OFFSET))(this, a, b);
 		}
 
+		/*
 		static ::DG::Tweening::Plugins::Core::PathCore::ControlPoint op_Addition(::DG::Tweening::Plugins::Core::PathCore::ControlPoint cp, ::UnityEngine::Vector3 v)
 		{
 			return ((::DG::Tweening::Plugins::Core::PathCore::ControlPoint(*)(::DG::Tweening::Plugins::Core::PathCore::ControlPoint, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + DG_TWEENING_PLUGINS_CORE_PATHCORE_CONTROLPOINT_OP_ADDITION_OFFSET))(cp, v);
 		}
+		*/
 	};
 }

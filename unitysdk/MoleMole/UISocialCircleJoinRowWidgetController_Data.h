@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_980CF00C390EFF81.h"
+#include "unitysdk/EFNDAGBIIPI.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_2B9D1521AEB6DD72_3;
+class NHCBIIMKLBK;
 
-#define MOLEMOLE_UISOCIALCIRCLEJOINROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x160DF310)
+#define MOLEMOLE_UISOCIALCIRCLEJOINROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x167C86B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleJoinRowWidgetController_Data_TypeDefinitionIndex = 81026;
+	inline static constexpr unsigned int UISocialCircleJoinRowWidgetController_Data_TypeDefinitionIndex = 59989;
 
 	class UISocialCircleJoinRowWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_2_2B9D1521AEB6DD72_3* SocialCircleData; // 0x10
-		::Enum_3_980CF00C390EFF81 JoinRowMode; // 0x18
+		::NHCBIIMKLBK* SocialCircleData; // 0x10
+		::EFNDAGBIIPI JoinRowMode; // 0x18
 
 		::System::Void _ctor()
 		{

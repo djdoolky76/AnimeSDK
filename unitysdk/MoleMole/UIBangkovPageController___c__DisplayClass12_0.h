@@ -5,19 +5,19 @@
 namespace MoleMole { class UIBangkovPageController; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIBANGKOVPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1802B640)
-#define MOLEMOLE_UIBANGKOVPAGECONTROLLER___C__DISPLAYCLASS12_0__ONSELECTBANGBOOCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x1802B650)
+#define MOLEMOLE_UIBANGKOVPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1918FD00)
+#define MOLEMOLE_UIBANGKOVPAGECONTROLLER___C__DISPLAYCLASS12_0__ONSELECTBANGBOOCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x1918FD10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovPageController___c__DisplayClass12_0_TypeDefinitionIndex = 49127;
+	inline static constexpr unsigned int UIBangkovPageController___c__DisplayClass12_0_TypeDefinitionIndex = 88305;
 
 	class UIBangkovPageController___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIBangkovPageController* __4__this; // 0x10
-		::System::Int32 index; // 0x18
-		::System::Int32 newBangbooId; // 0x1C
+		::System::Int32 newBangbooId; // 0x18
+		::System::Int32 index; // 0x1C
 
 		::System::Void _ctor()
 		{

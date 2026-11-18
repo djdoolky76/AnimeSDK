@@ -3,7 +3,7 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalgameSubFilterType_TypeDefinitionIndex = 85172;
+	inline static constexpr unsigned int GalgameSubFilterType_TypeDefinitionIndex = 39102;
 
 	enum class GalgameSubFilterType : ::System::Int32
 	{

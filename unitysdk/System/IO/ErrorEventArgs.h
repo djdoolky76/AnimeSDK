@@ -4,12 +4,12 @@
 
 namespace System { class Exception; }
 
-#define SYSTEM_IO_ERROREVENTARGS_GETEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1CC12430)
-#define SYSTEM_IO_ERROREVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC123D0)
+#define SYSTEM_IO_ERROREVENTARGS_GETEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1D107390)
+#define SYSTEM_IO_ERROREVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D107330)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int ErrorEventArgs_TypeDefinitionIndex = 3219;
+	inline static constexpr unsigned int ErrorEventArgs_TypeDefinitionIndex = 3218;
 
 	class ErrorEventArgs : public ::System::EventArgs
 	{

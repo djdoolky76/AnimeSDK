@@ -7,12 +7,12 @@ namespace MoleMole::DataStructures::Common { class OptionalColor; }
 namespace MoleMole::DataStructures::Common { class OptionalFloat; }
 namespace UnityEngine::Rendering::Universal::Internal { class OutlineObjectRenderer; }
 
-#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_GLOBAL_METHOD_1_87930785EE478EBD_OFFSET UNITYSDK_OFFSET(0x1B934D50)
-#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_GLOBAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B934C20)
+#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_GLOBAL_JLIMOLHLFAK_OFFSET UNITYSDK_OFFSET(0x103E3830)
+#define MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_GLOBAL__CTOR_OFFSET UNITYSDK_OFFSET(0x103E3700)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigOutlineObjectRenderer_Global_TypeDefinitionIndex = 66647;
+	inline static constexpr unsigned int ConfigOutlineObjectRenderer_Global_TypeDefinitionIndex = 49648;
 
 	class ConfigOutlineObjectRenderer_Global : public ::System::Object
 	{
@@ -29,9 +29,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_GLOBAL__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_87930785EE478EBD(::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer* a1)
+		::System::Void JLIMOLHLFAK(::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer* GAEIPOICOLD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_GLOBAL_METHOD_1_87930785EE478EBD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGOUTLINEOBJECTRENDERER_GLOBAL_JLIMOLHLFAK_OFFSET))(this, GAEIPOICOLD);
 		}
 	};
 }

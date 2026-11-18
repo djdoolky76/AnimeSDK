@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREADHOLLOWPARAM_INVOKE_OFFSET UNITYSDK_OFFSET(0x118B99E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREADHOLLOWPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x118B9B30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREADHOLLOWPARAM_INVOKE_OFFSET UNITYSDK_OFFSET(0x16238B60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREADHOLLOWPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x16238CB0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDReadHollowParam_TypeDefinitionIndex = 86125;
+	inline static constexpr unsigned int LDReadHollowParam_TypeDefinitionIndex = 53496;
 
-	class LDReadHollowParam : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Object*, ::System::String*>
+	class LDReadHollowParam
 	{
 	public:
 		::System::Void _ctor()

@@ -13,30 +13,30 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class TextAsset; }
 namespace UnityEngine { class Texture2D; }
 
-#define SPINE_UNITY_SPINEATLASASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C19DF30)
-#define SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_1_OFFSET UNITYSDK_OFFSET(0x1C19D6F0)
-#define SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_2_OFFSET UNITYSDK_OFFSET(0x1C19DD70)
-#define SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C19D0D0)
-#define SPINE_UNITY_SPINEATLASASSET_GENERATEMESH_OFFSET UNITYSDK_OFFSET(0x1C19DF40)
-#define SPINE_UNITY_SPINEATLASASSET_GETATLAS_OFFSET UNITYSDK_OFFSET(0x1C19D190)
-#define SPINE_UNITY_SPINEATLASASSET_GET_ISLOADED_OFFSET UNITYSDK_OFFSET(0x1C19D060)
-#define SPINE_UNITY_SPINEATLASASSET_GET_MATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x1C19D080)
-#define SPINE_UNITY_SPINEATLASASSET_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x1C19D070)
-#define SPINE_UNITY_SPINEATLASASSET_GET_PRIMARYMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C19D090)
-#define SPINE_UNITY_SPINEATLASASSET_RESET_OFFSET UNITYSDK_OFFSET(0x1C19D180)
-#define SPINE_UNITY_SPINEATLASASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C19E660)
+#define SPINE_UNITY_SPINEATLASASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1FB283F0)
+#define SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_1_OFFSET UNITYSDK_OFFSET(0x1FB27B10)
+#define SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_2_OFFSET UNITYSDK_OFFSET(0x1FB28210)
+#define SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1FB274F0)
+#define SPINE_UNITY_SPINEATLASASSET_GENERATEMESH_OFFSET UNITYSDK_OFFSET(0x1FB28400)
+#define SPINE_UNITY_SPINEATLASASSET_GETATLAS_OFFSET UNITYSDK_OFFSET(0x1FB275B0)
+#define SPINE_UNITY_SPINEATLASASSET_GET_ISLOADED_OFFSET UNITYSDK_OFFSET(0x1FB27480)
+#define SPINE_UNITY_SPINEATLASASSET_GET_MATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x1FB274A0)
+#define SPINE_UNITY_SPINEATLASASSET_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x1FB27490)
+#define SPINE_UNITY_SPINEATLASASSET_GET_PRIMARYMATERIAL_OFFSET UNITYSDK_OFFSET(0x1FB274B0)
+#define SPINE_UNITY_SPINEATLASASSET_RESET_OFFSET UNITYSDK_OFFSET(0x1FB275A0)
+#define SPINE_UNITY_SPINEATLASASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB28B20)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineAtlasAsset_TypeDefinitionIndex = 40098;
+	inline static constexpr unsigned int SpineAtlasAsset_TypeDefinitionIndex = 38113;
 
 	class SpineAtlasAsset : public ::Spine::Unity::AtlasAssetBase
 	{
 	public:
-		::UnityEngine::TextAsset* atlasFile; // 0x28
-		::Il2CppArray<::UnityEngine::Material*>* materials; // 0x30
-		::Spine::TextureLoader* customTextureLoader; // 0x38
-		::Spine::Atlas* atlas; // 0x40
+		::UnityEngine::TextAsset* atlasFile; // 0x38
+		::Il2CppArray<::UnityEngine::Material*>* materials; // 0x40
+		::Spine::TextureLoader* customTextureLoader; // 0x48
+		::Spine::Atlas* atlas; // 0x50
 
 		::System::Void _ctor()
 		{
@@ -68,9 +68,9 @@ namespace Spine::Unity
 			return ((::Spine::Unity::SpineAtlasAsset*(*)(::UnityEngine::TextAsset*, ::Il2CppArray<::UnityEngine::Material*>*, ::System::Boolean, ::System::Func_2<::Spine::Unity::SpineAtlasAsset*, ::Spine::TextureLoader*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_OFFSET))(atlasText, materials, initialize, newCustomTextureLoader);
 		}
 
-		static ::Spine::Unity::SpineAtlasAsset* CreateRuntimeInstance_1(::UnityEngine::TextAsset* atlasText, ::Il2CppArray<::UnityEngine::Texture2D*>* textures, ::UnityEngine::Material* materialPropertySource, ::System::Boolean initialize, ::System::Func_2<::Spine::Unity::SpineAtlasAsset*, ::Spine::TextureLoader*>* newCustomTextureLoader)
+		static ::Spine::Unity::SpineAtlasAsset* CreateRuntimeInstance_1(::UnityEngine::TextAsset* atlasText, ::Il2CppArray<::UnityEngine::Texture2D*>* textures, ::UnityEngine::Material* materialPropertySource, ::System::Boolean initialize, ::System::Func_2<::Spine::Unity::SpineAtlasAsset*, ::Spine::TextureLoader*>* newCustomTextureLoader, ::System::Boolean renameMaterial)
 		{
-			return ((::Spine::Unity::SpineAtlasAsset*(*)(::UnityEngine::TextAsset*, ::Il2CppArray<::UnityEngine::Texture2D*>*, ::UnityEngine::Material*, ::System::Boolean, ::System::Func_2<::Spine::Unity::SpineAtlasAsset*, ::Spine::TextureLoader*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_1_OFFSET))(atlasText, textures, materialPropertySource, initialize, newCustomTextureLoader);
+			return ((::Spine::Unity::SpineAtlasAsset*(*)(::UnityEngine::TextAsset*, ::Il2CppArray<::UnityEngine::Texture2D*>*, ::UnityEngine::Material*, ::System::Boolean, ::System::Func_2<::Spine::Unity::SpineAtlasAsset*, ::Spine::TextureLoader*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_1_OFFSET))(atlasText, textures, materialPropertySource, initialize, newCustomTextureLoader, renameMaterial);
 		}
 
 		static ::Spine::Unity::SpineAtlasAsset* CreateRuntimeInstance_2(::UnityEngine::TextAsset* atlasText, ::Il2CppArray<::UnityEngine::Texture2D*>* textures, ::UnityEngine::Shader* shader, ::System::Boolean initialize, ::System::Func_2<::Spine::Unity::SpineAtlasAsset*, ::Spine::TextureLoader*>* newCustomTextureLoader)

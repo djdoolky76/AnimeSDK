@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/AI/NavMeshBuildSource.h"
 #include "unitysdk/UnityEngine/AI/NavMeshDataInstance.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -12,24 +12,26 @@ namespace UnityEngine { class AsyncOperation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::AI { class NavMeshData; }
 
-#define LOCALNAVMESHBUILDER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x140B5970)
-#define LOCALNAVMESHBUILDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x140B5570)
-#define LOCALNAVMESHBUILDER_QUANTIZEDBOUNDS_OFFSET UNITYSDK_OFFSET(0x140B59C0)
-#define LOCALNAVMESHBUILDER_QUANTIZE_OFFSET UNITYSDK_OFFSET(0x140B5D10)
-#define LOCALNAVMESHBUILDER_START_OFFSET UNITYSDK_OFFSET(0x140B54F0)
-#define LOCALNAVMESHBUILDER_UPDATENAVMESH_OFFSET UNITYSDK_OFFSET(0x140B5760)
-#define LOCALNAVMESHBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x140B5E20)
+#define LOCALNAVMESHBUILDER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18522810)
+#define LOCALNAVMESHBUILDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18522410)
+#define LOCALNAVMESHBUILDER_QUANTIZEDBOUNDS_OFFSET UNITYSDK_OFFSET(0x18522860)
+#define LOCALNAVMESHBUILDER_QUANTIZE_OFFSET UNITYSDK_OFFSET(0x18522BB0)
+#define LOCALNAVMESHBUILDER_START_OFFSET UNITYSDK_OFFSET(0x18522390)
+#define LOCALNAVMESHBUILDER_UPDATENAVMESH_OFFSET UNITYSDK_OFFSET(0x18522600)
+#define LOCALNAVMESHBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x18522CC0)
 
-inline static constexpr unsigned int LocalNavMeshBuilder_TypeDefinitionIndex = 75774;
+inline static constexpr unsigned int LocalNavMeshBuilder_TypeDefinitionIndex = 91818;
 
 class LocalNavMeshBuilder : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::UnityEngine::Transform* m_Tracked; // 0x18
 	::UnityEngine::Vector3 m_Size; // 0x20
+	::System::Byte _padding0[0x4];
 	::UnityEngine::AI::NavMeshData* m_NavMesh; // 0x30
 	::UnityEngine::AsyncOperation* m_Operation; // 0x38
 	::UnityEngine::AI::NavMeshDataInstance m_Instance; // 0x40
+	::System::Byte _padding1[0x4];
 	::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshBuildSource>* m_Sources; // 0x48
 
 	::System::Void _ctor()

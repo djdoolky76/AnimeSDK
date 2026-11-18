@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_FATTRACTORBASE_GETENABLE_OFFSET UNITYSDK_OFFSET(0x72A230)
-#define NPCCROWD_AI_FATTRACTORBASE_QUERYENABLE_OFFSET UNITYSDK_OFFSET(0x72A280)
+#define NPCCROWD_AI_FATTRACTORBASE_GETENABLE_OFFSET UNITYSDK_OFFSET(0x6CA580)
+#define NPCCROWD_AI_FATTRACTORBASE_QUERYENABLE_OFFSET UNITYSDK_OFFSET(0x6CA5D0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int FAttractorBase_TypeDefinitionIndex = 60944;
+	inline static constexpr unsigned int FAttractorBase_TypeDefinitionIndex = 85055;
 
 	struct alignas(4) FAttractorBase
 	{
 		::System::Int32 handler; // 0x10
 		::System::Boolean externalEnable; // 0x14
+		::System::Byte _padding0[0x3];
 		::System::Single queryCDTimer; // 0x18
 		::System::Boolean conditionEnable; // 0x1C
 

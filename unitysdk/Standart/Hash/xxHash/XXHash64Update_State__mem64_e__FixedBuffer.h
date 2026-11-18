@@ -4,10 +4,10 @@
 
 namespace Standart::Hash::xxHash
 {
-	inline static constexpr unsigned int XXHash64Update_State__mem64_e__FixedBuffer_TypeDefinitionIndex = 7854;
+	inline static constexpr unsigned int XXHash64Update_State__mem64_e__FixedBuffer_TypeDefinitionIndex = 8507;
 
-	struct alignas(8) XXHash64Update_State__mem64_e__FixedBuffer
+	struct alignas(4) XXHash64Update_State__mem64_e__FixedBuffer
 	{
-		::System::UInt64 data[4]; // 0x0
+		::System::UInt64 FixedElementField; // 0x10
 	};
 }

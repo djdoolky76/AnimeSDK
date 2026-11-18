@@ -6,29 +6,29 @@ namespace FluffyUnderware::Curvy::Generator { class CGShape; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDSHAPEEXTRUSION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE62730)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDSHAPEEXTRUSION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE62770)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDSHAPEEXTRUSION___C__REFRESH_B__131_0_OFFSET UNITYSDK_OFFSET(0x1EE62790)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDSHAPEEXTRUSION___C__REFRESH_B__131_1_OFFSET UNITYSDK_OFFSET(0x1EE62780)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDSHAPEEXTRUSION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F205770)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDSHAPEEXTRUSION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2057B0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDSHAPEEXTRUSION___C__REFRESH_B__131_0_OFFSET UNITYSDK_OFFSET(0x1F2057D0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDSHAPEEXTRUSION___C__REFRESH_B__131_1_OFFSET UNITYSDK_OFFSET(0x1F2057C0)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int BuildShapeExtrusion___c_TypeDefinitionIndex = 39537;
+	inline static constexpr unsigned int BuildShapeExtrusion___c_TypeDefinitionIndex = 37509;
 
 	class BuildShapeExtrusion___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FluffyUnderware::Curvy::Generator::CGShape*>** StaticGet___9__131_0()
 		{
-			return (::System::Action_1<::FluffyUnderware::Curvy::Generator::CGShape*>**)Il2CppClass::FromTypeDefinitionIndex(BuildShapeExtrusion___c_TypeDefinitionIndex)->GetStaticField(0x2AD80);
-		}
-		static ::FluffyUnderware::Curvy::Generator::Modules::BuildShapeExtrusion___c** StaticGet___9()
-		{
-			return (::FluffyUnderware::Curvy::Generator::Modules::BuildShapeExtrusion___c**)Il2CppClass::FromTypeDefinitionIndex(BuildShapeExtrusion___c_TypeDefinitionIndex)->GetStaticField(0x2AD88);
+			return (::System::Action_1<::FluffyUnderware::Curvy::Generator::CGShape*>**)Il2CppClass::FromTypeDefinitionIndex(BuildShapeExtrusion___c_TypeDefinitionIndex)->GetStaticField(0x2C0E0);
 		}
 		static ::System::Func_2<::FluffyUnderware::Curvy::Generator::CGShape*, ::System::Int32>** StaticGet___9__131_1()
 		{
-			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGShape*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BuildShapeExtrusion___c_TypeDefinitionIndex)->GetStaticField(0x2AD90);
+			return (::System::Func_2<::FluffyUnderware::Curvy::Generator::CGShape*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BuildShapeExtrusion___c_TypeDefinitionIndex)->GetStaticField(0x2C0E8);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(BuildShapeExtrusion___c_TypeDefinitionIndex)->GetStaticField(0x2C0F0);
 		}
 
 		static ::System::Void _cctor()

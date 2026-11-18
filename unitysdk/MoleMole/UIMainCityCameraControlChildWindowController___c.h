@@ -6,44 +6,44 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A1E5B0)
-#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__CREATESPECIALGESTURECONTEXTDATA_B__93_0_OFFSET UNITYSDK_OFFSET(0x18A1E610)
-#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18A1E5F0)
-#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__FULLSCREENBTNBOTTOMCALLBACK_B__123_0_OFFSET UNITYSDK_OFFSET(0x18A1E8E0)
-#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__HIDEBOTTOMTIPS_B__47_0_OFFSET UNITYSDK_OFFSET(0x18A1E600)
-#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__INITSTICKERSHOWMODULE_B__108_0_OFFSET UNITYSDK_OFFSET(0x18A1E6D0)
-#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__INITSTICKERSHOWMODULE_B__108_1_OFFSET UNITYSDK_OFFSET(0x18A1E7F0)
+#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16736AE0)
+#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__CREATESPECIALGESTURECONTEXTDATA_B__73_0_OFFSET UNITYSDK_OFFSET(0x16736B40)
+#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16736B20)
+#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__FULLSCREENBTNBOTTOMCALLBACK_B__103_0_OFFSET UNITYSDK_OFFSET(0x16736E10)
+#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__HIDEBOTTOMTIPS_B__47_0_OFFSET UNITYSDK_OFFSET(0x16736B30)
+#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__INITSTICKERSHOWMODULE_B__88_0_OFFSET UNITYSDK_OFFSET(0x16736C00)
+#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__INITSTICKERSHOWMODULE_B__88_1_OFFSET UNITYSDK_OFFSET(0x16736D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex = 48625;
+	inline static constexpr unsigned int UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex = 80709;
 
 	class UIMainCityCameraControlChildWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__123_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4EC00);
-		}
 		static ::System::Action** StaticGet___9__47_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4EC08);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FB20);
 		}
-		static ::MoleMole::UIMainCityCameraControlChildWindowController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIMainCityCameraControlChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4EC10);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FB28);
 		}
-		static ::System::Func_1<::System::String*>** StaticGet___9__108_0()
+		static ::System::Func_1<::System::String*>** StaticGet___9__88_1()
 		{
-			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4EC18);
+			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FB30);
 		}
-		static ::System::Func_1<::System::String*>** StaticGet___9__108_1()
+		static ::System::Func_1<::System::String*>** StaticGet___9__88_0()
 		{
-			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4EC20);
+			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FB38);
 		}
-		static ::System::Func_1<::System::Int32>** StaticGet___9__93_0()
+		static ::System::Func_1<::System::Int32>** StaticGet___9__73_0()
 		{
-			return (::System::Func_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4EC28);
+			return (::System::Func_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FB40);
+		}
+		static ::System::Action** StaticGet___9__103_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCityCameraControlChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FB48);
 		}
 
 		static ::System::Void _cctor()
@@ -61,24 +61,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__HIDEBOTTOMTIPS_B__47_0_OFFSET))(this);
 		}
 
-		::System::Int32 _CreateSpecialGestureContextData_b__93_0()
+		::System::Int32 _CreateSpecialGestureContextData_b__73_0()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__CREATESPECIALGESTURECONTEXTDATA_B__93_0_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__CREATESPECIALGESTURECONTEXTDATA_B__73_0_OFFSET))(this);
 		}
 
-		::System::String* _InitStickerShowModule_b__108_0()
+		::System::String* _InitStickerShowModule_b__88_0()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__INITSTICKERSHOWMODULE_B__108_0_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__INITSTICKERSHOWMODULE_B__88_0_OFFSET))(this);
 		}
 
-		::System::String* _InitStickerShowModule_b__108_1()
+		::System::String* _InitStickerShowModule_b__88_1()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__INITSTICKERSHOWMODULE_B__108_1_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__INITSTICKERSHOWMODULE_B__88_1_OFFSET))(this);
 		}
 
-		::System::Void _FullScreenBtnBottomCallback_b__123_0()
+		::System::Void _FullScreenBtnBottomCallback_b__103_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__FULLSCREENBTNBOTTOMCALLBACK_B__123_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER___C__FULLSCREENBTNBOTTOMCALLBACK_B__103_0_OFFSET))(this);
 		}
 	};
 }

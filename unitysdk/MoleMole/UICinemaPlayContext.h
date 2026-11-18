@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_2B9207E1BEA1F276;
+class IKPCCMOBEOP;
 
-#define MOLEMOLE_UICINEMAPLAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16D67220)
+#define MOLEMOLE_UICINEMAPLAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16659CD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaPlayContext_TypeDefinitionIndex = 79372;
+	inline static constexpr unsigned int UICinemaPlayContext_TypeDefinitionIndex = 69161;
 
 	class UICinemaPlayContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_2B9207E1BEA1F276* playController; // 0x28
+		::IKPCCMOBEOP* playController; // 0x28
 
 		::System::Void _ctor()
 		{

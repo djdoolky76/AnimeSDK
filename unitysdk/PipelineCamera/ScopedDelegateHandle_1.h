@@ -6,12 +6,12 @@ namespace System { template <typename T> class Action_1; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ScopedDelegateHandle_1_TypeDefinitionIndex = 38354;
+	inline static constexpr unsigned int ScopedDelegateHandle_1_TypeDefinitionIndex = 36356;
 
-	template <typename TContext>
-	struct ScopedDelegateHandle_1
+	template <typename T>
+	struct alignas(8) ScopedDelegateHandle_1
 	{
-		::System::Action_1<TContext>* _onDestroy; // 0x0
-		TContext _context; // 0x0
+		::System::Action_1<T>* _onDestroy; // 0x0
+		T _context; // 0x0
 	};
 }

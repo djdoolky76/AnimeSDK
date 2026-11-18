@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_5897CA91FEB65CA5;
+class JFLHGHFBNGJ;
 namespace System { class String; }
 
-#define MOLEMOLE_UIACHIEVEMENTITEMWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189345F0)
-#define MOLEMOLE_UIACHIEVEMENTITEMWIDGETCONTROLLER___C__DISPLAYCLASS8_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x18934600)
+#define MOLEMOLE_UIACHIEVEMENTITEMWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E900C0)
+#define MOLEMOLE_UIACHIEVEMENTITEMWIDGETCONTROLLER___C__DISPLAYCLASS8_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x17E900D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAchievementItemWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 49503;
+	inline static constexpr unsigned int UIAchievementItemWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 76604;
 
 	class UIAchievementItemWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::Class_1_5897CA91FEB65CA5* achievementData; // 0x10
+		::JFLHGHFBNGJ* achievementData; // 0x10
 
 		::System::Void _ctor()
 		{

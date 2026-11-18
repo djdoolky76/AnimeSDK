@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UIAbyssTalentPointController; }
 
-#define MOLEMOLE_UIABYSSTALENTPAGECONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173CA4A0)
-#define MOLEMOLE_UIABYSSTALENTPAGECONTROLLER___C__DISPLAYCLASS22_0__ONTALENTACTIVEHANDLE_B__1_OFFSET UNITYSDK_OFFSET(0x173CA4B0)
+#define MOLEMOLE_UIABYSSTALENTPAGECONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13F33C80)
+#define MOLEMOLE_UIABYSSTALENTPAGECONTROLLER___C__DISPLAYCLASS22_0__ONTALENTACTIVEHANDLE_B__1_OFFSET UNITYSDK_OFFSET(0x13F33C90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssTalentPageController___c__DisplayClass22_0_TypeDefinitionIndex = 45004;
+	inline static constexpr unsigned int UIAbyssTalentPageController___c__DisplayClass22_0_TypeDefinitionIndex = 47643;
 
 	class UIAbyssTalentPageController___c__DisplayClass22_0 : public ::System::Object
 	{

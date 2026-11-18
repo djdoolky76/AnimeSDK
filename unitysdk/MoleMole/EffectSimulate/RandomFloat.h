@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GUIContent; }
 
-#define MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_GET_CANUSERANDOM_OFFSET UNITYSDK_OFFSET(0x1A98ECC0)
-#define MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_METHOD_1_8B133A880F05B901_OFFSET UNITYSDK_OFFSET(0x1A98ED40)
-#define MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1A98EDA0)
-#define MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_METHOD_1_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x1A98EDF0)
-#define MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_SET_CANUSERANDOM_OFFSET UNITYSDK_OFFSET(0x1A98ECD0)
-#define MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A98ED30)
+#define MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_GET_CANUSERANDOM_OFFSET UNITYSDK_OFFSET(0x1B90A8D0)
+#define MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_HFOCKIPFMFG_OFFSET UNITYSDK_OFFSET(0x1B90A9A0)
+#define MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_LOGMLJPCMEP_OFFSET UNITYSDK_OFFSET(0x1B90AA00)
+#define MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_MJAKPCAPFNJ_OFFSET UNITYSDK_OFFSET(0x1B90A950)
+#define MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_SET_CANUSERANDOM_OFFSET UNITYSDK_OFFSET(0x1B90A8E0)
+#define MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B90A940)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int RandomFloat_TypeDefinitionIndex = 78988;
+	inline static constexpr unsigned int RandomFloat_TypeDefinitionIndex = 87965;
 
 	class RandomFloat : public ::System::Object
 	{
@@ -36,24 +35,24 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_GET_CANUSERANDOM_OFFSET))(this);
 		}
 
-		::System::Void set_canUseRandom(::System::Boolean a1)
+		::System::Void set_canUseRandom(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_SET_CANUSERANDOM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_SET_CANUSERANDOM_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Single Method_1_8B133A880F05B901(::System::Single a1, ::UnityEngine::GUIContent* a2, ::System::Func_2<::UnityEngine::GUIContent*, ::System::Boolean>* a3)
+		::System::Void MJAKPCAPFNJ()
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::UnityEngine::GUIContent*, ::System::Func_2<::UnityEngine::GUIContent*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_METHOD_1_8B133A880F05B901_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_MJAKPCAPFNJ_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598()
+		::System::Single HFOCKIPFMFG(::System::Single EGEGIMGMJHN, ::UnityEngine::GUIContent* GFKCABHFFEE, ::System::Func_2<::UnityEngine::GUIContent*, ::System::Boolean>* BAOCFOGKBML)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::UnityEngine::GUIContent*, ::System::Func_2<::UnityEngine::GUIContent*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_HFOCKIPFMFG_OFFSET))(this, EGEGIMGMJHN, GFKCABHFFEE, BAOCFOGKBML);
 		}
 
-		::System::Single Method_1_D437D090E63BE8A7(::System::Single a1)
+		::System::Single LOGMLJPCMEP(::System::Single JBHANCEFNHE)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_METHOD_1_D437D090E63BE8A7_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_RANDOMFLOAT_LOGMLJPCMEP_OFFSET))(this, JBHANCEFNHE);
 		}
 	};
 }

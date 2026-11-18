@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/ExposedReference_1.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class IExposedPropertyTable; }
 
-#define MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x10826A90)
-#define MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_METHOD_5_14014646206E49EF_OFFSET UNITYSDK_OFFSET(0x10827160)
-#define MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x108272E0)
-#define MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_METHOD_5_F7662FE9CCCA35A7_OFFSET UNITYSDK_OFFSET(0x10826E00)
-#define MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x108270C0)
+#define MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x15AD7970)
+#define MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_HDLFPMKIKAA_OFFSET UNITYSDK_OFFSET(0x15AD7CE0)
+#define MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_JMHKEDIANHH_OFFSET UNITYSDK_OFFSET(0x15AD8090)
+#define MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_LGAGFNHGIGH_OFFSET UNITYSDK_OFFSET(0x15AD8050)
+#define MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x15AD7FA0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int BatchUnActivationTrack_TypeDefinitionIndex = 49014;
+	inline static constexpr unsigned int BatchUnActivationTrack_TypeDefinitionIndex = 65040;
 
 	class BatchUnActivationTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -31,24 +31,24 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* NJOAJLDJCCJ, ::System::Int32 BMHCCJPEFPI)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_CREATETRACKMIXER_OFFSET))(this, MHPNGBGGMMN, NJOAJLDJCCJ, BMHCCJPEFPI);
 		}
 
-		::System::Void Method_5_14014646206E49EF()
+		::UnityEngine::Playables::Playable LGAGFNHGIGH(::UnityEngine::Playables::PlayableGraph MIALFKCCCPI, ::UnityEngine::GameObject* KMGKAIDEIBA, ::System::Int32 FDHMCIFPNCK)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_METHOD_5_14014646206E49EF_OFFSET))(this);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_LGAGFNHGIGH_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
 		}
 
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Method_5_F7662FE9CCCA35A7()
+		::System::Void JMHKEDIANHH()
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_METHOD_5_F7662FE9CCCA35A7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_JMHKEDIANHH_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable Method_5_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* HDLFPMKIKAA()
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHUNACTIVATIONTRACK_HDLFPMKIKAA_OFFSET))(this);
 		}
 	};
 }

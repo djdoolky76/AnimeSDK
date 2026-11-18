@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Predicate_1; }
 
-#define FOUNDATION_UNREAL_FNAME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F563FE0)
-#define FOUNDATION_UNREAL_FNAME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F564020)
-#define FOUNDATION_UNREAL_FNAME___C__SPLIT_B__5_0_OFFSET UNITYSDK_OFFSET(0x1F564030)
+#define FOUNDATION_UNREAL_FNAME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F91B900)
+#define FOUNDATION_UNREAL_FNAME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F91B940)
+#define FOUNDATION_UNREAL_FNAME___C__SPLIT_B__5_0_OFFSET UNITYSDK_OFFSET(0x1F91B950)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FName___c_TypeDefinitionIndex = 8822;
+	inline static constexpr unsigned int FName___c_TypeDefinitionIndex = 8816;
 
 	class FName___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::System::Char>** StaticGet___9__5_0()
 		{
-			return (::System::Predicate_1<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(FName___c_TypeDefinitionIndex)->GetStaticField(0x7560);
+			return (::System::Predicate_1<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(FName___c_TypeDefinitionIndex)->GetStaticField(0x7550);
 		}
-		static ::Foundation::Unreal::FName___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Foundation::Unreal::FName___c**)Il2CppClass::FromTypeDefinitionIndex(FName___c_TypeDefinitionIndex)->GetStaticField(0x7568);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(FName___c_TypeDefinitionIndex)->GetStaticField(0x7558);
 		}
 
 		static ::System::Void _cctor()

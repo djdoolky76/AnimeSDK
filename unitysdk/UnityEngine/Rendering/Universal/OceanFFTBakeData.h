@@ -6,11 +6,11 @@
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture3D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFFTBAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA6AB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFFTBAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A7A70)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OceanFFTBakeData_TypeDefinitionIndex = 27896;
+	inline static constexpr unsigned int OceanFFTBakeData_TypeDefinitionIndex = 27155;
 
 	class OceanFFTBakeData : public ::UnityEngine::ScriptableObject
 	{
@@ -29,6 +29,7 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::Vector2 DisplacementMinMax; // 0x44
 		::System::Single PlaySpeed; // 0x4C
 		::System::Single WorldSize; // 0x50
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Texture3D* DisplacementTexture3D; // 0x58
 		::UnityEngine::Texture3D* NormalFoamTexture3D; // 0x60
 		::UnityEngine::Texture2D* MaxHeightTexture2D; // 0x68

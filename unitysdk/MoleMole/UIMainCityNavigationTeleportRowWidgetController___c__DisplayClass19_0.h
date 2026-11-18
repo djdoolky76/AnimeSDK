@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_794;
+class LLNGENGKNCN;
 namespace MoleMole { class UIMainCityNavigationTeleportRowWidgetController; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1651F0B0)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__DOTELEPORT_B__0_OFFSET UNITYSDK_OFFSET(0x16520680)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__DOTELEPORT_B__1_OFFSET UNITYSDK_OFFSET(0x165206C0)
-#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__DOTELEPORT_B__2_OFFSET UNITYSDK_OFFSET(0x16520790)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C95B60)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__DOTELEPORT_B__0_OFFSET UNITYSDK_OFFSET(0x14C96CB0)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__DOTELEPORT_B__1_OFFSET UNITYSDK_OFFSET(0x14C96CF0)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONTELEPORTROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__DOTELEPORT_B__2_OFFSET UNITYSDK_OFFSET(0x14C96DC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 81106;
+	inline static constexpr unsigned int UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 88740;
 
 	class UIMainCityNavigationTeleportRowWidgetController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMainCityNavigationTeleportRowWidgetController* __4__this; // 0x10
-		::System::Action* __9__2; // 0x18
+		::System::Action* __9__2; // 0x10
+		::LLNGENGKNCN* teleportTemplate; // 0x18
 		::System::String* teleportAudioKey; // 0x20
-		::Class_2_208CC9941471731A_794* teleportTemplate; // 0x28
+		::MoleMole::UIMainCityNavigationTeleportRowWidgetController* __4__this; // 0x28
 		::System::Boolean menusReady; // 0x30
 		::System::Boolean dialogReady; // 0x31
 

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIDailyQuestHandBookWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIDAILYQUESTHANDBOOKWIDGETCONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1856A600)
-#define MOLEMOLE_UIDAILYQUESTHANDBOOKWIDGETCONTROLLER___C__DISPLAYCLASS18_0__PLAYPROGRESSANIM_B__1_OFFSET UNITYSDK_OFFSET(0x1856A610)
+#define MOLEMOLE_UIDAILYQUESTHANDBOOKWIDGETCONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1800BB40)
+#define MOLEMOLE_UIDAILYQUESTHANDBOOKWIDGETCONTROLLER___C__DISPLAYCLASS18_0__PLAYPROGRESSANIM_B__1_OFFSET UNITYSDK_OFFSET(0x1800BB50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDailyQuestHandBookWidgetController___c__DisplayClass18_0_TypeDefinitionIndex = 43700;
+	inline static constexpr unsigned int UIDailyQuestHandBookWidgetController___c__DisplayClass18_0_TypeDefinitionIndex = 45277;
 
 	class UIDailyQuestHandBookWidgetController___c__DisplayClass18_0 : public ::System::Object
 	{
@@ -18,8 +18,8 @@ namespace MoleMole
 		::MoleMole::UIDailyQuestHandBookWidgetController* __4__this; // 0x10
 		::System::Action* onFinish; // 0x18
 		::System::Single prvProgress; // 0x20
-		::System::Single curProgress; // 0x24
-		::System::Single duration; // 0x28
+		::System::Single duration; // 0x24
+		::System::Single curProgress; // 0x28
 
 		::System::Void _ctor()
 		{

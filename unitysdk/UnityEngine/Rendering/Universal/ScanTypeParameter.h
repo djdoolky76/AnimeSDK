@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/ScanType.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCANTYPEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8231A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCANTYPEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F91FA10)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScanTypeParameter_TypeDefinitionIndex = 26825;
+	inline static constexpr unsigned int ScanTypeParameter_TypeDefinitionIndex = 26666;
 
-	class ScanTypeParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::ScanType>
+	class ScanTypeParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Rendering::Universal::ScanType value, ::System::Boolean overrideState)

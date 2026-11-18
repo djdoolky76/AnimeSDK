@@ -6,11 +6,11 @@ namespace MoleMole::Config { class GamepadInputCodeSetting; }
 namespace MoleMole::Config { class KeyboardInputCodeSetting; }
 namespace MoleMole::Config { class MouseInputCodeSetting; }
 
-#define MOLEMOLE_CONFIG_INPUTCODESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF4FA0)
+#define MOLEMOLE_CONFIG_INPUTCODESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A76F920)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int InputCodeSetting_TypeDefinitionIndex = 87124;
+	inline static constexpr unsigned int InputCodeSetting_TypeDefinitionIndex = 62806;
 
 	class InputCodeSetting : public ::System::Object
 	{

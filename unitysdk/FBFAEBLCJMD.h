@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int FBFAEBLCJMD_TypeDefinitionIndex = 87997;
+
+enum class FBFAEBLCJMD : ::System::Int32
+{
+	Toggle = 5,
+	UIToggleButton = 29,
+	TableScroll = 22,
+	MonoGamepadModule = 32,
+	Animation = 16,
+	GameObject = 1,
+	WidgetView = 7,
+	UITimeWidget = 30,
+	Animator = 11,
+	TweenAlpha = 14,
+	Label = 25,
+	UISpriteNumPanel = 31,
+	GeneralButtonController = 36,
+	UILocalizationText = 2,
+	ShaderAniHelp = 37,
+	ButtonEx = 4,
+	UISlider = 23,
+	MonoGamepadNestedListDelegate = 38,
+	RawImage = 18,
+	DynamicNumberLabel = 17,
+	Array = 8,
+	Button = 26,
+	ExtensionData = 28,
+	TabButtonGroup = 27,
+	ScrollRect = 19,
+	InputField = 24,
+	WidgetControl = 6,
+	NotificationBadgeEx = 35,
+	NotificationBadge = 34,
+	Image = 3,
+	Slider = 21,
+	Camera = 20,
+	RectTransform = 13,
+	CanvasGroup = 12,
+	TableView = 15,
+	CustomType = 9,
+	None = 0,
+	Transform = 10,
+	MonoGamepadRegion = 33,
+};

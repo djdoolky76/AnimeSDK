@@ -5,9 +5,9 @@
 #include "unitysdk/MonoUIHideItem_ShowStatus.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class MonoUIHideItem_CustomFadeConfig;
 class UIGlobalAlpha;
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -16,40 +16,40 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class Transform; }
 
-#define MONOUIHIDEITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0x174C6080)
-#define MONOUIHIDEITEM_CLEARRUNTIMEFADECONFIG_OFFSET UNITYSDK_OFFSET(0x174C8DF0)
-#define MONOUIHIDEITEM_GETALPHA_OFFSET UNITYSDK_OFFSET(0x174C8000)
-#define MONOUIHIDEITEM_GETANIMCLIPLENGTH_OFFSET UNITYSDK_OFFSET(0x174C82A0)
-#define MONOUIHIDEITEM_GETSETUPINFO_OFFSET UNITYSDK_OFFSET(0x174C5E50)
-#define MONOUIHIDEITEM_GET_ACTIONSETUPINFOS_OFFSET UNITYSDK_OFFSET(0x174C5E10)
-#define MONOUIHIDEITEM_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x174C5E30)
-#define MONOUIHIDEITEM_GET_REALTAG_OFFSET UNITYSDK_OFFSET(0x174C5B80)
-#define MONOUIHIDEITEM_GET_RUNTIMEFADECONFIGS_OFFSET UNITYSDK_OFFSET(0x174C5D60)
-#define MONOUIHIDEITEM_GET_ZONESETUPINFOS_OFFSET UNITYSDK_OFFSET(0x174C5E20)
-#define MONOUIHIDEITEM_INTERRUPTSETUP_OFFSET UNITYSDK_OFFSET(0x174C7B90)
-#define MONOUIHIDEITEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x174C6C30)
-#define MONOUIHIDEITEM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x174C59B0)
-#define MONOUIHIDEITEM_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x174C5B00)
-#define MONOUIHIDEITEM_ONPARENTSHOWSTATECHANGED_OFFSET UNITYSDK_OFFSET(0x174C7D10)
-#define MONOUIHIDEITEM_ONREALDISABLE_OFFSET UNITYSDK_OFFSET(0x174C5AB0)
-#define MONOUIHIDEITEM_REFRESHITEM_OFFSET UNITYSDK_OFFSET(0x174C7030)
-#define MONOUIHIDEITEM_RESETITEM_OFFSET UNITYSDK_OFFSET(0x174C8190)
-#define MONOUIHIDEITEM_SAMPLEANIMLASTFRAME_OFFSET UNITYSDK_OFFSET(0x174C8BE0)
-#define MONOUIHIDEITEM_SETALPHA_OFFSET UNITYSDK_OFFSET(0x174C8700)
-#define MONOUIHIDEITEM_SETBLOCKRAYCASTSSTATE_OFFSET UNITYSDK_OFFSET(0x174C8DA0)
-#define MONOUIHIDEITEM_SETUPUI_1_OFFSET UNITYSDK_OFFSET(0x174C6D20)
-#define MONOUIHIDEITEM_SETUPUI_OFFSET UNITYSDK_OFFSET(0x174C6C90)
-#define MONOUIHIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x174C9110)
-#define MONOUIHIDEITEM__GETCURRENTPLAYINGANIM_OFFSET UNITYSDK_OFFSET(0x174C8A40)
-#define MONOUIHIDEITEM__GETTARGETANIMATIONCLIPNAME_OFFSET UNITYSDK_OFFSET(0x174C8490)
-#define MONOUIHIDEITEM__PLAYANIMATIONWITHDELAYCONFIRM_OFFSET UNITYSDK_OFFSET(0x174C88B0)
-#define MONOUIHIDEITEM__REFRESHITEM_B__46_0_OFFSET UNITYSDK_OFFSET(0x174C91F0)
-#define MONOUIHIDEITEM__REFRESHITEM_B__46_1_OFFSET UNITYSDK_OFFSET(0x174C9200)
-#define MONOUIHIDEITEM__RESETFADECONFIGS_OFFSET UNITYSDK_OFFSET(0x174C5C00)
-#define MONOUIHIDEITEM__SETTOANIMATIONLASTFRAME_OFFSET UNITYSDK_OFFSET(0x174C8FB0)
-#define MONOUIHIDEITEM__STOPCURRENTPLAYINGANIMATIONDELAY_OFFSET UNITYSDK_OFFSET(0x174C9050)
+#define MONOUIHIDEITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0x18C42770)
+#define MONOUIHIDEITEM_CLEARRUNTIMEFADECONFIG_OFFSET UNITYSDK_OFFSET(0x18C454D0)
+#define MONOUIHIDEITEM_GETALPHA_OFFSET UNITYSDK_OFFSET(0x18C446E0)
+#define MONOUIHIDEITEM_GETANIMCLIPLENGTH_OFFSET UNITYSDK_OFFSET(0x18C44980)
+#define MONOUIHIDEITEM_GETSETUPINFO_OFFSET UNITYSDK_OFFSET(0x18C42540)
+#define MONOUIHIDEITEM_GET_ACTIONSETUPINFOS_OFFSET UNITYSDK_OFFSET(0x18C42500)
+#define MONOUIHIDEITEM_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x18C42520)
+#define MONOUIHIDEITEM_GET_REALTAG_OFFSET UNITYSDK_OFFSET(0x18C42270)
+#define MONOUIHIDEITEM_GET_RUNTIMEFADECONFIGS_OFFSET UNITYSDK_OFFSET(0x18C42450)
+#define MONOUIHIDEITEM_GET_ZONESETUPINFOS_OFFSET UNITYSDK_OFFSET(0x18C42510)
+#define MONOUIHIDEITEM_INTERRUPTSETUP_OFFSET UNITYSDK_OFFSET(0x18C44270)
+#define MONOUIHIDEITEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18C43310)
+#define MONOUIHIDEITEM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18C420A0)
+#define MONOUIHIDEITEM_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x18C421F0)
+#define MONOUIHIDEITEM_ONPARENTSHOWSTATECHANGED_OFFSET UNITYSDK_OFFSET(0x18C443F0)
+#define MONOUIHIDEITEM_ONREALDISABLE_OFFSET UNITYSDK_OFFSET(0x18C421A0)
+#define MONOUIHIDEITEM_REFRESHITEM_OFFSET UNITYSDK_OFFSET(0x18C43710)
+#define MONOUIHIDEITEM_RESETITEM_OFFSET UNITYSDK_OFFSET(0x18C44870)
+#define MONOUIHIDEITEM_SAMPLEANIMLASTFRAME_OFFSET UNITYSDK_OFFSET(0x18C452C0)
+#define MONOUIHIDEITEM_SETALPHA_OFFSET UNITYSDK_OFFSET(0x18C44DE0)
+#define MONOUIHIDEITEM_SETBLOCKRAYCASTSSTATE_OFFSET UNITYSDK_OFFSET(0x18C45480)
+#define MONOUIHIDEITEM_SETUPUI_1_OFFSET UNITYSDK_OFFSET(0x18C43400)
+#define MONOUIHIDEITEM_SETUPUI_OFFSET UNITYSDK_OFFSET(0x18C43370)
+#define MONOUIHIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18C457F0)
+#define MONOUIHIDEITEM__GETCURRENTPLAYINGANIM_OFFSET UNITYSDK_OFFSET(0x18C45120)
+#define MONOUIHIDEITEM__GETTARGETANIMATIONCLIPNAME_OFFSET UNITYSDK_OFFSET(0x18C44B70)
+#define MONOUIHIDEITEM__PLAYANIMATIONWITHDELAYCONFIRM_OFFSET UNITYSDK_OFFSET(0x18C44F90)
+#define MONOUIHIDEITEM__REFRESHITEM_B__46_0_OFFSET UNITYSDK_OFFSET(0x18C458D0)
+#define MONOUIHIDEITEM__REFRESHITEM_B__46_1_OFFSET UNITYSDK_OFFSET(0x18C458E0)
+#define MONOUIHIDEITEM__RESETFADECONFIGS_OFFSET UNITYSDK_OFFSET(0x18C422F0)
+#define MONOUIHIDEITEM__SETTOANIMATIONLASTFRAME_OFFSET UNITYSDK_OFFSET(0x18C45690)
+#define MONOUIHIDEITEM__STOPCURRENTPLAYINGANIMATIONDELAY_OFFSET UNITYSDK_OFFSET(0x18C45730)
 
-inline static constexpr unsigned int MonoUIHideItem_TypeDefinitionIndex = 83749;
+inline static constexpr unsigned int MonoUIHideItem_TypeDefinitionIndex = 55496;
 
 class MonoUIHideItem : public ::UnityEngine::MonoBehaviour
 {
@@ -57,18 +57,20 @@ public:
 	// static const ::System::String* EMPTY_SETUP_TAG; // 0x0
 	// static const ::System::String* DEFAULT_TAG; // 0x0
 	::System::String* Tag; // 0x18
-	::System::Collections::Generic::List_1<::MonoUIHideItem_CustomFadeConfig*>* FadeConfigs; // 0x20
-	::System::Collections::Generic::List_1<::MonoUIHideItem_CustomFadeConfig*>* tFadeConfigs; // 0x28
+	::System::Collections::Generic::List_1<::System::Object*>* FadeConfigs; // 0x20
+	::System::Collections::Generic::List_1<::System::Object*>* tFadeConfigs; // 0x28
 	::UnityEngine::CanvasGroup* _canvasGroup; // 0x30
 	::UIGlobalAlpha* _globalAlphaComponent; // 0x38
 	::UnityEngine::Animation* _animation; // 0x40
-	::System::Collections::Generic::Dictionary_2<::MonoUIHideItem_ShowStatus, ::System::String*>* _animClipNameDic; // 0x48
+	::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>* _animClipNameDic; // 0x48
 	::System::Int32 _runtimeIdCounter; // 0x50
 	::MonoUIHideItem_SetupInfo _defaultSetupInfo; // 0x54
 	::System::Boolean _defaultIgnoreParent; // 0x60
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::MonoUIHideItem_SetupInfo>* _actionSetupInfos; // 0x68
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::MonoUIHideItem_SetupInfo>* _zoneSetupInfos; // 0x70
+	::System::Byte _padding0[0x7];
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _actionSetupInfos; // 0x68
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _zoneSetupInfos; // 0x70
 	::System::Boolean _isShow; // 0x78
+	::System::Byte _padding1[0x7];
 	::UnityEngine::Transform* _highLightTrans; // 0x80
 	::UnityEngine::Coroutine* _currentPlaying; // 0x88
 	::System::String* _lastPlayAnimName; // 0x90
@@ -98,19 +100,19 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOUIHIDEITEM__RESETFADECONFIGS_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::MonoUIHideItem_CustomFadeConfig*>* get_RuntimeFadeConfigs()
+	::System::Collections::Generic::List_1<::System::Object*>* get_RuntimeFadeConfigs()
 	{
-		return ((::System::Collections::Generic::List_1<::MonoUIHideItem_CustomFadeConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOUIHIDEITEM_GET_RUNTIMEFADECONFIGS_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOUIHIDEITEM_GET_RUNTIMEFADECONFIGS_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::MonoUIHideItem_SetupInfo>* get_ActionSetupInfos()
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* get_ActionSetupInfos()
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::MonoUIHideItem_SetupInfo>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOUIHIDEITEM_GET_ACTIONSETUPINFOS_OFFSET))(this);
+		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOUIHIDEITEM_GET_ACTIONSETUPINFOS_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::MonoUIHideItem_SetupInfo>* get_ZoneSetupInfos()
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* get_ZoneSetupInfos()
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::MonoUIHideItem_SetupInfo>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOUIHIDEITEM_GET_ZONESETUPINFOS_OFFSET))(this);
+		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOUIHIDEITEM_GET_ZONESETUPINFOS_OFFSET))(this);
 	}
 
 	::System::Boolean get_IsShow()

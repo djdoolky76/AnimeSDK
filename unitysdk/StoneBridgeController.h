@@ -5,22 +5,22 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_C93CC3D2C2AC4067;
+class GEIHCPAOKKK;
 namespace System { class EventArgs; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define STONEBRIDGECONTROLLER_BTNPRINTMESHBOUNDS_OFFSET UNITYSDK_OFFSET(0x1D33E8A0)
-#define STONEBRIDGECONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D33F570)
-#define STONEBRIDGECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D33F240)
-#define STONEBRIDGECONTROLLER_ONLOCALAVATARCHANGE_OFFSET UNITYSDK_OFFSET(0x1D33FA60)
-#define STONEBRIDGECONTROLLER_SUBSCRIBEAVATARCHANGE_OFFSET UNITYSDK_OFFSET(0x1D33F8D0)
-#define STONEBRIDGECONTROLLER_UNSUBSCRIBEAVATARCHANGE_OFFSET UNITYSDK_OFFSET(0x1D33F740)
-#define STONEBRIDGECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D33FBA0)
-#define STONEBRIDGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D340110)
+#define STONEBRIDGECONTROLLER_BTNPRINTMESHBOUNDS_OFFSET UNITYSDK_OFFSET(0x1D9E5030)
+#define STONEBRIDGECONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D9E5D00)
+#define STONEBRIDGECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D9E59D0)
+#define STONEBRIDGECONTROLLER_ONLOCALAVATARCHANGE_OFFSET UNITYSDK_OFFSET(0x1D9E61F0)
+#define STONEBRIDGECONTROLLER_SUBSCRIBEAVATARCHANGE_OFFSET UNITYSDK_OFFSET(0x1D9E6060)
+#define STONEBRIDGECONTROLLER_UNSUBSCRIBEAVATARCHANGE_OFFSET UNITYSDK_OFFSET(0x1D9E5ED0)
+#define STONEBRIDGECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D9E6330)
+#define STONEBRIDGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E68B0)
 
-inline static constexpr unsigned int StoneBridgeController_TypeDefinitionIndex = 78858;
+inline static constexpr unsigned int StoneBridgeController_TypeDefinitionIndex = 84424;
 
 class StoneBridgeController : public ::UnityEngine::MonoBehaviour
 {
@@ -30,14 +30,17 @@ public:
 	::System::Single blendTime; // 0x20
 	::System::Int32 segmentCount; // 0x24
 	::System::Int32 fixedEndSegmentCount; // 0x28
+	::System::Byte _padding0[0x4];
 	::UnityEngine::Transform* testPoint; // 0x30
 	::System::Boolean enablePerSegMode; // 0x38
 	::System::Boolean enableDebug; // 0x39
+	::System::Byte _padding1[0x2];
 	::System::Single yOffset; // 0x3C
 	::UnityEngine::Vector3 debugBoxSize; // 0x40
 	::UnityEngine::Color currentCellColor; // 0x4C
 	::UnityEngine::Color neighborCellColor; // 0x5C
 	::UnityEngine::Color normalColor; // 0x6C
+	::System::Byte _padding2[0x4];
 	::Il2CppArray<::UnityEngine::MeshRenderer*>* meshRenderers; // 0x80
 	::UnityEngine::Vector3 boundsSize; // 0x88
 	::System::Single progress; // 0x94
@@ -49,9 +52,11 @@ public:
 	::System::Int32 previousActiveIndex; // 0xB0
 	::System::Int32 activeIndexToUse; // 0xB4
 	::System::Boolean isForward; // 0xB8
+	::System::Byte _padding3[0x3];
 	::UnityEngine::Vector3 checkPosition; // 0xBC
-	::Class_3_C93CC3D2C2AC4067* charModelComp; // 0xC8
+	::GEIHCPAOKKK* charModelComp; // 0xC8
 	::System::Boolean subscribed; // 0xD0
+	::System::Byte _padding4[0x3];
 	::System::Int32 _SegmentCount; // 0xD4
 	::System::Int32 _BlendTime; // 0xD8
 	::System::Int32 _ActiveCellIndex; // 0xDC

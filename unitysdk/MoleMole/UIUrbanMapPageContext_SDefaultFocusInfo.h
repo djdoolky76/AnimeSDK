@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define MOLEMOLE_UIURBANMAPPAGECONTEXT_SDEFAULTFOCUSINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x817090)
-#define MOLEMOLE_UIURBANMAPPAGECONTEXT_SDEFAULTFOCUSINFO_GET_PLAYANIM_OFFSET UNITYSDK_OFFSET(0x817030)
+#define MOLEMOLE_UIURBANMAPPAGECONTEXT_SDEFAULTFOCUSINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x723590)
+#define MOLEMOLE_UIURBANMAPPAGECONTEXT_SDEFAULTFOCUSINFO_GET_PLAYANIM_OFFSET UNITYSDK_OFFSET(0x723530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapPageContext_SDefaultFocusInfo_TypeDefinitionIndex = 65725;
+	inline static constexpr unsigned int UIUrbanMapPageContext_SDefaultFocusInfo_TypeDefinitionIndex = 39317;
 
 	struct alignas(8) UIUrbanMapPageContext_SDefaultFocusInfo
 	{
@@ -25,16 +25,21 @@ namespace MoleMole
 		::System::Single OverrideRadiusRate; // 0x28
 		::Foundation::ViewObject::GroupMemberIdentifier GroupStateAnimGroupId; // 0x2C
 		::System::Int32 GroupStatePopId; // 0x34
-		::System::String* GroupStateAnimationName; // 0x38
+		::System::String* MatchGroupStateAnimStateName; // 0x38
+		::System::Int32 MatchGroupStateAnimStateValue; // 0x40
+		::System::Byte _padding0[0x4];
+		::System::String* GroupStateAnimationName; // 0x48
 
 		::System::Boolean get_PlayAnim()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPPAGECONTEXT_SDEFAULTFOCUSINFO_GET_PLAYANIM_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::MoleMole::UIUrbanMapPageContext_SDefaultFocusInfo other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UIUrbanMapPageContext_SDefaultFocusInfo))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPPAGECONTEXT_SDEFAULTFOCUSINFO_EQUALS_OFFSET))(this, other);
 		}
+		*/
 	};
 }

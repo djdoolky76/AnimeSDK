@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CONVERTHELPER_CHARTOINT_OFFSET UNITYSDK_OFFSET(0x1A89A9A0)
-#define CONVERTHELPER_STRINGTOINTLIST_OFFSET UNITYSDK_OFFSET(0x1A89A9F0)
+#define CONVERTHELPER_CHARTOINT_OFFSET UNITYSDK_OFFSET(0x1831A8E0)
+#define CONVERTHELPER_STRINGTOINTLIST_OFFSET UNITYSDK_OFFSET(0x1831A930)
 
-inline static constexpr unsigned int ConvertHelper_TypeDefinitionIndex = 62685;
+inline static constexpr unsigned int ConvertHelper_TypeDefinitionIndex = 84025;
 
 class ConvertHelper : public ::System::Object
 {

@@ -4,19 +4,18 @@
 
 namespace System { template <typename T> class Func_1; }
 namespace UnityEngine::InputSystem { class InputDevice; }
-namespace UnityEngine::InputSystem { template <typename T> class InputManager___c__60_1; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputManager___c__60_1_TypeDefinitionIndex = 32308;
+	inline static constexpr unsigned int InputManager___c__60_1_TypeDefinitionIndex = 31757;
 
-	template <typename TDevice>
+	template <typename T>
 	class InputManager___c__60_1 : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>**)Il2CppClass::FromTypeDefinitionIndex(InputManager___c__60_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(InputManager___c__60_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 		static ::System::Func_1<::UnityEngine::InputSystem::InputDevice*>** StaticGet___9__60_0()
 		{

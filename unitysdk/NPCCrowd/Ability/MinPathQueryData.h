@@ -6,19 +6,20 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Experimental/AI/NavMeshQuery.h"
 
-#define NPCCROWD_ABILITY_MINPATHQUERYDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5ECD50)
-#define NPCCROWD_ABILITY_MINPATHQUERYDATA_GETNEARESTPOS_OFFSET UNITYSDK_OFFSET(0x5ECE70)
-#define NPCCROWD_ABILITY_MINPATHQUERYDATA_INITDATA_OFFSET UNITYSDK_OFFSET(0x5ECD40)
-#define NPCCROWD_ABILITY_MINPATHQUERYDATA_QUERYFINISHED_OFFSET UNITYSDK_OFFSET(0x5ECD60)
+#define NPCCROWD_ABILITY_MINPATHQUERYDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x634240)
+#define NPCCROWD_ABILITY_MINPATHQUERYDATA_GETNEARESTPOS_OFFSET UNITYSDK_OFFSET(0x634360)
+#define NPCCROWD_ABILITY_MINPATHQUERYDATA_INITDATA_OFFSET UNITYSDK_OFFSET(0x634230)
+#define NPCCROWD_ABILITY_MINPATHQUERYDATA_QUERYFINISHED_OFFSET UNITYSDK_OFFSET(0x634250)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int MinPathQueryData_TypeDefinitionIndex = 66569;
+	inline static constexpr unsigned int MinPathQueryData_TypeDefinitionIndex = 46492;
 
 	struct alignas(8) MinPathQueryData
 	{
 		// static const ::System::Int32 MaxPolygonCnt = 0x64; // 0x0
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavmeshQueryDataFragment> queryDatas; // 0x10
+		::System::Byte _padding0[0x8];
 		::Il2CppArray<::UnityEngine::Experimental::AI::NavMeshQuery>* queries; // 0x20
 		::System::Int32 count; // 0x28
 		::NPCCrowd::Ability::MinPathQueryResult queryResult; // 0x2C

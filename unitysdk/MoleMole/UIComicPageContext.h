@@ -6,26 +6,26 @@ namespace MoleMole { class ComicConfig; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UICOMICPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x192BB130)
+#define MOLEMOLE_UICOMICPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1890D2C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageContext_TypeDefinitionIndex = 87653;
+	inline static constexpr unsigned int UIComicPageContext_TypeDefinitionIndex = 64739;
 
 	class UIComicPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* IntroKey; // 0x28
-		::System::String* FadeOutParam; // 0x30
+		::System::String* TitleKey; // 0x28
+		::System::Action* startOutsideFadeOutAction; // 0x30
 		::System::Action* executeWhenFadeOutStart; // 0x38
-		::System::Action* startOutsideFadeOutAction; // 0x40
+		::System::String* FadeOutParam; // 0x40
 		::MoleMole::ComicConfig* ComicConfig; // 0x48
-		::System::String* FadeInParam; // 0x50
-		::System::String* TitleKey; // 0x58
+		::System::String* IntroKey; // 0x50
+		::System::String* FadeInParam; // 0x58
 		::System::String* UIPlayMode; // 0x60
 		::System::Int32 PerformId; // 0x68
-		::System::Boolean UseWhiteMaskFadeOut; // 0x6C
-		::System::Boolean connectExitHollow; // 0x6D
+		::System::Boolean connectExitHollow; // 0x6C
+		::System::Boolean UseWhiteMaskFadeOut; // 0x6D
 		::System::Boolean UseWhiteMaskFadeIn; // 0x6E
 		::System::Boolean ConnectCutScene; // 0x6F
 		::System::Boolean overrideFadeOutByOuside; // 0x70

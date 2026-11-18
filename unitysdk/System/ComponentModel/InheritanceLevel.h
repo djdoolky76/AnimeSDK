@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int InheritanceLevel_TypeDefinitionIndex = 3017;
+	inline static constexpr unsigned int InheritanceLevel_TypeDefinitionIndex = 3016;
 
 	enum class InheritanceLevel : ::System::Int32
 	{

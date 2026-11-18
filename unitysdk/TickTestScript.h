@@ -2,20 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_4D3FA2DF8EFA3BF8;
+class BDLKAHNBCCM;
 namespace UnityEngine { class Animator; }
 
-#define TICKTESTSCRIPT_START_OFFSET UNITYSDK_OFFSET(0x1E353760)
-#define TICKTESTSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E353870)
+#define TICKTESTSCRIPT_START_OFFSET UNITYSDK_OFFSET(0x1C6BFCA0)
+#define TICKTESTSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6BFDB0)
 
-inline static constexpr unsigned int TickTestScript_TypeDefinitionIndex = 66186;
+inline static constexpr unsigned int TickTestScript_TypeDefinitionIndex = 42757;
 
 class TickTestScript : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::Single tickThreshold; // 0x18
+	::System::Byte _padding0[0x4];
 	::UnityEngine::Animator* animator; // 0x20
-	::Class_1_4D3FA2DF8EFA3BF8* tickObject; // 0x28
+	::BDLKAHNBCCM* tickObject; // 0x28
 
 	::System::Void _ctor()
 	{

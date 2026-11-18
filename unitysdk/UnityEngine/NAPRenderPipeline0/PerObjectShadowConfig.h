@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PerObjectShadowConfig_TypeDefinitionIndex = 6121;
+	inline static constexpr unsigned int PerObjectShadowConfig_TypeDefinitionIndex = 6129;
 
 	struct alignas(4) PerObjectShadowConfig
 	{
@@ -15,14 +15,15 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Boolean useBakedObjectSpaceBounds; // 0x14
 		::System::Boolean isOptimizeRendererDrawFlagOn; // 0x15
 		::System::Boolean fixCSMShadowProxyMask; // 0x16
-		::System::Boolean disablePerObjectShadowInBlackCanvas; // 0x17
-		::System::Boolean distanceCulling; // 0x18
-		::System::Boolean distanceCullOnCSMRender; // 0x19
-		::System::Boolean checkVisibilityOfCascadeShadow; // 0x1A
-		::System::Boolean receiveSelfShadow; // 0x1B
-		::System::Boolean fixLargePosition; // 0x1C
-		::System::Boolean optimizeProxyBounds; // 0x1D
-		::System::Boolean optimizeBiases; // 0x1E
+		::System::Boolean isMobilePlatform; // 0x17
+		::System::Boolean disablePerObjectShadowInBlackCanvas; // 0x18
+		::System::Boolean distanceCulling; // 0x19
+		::System::Boolean distanceCullOnCSMRender; // 0x1A
+		::System::Boolean checkVisibilityOfCascadeShadow; // 0x1B
+		::System::Boolean receiveSelfShadow; // 0x1C
+		::System::Boolean fixLargePosition; // 0x1D
+		::System::Boolean optimizeProxyBounds; // 0x1E
+		::System::Boolean optimizeBiases; // 0x1F
 		::System::Int32 maxCount; // 0x20
 		::System::Int32 maxAtlasSize; // 0x24
 		::System::Int32 resolution; // 0x28
@@ -60,8 +61,13 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Single cpuLightTileMinSize; // 0x78
 		::System::Single characterPunctualLightFadeDistance; // 0x7C
 		::System::Boolean fixShadowCoverageOutOfFrustum; // 0x80
+		::System::Byte _padding0[0x3];
 		::System::Single unlockLightAngleMovingThreshold; // 0x84
 		::System::Single unlockLightAngleFadeOutDuration; // 0x88
 		::System::Single unlockLightAngleFadeInDuration; // 0x8C
+		::System::Single cascade4SplitX; // 0x90
+		::System::Single cascade4SplitY; // 0x94
+		::System::Single cascade4SplitZ; // 0x98
+		::System::Single shadowDistance; // 0x9C
 	};
 }

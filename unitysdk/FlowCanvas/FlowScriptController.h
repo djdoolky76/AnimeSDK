@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/GraphOwner_1.h"
 
-namespace FlowCanvas { class FlowScript; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define FLOWCANVAS_FLOWSCRIPTCONTROLLER_CALLFUNCTIONASYNC_OFFSET UNITYSDK_OFFSET(0x1DB22680)
-#define FLOWCANVAS_FLOWSCRIPTCONTROLLER_CALLFUNCTION_1_OFFSET UNITYSDK_OFFSET(0x1DB22620)
-#define FLOWCANVAS_FLOWSCRIPTCONTROLLER_CALLFUNCTION_OFFSET UNITYSDK_OFFSET(0x1DB225C0)
-#define FLOWCANVAS_FLOWSCRIPTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB226F0)
+#define FLOWCANVAS_FLOWSCRIPTCONTROLLER_CALLFUNCTIONASYNC_OFFSET UNITYSDK_OFFSET(0x1DE95500)
+#define FLOWCANVAS_FLOWSCRIPTCONTROLLER_CALLFUNCTION_1_OFFSET UNITYSDK_OFFSET(0x1DE954A0)
+#define FLOWCANVAS_FLOWSCRIPTCONTROLLER_CALLFUNCTION_OFFSET UNITYSDK_OFFSET(0x1DE95440)
+#define FLOWCANVAS_FLOWSCRIPTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE95570)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowScriptController_TypeDefinitionIndex = 30296;
+	inline static constexpr unsigned int FlowScriptController_TypeDefinitionIndex = 29440;
 
-	class FlowScriptController : public ::NodeCanvas::Framework::GraphOwner_1<::FlowCanvas::FlowScript*>
+	class FlowScriptController
 	{
 	public:
 		::System::Void _ctor()

@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 #include "unitysdk/MoleMole/Config/TimePeriodType.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETSUMMERTIDETREASURETIMEPERIOD_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B16B00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETSUMMERTIDETREASURETIMEPERIOD__CTOR_OFFSET UNITYSDK_OFFSET(0x19B16B90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETSUMMERTIDETREASURETIMEPERIOD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8F3AB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETSUMMERTIDETREASURETIMEPERIOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F3B40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetSummerTideTreasureTimePeriod_TypeDefinitionIndex = 70788;
+	inline static constexpr unsigned int LD_GetSummerTideTreasureTimePeriod_TypeDefinitionIndex = 81671;
 
-	class LD_GetSummerTideTreasureTimePeriod : public ::FlowCanvas::Nodes::PureFunctionNode_1<::MoleMole::Config::TimePeriodType>
+	class LD_GetSummerTideTreasureTimePeriod
 	{
 	public:
 		::System::Void _ctor()

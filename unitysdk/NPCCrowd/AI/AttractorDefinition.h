@@ -6,6 +6,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 
 namespace Foundation::Unreal { class SerializableGameplayTagQuery; }
 namespace NPCCrowd::AI { class AIActionRefItem; }
@@ -14,23 +15,24 @@ namespace Newtonsoft::Json { class JsonSerializerSettings; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_ATTRACTORDEFINITION_FROMJSON_OFFSET UNITYSDK_OFFSET(0xD87B390)
-#define NPCCROWD_AI_ATTRACTORDEFINITION_GETACTIONREFITEM_OFFSET UNITYSDK_OFFSET(0x5A0670)
-#define NPCCROWD_AI_ATTRACTORDEFINITION_TOJSON_OFFSET UNITYSDK_OFFSET(0x5A0680)
-#define NPCCROWD_AI_ATTRACTORDEFINITION__CCTOR_OFFSET UNITYSDK_OFFSET(0xD87B4C0)
+#define NPCCROWD_AI_ATTRACTORDEFINITION_FROMJSON_OFFSET UNITYSDK_OFFSET(0xED50F90)
+#define NPCCROWD_AI_ATTRACTORDEFINITION_GETACTIONREFITEM_OFFSET UNITYSDK_OFFSET(0x5C55F0)
+#define NPCCROWD_AI_ATTRACTORDEFINITION_TOJSON_OFFSET UNITYSDK_OFFSET(0x5C5600)
+#define NPCCROWD_AI_ATTRACTORDEFINITION__CCTOR_OFFSET UNITYSDK_OFFSET(0xED510C0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorDefinition_TypeDefinitionIndex = 84591;
+	inline static constexpr unsigned int AttractorDefinition_TypeDefinitionIndex = 68581;
 
 	struct alignas(8) AttractorDefinition
 	{
 		static ::Newtonsoft::Json::JsonSerializerSettings** StaticGet_settings()
 		{
-			return (::Newtonsoft::Json::JsonSerializerSettings**)Il2CppClass::FromTypeDefinitionIndex(AttractorDefinition_TypeDefinitionIndex)->GetStaticField(0x51B70);
+			return (::Newtonsoft::Json::JsonSerializerSettings**)Il2CppClass::FromTypeDefinitionIndex(AttractorDefinition_TypeDefinitionIndex)->GetStaticField(0x4ED70);
 		}
 		::System::Collections::Generic::List_1<::NPCCrowd::AI::ConditionActionItem>* conditionActionItems; // 0x10
 		::System::Boolean randomPickSingleAction; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::String* loopSoundEvent; // 0x20
 		::System::Single randomThreshold; // 0x28
 		::System::Single attractCD; // 0x2C
@@ -38,15 +40,18 @@ namespace NPCCrowd::AI
 		::UnityEngine::Vector2 queryBox; // 0x34
 		::UnityEngine::Vector3 queryBoxOffset; // 0x3C
 		::System::Single conflictRadius; // 0x48
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::NPCCrowd::AI::CrowdConditionBase*>* conditions; // 0x50
 		::NPCCrowd::AI::TimeControl timeControl; // 0x58
 		::System::Int32 priority; // 0x60
 		::System::Single enterAngleLimitation; // 0x64
 		::System::Single turnAngleLimitation; // 0x68
 		::System::Boolean tagFilter; // 0x6C
+		::System::Byte _padding2[0x3];
 		::Foundation::Unreal::SerializableGameplayTagQuery* tagMatchExpression; // 0x70
 		::System::Boolean spawnDefaultNPC; // 0x78
 		::System::Boolean useNpcSub; // 0x79
+		::System::Byte _padding3[0x2];
 		::NPCCrowd::AI::PopulationTemplateRefItem populationRef; // 0x7C
 		::System::Int32 npcCommonTagID; // 0x80
 		::System::Int32 npcSubID; // 0x84
@@ -59,21 +64,21 @@ namespace NPCCrowd::AI
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NPCCROWD_AI_ATTRACTORDEFINITION__CCTOR_OFFSET))();
 		}
 
-		/*
 		::System::Collections::Generic::List_1<::NPCCrowd::AI::AIActionRefItem*>* GetActionRefItem(::NPCCrowd::AI::ConditionContext context)
 		{
 			return ((::System::Collections::Generic::List_1<::NPCCrowd::AI::AIActionRefItem*>*(*)(::PVOID, ::NPCCrowd::AI::ConditionContext))((::PBYTE)hIl2Cpp + NPCCROWD_AI_ATTRACTORDEFINITION_GETACTIONREFITEM_OFFSET))(this, context);
 		}
-		*/
 
 		::System::String* ToJson()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AI_ATTRACTORDEFINITION_TOJSON_OFFSET))(this);
 		}
 
+		/*
 		static ::NPCCrowd::AI::AttractorDefinition FromJson(::System::String* json)
 		{
 			return ((::NPCCrowd::AI::AttractorDefinition(*)(::System::String*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_ATTRACTORDEFINITION_FROMJSON_OFFSET))(json);
 		}
+		*/
 	};
 }

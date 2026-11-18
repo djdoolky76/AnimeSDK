@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/StateTreeGameplay/VirtualProxy_StateTreeCommonTaskBase.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALPROXY_ADDVALUEFLOATOVERTIMETASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1878F2F0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_ADDVALUEFLOATOVERTIMETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1878F3D0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_ADDVALUEFLOATOVERTIMETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1878F370)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_ADDVALUEFLOATOVERTIMETASK_TICK_OFFSET UNITYSDK_OFFSET(0x1878F4A0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_ADDVALUEFLOATOVERTIMETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1878F580)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_ADDVALUEFLOATOVERTIMETASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1BF46BB0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_ADDVALUEFLOATOVERTIMETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1BF46C90)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_ADDVALUEFLOATOVERTIMETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1BF46C30)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_ADDVALUEFLOATOVERTIMETASK_TICK_OFFSET UNITYSDK_OFFSET(0x1BF46D60)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_ADDVALUEFLOATOVERTIMETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF46E50)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualProxy_AddValueFloatOverTimeTask_TypeDefinitionIndex = 59137;
+	inline static constexpr unsigned int VirtualProxy_AddValueFloatOverTimeTask_TypeDefinitionIndex = 53189;
 
 	class VirtualProxy_AddValueFloatOverTimeTask : public ::StateTreeGameplay::VirtualProxy_StateTreeCommonTaskBase
 	{

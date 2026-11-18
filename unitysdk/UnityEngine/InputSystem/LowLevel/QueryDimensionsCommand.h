@@ -3,14 +3,15 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYDIMENSIONSCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1F810AC0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYDIMENSIONSCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0xAB53B0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYDIMENSIONSCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F810AA0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYDIMENSIONSCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1FC21640)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYDIMENSIONSCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x99B2B0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYDIMENSIONSCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1FC21620)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int QueryDimensionsCommand_TypeDefinitionIndex = 32474;
+	inline static constexpr unsigned int QueryDimensionsCommand_TypeDefinitionIndex = 31923;
 
 	struct alignas(4) QueryDimensionsCommand
 	{
@@ -18,23 +19,21 @@ namespace UnityEngine::InputSystem::LowLevel
 		::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand; // 0x10
 		::UnityEngine::Vector2 outDimensions; // 0x18
 
-		/*
 		static ::UnityEngine::InputSystem::Utilities::FourCC get_Type()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYDIMENSIONSCOMMAND_GET_TYPE_OFFSET))();
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYDIMENSIONSCOMMAND_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand Create()
 		{
 			return ((::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYDIMENSIONSCOMMAND_CREATE_OFFSET))();
 		}
+		*/
 	};
 }

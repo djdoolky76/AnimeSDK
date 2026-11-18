@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/LyraSector/LyraPackedAssetUtils_PackedAssetKey.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/LyraSector/LyraPackedAssetUtils_PackedAssetKey.h"
 
-#define LYRASECTOR_LYRAPACKEDASSETKEYCOMPAER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E23B670)
-#define LYRASECTOR_LYRAPACKEDASSETKEYCOMPAER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E23B6F0)
-#define LYRASECTOR_LYRAPACKEDASSETKEYCOMPAER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E23B750)
+#define LYRASECTOR_LYRAPACKEDASSETKEYCOMPAER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E356650)
+#define LYRASECTOR_LYRAPACKEDASSETKEYCOMPAER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E3566D0)
+#define LYRASECTOR_LYRAPACKEDASSETKEYCOMPAER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E356730)
 
 namespace LyraSector
 {
-	inline static constexpr unsigned int LyraPackedAssetKeyCompaer_TypeDefinitionIndex = 27736;
+	inline static constexpr unsigned int LyraPackedAssetKeyCompaer_TypeDefinitionIndex = 26389;
 
 	class LyraPackedAssetKeyCompaer : public ::System::Object
 	{

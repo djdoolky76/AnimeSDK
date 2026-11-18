@@ -3,12 +3,12 @@
 
 namespace MoleMole::MaterialPropertyModifierEnumDefine
 {
-	inline static constexpr unsigned int MatCapBlendMode_TypeDefinitionIndex = 90764;
+	inline static constexpr unsigned int MatCapBlendMode_TypeDefinitionIndex = 45716;
 
 	enum class MatCapBlendMode : ::System::Byte
 	{
-		Overlay = 0x2,
-		AlphaBlended = 0x0,
-		Add = 0x1,
+		Overlay = 2,
+		Add = 1,
+		AlphaBlended = 0,
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int QueryPairedUserAccountCommand_Result_TypeDefinitionIndex = 32481;
+	inline static constexpr unsigned int QueryPairedUserAccountCommand_Result_TypeDefinitionIndex = 31930;
 
 	enum class QueryPairedUserAccountCommand_Result : ::System::Int64
 	{

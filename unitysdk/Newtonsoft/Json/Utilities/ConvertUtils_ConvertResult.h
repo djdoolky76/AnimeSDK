@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ConvertUtils_ConvertResult_TypeDefinitionIndex = 7047;
+	inline static constexpr unsigned int ConvertUtils_ConvertResult_TypeDefinitionIndex = 7054;
 
 	enum class ConvertUtils_ConvertResult : ::System::Int32
 	{

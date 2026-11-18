@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D375C91CCE5D3999;
+class CJIEIHEDMME;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BD0940)
-#define MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD0980)
-#define MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__REFRESHSHOWTABLE_B__24_0_OFFSET UNITYSDK_OFFSET(0x18BD0990)
+#define MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188512D0)
+#define MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18851310)
+#define MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__REFRESHSHOWTABLE_B__24_0_OFFSET UNITYSDK_OFFSET(0x18851320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityGoldenWeekV2WidgetController___c_TypeDefinitionIndex = 59804;
+	inline static constexpr unsigned int UIActivityGoldenWeekV2WidgetController___c_TypeDefinitionIndex = 76692;
 
 	class UIActivityGoldenWeekV2WidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_D375C91CCE5D3999*>** StaticGet___9__24_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_1_D375C91CCE5D3999*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityGoldenWeekV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A130);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIActivityGoldenWeekV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3BFB0);
 		}
-		static ::MoleMole::UIActivityGoldenWeekV2WidgetController___c** StaticGet___9()
+		static ::System::Comparison_1<::CJIEIHEDMME*>** StaticGet___9__24_0()
 		{
-			return (::MoleMole::UIActivityGoldenWeekV2WidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityGoldenWeekV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A138);
+			return (::System::Comparison_1<::CJIEIHEDMME*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityGoldenWeekV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3BFB8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _RefreshShowTable_b__24_0(::Class_1_D375C91CCE5D3999* x, ::Class_1_D375C91CCE5D3999* y)
+		::System::Int32 _RefreshShowTable_b__24_0(::CJIEIHEDMME* x, ::CJIEIHEDMME* y)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_D375C91CCE5D3999*, ::Class_1_D375C91CCE5D3999*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__REFRESHSHOWTABLE_B__24_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::CJIEIHEDMME*, ::CJIEIHEDMME*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYGOLDENWEEKV2WIDGETCONTROLLER___C__REFRESHSHOWTABLE_B__24_0_OFFSET))(this, x, y);
 		}
 	};
 }

@@ -3,11 +3,11 @@
 #include "unitysdk/NPCCrowd/AI/SpawnCheckType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_SPAWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x651930)
+#define NPCCROWD_AI_SPAWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x5A70F0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int SpawnConfig_TypeDefinitionIndex = 71820;
+	inline static constexpr unsigned int SpawnConfig_TypeDefinitionIndex = 44340;
 
 	struct alignas(4) SpawnConfig
 	{
@@ -17,6 +17,7 @@ namespace NPCCrowd::AI
 		::System::Single checkRadius; // 0x1C
 		::System::Single weight; // 0x20
 		::System::Boolean isGlobalPercentWeight; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::Single populationWeight; // 0x28
 		::System::Single nodeLoadMaxFactor; // 0x2C
 		::System::Boolean ignoreInnerRange; // 0x30

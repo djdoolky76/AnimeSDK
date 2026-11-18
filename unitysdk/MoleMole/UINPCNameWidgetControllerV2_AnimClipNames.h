@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINPCNameWidgetControllerV2_AnimClipNames_TypeDefinitionIndex = 71000;
+	inline static constexpr unsigned int UINPCNameWidgetControllerV2_AnimClipNames_TypeDefinitionIndex = 40240;
 
 	class UINPCNameWidgetControllerV2_AnimClipNames : public ::System::Object
 	{

@@ -6,12 +6,12 @@ namespace MoleMole::Config { class ConfigBranchCharacterAnimatorStateLength; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHARACTERANIMATORSTATELENGTH_GET_BRANCHSTATELENGTHCONFIG_OFFSET UNITYSDK_OFFSET(0x1B547860)
-#define MOLEMOLE_CONFIG_CONFIGCHARACTERANIMATORSTATELENGTH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B547A70)
+#define MOLEMOLE_CONFIG_CONFIGCHARACTERANIMATORSTATELENGTH_GET_BRANCHSTATELENGTHCONFIG_OFFSET UNITYSDK_OFFSET(0x1BA278C0)
+#define MOLEMOLE_CONFIG_CONFIGCHARACTERANIMATORSTATELENGTH__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA27AD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCharacterAnimatorStateLength_TypeDefinitionIndex = 87875;
+	inline static constexpr unsigned int ConfigCharacterAnimatorStateLength_TypeDefinitionIndex = 76113;
 
 	class ConfigCharacterAnimatorStateLength : public ::Foundation::MihoyoSerializedScriptableObject
 	{

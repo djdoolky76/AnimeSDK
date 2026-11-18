@@ -8,27 +8,26 @@ namespace RootMotion { class Baker_ClipSettings; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Animator; }
-namespace UnityEngine { class Transform; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define ROOTMOTION_BAKER_ASTHREAD_OFFSET UNITYSDK_OFFSET(0x1F1306A0)
-#define ROOTMOTION_BAKER_BAKECLIP_OFFSET UNITYSDK_OFFSET(0x1F130750)
-#define ROOTMOTION_BAKER_GET_BAKINGPROGRESS_OFFSET UNITYSDK_OFFSET(0x1F130710)
-#define ROOTMOTION_BAKER_GET_CLIPLENGTH_OFFSET UNITYSDK_OFFSET(0x1F130730)
-#define ROOTMOTION_BAKER_GET_ISBAKING_OFFSET UNITYSDK_OFFSET(0x1F1306F0)
-#define ROOTMOTION_BAKER_OPENSCRIPTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F130600)
-#define ROOTMOTION_BAKER_OPENUSERMANUAL_OFFSET UNITYSDK_OFFSET(0x1F1305B0)
-#define ROOTMOTION_BAKER_SET_BAKINGPROGRESS_OFFSET UNITYSDK_OFFSET(0x1F130720)
-#define ROOTMOTION_BAKER_SET_CLIPLENGTH_OFFSET UNITYSDK_OFFSET(0x1F130740)
-#define ROOTMOTION_BAKER_SET_ISBAKING_OFFSET UNITYSDK_OFFSET(0x1F130700)
-#define ROOTMOTION_BAKER_STARTBAKING_OFFSET UNITYSDK_OFFSET(0x1F130760)
-#define ROOTMOTION_BAKER_STOPBAKING_OFFSET UNITYSDK_OFFSET(0x1F130770)
-#define ROOTMOTION_BAKER_SUPPORTGROUP_OFFSET UNITYSDK_OFFSET(0x1F130650)
-#define ROOTMOTION_BAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F130780)
+#define ROOTMOTION_BAKER_ASTHREAD_OFFSET UNITYSDK_OFFSET(0x1F504170)
+#define ROOTMOTION_BAKER_BAKECLIP_OFFSET UNITYSDK_OFFSET(0x1F504220)
+#define ROOTMOTION_BAKER_GET_BAKINGPROGRESS_OFFSET UNITYSDK_OFFSET(0x1F5041E0)
+#define ROOTMOTION_BAKER_GET_CLIPLENGTH_OFFSET UNITYSDK_OFFSET(0x1F504200)
+#define ROOTMOTION_BAKER_GET_ISBAKING_OFFSET UNITYSDK_OFFSET(0x1F5041C0)
+#define ROOTMOTION_BAKER_OPENSCRIPTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F5040D0)
+#define ROOTMOTION_BAKER_OPENUSERMANUAL_OFFSET UNITYSDK_OFFSET(0x1F504080)
+#define ROOTMOTION_BAKER_SET_BAKINGPROGRESS_OFFSET UNITYSDK_OFFSET(0x1F5041F0)
+#define ROOTMOTION_BAKER_SET_CLIPLENGTH_OFFSET UNITYSDK_OFFSET(0x1F504210)
+#define ROOTMOTION_BAKER_SET_ISBAKING_OFFSET UNITYSDK_OFFSET(0x1F5041D0)
+#define ROOTMOTION_BAKER_STARTBAKING_OFFSET UNITYSDK_OFFSET(0x1F504230)
+#define ROOTMOTION_BAKER_STOPBAKING_OFFSET UNITYSDK_OFFSET(0x1F504240)
+#define ROOTMOTION_BAKER_SUPPORTGROUP_OFFSET UNITYSDK_OFFSET(0x1F504120)
+#define ROOTMOTION_BAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F504250)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Baker_TypeDefinitionIndex = 38995;
+	inline static constexpr unsigned int Baker_TypeDefinitionIndex = 36915;
 
 	class Baker : public ::UnityEngine::MonoBehaviour
 	{
@@ -36,18 +35,21 @@ namespace RootMotion
 		::System::Int32 frameRate; // 0x18
 		::System::Single keyReductionError; // 0x1C
 		::RootMotion::Baker_Mode mode; // 0x20
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::AnimationClip*>* animationClips; // 0x28
 		::Il2CppArray<::System::String*>* animationStates; // 0x30
 		::System::String* saveToFolder; // 0x38
 		::System::String* appendName; // 0x40
 		::System::String* saveName; // 0x48
 		::System::Boolean _isBaking_k__BackingField; // 0x50
+		::System::Byte _padding1[0x3];
 		::System::Single _bakingProgress_k__BackingField; // 0x54
 		::UnityEngine::Animator* animator; // 0x58
 		::UnityEngine::Playables::PlayableDirector* director; // 0x60
 		::RootMotion::Baker_BakerDelegate* OnStartClip; // 0x68
 		::RootMotion::Baker_BakerDelegate* OnUpdateClip; // 0x70
 		::System::Boolean inheritClipSettings; // 0x78
+		::System::Byte _padding2[0x7];
 		::RootMotion::Baker_ClipSettings* clipSettings; // 0x80
 		::System::Single _clipLength_k__BackingField; // 0x88
 		::System::Boolean addLoopFrame; // 0x8C

@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RootMotion/FinalIK/HitReaction_HitPoint.h"
 
-namespace RootMotion::FinalIK { class HitReaction_HitPointEffector_EffectorLink; }
 namespace RootMotion::FinalIK { class IKSolverFullBodyBiped; }
+namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTEFFECTOR_CROSSFADESTART_OFFSET UNITYSDK_OFFSET(0x1F9214C0)
-#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTEFFECTOR_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1F921360)
-#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTEFFECTOR_ONAPPLY_OFFSET UNITYSDK_OFFSET(0x1F921530)
-#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTEFFECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F921900)
+#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTEFFECTOR_CROSSFADESTART_OFFSET UNITYSDK_OFFSET(0x1FD2AE70)
+#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTEFFECTOR_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1FD2AD10)
+#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTEFFECTOR_ONAPPLY_OFFSET UNITYSDK_OFFSET(0x1FD2AEE0)
+#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTEFFECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD2B2B0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int HitReaction_HitPointEffector_TypeDefinitionIndex = 38836;
+	inline static constexpr unsigned int HitReaction_HitPointEffector_TypeDefinitionIndex = 36814;
 
 	class HitReaction_HitPointEffector : public ::RootMotion::FinalIK::HitReaction_HitPoint
 	{
 	public:
 		::UnityEngine::AnimationCurve* offsetInForceDirection; // 0x48
 		::UnityEngine::AnimationCurve* offsetInUpDirection; // 0x50
-		::Il2CppArray<::RootMotion::FinalIK::HitReaction_HitPointEffector_EffectorLink*>* effectorLinks; // 0x58
+		::Il2CppArray<::System::Object*>* effectorLinks; // 0x58
 
 		::System::Void _ctor()
 		{

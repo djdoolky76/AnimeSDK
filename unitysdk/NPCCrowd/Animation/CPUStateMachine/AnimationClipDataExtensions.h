@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationClipData.h"
 #include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationClipDataMultiLayer.h"
-#include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONCLIPDATAEXTENSIONS_GETLAYERCLIPDATAREF_OFFSET UNITYSDK_OFFSET(0xE93C280)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONCLIPDATAEXTENSIONS_GETLAYERCLIPDATAREF_OFFSET UNITYSDK_OFFSET(0x1002B4A0)
 
 namespace NPCCrowd::Animation::CPUStateMachine
 {
-	inline static constexpr unsigned int AnimationClipDataExtensions_TypeDefinitionIndex = 71970;
+	inline static constexpr unsigned int AnimationClipDataExtensions_TypeDefinitionIndex = 84898;
 
 	class AnimationClipDataExtensions : public ::System::Object
 	{

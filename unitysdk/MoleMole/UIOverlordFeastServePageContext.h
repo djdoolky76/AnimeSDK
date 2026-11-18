@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIOVERLORDFEASTSERVEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15172E20)
+#define MOLEMOLE_UIOVERLORDFEASTSERVEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14CB21D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastServePageContext_TypeDefinitionIndex = 47448;
+	inline static constexpr unsigned int UIOverlordFeastServePageContext_TypeDefinitionIndex = 39873;
 
 	class UIOverlordFeastServePageContext : public ::MoleMole::UIControllerContextBase
 	{

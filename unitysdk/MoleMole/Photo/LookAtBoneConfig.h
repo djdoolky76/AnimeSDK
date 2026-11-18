@@ -6,9 +6,9 @@
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int LookAtBoneConfig_TypeDefinitionIndex = 69084;
+	inline static constexpr unsigned int LookAtBoneConfig_TypeDefinitionIndex = 80228;
 
-	struct alignas(8) LookAtBoneConfig
+	struct alignas(4) LookAtBoneConfig
 	{
 		::PipelineCamera::SerializableHashString boneName; // 0x10
 		::MoleMole::Photo::LookAtBoneForwardAxis forwardAxis; // 0x20

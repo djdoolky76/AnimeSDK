@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETBEATMAPNEXTWAVE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x107D3090)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETBEATMAPNEXTWAVE_START_OFFSET UNITYSDK_OFFSET(0x107D3180)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETBEATMAPNEXTWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x107D3430)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETBEATMAPNEXTWAVE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x14306F90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETBEATMAPNEXTWAVE_START_OFFSET UNITYSDK_OFFSET(0x14307080)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETBEATMAPNEXTWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x14307330)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetBeatmapNextWave_TypeDefinitionIndex = 71787;
+	inline static constexpr unsigned int LDSetBeatmapNextWave_TypeDefinitionIndex = 42874;
 
 	class LDSetBeatmapNextWave : public ::FlowCanvas::Nodes::FlowControlNode
 	{

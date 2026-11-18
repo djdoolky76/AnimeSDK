@@ -1,0 +1,121 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IOOIHHOJOPI.h"
+
+class FGCOIBFFCHB;
+class FILNFMCNCFE;
+class GCIMMDDIFBJ;
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+
+#define FPGHHNIGFJA_AJBEPHMKFOE_OFFSET UNITYSDK_OFFSET(0x17510220)
+#define FPGHHNIGFJA_BHABHMFGGNC_OFFSET UNITYSDK_OFFSET(0x17510210)
+#define FPGHHNIGFJA_CJBFCLMFDOM_OFFSET UNITYSDK_OFFSET(0x17510270)
+#define FPGHHNIGFJA_EBONJHBDAPH_OFFSET UNITYSDK_OFFSET(0x17510200)
+#define FPGHHNIGFJA_EFKGNFCEENK_OFFSET UNITYSDK_OFFSET(0x1750FE60)
+#define FPGHHNIGFJA_EMMLOJJHCKL_OFFSET UNITYSDK_OFFSET(0x17510230)
+#define FPGHHNIGFJA_GJGDAGLFAFP_OFFSET UNITYSDK_OFFSET(0x175101D0)
+#define FPGHHNIGFJA_HFCGPNKDICE_OFFSET UNITYSDK_OFFSET(0x175101E0)
+#define FPGHHNIGFJA_IIKDJHLGGIL_OFFSET UNITYSDK_OFFSET(0x17510280)
+#define FPGHHNIGFJA_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x1750FDA0)
+#define FPGHHNIGFJA_LKELIENMDFP_OFFSET UNITYSDK_OFFSET(0x17510250)
+#define FPGHHNIGFJA_MNBGAIEPADE_OFFSET UNITYSDK_OFFSET(0x17510260)
+#define FPGHHNIGFJA_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x1750FB60)
+#define FPGHHNIGFJA_PHHNMGEEGBK_OFFSET UNITYSDK_OFFSET(0x17510240)
+#define FPGHHNIGFJA_PNMBDCBCFBL_OFFSET UNITYSDK_OFFSET(0x175101F0)
+#define FPGHHNIGFJA__CTOR_OFFSET UNITYSDK_OFFSET(0x17510140)
+
+inline static constexpr unsigned int FPGHHNIGFJA_TypeDefinitionIndex = 53622;
+
+class FPGHHNIGFJA : public ::IOOIHHOJOPI
+{
+public:
+	::LGINJIKKBJA* _KPDIBJHOHGH_k__BackingField; // 0x28
+	::FILNFMCNCFE* _LKODBCDIEOK_k__BackingField; // 0x30
+	::UnityEngine::UI::Extension::UILocalizationText* _DLLGHOCLHNL_k__BackingField; // 0x38
+	::FGCOIBFFCHB* _NIFJLFKMGAC_k__BackingField; // 0x40
+	::GCIMMDDIFBJ* _DEJNOJBAFDE_k__BackingField; // 0x48
+	::UnityEngine::UI::Extension::UILocalizationText* _JMOHECJPHCM_k__BackingField; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FPGHHNIGFJA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::System::Void GJGDAGLFAFP(::UnityEngine::UI::Extension::UILocalizationText* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_GJGDAGLFAFP_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void EFKGNFCEENK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_EFKGNFCEENK_OFFSET))(this);
+	}
+
+	::System::Void HFCGPNKDICE(::UnityEngine::UI::Extension::UILocalizationText* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_HFCGPNKDICE_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void PNMBDCBCFBL(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_PNMBDCBCFBL_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::UI::Extension::UILocalizationText* EBONJHBDAPH()
+	{
+		return ((::UnityEngine::UI::Extension::UILocalizationText*(*)(::PVOID))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_EBONJHBDAPH_OFFSET))(this);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::LGINJIKKBJA* BHABHMFGGNC()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_BHABHMFGGNC_OFFSET))(this);
+	}
+
+	::System::Void AJBEPHMKFOE(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_AJBEPHMKFOE_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void EMMLOJJHCKL(::FILNFMCNCFE* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FILNFMCNCFE*))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_EMMLOJJHCKL_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::FILNFMCNCFE* PHHNMGEEGBK()
+	{
+		return ((::FILNFMCNCFE*(*)(::PVOID))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_PHHNMGEEGBK_OFFSET))(this);
+	}
+
+	::FGCOIBFFCHB* LKELIENMDFP()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_LKELIENMDFP_OFFSET))(this);
+	}
+
+	::UnityEngine::UI::Extension::UILocalizationText* MNBGAIEPADE()
+	{
+		return ((::UnityEngine::UI::Extension::UILocalizationText*(*)(::PVOID))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_MNBGAIEPADE_OFFSET))(this);
+	}
+
+	::GCIMMDDIFBJ* CJBFCLMFDOM()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_CJBFCLMFDOM_OFFSET))(this);
+	}
+
+	::System::Void IIKDJHLGGIL(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + FPGHHNIGFJA_IIKDJHLGGIL_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

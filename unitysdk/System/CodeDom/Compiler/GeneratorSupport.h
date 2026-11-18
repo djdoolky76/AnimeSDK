@@ -3,7 +3,7 @@
 
 namespace System::CodeDom::Compiler
 {
-	inline static constexpr unsigned int GeneratorSupport_TypeDefinitionIndex = 4054;
+	inline static constexpr unsigned int GeneratorSupport_TypeDefinitionIndex = 4053;
 
 	enum class GeneratorSupport : ::System::Int32
 	{

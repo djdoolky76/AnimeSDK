@@ -1,18 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/DataStructures/Lists/EasySerializeDictionary_3.h"
-#include "unitysdk/MoleMole/UI/FlowerShop/ESlotType.h"
 
-namespace MoleMole::Config { class ConfigFlowerShopActivityScriptableObject_FlowerChangeEffectDicEntry; }
-namespace System { class String; }
-
-#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_FLOWERCHANGEEFFECTDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x117097C0)
+#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_FLOWERCHANGEEFFECTDIC__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC6560)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFlowerShopActivityScriptableObject_FlowerChangeEffectDic_TypeDefinitionIndex = 48062;
+	inline static constexpr unsigned int ConfigFlowerShopActivityScriptableObject_FlowerChangeEffectDic_TypeDefinitionIndex = 83940;
 
-	class ConfigFlowerShopActivityScriptableObject_FlowerChangeEffectDic : public ::MoleMole::DataStructures::Lists::EasySerializeDictionary_3<::MoleMole::UI::FlowerShop::ESlotType, ::System::String*, ::MoleMole::Config::ConfigFlowerShopActivityScriptableObject_FlowerChangeEffectDicEntry*>
+	class ConfigFlowerShopActivityScriptableObject_FlowerChangeEffectDic
 	{
 	public:
 		::System::Void _ctor()

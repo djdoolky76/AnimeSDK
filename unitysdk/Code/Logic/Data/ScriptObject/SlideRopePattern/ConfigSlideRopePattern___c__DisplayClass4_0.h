@@ -6,12 +6,12 @@ namespace Code::Logic::Data::ScriptObject::SlideRopePattern { class ConfigSlideR
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18732120)
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN___C__DISPLAYCLASS4_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x187323C0)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C7B00)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_CONFIGSLIDEROPEPATTERN___C__DISPLAYCLASS4_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x1A1C7DA0)
 
 namespace Code::Logic::Data::ScriptObject::SlideRopePattern
 {
-	inline static constexpr unsigned int ConfigSlideRopePattern___c__DisplayClass4_0_TypeDefinitionIndex = 74499;
+	inline static constexpr unsigned int ConfigSlideRopePattern___c__DisplayClass4_0_TypeDefinitionIndex = 73592;
 
 	class ConfigSlideRopePattern___c__DisplayClass4_0 : public ::System::Object
 	{

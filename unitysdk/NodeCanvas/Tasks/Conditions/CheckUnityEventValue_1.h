@@ -3,19 +3,12 @@
 #include "unitysdk/NodeCanvas/Framework/ConditionTask.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
-namespace NodeCanvas::Tasks::Conditions { template <typename T> class CheckUnityEventValue_0_1; }
-namespace ParadoxNotion::Serialization { class ISerializedReflectedInfo; }
 namespace ParadoxNotion::Serialization { class SerializedUnityEventInfo; }
-namespace System { class String; }
-namespace System { class Type; }
-namespace System::Reflection { class FieldInfo; }
-namespace System::Reflection { class MemberInfo; }
-namespace System::Reflection { class PropertyInfo; }
 namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckUnityEventValue_1_TypeDefinitionIndex = 30688;
+	inline static constexpr unsigned int CheckUnityEventValue_1_TypeDefinitionIndex = 29646;
 
 	template <typename T>
 	class CheckUnityEventValue_1 : public ::NodeCanvas::Framework::ConditionTask

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIItemIconBtnWidgetController; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS114_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF7FC0)
-#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS114_0__SETENABLEEMPTYCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x18FF7FD0)
+#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS114_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182ED6B0)
+#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS114_0__SETENABLEEMPTYCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x182ED6C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIItemIconBtnWidgetController___c__DisplayClass114_0_TypeDefinitionIndex = 53268;
+	inline static constexpr unsigned int UIItemIconBtnWidgetController___c__DisplayClass114_0_TypeDefinitionIndex = 55113;
 
 	class UIItemIconBtnWidgetController___c__DisplayClass114_0 : public ::System::Object
 	{

@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/ChannelMapping.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHANNELMAPPINGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DF870)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHANNELMAPPINGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FCCD0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ChannelMappingParameter_TypeDefinitionIndex = 27931;
+	inline static constexpr unsigned int ChannelMappingParameter_TypeDefinitionIndex = 26653;
 
-	class ChannelMappingParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::ChannelMapping>
+	class ChannelMappingParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Rendering::Universal::ChannelMapping value, ::System::Boolean overrideState)

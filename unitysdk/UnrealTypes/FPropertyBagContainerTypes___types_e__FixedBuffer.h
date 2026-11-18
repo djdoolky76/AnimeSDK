@@ -4,10 +4,10 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int FPropertyBagContainerTypes___types_e__FixedBuffer_TypeDefinitionIndex = 28404;
+	inline static constexpr unsigned int FPropertyBagContainerTypes___types_e__FixedBuffer_TypeDefinitionIndex = 27841;
 
-	struct alignas(1) FPropertyBagContainerTypes___types_e__FixedBuffer
+	struct alignas(4) FPropertyBagContainerTypes___types_e__FixedBuffer
 	{
-		::System::Byte data[2]; // 0x0
+		::System::Byte FixedElementField; // 0x10
 	};
 }

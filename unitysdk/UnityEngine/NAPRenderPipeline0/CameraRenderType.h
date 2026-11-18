@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CameraRenderType_TypeDefinitionIndex = 5871;
+	inline static constexpr unsigned int CameraRenderType_TypeDefinitionIndex = 5877;
 
 	enum class CameraRenderType : ::System::Int32
 	{

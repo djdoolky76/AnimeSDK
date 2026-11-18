@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_2CB9F8B6A0E348FF;
-class Class_2_A2C95BEE51D13F24;
+class GILBPIMBPKB;
+class JCKGLABFMHJ;
 namespace MoleMole { class UISummerEventSurfMainPageController; }
 
-#define MOLEMOLE_UISUMMEREVENTSURFMAINPAGECONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1629E280)
-#define MOLEMOLE_UISUMMEREVENTSURFMAINPAGECONTROLLER___C__DISPLAYCLASS44_0__SHOWMISSION_B__0_OFFSET UNITYSDK_OFFSET(0x1629E290)
+#define MOLEMOLE_UISUMMEREVENTSURFMAINPAGECONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C9B5F0)
+#define MOLEMOLE_UISUMMEREVENTSURFMAINPAGECONTROLLER___C__DISPLAYCLASS44_0__SHOWMISSION_B__0_OFFSET UNITYSDK_OFFSET(0x19C9B600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerEventSurfMainPageController___c__DisplayClass44_0_TypeDefinitionIndex = 64326;
+	inline static constexpr unsigned int UISummerEventSurfMainPageController___c__DisplayClass44_0_TypeDefinitionIndex = 66722;
 
 	class UISummerEventSurfMainPageController___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:
-		::Class_2_2CB9F8B6A0E348FF* progress; // 0x10
-		::Class_2_A2C95BEE51D13F24* result; // 0x18
-		::MoleMole::UISummerEventSurfMainPageController* __4__this; // 0x20
+		::MoleMole::UISummerEventSurfMainPageController* __4__this; // 0x10
+		::GILBPIMBPKB* result; // 0x18
+		::JCKGLABFMHJ* progress; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_ANIMAGEASSETBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6C3A0)
+#define UNITYENGINE_ANIMAGEASSETBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x2006F6C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimageAssetBase_TypeDefinitionIndex = 39945;
+	inline static constexpr unsigned int AnimageAssetBase_TypeDefinitionIndex = 37945;
 
 	class AnimageAssetBase : public ::UnityEngine::Object
 	{

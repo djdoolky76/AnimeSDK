@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_3.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace Nap::NapECS { class EcsWorld; }
-
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_ENTITYLOCATIONPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x17298F20)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_ENTITYLOCATIONPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x16405250)
 
 namespace MoleMole::Config::CameraSequence::Utils
 {
-	inline static constexpr unsigned int EntityLocationPolicy_TypeDefinitionIndex = 86920;
+	inline static constexpr unsigned int EntityLocationPolicy_TypeDefinitionIndex = 65134;
 
-	class EntityLocationPolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_3<::UnityEngine::Vector3, ::System::UInt32, ::Nap::NapECS::EcsWorld*>
+	class EntityLocationPolicy
 	{
 	public:
 		::System::Void _ctor()

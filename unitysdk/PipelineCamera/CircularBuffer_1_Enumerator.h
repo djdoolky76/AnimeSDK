@@ -3,14 +3,13 @@
 #include "unitysdk/System/ValueType.h"
 
 namespace PipelineCamera { template <typename T> class CircularBuffer_1; }
-namespace System { class Object; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CircularBuffer_1_Enumerator_TypeDefinitionIndex = 38300;
+	inline static constexpr unsigned int CircularBuffer_1_Enumerator_TypeDefinitionIndex = 36302;
 
 	template <typename T>
-	struct CircularBuffer_1_Enumerator
+	struct alignas(8) CircularBuffer_1_Enumerator
 	{
 		::PipelineCamera::CircularBuffer_1<T>* _buffer; // 0x0
 		::System::Int32 _nextIndex; // 0x0

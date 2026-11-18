@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UICOOPTEAM3DMODELCONTROLLER_AVARTARSKINDATA_RELOADROLE_OFFSET UNITYSDK_OFFSET(0x19378470)
-#define MOLEMOLE_UICOOPTEAM3DMODELCONTROLLER_AVARTARSKINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19379520)
+#define MOLEMOLE_UICOOPTEAM3DMODELCONTROLLER_AVARTARSKINDATA_RELOADROLE_OFFSET UNITYSDK_OFFSET(0x16EBDE70)
+#define MOLEMOLE_UICOOPTEAM3DMODELCONTROLLER_AVARTARSKINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16EBEF10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopTeam3DModelController_AvartarSkinData_TypeDefinitionIndex = 90466;
+	inline static constexpr unsigned int UICoopTeam3DModelController_AvartarSkinData_TypeDefinitionIndex = 45959;
 
 	class UICoopTeam3DModelController_AvartarSkinData : public ::System::Object
 	{

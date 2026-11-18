@@ -4,36 +4,36 @@
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 #include "unitysdk/MoleMole/Vector2Int.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace MoleMole::Config { class ChangeFGItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGEFG_CUSTOMADDFUNCTION_OFFSET UNITYSDK_OFFSET(0x1A4B22B0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGEFG_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1A4B21F0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGEFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B2320)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGEFG_CUSTOMADDFUNCTION_OFFSET UNITYSDK_OFFSET(0x1653A690)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGEFG_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1653A5D0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGEFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1653A700)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChangeFG_TypeDefinitionIndex = 53670;
+	inline static constexpr unsigned int ConfigHollowChangeFG_TypeDefinitionIndex = 48418;
 
 	class ConfigHollowChangeFG : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::System::String* VideoPath; // 0x18
-		::UnityEngine::AnimationCurve* FadeInCurve; // 0x20
+		::UnityEngine::AnimationCurve* FadeOutCurve; // 0x18
+		::System::String* VideoPath; // 0x20
 		::System::Collections::Generic::List_1<::MoleMole::Config::ChangeFGItem*>* ChangeFGItems; // 0x28
-		::UnityEngine::AnimationCurve* FadeOutCurve; // 0x30
-		::System::Boolean SelectAll; // 0x38
-		::System::Boolean AutoFadeOut; // 0x39
-		::System::Boolean Enable; // 0x3A
-		::System::Boolean UseSpecific; // 0x3B
-		::System::Single FadeInDuration; // 0x3C
-		::MoleMole::Vector2Int ColRow; // 0x40
-		::System::Single FadeOutDuration; // 0x48
-		::MoleMole::Vector2Int StartRelativePos; // 0x4C
-		::System::Single TotalDuration; // 0x54
+		::UnityEngine::AnimationCurve* FadeInCurve; // 0x30
+		::MoleMole::Vector2Int StartRelativePos; // 0x38
+		::System::Boolean Enable; // 0x40
+		::System::Boolean UseSpecific; // 0x41
+		::System::Boolean SelectAll; // 0x42
+		::System::Boolean AutoFadeOut; // 0x43
+		::System::Single TotalDuration; // 0x44
+		::System::Single FadeInDuration; // 0x48
+		::System::Single FadeOutDuration; // 0x4C
+		::MoleMole::Vector2Int ColRow; // 0x50
 		::MoleMole::Config::ConfigSetSection_Order ConfigOrder; // 0x58
 
 		::System::Void _ctor()
@@ -41,9 +41,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGEFG__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGEFG_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHANGEFG_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 
 		::MoleMole::Config::ChangeFGItem* CustomAddFunction()

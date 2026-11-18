@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIGalgameReviewDialogPopWindowController; }
 
-#define MOLEMOLE_UIGALGAMEREVIEWDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD36F0)
-#define MOLEMOLE_UIGALGAMEREVIEWDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__INITVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x18AD3700)
+#define MOLEMOLE_UIGALGAMEREVIEWDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180A3FA0)
+#define MOLEMOLE_UIGALGAMEREVIEWDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__INITVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x180A3FB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgameReviewDialogPopWindowController___c__DisplayClass12_0_TypeDefinitionIndex = 56696;
+	inline static constexpr unsigned int UIGalgameReviewDialogPopWindowController___c__DisplayClass12_0_TypeDefinitionIndex = 72069;
 
 	class UIGalgameReviewDialogPopWindowController___c__DisplayClass12_0 : public ::System::Object
 	{

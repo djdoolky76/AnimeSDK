@@ -5,13 +5,13 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_SETBOOLEANRANDOM_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E7B6DC0)
-#define NODECANVAS_TASKS_ACTIONS_SETBOOLEANRANDOM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E7B6E00)
-#define NODECANVAS_TASKS_ACTIONS_SETBOOLEANRANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B6E70)
+#define NODECANVAS_TASKS_ACTIONS_SETBOOLEANRANDOM_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EA67E90)
+#define NODECANVAS_TASKS_ACTIONS_SETBOOLEANRANDOM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA67ED0)
+#define NODECANVAS_TASKS_ACTIONS_SETBOOLEANRANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA67F40)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SetBooleanRandom_TypeDefinitionIndex = 30747;
+	inline static constexpr unsigned int SetBooleanRandom_TypeDefinitionIndex = 30648;
 
 	class SetBooleanRandom : public ::NodeCanvas::Framework::ActionTask
 	{

@@ -6,19 +6,21 @@ namespace MoleMole { class UIArcadeBasePlayChildWindowController; }
 namespace MoleMole::MiniGame { class MiniGameWorldBase; }
 namespace System { class String; }
 
-#define MOLEMOLE_MINIGAME_MINIGAMECONTEXT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x753030)
-#define MOLEMOLE_MINIGAME_MINIGAMECONTEXT___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x753040)
+#define MOLEMOLE_MINIGAME_MINIGAMECONTEXT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x77C840)
+#define MOLEMOLE_MINIGAME_MINIGAMECONTEXT___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x77C850)
 
 namespace MoleMole::MiniGame
 {
-	inline static constexpr unsigned int MiniGameContext_TypeDefinitionIndex = 44722;
+	inline static constexpr unsigned int MiniGameContext_TypeDefinitionIndex = 86679;
 
 	struct alignas(8) MiniGameContext
 	{
 		::System::String* ip; // 0x10
 		::System::UInt16 port; // 0x18
+		::System::Byte _padding0[0x6];
 		::System::String* token; // 0x20
 		::System::Boolean useServer; // 0x28
+		::System::Byte _padding1[0x7];
 		::System::UInt64 worldId; // 0x30
 		::System::UInt64 playerUid; // 0x38
 		::MoleMole::MiniGame::MiniGameWorldBase* miniGameWorld; // 0x40

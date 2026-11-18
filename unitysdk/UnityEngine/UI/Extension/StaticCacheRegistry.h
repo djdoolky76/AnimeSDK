@@ -5,25 +5,31 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_UI_EXTENSION_STATICCACHEREGISTRY_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1E3545C0)
-#define UNITYENGINE_UI_EXTENSION_STATICCACHEREGISTRY_REGISTER_OFFSET UNITYSDK_OFFSET(0x1E354490)
-#define UNITYENGINE_UI_EXTENSION_STATICCACHEREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E354760)
+#define UNITYENGINE_UI_EXTENSION_STATICCACHEREGISTRY_CLEARALLONSUBSYSTEMREGISTRATION_OFFSET UNITYSDK_OFFSET(0x1C6C09D0)
+#define UNITYENGINE_UI_EXTENSION_STATICCACHEREGISTRY_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1C6C0A50)
+#define UNITYENGINE_UI_EXTENSION_STATICCACHEREGISTRY_REGISTER_OFFSET UNITYSDK_OFFSET(0x1C6C0BF0)
+#define UNITYENGINE_UI_EXTENSION_STATICCACHEREGISTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6C0D20)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int StaticCacheRegistry_TypeDefinitionIndex = 52750;
+	inline static constexpr unsigned int StaticCacheRegistry_TypeDefinitionIndex = 42798;
 
 	class StaticCacheRegistry : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet__clearCallbacks()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(StaticCacheRegistry_TypeDefinitionIndex)->GetStaticField(0x503B0);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(StaticCacheRegistry_TypeDefinitionIndex)->GetStaticField(0x51BA0);
 		}
 
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_STATICCACHEREGISTRY__CCTOR_OFFSET))();
+		}
+
+		static ::System::Void ClearAllOnSubsystemRegistration()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_STATICCACHEREGISTRY_CLEARALLONSUBSYSTEMREGISTRATION_OFFSET))();
 		}
 
 		static ::System::Void Register(::System::Action* clearCallback)

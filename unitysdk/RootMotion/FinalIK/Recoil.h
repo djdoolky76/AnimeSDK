@@ -7,26 +7,26 @@
 
 namespace RootMotion::FinalIK { class AimIK; }
 namespace RootMotion::FinalIK { class IKEffector; }
-namespace RootMotion::FinalIK { class Recoil_RecoilOffset; }
+namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_RECOIL_AFTERAIMIK_OFFSET UNITYSDK_OFFSET(0x1EE53C60)
-#define ROOTMOTION_FINALIK_RECOIL_AFTERFBBIK_OFFSET UNITYSDK_OFFSET(0x1EE53940)
-#define ROOTMOTION_FINALIK_RECOIL_FIRE_OFFSET UNITYSDK_OFFSET(0x1EE51A60)
-#define ROOTMOTION_FINALIK_RECOIL_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1EE51A20)
-#define ROOTMOTION_FINALIK_RECOIL_GET_PRIMARYHANDEFFECTOR_OFFSET UNITYSDK_OFFSET(0x1EE53800)
-#define ROOTMOTION_FINALIK_RECOIL_GET_PRIMARYHAND_OFFSET UNITYSDK_OFFSET(0x1EE536A0)
-#define ROOTMOTION_FINALIK_RECOIL_GET_SECONDARYHANDEFFECTOR_OFFSET UNITYSDK_OFFSET(0x1EE538A0)
-#define ROOTMOTION_FINALIK_RECOIL_GET_SECONDARYHAND_OFFSET UNITYSDK_OFFSET(0x1EE53750)
-#define ROOTMOTION_FINALIK_RECOIL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1EE53E50)
-#define ROOTMOTION_FINALIK_RECOIL_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1EE51C70)
-#define ROOTMOTION_FINALIK_RECOIL_SETHANDROTATIONS_OFFSET UNITYSDK_OFFSET(0x1EE51A40)
-#define ROOTMOTION_FINALIK_RECOIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE541A0)
+#define ROOTMOTION_FINALIK_RECOIL_AFTERAIMIK_OFFSET UNITYSDK_OFFSET(0x1F1F6C80)
+#define ROOTMOTION_FINALIK_RECOIL_AFTERFBBIK_OFFSET UNITYSDK_OFFSET(0x1F1F6960)
+#define ROOTMOTION_FINALIK_RECOIL_FIRE_OFFSET UNITYSDK_OFFSET(0x1F1F4A80)
+#define ROOTMOTION_FINALIK_RECOIL_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1F1F4A40)
+#define ROOTMOTION_FINALIK_RECOIL_GET_PRIMARYHANDEFFECTOR_OFFSET UNITYSDK_OFFSET(0x1F1F6820)
+#define ROOTMOTION_FINALIK_RECOIL_GET_PRIMARYHAND_OFFSET UNITYSDK_OFFSET(0x1F1F66C0)
+#define ROOTMOTION_FINALIK_RECOIL_GET_SECONDARYHANDEFFECTOR_OFFSET UNITYSDK_OFFSET(0x1F1F68C0)
+#define ROOTMOTION_FINALIK_RECOIL_GET_SECONDARYHAND_OFFSET UNITYSDK_OFFSET(0x1F1F6770)
+#define ROOTMOTION_FINALIK_RECOIL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F1F6E70)
+#define ROOTMOTION_FINALIK_RECOIL_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1F1F4C90)
+#define ROOTMOTION_FINALIK_RECOIL_SETHANDROTATIONS_OFFSET UNITYSDK_OFFSET(0x1F1F4A60)
+#define ROOTMOTION_FINALIK_RECOIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1F71C0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Recoil_TypeDefinitionIndex = 38824;
+	inline static constexpr unsigned int Recoil_TypeDefinitionIndex = 36963;
 
 	class Recoil : public ::RootMotion::FinalIK::OffsetModifier
 	{
@@ -34,14 +34,16 @@ namespace RootMotion::FinalIK
 		::RootMotion::FinalIK::AimIK* aimIK; // 0x30
 		::RootMotion::FinalIK::AimIK* headIK; // 0x38
 		::System::Boolean aimIKSolvedLast; // 0x40
+		::System::Byte _padding0[0x3];
 		::RootMotion::FinalIK::Recoil_Handedness handedness; // 0x44
 		::System::Boolean twoHanded; // 0x48
+		::System::Byte _padding1[0x7];
 		::UnityEngine::AnimationCurve* recoilWeight; // 0x50
 		::System::Single magnitudeRandom; // 0x58
 		::UnityEngine::Vector3 rotationRandom; // 0x5C
 		::UnityEngine::Vector3 handRotationOffset; // 0x68
 		::System::Single blendTime; // 0x74
-		::Il2CppArray<::RootMotion::FinalIK::Recoil_RecoilOffset*>* offsets; // 0x78
+		::Il2CppArray<::System::Object*>* offsets; // 0x78
 		::UnityEngine::Quaternion rotationOffset; // 0x80
 		::System::Single magnitudeMlp; // 0x90
 		::System::Single endTime; // 0x94
@@ -50,10 +52,12 @@ namespace RootMotion::FinalIK
 		::UnityEngine::Quaternion randomRotation; // 0xB8
 		::System::Single length; // 0xC8
 		::System::Boolean initiated; // 0xCC
+		::System::Byte _padding2[0x3];
 		::System::Single blendWeight; // 0xD0
 		::System::Single w; // 0xD4
 		::UnityEngine::Quaternion primaryHandRotation; // 0xD8
 		::System::Boolean handRotationsSet; // 0xE8
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Vector3 aimIKAxis; // 0xEC
 
 		::System::Void _ctor()

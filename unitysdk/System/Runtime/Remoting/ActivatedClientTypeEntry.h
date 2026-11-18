@@ -6,19 +6,19 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Runtime::Remoting::Contexts { class IContextAttribute; }
 
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDCLIENTTYPEENTRY_GET_CONTEXTATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1DDE1FC0)
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDCLIENTTYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDE1FD0)
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDCLIENTTYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE1EA0)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDCLIENTTYPEENTRY_GET_CONTEXTATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1E262CE0)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDCLIENTTYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E262CF0)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATEDCLIENTTYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E262BC0)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int ActivatedClientTypeEntry_TypeDefinitionIndex = 1238;
+	inline static constexpr unsigned int ActivatedClientTypeEntry_TypeDefinitionIndex = 1237;
 
 	class ActivatedClientTypeEntry : public ::System::Runtime::Remoting::TypeEntry
 	{
 	public:
-		::System::Type* obj_type; // 0x20
-		::System::String* applicationUrl; // 0x28
+		::System::String* applicationUrl; // 0x20
+		::System::Type* obj_type; // 0x28
 
 		::System::Void _ctor(::System::String* typeName, ::System::String* assemblyName, ::System::String* appUrl)
 		{

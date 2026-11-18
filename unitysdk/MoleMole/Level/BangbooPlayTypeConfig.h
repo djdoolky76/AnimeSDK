@@ -11,16 +11,18 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int BangbooPlayTypeConfig_TypeDefinitionIndex = 56710;
+	inline static constexpr unsigned int BangbooPlayTypeConfig_TypeDefinitionIndex = 68834;
 
 	struct alignas(8) BangbooPlayTypeConfig
 	{
 		::MoleMole::Level::BangbooPlayTypeTemplate templateType; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::Level::BangbooAbilityType>* extraAbilities; // 0x18
 		::Il2CppArray<::System::String*>* extraAbilityNames; // 0x20
 		::MoleMole::Level::BangbooPlayHUDType hudType; // 0x28
 		::System::Boolean HideInteractAndBranchButton; // 0x2C
 		::System::Boolean ForceInteractBtnNotKeepShowOnHUD; // 0x2D
+		::System::Byte _padding1[0x2];
 		::MoleMole::Cameras::BangbooAdjustmentCameraConfig* AdjustmentCameraConfig; // 0x30
 	};
 }

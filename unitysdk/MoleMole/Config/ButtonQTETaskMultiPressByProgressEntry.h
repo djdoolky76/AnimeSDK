@@ -1,16 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ButtonQTETaskEntryBase.h"
+#include "unitysdk/MoleMole/RealtimeQTEProgressBarUIWidgetType.h"
+#include "unitysdk/MoleMole/RealtimeQTETaskUIProgressBarPositionType.h"
 
-class Class_1_D47998EF092D4845;
+class BCMJNECADGK;
 
-#define MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYPROGRESSENTRY_CREATEREALTIMEQTETASK_OFFSET UNITYSDK_OFFSET(0x148583C0)
-#define MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYPROGRESSENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x14858520)
-#define MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYPROGRESSENTRY___BASE_CREATEREALTIMEQTETASK_OFFSET UNITYSDK_OFFSET(0x148585A0)
+#define MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYPROGRESSENTRY_CREATEREALTIMEQTETASK_OFFSET UNITYSDK_OFFSET(0x11E82B00)
+#define MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYPROGRESSENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x11E82C60)
+#define MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYPROGRESSENTRY___BASE_CREATEREALTIMEQTETASK_OFFSET UNITYSDK_OFFSET(0x11E82CE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ButtonQTETaskMultiPressByProgressEntry_TypeDefinitionIndex = 55297;
+	inline static constexpr unsigned int ButtonQTETaskMultiPressByProgressEntry_TypeDefinitionIndex = 54571;
 
 	class ButtonQTETaskMultiPressByProgressEntry : public ::MoleMole::Config::ButtonQTETaskEntryBase
 	{
@@ -21,20 +23,23 @@ namespace MoleMole::Config
 		::System::Single ProgressIncreaseOnPress; // 0xB4
 		::System::Single PressIntervalTimeThreshold; // 0xB8
 		::System::Boolean EmptyProgressFail; // 0xBC
+		::System::Byte _padding0[0x3];
+		::MoleMole::RealtimeQTEProgressBarUIWidgetType ProgressBarUIWidgetType; // 0xC0
+		::MoleMole::RealtimeQTETaskUIProgressBarPositionType UIProgressBarPositionType; // 0xC4
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYPROGRESSENTRY__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D47998EF092D4845* CreateRealtimeQTETask()
+		::BCMJNECADGK* CreateRealtimeQTETask()
 		{
-			return ((::Class_1_D47998EF092D4845*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYPROGRESSENTRY_CREATEREALTIMEQTETASK_OFFSET))(this);
+			return ((::BCMJNECADGK*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYPROGRESSENTRY_CREATEREALTIMEQTETASK_OFFSET))(this);
 		}
 
-		::Class_1_D47998EF092D4845* __base_CreateRealtimeQTETask()
+		::BCMJNECADGK* __base_CreateRealtimeQTETask()
 		{
-			return ((::Class_1_D47998EF092D4845*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYPROGRESSENTRY___BASE_CREATEREALTIMEQTETASK_OFFSET))(this);
+			return ((::BCMJNECADGK*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BUTTONQTETASKMULTIPRESSBYPROGRESSENTRY___BASE_CREATEREALTIMEQTETASK_OFFSET))(this);
 		}
 	};
 }

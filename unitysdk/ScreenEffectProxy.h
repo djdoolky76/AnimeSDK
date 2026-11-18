@@ -4,13 +4,13 @@
 
 namespace UnityEngine::Rendering::Universal { class ScreenEffects; }
 
-#define SCREENEFFECTPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC3F870)
-#define SCREENEFFECTPROXY_COPYVALUEFROM_OFFSET UNITYSDK_OFFSET(0x1BC3FC80)
-#define SCREENEFFECTPROXY_SETVALUETO_OFFSET UNITYSDK_OFFSET(0x1BC3FF10)
-#define SCREENEFFECTPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BC3FEC0)
-#define SCREENEFFECTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC401C0)
+#define SCREENEFFECTPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C1F0750)
+#define SCREENEFFECTPROXY_COPYVALUEFROM_OFFSET UNITYSDK_OFFSET(0x1C1F0B60)
+#define SCREENEFFECTPROXY_SETVALUETO_OFFSET UNITYSDK_OFFSET(0x1C1F0DF0)
+#define SCREENEFFECTPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C1F0DA0)
+#define SCREENEFFECTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1F10A0)
 
-inline static constexpr unsigned int ScreenEffectProxy_TypeDefinitionIndex = 45738;
+inline static constexpr unsigned int ScreenEffectProxy_TypeDefinitionIndex = 58424;
 
 class ScreenEffectProxy : public ::UnityEngine::MonoBehaviour
 {
@@ -22,6 +22,7 @@ public:
 	::System::Single lerpBrightness; // 0x28
 	::System::Single distortionIntensity; // 0x2C
 	::System::Single dissolveDistortionIntensity; // 0x30
+	::System::Byte _padding0[0x4];
 	::UnityEngine::Rendering::Universal::ScreenEffects* _screenEffect; // 0x38
 
 	::System::Void _ctor()

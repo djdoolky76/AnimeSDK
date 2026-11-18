@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int SpeechSystemStatus_TypeDefinitionIndex = 5460;
+	inline static constexpr unsigned int SpeechSystemStatus_TypeDefinitionIndex = 5463;
 
 	enum class SpeechSystemStatus : ::System::Int32
 	{

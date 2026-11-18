@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/InputSystem/InputProcessor_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputControl; }
 
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_NORMALIZEVECTOR2PROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F1F7140)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_NORMALIZEVECTOR2PROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F1F7190)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_NORMALIZEVECTOR2PROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1F71D0)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_NORMALIZEVECTOR2PROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F5F2A90)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_NORMALIZEVECTOR2PROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F5F2AE0)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_NORMALIZEVECTOR2PROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F2B20)
 
 namespace UnityEngine::InputSystem::Processors
 {
-	inline static constexpr unsigned int NormalizeVector2Processor_TypeDefinitionIndex = 32588;
+	inline static constexpr unsigned int NormalizeVector2Processor_TypeDefinitionIndex = 32037;
 
-	class NormalizeVector2Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector2>
+	class NormalizeVector2Processor
 	{
 	public:
 		::System::Void _ctor()

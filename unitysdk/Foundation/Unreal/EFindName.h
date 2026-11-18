@@ -3,7 +3,7 @@
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int EFindName_TypeDefinitionIndex = 8810;
+	inline static constexpr unsigned int EFindName_TypeDefinitionIndex = 8915;
 
 	enum class EFindName : ::System::Int32
 	{

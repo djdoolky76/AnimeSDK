@@ -1,70 +1,64 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
+#include "unitysdk/Spine/Physics.h"
+#include "unitysdk/Spine/ScaleYMode.h"
 
 namespace Spine { class Bone; }
+namespace Spine { class BonePose; }
+namespace Spine { class IConstraint; }
 namespace Spine { class IkConstraintData; }
 namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
-namespace System { class String; }
 
-#define SPINE_IKCONSTRAINT_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1F9725F0)
-#define SPINE_IKCONSTRAINT_APPLY_OFFSET UNITYSDK_OFFSET(0x1F972080)
-#define SPINE_IKCONSTRAINT_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1F9732E0)
-#define SPINE_IKCONSTRAINT_GET_BENDDIRECTION_OFFSET UNITYSDK_OFFSET(0x1F973280)
-#define SPINE_IKCONSTRAINT_GET_BONES_OFFSET UNITYSDK_OFFSET(0x1F973210)
-#define SPINE_IKCONSTRAINT_GET_COMPRESS_OFFSET UNITYSDK_OFFSET(0x1F9732A0)
-#define SPINE_IKCONSTRAINT_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1F9732F0)
-#define SPINE_IKCONSTRAINT_GET_MIX_OFFSET UNITYSDK_OFFSET(0x1F973240)
-#define SPINE_IKCONSTRAINT_GET_SOFTNESS_OFFSET UNITYSDK_OFFSET(0x1F973260)
-#define SPINE_IKCONSTRAINT_GET_STRETCH_OFFSET UNITYSDK_OFFSET(0x1F9732C0)
-#define SPINE_IKCONSTRAINT_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1F973220)
-#define SPINE_IKCONSTRAINT_SET_BENDDIRECTION_OFFSET UNITYSDK_OFFSET(0x1F973290)
-#define SPINE_IKCONSTRAINT_SET_COMPRESS_OFFSET UNITYSDK_OFFSET(0x1F9732B0)
-#define SPINE_IKCONSTRAINT_SET_MIX_OFFSET UNITYSDK_OFFSET(0x1F973250)
-#define SPINE_IKCONSTRAINT_SET_SOFTNESS_OFFSET UNITYSDK_OFFSET(0x1F973270)
-#define SPINE_IKCONSTRAINT_SET_STRETCH_OFFSET UNITYSDK_OFFSET(0x1F9732D0)
-#define SPINE_IKCONSTRAINT_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x1F973230)
-#define SPINE_IKCONSTRAINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F973300)
-#define SPINE_IKCONSTRAINT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F971F00)
-#define SPINE_IKCONSTRAINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F971BE0)
-#define SPINE_IKCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9718D0)
+#define SPINE_IKCONSTRAINT_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1FA18520)
+#define SPINE_IKCONSTRAINT_APPLY_OFFSET UNITYSDK_OFFSET(0x1FA17EE0)
+#define SPINE_IKCONSTRAINT_COPY_OFFSET UNITYSDK_OFFSET(0x1FA17C90)
+#define SPINE_IKCONSTRAINT_GET_BONES_OFFSET UNITYSDK_OFFSET(0x1FA19290)
+#define SPINE_IKCONSTRAINT_GET_ISSOURCEACTIVE_OFFSET UNITYSDK_OFFSET(0x1FA19270)
+#define SPINE_IKCONSTRAINT_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1FA192A0)
+#define SPINE_IKCONSTRAINT_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x1FA192B0)
+#define SPINE_IKCONSTRAINT_SORT_OFFSET UNITYSDK_OFFSET(0x1FA19110)
+#define SPINE_IKCONSTRAINT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FA17D30)
+#define SPINE_IKCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA17950)
 
 namespace Spine
 {
-	inline static constexpr unsigned int IkConstraint_TypeDefinitionIndex = 33513;
+	inline static constexpr unsigned int IkConstraint_TypeDefinitionIndex = 32998;
 
-	class IkConstraint : public ::System::Object
+	class IkConstraint
 	{
 	public:
-		::Spine::Bone* target; // 0x10
-		::Spine::IkConstraintData* data; // 0x18
-		::Spine::ExposedList_1<::Spine::Bone*>* bones; // 0x20
-		::System::Int32 bendDirection; // 0x28
-		::System::Single softness; // 0x2C
-		::System::Single mix; // 0x30
-		::System::Boolean stretch; // 0x34
-		::System::Boolean active; // 0x35
-		::System::Boolean compress; // 0x36
+		::Spine::Bone* target; // 0x38
+		::Spine::ExposedList_1<::Spine::BonePose*>* bones; // 0x40
 
 		::System::Void _ctor(::Spine::IkConstraintData* data, ::Spine::Skeleton* skeleton)
 		{
 			return ((::System::Void(*)(::PVOID, ::Spine::IkConstraintData*, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT__CTOR_OFFSET))(this, data, skeleton);
 		}
 
-		::System::Void _ctor_1(::Spine::IkConstraint* constraint, ::Spine::Skeleton* skeleton)
+		::Spine::IConstraint* Copy(::Spine::Skeleton* skeleton)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::IkConstraint*, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT__CTOR_1_OFFSET))(this, constraint, skeleton);
+			return ((::Spine::IConstraint*(*)(::PVOID, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_COPY_OFFSET))(this, skeleton);
 		}
 
-		::System::Void Update()
+		::System::Void Update(::Spine::Skeleton* skeleton, ::Spine::Physics physics)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_UPDATE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::Spine::Physics))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_UPDATE_OFFSET))(this, skeleton, physics);
 		}
 
-		::Spine::ExposedList_1<::Spine::Bone*>* get_Bones()
+		::System::Void Sort(::Spine::Skeleton* skeleton)
 		{
-			return ((::Spine::ExposedList_1<::Spine::Bone*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_GET_BONES_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_SORT_OFFSET))(this, skeleton);
+		}
+
+		::System::Boolean get_IsSourceActive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_GET_ISSOURCEACTIVE_OFFSET))(this);
+		}
+
+		::Spine::ExposedList_1<::Spine::BonePose*>* get_Bones()
+		{
+			return ((::Spine::ExposedList_1<::Spine::BonePose*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_GET_BONES_OFFSET))(this);
 		}
 
 		::Spine::Bone* get_Target()
@@ -77,79 +71,14 @@ namespace Spine
 			return ((::System::Void(*)(::PVOID, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_SET_TARGET_OFFSET))(this, value);
 		}
 
-		::System::Single get_Mix()
+		static ::System::Void Apply(::Spine::Skeleton* skeleton, ::Spine::BonePose* bone, ::System::Single targetX, ::System::Single targetY, ::System::Boolean compress, ::System::Boolean stretch, ::Spine::ScaleYMode scaleY, ::System::Single mix)
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_GET_MIX_OFFSET))(this);
+			return ((::System::Void(*)(::Spine::Skeleton*, ::Spine::BonePose*, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::Spine::ScaleYMode, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_APPLY_OFFSET))(skeleton, bone, targetX, targetY, compress, stretch, scaleY, mix);
 		}
 
-		::System::Void set_Mix(::System::Single value)
+		static ::System::Void Apply_1(::Spine::Skeleton* skeleton, ::Spine::BonePose* parent, ::Spine::BonePose* child, ::System::Single targetX, ::System::Single targetY, ::System::Int32 bendDir, ::System::Boolean stretch, ::Spine::ScaleYMode scaleY, ::System::Single softness, ::System::Single mix)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_SET_MIX_OFFSET))(this, value);
-		}
-
-		::System::Single get_Softness()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_GET_SOFTNESS_OFFSET))(this);
-		}
-
-		::System::Void set_Softness(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_SET_SOFTNESS_OFFSET))(this, value);
-		}
-
-		::System::Int32 get_BendDirection()
-		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_GET_BENDDIRECTION_OFFSET))(this);
-		}
-
-		::System::Void set_BendDirection(::System::Int32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_SET_BENDDIRECTION_OFFSET))(this, value);
-		}
-
-		::System::Boolean get_Compress()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_GET_COMPRESS_OFFSET))(this);
-		}
-
-		::System::Void set_Compress(::System::Boolean value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_SET_COMPRESS_OFFSET))(this, value);
-		}
-
-		::System::Boolean get_Stretch()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_GET_STRETCH_OFFSET))(this);
-		}
-
-		::System::Void set_Stretch(::System::Boolean value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_SET_STRETCH_OFFSET))(this, value);
-		}
-
-		::System::Boolean get_Active()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_GET_ACTIVE_OFFSET))(this);
-		}
-
-		::Spine::IkConstraintData* get_Data()
-		{
-			return ((::Spine::IkConstraintData*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_GET_DATA_OFFSET))(this);
-		}
-
-		::System::String* ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_TOSTRING_OFFSET))(this);
-		}
-
-		static ::System::Void Apply(::Spine::Bone* bone, ::System::Single targetX, ::System::Single targetY, ::System::Boolean compress, ::System::Boolean stretch, ::System::Boolean uniform, ::System::Single alpha)
-		{
-			return ((::System::Void(*)(::Spine::Bone*, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_APPLY_OFFSET))(bone, targetX, targetY, compress, stretch, uniform, alpha);
-		}
-
-		static ::System::Void Apply_1(::Spine::Bone* parent, ::Spine::Bone* child, ::System::Single targetX, ::System::Single targetY, ::System::Int32 bendDir, ::System::Boolean stretch, ::System::Boolean uniform, ::System::Single softness, ::System::Single alpha)
-		{
-			return ((::System::Void(*)(::Spine::Bone*, ::Spine::Bone*, ::System::Single, ::System::Single, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_APPLY_1_OFFSET))(parent, child, targetX, targetY, bendDir, stretch, uniform, softness, alpha);
+			return ((::System::Void(*)(::Spine::Skeleton*, ::Spine::BonePose*, ::Spine::BonePose*, ::System::Single, ::System::Single, ::System::Int32, ::System::Boolean, ::Spine::ScaleYMode, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_IKCONSTRAINT_APPLY_1_OFFSET))(skeleton, parent, child, targetX, targetY, bendDir, stretch, scaleY, softness, mix);
 		}
 	};
 }

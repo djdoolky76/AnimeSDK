@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_5DA2E7556103D5A3_157;
+class CGPDJGDBGCA;
 
-#define MOLEMOLE_UISUMMERTIDETREASURETABBTNROLEROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x151AED30)
+#define MOLEMOLE_UISUMMERTIDETREASURETABBTNROLEROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1135F180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerTideTreasureTabBtnRoleRowWidgetController_Context_TypeDefinitionIndex = 77459;
+	inline static constexpr unsigned int UISummerTideTreasureTabBtnRoleRowWidgetController_Context_TypeDefinitionIndex = 71092;
 
 	class UISummerTideTreasureTabBtnRoleRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_5DA2E7556103D5A3_157* RoleConfig; // 0x28
+		::CGPDJGDBGCA* RoleConfig; // 0x28
 
 		::System::Void _ctor()
 		{

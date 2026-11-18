@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_RANGECURVEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x114749F0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_RANGECURVEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x131E62A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_RangeCurveItem_TypeDefinitionIndex = 59223;
+	inline static constexpr unsigned int ConfigHollowChessboard_RangeCurveItem_TypeDefinitionIndex = 46358;
 
 	class ConfigHollowChessboard_RangeCurveItem : public ::System::Object
 	{

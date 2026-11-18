@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FluffyUnderware/DevTools/DTAttribute.h"
 
-#define FLUFFYUNDERWARE_DEVTOOLS_SORTORDERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA58730)
+#define FLUFFYUNDERWARE_DEVTOOLS_SORTORDERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED613C0)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int SortOrderAttribute_TypeDefinitionIndex = 28923;
+	inline static constexpr unsigned int SortOrderAttribute_TypeDefinitionIndex = 28362;
 
 	class SortOrderAttribute : public ::FluffyUnderware::DevTools::DTAttribute
 	{

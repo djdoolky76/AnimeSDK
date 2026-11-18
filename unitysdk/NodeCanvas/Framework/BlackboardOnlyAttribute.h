@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define NODECANVAS_FRAMEWORK_BLACKBOARDONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBBEC0)
+#define NODECANVAS_FRAMEWORK_BLACKBOARDONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8E770)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int BlackboardOnlyAttribute_TypeDefinitionIndex = 30257;
+	inline static constexpr unsigned int BlackboardOnlyAttribute_TypeDefinitionIndex = 30099;
 
 	class BlackboardOnlyAttribute : public ::System::Attribute
 	{

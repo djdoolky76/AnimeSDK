@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/LyraSector/LyraPackedAssetUtils_PackedAssetKey.h"
 #include "unitysdk/LyraSector/LyraSectorCoord.h"
 #include "unitysdk/TestLyraSectorLoader_DistanceFieldVisualizeMode.h"
 #include "unitysdk/TestLyraSectorLoader_SceneVoxelVisualizeMode.h"
@@ -8,32 +7,30 @@
 
 class TestLyraSectorLoader_ClipmapLoaderData;
 class TestLyraSectorLoader_KeyToPackedAssetDict;
-class TestLyraSectorLoader_PackedAssetRequestInfo;
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define TESTLYRASECTORLOADER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C5AD4F0)
-#define TESTLYRASECTORLOADER_CLEARASSETVISITSTAUS_OFFSET UNITYSDK_OFFSET(0x1C5ADD30)
-#define TESTLYRASECTORLOADER_CLEARDATA_OFFSET UNITYSDK_OFFSET(0x1C5ADFA0)
-#define TESTLYRASECTORLOADER_CLEARSERIALIZEDASSETREFERENCEIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1C5AD590)
-#define TESTLYRASECTORLOADER_GETDFASSETPATHFORMAT_OFFSET UNITYSDK_OFFSET(0x1C5AD620)
-#define TESTLYRASECTORLOADER_GETPACKEDASSETPATHFORMAT_OFFSET UNITYSDK_OFFSET(0x1C5AD700)
-#define TESTLYRASECTORLOADER_GETSVASSETPATHFORMAT_OFFSET UNITYSDK_OFFSET(0x1C5AD690)
-#define TESTLYRASECTORLOADER_HASASSETREFERENCE_OFFSET UNITYSDK_OFFSET(0x1C5AD530)
-#define TESTLYRASECTORLOADER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C5ADF50)
-#define TESTLYRASECTORLOADER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C5AE330)
-#define TESTLYRASECTORLOADER_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x1C5AE380)
-#define TESTLYRASECTORLOADER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C5ADDC0)
-#define TESTLYRASECTORLOADER_RECORDENABLE_OFFSET UNITYSDK_OFFSET(0x1C5AD770)
-#define TESTLYRASECTORLOADER_RECORDLOADED_OFFSET UNITYSDK_OFFSET(0x1C5ADC70)
-#define TESTLYRASECTORLOADER_RECORDTYRLOAD_OFFSET UNITYSDK_OFFSET(0x1C5AD7C0)
-#define TESTLYRASECTORLOADER_RECORDUNLOAD_OFFSET UNITYSDK_OFFSET(0x1C5ADCD0)
-#define TESTLYRASECTORLOADER_SETSHOULDRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x1C5AE730)
-#define TESTLYRASECTORLOADER_START_OFFSET UNITYSDK_OFFSET(0x1C5ADD80)
-#define TESTLYRASECTORLOADER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C5AE3C0)
-#define TESTLYRASECTORLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AE770)
+#define TESTLYRASECTORLOADER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CA3EEC0)
+#define TESTLYRASECTORLOADER_CLEARASSETVISITSTAUS_OFFSET UNITYSDK_OFFSET(0x1CA3F640)
+#define TESTLYRASECTORLOADER_CLEARDATA_OFFSET UNITYSDK_OFFSET(0x1CA3F8B0)
+#define TESTLYRASECTORLOADER_CLEARSERIALIZEDASSETREFERENCEIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1CA3EF60)
+#define TESTLYRASECTORLOADER_GETDFASSETPATHFORMAT_OFFSET UNITYSDK_OFFSET(0x1CA3EFF0)
+#define TESTLYRASECTORLOADER_GETPACKEDASSETPATHFORMAT_OFFSET UNITYSDK_OFFSET(0x1CA3F0D0)
+#define TESTLYRASECTORLOADER_GETSVASSETPATHFORMAT_OFFSET UNITYSDK_OFFSET(0x1CA3F060)
+#define TESTLYRASECTORLOADER_HASASSETREFERENCE_OFFSET UNITYSDK_OFFSET(0x1CA3EF00)
+#define TESTLYRASECTORLOADER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CA3F860)
+#define TESTLYRASECTORLOADER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CA3FC50)
+#define TESTLYRASECTORLOADER_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x1CA3FCA0)
+#define TESTLYRASECTORLOADER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CA3F6D0)
+#define TESTLYRASECTORLOADER_RECORDENABLE_OFFSET UNITYSDK_OFFSET(0x1CA3F140)
+#define TESTLYRASECTORLOADER_RECORDTYRLOAD_OFFSET UNITYSDK_OFFSET(0x1CA3F190)
+#define TESTLYRASECTORLOADER_SETSHOULDRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x1CA40050)
+#define TESTLYRASECTORLOADER_START_OFFSET UNITYSDK_OFFSET(0x1CA3F690)
+#define TESTLYRASECTORLOADER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CA3FCE0)
+#define TESTLYRASECTORLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA40090)
 
-inline static constexpr unsigned int TestLyraSectorLoader_TypeDefinitionIndex = 27863;
+inline static constexpr unsigned int TestLyraSectorLoader_TypeDefinitionIndex = 27095;
 
 class TestLyraSectorLoader : public ::UnityEngine::MonoBehaviour
 {
@@ -45,9 +42,10 @@ public:
 	::Il2CppArray<::System::Collections::Generic::Dictionary_2<::LyraSector::LyraSectorCoord, ::System::Boolean>*>* coordDataVisitStatus; // 0x18
 	::TestLyraSectorLoader_ClipmapLoaderData* m_DistanceFieldLoaderData; // 0x20
 	::TestLyraSectorLoader_ClipmapLoaderData* m_SceneVoxelLoaderData; // 0x28
-	::System::Collections::Generic::Dictionary_2<::LyraSector::LyraPackedAssetUtils_PackedAssetKey, ::TestLyraSectorLoader_PackedAssetRequestInfo*>* m_LoadedPackedAssetsRequests; // 0x30
+	::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* m_LoadedPackedAssetsRequests; // 0x30
 	::System::Boolean forceEnableSDFAndVoxel; // 0x38
 	::System::Boolean m_ShouldReloadAssets; // 0x39
+	::System::Byte _padding0[0x6];
 	::System::String* m_LyraAssetDir; // 0x40
 	::System::Boolean m_UseReplacedSceneName; // 0x48
 	::System::Boolean m_EnableDistanceField; // 0x49
@@ -55,8 +53,10 @@ public:
 	::System::Boolean m_EnableDebugView; // 0x4B
 	::TestLyraSectorLoader_DistanceFieldVisualizeMode m_DistanceFieldVisualizeMode; // 0x4C
 	::System::Boolean m_DistaneFieldForceFullUpdate; // 0x50
+	::System::Byte _padding1[0x3];
 	::TestLyraSectorLoader_SceneVoxelVisualizeMode m_SceneVoxelVisualizeMode; // 0x54
 	::System::Boolean m_SceneVoxelForceFullUpdate; // 0x58
+	::System::Byte _padding2[0x7];
 	::TestLyraSectorLoader_KeyToPackedAssetDict* m_PackedAssets; // 0x60
 
 	::System::Void _ctor()
@@ -102,16 +102,6 @@ public:
 	::System::Void RecordTyrLoad(::LyraSector::LyraSectorCoord coord, ::System::Boolean isForDistance, ::System::Boolean assetExist)
 	{
 		return ((::System::Void(*)(::PVOID, ::LyraSector::LyraSectorCoord, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + TESTLYRASECTORLOADER_RECORDTYRLOAD_OFFSET))(this, coord, isForDistance, assetExist);
-	}
-
-	::System::Void RecordLoaded(::LyraSector::LyraSectorCoord coord, ::System::Boolean isForDistance)
-	{
-		return ((::System::Void(*)(::PVOID, ::LyraSector::LyraSectorCoord, ::System::Boolean))((::PBYTE)hIl2Cpp + TESTLYRASECTORLOADER_RECORDLOADED_OFFSET))(this, coord, isForDistance);
-	}
-
-	::System::Void RecordUnload(::LyraSector::LyraSectorCoord coord, ::System::Boolean isForDistance)
-	{
-		return ((::System::Void(*)(::PVOID, ::LyraSector::LyraSectorCoord, ::System::Boolean))((::PBYTE)hIl2Cpp + TESTLYRASECTORLOADER_RECORDUNLOAD_OFFSET))(this, coord, isForDistance);
 	}
 
 	::System::Void ClearAssetVisitStaus()

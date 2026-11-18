@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_4.h"
 #include "unitysdk/MoleMole/Level/RatingType.h"
 
-class Class_3_EA02B975BED3466B_Class_1_DCE79A11CC8A2FDA;
+class AGJFJGEMIPB_ABMKPFAONMD;
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B531CD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B532510)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__ONTICK1SINTERVAL_OFFSET UNITYSDK_OFFSET(0x1B5322B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__SENDICONEVENT_OFFSET UNITYSDK_OFFSET(0x1B532070)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER_INVOKE_OFFSET UNITYSDK_OFFSET(0x142FC8B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x142FD110)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__ONTICK1SINTERVAL_OFFSET UNITYSDK_OFFSET(0x142FCEB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__SENDICONEVENT_OFFSET UNITYSDK_OFFSET(0x142FCC50)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDHadal_SetTimer_TypeDefinitionIndex = 83538;
+	inline static constexpr unsigned int LDHadal_SetTimer_TypeDefinitionIndex = 74664;
 
-	class LDHadal_SetTimer : public ::FlowCanvas::Nodes::CallableActionNode_4<::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean>
+	class LDHadal_SetTimer
 	{
 	public:
 		::MoleMole::Level::RatingType _curRating; // 0x30
@@ -31,9 +30,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER_INVOKE_OFFSET))(this, timerKey, isPause, skipSetIcon, skipUpdateIcon);
 		}
 
-		::System::Void _OnTick1SInterval(::Class_3_EA02B975BED3466B_Class_1_DCE79A11CC8A2FDA* timer)
+		::System::Void _OnTick1SInterval(::AGJFJGEMIPB_ABMKPFAONMD* timer)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_EA02B975BED3466B_Class_1_DCE79A11CC8A2FDA*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__ONTICK1SINTERVAL_OFFSET))(this, timer);
+			return ((::System::Void(*)(::PVOID, ::AGJFJGEMIPB_ABMKPFAONMD*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDHADAL_SETTIMER__ONTICK1SINTERVAL_OFFSET))(this, timer);
 		}
 
 		::System::Void _SendIconEvent(::MoleMole::Level::RatingType ratingType, ::System::Boolean playChangeAnim)

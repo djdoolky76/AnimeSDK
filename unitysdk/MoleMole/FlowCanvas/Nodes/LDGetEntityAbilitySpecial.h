@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_5.h"
 #include "unitysdk/MoleMole/Config/AbilitySpecialParamType.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETENTITYABILITYSPECIAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x144BF280)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETENTITYABILITYSPECIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x144BF570)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETENTITYABILITYSPECIAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x10407C10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETENTITYABILITYSPECIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x10407F00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetEntityAbilitySpecial_TypeDefinitionIndex = 65824;
+	inline static constexpr unsigned int LDGetEntityAbilitySpecial_TypeDefinitionIndex = 63238;
 
-	class LDGetEntityAbilitySpecial : public ::FlowCanvas::Nodes::CallableFunctionNode_5<::System::Object*, ::MoleMole::Battle::Entity*, ::System::String*, ::System::String*, ::MoleMole::Config::AbilitySpecialParamType>
+	class LDGetEntityAbilitySpecial
 	{
 	public:
 		::System::Void _ctor()

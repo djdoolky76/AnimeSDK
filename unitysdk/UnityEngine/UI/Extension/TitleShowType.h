@@ -3,16 +3,16 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int TitleShowType_TypeDefinitionIndex = 53035;
+	inline static constexpr unsigned int TitleShowType_TypeDefinitionIndex = 73445;
 
 	enum class TitleShowType : ::System::Int32
 	{
-		DiscountLastTime = 6,
-		WeeklyRefreshTime = 4,
-		ActivityTimeExpired = 3,
-		None = 0,
-		LastTime = 1,
 		RefreshTime = 2,
+		LastTime = 1,
+		DiscountLastTime = 6,
+		None = 0,
+		WeeklyRefreshTime = 4,
 		DailyRefreshTime = 5,
+		ActivityTimeExpired = 3,
 	};
 }

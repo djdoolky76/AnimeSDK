@@ -5,18 +5,15 @@
 
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class HttpHeaders; }
-namespace System::Net::Http::Headers { template <typename T> class TryParseDelegate_1; }
-namespace System::Net::Http::Headers { template <typename T> class TryParseListDelegate_1; }
 
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_CREATECOLLECTION_OFFSET UNITYSDK_OFFSET(0x1E83C0B0)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_SEPARATOR_OFFSET UNITYSDK_OFFSET(0x1E83C0D0)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E83C0A0)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_CREATECOLLECTION_OFFSET UNITYSDK_OFFSET(0x1EAE1330)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_SEPARATOR_OFFSET UNITYSDK_OFFSET(0x1EAE1350)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE1320)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HeaderInfo_TypeDefinitionIndex = 26709;
+	inline static constexpr unsigned int HeaderInfo_TypeDefinitionIndex = 26077;
 
 	class HeaderInfo : public ::System::Object
 	{

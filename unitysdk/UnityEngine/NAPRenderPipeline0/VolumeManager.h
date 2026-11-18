@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/LerpItem.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/VolumeApplyCache.h"
+#include "unitysdk/UnityEngine/LayerMask.h"
 
 namespace System { class Action; }
 namespace System { class Type; }
@@ -19,61 +19,61 @@ namespace UnityEngine::NAPRenderPipeline0 { class VolumeStack; }
 namespace UnityEngine::NAPRenderPipeline0 { class Volume_NativeSRP; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_CREATESTACK_OFFSET UNITYSDK_OFFSET(0x1E94F9C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_GETINTERPOLATEDVOLUMESTACKCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1E94F760)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_GET_BASECOMPONENTTYPES_OFFSET UNITYSDK_OFFSET(0x1E94F7B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_GET_GLOBALPROFILE_OFFSET UNITYSDK_OFFSET(0x1E951210)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E94F320)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_GRABVOLUMES_OFFSET UNITYSDK_OFFSET(0x1E9516A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_OVERRIDEDATA_OFFSET UNITYSDK_OFFSET(0x1E94FF30)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_REBUILDINTERPOLATEDVOLUMEDATA_OFFSET UNITYSDK_OFFSET(0x1E951A00)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_REGISTERDEFAULTPROFILE_OFFSET UNITYSDK_OFFSET(0x1E951220)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1E94FA60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_RELOADBASETYPES_OFFSET UNITYSDK_OFFSET(0x1E94F810)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_REPLACEDATA_OFFSET UNITYSDK_OFFSET(0x1E9500C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_SETLAYERDIRTY_OFFSET UNITYSDK_OFFSET(0x1E94FC40)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_SORTBYPRIORITY_OFFSET UNITYSDK_OFFSET(0x1E9521A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1E94FD80)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_UPDATEVOLUMELAYER_OFFSET UNITYSDK_OFFSET(0x1E94FF00)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_UPDATE_1_OFFSET UNITYSDK_OFFSET(0x1E950680)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E9505A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9522F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E94F410)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_CREATESTACK_OFFSET UNITYSDK_OFFSET(0x1ECA8750)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_GETINTERPOLATEDVOLUMESTACKCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1ECA84F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_GET_BASECOMPONENTTYPES_OFFSET UNITYSDK_OFFSET(0x1ECA8540)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_GET_GLOBALPROFILE_OFFSET UNITYSDK_OFFSET(0x1ECA9FB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1ECA80B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_GRABVOLUMES_OFFSET UNITYSDK_OFFSET(0x1ECAA440)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_OVERRIDEDATA_OFFSET UNITYSDK_OFFSET(0x1ECA8CC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_REBUILDINTERPOLATEDVOLUMEDATA_OFFSET UNITYSDK_OFFSET(0x1ECAA7A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_REGISTERDEFAULTPROFILE_OFFSET UNITYSDK_OFFSET(0x1ECA9FC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1ECA87F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_RELOADBASETYPES_OFFSET UNITYSDK_OFFSET(0x1ECA85A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_REPLACEDATA_OFFSET UNITYSDK_OFFSET(0x1ECA8E60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_SETLAYERDIRTY_OFFSET UNITYSDK_OFFSET(0x1ECA89D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_SORTBYPRIORITY_OFFSET UNITYSDK_OFFSET(0x1ECAAF40)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1ECA8B10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_UPDATEVOLUMELAYER_OFFSET UNITYSDK_OFFSET(0x1ECA8C90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_UPDATE_1_OFFSET UNITYSDK_OFFSET(0x1ECA9420)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ECA9340)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECAB090)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA81A0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int VolumeManager_TypeDefinitionIndex = 6081;
+	inline static constexpr unsigned int VolumeManager_TypeDefinitionIndex = 6089;
 
 	class VolumeManager : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Type*>** StaticGet_VolumeComponentTypes()
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleTraverseVolumes()
 		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x5590);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::VolumeManager** StaticGet_s_Instance()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::VolumeManager**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x5598);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x5490);
 		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleVolumeManagerUpdate()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x55A0);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x5498);
 		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleTraverseVolumes()
+		static ::UnityEngine::NAPRenderPipeline0::VolumeManager** StaticGet_s_Instance()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x55A8);
+			return (::UnityEngine::NAPRenderPipeline0::VolumeManager**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x54A0);
+		}
+		static ::Il2CppArray<::System::Type*>** StaticGet_VolumeComponentTypes()
+		{
+			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x54A8);
 		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleCheckStack()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x55B0);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleCheckBaseTypes()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x55B8);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x54B0);
 		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleRebuildInterpolatedVolumeData()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x55C0);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x54B8);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_SampleCheckBaseTypes()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager_TypeDefinitionIndex)->GetStaticField(0x54C0);
 		}
 		::UnityEngine::NAPRenderPipeline0::VolumeStack* stack; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::Volume_NativeSRP*>*>* m_SortedVolumes; // 0x18

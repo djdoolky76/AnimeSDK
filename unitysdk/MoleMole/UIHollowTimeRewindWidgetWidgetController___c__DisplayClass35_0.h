@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHollowTimeRewindFillWidgetWidgetController; }
 namespace MoleMole { class UIHollowTimeRewindWidgetWidgetController; }
 
-#define MOLEMOLE_UIHOLLOWTIMEREWINDWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17329B10)
-#define MOLEMOLE_UIHOLLOWTIMEREWINDWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS35_0__ONTIMEREWINDNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0x17329B20)
+#define MOLEMOLE_UIHOLLOWTIMEREWINDWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CD63A0)
+#define MOLEMOLE_UIHOLLOWTIMEREWINDWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS35_0__ONTIMEREWINDNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0x18CD63B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowTimeRewindWidgetWidgetController___c__DisplayClass35_0_TypeDefinitionIndex = 74526;
+	inline static constexpr unsigned int UIHollowTimeRewindWidgetWidgetController___c__DisplayClass35_0_TypeDefinitionIndex = 55372;
 
 	class UIHollowTimeRewindWidgetWidgetController___c__DisplayClass35_0 : public ::System::Object
 	{

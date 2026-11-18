@@ -6,11 +6,11 @@ namespace UnrealTypes { class Class; }
 namespace UnrealTypes { class ClassPropertyParams; }
 namespace UnrealTypes { class IFieldVariant; }
 
-#define UNREALTYPES_CLASSPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E382BE0)
+#define UNREALTYPES_CLASSPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E29E910)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ClassProperty_TypeDefinitionIndex = 28382;
+	inline static constexpr unsigned int ClassProperty_TypeDefinitionIndex = 27821;
 
 	class ClassProperty : public ::UnrealTypes::ObjectProperty
 	{

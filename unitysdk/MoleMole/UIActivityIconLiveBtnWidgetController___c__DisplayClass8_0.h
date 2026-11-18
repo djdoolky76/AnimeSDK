@@ -4,12 +4,12 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIACTIVITYICONLIVEBTNWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173D3170)
-#define MOLEMOLE_UIACTIVITYICONLIVEBTNWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x173D3180)
+#define MOLEMOLE_UIACTIVITYICONLIVEBTNWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13F3EF90)
+#define MOLEMOLE_UIACTIVITYICONLIVEBTNWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x13F3EFA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityIconLiveBtnWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 74682;
+	inline static constexpr unsigned int UIActivityIconLiveBtnWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 81663;
 
 	class UIActivityIconLiveBtnWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{

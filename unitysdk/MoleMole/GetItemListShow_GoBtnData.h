@@ -8,13 +8,14 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GetItemListShow_GoBtnData_TypeDefinitionIndex = 89513;
+	inline static constexpr unsigned int GetItemListShow_GoBtnData_TypeDefinitionIndex = 53258;
 
 	struct alignas(8) GetItemListShow_GoBtnData
 	{
 		::System::String* goText; // 0x10
 		::System::Action* goCallback; // 0x18
 		::System::Boolean showGoBtn; // 0x20
+		::System::Byte _padding0[0x7];
 		::System::Func_1<::System::Boolean>* showGoPredicate; // 0x28
 	};
 }

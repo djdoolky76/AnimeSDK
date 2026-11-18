@@ -7,12 +7,12 @@ namespace PipelineCamera::CameraSequence { class CameraSequenceCollectionInstanc
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceEvent; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENTQUEUE_OPERATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x9CDF40)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENTQUEUE_OPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x44EFE0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENTQUEUE_OPERATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x8D8FD0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENTQUEUE_OPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x3CF5C0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceEventQueue_Operation_TypeDefinitionIndex = 38499;
+	inline static constexpr unsigned int CameraSequenceEventQueue_Operation_TypeDefinitionIndex = 36498;
 
 	struct alignas(8) CameraSequenceEventQueue_Operation
 	{

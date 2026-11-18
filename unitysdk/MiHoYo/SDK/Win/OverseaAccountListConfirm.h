@@ -3,30 +3,29 @@
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
 
 namespace System { class Action; }
-namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C9193A0)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_CANCEL_OFFSET UNITYSDK_OFFSET(0x1C91A520)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1C91A4B0)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1C91A540)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1C91A380)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1C91A130)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C91A5B0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CF48950)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_CANCEL_OFFSET UNITYSDK_OFFSET(0x1CF49AC0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1CF49A50)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1CF49AE0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1CF49920)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1CF496D0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF49B50)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaAccountListConfirm_TypeDefinitionIndex = 21394;
+	inline static constexpr unsigned int OverseaAccountListConfirm_TypeDefinitionIndex = 20598;
 
 	class OverseaAccountListConfirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::Win::OverseaAccountListConfirm** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::OverseaAccountListConfirm**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountListConfirm_TypeDefinitionIndex)->GetStaticField(0xA420);
+			return (::MiHoYo::SDK::Win::OverseaAccountListConfirm**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountListConfirm_TypeDefinitionIndex)->GetStaticField(0xA5A0);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* titlePath; // 0x0

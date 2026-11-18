@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
-#include "unitysdk/MessagePack/MessagePackWriter.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/GradientMode.h"
+#include "unitysdk/MessagePack/MessagePackReader.h"
+#include "unitysdk/MessagePack/MessagePackWriter.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_GRADIENTMODEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA9A6B0)
-#define MESSAGEPACK_UNITY_GRADIENTMODEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA9A6A0)
-#define MESSAGEPACK_UNITY_GRADIENTMODEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9A6C0)
+#define MESSAGEPACK_UNITY_GRADIENTMODEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EDCB720)
+#define MESSAGEPACK_UNITY_GRADIENTMODEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EDCB710)
+#define MESSAGEPACK_UNITY_GRADIENTMODEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDCB730)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int GradientModeFormatter_TypeDefinitionIndex = 29783;
+	inline static constexpr unsigned int GradientModeFormatter_TypeDefinitionIndex = 29523;
 
 	class GradientModeFormatter : public ::System::Object
 	{

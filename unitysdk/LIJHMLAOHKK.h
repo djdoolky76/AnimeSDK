@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AHLIJIKIOJD.h"
+
+class ADJIPOGNOOM;
+class EBFNJNBLNEM;
+
+#define LIJHMLAOHKK__CTOR_OFFSET UNITYSDK_OFFSET(0x14DB1860)
+
+inline static constexpr unsigned int LIJHMLAOHKK_TypeDefinitionIndex = 47378;
+
+class LIJHMLAOHKK : public ::AHLIJIKIOJD
+{
+public:
+	::System::Void _ctor(::EBFNJNBLNEM* IAPKABMDJNF, ::EBFNJNBLNEM* CPOONGAGDHH, ::EBFNJNBLNEM* CNHOJPKKFEB, ::ADJIPOGNOOM* MCOHJGFANOO)
+	{
+		return ((::System::Void(*)(::PVOID, ::EBFNJNBLNEM*, ::EBFNJNBLNEM*, ::EBFNJNBLNEM*, ::ADJIPOGNOOM*))((::PBYTE)hIl2Cpp + LIJHMLAOHKK__CTOR_OFFSET))(this, IAPKABMDJNF, CPOONGAGDHH, CNHOJPKKFEB, MCOHJGFANOO);
+	}
+};

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BlendWeights_TypeDefinitionIndex = 5231;
+	inline static constexpr unsigned int BlendWeights_TypeDefinitionIndex = 5233;
 
 	enum class BlendWeights : ::System::Int32
 	{

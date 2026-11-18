@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_ExecuteMainThreadJobs_TypeDefinitionIndex = 5542;
+	inline static constexpr unsigned int EarlyUpdate_ExecuteMainThreadJobs_TypeDefinitionIndex = 5545;
 
-	struct alignas(1) EarlyUpdate_ExecuteMainThreadJobs
+	struct alignas(4) EarlyUpdate_ExecuteMainThreadJobs
 	{
 	};
 }

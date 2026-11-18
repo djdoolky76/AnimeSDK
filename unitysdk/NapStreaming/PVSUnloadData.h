@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int PVSUnloadData_TypeDefinitionIndex = 59541;
+	inline static constexpr unsigned int PVSUnloadData_TypeDefinitionIndex = 92908;
 
 	struct alignas(8) PVSUnloadData
 	{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_09621F974A776F22;
+class COAFFLKMBIA;
 namespace MoleMole { class UIAbyssS2RoleChallengeWidgetController; }
 
-#define MOLEMOLE_UIABYSSS2ROLECHALLENGEWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6DF6C0)
-#define MOLEMOLE_UIABYSSS2ROLECHALLENGEWIDGETCONTROLLER___C__DISPLAYCLASS19_0__ONABYSSS2ROLECHALLENGESELECT_B__0_OFFSET UNITYSDK_OFFSET(0x1B6DF6D0)
+#define MOLEMOLE_UIABYSSS2ROLECHALLENGEWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A751A80)
+#define MOLEMOLE_UIABYSSS2ROLECHALLENGEWIDGETCONTROLLER___C__DISPLAYCLASS19_0__ONABYSSS2ROLECHALLENGESELECT_B__0_OFFSET UNITYSDK_OFFSET(0x1A751A90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RoleChallengeWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 88083;
+	inline static constexpr unsigned int UIAbyssS2RoleChallengeWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 63306;
 
 	class UIAbyssS2RoleChallengeWidgetController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::Class_1_09621F974A776F22* data; // 0x10
-		::MoleMole::UIAbyssS2RoleChallengeWidgetController* __4__this; // 0x18
+		::MoleMole::UIAbyssS2RoleChallengeWidgetController* __4__this; // 0x10
+		::COAFFLKMBIA* data; // 0x18
 
 		::System::Void _ctor()
 		{

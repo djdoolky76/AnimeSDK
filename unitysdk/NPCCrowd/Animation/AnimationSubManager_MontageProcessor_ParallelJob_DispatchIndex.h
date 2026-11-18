@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR_PARALLELJOB_DISPATCHINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x312BA0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MONTAGEPROCESSOR_PARALLELJOB_DISPATCHINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x2E4140)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_MontageProcessor_ParallelJob_DispatchIndex_TypeDefinitionIndex = 88298;
+	inline static constexpr unsigned int AnimationSubManager_MontageProcessor_ParallelJob_DispatchIndex_TypeDefinitionIndex = 81160;
 
 	struct alignas(4) AnimationSubManager_MontageProcessor_ParallelJob_DispatchIndex
 	{

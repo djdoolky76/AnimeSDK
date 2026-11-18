@@ -6,13 +6,13 @@
 namespace MoleMole { class SharedGameEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_SETTARGETVALUEKEY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1792DAF0)
-#define MOLEMOLE_SETTARGETVALUEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1792DD00)
-#define MOLEMOLE_SETTARGETVALUEKEY___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1792DDA0)
+#define MOLEMOLE_SETTARGETVALUEKEY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x14B1D500)
+#define MOLEMOLE_SETTARGETVALUEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x14B1D710)
+#define MOLEMOLE_SETTARGETVALUEKEY___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x14B1D7B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetTargetValueKey_TypeDefinitionIndex = 62227;
+	inline static constexpr unsigned int SetTargetValueKey_TypeDefinitionIndex = 73404;
 
 	class SetTargetValueKey : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{

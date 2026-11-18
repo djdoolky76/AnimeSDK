@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE_BEGIN_OFFSET UNITYSDK_OFFSET(0x192409B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19240850)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19240A50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x19240A90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x19240B50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE_BEGIN_OFFSET UNITYSDK_OFFSET(0x1190C600)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1190C4A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1190C6A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1190C6E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTCONDITIONSTATE__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x1190C7A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetLevelQuestConditionState_TypeDefinitionIndex = 57829;
+	inline static constexpr unsigned int LDGetLevelQuestConditionState_TypeDefinitionIndex = 58670;
 
 	class LDGetLevelQuestConditionState : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowInput* input; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* levelQuestID; // 0xA8
 		::FlowCanvas::ValueInput_1<::System::Boolean>* isFail; // 0xB0
-		::FlowCanvas::ValueOutput_1<::System::Int32>* value; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Int32>* levelQuestID; // 0xC0
-		::FlowCanvas::FlowOutput* output; // 0xC8
+		::FlowCanvas::FlowOutput* output; // 0xB8
+		::FlowCanvas::FlowInput* input; // 0xC0
+		::FlowCanvas::ValueOutput_1<::System::Int32>* value; // 0xC8
 
 		::System::Void _ctor()
 		{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
@@ -9,31 +9,31 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
-#define FLOWCANVAS_NODES_COOLDOWN_BEGIN_OFFSET UNITYSDK_OFFSET(0x1DB244E0)
-#define FLOWCANVAS_NODES_COOLDOWN_CANCEL_OFFSET UNITYSDK_OFFSET(0x1DB245F0)
-#define FLOWCANVAS_NODES_COOLDOWN_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1DB24590)
-#define FLOWCANVAS_NODES_COOLDOWN_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1DB241F0)
-#define FLOWCANVAS_NODES_COOLDOWN_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1DB242A0)
-#define FLOWCANVAS_NODES_COOLDOWN_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1DB242C0)
-#define FLOWCANVAS_NODES_COOLDOWN_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1DB24300)
-#define FLOWCANVAS_NODES_COOLDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB24630)
-#define FLOWCANVAS_NODES_COOLDOWN__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x1DB24670)
-#define FLOWCANVAS_NODES_COOLDOWN__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x1DB24680)
+#define FLOWCANVAS_NODES_COOLDOWN_BEGIN_OFFSET UNITYSDK_OFFSET(0x1DE97380)
+#define FLOWCANVAS_NODES_COOLDOWN_CANCEL_OFFSET UNITYSDK_OFFSET(0x1DE97490)
+#define FLOWCANVAS_NODES_COOLDOWN_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1DE97430)
+#define FLOWCANVAS_NODES_COOLDOWN_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1DE97090)
+#define FLOWCANVAS_NODES_COOLDOWN_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1DE97140)
+#define FLOWCANVAS_NODES_COOLDOWN_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1DE97160)
+#define FLOWCANVAS_NODES_COOLDOWN_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1DE971A0)
+#define FLOWCANVAS_NODES_COOLDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE974D0)
+#define FLOWCANVAS_NODES_COOLDOWN__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x1DE97510)
+#define FLOWCANVAS_NODES_COOLDOWN__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x1DE97520)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Cooldown_TypeDefinitionIndex = 29980;
+	inline static constexpr unsigned int Cooldown_TypeDefinitionIndex = 30480;
 
 	class Cooldown : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::ValueInput_1<::System::Single>* time; // 0xA8
-		::FlowCanvas::FlowOutput* update; // 0xB0
-		::FlowCanvas::FlowOutput* finish; // 0xB8
-		::UnityEngine::Coroutine* coroutine; // 0xC0
-		::FlowCanvas::FlowOutput* start; // 0xC8
-		::System::Single remaining; // 0xD0
-		::System::Single remainingNormalized; // 0xD4
+		::UnityEngine::Coroutine* coroutine; // 0xB0
+		::FlowCanvas::FlowOutput* start; // 0xB8
+		::FlowCanvas::FlowOutput* update; // 0xC0
+		::FlowCanvas::FlowOutput* finish; // 0xC8
+		::System::Single remainingNormalized; // 0xD0
+		::System::Single remaining; // 0xD4
 
 		::System::Void _ctor()
 		{

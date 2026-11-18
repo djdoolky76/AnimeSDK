@@ -1,44 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/PP_Quality.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/PostProcessWeightedSampleSum_GaussianBlurPassData.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/PostProcessWeightedSampleSum_GaussianBlurPassData.h"
+#include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 
 namespace UnityEngine { class Material; }
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class DynamicArray_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_ADDGAUSSIANBLURPASS_1_OFFSET UNITYSDK_OFFSET(0x1C51A5F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_ADDGAUSSIANBLURPASS_OFFSET UNITYSDK_OFFSET(0x1C51C120)
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_COMPUTE1DGAUSSIANFILTERKERNEL_OFFSET UNITYSDK_OFFSET(0x1C51BC20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_GETBLURRADIUS_OFFSET UNITYSDK_OFFSET(0x1C51B980)
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_GETCLAMPEDKERNELRADIUS_OFFSET UNITYSDK_OFFSET(0x1C51BAB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_GETINTEGERKERNELRADIUS_OFFSET UNITYSDK_OFFSET(0x1C51BB20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_GETSAMPLECOUNTMAX_OFFSET UNITYSDK_OFFSET(0x1C51B9F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_NORMALDISTRIBUTIONUNSCALED_OFFSET UNITYSDK_OFFSET(0x1C51B860)
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C51C500)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_ADDGAUSSIANBLURPASS_1_OFFSET UNITYSDK_OFFSET(0x1C9C7AB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_ADDGAUSSIANBLURPASS_OFFSET UNITYSDK_OFFSET(0x1C9C95E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_COMPUTE1DGAUSSIANFILTERKERNEL_OFFSET UNITYSDK_OFFSET(0x1C9C90E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_GETBLURRADIUS_OFFSET UNITYSDK_OFFSET(0x1C9C8E40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_GETCLAMPEDKERNELRADIUS_OFFSET UNITYSDK_OFFSET(0x1C9C8F70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_GETINTEGERKERNELRADIUS_OFFSET UNITYSDK_OFFSET(0x1C9C8FE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_GETSAMPLECOUNTMAX_OFFSET UNITYSDK_OFFSET(0x1C9C8EB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_NORMALDISTRIBUTIONUNSCALED_OFFSET UNITYSDK_OFFSET(0x1C9C8D20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9C99C0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int PostProcessWeightedSampleSum_TypeDefinitionIndex = 27978;
+	inline static constexpr unsigned int PostProcessWeightedSampleSum_TypeDefinitionIndex = 26441;
 
 	class PostProcessWeightedSampleSum : public ::System::Object
 	{
 	public:
+		static ::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::UnityEngine::Vector4>** StaticGet_PackedSampleOffset()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(PostProcessWeightedSampleSum_TypeDefinitionIndex)->GetStaticField(0x24430);
+		}
 		static ::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::UnityEngine::Vector4>** StaticGet_SampleWeights()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(PostProcessWeightedSampleSum_TypeDefinitionIndex)->GetStaticField(0x23420);
+			return (::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(PostProcessWeightedSampleSum_TypeDefinitionIndex)->GetStaticField(0x24438);
 		}
 		static ::Il2CppArray<::UnityEngine::Vector2>** StaticGet_OffsetAndWeight()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(PostProcessWeightedSampleSum_TypeDefinitionIndex)->GetStaticField(0x23428);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::UnityEngine::Vector4>** StaticGet_PackedSampleOffset()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(PostProcessWeightedSampleSum_TypeDefinitionIndex)->GetStaticField(0x23430);
+			return (::Il2CppArray<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(PostProcessWeightedSampleSum_TypeDefinitionIndex)->GetStaticField(0x24440);
 		}
 		// static const ::System::Int32 MAX_FILTER_SAMPLES = 0x40; // 0x0
 		// static const ::System::Int32 MAX_PACKED_SAMPLERS_OFFSET = 0x20; // 0x0

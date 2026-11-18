@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/Foundation/Container/NativeHashSet_2.h"
 #include "unitysdk/NPCCrowd/Ability/NPCEntityNativeData.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::AI { class AttractorRuntimeData; }
 
-#define NPCCROWD_AI_ATTRACTORQUERYENTITYPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF0CA160)
-#define NPCCROWD_AI_ATTRACTORQUERYENTITYPROCESSOR_GETNATIVEDATA_OFFSET UNITYSDK_OFFSET(0xF0CA060)
-#define NPCCROWD_AI_ATTRACTORQUERYENTITYPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xF0CA370)
+#define NPCCROWD_AI_ATTRACTORQUERYENTITYPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x114B3930)
+#define NPCCROWD_AI_ATTRACTORQUERYENTITYPROCESSOR_GETNATIVEDATA_OFFSET UNITYSDK_OFFSET(0x114B3810)
+#define NPCCROWD_AI_ATTRACTORQUERYENTITYPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x114B3B40)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorQueryEntityProcessor_TypeDefinitionIndex = 77282;
+	inline static constexpr unsigned int AttractorQueryEntityProcessor_TypeDefinitionIndex = 66536;
 
 	class AttractorQueryEntityProcessor : public ::System::Object
 	{

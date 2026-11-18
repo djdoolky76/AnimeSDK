@@ -2,38 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1685EC66FBD28897;
-class Class_2_208CC9941471731A_477;
+class FOLOGHLENFB;
+class KOIDMLPJGML;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16D91FC0)
-#define MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16D92000)
-#define MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__SETCHAPTERINFO_B__8_0_OFFSET UNITYSDK_OFFSET(0x16D92010)
-#define MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__SETCHAPTERINFO_B__8_1_OFFSET UNITYSDK_OFFSET(0x16D92060)
-#define MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__SETCHAPTERINFO_B__8_2_OFFSET UNITYSDK_OFFSET(0x16D92090)
+#define MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16687B90)
+#define MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16687BD0)
+#define MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__SETCHAPTERINFO_B__8_0_OFFSET UNITYSDK_OFFSET(0x16687BE0)
+#define MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__SETCHAPTERINFO_B__8_1_OFFSET UNITYSDK_OFFSET(0x16687C30)
+#define MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__SETCHAPTERINFO_B__8_2_OFFSET UNITYSDK_OFFSET(0x16687C60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDoubleEliteSelectRowWidgetController___c_TypeDefinitionIndex = 83444;
+	inline static constexpr unsigned int UIDoubleEliteSelectRowWidgetController___c_TypeDefinitionIndex = 73146;
 
 	class UIDoubleEliteSelectRowWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_2_208CC9941471731A_477*, ::System::Boolean>** StaticGet___9__8_1()
+		static ::System::Func_2<::FOLOGHLENFB*, ::System::Boolean>** StaticGet___9__8_2()
 		{
-			return (::System::Func_2<::Class_2_208CC9941471731A_477*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleEliteSelectRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32C30);
+			return (::System::Func_2<::FOLOGHLENFB*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleEliteSelectRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x35180);
 		}
-		static ::System::Func_2<::Class_2_208CC9941471731A_477*, ::System::Boolean>** StaticGet___9__8_2()
+		static ::System::Func_2<::KOIDMLPJGML*, ::FOLOGHLENFB*>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::Class_2_208CC9941471731A_477*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleEliteSelectRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32C38);
+			return (::System::Func_2<::KOIDMLPJGML*, ::FOLOGHLENFB*>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleEliteSelectRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x35188);
 		}
-		static ::System::Func_2<::Class_1_1685EC66FBD28897*, ::Class_2_208CC9941471731A_477*>** StaticGet___9__8_0()
+		static ::System::Func_2<::FOLOGHLENFB*, ::System::Boolean>** StaticGet___9__8_1()
 		{
-			return (::System::Func_2<::Class_1_1685EC66FBD28897*, ::Class_2_208CC9941471731A_477*>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleEliteSelectRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32C40);
+			return (::System::Func_2<::FOLOGHLENFB*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleEliteSelectRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x35190);
 		}
-		static ::MoleMole::UIDoubleEliteSelectRowWidgetController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIDoubleEliteSelectRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleEliteSelectRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x32C48);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleEliteSelectRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x35198);
 		}
 
 		static ::System::Void _cctor()
@@ -46,19 +46,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::Class_2_208CC9941471731A_477* _SetChapterInfo_b__8_0(::Class_1_1685EC66FBD28897* itemData)
+		::FOLOGHLENFB* _SetChapterInfo_b__8_0(::KOIDMLPJGML* itemData)
 		{
-			return ((::Class_2_208CC9941471731A_477*(*)(::PVOID, ::Class_1_1685EC66FBD28897*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__SETCHAPTERINFO_B__8_0_OFFSET))(this, itemData);
+			return ((::FOLOGHLENFB*(*)(::PVOID, ::KOIDMLPJGML*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__SETCHAPTERINFO_B__8_0_OFFSET))(this, itemData);
 		}
 
-		::System::Boolean _SetChapterInfo_b__8_1(::Class_2_208CC9941471731A_477* itemTemplate)
+		::System::Boolean _SetChapterInfo_b__8_1(::FOLOGHLENFB* itemTemplate)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_477*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__SETCHAPTERINFO_B__8_1_OFFSET))(this, itemTemplate);
+			return ((::System::Boolean(*)(::PVOID, ::FOLOGHLENFB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__SETCHAPTERINFO_B__8_1_OFFSET))(this, itemTemplate);
 		}
 
-		::System::Boolean _SetChapterInfo_b__8_2(::Class_2_208CC9941471731A_477* itemTemplate)
+		::System::Boolean _SetChapterInfo_b__8_2(::FOLOGHLENFB* itemTemplate)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_477*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__SETCHAPTERINFO_B__8_2_OFFSET))(this, itemTemplate);
+			return ((::System::Boolean(*)(::PVOID, ::FOLOGHLENFB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITESELECTROWWIDGETCONTROLLER___C__SETCHAPTERINFO_B__8_2_OFFSET))(this, itemTemplate);
 		}
 	};
 }

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_794BA983EDDBCFDE_Class_1_6142B71DCEBDB866;
+class MLJGMELKNCC_LKHJFCFGKEK;
 namespace MoleMole { class UIPrivateMessageReplyWidgetController; }
 
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS22_0__CHANGEREPLYSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x1988FC10)
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1988FC00)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS22_0__CHANGEREPLYSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x17D6F120)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D6F110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController___c__DisplayClass22_0_TypeDefinitionIndex = 56233;
+	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController___c__DisplayClass22_0_TypeDefinitionIndex = 80467;
 
 	class UIPrivateMessageReplyWidgetController___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::Class_1_794BA983EDDBCFDE_Class_1_6142B71DCEBDB866* singleMessage; // 0x10
+		::MLJGMELKNCC_LKHJFCFGKEK* singleMessage; // 0x10
 		::MoleMole::UIPrivateMessageReplyWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()

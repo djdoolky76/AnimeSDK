@@ -1,17 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/Console/ConsoleProduct.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/MiHoYo/SDK/Console/ConsoleProduct.h"
 
 namespace MiHoYo::SDK { class JSONNode; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDECD40)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_1__EXCHANGESONYSTOREITEMINFO_B__1_OFFSET UNITYSDK_OFFSET(0x1CDECD50)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1D35B5D0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_1__EXCHANGESONYSTOREITEMINFO_B__1_OFFSET UNITYSDK_OFFSET(0x1D35B5E0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_1_TypeDefinitionIndex = 20944;
+	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_1_TypeDefinitionIndex = 20148;
 
+	template <typename T>
 	class ThirdpartyStore___c__DisplayClass16_1 : public ::System::Object
 	{
 	public:

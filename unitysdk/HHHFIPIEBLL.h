@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JJEJBPGJPJN.h"
+#include "unitysdk/HKEOGIDPIKB.h"
+#include "unitysdk/MNAGAGOHIGH.h"
+
+class CMMNODHNGKC;
+class OKMKMKDHONP;
+template <typename T> class JIOLFCAGOFH_1;
+template <typename T> class LJHFMILANJA_1;
+
+#define HHHFIPIEBLL_ACNNINBMODO_OFFSET UNITYSDK_OFFSET(0x13D8CDF0)
+#define HHHFIPIEBLL_ECFNPNCKODL_OFFSET UNITYSDK_OFFSET(0x13D8CC20)
+#define HHHFIPIEBLL_GHJIMMFDKCP_OFFSET UNITYSDK_OFFSET(0x13D8D020)
+#define HHHFIPIEBLL_JINPDDJFIJK_OFFSET UNITYSDK_OFFSET(0x13D8D030)
+#define HHHFIPIEBLL_MFMAJGFCAHE_OFFSET UNITYSDK_OFFSET(0x13D8D010)
+#define HHHFIPIEBLL_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x13D8CA40)
+#define HHHFIPIEBLL__CTOR_OFFSET UNITYSDK_OFFSET(0x13D8CB30)
+
+inline static constexpr unsigned int HHHFIPIEBLL_TypeDefinitionIndex = 82408;
+
+class HHHFIPIEBLL : public ::JJEJBPGJPJN
+{
+public:
+	::LJHFMILANJA_1<::System::Int32>* EJGIBIHHHND; // 0x88
+	::CMMNODHNGKC* OPOLMJLMHCD; // 0x90
+	::LJHFMILANJA_1<::System::Int32>* MHBDBHGHBDC; // 0x98
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HHHFIPIEBLL__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnCreateProperty()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HHHFIPIEBLL_ONCREATEPROPERTY_OFFSET))(this);
+	}
+
+	::System::Void ECFNPNCKODL(::HKEOGIDPIKB LJBPECKCCEA, ::OKMKMKDHONP* GPHJEHNONJA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HKEOGIDPIKB, ::OKMKMKDHONP*))((::PBYTE)hIl2Cpp + HHHFIPIEBLL_ECFNPNCKODL_OFFSET))(this, LJBPECKCCEA, GPHJEHNONJA);
+	}
+
+	::JIOLFCAGOFH_1<::System::Int32>* MFMAJGFCAHE()
+	{
+		return ((::JIOLFCAGOFH_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HHHFIPIEBLL_MFMAJGFCAHE_OFFSET))(this);
+	}
+
+	::System::Void ACNNINBMODO(::System::Int32 MNCHAJOBCAI)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HHHFIPIEBLL_ACNNINBMODO_OFFSET))(this, MNCHAJOBCAI);
+	}
+
+	::JIOLFCAGOFH_1<::System::Int32>* GHJIMMFDKCP()
+	{
+		return ((::JIOLFCAGOFH_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HHHFIPIEBLL_GHJIMMFDKCP_OFFSET))(this);
+	}
+
+	::System::Void JINPDDJFIJK(::MNAGAGOHIGH& NFFNEFLKPDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::MNAGAGOHIGH&))((::PBYTE)hIl2Cpp + HHHFIPIEBLL_JINPDDJFIJK_OFFSET))(this, NFFNEFLKPDG);
+	}
+};

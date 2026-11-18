@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_FIXEDTIMESTEPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F70A020)
-#define MOLEMOLE_TIMELINE_FIXEDTIMESTEPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F70A140)
+#define MOLEMOLE_TIMELINE_FIXEDTIMESTEPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FAFDC60)
+#define MOLEMOLE_TIMELINE_FIXEDTIMESTEPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAFDD80)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int FixedTimeStepTrack_TypeDefinitionIndex = 32788;
+	inline static constexpr unsigned int FixedTimeStepTrack_TypeDefinitionIndex = 32239;
 
 	class FixedTimeStepTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

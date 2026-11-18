@@ -3,7 +3,7 @@
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int IEditorMenuCallbackReceiver_TypeDefinitionIndex = 30105;
+	inline static constexpr unsigned int IEditorMenuCallbackReceiver_TypeDefinitionIndex = 29574;
 
 	class IEditorMenuCallbackReceiver
 	{

@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/DigitalOpus/MB/Core/AtlasPadding.h"
 #include "unitysdk/DigitalOpus/MB/Core/MB2_TexturePacker.h"
+#include "unitysdk/DigitalOpus/MB/Core/AtlasPadding.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace DigitalOpus::MB::Core { class AtlasPackingResult; }
 namespace DigitalOpus::MB::Core { class MB2_TexturePackerRegular_Node; }
 namespace DigitalOpus::MB::Core { class MB2_TexturePackerRegular_ProbeResult; }
-namespace DigitalOpus::MB::Core { class MB2_TexturePacker_Image; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_DRAWGIZMOSNODE_OFFSET UNITYSDK_OFFSET(0x1EE2D4B0)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x1EE2D760)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_FLATTENTREE_OFFSET UNITYSDK_OFFSET(0x1EE2D2F0)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_GETEXTENT_OFFSET UNITYSDK_OFFSET(0x1EE2E080)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_GETRECTS_1_OFFSET UNITYSDK_OFFSET(0x1EE2E900)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_GETRECTS_OFFSET UNITYSDK_OFFSET(0x1EE2E810)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_PRINTTREE_OFFSET UNITYSDK_OFFSET(0x1EE2CEE0)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_PROBEMULTIATLAS_OFFSET UNITYSDK_OFFSET(0x1EE2E160)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_PROBESINGLEATLAS_OFFSET UNITYSDK_OFFSET(0x1EE2D800)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_STEPWIDTHHEIGHT_OFFSET UNITYSDK_OFFSET(0x1EE2E7E0)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE33340)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR__GETRECTSMULTIATLAS_OFFSET UNITYSDK_OFFSET(0x1EE2EC40)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR__GETRECTSSINGLEATLAS_OFFSET UNITYSDK_OFFSET(0x1EE307D0)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_DRAWGIZMOSNODE_OFFSET UNITYSDK_OFFSET(0x1F1D0440)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x1F1D0750)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_FLATTENTREE_OFFSET UNITYSDK_OFFSET(0x1F1D0280)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_GETEXTENT_OFFSET UNITYSDK_OFFSET(0x1F1D1070)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_GETRECTS_1_OFFSET UNITYSDK_OFFSET(0x1F1D18F0)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_GETRECTS_OFFSET UNITYSDK_OFFSET(0x1F1D1800)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_PRINTTREE_OFFSET UNITYSDK_OFFSET(0x1F1CFE70)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_PROBEMULTIATLAS_OFFSET UNITYSDK_OFFSET(0x1F1D1150)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_PROBESINGLEATLAS_OFFSET UNITYSDK_OFFSET(0x1F1D07F0)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_STEPWIDTHHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F1D17D0)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1D6350)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR__GETRECTSMULTIATLAS_OFFSET UNITYSDK_OFFSET(0x1F1D1C30)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR__GETRECTSSINGLEATLAS_OFFSET UNITYSDK_OFFSET(0x1F1D37D0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB2_TexturePackerRegular_TypeDefinitionIndex = 94616;
+	inline static constexpr unsigned int MB2_TexturePackerRegular_TypeDefinitionIndex = 96303;
 
 	class MB2_TexturePackerRegular : public ::DigitalOpus::MB::Core::MB2_TexturePacker
 	{
@@ -45,9 +45,9 @@ namespace DigitalOpus::MB::Core
 			return ((::System::Void(*)(::DigitalOpus::MB::Core::MB2_TexturePackerRegular_Node*, ::System::String*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_PRINTTREE_OFFSET))(r, spc);
 		}
 
-		static ::System::Void flattenTree(::DigitalOpus::MB::Core::MB2_TexturePackerRegular_Node* r, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB2_TexturePacker_Image*>* putHere)
+		static ::System::Void flattenTree(::DigitalOpus::MB::Core::MB2_TexturePackerRegular_Node* r, ::System::Collections::Generic::List_1<::System::Object*>* putHere)
 		{
-			return ((::System::Void(*)(::DigitalOpus::MB::Core::MB2_TexturePackerRegular_Node*, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB2_TexturePacker_Image*>*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_FLATTENTREE_OFFSET))(r, putHere);
+			return ((::System::Void(*)(::DigitalOpus::MB::Core::MB2_TexturePackerRegular_Node*, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_FLATTENTREE_OFFSET))(r, putHere);
 		}
 
 		static ::System::Void drawGizmosNode(::DigitalOpus::MB::Core::MB2_TexturePackerRegular_Node* r)
@@ -60,14 +60,14 @@ namespace DigitalOpus::MB::Core
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_DRAWGIZMOS_OFFSET))(this);
 		}
 
-		::System::Boolean ProbeSingleAtlas(::Il2CppArray<::DigitalOpus::MB::Core::MB2_TexturePacker_Image*>* imgsToAdd, ::System::Int32 idealAtlasW, ::System::Int32 idealAtlasH, ::System::Single imgArea, ::System::Int32 maxAtlasDimX, ::System::Int32 maxAtlasDimY, ::DigitalOpus::MB::Core::MB2_TexturePackerRegular_ProbeResult* pr)
+		::System::Boolean ProbeSingleAtlas(::Il2CppArray<::System::Object*>* imgsToAdd, ::System::Int32 idealAtlasW, ::System::Int32 idealAtlasH, ::System::Single imgArea, ::System::Int32 maxAtlasDimX, ::System::Int32 maxAtlasDimY, ::DigitalOpus::MB::Core::MB2_TexturePackerRegular_ProbeResult* pr)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::DigitalOpus::MB::Core::MB2_TexturePacker_Image*>*, ::System::Int32, ::System::Int32, ::System::Single, ::System::Int32, ::System::Int32, ::DigitalOpus::MB::Core::MB2_TexturePackerRegular_ProbeResult*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_PROBESINGLEATLAS_OFFSET))(this, imgsToAdd, idealAtlasW, idealAtlasH, imgArea, maxAtlasDimX, maxAtlasDimY, pr);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::System::Int32, ::System::Int32, ::System::Single, ::System::Int32, ::System::Int32, ::DigitalOpus::MB::Core::MB2_TexturePackerRegular_ProbeResult*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_PROBESINGLEATLAS_OFFSET))(this, imgsToAdd, idealAtlasW, idealAtlasH, imgArea, maxAtlasDimX, maxAtlasDimY, pr);
 		}
 
-		::System::Boolean ProbeMultiAtlas(::Il2CppArray<::DigitalOpus::MB::Core::MB2_TexturePacker_Image*>* imgsToAdd, ::System::Int32 idealAtlasW, ::System::Int32 idealAtlasH, ::System::Single imgArea, ::System::Int32 maxAtlasDimX, ::System::Int32 maxAtlasDimY, ::DigitalOpus::MB::Core::MB2_TexturePackerRegular_ProbeResult* pr)
+		::System::Boolean ProbeMultiAtlas(::Il2CppArray<::System::Object*>* imgsToAdd, ::System::Int32 idealAtlasW, ::System::Int32 idealAtlasH, ::System::Single imgArea, ::System::Int32 maxAtlasDimX, ::System::Int32 maxAtlasDimY, ::DigitalOpus::MB::Core::MB2_TexturePackerRegular_ProbeResult* pr)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::DigitalOpus::MB::Core::MB2_TexturePacker_Image*>*, ::System::Int32, ::System::Int32, ::System::Single, ::System::Int32, ::System::Int32, ::DigitalOpus::MB::Core::MB2_TexturePackerRegular_ProbeResult*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_PROBEMULTIATLAS_OFFSET))(this, imgsToAdd, idealAtlasW, idealAtlasH, imgArea, maxAtlasDimX, maxAtlasDimY, pr);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::System::Int32, ::System::Int32, ::System::Single, ::System::Int32, ::System::Int32, ::DigitalOpus::MB::Core::MB2_TexturePackerRegular_ProbeResult*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_PROBEMULTIATLAS_OFFSET))(this, imgsToAdd, idealAtlasW, idealAtlasH, imgArea, maxAtlasDimX, maxAtlasDimY, pr);
 		}
 
 		::System::Void GetExtent(::DigitalOpus::MB::Core::MB2_TexturePackerRegular_Node* r, ::System::Int32& x, ::System::Int32& y)

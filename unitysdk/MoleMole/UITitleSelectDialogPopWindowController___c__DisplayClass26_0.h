@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UITitleSelectDialogPopWindowController; }
-namespace System { class Action; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1303D1E0)
-#define MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__SENDAPPLYMEDALSETTING_B__0_OFFSET UNITYSDK_OFFSET(0x1303D1F0)
+#define MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1055C4B0)
+#define MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__DEALCLOSEMEDALLOGIC_B__7_OFFSET UNITYSDK_OFFSET(0x1055C4C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITitleSelectDialogPopWindowController___c__DisplayClass26_0_TypeDefinitionIndex = 76223;
+	inline static constexpr unsigned int UITitleSelectDialogPopWindowController___c__DisplayClass26_0_TypeDefinitionIndex = 79080;
 
 	class UITitleSelectDialogPopWindowController___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onSuccess; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* recommendSelectList; // 0x10
 		::MoleMole::UITitleSelectDialogPopWindowController* __4__this; // 0x18
 
 		::System::Void _ctor()
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SendApplyMedalSetting_b__0()
+		::System::Void _DealCloseMedalLogic_b__7()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__SENDAPPLYMEDALSETTING_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS26_0__DEALCLOSEMEDALLOGIC_B__7_OFFSET))(this);
 		}
 	};
 }

@@ -6,6 +6,7 @@
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
+namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
@@ -16,176 +17,197 @@ namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ConsoleO
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ConsoleVariableT_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E482C70)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GETDEFAULTRAYBUDGET_OFFSET UNITYSDK_OFFSET(0x1E482B00)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GETDEFAULTRESOLUTIONSCALE_OFFSET UNITYSDK_OFFSET(0x1E482AE0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_ISRTXBUFFERVALID_OFFSET UNITYSDK_OFFSET(0x1E482C40)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_RELEASEOUTSCOPEGLOBALTEXTURES_OFFSET UNITYSDK_OFFSET(0x1E48C0E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_RESETTOPRESET_OFFSET UNITYSDK_OFFSET(0x1E482B20)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_RTXGIENABLED_OFFSET UNITYSDK_OFFSET(0x1E482220)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_TRIMRTXGIENABLEDSTATE_OFFSET UNITYSDK_OFFSET(0x1E4826B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_UPDATERTXGIENABLEDSTATE_OFFSET UNITYSDK_OFFSET(0x1E482330)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E48C250)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI__CTOR_OFFSET UNITYSDK_OFFSET(0x1E48C200)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E64A7E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GETCVARIDCHECKED_OFFSET UNITYSDK_OFFSET(0x1E649950)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GETDEFAULTRAYBUDGET_OFFSET UNITYSDK_OFFSET(0x1E64A600)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GETDEFAULTRESOLUTIONSCALE_OFFSET UNITYSDK_OFFSET(0x1E64A5E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGIADDLOCALLIGHTMAXDIST_OFFSET UNITYSDK_OFFSET(0x1E649D80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGIADDLOCALLIGHTMINDIST_OFFSET UNITYSDK_OFFSET(0x1E649CF0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGIBOOST_OFFSET UNITYSDK_OFFSET(0x1E649AB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGIQUALITYPRESET_OFFSET UNITYSDK_OFFSET(0x1E649980)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGISKYDIFFUSESCALE_OFFSET UNITYSDK_OFFSET(0x1E649BD0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGISKYSPECULARSCALE_OFFSET UNITYSDK_OFFSET(0x1E649C60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGISPECBOOST_OFFSET UNITYSDK_OFFSET(0x1E649B40)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_ISRTXBUFFERVALID_OFFSET UNITYSDK_OFFSET(0x1E64A7B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_RELEASEOUTSCOPEGLOBALTEXTURES_OFFSET UNITYSDK_OFFSET(0x1E6541C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_RESETTOPRESET_OFFSET UNITYSDK_OFFSET(0x1E64A620)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_RTXGIENABLED_OFFSET UNITYSDK_OFFSET(0x1E649E10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_SET_RTXGIQUALITYPRESET_OFFSET UNITYSDK_OFFSET(0x1E649A10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_TRIMRTXGIENABLEDSTATE_OFFSET UNITYSDK_OFFSET(0x1E64A1B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_UPDATERTXGIENABLEDSTATE_OFFSET UNITYSDK_OFFSET(0x1E649F20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E654330)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6542E0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RTXGI_TypeDefinitionIndex = 5797;
+	inline static constexpr unsigned int RTXGI_TypeDefinitionIndex = 5802;
 
 	class RTXGI : public ::UnityEngine::NAPRenderPipeline0::RTXRenderer
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIMicroAO()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5080);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIApplyGIInPass()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5088);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGISkyDiffuseScale()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5090);
-		}
-		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Camera*>** StaticGet_s_RTXGIEnabledCameras()
-		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5098);
-		}
-		static ::UnityEngine::Material** StaticGet_rtxgiMat()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x50A0);
-		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIResponseSpeed()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x50A8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXGIRaySortPassNum()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x50B0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIShadingTraceShadow()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x50B8);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4F80);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIResolutionScale()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x50C0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_EnableRTXGI()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x50C8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIAddLocallightMinDist()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x50D0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIFloatBufferFormat()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x50D8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>** StaticGet_RTXGIMetallicLut()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x50E0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXGIVisualizeMode()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x50E8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>** StaticGet_RTXGIMultiBounceAlbedoLut()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x50F0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIDISSSRT()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x50F8);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGISkySpecularScale()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5100);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIAddLocallightScale()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5108);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIAddLocallightMaxDist()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5110);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIDISSSReshade()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5118);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>** StaticGet_RTXGILut()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5120);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXGIQualityPreset()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5128);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIRaySort()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5130);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIDisableMultiBounce()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5138);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>** StaticGet_RTXGIRoughnessLut()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5140);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIMultiBounceScale()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5148);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4F88);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGISplitSpecThreshold()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5150);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4F90);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIRayBudget()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXGIVisualizeMode()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5158);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4F98);
 		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Camera*>** StaticGet_s_RTXGIEnabledCamerasToRemove()
+		static ::UnityEngine::Material** StaticGet_rtxgiMat()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5160);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4FA0);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXGIHighQualityShader()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIApplyGIInPass()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5168);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4FA8);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIBoost()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIDisableMultiBounce()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5170);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4FB0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIRaySort()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4FB8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIMicroAO()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4FC0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>** StaticGet_RTXGIMetallicLut()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4FC8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIDISSSReshade()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4FD0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIShadingTraceShadow()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4FD8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>** StaticGet_RTXGIMultiBounceAlbedoLut()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4FE0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIFloatBufferFormat()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4FE8);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIAddLocallightDelta()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5178);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4FF0);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGISpecBoost()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIDISSSRT()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5180);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x4FF8);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIAddLocallightScale()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5000);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_EnableRTXGI()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5008);
+		}
+		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Camera*>** StaticGet_s_RTXGIEnabledCameras()
+		{
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5010);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Camera*>** StaticGet_s_RTXGIEnabledCamerasToRemove()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5018);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>** StaticGet_RTXGIRoughnessLut()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5020);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIRayBudget()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5028);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>** StaticGet_RTXGIMultiBounceScale()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5030);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXGIHighQualityShader()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5038);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIGPUPageFault()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5040);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXGISubstepNum()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5188);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5048);
 		}
-		static ::System::Int32* StaticGet_EnableForwardGBufferId()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>** StaticGet_RTXGILut()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x2940);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleObjectT_1<::UnityEngine::Texture*>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5050);
 		}
-		static ::System::Boolean* StaticGet_s_bHasOutScopeTexture()
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>** StaticGet_RTXGIGPUHang()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x2944);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5058);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>** StaticGet_RTXGIRaySortPassNum()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x5060);
+		}
+		static ::System::Boolean* StaticGet_GPUCrashDiagnosticsEnabled()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x28A0);
 		}
 		static ::System::Boolean* StaticGet_s_LastEnableRTXGIValueWithoutCamera()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x2945);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x28A1);
+		}
+		static ::System::Boolean* StaticGet_s_bHasOutScopeTexture()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x28A2);
 		}
 		static ::System::Int32* StaticGet_s_RTXGIEnabledCamerasTrimFrame()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x2948);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x28A4);
+		}
+		static ::System::Int32* StaticGet_EnableForwardGBufferId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x28A8);
+		}
+		static ::System::Int32* StaticGet_s_RTXGIAddLocallightMinDistId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x28AC);
+		}
+		static ::System::Int32* StaticGet_s_RTXGIAddLocallightMaxDistId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x28B0);
+		}
+		static ::System::Int32* StaticGet_s_RTXGISkyDiffuseScaleId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x28B4);
+		}
+		static ::System::Int32* StaticGet_s_RTXGIBoostId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x28B8);
+		}
+		static ::System::Int32* StaticGet_s_RTXGISpecBoostId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x28BC);
+		}
+		static ::System::Int32* StaticGet_s_RTXGIQualityPresetId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x28C0);
+		}
+		static ::System::Int32* StaticGet_s_RTXGISkySpecularScaleId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RTXGI_TypeDefinitionIndex)->GetStaticField(0x28C4);
 		}
 
 		::System::Void _ctor()
@@ -196,6 +218,51 @@ namespace UnityEngine::NAPRenderPipeline0
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RTXGI__CCTOR_OFFSET))();
+		}
+
+		static ::System::Int32 GetCVarIdChecked(::System::Int32& cachedId, ::System::String* name)
+		{
+			return ((::System::Int32(*)(::System::Int32&, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GETCVARIDCHECKED_OFFSET))(cachedId, name);
+		}
+
+		static ::System::Int32 get_RTXGIQualityPreset()
+		{
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGIQUALITYPRESET_OFFSET))();
+		}
+
+		static ::System::Void set_RTXGIQualityPreset(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_SET_RTXGIQUALITYPRESET_OFFSET))(value);
+		}
+
+		static ::System::Single get_RTXGIBoost()
+		{
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGIBOOST_OFFSET))();
+		}
+
+		static ::System::Single get_RTXGISpecBoost()
+		{
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGISPECBOOST_OFFSET))();
+		}
+
+		static ::System::Single get_RTXGISkyDiffuseScale()
+		{
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGISKYDIFFUSESCALE_OFFSET))();
+		}
+
+		static ::System::Single get_RTXGISkySpecularScale()
+		{
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGISKYSPECULARSCALE_OFFSET))();
+		}
+
+		static ::System::Single get_RTXGIAddLocallightMinDist()
+		{
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGIADDLOCALLIGHTMINDIST_OFFSET))();
+		}
+
+		static ::System::Single get_RTXGIAddLocallightMaxDist()
+		{
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_GET_RTXGIADDLOCALLIGHTMAXDIST_OFFSET))();
 		}
 
 		static ::System::Boolean RTXGIEnabled(::UnityEngine::NAPRenderPipeline0::RenderingData& renderingData)

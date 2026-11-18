@@ -6,11 +6,11 @@
 
 namespace MoleMole { class ContourXZ; }
 
-#define MOLEMOLE_FACEPLANEGEOMETRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B82B060)
+#define MOLEMOLE_FACEPLANEGEOMETRY__CTOR_OFFSET UNITYSDK_OFFSET(0x180D1410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FacePlaneGeometry_TypeDefinitionIndex = 74815;
+	inline static constexpr unsigned int FacePlaneGeometry_TypeDefinitionIndex = 59264;
 
 	class FacePlaneGeometry : public ::System::Object
 	{

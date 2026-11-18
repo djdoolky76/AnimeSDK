@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraDebugDrawPoints2D_Point.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
@@ -8,29 +7,29 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D_ADDPOINT_OFFSET UNITYSDK_OFFSET(0x1EBC4250)
-#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EBC4310)
-#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D_DRAW_OFFSET UNITYSDK_OFFSET(0x1EBC43B0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D_ENSURE_OFFSET UNITYSDK_OFFSET(0x1EBC40A0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC47F0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D_ADDPOINT_OFFSET UNITYSDK_OFFSET(0x1F2F1620)
+#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F2F16E0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D_DRAW_OFFSET UNITYSDK_OFFSET(0x1F2F1780)
+#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D_ENSURE_OFFSET UNITYSDK_OFFSET(0x1F2F1470)
+#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F1BC0)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraDebugDrawPoints2D_TypeDefinitionIndex = 38273;
+	inline static constexpr unsigned int CameraDebugDrawPoints2D_TypeDefinitionIndex = 36275;
 
 	class CameraDebugDrawPoints2D : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Color, ::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawPoints2D_Point>*>* _items; // 0x10
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Color, ::System::Collections::Generic::List_1<::System::Object*>*>* _items; // 0x10
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawPoints2D_Point>* Ensure(::UnityEngine::Color& color)
+		::System::Collections::Generic::List_1<::System::Object*>* Ensure(::UnityEngine::Color& color)
 		{
-			return ((::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawPoints2D_Point>*(*)(::PVOID, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D_ENSURE_OFFSET))(this, color);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERADEBUGDRAWPOINTS2D_ENSURE_OFFSET))(this, color);
 		}
 
 		::System::Void AddPoint(::UnityEngine::Vector2& position, ::UnityEngine::Color color, ::System::Single size, ::System::Single depth)

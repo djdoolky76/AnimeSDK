@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_CAMERAEXTENSIONS_SETCAMERATOPHYSICALCAMERAFORADAPTSCREENASPECTRATIO_OFFSET UNITYSDK_OFFSET(0x1DE8E670)
+#define UNITYENGINE_CAMERAEXTENSIONS_SETCAMERATOPHYSICALCAMERAFORADAPTSCREENASPECTRATIO_OFFSET UNITYSDK_OFFSET(0x1C2CBC00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CameraExtensions_TypeDefinitionIndex = 44318;
+	inline static constexpr unsigned int CameraExtensions_TypeDefinitionIndex = 86893;
 
 	class CameraExtensions : public ::System::Object
 	{

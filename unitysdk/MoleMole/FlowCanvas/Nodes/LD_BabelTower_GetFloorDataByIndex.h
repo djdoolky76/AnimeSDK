@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 
 namespace MoleMole::Project::Config { class BabelFloorInfoTemplateExt; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETFLOORDATABYINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1B1450)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETFLOORDATABYINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B15F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETFLOORDATABYINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x14AE5B00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETFLOORDATABYINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x14AE5CA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_BabelTower_GetFloorDataByIndex_TypeDefinitionIndex = 69660;
+	inline static constexpr unsigned int LD_BabelTower_GetFloorDataByIndex_TypeDefinitionIndex = 42431;
 
-	class LD_BabelTower_GetFloorDataByIndex : public ::FlowCanvas::Nodes::PureFunctionNode_2<::MoleMole::Project::Config::BabelFloorInfoTemplateExt*, ::System::Int32>
+	class LD_BabelTower_GetFloorDataByIndex
 	{
 	public:
 		::System::Void _ctor()

@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/DigitalOpus/MB/Core/MB3_MeshCombinerSingle_BoneAndBindpose.h"
 #include "unitysdk/DigitalOpus/MB/Core/MB3_MeshCombinerSingle_BoneWeightDataForMesh.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/BoneWeight.h"
@@ -9,7 +8,6 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-namespace DigitalOpus::MB::Core { class MB3_MeshCombinerSingle_SerializableIntArray; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -18,20 +16,21 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_DYNAMICGAMEOBJECT_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1F558740)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_DYNAMICGAMEOBJECT_INITIALIZENEW_OFFSET UNITYSDK_OFFSET(0x1F5584F0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_DYNAMICGAMEOBJECT_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F5582B0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_DYNAMICGAMEOBJECT_UNINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F558720)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_DYNAMICGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F558760)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_DYNAMICGAMEOBJECT_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1F93B8A0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_DYNAMICGAMEOBJECT_INITIALIZENEW_OFFSET UNITYSDK_OFFSET(0x1F93B650)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_DYNAMICGAMEOBJECT_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F93B410)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_DYNAMICGAMEOBJECT_UNINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F93B880)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_DYNAMICGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F93B8C0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombinerSingle_MB_DynamicGameObject_TypeDefinitionIndex = 94569;
+	inline static constexpr unsigned int MB3_MeshCombinerSingle_MB_DynamicGameObject_TypeDefinitionIndex = 96256;
 
 	class MB3_MeshCombinerSingle_MB_DynamicGameObject : public ::System::Object
 	{
 	public:
 		::System::Int32 instanceID; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::GameObject* gameObject; // 0x18
 		::System::String* name; // 0x20
 		::System::Int32 vertIdx; // 0x28
@@ -40,12 +39,14 @@ namespace DigitalOpus::MB::Core
 		::System::Int32 numBlendShapes; // 0x34
 		::System::Int32 numBoneWeights; // 0x38
 		::System::Boolean isSkinnedMeshWithBones; // 0x3C
+		::System::Byte _padding1[0x3];
 		::Il2CppArray<::System::Int32>* indexesOfBonesUsed; // 0x40
 		::System::Int32 lightmapIndex; // 0x48
 		::UnityEngine::Vector4 lightmapTilingOffset; // 0x4C
 		::UnityEngine::Vector3 meshSize; // 0x5C
 		::System::Boolean show; // 0x68
 		::System::Boolean invertTriangles; // 0x69
+		::System::Byte _padding2[0x6];
 		::Il2CppArray<::System::Int32>* submeshTriIdxs; // 0x70
 		::Il2CppArray<::System::Int32>* submeshNumTris; // 0x78
 		::Il2CppArray<::System::Int32>* targetSubmeshIdxs; // 0x80
@@ -57,12 +58,13 @@ namespace DigitalOpus::MB::Core
 		::Il2CppArray<::UnityEngine::Material*>* sourceSharedMaterials; // 0xB0
 		::System::Boolean _initialized; // 0xB8
 		::System::Boolean _beingDeleted; // 0xB9
+		::System::Byte _padding3[0x6];
 		::UnityEngine::Mesh* _mesh; // 0xC0
 		::UnityEngine::Renderer* _renderer; // 0xC8
-		::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_SerializableIntArray*>* _tmpSubmeshTris; // 0xD0
+		::Il2CppArray<::System::Object*>* _tmpSubmeshTris; // 0xD0
 		::Il2CppArray<::UnityEngine::Transform*>* _tmpSMR_CachedBones; // 0xD8
 		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* _tmpSMR_CachedBindposes; // 0xE0
-		::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BoneAndBindpose>* _tmpSMR_CachedBoneAndBindPose; // 0xE8
+		::Il2CppArray<::System::Object*>* _tmpSMR_CachedBoneAndBindPose; // 0xE8
 		::Il2CppArray<::System::Int32>* _tmpSMR_srcMeshBoneIdx2masterListBoneIdx; // 0xF0
 		::Il2CppArray<::UnityEngine::BoneWeight>* _tmpSMR_CachedBoneWeights; // 0xF8
 		::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BoneWeightDataForMesh _tmpSMR_CachedBoneWeightData; // 0x100

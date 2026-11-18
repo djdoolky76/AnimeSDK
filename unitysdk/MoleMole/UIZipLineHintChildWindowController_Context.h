@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIZIPLINEHINTCHILDWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14DA7280)
+#define MOLEMOLE_UIZIPLINEHINTCHILDWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x170DC390)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZipLineHintChildWindowController_Context_TypeDefinitionIndex = 83996;
+	inline static constexpr unsigned int UIZipLineHintChildWindowController_Context_TypeDefinitionIndex = 71615;
 
 	class UIZipLineHintChildWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

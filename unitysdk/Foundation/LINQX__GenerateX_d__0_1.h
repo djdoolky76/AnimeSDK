@@ -3,12 +3,10 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { template <typename T> class Func_1; }
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LINQX__GenerateX_d__0_1_TypeDefinitionIndex = 8110;
+	inline static constexpr unsigned int LINQX__GenerateX_d__0_1_TypeDefinitionIndex = 8326;
 
 	template <typename T>
 	class LINQX__GenerateX_d__0_1 : public ::System::Object

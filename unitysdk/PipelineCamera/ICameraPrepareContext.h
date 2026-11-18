@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraExternalValueType.h"
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraPrepareContext_TypeDefinitionIndex = 38214;
+	inline static constexpr unsigned int ICameraPrepareContext_TypeDefinitionIndex = 36216;
 
 	class ICameraPrepareContext
 	{

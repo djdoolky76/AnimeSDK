@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnMouseExitHandler_TypeDefinitionIndex = 32000;
+	inline static constexpr unsigned int IAsyncOnMouseExitHandler_TypeDefinitionIndex = 31449;
 
 	class IAsyncOnMouseExitHandler
 	{

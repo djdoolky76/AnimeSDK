@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::NAPRenderPipeline0 { class VolumeComponent; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEPROFILE_NATIVESRP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7D7F20)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEPROFILE_NATIVESRP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D7F60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEPROFILE_NATIVESRP___C__ONENABLE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1E7D7F70)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEPROFILE_NATIVESRP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E984B10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEPROFILE_NATIVESRP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E984B50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMEPROFILE_NATIVESRP___C__ONENABLE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1E984B60)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int VolumeProfile_NativeSRP___c_TypeDefinitionIndex = 6078;
+	inline static constexpr unsigned int VolumeProfile_NativeSRP___c_TypeDefinitionIndex = 6086;
 
 	class VolumeProfile_NativeSRP___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::UnityEngine::NAPRenderPipeline0::VolumeComponent*>** StaticGet___9__3_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::NAPRenderPipeline0::VolumeComponent*>**)Il2CppClass::FromTypeDefinitionIndex(VolumeProfile_NativeSRP___c_TypeDefinitionIndex)->GetStaticField(0x5330);
+			return (::System::Predicate_1<::UnityEngine::NAPRenderPipeline0::VolumeComponent*>**)Il2CppClass::FromTypeDefinitionIndex(VolumeProfile_NativeSRP___c_TypeDefinitionIndex)->GetStaticField(0x5230);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::VolumeProfile_NativeSRP___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::VolumeProfile_NativeSRP___c**)Il2CppClass::FromTypeDefinitionIndex(VolumeProfile_NativeSRP___c_TypeDefinitionIndex)->GetStaticField(0x5338);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(VolumeProfile_NativeSRP___c_TypeDefinitionIndex)->GetStaticField(0x5238);
 		}
 
 		static ::System::Void _cctor()

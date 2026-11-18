@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/SGF/SEvent/DelegateChain_2.h"
 
-namespace System { class Delegate; }
-namespace System { class String; }
-
-#define SGF_SEVENT_STRINGPROCESSORCHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9CF090)
+#define SGF_SEVENT_STRINGPROCESSORCHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA88F00)
 
 namespace SGF::SEvent
 {
-	inline static constexpr unsigned int StringProcessorChain_TypeDefinitionIndex = 7902;
+	inline static constexpr unsigned int StringProcessorChain_TypeDefinitionIndex = 8416;
 
-	class StringProcessorChain : public ::SGF::SEvent::DelegateChain_2<::System::Delegate*, ::System::String*>
+	class StringProcessorChain
 	{
 	public:
 		::System::Void _ctor()

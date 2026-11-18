@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/DONFJJIGKIL.h"
+#include "unitysdk/ABAGHPMMICI.h"
+#include "unitysdk/DLMMAMJGPCI.h"
+#include "unitysdk/JNCLHPMCNJN.h"
+#include "unitysdk/LKEJGLHLBOH.h"
+
+class FBAMLABJMKF;
+class FFDNKIDGFMD;
+namespace MoleMole { class UIHollowChessboard3DModelController; }
+
+#define GMJALNLPCOE_COKNIICCODC_OFFSET UNITYSDK_OFFSET(0x14913470)
+#define GMJALNLPCOE_PBGAEMAIBBE_OFFSET UNITYSDK_OFFSET(0x149130A0)
+#define GMJALNLPCOE__CTOR_OFFSET UNITYSDK_OFFSET(0x14913460)
+
+inline static constexpr unsigned int GMJALNLPCOE_TypeDefinitionIndex = 44732;
+
+class GMJALNLPCOE : public ::DONFJJIGKIL
+{
+public:
+	::FBAMLABJMKF* CKCJPICGPIG; // 0x10
+	::MoleMole::UIHollowChessboard3DModelController* BDEFFPHDGNJ; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GMJALNLPCOE__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean PBGAEMAIBBE(::FFDNKIDGFMD* ABOGJGCIOKD, ::JNCLHPMCNJN& GHHJACHBEPA, ::DLMMAMJGPCI& NKFCNIPEOMP, ::ABAGHPMMICI& JBAAOKJHJMH, ::LKEJGLHLBOH& FJKOPFAAFBD)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FFDNKIDGFMD*, ::JNCLHPMCNJN&, ::DLMMAMJGPCI&, ::ABAGHPMMICI&, ::LKEJGLHLBOH&))((::PBYTE)hIl2Cpp + GMJALNLPCOE_PBGAEMAIBBE_OFFSET))(this, ABOGJGCIOKD, GHHJACHBEPA, NKFCNIPEOMP, JBAAOKJHJMH, FJKOPFAAFBD);
+	}
+
+	static ::GMJALNLPCOE* COKNIICCODC(::FBAMLABJMKF* COBEJJHGMPO)
+	{
+		return ((::GMJALNLPCOE*(*)(::FBAMLABJMKF*))((::PBYTE)hIl2Cpp + GMJALNLPCOE_COKNIICCODC_OFFSET))(COBEJJHGMPO);
+	}
+};

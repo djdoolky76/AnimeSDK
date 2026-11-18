@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBangkovItemInfoWidgetController; }
 
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19A818A0)
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__DISPLAYCLASS76_0__ONCLICKUSEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x19A818B0)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A351660)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__DISPLAYCLASS76_0__ONCLICKUSEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x1A351670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovItemInfoWidgetController___c__DisplayClass76_0_TypeDefinitionIndex = 56443;
+	inline static constexpr unsigned int UIBangkovItemInfoWidgetController___c__DisplayClass76_0_TypeDefinitionIndex = 69217;
 
 	class UIBangkovItemInfoWidgetController___c__DisplayClass76_0 : public ::System::Object
 	{

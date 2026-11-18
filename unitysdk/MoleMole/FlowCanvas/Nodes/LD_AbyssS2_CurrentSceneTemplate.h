@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
 namespace MoleMole::FlatBuffers::Config { class AbyssS2SceneTemplate; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CURRENTSCENETEMPLATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1AEA40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CURRENTSCENETEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AEB60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CURRENTSCENETEMPLATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x14AE30C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CURRENTSCENETEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x14AE31F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_CurrentSceneTemplate_TypeDefinitionIndex = 74106;
+	inline static constexpr unsigned int LD_AbyssS2_CurrentSceneTemplate_TypeDefinitionIndex = 44610;
 
-	class LD_AbyssS2_CurrentSceneTemplate : public ::FlowCanvas::Nodes::PureFunctionNode_1<::MoleMole::FlatBuffers::Config::AbyssS2SceneTemplate*>
+	class LD_AbyssS2_CurrentSceneTemplate
 	{
 	public:
 		::System::Void _ctor()

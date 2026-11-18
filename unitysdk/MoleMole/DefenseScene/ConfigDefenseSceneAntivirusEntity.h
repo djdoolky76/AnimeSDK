@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/ConfigChessEntity.h"
 #include "unitysdk/MoleMole/ConfigChessEntity_StateMachineParamsWrapper.h"
 
-#define MOLEMOLE_DEFENSESCENE_CONFIGDEFENSESCENEANTIVIRUSENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x16276BD0)
+#define MOLEMOLE_DEFENSESCENE_CONFIGDEFENSESCENEANTIVIRUSENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19B361E0)
 
 namespace MoleMole::DefenseScene
 {
-	inline static constexpr unsigned int ConfigDefenseSceneAntivirusEntity_TypeDefinitionIndex = 84098;
+	inline static constexpr unsigned int ConfigDefenseSceneAntivirusEntity_TypeDefinitionIndex = 66022;
 
 	class ConfigDefenseSceneAntivirusEntity : public ::MoleMole::ConfigChessEntity
 	{

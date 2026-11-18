@@ -3,7 +3,7 @@
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int TitleSizes_TypeDefinitionIndex = 7404;
+	inline static constexpr unsigned int TitleSizes_TypeDefinitionIndex = 7411;
 
 	enum class TitleSizes : ::System::Int32
 	{

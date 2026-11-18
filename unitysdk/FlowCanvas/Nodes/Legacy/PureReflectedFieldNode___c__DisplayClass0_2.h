@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 
 namespace FlowCanvas { class ValueInput; }
-namespace FlowCanvas::Nodes::Legacy { class PureReflectedFieldNode___c__DisplayClass0_0; }
 
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1E536610)
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_2__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1E536620)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AA680)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_2__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1E7AA690)
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass0_2_TypeDefinitionIndex = 30440;
+	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass0_2_TypeDefinitionIndex = 30702;
 
+	template <typename T1, typename T2>
 	class PureReflectedFieldNode___c__DisplayClass0_2 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::Legacy::PureReflectedFieldNode___c__DisplayClass0_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::FlowCanvas::ValueInput* instanceInput; // 0x18
 
 		::System::Void _ctor()

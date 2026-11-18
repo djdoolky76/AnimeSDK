@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UITHEGUNMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D69D60)
-#define MOLEMOLE_UITHEGUNMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17D69DA0)
-#define MOLEMOLE_UITHEGUNMAINPAGECONTROLLER___C__GOTOMAINCITY_B__28_0_OFFSET UNITYSDK_OFFSET(0x17D69E70)
-#define MOLEMOLE_UITHEGUNMAINPAGECONTROLLER___C__ONCLICKMAIN_B__25_0_OFFSET UNITYSDK_OFFSET(0x17D69DB0)
+#define MOLEMOLE_UITHEGUNMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x166F0920)
+#define MOLEMOLE_UITHEGUNMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x166F0960)
+#define MOLEMOLE_UITHEGUNMAINPAGECONTROLLER___C__GOTOMAINCITY_B__28_0_OFFSET UNITYSDK_OFFSET(0x166F0A30)
+#define MOLEMOLE_UITHEGUNMAINPAGECONTROLLER___C__ONCLICKMAIN_B__25_0_OFFSET UNITYSDK_OFFSET(0x166F0970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITheGunMainPageController___c_TypeDefinitionIndex = 46651;
+	inline static constexpr unsigned int UITheGunMainPageController___c_TypeDefinitionIndex = 56259;
 
 	class UITheGunMainPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__25_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UITheGunMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4C6D0);
-		}
 		static ::System::Action** StaticGet___9__28_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UITheGunMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4C6D8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UITheGunMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4DAF0);
 		}
-		static ::MoleMole::UITheGunMainPageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UITheGunMainPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UITheGunMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4C6E0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UITheGunMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4DAF8);
+		}
+		static ::System::Action** StaticGet___9__25_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UITheGunMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4DB00);
 		}
 
 		static ::System::Void _cctor()

@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define FLOWCANVAS_FLOWNODE_CONTEXTDEFINEDOUTPUTSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8E880)
+#define FLOWCANVAS_FLOWNODE_CONTEXTDEFINEDOUTPUTSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF5E320)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowNode_ContextDefinedOutputsAttribute_TypeDefinitionIndex = 31243;
+	inline static constexpr unsigned int FlowNode_ContextDefinedOutputsAttribute_TypeDefinitionIndex = 29438;
 
 	class FlowNode_ContextDefinedOutputsAttribute : public ::System::Attribute
 	{

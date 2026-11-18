@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIQuestionsAnswerCardItemRowWidgetController___c__DisplayClass12_0; }
-
-#define MOLEMOLE_UIQUESTIONSANSWERCARDITEMROWWIDGETCONTROLLER___C__DISPLAYCLASS12_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19890E30)
-#define MOLEMOLE_UIQUESTIONSANSWERCARDITEMROWWIDGETCONTROLLER___C__DISPLAYCLASS12_1__SETTIMES_B__0_OFFSET UNITYSDK_OFFSET(0x19890E40)
+#define MOLEMOLE_UIQUESTIONSANSWERCARDITEMROWWIDGETCONTROLLER___C__DISPLAYCLASS12_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17D70360)
+#define MOLEMOLE_UIQUESTIONSANSWERCARDITEMROWWIDGETCONTROLLER___C__DISPLAYCLASS12_1__SETTIMES_B__0_OFFSET UNITYSDK_OFFSET(0x17D70370)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerCardItemRowWidgetController___c__DisplayClass12_1_TypeDefinitionIndex = 49652;
+	inline static constexpr unsigned int UIQuestionsAnswerCardItemRowWidgetController___c__DisplayClass12_1_TypeDefinitionIndex = 58176;
 
+	template <typename T>
 	class UIQuestionsAnswerCardItemRowWidgetController___c__DisplayClass12_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIQuestionsAnswerCardItemRowWidgetController___c__DisplayClass12_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::Int32 index; // 0x18
 
 		::System::Void _ctor()

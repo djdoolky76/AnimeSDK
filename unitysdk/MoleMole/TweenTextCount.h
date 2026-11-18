@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Tween_1.h"
 
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_TWEENTEXTCOUNT_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x197A47B0)
-#define MOLEMOLE_TWEENTEXTCOUNT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x197A4980)
-#define MOLEMOLE_TWEENTEXTCOUNT_METHOD_7_1E1DF25023616168_OFFSET UNITYSDK_OFFSET(0x197A4B40)
-#define MOLEMOLE_TWEENTEXTCOUNT_METHOD_7_8B7AE99A932B2193_OFFSET UNITYSDK_OFFSET(0x197A49F0)
-#define MOLEMOLE_TWEENTEXTCOUNT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x197A4990)
-#define MOLEMOLE_TWEENTEXTCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x197A4CB0)
-#define MOLEMOLE_TWEENTEXTCOUNT___BASE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x197A4CD0)
+#define MOLEMOLE_TWEENTEXTCOUNT_DFJPMOOOLHM_OFFSET UNITYSDK_OFFSET(0x15AFB3C0)
+#define MOLEMOLE_TWEENTEXTCOUNT_DILHADGGIKN_OFFSET UNITYSDK_OFFSET(0x15AFB270)
+#define MOLEMOLE_TWEENTEXTCOUNT_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x15AFB030)
+#define MOLEMOLE_TWEENTEXTCOUNT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x15AFB200)
+#define MOLEMOLE_TWEENTEXTCOUNT_PECPJKGEJKM_OFFSET UNITYSDK_OFFSET(0x15AFB550)
+#define MOLEMOLE_TWEENTEXTCOUNT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x15AFB210)
+#define MOLEMOLE_TWEENTEXTCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x15AFB530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TweenTextCount_TypeDefinitionIndex = 89638;
+	inline static constexpr unsigned int TweenTextCount_TypeDefinitionIndex = 46781;
 
-	class TweenTextCount : public ::MoleMole::Tween_1<::System::Int32>
+	class TweenTextCount
 	{
 	public:
-		::UnityEngine::UI::Text* Field_7_1; // 0x88
+		::UnityEngine::UI::Text* KLMJDHHAOJD; // 0x88
 		::System::String* mes; // 0x90
-		::System::Int32 Field_7_7; // 0x98
+		::System::Int32 HHGILNNMNAK; // 0x98
 
 		::System::Void _ctor()
 		{
@@ -39,24 +38,24 @@ namespace MoleMole
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENTEXTCOUNT_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_value(::System::Int32 a1)
+		::System::Void set_value(::System::Int32 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENTEXTCOUNT_SET_VALUE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENTEXTCOUNT_SET_VALUE_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Void Method_7_1E1DF25023616168(::System::Single a1, ::System::Boolean a2)
+		::System::Void DFJPMOOOLHM(::System::Single CKELPHPMECF, ::System::Boolean GNFAABJPKPN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENTEXTCOUNT_METHOD_7_1E1DF25023616168_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENTEXTCOUNT_DFJPMOOOLHM_OFFSET))(this, CKELPHPMECF, GNFAABJPKPN);
 		}
 
-		::System::Void __base_set_value(::System::Int32 a1)
+		::System::Void DILHADGGIKN(::System::Int32 HFMHOELKCAJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENTEXTCOUNT___BASE_SET_VALUE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENTEXTCOUNT_DILHADGGIKN_OFFSET))(this, HFMHOELKCAJ);
 		}
 
-		::System::Void Method_7_8B7AE99A932B2193(::System::Int32 a1)
+		::System::Void PECPJKGEJKM(::System::Int32 MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENTEXTCOUNT_METHOD_7_8B7AE99A932B2193_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENTEXTCOUNT_PECPJKGEJKM_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

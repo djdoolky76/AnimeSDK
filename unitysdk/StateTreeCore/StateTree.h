@@ -1,76 +1,85 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Unreal/FName.h"
 #include "unitysdk/StateTreeCore/CompactStateTreeState.h"
 #include "unitysdk/StateTreeCore/CompactStateTreeTransition.h"
 #include "unitysdk/StateTreeCore/StateTreeExternalDataDesc.h"
 #include "unitysdk/StateTreeCore/StateTreeInstanceData.h"
 #include "unitysdk/StateTreeCore/StateTreePropertyBindings.h"
-#include "unitysdk/System/ValueType.h"
-#include "unitysdk/Unity/Collections/Allocator.h"
 #include "unitysdk/UnrealTypes/FInstancedPropertyBag.h"
 #include "unitysdk/UnrealTypes/FInstancedStructContainer.h"
 #include "unitysdk/UnrealTypes/NativeStructList_1.h"
-#include "unitysdk/UnrealTypes/TObjectHandle_1.h"
+#include "unitysdk/UnrealTypes/Object.h"
+#include "unitysdk/StateTreeCore/StateTreeStateHandle.h"
+#include "unitysdk/UnrealTypes/FObjectInitializer.h"
+#include "unitysdk/UnrealTypes/RawPtr_1.h"
+#include "unitysdk/UnrealTypes/ReadOnlyRawPtr_1.h"
 
 namespace StateTreeCore { class StateTreeSchema; }
-namespace UnrealTypes { class ScriptStruct; }
-namespace UnrealTypes { class StructOpsTraitsBase; }
+namespace System::Threading { template <typename T> class ThreadLocal_1; }
+namespace UnrealTypes { template <typename T> class ManagedStruct_1; }
 
-#define STATETREECORE_STATETREE_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0xABCAE0)
-#define STATETREECORE_STATETREE_COPYCREATE_OFFSET UNITYSDK_OFFSET(0xABCAA0)
-#define STATETREECORE_STATETREE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F97E1B0)
-#define STATETREECORE_STATETREE_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0xABCA80)
-#define STATETREECORE_STATETREE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xABCB10)
-#define STATETREECORE_STATETREE_GET_ISREADYTORUN_OFFSET UNITYSDK_OFFSET(0xABC9D0)
-#define STATETREECORE_STATETREE_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0xABCA20)
-#define STATETREECORE_STATETREE_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0xABCC60)
-#define STATETREECORE_STATETREE_LINK_OFFSET UNITYSDK_OFFSET(0xABC9F0)
-#define STATETREECORE_STATETREE_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0xABCAF0)
-#define STATETREECORE_STATETREE_MOVECREATE_OFFSET UNITYSDK_OFFSET(0xABCAC0)
-#define STATETREECORE_STATETREE_PATCHBINDINGS_OFFSET UNITYSDK_OFFSET(0xABCA00)
-#define STATETREECORE_STATETREE_RESETLINKED_OFFSET UNITYSDK_OFFSET(0xABCA10)
-#define STATETREECORE_STATETREE_RESET_OFFSET UNITYSDK_OFFSET(0xABCB00)
-#define STATETREECORE_STATETREE_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREE__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0xABCAE0)
-#define STATETREECORE_STATETREE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F97FD60)
+#define STATETREECORE_STATETREE_CONSTRUCTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FDFBEA0)
+#define STATETREECORE_STATETREE_DISPOSEGENIMPL_OFFSET UNITYSDK_OFFSET(0x1FDFBF20)
+#define STATETREECORE_STATETREE_DISPOSEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FDFC0E0)
+#define STATETREECORE_STATETREE_DISPOSEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1FDFC140)
+#define STATETREECORE_STATETREE_GETSHAREDINSTANCEDATA_OFFSET UNITYSDK_OFFSET(0x1FDF9BB0)
+#define STATETREECORE_STATETREE_GETSTATEFROMHANDLE_OFFSET UNITYSDK_OFFSET(0x1FDF9C10)
+#define STATETREECORE_STATETREE_GET_ISREADYTORUN_OFFSET UNITYSDK_OFFSET(0x1FDF9B90)
+#define STATETREECORE_STATETREE_INITIALIZEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1FDFBBE0)
+#define STATETREECORE_STATETREE_LINK_OFFSET UNITYSDK_OFFSET(0x1FDF9C90)
+#define STATETREECORE_STATETREE_PATCHBINDINGS_OFFSET UNITYSDK_OFFSET(0x1FDFA000)
+#define STATETREECORE_STATETREE_RESETLINKED_OFFSET UNITYSDK_OFFSET(0x1FDF9FF0)
+#define STATETREECORE_STATETREE__CONSTRUCTINTERNAL_B__26_0_OFFSET UNITYSDK_OFFSET(0x1FDFC2B0)
+#define STATETREECORE_STATETREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDFBB50)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTree_TypeDefinitionIndex = 31516;
+	inline static constexpr unsigned int StateTree_TypeDefinitionIndex = 30955;
 
-	struct alignas(8) StateTree
+	class StateTree : public ::UnrealTypes::Object
 	{
-		static ::UnrealTypes::StructOpsTraitsBase** StaticGet_StaticStructOpsTraits()
-		{
-			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(StateTree_TypeDefinitionIndex)->GetStaticField(0x26620);
-		}
-		// static const ::System::UInt32 PersistentTypeHash = 0x5A811666; // 0x0
-		::Foundation::Unreal::FName Name; // 0x10
-		::UnrealTypes::TObjectHandle_1<::StateTreeCore::StateTreeSchema*> Schema; // 0x18
-		::UnrealTypes::NativeStructList_1<::StateTreeCore::CompactStateTreeState> States; // 0x20
-		::UnrealTypes::NativeStructList_1<::StateTreeCore::CompactStateTreeTransition> Transitions; // 0x38
-		::UnrealTypes::FInstancedStructContainer Nodes; // 0x50
-		::StateTreeCore::StateTreeInstanceData DefaultInstanceData; // 0x68
-		::StateTreeCore::StateTreeInstanceData SharedInstanceData; // 0x128
-		::UnrealTypes::NativeStructList_1<::StateTreeCore::StateTreeExternalDataDesc> ContextDataDescs; // 0x1E8
-		::StateTreeCore::StateTreePropertyBindings PropertyBindings; // 0x200
-		::UnrealTypes::FInstancedPropertyBag Parameters; // 0x2B0
-		::System::UInt16 NumContextData; // 0x2C8
-		::System::UInt16 NumGlobalInstanceData; // 0x2CA
-		::System::UInt16 GlobalTasksBegin; // 0x2CC
-		::System::UInt16 GlobalTasksNum; // 0x2CE
-		::System::Boolean HasGlobalTransitionTasks; // 0x2D0
-		::UnrealTypes::NativeStructList_1<::StateTreeCore::StateTreeExternalDataDesc> ExternalDataDescs; // 0x2D8
-		::System::Boolean _isLinked; // 0x2F0
+	public:
+		::StateTreeCore::StateTreeSchema* Schema; // 0x38
+		::System::Threading::ThreadLocal_1<::UnrealTypes::ManagedStruct_1<::StateTreeCore::StateTreeInstanceData>*>* _perThreadSharedInstanceData; // 0x40
+		::UnrealTypes::NativeStructList_1<::StateTreeCore::CompactStateTreeTransition> Transitions; // 0x48
+		::System::Byte _padding0[0x10];
+		::System::Boolean HasGlobalTransitionTasks; // 0x60
+		::System::Boolean _isLinked; // 0x61
+		::System::UInt16 NumContextData; // 0x62
+		::System::UInt16 NumGlobalInstanceData; // 0x64
+		::System::Byte _padding1[0x2];
+		::UnrealTypes::NativeStructList_1<::StateTreeCore::StateTreeExternalDataDesc> ExternalDataDescs; // 0x68
+		::System::Byte _padding2[0x10];
+		::System::UInt16 GlobalTasksBegin; // 0x80
+		::System::UInt16 GlobalTasksNum; // 0x82
+		::System::Byte _padding3[0x4];
+		::UnrealTypes::FInstancedStructContainer Nodes; // 0x88
+		::UnrealTypes::NativeStructList_1<::StateTreeCore::StateTreeExternalDataDesc> ContextDataDescs; // 0xA0
+		::System::Byte _padding4[0x10];
+		::StateTreeCore::StateTreeInstanceData SharedInstanceData; // 0xB8
+		::StateTreeCore::StateTreePropertyBindings PropertyBindings; // 0x178
+		::StateTreeCore::StateTreeInstanceData DefaultInstanceData; // 0x228
+		::UnrealTypes::FInstancedPropertyBag Parameters; // 0x2E8
+		::UnrealTypes::NativeStructList_1<::StateTreeCore::CompactStateTreeState> States; // 0x300
 
-		static ::System::Void _cctor()
+		::System::Void _ctor(::UnrealTypes::FObjectInitializer& initializer)
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE__CCTOR_OFFSET))();
+			return ((::System::Void(*)(::PVOID, ::UnrealTypes::FObjectInitializer&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE__CTOR_OFFSET))(this, initializer);
 		}
 
 		::System::Boolean get_IsReadyToRun()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_GET_ISREADYTORUN_OFFSET))(this);
+		}
+
+		::UnrealTypes::RawPtr_1<::StateTreeCore::StateTreeInstanceData> GetSharedInstanceData()
+		{
+			return ((::UnrealTypes::RawPtr_1<::StateTreeCore::StateTreeInstanceData>(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_GETSHAREDINSTANCEDATA_OFFSET))(this);
+		}
+
+		::UnrealTypes::ReadOnlyRawPtr_1<::StateTreeCore::CompactStateTreeState> GetStateFromHandle(::StateTreeCore::StateTreeStateHandle stateHandle)
+		{
+			return ((::UnrealTypes::ReadOnlyRawPtr_1<::StateTreeCore::CompactStateTreeState>(*)(::PVOID, ::StateTreeCore::StateTreeStateHandle))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_GETSTATEFROMHANDLE_OFFSET))(this, stateHandle);
 		}
 
 		::System::Boolean Link()
@@ -88,59 +97,34 @@ namespace StateTreeCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_RESETLINKED_OFFSET))(this);
 		}
 
-		::UnrealTypes::ScriptStruct* get_StaticStruct()
+		::System::Void InitializeProperties()
 		{
-			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_GET_STATICSTRUCT_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_INITIALIZEPROPERTIES_OFFSET))(this);
 		}
 
-		static ::StateTreeCore::StateTree Create(::Unity::Collections::Allocator allocator)
+		::System::Void ConstructInternal()
 		{
-			return ((::StateTreeCore::StateTree(*)(::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_CREATE_OFFSET))(allocator);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_CONSTRUCTINTERNAL_OFFSET))(this);
 		}
 
-		::StateTreeCore::StateTree DefaultCreate(::Unity::Collections::Allocator allocator)
+		::System::Void DisposeGenImpl(::System::Boolean disposing)
 		{
-			return ((::StateTreeCore::StateTree(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_DEFAULTCREATE_OFFSET))(this, allocator);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_DISPOSEGENIMPL_OFFSET))(this, disposing);
 		}
 
-		::StateTreeCore::StateTree CopyCreate(::Unity::Collections::Allocator allocator)
+		::System::Void DisposeProperties(::System::Boolean disposing)
 		{
-			return ((::StateTreeCore::StateTree(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_COPYCREATE_OFFSET))(this, allocator);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_DISPOSEPROPERTIES_OFFSET))(this, disposing);
 		}
 
-		::StateTreeCore::StateTree MoveCreate(::Unity::Collections::Allocator allocator)
+		::System::Void DisposeInternal(::System::Boolean disposing)
 		{
-			return ((::StateTreeCore::StateTree(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_MOVECREATE_OFFSET))(this, allocator);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_DISPOSEINTERNAL_OFFSET))(this, disposing);
 		}
 
-		::System::Void CopyAssign(::StateTreeCore::StateTree& other)
+		::UnrealTypes::ManagedStruct_1<::StateTreeCore::StateTreeInstanceData>* _ConstructInternal_b__26_0()
 		{
-			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTree&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_COPYASSIGN_OFFSET))(this, other);
-		}
-
-		::System::Void MoveAssign(::StateTreeCore::StateTree& temp)
-		{
-			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTree&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_MOVEASSIGN_OFFSET))(this, temp);
-		}
-
-		::System::Void Reset()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_RESET_OFFSET))(this);
-		}
-
-		::System::Void Dispose()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_DISPOSE_OFFSET))(this);
-		}
-
-		::UnrealTypes::StructOpsTraitsBase* get_StructOpsTraits()
-		{
-			return ((::UnrealTypes::StructOpsTraitsBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_GET_STRUCTOPSTRAITS_OFFSET))(this);
-		}
-
-		::System::Void UnrealTypes_IStruct_StateTreeCore_StateTree__CopyAssign(::StateTreeCore::StateTree& other)
-		{
-			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTree&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREE__COPYASSIGN_OFFSET))(this, other);
+			return ((::UnrealTypes::ManagedStruct_1<::StateTreeCore::StateTreeInstanceData>*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREE__CONSTRUCTINTERNAL_B__26_0_OFFSET))(this);
 		}
 	};
 }

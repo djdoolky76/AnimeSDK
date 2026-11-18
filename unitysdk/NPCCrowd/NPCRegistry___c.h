@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/NPCRegistryEntry.h"
-#include "unitysdk/NPCCrowd/NPCRegistry_EntryWithDist.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/NPCCrowd/NPCRegistry_EntryWithDist.h"
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define NPCCROWD_NPCREGISTRY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17FB69F0)
-#define NPCCROWD_NPCREGISTRY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17FB6A30)
-#define NPCCROWD_NPCREGISTRY___C__GETBACKSTAGEENTRIES_B__30_0_OFFSET UNITYSDK_OFFSET(0x17FB6A40)
-#define NPCCROWD_NPCREGISTRY___C__GETCULLCANDIDATES_B__32_0_OFFSET UNITYSDK_OFFSET(0x17FB6AC0)
+#define NPCCROWD_NPCREGISTRY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x114DACE0)
+#define NPCCROWD_NPCREGISTRY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x114DAD20)
+#define NPCCROWD_NPCREGISTRY___C__GETBACKSTAGEENTRIES_B__30_0_OFFSET UNITYSDK_OFFSET(0x114DAD30)
+#define NPCCROWD_NPCREGISTRY___C__GETCULLCANDIDATES_B__32_0_OFFSET UNITYSDK_OFFSET(0x114DADB0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCRegistry___c_TypeDefinitionIndex = 63849;
+	inline static constexpr unsigned int NPCRegistry___c_TypeDefinitionIndex = 92447;
 
 	class NPCRegistry___c : public ::System::Object
 	{
 	public:
-		static ::NPCCrowd::NPCRegistry___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::NPCCrowd::NPCRegistry___c**)Il2CppClass::FromTypeDefinitionIndex(NPCRegistry___c_TypeDefinitionIndex)->GetStaticField(0x456B0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NPCRegistry___c_TypeDefinitionIndex)->GetStaticField(0x4B120);
 		}
-		static ::System::Comparison_1<::NPCCrowd::NPCRegistry_EntryWithDist>** StaticGet___9__32_0()
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__32_0()
 		{
-			return (::System::Comparison_1<::NPCCrowd::NPCRegistry_EntryWithDist>**)Il2CppClass::FromTypeDefinitionIndex(NPCRegistry___c_TypeDefinitionIndex)->GetStaticField(0x456B8);
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NPCRegistry___c_TypeDefinitionIndex)->GetStaticField(0x4B128);
 		}
 		static ::System::Comparison_1<::NPCCrowd::NPCRegistryEntry>** StaticGet___9__30_0()
 		{
-			return (::System::Comparison_1<::NPCCrowd::NPCRegistryEntry>**)Il2CppClass::FromTypeDefinitionIndex(NPCRegistry___c_TypeDefinitionIndex)->GetStaticField(0x456C0);
+			return (::System::Comparison_1<::NPCCrowd::NPCRegistryEntry>**)Il2CppClass::FromTypeDefinitionIndex(NPCRegistry___c_TypeDefinitionIndex)->GetStaticField(0x4B130);
 		}
 
 		static ::System::Void _cctor()

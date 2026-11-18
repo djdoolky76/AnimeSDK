@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 
 namespace MiHoYo::SDK { class NetworkResponseModel; }
-namespace MiHoYo::SDK::Console { class NoticeManager___c__DisplayClass11_0; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS11_1__CHECKPOPNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x1BDB64D0)
-#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS11_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB64C0)
+#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS11_1__CHECKPOPNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x1C44BD70)
+#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS11_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C44BD60)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int NoticeManager___c__DisplayClass11_1_TypeDefinitionIndex = 21074;
+	inline static constexpr unsigned int NoticeManager___c__DisplayClass11_1_TypeDefinitionIndex = 20278;
 
+	template <typename T>
 	class NoticeManager___c__DisplayClass11_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::NoticeManager___c__DisplayClass11_0* CS___8__locals1; // 0x10
-		::System::String* requestLang; // 0x18
+		::System::String* requestLang; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

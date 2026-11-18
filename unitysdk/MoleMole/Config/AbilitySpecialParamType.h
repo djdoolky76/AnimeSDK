@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AbilitySpecialParamType_TypeDefinitionIndex = 67207;
+	inline static constexpr unsigned int AbilitySpecialParamType_TypeDefinitionIndex = 67255;
 
 	enum class AbilitySpecialParamType : ::System::Int32
 	{
-		String = 3,
 		Float = 0,
-		Int = 1,
 		Boolean = 2,
+		Int = 1,
+		String = 3,
 	};
 }

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define TMPRO_FONTASSETCREATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xACB030)
+#define TMPRO_FONTASSETCREATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x9B15E0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FontAssetCreationSettings_TypeDefinitionIndex = 39798;
+	inline static constexpr unsigned int FontAssetCreationSettings_TypeDefinitionIndex = 37798;
 
 	struct alignas(8) FontAssetCreationSettings
 	{
@@ -21,6 +21,7 @@ namespace TMPro
 		::System::Int32 atlasWidth; // 0x30
 		::System::Int32 atlasHeight; // 0x34
 		::System::Int32 characterSetSelectionMode; // 0x38
+		::System::Byte _padding0[0x4];
 		::System::String* characterSequence; // 0x40
 		::System::String* referencedFontAssetGUID; // 0x48
 		::System::String* referencedTextAssetGUID; // 0x50

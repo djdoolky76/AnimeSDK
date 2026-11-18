@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace System { class AsyncCallback; }
-namespace System { class IAsyncResult; }
-namespace System { class Object; }
-
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsFilter_Foreach_rcc_3_TypeDefinitionIndex = 37996;
+	inline static constexpr unsigned int EcsFilter_Foreach_rcc_3_TypeDefinitionIndex = 35998;
 
-	template <typename T0, typename T1, typename T2>
+	template <typename T1, typename T2, typename T3>
 	class EcsFilter_Foreach_rcc_3 : public ::System::MulticastDelegate
 	{
 	public:

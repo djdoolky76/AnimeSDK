@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/RuntimeArgumentHandle.h"
+#include "unitysdk/System/TypedReference.h"
 
 namespace System { class Object; }
 
-#define SYSTEM_ARGITERATOR_EQUALS_OFFSET UNITYSDK_OFFSET(0xA1A6F0)
-#define SYSTEM_ARGITERATOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x325D00)
-#define SYSTEM_ARGITERATOR_GETNEXTARG_OFFSET UNITYSDK_OFFSET(0xA1A750)
-#define SYSTEM_ARGITERATOR_GETREMAININGCOUNT_OFFSET UNITYSDK_OFFSET(0x90DB00)
-#define SYSTEM_ARGITERATOR_INTGETNEXTARG_OFFSET UNITYSDK_OFFSET(0xA1A7D0)
-#define SYSTEM_ARGITERATOR_SETUP_OFFSET UNITYSDK_OFFSET(0xA1A6B0)
-#define SYSTEM_ARGITERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA1A6C0)
+#define SYSTEM_ARGITERATOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x90E6E0)
+#define SYSTEM_ARGITERATOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x359320)
+#define SYSTEM_ARGITERATOR_GETNEXTARG_OFFSET UNITYSDK_OFFSET(0x90E740)
+#define SYSTEM_ARGITERATOR_GETREMAININGCOUNT_OFFSET UNITYSDK_OFFSET(0x90E7D0)
+#define SYSTEM_ARGITERATOR_INTGETNEXTARG_OFFSET UNITYSDK_OFFSET(0x90E7C0)
+#define SYSTEM_ARGITERATOR_SETUP_OFFSET UNITYSDK_OFFSET(0x90E6A0)
+#define SYSTEM_ARGITERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x90E6B0)
 
 namespace System
 {
 	inline static constexpr unsigned int ArgIterator_TypeDefinitionIndex = 365;
 
-	struct alignas(8) ArgIterator
+	struct alignas(4) ArgIterator
 	{
-		::System::Int32 num_args; // 0x10
-		::System::Int32 next_arg; // 0x14
-		::System::IntPtr args; // 0x18
-		::System::IntPtr sig; // 0x20
+		::System::IntPtr sig; // 0x10
+		::System::Int32 num_args; // 0x18
+		::System::Int32 next_arg; // 0x1C
+		::System::IntPtr args; // 0x20
 
-		/*
 		::System::Void _ctor(::System::RuntimeArgumentHandle arglist)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::RuntimeArgumentHandle))((::PBYTE)hIl2Cpp + SYSTEM_ARGITERATOR__CTOR_OFFSET))(this, arglist);
 		}
-		*/
 
 		::System::Void Setup(::System::IntPtr argsp, ::System::IntPtr start)
 		{

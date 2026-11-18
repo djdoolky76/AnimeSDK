@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Mono/Globalization/Unicode/CodePointIndexer_TableRange.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_GLOBALIZATION_UNICODE_CODEPOINTINDEXER_TOINDEX_OFFSET UNITYSDK_OFFSET(0x1DCE2F90)
-#define MONO_GLOBALIZATION_UNICODE_CODEPOINTINDEXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCE2CE0)
+#define MONO_GLOBALIZATION_UNICODE_CODEPOINTINDEXER_TOINDEX_OFFSET UNITYSDK_OFFSET(0x1E0D59F0)
+#define MONO_GLOBALIZATION_UNICODE_CODEPOINTINDEXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0D5740)
 
 namespace Mono::Globalization::Unicode
 {
@@ -13,9 +12,9 @@ namespace Mono::Globalization::Unicode
 	class CodePointIndexer : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Mono::Globalization::Unicode::CodePointIndexer_TableRange>* ranges; // 0x10
-		::System::Int32 defaultCP; // 0x18
-		::System::Int32 TotalCount; // 0x1C
+		::Il2CppArray<::System::Object*>* ranges; // 0x10
+		::System::Int32 TotalCount; // 0x18
+		::System::Int32 defaultCP; // 0x1C
 		::System::Int32 defaultIndex; // 0x20
 
 		::System::Void _ctor(::Il2CppArray<::System::Int32>* starts, ::Il2CppArray<::System::Int32>* ends, ::System::Int32 defaultIndex, ::System::Int32 defaultCP)

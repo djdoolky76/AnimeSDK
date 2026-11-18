@@ -5,7 +5,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_Utility_MeshAnalysisResult_TypeDefinitionIndex = 94603;
+	inline static constexpr unsigned int MB_Utility_MeshAnalysisResult_TypeDefinitionIndex = 96290;
 
 	struct alignas(4) MB_Utility_MeshAnalysisResult
 	{
@@ -13,6 +13,7 @@ namespace DigitalOpus::MB::Core
 		::System::Boolean hasOutOfBoundsUVs; // 0x20
 		::System::Boolean hasOverlappingSubmeshVerts; // 0x21
 		::System::Boolean hasUVs; // 0x22
+		::System::Byte _padding0[0x1];
 		::System::Single submeshArea; // 0x24
 	};
 }

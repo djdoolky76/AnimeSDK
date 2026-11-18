@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ClearImmediateRenderers_TypeDefinitionIndex = 5653;
+	inline static constexpr unsigned int PostLateUpdate_ClearImmediateRenderers_TypeDefinitionIndex = 5657;
 
-	struct alignas(1) PostLateUpdate_ClearImmediateRenderers
+	struct alignas(4) PostLateUpdate_ClearImmediateRenderers
 	{
 	};
 }

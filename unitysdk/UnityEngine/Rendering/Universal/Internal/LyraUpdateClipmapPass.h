@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAUPDATECLIPMAPPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D6E6410)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAUPDATECLIPMAPPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E6380)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAUPDATECLIPMAPPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D703DA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_LYRAUPDATECLIPMAPPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D703D10)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LyraUpdateClipmapPass_TypeDefinitionIndex = 27102;
+	inline static constexpr unsigned int LyraUpdateClipmapPass_TypeDefinitionIndex = 27276;
 
 	class LyraUpdateClipmapPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

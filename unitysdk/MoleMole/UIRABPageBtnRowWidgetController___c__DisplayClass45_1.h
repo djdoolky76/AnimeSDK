@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIRABPageBtnRowWidgetController___c__DisplayClass45_0; }
-
-#define MOLEMOLE_UIRABPAGEBTNROWWIDGETCONTROLLER___C__DISPLAYCLASS45_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16A82100)
-#define MOLEMOLE_UIRABPAGEBTNROWWIDGETCONTROLLER___C__DISPLAYCLASS45_1__REFRESHSTAGEPROGRESS_B__1_OFFSET UNITYSDK_OFFSET(0x16A82110)
-#define MOLEMOLE_UIRABPAGEBTNROWWIDGETCONTROLLER___C__DISPLAYCLASS45_1__REFRESHSTAGEPROGRESS_B__2_OFFSET UNITYSDK_OFFSET(0x16A82120)
+#define MOLEMOLE_UIRABPAGEBTNROWWIDGETCONTROLLER___C__DISPLAYCLASS45_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1677C440)
+#define MOLEMOLE_UIRABPAGEBTNROWWIDGETCONTROLLER___C__DISPLAYCLASS45_1__REFRESHSTAGEPROGRESS_B__1_OFFSET UNITYSDK_OFFSET(0x1677C450)
+#define MOLEMOLE_UIRABPAGEBTNROWWIDGETCONTROLLER___C__DISPLAYCLASS45_1__REFRESHSTAGEPROGRESS_B__2_OFFSET UNITYSDK_OFFSET(0x1677C460)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABPageBtnRowWidgetController___c__DisplayClass45_1_TypeDefinitionIndex = 68941;
+	inline static constexpr unsigned int UIRABPageBtnRowWidgetController___c__DisplayClass45_1_TypeDefinitionIndex = 55250;
 
+	template <typename T>
 	class UIRABPageBtnRowWidgetController___c__DisplayClass45_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIRABPageBtnRowWidgetController___c__DisplayClass45_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::Single tweenVal; // 0x18
 
 		::System::Void _ctor()

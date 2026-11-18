@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int GizmoSubset_TypeDefinitionIndex = 6248;
+	inline static constexpr unsigned int GizmoSubset_TypeDefinitionIndex = 6263;
 
 	enum class GizmoSubset : ::System::Int32
 	{

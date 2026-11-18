@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class RuntimeAnimatorController; }
 
-#define NPCCROWD_ANIMATION_NPCCPUANIMATORCONTROLLERFKPASS__CTOR_OFFSET UNITYSDK_OFFSET(0xF0E09A0)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATORCONTROLLERFKPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x114CA9E0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCPUAnimatorControllerFKPass_TypeDefinitionIndex = 74452;
+	inline static constexpr unsigned int NPCCPUAnimatorControllerFKPass_TypeDefinitionIndex = 91526;
 
 	class NPCCPUAnimatorControllerFKPass : public ::NPCCrowd::Animation::NPCCPUAnimationPassBase
 	{

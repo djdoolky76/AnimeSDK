@@ -1,38 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
+#include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/ExposedReference_1.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 
+namespace MoleMole { class ComicPartLayoutOverride; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::Timeline { class ComicGroupTrack; }
-namespace UnityEngine::Timeline { class ImgSplitScreenGroupPlayableAsset_SpriteItem; }
-namespace UnityEngine::Timeline { class ImgSplitScreenGroupPlayableAsset_TagItem; }
 namespace UnityEngine::Timeline { class TimelineAsset; }
 
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_ADDONESPRITE_OFFSET UNITYSDK_OFFSET(0x1F0E5570)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F0E54C0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F0E54B0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E5580)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_ADDONESPRITE_OFFSET UNITYSDK_OFFSET(0x1F442080)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F441FD0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F441FC0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F442090)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImgSplitScreenGroupPlayableAsset_TypeDefinitionIndex = 32979;
+	inline static constexpr unsigned int ImgSplitScreenGroupPlayableAsset_TypeDefinitionIndex = 32434;
 
 	class ImgSplitScreenGroupPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset_SpriteItem*>* spriteItems; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* spriteItems; // 0x18
 		::System::String* comicImgStyle; // 0x20
-		::UnityEngine::ExposedReference_1<::UnityEngine::GameObject*> sourceGameObject; // 0x28
-		::UnityEngine::Timeline::TimelineAsset* timelineAsset; // 0x38
-		::UnityEngine::Timeline::ComicGroupTrack* comicGroupTrack; // 0x40
-		::System::Collections::Generic::List_1<::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset_TagItem*>* tags; // 0x48
+		::System::Collections::Generic::List_1<::MoleMole::ComicPartLayoutOverride*>* croppedLayoutOverrides; // 0x28
+		::UnityEngine::ExposedReference_1<::UnityEngine::GameObject*> sourceGameObject; // 0x30
+		::System::Byte _padding0[0x8];
+		::UnityEngine::Timeline::TimelineAsset* timelineAsset; // 0x40
+		::UnityEngine::Timeline::ComicGroupTrack* comicGroupTrack; // 0x48
+		::System::Collections::Generic::List_1<::System::Object*>* tags; // 0x50
 
 		::System::Void _ctor()
 		{

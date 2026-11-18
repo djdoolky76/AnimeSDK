@@ -5,9 +5,9 @@
 #include "unitysdk/MoleMole/InputActionEventType.h"
 #include "unitysdk/MoleMole/LogicButtonInputType.h"
 #include "unitysdk/MoleMole/SpecialGamepadInputHintType.h"
-#include "unitysdk/UnityEngine/InputSystem/Key.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/GamepadButton.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/MouseButton.h"
+#include "unitysdk/UnityEngine/InputSystem/Key.h"
 
 namespace MoleMole { class BaseInputActionEventConfig; }
 namespace MoleMole::Config { class InputActionTextIconConfig; }
@@ -16,12 +16,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x16C433A0)
-#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16C433B0)
+#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x1A030610)
+#define MOLEMOLE_CONFIG_CONFIGINPUTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A030620)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigInputSetting_TypeDefinitionIndex = 83516;
+	inline static constexpr unsigned int ConfigInputSetting_TypeDefinitionIndex = 89498;
 
 	class ConfigInputSetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{
@@ -36,6 +36,7 @@ namespace MoleMole::Config
 		::System::Single InLevelCameraButtonInputSensitivityY; // 0x84
 		::System::Single SemiHideCursorCDTime; // 0x88
 		::System::Boolean EnableMouseInputEnhancement; // 0x8C
+		::System::Byte _padding0[0x3];
 		::System::Single MouseInputEnhancementScrollScale; // 0x90
 		::System::Int32 MouseInputEnhancementMaxButtonEventPerUpdate; // 0x94
 		::System::Single MouseInputEnhancementMovementSampleThreshold; // 0x98
@@ -70,6 +71,7 @@ namespace MoleMole::Config
 		::System::Collections::Generic::Dictionary_2<::MoleMole::SpecialGamepadInputHintType, ::System::String*>* SpecialXBOXGamepadButtonIconPathDict; // 0x178
 		::System::Collections::Generic::Dictionary_2<::MoleMole::SpecialGamepadInputHintType, ::System::String*>* SpecialNSGamepadButtonIconPathDict; // 0x180
 		::System::Collections::Generic::Dictionary_2<::MoleMole::InputActionEventType, ::MoleMole::BaseInputActionEventConfig*>* InputActionEventConfigDict; // 0x188
+		::System::Boolean InputGestureEnable; // 0x190
 
 		::System::Void _ctor()
 		{

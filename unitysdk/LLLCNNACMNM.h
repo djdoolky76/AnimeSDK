@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CENDGBANCMA.h"
+
+class CFMGIKJLMBJ;
+class FCANCDJBJNG;
+class JLABFEMPAJD;
+
+#define LLLCNNACMNM_JEJPDLKDGMF_OFFSET UNITYSDK_OFFSET(0x1519F060)
+#define LLLCNNACMNM_JHHKHOKEONP_OFFSET UNITYSDK_OFFSET(0x1519F000)
+#define LLLCNNACMNM_LLCPLICBCCF_OFFSET UNITYSDK_OFFSET(0x1519EF60)
+#define LLLCNNACMNM__CTOR_OFFSET UNITYSDK_OFFSET(0x1519F040)
+
+inline static constexpr unsigned int LLLCNNACMNM_TypeDefinitionIndex = 82181;
+
+class LLLCNNACMNM
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LLLCNNACMNM__CTOR_OFFSET))(this);
+	}
+
+	::CENDGBANCMA LLCPLICBCCF(::JLABFEMPAJD* LJBPECKCCEA, ::FCANCDJBJNG* AIBJGMNPFKB, ::CFMGIKJLMBJ*& GOHPINDANII)
+	{
+		return ((::CENDGBANCMA(*)(::PVOID, ::JLABFEMPAJD*, ::FCANCDJBJNG*, ::CFMGIKJLMBJ*&))((::PBYTE)hIl2Cpp + LLLCNNACMNM_LLCPLICBCCF_OFFSET))(this, LJBPECKCCEA, AIBJGMNPFKB, GOHPINDANII);
+	}
+
+	::System::Boolean JHHKHOKEONP()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + LLLCNNACMNM_JHHKHOKEONP_OFFSET))(this);
+	}
+
+	::System::Boolean JEJPDLKDGMF()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + LLLCNNACMNM_JEJPDLKDGMF_OFFSET))(this);
+	}
+};

@@ -3,21 +3,21 @@
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int InputDeviceCharacteristics_TypeDefinitionIndex = 28242;
+	inline static constexpr unsigned int InputDeviceCharacteristics_TypeDefinitionIndex = 27660;
 
 	enum class InputDeviceCharacteristics : ::System::UInt32
 	{
-		None = 0x0,
-		HeadMounted = 0x1,
-		Camera = 0x2,
-		HeldInHand = 0x4,
-		HandTracking = 0x8,
-		EyeTracking = 0x10,
-		TrackedDevice = 0x20,
-		Controller = 0x40,
-		TrackingReference = 0x80,
-		Left = 0x100,
-		Right = 0x200,
-		Simulated6DOF = 0x400,
+		None = 0,
+		HeadMounted = 1,
+		Camera = 2,
+		HeldInHand = 4,
+		HandTracking = 8,
+		EyeTracking = 16,
+		TrackedDevice = 32,
+		Controller = 64,
+		TrackingReference = 128,
+		Left = 256,
+		Right = 512,
+		Simulated6DOF = 1024,
 	};
 }

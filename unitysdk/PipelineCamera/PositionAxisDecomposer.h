@@ -3,19 +3,22 @@
 #include "unitysdk/PipelineCamera/PositionDampingAxis.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/PipelineCamera/ValueBasedDampingStatus.h"
+#include "unitysdk/PipelineCamera/VelocityBasedDampingStatus.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
 
-#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_COMPOSE_1_OFFSET UNITYSDK_OFFSET(0xA91E80)
-#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_COMPOSE_OFFSET UNITYSDK_OFFSET(0xA91D60)
-#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1F158CF0)
-#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_CREATE_OFFSET UNITYSDK_OFFSET(0x1F158A00)
-#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_DECOMPOSE_1_OFFSET UNITYSDK_OFFSET(0xA91C20)
-#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_DECOMPOSE_OFFSET UNITYSDK_OFFSET(0xA91B80)
-#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_OVERRIDE_OFFSET UNITYSDK_OFFSET(0xA91E90)
-#define PIPELINECAMERA_POSITIONAXISDECOMPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0xA91B50)
+#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_COMPOSE_1_OFFSET UNITYSDK_OFFSET(0x978AD0)
+#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_COMPOSE_OFFSET UNITYSDK_OFFSET(0x9789B0)
+#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1F5311F0)
+#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_CREATE_OFFSET UNITYSDK_OFFSET(0x1F530F00)
+#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_DECOMPOSE_1_OFFSET UNITYSDK_OFFSET(0x978870)
+#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_DECOMPOSE_OFFSET UNITYSDK_OFFSET(0x9787D0)
+#define PIPELINECAMERA_POSITIONAXISDECOMPOSER_OVERRIDE_OFFSET UNITYSDK_OFFSET(0x978AE0)
+#define PIPELINECAMERA_POSITIONAXISDECOMPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0x9787A0)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int PositionAxisDecomposer_TypeDefinitionIndex = 38321;
+	inline static constexpr unsigned int PositionAxisDecomposer_TypeDefinitionIndex = 36323;
 
 	struct alignas(4) PositionAxisDecomposer
 	{
@@ -42,33 +45,25 @@ namespace PipelineCamera
 		}
 		*/
 
-		/*
 		::System::Void Decompose(::UnityEngine::Vector3& position, ::PipelineCamera::ValueBasedDampingStatus& x, ::PipelineCamera::ValueBasedDampingStatus& y, ::PipelineCamera::ValueBasedDampingStatus& z)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::PipelineCamera::ValueBasedDampingStatus&, ::PipelineCamera::ValueBasedDampingStatus&, ::PipelineCamera::ValueBasedDampingStatus&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_POSITIONAXISDECOMPOSER_DECOMPOSE_OFFSET))(this, position, x, y, z);
 		}
-		*/
 
-		/*
 		::System::Void Decompose_1(::UnityEngine::Vector3& position, ::UnityEngine::Vector3& velocity, ::PipelineCamera::VelocityBasedDampingStatus& x, ::PipelineCamera::VelocityBasedDampingStatus& y, ::PipelineCamera::VelocityBasedDampingStatus& z)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::PipelineCamera::VelocityBasedDampingStatus&, ::PipelineCamera::VelocityBasedDampingStatus&, ::PipelineCamera::VelocityBasedDampingStatus&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_POSITIONAXISDECOMPOSER_DECOMPOSE_1_OFFSET))(this, position, velocity, x, y, z);
 		}
-		*/
 
-		/*
 		::System::Void Compose(::PipelineCamera::ValueBasedDampingStatus& x, ::PipelineCamera::ValueBasedDampingStatus& y, ::PipelineCamera::ValueBasedDampingStatus& z, ::UnityEngine::Vector3& position)
 		{
 			return ((::System::Void(*)(::PVOID, ::PipelineCamera::ValueBasedDampingStatus&, ::PipelineCamera::ValueBasedDampingStatus&, ::PipelineCamera::ValueBasedDampingStatus&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_POSITIONAXISDECOMPOSER_COMPOSE_OFFSET))(this, x, y, z, position);
 		}
-		*/
 
-		/*
 		::System::Void Compose_1(::PipelineCamera::VelocityBasedDampingStatus& x, ::PipelineCamera::VelocityBasedDampingStatus& y, ::PipelineCamera::VelocityBasedDampingStatus& z, ::UnityEngine::Vector3& position, ::UnityEngine::Vector3& velocity)
 		{
 			return ((::System::Void(*)(::PVOID, ::PipelineCamera::VelocityBasedDampingStatus&, ::PipelineCamera::VelocityBasedDampingStatus&, ::PipelineCamera::VelocityBasedDampingStatus&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_POSITIONAXISDECOMPOSER_COMPOSE_1_OFFSET))(this, x, y, z, position, velocity);
 		}
-		*/
 
 		::UnityEngine::Vector3 Override(::UnityEngine::Vector3& value, ::UnityEngine::Vector3& overrideValue, ::PipelineCamera::PositionDampingAxis axis)
 		{

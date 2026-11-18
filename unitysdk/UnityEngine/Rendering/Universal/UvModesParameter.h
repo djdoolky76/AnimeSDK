@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/UvModes.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_UVMODESPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC738A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UVMODESPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x16E88D30)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UvModesParameter_TypeDefinitionIndex = 27729;
+	inline static constexpr unsigned int UvModesParameter_TypeDefinitionIndex = 27389;
 
-	class UvModesParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::UvModes>
+	class UvModesParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Rendering::Universal::UvModes value, ::System::Boolean overrideState)

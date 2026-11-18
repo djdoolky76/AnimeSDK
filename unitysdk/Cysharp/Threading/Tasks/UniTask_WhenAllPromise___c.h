@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBDCCA0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBDCCE0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0x1FBDCCF0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFE0450)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFE0490)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0x1FFE04A0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WhenAllPromise___c_TypeDefinitionIndex = 31880;
+	inline static constexpr unsigned int UniTask_WhenAllPromise___c_TypeDefinitionIndex = 31324;
 
 	class UniTask_WhenAllPromise___c : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::UniTask_WhenAllPromise___c** StaticGet___9()
-		{
-			return (::Cysharp::Threading::Tasks::UniTask_WhenAllPromise___c**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise___c_TypeDefinitionIndex)->GetStaticField(0x27000);
-		}
 		static ::System::Action_1<::System::Object*>** StaticGet___9__3_0()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise___c_TypeDefinitionIndex)->GetStaticField(0x27008);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise___c_TypeDefinitionIndex)->GetStaticField(0x280D0);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WhenAllPromise___c_TypeDefinitionIndex)->GetStaticField(0x280D8);
 		}
 
 		static ::System::Void _cctor()

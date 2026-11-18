@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigSpeedModifier_SlopeV2_Type_TypeDefinitionIndex = 52999;
+	inline static constexpr unsigned int ConfigZipLine_ConfigSpeedModifier_SlopeV2_Type_TypeDefinitionIndex = 54277;
 
 	enum class ConfigZipLine_ConfigSpeedModifier_SlopeV2_Type : ::System::Int32
 	{

@@ -1,0 +1,188 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IHNCCABJGPA.h"
+#include "unitysdk/KOLFGAALPJM.h"
+#include "unitysdk/MFEIKFOLILJ.h"
+
+class EIMGMBNCJON;
+class KOHPAOOBMGD;
+class MBKLHPDKMGO;
+class OMKHOPABFDJ;
+class PPPHCHDBPKE;
+namespace System { class Object; }
+namespace System { class String; }
+template <typename T> class DFDEIDBBGHG_1;
+template <typename T> class INKCDCHNIJD_1;
+
+#define CIDEDIPHHDL_AGNKHOHENBD_OFFSET UNITYSDK_OFFSET(0x1AABFBB0)
+#define CIDEDIPHHDL_BEDJGLFPODG_OFFSET UNITYSDK_OFFSET(0x1AABF910)
+#define CIDEDIPHHDL_BODOFCJDMIC_OFFSET UNITYSDK_OFFSET(0x1AABF600)
+#define CIDEDIPHHDL_CNEDMCLLNHA_OFFSET UNITYSDK_OFFSET(0x1AABF4D0)
+#define CIDEDIPHHDL_DEJBOKDOGCD_OFFSET UNITYSDK_OFFSET(0x1AABF790)
+#define CIDEDIPHHDL_DGNAAPGKIPL_OFFSET UNITYSDK_OFFSET(0x1AABECD0)
+#define CIDEDIPHHDL_DKHALDDAFFC_OFFSET UNITYSDK_OFFSET(0x1AABEBF0)
+#define CIDEDIPHHDL_EFGBEHCBDNI_OFFSET UNITYSDK_OFFSET(0x1AABF570)
+#define CIDEDIPHHDL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1AABEEB0)
+#define CIDEDIPHHDL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AABEE50)
+#define CIDEDIPHHDL_FIBJIJIIJLE_OFFSET UNITYSDK_OFFSET(0x1AABF980)
+#define CIDEDIPHHDL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AABEF40)
+#define CIDEDIPHHDL_GIALDDHFBLF_OFFSET UNITYSDK_OFFSET(0x1AABED40)
+#define CIDEDIPHHDL_HBDBJDANMLP_OFFSET UNITYSDK_OFFSET(0x1AABEC00)
+#define CIDEDIPHHDL_JKELAOKCLJP_OFFSET UNITYSDK_OFFSET(0x1AABF1E0)
+#define CIDEDIPHHDL_LEHECPACPJD_OFFSET UNITYSDK_OFFSET(0x1AABF9D0)
+#define CIDEDIPHHDL_LONNBMMCOCC_OFFSET UNITYSDK_OFFSET(0x1AABF970)
+#define CIDEDIPHHDL_METHOD_22_OFFSET UNITYSDK_OFFSET(0x1AABF990)
+#define CIDEDIPHHDL_MNGHBPNCMPK_OFFSET UNITYSDK_OFFSET(0x1AABF1B0)
+#define CIDEDIPHHDL_NNMIABKFEOJ_1_OFFSET UNITYSDK_OFFSET(0x1AABF4A0)
+#define CIDEDIPHHDL_NNMIABKFEOJ_OFFSET UNITYSDK_OFFSET(0x1AABF3F0)
+#define CIDEDIPHHDL_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x1AABF660)
+#define CIDEDIPHHDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AABF130)
+#define CIDEDIPHHDL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AABF7D0)
+#define CIDEDIPHHDL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AABEC10)
+
+inline static constexpr unsigned int CIDEDIPHHDL_TypeDefinitionIndex = 23033;
+
+class CIDEDIPHHDL : public ::IHNCCABJGPA
+{
+public:
+	static ::INKCDCHNIJD_1<::MBKLHPDKMGO*>** StaticGet_GKKDGPHHHNN()
+	{
+		return (::INKCDCHNIJD_1<::MBKLHPDKMGO*>**)Il2CppClass::FromTypeDefinitionIndex(CIDEDIPHHDL_TypeDefinitionIndex)->GetStaticField(0xB8E0);
+	}
+	static ::INKCDCHNIJD_1<::System::UInt32>** StaticGet_OFABKDMCOGB()
+	{
+		return (::INKCDCHNIJD_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CIDEDIPHHDL_TypeDefinitionIndex)->GetStaticField(0xB8E8);
+	}
+	static ::KOHPAOOBMGD** StaticGet_ELKODHCMHMN()
+	{
+		return (::KOHPAOOBMGD**)Il2CppClass::FromTypeDefinitionIndex(CIDEDIPHHDL_TypeDefinitionIndex)->GetStaticField(0xB8F0);
+	}
+	::DFDEIDBBGHG_1<::System::UInt32>* GPBMEDKEOPM; // 0x20
+	::DFDEIDBBGHG_1<::MBKLHPDKMGO*>* FEBNLIKPCEO; // 0x28
+	::System::UInt32 CELJFCECJJE; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDEDIPHHDL__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CIDEDIPHHDL__CCTOR_OFFSET))();
+	}
+
+	::System::UInt16 DKHALDDAFFC()
+	{
+		return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_DKHALDDAFFC_OFFSET))(this);
+	}
+
+	::EIMGMBNCJON* HBDBJDANMLP()
+	{
+		return ((::EIMGMBNCJON*(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_HBDBJDANMLP_OFFSET))(this);
+	}
+
+	::CIDEDIPHHDL* DGNAAPGKIPL()
+	{
+		return ((::CIDEDIPHHDL*(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_DGNAAPGKIPL_OFFSET))(this);
+	}
+
+	::System::Boolean Equals(::System::Object* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_EQUALS_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Boolean Equals_1(::CIDEDIPHHDL* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::CIDEDIPHHDL*))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_EQUALS_1_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_GETHASHCODE_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_TOSTRING_OFFSET))(this);
+	}
+
+	::System::Void MNGHBPNCMPK(::OMKHOPABFDJ* AJMCCOEAIFE)
+	{
+		return ((::System::Void(*)(::PVOID, ::OMKHOPABFDJ*))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_MNGHBPNCMPK_OFFSET))(this, AJMCCOEAIFE);
+	}
+
+	::System::Int32 JKELAOKCLJP()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_JKELAOKCLJP_OFFSET))(this);
+	}
+
+	::System::Void NNMIABKFEOJ(::CIDEDIPHHDL* LIBPKNHDIGP)
+	{
+		return ((::System::Void(*)(::PVOID, ::CIDEDIPHHDL*))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_NNMIABKFEOJ_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Void NNMIABKFEOJ_1(::PPPHCHDBPKE* HLFFCMIFFIB)
+	{
+		return ((::System::Void(*)(::PVOID, ::PPPHCHDBPKE*))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_NNMIABKFEOJ_1_OFFSET))(this, HLFFCMIFFIB);
+	}
+
+	::System::Void CNEDMCLLNHA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_CNEDMCLLNHA_OFFSET))(this);
+	}
+
+	::System::Void EFGBEHCBDNI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_EFGBEHCBDNI_OFFSET))(this);
+	}
+
+	::System::Void BODOFCJDMIC(::System::Boolean EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_BODOFCJDMIC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void NPOLNFDBOOD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_NPOLNFDBOOD_OFFSET))(this);
+	}
+
+	::System::Void DEJBOKDOGCD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_DEJBOKDOGCD_OFFSET))(this);
+	}
+
+	::System::Void GIALDDHFBLF(::CIDEDIPHHDL* LIBPKNHDIGP)
+	{
+		return ((::System::Void(*)(::PVOID, ::CIDEDIPHHDL*))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_GIALDDHFBLF_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	static ::KOHPAOOBMGD* BEDJGLFPODG()
+	{
+		return ((::KOHPAOOBMGD*(*)())((::PBYTE)hIl2Cpp + CIDEDIPHHDL_BEDJGLFPODG_OFFSET))();
+	}
+
+	::System::UInt32 LONNBMMCOCC()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_LONNBMMCOCC_OFFSET))(this);
+	}
+
+	::System::Void FIBJIJIIJLE(::System::UInt32 EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_FIBJIJIIJLE_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	static ::CIDEDIPHHDL* Method_22()
+	{
+		return ((::CIDEDIPHHDL*(*)())((::PBYTE)hIl2Cpp + CIDEDIPHHDL_METHOD_22_OFFSET))();
+	}
+
+	::System::Void LEHECPACPJD(::KOLFGAALPJM& AJMCCOEAIFE)
+	{
+		return ((::System::Void(*)(::PVOID, ::KOLFGAALPJM&))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_LEHECPACPJD_OFFSET))(this, AJMCCOEAIFE);
+	}
+
+	::System::Void AGNKHOHENBD(::MFEIKFOLILJ& HLFFCMIFFIB)
+	{
+		return ((::System::Void(*)(::PVOID, ::MFEIKFOLILJ&))((::PBYTE)hIl2Cpp + CIDEDIPHHDL_AGNKHOHENBD_OFFSET))(this, HLFFCMIFFIB);
+	}
+};

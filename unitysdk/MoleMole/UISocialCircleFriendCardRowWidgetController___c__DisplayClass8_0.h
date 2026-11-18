@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UISocialCircleFriendCardContext; }
 
-#define MOLEMOLE_UISOCIALCIRCLEFRIENDCARDROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16761B70)
-#define MOLEMOLE_UISOCIALCIRCLEFRIENDCARDROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__INITCIRCLEPLAYERICONBTN_B__0_OFFSET UNITYSDK_OFFSET(0x16761B80)
+#define MOLEMOLE_UISOCIALCIRCLEFRIENDCARDROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164A9FE0)
+#define MOLEMOLE_UISOCIALCIRCLEFRIENDCARDROWWIDGETCONTROLLER___C__DISPLAYCLASS8_0__INITCIRCLEPLAYERICONBTN_B__0_OFFSET UNITYSDK_OFFSET(0x164A9FF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleFriendCardRowWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 45107;
+	inline static constexpr unsigned int UISocialCircleFriendCardRowWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 91326;
 
 	class UISocialCircleFriendCardRowWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{

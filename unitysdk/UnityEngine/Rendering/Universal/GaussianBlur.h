@@ -4,11 +4,11 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { class BoolParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GAUSSIANBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF89F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GAUSSIANBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E15A670)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GaussianBlur_TypeDefinitionIndex = 27828;
+	inline static constexpr unsigned int GaussianBlur_TypeDefinitionIndex = 26215;
 
 	class GaussianBlur : public ::UnityEngine::NAPRenderPipeline0::GaussianBlur_NativeSRP
 	{

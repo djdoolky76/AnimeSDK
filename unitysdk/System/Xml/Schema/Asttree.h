@@ -7,24 +7,24 @@ namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 namespace System::Xml { class XmlNamespaceManager; }
 
-#define SYSTEM_XML_SCHEMA_ASTTREE_COMPILEXPATH_OFFSET UNITYSDK_OFFSET(0x1E7FB100)
-#define SYSTEM_XML_SCHEMA_ASTTREE_ISATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E7FBAE0)
-#define SYSTEM_XML_SCHEMA_ASTTREE_ISDESCENDANTORSELF_OFFSET UNITYSDK_OFFSET(0x1E7FBB10)
-#define SYSTEM_XML_SCHEMA_ASTTREE_ISNAMETEST_OFFSET UNITYSDK_OFFSET(0x1E7FBAB0)
-#define SYSTEM_XML_SCHEMA_ASTTREE_ISSELF_OFFSET UNITYSDK_OFFSET(0x1E7FBB40)
-#define SYSTEM_XML_SCHEMA_ASTTREE_SETURN_OFFSET UNITYSDK_OFFSET(0x1E7FBB70)
-#define SYSTEM_XML_SCHEMA_ASTTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FB0E0)
+#define SYSTEM_XML_SCHEMA_ASTTREE_COMPILEXPATH_OFFSET UNITYSDK_OFFSET(0x1EAAE030)
+#define SYSTEM_XML_SCHEMA_ASTTREE_ISATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1EAAEA10)
+#define SYSTEM_XML_SCHEMA_ASTTREE_ISDESCENDANTORSELF_OFFSET UNITYSDK_OFFSET(0x1EAAEA40)
+#define SYSTEM_XML_SCHEMA_ASTTREE_ISNAMETEST_OFFSET UNITYSDK_OFFSET(0x1EAAE9E0)
+#define SYSTEM_XML_SCHEMA_ASTTREE_ISSELF_OFFSET UNITYSDK_OFFSET(0x1EAAEA70)
+#define SYSTEM_XML_SCHEMA_ASTTREE_SETURN_OFFSET UNITYSDK_OFFSET(0x1EAAEAA0)
+#define SYSTEM_XML_SCHEMA_ASTTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAAE010)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Asttree_TypeDefinitionIndex = 1944;
+	inline static constexpr unsigned int Asttree_TypeDefinitionIndex = 1943;
 
 	class Asttree : public ::System::Object
 	{
 	public:
-		::System::Collections::ArrayList* fAxisArray; // 0x10
-		::System::String* xpathexpr; // 0x18
-		::System::Xml::XmlNamespaceManager* nsmgr; // 0x20
+		::System::Xml::XmlNamespaceManager* nsmgr; // 0x10
+		::System::Collections::ArrayList* fAxisArray; // 0x18
+		::System::String* xpathexpr; // 0x20
 		::System::Boolean isField; // 0x28
 
 		::System::Void _ctor(::System::String* xPath, ::System::Boolean isField, ::System::Xml::XmlNamespaceManager* nsmgr)

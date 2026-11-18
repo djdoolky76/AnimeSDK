@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
-#include "unitysdk/MessagePack/MessagePackWriter.h"
 #include "unitysdk/System/Object.h"
 
-namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Internal { template <typename T> class AnonymousDeserializeFunc_1; }
 namespace MessagePack::Internal { template <typename T> class AnonymousSerializeFunc_1; }
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int AnonymousSerializableFormatter_1_TypeDefinitionIndex = 31471;
+	inline static constexpr unsigned int AnonymousSerializableFormatter_1_TypeDefinitionIndex = 30872;
 
 	template <typename T>
 	class AnonymousSerializableFormatter_1 : public ::System::Object

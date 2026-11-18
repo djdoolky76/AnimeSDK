@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSplineConfig_PathGraphLane_LaneDirection_TypeDefinitionIndex = 76882;
+	inline static constexpr unsigned int PathGraphSplineConfig_PathGraphLane_LaneDirection_TypeDefinitionIndex = 84300;
 
 	enum class PathGraphSplineConfig_PathGraphLane_LaneDirection : ::System::Int32
 	{
+		Bidirectional = 3,
 		Forward = 1,
 		Backward = 2,
-		Bidirectional = 3,
 	};
 }

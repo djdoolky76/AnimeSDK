@@ -3,13 +3,13 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ESceneUnitType_TypeDefinitionIndex = 11576;
+	inline static constexpr unsigned int ESceneUnitType_TypeDefinitionIndex = 9548;
 
 	enum class ESceneUnitType : ::System::Int16
 	{
-		Avatar = 2,
 		Player = 1,
-		Buddy = 3,
+		Avatar = 2,
 		Npc = 0,
+		Buddy = 3,
 	};
 }

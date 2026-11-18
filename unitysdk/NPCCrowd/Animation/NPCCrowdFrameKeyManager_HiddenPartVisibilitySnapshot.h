@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdFrameKeyManager_HiddenPartVisibilitySnapshot_TypeDefinitionIndex = 56702;
+	inline static constexpr unsigned int NPCCrowdFrameKeyManager_HiddenPartVisibilitySnapshot_TypeDefinitionIndex = 91484;
 
 	struct alignas(4) NPCCrowdFrameKeyManager_HiddenPartVisibilitySnapshot
 	{

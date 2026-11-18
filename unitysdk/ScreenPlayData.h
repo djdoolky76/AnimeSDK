@@ -7,18 +7,20 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define SCREENPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C13BB70)
+#define SCREENPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB5FBA0)
 
-inline static constexpr unsigned int ScreenPlayData_TypeDefinitionIndex = 76482;
+inline static constexpr unsigned int ScreenPlayData_TypeDefinitionIndex = 50771;
 
 class ScreenPlayData : public ::System::Object
 {
 public:
 	::ObjectPlayType playType; // 0x10
+	::System::Byte _padding0[0x4];
 	::System::String* resUrl; // 0x18
 	::System::Action* onSuccess; // 0x20
 	::System::Action* onWillStart; // 0x28
 	::System::Boolean isLoop; // 0x30
+	::System::Byte _padding1[0x3];
 	::System::Single delayTime; // 0x34
 	::UnityEngine::Color editorColor; // 0x38
 	::System::Boolean isOverrideConfigLoop; // 0x48

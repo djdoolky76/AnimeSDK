@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIActivityDetectiveMainPageController; }
 
-#define MOLEMOLE_UIACTIVITYDETECTIVEMAINPAGECONTROLLER___C__DISPLAYCLASS89_0__CTOR_OFFSET UNITYSDK_OFFSET(0x197D34E0)
-#define MOLEMOLE_UIACTIVITYDETECTIVEMAINPAGECONTROLLER___C__DISPLAYCLASS89_0__FLOWLAYOUTWITHRESPLIT_B__0_OFFSET UNITYSDK_OFFSET(0x197D34F0)
+#define MOLEMOLE_UIACTIVITYDETECTIVEMAINPAGECONTROLLER___C__DISPLAYCLASS89_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19820CE0)
+#define MOLEMOLE_UIACTIVITYDETECTIVEMAINPAGECONTROLLER___C__DISPLAYCLASS89_0__FLOWLAYOUTWITHRESPLIT_B__0_OFFSET UNITYSDK_OFFSET(0x19820CF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityDetectiveMainPageController___c__DisplayClass89_0_TypeDefinitionIndex = 57721;
+	inline static constexpr unsigned int UIActivityDetectiveMainPageController___c__DisplayClass89_0_TypeDefinitionIndex = 91855;
 
 	class UIActivityDetectiveMainPageController___c__DisplayClass89_0 : public ::System::Object
 	{

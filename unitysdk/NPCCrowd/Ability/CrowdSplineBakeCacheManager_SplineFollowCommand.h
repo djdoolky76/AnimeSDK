@@ -7,7 +7,7 @@ namespace FluffyUnderware::Curvy { class CurvySpline; }
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int CrowdSplineBakeCacheManager_SplineFollowCommand_TypeDefinitionIndex = 89336;
+	inline static constexpr unsigned int CrowdSplineBakeCacheManager_SplineFollowCommand_TypeDefinitionIndex = 38849;
 
 	struct alignas(8) CrowdSplineBakeCacheManager_SplineFollowCommand
 	{
@@ -17,5 +17,6 @@ namespace NPCCrowd::Ability
 		::System::Single StopRadius; // 0x20
 		::System::Boolean StartFromNearest; // 0x24
 		::System::Boolean SnapToGround; // 0x25
+		::System::Boolean Loop; // 0x26
 	};
 }

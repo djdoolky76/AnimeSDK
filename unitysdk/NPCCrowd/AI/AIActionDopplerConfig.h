@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_AI_AIACTIONDOPPLERCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x651580)
-#define NPCCROWD_AI_AIACTIONDOPPLERCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x6515D0)
+#define NPCCROWD_AI_AIACTIONDOPPLERCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x5A6D40)
+#define NPCCROWD_AI_AIACTIONDOPPLERCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x5A6D90)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionDopplerConfig_TypeDefinitionIndex = 82981;
+	inline static constexpr unsigned int AIActionDopplerConfig_TypeDefinitionIndex = 81740;
 
 	struct alignas(8) AIActionDopplerConfig
 	{

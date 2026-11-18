@@ -5,42 +5,42 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MESHDECIMATOR_MATH_VECTOR2I_CLAMP_OFFSET UNITYSDK_OFFSET(0xA0E550)
-#define MESHDECIMATOR_MATH_VECTOR2I_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x6340C0)
-#define MESHDECIMATOR_MATH_VECTOR2I_EQUALS_OFFSET UNITYSDK_OFFSET(0xA0E590)
-#define MESHDECIMATOR_MATH_VECTOR2I_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA0E580)
-#define MESHDECIMATOR_MATH_VECTOR2I_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xA0E430)
-#define MESHDECIMATOR_MATH_VECTOR2I_GET_MAGNITUDESQR_OFFSET UNITYSDK_OFFSET(0xA0E420)
-#define MESHDECIMATOR_MATH_VECTOR2I_GET_MAGNITUDE_OFFSET UNITYSDK_OFFSET(0xA0E3E0)
-#define MESHDECIMATOR_MATH_VECTOR2I_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1E275750)
-#define MESHDECIMATOR_MATH_VECTOR2I_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1E2757D0)
-#define MESHDECIMATOR_MATH_VECTOR2I_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E275810)
-#define MESHDECIMATOR_MATH_VECTOR2I_OP_EXPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1E275850)
-#define MESHDECIMATOR_MATH_VECTOR2I_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1E275830)
-#define MESHDECIMATOR_MATH_VECTOR2I_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E275820)
-#define MESHDECIMATOR_MATH_VECTOR2I_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x1E2757B0)
-#define MESHDECIMATOR_MATH_VECTOR2I_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1E275790)
-#define MESHDECIMATOR_MATH_VECTOR2I_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1E275770)
-#define MESHDECIMATOR_MATH_VECTOR2I_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x1E2757F0)
-#define MESHDECIMATOR_MATH_VECTOR2I_SCALE_1_OFFSET UNITYSDK_OFFSET(0x1E2759C0)
-#define MESHDECIMATOR_MATH_VECTOR2I_SCALE_OFFSET UNITYSDK_OFFSET(0xA0E530)
-#define MESHDECIMATOR_MATH_VECTOR2I_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xA0E4B0)
-#define MESHDECIMATOR_MATH_VECTOR2I_SET_OFFSET UNITYSDK_OFFSET(0x312BA0)
-#define MESHDECIMATOR_MATH_VECTOR2I_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0xA0E620)
-#define MESHDECIMATOR_MATH_VECTOR2I_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA0E5F0)
-#define MESHDECIMATOR_MATH_VECTOR2I__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2759E0)
-#define MESHDECIMATOR_MATH_VECTOR2I__CTOR_1_OFFSET UNITYSDK_OFFSET(0x312BA0)
-#define MESHDECIMATOR_MATH_VECTOR2I__CTOR_OFFSET UNITYSDK_OFFSET(0x474910)
+#define MESHDECIMATOR_MATH_VECTOR2I_CLAMP_OFFSET UNITYSDK_OFFSET(0x902480)
+#define MESHDECIMATOR_MATH_VECTOR2I_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x67E960)
+#define MESHDECIMATOR_MATH_VECTOR2I_EQUALS_OFFSET UNITYSDK_OFFSET(0x9024C0)
+#define MESHDECIMATOR_MATH_VECTOR2I_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9024B0)
+#define MESHDECIMATOR_MATH_VECTOR2I_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x902360)
+#define MESHDECIMATOR_MATH_VECTOR2I_GET_MAGNITUDESQR_OFFSET UNITYSDK_OFFSET(0x902350)
+#define MESHDECIMATOR_MATH_VECTOR2I_GET_MAGNITUDE_OFFSET UNITYSDK_OFFSET(0x902310)
+#define MESHDECIMATOR_MATH_VECTOR2I_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1E4F17D0)
+#define MESHDECIMATOR_MATH_VECTOR2I_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1E4F1850)
+#define MESHDECIMATOR_MATH_VECTOR2I_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E4F1890)
+#define MESHDECIMATOR_MATH_VECTOR2I_OP_EXPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1E4F18D0)
+#define MESHDECIMATOR_MATH_VECTOR2I_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1E4F18B0)
+#define MESHDECIMATOR_MATH_VECTOR2I_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E4F18A0)
+#define MESHDECIMATOR_MATH_VECTOR2I_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x1E4F1830)
+#define MESHDECIMATOR_MATH_VECTOR2I_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1E4F1810)
+#define MESHDECIMATOR_MATH_VECTOR2I_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1E4F17F0)
+#define MESHDECIMATOR_MATH_VECTOR2I_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x1E4F1870)
+#define MESHDECIMATOR_MATH_VECTOR2I_SCALE_1_OFFSET UNITYSDK_OFFSET(0x1E4F1A40)
+#define MESHDECIMATOR_MATH_VECTOR2I_SCALE_OFFSET UNITYSDK_OFFSET(0x902460)
+#define MESHDECIMATOR_MATH_VECTOR2I_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x9023E0)
+#define MESHDECIMATOR_MATH_VECTOR2I_SET_OFFSET UNITYSDK_OFFSET(0x2E4140)
+#define MESHDECIMATOR_MATH_VECTOR2I_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x902550)
+#define MESHDECIMATOR_MATH_VECTOR2I_TOSTRING_OFFSET UNITYSDK_OFFSET(0x902520)
+#define MESHDECIMATOR_MATH_VECTOR2I__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4F1A60)
+#define MESHDECIMATOR_MATH_VECTOR2I__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2E4140)
+#define MESHDECIMATOR_MATH_VECTOR2I__CTOR_OFFSET UNITYSDK_OFFSET(0x47D4F0)
 
 namespace MeshDecimator::Math
 {
-	inline static constexpr unsigned int Vector2i_TypeDefinitionIndex = 35481;
+	inline static constexpr unsigned int Vector2i_TypeDefinitionIndex = 35054;
 
 	struct alignas(4) Vector2i
 	{
 		static ::MeshDecimator::Math::Vector2i* StaticGet_zero()
 		{
-			return (::MeshDecimator::Math::Vector2i*)Il2CppClass::FromTypeDefinitionIndex(Vector2i_TypeDefinitionIndex)->GetStaticField(0x86E0);
+			return (::MeshDecimator::Math::Vector2i*)Il2CppClass::FromTypeDefinitionIndex(Vector2i_TypeDefinitionIndex)->GetStaticField(0x8B90);
 		}
 		::System::Int32 x; // 0x10
 		::System::Int32 y; // 0x14
@@ -80,45 +80,61 @@ namespace MeshDecimator::Math
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_SET_ITEM_OFFSET))(this, index, value);
 		}
 
+		/*
 		static ::MeshDecimator::Math::Vector2i op_Addition(::MeshDecimator::Math::Vector2i a, ::MeshDecimator::Math::Vector2i b)
 		{
 			return ((::MeshDecimator::Math::Vector2i(*)(::MeshDecimator::Math::Vector2i, ::MeshDecimator::Math::Vector2i))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_OP_ADDITION_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::MeshDecimator::Math::Vector2i op_Subtraction(::MeshDecimator::Math::Vector2i a, ::MeshDecimator::Math::Vector2i b)
 		{
 			return ((::MeshDecimator::Math::Vector2i(*)(::MeshDecimator::Math::Vector2i, ::MeshDecimator::Math::Vector2i))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_OP_SUBTRACTION_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::MeshDecimator::Math::Vector2i op_Multiply(::MeshDecimator::Math::Vector2i a, ::System::Int32 d)
 		{
 			return ((::MeshDecimator::Math::Vector2i(*)(::MeshDecimator::Math::Vector2i, ::System::Int32))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_OP_MULTIPLY_OFFSET))(a, d);
 		}
+		*/
 
+		/*
 		static ::MeshDecimator::Math::Vector2i op_Multiply_1(::System::Int32 d, ::MeshDecimator::Math::Vector2i a)
 		{
 			return ((::MeshDecimator::Math::Vector2i(*)(::System::Int32, ::MeshDecimator::Math::Vector2i))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_OP_MULTIPLY_1_OFFSET))(d, a);
 		}
+		*/
 
+		/*
 		static ::MeshDecimator::Math::Vector2i op_Division(::MeshDecimator::Math::Vector2i a, ::System::Int32 d)
 		{
 			return ((::MeshDecimator::Math::Vector2i(*)(::MeshDecimator::Math::Vector2i, ::System::Int32))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_OP_DIVISION_OFFSET))(a, d);
 		}
+		*/
 
+		/*
 		static ::MeshDecimator::Math::Vector2i op_UnaryNegation(::MeshDecimator::Math::Vector2i a)
 		{
 			return ((::MeshDecimator::Math::Vector2i(*)(::MeshDecimator::Math::Vector2i))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_OP_UNARYNEGATION_OFFSET))(a);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::MeshDecimator::Math::Vector2i lhs, ::MeshDecimator::Math::Vector2i rhs)
 		{
 			return ((::System::Boolean(*)(::MeshDecimator::Math::Vector2i, ::MeshDecimator::Math::Vector2i))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_OP_EQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::MeshDecimator::Math::Vector2i lhs, ::MeshDecimator::Math::Vector2i rhs)
 		{
 			return ((::System::Boolean(*)(::MeshDecimator::Math::Vector2i, ::MeshDecimator::Math::Vector2i))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_OP_INEQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
 		/*
 		static ::MeshDecimator::Math::Vector2i op_Explicit(::MeshDecimator::Math::Vector2 v)
@@ -139,10 +155,12 @@ namespace MeshDecimator::Math
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_SET_OFFSET))(this, x, y);
 		}
 
+		/*
 		::System::Void Scale(::MeshDecimator::Math::Vector2i& scale)
 		{
 			return ((::System::Void(*)(::PVOID, ::MeshDecimator::Math::Vector2i&))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_SCALE_OFFSET))(this, scale);
 		}
+		*/
 
 		::System::Void Clamp(::System::Int32 min, ::System::Int32 max)
 		{
@@ -159,10 +177,12 @@ namespace MeshDecimator::Math
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_EQUALS_OFFSET))(this, other);
 		}
 
+		/*
 		::System::Boolean Equals_1(::MeshDecimator::Math::Vector2i other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::MeshDecimator::Math::Vector2i))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_EQUALS_1_OFFSET))(this, other);
 		}
+		*/
 
 		::System::String* ToString()
 		{
@@ -174,9 +194,11 @@ namespace MeshDecimator::Math
 			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_TOSTRING_1_OFFSET))(this, format);
 		}
 
+		/*
 		static ::System::Void Scale_1(::MeshDecimator::Math::Vector2i& a, ::MeshDecimator::Math::Vector2i& b, ::MeshDecimator::Math::Vector2i& result)
 		{
 			return ((::System::Void(*)(::MeshDecimator::Math::Vector2i&, ::MeshDecimator::Math::Vector2i&, ::MeshDecimator::Math::Vector2i&))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR2I_SCALE_1_OFFSET))(a, b, result);
 		}
+		*/
 	};
 }

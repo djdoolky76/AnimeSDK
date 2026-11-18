@@ -2,16 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableFunctionNodeBase.h"
 
-namespace FlowCanvas { class FlowNode; }
-
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CallableFunctionNode_1_TypeDefinitionIndex = 30063;
+	inline static constexpr unsigned int CallableFunctionNode_1_TypeDefinitionIndex = 30452;
 
-	template <typename TResult>
+	template <typename T>
 	class CallableFunctionNode_1 : public ::FlowCanvas::Nodes::CallableFunctionNodeBase
 	{
 	public:
-		TResult result; // 0x0
+		T result; // 0x0
 	};
 }

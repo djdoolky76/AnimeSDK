@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneParrySolo_RotateType_TypeDefinitionIndex = 88118;
+	inline static constexpr unsigned int AnimatorZoneParrySolo_RotateType_TypeDefinitionIndex = 54532;
 
 	enum class AnimatorZoneParrySolo_RotateType : ::System::Int32
 	{

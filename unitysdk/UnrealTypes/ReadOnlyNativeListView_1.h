@@ -4,12 +4,12 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ReadOnlyNativeListView_1_TypeDefinitionIndex = 28292;
+	inline static constexpr unsigned int ReadOnlyNativeListView_1_TypeDefinitionIndex = 27709;
 
 	template <typename T>
-	struct ReadOnlyNativeListView_1
+	struct alignas(8) ReadOnlyNativeListView_1
 	{
-		::System::Void* _storage; // 0x0
+		::PVOID _storage; // 0x0
 		::System::Int32 _count; // 0x0
 	};
 }

@@ -3,21 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 namespace UnrealTypes { class ICppStructOps; }
+namespace UnrealTypes { class ScriptStruct; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD8883E0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD888420)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xD888430)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xED5DE70)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xED5DEB0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xED5DEC0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION___C___CCTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0xED5DF20)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition___c_TypeDefinitionIndex = 52414;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition___c_TypeDefinitionIndex = 67006;
 
 	class RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition___c : public ::System::Object
 	{
 	public:
-		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition___c_TypeDefinitionIndex)->GetStaticField(0x49510);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PlayerAvatarDistanceCondition___c_TypeDefinitionIndex)->GetStaticField(0x47670);
 		}
 
 		static ::System::Void _cctor()
@@ -30,9 +32,14 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION___C__CTOR_OFFSET))(this);
 		}
 
-		::UnrealTypes::ICppStructOps* __cctor_b__2_0()
+		::UnrealTypes::ScriptStruct* __cctor_b__2_0()
 		{
-			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION___C___CCTOR_B__2_0_OFFSET))(this);
+			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION___C___CCTOR_B__2_0_OFFSET))(this);
+		}
+
+		::UnrealTypes::ICppStructOps* __cctor_b__2_1()
+		{
+			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYERAVATARDISTANCECONDITION___C___CCTOR_B__2_1_OFFSET))(this);
 		}
 	};
 }

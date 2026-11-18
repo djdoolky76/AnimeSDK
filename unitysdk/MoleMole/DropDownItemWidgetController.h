@@ -6,21 +6,22 @@ namespace MoleMole { class UIControllerContextBase; }
 namespace MoleMole { class UIGeneralDropdownOptionContext; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define MOLEMOLE_DROPDOWNITEMWIDGETCONTROLLER_GETINDEX_OFFSET UNITYSDK_OFFSET(0x162773E0)
-#define MOLEMOLE_DROPDOWNITEMWIDGETCONTROLLER_GETUITABBUTTON_OFFSET UNITYSDK_OFFSET(0x162772C0)
-#define MOLEMOLE_DROPDOWNITEMWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x16277300)
-#define MOLEMOLE_DROPDOWNITEMWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16277430)
-#define MOLEMOLE_DROPDOWNITEMWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x16277490)
+#define MOLEMOLE_DROPDOWNITEMWIDGETCONTROLLER_GETINDEX_OFFSET UNITYSDK_OFFSET(0x19B369F0)
+#define MOLEMOLE_DROPDOWNITEMWIDGETCONTROLLER_GETUITABBUTTON_OFFSET UNITYSDK_OFFSET(0x19B368D0)
+#define MOLEMOLE_DROPDOWNITEMWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x19B36910)
+#define MOLEMOLE_DROPDOWNITEMWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B36A40)
+#define MOLEMOLE_DROPDOWNITEMWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x19B36AA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DropDownItemWidgetController_TypeDefinitionIndex = 60636;
+	inline static constexpr unsigned int DropDownItemWidgetController_TypeDefinitionIndex = 73199;
 
 	class DropDownItemWidgetController : public ::MoleMole::UIWidgetController
 	{
 	public:
-		::System::Int32 _index; // 0x2C0
-		::MoleMole::UIGeneralDropdownOptionContext* _dropdownContext; // 0x2C8
+		::System::Int32 _index; // 0x2C8
+		::System::Byte _padding0[0x4];
+		::MoleMole::UIGeneralDropdownOptionContext* _dropdownContext; // 0x2D0
 
 		::System::Void _ctor()
 		{

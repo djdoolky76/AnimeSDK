@@ -6,19 +6,19 @@ namespace System { class Object; }
 namespace System::Data { class DataColumn; }
 namespace System::Data { class DataRow; }
 
-#define SYSTEM_DATA_DATACOLUMNCHANGEEVENTARGS_INITIALIZECOLUMNCHANGEEVENT_OFFSET UNITYSDK_OFFSET(0x1F2F7300)
-#define SYSTEM_DATA_DATACOLUMNCHANGEEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2F7290)
-#define SYSTEM_DATA_DATACOLUMNCHANGEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F7230)
+#define SYSTEM_DATA_DATACOLUMNCHANGEEVENTARGS_INITIALIZECOLUMNCHANGEEVENT_OFFSET UNITYSDK_OFFSET(0x1F7096D0)
+#define SYSTEM_DATA_DATACOLUMNCHANGEEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F709660)
+#define SYSTEM_DATA_DATACOLUMNCHANGEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F709600)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataColumnChangeEventArgs_TypeDefinitionIndex = 39229;
+	inline static constexpr unsigned int DataColumnChangeEventArgs_TypeDefinitionIndex = 37229;
 
 	class DataColumnChangeEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Data::DataRow* _Row_k__BackingField; // 0x10
-		::System::Data::DataColumn* _column; // 0x18
+		::System::Data::DataColumn* _column; // 0x10
+		::System::Data::DataRow* _Row_k__BackingField; // 0x18
 		::System::Object* _ProposedValue_k__BackingField; // 0x20
 
 		::System::Void _ctor(::System::Data::DataRow* row)

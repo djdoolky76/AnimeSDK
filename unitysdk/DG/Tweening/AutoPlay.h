@@ -3,7 +3,7 @@
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int AutoPlay_TypeDefinitionIndex = 28433;
+	inline static constexpr unsigned int AutoPlay_TypeDefinitionIndex = 27872;
 
 	enum class AutoPlay : ::System::Int32
 	{

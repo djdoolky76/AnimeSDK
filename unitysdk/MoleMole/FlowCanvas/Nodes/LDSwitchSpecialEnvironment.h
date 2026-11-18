@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A8A850)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x13A8ABF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x146650E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHSPECIALENVIRONMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x14665480)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSwitchSpecialEnvironment_TypeDefinitionIndex = 49635;
+	inline static constexpr unsigned int LDSwitchSpecialEnvironment_TypeDefinitionIndex = 82610;
 
-	class LDSwitchSpecialEnvironment : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::String*>
+	class LDSwitchSpecialEnvironment
 	{
 	public:
 		::System::Void _ctor()

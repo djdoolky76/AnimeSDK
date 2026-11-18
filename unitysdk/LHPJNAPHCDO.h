@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IGKOFMFKNNO.h"
+
+class JJOGIMMDEDM;
+
+#define LHPJNAPHCDO_JFDOOELFAOA_OFFSET UNITYSDK_OFFSET(0x12567250)
+#define LHPJNAPHCDO_JLLFEHHFLBJ_OFFSET UNITYSDK_OFFSET(0x12567230)
+#define LHPJNAPHCDO_MANJHCEIOJD_OFFSET UNITYSDK_OFFSET(0x12567240)
+#define LHPJNAPHCDO__CTOR_OFFSET UNITYSDK_OFFSET(0x12567220)
+
+inline static constexpr unsigned int LHPJNAPHCDO_TypeDefinitionIndex = 83851;
+
+class LHPJNAPHCDO : public ::IGKOFMFKNNO
+{
+public:
+	::JJOGIMMDEDM* _NKMPGPLHJKD_k__BackingField; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LHPJNAPHCDO__CTOR_OFFSET))(this);
+	}
+
+	::JJOGIMMDEDM* JLLFEHHFLBJ()
+	{
+		return ((::JJOGIMMDEDM*(*)(::PVOID))((::PBYTE)hIl2Cpp + LHPJNAPHCDO_JLLFEHHFLBJ_OFFSET))(this);
+	}
+
+	::System::Void MANJHCEIOJD(::JJOGIMMDEDM* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::JJOGIMMDEDM*))((::PBYTE)hIl2Cpp + LHPJNAPHCDO_MANJHCEIOJD_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	static ::LHPJNAPHCDO* JFDOOELFAOA()
+	{
+		return ((::LHPJNAPHCDO*(*)())((::PBYTE)hIl2Cpp + LHPJNAPHCDO_JFDOOELFAOA_OFFSET))();
+	}
+};

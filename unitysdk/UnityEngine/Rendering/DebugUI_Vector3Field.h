@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/DebugUI_Field_1.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_DEBUGUI_VECTOR3FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA79690)
+#define UNITYENGINE_RENDERING_DEBUGUI_VECTOR3FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07ADC0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_Vector3Field_TypeDefinitionIndex = 18699;
+	inline static constexpr unsigned int DebugUI_Vector3Field_TypeDefinitionIndex = 17850;
 
-	class DebugUI_Vector3Field : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityEngine::Vector3>
+	class DebugUI_Vector3Field
 	{
 	public:
-		::System::Single incStep; // 0x50
+		::System::Single incStepMult; // 0x50
 		::System::Int32 decimals; // 0x54
-		::System::Single incStepMult; // 0x58
+		::System::Single incStep; // 0x58
 
 		::System::Void _ctor()
 		{

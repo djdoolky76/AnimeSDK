@@ -1,21 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/UI/Extension/NAP_CharElementType.h"
 #include "unitysdk/UnityEngine/UI/Extension/NAP_CharStyleFlags.h"
 #include "unitysdk/UnityEngine/UI/Extension/NAP_HighlightState.h"
+#include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NAP_CharacterInfo_TypeDefinitionIndex = 69514;
+	inline static constexpr unsigned int NAP_CharacterInfo_TypeDefinitionIndex = 74031;
 
 	struct alignas(4) NAP_CharacterInfo
 	{
-		// static const ::System::Int32 MqiInvisible = 0xFFFFFFFF; // 0x0
-		// static const ::System::Int32 MqiDeferredSentinel = 0xFFFFFFFE; // 0x0
+		// static const ::System::Int32 MqiInvisible = -0x1; // 0x0
+		// static const ::System::Int32 MqiDeferredSentinel = -0x2; // 0x0
 		::System::Boolean isTruncated; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Int32 characterIndex; // 0x14
 		::System::Int32 lineNumber; // 0x18
 		::UnityEngine::UI::Extension::NAP_CharElementType elementType; // 0x1C

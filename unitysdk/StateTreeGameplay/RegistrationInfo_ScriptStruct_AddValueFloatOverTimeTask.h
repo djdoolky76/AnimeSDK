@@ -2,26 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+namespace UnrealTypes { class BoolPropertyParams; }
+namespace UnrealTypes { class PropertyParamsBase; }
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_ADDVALUEFLOATOVERTIMETASK_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D5D2840)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_ADDVALUEFLOATOVERTIMETASK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5D26D0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_ADDVALUEFLOATOVERTIMETASK_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D646F80)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_ADDVALUEFLOATOVERTIMETASK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D646CC0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTask_TypeDefinitionIndex = 67917;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTask_TypeDefinitionIndex = 73674;
 
 	class RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTask : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::StructParams** StaticGet_StructParams()
+		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTask_TypeDefinitionIndex)->GetStaticField(0x45A40);
+			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTask_TypeDefinitionIndex)->GetStaticField(0x4B360);
+		}
+		static ::UnrealTypes::BoolPropertyParams** StaticGet_Property_FetchBaseValueOnTick()
+		{
+			return (::UnrealTypes::BoolPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTask_TypeDefinitionIndex)->GetStaticField(0x4B368);
 		}
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTask_TypeDefinitionIndex)->GetStaticField(0x45A48);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTask_TypeDefinitionIndex)->GetStaticField(0x4B370);
+		}
+		static ::UnrealTypes::StructParams** StaticGet_StructParams()
+		{
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTask_TypeDefinitionIndex)->GetStaticField(0x4B378);
 		}
 
 		static ::System::Void _cctor()

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/ComicEventBase.h"
 
-#define UNITYENGINE_TIMELINE_LOGICEVENTBASE_TAGSSHOWIF_OFFSET UNITYSDK_OFFSET(0x1F991020)
-#define UNITYENGINE_TIMELINE_LOGICEVENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9903F0)
+#define UNITYENGINE_TIMELINE_LOGICEVENTBASE_TAGSSHOWIF_OFFSET UNITYSDK_OFFSET(0x1FD7AAC0)
+#define UNITYENGINE_TIMELINE_LOGICEVENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD79EB0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int LogicEventBase_TypeDefinitionIndex = 32967;
+	inline static constexpr unsigned int LogicEventBase_TypeDefinitionIndex = 32422;
 
 	class LogicEventBase : public ::UnityEngine::Timeline::ComicEventBase
 	{

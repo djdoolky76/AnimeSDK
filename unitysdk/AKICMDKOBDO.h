@@ -1,0 +1,171 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/LogicButtonInputType.h"
+#include "unitysdk/OCIKBEJKPCB.h"
+#include "unitysdk/MoleMole/InputActionEvent.h"
+
+class EMACMMBDONN;
+class HGFPBHGPFFM;
+class LGINJIKKBJA;
+class MPHLLEOEFID;
+namespace System { class Action; }
+
+#define AKICMDKOBDO_AFGPFLKDCIF_OFFSET UNITYSDK_OFFSET(0x155061E0)
+#define AKICMDKOBDO_AKPNCMKCDFH_OFFSET UNITYSDK_OFFSET(0x15506660)
+#define AKICMDKOBDO_BCELJLFNDEI_OFFSET UNITYSDK_OFFSET(0x15507600)
+#define AKICMDKOBDO_CFHONBNNPCN_OFFSET UNITYSDK_OFFSET(0x15506170)
+#define AKICMDKOBDO_CLKDOBKJAHM_OFFSET UNITYSDK_OFFSET(0x15506A10)
+#define AKICMDKOBDO_DIHCGHDHPJP_OFFSET UNITYSDK_OFFSET(0x15506390)
+#define AKICMDKOBDO_DILOLMDPOFP_OFFSET UNITYSDK_OFFSET(0x155075F0)
+#define AKICMDKOBDO_DIOOIKGBJCF_OFFSET UNITYSDK_OFFSET(0x15506E10)
+#define AKICMDKOBDO_FCPJBPCHICK_OFFSET UNITYSDK_OFFSET(0x155062D0)
+#define AKICMDKOBDO_HEDKEJGHLJK_OFFSET UNITYSDK_OFFSET(0x15507540)
+#define AKICMDKOBDO_HIABONACIDH_OFFSET UNITYSDK_OFFSET(0x15506960)
+#define AKICMDKOBDO_JGLFNBBHMEF_OFFSET UNITYSDK_OFFSET(0x15506D00)
+#define AKICMDKOBDO_JMAACLDJJMN_OFFSET UNITYSDK_OFFSET(0x15505EE0)
+#define AKICMDKOBDO_KCBENEBBOGP_OFFSET UNITYSDK_OFFSET(0x15506020)
+#define AKICMDKOBDO_KJHFBOCBADC_OFFSET UNITYSDK_OFFSET(0x15505E60)
+#define AKICMDKOBDO_KPMHAMFLJJE_OFFSET UNITYSDK_OFFSET(0x15507120)
+#define AKICMDKOBDO_MBOJHICDCBM_OFFSET UNITYSDK_OFFSET(0x15506D90)
+#define AKICMDKOBDO_MCFILHLNBPK_OFFSET UNITYSDK_OFFSET(0x15506C70)
+#define AKICMDKOBDO_MIKADLKEFBH_OFFSET UNITYSDK_OFFSET(0x15506A80)
+#define AKICMDKOBDO_NBDMOGGFGHN_OFFSET UNITYSDK_OFFSET(0x155074B0)
+#define AKICMDKOBDO_NNADOALCHMI_OFFSET UNITYSDK_OFFSET(0x15507370)
+#define AKICMDKOBDO_OHJEEBIILAF_OFFSET UNITYSDK_OFFSET(0x15506EA0)
+#define AKICMDKOBDO_OOLCMLLACCB_OFFSET UNITYSDK_OFFSET(0x155074A0)
+#define AKICMDKOBDO_PDAHBOCGANM_OFFSET UNITYSDK_OFFSET(0x15506F20)
+#define AKICMDKOBDO__CTOR_OFFSET UNITYSDK_OFFSET(0x15506A70)
+
+inline static constexpr unsigned int AKICMDKOBDO_TypeDefinitionIndex = 75706;
+
+class AKICMDKOBDO : public ::OCIKBEJKPCB
+{
+public:
+	::LGINJIKKBJA* PLGDBGGEANE; // 0x90
+	::EMACMMBDONN* BFFAHGKIGIM; // 0x98
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KJHFBOCBADC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_KJHFBOCBADC_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* JMAACLDJJMN()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_JMAACLDJJMN_OFFSET))(this);
+	}
+
+	::System::Void KCBENEBBOGP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_KCBENEBBOGP_OFFSET))(this);
+	}
+
+	::System::Void AFGPFLKDCIF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_AFGPFLKDCIF_OFFSET))(this);
+	}
+
+	::System::Void FCPJBPCHICK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_FCPJBPCHICK_OFFSET))(this);
+	}
+
+	::System::Boolean DIHCGHDHPJP(::MoleMole::InputActionEvent MLNBANAGAEE)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + AKICMDKOBDO_DIHCGHDHPJP_OFFSET))(this, MLNBANAGAEE);
+	}
+
+	::System::Void HIABONACIDH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_HIABONACIDH_OFFSET))(this);
+	}
+
+	::System::Void CFHONBNNPCN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_CFHONBNNPCN_OFFSET))(this);
+	}
+
+	::System::Boolean AKPNCMKCDFH()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_AKPNCMKCDFH_OFFSET))(this);
+	}
+
+	::System::Void MCFILHLNBPK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_MCFILHLNBPK_OFFSET))(this);
+	}
+
+	::System::Void CLKDOBKJAHM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_CLKDOBKJAHM_OFFSET))(this);
+	}
+
+	::System::Void JGLFNBBHMEF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_JGLFNBBHMEF_OFFSET))(this);
+	}
+
+	::System::Void MBOJHICDCBM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_MBOJHICDCBM_OFFSET))(this);
+	}
+
+	::MoleMole::LogicButtonInputType MIKADLKEFBH()
+	{
+		return ((::MoleMole::LogicButtonInputType(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_MIKADLKEFBH_OFFSET))(this);
+	}
+
+	::System::Void DIOOIKGBJCF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_DIOOIKGBJCF_OFFSET))(this);
+	}
+
+	::System::Void OHJEEBIILAF(::System::Boolean FIPHFGHNNBE, ::System::Boolean IOKNPLAMIKB, ::System::Action* NJJPAJNJFOJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + AKICMDKOBDO_OHJEEBIILAF_OFFSET))(this, FIPHFGHNNBE, IOKNPLAMIKB, NJJPAJNJFOJ);
+	}
+
+	::System::Void PDAHBOCGANM(::System::Boolean EDKHIPNFHAJ, ::System::Action* EJGDHCIBCJH)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + AKICMDKOBDO_PDAHBOCGANM_OFFSET))(this, EDKHIPNFHAJ, EJGDHCIBCJH);
+	}
+
+	::HGFPBHGPFFM* OOLCMLLACCB()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_OOLCMLLACCB_OFFSET))(this);
+	}
+
+	::System::Void KPMHAMFLJJE(::System::Boolean EDKHIPNFHAJ, ::System::Action* EJGDHCIBCJH)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + AKICMDKOBDO_KPMHAMFLJJE_OFFSET))(this, EDKHIPNFHAJ, EJGDHCIBCJH);
+	}
+
+	::System::Void NBDMOGGFGHN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_NBDMOGGFGHN_OFFSET))(this);
+	}
+
+	::System::Void NNADOALCHMI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_NNADOALCHMI_OFFSET))(this);
+	}
+
+	::System::Boolean HEDKEJGHLJK(::MoleMole::InputActionEvent MIALFKCCCPI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + AKICMDKOBDO_HEDKEJGHLJK_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::MPHLLEOEFID* DILOLMDPOFP()
+	{
+		return ((::MPHLLEOEFID*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_DILOLMDPOFP_OFFSET))(this);
+	}
+
+	::System::Void BCELJLFNDEI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKICMDKOBDO_BCELJLFNDEI_OFFSET))(this);
+	}
+};

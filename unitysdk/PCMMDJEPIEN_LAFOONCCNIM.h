@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AHHOCKOFCCI.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+#include "unitysdk/System/Object.h"
+
+class HDBIKLMCCCK;
+class LCDOMEFKJKM;
+class PCMMDJEPIEN;
+
+#define PCMMDJEPIEN_LAFOONCCNIM_AAHMACBDCPN_OFFSET UNITYSDK_OFFSET(0x16001D40)
+#define PCMMDJEPIEN_LAFOONCCNIM_LIDNPLMPHAL_OFFSET UNITYSDK_OFFSET(0x16001ED0)
+#define PCMMDJEPIEN_LAFOONCCNIM__CTOR_OFFSET UNITYSDK_OFFSET(0x16001C30)
+
+inline static constexpr unsigned int PCMMDJEPIEN_LAFOONCCNIM_TypeDefinitionIndex = 52676;
+
+class PCMMDJEPIEN_LAFOONCCNIM : public ::System::Object
+{
+public:
+	::PCMMDJEPIEN* KLHPEBKNIFB; // 0x10
+	::LCDOMEFKJKM* LOHHAFCFEBJ; // 0x18
+	::LGCNEDCMPKM AAOCANGHBDG; // 0x20
+	::AHHOCKOFCCI IGAAKDOIPNN; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PCMMDJEPIEN_LAFOONCCNIM__CTOR_OFFSET))(this);
+	}
+
+	::HDBIKLMCCCK* AAHMACBDCPN()
+	{
+		return ((::HDBIKLMCCCK*(*)(::PVOID))((::PBYTE)hIl2Cpp + PCMMDJEPIEN_LAFOONCCNIM_AAHMACBDCPN_OFFSET))(this);
+	}
+
+	::System::Void LIDNPLMPHAL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PCMMDJEPIEN_LAFOONCCNIM_LIDNPLMPHAL_OFFSET))(this);
+	}
+};

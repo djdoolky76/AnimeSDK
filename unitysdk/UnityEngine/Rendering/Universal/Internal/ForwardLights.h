@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector4.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
-#include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/Color.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Camera; }
@@ -14,32 +14,32 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class Lighting; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_GETLIGHTFINALCOLOR_OFFSET UNITYSDK_OFFSET(0x1CB12810)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_INITIALIZELIGHTCONSTANTS_OFFSET UNITYSDK_OFFSET(0x1CB12920)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_SETUPMAINLIGHTCONSTANTS_OFFSET UNITYSDK_OFFSET(0x1CB12380)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_SETUP_OFFSET UNITYSDK_OFFSET(0x1CB11F00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB11DF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS__INITIALIZELIGHTCONSTANTS_G__GETPATH_10_0_OFFSET UNITYSDK_OFFSET(0x1CB13C20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_GETLIGHTFINALCOLOR_OFFSET UNITYSDK_OFFSET(0x1CED3AD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_INITIALIZELIGHTCONSTANTS_OFFSET UNITYSDK_OFFSET(0x1CED3BE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_SETUPMAINLIGHTCONSTANTS_OFFSET UNITYSDK_OFFSET(0x1CED3640)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS_SETUP_OFFSET UNITYSDK_OFFSET(0x1CED31C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED30B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FORWARDLIGHTS__INITIALIZELIGHTCONSTANTS_G__GETPATH_10_0_OFFSET UNITYSDK_OFFSET(0x1CED4EE0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int ForwardLights_TypeDefinitionIndex = 27100;
+	inline static constexpr unsigned int ForwardLights_TypeDefinitionIndex = 27401;
 
 	class ForwardLights : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Camera** StaticGet_currentCamera()
 		{
-			return (::UnityEngine::Camera**)Il2CppClass::FromTypeDefinitionIndex(ForwardLights_TypeDefinitionIndex)->GetStaticField(0x23890);
+			return (::UnityEngine::Camera**)Il2CppClass::FromTypeDefinitionIndex(ForwardLights_TypeDefinitionIndex)->GetStaticField(0x24910);
 		}
 		static ::System::Boolean* StaticGet_debugMainLightPosition()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ForwardLights_TypeDefinitionIndex)->GetStaticField(0x7180);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ForwardLights_TypeDefinitionIndex)->GetStaticField(0x71F0);
 		}
 		// static const ::System::String* k_SetupLightConstants; // 0x0
-		::UnityEngine::Vector4 k_DefaultLightPosition; // 0x10
-		::UnityEngine::Vector4 k_DefaultShadowTintColor; // 0x20
-		::UnityEngine::Vector4 k_DefaultLightColor; // 0x30
+		::UnityEngine::Vector4 k_DefaultLightColor; // 0x10
+		::UnityEngine::Vector4 k_DefaultLightPosition; // 0x20
+		::UnityEngine::Vector4 k_DefaultShadowTintColor; // 0x30
 
 		::System::Void _ctor()
 		{

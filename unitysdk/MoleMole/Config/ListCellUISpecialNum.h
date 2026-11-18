@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Config/TValueUISpecialNum_1.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 
 namespace MoleMole::Config { class UISpecialNumGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_LISTCELLUISPECIALNUM_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1B565D20)
-#define MOLEMOLE_CONFIG_LISTCELLUISPECIALNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B565CC0)
+#define MOLEMOLE_CONFIG_LISTCELLUISPECIALNUM_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1BA496F0)
+#define MOLEMOLE_CONFIG_LISTCELLUISPECIALNUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA49690)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ListCellUISpecialNum_TypeDefinitionIndex = 54914;
+	inline static constexpr unsigned int ListCellUISpecialNum_TypeDefinitionIndex = 86667;
 
-	class ListCellUISpecialNum : public ::MoleMole::Config::TValueUISpecialNum_1<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*>
+	class ListCellUISpecialNum
 	{
 	public:
 		::System::Void _ctor()

@@ -1,35 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AdjustmentBlendingBone.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AdjustmentBlendingPerBoneCollection_1.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AdjustmentBlendingPerBoneControlData.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/NapTransformData.h"
+#include "unitysdk/Foundation/EnumAsFlag_1.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA_CONTAINS_OFFSET UNITYSDK_OFFSET(0x755A30)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA_GETBONEFLAGS_OFFSET UNITYSDK_OFFSET(0x755A20)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x755970)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA_RESET_OFFSET UNITYSDK_OFFSET(0x755980)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x11933850)
+namespace System { class Object; }
+
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA_CONTAINS_OFFSET UNITYSDK_OFFSET(0x632A00)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA_GETBONEFLAGS_OFFSET UNITYSDK_OFFSET(0x6329F0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x610D20)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA_RESET_OFFSET UNITYSDK_OFFSET(0x632950)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x105E53F0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingControlData_TypeDefinitionIndex = 88324;
+	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingControlData_TypeDefinitionIndex = 81129;
 
 	struct alignas(8) AnimationSubManager_AdjustmentBlendingControlData
 	{
 		static ::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingControlData* StaticGet_Default()
 		{
-			return (::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingControlData*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AdjustmentBlendingControlData_TypeDefinitionIndex)->GetStaticField(0xB8E0);
+			return (::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingControlData*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AdjustmentBlendingControlData_TypeDefinitionIndex)->GetStaticField(0xB990);
 		}
 		::System::Int32 ClipId; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Double BeginTime; // 0x18
 		::System::Double EndTime; // 0x20
 		::System::Double BeginTimestamp; // 0x28
 		::System::Single ClipLength; // 0x30
 		::UnityEngine::NapTransformData Loop; // 0x34
 		::UnityEngine::NapTransformData Origin; // 0x64
-		::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingPerBoneCollection_1<::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingPerBoneControlData> Data; // 0x94
+		::System::Object* Data; // 0x94
 
 		static ::System::Void _cctor()
 		{
@@ -46,12 +47,10 @@ namespace NPCCrowd::Animation
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA_RESET_OFFSET))(this);
 		}
 
-		/*
-		::Foundation::EnumAsFlag_1<::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingBone> GetBoneFlags()
+		::Foundation::EnumAsFlag_1<::System::Object*> GetBoneFlags()
 		{
-			return ((::Foundation::EnumAsFlag_1<::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingBone>(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA_GETBONEFLAGS_OFFSET))(this);
+			return ((::Foundation::EnumAsFlag_1<::System::Object*>(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGCONTROLDATA_GETBONEFLAGS_OFFSET))(this);
 		}
-		*/
 
 		::System::Boolean Contains(::System::Double timestamp, ::System::Int32 clipId)
 		{

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_603;
+class LAAEBHNLHEM;
 
-#define MOLEMOLE_UISUMMEREVENTREWARDTABWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1913DE40)
+#define MOLEMOLE_UISUMMEREVENTREWARDTABWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x185B9C20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerEventRewardTabWidgetController_Data_TypeDefinitionIndex = 68476;
+	inline static constexpr unsigned int UISummerEventRewardTabWidgetController_Data_TypeDefinitionIndex = 39789;
 
 	class UISummerEventRewardTabWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_603* Template; // 0x10
+		::LAAEBHNLHEM* Template; // 0x10
 
 		::System::Void _ctor()
 		{

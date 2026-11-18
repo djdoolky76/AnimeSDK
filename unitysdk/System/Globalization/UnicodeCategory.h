@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int UnicodeCategory_TypeDefinitionIndex = 767;
+	inline static constexpr unsigned int UnicodeCategory_TypeDefinitionIndex = 766;
 
 	enum class UnicodeCategory : ::System::Int32
 	{

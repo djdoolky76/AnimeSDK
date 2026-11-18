@@ -5,18 +5,18 @@
 namespace MoleMole { class UICoopLinkZoneUltQTEButtonChildWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UICOOPLINKZONEULTQTEBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19335830)
-#define MOLEMOLE_UICOOPLINKZONEULTQTEBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS11_0__PLAYFADEOUTANIM_B__0_OFFSET UNITYSDK_OFFSET(0x19335840)
+#define MOLEMOLE_UICOOPLINKZONEULTQTEBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1739BC20)
+#define MOLEMOLE_UICOOPLINKZONEULTQTEBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS11_0__PLAYFADEOUTANIM_B__0_OFFSET UNITYSDK_OFFSET(0x1739BC30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopLinkZoneUltQTEButtonChildWindowController___c__DisplayClass11_0_TypeDefinitionIndex = 90898;
+	inline static constexpr unsigned int UICoopLinkZoneUltQTEButtonChildWindowController___c__DisplayClass11_0_TypeDefinitionIndex = 42108;
 
 	class UICoopLinkZoneUltQTEButtonChildWindowController___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UICoopLinkZoneUltQTEButtonChildWindowController* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action* callback; // 0x10
+		::MoleMole::UICoopLinkZoneUltQTEButtonChildWindowController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -6,26 +6,26 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine::Rendering::Universal { class ZzzFluid; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDMANAGER_GETALLFLUIDPROXY_OFFSET UNITYSDK_OFFSET(0x1C413C10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDMANAGER_GETVALIDFLUIDPROXYCOUNT_OFFSET UNITYSDK_OFFSET(0x1C4139E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1C4132E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDMANAGER_REGISTERFLUID_OFFSET UNITYSDK_OFFSET(0x1C4135A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDMANAGER_UNREGISTERFLUID_OFFSET UNITYSDK_OFFSET(0x1C413860)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C413380)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDMANAGER_GETALLFLUIDPROXY_OFFSET UNITYSDK_OFFSET(0x1C839EC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDMANAGER_GETVALIDFLUIDPROXYCOUNT_OFFSET UNITYSDK_OFFSET(0x1C839C80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1C839580)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDMANAGER_REGISTERFLUID_OFFSET UNITYSDK_OFFSET(0x1C839840)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDMANAGER_UNREGISTERFLUID_OFFSET UNITYSDK_OFFSET(0x1C839B00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C839620)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FluidManager_TypeDefinitionIndex = 27420;
+	inline static constexpr unsigned int FluidManager_TypeDefinitionIndex = 26659;
 
 	class FluidManager : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::FluidManager** StaticGet_s_Instance()
 		{
-			return (::UnityEngine::Rendering::Universal::FluidManager**)Il2CppClass::FromTypeDefinitionIndex(FluidManager_TypeDefinitionIndex)->GetStaticField(0x23BA0);
+			return (::UnityEngine::Rendering::Universal::FluidManager**)Il2CppClass::FromTypeDefinitionIndex(FluidManager_TypeDefinitionIndex)->GetStaticField(0x24B80);
 		}
-		::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::ZzzFluid*>* m_FluidProxy; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Boolean>* fluidIdPool; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Boolean>* fluidIdPool; // 0x10
+		::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::ZzzFluid*>* m_FluidProxy; // 0x18
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Rendering::Universal::ZzzFluid*, ::System::Int32>* m_FluidToIndex; // 0x20
 		::System::Boolean RenderInEditMode; // 0x28
 

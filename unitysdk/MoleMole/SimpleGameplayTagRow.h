@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SimpleGameplayTagRow_TypeDefinitionIndex = 47968;
+	inline static constexpr unsigned int SimpleGameplayTagRow_TypeDefinitionIndex = 76068;
 
 	struct alignas(8) SimpleGameplayTagRow
 	{

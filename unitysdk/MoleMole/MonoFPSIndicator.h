@@ -5,48 +5,48 @@
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_MONOFPSINDICATOR_METHOD_5_2B152328DABB4A03_OFFSET UNITYSDK_OFFSET(0x118E93A0)
-#define MOLEMOLE_MONOFPSINDICATOR_METHOD_5_F7663B0135EC316E_OFFSET UNITYSDK_OFFSET(0x118E9460)
-#define MOLEMOLE_MONOFPSINDICATOR_START_OFFSET UNITYSDK_OFFSET(0x118E7460)
-#define MOLEMOLE_MONOFPSINDICATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x118E83D0)
-#define MOLEMOLE_MONOFPSINDICATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x118E9390)
-#define MOLEMOLE_MONOFPSINDICATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x118E9300)
+#define MOLEMOLE_MONOFPSINDICATOR_HJDBIJDJLJK_1_OFFSET UNITYSDK_OFFSET(0x16269600)
+#define MOLEMOLE_MONOFPSINDICATOR_HJDBIJDJLJK_OFFSET UNITYSDK_OFFSET(0x16269580)
+#define MOLEMOLE_MONOFPSINDICATOR_START_OFFSET UNITYSDK_OFFSET(0x16267640)
+#define MOLEMOLE_MONOFPSINDICATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x162685B0)
+#define MOLEMOLE_MONOFPSINDICATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x16269570)
+#define MOLEMOLE_MONOFPSINDICATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x162694E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoFPSIndicator_TypeDefinitionIndex = 57614;
+	inline static constexpr unsigned int MonoFPSIndicator_TypeDefinitionIndex = 71308;
 
 	class MonoFPSIndicator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Boolean* StaticGet_CollectAndroidPssMemory()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSIndicator_TypeDefinitionIndex)->GetStaticField(0xE3D0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSIndicator_TypeDefinitionIndex)->GetStaticField(0xE6C0);
 		}
 		static ::System::Boolean* StaticGet_dumpAssetMemory()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSIndicator_TypeDefinitionIndex)->GetStaticField(0xE3D1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSIndicator_TypeDefinitionIndex)->GetStaticField(0xE6C1);
 		}
 		::System::Single updateInterval; // 0x18
 		::System::Single fps; // 0x1C
-		::System::Single Field_5_5; // 0x20
-		::System::Int32 Field_5_4; // 0x24
-		::System::Single Field_5_11; // 0x28
-		::System::Int32 Field_5_10; // 0x2C
-		::UnityEngine::UI::Text* Field_5_8; // 0x30
-		::UnityEngine::UI::Text* Field_5_15; // 0x38
-		::UnityEngine::UI::Text* Field_5_14; // 0x40
-		::UnityEngine::UI::Text* Field_5_13; // 0x48
-		::UnityEngine::UI::Text* Field_5_12; // 0x50
-		::UnityEngine::UI::Text* Field_5_19; // 0x58
-		::UnityEngine::UI::Text* Field_5_18; // 0x60
-		::UnityEngine::UI::Text* Field_5_17; // 0x68
-		::UnityEngine::UI::Text* Field_5_16; // 0x70
-		::UnityEngine::UI::Text* Field_5_23; // 0x78
-		::UnityEngine::UI::Text* Field_5_22; // 0x80
-		::UnityEngine::UI::Text* Field_5_21; // 0x88
-		::UnityEngine::UI::Text* Field_5_20; // 0x90
-		::Il2CppArray<::System::UInt64>* Field_5_27; // 0x98
+		::System::Single JPIHKNPJKPH; // 0x20
+		::System::Int32 PBKKBEKPPPK; // 0x24
+		::System::Single OPOFPMMNPGO; // 0x28
+		::System::Int32 NAHBOKJECKM; // 0x2C
+		::UnityEngine::UI::Text* HEOFBENDNID; // 0x30
+		::UnityEngine::UI::Text* PMGMALANEDD; // 0x38
+		::UnityEngine::UI::Text* PBPHHKGLOLH; // 0x40
+		::UnityEngine::UI::Text* JEOOBGDLPFN; // 0x48
+		::UnityEngine::UI::Text* CCKLEBIFKID; // 0x50
+		::UnityEngine::UI::Text* KBFMMBAOKFP; // 0x58
+		::UnityEngine::UI::Text* FNICIIEFFCA; // 0x60
+		::UnityEngine::UI::Text* NDGABCODMPA; // 0x68
+		::UnityEngine::UI::Text* CFDBDGKHANK; // 0x70
+		::UnityEngine::UI::Text* FKGLALDNKOG; // 0x78
+		::UnityEngine::UI::Text* LCOJMDIPIHO; // 0x80
+		::UnityEngine::UI::Text* FBPDEFBHBHE; // 0x88
+		::UnityEngine::UI::Text* COCHNHLBDBL; // 0x90
+		::Il2CppArray<::System::UInt64>* KOKGOJPFDEP; // 0x98
 
 		::System::Void _ctor()
 		{
@@ -68,14 +68,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOFPSINDICATOR_UPDATE_OFFSET))(this);
 		}
 
-		static ::System::String* Method_5_2B152328DABB4A03(::System::Int64 a1)
+		static ::System::String* HJDBIJDJLJK(::System::UInt64 EEDDICPIOCN)
 		{
-			return ((::System::String*(*)(::System::Int64))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOFPSINDICATOR_METHOD_5_2B152328DABB4A03_OFFSET))(a1);
+			return ((::System::String*(*)(::System::UInt64))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOFPSINDICATOR_HJDBIJDJLJK_OFFSET))(EEDDICPIOCN);
 		}
 
-		static ::System::String* Method_5_F7663B0135EC316E(::System::UInt64 a1)
+		static ::System::String* HJDBIJDJLJK_1(::System::Int64 EEDDICPIOCN)
 		{
-			return ((::System::String*(*)(::System::UInt64))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOFPSINDICATOR_METHOD_5_F7663B0135EC316E_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Int64))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOFPSINDICATOR_HJDBIJDJLJK_1_OFFSET))(EEDDICPIOCN);
 		}
 	};
 }

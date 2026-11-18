@@ -10,31 +10,32 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINE2MESH_APPLY_OFFSET UNITYSDK_OFFSET(0x1F5F9050)
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINE2MESH_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1F5F9030)
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINE2MESH_POLYLINEISVALID_OFFSET UNITYSDK_OFFSET(0x1F5FA290)
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINE2MESH_SET_ERROR_OFFSET UNITYSDK_OFFSET(0x1F5F9040)
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINE2MESH_TRIANGULATE_OFFSET UNITYSDK_OFFSET(0x1F5F9CC0)
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINE2MESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5FA2F0)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINE2MESH_APPLY_OFFSET UNITYSDK_OFFSET(0x1F9B7630)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINE2MESH_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1F9B7610)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINE2MESH_POLYLINEISVALID_OFFSET UNITYSDK_OFFSET(0x1F9B8880)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINE2MESH_SET_ERROR_OFFSET UNITYSDK_OFFSET(0x1F9B7620)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINE2MESH_TRIANGULATE_OFFSET UNITYSDK_OFFSET(0x1F9B82A0)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINE2MESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9B88E0)
 
 namespace FluffyUnderware::Curvy::Utils
 {
-	inline static constexpr unsigned int Spline2Mesh_TypeDefinitionIndex = 39504;
+	inline static constexpr unsigned int Spline2Mesh_TypeDefinitionIndex = 37571;
 
 	class Spline2Mesh : public ::System::Object
 	{
 	public:
-		::FluffyUnderware::Curvy::ThirdParty::LibTessDotNet::Tess* mTess; // 0x10
+		::System::Collections::Generic::List_1<::FluffyUnderware::Curvy::Utils::SplinePolyLine*>* Lines; // 0x10
 		::System::String* _Error_k__BackingField; // 0x18
-		::System::String* MeshName; // 0x20
-		::System::Collections::Generic::List_1<::FluffyUnderware::Curvy::Utils::SplinePolyLine*>* Lines; // 0x28
+		::FluffyUnderware::Curvy::ThirdParty::LibTessDotNet::Tess* mTess; // 0x20
+		::System::String* MeshName; // 0x28
 		::UnityEngine::Mesh* mMesh; // 0x30
-		::UnityEngine::Vector2 UVTiling; // 0x38
-		::UnityEngine::Vector2 UVOffset; // 0x40
-		::FluffyUnderware::Curvy::ThirdParty::LibTessDotNet::WindingRule Winding; // 0x48
-		::System::Boolean VertexLineOnly; // 0x4C
-		::System::Boolean UV2; // 0x4D
-		::System::Boolean SuppressUVMapping; // 0x4E
+		::UnityEngine::Vector2 UVOffset; // 0x38
+		::UnityEngine::Vector2 UVTiling; // 0x40
+		::System::Boolean UV2; // 0x48
+		::System::Boolean VertexLineOnly; // 0x49
+		::System::Boolean SuppressUVMapping; // 0x4A
+		::System::Byte _padding0[0x1];
+		::FluffyUnderware::Curvy::ThirdParty::LibTessDotNet::WindingRule Winding; // 0x4C
 
 		::System::Void _ctor()
 		{

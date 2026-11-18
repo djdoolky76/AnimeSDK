@@ -4,12 +4,12 @@
 
 namespace System::Security::AccessControl { class QualifiedAce; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_COMMONACL___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E126F70)
-#define SYSTEM_SECURITY_ACCESSCONTROL_COMMONACL___C__DISPLAYCLASS57_0__SETACE_B__0_OFFSET UNITYSDK_OFFSET(0x1E126F80)
+#define SYSTEM_SECURITY_ACCESSCONTROL_COMMONACL___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E493420)
+#define SYSTEM_SECURITY_ACCESSCONTROL_COMMONACL___C__DISPLAYCLASS57_0__SETACE_B__0_OFFSET UNITYSDK_OFFSET(0x1E493430)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int CommonAcl___c__DisplayClass57_0_TypeDefinitionIndex = 977;
+	inline static constexpr unsigned int CommonAcl___c__DisplayClass57_0_TypeDefinitionIndex = 976;
 
 	class CommonAcl___c__DisplayClass57_0 : public ::System::Object
 	{

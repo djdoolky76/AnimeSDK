@@ -4,12 +4,13 @@
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdLodManager_PathGraphLodOverrideData_TypeDefinitionIndex = 57937;
+	inline static constexpr unsigned int NPCCrowdLodManager_PathGraphLodOverrideData_TypeDefinitionIndex = 66191;
 
 	struct alignas(4) NPCCrowdLodManager_PathGraphLodOverrideData
 	{
 		::System::Int32 paramKey; // 0x10
 		::System::Boolean overrideLodItemBias; // 0x14
+		::System::Byte _padding0[0x3];
 		::System::Single lodItemBias; // 0x18
 	};
 }

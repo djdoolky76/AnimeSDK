@@ -8,18 +8,19 @@
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine::UI::Extension { class InteractionRangeProcessorManager; }
 
-#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSORMANAGER__WAITUNTILALLCLAMPFINISH_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xA20650)
-#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSORMANAGER__WAITUNTILALLCLAMPFINISH_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSORMANAGER__WAITUNTILALLCLAMPFINISH_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8E3960)
+#define UNITYENGINE_UI_EXTENSION_INTERACTIONRANGEPROCESSORMANAGER__WAITUNTILALLCLAMPFINISH_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int InteractionRangeProcessorManager__WaitUntilAllClampFinish_d__11_TypeDefinitionIndex = 85962;
+	inline static constexpr unsigned int InteractionRangeProcessorManager__WaitUntilAllClampFinish_d__11_TypeDefinitionIndex = 72964;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	struct alignas(8) InteractionRangeProcessorManager__WaitUntilAllClampFinish_d__11
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
-		::System::Threading::CancellationToken token; // 0x30
+		::System::Threading::CancellationToken token; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
 		::UnityEngine::UI::Extension::InteractionRangeProcessorManager* __4__this; // 0x38
 		::System::Int32 __1__state; // 0x40
 

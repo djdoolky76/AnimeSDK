@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ThreadKinds_TypeDefinitionIndex = 3380;
+	inline static constexpr unsigned int ThreadKinds_TypeDefinitionIndex = 3379;
 
 	enum class ThreadKinds : ::System::Int32
 	{

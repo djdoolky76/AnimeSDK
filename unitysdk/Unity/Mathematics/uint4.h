@@ -6,23 +6,23 @@ namespace System { class IFormatProvider; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITY_MATHEMATICS_UINT4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA63A30)
-#define UNITY_MATHEMATICS_UINT4_EQUALS_OFFSET UNITYSDK_OFFSET(0xA0FDD0)
-#define UNITY_MATHEMATICS_UINT4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA63A40)
-#define UNITY_MATHEMATICS_UINT4_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1EBD5130)
-#define UNITY_MATHEMATICS_UINT4_OP_BITWISEAND_OFFSET UNITYSDK_OFFSET(0x1EBD5170)
-#define UNITY_MATHEMATICS_UINT4_OP_BITWISEOR_OFFSET UNITYSDK_OFFSET(0x1EBD5190)
-#define UNITY_MATHEMATICS_UINT4_OP_EXCLUSIVEOR_OFFSET UNITYSDK_OFFSET(0x1EBD51B0)
-#define UNITY_MATHEMATICS_UINT4_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1EBD50F0)
-#define UNITY_MATHEMATICS_UINT4_OP_ONESCOMPLEMENT_OFFSET UNITYSDK_OFFSET(0x1EBD5150)
-#define UNITY_MATHEMATICS_UINT4_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0xA63DB0)
-#define UNITY_MATHEMATICS_UINT4_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA63A90)
-#define UNITY_MATHEMATICS_UINT4__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA0FCA0)
-#define UNITY_MATHEMATICS_UINT4__CTOR_OFFSET UNITYSDK_OFFSET(0x6245C0)
+#define UNITY_MATHEMATICS_UINT4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x943FE0)
+#define UNITY_MATHEMATICS_UINT4_EQUALS_OFFSET UNITYSDK_OFFSET(0x903D00)
+#define UNITY_MATHEMATICS_UINT4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x943FF0)
+#define UNITY_MATHEMATICS_UINT4_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1EF859C0)
+#define UNITY_MATHEMATICS_UINT4_OP_BITWISEAND_OFFSET UNITYSDK_OFFSET(0x1EF85A00)
+#define UNITY_MATHEMATICS_UINT4_OP_BITWISEOR_OFFSET UNITYSDK_OFFSET(0x1EF85A20)
+#define UNITY_MATHEMATICS_UINT4_OP_EXCLUSIVEOR_OFFSET UNITYSDK_OFFSET(0x1EF85A40)
+#define UNITY_MATHEMATICS_UINT4_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1EF85980)
+#define UNITY_MATHEMATICS_UINT4_OP_ONESCOMPLEMENT_OFFSET UNITYSDK_OFFSET(0x1EF859E0)
+#define UNITY_MATHEMATICS_UINT4_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x944360)
+#define UNITY_MATHEMATICS_UINT4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x944040)
+#define UNITY_MATHEMATICS_UINT4__CTOR_1_OFFSET UNITYSDK_OFFSET(0x903BD0)
+#define UNITY_MATHEMATICS_UINT4__CTOR_OFFSET UNITYSDK_OFFSET(0x6C98D0)
 
 namespace Unity::Mathematics
 {
-	inline static constexpr unsigned int uint4_TypeDefinitionIndex = 32739;
+	inline static constexpr unsigned int uint4_TypeDefinitionIndex = 32188;
 
 	struct alignas(4) uint4
 	{
@@ -41,40 +41,54 @@ namespace Unity::Mathematics
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_UINT4__CTOR_1_OFFSET))(this, v);
 		}
 
+		/*
 		static ::Unity::Mathematics::uint4 op_Multiply(::Unity::Mathematics::uint4 lhs, ::Unity::Mathematics::uint4 rhs)
 		{
 			return ((::Unity::Mathematics::uint4(*)(::Unity::Mathematics::uint4, ::Unity::Mathematics::uint4))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_UINT4_OP_MULTIPLY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::Unity::Mathematics::uint4 op_Addition(::Unity::Mathematics::uint4 lhs, ::Unity::Mathematics::uint4 rhs)
 		{
 			return ((::Unity::Mathematics::uint4(*)(::Unity::Mathematics::uint4, ::Unity::Mathematics::uint4))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_UINT4_OP_ADDITION_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::Unity::Mathematics::uint4 op_OnesComplement(::Unity::Mathematics::uint4 val)
 		{
 			return ((::Unity::Mathematics::uint4(*)(::Unity::Mathematics::uint4))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_UINT4_OP_ONESCOMPLEMENT_OFFSET))(val);
 		}
+		*/
 
+		/*
 		static ::Unity::Mathematics::uint4 op_BitwiseAnd(::Unity::Mathematics::uint4 lhs, ::Unity::Mathematics::uint4 rhs)
 		{
 			return ((::Unity::Mathematics::uint4(*)(::Unity::Mathematics::uint4, ::Unity::Mathematics::uint4))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_UINT4_OP_BITWISEAND_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::Unity::Mathematics::uint4 op_BitwiseOr(::Unity::Mathematics::uint4 lhs, ::Unity::Mathematics::uint4 rhs)
 		{
 			return ((::Unity::Mathematics::uint4(*)(::Unity::Mathematics::uint4, ::Unity::Mathematics::uint4))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_UINT4_OP_BITWISEOR_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::Unity::Mathematics::uint4 op_ExclusiveOr(::Unity::Mathematics::uint4 lhs, ::Unity::Mathematics::uint4 rhs)
 		{
 			return ((::Unity::Mathematics::uint4(*)(::Unity::Mathematics::uint4, ::Unity::Mathematics::uint4))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_UINT4_OP_EXCLUSIVEOR_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::Unity::Mathematics::uint4 rhs)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Unity::Mathematics::uint4))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_UINT4_EQUALS_OFFSET))(this, rhs);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* o)
 		{

@@ -10,25 +10,25 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RUNSTATEDATA_GETRUNSTATEKEY_OFFSET UNITYSDK_OFFSET(0x1878A730)
-#define RUNSTATEDATA_GETRUNSTATE_OFFSET UNITYSDK_OFFSET(0x1878A5F0)
-#define RUNSTATEDATA_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x1878A1E0)
-#define RUNSTATEDATA_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x1878A2F0)
-#define RUNSTATEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1878A980)
-#define RUNSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1878A970)
+#define RUNSTATEDATA_GETRUNSTATEKEY_OFFSET UNITYSDK_OFFSET(0x1BF41BA0)
+#define RUNSTATEDATA_GETRUNSTATE_OFFSET UNITYSDK_OFFSET(0x1BF41900)
+#define RUNSTATEDATA_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x1BF414F0)
+#define RUNSTATEDATA_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x1BF41600)
+#define RUNSTATEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF41F00)
+#define RUNSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF41EF0)
 
-inline static constexpr unsigned int RunStateData_TypeDefinitionIndex = 66644;
+inline static constexpr unsigned int RunStateData_TypeDefinitionIndex = 57331;
 
 class RunStateData : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimMoveState, ::System::String*>** StaticGet__keyDict()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimMoveState, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RunStateData_TypeDefinitionIndex)->GetStaticField(0x4DD80);
+		return (::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimMoveState, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RunStateData_TypeDefinitionIndex)->GetStaticField(0x51140);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityRunState*>** StaticGet__runStateDic()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityRunState*>**)Il2CppClass::FromTypeDefinitionIndex(RunStateData_TypeDefinitionIndex)->GetStaticField(0x4DD88);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityRunState*>**)Il2CppClass::FromTypeDefinitionIndex(RunStateData_TypeDefinitionIndex)->GetStaticField(0x51148);
 	}
 
 	::System::Void _ctor()

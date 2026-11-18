@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int WeightedRandom_1_TypeDefinitionIndex = 28987;
+	inline static constexpr unsigned int WeightedRandom_1_TypeDefinitionIndex = 28426;
 
 	template <typename T>
 	class WeightedRandom_1 : public ::System::Object

@@ -3,11 +3,11 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int EPoolCondition_TypeDefinitionIndex = 53282;
+	inline static constexpr unsigned int EPoolCondition_TypeDefinitionIndex = 42475;
 
 	enum class EPoolCondition : ::System::Int32
 	{
-		Time = 1,
 		None = 0,
+		Time = 1,
 	};
 }

@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SQLITE_MAXLENGTHATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E9FB240)
-#define SQLITE_MAXLENGTHATTRIBUTE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E9FB250)
-#define SQLITE_MAXLENGTHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FB260)
+#define SQLITE_MAXLENGTHATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1ECEFED0)
+#define SQLITE_MAXLENGTHATTRIBUTE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1ECEFEE0)
+#define SQLITE_MAXLENGTHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECEFEF0)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int MaxLengthAttribute_TypeDefinitionIndex = 39047;
+	inline static constexpr unsigned int MaxLengthAttribute_TypeDefinitionIndex = 37047;
 
 	class MaxLengthAttribute : public ::System::Attribute
 	{

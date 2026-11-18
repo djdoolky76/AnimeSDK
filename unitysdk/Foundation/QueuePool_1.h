@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ObjectPool_1_PooledObject.h"
 #include "unitysdk/System/Object.h"
 
 namespace Foundation { template <typename T> class ObjectPool_1; }
@@ -8,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int QueuePool_1_TypeDefinitionIndex = 8303;
+	inline static constexpr unsigned int QueuePool_1_TypeDefinitionIndex = 8295;
 
 	template <typename T>
 	class QueuePool_1 : public ::System::Object

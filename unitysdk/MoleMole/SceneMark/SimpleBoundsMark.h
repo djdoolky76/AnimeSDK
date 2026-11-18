@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/SceneMark/SceneMarkData_1.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_SCENEMARK_SIMPLEBOUNDSMARK_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x13ACFA10)
-#define MOLEMOLE_SCENEMARK_SIMPLEBOUNDSMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x13ACFC10)
-#define MOLEMOLE_SCENEMARK_SIMPLEBOUNDSMARK___BASE_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x13ACFC30)
+#define MOLEMOLE_SCENEMARK_SIMPLEBOUNDSMARK_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x146AA8E0)
+#define MOLEMOLE_SCENEMARK_SIMPLEBOUNDSMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x146AAAE0)
+#define MOLEMOLE_SCENEMARK_SIMPLEBOUNDSMARK___BASE_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x146AAB00)
 
 namespace MoleMole::SceneMark
 {
-	inline static constexpr unsigned int SimpleBoundsMark_TypeDefinitionIndex = 74713;
+	inline static constexpr unsigned int SimpleBoundsMark_TypeDefinitionIndex = 74626;
 
-	class SimpleBoundsMark : public ::MoleMole::SceneMark::SceneMarkData_1<::MoleMole::SceneMark::SimpleBoundsMark*>
+	class SimpleBoundsMark
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Bounds>* AABBBounds; // 0x18

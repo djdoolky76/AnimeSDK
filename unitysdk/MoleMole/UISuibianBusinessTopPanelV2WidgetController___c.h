@@ -4,24 +4,24 @@
 
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x175A9A90)
-#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x175A9AD0)
-#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__ONUIINIT_B__3_0_OFFSET UNITYSDK_OFFSET(0x175A9AE0)
+#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x185A4DF0)
+#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x185A4E30)
+#define MOLEMOLE_UISUIBIANBUSINESSTOPPANELV2WIDGETCONTROLLER___C__ONUIINIT_B__3_0_OFFSET UNITYSDK_OFFSET(0x185A4E40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianBusinessTopPanelV2WidgetController___c_TypeDefinitionIndex = 86335;
+	inline static constexpr unsigned int UISuibianBusinessTopPanelV2WidgetController___c_TypeDefinitionIndex = 77150;
 
 	class UISuibianBusinessTopPanelV2WidgetController___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__3_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianBusinessTopPanelV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36FA0);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UISuibianBusinessTopPanelV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x39130);
 		}
-		static ::MoleMole::UISuibianBusinessTopPanelV2WidgetController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UISuibianBusinessTopPanelV2WidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianBusinessTopPanelV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36FA8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UISuibianBusinessTopPanelV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x39138);
 		}
 
 		static ::System::Void _cctor()

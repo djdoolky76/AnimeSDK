@@ -6,17 +6,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_MONOEFFECTSHAPE_EFFECTSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19959EA0)
+#define MOLEMOLE_MONOEFFECTSHAPE_EFFECTSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A917A00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectShape_EffectShapeConfig_TypeDefinitionIndex = 88837;
+	inline static constexpr unsigned int MonoEffectShape_EffectShapeConfig_TypeDefinitionIndex = 42419;
 
 	class MonoEffectShape_EffectShapeConfig : public ::System::Object
 	{
 	public:
 		::UnityEngine::ParticleSystem* Effect; // 0x10
 		::System::Boolean IsAll; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::System::String*>* IgnoreMeshPathes; // 0x20
 		::System::Collections::Generic::List_1<::System::String*>* MeshPathes; // 0x28
 		::System::Int32 TotalParticleCount; // 0x30

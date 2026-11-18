@@ -3,7 +3,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshPathStatus_TypeDefinitionIndex = 27988;
+	inline static constexpr unsigned int NavMeshPathStatus_TypeDefinitionIndex = 27406;
 
 	enum class NavMeshPathStatus : ::System::Int32
 	{

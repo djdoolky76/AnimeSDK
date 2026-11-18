@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowBreak; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class ForLoop; }
 
-#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E721A90)
-#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E721AA0)
-#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1E721AC0)
-#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1E722010)
-#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__3_OFFSET UNITYSDK_OFFSET(0x1E721FF0)
+#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C6DB0)
+#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E9C6DC0)
+#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1E9C6DE0)
+#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1E9C7330)
+#define FLOWCANVAS_NODES_FORLOOP___C__DISPLAYCLASS6_0__REGISTERPORTS_B__3_OFFSET UNITYSDK_OFFSET(0x1E9C7310)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ForLoop___c__DisplayClass6_0_TypeDefinitionIndex = 30513;
+	inline static constexpr unsigned int ForLoop___c__DisplayClass6_0_TypeDefinitionIndex = 29888;
 
 	class ForLoop___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::FlowBreak* __9__3; // 0x10
+		::FlowCanvas::FlowOutput* fCurrent; // 0x10
 		::FlowCanvas::Nodes::ForLoop* __4__this; // 0x18
-		::FlowCanvas::FlowOutput* fFinish; // 0x20
-		::FlowCanvas::FlowOutput* fCurrent; // 0x28
+		::FlowCanvas::FlowBreak* __9__3; // 0x20
+		::FlowCanvas::FlowOutput* fFinish; // 0x28
 
 		::System::Void _ctor()
 		{

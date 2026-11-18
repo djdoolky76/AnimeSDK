@@ -5,18 +5,18 @@
 namespace MoleMole { class UIRABGachaRewardListDialogPopWindowController; }
 namespace MoleMole { class UIRABGachaRowWidgetController; }
 
-#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F5DFA0)
-#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__ONPULLSUCCESSSHOWREWARD_B__1_OFFSET UNITYSDK_OFFSET(0x15F5DFB0)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x168E3C40)
+#define MOLEMOLE_UIRABGACHAROWWIDGETCONTROLLER___C__DISPLAYCLASS19_0__ONPULLSUCCESSSHOWREWARD_B__1_OFFSET UNITYSDK_OFFSET(0x168E3C50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABGachaRowWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 53099;
+	inline static constexpr unsigned int UIRABGachaRowWidgetController___c__DisplayClass19_0_TypeDefinitionIndex = 54803;
 
 	class UIRABGachaRowWidgetController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIRABGachaRowWidgetController* __4__this; // 0x10
-		::MoleMole::UIRABGachaRewardListDialogPopWindowController* rewardCtrl; // 0x18
+		::MoleMole::UIRABGachaRewardListDialogPopWindowController* rewardCtrl; // 0x10
+		::MoleMole::UIRABGachaRowWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

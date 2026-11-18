@@ -8,87 +8,88 @@ namespace MoleMole::Config { class ScreenEffectBool; }
 namespace MoleMole::Config { class ScreenEffectColor; }
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGBLENDWITHFOGCARD_OFFSET UNITYSDK_OFFSET(0x1A4AFEE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGDISTANCE2_OFFSET UNITYSDK_OFFSET(0x1A4AF620)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGDISTANCEFORCHAR_OFFSET UNITYSDK_OFFSET(0x1A4AF840)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGDISTANCE_OFFSET UNITYSDK_OFFSET(0x1A4AF500)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGENDCOLOR_OFFSET UNITYSDK_OFFSET(0x1A4AF580)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGFINALCOLOR_OFFSET UNITYSDK_OFFSET(0x1A4AF6A0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGFIXFXFOGFINALCOLORANOTWORK_OFFSET UNITYSDK_OFFSET(0x1A4AFDE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGFORCHARACTER_OFFSET UNITYSDK_OFFSET(0x1A4AF740)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGINTENSITYFORSCENEANDCHAR_OFFSET UNITYSDK_OFFSET(0x1A4AFCE0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGINTENSITYFORSKY_OFFSET UNITYSDK_OFFSET(0x1A4AF8C0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGINTENSITYSCALEFORCHAR_OFFSET UNITYSDK_OFFSET(0x1A4AFD60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGKEEPCHARFOGSAMEASSCENE_OFFSET UNITYSDK_OFFSET(0x1A4AFE60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGOVERRIDECUSTOMDATA_OFFSET UNITYSDK_OFFSET(0x1A4AF300)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGSTARTCOLOR_OFFSET UNITYSDK_OFFSET(0x1A4AF460)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGSTARTFORCHAR_OFFSET UNITYSDK_OFFSET(0x1A4AF7C0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGSTART_OFFSET UNITYSDK_OFFSET(0x1A4AF3E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOG_OFFSET UNITYSDK_OFFSET(0x1A4AF370)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXVOLUMETRICFOGINTENSITY_OFFSET UNITYSDK_OFFSET(0x1A4AF940)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETPPFOGCOLOR_OFFSET UNITYSDK_OFFSET(0x1A4AFBC0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETPPFOGENABLE_OFFSET UNITYSDK_OFFSET(0x1A4AF9C0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETPPFOGEND2DISTANCE_OFFSET UNITYSDK_OFFSET(0x1A4AFB40)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETPPFOGENDDISTANCE_OFFSET UNITYSDK_OFFSET(0x1A4AFAC0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETPPFOGMAXDENSITY_OFFSET UNITYSDK_OFFSET(0x1A4AFC60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETPPFOGSTARTDISTANCE_OFFSET UNITYSDK_OFFSET(0x1A4AFA40)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4AFF60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGBLENDWITHFOGCARD_OFFSET UNITYSDK_OFFSET(0x16538E50)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGDISTANCE2_OFFSET UNITYSDK_OFFSET(0x16538590)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGDISTANCEFORCHAR_OFFSET UNITYSDK_OFFSET(0x165387B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGDISTANCE_OFFSET UNITYSDK_OFFSET(0x16538470)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGENDCOLOR_OFFSET UNITYSDK_OFFSET(0x165384F0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGFINALCOLOR_OFFSET UNITYSDK_OFFSET(0x16538610)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGFIXFXFOGFINALCOLORANOTWORK_OFFSET UNITYSDK_OFFSET(0x16538D50)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGFORCHARACTER_OFFSET UNITYSDK_OFFSET(0x165386B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGINTENSITYFORSCENEANDCHAR_OFFSET UNITYSDK_OFFSET(0x16538C50)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGINTENSITYFORSKY_OFFSET UNITYSDK_OFFSET(0x16538830)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGINTENSITYSCALEFORCHAR_OFFSET UNITYSDK_OFFSET(0x16538CD0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGKEEPCHARFOGSAMEASSCENE_OFFSET UNITYSDK_OFFSET(0x16538DD0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGOVERRIDECUSTOMDATA_OFFSET UNITYSDK_OFFSET(0x16538270)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGSTARTCOLOR_OFFSET UNITYSDK_OFFSET(0x165383D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGSTARTFORCHAR_OFFSET UNITYSDK_OFFSET(0x16538730)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOGSTART_OFFSET UNITYSDK_OFFSET(0x16538350)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXFOG_OFFSET UNITYSDK_OFFSET(0x165382E0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETFXVOLUMETRICFOGINTENSITY_OFFSET UNITYSDK_OFFSET(0x165388B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETPPFOGCOLOR_OFFSET UNITYSDK_OFFSET(0x16538B30)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETPPFOGENABLE_OFFSET UNITYSDK_OFFSET(0x16538930)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETPPFOGEND2DISTANCE_OFFSET UNITYSDK_OFFSET(0x16538AB0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETPPFOGENDDISTANCE_OFFSET UNITYSDK_OFFSET(0x16538A30)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETPPFOGMAXDENSITY_OFFSET UNITYSDK_OFFSET(0x16538BD0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT_GETPPFOGSTARTDISTANCE_OFFSET UNITYSDK_OFFSET(0x165389B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x16538ED0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityFXFogEffect_TypeDefinitionIndex = 84095;
+	inline static constexpr unsigned int ConfigEntityFXFogEffect_TypeDefinitionIndex = 52963;
 
 	class ConfigEntityFXFogEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectColor* fxFogFinalColor; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* fxVolumetricFogIntensity; // 0x48
-		::MoleMole::Config::ScreenEffectFloat* fxFogDistanceForChar; // 0x50
-		::MoleMole::Config::ScreenEffectFloat* PPFogEndDistance; // 0x58
-		::MoleMole::Config::ScreenEffectColor* PPFogColor; // 0x60
-		::MoleMole::Config::ScreenEffectFloat* PPFogEnd2Distance; // 0x68
-		::MoleMole::Config::ScreenEffectFloat* PPFogMaxDensity; // 0x70
-		::MoleMole::Config::ScreenEffectFloat* fxFogStart; // 0x78
-		::MoleMole::Config::ScreenEffectFloat* fxFogStartForChar; // 0x80
-		::MoleMole::Config::ScreenEffectBool* fxFogFixFxFogFinalColorANotWork; // 0x88
-		::MoleMole::Config::ScreenEffectFloat* PPFogStartDistance; // 0x90
-		::MoleMole::Config::ScreenEffectBool* fxFogKeepCharFogSameAsScene; // 0x98
-		::MoleMole::Config::ScreenEffectFloat* fxFogIntensityForSky; // 0xA0
-		::MoleMole::Config::ScreenEffectFloat* fxFogIntensityScaleForChar; // 0xA8
-		::MoleMole::Config::ScreenEffectFloat* fxFogDistance; // 0xB0
-		::MoleMole::Config::ScreenEffectBool* PPFogEnable; // 0xB8
-		::MoleMole::Config::ScreenEffectFloat* fxFogDistance2; // 0xC0
-		::MoleMole::Config::ScreenEffectColor* fxFogStartColor; // 0xC8
-		::MoleMole::Config::ScreenEffectFloat* fxFogBlendWithFogCard; // 0xD0
-		::MoleMole::Config::ScreenEffectBool* fxFogForCharacter; // 0xD8
-		::MoleMole::Config::ScreenEffectColor* fxFogEndColor; // 0xE0
-		::MoleMole::Config::ScreenEffectFloat* fxFogIntensityForSceneAndChar; // 0xE8
-		::MoleMole::Config::ScreenEffectFieldHandleType PPFogStartDistanceHandleType; // 0xF0
-		::MoleMole::Config::ScreenEffectFieldHandleType fxVolumetricFogIntensityHandleType; // 0xF4
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogIntensityForSkyHandleType; // 0xF8
-		::MoleMole::Config::ScreenEffectFieldHandleType PPFogEndDistanceHandleType; // 0xFC
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogStartForCharHandleType; // 0x100
+		::MoleMole::Config::ScreenEffectFloat* fxFogIntensityForSky; // 0x40
+		::MoleMole::Config::ScreenEffectFloat* fxFogDistanceForChar; // 0x48
+		::MoleMole::Config::ScreenEffectColor* fxFogFinalColor; // 0x50
+		::MoleMole::Config::ScreenEffectBool* fxFogForCharacter; // 0x58
+		::MoleMole::Config::ScreenEffectFloat* fxFogDistance2; // 0x60
+		::MoleMole::Config::ScreenEffectFloat* PPFogMaxDensity; // 0x68
+		::MoleMole::Config::ScreenEffectFloat* fxFogIntensityForSceneAndChar; // 0x70
+		::MoleMole::Config::ScreenEffectFloat* fxFogBlendWithFogCard; // 0x78
+		::MoleMole::Config::ScreenEffectFloat* fxVolumetricFogIntensity; // 0x80
+		::MoleMole::Config::ScreenEffectFloat* PPFogEnd2Distance; // 0x88
+		::MoleMole::Config::ScreenEffectBool* PPFogEnable; // 0x90
+		::MoleMole::Config::ScreenEffectColor* PPFogColor; // 0x98
+		::MoleMole::Config::ScreenEffectFloat* fxFogStart; // 0xA0
+		::MoleMole::Config::ScreenEffectBool* fxFogFixFxFogFinalColorANotWork; // 0xA8
+		::MoleMole::Config::ScreenEffectFloat* fxFogStartForChar; // 0xB0
+		::MoleMole::Config::ScreenEffectColor* fxFogStartColor; // 0xB8
+		::MoleMole::Config::ScreenEffectFloat* fxFogIntensityScaleForChar; // 0xC0
+		::MoleMole::Config::ScreenEffectBool* fxFogKeepCharFogSameAsScene; // 0xC8
+		::MoleMole::Config::ScreenEffectFloat* PPFogStartDistance; // 0xD0
+		::MoleMole::Config::ScreenEffectColor* fxFogEndColor; // 0xD8
+		::MoleMole::Config::ScreenEffectFloat* PPFogEndDistance; // 0xE0
+		::MoleMole::Config::ScreenEffectFloat* fxFogDistance; // 0xE8
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogEndColorHandleType; // 0xF0
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogForCharacterHandleType; // 0xF4
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogIntensityScaleForCharHandleType; // 0xF8
+		::MoleMole::Config::ScreenEffectFieldHandleType PPFogEnableHandleType; // 0xFC
+		::MoleMole::Config::ScreenEffectFieldHandleType PPFogStartDistanceHandleType; // 0x100
 		::MoleMole::Config::ScreenEffectFieldHandleType fxFogFinalColorHandleType; // 0x104
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogHandleType; // 0x108
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogKeepCharFogSameAsSceneHandleType; // 0x10C
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogStartColorHandleType; // 0x110
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogDistance2HandleType; // 0x114
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogForCharacterHandleType; // 0x118
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogIntensityScaleForCharHandleType; // 0x11C
-		::MoleMole::Config::ScreenEffectFieldHandleType PPFogColorHandleType; // 0x120
-		::MoleMole::Config::ScreenEffectFieldHandleType PPFogEnableHandleType; // 0x124
-		::MoleMole::Config::ScreenEffectFieldHandleType PPFogEnd2DistanceHandleType; // 0x128
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogIntensityForSceneAndCharHandleType; // 0x12C
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogOverrideCustomDataHandleType; // 0x130
-		::System::Boolean fxFog; // 0x134
-		::System::Boolean fxFogOverrideCustomData; // 0x135
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogBlendWithFogCardHandleType; // 0x138
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogStartHandleType; // 0x13C
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogEndColorHandleType; // 0x140
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogDistanceHandleType; // 0x144
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogFixFxFogFinalColorANotWorkHandleType; // 0x148
-		::MoleMole::Config::ScreenEffectFieldHandleType fxFogDistanceForCharHandleType; // 0x14C
-		::MoleMole::Config::ScreenEffectFieldHandleType PPFogMaxDensityHandleType; // 0x150
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogKeepCharFogSameAsSceneHandleType; // 0x108
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogFixFxFogFinalColorANotWorkHandleType; // 0x10C
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogIntensityForSkyHandleType; // 0x110
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogStartForCharHandleType; // 0x114
+		::MoleMole::Config::ScreenEffectFieldHandleType PPFogEnd2DistanceHandleType; // 0x118
+		::MoleMole::Config::ScreenEffectFieldHandleType PPFogMaxDensityHandleType; // 0x11C
+		::MoleMole::Config::ScreenEffectFieldHandleType fxVolumetricFogIntensityHandleType; // 0x120
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogHandleType; // 0x124
+		::MoleMole::Config::ScreenEffectFieldHandleType PPFogColorHandleType; // 0x128
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogOverrideCustomDataHandleType; // 0x12C
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogIntensityForSceneAndCharHandleType; // 0x130
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogDistanceForCharHandleType; // 0x134
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogDistance2HandleType; // 0x138
+		::MoleMole::Config::ScreenEffectFieldHandleType PPFogEndDistanceHandleType; // 0x13C
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogStartColorHandleType; // 0x140
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogBlendWithFogCardHandleType; // 0x144
+		::System::Boolean fxFogOverrideCustomData; // 0x148
+		::System::Boolean fxFog; // 0x149
+		::System::Byte _padding0[0x2];
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogDistanceHandleType; // 0x14C
+		::MoleMole::Config::ScreenEffectFieldHandleType fxFogStartHandleType; // 0x150
 
 		::System::Void _ctor()
 		{

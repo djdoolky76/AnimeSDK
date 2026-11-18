@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define PIPELINECAMERA_CAMERAEXTERNALVALUETYPEATTRIBUTE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1DCCAB50)
-#define PIPELINECAMERA_CAMERAEXTERNALVALUETYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCAB60)
+#define PIPELINECAMERA_CAMERAEXTERNALVALUETYPEATTRIBUTE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1DFF73B0)
+#define PIPELINECAMERA_CAMERAEXTERNALVALUETYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFF73C0)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraExternalValueTypeAttribute_TypeDefinitionIndex = 38170;
+	inline static constexpr unsigned int CameraExternalValueTypeAttribute_TypeDefinitionIndex = 36172;
 
 	class CameraExternalValueTypeAttribute : public ::System::Attribute
 	{

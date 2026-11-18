@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/DateTime.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/System/DateTime.h"
 
-class Class_1_1D3132F6656B18E0;
-class Class_1_A73173CCB55A8FCA;
+class OBILIDDPCNA;
+class OBPHHLINLLC;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOTIMERMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x14A147B0)
-#define MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_1_OFFSET UNITYSDK_OFFSET(0x14A15320)
-#define MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_2_OFFSET UNITYSDK_OFFSET(0x14A15510)
-#define MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_OFFSET UNITYSDK_OFFSET(0x14A151A0)
-#define MOLEMOLE_MONOTIMERMANAGER_RESETALLTRIGGERTIMER_OFFSET UNITYSDK_OFFSET(0x14A14CA0)
-#define MOLEMOLE_MONOTIMERMANAGER_RESTARTGAME_OFFSET UNITYSDK_OFFSET(0x14A14A40)
-#define MOLEMOLE_MONOTIMERMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x14A14E20)
-#define MOLEMOLE_MONOTIMERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x14A155C0)
+#define MOLEMOLE_MONOTIMERMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1310BE40)
+#define MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_1_OFFSET UNITYSDK_OFFSET(0x1310C9B0)
+#define MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_2_OFFSET UNITYSDK_OFFSET(0x1310CBA0)
+#define MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_OFFSET UNITYSDK_OFFSET(0x1310C830)
+#define MOLEMOLE_MONOTIMERMANAGER_RESETALLTRIGGERTIMER_OFFSET UNITYSDK_OFFSET(0x1310C330)
+#define MOLEMOLE_MONOTIMERMANAGER_RESTARTGAME_OFFSET UNITYSDK_OFFSET(0x1310C0D0)
+#define MOLEMOLE_MONOTIMERMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1310C4B0)
+#define MOLEMOLE_MONOTIMERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1310CC50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTimerManager_TypeDefinitionIndex = 56738;
+	inline static constexpr unsigned int MonoTimerManager_TypeDefinitionIndex = 72471;
 
 	class MonoTimerManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::MoleMole::MonoTimerManager** StaticGet_Field_5_2()
+		static ::MoleMole::MonoTimerManager** StaticGet_PMKINFHDLFD()
 		{
-			return (::MoleMole::MonoTimerManager**)Il2CppClass::FromTypeDefinitionIndex(MonoTimerManager_TypeDefinitionIndex)->GetStaticField(0x32810);
+			return (::MoleMole::MonoTimerManager**)Il2CppClass::FromTypeDefinitionIndex(MonoTimerManager_TypeDefinitionIndex)->GetStaticField(0x34B10);
 		}
 		::System::Boolean isDirty; // 0x18
-		::System::Collections::Generic::List_1<::Class_1_A73173CCB55A8FCA*>* Field_5_0; // 0x20
-		::System::Collections::Generic::List_1<::Class_1_A73173CCB55A8FCA*>* Field_5_7; // 0x28
-		::System::Collections::Generic::List_1<::Class_1_1D3132F6656B18E0*>* Field_5_6; // 0x30
+		::System::Byte _padding0[0x7];
+		::System::Collections::Generic::List_1<::OBPHHLINLLC*>* JCHLJDEDFCA; // 0x20
+		::System::Collections::Generic::List_1<::OBPHHLINLLC*>* BKGENEGEACP; // 0x28
+		::System::Collections::Generic::List_1<::OBILIDDPCNA*>* LHMNHAKDFEL; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -58,19 +59,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTIMERMANAGER_UPDATE_OFFSET))(this);
 		}
 
-		::Class_1_A73173CCB55A8FCA* RegisterTimer(::System::DateTime a1, ::System::Action* a2, ::System::Boolean a3, ::System::Boolean a4)
+		::OBPHHLINLLC* RegisterTimer(::System::DateTime OBDCKIIBEJM, ::System::Action* PFNNGIKBBJL, ::System::Boolean FLMIJCJJIBA, ::System::Boolean KJFODMIMAFJ)
 		{
-			return ((::Class_1_A73173CCB55A8FCA*(*)(::PVOID, ::System::DateTime, ::System::Action*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_OFFSET))(this, a1, a2, a3, a4);
+			return ((::OBPHHLINLLC*(*)(::PVOID, ::System::DateTime, ::System::Action*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_OFFSET))(this, OBDCKIIBEJM, PFNNGIKBBJL, FLMIJCJJIBA, KJFODMIMAFJ);
 		}
 
-		::Class_1_A73173CCB55A8FCA* RegisterTimer_1(::System::Single a1, ::System::Action* a2, ::System::Boolean a3)
+		::OBPHHLINLLC* RegisterTimer_1(::System::Single HKEFLKGDPGL, ::System::Action* EHIPCAJONMF, ::System::Boolean KJFODMIMAFJ)
 		{
-			return ((::Class_1_A73173CCB55A8FCA*(*)(::PVOID, ::System::Single, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_1_OFFSET))(this, a1, a2, a3);
+			return ((::OBPHHLINLLC*(*)(::PVOID, ::System::Single, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_1_OFFSET))(this, HKEFLKGDPGL, EHIPCAJONMF, KJFODMIMAFJ);
 		}
 
-		::Class_1_1D3132F6656B18E0* RegisterTimer_2(::System::DateTime a1, ::System::Action* a2)
+		::OBILIDDPCNA* RegisterTimer_2(::System::DateTime OBDCKIIBEJM, ::System::Action* FHJPINMHDEP)
 		{
-			return ((::Class_1_1D3132F6656B18E0*(*)(::PVOID, ::System::DateTime, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_2_OFFSET))(this, a1, a2);
+			return ((::OBILIDDPCNA*(*)(::PVOID, ::System::DateTime, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTIMERMANAGER_REGISTERTIMER_2_OFFSET))(this, OBDCKIIBEJM, FHJPINMHDEP);
 		}
 	};
 }

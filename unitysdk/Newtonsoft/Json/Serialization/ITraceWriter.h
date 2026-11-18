@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Diagnostics/TraceLevel.h"
-
-namespace System { class Exception; }
-namespace System { class String; }
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int ITraceWriter_TypeDefinitionIndex = 7119;
+	inline static constexpr unsigned int ITraceWriter_TypeDefinitionIndex = 7126;
 
 	class ITraceWriter
 	{

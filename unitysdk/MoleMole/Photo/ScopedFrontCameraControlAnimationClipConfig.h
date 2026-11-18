@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Photo/PlayAnimationClipSubGraphConfig_1.h"
 
-class Class_1_85E1FCC6DF9961D3;
-
-#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLANIMATIONCLIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19986C60)
+#define MOLEMOLE_PHOTO_SCOPEDFRONTCAMERACONTROLANIMATIONCLIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14BC02B0)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int ScopedFrontCameraControlAnimationClipConfig_TypeDefinitionIndex = 41442;
+	inline static constexpr unsigned int ScopedFrontCameraControlAnimationClipConfig_TypeDefinitionIndex = 81388;
 
-	class ScopedFrontCameraControlAnimationClipConfig : public ::MoleMole::Photo::PlayAnimationClipSubGraphConfig_1<::Class_1_85E1FCC6DF9961D3*>
+	class ScopedFrontCameraControlAnimationClipConfig
 	{
 	public:
 		::System::Single blendIn; // 0x28

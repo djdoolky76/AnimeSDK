@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 
 namespace System { template <typename T> class IProgress_1; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 namespace UnityEngine::Networking { class UnityWebRequestAsyncOperation; }
 
-#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_TOUNITASK_OFFSET UNITYSDK_OFFSET(0x1FAA7B40)
+#define CYSHARP_THREADING_TASKS_UNITYASYNCEXTENSIONS_TOUNITASK_OFFSET UNITYSDK_OFFSET(0x1FE8E120)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityAsyncExtensions_TypeDefinitionIndex = 31927;
+	inline static constexpr unsigned int UnityAsyncExtensions_TypeDefinitionIndex = 31376;
 
 	class UnityAsyncExtensions : public ::System::Object
 	{

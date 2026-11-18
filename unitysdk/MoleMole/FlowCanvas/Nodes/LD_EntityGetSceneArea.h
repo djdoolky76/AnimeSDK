@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTITYGETSCENEAREA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1299ED80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTITYGETSCENEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x1299EF40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTITYGETSCENEAREA__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1299EF80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTITYGETSCENEAREA__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x1299F2E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTITYGETSCENEAREA__REGISTERPORTS_B__5_2_OFFSET UNITYSDK_OFFSET(0x1299F2F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTITYGETSCENEAREA__REGISTERPORTS_B__5_3_OFFSET UNITYSDK_OFFSET(0x1299F300)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTITYGETSCENEAREA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1245DFC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTITYGETSCENEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x1245E180)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTITYGETSCENEAREA__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1245E1C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTITYGETSCENEAREA__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x1245E520)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTITYGETSCENEAREA__REGISTERPORTS_B__5_2_OFFSET UNITYSDK_OFFSET(0x1245E530)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTITYGETSCENEAREA__REGISTERPORTS_B__5_3_OFFSET UNITYSDK_OFFSET(0x1245E540)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_EntityGetSceneArea_TypeDefinitionIndex = 60857;
+	inline static constexpr unsigned int LD_EntityGetSceneArea_TypeDefinitionIndex = 54869;
 
 	class LD_EntityGetSceneArea : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* _entityHandle; // 0xA8
-		::System::String* _lastAreaInfo; // 0xB0
+		::System::String* _lastAreaInfo; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* _entityHandle; // 0xB0
 		::FlowCanvas::FlowOutput* _output; // 0xB8
-		::System::Boolean _lastIsValid; // 0xC0
-		::System::Int32 _lastBattleRegionIndex; // 0xC4
+		::System::Int32 _lastBattleRegionIndex; // 0xC0
+		::System::Boolean _lastIsValid; // 0xC4
 
 		::System::Void _ctor()
 		{

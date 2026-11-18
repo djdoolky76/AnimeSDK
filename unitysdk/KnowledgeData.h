@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_21.h"
+#include "unitysdk/FKKPMDKOJML.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F24A790D52CF0024;
-class Class_2_F69D29AB796376C2;
+class EGOPHPIBPJJ;
+class KNBADLOICGB;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KNOWLEDGEDATA_ADDCHILD_OFFSET UNITYSDK_OFFSET(0x155F7C60)
-#define KNOWLEDGEDATA_GETCURPROGRESS_OFFSET UNITYSDK_OFFSET(0x155F7D30)
-#define KNOWLEDGEDATA_GETMAXPROGRESS_OFFSET UNITYSDK_OFFSET(0x155F7E80)
-#define KNOWLEDGEDATA_GETREWARDSTATE_OFFSET UNITYSDK_OFFSET(0x155F7EE0)
-#define KNOWLEDGEDATA_GETREWARDS_OFFSET UNITYSDK_OFFSET(0x155F7E20)
-#define KNOWLEDGEDATA_GET_QUESTCONFIG_OFFSET UNITYSDK_OFFSET(0x155F7C00)
-#define KNOWLEDGEDATA_GET_QUESTID_OFFSET UNITYSDK_OFFSET(0x155F7BE0)
-#define KNOWLEDGEDATA_GET_SERVERINFO_OFFSET UNITYSDK_OFFSET(0x155F78A0)
-#define KNOWLEDGEDATA_ISRED_OFFSET UNITYSDK_OFFSET(0x155F7F60)
-#define KNOWLEDGEDATA_SET_QUESTID_OFFSET UNITYSDK_OFFSET(0x155F7BF0)
-#define KNOWLEDGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x155F7C10)
+#define KNOWLEDGEDATA_ADDCHILD_OFFSET UNITYSDK_OFFSET(0x17679A00)
+#define KNOWLEDGEDATA_GETCURPROGRESS_OFFSET UNITYSDK_OFFSET(0x17679AD0)
+#define KNOWLEDGEDATA_GETMAXPROGRESS_OFFSET UNITYSDK_OFFSET(0x17679C20)
+#define KNOWLEDGEDATA_GETREWARDSTATE_OFFSET UNITYSDK_OFFSET(0x17679C80)
+#define KNOWLEDGEDATA_GETREWARDS_OFFSET UNITYSDK_OFFSET(0x17679BC0)
+#define KNOWLEDGEDATA_GET_QUESTCONFIG_OFFSET UNITYSDK_OFFSET(0x176799B0)
+#define KNOWLEDGEDATA_GET_QUESTID_OFFSET UNITYSDK_OFFSET(0x17679990)
+#define KNOWLEDGEDATA_GET_SERVERINFO_OFFSET UNITYSDK_OFFSET(0x17679650)
+#define KNOWLEDGEDATA_ISRED_OFFSET UNITYSDK_OFFSET(0x17679D00)
+#define KNOWLEDGEDATA_SET_QUESTID_OFFSET UNITYSDK_OFFSET(0x176799A0)
+#define KNOWLEDGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x176799C0)
 
-inline static constexpr unsigned int KnowledgeData_TypeDefinitionIndex = 49074;
+inline static constexpr unsigned int KnowledgeData_TypeDefinitionIndex = 79832;
 
 class KnowledgeData : public ::System::Object
 {
 public:
-	::Class_2_F69D29AB796376C2* _QuestConfig_k__BackingField; // 0x10
-	::System::Collections::Generic::List_1<::KnowledgeData*>* childQuest; // 0x18
+	::System::Collections::Generic::List_1<::KnowledgeData*>* childQuest; // 0x10
+	::EGOPHPIBPJJ* _QuestConfig_k__BackingField; // 0x18
 	::System::Int32 _QuestID_k__BackingField; // 0x20
 
 	::System::Void _ctor(::System::Int32 configID)
@@ -34,9 +33,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + KNOWLEDGEDATA__CTOR_OFFSET))(this, configID);
 	}
 
-	::Class_1_F24A790D52CF0024* get_ServerInfo()
+	::KNBADLOICGB* get_ServerInfo()
 	{
-		return ((::Class_1_F24A790D52CF0024*(*)(::PVOID))((::PBYTE)hIl2Cpp + KNOWLEDGEDATA_GET_SERVERINFO_OFFSET))(this);
+		return ((::KNBADLOICGB*(*)(::PVOID))((::PBYTE)hIl2Cpp + KNOWLEDGEDATA_GET_SERVERINFO_OFFSET))(this);
 	}
 
 	::System::Int32 get_QuestID()
@@ -49,9 +48,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + KNOWLEDGEDATA_SET_QUESTID_OFFSET))(this, value);
 	}
 
-	::Class_2_F69D29AB796376C2* get_QuestConfig()
+	::EGOPHPIBPJJ* get_QuestConfig()
 	{
-		return ((::Class_2_F69D29AB796376C2*(*)(::PVOID))((::PBYTE)hIl2Cpp + KNOWLEDGEDATA_GET_QUESTCONFIG_OFFSET))(this);
+		return ((::EGOPHPIBPJJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + KNOWLEDGEDATA_GET_QUESTCONFIG_OFFSET))(this);
 	}
 
 	::System::Void AddChild(::KnowledgeData* data)
@@ -64,9 +63,9 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + KNOWLEDGEDATA_GETCURPROGRESS_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>* GetRewards()
+	::System::Collections::Generic::List_1<::System::Object*>* GetRewards()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_1_C4CB11A2FD957208_Struct_2_98E057419FFAAB00>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KNOWLEDGEDATA_GETREWARDS_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KNOWLEDGEDATA_GETREWARDS_OFFSET))(this);
 	}
 
 	::System::Int32 GetMaxProgress()
@@ -74,9 +73,9 @@ public:
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + KNOWLEDGEDATA_GETMAXPROGRESS_OFFSET))(this);
 	}
 
-	::Enum_3_4608E37A1B3D374A_21 GetRewardState()
+	::FKKPMDKOJML GetRewardState()
 	{
-		return ((::Enum_3_4608E37A1B3D374A_21(*)(::PVOID))((::PBYTE)hIl2Cpp + KNOWLEDGEDATA_GETREWARDSTATE_OFFSET))(this);
+		return ((::FKKPMDKOJML(*)(::PVOID))((::PBYTE)hIl2Cpp + KNOWLEDGEDATA_GETREWARDSTATE_OFFSET))(this);
 	}
 
 	::System::Boolean IsRed()

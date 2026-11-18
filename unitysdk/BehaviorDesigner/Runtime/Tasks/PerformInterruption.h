@@ -6,21 +6,21 @@
 namespace BehaviorDesigner::Runtime { class SharedBool; }
 namespace BehaviorDesigner::Runtime::Tasks { class Interrupt; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_PERFORMINTERRUPTION_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EC8BBE0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_PERFORMINTERRUPTION_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC8BAD0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_PERFORMINTERRUPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8BC30)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_PERFORMINTERRUPTION___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EC8BCC0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_PERFORMINTERRUPTION___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC8BD50)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_PERFORMINTERRUPTION_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F08B3C0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_PERFORMINTERRUPTION_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F08B2B0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_PERFORMINTERRUPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F08B410)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_PERFORMINTERRUPTION___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F08B4A0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_PERFORMINTERRUPTION___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F08B530)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int PerformInterruption_TypeDefinitionIndex = 33974;
+	inline static constexpr unsigned int PerformInterruption_TypeDefinitionIndex = 33520;
 
 	class PerformInterruption : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::Il2CppArray<::BehaviorDesigner::Runtime::Tasks::Interrupt*>* interruptTasks; // 0x58
-		::BehaviorDesigner::Runtime::SharedBool* interruptSuccess; // 0x60
+		::BehaviorDesigner::Runtime::SharedBool* interruptSuccess; // 0x58
+		::Il2CppArray<::BehaviorDesigner::Runtime::Tasks::Interrupt*>* interruptTasks; // 0x60
 
 		::System::Void _ctor()
 		{

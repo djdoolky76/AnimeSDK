@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_PBDEndUpdateAll_TypeDefinitionIndex = 5631;
+	inline static constexpr unsigned int PostLateUpdate_PBDEndUpdateAll_TypeDefinitionIndex = 5635;
 
-	struct alignas(1) PostLateUpdate_PBDEndUpdateAll
+	struct alignas(4) PostLateUpdate_PBDEndUpdateAll
 	{
 	};
 }

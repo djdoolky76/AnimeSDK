@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/Unity/Collections/NativeQueueBlockPoolData.h"
 
 namespace System { class EventArgs; }
 
-#define UNITY_COLLECTIONS_NATIVEQUEUEBLOCKPOOL_GET_QUEUEBLOCKPOOL_OFFSET UNITYSDK_OFFSET(0x1FC0D830)
-#define UNITY_COLLECTIONS_NATIVEQUEUEBLOCKPOOL_ONDOMAINUNLOAD_OFFSET UNITYSDK_OFFSET(0x1FC0DA00)
+#define UNITY_COLLECTIONS_NATIVEQUEUEBLOCKPOOL_GET_QUEUEBLOCKPOOL_OFFSET UNITYSDK_OFFSET(0x2000E5D0)
+#define UNITY_COLLECTIONS_NATIVEQUEUEBLOCKPOOL_ONDOMAINUNLOAD_OFFSET UNITYSDK_OFFSET(0x2000E790)
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeQueueBlockPool_TypeDefinitionIndex = 18871;
+	inline static constexpr unsigned int NativeQueueBlockPool_TypeDefinitionIndex = 18024;
 
 	class NativeQueueBlockPool : public ::System::Object
 	{
 	public:
-		static ::Unity::Collections::NativeQueueBlockPoolData** StaticGet_pData()
+		static ::PVOID* StaticGet_pData()
 		{
-			return (::Unity::Collections::NativeQueueBlockPoolData**)Il2CppClass::FromTypeDefinitionIndex(NativeQueueBlockPool_TypeDefinitionIndex)->GetStaticField(0x4150);
+			return (::PVOID*)Il2CppClass::FromTypeDefinitionIndex(NativeQueueBlockPool_TypeDefinitionIndex)->GetStaticField(0x4110);
 		}
 
-		static ::Unity::Collections::NativeQueueBlockPoolData* get_QueueBlockPool()
+		static ::PVOID get_QueueBlockPool()
 		{
-			return ((::Unity::Collections::NativeQueueBlockPoolData*(*)())((::PBYTE)hIl2Cpp + UNITY_COLLECTIONS_NATIVEQUEUEBLOCKPOOL_GET_QUEUEBLOCKPOOL_OFFSET))();
+			return ((::PVOID(*)())((::PBYTE)hIl2Cpp + UNITY_COLLECTIONS_NATIVEQUEUEBLOCKPOOL_GET_QUEUEBLOCKPOOL_OFFSET))();
 		}
 
 		static ::System::Void OnDomainUnload(::System::Object* sender, ::System::EventArgs* e)

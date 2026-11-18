@@ -6,31 +6,32 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define FOUNDATION_NETWORKMONITOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1F62DF50)
-#define FOUNDATION_NETWORKMONITOR_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F62DF20)
-#define FOUNDATION_NETWORKMONITOR_GET_INTERNETREACHABILITY_OFFSET UNITYSDK_OFFSET(0x1F62DE50)
-#define FOUNDATION_NETWORKMONITOR_GET_REACHABILITY_OFFSET UNITYSDK_OFFSET(0x1F62DF30)
-#define FOUNDATION_NETWORKMONITOR_PAUSE_OFFSET UNITYSDK_OFFSET(0x1F62E310)
-#define FOUNDATION_NETWORKMONITOR_SET_REACHABILITY_OFFSET UNITYSDK_OFFSET(0x1F62DF40)
-#define FOUNDATION_NETWORKMONITOR_START_OFFSET UNITYSDK_OFFSET(0x1F62E180)
-#define FOUNDATION_NETWORKMONITOR_UNPAUSE_OFFSET UNITYSDK_OFFSET(0x1F62E2C0)
-#define FOUNDATION_NETWORKMONITOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F62E350)
-#define FOUNDATION_NETWORKMONITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F62E4F0)
+#define FOUNDATION_NETWORKMONITOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1F7D6000)
+#define FOUNDATION_NETWORKMONITOR_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F7D5FD0)
+#define FOUNDATION_NETWORKMONITOR_GET_INTERNETREACHABILITY_OFFSET UNITYSDK_OFFSET(0x1F7D5F00)
+#define FOUNDATION_NETWORKMONITOR_GET_REACHABILITY_OFFSET UNITYSDK_OFFSET(0x1F7D5FE0)
+#define FOUNDATION_NETWORKMONITOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F7D63C0)
+#define FOUNDATION_NETWORKMONITOR_PAUSE_OFFSET UNITYSDK_OFFSET(0x1F7D6430)
+#define FOUNDATION_NETWORKMONITOR_SET_REACHABILITY_OFFSET UNITYSDK_OFFSET(0x1F7D5FF0)
+#define FOUNDATION_NETWORKMONITOR_START_OFFSET UNITYSDK_OFFSET(0x1F7D6230)
+#define FOUNDATION_NETWORKMONITOR_UNPAUSE_OFFSET UNITYSDK_OFFSET(0x1F7D6370)
+#define FOUNDATION_NETWORKMONITOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F7D6470)
+#define FOUNDATION_NETWORKMONITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7D6610)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NetworkMonitor_TypeDefinitionIndex = 8397;
+	inline static constexpr unsigned int NetworkMonitor_TypeDefinitionIndex = 7990;
 
 	class NetworkMonitor : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::Foundation::NetworkMonitor** StaticGet_instance()
 		{
-			return (::Foundation::NetworkMonitor**)Il2CppClass::FromTypeDefinitionIndex(NetworkMonitor_TypeDefinitionIndex)->GetStaticField(0x6EC0);
+			return (::Foundation::NetworkMonitor**)Il2CppClass::FromTypeDefinitionIndex(NetworkMonitor_TypeDefinitionIndex)->GetStaticField(0x6EF0);
 		}
 		static ::System::Nullable_1<::UnityEngine::NetworkReachability>* StaticGet_DebugReachability()
 		{
-			return (::System::Nullable_1<::UnityEngine::NetworkReachability>*)Il2CppClass::FromTypeDefinitionIndex(NetworkMonitor_TypeDefinitionIndex)->GetStaticField(0x37C0);
+			return (::System::Nullable_1<::UnityEngine::NetworkReachability>*)Il2CppClass::FromTypeDefinitionIndex(NetworkMonitor_TypeDefinitionIndex)->GetStaticField(0x3760);
 		}
 		::System::Action_1<::UnityEngine::NetworkReachability>* onReachabilityChanged; // 0x18
 		::UnityEngine::NetworkReachability _reachability_k__BackingField; // 0x20
@@ -71,6 +72,11 @@ namespace Foundation
 		::System::Void Start()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_NETWORKMONITOR_START_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_NETWORKMONITOR_ONDESTROY_OFFSET))(this);
 		}
 
 		::System::Void UnPause()

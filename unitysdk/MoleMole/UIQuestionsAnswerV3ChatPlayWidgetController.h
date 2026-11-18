@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIQuestionsAnswerChatPlayWidgetController.h"
 
-#define MOLEMOLE_UIQUESTIONSANSWERV3CHATPLAYWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A73E10)
+#define MOLEMOLE_UIQUESTIONSANSWERV3CHATPLAYWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1676E190)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerV3ChatPlayWidgetController_TypeDefinitionIndex = 48595;
+	inline static constexpr unsigned int UIQuestionsAnswerV3ChatPlayWidgetController_TypeDefinitionIndex = 71601;
 
 	class UIQuestionsAnswerV3ChatPlayWidgetController : public ::MoleMole::UIQuestionsAnswerChatPlayWidgetController
 	{

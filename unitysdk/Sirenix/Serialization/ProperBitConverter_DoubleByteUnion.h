@@ -4,11 +4,12 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ProperBitConverter_DoubleByteUnion_TypeDefinitionIndex = 7527;
+	inline static constexpr unsigned int ProperBitConverter_DoubleByteUnion_TypeDefinitionIndex = 7535;
 
-	struct alignas(8) ProperBitConverter_DoubleByteUnion
+	struct alignas(4) ProperBitConverter_DoubleByteUnion
 	{
 		::System::Byte Byte0; // 0x10
+		::System::Double Value; // 0x10
 		::System::Byte Byte1; // 0x11
 		::System::Byte Byte2; // 0x12
 		::System::Byte Byte3; // 0x13
@@ -16,6 +17,5 @@ namespace Sirenix::Serialization
 		::System::Byte Byte5; // 0x15
 		::System::Byte Byte6; // 0x16
 		::System::Byte Byte7; // 0x17
-		::System::Double Value; // 0x10
 	};
 }

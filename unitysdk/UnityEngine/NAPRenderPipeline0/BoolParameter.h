@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PrimitiveVolumeParameter_1.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_BOOLPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EE1E900)
-#define UNITYENGINE_NAPRENDERPIPELINE0_BOOLPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EE1E910)
-#define UNITYENGINE_NAPRENDERPIPELINE0_BOOLPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE1E8E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BOOLPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F185060)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BOOLPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F185070)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BOOLPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F185040)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int BoolParameter_TypeDefinitionIndex = 6051;
+	inline static constexpr unsigned int BoolParameter_TypeDefinitionIndex = 6059;
 
-	class BoolParameter : public ::UnityEngine::NAPRenderPipeline0::PrimitiveVolumeParameter_1<::System::Boolean>
+	class BoolParameter
 	{
 	public:
 		::System::Void _ctor(::System::Boolean value, ::System::Boolean overrideState)

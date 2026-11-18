@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigZipLine_CFloatIntDic; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGSPEEDLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x143841F0)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGSPEEDLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8AC550)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigSpeedLevel_TypeDefinitionIndex = 53000;
+	inline static constexpr unsigned int ConfigZipLine_ConfigSpeedLevel_TypeDefinitionIndex = 54278;
 
 	class ConfigZipLine_ConfigSpeedLevel : public ::System::Object
 	{

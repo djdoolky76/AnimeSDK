@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class AFMMAIKKACF;
+class EHGPNGPADCB;
+
+#define CEALOIDIEBB_CDMPLLBBBKI_OFFSET UNITYSDK_OFFSET(0x14549B90)
+#define CEALOIDIEBB_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0x14549570)
+#define CEALOIDIEBB_LGDMAAJFKNE_OFFSET UNITYSDK_OFFSET(0x145495D0)
+#define CEALOIDIEBB_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0x14549CC0)
+#define CEALOIDIEBB__CTOR_OFFSET UNITYSDK_OFFSET(0x145494E0)
+
+inline static constexpr unsigned int CEALOIDIEBB_TypeDefinitionIndex = 77338;
+
+class CEALOIDIEBB
+{
+public:
+	::AFMMAIKKACF* DAAAEJDBNFI; // 0x30
+
+	::System::Void _ctor(::EHGPNGPADCB* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::EHGPNGPADCB*))((::PBYTE)hIl2Cpp + CEALOIDIEBB__CTOR_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Void GLEJMKLOMBP(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + CEALOIDIEBB_GLEJMKLOMBP_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void CDMPLLBBBKI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CEALOIDIEBB_CDMPLLBBBKI_OFFSET))(this);
+	}
+
+	::System::Void LIDIODHDJAF(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + CEALOIDIEBB_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void LGDMAAJFKNE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CEALOIDIEBB_LGDMAAJFKNE_OFFSET))(this);
+	}
+};

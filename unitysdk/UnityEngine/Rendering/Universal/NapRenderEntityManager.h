@@ -4,26 +4,21 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeHashMap_2.h"
 #include "unitysdk/Unity/Collections/NativeList_1.h"
-#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/LightFilter.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/NapCBProperty.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/NapRenderEntityPrepareInputCustom.h"
+#include "unitysdk/UnityEngine/Plane.h"
+#include "unitysdk/UnityEngine/Vector4.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/NapLightData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
-#include "unitysdk/UnityEngine/Plane.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/NapRenderEntityManager___c__DisplayClass109_0.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/LightFilter.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/NapCBProperty.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/NapRenderEntityManager_CachedCameraData.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/NapRenderEntityManager___c__DisplayClass118_0.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/NapRenderEntityManager___c__DisplayClass118_1.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/NapRenderEntityManager___c__DisplayClass118_2.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/NapRenderEntityPrepareInputCustom.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-#include "unitysdk/UnityEngine/Vector4.h"
 
-class MonoRenderEntity;
 class NapRenderEntity;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class ComputeBuffer; }
@@ -34,307 +29,301 @@ namespace UnityEngine { class Object; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
-namespace UnityEngine::Rendering::Universal { class MonoPerObjectShadow; }
 namespace UnityEngine::Rendering::Universal { class UniversalAdditionalLightData; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_ADD_OFFSET UNITYSDK_OFFSET(0x1BC676E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_COLLECTVISIBLENATIVEENTITIES_OFFSET UNITYSDK_OFFSET(0x1BC68900)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x1BC68590)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1BC68530)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BC66EF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_ENSUREMAPCAPACITY_OFFSET UNITYSDK_OFFSET(0x1BC70B00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_ENSUREVISIBLENATIVEENTITYHANDLECAPACITY_OFFSET UNITYSDK_OFFSET(0x1BC68860)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_FINDENTITY_OFFSET UNITYSDK_OFFSET(0x1BC68400)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_GETBONEINFOMAP_OFFSET UNITYSDK_OFFSET(0x1BC709D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_GETCHARACTERGPUDATAPREPARED_OFFSET UNITYSDK_OFFSET(0x1BC66E20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_GETDUMMYGPUDATASIZE_OFFSET UNITYSDK_OFFSET(0x1BC67670)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_GETENTITY_OFFSET UNITYSDK_OFFSET(0x1BC68620)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_GET_CHARACTERGPUDATAPREPARED_OFFSET UNITYSDK_OFFSET(0x1BC66D60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BC66D00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_MARKPRIORITYDIRTY_OFFSET UNITYSDK_OFFSET(0x1BC686F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_NEEDSHEIGHTFADETRACKING_1_OFFSET UNITYSDK_OFFSET(0x1BC6B3E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_NEEDSHEIGHTFADETRACKING_OFFSET UNITYSDK_OFFSET(0x1BC6B260)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_PREPAREAFTERCULLING_OFFSET UNITYSDK_OFFSET(0x1BC6B8E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_PREPAREAFTERLIGHTLOOP_OFFSET UNITYSDK_OFFSET(0x1BC6CD50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_REBUILDNATIVEENTITYMAP_OFFSET UNITYSDK_OFFSET(0x1BC68740)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_REGISTERNATIVEENTITY_OFFSET UNITYSDK_OFFSET(0x1BC67C00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_REMOVE_1_OFFSET UNITYSDK_OFFSET(0x1BC68330)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_REMOVE_OFFSET UNITYSDK_OFFSET(0x1BC67E00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_SETASSETS_OFFSET UNITYSDK_OFFSET(0x1BC67000)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_SETUPDUMMYDATA_OFFSET UNITYSDK_OFFSET(0x1BC67050)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_SET_CHARACTERGPUDATAPREPARED_OFFSET UNITYSDK_OFFSET(0x1BC66DC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_SYNCNAPCB_OFFSET UNITYSDK_OFFSET(0x1BC6FA20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_TRACKHEIGHTFADEENTITY_OFFSET UNITYSDK_OFFSET(0x1BC6B060)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_TRACKMONOPEROBJECTSHADOWHEIGHTFADE_OFFSET UNITYSDK_OFFSET(0x1BC6B560)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UNREGISTERNATIVEENTITY_OFFSET UNITYSDK_OFFSET(0x1BC682C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UNTRACKMONOPEROBJECTSHADOWHEIGHTFADE_OFFSET UNITYSDK_OFFSET(0x1BC6B760)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UPDATEBONETRANSFORMSFORNATIVE_OFFSET UNITYSDK_OFFSET(0x1BC6A410)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UPDATELIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1BC6CE20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UPDATEPERFRAME_OFFSET UNITYSDK_OFFSET(0x1BC68C00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UPDATEPEROBJECTSHADOWFADEWITHHEIGHTFORNATIVE_OFFSET UNITYSDK_OFFSET(0x1BC6A880)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC712D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC70D90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__PREPAREAFTERCULLING_G__GETLIGHTDIRECTION_113_0_OFFSET UNITYSDK_OFFSET(0x1BC6CAA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__ANGLEATTENUATION_118_10_OFFSET UNITYSDK_OFFSET(0x1BC71C20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__CALCULATELIGHTWEIGHT_118_3_OFFSET UNITYSDK_OFFSET(0x1BC71880)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__CHECKDISTANCEOFAXIS_118_7_OFFSET UNITYSDK_OFFSET(0x1BC6FDF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__DISTANCEATTENUATIONB_118_9_OFFSET UNITYSDK_OFFSET(0x1BC71B70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__GETKERNEL_118_4_OFFSET UNITYSDK_OFFSET(0x1BC70740)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__GETPUNCTUALLIGHTDATAFROMCOMPONENT_118_2_OFFSET UNITYSDK_OFFSET(0x1BC6FE20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__GETPUNCTUALLIGHTDATAFROMNAPLIGHTDATA_118_1_OFFSET UNITYSDK_OFFSET(0x1BC70660)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__ISBLACKCURTAIN_118_6_OFFSET UNITYSDK_OFFSET(0x1BC71870)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__SETPUNCTUALLIGHT_118_0_OFFSET UNITYSDK_OFFSET(0x1BC70120)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__SORTLIGHTSIFNEEDED_118_5_OFFSET UNITYSDK_OFFSET(0x1BC70210)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_ADD_OFFSET UNITYSDK_OFFSET(0x16E7D260)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_COLLECTVISIBLENATIVEENTITIES_OFFSET UNITYSDK_OFFSET(0x16E7E4A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x16E7E140)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_CONTAINS_OFFSET UNITYSDK_OFFSET(0x16E7E0E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16E7C5E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_ENSUREMAPCAPACITY_OFFSET UNITYSDK_OFFSET(0x16E85E50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_ENSUREVISIBLENATIVEENTITYHANDLECAPACITY_OFFSET UNITYSDK_OFFSET(0x16E7E410)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_FINDENTITY_OFFSET UNITYSDK_OFFSET(0x16E7DFC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_GETBONEINFOMAP_OFFSET UNITYSDK_OFFSET(0x16E85D20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_GETCHARACTERGPUDATAPREPARED_OFFSET UNITYSDK_OFFSET(0x16E7C510)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_GETDUMMYGPUDATASIZE_OFFSET UNITYSDK_OFFSET(0x16E7D1F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_GETENTITY_OFFSET UNITYSDK_OFFSET(0x16E7E1D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_GET_CHARACTERGPUDATAPREPARED_OFFSET UNITYSDK_OFFSET(0x16E7C450)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x16E7C3F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_MARKPRIORITYDIRTY_OFFSET UNITYSDK_OFFSET(0x16E7E2A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_PREPAREAFTERCULLING_OFFSET UNITYSDK_OFFSET(0x16E80440)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_PREPAREAFTERLIGHTLOOP_OFFSET UNITYSDK_OFFSET(0x16E81AA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_REBUILDNATIVEENTITYMAP_OFFSET UNITYSDK_OFFSET(0x16E7E2F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_REGISTERNATIVEENTITY_OFFSET UNITYSDK_OFFSET(0x16E7D780)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_REMOVE_1_OFFSET UNITYSDK_OFFSET(0x16E7DEF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_REMOVE_OFFSET UNITYSDK_OFFSET(0x16E7D990)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_SETASSETS_OFFSET UNITYSDK_OFFSET(0x16E7CB80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_SETUPDUMMYDATA_OFFSET UNITYSDK_OFFSET(0x16E7CBD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_SET_CHARACTERGPUDATAPREPARED_OFFSET UNITYSDK_OFFSET(0x16E7C4B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_SHUTDOWNNATIVEBACKEND_OFFSET UNITYSDK_OFFSET(0x16E7C6F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_SYNCNAPCB_OFFSET UNITYSDK_OFFSET(0x16E84B50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UNREGISTERNATIVEENTITY_OFFSET UNITYSDK_OFFSET(0x16E7DE80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UPDATEBONETRANSFORMSFORNATIVE_OFFSET UNITYSDK_OFFSET(0x16E7FFD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UPDATEGLOBALCHARACTERLIGHTDATA_OFFSET UNITYSDK_OFFSET(0x16E81D50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UPDATELIGHTDATA_OFFSET UNITYSDK_OFFSET(0x16E81EB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UPDATEPERFRAME_OFFSET UNITYSDK_OFFSET(0x16E7E7B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E86440)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16E860E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__PREPAREAFTERCULLING_G__GETLIGHTDIRECTION_103_0_OFFSET UNITYSDK_OFFSET(0x16E817F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__ANGLEATTENUATION_109_11_OFFSET UNITYSDK_OFFSET(0x16E86D90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__CALCULATELIGHTWEIGHT_109_3_OFFSET UNITYSDK_OFFSET(0x16E869F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__CHECKDISTANCEOFAXIS_109_8_OFFSET UNITYSDK_OFFSET(0x16E84F20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__DISTANCEATTENUATIONB_109_10_OFFSET UNITYSDK_OFFSET(0x16E86CE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__GETKERNEL_109_5_OFFSET UNITYSDK_OFFSET(0x16E85A90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__GETPUNCTUALLIGHTDATAFROMCOMPONENT_109_2_OFFSET UNITYSDK_OFFSET(0x16E85170)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__GETPUNCTUALLIGHTDATAFROMNAPLIGHTDATA_109_1_OFFSET UNITYSDK_OFFSET(0x16E859B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__ISBLACKCURTAIN_109_7_OFFSET UNITYSDK_OFFSET(0x16E869E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__SETPUNCTUALLIGHT_109_0_OFFSET UNITYSDK_OFFSET(0x16E85470)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__SORTLIGHTSIFNEEDED_109_6_OFFSET UNITYSDK_OFFSET(0x16E85560)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__TRYSETDIRECTIONOVERRIDE_109_4_OFFSET UNITYSDK_OFFSET(0x16E84F50)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapRenderEntityManager_TypeDefinitionIndex = 27968;
+	inline static constexpr unsigned int NapRenderEntityManager_TypeDefinitionIndex = 26509;
 
 	class NapRenderEntityManager : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CacheIsRendererAlive()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21800);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectInputs()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21808);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_prepareAfterLightLoop()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21810);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectLightDataAndComputeInputs()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21818);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_BatchUpdateVisibility_ResizeNativeList()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21820);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_updateLightGradient()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21828);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_GetHeadBoneTransform()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21830);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CacheCameraFields()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21838);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_UpdatePerFrame()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21840);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_UpdateVisibilities()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21848);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_PrepareAfterCulling()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21850);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CopyLightDataToNapCB()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21858);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_syncNapCB()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21860);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_DispatchCompute()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21868);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_LightFilterTileLights()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21870);
-		}
-		static ::System::Collections::Generic::List_1<::NapRenderEntity*>** StaticGet_avatarParticleArray()
-		{
-			return (::System::Collections::Generic::List_1<::NapRenderEntity*>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21878);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectLights()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21880);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CheckValidAndActive()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21888);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_ResizeBoneInfoMap()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21890);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectVisEntities_MapHandles()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21898);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_PrepareSharedVariables()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x218A0);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_GlobalKeywordAndFields()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x218A8);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_LightCulling()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x218B0);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_BatchQueryIsAlive0()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x218B8);
-		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_BatchQueryIsAlive1()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x218C0);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22B40);
 		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_UpdateMainLightsData()
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CacheIsRendererAlive()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x218C8);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_BatchUpdateVisibility_CollectRenderers()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x218D0);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22B48);
 		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_FixShadowCoverageOutOfFrustum()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x218D8);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22B50);
 		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SortEntitiesByPriority()
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_DispatchCompute()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x218E0);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22B58);
 		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_AddIndicatedLightsForPreview()
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CheckValidAndActive()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x218E8);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetNapCBProperties()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x218F0);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_PrepareCharacterGiSampleData()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x218F8);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectVisEntities()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21900);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CalculateCullingSphereCenter()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21908);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CharacterRendering()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21910);
-		}
-		static ::UnityEngine::Rendering::Universal::NapRenderEntityManager** StaticGet__instance_k__BackingField()
-		{
-			return (::UnityEngine::Rendering::Universal::NapRenderEntityManager**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21918);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CullingResults_GetRenderVisibleInCurrentCam()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21920);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_BatchUpdateVisibility()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21928);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_UpdateStencil()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21930);
-		}
-		static ::UnityEngine::Rendering::Universal::LightFilter* StaticGet_lightFilter()
-		{
-			return (::UnityEngine::Rendering::Universal::LightFilter*)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x21938);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_ReleaseTemp()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x219A0);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_UpdateRamp()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x219A8);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SortLights()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x219B0);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22B60);
 		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_EditorRebindBuffers()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x219B8);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22B68);
 		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectVisEntities_GetHandles()
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_BatchUpdateVisibility_ResizeNativeList()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x219C0);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22B70);
 		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_LightFilterCull()
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_ReleaseTemp()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x219C8);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22B78);
 		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CacheLights()
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_syncNapCB()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x219D0);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22B80);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_AddIndicatedLightsForPreview()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22B88);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_PrepareCharacterGiSampleData()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22B90);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SortEntitiesByPriority()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22B98);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_UpdateMainLightsData()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22BA0);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CalculateCullingSphereCenter()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22BA8);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_BatchUpdateVisibility()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22BB0);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_BatchUpdateVisibility_CollectRenderers()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22BB8);
 		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectVisEntities_RebuildMap()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x219D8);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22BC0);
+		}
+		static ::System::Collections::Generic::List_1<::NapRenderEntity*>** StaticGet_avatarParticleArray()
+		{
+			return (::System::Collections::Generic::List_1<::NapRenderEntity*>**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22BC8);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_ResizeBoneInfoMap()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22BD0);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_UpdateStencil()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22BD8);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_updateLightGradient()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22BE0);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_UpdatePerFrame()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22BE8);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CacheLights()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22BF0);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_PrepareSharedVariables()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22BF8);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_LightCulling()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C00);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectLightDataAndComputeInputs()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C08);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectInputs()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C10);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectVisEntities()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C18);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_BatchQueryIsAlive0()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C20);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CopyLightDataToNapCB()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C28);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CacheCameraFields()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C30);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_PrepareAfterCulling()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C38);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectVisEntities_MapHandles()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C40);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_prepareAfterLightLoop()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C48);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_LightFilterTileLights()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C50);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SetNapCBProperties()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C58);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectVisEntities_GetHandles()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C60);
+		}
+		static ::UnityEngine::Rendering::Universal::LightFilter* StaticGet_lightFilter()
+		{
+			return (::UnityEngine::Rendering::Universal::LightFilter*)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22C68);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CollectLights()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22CD0);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_UpdateVisibilities()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22CD8);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_GetHeadBoneTransform()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22CE0);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CharacterRendering()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22CE8);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_LightFilterCull()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22CF0);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_UpdateRamp()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22CF8);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CullingResults_GetRenderVisibleInCurrentCam()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22D00);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_SortLights()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22D08);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_GlobalKeywordAndFields()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22D10);
+		}
+		static ::UnityEngine::Rendering::Universal::NapRenderEntityManager** StaticGet__instance_k__BackingField()
+		{
+			return (::UnityEngine::Rendering::Universal::NapRenderEntityManager**)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x22D18);
 		}
 		static ::System::Int32* StaticGet__StencilShadowBlendDebugMode()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x52A0);
 		}
-		static ::System::Boolean* StaticGet_skipRenderLoopLogic()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x52A4);
-		}
-		static ::System::Boolean* StaticGet__CharacterGPUDataPrepared_k__BackingField()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x52A5);
-		}
 		static ::System::Int32* StaticGet__StencilShadowBlendSrc()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x52A8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x52A4);
 		}
 		static ::System::Int32* StaticGet__StencilShadowBlendDst()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x52AC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x52A8);
 		}
-		::UnityEngine::ComputeBuffer* characterLights; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::IntPtr, ::NapRenderEntity*>* nativeHandleToEntity; // 0x18
-		::UnityEngine::ComputeBuffer* blendLightBuffer; // 0x20
-		::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::MonoPerObjectShadow*>* activeMonoShadowHeightFadeEntities; // 0x28
-		::UnityEngine::ComputeBuffer* gpuLightDatasForChar; // 0x30
-		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* visibilityQueryData; // 0x38
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::MonoPerObjectShadow*>* removeMonoShadowHeightFadeEntities; // 0x40
-		::UnityEngine::ComputeShader* computeShader; // 0x48
-		::UnityEngine::ComputeBuffer* entityGpuDataBuffer; // 0x50
-		::System::Collections::Generic::List_1<::UnityEngine::Object*>* aliveQueryData; // 0x58
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::NapRenderEntityPrepareInputCustom>* prepareInput; // 0x60
-		::System::Collections::Generic::List_1<::MonoRenderEntity*>* removeHeightFadeEntities; // 0x68
-		::UnityEngine::ComputeBuffer* debugBlendLightsBuffer; // 0x70
-		::System::Collections::Generic::List_1<::NapRenderEntity*>* visibleNativeEntities; // 0x78
-		::UnityEngine::ComputeBuffer* dummyGpuDataBuffer; // 0x80
-		::UnityEngine::ComputeBuffer* prepareInputBuffer; // 0x88
-		::System::Collections::Generic::HashSet_1<::MonoRenderEntity*>* activeHeightFadeEntities; // 0x90
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::NapRenderEntityManager_CachedCameraData>* cachedCameraDatas; // 0x98
-		::Il2CppArray<::UnityEngine::Plane>* frustumePlanes; // 0xA0
-		::Il2CppArray<::UnityEngine::Vector4>* frustumePlaneVectors; // 0xA8
-		::System::Collections::Generic::List_1<::NapRenderEntity*>* Entities; // 0xB0
-		::Il2CppArray<::System::IntPtr>* visibleNativeEntityHandles; // 0xB8
-		::Unity::Collections::NativeHashMap_2<::System::UInt32, ::ExtractBoneInfo> _boneInfoMap; // 0xC0
-		::Unity::Collections::NativeList_1<::System::Boolean> queryResult1; // 0xD0
-		::Unity::Collections::NativeList_1<::System::Boolean> queryResult0; // 0xE0
-		::System::Int32 heightFadeProcessedFrame; // 0xF0
-		::System::Int32 previousCheckVisibilityFrameIndex; // 0xF4
-		::System::Boolean m_PreviousFrameGradientLightActive; // 0xF8
-		::System::Boolean priorityDirty; // 0xF9
+		static ::System::Boolean* StaticGet__CharacterGPUDataPrepared_k__BackingField()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x52AC);
+		}
+		static ::System::Boolean* StaticGet_skipRenderLoopLogic()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapRenderEntityManager_TypeDefinitionIndex)->GetStaticField(0x52AD);
+		}
+		::System::Collections::Generic::List_1<::NapRenderEntity*>* visibleNativeEntities; // 0x10
+		::UnityEngine::ComputeBuffer* characterLights; // 0x18
+		::System::Collections::Generic::List_1<::NapRenderEntity*>* Entities; // 0x20
+		::Il2CppArray<::System::IntPtr>* visibleNativeEntityHandles; // 0x28
+		::UnityEngine::ComputeBuffer* entityGpuDataBuffer; // 0x30
+		::System::Collections::Generic::List_1<::System::Object*>* cachedCameraDatas; // 0x38
+		::UnityEngine::ComputeBuffer* prepareInputBuffer; // 0x40
+		::Il2CppArray<::UnityEngine::Vector4>* frustumePlaneVectors; // 0x48
+		::UnityEngine::ComputeBuffer* gpuLightDatasForChar; // 0x50
+		::UnityEngine::ComputeBuffer* debugBlendLightsBuffer; // 0x58
+		::UnityEngine::ComputeBuffer* blendLightBuffer; // 0x60
+		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* visibilityQueryData; // 0x68
+		::UnityEngine::ComputeShader* computeShader; // 0x70
+		::Il2CppArray<::UnityEngine::Plane>* frustumePlanes; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::IntPtr, ::NapRenderEntity*>* nativeHandleToEntity; // 0x80
+		::UnityEngine::ComputeBuffer* dummyGpuDataBuffer; // 0x88
+		::System::Collections::Generic::List_1<::UnityEngine::Object*>* aliveQueryData; // 0x90
+		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::NapRenderEntityPrepareInputCustom>* prepareInput; // 0x98
+		::Unity::Collections::NativeHashMap_2<::System::UInt32, ::ExtractBoneInfo> _boneInfoMap; // 0xA0
+		::System::Byte _padding0[0x8];
+		::System::Boolean m_PreviousFrameGradientLightActive; // 0xB0
+		::System::Boolean priorityDirty; // 0xB1
+		::System::Byte _padding1[0x2];
+		::System::Int32 previousCheckVisibilityFrameIndex; // 0xB4
+		::Unity::Collections::NativeList_1<::System::Boolean> queryResult1; // 0xB8
+		::System::Byte _padding2[0x8];
+		::Unity::Collections::NativeList_1<::System::Boolean> queryResult0; // 0xC8
 
 		::System::Void _ctor()
 		{
@@ -369,6 +358,11 @@ namespace UnityEngine::Rendering::Universal
 		::System::Void Dispose()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void ShutdownNativeBackend()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_SHUTDOWNNATIVEBACKEND_OFFSET))(this);
 		}
 
 		::System::Void SetAssets(::UnityEngine::ComputeShader* computeShader)
@@ -461,36 +455,6 @@ namespace UnityEngine::Rendering::Universal
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UPDATEBONETRANSFORMSFORNATIVE_OFFSET))(this, asset);
 		}
 
-		::System::Void UpdatePerObjectShadowFadeWithHeightForNative()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UPDATEPEROBJECTSHADOWFADEWITHHEIGHTFORNATIVE_OFFSET))(this);
-		}
-
-		::System::Void TrackHeightFadeEntity(::MonoRenderEntity* mono)
-		{
-			return ((::System::Void(*)(::PVOID, ::MonoRenderEntity*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_TRACKHEIGHTFADEENTITY_OFFSET))(this, mono);
-		}
-
-		static ::System::Boolean NeedsHeightFadeTracking(::MonoRenderEntity* mono)
-		{
-			return ((::System::Boolean(*)(::MonoRenderEntity*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_NEEDSHEIGHTFADETRACKING_OFFSET))(mono);
-		}
-
-		static ::System::Boolean NeedsHeightFadeTracking_1(::UnityEngine::Rendering::Universal::MonoPerObjectShadow* mono)
-		{
-			return ((::System::Boolean(*)(::UnityEngine::Rendering::Universal::MonoPerObjectShadow*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_NEEDSHEIGHTFADETRACKING_1_OFFSET))(mono);
-		}
-
-		::System::Void TrackMonoPerObjectShadowHeightFade(::UnityEngine::Rendering::Universal::MonoPerObjectShadow* mono)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::MonoPerObjectShadow*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_TRACKMONOPEROBJECTSHADOWHEIGHTFADE_OFFSET))(this, mono);
-		}
-
-		::System::Void UntrackMonoPerObjectShadowHeightFade(::UnityEngine::Rendering::Universal::MonoPerObjectShadow* mono)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::MonoPerObjectShadow*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UNTRACKMONOPEROBJECTSHADOWHEIGHTFADE_OFFSET))(this, mono);
-		}
-
 		::System::Void PrepareAfterCulling(::UnityEngine::NAPRenderPipeline0::PostCullRenderingData& postCullRenderingData, ::UnityEngine::NAPRenderPipeline0::RenderingData& renderingdata, ::System::Boolean isPlanarReflectionCamera)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData&, ::UnityEngine::NAPRenderPipeline0::RenderingData&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_PREPAREAFTERCULLING_OFFSET))(this, postCullRenderingData, renderingdata, isPlanarReflectionCamera);
@@ -504,6 +468,11 @@ namespace UnityEngine::Rendering::Universal
 		::System::Void SyncNapCB()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_SYNCNAPCB_OFFSET))(this);
+		}
+
+		::System::Void UpdateGlobalCharacterLightData(::UnityEngine::Rendering::CommandBuffer* cmd)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_UPDATEGLOBALCHARACTERLIGHTDATA_OFFSET))(this, cmd);
 		}
 
 		::System::Void UpdateLightData(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::NAPRenderPipeline0::RenderingData& renderingData, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData& postCullRenderingData)
@@ -521,59 +490,64 @@ namespace UnityEngine::Rendering::Universal
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER_ENSUREMAPCAPACITY_OFFSET))(this, size);
 		}
 
-		static ::System::Boolean _PrepareAfterCulling_g__GetLightDirection_113_0(::UnityEngine::NAPRenderPipeline0::PostCullRenderingData& data, ::UnityEngine::Vector3& direction)
+		static ::System::Boolean _PrepareAfterCulling_g__GetLightDirection_103_0(::UnityEngine::NAPRenderPipeline0::PostCullRenderingData& data, ::UnityEngine::Vector3& direction)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::NAPRenderPipeline0::PostCullRenderingData&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__PREPAREAFTERCULLING_G__GETLIGHTDIRECTION_113_0_OFFSET))(data, direction);
+			return ((::System::Boolean(*)(::UnityEngine::NAPRenderPipeline0::PostCullRenderingData&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__PREPAREAFTERCULLING_G__GETLIGHTDIRECTION_103_0_OFFSET))(data, direction);
 		}
 
-		static ::System::Boolean _UpdateLightData_g__IsBlackCurtain_118_6(::System::UInt32 renderingLayerMask)
+		static ::System::Boolean _UpdateLightData_g__IsBlackCurtain_109_7(::System::UInt32 renderingLayerMask)
 		{
-			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__ISBLACKCURTAIN_118_6_OFFSET))(renderingLayerMask);
+			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__ISBLACKCURTAIN_109_7_OFFSET))(renderingLayerMask);
 		}
 
-		static ::System::Boolean _UpdateLightData_g__CheckDistanceOfAxis_118_7(::System::Single a, ::System::Single b, ::System::Single extent, ::UnityEngine::Rendering::Universal::NapRenderEntityManager___c__DisplayClass118_1& a4)
+		static ::System::Boolean _UpdateLightData_g__CheckDistanceOfAxis_109_8(::System::Single a, ::System::Single b, ::System::Single extent, ::System::Object*& param_3)
 		{
-			return ((::System::Boolean(*)(::System::Single, ::System::Single, ::System::Single, ::UnityEngine::Rendering::Universal::NapRenderEntityManager___c__DisplayClass118_1&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__CHECKDISTANCEOFAXIS_118_7_OFFSET))(a, b, extent, a4);
+			return ((::System::Boolean(*)(::System::Single, ::System::Single, ::System::Single, ::System::Object*&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__CHECKDISTANCEOFAXIS_109_8_OFFSET))(a, b, extent, param_3);
 		}
 
-		static ::System::Void _UpdateLightData_g__SortLightsIfNeeded_118_5(::System::Collections::Generic::List_1<::System::Int32>* lights, ::System::Int32 maxCount, ::UnityEngine::Rendering::Universal::NapRenderEntityManager___c__DisplayClass118_0& a3)
+		static ::System::Void _UpdateLightData_g__SortLightsIfNeeded_109_6(::System::Collections::Generic::List_1<::System::Int32>* lights, ::System::Int32 maxCount, ::UnityEngine::Rendering::Universal::NapRenderEntityManager___c__DisplayClass109_0& param_2)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32, ::UnityEngine::Rendering::Universal::NapRenderEntityManager___c__DisplayClass118_0&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__SORTLIGHTSIFNEEDED_118_5_OFFSET))(lights, maxCount, a3);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32, ::UnityEngine::Rendering::Universal::NapRenderEntityManager___c__DisplayClass109_0&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__SORTLIGHTSIFNEEDED_109_6_OFFSET))(lights, maxCount, param_2);
 		}
 
-		static ::System::Void _UpdateLightData_g__SetPunctualLight_118_0(::NapRenderEntity* entity, ::UnityEngine::Rendering::Universal::NapCBProperty& offset, ::UnityEngine::Vector4& positionWS_halfInvSmoothness, ::UnityEngine::Vector3& forward, ::UnityEngine::Vector4& distanceAndSpotAttenuation, ::UnityEngine::Color& colorForCharacter)
+		static ::System::Void _UpdateLightData_g__SetPunctualLight_109_0(::NapRenderEntity* entity, ::UnityEngine::Rendering::Universal::NapCBProperty& offset, ::UnityEngine::Vector4& positionWS_halfInvSmoothness, ::UnityEngine::Vector3& forward, ::UnityEngine::Vector4& distanceAndSpotAttenuation, ::UnityEngine::Color& colorForCharacter)
 		{
-			return ((::System::Void(*)(::NapRenderEntity*, ::UnityEngine::Rendering::Universal::NapCBProperty&, ::UnityEngine::Vector4&, ::UnityEngine::Vector3&, ::UnityEngine::Vector4&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__SETPUNCTUALLIGHT_118_0_OFFSET))(entity, offset, positionWS_halfInvSmoothness, forward, distanceAndSpotAttenuation, colorForCharacter);
+			return ((::System::Void(*)(::NapRenderEntity*, ::UnityEngine::Rendering::Universal::NapCBProperty&, ::UnityEngine::Vector4&, ::UnityEngine::Vector3&, ::UnityEngine::Vector4&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__SETPUNCTUALLIGHT_109_0_OFFSET))(entity, offset, positionWS_halfInvSmoothness, forward, distanceAndSpotAttenuation, colorForCharacter);
 		}
 
-		static ::UnityEngine::NAPRenderPipeline0::NapLightData& _UpdateLightData_g__GetPunctualLightDataFromNapLightData_118_1(::System::Int32 lightIndex, ::UnityEngine::Vector4& positionWS_halfInvSmoothness)
+		static ::UnityEngine::NAPRenderPipeline0::NapLightData& _UpdateLightData_g__GetPunctualLightDataFromNapLightData_109_1(::System::Int32 lightIndex, ::UnityEngine::Vector4& positionWS_halfInvSmoothness)
 		{
-			return ((::UnityEngine::NAPRenderPipeline0::NapLightData&(*)(::System::Int32, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__GETPUNCTUALLIGHTDATAFROMNAPLIGHTDATA_118_1_OFFSET))(lightIndex, positionWS_halfInvSmoothness);
+			return ((::UnityEngine::NAPRenderPipeline0::NapLightData&(*)(::System::Int32, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__GETPUNCTUALLIGHTDATAFROMNAPLIGHTDATA_109_1_OFFSET))(lightIndex, positionWS_halfInvSmoothness);
 		}
 
-		static ::UnityEngine::Color _UpdateLightData_g__GetPunctualLightDataFromComponent_118_2(::UnityEngine::Rendering::Universal::UniversalAdditionalLightData* uald, ::UnityEngine::Light* light, ::System::Single punctualLightFade, ::UnityEngine::Vector4& positionWS_halfInvSmoothness, ::UnityEngine::Vector3& forward, ::UnityEngine::Vector4& distanceAndSpotAttenuation, ::UnityEngine::Color& colorForCharacter)
+		static ::UnityEngine::Color _UpdateLightData_g__GetPunctualLightDataFromComponent_109_2(::UnityEngine::Rendering::Universal::UniversalAdditionalLightData* uald, ::UnityEngine::Light* light, ::System::Single punctualLightFade, ::UnityEngine::Vector4& positionWS_halfInvSmoothness, ::UnityEngine::Vector3& forward, ::UnityEngine::Vector4& distanceAndSpotAttenuation, ::UnityEngine::Color& colorForCharacter)
 		{
-			return ((::UnityEngine::Color(*)(::UnityEngine::Rendering::Universal::UniversalAdditionalLightData*, ::UnityEngine::Light*, ::System::Single, ::UnityEngine::Vector4&, ::UnityEngine::Vector3&, ::UnityEngine::Vector4&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__GETPUNCTUALLIGHTDATAFROMCOMPONENT_118_2_OFFSET))(uald, light, punctualLightFade, positionWS_halfInvSmoothness, forward, distanceAndSpotAttenuation, colorForCharacter);
+			return ((::UnityEngine::Color(*)(::UnityEngine::Rendering::Universal::UniversalAdditionalLightData*, ::UnityEngine::Light*, ::System::Single, ::UnityEngine::Vector4&, ::UnityEngine::Vector3&, ::UnityEngine::Vector4&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__GETPUNCTUALLIGHTDATAFROMCOMPONENT_109_2_OFFSET))(uald, light, punctualLightFade, positionWS_halfInvSmoothness, forward, distanceAndSpotAttenuation, colorForCharacter);
 		}
 
-		static ::System::Single _UpdateLightData_g__CalculateLightWeight_118_3(::UnityEngine::NAPRenderPipeline0::NapLightData lightData, ::NapRenderEntity* entity)
+		static ::System::Single _UpdateLightData_g__CalculateLightWeight_109_3(::UnityEngine::NAPRenderPipeline0::NapLightData lightData, ::NapRenderEntity* entity)
 		{
-			return ((::System::Single(*)(::UnityEngine::NAPRenderPipeline0::NapLightData, ::NapRenderEntity*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__CALCULATELIGHTWEIGHT_118_3_OFFSET))(lightData, entity);
+			return ((::System::Single(*)(::UnityEngine::NAPRenderPipeline0::NapLightData, ::NapRenderEntity*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__CALCULATELIGHTWEIGHT_109_3_OFFSET))(lightData, entity);
 		}
 
-		static ::System::Single _UpdateLightData_g__DistanceAttenuationB_118_9(::System::Single distanceSquare, ::UnityEngine::Rendering::Universal::NapRenderEntityManager___c__DisplayClass118_2& a2)
+		static ::System::Single _UpdateLightData_g__DistanceAttenuationB_109_10(::System::Single distanceSquare, ::System::Object*& param_1)
 		{
-			return ((::System::Single(*)(::System::Single, ::UnityEngine::Rendering::Universal::NapRenderEntityManager___c__DisplayClass118_2&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__DISTANCEATTENUATIONB_118_9_OFFSET))(distanceSquare, a2);
+			return ((::System::Single(*)(::System::Single, ::System::Object*&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__DISTANCEATTENUATIONB_109_10_OFFSET))(distanceSquare, param_1);
 		}
 
-		static ::System::Single _UpdateLightData_g__AngleAttenuation_118_10(::UnityEngine::Rendering::Universal::NapRenderEntityManager___c__DisplayClass118_2& a1)
+		static ::System::Single _UpdateLightData_g__AngleAttenuation_109_11(::System::Object*& param_0)
 		{
-			return ((::System::Single(*)(::UnityEngine::Rendering::Universal::NapRenderEntityManager___c__DisplayClass118_2&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__ANGLEATTENUATION_118_10_OFFSET))(a1);
+			return ((::System::Single(*)(::System::Object*&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__ANGLEATTENUATION_109_11_OFFSET))(param_0);
 		}
 
-		static ::System::Int32 _UpdateLightData_g__GetKernel_118_4()
+		static ::System::Boolean _UpdateLightData_g__TrySetDirectionOverride_109_4(::NapRenderEntity* entity, ::UnityEngine::NAPRenderPipeline0::NapLightData& lightData, ::UnityEngine::Rendering::Universal::NapRenderEntityPrepareInputCustom& input)
 		{
-			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__GETKERNEL_118_4_OFFSET))();
+			return ((::System::Boolean(*)(::NapRenderEntity*, ::UnityEngine::NAPRenderPipeline0::NapLightData&, ::UnityEngine::Rendering::Universal::NapRenderEntityPrepareInputCustom&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__TRYSETDIRECTIONOVERRIDE_109_4_OFFSET))(entity, lightData, input);
+		}
+
+		static ::System::Int32 _UpdateLightData_g__GetKernel_109_5()
+		{
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_NAPRENDERENTITYMANAGER__UPDATELIGHTDATA_G__GETKERNEL_109_5_OFFSET))();
 		}
 	};
 }

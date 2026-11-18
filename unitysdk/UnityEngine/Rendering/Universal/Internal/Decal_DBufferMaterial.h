@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int Decal_DBufferMaterial_TypeDefinitionIndex = 27079;
+	inline static constexpr unsigned int Decal_DBufferMaterial_TypeDefinitionIndex = 26420;
 
 	enum class Decal_DBufferMaterial : ::System::Int32
 	{

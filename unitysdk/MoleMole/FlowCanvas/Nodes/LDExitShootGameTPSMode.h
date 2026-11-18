@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITSHOOTGAMETPSMODE_PROCESS_OFFSET UNITYSDK_OFFSET(0x19BDC590)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITSHOOTGAMETPSMODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19BDC4D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITSHOOTGAMETPSMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BDC6B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITSHOOTGAMETPSMODE_PROCESS_OFFSET UNITYSDK_OFFSET(0x1A086F80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITSHOOTGAMETPSMODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A086EC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITSHOOTGAMETPSMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0870A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDExitShootGameTPSMode_TypeDefinitionIndex = 89434;
+	inline static constexpr unsigned int LDExitShootGameTPSMode_TypeDefinitionIndex = 75285;
 
 	class LDExitShootGameTPSMode : public ::FlowCanvas::Nodes::FlowControlNode
 	{

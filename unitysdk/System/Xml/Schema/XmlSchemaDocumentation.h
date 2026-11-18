@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System::Xml { class XmlNode; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMADOCUMENTATION_SET_LANGUAGE_OFFSET UNITYSDK_OFFSET(0x1F06EBF0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMADOCUMENTATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F06ECF0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMADOCUMENTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F06ECE0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMADOCUMENTATION_SET_LANGUAGE_OFFSET UNITYSDK_OFFSET(0x1F406A00)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMADOCUMENTATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F406B00)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMADOCUMENTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F406AF0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaDocumentation_TypeDefinitionIndex = 2138;
+	inline static constexpr unsigned int XmlSchemaDocumentation_TypeDefinitionIndex = 2137;
 
 	class XmlSchemaDocumentation : public ::System::Xml::Schema::XmlSchemaObject
 	{
@@ -21,9 +21,9 @@ namespace System::Xml::Schema
 		{
 			return (::System::Xml::Schema::XmlSchemaSimpleType**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaDocumentation_TypeDefinitionIndex)->GetStaticField(0x1A70);
 		}
-		::System::String* source; // 0x38
+		::System::String* language; // 0x38
 		::Il2CppArray<::System::Xml::XmlNode*>* markup; // 0x40
-		::System::String* language; // 0x48
+		::System::String* source; // 0x48
 
 		::System::Void _ctor()
 		{

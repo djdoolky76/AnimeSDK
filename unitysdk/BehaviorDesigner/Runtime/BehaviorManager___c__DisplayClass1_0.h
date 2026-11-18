@@ -4,21 +4,20 @@
 
 namespace BehaviorDesigner::Runtime { class Behavior; }
 namespace BehaviorDesigner::Runtime { class BehaviorManager; }
-namespace BehaviorDesigner::Runtime { class BehaviorManager_BehaviorTree; }
 namespace System { template <typename T> class Action_1; }
 
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F217260)
-#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER___C__DISPLAYCLASS1_0__TRYLOADBEHAVIOR_B__0_OFFSET UNITYSDK_OFFSET(0x1F217270)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F60AE50)
+#define BEHAVIORDESIGNER_RUNTIME_BEHAVIORMANAGER___C__DISPLAYCLASS1_0__TRYLOADBEHAVIOR_B__0_OFFSET UNITYSDK_OFFSET(0x1F60AE60)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int BehaviorManager___c__DisplayClass1_0_TypeDefinitionIndex = 33867;
+	inline static constexpr unsigned int BehaviorManager___c__DisplayClass1_0_TypeDefinitionIndex = 33413;
 
 	class BehaviorManager___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::BehaviorDesigner::Runtime::BehaviorManager_BehaviorTree*>* outerTreeReadyCallback; // 0x10
-		::BehaviorDesigner::Runtime::BehaviorManager* __4__this; // 0x18
+		::BehaviorDesigner::Runtime::BehaviorManager* __4__this; // 0x10
+		::System::Action_1<::System::Object*>* outerTreeReadyCallback; // 0x18
 		::BehaviorDesigner::Runtime::Behavior* behavior; // 0x20
 
 		::System::Void _ctor()

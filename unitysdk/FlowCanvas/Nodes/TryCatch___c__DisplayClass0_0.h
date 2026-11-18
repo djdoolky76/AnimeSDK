@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define FLOWCANVAS_NODES_TRYCATCH___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6E700)
-#define FLOWCANVAS_NODES_TRYCATCH___C__DISPLAYCLASS0_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EB6E710)
+#define FLOWCANVAS_NODES_TRYCATCH___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF17330)
+#define FLOWCANVAS_NODES_TRYCATCH___C__DISPLAYCLASS0_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EF17340)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TryCatch___c__DisplayClass0_0_TypeDefinitionIndex = 30755;
+	inline static constexpr unsigned int TryCatch___c__DisplayClass0_0_TypeDefinitionIndex = 29510;
 
 	class TryCatch___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::FlowOutput* fTry; // 0x10
-		::FlowCanvas::FlowOutput* fFinally; // 0x18
+		::FlowCanvas::FlowOutput* fFinally; // 0x10
+		::FlowCanvas::FlowOutput* fTry; // 0x18
 		::FlowCanvas::FlowOutput* fCatch; // 0x20
 
 		::System::Void _ctor()

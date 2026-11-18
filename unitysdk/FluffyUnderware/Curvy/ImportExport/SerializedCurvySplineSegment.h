@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FluffyUnderware/Curvy/CurvyOrientationSwirl.h"
 #include "unitysdk/FluffyUnderware/Curvy/ImportExport/CurvySerializationSpace.h"
+#include "unitysdk/FluffyUnderware/Curvy/CurvyOrientationSwirl.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace FluffyUnderware::Curvy { class CurvySplineSegment; }
 
-#define FLUFFYUNDERWARE_CURVY_IMPORTEXPORT_SERIALIZEDCURVYSPLINESEGMENT_WRITEINTOCONTROLPOINT_OFFSET UNITYSDK_OFFSET(0x1E56AE90)
-#define FLUFFYUNDERWARE_CURVY_IMPORTEXPORT_SERIALIZEDCURVYSPLINESEGMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E56AB40)
-#define FLUFFYUNDERWARE_CURVY_IMPORTEXPORT_SERIALIZEDCURVYSPLINESEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E56AAC0)
+#define FLUFFYUNDERWARE_CURVY_IMPORTEXPORT_SERIALIZEDCURVYSPLINESEGMENT_WRITEINTOCONTROLPOINT_OFFSET UNITYSDK_OFFSET(0x1E7DF1C0)
+#define FLUFFYUNDERWARE_CURVY_IMPORTEXPORT_SERIALIZEDCURVYSPLINESEGMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7DEE70)
+#define FLUFFYUNDERWARE_CURVY_IMPORTEXPORT_SERIALIZEDCURVYSPLINESEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DEDF0)
 
 namespace FluffyUnderware::Curvy::ImportExport
 {
-	inline static constexpr unsigned int SerializedCurvySplineSegment_TypeDefinitionIndex = 39719;
+	inline static constexpr unsigned int SerializedCurvySplineSegment_TypeDefinitionIndex = 37713;
 
 	class SerializedCurvySplineSegment : public ::System::Object
 	{
@@ -22,10 +22,12 @@ namespace FluffyUnderware::Curvy::ImportExport
 		::UnityEngine::Vector3 Rotation; // 0x1C
 		::System::Boolean AutoBakeOrientation; // 0x28
 		::System::Boolean OrientationAnchor; // 0x29
+		::System::Byte _padding0[0x2];
 		::FluffyUnderware::Curvy::CurvyOrientationSwirl Swirl; // 0x2C
 		::System::Single SwirlTurns; // 0x30
 		::System::Boolean AutoHandles; // 0x34
 		::System::Boolean SynchronizeTCB; // 0x35
+		::System::Byte _padding1[0x2];
 		::System::Single AutoHandleDistance; // 0x38
 		::UnityEngine::Vector3 HandleOut; // 0x3C
 		::UnityEngine::Vector3 HandleIn; // 0x48

@@ -2,36 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915;
+class KGMDCDKMBEJ_HKEFCDFAGCF;
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIALLROUNDGENERALTUTORIALDIALOGCONTENXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A625460)
-#define MOLEMOLE_UIALLROUNDGENERALTUTORIALDIALOGCONTENXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6245A0)
+#define MOLEMOLE_UIALLROUNDGENERALTUTORIALDIALOGCONTENXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19D2DDA0)
+#define MOLEMOLE_UIALLROUNDGENERALTUTORIALDIALOGCONTENXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19D2DD30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAllroundGeneralTutorialDialogContenxt_TypeDefinitionIndex = 68484;
+	inline static constexpr unsigned int UIAllroundGeneralTutorialDialogContenxt_TypeDefinitionIndex = 78430;
 
 	class UIAllroundGeneralTutorialDialogContenxt : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::String* OverrideTitleText; // 0x28
 		::System::Action* OnGroupButtonClick; // 0x30
-		::System::String* OverrideSubTitleText; // 0x38
-		::System::String* GroupButtonText; // 0x40
-		::System::Action* OnTutorialBtnClickCallback; // 0x48
-		::Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915* popupGroupData; // 0x50
+		::System::String* GroupButtonText; // 0x38
+		::System::Action* OnTutorialBtnClickCallback; // 0x40
+		::System::String* OverrideSubTitleText; // 0x48
+		::KGMDCDKMBEJ_HKEFCDFAGCF* popupGroupData; // 0x50
 		::System::Int32 trainQuestID; // 0x58
-		::System::Boolean CanShowTutorialBtn; // 0x5C
-		::System::Boolean isTrain; // 0x5D
-		::System::Boolean CanShowSkillTipsBtn; // 0x5E
-		::System::Boolean CanShowBottomTips; // 0x5F
-		::System::Boolean CanCloseOnlyReachEnd; // 0x60
+		::System::Boolean CanShowSkillTipsBtn; // 0x5C
+		::System::Boolean CanShowBottomTips; // 0x5D
+		::System::Boolean CanCloseOnlyReachEnd; // 0x5E
+		::System::Boolean isTrain; // 0x5F
+		::System::Boolean CanShowTutorialBtn; // 0x60
+		::System::Byte _padding0[0x3];
+		::System::Int32 avatarId; // 0x64
 
-		::System::Void _ctor(::Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915* popupGroupData)
+		::System::Void _ctor(::KGMDCDKMBEJ_HKEFCDFAGCF* popupGroupData)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIALLROUNDGENERALTUTORIALDIALOGCONTENXT__CTOR_OFFSET))(this, popupGroupData);
+			return ((::System::Void(*)(::PVOID, ::KGMDCDKMBEJ_HKEFCDFAGCF*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIALLROUNDGENERALTUTORIALDIALOGCONTENXT__CTOR_OFFSET))(this, popupGroupData);
 		}
 
 		::System::Void _ctor_1(::System::Int32 trainQuestID)

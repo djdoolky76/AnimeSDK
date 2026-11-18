@@ -4,22 +4,22 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
 
-#define SYSTEM_GLOBALIZATION_DAYLIGHTTIME_GET_DELTA_OFFSET UNITYSDK_OFFSET(0x1CD3A710)
-#define SYSTEM_GLOBALIZATION_DAYLIGHTTIME_GET_END_OFFSET UNITYSDK_OFFSET(0x1CD3A700)
-#define SYSTEM_GLOBALIZATION_DAYLIGHTTIME_GET_START_OFFSET UNITYSDK_OFFSET(0x1CD3A6F0)
-#define SYSTEM_GLOBALIZATION_DAYLIGHTTIME__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CD3A6E0)
-#define SYSTEM_GLOBALIZATION_DAYLIGHTTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD3A6D0)
+#define SYSTEM_GLOBALIZATION_DAYLIGHTTIME_GET_DELTA_OFFSET UNITYSDK_OFFSET(0x1D2B9680)
+#define SYSTEM_GLOBALIZATION_DAYLIGHTTIME_GET_END_OFFSET UNITYSDK_OFFSET(0x1D2B9670)
+#define SYSTEM_GLOBALIZATION_DAYLIGHTTIME_GET_START_OFFSET UNITYSDK_OFFSET(0x1D2B9660)
+#define SYSTEM_GLOBALIZATION_DAYLIGHTTIME__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D2B9650)
+#define SYSTEM_GLOBALIZATION_DAYLIGHTTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B9640)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int DaylightTime_TypeDefinitionIndex = 720;
+	inline static constexpr unsigned int DaylightTime_TypeDefinitionIndex = 719;
 
 	class DaylightTime : public ::System::Object
 	{
 	public:
-		::System::DateTime m_end; // 0x10
-		::System::TimeSpan m_delta; // 0x18
-		::System::DateTime m_start; // 0x20
+		::System::DateTime m_start; // 0x10
+		::System::DateTime m_end; // 0x18
+		::System::TimeSpan m_delta; // 0x20
 
 		::System::Void _ctor()
 		{

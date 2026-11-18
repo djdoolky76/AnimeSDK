@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Ability/ReactionTask.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/NPCCrowd/Ability/ReactionTask.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_REACTIONTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x12D0C430)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_REACTIONTASK_LINK_OFFSET UNITYSDK_OFFSET(0x12D0C3C0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_REACTIONTASK_TICK_OFFSET UNITYSDK_OFFSET(0x12D0C4C0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_REACTIONTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1378CD00)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_REACTIONTASK_LINK_OFFSET UNITYSDK_OFFSET(0x1378CC90)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_REACTIONTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1378CD90)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_ReactionTask_TypeDefinitionIndex = 43964;
+	inline static constexpr unsigned int VirtualFunctionExtensions_ReactionTask_TypeDefinitionIndex = 41888;
 
 	class VirtualFunctionExtensions_ReactionTask : public ::System::Object
 	{

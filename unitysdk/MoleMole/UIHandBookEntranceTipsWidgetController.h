@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIWidgetController.h"
-#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/LIBOIKJGAIH.h"
 
-class Class_2_8806DA59B0F93016;
+class EDFHNBHEDNC;
 namespace MoleMole { class UIControlReference; }
 
-#define MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19F0AA40)
-#define MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19F0AAB0)
-#define MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F0AB70)
-#define MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19F0ABD0)
+#define MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET UNITYSDK_OFFSET(0x1A3FB550)
+#define MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1A3FB390)
+#define MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FB450)
+#define MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1A3FB4B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookEntranceTipsWidgetController_TypeDefinitionIndex = 43713;
+	inline static constexpr unsigned int UIHandBookEntranceTipsWidgetController_TypeDefinitionIndex = 73967;
 
 	class UIHandBookEntranceTipsWidgetController : public ::MoleMole::UIWidgetController
 	{
@@ -23,19 +23,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::Class_2_8806DA59B0F93016* get__viewModel()
+		::System::Void OnCreateViewModel(::LIBOIKJGAIH& binderInfo, ::MoleMole::UIControlReference* controlReference)
 		{
-			return ((::Class_2_8806DA59B0F93016*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
 		}
 
-		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		::System::Void __base_OnCreateViewModel(::LIBOIKJGAIH& P0, ::MoleMole::UIControlReference* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
 		}
 
-		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		::EDFHNBHEDNC* OGMPOGIHBIK()
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+			return ((::EDFHNBHEDNC*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKENTRANCETIPSWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET))(this);
 		}
 	};
 }

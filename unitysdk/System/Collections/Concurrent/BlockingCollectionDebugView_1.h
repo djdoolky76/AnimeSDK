@@ -6,7 +6,7 @@ namespace System::Collections::Concurrent { template <typename T> class Blocking
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int BlockingCollectionDebugView_1_TypeDefinitionIndex = 4005;
+	inline static constexpr unsigned int BlockingCollectionDebugView_1_TypeDefinitionIndex = 4004;
 
 	template <typename T>
 	class BlockingCollectionDebugView_1 : public ::System::Object

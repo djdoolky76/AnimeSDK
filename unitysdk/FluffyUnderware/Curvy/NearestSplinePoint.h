@@ -8,15 +8,15 @@ namespace FluffyUnderware::Curvy { class CurvySpline; }
 namespace FluffyUnderware::DevTools { template <typename T> class UnityEventEx_1; }
 namespace UnityEngine { class Transform; }
 
-#define FLUFFYUNDERWARE_CURVY_NEARESTSPLINEPOINT_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1FA62120)
-#define FLUFFYUNDERWARE_CURVY_NEARESTSPLINEPOINT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1FA620E0)
-#define FLUFFYUNDERWARE_CURVY_NEARESTSPLINEPOINT_PROCESS_OFFSET UNITYSDK_OFFSET(0x1FA61C70)
-#define FLUFFYUNDERWARE_CURVY_NEARESTSPLINEPOINT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FA620D0)
-#define FLUFFYUNDERWARE_CURVY_NEARESTSPLINEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA62130)
+#define FLUFFYUNDERWARE_CURVY_NEARESTSPLINEPOINT_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1FE727E0)
+#define FLUFFYUNDERWARE_CURVY_NEARESTSPLINEPOINT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1FE727A0)
+#define FLUFFYUNDERWARE_CURVY_NEARESTSPLINEPOINT_PROCESS_OFFSET UNITYSDK_OFFSET(0x1FE72330)
+#define FLUFFYUNDERWARE_CURVY_NEARESTSPLINEPOINT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FE72790)
+#define FLUFFYUNDERWARE_CURVY_NEARESTSPLINEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE727F0)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int NearestSplinePoint_TypeDefinitionIndex = 39471;
+	inline static constexpr unsigned int NearestSplinePoint_TypeDefinitionIndex = 37693;
 
 	class NearestSplinePoint : public ::FluffyUnderware::DevTools::DTVersionedMonoBehaviour
 	{
@@ -25,6 +25,7 @@ namespace FluffyUnderware::Curvy
 		::UnityEngine::Transform* SourcePosition; // 0x30
 		::UnityEngine::Transform* TargetPosition; // 0x38
 		::FluffyUnderware::Curvy::CurvyUpdateMethod UpdateIn; // 0x40
+		::System::Byte _padding0[0x4];
 		::FluffyUnderware::DevTools::UnityEventEx_1<::UnityEngine::Vector3>* OnUpdated; // 0x48
 
 		::System::Void _ctor()

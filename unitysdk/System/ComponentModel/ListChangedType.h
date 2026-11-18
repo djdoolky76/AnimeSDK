@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ListChangedType_TypeDefinitionIndex = 2937;
+	inline static constexpr unsigned int ListChangedType_TypeDefinitionIndex = 2936;
 
 	enum class ListChangedType : ::System::Int32
 	{

@@ -3,20 +3,18 @@
 #include "unitysdk/PipelineCamera/DataOrientated/BitSet128.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace System { class Object; }
-
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int ArchetypeComponentBitSet_1_TypeDefinitionIndex = 38392;
+	inline static constexpr unsigned int ArchetypeComponentBitSet_1_TypeDefinitionIndex = 36394;
 
-	template <typename TScope>
-	struct ArchetypeComponentBitSet_1
+	template <typename T>
+	struct alignas(4) ArchetypeComponentBitSet_1
 	{
-		::PipelineCamera::DataOrientated::BitSet128 _bitSet; // 0x0
-		// static const ::System::UInt32 Capacity = 0x80; // 0x0
-		static ::PipelineCamera::DataOrientated::ArchetypeComponentBitSet_1<TScope>* StaticGet_Empty()
+		static ::PipelineCamera::DataOrientated::ArchetypeComponentBitSet_1<T>* StaticGet_Empty()
 		{
-			return (::PipelineCamera::DataOrientated::ArchetypeComponentBitSet_1<TScope>*)Il2CppClass::FromTypeDefinitionIndex(ArchetypeComponentBitSet_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::PipelineCamera::DataOrientated::ArchetypeComponentBitSet_1<T>*)Il2CppClass::FromTypeDefinitionIndex(ArchetypeComponentBitSet_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
+		// static const ::System::UInt32 Capacity = 0x80; // 0x0
+		::PipelineCamera::DataOrientated::BitSet128 _bitSet; // 0x0
 	};
 }

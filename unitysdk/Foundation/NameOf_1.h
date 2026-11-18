@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NameOf_1_TypeDefinitionIndex = 8719;
+	inline static constexpr unsigned int NameOf_1_TypeDefinitionIndex = 9042;
 
 	template <typename T>
 	class NameOf_1 : public ::System::Object

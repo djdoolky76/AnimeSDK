@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_C96DD177C1F2A967.h"
+#include "unitysdk/IHMFPHBDBAD.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E46690)
+#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12FA7000)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovDelegateBoardPageController_Context_TypeDefinitionIndex = 88487;
+	inline static constexpr unsigned int UIZenkovDelegateBoardPageController_Context_TypeDefinitionIndex = 51355;
 
 	class UIZenkovDelegateBoardPageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::UInt32 TargetQuestId; // 0x28
-		::Enum_3_C96DD177C1F2A967 DelegateSubType; // 0x2C
+		::IHMFPHBDBAD DelegateSubType; // 0x28
+		::System::UInt32 TargetQuestId; // 0x2C
 
 		::System::Void _ctor()
 		{

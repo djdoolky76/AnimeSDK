@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FAMHFBEPBED.h"
+#include "unitysdk/System/ValueType.h"
+
+class MGBBDIIJPFJ;
+namespace UnityEngine { class Collider; }
+
+#define MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_CANCASTASSINGLEBODY_OFFSET UNITYSDK_OFFSET(0x64F0F0)
+#define MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_CANRECEIVEKNOCKBACK_OFFSET UNITYSDK_OFFSET(0x64F180)
+#define MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_CANWRITEVELOCITY_OFFSET UNITYSDK_OFFSET(0x64F100)
+#define MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_ISBALLORTARGET_OFFSET UNITYSDK_OFFSET(0x64F020)
+#define MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_ISBALL_OFFSET UNITYSDK_OFFSET(0x64F000)
+#define MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_ISNONBALLMOVER_OFFSET UNITYSDK_OFFSET(0x64F0E0)
+#define MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_ISRUNTIMEBOUND_OFFSET UNITYSDK_OFFSET(0x64F080)
+#define MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_ISTARGET_OFFSET UNITYSDK_OFFSET(0x64F010)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int PinballSubsystem_PinballBodyInfo_TypeDefinitionIndex = 56742;
+
+	struct alignas(8) PinballSubsystem_PinballBodyInfo
+	{
+		::MGBBDIIJPFJ* Component; // 0x10
+		::UnityEngine::Collider* Collider; // 0x18
+		::FAMHFBEPBED Kind; // 0x20
+
+		::System::Boolean get_IsBall()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_ISBALL_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsTarget()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_ISTARGET_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsBallOrTarget()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_ISBALLORTARGET_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsRuntimeBound()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_ISRUNTIMEBOUND_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsNonBallMover()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_ISNONBALLMOVER_OFFSET))(this);
+		}
+
+		::System::Boolean get_CanCastAsSingleBody()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_CANCASTASSINGLEBODY_OFFSET))(this);
+		}
+
+		::System::Boolean get_CanWriteVelocity()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_CANWRITEVELOCITY_OFFSET))(this);
+		}
+
+		::System::Boolean get_CanReceiveKnockback()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PINBALLSUBSYSTEM_PINBALLBODYINFO_GET_CANRECEIVEKNOCKBACK_OFFSET))(this);
+		}
+	};
+}

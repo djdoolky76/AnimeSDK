@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBGM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B82B100)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBGM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B82B330)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBGM_INVOKE_OFFSET UNITYSDK_OFFSET(0x180D14B0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBGM__CTOR_OFFSET UNITYSDK_OFFSET(0x180D16E0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoardChangeBGM_TypeDefinitionIndex = 58460;
+	inline static constexpr unsigned int ChessBoardChangeBGM_TypeDefinitionIndex = 39987;
 
-	class ChessBoardChangeBGM : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::String*>
+	class ChessBoardChangeBGM
 	{
 	public:
 		::System::Void _ctor()

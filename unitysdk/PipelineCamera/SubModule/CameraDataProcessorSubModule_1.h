@@ -1,21 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/FName.h"
-#include "unitysdk/PipelineCamera/CameraSubModuleEvaluateContext_1.h"
-#include "unitysdk/PipelineCamera/SubModule/CameraDataProcessorSubModuleConfig_1.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-namespace PipelineCamera { class ICameraCollectContext; }
-namespace PipelineCamera { class ICameraFlushContext; }
-namespace PipelineCamera { class ICameraPrepareContext; }
-namespace PipelineCamera { class ICameraTouchContext; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int CameraDataProcessorSubModule_1_TypeDefinitionIndex = 38679;
+	inline static constexpr unsigned int CameraDataProcessorSubModule_1_TypeDefinitionIndex = 36679;
 
 	template <typename T>
 	class CameraDataProcessorSubModule_1 : public ::System::Object

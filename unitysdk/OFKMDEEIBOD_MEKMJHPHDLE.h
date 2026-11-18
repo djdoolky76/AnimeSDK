@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class IHNJCJPPBIH;
+class OPABALJKAAF;
+
+#define OFKMDEEIBOD_MEKMJHPHDLE_IEIIOPDENHL_OFFSET UNITYSDK_OFFSET(0x1FCE12C0)
+#define OFKMDEEIBOD_MEKMJHPHDLE_NGGHCMKLIEG_OFFSET UNITYSDK_OFFSET(0x1FCE1460)
+#define OFKMDEEIBOD_MEKMJHPHDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCE12B0)
+
+inline static constexpr unsigned int OFKMDEEIBOD_MEKMJHPHDLE_TypeDefinitionIndex = 18245;
+
+class OFKMDEEIBOD_MEKMJHPHDLE : public ::System::Object
+{
+public:
+	::OPABALJKAAF* DOOHCBBJGFD; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OFKMDEEIBOD_MEKMJHPHDLE__CTOR_OFFSET))(this);
+	}
+
+	::System::Void IEIIOPDENHL(::IHNJCJPPBIH* NAPFALLANDL)
+	{
+		return ((::System::Void(*)(::PVOID, ::IHNJCJPPBIH*))((::PBYTE)hIl2Cpp + OFKMDEEIBOD_MEKMJHPHDLE_IEIIOPDENHL_OFFSET))(this, NAPFALLANDL);
+	}
+
+	::System::Int32 NGGHCMKLIEG(::IHNJCJPPBIH* NAPFALLANDL)
+	{
+		return ((::System::Int32(*)(::PVOID, ::IHNJCJPPBIH*))((::PBYTE)hIl2Cpp + OFKMDEEIBOD_MEKMJHPHDLE_NGGHCMKLIEG_OFFSET))(this, NAPFALLANDL);
+	}
+};

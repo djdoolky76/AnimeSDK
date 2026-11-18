@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OKNJLJLDCIP.h"
+#include "unitysdk/System/ValueType.h"
+
+class GCIMMDDIFBJ;
+
+#define GPCMLPOHDJO_HDAKFNAPBBA_1_OFFSET UNITYSDK_OFFSET(0x776800)
+#define GPCMLPOHDJO_HDAKFNAPBBA_OFFSET UNITYSDK_OFFSET(0x7767A0)
+#define GPCMLPOHDJO_ICFIOPLOOPB_OFFSET UNITYSDK_OFFSET(0x282350)
+#define GPCMLPOHDJO_KNJIKMMJGOK_OFFSET UNITYSDK_OFFSET(0x358B00)
+#define GPCMLPOHDJO_LCJEELHBNHG_OFFSET UNITYSDK_OFFSET(0x776790)
+#define GPCMLPOHDJO_PGHAJOMNDDJ_OFFSET UNITYSDK_OFFSET(0x776780)
+
+inline static constexpr unsigned int GPCMLPOHDJO_TypeDefinitionIndex = 64538;
+
+struct alignas(8) GPCMLPOHDJO
+{
+	::GCIMMDDIFBJ* _IHHILBMPLPC_k__BackingField; // 0x10
+
+	::System::Void PGHAJOMNDDJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GPCMLPOHDJO_PGHAJOMNDDJ_OFFSET))(this);
+	}
+
+	::System::Void LCJEELHBNHG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GPCMLPOHDJO_LCJEELHBNHG_OFFSET))(this);
+	}
+
+	::System::Void HDAKFNAPBBA(::System::Boolean FOBHALIGGIK)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + GPCMLPOHDJO_HDAKFNAPBBA_OFFSET))(this, FOBHALIGGIK);
+	}
+
+	::GCIMMDDIFBJ* ICFIOPLOOPB()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + GPCMLPOHDJO_ICFIOPLOOPB_OFFSET))(this);
+	}
+
+	::System::Void KNJIKMMJGOK(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + GPCMLPOHDJO_KNJIKMMJGOK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void HDAKFNAPBBA_1(::OKNJLJLDCIP KKMENMCMMBN)
+	{
+		return ((::System::Void(*)(::PVOID, ::OKNJLJLDCIP))((::PBYTE)hIl2Cpp + GPCMLPOHDJO_HDAKFNAPBBA_1_OFFSET))(this, KKMENMCMMBN);
+	}
+};

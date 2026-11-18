@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WaterProxy_DebugMode_TypeDefinitionIndex = 27640;
+	inline static constexpr unsigned int WaterProxy_DebugMode_TypeDefinitionIndex = 26136;
 
 	enum class WaterProxy_DebugMode : ::System::Int32
 	{

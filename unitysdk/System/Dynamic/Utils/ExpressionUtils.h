@@ -5,9 +5,6 @@
 
 namespace System { class String; }
 namespace System { class Type; }
-namespace System::Collections::Generic { template <typename T> class ICollection_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class IArgumentProvider; }
@@ -16,15 +13,15 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 namespace System::Reflection { class MethodBase; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_GETPARAMETERSFORVALIDATION_OFFSET UNITYSDK_OFFSET(0x1F7C0260)
-#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_REQUIRESCANREAD_1_OFFSET UNITYSDK_OFFSET(0x1F7C0630)
-#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_REQUIRESCANREAD_OFFSET UNITYSDK_OFFSET(0x1F7C08D0)
-#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_RETURNREADONLY_1_OFFSET UNITYSDK_OFFSET(0x1F7BFC40)
-#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_RETURNREADONLY_OFFSET UNITYSDK_OFFSET(0x1F7BFB30)
-#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_TRYQUOTE_OFFSET UNITYSDK_OFFSET(0x1F7C07E0)
-#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_VALIDATEARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1F7C02E0)
-#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_VALIDATEARGUMENTTYPES_OFFSET UNITYSDK_OFFSET(0x1F7BFD50)
-#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_VALIDATEONEARGUMENT_OFFSET UNITYSDK_OFFSET(0x1F7C03A0)
+#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_GETPARAMETERSFORVALIDATION_OFFSET UNITYSDK_OFFSET(0x1FBD1650)
+#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_REQUIRESCANREAD_1_OFFSET UNITYSDK_OFFSET(0x1FBD1A20)
+#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_REQUIRESCANREAD_OFFSET UNITYSDK_OFFSET(0x1FBD1CC0)
+#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_RETURNREADONLY_2_OFFSET UNITYSDK_OFFSET(0x1FBD1030)
+#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_RETURNREADONLY_OFFSET UNITYSDK_OFFSET(0x1FBD0F20)
+#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_TRYQUOTE_OFFSET UNITYSDK_OFFSET(0x1FBD1BD0)
+#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_VALIDATEARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1FBD16D0)
+#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_VALIDATEARGUMENTTYPES_OFFSET UNITYSDK_OFFSET(0x1FBD1140)
+#define SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_VALIDATEONEARGUMENT_OFFSET UNITYSDK_OFFSET(0x1FBD1790)
 
 namespace System::Dynamic::Utils
 {
@@ -38,9 +35,9 @@ namespace System::Dynamic::Utils
 			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*(*)(::System::Linq::Expressions::IParameterProvider*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_RETURNREADONLY_OFFSET))(provider, collection);
 		}
 
-		static ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* ReturnReadOnly_1(::System::Linq::Expressions::IArgumentProvider* provider, ::System::Object*& collection)
+		static ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* ReturnReadOnly_2(::System::Linq::Expressions::IArgumentProvider* provider, ::System::Object*& collection)
 		{
-			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*(*)(::System::Linq::Expressions::IArgumentProvider*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_RETURNREADONLY_1_OFFSET))(provider, collection);
+			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*(*)(::System::Linq::Expressions::IArgumentProvider*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_EXPRESSIONUTILS_RETURNREADONLY_2_OFFSET))(provider, collection);
 		}
 
 		static ::System::Void ValidateArgumentTypes(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*& arguments, ::System::String* methodParamName)

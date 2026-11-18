@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_208CC9941471731A_415;
+class KJFPHPKFKMI;
 
-#define MOLEMOLE_UIACHIEVEMENTTABCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1926DCC0)
+#define MOLEMOLE_UIACHIEVEMENTTABCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14BE9070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAchievementTabContext_TypeDefinitionIndex = 49574;
+	inline static constexpr unsigned int UIAchievementTabContext_TypeDefinitionIndex = 80336;
 
 	class UIAchievementTabContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_208CC9941471731A_415* Config; // 0x28
+		::KJFPHPKFKMI* Config; // 0x28
 		::System::Boolean Selected; // 0x30
 
 		::System::Void _ctor()

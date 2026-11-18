@@ -3,17 +3,19 @@
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Cysharp/Threading/Tasks/SwitchToMainThreadAwaitable_Awaiter.h"
 
-#define CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0xACA3B0)
-#define CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x41FE00)
+#define CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x9AD1E0)
+#define CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x3F28E0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int SwitchToMainThreadAwaitable_TypeDefinitionIndex = 31893;
+	inline static constexpr unsigned int SwitchToMainThreadAwaitable_TypeDefinitionIndex = 31339;
 
-	struct alignas(8) SwitchToMainThreadAwaitable
+	struct alignas(4) SwitchToMainThreadAwaitable
 	{
 		::Cysharp::Threading::Tasks::PlayerLoopTiming playerLoopTiming; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Threading::CancellationToken cancellationToken; // 0x18
 
 		::System::Void _ctor(::Cysharp::Threading::Tasks::PlayerLoopTiming playerLoopTiming, ::System::Threading::CancellationToken cancellationToken)
@@ -21,11 +23,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::System::Void(*)(::PVOID, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE__CTOR_OFFSET))(this, playerLoopTiming, cancellationToken);
 		}
 
-		/*
 		::Cysharp::Threading::Tasks::SwitchToMainThreadAwaitable_Awaiter GetAwaiter()
 		{
 			return ((::Cysharp::Threading::Tasks::SwitchToMainThreadAwaitable_Awaiter(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE_GETAWAITER_OFFSET))(this);
 		}
-		*/
 	};
 }

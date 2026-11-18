@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/MirrorData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 #include "unitysdk/UnityEngine/Rendering/FilteringSettings.h"
-#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Rendering/SortingCriteria.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
+#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_REFLECTIONPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB62F40)
-#define UNITYENGINE_NAPRENDERPIPELINE0_REFLECTIONPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EB61CE0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_REFLECTIONPASS_RENDERPLANARREFLECTIONCUBECORRECTED_OFFSET UNITYSDK_OFFSET(0x1EB61E30)
-#define UNITYENGINE_NAPRENDERPIPELINE0_REFLECTIONPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1EB61CB0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_REFLECTIONPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB61AD0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_REFLECTIONPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F026C90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_REFLECTIONPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1F025A30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_REFLECTIONPASS_RENDERPLANARREFLECTIONCUBECORRECTED_OFFSET UNITYSDK_OFFSET(0x1F025B80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_REFLECTIONPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1F025A00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_REFLECTIONPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F025820)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ReflectionPass_TypeDefinitionIndex = 5840;
+	inline static constexpr unsigned int ReflectionPass_TypeDefinitionIndex = 5846;
 
 	class ReflectionPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
@@ -34,10 +34,12 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::Vector3 m_ReflectionPlanePos; // 0xA8
 		::UnityEngine::Vector3 m_ReflectionPlaneNormal; // 0xB4
 		::UnityEngine::Rendering::FilteringSettings m_FilterSetting; // 0xC0
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::MirrorData>* m_MirrorArrayDataForCPU; // 0xE0
 		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xE8
 		::System::Int32 m_LodSteps; // 0xF0
 		::UnityEngine::RenderTextureDescriptor m_TargetDescriptorForArray; // 0xF4
+		::System::Byte _padding1[0x4];
 		::UnityEngine::RenderTexture* m_ReflectionTexArray; // 0x130
 		::UnityEngine::Vector2Int preTextureSize; // 0x138
 		::UnityEngine::Experimental::Rendering::GraphicsFormat preTextureFormat; // 0x140

@@ -8,19 +8,19 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CONFIGCHESSENTITYDATA_GETCONFIGENTITY_OFFSET UNITYSDK_OFFSET(0x1948F8E0)
-#define CONFIGCHESSENTITYDATA_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x1948F5E0)
-#define CONFIGCHESSENTITYDATA_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x1948F6D0)
-#define CONFIGCHESSENTITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1948F9F0)
+#define CONFIGCHESSENTITYDATA_GETCONFIGENTITY_OFFSET UNITYSDK_OFFSET(0x16890880)
+#define CONFIGCHESSENTITYDATA_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x16890580)
+#define CONFIGCHESSENTITYDATA_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x16890670)
+#define CONFIGCHESSENTITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16890B10)
 
-inline static constexpr unsigned int ConfigChessEntityData_TypeDefinitionIndex = 60092;
+inline static constexpr unsigned int ConfigChessEntityData_TypeDefinitionIndex = 39020;
 
 class ConfigChessEntityData : public ::System::Object
 {
 public:
 	static ::MoleMole::ConfigChessEntityMap** StaticGet_config()
 	{
-		return (::MoleMole::ConfigChessEntityMap**)Il2CppClass::FromTypeDefinitionIndex(ConfigChessEntityData_TypeDefinitionIndex)->GetStaticField(0x387B0);
+		return (::MoleMole::ConfigChessEntityMap**)Il2CppClass::FromTypeDefinitionIndex(ConfigChessEntityData_TypeDefinitionIndex)->GetStaticField(0x3A7A0);
 	}
 
 	::System::Void _ctor()

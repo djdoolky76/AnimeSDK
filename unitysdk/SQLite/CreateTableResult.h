@@ -3,7 +3,7 @@
 
 namespace SQLite
 {
-	inline static constexpr unsigned int CreateTableResult_TypeDefinitionIndex = 39077;
+	inline static constexpr unsigned int CreateTableResult_TypeDefinitionIndex = 37077;
 
 	enum class CreateTableResult : ::System::Int32
 	{

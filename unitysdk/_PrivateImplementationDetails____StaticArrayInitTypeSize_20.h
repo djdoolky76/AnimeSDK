@@ -2,9 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int _PrivateImplementationDetails____StaticArrayInitTypeSize_20_TypeDefinitionIndex = 93682;
+inline static constexpr unsigned int _PrivateImplementationDetails____StaticArrayInitTypeSize_20_TypeDefinitionIndex = 1575;
 
-struct alignas(1) _PrivateImplementationDetails____StaticArrayInitTypeSize_20
+struct alignas(4) _PrivateImplementationDetails____StaticArrayInitTypeSize_20
 {
-	System::UChar data[20]; // 0x0
 };

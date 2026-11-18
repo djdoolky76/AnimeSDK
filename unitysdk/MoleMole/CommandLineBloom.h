@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/CommandLineSettingBase_2.h"
 #include "unitysdk/System/Nullable_1.h"
 
 namespace MoleMole { class BloomProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEBLOOM_METHOD_2_020C1956FD22F27B_OFFSET UNITYSDK_OFFSET(0x150E5480)
-#define MOLEMOLE_COMMANDLINEBLOOM_METHOD_2_5876DB29D7667FE1_OFFSET UNITYSDK_OFFSET(0x150E5370)
-#define MOLEMOLE_COMMANDLINEBLOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x150E5440)
+#define MOLEMOLE_COMMANDLINEBLOOM_ALEKEEINDAO_OFFSET UNITYSDK_OFFSET(0x192250D0)
+#define MOLEMOLE_COMMANDLINEBLOOM_PMKOMFHNKOE_OFFSET UNITYSDK_OFFSET(0x192251E0)
+#define MOLEMOLE_COMMANDLINEBLOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x192251A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineBloom_TypeDefinitionIndex = 57355;
+	inline static constexpr unsigned int CommandLineBloom_TypeDefinitionIndex = 71845;
 
-	class CommandLineBloom : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::BloomProfileContext*, ::MoleMole::CommandLineBloom*>
+	class CommandLineBloom
 	{
 	public:
 		::System::Nullable_1<::System::Boolean> IsBloomOn; // 0x18
@@ -23,14 +22,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEBLOOM__CTOR_OFFSET))(this);
 		}
 
-		::MoleMole::CommandLineBloom* Method_2_5876DB29D7667FE1(::MoleMole::BloomProfileContext* a1)
+		::MoleMole::CommandLineBloom* ALEKEEINDAO(::MoleMole::BloomProfileContext* LJBPECKCCEA)
 		{
-			return ((::MoleMole::CommandLineBloom*(*)(::PVOID, ::MoleMole::BloomProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEBLOOM_METHOD_2_5876DB29D7667FE1_OFFSET))(this, a1);
+			return ((::MoleMole::CommandLineBloom*(*)(::PVOID, ::MoleMole::BloomProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEBLOOM_ALEKEEINDAO_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::MoleMole::BloomProfileContext* Method_2_020C1956FD22F27B(::MoleMole::BloomProfileContext* a1)
+		::MoleMole::BloomProfileContext* PMKOMFHNKOE(::MoleMole::BloomProfileContext* LJBPECKCCEA)
 		{
-			return ((::MoleMole::BloomProfileContext*(*)(::PVOID, ::MoleMole::BloomProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEBLOOM_METHOD_2_020C1956FD22F27B_OFFSET))(this, a1);
+			return ((::MoleMole::BloomProfileContext*(*)(::PVOID, ::MoleMole::BloomProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEBLOOM_PMKOMFHNKOE_OFFSET))(this, LJBPECKCCEA);
 		}
 	};
 }

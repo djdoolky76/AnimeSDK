@@ -4,10 +4,10 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputSystem_StateEventBuffer__data_e__FixedBuffer_TypeDefinitionIndex = 32219;
+	inline static constexpr unsigned int InputSystem_StateEventBuffer__data_e__FixedBuffer_TypeDefinitionIndex = 31668;
 
-	struct alignas(1) InputSystem_StateEventBuffer__data_e__FixedBuffer
+	struct alignas(4) InputSystem_StateEventBuffer__data_e__FixedBuffer
 	{
-		::System::Byte data[511]; // 0x0
+		::System::Byte FixedElementField; // 0x10
 	};
 }

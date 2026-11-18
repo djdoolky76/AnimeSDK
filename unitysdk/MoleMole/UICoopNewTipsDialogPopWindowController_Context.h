@@ -3,19 +3,20 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
 namespace MoleMole { class UICoopLevelUnlockRowWidgetController_Context; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UICOOPNEWTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT_ADDUNLOCKROWWITHMERGE_OFFSET UNITYSDK_OFFSET(0x19377980)
-#define MOLEMOLE_UICOOPNEWTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19377B80)
+#define MOLEMOLE_UICOOPNEWTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT_ADDUNLOCKROWWITHMERGE_OFFSET UNITYSDK_OFFSET(0x16EBD380)
+#define MOLEMOLE_UICOOPNEWTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16EBD580)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopNewTipsDialogPopWindowController_Context_TypeDefinitionIndex = 51758;
+	inline static constexpr unsigned int UICoopNewTipsDialogPopWindowController_Context_TypeDefinitionIndex = 70230;
 
 	class UICoopNewTipsDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::UICoopLevelUnlockRowWidgetController_Context*>* UnlockRows; // 0x28
+		::System::Collections::Generic::List_1<::System::Object*>* UnlockRows; // 0x28
 
 		::System::Void _ctor()
 		{

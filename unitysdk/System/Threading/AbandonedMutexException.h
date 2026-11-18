@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Threading { class Mutex; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION_SETUPEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1E131290)
-#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E1310D0)
-#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E131170)
-#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1E1312F0)
-#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E131010)
+#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION_SETUPEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1E49D7B0)
+#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E49D5F0)
+#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E49D690)
+#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1E49D810)
+#define SYSTEM_THREADING_ABANDONEDMUTEXEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E49D530)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int AbandonedMutexException_TypeDefinitionIndex = 807;
+	inline static constexpr unsigned int AbandonedMutexException_TypeDefinitionIndex = 806;
 
 	class AbandonedMutexException : public ::System::SystemException
 	{

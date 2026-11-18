@@ -6,11 +6,12 @@ namespace System { class String; }
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdClipTextureManager_AtlasStats_TypeDefinitionIndex = 79429;
+	inline static constexpr unsigned int NPCCrowdClipTextureManager_AtlasStats_TypeDefinitionIndex = 64380;
 
 	struct alignas(8) NPCCrowdClipTextureManager_AtlasStats
 	{
 		::System::Int32 prototypeKey; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* prototypeName; // 0x18
 		::System::Int32 boneCount; // 0x20
 		::System::Int32 atlasWidth; // 0x24

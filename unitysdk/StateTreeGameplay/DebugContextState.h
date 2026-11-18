@@ -4,7 +4,7 @@
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int DebugContextState_TypeDefinitionIndex = 69656;
+	inline static constexpr unsigned int DebugContextState_TypeDefinitionIndex = 47340;
 
 	struct alignas(4) DebugContextState
 	{

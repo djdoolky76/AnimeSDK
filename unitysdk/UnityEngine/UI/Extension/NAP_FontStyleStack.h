@@ -3,15 +3,15 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/UI/Extension/NAP_CharStyleFlags.h"
 
-#define UNITYENGINE_UI_EXTENSION_NAP_FONTSTYLESTACK_ADD_OFFSET UNITYSDK_OFFSET(0x8884A0)
-#define UNITYENGINE_UI_EXTENSION_NAP_FONTSTYLESTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x888450)
-#define UNITYENGINE_UI_EXTENSION_NAP_FONTSTYLESTACK_REMOVE_OFFSET UNITYSDK_OFFSET(0x8884B0)
+#define UNITYENGINE_UI_EXTENSION_NAP_FONTSTYLESTACK_ADD_OFFSET UNITYSDK_OFFSET(0x8015B0)
+#define UNITYENGINE_UI_EXTENSION_NAP_FONTSTYLESTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x801560)
+#define UNITYENGINE_UI_EXTENSION_NAP_FONTSTYLESTACK_REMOVE_OFFSET UNITYSDK_OFFSET(0x8015C0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NAP_FontStyleStack_TypeDefinitionIndex = 42904;
+	inline static constexpr unsigned int NAP_FontStyleStack_TypeDefinitionIndex = 82518;
 
-	struct alignas(1) NAP_FontStyleStack
+	struct alignas(4) NAP_FontStyleStack
 	{
 		::System::Byte bold; // 0x10
 		::System::Byte italic; // 0x11

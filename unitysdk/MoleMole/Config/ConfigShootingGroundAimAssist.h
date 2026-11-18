@@ -6,16 +6,17 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDAIMASSIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B914900)
+#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDAIMASSIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1924C9F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShootingGroundAimAssist_TypeDefinitionIndex = 70500;
+	inline static constexpr unsigned int ConfigShootingGroundAimAssist_TypeDefinitionIndex = 68719;
 
 	class ConfigShootingGroundAimAssist : public ::System::Object
 	{
 	public:
 		::UnityEngine::LayerMask ColliderLayers; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* ColliderTag; // 0x18
 		::UnityEngine::AnimationCurve* ColliderScaleCurve; // 0x20
 

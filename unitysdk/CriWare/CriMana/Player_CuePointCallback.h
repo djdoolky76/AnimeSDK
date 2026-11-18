@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CriWare/CriMana/EventPoint.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/CriWare/CriMana/EventPoint.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FA66100)
-#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FA66170)
-#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FA65E10)
-#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA65DF0)
+#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FE7B5F0)
+#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FE7B660)
+#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FE7B300)
+#define CRIWARE_CRIMANA_PLAYER_CUEPOINTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE7B2F0)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_CuePointCallback_TypeDefinitionIndex = 35060;
+	inline static constexpr unsigned int Player_CuePointCallback_TypeDefinitionIndex = 34609;
 
 	class Player_CuePointCallback : public ::System::MulticastDelegate
 	{

@@ -2,13 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace System { class AsyncCallback; }
-namespace System { class IAsyncResult; }
-namespace System { class Object; }
-
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int Creator_1_TypeDefinitionIndex = 7073;
+	inline static constexpr unsigned int Creator_1_TypeDefinitionIndex = 7080;
 
 	template <typename T>
 	class Creator_1 : public ::System::MulticastDelegate

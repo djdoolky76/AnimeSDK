@@ -3,15 +3,15 @@
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Status_TypeDefinitionIndex = 30251;
+	inline static constexpr unsigned int Status_TypeDefinitionIndex = 30395;
 
 	enum class Status : ::System::Int32
 	{
-		Optional = 5,
-		Error = 4,
-		Success = 1,
 		Failure = 0,
-		Running = 2,
 		Resting = 3,
+		Optional = 5,
+		Success = 1,
+		Error = 4,
+		Running = 2,
 	};
 }

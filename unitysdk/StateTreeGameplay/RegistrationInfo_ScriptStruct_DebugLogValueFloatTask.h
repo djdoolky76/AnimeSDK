@@ -7,39 +7,39 @@ namespace UnrealTypes { class PropertyParamsBase; }
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASK_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EC67500)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC67060)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASK_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EBC4EA0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBC4990)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex = 70097;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex = 56320;
 
 	class RegistrationInfo_ScriptStruct_DebugLogValueFloatTask : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
+		static ::UnrealTypes::BoolPropertyParams** StaticGet_Property_LogOnTick()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex)->GetStaticField(0x3B180);
-		}
-		static ::UnrealTypes::BoolPropertyParams** StaticGet_Property_LogOnEnter()
-		{
-			return (::UnrealTypes::BoolPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex)->GetStaticField(0x3B188);
+			return (::UnrealTypes::BoolPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex)->GetStaticField(0x3D030);
 		}
 		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
 		{
-			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex)->GetStaticField(0x3B190);
+			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex)->GetStaticField(0x3D038);
 		}
-		static ::UnrealTypes::StructParams** StaticGet_StructParams()
+		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex)->GetStaticField(0x3B198);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex)->GetStaticField(0x3D040);
 		}
 		static ::UnrealTypes::BoolPropertyParams** StaticGet_Property_LogOnExit()
 		{
-			return (::UnrealTypes::BoolPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex)->GetStaticField(0x3B1A0);
+			return (::UnrealTypes::BoolPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex)->GetStaticField(0x3D048);
 		}
-		static ::UnrealTypes::BoolPropertyParams** StaticGet_Property_LogOnTick()
+		static ::UnrealTypes::BoolPropertyParams** StaticGet_Property_LogOnEnter()
 		{
-			return (::UnrealTypes::BoolPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex)->GetStaticField(0x3B1A8);
+			return (::UnrealTypes::BoolPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex)->GetStaticField(0x3D050);
+		}
+		static ::UnrealTypes::StructParams** StaticGet_StructParams()
+		{
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTask_TypeDefinitionIndex)->GetStaticField(0x3D058);
 		}
 
 		static ::System::Void _cctor()

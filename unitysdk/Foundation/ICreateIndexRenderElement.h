@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ICreateIndexRenderElement_TypeDefinitionIndex = 93249;
+	inline static constexpr unsigned int ICreateIndexRenderElement_TypeDefinitionIndex = 95120;
 
 	class ICreateIndexRenderElement
 	{

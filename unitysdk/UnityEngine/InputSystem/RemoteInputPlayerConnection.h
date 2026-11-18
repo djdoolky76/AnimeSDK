@@ -1,72 +1,72 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Guid.h"
-#include "unitysdk/UnityEngine/InputSystem/InputRemoting_Message.h"
 #include "unitysdk/UnityEngine/InputSystem/InputRemoting_MessageType.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
+#include "unitysdk/UnityEngine/InputSystem/InputRemoting_Message.h"
 
 namespace System { class Exception; }
 namespace System { class IDisposable; }
+namespace System { class Object; }
 namespace System { template <typename T> class IObserver_1; }
-namespace UnityEngine::InputSystem { class RemoteInputPlayerConnection_Subscriber; }
 namespace UnityEngine::Networking::PlayerConnection { class IEditorPlayerConnection; }
 namespace UnityEngine::Networking::PlayerConnection { class MessageEventArgs; }
 
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_BIND_OFFSET UNITYSDK_OFFSET(0x1EB4BFC0)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONCHANGEUSAGES_OFFSET UNITYSDK_OFFSET(0x1EB4C830)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONCONNECTED_OFFSET UNITYSDK_OFFSET(0x1EB4C2D0)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1EB4C6E0)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONNEWDEVICE_OFFSET UNITYSDK_OFFSET(0x1EB4C7F0)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONNEWEVENTS_OFFSET UNITYSDK_OFFSET(0x1EB4C810)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONNEWLAYOUT_OFFSET UNITYSDK_OFFSET(0x1EB4C800)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONREMOVEDEVICE_OFFSET UNITYSDK_OFFSET(0x1EB4C820)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONSTARTSENDING_OFFSET UNITYSDK_OFFSET(0x1EB4C840)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONSTOPSENDING_OFFSET UNITYSDK_OFFSET(0x1EB4C850)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SENDTOSUBSCRIBERS_OFFSET UNITYSDK_OFFSET(0x1EB4C530)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1EB4C360)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SYSTEM_IOBSERVER_UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_MESSAGE__ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1EB4C9E0)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SYSTEM_IOBSERVER_UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_MESSAGE__ONERROR_OFFSET UNITYSDK_OFFSET(0x1EB4C9D0)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SYSTEM_IOBSERVER_UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_MESSAGE__ONNEXT_OFFSET UNITYSDK_OFFSET(0x1EB4C860)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB4CA50)
-#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB4C9F0)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_BIND_OFFSET UNITYSDK_OFFSET(0x1EEDCB30)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONCHANGEUSAGES_OFFSET UNITYSDK_OFFSET(0x1EEDD390)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONCONNECTED_OFFSET UNITYSDK_OFFSET(0x1EEDCE30)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONDISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1EEDD240)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONNEWDEVICE_OFFSET UNITYSDK_OFFSET(0x1EEDD350)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONNEWEVENTS_OFFSET UNITYSDK_OFFSET(0x1EEDD370)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONNEWLAYOUT_OFFSET UNITYSDK_OFFSET(0x1EEDD360)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONREMOVEDEVICE_OFFSET UNITYSDK_OFFSET(0x1EEDD380)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONSTARTSENDING_OFFSET UNITYSDK_OFFSET(0x1EEDD3A0)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_ONSTOPSENDING_OFFSET UNITYSDK_OFFSET(0x1EEDD3B0)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SENDTOSUBSCRIBERS_OFFSET UNITYSDK_OFFSET(0x1EEDD090)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1EEDCEC0)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SYSTEM_IOBSERVER_UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_MESSAGE__ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1EEDD540)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SYSTEM_IOBSERVER_UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_MESSAGE__ONERROR_OFFSET UNITYSDK_OFFSET(0x1EEDD530)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SYSTEM_IOBSERVER_UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_MESSAGE__ONNEXT_OFFSET UNITYSDK_OFFSET(0x1EEDD3C0)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEDD5B0)
+#define UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEDD550)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int RemoteInputPlayerConnection_TypeDefinitionIndex = 32282;
+	inline static constexpr unsigned int RemoteInputPlayerConnection_TypeDefinitionIndex = 31731;
 
 	class RemoteInputPlayerConnection : public ::UnityEngine::ScriptableObject
 	{
 	public:
-		static ::System::Guid* StaticGet_kRemoveDeviceMsg()
-		{
-			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x7D70);
-		}
-		static ::System::Guid* StaticGet_kNewLayoutMsg()
-		{
-			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x7D80);
-		}
 		static ::System::Guid* StaticGet_kNewEventsMsg()
 		{
-			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x7D90);
-		}
-		static ::System::Guid* StaticGet_kChangeUsagesMsg()
-		{
-			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x7DA0);
-		}
-		static ::System::Guid* StaticGet_kStopSendingMsg()
-		{
-			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x7DB0);
-		}
-		static ::System::Guid* StaticGet_kStartSendingMsg()
-		{
-			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x7DC0);
+			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x8170);
 		}
 		static ::System::Guid* StaticGet_kNewDeviceMsg()
 		{
-			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x7DD0);
+			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x8180);
+		}
+		static ::System::Guid* StaticGet_kRemoveDeviceMsg()
+		{
+			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x8190);
+		}
+		static ::System::Guid* StaticGet_kChangeUsagesMsg()
+		{
+			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x81A0);
+		}
+		static ::System::Guid* StaticGet_kStopSendingMsg()
+		{
+			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x81B0);
+		}
+		static ::System::Guid* StaticGet_kNewLayoutMsg()
+		{
+			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x81C0);
+		}
+		static ::System::Guid* StaticGet_kStartSendingMsg()
+		{
+			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(RemoteInputPlayerConnection_TypeDefinitionIndex)->GetStaticField(0x81D0);
 		}
 		::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* m_Connection; // 0x18
-		::Il2CppArray<::UnityEngine::InputSystem::RemoteInputPlayerConnection_Subscriber*>* m_Subscribers; // 0x20
+		::Il2CppArray<::System::Object*>* m_Subscribers; // 0x20
 		::Il2CppArray<::System::Int32>* m_ConnectedIds; // 0x28
 
 		::System::Void _ctor()
@@ -84,9 +84,9 @@ namespace UnityEngine::InputSystem
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_BIND_OFFSET))(this, connection, isConnected);
 		}
 
-		::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>* observer)
+		::System::IDisposable* Subscribe(::System::IObserver_1<::System::Object*>* observer)
 		{
-			return ((::System::IDisposable*(*)(::PVOID, ::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SUBSCRIBE_OFFSET))(this, observer);
+			return ((::System::IDisposable*(*)(::PVOID, ::System::IObserver_1<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_REMOTEINPUTPLAYERCONNECTION_SUBSCRIBE_OFFSET))(this, observer);
 		}
 
 		::System::Void OnConnected(::System::Int32 id)

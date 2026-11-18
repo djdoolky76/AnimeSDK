@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define DEST_MATH_CONCAVEHULL_CREATE2D_1_OFFSET UNITYSDK_OFFSET(0x1F7F8920)
-#define DEST_MATH_CONCAVEHULL_CREATE2D_OFFSET UNITYSDK_OFFSET(0x1F7F7370)
+#define DEST_MATH_CONCAVEHULL_CREATE2D_1_OFFSET UNITYSDK_OFFSET(0x1FC020A0)
+#define DEST_MATH_CONCAVEHULL_CREATE2D_OFFSET UNITYSDK_OFFSET(0x1FC00AF0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ConcaveHull_TypeDefinitionIndex = 35325;
+	inline static constexpr unsigned int ConcaveHull_TypeDefinitionIndex = 34898;
 
 	class ConcaveHull : public ::System::Object
 	{

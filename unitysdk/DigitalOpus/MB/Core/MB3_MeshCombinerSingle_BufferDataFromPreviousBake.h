@@ -5,7 +5,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombinerSingle_BufferDataFromPreviousBake_TypeDefinitionIndex = 94566;
+	inline static constexpr unsigned int MB3_MeshCombinerSingle_BufferDataFromPreviousBake_TypeDefinitionIndex = 96253;
 
 	struct alignas(4) MB3_MeshCombinerSingle_BufferDataFromPreviousBake
 	{

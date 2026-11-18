@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/AssetPath.h"
-#include "unitysdk/NPCCrowd/NPCSoftAssetPath_1.h"
 
-namespace UnityEngine { class GameObject; }
-
-#define NPCCROWD_NPCSOFTGAMEOBJECTPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x10670220)
-#define NPCCROWD_NPCSOFTGAMEOBJECTPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x10670200)
+#define NPCCROWD_NPCSOFTGAMEOBJECTPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0xF159790)
+#define NPCCROWD_NPCSOFTGAMEOBJECTPATH__CTOR_OFFSET UNITYSDK_OFFSET(0xF159770)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCSoftGameObjectPath_TypeDefinitionIndex = 49383;
+	inline static constexpr unsigned int NPCSoftGameObjectPath_TypeDefinitionIndex = 40716;
 
-	class NPCSoftGameObjectPath : public ::NPCCrowd::NPCSoftAssetPath_1<::UnityEngine::GameObject*>
+	class NPCSoftGameObjectPath
 	{
 	public:
 		::System::Void _ctor()

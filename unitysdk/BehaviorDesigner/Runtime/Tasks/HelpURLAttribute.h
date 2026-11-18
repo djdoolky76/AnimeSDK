@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_HELPURLATTRIBUTE_GET_URL_OFFSET UNITYSDK_OFFSET(0x1F803020)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_HELPURLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F803030)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_HELPURLATTRIBUTE_GET_URL_OFFSET UNITYSDK_OFFSET(0x1FC13B90)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_HELPURLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC13BA0)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int HelpURLAttribute_TypeDefinitionIndex = 33963;
+	inline static constexpr unsigned int HelpURLAttribute_TypeDefinitionIndex = 33509;
 
 	class HelpURLAttribute : public ::System::Attribute
 	{

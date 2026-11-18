@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Video
 {
-	inline static constexpr unsigned int Video3DLayout_TypeDefinitionIndex = 19422;
+	inline static constexpr unsigned int Video3DLayout_TypeDefinitionIndex = 18576;
 
 	enum class Video3DLayout : ::System::Int32
 	{

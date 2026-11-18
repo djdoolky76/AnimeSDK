@@ -4,9 +4,9 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcbLoader_LoaderConfig_TypeDefinitionIndex = 34943;
+	inline static constexpr unsigned int CriAtomExAcbLoader_LoaderConfig_TypeDefinitionIndex = 34492;
 
-	struct alignas(1) CriAtomExAcbLoader_LoaderConfig
+	struct alignas(4) CriAtomExAcbLoader_LoaderConfig
 	{
 		::System::Boolean shouldLoadAwbOnMemory; // 0x10
 	};

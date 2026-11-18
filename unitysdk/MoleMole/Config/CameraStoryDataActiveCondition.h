@@ -5,12 +5,12 @@
 
 namespace Nap::NapECS { class EcsWorld; }
 
-#define MOLEMOLE_CONFIG_CAMERASTORYDATAACTIVECONDITION_GETENTITYBODYSIZE_OFFSET UNITYSDK_OFFSET(0x116F82A0)
-#define MOLEMOLE_CONFIG_CAMERASTORYDATAACTIVECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x116F8420)
+#define MOLEMOLE_CONFIG_CAMERASTORYDATAACTIVECONDITION_GETENTITYBODYSIZE_OFFSET UNITYSDK_OFFSET(0xFAB6410)
+#define MOLEMOLE_CONFIG_CAMERASTORYDATAACTIVECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xFAB6590)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CameraStoryDataActiveCondition_TypeDefinitionIndex = 71288;
+	inline static constexpr unsigned int CameraStoryDataActiveCondition_TypeDefinitionIndex = 51391;
 
 	class CameraStoryDataActiveCondition : public ::System::Object
 	{

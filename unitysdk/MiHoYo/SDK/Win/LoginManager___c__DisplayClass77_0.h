@@ -2,45 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MiHoYo::SDK { class AccountModel; }
-namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
-namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class LoginManager; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
+namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE14280)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__REQUESTLOGINBYAUTHTICKET_B__0_OFFSET UNITYSDK_OFFSET(0x1BE14290)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__REQUESTLOGINBYAUTHTICKET_G__SUCCESSCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1BE16000)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A6A50)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__ONREGISTERCOMPLETE_B__0_OFFSET UNITYSDK_OFFSET(0x1C4A6A60)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__ONREGISTERCOMPLETE_G__FAILCALLBACK_2_OFFSET UNITYSDK_OFFSET(0x1C4A7B00)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__ONREGISTERCOMPLETE_G__SUCCESSCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1C4A7E40)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass77_0_TypeDefinitionIndex = 21549;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass77_0_TypeDefinitionIndex = 20747;
 
 	class LoginManager___c__DisplayClass77_0 : public ::System::Object
 	{
 	public:
-		::System::String* traceId; // 0x10
-		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x18
-		::System::String* loginType; // 0x20
-		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* callback; // 0x28
-		::System::String* authTicket; // 0x30
-		::MiHoYo::SDK::JSONObject* reportBody; // 0x38
+		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x10
+		::System::String* authTicket; // 0x18
+		::System::Action_2<::System::String*, ::System::Boolean>* customCallback; // 0x20
+		::System::String* username; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RequestLoginByAuthTicket_b__0(::MiHoYo::SDK::NetworkResponseModelEx* response)
+		::System::Void _OnRegisterComplete_b__0(::MiHoYo::SDK::NetworkResponseModelEx* response)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__REQUESTLOGINBYAUTHTICKET_B__0_OFFSET))(this, response);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModelEx*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__ONREGISTERCOMPLETE_B__0_OFFSET))(this, response);
 		}
 
-		::System::Void _RequestLoginByAuthTicket_g__successCallback_1(::System::String* ticket)
+		::System::Void _OnRegisterComplete_g__successCallback_1(::System::String* ticket)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__REQUESTLOGINBYAUTHTICKET_G__SUCCESSCALLBACK_1_OFFSET))(this, ticket);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__ONREGISTERCOMPLETE_G__SUCCESSCALLBACK_1_OFFSET))(this, ticket);
+		}
+
+		::System::Void _OnRegisterComplete_g__failCallback_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS77_0__ONREGISTERCOMPLETE_G__FAILCALLBACK_2_OFFSET))(this);
 		}
 	};
 }

@@ -5,18 +5,18 @@
 namespace MoleMole { class UIGachaPerformance3DModelController; }
 namespace MoleMole { class UIGachaPerformancePageController; }
 
-#define MOLEMOLE_UIGACHAPERFORMANCEPAGECONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18ACB100)
-#define MOLEMOLE_UIGACHAPERFORMANCEPAGECONTROLLER___C__DISPLAYCLASS20_0__ONSKIPALLBTNCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x18ACB110)
+#define MOLEMOLE_UIGACHAPERFORMANCEPAGECONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1809B640)
+#define MOLEMOLE_UIGACHAPERFORMANCEPAGECONTROLLER___C__DISPLAYCLASS20_0__ONSKIPALLBTNCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x1809B650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPerformancePageController___c__DisplayClass20_0_TypeDefinitionIndex = 48523;
+	inline static constexpr unsigned int UIGachaPerformancePageController___c__DisplayClass20_0_TypeDefinitionIndex = 70367;
 
 	class UIGachaPerformancePageController___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGachaPerformance3DModelController* ctrler; // 0x10
-		::MoleMole::UIGachaPerformancePageController* __4__this; // 0x18
+		::MoleMole::UIGachaPerformancePageController* __4__this; // 0x10
+		::MoleMole::UIGachaPerformance3DModelController* ctrler; // 0x18
 
 		::System::Void _ctor()
 		{

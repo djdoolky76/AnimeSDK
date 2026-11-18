@@ -1,46 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/GMFAKIPCDED.h"
 #include "unitysdk/MoleMole/UIWindowController.h"
 
-class Class_2_5F559DEFD2F7BB3D;
+class PCCHMANJAGF;
 namespace MoleMole { class UIControlReference; }
 namespace MoleMole { class UIControllerContextBase; }
 namespace MoleMole { class UIVirusLevelUpAbilityRowWidgetController; }
 namespace MoleMole { class UIVirusLevelUpDetailsRowWidgetController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_GETABILITYITEM_OFFSET UNITYSDK_OFFSET(0x12E3E0D0)
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_GETDETAILSITEM_OFFSET UNITYSDK_OFFSET(0x12E3DFA0)
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x12E3D390)
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_ONCLICKPROPERTYINFOBTN_OFFSET UNITYSDK_OFFSET(0x12E3E200)
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x12E3D3A0)
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x12E3D560)
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x12E3D5D0)
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x12E3E420)
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x12E3E500)
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x12E3E590)
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x12E3E5A0)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_DHAILDJHDPC_OFFSET UNITYSDK_OFFSET(0x164D9120)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_DJKAJBNCMHN_OFFSET UNITYSDK_OFFSET(0x164D9470)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x164D83D0)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_KFDKADBIPPK_OFFSET UNITYSDK_OFFSET(0x164D8FF0)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x164D83E0)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x164D85A0)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x164D8610)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x164D9250)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x164D9340)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x164D93D0)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x164D93E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVirusLevelUpPopWindowController_TypeDefinitionIndex = 47319;
+	inline static constexpr unsigned int UIVirusLevelUpPopWindowController_TypeDefinitionIndex = 86024;
 
 	class UIVirusLevelUpPopWindowController : public ::MoleMole::UIWindowController
 	{
 	public:
-		::Class_2_5F559DEFD2F7BB3D* _view; // 0x318
-		::System::Collections::Generic::List_1<::MoleMole::UIVirusLevelUpDetailsRowWidgetController*>* _detailsItems; // 0x320
-		::System::Collections::Generic::List_1<::MoleMole::UIVirusLevelUpAbilityRowWidgetController*>* _abilityItems; // 0x328
+		::PCCHMANJAGF* _view; // 0x320
+		::System::Collections::Generic::List_1<::MoleMole::UIVirusLevelUpDetailsRowWidgetController*>* HANGGOEJKIB; // 0x328
+		::System::Collections::Generic::List_1<::MoleMole::UIVirusLevelUpAbilityRowWidgetController*>* PLCFCBJHEHA; // 0x330
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_3EDF246633A325B0 get_windowType()
+		::GMFAKIPCDED get_windowType()
 		{
-			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+			return ((::GMFAKIPCDED(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
 		}
 
 		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
@@ -58,21 +58,6 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
 		}
 
-		::MoleMole::UIVirusLevelUpDetailsRowWidgetController* GetDetailsItem(::System::Int32 index)
-		{
-			return ((::MoleMole::UIVirusLevelUpDetailsRowWidgetController*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_GETDETAILSITEM_OFFSET))(this, index);
-		}
-
-		::MoleMole::UIVirusLevelUpAbilityRowWidgetController* GetAbilityItem(::System::Int32 index)
-		{
-			return ((::MoleMole::UIVirusLevelUpAbilityRowWidgetController*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_GETABILITYITEM_OFFSET))(this, index);
-		}
-
-		::System::Void OnClickPropertyInfoBtn()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_ONCLICKPROPERTYINFOBTN_OFFSET))(this);
-		}
-
 		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
 		{
 			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
@@ -86,6 +71,21 @@ namespace MoleMole
 		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
 		{
 			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+
+		::MoleMole::UIVirusLevelUpAbilityRowWidgetController* DHAILDJHDPC(::System::Int32 ABHBKFJKINO)
+		{
+			return ((::MoleMole::UIVirusLevelUpAbilityRowWidgetController*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_DHAILDJHDPC_OFFSET))(this, ABHBKFJKINO);
+		}
+
+		::System::Void DJKAJBNCMHN()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_DJKAJBNCMHN_OFFSET))(this);
+		}
+
+		::MoleMole::UIVirusLevelUpDetailsRowWidgetController* KFDKADBIPPK(::System::Int32 ABHBKFJKINO)
+		{
+			return ((::MoleMole::UIVirusLevelUpDetailsRowWidgetController*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER_KFDKADBIPPK_OFFSET))(this, ABHBKFJKINO);
 		}
 	};
 }

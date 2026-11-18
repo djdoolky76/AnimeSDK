@@ -6,25 +6,25 @@
 #include "unitysdk/System/ValueType.h"
 
 namespace MoleMole { class AreaCategoryInOutSubsystem; }
-namespace MoleMole { class AreaCategoryInOutSubsystem___c__DisplayClass15_0; }
-namespace MoleMole { class AreaCategoryInOutSubsystem___c__DisplayClass15_1; }
+namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_AREACATEGORYINOUTSUBSYSTEM__CHECKLOOP_D__15_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x802240)
-#define MOLEMOLE_AREACATEGORYINOUTSUBSYSTEM__CHECKLOOP_D__15_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_AREACATEGORYINOUTSUBSYSTEM__CHECKLOOP_D__15_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x6C3F80)
+#define MOLEMOLE_AREACATEGORYINOUTSUBSYSTEM__CHECKLOOP_D__15_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AreaCategoryInOutSubsystem__CheckLoop_d__15_TypeDefinitionIndex = 68260;
+	inline static constexpr unsigned int AreaCategoryInOutSubsystem__CheckLoop_d__15_TypeDefinitionIndex = 60549;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15>
 	struct alignas(8) AreaCategoryInOutSubsystem__CheckLoop_d__15
 	{
-		::System::Threading::CancellationToken cancellationToken; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x18
-		::MoleMole::AreaCategoryInOutSubsystem* __4__this; // 0x20
-		::MoleMole::AreaCategoryInOutSubsystem___c__DisplayClass15_1* __8__2; // 0x28
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x30
-		::MoleMole::AreaCategoryInOutSubsystem___c__DisplayClass15_0* __8__1; // 0x40
+		::System::Object* __8__2; // 0x10
+		::MoleMole::AreaCategoryInOutSubsystem* __4__this; // 0x18
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x20
+		::System::Threading::CancellationToken cancellationToken; // 0x28
+		::System::Object* __8__1; // 0x30
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x38
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void MoveNext()

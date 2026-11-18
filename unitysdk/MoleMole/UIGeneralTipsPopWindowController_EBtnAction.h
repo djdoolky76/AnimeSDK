@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTipsPopWindowController_EBtnAction_TypeDefinitionIndex = 40473;
+	inline static constexpr unsigned int UIGeneralTipsPopWindowController_EBtnAction_TypeDefinitionIndex = 73793;
 
 	enum class UIGeneralTipsPopWindowController_EBtnAction : ::System::Int32
 	{
+		Go = 3,
 		Ok = 1,
 		Cancel = 2,
-		Go = 3,
 		Close = 4,
 	};
 }

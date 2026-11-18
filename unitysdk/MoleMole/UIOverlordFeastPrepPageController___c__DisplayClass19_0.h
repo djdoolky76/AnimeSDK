@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_CFC1DA8C3898E356;
+class AGFBDEFDLAM;
 
-#define MOLEMOLE_UIOVERLORDFEASTPREPPAGECONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19889EB0)
-#define MOLEMOLE_UIOVERLORDFEASTPREPPAGECONTROLLER___C__DISPLAYCLASS19_0__SETACTIVITYNONAVATARREWARDBTN_B__0_OFFSET UNITYSDK_OFFSET(0x19889EC0)
+#define MOLEMOLE_UIOVERLORDFEASTPREPPAGECONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D64200)
+#define MOLEMOLE_UIOVERLORDFEASTPREPPAGECONTROLLER___C__DISPLAYCLASS19_0__SETACTIVITYNONAVATARREWARDBTN_B__0_OFFSET UNITYSDK_OFFSET(0x17D64210)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastPrepPageController___c__DisplayClass19_0_TypeDefinitionIndex = 79045;
+	inline static constexpr unsigned int UIOverlordFeastPrepPageController___c__DisplayClass19_0_TypeDefinitionIndex = 63690;
 
 	class UIOverlordFeastPrepPageController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::Class_2_CFC1DA8C3898E356* listBtnData; // 0x10
+		::AGFBDEFDLAM* listBtnData; // 0x10
 
 		::System::Void _ctor()
 		{

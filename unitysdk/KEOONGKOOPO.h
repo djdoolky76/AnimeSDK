@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int KEOONGKOOPO_TypeDefinitionIndex = 94407;
+
+enum class KEOONGKOOPO : ::System::Int32
+{
+	AHKFAKHCHJH = 20006,
+	ICECJMHKAEB = 20011,
+	LGEAMDIMLFM = 20200,
+	PNOFLAJOJJB = 20002,
+	GNLCDHJCHNO = 20004,
+	BCAENMLPMPN = 20005,
+	PBHHIKAFCIM = 20013,
+	GJENPNMPJPC = 20009,
+	OGMDDLDMACA = 20001,
+	DAILPOJNCPE = 20100,
+	BGOLJCALLBJ = 20012,
+	OPPPFIHGNCA = 20003,
+	BHHJGNIFBGJ = 20010,
+};

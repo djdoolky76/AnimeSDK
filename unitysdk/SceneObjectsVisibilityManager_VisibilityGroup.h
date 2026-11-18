@@ -6,9 +6,9 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define SCENEOBJECTSVISIBILITYMANAGER_VISIBILITYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5037C0)
+#define SCENEOBJECTSVISIBILITYMANAGER_VISIBILITYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E19BB70)
 
-inline static constexpr unsigned int SceneObjectsVisibilityManager_VisibilityGroup_TypeDefinitionIndex = 57126;
+inline static constexpr unsigned int SceneObjectsVisibilityManager_VisibilityGroup_TypeDefinitionIndex = 88420;
 
 class SceneObjectsVisibilityManager_VisibilityGroup : public ::System::Object
 {

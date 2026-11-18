@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/ExtractorNode.h"
 
-namespace FlowCanvas { class FlowNode; }
-
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractorNode_3_TypeDefinitionIndex = 30957;
+	inline static constexpr unsigned int ExtractorNode_3_TypeDefinitionIndex = 30355;
 
-	template <typename TInstance, typename T1, typename T2>
+	template <typename T1, typename T2, typename T3>
 	class ExtractorNode_3 : public ::FlowCanvas::Nodes::ExtractorNode
 	{
 	public:

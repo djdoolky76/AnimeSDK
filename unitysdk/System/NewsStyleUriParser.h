@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/UriParser.h"
 
-#define SYSTEM_NEWSSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CA1E0)
+#define SYSTEM_NEWSSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBC4370)
 
 namespace System
 {
-	inline static constexpr unsigned int NewsStyleUriParser_TypeDefinitionIndex = 2682;
+	inline static constexpr unsigned int NewsStyleUriParser_TypeDefinitionIndex = 2681;
 
 	class NewsStyleUriParser : public ::System::UriParser
 	{

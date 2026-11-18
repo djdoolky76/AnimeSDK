@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sirenix/Serialization/DataFormat.h"
-#include "unitysdk/Sirenix/Serialization/SerializationData.h"
-#include "unitysdk/Sirenix/Serialization/UnitySerializationUtility_CachedSerializationBackendResult.h"
-#include "unitysdk/Sirenix/Serialization/UnitySerializationUtility_UnityObjectCacheData.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Sirenix/Serialization/SerializationData.h"
+#include "unitysdk/Sirenix/Serialization/UnitySerializationUtility_UnityObjectCacheData.h"
 
 namespace Sirenix::Serialization { class DeserializationContext; }
 namespace Sirenix::Serialization { class IDataReader; }
@@ -27,131 +26,131 @@ namespace System::Reflection { class Assembly; }
 namespace System::Reflection { class MemberInfo; }
 namespace UnityEngine { class Object; }
 
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_APPLYPREFABMODIFICATIONS_OFFSET UNITYSDK_OFFSET(0x1F04EC80)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_CALCULATEODINWILLSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F0468F0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_CREATEDEFAULTUNITYINITIALIZEDOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1F052890)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_CREATEDEFAULTUNITYINITIALIZEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1F0526B0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_DESERIALIZEPREFABMODIFICATIONS_OFFSET UNITYSDK_OFFSET(0x1F051280)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_DESERIALIZEUNITYOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1F04B680)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_DESERIALIZEUNITYOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1F050620)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_DESERIALIZEUNITYOBJECT_3_OFFSET UNITYSDK_OFFSET(0x1F04D7E0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_DESERIALIZEUNITYOBJECT_4_OFFSET UNITYSDK_OFFSET(0x1F04EF50)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_DESERIALIZEUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0x1F04B4B0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETCACHEDUNITYMEMBERGETTER_OFFSET UNITYSDK_OFFSET(0x1F04AE00)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETCACHEDUNITYMEMBERSETTER_OFFSET UNITYSDK_OFFSET(0x1F050A10)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETCACHEDUNITYREADER_OFFSET UNITYSDK_OFFSET(0x1F0507A0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETCACHEDUNITYWRITER_OFFSET UNITYSDK_OFFSET(0x1F049FD0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETODINWILLSERIALIZEMEMBERS_1_OFFSET UNITYSDK_OFFSET(0x1F045EA0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETODINWILLSERIALIZEMEMBERS_OFFSET UNITYSDK_OFFSET(0x1F045E20)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETSTRINGFROMSTREAMANDRESET_OFFSET UNITYSDK_OFFSET(0x1F0510F0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GUESSIFUNITYWILLSERIALIZEPRIVATE_1_OFFSET UNITYSDK_OFFSET(0x1F0474D0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GUESSIFUNITYWILLSERIALIZEPRIVATE_OFFSET UNITYSDK_OFFSET(0x1F046E40)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GUESSIFUNITYWILLSERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1F0471E0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GUESSIFUNITYWILLSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F046B50)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_ODINWILLSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F045FA0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1F049CA0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1F049E10)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_3_OFFSET UNITYSDK_OFFSET(0x1F049F30)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_4_OFFSET UNITYSDK_OFFSET(0x1F0485C0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_5_OFFSET UNITYSDK_OFFSET(0x1F04AD90)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_6_OFFSET UNITYSDK_OFFSET(0x1F04A220)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0x1F047FA0)
-#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F052FE0)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_APPLYPREFABMODIFICATIONS_OFFSET UNITYSDK_OFFSET(0x1F3CE5F0)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_CALCULATEODINWILLSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F3C6260)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_CREATEDEFAULTUNITYINITIALIZEDOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1F3D2210)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_CREATEDEFAULTUNITYINITIALIZEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1F3D2030)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_DESERIALIZEPREFABMODIFICATIONS_OFFSET UNITYSDK_OFFSET(0x1F3D0BF0)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_DESERIALIZEUNITYOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1F3CAFF0)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_DESERIALIZEUNITYOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1F3CFF90)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_DESERIALIZEUNITYOBJECT_3_OFFSET UNITYSDK_OFFSET(0x1F3CD150)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_DESERIALIZEUNITYOBJECT_4_OFFSET UNITYSDK_OFFSET(0x1F3CE8C0)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_DESERIALIZEUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0x1F3CAE20)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETCACHEDUNITYMEMBERGETTER_OFFSET UNITYSDK_OFFSET(0x1F3CA770)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETCACHEDUNITYMEMBERSETTER_OFFSET UNITYSDK_OFFSET(0x1F3D0380)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETCACHEDUNITYREADER_OFFSET UNITYSDK_OFFSET(0x1F3D0110)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETCACHEDUNITYWRITER_OFFSET UNITYSDK_OFFSET(0x1F3C9940)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETODINWILLSERIALIZEMEMBERS_2_OFFSET UNITYSDK_OFFSET(0x1F3C5810)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETODINWILLSERIALIZEMEMBERS_OFFSET UNITYSDK_OFFSET(0x1F3C5790)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETSTRINGFROMSTREAMANDRESET_OFFSET UNITYSDK_OFFSET(0x1F3D0A60)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GUESSIFUNITYWILLSERIALIZEPRIVATE_1_OFFSET UNITYSDK_OFFSET(0x1F3C6E40)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GUESSIFUNITYWILLSERIALIZEPRIVATE_OFFSET UNITYSDK_OFFSET(0x1F3C67B0)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GUESSIFUNITYWILLSERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1F3C6B50)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GUESSIFUNITYWILLSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F3C64C0)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_ODINWILLSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F3C5910)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1F3C9610)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1F3C9780)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_3_OFFSET UNITYSDK_OFFSET(0x1F3C98A0)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_4_OFFSET UNITYSDK_OFFSET(0x1F3C7F30)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_5_OFFSET UNITYSDK_OFFSET(0x1F3CA700)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_6_OFFSET UNITYSDK_OFFSET(0x1F3C9B90)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_SERIALIZEUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0x1F3C7910)
+#define SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3D2940)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int UnitySerializationUtility_TypeDefinitionIndex = 7602;
+	inline static constexpr unsigned int UnitySerializationUtility_TypeDefinitionIndex = 7614;
 
 	class UnitySerializationUtility : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_UnityNeverSerializesTypes()
+		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::Object*>** StaticGet_OdinWillSerializeCache_EverythingPolicy()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x63F0);
-		}
-		static ::Sirenix::Serialization::ISerializationPolicy** StaticGet_StrictPolicy()
-		{
-			return (::Sirenix::Serialization::ISerializationPolicy**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x63F8);
-		}
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_UnityNeverSerializesTypeNames()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6400);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::Utilities::WeakValueSetter*>** StaticGet_UnityMemberSetters()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::Utilities::WeakValueSetter*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6408);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::UnitySerializationUtility_CachedSerializationBackendResult>** StaticGet_OdinWillSerializeCache_UnityPolicy()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::UnitySerializationUtility_CachedSerializationBackendResult>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6410);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::Sirenix::Serialization::ISerializationPolicy*, ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::UnitySerializationUtility_CachedSerializationBackendResult>*>** StaticGet_OdinWillSerializeCache_CustomPolicies()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::Sirenix::Serialization::ISerializationPolicy*, ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::UnitySerializationUtility_CachedSerializationBackendResult>*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6418);
-		}
-		static ::System::Action_1<::System::Type*>** StaticGet_OnBeginDeserializeTypeViaReflection()
-		{
-			return (::System::Action_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6420);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Boolean>** StaticGet_UnityWillSerializeTypesCache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6428);
-		}
-		static ::System::Type** StaticGet_SerializeReferenceAttributeType()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6430);
-		}
-		static ::Sirenix::Serialization::ISerializationPolicy** StaticGet_EverythingPolicy()
-		{
-			return (::Sirenix::Serialization::ISerializationPolicy**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6438);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::UnitySerializationUtility_CachedSerializationBackendResult>** StaticGet_OdinWillSerializeCache_StrictPolicy()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::UnitySerializationUtility_CachedSerializationBackendResult>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6440);
-		}
-		static ::System::Action_1<::System::Type*>** StaticGet_OnBeginSerializeTypeViaReflection()
-		{
-			return (::System::Action_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6448);
-		}
-		static ::System::Reflection::Assembly** StaticGet_LinkedList_Assembly()
-		{
-			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6450);
-		}
-		static ::System::Action_1<::System::Type*>** StaticGet_OnEndDeserializeTypeViaReflection()
-		{
-			return (::System::Action_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6458);
-		}
-		static ::System::Reflection::Assembly** StaticGet_String_Assembly()
-		{
-			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6460);
-		}
-		static ::System::Action_1<::System::Type*>** StaticGet_OnEndSerializeTypeViaReflection()
-		{
-			return (::System::Action_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6468);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::Utilities::WeakValueGetter*>** StaticGet_UnityMemberGetters()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::Utilities::WeakValueGetter*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6470);
+			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x62F0);
 		}
 		static ::System::Reflection::Assembly** StaticGet_HashSet_Assembly()
 		{
-			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6478);
+			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x62F8);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet_UnityWillSerializeMembersCache()
+		static ::System::Collections::Generic::Dictionary_2<::Sirenix::Serialization::ISerializationPolicy*, ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::Object*>*>** StaticGet_OdinWillSerializeCache_CustomPolicies()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6480);
+			return (::System::Collections::Generic::Dictionary_2<::Sirenix::Serialization::ISerializationPolicy*, ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6300);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::UnitySerializationUtility_CachedSerializationBackendResult>** StaticGet_OdinWillSerializeCache_EverythingPolicy()
+		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::Utilities::WeakValueSetter*>** StaticGet_UnityMemberSetters()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::UnitySerializationUtility_CachedSerializationBackendResult>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6488);
+			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::Utilities::WeakValueSetter*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6308);
+		}
+		static ::System::Reflection::Assembly** StaticGet_String_Assembly()
+		{
+			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6310);
+		}
+		static ::System::Action_1<::System::Type*>** StaticGet_OnEndSerializeTypeViaReflection()
+		{
+			return (::System::Action_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6318);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::Object*>** StaticGet_OdinWillSerializeCache_StrictPolicy()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6320);
+		}
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_UnityNeverSerializesTypeNames()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6328);
+		}
+		static ::System::Reflection::Assembly** StaticGet_LinkedList_Assembly()
+		{
+			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6330);
+		}
+		static ::System::Action_1<::System::Type*>** StaticGet_OnEndDeserializeTypeViaReflection()
+		{
+			return (::System::Action_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6338);
 		}
 		static ::Sirenix::Serialization::ISerializationPolicy** StaticGet_UnityPolicy()
 		{
-			return (::Sirenix::Serialization::ISerializationPolicy**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6490);
+			return (::Sirenix::Serialization::ISerializationPolicy**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6340);
+		}
+		static ::System::Type** StaticGet_SerializeReferenceAttributeType()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6348);
+		}
+		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_UnityNeverSerializesTypes()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6350);
+		}
+		static ::System::Action_1<::System::Type*>** StaticGet_OnBeginDeserializeTypeViaReflection()
+		{
+			return (::System::Action_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6358);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::Object*>** StaticGet_OdinWillSerializeCache_UnityPolicy()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6360);
+		}
+		static ::System::Action_1<::System::Type*>** StaticGet_OnBeginSerializeTypeViaReflection()
+		{
+			return (::System::Action_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6368);
+		}
+		static ::Sirenix::Serialization::ISerializationPolicy** StaticGet_StrictPolicy()
+		{
+			return (::Sirenix::Serialization::ISerializationPolicy**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6370);
+		}
+		static ::Sirenix::Serialization::ISerializationPolicy** StaticGet_EverythingPolicy()
+		{
+			return (::Sirenix::Serialization::ISerializationPolicy**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6378);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Boolean>** StaticGet_UnityWillSerializeTypesCache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6380);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::Utilities::WeakValueGetter*>** StaticGet_UnityMemberGetters()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::Sirenix::Serialization::Utilities::WeakValueGetter*>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6388);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet_UnityWillSerializeMembersCache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x6390);
 		}
 		static ::System::Boolean* StaticGet_WatchReflectBehaviour()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x3320);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UnitySerializationUtility_TypeDefinitionIndex)->GetStaticField(0x32A0);
 		}
 
 		static ::System::Void _cctor()
@@ -164,9 +163,9 @@ namespace Sirenix::Serialization
 			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>*(*)(::UnityEngine::Object*, ::Sirenix::Serialization::ISerializationPolicy*, ::System::Boolean))((::PBYTE)hIl2Cpp + SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETODINWILLSERIALIZEMEMBERS_OFFSET))(unityObject, policy, serializeUnityFields);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* GetOdinWillSerializeMembers_1(::System::Type* type, ::Sirenix::Serialization::ISerializationPolicy* policy, ::System::Boolean serializeUnityFields)
+		static ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* GetOdinWillSerializeMembers_2(::System::Type* type, ::Sirenix::Serialization::ISerializationPolicy* policy, ::System::Boolean serializeUnityFields)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>*(*)(::System::Type*, ::Sirenix::Serialization::ISerializationPolicy*, ::System::Boolean))((::PBYTE)hIl2Cpp + SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETODINWILLSERIALIZEMEMBERS_1_OFFSET))(type, policy, serializeUnityFields);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>*(*)(::System::Type*, ::Sirenix::Serialization::ISerializationPolicy*, ::System::Boolean))((::PBYTE)hIl2Cpp + SIRENIX_SERIALIZATION_UNITYSERIALIZATIONUTILITY_GETODINWILLSERIALIZEMEMBERS_2_OFFSET))(type, policy, serializeUnityFields);
 		}
 
 		static ::System::Boolean OdinWillSerialize(::System::Reflection::MemberInfo* member, ::System::Boolean serializeUnityFields, ::Sirenix::Serialization::ISerializationPolicy* policy)

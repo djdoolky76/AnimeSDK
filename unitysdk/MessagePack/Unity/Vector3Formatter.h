@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_VECTOR3FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E53EFC0)
-#define MESSAGEPACK_UNITY_VECTOR3FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E53EF70)
-#define MESSAGEPACK_UNITY_VECTOR3FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E53F1B0)
+#define MESSAGEPACK_UNITY_VECTOR3FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7B3020)
+#define MESSAGEPACK_UNITY_VECTOR3FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7B2FD0)
+#define MESSAGEPACK_UNITY_VECTOR3FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B3210)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int Vector3Formatter_TypeDefinitionIndex = 30053;
+	inline static constexpr unsigned int Vector3Formatter_TypeDefinitionIndex = 30050;
 
 	class Vector3Formatter : public ::System::Object
 	{

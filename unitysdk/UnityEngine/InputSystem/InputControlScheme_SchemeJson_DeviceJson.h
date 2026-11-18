@@ -1,15 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/InputSystem/InputControlScheme_DeviceRequirement.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_SCHEMEJSON_DEVICEJSON_FROM_OFFSET UNITYSDK_OFFSET(0x1F37A1D0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_SCHEMEJSON_DEVICEJSON_TODEVICEENTRY_OFFSET UNITYSDK_OFFSET(0xAA0430)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_SCHEMEJSON_DEVICEJSON_FROM_OFFSET UNITYSDK_OFFSET(0x1F78B550)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_SCHEMEJSON_DEVICEJSON_TODEVICEENTRY_OFFSET UNITYSDK_OFFSET(0x9866F0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputControlScheme_SchemeJson_DeviceJson_TypeDefinitionIndex = 32214;
+	inline static constexpr unsigned int InputControlScheme_SchemeJson_DeviceJson_TypeDefinitionIndex = 31663;
 
 	struct alignas(8) InputControlScheme_SchemeJson_DeviceJson
 	{
@@ -17,12 +18,10 @@ namespace UnityEngine::InputSystem
 		::System::Boolean isOptional; // 0x18
 		::System::Boolean isOR; // 0x19
 
-		/*
 		::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement ToDeviceEntry()
 		{
 			return ((::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_SCHEMEJSON_DEVICEJSON_TODEVICEENTRY_OFFSET))(this);
 		}
-		*/
 
 		/*
 		static ::UnityEngine::InputSystem::InputControlScheme_SchemeJson_DeviceJson From(::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement requirement)

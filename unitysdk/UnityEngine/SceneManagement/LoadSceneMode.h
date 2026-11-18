@@ -3,7 +3,7 @@
 
 namespace UnityEngine::SceneManagement
 {
-	inline static constexpr unsigned int LoadSceneMode_TypeDefinitionIndex = 5518;
+	inline static constexpr unsigned int LoadSceneMode_TypeDefinitionIndex = 5521;
 
 	enum class LoadSceneMode : ::System::Int32
 	{

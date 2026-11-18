@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAMOVETOCENTER__CTOR_OFFSET UNITYSDK_OFFSET(0xF13B290)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCAMERAMOVETOCENTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFFD4B10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowCameraMoveToCenter_TypeDefinitionIndex = 69739;
+	inline static constexpr unsigned int ConfigHollowCameraMoveToCenter_TypeDefinitionIndex = 64998;
 
 	class ConfigHollowCameraMoveToCenter : public ::System::Object
 	{

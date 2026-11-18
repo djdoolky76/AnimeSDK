@@ -5,10 +5,10 @@
 
 namespace NPCCrowd::Chunk
 {
-	inline static constexpr unsigned int ChunkView2D_1_TypeDefinitionIndex = 8872;
+	inline static constexpr unsigned int ChunkView2D_1_TypeDefinitionIndex = 8955;
 
 	template <typename T>
-	struct ChunkView2D_1
+	struct alignas(8) ChunkView2D_1
 	{
 		::Unity::Collections::NativeSlice_1<::System::Int32> _count; // 0x0
 		::Unity::Collections::NativeSlice_1<::System::Int32> _dimensions; // 0x0

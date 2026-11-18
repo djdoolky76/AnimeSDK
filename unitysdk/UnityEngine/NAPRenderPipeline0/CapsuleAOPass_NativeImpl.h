@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine::NAPRenderPipeline0 { class CapsuleAOPassNativeState; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA0F830)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EA0F860)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1EA0F800)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA0F780)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EC8EED0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EC8EF00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1EC8EEA0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAPSULEAOPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8EE20)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CapsuleAOPass_NativeImpl_TypeDefinitionIndex = 5764;
+	inline static constexpr unsigned int CapsuleAOPass_NativeImpl_TypeDefinitionIndex = 5769;
 
 	class CapsuleAOPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

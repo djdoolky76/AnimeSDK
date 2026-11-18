@@ -5,7 +5,7 @@
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int StreamingCommand_TypeDefinitionIndex = 68129;
+	inline static constexpr unsigned int StreamingCommand_TypeDefinitionIndex = 54379;
 
 	struct alignas(4) StreamingCommand
 	{

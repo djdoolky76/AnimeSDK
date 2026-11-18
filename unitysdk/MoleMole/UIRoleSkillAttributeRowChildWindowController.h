@@ -3,30 +3,30 @@
 #include "unitysdk/MoleMole/UIWidgetController.h"
 #include "unitysdk/Share/EAvatarSkillType.h"
 
-class Class_1_6D3ECB4C39924DFD;
-class Class_1_945ACFB1FEBC7A2C_1;
-class Class_1_FE222B85F7CE3D1B;
-class Class_2_0896515365497498;
-class Class_2_1824EF69C8E376A3;
+class BPHGNMNLLHF;
+class DKKGMHGFHGN;
+class DOHJLLDDOCH;
+class HPEEFADIKNL;
+class IONJPHDIELI;
 namespace MoleMole { class UIControlReference; }
 namespace MoleMole { class UIRoleSkillDataRowChildWindowController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x16AA18C0)
-#define MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER_SHOWATTRIBUTEVIEW_OFFSET UNITYSDK_OFFSET(0x16AA1950)
-#define MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER_SHOWBUDDYATTRIBUTEVIEW_OFFSET UNITYSDK_OFFSET(0x16AA1C00)
-#define MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA1F40)
-#define MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x16AA2020)
+#define MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x18892DE0)
+#define MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER_SHOWATTRIBUTEVIEW_OFFSET UNITYSDK_OFFSET(0x18892E70)
+#define MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER_SHOWBUDDYATTRIBUTEVIEW_OFFSET UNITYSDK_OFFSET(0x18893120)
+#define MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18893460)
+#define MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x18893540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleSkillAttributeRowChildWindowController_TypeDefinitionIndex = 78923;
+	inline static constexpr unsigned int UIRoleSkillAttributeRowChildWindowController_TypeDefinitionIndex = 68149;
 
 	class UIRoleSkillAttributeRowChildWindowController : public ::MoleMole::UIWidgetController
 	{
 	public:
-		::Class_2_0896515365497498* _view; // 0x2C0
-		::System::Collections::Generic::List_1<::MoleMole::UIRoleSkillDataRowChildWindowController*>* _dataItemList; // 0x2C8
+		::HPEEFADIKNL* _view; // 0x2C8
+		::System::Collections::Generic::List_1<::MoleMole::UIRoleSkillDataRowChildWindowController*>* AFNGPABFKJM; // 0x2D0
 
 		::System::Void _ctor()
 		{
@@ -38,14 +38,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
 		}
 
-		::System::Void ShowAttributeView(::Class_1_FE222B85F7CE3D1B* group, ::Class_2_1824EF69C8E376A3* info, ::Share::EAvatarSkillType type)
+		::System::Void ShowAttributeView(::DKKGMHGFHGN* group, ::BPHGNMNLLHF* info, ::Share::EAvatarSkillType type)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_FE222B85F7CE3D1B*, ::Class_2_1824EF69C8E376A3*, ::Share::EAvatarSkillType))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER_SHOWATTRIBUTEVIEW_OFFSET))(this, group, info, type);
+			return ((::System::Void(*)(::PVOID, ::DKKGMHGFHGN*, ::BPHGNMNLLHF*, ::Share::EAvatarSkillType))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER_SHOWATTRIBUTEVIEW_OFFSET))(this, group, info, type);
 		}
 
-		::System::Void ShowBuddyAttributeView(::System::Collections::Generic::List_1<::Class_1_945ACFB1FEBC7A2C_1*>* group, ::Class_1_6D3ECB4C39924DFD* skillInfo, ::System::Boolean showTitle)
+		::System::Void ShowBuddyAttributeView(::System::Collections::Generic::List_1<::IONJPHDIELI*>* group, ::DOHJLLDDOCH* skillInfo, ::System::Boolean showTitle)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_945ACFB1FEBC7A2C_1*>*, ::Class_1_6D3ECB4C39924DFD*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER_SHOWBUDDYATTRIBUTEVIEW_OFFSET))(this, group, skillInfo, showTitle);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::IONJPHDIELI*>*, ::DOHJLLDDOCH*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROLESKILLATTRIBUTEROWCHILDWINDOWCONTROLLER_SHOWBUDDYATTRIBUTEVIEW_OFFSET))(this, group, skillInfo, showTitle);
 		}
 
 		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)

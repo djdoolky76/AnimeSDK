@@ -7,13 +7,14 @@
 namespace MoleMole { class UISuibianTempleProductionPanelWidgetController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER__CHECKNEWBIE_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8499E0)
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER__CHECKNEWBIE_D__25_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x59F4E0)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER__CHECKNEWBIE_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7859D0)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER__CHECKNEWBIE_D__25_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x52F5B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleProductionPanelWidgetController__CheckNewBie_d__25_TypeDefinitionIndex = 90734;
+	inline static constexpr unsigned int UISuibianTempleProductionPanelWidgetController__CheckNewBie_d__25_TypeDefinitionIndex = 92254;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25>
 	struct alignas(8) UISuibianTempleProductionPanelWidgetController__CheckNewBie_d__25
 	{
 		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x10

@@ -4,7 +4,7 @@
 
 namespace MoleMole::MusicGame
 {
-	inline static constexpr unsigned int FJudgeTime_TypeDefinitionIndex = 79881;
+	inline static constexpr unsigned int FJudgeTime_TypeDefinitionIndex = 60364;
 
 	struct alignas(4) FJudgeTime
 	{

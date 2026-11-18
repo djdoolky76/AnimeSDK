@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/IntegratedSubsystemDescriptor_1.h"
 
-namespace UnityEngine::XR { class XRDisplaySubsystem; }
-
-#define UNITYENGINE_XR_XRDISPLAYSUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB67140)
+#define UNITYENGINE_XR_XRDISPLAYSUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF6B420)
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRDisplaySubsystemDescriptor_TypeDefinitionIndex = 28253;
+	inline static constexpr unsigned int XRDisplaySubsystemDescriptor_TypeDefinitionIndex = 27671;
 
-	class XRDisplaySubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<::UnityEngine::XR::XRDisplaySubsystem*>
+	class XRDisplaySubsystemDescriptor
 	{
 	public:
 		::System::Void _ctor()

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_EXPHEIGHTFOGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D314890)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_EXPHEIGHTFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D314AE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_EXPHEIGHTFOGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D45CB90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_EXPHEIGHTFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D45CDE0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int ExpHeightFogConfig_TypeDefinitionIndex = 27569;
+	inline static constexpr unsigned int ExpHeightFogConfig_TypeDefinitionIndex = 27400;
 
-	class ExpHeightFogConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::ExpHeightFogConfig*>
+	class ExpHeightFogConfig
 	{
 	public:
 		::UnityEngine::Color fogRayColor; // 0x18

@@ -5,34 +5,34 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_GALGAME_GALBUBBLESTORYSEQUENCENODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1383E180)
-#define MOLEMOLE_GALGAME_GALBUBBLESTORYSEQUENCENODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1383E1C0)
-#define MOLEMOLE_GALGAME_GALBUBBLESTORYSEQUENCENODE___C__GETDURATIONINSECEXCEPTCOMMONDELAY_B__7_0_OFFSET UNITYSDK_OFFSET(0x1383E1D0)
-#define MOLEMOLE_GALGAME_GALBUBBLESTORYSEQUENCENODE___C__GETDURATIONINSECEXCEPTCOMMONDELAY_B__7_1_OFFSET UNITYSDK_OFFSET(0x1383E1F0)
-#define MOLEMOLE_GALGAME_GALBUBBLESTORYSEQUENCENODE___C__GETDURATIONINSECEXCEPTCOMMONDELAY_B__7_2_OFFSET UNITYSDK_OFFSET(0x1383E200)
+#define MOLEMOLE_GALGAME_GALBUBBLESTORYSEQUENCENODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x139E49C0)
+#define MOLEMOLE_GALGAME_GALBUBBLESTORYSEQUENCENODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x139E4A00)
+#define MOLEMOLE_GALGAME_GALBUBBLESTORYSEQUENCENODE___C__GETDURATIONINSECEXCEPTCOMMONDELAY_B__7_0_OFFSET UNITYSDK_OFFSET(0x139E4A10)
+#define MOLEMOLE_GALGAME_GALBUBBLESTORYSEQUENCENODE___C__GETDURATIONINSECEXCEPTCOMMONDELAY_B__7_1_OFFSET UNITYSDK_OFFSET(0x139E4A30)
+#define MOLEMOLE_GALGAME_GALBUBBLESTORYSEQUENCENODE___C__GETDURATIONINSECEXCEPTCOMMONDELAY_B__7_2_OFFSET UNITYSDK_OFFSET(0x139E4A40)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalBubbleStorySequenceNode___c_TypeDefinitionIndex = 59082;
+	inline static constexpr unsigned int GalBubbleStorySequenceNode___c_TypeDefinitionIndex = 65346;
 
 	class GalBubbleStorySequenceNode___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::GalGame::GalBubbleStorySequenceNode___c** StaticGet___9()
+		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__7_0()
 		{
-			return (::MoleMole::GalGame::GalBubbleStorySequenceNode___c**)Il2CppClass::FromTypeDefinitionIndex(GalBubbleStorySequenceNode___c_TypeDefinitionIndex)->GetStaticField(0x3F880);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GalBubbleStorySequenceNode___c_TypeDefinitionIndex)->GetStaticField(0x44BD0);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(GalBubbleStorySequenceNode___c_TypeDefinitionIndex)->GetStaticField(0x44BD8);
 		}
 		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__7_1()
 		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GalBubbleStorySequenceNode___c_TypeDefinitionIndex)->GetStaticField(0x3F888);
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GalBubbleStorySequenceNode___c_TypeDefinitionIndex)->GetStaticField(0x44BE0);
 		}
 		static ::System::Func_2<::System::String*, ::System::Single>** StaticGet___9__7_2()
 		{
-			return (::System::Func_2<::System::String*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GalBubbleStorySequenceNode___c_TypeDefinitionIndex)->GetStaticField(0x3F890);
-		}
-		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GalBubbleStorySequenceNode___c_TypeDefinitionIndex)->GetStaticField(0x3F898);
+			return (::System::Func_2<::System::String*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GalBubbleStorySequenceNode___c_TypeDefinitionIndex)->GetStaticField(0x44BE8);
 		}
 
 		static ::System::Void _cctor()

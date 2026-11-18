@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/MoleMole/GameplayTag.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_QUERYENTITY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x107DC200)
-#define MOLEMOLE_FLOWCANVAS_NODES_QUERYENTITY_START_OFFSET UNITYSDK_OFFSET(0x107DC3A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_QUERYENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x107DC7E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_QUERYENTITY__REGISTERPORTS_B__8_0_OFFSET UNITYSDK_OFFSET(0x107DC820)
-#define MOLEMOLE_FLOWCANVAS_NODES_QUERYENTITY__REGISTERPORTS_B__8_1_OFFSET UNITYSDK_OFFSET(0x107DC830)
+#define MOLEMOLE_FLOWCANVAS_NODES_QUERYENTITY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x14310580)
+#define MOLEMOLE_FLOWCANVAS_NODES_QUERYENTITY_START_OFFSET UNITYSDK_OFFSET(0x14310720)
+#define MOLEMOLE_FLOWCANVAS_NODES_QUERYENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x14310B60)
+#define MOLEMOLE_FLOWCANVAS_NODES_QUERYENTITY__REGISTERPORTS_B__8_0_OFFSET UNITYSDK_OFFSET(0x14310BA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_QUERYENTITY__REGISTERPORTS_B__8_1_OFFSET UNITYSDK_OFFSET(0x14310BB0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int QueryEntity_TypeDefinitionIndex = 47239;
+	inline static constexpr unsigned int QueryEntity_TypeDefinitionIndex = 80505;
 
 	class QueryEntity : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::MoleMole::EntityHandle entity; // 0xA8
-		::FlowCanvas::FlowOutput* _doOuptut; // 0xB8
-		::FlowCanvas::FlowInput* _input; // 0xC0
+		::FlowCanvas::ValueOutput_1<::System::Int32>* countOutput; // 0xA8
+		::MoleMole::EntityHandle entity; // 0xB0
+		::FlowCanvas::ValueOutput_1<::MoleMole::EntityHandle>* entityOutput; // 0xC0
 		::FlowCanvas::FlowOutput* _output; // 0xC8
-		::FlowCanvas::ValueInput_1<::MoleMole::GameplayTag>* tagInput; // 0xD0
-		::FlowCanvas::ValueOutput_1<::MoleMole::EntityHandle>* entityOutput; // 0xD8
-		::FlowCanvas::ValueOutput_1<::System::Int32>* countOutput; // 0xE0
+		::FlowCanvas::FlowOutput* _doOuptut; // 0xD0
+		::FlowCanvas::ValueInput_1<::MoleMole::GameplayTag>* tagInput; // 0xD8
+		::FlowCanvas::FlowInput* _input; // 0xE0
 		::System::Int32 count; // 0xE8
 
 		::System::Void _ctor()

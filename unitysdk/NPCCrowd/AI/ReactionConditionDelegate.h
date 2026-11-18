@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/NPCCrowd/AI/RegisterItem.h"
 #include "unitysdk/NPCCrowd/AI/StimulusItem.h"
-#include "unitysdk/System/MulticastDelegate.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define NPCCROWD_AI_REACTIONCONDITIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xF850B70)
-#define NPCCROWD_AI_REACTIONCONDITIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF850C00)
-#define NPCCROWD_AI_REACTIONCONDITIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xF850390)
-#define NPCCROWD_AI_REACTIONCONDITIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xF850370)
+#define NPCCROWD_AI_REACTIONCONDITIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xEE74110)
+#define NPCCROWD_AI_REACTIONCONDITIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xEE741A0)
+#define NPCCROWD_AI_REACTIONCONDITIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xEE73930)
+#define NPCCROWD_AI_REACTIONCONDITIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xEE73920)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int ReactionConditionDelegate_TypeDefinitionIndex = 65706;
+	inline static constexpr unsigned int ReactionConditionDelegate_TypeDefinitionIndex = 80125;
 
 	class ReactionConditionDelegate : public ::System::MulticastDelegate
 	{

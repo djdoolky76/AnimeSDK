@@ -3,17 +3,17 @@
 #include "unitysdk/MoleMole/UIMissionTipsContainerWidgetController_MissionTipData.h"
 #include "unitysdk/MoleMole/UIMissionTipsContainerWidgetController_MissionTipType.h"
 
-#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER_HDDQUESTHANGTIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1745BAD0)
+#define MOLEMOLE_UIMISSIONTIPSCONTAINERWIDGETCONTROLLER_HDDQUESTHANGTIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x193B0BC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMissionTipsContainerWidgetController_HDDQuestHangTipData_TypeDefinitionIndex = 91199;
+	inline static constexpr unsigned int UIMissionTipsContainerWidgetController_HDDQuestHangTipData_TypeDefinitionIndex = 77631;
 
 	class UIMissionTipsContainerWidgetController_HDDQuestHangTipData : public ::MoleMole::UIMissionTipsContainerWidgetController_MissionTipData
 	{
 	public:
-		::System::Boolean NeedPlayFadeInAnim; // 0x20
-		::System::Int32 HangQuestID; // 0x24
+		::System::Int32 HangQuestID; // 0x20
+		::System::Boolean NeedPlayFadeInAnim; // 0x24
 
 		::System::Void _ctor(::MoleMole::UIMissionTipsContainerWidgetController_MissionTipType tipType, ::System::Boolean fromResume, ::System::Int32 questID)
 		{

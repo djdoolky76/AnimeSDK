@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 
 namespace System { class String; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class SVGPropertySheet; }
 
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLESHEET___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9FA30)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLESHEET___C__DISPLAYCLASS2_0__GET_ITEM_B__0_OFFSET UNITYSDK_OFFSET(0x1DA9FAF0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLESHEET___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8CB60)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLESHEET___C__DISPLAYCLASS2_0__GET_ITEM_B__0_OFFSET UNITYSDK_OFFSET(0x1DE8CC20)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGStyleSheet___c__DisplayClass2_0_TypeDefinitionIndex = 31766;
+	inline static constexpr unsigned int SVGStyleSheet___c__DisplayClass2_0_TypeDefinitionIndex = 31204;
 
 	class SVGStyleSheet___c__DisplayClass2_0 : public ::System::Object
 	{

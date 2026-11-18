@@ -3,13 +3,13 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int LevelWeatherType_TypeDefinitionIndex = 27959;
+	inline static constexpr unsigned int LevelWeatherType_TypeDefinitionIndex = 26688;
 
 	enum class LevelWeatherType : ::System::Int32
 	{
-		CommonBattle = 0,
-		WeatherSystemV2 = 3,
 		Zero = 2,
+		WeatherSystemV2 = 3,
 		MainCity_DayAndNight = 1,
+		CommonBattle = 0,
 	};
 }

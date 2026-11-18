@@ -3,15 +3,15 @@
 #include "unitysdk/MoleMole/Config/ConfigHollowInteractCondition.h"
 #include "unitysdk/ProtoScript/HollowEntityType.h"
 
-class Class_1_0340E479638D8801;
+class PDFPKGIKEEJ;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYENTITYTYPE_CREATECONDITION_OFFSET UNITYSDK_OFFSET(0x1A4B34A0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYENTITYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B3580)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYENTITYTYPE_CREATECONDITION_OFFSET UNITYSDK_OFFSET(0x1653B880)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYENTITYTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1653B960)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowInteractConditionByEntityType_TypeDefinitionIndex = 80066;
+	inline static constexpr unsigned int ConfigHollowInteractConditionByEntityType_TypeDefinitionIndex = 64467;
 
 	class ConfigHollowInteractConditionByEntityType : public ::MoleMole::Config::ConfigHollowInteractCondition
 	{
@@ -25,9 +25,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYENTITYTYPE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_0340E479638D8801* CreateCondition()
+		::PDFPKGIKEEJ* CreateCondition()
 		{
-			return ((::Class_1_0340E479638D8801*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYENTITYTYPE_CREATECONDITION_OFFSET))(this);
+			return ((::PDFPKGIKEEJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTCONDITIONBYENTITYTYPE_CREATECONDITION_OFFSET))(this);
 		}
 	};
 }

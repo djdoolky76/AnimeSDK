@@ -6,7 +6,7 @@
 
 namespace NPCCrowd::Animation::Job
 {
-	inline static constexpr unsigned int FullBodyIKJob_HintEffectorHandle_TypeDefinitionIndex = 89934;
+	inline static constexpr unsigned int FullBodyIKJob_HintEffectorHandle_TypeDefinitionIndex = 88183;
 
 	struct alignas(4) FullBodyIKJob_HintEffectorHandle
 	{

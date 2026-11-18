@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeGameplay/CompareDistanceCondition.h"
-#include "unitysdk/System/Object.h"
-#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_COMPAREDISTANCECONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x1878F140)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_COMPAREDISTANCECONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1878F1E0)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_COMPAREDISTANCECONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1878F260)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_COMPAREDISTANCECONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x1BF46A00)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_COMPAREDISTANCECONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1BF46AA0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_COMPAREDISTANCECONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1BF46B20)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_CompareDistanceCondition_TypeDefinitionIndex = 49913;
+	inline static constexpr unsigned int VirtualFunctionExtensions_CompareDistanceCondition_TypeDefinitionIndex = 66121;
 
 	class VirtualFunctionExtensions_CompareDistanceCondition : public ::System::Object
 	{

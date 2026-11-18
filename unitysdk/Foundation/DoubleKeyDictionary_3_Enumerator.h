@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/SDoubleKeyValue_3.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
@@ -10,14 +9,14 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DoubleKeyDictionary_3_Enumerator_TypeDefinitionIndex = 8363;
+	inline static constexpr unsigned int DoubleKeyDictionary_3_Enumerator_TypeDefinitionIndex = 8011;
 
-	template <typename TKey, typename TSubKey, typename TValue>
+	template <typename T1, typename T2, typename T3>
 	class DoubleKeyDictionary_3_Enumerator : public ::System::Object
 	{
 	public:
-		::Foundation::DoubleKeyDictionary_3<TKey, TSubKey, TValue>* m_oOwner; // 0x0
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, ::System::Collections::Generic::Dictionary_2<TSubKey, TValue>*>>* m_oEnumerator1; // 0x0
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TSubKey, TValue>>* m_oEnumerator2; // 0x0
+		::Foundation::DoubleKeyDictionary_3<T1, T2, T3>* m_oOwner; // 0x0
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<T1, ::System::Collections::Generic::Dictionary_2<T2, T3>*>>* m_oEnumerator1; // 0x0
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<T2, T3>>* m_oEnumerator2; // 0x0
 	};
 }

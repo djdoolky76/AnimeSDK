@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NapLightType_TypeDefinitionIndex = 5854;
+	inline static constexpr unsigned int NapLightType_TypeDefinitionIndex = 5860;
 
 	enum class NapLightType : ::System::Int32
 	{

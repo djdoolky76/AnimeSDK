@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigGachaPerformMisc; }
 
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B0C50)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x16539BC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformance_TypeDefinitionIndex = 78376;
+	inline static constexpr unsigned int ConfigGachaPerformance_TypeDefinitionIndex = 66696;
 
 	class ConfigGachaPerformance : public ::Foundation::MihoyoSerializedScriptableObject
 	{

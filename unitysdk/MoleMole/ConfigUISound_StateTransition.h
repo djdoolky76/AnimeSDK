@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class ConfigSoundActionGeneral; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGUISOUND_STATETRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B820A90)
+#define MOLEMOLE_CONFIGUISOUND_STATETRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x180CAB70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUISound_StateTransition_TypeDefinitionIndex = 90159;
+	inline static constexpr unsigned int ConfigUISound_StateTransition_TypeDefinitionIndex = 91075;
 
 	class ConfigUISound_StateTransition : public ::System::Object
 	{

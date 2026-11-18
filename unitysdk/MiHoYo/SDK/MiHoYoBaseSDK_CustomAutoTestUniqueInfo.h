@@ -2,22 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MiHoYo::SDK { class MiHoYoBaseSDK_MockFunctionInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MIHOYO_SDK_MIHOYOBASESDK_CUSTOMAUTOTESTUNIQUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF68C10)
+#define MIHOYO_SDK_MIHOYOBASESDK_CUSTOMAUTOTESTUNIQUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9700A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoBaseSDK_CustomAutoTestUniqueInfo_TypeDefinitionIndex = 37302;
+	inline static constexpr unsigned int MiHoYoBaseSDK_CustomAutoTestUniqueInfo_TypeDefinitionIndex = 35291;
 
 	class MiHoYoBaseSDK_CustomAutoTestUniqueInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::System::String*>* unique_ignore_module; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::MiHoYoBaseSDK_MockFunctionInfo*>* unique_mock_function; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* unique_mock_function; // 0x18
 
 		::System::Void _ctor()
 		{

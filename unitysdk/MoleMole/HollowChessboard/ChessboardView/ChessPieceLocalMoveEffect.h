@@ -4,37 +4,38 @@
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 #include "unitysdk/MoleMole/PieceModelAnimType.h"
 
-class Class_1_8CE3173023BA2453;
-class Class_5_A6F8D19602712D95;
+class GDCCBKJDPGE;
+class PNJDGHBEMLK;
 namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectRunContextBase; }
 namespace MoleMole::Config { class ConfigHollowChessboard_PieceChangeStructConfig; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x17907710)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_ONONCEFINISH_OFFSET UNITYSDK_OFFSET(0x17907DF0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_RUN_OFFSET UNITYSDK_OFFSET(0x179077E0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_SEARCHINNEEDCHANGE_OFFSET UNITYSDK_OFFSET(0x17907720)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_SETNEEDCHANGE_OFFSET UNITYSDK_OFFSET(0x17907DA0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17907E50)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x14AEDA30)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_ONONCEFINISH_OFFSET UNITYSDK_OFFSET(0x14AEE110)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_RUN_OFFSET UNITYSDK_OFFSET(0x14AEDB00)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_SEARCHINNEEDCHANGE_OFFSET UNITYSDK_OFFSET(0x14AEDA40)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_SETNEEDCHANGE_OFFSET UNITYSDK_OFFSET(0x14AEE0C0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x14AEE170)
 
 namespace MoleMole::HollowChessboard::ChessboardView
 {
-	inline static constexpr unsigned int ChessPieceLocalMoveEffect_TypeDefinitionIndex = 60528;
+	inline static constexpr unsigned int ChessPieceLocalMoveEffect_TypeDefinitionIndex = 41980;
 
 	class ChessPieceLocalMoveEffect : public ::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessboard::HollowCell, ::System::Boolean>* _needChange; // 0x20
-		::System::Action* mergedEnd; // 0x28
+		::System::Action* mergedEnd; // 0x20
+		::System::Action* OnEnd; // 0x28
 		::MoleMole::Config::ConfigHollowChessboard_PieceChangeStructConfig* Config; // 0x30
-		::System::Action* OnEnd; // 0x38
-		::System::Boolean ForceCloseMultipleDisplay; // 0x40
-		::System::Boolean PreserveVE; // 0x41
-		::System::Boolean ModifyHollowRenderWorld; // 0x42
-		::System::Boolean DoAllPiece; // 0x43
-		::System::Int32 _waitCount; // 0x44
+		::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessboard::HollowCell, ::System::Boolean>* _needChange; // 0x38
+		::System::Int32 _waitCount; // 0x40
+		::System::Boolean ModifyHollowRenderWorld; // 0x44
+		::System::Boolean DoAllPiece; // 0x45
+		::System::Boolean ForceCloseMultipleDisplay; // 0x46
+		::System::Boolean PreserveVE; // 0x47
 		::MoleMole::PieceModelAnimType AnimType; // 0x48
 
 		::System::Void _ctor()
@@ -52,9 +53,9 @@ namespace MoleMole::HollowChessboard::ChessboardView
 			return ((::System::Boolean(*)(::PVOID, ::MoleMole::HollowChessboard::HollowCell, ::System::Boolean&))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_SEARCHINNEEDCHANGE_OFFSET))(this, cell, result);
 		}
 
-		::System::Void Run(::Class_5_A6F8D19602712D95* chessPiece, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase* context, ::Class_1_8CE3173023BA2453* timeScale)
+		::System::Void Run(::PNJDGHBEMLK* chessPiece, ::System::Action_1<::System::Object*>* endCallback, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase* context, ::GDCCBKJDPGE* timeScale)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_5_A6F8D19602712D95*, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>*, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase*, ::Class_1_8CE3173023BA2453*))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_RUN_OFFSET))(this, chessPiece, endCallback, context, timeScale);
+			return ((::System::Void(*)(::PVOID, ::PNJDGHBEMLK*, ::System::Action_1<::System::Object*>*, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase*, ::GDCCBKJDPGE*))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_CHESSBOARDVIEW_CHESSPIECELOCALMOVEEFFECT_RUN_OFFSET))(this, chessPiece, endCallback, context, timeScale);
 		}
 
 		::System::Void SetNeedChange(::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessboard::HollowCell, ::System::Boolean>* needChange)

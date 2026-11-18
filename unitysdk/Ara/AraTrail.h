@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Ara/AraTrail_CurveFrame.h"
-#include "unitysdk/Ara/AraTrail_Point.h"
 #include "unitysdk/Ara/AraTrail_TextureMode.h"
 #include "unitysdk/Ara/AraTrail_Timescale.h"
 #include "unitysdk/Ara/AraTrail_TrailAlignment.h"
 #include "unitysdk/Ara/AraTrail_TrailSorting.h"
 #include "unitysdk/Ara/AraTrail_TrailSpace.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Rendering/ShadowCastingMode.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/Ara/AraTrail_CurveFrame.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 
 namespace Ara { class TrailSection; }
 namespace Ara { template <typename T> class ElasticArray_1; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
@@ -27,49 +27,49 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define ARA_ARATRAIL_ADD_ONUPDATEPOINTS_OFFSET UNITYSDK_OFFSET(0x1F63B760)
-#define ARA_ARATRAIL_APPENDFLATTRAIL_OFFSET UNITYSDK_OFFSET(0x1F640F00)
-#define ARA_ARATRAIL_APPENDSECTION_OFFSET UNITYSDK_OFFSET(0x1F640920)
-#define ARA_ARATRAIL_ATTACHTOCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1F63BC60)
-#define ARA_ARATRAIL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F63BB50)
-#define ARA_ARATRAIL_CLEARMESHDATA_OFFSET UNITYSDK_OFFSET(0x1F63D320)
-#define ARA_ARATRAIL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F63BE70)
-#define ARA_ARATRAIL_COMMITMESHDATA_OFFSET UNITYSDK_OFFSET(0x1F63D480)
-#define ARA_ARATRAIL_DETACHFROMCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1F63BD70)
-#define ARA_ARATRAIL_EMISSIONSTEP_OFFSET UNITYSDK_OFFSET(0x1F63C060)
-#define ARA_ARATRAIL_EMITPOINT_OFFSET UNITYSDK_OFFSET(0x1F63CB60)
-#define ARA_ARATRAIL_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1F63D260)
-#define ARA_ARATRAIL_GETLENGHT_OFFSET UNITYSDK_OFFSET(0x1F63DB00)
-#define ARA_ARATRAIL_GETRENDERABLEPOINTS_OFFSET UNITYSDK_OFFSET(0x1F63DC00)
-#define ARA_ARATRAIL_GET_DELTATIME_OFFSET UNITYSDK_OFFSET(0x1F63B880)
-#define ARA_ARATRAIL_GET_FIXEDDELTATIME_OFFSET UNITYSDK_OFFSET(0x1F63B8A0)
-#define ARA_ARATRAIL_GET_MESH_OFFSET UNITYSDK_OFFSET(0x1F63B8C0)
-#define ARA_ARATRAIL_GET_VELOCITY_OFFSET UNITYSDK_OFFSET(0x1F63B860)
-#define ARA_ARATRAIL_GET_WORLDTOTRAIL_OFFSET UNITYSDK_OFFSET(0x1F63B8D0)
-#define ARA_ARATRAIL_INITIALIZECURVEFRAME_OFFSET UNITYSDK_OFFSET(0x1F63ECF0)
-#define ARA_ARATRAIL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1F63C000)
-#define ARA_ARATRAIL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F63B460)
-#define ARA_ARATRAIL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F63B200)
-#define ARA_ARATRAIL_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x1F63B660)
-#define ARA_ARATRAIL_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x1F63B690)
-#define ARA_ARATRAIL_ONREALDISABLE_OFFSET UNITYSDK_OFFSET(0x1F63B5A0)
-#define ARA_ARATRAIL_ONREALENABLE_OFFSET UNITYSDK_OFFSET(0x1F63B290)
-#define ARA_ARATRAIL_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F63BB20)
-#define ARA_ARATRAIL_PHYSICSSTEP_OFFSET UNITYSDK_OFFSET(0x1F63D100)
-#define ARA_ARATRAIL_REMOVE_ONUPDATEPOINTS_OFFSET UNITYSDK_OFFSET(0x1F63B7E0)
-#define ARA_ARATRAIL_RENDERMESH_OFFSET UNITYSDK_OFFSET(0x1F63D810)
-#define ARA_ARATRAIL_SNAPLASTPOINTTOTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1F63C230)
-#define ARA_ARATRAIL_UPDATEPOINTSLIFECYCLE_OFFSET UNITYSDK_OFFSET(0x1F63C8E0)
-#define ARA_ARATRAIL_UPDATESEGMENTMESH_OFFSET UNITYSDK_OFFSET(0x1F63F7F0)
-#define ARA_ARATRAIL_UPDATETRAILMESH_OFFSET UNITYSDK_OFFSET(0x1F63F470)
-#define ARA_ARATRAIL_UPDATEVELOCITY_OFFSET UNITYSDK_OFFSET(0x1F63BEA0)
-#define ARA_ARATRAIL_WARMUP_OFFSET UNITYSDK_OFFSET(0x1F63BB60)
-#define ARA_ARATRAIL__ATTACHTOCAMERARENDERING_B__88_0_OFFSET UNITYSDK_OFFSET(0x1F642340)
-#define ARA_ARATRAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F641ED0)
+#define ARA_ARATRAIL_ADD_ONUPDATEPOINTS_OFFSET UNITYSDK_OFFSET(0x1F9F21A0)
+#define ARA_ARATRAIL_APPENDFLATTRAIL_OFFSET UNITYSDK_OFFSET(0x1F9F7940)
+#define ARA_ARATRAIL_APPENDSECTION_OFFSET UNITYSDK_OFFSET(0x1F9F7360)
+#define ARA_ARATRAIL_ATTACHTOCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1F9F26A0)
+#define ARA_ARATRAIL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F9F2590)
+#define ARA_ARATRAIL_CLEARMESHDATA_OFFSET UNITYSDK_OFFSET(0x1F9F3D60)
+#define ARA_ARATRAIL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F9F28B0)
+#define ARA_ARATRAIL_COMMITMESHDATA_OFFSET UNITYSDK_OFFSET(0x1F9F3EC0)
+#define ARA_ARATRAIL_DETACHFROMCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1F9F27B0)
+#define ARA_ARATRAIL_EMISSIONSTEP_OFFSET UNITYSDK_OFFSET(0x1F9F2AA0)
+#define ARA_ARATRAIL_EMITPOINT_OFFSET UNITYSDK_OFFSET(0x1F9F35A0)
+#define ARA_ARATRAIL_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1F9F3CA0)
+#define ARA_ARATRAIL_GETLENGHT_OFFSET UNITYSDK_OFFSET(0x1F9F4540)
+#define ARA_ARATRAIL_GETRENDERABLEPOINTS_OFFSET UNITYSDK_OFFSET(0x1F9F4640)
+#define ARA_ARATRAIL_GET_DELTATIME_OFFSET UNITYSDK_OFFSET(0x1F9F22C0)
+#define ARA_ARATRAIL_GET_FIXEDDELTATIME_OFFSET UNITYSDK_OFFSET(0x1F9F22E0)
+#define ARA_ARATRAIL_GET_MESH_OFFSET UNITYSDK_OFFSET(0x1F9F2300)
+#define ARA_ARATRAIL_GET_VELOCITY_OFFSET UNITYSDK_OFFSET(0x1F9F22A0)
+#define ARA_ARATRAIL_GET_WORLDTOTRAIL_OFFSET UNITYSDK_OFFSET(0x1F9F2310)
+#define ARA_ARATRAIL_INITIALIZECURVEFRAME_OFFSET UNITYSDK_OFFSET(0x1F9F5730)
+#define ARA_ARATRAIL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1F9F2A40)
+#define ARA_ARATRAIL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F9F1EA0)
+#define ARA_ARATRAIL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F9F1C40)
+#define ARA_ARATRAIL_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x1F9F20A0)
+#define ARA_ARATRAIL_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x1F9F20D0)
+#define ARA_ARATRAIL_ONREALDISABLE_OFFSET UNITYSDK_OFFSET(0x1F9F1FE0)
+#define ARA_ARATRAIL_ONREALENABLE_OFFSET UNITYSDK_OFFSET(0x1F9F1CD0)
+#define ARA_ARATRAIL_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F9F2560)
+#define ARA_ARATRAIL_PHYSICSSTEP_OFFSET UNITYSDK_OFFSET(0x1F9F3B40)
+#define ARA_ARATRAIL_REMOVE_ONUPDATEPOINTS_OFFSET UNITYSDK_OFFSET(0x1F9F2220)
+#define ARA_ARATRAIL_RENDERMESH_OFFSET UNITYSDK_OFFSET(0x1F9F4250)
+#define ARA_ARATRAIL_SNAPLASTPOINTTOTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1F9F2C70)
+#define ARA_ARATRAIL_UPDATEPOINTSLIFECYCLE_OFFSET UNITYSDK_OFFSET(0x1F9F3320)
+#define ARA_ARATRAIL_UPDATESEGMENTMESH_OFFSET UNITYSDK_OFFSET(0x1F9F6230)
+#define ARA_ARATRAIL_UPDATETRAILMESH_OFFSET UNITYSDK_OFFSET(0x1F9F5EB0)
+#define ARA_ARATRAIL_UPDATEVELOCITY_OFFSET UNITYSDK_OFFSET(0x1F9F28E0)
+#define ARA_ARATRAIL_WARMUP_OFFSET UNITYSDK_OFFSET(0x1F9F25A0)
+#define ARA_ARATRAIL__ATTACHTOCAMERARENDERING_B__88_0_OFFSET UNITYSDK_OFFSET(0x1F9F8D80)
+#define ARA_ARATRAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9F8910)
 
 namespace Ara
 {
-	inline static constexpr unsigned int AraTrail_TypeDefinitionIndex = 33556;
+	inline static constexpr unsigned int AraTrail_TypeDefinitionIndex = 33102;
 
 	class AraTrail : public ::UnityEngine::MonoBehaviour
 	{
@@ -77,6 +77,7 @@ namespace Ara
 		// static const ::System::Single epsilon; // 0x0
 		::Ara::TrailSection* section; // 0x18
 		::Ara::AraTrail_TrailSpace space; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* customSpace; // 0x28
 		::Ara::AraTrail_Timescale timescale; // 0x30
 		::Ara::AraTrail_TrailAlignment alignment; // 0x34
@@ -84,12 +85,15 @@ namespace Ara
 		::System::Single thickness; // 0x3C
 		::System::Int32 smoothness; // 0x40
 		::System::Boolean highQualityCorners; // 0x44
+		::System::Byte _padding1[0x3];
 		::System::Int32 cornerRoundness; // 0x48
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* thicknessOverLength; // 0x50
 		::UnityEngine::Gradient* colorOverLength; // 0x58
 		::UnityEngine::AnimationCurve* thicknessOverTime; // 0x60
 		::UnityEngine::Gradient* colorOverTime; // 0x68
 		::System::Boolean emit; // 0x70
+		::System::Byte _padding3[0x3];
 		::System::Single initialThickness; // 0x74
 		::UnityEngine::Color initialColor; // 0x78
 		::UnityEngine::Vector3 initialVelocity; // 0x88
@@ -97,6 +101,7 @@ namespace Ara
 		::System::Single minDistance; // 0x98
 		::System::Single time; // 0x9C
 		::System::Boolean enablePhysics; // 0xA0
+		::System::Byte _padding4[0x3];
 		::System::Single warmup; // 0xA4
 		::UnityEngine::Vector3 gravity; // 0xA8
 		::System::Single inertia; // 0xB4
@@ -107,18 +112,20 @@ namespace Ara
 		::System::Boolean receiveShadows; // 0xCC
 		::System::Boolean useLightProbes; // 0xCD
 		::System::Boolean quadMapping; // 0xCE
+		::System::Byte _padding5[0x1];
 		::Ara::AraTrail_TextureMode textureMode; // 0xD0
 		::System::Single uvFactor; // 0xD4
 		::System::Single uvWidthFactor; // 0xD8
 		::System::Single tileAnchor; // 0xDC
 		::System::Action* onUpdatePoints; // 0xE0
-		::Ara::ElasticArray_1<::Ara::AraTrail_Point>* points; // 0xE8
-		::Ara::ElasticArray_1<::Ara::AraTrail_Point>* renderablePoints; // 0xF0
+		::Ara::ElasticArray_1<::System::Object*>* points; // 0xE8
+		::Ara::ElasticArray_1<::System::Object*>* renderablePoints; // 0xF0
 		::System::Collections::Generic::List_1<::System::Int32>* discontinuities; // 0xF8
 		::UnityEngine::Mesh* mesh_; // 0x100
 		::UnityEngine::Vector3 velocity; // 0x108
 		::UnityEngine::Vector3 prevPosition; // 0x114
 		::System::Single accumTime; // 0x120
+		::System::Byte _padding6[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* vertices; // 0x128
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* normals; // 0x130
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tangents; // 0x138
@@ -134,6 +141,7 @@ namespace Ara
 		::UnityEngine::Vector4 texTangent; // 0x1A4
 		::UnityEngine::Vector4 uv; // 0x1B4
 		::UnityEngine::Color color; // 0x1C4
+		::System::Byte _padding7[0x4];
 		::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>* renderCallback; // 0x1D8
 
 		::System::Void _ctor()
@@ -291,14 +299,14 @@ namespace Ara
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_RENDERMESH_OFFSET))(this, cam);
 		}
 
-		::System::Single GetLenght(::Ara::ElasticArray_1<::Ara::AraTrail_Point>* input)
+		::System::Single GetLenght(::Ara::ElasticArray_1<::System::Object*>* input)
 		{
-			return ((::System::Single(*)(::PVOID, ::Ara::ElasticArray_1<::Ara::AraTrail_Point>*))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_GETLENGHT_OFFSET))(this, input);
+			return ((::System::Single(*)(::PVOID, ::Ara::ElasticArray_1<::System::Object*>*))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_GETLENGHT_OFFSET))(this, input);
 		}
 
-		::Ara::ElasticArray_1<::Ara::AraTrail_Point>* GetRenderablePoints(::System::Int32 start, ::System::Int32 end)
+		::Ara::ElasticArray_1<::System::Object*>* GetRenderablePoints(::System::Int32 start, ::System::Int32 end)
 		{
-			return ((::Ara::ElasticArray_1<::Ara::AraTrail_Point>*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_GETRENDERABLEPOINTS_OFFSET))(this, start, end);
+			return ((::Ara::ElasticArray_1<::System::Object*>*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_GETRENDERABLEPOINTS_OFFSET))(this, start, end);
 		}
 
 		::Ara::AraTrail_CurveFrame InitializeCurveFrame(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 nextPoint)
@@ -316,14 +324,14 @@ namespace Ara
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_UPDATESEGMENTMESH_OFFSET))(this, start, end, localCamPosition);
 		}
 
-		::System::Void AppendSection(::Il2CppArray<::Ara::AraTrail_Point>* data, ::Ara::AraTrail_CurveFrame& frame, ::System::Int32 i, ::System::Int32 count, ::System::Single sectionThickness, ::System::Single vCoord)
+		::System::Void AppendSection(::Il2CppArray<::System::Object*>* data, ::Ara::AraTrail_CurveFrame& frame, ::System::Int32 i, ::System::Int32 count, ::System::Single sectionThickness, ::System::Single vCoord)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Ara::AraTrail_Point>*, ::Ara::AraTrail_CurveFrame&, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_APPENDSECTION_OFFSET))(this, data, frame, i, count, sectionThickness, vCoord);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::Ara::AraTrail_CurveFrame&, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_APPENDSECTION_OFFSET))(this, data, frame, i, count, sectionThickness, vCoord);
 		}
 
-		::System::Void AppendFlatTrail(::Il2CppArray<::Ara::AraTrail_Point>* data, ::Ara::AraTrail_CurveFrame& frame, ::System::Int32 i, ::System::Int32 count, ::System::Single sectionThickness, ::System::Single vCoord, ::System::Int32& va, ::System::Int32& vb)
+		::System::Void AppendFlatTrail(::Il2CppArray<::System::Object*>* data, ::Ara::AraTrail_CurveFrame& frame, ::System::Int32 i, ::System::Int32 count, ::System::Single sectionThickness, ::System::Single vCoord, ::System::Int32& va, ::System::Int32& vb)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Ara::AraTrail_Point>*, ::Ara::AraTrail_CurveFrame&, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_APPENDFLATTRAIL_OFFSET))(this, data, frame, i, count, sectionThickness, vCoord, va, vb);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::Ara::AraTrail_CurveFrame&, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_APPENDFLATTRAIL_OFFSET))(this, data, frame, i, count, sectionThickness, vCoord, va, vb);
 		}
 
 		::System::Void _AttachToCameraRendering_b__88_0(::UnityEngine::Rendering::ScriptableRenderContext cntxt, ::UnityEngine::Camera* cam)

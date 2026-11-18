@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color32.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_COLOR32FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E53ED30)
-#define MESSAGEPACK_UNITY_COLOR32FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E53ECC0)
-#define MESSAGEPACK_UNITY_COLOR32FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E53EF30)
+#define MESSAGEPACK_UNITY_COLOR32FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7B2D90)
+#define MESSAGEPACK_UNITY_COLOR32FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7B2D20)
+#define MESSAGEPACK_UNITY_COLOR32FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B2F90)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int Color32Formatter_TypeDefinitionIndex = 31007;
+	inline static constexpr unsigned int Color32Formatter_TypeDefinitionIndex = 30840;
 
 	class Color32Formatter : public ::System::Object
 	{

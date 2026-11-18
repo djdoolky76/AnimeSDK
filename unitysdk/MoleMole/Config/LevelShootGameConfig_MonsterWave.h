@@ -3,20 +3,19 @@
 #include "unitysdk/MoleMole/Config/LevelShootGameConfig_WaveType.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole::Config { class LevelShootGameConfig_WaveGroupParam; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_MONSTERWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD70400)
+#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_MONSTERWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x190B5960)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelShootGameConfig_MonsterWave_TypeDefinitionIndex = 52692;
+	inline static constexpr unsigned int LevelShootGameConfig_MonsterWave_TypeDefinitionIndex = 40520;
 
 	class LevelShootGameConfig_MonsterWave : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::Config::LevelShootGameConfig_WaveGroupParam*>* GroupList; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* GroupList; // 0x10
 		::MoleMole::Config::LevelShootGameConfig_WaveType WaveType; // 0x18
 		::System::Single LifeTime; // 0x1C
 		::System::String* TriggerLevelEvent; // 0x20

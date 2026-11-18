@@ -3,7 +3,7 @@
 
 namespace Microsoft::Win32
 {
-	inline static constexpr unsigned int PowerModes_TypeDefinitionIndex = 4294;
+	inline static constexpr unsigned int PowerModes_TypeDefinitionIndex = 4293;
 
 	enum class PowerModes : ::System::Int32
 	{

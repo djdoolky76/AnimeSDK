@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Reflection/ResourceLocation.h"
+#include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF396C0)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E399550)
 
 namespace System::Reflection
 {

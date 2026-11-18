@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int FinalPassCBuffer_TypeDefinitionIndex = 27246;
+	inline static constexpr unsigned int FinalPassCBuffer_TypeDefinitionIndex = 26997;
 
 	struct alignas(4) FinalPassCBuffer
 	{

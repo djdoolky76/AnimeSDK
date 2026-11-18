@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_JOBSUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x11949650)
+#define NPCCROWD_JOBSUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x105FAF90)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int JobsUtils_TypeDefinitionIndex = 75787;
+	inline static constexpr unsigned int JobsUtils_TypeDefinitionIndex = 77111;
 
 	class JobsUtils : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_INNER_LOOP_BATCH_COUNT()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(JobsUtils_TypeDefinitionIndex)->GetStaticField(0xCF80);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(JobsUtils_TypeDefinitionIndex)->GetStaticField(0xC030);
 		}
 
 		static ::System::Void _cctor()

@@ -8,14 +8,14 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int AnalyzerResult_1_TypeDefinitionIndex = 37671;
+	inline static constexpr unsigned int AnalyzerResult_1_TypeDefinitionIndex = 35669;
 
-	template <typename TDataType>
+	template <typename T>
 	class AnalyzerResult_1 : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::ReporterUtil::AvgResult*>* _AvgResults_k__BackingField; // 0x0
-		::System::Collections::Generic::Dictionary_2<::System::String*, TDataType>* _PxResults_k__BackingField; // 0x0
+		::System::Collections::Generic::Dictionary_2<::System::String*, T>* _PxResults_k__BackingField; // 0x0
 		::System::Int64 _SamplesCount_k__BackingField; // 0x0
 	};
 }

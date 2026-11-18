@@ -1,0 +1,83 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/EntityHandle.h"
+#include "unitysdk/System/Object.h"
+
+class DLPBHONHLDF;
+namespace System { class String; }
+
+#define LLLNCCPNOGA_PAIHLKMEKNN_AHAOPPKFKLE_OFFSET UNITYSDK_OFFSET(0x11F223F0)
+#define LLLNCCPNOGA_PAIHLKMEKNN_CCHKNJGFHJN_OFFSET UNITYSDK_OFFSET(0x11F21F50)
+#define LLLNCCPNOGA_PAIHLKMEKNN_CFOGOHPAEKL_OFFSET UNITYSDK_OFFSET(0x11F223D0)
+#define LLLNCCPNOGA_PAIHLKMEKNN_DHAODEIDFKO_OFFSET UNITYSDK_OFFSET(0x11F21F40)
+#define LLLNCCPNOGA_PAIHLKMEKNN_EQUALS_OFFSET UNITYSDK_OFFSET(0x11F22130)
+#define LLLNCCPNOGA_PAIHLKMEKNN_JGBGPJACDOG_OFFSET UNITYSDK_OFFSET(0x11F223E0)
+#define LLLNCCPNOGA_PAIHLKMEKNN_JGPFAMKGNGG_OFFSET UNITYSDK_OFFSET(0x11F22400)
+#define LLLNCCPNOGA_PAIHLKMEKNN_OCFLMJBNMMJ_OFFSET UNITYSDK_OFFSET(0x11F22120)
+#define LLLNCCPNOGA_PAIHLKMEKNN_PADHEHLKBDO_1_OFFSET UNITYSDK_OFFSET(0x11F222E0)
+#define LLLNCCPNOGA_PAIHLKMEKNN_PADHEHLKBDO_OFFSET UNITYSDK_OFFSET(0x11F21FA0)
+#define LLLNCCPNOGA_PAIHLKMEKNN__CTOR_OFFSET UNITYSDK_OFFSET(0x11F21F30)
+
+inline static constexpr unsigned int LLLNCCPNOGA_PAIHLKMEKNN_TypeDefinitionIndex = 63640;
+
+class LLLNCCPNOGA_PAIHLKMEKNN : public ::System::Object
+{
+public:
+	::System::String* _JDFDKALIFFB_k__BackingField; // 0x10
+	::MoleMole::EntityHandle _DKNELDAGPCO_k__BackingField; // 0x18
+
+	::System::Void _ctor(::System::String* HKBLIAHMFKG, ::MoleMole::EntityHandle AMNIHACKELI)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + LLLNCCPNOGA_PAIHLKMEKNN__CTOR_OFFSET))(this, HKBLIAHMFKG, AMNIHACKELI);
+	}
+
+	::System::String* DHAODEIDFKO()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + LLLNCCPNOGA_PAIHLKMEKNN_DHAODEIDFKO_OFFSET))(this);
+	}
+
+	::System::Boolean CCHKNJGFHJN(::DLPBHONHLDF* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::DLPBHONHLDF*))((::PBYTE)hIl2Cpp + LLLNCCPNOGA_PAIHLKMEKNN_CCHKNJGFHJN_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Int32 OCFLMJBNMMJ()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + LLLNCCPNOGA_PAIHLKMEKNN_OCFLMJBNMMJ_OFFSET))(this);
+	}
+
+	::System::Boolean Equals(::System::Object* EIFONLCJOPG)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + LLLNCCPNOGA_PAIHLKMEKNN_EQUALS_OFFSET))(this, EIFONLCJOPG);
+	}
+
+	::System::Boolean PADHEHLKBDO(::DLPBHONHLDF* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::DLPBHONHLDF*))((::PBYTE)hIl2Cpp + LLLNCCPNOGA_PAIHLKMEKNN_PADHEHLKBDO_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Void CFOGOHPAEKL(::System::String* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + LLLNCCPNOGA_PAIHLKMEKNN_CFOGOHPAEKL_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Boolean JGBGPJACDOG(::System::Object* MIALFKCCCPI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + LLLNCCPNOGA_PAIHLKMEKNN_JGBGPJACDOG_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void AHAOPPKFKLE(::MoleMole::EntityHandle EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + LLLNCCPNOGA_PAIHLKMEKNN_AHAOPPKFKLE_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Boolean PADHEHLKBDO_1(::LLLNCCPNOGA_PAIHLKMEKNN* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::LLLNCCPNOGA_PAIHLKMEKNN*))((::PBYTE)hIl2Cpp + LLLNCCPNOGA_PAIHLKMEKNN_PADHEHLKBDO_1_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::MoleMole::EntityHandle JGPFAMKGNGG()
+	{
+		return ((::MoleMole::EntityHandle(*)(::PVOID))((::PBYTE)hIl2Cpp + LLLNCCPNOGA_PAIHLKMEKNN_JGPFAMKGNGG_OFFSET))(this);
+	}
+};

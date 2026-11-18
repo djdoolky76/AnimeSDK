@@ -3,25 +3,25 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ChessboardPathLink_TypeDefinitionIndex = 53298;
+	inline static constexpr unsigned int ChessboardPathLink_TypeDefinitionIndex = 50383;
 
 	enum class ChessboardPathLink : ::System::Int32
 	{
-		TL = 3,
-		B = 14,
-		TB = 2,
-		Empty = 15,
 		R = 12,
+		Empty = 15,
 		BL = 5,
-		LR = 1,
-		RTB = 10,
+		TL = 3,
 		TR = 4,
-		TLR = 7,
-		TBLR = 0,
-		BLR = 8,
-		L = 11,
-		T = 13,
-		BR = 6,
 		LTB = 9,
+		TLR = 7,
+		T = 13,
+		TB = 2,
+		RTB = 10,
+		BR = 6,
+		TBLR = 0,
+		B = 14,
+		L = 11,
+		LR = 1,
+		BLR = 8,
 	};
 }

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Rendering/StencilState.h"
@@ -11,14 +11,14 @@
 namespace UnityEngine::NAPRenderPipeline0 { class DeferredShadingPassNativeState; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E8AA860)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E8AA890)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1E8AA830)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AA790)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB62FB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EB63150)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1EB62F80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB62EE0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DeferredShadingPass_NativeImpl_TypeDefinitionIndex = 5766;
+	inline static constexpr unsigned int DeferredShadingPass_NativeImpl_TypeDefinitionIndex = 5771;
 
 	class DeferredShadingPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

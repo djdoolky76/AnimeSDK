@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_3.h"
 #include "unitysdk/Share/GridDir.h"
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCHESSENTITYMOVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x118AFF60)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCHESSENTITYMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x118AFFE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCHESSENTITYMOVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1622F0E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCHESSENTITYMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1622F160)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardChessEntityMove_TypeDefinitionIndex = 68126;
+	inline static constexpr unsigned int ChessboardChessEntityMove_TypeDefinitionIndex = 77973;
 
-	class ChessboardChessEntityMove : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_3<::MoleMole::ChessEntity*, ::Share::GridDir, ::System::Int32>
+	class ChessboardChessEntityMove
 	{
 	public:
 		::System::Void _ctor()

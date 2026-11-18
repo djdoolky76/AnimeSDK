@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UISHOPPINGMALLCASPERPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x119D7DB0)
-#define MOLEMOLE_UISHOPPINGMALLCASPERPAGECONTROLLER___C__DISPLAYCLASS28_0__GETSHOPTABGROUPINDEXBYSHOPTABID_B__0_OFFSET UNITYSDK_OFFSET(0x119D7DC0)
+#define MOLEMOLE_UISHOPPINGMALLCASPERPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1560D270)
+#define MOLEMOLE_UISHOPPINGMALLCASPERPAGECONTROLLER___C__DISPLAYCLASS28_0__GETSHOPTABGROUPINDEXBYSHOPTABID_B__0_OFFSET UNITYSDK_OFFSET(0x1560D280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIShoppingMallCasperPageController___c__DisplayClass28_0_TypeDefinitionIndex = 50598;
+	inline static constexpr unsigned int UIShoppingMallCasperPageController___c__DisplayClass28_0_TypeDefinitionIndex = 60500;
 
 	class UIShoppingMallCasperPageController___c__DisplayClass28_0 : public ::System::Object
 	{

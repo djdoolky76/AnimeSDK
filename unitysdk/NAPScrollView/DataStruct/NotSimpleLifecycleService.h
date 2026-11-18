@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NAPScrollView/DataStruct/ScrollViewLifecycleServiceBase.h"
+
+class MonoUITableScrollV2;
+namespace NAPScrollView::DataStruct { class NotSimpleScrollViewAdapterServices; }
+
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x13B50530)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE_ONEXTRADESTROY_OFFSET UNITYSDK_OFFSET(0x13B505D0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE_ONEXTRADISABLE_OFFSET UNITYSDK_OFFSET(0x13B50550)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE_ONEXTRALATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13B506B0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE_ONEXTRAUPDATE_OFFSET UNITYSDK_OFFSET(0x13B50630)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x13B50520)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE___BASE_ONEXTRADESTROY_OFFSET UNITYSDK_OFFSET(0x13B50710)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE___BASE_ONEXTRADISABLE_OFFSET UNITYSDK_OFFSET(0x13B507A0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE___BASE_ONEXTRALATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13B50830)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE___BASE_ONEXTRAUPDATE_OFFSET UNITYSDK_OFFSET(0x13B508C0)
+
+namespace NAPScrollView::DataStruct
+{
+	inline static constexpr unsigned int NotSimpleLifecycleService_TypeDefinitionIndex = 89912;
+
+	class NotSimpleLifecycleService : public ::NAPScrollView::DataStruct::ScrollViewLifecycleServiceBase
+	{
+	public:
+		::NAPScrollView::DataStruct::NotSimpleScrollViewAdapterServices* _services; // 0x18
+
+		::System::Void _ctor(::NAPScrollView::DataStruct::NotSimpleScrollViewAdapterServices* services)
+		{
+			return ((::System::Void(*)(::PVOID, ::NAPScrollView::DataStruct::NotSimpleScrollViewAdapterServices*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE__CTOR_OFFSET))(this, services);
+		}
+
+		::MonoUITableScrollV2* get_Owner()
+		{
+			return ((::MonoUITableScrollV2*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE_GET_OWNER_OFFSET))(this);
+		}
+
+		::System::Void OnExtraDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE_ONEXTRADISABLE_OFFSET))(this);
+		}
+
+		::System::Void OnExtraDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE_ONEXTRADESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnExtraUpdate(::System::Single deltaTime)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE_ONEXTRAUPDATE_OFFSET))(this, deltaTime);
+		}
+
+		::System::Void OnExtraLateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE_ONEXTRALATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnExtraDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE___BASE_ONEXTRADESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnExtraDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE___BASE_ONEXTRADISABLE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnExtraLateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE___BASE_ONEXTRALATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnExtraUpdate(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLELIFECYCLESERVICE___BASE_ONEXTRAUPDATE_OFFSET))(this, P0);
+		}
+	};
+}

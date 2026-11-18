@@ -5,35 +5,35 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine::Rendering::Universal::Internal { class MonoLightObjectProxy; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXYMANAGER_APPLYINTENSITYMULTIPLY_OFFSET UNITYSDK_OFFSET(0x1CEF9FC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXYMANAGER_HASANYPROXY_OFFSET UNITYSDK_OFFSET(0x1CEF9ED0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXYMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1CEFA420)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXYMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1CEFA660)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXYMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEFA880)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXYMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFA870)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXYMANAGER_APPLYINTENSITYMULTIPLY_OFFSET UNITYSDK_OFFSET(0x1D28AC80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXYMANAGER_HASANYPROXY_OFFSET UNITYSDK_OFFSET(0x1D28AB90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXYMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1D28B0E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXYMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1D28B320)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXYMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D28B540)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXYMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D28B530)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int MonoLightObjectProxyManager_TypeDefinitionIndex = 27916;
+	inline static constexpr unsigned int MonoLightObjectProxyManager_TypeDefinitionIndex = 26483;
 
 	class MonoLightObjectProxyManager : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::Internal::MonoLightObjectProxy*>** StaticGet_s_LocalFogProxies()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::Internal::MonoLightObjectProxy*>**)Il2CppClass::FromTypeDefinitionIndex(MonoLightObjectProxyManager_TypeDefinitionIndex)->GetStaticField(0x22D00);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::Internal::MonoLightObjectProxy*>**)Il2CppClass::FromTypeDefinitionIndex(MonoLightObjectProxyManager_TypeDefinitionIndex)->GetStaticField(0x23CE0);
 		}
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::Internal::MonoLightObjectProxy*>** StaticGet_s_LocalLightProxies()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::Internal::MonoLightObjectProxy*>**)Il2CppClass::FromTypeDefinitionIndex(MonoLightObjectProxyManager_TypeDefinitionIndex)->GetStaticField(0x22D08);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::Internal::MonoLightObjectProxy*>**)Il2CppClass::FromTypeDefinitionIndex(MonoLightObjectProxyManager_TypeDefinitionIndex)->GetStaticField(0x23CE8);
 		}
 		static ::System::Single* StaticGet_s_CachedIntensityMultiply()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MonoLightObjectProxyManager_TypeDefinitionIndex)->GetStaticField(0x6130);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MonoLightObjectProxyManager_TypeDefinitionIndex)->GetStaticField(0x6150);
 		}
 		static ::System::Single* StaticGet_s_CachedFogIntensity()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MonoLightObjectProxyManager_TypeDefinitionIndex)->GetStaticField(0x6134);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MonoLightObjectProxyManager_TypeDefinitionIndex)->GetStaticField(0x6154);
 		}
 
 		::System::Void _ctor()

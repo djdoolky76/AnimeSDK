@@ -4,11 +4,11 @@
 
 namespace ObjCRuntimeInternal { class INativeObject; }
 
-#define OBJCRUNTIMEINTERNAL_NATIVEOBJECTHELPER_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x1D6122C0)
+#define OBJCRUNTIMEINTERNAL_NATIVEOBJECTHELPER_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x1DAD6CB0)
 
 namespace ObjCRuntimeInternal
 {
-	inline static constexpr unsigned int NativeObjectHelper_TypeDefinitionIndex = 2651;
+	inline static constexpr unsigned int NativeObjectHelper_TypeDefinitionIndex = 2650;
 
 	class NativeObjectHelper : public ::System::Object
 	{

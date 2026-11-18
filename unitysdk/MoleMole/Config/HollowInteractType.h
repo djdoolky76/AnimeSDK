@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowInteractType_TypeDefinitionIndex = 56134;
+	inline static constexpr unsigned int HollowInteractType_TypeDefinitionIndex = 62567;
 
 	enum class HollowInteractType : ::System::Int32
 	{

@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/Nodes/GetSetDataStructBaset_2.h"
 
 namespace MoleMole::FlowCanvas::Nodes { class EntityData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_ENTITYSAVEDATAMAP_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1382DC50)
-#define MOLEMOLE_FLOWCANVAS_NODES_ENTITYSAVEDATAMAP_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1382DD40)
-#define MOLEMOLE_FLOWCANVAS_NODES_ENTITYSAVEDATAMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1382DE20)
+#define MOLEMOLE_FLOWCANVAS_NODES_ENTITYSAVEDATAMAP_GETVALUE_OFFSET UNITYSDK_OFFSET(0x139D2F30)
+#define MOLEMOLE_FLOWCANVAS_NODES_ENTITYSAVEDATAMAP_SETVALUE_OFFSET UNITYSDK_OFFSET(0x139D3020)
+#define MOLEMOLE_FLOWCANVAS_NODES_ENTITYSAVEDATAMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x139D3100)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int EntitySaveDataMap_TypeDefinitionIndex = 68883;
+	inline static constexpr unsigned int EntitySaveDataMap_TypeDefinitionIndex = 65301;
 
-	class EntitySaveDataMap : public ::MoleMole::FlowCanvas::Nodes::GetSetDataStructBaset_2<::MoleMole::FlowCanvas::Nodes::EntityData*, ::System::String*>
+	class EntitySaveDataMap
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::FlowCanvas::Nodes::EntityData*>* root; // 0x10

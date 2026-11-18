@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFINISHPARALLELTIMELINE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x144BED70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFINISHPARALLELTIMELINE_TRYCALLOUTPUT_OFFSET UNITYSDK_OFFSET(0x144BEE60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFINISHPARALLELTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x144BEEF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDFINISHPARALLELTIMELINE__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x144BEF30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFINISHPARALLELTIMELINE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x104076E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFINISHPARALLELTIMELINE_TRYCALLOUTPUT_OFFSET UNITYSDK_OFFSET(0x104077D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFINISHPARALLELTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x10407860)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDFINISHPARALLELTIMELINE__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x104078A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDFinishParallelTimeline_TypeDefinitionIndex = 57978;
+	inline static constexpr unsigned int LDFinishParallelTimeline_TypeDefinitionIndex = 49510;
 
 	class LDFinishParallelTimeline : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* _customTag; // 0xA8
-		::FlowCanvas::FlowOutput* _output; // 0xB0
+		::FlowCanvas::FlowOutput* _output; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* _customTag; // 0xB0
 
 		::System::Void _ctor()
 		{

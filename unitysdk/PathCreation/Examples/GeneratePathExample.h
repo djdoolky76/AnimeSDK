@@ -4,17 +4,18 @@
 
 namespace UnityEngine { class Transform; }
 
-#define PATHCREATION_EXAMPLES_GENERATEPATHEXAMPLE_START_OFFSET UNITYSDK_OFFSET(0x1EEB0680)
-#define PATHCREATION_EXAMPLES_GENERATEPATHEXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB07F0)
+#define PATHCREATION_EXAMPLES_GENERATEPATHEXAMPLE_START_OFFSET UNITYSDK_OFFSET(0x1F2326A0)
+#define PATHCREATION_EXAMPLES_GENERATEPATHEXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F232810)
 
 namespace PathCreation::Examples
 {
-	inline static constexpr unsigned int GeneratePathExample_TypeDefinitionIndex = 38119;
+	inline static constexpr unsigned int GeneratePathExample_TypeDefinitionIndex = 36121;
 
 	class GeneratePathExample : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean closedLoop; // 0x18
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::UnityEngine::Transform*>* waypoints; // 0x20
 
 		::System::Void _ctor()

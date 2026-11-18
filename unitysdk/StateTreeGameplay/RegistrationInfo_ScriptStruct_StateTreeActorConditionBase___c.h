@@ -3,21 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 namespace UnrealTypes { class ICppStructOps; }
+namespace UnrealTypes { class ScriptStruct; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x134588E0)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13458920)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x13458930)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D202290)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2022D0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D2022E0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C___CCTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0x1D202340)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c_TypeDefinitionIndex = 49042;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c_TypeDefinitionIndex = 45930;
 
 	class RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c : public ::System::Object
 	{
 	public:
-		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c_TypeDefinitionIndex)->GetStaticField(0x3DCC0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeActorConditionBase___c_TypeDefinitionIndex)->GetStaticField(0x3FD90);
 		}
 
 		static ::System::Void _cctor()
@@ -30,9 +32,14 @@ namespace StateTreeGameplay
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C__CTOR_OFFSET))(this);
 		}
 
-		::UnrealTypes::ICppStructOps* __cctor_b__2_0()
+		::UnrealTypes::ScriptStruct* __cctor_b__2_0()
 		{
-			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C___CCTOR_B__2_0_OFFSET))(this);
+			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C___CCTOR_B__2_0_OFFSET))(this);
+		}
+
+		::UnrealTypes::ICppStructOps* __cctor_b__2_1()
+		{
+			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEACTORCONDITIONBASE___C___CCTOR_B__2_1_OFFSET))(this);
 		}
 	};
 }

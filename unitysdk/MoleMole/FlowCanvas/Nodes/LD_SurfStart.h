@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_4.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFSTART_INVOKE_OFFSET UNITYSDK_OFFSET(0x19082370)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFSTART__CTOR_OFFSET UNITYSDK_OFFSET(0x19082440)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFSTART_INVOKE_OFFSET UNITYSDK_OFFSET(0x180E8E60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFSTART__CTOR_OFFSET UNITYSDK_OFFSET(0x180E8F30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SurfStart_TypeDefinitionIndex = 50828;
+	inline static constexpr unsigned int LD_SurfStart_TypeDefinitionIndex = 46081;
 
-	class LD_SurfStart : public ::FlowCanvas::Nodes::CallableActionNode_4<::MoleMole::Battle::Entity*, ::System::String*, ::System::Boolean, ::System::String*>
+	class LD_SurfStart
 	{
 	public:
 		::System::Void _ctor()

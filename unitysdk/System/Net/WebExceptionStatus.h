@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebExceptionStatus_TypeDefinitionIndex = 3338;
+	inline static constexpr unsigned int WebExceptionStatus_TypeDefinitionIndex = 3337;
 
 	enum class WebExceptionStatus : ::System::Int32
 	{

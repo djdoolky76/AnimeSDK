@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Monster/SymmetryMatrixList.h"
 
-class Class_1_B08665FEB7112467_2;
+class CIIBMFNMPCG;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_METHOD_2_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0x13AC6540)
-#define MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_METHOD_2_5F6398776E49CD87_OFFSET UNITYSDK_OFFSET(0x13AC66B0)
-#define MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_METHOD_2_6F91AC5FC7FF7C5C_OFFSET UNITYSDK_OFFSET(0x13AC6030)
-#define MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x13AC6660)
-#define MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_METHOD_2_C9665CE87E0304EF_OFFSET UNITYSDK_OFFSET(0x13AC6410)
-#define MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x13AC5DF0)
+#define MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_GHCJFANAAGG_OFFSET UNITYSDK_OFFSET(0x1469EA50)
+#define MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_LEPHHNJFGIG_OFFSET UNITYSDK_OFFSET(0x1469EF60)
+#define MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_LMLJEIENPDH_1_OFFSET UNITYSDK_OFFSET(0x1469EB80)
+#define MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_LMLJEIENPDH_OFFSET UNITYSDK_OFFSET(0x1469E9C0)
+#define MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_OJKJJMKJFCP_OFFSET UNITYSDK_OFFSET(0x1469E8A0)
+#define MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x1469E670)
 
 namespace MoleMole::Monster
 {
-	inline static constexpr unsigned int MonsterCampCollisionMatrix_TypeDefinitionIndex = 49089;
+	inline static constexpr unsigned int MonsterCampCollisionMatrix_TypeDefinitionIndex = 83411;
 
 	class MonsterCampCollisionMatrix : public ::MoleMole::Monster::SymmetryMatrixList
 	{
 	public:
-		// static const ::System::Int32 INVALID_CAMP_INDEX = 0xFFFFFFFF; // 0x0
-		::Class_1_B08665FEB7112467_2* Drawer; // 0x20
+		// static const ::System::Int32 INVALID_CAMP_INDEX = -0x1; // 0x0
+		::CIIBMFNMPCG* Drawer; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* ItemMap; // 0x28
 
 		::System::Void _ctor()
@@ -29,29 +29,29 @@ namespace MoleMole::Monster
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_6F91AC5FC7FF7C5C(::System::Int32 a1, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* a2)
+		::System::Void OJKJJMKJFCP()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_METHOD_2_6F91AC5FC7FF7C5C_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_OJKJJMKJFCP_OFFSET))(this);
 		}
 
-		::System::Int32 Method_2_C9665CE87E0304EF(::System::Int32 a1)
+		::System::Boolean LMLJEIENPDH(::System::Int32 JFMIGODCPIP, ::System::Int32 LAMPEKOELIC)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_METHOD_2_C9665CE87E0304EF_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_LMLJEIENPDH_OFFSET))(this, JFMIGODCPIP, LAMPEKOELIC);
 		}
 
-		::System::Int32 Method_2_95780ED94B90ED36()
+		::System::Boolean LMLJEIENPDH_1(::System::Int32 JFMIGODCPIP, ::System::Collections::Generic::IEnumerable_1<::System::Int32>* GECKIMNIFIK)
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_METHOD_2_95780ED94B90ED36_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_LMLJEIENPDH_1_OFFSET))(this, JFMIGODCPIP, GECKIMNIFIK);
 		}
 
-		::System::Void Method_2_51CFFE2AF748ECD7()
+		::System::Int32 LEPHHNJFGIG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_METHOD_2_51CFFE2AF748ECD7_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_LEPHHNJFGIG_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_5F6398776E49CD87(::System::Int32 a1, ::System::Int32 a2)
+		::System::Int32 GHCJFANAAGG(::System::Int32 OLNAFBAENGH)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_METHOD_2_5F6398776E49CD87_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONSTER_MONSTERCAMPCOLLISIONMATRIX_GHCJFANAAGG_OFFSET))(this, OLNAFBAENGH);
 		}
 	};
 }

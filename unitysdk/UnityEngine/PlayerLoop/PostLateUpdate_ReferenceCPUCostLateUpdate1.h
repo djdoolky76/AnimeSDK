@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ReferenceCPUCostLateUpdate1_TypeDefinitionIndex = 5670;
+	inline static constexpr unsigned int PostLateUpdate_ReferenceCPUCostLateUpdate1_TypeDefinitionIndex = 5674;
 
-	struct alignas(1) PostLateUpdate_ReferenceCPUCostLateUpdate1
+	struct alignas(4) PostLateUpdate_ReferenceCPUCostLateUpdate1
 	{
 	};
 }

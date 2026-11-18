@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/MinimalBaseFormatter_1.h"
 #include "unitysdk/System/TimeSpan.h"
 
 namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 
-#define SIRENIX_SERIALIZATION_TIMESPANFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1F8CA7F0)
-#define SIRENIX_SERIALIZATION_TIMESPANFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1F8CA980)
-#define SIRENIX_SERIALIZATION_TIMESPANFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8CAA60)
+#define SIRENIX_SERIALIZATION_TIMESPANFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1FCD4160)
+#define SIRENIX_SERIALIZATION_TIMESPANFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1FCD42F0)
+#define SIRENIX_SERIALIZATION_TIMESPANFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCD43D0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int TimeSpanFormatter_TypeDefinitionIndex = 7492;
+	inline static constexpr unsigned int TimeSpanFormatter_TypeDefinitionIndex = 7500;
 
-	class TimeSpanFormatter : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::System::TimeSpan>
+	class TimeSpanFormatter
 	{
 	public:
 		::System::Void _ctor()

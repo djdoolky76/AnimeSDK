@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardPureFunctionNode_2.h"
 
 namespace MoleMole { class ChessEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCHESSENTITYSBYINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A041520)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCHESSENTITYSBYINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1A041630)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCHESSENTITYSBYINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A7BBD20)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCHESSENTITYSBYINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7BBE30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardGetChessEntitysByIndex_TypeDefinitionIndex = 40623;
+	inline static constexpr unsigned int ChessboardGetChessEntitysByIndex_TypeDefinitionIndex = 70064;
 
-	class ChessboardGetChessEntitysByIndex : public ::MoleMole::FlowCanvas::ChessboardPureFunctionNode_2<::System::Collections::Generic::List_1<::MoleMole::ChessEntity*>*, ::System::Int32>
+	class ChessboardGetChessEntitysByIndex
 	{
 	public:
 		::System::Void _ctor()

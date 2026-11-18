@@ -1,0 +1,380 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FAMHFBEPBED.h"
+#include "unitysdk/FMFAMPOOKKC.h"
+#include "unitysdk/KFDJGBJKGPL.h"
+#include "unitysdk/LNBBGBPEIPI.h"
+#include "unitysdk/MoleMole/Battle/PinballAbilityReference.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class MGBBDIIJPFJ;
+namespace MoleMole { class ConfigPinball_PinballTelemetryAbilityGroup; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_APPENDABILITYREFERENCE_OFFSET UNITYSDK_OFFSET(0x118F20C0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_APPLYTO_OFFSET UNITYSDK_OFFSET(0x118F1210)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_CANTARGETRECEIVEKNOCKBACK_OFFSET UNITYSDK_OFFSET(0x118F3B20)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_COPYABILITYREFERENCES_OFFSET UNITYSDK_OFFSET(0x118F1E30)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_GETINSPECTORTITLE_OFFSET UNITYSDK_OFFSET(0x118F2970)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_GETPADDLESIDEOPTIONS_OFFSET UNITYSDK_OFFSET(0x118F4180)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASFINITEMASS_OFFSET UNITYSDK_OFFSET(0x118F4120)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDABILITYREFERENCES_OFFSET UNITYSDK_OFFSET(0x118F2D20)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDBALLMONSTERSUBID_OFFSET UNITYSDK_OFFSET(0x118F3950)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDCOLLIDERNAME_OFFSET UNITYSDK_OFFSET(0x118F3450)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDDASHABILITYREFERENCE_OFFSET UNITYSDK_OFFSET(0x118F3100)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDENTERABILITYREFERENCE_OFFSET UNITYSDK_OFFSET(0x118F2AF0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDEXITABILITYREFERENCE_OFFSET UNITYSDK_OFFSET(0x118F2E10)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDEXTRAENTERABILITYREFERENCES_OFFSET UNITYSDK_OFFSET(0x118F2BB0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDEXTRAEXITABILITYREFERENCES_OFFSET UNITYSDK_OFFSET(0x118F2ED0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDEXTRAPADDLEEJECTABILITYREFERENCES_OFFSET UNITYSDK_OFFSET(0x118F3310)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDINITIALLAUNCHABILITYREFERENCE_OFFSET UNITYSDK_OFFSET(0x118F3040)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDKEY_OFFSET UNITYSDK_OFFSET(0x118F2A50)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDKIND_OFFSET UNITYSDK_OFFSET(0x118F2AA0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDMASS_OFFSET UNITYSDK_OFFSET(0x118F34F0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDPADDLEEJECTABILITYREFERENCE_OFFSET UNITYSDK_OFFSET(0x118F3280)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDPADDLEPIVOT_OFFSET UNITYSDK_OFFSET(0x118F3670)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDPADDLESIDE_OFFSET UNITYSDK_OFFSET(0x118F3850)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDSKILLABILITYREFERENCE_OFFSET UNITYSDK_OFFSET(0x118F31C0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISBALL_OFFSET UNITYSDK_OFFSET(0x118F2070)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISEXPLICITPADDLESIDE_OFFSET UNITYSDK_OFFSET(0x118F3900)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISFINITE_OFFSET UNITYSDK_OFFSET(0x118F37A0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISLAUNCHER_OFFSET UNITYSDK_OFFSET(0x118F3F50)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISPADDLE_OFFSET UNITYSDK_OFFSET(0x118F28C0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISTARGETPRESENTATIONENABLED_OFFSET UNITYSDK_OFFSET(0x118F3E80)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISTARGET_OFFSET UNITYSDK_OFFSET(0x118F3F00)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ONKINDCHANGED_OFFSET UNITYSDK_OFFSET(0x118F2910)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVECOLLISIONFLAGS_OFFSET UNITYSDK_OFFSET(0x118F2210)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVECOLLISIONMODE_OFFSET UNITYSDK_OFFSET(0x118F1BA0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVEEJECTSPEED_OFFSET UNITYSDK_OFFSET(0x118F1C60)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVEFRICTION_OFFSET UNITYSDK_OFFSET(0x118F25B0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVEMASS_OFFSET UNITYSDK_OFFSET(0x118F22E0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVEMAXSPEED_OFFSET UNITYSDK_OFFSET(0x118F26A0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVERESTITUTION_OFFSET UNITYSDK_OFFSET(0x118F24E0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVESURFACEDRIVESPEED_OFFSET UNITYSDK_OFFSET(0x118F2760)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SAFEBALLMASS_OFFSET UNITYSDK_OFFSET(0x118F3FA0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SAFEMASS_OFFSET UNITYSDK_OFFSET(0x118F4060)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSCOLLISIONMODE_OFFSET UNITYSDK_OFFSET(0x118F39D0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSCONTACTABILITY_OFFSET UNITYSDK_OFFSET(0x118F1D70)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSEJECTSPEED_OFFSET UNITYSDK_OFFSET(0x118F3A20)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSFRICTION_OFFSET UNITYSDK_OFFSET(0x118F3D20)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSMASS_OFFSET UNITYSDK_OFFSET(0x118F3610)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSMAXSPEED_OFFSET UNITYSDK_OFFSET(0x118F3AC0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSPADDLEEJECTABILITY_OFFSET UNITYSDK_OFFSET(0x118F1DC0)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSRESTITUTION_OFFSET UNITYSDK_OFFSET(0x118F3C90)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSSLIDESURFACEPARAMS_OFFSET UNITYSDK_OFFSET(0x118F3D70)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSSURFACEDRIVESPEED_OFFSET UNITYSDK_OFFSET(0x118F3E30)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_USESCOLLIDER_OFFSET UNITYSDK_OFFSET(0x118F1B40)
+#define MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x118F4200)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int ConfigPinball_PinballEntityTemplate_TypeDefinitionIndex = 92187;
+
+	class ConfigPinball_PinballEntityTemplate : public ::System::Object
+	{
+	public:
+		::System::String* Key; // 0x10
+		::FAMHFBEPBED Kind; // 0x18
+		::System::Boolean OverrideTargetPresentationEnabled; // 0x1C
+		::System::Byte _padding0[0x3];
+		::System::String* ColliderName; // 0x20
+		::MoleMole::Battle::PinballAbilityReference EnterAbility; // 0x28
+		::System::Collections::Generic::List_1<::MoleMole::Battle::PinballAbilityReference>* ExtraEnterAbilities; // 0x38
+		::MoleMole::Battle::PinballAbilityReference ExitAbility; // 0x40
+		::System::Collections::Generic::List_1<::MoleMole::Battle::PinballAbilityReference>* ExtraExitAbilities; // 0x50
+		::LNBBGBPEIPI CollisionMode; // 0x58
+		::System::Single Mass; // 0x5C
+		::System::Single MaxSpeed; // 0x60
+		::System::Single EjectSpeed; // 0x64
+		::System::Single Restitution; // 0x68
+		::System::Single Friction; // 0x6C
+		::System::Single SurfaceDriveSpeed; // 0x70
+		::System::Single MobileSurfaceDriveSpeed; // 0x74
+		::System::UInt32 BallMonsterSubId; // 0x78
+		::System::Int32 BallLevel; // 0x7C
+		::System::Int32 RuntimeBallPrewarmCount; // 0x80
+		::System::Byte _padding1[0x4];
+		::MoleMole::Battle::PinballAbilityReference InitialLaunchAbility; // 0x88
+		::MoleMole::Battle::PinballAbilityReference DashAbility; // 0x98
+		::MoleMole::Battle::PinballAbilityReference SkillAbility; // 0xA8
+		::MoleMole::Battle::PinballAbilityReference PaddleEjectAbility; // 0xB8
+		::System::Collections::Generic::List_1<::MoleMole::Battle::PinballAbilityReference>* ExtraPaddleEjectAbilities; // 0xC8
+		::System::String* LauncherReadyEventName; // 0xD0
+		::System::String* LauncherLaunchEventName; // 0xD8
+		::KFDJGBJKGPL PaddleSide; // 0xE0
+		::UnityEngine::Vector3 PaddleEjectPivotLocalPosition; // 0xE4
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void ApplyTo(::MGBBDIIJPFJ* component, ::MoleMole::ConfigPinball_PinballTelemetryAbilityGroup* telemetryAbilityGroup)
+		{
+			return ((::System::Void(*)(::PVOID, ::MGBBDIIJPFJ*, ::MoleMole::ConfigPinball_PinballTelemetryAbilityGroup*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_APPLYTO_OFFSET))(this, component, telemetryAbilityGroup);
+		}
+
+		static ::Il2CppArray<::MoleMole::Battle::PinballAbilityReference>* CopyAbilityReferences(::System::Collections::Generic::List_1<::MoleMole::Battle::PinballAbilityReference>* abilityReferences)
+		{
+			return ((::Il2CppArray<::MoleMole::Battle::PinballAbilityReference>*(*)(::System::Collections::Generic::List_1<::MoleMole::Battle::PinballAbilityReference>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_COPYABILITYREFERENCES_OFFSET))(abilityReferences);
+		}
+
+		static ::Il2CppArray<::MoleMole::Battle::PinballAbilityReference>* AppendAbilityReference(::Il2CppArray<::MoleMole::Battle::PinballAbilityReference>* abilityReferences, ::MoleMole::Battle::PinballAbilityReference abilityReference)
+		{
+			return ((::Il2CppArray<::MoleMole::Battle::PinballAbilityReference>*(*)(::Il2CppArray<::MoleMole::Battle::PinballAbilityReference>*, ::MoleMole::Battle::PinballAbilityReference))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_APPENDABILITYREFERENCE_OFFSET))(abilityReferences, abilityReference);
+		}
+
+		::System::Void OnKindChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ONKINDCHANGED_OFFSET))(this);
+		}
+
+		::System::String* GetInspectorTitle()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_GETINSPECTORTITLE_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidKey()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDKEY_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidKind()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDKIND_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidEnterAbilityReference()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDENTERABILITYREFERENCE_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidExtraEnterAbilityReferences()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDEXTRAENTERABILITYREFERENCES_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidExitAbilityReference()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDEXITABILITYREFERENCE_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidExtraExitAbilityReferences()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDEXTRAEXITABILITYREFERENCES_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidInitialLaunchAbilityReference()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDINITIALLAUNCHABILITYREFERENCE_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidDashAbilityReference()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDDASHABILITYREFERENCE_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidSkillAbilityReference()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDSKILLABILITYREFERENCE_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidPaddleEjectAbilityReference()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDPADDLEEJECTABILITYREFERENCE_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidExtraPaddleEjectAbilityReferences()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDEXTRAPADDLEEJECTABILITYREFERENCES_OFFSET))(this);
+		}
+
+		static ::System::Boolean HasValidAbilityReferences(::System::Collections::Generic::List_1<::MoleMole::Battle::PinballAbilityReference>* abilityReferences)
+		{
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::MoleMole::Battle::PinballAbilityReference>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDABILITYREFERENCES_OFFSET))(abilityReferences);
+		}
+
+		::System::Boolean HasValidColliderName()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDCOLLIDERNAME_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidMass()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDMASS_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidPaddlePivot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDPADDLEPIVOT_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidPaddleSide()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDPADDLESIDE_OFFSET))(this);
+		}
+
+		::System::Boolean HasValidBallMonsterSubId()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASVALIDBALLMONSTERSUBID_OFFSET))(this);
+		}
+
+		::System::Boolean UsesCollider()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_USESCOLLIDER_OFFSET))(this);
+		}
+
+		::System::Boolean ShowsContactAbility()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSCONTACTABILITY_OFFSET))(this);
+		}
+
+		::System::Boolean ShowsCollisionMode()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSCOLLISIONMODE_OFFSET))(this);
+		}
+
+		::System::Boolean ShowsMass()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSMASS_OFFSET))(this);
+		}
+
+		::System::Boolean ShowsEjectSpeed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSEJECTSPEED_OFFSET))(this);
+		}
+
+		::System::Boolean ShowsMaxSpeed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSMAXSPEED_OFFSET))(this);
+		}
+
+		::System::Boolean ShowsRestitution()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSRESTITUTION_OFFSET))(this);
+		}
+
+		::System::Boolean ShowsFriction()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSFRICTION_OFFSET))(this);
+		}
+
+		::System::Boolean ShowsSurfaceDriveSpeed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSSURFACEDRIVESPEED_OFFSET))(this);
+		}
+
+		::System::Boolean ShowsPaddleEjectAbility()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSPADDLEEJECTABILITY_OFFSET))(this);
+		}
+
+		::System::Boolean ShowsSlideSurfaceParams()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SHOWSSLIDESURFACEPARAMS_OFFSET))(this);
+		}
+
+		::System::Boolean IsTargetPresentationEnabled()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISTARGETPRESENTATIONENABLED_OFFSET))(this);
+		}
+
+		::System::Boolean IsPaddle()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISPADDLE_OFFSET))(this);
+		}
+
+		::System::Boolean IsTarget()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISTARGET_OFFSET))(this);
+		}
+
+		::System::Boolean IsBall()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISBALL_OFFSET))(this);
+		}
+
+		::System::Boolean IsLauncher()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISLAUNCHER_OFFSET))(this);
+		}
+
+		::LNBBGBPEIPI ResolveCollisionMode()
+		{
+			return ((::LNBBGBPEIPI(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVECOLLISIONMODE_OFFSET))(this);
+		}
+
+		::System::Single ResolveMass()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVEMASS_OFFSET))(this);
+		}
+
+		::System::Single ResolveEjectSpeed(::LNBBGBPEIPI collisionMode)
+		{
+			return ((::System::Single(*)(::PVOID, ::LNBBGBPEIPI))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVEEJECTSPEED_OFFSET))(this, collisionMode);
+		}
+
+		::System::Single ResolveRestitution()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVERESTITUTION_OFFSET))(this);
+		}
+
+		::System::Single ResolveFriction()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVEFRICTION_OFFSET))(this);
+		}
+
+		::System::Single ResolveMaxSpeed(::LNBBGBPEIPI collisionMode)
+		{
+			return ((::System::Single(*)(::PVOID, ::LNBBGBPEIPI))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVEMAXSPEED_OFFSET))(this, collisionMode);
+		}
+
+		::System::Single ResolveSurfaceDriveSpeed(::LNBBGBPEIPI collisionMode)
+		{
+			return ((::System::Single(*)(::PVOID, ::LNBBGBPEIPI))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVESURFACEDRIVESPEED_OFFSET))(this, collisionMode);
+		}
+
+		::FMFAMPOOKKC ResolveCollisionFlags(::LNBBGBPEIPI collisionMode, ::System::Single ejectSpeed)
+		{
+			return ((::FMFAMPOOKKC(*)(::PVOID, ::LNBBGBPEIPI, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_RESOLVECOLLISIONFLAGS_OFFSET))(this, collisionMode, ejectSpeed);
+		}
+
+		::System::Boolean CanTargetReceiveKnockback(::LNBBGBPEIPI collisionMode)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::LNBBGBPEIPI))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_CANTARGETRECEIVEKNOCKBACK_OFFSET))(this, collisionMode);
+		}
+
+		static ::System::Single SafeMass(::System::Single value)
+		{
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SAFEMASS_OFFSET))(value);
+		}
+
+		static ::System::Single SafeBallMass(::System::Single value)
+		{
+			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_SAFEBALLMASS_OFFSET))(value);
+		}
+
+		static ::System::Boolean IsFinite(::UnityEngine::Vector3 value)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISFINITE_OFFSET))(value);
+		}
+
+		static ::System::Boolean HasFiniteMass(::System::Single mass)
+		{
+			return ((::System::Boolean(*)(::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_HASFINITEMASS_OFFSET))(mass);
+		}
+
+		static ::System::Collections::Generic::IEnumerable_1<::KFDJGBJKGPL>* GetPaddleSideOptions()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::KFDJGBJKGPL>*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_GETPADDLESIDEOPTIONS_OFFSET))();
+		}
+
+		static ::System::Boolean IsExplicitPaddleSide(::KFDJGBJKGPL side)
+		{
+			return ((::System::Boolean(*)(::KFDJGBJKGPL))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPINBALL_PINBALLENTITYTEMPLATE_ISEXPLICITPADDLESIDE_OFFSET))(side);
+		}
+	};
+}

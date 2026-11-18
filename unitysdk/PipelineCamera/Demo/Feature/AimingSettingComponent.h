@@ -12,17 +12,18 @@ namespace PipelineCamera::Demo::Pipeline { class DemoFollowPipelineSetting; }
 namespace PipelineCamera::Demo::Pipeline { class DemoFollowPlayerController; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define PIPELINECAMERA_DEMO_FEATURE_AIMINGSETTINGCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC92C0)
+#define PIPELINECAMERA_DEMO_FEATURE_AIMINGSETTINGCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F6680)
 
 namespace PipelineCamera::Demo::Feature
 {
-	inline static constexpr unsigned int AimingSettingComponent_TypeDefinitionIndex = 38414;
+	inline static constexpr unsigned int AimingSettingComponent_TypeDefinitionIndex = 36416;
 
 	class AimingSettingComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::PipelineCamera::Demo::Pipeline::DemoFollowPipelineSetting* aimingSetting; // 0x18
 		::System::Single aimingBlendDuration; // 0x20
+		::System::Byte _padding0[0x4];
 		::PipelineCamera::ScopedDelegateHandle _clearAimingCamera; // 0x28
 		::PipelineCamera::ICameraSubModuleBuilder_1<::PipelineCamera::Module::DefaultFollowSettingParam>* _aimingSetting; // 0x30
 		::PipelineCamera::ICameraDataBlenderBuilder* _aimingBlender; // 0x38

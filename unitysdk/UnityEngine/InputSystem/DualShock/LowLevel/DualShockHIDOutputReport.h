@@ -4,16 +4,18 @@
 #include "unitysdk/UnityEngine/InputSystem/DualShock/LowLevel/DualShockHIDOutputReport__unknown1_e__FixedBuffer.h"
 #include "unitysdk/UnityEngine/InputSystem/DualShock/LowLevel/DualShockHIDOutputReport__unknown2_e__FixedBuffer.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
+#include "unitysdk/UnityEngine/Color.h"
 
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_CREATE_OFFSET UNITYSDK_OFFSET(0x1E774490)
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0xA37A20)
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E774370)
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_SETCOLOR_OFFSET UNITYSDK_OFFSET(0xA37A90)
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_SETMOTORSPEEDS_OFFSET UNITYSDK_OFFSET(0xA37A30)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_CREATE_OFFSET UNITYSDK_OFFSET(0x1E9F6A10)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x919010)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E9F68F0)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x919080)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_SETMOTORSPEEDS_OFFSET UNITYSDK_OFFSET(0x919020)
 
 namespace UnityEngine::InputSystem::DualShock::LowLevel
 {
-	inline static constexpr unsigned int DualShockHIDOutputReport_TypeDefinitionIndex = 32457;
+	inline static constexpr unsigned int DualShockHIDOutputReport_TypeDefinitionIndex = 31906;
 
 	struct alignas(4) DualShockHIDOutputReport
 	{
@@ -30,35 +32,31 @@ namespace UnityEngine::InputSystem::DualShock::LowLevel
 		::System::Byte blueColor; // 0x20
 		::UnityEngine::InputSystem::DualShock::LowLevel::DualShockHIDOutputReport__unknown2_e__FixedBuffer unknown2; // 0x21
 
-		/*
 		static ::UnityEngine::InputSystem::Utilities::FourCC get_Type()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_GET_TYPE_OFFSET))();
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
 		::System::Void SetMotorSpeeds(::System::Single lowFreq, ::System::Single highFreq)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_SETMOTORSPEEDS_OFFSET))(this, lowFreq, highFreq);
 		}
 
-		/*
 		::System::Void SetColor(::UnityEngine::Color color)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_SETCOLOR_OFFSET))(this, color);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::DualShock::LowLevel::DualShockHIDOutputReport Create()
 		{
 			return ((::UnityEngine::InputSystem::DualShock::LowLevel::DualShockHIDOutputReport(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCKHIDOUTPUTREPORT_CREATE_OFFSET))();
 		}
+		*/
 	};
 }

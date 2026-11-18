@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_3.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 
-namespace Nap::NapECS { class EcsWorld; }
-
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x11468A80)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x131DA0F0)
 
 namespace MoleMole::Config::CameraSequence::Utils
 {
-	inline static constexpr unsigned int CameraRotationBasedOnEntityPolicy_TypeDefinitionIndex = 42165;
+	inline static constexpr unsigned int CameraRotationBasedOnEntityPolicy_TypeDefinitionIndex = 62939;
 
-	class CameraRotationBasedOnEntityPolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_3<::UnityEngine::Quaternion, ::System::UInt32, ::Nap::NapECS::EcsWorld*>
+	class CameraRotationBasedOnEntityPolicy
 	{
 	public:
 		::System::Void _ctor()

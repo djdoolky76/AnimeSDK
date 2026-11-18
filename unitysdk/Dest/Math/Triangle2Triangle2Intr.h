@@ -4,12 +4,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define DEST_MATH_TRIANGLE2TRIANGLE2INTR_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xAC7790)
-#define DEST_MATH_TRIANGLE2TRIANGLE2INTR_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xAC77F0)
+#define DEST_MATH_TRIANGLE2TRIANGLE2INTR_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x9AE040)
+#define DEST_MATH_TRIANGLE2TRIANGLE2INTR_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x9AE0A0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Triangle2Triangle2Intr_TypeDefinitionIndex = 35361;
+	inline static constexpr unsigned int Triangle2Triangle2Intr_TypeDefinitionIndex = 34934;
 
 	struct alignas(4) Triangle2Triangle2Intr
 	{

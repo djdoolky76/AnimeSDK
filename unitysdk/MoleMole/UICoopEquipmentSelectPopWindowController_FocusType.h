@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopEquipmentSelectPopWindowController_FocusType_TypeDefinitionIndex = 82679;
+	inline static constexpr unsigned int UICoopEquipmentSelectPopWindowController_FocusType_TypeDefinitionIndex = 53956;
 
 	enum class UICoopEquipmentSelectPopWindowController_FocusType : ::System::Int32
 	{

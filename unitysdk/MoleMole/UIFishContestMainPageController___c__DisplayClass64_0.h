@@ -3,30 +3,30 @@
 #include "unitysdk/MoleMole/UIFishContestMainPageController_ECloseReason.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_56;
+class CELNNCEAKGB;
 namespace MoleMole { class UIFishContestMainPageController; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTROLLER___C__DISPLAYCLASS64_0__CLOSEUI_B__0_OFFSET UNITYSDK_OFFSET(0x17D86AD0)
-#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTROLLER___C__DISPLAYCLASS64_0__CLOSEUI_B__1_OFFSET UNITYSDK_OFFSET(0x17D87190)
-#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTROLLER___C__DISPLAYCLASS64_0__CLOSEUI_B__2_OFFSET UNITYSDK_OFFSET(0x17D86FD0)
-#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTROLLER___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D86AC0)
+#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTROLLER___C__DISPLAYCLASS64_0__CLOSEUI_B__0_OFFSET UNITYSDK_OFFSET(0x19694960)
+#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTROLLER___C__DISPLAYCLASS64_0__CLOSEUI_B__1_OFFSET UNITYSDK_OFFSET(0x19695020)
+#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTROLLER___C__DISPLAYCLASS64_0__CLOSEUI_B__2_OFFSET UNITYSDK_OFFSET(0x19694E60)
+#define MOLEMOLE_UIFISHCONTESTMAINPAGECONTROLLER___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19694950)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishContestMainPageController___c__DisplayClass64_0_TypeDefinitionIndex = 52886;
+	inline static constexpr unsigned int UIFishContestMainPageController___c__DisplayClass64_0_TypeDefinitionIndex = 49984;
 
 	class UIFishContestMainPageController___c__DisplayClass64_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::System::Action_1<::System::Boolean>* __9__2; // 0x18
-		::Class_2_208CC9941471731A_56* configLevel; // 0x20
+		::CELNNCEAKGB* configLevel; // 0x10
+		::System::Action* __9__1; // 0x18
+		::System::Action_1<::System::Boolean>* __9__2; // 0x20
 		::MoleMole::UIFishContestMainPageController* __4__this; // 0x28
-		::MoleMole::UIFishContestMainPageController_ECloseReason reason; // 0x30
-		::System::Boolean success; // 0x34
-		::System::Int32 levelId; // 0x38
+		::System::Int32 levelId; // 0x30
+		::MoleMole::UIFishContestMainPageController_ECloseReason reason; // 0x34
+		::System::Boolean success; // 0x38
 
 		::System::Void _ctor()
 		{

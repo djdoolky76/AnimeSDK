@@ -8,13 +8,13 @@ namespace MoleMole::Config { class ConfigUIPortraitItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_GETNAMECARDCONFIG_OFFSET UNITYSDK_OFFSET(0x1170EE60)
-#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_GETROLECONFIG_OFFSET UNITYSDK_OFFSET(0x1170ED30)
-#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1170F060)
+#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_GETNAMECARDCONFIG_OFFSET UNITYSDK_OFFSET(0xFACB100)
+#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT_GETROLECONFIG_OFFSET UNITYSDK_OFFSET(0xFACAFD0)
+#define MOLEMOLE_CONFIG_CONFIGUIGACHAPORTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0xFACB300)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIGachaPortrait_TypeDefinitionIndex = 40629;
+	inline static constexpr unsigned int ConfigUIGachaPortrait_TypeDefinitionIndex = 52405;
 
 	class ConfigUIGachaPortrait : public ::Foundation::MihoyoSerializedScriptableObject
 	{

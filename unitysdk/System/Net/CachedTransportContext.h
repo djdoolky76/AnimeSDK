@@ -5,12 +5,12 @@
 
 namespace System::Security::Authentication::ExtendedProtection { class ChannelBinding; }
 
-#define SYSTEM_NET_CACHEDTRANSPORTCONTEXT_GETCHANNELBINDING_OFFSET UNITYSDK_OFFSET(0x1D6A4970)
-#define SYSTEM_NET_CACHEDTRANSPORTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A4960)
+#define SYSTEM_NET_CACHEDTRANSPORTCONTEXT_GETCHANNELBINDING_OFFSET UNITYSDK_OFFSET(0x1DB9EB80)
+#define SYSTEM_NET_CACHEDTRANSPORTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9EB70)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CachedTransportContext_TypeDefinitionIndex = 3334;
+	inline static constexpr unsigned int CachedTransportContext_TypeDefinitionIndex = 3333;
 
 	class CachedTransportContext : public ::System::Net::TransportContext
 	{

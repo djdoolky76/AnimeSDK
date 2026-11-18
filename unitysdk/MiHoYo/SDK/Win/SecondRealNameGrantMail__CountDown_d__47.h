@@ -5,26 +5,27 @@
 namespace MiHoYo::SDK::Win { class SecondRealNameGrantMail; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__COUNTDOWN_D__47_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DD62E90)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__COUNTDOWN_D__47_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DD63060)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__COUNTDOWN_D__47_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DD630C0)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__COUNTDOWN_D__47_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1DD63070)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__COUNTDOWN_D__47_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DD62E80)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__COUNTDOWN_D__47__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD62E70)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__COUNTDOWN_D__47_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1E07CDB0)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__COUNTDOWN_D__47_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E07CF80)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__COUNTDOWN_D__47_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E07CFE0)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__COUNTDOWN_D__47_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1E07CF90)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__COUNTDOWN_D__47_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E07CDA0)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL__COUNTDOWN_D__47__CTOR_OFFSET UNITYSDK_OFFSET(0x1E07CD90)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SecondRealNameGrantMail__CountDown_d__47_TypeDefinitionIndex = 21619;
+	inline static constexpr unsigned int SecondRealNameGrantMail__CountDown_d__47_TypeDefinitionIndex = 20819;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36, typename T37, typename T38, typename T39, typename T40, typename T41, typename T42, typename T43, typename T44, typename T45, typename T46, typename T47>
 	class SecondRealNameGrantMail__CountDown_d__47 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::SecondRealNameGrantMail* __4__this; // 0x10
-		::System::Object* __2__current; // 0x18
+		::System::Object* __2__current; // 0x10
+		::MiHoYo::SDK::Win::SecondRealNameGrantMail* __4__this; // 0x18
 		::System::String* _countDownTimeUnit_5__2; // 0x20
-		::System::Int32 __1__state; // 0x28
+		::System::Single time; // 0x28
 		::System::Single _startTime_5__1; // 0x2C
-		::System::Single time; // 0x30
+		::System::Int32 __1__state; // 0x30
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

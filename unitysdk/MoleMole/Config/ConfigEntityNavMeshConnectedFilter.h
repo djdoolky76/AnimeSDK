@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYNAVMESHCONNECTEDFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x14861420)
-#define MOLEMOLE_CONFIG_CONFIGENTITYNAVMESHCONNECTEDFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14861CE0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYNAVMESHCONNECTEDFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x11E8E3E0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYNAVMESHCONNECTEDFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11E8ECA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityNavMeshConnectedFilter_TypeDefinitionIndex = 70744;
+	inline static constexpr unsigned int ConfigEntityNavMeshConnectedFilter_TypeDefinitionIndex = 69283;
 
 	class ConfigEntityNavMeshConnectedFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{

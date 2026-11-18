@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/ViewObject/ViewObjectManager_ReloadParamBase.h"
 
-#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_RELOADGROUPSUITEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17F2A290)
+#define FOUNDATION_VIEWOBJECT_VIEWOBJECTMANAGER_RELOADGROUPSUITEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x142C2AB0)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectManager_ReloadGroupSuiteParam_TypeDefinitionIndex = 55570;
+	inline static constexpr unsigned int ViewObjectManager_ReloadGroupSuiteParam_TypeDefinitionIndex = 66677;
 
 	class ViewObjectManager_ReloadGroupSuiteParam : public ::Foundation::ViewObject::ViewObjectManager_ReloadParamBase
 	{
 	public:
-		::System::UInt32 GroupID; // 0x30
-		::System::UInt32 SuiteIndex; // 0x34
+		::System::UInt32 SuiteIndex; // 0x30
+		::System::UInt32 GroupID; // 0x34
 
 		::System::Void _ctor()
 		{

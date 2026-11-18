@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SPINE_SKELETONBINARY_VERTICES__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6F270)
+#define SPINE_SKELETONBINARY_VERTICES__CTOR_OFFSET UNITYSDK_OFFSET(0x20066200)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SkeletonBinary_Vertices_TypeDefinitionIndex = 33527;
+	inline static constexpr unsigned int SkeletonBinary_Vertices_TypeDefinitionIndex = 33052;
 
 	class SkeletonBinary_Vertices : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* vertices; // 0x10
 		::Il2CppArray<::System::Int32>* bones; // 0x18
+		::System::Int32 length; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigLevelEndPerform; }
 
-#define MOLEMOLE_CONFIG_CONFIGLEVELENDPERFORMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1625FAE0)
+#define MOLEMOLE_CONFIG_CONFIGLEVELENDPERFORMS__CTOR_OFFSET UNITYSDK_OFFSET(0x19B194D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLevelEndPerforms_TypeDefinitionIndex = 58788;
+	inline static constexpr unsigned int ConfigLevelEndPerforms_TypeDefinitionIndex = 85257;
 
 	class ConfigLevelEndPerforms : public ::Foundation::MihoyoSerializedScriptableObject
 	{

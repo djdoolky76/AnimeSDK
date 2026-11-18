@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Net { class TimerThread_Callback; }
 namespace System::Net { class TimerThread_Timer; }
 
-#define SYSTEM_NET_TIMERTHREAD_QUEUE_CREATETIMER_OFFSET UNITYSDK_OFFSET(0x1CC1C180)
-#define SYSTEM_NET_TIMERTHREAD_QUEUE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1CC1C170)
-#define SYSTEM_NET_TIMERTHREAD_QUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC1C160)
+#define SYSTEM_NET_TIMERTHREAD_QUEUE_CREATETIMER_OFFSET UNITYSDK_OFFSET(0x1D1110B0)
+#define SYSTEM_NET_TIMERTHREAD_QUEUE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1D1110A0)
+#define SYSTEM_NET_TIMERTHREAD_QUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D111090)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TimerThread_Queue_TypeDefinitionIndex = 3395;
+	inline static constexpr unsigned int TimerThread_Queue_TypeDefinitionIndex = 3394;
 
 	class TimerThread_Queue : public ::System::Object
 	{

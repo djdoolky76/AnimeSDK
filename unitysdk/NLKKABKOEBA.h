@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BIMJMHMDFLK.h"
+#include "unitysdk/DEGIECFEDMB.h"
+
+class EFGEKMKMFJO;
+
+#define NLKKABKOEBA_BGJPLEHEDKJ_OFFSET UNITYSDK_OFFSET(0x1CCC8E40)
+#define NLKKABKOEBA_CGMGCAKGAHH_OFFSET UNITYSDK_OFFSET(0x1CCC8FB0)
+#define NLKKABKOEBA_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x1CCC9040)
+#define NLKKABKOEBA_EHKEOICIJJB_OFFSET UNITYSDK_OFFSET(0x1CCC8C30)
+#define NLKKABKOEBA_GEFNCCFJNIM_OFFSET UNITYSDK_OFFSET(0x1CCC90D0)
+#define NLKKABKOEBA_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x1CCC8F20)
+#define NLKKABKOEBA_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x1CCC8BB0)
+#define NLKKABKOEBA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCC8FA0)
+
+inline static constexpr unsigned int NLKKABKOEBA_TypeDefinitionIndex = 93766;
+
+class NLKKABKOEBA : public ::DEGIECFEDMB
+{
+public:
+	::BIMJMHMDFLK EECEKEPKHCC; // 0x28
+	::System::Int32 MIJGLIMBIIG; // 0x2C
+	::System::Int32 JNDJJFOHLOO; // 0x30
+	::System::Int32 HAPCMJEPBOH; // 0x34
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLKKABKOEBA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLKKABKOEBA_OJENCMOGDKL_OFFSET))(this);
+	}
+
+	::System::Void EHKEOICIJJB(::EFGEKMKMFJO* LGPOPAFNIIA)
+	{
+		return ((::System::Void(*)(::PVOID, ::EFGEKMKMFJO*))((::PBYTE)hIl2Cpp + NLKKABKOEBA_EHKEOICIJJB_OFFSET))(this, LGPOPAFNIIA);
+	}
+
+	::System::Boolean BGJPLEHEDKJ(::EFGEKMKMFJO* LGPOPAFNIIA)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::EFGEKMKMFJO*))((::PBYTE)hIl2Cpp + NLKKABKOEBA_BGJPLEHEDKJ_OFFSET))(this, LGPOPAFNIIA);
+	}
+
+	::System::Void NPOLNFDBOOD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLKKABKOEBA_NPOLNFDBOOD_OFFSET))(this);
+	}
+
+	::System::Void CGMGCAKGAHH(::EFGEKMKMFJO* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::EFGEKMKMFJO*))((::PBYTE)hIl2Cpp + NLKKABKOEBA_CGMGCAKGAHH_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void ECNOGHHOPPF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLKKABKOEBA_ECNOGHHOPPF_OFFSET))(this);
+	}
+
+	::System::Void GEFNCCFJNIM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLKKABKOEBA_GEFNCCFJNIM_OFFSET))(this);
+	}
+};

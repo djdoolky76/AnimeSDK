@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ObjectArrayPool_1_ObjectHandler_1.h"
 #include "unitysdk/System/Object.h"
 
 namespace Foundation { template <typename T> class ArrayObjectPoolInstance_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectArrayPool_1_TypeDefinitionIndex = 8154;
+	inline static constexpr unsigned int ObjectArrayPool_1_TypeDefinitionIndex = 7868;
 
 	template <typename T>
 	class ObjectArrayPool_1 : public ::System::Object

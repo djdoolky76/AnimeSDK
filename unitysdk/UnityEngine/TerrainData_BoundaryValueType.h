@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TerrainData_BoundaryValueType_TypeDefinitionIndex = 33113;
+	inline static constexpr unsigned int TerrainData_BoundaryValueType_TypeDefinitionIndex = 32573;
 
 	enum class TerrainData_BoundaryValueType : ::System::Int32
 	{

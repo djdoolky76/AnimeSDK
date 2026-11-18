@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_TriggerEndOfFrameCallbacks_TypeDefinitionIndex = 5668;
+	inline static constexpr unsigned int PostLateUpdate_TriggerEndOfFrameCallbacks_TypeDefinitionIndex = 5672;
 
-	struct alignas(1) PostLateUpdate_TriggerEndOfFrameCallbacks
+	struct alignas(4) PostLateUpdate_TriggerEndOfFrameCallbacks
 	{
 	};
 }

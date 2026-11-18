@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/System/Net/Security/SslPolicyErrors.h"
+#include "unitysdk/System/MulticastDelegate.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
@@ -10,14 +10,14 @@ namespace System { class String; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define SYSTEM_NET_SECURITY_REMOTECERTVALIDATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DD2B180)
-#define SYSTEM_NET_SECURITY_REMOTECERTVALIDATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DD2B220)
-#define SYSTEM_NET_SECURITY_REMOTECERTVALIDATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DD0C390)
-#define SYSTEM_NET_SECURITY_REMOTECERTVALIDATIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD2B160)
+#define SYSTEM_NET_SECURITY_REMOTECERTVALIDATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E0CBE80)
+#define SYSTEM_NET_SECURITY_REMOTECERTVALIDATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E0CBF20)
+#define SYSTEM_NET_SECURITY_REMOTECERTVALIDATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E0AD0E0)
+#define SYSTEM_NET_SECURITY_REMOTECERTVALIDATIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0CBE70)
 
 namespace System::Net::Security
 {
-	inline static constexpr unsigned int RemoteCertValidationCallback_TypeDefinitionIndex = 3700;
+	inline static constexpr unsigned int RemoteCertValidationCallback_TypeDefinitionIndex = 3699;
 
 	class RemoteCertValidationCallback : public ::System::MulticastDelegate
 	{

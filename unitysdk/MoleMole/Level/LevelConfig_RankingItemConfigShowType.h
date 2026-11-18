@@ -3,12 +3,12 @@
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_RankingItemConfigShowType_TypeDefinitionIndex = 86296;
+	inline static constexpr unsigned int LevelConfig_RankingItemConfigShowType_TypeDefinitionIndex = 40489;
 
 	enum class LevelConfig_RankingItemConfigShowType : ::System::Int32
 	{
-		SHOW_COMPLETE_UNCOMPLETE = 2,
 		SHOW_DURATION_TYPE = 1,
 		SHOW_PROGRESS_NUMBER = 0,
+		SHOW_COMPLETE_UNCOMPLETE = 2,
 	};
 }

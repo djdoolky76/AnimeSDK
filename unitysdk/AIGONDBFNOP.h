@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PJGGDJJPPJP_ALLPGHPMHHC.h"
+
+class GEIHCPAOKKK;
+class JCADHFOKIHK;
+class PJGGDJJPPJP;
+namespace MoleMole::Battle { class Entity; }
+
+#define AIGONDBFNOP_AMEGHCHMIOD_OFFSET UNITYSDK_OFFSET(0x12CF9B50)
+#define AIGONDBFNOP_GIAOBHOJCDP_OFFSET UNITYSDK_OFFSET(0x12CF9BD0)
+#define AIGONDBFNOP_IAHPLEHJFGB_OFFSET UNITYSDK_OFFSET(0x12CF9DE0)
+#define AIGONDBFNOP__CTOR_OFFSET UNITYSDK_OFFSET(0x12CF9E20)
+
+inline static constexpr unsigned int AIGONDBFNOP_TypeDefinitionIndex = 79976;
+
+class AIGONDBFNOP
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AIGONDBFNOP__CTOR_OFFSET))(this);
+	}
+
+	::System::Void AMEGHCHMIOD(::PJGGDJJPPJP* DCGAHNLABEF, ::MoleMole::Battle::Entity* LIBPKNHDIGP, ::PJGGDJJPPJP_ALLPGHPMHHC& NHMNFCNJHKP, ::MoleMole::Battle::Entity* NGODDCIOJDP, ::JCADHFOKIHK* KADBFNFHENH)
+	{
+		return ((::System::Void(*)(::PVOID, ::PJGGDJJPPJP*, ::MoleMole::Battle::Entity*, ::PJGGDJJPPJP_ALLPGHPMHHC&, ::MoleMole::Battle::Entity*, ::JCADHFOKIHK*))((::PBYTE)hIl2Cpp + AIGONDBFNOP_AMEGHCHMIOD_OFFSET))(this, DCGAHNLABEF, LIBPKNHDIGP, NHMNFCNJHKP, NGODDCIOJDP, KADBFNFHENH);
+	}
+
+	::System::Void GIAOBHOJCDP(::GEIHCPAOKKK* OHPJHPEOFLD, ::PJGGDJJPPJP* DCGAHNLABEF, ::System::Single PMNLNNGEIFM)
+	{
+		return ((::System::Void(*)(::PVOID, ::GEIHCPAOKKK*, ::PJGGDJJPPJP*, ::System::Single))((::PBYTE)hIl2Cpp + AIGONDBFNOP_GIAOBHOJCDP_OFFSET))(this, OHPJHPEOFLD, DCGAHNLABEF, PMNLNNGEIFM);
+	}
+
+	::System::Void IAHPLEHJFGB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AIGONDBFNOP_IAHPLEHJFGB_OFFSET))(this);
+	}
+};

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::SdkReport
 {
-	inline static constexpr unsigned int StageType_TypeDefinitionIndex = 37663;
+	inline static constexpr unsigned int StageType_TypeDefinitionIndex = 35661;
 
 	enum class StageType : ::System::Int32
 	{

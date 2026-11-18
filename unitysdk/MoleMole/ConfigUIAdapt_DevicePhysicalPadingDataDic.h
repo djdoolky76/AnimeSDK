@@ -1,18 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/DataStructures/Lists/EasySerializeDictionary_3.h"
 
-namespace MoleMole { class ConfigUIAdapt_DevicePhysicalPadingDataDicEntry; }
-namespace MoleMole { class DevicePhysicalPadingData; }
-namespace System { class String; }
-
-#define MOLEMOLE_CONFIGUIADAPT_DEVICEPHYSICALPADINGDATADIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A94DE90)
+#define MOLEMOLE_CONFIGUIADAPT_DEVICEPHYSICALPADINGDATADIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C1870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAdapt_DevicePhysicalPadingDataDic_TypeDefinitionIndex = 58379;
+	inline static constexpr unsigned int ConfigUIAdapt_DevicePhysicalPadingDataDic_TypeDefinitionIndex = 70678;
 
-	class ConfigUIAdapt_DevicePhysicalPadingDataDic : public ::MoleMole::DataStructures::Lists::EasySerializeDictionary_3<::System::String*, ::MoleMole::DevicePhysicalPadingData*, ::MoleMole::ConfigUIAdapt_DevicePhysicalPadingDataDicEntry*>
+	class ConfigUIAdapt_DevicePhysicalPadingDataDic
 	{
 	public:
 		::System::Void _ctor()

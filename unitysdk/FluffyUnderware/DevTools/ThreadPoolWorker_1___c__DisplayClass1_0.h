@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int ThreadPoolWorker_1___c__DisplayClass1_0_TypeDefinitionIndex = 28986;
+	inline static constexpr unsigned int ThreadPoolWorker_1___c__DisplayClass1_0_TypeDefinitionIndex = 28425;
 
 	template <typename T>
 	class ThreadPoolWorker_1___c__DisplayClass1_0 : public ::System::Object

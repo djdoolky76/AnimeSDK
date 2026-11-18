@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICACCESSORIES_GET_ACCESSORIES_OFFSET UNITYSDK_OFFSET(0x12EFD250)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICACCESSORIES_MERGEVERSIONEDACCESSORIES_OFFSET UNITYSDK_OFFSET(0x12EFD2B0)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICACCESSORIES__CTOR_OFFSET UNITYSDK_OFFSET(0x12EFD850)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICACCESSORIES_GET_ACCESSORIES_OFFSET UNITYSDK_OFFSET(0x12770140)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICACCESSORIES_MERGEVERSIONEDACCESSORIES_OFFSET UNITYSDK_OFFSET(0x127701A0)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICACCESSORIES__CTOR_OFFSET UNITYSDK_OFFSET(0x12770740)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDynamicAccessories_TypeDefinitionIndex = 63866;
+	inline static constexpr unsigned int ConfigDynamicAccessories_TypeDefinitionIndex = 39221;
 
 	class ConfigDynamicAccessories : public ::Foundation::MihoyoSerializedScriptableObject
 	{

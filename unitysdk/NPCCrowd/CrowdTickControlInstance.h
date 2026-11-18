@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/CrowdTickControlInstance_LODData.h"
 #include "unitysdk/System/Object.h"
 
 namespace NPCCrowd { class ICrowdLODTickData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_CROWDTICKCONTROLINSTANCE_NEEDUPDATE_OFFSET UNITYSDK_OFFSET(0xF614940)
-#define NPCCROWD_CROWDTICKCONTROLINSTANCE_ONCHANGELOD_OFFSET UNITYSDK_OFFSET(0xF614280)
-#define NPCCROWD_CROWDTICKCONTROLINSTANCE_ONREMOVELOD_OFFSET UNITYSDK_OFFSET(0xF614610)
-#define NPCCROWD_CROWDTICKCONTROLINSTANCE_UPDATEBATCH_OFFSET UNITYSDK_OFFSET(0xF6147F0)
-#define NPCCROWD_CROWDTICKCONTROLINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xF614030)
+#define NPCCROWD_CROWDTICKCONTROLINSTANCE_NEEDUPDATE_OFFSET UNITYSDK_OFFSET(0x15F47950)
+#define NPCCROWD_CROWDTICKCONTROLINSTANCE_ONCHANGELOD_OFFSET UNITYSDK_OFFSET(0x15F47290)
+#define NPCCROWD_CROWDTICKCONTROLINSTANCE_ONREMOVELOD_OFFSET UNITYSDK_OFFSET(0x15F47620)
+#define NPCCROWD_CROWDTICKCONTROLINSTANCE_UPDATEBATCH_OFFSET UNITYSDK_OFFSET(0x15F47800)
+#define NPCCROWD_CROWDTICKCONTROLINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x15F47040)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int CrowdTickControlInstance_TypeDefinitionIndex = 68760;
+	inline static constexpr unsigned int CrowdTickControlInstance_TypeDefinitionIndex = 71450;
 
 	class CrowdTickControlInstance : public ::System::Object
 	{
 	public:
 		// static const ::System::UInt32 MAX_SCALE = 0x1E; // 0x0
 		// static const ::System::Int32 BATCH_STACK_CNT = 0x1E; // 0x0
-		::System::Collections::Generic::List_1<::NPCCrowd::CrowdTickControlInstance_LODData>* LODBatchData; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* LODBatchData; // 0x10
 		::System::Int32 handler; // 0x18
 
 		::System::Void _ctor(::System::Collections::Generic::List_1<::System::UInt32>* tickScale)

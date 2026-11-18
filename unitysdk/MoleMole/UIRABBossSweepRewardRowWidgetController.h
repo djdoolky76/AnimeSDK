@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
-#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/LIBOIKJGAIH.h"
 
-class Class_2_D4CEA9142C7EBAAA;
+class PDBMCIAEGOE;
 namespace MoleMole { class UIControlReference; }
 namespace MoleMole { class UIRABBossSweepRewardRowWidgetController_Data; }
 namespace System { class Object; }
 
-#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x17A18F20)
-#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x17A18F90)
-#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x17A19030)
-#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x17A190F0)
-#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17A19270)
-#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x17A19280)
-#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x17A19320)
+#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET UNITYSDK_OFFSET(0x17998F60)
+#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x17998B30)
+#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x17998BD0)
+#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_PDKCHDBODJB_OFFSET UNITYSDK_OFFSET(0x17998C90)
+#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17998E10)
+#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x17998E20)
+#define MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x17998EC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABBossSweepRewardRowWidgetController_TypeDefinitionIndex = 84471;
+	inline static constexpr unsigned int UIRABBossSweepRewardRowWidgetController_TypeDefinitionIndex = 44726;
 
 	class UIRABBossSweepRewardRowWidgetController : public ::MoleMole::ScrollViewItemWidgetController
 	{
@@ -28,14 +28,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::Class_2_D4CEA9142C7EBAAA* get__viewModel()
+		::System::Void OnCreateViewModel(::LIBOIKJGAIH& binderInfo, ::MoleMole::UIControlReference* controlReference)
 		{
-			return ((::Class_2_D4CEA9142C7EBAAA*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
-		}
-
-		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
-		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
 		}
 
 		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
@@ -43,19 +38,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
 		}
 
-		::System::Void RefreshView(::MoleMole::UIRABBossSweepRewardRowWidgetController_Data* data)
+		::System::Void __base_OnCreateViewModel(::LIBOIKJGAIH& P0, ::MoleMole::UIControlReference* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::UIRABBossSweepRewardRowWidgetController_Data*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_REFRESHVIEW_OFFSET))(this, data);
-		}
-
-		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
 		}
 
 		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::PDBMCIAEGOE* OGMPOGIHBIK()
+		{
+			return ((::PDBMCIAEGOE*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET))(this);
+		}
+
+		::System::Void PDKCHDBODJB(::MoleMole::UIRABBossSweepRewardRowWidgetController_Data* LJBPECKCCEA)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIRABBossSweepRewardRowWidgetController_Data*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABBOSSSWEEPREWARDROWWIDGETCONTROLLER_PDKCHDBODJB_OFFSET))(this, LJBPECKCCEA);
 		}
 	};
 }

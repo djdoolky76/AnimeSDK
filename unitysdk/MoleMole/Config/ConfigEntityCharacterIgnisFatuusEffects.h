@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityCharacterIgnisFatuusEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYCHARACTERIGNISFATUUSEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x143724D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCHARACTERIGNISFATUUSEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x121BC500)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityCharacterIgnisFatuusEffects_TypeDefinitionIndex = 51006;
+	inline static constexpr unsigned int ConfigEntityCharacterIgnisFatuusEffects_TypeDefinitionIndex = 66317;
 
 	class ConfigEntityCharacterIgnisFatuusEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

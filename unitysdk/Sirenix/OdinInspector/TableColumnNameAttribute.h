@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_TABLECOLUMNNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F772200)
+#define SIRENIX_ODININSPECTOR_TABLECOLUMNNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB82470)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int TableColumnNameAttribute_TypeDefinitionIndex = 7369;
+	inline static constexpr unsigned int TableColumnNameAttribute_TypeDefinitionIndex = 7376;
 
 	class TableColumnNameAttribute : public ::System::Attribute
 	{

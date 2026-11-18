@@ -5,19 +5,20 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_STYLEPROPERTY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1D0083E0)
-#define UNITYENGINE_UIELEMENTS_STYLEPROPERTY_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x1D0083F0)
-#define UNITYENGINE_UIELEMENTS_STYLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D008400)
+#define UNITYENGINE_UIELEMENTS_STYLEPROPERTY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1D5BD580)
+#define UNITYENGINE_UIELEMENTS_STYLEPROPERTY_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x1D5BD590)
+#define UNITYENGINE_UIELEMENTS_STYLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BD5A0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleProperty_TypeDefinitionIndex = 28197;
+	inline static constexpr unsigned int StyleProperty_TypeDefinitionIndex = 27615;
 
 	class StyleProperty : public ::System::Object
 	{
 	public:
 		::System::String* m_Name; // 0x10
 		::System::Int32 m_Line; // 0x18
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::UIElements::StyleValueHandle>* m_Values; // 0x20
 		::System::Boolean isCustomProperty; // 0x28
 		::System::Boolean requireVariableResolve; // 0x29

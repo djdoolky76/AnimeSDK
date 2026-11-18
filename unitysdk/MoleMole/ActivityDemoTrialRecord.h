@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ActivityBaseRecord.h"
 
-namespace MoleMole { class ActivityDemoTrialRecord_DemoTrialInnerRecord; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ACTIVITYDEMOTRIALRECORD_GET_RECORDVERSION_OFFSET UNITYSDK_OFFSET(0x1482F670)
-#define MOLEMOLE_ACTIVITYDEMOTRIALRECORD_METHOD_2_378D17F5AC4A22EE_OFFSET UNITYSDK_OFFSET(0x1482F800)
-#define MOLEMOLE_ACTIVITYDEMOTRIALRECORD_METHOD_2_FD5A1703A963C398_OFFSET UNITYSDK_OFFSET(0x1482F690)
-#define MOLEMOLE_ACTIVITYDEMOTRIALRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x1482F680)
+#define MOLEMOLE_ACTIVITYDEMOTRIALRECORD_GET_RECORDVERSION_OFFSET UNITYSDK_OFFSET(0x11E52AA0)
+#define MOLEMOLE_ACTIVITYDEMOTRIALRECORD_KNNFHOCIACL_OFFSET UNITYSDK_OFFSET(0x11E52C30)
+#define MOLEMOLE_ACTIVITYDEMOTRIALRECORD_MEMOGIBMLMG_OFFSET UNITYSDK_OFFSET(0x11E52AC0)
+#define MOLEMOLE_ACTIVITYDEMOTRIALRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x11E52AB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityDemoTrialRecord_TypeDefinitionIndex = 46804;
+	inline static constexpr unsigned int ActivityDemoTrialRecord_TypeDefinitionIndex = 57201;
 
 	class ActivityDemoTrialRecord : public ::MoleMole::ActivityBaseRecord
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::ActivityDemoTrialRecord_DemoTrialInnerRecord*>* trialList; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* trialList; // 0x10
 
 		::System::Void _ctor()
 		{
@@ -29,14 +29,14 @@ namespace MoleMole
 			return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYDEMOTRIALRECORD_GET_RECORDVERSION_OFFSET))(this);
 		}
 
-		::System::Void Method_2_FD5A1703A963C398(::System::Int32 a1, ::System::Boolean a2)
+		::System::Void MEMOGIBMLMG(::System::Int32 EKPCDDMDLMO, ::System::Boolean EKACDKOPPOB)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYDEMOTRIALRECORD_METHOD_2_FD5A1703A963C398_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYDEMOTRIALRECORD_MEMOGIBMLMG_OFFSET))(this, EKPCDDMDLMO, EKACDKOPPOB);
 		}
 
-		::System::Boolean Method_2_378D17F5AC4A22EE(::System::Int32 a1)
+		::System::Boolean KNNFHOCIACL(::System::Int32 EKPCDDMDLMO)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYDEMOTRIALRECORD_METHOD_2_378D17F5AC4A22EE_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYDEMOTRIALRECORD_KNNFHOCIACL_OFFSET))(this, EKPCDDMDLMO);
 		}
 	};
 }

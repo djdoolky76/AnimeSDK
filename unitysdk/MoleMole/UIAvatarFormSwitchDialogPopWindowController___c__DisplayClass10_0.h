@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_BD9D83395C3D28CB.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/PGCKDGJCNLH.h"
 
-#define MOLEMOLE_UIAVATARFORMSWITCHDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18509950)
-#define MOLEMOLE_UIAVATARFORMSWITCHDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__RESETCONTEXTS_B__0_OFFSET UNITYSDK_OFFSET(0x18509960)
+#define MOLEMOLE_UIAVATARFORMSWITCHDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A22AA80)
+#define MOLEMOLE_UIAVATARFORMSWITCHDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__RESETCONTEXTS_B__0_OFFSET UNITYSDK_OFFSET(0x1A22AA90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarFormSwitchDialogPopWindowController___c__DisplayClass10_0_TypeDefinitionIndex = 42528;
+	inline static constexpr unsigned int UIAvatarFormSwitchDialogPopWindowController___c__DisplayClass10_0_TypeDefinitionIndex = 86347;
 
 	class UIAvatarFormSwitchDialogPopWindowController___c__DisplayClass10_0 : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARFORMSWITCHDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _ResetContexts_b__0(::Struct_2_BD9D83395C3D28CB x, ::Struct_2_BD9D83395C3D28CB y)
+		::System::Int32 _ResetContexts_b__0(::PGCKDGJCNLH x, ::PGCKDGJCNLH y)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Struct_2_BD9D83395C3D28CB, ::Struct_2_BD9D83395C3D28CB))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARFORMSWITCHDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__RESETCONTEXTS_B__0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::PGCKDGJCNLH, ::PGCKDGJCNLH))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARFORMSWITCHDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS10_0__RESETCONTEXTS_B__0_OFFSET))(this, x, y);
 		}
 	};
 }

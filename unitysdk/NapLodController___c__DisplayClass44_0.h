@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/AssetRequestHandle.h"
 
 class NapLodController;
 namespace UnityEngine { class Object; }
 
-#define NAPLODCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x112B1A10)
-#define NAPLODCONTROLLER___C__DISPLAYCLASS44_0__LOADLODMESHASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x112B1A20)
+#define NAPLODCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFB38BF0)
+#define NAPLODCONTROLLER___C__DISPLAYCLASS44_0__LOADLODMESHASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xFB38C00)
 
-inline static constexpr unsigned int NapLodController___c__DisplayClass44_0_TypeDefinitionIndex = 48201;
+inline static constexpr unsigned int NapLodController___c__DisplayClass44_0_TypeDefinitionIndex = 82350;
 
 class NapLodController___c__DisplayClass44_0 : public ::System::Object
 {

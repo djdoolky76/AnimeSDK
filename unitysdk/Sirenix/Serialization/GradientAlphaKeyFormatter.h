@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/MinimalBaseFormatter_1.h"
 #include "unitysdk/UnityEngine/GradientAlphaKey.h"
 
 namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1FB97FE0)
-#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1FB980D0)
-#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB98230)
-#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB981D0)
+#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1FF9BA90)
+#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1FF9BB80)
+#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF9BCE0)
+#define SIRENIX_SERIALIZATION_GRADIENTALPHAKEYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF9BC80)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int GradientAlphaKeyFormatter_TypeDefinitionIndex = 7583;
+	inline static constexpr unsigned int GradientAlphaKeyFormatter_TypeDefinitionIndex = 7595;
 
-	class GradientAlphaKeyFormatter : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::UnityEngine::GradientAlphaKey>
+	class GradientAlphaKeyFormatter
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_FloatSerializer()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GradientAlphaKeyFormatter_TypeDefinitionIndex)->GetStaticField(0x6370);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GradientAlphaKeyFormatter_TypeDefinitionIndex)->GetStaticField(0x6270);
 		}
 
 		::System::Void _ctor()

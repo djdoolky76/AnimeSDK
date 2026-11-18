@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define NEWSBUBBLEPARAM_GETOTHERLANGUAGEDEFAULTFONTSIZE_OFFSET UNITYSDK_OFFSET(0x142B5C90)
-#define NEWSBUBBLEPARAM_GETOTHERLANGUAGETHREELINEFONTSIZE_OFFSET UNITYSDK_OFFSET(0x142B5BA0)
-#define NEWSBUBBLEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x142B5D80)
+#define NEWSBUBBLEPARAM_GETOTHERLANGUAGEDEFAULTFONTSIZE_OFFSET UNITYSDK_OFFSET(0xFD46BE0)
+#define NEWSBUBBLEPARAM_GETOTHERLANGUAGETHREELINEFONTSIZE_OFFSET UNITYSDK_OFFSET(0xFD46AF0)
+#define NEWSBUBBLEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xFD46CD0)
 
-inline static constexpr unsigned int NewsBubbleParam_TypeDefinitionIndex = 60532;
+inline static constexpr unsigned int NewsBubbleParam_TypeDefinitionIndex = 61464;
 
 class NewsBubbleParam : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 {
@@ -37,6 +37,7 @@ public:
 	::System::Int32 OtherLanguageDefaultFontSize; // 0xB0
 	::System::Int32 OtherLanguageThreeLineFontSize; // 0xB4
 	::System::Int32 OtherLanguageSizeCount; // 0xB8
+	::System::Byte _padding0[0x4];
 	::System::Collections::Generic::Dictionary_2<::MoleMole::LanguageType, ::System::Int32>* SingleLanguageSizeCount; // 0xC0
 	::System::Collections::Generic::Dictionary_2<::MoleMole::LanguageType, ::System::Int32>* SingleOtherLanguageDefaultFontSize; // 0xC8
 	::System::Collections::Generic::Dictionary_2<::MoleMole::LanguageType, ::System::Int32>* SingleOtherLanguageThreeLineFontSize; // 0xD0

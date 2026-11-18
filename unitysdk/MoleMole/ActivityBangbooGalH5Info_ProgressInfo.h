@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_ACTIVITYBANGBOOGALH5INFO_PROGRESSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x162337B0)
+#define MOLEMOLE_ACTIVITYBANGBOOGALH5INFO_PROGRESSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x10790F40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityBangbooGalH5Info_ProgressInfo_TypeDefinitionIndex = 90147;
+	inline static constexpr unsigned int ActivityBangbooGalH5Info_ProgressInfo_TypeDefinitionIndex = 86589;
 
 	class ActivityBangbooGalH5Info_ProgressInfo : public ::System::Object
 	{

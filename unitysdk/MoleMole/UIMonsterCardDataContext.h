@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_86AA8F306FA75018;
+class CCBGGAFNBHM;
 
-#define MOLEMOLE_UIMONSTERCARDDATACONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19872E30)
+#define MOLEMOLE_UIMONSTERCARDDATACONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17FA3B00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardDataContext_TypeDefinitionIndex = 47957;
+	inline static constexpr unsigned int UIMonsterCardDataContext_TypeDefinitionIndex = 60321;
 
 	class UIMonsterCardDataContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_86AA8F306FA75018* MonsterCardSummary; // 0x28
+		::CCBGGAFNBHM* MonsterCardSummary; // 0x28
 
 		::System::Void _ctor()
 		{

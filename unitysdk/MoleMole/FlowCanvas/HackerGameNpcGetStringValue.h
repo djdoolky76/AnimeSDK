@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 #include "unitysdk/MoleMole/FlowCanvas/HackerGameNpcStringValueType.h"
 
 namespace MoleMole { class ChessEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCGETSTRINGVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B198350)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCGETSTRINGVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B198470)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCGETSTRINGVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4AA1A0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCGETSTRINGVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AA2C0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameNpcGetStringValue_TypeDefinitionIndex = 75613;
+	inline static constexpr unsigned int HackerGameNpcGetStringValue_TypeDefinitionIndex = 83391;
 
-	class HackerGameNpcGetStringValue : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::String*, ::MoleMole::ChessEntity*, ::MoleMole::FlowCanvas::HackerGameNpcStringValueType>
+	class HackerGameNpcGetStringValue
 	{
 	public:
 		::System::Void _ctor()

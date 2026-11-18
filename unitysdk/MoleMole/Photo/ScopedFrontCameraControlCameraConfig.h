@@ -5,7 +5,7 @@
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int ScopedFrontCameraControlCameraConfig_TypeDefinitionIndex = 76465;
+	inline static constexpr unsigned int ScopedFrontCameraControlCameraConfig_TypeDefinitionIndex = 70543;
 
 	struct alignas(4) ScopedFrontCameraControlCameraConfig
 	{

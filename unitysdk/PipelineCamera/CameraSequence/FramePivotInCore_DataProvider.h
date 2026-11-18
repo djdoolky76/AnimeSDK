@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_1.h"
-#include "unitysdk/PipelineCamera/CameraSequence/FramePivotDataInCore.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE_DATAPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EED1A80)
+#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE_DATAPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F23F6B0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FramePivotInCore_DataProvider_TypeDefinitionIndex = 38630;
+	inline static constexpr unsigned int FramePivotInCore_DataProvider_TypeDefinitionIndex = 36630;
 
-	class FramePivotInCore_DataProvider : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_1<::PipelineCamera::CameraSequence::FramePivotDataInCore>
+	class FramePivotInCore_DataProvider
 	{
 	public:
 		::System::Void _ctor()

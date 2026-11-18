@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTORCOMOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D886240)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_TYPEDESCRIPTORCOMOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD33B70)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int TypeDescriptor_TypeDescriptorComObject_TypeDefinitionIndex = 3007;
+	inline static constexpr unsigned int TypeDescriptor_TypeDescriptorComObject_TypeDefinitionIndex = 3006;
 
 	class TypeDescriptor_TypeDescriptorComObject : public ::System::Object
 	{

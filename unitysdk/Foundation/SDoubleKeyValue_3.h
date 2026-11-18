@@ -4,13 +4,13 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SDoubleKeyValue_3_TypeDefinitionIndex = 8411;
+	inline static constexpr unsigned int SDoubleKeyValue_3_TypeDefinitionIndex = 8061;
 
-	template <typename TKey, typename TSubKey, typename TValue>
-	struct SDoubleKeyValue_3
+	template <typename T1, typename T2, typename T3>
+	struct alignas(8) SDoubleKeyValue_3
 	{
-		TKey _Key_k__BackingField; // 0x0
-		TSubKey _SubKey_k__BackingField; // 0x0
-		TValue _Value_k__BackingField; // 0x0
+		T1 _Key_k__BackingField; // 0x0
+		T2 _SubKey_k__BackingField; // 0x0
+		T3 _Value_k__BackingField; // 0x0
 	};
 }

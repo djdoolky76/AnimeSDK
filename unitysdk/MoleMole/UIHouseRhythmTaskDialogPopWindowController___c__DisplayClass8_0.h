@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHouseRhythmTaskContext; }
 namespace MoleMole { class UIHouseRhythmTaskDialogPopWindowController; }
 
-#define MOLEMOLE_UIHOUSERHYTHMTASKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FBEB60)
-#define MOLEMOLE_UIHOUSERHYTHMTASKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x18FBEB70)
+#define MOLEMOLE_UIHOUSERHYTHMTASKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182B11A0)
+#define MOLEMOLE_UIHOUSERHYTHMTASKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x182B11B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHouseRhythmTaskDialogPopWindowController___c__DisplayClass8_0_TypeDefinitionIndex = 42858;
+	inline static constexpr unsigned int UIHouseRhythmTaskDialogPopWindowController___c__DisplayClass8_0_TypeDefinitionIndex = 52853;
 
 	class UIHouseRhythmTaskDialogPopWindowController___c__DisplayClass8_0 : public ::System::Object
 	{

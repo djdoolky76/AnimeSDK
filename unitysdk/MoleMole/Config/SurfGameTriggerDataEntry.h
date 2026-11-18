@@ -4,15 +4,16 @@
 
 namespace MoleMole::Config { class ConfigSurfGameItemAction; }
 
-#define MOLEMOLE_CONFIG_SURFGAMETRIGGERDATAENTRY_ISVALID_OFFSET UNITYSDK_OFFSET(0x802A30)
+#define MOLEMOLE_CONFIG_SURFGAMETRIGGERDATAENTRY_ISVALID_OFFSET UNITYSDK_OFFSET(0x80CDF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SurfGameTriggerDataEntry_TypeDefinitionIndex = 64370;
+	inline static constexpr unsigned int SurfGameTriggerDataEntry_TypeDefinitionIndex = 65298;
 
 	struct alignas(8) SurfGameTriggerDataEntry
 	{
 		::System::Int32 ID; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::MoleMole::Config::ConfigSurfGameItemAction*>* triggerEnterActionConfigs; // 0x18
 		::Il2CppArray<::MoleMole::Config::ConfigSurfGameItemAction*>* triggerExitActionConfigs; // 0x20
 

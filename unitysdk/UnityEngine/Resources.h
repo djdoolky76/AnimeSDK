@@ -7,17 +7,17 @@ namespace System { class Type; }
 namespace UnityEngine { class AsyncOperation; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_RESOURCES_FINDOBJECTSOFTYPEALL_OFFSET UNITYSDK_OFFSET(0x1EBECD20)
-#define UNITYENGINE_RESOURCES_GETBUILTINRESOURCE_OFFSET UNITYSDK_OFFSET(0x1EBECD80)
-#define UNITYENGINE_RESOURCES_LOAD_1_OFFSET UNITYSDK_OFFSET(0x1EBECD70)
-#define UNITYENGINE_RESOURCES_LOAD_OFFSET UNITYSDK_OFFSET(0x1EBECD30)
-#define UNITYENGINE_RESOURCES_UNLOADASSET_OFFSET UNITYSDK_OFFSET(0x1EBECD90)
-#define UNITYENGINE_RESOURCES_UNLOADUNUSEDASSETS_OFFSET UNITYSDK_OFFSET(0x1EBECDA0)
-#define UNITYENGINE_RESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBECDB0)
+#define UNITYENGINE_RESOURCES_FINDOBJECTSOFTYPEALL_OFFSET UNITYSDK_OFFSET(0x1EF7E340)
+#define UNITYENGINE_RESOURCES_GETBUILTINRESOURCE_OFFSET UNITYSDK_OFFSET(0x1EF7E3A0)
+#define UNITYENGINE_RESOURCES_LOAD_2_OFFSET UNITYSDK_OFFSET(0x1EF7E390)
+#define UNITYENGINE_RESOURCES_LOAD_OFFSET UNITYSDK_OFFSET(0x1EF7E350)
+#define UNITYENGINE_RESOURCES_UNLOADASSET_OFFSET UNITYSDK_OFFSET(0x1EF7E3B0)
+#define UNITYENGINE_RESOURCES_UNLOADUNUSEDASSETS_OFFSET UNITYSDK_OFFSET(0x1EF7E3C0)
+#define UNITYENGINE_RESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF7E3D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Resources_TypeDefinitionIndex = 5319;
+	inline static constexpr unsigned int Resources_TypeDefinitionIndex = 5321;
 
 	class Resources : public ::System::Object
 	{
@@ -37,9 +37,9 @@ namespace UnityEngine
 			return ((::UnityEngine::Object*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RESOURCES_LOAD_OFFSET))(path);
 		}
 
-		static ::UnityEngine::Object* Load_1(::System::String* path, ::System::Type* systemTypeInstance)
+		static ::UnityEngine::Object* Load_2(::System::String* path, ::System::Type* systemTypeInstance)
 		{
-			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RESOURCES_LOAD_1_OFFSET))(path, systemTypeInstance);
+			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RESOURCES_LOAD_2_OFFSET))(path, systemTypeInstance);
 		}
 
 		static ::UnityEngine::Object* GetBuiltinResource(::System::Type* type, ::System::String* path)

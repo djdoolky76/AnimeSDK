@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/DJCHCMEFPIF.h"
+#include "unitysdk/KHNGONAHPDO.h"
+
+class KDIDJEDOKEH;
+class KFBODPBAJEO;
+namespace MoleMole { class UIUrbanMapPointWidgetContext; }
+
+#define OKEAEOLFIDF_AHJKKDMCJKA_OFFSET UNITYSDK_OFFSET(0x172D0ED0)
+#define OKEAEOLFIDF_CFPNKJHJJAJ_1_OFFSET UNITYSDK_OFFSET(0x172D0F80)
+#define OKEAEOLFIDF_CFPNKJHJJAJ_OFFSET UNITYSDK_OFFSET(0x172D0F30)
+#define OKEAEOLFIDF_CJGKDAIMJHL_OFFSET UNITYSDK_OFFSET(0x172D0E40)
+#define OKEAEOLFIDF_DIOGAFBCBPN_OFFSET UNITYSDK_OFFSET(0x172D0E80)
+#define OKEAEOLFIDF_EAOFNOLGMFG_OFFSET UNITYSDK_OFFSET(0x172D1060)
+#define OKEAEOLFIDF__CTOR_OFFSET UNITYSDK_OFFSET(0x172D0030)
+
+inline static constexpr unsigned int OKEAEOLFIDF_TypeDefinitionIndex = 79837;
+
+class OKEAEOLFIDF : public ::KHNGONAHPDO
+{
+public:
+	::DJCHCMEFPIF FEFFFPGCIIO; // 0x10
+
+	::System::Void _ctor(::DJCHCMEFPIF AMNIHACKELI, ::KDIDJEDOKEH* FOFJAFKCGDC, ::KFBODPBAJEO* ECDFBPODEOB)
+	{
+		return ((::System::Void(*)(::PVOID, ::DJCHCMEFPIF, ::KDIDJEDOKEH*, ::KFBODPBAJEO*))((::PBYTE)hIl2Cpp + OKEAEOLFIDF__CTOR_OFFSET))(this, AMNIHACKELI, FOFJAFKCGDC, ECDFBPODEOB);
+	}
+
+	::System::Boolean CJGKDAIMJHL()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + OKEAEOLFIDF_CJGKDAIMJHL_OFFSET))(this);
+	}
+
+	::System::Boolean DIOGAFBCBPN(::MoleMole::UIUrbanMapPointWidgetContext* DLIDFJKMHIL)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::MoleMole::UIUrbanMapPointWidgetContext*))((::PBYTE)hIl2Cpp + OKEAEOLFIDF_DIOGAFBCBPN_OFFSET))(this, DLIDFJKMHIL);
+	}
+
+	::System::Boolean AHJKKDMCJKA(::DJCHCMEFPIF HODAIDNDKHD)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::DJCHCMEFPIF))((::PBYTE)hIl2Cpp + OKEAEOLFIDF_AHJKKDMCJKA_OFFSET))(this, HODAIDNDKHD);
+	}
+
+	::System::Boolean CFPNKJHJJAJ(::MoleMole::UIUrbanMapPointWidgetContext* DLIDFJKMHIL)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::MoleMole::UIUrbanMapPointWidgetContext*))((::PBYTE)hIl2Cpp + OKEAEOLFIDF_CFPNKJHJJAJ_OFFSET))(this, DLIDFJKMHIL);
+	}
+
+	::System::Boolean CFPNKJHJJAJ_1(::DJCHCMEFPIF HODAIDNDKHD)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::DJCHCMEFPIF))((::PBYTE)hIl2Cpp + OKEAEOLFIDF_CFPNKJHJJAJ_1_OFFSET))(this, HODAIDNDKHD);
+	}
+
+	::DJCHCMEFPIF EAOFNOLGMFG()
+	{
+		return ((::DJCHCMEFPIF(*)(::PVOID))((::PBYTE)hIl2Cpp + OKEAEOLFIDF_EAOFNOLGMFG_OFFSET))(this);
+	}
+};

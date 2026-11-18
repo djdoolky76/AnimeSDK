@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIBridgeElementType_TypeDefinitionIndex = 21251;
+	inline static constexpr unsigned int PluginUIBridgeElementType_TypeDefinitionIndex = 20456;
 
 	class PluginUIBridgeElementType : public ::System::Object
 	{

@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_BBC07147D0E400AA_Struct_2_80920B8A456E6DC4.h"
-#include "unitysdk/Class_2_BBC07147D0E400AA_Struct_2_F7F069084F72D1BE.h"
+#include "unitysdk/EACOAHODCJC_DPNHADHPJBG.h"
+#include "unitysdk/EACOAHODCJC_JIENAGIBJOF.h"
 #include "unitysdk/System/Object.h"
 
-template <typename T> class Class_0_16E4307DCC419505_159;
-template <typename T> class Class_0_16E4307DCC419505_164;
+template <typename T> class JIOLFCAGOFH_1;
+template <typename T> class LJHFMILANJA_1;
 
-#define MOLEMOLE_UIMUSICALBATTLELEVELITEMWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x184F7AE0)
+#define MOLEMOLE_UIMUSICALBATTLELEVELITEMWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB22F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMusicalBattleLevelItemWidgetController_Data_TypeDefinitionIndex = 62229;
+	inline static constexpr unsigned int UIMusicalBattleLevelItemWidgetController_Data_TypeDefinitionIndex = 65401;
 
 	class UIMusicalBattleLevelItemWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_159<::System::Int32>* CurSelectLevelIndex; // 0x10
-		::Class_2_BBC07147D0E400AA_Struct_2_F7F069084F72D1BE LevelInfo; // 0x18
-		::Class_0_16E4307DCC419505_164<::System::Boolean>* Focused; // 0x50
-		::Class_2_BBC07147D0E400AA_Struct_2_80920B8A456E6DC4 LevelResult; // 0x58
+		::JIOLFCAGOFH_1<::System::Boolean>* Focused; // 0x10
+		::EACOAHODCJC_DPNHADHPJBG LevelInfo; // 0x18
+		::LJHFMILANJA_1<::System::Int32>* CurSelectLevelIndex; // 0x50
+		::EACOAHODCJC_JIENAGIBJOF LevelResult; // 0x58
 		::System::Boolean Latest; // 0x6C
 
 		::System::Void _ctor()

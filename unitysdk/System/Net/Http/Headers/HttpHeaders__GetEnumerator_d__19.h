@@ -1,31 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_Enumerator.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Net::Http::Headers { class HttpHeaders; }
-namespace System::Net::Http::Headers { class HttpHeaders_HeaderBucket; }
 
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1E840D30)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_STRING____GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E841000)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E841060)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1E841010)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E840D00)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19__CTOR_OFFSET UNITYSDK_OFFSET(0x1E83FE90)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1E840D20)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EAE5F80)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_STRING____GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EAE6250)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EAE62B0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EAE6260)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EAE5F50)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE50F0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPHEADERS__GETENUMERATOR_D__19___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1EAE5F70)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HttpHeaders__GetEnumerator_d__19_TypeDefinitionIndex = 26717;
+	inline static constexpr unsigned int HttpHeaders__GetEnumerator_d__19_TypeDefinitionIndex = 26085;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19>
 	class HttpHeaders__GetEnumerator_d__19 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::System::Net::Http::Headers::HttpHeaders_HeaderBucket*> __7__wrap1; // 0x10
+		::System::Object* __7__wrap1; // 0x10
+		::System::Byte _padding0[0x20];
 		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*> __2__current; // 0x38
+		::System::Byte _padding1[0x8];
 		::System::Net::Http::Headers::HttpHeaders* __4__this; // 0x48
 		::System::Int32 __1__state; // 0x50
 

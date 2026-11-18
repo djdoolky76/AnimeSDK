@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCURVECTRLBASENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1436D460)
+#define MOLEMOLE_CONFIG_CONFIGCURVECTRLBASENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x121B76F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCurveCtrlBaseNode_TypeDefinitionIndex = 48014;
+	inline static constexpr unsigned int ConfigCurveCtrlBaseNode_TypeDefinitionIndex = 46230;
 
 	class ConfigCurveCtrlBaseNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::System::String* TargetValue; // 0x18
-		::System::String* TimeScale; // 0x20
-		::System::String* CurveKey; // 0x28
-		::System::String* ForceFinishCondition; // 0x30
+		::System::String* CurveKey; // 0x18
+		::System::String* ForceFinishCondition; // 0x20
+		::System::String* TargetValue; // 0x28
+		::System::String* Duration; // 0x30
 		::System::String* SuspendCondition; // 0x38
-		::System::String* Duration; // 0x40
+		::System::String* TimeScale; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -4,16 +4,17 @@
 
 namespace Spine { class AtlasRegion; }
 
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INTANDATLASREGIONKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x900550)
-#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INTANDATLASREGIONKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x41FE00)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INTANDATLASREGIONKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x999650)
+#define SPINE_UNITY_ATTACHMENTTOOLS_ATLASUTILITIES_INTANDATLASREGIONKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x3F28E0)
 
 namespace Spine::Unity::AttachmentTools
 {
-	inline static constexpr unsigned int AtlasUtilities_IntAndAtlasRegionKey_TypeDefinitionIndex = 40203;
+	inline static constexpr unsigned int AtlasUtilities_IntAndAtlasRegionKey_TypeDefinitionIndex = 38233;
 
 	struct alignas(8) AtlasUtilities_IntAndAtlasRegionKey
 	{
 		::System::Int32 i; // 0x10
+		::System::Byte _padding0[0x4];
 		::Spine::AtlasRegion* region; // 0x18
 
 		::System::Void _ctor(::System::Int32 i, ::Spine::AtlasRegion* region)

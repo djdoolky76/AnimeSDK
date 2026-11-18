@@ -3,13 +3,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorGroundHitType_TypeDefinitionIndex = 81952;
+	inline static constexpr unsigned int AnimatorGroundHitType_TypeDefinitionIndex = 89906;
 
 	enum class AnimatorGroundHitType : ::System::Int32
 	{
-		Knock = 3,
-		Heavy = 2,
 		Light = 1,
+		Knock = 3,
 		Stay = 0,
+		Heavy = 2,
 	};
 }

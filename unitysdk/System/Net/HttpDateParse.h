@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/DateTime.h"
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTPDATEPARSE_MAKE_UPPER_OFFSET UNITYSDK_OFFSET(0x1D893730)
-#define SYSTEM_NET_HTTPDATEPARSE_MAPDAYMONTHTODWORD_OFFSET UNITYSDK_OFFSET(0x1D893750)
-#define SYSTEM_NET_HTTPDATEPARSE_PARSEHTTPDATE_OFFSET UNITYSDK_OFFSET(0x1D893AA0)
+#define SYSTEM_NET_HTTPDATEPARSE_MAKE_UPPER_OFFSET UNITYSDK_OFFSET(0x1DD41050)
+#define SYSTEM_NET_HTTPDATEPARSE_MAPDAYMONTHTODWORD_OFFSET UNITYSDK_OFFSET(0x1DD41070)
+#define SYSTEM_NET_HTTPDATEPARSE_PARSEHTTPDATE_OFFSET UNITYSDK_OFFSET(0x1DD413C0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpDateParse_TypeDefinitionIndex = 3371;
+	inline static constexpr unsigned int HttpDateParse_TypeDefinitionIndex = 3370;
 
 	class HttpDateParse : public ::System::Object
 	{
@@ -54,9 +54,9 @@ namespace System::Net
 		// static const ::System::Int32 DATE_TOKEN_FRIDAY = 0x5; // 0x0
 		// static const ::System::Int32 DATE_TOKEN_SATURDAY = 0x6; // 0x0
 		// static const ::System::Int32 DATE_TOKEN_LAST_DAY = 0x7; // 0x0
-		// static const ::System::Int32 DATE_TOKEN_GMT = 0xFFFFFC18; // 0x0
-		// static const ::System::Int32 DATE_TOKEN_LAST = 0xFFFFFC18; // 0x0
-		// static const ::System::Int32 DATE_TOKEN_ERROR = 0xFFFFFC19; // 0x0
+		// static const ::System::Int32 DATE_TOKEN_GMT = -0x3E8; // 0x0
+		// static const ::System::Int32 DATE_TOKEN_LAST = -0x3E8; // 0x0
+		// static const ::System::Int32 DATE_TOKEN_ERROR = -0x3E7; // 0x0
 
 		static ::System::Char MAKE_UPPER(::System::Char c)
 		{

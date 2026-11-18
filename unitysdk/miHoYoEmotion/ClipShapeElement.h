@@ -6,15 +6,15 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationClip; }
 namespace miHoYoEmotion { class ClipShapeCurveGrp; }
 
-#define MIHOYOEMOTION_CLIPSHAPEELEMENT_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1D034BB0)
-#define MIHOYOEMOTION_CLIPSHAPEELEMENT_GET_POSTDURATION_OFFSET UNITYSDK_OFFSET(0x1D034C20)
-#define MIHOYOEMOTION_CLIPSHAPEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D034C90)
-#define MIHOYOEMOTION_CLIPSHAPEELEMENT___BASE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1D034CB0)
-#define MIHOYOEMOTION_CLIPSHAPEELEMENT___BASE_GET_POSTDURATION_OFFSET UNITYSDK_OFFSET(0x1D034CD0)
+#define MIHOYOEMOTION_CLIPSHAPEELEMENT_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1D588170)
+#define MIHOYOEMOTION_CLIPSHAPEELEMENT_GET_POSTDURATION_OFFSET UNITYSDK_OFFSET(0x1D5881E0)
+#define MIHOYOEMOTION_CLIPSHAPEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D588250)
+#define MIHOYOEMOTION_CLIPSHAPEELEMENT___BASE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1D588270)
+#define MIHOYOEMOTION_CLIPSHAPEELEMENT___BASE_GET_POSTDURATION_OFFSET UNITYSDK_OFFSET(0x1D588290)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int ClipShapeElement_TypeDefinitionIndex = 40071;
+	inline static constexpr unsigned int ClipShapeElement_TypeDefinitionIndex = 37997;
 
 	class ClipShapeElement : public ::miHoYoEmotion::ShapeElement
 	{
@@ -27,8 +27,10 @@ namespace miHoYoEmotion
 		::miHoYoEmotion::ClipShapeCurveGrp* blinkCurveGrp; // 0x40
 		::System::Single postBlendTime; // 0x48
 		::System::Boolean isPost; // 0x4C
+		::System::Byte _padding0[0x3];
 		::Il2CppArray<::System::String*>* noPost; // 0x50
 		::System::Boolean isToFinal; // 0x58
+		::System::Byte _padding1[0x7];
 		::Il2CppArray<::System::String*>* toFinal; // 0x60
 
 		::System::Void _ctor()

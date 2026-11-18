@@ -8,11 +8,12 @@
 
 namespace UnityEngine::InputSystem::GamepadEx
 {
-	inline static constexpr unsigned int TriggerEffectCommand_TypeDefinitionIndex = 39744;
+	inline static constexpr unsigned int TriggerEffectCommand_TypeDefinitionIndex = 37744;
 
 	struct alignas(4) TriggerEffectCommand
 	{
 		::UnityEngine::InputSystem::GamepadEx::TriggerEffectMode mode; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::InputSystem::GamepadEx::TriggerEffectWeaponParam weapon; // 0x18
 		::UnityEngine::InputSystem::GamepadEx::TriggerEffectVibrationParam vibration; // 0x18
 		::UnityEngine::InputSystem::GamepadEx::TriggerEffectFeedbackParam feedback; // 0x18

@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/DebugUI_Field_1.h"
 
-#define UNITYENGINE_RENDERING_DEBUGUI_COLORFIELD_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1CA75D20)
-#define UNITYENGINE_RENDERING_DEBUGUI_COLORFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA75DB0)
-#define UNITYENGINE_RENDERING_DEBUGUI_COLORFIELD___BASE_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1CA75DD0)
+#define UNITYENGINE_RENDERING_DEBUGUI_COLORFIELD_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1D077470)
+#define UNITYENGINE_RENDERING_DEBUGUI_COLORFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D077500)
+#define UNITYENGINE_RENDERING_DEBUGUI_COLORFIELD___BASE_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1D077520)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_ColorField_TypeDefinitionIndex = 18697;
+	inline static constexpr unsigned int DebugUI_ColorField_TypeDefinitionIndex = 17848;
 
-	class DebugUI_ColorField : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityEngine::Color>
+	class DebugUI_ColorField
 	{
 	public:
 		::System::Single incStep; // 0x50
-		::System::Boolean hdr; // 0x54
-		::System::Boolean showPicker; // 0x55
+		::System::Boolean showPicker; // 0x54
+		::System::Boolean hdr; // 0x55
 		::System::Boolean showAlpha; // 0x56
-		::System::Int32 decimals; // 0x58
-		::System::Single incStepMult; // 0x5C
+		::System::Byte _padding0[0x1];
+		::System::Single incStepMult; // 0x58
+		::System::Int32 decimals; // 0x5C
 
 		::System::Void _ctor()
 		{

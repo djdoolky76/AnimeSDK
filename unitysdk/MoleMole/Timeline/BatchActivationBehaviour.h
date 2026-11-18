@@ -9,29 +9,30 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_57F015DFC718ABA3_OFFSET UNITYSDK_OFFSET(0x13ADF140)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_777C630B90A28EF1_OFFSET UNITYSDK_OFFSET(0x13ADECD0)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_79ED6854413CA2F4_OFFSET UNITYSDK_OFFSET(0x13ADF6E0)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_832295EC279E5994_1_OFFSET UNITYSDK_OFFSET(0x13ADF6B0)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_832295EC279E5994_2_OFFSET UNITYSDK_OFFSET(0x13ADF6D0)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x13ADF5C0)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_DD914C20019D678E_OFFSET UNITYSDK_OFFSET(0x13ADF5D0)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_ED01C45E2F8DB392_OFFSET UNITYSDK_OFFSET(0x13ADF6C0)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x13ADF3C0)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13ADF560)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONPAUSE_OFFSET UNITYSDK_OFFSET(0x13ADF0F0)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONPLAY_OFFSET UNITYSDK_OFFSET(0x13ADEC80)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONPROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x13ADF450)
-#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x13ADF5B0)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_BPKIPGGPCNH_OFFSET UNITYSDK_OFFSET(0x1A09B360)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_COCALOJNCKB_OFFSET UNITYSDK_OFFSET(0x1A09B7E0)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ECONHLNOEPC_OFFSET UNITYSDK_OFFSET(0x1A09AEE0)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_EEEPHBMCNEN_OFFSET UNITYSDK_OFFSET(0x1A09B8E0)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_IFHNMAGGFAE_OFFSET UNITYSDK_OFFSET(0x1A09B8F0)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_JEINNALOJDE_OFFSET UNITYSDK_OFFSET(0x1A09B8C0)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_MIDMHINHEGI_OFFSET UNITYSDK_OFFSET(0x1A09B900)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_OFMFPDACPLH_OFFSET UNITYSDK_OFFSET(0x1A09B8D0)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1A09B5E0)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A09B780)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONPAUSE_OFFSET UNITYSDK_OFFSET(0x1A09B310)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONPLAY_OFFSET UNITYSDK_OFFSET(0x1A09AE90)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONPROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1A09B670)
+#define MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A09B7D0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int BatchActivationBehaviour_TypeDefinitionIndex = 87895;
+	inline static constexpr unsigned int BatchActivationBehaviour_TypeDefinitionIndex = 57658;
 
 	class BatchActivationBehaviour : public ::MoleMole::Timeline::BaseTimeline::BaseTimelineBehavior
 	{
 	public:
 		::System::Boolean isActivationType; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _targets; // 0x20
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Boolean>* _initialStates; // 0x28
 
@@ -50,14 +51,14 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONPAUSE_OFFSET))(this);
 		}
 
-		::System::Void OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		::System::Void OnBehaviourPause(::UnityEngine::Playables::Playable HKOFGPMIFHB, ::UnityEngine::Playables::FrameData HMMMOCJAEOA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, HKOFGPMIFHB, HMMMOCJAEOA);
 		}
 
-		::System::Void OnProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::Playable a2, ::UnityEngine::Playables::FrameData a3, ::System::Object* a4, ::System::Single a5, ::System::Int32 a6)
+		::System::Void OnProcessFrame(::UnityEngine::Playables::Playable BBAPGLCBDOF, ::UnityEngine::Playables::Playable HKOFGPMIFHB, ::UnityEngine::Playables::FrameData HMMMOCJAEOA, ::System::Object* NEEMKJBIIBC, ::System::Single IECOJPMPJMP, ::System::Int32 DFDHKJHBBAD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONPROCESSFRAME_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONPROCESSFRAME_OFFSET))(this, BBAPGLCBDOF, HKOFGPMIFHB, HMMMOCJAEOA, NEEMKJBIIBC, IECOJPMPJMP, DFDHKJHBBAD);
 		}
 
 		::System::Void OnDestroy()
@@ -65,44 +66,44 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_3_832295EC279E5994()
+		::System::Void BPKIPGGPCNH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_BPKIPGGPCNH_OFFSET))(this);
 		}
 
-		::System::Void Method_3_57F015DFC718ABA3()
+		::System::Void COCALOJNCKB(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* LJHOPIIGOHI, ::System::Boolean KGBJODKBJKC)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_57F015DFC718ABA3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_COCALOJNCKB_OFFSET))(this, LJHOPIIGOHI, KGBJODKBJKC);
 		}
 
-		::System::Void Method_3_DD914C20019D678E(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* a1, ::System::Boolean a2)
+		::System::Void JEINNALOJDE()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_DD914C20019D678E_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_JEINNALOJDE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_832295EC279E5994_1()
+		::System::Void OFMFPDACPLH(::UnityEngine::Playables::Playable MIALFKCCCPI, ::UnityEngine::Playables::Playable KMGKAIDEIBA, ::UnityEngine::Playables::FrameData FDHMCIFPNCK, ::System::Object* MPBJAGIKPJM, ::System::Single DDMDINPGCFI, ::System::Int32 CEIDLKIHMLC)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_832295EC279E5994_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_OFMFPDACPLH_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM, DDMDINPGCFI, CEIDLKIHMLC);
 		}
 
-		::System::Void Method_3_ED01C45E2F8DB392(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::Playable a2, ::UnityEngine::Playables::FrameData a3, ::System::Object* a4, ::System::Single a5, ::System::Int32 a6)
+		::System::Void EEEPHBMCNEN()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_ED01C45E2F8DB392_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_EEEPHBMCNEN_OFFSET))(this);
 		}
 
-		::System::Void Method_3_832295EC279E5994_2()
+		::System::Void IFHNMAGGFAE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_832295EC279E5994_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_IFHNMAGGFAE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_777C630B90A28EF1()
+		::System::Void MIDMHINHEGI(::UnityEngine::Playables::Playable MIALFKCCCPI, ::UnityEngine::Playables::FrameData KMGKAIDEIBA)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_777C630B90A28EF1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_MIDMHINHEGI_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 
-		::System::Void Method_3_79ED6854413CA2F4(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		::System::Void ECONHLNOEPC()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_METHOD_3_79ED6854413CA2F4_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_BATCHACTIVATIONBEHAVIOUR_ECONHLNOEPC_OFFSET))(this);
 		}
 	};
 }

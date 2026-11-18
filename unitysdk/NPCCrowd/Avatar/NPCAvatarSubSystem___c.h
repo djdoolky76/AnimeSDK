@@ -2,28 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_F2DAD7F45F518868;
-class Class_3_FFD0045B4597F294;
+class COCJHGGDBCA;
+class GIGFDLPMNND;
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x157C0950)
-#define NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x157C0990)
-#define NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__UPDATE_B__34_0_OFFSET UNITYSDK_OFFSET(0x157C09A0)
+#define NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10DCA1E0)
+#define NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10DCA220)
+#define NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__UPDATE_B__24_0_OFFSET UNITYSDK_OFFSET(0x10DCA230)
+#define NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__UPDATE_B__24_1_OFFSET UNITYSDK_OFFSET(0x10DCA2C0)
+#define NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__UPDATE_B__24_2_OFFSET UNITYSDK_OFFSET(0x10DCA340)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCAvatarSubSystem___c_TypeDefinitionIndex = 58541;
+	inline static constexpr unsigned int NPCAvatarSubSystem___c_TypeDefinitionIndex = 84813;
 
 	class NPCAvatarSubSystem___c : public ::System::Object
 	{
 	public:
-		static ::NPCCrowd::Avatar::NPCAvatarSubSystem___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::NPCCrowd::Avatar::NPCAvatarSubSystem___c**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x47660);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x4C7F0);
 		}
-		static ::System::Action_2<::Class_3_F2DAD7F45F518868*, ::Class_3_FFD0045B4597F294*>** StaticGet___9__34_0()
+		static ::System::Action_2<::COCJHGGDBCA*, ::GIGFDLPMNND*>** StaticGet___9__24_0()
 		{
-			return (::System::Action_2<::Class_3_F2DAD7F45F518868*, ::Class_3_FFD0045B4597F294*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x47668);
+			return (::System::Action_2<::COCJHGGDBCA*, ::GIGFDLPMNND*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x4C7F8);
+		}
+		static ::System::Action_2<::COCJHGGDBCA*, ::GIGFDLPMNND*>** StaticGet___9__24_1()
+		{
+			return (::System::Action_2<::COCJHGGDBCA*, ::GIGFDLPMNND*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x4C800);
+		}
+		static ::System::Action_2<::COCJHGGDBCA*, ::GIGFDLPMNND*>** StaticGet___9__24_2()
+		{
+			return (::System::Action_2<::COCJHGGDBCA*, ::GIGFDLPMNND*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAvatarSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x4C808);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +46,19 @@ namespace NPCCrowd::Avatar
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Update_b__34_0(::Class_3_F2DAD7F45F518868* npcComponent, ::Class_3_FFD0045B4597F294* materialComponent)
+		::System::Void _Update_b__24_0(::COCJHGGDBCA* npcComponent, ::GIGFDLPMNND* materialComponent)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F2DAD7F45F518868*, ::Class_3_FFD0045B4597F294*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__UPDATE_B__34_0_OFFSET))(this, npcComponent, materialComponent);
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*, ::GIGFDLPMNND*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__UPDATE_B__24_0_OFFSET))(this, npcComponent, materialComponent);
+		}
+
+		::System::Void _Update_b__24_1(::COCJHGGDBCA* npcComponent, ::GIGFDLPMNND* materialComponent)
+		{
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*, ::GIGFDLPMNND*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__UPDATE_B__24_1_OFFSET))(this, npcComponent, materialComponent);
+		}
+
+		::System::Void _Update_b__24_2(::COCJHGGDBCA* npcComponent, ::GIGFDLPMNND* materialComponent)
+		{
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*, ::GIGFDLPMNND*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCAVATARSUBSYSTEM___C__UPDATE_B__24_2_OFFSET))(this, npcComponent, materialComponent);
 		}
 	};
 }

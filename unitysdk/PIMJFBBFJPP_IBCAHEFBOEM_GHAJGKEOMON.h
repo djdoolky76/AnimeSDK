@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class IINELABCBHO;
+class PIMJFBBFJPP_IBCAHEFBOEM;
+
+#define PIMJFBBFJPP_IBCAHEFBOEM_GHAJGKEOMON_AAIIBNPDINF_OFFSET UNITYSDK_OFFSET(0x11B72C30)
+#define PIMJFBBFJPP_IBCAHEFBOEM_GHAJGKEOMON_BJNMGJOPIAF_OFFSET UNITYSDK_OFFSET(0x11B728C0)
+#define PIMJFBBFJPP_IBCAHEFBOEM_GHAJGKEOMON_OBAPCDDAPHA_OFFSET UNITYSDK_OFFSET(0x11B72C90)
+#define PIMJFBBFJPP_IBCAHEFBOEM_GHAJGKEOMON__CTOR_OFFSET UNITYSDK_OFFSET(0x11B716B0)
+
+inline static constexpr unsigned int PIMJFBBFJPP_IBCAHEFBOEM_GHAJGKEOMON_TypeDefinitionIndex = 58950;
+
+class PIMJFBBFJPP_IBCAHEFBOEM_GHAJGKEOMON : public ::System::Object
+{
+public:
+	::IINELABCBHO* AMEECFHEOEE; // 0x10
+	::PIMJFBBFJPP_IBCAHEFBOEM* KLHPEBKNIFB; // 0x18
+	::IINELABCBHO* HKKFOOEBMJN; // 0x20
+	::System::Single CFGDIAHPEAN; // 0x28
+	::System::Boolean DEGDDANKPCF; // 0x2C
+	::System::Byte _padding0[0x3];
+	::System::Single JKODBGHOJAE; // 0x30
+	::System::Single FAHJGPOPEKM; // 0x34
+	::UnityEngine::Vector3 AKAGDEFAGJA; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMJFBBFJPP_IBCAHEFBOEM_GHAJGKEOMON__CTOR_OFFSET))(this);
+	}
+
+	::System::Void BJNMGJOPIAF(::System::Single BFGHPIFHKAO, ::System::Boolean NPFIONPDFED)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + PIMJFBBFJPP_IBCAHEFBOEM_GHAJGKEOMON_BJNMGJOPIAF_OFFSET))(this, BFGHPIFHKAO, NPFIONPDFED);
+	}
+
+	::System::Void AAIIBNPDINF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMJFBBFJPP_IBCAHEFBOEM_GHAJGKEOMON_AAIIBNPDINF_OFFSET))(this);
+	}
+
+	::System::Void OBAPCDDAPHA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMJFBBFJPP_IBCAHEFBOEM_GHAJGKEOMON_OBAPCDDAPHA_OFFSET))(this);
+	}
+};

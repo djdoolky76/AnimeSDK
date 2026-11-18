@@ -1,71 +1,71 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_3659D99D9E0DCBB9_7.h"
+#include "unitysdk/IFMDDIOEJGI.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_3.h"
 
-class Class_0_16E4307DCC419505_36;
-class Class_1_0D6706375CDAAE8C;
-class Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C;
+class HGAJKHIMKJP;
+class IANDOOLAALI_NGKHGAPPFDA;
+class OAEFGCLEHHO;
 namespace MoleMole { class UILineupSelectPageController; }
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x140DB150)
-#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x140DB190)
-#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__GOSINGLEPLAYREAL_B__48_4_OFFSET UNITYSDK_OFFSET(0x140DB2F0)
-#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__GOSINGLEPLAYREAL_B__48_6_OFFSET UNITYSDK_OFFSET(0x140DB2E0)
-#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__ONMAINBTNCLICKHANDLE_B__62_0_OFFSET UNITYSDK_OFFSET(0x140DB350)
-#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__ONUIINIT_B__30_3_OFFSET UNITYSDK_OFFSET(0x140DB1A0)
-#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__ONUIINIT_B__30_7_OFFSET UNITYSDK_OFFSET(0x140DB200)
-#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__REFRESHDIFFICULTYREWARDS_B__46_2_OFFSET UNITYSDK_OFFSET(0x140DB210)
-#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__REFRESHDIFFICULTYREWARDS_B__46_3_OFFSET UNITYSDK_OFFSET(0x140DB240)
-#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__REFRESHDIFFICULTYREWARDS_B__46_4_OFFSET UNITYSDK_OFFSET(0x140DB270)
+#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17196A10)
+#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17196A50)
+#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__GOSINGLEPLAYREAL_B__54_4_OFFSET UNITYSDK_OFFSET(0x17196BB0)
+#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__GOSINGLEPLAYREAL_B__54_6_OFFSET UNITYSDK_OFFSET(0x17196BA0)
+#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__ONMAINBTNCLICKHANDLE_B__68_0_OFFSET UNITYSDK_OFFSET(0x17196C10)
+#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__ONUIINIT_B__31_3_OFFSET UNITYSDK_OFFSET(0x17196A60)
+#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__ONUIINIT_B__31_7_OFFSET UNITYSDK_OFFSET(0x17196AC0)
+#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__REFRESHDIFFICULTYREWARDS_B__52_2_OFFSET UNITYSDK_OFFSET(0x17196AD0)
+#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__REFRESHDIFFICULTYREWARDS_B__52_3_OFFSET UNITYSDK_OFFSET(0x17196B00)
+#define MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__REFRESHDIFFICULTYREWARDS_B__52_4_OFFSET UNITYSDK_OFFSET(0x17196B30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVRBossBattleInfoPageController___c_TypeDefinitionIndex = 44582;
+	inline static constexpr unsigned int UIVRBossBattleInfoPageController___c_TypeDefinitionIndex = 50396;
 
 	class UIVRBossBattleInfoPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__62_0()
+		static ::System::Action** StaticGet___9__54_6()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D460);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x39260);
 		}
-		static ::MoleMole::UIVRBossBattleInfoPageController___c** StaticGet___9()
+		static ::IANDOOLAALI_NGKHGAPPFDA** StaticGet___9__31_7()
 		{
-			return (::MoleMole::UIVRBossBattleInfoPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D468);
+			return (::IANDOOLAALI_NGKHGAPPFDA**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x39268);
 		}
-		static ::System::Action** StaticGet___9__48_6()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D470);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x39270);
 		}
-		static ::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>** StaticGet___9__46_2()
+		static ::System::Action_1<::MoleMole::UILineupSelectPageController*>** StaticGet___9__54_4()
 		{
-			return (::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D478);
+			return (::System::Action_1<::MoleMole::UILineupSelectPageController*>**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x39278);
 		}
-		static ::Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C** StaticGet___9__30_7()
+		static ::System::Func_2<::IFMDDIOEJGI, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>** StaticGet___9__52_4()
 		{
-			return (::Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D480);
+			return (::System::Func_2<::IFMDDIOEJGI, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x39280);
 		}
-		static ::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>** StaticGet___9__46_3()
+		static ::System::Action** StaticGet___9__68_0()
 		{
-			return (::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D488);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x39288);
 		}
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__30_3()
+		static ::System::Func_2<::HGAJKHIMKJP*, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>** StaticGet___9__52_2()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D490);
+			return (::System::Func_2<::HGAJKHIMKJP*, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x39290);
 		}
-		static ::System::Func_2<::Struct_2_3659D99D9E0DCBB9_7, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>** StaticGet___9__46_4()
+		static ::System::Func_2<::HGAJKHIMKJP*, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>** StaticGet___9__52_3()
 		{
-			return (::System::Func_2<::Struct_2_3659D99D9E0DCBB9_7, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D498);
+			return (::System::Func_2<::HGAJKHIMKJP*, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x39298);
 		}
-		static ::System::Action_1<::MoleMole::UILineupSelectPageController*>** StaticGet___9__48_4()
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__31_3()
 		{
-			return (::System::Action_1<::MoleMole::UILineupSelectPageController*>**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D4A0);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIVRBossBattleInfoPageController___c_TypeDefinitionIndex)->GetStaticField(0x392A0);
 		}
 
 		static ::System::Void _cctor()
@@ -78,44 +78,44 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnUIInit_b__30_3()
+		::System::Void _OnUIInit_b__31_3()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__ONUIINIT_B__30_3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__ONUIINIT_B__31_3_OFFSET))(this);
 		}
 
-		::System::Void _OnUIInit_b__30_7(::Class_0_16E4307DCC419505_36* errorMessage)
+		::System::Void _OnUIInit_b__31_7(::OAEFGCLEHHO* errorMessage)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_36*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__ONUIINIT_B__30_7_OFFSET))(this, errorMessage);
+			return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__ONUIINIT_B__31_7_OFFSET))(this, errorMessage);
 		}
 
-		::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> _RefreshDifficultyRewards_b__46_2(::Class_1_0D6706375CDAAE8C* item)
+		::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> _RefreshDifficultyRewards_b__52_2(::HGAJKHIMKJP* item)
 		{
-			return ((::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>(*)(::PVOID, ::Class_1_0D6706375CDAAE8C*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__REFRESHDIFFICULTYREWARDS_B__46_2_OFFSET))(this, item);
+			return ((::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>(*)(::PVOID, ::HGAJKHIMKJP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__REFRESHDIFFICULTYREWARDS_B__52_2_OFFSET))(this, item);
 		}
 
-		::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> _RefreshDifficultyRewards_b__46_3(::Class_1_0D6706375CDAAE8C* item)
+		::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> _RefreshDifficultyRewards_b__52_3(::HGAJKHIMKJP* item)
 		{
-			return ((::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>(*)(::PVOID, ::Class_1_0D6706375CDAAE8C*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__REFRESHDIFFICULTYREWARDS_B__46_3_OFFSET))(this, item);
+			return ((::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>(*)(::PVOID, ::HGAJKHIMKJP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__REFRESHDIFFICULTYREWARDS_B__52_3_OFFSET))(this, item);
 		}
 
-		::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> _RefreshDifficultyRewards_b__46_4(::Struct_2_3659D99D9E0DCBB9_7 item)
+		::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> _RefreshDifficultyRewards_b__52_4(::IFMDDIOEJGI item)
 		{
-			return ((::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>(*)(::PVOID, ::Struct_2_3659D99D9E0DCBB9_7))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__REFRESHDIFFICULTYREWARDS_B__46_4_OFFSET))(this, item);
+			return ((::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32>(*)(::PVOID, ::IFMDDIOEJGI))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__REFRESHDIFFICULTYREWARDS_B__52_4_OFFSET))(this, item);
 		}
 
-		::System::Void _GoSinglePlayReal_b__48_6()
+		::System::Void _GoSinglePlayReal_b__54_6()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__GOSINGLEPLAYREAL_B__48_6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__GOSINGLEPLAYREAL_B__54_6_OFFSET))(this);
 		}
 
-		::System::Void _GoSinglePlayReal_b__48_4(::MoleMole::UILineupSelectPageController* controller)
+		::System::Void _GoSinglePlayReal_b__54_4(::MoleMole::UILineupSelectPageController* controller)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::UILineupSelectPageController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__GOSINGLEPLAYREAL_B__48_4_OFFSET))(this, controller);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UILineupSelectPageController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__GOSINGLEPLAYREAL_B__54_4_OFFSET))(this, controller);
 		}
 
-		::System::Void _OnMainBtnClickHandle_b__62_0()
+		::System::Void _OnMainBtnClickHandle_b__68_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__ONMAINBTNCLICKHANDLE_B__62_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVRBOSSBATTLEINFOPAGECONTROLLER___C__ONMAINBTNCLICKHANDLE_B__68_0_OFFSET))(this);
 		}
 	};
 }

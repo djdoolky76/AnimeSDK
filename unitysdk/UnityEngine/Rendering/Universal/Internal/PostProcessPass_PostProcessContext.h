@@ -2,45 +2,47 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/CommandBufferWrapper.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 
 namespace UnityEngine::Rendering::Universal::Internal { class PostProcessPass; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_CREATETEMPTARGET3_OFFSET UNITYSDK_OFFSET(0xA365B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_DISPOSECONTEXT_OFFSET UNITYSDK_OFFSET(0xA36580)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_GETCURRENTSOURCE_OFFSET UNITYSDK_OFFSET(0xA36420)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_GETDESTINATION_OFFSET UNITYSDK_OFFSET(0xA36840)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_GETREADONLYPREFULLRESOLUTIONDESTINATION_OFFSET UNITYSDK_OFFSET(0xA367C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_GETSOURCE_OFFSET UNITYSDK_OFFSET(0xA36490)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_INITCONTEXT_OFFSET UNITYSDK_OFFSET(0xA363D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_RELEASERENDERTEXTURE_OFFSET UNITYSDK_OFFSET(0xA36550)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_SETTAARESULT_OFFSET UNITYSDK_OFFSET(0xA36710)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_SWAP_OFFSET UNITYSDK_OFFSET(0xA365E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_CREATETEMPTARGET3_OFFSET UNITYSDK_OFFSET(0x915E50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_DISPOSECONTEXT_OFFSET UNITYSDK_OFFSET(0x915E20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_GETCURRENTSOURCE_OFFSET UNITYSDK_OFFSET(0x915CC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_GETDESTINATION_OFFSET UNITYSDK_OFFSET(0x9160E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_GETREADONLYPREFULLRESOLUTIONDESTINATION_OFFSET UNITYSDK_OFFSET(0x916060)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_GETSOURCE_OFFSET UNITYSDK_OFFSET(0x915D30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_INITCONTEXT_OFFSET UNITYSDK_OFFSET(0x915C70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_RELEASERENDERTEXTURE_OFFSET UNITYSDK_OFFSET(0x915DF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_SETTAARESULT_OFFSET UNITYSDK_OFFSET(0x915FB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_SWAP_OFFSET UNITYSDK_OFFSET(0x915E80)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PostProcessPass_PostProcessContext_TypeDefinitionIndex = 26777;
+	inline static constexpr unsigned int PostProcessPass_PostProcessContext_TypeDefinitionIndex = 26462;
 
-	struct alignas(8) PostProcessPass_PostProcessContext
+	struct alignas(4) PostProcessPass_PostProcessContext
 	{
 		::System::Boolean tempTarget1Used; // 0x10
 		::System::Boolean tempTarget2Used; // 0x11
 		::System::Boolean tempTarget3Used; // 0x12
 		::System::Boolean tempUIAvatarShadowDepthUsed; // 0x13
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Rendering::RenderTargetIdentifier source; // 0x18
 		::UnityEngine::Rendering::RenderTargetIdentifier destination; // 0x40
 		::System::Boolean hasTaaResult; // 0x68
+		::System::Byte _padding1[0x7];
 		::UnityEngine::Rendering::RenderTargetIdentifier taaDestination; // 0x70
 		::UnityEngine::Rendering::RenderTargetIdentifier currentSource; // 0x98
 		::System::Boolean rainDropIsFinished; // 0xC0
 		::System::Boolean enableMetalFX; // 0xC1
 		::System::Boolean needAddCollectTextureTransition; // 0xC2
 
-		/*
 		::System::Void InitContext(::UnityEngine::NAPRenderPipeline0::CommandBufferWrapper cmdWrapper, ::UnityEngine::Rendering::RenderTargetIdentifier sourceIdentifier, ::UnityEngine::NAPRenderPipeline0::RenderingData& renderingData, ::UnityEngine::Rendering::Universal::Internal::PostProcessPass* pass)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::NAPRenderPipeline0::CommandBufferWrapper, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::NAPRenderPipeline0::RenderingData&, ::UnityEngine::Rendering::Universal::Internal::PostProcessPass*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_INITCONTEXT_OFFSET))(this, cmdWrapper, sourceIdentifier, renderingData, pass);
 		}
-		*/
 
 		::UnityEngine::Rendering::RenderTargetIdentifier GetCurrentSource()
 		{
@@ -52,26 +54,20 @@ namespace UnityEngine::Rendering::Universal::Internal
 			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_GETSOURCE_OFFSET))(this, clearHasTaaResultFlag);
 		}
 
-		/*
 		::System::Void ReleaseRenderTexture(::System::Boolean doNapCapture, ::UnityEngine::NAPRenderPipeline0::CommandBufferWrapper cmdWrapper, ::System::Int32 id)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::NAPRenderPipeline0::CommandBufferWrapper, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_RELEASERENDERTEXTURE_OFFSET))(this, doNapCapture, cmdWrapper, id);
 		}
-		*/
 
-		/*
 		::System::Void DisposeContext(::System::Boolean doNapCapture, ::UnityEngine::NAPRenderPipeline0::CommandBufferWrapper cmdWrapper, ::UnityEngine::Rendering::Universal::Internal::PostProcessPass* pass)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::NAPRenderPipeline0::CommandBufferWrapper, ::UnityEngine::Rendering::Universal::Internal::PostProcessPass*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_DISPOSECONTEXT_OFFSET))(this, doNapCapture, cmdWrapper, pass);
 		}
-		*/
 
-		/*
 		::System::Void CreateTempTarget3(::UnityEngine::NAPRenderPipeline0::CommandBufferWrapper cmdWrapper, ::UnityEngine::Rendering::Universal::Internal::PostProcessPass* pass, ::System::Boolean useHDRFormat, ::System::Boolean needSetLifeTime)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::NAPRenderPipeline0::CommandBufferWrapper, ::UnityEngine::Rendering::Universal::Internal::PostProcessPass*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_CREATETEMPTARGET3_OFFSET))(this, cmdWrapper, pass, useHDRFormat, needSetLifeTime);
 		}
-		*/
 
 		::System::Void Swap()
 		{
@@ -88,11 +84,9 @@ namespace UnityEngine::Rendering::Universal::Internal
 			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_GETREADONLYPREFULLRESOLUTIONDESTINATION_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::Rendering::RenderTargetIdentifier GetDestination(::UnityEngine::NAPRenderPipeline0::CommandBufferWrapper cmdWrapper, ::UnityEngine::Rendering::Universal::Internal::PostProcessPass* pass)
 		{
 			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::PVOID, ::UnityEngine::NAPRenderPipeline0::CommandBufferWrapper, ::UnityEngine::Rendering::Universal::Internal::PostProcessPass*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTPROCESSPASS_POSTPROCESSCONTEXT_GETDESTINATION_OFFSET))(this, cmdWrapper, pass);
 		}
-		*/
 	};
 }

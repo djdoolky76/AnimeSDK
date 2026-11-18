@@ -1,80 +1,80 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_31D08DC027B35B8F_Enum_3_94F3E8DA9C14F011.h"
+#include "unitysdk/BFMAKOAGGCP_GIDHEJGHNLO.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_E9529ED64113E4E9;
-class Class_2_35EE3F274435ACD1;
-class Class_3_025FF4981524A424_495;
+class BPMGPHLMPJI;
+class DGDNKBFMHME;
+class OBCHINACLEL;
 class UIControllerExtensionData;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_11_OFFSET UNITYSDK_OFFSET(0x16529110)
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_12_OFFSET UNITYSDK_OFFSET(0x165290D0)
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_13_OFFSET UNITYSDK_OFFSET(0x16529150)
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_8_OFFSET UNITYSDK_OFFSET(0x165290B0)
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16528F30)
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16528F70)
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_0_OFFSET UNITYSDK_OFFSET(0x16528F90)
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_1_OFFSET UNITYSDK_OFFSET(0x16528FA0)
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_2_OFFSET UNITYSDK_OFFSET(0x16528FB0)
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_3_OFFSET UNITYSDK_OFFSET(0x16529080)
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__ONCLICKTAB_B__21_0_OFFSET UNITYSDK_OFFSET(0x165290A0)
-#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__ONUIOPEN_B__12_0_OFFSET UNITYSDK_OFFSET(0x16528F80)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_11_OFFSET UNITYSDK_OFFSET(0x14C9F860)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_12_OFFSET UNITYSDK_OFFSET(0x14C9F820)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_13_OFFSET UNITYSDK_OFFSET(0x14C9F8A0)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_8_OFFSET UNITYSDK_OFFSET(0x14C9F800)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14C9F670)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14C9F6B0)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_0_OFFSET UNITYSDK_OFFSET(0x14C9F6D0)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_1_OFFSET UNITYSDK_OFFSET(0x14C9F6E0)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_2_OFFSET UNITYSDK_OFFSET(0x14C9F6F0)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_3_OFFSET UNITYSDK_OFFSET(0x14C9F7D0)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__ONCLICKTAB_B__21_0_OFFSET UNITYSDK_OFFSET(0x14C9F7F0)
+#define MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__ONUIOPEN_B__12_0_OFFSET UNITYSDK_OFFSET(0x14C9F6C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMechBooModulePageController___c_TypeDefinitionIndex = 43371;
+	inline static constexpr unsigned int UIMechBooModulePageController___c_TypeDefinitionIndex = 63151;
 
 	class UIMechBooModulePageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_3_025FF4981524A424_495*>** StaticGet___9__32_12()
-		{
-			return (::System::Action_1<::Class_3_025FF4981524A424_495*>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D2C0);
-		}
 		static ::System::Converter_2<::UIControllerExtensionData*, ::UnityEngine::GameObject*>** StaticGet___9__18_3()
 		{
-			return (::System::Converter_2<::UIControllerExtensionData*, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D2C8);
+			return (::System::Converter_2<::UIControllerExtensionData*, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F180);
+		}
+		static ::System::Converter_2<::System::Int32, ::System::Object*>** StaticGet___9__18_1()
+		{
+			return (::System::Converter_2<::System::Int32, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F188);
+		}
+		static ::System::Action_1<::DGDNKBFMHME*>** StaticGet___9__32_13()
+		{
+			return (::System::Action_1<::DGDNKBFMHME*>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F190);
+		}
+		static ::System::Action_1<::BPMGPHLMPJI*>** StaticGet___9__32_12()
+		{
+			return (::System::Action_1<::BPMGPHLMPJI*>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F198);
+		}
+		static ::System::Action_1<::BPMGPHLMPJI*>** StaticGet___9__32_11()
+		{
+			return (::System::Action_1<::BPMGPHLMPJI*>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F1A0);
+		}
+		static ::System::Converter_2<::System::Int32, ::System::Object*>** StaticGet___9__18_0()
+		{
+			return (::System::Converter_2<::System::Int32, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F1A8);
+		}
+		static ::System::Converter_2<::OBCHINACLEL*, ::System::Int32>** StaticGet___9__32_8()
+		{
+			return (::System::Converter_2<::OBCHINACLEL*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F1B0);
 		}
 		static ::System::Converter_2<::System::Int32, ::System::Int32>** StaticGet___9__21_0()
 		{
-			return (::System::Converter_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D2D0);
+			return (::System::Converter_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F1B8);
+		}
+		static ::System::Converter_2<::System::Int32, ::OBCHINACLEL*>** StaticGet___9__18_2()
+		{
+			return (::System::Converter_2<::System::Int32, ::OBCHINACLEL*>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F1C0);
 		}
 		static ::System::Action** StaticGet___9__12_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D2D8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F1C8);
 		}
-		static ::System::Converter_2<::Class_2_35EE3F274435ACD1*, ::System::Int32>** StaticGet___9__32_8()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Converter_2<::Class_2_35EE3F274435ACD1*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D2E0);
-		}
-		static ::System::Action_1<::Class_1_E9529ED64113E4E9*>** StaticGet___9__32_13()
-		{
-			return (::System::Action_1<::Class_1_E9529ED64113E4E9*>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D2E8);
-		}
-		static ::System::Action_1<::Class_3_025FF4981524A424_495*>** StaticGet___9__32_11()
-		{
-			return (::System::Action_1<::Class_3_025FF4981524A424_495*>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D2F0);
-		}
-		static ::System::Converter_2<::System::Int32, ::Class_2_31D08DC027B35B8F_Enum_3_94F3E8DA9C14F011>** StaticGet___9__18_1()
-		{
-			return (::System::Converter_2<::System::Int32, ::Class_2_31D08DC027B35B8F_Enum_3_94F3E8DA9C14F011>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D2F8);
-		}
-		static ::System::Converter_2<::System::Int32, ::Class_2_31D08DC027B35B8F_Enum_3_94F3E8DA9C14F011>** StaticGet___9__18_0()
-		{
-			return (::System::Converter_2<::System::Int32, ::Class_2_31D08DC027B35B8F_Enum_3_94F3E8DA9C14F011>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D300);
-		}
-		static ::MoleMole::UIMechBooModulePageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIMechBooModulePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D308);
-		}
-		static ::System::Converter_2<::System::Int32, ::Class_2_35EE3F274435ACD1*>** StaticGet___9__18_2()
-		{
-			return (::System::Converter_2<::System::Int32, ::Class_2_35EE3F274435ACD1*>**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3D310);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIMechBooModulePageController___c_TypeDefinitionIndex)->GetStaticField(0x3F1D0);
 		}
 
 		static ::System::Void _cctor()
@@ -92,19 +92,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__ONUIOPEN_B__12_0_OFFSET))(this);
 		}
 
-		::Class_2_31D08DC027B35B8F_Enum_3_94F3E8DA9C14F011 _InitTabs_b__18_0(::System::Int32 x)
+		::BFMAKOAGGCP_GIDHEJGHNLO _InitTabs_b__18_0(::System::Int32 x)
 		{
-			return ((::Class_2_31D08DC027B35B8F_Enum_3_94F3E8DA9C14F011(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_0_OFFSET))(this, x);
+			return ((::BFMAKOAGGCP_GIDHEJGHNLO(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_0_OFFSET))(this, x);
 		}
 
-		::Class_2_31D08DC027B35B8F_Enum_3_94F3E8DA9C14F011 _InitTabs_b__18_1(::System::Int32 x)
+		::BFMAKOAGGCP_GIDHEJGHNLO _InitTabs_b__18_1(::System::Int32 x)
 		{
-			return ((::Class_2_31D08DC027B35B8F_Enum_3_94F3E8DA9C14F011(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_1_OFFSET))(this, x);
+			return ((::BFMAKOAGGCP_GIDHEJGHNLO(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_1_OFFSET))(this, x);
 		}
 
-		::Class_2_35EE3F274435ACD1* _InitTabs_b__18_2(::System::Int32 x)
+		::OBCHINACLEL* _InitTabs_b__18_2(::System::Int32 x)
 		{
-			return ((::Class_2_35EE3F274435ACD1*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_2_OFFSET))(this, x);
+			return ((::OBCHINACLEL*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__INITTABS_B__18_2_OFFSET))(this, x);
 		}
 
 		::UnityEngine::GameObject* _InitTabs_b__18_3(::UIControllerExtensionData* x)
@@ -117,24 +117,24 @@ namespace MoleMole
 			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__ONCLICKTAB_B__21_0_OFFSET))(this, x);
 		}
 
-		::System::Int32 _BuildViewModelDataBinding_b__32_8(::Class_2_35EE3F274435ACD1* x)
+		::System::Int32 _BuildViewModelDataBinding_b__32_8(::OBCHINACLEL* x)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_35EE3F274435ACD1*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_8_OFFSET))(this, x);
+			return ((::System::Int32(*)(::PVOID, ::OBCHINACLEL*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_8_OFFSET))(this, x);
 		}
 
-		::System::Void _BuildViewModelDataBinding_b__32_12(::Class_3_025FF4981524A424_495* rsp)
+		::System::Void _BuildViewModelDataBinding_b__32_12(::BPMGPHLMPJI* rsp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_025FF4981524A424_495*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_12_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::BPMGPHLMPJI*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_12_OFFSET))(this, rsp);
 		}
 
-		::System::Void _BuildViewModelDataBinding_b__32_11(::Class_3_025FF4981524A424_495* rsp)
+		::System::Void _BuildViewModelDataBinding_b__32_11(::BPMGPHLMPJI* rsp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_025FF4981524A424_495*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_11_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::BPMGPHLMPJI*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_11_OFFSET))(this, rsp);
 		}
 
-		::System::Void _BuildViewModelDataBinding_b__32_13(::Class_1_E9529ED64113E4E9* vp)
+		::System::Void _BuildViewModelDataBinding_b__32_13(::DGDNKBFMHME* vp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E9529ED64113E4E9*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_13_OFFSET))(this, vp);
+			return ((::System::Void(*)(::PVOID, ::DGDNKBFMHME*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHBOOMODULEPAGECONTROLLER___C__BUILDVIEWMODELDATABINDING_B__32_13_OFFSET))(this, vp);
 		}
 	};
 }

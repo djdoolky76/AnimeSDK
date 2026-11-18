@@ -7,7 +7,7 @@
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticleRenderer_JobTransformSnapshot_TypeDefinitionIndex = 34868;
+	inline static constexpr unsigned int UIParticleRenderer_JobTransformSnapshot_TypeDefinitionIndex = 34414;
 
 	struct alignas(4) UIParticleRenderer_JobTransformSnapshot
 	{

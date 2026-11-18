@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_Enumerator.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
@@ -10,29 +9,32 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D3B7A90)
-#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MIHOYO_SDK_JSONNODE__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D3B7CB0)
-#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_MIHOYO_SDK_JSONNODE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D3B7C40)
-#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D3B7E90)
-#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D3B7CA0)
-#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D3B7C50)
-#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D3B7A60)
-#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B7990)
-#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1D3B7A80)
+#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D8EAFA0)
+#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MIHOYO_SDK_JSONNODE__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D8EB1C0)
+#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_MIHOYO_SDK_JSONNODE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D8EB150)
+#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D8EB3A0)
+#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D8EB1B0)
+#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D8EB160)
+#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D8EAF70)
+#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EAEA0)
+#define MIHOYO_SDK_JSONOBJECT__GET_CHILDREN_D__25___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1D8EAF90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JSONObject__get_Children_d__25_TypeDefinitionIndex = 20246;
+	inline static constexpr unsigned int JSONObject__get_Children_d__25_TypeDefinitionIndex = 19392;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25>
 	class JSONObject__get_Children_d__25 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MiHoYo::SDK::JSONNode*> __s__1; // 0x10
-		::MiHoYo::SDK::JSONNode* __2__current; // 0x38
-		::MiHoYo::SDK::JSONObject* __4__this; // 0x40
-		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MiHoYo::SDK::JSONNode*> _N_5__2; // 0x48
-		::System::Int32 __1__state; // 0x58
-		::System::Int32 __l__initialThreadId; // 0x5C
+		::MiHoYo::SDK::JSONNode* __2__current; // 0x10
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MiHoYo::SDK::JSONNode*> _N_5__2; // 0x18
+		::System::Byte _padding0[0x8];
+		::MiHoYo::SDK::JSONObject* __4__this; // 0x28
+		::System::Object* __s__1; // 0x30
+		::System::Byte _padding1[0x20];
+		::System::Int32 __l__initialThreadId; // 0x58
+		::System::Int32 __1__state; // 0x5C
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

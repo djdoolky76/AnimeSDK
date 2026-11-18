@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_FINSTANCEDSTRUCTCONTAINER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E393AD0)
-#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_FINSTANCEDSTRUCTCONTAINER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E393B10)
-#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_FINSTANCEDSTRUCTCONTAINER___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1E393B20)
+#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_FINSTANCEDSTRUCTCONTAINER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2B5580)
+#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_FINSTANCEDSTRUCTCONTAINER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2B55C0)
+#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_FINSTANCEDSTRUCTCONTAINER___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1E2B55D0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FInstancedStructContainer___c_TypeDefinitionIndex = 28399;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_FInstancedStructContainer___c_TypeDefinitionIndex = 27836;
 
 	class RegistrationInfo_ScriptStruct_FInstancedStructContainer___c : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::RegistrationInfo_ScriptStruct_FInstancedStructContainer___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::UnrealTypes::RegistrationInfo_ScriptStruct_FInstancedStructContainer___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FInstancedStructContainer___c_TypeDefinitionIndex)->GetStaticField(0x24190);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_FInstancedStructContainer___c_TypeDefinitionIndex)->GetStaticField(0x25250);
 		}
 
 		static ::System::Void _cctor()

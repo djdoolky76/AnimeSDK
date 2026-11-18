@@ -3,16 +3,16 @@
 #include "unitysdk/MoleMole/Config/ConfigSoundActionTriggerCondition_Scope_MatchMode.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_197;
+class EIOKLKEJAME;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCOPE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1170C280)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCOPE_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x1170C240)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1170C4B0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCOPE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFAC8DE0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCOPE_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0xFAC8DA0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC9010)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_Scope_TypeDefinitionIndex = 88156;
+	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_Scope_TypeDefinitionIndex = 75016;
 
 	class ConfigSoundActionTriggerCondition_Scope : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace MoleMole::Config
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCOPE_GET_INSPECTORLABEL_OFFSET))(this);
 		}
 
-		::System::Boolean Evaluate(::Class_0_16E4307DCC419505_197* context)
+		::System::Boolean Evaluate(::EIOKLKEJAME* context)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_197*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCOPE_EVALUATE_OFFSET))(this, context);
+			return ((::System::Boolean(*)(::PVOID, ::EIOKLKEJAME*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCOPE_EVALUATE_OFFSET))(this, context);
 		}
 	};
 }

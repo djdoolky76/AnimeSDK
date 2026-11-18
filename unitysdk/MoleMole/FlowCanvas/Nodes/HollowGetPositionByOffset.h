@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardPureFunctionNode_3.h"
 #include "unitysdk/MoleMole/Vector2Int.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWGETPOSITIONBYOFFSET_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B52C9A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWGETPOSITIONBYOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52CAA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWGETPOSITIONBYOFFSET_INVOKE_OFFSET UNITYSDK_OFFSET(0x142F7570)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWGETPOSITIONBYOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x142F7670)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int HollowGetPositionByOffset_TypeDefinitionIndex = 65065;
+	inline static constexpr unsigned int HollowGetPositionByOffset_TypeDefinitionIndex = 60791;
 
-	class HollowGetPositionByOffset : public ::MoleMole::FlowCanvas::ChessboardPureFunctionNode_3<::MoleMole::Vector2Int, ::MoleMole::Vector2Int, ::MoleMole::Vector2Int>
+	class HollowGetPositionByOffset
 	{
 	public:
 		::System::Void _ctor()

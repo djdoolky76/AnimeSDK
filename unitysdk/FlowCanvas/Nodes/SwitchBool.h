@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Func_5; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
-#define FLOWCANVAS_NODES_SWITCHBOOL_ISCHOICENODE_OFFSET UNITYSDK_OFFSET(0x1EF8A590)
-#define FLOWCANVAS_NODES_SWITCHBOOL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EF8A490)
-#define FLOWCANVAS_NODES_SWITCHBOOL_STARTCOROUTINEWRAP_OFFSET UNITYSDK_OFFSET(0x1EF8A5A0)
-#define FLOWCANVAS_NODES_SWITCHBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8A5E0)
+#define FLOWCANVAS_NODES_SWITCHBOOL_ISCHOICENODE_OFFSET UNITYSDK_OFFSET(0x1F2F9810)
+#define FLOWCANVAS_NODES_SWITCHBOOL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1F2F9720)
+#define FLOWCANVAS_NODES_SWITCHBOOL_STARTCOROUTINEWRAP_OFFSET UNITYSDK_OFFSET(0x1F2F9820)
+#define FLOWCANVAS_NODES_SWITCHBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F9860)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchBool_TypeDefinitionIndex = 31356;
+	inline static constexpr unsigned int SwitchBool_TypeDefinitionIndex = 30011;
 
 	class SwitchBool : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		static ::System::Func_5<::FlowCanvas::Nodes::SwitchBool*, ::FlowCanvas::Flow, ::FlowCanvas::FlowOutput*, ::System::Int32, ::System::Boolean>** StaticGet_OnCall()
 		{
-			return (::System::Func_5<::FlowCanvas::Nodes::SwitchBool*, ::FlowCanvas::Flow, ::FlowCanvas::FlowOutput*, ::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SwitchBool_TypeDefinitionIndex)->GetStaticField(0x25F30);
+			return (::System::Func_5<::FlowCanvas::Nodes::SwitchBool*, ::FlowCanvas::Flow, ::FlowCanvas::FlowOutput*, ::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SwitchBool_TypeDefinitionIndex)->GetStaticField(0x26F60);
 		}
 		::UnityEngine::Coroutine* coroutine; // 0xA8
 

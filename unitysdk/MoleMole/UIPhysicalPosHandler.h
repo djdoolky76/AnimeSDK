@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIPhysicalPosHandler_AlignMeta.h"
-#include "unitysdk/MoleMole/UIPhysicalPosHandler_Enum_3_3FE364E632E4313C.h"
-#include "unitysdk/MoleMole/UIPhysicalPosHandler_Enum_3_7E8FD0171553CC05.h"
-#include "unitysdk/MoleMole/UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/MoleMole/UIPhysicalPosHandler_BDCIINGEKMH.h"
+#include "unitysdk/MoleMole/UIPhysicalPosHandler_HGJOGJODPEN.h"
+#include "unitysdk/MoleMole/UIPhysicalPosHandler_KIIDOPBABNF.h"
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
 namespace MoleMole { class UIPhysicalSizeHandler; }
 namespace System { class String; }
@@ -15,76 +15,79 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_APPLYLAYOUTRESULT_OFFSET UNITYSDK_OFFSET(0x16745460)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x16742360)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_CALCULATELAYOUT_OFFSET UNITYSDK_OFFSET(0x167426D0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_GETLAYOUTRESULT_1_OFFSET UNITYSDK_OFFSET(0x16742F00)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_GETLAYOUTRESULT_OFFSET UNITYSDK_OFFSET(0x16745890)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_GETPOSHANDLER_OFFSET UNITYSDK_OFFSET(0x167420C0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x167425A0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_1CCA9681CE0AE7A7_OFFSET UNITYSDK_OFFSET(0x16745CD0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_3422201382CE593B_1_OFFSET UNITYSDK_OFFSET(0x16742D00)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_3422201382CE593B_OFFSET UNITYSDK_OFFSET(0x16742E00)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x16746ED0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_4B72F72501001F72_OFFSET UNITYSDK_OFFSET(0x16745AC0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_6426CAFBEED664F1_OFFSET UNITYSDK_OFFSET(0x167428A0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_7744894CEC41BF06_1_OFFSET UNITYSDK_OFFSET(0x16742AF0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_7744894CEC41BF06_OFFSET UNITYSDK_OFFSET(0x167460F0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0x16746FE0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x16746F60)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_D3CDDBF95A81E584_1_OFFSET UNITYSDK_OFFSET(0x16746D30)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_D3CDDBF95A81E584_OFFSET UNITYSDK_OFFSET(0x16746B90)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_DBA008A0E0AB2ECC_OFFSET UNITYSDK_OFFSET(0x16746810)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x16746FD0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_F4B69C1853FCB2B5_OFFSET UNITYSDK_OFFSET(0x16745950)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x167424F0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16742430)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16745EB0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16745E50)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x16745F40)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16745FD0)
-#define MOLEMOLE_UIPHYSICALPOSHANDLER___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16746060)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_ALNLFJPKIPO_OFFSET UNITYSDK_OFFSET(0x17449560)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_APPLYLAYOUTRESULT_OFFSET UNITYSDK_OFFSET(0x174483B0)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x174452A0)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_BMOGOLBNPCF_OFFSET UNITYSDK_OFFSET(0x17449550)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_BPAMAMICDKI_OFFSET UNITYSDK_OFFSET(0x174491A0)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_CALCULATELAYOUT_OFFSET UNITYSDK_OFFSET(0x17445610)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_DJFLFBMCHLH_OFFSET UNITYSDK_OFFSET(0x17449540)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_EMLLPAAAHNG_OFFSET UNITYSDK_OFFSET(0x17445D40)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_GETLAYOUTRESULT_1_OFFSET UNITYSDK_OFFSET(0x17445E40)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_GETLAYOUTRESULT_OFFSET UNITYSDK_OFFSET(0x174487E0)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_GETPOSHANDLER_OFFSET UNITYSDK_OFFSET(0x17445000)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_GHNAIJKPLKK_OFFSET UNITYSDK_OFFSET(0x174457E0)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_GPGLNOBDBGJ_OFFSET UNITYSDK_OFFSET(0x174494B0)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_ILHIIDBCNEC_OFFSET UNITYSDK_OFFSET(0x17448F70)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_INLEAIPJAHP_OFFSET UNITYSDK_OFFSET(0x17448A10)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_KDOIBCBFBAG_OFFSET UNITYSDK_OFFSET(0x174498E0)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_KEHPPNIHBOH_OFFSET UNITYSDK_OFFSET(0x17448C20)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x174454E0)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_LFBJOLPHBFF_OFFSET UNITYSDK_OFFSET(0x17449000)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_LJLHPGBFLGC_OFFSET UNITYSDK_OFFSET(0x174488A0)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_LKPBHODJPIM_OFFSET UNITYSDK_OFFSET(0x17445A30)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_MCJGEECCCPG_OFFSET UNITYSDK_OFFSET(0x17449440)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x17445430)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17445370)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_PDMKAEDLDPB_OFFSET UNITYSDK_OFFSET(0x17448DD0)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_PIOOPLAPDPK_OFFSET UNITYSDK_OFFSET(0x174493B0)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER_PLIIFNNBICH_OFFSET UNITYSDK_OFFSET(0x17445C40)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17448D30)
+#define MOLEMOLE_UIPHYSICALPOSHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17448CD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPhysicalPosHandler_TypeDefinitionIndex = 84044;
+	inline static constexpr unsigned int UIPhysicalPosHandler_TypeDefinitionIndex = 47251;
 
 	class UIPhysicalPosHandler : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::MoleMole::UIPhysicalPosHandler*>** StaticGet_Field_6_16()
+		static ::System::Collections::Generic::List_1<::MoleMole::UIPhysicalPosHandler*>** StaticGet_PLCOJIDEHII()
 		{
-			return (::System::Collections::Generic::List_1<::MoleMole::UIPhysicalPosHandler*>**)Il2CppClass::FromTypeDefinitionIndex(UIPhysicalPosHandler_TypeDefinitionIndex)->GetStaticField(0x51AD0);
+			return (::System::Collections::Generic::List_1<::MoleMole::UIPhysicalPosHandler*>**)Il2CppClass::FromTypeDefinitionIndex(UIPhysicalPosHandler_TypeDefinitionIndex)->GetStaticField(0x4EC10);
 		}
-		static ::UnityEngine::Vector2* StaticGet_Field_6_12()
+		static ::UnityEngine::Vector2* StaticGet_LGJKBKMCDBI()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UIPhysicalPosHandler_TypeDefinitionIndex)->GetStaticField(0x12E10);
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UIPhysicalPosHandler_TypeDefinitionIndex)->GetStaticField(0x12A80);
 		}
-		static ::System::Single* StaticGet_Field_6_19()
+		static ::System::Single* StaticGet_GEBOLAMCLOF()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPhysicalPosHandler_TypeDefinitionIndex)->GetStaticField(0x12E18);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIPhysicalPosHandler_TypeDefinitionIndex)->GetStaticField(0x12A88);
 		}
 		::System::String* _name; // 0x18
 		::MoleMole::UIPhysicalPosHandler_AlignMeta _horizontalAlignMeta; // 0x20
-		::MoleMole::UIPhysicalPosHandler_Enum_3_7E8FD0171553CC05 _horizontalEdge; // 0x38
-		::MoleMole::UIPhysicalPosHandler_Enum_3_7E8FD0171553CC05 _horizontalAlignEdge; // 0x3C
+		::MoleMole::UIPhysicalPosHandler_KIIDOPBABNF _horizontalEdge; // 0x38
+		::MoleMole::UIPhysicalPosHandler_KIIDOPBABNF _horizontalAlignEdge; // 0x3C
 		::System::Single _horizontalDistanceWithMillimeter; // 0x40
 		::System::Single _minHorizontalDistanceWithMillimeter; // 0x44
 		::System::Boolean _horizontalUsePhysicalRatio; // 0x48
+		::System::Byte _padding0[0x7];
 		::MoleMole::UIPhysicalPosHandler_AlignMeta _verticalAlignMeta; // 0x50
-		::MoleMole::UIPhysicalPosHandler_Enum_3_3FE364E632E4313C _verticalEdge; // 0x68
-		::MoleMole::UIPhysicalPosHandler_Enum_3_3FE364E632E4313C _verticalAlignEdge; // 0x6C
+		::MoleMole::UIPhysicalPosHandler_HGJOGJODPEN _verticalEdge; // 0x68
+		::MoleMole::UIPhysicalPosHandler_HGJOGJODPEN _verticalAlignEdge; // 0x6C
 		::System::Single _verticalDistanceWithMillimeter; // 0x70
 		::System::Single _minVerticalDistanceWithMillimeter; // 0x74
 		::System::Boolean _verticalUsePhysicalRatio; // 0x78
-		::MoleMole::UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD Field_6_18; // 0x7C
-		::MoleMole::UIPhysicalSizeHandler* Field_6_17; // 0xD8
-		::UnityEngine::Canvas* Field_6_23; // 0xE0
-		::System::Boolean Field_6_22; // 0xE8
-		::System::Boolean Field_6_21; // 0xE9
-		::System::Boolean Field_6_20; // 0xEA
-		::System::Boolean Field_6_27; // 0xEB
-		::System::Boolean Field_6_26; // 0xEC
+		::System::Byte _padding1[0x3];
+		::MoleMole::UIPhysicalPosHandler_BDCIINGEKMH JFKFALDOBCL; // 0x7C
+		::System::Byte _padding2[0x4];
+		::MoleMole::UIPhysicalSizeHandler* OHPODEPHPME; // 0xD8
+		::UnityEngine::Canvas* LHHCBJMINFM; // 0xE0
+		::System::Boolean JJJFLPOLELO; // 0xE8
+		::System::Boolean HOCCNOAALHH; // 0xE9
+		::System::Boolean IANHKOLCODN; // 0xEA
+		::System::Boolean NHBJNGHHKMC; // 0xEB
+		::System::Boolean _ADPHDBHIELK_k__BackingField; // 0xEC
 
 		::System::Void _ctor()
 		{
@@ -96,9 +99,9 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER__CCTOR_OFFSET))();
 		}
 
-		static ::MoleMole::UIPhysicalPosHandler* GetPosHandler(::System::String* a1)
+		static ::MoleMole::UIPhysicalPosHandler* GetPosHandler(::System::String* HIAIKHDFCLN)
 		{
-			return ((::MoleMole::UIPhysicalPosHandler*(*)(::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_GETPOSHANDLER_OFFSET))(a1);
+			return ((::MoleMole::UIPhysicalPosHandler*(*)(::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_GETPOSHANDLER_OFFSET))(HIAIKHDFCLN);
 		}
 
 		::System::Void Awake()
@@ -126,109 +129,109 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_CALCULATELAYOUT_OFFSET))(this);
 		}
 
-		::MoleMole::UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD GetLayoutResult()
+		::MoleMole::UIPhysicalPosHandler_BDCIINGEKMH GetLayoutResult()
 		{
-			return ((::MoleMole::UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_GETLAYOUTRESULT_OFFSET))(this);
+			return ((::MoleMole::UIPhysicalPosHandler_BDCIINGEKMH(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_GETLAYOUTRESULT_OFFSET))(this);
 		}
 
-		::MoleMole::UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD GetLayoutResult_1(::System::Single a1, ::System::Single a2)
+		::MoleMole::UIPhysicalPosHandler_BDCIINGEKMH GetLayoutResult_1(::System::Single EEIIKBKGCLP, ::System::Single DOJGPDLLECO)
 		{
-			return ((::MoleMole::UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_GETLAYOUTRESULT_1_OFFSET))(this, a1, a2);
+			return ((::MoleMole::UIPhysicalPosHandler_BDCIINGEKMH(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_GETLAYOUTRESULT_1_OFFSET))(this, EEIIKBKGCLP, DOJGPDLLECO);
 		}
 
-		::System::Void ApplyLayoutResult(::MoleMole::UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD a1)
+		::System::Void ApplyLayoutResult(::MoleMole::UIPhysicalPosHandler_BDCIINGEKMH EKAAIJAKBPM)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_APPLYLAYOUTRESULT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIPhysicalPosHandler_BDCIINGEKMH))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_APPLYLAYOUTRESULT_OFFSET))(this, EKAAIJAKBPM);
 		}
 
-		::System::Void __base_Awake()
+		::UnityEngine::Canvas* INLEAIPJAHP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER___BASE_AWAKE_OFFSET))(this);
+			return ((::UnityEngine::Canvas*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_INLEAIPJAHP_OFFSET))(this);
 		}
 
-		::System::Void __base_OnDisable()
+		::System::Single PLIIFNNBICH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER___BASE_ONDISABLE_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_PLIIFNNBICH_OFFSET))(this);
 		}
 
-		::System::Void __base_OnEnable()
+		::System::Void LKPBHODJPIM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER___BASE_ONENABLE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_LKPBHODJPIM_OFFSET))(this);
 		}
 
-		::System::Void Method_6_7744894CEC41BF06()
+		::System::Void ILHIIDBCNEC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_7744894CEC41BF06_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_ILHIIDBCNEC_OFFSET))(this);
 		}
 
-		static ::System::ValueTuple_2<::UnityEngine::Vector2, ::UnityEngine::Vector2> Method_6_DBA008A0E0AB2ECC(::UnityEngine::RectTransform* a1, ::UnityEngine::Camera* a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4)
+		::System::Single EMLLPAAAHNG()
 		{
-			return ((::System::ValueTuple_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>(*)(::UnityEngine::RectTransform*, ::UnityEngine::Camera*, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_DBA008A0E0AB2ECC_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_EMLLPAAAHNG_OFFSET))(this);
 		}
 
-		static ::System::Single Method_6_D3CDDBF95A81E584()
+		::System::Void BPAMAMICDKI()
 		{
-			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_D3CDDBF95A81E584_OFFSET))();
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_BPAMAMICDKI_OFFSET))(this);
 		}
 
-		::System::Single Method_6_3422201382CE593B()
+		static ::System::Single LFBJOLPHBFF()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_3422201382CE593B_OFFSET))(this);
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_LFBJOLPHBFF_OFFSET))();
 		}
 
-		::UnityEngine::Vector2 Method_6_1CCA9681CE0AE7A7(::System::Single a1, ::System::Single a2)
+		::System::Void PIOOPLAPDPK()
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_1CCA9681CE0AE7A7_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_PIOOPLAPDPK_OFFSET))(this);
 		}
 
-		::System::Void Method_6_4343F372F34C05BF()
+		static ::System::Single PDMKAEDLDPB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_PDMKAEDLDPB_OFFSET))();
 		}
 
-		::System::Void Method_6_CA373AA1C7054598()
+		::System::Single LJLHPGBFLGC(::System::Single BBEBNGKKMBK, ::System::Single MGJOFMPHEJK, ::System::Int32 EJOIHNMAENJ, ::System::Boolean FOAIBAIJEGC)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_LJLHPGBFLGC_OFFSET))(this, BBEBNGKKMBK, MGJOFMPHEJK, EJOIHNMAENJ, FOAIBAIJEGC);
 		}
 
-		::UnityEngine::Canvas* Method_6_4B72F72501001F72()
+		::System::Void GPGLNOBDBGJ()
 		{
-			return ((::UnityEngine::Canvas*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_4B72F72501001F72_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_GPGLNOBDBGJ_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_F0088C88851A7DFB()
+		::System::Boolean DJFLFBMCHLH()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_F0088C88851A7DFB_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_DJFLFBMCHLH_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_6426CAFBEED664F1()
+		::System::Void BMOGOLBNPCF(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_6426CAFBEED664F1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_BMOGOLBNPCF_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Single Method_6_3422201382CE593B_1()
+		::System::Void MCJGEECCCPG()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_3422201382CE593B_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_MCJGEECCCPG_OFFSET))(this);
 		}
 
-		static ::System::Single Method_6_D3CDDBF95A81E584_1()
+		static ::System::ValueTuple_2<::UnityEngine::Vector2, ::UnityEngine::Vector2> ALNLFJPKIPO(::UnityEngine::RectTransform* EMDOIDLAFDB, ::UnityEngine::Camera* KONLMDBCDCK, ::UnityEngine::Vector2 GIIEMKDKBGB, ::UnityEngine::Vector2 EFABMKPHAPN)
 		{
-			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_D3CDDBF95A81E584_1_OFFSET))();
+			return ((::System::ValueTuple_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>(*)(::UnityEngine::RectTransform*, ::UnityEngine::Camera*, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_ALNLFJPKIPO_OFFSET))(EMDOIDLAFDB, KONLMDBCDCK, GIIEMKDKBGB, EFABMKPHAPN);
 		}
 
-		::System::Void Method_6_C74E50CBD41F0264(::System::Boolean a1)
+		::System::Void KDOIBCBFBAG()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_C74E50CBD41F0264_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_KDOIBCBFBAG_OFFSET))(this);
 		}
 
-		::System::Void Method_6_7744894CEC41BF06_1()
+		::UnityEngine::Vector2 KEHPPNIHBOH(::System::Single NGIAEEBHCOC, ::System::Single EHEGJCCCJCA)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_7744894CEC41BF06_1_OFFSET))(this);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_KEHPPNIHBOH_OFFSET))(this, NGIAEEBHCOC, EHEGJCCCJCA);
 		}
 
-		::System::Single Method_6_F4B69C1853FCB2B5(::System::Single a1, ::System::Single a2, ::System::Int32 a3, ::System::Boolean a4)
+		::System::Boolean GHNAIJKPLKK()
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_METHOD_6_F4B69C1853FCB2B5_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHYSICALPOSHANDLER_GHNAIJKPLKK_OFFSET))(this);
 		}
 	};
 }

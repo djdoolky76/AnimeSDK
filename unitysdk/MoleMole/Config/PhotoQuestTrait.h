@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 
-class Class_0_16E4307DCC419505_198;
-class Class_1_236FD73ABC492E3F;
-class Class_1_BE29B49AC03370B6;
+class EKHEOJOFLLA;
+class FKNIEPCILLG;
+class OHDHAGLCAEB;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1A4BD800)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A4BD900)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A4BD7B0)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A4BDE50)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1A4BDAA0)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A4BE2E0)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1A4BD8F0)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A4BDEB0)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1A4BDB20)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A4BE150)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1A4BDD10)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4BE380)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A4BE390)
-#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A4BE3A0)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x165448E0)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x165449E0)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x16544890)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16544F30)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x16544B80)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x165453C0)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x165449D0)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16544F90)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x16544C00)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16545230)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x16544DF0)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x16545460)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x16545470)
+#define MOLEMOLE_CONFIG_PHOTOQUESTTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x16545480)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int PhotoQuestTrait_TypeDefinitionIndex = 81447;
+	inline static constexpr unsigned int PhotoQuestTrait_TypeDefinitionIndex = 48932;
 
 	class PhotoQuestTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -56,9 +56,9 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void ExposeMember(::Class_0_16E4307DCC419505_198* processor, ::System::String* prefix)
+		::System::Void ExposeMember(::OHDHAGLCAEB* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
@@ -76,34 +76,34 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::PhotoQuestTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::PhotoQuestTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		static ::MoleMole::Config::PhotoQuestTrait* ParseFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::PhotoQuestTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+			return ((::MoleMole::Config::PhotoQuestTrait*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Boolean GenerateComponent(::Class_1_BE29B49AC03370B6* buildContext)
+		::System::Boolean GenerateComponent(::EKHEOJOFLLA* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
+			return ((::System::Boolean(*)(::PVOID, ::EKHEOJOFLLA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_198* P0, ::System::String* P1)
+		::System::Void __base_ExposeMember(::OHDHAGLCAEB* P0, ::System::String* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 
-		::System::Boolean __base_GenerateComponent(::Class_1_BE29B49AC03370B6* P0)
+		::System::Boolean __base_GenerateComponent(::EKHEOJOFLLA* P0)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::EKHEOJOFLLA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PHOTOQUESTTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

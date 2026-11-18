@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_Enumerator.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
@@ -11,31 +10,31 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_ADDCHILD_OFFSET UNITYSDK_OFFSET(0x129D8EE0)
-#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_COLLECTALLCHILDRENNAME_1_OFFSET UNITYSDK_OFFSET(0x129D93F0)
-#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_COLLECTALLCHILDRENNAME_OFFSET UNITYSDK_OFFSET(0x1298D0C0)
-#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GETMARKDATA_1_OFFSET UNITYSDK_OFFSET(0x129D9290)
-#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GETMARKDATA_OFFSET UNITYSDK_OFFSET(0x129D9140)
-#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_CHILDMAPITERATOR_OFFSET UNITYSDK_OFFSET(0x129D8DB0)
-#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0x129D9690)
-#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_HASCHILDRENDATA_OFFSET UNITYSDK_OFFSET(0x129D8D50)
-#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x129D9640)
-#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_XZPOSITION_OFFSET UNITYSDK_OFFSET(0x129D9590)
-#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_TRYGETCHILD_OFFSET UNITYSDK_OFFSET(0x129D9040)
-#define MOLEMOLE_SCENEMARK_SCENEMARKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x129D8EA0)
+#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_ADDCHILD_OFFSET UNITYSDK_OFFSET(0x1249D100)
+#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_COLLECTALLCHILDRENNAME_1_OFFSET UNITYSDK_OFFSET(0x1249D610)
+#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_COLLECTALLCHILDRENNAME_OFFSET UNITYSDK_OFFSET(0x1244C2E0)
+#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GETMARKDATA_1_OFFSET UNITYSDK_OFFSET(0x1249D4B0)
+#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GETMARKDATA_OFFSET UNITYSDK_OFFSET(0x1249D360)
+#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_CHILDMAPITERATOR_OFFSET UNITYSDK_OFFSET(0x1249CFD0)
+#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0x1249D8B0)
+#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_HASCHILDRENDATA_OFFSET UNITYSDK_OFFSET(0x1249CF70)
+#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1249D860)
+#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_XZPOSITION_OFFSET UNITYSDK_OFFSET(0x1249D7B0)
+#define MOLEMOLE_SCENEMARK_SCENEMARKNODE_TRYGETCHILD_OFFSET UNITYSDK_OFFSET(0x1249D260)
+#define MOLEMOLE_SCENEMARK_SCENEMARKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1249D0C0)
 
 namespace MoleMole::SceneMark
 {
-	inline static constexpr unsigned int SceneMarkNode_TypeDefinitionIndex = 88406;
+	inline static constexpr unsigned int SceneMarkNode_TypeDefinitionIndex = 80219;
 
 	class SceneMarkNode : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::MoleMole::SceneMark::SceneMarkDataBase*>* MarkData; // 0x10
-		::System::String* Name; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::SceneMark::SceneMarkNode*>* ChildrenMap; // 0x20
-		::UnityEngine::Transform* transform; // 0x28
-		::System::String* ParentName; // 0x30
+		::System::String* ParentName; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::SceneMark::SceneMarkNode*>* ChildrenMap; // 0x18
+		::System::String* Name; // 0x20
+		::Il2CppArray<::MoleMole::SceneMark::SceneMarkDataBase*>* MarkData; // 0x28
+		::UnityEngine::Transform* transform; // 0x30
 
 		::System::Void _ctor(::System::String* name, ::MoleMole::SceneMark::SceneMarkNode* parent, ::UnityEngine::Transform* transform, ::Il2CppArray<::MoleMole::SceneMark::SceneMarkDataBase*>* data)
 		{
@@ -47,9 +46,9 @@ namespace MoleMole::SceneMark
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_HASCHILDRENDATA_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MoleMole::SceneMark::SceneMarkNode*> get_ChildMapIterator()
+		::System::Object* get_ChildMapIterator()
 		{
-			return ((::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MoleMole::SceneMark::SceneMarkNode*>(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_CHILDMAPITERATOR_OFFSET))(this);
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENEMARK_SCENEMARKNODE_GET_CHILDMAPITERATOR_OFFSET))(this);
 		}
 
 		::System::Void AddChild(::MoleMole::SceneMark::SceneMarkNode* child)

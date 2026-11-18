@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_SERIALIZATION_ODINNEWSKIPTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC2AA60)
+#define SIRENIX_SERIALIZATION_ODINNEWSKIPTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x20032EF0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int OdinNewSkipTypeAttribute_TypeDefinitionIndex = 7598;
+	inline static constexpr unsigned int OdinNewSkipTypeAttribute_TypeDefinitionIndex = 7610;
 
 	class OdinNewSkipTypeAttribute : public ::System::Attribute
 	{

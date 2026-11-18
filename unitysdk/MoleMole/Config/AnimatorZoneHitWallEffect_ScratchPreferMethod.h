@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneHitWallEffect_ScratchPreferMethod_TypeDefinitionIndex = 75553;
+	inline static constexpr unsigned int AnimatorZoneHitWallEffect_ScratchPreferMethod_TypeDefinitionIndex = 47857;
 
 	enum class AnimatorZoneHitWallEffect_ScratchPreferMethod : ::System::Int32
 	{

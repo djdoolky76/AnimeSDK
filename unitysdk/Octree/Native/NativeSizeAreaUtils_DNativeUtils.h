@@ -3,26 +3,26 @@
 #include "unitysdk/Octree/Native/SIMD/uint4.h"
 #include "unitysdk/System/Object.h"
 
-#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMCOPY_OFFSET UNITYSDK_OFFSET(0x18B18BC0)
-#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALSFAST_OFFSET UNITYSDK_OFFSET(0x18B19010)
-#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALS_1_OFFSET UNITYSDK_OFFSET(0x18B18DC0)
-#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALS_2_OFFSET UNITYSDK_OFFSET(0x18B18E10)
-#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALS_OFFSET UNITYSDK_OFFSET(0x18B18D80)
-#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMISZERO_OFFSET UNITYSDK_OFFSET(0x18B18E70)
-#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMSET_OFFSET UNITYSDK_OFFSET(0x18B18CB0)
-#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B191A0)
-#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x18B19190)
+#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMCOPY_OFFSET UNITYSDK_OFFSET(0x19492E50)
+#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALSFAST_OFFSET UNITYSDK_OFFSET(0x194932A0)
+#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALS_1_OFFSET UNITYSDK_OFFSET(0x19493050)
+#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALS_2_OFFSET UNITYSDK_OFFSET(0x194930A0)
+#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALS_OFFSET UNITYSDK_OFFSET(0x19493010)
+#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMISZERO_OFFSET UNITYSDK_OFFSET(0x19493100)
+#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMSET_OFFSET UNITYSDK_OFFSET(0x19492F40)
+#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19493430)
+#define OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x19493420)
 
 namespace Octree::Native
 {
-	inline static constexpr unsigned int NativeSizeAreaUtils_DNativeUtils_TypeDefinitionIndex = 51020;
+	inline static constexpr unsigned int NativeSizeAreaUtils_DNativeUtils_TypeDefinitionIndex = 44715;
 
 	class NativeSizeAreaUtils_DNativeUtils : public ::System::Object
 	{
 	public:
 		static ::Octree::Native::SIMD::uint4* StaticGet_s_Uint4Zero()
 		{
-			return (::Octree::Native::SIMD::uint4*)Il2CppClass::FromTypeDefinitionIndex(NativeSizeAreaUtils_DNativeUtils_TypeDefinitionIndex)->GetStaticField(0xD1B0);
+			return (::Octree::Native::SIMD::uint4*)Il2CppClass::FromTypeDefinitionIndex(NativeSizeAreaUtils_DNativeUtils_TypeDefinitionIndex)->GetStaticField(0xD250);
 		}
 
 		::System::Void _ctor()
@@ -35,39 +35,39 @@ namespace Octree::Native
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS__CCTOR_OFFSET))();
 		}
 
-		::System::Void PtrMemCopy(::System::Void* inSrc, ::System::Void* inDst, ::System::Int32 srcOffset, ::System::Int32 dstOffset, ::System::Int32 count)
+		::System::Void PtrMemCopy(::PVOID inSrc, ::PVOID inDst, ::System::Int32 srcOffset, ::System::Int32 dstOffset, ::System::Int32 count)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Void*, ::System::Void*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMCOPY_OFFSET))(this, inSrc, inDst, srcOffset, dstOffset, count);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMCOPY_OFFSET))(this, inSrc, inDst, srcOffset, dstOffset, count);
 		}
 
-		::System::Void PtrMemSet(::System::Void* inDst, ::System::Int32 dstOffset, ::System::Int32 count, ::System::Byte value)
+		::System::Void PtrMemSet(::PVOID inDst, ::System::Int32 dstOffset, ::System::Int32 count, ::System::Byte value)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Void*, ::System::Int32, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMSET_OFFSET))(this, inDst, dstOffset, count, value);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMSET_OFFSET))(this, inDst, dstOffset, count, value);
 		}
 
-		::System::Boolean PtrMemEquals(::System::Void* lPtr, ::System::Void* rPtr, ::System::Int32 len)
+		::System::Boolean PtrMemEquals(::PVOID lPtr, ::PVOID rPtr, ::System::Int32 len)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Void*, ::System::Void*, ::System::Int32))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALS_OFFSET))(this, lPtr, rPtr, len);
+			return ((::System::Boolean(*)(::PVOID, ::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALS_OFFSET))(this, lPtr, rPtr, len);
 		}
 
-		::System::Boolean PtrMemEquals_1(::System::Void* lPtr, ::System::Void* rPtr, ::System::Int32 lOffset, ::System::Int32 rOffset, ::System::Int32 len)
+		::System::Boolean PtrMemEquals_1(::PVOID lPtr, ::PVOID rPtr, ::System::Int32 lOffset, ::System::Int32 rOffset, ::System::Int32 len)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Void*, ::System::Void*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALS_1_OFFSET))(this, lPtr, rPtr, lOffset, rOffset, len);
+			return ((::System::Boolean(*)(::PVOID, ::PVOID, ::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALS_1_OFFSET))(this, lPtr, rPtr, lOffset, rOffset, len);
 		}
 
-		::System::Boolean PtrMemEquals_2(::System::Void* lPtr, ::System::Void* rPtr, ::System::Int32 lOffset, ::System::Int32 rOffset, ::System::Int32 len, ::System::Int32& breakIdx)
+		::System::Boolean PtrMemEquals_2(::PVOID lPtr, ::PVOID rPtr, ::System::Int32 lOffset, ::System::Int32 rOffset, ::System::Int32 len, ::System::Int32& breakIdx)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Void*, ::System::Void*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALS_2_OFFSET))(this, lPtr, rPtr, lOffset, rOffset, len, breakIdx);
+			return ((::System::Boolean(*)(::PVOID, ::PVOID, ::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALS_2_OFFSET))(this, lPtr, rPtr, lOffset, rOffset, len, breakIdx);
 		}
 
-		::System::Boolean PtrMemIsZero(::System::Void* lPtr, ::System::Int32 lOffset, ::System::UInt32 len)
+		::System::Boolean PtrMemIsZero(::PVOID lPtr, ::System::Int32 lOffset, ::System::UInt32 len)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Void*, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMISZERO_OFFSET))(this, lPtr, lOffset, len);
+			return ((::System::Boolean(*)(::PVOID, ::PVOID, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMISZERO_OFFSET))(this, lPtr, lOffset, len);
 		}
 
-		::System::Boolean PtrMemEqualsFast(::System::Void* iLPtr, ::System::Void* iRPtr, ::System::UInt32 lOffset, ::System::UInt32 rOffset, ::System::UInt32 len)
+		::System::Boolean PtrMemEqualsFast(::PVOID iLPtr, ::PVOID iRPtr, ::System::UInt32 lOffset, ::System::UInt32 rOffset, ::System::UInt32 len)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Void*, ::System::Void*, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALSFAST_OFFSET))(this, iLPtr, iRPtr, lOffset, rOffset, len);
+			return ((::System::Boolean(*)(::PVOID, ::PVOID, ::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_NATIVESIZEAREAUTILS_DNATIVEUTILS_PTRMEMEQUALSFAST_OFFSET))(this, iLPtr, iRPtr, lOffset, rOffset, len);
 		}
 	};
 }

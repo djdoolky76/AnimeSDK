@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define PARADOXNOTION_DESIGN_NODENAMEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EB9E690)
-#define PARADOXNOTION_DESIGN_NODENAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9E680)
+#define PARADOXNOTION_DESIGN_NODENAMEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EF6E100)
+#define PARADOXNOTION_DESIGN_NODENAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6E0F0)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int NodeNameAttribute_TypeDefinitionIndex = 30967;
+	inline static constexpr unsigned int NodeNameAttribute_TypeDefinitionIndex = 30127;
 
 	class NodeNameAttribute : public ::System::Attribute
 	{

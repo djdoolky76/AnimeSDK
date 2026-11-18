@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIBRIDGELISTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4B5DA0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIBRIDGELISTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA39A60)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIBridgeListItem_TypeDefinitionIndex = 21257;
+	inline static constexpr unsigned int PluginUIBridgeListItem_TypeDefinitionIndex = 20462;
 
 	class PluginUIBridgeListItem : public ::System::Object
 	{
@@ -16,6 +16,7 @@ namespace MiHoYo::SDK::PluginUI
 		::System::Int32 action_index; // 0x10
 		::System::Int32 delete_action_index; // 0x14
 		::System::Boolean is_selected; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::String* item_data; // 0x20
 
 		::System::Void _ctor()

@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AvatarSteerType_TypeDefinitionIndex = 72922;
+	inline static constexpr unsigned int AvatarSteerType_TypeDefinitionIndex = 72371;
 
 	enum class AvatarSteerType : ::System::Byte
 	{
-		Instant = 0x0,
-		Clamp = 0x1,
-		Fixed = 0x2,
+		Fixed = 2,
+		Clamp = 1,
+		Instant = 0,
 	};
 }

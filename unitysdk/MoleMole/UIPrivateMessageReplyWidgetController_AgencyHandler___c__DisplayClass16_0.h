@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_794BA983EDDBCFDE_Class_2_BD4CB46CB1BDBF16;
+class MLJGMELKNCC_CCOOFJHMODE;
 
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER_AGENCYHANDLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17487F20)
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER_AGENCYHANDLER___C__DISPLAYCLASS16_0__SHOWVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x17487F30)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER_AGENCYHANDLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1679A020)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER_AGENCYHANDLER___C__DISPLAYCLASS16_0__SHOWVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1679A030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController_AgencyHandler___c__DisplayClass16_0_TypeDefinitionIndex = 56242;
+	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController_AgencyHandler___c__DisplayClass16_0_TypeDefinitionIndex = 80474;
 
 	class UIPrivateMessageReplyWidgetController_AgencyHandler___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::Class_1_794BA983EDDBCFDE_Class_2_BD4CB46CB1BDBF16* singleMessage; // 0x10
+		::MLJGMELKNCC_CCOOFJHMODE* singleMessage; // 0x10
 
 		::System::Void _ctor()
 		{

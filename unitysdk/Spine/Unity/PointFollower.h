@@ -5,23 +5,25 @@
 namespace Spine { class Bone; }
 namespace Spine { class PointAttachment; }
 namespace Spine::Unity { class ISkeletonComponent; }
+namespace Spine::Unity { class ISkeletonRenderer; }
 namespace Spine::Unity { class SkeletonRenderer; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define SPINE_UNITY_POINTFOLLOWER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1C1729D0)
-#define SPINE_UNITY_POINTFOLLOWER_GET_SKELETONCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C1729C0)
-#define SPINE_UNITY_POINTFOLLOWER_GET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1C1729B0)
-#define SPINE_UNITY_POINTFOLLOWER_HANDLEREBUILDRENDERER_OFFSET UNITYSDK_OFFSET(0x1C172DE0)
-#define SPINE_UNITY_POINTFOLLOWER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C1729E0)
-#define SPINE_UNITY_POINTFOLLOWER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1C173140)
-#define SPINE_UNITY_POINTFOLLOWER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C172F70)
-#define SPINE_UNITY_POINTFOLLOWER_UPDATEREFERENCES_OFFSET UNITYSDK_OFFSET(0x1C172B40)
-#define SPINE_UNITY_POINTFOLLOWER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C173750)
+#define SPINE_UNITY_POINTFOLLOWER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1FEA3280)
+#define SPINE_UNITY_POINTFOLLOWER_GET_RENDERER_OFFSET UNITYSDK_OFFSET(0x1FEA3260)
+#define SPINE_UNITY_POINTFOLLOWER_GET_SKELETONCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1FEA3270)
+#define SPINE_UNITY_POINTFOLLOWER_GET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1FEA3250)
+#define SPINE_UNITY_POINTFOLLOWER_HANDLEREBUILDRENDERER_OFFSET UNITYSDK_OFFSET(0x1FEA3690)
+#define SPINE_UNITY_POINTFOLLOWER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FEA3290)
+#define SPINE_UNITY_POINTFOLLOWER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1FEA39C0)
+#define SPINE_UNITY_POINTFOLLOWER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FEA37F0)
+#define SPINE_UNITY_POINTFOLLOWER_UPDATEREFERENCES_OFFSET UNITYSDK_OFFSET(0x1FEA33F0)
+#define SPINE_UNITY_POINTFOLLOWER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FEA4010)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int PointFollower_TypeDefinitionIndex = 40108;
+	inline static constexpr unsigned int PointFollower_TypeDefinitionIndex = 38124;
 
 	class PointFollower : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,8 +34,10 @@ namespace Spine::Unity
 		::System::Boolean followRotation; // 0x30
 		::System::Boolean followSkeletonFlip; // 0x31
 		::System::Boolean followSkeletonZPosition; // 0x32
+		::System::Byte _padding0[0x5];
 		::UnityEngine::Transform* skeletonTransform; // 0x38
 		::System::Boolean skeletonTransformIsParent; // 0x40
+		::System::Byte _padding1[0x7];
 		::Spine::PointAttachment* point; // 0x48
 		::Spine::Bone* bone; // 0x50
 		::System::Boolean valid; // 0x58
@@ -43,9 +47,14 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_POINTFOLLOWER__CTOR_OFFSET))(this);
 		}
 
-		::Spine::Unity::SkeletonRenderer* get_SkeletonRenderer()
+		::Spine::Unity::ISkeletonRenderer* get_SkeletonRenderer()
 		{
-			return ((::Spine::Unity::SkeletonRenderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_POINTFOLLOWER_GET_SKELETONRENDERER_OFFSET))(this);
+			return ((::Spine::Unity::ISkeletonRenderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_POINTFOLLOWER_GET_SKELETONRENDERER_OFFSET))(this);
+		}
+
+		::Spine::Unity::ISkeletonRenderer* get_Renderer()
+		{
+			return ((::Spine::Unity::ISkeletonRenderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_POINTFOLLOWER_GET_RENDERER_OFFSET))(this);
 		}
 
 		::Spine::Unity::ISkeletonComponent* get_SkeletonComponent()
@@ -63,9 +72,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_POINTFOLLOWER_INITIALIZE_OFFSET))(this);
 		}
 
-		::System::Void HandleRebuildRenderer(::Spine::Unity::SkeletonRenderer* skeletonRenderer)
+		::System::Void HandleRebuildRenderer(::Spine::Unity::ISkeletonRenderer* skeletonRenderer)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_POINTFOLLOWER_HANDLEREBUILDRENDERER_OFFSET))(this, skeletonRenderer);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_POINTFOLLOWER_HANDLEREBUILDRENDERER_OFFSET))(this, skeletonRenderer);
 		}
 
 		::System::Void UpdateReferences()

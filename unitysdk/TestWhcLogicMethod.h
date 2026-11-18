@@ -6,14 +6,14 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define TESTWHCLOGICMETHOD_LOCKTARGET_OFFSET UNITYSDK_OFFSET(0x1FB80140)
-#define TESTWHCLOGICMETHOD_STARTZOOM_OFFSET UNITYSDK_OFFSET(0x1FB80120)
-#define TESTWHCLOGICMETHOD_STOPZOOM_OFFSET UNITYSDK_OFFSET(0x1FB80130)
-#define TESTWHCLOGICMETHOD_TEST_OFFSET UNITYSDK_OFFSET(0x1FB7FFE0)
-#define TESTWHCLOGICMETHOD_UNLOCK_OFFSET UNITYSDK_OFFSET(0x1FB802A0)
-#define TESTWHCLOGICMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB802B0)
+#define TESTWHCLOGICMETHOD_LOCKTARGET_OFFSET UNITYSDK_OFFSET(0x1FF80D90)
+#define TESTWHCLOGICMETHOD_STARTZOOM_OFFSET UNITYSDK_OFFSET(0x1FF80D70)
+#define TESTWHCLOGICMETHOD_STOPZOOM_OFFSET UNITYSDK_OFFSET(0x1FF80D80)
+#define TESTWHCLOGICMETHOD_TEST_OFFSET UNITYSDK_OFFSET(0x1FF80C30)
+#define TESTWHCLOGICMETHOD_UNLOCK_OFFSET UNITYSDK_OFFSET(0x1FF80EF0)
+#define TESTWHCLOGICMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF80F00)
 
-inline static constexpr unsigned int TestWhcLogicMethod_TypeDefinitionIndex = 94990;
+inline static constexpr unsigned int TestWhcLogicMethod_TypeDefinitionIndex = 96681;
 
 class TestWhcLogicMethod : public ::UnityEngine::MonoBehaviour
 {
@@ -22,6 +22,7 @@ public:
 	::System::Single startTime; // 0x1C
 	::UnityEngine::AnimationCurve* StartCurve; // 0x20
 	::System::Single endTime; // 0x28
+	::System::Byte _padding0[0x4];
 	::UnityEngine::AnimationCurve* endCurve; // 0x30
 	::System::Collections::Generic::List_1<::System::Int32>* uniqueids; // 0x38
 	::UnityEngine::Transform* Target; // 0x40

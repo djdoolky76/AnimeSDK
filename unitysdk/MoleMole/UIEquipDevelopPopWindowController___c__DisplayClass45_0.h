@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_477;
-class Class_2_888734130AA1067E;
-class Class_3_9F091E965E210217_15;
+class CAAFLJLCKFI;
+class FOLOGHLENFB;
+class NDGCMMKJPAN;
 namespace MoleMole { class UIEquipDevelopPopWindowController; }
 
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186AB0E0)
-#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DISPLAYCLASS45_0__REFRESHSTARUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x186AB0F0)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184B4560)
+#define MOLEMOLE_UIEQUIPDEVELOPPOPWINDOWCONTROLLER___C__DISPLAYCLASS45_0__REFRESHSTARUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x184B4570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIEquipDevelopPopWindowController___c__DisplayClass45_0_TypeDefinitionIndex = 70949;
+	inline static constexpr unsigned int UIEquipDevelopPopWindowController___c__DisplayClass45_0_TypeDefinitionIndex = 43340;
 
 	class UIEquipDevelopPopWindowController___c__DisplayClass45_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIEquipDevelopPopWindowController* __4__this; // 0x10
-		::Class_3_9F091E965E210217_15* serverInfo; // 0x18
-		::Class_2_888734130AA1067E* weaponConfig; // 0x20
-		::Class_2_208CC9941471731A_477* itemConfig; // 0x28
+		::FOLOGHLENFB* itemConfig; // 0x10
+		::CAAFLJLCKFI* weaponConfig; // 0x18
+		::MoleMole::UIEquipDevelopPopWindowController* __4__this; // 0x20
+		::NDGCMMKJPAN* serverInfo; // 0x28
 		::System::Int32 maxStar; // 0x30
 
 		::System::Void _ctor()

@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Dynamic/BindingRestrictions_TestBuilder_AndNode.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -8,10 +7,10 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace System::Dynamic { class BindingRestrictions; }
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TESTBUILDER_APPEND_OFFSET UNITYSDK_OFFSET(0x1F5199B0)
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TESTBUILDER_PUSH_OFFSET UNITYSDK_OFFSET(0x1F519A60)
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TESTBUILDER_TOEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1F519BD0)
-#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TESTBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F519CF0)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TESTBUILDER_APPEND_OFFSET UNITYSDK_OFFSET(0x1F8EA320)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TESTBUILDER_PUSH_OFFSET UNITYSDK_OFFSET(0x1F8EA3D0)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TESTBUILDER_TOEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1F8EA540)
+#define SYSTEM_DYNAMIC_BINDINGRESTRICTIONS_TESTBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8EA660)
 
 namespace System::Dynamic
 {
@@ -21,7 +20,7 @@ namespace System::Dynamic
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>* _unique; // 0x10
-		::System::Collections::Generic::Stack_1<::System::Dynamic::BindingRestrictions_TestBuilder_AndNode>* _tests; // 0x18
+		::System::Collections::Generic::Stack_1<::System::Object*>* _tests; // 0x18
 
 		::System::Void _ctor()
 		{

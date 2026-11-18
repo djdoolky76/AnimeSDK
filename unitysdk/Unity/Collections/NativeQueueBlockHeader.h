@@ -4,11 +4,11 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeQueueBlockHeader_TypeDefinitionIndex = 18869;
+	inline static constexpr unsigned int NativeQueueBlockHeader_TypeDefinitionIndex = 18022;
 
 	struct alignas(8) NativeQueueBlockHeader
 	{
-		::Unity::Collections::NativeQueueBlockHeader* m_NextBlock; // 0x10
+		::PVOID m_NextBlock; // 0x10
 		::System::Int32 m_NumItems; // 0x18
 	};
 }

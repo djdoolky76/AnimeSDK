@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MYNAMESMOLEMOLE_FLOWCANVAS_NODESPACE_LDHANDLEENTITYENABLENODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10B019F0)
-#define MYNAMESMOLEMOLE_FLOWCANVAS_NODESPACE_LDHANDLEENTITYENABLENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10B01B00)
-#define MYNAMESMOLEMOLE_FLOWCANVAS_NODESPACE_LDHANDLEENTITYENABLENODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x10B01B40)
+#define MYNAMESMOLEMOLE_FLOWCANVAS_NODESPACE_LDHANDLEENTITYENABLENODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x17268E20)
+#define MYNAMESMOLEMOLE_FLOWCANVAS_NODESPACE_LDHANDLEENTITYENABLENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17268F30)
+#define MYNAMESMOLEMOLE_FLOWCANVAS_NODESPACE_LDHANDLEENTITYENABLENODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x17268F70)
 
 namespace MyNamesMoleMole::FlowCanvas::Nodespace
 {
-	inline static constexpr unsigned int LDHandleEntityEnableNode_TypeDefinitionIndex = 67689;
+	inline static constexpr unsigned int LDHandleEntityEnableNode_TypeDefinitionIndex = 69544;
 
 	class LDHandleEntityEnableNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{

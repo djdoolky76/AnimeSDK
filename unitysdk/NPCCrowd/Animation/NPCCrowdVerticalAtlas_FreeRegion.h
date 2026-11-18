@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_NPCCROWDVERTICALATLAS_FREEREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x312BA0)
+#define NPCCROWD_ANIMATION_NPCCROWDVERTICALATLAS_FREEREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x2E4140)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdVerticalAtlas_FreeRegion_TypeDefinitionIndex = 64504;
+	inline static constexpr unsigned int NPCCrowdVerticalAtlas_FreeRegion_TypeDefinitionIndex = 76814;
 
 	struct alignas(4) NPCCrowdVerticalAtlas_FreeRegion
 	{

@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_590214B1C850A70F.h"
+#include "unitysdk/NLLJDOHBCJA.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace System { class String; }
@@ -8,11 +8,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InteractantTagListEntry_TypeDefinitionIndex = 82305;
+	inline static constexpr unsigned int InteractantTagListEntry_TypeDefinitionIndex = 83004;
 
 	struct alignas(8) InteractantTagListEntry
 	{
-		::Enum_3_590214B1C850A70F Interactant; // 0x10
+		::NLLJDOHBCJA Interactant; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::String*>* Tags; // 0x18
 	};
 }

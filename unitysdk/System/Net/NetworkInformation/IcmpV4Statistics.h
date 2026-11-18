@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_ICMPV4STATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC5C30)
+#define SYSTEM_NET_NETWORKINFORMATION_ICMPV4STATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E344F60)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int IcmpV4Statistics_TypeDefinitionIndex = 3719;
+	inline static constexpr unsigned int IcmpV4Statistics_TypeDefinitionIndex = 3718;
 
 	class IcmpV4Statistics : public ::System::Object
 	{

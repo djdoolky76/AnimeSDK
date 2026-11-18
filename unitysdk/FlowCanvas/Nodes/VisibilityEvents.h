@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/RouterEventNode_1.h"
 #include "unitysdk/ParadoxNotion/EventData.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace ParadoxNotion::Services { class EventRouter; }
 namespace UnityEngine { class GameObject; }
-namespace UnityEngine { class Transform; }
 
-#define FLOWCANVAS_NODES_VISIBILITYEVENTS_ONBECAMEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x1EBB5E20)
-#define FLOWCANVAS_NODES_VISIBILITYEVENTS_ONBECAMEVISIBLE_OFFSET UNITYSDK_OFFSET(0x1EBB5D90)
-#define FLOWCANVAS_NODES_VISIBILITYEVENTS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EBB59D0)
-#define FLOWCANVAS_NODES_VISIBILITYEVENTS_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1EBB5A90)
-#define FLOWCANVAS_NODES_VISIBILITYEVENTS_UNSUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1EBB5C10)
-#define FLOWCANVAS_NODES_VISIBILITYEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB5EB0)
-#define FLOWCANVAS_NODES_VISIBILITYEVENTS__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1EBB5F00)
+#define FLOWCANVAS_NODES_VISIBILITYEVENTS_ONBECAMEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x1EF886B0)
+#define FLOWCANVAS_NODES_VISIBILITYEVENTS_ONBECAMEVISIBLE_OFFSET UNITYSDK_OFFSET(0x1EF88620)
+#define FLOWCANVAS_NODES_VISIBILITYEVENTS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EF882A0)
+#define FLOWCANVAS_NODES_VISIBILITYEVENTS_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1EF88360)
+#define FLOWCANVAS_NODES_VISIBILITYEVENTS_UNSUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1EF884C0)
+#define FLOWCANVAS_NODES_VISIBILITYEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF88740)
+#define FLOWCANVAS_NODES_VISIBILITYEVENTS__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1EF88790)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int VisibilityEvents_TypeDefinitionIndex = 30672;
+	inline static constexpr unsigned int VisibilityEvents_TypeDefinitionIndex = 30334;
 
-	class VisibilityEvents : public ::FlowCanvas::Nodes::RouterEventNode_1<::UnityEngine::Transform*>
+	class VisibilityEvents
 	{
 	public:
-		::UnityEngine::GameObject* receiver; // 0xC0
-		::FlowCanvas::FlowOutput* onInvisible; // 0xC8
-		::FlowCanvas::FlowOutput* onVisible; // 0xD0
+		::FlowCanvas::FlowOutput* onInvisible; // 0xC0
+		::FlowCanvas::FlowOutput* onVisible; // 0xC8
+		::UnityEngine::GameObject* receiver; // 0xD0
 
 		::System::Void _ctor()
 		{

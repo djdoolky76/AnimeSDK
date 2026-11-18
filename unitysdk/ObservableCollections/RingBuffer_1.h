@@ -1,16 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/ObservableCollections/RingBufferSpan_1.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IComparer_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int RingBuffer_1_TypeDefinitionIndex = 28718;
+	inline static constexpr unsigned int RingBuffer_1_TypeDefinitionIndex = 28105;
 
 	template <typename T>
 	class RingBuffer_1 : public ::System::Object

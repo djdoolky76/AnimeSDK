@@ -1,21 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_CD42631606067E6B_Enum_3_149856925731683D.h"
+#include "unitysdk/AIOGGGIHCAE_CIFBPIABDBJ.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOBASEPERPSTAGE_START_OFFSET UNITYSDK_OFFSET(0x1790F670)
-#define MOLEMOLE_MONOBASEPERPSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1790F6B0)
+#define MOLEMOLE_MONOBASEPERPSTAGE_START_OFFSET UNITYSDK_OFFSET(0x14AF7610)
+#define MOLEMOLE_MONOBASEPERPSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x14AF7650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoBasePerpStage_TypeDefinitionIndex = 52490;
+	inline static constexpr unsigned int MonoBasePerpStage_TypeDefinitionIndex = 90069;
 
 	class MonoBasePerpStage : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_2_CD42631606067E6B_Enum_3_149856925731683D gameType; // 0x18
+		::AIOGGGIHCAE_CIFBPIABDBJ gameType; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* bornPosName; // 0x20
 		::System::Boolean IsActLevel; // 0x28
 

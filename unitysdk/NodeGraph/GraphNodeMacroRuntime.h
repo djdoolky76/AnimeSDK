@@ -9,12 +9,12 @@ namespace NodeGraph { class IGraphPort; }
 namespace NodeGraph { class NodeGraphBase; }
 namespace System { class String; }
 
-#define NODEGRAPH_GRAPHNODEMACRORUNTIME_GETPORT_OFFSET UNITYSDK_OFFSET(0x17CCB800)
-#define NODEGRAPH_GRAPHNODEMACRORUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x17CCB7F0)
+#define NODEGRAPH_GRAPHNODEMACRORUNTIME_GETPORT_OFFSET UNITYSDK_OFFSET(0x15FB9BC0)
+#define NODEGRAPH_GRAPHNODEMACRORUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x15FB9BB0)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphNodeMacroRuntime_TypeDefinitionIndex = 82404;
+	inline static constexpr unsigned int GraphNodeMacroRuntime_TypeDefinitionIndex = 87251;
 
 	class GraphNodeMacroRuntime : public ::NodeGraph::IGraphNode
 	{

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIFriendCardContext.h"
 
-class Class_2_D02DABCF41CDA271;
-class Class_2_E23E4CB2769CC93F;
+class GBINEPNHKKO;
+class IDGDIFDMIDP;
 
-#define MOLEMOLE_UISOCIALCIRCLEFRIENDCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18472910)
+#define MOLEMOLE_UISOCIALCIRCLEFRIENDCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1715B080)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleFriendCardContext_TypeDefinitionIndex = 65230;
+	inline static constexpr unsigned int UISocialCircleFriendCardContext_TypeDefinitionIndex = 71410;
 
 	class UISocialCircleFriendCardContext : public ::MoleMole::UIFriendCardContext
 	{
 	public:
-		::Class_2_D02DABCF41CDA271* CircleMemberData; // 0x68
-		::Class_2_E23E4CB2769CC93F* CircleData; // 0x70
+		::IDGDIFDMIDP* CircleData; // 0x68
+		::GBINEPNHKKO* CircleMemberData; // 0x70
 
 		::System::Void _ctor()
 		{

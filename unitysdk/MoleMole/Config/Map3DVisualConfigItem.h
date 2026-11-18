@@ -11,17 +11,20 @@ namespace MoleMole::Config { class Map3DFontItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_MAP3DVISUALCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x11715710)
+#define MOLEMOLE_CONFIG_MAP3DVISUALCONFIGITEM_FODEECNMNON_OFFSET UNITYSDK_OFFSET(0xFAD11B0)
+#define MOLEMOLE_CONFIG_MAP3DVISUALCONFIGITEM_ICPGCHKGHIJ_OFFSET UNITYSDK_OFFSET(0xFAD1150)
+#define MOLEMOLE_CONFIG_MAP3DVISUALCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xFAD10D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int Map3DVisualConfigItem_TypeDefinitionIndex = 51490;
+	inline static constexpr unsigned int Map3DVisualConfigItem_TypeDefinitionIndex = 50767;
 
 	class Map3DVisualConfigItem : public ::System::Object
 	{
 	public:
 		::System::String* mapKey; // 0x10
 		::System::Boolean overrideGridParams; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single gridTilling; // 0x1C
 		::UnityEngine::Vector2 gridOffset; // 0x20
 		::UnityEngine::Vector4 circleOffset; // 0x28
@@ -30,24 +33,38 @@ namespace MoleMole::Config
 		::System::Single groundRotate; // 0x48
 		::UnityEngine::Vector2 groundXZOffset; // 0x4C
 		::System::Boolean fontRotateWithGround; // 0x54
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector2 fontXZOffset; // 0x58
 		::System::Single fontSelfRotateAngle; // 0x60
 		::System::Boolean overrideGroundPosition; // 0x64
+		::System::Byte _padding2[0x3];
 		::System::Single groundOffset; // 0x68
 		::UnityEngine::Vector3 lightEulerAngle; // 0x6C
 		::UnityEngine::Vector4 cascadeShadowSplitValue; // 0x78
 		::UnityEngine::Vector4 outlineWithInnerMaxMinOuterMaxMin; // 0x88
 		::System::Boolean disablePostOutline; // 0x98
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Color outlineColor; // 0x9C
 		::System::Single outlineWidth; // 0xAC
 		::System::Boolean enableFarOutlineFix; // 0xB0
 		::System::Boolean characterArrayDisableOcclusionHighLight; // 0xB1
+		::System::Byte _padding4[0x2];
 		::System::Single characterOcclusionDitherAlpha; // 0xB4
 		::System::Single layerClipYOffset; // 0xB8
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAP3DVISUALCONFIGITEM__CTOR_OFFSET))(this);
+		}
+
+		::System::Void ICPGCHKGHIJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAP3DVISUALCONFIGITEM_ICPGCHKGHIJ_OFFSET))(this);
+		}
+
+		::System::Void FODEECNMNON()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_MAP3DVISUALCONFIGITEM_FODEECNMNON_OFFSET))(this);
 		}
 	};
 }

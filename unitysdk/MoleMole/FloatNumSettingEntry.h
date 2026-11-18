@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_E64C24AE0799EB7C.h"
+#include "unitysdk/HKIPDKIIDOD.h"
 #include "unitysdk/MoleMole/SystemSettingEntryBase.h"
 
-#define MOLEMOLE_FLOATNUMSETTINGENTRY_GETDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x19DA8020)
-#define MOLEMOLE_FLOATNUMSETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET UNITYSDK_OFFSET(0x19DA8010)
-#define MOLEMOLE_FLOATNUMSETTINGENTRY_GET__ISHIDEDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x19DA8000)
-#define MOLEMOLE_FLOATNUMSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x19DA8070)
+#define MOLEMOLE_FLOATNUMSETTINGENTRY_GETDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x12B2F010)
+#define MOLEMOLE_FLOATNUMSETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET UNITYSDK_OFFSET(0x12B2F000)
+#define MOLEMOLE_FLOATNUMSETTINGENTRY_GET__ISHIDEDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x12B2EFF0)
+#define MOLEMOLE_FLOATNUMSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2F060)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FloatNumSettingEntry_TypeDefinitionIndex = 81510;
+	inline static constexpr unsigned int FloatNumSettingEntry_TypeDefinitionIndex = 52915;
 
 	class FloatNumSettingEntry : public ::MoleMole::SystemSettingEntryBase
 	{
 	public:
-		::System::Single MinValue; // 0x30
+		::System::Single DefaultValue; // 0x30
 		::System::Single MaxValue; // 0x34
-		::System::Single DefaultValue; // 0x38
+		::System::Single MinValue; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -29,9 +29,9 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATNUMSETTINGENTRY_GET__ISHIDEDEFAULTVALUE_OFFSET))(this);
 		}
 
-		::Enum_3_E64C24AE0799EB7C get_SettingWidgetType()
+		::HKIPDKIIDOD get_SettingWidgetType()
 		{
-			return ((::Enum_3_E64C24AE0799EB7C(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATNUMSETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET))(this);
+			return ((::HKIPDKIIDOD(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATNUMSETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET))(this);
 		}
 
 		::System::Single GetDefaultValue()

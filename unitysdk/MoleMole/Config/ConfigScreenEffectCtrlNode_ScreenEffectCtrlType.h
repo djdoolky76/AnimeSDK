@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigScreenEffectCtrlNode_ScreenEffectCtrlType_TypeDefinitionIndex = 50028;
+	inline static constexpr unsigned int ConfigScreenEffectCtrlNode_ScreenEffectCtrlType_TypeDefinitionIndex = 54442;
 
 	enum class ConfigScreenEffectCtrlNode_ScreenEffectCtrlType : ::System::Int32
 	{
-		Play = 0,
 		Stop = 1,
+		Play = 0,
 	};
 }

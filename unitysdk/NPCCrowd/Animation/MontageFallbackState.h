@@ -7,12 +7,13 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageFallbackState_TypeDefinitionIndex = 40945;
+	inline static constexpr unsigned int MontageFallbackState_TypeDefinitionIndex = 81870;
 
 	struct alignas(4) MontageFallbackState
 	{
 		::System::Boolean hasFallback; // 0x10
 		::System::Boolean enabled; // 0x11
+		::System::Byte _padding0[0x2];
 		::System::Int32 montageKey; // 0x14
 		::NPCCrowd::Ability::EMontageEndBehavior endBehavior; // 0x18
 		::System::Single speed; // 0x1C

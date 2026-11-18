@@ -4,17 +4,19 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigViewObjectMisc_EntityCreate_TypeDefinitionIndex = 82212;
+	inline static constexpr unsigned int ConfigViewObjectMisc_EntityCreate_TypeDefinitionIndex = 59153;
 
 	struct alignas(8) ConfigViewObjectMisc_EntityCreate
 	{
 		::System::Boolean isOpen; // 0x10
 		::System::Boolean isDelayCreateEntityEnabled; // 0x11
 		::System::Boolean isEntityGridDisabled; // 0x12
+		::System::Byte _padding0[0x1];
 		::System::Single gridSize; // 0x14
 		::System::Single createInterval; // 0x18
 		::System::Single createIntervalForNpc; // 0x1C
 		::System::Boolean filterFloorIDForNpcSpecficCreateInterval; // 0x20
+		::System::Byte _padding1[0x7];
 		::Il2CppArray<::System::Int32>* floorIDForNpcSpecficCreateInterval; // 0x28
 	};
 }

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOUNTDOWNMODIFY_BEGIN_OFFSET UNITYSDK_OFFSET(0x19DADBB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOUNTDOWNMODIFY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19DAD9C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOUNTDOWNMODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x19DADF80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOUNTDOWNMODIFY_BEGIN_OFFSET UNITYSDK_OFFSET(0x12B33F90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOUNTDOWNMODIFY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12B33DA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOUNTDOWNMODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x12B34360)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCountDownModify_TypeDefinitionIndex = 71582;
+	inline static constexpr unsigned int LDCountDownModify_TypeDefinitionIndex = 77029;
 
 	class LDCountDownModify : public ::FlowCanvas::Nodes::FlowControlNode
 	{

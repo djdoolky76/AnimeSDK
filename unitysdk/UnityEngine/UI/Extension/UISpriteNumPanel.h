@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/AssetPath.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Color.h"
 
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -10,26 +10,28 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_CALLPLAYACTION_OFFSET UNITYSDK_OFFSET(0x18C6D590)
-#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_CALLSTOPACTION_OFFSET UNITYSDK_OFFSET(0x18C6D5E0)
-#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_INITACTION_OFFSET UNITYSDK_OFFSET(0x18C6D530)
-#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_REFRESH_OFFSET UNITYSDK_OFFSET(0x18C6CFB0)
-#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x18C6D7D0)
-#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_SETNUM_OFFSET UNITYSDK_OFFSET(0x18C6D630)
-#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x18C6D9E0)
-#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18C6DB60)
+#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_CALLPLAYACTION_OFFSET UNITYSDK_OFFSET(0x1A81F250)
+#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_CALLSTOPACTION_OFFSET UNITYSDK_OFFSET(0x1A81F2A0)
+#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_INITACTION_OFFSET UNITYSDK_OFFSET(0x1A81F1F0)
+#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_REFRESH_OFFSET UNITYSDK_OFFSET(0x1A81EC70)
+#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x1A81F490)
+#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_SETNUM_OFFSET UNITYSDK_OFFSET(0x1A81F2F0)
+#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A81F6A0)
+#define UNITYENGINE_UI_EXTENSION_UISPRITENUMPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A81F820)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UISpriteNumPanel_TypeDefinitionIndex = 48001;
+	inline static constexpr unsigned int UISpriteNumPanel_TypeDefinitionIndex = 70916;
 
 	class UISpriteNumPanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single flowDuration; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* images; // 0x20
 		::System::Boolean hasInit; // 0x28
 		::System::Boolean hideHeadZero; // 0x29
+		::System::Byte _padding1[0x6];
 		::System::Action* playAction; // 0x30
 		::System::Action* stopAction; // 0x38
 		::System::Collections::Generic::List_1<::Foundation::AssetPath>* spriteName; // 0x40
@@ -38,6 +40,7 @@ namespace UnityEngine::UI::Extension
 		::Il2CppArray<::System::UInt64>* exponential; // 0x58
 		::System::Func_2<::Foundation::AssetPath, ::UnityEngine::Sprite*>* loadFunc; // 0x60
 		::System::Boolean start; // 0x68
+		::System::Byte _padding2[0x3];
 		::System::Single passTime; // 0x6C
 		::System::UInt64 flowStartNum; // 0x70
 		::System::UInt64 flowEndNum; // 0x78

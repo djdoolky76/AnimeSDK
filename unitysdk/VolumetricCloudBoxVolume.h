@@ -11,19 +11,20 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class RenderTexture; }
 
-#define VOLUMETRICCLOUDBOXVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB42720)
+#define VOLUMETRICCLOUDBOXVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF04820)
 
-inline static constexpr unsigned int VolumetricCloudBoxVolume_TypeDefinitionIndex = 27548;
+inline static constexpr unsigned int VolumetricCloudBoxVolume_TypeDefinitionIndex = 26938;
 
 class VolumetricCloudBoxVolume : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::VolumetricCloudBoxVolume** StaticGet_instance()
 	{
-		return (::VolumetricCloudBoxVolume**)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudBoxVolume_TypeDefinitionIndex)->GetStaticField(0x53580);
+		return (::VolumetricCloudBoxVolume**)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudBoxVolume_TypeDefinitionIndex)->GetStaticField(0x530C0);
 	}
 	// static const ::System::Int32 sliceSize = 0x100; // 0x0
 	::System::Boolean layoutEditMode; // 0x18
+	::System::Byte _padding0[0x7];
 	::UnityEngine::RenderTexture* volumeDataTexture; // 0x20
 	::UnityEngine::BoxCollider* boxCollider; // 0x28
 	::UnityEngine::Object* hda; // 0x30
@@ -47,6 +48,7 @@ public:
 	::System::Int32 bakeKernel; // 0x94
 	::UnityEngine::ComputeShader* computeShader; // 0x98
 	::System::Boolean initialized; // 0xA0
+	::System::Byte _padding1[0x3];
 	::System::Int32 _BakeShadowMaxDistance; // 0xA4
 	::System::Int32 _BakeShadowStepCount; // 0xA8
 	::System::Int32 _BakeDetailNoiseScale; // 0xAC

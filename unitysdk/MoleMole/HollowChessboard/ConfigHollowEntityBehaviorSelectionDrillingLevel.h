@@ -5,18 +5,18 @@
 
 namespace MoleMole::HollowChessboard { class HollowEntity; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWENTITYBEHAVIORSELECTIONDRILLINGLEVEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x129AA670)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWENTITYBEHAVIORSELECTIONDRILLINGLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x129AA820)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWENTITYBEHAVIORSELECTIONDRILLINGLEVEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12469750)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGHOLLOWENTITYBEHAVIORSELECTIONDRILLINGLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x12469900)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ConfigHollowEntityBehaviorSelectionDrillingLevel_TypeDefinitionIndex = 41512;
+	inline static constexpr unsigned int ConfigHollowEntityBehaviorSelectionDrillingLevel_TypeDefinitionIndex = 77471;
 
 	class ConfigHollowEntityBehaviorSelectionDrillingLevel : public ::System::Object
 	{
 	public:
-		::System::Int32 TargetLevel; // 0x10
-		::MoleMole::Config::ValueCompareType CompareType; // 0x14
+		::MoleMole::Config::ValueCompareType CompareType; // 0x10
+		::System::Int32 TargetLevel; // 0x14
 
 		::System::Void _ctor()
 		{

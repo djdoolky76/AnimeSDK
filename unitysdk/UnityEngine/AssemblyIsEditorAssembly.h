@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_ASSEMBLYISEDITORASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA67D30)
+#define UNITYENGINE_ASSEMBLYISEDITORASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDA4570)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AssemblyIsEditorAssembly_TypeDefinitionIndex = 5332;
+	inline static constexpr unsigned int AssemblyIsEditorAssembly_TypeDefinitionIndex = 5334;
 
 	class AssemblyIsEditorAssembly : public ::System::Attribute
 	{

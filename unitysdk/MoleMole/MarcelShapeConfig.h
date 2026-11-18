@@ -10,7 +10,7 @@ namespace UnityEngine { class Material; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MarcelShapeConfig_TypeDefinitionIndex = 43574;
+	inline static constexpr unsigned int MarcelShapeConfig_TypeDefinitionIndex = 80697;
 
 	struct alignas(8) MarcelShapeConfig
 	{

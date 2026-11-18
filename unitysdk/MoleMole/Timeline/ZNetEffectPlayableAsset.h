@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Timeline/ZNetEffectPlayableAsset_Enum_3_575048837920F2D6.h"
-#include "unitysdk/UnityEngine/ExposedReference_1.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/MoleMole/Timeline/ZNetEffectPlayableAsset_BFCNFDIGEDK.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ActivationControlPlayable_PostPlaybackState.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/ExposedReference_1.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
 
-class Class_1_B7637CFF22586878;
-class Class_2_85B53B5A8E1505FE;
-class Class_3_B2A1AA83B2E0568E;
+class DJAHFGLKCIJ;
+class JGNFGDHCNLN;
+class KAOHIFFJNFF;
 namespace MoleMole::Config { class AnimatorEventEffectEntry; }
-namespace MoleMole::Config { class AnimatorEventMaterialPropertyModifierEntry; }
 namespace MoleMole::Config { class EffectAutoDynamicValue; }
-namespace MoleMole::EffectSimulate { class ESAvatarMatChange_RendererPartInfo; }
 namespace MoleMole::Timeline { class ZNetEffectPlayableAsset_AbilityScriptParm; }
 namespace MoleMole::Timeline { class ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower; }
 namespace MoleMole::Timeline { class ZNetEffectPlayableAsset_FollowControl; }
 namespace SimpleJSON { class JSONNode; }
 namespace Sirenix::OdinInspector { template <typename T> class ValueDropdownList_1; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
@@ -36,136 +35,137 @@ namespace UnityEngine::Timeline { class IPropertyCollector; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1979BBA0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1979A700)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_CANSHOWINTAG_OFFSET UNITYSDK_OFFSET(0x1979BB10)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1979A6B0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_CONTROLLINGDIRECTORS_OFFSET UNITYSDK_OFFSET(0x1979A600)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_CONTROLLINGPARTICLES_OFFSET UNITYSDK_OFFSET(0x1979A620)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1979A6A0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_RENDERERPARTINFOSHOWER_OFFSET UNITYSDK_OFFSET(0x1979BB30)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_05ED597505047531_1_OFFSET UNITYSDK_OFFSET(0x1979FD00)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_05ED597505047531_OFFSET UNITYSDK_OFFSET(0x1979FAC0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_081E84DBAB5CA72B_OFFSET UNITYSDK_OFFSET(0x197A1870)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_0F6313DD539D12A9_OFFSET UNITYSDK_OFFSET(0x1979FF40)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_134C08C528037F25_OFFSET UNITYSDK_OFFSET(0x197A19F0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_19AA0F51EA6A528E_OFFSET UNITYSDK_OFFSET(0x197A1600)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x197A1C10)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_1FDFC6F104A579C1_OFFSET UNITYSDK_OFFSET(0x197A1210)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_28129A7F028AA224_OFFSET UNITYSDK_OFFSET(0x197A1950)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_366F3A58C5AC297C_OFFSET UNITYSDK_OFFSET(0x197A2530)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x197A11D0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_4B7E39834DB70AE3_OFFSET UNITYSDK_OFFSET(0x1979D7E0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_53193F013B76C91C_OFFSET UNITYSDK_OFFSET(0x1979D910)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_5BA1B24E6C88A48A_OFFSET UNITYSDK_OFFSET(0x1979F220)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_637DBA7901C3991A_OFFSET UNITYSDK_OFFSET(0x197A1C70)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_6B6AE2B3E1C3264F_OFFSET UNITYSDK_OFFSET(0x197A3BD0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_75E95797F163FF56_OFFSET UNITYSDK_OFFSET(0x197A1750)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_76E4B3C7EEDD63B4_OFFSET UNITYSDK_OFFSET(0x197A1B80)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_7A39A89E91C09395_OFFSET UNITYSDK_OFFSET(0x197A1570)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_87D9A35F3F9238B9_OFFSET UNITYSDK_OFFSET(0x1979F5C0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_901B80B762847998_OFFSET UNITYSDK_OFFSET(0x197A2280)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_90418C74D914D125_OFFSET UNITYSDK_OFFSET(0x197A1180)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_93AB07990870A18D_OFFSET UNITYSDK_OFFSET(0x1979EDE0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_98327DE548306CA0_OFFSET UNITYSDK_OFFSET(0x1979E610)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_9B92C44D5842AA8A_OFFSET UNITYSDK_OFFSET(0x197A1EF0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_A195F8BDC5254662_OFFSET UNITYSDK_OFFSET(0x197A1080)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_A47D52AAE5BCA60D_OFFSET UNITYSDK_OFFSET(0x197A37B0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_AA428D7312DF3BD0_OFFSET UNITYSDK_OFFSET(0x197A05B0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_B15C78DCB8B2B821_OFFSET UNITYSDK_OFFSET(0x197A3970)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_B2DD3DBFA5C381E0_OFFSET UNITYSDK_OFFSET(0x1979B800)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0x197A3890)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_C7BF9C1E6A78DCAB_OFFSET UNITYSDK_OFFSET(0x197A1F50)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_C923407A53F704A1_OFFSET UNITYSDK_OFFSET(0x197A14F0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x197A3B80)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_CCBE730AF445BBD4_OFFSET UNITYSDK_OFFSET(0x197A16D0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_CFB3155BE3C972D1_OFFSET UNITYSDK_OFFSET(0x197A3040)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_D02B40A063807E13_OFFSET UNITYSDK_OFFSET(0x197A3370)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_DE37EEDCAEB4CE8D_OFFSET UNITYSDK_OFFSET(0x197A0180)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_E469629AED66F717_OFFSET UNITYSDK_OFFSET(0x197A0FC0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_E47EEE8FF1774C6E_1_OFFSET UNITYSDK_OFFSET(0x1979ED50)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_E47EEE8FF1774C6E_OFFSET UNITYSDK_OFFSET(0x1979B770)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_E64E21BA13465256_OFFSET UNITYSDK_OFFSET(0x1979E790)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_F1F3BF871799E806_OFFSET UNITYSDK_OFFSET(0x197A0EB0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_F54117E1DDB9296B_OFFSET UNITYSDK_OFFSET(0x197A3A40)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_F942C04D48B3F6D7_OFFSET UNITYSDK_OFFSET(0x197A35D0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1979A640)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_CANSHOWINTAG_OFFSET UNITYSDK_OFFSET(0x1979BB20)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_CONTROLLINGDIRECTORS_OFFSET UNITYSDK_OFFSET(0x1979A610)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_CONTROLLINGPARTICLES_OFFSET UNITYSDK_OFFSET(0x1979A630)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_RENDERERPARTINFOSHOWER_OFFSET UNITYSDK_OFFSET(0x1979BB90)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET__CCTOR_OFFSET UNITYSDK_OFFSET(0x197A0AE0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x197A07C0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_AAHEFLCOINE_OFFSET UNITYSDK_OFFSET(0x15AF9930)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_ACKBIEPOLOA_OFFSET UNITYSDK_OFFSET(0x15AF7940)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_ADDOLJJEPMP_OFFSET UNITYSDK_OFFSET(0x15AF7E60)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_AMLLPABJJEC_OFFSET UNITYSDK_OFFSET(0x15AF65E0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_ANNGMPCAOFH_OFFSET UNITYSDK_OFFSET(0x15AF6CA0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_BEMBIANKABF_OFFSET UNITYSDK_OFFSET(0x15AF7AA0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_BMJCOHANHJP_OFFSET UNITYSDK_OFFSET(0x15AF27C0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x15AF2AF0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_DFEPDCMILFB_1_OFFSET UNITYSDK_OFFSET(0x15AF46A0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_DFEPDCMILFB_OFFSET UNITYSDK_OFFSET(0x15AF9E40)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_DGBFKIKKFLD_OFFSET UNITYSDK_OFFSET(0x15AF8E20)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFECJKOFFOD_OFFSET UNITYSDK_OFFSET(0x15AFA180)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EGKKOFJEJOL_OFFSET UNITYSDK_OFFSET(0x15AF82F0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EIJGBLAJLPG_OFFSET UNITYSDK_OFFSET(0x15AFA310)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_FJMKBFFAAHM_OFFSET UNITYSDK_OFFSET(0x15AF5CA0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x15AF16C0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GCECOHPFALI_OFFSET UNITYSDK_OFFSET(0x15AF8DD0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_CANSHOWINTAG_OFFSET UNITYSDK_OFFSET(0x15AF2AD0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x15AF1670)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_CONTROLLINGDIRECTORS_OFFSET UNITYSDK_OFFSET(0x15AF15C0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_CONTROLLINGPARTICLES_OFFSET UNITYSDK_OFFSET(0x15AF15E0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x15AF1660)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GIGODNLKEPO_OFFSET UNITYSDK_OFFSET(0x15AF47D0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_HBECPDGHJKN_OFFSET UNITYSDK_OFFSET(0x15AF6A60)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_HBJBDNMNHEO_OFFSET UNITYSDK_OFFSET(0x15AF7FC0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_HCJPCDIHDBK_OFFSET UNITYSDK_OFFSET(0x15AF8CF0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_HNFCMMFDOOO_OFFSET UNITYSDK_OFFSET(0x15AF6820)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_IAAOMBHMDHP_OFFSET UNITYSDK_OFFSET(0x15AF5650)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_IKFDJMFFIFF_OFFSET UNITYSDK_OFFSET(0x15AF8890)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_JDJCAOABOFO_OFFSET UNITYSDK_OFFSET(0x15AF8730)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_KBMIHDBLMAC_OFFSET UNITYSDK_OFFSET(0x15AF8550)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_KMNMMFEJBDO_OFFSET UNITYSDK_OFFSET(0x15AF60E0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_LAELEKEOJLG_OFFSET UNITYSDK_OFFSET(0x15AF7BE0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_LHOHAAAELGG_OFFSET UNITYSDK_OFFSET(0x15AF8800)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_LIIJAPNNDGP_OFFSET UNITYSDK_OFFSET(0x15AF79C0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_LJGAJCILAHG_OFFSET UNITYSDK_OFFSET(0x15AF7B40)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_LMDFMJDJHDM_OFFSET UNITYSDK_OFFSET(0x15AF8BD0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MCFGPGCJMLB_OFFSET UNITYSDK_OFFSET(0x15AF9B10)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MEEGKBDFKDO_OFFSET UNITYSDK_OFFSET(0x15AF2730)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_NPOIGPKBKNM_OFFSET UNITYSDK_OFFSET(0x15AFA120)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_OAOBDCICAOI_1_OFFSET UNITYSDK_OFFSET(0x15AF70D0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_OAOBDCICAOI_OFFSET UNITYSDK_OFFSET(0x15AF8920)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_OJAFBPCEOMM_OFFSET UNITYSDK_OFFSET(0x15AF9A10)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_OKJCHFGIKBH_OFFSET UNITYSDK_OFFSET(0x15AF7B80)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15AF1600)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_PCBPPFKBLEB_OFFSET UNITYSDK_OFFSET(0x15AF54D0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_PCLHNPCKJOP_OFFSET UNITYSDK_OFFSET(0x15AF7EB0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_PFNGHCBHCFI_OFFSET UNITYSDK_OFFSET(0x15AFA420)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_PICPMGFOIDL_OFFSET UNITYSDK_OFFSET(0x15AF5C10)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_PLNLDJGKDPE_OFFSET UNITYSDK_OFFSET(0x15AF7F70)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_CANSHOWINTAG_OFFSET UNITYSDK_OFFSET(0x15AF2AE0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_CONTROLLINGDIRECTORS_OFFSET UNITYSDK_OFFSET(0x15AF15D0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_CONTROLLINGPARTICLES_OFFSET UNITYSDK_OFFSET(0x15AF15F0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET__CCTOR_OFFSET UNITYSDK_OFFSET(0x15AF7570)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x15AF72E0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ZNetEffectPlayableAsset_TypeDefinitionIndex = 70256;
+	inline static constexpr unsigned int ZNetEffectPlayableAsset_TypeDefinitionIndex = 56686;
 
 	class ZNetEffectPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
-		static ::Sirenix::OdinInspector::ValueDropdownList_1<::MoleMole::Timeline::ZNetEffectPlayableAsset_Enum_3_575048837920F2D6>** StaticGet_OnExportTableTypeDropdown()
-		{
-			return (::Sirenix::OdinInspector::ValueDropdownList_1<::MoleMole::Timeline::ZNetEffectPlayableAsset_Enum_3_575048837920F2D6>**)Il2CppClass::FromTypeDefinitionIndex(ZNetEffectPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4EA10);
-		}
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::GameObject*>** StaticGet_s_CreatedPrefabs()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(ZNetEffectPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4EA18);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(ZNetEffectPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4F930);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>** StaticGet_k_EmptyParticlesList()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(ZNetEffectPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4EA20);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Playables::PlayableDirector*>** StaticGet_k_EmptyDirectorsList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Playables::PlayableDirector*>**)Il2CppClass::FromTypeDefinitionIndex(ZNetEffectPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4EA28);
+			return (::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(ZNetEffectPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4F938);
 		}
 		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Playables::PlayableDirector*>** StaticGet_s_ProcessedDirectors()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Playables::PlayableDirector*>**)Il2CppClass::FromTypeDefinitionIndex(ZNetEffectPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4EA30);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Playables::PlayableDirector*>**)Il2CppClass::FromTypeDefinitionIndex(ZNetEffectPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4F940);
+		}
+		static ::Sirenix::OdinInspector::ValueDropdownList_1<::System::Object*>** StaticGet_OnExportTableTypeDropdown()
+		{
+			return (::Sirenix::OdinInspector::ValueDropdownList_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ZNetEffectPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4F948);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Playables::PlayableDirector*>** StaticGet_k_EmptyDirectorsList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Playables::PlayableDirector*>**)Il2CppClass::FromTypeDefinitionIndex(ZNetEffectPlayableAsset_TypeDefinitionIndex)->GetStaticField(0x4F950);
 		}
 		// static const ::System::Int32 k_MaxRandInt = 0x2710; // 0x0
 		// static const ::System::String* PREVIEW_GROUP_STR; // 0x0
-		::MoleMole::EffectSimulate::ESAvatarMatChange_RendererPartInfo* selfRendererPartInfo; // 0x18
-		::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower* effectAutoDynamicInfo; // 0x20
-		::UnityEngine::ExposedReference_1<::UnityEngine::GameObject*> sourceGameObject; // 0x28
-		::System::String* fxGuid; // 0x38
-		::UnityEngine::GameObject* prefabGameObject; // 0x40
-		::System::Boolean updateParticle; // 0x48
-		::System::Boolean particleUseRandom; // 0x49
-		::System::UInt32 particleRandomSeed; // 0x4C
-		::System::Boolean updateDirector; // 0x50
-		::System::Boolean updateITimeControl; // 0x51
-		::System::Boolean searchHierarchy; // 0x52
-		::System::Boolean active; // 0x53
-		::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState postPlayback; // 0x54
-		::UnityEngine::Playables::PlayableAsset* m_ControlDirectorAsset; // 0x58
-		::System::Double m_Duration; // 0x60
-		::System::Boolean m_SupportLoop; // 0x68
-		::System::Boolean _controllingDirectors_k__BackingField; // 0x69
-		::System::Boolean _controllingParticles_k__BackingField; // 0x6A
-		::System::String* guid_Editor; // 0x70
-		::Class_2_85B53B5A8E1505FE* template_; // 0x78
-		::UnityEngine::ExposedReference_1<::UnityEngine::Transform*> bindingTransform; // 0x80
-		::System::String* bindingPath; // 0x90
-		::UnityEngine::Timeline::TimelineClip* clip; // 0x98
-		::UnityEngine::Timeline::TrackAsset* trackAsset; // 0xA0
-		::UnityEngine::GameObject* goCtx; // 0xA8
-		::UnityEngine::Playables::PlayableGraph graph; // 0xB0
-		::System::Boolean controlScale; // 0xC0
-		::System::Single timeScale; // 0xC4
-		::System::Int32 previewLayerOverride; // 0xC8
-		::MoleMole::Timeline::ZNetEffectPlayableAsset_Enum_3_575048837920F2D6 exportTableType; // 0xCC
-		::System::Collections::Generic::List_1<::System::Int32>* animatorZoneTags; // 0xD0
-		::System::Collections::Generic::List_1<::System::String*>* animatorZoneTags_strVer; // 0xD8
-		::System::Collections::Generic::List_1<::System::String*>* animatorZoneTagsBlackList; // 0xE0
-		::System::Boolean _CanShowInTag_k__BackingField; // 0xE8
-		::MoleMole::Timeline::ZNetEffectPlayableAsset_FollowControl* followControl; // 0xF0
-		::System::Boolean hasAbilityData; // 0xF8
-		::MoleMole::Timeline::ZNetEffectPlayableAsset_AbilityScriptParm* abiltyData; // 0x100
-		::System::Boolean overrideFxAvatarRendererPartInfo; // 0x108
-		::System::Boolean amcEndClear; // 0x109
-		::System::Int32 previewBeginFadeOutFrame; // 0x10C
+		::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower* effectAutoDynamicInfo; // 0x18
+		::UnityEngine::ExposedReference_1<::UnityEngine::GameObject*> sourceGameObject; // 0x20
+		::System::Byte _padding0[0x8];
+		::System::String* fxGuid; // 0x30
+		::UnityEngine::GameObject* prefabGameObject; // 0x38
+		::System::Boolean updateParticle; // 0x40
+		::System::Boolean particleUseRandom; // 0x41
+		::System::Byte _padding1[0x2];
+		::System::UInt32 particleRandomSeed; // 0x44
+		::System::Boolean updateDirector; // 0x48
+		::System::Boolean updateITimeControl; // 0x49
+		::System::Boolean searchHierarchy; // 0x4A
+		::System::Boolean active; // 0x4B
+		::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState postPlayback; // 0x4C
+		::UnityEngine::Playables::PlayableAsset* m_ControlDirectorAsset; // 0x50
+		::System::Double m_Duration; // 0x58
+		::System::Boolean m_SupportLoop; // 0x60
+		::System::Boolean _controllingDirectors_k__BackingField; // 0x61
+		::System::Boolean _controllingParticles_k__BackingField; // 0x62
+		::System::Byte _padding2[0x5];
+		::System::String* guid_Editor; // 0x68
+		::JGNFGDHCNLN* template_; // 0x70
+		::UnityEngine::ExposedReference_1<::UnityEngine::Transform*> bindingTransform; // 0x78
+		::System::Byte _padding3[0x8];
+		::System::String* bindingPath; // 0x88
+		::UnityEngine::Timeline::TimelineClip* clip; // 0x90
+		::UnityEngine::Timeline::TrackAsset* trackAsset; // 0x98
+		::UnityEngine::GameObject* goCtx; // 0xA0
+		::UnityEngine::Playables::PlayableGraph graph; // 0xA8
+		::System::Boolean controlScale; // 0xB8
+		::System::Byte _padding4[0x3];
+		::System::Single timeScale; // 0xBC
+		::System::Int32 previewLayerOverride; // 0xC0
+		::MoleMole::Timeline::ZNetEffectPlayableAsset_BFCNFDIGEDK exportTableType; // 0xC4
+		::System::Collections::Generic::List_1<::System::Int32>* animatorZoneTags; // 0xC8
+		::System::Collections::Generic::List_1<::System::String*>* animatorZoneTags_strVer; // 0xD0
+		::System::Collections::Generic::List_1<::System::String*>* animatorZoneTagsBlackList; // 0xD8
+		::System::Boolean _CanShowInTag_k__BackingField; // 0xE0
+		::System::Byte _padding5[0x7];
+		::MoleMole::Timeline::ZNetEffectPlayableAsset_FollowControl* followControl; // 0xE8
+		::System::Boolean hasAbilityData; // 0xF0
+		::System::Byte _padding6[0x7];
+		::MoleMole::Timeline::ZNetEffectPlayableAsset_AbilityScriptParm* abiltyData; // 0xF8
+		::System::Boolean amcEndClear; // 0x100
+		::System::Byte _padding7[0x3];
+		::System::Int32 previewBeginFadeOutFrame; // 0x104
 
 		::System::Void _ctor()
 		{
@@ -182,9 +182,9 @@ namespace MoleMole::Timeline
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_CONTROLLINGDIRECTORS_OFFSET))(this);
 		}
 
-		::System::Void set_controllingDirectors(::System::Boolean a1)
+		::System::Void set_controllingDirectors(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_CONTROLLINGDIRECTORS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_CONTROLLINGDIRECTORS_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Boolean get_controllingParticles()
@@ -192,9 +192,9 @@ namespace MoleMole::Timeline
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_CONTROLLINGPARTICLES_OFFSET))(this);
 		}
 
-		::System::Void set_controllingParticles(::System::Boolean a1)
+		::System::Void set_controllingParticles(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_CONTROLLINGPARTICLES_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_CONTROLLINGPARTICLES_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Void OnEnable()
@@ -212,9 +212,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_CLIPCAPS_OFFSET))(this);
 		}
 
-		::System::Void GatherProperties(::UnityEngine::Playables::PlayableDirector* a1, ::UnityEngine::Timeline::IPropertyCollector* a2)
+		::System::Void GatherProperties(::UnityEngine::Playables::PlayableDirector* GALAOBFOBFA, ::UnityEngine::Timeline::IPropertyCollector* BHNDKLNKKNK)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GATHERPROPERTIES_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GATHERPROPERTIES_OFFSET))(this, GALAOBFOBFA, BHNDKLNKKNK);
 		}
 
 		::System::Boolean get_CanShowInTag()
@@ -222,249 +222,224 @@ namespace MoleMole::Timeline
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_CANSHOWINTAG_OFFSET))(this);
 		}
 
-		::System::Void set_CanShowInTag(::System::Boolean a1)
+		::System::Void set_CanShowInTag(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_CANSHOWINTAG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_CANSHOWINTAG_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::MoleMole::EffectSimulate::ESAvatarMatChange_RendererPartInfo* get_rendererPartInfoShower()
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* NJOAJLDJCCJ)
 		{
-			return ((::MoleMole::EffectSimulate::ESAvatarMatChange_RendererPartInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GET_RENDERERPARTINFOSHOWER_OFFSET))(this);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_CREATEPLAYABLE_OFFSET))(this, MHPNGBGGMMN, NJOAJLDJCCJ);
 		}
 
-		::System::Void set_rendererPartInfoShower(::MoleMole::EffectSimulate::ESAvatarMatChange_RendererPartInfo* a1)
+		::System::Void GIGODNLKEPO(::System::Collections::Generic::IList_1<::UnityEngine::Playables::PlayableDirector*>* LIGJKJBKCNO, ::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>* AHJDAFMMALM)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::EffectSimulate::ESAvatarMatChange_RendererPartInfo*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_SET_RENDERERPARTINFOSHOWER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::Playables::PlayableDirector*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GIGODNLKEPO_OFFSET))(this, LIGJKJBKCNO, AHJDAFMMALM);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
+		::DJAHFGLKCIJ* ACKBIEPOLOA()
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_CREATEPLAYABLE_OFFSET))(this, a1, a2);
+			return ((::DJAHFGLKCIJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_ACKBIEPOLOA_OFFSET))(this);
 		}
 
-		::Class_1_B7637CFF22586878* Method_4_F1F3BF871799E806(::Class_3_B2A1AA83B2E0568E* a1, ::System::Single a2)
+		::System::Boolean LIIJAPNNDGP()
 		{
-			return ((::Class_1_B7637CFF22586878*(*)(::PVOID, ::Class_3_B2A1AA83B2E0568E*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_F1F3BF871799E806_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_LIIJAPNNDGP_OFFSET))(this);
 		}
 
-		::System::Void Method_4_E469629AED66F717(::MoleMole::Config::AnimatorEventEffectEntry* a1)
+		::System::Boolean LJGAJCILAHG()
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEffectEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_E469629AED66F717_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_LJGAJCILAHG_OFFSET))(this);
 		}
 
-		::System::Void Method_4_5BA1B24E6C88A48A(::UnityEngine::GameObject* a1, ::UnityEngine::GameObject* a2, ::MoleMole::EffectSimulate::ESAvatarMatChange_RendererPartInfo* a3, ::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower* a4, ::UnityEngine::Playables::PlayableGraph a5, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a6)
+		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* PICPMGFOIDL(::UnityEngine::GameObject* IAPKABMDJNF)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::MoleMole::EffectSimulate::ESAvatarMatChange_RendererPartInfo*, ::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_5BA1B24E6C88A48A_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_PICPMGFOIDL_OFFSET))(IAPKABMDJNF);
 		}
 
-		::System::Void Method_4_98327DE548306CA0(::UnityEngine::GameObject* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
+		::System::Boolean OKJCHFGIKBH()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_98327DE548306CA0_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_OKJCHFGIKBH_OFFSET))(this);
 		}
 
-		::System::Void Method_4_A195F8BDC5254662(::MoleMole::Config::AnimatorEventEffectEntry* a1)
+		::System::Void ADDOLJJEPMP(::MoleMole::Config::AnimatorEventEffectEntry* NFFNEFLKPDG)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEffectEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_A195F8BDC5254662_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEffectEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_ADDOLJJEPMP_OFFSET))(this, NFFNEFLKPDG);
 		}
 
-		::System::Boolean Method_4_391A84BCD9F51317()
+		::System::Void PLNLDJGKDPE(::DJAHFGLKCIJ* OEFMLHOPIAN)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::DJAHFGLKCIJ*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_PLNLDJGKDPE_OFFSET))(this, OEFMLHOPIAN);
 		}
 
-		::System::Void Method_4_53193F013B76C91C(::System::Collections::Generic::IList_1<::UnityEngine::Playables::PlayableDirector*>* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>* a2)
+		::UnityEngine::GameObject* BEMBIANKABF()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::Playables::PlayableDirector*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_53193F013B76C91C_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_BEMBIANKABF_OFFSET))(this);
 		}
 
-		::System::Void Method_4_90418C74D914D125(::MoleMole::Config::AnimatorEventEffectEntry* a1)
+		::System::Void HBJBDNMNHEO()
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEffectEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_90418C74D914D125_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_HBJBDNMNHEO_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_1FDFC6F104A579C1(::UnityEngine::Transform* a1, ::System::Collections::Generic::ICollection_1<::UnityEngine::ParticleSystem*>* a2)
+		static ::System::Void FJMKBFFAAHM(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* ACHKMJKCPFL, ::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* PCIPDLEGOJN, ::UnityEngine::Transform* GHNIMIANFBF)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*, ::System::Collections::Generic::ICollection_1<::UnityEngine::ParticleSystem*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_1FDFC6F104A579C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_FJMKBFFAAHM_OFFSET))(ACHKMJKCPFL, MHPNGBGGMMN, PCIPDLEGOJN, GHNIMIANFBF);
 		}
 
-		::System::String* Method_4_C923407A53F704A1(::System::String*& a1)
+		::System::Void KMNMMFEJBDO(::UnityEngine::GameObject* MHHIBHLEKHO, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>* AHJDAFMMALM, ::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* PCIPDLEGOJN)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_C923407A53F704A1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_KMNMMFEJBDO_OFFSET))(this, MHHIBHLEKHO, AHJDAFMMALM, MHPNGBGGMMN, PCIPDLEGOJN);
 		}
 
-		::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>* Method_4_4B7E39834DB70AE3(::UnityEngine::GameObject* a1)
+		::System::Boolean EGKKOFJEJOL(::UnityEngine::GameObject* NJOAJLDJCCJ)
 		{
-			return ((::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_4B7E39834DB70AE3_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EGKKOFJEJOL_OFFSET))(this, NJOAJLDJCCJ);
 		}
 
-		::MoleMole::Config::EffectAutoDynamicValue* Method_4_7A39A89E91C09395()
+		::System::Void LAELEKEOJLG()
 		{
-			return ((::MoleMole::Config::EffectAutoDynamicValue*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_7A39A89E91C09395_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_LAELEKEOJLG_OFFSET))(this);
 		}
 
-		::System::Void Method_4_19AA0F51EA6A528E(::MoleMole::Config::AnimatorEventEffectEntry* a1)
+		::System::Void HNFCMMFDOOO(::UnityEngine::GameObject* MHHIBHLEKHO, ::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* PCIPDLEGOJN)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEffectEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_19AA0F51EA6A528E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_HNFCMMFDOOO_OFFSET))(this, MHHIBHLEKHO, MHPNGBGGMMN, PCIPDLEGOJN);
 		}
 
-		::Class_3_B2A1AA83B2E0568E* Method_4_CCBE730AF445BBD4()
+		::System::Void JDJCAOABOFO(::MoleMole::Config::AnimatorEventEffectEntry* NFFNEFLKPDG)
 		{
-			return ((::Class_3_B2A1AA83B2E0568E*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_CCBE730AF445BBD4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEffectEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_JDJCAOABOFO_OFFSET))(this, NFFNEFLKPDG);
 		}
 
-		::System::Void Method_4_E64E21BA13465256(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3, ::System::Boolean a4)
+		::MoleMole::Config::EffectAutoDynamicValue* LHOHAAAELGG()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_E64E21BA13465256_OFFSET))(this, a1, a2, a3, a4);
+			return ((::MoleMole::Config::EffectAutoDynamicValue*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_LHOHAAAELGG_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_75E95797F163FF56(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::Playables::Playable a2, ::UnityEngine::Playables::Playable a3, ::System::Int32 a4)
+		::UnityEngine::AnimationClip* KBMIHDBLMAC(::UnityEngine::GameObject* NJOAJLDJCCJ)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_75E95797F163FF56_OFFSET))(a1, a2, a3, a4);
+			return ((::UnityEngine::AnimationClip*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_KBMIHDBLMAC_OFFSET))(this, NJOAJLDJCCJ);
 		}
 
-		::System::Boolean Method_4_081E84DBAB5CA72B()
+		::SimpleJSON::JSONNode* IKFDJMFFIFF(::KAOHIFFJNFF* OMCEPIKBLPO)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_081E84DBAB5CA72B_OFFSET))(this);
+			return ((::SimpleJSON::JSONNode*(*)(::PVOID, ::KAOHIFFJNFF*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_IKFDJMFFIFF_OFFSET))(this, OMCEPIKBLPO);
 		}
 
-		::System::Void Method_4_B2DD3DBFA5C381E0(::UnityEngine::Playables::PlayableDirector* a1, ::UnityEngine::Timeline::IPropertyCollector* a2)
+		static ::UnityEngine::Playables::Playable OAOBDCICAOI(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* EOCLCFNBBAP)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_B2DD3DBFA5C381E0_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Playables::Playable(*)(::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_OAOBDCICAOI_OFFSET))(MHPNGBGGMMN, EOCLCFNBBAP);
 		}
 
-		::UnityEngine::GameObject* Method_4_28129A7F028AA224()
+		::System::Void HCJPCDIHDBK()
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_28129A7F028AA224_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_HCJPCDIHDBK_OFFSET))(this);
 		}
 
-		::System::String* Method_4_134C08C528037F25(::System::Single a1)
+		::System::Void HBECPDGHJKN(::UnityEngine::GameObject* MHHIBHLEKHO, ::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* PCIPDLEGOJN)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_134C08C528037F25_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_HBECPDGHJKN_OFFSET))(this, MHHIBHLEKHO, MHPNGBGGMMN, PCIPDLEGOJN);
 		}
 
-		::System::Boolean Method_4_1D4018D4200358D0()
+		::System::Void AMLLPABJJEC(::UnityEngine::GameObject* MHHIBHLEKHO, ::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* PCIPDLEGOJN)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_1D4018D4200358D0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_AMLLPABJJEC_OFFSET))(this, MHHIBHLEKHO, MHPNGBGGMMN, PCIPDLEGOJN);
 		}
 
-		::System::Void Method_4_9B92C44D5842AA8A()
+		::System::Void GCECOHPFALI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_9B92C44D5842AA8A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_GCECOHPFALI_OFFSET))(this);
 		}
 
-		static ::UnityEngine::Playables::Playable Method_4_901B80B762847998(::UnityEngine::Playables::PlayableGraph a1, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a2)
+		::SimpleJSON::JSONNode* DGBFKIKKFLD(::DJAHFGLKCIJ* OEFMLHOPIAN)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_901B80B762847998_OFFSET))(a1, a2);
+			return ((::SimpleJSON::JSONNode*(*)(::PVOID, ::DJAHFGLKCIJ*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_DGBFKIKKFLD_OFFSET))(this, OEFMLHOPIAN);
 		}
 
-		::SimpleJSON::JSONNode* Method_4_366F3A58C5AC297C(::Class_3_B2A1AA83B2E0568E* a1)
+		::System::Boolean AAHEFLCOINE()
 		{
-			return ((::SimpleJSON::JSONNode*(*)(::PVOID, ::Class_3_B2A1AA83B2E0568E*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_366F3A58C5AC297C_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_AAHEFLCOINE_OFFSET))(this);
 		}
 
-		::System::Void Method_4_CFB3155BE3C972D1(::MoleMole::Config::AnimatorEventEffectEntry* a1)
+		::System::Void OJAFBPCEOMM(::MoleMole::Config::AnimatorEventEffectEntry* NFFNEFLKPDG)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEffectEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_CFB3155BE3C972D1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEffectEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_OJAFBPCEOMM_OFFSET))(this, NFFNEFLKPDG);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* Method_4_E47EEE8FF1774C6E(::UnityEngine::GameObject* a1)
+		::System::Void IAAOMBHMDHP(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>* LIGJKJBKCNO, ::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* PCIPDLEGOJN, ::System::Boolean OMHMAGDHHBA)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_E47EEE8FF1774C6E_OFFSET))(a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_IAAOMBHMDHP_OFFSET))(this, LIGJKJBKCNO, MHPNGBGGMMN, PCIPDLEGOJN, OMHMAGDHHBA);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* Method_4_E47EEE8FF1774C6E_1(::UnityEngine::GameObject* a1)
+		static ::System::Void LMDFMJDJHDM(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::Playables::Playable FMMONKDPKFN, ::UnityEngine::Playables::Playable HKOFGPMIFHB, ::System::Int32 EAECOJGEGFP)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_E47EEE8FF1774C6E_1_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_LMDFMJDJHDM_OFFSET))(MHPNGBGGMMN, FMMONKDPKFN, HKOFGPMIFHB, EAECOJGEGFP);
 		}
 
-		::System::Boolean Method_4_D02B40A063807E13(::UnityEngine::GameObject* a1)
+		::System::Void MCFGPGCJMLB(::MoleMole::Config::AnimatorEventEffectEntry* NFFNEFLKPDG)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_D02B40A063807E13_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEffectEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MCFGPGCJMLB_OFFSET))(this, NFFNEFLKPDG);
 		}
 
-		::System::Void Method_4_87D9A35F3F9238B9(::UnityEngine::GameObject* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>* a2, ::UnityEngine::Playables::PlayableGraph a3, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a4)
+		static ::System::Void DFEPDCMILFB(::UnityEngine::Transform* IMLLDOHDCNC, ::System::Collections::Generic::ICollection_1<::UnityEngine::ParticleSystem*>* NIGDMPCPILP)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_87D9A35F3F9238B9_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::UnityEngine::Transform*, ::System::Collections::Generic::ICollection_1<::UnityEngine::ParticleSystem*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_DFEPDCMILFB_OFFSET))(IMLLDOHDCNC, NIGDMPCPILP);
 		}
 
-		::System::Boolean Method_4_A47D52AAE5BCA60D()
+		::System::Void PCLHNPCKJOP(::MoleMole::Config::AnimatorEventEffectEntry* NFFNEFLKPDG)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_A47D52AAE5BCA60D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEffectEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_PCLHNPCKJOP_OFFSET))(this, NFFNEFLKPDG);
 		}
 
-		::System::Void Method_4_B877181B6123B7F6()
+		static ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* MEEGKBDFKDO(::UnityEngine::GameObject* IAPKABMDJNF)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_B877181B6123B7F6_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MEEGKBDFKDO_OFFSET))(IAPKABMDJNF);
 		}
 
-		static ::System::Void Method_4_93AB07990870A18D(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3, ::UnityEngine::Transform* a4)
+		::System::Void NPOIGPKBKNM()
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_93AB07990870A18D_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_NPOIGPKBKNM_OFFSET))(this);
 		}
 
-		::System::Boolean Method_4_B15C78DCB8B2B821()
+		::System::Void BMJCOHANHJP(::UnityEngine::Playables::PlayableDirector* GALAOBFOBFA, ::UnityEngine::Timeline::IPropertyCollector* BHNDKLNKKNK)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_B15C78DCB8B2B821_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_BMJCOHANHJP_OFFSET))(this, GALAOBFOBFA, BHNDKLNKKNK);
 		}
 
-		::System::Void Method_4_0F6313DD539D12A9(::UnityEngine::GameObject* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
+		static ::System::Void ANNGMPCAOFH(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* ACHKMJKCPFL, ::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* PCIPDLEGOJN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_0F6313DD539D12A9_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_ANNGMPCAOFH_OFFSET))(ACHKMJKCPFL, MHPNGBGGMMN, PCIPDLEGOJN);
 		}
 
-		static ::UnityEngine::Playables::Playable Method_4_AA428D7312DF3BD0(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
+		::System::Void PCBPPFKBLEB(::UnityEngine::GameObject* IAPKABMDJNF, ::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* PCIPDLEGOJN)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_AA428D7312DF3BD0_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_PCBPPFKBLEB_OFFSET))(this, IAPKABMDJNF, MHPNGBGGMMN, PCIPDLEGOJN);
 		}
 
-		static ::System::Void Method_4_DE37EEDCAEB4CE8D(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
+		::System::String* EFECJKOFFOD(::System::Single CIIPCCLOHLH)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_DE37EEDCAEB4CE8D_OFFSET))(a1, a2, a3);
+			return ((::System::String*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFECJKOFFOD_OFFSET))(this, CIIPCCLOHLH);
 		}
 
-		::SimpleJSON::JSONNode* Method_4_76E4B3C7EEDD63B4(::Class_1_B7637CFF22586878* a1)
+		::KAOHIFFJNFF* EIJGBLAJLPG(::DJAHFGLKCIJ* OEFMLHOPIAN, ::System::Single CIIPCCLOHLH)
 		{
-			return ((::SimpleJSON::JSONNode*(*)(::PVOID, ::Class_1_B7637CFF22586878*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_76E4B3C7EEDD63B4_OFFSET))(this, a1);
+			return ((::KAOHIFFJNFF*(*)(::PVOID, ::DJAHFGLKCIJ*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EIJGBLAJLPG_OFFSET))(this, OEFMLHOPIAN, CIIPCCLOHLH);
 		}
 
-		::System::Void Method_4_05ED597505047531(::UnityEngine::GameObject* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
+		::System::String* PFNGHCBHCFI(::System::String*& CIOAFOKNMJC)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_05ED597505047531_OFFSET))(this, a1, a2, a3);
+			return ((::System::String*(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_PFNGHCBHCFI_OFFSET))(this, CIOAFOKNMJC);
 		}
 
-		::System::Void Method_4_05ED597505047531_1(::UnityEngine::GameObject* a1, ::UnityEngine::Playables::PlayableGraph a2, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* a3)
+		::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>* DFEPDCMILFB_1(::UnityEngine::GameObject* NJOAJLDJCCJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_05ED597505047531_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_DFEPDCMILFB_1_OFFSET))(this, NJOAJLDJCCJ);
 		}
 
-		::UnityEngine::AnimationClip* Method_4_F942C04D48B3F6D7(::UnityEngine::GameObject* a1)
+		static ::UnityEngine::Playables::Playable OAOBDCICAOI_1(::UnityEngine::Playables::Playable HKOFGPMIFHB, ::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* EOCLCFNBBAP)
 		{
-			return ((::UnityEngine::AnimationClip*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_F942C04D48B3F6D7_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_4_637DBA7901C3991A()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_637DBA7901C3991A_OFFSET))(this);
-		}
-
-		::System::Void Method_4_F54117E1DDB9296B(::MoleMole::Config::AnimatorEventMaterialPropertyModifierEntry* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventMaterialPropertyModifierEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_F54117E1DDB9296B_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_4_C7BF9C1E6A78DCAB()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_C7BF9C1E6A78DCAB_OFFSET))(this);
-		}
-
-		::System::Void Method_4_CA373AA1C7054598()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_CA373AA1C7054598_OFFSET))(this);
-		}
-
-		::System::Void Method_4_6B6AE2B3E1C3264F(::Class_3_B2A1AA83B2E0568E* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_B2A1AA83B2E0568E*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_METHOD_4_6B6AE2B3E1C3264F_OFFSET))(this, a1);
+			return ((::UnityEngine::Playables::Playable(*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_OAOBDCICAOI_1_OFFSET))(HKOFGPMIFHB, MHPNGBGGMMN, EOCLCFNBBAP);
 		}
 	};
 }

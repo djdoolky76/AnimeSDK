@@ -6,10 +6,10 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection { class Module; }
 
-#define SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_3_083C775C01193874_OFFSET UNITYSDK_OFFSET(0x1DCF0FE0)
-#define SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_3_25189D47D4092890_OFFSET UNITYSDK_OFFSET(0x1DCF1250)
-#define SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_3_8C432A108884785D_OFFSET UNITYSDK_OFFSET(0x1DCF10A0)
-#define SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1DCF1450)
+#define SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_0_OFFSET UNITYSDK_OFFSET(0x1E0E3E10)
+#define SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_1_1_OFFSET UNITYSDK_OFFSET(0x1E0E39B0)
+#define SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_2_2_OFFSET UNITYSDK_OFFSET(0x1E0E3A70)
+#define SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_3_3_OFFSET UNITYSDK_OFFSET(0x1E0E3C20)
 
 namespace System::Reflection
 {
@@ -18,24 +18,24 @@ namespace System::Reflection
 	class MonoAssembly : public ::System::Reflection::RuntimeAssembly
 	{
 	public:
-		::System::Void Method_3_CA373AA1C7054598()
+		::System::Void Method_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_0_OFFSET))(this);
 		}
 
-		::System::Type* Method_3_083C775C01193874(::System::String* name, ::System::Boolean throwOnError, ::System::Boolean ignoreCase)
+		::System::Type* Method_1_1(::System::String* name, ::System::Boolean throwOnError, ::System::Boolean ignoreCase)
 		{
-			return ((::System::Type*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_3_083C775C01193874_OFFSET))(this, name, throwOnError, ignoreCase);
+			return ((::System::Type*(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_1_1_OFFSET))(this, name, throwOnError, ignoreCase);
 		}
 
-		::System::Reflection::Module* Method_3_8C432A108884785D(::System::String* name)
+		::System::Reflection::Module* Method_2_2(::System::String* name)
 		{
-			return ((::System::Reflection::Module*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_3_8C432A108884785D_OFFSET))(this, name);
+			return ((::System::Reflection::Module*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_2_2_OFFSET))(this, name);
 		}
 
-		::Il2CppArray<::System::Reflection::Module*>* Method_3_25189D47D4092890(::System::Boolean getResourceModules)
+		::Il2CppArray<::System::Reflection::Module*>* Method_3_3(::System::Boolean getResourceModules)
 		{
-			return ((::Il2CppArray<::System::Reflection::Module*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_3_25189D47D4092890_OFFSET))(this, getResourceModules);
+			return ((::Il2CppArray<::System::Reflection::Module*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOASSEMBLY_METHOD_3_3_OFFSET))(this, getResourceModules);
 		}
 	};
 }

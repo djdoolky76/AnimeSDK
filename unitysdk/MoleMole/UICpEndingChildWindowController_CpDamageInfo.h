@@ -6,11 +6,12 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpEndingChildWindowController_CpDamageInfo_TypeDefinitionIndex = 94862;
+	inline static constexpr unsigned int UICpEndingChildWindowController_CpDamageInfo_TypeDefinitionIndex = 96510;
 
 	struct alignas(8) UICpEndingChildWindowController_CpDamageInfo
 	{
 		::System::Int32 rare; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* icon; // 0x18
 		::System::Single value; // 0x20
 	};

@@ -3,7 +3,7 @@
 
 namespace System::Security::Permissions
 {
-	inline static constexpr unsigned int SecurityPermissionFlag_TypeDefinitionIndex = 960;
+	inline static constexpr unsigned int SecurityPermissionFlag_TypeDefinitionIndex = 959;
 
 	enum class SecurityPermissionFlag : ::System::Int32
 	{

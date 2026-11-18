@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_912E0458D58825D3_Class_3_E5F5430D92070BCB;
+class GJDLKFAMLAC_KOBHCOPIIBJ;
 
-#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E835710)
-#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E835750)
-#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER___C__REPLACE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1E835760)
+#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1CDCA0)
+#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1CDCE0)
+#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER___C__REPLACE_B__3_0_OFFSET UNITYSDK_OFFSET(0x1F1CDCF0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITextTagReplacer___c_TypeDefinitionIndex = 47864;
+	inline static constexpr unsigned int UITextTagReplacer___c_TypeDefinitionIndex = 45819;
 
 	class UITextTagReplacer___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UI::Extension::UITextTagReplacer___c** StaticGet___9()
+		static ::GJDLKFAMLAC_KOBHCOPIIBJ** StaticGet___9__3_0()
 		{
-			return (::UnityEngine::UI::Extension::UITextTagReplacer___c**)Il2CppClass::FromTypeDefinitionIndex(UITextTagReplacer___c_TypeDefinitionIndex)->GetStaticField(0x503C0);
+			return (::GJDLKFAMLAC_KOBHCOPIIBJ**)Il2CppClass::FromTypeDefinitionIndex(UITextTagReplacer___c_TypeDefinitionIndex)->GetStaticField(0x42BE0);
 		}
-		static ::Class_1_912E0458D58825D3_Class_3_E5F5430D92070BCB** StaticGet___9__3_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Class_1_912E0458D58825D3_Class_3_E5F5430D92070BCB**)Il2CppClass::FromTypeDefinitionIndex(UITextTagReplacer___c_TypeDefinitionIndex)->GetStaticField(0x503C8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UITextTagReplacer___c_TypeDefinitionIndex)->GetStaticField(0x42BE8);
 		}
 
 		static ::System::Void _cctor()

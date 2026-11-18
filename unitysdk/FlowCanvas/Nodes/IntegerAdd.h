@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_INTEGERADD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E722620)
-#define FLOWCANVAS_NODES_INTEGERADD__CTOR_OFFSET UNITYSDK_OFFSET(0x1E722630)
+#define FLOWCANVAS_NODES_INTEGERADD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E9C7940)
+#define FLOWCANVAS_NODES_INTEGERADD__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C7950)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IntegerAdd_TypeDefinitionIndex = 30915;
+	inline static constexpr unsigned int IntegerAdd_TypeDefinitionIndex = 30746;
 
-	class IntegerAdd : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Int32, ::System::Int32, ::System::Int32>
+	class IntegerAdd
 	{
 	public:
 		::System::Void _ctor()

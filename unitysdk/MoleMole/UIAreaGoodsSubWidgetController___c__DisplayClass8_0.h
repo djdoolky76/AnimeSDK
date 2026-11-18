@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIAREAGOODSSUBWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18BEB1B0)
-#define MOLEMOLE_UIAREAGOODSSUBWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHCARDNUM_B__1_OFFSET UNITYSDK_OFFSET(0x18BEB1C0)
+#define MOLEMOLE_UIAREAGOODSSUBWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1886BAB0)
+#define MOLEMOLE_UIAREAGOODSSUBWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHCARDNUM_B__1_OFFSET UNITYSDK_OFFSET(0x1886BAC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAreaGoodsSubWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 80883;
+	inline static constexpr unsigned int UIAreaGoodsSubWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 39821;
 
 	class UIAreaGoodsSubWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAREAGOODSSUBWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RefreshCardNum_b__1(::Class_1_0D6706375CDAAE8C* x)
+		::System::Boolean _RefreshCardNum_b__1(::HGAJKHIMKJP* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_0D6706375CDAAE8C*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAREAGOODSSUBWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHCARDNUM_B__1_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::HGAJKHIMKJP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAREAGOODSSUBWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHCARDNUM_B__1_OFFSET))(this, x);
 		}
 	};
 }

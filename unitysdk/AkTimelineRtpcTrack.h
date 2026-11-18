@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace UnityEngine { class GameObject; }
 
-#define AKTIMELINERTPCTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1FBE0BC0)
-#define AKTIMELINERTPCTRACK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1FBE0D60)
-#define AKTIMELINERTPCTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBE0E70)
+#define AKTIMELINERTPCTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1FFE4370)
+#define AKTIMELINERTPCTRACK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1FFE4510)
+#define AKTIMELINERTPCTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFE4620)
 
-inline static constexpr unsigned int AkTimelineRtpcTrack_TypeDefinitionIndex = 33739;
+inline static constexpr unsigned int AkTimelineRtpcTrack_TypeDefinitionIndex = 33285;
 
 class AkTimelineRtpcTrack : public ::UnityEngine::Timeline::TrackAsset
 {

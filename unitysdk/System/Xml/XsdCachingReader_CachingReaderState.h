@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XsdCachingReader_CachingReaderState_TypeDefinitionIndex = 1744;
+	inline static constexpr unsigned int XsdCachingReader_CachingReaderState_TypeDefinitionIndex = 1743;
 
 	enum class XsdCachingReader_CachingReaderState : ::System::Int32
 	{

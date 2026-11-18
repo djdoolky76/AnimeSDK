@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class TextAsset; }
 
-#define MOLEMOLE_CLOTHWRAPPER_COMPARETO_OFFSET UNITYSDK_OFFSET(0x150E48A0)
-#define MOLEMOLE_CLOTHWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x150E48F0)
+#define MOLEMOLE_CLOTHWRAPPER_COMPARETO_OFFSET UNITYSDK_OFFSET(0x19224290)
+#define MOLEMOLE_CLOTHWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x192242E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ClothWrapper_TypeDefinitionIndex = 49412;
+	inline static constexpr unsigned int ClothWrapper_TypeDefinitionIndex = 84847;
 
 	class ClothWrapper : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CLOTHWRAPPER__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 CompareTo(::System::Object* a1)
+		::System::Int32 CompareTo(::System::Object* EIFONLCJOPG)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_CLOTHWRAPPER_COMPARETO_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_CLOTHWRAPPER_COMPARETO_OFFSET))(this, EIFONLCJOPG);
 		}
 	};
 }

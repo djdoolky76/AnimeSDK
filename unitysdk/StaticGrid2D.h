@@ -1,48 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/System/Nullable_1.h"
 
-#define STATICGRID2D_CALCULATEGRIDBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C3E9C30)
-#define STATICGRID2D_CHECKIFSORTED_OFFSET UNITYSDK_OFFSET(0x1C3E9AE0)
-#define STATICGRID2D_GET_COLS_OFFSET UNITYSDK_OFFSET(0x1C3E9960)
-#define STATICGRID2D_GET_GRIDBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C3E9980)
-#define STATICGRID2D_GET_ISSORTED_OFFSET UNITYSDK_OFFSET(0x1C3E99B0)
-#define STATICGRID2D_GET_POINTS_OFFSET UNITYSDK_OFFSET(0x1C3E9920)
-#define STATICGRID2D_GET_ROWS_OFFSET UNITYSDK_OFFSET(0x1C3E9940)
-#define STATICGRID2D_SET_COLS_OFFSET UNITYSDK_OFFSET(0x1C3E9970)
-#define STATICGRID2D_SET_GRIDBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C3E99A0)
-#define STATICGRID2D_SET_ISSORTED_OFFSET UNITYSDK_OFFSET(0x1C3E99C0)
-#define STATICGRID2D_SET_POINTS_OFFSET UNITYSDK_OFFSET(0x1C3E9930)
-#define STATICGRID2D_SET_ROWS_OFFSET UNITYSDK_OFFSET(0x1C3E9950)
-#define STATICGRID2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3E99D0)
+#define STATICGRID2D_CALCULATEGRIDBOUNDS_OFFSET UNITYSDK_OFFSET(0x1BA008B0)
+#define STATICGRID2D_CHECKIFSORTED_OFFSET UNITYSDK_OFFSET(0x1BA00760)
+#define STATICGRID2D_GET_COLS_OFFSET UNITYSDK_OFFSET(0x1BA005E0)
+#define STATICGRID2D_GET_GRIDBOUNDS_OFFSET UNITYSDK_OFFSET(0x1BA00600)
+#define STATICGRID2D_GET_ISSORTED_OFFSET UNITYSDK_OFFSET(0x1BA00630)
+#define STATICGRID2D_GET_POINTS_OFFSET UNITYSDK_OFFSET(0x1BA005A0)
+#define STATICGRID2D_GET_ROWS_OFFSET UNITYSDK_OFFSET(0x1BA005C0)
+#define STATICGRID2D_SET_COLS_OFFSET UNITYSDK_OFFSET(0x1BA005F0)
+#define STATICGRID2D_SET_GRIDBOUNDS_OFFSET UNITYSDK_OFFSET(0x1BA00620)
+#define STATICGRID2D_SET_ISSORTED_OFFSET UNITYSDK_OFFSET(0x1BA00640)
+#define STATICGRID2D_SET_POINTS_OFFSET UNITYSDK_OFFSET(0x1BA005B0)
+#define STATICGRID2D_SET_ROWS_OFFSET UNITYSDK_OFFSET(0x1BA005D0)
+#define STATICGRID2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA00650)
 
-inline static constexpr unsigned int StaticGrid2D_TypeDefinitionIndex = 53692;
+inline static constexpr unsigned int StaticGrid2D_TypeDefinitionIndex = 70391;
 
 class StaticGrid2D : public ::System::Object
 {
 public:
-	::Il2CppArray<::UnityEngine::Vector2>* _Points_k__BackingField; // 0x10
+	::System::Object* _Points_k__BackingField; // 0x10
 	::System::Boolean _IsSorted_k__BackingField; // 0x18
-	::System::Int32 _Rows_k__BackingField; // 0x1C
-	::UnityEngine::Bounds _GridBounds_k__BackingField; // 0x20
-	::System::Int32 _Cols_k__BackingField; // 0x38
+	::System::Byte _padding0[0x3];
+	::System::Int32 _Cols_k__BackingField; // 0x1C
+	::System::Int32 _Rows_k__BackingField; // 0x20
+	::UnityEngine::Bounds _GridBounds_k__BackingField; // 0x24
 
-	::System::Void _ctor(::Il2CppArray<::UnityEngine::Vector2>* points, ::System::Nullable_1<::UnityEngine::Bounds> bounds, ::System::Boolean assureSorted)
+	::System::Void _ctor(::System::Object* points, ::System::Nullable_1<::UnityEngine::Bounds> bounds, ::System::Boolean assureSorted)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Nullable_1<::UnityEngine::Bounds>, ::System::Boolean))((::PBYTE)hIl2Cpp + STATICGRID2D__CTOR_OFFSET))(this, points, bounds, assureSorted);
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Nullable_1<::UnityEngine::Bounds>, ::System::Boolean))((::PBYTE)hIl2Cpp + STATICGRID2D__CTOR_OFFSET))(this, points, bounds, assureSorted);
 	}
 
-	::Il2CppArray<::UnityEngine::Vector2>* get_Points()
+	::System::Object* get_Points()
 	{
-		return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATICGRID2D_GET_POINTS_OFFSET))(this);
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATICGRID2D_GET_POINTS_OFFSET))(this);
 	}
 
-	::System::Void set_Points(::Il2CppArray<::UnityEngine::Vector2>* value)
+	::System::Void set_Points(::System::Object* value)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + STATICGRID2D_SET_POINTS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + STATICGRID2D_SET_POINTS_OFFSET))(this, value);
 	}
 
 	::System::Int32 get_Rows()

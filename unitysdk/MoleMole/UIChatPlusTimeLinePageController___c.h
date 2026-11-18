@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19327D70)
-#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19327DB0)
-#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__ONNORMALGRAPHEXIT_B__36_0_OFFSET UNITYSDK_OFFSET(0x19327DC0)
+#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1738DF10)
+#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1738DF50)
+#define MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__ONNORMALGRAPHEXIT_B__37_0_OFFSET UNITYSDK_OFFSET(0x1738DF60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIChatPlusTimeLinePageController___c_TypeDefinitionIndex = 79165;
+	inline static constexpr unsigned int UIChatPlusTimeLinePageController___c_TypeDefinitionIndex = 42315;
 
 	class UIChatPlusTimeLinePageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__36_0()
+		static ::System::Action** StaticGet___9__37_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIChatPlusTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x4AC40);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIChatPlusTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x4EA90);
 		}
-		static ::MoleMole::UIChatPlusTimeLinePageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIChatPlusTimeLinePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIChatPlusTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x4AC48);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIChatPlusTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x4EA98);
 		}
 
 		static ::System::Void _cctor()
@@ -34,9 +34,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnNormalGraphExit_b__36_0()
+		::System::Void _OnNormalGraphExit_b__37_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__ONNORMALGRAPHEXIT_B__36_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICHATPLUSTIMELINEPAGECONTROLLER___C__ONNORMALGRAPHEXIT_B__37_0_OFFSET))(this);
 		}
 	};
 }

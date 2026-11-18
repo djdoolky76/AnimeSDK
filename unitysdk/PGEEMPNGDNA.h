@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IOOIHHOJOPI.h"
+
+class GCIMMDDIFBJ;
+class HNLACBJDCGI;
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine { class RectTransform; }
+
+#define PGEEMPNGDNA_BENPOBBMANI_OFFSET UNITYSDK_OFFSET(0x184697E0)
+#define PGEEMPNGDNA_CJBFCLMFDOM_OFFSET UNITYSDK_OFFSET(0x18469800)
+#define PGEEMPNGDNA_DCAGAGCHCHI_OFFSET UNITYSDK_OFFSET(0x18469810)
+#define PGEEMPNGDNA_EFKGNFCEENK_OFFSET UNITYSDK_OFFSET(0x18469510)
+#define PGEEMPNGDNA_IBPDHNBMCGL_OFFSET UNITYSDK_OFFSET(0x184697D0)
+#define PGEEMPNGDNA_IIKDJHLGGIL_OFFSET UNITYSDK_OFFSET(0x184697B0)
+#define PGEEMPNGDNA_KDDNGNFEALF_OFFSET UNITYSDK_OFFSET(0x18469820)
+#define PGEEMPNGDNA_NHHADCDODEN_OFFSET UNITYSDK_OFFSET(0x184697F0)
+#define PGEEMPNGDNA_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x184693D0)
+#define PGEEMPNGDNA_OMGMNCCKGLB_OFFSET UNITYSDK_OFFSET(0x184697C0)
+#define PGEEMPNGDNA__CTOR_OFFSET UNITYSDK_OFFSET(0x18469720)
+
+inline static constexpr unsigned int PGEEMPNGDNA_TypeDefinitionIndex = 67382;
+
+class PGEEMPNGDNA : public ::IOOIHHOJOPI
+{
+public:
+	::GCIMMDDIFBJ* _OMEAFBLKPMB_k__BackingField; // 0x28
+	::GCIMMDDIFBJ* _HGAOPPHAFFK_k__BackingField; // 0x30
+	::GCIMMDDIFBJ* _EPHKCJFFDPG_k__BackingField; // 0x38
+	::UnityEngine::RectTransform* _DEJNOJBAFDE_k__BackingField; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PGEEMPNGDNA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + PGEEMPNGDNA_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::System::Void IIKDJHLGGIL(::UnityEngine::RectTransform* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + PGEEMPNGDNA_IIKDJHLGGIL_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void EFKGNFCEENK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PGEEMPNGDNA_EFKGNFCEENK_OFFSET))(this);
+	}
+
+	::GCIMMDDIFBJ* OMGMNCCKGLB()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGEEMPNGDNA_OMGMNCCKGLB_OFFSET))(this);
+	}
+
+	::System::Void IBPDHNBMCGL(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + PGEEMPNGDNA_IBPDHNBMCGL_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::GCIMMDDIFBJ* BENPOBBMANI()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGEEMPNGDNA_BENPOBBMANI_OFFSET))(this);
+	}
+
+	::GCIMMDDIFBJ* NHHADCDODEN()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGEEMPNGDNA_NHHADCDODEN_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* CJBFCLMFDOM()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGEEMPNGDNA_CJBFCLMFDOM_OFFSET))(this);
+	}
+
+	::System::Void DCAGAGCHCHI(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + PGEEMPNGDNA_DCAGAGCHCHI_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void KDDNGNFEALF(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + PGEEMPNGDNA_KDDNGNFEALF_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIMINISCAPERESULTINFOROWWIDGETCONTROLLER_RATINGROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15162A70)
+#define MOLEMOLE_UIMINISCAPERESULTINFOROWWIDGETCONTROLLER_RATINGROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14CA4560)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniscapeResultInfoRowWidgetController_RatingRowContext_TypeDefinitionIndex = 49873;
+	inline static constexpr unsigned int UIMiniscapeResultInfoRowWidgetController_RatingRowContext_TypeDefinitionIndex = 60495;
 
 	class UIMiniscapeResultInfoRowWidgetController_RatingRowContext : public ::MoleMole::UIControllerContextBase
 	{

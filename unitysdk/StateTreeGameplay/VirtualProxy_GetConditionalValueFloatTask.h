@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/StateTreeGameplay/VirtualProxy_StateTreeCommonTaskBase.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1C3E95B0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1C3E96C0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x1C3E9780)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1C3E9660)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1C3E9840)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3E9910)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1BA002F0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1BA00400)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1BA003A0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1BA004C0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA00590)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualProxy_GetConditionalValueFloatTask_TypeDefinitionIndex = 59972;
+	inline static constexpr unsigned int VirtualProxy_GetConditionalValueFloatTask_TypeDefinitionIndex = 66348;
 
 	class VirtualProxy_GetConditionalValueFloatTask : public ::StateTreeGameplay::VirtualProxy_StateTreeCommonTaskBase
 	{
@@ -44,11 +43,6 @@ namespace StateTreeGameplay
 		::StateTreeCore::StateTreeRunStatus EnterState(::UnrealTypes::FReadOnlyStructView& self, ::StateTreeCore::StateTreeExecutionContext& context, ::StateTreeCore::StateTreeTransitionResult& transition)
 		{
 			return ((::StateTreeCore::StateTreeRunStatus(*)(::PVOID, ::UnrealTypes::FReadOnlyStructView&, ::StateTreeCore::StateTreeExecutionContext&, ::StateTreeCore::StateTreeTransitionResult&))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK_ENTERSTATE_OFFSET))(this, self, context, transition);
-		}
-
-		::System::Void ExitState(::UnrealTypes::FReadOnlyStructView& self, ::StateTreeCore::StateTreeExecutionContext& context, ::StateTreeCore::StateTreeTransitionResult& transition)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnrealTypes::FReadOnlyStructView&, ::StateTreeCore::StateTreeExecutionContext&, ::StateTreeCore::StateTreeTransitionResult&))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_VIRTUALPROXY_GETCONDITIONALVALUEFLOATTASK_EXITSTATE_OFFSET))(this, self, context, transition);
 		}
 
 		::StateTreeCore::StateTreeRunStatus Tick(::UnrealTypes::FReadOnlyStructView& self, ::StateTreeCore::StateTreeExecutionContext& context, ::System::Single deltaTime)

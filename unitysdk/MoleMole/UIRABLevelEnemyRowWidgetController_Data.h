@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_33439CEEE9D5DC59;
+class LFDLJMGBHAD;
 
-#define MOLEMOLE_UIRABLEVELENEMYROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17E2A820)
+#define MOLEMOLE_UIRABLEVELENEMYROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18702A80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABLevelEnemyRowWidgetController_Data_TypeDefinitionIndex = 51878;
+	inline static constexpr unsigned int UIRABLevelEnemyRowWidgetController_Data_TypeDefinitionIndex = 78636;
 
 	class UIRABLevelEnemyRowWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_2_33439CEEE9D5DC59* bindData; // 0x10
+		::LFDLJMGBHAD* bindData; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
@@ -11,15 +11,15 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWMOVETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xF76B790)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWMOVETASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xF76B920)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWMOVETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xF76B730)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWMOVETASK_LINK_OFFSET UNITYSDK_OFFSET(0xF76B6C0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWMOVETASK__CTOR_OFFSET UNITYSDK_OFFSET(0xF76BA40)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWMOVETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xFD24630)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWMOVETASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xFD247C0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWMOVETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xFD245D0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWMOVETASK_LINK_OFFSET UNITYSDK_OFFSET(0xFD24560)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWMOVETASK__CTOR_OFFSET UNITYSDK_OFFSET(0xFD248E0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_PathFollowMoveTask_TypeDefinitionIndex = 54794;
+	inline static constexpr unsigned int VirtualProxy_PathFollowMoveTask_TypeDefinitionIndex = 60079;
 
 	class VirtualProxy_PathFollowMoveTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{

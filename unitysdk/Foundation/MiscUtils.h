@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MiscUtils_TypeDefinitionIndex = 8522;
+	inline static constexpr unsigned int MiscUtils_TypeDefinitionIndex = 8773;
 
 	class MiscUtils : public ::System::Object
 	{

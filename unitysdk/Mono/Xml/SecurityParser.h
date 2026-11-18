@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Mono/Xml/MiniParser.h"
+#include "unitysdk/Mono/Xml/SmallXmlParser.h"
 
-namespace Mono::Xml { class MiniParser_IAttrList; }
+namespace Mono::Xml { class SmallXmlParser_IAttrList; }
 namespace System { class String; }
 namespace System::Collections { class Stack; }
 namespace System::Security { class SecurityElement; }
 
-#define MONO_XML_SECURITYPARSER_LOADXML_OFFSET UNITYSDK_OFFSET(0x1F93D390)
-#define MONO_XML_SECURITYPARSER_ONCHARS_OFFSET UNITYSDK_OFFSET(0x1F93D780)
-#define MONO_XML_SECURITYPARSER_ONENDELEMENT_OFFSET UNITYSDK_OFFSET(0x1F93D6F0)
-#define MONO_XML_SECURITYPARSER_ONENDPARSING_OFFSET UNITYSDK_OFFSET(0x1F93D810)
-#define MONO_XML_SECURITYPARSER_ONSTARTELEMENT_OFFSET UNITYSDK_OFFSET(0x1F93D490)
-#define MONO_XML_SECURITYPARSER_ONSTARTPARSING_OFFSET UNITYSDK_OFFSET(0x1F93D480)
-#define MONO_XML_SECURITYPARSER_READ_OFFSET UNITYSDK_OFFSET(0x1F93D3F0)
-#define MONO_XML_SECURITYPARSER_TOXML_OFFSET UNITYSDK_OFFSET(0x1F93D3E0)
-#define MONO_XML_SECURITYPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F93D280)
+#define MONO_XML_SECURITYPARSER_LOADXML_OFFSET UNITYSDK_OFFSET(0x1E480C10)
+#define MONO_XML_SECURITYPARSER_ONCHARS_OFFSET UNITYSDK_OFFSET(0x1E4810E0)
+#define MONO_XML_SECURITYPARSER_ONENDELEMENT_OFFSET UNITYSDK_OFFSET(0x1E481050)
+#define MONO_XML_SECURITYPARSER_ONENDPARSING_OFFSET UNITYSDK_OFFSET(0x1E481170)
+#define MONO_XML_SECURITYPARSER_ONIGNORABLEWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1E480D30)
+#define MONO_XML_SECURITYPARSER_ONPROCESSINGINSTRUCTION_OFFSET UNITYSDK_OFFSET(0x1E480D20)
+#define MONO_XML_SECURITYPARSER_ONSTARTELEMENT_OFFSET UNITYSDK_OFFSET(0x1E480D40)
+#define MONO_XML_SECURITYPARSER_ONSTARTPARSING_OFFSET UNITYSDK_OFFSET(0x1E480D10)
+#define MONO_XML_SECURITYPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E480B90)
 
 namespace Mono::Xml
 {
-	inline static constexpr unsigned int SecurityParser_TypeDefinitionIndex = 2270;
+	inline static constexpr unsigned int SecurityParser_TypeDefinitionIndex = 26;
 
-	class SecurityParser : public ::Mono::Xml::MiniParser
+	class SecurityParser : public ::Mono::Xml::SmallXmlParser
 	{
 	public:
-		::System::String* xmldoc; // 0x28
-		::System::Collections::Stack* stack; // 0x30
-		::System::Security::SecurityElement* root; // 0x38
-		::System::Security::SecurityElement* current; // 0x40
-		::System::Int32 pos; // 0x48
+		::System::Security::SecurityElement* root; // 0x60
+		::System::Security::SecurityElement* current; // 0x68
+		::System::Collections::Stack* stack; // 0x70
 
 		::System::Void _ctor()
 		{
@@ -40,24 +38,24 @@ namespace Mono::Xml
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MONO_XML_SECURITYPARSER_LOADXML_OFFSET))(this, xml);
 		}
 
-		::System::Security::SecurityElement* ToXml()
+		::System::Void OnStartParsing(::Mono::Xml::SmallXmlParser* parser)
 		{
-			return ((::System::Security::SecurityElement*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_XML_SECURITYPARSER_TOXML_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Mono::Xml::SmallXmlParser*))((::PBYTE)hIl2Cpp + MONO_XML_SECURITYPARSER_ONSTARTPARSING_OFFSET))(this, parser);
 		}
 
-		::System::Int32 Read()
+		::System::Void OnProcessingInstruction(::System::String* name, ::System::String* text)
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_XML_SECURITYPARSER_READ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MONO_XML_SECURITYPARSER_ONPROCESSINGINSTRUCTION_OFFSET))(this, name, text);
 		}
 
-		::System::Void OnStartParsing(::Mono::Xml::MiniParser* parser)
+		::System::Void OnIgnorableWhitespace(::System::String* s)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Xml::MiniParser*))((::PBYTE)hIl2Cpp + MONO_XML_SECURITYPARSER_ONSTARTPARSING_OFFSET))(this, parser);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MONO_XML_SECURITYPARSER_ONIGNORABLEWHITESPACE_OFFSET))(this, s);
 		}
 
-		::System::Void OnStartElement(::System::String* name, ::Mono::Xml::MiniParser_IAttrList* attrs)
+		::System::Void OnStartElement(::System::String* name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Mono::Xml::MiniParser_IAttrList*))((::PBYTE)hIl2Cpp + MONO_XML_SECURITYPARSER_ONSTARTELEMENT_OFFSET))(this, name, attrs);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Mono::Xml::SmallXmlParser_IAttrList*))((::PBYTE)hIl2Cpp + MONO_XML_SECURITYPARSER_ONSTARTELEMENT_OFFSET))(this, name, attrs);
 		}
 
 		::System::Void OnEndElement(::System::String* name)
@@ -70,9 +68,9 @@ namespace Mono::Xml
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MONO_XML_SECURITYPARSER_ONCHARS_OFFSET))(this, ch);
 		}
 
-		::System::Void OnEndParsing(::Mono::Xml::MiniParser* parser)
+		::System::Void OnEndParsing(::Mono::Xml::SmallXmlParser* parser)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Xml::MiniParser*))((::PBYTE)hIl2Cpp + MONO_XML_SECURITYPARSER_ONENDPARSING_OFFSET))(this, parser);
+			return ((::System::Void(*)(::PVOID, ::Mono::Xml::SmallXmlParser*))((::PBYTE)hIl2Cpp + MONO_XML_SECURITYPARSER_ONENDPARSING_OFFSET))(this, parser);
 		}
 	};
 }

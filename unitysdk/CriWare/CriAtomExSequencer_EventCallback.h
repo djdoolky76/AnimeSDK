@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CriWare/CriAtomExSequencer_CriAtomExSequenceEventInfo.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/CriWare/CriAtomExSequencer_CriAtomExSequenceEventInfo.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIATOMEXSEQUENCER_EVENTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F673EC0)
-#define CRIWARE_CRIATOMEXSEQUENCER_EVENTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F673F30)
-#define CRIWARE_CRIATOMEXSEQUENCER_EVENTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F673BD0)
-#define CRIWARE_CRIATOMEXSEQUENCER_EVENTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F673BB0)
+#define CRIWARE_CRIATOMEXSEQUENCER_EVENTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FA25460)
+#define CRIWARE_CRIATOMEXSEQUENCER_EVENTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FA254D0)
+#define CRIWARE_CRIATOMEXSEQUENCER_EVENTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FA25170)
+#define CRIWARE_CRIATOMEXSEQUENCER_EVENTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA25160)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExSequencer_EventCallback_TypeDefinitionIndex = 34920;
+	inline static constexpr unsigned int CriAtomExSequencer_EventCallback_TypeDefinitionIndex = 34469;
 
 	class CriAtomExSequencer_EventCallback : public ::System::MulticastDelegate
 	{

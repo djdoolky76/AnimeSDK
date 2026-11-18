@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIZENKOVITEMINFODESCROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11C2AE40)
+#define MOLEMOLE_UIZENKOVITEMINFODESCROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1138FFE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovItemInfoDescRowWidgetController_Data_TypeDefinitionIndex = 74535;
+	inline static constexpr unsigned int UIZenkovItemInfoDescRowWidgetController_Data_TypeDefinitionIndex = 91585;
 
 	class UIZenkovItemInfoDescRowWidgetController_Data : public ::System::Object
 	{
 	public:
 		::System::String* Desc; // 0x10
-		::System::String* Num; // 0x18
-		::System::String* Title; // 0x20
+		::System::String* Title; // 0x18
+		::System::String* Num; // 0x20
 		::UnityEngine::Color NumColor; // 0x28
 
 		::System::Void _ctor()

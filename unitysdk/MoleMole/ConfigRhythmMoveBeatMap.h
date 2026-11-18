@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/SerializedScriptableObjectBase.h"
 
-namespace MoleMole { class ConfigRhythmMoveBeatMap_BeatMap; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGRHYTHMMOVEBEATMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6C140)
+#define MOLEMOLE_CONFIGRHYTHMMOVEBEATMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B949080)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigRhythmMoveBeatMap_TypeDefinitionIndex = 65970;
+	inline static constexpr unsigned int ConfigRhythmMoveBeatMap_TypeDefinitionIndex = 84366;
 
 	class ConfigRhythmMoveBeatMap : public ::MoleMole::SerializedScriptableObjectBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigRhythmMoveBeatMap_BeatMap*>* beatMaps; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* beatMaps; // 0x58
 
 		::System::Void _ctor()
 		{

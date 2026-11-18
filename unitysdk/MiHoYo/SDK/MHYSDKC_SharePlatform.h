@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_SharePlatform_TypeDefinitionIndex = 37244;
+	inline static constexpr unsigned int MHYSDKC_SharePlatform_TypeDefinitionIndex = 35230;
 
 	class MHYSDKC_SharePlatform : public ::System::Object
 	{
@@ -38,5 +36,8 @@ namespace MiHoYo::SDK
 		// static const ::System::String* HoYoLAB_TEMPLATE; // 0x0
 		// static const ::System::String* KUAISHOU_PUBLISH; // 0x0
 		// static const ::System::String* KUAISHOU_IM; // 0x0
+		// static const ::System::String* LINE; // 0x0
+		// static const ::System::String* DISCORD; // 0x0
+		// static const ::System::String* PINTEREST; // 0x0
 	};
 }

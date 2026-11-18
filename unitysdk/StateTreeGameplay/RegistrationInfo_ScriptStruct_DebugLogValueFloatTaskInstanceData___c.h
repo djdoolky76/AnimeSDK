@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D33D120)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D33D160)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASKINSTANCEDATA___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1D33D170)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9E3790)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E37D0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASKINSTANCEDATA___C___CCTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1D9E37E0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_DebugLogValueFloatTaskInstanceData___c_TypeDefinitionIndex = 84743;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_DebugLogValueFloatTaskInstanceData___c_TypeDefinitionIndex = 53919;
 
 	class RegistrationInfo_ScriptStruct_DebugLogValueFloatTaskInstanceData___c : public ::System::Object
 	{
 	public:
-		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_DebugLogValueFloatTaskInstanceData___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_DebugLogValueFloatTaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x4CA30);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_DebugLogValueFloatTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x4DF40);
 		}
 
 		static ::System::Void _cctor()
@@ -30,9 +30,9 @@ namespace StateTreeGameplay
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASKINSTANCEDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::UnrealTypes::ICppStructOps* __cctor_b__4_0()
+		::UnrealTypes::ICppStructOps* __cctor_b__5_0()
 		{
-			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASKINSTANCEDATA___C___CCTOR_B__4_0_OFFSET))(this);
+			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_DEBUGLOGVALUEFLOATTASKINSTANCEDATA___C___CCTOR_B__5_0_OFFSET))(this);
 		}
 	};
 }

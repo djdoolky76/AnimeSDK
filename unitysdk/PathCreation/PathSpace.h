@@ -3,7 +3,7 @@
 
 namespace PathCreation
 {
-	inline static constexpr unsigned int PathSpace_TypeDefinitionIndex = 38111;
+	inline static constexpr unsigned int PathSpace_TypeDefinitionIndex = 36113;
 
 	enum class PathSpace : ::System::Int32
 	{

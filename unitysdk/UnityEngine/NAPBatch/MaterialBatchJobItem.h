@@ -6,9 +6,9 @@
 
 namespace UnityEngine::NAPBatch
 {
-	inline static constexpr unsigned int MaterialBatchJobItem_TypeDefinitionIndex = 6131;
+	inline static constexpr unsigned int MaterialBatchJobItem_TypeDefinitionIndex = 6139;
 
-	struct alignas(8) MaterialBatchJobItem
+	struct alignas(4) MaterialBatchJobItem
 	{
 		::System::Int32 RendererInstanceID; // 0x10
 		::System::Int32 MaterialInstanceID; // 0x14
@@ -16,6 +16,7 @@ namespace UnityEngine::NAPBatch
 		::System::Int32 MaterialPropertyID; // 0x20
 		::UnityEngine::Vector4 FloatValue; // 0x24
 		::System::Boolean ForceSet; // 0x34
+		::System::Byte _padding0[0x3];
 		::UnityEngine::NAPBatch::BatchItemValueType ValueType; // 0x38
 	};
 }

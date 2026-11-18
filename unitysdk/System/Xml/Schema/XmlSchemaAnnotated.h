@@ -6,22 +6,22 @@ namespace System { class String; }
 namespace System::Xml { class XmlAttribute; }
 namespace System::Xml::Schema { class XmlSchemaAnnotation; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATED_ADDANNOTATION_OFFSET UNITYSDK_OFFSET(0x1DE69A20)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATED_GET_IDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1DE699F0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATED_SETUNHANDLEDATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1DE69A10)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATED_SET_IDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1DE69A00)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATED__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE69A30)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATED_ADDANNOTATION_OFFSET UNITYSDK_OFFSET(0x1E3109F0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATED_GET_IDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E3109C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATED_SETUNHANDLEDATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1E3109E0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATED_SET_IDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E3109D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAANNOTATED__CTOR_OFFSET UNITYSDK_OFFSET(0x1E310A00)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaAnnotated_TypeDefinitionIndex = 2115;
+	inline static constexpr unsigned int XmlSchemaAnnotated_TypeDefinitionIndex = 2114;
 
 	class XmlSchemaAnnotated : public ::System::Xml::Schema::XmlSchemaObject
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaAnnotation* annotation; // 0x38
-		::Il2CppArray<::System::Xml::XmlAttribute*>* moreAttributes; // 0x40
-		::System::String* id; // 0x48
+		::System::String* id; // 0x38
+		::System::Xml::Schema::XmlSchemaAnnotation* annotation; // 0x40
+		::Il2CppArray<::System::Xml::XmlAttribute*>* moreAttributes; // 0x48
 
 		::System::Void _ctor()
 		{

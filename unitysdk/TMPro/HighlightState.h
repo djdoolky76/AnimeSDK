@@ -6,16 +6,16 @@
 
 namespace System { class Object; }
 
-#define TMPRO_HIGHLIGHTSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xAD1A50)
-#define TMPRO_HIGHLIGHTSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0xAD19E0)
-#define TMPRO_HIGHLIGHTSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xAD1970)
-#define TMPRO_HIGHLIGHTSTATE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1FC20610)
-#define TMPRO_HIGHLIGHTSTATE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1FC206A0)
-#define TMPRO_HIGHLIGHTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x41EAF0)
+#define TMPRO_HIGHLIGHTSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9B87E0)
+#define TMPRO_HIGHLIGHTSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x9B8770)
+#define TMPRO_HIGHLIGHTSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9B8700)
+#define TMPRO_HIGHLIGHTSTATE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x2002B060)
+#define TMPRO_HIGHLIGHTSTATE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x2002B0F0)
+#define TMPRO_HIGHLIGHTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x3CF240)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int HighlightState_TypeDefinitionIndex = 39770;
+	inline static constexpr unsigned int HighlightState_TypeDefinitionIndex = 37770;
 
 	struct alignas(4) HighlightState
 	{
@@ -27,15 +27,19 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color32, ::TMPro::TMP_Offset))((::PBYTE)hIl2Cpp + TMPRO_HIGHLIGHTSTATE__CTOR_OFFSET))(this, color, padding);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs)
 		{
 			return ((::System::Boolean(*)(::TMPro::HighlightState, ::TMPro::HighlightState))((::PBYTE)hIl2Cpp + TMPRO_HIGHLIGHTSTATE_OP_EQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs)
 		{
 			return ((::System::Boolean(*)(::TMPro::HighlightState, ::TMPro::HighlightState))((::PBYTE)hIl2Cpp + TMPRO_HIGHLIGHTSTATE_OP_INEQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{
@@ -47,9 +51,11 @@ namespace TMPro
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + TMPRO_HIGHLIGHTSTATE_EQUALS_OFFSET))(this, obj);
 		}
 
+		/*
 		::System::Boolean Equals_1(::TMPro::HighlightState other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::TMPro::HighlightState))((::PBYTE)hIl2Cpp + TMPRO_HIGHLIGHTSTATE_EQUALS_1_OFFSET))(this, other);
 		}
+		*/
 	};
 }

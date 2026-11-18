@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_IO_IOEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D191490)
-#define SYSTEM_IO_IOEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D195480)
-#define SYSTEM_IO_IOEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1D195510)
-#define SYSTEM_IO_IOEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1D1955B0)
-#define SYSTEM_IO_IOEXCEPTION__CTOR_5_OFFSET UNITYSDK_OFFSET(0x1D191C60)
-#define SYSTEM_IO_IOEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D195220)
+#define SYSTEM_IO_IOEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D76EEA0)
+#define SYSTEM_IO_IOEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D772E90)
+#define SYSTEM_IO_IOEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1D772F20)
+#define SYSTEM_IO_IOEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1D772FC0)
+#define SYSTEM_IO_IOEXCEPTION__CTOR_5_OFFSET UNITYSDK_OFFSET(0x1D76F670)
+#define SYSTEM_IO_IOEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D772C30)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int IOException_TypeDefinitionIndex = 646;
+	inline static constexpr unsigned int IOException_TypeDefinitionIndex = 645;
 
 	class IOException : public ::System::SystemException
 	{

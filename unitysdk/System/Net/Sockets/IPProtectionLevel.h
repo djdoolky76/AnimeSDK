@@ -3,7 +3,7 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int IPProtectionLevel_TypeDefinitionIndex = 3644;
+	inline static constexpr unsigned int IPProtectionLevel_TypeDefinitionIndex = 3643;
 
 	enum class IPProtectionLevel : ::System::Int32
 	{

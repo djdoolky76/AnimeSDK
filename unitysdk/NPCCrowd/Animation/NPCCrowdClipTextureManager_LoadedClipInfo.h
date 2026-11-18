@@ -7,7 +7,7 @@ namespace NPCCrowd::Animation { class NPCCrowdAnimationData; }
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdClipTextureManager_LoadedClipInfo_TypeDefinitionIndex = 79428;
+	inline static constexpr unsigned int NPCCrowdClipTextureManager_LoadedClipInfo_TypeDefinitionIndex = 64378;
 
 	struct alignas(8) NPCCrowdClipTextureManager_LoadedClipInfo
 	{

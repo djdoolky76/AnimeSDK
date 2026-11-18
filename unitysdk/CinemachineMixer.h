@@ -1,31 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 class CinemachineMixer_MasterDirectorDelegate;
 namespace Cinemachine { class CinemachineBrain; }
 namespace System { class Object; }
 
-#define CINEMACHINEMIXER_GETDELTATIME_OFFSET UNITYSDK_OFFSET(0x1FA7C1E0)
-#define CINEMACHINEMIXER_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1FA7B110)
-#define CINEMACHINEMIXER_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x1FA7B260)
-#define CINEMACHINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1FA7B270)
-#define CINEMACHINEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA7C270)
+#define CINEMACHINEMIXER_GETDELTATIME_OFFSET UNITYSDK_OFFSET(0x1FE952D0)
+#define CINEMACHINEMIXER_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1FE941F0)
+#define CINEMACHINEMIXER_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x1FE94340)
+#define CINEMACHINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1FE94350)
+#define CINEMACHINEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE95360)
 
-inline static constexpr unsigned int CinemachineMixer_TypeDefinitionIndex = 34635;
+inline static constexpr unsigned int CinemachineMixer_TypeDefinitionIndex = 34181;
 
 class CinemachineMixer : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
 	static ::CinemachineMixer_MasterDirectorDelegate** StaticGet_GetMasterPlayableDirector()
 	{
-		return (::CinemachineMixer_MasterDirectorDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineMixer_TypeDefinitionIndex)->GetStaticField(0x53590);
+		return (::CinemachineMixer_MasterDirectorDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineMixer_TypeDefinitionIndex)->GetStaticField(0x530E0);
 	}
 	::Cinemachine::CinemachineBrain* mBrain; // 0x10
-	::System::Int32 mBrainOverrideId; // 0x18
-	::System::Boolean mPreviewPlay; // 0x1C
+	::System::Boolean mPreviewPlay; // 0x18
+	::System::Byte _padding0[0x3];
+	::System::Int32 mBrainOverrideId; // 0x1C
 
 	::System::Void _ctor()
 	{

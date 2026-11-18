@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ModifiableMassProperties_TypeDefinitionIndex = 7783;
+	inline static constexpr unsigned int ModifiableMassProperties_TypeDefinitionIndex = 7798;
 
 	struct alignas(4) ModifiableMassProperties
 	{

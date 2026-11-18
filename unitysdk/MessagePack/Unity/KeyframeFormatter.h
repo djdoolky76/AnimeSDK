@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Keyframe.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DAE2DD0)
-#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DAE2D70)
-#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE3010)
+#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D480E90)
+#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D480E30)
+#define MESSAGEPACK_UNITY_KEYFRAMEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4810D0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int KeyframeFormatter_TypeDefinitionIndex = 30194;
+	inline static constexpr unsigned int KeyframeFormatter_TypeDefinitionIndex = 30597;
 
 	class KeyframeFormatter : public ::System::Object
 	{

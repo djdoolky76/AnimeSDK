@@ -5,9 +5,9 @@
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FMemberBackStageArgs_TypeDefinitionIndex = 52033;
+	inline static constexpr unsigned int FMemberBackStageArgs_TypeDefinitionIndex = 57026;
 
-	struct alignas(8) FMemberBackStageArgs
+	struct alignas(4) FMemberBackStageArgs
 	{
 		::Foundation::ViewObject::ViewObjectHandle ViewObjectHandle; // 0x10
 	};

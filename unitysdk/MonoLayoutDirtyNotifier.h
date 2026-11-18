@@ -1,0 +1,94 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
+
+#define MONOLAYOUTDIRTYNOTIFIER_MARK_OFFSET UNITYSDK_OFFSET(0x12877550)
+#define MONOLAYOUTDIRTYNOTIFIER_ONBEFORETRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x12877760)
+#define MONOLAYOUTDIRTYNOTIFIER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x12877600)
+#define MONOLAYOUTDIRTYNOTIFIER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x128774E0)
+#define MONOLAYOUTDIRTYNOTIFIER_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x12877680)
+#define MONOLAYOUTDIRTYNOTIFIER_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x128776F0)
+#define MONOLAYOUTDIRTYNOTIFIER_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x128777B0)
+#define MONOLAYOUTDIRTYNOTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x12877800)
+#define MONOLAYOUTDIRTYNOTIFIER___BASE_ONBEFORETRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x12877850)
+#define MONOLAYOUTDIRTYNOTIFIER___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x128778E0)
+#define MONOLAYOUTDIRTYNOTIFIER___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12877970)
+#define MONOLAYOUTDIRTYNOTIFIER___BASE_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x12877A00)
+#define MONOLAYOUTDIRTYNOTIFIER___BASE_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x12877A90)
+#define MONOLAYOUTDIRTYNOTIFIER___BASE_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x12877B20)
+
+inline static constexpr unsigned int MonoLayoutDirtyNotifier_TypeDefinitionIndex = 76942;
+
+class MonoLayoutDirtyNotifier : public ::UnityEngine::EventSystems::UIBehaviour
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnEnable()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER_ONENABLE_OFFSET))(this);
+	}
+
+	::System::Void OnDisable()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER_ONDISABLE_OFFSET))(this);
+	}
+
+	::System::Void OnLightweightActive()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER_ONLIGHTWEIGHTACTIVE_OFFSET))(this);
+	}
+
+	::System::Void OnLightweightDeactive()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER_ONLIGHTWEIGHTDEACTIVE_OFFSET))(this);
+	}
+
+	::System::Void OnBeforeTransformParentChanged()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER_ONBEFORETRANSFORMPARENTCHANGED_OFFSET))(this);
+	}
+
+	::System::Void OnTransformParentChanged()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER_ONTRANSFORMPARENTCHANGED_OFFSET))(this);
+	}
+
+	::System::Void Mark()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER_MARK_OFFSET))(this);
+	}
+
+	::System::Void __base_OnBeforeTransformParentChanged()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER___BASE_ONBEFORETRANSFORMPARENTCHANGED_OFFSET))(this);
+	}
+
+	::System::Void __base_OnDisable()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER___BASE_ONDISABLE_OFFSET))(this);
+	}
+
+	::System::Void __base_OnEnable()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER___BASE_ONENABLE_OFFSET))(this);
+	}
+
+	::System::Void __base_OnLightweightActive()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER___BASE_ONLIGHTWEIGHTACTIVE_OFFSET))(this);
+	}
+
+	::System::Void __base_OnLightweightDeactive()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER___BASE_ONLIGHTWEIGHTDEACTIVE_OFFSET))(this);
+	}
+
+	::System::Void __base_OnTransformParentChanged()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLAYOUTDIRTYNOTIFIER___BASE_ONTRANSFORMPARENTCHANGED_OFFSET))(this);
+	}
+};

@@ -13,25 +13,25 @@ namespace Spine { class Sequence; }
 namespace Spine { class Skin; }
 namespace System { class String; }
 
-#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_GET_EMPTYREGION_OFFSET UNITYSDK_OFFSET(0x1C1737B0)
-#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWBOUNDINGBOXATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1C173AE0)
-#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWCLIPPINGATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1C173CA0)
-#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWMESHATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1C1739D0)
-#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWPATHATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1C173B70)
-#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWPOINTATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1C173C00)
-#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWREGIONATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1C173970)
-#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C173D30)
+#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_GET_EMPTYREGION_OFFSET UNITYSDK_OFFSET(0x1FDCBD40)
+#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWBOUNDINGBOXATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1FDCC100)
+#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWCLIPPINGATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1FDCC270)
+#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWMESHATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1FDCC090)
+#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWPATHATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1FDCC190)
+#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWPOINTATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1FDCC220)
+#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWREGIONATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1FDCC020)
+#define SPINE_UNITY_REGIONLESSATTACHMENTLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDCC300)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int RegionlessAttachmentLoader_TypeDefinitionIndex = 40091;
+	inline static constexpr unsigned int RegionlessAttachmentLoader_TypeDefinitionIndex = 38106;
 
 	class RegionlessAttachmentLoader : public ::System::Object
 	{
 	public:
 		static ::Spine::AtlasRegion** StaticGet_emptyRegion()
 		{
-			return (::Spine::AtlasRegion**)Il2CppClass::FromTypeDefinitionIndex(RegionlessAttachmentLoader_TypeDefinitionIndex)->GetStaticField(0x2C990);
+			return (::Spine::AtlasRegion**)Il2CppClass::FromTypeDefinitionIndex(RegionlessAttachmentLoader_TypeDefinitionIndex)->GetStaticField(0x2DD80);
 		}
 
 		::System::Void _ctor()
@@ -44,34 +44,34 @@ namespace Spine::Unity
 			return ((::Spine::AtlasRegion*(*)())((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_GET_EMPTYREGION_OFFSET))();
 		}
 
-		::Spine::RegionAttachment* NewRegionAttachment(::Spine::Skin* skin, ::System::String* name, ::System::String* path, ::Spine::Sequence* sequence)
+		::Spine::RegionAttachment* NewRegionAttachment(::Spine::Skin* skin, ::System::String* placeholder, ::System::String* name, ::System::String* path, ::Spine::Sequence* sequence)
 		{
-			return ((::Spine::RegionAttachment*(*)(::PVOID, ::Spine::Skin*, ::System::String*, ::System::String*, ::Spine::Sequence*))((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWREGIONATTACHMENT_OFFSET))(this, skin, name, path, sequence);
+			return ((::Spine::RegionAttachment*(*)(::PVOID, ::Spine::Skin*, ::System::String*, ::System::String*, ::System::String*, ::Spine::Sequence*))((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWREGIONATTACHMENT_OFFSET))(this, skin, placeholder, name, path, sequence);
 		}
 
-		::Spine::MeshAttachment* NewMeshAttachment(::Spine::Skin* skin, ::System::String* name, ::System::String* path, ::Spine::Sequence* sequence)
+		::Spine::MeshAttachment* NewMeshAttachment(::Spine::Skin* skin, ::System::String* placeholder, ::System::String* name, ::System::String* path, ::Spine::Sequence* sequence)
 		{
-			return ((::Spine::MeshAttachment*(*)(::PVOID, ::Spine::Skin*, ::System::String*, ::System::String*, ::Spine::Sequence*))((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWMESHATTACHMENT_OFFSET))(this, skin, name, path, sequence);
+			return ((::Spine::MeshAttachment*(*)(::PVOID, ::Spine::Skin*, ::System::String*, ::System::String*, ::System::String*, ::Spine::Sequence*))((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWMESHATTACHMENT_OFFSET))(this, skin, placeholder, name, path, sequence);
 		}
 
-		::Spine::BoundingBoxAttachment* NewBoundingBoxAttachment(::Spine::Skin* skin, ::System::String* name)
+		::Spine::BoundingBoxAttachment* NewBoundingBoxAttachment(::Spine::Skin* skin, ::System::String* placeholder, ::System::String* name)
 		{
-			return ((::Spine::BoundingBoxAttachment*(*)(::PVOID, ::Spine::Skin*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWBOUNDINGBOXATTACHMENT_OFFSET))(this, skin, name);
+			return ((::Spine::BoundingBoxAttachment*(*)(::PVOID, ::Spine::Skin*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWBOUNDINGBOXATTACHMENT_OFFSET))(this, skin, placeholder, name);
 		}
 
-		::Spine::PathAttachment* NewPathAttachment(::Spine::Skin* skin, ::System::String* name)
+		::Spine::PathAttachment* NewPathAttachment(::Spine::Skin* skin, ::System::String* placeholder, ::System::String* name)
 		{
-			return ((::Spine::PathAttachment*(*)(::PVOID, ::Spine::Skin*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWPATHATTACHMENT_OFFSET))(this, skin, name);
+			return ((::Spine::PathAttachment*(*)(::PVOID, ::Spine::Skin*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWPATHATTACHMENT_OFFSET))(this, skin, placeholder, name);
 		}
 
-		::Spine::PointAttachment* NewPointAttachment(::Spine::Skin* skin, ::System::String* name)
+		::Spine::PointAttachment* NewPointAttachment(::Spine::Skin* skin, ::System::String* placeholder, ::System::String* name)
 		{
-			return ((::Spine::PointAttachment*(*)(::PVOID, ::Spine::Skin*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWPOINTATTACHMENT_OFFSET))(this, skin, name);
+			return ((::Spine::PointAttachment*(*)(::PVOID, ::Spine::Skin*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWPOINTATTACHMENT_OFFSET))(this, skin, placeholder, name);
 		}
 
-		::Spine::ClippingAttachment* NewClippingAttachment(::Spine::Skin* skin, ::System::String* name)
+		::Spine::ClippingAttachment* NewClippingAttachment(::Spine::Skin* skin, ::System::String* placeholder, ::System::String* name)
 		{
-			return ((::Spine::ClippingAttachment*(*)(::PVOID, ::Spine::Skin*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWCLIPPINGATTACHMENT_OFFSET))(this, skin, name);
+			return ((::Spine::ClippingAttachment*(*)(::PVOID, ::Spine::Skin*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_UNITY_REGIONLESSATTACHMENTLOADER_NEWCLIPPINGATTACHMENT_OFFSET))(this, skin, placeholder, name);
 		}
 	};
 }

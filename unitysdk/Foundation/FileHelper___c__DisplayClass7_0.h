@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/AssetRequestHandle.h"
 
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_FILEHELPER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F696B00)
-#define FOUNDATION_FILEHELPER___C__DISPLAYCLASS7_0__LOADTEXTFILEFROMBINARYASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1F696B10)
+#define FOUNDATION_FILEHELPER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A58F0)
+#define FOUNDATION_FILEHELPER___C__DISPLAYCLASS7_0__LOADTEXTFILEFROMBINARYASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1F3A5900)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FileHelper___c__DisplayClass7_0_TypeDefinitionIndex = 7858;
+	inline static constexpr unsigned int FileHelper___c__DisplayClass7_0_TypeDefinitionIndex = 8525;
 
 	class FileHelper___c__DisplayClass7_0 : public ::System::Object
 	{

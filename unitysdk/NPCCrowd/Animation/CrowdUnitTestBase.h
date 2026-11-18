@@ -3,37 +3,38 @@
 #include "unitysdk/ENPCAvatarGender.h"
 #include "unitysdk/ENPCAvatarSize.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYNPCTAGID_1_OFFSET UNITYSDK_OFFSET(0x157B7260)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYNPCTAGID_OFFSET UNITYSDK_OFFSET(0x157B6FB0)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYPREFABIDWHICHOWNACCESSORY_OFFSET UNITYSDK_OFFSET(0x157B73D0)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETCROWDNPCTESTCASES_OFFSET UNITYSDK_OFFSET(0x157B7610)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GET_UNITTESTCASENAME_OFFSET UNITYSDK_OFFSET(0x157B69F0)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_INIT_OFFSET UNITYSDK_OFFSET(0x157B6A30)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x157B76A0)
-#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x157B7690)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYNPCTAGID_1_OFFSET UNITYSDK_OFFSET(0x10DC0C30)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYNPCTAGID_OFFSET UNITYSDK_OFFSET(0x10DC0980)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYPREFABIDWHICHOWNACCESSORY_OFFSET UNITYSDK_OFFSET(0x10DC0DA0)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETCROWDNPCTESTCASES_OFFSET UNITYSDK_OFFSET(0x10DC0FE0)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GET_UNITTESTCASENAME_OFFSET UNITYSDK_OFFSET(0x10DC03C0)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE_INIT_OFFSET UNITYSDK_OFFSET(0x10DC0400)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x10DC1070)
+#define NPCCROWD_ANIMATION_CROWDUNITTESTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x10DC1060)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int CrowdUnitTestBase_TypeDefinitionIndex = 80637;
+	inline static constexpr unsigned int CrowdUnitTestBase_TypeDefinitionIndex = 68526;
 
 	class CrowdUnitTestBase : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>** StaticGet_cacheTagCrowdPrefabsDic()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdUnitTestBase_TypeDefinitionIndex)->GetStaticField(0x40FB0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdUnitTestBase_TypeDefinitionIndex)->GetStaticField(0x427A0);
 		}
 		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_allAvatarParams()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdUnitTestBase_TypeDefinitionIndex)->GetStaticField(0x40FB8);
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdUnitTestBase_TypeDefinitionIndex)->GetStaticField(0x427A8);
 		}
+		// static const ::System::UInt32 carrierTagId = 0x2810590; // 0x0
 
 		::System::Void _ctor()
 		{
@@ -70,9 +71,9 @@ namespace NPCCrowd::Animation
 			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETANYPREFABIDWHICHOWNACCESSORY_OFFSET))(this, ownAccessoryItemName);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>* GetCrowdNpcTestCases()
+		::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>>* GetCrowdNpcTestCases()
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETCROWDNPCTESTCASES_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDUNITTESTBASE_GETCROWDNPCTESTCASES_OFFSET))(this);
 		}
 	};
 }

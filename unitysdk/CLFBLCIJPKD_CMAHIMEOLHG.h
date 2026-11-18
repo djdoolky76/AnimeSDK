@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CLFBLCIJPKD_BCHIBNFLMLI.h"
+
+#define CLFBLCIJPKD_CMAHIMEOLHG_BLPGBMJMAJF_OFFSET UNITYSDK_OFFSET(0x1326CAB0)
+#define CLFBLCIJPKD_CMAHIMEOLHG_KJOHEMDIHNJ_OFFSET UNITYSDK_OFFSET(0x1326CB10)
+#define CLFBLCIJPKD_CMAHIMEOLHG__CTOR_OFFSET UNITYSDK_OFFSET(0x1326CAA0)
+
+inline static constexpr unsigned int CLFBLCIJPKD_CMAHIMEOLHG_TypeDefinitionIndex = 88457;
+
+class CLFBLCIJPKD_CMAHIMEOLHG : public ::CLFBLCIJPKD_BCHIBNFLMLI
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_CMAHIMEOLHG__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 BLPGBMJMAJF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_CMAHIMEOLHG_BLPGBMJMAJF_OFFSET))(this);
+	}
+
+	::System::Int32 KJOHEMDIHNJ()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_CMAHIMEOLHG_KJOHEMDIHNJ_OFFSET))(this);
+	}
+};

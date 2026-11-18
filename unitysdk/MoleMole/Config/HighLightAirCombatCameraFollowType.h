@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HighLightAirCombatCameraFollowType_TypeDefinitionIndex = 78251;
+	inline static constexpr unsigned int HighLightAirCombatCameraFollowType_TypeDefinitionIndex = 61502;
 
 	enum class HighLightAirCombatCameraFollowType : ::System::Int32
 	{

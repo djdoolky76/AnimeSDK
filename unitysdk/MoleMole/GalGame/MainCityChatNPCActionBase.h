@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATNPCACTIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A90C60)
+#define MOLEMOLE_GALGAME_MAINCITYCHATNPCACTIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1466BA90)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatNPCActionBase_TypeDefinitionIndex = 73960;
+	inline static constexpr unsigned int MainCityChatNPCActionBase_TypeDefinitionIndex = 86622;
 
 	class MainCityChatNPCActionBase : public ::MoleMole::GalGame::MainCityChatActionBase
 	{
 	public:
 		::System::String* avatarName; // 0x10
-		::System::Int32 avatarId; // 0x18
-		::MoleMole::GalGame::MainCityChatNPCLocation location; // 0x1C
+		::MoleMole::GalGame::MainCityChatNPCLocation location; // 0x18
+		::System::Int32 avatarId; // 0x1C
 
 		::System::Void _ctor()
 		{

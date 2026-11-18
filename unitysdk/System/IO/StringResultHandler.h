@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/IO/SearchResultHandler_1.h"
 
 namespace System { class String; }
 namespace System::IO { class SearchResult; }
 
-#define SYSTEM_IO_STRINGRESULTHANDLER_CREATEOBJECT_OFFSET UNITYSDK_OFFSET(0x1E444940)
-#define SYSTEM_IO_STRINGRESULTHANDLER_ISRESULTINCLUDED_OFFSET UNITYSDK_OFFSET(0x1E4448E0)
-#define SYSTEM_IO_STRINGRESULTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4448C0)
+#define SYSTEM_IO_STRINGRESULTHANDLER_CREATEOBJECT_OFFSET UNITYSDK_OFFSET(0x1E6CD840)
+#define SYSTEM_IO_STRINGRESULTHANDLER_ISRESULTINCLUDED_OFFSET UNITYSDK_OFFSET(0x1E6CD7E0)
+#define SYSTEM_IO_STRINGRESULTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CD7C0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int StringResultHandler_TypeDefinitionIndex = 642;
+	inline static constexpr unsigned int StringResultHandler_TypeDefinitionIndex = 641;
 
-	class StringResultHandler : public ::System::IO::SearchResultHandler_1<::System::String*>
+	class StringResultHandler
 	{
 	public:
 		::System::Boolean _includeDirs; // 0x10

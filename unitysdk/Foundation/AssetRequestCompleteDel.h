@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/Foundation/AssetRequestHandle.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_ASSETREQUESTCOMPLETEDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F4BD5E0)
-#define FOUNDATION_ASSETREQUESTCOMPLETEDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F4BD660)
-#define FOUNDATION_ASSETREQUESTCOMPLETEDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F4BCDF0)
-#define FOUNDATION_ASSETREQUESTCOMPLETEDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4BA580)
+#define FOUNDATION_ASSETREQUESTCOMPLETEDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F37C2D0)
+#define FOUNDATION_ASSETREQUESTCOMPLETEDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F37C350)
+#define FOUNDATION_ASSETREQUESTCOMPLETEDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F37BAD0)
+#define FOUNDATION_ASSETREQUESTCOMPLETEDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F379260)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AssetRequestCompleteDel_TypeDefinitionIndex = 8172;
+	inline static constexpr unsigned int AssetRequestCompleteDel_TypeDefinitionIndex = 7845;
 
 	class AssetRequestCompleteDel : public ::System::MulticastDelegate
 	{

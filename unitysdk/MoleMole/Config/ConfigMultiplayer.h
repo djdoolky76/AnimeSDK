@@ -3,17 +3,17 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-namespace MoleMole::Config { class ConfigMultiplayer_GameplayTagSetting; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B9110A0)
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B911880)
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B911BF0)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19248800)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x19248FE0)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYER___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19249350)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMultiplayer_TypeDefinitionIndex = 61660;
+	inline static constexpr unsigned int ConfigMultiplayer_TypeDefinitionIndex = 72559;
 
 	class ConfigMultiplayer : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -22,17 +22,18 @@ namespace MoleMole::Config
 		::System::String* MPAuthorityTag; // 0x60
 		::System::String* MPNonAuthorityTag; // 0x68
 		::System::String* MPRobotTag; // 0x70
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigMultiplayer_GameplayTagSetting*>* AnimatorZoneTagWhiteDict; // 0x78
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigMultiplayer_GameplayTagSetting*>* AnimatorZoneTagBlackDict; // 0x80
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigMultiplayer_GameplayTagSetting*>* AnimatorEventTagWhiteDict; // 0x88
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigMultiplayer_GameplayTagSetting*>* AnimatorEventTagBlackDict; // 0x90
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigMultiplayer_GameplayTagSetting*>* AnimatorZoneTagHashWhiteDict; // 0x98
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigMultiplayer_GameplayTagSetting*>* AnimatorZoneTagHashBlackDict; // 0xA0
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigMultiplayer_GameplayTagSetting*>* AnimatorEventEntryTagHashWhiteDict; // 0xA8
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ConfigMultiplayer_GameplayTagSetting*>* AnimatorEventEntryTagHashBlackDict; // 0xB0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* AnimatorZoneTagWhiteDict; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* AnimatorZoneTagBlackDict; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* AnimatorEventTagWhiteDict; // 0x88
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* AnimatorEventTagBlackDict; // 0x90
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* AnimatorZoneTagHashWhiteDict; // 0x98
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* AnimatorZoneTagHashBlackDict; // 0xA0
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* AnimatorEventEntryTagHashWhiteDict; // 0xA8
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* AnimatorEventEntryTagHashBlackDict; // 0xB0
 		::System::Single MonsterDamageBreakOccupyTime; // 0xB8
 		::System::Int32 TotalReviveCount; // 0xBC
 		::System::Single AvatarOverlapDitherDistance; // 0xC0
+		::System::Byte _padding0[0x4];
 		::System::String* AvatarOverlapDitherKey; // 0xC8
 		::System::Single AvatarOverlapDitherTime; // 0xD0
 		::System::Single FeverObtainRatio; // 0xD4
@@ -41,8 +42,10 @@ namespace MoleMole::Config
 		::System::Int32 MaxPlayerResetStunCount; // 0xE0
 		::System::Single ExQTELastKillWaitTime; // 0xE4
 		::System::Int32 ParryOverrideSwitchIndex; // 0xE8
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::System::String*>* InPlaceParryZoneTags; // 0xF0
 		::System::Int32 AidAttackOpenWindowFrameCount; // 0xF8
+		::System::Byte _padding2[0x4];
 		::System::String* ParryCommonAttackAnimEventID; // 0x100
 		::System::Int32 ParrySimulateClearFrame; // 0x108
 		::System::Single InPlaceParryOverrideFadeTime; // 0x10C
@@ -53,6 +56,7 @@ namespace MoleMole::Config
 		::System::Int32 SmallAidAttackSidePositionCount; // 0x120
 		::System::Int32 MiddleAidAttackSidePositionCount; // 0x124
 		::System::Int32 LargeAidAttackSidePositionCount; // 0x128
+		::System::Byte _padding3[0x4];
 		::Il2CppArray<::System::String*>* IgnoreAidAttackPickMultPlayerPositionTags; // 0x130
 		::System::String* AvatarTagIgnoreMonsterOverridePerfectSwitchPos; // 0x138
 		::System::Int32 MPSoloSwitchMaxSwitchPositionSearchDistance; // 0x140

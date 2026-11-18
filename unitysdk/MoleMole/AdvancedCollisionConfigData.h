@@ -6,17 +6,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_ADVANCEDCOLLISIONCONFIGDATA_BUILDRUNNINGTAG_OFFSET UNITYSDK_OFFSET(0x116C60C0)
-#define MOLEMOLE_ADVANCEDCOLLISIONCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x116C61D0)
+#define MOLEMOLE_ADVANCEDCOLLISIONCONFIGDATA_BUILDRUNNINGTAG_OFFSET UNITYSDK_OFFSET(0xFA84620)
+#define MOLEMOLE_ADVANCEDCOLLISIONCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xFA84730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AdvancedCollisionConfigData_TypeDefinitionIndex = 42897;
+	inline static constexpr unsigned int AdvancedCollisionConfigData_TypeDefinitionIndex = 75964;
 
 	class AdvancedCollisionConfigData : public ::System::Object
 	{
 	public:
 		::UnityEngine::LayerMask COLLIDER_AGAINSTMASK; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* COLLIDER_IGNORETAG; // 0x18
 		::Il2CppArray<::System::String*>* TransparentCollisionTagV2; // 0x20
 		::Il2CppArray<::System::String*>* StageCollisionTagV2; // 0x28

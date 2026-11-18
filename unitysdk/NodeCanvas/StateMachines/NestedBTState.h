@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/StateMachines/FSMStateNested_1.h"
 #include "unitysdk/NodeCanvas/StateMachines/NestedBTState_BTExecutionMode.h"
 #include "unitysdk/NodeCanvas/StateMachines/NestedBTState_BTExitMode.h"
 
@@ -9,27 +8,27 @@ namespace NodeCanvas::Framework { class BBParameter; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_GET_SUBGRAPHPARAMETER_OFFSET UNITYSDK_OFFSET(0x1EBBF990)
-#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_GET_SUBGRAPH_OFFSET UNITYSDK_OFFSET(0x1EBBF8D0)
-#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_ONENTER_OFFSET UNITYSDK_OFFSET(0x1EBBF9A0)
-#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_ONEXIT_OFFSET UNITYSDK_OFFSET(0x1EBBFE60)
-#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_ONFINISH_OFFSET UNITYSDK_OFFSET(0x1EBBFDD0)
-#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EBBFCC0)
-#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_SET_SUBGRAPH_OFFSET UNITYSDK_OFFSET(0x1EBBF930)
-#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBFFF0)
+#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_GET_SUBGRAPHPARAMETER_OFFSET UNITYSDK_OFFSET(0x1EF92250)
+#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_GET_SUBGRAPH_OFFSET UNITYSDK_OFFSET(0x1EF92190)
+#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_ONENTER_OFFSET UNITYSDK_OFFSET(0x1EF92260)
+#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_ONEXIT_OFFSET UNITYSDK_OFFSET(0x1EF92720)
+#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_ONFINISH_OFFSET UNITYSDK_OFFSET(0x1EF92690)
+#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EF92580)
+#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE_SET_SUBGRAPH_OFFSET UNITYSDK_OFFSET(0x1EF921F0)
+#define NODECANVAS_STATEMACHINES_NESTEDBTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF928B0)
 
 namespace NodeCanvas::StateMachines
 {
-	inline static constexpr unsigned int NestedBTState_TypeDefinitionIndex = 30136;
+	inline static constexpr unsigned int NestedBTState_TypeDefinitionIndex = 30284;
 
-	class NestedBTState : public ::NodeCanvas::StateMachines::FSMStateNested_1<::NodeCanvas::BehaviourTrees::BehaviourTree*>
+	class NestedBTState
 	{
 	public:
 		::System::String* failureEvent; // 0x98
-		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::BehaviourTrees::BehaviourTree*>* _nestedBT; // 0xA0
-		::System::String* successEvent; // 0xA8
-		::NodeCanvas::StateMachines::NestedBTState_BTExitMode exitMode; // 0xB0
-		::NodeCanvas::StateMachines::NestedBTState_BTExecutionMode executionMode; // 0xB4
+		::System::String* successEvent; // 0xA0
+		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::BehaviourTrees::BehaviourTree*>* _nestedBT; // 0xA8
+		::NodeCanvas::StateMachines::NestedBTState_BTExecutionMode executionMode; // 0xB0
+		::NodeCanvas::StateMachines::NestedBTState_BTExitMode exitMode; // 0xB4
 
 		::System::Void _ctor()
 		{

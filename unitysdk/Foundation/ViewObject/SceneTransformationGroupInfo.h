@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_VIEWOBJECT_SCENETRANSFORMATIONGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x178A4050)
+#define FOUNDATION_VIEWOBJECT_SCENETRANSFORMATIONGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11C830E0)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int SceneTransformationGroupInfo_TypeDefinitionIndex = 85865;
+	inline static constexpr unsigned int SceneTransformationGroupInfo_TypeDefinitionIndex = 77013;
 
 	class SceneTransformationGroupInfo : public ::System::Object
 	{

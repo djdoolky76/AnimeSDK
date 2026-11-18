@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::Composites
 {
-	inline static constexpr unsigned int Vector3Composite_Mode_TypeDefinitionIndex = 32720;
+	inline static constexpr unsigned int Vector3Composite_Mode_TypeDefinitionIndex = 32169;
 
 	enum class Vector3Composite_Mode : ::System::Int32
 	{

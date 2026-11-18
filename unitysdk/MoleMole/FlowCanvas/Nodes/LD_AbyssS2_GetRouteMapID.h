@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETROUTEMAPID_INVOKE_OFFSET UNITYSDK_OFFSET(0x138398F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETROUTEMAPID__CTOR_OFFSET UNITYSDK_OFFSET(0x13839A50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETROUTEMAPID_INVOKE_OFFSET UNITYSDK_OFFSET(0x139DFEE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETROUTEMAPID__CTOR_OFFSET UNITYSDK_OFFSET(0x139E0040)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetRouteMapID_TypeDefinitionIndex = 47756;
+	inline static constexpr unsigned int LD_AbyssS2_GetRouteMapID_TypeDefinitionIndex = 46269;
 
-	class LD_AbyssS2_GetRouteMapID : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
+	class LD_AbyssS2_GetRouteMapID
 	{
 	public:
 		::System::Void _ctor()

@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_6.h"
 
-#define FLOWCANVAS_NODES_REMAPFLOAT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E6CD230)
-#define FLOWCANVAS_NODES_REMAPFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CD290)
+#define FLOWCANVAS_NODES_REMAPFLOAT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E9564B0)
+#define FLOWCANVAS_NODES_REMAPFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E956510)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int RemapFloat_TypeDefinitionIndex = 31463;
+	inline static constexpr unsigned int RemapFloat_TypeDefinitionIndex = 30288;
 
-	class RemapFloat : public ::FlowCanvas::Nodes::PureFunctionNode_6<::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single>
+	class RemapFloat
 	{
 	public:
 		::System::Void _ctor()

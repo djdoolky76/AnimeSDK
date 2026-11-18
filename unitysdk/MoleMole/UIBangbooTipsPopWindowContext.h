@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_FD0FE03F3A668D27;
+class OKNLLLIOBAA;
 
-#define MOLEMOLE_UIBANGBOOTIPSPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19701B80)
+#define MOLEMOLE_UIBANGBOOTIPSPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19FA4980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooTipsPopWindowContext_TypeDefinitionIndex = 44497;
+	inline static constexpr unsigned int UIBangbooTipsPopWindowContext_TypeDefinitionIndex = 55271;
 
 	class UIBangbooTipsPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_FD0FE03F3A668D27* skill; // 0x28
+		::OKNLLLIOBAA* skill; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -5,34 +5,34 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E3DDB0)
-#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18E3DDF0)
-#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__ONCLICKADDWISHLISTBTN_B__14_1_OFFSET UNITYSDK_OFFSET(0x18E3DE10)
-#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__ONCLICKADDWISHLISTBTN_B__14_3_OFFSET UNITYSDK_OFFSET(0x18E3DE20)
-#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__OPENBANGKOVITEMINFOFROMWISHLISTICON_B__10_1_OFFSET UNITYSDK_OFFSET(0x18E3DE00)
+#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A14EF40)
+#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A14EF80)
+#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__ONCLICKADDWISHLISTBTN_B__14_1_OFFSET UNITYSDK_OFFSET(0x1A14EFA0)
+#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__ONCLICKADDWISHLISTBTN_B__14_3_OFFSET UNITYSDK_OFFSET(0x1A14EFB0)
+#define MOLEMOLE_UIBANGKOVHANDINPOPWINDOWCONTROLLER___C__OPENBANGKOVITEMINFOFROMWISHLISTICON_B__10_1_OFFSET UNITYSDK_OFFSET(0x1A14EF90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangKovHandInPopWindowController___c_TypeDefinitionIndex = 66662;
+	inline static constexpr unsigned int UIBangKovHandInPopWindowController___c_TypeDefinitionIndex = 58007;
 
 	class UIBangKovHandInPopWindowController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__14_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangKovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x42990);
-		}
-		static ::System::Func_1<::System::Boolean>** StaticGet___9__10_1()
-		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIBangKovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x42998);
-		}
-		static ::MoleMole::UIBangKovHandInPopWindowController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIBangKovHandInPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangKovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x429A0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangKovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x48910);
 		}
 		static ::System::Action** StaticGet___9__14_3()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangKovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x429A8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangKovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x48918);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIBangKovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x48920);
+		}
+		static ::System::Func_1<::System::Boolean>** StaticGet___9__10_1()
+		{
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIBangKovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x48928);
 		}
 
 		static ::System::Void _cctor()

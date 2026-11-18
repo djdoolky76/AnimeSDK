@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SGF_SEVENT_DELEGATEINFO___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F699EF0)
-#define SGF_SEVENT_DELEGATEINFO___C__DISPLAYCLASS39_0__GUESSORIGINALTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1F699F00)
+#define SGF_SEVENT_DELEGATEINFO___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3AB7E0)
+#define SGF_SEVENT_DELEGATEINFO___C__DISPLAYCLASS39_0__GUESSORIGINALTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1F3AB7F0)
 
 namespace SGF::SEvent
 {
-	inline static constexpr unsigned int DelegateInfo___c__DisplayClass39_0_TypeDefinitionIndex = 8291;
+	inline static constexpr unsigned int DelegateInfo___c__DisplayClass39_0_TypeDefinitionIndex = 8105;
 
 	class DelegateInfo___c__DisplayClass39_0 : public ::System::Object
 	{

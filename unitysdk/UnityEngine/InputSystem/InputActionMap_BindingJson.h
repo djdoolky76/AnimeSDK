@@ -1,15 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/InputSystem/InputBinding.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_BINDINGJSON_FROMBINDING_OFFSET UNITYSDK_OFFSET(0x1F80FD30)
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_BINDINGJSON_TOBINDING_OFFSET UNITYSDK_OFFSET(0xAB5220)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_BINDINGJSON_FROMBINDING_OFFSET UNITYSDK_OFFSET(0x1FC208A0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_BINDINGJSON_TOBINDING_OFFSET UNITYSDK_OFFSET(0x99B120)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionMap_BindingJson_TypeDefinitionIndex = 32159;
+	inline static constexpr unsigned int InputActionMap_BindingJson_TypeDefinitionIndex = 31608;
 
 	struct alignas(8) InputActionMap_BindingJson
 	{
@@ -23,12 +24,10 @@ namespace UnityEngine::InputSystem
 		::System::Boolean isComposite; // 0x48
 		::System::Boolean isPartOfComposite; // 0x49
 
-		/*
 		::UnityEngine::InputSystem::InputBinding ToBinding()
 		{
 			return ((::UnityEngine::InputSystem::InputBinding(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_BINDINGJSON_TOBINDING_OFFSET))(this);
 		}
-		*/
 
 		/*
 		static ::UnityEngine::InputSystem::InputActionMap_BindingJson FromBinding(::UnityEngine::InputSystem::InputBinding& binding)

@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/System/Net/AuthenticationSchemes.h"
+#include "unitysdk/System/MulticastDelegate.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net { class HttpListenerRequest; }
 
-#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D61FFE0)
-#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D620010)
-#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D61FAC0)
-#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D61FAA0)
+#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DAE49B0)
+#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DAE49E0)
+#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DAE4490)
+#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE4480)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int AuthenticationSchemeSelector_TypeDefinitionIndex = 3263;
+	inline static constexpr unsigned int AuthenticationSchemeSelector_TypeDefinitionIndex = 3262;
 
 	class AuthenticationSchemeSelector : public ::System::MulticastDelegate
 	{

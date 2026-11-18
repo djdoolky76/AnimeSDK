@@ -3,13 +3,13 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageTimeEventType_TypeDefinitionIndex = 42705;
+	inline static constexpr unsigned int MontageTimeEventType_TypeDefinitionIndex = 66161;
 
 	enum class MontageTimeEventType : ::System::Byte
 	{
-		Length = 0x3,
-		Enter = 0x1,
-		Exit = 0x2,
-		Tick = 0x0,
+		Exit = 2,
+		Length = 3,
+		Tick = 0,
+		Enter = 1,
 	};
 }

@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class ICODLBAPEGH_FCFFBABHPBJ;
+class MMCKPLNGLAK;
+class NNOCGNKOIHP;
+namespace DG::Tweening { class TweenCallback; }
+
+#define NNOCGNKOIHP_GMBMGONOKKH_AHMPCEDHFEK_OFFSET UNITYSDK_OFFSET(0x11F8CBC0)
+#define NNOCGNKOIHP_GMBMGONOKKH_KCCNPCADFOL_OFFSET UNITYSDK_OFFSET(0x11F8CF70)
+#define NNOCGNKOIHP_GMBMGONOKKH_LEDKOFNMPDE_OFFSET UNITYSDK_OFFSET(0x11F8CE30)
+#define NNOCGNKOIHP_GMBMGONOKKH_LHMHMBLKMIJ_OFFSET UNITYSDK_OFFSET(0x11F8BA50)
+#define NNOCGNKOIHP_GMBMGONOKKH_MFOOBFBLPIH_OFFSET UNITYSDK_OFFSET(0x11F8C810)
+#define NNOCGNKOIHP_GMBMGONOKKH_MNLGIBKJDKM_OFFSET UNITYSDK_OFFSET(0x11F8C950)
+#define NNOCGNKOIHP_GMBMGONOKKH__CTOR_OFFSET UNITYSDK_OFFSET(0x11F8BA40)
+
+inline static constexpr unsigned int NNOCGNKOIHP_GMBMGONOKKH_TypeDefinitionIndex = 79146;
+
+class NNOCGNKOIHP_GMBMGONOKKH : public ::System::Object
+{
+public:
+	::DG::Tweening::TweenCallback* FFMGICPLKFB; // 0x10
+	::DG::Tweening::TweenCallback* MNMDKBDFAFE; // 0x18
+	::MMCKPLNGLAK* DFMKILICPFB; // 0x20
+	::DG::Tweening::TweenCallback* KAKAEMACNPB; // 0x28
+	::ICODLBAPEGH_FCFFBABHPBJ* LPODLKGNAIN; // 0x30
+	::DG::Tweening::TweenCallback* DLMJCFBENGB; // 0x38
+	::NNOCGNKOIHP* KLHPEBKNIFB; // 0x40
+	::DG::Tweening::TweenCallback* OLDCEOGKOAE; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNOCGNKOIHP_GMBMGONOKKH__CTOR_OFFSET))(this);
+	}
+
+	::System::Void LHMHMBLKMIJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNOCGNKOIHP_GMBMGONOKKH_LHMHMBLKMIJ_OFFSET))(this);
+	}
+
+	::System::Void MFOOBFBLPIH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNOCGNKOIHP_GMBMGONOKKH_MFOOBFBLPIH_OFFSET))(this);
+	}
+
+	::System::Void MNLGIBKJDKM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNOCGNKOIHP_GMBMGONOKKH_MNLGIBKJDKM_OFFSET))(this);
+	}
+
+	::System::Void AHMPCEDHFEK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNOCGNKOIHP_GMBMGONOKKH_AHMPCEDHFEK_OFFSET))(this);
+	}
+
+	::System::Void LEDKOFNMPDE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNOCGNKOIHP_GMBMGONOKKH_LEDKOFNMPDE_OFFSET))(this);
+	}
+
+	::System::Void KCCNPCADFOL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNOCGNKOIHP_GMBMGONOKKH_KCCNPCADFOL_OFFSET))(this);
+	}
+};

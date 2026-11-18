@@ -8,36 +8,36 @@
 namespace MoleMole::Config { class ScreenEffectBool; }
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETDOWNSCALEFACTOR_OFFSET UNITYSDK_OFFSET(0x1B7EA0E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETEFFECTRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1B7EA3E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETFORCEACTIVE_OFFSET UNITYSDK_OFFSET(0x1B7EA2E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETFORCEDISTORTIONONLOWPLATFORM_OFFSET UNITYSDK_OFFSET(0x1B7EA360)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0x1B7EA150)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETRGBSHIFT_OFFSET UNITYSDK_OFFSET(0x1B7EA1D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETSEPARATERGBINTENSITY_OFFSET UNITYSDK_OFFSET(0x1B7EA260)
-#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EA450)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETDOWNSCALEFACTOR_OFFSET UNITYSDK_OFFSET(0x1929C120)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETEFFECTRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1929C420)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETFORCEACTIVE_OFFSET UNITYSDK_OFFSET(0x1929C320)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETFORCEDISTORTIONONLOWPLATFORM_OFFSET UNITYSDK_OFFSET(0x1929C3A0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETINTENSITY_OFFSET UNITYSDK_OFFSET(0x1929C190)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETRGBSHIFT_OFFSET UNITYSDK_OFFSET(0x1929C210)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT_GETSEPARATERGBINTENSITY_OFFSET UNITYSDK_OFFSET(0x1929C2A0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYDISTORTIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1929C490)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityDistortionEffect_TypeDefinitionIndex = 69538;
+	inline static constexpr unsigned int ConfigEntityDistortionEffect_TypeDefinitionIndex = 91537;
 
 	class ConfigEntityDistortionEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectBool* forceActive; // 0x40
+		::MoleMole::Config::ScreenEffectFloat* separateRGBIntensity; // 0x40
 		::MoleMole::Config::ScreenEffectFloat* intensity; // 0x48
 		::MoleMole::Config::ScreenEffectBool* forceDistortionOnLowPlatform; // 0x50
-		::MoleMole::Config::ScreenEffectFloat* separateRGBIntensity; // 0x58
-		::MoleMole::Config::ScreenEffectFieldHandleType separateRGBIntensityHandleType; // 0x60
-		::UnityEngine::NAPRenderPipeline0::DistortionQueueType effectRenderQueue; // 0x64
-		::UnityEngine::Vector3 rgbShift; // 0x68
-		::MoleMole::Config::ScreenEffectFieldHandleType intensityHandleType; // 0x74
-		::System::Int32 downScaleFactor; // 0x78
-		::MoleMole::Config::ScreenEffectFieldHandleType forceDistortionOnLowPlatformHandleType; // 0x7C
-		::MoleMole::Config::ScreenEffectFieldHandleType downScaleFactorHandleType; // 0x80
-		::MoleMole::Config::ScreenEffectFieldHandleType forceActiveHandleType; // 0x84
-		::MoleMole::Config::ScreenEffectFieldHandleType rgbShiftHandleType; // 0x88
-		::MoleMole::Config::ScreenEffectFieldHandleType effectRenderQueueHandleType; // 0x8C
+		::MoleMole::Config::ScreenEffectBool* forceActive; // 0x58
+		::UnityEngine::Vector3 rgbShift; // 0x60
+		::MoleMole::Config::ScreenEffectFieldHandleType intensityHandleType; // 0x6C
+		::MoleMole::Config::ScreenEffectFieldHandleType rgbShiftHandleType; // 0x70
+		::System::Int32 downScaleFactor; // 0x74
+		::MoleMole::Config::ScreenEffectFieldHandleType effectRenderQueueHandleType; // 0x78
+		::MoleMole::Config::ScreenEffectFieldHandleType separateRGBIntensityHandleType; // 0x7C
+		::UnityEngine::NAPRenderPipeline0::DistortionQueueType effectRenderQueue; // 0x80
+		::MoleMole::Config::ScreenEffectFieldHandleType forceDistortionOnLowPlatformHandleType; // 0x84
+		::MoleMole::Config::ScreenEffectFieldHandleType forceActiveHandleType; // 0x88
+		::MoleMole::Config::ScreenEffectFieldHandleType downScaleFactorHandleType; // 0x8C
 
 		::System::Void _ctor()
 		{

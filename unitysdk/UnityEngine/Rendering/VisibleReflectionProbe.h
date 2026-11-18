@@ -8,13 +8,13 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_VISIBLEREFLECTIONPROBE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA41970)
-#define UNITYENGINE_RENDERING_VISIBLEREFLECTIONPROBE_EQUALS_OFFSET UNITYSDK_OFFSET(0xA41930)
-#define UNITYENGINE_RENDERING_VISIBLEREFLECTIONPROBE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA419F0)
+#define UNITYENGINE_RENDERING_VISIBLEREFLECTIONPROBE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x91EE00)
+#define UNITYENGINE_RENDERING_VISIBLEREFLECTIONPROBE_EQUALS_OFFSET UNITYSDK_OFFSET(0x91EDC0)
+#define UNITYENGINE_RENDERING_VISIBLEREFLECTIONPROBE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x91EE80)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VisibleReflectionProbe_TypeDefinitionIndex = 6276;
+	inline static constexpr unsigned int VisibleReflectionProbe_TypeDefinitionIndex = 6291;
 
 	struct alignas(4) VisibleReflectionProbe
 	{
@@ -28,10 +28,12 @@ namespace UnityEngine::Rendering
 		::System::Int32 m_InstanceId; // 0x90
 		::System::Int32 m_TextureId; // 0x94
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::VisibleReflectionProbe other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::VisibleReflectionProbe))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VISIBLEREFLECTIONPROBE_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{

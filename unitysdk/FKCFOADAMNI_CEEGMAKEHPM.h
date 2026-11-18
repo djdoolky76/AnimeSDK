@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BHBOJCCMJBE;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define FKCFOADAMNI_CEEGMAKEHPM_BJACDBGDNBJ_OFFSET UNITYSDK_OFFSET(0x11C57330)
+#define FKCFOADAMNI_CEEGMAKEHPM_EGLFJAEDAOH_OFFSET UNITYSDK_OFFSET(0x11C57180)
+#define FKCFOADAMNI_CEEGMAKEHPM_IMENEJJLBIF_OFFSET UNITYSDK_OFFSET(0x11C56FB0)
+#define FKCFOADAMNI_CEEGMAKEHPM_KJGFHDAMHGO_OFFSET UNITYSDK_OFFSET(0x11C570A0)
+#define FKCFOADAMNI_CEEGMAKEHPM_LJHFBDOKFKC_OFFSET UNITYSDK_OFFSET(0x11C57270)
+#define FKCFOADAMNI_CEEGMAKEHPM_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x11C57480)
+#define FKCFOADAMNI_CEEGMAKEHPM__CTOR_OFFSET UNITYSDK_OFFSET(0x11C56E80)
+
+inline static constexpr unsigned int FKCFOADAMNI_CEEGMAKEHPM_TypeDefinitionIndex = 76370;
+
+class FKCFOADAMNI_CEEGMAKEHPM : public ::System::Object
+{
+public:
+	// static const ::System::Int32 APGCIJBFJEA = 0x6; // 0x0
+	::System::Collections::Generic::List_1<::BHBOJCCMJBE*>* AKEBFPFCICF; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FKCFOADAMNI_CEEGMAKEHPM__CTOR_OFFSET))(this);
+	}
+
+	::System::Void IMENEJJLBIF(::System::Int32 HPEMFJDOAKL)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FKCFOADAMNI_CEEGMAKEHPM_IMENEJJLBIF_OFFSET))(this, HPEMFJDOAKL);
+	}
+
+	::System::Object* KJGFHDAMHGO()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + FKCFOADAMNI_CEEGMAKEHPM_KJGFHDAMHGO_OFFSET))(this);
+	}
+
+	::System::Void EGLFJAEDAOH(::System::Int32 HPEMFJDOAKL, ::BHBOJCCMJBE* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::BHBOJCCMJBE*))((::PBYTE)hIl2Cpp + FKCFOADAMNI_CEEGMAKEHPM_EGLFJAEDAOH_OFFSET))(this, HPEMFJDOAKL, LJBPECKCCEA);
+	}
+
+	::BHBOJCCMJBE* LJHFBDOKFKC(::System::Int32 HPEMFJDOAKL)
+	{
+		return ((::BHBOJCCMJBE*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FKCFOADAMNI_CEEGMAKEHPM_LJHFBDOKFKC_OFFSET))(this, HPEMFJDOAKL);
+	}
+
+	::System::Int32 BJACDBGDNBJ()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + FKCFOADAMNI_CEEGMAKEHPM_BJACDBGDNBJ_OFFSET))(this);
+	}
+
+	::System::Void NPOLNFDBOOD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FKCFOADAMNI_CEEGMAKEHPM_NPOLNFDBOOD_OFFSET))(this);
+	}
+};

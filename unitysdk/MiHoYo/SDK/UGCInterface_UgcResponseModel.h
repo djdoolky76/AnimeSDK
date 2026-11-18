@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UGCINTERFACE_UGCRESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D284AE0)
+#define MIHOYO_SDK_UGCINTERFACE_UGCRESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA61090)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface_UgcResponseModel_TypeDefinitionIndex = 37479;
+	inline static constexpr unsigned int UGCInterface_UgcResponseModel_TypeDefinitionIndex = 35457;
 
 	class UGCInterface_UgcResponseModel : public ::System::Object
 	{

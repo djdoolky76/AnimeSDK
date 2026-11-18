@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_BONEWEIGHTDATAFORMESH_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0xAB6BF0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_BONEWEIGHTDATAFORMESH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAB6BF0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_BONEWEIGHTDATAFORMESH_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x99D490)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_BONEWEIGHTDATAFORMESH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x99D490)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombinerSingle_BoneWeightDataForMesh_TypeDefinitionIndex = 94568;
+	inline static constexpr unsigned int MB3_MeshCombinerSingle_BoneWeightDataForMesh_TypeDefinitionIndex = 96255;
 
 	struct alignas(8) MB3_MeshCombinerSingle_BoneWeightDataForMesh
 	{
 		::System::Boolean _disposed; // 0x10
 		::System::Boolean initialized; // 0x11
 		::System::Boolean weMustDispose; // 0x12
+		::System::Byte _padding0[0x5];
 		::Il2CppArray<::System::Boolean>* UsedBoneIdxsInSrcMesh; // 0x18
 		::System::Int32 numUsedbones; // 0x20
 

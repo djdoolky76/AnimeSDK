@@ -4,19 +4,19 @@
 
 namespace FlowCanvas::Nodes { class PureReflectionConstructorNode; }
 
-#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E536850)
-#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE___C__DISPLAYCLASS8_0__REGISTEROUTPUT_B__0_OFFSET UNITYSDK_OFFSET(0x1E536860)
+#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AA8C0)
+#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE___C__DISPLAYCLASS8_0__REGISTEROUTPUT_B__0_OFFSET UNITYSDK_OFFSET(0x1E7AA8D0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PureReflectionConstructorNode___c__DisplayClass8_0_TypeDefinitionIndex = 31286;
+	inline static constexpr unsigned int PureReflectionConstructorNode___c__DisplayClass8_0_TypeDefinitionIndex = 30886;
 
 	class PureReflectionConstructorNode___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
 		::FlowCanvas::Nodes::PureReflectionConstructorNode* __4__this; // 0x10
-		::System::Boolean callable; // 0x18
-		::System::Int32 idx; // 0x1C
+		::System::Int32 idx; // 0x18
+		::System::Boolean callable; // 0x1C
 
 		::System::Void _ctor()
 		{

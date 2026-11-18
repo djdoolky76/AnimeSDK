@@ -6,11 +6,11 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18827CD0)
+#define MOLEMOLE_UIHANDBOOKBANGBOOMICROWEBITEMROWWIDGETCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1838E430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookBangbooMicroWebItemRowWidgetController_PanelData_TypeDefinitionIndex = 45295;
+	inline static constexpr unsigned int UIHandBookBangbooMicroWebItemRowWidgetController_PanelData_TypeDefinitionIndex = 69865;
 
 	class UIHandBookBangbooMicroWebItemRowWidgetController_PanelData : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace MoleMole
 		::System::String* IconPath; // 0x10
 		::System::Action* OnTrack; // 0x18
 		::System::String* TitleKey; // 0x20
-		::Share::ENotificationBadgeType RedSignKey; // 0x28
-		::System::Int32 Max; // 0x2C
-		::System::Int32 ItemId; // 0x30
+		::System::Int32 ItemId; // 0x28
+		::Share::ENotificationBadgeType RedSignKey; // 0x2C
+		::System::Int32 Max; // 0x30
 		::System::Int32 Current; // 0x34
 
 		::System::Void _ctor()

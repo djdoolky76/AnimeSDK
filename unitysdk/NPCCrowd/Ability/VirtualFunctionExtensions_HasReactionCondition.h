@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/NPCCrowd/Ability/HasReactionCondition.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/System/Object.h"
-#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_HASREACTIONCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x157ABCD0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_HASREACTIONCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x157ABE10)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_HASREACTIONCONDITION_LINK_OFFSET UNITYSDK_OFFSET(0x157ABDA0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_HASREACTIONCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x157ABEA0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_HASREACTIONCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x10DB5B50)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_HASREACTIONCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x10DB5C90)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_HASREACTIONCONDITION_LINK_OFFSET UNITYSDK_OFFSET(0x10DB5C20)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_HASREACTIONCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x10DB5D20)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_HasReactionCondition_TypeDefinitionIndex = 75589;
+	inline static constexpr unsigned int VirtualFunctionExtensions_HasReactionCondition_TypeDefinitionIndex = 41608;
 
 	class VirtualFunctionExtensions_HasReactionCondition : public ::System::Object
 	{

@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooMicroWebPictureBookPopWindowController_PictureBookRowPendingAnim_TypeDefinitionIndex = 80384;
+	inline static constexpr unsigned int UIBangbooMicroWebPictureBookPopWindowController_PictureBookRowPendingAnim_TypeDefinitionIndex = 51605;
 
 	struct alignas(4) UIBangbooMicroWebPictureBookPopWindowController_PictureBookRowPendingAnim
 	{

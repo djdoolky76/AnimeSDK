@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define STATETREEGAMEPLAY_COMPAREVALUEFLOATCONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1D33CE00)
-#define STATETREEGAMEPLAY_COMPAREVALUEFLOATCONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D33CE10)
+#define STATETREEGAMEPLAY_COMPAREVALUEFLOATCONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1D9E3340)
+#define STATETREEGAMEPLAY_COMPAREVALUEFLOATCONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E3350)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int CompareValueFloatCondition_StructOpsTypeTraits_TypeDefinitionIndex = 50706;
+	inline static constexpr unsigned int CompareValueFloatCondition_StructOpsTypeTraits_TypeDefinitionIndex = 78299;
 
 	class CompareValueFloatCondition_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

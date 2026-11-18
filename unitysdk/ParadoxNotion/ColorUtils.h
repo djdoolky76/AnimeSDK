@@ -7,26 +7,26 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PARADOXNOTION_COLORUTILS_COLORTOHEX_OFFSET UNITYSDK_OFFSET(0x1DB3AAB0)
-#define PARADOXNOTION_COLORUTILS_GREY_OFFSET UNITYSDK_OFFSET(0x1DB3AA90)
-#define PARADOXNOTION_COLORUTILS_HEXTOCOLOR_OFFSET UNITYSDK_OFFSET(0x1DB3AD10)
-#define PARADOXNOTION_COLORUTILS_WITHALPHA_OFFSET UNITYSDK_OFFSET(0x1DB3AA80)
-#define PARADOXNOTION_COLORUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB3B060)
+#define PARADOXNOTION_COLORUTILS_COLORTOHEX_OFFSET UNITYSDK_OFFSET(0x1DEAD920)
+#define PARADOXNOTION_COLORUTILS_GREY_OFFSET UNITYSDK_OFFSET(0x1DEAD900)
+#define PARADOXNOTION_COLORUTILS_HEXTOCOLOR_OFFSET UNITYSDK_OFFSET(0x1DEADB80)
+#define PARADOXNOTION_COLORUTILS_WITHALPHA_OFFSET UNITYSDK_OFFSET(0x1DEAD8F0)
+#define PARADOXNOTION_COLORUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEADED0)
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int ColorUtils_TypeDefinitionIndex = 30000;
+	inline static constexpr unsigned int ColorUtils_TypeDefinitionIndex = 29369;
 
 	class ColorUtils : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Color32, ::System::String*>** StaticGet_colorHexCache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Color32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ColorUtils_TypeDefinitionIndex)->GetStaticField(0x26150);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Color>** StaticGet_hexColorCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(ColorUtils_TypeDefinitionIndex)->GetStaticField(0x26158);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(ColorUtils_TypeDefinitionIndex)->GetStaticField(0x27350);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Color32, ::System::String*>** StaticGet_colorHexCache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Color32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ColorUtils_TypeDefinitionIndex)->GetStaticField(0x27358);
 		}
 
 		static ::System::Void _cctor()

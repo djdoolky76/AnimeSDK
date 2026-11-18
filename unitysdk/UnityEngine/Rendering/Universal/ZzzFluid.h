@@ -1,17 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
-#include "unitysdk/UnityEngine/RenderTextureFormat.h"
-#include "unitysdk/UnityEngine/Rendering/CullingResults.h"
 #include "unitysdk/UnityEngine/Rendering/DrawingSettings.h"
 #include "unitysdk/UnityEngine/Rendering/FilteringSettings.h"
-#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/RenderTextureFormat.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
+#include "unitysdk/UnityEngine/Rendering/CullingResults.h"
+#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Material; }
@@ -24,50 +26,51 @@ namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class ForwardRendererData_FluidFXResources; }
-namespace UnityEngine::Rendering::Universal { class ZzzFluid_WindSource; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E675BD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_CHECKSOURCEMATERIALRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1E675890)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_CLEARFLUIDRENDERTARGETS_OFFSET UNITYSDK_OFFSET(0x1E678480)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_CREATEFLUIDRESOURCES_OFFSET UNITYSDK_OFFSET(0x1E675C20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_DRAWSOURCEACTOR_OFFSET UNITYSDK_OFFSET(0x1E67AEB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ENABLEFLUIDRUNTIME_OFFSET UNITYSDK_OFFSET(0x1E677B60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_GETPLANEPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x1E67B170)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_INSTANCESOURCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E675490)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1E678020)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E675290)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E675100)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x1E6753D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x1E675430)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONREALDISABLE_OFFSET UNITYSDK_OFFSET(0x1E675350)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONREALENABLE_OFFSET UNITYSDK_OFFSET(0x1E6751C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_RELEASEFLUIDRESOURCES_OFFSET UNITYSDK_OFFSET(0x1E678300)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_RESETSOURCEMATERIALRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1E6757B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_SETUPCOMMANDBUFFER_OFFSET UNITYSDK_OFFSET(0x1E679790)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_SIMULATEFLUID_OFFSET UNITYSDK_OFFSET(0x1E6796D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E678A10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E67C320)
-#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID__CTOR_OFFSET UNITYSDK_OFFSET(0x1E67C010)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E8F9710)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_CHECKSOURCEMATERIALRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1E8F93E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_CLEARFLUIDRENDERTARGETS_OFFSET UNITYSDK_OFFSET(0x1E8FBFE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_CREATEFLUIDRESOURCES_OFFSET UNITYSDK_OFFSET(0x1E8F9760)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_DRAWSOURCEACTOR_OFFSET UNITYSDK_OFFSET(0x1E8FEA20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ENABLEFLUIDRUNTIME_OFFSET UNITYSDK_OFFSET(0x1E8FB6A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_GETPLANEPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x1E8FECE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_INSTANCESOURCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E8F8FB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1E8FBB60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E8F8DB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E8F8C20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x1E8F8EF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x1E8F8F50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONREALDISABLE_OFFSET UNITYSDK_OFFSET(0x1E8F8E70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_ONREALENABLE_OFFSET UNITYSDK_OFFSET(0x1E8F8CE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_RELEASEFLUIDRESOURCES_OFFSET UNITYSDK_OFFSET(0x1E8FBE60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_RESETSOURCEMATERIALRENDERQUEUE_OFFSET UNITYSDK_OFFSET(0x1E8F9300)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_SETUPCOMMANDBUFFER_OFFSET UNITYSDK_OFFSET(0x1E8FD2F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_SIMULATEFLUID_OFFSET UNITYSDK_OFFSET(0x1E8FD230)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E8FC570)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8FFEE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_ZZZFLUID__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FFB80)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ZzzFluid_TypeDefinitionIndex = 27533;
+	inline static constexpr unsigned int ZzzFluid_TypeDefinitionIndex = 26864;
 
 	class ZzzFluid : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::UnityEngine::Mesh** StaticGet_Quad()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(ZzzFluid_TypeDefinitionIndex)->GetStaticField(0x23840);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(ZzzFluid_TypeDefinitionIndex)->GetStaticField(0x24890);
 		}
 		static ::UnityEngine::RenderTextureFormat* StaticGet_DefaultRTFormat()
 		{
-			return (::UnityEngine::RenderTextureFormat*)Il2CppClass::FromTypeDefinitionIndex(ZzzFluid_TypeDefinitionIndex)->GetStaticField(0x7100);
+			return (::UnityEngine::RenderTextureFormat*)Il2CppClass::FromTypeDefinitionIndex(ZzzFluid_TypeDefinitionIndex)->GetStaticField(0x7170);
 		}
 		// static const ::System::Int32 maxWindSource = 0xA; // 0x0
-		::Il2CppArray<::UnityEngine::Rendering::Universal::ZzzFluid_WindSource*>* windActors; // 0x18
+		::Il2CppArray<::System::Object*>* windActors; // 0x18
 		::System::Boolean useFluidSourceMaterial; // 0x20
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector2Int Resolution; // 0x24
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Material* outputMaterial; // 0x30
 		::System::Single DensityTxtMult; // 0x38
 		::System::Single FlowFeedback; // 0x3C
@@ -88,6 +91,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single _VeloAmpNoiseSize; // 0x80
 		::System::Single _VeloAmpNoiseSpeed; // 0x84
 		::System::Single _VeloDirNoise; // 0x88
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Texture2D* _VeloDirNoiseTexture; // 0x90
 		::System::Single _VeloDirNoiseSize; // 0x98
 		::System::Single _VeloDirNoiseSpeed; // 0x9C
@@ -114,25 +118,30 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::Transform* SnapTarget; // 0x128
 		::UnityEngine::Quaternion TransformOffset; // 0x130
 		::System::Int32 downSampleFactor; // 0x140
+		::System::Byte _padding3[0x4];
 		::UnityEngine::MeshFilter* MeshFilter; // 0x148
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::ZzzFluid_WindSource*>* MeshRendererWindActors; // 0x150
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::ZzzFluid_WindSource*>* ContainerWindActors; // 0x158
+		::System::Collections::Generic::List_1<::System::Object*>* MeshRendererWindActors; // 0x150
+		::System::Collections::Generic::List_1<::System::Object*>* ContainerWindActors; // 0x158
 		::System::Boolean Initialized; // 0x160
+		::System::Byte _padding4[0x3];
 		::UnityEngine::Vector3 SnapOffset; // 0x164
 		::UnityEngine::Rendering::DrawingSettings m_DrawSetting; // 0x170
 		::UnityEngine::Rendering::FilteringSettings m_FilterSettings; // 0x2A8
 		::System::Int32 m_SingleRenderIndex; // 0x2C4
 		::System::Int32 m_TargetRenderQueue; // 0x2C8
+		::System::Byte _padding5[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* m_InstancedSourceMaterials; // 0x2D0
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* m_InstancedTargetMaterials; // 0x2D8
-		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* m_InstancedSourceMaterialsRenderer; // 0x2E0
+		::System::Collections::Generic::HashSet_1<::UnityEngine::Renderer*>* m_InstancedSourceMaterialsRenderer; // 0x2E0
 		::UnityEngine::Rendering::Universal::ForwardRendererData_FluidFXResources* m_Resource; // 0x2E8
 		::System::Boolean isFirstTimeCreated; // 0x2F0
 		::System::Boolean m_ResourcesCreated; // 0x2F1
+		::System::Byte _padding6[0x2];
 		::System::Single preTime; // 0x2F4
 		::UnityEngine::Vector3 preScreenPosition; // 0x2F8
 		::UnityEngine::Vector3 preWorldPosition; // 0x304
 		::System::Boolean positionIsReady; // 0x310
+		::System::Byte _padding7[0x7];
 		::UnityEngine::Camera* targetGameCamera; // 0x318
 		::UnityEngine::MaterialPropertyBlock* addInputMatProperties; // 0x320
 		::UnityEngine::MaterialPropertyBlock* advectMatProperties; // 0x328

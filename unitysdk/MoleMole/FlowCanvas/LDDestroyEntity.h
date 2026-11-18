@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
-#include "unitysdk/MoleMole/FlowCanvas/LDDestroyEntity_DestroyEntityType.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
+namespace System { class Object; }
 
-#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B5294C0)
-#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY_REMOVESUMMONEDENTITY_OFFSET UNITYSDK_OFFSET(0x1B529CA0)
-#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY_START_OFFSET UNITYSDK_OFFSET(0x1B5295D0)
-#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52A0A0)
+#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x142F40A0)
+#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY_REMOVESUMMONEDENTITY_OFFSET UNITYSDK_OFFSET(0x142F4880)
+#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY_START_OFFSET UNITYSDK_OFFSET(0x142F41B0)
+#define MOLEMOLE_FLOWCANVAS_LDDESTROYENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x142F4C80)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int LDDestroyEntity_TypeDefinitionIndex = 40738;
+	inline static constexpr unsigned int LDDestroyEntity_TypeDefinitionIndex = 41929;
 
 	class LDDestroyEntity : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowInput* Input; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::LDDestroyEntity_DestroyEntityType>* DestroyEntityTypeInput; // 0xB0
-		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* TargetEntity; // 0xB8
-		::FlowCanvas::FlowOutput* Output; // 0xC0
+		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* TargetEntity; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Object*>* DestroyEntityTypeInput; // 0xB0
+		::FlowCanvas::FlowOutput* Output; // 0xB8
+		::FlowCanvas::FlowInput* Input; // 0xC0
 
 		::System::Void _ctor()
 		{

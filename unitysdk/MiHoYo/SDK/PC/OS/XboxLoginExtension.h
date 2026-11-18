@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXLOGINEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C5240)
+#define MIHOYO_SDK_PC_OS_XBOXLOGINEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F7C40)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxLoginExtension_TypeDefinitionIndex = 20754;
+	inline static constexpr unsigned int XboxLoginExtension_TypeDefinitionIndex = 19958;
 
 	class XboxLoginExtension : public ::System::Object
 	{
@@ -17,6 +17,7 @@ namespace MiHoYo::SDK::PC::OS
 		::System::String* gamertag; // 0x18
 		::System::String* sandboxId; // 0x20
 		::System::Boolean isStoreUser; // 0x28
+		::System::Byte _padding0[0x7];
 		::System::String* countryCode; // 0x30
 
 		::System::Void _ctor()

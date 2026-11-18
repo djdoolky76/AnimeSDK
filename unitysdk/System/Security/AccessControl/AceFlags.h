@@ -3,19 +3,19 @@
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int AceFlags_TypeDefinitionIndex = 966;
+	inline static constexpr unsigned int AceFlags_TypeDefinitionIndex = 965;
 
 	enum class AceFlags : ::System::Byte
 	{
-		None = 0x0,
-		ObjectInherit = 0x1,
-		ContainerInherit = 0x2,
-		NoPropagateInherit = 0x4,
-		InheritOnly = 0x8,
-		InheritanceFlags = 0xF,
-		Inherited = 0x10,
-		SuccessfulAccess = 0x40,
-		FailedAccess = 0x80,
-		AuditFlags = 0xC0,
+		None = 0,
+		ObjectInherit = 1,
+		ContainerInherit = 2,
+		NoPropagateInherit = 4,
+		InheritOnly = 8,
+		InheritanceFlags = 15,
+		Inherited = 16,
+		SuccessfulAccess = 64,
+		FailedAccess = 128,
+		AuditFlags = 192,
 	};
 }

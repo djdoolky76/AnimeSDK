@@ -1,16 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/InputSystem/Layouts/InputDeviceMatcher_MatcherJson_Capability.h"
+#include "unitysdk/UnityEngine/InputSystem/Layouts/InputDeviceMatcher.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEMATCHER_MATCHERJSON_FROMMATCHER_OFFSET UNITYSDK_OFFSET(0x1EB4B2A0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEMATCHER_MATCHERJSON_TOMATCHER_OFFSET UNITYSDK_OFFSET(0xA5B8D0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEMATCHER_MATCHERJSON_FROMMATCHER_OFFSET UNITYSDK_OFFSET(0x1EEDBE20)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEMATCHER_MATCHERJSON_TOMATCHER_OFFSET UNITYSDK_OFFSET(0x93C960)
 
 namespace UnityEngine::InputSystem::Layouts
 {
-	inline static constexpr unsigned int InputDeviceMatcher_MatcherJson_TypeDefinitionIndex = 32622;
+	inline static constexpr unsigned int InputDeviceMatcher_MatcherJson_TypeDefinitionIndex = 32071;
 
 	struct alignas(8) InputDeviceMatcher_MatcherJson
 	{
@@ -24,7 +25,7 @@ namespace UnityEngine::InputSystem::Layouts
 		::Il2CppArray<::System::String*>* products; // 0x48
 		::System::String* version; // 0x50
 		::Il2CppArray<::System::String*>* versions; // 0x58
-		::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson_Capability>* capabilities; // 0x60
+		::Il2CppArray<::System::Object*>* capabilities; // 0x60
 
 		/*
 		static ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson FromMatcher(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher)
@@ -33,11 +34,9 @@ namespace UnityEngine::InputSystem::Layouts
 		}
 		*/
 
-		/*
 		::UnityEngine::InputSystem::Layouts::InputDeviceMatcher ToMatcher()
 		{
 			return ((::UnityEngine::InputSystem::Layouts::InputDeviceMatcher(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEMATCHER_MATCHERJSON_TOMATCHER_OFFSET))(this);
 		}
-		*/
 	};
 }

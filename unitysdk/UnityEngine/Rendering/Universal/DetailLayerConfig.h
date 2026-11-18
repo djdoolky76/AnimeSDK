@@ -5,16 +5,17 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_DETAILLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11098480)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DETAILLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x108BF1E0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DetailLayerConfig_TypeDefinitionIndex = 27730;
+	inline static constexpr unsigned int DetailLayerConfig_TypeDefinitionIndex = 27403;
 
 	class DetailLayerConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean EnableDetailLayer; // 0x10
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Texture2D* DetailMask; // 0x18
 		::UnityEngine::Texture2D* DetailAlbedoMap; // 0x20
 		::UnityEngine::Texture2D* DetailMREMap; // 0x28

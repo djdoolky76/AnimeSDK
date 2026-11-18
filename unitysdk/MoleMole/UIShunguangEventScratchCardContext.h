@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UISHUNGUANGEVENTSCRATCHCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18874CE0)
+#define MOLEMOLE_UISHUNGUANGEVENTSCRATCHCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18261C40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIShunguangEventScratchCardContext_TypeDefinitionIndex = 65615;
+	inline static constexpr unsigned int UIShunguangEventScratchCardContext_TypeDefinitionIndex = 70735;
 
 	class UIShunguangEventScratchCardContext : public ::MoleMole::UIControllerContextBase
 	{

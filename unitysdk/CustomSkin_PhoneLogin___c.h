@@ -4,22 +4,22 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CUSTOMSKIN_PHONELOGIN___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12F1CF20)
-#define CUSTOMSKIN_PHONELOGIN___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12F1CF60)
-#define CUSTOMSKIN_PHONELOGIN___C__SETTHIRDENTRY_B__21_0_OFFSET UNITYSDK_OFFSET(0x12F1CF70)
+#define CUSTOMSKIN_PHONELOGIN___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13E24FC0)
+#define CUSTOMSKIN_PHONELOGIN___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13E25000)
+#define CUSTOMSKIN_PHONELOGIN___C__SETTHIRDENTRY_B__21_0_OFFSET UNITYSDK_OFFSET(0x13E25010)
 
-inline static constexpr unsigned int CustomSkin_PhoneLogin___c_TypeDefinitionIndex = 42911;
+inline static constexpr unsigned int CustomSkin_PhoneLogin___c_TypeDefinitionIndex = 71935;
 
 class CustomSkin_PhoneLogin___c : public ::System::Object
 {
 public:
-	static ::CustomSkin_PhoneLogin___c** StaticGet___9()
-	{
-		return (::CustomSkin_PhoneLogin___c**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_PhoneLogin___c_TypeDefinitionIndex)->GetStaticField(0x51390);
-	}
 	static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__21_0()
 	{
-		return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_PhoneLogin___c_TypeDefinitionIndex)->GetStaticField(0x51398);
+		return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_PhoneLogin___c_TypeDefinitionIndex)->GetStaticField(0x4E240);
+	}
+	static ::System::Object** StaticGet___9()
+	{
+		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_PhoneLogin___c_TypeDefinitionIndex)->GetStaticField(0x4E248);
 	}
 
 	static ::System::Void _cctor()

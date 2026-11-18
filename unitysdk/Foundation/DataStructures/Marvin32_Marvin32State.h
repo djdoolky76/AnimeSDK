@@ -4,7 +4,7 @@
 
 namespace Foundation::DataStructures
 {
-	inline static constexpr unsigned int Marvin32_Marvin32State_TypeDefinitionIndex = 8370;
+	inline static constexpr unsigned int Marvin32_Marvin32State_TypeDefinitionIndex = 8529;
 
 	struct alignas(4) Marvin32_Marvin32State
 	{

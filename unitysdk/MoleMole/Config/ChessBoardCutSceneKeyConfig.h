@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CHESSBOARDCUTSCENEKEYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16257AF0)
+#define MOLEMOLE_CONFIG_CHESSBOARDCUTSCENEKEYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B11D30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessBoardCutSceneKeyConfig_TypeDefinitionIndex = 80733;
+	inline static constexpr unsigned int ChessBoardCutSceneKeyConfig_TypeDefinitionIndex = 70152;
 
 	class ChessBoardCutSceneKeyConfig : public ::System::Object
 	{
 	public:
-		::System::String* NomalSizeCameraShotKey; // 0x10
-		::System::String* MediumSizeCameraShotKey; // 0x18
-		::System::String* LargeSizeCameraShotKey; // 0x20
+		::System::String* MediumSizeCameraShotKey; // 0x10
+		::System::String* LargeSizeCameraShotKey; // 0x18
+		::System::String* NomalSizeCameraShotKey; // 0x20
 
 		::System::Void _ctor()
 		{

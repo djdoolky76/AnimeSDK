@@ -1,0 +1,106 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PBJOCICFNGK.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+
+class FGCOIBFFCHB;
+class IOOIHHOJOPI;
+namespace System { class Object; }
+namespace UnityEngine { class RectTransform; }
+template <typename T> class LJHFMILANJA_1;
+
+#define BDIKEHFOFOO_AHKJIBLLBEP_OFFSET UNITYSDK_OFFSET(0x18666910)
+#define BDIKEHFOFOO_AIKKFELBIEF_OFFSET UNITYSDK_OFFSET(0x18666850)
+#define BDIKEHFOFOO_BEGMNCEOIEA_OFFSET UNITYSDK_OFFSET(0x186669C0)
+#define BDIKEHFOFOO_CJBFCLMFDOM_OFFSET UNITYSDK_OFFSET(0x18666830)
+#define BDIKEHFOFOO_CLPCKPEBPEN_OFFSET UNITYSDK_OFFSET(0x18666900)
+#define BDIKEHFOFOO_EJMLADDEHAE_OFFSET UNITYSDK_OFFSET(0x186663F0)
+#define BDIKEHFOFOO_GFBJLHMNBAD_OFFSET UNITYSDK_OFFSET(0x18666920)
+#define BDIKEHFOFOO_IIKDJHLGGIL_OFFSET UNITYSDK_OFFSET(0x186668F0)
+#define BDIKEHFOFOO_KJGBKAFMBMJ_OFFSET UNITYSDK_OFFSET(0x18666840)
+#define BDIKEHFOFOO_LKNBCFOKJLO_OFFSET UNITYSDK_OFFSET(0x18666930)
+#define BDIKEHFOFOO_MOKINDNACHI_OFFSET UNITYSDK_OFFSET(0x18666720)
+#define BDIKEHFOFOO_NPKBDILPMHJ_OFFSET UNITYSDK_OFFSET(0x18666860)
+#define BDIKEHFOFOO_PILPKINFMBA_OFFSET UNITYSDK_OFFSET(0x186667A0)
+#define BDIKEHFOFOO__CTOR_OFFSET UNITYSDK_OFFSET(0x186667E0)
+
+inline static constexpr unsigned int BDIKEHFOFOO_TypeDefinitionIndex = 86148;
+
+class BDIKEHFOFOO : public ::PBJOCICFNGK
+{
+public:
+	::UnityEngine::RectTransform* _DEJNOJBAFDE_k__BackingField; // 0x50
+	::LJHFMILANJA_1<::System::Object*>* _NFMCJBAAGIF_k__BackingField; // 0x58
+	::FGCOIBFFCHB* _HHLFJGCELBG_k__BackingField; // 0x60
+	::FGCOIBFFCHB* _EFNNIBKFJEL_k__BackingField; // 0x68
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDIKEHFOFOO__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EJMLADDEHAE(::LIBOIKJGAIH& EIEOJFEPMAB, ::IOOIHHOJOPI* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::IOOIHHOJOPI*))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_EJMLADDEHAE_OFFSET))(this, EIEOJFEPMAB, IOKOLJDCKPN);
+	}
+
+	::System::Void MOKINDNACHI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_MOKINDNACHI_OFFSET))(this);
+	}
+
+	::System::Void PILPKINFMBA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_PILPKINFMBA_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* CJBFCLMFDOM()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_CJBFCLMFDOM_OFFSET))(this);
+	}
+
+	::FGCOIBFFCHB* KJGBKAFMBMJ()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_KJGBKAFMBMJ_OFFSET))(this);
+	}
+
+	::System::Void AIKKFELBIEF(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_AIKKFELBIEF_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void NPKBDILPMHJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_NPKBDILPMHJ_OFFSET))(this);
+	}
+
+	::System::Void IIKDJHLGGIL(::UnityEngine::RectTransform* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_IIKDJHLGGIL_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void CLPCKPEBPEN(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_CLPCKPEBPEN_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::FGCOIBFFCHB* AHKJIBLLBEP()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_AHKJIBLLBEP_OFFSET))(this);
+	}
+
+	::LJHFMILANJA_1<::System::Object*>* GFBJLHMNBAD()
+	{
+		return ((::LJHFMILANJA_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_GFBJLHMNBAD_OFFSET))(this);
+	}
+
+	::System::Void LKNBCFOKJLO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_LKNBCFOKJLO_OFFSET))(this);
+	}
+
+	::System::Void BEGMNCEOIEA(::LJHFMILANJA_1<::System::Object*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::System::Object*>*))((::PBYTE)hIl2Cpp + BDIKEHFOFOO_BEGMNCEOIEA_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

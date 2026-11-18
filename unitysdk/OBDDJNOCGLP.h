@@ -1,0 +1,174 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IHNCCABJGPA.h"
+#include "unitysdk/KOLFGAALPJM.h"
+#include "unitysdk/MFEIKFOLILJ.h"
+
+class EIMGMBNCJON;
+class KOHPAOOBMGD;
+class OMKHOPABFDJ;
+class PPPHCHDBPKE;
+namespace System { class Object; }
+namespace System { class String; }
+template <typename T1, typename T2> class ELKFEFPPPFL_2;
+
+#define OBDDJNOCGLP_AGNKHOHENBD_OFFSET UNITYSDK_OFFSET(0x1C5E0080)
+#define OBDDJNOCGLP_BEDJGLFPODG_OFFSET UNITYSDK_OFFSET(0x1C5E0010)
+#define OBDDJNOCGLP_BODOFCJDMIC_OFFSET UNITYSDK_OFFSET(0x1C5DFE70)
+#define OBDDJNOCGLP_CFKMCNAGCJE_OFFSET UNITYSDK_OFFSET(0x1C5E0070)
+#define OBDDJNOCGLP_CNEDMCLLNHA_OFFSET UNITYSDK_OFFSET(0x1C5DFE50)
+#define OBDDJNOCGLP_DEJBOKDOGCD_OFFSET UNITYSDK_OFFSET(0x1C5DFEA0)
+#define OBDDJNOCGLP_DGNAAPGKIPL_OFFSET UNITYSDK_OFFSET(0x1C5DFB60)
+#define OBDDJNOCGLP_DKHALDDAFFC_OFFSET UNITYSDK_OFFSET(0x1C5DFAF0)
+#define OBDDJNOCGLP_EFGBEHCBDNI_OFFSET UNITYSDK_OFFSET(0x1C5DFE60)
+#define OBDDJNOCGLP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1C5DFCE0)
+#define OBDDJNOCGLP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C5DFC60)
+#define OBDDJNOCGLP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C5DFD20)
+#define OBDDJNOCGLP_GIALDDHFBLF_OFFSET UNITYSDK_OFFSET(0x1C5DFC00)
+#define OBDDJNOCGLP_HBDBJDANMLP_OFFSET UNITYSDK_OFFSET(0x1C5DFB00)
+#define OBDDJNOCGLP_JKELAOKCLJP_OFFSET UNITYSDK_OFFSET(0x1C5DFDE0)
+#define OBDDJNOCGLP_LEHECPACPJD_OFFSET UNITYSDK_OFFSET(0x1C5E0000)
+#define OBDDJNOCGLP_METHOD_19_OFFSET UNITYSDK_OFFSET(0x1C5DFFC0)
+#define OBDDJNOCGLP_MNGHBPNCMPK_OFFSET UNITYSDK_OFFSET(0x1C5DFDD0)
+#define OBDDJNOCGLP_NNMIABKFEOJ_1_OFFSET UNITYSDK_OFFSET(0x1C5DFE20)
+#define OBDDJNOCGLP_NNMIABKFEOJ_OFFSET UNITYSDK_OFFSET(0x1C5DFDF0)
+#define OBDDJNOCGLP_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x1C5DFE80)
+#define OBDDJNOCGLP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C5DFD50)
+#define OBDDJNOCGLP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5DFEE0)
+#define OBDDJNOCGLP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5DFB10)
+
+inline static constexpr unsigned int OBDDJNOCGLP_TypeDefinitionIndex = 23543;
+
+class OBDDJNOCGLP : public ::IHNCCABJGPA
+{
+public:
+	static ::System::Object** StaticGet_CFICOGLALNP()
+	{
+		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(OBDDJNOCGLP_TypeDefinitionIndex)->GetStaticField(0x106B0);
+	}
+	static ::KOHPAOOBMGD** StaticGet_ELKODHCMHMN()
+	{
+		return (::KOHPAOOBMGD**)Il2CppClass::FromTypeDefinitionIndex(OBDDJNOCGLP_TypeDefinitionIndex)->GetStaticField(0x106B8);
+	}
+	::ELKFEFPPPFL_2<::System::Int32, ::System::Int32>* DNFFNELAPKA; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBDDJNOCGLP__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + OBDDJNOCGLP__CCTOR_OFFSET))();
+	}
+
+	::System::UInt16 DKHALDDAFFC()
+	{
+		return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_DKHALDDAFFC_OFFSET))(this);
+	}
+
+	::EIMGMBNCJON* HBDBJDANMLP()
+	{
+		return ((::EIMGMBNCJON*(*)(::PVOID))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_HBDBJDANMLP_OFFSET))(this);
+	}
+
+	::OBDDJNOCGLP* DGNAAPGKIPL()
+	{
+		return ((::OBDDJNOCGLP*(*)(::PVOID))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_DGNAAPGKIPL_OFFSET))(this);
+	}
+
+	::System::Boolean Equals(::System::Object* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_EQUALS_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Boolean Equals_1(::OBDDJNOCGLP* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::OBDDJNOCGLP*))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_EQUALS_1_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_GETHASHCODE_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_TOSTRING_OFFSET))(this);
+	}
+
+	::System::Void MNGHBPNCMPK(::OMKHOPABFDJ* AJMCCOEAIFE)
+	{
+		return ((::System::Void(*)(::PVOID, ::OMKHOPABFDJ*))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_MNGHBPNCMPK_OFFSET))(this, AJMCCOEAIFE);
+	}
+
+	::System::Int32 JKELAOKCLJP()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_JKELAOKCLJP_OFFSET))(this);
+	}
+
+	::System::Void NNMIABKFEOJ(::OBDDJNOCGLP* LIBPKNHDIGP)
+	{
+		return ((::System::Void(*)(::PVOID, ::OBDDJNOCGLP*))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_NNMIABKFEOJ_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Void NNMIABKFEOJ_1(::PPPHCHDBPKE* HLFFCMIFFIB)
+	{
+		return ((::System::Void(*)(::PVOID, ::PPPHCHDBPKE*))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_NNMIABKFEOJ_1_OFFSET))(this, HLFFCMIFFIB);
+	}
+
+	::System::Void CNEDMCLLNHA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_CNEDMCLLNHA_OFFSET))(this);
+	}
+
+	::System::Void EFGBEHCBDNI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_EFGBEHCBDNI_OFFSET))(this);
+	}
+
+	::System::Void BODOFCJDMIC(::System::Boolean EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_BODOFCJDMIC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void NPOLNFDBOOD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_NPOLNFDBOOD_OFFSET))(this);
+	}
+
+	::System::Void DEJBOKDOGCD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_DEJBOKDOGCD_OFFSET))(this);
+	}
+
+	::System::Void GIALDDHFBLF(::OBDDJNOCGLP* LIBPKNHDIGP)
+	{
+		return ((::System::Void(*)(::PVOID, ::OBDDJNOCGLP*))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_GIALDDHFBLF_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	static ::OBDDJNOCGLP* Method_19()
+	{
+		return ((::OBDDJNOCGLP*(*)())((::PBYTE)hIl2Cpp + OBDDJNOCGLP_METHOD_19_OFFSET))();
+	}
+
+	::System::Void LEHECPACPJD(::KOLFGAALPJM& AJMCCOEAIFE)
+	{
+		return ((::System::Void(*)(::PVOID, ::KOLFGAALPJM&))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_LEHECPACPJD_OFFSET))(this, AJMCCOEAIFE);
+	}
+
+	static ::KOHPAOOBMGD* BEDJGLFPODG()
+	{
+		return ((::KOHPAOOBMGD*(*)())((::PBYTE)hIl2Cpp + OBDDJNOCGLP_BEDJGLFPODG_OFFSET))();
+	}
+
+	::ELKFEFPPPFL_2<::System::Int32, ::System::Int32>* CFKMCNAGCJE()
+	{
+		return ((::ELKFEFPPPFL_2<::System::Int32, ::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_CFKMCNAGCJE_OFFSET))(this);
+	}
+
+	::System::Void AGNKHOHENBD(::MFEIKFOLILJ& HLFFCMIFFIB)
+	{
+		return ((::System::Void(*)(::PVOID, ::MFEIKFOLILJ&))((::PBYTE)hIl2Cpp + OBDDJNOCGLP_AGNKHOHENBD_OFFSET))(this, HLFFCMIFFIB);
+	}
+};

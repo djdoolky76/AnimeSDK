@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NAPRenderPipelineFlags_TypeDefinitionIndex = 5705;
+	inline static constexpr unsigned int NAPRenderPipelineFlags_TypeDefinitionIndex = 5709;
 
 	enum class NAPRenderPipelineFlags : ::System::Int32
 	{

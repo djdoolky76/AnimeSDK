@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaOptPageController_ETab_TypeDefinitionIndex = 90307;
+	inline static constexpr unsigned int UIGachaOptPageController_ETab_TypeDefinitionIndex = 74057;
 
 	enum class UIGachaOptPageController_ETab : ::System::Int32
 	{

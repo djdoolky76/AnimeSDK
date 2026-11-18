@@ -4,11 +4,11 @@
 
 namespace System::Data { class DataRow; }
 
-#define SYSTEM_DATA_DATATABLENEWROWEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1AECE0)
+#define SYSTEM_DATA_DATATABLENEWROWEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5A3330)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataTableNewRowEventArgs_TypeDefinitionIndex = 39273;
+	inline static constexpr unsigned int DataTableNewRowEventArgs_TypeDefinitionIndex = 37273;
 
 	class DataTableNewRowEventArgs : public ::System::EventArgs
 	{

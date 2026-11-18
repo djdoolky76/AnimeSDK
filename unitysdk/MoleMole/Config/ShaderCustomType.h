@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ShaderCustomType_TypeDefinitionIndex = 42859;
+	inline static constexpr unsigned int ShaderCustomType_TypeDefinitionIndex = 76063;
 
 	enum class ShaderCustomType : ::System::Int32
 	{

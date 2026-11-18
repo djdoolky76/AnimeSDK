@@ -6,14 +6,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define FLOWCANVAS_FLOWBREAK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EBB3BC0)
-#define FLOWCANVAS_FLOWBREAK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EBB3BF0)
-#define FLOWCANVAS_FLOWBREAK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EBB3930)
-#define FLOWCANVAS_FLOWBREAK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB3910)
+#define FLOWCANVAS_FLOWBREAK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF864A0)
+#define FLOWCANVAS_FLOWBREAK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF864D0)
+#define FLOWCANVAS_FLOWBREAK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF86210)
+#define FLOWCANVAS_FLOWBREAK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF86200)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowBreak_TypeDefinitionIndex = 30885;
+	inline static constexpr unsigned int FlowBreak_TypeDefinitionIndex = 29175;
 
 	class FlowBreak : public ::System::MulticastDelegate
 	{

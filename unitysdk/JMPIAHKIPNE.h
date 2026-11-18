@@ -1,0 +1,89 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JHMCKEJAHPA.h"
+#include "unitysdk/OGOALFIEBAB.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/WrapMode.h"
+#include "unitysdk/DJEFNICEMHH.h"
+#include "unitysdk/ECEGAJDPLDI.h"
+#include "unitysdk/FPCGOBDLONB_2.h"
+#include "unitysdk/IODPOEFKGOI.h"
+
+class GCIMMDDIFBJ;
+namespace System { class String; }
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class AnimationState; }
+
+#define JMPIAHKIPNE_EDEFLFIKNFK_OFFSET UNITYSDK_OFFSET(0x155AB8E0)
+#define JMPIAHKIPNE_GEJBJBLMGKD_OFFSET UNITYSDK_OFFSET(0x155AC330)
+#define JMPIAHKIPNE_HIEENMFLCEC_OFFSET UNITYSDK_OFFSET(0x155ABE10)
+#define JMPIAHKIPNE_LFAJDLJFEKG_OFFSET UNITYSDK_OFFSET(0x155ABDC0)
+#define JMPIAHKIPNE_NNJOOEOMBCF_OFFSET UNITYSDK_OFFSET(0x155AC390)
+#define JMPIAHKIPNE_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x155AB890)
+#define JMPIAHKIPNE_OOJFFGEGFON_OFFSET UNITYSDK_OFFSET(0x155ABE70)
+#define JMPIAHKIPNE_PJFPEPHIEGE_OFFSET UNITYSDK_OFFSET(0x155AC1D0)
+#define JMPIAHKIPNE__CTOR_OFFSET UNITYSDK_OFFSET(0x155AB840)
+
+inline static constexpr unsigned int JMPIAHKIPNE_TypeDefinitionIndex = 61988;
+
+class JMPIAHKIPNE : public ::System::Object
+{
+public:
+	// static const ::System::Single CEKBJBCDDFO; // 0x0
+	// static const ::System::Single ALMOKODMJHH; // 0x0
+	::GCIMMDDIFBJ* HPEFMJFCIHN; // 0x10
+	::UnityEngine::AnimationState* IPEPMJDEGIJ; // 0x18
+	::UnityEngine::Animation* IAHEBFODFAO; // 0x20
+	::System::String* JDPNALJLKLH; // 0x28
+	::System::Single GDGLBEMHMIO; // 0x30
+	::System::Boolean CPEAICHAJDA; // 0x34
+	::OGOALFIEBAB JICJNJLNJMN; // 0x35
+	::System::Boolean IANIABLHBEJ; // 0x36
+	::System::Boolean JMBPGMDOIAF; // 0x37
+	::System::Single KOHEELLANCG; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JMPIAHKIPNE__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EDEFLFIKNFK(::ECEGAJDPLDI& PLBEAIIJADM, ::IODPOEFKGOI& AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::ECEGAJDPLDI&, ::IODPOEFKGOI&))((::PBYTE)hIl2Cpp + JMPIAHKIPNE_EDEFLFIKNFK_OFFSET))(this, PLBEAIIJADM, AAOCANGHBDG);
+	}
+
+	::FPCGOBDLONB_2<::OGOALFIEBAB, ::IODPOEFKGOI> OOJFFGEGFON(::DJEFNICEMHH& GDNHHAOKLFG, ::IODPOEFKGOI& AAOCANGHBDG)
+	{
+		return ((::FPCGOBDLONB_2<::OGOALFIEBAB, ::IODPOEFKGOI>(*)(::PVOID, ::DJEFNICEMHH&, ::IODPOEFKGOI&))((::PBYTE)hIl2Cpp + JMPIAHKIPNE_OOJFFGEGFON_OFFSET))(this, GDNHHAOKLFG, AAOCANGHBDG);
+	}
+
+	::System::Void PJFPEPHIEGE(::JHMCKEJAHPA FKMHMOELCIO)
+	{
+		return ((::System::Void(*)(::PVOID, ::JHMCKEJAHPA))((::PBYTE)hIl2Cpp + JMPIAHKIPNE_PJFPEPHIEGE_OFFSET))(this, FKMHMOELCIO);
+	}
+
+	::System::Void NPOLNFDBOOD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JMPIAHKIPNE_NPOLNFDBOOD_OFFSET))(this);
+	}
+
+	::System::Void GEJBJBLMGKD(::ECEGAJDPLDI& PLBEAIIJADM, ::IODPOEFKGOI& AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::ECEGAJDPLDI&, ::IODPOEFKGOI&))((::PBYTE)hIl2Cpp + JMPIAHKIPNE_GEJBJBLMGKD_OFFSET))(this, PLBEAIIJADM, AAOCANGHBDG);
+	}
+
+	static ::System::Boolean HIEENMFLCEC(::UnityEngine::WrapMode HOPCBOGOOBI, ::UnityEngine::WrapMode JNODGLDIIIP)
+	{
+		return ((::System::Boolean(*)(::UnityEngine::WrapMode, ::UnityEngine::WrapMode))((::PBYTE)hIl2Cpp + JMPIAHKIPNE_HIEENMFLCEC_OFFSET))(HOPCBOGOOBI, JNODGLDIIIP);
+	}
+
+	::FPCGOBDLONB_2<::OGOALFIEBAB, ::IODPOEFKGOI> NNJOOEOMBCF(::DJEFNICEMHH& GDNHHAOKLFG, ::IODPOEFKGOI& AAOCANGHBDG)
+	{
+		return ((::FPCGOBDLONB_2<::OGOALFIEBAB, ::IODPOEFKGOI>(*)(::PVOID, ::DJEFNICEMHH&, ::IODPOEFKGOI&))((::PBYTE)hIl2Cpp + JMPIAHKIPNE_NNJOOEOMBCF_OFFSET))(this, GDNHHAOKLFG, AAOCANGHBDG);
+	}
+
+	::System::Void LFAJDLJFEKG(::OGOALFIEBAB BLLNHDIDKPA)
+	{
+		return ((::System::Void(*)(::PVOID, ::OGOALFIEBAB))((::PBYTE)hIl2Cpp + JMPIAHKIPNE_LFAJDLJFEKG_OFFSET))(this, BLLNHDIDKPA);
+	}
+};

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_927E2D0470CF77A4;
+class PNIHGNDLMIN;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T> class Predicate_1; }
@@ -10,54 +10,54 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x179959D0)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17995A10)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__INITPREVIEWSWITCHGENDER_B__18_0_OFFSET UNITYSDK_OFFSET(0x17995A80)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__INITPREVIEW_B__17_0_OFFSET UNITYSDK_OFFSET(0x17995A20)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__ONSHOW_B__73_2_OFFSET UNITYSDK_OFFSET(0x17995B20)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__REFRESHSKINPANELUI_PREVIEW_B__41_1_OFFSET UNITYSDK_OFFSET(0x17995AA0)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__REFRESHSKINPANELUI_PREVIEW_B__41_3_OFFSET UNITYSDK_OFFSET(0x17995AD0)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__REFRESHTABS_B__117_0_OFFSET UNITYSDK_OFFSET(0x17995B40)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__SENDCHANGESKIN_B__43_2_OFFSET UNITYSDK_OFFSET(0x17995B00)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17BB9550)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17BB9590)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__INITPREVIEWSWITCHGENDER_B__18_0_OFFSET UNITYSDK_OFFSET(0x17BB9600)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__INITPREVIEW_B__17_0_OFFSET UNITYSDK_OFFSET(0x17BB95A0)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__ONSHOW_B__73_2_OFFSET UNITYSDK_OFFSET(0x17BB96A0)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__REFRESHSKINPANELUI_PREVIEW_B__41_1_OFFSET UNITYSDK_OFFSET(0x17BB9620)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__REFRESHSKINPANELUI_PREVIEW_B__41_3_OFFSET UNITYSDK_OFFSET(0x17BB9650)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__REFRESHTABS_B__117_0_OFFSET UNITYSDK_OFFSET(0x17BB96C0)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__SENDCHANGESKIN_B__43_2_OFFSET UNITYSDK_OFFSET(0x17BB9680)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerAccessoryPageController___c_TypeDefinitionIndex = 51562;
+	inline static constexpr unsigned int UIPlayerAccessoryPageController___c_TypeDefinitionIndex = 43423;
 
 	class UIPlayerAccessoryPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIPlayerAccessoryPageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIPlayerAccessoryPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FFB0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x45150);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__17_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FFB8);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x45158);
 		}
-		static ::System::Action** StaticGet___9__41_1()
+		static ::System::Predicate_1<::PNIHGNDLMIN*>** StaticGet___9__43_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FFC0);
-		}
-		static ::System::Converter_2<::UnityEngine::UI::Extension::UITabButton*, ::UnityEngine::GameObject*>** StaticGet___9__117_0()
-		{
-			return (::System::Converter_2<::UnityEngine::UI::Extension::UITabButton*, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FFC8);
-		}
-		static ::System::Converter_2<::UnityEngine::UI::Extension::UITabButton*, ::UnityEngine::GameObject*>** StaticGet___9__73_2()
-		{
-			return (::System::Converter_2<::UnityEngine::UI::Extension::UITabButton*, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FFD0);
-		}
-		static ::System::Predicate_1<::Class_2_927E2D0470CF77A4*>** StaticGet___9__43_2()
-		{
-			return (::System::Predicate_1<::Class_2_927E2D0470CF77A4*>**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FFD8);
+			return (::System::Predicate_1<::PNIHGNDLMIN*>**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x45160);
 		}
 		static ::System::Action** StaticGet___9__41_3()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FFE0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x45168);
+		}
+		static ::System::Converter_2<::UnityEngine::UI::Extension::UITabButton*, ::UnityEngine::GameObject*>** StaticGet___9__73_2()
+		{
+			return (::System::Converter_2<::UnityEngine::UI::Extension::UITabButton*, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x45170);
+		}
+		static ::System::Converter_2<::UnityEngine::UI::Extension::UITabButton*, ::UnityEngine::GameObject*>** StaticGet___9__117_0()
+		{
+			return (::System::Converter_2<::UnityEngine::UI::Extension::UITabButton*, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x45178);
 		}
 		static ::System::Converter_2<::UnityEngine::UI::Extension::UITabButton*, ::UnityEngine::GameObject*>** StaticGet___9__18_0()
 		{
-			return (::System::Converter_2<::UnityEngine::UI::Extension::UITabButton*, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FFE8);
+			return (::System::Converter_2<::UnityEngine::UI::Extension::UITabButton*, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x45180);
+		}
+		static ::System::Action** StaticGet___9__41_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIPlayerAccessoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x45188);
 		}
 
 		static ::System::Void _cctor()
@@ -90,9 +90,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__REFRESHSKINPANELUI_PREVIEW_B__41_3_OFFSET))(this);
 		}
 
-		::System::Boolean _SendChangeSkin_b__43_2(::Class_2_927E2D0470CF77A4* x)
+		::System::Boolean _SendChangeSkin_b__43_2(::PNIHGNDLMIN* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_927E2D0470CF77A4*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__SENDCHANGESKIN_B__43_2_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::PNIHGNDLMIN*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__SENDCHANGESKIN_B__43_2_OFFSET))(this, x);
 		}
 
 		::UnityEngine::GameObject* _OnShow_b__73_2(::UnityEngine::UI::Extension::UITabButton* x)

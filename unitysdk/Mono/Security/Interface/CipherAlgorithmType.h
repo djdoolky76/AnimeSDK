@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int CipherAlgorithmType_TypeDefinitionIndex = 2431;
+	inline static constexpr unsigned int CipherAlgorithmType_TypeDefinitionIndex = 2430;
 
 	enum class CipherAlgorithmType : ::System::Int32
 	{

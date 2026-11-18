@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/HollowPieceRepresentType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_TVSWITCHTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x312BA0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_TVSWITCHTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x2E4140)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_TvSwitchType_TypeDefinitionIndex = 59288;
+	inline static constexpr unsigned int ConfigHollowChessboard_TvSwitchType_TypeDefinitionIndex = 46328;
 
 	struct alignas(4) ConfigHollowChessboard_TvSwitchType
 	{

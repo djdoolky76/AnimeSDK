@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_NATIVEIMPL_EXECUTECOPYCOLORPASS_OFFSET UNITYSDK_OFFSET(0x1E474670)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E474680)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E474760)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_NATIVEIMPL_RELEASETEMPBUFFER_OFFSET UNITYSDK_OFFSET(0x1E474750)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E474610)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_NATIVEIMPL_EXECUTECOPYCOLORPASS_OFFSET UNITYSDK_OFFSET(0x1E63BD80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E63BD90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E63BE70)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_NATIVEIMPL_RELEASETEMPBUFFER_OFFSET UNITYSDK_OFFSET(0x1E63BE60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E63BD20)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CopyColorPass_NativeImpl_TypeDefinitionIndex = 5731;
+	inline static constexpr unsigned int CopyColorPass_NativeImpl_TypeDefinitionIndex = 5736;
 
 	class CopyColorPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

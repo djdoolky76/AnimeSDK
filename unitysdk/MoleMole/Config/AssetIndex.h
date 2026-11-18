@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/Foundation/AssetPath.h"
-#include "unitysdk/System/Object.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 namespace MoleMole::Config { class IndexAssetRef; }
 namespace MoleMole::Config { class IndexBlockRef; }
 namespace MoleMole::Config { class IndexBundleRef; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ASSETINDEX_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172959E0)
-#define MOLEMOLE_CONFIG_ASSETINDEX_FROMFLX_OFFSET UNITYSDK_OFFSET(0x172954B0)
-#define MOLEMOLE_CONFIG_ASSETINDEX_METHOD_1_0CB3D614A4DB34A1_OFFSET UNITYSDK_OFFSET(0x17295530)
-#define MOLEMOLE_CONFIG_ASSETINDEX_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x17295D00)
-#define MOLEMOLE_CONFIG_ASSETINDEX_METHOD_1_3F6D5913FEE1D8EF_OFFSET UNITYSDK_OFFSET(0x17295D40)
-#define MOLEMOLE_CONFIG_ASSETINDEX_METHOD_1_4E5B1AF2427E61CE_OFFSET UNITYSDK_OFFSET(0x17295F90)
-#define MOLEMOLE_CONFIG_ASSETINDEX_METHOD_1_C68CB15A07D0E2EF_OFFSET UNITYSDK_OFFSET(0x17295A40)
-#define MOLEMOLE_CONFIG_ASSETINDEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17294EF0)
-#define MOLEMOLE_CONFIG_ASSETINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x17295CF0)
+#define MOLEMOLE_CONFIG_ASSETINDEX_CAGNDHJIOGB_OFFSET UNITYSDK_OFFSET(0x16402180)
+#define MOLEMOLE_CONFIG_ASSETINDEX_DFFLIKFAENB_OFFSET UNITYSDK_OFFSET(0x16402080)
+#define MOLEMOLE_CONFIG_ASSETINDEX_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x16402040)
+#define MOLEMOLE_CONFIG_ASSETINDEX_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16401D20)
+#define MOLEMOLE_CONFIG_ASSETINDEX_FROMFLX_OFFSET UNITYSDK_OFFSET(0x164017F0)
+#define MOLEMOLE_CONFIG_ASSETINDEX_IAEALJJMOKA_OFFSET UNITYSDK_OFFSET(0x16401D80)
+#define MOLEMOLE_CONFIG_ASSETINDEX_PDHKICNJNGG_OFFSET UNITYSDK_OFFSET(0x16401870)
+#define MOLEMOLE_CONFIG_ASSETINDEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16401230)
+#define MOLEMOLE_CONFIG_ASSETINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x16402030)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AssetIndex_TypeDefinitionIndex = 56058;
+	inline static constexpr unsigned int AssetIndex_TypeDefinitionIndex = 39151;
 
 	class AssetIndex : public ::System::Object
 	{
@@ -43,39 +43,39 @@ namespace MoleMole::Config
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_FROMFLX_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean FromBinary(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_FROMBINARY_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 
-		::System::Boolean Method_1_0CB3D614A4DB34A1(::FlexBuffers::FlxMap a1)
+		::System::Boolean PDHKICNJNGG(::FlexBuffers::FlxMap HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_METHOD_1_0CB3D614A4DB34A1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_PDHKICNJNGG_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::String* Method_1_128774387667156B()
+		::System::String* DPIHOJBBGLA()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_METHOD_1_128774387667156B_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_DPIHOJBBGLA_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_C68CB15A07D0E2EF(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Collections::Generic::List_1<::System::UInt64>* DFFLIKFAENB()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_METHOD_1_C68CB15A07D0E2EF_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::List_1<::System::UInt64>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_DFFLIKFAENB_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::Foundation::AssetPath>* Method_1_3F6D5913FEE1D8EF()
+		::System::Collections::Generic::List_1<::Foundation::AssetPath>* CAGNDHJIOGB()
 		{
-			return ((::System::Collections::Generic::List_1<::Foundation::AssetPath>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_METHOD_1_3F6D5913FEE1D8EF_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::Foundation::AssetPath>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_CAGNDHJIOGB_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::UInt64>* Method_1_4E5B1AF2427E61CE()
+		::System::Boolean IAEALJJMOKA(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Collections::Generic::List_1<::System::UInt64>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_METHOD_1_4E5B1AF2427E61CE_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ASSETINDEX_IAEALJJMOKA_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 	};
 }

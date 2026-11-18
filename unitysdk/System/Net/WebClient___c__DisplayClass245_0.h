@@ -7,12 +7,12 @@ namespace System::Net { class UploadValuesCompletedEventHandler; }
 namespace System::Net { class WebClient; }
 namespace System::Threading::Tasks { template <typename T> class TaskCompletionSource_1; }
 
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS245_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC1C390)
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS245_0__UPLOADVALUESTASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1CC1C3A0)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS245_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1112C0)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS245_0__UPLOADVALUESTASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1D1112D0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebClient___c__DisplayClass245_0_TypeDefinitionIndex = 3455;
+	inline static constexpr unsigned int WebClient___c__DisplayClass245_0_TypeDefinitionIndex = 3454;
 
 	class WebClient___c__DisplayClass245_0 : public ::System::Object
 	{

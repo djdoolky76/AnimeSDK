@@ -9,18 +9,20 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Material; }
 
-#define LINEWAVE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FC08A10)
-#define LINEWAVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FC08AE0)
-#define LINEWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC093E0)
+#define LINEWAVE_AWAKE_OFFSET UNITYSDK_OFFSET(0x2000BA10)
+#define LINEWAVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x2000BAE0)
+#define LINEWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x2000C3E0)
 
-inline static constexpr unsigned int LineWave_TypeDefinitionIndex = 35317;
+inline static constexpr unsigned int LineWave_TypeDefinitionIndex = 34890;
 
 class LineWave : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::Single ampT; // 0x18
+	::System::Byte _padding0[0x4];
 	::UnityEngine::Material* traceMaterial; // 0x20
 	::System::Single traceWidth; // 0x28
+	::System::Byte _padding1[0x4];
 	::UnityEngine::GameObject* targetOptional; // 0x30
 	::System::Single altRotation; // 0x38
 	::LineWave_Origins origin; // 0x3C
@@ -33,16 +35,19 @@ public:
 	::System::Boolean centCrest; // 0x52
 	::System::Boolean warp; // 0x53
 	::System::Boolean warpInvert; // 0x54
+	::System::Byte _padding2[0x3];
 	::System::Single warpRandom; // 0x58
 	::System::Single walkManual; // 0x5C
 	::System::Single walkAuto; // 0x60
 	::System::Boolean spiral; // 0x64
+	::System::Byte _padding3[0x3];
 	::UnityEngine::AnimationCurve* posCurve; // 0x68
 	::System::Single start; // 0x70
 	::System::Single warpT; // 0x74
 	::System::Single angle; // 0x78
 	::System::Single sinAngle; // 0x7C
 	::System::Single sinAngleZ; // 0x80
+	::System::Byte _padding4[0x4];
 	::System::Double walkShift; // 0x88
 	::UnityEngine::Vector3 posVtx2; // 0x90
 	::UnityEngine::Vector3 posVtxSizeMinusOne; // 0x9C

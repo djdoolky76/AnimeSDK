@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_UnityWebRequestUpdate_TypeDefinitionIndex = 5540;
+	inline static constexpr unsigned int EarlyUpdate_UnityWebRequestUpdate_TypeDefinitionIndex = 5543;
 
-	struct alignas(1) EarlyUpdate_UnityWebRequestUpdate
+	struct alignas(4) EarlyUpdate_UnityWebRequestUpdate
 	{
 	};
 }

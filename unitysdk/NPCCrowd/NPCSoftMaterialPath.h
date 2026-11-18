@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/AssetPath.h"
-#include "unitysdk/NPCCrowd/NPCSoftAssetPath_1.h"
 
-namespace UnityEngine { class Material; }
-
-#define NPCCROWD_NPCSOFTMATERIALPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x10670260)
-#define NPCCROWD_NPCSOFTMATERIALPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x10670240)
+#define NPCCROWD_NPCSOFTMATERIALPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0xF1597D0)
+#define NPCCROWD_NPCSOFTMATERIALPATH__CTOR_OFFSET UNITYSDK_OFFSET(0xF1597B0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCSoftMaterialPath_TypeDefinitionIndex = 59533;
+	inline static constexpr unsigned int NPCSoftMaterialPath_TypeDefinitionIndex = 44359;
 
-	class NPCSoftMaterialPath : public ::NPCCrowd::NPCSoftAssetPath_1<::UnityEngine::Material*>
+	class NPCSoftMaterialPath
 	{
 	public:
 		::System::Void _ctor()

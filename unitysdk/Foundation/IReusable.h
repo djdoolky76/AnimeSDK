@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IReusable_TypeDefinitionIndex = 8220;
+	inline static constexpr unsigned int IReusable_TypeDefinitionIndex = 8504;
 
 	class IReusable
 	{

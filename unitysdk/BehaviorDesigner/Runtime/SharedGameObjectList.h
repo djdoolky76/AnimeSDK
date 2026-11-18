@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDGAMEOBJECTLIST_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F6063D0)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDGAMEOBJECTLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1F606490)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDGAMEOBJECTLIST_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F9CD7A0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDGAMEOBJECTLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9CD860)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedGameObjectList_TypeDefinitionIndex = 33917;
+	inline static constexpr unsigned int SharedGameObjectList_TypeDefinitionIndex = 33463;
 
-	class SharedGameObjectList : public ::BehaviorDesigner::Runtime::SharedVariable_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>
+	class SharedGameObjectList
 	{
 	public:
 		::System::Void _ctor()

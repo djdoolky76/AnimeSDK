@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/UIElements/StyleValueHandle.h"
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETEXTENSIONS_ISVARFUNCTION_OFFSET UNITYSDK_OFFSET(0x1D009160)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_STYLESHEETEXTENSIONS_ISVARFUNCTION_OFFSET UNITYSDK_OFFSET(0x1D5BE300)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int StyleSheetExtensions_TypeDefinitionIndex = 28230;
+	inline static constexpr unsigned int StyleSheetExtensions_TypeDefinitionIndex = 27648;
 
 	class StyleSheetExtensions : public ::System::Object
 	{

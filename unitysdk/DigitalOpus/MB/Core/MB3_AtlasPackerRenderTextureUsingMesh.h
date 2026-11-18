@@ -7,25 +7,25 @@ namespace DigitalOpus::MB::Core { class ShaderTextureProperty; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define DIGITALOPUS_MB_CORE_MB3_ATLASPACKERRENDERTEXTUREUSINGMESH_DORENDERATLAS_OFFSET UNITYSDK_OFFSET(0x1F722390)
-#define DIGITALOPUS_MB_CORE_MB3_ATLASPACKERRENDERTEXTUREUSINGMESH_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F722180)
-#define DIGITALOPUS_MB_CORE_MB3_ATLASPACKERRENDERTEXTUREUSINGMESH_SETUPCAMERAGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F7221A0)
-#define DIGITALOPUS_MB_CORE_MB3_ATLASPACKERRENDERTEXTUREUSINGMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F722E80)
+#define DIGITALOPUS_MB_CORE_MB3_ATLASPACKERRENDERTEXTUREUSINGMESH_DORENDERATLAS_OFFSET UNITYSDK_OFFSET(0x1FB17EA0)
+#define DIGITALOPUS_MB_CORE_MB3_ATLASPACKERRENDERTEXTUREUSINGMESH_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FB17C90)
+#define DIGITALOPUS_MB_CORE_MB3_ATLASPACKERRENDERTEXTUREUSINGMESH_SETUPCAMERAGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1FB17CB0)
+#define DIGITALOPUS_MB_CORE_MB3_ATLASPACKERRENDERTEXTUREUSINGMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB18990)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_AtlasPackerRenderTextureUsingMesh_TypeDefinitionIndex = 94661;
+	inline static constexpr unsigned int MB3_AtlasPackerRenderTextureUsingMesh_TypeDefinitionIndex = 96348;
 
 	class MB3_AtlasPackerRenderTextureUsingMesh : public ::System::Object
 	{
 	public:
-		::System::Int32 camMaskLayer; // 0x10
-		::System::Int32 height; // 0x14
-		::System::Boolean _camSetup; // 0x18
-		::System::Boolean _initialized; // 0x19
-		::System::Int32 width; // 0x1C
-		::System::Int32 padding; // 0x20
-		::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL; // 0x24
+		::System::Int32 height; // 0x10
+		::System::Int32 padding; // 0x14
+		::System::Int32 width; // 0x18
+		::System::Int32 camMaskLayer; // 0x1C
+		::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL; // 0x20
+		::System::Boolean _camSetup; // 0x24
+		::System::Boolean _initialized; // 0x25
 
 		::System::Void _ctor()
 		{

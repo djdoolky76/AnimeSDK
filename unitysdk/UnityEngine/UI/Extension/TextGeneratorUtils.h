@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/UI/Extension/TextGeneratorUtils_ZeroWidthCharKind.h"
 #include "unitysdk/UnityEngine/UI/Extension/TextGeneratorUtils_GlyphBoundsContext.h"
 #include "unitysdk/UnityEngine/UI/Extension/TextGeneratorUtils_GlyphBoundsResult.h"
-#include "unitysdk/UnityEngine/UI/Extension/TextGeneratorUtils_ZeroWidthCharKind.h"
 #include "unitysdk/UnityEngine/UIVertex.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
@@ -12,31 +12,33 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_CLASSIFYZEROWIDTH_OFFSET UNITYSDK_OFFSET(0x1CB98F50)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_COMPUTEGLYPHBOUNDS_OFFSET UNITYSDK_OFFSET(0x1CB97CD0)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_EXTRACTVALIDQUADBOUNDS_OFFSET UNITYSDK_OFFSET(0x1CB98980)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_GETQUADTAGMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CB97610)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISGLYPHCHARACTER_OFFSET UNITYSDK_OFFSET(0x1CB97230)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISLINECURSORYRELIABLE_OFFSET UNITYSDK_OFFSET(0x1CB99030)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISNONDEFAULTMATERIALQUAD_OFFSET UNITYSDK_OFFSET(0x1CB97C00)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISNONSPACINGMARK_OFFSET UNITYSDK_OFFSET(0x1CB97330)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISPREREORDERBUFFER_OFFSET UNITYSDK_OFFSET(0x1CB971E0)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISQUADTAGPLACEHOLDER_OFFSET UNITYSDK_OFFSET(0x1CB97440)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_RESOLVEVERTEXINDEX_OFFSET UNITYSDK_OFFSET(0x1CB985C0)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_SKIPDEGENGLYPHVERTS_OFFSET UNITYSDK_OFFSET(0x1CB986C0)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_SKIPDEGENQUADS_OFFSET UNITYSDK_OFFSET(0x1CB97380)
-#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB990D0)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_CLASSIFYZEROWIDTH_OFFSET UNITYSDK_OFFSET(0x1EC3DFB0)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_COMPUTEGLYPHBOUNDS_OFFSET UNITYSDK_OFFSET(0x1EC3C9B0)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_EXTRACTVALIDQUADBOUNDS_OFFSET UNITYSDK_OFFSET(0x1EC3D9E0)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_GETQUADTAGMATERIAL_OFFSET UNITYSDK_OFFSET(0x1EC3C2F0)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_HASDEGENGLYPHVERTS_OFFSET UNITYSDK_OFFSET(0x1EC3D720)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISDEFERREDICON_OFFSET UNITYSDK_OFFSET(0x1EC3D3A0)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISGLYPHCHARACTER_OFFSET UNITYSDK_OFFSET(0x1EC3BF10)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISLINECURSORYRELIABLE_OFFSET UNITYSDK_OFFSET(0x1EC3E090)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISNONDEFAULTMATERIALQUAD_OFFSET UNITYSDK_OFFSET(0x1EC3C8E0)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISNONSPACINGMARK_OFFSET UNITYSDK_OFFSET(0x1EC3C010)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISPREREORDERBUFFER_OFFSET UNITYSDK_OFFSET(0x1EC3BEC0)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISQUADTAGPLACEHOLDER_OFFSET UNITYSDK_OFFSET(0x1EC3C120)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_RESOLVEVERTEXINDEX_OFFSET UNITYSDK_OFFSET(0x1EC3D2A0)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_SKIPDEGENGLYPHVERTS_OFFSET UNITYSDK_OFFSET(0x1EC3D460)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_SKIPDEGENQUADS_OFFSET UNITYSDK_OFFSET(0x1EC3C060)
+#define UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC3E130)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int TextGeneratorUtils_TypeDefinitionIndex = 83739;
+	inline static constexpr unsigned int TextGeneratorUtils_TypeDefinitionIndex = 46061;
 
 	class TextGeneratorUtils : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::TextGeneratorUtils_GlyphBoundsResult>** StaticGet_s_extractedBounds()
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_s_extractedBounds()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::TextGeneratorUtils_GlyphBoundsResult>**)Il2CppClass::FromTypeDefinitionIndex(TextGeneratorUtils_TypeDefinitionIndex)->GetStaticField(0x47A10);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TextGeneratorUtils_TypeDefinitionIndex)->GetStaticField(0x4CB40);
 		}
 
 		static ::System::Void _cctor()
@@ -84,14 +86,24 @@ namespace UnityEngine::UI::Extension
 			return ((::System::Int32(*)(::System::Boolean, ::System::Boolean, ::System::String*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_RESOLVEVERTEXINDEX_OFFSET))(isPreReorder, isIcon, txt, charIdx, txtLen, vertexCursor, isDeferredIcon);
 		}
 
+		static ::System::Boolean IsDeferredIcon(::System::Boolean isPreReorder, ::System::Boolean isIcon, ::System::String* txt, ::System::Int32 charIdx, ::System::Int32 txtLen)
+		{
+			return ((::System::Boolean(*)(::System::Boolean, ::System::Boolean, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_ISDEFERREDICON_OFFSET))(isPreReorder, isIcon, txt, charIdx, txtLen);
+		}
+
 		static ::System::Int32 SkipDegenGlyphVerts(::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* genVerts, ::System::Int32 vertexCursor)
 		{
 			return ((::System::Int32(*)(::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_SKIPDEGENGLYPHVERTS_OFFSET))(genVerts, vertexCursor);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::TextGeneratorUtils_GlyphBoundsResult>* ExtractValidQuadBounds(::UnityEngine::UI::Extension::TextGeneratorUtils_GlyphBoundsContext& ctx)
+		static ::System::Boolean HasDegenGlyphVerts(::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* genVerts)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::TextGeneratorUtils_GlyphBoundsResult>*(*)(::UnityEngine::UI::Extension::TextGeneratorUtils_GlyphBoundsContext&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_EXTRACTVALIDQUADBOUNDS_OFFSET))(ctx);
+			return ((::System::Boolean(*)(::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_HASDEGENGLYPHVERTS_OFFSET))(genVerts);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::Object*>* ExtractValidQuadBounds(::UnityEngine::UI::Extension::TextGeneratorUtils_GlyphBoundsContext& ctx)
+		{
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::UnityEngine::UI::Extension::TextGeneratorUtils_GlyphBoundsContext&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_TEXTGENERATORUTILS_EXTRACTVALIDQUADBOUNDS_OFFSET))(ctx);
 		}
 
 		static ::System::Boolean IsNonSpacingMark(::System::Char ch)

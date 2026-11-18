@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Dest/Math/AAB3.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Dest/Math/AAB3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace Dest::Math { class Rand; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DEST_MATH_POINTSFILTER_DISTANCEFILTER_OFFSET UNITYSDK_OFFSET(0x1FA4A890)
+#define DEST_MATH_POINTSFILTER_DISTANCEFILTER_OFFSET UNITYSDK_OFFSET(0x1FE5A600)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int PointsFilter_TypeDefinitionIndex = 35459;
+	inline static constexpr unsigned int PointsFilter_TypeDefinitionIndex = 35032;
 
 	class PointsFilter : public ::System::Object
 	{

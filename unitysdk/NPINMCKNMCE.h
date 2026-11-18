@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OPEAGHFAHDH.h"
+
+class BCCMPEIHJMN_CAICKFLHNGI;
+class KGPHFADIIBM;
+
+#define NPINMCKNMCE_BHEKANJKJPN_OFFSET UNITYSDK_OFFSET(0x12908F70)
+#define NPINMCKNMCE_DDFLFHKOALF_OFFSET UNITYSDK_OFFSET(0x12909010)
+#define NPINMCKNMCE_MMFNEBLCEMH_OFFSET UNITYSDK_OFFSET(0x12909050)
+#define NPINMCKNMCE__CTOR_OFFSET UNITYSDK_OFFSET(0x12908F20)
+
+inline static constexpr unsigned int NPINMCKNMCE_TypeDefinitionIndex = 61325;
+
+class NPINMCKNMCE : public ::OPEAGHFAHDH
+{
+public:
+	::BCCMPEIHJMN_CAICKFLHNGI* NGDGPHFKMNK; // 0x48
+
+	::System::Void _ctor(::BCCMPEIHJMN_CAICKFLHNGI* HHEOJLBHEGI)
+	{
+		return ((::System::Void(*)(::PVOID, ::BCCMPEIHJMN_CAICKFLHNGI*))((::PBYTE)hIl2Cpp + NPINMCKNMCE__CTOR_OFFSET))(this, HHEOJLBHEGI);
+	}
+
+	::System::Void BHEKANJKJPN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPINMCKNMCE_BHEKANJKJPN_OFFSET))(this);
+	}
+
+	::System::Void DDFLFHKOALF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPINMCKNMCE_DDFLFHKOALF_OFFSET))(this);
+	}
+
+	::System::Void MMFNEBLCEMH(::KGPHFADIIBM* MIDHMLCJDIK)
+	{
+		return ((::System::Void(*)(::PVOID, ::KGPHFADIIBM*))((::PBYTE)hIl2Cpp + NPINMCKNMCE_MMFNEBLCEMH_OFFSET))(this, MIDHMLCJDIK);
+	}
+};

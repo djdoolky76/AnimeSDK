@@ -5,18 +5,18 @@
 namespace MoleMole { class ActivityDemoTrialContext; }
 namespace MoleMole { class UIActivityDemoInfoWidgetWidgetController; }
 
-#define MOLEMOLE_UIACTIVITYDEMOINFOWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CHECKCANDIRECTTAKEREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x18939D00)
-#define MOLEMOLE_UIACTIVITYDEMOINFOWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18939CF0)
+#define MOLEMOLE_UIACTIVITYDEMOINFOWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CHECKCANDIRECTTAKEREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x17E957D0)
+#define MOLEMOLE_UIACTIVITYDEMOINFOWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E957C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityDemoInfoWidgetWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 81354;
+	inline static constexpr unsigned int UIActivityDemoInfoWidgetWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 43248;
 
 	class UIActivityDemoInfoWidgetWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::ActivityDemoTrialContext* trialCotnext; // 0x10
-		::MoleMole::UIActivityDemoInfoWidgetWidgetController* __4__this; // 0x18
+		::MoleMole::UIActivityDemoInfoWidgetWidgetController* __4__this; // 0x10
+		::MoleMole::ActivityDemoTrialContext* trialCotnext; // 0x18
 
 		::System::Void _ctor()
 		{

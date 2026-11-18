@@ -6,13 +6,13 @@ namespace MoleMole { class UITape3DModelController; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UITAPE3DMODELCONTROLLER___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F8E900)
-#define MOLEMOLE_UITAPE3DMODELCONTROLLER___C__DISPLAYCLASS78_0__EASINGSLIDE_B__0_OFFSET UNITYSDK_OFFSET(0x15F8E910)
-#define MOLEMOLE_UITAPE3DMODELCONTROLLER___C__DISPLAYCLASS78_0__EASINGSLIDE_B__1_OFFSET UNITYSDK_OFFSET(0x15F8E960)
+#define MOLEMOLE_UITAPE3DMODELCONTROLLER___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12BF0C10)
+#define MOLEMOLE_UITAPE3DMODELCONTROLLER___C__DISPLAYCLASS78_0__EASINGSLIDE_B__0_OFFSET UNITYSDK_OFFSET(0x12BF0C20)
+#define MOLEMOLE_UITAPE3DMODELCONTROLLER___C__DISPLAYCLASS78_0__EASINGSLIDE_B__1_OFFSET UNITYSDK_OFFSET(0x12BF0C70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITape3DModelController___c__DisplayClass78_0_TypeDefinitionIndex = 63856;
+	inline static constexpr unsigned int UITape3DModelController___c__DisplayClass78_0_TypeDefinitionIndex = 72063;
 
 	class UITape3DModelController___c__DisplayClass78_0 : public ::System::Object
 	{

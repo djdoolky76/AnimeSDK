@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int BinXmlToken_TypeDefinitionIndex = 1666;
+	inline static constexpr unsigned int BinXmlToken_TypeDefinitionIndex = 1665;
 
 	enum class BinXmlToken : ::System::Int32
 	{

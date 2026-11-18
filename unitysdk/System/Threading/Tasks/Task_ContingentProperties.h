@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
+#include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Threading { class ExecutionContext; }
@@ -11,25 +11,25 @@ namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskExceptionHolder; }
 namespace System::Threading::Tasks { template <typename T> class Shared_1; }
 
-#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_DEREGISTERCANCELLATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C6EE930)
-#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_SETCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1C6EE910)
-#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6EEA00)
+#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_DEREGISTERCANCELLATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CC4C3E0)
+#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_SETCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1CC4C3C0)
+#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC4C4B0)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int Task_ContingentProperties_TypeDefinitionIndex = 901;
+	inline static constexpr unsigned int Task_ContingentProperties_TypeDefinitionIndex = 900;
 
 	class Task_ContingentProperties : public ::System::Object
 	{
 	public:
-		::System::Threading::ManualResetEventSlim* m_completionEvent; // 0x10
-		::System::Threading::Tasks::TaskExceptionHolder* m_exceptionsHolder; // 0x18
-		::System::Collections::Generic::List_1<::System::Threading::Tasks::Task*>* m_exceptionalChildren; // 0x20
-		::System::Threading::Tasks::Shared_1<::System::Threading::CancellationTokenRegistration>* m_cancellationRegistration; // 0x28
-		::System::Threading::ExecutionContext* m_capturedContext; // 0x30
-		::System::Threading::CancellationToken m_cancellationToken; // 0x38
-		::System::Int32 m_internalCancellationRequested; // 0x40
-		::System::Int32 m_completionCountdown; // 0x44
+		::System::Threading::Tasks::TaskExceptionHolder* m_exceptionsHolder; // 0x10
+		::System::Threading::CancellationToken m_cancellationToken; // 0x18
+		::System::Threading::ExecutionContext* m_capturedContext; // 0x20
+		::System::Collections::Generic::List_1<::System::Threading::Tasks::Task*>* m_exceptionalChildren; // 0x28
+		::System::Threading::ManualResetEventSlim* m_completionEvent; // 0x30
+		::System::Threading::Tasks::Shared_1<::System::Threading::CancellationTokenRegistration>* m_cancellationRegistration; // 0x38
+		::System::Int32 m_completionCountdown; // 0x40
+		::System::Int32 m_internalCancellationRequested; // 0x44
 
 		::System::Void _ctor()
 		{

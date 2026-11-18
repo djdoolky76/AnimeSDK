@@ -10,57 +10,57 @@ namespace System::Xml { class XmlWriter; }
 namespace System::Xml::Schema { class XmlSchema; }
 namespace System::Xml::Schema { class XmlSchemaSet; }
 
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_AND_OFFSET UNITYSDK_OFFSET(0x1F1AF490)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0xA94220)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_COMPARETO_OFFSET UNITYSDK_OFFSET(0xA94210)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_EQUALS_OFFSET UNITYSDK_OFFSET(0xA942C0)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA94390)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GETXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1F1AFB30)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GET_BYTEVALUE_OFFSET UNITYSDK_OFFSET(0xA94190)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GET_ISFALSE_OFFSET UNITYSDK_OFFSET(0xA94180)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x7D8680)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GET_ISTRUE_OFFSET UNITYSDK_OFFSET(0xA94170)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA94100)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_BITWISEAND_OFFSET UNITYSDK_OFFSET(0x1F1AF1C0)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_BITWISEOR_OFFSET UNITYSDK_OFFSET(0x1F1AF250)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F1AF420)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F1A9170)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_TRUE_OFFSET UNITYSDK_OFFSET(0x1F1AF1B0)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OR_OFFSET UNITYSDK_OFFSET(0x1F1AF560)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_GETSCHEMA_OFFSET UNITYSDK_OFFSET(0x3CADC0)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_READXML_OFFSET UNITYSDK_OFFSET(0xA94410)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_WRITEXML_OFFSET UNITYSDK_OFFSET(0xA94420)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA94200)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1AFBB0)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA940D0)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN__CTOR_2_OFFSET UNITYSDK_OFFSET(0xA940E0)
-#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN__CTOR_OFFSET UNITYSDK_OFFSET(0xA940C0)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_AND_OFFSET UNITYSDK_OFFSET(0x1F5A3AE0)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x97B830)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_COMPARETO_OFFSET UNITYSDK_OFFSET(0x97B820)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_EQUALS_OFFSET UNITYSDK_OFFSET(0x97B8D0)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x97B9A0)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GETXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1F5A4190)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GET_BYTEVALUE_OFFSET UNITYSDK_OFFSET(0x97B7A0)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GET_ISFALSE_OFFSET UNITYSDK_OFFSET(0x5ED560)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x75E7A0)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GET_ISTRUE_OFFSET UNITYSDK_OFFSET(0x63CFE0)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x97B730)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_BITWISEAND_OFFSET UNITYSDK_OFFSET(0x1F5A3810)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_BITWISEOR_OFFSET UNITYSDK_OFFSET(0x1F5A38A0)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F5A3A70)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F59D7C0)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_TRUE_OFFSET UNITYSDK_OFFSET(0x1F5A3800)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OR_OFFSET UNITYSDK_OFFSET(0x1F5A3BC0)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_GETSCHEMA_OFFSET UNITYSDK_OFFSET(0x3B9490)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_READXML_OFFSET UNITYSDK_OFFSET(0x97BA20)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_WRITEXML_OFFSET UNITYSDK_OFFSET(0x97BA30)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x97B810)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5A4210)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN__CTOR_1_OFFSET UNITYSDK_OFFSET(0x97B700)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN__CTOR_2_OFFSET UNITYSDK_OFFSET(0x97B710)
+#define SYSTEM_DATA_SQLTYPES_SQLBOOLEAN__CTOR_OFFSET UNITYSDK_OFFSET(0x97B6F0)
 
 namespace System::Data::SqlTypes
 {
-	inline static constexpr unsigned int SqlBoolean_TypeDefinitionIndex = 39372;
+	inline static constexpr unsigned int SqlBoolean_TypeDefinitionIndex = 37372;
 
-	struct alignas(1) SqlBoolean
+	struct alignas(4) SqlBoolean
 	{
-		static ::System::Data::SqlTypes::SqlBoolean* StaticGet_One()
+		static ::System::Data::SqlTypes::SqlBoolean* StaticGet_Zero()
 		{
-			return (::System::Data::SqlTypes::SqlBoolean*)Il2CppClass::FromTypeDefinitionIndex(SqlBoolean_TypeDefinitionIndex)->GetStaticField(0x8F60);
-		}
-		static ::System::Data::SqlTypes::SqlBoolean* StaticGet_True()
-		{
-			return (::System::Data::SqlTypes::SqlBoolean*)Il2CppClass::FromTypeDefinitionIndex(SqlBoolean_TypeDefinitionIndex)->GetStaticField(0x8F61);
-		}
-		static ::System::Data::SqlTypes::SqlBoolean* StaticGet_Null()
-		{
-			return (::System::Data::SqlTypes::SqlBoolean*)Il2CppClass::FromTypeDefinitionIndex(SqlBoolean_TypeDefinitionIndex)->GetStaticField(0x8F62);
+			return (::System::Data::SqlTypes::SqlBoolean*)Il2CppClass::FromTypeDefinitionIndex(SqlBoolean_TypeDefinitionIndex)->GetStaticField(0x9400);
 		}
 		static ::System::Data::SqlTypes::SqlBoolean* StaticGet_False()
 		{
-			return (::System::Data::SqlTypes::SqlBoolean*)Il2CppClass::FromTypeDefinitionIndex(SqlBoolean_TypeDefinitionIndex)->GetStaticField(0x8F63);
+			return (::System::Data::SqlTypes::SqlBoolean*)Il2CppClass::FromTypeDefinitionIndex(SqlBoolean_TypeDefinitionIndex)->GetStaticField(0x9401);
 		}
-		static ::System::Data::SqlTypes::SqlBoolean* StaticGet_Zero()
+		static ::System::Data::SqlTypes::SqlBoolean* StaticGet_One()
 		{
-			return (::System::Data::SqlTypes::SqlBoolean*)Il2CppClass::FromTypeDefinitionIndex(SqlBoolean_TypeDefinitionIndex)->GetStaticField(0x8F64);
+			return (::System::Data::SqlTypes::SqlBoolean*)Il2CppClass::FromTypeDefinitionIndex(SqlBoolean_TypeDefinitionIndex)->GetStaticField(0x9402);
+		}
+		static ::System::Data::SqlTypes::SqlBoolean* StaticGet_Null()
+		{
+			return (::System::Data::SqlTypes::SqlBoolean*)Il2CppClass::FromTypeDefinitionIndex(SqlBoolean_TypeDefinitionIndex)->GetStaticField(0x9403);
+		}
+		static ::System::Data::SqlTypes::SqlBoolean* StaticGet_True()
+		{
+			return (::System::Data::SqlTypes::SqlBoolean*)Il2CppClass::FromTypeDefinitionIndex(SqlBoolean_TypeDefinitionIndex)->GetStaticField(0x9404);
 		}
 		::System::Byte m_value; // 0x10
 
@@ -104,25 +104,33 @@ namespace System::Data::SqlTypes
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_GET_ISFALSE_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Data::SqlTypes::SqlBoolean op_Implicit(::System::Boolean x)
 		{
 			return ((::System::Data::SqlTypes::SqlBoolean(*)(::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_IMPLICIT_OFFSET))(x);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_True(::System::Data::SqlTypes::SqlBoolean x)
 		{
 			return ((::System::Boolean(*)(::System::Data::SqlTypes::SqlBoolean))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_TRUE_OFFSET))(x);
 		}
+		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlBoolean op_BitwiseAnd(::System::Data::SqlTypes::SqlBoolean x, ::System::Data::SqlTypes::SqlBoolean y)
 		{
 			return ((::System::Data::SqlTypes::SqlBoolean(*)(::System::Data::SqlTypes::SqlBoolean, ::System::Data::SqlTypes::SqlBoolean))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_BITWISEAND_OFFSET))(x, y);
 		}
+		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlBoolean op_BitwiseOr(::System::Data::SqlTypes::SqlBoolean x, ::System::Data::SqlTypes::SqlBoolean y)
 		{
 			return ((::System::Data::SqlTypes::SqlBoolean(*)(::System::Data::SqlTypes::SqlBoolean, ::System::Data::SqlTypes::SqlBoolean))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_BITWISEOR_OFFSET))(x, y);
 		}
+		*/
 
 		::System::Byte get_ByteValue()
 		{
@@ -134,30 +142,38 @@ namespace System::Data::SqlTypes
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_TOSTRING_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Data::SqlTypes::SqlBoolean op_Equality(::System::Data::SqlTypes::SqlBoolean x, ::System::Data::SqlTypes::SqlBoolean y)
 		{
 			return ((::System::Data::SqlTypes::SqlBoolean(*)(::System::Data::SqlTypes::SqlBoolean, ::System::Data::SqlTypes::SqlBoolean))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OP_EQUALITY_OFFSET))(x, y);
 		}
+		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlBoolean And(::System::Data::SqlTypes::SqlBoolean x, ::System::Data::SqlTypes::SqlBoolean y)
 		{
 			return ((::System::Data::SqlTypes::SqlBoolean(*)(::System::Data::SqlTypes::SqlBoolean, ::System::Data::SqlTypes::SqlBoolean))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_AND_OFFSET))(x, y);
 		}
+		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlBoolean Or(::System::Data::SqlTypes::SqlBoolean x, ::System::Data::SqlTypes::SqlBoolean y)
 		{
 			return ((::System::Data::SqlTypes::SqlBoolean(*)(::System::Data::SqlTypes::SqlBoolean, ::System::Data::SqlTypes::SqlBoolean))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_OR_OFFSET))(x, y);
 		}
+		*/
 
 		::System::Int32 CompareTo(::System::Object* value)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_COMPARETO_OFFSET))(this, value);
 		}
 
+		/*
 		::System::Int32 CompareTo_1(::System::Data::SqlTypes::SqlBoolean value)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Data::SqlTypes::SqlBoolean))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLBOOLEAN_COMPARETO_1_OFFSET))(this, value);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* value)
 		{

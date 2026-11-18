@@ -7,17 +7,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGTARGETVALUES_GETALLTARGETVALUEKEYS_OFFSET UNITYSDK_OFFSET(0x14876060)
-#define MOLEMOLE_CONFIG_CONFIGTARGETVALUES__CTOR_OFFSET UNITYSDK_OFFSET(0x14876250)
+#define MOLEMOLE_CONFIG_CONFIGTARGETVALUES_GETALLTARGETVALUEKEYS_OFFSET UNITYSDK_OFFSET(0x11EA2340)
+#define MOLEMOLE_CONFIG_CONFIGTARGETVALUES__CTOR_OFFSET UNITYSDK_OFFSET(0x11EA2530)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTargetValues_TypeDefinitionIndex = 76469;
+	inline static constexpr unsigned int ConfigTargetValues_TypeDefinitionIndex = 70756;
 
 	class ConfigTargetValues : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		::System::Single UpdateInterval; // 0x58
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigTargetValue*>* TargetValueConfigs; // 0x60
 		::System::String* defaultConfigTag; // 0x68
 		::System::String* defaultMultiplayerConfigTag; // 0x70

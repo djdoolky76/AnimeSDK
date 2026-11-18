@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_863445FF70B314F5.h"
+#include "unitysdk/IJGIBMLAOEG.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
 namespace System { class Action; }
-namespace System { class String; }
 
-#define MOLEMOLE_RABPAGECTRLCONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x14A1EA80)
-#define MOLEMOLE_RABPAGECTRLCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14A1EA20)
-#define MOLEMOLE_RABPAGECTRLCONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x14A1EB60)
+#define MOLEMOLE_RABPAGECTRLCONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x13116B30)
+#define MOLEMOLE_RABPAGECTRLCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13116AD0)
+#define MOLEMOLE_RABPAGECTRLCONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x13116C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RABPageCtrlContext_TypeDefinitionIndex = 76486;
+	inline static constexpr unsigned int RABPageCtrlContext_TypeDefinitionIndex = 89891;
 
 	class RABPageCtrlContext : public ::MoleMole::UIControllerContextBase
 	{
@@ -20,9 +19,10 @@ namespace MoleMole
 		// static const ::System::String* KeyBackPageType; // 0x0
 		::System::Action* AfterOpenAction; // 0x28
 		::System::Int32 jumpParam; // 0x30
-		::System::Boolean IsFromSwitchScene; // 0x34
-		::Enum_3_863445FF70B314F5 PageType; // 0x38
-		::Enum_3_863445FF70B314F5 BackPageType; // 0x3C
+		::IJGIBMLAOEG BackPageType; // 0x34
+		::System::Boolean IsFromSwitchScene; // 0x38
+		::System::Byte _padding0[0x3];
+		::IJGIBMLAOEG PageType; // 0x3C
 
 		::System::Void _ctor()
 		{

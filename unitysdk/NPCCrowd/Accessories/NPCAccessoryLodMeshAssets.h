@@ -1,28 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/Foundation/Unreal/FGameplayTagContainer.h"
-#include "unitysdk/NPCCrowd/EUnloadAssetReason.h"
+#include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/NPCCrowd/Lod/ELODLevel.h"
+#include "unitysdk/NPCCrowd/EUnloadAssetReason.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Mesh; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYLODMESHASSETS_GETMESH_OFFSET UNITYSDK_OFFSET(0x106430E0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYLODMESHASSETS_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0x10643550)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYLODMESHASSETS__CTOR_OFFSET UNITYSDK_OFFSET(0x106435A0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYLODMESHASSETS_GETMESH_OFFSET UNITYSDK_OFFSET(0xE1C3B20)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYLODMESHASSETS_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0xE1C3F90)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYLODMESHASSETS__CTOR_OFFSET UNITYSDK_OFFSET(0xE1C3FE0)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryLodMeshAssets_TypeDefinitionIndex = 82303;
+	inline static constexpr unsigned int NPCAccessoryLodMeshAssets_TypeDefinitionIndex = 66007;
 
 	class NPCAccessoryLodMeshAssets : public ::System::Object
 	{
 	public:
 		::System::Int32 id; // 0x10
 		::System::UInt16 number; // 0x14
+		::System::Byte _padding0[0x2];
 		::Il2CppArray<::System::Int32>* MDBPoses; // 0x18
 		::System::Collections::Generic::List_1<::System::Int32>* logicTags; // 0x20
 		::Foundation::Unreal::FGameplayTagContainer gameplayTags; // 0x28

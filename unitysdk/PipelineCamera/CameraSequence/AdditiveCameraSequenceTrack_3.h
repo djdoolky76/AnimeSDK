@@ -2,17 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int AdditiveCameraSequenceTrack_3_TypeDefinitionIndex = 38532;
+	inline static constexpr unsigned int AdditiveCameraSequenceTrack_3_TypeDefinitionIndex = 36531;
 
-	template <typename TSegment, typename TSequence, typename T>
+	template <typename T1, typename T2, typename T3>
 	class AdditiveCameraSequenceTrack_3 : public ::System::Object
 	{
 	public:
 		::System::Single startOffset; // 0x0
-		::Il2CppArray<TSegment>* segments; // 0x0
+		::Il2CppArray<T1>* segments; // 0x0
 	};
 }

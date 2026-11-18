@@ -8,13 +8,14 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Renderer; }
 
-inline static constexpr unsigned int FurHelper_ObjectInfos_TypeDefinitionIndex = 27704;
+inline static constexpr unsigned int FurHelper_ObjectInfos_TypeDefinitionIndex = 26966;
 
 struct alignas(8) FurHelper_ObjectInfos
 {
 	::UnityEngine::Renderer* renderer; // 0x10
 	::UnityEngine::Mesh* mesh; // 0x18
 	::System::Int32 furLayersNum; // 0x20
+	::System::Byte _padding0[0x4];
 	::UnityEngine::MaterialPropertyBlock* matPropBlock; // 0x28
 	::UnityEngine::Material* furMat; // 0x30
 	::System::Int32 furMatIdx; // 0x38

@@ -6,11 +6,11 @@
 namespace MoleMole::Config { class CoopVFXQualityConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGCOOPVFXQUALITYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B548280)
+#define MOLEMOLE_CONFIG_CONFIGCOOPVFXQUALITYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA27C30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCoopVFXQualitySetting_TypeDefinitionIndex = 78936;
+	inline static constexpr unsigned int ConfigCoopVFXQualitySetting_TypeDefinitionIndex = 47335;
 
 	class ConfigCoopVFXQualitySetting : public ::Foundation::MihoyoSerializedScriptableObject
 	{

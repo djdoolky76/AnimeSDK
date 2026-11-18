@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTARGETARROWUINODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1298C890)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTARGETARROWUINODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1298C990)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTARGETARROWUINODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1244BAC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTARGETARROWUINODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1244BBC0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDDestroyTargetArrowUINode_TypeDefinitionIndex = 54077;
+	inline static constexpr unsigned int LDDestroyTargetArrowUINode_TypeDefinitionIndex = 51811;
 
-	class LDDestroyTargetArrowUINode : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::String*>
+	class LDDestroyTargetArrowUINode
 	{
 	public:
 		::System::Void _ctor()

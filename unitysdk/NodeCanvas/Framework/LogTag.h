@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int LogTag_TypeDefinitionIndex = 30066;
+	inline static constexpr unsigned int LogTag_TypeDefinitionIndex = 29777;
 
 	class LogTag : public ::System::Object
 	{

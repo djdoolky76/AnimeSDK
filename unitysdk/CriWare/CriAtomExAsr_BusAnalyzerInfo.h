@@ -2,15 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXASR_BUSANALYZERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xAA6B40)
+#define CRIWARE_CRIATOMEXASR_BUSANALYZERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x98DFA0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAsr_BusAnalyzerInfo_TypeDefinitionIndex = 34926;
+	inline static constexpr unsigned int CriAtomExAsr_BusAnalyzerInfo_TypeDefinitionIndex = 34475;
 
 	struct alignas(8) CriAtomExAsr_BusAnalyzerInfo
 	{
 		::System::Int32 numChannels; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Single>* rmsLevels; // 0x18
 		::Il2CppArray<::System::Single>* peakLevels; // 0x20
 		::Il2CppArray<::System::Single>* peakHoldLevels; // 0x28

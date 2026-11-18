@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 #include "unitysdk/ParadoxNotion/EventData_1.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
-namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLOOKAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E235AB0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLOOKAT_ONANIMATORIK_OFFSET UNITYSDK_OFFSET(0x1E235C90)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLOOKAT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E235AF0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLOOKAT_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1E235BC0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E235F00)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLOOKAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EBB72E0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLOOKAT_ONANIMATORIK_OFFSET UNITYSDK_OFFSET(0x1EBB74C0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLOOKAT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EBB7320)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLOOKAT_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1EBB73F0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETLOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB7730)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int MecanimSetLookAt_TypeDefinitionIndex = 30806;
+	inline static constexpr unsigned int MecanimSetLookAt_TypeDefinitionIndex = 30771;
 
-	class MecanimSetLookAt : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Animator*>
+	class MecanimSetLookAt
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* targetWeight; // 0x60

@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BPNGLLLIMDC_MNFDBFNLEBL;
+
+#define BPNGLLLIMDC_DKKBJFMNGAN_IPBFGCHOIND_OFFSET UNITYSDK_OFFSET(0x11527020)
+#define BPNGLLLIMDC_DKKBJFMNGAN_OIDPCBIECJD_OFFSET UNITYSDK_OFFSET(0x11527040)
+#define BPNGLLLIMDC_DKKBJFMNGAN__CTOR_OFFSET UNITYSDK_OFFSET(0x11527010)
+
+inline static constexpr unsigned int BPNGLLLIMDC_DKKBJFMNGAN_TypeDefinitionIndex = 56026;
+
+class BPNGLLLIMDC_DKKBJFMNGAN : public ::System::Object
+{
+public:
+	::System::Int32 NCJMGAJHMIF; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BPNGLLLIMDC_DKKBJFMNGAN__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean IPBFGCHOIND(::BPNGLLLIMDC_MNFDBFNLEBL* HAAEBCOBKFF)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::BPNGLLLIMDC_MNFDBFNLEBL*))((::PBYTE)hIl2Cpp + BPNGLLLIMDC_DKKBJFMNGAN_IPBFGCHOIND_OFFSET))(this, HAAEBCOBKFF);
+	}
+
+	::System::Boolean OIDPCBIECJD(::BPNGLLLIMDC_MNFDBFNLEBL* HAAEBCOBKFF)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::BPNGLLLIMDC_MNFDBFNLEBL*))((::PBYTE)hIl2Cpp + BPNGLLLIMDC_DKKBJFMNGAN_OIDPCBIECJD_OFFSET))(this, HAAEBCOBKFF);
+	}
+};

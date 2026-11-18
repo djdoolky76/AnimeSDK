@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int HableCurve_DirectParams_TypeDefinitionIndex = 5965;
+	inline static constexpr unsigned int HableCurve_DirectParams_TypeDefinitionIndex = 5971;
 
 	struct alignas(4) HableCurve_DirectParams
 	{

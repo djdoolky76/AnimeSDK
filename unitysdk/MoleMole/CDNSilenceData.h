@@ -6,13 +6,13 @@ namespace Foundation { class VersionFileInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CDNSILENCEDATA_GET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x17273320)
-#define MOLEMOLE_CDNSILENCEDATA_SET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x17273330)
-#define MOLEMOLE_CDNSILENCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17273340)
+#define MOLEMOLE_CDNSILENCEDATA_GET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x163E1DC0)
+#define MOLEMOLE_CDNSILENCEDATA_SET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x163E1DD0)
+#define MOLEMOLE_CDNSILENCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x163E1DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CDNSilenceData_TypeDefinitionIndex = 68752;
+	inline static constexpr unsigned int CDNSilenceData_TypeDefinitionIndex = 59854;
 
 	class CDNSilenceData : public ::System::Object
 	{
@@ -32,9 +32,9 @@ namespace MoleMole
 			return ((::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CDNSILENCEDATA_GET_VERSIONS_LIST_OFFSET))(this);
 		}
 
-		::System::Void set_versions_list(::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>* a1)
+		::System::Void set_versions_list(::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CDNSILENCEDATA_SET_VERSIONS_LIST_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CDNSILENCEDATA_SET_VERSIONS_LIST_OFFSET))(this, EGEGIMGMJHN);
 		}
 	};
 }

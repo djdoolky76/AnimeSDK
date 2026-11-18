@@ -12,11 +12,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUIFISH__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD9B90)
+#define MOLEMOLE_CONFIGUIFISH__CTOR_OFFSET UNITYSDK_OFFSET(0xFFF5F50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIFish_TypeDefinitionIndex = 45082;
+	inline static constexpr unsigned int ConfigUIFish_TypeDefinitionIndex = 70555;
 
 	class ConfigUIFish : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -25,8 +25,10 @@ namespace MoleMole
 		::MoleMole::FishCameraConfigGroup* FishCameraConfigGroups; // 0x60
 		::MoleMole::Config::ConfigHollowCameraShake* QTEShake; // 0x68
 		::System::Single QTEShakeDuration; // 0x70
+		::System::Byte _padding0[0x4];
 		::MoleMole::Config::ConfigHollowCameraShake* ClickShake; // 0x78
 		::System::Single ClickShakeDuration; // 0x80
+		::System::Byte _padding1[0x4];
 		::System::String* WaitFishEffect; // 0x88
 		::System::String* StartQTEEffect; // 0x90
 		::System::String* FishFollowLeftEffect; // 0x98
@@ -37,6 +39,7 @@ namespace MoleMole
 		::System::Single WeaponFadeTime; // 0xC0
 		::System::Single LineEffectRate; // 0xC4
 		::System::Single WeaponFadeSpeed; // 0xC8
+		::System::Byte _padding2[0x4];
 		::System::String* QteBlur; // 0xD0
 		::System::Single WaitStartFishTime; // 0xD8
 		::System::Single WaitStartBattleTime; // 0xDC
@@ -45,6 +48,7 @@ namespace MoleMole
 		::System::Single PopAutoCloseTime; // 0xEC
 		::UnityEngine::AnimationCurve* SkillDamageCurve; // 0xF0
 		::System::Single SkillDamageDuration; // 0xF8
+		::System::Byte _padding3[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::FishMoveParam*>* FishMoveParams; // 0x100
 		::UnityEngine::Vector3 LeftPosOffset; // 0x108
 		::UnityEngine::Vector3 RightPosOffset; // 0x114
@@ -54,6 +58,7 @@ namespace MoleMole
 		::UnityEngine::Vector3 FishPoleEuler; // 0x130
 		::System::Single CountDownTime; // 0x13C
 		::System::Single FinalTime; // 0x140
+		::System::Byte _padding4[0x4];
 		::System::String* FinalPostEffect; // 0x148
 		::System::String* BossPostEffect; // 0x150
 

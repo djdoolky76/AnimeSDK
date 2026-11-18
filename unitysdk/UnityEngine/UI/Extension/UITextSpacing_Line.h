@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_UI_EXTENSION_UITEXTSPACING_LINE_GET_ENDVERTEXINDEX_OFFSET UNITYSDK_OFFSET(0x1C3F9BD0)
-#define UNITYENGINE_UI_EXTENSION_UITEXTSPACING_LINE_GET_STARTVERTEXINDEX_OFFSET UNITYSDK_OFFSET(0x1C3F9BC0)
-#define UNITYENGINE_UI_EXTENSION_UITEXTSPACING_LINE_GET_VERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1C3F9BE0)
-#define UNITYENGINE_UI_EXTENSION_UITEXTSPACING_LINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F9BF0)
+#define UNITYENGINE_UI_EXTENSION_UITEXTSPACING_LINE_GET_ENDVERTEXINDEX_OFFSET UNITYSDK_OFFSET(0x1BA13A30)
+#define UNITYENGINE_UI_EXTENSION_UITEXTSPACING_LINE_GET_STARTVERTEXINDEX_OFFSET UNITYSDK_OFFSET(0x1BA13A20)
+#define UNITYENGINE_UI_EXTENSION_UITEXTSPACING_LINE_GET_VERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1BA13A40)
+#define UNITYENGINE_UI_EXTENSION_UITEXTSPACING_LINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA13A50)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITextSpacing_Line_TypeDefinitionIndex = 89715;
+	inline static constexpr unsigned int UITextSpacing_Line_TypeDefinitionIndex = 78868;
 
 	class UITextSpacing_Line : public ::System::Object
 	{
 	public:
 		::System::Int32 _endVertexIndex; // 0x10
-		::System::Int32 _startVertexIndex; // 0x14
-		::System::Int32 _vertexCount; // 0x18
+		::System::Int32 _vertexCount; // 0x14
+		::System::Int32 _startVertexIndex; // 0x18
 
 		::System::Void _ctor(::System::Int32 startVertexIndex, ::System::Int32 length)
 		{

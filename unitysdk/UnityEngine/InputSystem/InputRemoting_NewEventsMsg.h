@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/InputSystem/InputRemoting_Message.h"
-#include "unitysdk/UnityEngine/InputSystem/LowLevel/InputEvent.h"
 
 namespace UnityEngine::InputSystem { class InputDevice; }
 namespace UnityEngine::InputSystem { class InputRemoting; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWEVENTSMSG_CREATERESETEVENT_OFFSET UNITYSDK_OFFSET(0x1F12AA60)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWEVENTSMSG_CREATESTATEEVENT_OFFSET UNITYSDK_OFFSET(0x1F12ACF0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWEVENTSMSG_CREATE_OFFSET UNITYSDK_OFFSET(0x1F12ABC0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWEVENTSMSG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F12AE20)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWEVENTSMSG_CREATERESETEVENT_OFFSET UNITYSDK_OFFSET(0x1F4E76E0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWEVENTSMSG_CREATESTATEEVENT_OFFSET UNITYSDK_OFFSET(0x1F4E7970)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWEVENTSMSG_CREATE_OFFSET UNITYSDK_OFFSET(0x1F4E7840)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWEVENTSMSG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F4E7AA0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_NewEventsMsg_TypeDefinitionIndex = 32277;
+	inline static constexpr unsigned int InputRemoting_NewEventsMsg_TypeDefinitionIndex = 31726;
 
 	class InputRemoting_NewEventsMsg : public ::System::Object
 	{
@@ -29,9 +28,9 @@ namespace UnityEngine::InputSystem
 			return ((::UnityEngine::InputSystem::InputRemoting_Message(*)(::UnityEngine::InputSystem::InputDevice*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWEVENTSMSG_CREATESTATEEVENT_OFFSET))(device);
 		}
 
-		static ::UnityEngine::InputSystem::InputRemoting_Message Create(::UnityEngine::InputSystem::LowLevel::InputEvent* events, ::System::Int32 eventCount)
+		static ::UnityEngine::InputSystem::InputRemoting_Message Create(::PVOID events, ::System::Int32 eventCount)
 		{
-			return ((::UnityEngine::InputSystem::InputRemoting_Message(*)(::UnityEngine::InputSystem::LowLevel::InputEvent*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWEVENTSMSG_CREATE_OFFSET))(events, eventCount);
+			return ((::UnityEngine::InputSystem::InputRemoting_Message(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWEVENTSMSG_CREATE_OFFSET))(events, eventCount);
 		}
 
 		static ::System::Void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg)

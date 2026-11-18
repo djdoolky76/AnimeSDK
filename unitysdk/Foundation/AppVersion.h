@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_APPVERSION_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1E9BAAD0)
-#define FOUNDATION_APPVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9BAEB0)
+#define FOUNDATION_APPVERSION_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1EA700E0)
+#define FOUNDATION_APPVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA704C0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AppVersion_TypeDefinitionIndex = 8278;
+	inline static constexpr unsigned int AppVersion_TypeDefinitionIndex = 8417;
 
 	class AppVersion : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{
@@ -21,6 +21,7 @@ namespace Foundation
 		::System::String* P4ChangeList; // 0x68
 		::System::String* PkgSplit; // 0x70
 		::System::Boolean AppStoreReview; // 0x78
+		::System::Byte _padding0[0x7];
 		::System::String* PkgUseage; // 0x80
 		::System::String* ProtocalHash; // 0x88
 		::System::String* Version; // 0x90

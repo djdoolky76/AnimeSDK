@@ -1,0 +1,131 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BMMKEKBFOIO.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+
+class CJIEIHEDMME;
+class HNMBDDGKJBK;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIZenkovZeroFriendTabWidgetController; }
+namespace MoleMole { class UIZenkovZeroHollowTabWidgetController; }
+namespace System { template <typename T> class Action_1; }
+
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_INITTABWIDGET_OFFSET UNITYSDK_OFFSET(0x120A43F0)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_ONCLICKABYSSZEROTAB_OFFSET UNITYSDK_OFFSET(0x120A4E10)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_ONCLICKZENKOVTAB_OFFSET UNITYSDK_OFFSET(0x120A4C60)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x120A46B0)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x120A4740)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x120A42C0)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x120A4640)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_REFRESHABYSSVIEW_OFFSET UNITYSDK_OFFSET(0x120A4A70)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_REFRESHACTIVITYDATA_OFFSET UNITYSDK_OFFSET(0x120A4810)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_REFRESHTABSELECT_OFFSET UNITYSDK_OFFSET(0x120A4EA0)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_REFRESHZENKOVVIEW_OFFSET UNITYSDK_OFFSET(0x120A4880)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_SETCLICKTABCALLBACK_OFFSET UNITYSDK_OFFSET(0x120A47C0)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x120A50C0)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x120A5120)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x120A51B0)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x120A5240)
+#define MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x120A52D0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIZenkovZeroMarketTabWidgetController_TypeDefinitionIndex = 60634;
+
+	class UIZenkovZeroMarketTabWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::HNMBDDGKJBK* _view; // 0x2C8
+		::MoleMole::UIZenkovZeroFriendTabWidgetController* zenkovTabRow; // 0x2D0
+		::MoleMole::UIZenkovZeroHollowTabWidgetController* abyssZeroTabRow; // 0x2D8
+		::CJIEIHEDMME* zenkovGuideData; // 0x2E0
+		::CJIEIHEDMME* abyssZeroData; // 0x2E8
+		::System::Action_1<::System::Int32>* clickTabCallback; // 0x2F0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void SetClickTabCallback(::System::Action_1<::System::Int32>* clickTabCallback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_SETCLICKTABCALLBACK_OFFSET))(this, clickTabCallback);
+		}
+
+		::System::Void RefreshActivityData(::CJIEIHEDMME* zenkovGuideData, ::CJIEIHEDMME* abyssZeroData)
+		{
+			return ((::System::Void(*)(::PVOID, ::CJIEIHEDMME*, ::CJIEIHEDMME*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_REFRESHACTIVITYDATA_OFFSET))(this, zenkovGuideData, abyssZeroData);
+		}
+
+		::System::Void RefreshZenkovView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_REFRESHZENKOVVIEW_OFFSET))(this);
+		}
+
+		::System::Void RefreshAbyssView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_REFRESHABYSSVIEW_OFFSET))(this);
+		}
+
+		::System::Void InitTabWidget()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_INITTABWIDGET_OFFSET))(this);
+		}
+
+		::System::Void OnClickZenkovTab()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_ONCLICKZENKOVTAB_OFFSET))(this);
+		}
+
+		::System::Void OnClickAbyssZeroTab()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_ONCLICKABYSSZEROTAB_OFFSET))(this);
+		}
+
+		::System::Void RefreshTabSelect(::BMMKEKBFOIO index)
+		{
+			return ((::System::Void(*)(::PVOID, ::BMMKEKBFOIO))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER_REFRESHTABSELECT_OFFSET))(this, index);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVZEROMARKETTABWIDGETCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+	};
+}

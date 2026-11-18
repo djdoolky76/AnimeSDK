@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 namespace MoleMole::Timeline { class TimeLinePlayableBehaviour; }
 namespace System { class Object; }
@@ -12,27 +12,27 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class PropertyCurve; }
 namespace UnityEngine::Timeline { class TimelineFrame; }
 
-#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR_CHECKISRECORDER_OFFSET UNITYSDK_OFFSET(0x1F962A90)
-#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR_INITDATA_OFFSET UNITYSDK_OFFSET(0x1F961C90)
-#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1F962170)
-#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1F962C50)
-#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR_PREPAREDATA_OFFSET UNITYSDK_OFFSET(0x1F961B20)
-#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1F9622E0)
-#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F962F00)
+#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR_CHECKISRECORDER_OFFSET UNITYSDK_OFFSET(0x1FD61B00)
+#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR_INITDATA_OFFSET UNITYSDK_OFFSET(0x1FD60D00)
+#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1FD611E0)
+#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1FD61CC0)
+#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR_PREPAREDATA_OFFSET UNITYSDK_OFFSET(0x1FD60B90)
+#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1FD61350)
+#define UNITYENGINE_TIMELINE_BASEFRAME_TIMELINEFRAMEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD61F70)
 
 namespace UnityEngine::Timeline::BaseFrame
 {
-	inline static constexpr unsigned int TimelineFrameBehaviour_TypeDefinitionIndex = 33108;
+	inline static constexpr unsigned int TimelineFrameBehaviour_TypeDefinitionIndex = 32568;
 
 	class TimelineFrameBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::Timeline::TimeLinePlayableBehaviour*>* initBehaviours; // 0x10
+		::System::Collections::Generic::List_1<::MoleMole::Timeline::TimeLinePlayableBehaviour*>* RealPlayableBehaviours; // 0x10
 		::UnityEngine::Timeline::TimelineFrame* frameTrack; // 0x18
-		::System::Collections::Generic::List_1<::MoleMole::Timeline::TimeLinePlayableBehaviour*>* RealPlayableBehaviours; // 0x20
-		::System::Collections::Generic::List_1<::UnityEngine::Timeline::PropertyCurve*>* frameInfos; // 0x28
-		::System::Boolean dontResetActive; // 0x30
-		::System::Boolean dontResetWhenDestroy; // 0x31
+		::System::Collections::Generic::List_1<::UnityEngine::Timeline::PropertyCurve*>* frameInfos; // 0x20
+		::System::Collections::Generic::List_1<::MoleMole::Timeline::TimeLinePlayableBehaviour*>* initBehaviours; // 0x28
+		::System::Boolean dontResetWhenDestroy; // 0x30
+		::System::Boolean dontResetActive; // 0x31
 
 		::System::Void _ctor()
 		{

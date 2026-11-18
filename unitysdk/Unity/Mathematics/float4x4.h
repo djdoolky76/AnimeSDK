@@ -7,23 +7,23 @@ namespace System { class IFormatProvider; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITY_MATHEMATICS_FLOAT4X4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA61800)
-#define UNITY_MATHEMATICS_FLOAT4X4_EQUALS_OFFSET UNITYSDK_OFFSET(0xA616F0)
-#define UNITY_MATHEMATICS_FLOAT4X4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA61810)
-#define UNITY_MATHEMATICS_FLOAT4X4_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0xA622E0)
-#define UNITY_MATHEMATICS_FLOAT4X4_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA618E0)
-#define UNITY_MATHEMATICS_FLOAT4X4__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBD2060)
-#define UNITY_MATHEMATICS_FLOAT4X4__CTOR_OFFSET UNITYSDK_OFFSET(0xA61580)
+#define UNITY_MATHEMATICS_FLOAT4X4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x941DB0)
+#define UNITY_MATHEMATICS_FLOAT4X4_EQUALS_OFFSET UNITYSDK_OFFSET(0x941CA0)
+#define UNITY_MATHEMATICS_FLOAT4X4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x941DC0)
+#define UNITY_MATHEMATICS_FLOAT4X4_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x942890)
+#define UNITY_MATHEMATICS_FLOAT4X4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x941E90)
+#define UNITY_MATHEMATICS_FLOAT4X4__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF828F0)
+#define UNITY_MATHEMATICS_FLOAT4X4__CTOR_OFFSET UNITYSDK_OFFSET(0x941B30)
 
 namespace Unity::Mathematics
 {
-	inline static constexpr unsigned int float4x4_TypeDefinitionIndex = 32735;
+	inline static constexpr unsigned int float4x4_TypeDefinitionIndex = 32184;
 
 	struct alignas(4) float4x4
 	{
 		static ::Unity::Mathematics::float4x4* StaticGet_identity()
 		{
-			return (::Unity::Mathematics::float4x4*)Il2CppClass::FromTypeDefinitionIndex(float4x4_TypeDefinitionIndex)->GetStaticField(0x7E30);
+			return (::Unity::Mathematics::float4x4*)Il2CppClass::FromTypeDefinitionIndex(float4x4_TypeDefinitionIndex)->GetStaticField(0x8230);
 		}
 		::Unity::Mathematics::float4 c0; // 0x10
 		::Unity::Mathematics::float4 c1; // 0x20
@@ -40,10 +40,12 @@ namespace Unity::Mathematics
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_FLOAT4X4__CCTOR_OFFSET))();
 		}
 
+		/*
 		::System::Boolean Equals(::Unity::Mathematics::float4x4 rhs)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Unity::Mathematics::float4x4))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_FLOAT4X4_EQUALS_OFFSET))(this, rhs);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* o)
 		{

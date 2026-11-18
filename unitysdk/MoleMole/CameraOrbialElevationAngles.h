@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraOrbialElevationAngles_TypeDefinitionIndex = 48604;
+	inline static constexpr unsigned int CameraOrbialElevationAngles_TypeDefinitionIndex = 91781;
 
 	struct alignas(4) CameraOrbialElevationAngles
 	{

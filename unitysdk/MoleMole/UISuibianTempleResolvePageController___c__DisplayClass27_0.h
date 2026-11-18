@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1685EC66FBD28897;
+class KOIDMLPJGML;
 namespace MoleMole { class UISuibianTempleResolvePageController; }
 
-#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x119F2B70)
-#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__DISPLAYCLASS27_0__REFRESHSCROLL_B__0_OFFSET UNITYSDK_OFFSET(0x119F2B80)
+#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x156288F0)
+#define MOLEMOLE_UISUIBIANTEMPLERESOLVEPAGECONTROLLER___C__DISPLAYCLASS27_0__REFRESHSCROLL_B__0_OFFSET UNITYSDK_OFFSET(0x15628900)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleResolvePageController___c__DisplayClass27_0_TypeDefinitionIndex = 60620;
+	inline static constexpr unsigned int UISuibianTempleResolvePageController___c__DisplayClass27_0_TypeDefinitionIndex = 58817;
 
 	class UISuibianTempleResolvePageController___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UISuibianTempleResolvePageController* __4__this; // 0x10
-		::Class_1_1685EC66FBD28897* data; // 0x18
+		::KOIDMLPJGML* data; // 0x18
 
 		::System::Void _ctor()
 		{

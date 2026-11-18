@@ -7,11 +7,12 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimatorControllerManager_ArchetypeData_TypeDefinitionIndex = 72655;
+	inline static constexpr unsigned int AnimatorControllerManager_ArchetypeData_TypeDefinitionIndex = 76483;
 
 	struct alignas(8) AnimatorControllerManager_ArchetypeData
 	{
 		::Unity::Collections::NativeSlice_1<::NPCCrowd::Animation::AnimatorControllerParamEntry> Params; // 0x10
+		::System::Byte _padding0[0x8];
 		::Unity::Collections::NativeSlice_1<::NPCCrowd::Animation::AnimatorControllerStateEntry> States; // 0x20
 	};
 }

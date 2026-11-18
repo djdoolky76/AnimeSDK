@@ -7,7 +7,6 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
 
-namespace SQLite { template <typename T> class FastColumnSetter___c__1_1; }
 namespace System { class String; }
 namespace System { class Uri; }
 namespace System { class UriBuilder; }
@@ -16,15 +15,15 @@ namespace System::Text { class StringBuilder; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int FastColumnSetter___c__1_1_TypeDefinitionIndex = 39072;
+	inline static constexpr unsigned int FastColumnSetter___c__1_1_TypeDefinitionIndex = 37072;
 
 	template <typename T>
 	class FastColumnSetter___c__1_1 : public ::System::Object
 	{
 	public:
-		static ::SQLite::FastColumnSetter___c__1_1<T>** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::SQLite::FastColumnSetter___c__1_1<T>**)Il2CppClass::FromTypeDefinitionIndex(FastColumnSetter___c__1_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(FastColumnSetter___c__1_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 		static ::System::Func_3<::System::IntPtr, ::System::Int32, ::System::String*>** StaticGet___9__1_0()
 		{

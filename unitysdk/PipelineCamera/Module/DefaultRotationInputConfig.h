@@ -7,9 +7,9 @@
 
 namespace PipelineCamera::Module
 {
-	inline static constexpr unsigned int DefaultRotationInputConfig_TypeDefinitionIndex = 38659;
+	inline static constexpr unsigned int DefaultRotationInputConfig_TypeDefinitionIndex = 36659;
 
-	struct alignas(8) DefaultRotationInputConfig
+	struct alignas(4) DefaultRotationInputConfig
 	{
 		::PipelineCamera::EulerRotation InitialRotation; // 0x10
 		::UnityEngine::Vector3 InitialRotationSpeed; // 0x58

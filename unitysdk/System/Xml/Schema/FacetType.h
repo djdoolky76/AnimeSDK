@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int FacetType_TypeDefinitionIndex = 2142;
+	inline static constexpr unsigned int FacetType_TypeDefinitionIndex = 2141;
 
 	enum class FacetType : ::System::Int32
 	{

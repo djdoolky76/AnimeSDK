@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOVEHICLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x129D63B0)
+#define MOLEMOLE_MONOVEHICLEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1249A5C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoVehicleObject_TypeDefinitionIndex = 51200;
+	inline static constexpr unsigned int MonoVehicleObject_TypeDefinitionIndex = 71946;
 
 	class MonoVehicleObject : public ::MoleMole::MonoSceneObjectBase
 	{
 	public:
-		::System::String* assetPath; // 0x28
-		::System::String* ScriptConfigPath; // 0x30
+		::System::String* assetPath; // 0x38
+		::System::String* ScriptConfigPath; // 0x40
 
 		::System::Void _ctor()
 		{

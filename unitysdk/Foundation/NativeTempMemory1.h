@@ -5,16 +5,18 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define FOUNDATION_NATIVETEMPMEMORY1_GETSLOT_OFFSET UNITYSDK_OFFSET(0xAB2850)
+#define FOUNDATION_NATIVETEMPMEMORY1_GETSLOT_OFFSET UNITYSDK_OFFSET(0x998760)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeTempMemory1_TypeDefinitionIndex = 8874;
+	inline static constexpr unsigned int NativeTempMemory1_TypeDefinitionIndex = 9012;
 
 	struct alignas(8) NativeTempMemory1
 	{
 		::Foundation::FixedArray1_1<::Foundation::NativeMemoryAllocation> Slots; // 0x10
+		::System::Byte _padding0[0x10];
 		::Unity::Collections::NativeArray_1<::System::Byte> Storage; // 0x28
+		::System::Byte _padding1[0x8];
 		::System::Int32 StartOffset; // 0x38
 
 		::Foundation::NativeMemoryAllocation GetSlot(::System::Int32 slotIndex)

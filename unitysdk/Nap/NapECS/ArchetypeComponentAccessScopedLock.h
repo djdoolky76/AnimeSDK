@@ -1,17 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Nap/NapECS/ComponentMask.h"
 
 namespace Nap::NapECS { class EcsWorld; }
 
-#define NAP_NAPECS_ARCHETYPECOMPONENTACCESSSCOPEDLOCK_CREATE_OFFSET UNITYSDK_OFFSET(0x1C82F010)
-#define NAP_NAPECS_ARCHETYPECOMPONENTACCESSSCOPEDLOCK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x95AD80)
+#define NAP_NAPECS_ARCHETYPECOMPONENTACCESSSCOPEDLOCK_CREATE_OFFSET UNITYSDK_OFFSET(0x1CDF5970)
+#define NAP_NAPECS_ARCHETYPECOMPONENTACCESSSCOPEDLOCK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x85ED40)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ArchetypeComponentAccessScopedLock_TypeDefinitionIndex = 38014;
+	inline static constexpr unsigned int ArchetypeComponentAccessScopedLock_TypeDefinitionIndex = 35954;
 
-	struct alignas(1) ArchetypeComponentAccessScopedLock
+	struct alignas(4) ArchetypeComponentAccessScopedLock
 	{
 		/*
 		static ::Nap::NapECS::ArchetypeComponentAccessScopedLock Create(::Nap::NapECS::EcsWorld* world, ::Nap::NapECS::ComponentMask archetype, ::Nap::NapECS::ComponentMask readable, ::Nap::NapECS::ComponentMask writable)

@@ -2,15 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Nap/NapECS/ComponentMask.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Nap/NapECS/ArchetypeComponentAccessScopedLock.h"
 
 namespace Nap::NapECS { class EcsWorld; }
 
-#define NAP_NAPECS_ARCHETYPECOMPONENTACCESSOR_ENTERCRITICALSECTION_OFFSET UNITYSDK_OFFSET(0x95AEC0)
-#define NAP_NAPECS_ARCHETYPECOMPONENTACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x95AE30)
+#define NAP_NAPECS_ARCHETYPECOMPONENTACCESSOR_ENTERCRITICALSECTION_OFFSET UNITYSDK_OFFSET(0x85EE80)
+#define NAP_NAPECS_ARCHETYPECOMPONENTACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x85EDF0)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ArchetypeComponentAccessor_TypeDefinitionIndex = 37968;
+	inline static constexpr unsigned int ArchetypeComponentAccessor_TypeDefinitionIndex = 36038;
 
 	struct alignas(8) ArchetypeComponentAccessor
 	{
@@ -24,11 +25,9 @@ namespace Nap::NapECS
 			return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*, ::Nap::NapECS::ComponentMask&, ::Nap::NapECS::ComponentMask&, ::Nap::NapECS::ComponentMask&))((::PBYTE)hIl2Cpp + NAP_NAPECS_ARCHETYPECOMPONENTACCESSOR__CTOR_OFFSET))(this, world, readComponents, writeComponents, archetype);
 		}
 
-		/*
 		::Nap::NapECS::ArchetypeComponentAccessScopedLock EnterCriticalSection()
 		{
 			return ((::Nap::NapECS::ArchetypeComponentAccessScopedLock(*)(::PVOID))((::PBYTE)hIl2Cpp + NAP_NAPECS_ARCHETYPECOMPONENTACCESSOR_ENTERCRITICALSECTION_OFFSET))(this);
 		}
-		*/
 	};
 }

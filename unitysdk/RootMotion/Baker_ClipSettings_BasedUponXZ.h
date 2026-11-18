@@ -3,11 +3,11 @@
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Baker_ClipSettings_BasedUponXZ_TypeDefinitionIndex = 39001;
+	inline static constexpr unsigned int Baker_ClipSettings_BasedUponXZ_TypeDefinitionIndex = 36918;
 
 	enum class Baker_ClipSettings_BasedUponXZ : ::System::Int32
 	{
-		CenterOfMass = 1,
 		Original = 0,
+		CenterOfMass = 1,
 	};
 }

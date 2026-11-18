@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/DictionaryEntry.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaObjectTable_EnumeratorType.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaObjectTable_XSOEnumerator.h"
-#include "unitysdk/System/Xml/Schema/XmlSchemaObjectTable_XmlSchemaObjectEntry.h"
+#include "unitysdk/System/Collections/DictionaryEntry.h"
 
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSODICTIONARYENUMERATOR_GET_ENTRY_OFFSET UNITYSDK_OFFSET(0x1D566070)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSODICTIONARYENUMERATOR_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1D5661C0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSODICTIONARYENUMERATOR_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D566300)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSODICTIONARYENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D566050)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSODICTIONARYENUMERATOR_GET_ENTRY_OFFSET UNITYSDK_OFFSET(0x1DA60F90)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSODICTIONARYENUMERATOR_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1DA610E0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSODICTIONARYENUMERATOR_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1DA61220)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSODICTIONARYENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA60F70)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaObjectTable_XSODictionaryEnumerator_TypeDefinitionIndex = 2178;
+	inline static constexpr unsigned int XmlSchemaObjectTable_XSODictionaryEnumerator_TypeDefinitionIndex = 2177;
 
 	class XmlSchemaObjectTable_XSODictionaryEnumerator : public ::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator
 	{
 	public:
-		::System::Void _ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries, ::System::Int32 size, ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType)
+		::System::Void _ctor(::System::Collections::Generic::List_1<::System::Object*>* entries, ::System::Int32 size, ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>*, ::System::Int32, ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSODICTIONARYENUMERATOR__CTOR_OFFSET))(this, entries, size, enumType);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32, ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAOBJECTTABLE_XSODICTIONARYENUMERATOR__CTOR_OFFSET))(this, entries, size, enumType);
 		}
 
 		::System::Collections::DictionaryEntry get_Entry()

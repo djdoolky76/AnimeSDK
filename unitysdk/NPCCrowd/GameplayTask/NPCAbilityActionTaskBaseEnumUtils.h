@@ -6,36 +6,36 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_GAMEPLAYTASK_NPCABILITYACTIONTASKBASEENUMUTILS_GETENUMNAME_1_OFFSET UNITYSDK_OFFSET(0x12D2EDB0)
-#define NPCCROWD_GAMEPLAYTASK_NPCABILITYACTIONTASKBASEENUMUTILS_GETENUMNAME_OFFSET UNITYSDK_OFFSET(0x12D2ED70)
-#define NPCCROWD_GAMEPLAYTASK_NPCABILITYACTIONTASKBASEENUMUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x12D2EF30)
+#define NPCCROWD_GAMEPLAYTASK_NPCABILITYACTIONTASKBASEENUMUTILS_GETENUMNAME_1_OFFSET UNITYSDK_OFFSET(0x14F32500)
+#define NPCCROWD_GAMEPLAYTASK_NPCABILITYACTIONTASKBASEENUMUTILS_GETENUMNAME_OFFSET UNITYSDK_OFFSET(0x14F324C0)
+#define NPCCROWD_GAMEPLAYTASK_NPCABILITYACTIONTASKBASEENUMUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F32680)
 
 namespace NPCCrowd::GameplayTask
 {
-	inline static constexpr unsigned int NPCAbilityActionTaskBaseEnumUtils_TypeDefinitionIndex = 54892;
+	inline static constexpr unsigned int NPCAbilityActionTaskBaseEnumUtils_TypeDefinitionIndex = 40216;
 
 	class NPCAbilityActionTaskBaseEnumUtils : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_AwaitingActivation()
+		static ::System::String** StaticGet_Finished()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityActionTaskBaseEnumUtils_TypeDefinitionIndex)->GetStaticField(0x43290);
-		}
-		static ::System::String** StaticGet_Active()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityActionTaskBaseEnumUtils_TypeDefinitionIndex)->GetStaticField(0x43298);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityActionTaskBaseEnumUtils_TypeDefinitionIndex)->GetStaticField(0x490D0);
 		}
 		static ::System::String** StaticGet_Paused()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityActionTaskBaseEnumUtils_TypeDefinitionIndex)->GetStaticField(0x432A0);
-		}
-		static ::System::String** StaticGet_Finished()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityActionTaskBaseEnumUtils_TypeDefinitionIndex)->GetStaticField(0x432A8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityActionTaskBaseEnumUtils_TypeDefinitionIndex)->GetStaticField(0x490D8);
 		}
 		static ::System::String** StaticGet_Uninitialized()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityActionTaskBaseEnumUtils_TypeDefinitionIndex)->GetStaticField(0x432B0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityActionTaskBaseEnumUtils_TypeDefinitionIndex)->GetStaticField(0x490E0);
+		}
+		static ::System::String** StaticGet_Active()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityActionTaskBaseEnumUtils_TypeDefinitionIndex)->GetStaticField(0x490E8);
+		}
+		static ::System::String** StaticGet_AwaitingActivation()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCAbilityActionTaskBaseEnumUtils_TypeDefinitionIndex)->GetStaticField(0x490F0);
 		}
 
 		static ::System::Void _cctor()

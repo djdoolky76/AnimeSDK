@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int ConfidenceLevel_TypeDefinitionIndex = 5459;
+	inline static constexpr unsigned int ConfidenceLevel_TypeDefinitionIndex = 5462;
 
 	enum class ConfidenceLevel : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int IUITextFeatureDataBuilder_TypeDefinitionIndex = 75646;
+	inline static constexpr unsigned int IUITextFeatureDataBuilder_TypeDefinitionIndex = 56554;
 
 	class IUITextFeatureDataBuilder
 	{

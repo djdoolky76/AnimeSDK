@@ -5,16 +5,17 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CAMERAMODULELOCKROTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x167EBCD0)
+#define MOLEMOLE_CAMERAMODULELOCKROTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16510650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraModuleLockRotateData_TypeDefinitionIndex = 62368;
+	inline static constexpr unsigned int CameraModuleLockRotateData_TypeDefinitionIndex = 53663;
 
 	class CameraModuleLockRotateData : public ::System::Object
 	{
 	public:
 		::System::Boolean LT_CANROTATE; // 0x10
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector2 LT_ROTATE_MINMAX_ANGLE; // 0x14
 		::System::Single LT_ANGLEANDDIS_RATIO; // 0x1C
 		::UnityEngine::AnimationCurve* LT_LONGDIS_ANGLELERPCURVE; // 0x20

@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCParameters_TypeDefinitionIndex = 19680;
+	inline static constexpr unsigned int UGCParameters_TypeDefinitionIndex = 18835;
 
 	class UGCParameters : public ::System::Object
 	{

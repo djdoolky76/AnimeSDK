@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
 
 namespace MoleMole { class ConfigNewbie_TargetPath; }
 namespace SimpleJSON { class JSONClass; }
 
-#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x19FFB020)
-#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x19FFB1B0)
-#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19FFB320)
+#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x1A776BD0)
+#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1A776D60)
+#define MOLEMOLE_CONFIGNEWBIE_CIRCLEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A776ED0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_CircleEffect_TypeDefinitionIndex = 78130;
+	inline static constexpr unsigned int ConfigNewbie_CircleEffect_TypeDefinitionIndex = 55931;
 
 	class ConfigNewbie_CircleEffect : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 
 namespace ObservableCollections::Internal
 {
-	inline static constexpr unsigned int ResizableArray_1_TypeDefinitionIndex = 28679;
+	inline static constexpr unsigned int ResizableArray_1_TypeDefinitionIndex = 28067;
 
 	template <typename T>
-	struct ResizableArray_1
+	struct alignas(8) ResizableArray_1
 	{
 		::Il2CppArray<T>* array; // 0x0
 		::System::Int32 count; // 0x0

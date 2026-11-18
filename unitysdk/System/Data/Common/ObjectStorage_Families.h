@@ -3,7 +3,7 @@
 
 namespace System::Data::Common
 {
-	inline static constexpr unsigned int ObjectStorage_Families_TypeDefinitionIndex = 39410;
+	inline static constexpr unsigned int ObjectStorage_Families_TypeDefinitionIndex = 37410;
 
 	enum class ObjectStorage_Families : ::System::Int32
 	{

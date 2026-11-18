@@ -6,34 +6,34 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x183D22D0)
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183D2310)
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__PLAYBLACKMASKFADEIN_B__295_0_OFFSET UNITYSDK_OFFSET(0x183D24A0)
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__PLAYSPECIALBLACKMASKFADEIN_B__294_0_OFFSET UNITYSDK_OFFSET(0x183D2390)
-#define MOLEMOLE_UICOMICPAGECONTROLLER___C__RESURRECTTIMELINEINFO_B__241_0_OFFSET UNITYSDK_OFFSET(0x183D2320)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x198505C0)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19850600)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__PLAYBLACKMASKFADEIN_B__296_0_OFFSET UNITYSDK_OFFSET(0x198507A0)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__PLAYSPECIALBLACKMASKFADEIN_B__295_0_OFFSET UNITYSDK_OFFSET(0x19850680)
+#define MOLEMOLE_UICOMICPAGECONTROLLER___C__RESURRECTTIMELINEINFO_B__241_0_OFFSET UNITYSDK_OFFSET(0x19850610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComicPageController___c_TypeDefinitionIndex = 87088;
+	inline static constexpr unsigned int UIComicPageController___c_TypeDefinitionIndex = 84233;
 
 	class UIComicPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIComicPageController___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__295_0()
 		{
-			return (::MoleMole::UIComicPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIComicPageController___c_TypeDefinitionIndex)->GetStaticField(0x32C10);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIComicPageController___c_TypeDefinitionIndex)->GetStaticField(0x35160);
+		}
+		static ::System::Action** StaticGet___9__296_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIComicPageController___c_TypeDefinitionIndex)->GetStaticField(0x35168);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIComicPageController___c_TypeDefinitionIndex)->GetStaticField(0x35170);
 		}
 		static ::System::Func_2<::UnityEngine::Timeline::TimelineClip*, ::System::Boolean>** StaticGet___9__241_0()
 		{
-			return (::System::Func_2<::UnityEngine::Timeline::TimelineClip*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIComicPageController___c_TypeDefinitionIndex)->GetStaticField(0x32C18);
-		}
-		static ::System::Action** StaticGet___9__295_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIComicPageController___c_TypeDefinitionIndex)->GetStaticField(0x32C20);
-		}
-		static ::System::Action** StaticGet___9__294_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIComicPageController___c_TypeDefinitionIndex)->GetStaticField(0x32C28);
+			return (::System::Func_2<::UnityEngine::Timeline::TimelineClip*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIComicPageController___c_TypeDefinitionIndex)->GetStaticField(0x35178);
 		}
 
 		static ::System::Void _cctor()
@@ -51,14 +51,14 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMICPAGECONTROLLER___C__RESURRECTTIMELINEINFO_B__241_0_OFFSET))(this, x);
 		}
 
-		::System::Void _PlaySpecialBlackMaskFadeIn_b__294_0()
+		::System::Void _PlaySpecialBlackMaskFadeIn_b__295_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMICPAGECONTROLLER___C__PLAYSPECIALBLACKMASKFADEIN_B__294_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMICPAGECONTROLLER___C__PLAYSPECIALBLACKMASKFADEIN_B__295_0_OFFSET))(this);
 		}
 
-		::System::Void _PlayBlackMaskFadeIn_b__295_0()
+		::System::Void _PlayBlackMaskFadeIn_b__296_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMICPAGECONTROLLER___C__PLAYBLACKMASKFADEIN_B__295_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMICPAGECONTROLLER___C__PLAYBLACKMASKFADEIN_B__296_0_OFFSET))(this);
 		}
 	};
 }

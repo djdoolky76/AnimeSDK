@@ -6,21 +6,21 @@
 
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE_NEWQUAD_OFFSET UNITYSDK_OFFSET(0x1CB10F90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE_NEWTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1CB10C20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE_SLICE_OFFSET UNITYSDK_OFFSET(0x1CB113F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB10BC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE_NEWQUAD_OFFSET UNITYSDK_OFFSET(0x1CED2250)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE_NEWTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1CED1EE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE_SLICE_OFFSET UNITYSDK_OFFSET(0x1CED26B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED1E80)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DecalProjector_Triangle_TypeDefinitionIndex = 27666;
+	inline static constexpr unsigned int DecalProjector_Triangle_TypeDefinitionIndex = 27189;
 
 	class DecalProjector_Triangle : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Vector3* StaticGet_cubeSize()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(DecalProjector_Triangle_TypeDefinitionIndex)->GetStaticField(0x13600);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(DecalProjector_Triangle_TypeDefinitionIndex)->GetStaticField(0x14330);
 		}
 		::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex A; // 0x10
 		::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex C; // 0x40
@@ -31,19 +31,19 @@ namespace UnityEngine::Rendering::Universal::Internal
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE__CTOR_OFFSET))(this, A, B, C);
 		}
 
-		::System::Void NewTriangle(::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex A, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex B, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex C, ::System::Single fA, ::System::Single fB, ::System::Single fC, ::System::Collections::Generic::Queue_1<::UnityEngine::Rendering::Universal::Internal::DecalProjector_Triangle*>*& triangleList, ::System::Single normalL)
+		::System::Void NewTriangle(::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex A, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex B, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex C, ::System::Single fA, ::System::Single fB, ::System::Single fC, ::System::Collections::Generic::Queue_1<::System::Object*>*& triangleList, ::System::Single normalL)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::System::Single, ::System::Single, ::System::Single, ::System::Collections::Generic::Queue_1<::UnityEngine::Rendering::Universal::Internal::DecalProjector_Triangle*>*&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE_NEWTRIANGLE_OFFSET))(this, A, B, C, fA, fB, fC, triangleList, normalL);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::System::Single, ::System::Single, ::System::Single, ::System::Collections::Generic::Queue_1<::System::Object*>*&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE_NEWTRIANGLE_OFFSET))(this, A, B, C, fA, fB, fC, triangleList, normalL);
 		}
 
-		::System::Void NewQuad(::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex A, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex B, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex C, ::System::Single fA, ::System::Single fB, ::System::Single fC, ::System::Collections::Generic::Queue_1<::UnityEngine::Rendering::Universal::Internal::DecalProjector_Triangle*>*& triangleList, ::System::Single normalL)
+		::System::Void NewQuad(::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex A, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex B, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex C, ::System::Single fA, ::System::Single fB, ::System::Single fC, ::System::Collections::Generic::Queue_1<::System::Object*>*& triangleList, ::System::Single normalL)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::System::Single, ::System::Single, ::System::Single, ::System::Collections::Generic::Queue_1<::UnityEngine::Rendering::Universal::Internal::DecalProjector_Triangle*>*&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE_NEWQUAD_OFFSET))(this, A, B, C, fA, fB, fC, triangleList, normalL);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::System::Single, ::System::Single, ::System::Single, ::System::Collections::Generic::Queue_1<::System::Object*>*&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE_NEWQUAD_OFFSET))(this, A, B, C, fA, fB, fC, triangleList, normalL);
 		}
 
-		::System::Boolean Slice(::UnityEngine::Vector3 normal, ::System::Collections::Generic::Queue_1<::UnityEngine::Rendering::Universal::Internal::DecalProjector_Triangle*>*& triangleList)
+		::System::Boolean Slice(::UnityEngine::Vector3 normal, ::System::Collections::Generic::Queue_1<::System::Object*>*& triangleList)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Collections::Generic::Queue_1<::UnityEngine::Rendering::Universal::Internal::DecalProjector_Triangle*>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE_SLICE_OFFSET))(this, normal, triangleList);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Collections::Generic::Queue_1<::System::Object*>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_TRIANGLE_SLICE_OFFSET))(this, normal, triangleList);
 		}
 	};
 }

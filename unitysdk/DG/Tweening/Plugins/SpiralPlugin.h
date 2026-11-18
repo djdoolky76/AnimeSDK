@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DG/Tweening/Core/Enums/UpdateNotice.h"
-#include "unitysdk/DG/Tweening/Plugins/Core/ABSTweenPlugin_3.h"
-#include "unitysdk/DG/Tweening/Plugins/SpiralOptions.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/DG/Tweening/Plugins/SpiralOptions.h"
 
 namespace DG::Tweening { class Tween; }
 namespace DG::Tweening::Core { template <typename T1, typename T2, typename T3> class TweenerCore_3; }
 namespace DG::Tweening::Core { template <typename T> class DOGetter_1; }
 namespace DG::Tweening::Core { template <typename T> class DOSetter_1; }
+namespace DG::Tweening::Plugins::Core { template <typename T1, typename T2, typename T3> class ABSTweenPlugin_3; }
 
-#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_CONVERTTOSTARTVALUE_OFFSET UNITYSDK_OFFSET(0x1FB8C300)
-#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_EVALUATEANDAPPLY_OFFSET UNITYSDK_OFFSET(0x1FB8C3E0)
-#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_GETSPEEDBASEDDURATION_OFFSET UNITYSDK_OFFSET(0x1FB8C3D0)
-#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_GET_OFFSET UNITYSDK_OFFSET(0x1FB8C2C0)
-#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_RESET_OFFSET UNITYSDK_OFFSET(0x1FB8C2A0)
-#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_SETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x1FB8C330)
-#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_SETFROM_OFFSET UNITYSDK_OFFSET(0x1FB8C2B0)
-#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_SETRELATIVEENDVALUE_OFFSET UNITYSDK_OFFSET(0x1FB8C320)
-#define DG_TWEENING_PLUGINS_SPIRALPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB8C890)
-#define DG_TWEENING_PLUGINS_SPIRALPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB8C870)
+#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_CONVERTTOSTARTVALUE_OFFSET UNITYSDK_OFFSET(0x1FF8DB50)
+#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_EVALUATEANDAPPLY_OFFSET UNITYSDK_OFFSET(0x1FF8DC30)
+#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_GETSPEEDBASEDDURATION_OFFSET UNITYSDK_OFFSET(0x1FF8DC20)
+#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_GET_OFFSET UNITYSDK_OFFSET(0x1FF8DB10)
+#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_RESET_OFFSET UNITYSDK_OFFSET(0x1FF8DAF0)
+#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_SETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x1FF8DB80)
+#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_SETFROM_OFFSET UNITYSDK_OFFSET(0x1FF8DB00)
+#define DG_TWEENING_PLUGINS_SPIRALPLUGIN_SETRELATIVEENDVALUE_OFFSET UNITYSDK_OFFSET(0x1FF8DB70)
+#define DG_TWEENING_PLUGINS_SPIRALPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF8E0E0)
+#define DG_TWEENING_PLUGINS_SPIRALPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF8E0C0)
 
 namespace DG::Tweening::Plugins
 {
-	inline static constexpr unsigned int SpiralPlugin_TypeDefinitionIndex = 35139;
+	inline static constexpr unsigned int SpiralPlugin_TypeDefinitionIndex = 34688;
 
-	class SpiralPlugin : public ::DG::Tweening::Plugins::Core::ABSTweenPlugin_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::DG::Tweening::Plugins::SpiralOptions>
+	class SpiralPlugin
 	{
 	public:
 		static ::UnityEngine::Vector3* StaticGet_DefaultDirection()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(SpiralPlugin_TypeDefinitionIndex)->GetStaticField(0x84E0);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(SpiralPlugin_TypeDefinitionIndex)->GetStaticField(0x8980);
 		}
 
 		::System::Void _ctor()

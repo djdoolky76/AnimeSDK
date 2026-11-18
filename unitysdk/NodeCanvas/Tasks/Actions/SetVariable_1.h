@@ -3,11 +3,10 @@
 #include "unitysdk/NodeCanvas/Framework/ActionTask.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
-namespace System { class String; }
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SetVariable_1_TypeDefinitionIndex = 31490;
+	inline static constexpr unsigned int SetVariable_1_TypeDefinitionIndex = 30652;
 
 	template <typename T>
 	class SetVariable_1 : public ::NodeCanvas::Framework::ActionTask

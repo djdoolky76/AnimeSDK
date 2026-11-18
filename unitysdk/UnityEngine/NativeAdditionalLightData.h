@@ -10,17 +10,17 @@ namespace System { class Type; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2DArray; }
 
-#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_GETRUNTIMEORSERIALIZEDBAKEDSHADOWFACEINDEX_OFFSET UNITYSDK_OFFSET(0x1E31BAD0)
-#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_GETRUNTIMEORSERIALIZEDBAKEDSHADOWWORLDTOSHADOWMATRIX_OFFSET UNITYSDK_OFFSET(0x1E31BB00)
-#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_GET_BAKEDSHADOWMAPARRAY_OFFSET UNITYSDK_OFFSET(0x1E31BAA0)
-#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_REGISTERADDITIONALLIGHTDATATYPE_OFFSET UNITYSDK_OFFSET(0x1E31BBA0)
-#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_SETRUNTIMEBAKEDSHADOWGPUPARAMS_OFFSET UNITYSDK_OFFSET(0x1E31BAC0)
-#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_SET_BAKEDSHADOWMAPARRAY_OFFSET UNITYSDK_OFFSET(0x1E31BAB0)
-#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E31A120)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_GETRUNTIMEORSERIALIZEDBAKEDSHADOWFACEINDEX_OFFSET UNITYSDK_OFFSET(0x1E5469D0)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_GETRUNTIMEORSERIALIZEDBAKEDSHADOWWORLDTOSHADOWMATRIX_OFFSET UNITYSDK_OFFSET(0x1E546A00)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_GET_BAKEDSHADOWMAPARRAY_OFFSET UNITYSDK_OFFSET(0x1E5469A0)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_REGISTERADDITIONALLIGHTDATATYPE_OFFSET UNITYSDK_OFFSET(0x1E546AA0)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_SETRUNTIMEBAKEDSHADOWGPUPARAMS_OFFSET UNITYSDK_OFFSET(0x1E5469C0)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA_SET_BAKEDSHADOWMAPARRAY_OFFSET UNITYSDK_OFFSET(0x1E5469B0)
+#define UNITYENGINE_NATIVEADDITIONALLIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E545070)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NativeAdditionalLightData_TypeDefinitionIndex = 5268;
+	inline static constexpr unsigned int NativeAdditionalLightData_TypeDefinitionIndex = 5270;
 
 	class NativeAdditionalLightData : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,16 +30,19 @@ namespace UnityEngine
 		::System::Boolean zeroAttenuation; // 0x1A
 		::System::Boolean usedByParticleSystem; // 0x1B
 		::System::Boolean optimizable; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::Int64 lightSeed; // 0x20
 		::System::Single minOptimizeRadius; // 0x28
 		::System::Boolean hasVolumetricFog; // 0x2C
 		::System::Boolean hasRealVolumetricFog; // 0x2D
 		::System::Boolean useShadowTint; // 0x2E
+		::System::Byte _padding1[0x1];
 		::System::Single shadowTintSourceAngle; // 0x30
 		::System::Single shadowTintPower; // 0x34
 		::UnityEngine::Color shadowTintColor; // 0x38
 		::System::Boolean overrideAvatarLightRotation; // 0x48
 		::System::Boolean unlockAvatarRotationX; // 0x49
+		::System::Byte _padding2[0x2];
 		::System::Single m_AvatarLightMultiplier; // 0x4C
 		::UnityEngine::Color m_AvatarLightColor; // 0x50
 		::UnityEngine::Vector3 m_AvatarLightRotation; // 0x60
@@ -57,8 +60,10 @@ namespace UnityEngine
 		::UnityEngine::Matrix4x4 m_OccluderData; // 0x98
 		::UnityEngine::Matrix4x4 m_LightOccluderMask; // 0xD8
 		::System::Boolean useCapsulePointLight; // 0x118
+		::System::Byte _padding3[0x3];
 		::System::Single capsulePointLightLength; // 0x11C
 		::System::Boolean m_IsStaticLight; // 0x120
+		::System::Byte _padding4[0x7];
 		::UnityEngine::Material* m_LightFunction; // 0x128
 		::System::Int32 m_LightLayersMask; // 0x130
 		::System::Single m_SpecularMinRoughness; // 0x134
@@ -69,6 +74,7 @@ namespace UnityEngine
 		::UnityEngine::Color m_RTXColor; // 0x154
 		::System::Single m_RTXDiffuseIntensity; // 0x164
 		::System::Boolean m_RTXGI; // 0x168
+		::System::Byte _padding5[0x7];
 		::UnityEngine::Texture2DArray* m_BakedShadowMapArray; // 0x170
 		::Il2CppArray<::System::Int32>* _runtimeBakedShadowFaceIndices; // 0x178
 		::Il2CppArray<::UnityEngine::Matrix4x4>* _runtimeBakedShadowWorldToShadowMatrices; // 0x180

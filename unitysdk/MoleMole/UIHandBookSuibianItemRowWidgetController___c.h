@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A327CD0)
-#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A327D10)
-#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER___C__ONUIINIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x1A327D20)
+#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19776C10)
+#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19776C50)
+#define MOLEMOLE_UIHANDBOOKSUIBIANITEMROWWIDGETCONTROLLER___C__ONUIINIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x19776C60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookSuibianItemRowWidgetController___c_TypeDefinitionIndex = 51720;
+	inline static constexpr unsigned int UIHandBookSuibianItemRowWidgetController___c_TypeDefinitionIndex = 40471;
 
 	class UIHandBookSuibianItemRowWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__1_1()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSuibianItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3D030);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSuibianItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EF10);
 		}
-		static ::MoleMole::UIHandBookSuibianItemRowWidgetController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIHandBookSuibianItemRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSuibianItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3D038);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookSuibianItemRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EF18);
 		}
 
 		static ::System::Void _cctor()

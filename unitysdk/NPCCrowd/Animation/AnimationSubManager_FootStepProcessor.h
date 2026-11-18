@@ -2,28 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationProcessPhase.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_Dispatchable.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_FootStepProcessor_LegacyJob.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_FootStepProcessor_ParallelJob.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Animation { class AnimationSubManager; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0x95327E0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0x9532530)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0x9532520)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0x9532510)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0x9532590)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x9532E80)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0xE110CA0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0xE1109A0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0xE110990)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0xE110980)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0xE110A50)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_RESETSTATICSTATE_OFFSET UNITYSDK_OFFSET(0xE110A00)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE111340)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_FootStepProcessor_TypeDefinitionIndex = 88291;
+	inline static constexpr unsigned int AnimationSubManager_FootStepProcessor_TypeDefinitionIndex = 81241;
 
 	class AnimationSubManager_FootStepProcessor : public ::NPCCrowd::Animation::AnimationSubManager_Dispatchable
 	{
 	public:
-		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_FootStepProcessor_LegacyJob>* _buffer; // 0x10
+		::Il2CppArray<::System::Object*>* _buffer; // 0x10
 		::NPCCrowd::Animation::AnimationSubManager_FootStepProcessor_ParallelJob _parallelJob; // 0x18
 
 		::System::Void _ctor()
@@ -44,6 +45,11 @@ namespace NPCCrowd::Animation
 		::System::String* get_DebugName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_GET_DEBUGNAME_OFFSET))(this);
+		}
+
+		static ::System::Void ResetStaticState()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_FOOTSTEPPROCESSOR_RESETSTATICSTATE_OFFSET))();
 		}
 
 		::System::Void OnInit(::NPCCrowd::Animation::AnimationSubManager* manager)

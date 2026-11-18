@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_BUTTONGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76FC60)
+#define SIRENIX_ODININSPECTOR_BUTTONGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7FE80)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ButtonGroupAttribute_TypeDefinitionIndex = 7268;
+	inline static constexpr unsigned int ButtonGroupAttribute_TypeDefinitionIndex = 7275;
 
 	class ButtonGroupAttribute : public ::Sirenix::OdinInspector::PropertyGroupAttribute
 	{

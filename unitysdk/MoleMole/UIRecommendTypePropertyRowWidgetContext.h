@@ -2,21 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_12BDE7300F0E061C;
-class Class_3_C3F0E3B5AB5977AE_34;
+class EMONNCFEDAO;
+class IKFBCIGNNEP;
 namespace MoleMole { template <typename T> class UIRoleEquipRecommendPopContext_1; }
 
-#define MOLEMOLE_UIRECOMMENDTYPEPROPERTYROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F66870)
+#define MOLEMOLE_UIRECOMMENDTYPEPROPERTYROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x168EC510)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRecommendTypePropertyRowWidgetContext_TypeDefinitionIndex = 66674;
+	inline static constexpr unsigned int UIRecommendTypePropertyRowWidgetContext_TypeDefinitionIndex = 76533;
 
 	class UIRecommendTypePropertyRowWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::MoleMole::UIRoleEquipRecommendPopContext_1<::Class_2_12BDE7300F0E061C*>* RoleEquipRecommendPopContext; // 0x28
-		::Class_3_C3F0E3B5AB5977AE_34* avatarRecommendPropertyData; // 0x30
+		::MoleMole::UIRoleEquipRecommendPopContext_1<::EMONNCFEDAO*>* RoleEquipRecommendPopContext; // 0x28
+		::IKFBCIGNNEP* avatarRecommendPropertyData; // 0x30
+		::System::Boolean isConfigData; // 0x38
 
 		::System::Void _ctor()
 		{

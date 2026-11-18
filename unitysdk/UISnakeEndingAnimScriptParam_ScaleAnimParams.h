@@ -4,10 +4,10 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define UISNAKEENDINGANIMSCRIPTPARAM_SCALEANIMPARAMS_CALVALUEBYEVALUATECURVE_OFFSET UNITYSDK_OFFSET(0x1F001400)
-#define UISNAKEENDINGANIMSCRIPTPARAM_SCALEANIMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0014B0)
+#define UISNAKEENDINGANIMSCRIPTPARAM_SCALEANIMPARAMS_CALVALUEBYEVALUATECURVE_OFFSET UNITYSDK_OFFSET(0x1F681CF0)
+#define UISNAKEENDINGANIMSCRIPTPARAM_SCALEANIMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F681DA0)
 
-inline static constexpr unsigned int UISnakeEndingAnimScriptParam_ScaleAnimParams_TypeDefinitionIndex = 94976;
+inline static constexpr unsigned int UISnakeEndingAnimScriptParam_ScaleAnimParams_TypeDefinitionIndex = 96567;
 
 class UISnakeEndingAnimScriptParam_ScaleAnimParams : public ::System::Object
 {
@@ -15,6 +15,7 @@ public:
 	::System::Single verticalMaxDeltaValue; // 0x10
 	::System::Single horizontalMaxDeltaValue; // 0x14
 	::System::Single playerScaleDeltaValue; // 0x18
+	::System::Byte _padding0[0x4];
 	::UnityEngine::AnimationCurve* curve; // 0x20
 	::System::Single scaleLimitRectHeight; // 0x28
 

@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int DTTween_EasingMethod_TypeDefinitionIndex = 28937;
+	inline static constexpr unsigned int DTTween_EasingMethod_TypeDefinitionIndex = 28376;
 
 	enum class DTTween_EasingMethod : ::System::Int32
 	{

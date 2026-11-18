@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Mesh; }
 
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUBUILDSETTINGS_FROMMESH_OFFSET UNITYSDK_OFFSET(0x1C4CBD50)
-#define PIPESPLINEDEFORMATION_PIPESPLINEGPUBUILDSETTINGS_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1C4CBCC0)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUBUILDSETTINGS_FROMMESH_OFFSET UNITYSDK_OFFSET(0x1C974AD0)
+#define PIPESPLINEDEFORMATION_PIPESPLINEGPUBUILDSETTINGS_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1C974A40)
 
 namespace PipeSplineDeformation
 {
-	inline static constexpr unsigned int PipeSplineGpuBuildSettings_TypeDefinitionIndex = 27488;
+	inline static constexpr unsigned int PipeSplineGpuBuildSettings_TypeDefinitionIndex = 27372;
 
 	struct alignas(4) PipeSplineGpuBuildSettings
 	{
@@ -26,14 +26,18 @@ namespace PipeSplineDeformation
 		::System::Single meshLength; // 0x38
 		::System::Single boundsPadding; // 0x3C
 
+		/*
 		static ::PipeSplineDeformation::PipeSplineGpuBuildSettings get_Default()
 		{
 			return ((::PipeSplineDeformation::PipeSplineGpuBuildSettings(*)())((::PBYTE)hIl2Cpp + PIPESPLINEDEFORMATION_PIPESPLINEGPUBUILDSETTINGS_GET_DEFAULT_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::PipeSplineDeformation::PipeSplineGpuBuildSettings FromMesh(::UnityEngine::Mesh* mesh)
 		{
 			return ((::PipeSplineDeformation::PipeSplineGpuBuildSettings(*)(::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + PIPESPLINEDEFORMATION_PIPESPLINEGPUBUILDSETTINGS_FROMMESH_OFFSET))(mesh);
 		}
+		*/
 	};
 }

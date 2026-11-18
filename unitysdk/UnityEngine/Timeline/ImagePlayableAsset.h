@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class ImageBehaviour; }
 
-#define UNITYENGINE_TIMELINE_IMAGEPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F711D00)
-#define UNITYENGINE_TIMELINE_IMAGEPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F711DD0)
-#define UNITYENGINE_TIMELINE_IMAGEPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F711DE0)
+#define UNITYENGINE_TIMELINE_IMAGEPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FB05A70)
+#define UNITYENGINE_TIMELINE_IMAGEPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FB05B50)
+#define UNITYENGINE_TIMELINE_IMAGEPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB05B60)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImagePlayableAsset_TypeDefinitionIndex = 33017;
+	inline static constexpr unsigned int ImagePlayableAsset_TypeDefinitionIndex = 32476;
 
 	class ImagePlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

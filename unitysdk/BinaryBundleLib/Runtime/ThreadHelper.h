@@ -6,44 +6,44 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Threading { class SynchronizationContext; }
 
-#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_INITPLAY_OFFSET UNITYSDK_OFFSET(0x1E39C060)
-#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_041FC8D84E022326_OFFSET UNITYSDK_OFFSET(0x1E39C5A0)
-#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_126AB3935214AA22_1_OFFSET UNITYSDK_OFFSET(0x1E39C410)
-#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_126AB3935214AA22_2_OFFSET UNITYSDK_OFFSET(0x1E39C420)
-#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x1E39C220)
-#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_8E66B82298267DC3_OFFSET UNITYSDK_OFFSET(0x1E39C430)
-#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x1E39C5B0)
-#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_E67B8EE7D04609D0_OFFSET UNITYSDK_OFFSET(0x1E39C230)
-#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x1E39C0A0)
-#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_F39234F2606D8D97_OFFSET UNITYSDK_OFFSET(0x1E39C340)
-#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_RESETSTATICS_OFFSET UNITYSDK_OFFSET(0x1E39BFF0)
+#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_ABFLHCEJFLO_OFFSET UNITYSDK_OFFSET(0x1E5E2310)
+#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_BFAHOPLJIKA_OFFSET UNITYSDK_OFFSET(0x1E5E24F0)
+#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_CJCCCMMFOKG_OFFSET UNITYSDK_OFFSET(0x1E5E2420)
+#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_FCJONEPIOHC_OFFSET UNITYSDK_OFFSET(0x1E5E2660)
+#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_IADPOBGDHHO_OFFSET UNITYSDK_OFFSET(0x1E5E22E0)
+#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_INITPLAY_OFFSET UNITYSDK_OFFSET(0x1E5E2110)
+#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_KMDCNHNELAM_OFFSET UNITYSDK_OFFSET(0x1E5E2150)
+#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_MJPJJKNBBNJ_OFFSET UNITYSDK_OFFSET(0x1E5E2300)
+#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_NGDLPMIMMNH_OFFSET UNITYSDK_OFFSET(0x1E5E22F0)
+#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_OJJPCICDCPN_OFFSET UNITYSDK_OFFSET(0x1E5E22D0)
+#define BINARYBUNDLELIB_RUNTIME_THREADHELPER_RESETSTATICS_OFFSET UNITYSDK_OFFSET(0x1E5E20A0)
 
 namespace BinaryBundleLib::Runtime
 {
-	inline static constexpr unsigned int ThreadHelper_TypeDefinitionIndex = 34509;
+	inline static constexpr unsigned int ThreadHelper_TypeDefinitionIndex = 34093;
 
 	class ThreadHelper : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_Field_1_7()
+		static ::System::Threading::SynchronizationContext** StaticGet_PCOJAILELBB()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x28E50);
+			return (::System::Threading::SynchronizationContext**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x2A070);
 		}
-		static ::System::String** StaticGet_Field_1_0()
+		static ::System::String** StaticGet_JLIPPPOILAB()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x28E58);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x2A078);
 		}
-		static ::System::Threading::SynchronizationContext** StaticGet_Field_1_1()
+		static ::System::String** StaticGet_LCPEGIHIKIF()
 		{
-			return (::System::Threading::SynchronizationContext**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x28E60);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x2A080);
 		}
-		static ::System::String** StaticGet_Field_1_6()
+		static ::System::String** StaticGet_GGIALNHAMCN()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x28E68);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x2A088);
 		}
-		static ::System::Int32* StaticGet_Field_1_2()
+		static ::System::Int32* StaticGet_FFCICEPNCCN()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x8270);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x86C0);
 		}
 
 		static ::System::Void ResetStatics()
@@ -56,49 +56,49 @@ namespace BinaryBundleLib::Runtime
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_INITPLAY_OFFSET))();
 		}
 
-		static ::System::String* Method_1_126AB3935214AA22()
+		static ::System::Void KMDCNHNELAM()
 		{
-			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_126AB3935214AA22_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_KMDCNHNELAM_OFFSET))();
 		}
 
-		static ::System::Void Method_1_E7EF6BC52B28648C()
+		static ::System::String* OJJPCICDCPN()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_E7EF6BC52B28648C_OFFSET))();
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_OJJPCICDCPN_OFFSET))();
 		}
 
-		static ::System::Void Method_1_E67B8EE7D04609D0(::System::Action* a1)
+		static ::System::Threading::SynchronizationContext* IADPOBGDHHO()
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_E67B8EE7D04609D0_OFFSET))(a1);
+			return ((::System::Threading::SynchronizationContext*(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_IADPOBGDHHO_OFFSET))();
 		}
 
-		static ::System::Boolean Method_1_F39234F2606D8D97()
+		static ::System::String* NGDLPMIMMNH()
 		{
-			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_F39234F2606D8D97_OFFSET))();
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_NGDLPMIMMNH_OFFSET))();
 		}
 
-		static ::System::String* Method_1_126AB3935214AA22_1()
+		static ::System::String* MJPJJKNBBNJ()
 		{
-			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_126AB3935214AA22_1_OFFSET))();
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_MJPJJKNBBNJ_OFFSET))();
 		}
 
-		static ::System::String* Method_1_126AB3935214AA22_2()
+		static ::System::Void ABFLHCEJFLO(::System::Action* EJCBEJMGFAJ)
 		{
-			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_126AB3935214AA22_2_OFFSET))();
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_ABFLHCEJFLO_OFFSET))(EJCBEJMGFAJ);
 		}
 
-		static ::System::Void Method_1_8E66B82298267DC3(::System::String* a1)
+		static ::System::Boolean CJCCCMMFOKG()
 		{
-			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_8E66B82298267DC3_OFFSET))(a1);
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_CJCCCMMFOKG_OFFSET))();
 		}
 
-		static ::System::Threading::SynchronizationContext* Method_1_041FC8D84E022326()
+		static ::System::Void BFAHOPLJIKA(::System::String* KHILBNJIAKA)
 		{
-			return ((::System::Threading::SynchronizationContext*(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_041FC8D84E022326_OFFSET))();
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_BFAHOPLJIKA_OFFSET))(KHILBNJIAKA);
 		}
 
-		static ::System::Int32 Method_1_C74CF020AA42ED85()
+		static ::System::Int32 FCJONEPIOHC()
 		{
-			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_METHOD_1_C74CF020AA42ED85_OFFSET))();
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + BINARYBUNDLELIB_RUNTIME_THREADHELPER_FCJONEPIOHC_OFFSET))();
 		}
 	};
 }

@@ -2,9 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-inline static constexpr unsigned int Consts_TypeDefinitionIndex = 2258;
+inline static constexpr unsigned int Consts_TypeDefinitionIndex = 2257;
 
 class Consts : public ::System::Object
 {

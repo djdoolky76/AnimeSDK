@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_IO_IODESCRIPTIONATTRIBUTE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1D2337A0)
-#define SYSTEM_IO_IODESCRIPTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D233740)
+#define SYSTEM_IO_IODESCRIPTIONATTRIBUTE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1D7A2390)
+#define SYSTEM_IO_IODESCRIPTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A2330)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int IODescriptionAttribute_TypeDefinitionIndex = 3227;
+	inline static constexpr unsigned int IODescriptionAttribute_TypeDefinitionIndex = 3226;
 
 	class IODescriptionAttribute : public ::System::ComponentModel::DescriptionAttribute
 	{

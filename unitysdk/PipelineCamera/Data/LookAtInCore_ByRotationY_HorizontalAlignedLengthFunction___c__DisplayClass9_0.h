@@ -4,7 +4,7 @@
 
 namespace PipelineCamera::Data
 {
-	inline static constexpr unsigned int LookAtInCore_ByRotationY_HorizontalAlignedLengthFunction___c__DisplayClass9_0_TypeDefinitionIndex = 38440;
+	inline static constexpr unsigned int LookAtInCore_ByRotationY_HorizontalAlignedLengthFunction___c__DisplayClass9_0_TypeDefinitionIndex = 36439;
 
 	struct alignas(4) LookAtInCore_ByRotationY_HorizontalAlignedLengthFunction___c__DisplayClass9_0
 	{

@@ -15,11 +15,11 @@ namespace MoleMole { class RoleRarityIconConfigs; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGUICOMMON_MISC__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6DDE0)
+#define MOLEMOLE_CONFIGUICOMMON_MISC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B949D90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_Misc_TypeDefinitionIndex = 87325;
+	inline static constexpr unsigned int ConfigUICommon_Misc_TypeDefinitionIndex = 87002;
 
 	class ConfigUICommon_Misc : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -38,6 +38,7 @@ namespace MoleMole
 		::System::Single LoadingFadeInTime; // 0xA8
 		::System::Single LoadingFadeOutTime; // 0xAC
 		::System::Single EventClickTime; // 0xB0
+		::System::Byte _padding0[0x4];
 		::System::String* QuestColor; // 0xB8
 		::UnityEngine::Color TempleFullProgressColor; // 0xC0
 		::UnityEngine::Color TempleInProgressColor; // 0xD0

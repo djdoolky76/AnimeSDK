@@ -8,19 +8,21 @@ namespace MoleMole { class UIAvatarShowSetting; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUIAVATARSHOWSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6CFA0)
+#define MOLEMOLE_CONFIGUIAVATARSHOWSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B949CA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAvatarShowSettings_TypeDefinitionIndex = 66346;
+	inline static constexpr unsigned int ConfigUIAvatarShowSettings_TypeDefinitionIndex = 82389;
 
 	class ConfigUIAvatarShowSettings : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		::System::String* avatarName; // 0x58
 		::System::Int32 avatarID; // 0x60
+		::System::Byte _padding0[0x4];
 		::System::String* avatarMainPagePrefabPath; // 0x68
 		::MoleMole::ConfigUIAvatarShowSettings_PerformType cameraPerformType; // 0x70
+		::System::Byte _padding1[0x4];
 		::System::String* AnimationClipPath; // 0x78
 		::System::String* AnimatorControllerPath; // 0x80
 		::System::String* AvatarShowPrefabPath; // 0x88

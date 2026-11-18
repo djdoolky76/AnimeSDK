@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int MonthNameStyles_TypeDefinitionIndex = 711;
+	inline static constexpr unsigned int MonthNameStyles_TypeDefinitionIndex = 710;
 
 	enum class MonthNameStyles : ::System::Int32
 	{

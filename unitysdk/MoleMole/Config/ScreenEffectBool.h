@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Config/ScreenEffectValue_1.h"
 
-#define MOLEMOLE_CONFIG_SCREENEFFECTBOOL_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1487CDD0)
-#define MOLEMOLE_CONFIG_SCREENEFFECTBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1487CE90)
+#define MOLEMOLE_CONFIG_SCREENEFFECTBOOL_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1B44FFF0)
+#define MOLEMOLE_CONFIG_SCREENEFFECTBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4500B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ScreenEffectBool_TypeDefinitionIndex = 54719;
+	inline static constexpr unsigned int ScreenEffectBool_TypeDefinitionIndex = 63204;
 
-	class ScreenEffectBool : public ::MoleMole::Config::ScreenEffectValue_1<::System::Boolean>
+	class ScreenEffectBool
 	{
 	public:
 		::System::Void _ctor()

@@ -6,21 +6,21 @@
 namespace Mono::Security::Protocol::Tls { class SslServerStream; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 
-#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT_GET_CLIENTCERTIFICATEREQUIRED_OFFSET UNITYSDK_OFFSET(0x1FB9F680)
-#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT_GET_REQUESTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1FB9F690)
-#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT_GET_SSLSTREAM_OFFSET UNITYSDK_OFFSET(0x1FB9F670)
-#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB9F6A0)
+#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT_GET_CLIENTCERTIFICATEREQUIRED_OFFSET UNITYSDK_OFFSET(0x1FF9FA90)
+#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT_GET_REQUESTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1FF9FAA0)
+#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT_GET_SSLSTREAM_OFFSET UNITYSDK_OFFSET(0x1FF9FA80)
+#define MONO_SECURITY_PROTOCOL_TLS_SERVERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF9FAB0)
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int ServerContext_TypeDefinitionIndex = 2370;
+	inline static constexpr unsigned int ServerContext_TypeDefinitionIndex = 2369;
 
 	class ServerContext : public ::Mono::Security::Protocol::Tls::Context
 	{
 	public:
 		::Mono::Security::Protocol::Tls::SslServerStream* sslStream; // 0xD8
-		::System::Boolean request_client_certificate; // 0xE0
-		::System::Boolean clientCertificateRequired; // 0xE1
+		::System::Boolean clientCertificateRequired; // 0xE0
+		::System::Boolean request_client_certificate; // 0xE1
 
 		::System::Void _ctor(::Mono::Security::Protocol::Tls::SslServerStream* stream, ::Mono::Security::Protocol::Tls::SecurityProtocolType securityProtocolType, ::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::System::Boolean clientCertificateRequired, ::System::Boolean requestClientCertificate)
 		{

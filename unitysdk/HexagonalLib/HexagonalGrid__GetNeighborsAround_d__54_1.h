@@ -3,13 +3,12 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace HexagonalLib
 {
-	inline static constexpr unsigned int HexagonalGrid__GetNeighborsAround_d__54_1_TypeDefinitionIndex = 29408;
+	inline static constexpr unsigned int HexagonalGrid__GetNeighborsAround_d__54_1_TypeDefinitionIndex = 28719;
 
 	template <typename T>
 	class HexagonalGrid__GetNeighborsAround_d__54_1 : public ::System::Object

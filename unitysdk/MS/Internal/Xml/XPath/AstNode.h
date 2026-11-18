@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MS/Internal/Xml/XPath/AstNode_AstType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Xml/XPath/XPathResultType.h"
 
-#define MS_INTERNAL_XML_XPATH_ASTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA3700)
+#define MS_INTERNAL_XML_XPATH_ASTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0424E0)
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int AstNode_TypeDefinitionIndex = 1637;
+	inline static constexpr unsigned int AstNode_TypeDefinitionIndex = 1636;
 
 	class AstNode : public ::System::Object
 	{

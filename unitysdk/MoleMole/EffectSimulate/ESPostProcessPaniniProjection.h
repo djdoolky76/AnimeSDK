@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ScreenEffectFieldHandleType.h"
-#include "unitysdk/MoleMole/EffectSimulate/ESPostProcessBehavior_1.h"
 
 namespace MoleMole::Config { class ConfigEntityPaniniProjectionEffects; }
 namespace MoleMole::EffectSimulate { class FloatKeyframeCurve; }
-namespace UnityEngine::Rendering::Universal { class PaniniProjection; }
 
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x19ADF950)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_1C409C2CC83887DC_1_OFFSET UNITYSDK_OFFSET(0x19AE12A0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_1C409C2CC83887DC_OFFSET UNITYSDK_OFFSET(0x19AE0E20)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_46737F85CDB5E497_OFFSET UNITYSDK_OFFSET(0x19AE0140)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_46DF29ACE60986D7_OFFSET UNITYSDK_OFFSET(0x19ADFFC0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_71170E420FCC0F61_OFFSET UNITYSDK_OFFSET(0x19AE0940)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x19ADFB10)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_8DF47EF45ABD2A6C_OFFSET UNITYSDK_OFFSET(0x19ADFCA0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0x19ADFB20)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE1720)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_AAOGMJFNGIB_OFFSET UNITYSDK_OFFSET(0xFFFBD60)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_AFPCLLAALBH_OFFSET UNITYSDK_OFFSET(0xFFFCA00)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_AJIPNBANCOC_OFFSET UNITYSDK_OFFSET(0xFFFBBE0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_ALJEEEAPCBH_OFFSET UNITYSDK_OFFSET(0xFFFC200)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_BAHGDCGIEKL_OFFSET UNITYSDK_OFFSET(0xFFFC080)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_IEFBPLNILIE_OFFSET UNITYSDK_OFFSET(0xFFFBBD0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_NNEGPFCPCAB_OFFSET UNITYSDK_OFFSET(0xFFFB990)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_ONPGLGIFOJJ_OFFSET UNITYSDK_OFFSET(0xFFFD360)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_PEDOJDBBGPC_OFFSET UNITYSDK_OFFSET(0xFFFCEE0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xFFFD7E0)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESPostProcessPaniniProjection_TypeDefinitionIndex = 74339;
+	inline static constexpr unsigned int ESPostProcessPaniniProjection_TypeDefinitionIndex = 92848;
 
-	class ESPostProcessPaniniProjection : public ::MoleMole::EffectSimulate::ESPostProcessBehavior_1<::UnityEngine::Rendering::Universal::PaniniProjection*>
+	class ESPostProcessPaniniProjection
 	{
 	public:
 		::MoleMole::Config::ConfigEntityPaniniProjectionEffects* m_stAsset; // 0xB0
 		::System::Single _VolDefault_distance; // 0xB8
 		::System::Single _VolDefault_cropToFit; // 0xBC
 		::System::Boolean _VolPreVal_distance_overrideState; // 0xC0
+		::System::Byte _padding0[0x3];
 		::System::Single _VolPreVal_distance; // 0xC4
 		::System::Boolean _VolPreVal_cropToFit_overrideState; // 0xC8
+		::System::Byte _padding1[0x3];
 		::System::Single _VolPreVal_cropToFit; // 0xCC
 		::System::Single _TimelineCurveFirstVal_distance; // 0xD0
 		::System::Single _TimelineCurveLastVal_distance; // 0xD4
@@ -38,15 +38,19 @@ namespace MoleMole::EffectSimulate
 		::System::Single _TimelineCurveLastVal_cropToFit; // 0xDC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_distance_FieldHandleType; // 0xE0
 		::System::Boolean ESPP_distance_UseIt; // 0xE4
+		::System::Byte _padding2[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_distance; // 0xE8
 		::System::Boolean ESPP_distance_EnableFade; // 0xF0
 		::System::Boolean ESPP_distance_EnableOverrideDefaultValue; // 0xF1
+		::System::Byte _padding3[0x2];
 		::System::Single ESPP_distance_OverrideDefaultValue; // 0xF4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_cropToFit_FieldHandleType; // 0xF8
 		::System::Boolean ESPP_cropToFit_UseIt; // 0xFC
+		::System::Byte _padding4[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_cropToFit; // 0x100
 		::System::Boolean ESPP_cropToFit_EnableFade; // 0x108
 		::System::Boolean ESPP_cropToFit_EnableOverrideDefaultValue; // 0x109
+		::System::Byte _padding5[0x2];
 		::System::Single ESPP_cropToFit_OverrideDefaultValue; // 0x10C
 
 		::System::Void _ctor()
@@ -54,49 +58,49 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_06330CD58CB602B6()
+		::System::Void NNEGPFCPCAB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_06330CD58CB602B6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_NNEGPFCPCAB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_832295EC279E5994()
+		::System::Void IEFBPLNILIE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_IEFBPLNILIE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_97D83E4CB3B11935()
+		::System::Void AJIPNBANCOC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_97D83E4CB3B11935_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_AJIPNBANCOC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_8DF47EF45ABD2A6C()
+		::System::Void AAOGMJFNGIB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_8DF47EF45ABD2A6C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_AAOGMJFNGIB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_46DF29ACE60986D7(::System::Single a1)
+		::System::Void BAHGDCGIEKL(::System::Single PBKKBBHOCLC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_46DF29ACE60986D7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_BAHGDCGIEKL_OFFSET))(this, PBKKBBHOCLC);
 		}
 
-		::System::Void Method_5_46737F85CDB5E497(::System::Single a1)
+		::System::Void ALJEEEAPCBH(::System::Single HIIOCANBKAM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_46737F85CDB5E497_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_ALJEEEAPCBH_OFFSET))(this, HIIOCANBKAM);
 		}
 
-		::System::Void Method_5_71170E420FCC0F61(::System::Single a1)
+		::System::Void AFPCLLAALBH(::System::Single FDLDIDFMCIG)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_71170E420FCC0F61_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_AFPCLLAALBH_OFFSET))(this, FDLDIDFMCIG);
 		}
 
-		::System::Void Method_5_1C409C2CC83887DC(::System::Single a1)
+		::System::Void PEDOJDBBGPC(::System::Single AHAFNGEDPLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_1C409C2CC83887DC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_PEDOJDBBGPC_OFFSET))(this, AHAFNGEDPLI);
 		}
 
-		::System::Void Method_5_1C409C2CC83887DC_1(::System::Single a1)
+		::System::Void ONPGLGIFOJJ(::System::Single AHAFNGEDPLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_METHOD_5_1C409C2CC83887DC_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSPANINIPROJECTION_ONPGLGIFOJJ_OFFSET))(this, AHAFNGEDPLI);
 		}
 	};
 }

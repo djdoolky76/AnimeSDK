@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHITEMACTIVE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A04E1E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHITEMACTIVE_SETMONSTERENTITYACTIVE_OFFSET UNITYSDK_OFFSET(0x1A04E2F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHITEMACTIVE_START_OFFSET UNITYSDK_OFFSET(0x1A04EDF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHITEMACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A04F300)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHITEMACTIVE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A7C8A10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHITEMACTIVE_SETMONSTERENTITYACTIVE_OFFSET UNITYSDK_OFFSET(0x1A7C8B20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHITEMACTIVE_START_OFFSET UNITYSDK_OFFSET(0x1A7C9620)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHITEMACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7C9B30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSwitchItemActive_TypeDefinitionIndex = 80866;
+	inline static constexpr unsigned int LDSwitchItemActive_TypeDefinitionIndex = 42340;
 
 	class LDSwitchItemActive : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* entityTargetInput; // 0xA8
-		::FlowCanvas::FlowOutput* _output; // 0xB0
+		::FlowCanvas::FlowOutput* _output; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* entityTargetInput; // 0xB0
 		::FlowCanvas::ValueInput_1<::System::Boolean>* targetStateInput; // 0xB8
 
 		::System::Void _ctor()

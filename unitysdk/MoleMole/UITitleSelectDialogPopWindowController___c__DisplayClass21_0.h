@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MoleMole { class UITitleSelectDialogPopWindowController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164C93D0)
+#define MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__ONCLICKAPPLYMEDALSETTINGBTN_B__2_OFFSET UNITYSDK_OFFSET(0x164C93E0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UITitleSelectDialogPopWindowController___c__DisplayClass21_0_TypeDefinitionIndex = 79083;
+
+	class UITitleSelectDialogPopWindowController___c__DisplayClass21_0 : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::System::Int32>* recommendSelectList; // 0x10
+		::MoleMole::UITitleSelectDialogPopWindowController* __4__this; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _OnClickApplyMedalSettingBtn_b__2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITITLESELECTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__ONCLICKAPPLYMEDALSETTINGBTN_B__2_OFFSET))(this);
+		}
+	};
+}

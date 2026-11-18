@@ -2,13 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace Sirenix::Serialization { class IDataReader; }
-namespace Sirenix::Serialization { class IDataWriter; }
-namespace System { class Type; }
-
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int MinimalBaseFormatter_1_TypeDefinitionIndex = 7475;
+	inline static constexpr unsigned int MinimalBaseFormatter_1_TypeDefinitionIndex = 7482;
 
 	template <typename T>
 	class MinimalBaseFormatter_1 : public ::System::Object

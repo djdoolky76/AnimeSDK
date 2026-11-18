@@ -1,0 +1,170 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OCIKBEJKPCB.h"
+#include "unitysdk/BFJIMHBAHBI.h"
+
+class HGFPBHGPFFM;
+class KKHGAIBALBK;
+class MPHLLEOEFID;
+namespace MoleMole { class UIMusicBattleInLevelToolBarBossWidgetController; }
+namespace MoleMole::Battle { class Entity; }
+namespace System { class EventArgs; }
+
+#define DGBLBLOKIBP_ACFAACMNLEE_OFFSET UNITYSDK_OFFSET(0x1240D320)
+#define DGBLBLOKIBP_ADPDCGHABAI_OFFSET UNITYSDK_OFFSET(0x1240D6C0)
+#define DGBLBLOKIBP_ANIMPLMDKOF_OFFSET UNITYSDK_OFFSET(0x1240D630)
+#define DGBLBLOKIBP_DGGHEJJKHJG_OFFSET UNITYSDK_OFFSET(0x1240CB60)
+#define DGBLBLOKIBP_DIOOIKGBJCF_OFFSET UNITYSDK_OFFSET(0x1240D200)
+#define DGBLBLOKIBP_DKFANOOBNNE_OFFSET UNITYSDK_OFFSET(0x1240C8E0)
+#define DGBLBLOKIBP_EEDEAGPMBDB_OFFSET UNITYSDK_OFFSET(0x1240CB40)
+#define DGBLBLOKIBP_GJPHIOGBOKD_OFFSET UNITYSDK_OFFSET(0x1240D0F0)
+#define DGBLBLOKIBP_GKBFKAAOOIN_OFFSET UNITYSDK_OFFSET(0x1240DA30)
+#define DGBLBLOKIBP_HIABONACIDH_OFFSET UNITYSDK_OFFSET(0x1240C5D0)
+#define DGBLBLOKIBP_HPOLPLJFIBM_OFFSET UNITYSDK_OFFSET(0x1240CB20)
+#define DGBLBLOKIBP_INBPLBHGDEH_OFFSET UNITYSDK_OFFSET(0x1240D3B0)
+#define DGBLBLOKIBP_JADBKBBJOLK_OFFSET UNITYSDK_OFFSET(0x1240D6D0)
+#define DGBLBLOKIBP_JFMAOLHGFGO_OFFSET UNITYSDK_OFFSET(0x1240C870)
+#define DGBLBLOKIBP_JMAACLDJJMN_OFFSET UNITYSDK_OFFSET(0x1240C0E0)
+#define DGBLBLOKIBP_JMDEKPONKMF_OFFSET UNITYSDK_OFFSET(0x1240C220)
+#define DGBLBLOKIBP_JMDHIPKBCCM_OFFSET UNITYSDK_OFFSET(0x1240D430)
+#define DGBLBLOKIBP_KBAMIGKENKA_OFFSET UNITYSDK_OFFSET(0x1240C290)
+#define DGBLBLOKIBP_KJHFBOCBADC_OFFSET UNITYSDK_OFFSET(0x1240C060)
+#define DGBLBLOKIBP_LEOKDAHDMAO_OFFSET UNITYSDK_OFFSET(0x1240C670)
+#define DGBLBLOKIBP_LNJOOFKCJNN_OFFSET UNITYSDK_OFFSET(0x1240C490)
+#define DGBLBLOKIBP_MCFILHLNBPK_OFFSET UNITYSDK_OFFSET(0x1240D290)
+#define DGBLBLOKIBP_MHLMBKPLLLJ_OFFSET UNITYSDK_OFFSET(0x1240CD10)
+#define DGBLBLOKIBP_OOLCMLLACCB_OFFSET UNITYSDK_OFFSET(0x1240C8D0)
+#define DGBLBLOKIBP__CTOR_OFFSET UNITYSDK_OFFSET(0x1240C860)
+
+inline static constexpr unsigned int DGBLBLOKIBP_TypeDefinitionIndex = 57455;
+
+class DGBLBLOKIBP : public ::OCIKBEJKPCB
+{
+public:
+	::KKHGAIBALBK* EIPBGEOBJBB; // 0x90
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KJHFBOCBADC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_KJHFBOCBADC_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* JMAACLDJJMN()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_JMAACLDJJMN_OFFSET))(this);
+	}
+
+	::System::Void JMDEKPONKMF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_JMDEKPONKMF_OFFSET))(this);
+	}
+
+	::System::Void LNJOOFKCJNN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_LNJOOFKCJNN_OFFSET))(this);
+	}
+
+	::System::Void HIABONACIDH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_HIABONACIDH_OFFSET))(this);
+	}
+
+	::System::Void JFMAOLHGFGO(::MoleMole::UIMusicBattleInLevelToolBarBossWidgetController* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIMusicBattleInLevelToolBarBossWidgetController*))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_JFMAOLHGFGO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::HGFPBHGPFFM* OOLCMLLACCB()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_OOLCMLLACCB_OFFSET))(this);
+	}
+
+	::System::Void DKFANOOBNNE(::System::UInt32 NAKOHNKDGJH, ::BFJIMHBAHBI LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::BFJIMHBAHBI))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_DKFANOOBNNE_OFFSET))(this, NAKOHNKDGJH, LJBPECKCCEA);
+	}
+
+	::System::Void EEDEAGPMBDB(::System::EventArgs* KOIBHLHLMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_EEDEAGPMBDB_OFFSET))(this, KOIBHLHLMFC);
+	}
+
+	::System::Void MHLMBKPLLLJ(::System::EventArgs* KOIBHLHLMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_MHLMBKPLLLJ_OFFSET))(this, KOIBHLHLMFC);
+	}
+
+	::System::Void GJPHIOGBOKD(::System::UInt32 NAKOHNKDGJH, ::BFJIMHBAHBI LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::BFJIMHBAHBI))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_GJPHIOGBOKD_OFFSET))(this, NAKOHNKDGJH, LJBPECKCCEA);
+	}
+
+	::System::Void DIOOIKGBJCF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_DIOOIKGBJCF_OFFSET))(this);
+	}
+
+	::System::Void DGGHEJJKHJG(::System::UInt32 FLEDHKJGAEP)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_DGGHEJJKHJG_OFFSET))(this, FLEDHKJGAEP);
+	}
+
+	::System::Void MCFILHLNBPK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_MCFILHLNBPK_OFFSET))(this);
+	}
+
+	::System::Void KBAMIGKENKA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_KBAMIGKENKA_OFFSET))(this);
+	}
+
+	::System::Void LEOKDAHDMAO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_LEOKDAHDMAO_OFFSET))(this);
+	}
+
+	::System::Void ACFAACMNLEE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_ACFAACMNLEE_OFFSET))(this);
+	}
+
+	::System::Void INBPLBHGDEH(::System::EventArgs* KOIBHLHLMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_INBPLBHGDEH_OFFSET))(this, KOIBHLHLMFC);
+	}
+
+	::System::Void ANIMPLMDKOF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_ANIMPLMDKOF_OFFSET))(this);
+	}
+
+	::System::Void ADPDCGHABAI(::System::EventArgs* KOIBHLHLMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_ADPDCGHABAI_OFFSET))(this, KOIBHLHLMFC);
+	}
+
+	::System::Void JADBKBBJOLK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_JADBKBBJOLK_OFFSET))(this);
+	}
+
+	::MPHLLEOEFID* GKBFKAAOOIN()
+	{
+		return ((::MPHLLEOEFID*(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_GKBFKAAOOIN_OFFSET))(this);
+	}
+
+	::System::Void JMDHIPKBCCM(::MoleMole::Battle::Entity* HODAIDNDKHD)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_JMDHIPKBCCM_OFFSET))(this, HODAIDNDKHD);
+	}
+
+	::MoleMole::UIMusicBattleInLevelToolBarBossWidgetController* HPOLPLJFIBM()
+	{
+		return ((::MoleMole::UIMusicBattleInLevelToolBarBossWidgetController*(*)(::PVOID))((::PBYTE)hIl2Cpp + DGBLBLOKIBP_HPOLPLJFIBM_OFFSET))(this);
+	}
+};

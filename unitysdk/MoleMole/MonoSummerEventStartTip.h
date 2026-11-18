@@ -7,13 +7,13 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOSUMMEREVENTSTARTTIP_METHOD_5_1D9AD08B174D2098_OFFSET UNITYSDK_OFFSET(0x1909E230)
-#define MOLEMOLE_MONOSUMMEREVENTSTARTTIP_RUN_OFFSET UNITYSDK_OFFSET(0x1909E040)
-#define MOLEMOLE_MONOSUMMEREVENTSTARTTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1909E2C0)
+#define MOLEMOLE_MONOSUMMEREVENTSTARTTIP_JPPNEEBKNNE_OFFSET UNITYSDK_OFFSET(0x18106480)
+#define MOLEMOLE_MONOSUMMEREVENTSTARTTIP_RUN_OFFSET UNITYSDK_OFFSET(0x18106290)
+#define MOLEMOLE_MONOSUMMEREVENTSTARTTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18106510)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSummerEventStartTip_TypeDefinitionIndex = 59752;
+	inline static constexpr unsigned int MonoSummerEventStartTip_TypeDefinitionIndex = 55731;
 
 	class MonoSummerEventStartTip : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,14 +27,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSUMMEREVENTSTARTTIP__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Run(::System::Action* a1)
+		::System::Void Run(::System::Action* EJGDHCIBCJH)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSUMMEREVENTSTARTTIP_RUN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSUMMEREVENTSTARTTIP_RUN_OFFSET))(this, EJGDHCIBCJH);
 		}
 
-		::System::Collections::IEnumerator* Method_5_1D9AD08B174D2098(::System::Action* a1)
+		::System::Collections::IEnumerator* JPPNEEBKNNE(::System::Action* EJGDHCIBCJH)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSUMMEREVENTSTARTTIP_METHOD_5_1D9AD08B174D2098_OFFSET))(this, a1);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSUMMEREVENTSTARTTIP_JPPNEEBKNNE_OFFSET))(this, EJGDHCIBCJH);
 		}
 	};
 }

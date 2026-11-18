@@ -1,0 +1,90 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FIKJHPHHBLD_PKALOGHLHKA.h"
+#include "unitysdk/System/ValueType.h"
+
+class FIKJHPHHBLD;
+class PBJOCICFNGK;
+namespace System { class Object; }
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define FIKJHPHHBLD_AJFGFBKCLKA_CAHOJOKIKML_OFFSET UNITYSDK_OFFSET(0x774DE0)
+#define FIKJHPHHBLD_AJFGFBKCLKA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x774C60)
+#define FIKJHPHHBLD_AJFGFBKCLKA_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x388A70)
+#define FIKJHPHHBLD_AJFGFBKCLKA_KJGFHDAMHGO_OFFSET UNITYSDK_OFFSET(0x774D70)
+#define FIKJHPHHBLD_AJFGFBKCLKA_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x774CA0)
+#define FIKJHPHHBLD_AJFGFBKCLKA_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x774EE0)
+#define FIKJHPHHBLD_AJFGFBKCLKA_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MOLEMOLE_PROPERTYPROXY_SPROVIDEDPROPERTY__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x774D50)
+#define FIKJHPHHBLD_AJFGFBKCLKA_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x774D60)
+#define FIKJHPHHBLD_AJFGFBKCLKA_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x774CB0)
+#define FIKJHPHHBLD_AJFGFBKCLKA_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x774D40)
+#define FIKJHPHHBLD_AJFGFBKCLKA__CTOR_OFFSET UNITYSDK_OFFSET(0x774C10)
+
+inline static constexpr unsigned int FIKJHPHHBLD_AJFGFBKCLKA_TypeDefinitionIndex = 51292;
+
+struct alignas(8) FIKJHPHHBLD_AJFGFBKCLKA
+{
+	::FIKJHPHHBLD* AMNIHACKELI; // 0x10
+	::System::Int32 ABHBKFJKINO; // 0x18
+	::System::Byte _padding0[0x4];
+	::FIKJHPHHBLD_PKALOGHLHKA LDDJOFHAOHG; // 0x20
+	::PBJOCICFNGK* FGJIFLIMDCE; // 0x40
+
+	::System::Void _ctor(::FIKJHPHHBLD* AMNIHACKELI)
+	{
+		return ((::System::Void(*)(::PVOID, ::FIKJHPHHBLD*))((::PBYTE)hIl2Cpp + FIKJHPHHBLD_AJFGFBKCLKA__CTOR_OFFSET))(this, AMNIHACKELI);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKJHPHHBLD_AJFGFBKCLKA_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKJHPHHBLD_AJFGFBKCLKA_MOVENEXT_OFFSET))(this);
+	}
+
+	::FIKJHPHHBLD_PKALOGHLHKA get_Current()
+	{
+		return ((::FIKJHPHHBLD_PKALOGHLHKA(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKJHPHHBLD_AJFGFBKCLKA_GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKJHPHHBLD_AJFGFBKCLKA_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKJHPHHBLD_AJFGFBKCLKA_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IEnumerator_1<::System::Object*>* System_Collections_Generic_IEnumerable_MoleMole_PropertyProxy_SProvidedProperty__GetEnumerator()
+	{
+		return ((::System::Collections::Generic::IEnumerator_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKJHPHHBLD_AJFGFBKCLKA_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MOLEMOLE_PROPERTYPROXY_SPROVIDEDPROPERTY__GETENUMERATOR_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+	{
+		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKJHPHHBLD_AJFGFBKCLKA_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+	}
+
+	/*
+	::FIKJHPHHBLD_AJFGFBKCLKA KJGFHDAMHGO()
+	{
+		return ((::FIKJHPHHBLD_AJFGFBKCLKA(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKJHPHHBLD_AJFGFBKCLKA_KJGFHDAMHGO_OFFSET))(this);
+	}
+	*/
+
+	::System::Boolean CAHOJOKIKML()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKJHPHHBLD_AJFGFBKCLKA_CAHOJOKIKML_OFFSET))(this);
+	}
+
+	::System::Void NPOLNFDBOOD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKJHPHHBLD_AJFGFBKCLKA_NPOLNFDBOOD_OFFSET))(this);
+	}
+};

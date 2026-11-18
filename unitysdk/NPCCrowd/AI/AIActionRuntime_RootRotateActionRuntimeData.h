@@ -6,7 +6,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionRuntime_RootRotateActionRuntimeData_TypeDefinitionIndex = 89626;
+	inline static constexpr unsigned int AIActionRuntime_RootRotateActionRuntimeData_TypeDefinitionIndex = 79348;
 
 	struct alignas(4) AIActionRuntime_RootRotateActionRuntimeData
 	{

@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_451601B8BB62C38C_7;
+class IHOILHFGGAA;
 namespace MoleMole { class UIMonsterFantasyBossCultivationPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMONSTERFANTASYBOSSCULTIVATIONPAGECONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182FC130)
-#define MOLEMOLE_UIMONSTERFANTASYBOSSCULTIVATIONPAGECONTROLLER___C__DISPLAYCLASS51_0__REFRESHSKILLVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x182FC140)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSCULTIVATIONPAGECONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174215D0)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSCULTIVATIONPAGECONTROLLER___C__DISPLAYCLASS51_0__REFRESHSKILLVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x174215E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyBossCultivationPageController___c__DisplayClass51_0_TypeDefinitionIndex = 64170;
+	inline static constexpr unsigned int UIMonsterFantasyBossCultivationPageController___c__DisplayClass51_0_TypeDefinitionIndex = 91621;
 
 	class UIMonsterFantasyBossCultivationPageController___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_451601B8BB62C38C_7*>* skillInfos; // 0x10
-		::MoleMole::UIMonsterFantasyBossCultivationPageController* __4__this; // 0x18
+		::MoleMole::UIMonsterFantasyBossCultivationPageController* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::IHOILHFGGAA*>* skillInfos; // 0x18
 
 		::System::Void _ctor()
 		{

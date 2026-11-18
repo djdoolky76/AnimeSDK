@@ -4,11 +4,11 @@
 
 namespace FlowCanvas { class ValueInput; }
 
-#define FLOWCANVAS_NODES_SWITCHENUM___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7F410)
+#define FLOWCANVAS_NODES_SWITCHENUM___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF4F1A0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchEnum___c__DisplayClass7_0_TypeDefinitionIndex = 29763;
+	inline static constexpr unsigned int SwitchEnum___c__DisplayClass7_0_TypeDefinitionIndex = 29656;
 
 	class SwitchEnum___c__DisplayClass7_0 : public ::System::Object
 	{

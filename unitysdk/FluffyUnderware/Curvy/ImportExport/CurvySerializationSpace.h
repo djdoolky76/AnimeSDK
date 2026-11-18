@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::ImportExport
 {
-	inline static constexpr unsigned int CurvySerializationSpace_TypeDefinitionIndex = 39491;
+	inline static constexpr unsigned int CurvySerializationSpace_TypeDefinitionIndex = 37657;
 
 	enum class CurvySerializationSpace : ::System::Int32
 	{

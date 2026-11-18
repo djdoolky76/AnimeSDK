@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBinding.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/ScriptableObject.h"
 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1EA72220)
-#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1EA72280)
-#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_INTERNAL_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1EA722E0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_INTERNAL_GETPLAYABLEASSETDURATION_OFFSET UNITYSDK_OFFSET(0x1EA724C0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA724F0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1EDAE9C0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1EDAEA20)
+#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_INTERNAL_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1EDAEA80)
+#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_INTERNAL_GETPLAYABLEASSETDURATION_OFFSET UNITYSDK_OFFSET(0x1EDAEC60)
+#define UNITYENGINE_PLAYABLES_PLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDAEC90)
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int PlayableAsset_TypeDefinitionIndex = 6291;
+	inline static constexpr unsigned int PlayableAsset_TypeDefinitionIndex = 6306;
 
 	class PlayableAsset : public ::UnityEngine::ScriptableObject
 	{

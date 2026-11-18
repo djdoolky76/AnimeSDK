@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_BASICWAVES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AFA30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_BASICWAVES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA41350)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int BasicWaves_TypeDefinitionIndex = 27057;
+	inline static constexpr unsigned int BasicWaves_TypeDefinitionIndex = 26458;
 
 	class BasicWaves : public ::System::Object
 	{
@@ -18,6 +18,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single wavelength; // 0x18
 		::System::Single direction; // 0x1C
 		::System::Single speed; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Texture* surfaceMap; // 0x28
 		::System::Single surfaceMapIntensity; // 0x30
 

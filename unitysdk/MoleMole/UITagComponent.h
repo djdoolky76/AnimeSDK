@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_208CC9941471731A_116;
+class HDCEBDFNFAF;
 namespace MoleMole { class UIBaseController; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_UITAGCOMPONENT_SETHINT_OFFSET UNITYSDK_OFFSET(0x11E1CD80)
-#define MOLEMOLE_UITAGCOMPONENT_SETTAG_OFFSET UNITYSDK_OFFSET(0x11E1CA80)
-#define MOLEMOLE_UITAGCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E1CE70)
+#define MOLEMOLE_UITAGCOMPONENT_SETHINT_OFFSET UNITYSDK_OFFSET(0x188DE5E0)
+#define MOLEMOLE_UITAGCOMPONENT_SETTAG_OFFSET UNITYSDK_OFFSET(0x188DE2E0)
+#define MOLEMOLE_UITAGCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x188DE6D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITagComponent_TypeDefinitionIndex = 56275;
+	inline static constexpr unsigned int UITagComponent_TypeDefinitionIndex = 65098;
 
 	class UITagComponent : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,21 +22,21 @@ namespace MoleMole
 		::UnityEngine::UI::Image* _tagIcon; // 0x18
 		::UnityEngine::UI::Text* _tagParam; // 0x20
 		::UnityEngine::GameObject* lvGO; // 0x28
-		::Class_2_208CC9941471731A_116* Field_5_7; // 0x30
+		::HDCEBDFNFAF* LJIDALLDGNM; // 0x30
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITAGCOMPONENT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetTag(::System::Int32 a1, ::MoleMole::UIBaseController* a2)
+		::System::Void SetTag(::System::Int32 BBOLKIABJHA, ::MoleMole::UIBaseController* JNLBPMKIFNK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::MoleMole::UIBaseController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITAGCOMPONENT_SETTAG_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::MoleMole::UIBaseController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITAGCOMPONENT_SETTAG_OFFSET))(this, BBOLKIABJHA, JNLBPMKIFNK);
 		}
 
-		::System::Void SetHint(::System::Int32 a1, ::MoleMole::UIBaseController* a2)
+		::System::Void SetHint(::System::Int32 AILNGKFDMFI, ::MoleMole::UIBaseController* JNLBPMKIFNK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::MoleMole::UIBaseController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITAGCOMPONENT_SETHINT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::MoleMole::UIBaseController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITAGCOMPONENT_SETHINT_OFFSET))(this, AILNGKFDMFI, JNLBPMKIFNK);
 		}
 	};
 }

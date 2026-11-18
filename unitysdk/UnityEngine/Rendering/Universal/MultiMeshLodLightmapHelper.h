@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_MULTIMESHLODLIGHTMAPHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C9AE950)
-#define UNITYENGINE_RENDERING_UNIVERSAL_MULTIMESHLODLIGHTMAPHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9AECE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MULTIMESHLODLIGHTMAPHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CF8FD90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MULTIMESHLODLIGHTMAPHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF90120)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MultiMeshLodLightmapHelper_TypeDefinitionIndex = 27688;
+	inline static constexpr unsigned int MultiMeshLodLightmapHelper_TypeDefinitionIndex = 27316;
 
 	class MultiMeshLodLightmapHelper : public ::UnityEngine::MonoBehaviour
 	{

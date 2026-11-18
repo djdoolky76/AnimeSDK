@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InLevelBuddyDataItem_InLevelBuddyTeamType_TypeDefinitionIndex = 72659;
+	inline static constexpr unsigned int InLevelBuddyDataItem_InLevelBuddyTeamType_TypeDefinitionIndex = 61087;
 
 	enum class InLevelBuddyDataItem_InLevelBuddyTeamType : ::System::Int32
 	{
-		MAIN_TEAM = 0,
 		PARTNER_TEAM = 1,
+		MAIN_TEAM = 0,
 	};
 }

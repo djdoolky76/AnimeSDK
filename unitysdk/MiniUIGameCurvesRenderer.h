@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_4E7B8E0B6291DEBC.h"
+#include "unitysdk/GJPMJCFPNMI.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
@@ -12,35 +12,40 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Material; }
 
-#define MINIUIGAMECURVESRENDERER_CHANGEMOVEDIRECTION_OFFSET UNITYSDK_OFFSET(0x114442D0)
-#define MINIUIGAMECURVESRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x11443A70)
-#define MINIUIGAMECURVESRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11442DA0)
-#define MINIUIGAMECURVESRENDERER_SETUPCURVEMATERIALS_OFFSET UNITYSDK_OFFSET(0x11442DF0)
-#define MINIUIGAMECURVESRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x11443BC0)
-#define MINIUIGAMECURVESRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x11444520)
+#define MINIUIGAMECURVESRENDERER_CHANGEMOVEDIRECTION_OFFSET UNITYSDK_OFFSET(0x131B4020)
+#define MINIUIGAMECURVESRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x131B37C0)
+#define MINIUIGAMECURVESRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x131B2AF0)
+#define MINIUIGAMECURVESRENDERER_SETUPCURVEMATERIALS_OFFSET UNITYSDK_OFFSET(0x131B2B40)
+#define MINIUIGAMECURVESRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x131B3910)
+#define MINIUIGAMECURVESRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x131B4270)
 
-inline static constexpr unsigned int MiniUIGameCurvesRenderer_TypeDefinitionIndex = 71518;
+inline static constexpr unsigned int MiniUIGameCurvesRenderer_TypeDefinitionIndex = 90852;
 
 class MiniUIGameCurvesRenderer : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::UnityEngine::LineRenderer* lr; // 0x18
 	::UnityEngine::GameObject* point; // 0x20
-	::Enum_3_4E7B8E0B6291DEBC uiType; // 0x28
+	::GJPMJCFPNMI uiType; // 0x28
+	::System::Byte _padding0[0x4];
 	::UnityEngine::Material* curvyMat; // 0x30
 	::System::Single overallAlpha; // 0x38
 	::System::Boolean enableDetection; // 0x3C
+	::System::Byte _padding1[0x3];
 	::System::Single detectionRadius; // 0x40
 	::System::Single intensityFactor; // 0x44
 	::System::Collections::Generic::List_1<::UICurveParams*>* curveParams; // 0x48
 	::UnityEngine::Camera* mainCam; // 0x50
 	::System::Boolean initialized; // 0x58
+	::System::Byte _padding2[0x7];
 	::Il2CppArray<::UnityEngine::Material*>* matInstances; // 0x60
 	::UICurveParams* curveParam; // 0x68
 	::UnityEngine::Vector3 screenPosition; // 0x70
 	::System::Boolean isForward; // 0x7C
+	::System::Byte _padding3[0x3];
 	::FluffyUnderware::Curvy::Controllers::SplineController* sc; // 0x80
 	::System::Boolean hasDetection; // 0x88
+	::System::Byte _padding4[0x3];
 	::System::Int32 _Color; // 0x8C
 	::System::Int32 _WaveFreq; // 0x90
 	::System::Int32 _WaveAmp; // 0x94

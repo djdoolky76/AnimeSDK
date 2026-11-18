@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-namespace MoleMole { class NapStringBuilderDebug_Class_3_50D343C44D28BEFB; }
+namespace MoleMole { class NapStringBuilderDebug_OAPGGEBDOGN; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -11,30 +11,30 @@ namespace System::Text { class StringBuilder; }
 namespace UnityEngine { class GUIStyle; }
 namespace UnityEngine { class Object; }
 
-#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_GETSCREENPOS_OFFSET UNITYSDK_OFFSET(0x1F630C70)
-#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_RELEASESCREENPOS_OFFSET UNITYSDK_OFFSET(0x1F630BB0)
-#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x1F631180)
-#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_SBFROMPOOL_OFFSET UNITYSDK_OFFSET(0x1F631040)
-#define MOLEMOLE_NAPSTRINGBUILDERDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F631260)
+#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_GETSCREENPOS_OFFSET UNITYSDK_OFFSET(0x1F7D8C80)
+#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_RELEASESCREENPOS_OFFSET UNITYSDK_OFFSET(0x1F7D8BC0)
+#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_RETURNTOPOOL_OFFSET UNITYSDK_OFFSET(0x1F7D9190)
+#define MOLEMOLE_NAPSTRINGBUILDERDEBUG_SBFROMPOOL_OFFSET UNITYSDK_OFFSET(0x1F7D9050)
+#define MOLEMOLE_NAPSTRINGBUILDERDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7D9280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NapStringBuilderDebug_TypeDefinitionIndex = 8427;
+	inline static constexpr unsigned int NapStringBuilderDebug_TypeDefinitionIndex = 7852;
 
 	class NapStringBuilderDebug : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Text::StringBuilder*>** StaticGet_Field_5_0()
+		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>** StaticGet_FIGDECIPPEO()
 		{
-			return (::System::Collections::Generic::List_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(NapStringBuilderDebug_TypeDefinitionIndex)->GetStaticField(0x6EE0);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NapStringBuilderDebug_TypeDefinitionIndex)->GetStaticField(0x6F10);
 		}
-		static ::MoleMole::NapStringBuilderDebug_Class_3_50D343C44D28BEFB** StaticGet_OnGUIHandlers()
+		static ::MoleMole::NapStringBuilderDebug_OAPGGEBDOGN** StaticGet_OnGUIHandlers()
 		{
-			return (::MoleMole::NapStringBuilderDebug_Class_3_50D343C44D28BEFB**)Il2CppClass::FromTypeDefinitionIndex(NapStringBuilderDebug_TypeDefinitionIndex)->GetStaticField(0x6EE8);
+			return (::MoleMole::NapStringBuilderDebug_OAPGGEBDOGN**)Il2CppClass::FromTypeDefinitionIndex(NapStringBuilderDebug_TypeDefinitionIndex)->GetStaticField(0x6F18);
 		}
-		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>** StaticGet_Field_5_2()
+		static ::System::Collections::Generic::List_1<::System::Text::StringBuilder*>** StaticGet_BOGNNMIAEFD()
 		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NapStringBuilderDebug_TypeDefinitionIndex)->GetStaticField(0x6EF0);
+			return (::System::Collections::Generic::List_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(NapStringBuilderDebug_TypeDefinitionIndex)->GetStaticField(0x6F20);
 		}
 
 		::System::Void _ctor()
@@ -42,14 +42,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPSTRINGBUILDERDEBUG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void ReleaseScreenPos(::UnityEngine::Object* a1)
+		static ::System::Void ReleaseScreenPos(::UnityEngine::Object* IONJNNHMDAB)
 		{
-			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPSTRINGBUILDERDEBUG_RELEASESCREENPOS_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPSTRINGBUILDERDEBUG_RELEASESCREENPOS_OFFSET))(IONJNNHMDAB);
 		}
 
-		static ::UnityEngine::Rect GetScreenPos(::UnityEngine::Object* a1, ::System::String* a2, ::UnityEngine::GUIStyle* a3)
+		static ::UnityEngine::Rect GetScreenPos(::UnityEngine::Object* IONJNNHMDAB, ::System::String* FCCLIEJAKLI, ::UnityEngine::GUIStyle* IFBIKDHCCOF)
 		{
-			return ((::UnityEngine::Rect(*)(::UnityEngine::Object*, ::System::String*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPSTRINGBUILDERDEBUG_GETSCREENPOS_OFFSET))(a1, a2, a3);
+			return ((::UnityEngine::Rect(*)(::UnityEngine::Object*, ::System::String*, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPSTRINGBUILDERDEBUG_GETSCREENPOS_OFFSET))(IONJNNHMDAB, FCCLIEJAKLI, IFBIKDHCCOF);
 		}
 
 		static ::System::Text::StringBuilder* SBFromPool()
@@ -57,9 +57,9 @@ namespace MoleMole
 			return ((::System::Text::StringBuilder*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_NAPSTRINGBUILDERDEBUG_SBFROMPOOL_OFFSET))();
 		}
 
-		static ::System::Void ReturnToPool(::System::Text::StringBuilder* a1)
+		static ::System::Void ReturnToPool(::System::Text::StringBuilder* CKGGMNHMKDB)
 		{
-			return ((::System::Void(*)(::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPSTRINGBUILDERDEBUG_RETURNTOPOOL_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPSTRINGBUILDERDEBUG_RETURNTOPOOL_OFFSET))(CKGGMNHMKDB);
 		}
 	};
 }

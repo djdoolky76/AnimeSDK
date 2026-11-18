@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigBlackCurtain; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGBLACKCURTAINS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8F3090)
+#define MOLEMOLE_CONFIG_CONFIGBLACKCURTAINS__CTOR_OFFSET UNITYSDK_OFFSET(0x1922FD00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBlackCurtains_TypeDefinitionIndex = 80797;
+	inline static constexpr unsigned int ConfigBlackCurtains_TypeDefinitionIndex = 72710;
 
 	class ConfigBlackCurtains : public ::Foundation::MihoyoSerializedScriptableObject
 	{

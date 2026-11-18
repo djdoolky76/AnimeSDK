@@ -2,38 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/PerformanceSettingPostProcessProfileBase.h"
 
-class Class_1_BCCD4DFEA016B7F9;
+class KAFMJLPNNAG;
 
-#define MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x1792F850)
-#define MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1792F8C0)
-#define MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE___BASE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x1792F8D0)
+#define MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x14B1FBC0)
+#define MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x14B1FC30)
+#define MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE___BASE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x14B1FC40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int StreamingMipmapsByVRAMPostProcessProfile_TypeDefinitionIndex = 68824;
+	inline static constexpr unsigned int StreamingMipmapsByVRAMPostProcessProfile_TypeDefinitionIndex = 48340;
 
 	class StreamingMipmapsByVRAMPostProcessProfile : public ::MoleMole::PerformanceSettingPostProcessProfileBase
 	{
 	public:
-		::System::Int32 StreamingTextureMaster; // 0x10
-		::System::Single VRAMThreshold; // 0x14
-		::System::Boolean StreamingMipmapsActive; // 0x18
-		::System::Boolean ApplyStreamingTextureMaster; // 0x19
-		::System::Single StreamingBudget; // 0x1C
+		::System::Boolean StreamingMipmapsActive; // 0x10
+		::System::Boolean ApplyStreamingTextureMaster; // 0x11
+		::System::Byte _padding0[0x2];
+		::System::Int32 StreamingTextureMaster; // 0x14
+		::System::Single StreamingBudget; // 0x18
+		::System::Single VRAMThreshold; // 0x1C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_BCCD4DFEA016B7F9* GetPerformanceProfilePostProcessor()
+		::KAFMJLPNNAG* GetPerformanceProfilePostProcessor()
 		{
-			return ((::Class_1_BCCD4DFEA016B7F9*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET))(this);
+			return ((::KAFMJLPNNAG*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET))(this);
 		}
 
-		::Class_1_BCCD4DFEA016B7F9* __base_GetPerformanceProfilePostProcessor()
+		::KAFMJLPNNAG* __base_GetPerformanceProfilePostProcessor()
 		{
-			return ((::Class_1_BCCD4DFEA016B7F9*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE___BASE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET))(this);
+			return ((::KAFMJLPNNAG*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STREAMINGMIPMAPSBYVRAMPOSTPROCESSPROFILE___BASE_GETPERFORMANCEPROFILEPOSTPROCESSOR_OFFSET))(this);
 		}
 	};
 }

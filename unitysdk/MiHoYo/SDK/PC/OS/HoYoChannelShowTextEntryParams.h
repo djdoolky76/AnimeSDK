@@ -5,21 +5,21 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1DD47DF0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD47E00)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1E061EB0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E061EC0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelShowTextEntryParams_TypeDefinitionIndex = 20703;
+	inline static constexpr unsigned int HoYoChannelShowTextEntryParams_TypeDefinitionIndex = 19901;
 
 	class HoYoChannelShowTextEntryParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{
 	public:
-		::System::String* title; // 0x18
-		::System::String* description; // 0x20
-		::System::String* defaultValue; // 0x28
-		::MiHoYo::SDK::PC::OS::HoYoChannelShowTextEntryInputScope scope; // 0x30
-		::System::Int32 maxLength; // 0x34
+		::System::String* title; // 0x20
+		::System::String* description; // 0x28
+		::System::String* defaultValue; // 0x30
+		::MiHoYo::SDK::PC::OS::HoYoChannelShowTextEntryInputScope scope; // 0x38
+		::System::Int32 maxLength; // 0x3C
 
 		::System::Void _ctor()
 		{

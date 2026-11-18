@@ -8,16 +8,17 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGZENKOVSPECIALAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x162681A0)
+#define MOLEMOLE_CONFIG_CONFIGZENKOVSPECIALAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B22440)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZenkovSpecialAvatar_TypeDefinitionIndex = 53130;
+	inline static constexpr unsigned int ConfigZenkovSpecialAvatar_TypeDefinitionIndex = 40708;
 
 	class ConfigZenkovSpecialAvatar : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		::System::UInt32 PyroisAvatarID; // 0x58
+		::System::Byte _padding0[0x4];
 		::System::String* PyroisExecuteQTEHintKey; // 0x60
 		::System::String* PyroisBlinkAidQTEHintKey; // 0x68
 		::Foundation::AssetPath PyroisButtonEmptyIconPath; // 0x70
@@ -32,6 +33,7 @@ namespace MoleMole::Config
 		::System::Single BlinkHoldModeEnterProtection; // 0xD4
 		::System::Collections::Generic::List_1<::System::Int32>* InstantSwitchOutAvatarIDList; // 0xD8
 		::System::Single YokaiLongPressThreshold; // 0xE0
+		::System::Byte _padding1[0x4];
 		::System::String* YokaiWheelTimeSlowKey; // 0xE8
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Foundation::AssetPath>* RarityMatPathDict; // 0xF0
 		::Foundation::AssetPath YokaiInStageDurationMatPath; // 0xF8

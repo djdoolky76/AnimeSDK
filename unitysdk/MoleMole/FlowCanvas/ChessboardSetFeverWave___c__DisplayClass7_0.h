@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_11287F05B515FFA7.h"
+#include "unitysdk/PEBKOGJHCAF.h"
 #include "unitysdk/System/Object.h"
 
-class Class_5_8A5B236F53009830;
+class JMIGPHLOLAJ;
 namespace MoleMole::HollowChessboard { class HollowEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETFEVERWAVE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1923A630)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETFEVERWAVE___C__DISPLAYCLASS7_0__START_B__0_OFFSET UNITYSDK_OFFSET(0x1923A640)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETFEVERWAVE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11905450)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDSETFEVERWAVE___C__DISPLAYCLASS7_0__START_B__0_OFFSET UNITYSDK_OFFSET(0x11905460)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardSetFeverWave___c__DisplayClass7_0_TypeDefinitionIndex = 78217;
+	inline static constexpr unsigned int ChessboardSetFeverWave___c__DisplayClass7_0_TypeDefinitionIndex = 93099;
 
 	class ChessboardSetFeverWave___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::Class_5_8A5B236F53009830* targetgeometryComponent; // 0x10
-		::MoleMole::HollowChessboard::HollowEntity* targetgeometryEntity; // 0x18
-		::Struct_2_11287F05B515FFA7 handle; // 0x20
+		::MoleMole::HollowChessboard::HollowEntity* targetgeometryEntity; // 0x10
+		::JMIGPHLOLAJ* targetgeometryComponent; // 0x18
+		::PEBKOGJHCAF handle; // 0x20
 
 		::System::Void _ctor()
 		{

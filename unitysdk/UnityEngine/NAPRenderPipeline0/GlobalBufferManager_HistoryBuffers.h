@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int GlobalBufferManager_HistoryBuffers_TypeDefinitionIndex = 6026;
+	inline static constexpr unsigned int GlobalBufferManager_HistoryBuffers_TypeDefinitionIndex = 6034;
 
 	class GlobalBufferManager_HistoryBuffers
 	{

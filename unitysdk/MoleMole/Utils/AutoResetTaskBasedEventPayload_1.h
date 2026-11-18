@@ -7,7 +7,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int AutoResetTaskBasedEventPayload_1_TypeDefinitionIndex = 52247;
+	inline static constexpr unsigned int AutoResetTaskBasedEventPayload_1_TypeDefinitionIndex = 70412;
 
 	template <typename T>
 	class AutoResetTaskBasedEventPayload_1 : public ::System::Object

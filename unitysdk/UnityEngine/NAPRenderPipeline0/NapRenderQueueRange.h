@@ -3,22 +3,22 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/RenderQueueRange.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPRENDERQUEUERANGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA5FA80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPRENDERQUEUERANGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED9C2C0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NapRenderQueueRange_TypeDefinitionIndex = 5851;
+	inline static constexpr unsigned int NapRenderQueueRange_TypeDefinitionIndex = 5857;
 
 	class NapRenderQueueRange : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::RenderQueueRange* StaticGet_transparentTop()
 		{
-			return (::UnityEngine::Rendering::RenderQueueRange*)Il2CppClass::FromTypeDefinitionIndex(NapRenderQueueRange_TypeDefinitionIndex)->GetStaticField(0x23A0);
+			return (::UnityEngine::Rendering::RenderQueueRange*)Il2CppClass::FromTypeDefinitionIndex(NapRenderQueueRange_TypeDefinitionIndex)->GetStaticField(0x2320);
 		}
 		static ::UnityEngine::Rendering::RenderQueueRange* StaticGet_transparent()
 		{
-			return (::UnityEngine::Rendering::RenderQueueRange*)Il2CppClass::FromTypeDefinitionIndex(NapRenderQueueRange_TypeDefinitionIndex)->GetStaticField(0x23A8);
+			return (::UnityEngine::Rendering::RenderQueueRange*)Il2CppClass::FromTypeDefinitionIndex(NapRenderQueueRange_TypeDefinitionIndex)->GetStaticField(0x2328);
 		}
 
 		static ::System::Void _cctor()

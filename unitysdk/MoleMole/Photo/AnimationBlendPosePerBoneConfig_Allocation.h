@@ -3,7 +3,7 @@
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int AnimationBlendPosePerBoneConfig_Allocation_TypeDefinitionIndex = 47218;
+	inline static constexpr unsigned int AnimationBlendPosePerBoneConfig_Allocation_TypeDefinitionIndex = 40990;
 
 	enum class AnimationBlendPosePerBoneConfig_Allocation : ::System::Int32
 	{

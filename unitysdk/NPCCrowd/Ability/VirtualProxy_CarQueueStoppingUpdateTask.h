@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
@@ -10,14 +10,14 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_CARQUEUESTOPPINGUPDATETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x12D0C240)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_CARQUEUESTOPPINGUPDATETASK_LINK_OFFSET UNITYSDK_OFFSET(0x12D0C140)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_CARQUEUESTOPPINGUPDATETASK_TICK_OFFSET UNITYSDK_OFFSET(0x12D0C340)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_CARQUEUESTOPPINGUPDATETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x12D0C7E0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_CARQUEUESTOPPINGUPDATETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1378CB10)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_CARQUEUESTOPPINGUPDATETASK_LINK_OFFSET UNITYSDK_OFFSET(0x1378CA10)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_CARQUEUESTOPPINGUPDATETASK_TICK_OFFSET UNITYSDK_OFFSET(0x1378CC10)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_CARQUEUESTOPPINGUPDATETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1378D0B0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_CarQueueStoppingUpdateTask_TypeDefinitionIndex = 79511;
+	inline static constexpr unsigned int VirtualProxy_CarQueueStoppingUpdateTask_TypeDefinitionIndex = 43975;
 
 	class VirtualProxy_CarQueueStoppingUpdateTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{

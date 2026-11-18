@@ -5,18 +5,18 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LD_AbyssS2_NextPortalSelect; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTPORTALSELECT___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB7C30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTPORTALSELECT___C__DISPLAYCLASS3_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x19DB7C40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTPORTALSELECT___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3E050)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTPORTALSELECT___C__DISPLAYCLASS3_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x12B3E060)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_NextPortalSelect___c__DisplayClass3_0_TypeDefinitionIndex = 66775;
+	inline static constexpr unsigned int LD_AbyssS2_NextPortalSelect___c__DisplayClass3_0_TypeDefinitionIndex = 86982;
 
 	class LD_AbyssS2_NextPortalSelect___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::FlowCanvas::Nodes::LD_AbyssS2_NextPortalSelect* __4__this; // 0x10
-		::FlowCanvas::Flow flow; // 0x18
+		::FlowCanvas::Flow flow; // 0x10
+		::MoleMole::FlowCanvas::Nodes::LD_AbyssS2_NextPortalSelect* __4__this; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -7,21 +7,21 @@ namespace System { class String; }
 namespace System::Data { class DataTable; }
 namespace System::Data { class DataViewManager; }
 
-#define SYSTEM_DATA_DATAVIEWSETTING_SETDATATABLE_OFFSET UNITYSDK_OFFSET(0x1EC24710)
-#define SYSTEM_DATA_DATAVIEWSETTING_SETDATAVIEWMANAGER_OFFSET UNITYSDK_OFFSET(0x1EC24700)
-#define SYSTEM_DATA_DATAVIEWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC246E0)
+#define SYSTEM_DATA_DATAVIEWSETTING_SETDATATABLE_OFFSET UNITYSDK_OFFSET(0x1EFDF910)
+#define SYSTEM_DATA_DATAVIEWSETTING_SETDATAVIEWMANAGER_OFFSET UNITYSDK_OFFSET(0x1EFDF900)
+#define SYSTEM_DATA_DATAVIEWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFDF8E0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataViewSetting_TypeDefinitionIndex = 39283;
+	inline static constexpr unsigned int DataViewSetting_TypeDefinitionIndex = 37283;
 
 	class DataViewSetting : public ::System::Object
 	{
 	public:
 		::System::String* _sort; // 0x10
 		::System::Data::DataViewManager* _dataViewManager; // 0x18
-		::System::String* _rowFilter; // 0x20
-		::System::Data::DataTable* _table; // 0x28
+		::System::Data::DataTable* _table; // 0x20
+		::System::String* _rowFilter; // 0x28
 		::System::Data::DataViewRowState _rowStateFilter; // 0x30
 		::System::Boolean _applyDefaultSort; // 0x34
 

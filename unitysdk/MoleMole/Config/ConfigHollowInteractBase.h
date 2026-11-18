@@ -7,36 +7,35 @@
 #include "unitysdk/MoleMole/InputLogicEventType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3E7861A5123BFC05;
 namespace MoleMole::Config { class ConfigHollowInteractCondition; }
 namespace MoleMole::Config { class ConfigHollowInteractEffect; }
-namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x172A5D10)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWINTERACTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x164119C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowInteractBase_TypeDefinitionIndex = 53112;
+	inline static constexpr unsigned int ConfigHollowInteractBase_TypeDefinitionIndex = 73201;
 
 	class ConfigHollowInteractBase : public ::System::Object
 	{
 	public:
 		::MoleMole::Config::ConfigHollowInteractCondition* Condition; // 0x10
-		::MoleMole::Config::ConfigHollowInteractEffect* Effect; // 0x18
-		::MoleMole::Config::ConfigHollowInteractEffect* FailureEffect; // 0x20
-		::System::Int32 Group; // 0x28
-		::MoleMole::Config::HollowInteractType InteractType; // 0x2C
-		::System::Boolean DestroyAfterInteract; // 0x30
-		::System::Boolean BreakSleep; // 0x31
+		::MoleMole::Config::ConfigHollowInteractEffect* FailureEffect; // 0x18
+		::MoleMole::Config::ConfigHollowInteractEffect* Effect; // 0x20
+		::System::Boolean BreakSleep; // 0x28
+		::System::Boolean IsInteractFailure; // 0x29
+		::System::Boolean ForbidMove; // 0x2A
+		::System::Boolean DestroyAfterInteract; // 0x2B
+		::System::Int32 Priority; // 0x2C
+		::MoleMole::Config::InteractTargetType Type; // 0x30
 		::MoleMole::Config::BindSendMsgType BindMove; // 0x34
-		::MoleMole::InputLogicEventType ConsoleOrKeyboardEvent; // 0x38
-		::MoleMole::Config::InteractTargetType Type; // 0x3C
-		::System::Int32 Priority; // 0x40
-		::MoleMole::Config::InteractPosType PosType; // 0x44
-		::System::Boolean IsInteractFailure; // 0x48
-		::System::Boolean TryMoveToTarget; // 0x49
-		::System::Boolean EnableDefault; // 0x4A
-		::System::Boolean ForbidMove; // 0x4B
+		::MoleMole::Config::HollowInteractType InteractType; // 0x38
+		::System::Int32 Group; // 0x3C
+		::System::Boolean EnableDefault; // 0x40
+		::System::Boolean TryMoveToTarget; // 0x41
+		::System::Byte _padding0[0x2];
+		::MoleMole::InputLogicEventType ConsoleOrKeyboardEvent; // 0x44
+		::MoleMole::Config::InteractPosType PosType; // 0x48
 
 		::System::Void _ctor()
 		{

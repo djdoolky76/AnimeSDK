@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define IFIX_VERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E09C4F0)
+#define IFIX_VERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E432FA0)
 
 namespace IFix
 {
-	inline static constexpr unsigned int Version_TypeDefinitionIndex = 6918;
+	inline static constexpr unsigned int Version_TypeDefinitionIndex = 6925;
 
 	class Version : public ::System::Object
 	{

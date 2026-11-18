@@ -12,21 +12,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x172A5860)
-#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x172A5850)
-#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x172A58B0)
+#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING_GETFORMATTOSERIALIZEAS_OFFSET UNITYSDK_OFFSET(0x164110E0)
+#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x164110D0)
+#define MOLEMOLE_CONFIG_CONFIGGRAPHICSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16411130)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGraphicSetting_TypeDefinitionIndex = 65570;
+	inline static constexpr unsigned int ConfigGraphicSetting_TypeDefinitionIndex = 47846;
 
 	class ConfigGraphicSetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::MoleMole::ESettingPlatform, ::MoleMole::Config::DevicePerformanceConfig*>* DevicePerformanceConfigDict; // 0x60
 		::System::Int32 HDRMaxLuminosityDefaultLevel; // 0x68
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::Single>* HDRMaxLuminosityLevelConfigList; // 0x70
 		::System::Int32 HDRUIPaperWhiteDefaultLevel; // 0x78
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::System::Single>* HDRUIPaperWhiteLevelConfigList; // 0x80
 		::System::Collections::Generic::Dictionary_2<::MoleMole::GraphicSettingProfileType, ::System::Single>* graphicsTypeScoreRatioDict; // 0x88
 		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* pcResolutionSupportList; // 0x90

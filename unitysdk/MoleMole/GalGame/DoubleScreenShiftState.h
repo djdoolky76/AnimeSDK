@@ -3,13 +3,13 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int DoubleScreenShiftState_TypeDefinitionIndex = 49752;
+	inline static constexpr unsigned int DoubleScreenShiftState_TypeDefinitionIndex = 63113;
 
 	enum class DoubleScreenShiftState : ::System::Int32
 	{
-		ToMiddle = 1,
-		LeftExpand = 3,
 		None = 0,
+		LeftExpand = 3,
+		ToMiddle = 1,
 		RightExpand = 2,
 	};
 }

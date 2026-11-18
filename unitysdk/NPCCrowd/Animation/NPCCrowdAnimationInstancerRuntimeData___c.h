@@ -6,29 +6,29 @@ namespace NPCCrowd::Animation { class GPUIBone; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x102B8D90)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x102B8DD0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA___C___CTOR_B__54_0_OFFSET UNITYSDK_OFFSET(0x102B8DE0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA___C___CTOR_B__54_1_OFFSET UNITYSDK_OFFSET(0x102B8E00)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1363F2E0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1363F320)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA___C___CTOR_B__54_0_OFFSET UNITYSDK_OFFSET(0x1363F330)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA___C___CTOR_B__54_1_OFFSET UNITYSDK_OFFSET(0x1363F350)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdAnimationInstancerRuntimeData___c_TypeDefinitionIndex = 91580;
+	inline static constexpr unsigned int NPCCrowdAnimationInstancerRuntimeData___c_TypeDefinitionIndex = 78279;
 
 	class NPCCrowdAnimationInstancerRuntimeData___c : public ::System::Object
 	{
 	public:
-		static ::NPCCrowd::Animation::NPCCrowdAnimationInstancerRuntimeData___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::NPCCrowd::Animation::NPCCrowdAnimationInstancerRuntimeData___c**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData___c_TypeDefinitionIndex)->GetStaticField(0x33A80);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData___c_TypeDefinitionIndex)->GetStaticField(0x35DE0);
 		}
 		static ::System::Func_2<::NPCCrowd::Animation::GPUIBone*, ::System::Int32>** StaticGet___9__54_1()
 		{
-			return (::System::Func_2<::NPCCrowd::Animation::GPUIBone*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData___c_TypeDefinitionIndex)->GetStaticField(0x33A88);
+			return (::System::Func_2<::NPCCrowd::Animation::GPUIBone*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData___c_TypeDefinitionIndex)->GetStaticField(0x35DE8);
 		}
 		static ::System::Func_2<::NPCCrowd::Animation::GPUIBone*, ::System::String*>** StaticGet___9__54_0()
 		{
-			return (::System::Func_2<::NPCCrowd::Animation::GPUIBone*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData___c_TypeDefinitionIndex)->GetStaticField(0x33A90);
+			return (::System::Func_2<::NPCCrowd::Animation::GPUIBone*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData___c_TypeDefinitionIndex)->GetStaticField(0x35DF0);
 		}
 
 		static ::System::Void _cctor()

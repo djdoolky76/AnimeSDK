@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/FacetsChecker.h"
 
-#define SYSTEM_XML_SCHEMA_MISCFACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA21A20)
+#define SYSTEM_XML_SCHEMA_MISCFACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED04200)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int MiscFacetsChecker_TypeDefinitionIndex = 2061;
+	inline static constexpr unsigned int MiscFacetsChecker_TypeDefinitionIndex = 2060;
 
 	class MiscFacetsChecker : public ::System::Xml::Schema::FacetsChecker
 	{

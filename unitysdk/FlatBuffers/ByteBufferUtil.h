@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlatBuffers/Table.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-#include "unitysdk/System/Span_1.h"
+#include "unitysdk/FlatBuffers/Table.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 
 namespace FlatBuffers { class ByteBuffer; }
 
-#define FLATBUFFERS_BYTEBUFFERUTIL_CONVERTUTF16TOUTF8_OFFSET UNITYSDK_OFFSET(0x1F626D70)
-#define FLATBUFFERS_BYTEBUFFERUTIL_GETSIZEPREFIX_OFFSET UNITYSDK_OFFSET(0x1F626D50)
-#define FLATBUFFERS_BYTEBUFFERUTIL_TRYDATALIST_OFFSET UNITYSDK_OFFSET(0x1F626EB0)
+#define FLATBUFFERS_BYTEBUFFERUTIL_CONVERTUTF16TOUTF8_OFFSET UNITYSDK_OFFSET(0x1F9E5AE0)
+#define FLATBUFFERS_BYTEBUFFERUTIL_GETSIZEPREFIX_OFFSET UNITYSDK_OFFSET(0x1F9E5AC0)
+#define FLATBUFFERS_BYTEBUFFERUTIL_TRYDATALIST_OFFSET UNITYSDK_OFFSET(0x1F9E5C20)
 
 namespace FlatBuffers
 {
-	inline static constexpr unsigned int ByteBufferUtil_TypeDefinitionIndex = 6729;
+	inline static constexpr unsigned int ByteBufferUtil_TypeDefinitionIndex = 6736;
 
 	class ByteBufferUtil : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace FlatBuffers
 			return ((::System::Int32(*)(::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + FLATBUFFERS_BYTEBUFFERUTIL_GETSIZEPREFIX_OFFSET))(bb);
 		}
 
-		static ::System::Void ConvertUtf16ToUtf8(::System::ReadOnlySpan_1<::System::Char> utf16Chars, ::System::Span_1<::System::Byte>& utf8Span)
+		static ::System::Void ConvertUtf16ToUtf8(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Char> utf16Chars, ::System::Span_1_9011FAD97750D224<::System::Byte>& utf8Span)
 		{
-			return ((::System::Void(*)(::System::ReadOnlySpan_1<::System::Char>, ::System::Span_1<::System::Byte>&))((::PBYTE)hIl2Cpp + FLATBUFFERS_BYTEBUFFERUTIL_CONVERTUTF16TOUTF8_OFFSET))(utf16Chars, utf8Span);
+			return ((::System::Void(*)(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Char>, ::System::Span_1_9011FAD97750D224<::System::Byte>&))((::PBYTE)hIl2Cpp + FLATBUFFERS_BYTEBUFFERUTIL_CONVERTUTF16TOUTF8_OFFSET))(utf16Chars, utf8Span);
 		}
 
 		static ::System::Boolean TryDataList(::FlatBuffers::Table __p, ::System::Int32 i, ::FlatBuffers::Table& p)

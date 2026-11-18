@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class CJIEIHEDMME;
+class PJMNMCKECAH;
+
+#define NBEJOIFJEKI_AJBNEEHJDLO_KKCCOEKIBNG_OFFSET UNITYSDK_OFFSET(0x120F10F0)
+#define NBEJOIFJEKI_AJBNEEHJDLO_MMCLIOPJEDL_OFFSET UNITYSDK_OFFSET(0x120F1110)
+#define NBEJOIFJEKI_AJBNEEHJDLO__CTOR_OFFSET UNITYSDK_OFFSET(0x120F10E0)
+
+inline static constexpr unsigned int NBEJOIFJEKI_AJBNEEHJDLO_TypeDefinitionIndex = 51004;
+
+class NBEJOIFJEKI_AJBNEEHJDLO : public ::System::Object
+{
+public:
+	::CJIEIHEDMME* HODAIDNDKHD; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NBEJOIFJEKI_AJBNEEHJDLO__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean KKCCOEKIBNG(::PJMNMCKECAH* HAAEBCOBKFF)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::PJMNMCKECAH*))((::PBYTE)hIl2Cpp + NBEJOIFJEKI_AJBNEEHJDLO_KKCCOEKIBNG_OFFSET))(this, HAAEBCOBKFF);
+	}
+
+	::System::Boolean MMCLIOPJEDL(::PJMNMCKECAH* HAAEBCOBKFF)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::PJMNMCKECAH*))((::PBYTE)hIl2Cpp + NBEJOIFJEKI_AJBNEEHJDLO_MMCLIOPJEDL_OFFSET))(this, HAAEBCOBKFF);
+	}
+};

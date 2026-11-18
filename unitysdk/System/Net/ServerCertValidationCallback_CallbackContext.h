@@ -6,11 +6,11 @@
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CALLBACKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C881FD0)
+#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CALLBACKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC2790)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ServerCertValidationCallback_CallbackContext_TypeDefinitionIndex = 3490;
+	inline static constexpr unsigned int ServerCertValidationCallback_CallbackContext_TypeDefinitionIndex = 3489;
 
 	class ServerCertValidationCallback_CallbackContext : public ::System::Object
 	{
@@ -18,8 +18,9 @@ namespace System::Net
 		::System::Security::Cryptography::X509Certificates::X509Chain* chain; // 0x10
 		::System::Object* request; // 0x18
 		::System::Security::Cryptography::X509Certificates::X509Certificate* certificate; // 0x20
-		::System::Net::Security::SslPolicyErrors sslPolicyErrors; // 0x28
-		::System::Boolean result; // 0x2C
+		::System::Boolean result; // 0x28
+		::System::Byte _padding0[0x3];
+		::System::Net::Security::SslPolicyErrors sslPolicyErrors; // 0x2C
 
 		::System::Void _ctor(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::System::Net::Security::SslPolicyErrors sslPolicyErrors)
 		{

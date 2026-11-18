@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CLFBLCIJPKD_LEPOLDOBOGO.h"
+
+class ENGKPGFGGLM;
+namespace MoleMole::Battle { class Entity; }
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLFBLCIJPKD_GKFINBOHJEP_BPKNEKOKBCK_OFFSET UNITYSDK_OFFSET(0x149721C0)
+#define CLFBLCIJPKD_GKFINBOHJEP_DIEPHAJCGOE_OFFSET UNITYSDK_OFFSET(0x14971A40)
+#define CLFBLCIJPKD_GKFINBOHJEP_NCMCOPHKPJN_OFFSET UNITYSDK_OFFSET(0x14971BB0)
+#define CLFBLCIJPKD_GKFINBOHJEP_PKOGNPKCHHE_1_OFFSET UNITYSDK_OFFSET(0x14971860)
+#define CLFBLCIJPKD_GKFINBOHJEP_PKOGNPKCHHE_OFFSET UNITYSDK_OFFSET(0x149717B0)
+#define CLFBLCIJPKD_GKFINBOHJEP__CTOR_OFFSET UNITYSDK_OFFSET(0x14971720)
+
+inline static constexpr unsigned int CLFBLCIJPKD_GKFINBOHJEP_TypeDefinitionIndex = 88471;
+
+class CLFBLCIJPKD_GKFINBOHJEP : public ::CLFBLCIJPKD_LEPOLDOBOGO
+{
+public:
+	::System::Collections::Generic::List_1<::System::Object*>* HBEPDMIABKM; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_GKFINBOHJEP__CTOR_OFFSET))(this);
+	}
+
+	::CLFBLCIJPKD_GKFINBOHJEP* PKOGNPKCHHE(::CLFBLCIJPKD_LEPOLDOBOGO* LMHNJIBCLJF)
+	{
+		return ((::CLFBLCIJPKD_GKFINBOHJEP*(*)(::PVOID, ::CLFBLCIJPKD_LEPOLDOBOGO*))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_GKFINBOHJEP_PKOGNPKCHHE_OFFSET))(this, LMHNJIBCLJF);
+	}
+
+	::CLFBLCIJPKD_GKFINBOHJEP* PKOGNPKCHHE_1(::System::Collections::Generic::List_1<::System::Object*>* IONJOCILBNO)
+	{
+		return ((::CLFBLCIJPKD_GKFINBOHJEP*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_GKFINBOHJEP_PKOGNPKCHHE_1_OFFSET))(this, IONJOCILBNO);
+	}
+
+	::System::Void DIEPHAJCGOE(::ENGKPGFGGLM* FFNKDGGHBPP, ::MoleMole::Battle::Entity* KECKGDFIALJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::ENGKPGFGGLM*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_GKFINBOHJEP_DIEPHAJCGOE_OFFSET))(this, FFNKDGGHBPP, KECKGDFIALJ);
+	}
+
+	::System::Void NCMCOPHKPJN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_GKFINBOHJEP_NCMCOPHKPJN_OFFSET))(this);
+	}
+
+	::System::Void BPKNEKOKBCK(::ENGKPGFGGLM* MIALFKCCCPI, ::MoleMole::Battle::Entity* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::ENGKPGFGGLM*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_GKFINBOHJEP_BPKNEKOKBCK_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+};

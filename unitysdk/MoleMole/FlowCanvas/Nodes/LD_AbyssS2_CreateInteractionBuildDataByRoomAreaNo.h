@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
 namespace MoleMole::FlowCanvas::Nodes { class AbyssS2InteractionBuildData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEINTERACTIONBUILDDATABYROOMAREANO_INNERBUILD_OFFSET UNITYSDK_OFFSET(0x1A05BBA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEINTERACTIONBUILDDATABYROOMAREANO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A05BAC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEINTERACTIONBUILDDATABYROOMAREANO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05BDF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEINTERACTIONBUILDDATABYROOMAREANO_INNERBUILD_OFFSET UNITYSDK_OFFSET(0x13EDB630)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEINTERACTIONBUILDDATABYROOMAREANO_INVOKE_OFFSET UNITYSDK_OFFSET(0x13EDB540)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CREATEINTERACTIONBUILDDATABYROOMAREANO__CTOR_OFFSET UNITYSDK_OFFSET(0x13EDB880)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_CreateInteractionBuildDataByRoomAreaNo_TypeDefinitionIndex = 44409;
+	inline static constexpr unsigned int LD_AbyssS2_CreateInteractionBuildDataByRoomAreaNo_TypeDefinitionIndex = 58458;
 
-	class LD_AbyssS2_CreateInteractionBuildDataByRoomAreaNo : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::AbyssS2InteractionBuildData*>*, ::System::Int32, ::System::Int32>
+	class LD_AbyssS2_CreateInteractionBuildDataByRoomAreaNo
 	{
 	public:
 		::System::Int32 _areaIndex; // 0x30

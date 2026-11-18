@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_BD2BE7927F889C7B;
+class AMNHFJOBPKL;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1855C4E0)
+#define MOLEMOLE_UIFASHIONSTOREMAINPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17582400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStoreMainPageController_Context_TypeDefinitionIndex = 56897;
+	inline static constexpr unsigned int UIFashionStoreMainPageController_Context_TypeDefinitionIndex = 69784;
 
 	class UIFashionStoreMainPageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_BD2BE7927F889C7B*>* productList; // 0x28
+		::System::Collections::Generic::List_1<::AMNHFJOBPKL*>* productList; // 0x28
 		::System::Boolean isTimelinePlayed; // 0x30
 
 		::System::Void _ctor()

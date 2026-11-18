@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_A8A051C530035301_1;
+class EDMAJMJNEEA;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x184BBAA0)
-#define MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x184BBAE0)
-#define MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__EXTRACTPLAYERINFO_B__38_1_OFFSET UNITYSDK_OFFSET(0x184BBBE0)
-#define MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C___REFRESHAVATARINFO_B__26_0_OFFSET UNITYSDK_OFFSET(0x184BBAF0)
+#define MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D000F0)
+#define MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18D00130)
+#define MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__EXTRACTPLAYERINFO_B__38_1_OFFSET UNITYSDK_OFFSET(0x18D00240)
+#define MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C___REFRESHAVATARINFO_B__26_0_OFFSET UNITYSDK_OFFSET(0x18D00140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultV2_MP_PageController___c_TypeDefinitionIndex = 45276;
+	inline static constexpr unsigned int UILevelResultV2_MP_PageController___c_TypeDefinitionIndex = 67986;
 
 	class UILevelResultV2_MP_PageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UILevelResultV2_MP_PageController___c** StaticGet___9()
+		static ::System::Func_2<::EDMAJMJNEEA*, ::System::UInt32>** StaticGet___9__38_1()
 		{
-			return (::MoleMole::UILevelResultV2_MP_PageController___c**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultV2_MP_PageController___c_TypeDefinitionIndex)->GetStaticField(0x4ADB0);
+			return (::System::Func_2<::EDMAJMJNEEA*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultV2_MP_PageController___c_TypeDefinitionIndex)->GetStaticField(0x4FAF0);
 		}
-		static ::System::Func_2<::Class_3_A8A051C530035301_1*, ::System::UInt32>** StaticGet___9__38_1()
+		static ::System::Func_2<::EDMAJMJNEEA*, ::System::UInt32>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::Class_3_A8A051C530035301_1*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultV2_MP_PageController___c_TypeDefinitionIndex)->GetStaticField(0x4ADB8);
+			return (::System::Func_2<::EDMAJMJNEEA*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultV2_MP_PageController___c_TypeDefinitionIndex)->GetStaticField(0x4FAF8);
 		}
-		static ::System::Func_2<::Class_3_A8A051C530035301_1*, ::System::UInt32>** StaticGet___9__26_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_3_A8A051C530035301_1*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultV2_MP_PageController___c_TypeDefinitionIndex)->GetStaticField(0x4ADC0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultV2_MP_PageController___c_TypeDefinitionIndex)->GetStaticField(0x4FB00);
 		}
 
 		static ::System::Void _cctor()
@@ -40,14 +40,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::UInt32 __RefreshAvatarInfo_b__26_0(::Class_3_A8A051C530035301_1* p)
+		::System::UInt32 __RefreshAvatarInfo_b__26_0(::EDMAJMJNEEA* p)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Class_3_A8A051C530035301_1*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C___REFRESHAVATARINFO_B__26_0_OFFSET))(this, p);
+			return ((::System::UInt32(*)(::PVOID, ::EDMAJMJNEEA*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C___REFRESHAVATARINFO_B__26_0_OFFSET))(this, p);
 		}
 
-		::System::UInt32 _ExtractPlayerInfo_b__38_1(::Class_3_A8A051C530035301_1* p)
+		::System::UInt32 _ExtractPlayerInfo_b__38_1(::EDMAJMJNEEA* p)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Class_3_A8A051C530035301_1*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__EXTRACTPLAYERINFO_B__38_1_OFFSET))(this, p);
+			return ((::System::UInt32(*)(::PVOID, ::EDMAJMJNEEA*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELRESULTV2_MP_PAGECONTROLLER___C__EXTRACTPLAYERINFO_B__38_1_OFFSET))(this, p);
 		}
 	};
 }

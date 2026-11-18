@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace System { class String; }
-
-#define UNITYENGINE_UI_INPUTFIELD_ONCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF31E40)
+#define UNITYENGINE_UI_INPUTFIELD_ONCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B3350)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int InputField_OnChangeEvent_TypeDefinitionIndex = 19230;
+	inline static constexpr unsigned int InputField_OnChangeEvent_TypeDefinitionIndex = 18384;
 
-	class InputField_OnChangeEvent : public ::UnityEngine::Events::UnityEvent_1<::System::String*>
+	class InputField_OnChangeEvent
 	{
 	public:
 		::System::Void _ctor()

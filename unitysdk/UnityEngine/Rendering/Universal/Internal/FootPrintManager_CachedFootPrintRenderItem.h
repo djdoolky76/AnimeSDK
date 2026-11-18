@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/Internal/FootPrintManager_FootPrintSpawnerType.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_CACHEDFOOTPRINTRENDERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA39710)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_CACHEDFOOTPRINTRENDERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x91B780)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int FootPrintManager_CachedFootPrintRenderItem_TypeDefinitionIndex = 27138;
+	inline static constexpr unsigned int FootPrintManager_CachedFootPrintRenderItem_TypeDefinitionIndex = 26840;
 
 	struct alignas(4) FootPrintManager_CachedFootPrintRenderItem
 	{

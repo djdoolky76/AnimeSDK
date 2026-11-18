@@ -4,20 +4,20 @@
 
 namespace MoleMole { class UIHollowResultPageController; }
 
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18843740)
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS55_0__REFRESHLEVELTXTVIEW_G__ONPROGRESS_0_OFFSET UNITYSDK_OFFSET(0x18843750)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183AA250)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER___C__DISPLAYCLASS55_0__REFRESHLEVELTXTVIEW_G__ONPROGRESS_0_OFFSET UNITYSDK_OFFSET(0x183AA260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowResultPageController___c__DisplayClass55_0_TypeDefinitionIndex = 41924;
+	inline static constexpr unsigned int UIHollowResultPageController___c__DisplayClass55_0_TypeDefinitionIndex = 71567;
 
 	class UIHollowResultPageController___c__DisplayClass55_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIHollowResultPageController* __4__this; // 0x10
 		::System::Int32 expNeededForNxtLv; // 0x18
-		::System::Int32 remainExp; // 0x1C
-		::System::Int32 curLv; // 0x20
+		::System::Int32 curLv; // 0x1C
+		::System::Int32 remainExp; // 0x20
 
 		::System::Void _ctor()
 		{

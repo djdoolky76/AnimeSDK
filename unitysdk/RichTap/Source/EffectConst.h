@@ -2,17 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define RICHTAP_SOURCE_EFFECTCONST_AMPLITUDECHECK_OFFSET UNITYSDK_OFFSET(0x1F22C2D0)
-#define RICHTAP_SOURCE_EFFECTCONST_FREQUENCYCHECK_OFFSET UNITYSDK_OFFSET(0x1F22C2E0)
-#define RICHTAP_SOURCE_EFFECTCONST_LOOPCOUNTCHECK_OFFSET UNITYSDK_OFFSET(0x1F22D7C0)
-#define RICHTAP_SOURCE_EFFECTCONST_LOOPINTERVALCHECK_OFFSET UNITYSDK_OFFSET(0x1F22C300)
-#define RICHTAP_SOURCE_EFFECTCONST_TRIGGERSETTINGCHECK_OFFSET UNITYSDK_OFFSET(0x1F22D7D0)
+#define RICHTAP_SOURCE_EFFECTCONST_AMPLITUDECHECK_OFFSET UNITYSDK_OFFSET(0x1F61FE60)
+#define RICHTAP_SOURCE_EFFECTCONST_FREQUENCYCHECK_OFFSET UNITYSDK_OFFSET(0x1F61FE70)
+#define RICHTAP_SOURCE_EFFECTCONST_LOOPCOUNTCHECK_OFFSET UNITYSDK_OFFSET(0x1F621350)
+#define RICHTAP_SOURCE_EFFECTCONST_LOOPINTERVALCHECK_OFFSET UNITYSDK_OFFSET(0x1F61FE90)
+#define RICHTAP_SOURCE_EFFECTCONST_TRIGGERSETTINGCHECK_OFFSET UNITYSDK_OFFSET(0x1F621360)
 
 namespace RichTap::Source
 {
-	inline static constexpr unsigned int EffectConst_TypeDefinitionIndex = 38747;
+	inline static constexpr unsigned int EffectConst_TypeDefinitionIndex = 36747;
 
 	class EffectConst : public ::System::Object
 	{
@@ -25,8 +23,8 @@ namespace RichTap::Source
 		// static const ::System::Int32 MIN_AMPLITUDE = 0x0; // 0x0
 		// static const ::System::Int32 DEFAULT_AMPLITUDE = 0xFF; // 0x0
 		// static const ::System::Int32 MAX_FREQUENCY = 0x64; // 0x0
-		// static const ::System::Int32 MIN_FREQUENCY = 0xFFFFFF9C; // 0x0
-		// static const ::System::Int32 MIN_LOOP_COUNT = 0xFFFFFFFF; // 0x0
+		// static const ::System::Int32 MIN_FREQUENCY = -0x64; // 0x0
+		// static const ::System::Int32 MIN_LOOP_COUNT = -0x1; // 0x0
 		// static const ::System::Int32 MIN_LOOP_INTERVAL = 0x0; // 0x0
 		// static const ::System::Int32 DEFAULT_FREQUENCY = 0x0; // 0x0
 		// static const ::System::Int32 DEFAULT_PRIORITY = 0x28; // 0x0

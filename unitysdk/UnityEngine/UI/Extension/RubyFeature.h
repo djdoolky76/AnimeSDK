@@ -1,99 +1,95 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_965E30DB043094A1.h"
-#include "unitysdk/Enum_3_96EDEAC6CE722CBE.h"
-#include "unitysdk/Struct_2_5CFCC37B3A5F59B3.h"
-#include "unitysdk/Struct_2_97F90E6FB4F6D559.h"
-#include "unitysdk/UnityEngine/Color32.h"
-#include "unitysdk/UnityEngine/TextGenerationSettings.h"
-#include "unitysdk/UnityEngine/UI/Extension/BaseTextMeshRange.h"
+#include "unitysdk/GOPMDBBNGGK.h"
+#include "unitysdk/NPCOFEOMEIF.h"
+#include "unitysdk/UnityEngine/UI/Extension/UITextFeatureBase.h"
+#include "unitysdk/UnityEngine/UIVertex.h"
+#include "unitysdk/DACHBCNPGPJ.h"
+#include "unitysdk/EBDKCHECNEH.h"
 #include "unitysdk/UnityEngine/UI/Extension/NAP_CharacterInfo.h"
-#include "unitysdk/UnityEngine/UI/Extension/RubyFeature_RubyAnnotationInfo.h"
 #include "unitysdk/UnityEngine/UI/Extension/RubyFeature_RubyAnnotationRuntimeData.h"
 #include "unitysdk/UnityEngine/UI/Extension/RubyFeature_RubyMeasureResult.h"
-#include "unitysdk/UnityEngine/UI/Extension/RubyFeature_RubyPreferredHeightInput.h"
 #include "unitysdk/UnityEngine/UI/Extension/RubyFeature_RubyTagParams.h"
-#include "unitysdk/UnityEngine/UI/Extension/UITextFeatureBase.h"
-#include "unitysdk/UnityEngine/UI/Extension/UITextRevealQuadRange.h"
+#include "unitysdk/UnityEngine/Color32.h"
+#include "unitysdk/UnityEngine/TextGenerationSettings.h"
 #include "unitysdk/UnityEngine/UICharInfo.h"
 #include "unitysdk/UnityEngine/UILineInfo.h"
-#include "unitysdk/UnityEngine/UIVertex.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace System::Text { class StringBuilder; }
 namespace UnityEngine { class TextGenerator; }
 namespace UnityEngine::UI { class VertexHelper; }
 namespace UnityEngine::UI::Extension { class IUITextLineExtraHeightWriter; }
 namespace UnityEngine::UI::Extension { class IUITextTypesetConstraintWriter; }
+namespace UnityEngine::UI::Extension { class UITextTypewriterBinding; }
 
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_ADDRUBYTYPEWRITERREVEALRANGES_OFFSET UNITYSDK_OFFSET(0x18797010)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_ADDTYPEWRITERREVEALRANGE_OFFSET UNITYSDK_OFFSET(0x18797870)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_APPENDDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x18798120)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_APPENDRUBYANNOTATIONMESH_OFFSET UNITYSDK_OFFSET(0x18793B00)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_BUILDRUBYANNOTATIONINFOS_OFFSET UNITYSDK_OFFSET(0x18791250)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_BUILDRUBYFONTSETTINGS_OFFSET UNITYSDK_OFFSET(0x18795A20)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_BUILDRUBYGENERATIONSETTINGS_OFFSET UNITYSDK_OFFSET(0x18796250)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_BUILDRUBYPREFERREDHEIGHTINPUTS_OFFSET UNITYSDK_OFFSET(0x18794D50)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_BUILDRUBYRUNTIMEDATA_OFFSET UNITYSDK_OFFSET(0x187918F0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_CALCOVERHANGSCALE_OFFSET UNITYSDK_OFFSET(0x18797DF0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_CALCRUBYHEIGHTOFFSET_OFFSET UNITYSDK_OFFSET(0x18797F10)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_CONTAINSRUBYTAGS_OFFSET UNITYSDK_OFFSET(0x18790F40)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_EMITRUBYQUADS_OFFSET UNITYSDK_OFFSET(0x18796980)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_EXTRACTRUBYANNOTATION_OFFSET UNITYSDK_OFFSET(0x18793680)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_FINDMATCHINGRUBYRIGHTTAGINDEX_OFFSET UNITYSDK_OFFSET(0x18792DC0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_FLUSHQUADS_OFFSET UNITYSDK_OFFSET(0x187973B0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETBASEFONTSIZEFOROVERHANG_OFFSET UNITYSDK_OFFSET(0x18795B10)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETEXTRAPREFERREDHEIGHT_OFFSET UNITYSDK_OFFSET(0x18794680)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETLINEFORCHARINDEX_OFFSET UNITYSDK_OFFSET(0x187958C0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETREQUIREDRICHTAGS_OFFSET UNITYSDK_OFFSET(0x18791100)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETRUBYGENBOUNDS_OFFSET UNITYSDK_OFFSET(0x187979B0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETRUBYMAXFONTSIZE_OFFSET UNITYSDK_OFFSET(0x18792280)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETTOTALRUBYHEIGHT_OFFSET UNITYSDK_OFFSET(0x18798030)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETUNITSPERPIXEL_OFFSET UNITYSDK_OFFSET(0x18792200)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GET_PREPROCESSORDER_OFFSET UNITYSDK_OFFSET(0x18790EA0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GET_RUBYGEN_OFFSET UNITYSDK_OFFSET(0x18790EB0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_INVALIDATEGENERATORS_OFFSET UNITYSDK_OFFSET(0x18794630)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_ISRUBYLEFTTAG_OFFSET UNITYSDK_OFFSET(0x18792D20)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_MEASURERUBYFORBASEWIDTH_OFFSET UNITYSDK_OFFSET(0x18792390)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_ONCONTENTLOST_OFFSET UNITYSDK_OFFSET(0x18794530)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_POPULATERUBYGENERATOR_OFFSET UNITYSDK_OFFSET(0x187963F0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RESOLVEFINALMESHQUADINDEX_OFFSET UNITYSDK_OFFSET(0x187978F0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RESOLVEREVEALINDEXFROMBASERANGE_OFFSET UNITYSDK_OFFSET(0x18797690)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RESOLVERUBYCOLORFROMTEXTINFO_OFFSET UNITYSDK_OFFSET(0x18792830)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYBUILDRUBYTAGPARAMS_OFFSET UNITYSDK_OFFSET(0x18792FB0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYEXTRACTRTANNOTATION_OFFSET UNITYSDK_OFFSET(0x187932F0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYGETPREFERREDVISIBLERUBYBASE_OFFSET UNITYSDK_OFFSET(0x187953D0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYREADCOLORATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18793750)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYREADFLOATATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x187938A0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTFEATUREDATABUILDER_REBUILDFEATUREDATA_OFFSET UNITYSDK_OFFSET(0x18795F50)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTLAYOUTADJUSTMENTPROVIDER_COLLECTLINEEXTRAHEIGHTS_OFFSET UNITYSDK_OFFSET(0x18795C10)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTLAYOUTADJUSTMENTPROVIDER_REBUILDLAYOUTADJUSTMENTINPUT_OFFSET UNITYSDK_OFFSET(0x18791870)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTMESHMODIFIER_ONRENDERMESH_OFFSET UNITYSDK_OFFSET(0x18793A10)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTPREPROCESSOR_DETECTSCONTENT_OFFSET UNITYSDK_OFFSET(0x18790FE0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTPREPROCESSOR_PREPROCESS_OFFSET UNITYSDK_OFFSET(0x187910B0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTTYPESETCONSTRAINTPROVIDER_COLLECTTYPESETCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x18791180)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTTYPEWRITERREVEALPROVIDER_COLLECTTYPEWRITERREVEALQUADRANGES_OFFSET UNITYSDK_OFFSET(0x18794460)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x187993A0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE___BASE_GETREQUIREDRICHTAGS_OFFSET UNITYSDK_OFFSET(0x187994A0)
-#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE___BASE_ONCONTENTLOST_OFFSET UNITYSDK_OFFSET(0x18799530)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_APPENDRUBYANNOTATIONMESH_OFFSET UNITYSDK_OFFSET(0x1BF4B3E0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_BUILDRUBYANNOTATIONINFOS_OFFSET UNITYSDK_OFFSET(0x1BF48B30)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_BUILDRUBYFONTSETTINGS_OFFSET UNITYSDK_OFFSET(0x1BF4D330)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_BUILDRUBYGENERATIONSETTINGS_OFFSET UNITYSDK_OFFSET(0x1BF4DB40)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_BUILDRUBYPREFERREDHEIGHTINPUTS_OFFSET UNITYSDK_OFFSET(0x1BF4C660)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_BUILDRUBYRUNTIMEDATA_OFFSET UNITYSDK_OFFSET(0x1BF491D0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_CALCOVERHANGSCALE_OFFSET UNITYSDK_OFFSET(0x1BF4F660)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_CALCRUBYHEIGHTOFFSET_OFFSET UNITYSDK_OFFSET(0x1BF4F780)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_CONTAINSRUBYTAGS_OFFSET UNITYSDK_OFFSET(0x1BF48820)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_EMITRUBYQUADS_OFFSET UNITYSDK_OFFSET(0x1BF4E270)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_EXTRACTRUBYANNOTATION_OFFSET UNITYSDK_OFFSET(0x1BF4AF60)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_FINDMATCHINGRUBYRIGHTTAGINDEX_OFFSET UNITYSDK_OFFSET(0x1BF4A6A0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_FLUSHQUADS_OFFSET UNITYSDK_OFFSET(0x1BF4EC90)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETBASEFONTSIZEFOROVERHANG_OFFSET UNITYSDK_OFFSET(0x1BF4D420)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETEXTRAPREFERREDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1BF4BF90)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETLINEFORCHARINDEX_OFFSET UNITYSDK_OFFSET(0x1BF4D1D0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETREQUIREDRICHTAGS_OFFSET UNITYSDK_OFFSET(0x1BF489E0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETRUBYGENBOUNDS_OFFSET UNITYSDK_OFFSET(0x1BF4F220)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETRUBYMAXFONTSIZE_OFFSET UNITYSDK_OFFSET(0x1BF49B60)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETTOTALRUBYHEIGHT_OFFSET UNITYSDK_OFFSET(0x1BF4F8A0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETUNITSPERPIXEL_OFFSET UNITYSDK_OFFSET(0x1BF49AE0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GET_PREPROCESSORDER_OFFSET UNITYSDK_OFFSET(0x1BF48780)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GET_RUBYGEN_OFFSET UNITYSDK_OFFSET(0x1BF48790)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_INVALIDATEGENERATORS_OFFSET UNITYSDK_OFFSET(0x1BF4BF40)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_ISRUBYLEFTTAG_OFFSET UNITYSDK_OFFSET(0x1BF4A600)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_MEASURERUBYFORBASEWIDTH_OFFSET UNITYSDK_OFFSET(0x1BF49C70)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_ONCONTENTLOST_OFFSET UNITYSDK_OFFSET(0x1BF4BE40)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_POPULATERUBYGENERATOR_OFFSET UNITYSDK_OFFSET(0x1BF4DCE0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RECORDRUBYQUADTEXTBINDINGS_OFFSET UNITYSDK_OFFSET(0x1BF4E900)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RECORDRUBYQUADTEXTBINDING_OFFSET UNITYSDK_OFFSET(0x1BF4F130)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RESOLVERUBYCOLORFROMTEXTINFO_OFFSET UNITYSDK_OFFSET(0x1BF4A110)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RESOLVETEXTINDEXFROMBASERANGE_OFFSET UNITYSDK_OFFSET(0x1BF4EF70)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RESOLVETEXTINDEX_OFFSET UNITYSDK_OFFSET(0x1BF4F1B0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYBUILDRUBYTAGPARAMS_OFFSET UNITYSDK_OFFSET(0x1BF4A890)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYEXTRACTRTANNOTATION_OFFSET UNITYSDK_OFFSET(0x1BF4ABD0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYGETPREFERREDVISIBLERUBYBASE_OFFSET UNITYSDK_OFFSET(0x1BF4CCE0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYREADCOLORATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BF4B030)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYREADFLOATATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BF4B180)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTFEATUREDATABUILDER_REBUILDFEATUREDATA_OFFSET UNITYSDK_OFFSET(0x1BF4D840)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTLAYOUTADJUSTMENTPROVIDER_COLLECTLINEEXTRAHEIGHTS_OFFSET UNITYSDK_OFFSET(0x1BF4D500)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTLAYOUTADJUSTMENTPROVIDER_REBUILDLAYOUTADJUSTMENTINPUT_OFFSET UNITYSDK_OFFSET(0x1BF49150)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTMESHMODIFIER_ONRENDERMESH_OFFSET UNITYSDK_OFFSET(0x1BF4B2F0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTPREPROCESSOR_DETECTSCONTENT_OFFSET UNITYSDK_OFFSET(0x1BF488C0)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTPREPROCESSOR_PREPROCESS_OFFSET UNITYSDK_OFFSET(0x1BF48990)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTTYPESETCONSTRAINTPROVIDER_COLLECTTYPESETCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1BF48A60)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTTYPEWRITERBINDINGPROVIDER_COLLECTTYPEWRITERBINDINGS_OFFSET UNITYSDK_OFFSET(0x1BF4BD40)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF4F990)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE___BASE_GETREQUIREDRICHTAGS_OFFSET UNITYSDK_OFFSET(0x1BF4FA90)
+#define UNITYENGINE_UI_EXTENSION_RUBYFEATURE___BASE_ONCONTENTLOST_OFFSET UNITYSDK_OFFSET(0x1BF4FB20)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int RubyFeature_TypeDefinitionIndex = 74236;
+	inline static constexpr unsigned int RubyFeature_TypeDefinitionIndex = 74764;
 
 	class RubyFeature : public ::UnityEngine::UI::Extension::UITextFeatureBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::RubyFeature_RubyAnnotationInfo>* _annotationInfos; // 0x20
-		::UnityEngine::TextGenerator* _rubyGen; // 0x28
-		::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::RubyFeature_RubyAnnotationRuntimeData>* _rubyRuntimeData; // 0x30
-		::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UITextRevealQuadRange>* _typewriterRevealRanges; // 0x38
-		::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::RubyFeature_RubyPreferredHeightInput>* _preferredHeightInputs; // 0x40
-		::System::Collections::Generic::List_1<::System::Single>* _perLineMaxRubyHeight; // 0x48
-		::Il2CppArray<::UnityEngine::UIVertex>* _tempVerts; // 0x50
+		::Il2CppArray<::UnityEngine::UIVertex>* _tempVerts; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* _annotationInfos; // 0x28
+		::System::Collections::Generic::List_1<::System::Single>* _perLineMaxRubyHeight; // 0x30
+		::System::Collections::Generic::List_1<::System::Object*>* _preferredHeightInputs; // 0x38
+		::System::Collections::Generic::List_1<::System::Object*>* _rubyQuadTextBindings; // 0x40
+		::System::Collections::Generic::List_1<::System::Object*>* _rubyRuntimeData; // 0x48
+		::UnityEngine::TextGenerator* _rubyGen; // 0x50
 
 		::System::Void _ctor()
 		{
@@ -150,39 +146,39 @@ namespace UnityEngine::UI::Extension
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_BUILDRUBYANNOTATIONINFOS_OFFSET))(this);
 		}
 
-		static ::System::Boolean IsRubyLeftTag(::Enum_3_96EDEAC6CE722CBE tag)
+		static ::System::Boolean IsRubyLeftTag(::GOPMDBBNGGK tag)
 		{
-			return ((::System::Boolean(*)(::Enum_3_96EDEAC6CE722CBE))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_ISRUBYLEFTTAG_OFFSET))(tag);
+			return ((::System::Boolean(*)(::GOPMDBBNGGK))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_ISRUBYLEFTTAG_OFFSET))(tag);
 		}
 
-		static ::System::Int32 FindMatchingRubyRightTagIndex(::System::Collections::Generic::IReadOnlyList_1<::Struct_2_97F90E6FB4F6D559>* tagInfos, ::System::Int32 searchFrom)
+		static ::System::Int32 FindMatchingRubyRightTagIndex(::System::Collections::Generic::IReadOnlyList_1<::EBDKCHECNEH>* tagInfos, ::System::Int32 searchFrom)
 		{
-			return ((::System::Int32(*)(::System::Collections::Generic::IReadOnlyList_1<::Struct_2_97F90E6FB4F6D559>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_FINDMATCHINGRUBYRIGHTTAGINDEX_OFFSET))(tagInfos, searchFrom);
+			return ((::System::Int32(*)(::System::Collections::Generic::IReadOnlyList_1<::EBDKCHECNEH>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_FINDMATCHINGRUBYRIGHTTAGINDEX_OFFSET))(tagInfos, searchFrom);
 		}
 
-		::System::String* ExtractRubyAnnotation(::System::String* preprocessedText, ::System::Collections::Generic::IReadOnlyList_1<::Struct_2_5CFCC37B3A5F59B3>* tagAttributes, ::Struct_2_97F90E6FB4F6D559 tagInfo)
+		::System::String* ExtractRubyAnnotation(::System::String* preprocessedText, ::System::Collections::Generic::IReadOnlyList_1<::DACHBCNPGPJ>* tagAttributes, ::EBDKCHECNEH tagInfo)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Collections::Generic::IReadOnlyList_1<::Struct_2_5CFCC37B3A5F59B3>*, ::Struct_2_97F90E6FB4F6D559))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_EXTRACTRUBYANNOTATION_OFFSET))(this, preprocessedText, tagAttributes, tagInfo);
+			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Collections::Generic::IReadOnlyList_1<::DACHBCNPGPJ>*, ::EBDKCHECNEH))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_EXTRACTRUBYANNOTATION_OFFSET))(this, preprocessedText, tagAttributes, tagInfo);
 		}
 
-		::System::Boolean TryBuildRubyTagParams(::System::String* preprocessedText, ::System::Collections::Generic::IReadOnlyList_1<::Struct_2_5CFCC37B3A5F59B3>* tagAttributes, ::Struct_2_97F90E6FB4F6D559 tagInfo, ::UnityEngine::UI::Extension::RubyFeature_RubyTagParams& tagParams)
+		::System::Boolean TryBuildRubyTagParams(::System::String* preprocessedText, ::System::Collections::Generic::IReadOnlyList_1<::DACHBCNPGPJ>* tagAttributes, ::EBDKCHECNEH tagInfo, ::UnityEngine::UI::Extension::RubyFeature_RubyTagParams& tagParams)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Collections::Generic::IReadOnlyList_1<::Struct_2_5CFCC37B3A5F59B3>*, ::Struct_2_97F90E6FB4F6D559, ::UnityEngine::UI::Extension::RubyFeature_RubyTagParams&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYBUILDRUBYTAGPARAMS_OFFSET))(this, preprocessedText, tagAttributes, tagInfo, tagParams);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Collections::Generic::IReadOnlyList_1<::DACHBCNPGPJ>*, ::EBDKCHECNEH, ::UnityEngine::UI::Extension::RubyFeature_RubyTagParams&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYBUILDRUBYTAGPARAMS_OFFSET))(this, preprocessedText, tagAttributes, tagInfo, tagParams);
 		}
 
-		static ::System::Boolean TryExtractRtAnnotation(::System::String* preprocessedText, ::System::Collections::Generic::IReadOnlyList_1<::Struct_2_97F90E6FB4F6D559>* tagInfos, ::System::Int32 searchFrom, ::System::Int32 searchTo, ::Struct_2_97F90E6FB4F6D559 rubyLeftInfo, ::Struct_2_97F90E6FB4F6D559 rubyRightInfo, ::System::String*& annotation)
+		static ::System::Boolean TryExtractRtAnnotation(::System::String* preprocessedText, ::System::Collections::Generic::IReadOnlyList_1<::EBDKCHECNEH>* tagInfos, ::System::Int32 searchFrom, ::System::Int32 searchTo, ::EBDKCHECNEH rubyLeftInfo, ::EBDKCHECNEH rubyRightInfo, ::System::String*& annotation)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Collections::Generic::IReadOnlyList_1<::Struct_2_97F90E6FB4F6D559>*, ::System::Int32, ::System::Int32, ::Struct_2_97F90E6FB4F6D559, ::Struct_2_97F90E6FB4F6D559, ::System::String*&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYEXTRACTRTANNOTATION_OFFSET))(preprocessedText, tagInfos, searchFrom, searchTo, rubyLeftInfo, rubyRightInfo, annotation);
+			return ((::System::Boolean(*)(::System::String*, ::System::Collections::Generic::IReadOnlyList_1<::EBDKCHECNEH>*, ::System::Int32, ::System::Int32, ::EBDKCHECNEH, ::EBDKCHECNEH, ::System::String*&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYEXTRACTRTANNOTATION_OFFSET))(preprocessedText, tagInfos, searchFrom, searchTo, rubyLeftInfo, rubyRightInfo, annotation);
 		}
 
-		static ::System::Boolean TryReadFloatAttribute(::System::String* src, ::System::Collections::Generic::IReadOnlyList_1<::Struct_2_5CFCC37B3A5F59B3>* attributes, ::Struct_2_97F90E6FB4F6D559 tagInfo, ::System::String* name, ::System::Single& value, ::Enum_3_965E30DB043094A1& unitType)
+		static ::System::Boolean TryReadFloatAttribute(::System::String* src, ::System::Collections::Generic::IReadOnlyList_1<::DACHBCNPGPJ>* attributes, ::EBDKCHECNEH tagInfo, ::System::String* name, ::System::Single& value, ::NPCOFEOMEIF& unitType)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Collections::Generic::IReadOnlyList_1<::Struct_2_5CFCC37B3A5F59B3>*, ::Struct_2_97F90E6FB4F6D559, ::System::String*, ::System::Single&, ::Enum_3_965E30DB043094A1&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYREADFLOATATTRIBUTE_OFFSET))(src, attributes, tagInfo, name, value, unitType);
+			return ((::System::Boolean(*)(::System::String*, ::System::Collections::Generic::IReadOnlyList_1<::DACHBCNPGPJ>*, ::EBDKCHECNEH, ::System::String*, ::System::Single&, ::NPCOFEOMEIF&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYREADFLOATATTRIBUTE_OFFSET))(src, attributes, tagInfo, name, value, unitType);
 		}
 
-		static ::System::Boolean TryReadColorAttribute(::System::String* src, ::System::Collections::Generic::IReadOnlyList_1<::Struct_2_5CFCC37B3A5F59B3>* attributes, ::Struct_2_97F90E6FB4F6D559 tagInfo, ::System::String* name, ::UnityEngine::Color32& color)
+		static ::System::Boolean TryReadColorAttribute(::System::String* src, ::System::Collections::Generic::IReadOnlyList_1<::DACHBCNPGPJ>* attributes, ::EBDKCHECNEH tagInfo, ::System::String* name, ::UnityEngine::Color32& color)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Collections::Generic::IReadOnlyList_1<::Struct_2_5CFCC37B3A5F59B3>*, ::Struct_2_97F90E6FB4F6D559, ::System::String*, ::UnityEngine::Color32&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYREADCOLORATTRIBUTE_OFFSET))(src, attributes, tagInfo, name, color);
+			return ((::System::Boolean(*)(::System::String*, ::System::Collections::Generic::IReadOnlyList_1<::DACHBCNPGPJ>*, ::EBDKCHECNEH, ::System::String*, ::UnityEngine::Color32&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_TRYREADCOLORATTRIBUTE_OFFSET))(src, attributes, tagInfo, name, color);
 		}
 
 		::System::Void UnityEngine_UI_Extension_IUITextMeshModifier_OnRenderMesh(::UnityEngine::UI::VertexHelper* toFill)
@@ -190,9 +186,9 @@ namespace UnityEngine::UI::Extension
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTMESHMODIFIER_ONRENDERMESH_OFFSET))(this, toFill);
 		}
 
-		::System::Void UnityEngine_UI_Extension_IUITextTypewriterRevealProvider_CollectTypewriterRevealQuadRanges(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UITextRevealQuadRange>* ranges)
+		::System::Void UnityEngine_UI_Extension_IUITextTypewriterBindingProvider_CollectTypewriterBindings(::UnityEngine::UI::Extension::UITextTypewriterBinding* typewriterBinding)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UITextRevealQuadRange>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTTYPEWRITERREVEALPROVIDER_COLLECTTYPEWRITERREVEALQUADRANGES_OFFSET))(this, ranges);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UITextTypewriterBinding*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTTYPEWRITERBINDINGPROVIDER_COLLECTTYPEWRITERBINDINGS_OFFSET))(this, typewriterBinding);
 		}
 
 		::System::Void OnContentLost()
@@ -260,24 +256,24 @@ namespace UnityEngine::UI::Extension
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_APPENDRUBYANNOTATIONMESH_OFFSET))(this, verts);
 		}
 
-		::System::Void AddRubyTypewriterRevealRanges(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>* charInfos, ::UnityEngine::UI::Extension::BaseTextMeshRange baseTextMeshRange, ::UnityEngine::UI::Extension::RubyFeature_RubyAnnotationRuntimeData data, ::System::Int32 pendingQuadStart, ::System::Int32 addedQuadCount)
+		::System::Void RecordRubyQuadTextBindings(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>* charInfos, ::UnityEngine::UI::Extension::RubyFeature_RubyAnnotationRuntimeData data, ::System::Int32 pendingQuadStart, ::System::Int32 addedQuadCount)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>*, ::UnityEngine::UI::Extension::BaseTextMeshRange, ::UnityEngine::UI::Extension::RubyFeature_RubyAnnotationRuntimeData, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_ADDRUBYTYPEWRITERREVEALRANGES_OFFSET))(this, charInfos, baseTextMeshRange, data, pendingQuadStart, addedQuadCount);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>*, ::UnityEngine::UI::Extension::RubyFeature_RubyAnnotationRuntimeData, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RECORDRUBYQUADTEXTBINDINGS_OFFSET))(this, charInfos, data, pendingQuadStart, addedQuadCount);
 		}
 
-		::System::Void AddTypewriterRevealRange(::System::Int32 quadStart, ::System::Int32 quadCount, ::System::Int32 revealIndex)
+		::System::Void RecordRubyQuadTextBinding(::System::Int32 quadStart, ::System::Int32 quadCount, ::System::Int32 textIndex)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_ADDTYPEWRITERREVEALRANGE_OFFSET))(this, quadStart, quadCount, revealIndex);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RECORDRUBYQUADTEXTBINDING_OFFSET))(this, quadStart, quadCount, textIndex);
 		}
 
-		static ::System::Int32 ResolveRevealIndexFromBaseRange(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>* charInfos, ::UnityEngine::UI::Extension::BaseTextMeshRange baseTextMeshRange, ::UnityEngine::UI::Extension::RubyFeature_RubyAnnotationRuntimeData data, ::System::Int32 rubyQuadIndex, ::System::Int32 rubyQuadCount)
+		static ::System::Int32 ResolveTextIndexFromBaseRange(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>* charInfos, ::UnityEngine::UI::Extension::RubyFeature_RubyAnnotationRuntimeData data, ::System::Int32 rubyQuadIndex, ::System::Int32 rubyQuadCount)
 		{
-			return ((::System::Int32(*)(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>*, ::UnityEngine::UI::Extension::BaseTextMeshRange, ::UnityEngine::UI::Extension::RubyFeature_RubyAnnotationRuntimeData, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RESOLVEREVEALINDEXFROMBASERANGE_OFFSET))(charInfos, baseTextMeshRange, data, rubyQuadIndex, rubyQuadCount);
+			return ((::System::Int32(*)(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>*, ::UnityEngine::UI::Extension::RubyFeature_RubyAnnotationRuntimeData, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RESOLVETEXTINDEXFROMBASERANGE_OFFSET))(charInfos, data, rubyQuadIndex, rubyQuadCount);
 		}
 
-		static ::System::Int32 ResolveFinalMeshQuadIndex(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>* charInfos, ::UnityEngine::UI::Extension::BaseTextMeshRange baseTextMeshRange, ::System::Int32 baseGi)
+		static ::System::Int32 ResolveTextIndex(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>* charInfos, ::System::Int32 baseGi)
 		{
-			return ((::System::Int32(*)(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>*, ::UnityEngine::UI::Extension::BaseTextMeshRange, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RESOLVEFINALMESHQUADINDEX_OFFSET))(charInfos, baseTextMeshRange, baseGi);
+			return ((::System::Int32(*)(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_RESOLVETEXTINDEX_OFFSET))(charInfos, baseGi);
 		}
 
 		::UnityEngine::Color32 ResolveRubyColorFromTextInfo(::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::NAP_CharacterInfo>* charInfos, ::System::Int32 giBegin, ::System::Int32 giEnd, ::UnityEngine::UI::Extension::RubyFeature_RubyTagParams tagParams)
@@ -328,11 +324,6 @@ namespace UnityEngine::UI::Extension
 		::System::Single GetTotalRubyHeight()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_GETTOTALRUBYHEIGHT_OFFSET))(this);
-		}
-
-		::System::Void AppendDebugInfo(::System::Text::StringBuilder* sb)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_RUBYFEATURE_APPENDDEBUGINFO_OFFSET))(this, sb);
 		}
 
 		::System::UInt32 __base_GetRequiredRichTags()

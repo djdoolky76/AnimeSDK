@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
 
 namespace MoleMole::FlatBuffers::Config { class LevelPatternTemplate; }
 
-#define MOLEMOLE_FLOWCANVAS_LDREADLEVELTEMPLATEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x12987D40)
-#define MOLEMOLE_FLOWCANVAS_LDREADLEVELTEMPLATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12987E90)
+#define MOLEMOLE_FLOWCANVAS_LDREADLEVELTEMPLATEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x12446F80)
+#define MOLEMOLE_FLOWCANVAS_LDREADLEVELTEMPLATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x124470D0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int LDReadLevelTemplateData_TypeDefinitionIndex = 74548;
+	inline static constexpr unsigned int LDReadLevelTemplateData_TypeDefinitionIndex = 88777;
 
-	class LDReadLevelTemplateData : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::MoleMole::FlatBuffers::Config::LevelPatternTemplate*, ::System::Int32, ::System::Boolean>
+	class LDReadLevelTemplateData
 	{
 	public:
 		::System::Void _ctor()

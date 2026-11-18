@@ -4,14 +4,14 @@
 
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_UIIMAGETIMECONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x19C69100)
-#define MOLEMOLE_UIIMAGETIMECONTROLLER_SETTIME_OFFSET UNITYSDK_OFFSET(0x19C68510)
-#define MOLEMOLE_UIIMAGETIMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19C69150)
-#define MOLEMOLE_UIIMAGETIMECONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x19C69200)
+#define MOLEMOLE_UIIMAGETIMECONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x195DDB10)
+#define MOLEMOLE_UIIMAGETIMECONTROLLER_SETTIME_OFFSET UNITYSDK_OFFSET(0x195DCF20)
+#define MOLEMOLE_UIIMAGETIMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x195DDB60)
+#define MOLEMOLE_UIIMAGETIMECONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x195DDC10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIImageTimeController_TypeDefinitionIndex = 46930;
+	inline static constexpr unsigned int UIImageTimeController_TypeDefinitionIndex = 81567;
 
 	class UIImageTimeController : public ::MoleMole::UIMonoController
 	{
@@ -23,6 +23,7 @@ namespace MoleMole
 		::UnityEngine::UI::Image* S0; // 0xA0
 		::UnityEngine::UI::Image* S1; // 0xA8
 		::System::Boolean IsAddMinusMix; // 0xB0
+		::System::Byte _padding0[0x7];
 		::UnityEngine::UI::Image* Add; // 0xB8
 		::UnityEngine::UI::Image* Minus; // 0xC0
 

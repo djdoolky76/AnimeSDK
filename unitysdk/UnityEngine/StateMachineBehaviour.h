@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
+#include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 
 namespace UnityEngine { class Animator; }
 
-#define UNITYENGINE_STATEMACHINEBEHAVIOUR_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x1FC57C40)
-#define UNITYENGINE_STATEMACHINEBEHAVIOUR_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0x1FC57C60)
-#define UNITYENGINE_STATEMACHINEBEHAVIOUR_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1FC57C50)
-#define UNITYENGINE_STATEMACHINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC57C70)
+#define UNITYENGINE_STATEMACHINEBEHAVIOUR_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x2005AE70)
+#define UNITYENGINE_STATEMACHINEBEHAVIOUR_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0x2005AE90)
+#define UNITYENGINE_STATEMACHINEBEHAVIOUR_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x2005AE80)
+#define UNITYENGINE_STATEMACHINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x2005AEA0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int StateMachineBehaviour_TypeDefinitionIndex = 6612;
+	inline static constexpr unsigned int StateMachineBehaviour_TypeDefinitionIndex = 6618;
 
 	class StateMachineBehaviour : public ::UnityEngine::ScriptableObject
 	{

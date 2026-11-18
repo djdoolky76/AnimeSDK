@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define SCATTERBLENDUTILITY_CALCULATEDISTANCETOARC_OFFSET UNITYSDK_OFFSET(0x1878BE90)
-#define SCATTERBLENDUTILITY_COMPUTEBARYCENTRICCOORDINATES_OFFSET UNITYSDK_OFFSET(0x1878D160)
-#define SCATTERBLENDUTILITY_GETBONEDIRVEC_OFFSET UNITYSDK_OFFSET(0x1878B3F0)
-#define SCATTERBLENDUTILITY_GETBONEPITCHYAW_OFFSET UNITYSDK_OFFSET(0x1878B090)
-#define SCATTERBLENDUTILITY_GETINTERSECTIONPOINT_OFFSET UNITYSDK_OFFSET(0x1878CF50)
-#define SCATTERBLENDUTILITY_ISPOINTINSPHERICALTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1878B760)
-#define SCATTERBLENDUTILITY_ISPOINTONARC_OFFSET UNITYSDK_OFFSET(0x1878BB00)
-#define SCATTERBLENDUTILITY_PROJECTIONCLOSESTAPPROACHSPHERE_1_OFFSET UNITYSDK_OFFSET(0x1878C800)
-#define SCATTERBLENDUTILITY_PROJECTIONCLOSESTAPPROACHSPHERE_OFFSET UNITYSDK_OFFSET(0x1878C160)
-#define SCATTERBLENDUTILITY_PROJECTIONCLOSESTAPPROACH_OFFSET UNITYSDK_OFFSET(0x1878D450)
-#define SCATTERBLENDUTILITY_TRIANGLEBARYCENTRICTOBILINEAR_OFFSET UNITYSDK_OFFSET(0x1878D380)
+#define SCATTERBLENDUTILITY_CALCULATEDISTANCETOARC_OFFSET UNITYSDK_OFFSET(0x1BF43410)
+#define SCATTERBLENDUTILITY_COMPUTEBARYCENTRICCOORDINATES_OFFSET UNITYSDK_OFFSET(0x1BF446E0)
+#define SCATTERBLENDUTILITY_GETBONEDIRVEC_OFFSET UNITYSDK_OFFSET(0x1BF42970)
+#define SCATTERBLENDUTILITY_GETBONEPITCHYAW_OFFSET UNITYSDK_OFFSET(0x1BF42610)
+#define SCATTERBLENDUTILITY_GETINTERSECTIONPOINT_OFFSET UNITYSDK_OFFSET(0x1BF444D0)
+#define SCATTERBLENDUTILITY_ISPOINTINSPHERICALTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1BF42CE0)
+#define SCATTERBLENDUTILITY_ISPOINTONARC_OFFSET UNITYSDK_OFFSET(0x1BF43080)
+#define SCATTERBLENDUTILITY_PROJECTIONCLOSESTAPPROACHSPHERE_1_OFFSET UNITYSDK_OFFSET(0x1BF43D80)
+#define SCATTERBLENDUTILITY_PROJECTIONCLOSESTAPPROACHSPHERE_OFFSET UNITYSDK_OFFSET(0x1BF436E0)
+#define SCATTERBLENDUTILITY_PROJECTIONCLOSESTAPPROACH_OFFSET UNITYSDK_OFFSET(0x1BF449D0)
+#define SCATTERBLENDUTILITY_TRIANGLEBARYCENTRICTOBILINEAR_OFFSET UNITYSDK_OFFSET(0x1BF44900)
 
-inline static constexpr unsigned int ScatterBlendUtility_TypeDefinitionIndex = 76297;
+inline static constexpr unsigned int ScatterBlendUtility_TypeDefinitionIndex = 66406;
 
 class ScatterBlendUtility : public ::System::Object
 {
@@ -53,9 +53,9 @@ public:
 		return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::System::Int32>*, ::UnityEngine::Vector3, ::System::Int32&, ::System::Single&))((::PBYTE)hIl2Cpp + SCATTERBLENDUTILITY_PROJECTIONCLOSESTAPPROACHSPHERE_OFFSET))(dirVec, exteriorEdgeFacets, inputP, resultEdgeIndex, resultWeight);
 	}
 
-	static ::System::Void ProjectionClosestApproachSphere_1(::System::ReadOnlySpan_1<::UnityEngine::Vector3> dirVec, ::System::ReadOnlySpan_1<::System::Int32> exteriorEdgeFacets, ::System::Int32 masterBoneIndex, ::System::Int32 maxEdgeCount, ::System::Int32 maxTargetPoseCount, ::UnityEngine::Vector3 inputP, ::System::Int32& resultEdgeIndex, ::System::Single& resultWeight)
+	static ::System::Void ProjectionClosestApproachSphere_1(::System::ReadOnlySpan_1_F48FB86071006F3E<::UnityEngine::Vector3> dirVec, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Int32> exteriorEdgeFacets, ::System::Int32 masterBoneIndex, ::System::Int32 maxEdgeCount, ::System::Int32 maxTargetPoseCount, ::UnityEngine::Vector3 inputP, ::System::Int32& resultEdgeIndex, ::System::Single& resultWeight)
 	{
-		return ((::System::Void(*)(::System::ReadOnlySpan_1<::UnityEngine::Vector3>, ::System::ReadOnlySpan_1<::System::Int32>, ::System::Int32, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3, ::System::Int32&, ::System::Single&))((::PBYTE)hIl2Cpp + SCATTERBLENDUTILITY_PROJECTIONCLOSESTAPPROACHSPHERE_1_OFFSET))(dirVec, exteriorEdgeFacets, masterBoneIndex, maxEdgeCount, maxTargetPoseCount, inputP, resultEdgeIndex, resultWeight);
+		return ((::System::Void(*)(::System::ReadOnlySpan_1_F48FB86071006F3E<::UnityEngine::Vector3>, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Int32>, ::System::Int32, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3, ::System::Int32&, ::System::Single&))((::PBYTE)hIl2Cpp + SCATTERBLENDUTILITY_PROJECTIONCLOSESTAPPROACHSPHERE_1_OFFSET))(dirVec, exteriorEdgeFacets, masterBoneIndex, maxEdgeCount, maxTargetPoseCount, inputP, resultEdgeIndex, resultWeight);
 	}
 
 	static ::UnityEngine::Vector3 GetIntersectionPoint(::UnityEngine::Vector3 A, ::UnityEngine::Vector3 B, ::UnityEngine::Vector3 C, ::UnityEngine::Vector3 P)

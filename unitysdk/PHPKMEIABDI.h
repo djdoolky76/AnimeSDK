@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CGJEMKCKIJG.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+
+class CPABOPKIGAL;
+class HOFAIFGAHGJ;
+template <typename T> class KCMIFNGABDC_1;
+
+#define PHPKMEIABDI_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0x184752B0)
+#define PHPKMEIABDI_FEDNEKFMGNF_OFFSET UNITYSDK_OFFSET(0x18474FF0)
+#define PHPKMEIABDI_GDEOPIBNOIN_OFFSET UNITYSDK_OFFSET(0x184758C0)
+#define PHPKMEIABDI_GHOGNEKLAFA_OFFSET UNITYSDK_OFFSET(0x18475360)
+#define PHPKMEIABDI_KCEHEKBAEJH_OFFSET UNITYSDK_OFFSET(0x18475510)
+#define PHPKMEIABDI__CTOR_OFFSET UNITYSDK_OFFSET(0x184756F0)
+
+inline static constexpr unsigned int PHPKMEIABDI_TypeDefinitionIndex = 64904;
+
+class PHPKMEIABDI : public ::CGJEMKCKIJG
+{
+public:
+	::KCMIFNGABDC_1<::System::Int32>* FAHCONDLIAF; // 0x18
+	::KCMIFNGABDC_1<::System::Boolean>* EMJAOMMKBAI; // 0x20
+	::HOFAIFGAHGJ* LIINLBIPMHC; // 0x28
+	::KCMIFNGABDC_1<::System::Boolean>* IHILBCPMIDE; // 0x30
+	::KCMIFNGABDC_1<::System::Int32>* AFHGGELDAMA; // 0x38
+	::HOFAIFGAHGJ* CHLHKKODJIH; // 0x40
+	::CPABOPKIGAL* MMFNFINOFPN; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PHPKMEIABDI__CTOR_OFFSET))(this);
+	}
+
+	::System::Void FEDNEKFMGNF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PHPKMEIABDI_FEDNEKFMGNF_OFFSET))(this);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + PHPKMEIABDI_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF);
+	}
+
+	::System::Void GDEOPIBNOIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PHPKMEIABDI_GDEOPIBNOIN_OFFSET))(this);
+	}
+
+	::System::Void KCEHEKBAEJH(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + PHPKMEIABDI_KCEHEKBAEJH_OFFSET))(this, BKBGPKNGNMF);
+	}
+
+	::System::Void GHOGNEKLAFA(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + PHPKMEIABDI_GHOGNEKLAFA_OFFSET))(this, BKBGPKNGNMF);
+	}
+};

@@ -6,7 +6,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStore3DModelController_CameraInfo_TypeDefinitionIndex = 53888;
+	inline static constexpr unsigned int UIFashionStore3DModelController_CameraInfo_TypeDefinitionIndex = 78219;
 
 	struct alignas(4) UIFashionStore3DModelController_CameraInfo
 	{

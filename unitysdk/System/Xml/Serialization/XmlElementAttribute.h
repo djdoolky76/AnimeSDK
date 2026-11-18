@@ -1,30 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaForm.h"
+#include "unitysdk/System/Attribute.h"
 
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE_ADDKEYHASH_OFFSET UNITYSDK_OFFSET(0x1E3780F0)
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1E3780B0)
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE_GET_ELEMENTNAME_OFFSET UNITYSDK_OFFSET(0x1E3780D0)
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E3780A0)
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E378090)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE_ADDKEYHASH_OFFSET UNITYSDK_OFFSET(0x1E5CFFD0)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1E5CFF90)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE_GET_ELEMENTNAME_OFFSET UNITYSDK_OFFSET(0x1E5CFFB0)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E5CFF80)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5CFF70)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlElementAttribute_TypeDefinitionIndex = 1883;
+	inline static constexpr unsigned int XmlElementAttribute_TypeDefinitionIndex = 1882;
 
 	class XmlElementAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* elementName; // 0x10
+		::System::Type* type; // 0x10
 		::System::String* dataType; // 0x18
 		::System::String* ns; // 0x20
-		::System::Type* type; // 0x28
+		::System::String* elementName; // 0x28
 		::System::Boolean isNullable; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::Int32 order; // 0x34
 		::System::Xml::Schema::XmlSchemaForm form; // 0x38
 

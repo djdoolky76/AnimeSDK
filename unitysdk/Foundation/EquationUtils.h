@@ -6,31 +6,31 @@
 #include "unitysdk/System/ValueTuple_3.h"
 #include "unitysdk/System/ValueTuple_4.h"
 
-#define FOUNDATION_EQUATIONUTILS_CUBICEQUATIONROOT_OFFSET UNITYSDK_OFFSET(0x1F0C8E30)
-#define FOUNDATION_EQUATIONUTILS_CUSTOMEQUATIONROOT_OFFSET UNITYSDK_OFFSET(0x1F0C9D10)
-#define FOUNDATION_EQUATIONUTILS_LINEAREQUATIONROOT_OFFSET UNITYSDK_OFFSET(0x1F0C8BF0)
-#define FOUNDATION_EQUATIONUTILS_QUADRATICEQUATIONROOT_OFFSET UNITYSDK_OFFSET(0x1F0C8CA0)
-#define FOUNDATION_EQUATIONUTILS_QUARTICEQUATIONROOT_OFFSET UNITYSDK_OFFSET(0x1F0C9610)
-#define FOUNDATION_EQUATIONUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0CA590)
+#define FOUNDATION_EQUATIONUTILS_CUBICEQUATIONROOT_OFFSET UNITYSDK_OFFSET(0x1F46F580)
+#define FOUNDATION_EQUATIONUTILS_CUSTOMEQUATIONROOT_OFFSET UNITYSDK_OFFSET(0x1F470430)
+#define FOUNDATION_EQUATIONUTILS_LINEAREQUATIONROOT_OFFSET UNITYSDK_OFFSET(0x1F46F350)
+#define FOUNDATION_EQUATIONUTILS_QUADRATICEQUATIONROOT_OFFSET UNITYSDK_OFFSET(0x1F46F400)
+#define FOUNDATION_EQUATIONUTILS_QUARTICEQUATIONROOT_OFFSET UNITYSDK_OFFSET(0x1F46FD30)
+#define FOUNDATION_EQUATIONUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F470CB0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int EquationUtils_TypeDefinitionIndex = 8848;
+	inline static constexpr unsigned int EquationUtils_TypeDefinitionIndex = 8998;
 
 	class EquationUtils : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Numerics::Complex>** StaticGet_CubicEquationValue()
-		{
-			return (::Il2CppArray<::System::Numerics::Complex>**)Il2CppClass::FromTypeDefinitionIndex(EquationUtils_TypeDefinitionIndex)->GetStaticField(0x7510);
-		}
 		static ::Il2CppArray<::System::Numerics::Complex>** StaticGet_CubicEquationInverseValue()
 		{
-			return (::Il2CppArray<::System::Numerics::Complex>**)Il2CppClass::FromTypeDefinitionIndex(EquationUtils_TypeDefinitionIndex)->GetStaticField(0x7518);
+			return (::Il2CppArray<::System::Numerics::Complex>**)Il2CppClass::FromTypeDefinitionIndex(EquationUtils_TypeDefinitionIndex)->GetStaticField(0x7500);
+		}
+		static ::Il2CppArray<::System::Numerics::Complex>** StaticGet_CubicEquationValue()
+		{
+			return (::Il2CppArray<::System::Numerics::Complex>**)Il2CppClass::FromTypeDefinitionIndex(EquationUtils_TypeDefinitionIndex)->GetStaticField(0x7508);
 		}
 		static ::System::Double* StaticGet_CubicTwo()
 		{
-			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(EquationUtils_TypeDefinitionIndex)->GetStaticField(0x3AD0);
+			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(EquationUtils_TypeDefinitionIndex)->GetStaticField(0x3A90);
 		}
 
 		static ::System::Void _cctor()

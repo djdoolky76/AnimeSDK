@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_B7679BF924C438A9.h"
-#include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/Foundation/Coroutine/CoroutineHandle.h"
+#include "unitysdk/Foundation/AssetRequestHandle.h"
+#include "unitysdk/IMBMPPCPHOD.h"
 #include "unitysdk/MoleMole/HollowPieceBlendMode.h"
 #include "unitysdk/MoleMole/StaticSceneObjectListLoopType.h"
-#include "unitysdk/Struct_2_BCEA3C06DDE2274F.h"
+#include "unitysdk/NFLPDCBEDLI.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/LOD.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-class Class_1_5A6771CD0CA2718D;
-class Class_1_8A43CC995889687F;
-class Class_2_7DB115CD9B835DB7;
-class Class_3_4A66A9AA1229EED9;
+class AGOFALFBGPG;
+class FNLBCCCENMF;
+class MPKBDIJDMAP;
+class OODDDHHGKIJ;
 class ScreenPlayData;
 namespace MoleMole { class BlendTextureSheetData; }
 namespace MoleMole { class IVideoPlayer; }
@@ -29,140 +29,146 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_SCREENPLAYER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x190AAD40)
-#define MOLEMOLE_SCREENPLAYER_GET_CURRENTPLAYDATA_OFFSET UNITYSDK_OFFSET(0x190A8540)
-#define MOLEMOLE_SCREENPLAYER_GET_FORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x190A85C0)
-#define MOLEMOLE_SCREENPLAYER_GET_GETRENDERTARGETTEXTURE_OFFSET UNITYSDK_OFFSET(0x190AAF60)
-#define MOLEMOLE_SCREENPLAYER_GET_ISPLAYING_OFFSET UNITYSDK_OFFSET(0x190A8560)
-#define MOLEMOLE_SCREENPLAYER_GET_SCREENGO_OFFSET UNITYSDK_OFFSET(0x190A85E0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_04349BAD038A876C_OFFSET UNITYSDK_OFFSET(0x190AC0D0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0x190A9C40)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_0CC4BC19C602BCD0_1_OFFSET UNITYSDK_OFFSET(0x190AA690)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x190AA630)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x190AA2C0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_13877A6D73DFA168_OFFSET UNITYSDK_OFFSET(0x190B0C60)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_154998A4087BBA4C_OFFSET UNITYSDK_OFFSET(0x190AC9C0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_1A404CB54D6A64FA_OFFSET UNITYSDK_OFFSET(0x190AC230)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_1CD1133DC003C11C_OFFSET UNITYSDK_OFFSET(0x190B1080)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_1CF84FBD817B0F20_OFFSET UNITYSDK_OFFSET(0x190B1040)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x190B0D50)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_23C3681AC9E5D438_OFFSET UNITYSDK_OFFSET(0x190AB580)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_26E509975F92479C_OFFSET UNITYSDK_OFFSET(0x190A9FC0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_28A5AB1678E791E7_OFFSET UNITYSDK_OFFSET(0x190B0950)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_2CAADC051AEB67F9_OFFSET UNITYSDK_OFFSET(0x190B0B50)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_2E5CA3725B39C818_OFFSET UNITYSDK_OFFSET(0x190A9280)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x190B06E0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_350550DCFC0FEDEF_OFFSET UNITYSDK_OFFSET(0x190AC6D0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_3BFA5FDDE49C0147_OFFSET UNITYSDK_OFFSET(0x190B0DC0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_3BFE3B9EF8374F61_OFFSET UNITYSDK_OFFSET(0x190AA920)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_3EAE0F6D775220FA_OFFSET UNITYSDK_OFFSET(0x190B0FB0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_3F0D4D20CAA05725_OFFSET UNITYSDK_OFFSET(0x190AC920)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_41C3C66B2D4132A8_OFFSET UNITYSDK_OFFSET(0x190AC070)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_4BCD51618C77AD95_OFFSET UNITYSDK_OFFSET(0x190A94D0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_4E3DD1117F270CB9_OFFSET UNITYSDK_OFFSET(0x190B07A0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_50FFE8C44036C61A_OFFSET UNITYSDK_OFFSET(0x190B1140)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0x190AA6F0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_5829557A8D4350F5_OFFSET UNITYSDK_OFFSET(0x190A8A70)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_5CE94B0371C7CF88_OFFSET UNITYSDK_OFFSET(0x190ACE60)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_6112A1276899AF0F_OFFSET UNITYSDK_OFFSET(0x190AB110)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_6ADFEDF7DB9C3207_OFFSET UNITYSDK_OFFSET(0x190AB8C0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_70BDBAE57C1C9100_OFFSET UNITYSDK_OFFSET(0x190B0C20)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_74F9575C1C2A5360_OFFSET UNITYSDK_OFFSET(0x190B0BB0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_77B8789DBD3FC5F6_OFFSET UNITYSDK_OFFSET(0x190B0E90)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_7A4DA50406643EC6_OFFSET UNITYSDK_OFFSET(0x190A8F80)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_7DF99BC7DA8A7C9A_OFFSET UNITYSDK_OFFSET(0x190B0450)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_83F6B9A4C76036E5_OFFSET UNITYSDK_OFFSET(0x190A9550)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_85377D41FEE05B66_OFFSET UNITYSDK_OFFSET(0x190AA410)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_86143FF46EAE82B7_OFFSET UNITYSDK_OFFSET(0x190ABFD0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_94B03BF93EE7A609_OFFSET UNITYSDK_OFFSET(0x190B0F20)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x190AACD0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_A3791237F591E8B7_OFFSET UNITYSDK_OFFSET(0x190AB820)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x190B0CD0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_A69FA5E6168C596B_OFFSET UNITYSDK_OFFSET(0x190AC7D0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_AE721E797323F86D_OFFSET UNITYSDK_OFFSET(0x190A8750)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x190B04D0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_B230178832541A63_OFFSET UNITYSDK_OFFSET(0x190AAFC0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_C91E5170F9E36EED_OFFSET UNITYSDK_OFFSET(0x190B0BA0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x190A9BE0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x190B08D0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_CA373AA1C7054598_3_OFFSET UNITYSDK_OFFSET(0x190B0910)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_CA373AA1C7054598_4_OFFSET UNITYSDK_OFFSET(0x190B0E50)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x190AAF20)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_CD7415D0B2EB38A2_OFFSET UNITYSDK_OFFSET(0x190B0830)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_D14907C13C942E04_OFFSET UNITYSDK_OFFSET(0x190B0560)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_DD3CBC2B9281362E_OFFSET UNITYSDK_OFFSET(0x190ACE90)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_F4C1D793AF9ACD74_OFFSET UNITYSDK_OFFSET(0x190ABF20)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_F5D0DA719A67CFAD_OFFSET UNITYSDK_OFFSET(0x190AC850)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_FE431D5F8C37F295_OFFSET UNITYSDK_OFFSET(0x190A88C0)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_FED43F89BEEE494D_OFFSET UNITYSDK_OFFSET(0x190B0A10)
-#define MOLEMOLE_SCREENPLAYER_METHOD_1_FF8E81CF7F8437BB_OFFSET UNITYSDK_OFFSET(0x190B09E0)
-#define MOLEMOLE_SCREENPLAYER_SET_CURRENTPLAYDATA_OFFSET UNITYSDK_OFFSET(0x190A8550)
-#define MOLEMOLE_SCREENPLAYER_SET_FORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x190A85D0)
-#define MOLEMOLE_SCREENPLAYER_SET_SCREENGO_OFFSET UNITYSDK_OFFSET(0x190A85F0)
-#define MOLEMOLE_SCREENPLAYER_UPDATE_OFFSET UNITYSDK_OFFSET(0x190A8600)
-#define MOLEMOLE_SCREENPLAYER__CCTOR_OFFSET UNITYSDK_OFFSET(0x190AB7A0)
-#define MOLEMOLE_SCREENPLAYER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x190A9190)
-#define MOLEMOLE_SCREENPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x190A87B0)
+#define MOLEMOLE_SCREENPLAYER_ABDIINAJDPB_OFFSET UNITYSDK_OFFSET(0x18114270)
+#define MOLEMOLE_SCREENPLAYER_ACIENLIHEOK_OFFSET UNITYSDK_OFFSET(0x18112D40)
+#define MOLEMOLE_SCREENPLAYER_AHOAKJKCKIA_OFFSET UNITYSDK_OFFSET(0x18118860)
+#define MOLEMOLE_SCREENPLAYER_ALIEKHJEFON_OFFSET UNITYSDK_OFFSET(0x18113D90)
+#define MOLEMOLE_SCREENPLAYER_BDNNGHOLNCI_OFFSET UNITYSDK_OFFSET(0x18113DD0)
+#define MOLEMOLE_SCREENPLAYER_BFECOFGDEMH_OFFSET UNITYSDK_OFFSET(0x18112DE0)
+#define MOLEMOLE_SCREENPLAYER_BKGODGGKMKK_OFFSET UNITYSDK_OFFSET(0x18111350)
+#define MOLEMOLE_SCREENPLAYER_BKPKBOECIEE_OFFSET UNITYSDK_OFFSET(0x18113D20)
+#define MOLEMOLE_SCREENPLAYER_BMLHPIIHFEJ_OFFSET UNITYSDK_OFFSET(0x181124B0)
+#define MOLEMOLE_SCREENPLAYER_BMPCACHFBBH_OFFSET UNITYSDK_OFFSET(0x181137C0)
+#define MOLEMOLE_SCREENPLAYER_BOONPAHEPJH_OFFSET UNITYSDK_OFFSET(0x18111080)
+#define MOLEMOLE_SCREENPLAYER_BPIFIKOIODH_OFFSET UNITYSDK_OFFSET(0x18112510)
+#define MOLEMOLE_SCREENPLAYER_CFBGEKHHHGA_OFFSET UNITYSDK_OFFSET(0x181187B0)
+#define MOLEMOLE_SCREENPLAYER_CGIOHHNBAOM_OFFSET UNITYSDK_OFFSET(0x18117920)
+#define MOLEMOLE_SCREENPLAYER_CIGODFNMFGD_OFFSET UNITYSDK_OFFSET(0x18112450)
+#define MOLEMOLE_SCREENPLAYER_CIKHALFCMPB_OFFSET UNITYSDK_OFFSET(0x18118770)
+#define MOLEMOLE_SCREENPLAYER_CNNDJGFKJCJ_OFFSET UNITYSDK_OFFSET(0x181136B0)
+#define MOLEMOLE_SCREENPLAYER_DBMEJKIHEOJ_OFFSET UNITYSDK_OFFSET(0x18113830)
+#define MOLEMOLE_SCREENPLAYER_DHAGLCPIBON_OFFSET UNITYSDK_OFFSET(0x18113640)
+#define MOLEMOLE_SCREENPLAYER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18112B60)
+#define MOLEMOLE_SCREENPLAYER_DLJECMKBIFJ_OFFSET UNITYSDK_OFFSET(0x18113920)
+#define MOLEMOLE_SCREENPLAYER_DMHCDHHEPAD_OFFSET UNITYSDK_OFFSET(0x18113670)
+#define MOLEMOLE_SCREENPLAYER_DNCDEKOFKFB_OFFSET UNITYSDK_OFFSET(0x181120C0)
+#define MOLEMOLE_SCREENPLAYER_DOABCEAFNJH_OFFSET UNITYSDK_OFFSET(0x18110870)
+#define MOLEMOLE_SCREENPLAYER_FDPONKALNPI_OFFSET UNITYSDK_OFFSET(0x18118090)
+#define MOLEMOLE_SCREENPLAYER_GCAPCADKEHK_OFFSET UNITYSDK_OFFSET(0x181138C0)
+#define MOLEMOLE_SCREENPLAYER_GET_CURRENTPLAYDATA_OFFSET UNITYSDK_OFFSET(0x18110330)
+#define MOLEMOLE_SCREENPLAYER_GET_FORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x181103B0)
+#define MOLEMOLE_SCREENPLAYER_GET_GETRENDERTARGETTEXTURE_OFFSET UNITYSDK_OFFSET(0x18112D80)
+#define MOLEMOLE_SCREENPLAYER_GET_ISPLAYING_OFFSET UNITYSDK_OFFSET(0x18110350)
+#define MOLEMOLE_SCREENPLAYER_GET_SCREENGO_OFFSET UNITYSDK_OFFSET(0x181103D0)
+#define MOLEMOLE_SCREENPLAYER_GFKLEPDMBJD_OFFSET UNITYSDK_OFFSET(0x181187F0)
+#define MOLEMOLE_SCREENPLAYER_HDPDHHAMEGC_OFFSET UNITYSDK_OFFSET(0x18112AF0)
+#define MOLEMOLE_SCREENPLAYER_HEJDFIKJLOC_OFFSET UNITYSDK_OFFSET(0x18114190)
+#define MOLEMOLE_SCREENPLAYER_HGAJDIGNGGE_OFFSET UNITYSDK_OFFSET(0x18118A70)
+#define MOLEMOLE_SCREENPLAYER_HHCDABCOILJ_1_OFFSET UNITYSDK_OFFSET(0x18113F20)
+#define MOLEMOLE_SCREENPLAYER_HHCDABCOILJ_OFFSET UNITYSDK_OFFSET(0x18113E00)
+#define MOLEMOLE_SCREENPLAYER_HNCCDKJLKMN_OFFSET UNITYSDK_OFFSET(0x181178D0)
+#define MOLEMOLE_SCREENPLAYER_HOCCOFALHPO_1_OFFSET UNITYSDK_OFFSET(0x18118570)
+#define MOLEMOLE_SCREENPLAYER_HOCCOFALHPO_OFFSET UNITYSDK_OFFSET(0x181141A0)
+#define MOLEMOLE_SCREENPLAYER_IBMNGCMJMNN_OFFSET UNITYSDK_OFFSET(0x18112F30)
+#define MOLEMOLE_SCREENPLAYER_IJNJMGAOCMF_OFFSET UNITYSDK_OFFSET(0x18118670)
+#define MOLEMOLE_SCREENPLAYER_IMKOGBFJCKB_OFFSET UNITYSDK_OFFSET(0x18110D80)
+#define MOLEMOLE_SCREENPLAYER_LCJDMHNMNHJ_OFFSET UNITYSDK_OFFSET(0x18113C80)
+#define MOLEMOLE_SCREENPLAYER_LCJEELHBNHG_OFFSET UNITYSDK_OFFSET(0x181188F0)
+#define MOLEMOLE_SCREENPLAYER_LFAOEMMAHAB_OFFSET UNITYSDK_OFFSET(0x18114100)
+#define MOLEMOLE_SCREENPLAYER_LGELGNIINJH_OFFSET UNITYSDK_OFFSET(0x18113EA0)
+#define MOLEMOLE_SCREENPLAYER_LLCIKNLNBOF_OFFSET UNITYSDK_OFFSET(0x18113B40)
+#define MOLEMOLE_SCREENPLAYER_LLONPGAAOPE_OFFSET UNITYSDK_OFFSET(0x181133A0)
+#define MOLEMOLE_SCREENPLAYER_LOCMHOGEPJP_1_OFFSET UNITYSDK_OFFSET(0x18118000)
+#define MOLEMOLE_SCREENPLAYER_LOCMHOGEPJP_OFFSET UNITYSDK_OFFSET(0x18113FC0)
+#define MOLEMOLE_SCREENPLAYER_MABCJOIDLHK_OFFSET UNITYSDK_OFFSET(0x18113A80)
+#define MOLEMOLE_SCREENPLAYER_MBIHBHMKABA_OFFSET UNITYSDK_OFFSET(0x18114070)
+#define MOLEMOLE_SCREENPLAYER_MDJGGPNGGFE_OFFSET UNITYSDK_OFFSET(0x18117830)
+#define MOLEMOLE_SCREENPLAYER_MGIDIILIDFM_OFFSET UNITYSDK_OFFSET(0x181106C0)
+#define MOLEMOLE_SCREENPLAYER_NCFJEBIOMHD_OFFSET UNITYSDK_OFFSET(0x18112220)
+#define MOLEMOLE_SCREENPLAYER_NJJNMLJNBPD_OFFSET UNITYSDK_OFFSET(0x181180D0)
+#define MOLEMOLE_SCREENPLAYER_NMMKKJKANFL_OFFSET UNITYSDK_OFFSET(0x18111A40)
+#define MOLEMOLE_SCREENPLAYER_OJBBMDEIFFE_OFFSET UNITYSDK_OFFSET(0x181112D0)
+#define MOLEMOLE_SCREENPLAYER_ONJDIFIEMKO_OFFSET UNITYSDK_OFFSET(0x18117F80)
+#define MOLEMOLE_SCREENPLAYER_PAJILBMBINF_OFFSET UNITYSDK_OFFSET(0x18113730)
+#define MOLEMOLE_SCREENPLAYER_PEIMBACAHFG_OFFSET UNITYSDK_OFFSET(0x18112740)
+#define MOLEMOLE_SCREENPLAYER_PGHAJOMNDDJ_OFFSET UNITYSDK_OFFSET(0x181119E0)
+#define MOLEMOLE_SCREENPLAYER_PHJAHBPBGIB_OFFSET UNITYSDK_OFFSET(0x18118730)
+#define MOLEMOLE_SCREENPLAYER_PHOADBJGFBE_OFFSET UNITYSDK_OFFSET(0x18111DC0)
+#define MOLEMOLE_SCREENPLAYER_PIJDOJAKFGK_OFFSET UNITYSDK_OFFSET(0x18110540)
+#define MOLEMOLE_SCREENPLAYER_PLOAKKAOBLE_OFFSET UNITYSDK_OFFSET(0x18118F10)
+#define MOLEMOLE_SCREENPLAYER_SET_CURRENTPLAYDATA_OFFSET UNITYSDK_OFFSET(0x18110340)
+#define MOLEMOLE_SCREENPLAYER_SET_FORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x181103C0)
+#define MOLEMOLE_SCREENPLAYER_SET_SCREENGO_OFFSET UNITYSDK_OFFSET(0x181103E0)
+#define MOLEMOLE_SCREENPLAYER_UPDATE_OFFSET UNITYSDK_OFFSET(0x181103F0)
+#define MOLEMOLE_SCREENPLAYER__CCTOR_OFFSET UNITYSDK_OFFSET(0x181135C0)
+#define MOLEMOLE_SCREENPLAYER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18110F90)
+#define MOLEMOLE_SCREENPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x181105A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ScreenPlayer_TypeDefinitionIndex = 40791;
+	inline static constexpr unsigned int ScreenPlayer_TypeDefinitionIndex = 72396;
 
 	class ScreenPlayer : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_Saturation()
+		static ::System::String** StaticGet_BlendKey()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ScreenPlayer_TypeDefinitionIndex)->GetStaticField(0x4A9C0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ScreenPlayer_TypeDefinitionIndex)->GetStaticField(0x52130);
 		}
 		static ::System::String** StaticGet_Value()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ScreenPlayer_TypeDefinitionIndex)->GetStaticField(0x4A9C8);
-		}
-		static ::System::String** StaticGet_BlendKey()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ScreenPlayer_TypeDefinitionIndex)->GetStaticField(0x4A9D0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ScreenPlayer_TypeDefinitionIndex)->GetStaticField(0x52138);
 		}
 		static ::System::String** StaticGet_Hue()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ScreenPlayer_TypeDefinitionIndex)->GetStaticField(0x4A9D8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ScreenPlayer_TypeDefinitionIndex)->GetStaticField(0x52140);
+		}
+		static ::System::String** StaticGet_Saturation()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ScreenPlayer_TypeDefinitionIndex)->GetStaticField(0x52148);
 		}
 		static ::System::Int32* StaticGet__ScreenMaskTex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScreenPlayer_TypeDefinitionIndex)->GetStaticField(0x11370);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScreenPlayer_TypeDefinitionIndex)->GetStaticField(0x13B10);
 		}
 		// static const ::System::String* CRIWARE_MAT_KEY; // 0x0
-		::Class_1_8A43CC995889687F* _lodMaterialProxy; // 0x10
+		::FNLBCCCENMF* _lodMaterialProxy; // 0x10
 		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* renderers; // 0x18
-		::Enum_3_B7679BF924C438A9 _lodType; // 0x20
+		::NFLPDCBEDLI _lodType; // 0x20
 		::MoleMole::StaticSceneObjectListLoopType playMode; // 0x24
 		::System::Collections::Generic::List_1<::ScreenPlayData*>* quests; // 0x28
 		::System::Boolean isPlaying; // 0x30
+		::System::Byte _padding0[0x7];
 		::ScreenPlayData* _currentPlayData_k__BackingField; // 0x38
 		::System::Int32 currentPlayIndex; // 0x40
 		::System::Boolean mpbFullCopy; // 0x44
+		::System::Byte _padding1[0x3];
 		::System::Action* playSuccess; // 0x48
 		::System::Action* playFaild; // 0x50
 		::System::Action_1<::MoleMole::IVideoPlayer*>* onVideoPrepared; // 0x58
 		::System::Action_1<::MoleMole::IVideoPlayer*>* onVideoStarted; // 0x60
 		::MoleMole::ScreenPlayer_TextureSheet* _playerTextureSheet; // 0x68
-		::Class_3_4A66A9AA1229EED9* _blendTextureSheetVeUpdater; // 0x70
-		::Struct_2_BCEA3C06DDE2274F ScreenMatInfoNew; // 0x78
-		::Struct_2_BCEA3C06DDE2274F ScreenMatInfoOld; // 0x5A0
+		::OODDDHHGKIJ* _blendTextureSheetVeUpdater; // 0x70
+		::IMBMPPCPHOD ScreenMatInfoNew; // 0x78
+		::IMBMPPCPHOD ScreenMatInfoOld; // 0x5A0
 		::MoleMole::IVideoPlayer* _videoPlayer; // 0xAC8
 		::Foundation::AssetRequestHandle _videoRequest; // 0xAD0
 		::System::Boolean isPlayingVideo; // 0xAF0
 		::System::Boolean openAsyncLoadNextTexture; // 0xAF1
 		::System::Boolean isDebug; // 0xAF2
+		::System::Byte _padding2[0x5];
 		::UnityEngine::GameObject* soundStaticEmitter; // 0xAF8
 		::System::Boolean muteSound; // 0xB00
 		::System::Boolean _hasVideoAudio; // 0xB01
+		::System::Byte _padding3[0x6];
 		::System::String* _currentVideoStopEvent; // 0xB08
 		::System::Boolean switchNotClean; // 0xB10
+		::System::Byte _padding4[0x7];
 		::System::String* ownerGameobjectPath; // 0xB18
 		::System::Single cacheForceWrapRepeat; // 0xB20
 		::System::Boolean IsNeedFindRender; // 0xB24
 		::System::Boolean _ForceUpdate_k__BackingField; // 0xB25
+		::System::Byte _padding5[0x2];
 		::UnityEngine::GameObject* _ScreenGO_k__BackingField; // 0xB28
 		::Foundation::Coroutine::CoroutineHandle delayPlay; // 0xB30
 
@@ -171,9 +177,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::UnityEngine::Renderer* a1, ::System::Boolean a2)
+		::System::Void _ctor_1(::UnityEngine::Renderer* OCFHGOGFGPE, ::System::Boolean AIFODHOKGBH)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER__CTOR_1_OFFSET))(this, OCFHGOGFGPE, AIFODHOKGBH);
 		}
 
 		static ::System::Void _cctor()
@@ -186,9 +192,9 @@ namespace MoleMole
 			return ((::ScreenPlayData*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_GET_CURRENTPLAYDATA_OFFSET))(this);
 		}
 
-		::System::Void set_currentPlayData(::ScreenPlayData* a1)
+		::System::Void set_currentPlayData(::ScreenPlayData* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_SET_CURRENTPLAYDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_SET_CURRENTPLAYDATA_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Boolean get_IsPlaying()
@@ -201,9 +207,9 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_GET_FORCEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void set_ForceUpdate(::System::Boolean a1)
+		::System::Void set_ForceUpdate(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_SET_FORCEUPDATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_SET_FORCEUPDATE_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::GameObject* get_ScreenGO()
@@ -211,54 +217,54 @@ namespace MoleMole
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_GET_SCREENGO_OFFSET))(this);
 		}
 
-		::System::Void set_ScreenGO(::UnityEngine::GameObject* a1)
+		::System::Void set_ScreenGO(::UnityEngine::GameObject* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_SET_SCREENGO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_SET_SCREENGO_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Void Update(::System::Single a1)
+		::System::Void Update(::System::Single PMNLNNGEIFM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_UPDATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_UPDATE_OFFSET))(this, PMNLNNGEIFM);
 		}
 
-		::System::Void Method_1_FE431D5F8C37F295(::UnityEngine::GameObject* a1, ::System::Boolean a2)
+		::System::Void MGIDIILIDFM(::UnityEngine::GameObject* AMNIHACKELI, ::System::Boolean AIFODHOKGBH)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_FE431D5F8C37F295_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_MGIDIILIDFM_OFFSET))(this, AMNIHACKELI, AIFODHOKGBH);
 		}
 
-		::System::Void Method_1_2E5CA3725B39C818(::ScreenPlayData* a1)
+		::System::Void BOONPAHEPJH(::ScreenPlayData* LJBPECKCCEA)
 		{
-			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_2E5CA3725B39C818_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_BOONPAHEPJH_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::System::Void Method_1_83F6B9A4C76036E5(::ScreenPlayData* a1)
+		::System::Void BKGODGGKMKK(::ScreenPlayData* LJBPECKCCEA)
 		{
-			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_83F6B9A4C76036E5_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_BKGODGGKMKK_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::System::Void Method_1_26E509975F92479C(::System::Boolean a1)
+		::System::Void PHOADBJGFBE(::System::Boolean IOKNPLAMIKB)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_26E509975F92479C_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_PHOADBJGFBE_OFFSET))(this, IOKNPLAMIKB);
 		}
 
-		::System::Void Method_1_0CC4BC19C602BCD0()
+		::System::Void CIGODFNMFGD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_0CC4BC19C602BCD0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_CIGODFNMFGD_OFFSET))(this);
 		}
 
-		::System::Void Method_1_0CC4BC19C602BCD0_1()
+		::System::Void BMLHPIIHFEJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_0CC4BC19C602BCD0_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_BMLHPIIHFEJ_OFFSET))(this);
 		}
 
-		::System::Void Method_1_51CFFE2AF748ECD7()
+		::System::Void BPIFIKOIODH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_51CFFE2AF748ECD7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_BPIFIKOIODH_OFFSET))(this);
 		}
 
-		::System::Void Method_1_9681042564541CD6()
+		::System::Void HDPDHHAMEGC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_HDPDHHAMEGC_OFFSET))(this);
 		}
 
 		::System::Void Dispose()
@@ -266,9 +272,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598()
+		::System::Void ACIENLIHEOK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_ACIENLIHEOK_OFFSET))(this);
 		}
 
 		::UnityEngine::Texture* get_GetRenderTargetTexture()
@@ -276,264 +282,264 @@ namespace MoleMole
 			return ((::UnityEngine::Texture*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_GET_GETRENDERTARGETTEXTURE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_B230178832541A63(::MoleMole::Config::BaseConfigSoundAction* a1)
+		::System::Void BFECOFGDEMH(::MoleMole::Config::BaseConfigSoundAction* HMOMCMBDPIJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::BaseConfigSoundAction*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_B230178832541A63_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::BaseConfigSoundAction*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_BFECOFGDEMH_OFFSET))(this, HMOMCMBDPIJ);
 		}
 
-		::System::Void Method_1_23C3681AC9E5D438()
+		::System::Void LLONPGAAOPE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_23C3681AC9E5D438_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_LLONPGAAOPE_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_AE721E797323F86D()
+		::System::Void DHAGLCPIBON(::MPKBDIJDMAP* JNDDJMAHNAI, ::MoleMole::HollowPieceBlendMode MDLNMDJMMJP)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_AE721E797323F86D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MPKBDIJDMAP*, ::MoleMole::HollowPieceBlendMode))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_DHAGLCPIBON_OFFSET))(this, JNDDJMAHNAI, MDLNMDJMMJP);
 		}
 
-		static ::System::Boolean Method_1_A3791237F591E8B7(::UnityEngine::LOD a1)
+		::System::Void DMHCDHHEPAD()
 		{
-			return ((::System::Boolean(*)(::UnityEngine::LOD))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_A3791237F591E8B7_OFFSET))(a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_DMHCDHHEPAD_OFFSET))(this);
 		}
 
-		::System::Void Method_1_6ADFEDF7DB9C3207(::ScreenPlayData* a1)
+		::System::String* CNNDJGFKJCJ(::System::String* HCDNICNAKMD)
 		{
-			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_6ADFEDF7DB9C3207_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_CNNDJGFKJCJ_OFFSET))(this, HCDNICNAKMD);
 		}
 
-		::System::Void Method_1_F4C1D793AF9ACD74(::System::Collections::Generic::List_1<::ScreenPlayData*>* a1)
+		::System::Void PAJILBMBINF()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::ScreenPlayData*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_F4C1D793AF9ACD74_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_PAJILBMBINF_OFFSET))(this);
 		}
 
-		::System::Void Method_1_86143FF46EAE82B7(::System::String* a1)
+		::System::Void NMMKKJKANFL()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_86143FF46EAE82B7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_NMMKKJKANFL_OFFSET))(this);
 		}
 
-		::System::Void Method_1_41C3C66B2D4132A8(::MoleMole::IVideoPlayer* a1)
+		::System::Boolean BMPCACHFBBH(::System::Single IAKPGBCAAKM)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::IVideoPlayer*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_41C3C66B2D4132A8_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_BMPCACHFBBH_OFFSET))(this, IAKPGBCAAKM);
 		}
 
-		::System::Void Method_1_1A404CB54D6A64FA(::ScreenPlayData* a1, ::System::Action* a2, ::System::Action* a3)
+		::System::Int32 OJBBMDEIFFE()
 		{
-			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_1A404CB54D6A64FA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_OJBBMDEIFFE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_350550DCFC0FEDEF(::System::Collections::Generic::List_1<::ScreenPlayData*>* a1)
+		::System::Void DBMEJKIHEOJ(::MoleMole::IVideoPlayer* JGPIGFLIDOJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::ScreenPlayData*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_350550DCFC0FEDEF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::IVideoPlayer*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_DBMEJKIHEOJ_OFFSET))(this, JGPIGFLIDOJ);
 		}
 
-		::System::Void Method_1_A69FA5E6168C596B(::System::Boolean a1)
+		::System::Void GCAPCADKEHK(::MoleMole::IVideoPlayer* KHGFAKJKDGG)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_A69FA5E6168C596B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::IVideoPlayer*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_GCAPCADKEHK_OFFSET))(this, KHGFAKJKDGG);
 		}
 
-		::System::Void Method_1_F5D0DA719A67CFAD(::ScreenPlayData* a1)
+		::System::Void MABCJOIDLHK()
 		{
-			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_F5D0DA719A67CFAD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_MABCJOIDLHK_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598_1()
+		::System::Void LCJDMHNMNHJ(::MoleMole::IVideoPlayer* KHGFAKJKDGG, ::System::String* NAPFALLANDL)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::IVideoPlayer*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_LCJDMHNMNHJ_OFFSET))(this, KHGFAKJKDGG, NAPFALLANDL);
 		}
 
-		::System::Void Method_1_3F0D4D20CAA05725(::ScreenPlayData* a1)
+		::System::Boolean BKPKBOECIEE()
 		{
-			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_3F0D4D20CAA05725_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_BKPKBOECIEE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_154998A4087BBA4C(::MoleMole::BlendTextureSheetData* a1)
+		::System::Void ALIEKHJEFON()
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::BlendTextureSheetData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_154998A4087BBA4C_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_ALIEKHJEFON_OFFSET))(this);
 		}
 
-		::System::Void Method_1_5CE94B0371C7CF88(::Class_1_5A6771CD0CA2718D* a1, ::UnityEngine::Vector4 a2, ::System::Int32 a3)
+		::System::Void BDNNGHOLNCI(::MPKBDIJDMAP* JNDDJMAHNAI, ::UnityEngine::Vector4 HDPGPBNINGA, ::System::Int32 HBJOLKHGGDD)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_5A6771CD0CA2718D*, ::UnityEngine::Vector4, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_5CE94B0371C7CF88_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MPKBDIJDMAP*, ::UnityEngine::Vector4, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_BDNNGHOLNCI_OFFSET))(this, JNDDJMAHNAI, HDPGPBNINGA, HBJOLKHGGDD);
 		}
 
-		::System::Void Method_1_0865E94460F11643()
+		::System::Void HHCDABCOILJ(::System::String* IHJPDNINDEC)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_0865E94460F11643_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_HHCDABCOILJ_OFFSET))(this, IHJPDNINDEC);
 		}
 
-		::System::Boolean Method_1_7A4DA50406643EC6()
+		::System::Void LGELGNIINJH(::System::Boolean EBFCACIEKBC)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_7A4DA50406643EC6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_LGELGNIINJH_OFFSET))(this, EBFCACIEKBC);
 		}
 
-		::System::Void Method_1_3BFE3B9EF8374F61()
+		::System::Void HHCDABCOILJ_1(::ScreenPlayData* LJBPECKCCEA)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_3BFE3B9EF8374F61_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_HHCDABCOILJ_1_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::System::Boolean Method_1_DD3CBC2B9281362E(::UnityEngine::Material* a1, ::Struct_2_BCEA3C06DDE2274F a2, ::Struct_2_BCEA3C06DDE2274F a3, ::Class_2_7DB115CD9B835DB7* a4, ::System::Boolean a5, ::System::Int32 a6)
+		::System::Void LOCMHOGEPJP(::System::Collections::Generic::List_1<::ScreenPlayData*>* OOBOMJFEMEA)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Material*, ::Struct_2_BCEA3C06DDE2274F, ::Struct_2_BCEA3C06DDE2274F, ::Class_2_7DB115CD9B835DB7*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_DD3CBC2B9281362E_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::ScreenPlayData*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_LOCMHOGEPJP_OFFSET))(this, OOBOMJFEMEA);
 		}
 
-		::System::String* Method_1_7DF99BC7DA8A7C9A(::System::String* a1)
+		::System::Void PEIMBACAHFG()
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_7DF99BC7DA8A7C9A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_PEIMBACAHFG_OFFSET))(this);
 		}
 
-		::System::Void Method_1_B1936CE4DA97AA45()
+		::UnityEngine::Renderer* MBIHBHMKABA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_B1936CE4DA97AA45_OFFSET))(this);
+			return ((::UnityEngine::Renderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_MBIHBHMKABA_OFFSET))(this);
 		}
 
-		::System::Void Method_1_D14907C13C942E04(::System::Action* a1, ::System::Action* a2, ::System::Boolean a3)
+		::System::Void PGHAJOMNDDJ()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_D14907C13C942E04_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_PGHAJOMNDDJ_OFFSET))(this);
 		}
 
-		::UnityEngine::Renderer* Method_1_4E3DD1117F270CB9()
+		::System::Void LFAOEMMAHAB(::MoleMole::IVideoPlayer* JGPIGFLIDOJ)
 		{
-			return ((::UnityEngine::Renderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_4E3DD1117F270CB9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::IVideoPlayer*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_LFAOEMMAHAB_OFFSET))(this, JGPIGFLIDOJ);
 		}
 
-		::System::Void Method_1_CD7415D0B2EB38A2(::MoleMole::IVideoPlayer* a1, ::System::String* a2)
+		::System::Void HEJDFIKJLOC(::System::Boolean IGAAKDOIPNN)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::IVideoPlayer*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_CD7415D0B2EB38A2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_HEJDFIKJLOC_OFFSET))(this, IGAAKDOIPNN);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598_2()
+		::System::Void HOCCOFALHPO(::ScreenPlayData* LJBPECKCCEA)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_HOCCOFALHPO_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598_3()
+		::System::Boolean ABDIINAJDPB(::UnityEngine::Material* DHFKLMDOOJO, ::IMBMPPCPHOD ODOLPFOAFAG, ::IMBMPPCPHOD MJODFDBNJIP, ::AGOFALFBGPG* JFPDJGAMELP, ::System::Boolean NPPMJEIPMFC, ::System::Int32 PJIDDIHFDOO)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_CA373AA1C7054598_3_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Material*, ::IMBMPPCPHOD, ::IMBMPPCPHOD, ::AGOFALFBGPG*, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_ABDIINAJDPB_OFFSET))(this, DHFKLMDOOJO, ODOLPFOAFAG, MJODFDBNJIP, JFPDJGAMELP, NPPMJEIPMFC, PJIDDIHFDOO);
 		}
 
-		::System::Void Method_1_6112A1276899AF0F()
+		::System::Boolean DOABCEAFNJH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_6112A1276899AF0F_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_DOABCEAFNJH_OFFSET))(this);
 		}
 
-		::System::Void Method_1_28A5AB1678E791E7(::System::Int32 a1, ::ScreenPlayData* a2)
+		::System::Void IBMNGCMJMNN()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_28A5AB1678E791E7_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_IBMNGCMJMNN_OFFSET))(this);
 		}
 
-		::System::Int32 Method_1_4BCD51618C77AD95()
+		static ::System::Boolean MDJGGPNGGFE(::UnityEngine::LOD LLLLNJFJGAI)
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_4BCD51618C77AD95_OFFSET))(this);
+			return ((::System::Boolean(*)(::UnityEngine::LOD))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_MDJGGPNGGFE_OFFSET))(LLLLNJFJGAI);
 		}
 
-		::System::Void Method_1_FF8E81CF7F8437BB(::Class_1_5A6771CD0CA2718D* a1, ::MoleMole::HollowPieceBlendMode a2)
+		::System::Boolean PIJDOJAKFGK()
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_5A6771CD0CA2718D*, ::MoleMole::HollowPieceBlendMode))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_FF8E81CF7F8437BB_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_PIJDOJAKFGK_OFFSET))(this);
 		}
 
-		::System::Void Method_1_FED43F89BEEE494D(::ScreenPlayData* a1)
+		::System::Void HNCCDKJLKMN()
 		{
-			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_FED43F89BEEE494D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_HNCCDKJLKMN_OFFSET))(this);
 		}
 
-		::System::Void Method_1_C91E5170F9E36EED(::System::Boolean a1)
+		::System::Void DLJECMKBIFJ()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_C91E5170F9E36EED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_DLJECMKBIFJ_OFFSET))(this);
 		}
 
-		::System::Void Method_1_85377D41FEE05B66()
+		::System::Void CGIOHHNBAOM(::ScreenPlayData* LJBPECKCCEA)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_85377D41FEE05B66_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_CGIOHHNBAOM_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::System::Boolean Method_1_74F9575C1C2A5360(::System::Single a1)
+		::System::Boolean ONJDIFIEMKO()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_74F9575C1C2A5360_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_ONJDIFIEMKO_OFFSET))(this);
 		}
 
-		::System::Void Method_1_04349BAD038A876C()
+		::System::Void LOCMHOGEPJP_1(::ScreenPlayData* LJBPECKCCEA)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_04349BAD038A876C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_LOCMHOGEPJP_1_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::System::Collections::Generic::List_1<::ScreenPlayData*>* Method_1_70BDBAE57C1C9100()
+		::System::Collections::Generic::List_1<::ScreenPlayData*>* FDPONKALNPI()
 		{
-			return ((::System::Collections::Generic::List_1<::ScreenPlayData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_70BDBAE57C1C9100_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::ScreenPlayData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_FDPONKALNPI_OFFSET))(this);
 		}
 
-		::System::Void Method_1_13877A6D73DFA168(::MoleMole::StaticSceneObjectListLoopType a1, ::System::Int32 a2, ::System::Boolean a3)
+		::System::Void LLCIKNLNBOF(::ScreenPlayData* LJBPECKCCEA)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::StaticSceneObjectListLoopType, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_13877A6D73DFA168_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_LLCIKNLNBOF_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::System::Boolean Method_1_A3FAE12D7B6ACD62()
+		::System::Void NJJNMLJNBPD(::ScreenPlayData* LJBPECKCCEA, ::System::Action* DGHFMHFOOEI, ::System::Action* BIBGCJMCKEL)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_A3FAE12D7B6ACD62_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_NJJNMLJNBPD_OFFSET))(this, LJBPECKCCEA, DGHFMHFOOEI, BIBGCJMCKEL);
 		}
 
-		::System::Void Method_1_1290EA767C459179()
+		::System::Void HOCCOFALHPO_1(::System::Collections::Generic::List_1<::ScreenPlayData*>* OOBOMJFEMEA)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_1290EA767C459179_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::ScreenPlayData*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_HOCCOFALHPO_1_OFFSET))(this, OOBOMJFEMEA);
 		}
 
-		::System::Void Method_1_3BFA5FDDE49C0147(::ScreenPlayData* a1)
+		::System::Void DNCDEKOFKFB()
 		{
-			return ((::System::Void(*)(::PVOID, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_3BFA5FDDE49C0147_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_DNCDEKOFKFB_OFFSET))(this);
 		}
 
-		::System::Void Method_1_2CAADC051AEB67F9()
+		::System::Void IJNJMGAOCMF(::System::Boolean AHEAEIMIJJK)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_2CAADC051AEB67F9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_IJNJMGAOCMF_OFFSET))(this, AHEAEIMIJJK);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598_4()
+		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* PHJAHBPBGIB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_CA373AA1C7054598_4_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_PHJAHBPBGIB_OFFSET))(this);
 		}
 
-		::System::Void Method_1_77B8789DBD3FC5F6(::System::Collections::Generic::List_1<::MoleMole::TextureSheetLoopFrame*>* a1)
+		::System::Boolean IMKOGBFJCKB()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::TextureSheetLoopFrame*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_77B8789DBD3FC5F6_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_IMKOGBFJCKB_OFFSET))(this);
 		}
 
-		::System::Void Method_1_33ACA6CB2ABC73F7()
+		::MoleMole::ScreenPlayer_TextureSheet* CIKHALFCMPB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_33ACA6CB2ABC73F7_OFFSET))(this);
+			return ((::MoleMole::ScreenPlayer_TextureSheet*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_CIKHALFCMPB_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_1D4018D4200358D0()
+		::System::Void NCFJEBIOMHD()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_NCFJEBIOMHD_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_5829557A8D4350F5()
+		::System::Void CFBGEKHHHGA()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_5829557A8D4350F5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_CFBGEKHHHGA_OFFSET))(this);
 		}
 
-		::System::Void Method_1_94B03BF93EE7A609(::MoleMole::IVideoPlayer* a1)
+		::System::Void GFKLEPDMBJD(::MoleMole::StaticSceneObjectListLoopType BNHNGJKNJJD, ::System::Int32 ABHBKFJKINO, ::System::Boolean IOKNPLAMIKB)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::IVideoPlayer*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_94B03BF93EE7A609_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::StaticSceneObjectListLoopType, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_GFKLEPDMBJD_OFFSET))(this, BNHNGJKNJJD, ABHBKFJKINO, IOKNPLAMIKB);
 		}
 
-		::System::Void Method_1_3EAE0F6D775220FA(::MoleMole::IVideoPlayer* a1)
+		::System::Void AHOAKJKCKIA(::System::Collections::Generic::List_1<::MoleMole::TextureSheetLoopFrame*>* FHGKPKNDGBL)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::IVideoPlayer*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_3EAE0F6D775220FA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::TextureSheetLoopFrame*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_AHOAKJKCKIA_OFFSET))(this, FHGKPKNDGBL);
 		}
 
-		::MoleMole::ScreenPlayer_TextureSheet* Method_1_1CF84FBD817B0F20()
+		::System::Void LCJEELHBNHG(::System::Action* DGHFMHFOOEI, ::System::Action* JJNPJAGKIHN, ::System::Boolean EPHIHEKNEHA)
 		{
-			return ((::MoleMole::ScreenPlayer_TextureSheet*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_1CF84FBD817B0F20_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_LCJEELHBNHG_OFFSET))(this, DGHFMHFOOEI, JJNPJAGKIHN, EPHIHEKNEHA);
 		}
 
-		::System::Void Method_1_1CD1133DC003C11C(::System::Boolean a1)
+		::System::Void HGAJDIGNGGE(::MoleMole::BlendTextureSheetData* JPFIBOCMHOL)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_1CD1133DC003C11C_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::BlendTextureSheetData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_HGAJDIGNGGE_OFFSET))(this, JPFIBOCMHOL);
 		}
 
-		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* Method_1_50FFE8C44036C61A()
+		::System::Void PLOAKKAOBLE(::System::Int32 ABHBKFJKINO, ::ScreenPlayData* LJBPECKCCEA)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_METHOD_1_50FFE8C44036C61A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ScreenPlayData*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCREENPLAYER_PLOAKKAOBLE_OFFSET))(this, ABHBKFJKINO, LJBPECKCCEA);
 		}
 	};
 }

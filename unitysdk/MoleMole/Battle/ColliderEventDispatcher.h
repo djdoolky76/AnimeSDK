@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_CE3B674D22BBFC73.h"
+#include "unitysdk/ABLJDBEJNNI.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
@@ -10,41 +10,43 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Collision; }
 
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_AWAKE_OFFSET UNITYSDK_OFFSET(0x116C9880)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_GET_ISDESTROYED_OFFSET UNITYSDK_OFFSET(0x116C97E0)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_GET_LAYERMASK_OFFSET UNITYSDK_OFFSET(0x116C9870)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_GET_OBSERVETAG_OFFSET UNITYSDK_OFFSET(0x116C9810)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_GET_SELFCOLLIDER_OFFSET UNITYSDK_OFFSET(0x116C9800)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_METHOD_5_E19B7483B3F00920_OFFSET UNITYSDK_OFFSET(0x116C9A40)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x116C9990)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x116C9F20)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x116C9950)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x116C9FD0)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x116CA080)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_SETCOLLIDERENABLE_OFFSET UNITYSDK_OFFSET(0x116CA130)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_SET_ISDESTROYED_OFFSET UNITYSDK_OFFSET(0x116C97F0)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_SET_OBSERVETAG_OFFSET UNITYSDK_OFFSET(0x116C9820)
-#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x116CA190)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_AWAKE_OFFSET UNITYSDK_OFFSET(0xFA881C0)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_GBIGECMKDCG_OFFSET UNITYSDK_OFFSET(0xFA88380)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_GET_ISDESTROYED_OFFSET UNITYSDK_OFFSET(0xFA88120)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_GET_LAYERMASK_OFFSET UNITYSDK_OFFSET(0xFA881B0)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_GET_OBSERVETAG_OFFSET UNITYSDK_OFFSET(0xFA88150)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_GET_SELFCOLLIDER_OFFSET UNITYSDK_OFFSET(0xFA88140)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0xFA882D0)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0xFA88860)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xFA88290)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xFA88910)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0xFA889C0)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_SETCOLLIDERENABLE_OFFSET UNITYSDK_OFFSET(0xFA88A70)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_SET_ISDESTROYED_OFFSET UNITYSDK_OFFSET(0xFA88130)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_SET_OBSERVETAG_OFFSET UNITYSDK_OFFSET(0xFA88160)
+#define MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0xFA88AD0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int ColliderEventDispatcher_TypeDefinitionIndex = 49711;
+	inline static constexpr unsigned int ColliderEventDispatcher_TypeDefinitionIndex = 75505;
 
 	class ColliderEventDispatcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Enum_3_CE3B674D22BBFC73 Mode; // 0x18
+		::ABLJDBEJNNI Mode; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Object* CallbackPara; // 0x20
-		::System::Boolean Field_5_6; // 0x28
-		::UnityEngine::Collider* Field_5_5; // 0x30
+		::System::Boolean _NFHKCGHGBAL_k__BackingField; // 0x28
+		::System::Byte _padding1[0x7];
+		::UnityEngine::Collider* GAJPKCHGFPE; // 0x30
 		::System::Action_2<::UnityEngine::Collision*, ::System::Object*>* E_OnCollisionEnter; // 0x38
 		::System::Action_2<::UnityEngine::Collision*, ::System::Object*>* E_OnCollisionExit; // 0x40
 		::System::Action_2<::UnityEngine::Collider*, ::System::Object*>* E_OnTriggerEnter; // 0x48
 		::System::Action_2<::UnityEngine::Collider*, ::System::Object*>* E_OnTriggerExit; // 0x50
 		::System::Action_2<::UnityEngine::Collider*, ::System::Object*>* OnTriggerEnterCb; // 0x58
 		::System::Action_2<::UnityEngine::Collider*, ::System::Object*>* OnTriggerExitCb; // 0x60
-		::System::String* Field_5_14; // 0x68
-		::UnityEngine::LayerMask Field_5_13; // 0x70
+		::System::String* IFLGOAOIFFD; // 0x68
+		::UnityEngine::LayerMask NHFLELKLBBF; // 0x70
 
 		::System::Void _ctor()
 		{
@@ -56,9 +58,9 @@ namespace MoleMole::Battle
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_GET_ISDESTROYED_OFFSET))(this);
 		}
 
-		::System::Void set_IsDestroyed(::System::Boolean a1)
+		::System::Void set_IsDestroyed(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_SET_ISDESTROYED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_SET_ISDESTROYED_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Collider* get_selfCollider()
@@ -71,9 +73,9 @@ namespace MoleMole::Battle
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_GET_OBSERVETAG_OFFSET))(this);
 		}
 
-		::System::Void set_ObserveTag(::System::String* a1)
+		::System::Void set_ObserveTag(::System::String* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_SET_OBSERVETAG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_SET_OBSERVETAG_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::LayerMask get_layerMask()
@@ -91,34 +93,34 @@ namespace MoleMole::Battle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void OnCollisionEnter(::UnityEngine::Collision* a1)
+		::System::Void OnCollisionEnter(::UnityEngine::Collision* GMKILPBDCFN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONCOLLISIONENTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONCOLLISIONENTER_OFFSET))(this, GMKILPBDCFN);
 		}
 
-		::System::Void OnCollisionExit(::UnityEngine::Collision* a1)
+		::System::Void OnCollisionExit(::UnityEngine::Collision* GMKILPBDCFN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONCOLLISIONEXIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONCOLLISIONEXIT_OFFSET))(this, GMKILPBDCFN);
 		}
 
-		::System::Void OnTriggerEnter(::UnityEngine::Collider* a1)
+		::System::Void OnTriggerEnter(::UnityEngine::Collider* LIBPKNHDIGP)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONTRIGGERENTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONTRIGGERENTER_OFFSET))(this, LIBPKNHDIGP);
 		}
 
-		::System::Void OnTriggerExit(::UnityEngine::Collider* a1)
+		::System::Void OnTriggerExit(::UnityEngine::Collider* LIBPKNHDIGP)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONTRIGGEREXIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_ONTRIGGEREXIT_OFFSET))(this, LIBPKNHDIGP);
 		}
 
-		::System::Void SetColliderEnable(::System::Boolean a1)
+		::System::Void SetColliderEnable(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_SETCOLLIDERENABLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_SETCOLLIDERENABLE_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Boolean Method_5_E19B7483B3F00920(::UnityEngine::Collider* a1, ::Enum_3_CE3B674D22BBFC73 a2)
+		::System::Boolean GBIGECMKDCG(::UnityEngine::Collider* EHHHMFKHNAI, ::ABLJDBEJNNI GEJCKFFFKCL)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Collider*, ::Enum_3_CE3B674D22BBFC73))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_METHOD_5_E19B7483B3F00920_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Collider*, ::ABLJDBEJNNI))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_COLLIDEREVENTDISPATCHER_GBIGECMKDCG_OFFSET))(this, EHHHMFKHNAI, GEJCKFFFKCL);
 		}
 	};
 }

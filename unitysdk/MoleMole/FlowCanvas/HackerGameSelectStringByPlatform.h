@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_6.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMESELECTSTRINGBYPLATFORM_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A7FB60)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMESELECTSTRINGBYPLATFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x13A7FC70)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMESELECTSTRINGBYPLATFORM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465A370)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMESELECTSTRINGBYPLATFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1465A480)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameSelectStringByPlatform_TypeDefinitionIndex = 79944;
+	inline static constexpr unsigned int HackerGameSelectStringByPlatform_TypeDefinitionIndex = 54704;
 
-	class HackerGameSelectStringByPlatform : public ::FlowCanvas::Nodes::CallableFunctionNode_6<::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*>
+	class HackerGameSelectStringByPlatform
 	{
 	public:
 		::System::Void _ctor()

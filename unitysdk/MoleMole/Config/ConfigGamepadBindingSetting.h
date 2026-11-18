@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/ConfigSubSystemSettingBase.h"
 #include "unitysdk/MoleMole/ESystemSettingType.h"
 
-#define MOLEMOLE_CONFIG_CONFIGGAMEPADBINDINGSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x177DDB30)
-#define MOLEMOLE_CONFIG_CONFIGGAMEPADBINDINGSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x177DDB40)
+#define MOLEMOLE_CONFIG_CONFIGGAMEPADBINDINGSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x1A764580)
+#define MOLEMOLE_CONFIG_CONFIGGAMEPADBINDINGSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A764590)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGamepadBindingSetting_TypeDefinitionIndex = 88760;
+	inline static constexpr unsigned int ConfigGamepadBindingSetting_TypeDefinitionIndex = 64527;
 
 	class ConfigGamepadBindingSetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{

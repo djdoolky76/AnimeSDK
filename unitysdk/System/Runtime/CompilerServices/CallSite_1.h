@@ -2,8 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/CompilerServices/CallSite.h"
 
-namespace System::Runtime::CompilerServices { template <typename T> class CallSite_1; }
-
 namespace System::Runtime::CompilerServices
 {
 	inline static constexpr unsigned int CallSite_1_TypeDefinitionIndex = 4953;
@@ -12,7 +10,6 @@ namespace System::Runtime::CompilerServices
 	class CallSite_1 : public ::System::Runtime::CompilerServices::CallSite
 	{
 	public:
-		::Il2CppArray<T>* Rules; // 0x0
 		static T* StaticGet_s_cachedUpdate()
 		{
 			return (T*)Il2CppClass::FromTypeDefinitionIndex(CallSite_1_TypeDefinitionIndex)->GetStaticField(0x0);
@@ -21,5 +18,6 @@ namespace System::Runtime::CompilerServices
 		{
 			return (T*)Il2CppClass::FromTypeDefinitionIndex(CallSite_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
+		::Il2CppArray<T>* Rules; // 0x0
 	};
 }

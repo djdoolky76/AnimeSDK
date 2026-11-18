@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int ScaleMode_TypeDefinitionIndex = 39501;
+	inline static constexpr unsigned int ScaleMode_TypeDefinitionIndex = 37672;
 
 	enum class ScaleMode : ::System::Int32
 	{

@@ -15,13 +15,13 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG_ONVALUECHANGED_MOVEMODE_OFFSET UNITYSDK_OFFSET(0x14344320)
-#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG_READFROMOTHERCONFIG_OFFSET UNITYSDK_OFFSET(0x14344360)
-#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14344430)
+#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG_ONVALUECHANGED_MOVEMODE_OFFSET UNITYSDK_OFFSET(0x1218D600)
+#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG_READFROMOTHERCONFIG_OFFSET UNITYSDK_OFFSET(0x1218D640)
+#define MOLEMOLE_BATTLE_CURVEMOVECOMPONENT_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1218D710)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int CurveMoveComponent_Config_TypeDefinitionIndex = 65744;
+	inline static constexpr unsigned int CurveMoveComponent_Config_TypeDefinitionIndex = 74200;
 
 	class CurveMoveComponent_Config : public ::System::Object
 	{
@@ -34,16 +34,20 @@ namespace MoleMole::Battle
 		::FluffyUnderware::Curvy::OrientationModeEnum orientationMode; // 0x24
 		::FluffyUnderware::Curvy::OrientationAxisEnum orientationAxis; // 0x28
 		::System::Boolean ignoreDirection; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::String* curvePath; // 0x30
 		::System::Boolean useCache; // 0x38
 		::System::Boolean enableRotation; // 0x39
 		::System::Boolean enableCurvyRotation; // 0x3A
+		::System::Byte _padding1[0x1];
 		::UnityEngine::Vector2 curvyRotationPitchRange; // 0x3C
 		::System::Boolean enableAttachRotationMotion; // 0x44
 		::System::Boolean needPauseWhenWipeOut; // 0x45
+		::System::Byte _padding2[0x2];
 		::System::Single speed; // 0x48
 		::System::Single speedUpAcceleration; // 0x4C
 		::System::Single speedDownAcceleration; // 0x50
+		::System::Byte _padding3[0x4];
 		::UnityEngine::AnimationCurve* curve; // 0x58
 		::System::Single time; // 0x60
 		::UnityEngine::Vector3 positionOffset; // 0x64
@@ -51,10 +55,12 @@ namespace MoleMole::Battle
 		::System::String* startMoveSoundEvent; // 0x78
 		::System::String* stopMoveSoundEvent; // 0x80
 		::System::Boolean setMoveBackSound; // 0x88
+		::System::Byte _padding4[0x7];
 		::System::String* startMoveBackSoundEvent; // 0x90
 		::System::String* stopMoveBackSoundEvent; // 0x98
 		::System::Boolean muteSound; // 0xA0
 		::System::Boolean ManageRotate; // 0xA1
+		::System::Byte _padding5[0x2];
 		::MoleMole::Battle::CurveMoveComponent_Config_MoveType moveType; // 0xA4
 
 		::System::Void _ctor()

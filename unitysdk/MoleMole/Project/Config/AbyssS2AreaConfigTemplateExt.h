@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlatBuffers/Config/AbyssS2AreaConfigTemplate.h"
-#include "unitysdk/Struct_2_58DF5669875F2C66_27.h"
+#include "unitysdk/GLANDAGNIJK.h"
 
-class Class_0_16E4307DCC419505_7;
-class Class_1_5DA2E7556103D5A3_4;
+class HJFICLHGFHJ;
+class KGBFLHNJHHN;
 
-#define MOLEMOLE_PROJECT_CONFIG_ABYSSS2AREACONFIGTEMPLATEEXT_GETMETATYPECONFIG_OFFSET UNITYSDK_OFFSET(0x1BBD42C0)
-#define MOLEMOLE_PROJECT_CONFIG_ABYSSS2AREACONFIGTEMPLATEEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD42B0)
+#define MOLEMOLE_PROJECT_CONFIG_ABYSSS2AREACONFIGTEMPLATEEXT_GETMETATYPECONFIG_OFFSET UNITYSDK_OFFSET(0x195AE4C0)
+#define MOLEMOLE_PROJECT_CONFIG_ABYSSS2AREACONFIGTEMPLATEEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x195AE4B0)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int AbyssS2AreaConfigTemplateExt_TypeDefinitionIndex = 11585;
+	inline static constexpr unsigned int AbyssS2AreaConfigTemplateExt_TypeDefinitionIndex = 15380;
 
 	class AbyssS2AreaConfigTemplateExt : public ::MoleMole::FlatBuffers::Config::AbyssS2AreaConfigTemplate
 	{
 	public:
-		::System::Void _ctor(::Struct_2_58DF5669875F2C66_27 data, ::Class_0_16E4307DCC419505_7* notify)
+		::System::Void _ctor(::GLANDAGNIJK data, ::KGBFLHNJHHN* notify)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_58DF5669875F2C66_27, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + MOLEMOLE_PROJECT_CONFIG_ABYSSS2AREACONFIGTEMPLATEEXT__CTOR_OFFSET))(this, data, notify);
+			return ((::System::Void(*)(::PVOID, ::GLANDAGNIJK, ::KGBFLHNJHHN*))((::PBYTE)hIl2Cpp + MOLEMOLE_PROJECT_CONFIG_ABYSSS2AREACONFIGTEMPLATEEXT__CTOR_OFFSET))(this, data, notify);
 		}
 
-		::Class_1_5DA2E7556103D5A3_4* GetMetaTypeConfig()
+		::HJFICLHGFHJ* GetMetaTypeConfig()
 		{
-			return ((::Class_1_5DA2E7556103D5A3_4*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROJECT_CONFIG_ABYSSS2AREACONFIGTEMPLATEEXT_GETMETATYPECONFIG_OFFSET))(this);
+			return ((::HJFICLHGFHJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROJECT_CONFIG_ABYSSS2AREACONFIGTEMPLATEEXT_GETMETATYPECONFIG_OFFSET))(this);
 		}
 	};
 }

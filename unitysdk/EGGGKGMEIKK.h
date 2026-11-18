@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BHABFGGDJPK.h"
+#include "unitysdk/HNGNECAGPNE.h"
+#include "unitysdk/OIJMFNHGANO.h"
+
+class AEDJLOFACHD;
+class AOLDJJGODON;
+namespace MoleMole { class MonoGamepadBaseList; }
+
+#define EGGGKGMEIKK_DLBEBGCNGDL_OFFSET UNITYSDK_OFFSET(0x10638250)
+#define EGGGKGMEIKK_DNPLLEDAGDB_OFFSET UNITYSDK_OFFSET(0x10637110)
+#define EGGGKGMEIKK__CTOR_OFFSET UNITYSDK_OFFSET(0x10638240)
+
+inline static constexpr unsigned int EGGGKGMEIKK_TypeDefinitionIndex = 89701;
+
+class EGGGKGMEIKK : public ::BHABFGGDJPK
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGGGKGMEIKK__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean DNPLLEDAGDB(::AOLDJJGODON* MPLDDNMCECG, ::MoleMole::MonoGamepadBaseList* KHGFAKJKDGG, ::AEDJLOFACHD* BEKAGNFAFGI, ::HNGNECAGPNE IOOOALDFNGH, ::OIJMFNHGANO KOBGEEHIPKK)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::AOLDJJGODON*, ::MoleMole::MonoGamepadBaseList*, ::AEDJLOFACHD*, ::HNGNECAGPNE, ::OIJMFNHGANO))((::PBYTE)hIl2Cpp + EGGGKGMEIKK_DNPLLEDAGDB_OFFSET))(this, MPLDDNMCECG, KHGFAKJKDGG, BEKAGNFAFGI, IOOOALDFNGH, KOBGEEHIPKK);
+	}
+
+	::System::Boolean DLBEBGCNGDL(::AOLDJJGODON* MIALFKCCCPI, ::MoleMole::MonoGamepadBaseList* KMGKAIDEIBA, ::AEDJLOFACHD* FDHMCIFPNCK, ::HNGNECAGPNE MPBJAGIKPJM, ::OIJMFNHGANO DDMDINPGCFI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::AOLDJJGODON*, ::MoleMole::MonoGamepadBaseList*, ::AEDJLOFACHD*, ::HNGNECAGPNE, ::OIJMFNHGANO))((::PBYTE)hIl2Cpp + EGGGKGMEIKK_DLBEBGCNGDL_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM, DDMDINPGCFI);
+	}
+};

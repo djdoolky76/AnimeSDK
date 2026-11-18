@@ -8,20 +8,20 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define MOLEMOLE_UIGACHAPERFORMANCE3DMODELCONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18807FE0)
-#define MOLEMOLE_UIGACHAPERFORMANCE3DMODELCONTROLLER___C__DISPLAYCLASS37_0__PLAYCLOSEUPTL_B__1_OFFSET UNITYSDK_OFFSET(0x18807FF0)
-#define MOLEMOLE_UIGACHAPERFORMANCE3DMODELCONTROLLER___C__DISPLAYCLASS37_0__PLAYCLOSEUPTL_B__2_OFFSET UNITYSDK_OFFSET(0x18808C10)
+#define MOLEMOLE_UIGACHAPERFORMANCE3DMODELCONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1836E6F0)
+#define MOLEMOLE_UIGACHAPERFORMANCE3DMODELCONTROLLER___C__DISPLAYCLASS37_0__PLAYCLOSEUPTL_B__1_OFFSET UNITYSDK_OFFSET(0x1836E700)
+#define MOLEMOLE_UIGACHAPERFORMANCE3DMODELCONTROLLER___C__DISPLAYCLASS37_0__PLAYCLOSEUPTL_B__2_OFFSET UNITYSDK_OFFSET(0x1836F320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPerformance3DModelController___c__DisplayClass37_0_TypeDefinitionIndex = 71021;
+	inline static constexpr unsigned int UIGachaPerformance3DModelController___c__DisplayClass37_0_TypeDefinitionIndex = 52566;
 
 	class UIGachaPerformance3DModelController___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGachaPerformance3DModelController* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* camTimelines; // 0x10
 		::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* __9__2; // 0x18
-		::System::Collections::Generic::List_1<::System::String*>* camTimelines; // 0x20
+		::MoleMole::UIGachaPerformance3DModelController* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

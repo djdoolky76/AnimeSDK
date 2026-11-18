@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
 namespace NodeCanvas::DialogueTrees { class DialogueTreeController; }
-namespace NodeCanvas::DialogueTrees { class IDialogueActor; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_STARTDIALOGUETREE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1DAF35F0)
-#define NODECANVAS_TASKS_ACTIONS_STARTDIALOGUETREE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1DAF3660)
-#define NODECANVAS_TASKS_ACTIONS_STARTDIALOGUETREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF37E0)
-#define NODECANVAS_TASKS_ACTIONS_STARTDIALOGUETREE__ONEXECUTE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1DAF37F0)
-#define NODECANVAS_TASKS_ACTIONS_STARTDIALOGUETREE__ONEXECUTE_B__6_1_OFFSET UNITYSDK_OFFSET(0x1DAF3900)
+#define NODECANVAS_TASKS_ACTIONS_STARTDIALOGUETREE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D4916C0)
+#define NODECANVAS_TASKS_ACTIONS_STARTDIALOGUETREE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1D491730)
+#define NODECANVAS_TASKS_ACTIONS_STARTDIALOGUETREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4918A0)
+#define NODECANVAS_TASKS_ACTIONS_STARTDIALOGUETREE__ONEXECUTE_B__6_0_OFFSET UNITYSDK_OFFSET(0x1D4918B0)
+#define NODECANVAS_TASKS_ACTIONS_STARTDIALOGUETREE__ONEXECUTE_B__6_1_OFFSET UNITYSDK_OFFSET(0x1D4919C0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int StartDialogueTree_TypeDefinitionIndex = 30253;
+	inline static constexpr unsigned int StartDialogueTree_TypeDefinitionIndex = 30575;
 
-	class StartDialogueTree : public ::NodeCanvas::Framework::ActionTask_1<::NodeCanvas::DialogueTrees::IDialogueActor*>
+	class StartDialogueTree
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::DialogueTrees::DialogueTreeController*>* dialogueTreeController; // 0x60
-		::NodeCanvas::DialogueTrees::DialogueTreeController* instance; // 0x68
-		::System::Boolean isPrefab; // 0x70
-		::System::Boolean waitActionFinish; // 0x71
+		::NodeCanvas::DialogueTrees::DialogueTreeController* instance; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::DialogueTrees::DialogueTreeController*>* dialogueTreeController; // 0x68
+		::System::Boolean waitActionFinish; // 0x70
+		::System::Boolean isPrefab; // 0x71
 
 		::System::Void _ctor()
 		{

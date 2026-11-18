@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
-namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int UnityEventEx_1_TypeDefinitionIndex = 28943;
+	inline static constexpr unsigned int UnityEventEx_1_TypeDefinitionIndex = 28382;
 
-	template <typename T0>
-	class UnityEventEx_1 : public ::UnityEngine::Events::UnityEvent_1<T0>
+	template <typename T>
+	class UnityEventEx_1
 	{
 	public:
 		::System::Object* mCallerList; // 0x0

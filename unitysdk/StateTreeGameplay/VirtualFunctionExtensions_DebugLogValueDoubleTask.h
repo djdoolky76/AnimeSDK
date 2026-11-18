@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/StateTreeGameplay/DebugLogValueDoubleTask.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
+#include "unitysdk/StateTreeGameplay/DebugLogValueDoubleTask.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEDOUBLETASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x13458D50)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEDOUBLETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x13458E80)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEDOUBLETASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x13458F20)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEDOUBLETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x13458DF0)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEDOUBLETASK_TICK_OFFSET UNITYSDK_OFFSET(0x13458FC0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEDOUBLETASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1D203AA0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEDOUBLETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1D203BD0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEDOUBLETASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x1D203C70)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEDOUBLETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1D203B40)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEDOUBLETASK_TICK_OFFSET UNITYSDK_OFFSET(0x1D203D10)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_DebugLogValueDoubleTask_TypeDefinitionIndex = 69353;
+	inline static constexpr unsigned int VirtualFunctionExtensions_DebugLogValueDoubleTask_TypeDefinitionIndex = 79338;
 
 	class VirtualFunctionExtensions_DebugLogValueDoubleTask : public ::System::Object
 	{

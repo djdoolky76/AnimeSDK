@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RotationOrder_TypeDefinitionIndex = 5416;
+	inline static constexpr unsigned int RotationOrder_TypeDefinitionIndex = 5419;
 
 	enum class RotationOrder : ::System::Int32
 	{

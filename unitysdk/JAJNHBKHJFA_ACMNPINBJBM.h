@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class JAJNHBKHJFA;
+class MBJCLLBMALO;
+class MLPPAKIBMDF;
+class PIPECBJCNHD;
+
+#define JAJNHBKHJFA_ACMNPINBJBM_INBGOEPPBDI_OFFSET UNITYSDK_OFFSET(0x16597C30)
+#define JAJNHBKHJFA_ACMNPINBJBM__CTOR_OFFSET UNITYSDK_OFFSET(0x16597C20)
+
+inline static constexpr unsigned int JAJNHBKHJFA_ACMNPINBJBM_TypeDefinitionIndex = 83659;
+
+class JAJNHBKHJFA_ACMNPINBJBM : public ::System::Object
+{
+public:
+	::JAJNHBKHJFA* KLHPEBKNIFB; // 0x10
+	::PIPECBJCNHD* LJBPECKCCEA; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JAJNHBKHJFA_ACMNPINBJBM__CTOR_OFFSET))(this);
+	}
+
+	::System::Void INBGOEPPBDI(::MLPPAKIBMDF* KLLOHHCDLIP, ::MBJCLLBMALO* EFEBFFCEJEF)
+	{
+		return ((::System::Void(*)(::PVOID, ::MLPPAKIBMDF*, ::MBJCLLBMALO*))((::PBYTE)hIl2Cpp + JAJNHBKHJFA_ACMNPINBJBM_INBGOEPPBDI_OFFSET))(this, KLLOHHCDLIP, EFEBFFCEJEF);
+	}
+};

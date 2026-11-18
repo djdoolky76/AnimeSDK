@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageSeqFrameTargetType_TypeDefinitionIndex = 85310;
+	inline static constexpr unsigned int MontageSeqFrameTargetType_TypeDefinitionIndex = 59132;
 
 	enum class MontageSeqFrameTargetType : ::System::Byte
 	{
-		None = 0x0,
-		Accessory = 0x2,
-		Part = 0x1,
+		None = 0,
+		Part = 1,
+		Accessory = 2,
 	};
 }

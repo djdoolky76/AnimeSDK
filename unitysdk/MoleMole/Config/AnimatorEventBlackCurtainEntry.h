@@ -6,12 +6,12 @@ namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKCURTAINENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x177C34B0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKCURTAINENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x177C35C0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKCURTAINENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x174EAAC0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKCURTAINENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x174EABD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventBlackCurtainEntry_TypeDefinitionIndex = 74572;
+	inline static constexpr unsigned int AnimatorEventBlackCurtainEntry_TypeDefinitionIndex = 57282;
 
 	class AnimatorEventBlackCurtainEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

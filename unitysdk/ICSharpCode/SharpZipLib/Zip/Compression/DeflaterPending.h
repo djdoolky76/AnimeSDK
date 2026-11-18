@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ICSharpCode/SharpZipLib/Zip/Compression/PendingBuffer.h"
 
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERPENDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC5BDE0)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_COMPRESSION_DEFLATERPENDING__CTOR_OFFSET UNITYSDK_OFFSET(0x2005E970)
 
 namespace ICSharpCode::SharpZipLib::Zip::Compression
 {
-	inline static constexpr unsigned int DeflaterPending_TypeDefinitionIndex = 6836;
+	inline static constexpr unsigned int DeflaterPending_TypeDefinitionIndex = 6843;
 
 	class DeflaterPending : public ::ICSharpCode::SharpZipLib::Zip::Compression::PendingBuffer
 	{

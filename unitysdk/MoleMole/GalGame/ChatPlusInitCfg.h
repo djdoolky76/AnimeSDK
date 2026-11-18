@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ProtoScript/ModTimeType.h"
 #include "unitysdk/ProtoScript/TimePeriodType.h"
-#include "unitysdk/Struct_2_086C0AADB113D5D4.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/KMEBHGEGMLM.h"
 
 namespace MoleMole::GalGame { class DynamicObjectModifyActiveCfg; }
 namespace MoleMole::GalGame { class LookIKCfg; }
@@ -15,21 +15,23 @@ namespace MoleMole::GalGame { class TimelinePair; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_CHATPLUSINITCFG_CREATTIMECFG_OFFSET UNITYSDK_OFFSET(0x129A3380)
-#define MOLEMOLE_GALGAME_CHATPLUSINITCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x129A3400)
+#define MOLEMOLE_GALGAME_CHATPLUSINITCFG_CREATTIMECFG_OFFSET UNITYSDK_OFFSET(0x124621A0)
+#define MOLEMOLE_GALGAME_CHATPLUSINITCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x12462220)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int ChatPlusInitCfg_TypeDefinitionIndex = 57878;
+	inline static constexpr unsigned int ChatPlusInitCfg_TypeDefinitionIndex = 86618;
 
 	class ChatPlusInitCfg : public ::System::Object
 	{
 	public:
 		::System::Boolean IsShowBlackMask; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::String* BlackMaskTextKey; // 0x18
 		::System::Boolean IsBegin; // 0x20
 		::System::Boolean IsEnd; // 0x21
 		::System::Boolean IsTransition; // 0x22
+		::System::Byte _padding1[0x1];
 		::System::Int32 TransitionID; // 0x24
 		::System::Collections::Generic::List_1<::MoleMole::GalGame::TagBoolPair*>* VisibleParams; // 0x28
 		::System::Collections::Generic::List_1<::MoleMole::GalGame::TagAniPair*>* TagAniParams; // 0x30
@@ -40,9 +42,11 @@ namespace MoleMole::GalGame
 		::System::Boolean IsHideLocalAvatar; // 0x58
 		::System::Boolean IsDestroyTimeLine; // 0x59
 		::System::Boolean DestoryAllTimeline; // 0x5A
+		::System::Byte _padding2[0x5];
 		::System::Collections::Generic::List_1<::MoleMole::GalGame::TimelinePair*>* DestoryTimelineParams; // 0x60
 		::System::Collections::Generic::List_1<::MoleMole::GalGame::TimelinePair*>* TimelineParams; // 0x68
 		::System::Boolean ModifyTime; // 0x70
+		::System::Byte _padding3[0x3];
 		::ProtoScript::ModTimeType ModType; // 0x74
 		::System::Int32 Minute; // 0x78
 		::System::Int32 TimePeriodNum; // 0x7C
@@ -55,9 +59,9 @@ namespace MoleMole::GalGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_CHATPLUSINITCFG__CTOR_OFFSET))(this);
 		}
 
-		::Struct_2_086C0AADB113D5D4 CreatTimeCfg()
+		::KMEBHGEGMLM CreatTimeCfg()
 		{
-			return ((::Struct_2_086C0AADB113D5D4(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_CHATPLUSINITCFG_CREATTIMECFG_OFFSET))(this);
+			return ((::KMEBHGEGMLM(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_CHATPLUSINITCFG_CREATTIMECFG_OFFSET))(this);
 		}
 	};
 }

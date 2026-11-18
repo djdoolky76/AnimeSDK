@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Experimental/AI/PathQueryStatus.h"
 
-#define STATUSUTILS_ISFAILURE_OFFSET UNITYSDK_OFFSET(0x1EC68750)
-#define STATUSUTILS_ISINPROGRESS_OFFSET UNITYSDK_OFFSET(0x1EC68790)
-#define STATUSUTILS_ISSUCCESS_OFFSET UNITYSDK_OFFSET(0x1EC68700)
+#define STATUSUTILS_ISFAILURE_OFFSET UNITYSDK_OFFSET(0x1EBC6370)
+#define STATUSUTILS_ISINPROGRESS_OFFSET UNITYSDK_OFFSET(0x1EBC63B0)
+#define STATUSUTILS_ISSUCCESS_OFFSET UNITYSDK_OFFSET(0x1EBC6320)
 
-inline static constexpr unsigned int StatusUtils_TypeDefinitionIndex = 44952;
+inline static constexpr unsigned int StatusUtils_TypeDefinitionIndex = 67555;
 
 class StatusUtils : public ::System::Object
 {

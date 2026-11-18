@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define NPCEMOTIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x10670340)
+#define NPCEMOTIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xF1598B0)
 
-inline static constexpr unsigned int NPCEmotionEffect_TypeDefinitionIndex = 69504;
+inline static constexpr unsigned int NPCEmotionEffect_TypeDefinitionIndex = 60917;
 
 class NPCEmotionEffect : public ::System::Object
 {

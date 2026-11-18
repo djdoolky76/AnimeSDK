@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_REGIONSWITCHFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1792BA80)
+#define MOLEMOLE_REGIONSWITCHFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x14B16710)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RegionSwitchFunc_TypeDefinitionIndex = 81470;
+	inline static constexpr unsigned int RegionSwitchFunc_TypeDefinitionIndex = 86754;
 
 	class RegionSwitchFunc : public ::System::Object
 	{
@@ -39,45 +39,49 @@ namespace MoleMole
 		::System::Int32 disableIOSMTLHeapOpt; // 0x6C
 		::System::Int32 disableVKPSOJob; // 0x70
 		::System::Int32 disableDriverInfo; // 0x74
-		::System::Int32 perfSwitch1; // 0x78
-		::System::Int32 perfSwitch2; // 0x7C
-		::System::Int32 enableNoticeMobileConsole; // 0x80
-		::System::Int32 enableGachaMobileConsole; // 0x84
-		::System::Int32 enableNoticeMobileConsole_cloud; // 0x88
-		::System::Int32 enableGachaMobileConsole_cloud; // 0x8C
-		::System::Int32 forceExternalWebLinksInPC_cloud; // 0x90
-		::System::Int32 forceExternalWebLinksInMac_cloud; // 0x94
-		::System::Int32 isKcp; // 0x98
-		::System::Int32 Disable_Audio_Download; // 0x9C
-		::System::Int32 Play_The_Music; // 0xA0
-		::System::Int32 Hide_download_progress; // 0xA4
-		::System::Int32 Medium_Package_Play; // 0xA8
-		::System::Int32 Hide_Download_complete_resources; // 0xAC
-		::System::Int32 Hide_Download_resources_popups; // 0xB0
-		::System::Int32 Close_Medium_Package_Download; // 0xB4
-		::System::Int32 open_hotfix_popups; // 0xB8
-		::System::Int32 Disable_Popup_Notification; // 0xBC
-		::System::Int32 Force_Verify_all_assets; // 0xC0
-		::System::Int32 Force_CleanExpire_next_boot; // 0xC4
-		::System::Int32 Skip_PC_StreamingVerify; // 0xC8
-		::System::Int32 EnableWaterMark; // 0xCC
-		::System::String* mtrConfig; // 0xD0
-		::System::Int32 enableOperationLog; // 0xD8
-		::System::Int32 Turnoff_Push_notifications; // 0xDC
-		::System::Int32 Disable_Frequent_attempts; // 0xE0
-		::System::Int32 enablePerformanceLog; // 0xE4
-		::System::Int32 Hide_Code_Login; // 0xE8
-		::System::Int32 Disable_Diff_In_NormalUpdate; // 0xEC
-		::System::Int32 Disable_Diff_InPredownload; // 0xF0
-		::System::Int32 Disable_Delete_Redundant_Res; // 0xF4
-		::System::Int32 Disable_Packages_Manage; // 0xF8
-		::System::Int32 Enable_PC_Packages_Manage; // 0xFC
-		::System::Int32 Enable_Base_Packages_Manage; // 0x100
-		::System::Int32 Enable_Products_Cache; // 0x104
-		::System::Int32 Disable_Report_RootSize; // 0x108
-		::System::Int32 Force_Console_AllLangAudio; // 0x10C
-		::System::Int32 Show_CloudGameEntrance; // 0x110
-		::System::Boolean CloseNetworkObjectPool; // 0x114
+		::System::Int32 disablePSOCheck; // 0x78
+		::System::Int32 perfSwitch1; // 0x7C
+		::System::Int32 perfSwitch2; // 0x80
+		::System::Int32 enableNoticeMobileConsole; // 0x84
+		::System::Int32 enableGachaMobileConsole; // 0x88
+		::System::Int32 enableNoticeMobileConsole_cloud; // 0x8C
+		::System::Int32 enableGachaMobileConsole_cloud; // 0x90
+		::System::Int32 forceExternalWebLinksInPC_cloud; // 0x94
+		::System::Int32 forceExternalWebLinksInMac_cloud; // 0x98
+		::System::Int32 isKcp; // 0x9C
+		::System::Int32 Disable_Audio_Download; // 0xA0
+		::System::Int32 Play_The_Music; // 0xA4
+		::System::Int32 Hide_download_progress; // 0xA8
+		::System::Int32 Medium_Package_Play; // 0xAC
+		::System::Int32 Hide_Download_complete_resources; // 0xB0
+		::System::Int32 Hide_Download_resources_popups; // 0xB4
+		::System::Int32 Close_Medium_Package_Download; // 0xB8
+		::System::Int32 open_hotfix_popups; // 0xBC
+		::System::Int32 Disable_Popup_Notification; // 0xC0
+		::System::Int32 Force_Verify_all_assets; // 0xC4
+		::System::Int32 Force_CleanExpire_next_boot; // 0xC8
+		::System::Int32 Skip_PC_StreamingVerify; // 0xCC
+		::System::Int32 EnableWaterMark; // 0xD0
+		::System::Byte _padding0[0x4];
+		::System::String* mtrConfig; // 0xD8
+		::System::Int32 enableOperationLog; // 0xE0
+		::System::Int32 Turnoff_Push_notifications; // 0xE4
+		::System::Int32 Disable_Frequent_attempts; // 0xE8
+		::System::Int32 enablePerformanceLog; // 0xEC
+		::System::Int32 Hide_Code_Login; // 0xF0
+		::System::Int32 Disable_Diff_In_NormalUpdate; // 0xF4
+		::System::Int32 Disable_Diff_InPredownload; // 0xF8
+		::System::Int32 Disable_Delete_Redundant_Res; // 0xFC
+		::System::Int32 Disable_Packages_Manage; // 0x100
+		::System::Int32 Enable_PC_Packages_Manage; // 0x104
+		::System::Int32 Enable_Base_Packages_Manage; // 0x108
+		::System::Int32 Enable_Products_Cache; // 0x10C
+		::System::Int32 Disable_Report_RootSize; // 0x110
+		::System::Int32 Force_Console_AllLangAudio; // 0x114
+		::System::Int32 Show_CloudGameEntrance; // 0x118
+		::System::Boolean CloseNetworkObjectPool; // 0x11C
+		::System::Byte _padding1[0x3];
+		::System::Int32 Disable_ConfigModule_RuntimeUnload; // 0x120
 
 		::System::Void _ctor()
 		{

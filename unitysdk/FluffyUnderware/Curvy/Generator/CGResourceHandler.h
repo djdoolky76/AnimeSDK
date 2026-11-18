@@ -8,21 +8,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Component; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGRESOURCEHANDLER_CREATERESOURCE_OFFSET UNITYSDK_OFFSET(0x1F7A80D0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGRESOURCEHANDLER_DESTROYRESOURCE_OFFSET UNITYSDK_OFFSET(0x1F7A82F0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGRESOURCEHANDLER_REGISTERRESOURCELOADER_OFFSET UNITYSDK_OFFSET(0x1F7A7EF0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGRESOURCEHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7A8560)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGRESOURCEHANDLER_CREATERESOURCE_OFFSET UNITYSDK_OFFSET(0x1FBB1530)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGRESOURCEHANDLER_DESTROYRESOURCE_OFFSET UNITYSDK_OFFSET(0x1FBB1750)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGRESOURCEHANDLER_REGISTERRESOURCELOADER_OFFSET UNITYSDK_OFFSET(0x1FBB1350)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGRESOURCEHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBB19D0)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGResourceHandler_TypeDefinitionIndex = 39679;
+	inline static constexpr unsigned int CGResourceHandler_TypeDefinitionIndex = 37667;
 
 	class CGResourceHandler : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::FluffyUnderware::Curvy::Generator::ICGResourceLoader*>** StaticGet_resourceLoadersCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::FluffyUnderware::Curvy::Generator::ICGResourceLoader*>**)Il2CppClass::FromTypeDefinitionIndex(CGResourceHandler_TypeDefinitionIndex)->GetStaticField(0x2AE50);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::FluffyUnderware::Curvy::Generator::ICGResourceLoader*>**)Il2CppClass::FromTypeDefinitionIndex(CGResourceHandler_TypeDefinitionIndex)->GetStaticField(0x2C1B0);
 		}
 
 		static ::System::Void _cctor()

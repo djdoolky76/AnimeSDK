@@ -9,6 +9,9 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/DigitalOpus/MB/Core/MB3_MeshCombinerSingle_BufferDataFromPreviousBake.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
 
 class MB2_TextureBakeResults;
 namespace DigitalOpus::MB::Core { class IAssignToMeshCustomizer; }
@@ -17,52 +20,54 @@ namespace DigitalOpus::MB::Core { class MB3_MeshCombinerSingle_IMeshChannelsCach
 namespace DigitalOpus::MB::Core { class MB3_MeshCombinerSingle_IVertexAndTriangleProcessor; }
 namespace DigitalOpus::MB::Core { class MB3_MeshCombinerSingle_MB_DynamicGameObject; }
 namespace DigitalOpus::MB::Core { class MB3_MeshCombinerSingle_MeshChannelsCache; }
-namespace DigitalOpus::MB::Core { class MB3_MeshCombinerSingle_SerializableIntArray; }
 namespace DigitalOpus::MB::Core { class MB3_MeshCombinerSingle_UVAdjuster_Atlas; }
 namespace DigitalOpus::MB::Core { class MB_IMeshBakerSettings; }
 namespace DigitalOpus::MB::Core { class MB_IMeshCombinerSingle_BoneProcessor; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ADJUSTVERTSTOWRITEACCORDINGTOPIVOTPOSITIONIFNECESSARY_OFFSET UNITYSDK_OFFSET(0xAA4210)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ASSIGNBUFFERSTOMESH_OFFSET UNITYSDK_OFFSET(0xAA41F0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ASSIGNTRIANGLEDATAFORSUBMESHES_OFFSET UNITYSDK_OFFSET(0xAA4200)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ASSIGNTRIANGLEDATAFORSUBMESHES_SHOWHIDE_OFFSET UNITYSDK_OFFSET(0xAA4200)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_COPYARRAYSFROMPREVIOUSBAKEBUFFERSTONEWBUFFERS_OFFSET UNITYSDK_OFFSET(0xAA4170)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_COPYFROMDGOMESHTOBUFFERS_OFFSET UNITYSDK_OFFSET(0xAA4180)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_COPYUV2UNCHANGEDTOSEPARATERECTS_OFFSET UNITYSDK_OFFSET(0xAA4270)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAA4050)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GETSUBMESHCOUNT_OFFSET UNITYSDK_OFFSET(0xAA4120)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GETSUBMESHTRISWITHSHOWHIDEAPPLIED_OFFSET UNITYSDK_OFFSET(0xAA4280)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GETTRIANGLESIZES_OFFSET UNITYSDK_OFFSET(0xAA4290)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GETVERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0xAA4100)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GET_CHANNELS_OFFSET UNITYSDK_OFFSET(0x32EEE0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_INITFROMMESHCOMBINER_OFFSET UNITYSDK_OFFSET(0xAA40F0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_INITSHOWHIDE_OFFSET UNITYSDK_OFFSET(0xAA40C0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_INIT_OFFSET UNITYSDK_OFFSET(0xAA4090)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x324690)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ISINITIALIZED_OFFSET UNITYSDK_OFFSET(0x458BA0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_SET_CHANNELS_OFFSET UNITYSDK_OFFSET(0x3C9D90)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_TRANSFEROWNERSHIPOFSERIALIZABLEBUFFERSTOCOMBINER_OFFSET UNITYSDK_OFFSET(0xAA4140)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__COPYANDADJUSTUV2FROMMESH_OFFSET UNITYSDK_OFFSET(0xAA4260)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__COPYANDADJUSTUVSFROMMESH_OFFSET UNITYSDK_OFFSET(0xAA4250)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__LOCALTOWORLDMATRIX_TRS_OFFSET UNITYSDK_OFFSET(0x1F435880)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__LOCALTOWORLD_OFFSET UNITYSDK_OFFSET(0xAA42A0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__LOCALTOWORLD_TRS_OFFSET UNITYSDK_OFFSET(0x1F435ED0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__LOCALTOWORLD_TR_OFFSET UNITYSDK_OFFSET(0x1F435340)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__NUMNONZEROLENGTHSUBMESHTRIS_OFFSET UNITYSDK_OFFSET(0x1F434B00)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ADJUSTVERTSTOWRITEACCORDINGTOPIVOTPOSITIONIFNECESSARY_OFFSET UNITYSDK_OFFSET(0x98A910)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ASSIGNBUFFERSTOMESH_OFFSET UNITYSDK_OFFSET(0x98A8F0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ASSIGNTRIANGLEDATAFORSUBMESHES_OFFSET UNITYSDK_OFFSET(0x98A900)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ASSIGNTRIANGLEDATAFORSUBMESHES_SHOWHIDE_OFFSET UNITYSDK_OFFSET(0x98A900)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_COPYARRAYSFROMPREVIOUSBAKEBUFFERSTONEWBUFFERS_OFFSET UNITYSDK_OFFSET(0x98A870)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_COPYFROMDGOMESHTOBUFFERS_OFFSET UNITYSDK_OFFSET(0x98A880)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_COPYUV2UNCHANGEDTOSEPARATERECTS_OFFSET UNITYSDK_OFFSET(0x98A970)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x98A750)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GETSUBMESHCOUNT_OFFSET UNITYSDK_OFFSET(0x98A820)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GETSUBMESHTRISWITHSHOWHIDEAPPLIED_OFFSET UNITYSDK_OFFSET(0x98A980)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GETTRIANGLESIZES_OFFSET UNITYSDK_OFFSET(0x98A990)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GETVERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x98A800)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GET_CHANNELS_OFFSET UNITYSDK_OFFSET(0x363D60)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_INITFROMMESHCOMBINER_OFFSET UNITYSDK_OFFSET(0x98A7F0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_INITSHOWHIDE_OFFSET UNITYSDK_OFFSET(0x98A7C0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_INIT_OFFSET UNITYSDK_OFFSET(0x98A790)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x3583D0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ISINITIALIZED_OFFSET UNITYSDK_OFFSET(0x43DB70)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_SET_CHANNELS_OFFSET UNITYSDK_OFFSET(0x3A45D0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_TRANSFEROWNERSHIPOFSERIALIZABLEBUFFERSTOCOMBINER_OFFSET UNITYSDK_OFFSET(0x98A840)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__COPYANDADJUSTUV2FROMMESH_OFFSET UNITYSDK_OFFSET(0x98A960)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__COPYANDADJUSTUVSFROMMESH_OFFSET UNITYSDK_OFFSET(0x98A950)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__LOCALTOWORLDMATRIX_TRS_OFFSET UNITYSDK_OFFSET(0x1F831270)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__LOCALTOWORLD_OFFSET UNITYSDK_OFFSET(0x98A9A0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__LOCALTOWORLD_TRS_OFFSET UNITYSDK_OFFSET(0x1F8318C0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__LOCALTOWORLD_TR_OFFSET UNITYSDK_OFFSET(0x1F830D30)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__NUMNONZEROLENGTHSUBMESHTRIS_OFFSET UNITYSDK_OFFSET(0x1F8304F0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombinerSingle_VertexAndTriangleProcessor_TypeDefinitionIndex = 94579;
+	inline static constexpr unsigned int MB3_MeshCombinerSingle_VertexAndTriangleProcessor_TypeDefinitionIndex = 96266;
 
 	struct alignas(8) MB3_MeshCombinerSingle_VertexAndTriangleProcessor
 	{
 		::System::Boolean _disposed; // 0x10
 		::System::Boolean _isInitialized; // 0x11
+		::System::Byte _padding0[0x2];
 		::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL; // 0x14
 		::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags _channels_k__BackingField; // 0x18
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::UnityEngine::Vector3>* verticies; // 0x20
 		::Il2CppArray<::UnityEngine::Vector3>* normals; // 0x28
 		::Il2CppArray<::UnityEngine::Vector4>* tangents; // 0x30
@@ -76,7 +81,7 @@ namespace DigitalOpus::MB::Core
 		::Il2CppArray<::UnityEngine::Vector2>* uv6s; // 0x70
 		::Il2CppArray<::UnityEngine::Vector2>* uv7s; // 0x78
 		::Il2CppArray<::UnityEngine::Vector2>* uv8s; // 0x80
-		::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_SerializableIntArray*>* submeshTris; // 0x88
+		::Il2CppArray<::System::Object*>* submeshTris; // 0x88
 
 		::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags get_channels()
 		{
@@ -128,12 +133,10 @@ namespace DigitalOpus::MB::Core
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GETSUBMESHCOUNT_OFFSET))(this);
 		}
 
-		/*
 		::System::Void TransferOwnershipOfSerializableBuffersToCombiner(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle* c, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags channelsToTransfer, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake serializableBufferData)
 		{
 			return ((::System::Void(*)(::PVOID, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle*, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_TRANSFEROWNERSHIPOFSERIALIZABLEBUFFERSTOCOMBINER_OFFSET))(this, c, channelsToTransfer, serializableBufferData);
 		}
-		*/
 
 		::System::Void CopyArraysFromPreviousBakeBuffersToNewBuffers(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject* dgo, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_IVertexAndTriangleProcessor*& iOldBuffers, ::System::Int32 destStartVertIdx, ::System::Int32 triangleIdxAdjustment, ::Il2CppArray<::System::Int32>* targSubmeshTidx, ::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL)
 		{
@@ -145,37 +148,29 @@ namespace DigitalOpus::MB::Core
 			return ((::System::Void(*)(::PVOID, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*, ::System::Int32, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags, ::System::Boolean, ::System::Boolean, ::DigitalOpus::MB::Core::MB_IMeshBakerSettings*, ::DigitalOpus::MB::Core::MB_IMeshCombinerSingle_BoneProcessor*, ::Il2CppArray<::System::Int32>*, ::MB2_TextureBakeResults*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_UVAdjuster_Atlas*, ::DigitalOpus::MB::Core::MB2_LogLevel, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_IMeshChannelsCacheTaggingInterface*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_COPYFROMDGOMESHTOBUFFERS_OFFSET))(this, dgo, destStartVertsIdx, channelsToUpdate, updateTris, updateBWdata, settings, boneProcessor, targSubmeshTidx, textureBakeResults, uvAdjuster, LOG_LEVEL, meshChannelCacheParam);
 		}
 
-		/*
-		::System::Void AssignBuffersToMesh(::UnityEngine::Mesh* mesh, ::DigitalOpus::MB::Core::MB_IMeshBakerSettings* settings, ::MB2_TextureBakeResults* textureBakeResults, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags channelsToWriteToMesh, ::System::Boolean doWriteTrisToMesh, ::DigitalOpus::MB::Core::IAssignToMeshCustomizer* assignToMeshCustomizer, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>* mbDynamicObjectsInCombinedMesh, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake& serializableBufferData, ::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_SerializableIntArray*>*& submeshTrisToUse, ::System::Int32& numNonZeroLengthSubmeshes)
+		::System::Void AssignBuffersToMesh(::UnityEngine::Mesh* mesh, ::DigitalOpus::MB::Core::MB_IMeshBakerSettings* settings, ::MB2_TextureBakeResults* textureBakeResults, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags channelsToWriteToMesh, ::System::Boolean doWriteTrisToMesh, ::DigitalOpus::MB::Core::IAssignToMeshCustomizer* assignToMeshCustomizer, ::System::Collections::Generic::List_1<::System::Object*>* mbDynamicObjectsInCombinedMesh, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake& serializableBufferData, ::Il2CppArray<::System::Object*>*& submeshTrisToUse, ::System::Int32& numNonZeroLengthSubmeshes)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::DigitalOpus::MB::Core::MB_IMeshBakerSettings*, ::MB2_TextureBakeResults*, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags, ::System::Boolean, ::DigitalOpus::MB::Core::IAssignToMeshCustomizer*, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake&, ::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_SerializableIntArray*>*&, ::System::Int32&))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ASSIGNBUFFERSTOMESH_OFFSET))(this, mesh, settings, textureBakeResults, channelsToWriteToMesh, doWriteTrisToMesh, assignToMeshCustomizer, mbDynamicObjectsInCombinedMesh, serializableBufferData, submeshTrisToUse, numNonZeroLengthSubmeshes);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::DigitalOpus::MB::Core::MB_IMeshBakerSettings*, ::MB2_TextureBakeResults*, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags, ::System::Boolean, ::DigitalOpus::MB::Core::IAssignToMeshCustomizer*, ::System::Collections::Generic::List_1<::System::Object*>*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake&, ::Il2CppArray<::System::Object*>*&, ::System::Int32&))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ASSIGNBUFFERSTOMESH_OFFSET))(this, mesh, settings, textureBakeResults, channelsToWriteToMesh, doWriteTrisToMesh, assignToMeshCustomizer, mbDynamicObjectsInCombinedMesh, serializableBufferData, submeshTrisToUse, numNonZeroLengthSubmeshes);
 		}
-		*/
 
-		/*
-		::System::Void AssignTriangleDataForSubmeshes(::UnityEngine::Mesh* mesh, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>* mbDynamicObjectsInCombinedMesh, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake& serializableBufferData, ::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_SerializableIntArray*>*& submeshTrisToUse, ::System::Int32& numNonZeroLengthSubmeshes)
+		::System::Void AssignTriangleDataForSubmeshes(::UnityEngine::Mesh* mesh, ::System::Collections::Generic::List_1<::System::Object*>* mbDynamicObjectsInCombinedMesh, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake& serializableBufferData, ::Il2CppArray<::System::Object*>*& submeshTrisToUse, ::System::Int32& numNonZeroLengthSubmeshes)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake&, ::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_SerializableIntArray*>*&, ::System::Int32&))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ASSIGNTRIANGLEDATAFORSUBMESHES_OFFSET))(this, mesh, mbDynamicObjectsInCombinedMesh, serializableBufferData, submeshTrisToUse, numNonZeroLengthSubmeshes);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Collections::Generic::List_1<::System::Object*>*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake&, ::Il2CppArray<::System::Object*>*&, ::System::Int32&))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ASSIGNTRIANGLEDATAFORSUBMESHES_OFFSET))(this, mesh, mbDynamicObjectsInCombinedMesh, serializableBufferData, submeshTrisToUse, numNonZeroLengthSubmeshes);
 		}
-		*/
 
-		/*
-		::System::Void AssignTriangleDataForSubmeshes_ShowHide(::UnityEngine::Mesh* mesh, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>* mbDynamicObjectsInCombinedMesh, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake& serializableBufferData, ::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_SerializableIntArray*>*& submeshTrisToUse, ::System::Int32& numNonZeroLengthSubmeshes)
+		::System::Void AssignTriangleDataForSubmeshes_ShowHide(::UnityEngine::Mesh* mesh, ::System::Collections::Generic::List_1<::System::Object*>* mbDynamicObjectsInCombinedMesh, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake& serializableBufferData, ::Il2CppArray<::System::Object*>*& submeshTrisToUse, ::System::Int32& numNonZeroLengthSubmeshes)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake&, ::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_SerializableIntArray*>*&, ::System::Int32&))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ASSIGNTRIANGLEDATAFORSUBMESHES_SHOWHIDE_OFFSET))(this, mesh, mbDynamicObjectsInCombinedMesh, serializableBufferData, submeshTrisToUse, numNonZeroLengthSubmeshes);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Collections::Generic::List_1<::System::Object*>*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake&, ::Il2CppArray<::System::Object*>*&, ::System::Int32&))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ASSIGNTRIANGLEDATAFORSUBMESHES_SHOWHIDE_OFFSET))(this, mesh, mbDynamicObjectsInCombinedMesh, serializableBufferData, submeshTrisToUse, numNonZeroLengthSubmeshes);
 		}
-		*/
 
-		/*
 		::System::Void AdjustVertsToWriteAccordingToPivotPositionIfNecessary(::DigitalOpus::MB::Core::MB_MeshPivotLocation pivotLocationType, ::DigitalOpus::MB::Core::MB_RenderType renderType, ::System::Boolean clearBuffersAfterBake, ::UnityEngine::Vector3 pivotLocation_wld, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake& serializableBufferData, ::Il2CppArray<::UnityEngine::Vector3>*& verts2Write)
 		{
 			return ((::System::Void(*)(::PVOID, ::DigitalOpus::MB::Core::MB_MeshPivotLocation, ::DigitalOpus::MB::Core::MB_RenderType, ::System::Boolean, ::UnityEngine::Vector3, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_BufferDataFromPreviousBake&, ::Il2CppArray<::UnityEngine::Vector3>*&))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_ADJUSTVERTSTOWRITEACCORDINGTOPIVOTPOSITIONIFNECESSARY_OFFSET))(this, pivotLocationType, renderType, clearBuffersAfterBake, pivotLocation_wld, serializableBufferData, verts2Write);
 		}
-		*/
 
-		static ::System::Int32 _NumNonZeroLengthSubmeshTris(::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_SerializableIntArray*>* subTris, ::System::Int32& numIndexes)
+		static ::System::Int32 _NumNonZeroLengthSubmeshTris(::Il2CppArray<::System::Object*>* subTris, ::System::Int32& numIndexes)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_SerializableIntArray*>*, ::System::Int32&))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__NUMNONZEROLENGTHSUBMESHTRIS_OFFSET))(subTris, numIndexes);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Object*>*, ::System::Int32&))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__NUMNONZEROLENGTHSUBMESHTRIS_OFFSET))(subTris, numIndexes);
 		}
 
 		::System::Void _copyAndAdjustUVsFromMesh(::MB2_TextureBakeResults* tbr, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject* dgo, ::UnityEngine::Mesh* mesh, ::System::Int32 uvChannel, ::System::Int32 vertsIdx, ::Il2CppArray<::UnityEngine::Vector2>* uvsOut, ::Il2CppArray<::System::Single>* uvsSliceIdx, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MeshChannelsCache* meshChannelsCache, ::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL, ::MB2_TextureBakeResults* textureBakeResults)
@@ -188,14 +183,14 @@ namespace DigitalOpus::MB::Core
 			return ((::System::Void(*)(::PVOID, ::DigitalOpus::MB::Core::MB_IMeshBakerSettings*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MeshChannelsCache*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*, ::System::Int32, ::DigitalOpus::MB::Core::MB2_LogLevel))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__COPYANDADJUSTUV2FROMMESH_OFFSET))(this, settings, meshChannelsCache, dgo, vertsIdx, LOG_LEVEL);
 		}
 
-		::System::Void CopyUV2unchangedToSeparateRects(::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>* mbDynamicObjectsInCombinedMesh, ::System::Single uv2UnwrappingParamsPackMargin)
+		::System::Void CopyUV2unchangedToSeparateRects(::System::Collections::Generic::List_1<::System::Object*>* mbDynamicObjectsInCombinedMesh, ::System::Single uv2UnwrappingParamsPackMargin)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>*, ::System::Single))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_COPYUV2UNCHANGEDTOSEPARATERECTS_OFFSET))(this, mbDynamicObjectsInCombinedMesh, uv2UnwrappingParamsPackMargin);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Single))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_COPYUV2UNCHANGEDTOSEPARATERECTS_OFFSET))(this, mbDynamicObjectsInCombinedMesh, uv2UnwrappingParamsPackMargin);
 		}
 
-		::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_SerializableIntArray*>* GetSubmeshTrisWithShowHideApplied(::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>* mbDynamicObjectsInCombinedMesh)
+		::Il2CppArray<::System::Object*>* GetSubmeshTrisWithShowHideApplied(::System::Collections::Generic::List_1<::System::Object*>* mbDynamicObjectsInCombinedMesh)
 		{
-			return ((::Il2CppArray<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_SerializableIntArray*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GETSUBMESHTRISWITHSHOWHIDEAPPLIED_OFFSET))(this, mbDynamicObjectsInCombinedMesh);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR_GETSUBMESHTRISWITHSHOWHIDEAPPLIED_OFFSET))(this, mbDynamicObjectsInCombinedMesh);
 		}
 
 		::Il2CppArray<::System::Int32>* GetTriangleSizes()
@@ -208,25 +203,19 @@ namespace DigitalOpus::MB::Core
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean, ::System::Boolean, ::System::Int32, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector4>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__LOCALTOWORLD_OFFSET))(this, t, doNorm, doTan, destStartVertsIdx, dgoMeshVerts, dgoMeshNorms, dgoMeshTans, verticies, normals, tangents);
 		}
 
-		/*
 		static ::System::Void _LocalToWorldMatrix_TRS(::UnityEngine::Matrix4x4& wld_X_local, ::System::Boolean doNorm, ::System::Boolean doTan, ::System::Int32 destStartVertsIdx, ::Il2CppArray<::UnityEngine::Vector3>* dgoMeshVerts, ::Il2CppArray<::UnityEngine::Vector3>* dgoMeshNorms, ::Il2CppArray<::UnityEngine::Vector4>* dgoMeshTans, ::Il2CppArray<::UnityEngine::Vector3>* verticies, ::Il2CppArray<::UnityEngine::Vector3>* normals, ::Il2CppArray<::UnityEngine::Vector4>* tangents)
 		{
 			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Boolean, ::System::Boolean, ::System::Int32, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector4>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__LOCALTOWORLDMATRIX_TRS_OFFSET))(wld_X_local, doNorm, doTan, destStartVertsIdx, dgoMeshVerts, dgoMeshNorms, dgoMeshTans, verticies, normals, tangents);
 		}
-		*/
 
-		/*
 		static ::System::Void _LocalToWorld_TR(::UnityEngine::Quaternion wld_Rot_local, ::UnityEngine::Vector3 position_wld, ::System::Boolean doNorm, ::System::Boolean doTan, ::System::Int32 destStartVertsIdx, ::Il2CppArray<::UnityEngine::Vector3>* dgoMeshVerts_local, ::Il2CppArray<::UnityEngine::Vector3>* dgoMeshNorms_local, ::Il2CppArray<::UnityEngine::Vector4>* dgoMeshTans_local, ::Il2CppArray<::UnityEngine::Vector3>* verticies, ::Il2CppArray<::UnityEngine::Vector3>* normals, ::Il2CppArray<::UnityEngine::Vector4>* tangents)
 		{
 			return ((::System::Void(*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::System::Boolean, ::System::Boolean, ::System::Int32, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector4>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__LOCALTOWORLD_TR_OFFSET))(wld_Rot_local, position_wld, doNorm, doTan, destStartVertsIdx, dgoMeshVerts_local, dgoMeshNorms_local, dgoMeshTans_local, verticies, normals, tangents);
 		}
-		*/
 
-		/*
 		static ::System::Void _LocalToWorld_TRS(::UnityEngine::Quaternion wld_Rot_local, ::UnityEngine::Vector3 position_wld, ::UnityEngine::Vector3 scale, ::System::Boolean doNorm, ::System::Boolean doTan, ::System::Int32 destStartVertsIdx, ::Il2CppArray<::UnityEngine::Vector3>* dgoMeshVerts_local, ::Il2CppArray<::UnityEngine::Vector3>* dgoMeshNorms_local, ::Il2CppArray<::UnityEngine::Vector4>* dgoMeshTans_local, ::Il2CppArray<::UnityEngine::Vector3>* verticies, ::Il2CppArray<::UnityEngine::Vector3>* normals, ::Il2CppArray<::UnityEngine::Vector4>* tangents)
 		{
 			return ((::System::Void(*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Boolean, ::System::Boolean, ::System::Int32, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector4>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_VERTEXANDTRIANGLEPROCESSOR__LOCALTOWORLD_TRS_OFFSET))(wld_Rot_local, position_wld, scale, doNorm, doTan, destStartVertsIdx, dgoMeshVerts_local, dgoMeshNorms_local, dgoMeshTans_local, verticies, normals, tangents);
 		}
-		*/
 	};
 }

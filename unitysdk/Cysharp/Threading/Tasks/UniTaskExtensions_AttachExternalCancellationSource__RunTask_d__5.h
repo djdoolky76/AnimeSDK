@@ -8,19 +8,20 @@
 namespace Cysharp::Threading::Tasks { class UniTaskExtensions_AttachExternalCancellationSource; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE__RUNTASK_D__5_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xAC9700)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE__RUNTASK_D__5_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE__RUNTASK_D__5_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x9AFD00)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_ATTACHEXTERNALCANCELLATIONSOURCE__RUNTASK_D__5_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions_AttachExternalCancellationSource__RunTask_d__5_TypeDefinitionIndex = 31912;
+	inline static constexpr unsigned int UniTaskExtensions_AttachExternalCancellationSource__RunTask_d__5_TypeDefinitionIndex = 31359;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	struct alignas(8) UniTaskExtensions_AttachExternalCancellationSource__RunTask_d__5
 	{
 		::Cysharp::Threading::Tasks::UniTask task; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x20
+		::Cysharp::Threading::Tasks::UniTaskExtensions_AttachExternalCancellationSource* __4__this; // 0x20
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
-		::Cysharp::Threading::Tasks::UniTaskExtensions_AttachExternalCancellationSource* __4__this; // 0x38
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x38
 		::System::Int32 __1__state; // 0x40
 
 		::System::Void MoveNext()

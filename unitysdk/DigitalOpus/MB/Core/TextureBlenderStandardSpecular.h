@@ -9,49 +9,50 @@ namespace DigitalOpus::MB::Core { class TextureBlenderMaterialPropertyCacheHelpe
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR_DOESSHADERNAMEMATCH_OFFSET UNITYSDK_OFFSET(0x1F7AD830)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR_GETCOLORIFNOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F7AEF60)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR_NONTEXTUREPROPERTIESAREEQUAL_OFFSET UNITYSDK_OFFSET(0x1F7AE090)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR_ONBEFORETINTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F7AD8C0)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR_ONBLENDTEXTUREPIXEL_OFFSET UNITYSDK_OFFSET(0x1F7ADEF0)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR_SETNONTEXTUREPROPERTYVALUESONRESULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F7AE690)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7AFA30)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7AF900)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR_DOESSHADERNAMEMATCH_OFFSET UNITYSDK_OFFSET(0x1FBBEBA0)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR_GETCOLORIFNOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1FBC02E0)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR_NONTEXTUREPROPERTIESAREEQUAL_OFFSET UNITYSDK_OFFSET(0x1FBBF400)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR_ONBEFORETINTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1FBBEC30)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR_ONBLENDTEXTUREPIXEL_OFFSET UNITYSDK_OFFSET(0x1FBBF260)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR_SETNONTEXTUREPROPERTYVALUESONRESULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1FBBFA00)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBC0DE0)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERSTANDARDSPECULAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBC0C90)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int TextureBlenderStandardSpecular_TypeDefinitionIndex = 94521;
+	inline static constexpr unsigned int TextureBlenderStandardSpecular_TypeDefinitionIndex = 96208;
 
 	class TextureBlenderStandardSpecular : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Color* StaticGet_NeutralNormalMap()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(TextureBlenderStandardSpecular_TypeDefinitionIndex)->GetStaticField(0x132E0);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(TextureBlenderStandardSpecular_TypeDefinitionIndex)->GetStaticField(0x14100);
 		}
 		// static const ::System::Single m_generatedAlphaCutoff; // 0x0
 		::DigitalOpus::MB::Core::TextureBlenderMaterialPropertyCacheHelper* sourceMaterialPropertyCache; // 0x10
-		::UnityEngine::Color m_notGeneratingAtlasDefaultSpecularColor; // 0x18
-		::UnityEngine::Color m_generatingTintedAtlaEmission; // 0x28
-		::UnityEngine::Color m_specColor; // 0x38
+		::System::Single m_SpecGlossMapScale; // 0x18
+		::System::Single m_alphaCutoff; // 0x1C
+		::System::Single m_notGeneratingAtlasDefaultGlossiness; // 0x20
+		::UnityEngine::Color m_notGeneratingAtlasDefaultEmisionColor; // 0x24
+		::System::Single m_generatingTintedAtlaSpecGlossMapScale; // 0x34
+		::UnityEngine::Color m_generatingTintedAtlaSpecular; // 0x38
 		::System::Single m_glossiness; // 0x48
-		::System::Single m_generatingTintedAtlaGlossiness; // 0x4C
-		::System::Single m_generatingTintedAtlaBumpScale; // 0x50
-		::System::Single m_notGeneratingAtlasDefaultGlossiness; // 0x54
-		::System::Boolean m_hasSpecGlossMap; // 0x58
-		::System::Boolean m_doScaleAlphaCutoff; // 0x59
-		::System::Boolean m_shaderDoesEmission; // 0x5A
-		::UnityEngine::Color m_generatingTintedAtlaSpecular; // 0x5C
-		::System::Single m_bumpScale; // 0x6C
-		::DigitalOpus::MB::Core::TextureBlenderStandardSpecular_Prop propertyToDo; // 0x70
-		::System::Single m_generatingTintedAtlaSpecGlossMapScale; // 0x74
-		::UnityEngine::Color m_notGeneratingAtlasDefaultColor; // 0x78
-		::System::Single m_SpecGlossMapScale; // 0x88
-		::System::Single m_alphaCutoff; // 0x8C
-		::UnityEngine::Color m_generatingTintedAtlaColor; // 0x90
-		::UnityEngine::Color m_notGeneratingAtlasDefaultEmisionColor; // 0xA0
-		::UnityEngine::Color m_emissionColor; // 0xB0
-		::UnityEngine::Color m_tintColor; // 0xC0
+		::DigitalOpus::MB::Core::TextureBlenderStandardSpecular_Prop propertyToDo; // 0x4C
+		::System::Boolean m_shaderDoesEmission; // 0x50
+		::System::Boolean m_doScaleAlphaCutoff; // 0x51
+		::System::Boolean m_hasSpecGlossMap; // 0x52
+		::System::Byte _padding0[0x1];
+		::UnityEngine::Color m_emissionColor; // 0x54
+		::UnityEngine::Color m_generatingTintedAtlaColor; // 0x64
+		::UnityEngine::Color m_tintColor; // 0x74
+		::UnityEngine::Color m_generatingTintedAtlaEmission; // 0x84
+		::UnityEngine::Color m_notGeneratingAtlasDefaultColor; // 0x94
+		::UnityEngine::Color m_notGeneratingAtlasDefaultSpecularColor; // 0xA4
+		::System::Single m_generatingTintedAtlaGlossiness; // 0xB4
+		::UnityEngine::Color m_specColor; // 0xB8
+		::System::Single m_generatingTintedAtlaBumpScale; // 0xC8
+		::System::Single m_bumpScale; // 0xCC
 
 		::System::Void _ctor()
 		{

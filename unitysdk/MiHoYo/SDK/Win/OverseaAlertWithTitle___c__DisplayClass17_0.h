@@ -5,19 +5,19 @@
 namespace MiHoYo::SDK::Win { class OverseaAlertWithTitle; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7880C0)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE___C__DISPLAYCLASS17_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1D7880D0)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEDCBE0)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE___C__DISPLAYCLASS17_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1DEDCBF0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaAlertWithTitle___c__DisplayClass17_0_TypeDefinitionIndex = 21400;
+	inline static constexpr unsigned int OverseaAlertWithTitle___c__DisplayClass17_0_TypeDefinitionIndex = 20604;
 
 	class OverseaAlertWithTitle___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
 		::System::String* content; // 0x10
-		::System::String* title; // 0x18
-		::System::String* confirmButtonText; // 0x20
+		::System::String* confirmButtonText; // 0x18
+		::System::String* title; // 0x20
 
 		::System::Void _ctor()
 		{

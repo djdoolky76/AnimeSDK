@@ -5,15 +5,15 @@
 namespace FluffyUnderware::Curvy { class CurvyUISpline; }
 namespace UnityEngine { class RectTransform; }
 
-#define UNITYENGINE_UI_UIFLOWPATH_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1C151300)
-#define UNITYENGINE_UI_UIFLOWPATH_START_OFFSET UNITYSDK_OFFSET(0x1C150B40)
-#define UNITYENGINE_UI_UIFLOWPATH_UPDATEPOSITION_OFFSET UNITYSDK_OFFSET(0x1C150C80)
-#define UNITYENGINE_UI_UIFLOWPATH_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C150C10)
-#define UNITYENGINE_UI_UIFLOWPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1C151540)
+#define UNITYENGINE_UI_UIFLOWPATH_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1CB74E20)
+#define UNITYENGINE_UI_UIFLOWPATH_START_OFFSET UNITYSDK_OFFSET(0x1CB74660)
+#define UNITYENGINE_UI_UIFLOWPATH_UPDATEPOSITION_OFFSET UNITYSDK_OFFSET(0x1CB747A0)
+#define UNITYENGINE_UI_UIFLOWPATH_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CB74730)
+#define UNITYENGINE_UI_UIFLOWPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB75060)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int UIFlowPath_TypeDefinitionIndex = 90187;
+	inline static constexpr unsigned int UIFlowPath_TypeDefinitionIndex = 85959;
 
 	class UIFlowPath : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,6 +23,7 @@ namespace UnityEngine::UI
 		::System::Single progress; // 0x28
 		::System::Boolean updateRotation; // 0x2C
 		::System::Boolean enableSinWave; // 0x2D
+		::System::Byte _padding0[0x2];
 		::System::Single sinAmplitude; // 0x30
 		::System::Single sinFrequency; // 0x34
 		::System::Single _lastProgress; // 0x38

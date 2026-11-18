@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int StackTrace_TraceFormat_TypeDefinitionIndex = 1564;
+	inline static constexpr unsigned int StackTrace_TraceFormat_TypeDefinitionIndex = 1563;
 
 	enum class StackTrace_TraceFormat : ::System::Int32
 	{

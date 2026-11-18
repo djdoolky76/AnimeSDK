@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_84861DFCE46AC3BE.h"
+#include "unitysdk/AOIEABGMPAM.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIDataAdjustOuterRenderWidgetController; }
 
-#define MOLEMOLE_UIDATAADJUSTOUTERRENDERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA8E20)
-#define MOLEMOLE_UIDATAADJUSTOUTERRENDERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__ONWIN_B__0_OFFSET UNITYSDK_OFFSET(0x19AA8E30)
-#define MOLEMOLE_UIDATAADJUSTOUTERRENDERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__ONWIN_B__1_OFFSET UNITYSDK_OFFSET(0x19AA8E70)
+#define MOLEMOLE_UIDATAADJUSTOUTERRENDERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFEA7C0)
+#define MOLEMOLE_UIDATAADJUSTOUTERRENDERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__ONWIN_B__0_OFFSET UNITYSDK_OFFSET(0x1AFEA7D0)
+#define MOLEMOLE_UIDATAADJUSTOUTERRENDERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__ONWIN_B__1_OFFSET UNITYSDK_OFFSET(0x1AFEA810)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDataAdjustOuterRenderWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 83558;
+	inline static constexpr unsigned int UIDataAdjustOuterRenderWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 63943;
 
 	class UIDataAdjustOuterRenderWidgetController___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIDataAdjustOuterRenderWidgetController* __4__this; // 0x10
-		::Enum_3_84861DFCE46AC3BE result; // 0x18
+		::AOIEABGMPAM result; // 0x18
 
 		::System::Void _ctor()
 		{

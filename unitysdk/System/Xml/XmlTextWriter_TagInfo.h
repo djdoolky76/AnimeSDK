@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/System/Xml/XmlSpace.h"
 #include "unitysdk/System/Xml/XmlTextWriter_NamespaceState.h"
+#include "unitysdk/System/ValueType.h"
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLTEXTWRITER_TAGINFO_INIT_OFFSET UNITYSDK_OFFSET(0xA8C7C0)
+#define SYSTEM_XML_XMLTEXTWRITER_TAGINFO_INIT_OFFSET UNITYSDK_OFFSET(0x972360)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextWriter_TagInfo_TypeDefinitionIndex = 1732;
+	inline static constexpr unsigned int XmlTextWriter_TagInfo_TypeDefinitionIndex = 1731;
 
 	struct alignas(8) XmlTextWriter_TagInfo
 	{

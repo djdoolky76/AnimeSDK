@@ -3,7 +3,7 @@
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int SmtpClient_AuthMechs_TypeDefinitionIndex = 3594;
+	inline static constexpr unsigned int SmtpClient_AuthMechs_TypeDefinitionIndex = 3593;
 
 	enum class SmtpClient_AuthMechs : ::System::Int32
 	{

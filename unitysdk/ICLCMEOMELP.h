@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NDEHNKGKACK.h"
+#include "unitysdk/JPDHILFCILB.h"
+
+namespace System { class String; }
+namespace System::Text { class StringBuilder; }
+
+#define ICLCMEOMELP_EABOMFFPHEI_OFFSET UNITYSDK_OFFSET(0x16F58DC0)
+#define ICLCMEOMELP_EAHAHGEDJND_OFFSET UNITYSDK_OFFSET(0x16F58BB0)
+#define ICLCMEOMELP_HIHLFOODCOD_OFFSET UNITYSDK_OFFSET(0x16F59010)
+#define ICLCMEOMELP_NFKMPCKMAAN_OFFSET UNITYSDK_OFFSET(0x16F59610)
+#define ICLCMEOMELP_OHHOAEBHHDI_OFFSET UNITYSDK_OFFSET(0x16F58B70)
+#define ICLCMEOMELP__CTOR_OFFSET UNITYSDK_OFFSET(0x16F58FD0)
+
+inline static constexpr unsigned int ICLCMEOMELP_TypeDefinitionIndex = 64948;
+
+class ICLCMEOMELP : public ::NDEHNKGKACK
+{
+public:
+	::Il2CppArray<::System::Int32>* BNMNDKJFMGK; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ICLCMEOMELP__CTOR_OFFSET))(this);
+	}
+
+	::System::String* OHHOAEBHHDI()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ICLCMEOMELP_OHHOAEBHHDI_OFFSET))(this);
+	}
+
+	::JPDHILFCILB EAHAHGEDJND(::JPDHILFCILB PPKCIIOEIJI, ::JPDHILFCILB LGEMJIABMPO)
+	{
+		return ((::JPDHILFCILB(*)(::PVOID, ::JPDHILFCILB, ::JPDHILFCILB))((::PBYTE)hIl2Cpp + ICLCMEOMELP_EAHAHGEDJND_OFFSET))(this, PPKCIIOEIJI, LGEMJIABMPO);
+	}
+
+	::JPDHILFCILB EABOMFFPHEI(::JPDHILFCILB PPKCIIOEIJI, ::JPDHILFCILB LGEMJIABMPO)
+	{
+		return ((::JPDHILFCILB(*)(::PVOID, ::JPDHILFCILB, ::JPDHILFCILB))((::PBYTE)hIl2Cpp + ICLCMEOMELP_EABOMFFPHEI_OFFSET))(this, PPKCIIOEIJI, LGEMJIABMPO);
+	}
+
+	::System::Void HIHLFOODCOD(::System::Double HFAFFNLNAJE, ::System::Text::StringBuilder* CKGGMNHMKDB)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ICLCMEOMELP_HIHLFOODCOD_OFFSET))(this, HFAFFNLNAJE, CKGGMNHMKDB);
+	}
+
+	::System::Int32 NFKMPCKMAAN(::System::Int32 HFAFFNLNAJE)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ICLCMEOMELP_NFKMPCKMAAN_OFFSET))(this, HFAFFNLNAJE);
+	}
+};

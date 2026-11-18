@@ -5,12 +5,12 @@
 namespace UnityEngine::Timeline { class EventTriggerMarker; }
 namespace UnityEngine::Timeline { class ImgSplitScreenGroupBehavior; }
 
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F995DA0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR___C__DISPLAYCLASS23_0__PROCESSFRAME_B__2_OFFSET UNITYSDK_OFFSET(0x1F995DB0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD8FAE0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR___C__DISPLAYCLASS23_0__PROCESSFRAME_B__2_OFFSET UNITYSDK_OFFSET(0x1FD8FAF0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImgSplitScreenGroupBehavior___c__DisplayClass23_0_TypeDefinitionIndex = 32976;
+	inline static constexpr unsigned int ImgSplitScreenGroupBehavior___c__DisplayClass23_0_TypeDefinitionIndex = 32431;
 
 	class ImgSplitScreenGroupBehavior___c__DisplayClass23_0 : public ::System::Object
 	{

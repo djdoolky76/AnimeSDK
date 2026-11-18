@@ -10,13 +10,13 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class SpriteRenderer; }
 
-#define MOLEMOLE_ARCADE_SNAKEDEMO_SNAKESURFACE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F010D50)
-#define MOLEMOLE_ARCADE_SNAKEDEMO_SNAKESURFACE_SETPLAYER_OFFSET UNITYSDK_OFFSET(0x1F010CF0)
-#define MOLEMOLE_ARCADE_SNAKEDEMO_SNAKESURFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F010FF0)
+#define MOLEMOLE_ARCADE_SNAKEDEMO_SNAKESURFACE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F529170)
+#define MOLEMOLE_ARCADE_SNAKEDEMO_SNAKESURFACE_SETPLAYER_OFFSET UNITYSDK_OFFSET(0x1F529110)
+#define MOLEMOLE_ARCADE_SNAKEDEMO_SNAKESURFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F529410)
 
 namespace MoleMole::Arcade::SnakeDemo
 {
-	inline static constexpr unsigned int SnakeSurface_TypeDefinitionIndex = 94890;
+	inline static constexpr unsigned int SnakeSurface_TypeDefinitionIndex = 96624;
 
 	class SnakeSurface : public ::UnityEngine::MonoBehaviour
 	{
@@ -28,6 +28,7 @@ namespace MoleMole::Arcade::SnakeDemo
 		::System::Int32 vibrato; // 0x38
 		::System::Single randomness; // 0x3C
 		::System::Boolean fadeOut; // 0x40
+		::System::Byte _padding0[0x7];
 		::UnityEngine::MeshRenderer* snakeMaskMeshRenderer; // 0x48
 		::UnityEngine::MeshFilter* snakeMaskMeshFilter; // 0x50
 		::UnityEngine::Material* SpeedUpMat; // 0x58
@@ -46,9 +47,9 @@ namespace MoleMole::Arcade::SnakeDemo
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_SNAKEDEMO_SNAKESURFACE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetPlayer(::System::Boolean a1)
+		::System::Void SetPlayer(::System::Boolean DELNPKGDPIM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_SNAKEDEMO_SNAKESURFACE_SETPLAYER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_SNAKEDEMO_SNAKESURFACE_SETPLAYER_OFFSET))(this, DELNPKGDPIM);
 		}
 
 		::System::Void OnDestroy()

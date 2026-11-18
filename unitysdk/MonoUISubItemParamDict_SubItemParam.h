@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define MONOUISUBITEMPARAMDICT_SUBITEMPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x114A3D40)
+#define MONOUISUBITEMPARAMDICT_SUBITEMPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x13C15E40)
 
-inline static constexpr unsigned int MonoUISubItemParamDict_SubItemParam_TypeDefinitionIndex = 83593;
+inline static constexpr unsigned int MonoUISubItemParamDict_SubItemParam_TypeDefinitionIndex = 91085;
 
 class MonoUISubItemParamDict_SubItemParam : public ::System::Object
 {

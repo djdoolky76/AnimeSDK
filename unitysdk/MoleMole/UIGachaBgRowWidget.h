@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIWidgetController.h"
 
-#define MOLEMOLE_UIGACHABGROWWIDGET_GET_IGNOREFADING_OFFSET UNITYSDK_OFFSET(0x1938EC00)
-#define MOLEMOLE_UIGACHABGROWWIDGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1938EC10)
+#define MOLEMOLE_UIGACHABGROWWIDGET_GET_IGNOREFADING_OFFSET UNITYSDK_OFFSET(0x16EDB110)
+#define MOLEMOLE_UIGACHABGROWWIDGET__CTOR_OFFSET UNITYSDK_OFFSET(0x16EDB120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaBgRowWidget_TypeDefinitionIndex = 65285;
+	inline static constexpr unsigned int UIGachaBgRowWidget_TypeDefinitionIndex = 81957;
 
 	class UIGachaBgRowWidget : public ::MoleMole::UIWidgetController
 	{

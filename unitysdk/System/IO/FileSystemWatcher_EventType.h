@@ -3,7 +3,7 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int FileSystemWatcher_EventType_TypeDefinitionIndex = 3225;
+	inline static constexpr unsigned int FileSystemWatcher_EventType_TypeDefinitionIndex = 3224;
 
 	enum class FileSystemWatcher_EventType : ::System::Int32
 	{

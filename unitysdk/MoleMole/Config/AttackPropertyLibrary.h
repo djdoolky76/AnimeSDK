@@ -8,11 +8,11 @@ namespace MoleMole::Config { class ShakeWrap; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_ATTACKPROPERTYLIBRARY__CTOR_OFFSET UNITYSDK_OFFSET(0x12A4A330)
+#define MOLEMOLE_CONFIG_ATTACKPROPERTYLIBRARY__CTOR_OFFSET UNITYSDK_OFFSET(0x19292440)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AttackPropertyLibrary_TypeDefinitionIndex = 54073;
+	inline static constexpr unsigned int AttackPropertyLibrary_TypeDefinitionIndex = 86526;
 
 	class AttackPropertyLibrary : public ::Foundation::MihoyoSerializedScriptableObject
 	{

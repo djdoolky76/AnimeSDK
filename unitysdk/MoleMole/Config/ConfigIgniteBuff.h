@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGIGNITEBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x134FF0F0)
+#define MOLEMOLE_CONFIG_CONFIGIGNITEBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1B921D30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigIgniteBuff_TypeDefinitionIndex = 75789;
+	inline static constexpr unsigned int ConfigIgniteBuff_TypeDefinitionIndex = 85727;
 
 	class ConfigIgniteBuff : public ::System::Object
 	{

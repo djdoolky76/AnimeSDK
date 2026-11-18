@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/InputSystem/InputRemoting_Message.h"
 
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputRemoting; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWLAYOUTMSG_CREATE_OFFSET UNITYSDK_OFFSET(0x1EAD8B40)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWLAYOUTMSG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1EAD8E20)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWLAYOUTMSG_CREATE_OFFSET UNITYSDK_OFFSET(0x1EE2CDD0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWLAYOUTMSG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1EE2D0B0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_NewLayoutMsg_TypeDefinitionIndex = 32272;
+	inline static constexpr unsigned int InputRemoting_NewLayoutMsg_TypeDefinitionIndex = 31721;
 
 	class InputRemoting_NewLayoutMsg : public ::System::Object
 	{
 	public:
-		static ::System::Nullable_1<::UnityEngine::InputSystem::InputRemoting_Message> Create(::UnityEngine::InputSystem::InputRemoting* sender, ::System::String* layoutName)
+		static ::System::Nullable_1<::System::Object*> Create(::UnityEngine::InputSystem::InputRemoting* sender, ::System::String* layoutName)
 		{
-			return ((::System::Nullable_1<::UnityEngine::InputSystem::InputRemoting_Message>(*)(::UnityEngine::InputSystem::InputRemoting*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWLAYOUTMSG_CREATE_OFFSET))(sender, layoutName);
+			return ((::System::Nullable_1<::System::Object*>(*)(::UnityEngine::InputSystem::InputRemoting*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWLAYOUTMSG_CREATE_OFFSET))(sender, layoutName);
 		}
 
 		static ::System::Void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg)

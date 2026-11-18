@@ -6,11 +6,11 @@ namespace MoleMole::Config { class IWaterFlowGameplayConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWWATERFLOWQTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54E950)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWWATERFLOWQTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2E7C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowWaterFlowQTE_TypeDefinitionIndex = 71637;
+	inline static constexpr unsigned int ConfigHollowWaterFlowQTE_TypeDefinitionIndex = 64143;
 
 	class ConfigHollowWaterFlowQTE : public ::Foundation::MihoyoSerializedScriptableObject
 	{

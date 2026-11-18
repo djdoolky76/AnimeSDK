@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID_PROCESS_OFFSET UNITYSDK_OFFSET(0x138384B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13838340)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID__CTOR_OFFSET UNITYSDK_OFFSET(0x13838BE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x13838C20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID_PROCESS_OFFSET UNITYSDK_OFFSET(0x139DD790)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x139DD620)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID__CTOR_OFFSET UNITYSDK_OFFSET(0x139DDEC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREPLACEAVATARBYOWNEDAVATARTEMPLATEID__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x139DDF00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDReplaceAvatarByOwnedAvatarTemplateID_TypeDefinitionIndex = 61775;
+	inline static constexpr unsigned int LDReplaceAvatarByOwnedAvatarTemplateID_TypeDefinitionIndex = 65752;
 
 	class LDReplaceAvatarByOwnedAvatarTemplateID : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsKeepState; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsMainCityPrefab; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsHideHudBG; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* targetAvatarTemplateID; // 0xB0
 		::FlowCanvas::ValueInput_1<::System::Int32>* ReplaceAvatarTemplateId; // 0xB8
-		::FlowCanvas::FlowOutput* flowOut; // 0xC0
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsHideHudBG; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::Int32>* targetAvatarTemplateID; // 0xD0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsKeepState; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsMainCityPrefab; // 0xC8
+		::FlowCanvas::FlowOutput* flowOut; // 0xD0
 
 		::System::Void _ctor()
 		{

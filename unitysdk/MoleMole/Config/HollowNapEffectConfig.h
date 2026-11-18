@@ -7,11 +7,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_HOLLOWNAPEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16C5ABF0)
+#define MOLEMOLE_CONFIG_HOLLOWNAPEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A046420)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowNapEffectConfig_TypeDefinitionIndex = 57445;
+	inline static constexpr unsigned int HollowNapEffectConfig_TypeDefinitionIndex = 65223;
 
 	class HollowNapEffectConfig : public ::System::Object
 	{

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_742C838C9195275D;
+class JJOKKBDDGNN;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UIRABRESULTBANGBOODATASTATWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F66030)
+#define MOLEMOLE_UIRABRESULTBANGBOODATASTATWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x168EBCD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABResultBangbooDataStatWidgetController_Context_TypeDefinitionIndex = 47663;
+	inline static constexpr unsigned int UIRABResultBangbooDataStatWidgetController_Context_TypeDefinitionIndex = 74581;
 
 	class UIRABResultBangbooDataStatWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_742C838C9195275D* SlotData; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* MaxStats; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* MaxStats; // 0x28
+		::JJOKKBDDGNN* SlotData; // 0x30
 
 		::System::Void _ctor()
 		{

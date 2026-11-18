@@ -6,17 +6,18 @@
 
 namespace NPCCrowd::Ability { class NPCAbility; }
 
-#define STATETREEGAMEPLAY_NPCMOVEMENTCONTEXTSTATE_FLUSHSTARTMOVE_OFFSET UNITYSDK_OFFSET(0x7CE0E0)
-#define STATETREEGAMEPLAY_NPCMOVEMENTCONTEXTSTATE_TRIGGERSTARTMOVE_OFFSET UNITYSDK_OFFSET(0x7CE050)
+#define STATETREEGAMEPLAY_NPCMOVEMENTCONTEXTSTATE_FLUSHSTARTMOVE_OFFSET UNITYSDK_OFFSET(0x8B2210)
+#define STATETREEGAMEPLAY_NPCMOVEMENTCONTEXTSTATE_TRIGGERSTARTMOVE_OFFSET UNITYSDK_OFFSET(0x8B2180)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int NpcMovementContextState_TypeDefinitionIndex = 44019;
+	inline static constexpr unsigned int NpcMovementContextState_TypeDefinitionIndex = 88302;
 
 	struct alignas(4) NpcMovementContextState
 	{
 		::System::Boolean IsMoving; // 0x10
 		::StateTreeGameplay::ContextTrigger StartTrigger; // 0x11
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Vector3 TargetPosition; // 0x14
 
 		::System::Boolean TriggerStartMove(::UnityEngine::Vector3 targetPosition)

@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraFlushContext_TypeDefinitionIndex = 38218;
+	inline static constexpr unsigned int ICameraFlushContext_TypeDefinitionIndex = 36220;
 
 	class ICameraFlushContext
 	{

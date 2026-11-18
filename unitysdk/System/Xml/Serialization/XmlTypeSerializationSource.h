@@ -8,19 +8,19 @@ namespace System { class Type; }
 namespace System::Xml::Serialization { class XmlAttributeOverrides; }
 namespace System::Xml::Serialization { class XmlRootAttribute; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPESERIALIZATIONSOURCE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E62AE90)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPESERIALIZATIONSOURCE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E62AF90)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPESERIALIZATIONSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E62AD50)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPESERIALIZATIONSOURCE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E8A84A0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPESERIALIZATIONSOURCE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E8A85A0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPESERIALIZATIONSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A8360)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlTypeSerializationSource_TypeDefinitionIndex = 1867;
+	inline static constexpr unsigned int XmlTypeSerializationSource_TypeDefinitionIndex = 1866;
 
 	class XmlTypeSerializationSource : public ::System::Xml::Serialization::SerializationSource
 	{
 	public:
-		::System::String* attributeOverridesHash; // 0x28
-		::System::Type* type; // 0x30
+		::System::Type* type; // 0x28
+		::System::String* attributeOverridesHash; // 0x30
 		::System::String* rootHash; // 0x38
 
 		::System::Void _ctor(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root, ::System::Xml::Serialization::XmlAttributeOverrides* attributeOverrides, ::System::String* namspace, ::Il2CppArray<::System::Type*>* includedTypes)

@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/Data/SqlTypes/SqlBoolean.h"
 
 namespace System { class Object; }
 namespace System { class String; }
@@ -10,69 +11,70 @@ namespace System::Xml { class XmlWriter; }
 namespace System::Xml::Schema { class XmlSchema; }
 namespace System::Xml::Schema { class XmlSchemaSet; }
 
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0xAA9770)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_COMPARETO_OFFSET UNITYSDK_OFFSET(0xAA9760)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_EQUALS_OFFSET UNITYSDK_OFFSET(0xAA9780)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xAA9790)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_GETXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1F5BBAD0)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x7D8680)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xAA9500)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1F5BB240)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1F5BB180)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1F5BA9E0)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1F5BACF0)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F5BB030)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1F5BAF40)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1F5BB110)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F5BAE20)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x1F5BAEB0)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F5BA900)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1F5BB0A0)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1F5BABE0)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1F5BAAE0)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x1F5BA970)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_SAMESIGNINT_OFFSET UNITYSDK_OFFSET(0x1F5BAAD0)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_GETSCHEMA_OFFSET UNITYSDK_OFFSET(0x3CADC0)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_READXML_OFFSET UNITYSDK_OFFSET(0xAA9800)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_WRITEXML_OFFSET UNITYSDK_OFFSET(0xAA9810)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_TOSQLDOUBLE_OFFSET UNITYSDK_OFFSET(0xAA95C0)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_TOSQLINT64_OFFSET UNITYSDK_OFFSET(0xAA9640)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32_TOSTRING_OFFSET UNITYSDK_OFFSET(0xAA9560)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5BBB50)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32__CTOR_1_OFFSET UNITYSDK_OFFSET(0xAA94F0)
-#define SYSTEM_DATA_SQLTYPES_SQLINT32__CTOR_OFFSET UNITYSDK_OFFSET(0xA1A2E0)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x98FD80)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_COMPARETO_OFFSET UNITYSDK_OFFSET(0x98FD70)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_EQUALS_OFFSET UNITYSDK_OFFSET(0x98FD90)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x98FDA0)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_GETXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1F992A40)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x75E7A0)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x98FB10)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1F9921B0)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1F9920F0)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1F991950)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1F991C60)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F991FA0)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1F991EB0)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1F992080)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F991D90)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x1F991E20)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F991870)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1F992010)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1F991B50)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1F991A50)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x1F9918E0)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_SAMESIGNINT_OFFSET UNITYSDK_OFFSET(0x1F991A40)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_GETSCHEMA_OFFSET UNITYSDK_OFFSET(0x3B9490)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_READXML_OFFSET UNITYSDK_OFFSET(0x98FE10)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_WRITEXML_OFFSET UNITYSDK_OFFSET(0x98FE20)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_TOSQLDOUBLE_OFFSET UNITYSDK_OFFSET(0x98FBD0)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_TOSQLINT64_OFFSET UNITYSDK_OFFSET(0x98FC50)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32_TOSTRING_OFFSET UNITYSDK_OFFSET(0x98FB70)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F992AC0)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32__CTOR_1_OFFSET UNITYSDK_OFFSET(0x98FB00)
+#define SYSTEM_DATA_SQLTYPES_SQLINT32__CTOR_OFFSET UNITYSDK_OFFSET(0x90E2D0)
 
 namespace System::Data::SqlTypes
 {
-	inline static constexpr unsigned int SqlInt32_TypeDefinitionIndex = 39382;
+	inline static constexpr unsigned int SqlInt32_TypeDefinitionIndex = 37382;
 
 	struct alignas(4) SqlInt32
 	{
-		static ::System::Data::SqlTypes::SqlInt32* StaticGet_Zero()
+		static ::System::Int64* StaticGet_s_lBitNotIntMax()
 		{
-			return (::System::Data::SqlTypes::SqlInt32*)Il2CppClass::FromTypeDefinitionIndex(SqlInt32_TypeDefinitionIndex)->GetStaticField(0x9180);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlInt32_TypeDefinitionIndex)->GetStaticField(0x9620);
 		}
 		static ::System::Data::SqlTypes::SqlInt32* StaticGet_MinValue()
 		{
-			return (::System::Data::SqlTypes::SqlInt32*)Il2CppClass::FromTypeDefinitionIndex(SqlInt32_TypeDefinitionIndex)->GetStaticField(0x9188);
+			return (::System::Data::SqlTypes::SqlInt32*)Il2CppClass::FromTypeDefinitionIndex(SqlInt32_TypeDefinitionIndex)->GetStaticField(0x9628);
 		}
 		static ::System::Data::SqlTypes::SqlInt32* StaticGet_MaxValue()
 		{
-			return (::System::Data::SqlTypes::SqlInt32*)Il2CppClass::FromTypeDefinitionIndex(SqlInt32_TypeDefinitionIndex)->GetStaticField(0x9190);
-		}
-		static ::System::Data::SqlTypes::SqlInt32* StaticGet_Null()
-		{
-			return (::System::Data::SqlTypes::SqlInt32*)Il2CppClass::FromTypeDefinitionIndex(SqlInt32_TypeDefinitionIndex)->GetStaticField(0x9198);
+			return (::System::Data::SqlTypes::SqlInt32*)Il2CppClass::FromTypeDefinitionIndex(SqlInt32_TypeDefinitionIndex)->GetStaticField(0x9630);
 		}
 		static ::System::Int64* StaticGet_s_iIntMin()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlInt32_TypeDefinitionIndex)->GetStaticField(0x91A0);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlInt32_TypeDefinitionIndex)->GetStaticField(0x9638);
 		}
-		static ::System::Int64* StaticGet_s_lBitNotIntMax()
+		static ::System::Data::SqlTypes::SqlInt32* StaticGet_Null()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlInt32_TypeDefinitionIndex)->GetStaticField(0x91A8);
+			return (::System::Data::SqlTypes::SqlInt32*)Il2CppClass::FromTypeDefinitionIndex(SqlInt32_TypeDefinitionIndex)->GetStaticField(0x9640);
+		}
+		static ::System::Data::SqlTypes::SqlInt32* StaticGet_Zero()
+		{
+			return (::System::Data::SqlTypes::SqlInt32*)Il2CppClass::FromTypeDefinitionIndex(SqlInt32_TypeDefinitionIndex)->GetStaticField(0x9648);
 		}
 		::System::Boolean m_fNotNull; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Int32 m_value; // 0x14
 
 		::System::Void _ctor(::System::Boolean fNull)
@@ -100,40 +102,52 @@ namespace System::Data::SqlTypes
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLINT32_GET_VALUE_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Data::SqlTypes::SqlInt32 op_Implicit(::System::Int32 x)
 		{
 			return ((::System::Data::SqlTypes::SqlInt32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLINT32_OP_IMPLICIT_OFFSET))(x);
 		}
+		*/
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLINT32_TOSTRING_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Data::SqlTypes::SqlInt32 op_UnaryNegation(::System::Data::SqlTypes::SqlInt32 x)
 		{
 			return ((::System::Data::SqlTypes::SqlInt32(*)(::System::Data::SqlTypes::SqlInt32))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLINT32_OP_UNARYNEGATION_OFFSET))(x);
 		}
+		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlInt32 op_Addition(::System::Data::SqlTypes::SqlInt32 x, ::System::Data::SqlTypes::SqlInt32 y)
 		{
 			return ((::System::Data::SqlTypes::SqlInt32(*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLINT32_OP_ADDITION_OFFSET))(x, y);
 		}
+		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlInt32 op_Subtraction(::System::Data::SqlTypes::SqlInt32 x, ::System::Data::SqlTypes::SqlInt32 y)
 		{
 			return ((::System::Data::SqlTypes::SqlInt32(*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLINT32_OP_SUBTRACTION_OFFSET))(x, y);
 		}
+		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlInt32 op_Multiply(::System::Data::SqlTypes::SqlInt32 x, ::System::Data::SqlTypes::SqlInt32 y)
 		{
 			return ((::System::Data::SqlTypes::SqlInt32(*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLINT32_OP_MULTIPLY_OFFSET))(x, y);
 		}
+		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlInt32 op_Division(::System::Data::SqlTypes::SqlInt32 x, ::System::Data::SqlTypes::SqlInt32 y)
 		{
 			return ((::System::Data::SqlTypes::SqlInt32(*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLINT32_OP_DIVISION_OFFSET))(x, y);
 		}
+		*/
 
 		/*
 		static ::System::Data::SqlTypes::SqlInt32 op_Implicit_1(::System::Data::SqlTypes::SqlByte x)
@@ -215,10 +229,12 @@ namespace System::Data::SqlTypes
 			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLINT32_COMPARETO_OFFSET))(this, value);
 		}
 
+		/*
 		::System::Int32 CompareTo_1(::System::Data::SqlTypes::SqlInt32 value)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Data::SqlTypes::SqlInt32))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLINT32_COMPARETO_1_OFFSET))(this, value);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* value)
 		{

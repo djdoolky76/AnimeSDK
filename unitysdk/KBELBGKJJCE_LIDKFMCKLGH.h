@@ -1,0 +1,97 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/AssetPath.h"
+#include "unitysdk/UnityEngine/Color.h"
+
+class KBELBGKJJCE;
+class UIControllerExtensionData;
+namespace System { class String; }
+
+#define KBELBGKJJCE_LIDKFMCKLGH_BAKBBGDOIAD_OFFSET UNITYSDK_OFFSET(0x129775A0)
+#define KBELBGKJJCE_LIDKFMCKLGH_BHGCDAMJGCD_OFFSET UNITYSDK_OFFSET(0x12976A50)
+#define KBELBGKJJCE_LIDKFMCKLGH_BOIOBOACAME_OFFSET UNITYSDK_OFFSET(0x129770E0)
+#define KBELBGKJJCE_LIDKFMCKLGH_DECNGMNNIPK_OFFSET UNITYSDK_OFFSET(0x12976C50)
+#define KBELBGKJJCE_LIDKFMCKLGH_DFEPENNJKME_OFFSET UNITYSDK_OFFSET(0x12977340)
+#define KBELBGKJJCE_LIDKFMCKLGH_EFMCEPCBHPN_OFFSET UNITYSDK_OFFSET(0x12977470)
+#define KBELBGKJJCE_LIDKFMCKLGH_FNMONEGOBHD_OFFSET UNITYSDK_OFFSET(0x12976E60)
+#define KBELBGKJJCE_LIDKFMCKLGH_HGMCGMDMANJ_OFFSET UNITYSDK_OFFSET(0x12976D60)
+#define KBELBGKJJCE_LIDKFMCKLGH_LINEECGDLAP_OFFSET UNITYSDK_OFFSET(0x12976B50)
+#define KBELBGKJJCE_LIDKFMCKLGH_MJHMHMABFCG_OFFSET UNITYSDK_OFFSET(0x12976940)
+#define KBELBGKJJCE_LIDKFMCKLGH_MNLHLLEHBPF_OFFSET UNITYSDK_OFFSET(0x12976FE0)
+#define KBELBGKJJCE_LIDKFMCKLGH_NIBGOKFGNAH_OFFSET UNITYSDK_OFFSET(0x129771E0)
+#define KBELBGKJJCE_LIDKFMCKLGH__CTOR_OFFSET UNITYSDK_OFFSET(0x12976930)
+
+inline static constexpr unsigned int KBELBGKJJCE_LIDKFMCKLGH_TypeDefinitionIndex = 84527;
+
+class KBELBGKJJCE_LIDKFMCKLGH : public ::System::Object
+{
+public:
+	::KBELBGKJJCE* KLHPEBKNIFB; // 0x10
+	::UIControllerExtensionData* IOHFPLNNMKL; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean MJHMHMABFCG()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH_MJHMHMABFCG_OFFSET))(this);
+	}
+
+	::System::String* BHGCDAMJGCD()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH_BHGCDAMJGCD_OFFSET))(this);
+	}
+
+	::System::Boolean LINEECGDLAP()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH_LINEECGDLAP_OFFSET))(this);
+	}
+
+	::System::Boolean DECNGMNNIPK()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH_DECNGMNNIPK_OFFSET))(this);
+	}
+
+	::System::Void HGMCGMDMANJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH_HGMCGMDMANJ_OFFSET))(this);
+	}
+
+	::System::Boolean FNMONEGOBHD()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH_FNMONEGOBHD_OFFSET))(this);
+	}
+
+	::System::String* MNLHLLEHBPF()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH_MNLHLLEHBPF_OFFSET))(this);
+	}
+
+	::System::Boolean BOIOBOACAME()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH_BOIOBOACAME_OFFSET))(this);
+	}
+
+	::UnityEngine::Color NIBGOKFGNAH()
+	{
+		return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH_NIBGOKFGNAH_OFFSET))(this);
+	}
+
+	::System::String* DFEPENNJKME()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH_DFEPENNJKME_OFFSET))(this);
+	}
+
+	::System::String* EFMCEPCBHPN()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH_EFMCEPCBHPN_OFFSET))(this);
+	}
+
+	::Foundation::AssetPath BAKBBGDOIAD()
+	{
+		return ((::Foundation::AssetPath(*)(::PVOID))((::PBYTE)hIl2Cpp + KBELBGKJJCE_LIDKFMCKLGH_BAKBBGDOIAD_OFFSET))(this);
+	}
+};

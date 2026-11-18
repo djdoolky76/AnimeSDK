@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_9F091E965E210217_6;
+class BAGPIKLBMMJ;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1708AC90)
-#define MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1708ACD0)
-#define MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__GETSORTEDGOODS_B__58_0_OFFSET UNITYSDK_OFFSET(0x1708ACE0)
+#define MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x170373B0)
+#define MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x170373F0)
+#define MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__GETSORTEDGOODS_B__58_0_OFFSET UNITYSDK_OFFSET(0x17037400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAreaShopPageController___c_TypeDefinitionIndex = 65275;
+	inline static constexpr unsigned int UIAreaShopPageController___c_TypeDefinitionIndex = 71163;
 
 	class UIAreaShopPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIAreaShopPageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIAreaShopPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAreaShopPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FB40);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIAreaShopPageController___c_TypeDefinitionIndex)->GetStaticField(0x44D20);
 		}
-		static ::System::Comparison_1<::Class_3_9F091E965E210217_6*>** StaticGet___9__58_0()
+		static ::System::Comparison_1<::BAGPIKLBMMJ*>** StaticGet___9__58_0()
 		{
-			return (::System::Comparison_1<::Class_3_9F091E965E210217_6*>**)Il2CppClass::FromTypeDefinitionIndex(UIAreaShopPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FB48);
+			return (::System::Comparison_1<::BAGPIKLBMMJ*>**)Il2CppClass::FromTypeDefinitionIndex(UIAreaShopPageController___c_TypeDefinitionIndex)->GetStaticField(0x44D28);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetSortedGoods_b__58_0(::Class_3_9F091E965E210217_6* goodsX, ::Class_3_9F091E965E210217_6* goodsY)
+		::System::Int32 _GetSortedGoods_b__58_0(::BAGPIKLBMMJ* goodsX, ::BAGPIKLBMMJ* goodsY)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_3_9F091E965E210217_6*, ::Class_3_9F091E965E210217_6*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__GETSORTEDGOODS_B__58_0_OFFSET))(this, goodsX, goodsY);
+			return ((::System::Int32(*)(::PVOID, ::BAGPIKLBMMJ*, ::BAGPIKLBMMJ*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAREASHOPPAGECONTROLLER___C__GETSORTEDGOODS_B__58_0_OFFSET))(this, goodsX, goodsY);
 		}
 	};
 }

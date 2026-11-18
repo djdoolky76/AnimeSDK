@@ -2,38 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CollisionDetector_DetectorType.h"
 #include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/SceneManagement/Scene.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collider2D; }
 namespace UnityEngine { class GameObject; }
 
-#define COLLISIONDETECTOR_ADD_ONCOLLISIONDETECTED_OFFSET UNITYSDK_OFFSET(0x124F1A00)
-#define COLLISIONDETECTOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x124F1B40)
-#define COLLISIONDETECTOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x124F1B80)
-#define COLLISIONDETECTOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x124F1B00)
-#define COLLISIONDETECTOR_ONTRIGGERENTER2D_OFFSET UNITYSDK_OFFSET(0x124F1C00)
-#define COLLISIONDETECTOR_REMOVE_ONCOLLISIONDETECTED_OFFSET UNITYSDK_OFFSET(0x124F1A80)
-#define COLLISIONDETECTOR_RESETCOLLISION_OFFSET UNITYSDK_OFFSET(0x124F1BC0)
-#define COLLISIONDETECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x124F2080)
-#define COLLISIONDETECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x124F2020)
+#define COLLISIONDETECTOR_ADD_ONCOLLISIONDETECTED_OFFSET UNITYSDK_OFFSET(0x15A26620)
+#define COLLISIONDETECTOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15A26760)
+#define COLLISIONDETECTOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x15A267A0)
+#define COLLISIONDETECTOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15A26720)
+#define COLLISIONDETECTOR_ONTRIGGERENTER2D_OFFSET UNITYSDK_OFFSET(0x15A26820)
+#define COLLISIONDETECTOR_REMOVE_ONCOLLISIONDETECTED_OFFSET UNITYSDK_OFFSET(0x15A266A0)
+#define COLLISIONDETECTOR_RESETCOLLISION_OFFSET UNITYSDK_OFFSET(0x15A267E0)
+#define COLLISIONDETECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A26CA0)
+#define COLLISIONDETECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15A26C40)
 
-inline static constexpr unsigned int CollisionDetector_TypeDefinitionIndex = 79251;
+inline static constexpr unsigned int CollisionDetector_TypeDefinitionIndex = 52765;
 
 class CollisionDetector : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::UnityEngine::GameObject** StaticGet_testSceneRoot()
 	{
-		return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(CollisionDetector_TypeDefinitionIndex)->GetStaticField(0x53690);
+		return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(CollisionDetector_TypeDefinitionIndex)->GetStaticField(0x53130);
 	}
 	static ::System::Nullable_1<::UnityEngine::SceneManagement::Scene>* StaticGet_testScene()
 	{
-		return (::System::Nullable_1<::UnityEngine::SceneManagement::Scene>*)Il2CppClass::FromTypeDefinitionIndex(CollisionDetector_TypeDefinitionIndex)->GetStaticField(0x13700);
+		return (::System::Nullable_1<::UnityEngine::SceneManagement::Scene>*)Il2CppClass::FromTypeDefinitionIndex(CollisionDetector_TypeDefinitionIndex)->GetStaticField(0x143B0);
 	}
 	::System::Action_1<::CollisionDetector*>* OnCollisionDetected; // 0x18
 	::System::Boolean hasCollided; // 0x20
+	::System::Byte _padding0[0x3];
 	::CollisionDetector_DetectorType type; // 0x24
 	::System::Int32 targetOrder; // 0x28
 

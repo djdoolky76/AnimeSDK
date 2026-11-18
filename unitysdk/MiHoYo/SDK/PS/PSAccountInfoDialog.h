@@ -7,25 +7,25 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1DD4BC70)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1DD4E000)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1DD4DFE0)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1DD4BAB0)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1DD4DFC0)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1DD4BB20)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1DD4B9B0)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD4E020)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E065D20)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1E0680B0)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1E068090)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1E065B60)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1E068070)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1E065BD0)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1E065A60)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0680D0)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSAccountInfoDialog_TypeDefinitionIndex = 21027;
+	inline static constexpr unsigned int PSAccountInfoDialog_TypeDefinitionIndex = 20231;
 
 	class PSAccountInfoDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:
 		static ::MiHoYo::SDK::PS::PSAccountInfoDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::PS::PSAccountInfoDialog**)Il2CppClass::FromTypeDefinitionIndex(PSAccountInfoDialog_TypeDefinitionIndex)->GetStaticField(0x9450);
+			return (::MiHoYo::SDK::PS::PSAccountInfoDialog**)Il2CppClass::FromTypeDefinitionIndex(PSAccountInfoDialog_TypeDefinitionIndex)->GetStaticField(0x9460);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
@@ -49,6 +49,7 @@ namespace MiHoYo::SDK::PS
 		::System::Action* OnContinueToBind; // 0xB0
 		::System::Action* OnSwitchHoYoAccount; // 0xB8
 		::System::Boolean Interactable; // 0xC0
+		::System::Byte _padding0[0x7];
 		::System::String* PSNAccountName; // 0xC8
 		::System::String* HoYoAccountName; // 0xD0
 		::MiHoYo::SDK::PS::UserGameServerInfo* CurrentServerInfo; // 0xD8

@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_AA0F16CC1EE19976.h"
 #include "unitysdk/MoleMole/Config/CampType.h"
 #include "unitysdk/MoleMole/MonoSceneObjectBase.h"
+#include "unitysdk/NKOFJNNCJHA.h"
 
-#define MOLEMOLE_MONOENTITY_GET_SUBTEMPLATEID_OFFSET UNITYSDK_OFFSET(0x191A9E60)
-#define MOLEMOLE_MONOENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x191A9F80)
+#define MOLEMOLE_MONOENTITY_GET_SUBTEMPLATEID_OFFSET UNITYSDK_OFFSET(0x162E0DD0)
+#define MOLEMOLE_MONOENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x162E0EF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEntity_TypeDefinitionIndex = 54813;
+	inline static constexpr unsigned int MonoEntity_TypeDefinitionIndex = 72187;
 
 	class MonoEntity : public ::MoleMole::MonoSceneObjectBase
 	{
 	public:
-		::Enum_3_AA0F16CC1EE19976 Type; // 0x28
-		::System::Int32 TemplateID; // 0x2C
-		::System::Int32 AIID; // 0x30
-		::MoleMole::Config::CampType campType; // 0x34
-		::System::Int32 Field_7_6; // 0x38
+		::NKOFJNNCJHA Type; // 0x38
+		::System::Int32 TemplateID; // 0x3C
+		::System::Int32 AIID; // 0x40
+		::MoleMole::Config::CampType campType; // 0x44
+		::System::Int32 MAFHHPKGGLP; // 0x48
 
 		::System::Void _ctor()
 		{

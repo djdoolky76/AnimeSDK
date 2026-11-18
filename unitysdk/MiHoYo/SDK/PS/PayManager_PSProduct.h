@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PS_PAYMANAGER_PSPRODUCT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x97B710)
+#define MIHOYO_SDK_PS_PAYMANAGER_PSPRODUCT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8B5C10)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PayManager_PSProduct_TypeDefinitionIndex = 21006;
+	inline static constexpr unsigned int PayManager_PSProduct_TypeDefinitionIndex = 20210;
 
 	struct alignas(8) PayManager_PSProduct
 	{

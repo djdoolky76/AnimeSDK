@@ -3,14 +3,14 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EBattleRewardType_TypeDefinitionIndex = 17435;
+	inline static constexpr unsigned int EBattleRewardType_TypeDefinitionIndex = 13572;
 
 	enum class EBattleRewardType : ::System::Int16
 	{
-		Ext = 3,
-		Fight = 4,
 		Challenge = 5,
 		BattleEvt = 2,
 		Client = 1,
+		Ext = 3,
+		Fight = 4,
 	};
 }

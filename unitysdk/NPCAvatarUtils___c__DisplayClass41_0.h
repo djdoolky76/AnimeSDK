@@ -5,10 +5,10 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define NPCAVATARUTILS___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF847EB0)
-#define NPCAVATARUTILS___C__DISPLAYCLASS41_0__OVERRIDEPARTRENDERERMATERIAL_B__0_OFFSET UNITYSDK_OFFSET(0xF847EC0)
+#define NPCAVATARUTILS___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE5A4170)
+#define NPCAVATARUTILS___C__DISPLAYCLASS41_0__OVERRIDEPARTRENDERERMATERIAL_B__0_OFFSET UNITYSDK_OFFSET(0xE5A4180)
 
-inline static constexpr unsigned int NPCAvatarUtils___c__DisplayClass41_0_TypeDefinitionIndex = 53565;
+inline static constexpr unsigned int NPCAvatarUtils___c__DisplayClass41_0_TypeDefinitionIndex = 47755;
 
 class NPCAvatarUtils___c__DisplayClass41_0 : public ::System::Object
 {

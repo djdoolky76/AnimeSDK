@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace System::Net
 {
-	inline static constexpr unsigned int UriScheme_TypeDefinitionIndex = 3260;
+	inline static constexpr unsigned int UriScheme_TypeDefinitionIndex = 3259;
 
 	class UriScheme : public ::System::Object
 	{

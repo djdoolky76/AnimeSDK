@@ -8,12 +8,12 @@
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurveParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGICONFIG_MARKTEXTURECURVEASDIRTY_OFFSET UNITYSDK_OFFSET(0x1C51C610)
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C51C7A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGICONFIG_MARKTEXTURECURVEASDIRTY_OFFSET UNITYSDK_OFFSET(0x1C9C9AD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C9C60)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RTXGIConfig_TypeDefinitionIndex = 27584;
+	inline static constexpr unsigned int RTXGIConfig_TypeDefinitionIndex = 26678;
 
 	class RTXGIConfig : public ::System::Object
 	{
@@ -31,6 +31,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single AOMinOcc; // 0x38
 		::System::Single AODirectLightPreserve2; // 0x3C
 		::System::Boolean AOHybridOffsetEnable; // 0x40
+		::System::Byte _padding0[0x3];
 		::System::Single AORayBias; // 0x44
 		::System::Single AODistanceBiasScale; // 0x48
 		::System::Single RTXStylized2; // 0x4C
@@ -69,6 +70,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single ReceiverCameraZDiffThreshold2; // 0x110
 		::System::Single ReceiverDownDotScale2; // 0x114
 		::System::Boolean rtxColorAdj; // 0x118
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector4 rtxlift; // 0x11C
 		::UnityEngine::Vector4 rtxgamma; // 0x12C
 		::UnityEngine::Vector4 rtxgain; // 0x13C
@@ -95,6 +97,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single hueShift; // 0x1C8
 		::System::Single saturation; // 0x1CC
 		::System::Single desaturate; // 0x1D0
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Texture* Lut; // 0x1D8
 
 		::System::Void _ctor()

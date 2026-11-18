@@ -2,17 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace Foundation { template <typename T1, typename T2, typename T3> class ExclusiveResourceManager_3; }
-namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
-
 namespace Foundation
 {
-	inline static constexpr unsigned int ExclusiveResourceManager_3_TickState_TypeDefinitionIndex = 8559;
+	inline static constexpr unsigned int ExclusiveResourceManager_3_TickState_TypeDefinitionIndex = 8839;
 
-	template <typename TResource, typename TDefault, typename TRequest>
-	struct ExclusiveResourceManager_3_TickState
+	template <typename T1, typename T2, typename T3>
+	struct alignas(8) ExclusiveResourceManager_3_TickState
 	{
-		TResource Resource; // 0x0
-		TRequest Request; // 0x0
+		T1 Resource; // 0x0
+		T2 Request; // 0x0
 	};
 }

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define NAPSTREAMING_NAPSTREAMINGDISTANCECULLINGMARKER_REMOVE_OFFSET UNITYSDK_OFFSET(0x10682D20)
-#define NAPSTREAMING_NAPSTREAMINGDISTANCECULLINGMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x10682DA0)
+#define NAPSTREAMING_NAPSTREAMINGDISTANCECULLINGMARKER_REMOVE_OFFSET UNITYSDK_OFFSET(0xF165710)
+#define NAPSTREAMING_NAPSTREAMINGDISTANCECULLINGMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0xF165790)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingDistanceCullingMarker_TypeDefinitionIndex = 47630;
+	inline static constexpr unsigned int NapStreamingDistanceCullingMarker_TypeDefinitionIndex = 90397;
 
 	class NapStreamingDistanceCullingMarker : public ::UnityEngine::MonoBehaviour
 	{

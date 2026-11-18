@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine::Timeline { class INapNotifyData; }
 
-#define MOLEMOLE_COMICCLIPBASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F110B70)
+#define MOLEMOLE_COMICCLIPBASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F484D70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComicClipBaseInfo_TypeDefinitionIndex = 32747;
+	inline static constexpr unsigned int ComicClipBaseInfo_TypeDefinitionIndex = 32196;
 
 	class ComicClipBaseInfo : public ::System::Object
 	{

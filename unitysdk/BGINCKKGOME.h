@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BGINCKKGOME_FPGEOLKNDDO.h"
+#include "unitysdk/System/Object.h"
+
+#define BGINCKKGOME_AMMELIOADAM_OFFSET UNITYSDK_OFFSET(0x1424EF80)
+#define BGINCKKGOME_BJANDJKKNCD_OFFSET UNITYSDK_OFFSET(0x1424EF00)
+#define BGINCKKGOME_DCJMFMAHBLD_OFFSET UNITYSDK_OFFSET(0x1424EE50)
+#define BGINCKKGOME_DOJELHJAIMN_OFFSET UNITYSDK_OFFSET(0x1424EE10)
+#define BGINCKKGOME_OIBKFFAGPNH_OFFSET UNITYSDK_OFFSET(0x1424EEA0)
+#define BGINCKKGOME_PLPONJAKNEB_OFFSET UNITYSDK_OFFSET(0x1424EF40)
+#define BGINCKKGOME__CTOR_OFFSET UNITYSDK_OFFSET(0x1424EE00)
+
+inline static constexpr unsigned int BGINCKKGOME_TypeDefinitionIndex = 67296;
+
+class BGINCKKGOME : public ::System::Object
+{
+public:
+	::System::Int32 GEIAPCNABFP; // 0x10
+	::System::Single EFAONCGEBLN; // 0x14
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BGINCKKGOME__CTOR_OFFSET))(this);
+	}
+
+	::BGINCKKGOME_FPGEOLKNDDO DOJELHJAIMN()
+	{
+		return ((::BGINCKKGOME_FPGEOLKNDDO(*)(::PVOID))((::PBYTE)hIl2Cpp + BGINCKKGOME_DOJELHJAIMN_OFFSET))(this);
+	}
+
+	::System::Void DCJMFMAHBLD(::BGINCKKGOME* CMFJKNACHMO)
+	{
+		return ((::System::Void(*)(::PVOID, ::BGINCKKGOME*))((::PBYTE)hIl2Cpp + BGINCKKGOME_DCJMFMAHBLD_OFFSET))(this, CMFJKNACHMO);
+	}
+
+	::System::Void OIBKFFAGPNH(::BGINCKKGOME* DEGJBKMLCHP)
+	{
+		return ((::System::Void(*)(::PVOID, ::BGINCKKGOME*))((::PBYTE)hIl2Cpp + BGINCKKGOME_OIBKFFAGPNH_OFFSET))(this, DEGJBKMLCHP);
+	}
+
+	::System::Void BJANDJKKNCD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BGINCKKGOME_BJANDJKKNCD_OFFSET))(this);
+	}
+
+	::BGINCKKGOME* PLPONJAKNEB()
+	{
+		return ((::BGINCKKGOME*(*)(::PVOID))((::PBYTE)hIl2Cpp + BGINCKKGOME_PLPONJAKNEB_OFFSET))(this);
+	}
+
+	::System::Void AMMELIOADAM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BGINCKKGOME_AMMELIOADAM_OFFSET))(this);
+	}
+};

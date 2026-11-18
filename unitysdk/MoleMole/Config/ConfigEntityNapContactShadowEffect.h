@@ -6,24 +6,24 @@
 namespace MoleMole::Config { class ScreenEffectBool; }
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT_GETENABLED_OFFSET UNITYSDK_OFFSET(0x1BD5C440)
-#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT_GETSAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x1BD5C4C0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT_GETWORLDSPACELENGTH_OFFSET UNITYSDK_OFFSET(0x1BD5C540)
-#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5C5C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT_GETENABLED_OFFSET UNITYSDK_OFFSET(0x190A1190)
+#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT_GETSAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x190A1210)
+#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT_GETWORLDSPACELENGTH_OFFSET UNITYSDK_OFFSET(0x190A1290)
+#define MOLEMOLE_CONFIG_CONFIGENTITYNAPCONTACTSHADOWEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x190A1310)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityNapContactShadowEffect_TypeDefinitionIndex = 56637;
+	inline static constexpr unsigned int ConfigEntityNapContactShadowEffect_TypeDefinitionIndex = 62495;
 
 	class ConfigEntityNapContactShadowEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectBool* enabled; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* sampleCount; // 0x48
-		::MoleMole::Config::ScreenEffectFloat* worldSpaceLength; // 0x50
+		::MoleMole::Config::ScreenEffectFloat* worldSpaceLength; // 0x40
+		::MoleMole::Config::ScreenEffectBool* enabled; // 0x48
+		::MoleMole::Config::ScreenEffectFloat* sampleCount; // 0x50
 		::MoleMole::Config::ScreenEffectFieldHandleType sampleCountHandleType; // 0x58
-		::MoleMole::Config::ScreenEffectFieldHandleType enabledHandleType; // 0x5C
-		::MoleMole::Config::ScreenEffectFieldHandleType worldSpaceLengthHandleType; // 0x60
+		::MoleMole::Config::ScreenEffectFieldHandleType worldSpaceLengthHandleType; // 0x5C
+		::MoleMole::Config::ScreenEffectFieldHandleType enabledHandleType; // 0x60
 
 		::System::Void _ctor()
 		{

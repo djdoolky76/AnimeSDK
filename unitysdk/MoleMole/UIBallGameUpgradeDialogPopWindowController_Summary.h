@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_0DF1D818AC0BE25A.h"
+#include "unitysdk/IAJLEBHDLPN.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIBallGameUpgradeRowWidgetController; }
 
-#define MOLEMOLE_UIBALLGAMEUPGRADEDIALOGPOPWINDOWCONTROLLER_SUMMARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBDD630)
+#define MOLEMOLE_UIBALLGAMEUPGRADEDIALOGPOPWINDOWCONTROLLER_SUMMARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5FED0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameUpgradeDialogPopWindowController_Summary_TypeDefinitionIndex = 93347;
+	inline static constexpr unsigned int UIBallGameUpgradeDialogPopWindowController_Summary_TypeDefinitionIndex = 95006;
 
 	class UIBallGameUpgradeDialogPopWindowController_Summary : public ::System::Object
 	{
 	public:
-		::Struct_2_0DF1D818AC0BE25A summary; // 0x10
+		::IAJLEBHDLPN summary; // 0x10
 		::MoleMole::UIBallGameUpgradeRowWidgetController* widget; // 0x28
 
 		::System::Void _ctor()

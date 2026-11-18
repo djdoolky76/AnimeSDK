@@ -5,7 +5,7 @@
 class MonoUITableScrollV2_TableScrollPluginInitCellSizeHelper;
 namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginInitCellSizeHelper___c__DisplayClass10_0_TypeDefinitionIndex = 75069;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginInitCellSizeHelper___c__DisplayClass10_0_TypeDefinitionIndex = 40129;
 
 struct alignas(8) MonoUITableScrollV2_TableScrollPluginInitCellSizeHelper___c__DisplayClass10_0
 {

@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int WallColliderLayerType_TypeDefinitionIndex = 56593;
+	inline static constexpr unsigned int WallColliderLayerType_TypeDefinitionIndex = 45323;
 
 	enum class WallColliderLayerType : ::System::Int32
 	{

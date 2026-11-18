@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Threading/CancellationToken.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCSoftAssetPathList_1_TypeDefinitionIndex = 86501;
+	inline static constexpr unsigned int NPCSoftAssetPathList_1_TypeDefinitionIndex = 48645;
 
 	template <typename T>
 	class NPCSoftAssetPathList_1 : public ::System::Object

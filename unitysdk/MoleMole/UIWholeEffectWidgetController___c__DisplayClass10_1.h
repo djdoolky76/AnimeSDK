@@ -2,20 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIWHOLEEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0x151460B0)
-#define MOLEMOLE_UIWHOLEEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__INITCARD_B__1_OFFSET UNITYSDK_OFFSET(0x151460C0)
+#define MOLEMOLE_UIWHOLEEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13E7BA20)
+#define MOLEMOLE_UIWHOLEEFFECTWIDGETCONTROLLER___C__DISPLAYCLASS10_1__INITCARD_B__1_OFFSET UNITYSDK_OFFSET(0x13E7BA30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWholeEffectWidgetController___c__DisplayClass10_1_TypeDefinitionIndex = 89259;
+	inline static constexpr unsigned int UIWholeEffectWidgetController___c__DisplayClass10_1_TypeDefinitionIndex = 83316;
 
+	template <typename T>
 	class UIWholeEffectWidgetController___c__DisplayClass10_1 : public ::System::Object
 	{
 	public:
-		::Class_1_0D6706375CDAAE8C* card; // 0x10
+		::HGAJKHIMKJP* card; // 0x10
 
 		::System::Void _ctor()
 		{

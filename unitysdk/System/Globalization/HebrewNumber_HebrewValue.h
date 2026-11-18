@@ -3,17 +3,17 @@
 #include "unitysdk/System/Globalization/HebrewNumber_HebrewToken.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_HEBREWVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E120260)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_HEBREWVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E48C740)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int HebrewNumber_HebrewValue_TypeDefinitionIndex = 734;
+	inline static constexpr unsigned int HebrewNumber_HebrewValue_TypeDefinitionIndex = 733;
 
 	class HebrewNumber_HebrewValue : public ::System::Object
 	{
 	public:
-		::System::Int32 value; // 0x10
-		::System::Globalization::HebrewNumber_HebrewToken token; // 0x14
+		::System::Globalization::HebrewNumber_HebrewToken token; // 0x10
+		::System::Int32 value; // 0x14
 
 		::System::Void _ctor(::System::Globalization::HebrewNumber_HebrewToken token, ::System::Int32 value)
 		{

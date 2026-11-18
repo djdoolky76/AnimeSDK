@@ -3,15 +3,15 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssMapIconBaseController_Style_TypeDefinitionIndex = 82687;
+	inline static constexpr unsigned int UIAbyssMapIconBaseController_Style_TypeDefinitionIndex = 79684;
 
 	enum class UIAbyssMapIconBaseController_Style : ::System::Int32
 	{
-		Unlock = 3,
-		Current = 4,
+		CanNextReach = 0,
 		Lock = 1,
 		Count = 5,
+		Current = 4,
 		Done = 2,
-		CanNextReach = 0,
+		Unlock = 3,
 	};
 }

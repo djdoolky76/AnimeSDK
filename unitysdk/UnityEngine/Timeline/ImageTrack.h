@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class IPropertyCollector; }
 
-#define UNITYENGINE_TIMELINE_IMAGETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1F8B83D0)
-#define UNITYENGINE_TIMELINE_IMAGETRACK_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1F8B84A0)
-#define UNITYENGINE_TIMELINE_IMAGETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8B84B0)
+#define UNITYENGINE_TIMELINE_IMAGETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1FCC1D50)
+#define UNITYENGINE_TIMELINE_IMAGETRACK_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1FCC1E20)
+#define UNITYENGINE_TIMELINE_IMAGETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCC1E30)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImageTrack_TypeDefinitionIndex = 33018;
+	inline static constexpr unsigned int ImageTrack_TypeDefinitionIndex = 32477;
 
 	class ImageTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

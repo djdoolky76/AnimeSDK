@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/StateTreeGameplay/VirtualProxy_StateTreeCommonTaskBase.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALPROXY_DEBUGLOGVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1E3524A0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_DEBUGLOGVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1E352580)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_DEBUGLOGVALUEFLOATTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x1E3525F0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_DEBUGLOGVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1E352520)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_DEBUGLOGVALUEFLOATTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1E352660)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_DEBUGLOGVALUEFLOATTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3526E0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_DEBUGLOGVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1C6BEA00)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_DEBUGLOGVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1C6BEAE0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_DEBUGLOGVALUEFLOATTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x1C6BEB50)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_DEBUGLOGVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1C6BEA80)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_DEBUGLOGVALUEFLOATTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1C6BEBC0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_DEBUGLOGVALUEFLOATTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6BEC40)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualProxy_DebugLogValueFloatTask_TypeDefinitionIndex = 89599;
+	inline static constexpr unsigned int VirtualProxy_DebugLogValueFloatTask_TypeDefinitionIndex = 62052;
 
 	class VirtualProxy_DebugLogValueFloatTask : public ::StateTreeGameplay::VirtualProxy_StateTreeCommonTaskBase
 	{

@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CLFBLCIJPKD_CLPMFJEKDLO_IJKEHNHKPHP.h"
+#include "unitysdk/CLFBLCIJPKD_OMIDKCCBJCM.h"
+
+namespace System { class String; }
+
+#define CLFBLCIJPKD_CLPMFJEKDLO_BGJPLEHEDKJ_OFFSET UNITYSDK_OFFSET(0x159E04C0)
+#define CLFBLCIJPKD_CLPMFJEKDLO__CTOR_OFFSET UNITYSDK_OFFSET(0x159E04A0)
+
+inline static constexpr unsigned int CLFBLCIJPKD_CLPMFJEKDLO_TypeDefinitionIndex = 88504;
+
+class CLFBLCIJPKD_CLPMFJEKDLO : public ::CLFBLCIJPKD_OMIDKCCBJCM
+{
+public:
+	::System::String* PAJPOPPFPPH; // 0x28
+	::CLFBLCIJPKD_CLPMFJEKDLO_IJKEHNHKPHP IHMOCMAFNAL; // 0x30
+
+	::System::Void _ctor(::System::String* EFCCONIPKMP, ::CLFBLCIJPKD_CLPMFJEKDLO_IJKEHNHKPHP KLHPEKNAMOC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::CLFBLCIJPKD_CLPMFJEKDLO_IJKEHNHKPHP))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_CLPMFJEKDLO__CTOR_OFFSET))(this, EFCCONIPKMP, KLHPEKNAMOC);
+	}
+
+	::System::Boolean BGJPLEHEDKJ()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_CLPMFJEKDLO_BGJPLEHEDKJ_OFFSET))(this);
+	}
+};

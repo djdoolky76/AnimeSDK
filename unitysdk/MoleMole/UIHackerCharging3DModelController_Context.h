@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIHACKERCHARGING3DMODELCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18820160)
+#define MOLEMOLE_UIHACKERCHARGING3DMODELCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18386930)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHackerCharging3DModelController_Context_TypeDefinitionIndex = 56426;
+	inline static constexpr unsigned int UIHackerCharging3DModelController_Context_TypeDefinitionIndex = 44960;
 
 	class UIHackerCharging3DModelController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* CustomPropertyName; // 0x28
-		::System::String* AttachPointName; // 0x30
+		::System::String* AttachPointName; // 0x28
+		::System::String* CustomPropertyName; // 0x30
 		::System::UInt32 EntityID; // 0x38
 
 		::System::Void _ctor()

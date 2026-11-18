@@ -5,12 +5,12 @@
 namespace MoleMole::Arcade::SnakeDemo { class UISnakeDuelInLevelChildWindowController; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_ARCADE_SNAKEDEMO_UISNAKEDUELINLEVELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS72_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F598D50)
-#define MOLEMOLE_ARCADE_SNAKEDEMO_UISNAKEDUELINLEVELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS72_0__PLAYSCORETIPS_B__0_OFFSET UNITYSDK_OFFSET(0x1F598D60)
+#define MOLEMOLE_ARCADE_SNAKEDEMO_UISNAKEDUELINLEVELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS72_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFB5ED0)
+#define MOLEMOLE_ARCADE_SNAKEDEMO_UISNAKEDUELINLEVELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS72_0__PLAYSCORETIPS_B__0_OFFSET UNITYSDK_OFFSET(0x1FFB5EE0)
 
 namespace MoleMole::Arcade::SnakeDemo
 {
-	inline static constexpr unsigned int UISnakeDuelInLevelChildWindowController___c__DisplayClass72_0_TypeDefinitionIndex = 94927;
+	inline static constexpr unsigned int UISnakeDuelInLevelChildWindowController___c__DisplayClass72_0_TypeDefinitionIndex = 96571;
 
 	class UISnakeDuelInLevelChildWindowController___c__DisplayClass72_0 : public ::System::Object
 	{

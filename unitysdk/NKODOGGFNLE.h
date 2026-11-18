@@ -1,0 +1,107 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IOOIHHOJOPI.h"
+
+class FGCOIBFFCHB;
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine::UI { class Text; }
+
+#define NKODOGGFNLE_ADBAHILIPIH_OFFSET UNITYSDK_OFFSET(0xE0A8070)
+#define NKODOGGFNLE_AIOBDKNBGBE_OFFSET UNITYSDK_OFFSET(0xE0A80C0)
+#define NKODOGGFNLE_AKPDEHBNIDM_OFFSET UNITYSDK_OFFSET(0xE0A80B0)
+#define NKODOGGFNLE_DAHPGPKEGIB_OFFSET UNITYSDK_OFFSET(0xE0A8090)
+#define NKODOGGFNLE_EFKGNFCEENK_OFFSET UNITYSDK_OFFSET(0xE0A7D50)
+#define NKODOGGFNLE_HGJHKJINFKJ_OFFSET UNITYSDK_OFFSET(0xE0A80A0)
+#define NKODOGGFNLE_KCBFBGFIJOH_OFFSET UNITYSDK_OFFSET(0xE0A8050)
+#define NKODOGGFNLE_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0xE0A7C90)
+#define NKODOGGFNLE_NDNEGJIMOIN_OFFSET UNITYSDK_OFFSET(0xE0A80D0)
+#define NKODOGGFNLE_NGGFEJNIALO_OFFSET UNITYSDK_OFFSET(0xE0A8060)
+#define NKODOGGFNLE_NKBNJLPGOML_OFFSET UNITYSDK_OFFSET(0xE0A8080)
+#define NKODOGGFNLE_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0xE0A7AB0)
+#define NKODOGGFNLE_PEHGCADHFOA_OFFSET UNITYSDK_OFFSET(0xE0A80E0)
+#define NKODOGGFNLE__CTOR_OFFSET UNITYSDK_OFFSET(0xE0A7FC0)
+
+inline static constexpr unsigned int NKODOGGFNLE_TypeDefinitionIndex = 65987;
+
+class NKODOGGFNLE : public ::IOOIHHOJOPI
+{
+public:
+	::UnityEngine::GameObject* _NKADJMPKLKN_k__BackingField; // 0x28
+	::UnityEngine::UI::Text* _LEJKFDMNPKF_k__BackingField; // 0x30
+	::FGCOIBFFCHB* _PHNLNOHPGGE_k__BackingField; // 0x38
+	::FGCOIBFFCHB* _IPDCFILHBJN_k__BackingField; // 0x40
+	::LGINJIKKBJA* _FDKIEEKIGGM_k__BackingField; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NKODOGGFNLE__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + NKODOGGFNLE_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::FGCOIBFFCHB* KCBFBGFIJOH()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + NKODOGGFNLE_KCBFBGFIJOH_OFFSET))(this);
+	}
+
+	::FGCOIBFFCHB* NGGFEJNIALO()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + NKODOGGFNLE_NGGFEJNIALO_OFFSET))(this);
+	}
+
+	::UnityEngine::UI::Text* ADBAHILIPIH()
+	{
+		return ((::UnityEngine::UI::Text*(*)(::PVOID))((::PBYTE)hIl2Cpp + NKODOGGFNLE_ADBAHILIPIH_OFFSET))(this);
+	}
+
+	::System::Void NKBNJLPGOML(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + NKODOGGFNLE_NKBNJLPGOML_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void DAHPGPKEGIB(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + NKODOGGFNLE_DAHPGPKEGIB_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void HGJHKJINFKJ(::UnityEngine::UI::Text* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Text*))((::PBYTE)hIl2Cpp + NKODOGGFNLE_HGJHKJINFKJ_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NKODOGGFNLE_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::LGINJIKKBJA* AKPDEHBNIDM()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + NKODOGGFNLE_AKPDEHBNIDM_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* AIOBDKNBGBE()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + NKODOGGFNLE_AIOBDKNBGBE_OFFSET))(this);
+	}
+
+	::System::Void EFKGNFCEENK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NKODOGGFNLE_EFKGNFCEENK_OFFSET))(this);
+	}
+
+	::System::Void NDNEGJIMOIN(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + NKODOGGFNLE_NDNEGJIMOIN_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void PEHGCADHFOA(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + NKODOGGFNLE_PEHGCADHFOA_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

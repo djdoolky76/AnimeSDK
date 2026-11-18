@@ -3,17 +3,17 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelEndNode_LevelEndPerformType_TypeDefinitionIndex = 53285;
+	inline static constexpr unsigned int LDLevelEndNode_LevelEndPerformType_TypeDefinitionIndex = 43829;
 
 	enum class LDLevelEndNode_LevelEndPerformType : ::System::Int32
 	{
-		ShortCut = 4,
 		Dialog = 2,
-		Empty = 10,
+		Custom = 5,
 		Instant = 1,
 		InDirectKill = 3,
-		Normal = 0,
+		ShortCut = 4,
+		Empty = 10,
 		Invalid = -1,
-		Custom = 5,
+		Normal = 0,
 	};
 }

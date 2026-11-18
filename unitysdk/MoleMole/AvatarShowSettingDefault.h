@@ -9,21 +9,21 @@ namespace MoleMole { class UIAvatarLightSetting; }
 namespace MoleMole { class UIAvatarSettingDefault; }
 namespace MoleMole { class UIModelBgSetting; }
 
-#define MOLEMOLE_AVATARSHOWSETTINGDEFAULT_PARSEDEFAULT_OFFSET UNITYSDK_OFFSET(0x14831B70)
-#define MOLEMOLE_AVATARSHOWSETTINGDEFAULT__CTOR_OFFSET UNITYSDK_OFFSET(0x14831AC0)
+#define MOLEMOLE_AVATARSHOWSETTINGDEFAULT_PARSEDEFAULT_OFFSET UNITYSDK_OFFSET(0x11E595E0)
+#define MOLEMOLE_AVATARSHOWSETTINGDEFAULT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E59530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AvatarShowSettingDefault_TypeDefinitionIndex = 47146;
+	inline static constexpr unsigned int AvatarShowSettingDefault_TypeDefinitionIndex = 51533;
 
 	class AvatarShowSettingDefault : public ::System::Object
 	{
 	public:
-		::MoleMole::UIAvatarSettingDefault* AvatarSetting; // 0x10
-		::MoleMole::UIAvatarCameraSetting* AvatarCameraSetting; // 0x18
-		::MoleMole::UIAvatarLightSetting* AvatarLightSetting; // 0x20
-		::MoleMole::UIAvatarAnimatorParamsSetting* AnimatorParamsSetting; // 0x28
-		::MoleMole::UIModelBgSetting* ModelBgSetting; // 0x30
+		::MoleMole::UIAvatarLightSetting* AvatarLightSetting; // 0x10
+		::MoleMole::UIModelBgSetting* ModelBgSetting; // 0x18
+		::MoleMole::UIAvatarAnimatorParamsSetting* AnimatorParamsSetting; // 0x20
+		::MoleMole::UIAvatarSettingDefault* AvatarSetting; // 0x28
+		::MoleMole::UIAvatarCameraSetting* AvatarCameraSetting; // 0x30
 
 		::System::Void _ctor()
 		{

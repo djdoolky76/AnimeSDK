@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Nap/NapECS/ComponentMask.h"
-#include "unitysdk/Nap/NapECS/ComponentMaskFilter_ComplexMask.h"
-#include "unitysdk/System/Collections/Generic/List_1_Enumerator.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
 namespace Nap::NapECS { class EcsWorld; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAP_NAPECS_COMPONENTMASKFILTER_ALL_OFFSET UNITYSDK_OFFSET(0x1C833E80)
-#define NAP_NAPECS_COMPONENTMASKFILTER_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C832820)
-#define NAP_NAPECS_COMPONENTMASKFILTER_GET_BUFFER_OFFSET UNITYSDK_OFFSET(0x1C8325B0)
-#define NAP_NAPECS_COMPONENTMASKFILTER_GET_CACHEMASK_OFFSET UNITYSDK_OFFSET(0x1C832510)
-#define NAP_NAPECS_COMPONENTMASKFILTER_ISPASS_OFFSET UNITYSDK_OFFSET(0x1C8329E0)
-#define NAP_NAPECS_COMPONENTMASKFILTER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1C833B30)
-#define NAP_NAPECS_COMPONENTMASKFILTER_MARKCACHEDIRTY_OFFSET UNITYSDK_OFFSET(0x1C832650)
-#define NAP_NAPECS_COMPONENTMASKFILTER_RESETCACHE_OFFSET UNITYSDK_OFFSET(0x1C8326E0)
-#define NAP_NAPECS_COMPONENTMASKFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C834350)
+#define NAP_NAPECS_COMPONENTMASKFILTER_ALL_OFFSET UNITYSDK_OFFSET(0x1CDFA850)
+#define NAP_NAPECS_COMPONENTMASKFILTER_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CDF9200)
+#define NAP_NAPECS_COMPONENTMASKFILTER_GET_BUFFER_OFFSET UNITYSDK_OFFSET(0x1CDF8F90)
+#define NAP_NAPECS_COMPONENTMASKFILTER_GET_CACHEMASK_OFFSET UNITYSDK_OFFSET(0x1CDF8EF0)
+#define NAP_NAPECS_COMPONENTMASKFILTER_ISPASS_OFFSET UNITYSDK_OFFSET(0x1CDF93C0)
+#define NAP_NAPECS_COMPONENTMASKFILTER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1CDFA500)
+#define NAP_NAPECS_COMPONENTMASKFILTER_MARKCACHEDIRTY_OFFSET UNITYSDK_OFFSET(0x1CDF9030)
+#define NAP_NAPECS_COMPONENTMASKFILTER_RESETCACHE_OFFSET UNITYSDK_OFFSET(0x1CDF90C0)
+#define NAP_NAPECS_COMPONENTMASKFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDFAD00)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ComponentMaskFilter_TypeDefinitionIndex = 38045;
+	inline static constexpr unsigned int ComponentMaskFilter_TypeDefinitionIndex = 35979;
 
 	class ComponentMaskFilter : public ::System::Object
 	{
 	public:
-		::Nap::NapECS::EcsWorld* _cachedWorld; // 0x10
-		::System::Collections::Generic::List_1<::Nap::NapECS::ComponentMask>* _cachedComponentMask; // 0x18
-		::System::Collections::Generic::List_1<::Nap::NapECS::ComponentMask>* _buffer; // 0x20
-		::System::Collections::Generic::List_1<::Nap::NapECS::ComponentMaskFilter_ComplexMask>* _complexMasks; // 0x28
-		::Nap::NapECS::ComponentMask _noneMask; // 0x30
-		::Nap::NapECS::ComponentMask _allMask; // 0x70
+		::System::Collections::Generic::List_1<::Nap::NapECS::ComponentMask>* _cachedComponentMask; // 0x10
+		::System::Collections::Generic::List_1<::Nap::NapECS::ComponentMask>* _buffer; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* _complexMasks; // 0x20
+		::Nap::NapECS::EcsWorld* _cachedWorld; // 0x28
+		::Nap::NapECS::ComponentMask _allMask; // 0x30
+		::Nap::NapECS::ComponentMask _noneMask; // 0x70
 		::System::Nullable_1<::System::UInt32> _cachedVersion; // 0xB0
 
 		::System::Void _ctor()
@@ -59,9 +57,9 @@ namespace Nap::NapECS
 			return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + NAP_NAPECS_COMPONENTMASKFILTER_RESETCACHE_OFFSET))(this, world);
 		}
 
-		::System::Collections::Generic::List_1_Enumerator<::Nap::NapECS::ComponentMask> GetEnumerator(::Nap::NapECS::EcsWorld* world)
+		::System::Object* GetEnumerator(::Nap::NapECS::EcsWorld* world)
 		{
-			return ((::System::Collections::Generic::List_1_Enumerator<::Nap::NapECS::ComponentMask>(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + NAP_NAPECS_COMPONENTMASKFILTER_GETENUMERATOR_OFFSET))(this, world);
+			return ((::System::Object*(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + NAP_NAPECS_COMPONENTMASKFILTER_GETENUMERATOR_OFFSET))(this, world);
 		}
 
 		::System::Boolean IsPass(::Nap::NapECS::ComponentMask& mask)

@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/ChessStateMachine/GridBlockAction_RuntimeData.h"
-#include "unitysdk/MoleMole/ChessStateMachine/StateMachineGeometryEntityAction_1.h"
 
-class Class_3_5A46B9360F369125;
+class CMJKDHNDLBM;
 
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDBLOCKACTION_ACTIONOVER_OFFSET UNITYSDK_OFFSET(0x16C29280)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDBLOCKACTION_RUN_OFFSET UNITYSDK_OFFSET(0x16C28ED0)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDBLOCKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16C292E0)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDBLOCKACTION___BASE_ACTIONOVER_OFFSET UNITYSDK_OFFSET(0x16C29300)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDBLOCKACTION_ACTIONOVER_OFFSET UNITYSDK_OFFSET(0x18B81EE0)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDBLOCKACTION_RUN_OFFSET UNITYSDK_OFFSET(0x18B81B30)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDBLOCKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18B81F40)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDBLOCKACTION___BASE_ACTIONOVER_OFFSET UNITYSDK_OFFSET(0x18B81F60)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int GridBlockAction_TypeDefinitionIndex = 74821;
+	inline static constexpr unsigned int GridBlockAction_TypeDefinitionIndex = 84579;
 
-	class GridBlockAction : public ::MoleMole::ChessStateMachine::StateMachineGeometryEntityAction_1<::MoleMole::ChessStateMachine::GridBlockAction_RuntimeData>
+	class GridBlockAction
 	{
 	public:
 		::System::Void _ctor()
@@ -22,9 +20,9 @@ namespace MoleMole::ChessStateMachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDBLOCKACTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Run(::Class_3_5A46B9360F369125* context)
+		::System::Void Run(::CMJKDHNDLBM* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_5A46B9360F369125*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDBLOCKACTION_RUN_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::CMJKDHNDLBM*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDBLOCKACTION_RUN_OFFSET))(this, context);
 		}
 
 		::System::Void ActionOver()

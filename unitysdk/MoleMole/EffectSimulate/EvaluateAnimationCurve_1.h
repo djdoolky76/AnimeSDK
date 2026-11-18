@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/EffectSimulate/IEvaluateCurve_1.h"
-
-namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int EvaluateAnimationCurve_1_TypeDefinitionIndex = 89168;
+	inline static constexpr unsigned int EvaluateAnimationCurve_1_TypeDefinitionIndex = 51598;
 
 	template <typename T>
-	class EvaluateAnimationCurve_1 : public ::MoleMole::EffectSimulate::IEvaluateCurve_1<T>
+	class EvaluateAnimationCurve_1
 	{
 	public:
 		// static const ::System::Single CURVE_ITEM_WIDTH; // 0x0

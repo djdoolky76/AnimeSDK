@@ -3,14 +3,14 @@
 #include "unitysdk/MoleMole/Config/EntitySkillType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CONFIG_SKILLTYPETOATTACKTAGSCONFIG_SKILLTYPECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x865F70)
-#define MOLEMOLE_CONFIG_SKILLTYPETOATTACKTAGSCONFIG_SKILLTYPECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x865F20)
+#define MOLEMOLE_CONFIG_SKILLTYPETOATTACKTAGSCONFIG_SKILLTYPECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x785590)
+#define MOLEMOLE_CONFIG_SKILLTYPETOATTACKTAGSCONFIG_SKILLTYPECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x785540)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SkillTypeToAttackTagsConfig_SkillTypeComparer_TypeDefinitionIndex = 67229;
+	inline static constexpr unsigned int SkillTypeToAttackTagsConfig_SkillTypeComparer_TypeDefinitionIndex = 55495;
 
-	struct alignas(1) SkillTypeToAttackTagsConfig_SkillTypeComparer
+	struct alignas(4) SkillTypeToAttackTagsConfig_SkillTypeComparer
 	{
 		::System::Int32 GetHashCode(::MoleMole::Config::EntitySkillType obj)
 		{

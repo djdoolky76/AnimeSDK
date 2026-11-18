@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace UnityEngine { class Component; }
 namespace UnityEngine::UI { class Graphic; }
 
-#define COFFEE_UISOFTMASK_GRAPHICCONNECTOREXTENSION_SETMATERIALDIRTYEX_OFFSET UNITYSDK_OFFSET(0x1F8D9760)
-#define COFFEE_UISOFTMASK_GRAPHICCONNECTOREXTENSION_SETVERTICESDIRTYEX_OFFSET UNITYSDK_OFFSET(0x1F8D96D0)
+#define COFFEE_UISOFTMASK_GRAPHICCONNECTOREXTENSION_SETMATERIALDIRTYEX_OFFSET UNITYSDK_OFFSET(0x1FCE7F60)
+#define COFFEE_UISOFTMASK_GRAPHICCONNECTOREXTENSION_SETVERTICESDIRTYEX_OFFSET UNITYSDK_OFFSET(0x1FCE7ED0)
 
 namespace Coffee::UISoftMask
 {
-	inline static constexpr unsigned int GraphicConnectorExtension_TypeDefinitionIndex = 94428;
+	inline static constexpr unsigned int GraphicConnectorExtension_TypeDefinitionIndex = 96115;
 
 	class GraphicConnectorExtension : public ::System::Object
 	{

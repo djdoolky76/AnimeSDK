@@ -3,9 +3,9 @@
 #include "unitysdk/ENPCAvatarBodyPart.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCAVATARMESHASSETSSO_SEQUENCEFRAMEHIDEPARTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x15B6E600)
+#define NPCAVATARMESHASSETSSO_SEQUENCEFRAMEHIDEPARTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xE0B6080)
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_SequenceFrameHidePartMapping_TypeDefinitionIndex = 55898;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_SequenceFrameHidePartMapping_TypeDefinitionIndex = 48084;
 
 class NPCAvatarMeshAssetsSO_SequenceFrameHidePartMapping : public ::System::Object
 {

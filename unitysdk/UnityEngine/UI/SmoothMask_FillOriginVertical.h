@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SmoothMask_FillOriginVertical_TypeDefinitionIndex = 19306;
+	inline static constexpr unsigned int SmoothMask_FillOriginVertical_TypeDefinitionIndex = 18460;
 
 	enum class SmoothMask_FillOriginVertical : ::System::Int32
 	{

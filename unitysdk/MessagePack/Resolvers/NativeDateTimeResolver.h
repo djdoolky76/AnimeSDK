@@ -3,25 +3,24 @@
 #include "unitysdk/System/Object.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_RESOLVERS_NATIVEDATETIMERESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBBA0E0)
-#define MESSAGEPACK_RESOLVERS_NATIVEDATETIMERESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBA1D0)
+#define MESSAGEPACK_RESOLVERS_NATIVEDATETIMERESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF8C990)
+#define MESSAGEPACK_RESOLVERS_NATIVEDATETIMERESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8CA80)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int NativeDateTimeResolver_TypeDefinitionIndex = 29770;
+	inline static constexpr unsigned int NativeDateTimeResolver_TypeDefinitionIndex = 30198;
 
 	class NativeDateTimeResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::NativeDateTimeResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::NativeDateTimeResolver**)Il2CppClass::FromTypeDefinitionIndex(NativeDateTimeResolver_TypeDefinitionIndex)->GetStaticField(0x25660);
+			return (::MessagePack::Resolvers::NativeDateTimeResolver**)Il2CppClass::FromTypeDefinitionIndex(NativeDateTimeResolver_TypeDefinitionIndex)->GetStaticField(0x26730);
 		}
 		static ::MessagePack::MessagePackSerializerOptions** StaticGet_Options()
 		{
-			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(NativeDateTimeResolver_TypeDefinitionIndex)->GetStaticField(0x25668);
+			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(NativeDateTimeResolver_TypeDefinitionIndex)->GetStaticField(0x26738);
 		}
 
 		static ::System::Void _cctor()

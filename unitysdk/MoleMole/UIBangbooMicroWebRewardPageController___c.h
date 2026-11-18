@@ -6,29 +6,29 @@ namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x197844B0)
-#define MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x197844F0)
-#define MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__ONBANGBOOMICROWEBSUBMITMATERIALFINISH_B__60_0_OFFSET UNITYSDK_OFFSET(0x19784500)
-#define MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__ONBANGBOOMICROWEBSUBMITMATERIALFINISH_B__60_1_OFFSET UNITYSDK_OFFSET(0x19784510)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D23D30)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18D23D70)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__ONBANGBOOMICROWEBSUBMITMATERIALFINISH_B__61_0_OFFSET UNITYSDK_OFFSET(0x18D23D80)
+#define MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__ONBANGBOOMICROWEBSUBMITMATERIALFINISH_B__61_1_OFFSET UNITYSDK_OFFSET(0x18D23D90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooMicroWebRewardPageController___c_TypeDefinitionIndex = 73648;
+	inline static constexpr unsigned int UIBangbooMicroWebRewardPageController___c_TypeDefinitionIndex = 70472;
 
 	class UIBangbooMicroWebRewardPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIBangbooMicroWebRewardPageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIBangbooMicroWebRewardPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangbooMicroWebRewardPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FBC0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIBangbooMicroWebRewardPageController___c_TypeDefinitionIndex)->GetStaticField(0x44DA0);
 		}
-		static ::System::Action** StaticGet___9__60_0()
+		static ::System::Action** StaticGet___9__61_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangbooMicroWebRewardPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FBC8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangbooMicroWebRewardPageController___c_TypeDefinitionIndex)->GetStaticField(0x44DA8);
 		}
-		static ::System::Action_1<::UnityEngine::Transform*>** StaticGet___9__60_1()
+		static ::System::Action_1<::UnityEngine::Transform*>** StaticGet___9__61_1()
 		{
-			return (::System::Action_1<::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(UIBangbooMicroWebRewardPageController___c_TypeDefinitionIndex)->GetStaticField(0x3FBD0);
+			return (::System::Action_1<::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(UIBangbooMicroWebRewardPageController___c_TypeDefinitionIndex)->GetStaticField(0x44DB0);
 		}
 
 		static ::System::Void _cctor()
@@ -41,14 +41,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnBangbooMicroWebSubmitMaterialFinish_b__60_0()
+		::System::Void _OnBangbooMicroWebSubmitMaterialFinish_b__61_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__ONBANGBOOMICROWEBSUBMITMATERIALFINISH_B__60_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__ONBANGBOOMICROWEBSUBMITMATERIALFINISH_B__61_0_OFFSET))(this);
 		}
 
-		::System::Void _OnBangbooMicroWebSubmitMaterialFinish_b__60_1(::UnityEngine::Transform* root)
+		::System::Void _OnBangbooMicroWebSubmitMaterialFinish_b__61_1(::UnityEngine::Transform* root)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__ONBANGBOOMICROWEBSUBMITMATERIALFINISH_B__60_1_OFFSET))(this, root);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBREWARDPAGECONTROLLER___C__ONBANGBOOMICROWEBSUBMITMATERIALFINISH_B__61_1_OFFSET))(this, root);
 		}
 	};
 }

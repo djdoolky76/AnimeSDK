@@ -1,46 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_48FC4D1DFC0B2BB7.h"
+#include "unitysdk/KHNDOKNJAAM.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 
-#define MOLEMOLE_CONFIG_STIMULUSEVENTITEM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x866060)
-#define MOLEMOLE_CONFIG_STIMULUSEVENTITEM_FROMFLX_OFFSET UNITYSDK_OFFSET(0x865FD0)
-#define MOLEMOLE_CONFIG_STIMULUSEVENTITEM_METHOD_2_1F4AF917A1653551_OFFSET UNITYSDK_OFFSET(0x8660C0)
-#define MOLEMOLE_CONFIG_STIMULUSEVENTITEM_METHOD_2_D4DA1493472613E6_OFFSET UNITYSDK_OFFSET(0x8660D0)
+#define MOLEMOLE_CONFIG_STIMULUSEVENTITEM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x785680)
+#define MOLEMOLE_CONFIG_STIMULUSEVENTITEM_FROMFLX_OFFSET UNITYSDK_OFFSET(0x7855F0)
+#define MOLEMOLE_CONFIG_STIMULUSEVENTITEM_IAEALJJMOKA_OFFSET UNITYSDK_OFFSET(0x785710)
+#define MOLEMOLE_CONFIG_STIMULUSEVENTITEM_PDHKICNJNGG_OFFSET UNITYSDK_OFFSET(0x7856E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int StimulusEventItem_TypeDefinitionIndex = 46147;
+	inline static constexpr unsigned int StimulusEventItem_TypeDefinitionIndex = 93080;
 
 	struct alignas(4) StimulusEventItem
 	{
-		::Enum_3_48FC4D1DFC0B2BB7 Event; // 0x10
+		::KHNDOKNJAAM Event; // 0x10
 		::System::Int32 stimulusID; // 0x14
 
-		/*
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_STIMULUSEVENTITEM_FROMFLX_OFFSET))(this, a1);
-		}
-		*/
-
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_STIMULUSEVENTITEM_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_STIMULUSEVENTITEM_FROMFLX_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean Method_2_1F4AF917A1653551(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean FromBinary(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_STIMULUSEVENTITEM_METHOD_2_1F4AF917A1653551_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_STIMULUSEVENTITEM_FROMBINARY_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 
-		/*
-		::System::Boolean Method_2_D4DA1493472613E6(::FlexBuffers::FlxMap a1)
+		::System::Boolean PDHKICNJNGG(::FlexBuffers::FlxMap HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_STIMULUSEVENTITEM_METHOD_2_D4DA1493472613E6_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_STIMULUSEVENTITEM_PDHKICNJNGG_OFFSET))(this, HHIJHDFHPOI);
 		}
-		*/
+
+		::System::Boolean IAEALJJMOKA(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_STIMULUSEVENTITEM_IAEALJJMOKA_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
+		}
 	};
 }

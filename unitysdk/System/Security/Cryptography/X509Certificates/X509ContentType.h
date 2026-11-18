@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int X509ContentType_TypeDefinitionIndex = 1124;
+	inline static constexpr unsigned int X509ContentType_TypeDefinitionIndex = 1123;
 
 	enum class X509ContentType : ::System::Int32
 	{

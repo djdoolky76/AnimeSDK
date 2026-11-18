@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 namespace System { class Object; }
 
-#define GAUSSIANBLURVOLUMETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x18E82A00)
-#define GAUSSIANBLURVOLUMETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x18E82A90)
-#define GAUSSIANBLURVOLUMETIMELINEBEHAVIOUR___BASE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x18E82AA0)
+#define GAUSSIANBLURVOLUMETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15B38190)
+#define GAUSSIANBLURVOLUMETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x15B38220)
+#define GAUSSIANBLURVOLUMETIMELINEBEHAVIOUR___BASE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15B38230)
 
-inline static constexpr unsigned int GaussianBlurVolumeTimelineBehaviour_TypeDefinitionIndex = 80905;
+inline static constexpr unsigned int GaussianBlurVolumeTimelineBehaviour_TypeDefinitionIndex = 67834;
 
 class GaussianBlurVolumeTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::System::Single maskTiling; // 0x10
-	::System::Boolean isActive; // 0x14
-	::System::Single maskRotation; // 0x18
+	::System::Single maskRotation; // 0x10
+	::System::Single maskTiling; // 0x14
+	::System::Boolean isActive; // 0x18
 
 	::System::Void _ctor()
 	{

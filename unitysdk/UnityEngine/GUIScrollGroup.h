@@ -4,15 +4,15 @@
 
 namespace UnityEngine { class GUIStyle; }
 
-#define UNITYENGINE_GUISCROLLGROUP_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x1E42D720)
-#define UNITYENGINE_GUISCROLLGROUP_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x1E42D4E0)
-#define UNITYENGINE_GUISCROLLGROUP_SETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1E42D580)
-#define UNITYENGINE_GUISCROLLGROUP_SETVERTICAL_OFFSET UNITYSDK_OFFSET(0x1E42D8A0)
-#define UNITYENGINE_GUISCROLLGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E42D470)
+#define UNITYENGINE_GUISCROLLGROUP_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x1E6F11F0)
+#define UNITYENGINE_GUISCROLLGROUP_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x1E6F0FB0)
+#define UNITYENGINE_GUISCROLLGROUP_SETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1E6F1050)
+#define UNITYENGINE_GUISCROLLGROUP_SETVERTICAL_OFFSET UNITYSDK_OFFSET(0x1E6F1370)
+#define UNITYENGINE_GUISCROLLGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F0F40)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIScrollGroup_TypeDefinitionIndex = 6432;
+	inline static constexpr unsigned int GUIScrollGroup_TypeDefinitionIndex = 6438;
 
 	class GUIScrollGroup : public ::UnityEngine::GUILayoutGroup
 	{
@@ -27,6 +27,7 @@ namespace UnityEngine
 		::System::Boolean allowVerticalScroll; // 0xA9
 		::System::Boolean needsHorizontalScrollbar; // 0xAA
 		::System::Boolean needsVerticalScrollbar; // 0xAB
+		::System::Byte _padding0[0x4];
 		::UnityEngine::GUIStyle* horizontalScrollbar; // 0xB0
 		::UnityEngine::GUIStyle* verticalScrollbar; // 0xB8
 

@@ -3,12 +3,12 @@
 #include "unitysdk/AniMeshTick/TickStage.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define ANIMESHTICK_ANIMESHTICKSETTINGS_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x139486F0)
-#define ANIMESHTICK_ANIMESHTICKSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x139487A0)
+#define ANIMESHTICK_ANIMESHTICKSETTINGS_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x134F78C0)
+#define ANIMESHTICK_ANIMESHTICKSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x134F7970)
 
 namespace AniMeshTick
 {
-	inline static constexpr unsigned int AniMeshTickSettings_TypeDefinitionIndex = 54679;
+	inline static constexpr unsigned int AniMeshTickSettings_TypeDefinitionIndex = 42147;
 
 	class AniMeshTickSettings : public ::UnityEngine::ScriptableObject
 	{
@@ -30,6 +30,7 @@ namespace AniMeshTick
 		::System::Single veryFarInterval; // 0x44
 		::System::Single fallbackInterval; // 0x48
 		::System::Boolean useScreenSpaceLod; // 0x4C
+		::System::Byte _padding0[0x3];
 		::System::Single targetScreenHeight; // 0x50
 		::System::Single representativeSize; // 0x54
 		::System::Single nearPixelThreshold; // 0x58

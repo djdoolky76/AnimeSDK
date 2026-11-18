@@ -6,11 +6,11 @@ namespace UnityEngine::NAPRenderPipeline0 { class BoolParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class FloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class IntParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1C455F60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1C87DBF0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RTXVolume_TypeDefinitionIndex = 27685;
+	inline static constexpr unsigned int RTXVolume_TypeDefinitionIndex = 27280;
 
 	class RTXVolume : public ::UnityEngine::NAPRenderPipeline0::RTX_NativeSRP
 	{

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CriWare/CriAtomEx_CueLinkInfo.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/CriWare/CriAtomEx_CueLinkInfo.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIATOMEX_CUELINKCBFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FA80BF0)
-#define CRIWARE_CRIATOMEX_CUELINKCBFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FA80C60)
-#define CRIWARE_CRIATOMEX_CUELINKCBFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FA80900)
-#define CRIWARE_CRIATOMEX_CUELINKCBFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA808E0)
+#define CRIWARE_CRIATOMEX_CUELINKCBFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FE99CD0)
+#define CRIWARE_CRIATOMEX_CUELINKCBFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FE99D40)
+#define CRIWARE_CRIATOMEX_CUELINKCBFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FE999E0)
+#define CRIWARE_CRIATOMEX_CUELINKCBFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE999D0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CueLinkCbFunc_TypeDefinitionIndex = 34915;
+	inline static constexpr unsigned int CriAtomEx_CueLinkCbFunc_TypeDefinitionIndex = 34464;
 
 	class CriAtomEx_CueLinkCbFunc : public ::System::MulticastDelegate
 	{

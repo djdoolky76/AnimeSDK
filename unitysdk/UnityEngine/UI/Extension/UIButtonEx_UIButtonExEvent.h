@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace UnityEngine::EventSystems { class PointerEventData; }
-
-#define UNITYENGINE_UI_EXTENSION_UIBUTTONEX_UIBUTTONEXEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E831330)
+#define UNITYENGINE_UI_EXTENSION_UIBUTTONEX_UIBUTTONEXEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1C7060)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIButtonEx_UIButtonExEvent_TypeDefinitionIndex = 85041;
+	inline static constexpr unsigned int UIButtonEx_UIButtonExEvent_TypeDefinitionIndex = 48608;
 
-	class UIButtonEx_UIButtonExEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::EventSystems::PointerEventData*>
+	class UIButtonEx_UIButtonExEvent
 	{
 	public:
 		::System::Void _ctor()

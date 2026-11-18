@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Config/EffectLODType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_COOPVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4680C0)
+#define MOLEMOLE_CONFIG_COOPVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6DD850)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CoopVFXConfig_TypeDefinitionIndex = 63906;
+	inline static constexpr unsigned int CoopVFXConfig_TypeDefinitionIndex = 47995;
 
 	class CoopVFXConfig : public ::System::Object
 	{
@@ -15,6 +15,7 @@ namespace MoleMole::Config
 		::System::Boolean AvatarSubdivide; // 0x10
 		::System::Boolean AvatarGhost; // 0x11
 		::System::Boolean EnableVFX; // 0x12
+		::System::Byte _padding0[0x1];
 		::MoleMole::Config::EffectLODType VFXLOD; // 0x14
 		::System::Boolean VFXSceneMark; // 0x18
 		::System::Boolean EnableAtkHitEffect; // 0x19
@@ -23,6 +24,7 @@ namespace MoleMole::Config
 		::System::Boolean EnableAvatarPropSpecialUI; // 0x1C
 		::System::Boolean EnableAuthorityHitEffStartTimeOffset; // 0x1D
 		::System::Boolean EnableAuthoritySceneMark; // 0x1E
+		::System::Byte _padding1[0x1];
 		::MoleMole::Config::EffectLODType MonsterVFXLOD; // 0x20
 
 		::System::Void _ctor()

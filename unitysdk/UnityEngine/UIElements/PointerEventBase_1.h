@@ -1,22 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/EventModifiers.h"
-#include "unitysdk/UnityEngine/UIElements/EventBase_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
-namespace UnityEngine { class Event; }
-namespace UnityEngine::UIElements { class IEventHandler; }
-namespace UnityEngine::UIElements { class IPanel; }
-namespace UnityEngine::UIElements { class IPointerEvent; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerEventBase_1_TypeDefinitionIndex = 28160;
+	inline static constexpr unsigned int PointerEventBase_1_TypeDefinitionIndex = 27578;
 
 	template <typename T>
-	class PointerEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T>
+	class PointerEventBase_1
 	{
 	public:
 		::System::Int32 _pointerId_k__BackingField; // 0x0

@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Reflection/Emit/Label.h"
+#include "unitysdk/System/Object.h"
 
-namespace MessagePack::Internal { class DynamicObjectTypeBuilder___c__DisplayClass9_0; }
 namespace System::Reflection::Emit { class LocalBuilder; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_4__BUILDDESERIALIZE_B__8_OFFSET UNITYSDK_OFFSET(0x1E7AE5E0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AE5D0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_4__BUILDDESERIALIZE_B__8_OFFSET UNITYSDK_OFFSET(0x1EA5F6A0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS9_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5F690)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass9_4_TypeDefinitionIndex = 31058;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass9_4_TypeDefinitionIndex = 30636;
 
+	template <typename T1, typename T2, typename T3, typename T4>
 	class DynamicObjectTypeBuilder___c__DisplayClass9_4 : public ::System::Object
 	{
 	public:
-		::MessagePack::Internal::DynamicObjectTypeBuilder___c__DisplayClass9_0* CS___8__locals4; // 0x10
-		::System::Reflection::Emit::LocalBuilder* key; // 0x18
+		::System::Reflection::Emit::LocalBuilder* key; // 0x10
+		::System::Object* CS___8__locals4; // 0x18
 		::System::Reflection::Emit::Label switchDefault; // 0x20
 
 		::System::Void _ctor()

@@ -3,15 +3,15 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NAP_CharStyleFlags_TypeDefinitionIndex = 73259;
+	inline static constexpr unsigned int NAP_CharStyleFlags_TypeDefinitionIndex = 88110;
 
 	enum class NAP_CharStyleFlags : ::System::UInt16
 	{
-		Underline = 0x4,
-		Bold = 0x1,
-		Link = 0x8,
-		Italic = 0x2,
-		Mark = 0x10,
-		None = 0x0,
+		Mark = 16,
+		Bold = 1,
+		Underline = 4,
+		Italic = 2,
+		None = 0,
+		Link = 8,
 	};
 }

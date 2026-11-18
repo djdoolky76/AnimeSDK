@@ -6,16 +6,16 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x97FBF0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_EQUALS_OFFSET UNITYSDK_OFFSET(0x97FBC0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x97FC60)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D009D70)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x97FC90)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x97FBB0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x8BC030)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_EQUALS_OFFSET UNITYSDK_OFFSET(0x8BC000)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8BC0A0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D5BEF10)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8BC0D0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x8BBFF0)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int Dimension_TypeDefinitionIndex = 28222;
+	inline static constexpr unsigned int Dimension_TypeDefinitionIndex = 27640;
 
 	struct alignas(4) Dimension
 	{
@@ -27,15 +27,19 @@ namespace UnityEngine::UIElements::StyleSheets
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::UIElements::StyleSheets::Dimension_Unit))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION__CTOR_OFFSET))(this, value, unit);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::UIElements::StyleSheets::Dimension lhs, ::UnityEngine::UIElements::StyleSheets::Dimension rhs)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::UIElements::StyleSheets::Dimension, ::UnityEngine::UIElements::StyleSheets::Dimension))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_OP_EQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::UnityEngine::UIElements::StyleSheets::Dimension other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleSheets::Dimension))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{

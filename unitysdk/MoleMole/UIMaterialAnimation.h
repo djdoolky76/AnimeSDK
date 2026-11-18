@@ -13,19 +13,19 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine::UI { class MaskableGraphic; }
 
-#define MOLEMOLE_UIMATERIALANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x183B2610)
-#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x183B2510)
-#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_3D32A8D32FBB901A_OFFSET UNITYSDK_OFFSET(0x183B2B40)
-#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_78037B64B814568E_OFFSET UNITYSDK_OFFSET(0x183B2020)
-#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_D7852DE078ACC1F1_OFFSET UNITYSDK_OFFSET(0x183B2F70)
-#define MOLEMOLE_UIMATERIALANIMATION_METHOD_5_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x183B2900)
-#define MOLEMOLE_UIMATERIALANIMATION_PLAYDEFAULTBYLOADMATERIAL_OFFSET UNITYSDK_OFFSET(0x183B1C00)
-#define MOLEMOLE_UIMATERIALANIMATION_PLAYUIMATANIBYLOAD_OFFSET UNITYSDK_OFFSET(0x183B1C70)
-#define MOLEMOLE_UIMATERIALANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x183B2E30)
+#define MOLEMOLE_UIMATERIALANIMATION_EEJMPIFGAPK_OFFSET UNITYSDK_OFFSET(0x18818740)
+#define MOLEMOLE_UIMATERIALANIMATION_GALGFCPKMGC_OFFSET UNITYSDK_OFFSET(0x188177F0)
+#define MOLEMOLE_UIMATERIALANIMATION_GHODDJPFIDL_OFFSET UNITYSDK_OFFSET(0x18817CE0)
+#define MOLEMOLE_UIMATERIALANIMATION_HOCIPPOJOPJ_OFFSET UNITYSDK_OFFSET(0x188180D0)
+#define MOLEMOLE_UIMATERIALANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x18817DE0)
+#define MOLEMOLE_UIMATERIALANIMATION_MBHJJNFNGPE_OFFSET UNITYSDK_OFFSET(0x18818310)
+#define MOLEMOLE_UIMATERIALANIMATION_PLAYDEFAULTBYLOADMATERIAL_OFFSET UNITYSDK_OFFSET(0x188173D0)
+#define MOLEMOLE_UIMATERIALANIMATION_PLAYUIMATANIBYLOAD_OFFSET UNITYSDK_OFFSET(0x18817440)
+#define MOLEMOLE_UIMATERIALANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18818600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMaterialAnimation_TypeDefinitionIndex = 63880;
+	inline static constexpr unsigned int UIMaterialAnimation_TypeDefinitionIndex = 74314;
 
 	class UIMaterialAnimation : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,32 +33,34 @@ namespace MoleMole
 		::System::Collections::Generic::List_1<::MoleMole::MatAnimationData*>* Property; // 0x18
 		::System::Collections::Generic::List_1<::MoleMole::MatAnimationData*>* ApplyProperty; // 0x20
 		::System::String* animationName; // 0x28
-		::UnityEngine::UI::MaskableGraphic* Field_5_0; // 0x30
-		::UnityEngine::Material* Field_5_7; // 0x38
-		::Foundation::AssetRequestHandle Field_5_6; // 0x40
-		::UnityEngine::MeshRenderer* Field_5_5; // 0x60
-		::UnityEngine::MaterialPropertyBlock* Field_5_4; // 0x68
-		::UnityEngine::Animation* Field_5_11; // 0x70
-		::System::Boolean Field_5_10; // 0x78
-		::System::Single Field_5_9; // 0x7C
-		::System::Single Field_5_8; // 0x80
-		::UnityEngine::Material* Field_5_15; // 0x88
-		::UnityEngine::Color Field_5_14; // 0x90
-		::System::Boolean Field_5_13; // 0xA0
+		::UnityEngine::UI::MaskableGraphic* AAGKJDGBJHI; // 0x30
+		::UnityEngine::Material* HFPHHEMPFDL; // 0x38
+		::Foundation::AssetRequestHandle HOAIDAHPKEC; // 0x40
+		::UnityEngine::MeshRenderer* EGEPFJKNFAA; // 0x60
+		::UnityEngine::MaterialPropertyBlock* HGDFLAEBCGA; // 0x68
+		::UnityEngine::Animation* EEFOCCNFJCO; // 0x70
+		::System::Boolean FILEKDINJHN; // 0x78
+		::System::Byte _padding0[0x3];
+		::System::Single PPGBCKJGDGP; // 0x7C
+		::System::Single FFGCNMOODNC; // 0x80
+		::System::Byte _padding1[0x4];
+		::UnityEngine::Material* CLHOMDMIACO; // 0x88
+		::UnityEngine::Color JEJOGJNBEOL; // 0x90
+		::System::Boolean FOBHALIGGIK; // 0xA0
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION__CTOR_OFFSET))(this);
 		}
 
-		::System::Single PlayDefaultByLoadMaterial(::System::String* a1)
+		::System::Single PlayDefaultByLoadMaterial(::System::String* CJBJONJDOLI)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_PLAYDEFAULTBYLOADMATERIAL_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_PLAYDEFAULTBYLOADMATERIAL_OFFSET))(this, CJBJONJDOLI);
 		}
 
-		::System::Single PlayUIMatAniByLoad(::System::String* a1, ::System::String* a2)
+		::System::Single PlayUIMatAniByLoad(::System::String* LIPIPGHBHFH, ::System::String* DPMDHOFOMIE)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_PLAYUIMATANIBYLOAD_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_PLAYUIMATANIBYLOAD_OFFSET))(this, LIPIPGHBHFH, DPMDHOFOMIE);
 		}
 
 		::System::Void LateUpdate()
@@ -66,29 +68,29 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_D7852DE078ACC1F1()
+		::System::Void HOCIPPOJOPJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_D7852DE078ACC1F1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_HOCIPPOJOPJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_78037B64B814568E()
+		::System::Void GHODDJPFIDL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_78037B64B814568E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_GHODDJPFIDL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_EDFD49C942C75D6C()
+		::System::Void MBHJJNFNGPE(::System::String* HIAIKHDFCLN, ::System::String* OBNIAHNMHPF)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_EDFD49C942C75D6C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_MBHJJNFNGPE_OFFSET))(this, HIAIKHDFCLN, OBNIAHNMHPF);
 		}
 
-		::System::Void Method_5_151E25A63D14DDB0()
+		::System::Void GALGFCPKMGC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_151E25A63D14DDB0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_GALGFCPKMGC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_3D32A8D32FBB901A(::System::String* a1, ::System::String* a2)
+		::System::Void EEJMPIFGAPK()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_METHOD_5_3D32A8D32FBB901A_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALANIMATION_EEJMPIFGAPK_OFFSET))(this);
 		}
 	};
 }

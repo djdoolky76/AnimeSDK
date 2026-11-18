@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7807B2B04302CD7B_11;
-namespace MoleMole { class UITowerDefenseLevelPageController___c__DisplayClass28_0; }
+class AHEAKGPHEKP;
 
-#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15A62CF0)
-#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS28_1__REFRESHLEVELLIST_B__2_OFFSET UNITYSDK_OFFSET(0x15A62D00)
+#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13BBCE80)
+#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS28_1__REFRESHLEVELLIST_B__2_OFFSET UNITYSDK_OFFSET(0x13BBCE90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerDefenseLevelPageController___c__DisplayClass28_1_TypeDefinitionIndex = 84619;
+	inline static constexpr unsigned int UITowerDefenseLevelPageController___c__DisplayClass28_1_TypeDefinitionIndex = 45986;
 
+	template <typename T>
 	class UITowerDefenseLevelPageController___c__DisplayClass28_1 : public ::System::Object
 	{
 	public:
-		::Class_1_7807B2B04302CD7B_11* data; // 0x10
-		::MoleMole::UITowerDefenseLevelPageController___c__DisplayClass28_0* CS___8__locals1; // 0x18
+		::System::Object* CS___8__locals1; // 0x10
+		::AHEAKGPHEKP* data; // 0x18
 
 		::System::Void _ctor()
 		{

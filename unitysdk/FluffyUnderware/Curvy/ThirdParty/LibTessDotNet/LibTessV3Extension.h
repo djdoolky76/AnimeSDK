@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FluffyUnderware/Curvy/ThirdParty/LibTessDotNet/Vec3.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FluffyUnderware/Curvy/ThirdParty/LibTessDotNet/Vec3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLUFFYUNDERWARE_CURVY_THIRDPARTY_LIBTESSDOTNET_LIBTESSV3EXTENSION_VECTOR3_OFFSET UNITYSDK_OFFSET(0x1F02A9E0)
+#define FLUFFYUNDERWARE_CURVY_THIRDPARTY_LIBTESSDOTNET_LIBTESSV3EXTENSION_VECTOR3_OFFSET UNITYSDK_OFFSET(0x1F3B9DE0)
 
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int LibTessV3Extension_TypeDefinitionIndex = 29047;
+	inline static constexpr unsigned int LibTessV3Extension_TypeDefinitionIndex = 28486;
 
 	class LibTessV3Extension : public ::System::Object
 	{

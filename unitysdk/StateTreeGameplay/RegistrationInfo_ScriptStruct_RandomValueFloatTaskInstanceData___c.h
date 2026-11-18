@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVALUEFLOATTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C5BA80)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVALUEFLOATTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18C5BAC0)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVALUEFLOATTASKINSTANCEDATA___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x18C5BAD0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVALUEFLOATTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A80B750)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVALUEFLOATTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A80B790)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVALUEFLOATTASKINSTANCEDATA___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1A80B7A0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_RandomValueFloatTaskInstanceData___c_TypeDefinitionIndex = 59089;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_RandomValueFloatTaskInstanceData___c_TypeDefinitionIndex = 77041;
 
 	class RegistrationInfo_ScriptStruct_RandomValueFloatTaskInstanceData___c : public ::System::Object
 	{
 	public:
-		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_RandomValueFloatTaskInstanceData___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_RandomValueFloatTaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomValueFloatTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x3B310);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomValueFloatTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x3D190);
 		}
 
 		static ::System::Void _cctor()

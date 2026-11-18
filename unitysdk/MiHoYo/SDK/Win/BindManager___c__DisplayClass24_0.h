@@ -7,20 +7,20 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class BindManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE27190)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS24_0__REQUESTBINDEMAILBYCODE_B__0_OFFSET UNITYSDK_OFFSET(0x1CE271A0)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D395AD0)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS24_0__REQUESTBINDEMAILBYCODE_B__0_OFFSET UNITYSDK_OFFSET(0x1D395AE0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass24_0_TypeDefinitionIndex = 21482;
+	inline static constexpr unsigned int BindManager___c__DisplayClass24_0_TypeDefinitionIndex = 20682;
 
 	class BindManager___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::System::String* mail; // 0x10
-		::MiHoYo::SDK::Win::BindManager* __4__this; // 0x18
-		::MiHoYo::SDK::AccountModel* account; // 0x20
-		::System::String* code; // 0x28
+		::MiHoYo::SDK::AccountModel* account; // 0x10
+		::System::String* code; // 0x18
+		::System::String* mail; // 0x20
+		::MiHoYo::SDK::Win::BindManager* __4__this; // 0x28
 
 		::System::Void _ctor()
 		{

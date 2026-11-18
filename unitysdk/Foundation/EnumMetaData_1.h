@@ -7,19 +7,19 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Foundation
 {
-	inline static constexpr unsigned int EnumMetaData_1_TypeDefinitionIndex = 8553;
+	inline static constexpr unsigned int EnumMetaData_1_TypeDefinitionIndex = 9053;
 
-	template <typename TEnum>
+	template <typename T>
 	class EnumMetaData_1 : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Nullable_1<TEnum>>** StaticGet_SmallValue()
+		static ::Il2CppArray<::System::Nullable_1<T>>** StaticGet_SmallValue()
 		{
-			return (::Il2CppArray<::System::Nullable_1<TEnum>>**)Il2CppClass::FromTypeDefinitionIndex(EnumMetaData_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::Il2CppArray<::System::Nullable_1<T>>**)Il2CppClass::FromTypeDefinitionIndex(EnumMetaData_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt64, TEnum>** StaticGet_LargeValue()
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt64, T>** StaticGet_LargeValue()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt64, TEnum>**)Il2CppClass::FromTypeDefinitionIndex(EnumMetaData_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt64, T>**)Il2CppClass::FromTypeDefinitionIndex(EnumMetaData_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 		static ::System::UInt64* StaticGet_MaxValue()
 		{

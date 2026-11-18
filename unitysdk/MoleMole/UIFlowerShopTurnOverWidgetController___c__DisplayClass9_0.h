@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIIncomeNumWidgetController; }
 
-#define MOLEMOLE_UIFLOWERSHOPTURNOVERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BC5470)
-#define MOLEMOLE_UIFLOWERSHOPTURNOVERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__REFRESHINCOME_B__0_OFFSET UNITYSDK_OFFSET(0x17BC5480)
+#define MOLEMOLE_UIFLOWERSHOPTURNOVERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175904F0)
+#define MOLEMOLE_UIFLOWERSHOPTURNOVERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__REFRESHINCOME_B__0_OFFSET UNITYSDK_OFFSET(0x17590500)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerShopTurnOverWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 70912;
+	inline static constexpr unsigned int UIFlowerShopTurnOverWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 71042;
 
 	class UIFlowerShopTurnOverWidgetController___c__DisplayClass9_0 : public ::System::Object
 	{

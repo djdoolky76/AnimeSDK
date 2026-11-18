@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace System { class String; }
-
-#define MIHOYO_SDK_HREFCLICKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D768E40)
+#define MIHOYO_SDK_HREFCLICKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC0DF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HrefClickEvent_TypeDefinitionIndex = 20131;
+	inline static constexpr unsigned int HrefClickEvent_TypeDefinitionIndex = 19277;
 
-	class HrefClickEvent : public ::UnityEngine::Events::UnityEvent_1<::System::String*>
+	class HrefClickEvent
 	{
 	public:
 		::System::Void _ctor()

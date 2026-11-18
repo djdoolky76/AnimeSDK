@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_MULTIVERSIONERRORREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1E752500)
+#define FOUNDATION_MULTIVERSIONERRORREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA29900)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MultiVersionErrorRef_TypeDefinitionIndex = 7994;
+	inline static constexpr unsigned int MultiVersionErrorRef_TypeDefinitionIndex = 8333;
 
 	class MultiVersionErrorRef : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* errorRefPaths; // 0x10
-		::System::String* multiVerPath; // 0x18
+		::System::String* multiVerPath; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* errorRefPaths; // 0x18
 
 		::System::Void _ctor()
 		{

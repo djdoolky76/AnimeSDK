@@ -3,13 +3,13 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITableViewCell_State_TypeDefinitionIndex = 60152;
+	inline static constexpr unsigned int UITableViewCell_State_TypeDefinitionIndex = 54523;
 
 	enum class UITableViewCell_State : ::System::Int32
 	{
-		Disabled = 3,
-		Selected = 2,
-		Dimmed = 1,
 		Normal = 0,
+		Disabled = 3,
+		Dimmed = 1,
+		Selected = 2,
 	};
 }

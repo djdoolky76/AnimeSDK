@@ -8,16 +8,17 @@ namespace MoleMole::Config { class BaseConfigAnimatorBeHitPriority; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGANIMATORBEHITPRIORITIES__CTOR_OFFSET UNITYSDK_OFFSET(0x16258E80)
+#define MOLEMOLE_CONFIG_CONFIGANIMATORBEHITPRIORITIES__CTOR_OFFSET UNITYSDK_OFFSET(0x19B13470)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAnimatorBeHitPriorities_TypeDefinitionIndex = 48822;
+	inline static constexpr unsigned int ConfigAnimatorBeHitPriorities_TypeDefinitionIndex = 38820;
 
 	class ConfigAnimatorBeHitPriorities : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		::System::Boolean UseAnimatorBeHitPriority; // 0x58
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::MoleMole::Config::BaseConfigAnimatorBeHitPriority*>* Items; // 0x60
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimatorBeHitTag, ::MoleMole::AniamtorParamsSetting*>* AnimatorBeHitAniamtorParams; // 0x68
 

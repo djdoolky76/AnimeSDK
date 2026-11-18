@@ -4,17 +4,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOMISSIONTIPSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11D53A40)
+#define MOLEMOLE_MONOMISSIONTIPSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11940E30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoMissionTipsConfig_TypeDefinitionIndex = 47503;
+	inline static constexpr unsigned int MonoMissionTipsConfig_TypeDefinitionIndex = 38720;
 
 	class MonoMissionTipsConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::String* FadeInAnim; // 0x18
 		::System::Single FadeInterval; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::String* FadeCurveKey; // 0x28
 
 		::System::Void _ctor()

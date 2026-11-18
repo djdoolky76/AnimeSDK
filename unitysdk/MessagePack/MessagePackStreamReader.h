@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MessagePack/SequencePool_Rental.h"
-#include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/SequencePosition.h"
+#include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
 
 namespace Nerdbank::Streams { template <typename T> class Sequence_1; }
 namespace System::IO { class Stream; }
 
-#define MESSAGEPACK_MESSAGEPACKSTREAMREADER_DISCARDBUFFEREDDATA_OFFSET UNITYSDK_OFFSET(0x1DAE1500)
-#define MESSAGEPACK_MESSAGEPACKSTREAMREADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DAE1540)
-#define MESSAGEPACK_MESSAGEPACKSTREAMREADER_GET_READDATA_OFFSET UNITYSDK_OFFSET(0x1DAE14F0)
-#define MESSAGEPACK_MESSAGEPACKSTREAMREADER_GET_REMAININGBYTES_OFFSET UNITYSDK_OFFSET(0x1DAE12D0)
-#define MESSAGEPACK_MESSAGEPACKSTREAMREADER_RECYCLELASTMESSAGE_OFFSET UNITYSDK_OFFSET(0x1DAE1590)
-#define MESSAGEPACK_MESSAGEPACKSTREAMREADER_TRYREADNEXTMESSAGE_OFFSET UNITYSDK_OFFSET(0x1DAE1630)
-#define MESSAGEPACK_MESSAGEPACKSTREAMREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DAE1200)
-#define MESSAGEPACK_MESSAGEPACKSTREAMREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE11F0)
+#define MESSAGEPACK_MESSAGEPACKSTREAMREADER_DISCARDBUFFEREDDATA_OFFSET UNITYSDK_OFFSET(0x1D47F5C0)
+#define MESSAGEPACK_MESSAGEPACKSTREAMREADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D47F600)
+#define MESSAGEPACK_MESSAGEPACKSTREAMREADER_GET_READDATA_OFFSET UNITYSDK_OFFSET(0x1D47F5B0)
+#define MESSAGEPACK_MESSAGEPACKSTREAMREADER_GET_REMAININGBYTES_OFFSET UNITYSDK_OFFSET(0x1D47F390)
+#define MESSAGEPACK_MESSAGEPACKSTREAMREADER_RECYCLELASTMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D47F650)
+#define MESSAGEPACK_MESSAGEPACKSTREAMREADER_TRYREADNEXTMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D47F6F0)
+#define MESSAGEPACK_MESSAGEPACKSTREAMREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D47F2C0)
+#define MESSAGEPACK_MESSAGEPACKSTREAMREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D47F2B0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackStreamReader_TypeDefinitionIndex = 31110;
+	inline static constexpr unsigned int MessagePackStreamReader_TypeDefinitionIndex = 30801;
 
 	class MessagePackStreamReader : public ::System::Object
 	{
 	public:
-		::System::IO::Stream* stream; // 0x10
-		::MessagePack::SequencePool_Rental sequenceRental; // 0x18
-		::System::Nullable_1<::System::SequencePosition> endOfLastMessage; // 0x28
+		::MessagePack::SequencePool_Rental sequenceRental; // 0x10
+		::System::Nullable_1<::System::SequencePosition> endOfLastMessage; // 0x20
+		::System::Byte _padding0[0x10];
+		::System::IO::Stream* stream; // 0x38
 		::System::Boolean leaveOpen; // 0x40
 
 		::System::Void _ctor(::System::IO::Stream* stream)

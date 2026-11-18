@@ -1,0 +1,81 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/KECPLIFGOCJ.h"
+
+class JHPKHDBFINM;
+namespace System { class Action; }
+
+#define ILHPHFMOGAL_AALABFNDMDJ_OFFSET UNITYSDK_OFFSET(0x160B41E0)
+#define ILHPHFMOGAL_BHLAEBMEOLO_OFFSET UNITYSDK_OFFSET(0x160B3C90)
+#define ILHPHFMOGAL_BMNMLAIJJGF_OFFSET UNITYSDK_OFFSET(0x160B3A80)
+#define ILHPHFMOGAL_CHLEALKAOJO_OFFSET UNITYSDK_OFFSET(0x160B3AD0)
+#define ILHPHFMOGAL_EJABHIAHIAN_OFFSET UNITYSDK_OFFSET(0x160B41F0)
+#define ILHPHFMOGAL_FPMKEGMLNHG_OFFSET UNITYSDK_OFFSET(0x160B3BD0)
+#define ILHPHFMOGAL_HFPLKMOOLLL_OFFSET UNITYSDK_OFFSET(0x160B3FA0)
+#define ILHPHFMOGAL_IFDPKDOFOJD_OFFSET UNITYSDK_OFFSET(0x160B42C0)
+#define ILHPHFMOGAL_KMIMGEDAMCE_OFFSET UNITYSDK_OFFSET(0x160B3D50)
+#define ILHPHFMOGAL_LNFENFDLMIG_OFFSET UNITYSDK_OFFSET(0x160B37F0)
+#define ILHPHFMOGAL__CTOR_OFFSET UNITYSDK_OFFSET(0x160B3D00)
+
+inline static constexpr unsigned int ILHPHFMOGAL_TypeDefinitionIndex = 74680;
+
+class ILHPHFMOGAL
+{
+public:
+	::System::Action* PLDOELOOFLL; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ILHPHFMOGAL__CTOR_OFFSET))(this);
+	}
+
+	::System::Void LNFENFDLMIG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ILHPHFMOGAL_LNFENFDLMIG_OFFSET))(this);
+	}
+
+	::System::Void CHLEALKAOJO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ILHPHFMOGAL_CHLEALKAOJO_OFFSET))(this);
+	}
+
+	::System::Void FPMKEGMLNHG(::System::Action* EJGDHCIBCJH)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ILHPHFMOGAL_FPMKEGMLNHG_OFFSET))(this, EJGDHCIBCJH);
+	}
+
+	::System::Void BMNMLAIJJGF(::KECPLIFGOCJ GFCJHNHLFEF)
+	{
+		return ((::System::Void(*)(::PVOID, ::KECPLIFGOCJ))((::PBYTE)hIl2Cpp + ILHPHFMOGAL_BMNMLAIJJGF_OFFSET))(this, GFCJHNHLFEF);
+	}
+
+	::System::Void BHLAEBMEOLO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ILHPHFMOGAL_BHLAEBMEOLO_OFFSET))(this);
+	}
+
+	::System::Void KMIMGEDAMCE(::Il2CppArray<::System::Byte>* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + ILHPHFMOGAL_KMIMGEDAMCE_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::JHPKHDBFINM* HFPLKMOOLLL(::System::Int32 HPHBHJJHFKD)
+	{
+		return ((::JHPKHDBFINM*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ILHPHFMOGAL_HFPLKMOOLLL_OFFSET))(this, HPHBHJJHFKD);
+	}
+
+	::System::Void AALABFNDMDJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ILHPHFMOGAL_AALABFNDMDJ_OFFSET))(this);
+	}
+
+	::Il2CppArray<::JHPKHDBFINM*>* EJABHIAHIAN()
+	{
+		return ((::Il2CppArray<::JHPKHDBFINM*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILHPHFMOGAL_EJABHIAHIAN_OFFSET))(this);
+	}
+
+	::JHPKHDBFINM* IFDPKDOFOJD(::System::Int32 MGMDLMBEDJF, ::System::Int32 BAFNHBHBBGN)
+	{
+		return ((::JHPKHDBFINM*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ILHPHFMOGAL_IFDPKDOFOJD_OFFSET))(this, MGMDLMBEDJF, BAFNHBHBBGN);
+	}
+};

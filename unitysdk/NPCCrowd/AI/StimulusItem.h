@@ -7,9 +7,9 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int StimulusItem_TypeDefinitionIndex = 91302;
+	inline static constexpr unsigned int StimulusItem_TypeDefinitionIndex = 86084;
 
-	struct alignas(8) StimulusItem
+	struct alignas(4) StimulusItem
 	{
 		::NPCCrowd::AI::StimulusConfig stimulus; // 0x10
 		::UnityEngine::Vector3 position; // 0x40

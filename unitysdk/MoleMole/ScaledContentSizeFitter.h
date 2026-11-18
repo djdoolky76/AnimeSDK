@@ -3,14 +3,14 @@
 #include "unitysdk/UnityEngine/UI/ContentSizeFitter.h"
 #include "unitysdk/UnityEngine/UI/ContentSizeFitter_FitMode.h"
 
-#define MOLEMOLE_SCALEDCONTENTSIZEFITTER_GETSIZEALONGAXIS_OFFSET UNITYSDK_OFFSET(0x136EB420)
-#define MOLEMOLE_SCALEDCONTENTSIZEFITTER_SETSCALEFACTOR_OFFSET UNITYSDK_OFFSET(0x136EB480)
-#define MOLEMOLE_SCALEDCONTENTSIZEFITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x136EB4E0)
-#define MOLEMOLE_SCALEDCONTENTSIZEFITTER___BASE_GETSIZEALONGAXIS_OFFSET UNITYSDK_OFFSET(0x136EB540)
+#define MOLEMOLE_SCALEDCONTENTSIZEFITTER_GETSIZEALONGAXIS_OFFSET UNITYSDK_OFFSET(0x1BDE3710)
+#define MOLEMOLE_SCALEDCONTENTSIZEFITTER_GMCKIMPPAIE_OFFSET UNITYSDK_OFFSET(0x1BDE3830)
+#define MOLEMOLE_SCALEDCONTENTSIZEFITTER_SETSCALEFACTOR_OFFSET UNITYSDK_OFFSET(0x1BDE3770)
+#define MOLEMOLE_SCALEDCONTENTSIZEFITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDE37D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ScaledContentSizeFitter_TypeDefinitionIndex = 47300;
+	inline static constexpr unsigned int ScaledContentSizeFitter_TypeDefinitionIndex = 40699;
 
 	class ScaledContentSizeFitter : public ::UnityEngine::UI::ContentSizeFitter
 	{
@@ -22,19 +22,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCALEDCONTENTSIZEFITTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Single GetSizeAlongAxis(::System::Int32 a1, ::UnityEngine::UI::ContentSizeFitter_FitMode a2)
+		::System::Single GetSizeAlongAxis(::System::Int32 BHFAGMPDIGJ, ::UnityEngine::UI::ContentSizeFitter_FitMode BKHKOPMILKH)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32, ::UnityEngine::UI::ContentSizeFitter_FitMode))((::PBYTE)hIl2Cpp + MOLEMOLE_SCALEDCONTENTSIZEFITTER_GETSIZEALONGAXIS_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::System::Int32, ::UnityEngine::UI::ContentSizeFitter_FitMode))((::PBYTE)hIl2Cpp + MOLEMOLE_SCALEDCONTENTSIZEFITTER_GETSIZEALONGAXIS_OFFSET))(this, BHFAGMPDIGJ, BKHKOPMILKH);
 		}
 
-		::System::Void SetScaleFactor(::System::Single a1)
+		::System::Void SetScaleFactor(::System::Single CLMNLPKFBFA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SCALEDCONTENTSIZEFITTER_SETSCALEFACTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SCALEDCONTENTSIZEFITTER_SETSCALEFACTOR_OFFSET))(this, CLMNLPKFBFA);
 		}
 
-		::System::Single __base_GetSizeAlongAxis(::System::Int32 a1, ::UnityEngine::UI::ContentSizeFitter_FitMode a2)
+		::System::Single GMCKIMPPAIE(::System::Int32 MIALFKCCCPI, ::UnityEngine::UI::ContentSizeFitter_FitMode KMGKAIDEIBA)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32, ::UnityEngine::UI::ContentSizeFitter_FitMode))((::PBYTE)hIl2Cpp + MOLEMOLE_SCALEDCONTENTSIZEFITTER___BASE_GETSIZEALONGAXIS_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::System::Int32, ::UnityEngine::UI::ContentSizeFitter_FitMode))((::PBYTE)hIl2Cpp + MOLEMOLE_SCALEDCONTENTSIZEFITTER_GMCKIMPPAIE_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 	};
 }

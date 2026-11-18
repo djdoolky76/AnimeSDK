@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLOCALAVATARTEPLATEIDNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A82B60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLOCALAVATARTEPLATEIDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A82DD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLOCALAVATARTEPLATEIDNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465D380)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLOCALAVATARTEPLATEIDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1465D5F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetLocalAvatarTeplateIDNode_TypeDefinitionIndex = 70338;
+	inline static constexpr unsigned int LDGetLocalAvatarTeplateIDNode_TypeDefinitionIndex = 70854;
 
-	class LDGetLocalAvatarTeplateIDNode : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Int32>
+	class LDGetLocalAvatarTeplateIDNode
 	{
 	public:
 		::System::Void _ctor()

@@ -13,9 +13,9 @@ namespace FluffyUnderware::Curvy::Shapes { class CSRectangle; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define SURFINGFENCEMESHGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C13F070)
+#define SURFINGFENCEMESHGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB63930)
 
-inline static constexpr unsigned int SurfingFenceMeshGenerator_TypeDefinitionIndex = 46591;
+inline static constexpr unsigned int SurfingFenceMeshGenerator_TypeDefinitionIndex = 60335;
 
 class SurfingFenceMeshGenerator : public ::UnityEngine::MonoBehaviour
 {
@@ -27,6 +27,7 @@ public:
 	::System::Single dissolveThreshold; // 0x2C
 	::System::Single arrowSegmentLength; // 0x30
 	::System::Boolean reverseDirection; // 0x34
+	::System::Byte _padding0[0x3];
 	::EDebugMode debugMode; // 0x38
 	::System::Int32 vertexLabelSize; // 0x3C
 	::FluffyUnderware::Curvy::Generator::Modules::InputSplinePath* inputSplinePath; // 0x40

@@ -4,11 +4,11 @@
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int ChunkComponentData_1___componentOffset_e__FixedBuffer_TypeDefinitionIndex = 38397;
+	inline static constexpr unsigned int ChunkComponentData_1___componentOffset_e__FixedBuffer_TypeDefinitionIndex = 36399;
 
-	template <typename TScope>
-	struct ChunkComponentData_1___componentOffset_e__FixedBuffer
+	template <typename T>
+	struct alignas(4) ChunkComponentData_1___componentOffset_e__FixedBuffer
 	{
-		::System::Int16 data[0]; // 0x0
+		::System::Int16 FixedElementField; // 0x0
 	};
 }

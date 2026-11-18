@@ -5,15 +5,15 @@
 class ScreenPlayData;
 namespace System { class String; }
 
-#define TV_WALL_GETSHOWDATA_OFFSET UNITYSDK_OFFSET(0x1E82B150)
-#define TV_WALL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E82B1F0)
+#define TV_WALL_GETSHOWDATA_OFFSET UNITYSDK_OFFSET(0x1F1C17E0)
+#define TV_WALL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1C1880)
 
-inline static constexpr unsigned int TV_Wall_TypeDefinitionIndex = 55345;
+inline static constexpr unsigned int TV_Wall_TypeDefinitionIndex = 46434;
 
 class TV_Wall : public ::System::Object
 {
 public:
-	::Il2CppArray<::ScreenPlayData*>* tv_wall_group; // 0x10
+	::System::Object* tv_wall_group; // 0x10
 	::System::String* IsOpenEditor; // 0x18
 
 	::System::Void _ctor()

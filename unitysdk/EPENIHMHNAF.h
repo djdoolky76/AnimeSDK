@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FDDBCKHFMKG.h"
+#include "unitysdk/OOPDODNABBE.h"
+
+class MHDBMCCFHNL;
+class OBKNEEOLOPB;
+namespace System { class String; }
+
+#define EPENIHMHNAF_ALLKLDODJLM_OFFSET UNITYSDK_OFFSET(0x1355C440)
+#define EPENIHMHNAF_EHODHGDBMGB_OFFSET UNITYSDK_OFFSET(0x1355C230)
+#define EPENIHMHNAF_FJNODENNOOK_OFFSET UNITYSDK_OFFSET(0x1355C660)
+#define EPENIHMHNAF_HNPIDMBLNLB_OFFSET UNITYSDK_OFFSET(0x1355C5D0)
+#define EPENIHMHNAF_OJEBOJJDKEI_OFFSET UNITYSDK_OFFSET(0x1355C2F0)
+#define EPENIHMHNAF__CTOR_OFFSET UNITYSDK_OFFSET(0x1355C110)
+
+inline static constexpr unsigned int EPENIHMHNAF_TypeDefinitionIndex = 65095;
+
+class EPENIHMHNAF
+{
+public:
+	::OBKNEEOLOPB* HJLKIJBHDBM; // 0x28
+
+	::System::Void _ctor(::MHDBMCCFHNL* KPFNAMACIDA)
+	{
+		return ((::System::Void(*)(::PVOID, ::MHDBMCCFHNL*))((::PBYTE)hIl2Cpp + EPENIHMHNAF__CTOR_OFFSET))(this, KPFNAMACIDA);
+	}
+
+	::System::Void EHODHGDBMGB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPENIHMHNAF_EHODHGDBMGB_OFFSET))(this);
+	}
+
+	::System::Void ALLKLDODJLM(::OOPDODNABBE FCPCLIJNDLA)
+	{
+		return ((::System::Void(*)(::PVOID, ::OOPDODNABBE))((::PBYTE)hIl2Cpp + EPENIHMHNAF_ALLKLDODJLM_OFFSET))(this, FCPCLIJNDLA);
+	}
+
+	::System::Void HNPIDMBLNLB(::OOPDODNABBE MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::OOPDODNABBE))((::PBYTE)hIl2Cpp + EPENIHMHNAF_HNPIDMBLNLB_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void FJNODENNOOK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPENIHMHNAF_FJNODENNOOK_OFFSET))(this);
+	}
+
+	::System::Void OJEBOJJDKEI(::System::String* FJHNNKDJCLD, ::FDDBCKHFMKG OBNIAHNMHPF)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::FDDBCKHFMKG))((::PBYTE)hIl2Cpp + EPENIHMHNAF_OJEBOJJDKEI_OFFSET))(this, FJHNNKDJCLD, OBNIAHNMHPF);
+	}
+};

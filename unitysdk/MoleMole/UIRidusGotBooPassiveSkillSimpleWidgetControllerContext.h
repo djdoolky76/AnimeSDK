@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_208CC9941471731A_714;
+class FJIFILPGMCF;
 
-#define MOLEMOLE_UIRIDUSGOTBOOPASSIVESKILLSIMPLEWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x198A2F80)
+#define MOLEMOLE_UIRIDUSGOTBOOPASSIVESKILLSIMPLEWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D824B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPassiveSkillSimpleWidgetControllerContext_TypeDefinitionIndex = 44282;
+	inline static constexpr unsigned int UIRidusGotBooPassiveSkillSimpleWidgetControllerContext_TypeDefinitionIndex = 46282;
 
 	class UIRidusGotBooPassiveSkillSimpleWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_208CC9941471731A_714* template_; // 0x28
+		::FJIFILPGMCF* template_; // 0x28
 
 		::System::Void _ctor()
 		{

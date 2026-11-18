@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlatBuffers/Config/TurnBasedEntityTemplate.h"
-#include "unitysdk/Struct_2_3E75877A2888D88A_953.h"
+#include "unitysdk/LCGNFEMGFJD.h"
 
-class Class_0_16E4307DCC419505_7;
+class KGBFLHNJHHN;
 
-#define MOLEMOLE_PROJECT_CONFIG_TURNBASEDENTITYTEMPLATEEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFB59F0)
+#define MOLEMOLE_PROJECT_CONFIG_TURNBASEDENTITYTEMPLATEEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0905A0)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int TurnBasedEntityTemplateExt_TypeDefinitionIndex = 16050;
+	inline static constexpr unsigned int TurnBasedEntityTemplateExt_TypeDefinitionIndex = 10276;
 
 	class TurnBasedEntityTemplateExt : public ::MoleMole::FlatBuffers::Config::TurnBasedEntityTemplate
 	{
 	public:
-		::System::Void _ctor(::Struct_2_3E75877A2888D88A_953 data, ::Class_0_16E4307DCC419505_7* notify)
+		::System::Void _ctor(::LCGNFEMGFJD data, ::KGBFLHNJHHN* notify)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_953, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + MOLEMOLE_PROJECT_CONFIG_TURNBASEDENTITYTEMPLATEEXT__CTOR_OFFSET))(this, data, notify);
+			return ((::System::Void(*)(::PVOID, ::LCGNFEMGFJD, ::KGBFLHNJHHN*))((::PBYTE)hIl2Cpp + MOLEMOLE_PROJECT_CONFIG_TURNBASEDENTITYTEMPLATEEXT__CTOR_OFFSET))(this, data, notify);
 		}
 	};
 }

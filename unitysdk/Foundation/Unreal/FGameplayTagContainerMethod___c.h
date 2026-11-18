@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Unreal/FGameplayTag.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/Unreal/FGameplayTag.h"
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINERMETHOD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x181A8210)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINERMETHOD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x181A8250)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINERMETHOD___C___CCTOR_B__21_0_OFFSET UNITYSDK_OFFSET(0x181A8260)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINERMETHOD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x152C6FD0)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINERMETHOD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x152C7010)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGCONTAINERMETHOD___C___CCTOR_B__21_0_OFFSET UNITYSDK_OFFSET(0x152C7020)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagContainerMethod___c_TypeDefinitionIndex = 17903;
+	inline static constexpr unsigned int FGameplayTagContainerMethod___c_TypeDefinitionIndex = 11585;
 
 	class FGameplayTagContainerMethod___c : public ::System::Object
 	{
 	public:
-		static ::Foundation::Unreal::FGameplayTagContainerMethod___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Foundation::Unreal::FGameplayTagContainerMethod___c**)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagContainerMethod___c_TypeDefinitionIndex)->GetStaticField(0x76A0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagContainerMethod___c_TypeDefinitionIndex)->GetStaticField(0x77D0);
 		}
 
 		static ::System::Void _cctor()

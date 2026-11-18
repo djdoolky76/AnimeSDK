@@ -5,25 +5,25 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_ADDCHILD_OFFSET UNITYSDK_OFFSET(0x1DFE2EE0)
-#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_FINDREFERENCEELEMENT_OFFSET UNITYSDK_OFFSET(0x1DFE3000)
-#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_GETROOT_OFFSET UNITYSDK_OFFSET(0x1DFE2FF0)
-#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1DFE2EC0)
-#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_GET_PARENT_OFFSET UNITYSDK_OFFSET(0x1DFE2EB0)
-#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_GET_REFERENCE_OFFSET UNITYSDK_OFFSET(0x1DFE2EA0)
-#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_REMOVECHILD_OFFSET UNITYSDK_OFFSET(0x1DFE2F90)
-#define PARADOXNOTION_HIERARCHYTREE_ELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE2ED0)
+#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_ADDCHILD_OFFSET UNITYSDK_OFFSET(0x1E40BFA0)
+#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_FINDREFERENCEELEMENT_OFFSET UNITYSDK_OFFSET(0x1E40C0C0)
+#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_GETROOT_OFFSET UNITYSDK_OFFSET(0x1E40C0B0)
+#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1E40BF80)
+#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_GET_PARENT_OFFSET UNITYSDK_OFFSET(0x1E40BF70)
+#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_GET_REFERENCE_OFFSET UNITYSDK_OFFSET(0x1E40BF60)
+#define PARADOXNOTION_HIERARCHYTREE_ELEMENT_REMOVECHILD_OFFSET UNITYSDK_OFFSET(0x1E40C050)
+#define PARADOXNOTION_HIERARCHYTREE_ELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E40BF90)
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int HierarchyTree_Element_TypeDefinitionIndex = 30318;
+	inline static constexpr unsigned int HierarchyTree_Element_TypeDefinitionIndex = 29864;
 
 	class HierarchyTree_Element : public ::System::Object
 	{
 	public:
-		::System::Object* _reference; // 0x10
-		::ParadoxNotion::HierarchyTree_Element* _parent; // 0x18
-		::System::Collections::Generic::List_1<::ParadoxNotion::HierarchyTree_Element*>* _children; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* _children; // 0x10
+		::System::Object* _reference; // 0x18
+		::ParadoxNotion::HierarchyTree_Element* _parent; // 0x20
 
 		::System::Void _ctor(::System::Object* reference)
 		{
@@ -40,9 +40,9 @@ namespace ParadoxNotion
 			return ((::ParadoxNotion::HierarchyTree_Element*(*)(::PVOID))((::PBYTE)hIl2Cpp + PARADOXNOTION_HIERARCHYTREE_ELEMENT_GET_PARENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::ParadoxNotion::HierarchyTree_Element*>* get_children()
+		::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_children()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::ParadoxNotion::HierarchyTree_Element*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PARADOXNOTION_HIERARCHYTREE_ELEMENT_GET_CHILDREN_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PARADOXNOTION_HIERARCHYTREE_ELEMENT_GET_CHILDREN_OFFSET))(this);
 		}
 
 		::ParadoxNotion::HierarchyTree_Element* AddChild(::ParadoxNotion::HierarchyTree_Element* child)

@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int BindableSupport_TypeDefinitionIndex = 2822;
+	inline static constexpr unsigned int BindableSupport_TypeDefinitionIndex = 2821;
 
 	enum class BindableSupport : ::System::Int32
 	{

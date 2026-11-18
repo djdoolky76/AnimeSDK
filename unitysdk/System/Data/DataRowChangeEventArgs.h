@@ -5,11 +5,11 @@
 
 namespace System::Data { class DataRow; }
 
-#define SYSTEM_DATA_DATAROWCHANGEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED6A8B0)
+#define SYSTEM_DATA_DATAROWCHANGEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F13ADF0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataRowChangeEventArgs_TypeDefinitionIndex = 39255;
+	inline static constexpr unsigned int DataRowChangeEventArgs_TypeDefinitionIndex = 37255;
 
 	class DataRowChangeEventArgs : public ::System::EventArgs
 	{

@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
-#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/LIBOIKJGAIH.h"
 
-class Class_2_54D4A23D32C18029;
+class LMDLHCIOGDI;
 namespace MoleMole { class UIControlReference; }
 namespace MoleMole { class UIZenkovResultTaskRowWidgetController_Data; }
 namespace System { class Object; }
 
-#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x10AF81A0)
-#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x10AF8210)
-#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x10AF82B0)
-#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x10AF8370)
-#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x10AF84F0)
-#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x10AF8500)
-#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x10AF85A0)
+#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET UNITYSDK_OFFSET(0x1671CCE0)
+#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1671C8B0)
+#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x1671C950)
+#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_PDKCHDBODJB_OFFSET UNITYSDK_OFFSET(0x1671CA10)
+#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1671CB90)
+#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1671CBA0)
+#define MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x1671CC40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovResultTaskRowWidgetController_TypeDefinitionIndex = 77596;
+	inline static constexpr unsigned int UIZenkovResultTaskRowWidgetController_TypeDefinitionIndex = 59615;
 
 	class UIZenkovResultTaskRowWidgetController : public ::MoleMole::ScrollViewItemWidgetController
 	{
@@ -28,14 +28,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::Class_2_54D4A23D32C18029* get__viewModel()
+		::System::Void OnCreateViewModel(::LIBOIKJGAIH& binderInfo, ::MoleMole::UIControlReference* controlReference)
 		{
-			return ((::Class_2_54D4A23D32C18029*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
-		}
-
-		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
-		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
 		}
 
 		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
@@ -43,19 +38,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
 		}
 
-		::System::Void RefreshView(::MoleMole::UIZenkovResultTaskRowWidgetController_Data* data)
+		::System::Void __base_OnCreateViewModel(::LIBOIKJGAIH& P0, ::MoleMole::UIControlReference* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::UIZenkovResultTaskRowWidgetController_Data*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_REFRESHVIEW_OFFSET))(this, data);
-		}
-
-		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
 		}
 
 		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void PDKCHDBODJB(::MoleMole::UIZenkovResultTaskRowWidgetController_Data* LJBPECKCCEA)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIZenkovResultTaskRowWidgetController_Data*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_PDKCHDBODJB_OFFSET))(this, LJBPECKCCEA);
+		}
+
+		::LMDLHCIOGDI* OGMPOGIHBIK()
+		{
+			return ((::LMDLHCIOGDI*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVRESULTTASKROWWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET))(this);
 		}
 	};
 }

@@ -5,45 +5,45 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_BITREVERSE_OFFSET UNITYSDK_OFFSET(0x1C9B0460)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_COMPUTEBUTTERFLYLOOKUPTABLE_OFFSET UNITYSDK_OFFSET(0x1C9AFC80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_DISPERSION_OFFSET UNITYSDK_OFFSET(0x1C9B01D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_EVALUATEWAVESFFT_OFFSET UNITYSDK_OFFSET(0x1C9B1AA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_FFT_1_OFFSET UNITYSDK_OFFSET(0x1C9B0610)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_FFT_OFFSET UNITYSDK_OFFSET(0x1C9B04F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_GAUSSIANRANDOMVARIABLE_OFFSET UNITYSDK_OFFSET(0x1C9B1610)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_GETSPECTRUM_OFFSET UNITYSDK_OFFSET(0x1C9B02B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_INITSPECTRUM_OFFSET UNITYSDK_OFFSET(0x1C9B1910)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_PEFORMFFT_OFFSET UNITYSDK_OFFSET(0x1C9B06E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_PHILLIPSSPECTRUM_OFFSET UNITYSDK_OFFSET(0x1C9B1720)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_SAMPLE_OFFSET UNITYSDK_OFFSET(0x1C9B25E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_SETDATA_OFFSET UNITYSDK_OFFSET(0x1C9AEE10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9B26A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_BITREVERSE_OFFSET UNITYSDK_OFFSET(0x1CF918E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_COMPUTEBUTTERFLYLOOKUPTABLE_OFFSET UNITYSDK_OFFSET(0x1CF910F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_DISPERSION_OFFSET UNITYSDK_OFFSET(0x1CF91650)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_EVALUATEWAVESFFT_OFFSET UNITYSDK_OFFSET(0x1CF92F30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_FFT_1_OFFSET UNITYSDK_OFFSET(0x1CF91A90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_FFT_OFFSET UNITYSDK_OFFSET(0x1CF91970)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_GAUSSIANRANDOMVARIABLE_OFFSET UNITYSDK_OFFSET(0x1CF92AA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_GETSPECTRUM_OFFSET UNITYSDK_OFFSET(0x1CF91730)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_INITSPECTRUM_OFFSET UNITYSDK_OFFSET(0x1CF92DA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_PEFORMFFT_OFFSET UNITYSDK_OFFSET(0x1CF91B60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_PHILLIPSSPECTRUM_OFFSET UNITYSDK_OFFSET(0x1CF92BB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_SAMPLE_OFFSET UNITYSDK_OFFSET(0x1CF93A80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_SETDATA_OFFSET UNITYSDK_OFFSET(0x1CF90250)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF93B40)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OceanFourier_TypeDefinitionIndex = 27111;
+	inline static constexpr unsigned int OceanFourier_TypeDefinitionIndex = 27033;
 
 	class OceanFourier : public ::System::Object
 	{
 	public:
 		// static const ::System::Single GRAVITY; // 0x0
-		::Il2CppArray<::UnityEngine::Vector3>* m_positionOffset; // 0x10
+		::Il2CppArray<::UnityEngine::Vector3>* m_vertices; // 0x10
 		::Il2CppArray<::UnityEngine::Vector2>* m_spectrum_conj; // 0x18
 		::Il2CppArray<::System::Single>* m_dispersionTable; // 0x20
-		::Il2CppArray<::System::Single>* m_jacobian; // 0x28
-		::Il2CppArray<::UnityEngine::Vector3>* m_normals; // 0x30
-		::Il2CppArray<::UnityEngine::Vector3>* m_vertices; // 0x38
-		::Il2CppArray<::UnityEngine::Vector3>* m_originPosition; // 0x40
-		::Il2CppArray<::UnityEngine::Vector2>* m_heightBuffer; // 0x48
-		::Il2CppArray<::System::Single>* m_butterflyLookupTable; // 0x50
-		::Il2CppArray<::UnityEngine::Vector4>* m_slopeBuffer; // 0x58
-		::Il2CppArray<::UnityEngine::Vector2>* m_spectrum; // 0x60
-		::Il2CppArray<::UnityEngine::Vector4>* m_displacementBuffer; // 0x68
-		::System::Int32 m_size; // 0x70
-		::System::Int32 m_passes; // 0x74
+		::System::Object* m_heightBuffer; // 0x28
+		::Il2CppArray<::System::Single>* m_jacobian; // 0x30
+		::Il2CppArray<::UnityEngine::Vector3>* m_normals; // 0x38
+		::System::Object* m_slopeBuffer; // 0x40
+		::Il2CppArray<::UnityEngine::Vector3>* m_positionOffset; // 0x48
+		::Il2CppArray<::UnityEngine::Vector2>* m_spectrum; // 0x50
+		::System::Object* m_displacementBuffer; // 0x58
+		::Il2CppArray<::UnityEngine::Vector3>* m_originPosition; // 0x60
+		::Il2CppArray<::System::Single>* m_butterflyLookupTable; // 0x68
+		::System::Int32 m_passes; // 0x70
+		::System::Single m_fsize; // 0x74
 		::UnityEngine::Vector2 m_windDir; // 0x78
-		::System::Single m_fsize; // 0x80
+		::System::Int32 m_size; // 0x80
 		::System::Single m_windSpeed; // 0x84
 		::System::Single m_waveAmp; // 0x88
 
@@ -77,9 +77,9 @@ namespace UnityEngine::Rendering::Universal
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_FFT_1_OFFSET))(this, w, input1, input2);
 		}
 
-		::System::Int32 PeformFFT(::System::Int32 startIdx, ::Il2CppArray<::UnityEngine::Vector2>* data0, ::Il2CppArray<::UnityEngine::Vector4>* data1, ::Il2CppArray<::UnityEngine::Vector4>* data2)
+		::System::Int32 PeformFFT(::System::Int32 startIdx, ::System::Object* data0, ::System::Object* data1, ::System::Object* data2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::Il2CppArray<::UnityEngine::Vector2>*, ::Il2CppArray<::UnityEngine::Vector4>*, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_PEFORMFFT_OFFSET))(this, startIdx, data0, data1, data2);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_OCEANFOURIER_PEFORMFFT_OFFSET))(this, startIdx, data0, data1, data2);
 		}
 
 		::UnityEngine::Vector2 GetSpectrum(::System::Int32 x, ::System::Int32 y)

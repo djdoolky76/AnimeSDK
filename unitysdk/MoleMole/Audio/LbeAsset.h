@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define MOLEMOLE_AUDIO_LBEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x150D9570)
+#define MOLEMOLE_AUDIO_LBEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x19218070)
 
 namespace MoleMole::Audio
 {
-	inline static constexpr unsigned int LbeAsset_TypeDefinitionIndex = 55719;
+	inline static constexpr unsigned int LbeAsset_TypeDefinitionIndex = 45781;
 
 	class LbeAsset : public ::UnityEngine::ScriptableObject
 	{

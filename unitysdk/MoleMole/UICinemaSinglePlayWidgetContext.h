@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_0E3D561C72111316;
+class AIPAFAGLLGH;
 
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19372BD0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16EB8250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaSinglePlayWidgetContext_TypeDefinitionIndex = 75695;
+	inline static constexpr unsigned int UICinemaSinglePlayWidgetContext_TypeDefinitionIndex = 46517;
 
 	class UICinemaSinglePlayWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_0E3D561C72111316* singlePlayController; // 0x28
+		::AIPAFAGLLGH* singlePlayController; // 0x28
 
 		::System::Void _ctor()
 		{

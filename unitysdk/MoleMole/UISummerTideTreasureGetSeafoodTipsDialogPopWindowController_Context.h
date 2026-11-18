@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UISUMMERTIDETREASUREGETSEAFOODTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x119F9820)
+#define MOLEMOLE_UISUMMERTIDETREASUREGETSEAFOODTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1562F540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerTideTreasureGetSeafoodTipsDialogPopWindowController_Context_TypeDefinitionIndex = 77505;
+	inline static constexpr unsigned int UISummerTideTreasureGetSeafoodTipsDialogPopWindowController_Context_TypeDefinitionIndex = 64906;
 
 	class UISummerTideTreasureGetSeafoodTipsDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

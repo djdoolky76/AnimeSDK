@@ -10,11 +10,11 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class MaskableGraphic; }
 
-#define MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93CB70)
+#define MOLEMOLE_EFFECTSIMULATE_NESUIDATACACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x103E7F40)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int NESUIDataCache_TypeDefinitionIndex = 70233;
+	inline static constexpr unsigned int NESUIDataCache_TypeDefinitionIndex = 65860;
 
 	class NESUIDataCache : public ::MoleMole::EffectSimulate::NESDataCacheBase
 	{

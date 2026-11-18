@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/NPCCrowd/FNPCAttachPointNameHandle.h"
 #include "unitysdk/System/Object.h"
 
-namespace RootMotion::FinalIK { class IKSolverLookAt_LookAtBone; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace UnityEngine { class Transform; }
+namespace NPCCrowd::Animation { class NPCCPUAnimationSlotInfo; }
 
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10666F80)
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS30_0__ENABLEIKCOMPONENT_B__0_OFFSET UNITYSDK_OFFSET(0x10666F90)
-#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS30_0__ENABLEIKCOMPONENT_B__2_OFFSET UNITYSDK_OFFSET(0x10667190)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS30_0__BINDBONESLOTSGALGAME_B__0_OFFSET UNITYSDK_OFFSET(0xF14D4D0)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS30_0__BINDBONESLOTSGALGAME_B__1_OFFSET UNITYSDK_OFFSET(0xF14D4F0)
+#define NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF14D4C0)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass30_0_TypeDefinitionIndex = 60725;
+	inline static constexpr unsigned int NPCCrowdAvatarManager___c__DisplayClass30_0_TypeDefinitionIndex = 61115;
 
 	class NPCCrowdAvatarManager___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Transform*>* boneTransformDict; // 0x10
+		::NPCCrowd::FNPCAttachPointNameHandle middlePointNameHandle; // 0x10
+		::NPCCrowd::FNPCAttachPointNameHandle headBoneNameHandle; // 0x14
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS30_0__CTOR_OFFSET))(this);
 		}
 
-		::RootMotion::FinalIK::IKSolverLookAt_LookAtBone* _EnableIKComponent_b__0(::System::Int32 spineBoneID)
+		::System::Boolean _BindBoneSlotsGalgame_b__0(::NPCCrowd::Animation::NPCCPUAnimationSlotInfo* slotInfo)
 		{
-			return ((::RootMotion::FinalIK::IKSolverLookAt_LookAtBone*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS30_0__ENABLEIKCOMPONENT_B__0_OFFSET))(this, spineBoneID);
+			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Animation::NPCCPUAnimationSlotInfo*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS30_0__BINDBONESLOTSGALGAME_B__0_OFFSET))(this, slotInfo);
 		}
 
-		::RootMotion::FinalIK::IKSolverLookAt_LookAtBone* _EnableIKComponent_b__2(::System::Int32 eyeBoneID)
+		::System::Boolean _BindBoneSlotsGalgame_b__1(::NPCCrowd::Animation::NPCCPUAnimationSlotInfo* slotInfo)
 		{
-			return ((::RootMotion::FinalIK::IKSolverLookAt_LookAtBone*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS30_0__ENABLEIKCOMPONENT_B__2_OFFSET))(this, eyeBoneID);
+			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Animation::NPCCPUAnimationSlotInfo*))((::PBYTE)hIl2Cpp + NPCCROWD_AVATAR_NPCCROWDAVATARMANAGER___C__DISPLAYCLASS30_0__BINDBONESLOTSGALGAME_B__1_OFFSET))(this, slotInfo);
 		}
 	};
 }

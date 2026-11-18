@@ -4,21 +4,21 @@
 
 namespace BinaryTracingFramework::Serialize { class ISerializableObject; }
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCLASSREGISTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F650D70)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCLASSREGISTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F650DB0)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCLASSREGISTER___C___CCTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1F650DC0)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCLASSREGISTER___C___CCTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1F650E70)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCLASSREGISTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA33570)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCLASSREGISTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA335B0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCLASSREGISTER___C___CCTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1FA335C0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGCLASSREGISTER___C___CCTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1FA33670)
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int LogClassRegister___c_TypeDefinitionIndex = 34588;
+	inline static constexpr unsigned int LogClassRegister___c_TypeDefinitionIndex = 34134;
 
 	class LogClassRegister___c : public ::System::Object
 	{
 	public:
-		static ::BinaryTracingCore::Source::TracingTools::LogClassRegister___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::BinaryTracingCore::Source::TracingTools::LogClassRegister___c**)Il2CppClass::FromTypeDefinitionIndex(LogClassRegister___c_TypeDefinitionIndex)->GetStaticField(0x28EE0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(LogClassRegister___c_TypeDefinitionIndex)->GetStaticField(0x2A120);
 		}
 
 		static ::System::Void _cctor()

@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
@@ -10,14 +10,14 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xE934B50)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_LINK_OFFSET UNITYSDK_OFFSET(0xE934AE0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE934BB0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xE934C30)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x10023390)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_LINK_OFFSET UNITYSDK_OFFSET(0x10023320)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK_TICK_OFFSET UNITYSDK_OFFSET(0x100233F0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_REACTIONTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x10023470)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_ReactionTask_TypeDefinitionIndex = 64647;
+	inline static constexpr unsigned int VirtualProxy_ReactionTask_TypeDefinitionIndex = 52519;
 
 	class VirtualProxy_ReactionTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{

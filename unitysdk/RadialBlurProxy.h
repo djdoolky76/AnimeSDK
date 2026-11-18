@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/DownSampleLevel.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace UnityEngine::Rendering::Universal { class RadialBlur; }
 
-#define RADIALBLURPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E502D60)
-#define RADIALBLURPROXY_COPYVALUEFROMRADIALBLUR_OFFSET UNITYSDK_OFFSET(0x1E503130)
-#define RADIALBLURPROXY_SETVALUETORADIALBLUR_OFFSET UNITYSDK_OFFSET(0x1E503370)
-#define RADIALBLURPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E503320)
-#define RADIALBLURPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E503750)
+#define RADIALBLURPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E19B110)
+#define RADIALBLURPROXY_COPYVALUEFROMRADIALBLUR_OFFSET UNITYSDK_OFFSET(0x1E19B4E0)
+#define RADIALBLURPROXY_SETVALUETORADIALBLUR_OFFSET UNITYSDK_OFFSET(0x1E19B720)
+#define RADIALBLURPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E19B6D0)
+#define RADIALBLURPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E19BB00)
 
-inline static constexpr unsigned int RadialBlurProxy_TypeDefinitionIndex = 71847;
+inline static constexpr unsigned int RadialBlurProxy_TypeDefinitionIndex = 62777;
 
 class RadialBlurProxy : public ::UnityEngine::MonoBehaviour
 {

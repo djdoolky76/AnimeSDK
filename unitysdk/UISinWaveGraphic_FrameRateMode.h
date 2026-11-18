@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int UISinWaveGraphic_FrameRateMode_TypeDefinitionIndex = 89856;
+inline static constexpr unsigned int UISinWaveGraphic_FrameRateMode_TypeDefinitionIndex = 51874;
 
 enum class UISinWaveGraphic_FrameRateMode : ::System::Int32
 {

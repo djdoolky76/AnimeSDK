@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/GradientAlphaKey.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E22E8E0)
-#define MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E22E880)
-#define MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22EAA0)
+#define MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EBB0100)
+#define MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EBB00A0)
+#define MESSAGEPACK_UNITY_GRADIENTALPHAKEYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB02C0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int GradientAlphaKeyFormatter_TypeDefinitionIndex = 29790;
+	inline static constexpr unsigned int GradientAlphaKeyFormatter_TypeDefinitionIndex = 30671;
 
 	class GradientAlphaKeyFormatter : public ::System::Object
 	{

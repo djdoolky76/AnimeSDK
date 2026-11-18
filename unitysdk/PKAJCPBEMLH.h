@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PKAJCPBEMLH_TypeDefinitionIndex = 22005;
+
+enum class PKAJCPBEMLH : ::System::Int32
+{
+	AAFDOEDEJHK = 16,
+	EGKCNHEEGCH = 14,
+	MAPHNEBGFPN = 1,
+	GAKKIKCJODJ = 3,
+	LHOOLNMBJJM = 11,
+	NLOBDIIEOHL = 12,
+	AOEHMPOEONL = 13,
+	DGHAAHKALPL = 7,
+	IKOCCEJFNLJ = 17,
+	INOIOPJPBJP = 6,
+	OMIDKBPCHNM = 2,
+	DFDJOKECBCM = 0,
+	LFCLPNENONE = 15,
+	JFCPNFLAMKH = 8,
+	CGKFMOKJIML = 9,
+	JHHNOFFKJFB = 4,
+	KOINNBDOIOM = 10,
+	EOIGNCOKJDB = 5,
+};

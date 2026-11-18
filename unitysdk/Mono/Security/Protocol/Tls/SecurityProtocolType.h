@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int SecurityProtocolType_TypeDefinitionIndex = 2369;
+	inline static constexpr unsigned int SecurityProtocolType_TypeDefinitionIndex = 2368;
 
 	enum class SecurityProtocolType : ::System::Int32
 	{

@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Class; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int Class_1_TypeDefinitionIndex = 28314;
+	inline static constexpr unsigned int Class_1_TypeDefinitionIndex = 27733;
 
 	template <typename T>
 	class Class_1 : public ::System::Object

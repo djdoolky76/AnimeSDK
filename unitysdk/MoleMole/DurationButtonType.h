@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DurationButtonType_TypeDefinitionIndex = 67107;
+	inline static constexpr unsigned int DurationButtonType_TypeDefinitionIndex = 68033;
 
 	enum class DurationButtonType : ::System::Int32
 	{
-		LongPress = 1,
 		ShortPress = 0,
+		LongPress = 1,
 	};
 }

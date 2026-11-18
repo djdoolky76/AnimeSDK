@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 namespace MoleMole::Timeline { class RealMeshRendererParams; }
 namespace System { class Object; }
@@ -10,16 +10,16 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_TIMELINE_MESHRENDERERBEHAVIOR_INITDATA_OFFSET UNITYSDK_OFFSET(0x1F8B19E0)
-#define MOLEMOLE_TIMELINE_MESHRENDERERBEHAVIOR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1F8B1F90)
-#define MOLEMOLE_TIMELINE_MESHRENDERERBEHAVIOR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1F8B1D20)
-#define MOLEMOLE_TIMELINE_MESHRENDERERBEHAVIOR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1F8B20B0)
-#define MOLEMOLE_TIMELINE_MESHRENDERERBEHAVIOR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1F8B1E50)
-#define MOLEMOLE_TIMELINE_MESHRENDERERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8B21D0)
+#define MOLEMOLE_TIMELINE_MESHRENDERERBEHAVIOR_INITDATA_OFFSET UNITYSDK_OFFSET(0x1FCBB350)
+#define MOLEMOLE_TIMELINE_MESHRENDERERBEHAVIOR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1FCBB900)
+#define MOLEMOLE_TIMELINE_MESHRENDERERBEHAVIOR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1FCBB690)
+#define MOLEMOLE_TIMELINE_MESHRENDERERBEHAVIOR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1FCBBA20)
+#define MOLEMOLE_TIMELINE_MESHRENDERERBEHAVIOR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1FCBB7C0)
+#define MOLEMOLE_TIMELINE_MESHRENDERERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCBBB40)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MeshRendererBehavior_TypeDefinitionIndex = 32839;
+	inline static constexpr unsigned int MeshRendererBehavior_TypeDefinitionIndex = 32290;
 
 	class MeshRendererBehavior : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define MESSAGEPACK_INTERNAL_NATIVEDATETIMERESOLVERGETFORMATTERHELPER_GETFORMATTER_OFFSET UNITYSDK_OFFSET(0x1E6D0BA0)
+#define MESSAGEPACK_INTERNAL_NATIVEDATETIMERESOLVERGETFORMATTERHELPER_GETFORMATTER_OFFSET UNITYSDK_OFFSET(0x1E959E30)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int NativeDateTimeResolverGetFormatterHelper_TypeDefinitionIndex = 30652;
+	inline static constexpr unsigned int NativeDateTimeResolverGetFormatterHelper_TypeDefinitionIndex = 30842;
 
 	class NativeDateTimeResolverGetFormatterHelper : public ::System::Object
 	{

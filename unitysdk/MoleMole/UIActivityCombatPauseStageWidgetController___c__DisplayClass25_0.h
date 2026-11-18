@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_55792E721774BF92;
+class HILCKAHBCOM;
 
-#define MOLEMOLE_UIACTIVITYCOMBATPAUSESTAGEWIDGETCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC3B30)
-#define MOLEMOLE_UIACTIVITYCOMBATPAUSESTAGEWIDGETCONTROLLER___C__DISPLAYCLASS25_0__FINDQUESTINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x18BC3B40)
+#define MOLEMOLE_UIACTIVITYCOMBATPAUSESTAGEWIDGETCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18844010)
+#define MOLEMOLE_UIACTIVITYCOMBATPAUSESTAGEWIDGETCONTROLLER___C__DISPLAYCLASS25_0__FINDQUESTINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x18844020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCombatPauseStageWidgetController___c__DisplayClass25_0_TypeDefinitionIndex = 50407;
+	inline static constexpr unsigned int UIActivityCombatPauseStageWidgetController___c__DisplayClass25_0_TypeDefinitionIndex = 85412;
 
 	class UIActivityCombatPauseStageWidgetController___c__DisplayClass25_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYCOMBATPAUSESTAGEWIDGETCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _FindQuestIndex_b__0(::Class_2_55792E721774BF92* x)
+		::System::Boolean _FindQuestIndex_b__0(::HILCKAHBCOM* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_55792E721774BF92*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYCOMBATPAUSESTAGEWIDGETCONTROLLER___C__DISPLAYCLASS25_0__FINDQUESTINDEX_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::HILCKAHBCOM*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYCOMBATPAUSESTAGEWIDGETCONTROLLER___C__DISPLAYCLASS25_0__FINDQUESTINDEX_B__0_OFFSET))(this, x);
 		}
 	};
 }

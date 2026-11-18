@@ -3,12 +3,12 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalArgueStageLocation_TypeDefinitionIndex = 51300;
+	inline static constexpr unsigned int GalArgueStageLocation_TypeDefinitionIndex = 47953;
 
 	enum class GalArgueStageLocation : ::System::Int32
 	{
 		Right = 2,
-		None = 0,
 		Left = 1,
+		None = 0,
 	};
 }

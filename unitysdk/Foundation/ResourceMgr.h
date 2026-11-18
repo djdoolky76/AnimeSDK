@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_RESOURCEMGR__CTOR_OFFSET UNITYSDK_OFFSET(0xF23BC10)
+#define FOUNDATION_RESOURCEMGR__CTOR_OFFSET UNITYSDK_OFFSET(0x15F05F60)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ResourceMgr_TypeDefinitionIndex = 77684;
+	inline static constexpr unsigned int ResourceMgr_TypeDefinitionIndex = 51890;
 
 	class ResourceMgr : public ::System::Object
 	{

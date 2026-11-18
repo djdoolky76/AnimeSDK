@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 #include "unitysdk/NPCCrowd/AI/CrowdConditionBase.h"
+#include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 
 namespace Foundation::Unreal { class SerializableGameplayTagQuery; }
 
-#define NPCCROWD_AI_CROWDTAGCONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x119208B0)
-#define NPCCROWD_AI_CROWDTAGCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x119208A0)
+#define NPCCROWD_AI_CROWDTAGCONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x105D28F0)
+#define NPCCROWD_AI_CROWDTAGCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x105D28E0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int CrowdTagCondition_TypeDefinitionIndex = 55017;
+	inline static constexpr unsigned int CrowdTagCondition_TypeDefinitionIndex = 88691;
 
 	class CrowdTagCondition : public ::NPCCrowd::AI::CrowdConditionBase
 	{

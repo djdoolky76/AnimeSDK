@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/DtdParser_Token.h"
+#include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_DTDPARSER_PARSEELEMENTONLYCONTENT_LOCALFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA205E0)
+#define SYSTEM_XML_DTDPARSER_PARSEELEMENTONLYCONTENT_LOCALFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED02DC0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int DtdParser_ParseElementOnlyContent_LocalFrame_TypeDefinitionIndex = 1805;
+	inline static constexpr unsigned int DtdParser_ParseElementOnlyContent_LocalFrame_TypeDefinitionIndex = 1804;
 
 	class DtdParser_ParseElementOnlyContent_LocalFrame : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int Rule_TypeDefinitionIndex = 39334;
+	inline static constexpr unsigned int Rule_TypeDefinitionIndex = 37334;
 
 	enum class Rule : ::System::Int32
 	{

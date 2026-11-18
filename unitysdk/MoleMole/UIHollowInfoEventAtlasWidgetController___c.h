@@ -7,44 +7,44 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188392F0)
-#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__CREATESHOWEVENTDATA_B__6_0_OFFSET UNITYSDK_OFFSET(0x188393A0)
-#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18839330)
-#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__SENDDELNEWCOLLECTICONREQUEST_B__3_0_OFFSET UNITYSDK_OFFSET(0x18839340)
-#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__SENDDELNEWCOLLECTICONREQUEST_B__3_1_OFFSET UNITYSDK_OFFSET(0x18839360)
-#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__SENDDELNEWCOLLECTICONREQUEST_B__3_2_OFFSET UNITYSDK_OFFSET(0x18839380)
-#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__SENDDELNEWCOLLECTICONREQUEST_B__3_3_OFFSET UNITYSDK_OFFSET(0x18839390)
+#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1839FED0)
+#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__CREATESHOWEVENTDATA_B__6_0_OFFSET UNITYSDK_OFFSET(0x1839FF80)
+#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1839FF10)
+#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__SENDDELNEWCOLLECTICONREQUEST_B__3_0_OFFSET UNITYSDK_OFFSET(0x1839FF20)
+#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__SENDDELNEWCOLLECTICONREQUEST_B__3_1_OFFSET UNITYSDK_OFFSET(0x1839FF40)
+#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__SENDDELNEWCOLLECTICONREQUEST_B__3_2_OFFSET UNITYSDK_OFFSET(0x1839FF60)
+#define MOLEMOLE_UIHOLLOWINFOEVENTATLASWIDGETCONTROLLER___C__SENDDELNEWCOLLECTICONREQUEST_B__3_3_OFFSET UNITYSDK_OFFSET(0x1839FF70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex = 74126;
+	inline static constexpr unsigned int UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex = 76861;
 
 	class UIHollowInfoEventAtlasWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::MoleMole::UIHollowInfoEventAtlasWidgetController_EventData*, ::System::UInt32>** StaticGet___9__3_1()
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::MoleMole::UIHollowInfoEventAtlasWidgetController_EventData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FDB0);
-		}
-		static ::System::Func_2<::MoleMole::UIHollowInfoEventAtlasWidgetController_EventData*, ::System::Boolean>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::MoleMole::UIHollowInfoEventAtlasWidgetController_EventData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FDB8);
-		}
-		static ::MoleMole::UIHollowInfoEventAtlasWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIHollowInfoEventAtlasWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FDC0);
-		}
-		static ::System::Action** StaticGet___9__3_2()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FDC8);
-		}
-		static ::System::Comparison_1<::MoleMole::UIHollowInfoEventAtlasWidgetController_EventData*>** StaticGet___9__6_0()
-		{
-			return (::System::Comparison_1<::MoleMole::UIHollowInfoEventAtlasWidgetController_EventData*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FDD0);
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44F40);
 		}
 		static ::System::Action** StaticGet___9__3_3()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FDD8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44F48);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44F50);
+		}
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44F58);
+		}
+		static ::System::Func_2<::System::Object*, ::System::UInt32>** StaticGet___9__3_1()
+		{
+			return (::System::Func_2<::System::Object*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44F60);
+		}
+		static ::System::Action** StaticGet___9__3_2()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowInfoEventAtlasWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44F68);
 		}
 
 		static ::System::Void _cctor()

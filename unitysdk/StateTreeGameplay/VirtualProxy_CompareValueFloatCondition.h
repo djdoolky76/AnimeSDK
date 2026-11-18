@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeGameplay/VirtualProxy_StateTreeCommonConditionBase.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREVALUEFLOATCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x1F1CB530)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREVALUEFLOATCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1F1CB5E0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREVALUEFLOATCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1F1CB640)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREVALUEFLOATCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1CB700)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREVALUEFLOATCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x1D2047E0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREVALUEFLOATCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1D204890)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREVALUEFLOATCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1D2048F0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREVALUEFLOATCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2049B0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualProxy_CompareValueFloatCondition_TypeDefinitionIndex = 60877;
+	inline static constexpr unsigned int VirtualProxy_CompareValueFloatCondition_TypeDefinitionIndex = 63652;
 
 	class VirtualProxy_CompareValueFloatCondition : public ::StateTreeGameplay::VirtualProxy_StateTreeCommonConditionBase
 	{

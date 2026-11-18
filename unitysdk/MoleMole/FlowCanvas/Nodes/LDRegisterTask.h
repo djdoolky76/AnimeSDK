@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/MultiTaskNodeHandle.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/MoleMole/TaskCompletionSourceNodeHandle.h"
 
-class Class_2_D6F9B792012303A1;
+class FJMFECAAPHD;
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK_DELAYDURATION_OFFSET UNITYSDK_OFFSET(0x144C9DD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x144C9880)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK_START_OFFSET UNITYSDK_OFFSET(0x144C99D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x144C9E60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x144C9EA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x144C9EB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK_DELAYDURATION_OFFSET UNITYSDK_OFFSET(0x104127B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10412260)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK_START_OFFSET UNITYSDK_OFFSET(0x104123B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x10412840)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x10412880)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERTASK__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x10412890)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRegisterTask_TypeDefinitionIndex = 83272;
+	inline static constexpr unsigned int LDRegisterTask_TypeDefinitionIndex = 52778;
 
 	class LDRegisterTask : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* taskName; // 0xA8
-		::UnityEngine::Coroutine* delayHandle; // 0xB0
+		::FJMFECAAPHD* taskNode; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* taskName; // 0xB0
 		::FlowCanvas::FlowOutput* _output; // 0xB8
-		::Class_2_D6F9B792012303A1* taskNode; // 0xC0
-		::FlowCanvas::ValueInput_1<::MoleMole::MultiTaskNodeHandle>* multiTaskNodeInput; // 0xC8
+		::FlowCanvas::ValueInput_1<::MoleMole::MultiTaskNodeHandle>* multiTaskNodeInput; // 0xC0
+		::UnityEngine::Coroutine* delayHandle; // 0xC8
 
 		::System::Void _ctor()
 		{

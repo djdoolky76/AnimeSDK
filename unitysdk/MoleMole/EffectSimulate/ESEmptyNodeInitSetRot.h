@@ -5,13 +5,13 @@
 namespace MoleMole::EffectSimulate { class EffectMeshRendererBillboardComponent; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_EFFECTSIMULATE_ESEMPTYNODEINITSETROT_METHOD_4_7E2F0F52DBCB5BCD_OFFSET UNITYSDK_OFFSET(0x1A953DD0)
-#define MOLEMOLE_EFFECTSIMULATE_ESEMPTYNODEINITSETROT_METHOD_4_C433AF37CE9D6E5B_OFFSET UNITYSDK_OFFSET(0x1A9541E0)
-#define MOLEMOLE_EFFECTSIMULATE_ESEMPTYNODEINITSETROT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9541C0)
+#define MOLEMOLE_EFFECTSIMULATE_ESEMPTYNODEINITSETROT_MLOKIDFFEPH_OFFSET UNITYSDK_OFFSET(0x1B8C8B60)
+#define MOLEMOLE_EFFECTSIMULATE_ESEMPTYNODEINITSETROT_PKOOKCIHDHF_OFFSET UNITYSDK_OFFSET(0x1B8C8750)
+#define MOLEMOLE_EFFECTSIMULATE_ESEMPTYNODEINITSETROT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C8B40)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESEmptyNodeInitSetRot_TypeDefinitionIndex = 74360;
+	inline static constexpr unsigned int ESEmptyNodeInitSetRot_TypeDefinitionIndex = 63156;
 
 	class ESEmptyNodeInitSetRot : public ::MoleMole::EffectSimulate::ESEmptyNodeInitTransformBehavior
 	{
@@ -23,14 +23,14 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESEMPTYNODEINITSETROT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_4_7E2F0F52DBCB5BCD(::UnityEngine::GameObject* a1)
+		::System::Void PKOOKCIHDHF(::UnityEngine::GameObject* NJOAJLDJCCJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESEMPTYNODEINITSETROT_METHOD_4_7E2F0F52DBCB5BCD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESEMPTYNODEINITSETROT_PKOOKCIHDHF_OFFSET))(this, NJOAJLDJCCJ);
 		}
 
-		::System::Void Method_4_C433AF37CE9D6E5B(::UnityEngine::GameObject* a1)
+		::System::Void MLOKIDFFEPH(::UnityEngine::GameObject* MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESEMPTYNODEINITSETROT_METHOD_4_C433AF37CE9D6E5B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESEMPTYNODEINITSETROT_MLOKIDFFEPH_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

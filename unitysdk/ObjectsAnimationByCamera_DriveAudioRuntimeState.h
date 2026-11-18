@@ -2,16 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OBJECTSANIMATIONBYCAMERA_DRIVEAUDIORUNTIMESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x142129B0)
+#define OBJECTSANIMATIONBYCAMERA_DRIVEAUDIORUNTIMESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x119504D0)
 
-inline static constexpr unsigned int ObjectsAnimationByCamera_DriveAudioRuntimeState_TypeDefinitionIndex = 75782;
+inline static constexpr unsigned int ObjectsAnimationByCamera_DriveAudioRuntimeState_TypeDefinitionIndex = 38921;
 
 class ObjectsAnimationByCamera_DriveAudioRuntimeState : public ::System::Object
 {
 public:
-	::System::Single prevSampleTime; // 0x10
-	::System::Int32 prevSign; // 0x14
-	::System::Boolean prevSampleInitialized; // 0x18
+	::System::Boolean prevSampleInitialized; // 0x10
+	::System::Byte _padding0[0x3];
+	::System::Single prevSampleTime; // 0x14
+	::System::Int32 prevSign; // 0x18
 
 	::System::Void _ctor()
 	{

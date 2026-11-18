@@ -5,11 +5,11 @@
 
 namespace MoleMole::MiniGame::TartarusHounds { class MonoSoulHoundPropIconAnimConfig_SoulHoundPropIconAnimConfig; }
 
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOSOULHOUNDPROPICONANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1908EFE0)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_MONOSOULHOUNDPROPICONANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x180F6960)
 
 namespace MoleMole::MiniGame::TartarusHounds
 {
-	inline static constexpr unsigned int MonoSoulHoundPropIconAnimConfig_TypeDefinitionIndex = 44188;
+	inline static constexpr unsigned int MonoSoulHoundPropIconAnimConfig_TypeDefinitionIndex = 90387;
 
 	class MonoSoulHoundPropIconAnimConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

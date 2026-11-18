@@ -4,29 +4,35 @@
 #include "unitysdk/Foundation/Unreal/GameplayTagQueryExpressionType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGQUERYEXPRESSION_NEW_1_OFFSET UNITYSDK_OFFSET(0x16913A50)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGQUERYEXPRESSION_NEW_OFFSET UNITYSDK_OFFSET(0x16913A10)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGQUERYEXPRESSION_NEW_1_OFFSET UNITYSDK_OFFSET(0x1B7B2610)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGQUERYEXPRESSION_NEW_OFFSET UNITYSDK_OFFSET(0x1B7B25D0)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagQueryExpression_TypeDefinitionIndex = 10751;
+	inline static constexpr unsigned int FGameplayTagQueryExpression_TypeDefinitionIndex = 13024;
 
 	struct alignas(8) FGameplayTagQueryExpression
 	{
 		::Foundation::Unreal::GameplayTagQueryExpressionType ExpressionType; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::Foundation::Unreal::FGameplayTag>* TagSet; // 0x18
 		::System::Int32 TagSetCount; // 0x20
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::Foundation::Unreal::FGameplayTagQueryExpression>* ExpressionSet; // 0x28
 		::System::Int32 ExpressionSetCount; // 0x30
 
+		/*
 		static ::Foundation::Unreal::FGameplayTagQueryExpression New()
 		{
 			return ((::Foundation::Unreal::FGameplayTagQueryExpression(*)())((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FGAMEPLAYTAGQUERYEXPRESSION_NEW_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::Foundation::Unreal::FGameplayTagQueryExpression New_1(::Foundation::Unreal::FGameplayTagQueryExpression& other)
 		{
 			return ((::Foundation::Unreal::FGameplayTagQueryExpression(*)(::Foundation::Unreal::FGameplayTagQueryExpression&))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FGAMEPLAYTAGQUERYEXPRESSION_NEW_1_OFFSET))(other);
 		}
+		*/
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int HostSystemID_TypeDefinitionIndex = 6851;
+	inline static constexpr unsigned int HostSystemID_TypeDefinitionIndex = 6858;
 
 	enum class HostSystemID : ::System::Int32
 	{

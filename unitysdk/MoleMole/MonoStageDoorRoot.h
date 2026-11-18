@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOSTAGEDOORROOT_AWAKE_OFFSET UNITYSDK_OFFSET(0x136E01B0)
-#define MOLEMOLE_MONOSTAGEDOORROOT_GET_ROOTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x136E0200)
-#define MOLEMOLE_MONOSTAGEDOORROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x136E0210)
+#define MOLEMOLE_MONOSTAGEDOORROOT_AWAKE_OFFSET UNITYSDK_OFFSET(0x135C0620)
+#define MOLEMOLE_MONOSTAGEDOORROOT_GET_ROOTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x135C0670)
+#define MOLEMOLE_MONOSTAGEDOORROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x135C0680)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoStageDoorRoot_TypeDefinitionIndex = 78263;
+	inline static constexpr unsigned int MonoStageDoorRoot_TypeDefinitionIndex = 61948;
 
 	class MonoStageDoorRoot : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::Transform* Field_5_0; // 0x18
+		::UnityEngine::Transform* OMPHGGCEIBD; // 0x18
 
 		::System::Void _ctor()
 		{

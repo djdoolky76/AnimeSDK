@@ -4,9 +4,9 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int UnitySerializationUtility_CachedSerializationBackendResult_TypeDefinitionIndex = 7603;
+	inline static constexpr unsigned int UnitySerializationUtility_CachedSerializationBackendResult_TypeDefinitionIndex = 7615;
 
-	struct alignas(1) UnitySerializationUtility_CachedSerializationBackendResult
+	struct alignas(4) UnitySerializationUtility_CachedSerializationBackendResult
 	{
 		::System::Boolean HasCalculatedSerializeUnityFieldsTrueResult; // 0x10
 		::System::Boolean HasCalculatedSerializeUnityFieldsFalseResult; // 0x11

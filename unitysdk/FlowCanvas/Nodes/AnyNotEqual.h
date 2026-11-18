@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
 namespace System { class Object; }
 
-#define FLOWCANVAS_NODES_ANYNOTEQUAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D055B80)
-#define FLOWCANVAS_NODES_ANYNOTEQUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D055BA0)
+#define FLOWCANVAS_NODES_ANYNOTEQUAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D5CFF70)
+#define FLOWCANVAS_NODES_ANYNOTEQUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CFF90)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int AnyNotEqual_TypeDefinitionIndex = 30737;
+	inline static constexpr unsigned int AnyNotEqual_TypeDefinitionIndex = 30561;
 
-	class AnyNotEqual : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Boolean, ::System::Object*, ::System::Object*>
+	class AnyNotEqual
 	{
 	public:
 		::System::Void _ctor()

@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphCrossingPointConfig_NodeInfo_TypeDefinitionIndex = 51391;
+	inline static constexpr unsigned int PathGraphCrossingPointConfig_NodeInfo_TypeDefinitionIndex = 75604;
 
 	struct alignas(4) PathGraphCrossingPointConfig_NodeInfo
 	{

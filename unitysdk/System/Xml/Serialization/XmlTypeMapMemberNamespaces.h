@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Serialization/XmlTypeMapMember.h"
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERNAMESPACES__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0726F0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERNAMESPACES__CTOR_OFFSET UNITYSDK_OFFSET(0x1F40A4F0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlTypeMapMemberNamespaces_TypeDefinitionIndex = 1932;
+	inline static constexpr unsigned int XmlTypeMapMemberNamespaces_TypeDefinitionIndex = 1931;
 
 	class XmlTypeMapMemberNamespaces : public ::System::Xml::Serialization::XmlTypeMapMember
 	{

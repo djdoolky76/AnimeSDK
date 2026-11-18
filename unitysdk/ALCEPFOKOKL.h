@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BFMBHMKJCCM;
+class DENBPLEJLAJ;
+class GIDKAJGGEKN;
+class MFCCIJKCFMH;
+
+#define ALCEPFOKOKL_ABIDGBOENPD_OFFSET UNITYSDK_OFFSET(0x144F6B70)
+#define ALCEPFOKOKL_KPIGIBHKGMF_OFFSET UNITYSDK_OFFSET(0x144F6B90)
+#define ALCEPFOKOKL_OBCBEMHPKLA_OFFSET UNITYSDK_OFFSET(0x144F6B80)
+#define ALCEPFOKOKL__CTOR_OFFSET UNITYSDK_OFFSET(0x144F6BA0)
+
+inline static constexpr unsigned int ALCEPFOKOKL_TypeDefinitionIndex = 78288;
+
+class ALCEPFOKOKL : public ::System::Object
+{
+public:
+	::BFMBHMKJCCM* _NLMGCJJODBK_k__BackingField; // 0x10
+	::GIDKAJGGEKN* _NKOGCDBJPIC_k__BackingField; // 0x18
+	::MFCCIJKCFMH* _EBHEJCPKMGG_k__BackingField; // 0x20
+
+	::System::Void _ctor(::DENBPLEJLAJ* MHEPAPJILHF)
+	{
+		return ((::System::Void(*)(::PVOID, ::DENBPLEJLAJ*))((::PBYTE)hIl2Cpp + ALCEPFOKOKL__CTOR_OFFSET))(this, MHEPAPJILHF);
+	}
+
+	::GIDKAJGGEKN* ABIDGBOENPD()
+	{
+		return ((::GIDKAJGGEKN*(*)(::PVOID))((::PBYTE)hIl2Cpp + ALCEPFOKOKL_ABIDGBOENPD_OFFSET))(this);
+	}
+
+	::BFMBHMKJCCM* OBCBEMHPKLA()
+	{
+		return ((::BFMBHMKJCCM*(*)(::PVOID))((::PBYTE)hIl2Cpp + ALCEPFOKOKL_OBCBEMHPKLA_OFFSET))(this);
+	}
+
+	::MFCCIJKCFMH* KPIGIBHKGMF()
+	{
+		return ((::MFCCIJKCFMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + ALCEPFOKOKL_KPIGIBHKGMF_OFFSET))(this);
+	}
+};

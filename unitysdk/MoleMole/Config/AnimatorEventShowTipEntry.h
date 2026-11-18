@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/AnimatorEventEntry.h"
-#include "unitysdk/MoleMole/Config/AnimatorEventShowTipEntry_ShowTipEntryConfig.h"
 
 namespace MoleMole::Config { class AnimatorEvent; }
+namespace System { class Object; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOWTIPENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x12EEF5E0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOWTIPENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12EEF660)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOWTIPENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x12763CF0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTSHOWTIPENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12763D70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventShowTipEntry_TypeDefinitionIndex = 64378;
+	inline static constexpr unsigned int AnimatorEventShowTipEntry_TypeDefinitionIndex = 44651;
 
 	class AnimatorEventShowTipEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
-		::Il2CppArray<::MoleMole::Config::AnimatorEventShowTipEntry_ShowTipEntryConfig>* TipEntryConfigs; // 0x58
+		::Il2CppArray<::System::Object*>* TipEntryConfigs; // 0x58
 		::System::Int32 LimitCountOfShowTips; // 0x60
 		::System::Single Probability; // 0x64
 

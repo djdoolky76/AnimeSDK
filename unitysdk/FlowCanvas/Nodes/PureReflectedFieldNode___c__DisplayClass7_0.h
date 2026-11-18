@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class PureReflectedFieldNode; }
 
-#define FLOWCANVAS_NODES_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD7860)
-#define FLOWCANVAS_NODES_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1DAD7870)
+#define FLOWCANVAS_NODES_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D475940)
+#define FLOWCANVAS_NODES_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS7_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1D475950)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass7_0_TypeDefinitionIndex = 30404;
+	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass7_0_TypeDefinitionIndex = 30795;
 
 	class PureReflectedFieldNode___c__DisplayClass7_0 : public ::System::Object
 	{

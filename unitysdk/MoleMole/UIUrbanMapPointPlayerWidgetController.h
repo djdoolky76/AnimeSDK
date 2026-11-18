@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/UIUrbanMapPointWidgetController_2.h"
 
-class Class_3_12A3AC5F578BFE26;
-namespace MoleMole { class UIThreeDMapElement_LocalPlayerContext; }
-
-#define MOLEMOLE_UIURBANMAPPOINTPLAYERWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x10EF82B0)
+#define MOLEMOLE_UIURBANMAPPOINTPLAYERWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x13B232C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapPointPlayerWidgetController_TypeDefinitionIndex = 47731;
+	inline static constexpr unsigned int UIUrbanMapPointPlayerWidgetController_TypeDefinitionIndex = 44685;
 
-	class UIUrbanMapPointPlayerWidgetController : public ::MoleMole::UIUrbanMapPointWidgetController_2<::Class_3_12A3AC5F578BFE26*, ::MoleMole::UIThreeDMapElement_LocalPlayerContext*>
+	class UIUrbanMapPointPlayerWidgetController
 	{
 	public:
 		::System::Void _ctor()

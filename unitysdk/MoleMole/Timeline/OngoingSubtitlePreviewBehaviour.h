@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define MOLEMOLE_TIMELINE_ONGOINGSUBTITLEPREVIEWBEHAVIOUR_METHOD_2_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x190BF880)
-#define MOLEMOLE_TIMELINE_ONGOINGSUBTITLEPREVIEWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x190BF870)
+#define MOLEMOLE_TIMELINE_ONGOINGSUBTITLEPREVIEWBEHAVIOUR_KOPLHACOBFC_OFFSET UNITYSDK_OFFSET(0x19B6A620)
+#define MOLEMOLE_TIMELINE_ONGOINGSUBTITLEPREVIEWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B6A610)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int OngoingSubtitlePreviewBehaviour_TypeDefinitionIndex = 75324;
+	inline static constexpr unsigned int OngoingSubtitlePreviewBehaviour_TypeDefinitionIndex = 91528;
 
 	class OngoingSubtitlePreviewBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -22,9 +22,9 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ONGOINGSUBTITLEPREVIEWBEHAVIOUR__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_A3FAE12D7B6ACD62()
+		::System::Boolean KOPLHACOBFC()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ONGOINGSUBTITLEPREVIEWBEHAVIOUR_METHOD_2_A3FAE12D7B6ACD62_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ONGOINGSUBTITLEPREVIEWBEHAVIOUR_KOPLHACOBFC_OFFSET))(this);
 		}
 	};
 }

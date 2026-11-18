@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CompareOptions_TypeDefinitionIndex = 707;
+	inline static constexpr unsigned int CompareOptions_TypeDefinitionIndex = 706;
 
 	enum class CompareOptions : ::System::Int32
 	{

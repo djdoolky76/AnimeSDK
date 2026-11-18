@@ -1,25 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/Unreal/IntervalBound_1.h"
+#include "unitysdk/Foundation/Unreal/Interval_1.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_CREATE_OFFSET UNITYSDK_OFFSET(0x1F1552A0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_GETINVERSED_OFFSET UNITYSDK_OFFSET(0xA917C0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_ISIDENTITY_OFFSET UNITYSDK_OFFSET(0xA91740)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1F155500)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_TRANSFORMTIMEINTERVAL_OFFSET UNITYSDK_OFFSET(0xA91840)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_TRANSFORMTIME_OFFSET UNITYSDK_OFFSET(0xA917D0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F155950)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM__TRANSFORMTIMEINTERVAL_G__TRANSFORMBOUND_8_0_OFFSET UNITYSDK_OFFSET(0x1F1557C0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_CREATE_OFFSET UNITYSDK_OFFSET(0x1F52D7A0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_GETINVERSED_OFFSET UNITYSDK_OFFSET(0x978410)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_ISIDENTITY_OFFSET UNITYSDK_OFFSET(0x978390)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1F52DA00)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_TRANSFORMTIMEINTERVAL_OFFSET UNITYSDK_OFFSET(0x978490)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_TRANSFORMTIME_OFFSET UNITYSDK_OFFSET(0x978420)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F52DE50)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM__TRANSFORMTIMEINTERVAL_G__TRANSFORMBOUND_8_0_OFFSET UNITYSDK_OFFSET(0x1F52DCC0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceTimeTransform_TypeDefinitionIndex = 38530;
+	inline static constexpr unsigned int CameraSequenceTimeTransform_TypeDefinitionIndex = 36529;
 
 	struct alignas(4) CameraSequenceTimeTransform
 	{
 		static ::PipelineCamera::CameraSequence::CameraSequenceTimeTransform* StaticGet_Identity()
 		{
-			return (::PipelineCamera::CameraSequence::CameraSequenceTimeTransform*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceTimeTransform_TypeDefinitionIndex)->GetStaticField(0x8D50);
+			return (::PipelineCamera::CameraSequence::CameraSequenceTimeTransform*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceTimeTransform_TypeDefinitionIndex)->GetStaticField(0x91E0);
 		}
 		::System::Single TimeScale; // 0x10
 		::System::Single TimeOffset; // 0x14
@@ -29,37 +31,41 @@ namespace PipelineCamera::CameraSequence
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM__CCTOR_OFFSET))();
 		}
 
+		/*
 		static ::PipelineCamera::CameraSequence::CameraSequenceTimeTransform Create(::System::Single timeOffset, ::System::Single timeScale)
 		{
 			return ((::PipelineCamera::CameraSequence::CameraSequenceTimeTransform(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_CREATE_OFFSET))(timeOffset, timeScale);
 		}
+		*/
 
 		::System::Boolean IsIdentity()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_ISIDENTITY_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean GetInversed(::PipelineCamera::CameraSequence::CameraSequenceTimeTransform& inversed)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceTimeTransform&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_GETINVERSED_OFFSET))(this, inversed);
 		}
+		*/
 
+		/*
 		static ::PipelineCamera::CameraSequence::CameraSequenceTimeTransform Multiply(::PipelineCamera::CameraSequence::CameraSequenceTimeTransform& left, ::PipelineCamera::CameraSequence::CameraSequenceTimeTransform& right)
 		{
 			return ((::PipelineCamera::CameraSequence::CameraSequenceTimeTransform(*)(::PipelineCamera::CameraSequence::CameraSequenceTimeTransform&, ::PipelineCamera::CameraSequence::CameraSequenceTimeTransform&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_MULTIPLY_OFFSET))(left, right);
 		}
+		*/
 
 		::System::Single TransformTime(::System::Single time)
 		{
 			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_TRANSFORMTIME_OFFSET))(this, time);
 		}
 
-		/*
 		::Foundation::Unreal::Interval_1<::System::Single> TransformTimeInterval(::Foundation::Unreal::Interval_1<::System::Single>& timeInterval)
 		{
 			return ((::Foundation::Unreal::Interval_1<::System::Single>(*)(::PVOID, ::Foundation::Unreal::Interval_1<::System::Single>&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCETIMETRANSFORM_TRANSFORMTIMEINTERVAL_OFFSET))(this, timeInterval);
 		}
-		*/
 
 		/*
 		static ::Foundation::Unreal::IntervalBound_1<::System::Single> _TransformTimeInterval_g__TransformBound_8_0(::PipelineCamera::CameraSequence::CameraSequenceTimeTransform& self, ::Foundation::Unreal::IntervalBound_1<::System::Single>& bound)

@@ -3,9 +3,9 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IResourceRequest_2_TypeDefinitionIndex = 8484;
+	inline static constexpr unsigned int IResourceRequest_2_TypeDefinitionIndex = 9009;
 
-	template <typename TResource, typename TDefault>
+	template <typename T1, typename T2>
 	class IResourceRequest_2
 	{
 	public:

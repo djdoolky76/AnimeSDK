@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_HORROR30EXCHANGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x19390E50)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER_HORROR30EXCHANGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x16EDD5C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController_Horror30ExchangeParams_TypeDefinitionIndex = 62825;
+	inline static constexpr unsigned int UIGalgamePageController_Horror30ExchangeParams_TypeDefinitionIndex = 44756;
 
 	class UIGalgamePageController_Horror30ExchangeParams : public ::MoleMole::UIGalgamePageController_ImgExchangeTypeParams
 	{

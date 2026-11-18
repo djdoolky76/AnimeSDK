@@ -6,15 +6,15 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedList_2_SortedListKeyEnumerator_TypeDefinitionIndex = 3976;
+	inline static constexpr unsigned int SortedList_2_SortedListKeyEnumerator_TypeDefinitionIndex = 3975;
 
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class SortedList_2_SortedListKeyEnumerator : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::SortedList_2<TKey, TValue>* _sortedList; // 0x0
+		::System::Collections::Generic::SortedList_2<T1, T2>* _sortedList; // 0x0
 		::System::Int32 _index; // 0x0
 		::System::Int32 _version; // 0x0
-		TKey _currentKey; // 0x0
+		T2 _currentKey; // 0x0
 	};
 }

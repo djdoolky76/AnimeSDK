@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_5111A21FA8B904B1;
+class JLCMJJOJAFL;
 
-#define MOLEMOLE_UIBANGBOOGROUPPHOTOROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1930BFC0)
+#define MOLEMOLE_UIBANGBOOGROUPPHOTOROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC0AB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooGroupPhotoRowContext_TypeDefinitionIndex = 74005;
+	inline static constexpr unsigned int UIBangbooGroupPhotoRowContext_TypeDefinitionIndex = 47023;
 
 	class UIBangbooGroupPhotoRowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_5111A21FA8B904B1* CheckPoint; // 0x28
+		::JLCMJJOJAFL* CheckPoint; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -15,20 +15,20 @@
 class BubbleProgressColor;
 namespace MoleMole { class BuddyCameraConfig; }
 namespace MoleMole { class BuddyChangeDepthConfig; }
-namespace MoleMole { class ConfigUICommon_UIPage_StreamingPagePauseGameLogic; }
 namespace MoleMole { class FeverV3MaterialParam; }
 namespace MoleMole { class InterknotPostHeightDic; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_INITINTERKNOTPOSTHEIGHT_OFFSET UNITYSDK_OFFSET(0x1B5776E0)
-#define MOLEMOLE_CONFIGUICOMMON_UIPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B577F50)
+#define MOLEMOLE_CONFIGUICOMMON_UIPAGE_INITINTERKNOTPOSTHEIGHT_OFFSET UNITYSDK_OFFSET(0x1BA5BCE0)
+#define MOLEMOLE_CONFIGUICOMMON_UIPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA5C550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_UIPage_TypeDefinitionIndex = 60263;
+	inline static constexpr unsigned int ConfigUICommon_UIPage_TypeDefinitionIndex = 74892;
 
 	class ConfigUICommon_UIPage : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -36,11 +36,13 @@ namespace MoleMole
 		::System::Single RoleLevelupProgressAnimDurtaion; // 0x58
 		::System::Single RoleLevelupProgressMinAnimDurtaion; // 0x5C
 		::System::Boolean IsRoleLevelupProgressCustomAnim; // 0x60
+		::System::Byte _padding0[0x3];
 		::DG::Tweening::Ease RoleLevelupProgressTweenEase; // 0x64
 		::UnityEngine::AnimationCurve* RoleLevelupProgressCustomCurve; // 0x68
 		::System::Single FeverShowRatio; // 0x70
 		::System::Single FeverShowLerpNum; // 0x74
 		::System::Single FeverShowMinAddNum; // 0x78
+		::System::Byte _padding1[0x4];
 		::System::String* FeverPtsMaterialPath; // 0x80
 		::System::String* FeverOperationMaterialPath; // 0x88
 		::System::Collections::Generic::List_1<::MoleMole::FeverV3MaterialParam*>* FeverV3MaterialParams; // 0x90
@@ -64,19 +66,23 @@ namespace MoleMole
 		::System::Single replyInterval; // 0x128
 		::UnityEngine::Color questPostColor; // 0x12C
 		::UnityEngine::Color questReadPostColor; // 0x13C
+		::System::Byte _padding2[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* SocialPostEmptySize; // 0x150
 		::System::Collections::Generic::Dictionary_2<::MoleMole::SocialPostSizeType, ::System::Single>* SocialPostSize; // 0x158
 		::System::Single LevelUpDelay; // 0x160
 		::System::Single ChangeTimeDelay; // 0x164
 		::System::Single stickTapesMaxSpeed; // 0x168
+		::System::Byte _padding3[0x4];
 		::UnityEngine::AnimationCurve* stickTapesSpeedCurve; // 0x170
 		::System::Single stickTapesPlusSpeedTime; // 0x178
 		::System::Single stickPressInteval; // 0x17C
 		::System::Single stickPressPercent; // 0x180
+		::System::Byte _padding4[0x4];
 		::UnityEngine::AnimationCurve* gamepadTapesSinglePressDragSpeedCurve; // 0x188
 		::System::Single gamepadTapesSinglePressDragMaxSpeed; // 0x190
 		::System::Single gamepadTapesSinglePressDragMinSpeed; // 0x194
 		::System::Single FairyMinInterval; // 0x198
+		::System::Byte _padding5[0x4];
 		::System::Collections::Generic::Dictionary_2<::BubbleProgressColorType, ::BubbleProgressColor*>* FairyColors; // 0x1A0
 		::System::Single buttonClickColdDown; // 0x1A8
 		::System::Single ArcadeFarPosTextureSheetLoopTime; // 0x1AC
@@ -91,6 +97,7 @@ namespace MoleMole
 		::UnityEngine::Color ArcadeRankTwoTextColor; // 0x1E4
 		::UnityEngine::Color ArcadeRankThreeTextColor; // 0x1F4
 		::UnityEngine::Color ArcadeRankHundredTextColor; // 0x204
+		::System::Byte _padding6[0x4];
 		::UnityEngine::AnimationCurve* ArcadeSpinningTableRotateMapCurve; // 0x218
 		::System::Single ArcadeSpinningTableRotateFrequency; // 0x220
 		::System::Single ArcadeSpinningTableRotateHalfLife; // 0x224
@@ -99,10 +106,12 @@ namespace MoleMole
 		::UnityEngine::Color ArcadeActivityItemNoCenterTextColor; // 0x23C
 		::System::Int32 ArcadeActivityCenterItemCanvasOrder; // 0x24C
 		::System::Single ArcadeActivityListItemMinScale; // 0x250
+		::System::Byte _padding7[0x4];
 		::UnityEngine::AnimationCurve* ArcadeActivityListItemScaleCurve; // 0x258
 		::System::Single ArcadeActivityListScaleRange; // 0x260
 		::System::Boolean ArcadeActivityListWheelDebug; // 0x264
 		::System::Boolean ArcadeActivityListWheelIsRhombus; // 0x265
+		::System::Byte _padding8[0x2];
 		::System::Single ArcadeActivityListItemNumOnWheel; // 0x268
 		::System::Single ArcadeActivityListWheelDistanceToCamera; // 0x26C
 		::UnityEngine::Vector2 ArcadeActivityListWheelRhombusSize; // 0x270
@@ -122,6 +131,7 @@ namespace MoleMole
 		::UnityEngine::Vector3 buddyTVRotation; // 0x2D4
 		::UnityEngine::Vector3 buddyTVPosition; // 0x2E0
 		::System::Boolean isOpenEditor; // 0x2EC
+		::System::Byte _padding9[0x3];
 		::MoleMole::BuddyCameraConfig* BuddyBornCameraConfig; // 0x2F0
 		::System::Single buddySwitchTime; // 0x2F8
 		::System::Single buddySwitchTime_Out; // 0x2FC
@@ -133,9 +143,12 @@ namespace MoleMole
 		::System::Single BuddyBagItemLongPressTime; // 0x31C
 		::System::Single HollowLayerProgressAnimDurtaion; // 0x320
 		::System::Boolean IsHollowLayerProgressCustomAnim; // 0x324
+		::System::Byte _padding10[0x3];
 		::DG::Tweening::Ease HollowLayerProgressTweenEase; // 0x328
+		::System::Byte _padding11[0x4];
 		::UnityEngine::AnimationCurve* HollowLayerProgressCustomCurve; // 0x330
 		::System::Single RewardShowInterval; // 0x338
+		::System::Byte _padding12[0x4];
 		::UnityEngine::AnimationCurve* RewardShowTextureSheetCurve; // 0x340
 		::UnityEngine::AnimationCurve* RewardDisappearMotionCurve; // 0x348
 		::System::Single RewardDisappearFirstTime; // 0x350
@@ -144,10 +157,11 @@ namespace MoleMole
 		::System::Single RewardDisappearGapTime; // 0x35C
 		::UnityEngine::Vector2 RewardTipsWidgetRect; // 0x360
 		::System::Single RewardTipsWidgetGap; // 0x368
+		::System::Byte _padding13[0x4];
 		::UnityEngine::AnimationCurve* RewardAccelerateCurve; // 0x370
 		::System::Collections::Generic::List_1<::System::String*>* NoPauseGamePopWndCtlIdStrList; // 0x378
 		::System::Collections::Generic::List_1<::System::String*>* PauseGamePopWndCtlIdStrList; // 0x380
-		::System::Collections::Generic::List_1<::MoleMole::ConfigUICommon_UIPage_StreamingPagePauseGameLogic*>* CustomPauseLogicGamePageCtlIdList; // 0x388
+		::System::Collections::Generic::List_1<::System::Object*>* CustomPauseLogicGamePageCtlIdList; // 0x388
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* FadeInDisablePageCtlIdStrList; // 0x390
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* FadeOutDisablePageCtlIdStrList; // 0x398
 

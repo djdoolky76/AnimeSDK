@@ -3,7 +3,7 @@
 
 namespace System::Net::WebSockets
 {
-	inline static constexpr unsigned int WebSocketError_TypeDefinitionIndex = 3901;
+	inline static constexpr unsigned int WebSocketError_TypeDefinitionIndex = 3900;
 
 	enum class WebSocketError : ::System::Int32
 	{

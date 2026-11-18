@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class AFMMAIKKACF;
+class EHGPNGPADCB;
+
+#define FLJPBMBCJDB_CIBMCMMDFDC_OFFSET UNITYSDK_OFFSET(0x1410BE50)
+#define FLJPBMBCJDB_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0x1410BDF0)
+#define FLJPBMBCJDB_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0x1410C020)
+#define FLJPBMBCJDB__CTOR_OFFSET UNITYSDK_OFFSET(0x1410BDE0)
+
+inline static constexpr unsigned int FLJPBMBCJDB_TypeDefinitionIndex = 89660;
+
+class FLJPBMBCJDB
+{
+public:
+	::System::Void _ctor(::EHGPNGPADCB* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::EHGPNGPADCB*))((::PBYTE)hIl2Cpp + FLJPBMBCJDB__CTOR_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Void GLEJMKLOMBP(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + FLJPBMBCJDB_GLEJMKLOMBP_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void LIDIODHDJAF(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + FLJPBMBCJDB_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	static ::System::Void CIBMCMMDFDC(::System::Int32 LEHABHCOMGH)
+	{
+		return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + FLJPBMBCJDB_CIBMCMMDFDC_OFFSET))(LEHABHCOMGH);
+	}
+};

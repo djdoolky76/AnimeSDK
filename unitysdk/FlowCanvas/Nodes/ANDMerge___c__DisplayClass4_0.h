@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas::Nodes { class ANDMerge; }
 
-#define FLOWCANVAS_NODES_ANDMERGE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8EF80)
-#define FLOWCANVAS_NODES_ANDMERGE___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EB8EF90)
+#define FLOWCANVAS_NODES_ANDMERGE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF5EA20)
+#define FLOWCANVAS_NODES_ANDMERGE___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EF5EA30)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ANDMerge___c__DisplayClass4_0_TypeDefinitionIndex = 30993;
+	inline static constexpr unsigned int ANDMerge___c__DisplayClass4_0_TypeDefinitionIndex = 29786;
 
 	class ANDMerge___c__DisplayClass4_0 : public ::System::Object
 	{

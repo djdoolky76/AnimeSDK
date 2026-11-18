@@ -5,11 +5,11 @@
 
 namespace System::Runtime::Remoting::Proxies { class RealProxy; }
 
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_TRANSPARENTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1268C0)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_TRANSPARENTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E492D70)
 
 namespace System::Runtime::Remoting::Proxies
 {
-	inline static constexpr unsigned int TransparentProxy_TypeDefinitionIndex = 1270;
+	inline static constexpr unsigned int TransparentProxy_TypeDefinitionIndex = 1269;
 
 	class TransparentProxy : public ::System::Object
 	{

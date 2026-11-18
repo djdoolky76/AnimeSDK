@@ -1,76 +1,78 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_3EDF246633A325B0.h"
-#include "unitysdk/Enum_3_8E90989A26BC6232.h"
 #include "unitysdk/Foundation/Coroutine/CoroutineHandle.h"
+#include "unitysdk/GBJMDNJNIBO.h"
+#include "unitysdk/GMFAKIPCDED.h"
 #include "unitysdk/MoleMole/UITransitionPanelPopWindowController_TransitionState.h"
 #include "unitysdk/MoleMole/UIWindowController.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/System/Nullable_1.h"
 
-class Class_2_52BF5A8E97668B1D_7;
+class MBAJJGCKLJK;
 namespace MoleMole { class UIControlReference; }
 namespace MoleMole { class UIControllerContextBase; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_DOFADETRANSITIONWITHSTARTCOLOR_OFFSET UNITYSDK_OFFSET(0x15EBCAD0)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_DOFADETRANSITION_OFFSET UNITYSDK_OFFSET(0x15EBC8E0)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_DOFORCETRANSITIONWITHCOLOR_OFFSET UNITYSDK_OFFSET(0x15EBC730)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_GET_HOTSWITCHROOTLAYERSTATE_OFFSET UNITYSDK_OFFSET(0x15EBC000)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x15EBBFF0)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ISFADEIN_OFFSET UNITYSDK_OFFSET(0x15EBD7B0)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ISFADEOUT_OFFSET UNITYSDK_OFFSET(0x15EBD860)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ISPLAYING_OFFSET UNITYSDK_OFFSET(0x15EBD810)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x15EBC270)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ONDISABLESOUNDSTATE_OFFSET UNITYSDK_OFFSET(0x15EBC480)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ONENABLESOUNDSTATE_OFFSET UNITYSDK_OFFSET(0x15EBC0F0)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x15EBC390)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x15EBC300)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x15EBC010)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_REFRESHIMGINFO_1_OFFSET UNITYSDK_OFFSET(0x15EBD630)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_REFRESHIMGINFO_OFFSET UNITYSDK_OFFSET(0x15EBD520)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_SETUIWINDOWSETTING_OFFSET UNITYSDK_OFFSET(0x15EBC600)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_WITHALPHA_OFFSET UNITYSDK_OFFSET(0x15EBD490)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBD8C0)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x15EBD8E0)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_ONDISABLESOUNDSTATE_OFFSET UNITYSDK_OFFSET(0x15EBD970)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_ONENABLESOUNDSTATE_OFFSET UNITYSDK_OFFSET(0x15EBDA00)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x15EBDA90)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x15EBDB50)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x15EBDB60)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_SETUIWINDOWSETTING_OFFSET UNITYSDK_OFFSET(0x15EBDBF0)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_DOFADETRANSITION_OFFSET UNITYSDK_OFFSET(0x14E19B10)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_DOFORCETRANSITIONWITHCOLOR_OFFSET UNITYSDK_OFFSET(0x14E19970)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_GET_HOTSWITCHROOTLAYERSTATE_OFFSET UNITYSDK_OFFSET(0x14E19240)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x14E19230)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_IGKIOGIBHGL_OFFSET UNITYSDK_OFFSET(0x14E19D00)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ISFADEIN_OFFSET UNITYSDK_OFFSET(0x14E1A6B0)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ISFADEOUT_OFFSET UNITYSDK_OFFSET(0x14E1A760)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ISPLAYING_OFFSET UNITYSDK_OFFSET(0x14E1A710)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_KGOIEKICMEM_OFFSET UNITYSDK_OFFSET(0x14E1AD00)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_KLHLGKMMFHK_1_OFFSET UNITYSDK_OFFSET(0x14E1AD90)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_KLHLGKMMFHK_OFFSET UNITYSDK_OFFSET(0x14E1AB80)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x14E194B0)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ONDISABLESOUNDSTATE_OFFSET UNITYSDK_OFFSET(0x14E196C0)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ONENABLESOUNDSTATE_OFFSET UNITYSDK_OFFSET(0x14E19330)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x14E195D0)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x14E19540)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x14E19250)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_SETUIWINDOWSETTING_OFFSET UNITYSDK_OFFSET(0x14E19840)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x14E1A7C0)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x14E1A7E0)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_ONDISABLESOUNDSTATE_OFFSET UNITYSDK_OFFSET(0x14E1A870)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_ONENABLESOUNDSTATE_OFFSET UNITYSDK_OFFSET(0x14E1A900)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x14E1A990)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x14E1AA50)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x14E1AA60)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_SETUIWINDOWSETTING_OFFSET UNITYSDK_OFFSET(0x14E1AAF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITransitionPanelPopWindowController_TypeDefinitionIndex = 58152;
+	inline static constexpr unsigned int UITransitionPanelPopWindowController_TypeDefinitionIndex = 57667;
 
 	class UITransitionPanelPopWindowController : public ::MoleMole::UIWindowController
 	{
 	public:
 		// static const ::System::Single DEF_FADE_TRANSIT_DURATION; // 0x0
-		::System::Boolean notSetAudioPlayMix; // 0x318
-		::Class_2_52BF5A8E97668B1D_7* _view; // 0x320
-		::MoleMole::UITransitionPanelPopWindowController_TransitionState _curState; // 0x328
-		::UnityEngine::Color _curtainBaseColor; // 0x32C
-		::Foundation::Coroutine::CoroutineHandle _fadeCoroutineHandle; // 0x33C
-		::MoleMole::UITransitionPanelPopWindowController_TransitionState _targetState; // 0x340
-		::System::Action* _fadeEndCallback; // 0x348
+		::System::Boolean HBOPLLBMLCH; // 0x320
+		::System::Byte _padding0[0x7];
+		::MBAJJGCKLJK* _view; // 0x328
+		::MoleMole::UITransitionPanelPopWindowController_TransitionState MBBGIFIEOLK; // 0x330
+		::UnityEngine::Color NIDBOPODPJD; // 0x334
+		::Foundation::Coroutine::CoroutineHandle BAPLOPHPNOP; // 0x344
+		::MoleMole::UITransitionPanelPopWindowController_TransitionState IILMPOAHEAF; // 0x348
+		::System::Byte _padding1[0x4];
+		::System::Action* AACJIGFFHPJ; // 0x350
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_3EDF246633A325B0 get_windowType()
+		::GMFAKIPCDED get_windowType()
 		{
-			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+			return ((::GMFAKIPCDED(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
 		}
 
-		::Enum_3_8E90989A26BC6232 get_HotSwitchRootLayerState()
+		::GBJMDNJNIBO get_HotSwitchRootLayerState()
 		{
-			return ((::Enum_3_8E90989A26BC6232(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_GET_HOTSWITCHROOTLAYERSTATE_OFFSET))(this);
+			return ((::GBJMDNJNIBO(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_GET_HOTSWITCHROOTLAYERSTATE_OFFSET))(this);
 		}
 
 		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
@@ -116,26 +118,6 @@ namespace MoleMole
 		::System::Void DoFadeTransition(::MoleMole::UITransitionPanelPopWindowController_TransitionState state, ::System::Single fadeDuraionSeconds, ::System::Action* onFadeBeginCallback, ::System::Action* onFadeEndCallback, ::UnityEngine::AnimationCurve* curve, ::System::Boolean fromCurrentColor, ::System::Boolean isWhiteCurtain)
 		{
 			return ((::System::Void(*)(::PVOID, ::MoleMole::UITransitionPanelPopWindowController_TransitionState, ::System::Single, ::System::Action*, ::System::Action*, ::UnityEngine::AnimationCurve*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_DOFADETRANSITION_OFFSET))(this, state, fadeDuraionSeconds, onFadeBeginCallback, onFadeEndCallback, curve, fromCurrentColor, isWhiteCurtain);
-		}
-
-		static ::UnityEngine::Color WithAlpha(::UnityEngine::Color color, ::System::Single alpha)
-		{
-			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_WITHALPHA_OFFSET))(color, alpha);
-		}
-
-		::System::Void DoFadeTransitionWithStartColor(::MoleMole::UITransitionPanelPopWindowController_TransitionState state, ::System::Single fadeDuraionSeconds, ::System::Action* onFadeBeginCallback, ::System::Action* onFadeEndCallback, ::UnityEngine::AnimationCurve* curve, ::System::Boolean useCurrentColor, ::System::Nullable_1<::UnityEngine::Color> curtainColor)
-		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::UITransitionPanelPopWindowController_TransitionState, ::System::Single, ::System::Action*, ::System::Action*, ::UnityEngine::AnimationCurve*, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Color>))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_DOFADETRANSITIONWITHSTARTCOLOR_OFFSET))(this, state, fadeDuraionSeconds, onFadeBeginCallback, onFadeEndCallback, curve, useCurrentColor, curtainColor);
-		}
-
-		::System::Collections::Generic::IEnumerator_1<::System::Single>* RefreshImgInfo(::MoleMole::UITransitionPanelPopWindowController_TransitionState state, ::System::Single duration, ::UnityEngine::AnimationCurve* curve, ::UnityEngine::Color fromColor, ::UnityEngine::Color targetColor, ::System::Action* onFadeEndCallback)
-		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Single>*(*)(::PVOID, ::MoleMole::UITransitionPanelPopWindowController_TransitionState, ::System::Single, ::UnityEngine::AnimationCurve*, ::UnityEngine::Color, ::UnityEngine::Color, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_REFRESHIMGINFO_OFFSET))(this, state, duration, curve, fromColor, targetColor, onFadeEndCallback);
-		}
-
-		::System::Void RefreshImgInfo_1(::System::Single timeSpan, ::System::Single duration, ::UnityEngine::AnimationCurve* curve, ::UnityEngine::Color fromColor, ::UnityEngine::Color targetColor)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::UnityEngine::AnimationCurve*, ::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_REFRESHIMGINFO_1_OFFSET))(this, timeSpan, duration, curve, fromColor, targetColor);
 		}
 
 		::System::Boolean IsFadeIn()
@@ -186,6 +168,26 @@ namespace MoleMole
 		::System::Void __base_SetUIWindowSetting()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER___BASE_SETUIWINDOWSETTING_OFFSET))(this);
+		}
+
+		::System::Void KLHLGKMMFHK(::System::Single KEJNOAFJFKC, ::System::Single MDPPNMIPDMP, ::UnityEngine::AnimationCurve* FAJHPKBELMF, ::UnityEngine::Color AOEKDFGHJPO, ::UnityEngine::Color BJCPIOEELOL)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::UnityEngine::AnimationCurve*, ::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_KLHLGKMMFHK_OFFSET))(this, KEJNOAFJFKC, MDPPNMIPDMP, FAJHPKBELMF, AOEKDFGHJPO, BJCPIOEELOL);
+		}
+
+		::System::Void IGKIOGIBHGL(::MoleMole::UITransitionPanelPopWindowController_TransitionState JKBLDFBGBPK, ::System::Single CNDIBEDIKOJ, ::System::Action* NPNBGEHALIF, ::System::Action* EACOGDJEALO, ::UnityEngine::AnimationCurve* FAJHPKBELMF, ::System::Boolean MLECFAPINNM, ::System::Nullable_1<::UnityEngine::Color> GONMPKAIEJH)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UITransitionPanelPopWindowController_TransitionState, ::System::Single, ::System::Action*, ::System::Action*, ::UnityEngine::AnimationCurve*, ::System::Boolean, ::System::Nullable_1<::UnityEngine::Color>))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_IGKIOGIBHGL_OFFSET))(this, JKBLDFBGBPK, CNDIBEDIKOJ, NPNBGEHALIF, EACOGDJEALO, FAJHPKBELMF, MLECFAPINNM, GONMPKAIEJH);
+		}
+
+		static ::UnityEngine::Color KGOIEKICMEM(::UnityEngine::Color JBBFCGAMDHI, ::System::Single KGHNBNOMMJI)
+		{
+			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_KGOIEKICMEM_OFFSET))(JBBFCGAMDHI, KGHNBNOMMJI);
+		}
+
+		::System::Collections::Generic::IEnumerator_1<::System::Single>* KLHLGKMMFHK_1(::MoleMole::UITransitionPanelPopWindowController_TransitionState JKBLDFBGBPK, ::System::Single MDPPNMIPDMP, ::UnityEngine::AnimationCurve* FAJHPKBELMF, ::UnityEngine::Color AOEKDFGHJPO, ::UnityEngine::Color BJCPIOEELOL, ::System::Action* EACOGDJEALO)
+		{
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Single>*(*)(::PVOID, ::MoleMole::UITransitionPanelPopWindowController_TransitionState, ::System::Single, ::UnityEngine::AnimationCurve*, ::UnityEngine::Color, ::UnityEngine::Color, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER_KLHLGKMMFHK_1_OFFSET))(this, JKBLDFBGBPK, MDPPNMIPDMP, FAJHPKBELMF, AOEKDFGHJPO, BJCPIOEELOL, EACOGDJEALO);
 		}
 	};
 }

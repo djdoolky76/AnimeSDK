@@ -6,18 +6,18 @@
 namespace MoleMole::GalGame { class GalSwitchPoseData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_GALPLAYARGUEHEALTHCHANGENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x136A4080)
+#define MOLEMOLE_GALGAME_GALPLAYARGUEHEALTHCHANGENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1357C0F0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalPlayArgueHealthChangeNode_TypeDefinitionIndex = 59131;
+	inline static constexpr unsigned int GalPlayArgueHealthChangeNode_TypeDefinitionIndex = 60955;
 
 	class GalPlayArgueHealthChangeNode : public ::MoleMole::GalGame::GalConditionNode
 	{
 	public:
 		::System::Collections::Generic::List_1<::MoleMole::GalGame::GalSwitchPoseData*>* switchPoseList; // 0x30
-		::MoleMole::GalGame::GalArgueStageLocation HealthChangeTeamLocation; // 0x38
-		::System::Int32 healthDelta; // 0x3C
+		::System::Int32 healthDelta; // 0x38
+		::MoleMole::GalGame::GalArgueStageLocation HealthChangeTeamLocation; // 0x3C
 
 		::System::Void _ctor()
 		{

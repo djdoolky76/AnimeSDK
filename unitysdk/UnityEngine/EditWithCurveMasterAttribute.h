@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define UNITYENGINE_EDITWITHCURVEMASTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC70760)
+#define UNITYENGINE_EDITWITHCURVEMASTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x20073AD0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int EditWithCurveMasterAttribute_TypeDefinitionIndex = 93750;
+	inline static constexpr unsigned int EditWithCurveMasterAttribute_TypeDefinitionIndex = 95439;
 
 	class EditWithCurveMasterAttribute : public ::UnityEngine::PropertyAttribute
 	{

@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JJEJBPGJPJN.h"
+
+template <typename T> class JIOLFCAGOFH_1;
+
+#define MKFANIOOGFA_PDIIJJLPGJE_BGOODELMMEN_OFFSET UNITYSDK_OFFSET(0x1216CDE0)
+#define MKFANIOOGFA_PDIIJJLPGJE_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1216CDF0)
+#define MKFANIOOGFA_PDIIJJLPGJE_PEOPMPMAGJB_OFFSET UNITYSDK_OFFSET(0x1216CF50)
+#define MKFANIOOGFA_PDIIJJLPGJE__CTOR_OFFSET UNITYSDK_OFFSET(0x1216CF40)
+
+inline static constexpr unsigned int MKFANIOOGFA_PDIIJJLPGJE_TypeDefinitionIndex = 81521;
+
+class MKFANIOOGFA_PDIIJJLPGJE : public ::JJEJBPGJPJN
+{
+public:
+	::JIOLFCAGOFH_1<::System::Int32>* _LLJLPGGEOPH_k__BackingField; // 0x88
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MKFANIOOGFA_PDIIJJLPGJE__CTOR_OFFSET))(this);
+	}
+
+	::JIOLFCAGOFH_1<::System::Int32>* BGOODELMMEN()
+	{
+		return ((::JIOLFCAGOFH_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MKFANIOOGFA_PDIIJJLPGJE_BGOODELMMEN_OFFSET))(this);
+	}
+
+	::System::Void OnCreateProperty()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MKFANIOOGFA_PDIIJJLPGJE_ONCREATEPROPERTY_OFFSET))(this);
+	}
+
+	::System::Void PEOPMPMAGJB(::JIOLFCAGOFH_1<::System::Int32>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::JIOLFCAGOFH_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MKFANIOOGFA_PDIIJJLPGJE_PEOPMPMAGJB_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

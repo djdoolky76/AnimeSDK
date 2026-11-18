@@ -3,7 +3,7 @@
 
 namespace PipeSplineDeformation
 {
-	inline static constexpr unsigned int RemainderPolicy_TypeDefinitionIndex = 26830;
+	inline static constexpr unsigned int RemainderPolicy_TypeDefinitionIndex = 26248;
 
 	enum class RemainderPolicy : ::System::Int32
 	{

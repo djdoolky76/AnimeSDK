@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_RESPONSIVEBUTTONGROUPATTRIBUTE_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1F771560)
-#define SIRENIX_ODININSPECTOR_RESPONSIVEBUTTONGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7714E0)
+#define SIRENIX_ODININSPECTOR_RESPONSIVEBUTTONGROUPATTRIBUTE_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1FB817D0)
+#define SIRENIX_ODININSPECTOR_RESPONSIVEBUTTONGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB81750)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ResponsiveButtonGroupAttribute_TypeDefinitionIndex = 7352;
+	inline static constexpr unsigned int ResponsiveButtonGroupAttribute_TypeDefinitionIndex = 7359;
 
 	class ResponsiveButtonGroupAttribute : public ::Sirenix::OdinInspector::PropertyGroupAttribute
 	{
 	public:
-		::System::Boolean UniformLayout; // 0x30
-		::Sirenix::OdinInspector::ButtonSizes DefaultButtonSize; // 0x34
+		::Sirenix::OdinInspector::ButtonSizes DefaultButtonSize; // 0x30
+		::System::Boolean UniformLayout; // 0x34
 
 		::System::Void _ctor(::System::String* group)
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define SYSTEM_NET_MAIL_SMTPCLIENT_CANCELLATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6ABDB0)
+#define SYSTEM_NET_MAIL_SMTPCLIENT_CANCELLATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBA5F90)
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int SmtpClient_CancellationException_TypeDefinitionIndex = 3595;
+	inline static constexpr unsigned int SmtpClient_CancellationException_TypeDefinitionIndex = 3594;
 
 	class SmtpClient_CancellationException : public ::System::Exception
 	{

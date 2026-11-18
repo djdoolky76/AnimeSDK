@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/EqualityComparer_1.h"
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_REFERENCEEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E79DCE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_REFERENCEEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E79DD40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_REFERENCEEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E79CF80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_REFERENCEEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EA4ED50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_REFERENCEEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EA4EDB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_REFERENCEEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA4DFF0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int ReferenceEqualityComparer_TypeDefinitionIndex = 26904;
+	inline static constexpr unsigned int ReferenceEqualityComparer_TypeDefinitionIndex = 26809;
 
-	class ReferenceEqualityComparer : public ::System::Collections::Generic::EqualityComparer_1<::System::Object*>
+	class ReferenceEqualityComparer
 	{
 	public:
 		::System::Void _ctor()

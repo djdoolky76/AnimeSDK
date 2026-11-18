@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_DIAGNOSTICS_PROCESSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D617EC0)
+#define SYSTEM_DIAGNOSTICS_PROCESSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DADC8B0)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int ProcessInfo_TypeDefinitionIndex = 2782;
+	inline static constexpr unsigned int ProcessInfo_TypeDefinitionIndex = 2781;
 
 	class ProcessInfo : public ::System::Object
 	{

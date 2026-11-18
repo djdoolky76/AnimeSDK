@@ -3,11 +3,10 @@
 #include "unitysdk/NodeCanvas/Framework/ConditionTask.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
-namespace System { class String; }
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckVariable_1_TypeDefinitionIndex = 31469;
+	inline static constexpr unsigned int CheckVariable_1_TypeDefinitionIndex = 29778;
 
 	template <typename T>
 	class CheckVariable_1 : public ::NodeCanvas::Framework::ConditionTask

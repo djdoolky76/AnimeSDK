@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BFCMBNBIJCO;
+
+#define OEGIPBEOJIN_HEDPOFKAKND_OFFSET UNITYSDK_OFFSET(0x14F6E350)
+#define OEGIPBEOJIN_HKECALIAKAE_OFFSET UNITYSDK_OFFSET(0x14F6E520)
+#define OEGIPBEOJIN_HMHCJDPANMB_OFFSET UNITYSDK_OFFSET(0x14F6E2E0)
+#define OEGIPBEOJIN_IBGHJIKHCAJ_OFFSET UNITYSDK_OFFSET(0x14F6E4C0)
+
+inline static constexpr unsigned int OEGIPBEOJIN_TypeDefinitionIndex = 53913;
+
+class OEGIPBEOJIN : public ::System::Object
+{
+public:
+	static ::System::Boolean HMHCJDPANMB(::BFCMBNBIJCO* LJBPECKCCEA)
+	{
+		return ((::System::Boolean(*)(::BFCMBNBIJCO*))((::PBYTE)hIl2Cpp + OEGIPBEOJIN_HMHCJDPANMB_OFFSET))(LJBPECKCCEA);
+	}
+
+	static ::System::Boolean HEDPOFKAKND(::BFCMBNBIJCO* LJBPECKCCEA)
+	{
+		return ((::System::Boolean(*)(::BFCMBNBIJCO*))((::PBYTE)hIl2Cpp + OEGIPBEOJIN_HEDPOFKAKND_OFFSET))(LJBPECKCCEA);
+	}
+
+	static ::System::Boolean IBGHJIKHCAJ(::BFCMBNBIJCO* LJBPECKCCEA)
+	{
+		return ((::System::Boolean(*)(::BFCMBNBIJCO*))((::PBYTE)hIl2Cpp + OEGIPBEOJIN_IBGHJIKHCAJ_OFFSET))(LJBPECKCCEA);
+	}
+
+	static ::System::Boolean HKECALIAKAE(::BFCMBNBIJCO* LJBPECKCCEA)
+	{
+		return ((::System::Boolean(*)(::BFCMBNBIJCO*))((::PBYTE)hIl2Cpp + OEGIPBEOJIN_HKECALIAKAE_OFFSET))(LJBPECKCCEA);
+	}
+};

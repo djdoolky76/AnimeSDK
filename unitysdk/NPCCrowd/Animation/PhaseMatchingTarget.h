@@ -5,7 +5,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int PhaseMatchingTarget_TypeDefinitionIndex = 75841;
+	inline static constexpr unsigned int PhaseMatchingTarget_TypeDefinitionIndex = 74425;
 
 	struct alignas(4) PhaseMatchingTarget
 	{

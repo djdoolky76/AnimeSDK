@@ -6,12 +6,12 @@ namespace MoleMole::Config { class HotPotForceFieldConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOTPOTFORCEFIELDS_GETCONFIGBYKEY_OFFSET UNITYSDK_OFFSET(0x134FEFA0)
-#define MOLEMOLE_CONFIG_CONFIGHOTPOTFORCEFIELDS__CTOR_OFFSET UNITYSDK_OFFSET(0x134FF090)
+#define MOLEMOLE_CONFIG_CONFIGHOTPOTFORCEFIELDS_GETCONFIGBYKEY_OFFSET UNITYSDK_OFFSET(0x1B921BE0)
+#define MOLEMOLE_CONFIG_CONFIGHOTPOTFORCEFIELDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B921CD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHotPotForceFields_TypeDefinitionIndex = 66846;
+	inline static constexpr unsigned int ConfigHotPotForceFields_TypeDefinitionIndex = 39348;
 
 	class ConfigHotPotForceFields : public ::MoleMole::SerializedScriptableObjectBase
 	{

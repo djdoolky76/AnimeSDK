@@ -3,51 +3,51 @@
 #include "unitysdk/Mono/Security/Authenticode/AuthenticodeBase.h"
 #include "unitysdk/System/DateTime.h"
 
-namespace Mono::Security { class ASN1; }
-namespace Mono::Security { class PKCS7_SignedData; }
-namespace Mono::Security { class PKCS7_SignerInfo; }
-namespace Mono::Security::X509 { class X509Certificate; }
-namespace Mono::Security::X509 { class X509CertificateCollection; }
+namespace Mono::Security { class ASN1_B704B12AF883B8E0; }
+namespace Mono::Security { class PKCS7_820FF13D373237A3_SignedData; }
+namespace Mono::Security { class PKCS7_820FF13D373237A3_SignerInfo; }
+namespace Mono::Security::X509 { class X509CertificateCollection_8FF10F09B594C630; }
+namespace Mono::Security::X509 { class X509Certificate_6FD3D162D0D30FF0; }
 namespace Mono::Security::X509 { class X509Chain; }
 namespace System { class String; }
 namespace System::Security::Cryptography { class HashAlgorithm; }
 
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_CHECKSIGNATURE_OFFSET UNITYSDK_OFFSET(0x1F5FA770)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_COMPAREISSUERSERIAL_OFFSET UNITYSDK_OFFSET(0x1F5FBB60)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_CERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1F5FAF50)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1F5FA690)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_HASH_OFFSET UNITYSDK_OFFSET(0x1F5FABC0)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_REASON_OFFSET UNITYSDK_OFFSET(0x1F5FACE0)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_SIGNATURE_OFFSET UNITYSDK_OFFSET(0x1F5FAE40)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_SIGNINGCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1F5FAF60)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1F5FAF40)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_ISTRUSTED_OFFSET UNITYSDK_OFFSET(0x1F5FAD10)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_RESET_OFFSET UNITYSDK_OFFSET(0x1F5FA6A0)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1F5FA510)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_VERIFYCOUNTERSIGNATURE_OFFSET UNITYSDK_OFFSET(0x1F5FBE80)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_VERIFYSIGNATURE_OFFSET UNITYSDK_OFFSET(0x1F5FAF70)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F5FA450)
-#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5FA3A0)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_CHECKSIGNATURE_OFFSET UNITYSDK_OFFSET(0x1F9B8D50)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_COMPAREISSUERSERIAL_OFFSET UNITYSDK_OFFSET(0x1F9BA170)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_CERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1F9B9540)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1F9B8C80)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_HASH_OFFSET UNITYSDK_OFFSET(0x1F9B91A0)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_REASON_OFFSET UNITYSDK_OFFSET(0x1F9B92C0)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_SIGNATURE_OFFSET UNITYSDK_OFFSET(0x1F9B9430)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_SIGNINGCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1F9B9550)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1F9B9530)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_ISTRUSTED_OFFSET UNITYSDK_OFFSET(0x1F9B92F0)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_RESET_OFFSET UNITYSDK_OFFSET(0x1F9B8C90)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1F9B8B00)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_VERIFYCOUNTERSIGNATURE_OFFSET UNITYSDK_OFFSET(0x1F9BA490)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_VERIFYSIGNATURE_OFFSET UNITYSDK_OFFSET(0x1F9B9560)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F9B8A40)
+#define MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9B8990)
 
 namespace Mono::Security::Authenticode
 {
-	inline static constexpr unsigned int AuthenticodeDeformatter_TypeDefinitionIndex = 2476;
+	inline static constexpr unsigned int AuthenticodeDeformatter_TypeDefinitionIndex = 2475;
 
 	class AuthenticodeDeformatter : public ::Mono::Security::Authenticode::AuthenticodeBase
 	{
 	public:
-		::Mono::Security::ASN1* signedHash; // 0x38
-		::Mono::Security::X509::X509Chain* signerChain; // 0x40
-		::Il2CppArray<::System::Byte>* entry; // 0x48
-		::System::String* filename; // 0x50
-		::Mono::Security::X509::X509Certificate* signingCertificate; // 0x58
-		::Mono::Security::X509::X509Chain* timestampChain; // 0x60
-		::Mono::Security::X509::X509CertificateCollection* coll; // 0x68
-		::Il2CppArray<::System::Byte>* hash; // 0x70
-		::System::Boolean trustedRoot; // 0x78
-		::System::Boolean trustedTimestampRoot; // 0x79
-		::System::Int32 reason; // 0x7C
-		::System::DateTime timestamp; // 0x80
+		::Mono::Security::ASN1_B704B12AF883B8E0* signedHash; // 0x38
+		::Il2CppArray<::System::Byte>* hash; // 0x40
+		::System::String* filename; // 0x48
+		::Il2CppArray<::System::Byte>* entry; // 0x50
+		::Mono::Security::X509::X509CertificateCollection_8FF10F09B594C630* coll; // 0x58
+		::Mono::Security::X509::X509Chain* signerChain; // 0x60
+		::Mono::Security::X509::X509Certificate_6FD3D162D0D30FF0* signingCertificate; // 0x68
+		::Mono::Security::X509::X509Chain* timestampChain; // 0x70
+		::System::DateTime timestamp; // 0x78
+		::System::Int32 reason; // 0x80
+		::System::Boolean trustedRoot; // 0x84
+		::System::Boolean trustedTimestampRoot; // 0x85
 
 		::System::Void _ctor()
 		{
@@ -94,14 +94,14 @@ namespace Mono::Security::Authenticode
 			return ((::System::DateTime(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_TIMESTAMP_OFFSET))(this);
 		}
 
-		::Mono::Security::X509::X509CertificateCollection* get_Certificates()
+		::Mono::Security::X509::X509CertificateCollection_8FF10F09B594C630* get_Certificates()
 		{
-			return ((::Mono::Security::X509::X509CertificateCollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_CERTIFICATES_OFFSET))(this);
+			return ((::Mono::Security::X509::X509CertificateCollection_8FF10F09B594C630*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_CERTIFICATES_OFFSET))(this);
 		}
 
-		::Mono::Security::X509::X509Certificate* get_SigningCertificate()
+		::Mono::Security::X509::X509Certificate_6FD3D162D0D30FF0* get_SigningCertificate()
 		{
-			return ((::Mono::Security::X509::X509Certificate*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_SIGNINGCERTIFICATE_OFFSET))(this);
+			return ((::Mono::Security::X509::X509Certificate_6FD3D162D0D30FF0*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_GET_SIGNINGCERTIFICATE_OFFSET))(this);
 		}
 
 		::System::Boolean CheckSignature(::System::String* fileName)
@@ -109,19 +109,19 @@ namespace Mono::Security::Authenticode
 			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_CHECKSIGNATURE_OFFSET))(this, fileName);
 		}
 
-		::System::Boolean CompareIssuerSerial(::System::String* issuer, ::Il2CppArray<::System::Byte>* serial, ::Mono::Security::X509::X509Certificate* x509)
+		::System::Boolean CompareIssuerSerial(::System::String* issuer, ::Il2CppArray<::System::Byte>* serial, ::Mono::Security::X509::X509Certificate_6FD3D162D0D30FF0* x509)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*, ::Mono::Security::X509::X509Certificate*))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_COMPAREISSUERSERIAL_OFFSET))(this, issuer, serial, x509);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Byte>*, ::Mono::Security::X509::X509Certificate_6FD3D162D0D30FF0*))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_COMPAREISSUERSERIAL_OFFSET))(this, issuer, serial, x509);
 		}
 
-		::System::Boolean VerifySignature(::Mono::Security::PKCS7_SignedData* sd, ::Il2CppArray<::System::Byte>* calculatedMessageDigest, ::System::Security::Cryptography::HashAlgorithm* ha)
+		::System::Boolean VerifySignature(::Mono::Security::PKCS7_820FF13D373237A3_SignedData* sd, ::Il2CppArray<::System::Byte>* calculatedMessageDigest, ::System::Security::Cryptography::HashAlgorithm* ha)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Mono::Security::PKCS7_SignedData*, ::Il2CppArray<::System::Byte>*, ::System::Security::Cryptography::HashAlgorithm*))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_VERIFYSIGNATURE_OFFSET))(this, sd, calculatedMessageDigest, ha);
+			return ((::System::Boolean(*)(::PVOID, ::Mono::Security::PKCS7_820FF13D373237A3_SignedData*, ::Il2CppArray<::System::Byte>*, ::System::Security::Cryptography::HashAlgorithm*))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_VERIFYSIGNATURE_OFFSET))(this, sd, calculatedMessageDigest, ha);
 		}
 
-		::System::Boolean VerifyCounterSignature(::Mono::Security::PKCS7_SignerInfo* cs, ::Il2CppArray<::System::Byte>* signature)
+		::System::Boolean VerifyCounterSignature(::Mono::Security::PKCS7_820FF13D373237A3_SignerInfo* cs, ::Il2CppArray<::System::Byte>* signature)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Mono::Security::PKCS7_SignerInfo*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_VERIFYCOUNTERSIGNATURE_OFFSET))(this, cs, signature);
+			return ((::System::Boolean(*)(::PVOID, ::Mono::Security::PKCS7_820FF13D373237A3_SignerInfo*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_AUTHENTICODEDEFORMATTER_VERIFYCOUNTERSIGNATURE_OFFSET))(this, cs, signature);
 		}
 
 		::System::Void Reset()

@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 
-#define MOLEMOLE_CONFIG_CONFIGSHOWBLESSITEMTIPSNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16C50D50)
-#define MOLEMOLE_CONFIG_CONFIGSHOWBLESSITEMTIPSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C50E10)
+#define MOLEMOLE_CONFIG_CONFIGSHOWBLESSITEMTIPSNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1A03C0F0)
+#define MOLEMOLE_CONFIG_CONFIGSHOWBLESSITEMTIPSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A03C1B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShowBlessItemTipsNode_TypeDefinitionIndex = 52291;
+	inline static constexpr unsigned int ConfigShowBlessItemTipsNode_TypeDefinitionIndex = 54896;
 
 	class ConfigShowBlessItemTipsNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
@@ -19,9 +19,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSHOWBLESSITEMTIPSNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSHOWBLESSITEMTIPSNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSHOWBLESSITEMTIPSNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDECHARACTERLIGHTINGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1BC71ED0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDECHARACTERLIGHTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC71F90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDECHARACTERLIGHTINGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x16E87350)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDECHARACTERLIGHTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E87410)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OverrideCharacterLightingConfig_TypeDefinitionIndex = 27725;
+	inline static constexpr unsigned int OverrideCharacterLightingConfig_TypeDefinitionIndex = 27134;
 
-	class OverrideCharacterLightingConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::OverrideCharacterLightingConfig*>
+	class OverrideCharacterLightingConfig
 	{
 	public:
 		::UnityEngine::Color mainLightColorForChara; // 0x18
@@ -24,6 +23,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single rimGlowIntensityForCharaIndoor; // 0x5C
 		::UnityEngine::Color ambientIndoor; // 0x60
 		::System::Boolean characterColorGradingEnabled; // 0x70
+		::System::Byte _padding0[0x3];
 		::System::Single characterPostExposure; // 0x74
 		::System::Single contrast; // 0x78
 		::System::Single saturation; // 0x7C

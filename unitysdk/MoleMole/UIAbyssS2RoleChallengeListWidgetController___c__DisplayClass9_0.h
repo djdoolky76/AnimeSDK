@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_CFC1DA8C3898E356;
+class AGFBDEFDLAM;
 
-#define MOLEMOLE_UIABYSSS2ROLECHALLENGELISTWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x190D7A90)
-#define MOLEMOLE_UIABYSSS2ROLECHALLENGELISTWIDGETCONTROLLER___C__DISPLAYCLASS9_0__INITACTIVITY_B__0_OFFSET UNITYSDK_OFFSET(0x190D7AA0)
+#define MOLEMOLE_UIABYSSS2ROLECHALLENGELISTWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B83640)
+#define MOLEMOLE_UIABYSSS2ROLECHALLENGELISTWIDGETCONTROLLER___C__DISPLAYCLASS9_0__INITACTIVITY_B__0_OFFSET UNITYSDK_OFFSET(0x19B83650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RoleChallengeListWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 72513;
+	inline static constexpr unsigned int UIAbyssS2RoleChallengeListWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 79008;
 
 	class UIAbyssS2RoleChallengeListWidgetController___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::Class_2_CFC1DA8C3898E356* compBtnData; // 0x10
+		::AGFBDEFDLAM* compBtnData; // 0x10
 
 		::System::Void _ctor()
 		{

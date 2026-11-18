@@ -3,21 +3,12 @@
 #include "unitysdk/PipelineCamera/CameraModuleFlag.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace PipelineCamera { class ICameraCommonContext; }
-namespace PipelineCamera { class ICameraEvaluateContext; }
-namespace PipelineCamera { class ICameraFlushContext; }
-namespace PipelineCamera { class ICameraPrepareContext; }
-namespace PipelineCamera { class ICameraTouchContext; }
-namespace PipelineCamera { class ICameraWritableCollectContext; }
-namespace PipelineCamera { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class ICameraPipelineConfig_6; }
-namespace System { class Object; }
-
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraPipeline_6_TypeDefinitionIndex = 38186;
+	inline static constexpr unsigned int CameraPipeline_6_TypeDefinitionIndex = 36188;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
-	struct CameraPipeline_6
+	struct alignas(8) CameraPipeline_6
 	{
 		::System::Int32 _PipelineType_k__BackingField; // 0x0
 		T1 _module1; // 0x0

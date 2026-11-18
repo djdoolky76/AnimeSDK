@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class MonoUITableScrollV2_TableScrollPluginSelectAndClick;
+namespace MoleMole { class ScrollViewItemWidgetController; }
+namespace NAPScrollView::DataStruct { class LegacyScrollViewAdapterPluginService; }
+namespace System { template <typename T> class Action_1; }
+
+#define NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_CANCELSELECT_OFFSET UNITYSDK_OFFSET(0x113AD6F0)
+#define NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_CHANGECURITEMINDEX_OFFSET UNITYSDK_OFFSET(0x113AD5E0)
+#define NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_GET_CURSELECTINDEX_OFFSET UNITYSDK_OFFSET(0x113AD090)
+#define NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_GET_PLUGIN_OFFSET UNITYSDK_OFFSET(0x113AD010)
+#define NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_ONCLICKCELL_OFFSET UNITYSDK_OFFSET(0x113AD510)
+#define NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_REFRESHSELECTSTATE_OFFSET UNITYSDK_OFFSET(0x113AD7B0)
+#define NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_REGISTERONCLICKCALLBACK_OFFSET UNITYSDK_OFFSET(0x113AD1F0)
+#define NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_REGISTERONSELECTCALLBACK_OFFSET UNITYSDK_OFFSET(0x113AD2F0)
+#define NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_SELECTITEM_OFFSET UNITYSDK_OFFSET(0x113AD3F0)
+#define NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_SET_CURSELECTINDEX_OFFSET UNITYSDK_OFFSET(0x113AD120)
+#define NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH__CTOR_OFFSET UNITYSDK_OFFSET(0x113AD000)
+
+namespace NAPScrollView::DataStruct
+{
+	inline static constexpr unsigned int LegacyScrollViewAdapterServices_LegacySelectClickPassthrough_TypeDefinitionIndex = 83002;
+
+	class LegacyScrollViewAdapterServices_LegacySelectClickPassthrough : public ::System::Object
+	{
+	public:
+		::NAPScrollView::DataStruct::LegacyScrollViewAdapterPluginService* _pluginService; // 0x10
+
+		::System::Void _ctor(::NAPScrollView::DataStruct::LegacyScrollViewAdapterPluginService* pluginService)
+		{
+			return ((::System::Void(*)(::PVOID, ::NAPScrollView::DataStruct::LegacyScrollViewAdapterPluginService*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH__CTOR_OFFSET))(this, pluginService);
+		}
+
+		::MonoUITableScrollV2_TableScrollPluginSelectAndClick* get_Plugin()
+		{
+			return ((::MonoUITableScrollV2_TableScrollPluginSelectAndClick*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_GET_PLUGIN_OFFSET))(this);
+		}
+
+		::System::Int32 get_CurSelectIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_GET_CURSELECTINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_CurSelectIndex(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_SET_CURSELECTINDEX_OFFSET))(this, value);
+		}
+
+		::System::Void RegisterOnClickCallback(::System::Action_1<::System::Int32>* onClick, ::System::Boolean needTriggerClickCallbackWhenReselect)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_REGISTERONCLICKCALLBACK_OFFSET))(this, onClick, needTriggerClickCallbackWhenReselect);
+		}
+
+		::System::Void RegisterOnSelectCallback(::System::Action_1<::System::Int32>* onSelect, ::System::Boolean needTriggerSelectCallbackWhenReselect)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_REGISTERONSELECTCALLBACK_OFFSET))(this, onSelect, needTriggerSelectCallbackWhenReselect);
+		}
+
+		::System::Void SelectItem(::System::Int32 index, ::System::Boolean ignoreClickCb, ::System::Boolean hasAnim, ::System::Boolean ignoreSelectCb)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_SELECTITEM_OFFSET))(this, index, ignoreClickCb, hasAnim, ignoreSelectCb);
+		}
+
+		::System::Void OnClickCell(::MoleMole::ScrollViewItemWidgetController* item)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::ScrollViewItemWidgetController*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_ONCLICKCELL_OFFSET))(this, item);
+		}
+
+		::System::Void ChangeCurItemIndex(::System::Int32 curIndex, ::System::Boolean ignoreClickCb, ::System::Boolean ignoreSelectCb)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_CHANGECURITEMINDEX_OFFSET))(this, curIndex, ignoreClickCb, ignoreSelectCb);
+		}
+
+		::System::Void CancelSelect()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_CANCELSELECT_OFFSET))(this);
+		}
+
+		::System::Void RefreshSelectState(::System::Int32 dataIndex)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_LEGACYSCROLLVIEWADAPTERSERVICES_LEGACYSELECTCLICKPASSTHROUGH_REFRESHSELECTSTATE_OFFSET))(this, dataIndex);
+		}
+	};
+}

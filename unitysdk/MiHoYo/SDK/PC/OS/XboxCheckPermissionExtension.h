@@ -4,11 +4,11 @@
 
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelPermissionEntry; }
 
-#define MIHOYO_SDK_PC_OS_XBOXCHECKPERMISSIONEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0DEE0)
+#define MIHOYO_SDK_PC_OS_XBOXCHECKPERMISSIONEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D37C130)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxCheckPermissionExtension_TypeDefinitionIndex = 20784;
+	inline static constexpr unsigned int XboxCheckPermissionExtension_TypeDefinitionIndex = 19988;
 
 	class XboxCheckPermissionExtension : public ::System::Object
 	{

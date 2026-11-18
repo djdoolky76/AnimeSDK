@@ -5,7 +5,6 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class UGCInterface_UgcBinaryResponseModel; }
 namespace MiHoYo::SDK { class UGCInterface_UgcInfo; }
-namespace MiHoYo::SDK { class UGCInterface_UgcResponseModel; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
@@ -14,78 +13,78 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCINTERFACE_ADAPTBINARYCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1CC61B70)
-#define MIHOYO_SDK_UGCINTERFACE_ADAPTBINARYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CC61B00)
-#define MIHOYO_SDK_UGCINTERFACE_ADAPTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CC61A80)
-#define MIHOYO_SDK_UGCINTERFACE_APPENDHEADER_OFFSET UNITYSDK_OFFSET(0x1CC641C0)
-#define MIHOYO_SDK_UGCINTERFACE_AUTORENEWALTOKEN_OFFSET UNITYSDK_OFFSET(0x1CC62660)
-#define MIHOYO_SDK_UGCINTERFACE_BINARYMODEL2MODEL_OFFSET UNITYSDK_OFFSET(0x1CC630A0)
-#define MIHOYO_SDK_UGCINTERFACE_CHECKAUTHKEYVERIFYFAILED_OFFSET UNITYSDK_OFFSET(0x1CC61890)
-#define MIHOYO_SDK_UGCINTERFACE_CHECKTOKENEXPIRED_OFFSET UNITYSDK_OFFSET(0x1CC63150)
-#define MIHOYO_SDK_UGCINTERFACE_CHECKTOKENVALID_OFFSET UNITYSDK_OFFSET(0x1CC63120)
-#define MIHOYO_SDK_UGCINTERFACE_CHECKTOKENVERIFYFAILED_1_OFFSET UNITYSDK_OFFSET(0x1CC61DC0)
-#define MIHOYO_SDK_UGCINTERFACE_CHECKTOKENVERIFYFAILED_2_OFFSET UNITYSDK_OFFSET(0x1CC61C60)
-#define MIHOYO_SDK_UGCINTERFACE_CHECKTOKENVERIFYFAILED_OFFSET UNITYSDK_OFFSET(0x1CC61C50)
-#define MIHOYO_SDK_UGCINTERFACE_CLONEHEADERS_OFFSET UNITYSDK_OFFSET(0x1CC63F20)
-#define MIHOYO_SDK_UGCINTERFACE_ENABLELOGGER_OFFSET UNITYSDK_OFFSET(0x1CC5F880)
-#define MIHOYO_SDK_UGCINTERFACE_EXCHANGETOKEN_OFFSET UNITYSDK_OFFSET(0x1CC63560)
-#define MIHOYO_SDK_UGCINTERFACE_GENERATEBINARYRESPONSE_OFFSET UNITYSDK_OFFSET(0x1CC62E10)
-#define MIHOYO_SDK_UGCINTERFACE_GENERATEBINARYTIMEOUTRESPONSE_OFFSET UNITYSDK_OFFSET(0x1CC61C10)
-#define MIHOYO_SDK_UGCINTERFACE_GENERATEBUSINESSHEADERS_OFFSET UNITYSDK_OFFSET(0x1CC64280)
-#define MIHOYO_SDK_UGCINTERFACE_GENERATEHEADERS_OFFSET UNITYSDK_OFFSET(0x1CC61790)
-#define MIHOYO_SDK_UGCINTERFACE_GENERATERESPONSE_OFFSET UNITYSDK_OFFSET(0x1CC62000)
-#define MIHOYO_SDK_UGCINTERFACE_GENERATETIMEOUTRESPONSE_OFFSET UNITYSDK_OFFSET(0x1CC63780)
-#define MIHOYO_SDK_UGCINTERFACE_GETBINARY_OFFSET UNITYSDK_OFFSET(0x1CC61130)
-#define MIHOYO_SDK_UGCINTERFACE_GETDEVICEID_OFFSET UNITYSDK_OFFSET(0x1CC640B0)
-#define MIHOYO_SDK_UGCINTERFACE_GETNOWTIMESTAMPMILLISEC_OFFSET UNITYSDK_OFFSET(0x1CC64520)
-#define MIHOYO_SDK_UGCINTERFACE_GETNOWTIMESTAMPSEC_OFFSET UNITYSDK_OFFSET(0x1CC63C50)
-#define MIHOYO_SDK_UGCINTERFACE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CC5F770)
-#define MIHOYO_SDK_UGCINTERFACE_GET_OFFSET UNITYSDK_OFFSET(0x1CC615C0)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARYCARRYTOKENIMPL_OFFSET UNITYSDK_OFFSET(0x1CC5FEF0)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARYCARRYTOKEN_OFFSET UNITYSDK_OFFSET(0x1CC5FDA0)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARY_1_OFFSET UNITYSDK_OFFSET(0x1CC60140)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARY_OFFSET UNITYSDK_OFFSET(0x1CC60030)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPGETCARRYTOKENIMPL_OFFSET UNITYSDK_OFFSET(0x1CC5FC90)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPGETCARRYTOKEN_OFFSET UNITYSDK_OFFSET(0x1CC5FAC0)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPGET_OFFSET UNITYSDK_OFFSET(0x1CC61430)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPPOSTBINARYCARRYTOKENIMPL_OFFSET UNITYSDK_OFFSET(0x1CC60740)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPPOSTBINARYCARRYTOKEN_OFFSET UNITYSDK_OFFSET(0x1CC605D0)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPPOSTBINARY_OFFSET UNITYSDK_OFFSET(0x1CC611C0)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPPOSTCARRYTOKENIMPL_OFFSET UNITYSDK_OFFSET(0x1CC604B0)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPPOSTCARRYTOKEN_OFFSET UNITYSDK_OFFSET(0x1CC602D0)
-#define MIHOYO_SDK_UGCINTERFACE_HTTPPOST_OFFSET UNITYSDK_OFFSET(0x1CC60EF0)
-#define MIHOYO_SDK_UGCINTERFACE_INITENV_OFFSET UNITYSDK_OFFSET(0x1CC64720)
-#define MIHOYO_SDK_UGCINTERFACE_INITUGCINFO_1_OFFSET UNITYSDK_OFFSET(0x1CC5FA10)
-#define MIHOYO_SDK_UGCINTERFACE_INITUGCINFO_OFFSET UNITYSDK_OFFSET(0x1CC5F890)
-#define MIHOYO_SDK_UGCINTERFACE_LOGGER_OFFSET UNITYSDK_OFFSET(0x1CC5F9A0)
-#define MIHOYO_SDK_UGCINTERFACE_ONEXCHANGETOKENSUCCESS_OFFSET UNITYSDK_OFFSET(0x1CC637E0)
-#define MIHOYO_SDK_UGCINTERFACE_ONHTTPREQUESTBINARYFAILED_OFFSET UNITYSDK_OFFSET(0x1CC62F80)
-#define MIHOYO_SDK_UGCINTERFACE_ONHTTPREQUESTFAILED_OFFSET UNITYSDK_OFFSET(0x1CC625A0)
-#define MIHOYO_SDK_UGCINTERFACE_ONHTTPRQUESTBINARYRESPONDED_OFFSET UNITYSDK_OFFSET(0x1CC62C20)
-#define MIHOYO_SDK_UGCINTERFACE_ONHTTPRQUESTRESPONDED_OFFSET UNITYSDK_OFFSET(0x1CC61DD0)
-#define MIHOYO_SDK_UGCINTERFACE_ONTOKENEXPIRED_OFFSET UNITYSDK_OFFSET(0x1CC63380)
-#define MIHOYO_SDK_UGCINTERFACE_POSTBINARY_OFFSET UNITYSDK_OFFSET(0x1CC61380)
-#define MIHOYO_SDK_UGCINTERFACE_POSTHTTPREQUESTTASK_OFFSET UNITYSDK_OFFSET(0x1CC608A0)
-#define MIHOYO_SDK_UGCINTERFACE_POST_OFFSET UNITYSDK_OFFSET(0x1CC61090)
-#define MIHOYO_SDK_UGCINTERFACE_RESETTOKENINFO_OFFSET UNITYSDK_OFFSET(0x1CC619F0)
-#define MIHOYO_SDK_UGCINTERFACE_RETRYEXCHANGETOKEN_OFFSET UNITYSDK_OFFSET(0x1CC61650)
-#define MIHOYO_SDK_UGCINTERFACE_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CC5F870)
-#define MIHOYO_SDK_UGCINTERFACE_UPDATETOKENINFO_OFFSET UNITYSDK_OFFSET(0x1CC63E70)
-#define MIHOYO_SDK_UGCINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC5F820)
+#define MIHOYO_SDK_UGCINTERFACE_ADAPTBINARYCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1EAD7610)
+#define MIHOYO_SDK_UGCINTERFACE_ADAPTBINARYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EAD75A0)
+#define MIHOYO_SDK_UGCINTERFACE_ADAPTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EAD7520)
+#define MIHOYO_SDK_UGCINTERFACE_APPENDHEADER_OFFSET UNITYSDK_OFFSET(0x1EAD9C60)
+#define MIHOYO_SDK_UGCINTERFACE_AUTORENEWALTOKEN_OFFSET UNITYSDK_OFFSET(0x1EAD8100)
+#define MIHOYO_SDK_UGCINTERFACE_BINARYMODEL2MODEL_OFFSET UNITYSDK_OFFSET(0x1EAD8B40)
+#define MIHOYO_SDK_UGCINTERFACE_CHECKAUTHKEYVERIFYFAILED_OFFSET UNITYSDK_OFFSET(0x1EAD7330)
+#define MIHOYO_SDK_UGCINTERFACE_CHECKTOKENEXPIRED_OFFSET UNITYSDK_OFFSET(0x1EAD8BF0)
+#define MIHOYO_SDK_UGCINTERFACE_CHECKTOKENVALID_OFFSET UNITYSDK_OFFSET(0x1EAD8BC0)
+#define MIHOYO_SDK_UGCINTERFACE_CHECKTOKENVERIFYFAILED_1_OFFSET UNITYSDK_OFFSET(0x1EAD7860)
+#define MIHOYO_SDK_UGCINTERFACE_CHECKTOKENVERIFYFAILED_2_OFFSET UNITYSDK_OFFSET(0x1EAD7700)
+#define MIHOYO_SDK_UGCINTERFACE_CHECKTOKENVERIFYFAILED_OFFSET UNITYSDK_OFFSET(0x1EAD76F0)
+#define MIHOYO_SDK_UGCINTERFACE_CLONEHEADERS_OFFSET UNITYSDK_OFFSET(0x1EAD99C0)
+#define MIHOYO_SDK_UGCINTERFACE_ENABLELOGGER_OFFSET UNITYSDK_OFFSET(0x1EAD5320)
+#define MIHOYO_SDK_UGCINTERFACE_EXCHANGETOKEN_OFFSET UNITYSDK_OFFSET(0x1EAD9000)
+#define MIHOYO_SDK_UGCINTERFACE_GENERATEBINARYRESPONSE_OFFSET UNITYSDK_OFFSET(0x1EAD88B0)
+#define MIHOYO_SDK_UGCINTERFACE_GENERATEBINARYTIMEOUTRESPONSE_OFFSET UNITYSDK_OFFSET(0x1EAD76B0)
+#define MIHOYO_SDK_UGCINTERFACE_GENERATEBUSINESSHEADERS_OFFSET UNITYSDK_OFFSET(0x1EAD9D20)
+#define MIHOYO_SDK_UGCINTERFACE_GENERATEHEADERS_OFFSET UNITYSDK_OFFSET(0x1EAD7230)
+#define MIHOYO_SDK_UGCINTERFACE_GENERATERESPONSE_OFFSET UNITYSDK_OFFSET(0x1EAD7AA0)
+#define MIHOYO_SDK_UGCINTERFACE_GENERATETIMEOUTRESPONSE_OFFSET UNITYSDK_OFFSET(0x1EAD9220)
+#define MIHOYO_SDK_UGCINTERFACE_GETBINARY_OFFSET UNITYSDK_OFFSET(0x1EAD6BD0)
+#define MIHOYO_SDK_UGCINTERFACE_GETDEVICEID_OFFSET UNITYSDK_OFFSET(0x1EAD9B50)
+#define MIHOYO_SDK_UGCINTERFACE_GETNOWTIMESTAMPMILLISEC_OFFSET UNITYSDK_OFFSET(0x1EAD9FC0)
+#define MIHOYO_SDK_UGCINTERFACE_GETNOWTIMESTAMPSEC_OFFSET UNITYSDK_OFFSET(0x1EAD96F0)
+#define MIHOYO_SDK_UGCINTERFACE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1EAD5210)
+#define MIHOYO_SDK_UGCINTERFACE_GET_OFFSET UNITYSDK_OFFSET(0x1EAD7060)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARYCARRYTOKENIMPL_OFFSET UNITYSDK_OFFSET(0x1EAD5990)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARYCARRYTOKEN_OFFSET UNITYSDK_OFFSET(0x1EAD5840)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARY_1_OFFSET UNITYSDK_OFFSET(0x1EAD5BE0)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARY_OFFSET UNITYSDK_OFFSET(0x1EAD5AD0)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPGETCARRYTOKENIMPL_OFFSET UNITYSDK_OFFSET(0x1EAD5730)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPGETCARRYTOKEN_OFFSET UNITYSDK_OFFSET(0x1EAD5560)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPGET_OFFSET UNITYSDK_OFFSET(0x1EAD6ED0)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPPOSTBINARYCARRYTOKENIMPL_OFFSET UNITYSDK_OFFSET(0x1EAD61E0)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPPOSTBINARYCARRYTOKEN_OFFSET UNITYSDK_OFFSET(0x1EAD6070)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPPOSTBINARY_OFFSET UNITYSDK_OFFSET(0x1EAD6C60)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPPOSTCARRYTOKENIMPL_OFFSET UNITYSDK_OFFSET(0x1EAD5F50)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPPOSTCARRYTOKEN_OFFSET UNITYSDK_OFFSET(0x1EAD5D70)
+#define MIHOYO_SDK_UGCINTERFACE_HTTPPOST_OFFSET UNITYSDK_OFFSET(0x1EAD6990)
+#define MIHOYO_SDK_UGCINTERFACE_INITENV_OFFSET UNITYSDK_OFFSET(0x1EADA1C0)
+#define MIHOYO_SDK_UGCINTERFACE_INITUGCINFO_1_OFFSET UNITYSDK_OFFSET(0x1EAD54B0)
+#define MIHOYO_SDK_UGCINTERFACE_INITUGCINFO_OFFSET UNITYSDK_OFFSET(0x1EAD5330)
+#define MIHOYO_SDK_UGCINTERFACE_LOGGER_OFFSET UNITYSDK_OFFSET(0x1EAD5440)
+#define MIHOYO_SDK_UGCINTERFACE_ONEXCHANGETOKENSUCCESS_OFFSET UNITYSDK_OFFSET(0x1EAD9280)
+#define MIHOYO_SDK_UGCINTERFACE_ONHTTPREQUESTBINARYFAILED_OFFSET UNITYSDK_OFFSET(0x1EAD8A20)
+#define MIHOYO_SDK_UGCINTERFACE_ONHTTPREQUESTFAILED_OFFSET UNITYSDK_OFFSET(0x1EAD8040)
+#define MIHOYO_SDK_UGCINTERFACE_ONHTTPRQUESTBINARYRESPONDED_OFFSET UNITYSDK_OFFSET(0x1EAD86C0)
+#define MIHOYO_SDK_UGCINTERFACE_ONHTTPRQUESTRESPONDED_OFFSET UNITYSDK_OFFSET(0x1EAD7870)
+#define MIHOYO_SDK_UGCINTERFACE_ONTOKENEXPIRED_OFFSET UNITYSDK_OFFSET(0x1EAD8E20)
+#define MIHOYO_SDK_UGCINTERFACE_POSTBINARY_OFFSET UNITYSDK_OFFSET(0x1EAD6E20)
+#define MIHOYO_SDK_UGCINTERFACE_POSTHTTPREQUESTTASK_OFFSET UNITYSDK_OFFSET(0x1EAD6340)
+#define MIHOYO_SDK_UGCINTERFACE_POST_OFFSET UNITYSDK_OFFSET(0x1EAD6B30)
+#define MIHOYO_SDK_UGCINTERFACE_RESETTOKENINFO_OFFSET UNITYSDK_OFFSET(0x1EAD7490)
+#define MIHOYO_SDK_UGCINTERFACE_RETRYEXCHANGETOKEN_OFFSET UNITYSDK_OFFSET(0x1EAD70F0)
+#define MIHOYO_SDK_UGCINTERFACE_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1EAD5310)
+#define MIHOYO_SDK_UGCINTERFACE_UPDATETOKENINFO_OFFSET UNITYSDK_OFFSET(0x1EAD9910)
+#define MIHOYO_SDK_UGCINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD52C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface_TypeDefinitionIndex = 37476;
+	inline static constexpr unsigned int UGCInterface_TypeDefinitionIndex = 35454;
 
 	class UGCInterface : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::UGCInterface** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::UGCInterface**)Il2CppClass::FromTypeDefinitionIndex(UGCInterface_TypeDefinitionIndex)->GetStaticField(0x29D00);
+			return (::MiHoYo::SDK::UGCInterface**)Il2CppClass::FromTypeDefinitionIndex(UGCInterface_TypeDefinitionIndex)->GetStaticField(0x2B080);
 		}
 		// static const ::System::String* TOKEN_HEADER; // 0x0
-		// static const ::System::Int32 DEFAULT_FAILED_CODE = 0xFFFFFFFF; // 0x0
+		// static const ::System::Int32 DEFAULT_FAILED_CODE = -0x1; // 0x0
 		// static const ::System::String* TOKEN_EXPIRED_HEADER; // 0x0
 		// static const ::System::String* DEVICE_ID_HEADER; // 0x0
 		// static const ::System::String* DEVICE_ID_METHOD; // 0x0
@@ -93,14 +92,15 @@ namespace MiHoYo::SDK
 		// static const ::System::String* REGION_HEADER; // 0x0
 		// static const ::System::String* ERROR_CODE_HEADER; // 0x0
 		// static const ::System::String* UGC_SET_TOKEN_TASK; // 0x0
-		::MiHoYo::SDK::UGCInterface_UgcInfo* m_ugcInfo; // 0x10
-		::System::String* m_strAuthKey; // 0x18
+		::System::String* m_strAuthKey; // 0x10
+		::System::String* m_strToken; // 0x18
 		::System::String* m_strDeviceId; // 0x20
-		::System::String* m_strToken; // 0x28
+		::MiHoYo::SDK::UGCInterface_UgcInfo* m_ugcInfo; // 0x28
 		::System::String* m_strTokenHeader; // 0x30
-		::System::Int64 m_n64TokenRefreshedTimestampSecs; // 0x38
-		::System::Int64 m_n64TokenExpireSecs; // 0x40
-		::System::Boolean m_bOpenLogger; // 0x48
+		::System::Int64 m_n64TokenExpireSecs; // 0x38
+		::System::Boolean m_bOpenLogger; // 0x40
+		::System::Byte _padding0[0x7];
+		::System::Int64 m_n64TokenRefreshedTimestampSecs; // 0x48
 
 		::System::Void _ctor()
 		{
@@ -132,29 +132,29 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int64, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_INITUGCINFO_1_OFFSET))(this, strGame, strTokenUrl, nSignType, strAuthAppId, strAuthKeyVer, strLangCode);
 		}
 
-		::System::Void HttpGetCarryToken(::System::String* strTaskId, ::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>* tokenFailedCallback, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
+		::System::Void HttpGetCarryToken(::System::String* strTaskId, ::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::System::Action_1<::System::Object*>* tokenFailedCallback, ::System::Action_1<::System::Object*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPGETCARRYTOKEN_OFFSET))(this, strTaskId, strUrl, strAuthKey, strUId, strRegion, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::System::Object*>*, ::System::Action_1<::System::Object*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPGETCARRYTOKEN_OFFSET))(this, strTaskId, strUrl, strAuthKey, strUId, strRegion, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
 		}
 
-		::System::Void HttpGetBinaryCarryToken(::System::String* strTaskId, ::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>* tokenFailedCallback, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
+		::System::Void HttpGetBinaryCarryToken(::System::String* strTaskId, ::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::System::Action_1<::System::Object*>* tokenFailedCallback, ::System::Action_1<::System::Object*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARYCARRYTOKEN_OFFSET))(this, strTaskId, strUrl, strAuthKey, strUId, strRegion, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::System::Object*>*, ::System::Action_1<::System::Object*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARYCARRYTOKEN_OFFSET))(this, strTaskId, strUrl, strAuthKey, strUId, strRegion, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
 		}
 
-		::System::Void HttpGetBinary(::System::String* strTaskId, ::System::String* strUrl, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
+		::System::Void HttpGetBinary(::System::String* strTaskId, ::System::String* strUrl, ::System::Action_1<::System::Object*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARY_OFFSET))(this, strTaskId, strUrl, callback, headers, nTimeoutSeconds, nRetryCount);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::Object*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARY_OFFSET))(this, strTaskId, strUrl, callback, headers, nTimeoutSeconds, nRetryCount);
 		}
 
-		::System::Void HttpPostCarryToken(::System::String* strTaskId, ::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::System::String* strBody, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>* tokenFailedCallback, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
+		::System::Void HttpPostCarryToken(::System::String* strTaskId, ::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::System::String* strBody, ::System::Action_1<::System::Object*>* tokenFailedCallback, ::System::Action_1<::System::Object*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPPOSTCARRYTOKEN_OFFSET))(this, strTaskId, strUrl, strAuthKey, strUId, strRegion, strBody, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::System::Object*>*, ::System::Action_1<::System::Object*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPPOSTCARRYTOKEN_OFFSET))(this, strTaskId, strUrl, strAuthKey, strUId, strRegion, strBody, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
 		}
 
-		::System::Void HttpPostBinaryCarryToken(::System::String* strTaskId, ::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::Il2CppArray<::System::Byte>* buffer, ::System::String* strContentType, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>* tokenFailedCallback, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
+		::System::Void HttpPostBinaryCarryToken(::System::String* strTaskId, ::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::Il2CppArray<::System::Byte>* buffer, ::System::String* strContentType, ::System::Action_1<::System::Object*>* tokenFailedCallback, ::System::Action_1<::System::Object*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPPOSTBINARYCARRYTOKEN_OFFSET))(this, strTaskId, strUrl, strAuthKey, strUId, strRegion, buffer, strContentType, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::String*, ::System::Action_1<::System::Object*>*, ::System::Action_1<::System::Object*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPPOSTBINARYCARRYTOKEN_OFFSET))(this, strTaskId, strUrl, strAuthKey, strUId, strRegion, buffer, strContentType, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
 		}
 
 		::System::Void HttpGetCarryTokenImpl(::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
@@ -167,14 +167,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPPOSTCARRYTOKENIMPL_OFFSET))(this, strUrl, strAuthKey, strUId, strRegion, strBody, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
 		}
 
-		::System::Void HttpGetBinaryCarryTokenImpl(::System::String* strTaskId, ::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
+		::System::Void HttpGetBinaryCarryTokenImpl(::System::String* strTaskId, ::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback, ::System::Action_1<::System::Object*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARYCARRYTOKENIMPL_OFFSET))(this, strTaskId, strUrl, strAuthKey, strUId, strRegion, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Action_1<::System::Object*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPGETBINARYCARRYTOKENIMPL_OFFSET))(this, strTaskId, strUrl, strAuthKey, strUId, strRegion, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
 		}
 
-		::System::Void HttpPostBinaryCarryTokenImpl(::System::String* strTaskId, ::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::Il2CppArray<::System::Byte>* body, ::System::String* strContentType, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
+		::System::Void HttpPostBinaryCarryTokenImpl(::System::String* strTaskId, ::System::String* strUrl, ::System::String* strAuthKey, ::System::String* strUId, ::System::String* strRegion, ::Il2CppArray<::System::Byte>* body, ::System::String* strContentType, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback, ::System::Action_1<::System::Object*>* callback, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPPOSTBINARYCARRYTOKENIMPL_OFFSET))(this, strTaskId, strUrl, strAuthKey, strUId, strRegion, body, strContentType, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Action_1<::System::Object*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_HTTPPOSTBINARYCARRYTOKENIMPL_OFFSET))(this, strTaskId, strUrl, strAuthKey, strUId, strRegion, body, strContentType, tokenFailedCallback, callback, headers, nTimeoutSeconds, nRetryCount);
 		}
 
 		::System::Void HttpPost(::System::String* strUrl, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers, ::System::String* strBody, ::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* completeCallback, ::System::Action* timeoutCallback, ::System::Single nTimeoutSeconds, ::System::Int32 nRetryCount)
@@ -207,19 +207,19 @@ namespace MiHoYo::SDK
 			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_CHECKAUTHKEYVERIFYFAILED_OFFSET))(this, response);
 		}
 
-		::System::Void AdaptCallback(::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>* callback, ::System::String* strTaskId, ::MiHoYo::SDK::NetworkResponseModel* netResponse)
+		::System::Void AdaptCallback(::System::Action_1<::System::Object*>* callback, ::System::String* strTaskId, ::MiHoYo::SDK::NetworkResponseModel* netResponse)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcResponseModel*>*, ::System::String*, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_ADAPTCALLBACK_OFFSET))(this, callback, strTaskId, netResponse);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::String*, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_ADAPTCALLBACK_OFFSET))(this, callback, strTaskId, netResponse);
 		}
 
-		::System::Void AdaptBinaryCallback(::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback, ::System::String* strTaskId, ::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel* response)
+		::System::Void AdaptBinaryCallback(::System::Action_1<::System::Object*>* callback, ::System::String* strTaskId, ::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel* response)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>*, ::System::String*, ::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_ADAPTBINARYCALLBACK_OFFSET))(this, callback, strTaskId, response);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::String*, ::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_ADAPTBINARYCALLBACK_OFFSET))(this, callback, strTaskId, response);
 		}
 
-		::System::Void AdaptBinaryCallback_1(::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback, ::System::String* strTaskId, ::MiHoYo::SDK::NetworkResponseModel* response)
+		::System::Void AdaptBinaryCallback_1(::System::Action_1<::System::Object*>* callback, ::System::String* strTaskId, ::MiHoYo::SDK::NetworkResponseModel* response)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>*, ::System::String*, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_ADAPTBINARYCALLBACK_1_OFFSET))(this, callback, strTaskId, response);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::String*, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_ADAPTBINARYCALLBACK_1_OFFSET))(this, callback, strTaskId, response);
 		}
 
 		::System::Boolean CheckTokenVerifyFailed(::MiHoYo::SDK::NetworkResponseModel* response)
@@ -242,9 +242,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_ONHTTPRQUESTRESPONDED_OFFSET))(this, strLoggerPrefix, dicResponseHeader, strResponse, tokenFailedCallback, callback);
 		}
 
-		::System::Void OnHttpRquestBinaryResponded(::System::String* strLoggerPrefix, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* dicResponseHeader, ::Il2CppArray<::System::Byte>* binaryResponse, ::System::String* strResponse, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback)
+		::System::Void OnHttpRquestBinaryResponded(::System::String* strLoggerPrefix, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* dicResponseHeader, ::Il2CppArray<::System::Byte>* binaryResponse, ::System::String* strResponse, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback, ::System::Action_1<::System::Object*>* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::Il2CppArray<::System::Byte>*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_ONHTTPRQUESTBINARYRESPONDED_OFFSET))(this, strLoggerPrefix, dicResponseHeader, binaryResponse, strResponse, tokenFailedCallback, callback);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::Il2CppArray<::System::Byte>*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_ONHTTPRQUESTBINARYRESPONDED_OFFSET))(this, strLoggerPrefix, dicResponseHeader, binaryResponse, strResponse, tokenFailedCallback, callback);
 		}
 
 		::MiHoYo::SDK::NetworkResponseModel* BinaryModel2Model(::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel* response)
@@ -252,9 +252,9 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::NetworkResponseModel*(*)(::PVOID, ::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_BINARYMODEL2MODEL_OFFSET))(this, response);
 		}
 
-		::System::Void OnHttpRequestBinaryFailed(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback, ::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel* response)
+		::System::Void OnHttpRequestBinaryFailed(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback, ::System::Action_1<::System::Object*>* callback, ::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel* response)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>*, ::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_ONHTTPREQUESTBINARYFAILED_OFFSET))(this, tokenFailedCallback, callback, response);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Action_1<::System::Object*>*, ::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE_ONHTTPREQUESTBINARYFAILED_OFFSET))(this, tokenFailedCallback, callback, response);
 		}
 
 		::System::Void OnHttpRequestFailed(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback, ::MiHoYo::SDK::NetworkResponseModel* response)

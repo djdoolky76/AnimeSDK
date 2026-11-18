@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 
 namespace MiHoYo::SDK { class AccountModel; }
-namespace MiHoYo::SDK::Console::OS { class LoginManagerCX___c__DisplayClass5_0; }
 
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX___C__DISPLAYCLASS5_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1C925290)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX___C__DISPLAYCLASS5_1__ONCONSOLELOGINCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1C9252A0)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX___C__DISPLAYCLASS5_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE2ABC0)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX___C__DISPLAYCLASS5_1__ONCONSOLELOGINCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1CE2ABD0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int LoginManagerCX___c__DisplayClass5_1_TypeDefinitionIndex = 21180;
+	inline static constexpr unsigned int LoginManagerCX___c__DisplayClass5_1_TypeDefinitionIndex = 20385;
 
+	template <typename T>
 	class LoginManagerCX___c__DisplayClass5_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::OS::LoginManagerCX___c__DisplayClass5_0* CS___8__locals1; // 0x10
-		::MiHoYo::SDK::AccountModel* userModel; // 0x18
+		::MiHoYo::SDK::AccountModel* userModel; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

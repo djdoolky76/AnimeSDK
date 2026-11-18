@@ -3,15 +3,15 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EArcanaType_TypeDefinitionIndex = 11086;
+	inline static constexpr unsigned int EArcanaType_TypeDefinitionIndex = 11198;
 
 	enum class EArcanaType : ::System::Int16
 	{
+		LiChang = 4,
 		EnumCount = 5,
-		FanJi = 3,
-		Dun = 1,
 		HuoQiu = 2,
 		Invalid = 0,
-		LiChang = 4,
+		Dun = 1,
+		FanJi = 3,
 	};
 }

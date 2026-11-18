@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_36;
-class Class_2_8FC1A7735F246865;
+class HCBFNKIPOPJ;
+class OAEFGCLEHHO;
 namespace MoleMole { class UIHandBookHadalWidgetWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHANDBOOKHADALWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186DAC40)
-#define MOLEMOLE_UIHANDBOOKHADALWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSHOW_B__0_OFFSET UNITYSDK_OFFSET(0x186DAC50)
-#define MOLEMOLE_UIHANDBOOKHADALWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSHOW_B__1_OFFSET UNITYSDK_OFFSET(0x186DB3B0)
-#define MOLEMOLE_UIHANDBOOKHADALWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSHOW_B__2_OFFSET UNITYSDK_OFFSET(0x186DB370)
+#define MOLEMOLE_UIHANDBOOKHADALWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18298C30)
+#define MOLEMOLE_UIHANDBOOKHADALWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18298C40)
+#define MOLEMOLE_UIHANDBOOKHADALWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSHOW_B__1_OFFSET UNITYSDK_OFFSET(0x182993A0)
+#define MOLEMOLE_UIHANDBOOKHADALWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSHOW_B__2_OFFSET UNITYSDK_OFFSET(0x18299360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookHadalWidgetWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 49586;
+	inline static constexpr unsigned int UIHandBookHadalWidgetWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 68181;
 
 	class UIHandBookHadalWidgetWidgetController___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::Class_2_8FC1A7735F246865* shopModel; // 0x10
-		::MoleMole::UIHandBookHadalWidgetWidgetController* __4__this; // 0x18
-		::System::Action* __9__2; // 0x20
+		::System::Action* __9__2; // 0x10
+		::HCBFNKIPOPJ* shopModel; // 0x18
+		::MoleMole::UIHandBookHadalWidgetWidgetController* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -38,9 +38,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKHADALWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSHOW_B__2_OFFSET))(this);
 		}
 
-		::System::Void _OnShow_b__1(::Class_0_16E4307DCC419505_36* error)
+		::System::Void _OnShow_b__1(::OAEFGCLEHHO* error)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_36*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKHADALWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSHOW_B__1_OFFSET))(this, error);
+			return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKHADALWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS5_0__ONSHOW_B__1_OFFSET))(this, error);
 		}
 	};
 }

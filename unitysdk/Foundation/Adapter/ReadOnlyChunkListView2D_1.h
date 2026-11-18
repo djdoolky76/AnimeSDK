@@ -5,10 +5,10 @@
 
 namespace Foundation::Adapter
 {
-	inline static constexpr unsigned int ReadOnlyChunkListView2D_1_TypeDefinitionIndex = 8628;
+	inline static constexpr unsigned int ReadOnlyChunkListView2D_1_TypeDefinitionIndex = 8723;
 
 	template <typename T>
-	struct ReadOnlyChunkListView2D_1
+	struct alignas(8) ReadOnlyChunkListView2D_1
 	{
 		::Unity::Collections::NativeSlice_1<::System::IntPtr> ChunkPointers; // 0x0
 		::System::Int32 Count; // 0x0

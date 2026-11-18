@@ -4,11 +4,12 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NapIndexAssetRef_TypeDefinitionIndex = 7678;
+	inline static constexpr unsigned int NapIndexAssetRef_TypeDefinitionIndex = 7690;
 
-	struct alignas(8) NapIndexAssetRef
+	struct alignas(4) NapIndexAssetRef
 	{
 		::System::Int32 bundle; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::UInt64 pathHash; // 0x18
 	};
 }

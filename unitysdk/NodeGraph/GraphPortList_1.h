@@ -2,12 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphPortList_1_TypeDefinitionIndex = 83493;
+	inline static constexpr unsigned int GraphPortList_1_TypeDefinitionIndex = 52085;
 
 	template <typename T>
 	class GraphPortList_1 : public ::System::Object

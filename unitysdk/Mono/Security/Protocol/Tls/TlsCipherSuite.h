@@ -9,22 +9,22 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTECLIENTRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1F3F63A0)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTEKEYS_OFFSET UNITYSDK_OFFSET(0x1F3F66F0)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTEMASTERSECRET_OFFSET UNITYSDK_OFFSET(0x1F3F6650)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTESERVERRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1F3F60F0)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F5FC0)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTECLIENTRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1F8002F0)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTEKEYS_OFFSET UNITYSDK_OFFSET(0x1F800640)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTEMASTERSECRET_OFFSET UNITYSDK_OFFSET(0x1F8005A0)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE_COMPUTESERVERRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1F800040)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCIPHERSUITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7FFF10)
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int TlsCipherSuite_TypeDefinitionIndex = 2385;
+	inline static constexpr unsigned int TlsCipherSuite_TypeDefinitionIndex = 2384;
 
 	class TlsCipherSuite : public ::Mono::Security::Protocol::Tls::CipherSuite
 	{
 	public:
 		// static const ::System::Int32 MacHeaderLength = 0xD; // 0x0
-		::Il2CppArray<::System::Byte>* header; // 0x70
-		::System::Object* headerLock; // 0x78
+		::System::Object* headerLock; // 0x70
+		::Il2CppArray<::System::Byte>* header; // 0x78
 
 		::System::Void _ctor(::System::Int16 code, ::System::String* name, ::Mono::Security::Protocol::Tls::CipherAlgorithmType cipherAlgorithmType, ::Mono::Security::Protocol::Tls::HashAlgorithmType hashAlgorithmType, ::Mono::Security::Protocol::Tls::ExchangeAlgorithmType exchangeAlgorithmType, ::System::Boolean exportable, ::System::Boolean blockMode, ::System::Byte keyMaterialSize, ::System::Byte expandedKeyMaterialSize, ::System::Int16 effectiveKeyBytes, ::System::Byte ivSize, ::System::Byte blockSize)
 		{

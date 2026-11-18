@@ -6,20 +6,22 @@
 namespace Code::Logic::Data::ScriptObject::Level { class MoveCoordinate; }
 namespace System { class String; }
 
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_PATTERNTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x17EC87B0)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_LEVEL_PATTERNTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1534EC90)
 
 namespace Code::Logic::Data::ScriptObject::Level
 {
-	inline static constexpr unsigned int PatternTimeline_TypeDefinitionIndex = 75793;
+	inline static constexpr unsigned int PatternTimeline_TypeDefinitionIndex = 85164;
 
 	class PatternTimeline : public ::System::Object
 	{
 	public:
 		::System::Int32 instanceId; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* patternRefName; // 0x18
 		::Il2CppArray<::System::Int32>* dependOnList; // 0x20
 		::System::Single startTime; // 0x28
 		::System::Boolean hasEndTime; // 0x2C
+		::System::Byte _padding1[0x3];
 		::System::Single endTime; // 0x30
 		::System::Int32 layerOrder; // 0x34
 		::System::Int32 coordinateX; // 0x38

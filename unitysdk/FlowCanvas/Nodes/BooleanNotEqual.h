@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_BOOLEANNOTEQUAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E8B6960)
-#define FLOWCANVAS_NODES_BOOLEANNOTEQUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B6970)
+#define FLOWCANVAS_NODES_BOOLEANNOTEQUAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EB7C290)
+#define FLOWCANVAS_NODES_BOOLEANNOTEQUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7C2A0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int BooleanNotEqual_TypeDefinitionIndex = 30753;
+	inline static constexpr unsigned int BooleanNotEqual_TypeDefinitionIndex = 29565;
 
-	class BooleanNotEqual : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Boolean, ::System::Boolean, ::System::Boolean>
+	class BooleanNotEqual
 	{
 	public:
 		::System::Void _ctor()

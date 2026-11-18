@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_UIMINDSCAPECUTBGCONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17AF30E0)
-#define MOLEMOLE_UIMINDSCAPECUTBGCONTROLLER___C__DISPLAYCLASS36_0__PLAYBGUNLOCKANI_B__0_OFFSET UNITYSDK_OFFSET(0x17AF30F0)
+#define MOLEMOLE_UIMINDSCAPECUTBGCONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17622790)
+#define MOLEMOLE_UIMINDSCAPECUTBGCONTROLLER___C__DISPLAYCLASS36_0__PLAYBGUNLOCKANI_B__0_OFFSET UNITYSDK_OFFSET(0x176227A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeCutBgController___c__DisplayClass36_0_TypeDefinitionIndex = 59874;
+	inline static constexpr unsigned int UIMindscapeCutBgController___c__DisplayClass36_0_TypeDefinitionIndex = 72892;
 
 	class UIMindscapeCutBgController___c__DisplayClass36_0 : public ::System::Object
 	{

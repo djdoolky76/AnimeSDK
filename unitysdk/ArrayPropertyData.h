@@ -2,10 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ArrayPropertyType.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/ValueTuple_6.h"
 
-#define ARRAYPROPERTYDATA_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1BC4B390)
+#define ARRAYPROPERTYDATA_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x16E42D30)
 
-inline static constexpr unsigned int ArrayPropertyData_TypeDefinitionIndex = 27719;
+inline static constexpr unsigned int ArrayPropertyData_TypeDefinitionIndex = 26410;
 
 struct alignas(8) ArrayPropertyData
 {
@@ -14,6 +15,7 @@ struct alignas(8) ArrayPropertyData
 	::System::Int32 arrayPropertyIndex; // 0x18
 	::System::Int32 arrayIndex; // 0x1C
 	::System::Int32 componentIndex; // 0x20
+	::System::Byte _padding0[0x4];
 	::Il2CppArray<::System::Int32>* properties; // 0x28
 
 	/*

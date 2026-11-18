@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define MONO_SECURITY_X509_PKCS9__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8E9CE0)
+#define MONO_SECURITY_X509_PKCS9__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCFF720)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int PKCS9_TypeDefinitionIndex = 2287;
+	inline static constexpr unsigned int PKCS9_TypeDefinitionIndex = 2286;
 
 	class PKCS9 : public ::System::Object
 	{

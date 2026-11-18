@@ -6,11 +6,11 @@ namespace System { class AsyncCallback; }
 namespace System { class Object; }
 namespace System::Net::Mime { class MimeBasePart; }
 
-#define SYSTEM_NET_MIME_MIMEBASEPART_MIMEPARTASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E97A590)
+#define SYSTEM_NET_MIME_MIMEBASEPART_MIMEPARTASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC52310)
 
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int MimeBasePart_MimePartAsyncResult_TypeDefinitionIndex = 3619;
+	inline static constexpr unsigned int MimeBasePart_MimePartAsyncResult_TypeDefinitionIndex = 3618;
 
 	class MimeBasePart_MimePartAsyncResult : public ::System::Net::LazyAsyncResult
 	{

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_F5486EF13585A6C7.h"
+#include "unitysdk/OALMPBPCPPK.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_PROJECT_CONFIG_COLLISIONSHAPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A193C80)
+#define MOLEMOLE_PROJECT_CONFIG_COLLISIONSHAPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E19100)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int CollisionShapeData_TypeDefinitionIndex = 9245;
+	inline static constexpr unsigned int CollisionShapeData_TypeDefinitionIndex = 12014;
 
 	class CollisionShapeData : public ::System::Object
 	{
 	public:
-		::Enum_3_F5486EF13585A6C7 type; // 0x10
+		::OALMPBPCPPK type; // 0x10
 		::System::Single width; // 0x14
 		::System::Single height; // 0x18
 		::System::Single radius; // 0x1C

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D812D50)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD1A500)
 
 namespace System::Runtime::Remoting::Channels
 {
-	inline static constexpr unsigned int CrossAppDomainData_TypeDefinitionIndex = 1295;
+	inline static constexpr unsigned int CrossAppDomainData_TypeDefinitionIndex = 1294;
 
 	class CrossAppDomainData : public ::System::Object
 	{

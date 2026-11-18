@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Singleton_1.h"
 
 namespace Foundation { class ITimerClock; }
 
-#define FOUNDATION_TIMERCLOCKMANAGER_GET_TIMERCLOCKROOT_OFFSET UNITYSDK_OFFSET(0x1F698A10)
-#define FOUNDATION_TIMERCLOCKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F698A90)
+#define FOUNDATION_TIMERCLOCKMANAGER_GET_TIMERCLOCKROOT_OFFSET UNITYSDK_OFFSET(0x1F3A7BB0)
+#define FOUNDATION_TIMERCLOCKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A7C30)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TimerClockManager_TypeDefinitionIndex = 8195;
+	inline static constexpr unsigned int TimerClockManager_TypeDefinitionIndex = 8245;
 
-	class TimerClockManager : public ::Foundation::Singleton_1<::Foundation::TimerClockManager*>
+	class TimerClockManager
 	{
 	public:
 		::Foundation::ITimerClock* _timerClockRoot; // 0x10

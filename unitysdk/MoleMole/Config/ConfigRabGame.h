@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGRABGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D9940)
+#define MOLEMOLE_CONFIG_CONFIGRABGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x12782BA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigRabGame_TypeDefinitionIndex = 44708;
+	inline static constexpr unsigned int ConfigRabGame_TypeDefinitionIndex = 76266;
 
 	class ConfigRabGame : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -22,8 +22,10 @@ namespace MoleMole::Config
 		::System::Single screenSpaceMaskRadius; // 0x80
 		::System::Single screenSpaceMaskFeather; // 0x84
 		::System::Boolean invertMask; // 0x88
+		::System::Byte _padding0[0x7];
 		::UnityEngine::AnimationCurve* scaleUpCurve; // 0x90
 		::System::Single scaleMultiplier; // 0x98
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* scaleRecoverCurve; // 0xA0
 		::System::Single scaleRecoverTime; // 0xA8
 

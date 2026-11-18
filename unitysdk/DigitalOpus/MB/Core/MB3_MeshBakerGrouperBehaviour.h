@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MB3_MeshBakerGrouper_ClusterType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 
 class MB3_MeshBakerCommon;
 class MB3_MeshBakerGrouper;
@@ -11,18 +10,17 @@ namespace DigitalOpus::MB::Core { class GrouperData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERBEHAVIOUR_ADDMESHBAKER_OFFSET UNITYSDK_OFFSET(0x1F88C0C0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERBEHAVIOUR_DOCLUSTERING_OFFSET UNITYSDK_OFFSET(0x1F88A160)
-#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERBEHAVIOUR_GETCLUSTERTYPE_OFFSET UNITYSDK_OFFSET(0x1F88C480)
-#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERBEHAVIOUR_GROUPBYLIGHTMAPINDEX_OFFSET UNITYSDK_OFFSET(0x1F88BDF0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F88C490)
+#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERBEHAVIOUR_ADDMESHBAKER_OFFSET UNITYSDK_OFFSET(0x1FCA7100)
+#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERBEHAVIOUR_DOCLUSTERING_OFFSET UNITYSDK_OFFSET(0x1FCA5190)
+#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERBEHAVIOUR_GETCLUSTERTYPE_OFFSET UNITYSDK_OFFSET(0x1FCA74C0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERBEHAVIOUR_GROUPBYLIGHTMAPINDEX_OFFSET UNITYSDK_OFFSET(0x1FCA6E30)
+#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCA74D0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshBakerGrouperBehaviour_TypeDefinitionIndex = 94500;
+	inline static constexpr unsigned int MB3_MeshBakerGrouperBehaviour_TypeDefinitionIndex = 96187;
 
 	class MB3_MeshBakerGrouperBehaviour : public ::System::Object
 	{

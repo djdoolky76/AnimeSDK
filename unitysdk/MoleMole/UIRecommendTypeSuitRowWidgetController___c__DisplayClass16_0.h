@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FDJDJKFDACG.h"
+#include "unitysdk/System/Object.h"
+
+namespace MoleMole { class UIRecommendTypeSuitRowWidgetController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179A2280)
+#define MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x179A2290)
+#define MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x179A22C0)
+#define MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHVIEW_G__GETSUITFILTERINDEX_3_OFFSET UNITYSDK_OFFSET(0x179A2550)
+#define MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHVIEW_G__ISCANSELECT_4_OFFSET UNITYSDK_OFFSET(0x179A25B0)
+#define MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHVIEW_G__ONSUITROWCLICK_2_OFFSET UNITYSDK_OFFSET(0x179A2310)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIRecommendTypeSuitRowWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 63710;
+
+	class UIRecommendTypeSuitRowWidgetController___c__DisplayClass16_0 : public ::System::Object
+	{
+	public:
+		::MoleMole::UIRecommendTypeSuitRowWidgetController* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::FDJDJKFDACG>* showSuitList; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* suitIdList; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHVIEW_B__0_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_b__1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHVIEW_B__1_OFFSET))(this);
+		}
+
+		::System::Void _RefreshView_g__OnSuitRowClick_2(::System::Boolean isSelect)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHVIEW_G__ONSUITROWCLICK_2_OFFSET))(this, isSelect);
+		}
+
+		::System::Int32 _RefreshView_g__GetSuitFilterIndex_3(::System::Int32 suitId)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHVIEW_G__GETSUITFILTERINDEX_3_OFFSET))(this, suitId);
+		}
+
+		::System::Boolean _RefreshView_g__IsCanSelect_4()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHVIEW_G__ISCANSELECT_4_OFFSET))(this);
+		}
+	};
+}

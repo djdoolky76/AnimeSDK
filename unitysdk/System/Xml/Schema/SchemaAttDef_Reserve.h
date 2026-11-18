@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int SchemaAttDef_Reserve_TypeDefinitionIndex = 2077;
+	inline static constexpr unsigned int SchemaAttDef_Reserve_TypeDefinitionIndex = 2076;
 
 	enum class SchemaAttDef_Reserve : ::System::Int32
 	{

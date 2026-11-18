@@ -1,40 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/FName.h"
-#include "unitysdk/MoleMole/Config/CameraSequence/Utils/FrameMultiplePointsInCorePolicy_ChatByScore_Struct_2_F3159D6CA15F934C.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
 #include "unitysdk/PipelineCamera/CameraSequence/FrameMultiplePointsInCorePolicy.h"
 #include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
-#include "unitysdk/System/Span_1.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
+#include "unitysdk/MoleMole/Config/CameraSequence/Utils/FrameMultiplePointsInCorePolicy_ChatByScore_FAMAINGDIAP.h"
+#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
+#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace PipelineCamera::CameraSequence { class AspectRatioPolicy; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x16257220)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_GETDATA_OFFSET UNITYSDK_OFFSET(0x162573D0)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x162573C0)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_METHOD_3_439B588EB4881570_OFFSET UNITYSDK_OFFSET(0x16257980)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_METHOD_3_47ABBFA84E9D76E4_OFFSET UNITYSDK_OFFSET(0x16257A10)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_METHOD_3_5A60CCF7370A1875_OFFSET UNITYSDK_OFFSET(0x16257890)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_SETPATH_OFFSET UNITYSDK_OFFSET(0x16257180)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16257640)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x16257610)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x19B11460)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_DBGONPGOBOH_OFFSET UNITYSDK_OFFSET(0x19B11BB0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_FAJBAMPHKNA_OFFSET UNITYSDK_OFFSET(0x19B11CA0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_FKGNIHPONNB_OFFSET UNITYSDK_OFFSET(0x19B11AD0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19B11610)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x19B11600)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_SETPATH_OFFSET UNITYSDK_OFFSET(0x19B113C0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B11880)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B11850)
 
 namespace MoleMole::Config::CameraSequence::Utils
 {
-	inline static constexpr unsigned int FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex = 48517;
+	inline static constexpr unsigned int FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex = 75829;
 
 	class FrameMultiplePointsInCorePolicy_ChatByScore : public ::PipelineCamera::CameraSequence::FrameMultiplePointsInCorePolicy
 	{
 	public:
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_maxAngle()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_deviationPenalty()
 		{
 			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex)->GetStaticField(0xB0C0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_minRadius()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_fieldOfView()
 		{
 			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex)->GetStaticField(0xB0C8);
 		}
@@ -42,39 +42,39 @@ namespace MoleMole::Config::CameraSequence::Utils
 		{
 			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex)->GetStaticField(0xB0D0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_variancePenalty()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_heightOffset()
 		{
 			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex)->GetStaticField(0xB0D8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_deviationPenalty()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_BeginCameraData()
 		{
 			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex)->GetStaticField(0xB0E0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_minAngle()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_overlapPenalty()
 		{
 			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex)->GetStaticField(0xB0E8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_heightOffset()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_minAngle()
 		{
 			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex)->GetStaticField(0xB0F0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_sampleStep()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_horizontalRatio()
 		{
 			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex)->GetStaticField(0xB0F8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_BeginCameraData()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_variancePenalty()
 		{
 			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex)->GetStaticField(0xB100);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_horizontalRatio()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_maxAngle()
 		{
 			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex)->GetStaticField(0xB108);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_fieldOfView()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_sampleStep()
 		{
 			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex)->GetStaticField(0xB110);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_overlapPenalty()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_minRadius()
 		{
 			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FrameMultiplePointsInCorePolicy_ChatByScore_TypeDefinitionIndex)->GetStaticField(0xB118);
 		}
@@ -93,6 +93,7 @@ namespace MoleMole::Config::CameraSequence::Utils
 		::UnityEngine::LayerMask layerMask; // 0x6C
 		::PipelineCamera::CameraSequence::AspectRatioPolicy* aspectRatioPolicy; // 0x70
 		::System::Boolean makeContextDependent; // 0x78
+		::System::Byte _padding0[0x3];
 		::PipelineCamera::WorldBasicCameraData BeginCameraData; // 0x7C
 
 		::System::Void _ctor()
@@ -105,14 +106,14 @@ namespace MoleMole::Config::CameraSequence::Utils
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE__CCTOR_OFFSET))();
 		}
 
-		::System::Void SetPath(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& a1)
+		::System::Void SetPath(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& CJBJONJDOLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_SETPATH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_SETPATH_OFFSET))(this, CJBJONJDOLI);
 		}
 
-		::System::Void CollectVariable(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector a1)
+		::System::Void CollectVariable(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector KFJNBMIFJNC)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_COLLECTVARIABLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_COLLECTVARIABLE_OFFSET))(this, KFJNBMIFJNC);
 		}
 
 		::System::Boolean get_IsContextDependent()
@@ -120,24 +121,24 @@ namespace MoleMole::Config::CameraSequence::Utils
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_GET_ISCONTEXTDEPENDENT_OFFSET))(this);
 		}
 
-		::PipelineCamera::WorldBasicCameraData GetData(::System::Single a1, ::PipelineCamera::CameraSequence::CameraSequenceContext*& a2, ::UnityEngine::Vector3 a3, ::System::Span_1<::UnityEngine::Vector3> a4)
+		::PipelineCamera::WorldBasicCameraData GetData(::System::Single FNIOPKPHDEH, ::PipelineCamera::CameraSequence::CameraSequenceContext*& AAOCANGHBDG, ::UnityEngine::Vector3 IIEHPIBMFLI, ::System::Span_1_9011FAD97750D224<::UnityEngine::Vector3> MJBKPLJKAHH)
 		{
-			return ((::PipelineCamera::WorldBasicCameraData(*)(::PVOID, ::System::Single, ::PipelineCamera::CameraSequence::CameraSequenceContext*&, ::UnityEngine::Vector3, ::System::Span_1<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_GETDATA_OFFSET))(this, a1, a2, a3, a4);
+			return ((::PipelineCamera::WorldBasicCameraData(*)(::PVOID, ::System::Single, ::PipelineCamera::CameraSequence::CameraSequenceContext*&, ::UnityEngine::Vector3, ::System::Span_1_9011FAD97750D224<::UnityEngine::Vector3>))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_GETDATA_OFFSET))(this, FNIOPKPHDEH, AAOCANGHBDG, IIEHPIBMFLI, MJBKPLJKAHH);
 		}
 
-		::System::Void Method_3_5A60CCF7370A1875(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector a1)
+		::MoleMole::Config::CameraSequence::Utils::FrameMultiplePointsInCorePolicy_ChatByScore_FAMAINGDIAP FKGNIHPONNB(::PipelineCamera::CameraSequence::CameraSequenceContext* AAOCANGHBDG)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_METHOD_3_5A60CCF7370A1875_OFFSET))(this, a1);
+			return ((::MoleMole::Config::CameraSequence::Utils::FrameMultiplePointsInCorePolicy_ChatByScore_FAMAINGDIAP(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_FKGNIHPONNB_OFFSET))(this, AAOCANGHBDG);
 		}
 
-		::System::Void Method_3_439B588EB4881570(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& a1)
+		::System::Void DBGONPGOBOH(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_METHOD_3_439B588EB4881570_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_DBGONPGOBOH_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::MoleMole::Config::CameraSequence::Utils::FrameMultiplePointsInCorePolicy_ChatByScore_Struct_2_F3159D6CA15F934C Method_3_47ABBFA84E9D76E4(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
+		::System::Void FAJBAMPHKNA(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& MIALFKCCCPI)
 		{
-			return ((::MoleMole::Config::CameraSequence::Utils::FrameMultiplePointsInCorePolicy_ChatByScore_Struct_2_F3159D6CA15F934C(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_METHOD_3_47ABBFA84E9D76E4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_FRAMEMULTIPLEPOINTSINCOREPOLICY_CHATBYSCORE_FAJBAMPHKNA_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

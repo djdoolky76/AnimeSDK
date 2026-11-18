@@ -1,0 +1,82 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AEDJLOFACHD;
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define AEDJLOFACHD_DJNALDADGEL_JPCPBBAMDGJ_OFFSET UNITYSDK_OFFSET(0x143461B0)
+#define AEDJLOFACHD_DJNALDADGEL_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x143461C0)
+#define AEDJLOFACHD_DJNALDADGEL_NIEADFOCLEC_OFFSET UNITYSDK_OFFSET(0x143460D0)
+#define AEDJLOFACHD_DJNALDADGEL_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MOLEMOLE_GAMEPADNAVIGATIONGROUP__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x14346700)
+#define AEDJLOFACHD_DJNALDADGEL_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_MOLEMOLE_GAMEPADNAVIGATIONGROUP__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14346690)
+#define AEDJLOFACHD_DJNALDADGEL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x14346780)
+#define AEDJLOFACHD_DJNALDADGEL_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x143466F0)
+#define AEDJLOFACHD_DJNALDADGEL_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x143466A0)
+#define AEDJLOFACHD_DJNALDADGEL_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14345F60)
+#define AEDJLOFACHD_DJNALDADGEL__CTOR_OFFSET UNITYSDK_OFFSET(0x14345F40)
+
+inline static constexpr unsigned int AEDJLOFACHD_DJNALDADGEL_TypeDefinitionIndex = 44169;
+
+class AEDJLOFACHD_DJNALDADGEL : public ::System::Object
+{
+public:
+	::System::Collections::Generic::IEnumerator_1<::AEDJLOFACHD*>* CNCDBBAMLPL; // 0x10
+	::AEDJLOFACHD* IDBEJJEKGDI; // 0x18
+	::AEDJLOFACHD* KLHPEBKNIFB; // 0x20
+	::System::Object* GHANCJDIDBC; // 0x28
+	::System::Byte _padding0[0x10];
+	::System::Int32 MDPILDGFNHN; // 0x40
+	::System::Int32 FPDDAGHMOJB; // 0x44
+
+	::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AEDJLOFACHD_DJNALDADGEL__CTOR_OFFSET))(this, MDPILDGFNHN);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AEDJLOFACHD_DJNALDADGEL_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AEDJLOFACHD_DJNALDADGEL_MOVENEXT_OFFSET))(this);
+	}
+
+	::AEDJLOFACHD* System_Collections_Generic_IEnumerator_MoleMole_GamepadNavigationGroup__get_Current()
+	{
+		return ((::AEDJLOFACHD*(*)(::PVOID))((::PBYTE)hIl2Cpp + AEDJLOFACHD_DJNALDADGEL_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_MOLEMOLE_GAMEPADNAVIGATIONGROUP__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AEDJLOFACHD_DJNALDADGEL_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + AEDJLOFACHD_DJNALDADGEL_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IEnumerator_1<::AEDJLOFACHD*>* System_Collections_Generic_IEnumerable_MoleMole_GamepadNavigationGroup__GetEnumerator()
+	{
+		return ((::System::Collections::Generic::IEnumerator_1<::AEDJLOFACHD*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + AEDJLOFACHD_DJNALDADGEL_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MOLEMOLE_GAMEPADNAVIGATIONGROUP__GETENUMERATOR_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+	{
+		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + AEDJLOFACHD_DJNALDADGEL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+	}
+
+	::System::Void JPCPBBAMDGJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AEDJLOFACHD_DJNALDADGEL_JPCPBBAMDGJ_OFFSET))(this);
+	}
+
+	::System::Void NIEADFOCLEC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AEDJLOFACHD_DJNALDADGEL_NIEADFOCLEC_OFFSET))(this);
+	}
+};

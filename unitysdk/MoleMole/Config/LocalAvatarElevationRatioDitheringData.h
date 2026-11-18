@@ -6,16 +6,17 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LocalAvatarElevationRatioDitheringData_TypeDefinitionIndex = 88585;
+	inline static constexpr unsigned int LocalAvatarElevationRatioDitheringData_TypeDefinitionIndex = 80756;
 
 	struct alignas(8) LocalAvatarElevationRatioDitheringData
 	{
 		static ::MoleMole::Config::LocalAvatarElevationRatioDitheringData* StaticGet_Default()
 		{
-			return (::MoleMole::Config::LocalAvatarElevationRatioDitheringData*)Il2CppClass::FromTypeDefinitionIndex(LocalAvatarElevationRatioDitheringData_TypeDefinitionIndex)->GetStaticField(0x30C40);
+			return (::MoleMole::Config::LocalAvatarElevationRatioDitheringData*)Il2CppClass::FromTypeDefinitionIndex(LocalAvatarElevationRatioDitheringData_TypeDefinitionIndex)->GetStaticField(0x466E0);
 		}
 		::System::Boolean IsUseCamElevationRatio; // 0x10
 		::System::Boolean IsOnlyMainCityAvatar; // 0x11
+		::System::Byte _padding0[0x6];
 		::UnityEngine::AnimationCurve* CamElevationRatioCurve; // 0x18
 		::UnityEngine::AnimationCurve* CamRotationRatioCurve; // 0x20
 		::System::Single DitherMaxRoatationX; // 0x28

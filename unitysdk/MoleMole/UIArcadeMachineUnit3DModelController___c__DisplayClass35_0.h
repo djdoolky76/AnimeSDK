@@ -6,20 +6,20 @@ namespace MoleMole { class IVideoPlayer; }
 namespace MoleMole { class UIArcadeMachineUnit3DModelController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIARCADEMACHINEUNIT3DMODELCONTROLLER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189506F0)
-#define MOLEMOLE_UIARCADEMACHINEUNIT3DMODELCONTROLLER___C__DISPLAYCLASS35_0__DELAYSWITCHNEARSCREEN_B__0_OFFSET UNITYSDK_OFFSET(0x18950700)
-#define MOLEMOLE_UIARCADEMACHINEUNIT3DMODELCONTROLLER___C__DISPLAYCLASS35_0__DELAYSWITCHNEARSCREEN_B__1_OFFSET UNITYSDK_OFFSET(0x18950790)
+#define MOLEMOLE_UIARCADEMACHINEUNIT3DMODELCONTROLLER___C__DISPLAYCLASS35_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17EA7AF0)
+#define MOLEMOLE_UIARCADEMACHINEUNIT3DMODELCONTROLLER___C__DISPLAYCLASS35_0__DELAYSWITCHNEARSCREEN_B__0_OFFSET UNITYSDK_OFFSET(0x17EA7B00)
+#define MOLEMOLE_UIARCADEMACHINEUNIT3DMODELCONTROLLER___C__DISPLAYCLASS35_0__DELAYSWITCHNEARSCREEN_B__1_OFFSET UNITYSDK_OFFSET(0x17EA7B90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadeMachineUnit3DModelController___c__DisplayClass35_0_TypeDefinitionIndex = 72346;
+	inline static constexpr unsigned int UIArcadeMachineUnit3DModelController___c__DisplayClass35_0_TypeDefinitionIndex = 85799;
 
 	class UIArcadeMachineUnit3DModelController___c__DisplayClass35_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::IVideoPlayer* vp; // 0x10
-		::MoleMole::UIArcadeMachineUnit3DModelController* __4__this; // 0x18
-		::System::Action* __9__1; // 0x20
+		::MoleMole::UIArcadeMachineUnit3DModelController* __4__this; // 0x10
+		::System::Action* __9__1; // 0x18
+		::MoleMole::IVideoPlayer* vp; // 0x20
 
 		::System::Void _ctor()
 		{

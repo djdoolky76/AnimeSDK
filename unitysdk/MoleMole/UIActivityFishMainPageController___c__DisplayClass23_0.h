@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_1824EF69C8E376A3;
-class Class_3_1699D6295DC3F818_1;
+class BPHGNMNLLHF;
+class PLDJFGCHMKK;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E0D600)
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__REFRESHAVATARREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x18E0D610)
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__REFRESHAVATARREWARD_G__ONINFOBTNCLICK_1_OFFSET UNITYSDK_OFFSET(0x18E0D720)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11E5A0)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__REFRESHAVATARREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x1A11E5B0)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__REFRESHAVATARREWARD_G__ONINFOBTNCLICK_1_OFFSET UNITYSDK_OFFSET(0x1A11E6C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityFishMainPageController___c__DisplayClass23_0_TypeDefinitionIndex = 61344;
+	inline static constexpr unsigned int UIActivityFishMainPageController___c__DisplayClass23_0_TypeDefinitionIndex = 46849;
 
 	class UIActivityFishMainPageController___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_2_1824EF69C8E376A3*>* avatarItemList; // 0x10
-		::Class_3_1699D6295DC3F818_1* reward; // 0x18
+		::PLDJFGCHMKK* reward; // 0x10
+		::System::Collections::Generic::List_1<::BPHGNMNLLHF*>* avatarItemList; // 0x18
 
 		::System::Void _ctor()
 		{

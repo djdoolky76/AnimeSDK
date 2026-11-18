@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MessagePack::Internal { class DynamicObjectTypeBuilder___c__DisplayClass3_3; }
 namespace System::Reflection { class FieldInfo; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4__BUILDTYPE_B__4_OFFSET UNITYSDK_OFFSET(0x1E7ACF10)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7ACF00)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4__BUILDTYPE_B__4_OFFSET UNITYSDK_OFFSET(0x1EA5DFD0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_4__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5DFC0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_4_TypeDefinitionIndex = 31059;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_4_TypeDefinitionIndex = 30630;
 
+	template <typename T1, typename T2, typename T3, typename T4>
 	class DynamicObjectTypeBuilder___c__DisplayClass3_4 : public ::System::Object
 	{
 	public:
-		::System::Reflection::FieldInfo* fi; // 0x10
-		::MessagePack::Internal::DynamicObjectTypeBuilder___c__DisplayClass3_3* CS___8__locals4; // 0x18
+		::System::Object* CS___8__locals4; // 0x10
+		::System::Reflection::FieldInfo* fi; // 0x18
 
 		::System::Void _ctor()
 		{

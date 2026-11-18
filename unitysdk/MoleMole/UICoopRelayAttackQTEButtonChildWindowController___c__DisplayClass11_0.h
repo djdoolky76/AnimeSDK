@@ -5,12 +5,12 @@
 namespace MoleMole { class UICoopRelayAttackQTEButtonChildWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UICOOPRELAYATTACKQTEBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA57E0)
-#define MOLEMOLE_UICOOPRELAYATTACKQTEBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS11_0__PLAYFADEOUTANIM_B__0_OFFSET UNITYSDK_OFFSET(0x19AA57F0)
+#define MOLEMOLE_UICOOPRELAYATTACKQTEBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A375CA0)
+#define MOLEMOLE_UICOOPRELAYATTACKQTEBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS11_0__PLAYFADEOUTANIM_B__0_OFFSET UNITYSDK_OFFSET(0x1A375CB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopRelayAttackQTEButtonChildWindowController___c__DisplayClass11_0_TypeDefinitionIndex = 82914;
+	inline static constexpr unsigned int UICoopRelayAttackQTEButtonChildWindowController___c__DisplayClass11_0_TypeDefinitionIndex = 88310;
 
 	class UICoopRelayAttackQTEButtonChildWindowController___c__DisplayClass11_0 : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EModifierTimeScale_TypeDefinitionIndex = 11289;
+	inline static constexpr unsigned int EModifierTimeScale_TypeDefinitionIndex = 10198;
 
 	enum class EModifierTimeScale : ::System::Int16
 	{
 		Owner = 0,
-		Caster = 1,
 		Level = 2,
+		Caster = 1,
 	};
 }

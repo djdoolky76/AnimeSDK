@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x149E77A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x149E7880)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x149E78C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x130D7880)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x130D7960)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_INLEVELINTERACTIONFEEDBACK__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x130D79A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_InLevelInteractionFeedback_TypeDefinitionIndex = 85561;
+	inline static constexpr unsigned int LD_InLevelInteractionFeedback_TypeDefinitionIndex = 49381;
 
 	class LD_InLevelInteractionFeedback : public ::FlowCanvas::Nodes::FlowControlNode
 	{

@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GMEHEELDCAA_OPCNFHFMKMJ.h"
+#include "unitysdk/System/Object.h"
+
+class GMEHEELDCAA;
+
+#define GMEHEELDCAA_LOFOFBDMEPB_ABBNNCDFJIH_OFFSET UNITYSDK_OFFSET(0x15D77600)
+#define GMEHEELDCAA_LOFOFBDMEPB_JKNLACGNLJE_OFFSET UNITYSDK_OFFSET(0x15D77590)
+#define GMEHEELDCAA_LOFOFBDMEPB__CTOR_OFFSET UNITYSDK_OFFSET(0x15D77580)
+
+inline static constexpr unsigned int GMEHEELDCAA_LOFOFBDMEPB_TypeDefinitionIndex = 48431;
+
+class GMEHEELDCAA_LOFOFBDMEPB : public ::System::Object
+{
+public:
+	::GMEHEELDCAA* KLHPEBKNIFB; // 0x10
+	::GMEHEELDCAA_OPCNFHFMKMJ JGHGJHCPIEN; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GMEHEELDCAA_LOFOFBDMEPB__CTOR_OFFSET))(this);
+	}
+
+	::System::Void JKNLACGNLJE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GMEHEELDCAA_LOFOFBDMEPB_JKNLACGNLJE_OFFSET))(this);
+	}
+
+	::System::Boolean ABBNNCDFJIH(::GMEHEELDCAA_OPCNFHFMKMJ LCGFJLBOCKF)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::GMEHEELDCAA_OPCNFHFMKMJ))((::PBYTE)hIl2Cpp + GMEHEELDCAA_LOFOFBDMEPB_ABBNNCDFJIH_OFFSET))(this, LCGFJLBOCKF);
+	}
+};

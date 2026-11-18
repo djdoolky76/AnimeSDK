@@ -2,26 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NodeCanvas/Framework/Internal/ReflectedFunctionWrapper.h"
 
-namespace NodeCanvas::Framework { class BBParameter; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace ParadoxNotion { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7> class FunctionCall_7; }
-namespace System { class Object; }
 
 namespace NodeCanvas::Framework::Internal
 {
-	inline static constexpr unsigned int ReflectedFunction_7_TypeDefinitionIndex = 30384;
+	inline static constexpr unsigned int ReflectedFunction_7_TypeDefinitionIndex = 30722;
 
-	template <typename TResult, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class ReflectedFunction_7 : public ::NodeCanvas::Framework::Internal::ReflectedFunctionWrapper
 	{
 	public:
-		::ParadoxNotion::FunctionCall_7<T1, T2, T3, T4, T5, T6, TResult>* call; // 0x0
+		::ParadoxNotion::FunctionCall_7<T1, T2, T3, T4, T5, T6, T7>* call; // 0x0
 		::NodeCanvas::Framework::BBParameter_1<T1>* p1; // 0x0
 		::NodeCanvas::Framework::BBParameter_1<T2>* p2; // 0x0
 		::NodeCanvas::Framework::BBParameter_1<T3>* p3; // 0x0
 		::NodeCanvas::Framework::BBParameter_1<T4>* p4; // 0x0
 		::NodeCanvas::Framework::BBParameter_1<T5>* p5; // 0x0
 		::NodeCanvas::Framework::BBParameter_1<T6>* p6; // 0x0
-		::NodeCanvas::Framework::BBParameter_1<TResult>* result; // 0x0
+		::NodeCanvas::Framework::BBParameter_1<T7>* result; // 0x0
 	};
 }

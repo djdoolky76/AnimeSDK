@@ -3,15 +3,16 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_UPDATEPOINTJOBLEGACY_EXECUTE_OFFSET UNITYSDK_OFFSET(0x7C0C60)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_UPDATEPOINTJOBLEGACY_EXECUTE_OFFSET UNITYSDK_OFFSET(0x74C5D0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCCrowdSpawnManager_UpdatePointJobLegacy_TypeDefinitionIndex = 48992;
+	inline static constexpr unsigned int NPCCrowdSpawnManager_UpdatePointJobLegacy_TypeDefinitionIndex = 43257;
 
 	struct alignas(8) NPCCrowdSpawnManager_UpdatePointJobLegacy
 	{
 		::Unity::Collections::NativeArray_1<::System::Int32> spawnPointKey; // 0x10
+		::System::Byte _padding0[0x8];
 		::System::Single deltaTime; // 0x20
 
 		::System::Void Execute(::System::Int32 index)

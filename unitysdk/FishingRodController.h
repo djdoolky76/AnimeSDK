@@ -6,14 +6,14 @@
 
 namespace UnityEngine { class Transform; }
 
-#define FISHINGRODCONTROLLER_BLENDTO_OFFSET UNITYSDK_OFFSET(0x14D73FD0)
-#define FISHINGRODCONTROLLER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x14D72B30)
-#define FISHINGRODCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x14D730F0)
-#define FISHINGRODCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x14D730A0)
-#define FISHINGRODCONTROLLER_TRYINITIALIZE_OFFSET UNITYSDK_OFFSET(0x14D72C80)
-#define FISHINGRODCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x14D74040)
+#define FISHINGRODCONTROLLER_BLENDTO_OFFSET UNITYSDK_OFFSET(0x1411C400)
+#define FISHINGRODCONTROLLER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1411AF60)
+#define FISHINGRODCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1411B520)
+#define FISHINGRODCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x1411B4D0)
+#define FISHINGRODCONTROLLER_TRYINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1411B0B0)
+#define FISHINGRODCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1411C470)
 
-inline static constexpr unsigned int FishingRodController_TypeDefinitionIndex = 57003;
+inline static constexpr unsigned int FishingRodController_TypeDefinitionIndex = 81012;
 
 class FishingRodController : public ::UnityEngine::MonoBehaviour
 {
@@ -29,10 +29,12 @@ public:
 	::System::Single ForceThreshold; // 0x48
 	::System::Single AngleThreashold; // 0x4C
 	::System::Boolean initialized; // 0x50
+	::System::Byte _padding0[0x3];
 	::UnityEngine::Vector3 rodBindVec; // 0x54
 	::UnityEngine::Quaternion rodStartBindRot; // 0x60
 	::UnityEngine::Quaternion rodMiddleBindRot; // 0x70
 	::System::Boolean enableIk; // 0x80
+	::System::Byte _padding1[0x3];
 	::System::Single realBlendRate; // 0x84
 	::System::Single blendToSeconds; // 0x88
 

@@ -12,44 +12,45 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class RawImage; }
 namespace UnityEngine::UI { class Text; }
 
-#define MONOUIPAINTING_DOENDDRAW_OFFSET UNITYSDK_OFFSET(0x12B35FB0)
-#define MONOUIPAINTING_DOPROCESSDRAW_OFFSET UNITYSDK_OFFSET(0x12B35DD0)
-#define MONOUIPAINTING_DOSTARTDRAW_OFFSET UNITYSDK_OFFSET(0x12B35F40)
-#define MONOUIPAINTING_DRAWBYGAMEPADJOYSTICK_OFFSET UNITYSDK_OFFSET(0x12B35410)
-#define MONOUIPAINTING_DRAW_OFFSET UNITYSDK_OFFSET(0x12B361F0)
-#define MONOUIPAINTING_FILLRENDERTEXTUREWITHBG_OFFSET UNITYSDK_OFFSET(0x12B34F40)
-#define MONOUIPAINTING_FULLPROGRESS_OFFSET UNITYSDK_OFFSET(0x12B33BA0)
-#define MONOUIPAINTING_GET_MESH_OFFSET UNITYSDK_OFFSET(0x12B33F00)
-#define MONOUIPAINTING_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x12B33B90)
-#define MONOUIPAINTING_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12B34E50)
-#define MONOUIPAINTING_ONDRAG_OFFSET UNITYSDK_OFFSET(0x12B36C90)
-#define MONOUIPAINTING_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x12B36000)
-#define MONOUIPAINTING_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x12B36E40)
-#define MONOUIPAINTING_REFRESHRENDERTEXTURE_OFFSET UNITYSDK_OFFSET(0x12B35150)
-#define MONOUIPAINTING_RESETIMAGE_OFFSET UNITYSDK_OFFSET(0x12B34C90)
-#define MONOUIPAINTING_SETUP_OFFSET UNITYSDK_OFFSET(0x12B34420)
-#define MONOUIPAINTING_START_OFFSET UNITYSDK_OFFSET(0x12B343C0)
-#define MONOUIPAINTING__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B36F70)
-#define MONOUIPAINTING__CTOR_OFFSET UNITYSDK_OFFSET(0x12B36EC0)
+#define MONOUIPAINTING_DOENDDRAW_OFFSET UNITYSDK_OFFSET(0x13EC1EA0)
+#define MONOUIPAINTING_DOPROCESSDRAW_OFFSET UNITYSDK_OFFSET(0x13EC1CC0)
+#define MONOUIPAINTING_DOSTARTDRAW_OFFSET UNITYSDK_OFFSET(0x13EC1E30)
+#define MONOUIPAINTING_DRAWBYGAMEPADJOYSTICK_OFFSET UNITYSDK_OFFSET(0x13EC1300)
+#define MONOUIPAINTING_DRAW_OFFSET UNITYSDK_OFFSET(0x13EC20E0)
+#define MONOUIPAINTING_FILLRENDERTEXTUREWITHBG_OFFSET UNITYSDK_OFFSET(0x13EC0E30)
+#define MONOUIPAINTING_FULLPROGRESS_OFFSET UNITYSDK_OFFSET(0x13EBFA90)
+#define MONOUIPAINTING_GET_MESH_OFFSET UNITYSDK_OFFSET(0x13EBFDF0)
+#define MONOUIPAINTING_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x13EBFA80)
+#define MONOUIPAINTING_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13EC0D40)
+#define MONOUIPAINTING_ONDRAG_OFFSET UNITYSDK_OFFSET(0x13EC2B80)
+#define MONOUIPAINTING_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x13EC1EF0)
+#define MONOUIPAINTING_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x13EC2D30)
+#define MONOUIPAINTING_REFRESHRENDERTEXTURE_OFFSET UNITYSDK_OFFSET(0x13EC1040)
+#define MONOUIPAINTING_RESETIMAGE_OFFSET UNITYSDK_OFFSET(0x13EC0B80)
+#define MONOUIPAINTING_SETUP_OFFSET UNITYSDK_OFFSET(0x13EC0310)
+#define MONOUIPAINTING_START_OFFSET UNITYSDK_OFFSET(0x13EC02B0)
+#define MONOUIPAINTING__CCTOR_OFFSET UNITYSDK_OFFSET(0x13EC2E60)
+#define MONOUIPAINTING__CTOR_OFFSET UNITYSDK_OFFSET(0x13EC2DB0)
 
-inline static constexpr unsigned int MonoUIPainting_TypeDefinitionIndex = 72030;
+inline static constexpr unsigned int MonoUIPainting_TypeDefinitionIndex = 90160;
 
 class MonoUIPainting : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::UnityEngine::Mesh** StaticGet_mesh()
 	{
-		return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(MonoUIPainting_TypeDefinitionIndex)->GetStaticField(0x47490);
+		return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(MonoUIPainting_TypeDefinitionIndex)->GetStaticField(0x4C660);
 	}
 	static ::System::Int32* StaticGet__ScaleOffset()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoUIPainting_TypeDefinitionIndex)->GetStaticField(0x10910);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoUIPainting_TypeDefinitionIndex)->GetStaticField(0x11B30);
 	}
 	static ::System::Int32* StaticGet__MainTex()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoUIPainting_TypeDefinitionIndex)->GetStaticField(0x10914);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoUIPainting_TypeDefinitionIndex)->GetStaticField(0x11B34);
 	}
 	::System::Single MaxClearProgress; // 0x18
+	::System::Byte _padding0[0x4];
 	::UnityEngine::UI::RawImage* rawImage; // 0x20
 	::UnityEngine::UI::Text* text; // 0x28
 	::UnityEngine::Texture2D* bg; // 0x30
@@ -59,12 +60,14 @@ public:
 	::System::Single insertInterval; // 0x4C
 	::UnityEngine::RenderTexture* renderTexture; // 0x50
 	::System::Boolean isDrawing; // 0x58
+	::System::Byte _padding1[0x7];
 	::Il2CppArray<::System::Boolean>* flagMasks; // 0x60
 	::System::Int32 maskCount; // 0x68
 	::UnityEngine::Vector2 previousLocalPosition; // 0x6C
 	::System::Single brushWidth; // 0x74
 	::System::Single brushHeight; // 0x78
 	::UnityEngine::Vector2 textAreaPixelSize; // 0x7C
+	::System::Byte _padding2[0x4];
 	::UnityEngine::Texture2D* brushTexture; // 0x88
 	::UnityEngine::Camera* canvasCamera; // 0x90
 	::UnityEngine::Vector2 previousGamepadAxisValue; // 0x98

@@ -4,9 +4,9 @@
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int LogChannel_EmptyLogChannel_TypeDefinitionIndex = 34586;
+	inline static constexpr unsigned int LogChannel_EmptyLogChannel_TypeDefinitionIndex = 34132;
 
-	struct alignas(1) LogChannel_EmptyLogChannel
+	struct alignas(4) LogChannel_EmptyLogChannel
 	{
 	};
 }

@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastLevelWidgetController_LevelIconState_TypeDefinitionIndex = 49696;
+	inline static constexpr unsigned int UIOverlordFeastLevelWidgetController_LevelIconState_TypeDefinitionIndex = 56078;
 
 	enum class UIOverlordFeastLevelWidgetController_LevelIconState : ::System::Int32
 	{
-		Gold = 2,
 		Copper = 0,
 		Silver = 1,
+		Gold = 2,
 	};
 }

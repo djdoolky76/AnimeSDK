@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Coroutine/CoroutineHandle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/Coroutine/CoroutineHandle.h"
 
 namespace System { class Action; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define FOUNDATION_COROUTINE_DEFER_DEFERFRAMESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4BD930)
-#define FOUNDATION_COROUTINE_DEFER_DEFERSECONDSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4BDAE0)
-#define FOUNDATION_COROUTINE_DEFER_FRAMES_OFFSET UNITYSDK_OFFSET(0x1F4BD810)
-#define FOUNDATION_COROUTINE_DEFER_RUNCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1F4BDB70)
-#define FOUNDATION_COROUTINE_DEFER_SECONDS_OFFSET UNITYSDK_OFFSET(0x1F4BD9B0)
+#define FOUNDATION_COROUTINE_DEFER_DEFERFRAMESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F37C620)
+#define FOUNDATION_COROUTINE_DEFER_DEFERSECONDSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F37C7D0)
+#define FOUNDATION_COROUTINE_DEFER_FRAMES_OFFSET UNITYSDK_OFFSET(0x1F37C500)
+#define FOUNDATION_COROUTINE_DEFER_RUNCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1F37C860)
+#define FOUNDATION_COROUTINE_DEFER_SECONDS_OFFSET UNITYSDK_OFFSET(0x1F37C6A0)
 
 namespace Foundation::Coroutine
 {
-	inline static constexpr unsigned int Defer_TypeDefinitionIndex = 7907;
+	inline static constexpr unsigned int Defer_TypeDefinitionIndex = 8677;
 
 	class Defer : public ::System::Object
 	{

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
 
 namespace UnityEngine { class Transform; }
 
-#define MONODETECTCOLLIDER_LOOKAROUND_OFFSET UNITYSDK_OFFSET(0x1FB7D8D0)
-#define MONODETECTCOLLIDER_LOOK_OFFSET UNITYSDK_OFFSET(0x1FB7D830)
-#define MONODETECTCOLLIDER_START_OFFSET UNITYSDK_OFFSET(0x1FB7D320)
-#define MONODETECTCOLLIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FB7D330)
-#define MONODETECTCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7DEE0)
+#define MONODETECTCOLLIDER_LOOKAROUND_OFFSET UNITYSDK_OFFSET(0x1FF7E520)
+#define MONODETECTCOLLIDER_LOOK_OFFSET UNITYSDK_OFFSET(0x1FF7E480)
+#define MONODETECTCOLLIDER_START_OFFSET UNITYSDK_OFFSET(0x1FF7DF70)
+#define MONODETECTCOLLIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FF7DF80)
+#define MONODETECTCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF7EB30)
 
-inline static constexpr unsigned int MonoDetectCollider_TypeDefinitionIndex = 94994;
+inline static constexpr unsigned int MonoDetectCollider_TypeDefinitionIndex = 96675;
 
 class MonoDetectCollider : public ::UnityEngine::MonoBehaviour
 {

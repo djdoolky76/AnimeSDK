@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int REGION_TypeDefinitionIndex = 20201;
+	inline static constexpr unsigned int REGION_TypeDefinitionIndex = 19347;
 
 	enum class REGION : ::System::Int32
 	{

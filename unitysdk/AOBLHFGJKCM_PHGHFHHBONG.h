@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AOBLHFGJKCM_ONEPNIDCMEG;
+class ILMFMBEMMFG;
+class MCNGCOMDBFF;
+namespace System { template <typename T> class Action_1; }
+namespace System { template <typename T> class Func_1; }
+
+#define AOBLHFGJKCM_PHGHFHHBONG_JAABDILPHIP_OFFSET UNITYSDK_OFFSET(0x1FF64E50)
+#define AOBLHFGJKCM_PHGHFHHBONG_MMECNEMDMLP_OFFSET UNITYSDK_OFFSET(0x1FF64EE0)
+#define AOBLHFGJKCM_PHGHFHHBONG__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF64E40)
+
+inline static constexpr unsigned int AOBLHFGJKCM_PHGHFHHBONG_TypeDefinitionIndex = 28928;
+
+class AOBLHFGJKCM_PHGHFHHBONG : public ::System::Object
+{
+public:
+	::System::Action_1<::ILMFMBEMMFG*>* KENKJGPIIHK; // 0x10
+	::System::Func_1<::ILMFMBEMMFG*>* EFHLBKOBIAC; // 0x18
+	::AOBLHFGJKCM_ONEPNIDCMEG* IKILJKBJDEL; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOBLHFGJKCM_PHGHFHHBONG__CTOR_OFFSET))(this);
+	}
+
+	::System::Void JAABDILPHIP(::ILMFMBEMMFG* CBLGCIFLMKL)
+	{
+		return ((::System::Void(*)(::PVOID, ::ILMFMBEMMFG*))((::PBYTE)hIl2Cpp + AOBLHFGJKCM_PHGHFHHBONG_JAABDILPHIP_OFFSET))(this, CBLGCIFLMKL);
+	}
+
+	::ILMFMBEMMFG* MMECNEMDMLP(::MCNGCOMDBFF* EJCBEJMGFAJ, ::MCNGCOMDBFF* EBFCACIEKBC)
+	{
+		return ((::ILMFMBEMMFG*(*)(::PVOID, ::MCNGCOMDBFF*, ::MCNGCOMDBFF*))((::PBYTE)hIl2Cpp + AOBLHFGJKCM_PHGHFHHBONG_MMECNEMDMLP_OFFSET))(this, EJCBEJMGFAJ, EBFCACIEKBC);
+	}
+};

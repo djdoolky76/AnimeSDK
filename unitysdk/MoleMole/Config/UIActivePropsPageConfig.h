@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_CONFIG_UIACTIVEPROPSPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF7A00)
+#define MOLEMOLE_CONFIG_UIACTIVEPROPSPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A772490)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int UIActivePropsPageConfig_TypeDefinitionIndex = 51491;
+	inline static constexpr unsigned int UIActivePropsPageConfig_TypeDefinitionIndex = 90678;
 
 	class UIActivePropsPageConfig : public ::UnityEngine::MonoBehaviour
 	{

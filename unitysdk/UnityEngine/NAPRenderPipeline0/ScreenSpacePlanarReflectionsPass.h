@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderTargetHandle.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
-#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
+#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -18,15 +18,15 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACEPLANARREFLECTIONSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EE26890)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACEPLANARREFLECTIONSPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EE29750)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACEPLANARREFLECTIONSPASS_GETRENDERTARGETRESOURCE_OFFSET UNITYSDK_OFFSET(0x1EE25CD0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACEPLANARREFLECTIONSPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1EE25CB0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACEPLANARREFLECTIONSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE25960)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACEPLANARREFLECTIONSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F18D140)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACEPLANARREFLECTIONSPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1F190000)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACEPLANARREFLECTIONSPASS_GETRENDERTARGETRESOURCE_OFFSET UNITYSDK_OFFSET(0x1F18C580)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACEPLANARREFLECTIONSPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1F18C560)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACEPLANARREFLECTIONSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F18C210)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ScreenSpacePlanarReflectionsPass_TypeDefinitionIndex = 5839;
+	inline static constexpr unsigned int ScreenSpacePlanarReflectionsPass_TypeDefinitionIndex = 5845;
 
 	class ScreenSpacePlanarReflectionsPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
@@ -34,6 +34,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::String* profileTag; // 0xA8
 		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* mProfilingSampler; // 0xB0
 		::System::Int32 COMPUTEBUFFER_STRIDE; // 0xB8
+		::System::Byte _padding0[0x4];
 		::UnityEngine::ComputeShader* m_PixelIndexedCS; // 0xC0
 		::System::Int32 PixelProjectedReflectionClearKernel; // 0xC8
 		::System::Int32 PixelProjectedReflectionKernel; // 0xCC
@@ -47,9 +48,11 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Int32 m_frameCount; // 0x188
 		::System::Boolean m_useSsprTemporalFilter; // 0x18C
 		::System::Boolean m_useSsprFinalColorFilter; // 0x18D
+		::System::Byte _padding1[0x2];
 		::UnityEngine::Vector2Int m_SSPRHistoryRTsSize; // 0x190
 		::Il2CppArray<::UnityEngine::RenderTexture*>* m_SSPRHistoryRTs; // 0x198
 		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_SSPRRenderTexture; // 0x1A0
+		::System::Byte _padding2[0x4];
 		::UnityEngine::ComputeBuffer* m_SSPRPackedDataBuffer; // 0x1A8
 		::UnityEngine::ComputeBuffer* m_SSPRPackedFillHoleBuffer; // 0x1B0
 		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_SSPRHeightRT; // 0x1B8
@@ -59,6 +62,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Single m_PlaneHeightWS; // 0x1D4
 		::System::Single m_TaauScale; // 0x1D8
 		::System::Boolean m_TaaUseLdrFormat; // 0x1DC
+		::System::Byte _padding3[0x3];
 		::Il2CppArray<::UnityEngine::RenderTexture*>* m_TempRTs; // 0x1E0
 
 		::System::Void _ctor(::System::String* profilerTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventConfig, ::UnityEngine::ComputeShader* computeShader)

@@ -2,15 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Rect.h"
 
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LINE_GETLINECOEFFICIENTS_OFFSET UNITYSDK_OFFSET(0x9A2FD0)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LINE_INTERSECTION_OFFSET UNITYSDK_OFFSET(0x1D5D5F10)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LINE_NORMALIZEINRECT_OFFSET UNITYSDK_OFFSET(0x9A3060)
-#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LINE__CTOR_OFFSET UNITYSDK_OFFSET(0x9A2F80)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LINE_GETLINECOEFFICIENTS_OFFSET UNITYSDK_OFFSET(0x8BD9E0)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LINE_INTERSECTION_OFFSET UNITYSDK_OFFSET(0x1D64A8A0)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LINE_NORMALIZEINRECT_OFFSET UNITYSDK_OFFSET(0x8BDA70)
+#define UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LINE__CTOR_OFFSET UNITYSDK_OFFSET(0x8BD990)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UILinearTransition_Line_TypeDefinitionIndex = 65689;
+	inline static constexpr unsigned int UILinearTransition_Line_TypeDefinitionIndex = 77281;
 
 	struct alignas(4) UILinearTransition_Line
 	{
@@ -27,16 +28,16 @@ namespace UnityEngine::UI::Extension
 			return ((::System::Void(*)(::PVOID, ::System::Single&, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LINE_GETLINECOEFFICIENTS_OFFSET))(this, a, b, c);
 		}
 
+		/*
 		static ::System::Boolean Intersection(::UnityEngine::UI::Extension::UILinearTransition_Line line1, ::UnityEngine::UI::Extension::UILinearTransition_Line line2, ::UnityEngine::Vector2& point)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::UI::Extension::UILinearTransition_Line, ::UnityEngine::UI::Extension::UILinearTransition_Line, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LINE_INTERSECTION_OFFSET))(line1, line2, point);
 		}
+		*/
 
-		/*
 		::System::Void NormalizeInRect(::UnityEngine::Rect rect)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UILINEARTRANSITION_LINE_NORMALIZEINRECT_OFFSET))(this, rect);
 		}
-		*/
 	};
 }

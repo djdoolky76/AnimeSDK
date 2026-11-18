@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELHADALMSG_PREACTIVEROOMNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A99F6D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELHADALMSG_PREACTIVEROOMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A99F7E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELHADALMSG_PREACTIVEROOMNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D0F5E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELHADALMSG_PREACTIVEROOMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D0F6F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelHadalMsg_PreActiveRoomNode_TypeDefinitionIndex = 49527;
+	inline static constexpr unsigned int LDLevelHadalMsg_PreActiveRoomNode_TypeDefinitionIndex = 56612;
 
 	class LDLevelHadalMsg_PreActiveRoomNode : public ::FlowCanvas::Nodes::CallableActionNode
 	{

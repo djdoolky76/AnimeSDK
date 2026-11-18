@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define FLOWCANVAS_NODES_ANDMERGE_CHECK_OFFSET UNITYSDK_OFFSET(0x1DFC7070)
-#define FLOWCANVAS_NODES_ANDMERGE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1DFC6F70)
-#define FLOWCANVAS_NODES_ANDMERGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC7180)
+#define FLOWCANVAS_NODES_ANDMERGE_CHECK_OFFSET UNITYSDK_OFFSET(0x1E3F0120)
+#define FLOWCANVAS_NODES_ANDMERGE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1E3F0020)
+#define FLOWCANVAS_NODES_ANDMERGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F0230)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ANDMerge_TypeDefinitionIndex = 30992;
+	inline static constexpr unsigned int ANDMerge_TypeDefinitionIndex = 29785;
 
 	class ANDMerge : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::FlowOutput* fOut; // 0xA8
 		::Il2CppArray<::System::Int32>* calls; // 0xB0
-		::System::Int32 _portCount; // 0xB8
-		::System::Int32 lastFrameCall; // 0xBC
+		::System::Int32 lastFrameCall; // 0xB8
+		::System::Int32 _portCount; // 0xBC
 
 		::System::Void _ctor()
 		{

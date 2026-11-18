@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_LEVELGLOBALAIBTREEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4BD340)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAIBTREEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16544410)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelGlobalAIBTreeData_TypeDefinitionIndex = 60136;
+	inline static constexpr unsigned int LevelGlobalAIBTreeData_TypeDefinitionIndex = 64213;
 
 	class LevelGlobalAIBTreeData : public ::System::Object
 	{

@@ -17,69 +17,69 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class RectOffset; }
 
-#define LITJSON_UNITYTYPEBINDINGS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F026AE0)
-#define LITJSON_UNITYTYPEBINDINGS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F026B20)
-#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_0_OFFSET UNITYSDK_OFFSET(0x1F026B30)
-#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_11_OFFSET UNITYSDK_OFFSET(0x1F0271C0)
-#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_12_OFFSET UNITYSDK_OFFSET(0x1F0272D0)
-#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_1_OFFSET UNITYSDK_OFFSET(0x1F026B70)
-#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_2_OFFSET UNITYSDK_OFFSET(0x1F026C00)
-#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_4_OFFSET UNITYSDK_OFFSET(0x1F026CC0)
-#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_6_OFFSET UNITYSDK_OFFSET(0x1F026DA0)
-#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_7_OFFSET UNITYSDK_OFFSET(0x1F026EB0)
-#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_8_OFFSET UNITYSDK_OFFSET(0x1F026FC0)
-#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_9_OFFSET UNITYSDK_OFFSET(0x1F0270D0)
+#define LITJSON_UNITYTYPEBINDINGS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4E0840)
+#define LITJSON_UNITYTYPEBINDINGS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4E0880)
+#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_0_OFFSET UNITYSDK_OFFSET(0x1F4E0890)
+#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_11_OFFSET UNITYSDK_OFFSET(0x1F4E0F20)
+#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_12_OFFSET UNITYSDK_OFFSET(0x1F4E1030)
+#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_1_OFFSET UNITYSDK_OFFSET(0x1F4E08D0)
+#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_2_OFFSET UNITYSDK_OFFSET(0x1F4E0960)
+#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_4_OFFSET UNITYSDK_OFFSET(0x1F4E0A20)
+#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_6_OFFSET UNITYSDK_OFFSET(0x1F4E0B00)
+#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_7_OFFSET UNITYSDK_OFFSET(0x1F4E0C10)
+#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_8_OFFSET UNITYSDK_OFFSET(0x1F4E0D20)
+#define LITJSON_UNITYTYPEBINDINGS___C__REGISTER_B__1_9_OFFSET UNITYSDK_OFFSET(0x1F4E0E30)
 
 namespace LitJson
 {
-	inline static constexpr unsigned int UnityTypeBindings___c_TypeDefinitionIndex = 8332;
+	inline static constexpr unsigned int UnityTypeBindings___c_TypeDefinitionIndex = 7909;
 
 	class UnityTypeBindings___c : public ::System::Object
 	{
 	public:
-		static ::LitJson::ExporterFunc_1<::UnityEngine::RectOffset*>** StaticGet___9__1_12()
+		static ::System::Action_2<::UnityEngine::Vector2, ::LitJson::JsonWriter*>** StaticGet___9__1_2()
 		{
-			return (::LitJson::ExporterFunc_1<::UnityEngine::RectOffset*>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x7480);
-		}
-		static ::LitJson::ImporterFunc_2<::System::String*, ::System::Type*>** StaticGet___9__1_1()
-		{
-			return (::LitJson::ImporterFunc_2<::System::String*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x7488);
-		}
-		static ::LitJson::UnityTypeBindings___c** StaticGet___9()
-		{
-			return (::LitJson::UnityTypeBindings___c**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x7490);
+			return (::System::Action_2<::UnityEngine::Vector2, ::LitJson::JsonWriter*>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x6F50);
 		}
 		static ::LitJson::ExporterFunc_1<::UnityEngine::Quaternion>** StaticGet___9__1_7()
 		{
-			return (::LitJson::ExporterFunc_1<::UnityEngine::Quaternion>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x7498);
-		}
-		static ::LitJson::ExporterFunc_1<::System::Type*>** StaticGet___9__1_0()
-		{
-			return (::LitJson::ExporterFunc_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x74A0);
-		}
-		static ::System::Action_2<::UnityEngine::Vector2, ::LitJson::JsonWriter*>** StaticGet___9__1_2()
-		{
-			return (::System::Action_2<::UnityEngine::Vector2, ::LitJson::JsonWriter*>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x74A8);
-		}
-		static ::System::Action_2<::UnityEngine::Vector3, ::LitJson::JsonWriter*>** StaticGet___9__1_4()
-		{
-			return (::System::Action_2<::UnityEngine::Vector3, ::LitJson::JsonWriter*>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x74B0);
-		}
-		static ::LitJson::ExporterFunc_1<::UnityEngine::Vector4>** StaticGet___9__1_6()
-		{
-			return (::LitJson::ExporterFunc_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x74B8);
-		}
-		static ::LitJson::ExporterFunc_1<::UnityEngine::Color>** StaticGet___9__1_8()
-		{
-			return (::LitJson::ExporterFunc_1<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x74C0);
-		}
-		static ::LitJson::ExporterFunc_1<::UnityEngine::Rect>** StaticGet___9__1_11()
-		{
-			return (::LitJson::ExporterFunc_1<::UnityEngine::Rect>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x74C8);
+			return (::LitJson::ExporterFunc_1<::UnityEngine::Quaternion>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x6F58);
 		}
 		static ::LitJson::ExporterFunc_1<::UnityEngine::Color32>** StaticGet___9__1_9()
 		{
-			return (::LitJson::ExporterFunc_1<::UnityEngine::Color32>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x74D0);
+			return (::LitJson::ExporterFunc_1<::UnityEngine::Color32>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x6F60);
+		}
+		static ::LitJson::ImporterFunc_2<::System::String*, ::System::Type*>** StaticGet___9__1_1()
+		{
+			return (::LitJson::ImporterFunc_2<::System::String*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x6F68);
+		}
+		static ::LitJson::ExporterFunc_1<::UnityEngine::Rect>** StaticGet___9__1_11()
+		{
+			return (::LitJson::ExporterFunc_1<::UnityEngine::Rect>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x6F70);
+		}
+		static ::LitJson::ExporterFunc_1<::System::Type*>** StaticGet___9__1_0()
+		{
+			return (::LitJson::ExporterFunc_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x6F78);
+		}
+		static ::System::Action_2<::UnityEngine::Vector3, ::LitJson::JsonWriter*>** StaticGet___9__1_4()
+		{
+			return (::System::Action_2<::UnityEngine::Vector3, ::LitJson::JsonWriter*>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x6F80);
+		}
+		static ::LitJson::ExporterFunc_1<::UnityEngine::RectOffset*>** StaticGet___9__1_12()
+		{
+			return (::LitJson::ExporterFunc_1<::UnityEngine::RectOffset*>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x6F88);
+		}
+		static ::LitJson::ExporterFunc_1<::UnityEngine::Color>** StaticGet___9__1_8()
+		{
+			return (::LitJson::ExporterFunc_1<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x6F90);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x6F98);
+		}
+		static ::LitJson::ExporterFunc_1<::UnityEngine::Vector4>** StaticGet___9__1_6()
+		{
+			return (::LitJson::ExporterFunc_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(UnityTypeBindings___c_TypeDefinitionIndex)->GetStaticField(0x6FA0);
 		}
 
 		static ::System::Void _cctor()

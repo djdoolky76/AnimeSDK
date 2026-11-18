@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LowLevelUtils_TypeDefinitionIndex = 8734;
+	inline static constexpr unsigned int LowLevelUtils_TypeDefinitionIndex = 8964;
 
 	class LowLevelUtils : public ::System::Object
 	{

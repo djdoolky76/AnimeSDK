@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Cameras/FirstPersonCameraDefaultSetting.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CAMERAS_FIRSTPERSONCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1623AF70)
+#define MOLEMOLE_CAMERAS_FIRSTPERSONCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x107979B0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int FirstPersonCameraConfig_TypeDefinitionIndex = 63771;
+	inline static constexpr unsigned int FirstPersonCameraConfig_TypeDefinitionIndex = 47244;
 
 	class FirstPersonCameraConfig : public ::System::Object
 	{
@@ -20,6 +20,7 @@ namespace MoleMole::Cameras
 		::System::Single nearClipPlane; // 0x24
 		::MoleMole::Cameras::FirstPersonCameraDefaultSetting defaultSetting; // 0x28
 		::System::Boolean useYawLimit; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::Single minYawOffset; // 0x34
 		::System::Single maxYawOffset; // 0x38
 

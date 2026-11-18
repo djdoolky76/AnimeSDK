@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/SceneMark/SceneMarkData_1.h"
 
-#define MOLEMOLE_SCENEMARK_DOORMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x1385F600)
+#define MOLEMOLE_SCENEMARK_DOORMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x13A06040)
 
 namespace MoleMole::SceneMark
 {
-	inline static constexpr unsigned int DoorMark_TypeDefinitionIndex = 71388;
+	inline static constexpr unsigned int DoorMark_TypeDefinitionIndex = 59923;
 
-	class DoorMark : public ::MoleMole::SceneMark::SceneMarkData_1<::MoleMole::SceneMark::DoorMark*>
+	class DoorMark
 	{
 	public:
 		::System::Boolean IgnoreMonsterCollision; // 0x18

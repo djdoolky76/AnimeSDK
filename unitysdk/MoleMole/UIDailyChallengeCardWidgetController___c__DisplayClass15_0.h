@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_5DA2E7556103D5A3_366;
+class OFHNKCJACKL;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDailyChallengeCardWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 78196;
+	inline static constexpr unsigned int UIDailyChallengeCardWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 87811;
 
 	struct alignas(8) UIDailyChallengeCardWidgetController___c__DisplayClass15_0
 	{
-		::Class_1_5DA2E7556103D5A3_366* entranceConfig; // 0x10
+		::OFHNKCJACKL* entranceConfig; // 0x10
 	};
 }

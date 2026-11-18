@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/OIKGMKDLGAM.h"
+
+class AMCGMJGBPIJ;
+class FDOKNLPCNHO;
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+
+#define ODLBEJANMEG_HKLMDAMEMNH_EJILAEMKKMB_OFFSET UNITYSDK_OFFSET(0xFD654D0)
+#define ODLBEJANMEG_HKLMDAMEMNH_GOKEIDCLALH_OFFSET UNITYSDK_OFFSET(0xFD65530)
+#define ODLBEJANMEG_HKLMDAMEMNH_KJJFDCJKGOD_OFFSET UNITYSDK_OFFSET(0xFD65710)
+#define ODLBEJANMEG_HKLMDAMEMNH_KNDMMHPDPIB_OFFSET UNITYSDK_OFFSET(0xFD65640)
+#define ODLBEJANMEG_HKLMDAMEMNH_NBMIGHNMJFN_OFFSET UNITYSDK_OFFSET(0xFD65590)
+#define ODLBEJANMEG_HKLMDAMEMNH__CTOR_OFFSET UNITYSDK_OFFSET(0xFD65770)
+
+inline static constexpr unsigned int ODLBEJANMEG_HKLMDAMEMNH_TypeDefinitionIndex = 44383;
+
+class ODLBEJANMEG_HKLMDAMEMNH : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODLBEJANMEG_HKLMDAMEMNH__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean EJILAEMKKMB(::OIKGMKDLGAM MMBPHBBNGIF)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::OIKGMKDLGAM))((::PBYTE)hIl2Cpp + ODLBEJANMEG_HKLMDAMEMNH_EJILAEMKKMB_OFFSET))(this, MMBPHBBNGIF);
+	}
+
+	::AMCGMJGBPIJ* GOKEIDCLALH(::OIKGMKDLGAM HCDLIBBMENL)
+	{
+		return ((::AMCGMJGBPIJ*(*)(::PVOID, ::OIKGMKDLGAM))((::PBYTE)hIl2Cpp + ODLBEJANMEG_HKLMDAMEMNH_GOKEIDCLALH_OFFSET))(this, HCDLIBBMENL);
+	}
+
+	::System::Boolean NBMIGHNMJFN(::OIKGMKDLGAM MMBPHBBNGIF, ::System::Action_1<::System::Boolean>* CPCOBKCDFIF, ::FDOKNLPCNHO* BPGPPMDMKEK)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::OIKGMKDLGAM, ::System::Action_1<::System::Boolean>*, ::FDOKNLPCNHO*))((::PBYTE)hIl2Cpp + ODLBEJANMEG_HKLMDAMEMNH_NBMIGHNMJFN_OFFSET))(this, MMBPHBBNGIF, CPCOBKCDFIF, BPGPPMDMKEK);
+	}
+
+	::System::Boolean KJJFDCJKGOD(::System::Int32 HNOPAJLDCFB, ::System::String*& IMILJHBDOGJ)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::String*&))((::PBYTE)hIl2Cpp + ODLBEJANMEG_HKLMDAMEMNH_KJJFDCJKGOD_OFFSET))(this, HNOPAJLDCFB, IMILJHBDOGJ);
+	}
+
+	::System::Boolean KNDMMHPDPIB(::OIKGMKDLGAM MMBPHBBNGIF, ::System::Action_1<::System::Boolean>* CPCOBKCDFIF, ::FDOKNLPCNHO* BPGPPMDMKEK)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::OIKGMKDLGAM, ::System::Action_1<::System::Boolean>*, ::FDOKNLPCNHO*))((::PBYTE)hIl2Cpp + ODLBEJANMEG_HKLMDAMEMNH_KNDMMHPDPIB_OFFSET))(this, MMBPHBBNGIF, CPCOBKCDFIF, BPGPPMDMKEK);
+	}
+};

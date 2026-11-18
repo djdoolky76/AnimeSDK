@@ -5,9 +5,9 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PostProcessPass_Level_TypeDefinitionIndex = 26779;
+	inline static constexpr unsigned int PostProcessPass_Level_TypeDefinitionIndex = 26470;
 
-	struct alignas(8) PostProcessPass_Level
+	struct alignas(4) PostProcessPass_Level
 	{
 		::System::Int32 down; // 0x10
 		::System::Int32 blurred; // 0x14

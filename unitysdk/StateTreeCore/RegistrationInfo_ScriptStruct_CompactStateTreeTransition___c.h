@@ -2,22 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+namespace UnrealTypes { class Enum; }
 namespace UnrealTypes { class ICppStructOps; }
+namespace UnrealTypes { class ScriptStruct; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBE0FB0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBE0FF0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_0_OFFSET UNITYSDK_OFFSET(0x1FBE1000)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFBDF50)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFBDF90)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_0_OFFSET UNITYSDK_OFFSET(0x1FFBDFA0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_1_OFFSET UNITYSDK_OFFSET(0x1FFBE000)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_2_OFFSET UNITYSDK_OFFSET(0x1FFBE060)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_3_OFFSET UNITYSDK_OFFSET(0x1FFBE0C0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_4_OFFSET UNITYSDK_OFFSET(0x1FFBE120)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_5_OFFSET UNITYSDK_OFFSET(0x1FFBE180)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_6_OFFSET UNITYSDK_OFFSET(0x1FFBE1E0)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c_TypeDefinitionIndex = 31717;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c_TypeDefinitionIndex = 31155;
 
 	class RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c : public ::System::Object
 	{
 	public:
-		static ::StateTreeCore::RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::StateTreeCore::RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c_TypeDefinitionIndex)->GetStaticField(0x26C10);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CompactStateTreeTransition___c_TypeDefinitionIndex)->GetStaticField(0x27C50);
 		}
 
 		static ::System::Void _cctor()
@@ -30,9 +38,39 @@ namespace StateTreeCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C__CTOR_OFFSET))(this);
 		}
 
-		::UnrealTypes::ICppStructOps* __cctor_b__15_0()
+		::UnrealTypes::ScriptStruct* __cctor_b__15_0()
 		{
-			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_0_OFFSET))(this);
+			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_0_OFFSET))(this);
+		}
+
+		::UnrealTypes::ScriptStruct* __cctor_b__15_1()
+		{
+			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_1_OFFSET))(this);
+		}
+
+		::UnrealTypes::ScriptStruct* __cctor_b__15_2()
+		{
+			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_2_OFFSET))(this);
+		}
+
+		::UnrealTypes::Enum* __cctor_b__15_3()
+		{
+			return ((::UnrealTypes::Enum*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_3_OFFSET))(this);
+		}
+
+		::UnrealTypes::Enum* __cctor_b__15_4()
+		{
+			return ((::UnrealTypes::Enum*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_4_OFFSET))(this);
+		}
+
+		::UnrealTypes::Enum* __cctor_b__15_5()
+		{
+			return ((::UnrealTypes::Enum*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_5_OFFSET))(this);
+		}
+
+		::UnrealTypes::ICppStructOps* __cctor_b__15_6()
+		{
+			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_COMPACTSTATETREETRANSITION___C___CCTOR_B__15_6_OFFSET))(this);
 		}
 	};
 }

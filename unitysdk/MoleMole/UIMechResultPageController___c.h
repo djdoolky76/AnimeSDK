@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
-class Class_1_1685EC66FBD28897;
+class HGAJKHIMKJP;
+class KOIDMLPJGML;
 
-#define MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17DF87E0)
-#define MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF8820)
-#define MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__REFRESHREWARDVIEW_G__INTO_5_0_OFFSET UNITYSDK_OFFSET(0x17DF8830)
+#define MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x186D0880)
+#define MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x186D08C0)
+#define MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__REFRESHREWARDVIEW_G__INTO_5_0_OFFSET UNITYSDK_OFFSET(0x186D08D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMechResultPageController___c_TypeDefinitionIndex = 41197;
+	inline static constexpr unsigned int UIMechResultPageController___c_TypeDefinitionIndex = 86159;
 
 	class UIMechResultPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIMechResultPageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIMechResultPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMechResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x330D0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIMechResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x35540);
 		}
 
 		static ::System::Void _cctor()
@@ -31,9 +31,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_1685EC66FBD28897* _RefreshRewardView_g__Into_5_0(::Class_1_0D6706375CDAAE8C* item)
+		::KOIDMLPJGML* _RefreshRewardView_g__Into_5_0(::HGAJKHIMKJP* item)
 		{
-			return ((::Class_1_1685EC66FBD28897*(*)(::PVOID, ::Class_1_0D6706375CDAAE8C*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__REFRESHREWARDVIEW_G__INTO_5_0_OFFSET))(this, item);
+			return ((::KOIDMLPJGML*(*)(::PVOID, ::HGAJKHIMKJP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMECHRESULTPAGECONTROLLER___C__REFRESHREWARDVIEW_G__INTO_5_0_OFFSET))(this, item);
 		}
 	};
 }

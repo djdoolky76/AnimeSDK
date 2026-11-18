@@ -6,7 +6,7 @@
 namespace System { class DateTimeParse_MatchNumberDelegate; }
 namespace System::Globalization { class Calendar; }
 
-#define SYSTEM_PARSINGINFO_INIT_OFFSET UNITYSDK_OFFSET(0x9A4250)
+#define SYSTEM_PARSINGINFO_INIT_OFFSET UNITYSDK_OFFSET(0x8D0CA0)
 
 namespace System
 {
@@ -22,6 +22,7 @@ namespace System
 		::System::Boolean fAllowInnerWhite; // 0x22
 		::System::Boolean fAllowTrailingWhite; // 0x23
 		::System::Boolean fCustomNumberParser; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::DateTimeParse_MatchNumberDelegate* parseNumberDelegate; // 0x28
 
 		::System::Void Init()

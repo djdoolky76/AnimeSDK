@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINewsStandPuzzlePageController_EPuzzlePhase_TypeDefinitionIndex = 79556;
+	inline static constexpr unsigned int UINewsStandPuzzlePageController_EPuzzlePhase_TypeDefinitionIndex = 44954;
 
 	enum class UINewsStandPuzzlePageController_EPuzzlePhase : ::System::Int32
 	{

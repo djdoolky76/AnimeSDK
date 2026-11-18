@@ -4,16 +4,17 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_HUMANPOSE_INIT_OFFSET UNITYSDK_OFFSET(0xAC3550)
+#define UNITYENGINE_HUMANPOSE_INIT_OFFSET UNITYSDK_OFFSET(0x9AAFA0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int HumanPose_TypeDefinitionIndex = 6648;
+	inline static constexpr unsigned int HumanPose_TypeDefinitionIndex = 6655;
 
 	struct alignas(8) HumanPose
 	{
 		::UnityEngine::Vector3 bodyPosition; // 0x10
 		::UnityEngine::Quaternion bodyRotation; // 0x1C
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Single>* muscles; // 0x30
 
 		::System::Void Init()

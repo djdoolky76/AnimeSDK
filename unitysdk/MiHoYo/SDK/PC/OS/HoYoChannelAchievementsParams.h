@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK::PC::OS { class XboxAchievementsParamExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELACHIEVEMENTSPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BDD6D80)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELACHIEVEMENTSPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD6D90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELACHIEVEMENTSPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1C46D6D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELACHIEVEMENTSPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C46D6E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelAchievementsParams_TypeDefinitionIndex = 20720;
+	inline static constexpr unsigned int HoYoChannelAchievementsParams_TypeDefinitionIndex = 19918;
 
 	class HoYoChannelAchievementsParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{
 	public:
-		::System::String* action; // 0x18
-		::MiHoYo::SDK::PC::OS::XboxAchievementsParamExtension* xbox; // 0x20
+		::System::String* action; // 0x20
+		::MiHoYo::SDK::PC::OS::XboxAchievementsParamExtension* xbox; // 0x28
 
 		::System::Void _ctor()
 		{

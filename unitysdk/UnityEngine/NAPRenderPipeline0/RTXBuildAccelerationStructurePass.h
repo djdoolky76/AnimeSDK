@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXBUILDACCELERATIONSTRUCTUREPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E31A4B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXBUILDACCELERATIONSTRUCTUREPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E31A450)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXBUILDACCELERATIONSTRUCTUREPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E545400)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXBUILDACCELERATIONSTRUCTUREPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5453A0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RTXBuildAccelerationStructurePass_TypeDefinitionIndex = 5806;
+	inline static constexpr unsigned int RTXBuildAccelerationStructurePass_TypeDefinitionIndex = 5812;
 
 	class RTXBuildAccelerationStructurePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

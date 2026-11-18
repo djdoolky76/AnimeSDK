@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_CF6069113B9F5B89.h"
-#include "unitysdk/MoleMole/LevelStateDefine_ELevelStateName.h"
+#include "unitysdk/CDGBEDPCGDI.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_LEVELSTATEDEFINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1685AE30)
-#define MOLEMOLE_LEVELSTATEDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1685AE20)
+#define MOLEMOLE_LEVELSTATEDEFINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x10D25DC0)
+#define MOLEMOLE_LEVELSTATEDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D25DB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LevelStateDefine_TypeDefinitionIndex = 73821;
+	inline static constexpr unsigned int LevelStateDefine_TypeDefinitionIndex = 68364;
 
 	class LevelStateDefine : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::MoleMole::LevelStateDefine_ELevelStateName, ::Enum_3_CF6069113B9F5B89>** StaticGet_LevelStateTypeMap()
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::CDGBEDPCGDI>** StaticGet_LevelStateTypeMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::MoleMole::LevelStateDefine_ELevelStateName, ::Enum_3_CF6069113B9F5B89>**)Il2CppClass::FromTypeDefinitionIndex(LevelStateDefine_TypeDefinitionIndex)->GetStaticField(0x36680);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::CDGBEDPCGDI>**)Il2CppClass::FromTypeDefinitionIndex(LevelStateDefine_TypeDefinitionIndex)->GetStaticField(0x38900);
 		}
 
 		::System::Void _ctor()

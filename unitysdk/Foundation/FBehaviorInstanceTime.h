@@ -4,9 +4,9 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FBehaviorInstanceTime_TypeDefinitionIndex = 8833;
+	inline static constexpr unsigned int FBehaviorInstanceTime_TypeDefinitionIndex = 8765;
 
-	struct alignas(8) FBehaviorInstanceTime
+	struct alignas(4) FBehaviorInstanceTime
 	{
 		::System::Double DelayTime; // 0x10
 		::System::Double BlendInTime; // 0x18

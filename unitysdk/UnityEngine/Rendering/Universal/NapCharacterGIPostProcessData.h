@@ -6,12 +6,12 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurveParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIPOSTPROCESSDATA_MARKTEXTURECURVEASDIRTY_OFFSET UNITYSDK_OFFSET(0x1D30FCB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIPOSTPROCESSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D30FE30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIPOSTPROCESSDATA_MARKTEXTURECURVEASDIRTY_OFFSET UNITYSDK_OFFSET(0x1D457BA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGIPOSTPROCESSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D457D20)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCharacterGIPostProcessData_TypeDefinitionIndex = 27245;
+	inline static constexpr unsigned int NapCharacterGIPostProcessData_TypeDefinitionIndex = 27201;
 
 	class NapCharacterGIPostProcessData : public ::System::Object
 	{
@@ -28,6 +28,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single blueOutRedIn; // 0x58
 		::System::Single blueOutGreenIn; // 0x5C
 		::System::Single blueOutBlueIn; // 0x60
+		::System::Byte _padding0[0x4];
 		::UnityEngine::NAPRenderPipeline0::TextureCurveParameter* master; // 0x68
 		::UnityEngine::NAPRenderPipeline0::TextureCurveParameter* red; // 0x70
 		::UnityEngine::NAPRenderPipeline0::TextureCurveParameter* green; // 0x78

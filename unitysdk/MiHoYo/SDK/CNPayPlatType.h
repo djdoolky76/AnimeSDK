@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CNPayPlatType_TypeDefinitionIndex = 20216;
+	inline static constexpr unsigned int CNPayPlatType_TypeDefinitionIndex = 19362;
 
 	enum class CNPayPlatType : ::System::Int32
 	{

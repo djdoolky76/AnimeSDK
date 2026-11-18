@@ -6,7 +6,7 @@ namespace System { class Action; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FBehaviorInstanceCallback_TypeDefinitionIndex = 8720;
+	inline static constexpr unsigned int FBehaviorInstanceCallback_TypeDefinitionIndex = 9027;
 
 	struct alignas(8) FBehaviorInstanceCallback
 	{

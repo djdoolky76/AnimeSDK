@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkCurveInterpolation.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace AK::Wwise { class Event; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define AKTIMELINEEVENTPLAYABLE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FC47290)
-#define AKTIMELINEEVENTPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FC47280)
-#define AKTIMELINEEVENTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC476E0)
+#define AKTIMELINEEVENTPLAYABLE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x2004C050)
+#define AKTIMELINEEVENTPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x2004C040)
+#define AKTIMELINEEVENTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x2004C4B0)
 
-inline static constexpr unsigned int AkTimelineEventPlayable_TypeDefinitionIndex = 33735;
+inline static constexpr unsigned int AkTimelineEventPlayable_TypeDefinitionIndex = 33281;
 
 class AkTimelineEventPlayable : public ::UnityEngine::Playables::PlayableAsset
 {

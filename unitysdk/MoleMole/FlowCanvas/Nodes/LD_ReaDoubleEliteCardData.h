@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 #include "unitysdk/MoleMole/DoubleEliteCardInfo.h"
 
 namespace MoleMole::FlowCanvas::Nodes { template <typename T> class LDDGenericDataSource_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_READOUBLEELITECARDDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x16851A30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_READOUBLEELITECARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16851A70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_READOUBLEELITECARDDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D1C7C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_READOUBLEELITECARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D1C800)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ReaDoubleEliteCardData_TypeDefinitionIndex = 73390;
+	inline static constexpr unsigned int LD_ReaDoubleEliteCardData_TypeDefinitionIndex = 81390;
 
-	class LD_ReaDoubleEliteCardData : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::MoleMole::FlowCanvas::Nodes::LDDGenericDataSource_1<::MoleMole::DoubleEliteCardInfo>*>
+	class LD_ReaDoubleEliteCardData
 	{
 	public:
 		::System::Void _ctor()

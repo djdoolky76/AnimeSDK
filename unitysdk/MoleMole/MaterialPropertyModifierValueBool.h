@@ -4,9 +4,9 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MaterialPropertyModifierValueBool_TypeDefinitionIndex = 74043;
+	inline static constexpr unsigned int MaterialPropertyModifierValueBool_TypeDefinitionIndex = 89425;
 
-	struct alignas(1) MaterialPropertyModifierValueBool
+	struct alignas(4) MaterialPropertyModifierValueBool
 	{
 		::System::Boolean active; // 0x10
 		::System::Boolean enable; // 0x11

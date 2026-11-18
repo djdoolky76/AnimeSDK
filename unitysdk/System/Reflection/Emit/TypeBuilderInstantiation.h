@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_REFLECTION_EMIT_TYPEBUILDERINSTANTIATION_MAKEGENERICTYPE_OFFSET UNITYSDK_OFFSET(0x1DF395D0)
-#define SYSTEM_REFLECTION_EMIT_TYPEBUILDERINSTANTIATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF39620)
+#define SYSTEM_REFLECTION_EMIT_TYPEBUILDERINSTANTIATION_MAKEGENERICTYPE_OFFSET UNITYSDK_OFFSET(0x1E399460)
+#define SYSTEM_REFLECTION_EMIT_TYPEBUILDERINSTANTIATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3994B0)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int TypeBuilderInstantiation_TypeDefinitionIndex = 626;
+	inline static constexpr unsigned int TypeBuilderInstantiation_TypeDefinitionIndex = 625;
 
 	class TypeBuilderInstantiation : public ::System::Reflection::TypeInfo
 	{

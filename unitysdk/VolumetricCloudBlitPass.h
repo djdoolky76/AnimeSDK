@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
@@ -12,22 +12,22 @@ namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class VolumetricCloudConfig; }
 
-#define VOLUMETRICCLOUDBLITPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DE190D0)
-#define VOLUMETRICCLOUDBLITPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1DE194A0)
-#define VOLUMETRICCLOUDBLITPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1DE18FD0)
-#define VOLUMETRICCLOUDBLITPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE18EC0)
-#define VOLUMETRICCLOUDBLITPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1DE194F0)
+#define VOLUMETRICCLOUDBLITPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E17C890)
+#define VOLUMETRICCLOUDBLITPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E17CC60)
+#define VOLUMETRICCLOUDBLITPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1E17C790)
+#define VOLUMETRICCLOUDBLITPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E17C680)
+#define VOLUMETRICCLOUDBLITPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E17CCB0)
 
-inline static constexpr unsigned int VolumetricCloudBlitPass_TypeDefinitionIndex = 27780;
+inline static constexpr unsigned int VolumetricCloudBlitPass_TypeDefinitionIndex = 27205;
 
 class VolumetricCloudBlitPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 {
 public:
 	::UnityEngine::Material* cloudSampleMat; // 0xA8
-	::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_Sampler; // 0xB0
-	::UnityEngine::Rendering::Universal::VolumetricCloudConfig* m_CloudConfig; // 0xB8
-	::System::Boolean m_NeedVolumetricMistBlit; // 0xC0
-	::System::Boolean m_NeedVolumetricCloudBlit; // 0xC1
+	::UnityEngine::Rendering::Universal::VolumetricCloudConfig* m_CloudConfig; // 0xB0
+	::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_Sampler; // 0xB8
+	::System::Boolean m_NeedVolumetricCloudBlit; // 0xC0
+	::System::Boolean m_NeedVolumetricMistBlit; // 0xC1
 
 	::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent evt, ::System::String* profilerTag)
 	{

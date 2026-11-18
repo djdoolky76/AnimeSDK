@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_1.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_DELTALOCATIONPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC12C20)
+#define PIPELINECAMERA_CAMERASEQUENCE_DELTALOCATIONPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFCDE10)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int DeltaLocationPolicy_TypeDefinitionIndex = 38574;
+	inline static constexpr unsigned int DeltaLocationPolicy_TypeDefinitionIndex = 36573;
 
-	class DeltaLocationPolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_1<::UnityEngine::Vector3>
+	class DeltaLocationPolicy
 	{
 	public:
 		::System::Void _ctor()

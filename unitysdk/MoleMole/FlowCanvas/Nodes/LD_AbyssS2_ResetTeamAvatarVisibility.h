@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_RESETTEAMAVATARVISIBILITY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1383A610)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_RESETTEAMAVATARVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1383A6D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_RESETTEAMAVATARVISIBILITY__REGISTERPORTS_B__1_0_OFFSET UNITYSDK_OFFSET(0x1383A710)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_RESETTEAMAVATARVISIBILITY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x139E0BE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_RESETTEAMAVATARVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x139E0CA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_RESETTEAMAVATARVISIBILITY__REGISTERPORTS_B__1_0_OFFSET UNITYSDK_OFFSET(0x139E0CE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_ResetTeamAvatarVisibility_TypeDefinitionIndex = 76402;
+	inline static constexpr unsigned int LD_AbyssS2_ResetTeamAvatarVisibility_TypeDefinitionIndex = 63536;
 
 	class LD_AbyssS2_ResetTeamAvatarVisibility : public ::FlowCanvas::Nodes::FlowControlNode
 	{

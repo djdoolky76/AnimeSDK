@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/TaskFieldAssigner.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/BehaviorDesigner/Runtime/TaskFieldAssigner.h"
 
 namespace BehaviorDesigner::Runtime { class IVariableSource; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZECONTEXT_GET_TASKIDS_OFFSET UNITYSDK_OFFSET(0x1F606270)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZECONTEXT_SET_TASKIDS_OFFSET UNITYSDK_OFFSET(0x1F606280)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F606290)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZECONTEXT_GET_TASKIDS_OFFSET UNITYSDK_OFFSET(0x1F9CD640)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZECONTEXT_SET_TASKIDS_OFFSET UNITYSDK_OFFSET(0x1F9CD650)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9CD660)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int JsonDeserializeContext_TypeDefinitionIndex = 33892;
+	inline static constexpr unsigned int JsonDeserializeContext_TypeDefinitionIndex = 33438;
 
 	class JsonDeserializeContext : public ::System::Object
 	{

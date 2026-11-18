@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_SECURITY_CRYPTOGRAPHY_SHACONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBC7B60)
-#define MONO_SECURITY_CRYPTOGRAPHY_SHACONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBC7B50)
+#define MONO_SECURITY_CRYPTOGRAPHY_SHACONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFCE540)
+#define MONO_SECURITY_CRYPTOGRAPHY_SHACONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFCE530)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int SHAConstants_TypeDefinitionIndex = 2469;
+	inline static constexpr unsigned int SHAConstants_TypeDefinitionIndex = 2468;
 
 	class SHAConstants : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EASYPBD_EASYPBDHASH_HASH01_OFFSET UNITYSDK_OFFSET(0x1CAFE8D0)
+#define EASYPBD_EASYPBDHASH_HASH01_OFFSET UNITYSDK_OFFSET(0x1CEBBF80)
 
 namespace EasyPBD
 {
-	inline static constexpr unsigned int EasyPBDHash_TypeDefinitionIndex = 26903;
+	inline static constexpr unsigned int EasyPBDHash_TypeDefinitionIndex = 26332;
 
 	class EasyPBDHash : public ::System::Object
 	{

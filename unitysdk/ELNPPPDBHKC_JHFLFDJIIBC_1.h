@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class Exception; }
+namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { template <typename T> class Action_1; }
+namespace System { template <typename T> class Func_1; }
+template <typename T> class LEEILAFAGPH_1;
+template <typename T> class PMICFEKMKMF_1;
+
+inline static constexpr unsigned int ELNPPPDBHKC_JHFLFDJIIBC_1_TypeDefinitionIndex = 48247;
+
+template <typename T>
+class ELNPPPDBHKC_JHFLFDJIIBC_1 : public ::System::Object
+{
+public:
+	::System::Func_1<::LEEILAFAGPH_1<::System::Object*>*>* HKJODKBNEJE; // 0x0
+	::PMICFEKMKMF_1<::System::Object*>* AFKKKJKJEIC; // 0x0
+	::System::Func_2<::System::Exception*, ::LEEILAFAGPH_1<::System::Object*>*>* COKHBPKODGI; // 0x0
+	::System::Action_1<::System::Single>* FFMGICPLKFB; // 0x0
+	::System::Action_1<::System::Object*>* KAKAEMACNPB; // 0x0
+	::System::Action_1<::System::Exception*>* OLDCEOGKOAE; // 0x0
+	::System::Action_1<::System::Object*>* MNMDKBDFAFE; // 0x0
+	::System::Action_1<::System::Exception*>* AEPKIFBFCOD; // 0x0
+};

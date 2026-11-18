@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_2.h"
 #include "unitysdk/MoleMole/HackerGameCliParamType.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B01730)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B01880)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8DE710)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8DE860)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardEvent_TypeDefinitionIndex = 42790;
+	inline static constexpr unsigned int ChessboardEvent_TypeDefinitionIndex = 92955;
 
-	class ChessboardEvent : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::MoleMole::HackerGameCliParamType, ::System::Single>
+	class ChessboardEvent
 	{
 	public:
 		::System::Void _ctor()

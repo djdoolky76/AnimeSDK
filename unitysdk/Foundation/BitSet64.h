@@ -1,35 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
 
 namespace System { class Object; }
 
-#define FOUNDATION_BITSET64_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xAA81A0)
-#define FOUNDATION_BITSET64_EQUALS_OFFSET UNITYSDK_OFFSET(0xAA8130)
-#define FOUNDATION_BITSET64_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x909910)
-#define FOUNDATION_BITSET64_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x3CCD40)
-#define FOUNDATION_BITSET64_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xAA7FC0)
-#define FOUNDATION_BITSET64_OP_BITWISEAND_OFFSET UNITYSDK_OFFSET(0x1F561070)
-#define FOUNDATION_BITSET64_OP_BITWISEOR_OFFSET UNITYSDK_OFFSET(0x1F561060)
-#define FOUNDATION_BITSET64_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F561080)
-#define FOUNDATION_BITSET64_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xAA7FD0)
-#define FOUNDATION_BITSET64__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5611A0)
-#define FOUNDATION_BITSET64__CTOR_1_OFFSET UNITYSDK_OFFSET(0xAA7FF0)
-#define FOUNDATION_BITSET64__CTOR_OFFSET UNITYSDK_OFFSET(0x324D50)
+#define FOUNDATION_BITSET64_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x98E530)
+#define FOUNDATION_BITSET64_EQUALS_OFFSET UNITYSDK_OFFSET(0x98E4C0)
+#define FOUNDATION_BITSET64_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x84BCC0)
+#define FOUNDATION_BITSET64_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x3D5A00)
+#define FOUNDATION_BITSET64_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x98E350)
+#define FOUNDATION_BITSET64_OP_BITWISEAND_OFFSET UNITYSDK_OFFSET(0x1F9188F0)
+#define FOUNDATION_BITSET64_OP_BITWISEOR_OFFSET UNITYSDK_OFFSET(0x1F9188E0)
+#define FOUNDATION_BITSET64_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F918900)
+#define FOUNDATION_BITSET64_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x98E360)
+#define FOUNDATION_BITSET64__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F918A20)
+#define FOUNDATION_BITSET64__CTOR_1_OFFSET UNITYSDK_OFFSET(0x98E380)
+#define FOUNDATION_BITSET64__CTOR_OFFSET UNITYSDK_OFFSET(0x358B00)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BitSet64_TypeDefinitionIndex = 8869;
+	inline static constexpr unsigned int BitSet64_TypeDefinitionIndex = 9000;
 
-	struct alignas(8) BitSet64
+	struct alignas(4) BitSet64
 	{
 		static ::Foundation::BitSet64* StaticGet_Empty()
 		{
-			return (::Foundation::BitSet64*)Il2CppClass::FromTypeDefinitionIndex(BitSet64_TypeDefinitionIndex)->GetStaticField(0x3B30);
+			return (::Foundation::BitSet64*)Il2CppClass::FromTypeDefinitionIndex(BitSet64_TypeDefinitionIndex)->GetStaticField(0x3AF0);
 		}
 		static ::Foundation::BitSet64* StaticGet_Full()
 		{
-			return (::Foundation::BitSet64*)Il2CppClass::FromTypeDefinitionIndex(BitSet64_TypeDefinitionIndex)->GetStaticField(0x3B38);
+			return (::Foundation::BitSet64*)Il2CppClass::FromTypeDefinitionIndex(BitSet64_TypeDefinitionIndex)->GetStaticField(0x3AF8);
 		}
 		::System::UInt64 data; // 0x10
 
@@ -38,12 +39,10 @@ namespace Foundation
 			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET64__CTOR_OFFSET))(this, data);
 		}
 
-		/*
-		::System::Void _ctor_1(::System::ReadOnlySpan_1<::System::UInt32> indicesSet)
+		::System::Void _ctor_1(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::UInt32> indicesSet)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1<::System::UInt32>))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET64__CTOR_1_OFFSET))(this, indicesSet);
+			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::UInt32>))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET64__CTOR_1_OFFSET))(this, indicesSet);
 		}
-		*/
 
 		static ::System::Void _cctor()
 		{
@@ -65,25 +64,33 @@ namespace Foundation
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET64_SET_ITEM_OFFSET))(this, index, value);
 		}
 
+		/*
 		static ::Foundation::BitSet64 op_BitwiseOr(::Foundation::BitSet64 left, ::Foundation::BitSet64 right)
 		{
 			return ((::Foundation::BitSet64(*)(::Foundation::BitSet64, ::Foundation::BitSet64))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET64_OP_BITWISEOR_OFFSET))(left, right);
 		}
+		*/
 
+		/*
 		static ::Foundation::BitSet64 op_BitwiseAnd(::Foundation::BitSet64 left, ::Foundation::BitSet64 right)
 		{
 			return ((::Foundation::BitSet64(*)(::Foundation::BitSet64, ::Foundation::BitSet64))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET64_OP_BITWISEAND_OFFSET))(left, right);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::Foundation::BitSet64 left, ::Foundation::BitSet64 right)
 		{
 			return ((::System::Boolean(*)(::Foundation::BitSet64, ::Foundation::BitSet64))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET64_OP_EQUALITY_OFFSET))(left, right);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::Foundation::BitSet64 other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::BitSet64))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET64_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{

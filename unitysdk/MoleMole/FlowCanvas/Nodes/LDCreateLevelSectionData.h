@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
 
 namespace MoleMole { class LevelSectionGroupData; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATELEVELSECTIONDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A811F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATELEVELSECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13A81330)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATELEVELSECTIONDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465BA00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATELEVELSECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1465BB40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCreateLevelSectionData_TypeDefinitionIndex = 67026;
+	inline static constexpr unsigned int LDCreateLevelSectionData_TypeDefinitionIndex = 77205;
 
-	class LDCreateLevelSectionData : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::MoleMole::LevelSectionGroupData*, ::System::String*, ::System::String*>
+	class LDCreateLevelSectionData
 	{
 	public:
 		// static const ::System::String* DefaultSectionNam; // 0x0

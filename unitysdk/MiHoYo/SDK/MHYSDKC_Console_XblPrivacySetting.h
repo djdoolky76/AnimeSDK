@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Console_XblPrivacySetting_TypeDefinitionIndex = 37202;
+	inline static constexpr unsigned int MHYSDKC_Console_XblPrivacySetting_TypeDefinitionIndex = 35188;
 
 	enum class MHYSDKC_Console_XblPrivacySetting : ::System::Int32
 	{

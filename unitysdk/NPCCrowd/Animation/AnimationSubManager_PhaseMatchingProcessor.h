@@ -2,28 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationProcessPhase.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_Dispatchable.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_PhaseMatchingProcessor_LegacyJob.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_PhaseMatchingProcessor_ParallelJob.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Animation { class AnimationSubManager; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0x10C96A30)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0x10C96840)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0x10C968B0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0x10C968A0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0x10C968C0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x10C96FE0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0xB2D4E60)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0xB2D4C20)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0xB2D4CE0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0xB2D4CD0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0xB2D4CF0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_RESETSTATICSTATE_OFFSET UNITYSDK_OFFSET(0xB2D4C80)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xB2D5410)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_PhaseMatchingProcessor_TypeDefinitionIndex = 88282;
+	inline static constexpr unsigned int AnimationSubManager_PhaseMatchingProcessor_TypeDefinitionIndex = 81259;
 
 	class AnimationSubManager_PhaseMatchingProcessor : public ::NPCCrowd::Animation::AnimationSubManager_Dispatchable
 	{
 	public:
-		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_PhaseMatchingProcessor_LegacyJob>* _buffer; // 0x10
+		::Il2CppArray<::System::Object*>* _buffer; // 0x10
 		::NPCCrowd::Animation::AnimationSubManager_PhaseMatchingProcessor_ParallelJob _parallelJob; // 0x18
 
 		::System::Void _ctor()
@@ -34,6 +35,11 @@ namespace NPCCrowd::Animation
 		::System::String* get_DebugName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_GET_DEBUGNAME_OFFSET))(this);
+		}
+
+		static ::System::Void ResetStaticState()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_RESETSTATICSTATE_OFFSET))();
 		}
 
 		::NPCCrowd::Animation::AnimationSubManager_AnimationProcessPhase get_MinPhase()

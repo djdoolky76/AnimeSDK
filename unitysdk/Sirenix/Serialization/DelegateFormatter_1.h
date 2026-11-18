@@ -1,9 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/BaseFormatter_1.h"
 
-namespace Sirenix::Serialization { class IDataReader; }
-namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class Delegate; }
 namespace System { class Object; }
@@ -12,10 +9,10 @@ namespace System { class Type; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int DelegateFormatter_1_TypeDefinitionIndex = 7455;
+	inline static constexpr unsigned int DelegateFormatter_1_TypeDefinitionIndex = 7462;
 
 	template <typename T>
-	class DelegateFormatter_1 : public ::Sirenix::Serialization::BaseFormatter_1<T>
+	class DelegateFormatter_1
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Object*>** StaticGet_ObjectSerializer()

@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
+#include "unitysdk/System/Object.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriStructMemory_1_TypeDefinitionIndex = 34902;
+	inline static constexpr unsigned int CriStructMemory_1_TypeDefinitionIndex = 34451;
 
-	template <typename Type>
+	template <typename T>
 	class CriStructMemory_1 : public ::System::Object
 	{
 	public:

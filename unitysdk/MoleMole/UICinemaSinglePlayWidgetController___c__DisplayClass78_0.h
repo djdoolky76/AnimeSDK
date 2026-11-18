@@ -3,33 +3,33 @@
 #include "unitysdk/MoleMole/CinemaSingleBeatMapConfig_BeatMap_BeatItem.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_7341BF3E408F4DA8_Class_2_5F3C14FED1CE4C5F;
+class BHJBJDALADJ_DJMEPLCJPBO;
 namespace MoleMole { class UICinemaSingleBadBubbleWidgetController; }
 namespace MoleMole { class UICinemaSinglePlayWidgetController; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170AA3D0)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS78_0__SHOWBADBUBBLE_B__1_OFFSET UNITYSDK_OFFSET(0x170AA3E0)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS78_0__SHOWBADBUBBLE_B__2_OFFSET UNITYSDK_OFFSET(0x170AA5F0)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS78_0__SHOWBADBUBBLE_B__3_OFFSET UNITYSDK_OFFSET(0x170AA580)
-#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS78_0__SHOWBADBUBBLE_B__4_OFFSET UNITYSDK_OFFSET(0x170AA7F0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17057390)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS78_0__SHOWBADBUBBLE_B__1_OFFSET UNITYSDK_OFFSET(0x170573A0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS78_0__SHOWBADBUBBLE_B__2_OFFSET UNITYSDK_OFFSET(0x170575B0)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS78_0__SHOWBADBUBBLE_B__3_OFFSET UNITYSDK_OFFSET(0x17057540)
+#define MOLEMOLE_UICINEMASINGLEPLAYWIDGETCONTROLLER___C__DISPLAYCLASS78_0__SHOWBADBUBBLE_B__4_OFFSET UNITYSDK_OFFSET(0x170577B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaSinglePlayWidgetController___c__DisplayClass78_0_TypeDefinitionIndex = 46343;
+	inline static constexpr unsigned int UICinemaSinglePlayWidgetController___c__DisplayClass78_0_TypeDefinitionIndex = 46768;
 
 	class UICinemaSinglePlayWidgetController___c__DisplayClass78_0 : public ::System::Object
 	{
 	public:
-		::System::Func_1<::System::Int32>* onClick; // 0x10
-		::MoleMole::UICinemaSingleBadBubbleWidgetController* bubbleWidget; // 0x18
-		::System::Action* __9__3; // 0x20
-		::MoleMole::UICinemaSinglePlayWidgetController* __4__this; // 0x28
-		::System::Action* __9__4; // 0x30
-		::Class_2_7341BF3E408F4DA8_Class_2_5F3C14FED1CE4C5F* locationView; // 0x38
-		::MoleMole::CinemaSingleBeatMapConfig_BeatMap_BeatItem item; // 0x40
-		::System::Int32 bubbleLocation; // 0x50
+		::MoleMole::UICinemaSingleBadBubbleWidgetController* bubbleWidget; // 0x10
+		::MoleMole::UICinemaSinglePlayWidgetController* __4__this; // 0x18
+		::System::Action* __9__4; // 0x20
+		::System::Func_1<::System::Int32>* onClick; // 0x28
+		::System::Action* __9__3; // 0x30
+		::BHJBJDALADJ_DJMEPLCJPBO* locationView; // 0x38
+		::System::Int32 bubbleLocation; // 0x40
+		::MoleMole::CinemaSingleBeatMapConfig_BeatMap_BeatItem item; // 0x44
 
 		::System::Void _ctor()
 		{

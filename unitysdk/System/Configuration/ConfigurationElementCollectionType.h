@@ -3,7 +3,7 @@
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int ConfigurationElementCollectionType_TypeDefinitionIndex = 2511;
+	inline static constexpr unsigned int ConfigurationElementCollectionType_TypeDefinitionIndex = 2510;
 
 	enum class ConfigurationElementCollectionType : ::System::Int32
 	{

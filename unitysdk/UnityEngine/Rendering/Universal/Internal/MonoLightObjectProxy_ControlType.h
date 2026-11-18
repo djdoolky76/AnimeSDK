@@ -3,11 +3,11 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int MonoLightObjectProxy_ControlType_TypeDefinitionIndex = 27810;
+	inline static constexpr unsigned int MonoLightObjectProxy_ControlType_TypeDefinitionIndex = 27312;
 
 	enum class MonoLightObjectProxy_ControlType : ::System::Int32
 	{
-		BoxVolumetricFog = 1,
 		LocalLight = 0,
+		BoxVolumetricFog = 1,
 	};
 }

@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-#include "unitysdk/UnityEngine/ScriptableObject.h"
 
 class PerFrameData;
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PARTICLEANIMATIONDATA_GETFRAMEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C5A0E70)
-#define PARTICLEANIMATIONDATA_GETFRAMEDATA_1_OFFSET UNITYSDK_OFFSET(0x1C5A1020)
-#define PARTICLEANIMATIONDATA_GETFRAMEDATA_OFFSET UNITYSDK_OFFSET(0x1C5A0F80)
-#define PARTICLEANIMATIONDATA_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x1C5A0E50)
-#define PARTICLEANIMATIONDATA_GET_PARTICLECOUNT_OFFSET UNITYSDK_OFFSET(0x1C5A0E40)
-#define PARTICLEANIMATIONDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x1C5A1090)
-#define PARTICLEANIMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A10F0)
+#define PARTICLEANIMATIONDATA_GETFRAMEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1CA32850)
+#define PARTICLEANIMATIONDATA_GETFRAMEDATA_1_OFFSET UNITYSDK_OFFSET(0x1CA32A00)
+#define PARTICLEANIMATIONDATA_GETFRAMEDATA_OFFSET UNITYSDK_OFFSET(0x1CA32960)
+#define PARTICLEANIMATIONDATA_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x1CA32830)
+#define PARTICLEANIMATIONDATA_GET_PARTICLECOUNT_OFFSET UNITYSDK_OFFSET(0x1CA32820)
+#define PARTICLEANIMATIONDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x1CA32A70)
+#define PARTICLEANIMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA32AD0)
 
-inline static constexpr unsigned int ParticleAnimationData_TypeDefinitionIndex = 27563;
+inline static constexpr unsigned int ParticleAnimationData_TypeDefinitionIndex = 26881;
 
 class ParticleAnimationData : public ::UnityEngine::ScriptableObject
 {
@@ -26,6 +25,7 @@ public:
 	// static const ::System::String* CustomData1PropertyName; // 0x0
 	// static const ::System::String* CustomData2PropertyName; // 0x0
 	::System::Int32 maxParticleCount; // 0x18
+	::System::Byte _padding0[0x4];
 	::System::Collections::Generic::List_1<::System::UInt32>* allParticleSeeds; // 0x20
 	::System::Collections::Generic::List_1<::PerFrameData*>* frameDataList; // 0x28
 

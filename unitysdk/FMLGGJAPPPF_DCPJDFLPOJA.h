@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class FMLGGJAPPPF;
+class LIKLMOLMHPG;
+class OAEFGCLEHHO;
+
+#define FMLGGJAPPPF_DCPJDFLPOJA_ILOGKCOCAPG_OFFSET UNITYSDK_OFFSET(0x116BE400)
+#define FMLGGJAPPPF_DCPJDFLPOJA_LGDBAODIGDA_OFFSET UNITYSDK_OFFSET(0x116BE370)
+#define FMLGGJAPPPF_DCPJDFLPOJA__CTOR_OFFSET UNITYSDK_OFFSET(0x116BE360)
+
+inline static constexpr unsigned int FMLGGJAPPPF_DCPJDFLPOJA_TypeDefinitionIndex = 64609;
+
+class FMLGGJAPPPF_DCPJDFLPOJA : public ::System::Object
+{
+public:
+	::LIKLMOLMHPG* HEJIBNEHLIG; // 0x10
+	::FMLGGJAPPPF* KLHPEBKNIFB; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FMLGGJAPPPF_DCPJDFLPOJA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void LGDBAODIGDA(::OAEFGCLEHHO* NAPFALLANDL)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + FMLGGJAPPPF_DCPJDFLPOJA_LGDBAODIGDA_OFFSET))(this, NAPFALLANDL);
+	}
+
+	::System::Void ILOGKCOCAPG(::OAEFGCLEHHO* NAPFALLANDL)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + FMLGGJAPPPF_DCPJDFLPOJA_ILOGKCOCAPG_OFFSET))(this, NAPFALLANDL);
+	}
+};

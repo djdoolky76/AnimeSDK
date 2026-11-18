@@ -5,12 +5,12 @@
 namespace UnityEngine { class AsyncInstantiateOperation; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_ASYNCINSTANTIATEOPERATIONHELPER_SETASYNCINSTANTIATEOPERATIONRESULT_OFFSET UNITYSDK_OFFSET(0x1EA5AB20)
-#define UNITYENGINE_ASYNCINSTANTIATEOPERATIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5AB40)
+#define UNITYENGINE_ASYNCINSTANTIATEOPERATIONHELPER_SETASYNCINSTANTIATEOPERATIONRESULT_OFFSET UNITYSDK_OFFSET(0x1ED97360)
+#define UNITYENGINE_ASYNCINSTANTIATEOPERATIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED97380)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AsyncInstantiateOperationHelper_TypeDefinitionIndex = 5322;
+	inline static constexpr unsigned int AsyncInstantiateOperationHelper_TypeDefinitionIndex = 5324;
 
 	class AsyncInstantiateOperationHelper : public ::System::Object
 	{

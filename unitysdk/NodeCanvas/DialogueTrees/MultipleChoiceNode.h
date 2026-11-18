@@ -3,25 +3,25 @@
 #include "unitysdk/NodeCanvas/DialogueTrees/DTNode.h"
 #include "unitysdk/NodeCanvas/Framework/Status.h"
 
-namespace NodeCanvas::DialogueTrees { class MultipleChoiceNode_Choice; }
 namespace NodeCanvas::Framework { class IBlackboard; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
 
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE_GET_MAXOUTCONNECTIONS_OFFSET UNITYSDK_OFFSET(0x1E6DA660)
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE_GET_REQUIREACTORSELECTION_OFFSET UNITYSDK_OFFSET(0x1E6DA680)
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E6DA690)
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE_ONOPTIONSELECTED_OFFSET UNITYSDK_OFFSET(0x1E6DAB20)
-#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6DACD0)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE_GET_MAXOUTCONNECTIONS_OFFSET UNITYSDK_OFFSET(0x1E9639A0)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE_GET_REQUIREACTORSELECTION_OFFSET UNITYSDK_OFFSET(0x1E9639C0)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E9639D0)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE_ONOPTIONSELECTED_OFFSET UNITYSDK_OFFSET(0x1E963E60)
+#define NODECANVAS_DIALOGUETREES_MULTIPLECHOICENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E964010)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int MultipleChoiceNode_TypeDefinitionIndex = 31397;
+	inline static constexpr unsigned int MultipleChoiceNode_TypeDefinitionIndex = 30909;
 
 	class MultipleChoiceNode : public ::NodeCanvas::DialogueTrees::DTNode
 	{
 	public:
-		::System::Collections::Generic::List_1<::NodeCanvas::DialogueTrees::MultipleChoiceNode_Choice*>* availableChoices; // 0x88
+		::System::Collections::Generic::List_1<::System::Object*>* availableChoices; // 0x88
 		::System::Single availableTime; // 0x90
 		::System::Boolean saySelection; // 0x94
 

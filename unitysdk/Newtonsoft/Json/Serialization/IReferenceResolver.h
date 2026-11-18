@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class Object; }
-namespace System { class String; }
-
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int IReferenceResolver_TypeDefinitionIndex = 7118;
+	inline static constexpr unsigned int IReferenceResolver_TypeDefinitionIndex = 7125;
 
 	class IReferenceResolver
 	{

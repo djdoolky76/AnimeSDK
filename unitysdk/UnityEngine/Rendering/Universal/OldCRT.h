@@ -6,13 +6,13 @@ namespace UnityEngine::NAPRenderPipeline0 { class ClampedFloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class Vector2Parameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OLDCRT_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1BC71C70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OLDCRT_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1BC71CF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OLDCRT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC71D30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OLDCRT_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x16E870F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OLDCRT_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x16E87170)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OLDCRT__CTOR_OFFSET UNITYSDK_OFFSET(0x16E871B0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OldCRT_TypeDefinitionIndex = 27385;
+	inline static constexpr unsigned int OldCRT_TypeDefinitionIndex = 27208;
 
 	class OldCRT : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

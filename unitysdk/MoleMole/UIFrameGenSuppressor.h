@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_UIFRAMEGENSUPPRESSOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19F9EAE0)
-#define MOLEMOLE_UIFRAMEGENSUPPRESSOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19F9EA30)
-#define MOLEMOLE_UIFRAMEGENSUPPRESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19F9EB90)
+#define MOLEMOLE_UIFRAMEGENSUPPRESSOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18932060)
+#define MOLEMOLE_UIFRAMEGENSUPPRESSOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18931FB0)
+#define MOLEMOLE_UIFRAMEGENSUPPRESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18932110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFrameGenSuppressor_TypeDefinitionIndex = 89772;
+	inline static constexpr unsigned int UIFrameGenSuppressor_TypeDefinitionIndex = 43890;
 
 	class UIFrameGenSuppressor : public ::UnityEngine::MonoBehaviour
 	{

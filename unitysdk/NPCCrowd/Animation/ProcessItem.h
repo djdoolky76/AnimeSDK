@@ -8,22 +8,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define NPCCROWD_ANIMATION_PROCESSITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD899F20)
+#define NPCCROWD_ANIMATION_PROCESSITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xED74F20)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int ProcessItem_TypeDefinitionIndex = 62419;
+	inline static constexpr unsigned int ProcessItem_TypeDefinitionIndex = 73221;
 
 	class ProcessItem : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::NPCCrowd::Animation::AnimatorZoneSegmentWrap*>* curZones; // 0x10
-		::System::String* clipName; // 0x18
-		::System::Collections::Generic::Queue_1<::NPCCrowd::Animation::AnimatorZoneSegmentWrap*>* readyZones; // 0x20
-		::NPCCrowd::Animation::AnimatorEventPatternWrap* pattenWrap; // 0x28
-		::System::Int32 clipID; // 0x30
+		::System::String* clipName; // 0x10
+		::NPCCrowd::Animation::AnimatorEventPatternWrap* pattenWrap; // 0x18
+		::System::Collections::Generic::List_1<::NPCCrowd::Animation::AnimatorZoneSegmentWrap*>* curZones; // 0x20
+		::System::Collections::Generic::Queue_1<::NPCCrowd::Animation::AnimatorZoneSegmentWrap*>* readyZones; // 0x28
+		::System::Int32 lastEventIdx; // 0x30
 		::System::Single playNormalizedTime; // 0x34
-		::System::Int32 lastEventIdx; // 0x38
+		::System::Int32 clipID; // 0x38
 
 		::System::Void _ctor()
 		{

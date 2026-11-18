@@ -6,7 +6,7 @@ namespace MoleMole { class UIInLevelUpToolBarBossWidgetController; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelUpToolBarBossWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 71540;
+	inline static constexpr unsigned int UIInLevelUpToolBarBossWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 88874;
 
 	struct alignas(8) UIInLevelUpToolBarBossWidgetController___c__DisplayClass10_0
 	{

@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/Unity/Collections/NativeSlice_1.h"
 
 namespace Unity::Collections::LowLevel::Unsafe
 {

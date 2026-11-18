@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int AMLegIKExt_PredictState_TypeDefinitionIndex = 89691;
+inline static constexpr unsigned int AMLegIKExt_PredictState_TypeDefinitionIndex = 77912;
 
 struct alignas(4) AMLegIKExt_PredictState
 {
@@ -25,6 +25,7 @@ struct alignas(4) AMLegIKExt_PredictState
 	::System::Boolean enterLockZone; // 0x6A
 	::System::Boolean leaveLockZone; // 0x6B
 	::System::Boolean lastFrameState; // 0x6C
+	::System::Byte _padding0[0x3];
 	::System::Single time; // 0x70
 	::System::Single remainTime; // 0x74
 	::System::Boolean kneeState; // 0x78

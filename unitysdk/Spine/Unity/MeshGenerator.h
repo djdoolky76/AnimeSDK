@@ -1,97 +1,89 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/Unity/MeshGeneratorBuffers.h"
-#include "unitysdk/Spine/Unity/MeshGenerator_Settings.h"
-#include "unitysdk/Spine/Unity/SubmeshInstruction.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/Spine/Unity/MeshGeneratorBuffers.h"
+#include "unitysdk/Spine/Unity/SubmeshInstruction.h"
+#include "unitysdk/UnityEngine/Bounds.h"
+#include "unitysdk/UnityEngine/Color.h"
 
-namespace Spine { class MeshAttachment; }
-namespace Spine { class RegionAttachment; }
 namespace Spine { class Skeleton; }
 namespace Spine { class SkeletonClipping; }
-namespace Spine { class SkeletonData; }
 namespace Spine { class Slot; }
 namespace Spine { template <typename T> class ExposedList_1; }
+namespace Spine::Unity { class MeshGenerator_Settings; }
 namespace Spine::Unity { class SkeletonRendererInstruction; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define SPINE_UNITY_MESHGENERATOR_ADDATTACHMENTTINTBLACK_OFFSET UNITYSDK_OFFSET(0x1C16AB90)
-#define SPINE_UNITY_MESHGENERATOR_ADDSUBMESH_OFFSET UNITYSDK_OFFSET(0x1C169900)
-#define SPINE_UNITY_MESHGENERATOR_BEGIN_OFFSET UNITYSDK_OFFSET(0x1C169860)
-#define SPINE_UNITY_MESHGENERATOR_BUILDMESHWITHARRAYS_OFFSET UNITYSDK_OFFSET(0x1C16AF40)
-#define SPINE_UNITY_MESHGENERATOR_BUILDMESH_OFFSET UNITYSDK_OFFSET(0x1C16AE70)
-#define SPINE_UNITY_MESHGENERATOR_ENSUREVERTEXCAPACITY_OFFSET UNITYSDK_OFFSET(0x1C16DB30)
-#define SPINE_UNITY_MESHGENERATOR_FILLLATEVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x1C16D270)
-#define SPINE_UNITY_MESHGENERATOR_FILLMESHLOCAL_1_OFFSET UNITYSDK_OFFSET(0x1C16ECE0)
-#define SPINE_UNITY_MESHGENERATOR_FILLMESHLOCAL_OFFSET UNITYSDK_OFFSET(0x1C16E150)
-#define SPINE_UNITY_MESHGENERATOR_FILLTRIANGLES_OFFSET UNITYSDK_OFFSET(0x1C16DA80)
-#define SPINE_UNITY_MESHGENERATOR_FILLVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x1C16CDE0)
-#define SPINE_UNITY_MESHGENERATOR_GENERATESINGLESUBMESHINSTRUCTION_OFFSET UNITYSDK_OFFSET(0x1C167CF0)
-#define SPINE_UNITY_MESHGENERATOR_GENERATESKELETONRENDERERINSTRUCTION_OFFSET UNITYSDK_OFFSET(0x1C168A80)
-#define SPINE_UNITY_MESHGENERATOR_GETMESHBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C16CD70)
-#define SPINE_UNITY_MESHGENERATOR_GET_BUFFERS_OFFSET UNITYSDK_OFFSET(0x1C167940)
-#define SPINE_UNITY_MESHGENERATOR_GET_VERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1C1678D0)
-#define SPINE_UNITY_MESHGENERATOR_REQUIRESMULTIPLESUBMESHESBYDRAWORDER_OFFSET UNITYSDK_OFFSET(0x1C168630)
-#define SPINE_UNITY_MESHGENERATOR_SCALEVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x1C16CCD0)
-#define SPINE_UNITY_MESHGENERATOR_SOLVETANGENTS2DBUFFER_OFFSET UNITYSDK_OFFSET(0x1C16D940)
-#define SPINE_UNITY_MESHGENERATOR_SOLVETANGENTS2DENSURESIZE_OFFSET UNITYSDK_OFFSET(0x1C16D500)
-#define SPINE_UNITY_MESHGENERATOR_SOLVETANGENTS2DTRIANGLES_OFFSET UNITYSDK_OFFSET(0x1C16D580)
-#define SPINE_UNITY_MESHGENERATOR_SUBMESHINDEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1C1678F0)
-#define SPINE_UNITY_MESHGENERATOR_TRIMEXCESS_OFFSET UNITYSDK_OFFSET(0x1C16DEA0)
-#define SPINE_UNITY_MESHGENERATOR_TRYREPLACEMATERIALS_OFFSET UNITYSDK_OFFSET(0x1C169710)
-#define SPINE_UNITY_MESHGENERATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C16F8F0)
-#define SPINE_UNITY_MESHGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1679B0)
+#define SPINE_UNITY_MESHGENERATOR_ADDATTACHMENTTINTBLACK_OFFSET UNITYSDK_OFFSET(0x1F807D60)
+#define SPINE_UNITY_MESHGENERATOR_ADDSUBMESH_OFFSET UNITYSDK_OFFSET(0x1F806770)
+#define SPINE_UNITY_MESHGENERATOR_BEGIN_OFFSET UNITYSDK_OFFSET(0x1F806690)
+#define SPINE_UNITY_MESHGENERATOR_BUILDMESHWITHARRAYS_OFFSET UNITYSDK_OFFSET(0x1F807F70)
+#define SPINE_UNITY_MESHGENERATOR_BUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F807EA0)
+#define SPINE_UNITY_MESHGENERATOR_ENSUREVERTEXCAPACITY_OFFSET UNITYSDK_OFFSET(0x1F80B180)
+#define SPINE_UNITY_MESHGENERATOR_FILLLATEVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x1F80A980)
+#define SPINE_UNITY_MESHGENERATOR_FILLTRIANGLES_OFFSET UNITYSDK_OFFSET(0x1F80B0D0)
+#define SPINE_UNITY_MESHGENERATOR_FILLVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x1F80A4C0)
+#define SPINE_UNITY_MESHGENERATOR_FLIPBACKFACEWINDINGORDER_OFFSET UNITYSDK_OFFSET(0x1F80A290)
+#define SPINE_UNITY_MESHGENERATOR_GENERATESINGLESUBMESHINSTRUCTION_OFFSET UNITYSDK_OFFSET(0x1F804B40)
+#define SPINE_UNITY_MESHGENERATOR_GENERATESKELETONRENDERERINSTRUCTION_OFFSET UNITYSDK_OFFSET(0x1F8058D0)
+#define SPINE_UNITY_MESHGENERATOR_GETMESHBOUNDS_OFFSET UNITYSDK_OFFSET(0x1F80A1D0)
+#define SPINE_UNITY_MESHGENERATOR_GET_BUFFERS_OFFSET UNITYSDK_OFFSET(0x1F8046E0)
+#define SPINE_UNITY_MESHGENERATOR_GET_SKELETONCLIPPING_OFFSET UNITYSDK_OFFSET(0x1F804750)
+#define SPINE_UNITY_MESHGENERATOR_GET_UV2_OFFSET UNITYSDK_OFFSET(0x1F8044D0)
+#define SPINE_UNITY_MESHGENERATOR_GET_UV3_OFFSET UNITYSDK_OFFSET(0x1F804620)
+#define SPINE_UNITY_MESHGENERATOR_GET_VERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1F804670)
+#define SPINE_UNITY_MESHGENERATOR_INITIALIZEGLOBALSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F804AD0)
+#define SPINE_UNITY_MESHGENERATOR_PREPAREOPTIONALUVBUFFER_OFFSET UNITYSDK_OFFSET(0x1F804520)
+#define SPINE_UNITY_MESHGENERATOR_REQUIRESMULTIPLESUBMESHESBYDRAWORDER_OFFSET UNITYSDK_OFFSET(0x1F805500)
+#define SPINE_UNITY_MESHGENERATOR_RESIZEOPTIONALUVBUFFER_OFFSET UNITYSDK_OFFSET(0x1F80A240)
+#define SPINE_UNITY_MESHGENERATOR_SCALEANDOFFSETVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x1F809F90)
+#define SPINE_UNITY_MESHGENERATOR_SCALEVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x1F809EE0)
+#define SPINE_UNITY_MESHGENERATOR_SOLVETANGENTS2DBUFFER_OFFSET UNITYSDK_OFFSET(0x1F80AF90)
+#define SPINE_UNITY_MESHGENERATOR_SOLVETANGENTS2DENSURESIZE_OFFSET UNITYSDK_OFFSET(0x1F80AB50)
+#define SPINE_UNITY_MESHGENERATOR_SOLVETANGENTS2DTRIANGLES_OFFSET UNITYSDK_OFFSET(0x1F80ABD0)
+#define SPINE_UNITY_MESHGENERATOR_SUBMESHINDEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1F804690)
+#define SPINE_UNITY_MESHGENERATOR_TRIMEXCESS_OFFSET UNITYSDK_OFFSET(0x1F80B450)
+#define SPINE_UNITY_MESHGENERATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F80B700)
+#define SPINE_UNITY_MESHGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F804760)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int MeshGenerator_TypeDefinitionIndex = 40171;
+	inline static constexpr unsigned int MeshGenerator_TypeDefinitionIndex = 38191;
 
 	class MeshGenerator : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::Color32>** StaticGet_AttachmentColors32()
+		static ::System::Nullable_1<::System::Boolean>* StaticGet_linearColorSpaceGlobal()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Color32>**)Il2CppClass::FromTypeDefinitionIndex(MeshGenerator_TypeDefinitionIndex)->GetStaticField(0x2C970);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_AttachmentVerts()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(MeshGenerator_TypeDefinitionIndex)->GetStaticField(0x2C978);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector2>** StaticGet_AttachmentUVs()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(MeshGenerator_TypeDefinitionIndex)->GetStaticField(0x2C980);
-		}
-		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_AttachmentIndices()
-		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MeshGenerator_TypeDefinitionIndex)->GetStaticField(0x2C988);
+			return (::System::Nullable_1<::System::Boolean>*)Il2CppClass::FromTypeDefinitionIndex(MeshGenerator_TypeDefinitionIndex)->GetStaticField(0x9EF0);
 		}
 		// static const ::System::Single BoundsMinDefault; // 0x0
 		// static const ::System::Single BoundsMaxDefault; // 0x0
-		::Spine::Unity::MeshGenerator_Settings settings; // 0x10
-		::Spine::ExposedList_1<::UnityEngine::Vector3>* vertexBuffer; // 0x20
-		::Spine::ExposedList_1<::UnityEngine::Vector2>* uvBuffer; // 0x28
-		::Spine::ExposedList_1<::UnityEngine::Color32>* colorBuffer; // 0x30
-		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Int32>*>* submeshes; // 0x38
-		::UnityEngine::Vector2 meshBoundsMin; // 0x40
-		::UnityEngine::Vector2 meshBoundsMax; // 0x48
-		::System::Single meshBoundsThickness; // 0x50
-		::System::Int32 submeshIndex; // 0x54
-		::Spine::SkeletonClipping* clipper; // 0x58
-		::Il2CppArray<::System::Single>* tempVerts; // 0x60
-		::Il2CppArray<::System::Int32>* regionTriangles; // 0x68
-		::Il2CppArray<::UnityEngine::Vector3>* normals; // 0x70
-		::Il2CppArray<::UnityEngine::Vector4>* tangents; // 0x78
-		::Il2CppArray<::UnityEngine::Vector2>* tempTanBuffer; // 0x80
-		::Spine::ExposedList_1<::UnityEngine::Vector2>* uv2; // 0x88
-		::Spine::ExposedList_1<::UnityEngine::Vector2>* uv3; // 0x90
+		::Spine::Unity::MeshGenerator_Settings* settings; // 0x10
+		::Spine::ExposedList_1<::UnityEngine::Vector3>* vertexBuffer; // 0x18
+		::Spine::ExposedList_1<::UnityEngine::Vector2>* uvBuffer; // 0x20
+		::Spine::ExposedList_1<::UnityEngine::Color32>* colorBuffer; // 0x28
+		::Spine::ExposedList_1<::Spine::ExposedList_1<::System::Int32>*>* submeshes; // 0x30
+		::UnityEngine::Vector2 meshBoundsMin; // 0x38
+		::UnityEngine::Vector2 meshBoundsMax; // 0x40
+		::System::Single meshBoundsThickness; // 0x48
+		::System::Int32 submeshIndex; // 0x4C
+		::Spine::SkeletonClipping* clipper; // 0x50
+		::Il2CppArray<::System::Single>* tempVerts; // 0x58
+		::Il2CppArray<::System::Int32>* regionTriangles; // 0x60
+		::Il2CppArray<::UnityEngine::Vector3>* normals; // 0x68
+		::Il2CppArray<::UnityEngine::Vector4>* tangents; // 0x70
+		::Il2CppArray<::UnityEngine::Vector2>* tempTanBuffer; // 0x78
+		::Spine::ExposedList_1<::UnityEngine::Vector2>* uv2; // 0x80
+		::Spine::ExposedList_1<::UnityEngine::Vector2>* uv3; // 0x88
 
 		::System::Void _ctor()
 		{
@@ -101,6 +93,16 @@ namespace Spine::Unity
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR__CCTOR_OFFSET))();
+		}
+
+		::Il2CppArray<::UnityEngine::Vector2>* get_UV2()
+		{
+			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_GET_UV2_OFFSET))(this);
+		}
+
+		::Il2CppArray<::UnityEngine::Vector2>* get_UV3()
+		{
+			return ((::Il2CppArray<::UnityEngine::Vector2>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_GET_UV3_OFFSET))(this);
 		}
 
 		::System::Int32 get_VertexCount()
@@ -118,6 +120,16 @@ namespace Spine::Unity
 			return ((::Spine::Unity::MeshGeneratorBuffers(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_GET_BUFFERS_OFFSET))(this);
 		}
 
+		::Spine::SkeletonClipping* get_SkeletonClipping()
+		{
+			return ((::Spine::SkeletonClipping*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_GET_SKELETONCLIPPING_OFFSET))(this);
+		}
+
+		static ::System::Void InitializeGlobalSettings()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_INITIALIZEGLOBALSETTINGS_OFFSET))();
+		}
+
 		static ::System::Void GenerateSingleSubmeshInstruction(::Spine::Unity::SkeletonRendererInstruction* instructionOutput, ::Spine::Skeleton* skeleton, ::UnityEngine::Material* material)
 		{
 			return ((::System::Void(*)(::Spine::Unity::SkeletonRendererInstruction*, ::Spine::Skeleton*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_GENERATESINGLESUBMESHINSTRUCTION_OFFSET))(instructionOutput, skeleton, material);
@@ -128,14 +140,9 @@ namespace Spine::Unity
 			return ((::System::Boolean(*)(::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_REQUIRESMULTIPLESUBMESHESBYDRAWORDER_OFFSET))(skeleton);
 		}
 
-		static ::System::Void GenerateSkeletonRendererInstruction(::Spine::Unity::SkeletonRendererInstruction* instructionOutput, ::Spine::Skeleton* skeleton, ::System::Collections::Generic::Dictionary_2<::Spine::Slot*, ::UnityEngine::Material*>* customSlotMaterials, ::System::Collections::Generic::List_1<::Spine::Slot*>* separatorSlots, ::System::Boolean generateMeshOverride, ::System::Boolean immutableTriangles)
+		static ::System::Void GenerateSkeletonRendererInstruction(::Spine::Unity::SkeletonRendererInstruction* instructionOutput, ::Spine::Skeleton* skeleton, ::System::Collections::Generic::Dictionary_2<::Spine::Slot*, ::UnityEngine::Material*>* customSlotMaterials, ::System::Collections::Generic::List_1<::Spine::Slot*>* separatorSlots, ::System::Boolean enableSeparation, ::System::Boolean immutableTriangles)
 		{
-			return ((::System::Void(*)(::Spine::Unity::SkeletonRendererInstruction*, ::Spine::Skeleton*, ::System::Collections::Generic::Dictionary_2<::Spine::Slot*, ::UnityEngine::Material*>*, ::System::Collections::Generic::List_1<::Spine::Slot*>*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_GENERATESKELETONRENDERERINSTRUCTION_OFFSET))(instructionOutput, skeleton, customSlotMaterials, separatorSlots, generateMeshOverride, immutableTriangles);
-		}
-
-		static ::System::Void TryReplaceMaterials(::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>* workingSubmeshInstructions, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* customMaterialOverride)
-		{
-			return ((::System::Void(*)(::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_TRYREPLACEMATERIALS_OFFSET))(workingSubmeshInstructions, customMaterialOverride);
+			return ((::System::Void(*)(::Spine::Unity::SkeletonRendererInstruction*, ::Spine::Skeleton*, ::System::Collections::Generic::Dictionary_2<::Spine::Slot*, ::UnityEngine::Material*>*, ::System::Collections::Generic::List_1<::Spine::Slot*>*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_GENERATESKELETONRENDERERINSTRUCTION_OFFSET))(instructionOutput, skeleton, customSlotMaterials, separatorSlots, enableSeparation, immutableTriangles);
 		}
 
 		::System::Void Begin()
@@ -163,14 +170,34 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_SCALEVERTEXDATA_OFFSET))(this, scale);
 		}
 
+		::System::Void ScaleAndOffsetVertexData(::System::Single scale, ::UnityEngine::Vector2 offset2D)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_SCALEANDOFFSETVERTEXDATA_OFFSET))(this, scale, offset2D);
+		}
+
 		::UnityEngine::Bounds GetMeshBounds()
 		{
 			return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_GETMESHBOUNDS_OFFSET))(this);
 		}
 
-		::System::Void AddAttachmentTintBlack(::System::Single r2, ::System::Single g2, ::System::Single b2, ::System::Single a, ::System::Int32 vertexCount)
+		::System::Void AddAttachmentTintBlack(::UnityEngine::Color darkColor, ::System::Single a, ::System::Int32 vertexCount)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_ADDATTACHMENTTINTBLACK_OFFSET))(this, r2, g2, b2, a, vertexCount);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_ADDATTACHMENTTINTBLACK_OFFSET))(this, darkColor, a, vertexCount);
+		}
+
+		::System::Void PrepareOptionalUVBuffer(::Spine::ExposedList_1<::UnityEngine::Vector2>*& uvBuffer, ::System::Int32 vertexCount)
+		{
+			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::UnityEngine::Vector2>*&, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_PREPAREOPTIONALUVBUFFER_OFFSET))(this, uvBuffer, vertexCount);
+		}
+
+		::System::Void ResizeOptionalUVBuffer(::Spine::ExposedList_1<::UnityEngine::Vector2>*& uvBuffer, ::System::Int32 vertexCount)
+		{
+			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::UnityEngine::Vector2>*&, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_RESIZEOPTIONALUVBUFFER_OFFSET))(this, uvBuffer, vertexCount);
+		}
+
+		::System::Void FlipBackfaceWindingOrder()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_FLIPBACKFACEWINDINGORDER_OFFSET))(this);
 		}
 
 		::System::Void FillVertexData(::UnityEngine::Mesh* mesh)
@@ -188,9 +215,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_FILLTRIANGLES_OFFSET))(this, mesh);
 		}
 
-		::System::Void EnsureVertexCapacity(::System::Int32 minimumVertexCount, ::System::Boolean inlcudeTintBlack, ::System::Boolean includeTangents, ::System::Boolean includeNormals)
+		::System::Void EnsureVertexCapacity(::System::Int32 minimumVertexCount, ::System::Boolean includeTintBlack, ::System::Boolean includeTangents, ::System::Boolean includeNormals)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_ENSUREVERTEXCAPACITY_OFFSET))(this, minimumVertexCount, inlcudeTintBlack, includeTangents, includeNormals);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_ENSUREVERTEXCAPACITY_OFFSET))(this, minimumVertexCount, includeTintBlack, includeTangents, includeNormals);
 		}
 
 		::System::Void TrimExcess()
@@ -211,16 +238,6 @@ namespace Spine::Unity
 		static ::System::Void SolveTangents2DBuffer(::Il2CppArray<::UnityEngine::Vector4>* tangents, ::Il2CppArray<::UnityEngine::Vector2>* tempTanBuffer, ::System::Int32 vertexCount)
 		{
 			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector4>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_SOLVETANGENTS2DBUFFER_OFFSET))(tangents, tempTanBuffer, vertexCount);
-		}
-
-		static ::System::Void FillMeshLocal(::UnityEngine::Mesh* mesh, ::Spine::RegionAttachment* regionAttachment)
-		{
-			return ((::System::Void(*)(::UnityEngine::Mesh*, ::Spine::RegionAttachment*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_FILLMESHLOCAL_OFFSET))(mesh, regionAttachment);
-		}
-
-		static ::System::Void FillMeshLocal_1(::UnityEngine::Mesh* mesh, ::Spine::MeshAttachment* meshAttachment, ::Spine::SkeletonData* skeletonData)
-		{
-			return ((::System::Void(*)(::UnityEngine::Mesh*, ::Spine::MeshAttachment*, ::Spine::SkeletonData*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_FILLMESHLOCAL_1_OFFSET))(mesh, meshAttachment, skeletonData);
 		}
 	};
 }

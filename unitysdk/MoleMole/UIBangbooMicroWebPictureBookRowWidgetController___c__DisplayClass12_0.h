@@ -5,18 +5,18 @@
 namespace MoleMole { class UIBangbooMicroWebPictureBookRowWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBANGBOOMICROWEBPICTUREBOOKROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180227A0)
-#define MOLEMOLE_UIBANGBOOMICROWEBPICTUREBOOKROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__PLAYUNLOCKANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x180227B0)
+#define MOLEMOLE_UIBANGBOOMICROWEBPICTUREBOOKROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19186E60)
+#define MOLEMOLE_UIBANGBOOMICROWEBPICTUREBOOKROWWIDGETCONTROLLER___C__DISPLAYCLASS12_0__PLAYUNLOCKANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x19186E70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooMicroWebPictureBookRowWidgetController___c__DisplayClass12_0_TypeDefinitionIndex = 53720;
+	inline static constexpr unsigned int UIBangbooMicroWebPictureBookRowWidgetController___c__DisplayClass12_0_TypeDefinitionIndex = 74227;
 
 	class UIBangbooMicroWebPictureBookRowWidgetController___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBangbooMicroWebPictureBookRowWidgetController* __4__this; // 0x10
-		::System::Action* onComplete; // 0x18
+		::System::Action* onComplete; // 0x10
+		::MoleMole::UIBangbooMicroWebPictureBookRowWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

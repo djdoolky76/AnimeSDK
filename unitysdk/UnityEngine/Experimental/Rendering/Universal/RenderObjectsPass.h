@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/Universal/RenderQueueType.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Rendering/CompareFunction.h"
 #include "unitysdk/UnityEngine/Rendering/FilteringSettings.h"
 #include "unitysdk/UnityEngine/Rendering/RenderStateBlock.h"
-#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Rendering/ShaderTagId.h"
 #include "unitysdk/UnityEngine/Rendering/StencilOp.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
+#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -18,31 +18,31 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine::Experimental::Rendering::Universal { class RenderObjects_CustomCameraSettings; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C4D2930)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_GET_OVERRIDEMATERIALPASSINDEX_OFFSET UNITYSDK_OFFSET(0x1C4D2390)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_GET_OVERRIDEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C4D2370)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_SETDETPHSTATE_OFFSET UNITYSDK_OFFSET(0x1C4D23B0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_SETSTENCILSTATE_OFFSET UNITYSDK_OFFSET(0x1C4D2420)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_SET_OVERRIDEMATERIALPASSINDEX_OFFSET UNITYSDK_OFFSET(0x1C4D23A0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_SET_OVERRIDEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C4D2380)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D24E0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C97B6B0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_GET_OVERRIDEMATERIALPASSINDEX_OFFSET UNITYSDK_OFFSET(0x1C97B110)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_GET_OVERRIDEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C97B0F0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_SETDETPHSTATE_OFFSET UNITYSDK_OFFSET(0x1C97B130)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_SETSTENCILSTATE_OFFSET UNITYSDK_OFFSET(0x1C97B1A0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_SET_OVERRIDEMATERIALPASSINDEX_OFFSET UNITYSDK_OFFSET(0x1C97B120)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS_SET_OVERRIDEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C97B100)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C97B260)
 
 namespace UnityEngine::Experimental::Rendering::Universal
 {
-	inline static constexpr unsigned int RenderObjectsPass_TypeDefinitionIndex = 27097;
+	inline static constexpr unsigned int RenderObjectsPass_TypeDefinitionIndex = 26415;
 
 	class RenderObjectsPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		::UnityEngine::Experimental::Rendering::Universal::RenderObjects_CustomCameraSettings* m_CameraSettings; // 0xA8
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList; // 0xB0
-		::System::String* m_ProfilerTag; // 0xB8
+		::System::String* m_ProfilerTag; // 0xA8
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xB0
+		::UnityEngine::Experimental::Rendering::Universal::RenderObjects_CustomCameraSettings* m_CameraSettings; // 0xB8
 		::UnityEngine::Material* _overrideMaterial_k__BackingField; // 0xC0
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xC8
-		::UnityEngine::Rendering::FilteringSettings m_FilteringSettings; // 0xD0
-		::UnityEngine::Experimental::Rendering::Universal::RenderQueueType renderQueueType; // 0xEC
-		::System::Int32 _overrideMaterialPassIndex_k__BackingField; // 0xF0
-		::UnityEngine::Rendering::RenderStateBlock m_RenderStateBlock; // 0xF4
+		::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList; // 0xC8
+		::UnityEngine::Experimental::Rendering::Universal::RenderQueueType renderQueueType; // 0xD0
+		::System::Int32 _overrideMaterialPassIndex_k__BackingField; // 0xD4
+		::UnityEngine::Rendering::RenderStateBlock m_RenderStateBlock; // 0xD8
+		::UnityEngine::Rendering::FilteringSettings m_FilteringSettings; // 0x144
 
 		::System::Void _ctor(::System::String* profilerTag, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent renderPassEvent, ::Il2CppArray<::System::String*>* shaderTags, ::UnityEngine::Experimental::Rendering::Universal::RenderQueueType renderQueueType, ::System::Int32 layerMask, ::UnityEngine::Experimental::Rendering::Universal::RenderObjects_CustomCameraSettings* cameraSettings)
 		{

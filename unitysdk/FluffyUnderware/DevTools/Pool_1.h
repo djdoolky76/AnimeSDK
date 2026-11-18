@@ -4,13 +4,11 @@
 
 namespace FluffyUnderware::DevTools { class PoolSettings; }
 namespace System { class String; }
-namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine { class Transform; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int Pool_1_TypeDefinitionIndex = 28953;
+	inline static constexpr unsigned int Pool_1_TypeDefinitionIndex = 28392;
 
 	template <typename T>
 	class Pool_1 : public ::System::Object

@@ -3,13 +3,14 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int PropertyFlags_TypeDefinitionIndex = 28363;
+	inline static constexpr unsigned int PropertyFlags_TypeDefinitionIndex = 27800;
 
 	enum class PropertyFlags : ::System::UInt32
 	{
-		None = 0x0,
-		Edit = 0x1,
-		IsPlainOldData = 0x2,
-		CanZeroCreate = 0x4,
+		None = 0,
+		Edit = 1,
+		IsPlainOldData = 2,
+		CanZeroCreate = 4,
+		ShouldDispose = 8,
 	};
 }

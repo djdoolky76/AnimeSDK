@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GalGame/MainCityChatPlayableNodeBase.h"
 
-class Class_1_2D5DADE6FF36AA79;
+class BAPNBOCDBHM;
 namespace MoleMole { class UIBaseChatPlayController; }
 namespace MoleMole { class UIMainCityChatPlayContext; }
 namespace MoleMole::GalGame { class MainCityChatBranchItem; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWCONFIRMPOPUPNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x136A66C0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWCONFIRMPOPUPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x136A6660)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWCONFIRMPOPUPNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1357DC00)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWCONFIRMPOPUPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1357DBA0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatShowConfirmPopupNode_TypeDefinitionIndex = 91573;
+	inline static constexpr unsigned int MainCityChatShowConfirmPopupNode_TypeDefinitionIndex = 72987;
 
 	class MainCityChatShowConfirmPopupNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
@@ -30,9 +30,9 @@ namespace MoleMole::GalGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSHOWCONFIRMPOPUPNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_2D5DADE6FF36AA79* Instantiate(::MoleMole::UIBaseChatPlayController* controller, ::MoleMole::UIMainCityChatPlayContext* context)
+		::BAPNBOCDBHM* Instantiate(::MoleMole::UIBaseChatPlayController* controller, ::MoleMole::UIMainCityChatPlayContext* context)
 		{
-			return ((::Class_1_2D5DADE6FF36AA79*(*)(::PVOID, ::MoleMole::UIBaseChatPlayController*, ::MoleMole::UIMainCityChatPlayContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSHOWCONFIRMPOPUPNODE_INSTANTIATE_OFFSET))(this, controller, context);
+			return ((::BAPNBOCDBHM*(*)(::PVOID, ::MoleMole::UIBaseChatPlayController*, ::MoleMole::UIMainCityChatPlayContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSHOWCONFIRMPOPUPNODE_INSTANTIATE_OFFSET))(this, controller, context);
 		}
 	};
 }

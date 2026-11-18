@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_PlayerUpdateCanvases_TypeDefinitionIndex = 5623;
+	inline static constexpr unsigned int PostLateUpdate_PlayerUpdateCanvases_TypeDefinitionIndex = 5627;
 
-	struct alignas(1) PostLateUpdate_PlayerUpdateCanvases
+	struct alignas(4) PostLateUpdate_PlayerUpdateCanvases
 	{
 	};
 }

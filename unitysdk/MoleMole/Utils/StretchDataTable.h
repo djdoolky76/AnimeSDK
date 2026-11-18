@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Utils/NapDictionaryBasedDataTable_1.h"
 
-namespace MoleMole::Utils { class StretchDataTableEntry; }
-
-#define MOLEMOLE_UTILS_STRETCHDATATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x14DA8340)
+#define MOLEMOLE_UTILS_STRETCHDATATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x170DD500)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int StretchDataTable_TypeDefinitionIndex = 69064;
+	inline static constexpr unsigned int StretchDataTable_TypeDefinitionIndex = 56292;
 
-	class StretchDataTable : public ::MoleMole::Utils::NapDictionaryBasedDataTable_1<::MoleMole::Utils::StretchDataTableEntry*>
+	class StretchDataTable
 	{
 	public:
 		::System::Void _ctor()

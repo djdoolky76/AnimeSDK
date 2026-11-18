@@ -7,13 +7,14 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBuffMisc_ConfigLumenMisc_TypeDefinitionIndex = 71680;
+	inline static constexpr unsigned int ConfigBuffMisc_ConfigLumenMisc_TypeDefinitionIndex = 72969;
 
 	struct alignas(8) ConfigBuffMisc_ConfigLumenMisc
 	{
 		::System::Int32 LuminizeBuffID; // 0x10
 		::System::Int32 DefaultMaxPoints; // 0x14
 		::System::Int32 DefaultMaxBulletNum; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* AmplifyFactorCustomProperties; // 0x20
 		::System::Single WeakPanelCD; // 0x28
 	};

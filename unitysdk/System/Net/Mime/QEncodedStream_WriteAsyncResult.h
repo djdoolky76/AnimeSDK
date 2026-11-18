@@ -7,16 +7,16 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net::Mime { class QEncodedStream; }
 
-#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_COMPLETEWRITE_OFFSET UNITYSDK_OFFSET(0x1DB8B410)
-#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_END_OFFSET UNITYSDK_OFFSET(0x1DB8B480)
-#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_ONWRITE_OFFSET UNITYSDK_OFFSET(0x1DB8B4F0)
-#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_WRITE_OFFSET UNITYSDK_OFFSET(0x1DB8B750)
-#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB8B9C0)
-#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8B370)
+#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_COMPLETEWRITE_OFFSET UNITYSDK_OFFSET(0x1DF331E0)
+#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_END_OFFSET UNITYSDK_OFFSET(0x1DF33250)
+#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_ONWRITE_OFFSET UNITYSDK_OFFSET(0x1DF332C0)
+#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT_WRITE_OFFSET UNITYSDK_OFFSET(0x1DF33520)
+#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF33790)
+#define SYSTEM_NET_MIME_QENCODEDSTREAM_WRITEASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF33140)
 
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int QEncodedStream_WriteAsyncResult_TypeDefinitionIndex = 3629;
+	inline static constexpr unsigned int QEncodedStream_WriteAsyncResult_TypeDefinitionIndex = 3628;
 
 	class QEncodedStream_WriteAsyncResult : public ::System::Net::LazyAsyncResult
 	{
@@ -27,9 +27,9 @@ namespace System::Net::Mime
 		}
 		::Il2CppArray<::System::Byte>* buffer; // 0x48
 		::System::Net::Mime::QEncodedStream* parent; // 0x50
-		::System::Int32 count; // 0x58
+		::System::Int32 written; // 0x58
 		::System::Int32 offset; // 0x5C
-		::System::Int32 written; // 0x60
+		::System::Int32 count; // 0x60
 
 		::System::Void _ctor(::System::Net::Mime::QEncodedStream* parent, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::AsyncCallback* callback, ::System::Object* state)
 		{

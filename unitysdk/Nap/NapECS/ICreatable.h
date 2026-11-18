@@ -3,7 +3,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ICreatable_TypeDefinitionIndex = 37990;
+	inline static constexpr unsigned int ICreatable_TypeDefinitionIndex = 36043;
 
 	class ICreatable
 	{

@@ -5,17 +5,20 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Collections/NativeList_1.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYAPPLYMOVEPLATFORMPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x463C60)
+#define NPCCROWD_ABILITY_NPCABILITYAPPLYMOVEPLATFORMPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x593A20)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityApplyMovePlatformProcessor_ExecuteJob_TypeDefinitionIndex = 89006;
+	inline static constexpr unsigned int NPCAbilityApplyMovePlatformProcessor_ExecuteJob_TypeDefinitionIndex = 57418;
 
 	struct alignas(8) NPCAbilityApplyMovePlatformProcessor_ExecuteJob
 	{
 		::Unity::Collections::NativeArray_1<::System::Boolean> runtime_bIsUsing; // 0x10
+		::System::Byte _padding0[0x8];
 		::Unity::Collections::NativeList_1<::System::Int32> attachedIndices; // 0x20
+		::System::Byte _padding1[0x8];
 		::Unity::Collections::NativeList_1<::NPCCrowd::Ability::FTransformFragment> attachedTransforms; // 0x30
+		::System::Byte _padding2[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> runtime_transform; // 0x40
 
 		::System::Void Execute(::System::Int32 idx)

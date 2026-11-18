@@ -7,24 +7,25 @@
 namespace System { class Object; }
 namespace UnityEngine::Rendering::Universal { class WeatherConfigScriptableObject; }
 
-#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_GET_REALPRIORITY_OFFSET UNITYSDK_OFFSET(0x11D7EF10)
-#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_METHOD_3_832295EC279E5994_1_OFFSET UNITYSDK_OFFSET(0x11D7F520)
-#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_METHOD_3_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x11D7F510)
-#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_METHOD_3_ED01C45E2F8DB392_OFFSET UNITYSDK_OFFSET(0x11D7F530)
-#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_ONPAUSE_OFFSET UNITYSDK_OFFSET(0x11D7F0D0)
-#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_ONPLAY_OFFSET UNITYSDK_OFFSET(0x11D7EF20)
-#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_ONPROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x11D7F280)
-#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x11D7F500)
+#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_EEEPHBMCNEN_OFFSET UNITYSDK_OFFSET(0x189744B0)
+#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_GET_REALPRIORITY_OFFSET UNITYSDK_OFFSET(0x18973E90)
+#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_JEINNALOJDE_OFFSET UNITYSDK_OFFSET(0x189744A0)
+#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_OFMFPDACPLH_OFFSET UNITYSDK_OFFSET(0x18974490)
+#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_ONPAUSE_OFFSET UNITYSDK_OFFSET(0x18974050)
+#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_ONPLAY_OFFSET UNITYSDK_OFFSET(0x18973EA0)
+#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_ONPROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x18974200)
+#define MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18974480)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int VisualEnvironmentOverrideBehavior_TypeDefinitionIndex = 59709;
+	inline static constexpr unsigned int VisualEnvironmentOverrideBehavior_TypeDefinitionIndex = 64716;
 
 	class VisualEnvironmentOverrideBehavior : public ::MoleMole::Timeline::BaseTimeline::BaseTimelineBehavior
 	{
 	public:
 		::System::Int32 priority; // 0x18
 		::System::Boolean isApplied; // 0x1C
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Rendering::Universal::WeatherConfigScriptableObject* overrideConfig; // 0x20
 
 		::System::Void _ctor()
@@ -47,24 +48,24 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_ONPAUSE_OFFSET))(this);
 		}
 
-		::System::Void OnProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::Playable a2, ::UnityEngine::Playables::FrameData a3, ::System::Object* a4, ::System::Single a5, ::System::Int32 a6)
+		::System::Void OnProcessFrame(::UnityEngine::Playables::Playable BBAPGLCBDOF, ::UnityEngine::Playables::Playable HKOFGPMIFHB, ::UnityEngine::Playables::FrameData HMMMOCJAEOA, ::System::Object* NEEMKJBIIBC, ::System::Single IECOJPMPJMP, ::System::Int32 DFDHKJHBBAD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_ONPROCESSFRAME_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_ONPROCESSFRAME_OFFSET))(this, BBAPGLCBDOF, HKOFGPMIFHB, HMMMOCJAEOA, NEEMKJBIIBC, IECOJPMPJMP, DFDHKJHBBAD);
 		}
 
-		::System::Void Method_3_832295EC279E5994()
+		::System::Void OFMFPDACPLH(::UnityEngine::Playables::Playable MIALFKCCCPI, ::UnityEngine::Playables::Playable KMGKAIDEIBA, ::UnityEngine::Playables::FrameData FDHMCIFPNCK, ::System::Object* MPBJAGIKPJM, ::System::Single DDMDINPGCFI, ::System::Int32 CEIDLKIHMLC)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_METHOD_3_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_OFMFPDACPLH_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM, DDMDINPGCFI, CEIDLKIHMLC);
 		}
 
-		::System::Void Method_3_832295EC279E5994_1()
+		::System::Void JEINNALOJDE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_METHOD_3_832295EC279E5994_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_JEINNALOJDE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_ED01C45E2F8DB392(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::Playable a2, ::UnityEngine::Playables::FrameData a3, ::System::Object* a4, ::System::Single a5, ::System::Int32 a6)
+		::System::Void EEEPHBMCNEN()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_METHOD_3_ED01C45E2F8DB392_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVIRONMENTOVERRIDEBEHAVIOR_EEEPHBMCNEN_OFFSET))(this);
 		}
 	};
 }

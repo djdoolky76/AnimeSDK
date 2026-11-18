@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIHollowMainBottomWidgetController; }
 
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS83_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18842750)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS83_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183A9250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass83_0_TypeDefinitionIndex = 83692;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass83_0_TypeDefinitionIndex = 43705;
 
 	class UIHollowMainBottomWidgetController___c__DisplayClass83_0 : public ::System::Object
 	{

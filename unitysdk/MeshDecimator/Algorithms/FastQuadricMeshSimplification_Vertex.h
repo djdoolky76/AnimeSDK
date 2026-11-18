@@ -4,13 +4,13 @@
 #include "unitysdk/MeshDecimator/Math/Vector3d.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MESHDECIMATOR_ALGORITHMS_FASTQUADRICMESHSIMPLIFICATION_VERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0xA0D680)
+#define MESHDECIMATOR_ALGORITHMS_FASTQUADRICMESHSIMPLIFICATION_VERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x9015A0)
 
 namespace MeshDecimator::Algorithms
 {
-	inline static constexpr unsigned int FastQuadricMeshSimplification_Vertex_TypeDefinitionIndex = 35494;
+	inline static constexpr unsigned int FastQuadricMeshSimplification_Vertex_TypeDefinitionIndex = 35067;
 
-	struct alignas(8) FastQuadricMeshSimplification_Vertex
+	struct alignas(4) FastQuadricMeshSimplification_Vertex
 	{
 		::MeshDecimator::Math::Vector3d p; // 0x10
 		::System::Int32 tstart; // 0x28

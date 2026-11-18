@@ -3,7 +3,7 @@
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int ProxyElement_BypassOnLocalValues_TypeDefinitionIndex = 4126;
+	inline static constexpr unsigned int ProxyElement_BypassOnLocalValues_TypeDefinitionIndex = 4125;
 
 	enum class ProxyElement_BypassOnLocalValues : ::System::Int32
 	{

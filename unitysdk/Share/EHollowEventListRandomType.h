@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowEventListRandomType_TypeDefinitionIndex = 16356;
+	inline static constexpr unsigned int EHollowEventListRandomType_TypeDefinitionIndex = 14052;
 
 	enum class EHollowEventListRandomType : ::System::Int16
 	{
-		Unlimited = 0,
 		Limited = 1,
+		Unlimited = 0,
 		EnumCount = 2,
 	};
 }

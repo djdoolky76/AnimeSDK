@@ -13,37 +13,39 @@ namespace DigitalOpus::MB::Core { class ProgressUpdateDelegate; }
 namespace DigitalOpus::MB::Core { class ShaderTextureProperty; }
 namespace UnityEngine { class Texture2D; }
 
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CREATEATLASES_D__1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1ECD92A0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CREATEATLASES_D__1_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1ECDAA60)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CREATEATLASES_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1ECDAAC0)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CREATEATLASES_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1ECDAA70)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CREATEATLASES_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ECD9290)
-#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CREATEATLASES_D__1__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD9280)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CREATEATLASES_D__1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F078040)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CREATEATLASES_D__1_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F0797E0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CREATEATLASES_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F079840)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CREATEATLASES_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F0797F0)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CREATEATLASES_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F078030)
+#define DIGITALOPUS_MB_CORE_MB3_TEXTURECOMBINERPACKERMESHBAKER__CREATEATLASES_D__1__CTOR_OFFSET UNITYSDK_OFFSET(0x1F078020)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_TextureCombinerPackerMeshBaker__CreateAtlases_d__1_TypeDefinitionIndex = 94653;
+	inline static constexpr unsigned int MB3_TextureCombinerPackerMeshBaker__CreateAtlases_d__1_TypeDefinitionIndex = 96340;
 
+	template <typename T>
 	class MB3_TextureCombinerPackerMeshBaker__CreateAtlases_d__1 : public ::System::Object
 	{
 	public:
-		::DigitalOpus::MB::Core::AtlasPackingResult* packedAtlasRects; // 0x10
-		::Il2CppArray<::Il2CppArray<::UnityEngine::Color>*>* _atlasPixels_5__7; // 0x18
-		::DigitalOpus::MB::Core::MB3_TextureCombiner* combiner; // 0x20
-		::DigitalOpus::MB::Core::ShaderTextureProperty* _property_5__6; // 0x28
-		::DigitalOpus::MB::Core::MB2_EditorMethodsInterface* textureEditorMethods; // 0x30
-		::System::Object* __2__current; // 0x38
-		::Il2CppArray<::UnityEngine::Texture2D*>* atlases; // 0x40
-		::DigitalOpus::MB::Core::MB3_TextureCombinerPipeline_TexturePipelineData* data; // 0x48
-		::Il2CppArray<::UnityEngine::Rect>* _uvRects_5__2; // 0x50
-		::DigitalOpus::MB::Core::ProgressUpdateDelegate* progressInfo; // 0x58
+		::Il2CppArray<::UnityEngine::Rect>* _uvRects_5__2; // 0x10
+		::DigitalOpus::MB::Core::MB3_TextureCombiner* combiner; // 0x18
+		::DigitalOpus::MB::Core::AtlasPackingResult* packedAtlasRects; // 0x20
+		::Il2CppArray<::UnityEngine::Texture2D*>* atlases; // 0x28
+		::Il2CppArray<::Il2CppArray<::UnityEngine::Color>*>* _atlasPixels_5__7; // 0x30
+		::DigitalOpus::MB::Core::ProgressUpdateDelegate* progressInfo; // 0x38
+		::DigitalOpus::MB::Core::MB3_TextureCombinerPipeline_TexturePipelineData* data; // 0x40
+		::System::Object* __2__current; // 0x48
+		::DigitalOpus::MB::Core::ShaderTextureProperty* _property_5__6; // 0x50
+		::DigitalOpus::MB::Core::MB2_EditorMethodsInterface* textureEditorMethods; // 0x58
 		::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL; // 0x60
-		::System::Int32 _atlasSizeY_5__4; // 0x64
-		::System::Int32 __1__state; // 0x68
-		::System::Boolean _isNormalMap_5__8; // 0x6C
-		::System::Int32 _texSetIdx_5__9; // 0x70
-		::System::Int32 _atlasSizeX_5__3; // 0x74
-		::System::Int32 _propIdx_5__5; // 0x78
+		::System::Boolean _isNormalMap_5__8; // 0x64
+		::System::Byte _padding0[0x3];
+		::System::Int32 _atlasSizeY_5__4; // 0x68
+		::System::Int32 _propIdx_5__5; // 0x6C
+		::System::Int32 _atlasSizeX_5__3; // 0x70
+		::System::Int32 __1__state; // 0x74
+		::System::Int32 _texSetIdx_5__9; // 0x78
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

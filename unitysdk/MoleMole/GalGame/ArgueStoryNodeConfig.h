@@ -6,11 +6,11 @@ namespace MoleMole::GalGame { class ArgueGeneralUIStateConfig; }
 namespace MoleMole::GalGame { class ArgueSplitScreenMoveConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_ARGUESTORYNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B17F00)
+#define MOLEMOLE_GALGAME_ARGUESTORYNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F4EA0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int ArgueStoryNodeConfig_TypeDefinitionIndex = 53457;
+	inline static constexpr unsigned int ArgueStoryNodeConfig_TypeDefinitionIndex = 41477;
 
 	class ArgueStoryNodeConfig : public ::System::Object
 	{

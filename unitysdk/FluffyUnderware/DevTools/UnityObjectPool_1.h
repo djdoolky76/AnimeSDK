@@ -2,16 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FluffyUnderware/DevTools/DTVersionedMonoBehaviour.h"
 
-namespace FluffyUnderware::DevTools { class PoolManager; }
 namespace FluffyUnderware::DevTools { class PoolSettings; }
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine { class GameObject; }
-namespace UnityEngine { class Transform; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int UnityObjectPool_1_TypeDefinitionIndex = 28998;
+	inline static constexpr unsigned int UnityObjectPool_1_TypeDefinitionIndex = 28437;
 
 	template <typename T>
 	class UnityObjectPool_1 : public ::FluffyUnderware::DevTools::DTVersionedMonoBehaviour

@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class MultiRendererBehavior; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_MULTIRENDERERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F3A0970)
-#define MOLEMOLE_TIMELINE_MULTIRENDERERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F3A0960)
-#define MOLEMOLE_TIMELINE_MULTIRENDERERCLIP_GET_REFERENCES_OFFSET UNITYSDK_OFFSET(0x1F3A0920)
-#define MOLEMOLE_TIMELINE_MULTIRENDERERCLIP_SET_REFERENCES_OFFSET UNITYSDK_OFFSET(0x1F3A0940)
-#define MOLEMOLE_TIMELINE_MULTIRENDERERCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A0A70)
+#define MOLEMOLE_TIMELINE_MULTIRENDERERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F6DBD30)
+#define MOLEMOLE_TIMELINE_MULTIRENDERERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F6DBD20)
+#define MOLEMOLE_TIMELINE_MULTIRENDERERCLIP_GET_REFERENCES_OFFSET UNITYSDK_OFFSET(0x1F6DBCE0)
+#define MOLEMOLE_TIMELINE_MULTIRENDERERCLIP_SET_REFERENCES_OFFSET UNITYSDK_OFFSET(0x1F6DBD00)
+#define MOLEMOLE_TIMELINE_MULTIRENDERERCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6DBE30)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MultiRendererClip_TypeDefinitionIndex = 32844;
+	inline static constexpr unsigned int MultiRendererClip_TypeDefinitionIndex = 32295;
 
 	class MultiRendererClip : public ::UnityEngine::Playables::PlayableAsset
 	{

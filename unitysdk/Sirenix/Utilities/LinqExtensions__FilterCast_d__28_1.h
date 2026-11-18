@@ -4,11 +4,10 @@
 
 namespace System::Collections { class IEnumerable; }
 namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int LinqExtensions__FilterCast_d__28_1_TypeDefinitionIndex = 6473;
+	inline static constexpr unsigned int LinqExtensions__FilterCast_d__28_1_TypeDefinitionIndex = 6479;
 
 	template <typename T>
 	class LinqExtensions__FilterCast_d__28_1 : public ::System::Object

@@ -1,16 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Container/NativeBitArrayView_1_InlineData.h"
 #include "unitysdk/Foundation/Container/NativeFlatStorage_3.h"
 #include "unitysdk/System/ValueType.h"
 
+namespace System { class Object; }
+
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeBitArrayData_2_TypeDefinitionIndex = 8539;
+	inline static constexpr unsigned int NativeBitArrayData_2_TypeDefinitionIndex = 8956;
 
-	template <typename TUserData, typename TPointer>
-	struct NativeBitArrayData_2
+	template <typename T1, typename T2>
+	struct alignas(8) NativeBitArrayData_2
 	{
-		::Foundation::Container::NativeFlatStorage_3<::Foundation::Container::NativeBitArrayView_1_InlineData<TUserData>, ::System::UInt32, TPointer> _data; // 0x0
+		::Foundation::Container::NativeFlatStorage_3<::System::Object*, ::System::UInt32, T1> _data; // 0x0
 	};
 }

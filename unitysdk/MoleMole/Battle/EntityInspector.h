@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_BATTLE_ENTITYINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x14344470)
+#define MOLEMOLE_BATTLE_ENTITYINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1218D750)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int EntityInspector_TypeDefinitionIndex = 68059;
+	inline static constexpr unsigned int EntityInspector_TypeDefinitionIndex = 84873;
 
 	class EntityInspector : public ::UnityEngine::MonoBehaviour
 	{

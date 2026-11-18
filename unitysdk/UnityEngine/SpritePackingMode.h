@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SpritePackingMode_TypeDefinitionIndex = 5423;
+	inline static constexpr unsigned int SpritePackingMode_TypeDefinitionIndex = 5426;
 
 	enum class SpritePackingMode : ::System::Int32
 	{

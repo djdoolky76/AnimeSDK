@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CullingSphereAnchor_TypeDefinitionIndex = 27212;
+inline static constexpr unsigned int CullingSphereAnchor_TypeDefinitionIndex = 26345;
 
 enum class CullingSphereAnchor : ::System::Int32
 {

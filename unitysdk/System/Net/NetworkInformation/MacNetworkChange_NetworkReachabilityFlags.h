@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int MacNetworkChange_NetworkReachabilityFlags_TypeDefinitionIndex = 3804;
+	inline static constexpr unsigned int MacNetworkChange_NetworkReachabilityFlags_TypeDefinitionIndex = 3803;
 
 	enum class MacNetworkChange_NetworkReachabilityFlags : ::System::Int32
 	{

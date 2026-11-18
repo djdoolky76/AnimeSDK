@@ -6,22 +6,22 @@
 
 namespace MoleMole::Config { class ScenePeformAnimatorParam; }
 
-#define MOLEMOLE_CONFIG_SCENECHESSBOARDCUTSCENECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1487B890)
+#define MOLEMOLE_CONFIG_SCENECHESSBOARDCUTSCENECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B44F5A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SceneChessboardCutSceneConfig_TypeDefinitionIndex = 51688;
+	inline static constexpr unsigned int SceneChessboardCutSceneConfig_TypeDefinitionIndex = 52081;
 
 	class SceneChessboardCutSceneConfig : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::MoleMole::Config::ScenePeformAnimatorParam*>* AnimParams; // 0x10
 		::System::Single cutSceneAjustX; // 0x18
-		::System::Single InputMuteDelayTime; // 0x1C
-		::MoleMole::Config::CutSceneEndMode finishMode; // 0x20
-		::System::Single FlowCanvasDelayTime; // 0x24
-		::System::Single ShowUIDelayTime; // 0x28
-		::System::Single cutSceneAjustHeight; // 0x2C
+		::MoleMole::Config::CutSceneEndMode finishMode; // 0x1C
+		::System::Single InputMuteDelayTime; // 0x20
+		::System::Single ShowUIDelayTime; // 0x24
+		::System::Single cutSceneAjustHeight; // 0x28
+		::System::Single FlowCanvasDelayTime; // 0x2C
 		::System::Single cutSceneAjustZ; // 0x30
 		::MoleMole::Config::SceneChessboardCutSceneConfig_BodySize bodySize; // 0x34
 

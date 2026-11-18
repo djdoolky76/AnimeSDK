@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IGKOFMFKNNO.h"
+
+class EOFKLLHBPEP;
+
+#define GLJPMOJJLKN_CJEIOBLPMHC_OFFSET UNITYSDK_OFFSET(0x15D74780)
+#define GLJPMOJJLKN_JFDOOELFAOA_OFFSET UNITYSDK_OFFSET(0x15D74790)
+#define GLJPMOJJLKN_JLOIDPBPPDF_OFFSET UNITYSDK_OFFSET(0x15D74770)
+#define GLJPMOJJLKN__CTOR_OFFSET UNITYSDK_OFFSET(0x15D74760)
+
+inline static constexpr unsigned int GLJPMOJJLKN_TypeDefinitionIndex = 64765;
+
+class GLJPMOJJLKN : public ::IGKOFMFKNNO
+{
+public:
+	::EOFKLLHBPEP* _CFCPJGFLANK_k__BackingField; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GLJPMOJJLKN__CTOR_OFFSET))(this);
+	}
+
+	::System::Void JLOIDPBPPDF(::EOFKLLHBPEP* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::EOFKLLHBPEP*))((::PBYTE)hIl2Cpp + GLJPMOJJLKN_JLOIDPBPPDF_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::EOFKLLHBPEP* CJEIOBLPMHC()
+	{
+		return ((::EOFKLLHBPEP*(*)(::PVOID))((::PBYTE)hIl2Cpp + GLJPMOJJLKN_CJEIOBLPMHC_OFFSET))(this);
+	}
+
+	static ::GLJPMOJJLKN* JFDOOELFAOA()
+	{
+		return ((::GLJPMOJJLKN*(*)())((::PBYTE)hIl2Cpp + GLJPMOJJLKN_JFDOOELFAOA_OFFSET))();
+	}
+};

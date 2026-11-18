@@ -4,12 +4,12 @@
 
 namespace Nap::NapECS { class EcsArchetype; }
 
-#define NAP_NAPECS_ECSARCHETYPEDATATRANSFER_FLUSH_OFFSET UNITYSDK_OFFSET(0x95B940)
-#define NAP_NAPECS_ECSARCHETYPEDATATRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0x95B920)
+#define NAP_NAPECS_ECSARCHETYPEDATATRANSFER_FLUSH_OFFSET UNITYSDK_OFFSET(0x85F9D0)
+#define NAP_NAPECS_ECSARCHETYPEDATATRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0x85F9B0)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsArchetypeDataTransfer_TypeDefinitionIndex = 37980;
+	inline static constexpr unsigned int EcsArchetypeDataTransfer_TypeDefinitionIndex = 35942;
 
 	struct alignas(8) EcsArchetypeDataTransfer
 	{

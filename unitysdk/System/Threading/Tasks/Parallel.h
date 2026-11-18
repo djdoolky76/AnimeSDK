@@ -1,25 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/Tasks/ParallelLoopResult.h"
+#include "unitysdk/System/Threading/CancellationToken.h"
 
 namespace System { class Exception; }
-namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
-namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
-namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Threading::Tasks { class ParallelLoopState; }
 namespace System::Threading::Tasks { class ParallelOptions; }
 
-#define SYSTEM_THREADING_TASKS_PARALLEL_FOR_OFFSET UNITYSDK_OFFSET(0x1D81E740)
-#define SYSTEM_THREADING_TASKS_PARALLEL_THROWIFREDUCABLETOSINGLEOCE_OFFSET UNITYSDK_OFFSET(0x1D81E830)
-#define SYSTEM_THREADING_TASKS_PARALLEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D81EC40)
+#define SYSTEM_THREADING_TASKS_PARALLEL_FOR_OFFSET UNITYSDK_OFFSET(0x1DD25EA0)
+#define SYSTEM_THREADING_TASKS_PARALLEL_THROWIFREDUCABLETOSINGLEOCE_OFFSET UNITYSDK_OFFSET(0x1DD25F90)
+#define SYSTEM_THREADING_TASKS_PARALLEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD263A0)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int Parallel_TypeDefinitionIndex = 887;
+	inline static constexpr unsigned int Parallel_TypeDefinitionIndex = 886;
 
 	class Parallel : public ::System::Object
 	{

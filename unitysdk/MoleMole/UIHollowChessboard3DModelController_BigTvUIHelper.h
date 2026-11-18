@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7609C87F8335DE37_6.h"
+#include "unitysdk/LNIMEBJJNNP.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIWindowController; }
 
-#define MOLEMOLE_UIHOLLOWCHESSBOARD3DMODELCONTROLLER_BIGTVUIHELPER_OPENUI_OFFSET UNITYSDK_OFFSET(0x18366350)
+#define MOLEMOLE_UIHOLLOWCHESSBOARD3DMODELCONTROLLER_BIGTVUIHELPER_OPENUI_OFFSET UNITYSDK_OFFSET(0x187CA590)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowChessboard3DModelController_BigTvUIHelper_TypeDefinitionIndex = 63280;
+	inline static constexpr unsigned int UIHollowChessboard3DModelController_BigTvUIHelper_TypeDefinitionIndex = 43485;
 
 	class UIHollowChessboard3DModelController_BigTvUIHelper : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIWindowController* OpenUI(::Enum_3_7609C87F8335DE37_6 type)
+		static ::MoleMole::UIWindowController* OpenUI(::LNIMEBJJNNP type)
 		{
-			return ((::MoleMole::UIWindowController*(*)(::Enum_3_7609C87F8335DE37_6))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCHESSBOARD3DMODELCONTROLLER_BIGTVUIHELPER_OPENUI_OFFSET))(type);
+			return ((::MoleMole::UIWindowController*(*)(::LNIMEBJJNNP))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCHESSBOARD3DMODELCONTROLLER_BIGTVUIHELPER_OPENUI_OFFSET))(type);
 		}
 	};
 }

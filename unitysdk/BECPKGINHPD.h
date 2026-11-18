@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/AJJMHOGKDNF.h"
+
+class BECPKGINHPD_MGHFLAJMKMN;
+
+#define BECPKGINHPD_BBOMJDBNHIC_OFFSET UNITYSDK_OFFSET(0x169E70E0)
+#define BECPKGINHPD_DIEONOCIKBC_OFFSET UNITYSDK_OFFSET(0x169E64C0)
+#define BECPKGINHPD_HAPAMDBJOCA_OFFSET UNITYSDK_OFFSET(0x169E6860)
+#define BECPKGINHPD_IMHCGJAIAFP_OFFSET UNITYSDK_OFFSET(0x169E62F0)
+#define BECPKGINHPD_LJMIPGJJELP_OFFSET UNITYSDK_OFFSET(0x169E7130)
+#define BECPKGINHPD__CTOR_OFFSET UNITYSDK_OFFSET(0x169E62E0)
+
+inline static constexpr unsigned int BECPKGINHPD_TypeDefinitionIndex = 71109;
+
+class BECPKGINHPD : public ::System::Object
+{
+public:
+	::BECPKGINHPD_MGHFLAJMKMN* LJBPECKCCEA; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BECPKGINHPD__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void IMHCGJAIAFP(::AJJMHOGKDNF EJFGMAHJMHK, ::System::Boolean EMHPEOIKCOL)
+	{
+		return ((::System::Void(*)(::AJJMHOGKDNF, ::System::Boolean))((::PBYTE)hIl2Cpp + BECPKGINHPD_IMHCGJAIAFP_OFFSET))(EJFGMAHJMHK, EMHPEOIKCOL);
+	}
+
+	::System::Void DIEONOCIKBC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BECPKGINHPD_DIEONOCIKBC_OFFSET))(this);
+	}
+
+	::System::Void HAPAMDBJOCA(::AJJMHOGKDNF EJFGMAHJMHK)
+	{
+		return ((::System::Void(*)(::PVOID, ::AJJMHOGKDNF))((::PBYTE)hIl2Cpp + BECPKGINHPD_HAPAMDBJOCA_OFFSET))(this, EJFGMAHJMHK);
+	}
+
+	::System::Void BBOMJDBNHIC(::BECPKGINHPD_MGHFLAJMKMN* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::BECPKGINHPD_MGHFLAJMKMN*))((::PBYTE)hIl2Cpp + BECPKGINHPD_BBOMJDBNHIC_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Void LJMIPGJJELP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BECPKGINHPD_LJMIPGJJELP_OFFSET))(this);
+	}
+};

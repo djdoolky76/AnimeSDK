@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/ReadOnlyArray_1.h"
 #include "unitysdk/UnityEngine/InputSystem/DefaultInputActions_PlayerActions.h"
 #include "unitysdk/UnityEngine/InputSystem/DefaultInputActions_UIActions.h"
 #include "unitysdk/UnityEngine/InputSystem/InputBinding.h"
 #include "unitysdk/UnityEngine/InputSystem/InputControlScheme.h"
-#include "unitysdk/UnityEngine/InputSystem/Utilities/ReadOnlyArray_1.h"
 
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
@@ -19,60 +19,60 @@ namespace UnityEngine::InputSystem { class InputActionAsset; }
 namespace UnityEngine::InputSystem { class InputActionMap; }
 namespace UnityEngine::InputSystem { class InputDevice; }
 
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1F1676E0)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_DISABLE_OFFSET UNITYSDK_OFFSET(0x1F167830)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F167480)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_ENABLE_OFFSET UNITYSDK_OFFSET(0x1F167810)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_FINDACTION_OFFSET UNITYSDK_OFFSET(0x1F1678C0)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_FINDBINDING_OFFSET UNITYSDK_OFFSET(0x1F1678E0)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F167770)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1F1671E0)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_BINDINGMASK_OFFSET UNITYSDK_OFFSET(0x1F167540)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_BINDINGS_OFFSET UNITYSDK_OFFSET(0x1F167850)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_CONTROLSCHEMES_OFFSET UNITYSDK_OFFSET(0x1F1676A0)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_DEVICES_OFFSET UNITYSDK_OFFSET(0x1F167600)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_GAMEPADSCHEME_OFFSET UNITYSDK_OFFSET(0x1F167A40)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_JOYSTICKSCHEME_OFFSET UNITYSDK_OFFSET(0x1F167C00)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_KEYBOARDMOUSESCHEME_OFFSET UNITYSDK_OFFSET(0x1F167960)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_PLAYER_OFFSET UNITYSDK_OFFSET(0x1F167940)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_TOUCHSCHEME_OFFSET UNITYSDK_OFFSET(0x1F167B20)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_UI_OFFSET UNITYSDK_OFFSET(0x1F167950)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_XRSCHEME_OFFSET UNITYSDK_OFFSET(0x1F167CE0)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_SET_BINDINGMASK_OFFSET UNITYSDK_OFFSET(0x1F167590)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_SET_DEVICES_OFFSET UNITYSDK_OFFSET(0x1F167660)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F1677C0)
-#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1671F0)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1F56CD00)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_DISABLE_OFFSET UNITYSDK_OFFSET(0x1F56CE50)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F56CAC0)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_ENABLE_OFFSET UNITYSDK_OFFSET(0x1F56CE30)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_FINDACTION_OFFSET UNITYSDK_OFFSET(0x1F56CED0)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_FINDBINDING_OFFSET UNITYSDK_OFFSET(0x1F56CEF0)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F56CD90)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1F56C820)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_BINDINGMASK_OFFSET UNITYSDK_OFFSET(0x1F56CB70)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_BINDINGS_OFFSET UNITYSDK_OFFSET(0x1F56CE70)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_CONTROLSCHEMES_OFFSET UNITYSDK_OFFSET(0x1F56CCC0)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_DEVICES_OFFSET UNITYSDK_OFFSET(0x1F56CC20)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_GAMEPADSCHEME_OFFSET UNITYSDK_OFFSET(0x1F56D040)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_JOYSTICKSCHEME_OFFSET UNITYSDK_OFFSET(0x1F56D1E0)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_KEYBOARDMOUSESCHEME_OFFSET UNITYSDK_OFFSET(0x1F56CF70)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_PLAYER_OFFSET UNITYSDK_OFFSET(0x1F56CF50)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_TOUCHSCHEME_OFFSET UNITYSDK_OFFSET(0x1F56D110)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_UI_OFFSET UNITYSDK_OFFSET(0x1F56CF60)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_GET_XRSCHEME_OFFSET UNITYSDK_OFFSET(0x1F56D2B0)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_SET_BINDINGMASK_OFFSET UNITYSDK_OFFSET(0x1F56CBC0)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_SET_DEVICES_OFFSET UNITYSDK_OFFSET(0x1F56CC80)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F56CDE0)
+#define UNITYENGINE_INPUTSYSTEM_DEFAULTINPUTACTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F56C830)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int DefaultInputActions_TypeDefinitionIndex = 32315;
+	inline static constexpr unsigned int DefaultInputActions_TypeDefinitionIndex = 31764;
 
 	class DefaultInputActions : public ::System::Object
 	{
 	public:
-		::UnityEngine::InputSystem::InputAction* m_Player_Fire; // 0x10
-		::UnityEngine::InputSystem::InputAction* m_Player_Look; // 0x18
-		::UnityEngine::InputSystem::DefaultInputActions_IUIActions* m_UIActionsCallbackInterface; // 0x20
-		::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions* m_PlayerActionsCallbackInterface; // 0x28
-		::UnityEngine::InputSystem::InputAction* m_UI_Cancel; // 0x30
-		::UnityEngine::InputSystem::InputAction* m_UI_Point; // 0x38
-		::UnityEngine::InputSystem::InputActionMap* m_UI; // 0x40
-		::UnityEngine::InputSystem::InputAction* m_UI_Navigate; // 0x48
-		::UnityEngine::InputSystem::InputActionMap* m_Player; // 0x50
-		::UnityEngine::InputSystem::InputAction* m_UI_ScrollWheel; // 0x58
+		::UnityEngine::InputSystem::InputAction* m_UI_MiddleClick; // 0x10
+		::UnityEngine::InputSystem::InputAction* m_UI_Point; // 0x18
+		::UnityEngine::InputSystem::InputAction* m_UI_Navigate; // 0x20
+		::UnityEngine::InputSystem::InputAction* m_UI_TrackedDeviceOrientation; // 0x28
+		::UnityEngine::InputSystem::InputAction* m_Player_Look; // 0x30
+		::UnityEngine::InputSystem::InputActionAsset* _asset_k__BackingField; // 0x38
+		::UnityEngine::InputSystem::InputAction* m_UI_TrackedDevicePosition; // 0x40
+		::UnityEngine::InputSystem::InputAction* m_UI_ScrollWheel; // 0x48
+		::UnityEngine::InputSystem::DefaultInputActions_IUIActions* m_UIActionsCallbackInterface; // 0x50
+		::UnityEngine::InputSystem::InputAction* m_UI_Cancel; // 0x58
 		::UnityEngine::InputSystem::InputAction* m_Player_Move; // 0x60
-		::UnityEngine::InputSystem::InputAction* m_UI_TrackedDevicePosition; // 0x68
-		::UnityEngine::InputSystem::InputAction* m_UI_Submit; // 0x70
-		::UnityEngine::InputSystem::InputAction* m_UI_Click; // 0x78
-		::UnityEngine::InputSystem::InputAction* m_UI_RightClick; // 0x80
-		::UnityEngine::InputSystem::InputActionAsset* _asset_k__BackingField; // 0x88
-		::UnityEngine::InputSystem::InputAction* m_UI_MiddleClick; // 0x90
-		::UnityEngine::InputSystem::InputAction* m_UI_TrackedDeviceOrientation; // 0x98
-		::System::Int32 m_GamepadSchemeIndex; // 0xA0
-		::System::Int32 m_TouchSchemeIndex; // 0xA4
-		::System::Int32 m_XRSchemeIndex; // 0xA8
-		::System::Int32 m_KeyboardMouseSchemeIndex; // 0xAC
-		::System::Int32 m_JoystickSchemeIndex; // 0xB0
+		::UnityEngine::InputSystem::InputActionMap* m_UI; // 0x68
+		::UnityEngine::InputSystem::InputActionMap* m_Player; // 0x70
+		::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions* m_PlayerActionsCallbackInterface; // 0x78
+		::UnityEngine::InputSystem::InputAction* m_UI_Submit; // 0x80
+		::UnityEngine::InputSystem::InputAction* m_Player_Fire; // 0x88
+		::UnityEngine::InputSystem::InputAction* m_UI_Click; // 0x90
+		::UnityEngine::InputSystem::InputAction* m_UI_RightClick; // 0x98
+		::System::Int32 m_XRSchemeIndex; // 0xA0
+		::System::Int32 m_KeyboardMouseSchemeIndex; // 0xA4
+		::System::Int32 m_JoystickSchemeIndex; // 0xA8
+		::System::Int32 m_GamepadSchemeIndex; // 0xAC
+		::System::Int32 m_TouchSchemeIndex; // 0xB0
 
 		::System::Void _ctor()
 		{

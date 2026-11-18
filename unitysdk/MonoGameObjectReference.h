@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MONOGAMEOBJECTREFERENCE_GETGAMEOBJECTBYKEY_OFFSET UNITYSDK_OFFSET(0x11A2EF80)
-#define MONOGAMEOBJECTREFERENCE_GETGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x11A2F090)
-#define MONOGAMEOBJECTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A2F1B0)
+#define MONOGAMEOBJECTREFERENCE_GETGAMEOBJECTBYKEY_OFFSET UNITYSDK_OFFSET(0x18F81A30)
+#define MONOGAMEOBJECTREFERENCE_GETGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x18F81B40)
+#define MONOGAMEOBJECTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F81C60)
 
-inline static constexpr unsigned int MonoGameObjectReference_TypeDefinitionIndex = 87513;
+inline static constexpr unsigned int MonoGameObjectReference_TypeDefinitionIndex = 52205;
 
 class MonoGameObjectReference : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 {

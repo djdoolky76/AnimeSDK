@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x172E0710)
-#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x172E0750)
-#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__REFRESHVIEW_B__7_1_OFFSET UNITYSDK_OFFSET(0x172E0760)
+#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x173BC170)
+#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x173BC1B0)
+#define MOLEMOLE_UIFORBIDDENAREACOLLECTLISTROWWIDGETCONTROLLER___C__REFRESHVIEW_B__7_1_OFFSET UNITYSDK_OFFSET(0x173BC1C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIForbiddenAreaCollectListRowWidgetController___c_TypeDefinitionIndex = 45346;
+	inline static constexpr unsigned int UIForbiddenAreaCollectListRowWidgetController___c_TypeDefinitionIndex = 54843;
 
 	class UIForbiddenAreaCollectListRowWidgetController___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIForbiddenAreaCollectListRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38D20);
+		}
 		static ::System::Action** StaticGet___9__7_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIForbiddenAreaCollectListRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36BE0);
-		}
-		static ::MoleMole::UIForbiddenAreaCollectListRowWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIForbiddenAreaCollectListRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIForbiddenAreaCollectListRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36BE8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIForbiddenAreaCollectListRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38D28);
 		}
 
 		static ::System::Void _cctor()

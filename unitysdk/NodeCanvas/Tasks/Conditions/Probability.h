@@ -5,19 +5,19 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_CONDITIONS_PROBABILITY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1DFE2C00)
-#define NODECANVAS_TASKS_CONDITIONS_PROBABILITY_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1DFE2CA0)
-#define NODECANVAS_TASKS_CONDITIONS_PROBABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE2D00)
+#define NODECANVAS_TASKS_CONDITIONS_PROBABILITY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E40BCD0)
+#define NODECANVAS_TASKS_CONDITIONS_PROBABILITY_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1E40BD70)
+#define NODECANVAS_TASKS_CONDITIONS_PROBABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E40BDD0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int Probability_TypeDefinitionIndex = 30606;
+	inline static constexpr unsigned int Probability_TypeDefinitionIndex = 29465;
 
 	class Probability : public ::NodeCanvas::Framework::ConditionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxValue; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* probability; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* probability; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxValue; // 0x68
 
 		::System::Void _ctor()
 		{

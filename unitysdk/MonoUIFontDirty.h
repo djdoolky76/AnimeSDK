@@ -4,11 +4,11 @@
 
 namespace UnityEngine::UI { class Text; }
 
-#define MONOUIFONTDIRTY_AWAKE_OFFSET UNITYSDK_OFFSET(0x12B33820)
-#define MONOUIFONTDIRTY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12B339B0)
-#define MONOUIFONTDIRTY__CTOR_OFFSET UNITYSDK_OFFSET(0x12B33B40)
+#define MONOUIFONTDIRTY_AWAKE_OFFSET UNITYSDK_OFFSET(0x13EBF710)
+#define MONOUIFONTDIRTY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13EBF8A0)
+#define MONOUIFONTDIRTY__CTOR_OFFSET UNITYSDK_OFFSET(0x13EBFA30)
 
-inline static constexpr unsigned int MonoUIFontDirty_TypeDefinitionIndex = 69564;
+inline static constexpr unsigned int MonoUIFontDirty_TypeDefinitionIndex = 57671;
 
 class MonoUIFontDirty : public ::UnityEngine::MonoBehaviour
 {

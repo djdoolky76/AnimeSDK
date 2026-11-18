@@ -9,16 +9,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONSTERSPECIALIDLEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x179249F0)
+#define MOLEMOLE_MONSTERSPECIALIDLEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x14B0F4A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonsterSpecialIdleEntry_TypeDefinitionIndex = 72742;
+	inline static constexpr unsigned int MonsterSpecialIdleEntry_TypeDefinitionIndex = 73653;
 
 	class MonsterSpecialIdleEntry : public ::System::Object
 	{
 	public:
 		::System::Int32 SpecialIdleKey; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* SpecialIdleName; // 0x18
 		::System::Collections::Generic::List_1<::MoleMole::MonsterAnimatorTriggerParam>* AnimatorTriggerParams; // 0x20
 		::System::Collections::Generic::List_1<::MoleMole::MonsterAnimatorBoolParam>* AnimatorBoolParams; // 0x28

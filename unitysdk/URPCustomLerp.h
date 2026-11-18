@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define URPCUSTOMLERP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EE070)
+#define URPCUSTOMLERP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BB390)
 
-inline static constexpr unsigned int URPCustomLerp_TypeDefinitionIndex = 27271;
+inline static constexpr unsigned int URPCustomLerp_TypeDefinitionIndex = 26533;
 
 class URPCustomLerp : public ::UnityEngine::PropertyAttribute
 {

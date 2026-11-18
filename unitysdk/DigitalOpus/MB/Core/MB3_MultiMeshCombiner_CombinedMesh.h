@@ -7,12 +7,12 @@ namespace DigitalOpus::MB::Core { class MB3_MeshCombinerSingle; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define DIGITALOPUS_MB_CORE_MB3_MULTIMESHCOMBINER_COMBINEDMESH_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1F2A4560)
-#define DIGITALOPUS_MB_CORE_MB3_MULTIMESHCOMBINER_COMBINEDMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A4400)
+#define DIGITALOPUS_MB_CORE_MB3_MULTIMESHCOMBINER_COMBINEDMESH_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x1F6BE900)
+#define DIGITALOPUS_MB_CORE_MB3_MULTIMESHCOMBINER_COMBINEDMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6BE7A0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MultiMeshCombiner_CombinedMesh_TypeDefinitionIndex = 94583;
+	inline static constexpr unsigned int MB3_MultiMeshCombiner_CombinedMesh_TypeDefinitionIndex = 96270;
 
 	class MB3_MultiMeshCombiner_CombinedMesh : public ::System::Object
 	{
@@ -21,6 +21,7 @@ namespace DigitalOpus::MB::Core
 		::System::Int32 extraSpace; // 0x18
 		::System::Int32 numVertsInListToDelete; // 0x1C
 		::System::Int32 numVertsInListToAdd; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gosToAdd; // 0x28
 		::System::Collections::Generic::List_1<::System::Int32>* gosToDelete; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gosToUpdate; // 0x38

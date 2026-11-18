@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PBDDeformConstraintAngleMotor_TypeDefinitionIndex = 19164;
+	inline static constexpr unsigned int PBDDeformConstraintAngleMotor_TypeDefinitionIndex = 18318;
 
 	struct alignas(4) PBDDeformConstraintAngleMotor
 	{

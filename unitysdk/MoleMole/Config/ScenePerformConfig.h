@@ -6,15 +6,15 @@ namespace MoleMole::Config { class BlackMaskFadeConfig; }
 namespace MoleMole::Config { class ChessBoardCutSceneKeyConfig; }
 namespace MoleMole::Config { class CutScenePerformConfig; }
 namespace MoleMole::Config { class SceneEntityCutSceneConfig; }
-namespace MoleMole::Config { class ScenePerformConfig_ScenePerformItem; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_SCENEPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1487CA40)
+#define MOLEMOLE_CONFIG_SCENEPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B44FC60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ScenePerformConfig_TypeDefinitionIndex = 85775;
+	inline static constexpr unsigned int ScenePerformConfig_TypeDefinitionIndex = 49374;
 
 	class ScenePerformConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -22,7 +22,7 @@ namespace MoleMole::Config
 		// static const ::System::String* key1; // 0x0
 		::MoleMole::Config::ChessBoardCutSceneKeyConfig* chessBoardCutSceneKeyConfig; // 0x58
 		::MoleMole::Config::ChessBoardCutSceneKeyConfig* SimplifiedCutSceneKeyConfig; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ScenePerformConfig_ScenePerformItem*>* configDic; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* configDic; // 0x68
 		::System::String* MOVEDTOCHARACTER; // 0x70
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::SceneEntityCutSceneConfig*>* monsterCutSceneConfigDic; // 0x78
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::CutScenePerformConfig*>* sceneCameraShotDic; // 0x80

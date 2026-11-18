@@ -3,16 +3,17 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/FontStyle.h"
 #include "unitysdk/UnityEngine/Rect.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_CHARACTERINFO_GET_ADVANCE_OFFSET UNITYSDK_OFFSET(0xAC6F50)
-#define UNITYENGINE_CHARACTERINFO_GET_UVBOTTOMLEFTUNFLIPPED_OFFSET UNITYSDK_OFFSET(0x41E4D0)
-#define UNITYENGINE_CHARACTERINFO_GET_UVBOTTOMLEFT_OFFSET UNITYSDK_OFFSET(0x41E4D0)
-#define UNITYENGINE_CHARACTERINFO_GET_UVTOPRIGHTUNFLIPPED_OFFSET UNITYSDK_OFFSET(0xAC6FA0)
-#define UNITYENGINE_CHARACTERINFO_GET_UVTOPRIGHT_OFFSET UNITYSDK_OFFSET(0xAC6FA0)
+#define UNITYENGINE_CHARACTERINFO_GET_ADVANCE_OFFSET UNITYSDK_OFFSET(0x9ADC80)
+#define UNITYENGINE_CHARACTERINFO_GET_UVBOTTOMLEFTUNFLIPPED_OFFSET UNITYSDK_OFFSET(0x3CF140)
+#define UNITYENGINE_CHARACTERINFO_GET_UVBOTTOMLEFT_OFFSET UNITYSDK_OFFSET(0x3CF140)
+#define UNITYENGINE_CHARACTERINFO_GET_UVTOPRIGHTUNFLIPPED_OFFSET UNITYSDK_OFFSET(0x9ADCD0)
+#define UNITYENGINE_CHARACTERINFO_GET_UVTOPRIGHT_OFFSET UNITYSDK_OFFSET(0x9ADCD0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CharacterInfo_TypeDefinitionIndex = 6372;
+	inline static constexpr unsigned int CharacterInfo_TypeDefinitionIndex = 6378;
 
 	struct alignas(4) CharacterInfo
 	{
@@ -29,32 +30,24 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERINFO_GET_ADVANCE_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::Vector2 get_uvBottomLeftUnFlipped()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERINFO_GET_UVBOTTOMLEFTUNFLIPPED_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector2 get_uvTopRightUnFlipped()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERINFO_GET_UVTOPRIGHTUNFLIPPED_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector2 get_uvBottomLeft()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERINFO_GET_UVBOTTOMLEFT_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector2 get_uvTopRight()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERINFO_GET_UVTOPRIGHT_OFFSET))(this);
 		}
-		*/
 	};
 }

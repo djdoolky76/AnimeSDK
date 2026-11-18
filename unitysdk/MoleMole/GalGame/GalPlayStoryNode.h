@@ -5,34 +5,37 @@
 
 namespace MoleMole::GalGame { class ArgueStoryNodeConfig; }
 namespace MoleMole::GalGame { class AudioEventItem; }
+namespace MoleMole::GalGame { class GalSwitchPoseRelatedParam; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_GALPLAYSTORYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0614A0)
+#define MOLEMOLE_GALGAME_GALPLAYSTORYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13EE1590)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalPlayStoryNode_TypeDefinitionIndex = 59466;
+	inline static constexpr unsigned int GalPlayStoryNode_TypeDefinitionIndex = 44660;
 
 	class GalPlayStoryNode : public ::MoleMole::GalGame::GalPlayableNodeBase
 	{
 	public:
-		::System::String* avatarPoseKey; // 0x20
-		::System::String* avatarShowingKey; // 0x28
-		::System::String* whiteScreenShakeAudioEventID; // 0x30
-		::MoleMole::GalGame::ArgueStoryNodeConfig* argueStoryNodeConfig; // 0x38
-		::System::String* externalVoiceKey; // 0x40
-		::System::String* avatarName; // 0x48
-		::System::String* soundKey; // 0x50
-		::System::String* dialogueKey; // 0x58
-		::System::String* singleShakeKey; // 0x60
-		::System::String* avatarFacialKey; // 0x68
-		::System::Collections::Generic::List_1<::MoleMole::GalGame::AudioEventItem*>* audioEventItems; // 0x70
-		::System::Single whiteScreenShakeDelay; // 0x78
-		::System::Boolean isChangingShakeMode; // 0x7C
-		::System::Boolean enableWhiteScreenShaking; // 0x7D
-		::System::Int32 actorId; // 0x80
-		::MoleMole::GalGame::GalPlayStoryNode_SwitchContinuousShakeType switchContinuousShakeType; // 0x84
+		::MoleMole::GalGame::ArgueStoryNodeConfig* argueStoryNodeConfig; // 0x20
+		::System::String* singleShakeKey; // 0x28
+		::System::String* externalVoiceKey; // 0x30
+		::System::String* avatarPoseKey; // 0x38
+		::MoleMole::GalGame::GalSwitchPoseRelatedParam* switchPoseRelatedParam; // 0x40
+		::System::String* dialogueKey; // 0x48
+		::System::Collections::Generic::List_1<::MoleMole::GalGame::AudioEventItem*>* audioEventItems; // 0x50
+		::System::String* avatarName; // 0x58
+		::System::String* avatarFacialKey; // 0x60
+		::System::String* avatarShowingKey; // 0x68
+		::System::String* soundKey; // 0x70
+		::System::String* whiteScreenShakeAudioEventID; // 0x78
+		::System::Single whiteScreenShakeDelay; // 0x80
+		::System::Int32 actorId; // 0x84
+		::System::Boolean isChangingShakeMode; // 0x88
+		::System::Boolean enableWhiteScreenShaking; // 0x89
+		::System::Byte _padding0[0x2];
+		::MoleMole::GalGame::GalPlayStoryNode_SwitchContinuousShakeType switchContinuousShakeType; // 0x8C
 
 		::System::Void _ctor()
 		{

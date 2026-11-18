@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EKLMJGLFFED.h"
+#include "unitysdk/System/Object.h"
+
+#define DBDCGFPOEMP_HCDJEFKEBPM_OFFSET UNITYSDK_OFFSET(0x13284E90)
+#define DBDCGFPOEMP_IJECAAFGJCC_OFFSET UNITYSDK_OFFSET(0x13284F00)
+#define DBDCGFPOEMP_KCKLHOBGFGJ_OFFSET UNITYSDK_OFFSET(0x13284EC0)
+#define DBDCGFPOEMP_KEAAOKLPNIK_OFFSET UNITYSDK_OFFSET(0x13284F20)
+#define DBDCGFPOEMP__CTOR_OFFSET UNITYSDK_OFFSET(0x13284EF0)
+
+inline static constexpr unsigned int DBDCGFPOEMP_TypeDefinitionIndex = 82947;
+
+class DBDCGFPOEMP : public ::System::Object
+{
+public:
+	::EKLMJGLFFED _CDHDBPLOALH_k__BackingField; // 0x10
+	::EKLMJGLFFED _GAAIDCKLNFM_k__BackingField; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DBDCGFPOEMP__CTOR_OFFSET))(this);
+	}
+
+	::EKLMJGLFFED HCDJEFKEBPM()
+	{
+		return ((::EKLMJGLFFED(*)(::PVOID))((::PBYTE)hIl2Cpp + DBDCGFPOEMP_HCDJEFKEBPM_OFFSET))(this);
+	}
+
+	::EKLMJGLFFED KCKLHOBGFGJ()
+	{
+		return ((::EKLMJGLFFED(*)(::PVOID))((::PBYTE)hIl2Cpp + DBDCGFPOEMP_KCKLHOBGFGJ_OFFSET))(this);
+	}
+
+	::System::Void IJECAAFGJCC(::EKLMJGLFFED EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::EKLMJGLFFED))((::PBYTE)hIl2Cpp + DBDCGFPOEMP_IJECAAFGJCC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void KEAAOKLPNIK(::EKLMJGLFFED EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::EKLMJGLFFED))((::PBYTE)hIl2Cpp + DBDCGFPOEMP_KEAAOKLPNIK_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

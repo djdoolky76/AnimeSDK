@@ -7,7 +7,7 @@ namespace Unity::Collections::LowLevel::Unsafe
 	inline static constexpr unsigned int UnsafeUtility_IsValidNativeContainerElementTypeCache_1_TypeDefinitionIndex = 5110;
 
 	template <typename T>
-	struct UnsafeUtility_IsValidNativeContainerElementTypeCache_1
+	struct alignas(4) UnsafeUtility_IsValidNativeContainerElementTypeCache_1
 	{
 		static ::System::Int32* StaticGet_value()
 		{

@@ -5,10 +5,10 @@
 namespace MoleMole { class LightSetting; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LIGHTGROUP_GETLIGHTSETTING_OFFSET UNITYSDK_OFFSET(0x128F3EC0)
-#define LIGHTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x128F3FA0)
+#define LIGHTGROUP_GETLIGHTSETTING_OFFSET UNITYSDK_OFFSET(0xD43FE10)
+#define LIGHTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xD43FEF0)
 
-inline static constexpr unsigned int LightGroup_TypeDefinitionIndex = 54270;
+inline static constexpr unsigned int LightGroup_TypeDefinitionIndex = 82972;
 
 class LightGroup : public ::System::Object
 {

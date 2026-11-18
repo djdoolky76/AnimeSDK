@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaSinglePlayWidgetController_ComboStateEnum_TypeDefinitionIndex = 46342;
+	inline static constexpr unsigned int UICinemaSinglePlayWidgetController_ComboStateEnum_TypeDefinitionIndex = 46777;
 
 	enum class UICinemaSinglePlayWidgetController_ComboStateEnum : ::System::Int32
 	{
 		Fever = 2,
-		Normal = 0,
 		Combo = 1,
+		Normal = 0,
 	};
 }

@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
 
 namespace MoleMole { class TeamGroupDataItem; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATETEAMNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B19D7F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATETEAMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B19D980)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATETEAMNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4AF630)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATETEAMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AF7C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCreateTeamNode_TypeDefinitionIndex = 50026;
+	inline static constexpr unsigned int LDCreateTeamNode_TypeDefinitionIndex = 66918;
 
-	class LDCreateTeamNode : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::MoleMole::TeamGroupDataItem*, ::System::String*>
+	class LDCreateTeamNode
 	{
 	public:
 		::System::Void _ctor()

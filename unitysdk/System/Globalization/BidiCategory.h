@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int BidiCategory_TypeDefinitionIndex = 701;
+	inline static constexpr unsigned int BidiCategory_TypeDefinitionIndex = 700;
 
 	enum class BidiCategory : ::System::Int32
 	{

@@ -6,21 +6,21 @@
 
 namespace System { class String; }
 
-#define DEST_MATH_RECTANGLE3_CALCAREA_OFFSET UNITYSDK_OFFSET(0xA9C5D0)
-#define DEST_MATH_RECTANGLE3_CALCVERTICES_1_OFFSET UNITYSDK_OFFSET(0xA9C5B0)
-#define DEST_MATH_RECTANGLE3_CALCVERTICES_2_OFFSET UNITYSDK_OFFSET(0xA9C5C0)
-#define DEST_MATH_RECTANGLE3_CALCVERTICES_OFFSET UNITYSDK_OFFSET(0xA9C4F0)
-#define DEST_MATH_RECTANGLE3_CREATEFROMCCWPOINTS_OFFSET UNITYSDK_OFFSET(0x1F27EA10)
-#define DEST_MATH_RECTANGLE3_CREATEFROMCWPOINTS_OFFSET UNITYSDK_OFFSET(0x1F27EC80)
-#define DEST_MATH_RECTANGLE3_DISTANCETO_OFFSET UNITYSDK_OFFSET(0xA9C5F0)
-#define DEST_MATH_RECTANGLE3_PROJECT_OFFSET UNITYSDK_OFFSET(0xA9C630)
-#define DEST_MATH_RECTANGLE3_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA9C690)
-#define DEST_MATH_RECTANGLE3__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA9C3E0)
-#define DEST_MATH_RECTANGLE3__CTOR_OFFSET UNITYSDK_OFFSET(0xA9C2C0)
+#define DEST_MATH_RECTANGLE3_CALCAREA_OFFSET UNITYSDK_OFFSET(0x97FE30)
+#define DEST_MATH_RECTANGLE3_CALCVERTICES_1_OFFSET UNITYSDK_OFFSET(0x97FE10)
+#define DEST_MATH_RECTANGLE3_CALCVERTICES_2_OFFSET UNITYSDK_OFFSET(0x97FE20)
+#define DEST_MATH_RECTANGLE3_CALCVERTICES_OFFSET UNITYSDK_OFFSET(0x97FD50)
+#define DEST_MATH_RECTANGLE3_CREATEFROMCCWPOINTS_OFFSET UNITYSDK_OFFSET(0x1F68D130)
+#define DEST_MATH_RECTANGLE3_CREATEFROMCWPOINTS_OFFSET UNITYSDK_OFFSET(0x1F68D3A0)
+#define DEST_MATH_RECTANGLE3_DISTANCETO_OFFSET UNITYSDK_OFFSET(0x97FE50)
+#define DEST_MATH_RECTANGLE3_PROJECT_OFFSET UNITYSDK_OFFSET(0x97FE90)
+#define DEST_MATH_RECTANGLE3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x97FEF0)
+#define DEST_MATH_RECTANGLE3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x97FC40)
+#define DEST_MATH_RECTANGLE3__CTOR_OFFSET UNITYSDK_OFFSET(0x97FB20)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Rectangle3_TypeDefinitionIndex = 35440;
+	inline static constexpr unsigned int Rectangle3_TypeDefinitionIndex = 35013;
 
 	struct alignas(4) Rectangle3
 	{
@@ -40,15 +40,19 @@ namespace Dest::Math
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + DEST_MATH_RECTANGLE3__CTOR_1_OFFSET))(this, center, axis0, axis1, extents);
 		}
 
+		/*
 		static ::Dest::Math::Rectangle3 CreateFromCCWPoints(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3)
 		{
 			return ((::Dest::Math::Rectangle3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + DEST_MATH_RECTANGLE3_CREATEFROMCCWPOINTS_OFFSET))(p0, p1, p2, p3);
 		}
+		*/
 
+		/*
 		static ::Dest::Math::Rectangle3 CreateFromCWPoints(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3)
 		{
 			return ((::Dest::Math::Rectangle3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + DEST_MATH_RECTANGLE3_CREATEFROMCWPOINTS_OFFSET))(p0, p1, p2, p3);
 		}
+		*/
 
 		::System::Void CalcVertices(::UnityEngine::Vector3& vertex0, ::UnityEngine::Vector3& vertex1, ::UnityEngine::Vector3& vertex2, ::UnityEngine::Vector3& vertex3)
 		{

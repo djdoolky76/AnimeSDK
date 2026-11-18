@@ -4,12 +4,12 @@
 
 namespace System { class Uri; }
 
-#define SYSTEM_NET_STATICPROXY_GETNEXTPROXY_OFFSET UNITYSDK_OFFSET(0x1CC1BA80)
-#define SYSTEM_NET_STATICPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC1B970)
+#define SYSTEM_NET_STATICPROXY_GETNEXTPROXY_OFFSET UNITYSDK_OFFSET(0x1D1109C0)
+#define SYSTEM_NET_STATICPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1108B0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int StaticProxy_TypeDefinitionIndex = 3389;
+	inline static constexpr unsigned int StaticProxy_TypeDefinitionIndex = 3388;
 
 	class StaticProxy : public ::System::Net::ProxyChain
 	{

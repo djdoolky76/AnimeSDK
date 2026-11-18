@@ -4,19 +4,19 @@
 
 namespace MoleMole { class UIInLevelZenkovPyroisButtonChildWindowController; }
 
-#define MOLEMOLE_UIINLEVELZENKOVPYROISBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CLOSECOMMONBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x18384F20)
-#define MOLEMOLE_UIINLEVELZENKOVPYROISBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18384F10)
+#define MOLEMOLE_UIINLEVELZENKOVPYROISBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CLOSECOMMONBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x187E9AF0)
+#define MOLEMOLE_UIINLEVELZENKOVPYROISBUTTONCHILDWINDOWCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187E9AE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelZenkovPyroisButtonChildWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 89740;
+	inline static constexpr unsigned int UIInLevelZenkovPyroisButtonChildWindowController___c__DisplayClass17_0_TypeDefinitionIndex = 45738;
 
 	class UIInLevelZenkovPyroisButtonChildWindowController___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIInLevelZenkovPyroisButtonChildWindowController* __4__this; // 0x10
-		::System::Boolean ignoreAnim; // 0x18
-		::System::Boolean checkCache; // 0x19
+		::System::Boolean checkCache; // 0x18
+		::System::Boolean ignoreAnim; // 0x19
 
 		::System::Void _ctor()
 		{

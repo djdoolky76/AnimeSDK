@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/UIR/PoolItem.h"
 
-#define UNITYENGINE_UIELEMENTS_UIR_MESHHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D00FFF0)
+#define UNITYENGINE_UIELEMENTS_UIR_MESHHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C5200)
 
 namespace UnityEngine::UIElements::UIR
 {
-	inline static constexpr unsigned int MeshHandle_TypeDefinitionIndex = 28216;
+	inline static constexpr unsigned int MeshHandle_TypeDefinitionIndex = 27634;
 
 	class MeshHandle : public ::UnityEngine::UIElements::UIR::PoolItem
 	{

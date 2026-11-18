@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/TreasureCreateData.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_S2TREASURECREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1924C7B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_S2TREASURECREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11918450)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int S2TreasureCreateData_TypeDefinitionIndex = 81138;
+	inline static constexpr unsigned int S2TreasureCreateData_TypeDefinitionIndex = 59472;
 
 	class S2TreasureCreateData : public ::MoleMole::FlowCanvas::Nodes::TreasureCreateData
 	{

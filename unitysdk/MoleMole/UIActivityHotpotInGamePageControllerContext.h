@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD4670)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18855040)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotInGamePageControllerContext_TypeDefinitionIndex = 48288;
+	inline static constexpr unsigned int UIActivityHotpotInGamePageControllerContext_TypeDefinitionIndex = 64311;
 
 	class UIActivityHotpotInGamePageControllerContext : public ::MoleMole::UIControllerContextBase
 	{

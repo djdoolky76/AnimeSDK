@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AdjustmentBlendingBone.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingPerBoneCollection_1_TypeDefinitionIndex = 88343;
+	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingPerBoneCollection_1_TypeDefinitionIndex = 81150;
 
 	template <typename T>
-	struct AnimationSubManager_AdjustmentBlendingPerBoneCollection_1
+	struct alignas(8) AnimationSubManager_AdjustmentBlendingPerBoneCollection_1
 	{
 		T Root; // 0x0
 		T LeftFoot; // 0x0

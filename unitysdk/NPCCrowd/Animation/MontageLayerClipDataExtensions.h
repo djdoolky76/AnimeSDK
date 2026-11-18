@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Animation/MontageLayerClipData.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/NPCCrowd/Animation/MontageLayerClipData.h"
 
-#define NPCCROWD_ANIMATION_MONTAGELAYERCLIPDATAEXTENSIONS_GETLAYERCLIPDATA_OFFSET UNITYSDK_OFFSET(0xE941C30)
+#define NPCCROWD_ANIMATION_MONTAGELAYERCLIPDATAEXTENSIONS_GETLAYERCLIPDATA_OFFSET UNITYSDK_OFFSET(0x10030E10)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageLayerClipDataExtensions_TypeDefinitionIndex = 65152;
+	inline static constexpr unsigned int MontageLayerClipDataExtensions_TypeDefinitionIndex = 53034;
 
 	class MontageLayerClipDataExtensions : public ::System::Object
 	{

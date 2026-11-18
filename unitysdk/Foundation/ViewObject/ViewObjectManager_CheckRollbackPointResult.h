@@ -5,7 +5,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectManager_CheckRollbackPointResult_TypeDefinitionIndex = 55557;
+	inline static constexpr unsigned int ViewObjectManager_CheckRollbackPointResult_TypeDefinitionIndex = 66663;
 
 	struct alignas(4) ViewObjectManager_CheckRollbackPointResult
 	{

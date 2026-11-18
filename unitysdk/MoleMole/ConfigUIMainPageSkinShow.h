@@ -5,11 +5,11 @@
 namespace MoleMole { class ConfigUIMainPageSkinShowItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUIMAINPAGESKINSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x14882810)
+#define MOLEMOLE_CONFIGUIMAINPAGESKINSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B456680)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIMainPageSkinShow_TypeDefinitionIndex = 82629;
+	inline static constexpr unsigned int ConfigUIMainPageSkinShow_TypeDefinitionIndex = 50576;
 
 	class ConfigUIMainPageSkinShow : public ::Foundation::MihoyoSerializedScriptableObject
 	{

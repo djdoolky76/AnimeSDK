@@ -5,12 +5,13 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDocument_PatternData_TypeDefinitionIndex = 31748;
+	inline static constexpr unsigned int SVGDocument_PatternData_TypeDefinitionIndex = 31186;
 
 	struct alignas(4) SVGDocument_PatternData
 	{
 		::System::Boolean WorldRelative; // 0x10
 		::System::Boolean ContentWorldRelative; // 0x11
+		::System::Byte _padding0[0x2];
 		::ToolBuddy::ThirdParty::VectorGraphics::Matrix2D PatternTransform; // 0x14
 	};
 }

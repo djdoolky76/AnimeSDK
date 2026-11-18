@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Threading/WaitHandle.h"
 
-#define SYSTEM_NET_SEMAPHORE_RELEASESEMAPHORE_OFFSET UNITYSDK_OFFSET(0x1D89AE10)
-#define SYSTEM_NET_SEMAPHORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D89ACB0)
+#define SYSTEM_NET_SEMAPHORE_RELEASESEMAPHORE_OFFSET UNITYSDK_OFFSET(0x1DD48700)
+#define SYSTEM_NET_SEMAPHORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD485A0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int Semaphore_TypeDefinitionIndex = 3392;
+	inline static constexpr unsigned int Semaphore_TypeDefinitionIndex = 3391;
 
 	class Semaphore : public ::System::Threading::WaitHandle
 	{

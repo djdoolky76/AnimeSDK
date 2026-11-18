@@ -5,22 +5,22 @@
 namespace MoleMole { class MonoTubeRenderer; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_MONOSTARFISH_START_OFFSET UNITYSDK_OFFSET(0x144F48A0)
-#define MOLEMOLE_MONOSTARFISH_UPDATE_OFFSET UNITYSDK_OFFSET(0x144F57F0)
-#define MOLEMOLE_MONOSTARFISH__CTOR_OFFSET UNITYSDK_OFFSET(0x144F5D20)
+#define MOLEMOLE_MONOSTARFISH_START_OFFSET UNITYSDK_OFFSET(0x10440680)
+#define MOLEMOLE_MONOSTARFISH_UPDATE_OFFSET UNITYSDK_OFFSET(0x104415D0)
+#define MOLEMOLE_MONOSTARFISH__CTOR_OFFSET UNITYSDK_OFFSET(0x10441B00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoStarfish_TypeDefinitionIndex = 41931;
+	inline static constexpr unsigned int MonoStarfish_TypeDefinitionIndex = 52793;
 
 	class MonoStarfish : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Int32 Field_5_2 = 0x5; // 0x0
-		// static const ::System::Single Field_5_1; // 0x0
-		// static const ::System::Int32 Field_5_0 = 0x14; // 0x0
+		// static const ::System::Int32 EGKHJBCGPOO = 0x5; // 0x0
+		// static const ::System::Single DAIMCENDEGB; // 0x0
+		// static const ::System::Int32 IHKECKEGDJJ = 0x14; // 0x0
 		::UnityEngine::Material* _material; // 0x18
-		::Il2CppArray<::MoleMole::MonoTubeRenderer*>* Field_5_6; // 0x20
+		::Il2CppArray<::MoleMole::MonoTubeRenderer*>* NPBNDPHGPJB; // 0x20
 
 		::System::Void _ctor()
 		{

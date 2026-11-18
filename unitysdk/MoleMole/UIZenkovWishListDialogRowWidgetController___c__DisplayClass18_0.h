@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_175;
+class IFOHGNLIAKH;
 namespace MoleMole { class UIZenkovWishListDialogRowWidgetController; }
 
-#define MOLEMOLE_UIZENKOVWISHLISTDIALOGROWWIDGETCONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174A9B50)
-#define MOLEMOLE_UIZENKOVWISHLISTDIALOGROWWIDGETCONTROLLER___C__DISPLAYCLASS18_0__REFRESHCONTENT_B__0_OFFSET UNITYSDK_OFFSET(0x174A9B60)
+#define MOLEMOLE_UIZENKOVWISHLISTDIALOGROWWIDGETCONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C1F650)
+#define MOLEMOLE_UIZENKOVWISHLISTDIALOGROWWIDGETCONTROLLER___C__DISPLAYCLASS18_0__REFRESHCONTENT_B__0_OFFSET UNITYSDK_OFFSET(0x18C1F660)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovWishListDialogRowWidgetController___c__DisplayClass18_0_TypeDefinitionIndex = 54724;
+	inline static constexpr unsigned int UIZenkovWishListDialogRowWidgetController___c__DisplayClass18_0_TypeDefinitionIndex = 49952;
 
 	class UIZenkovWishListDialogRowWidgetController___c__DisplayClass18_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWISHLISTDIALOGROWWIDGETCONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RefreshContent_b__0(::Class_0_16E4307DCC419505_175* _)
+		::System::Void _RefreshContent_b__0(::IFOHGNLIAKH* _)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWISHLISTDIALOGROWWIDGETCONTROLLER___C__DISPLAYCLASS18_0__REFRESHCONTENT_B__0_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::IFOHGNLIAKH*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVWISHLISTDIALOGROWWIDGETCONTROLLER___C__DISPLAYCLASS18_0__REFRESHCONTENT_B__0_OFFSET))(this, _);
 		}
 	};
 }

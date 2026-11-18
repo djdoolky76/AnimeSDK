@@ -1,31 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910.h"
 #include "unitysdk/MoleMole/Config/AnimatorEvent.h"
+#include "unitysdk/ONNJLBKOEDN_IINOJMFDFJA.h"
 
-class Class_3_F33F9DC5F4112336;
+class NLNIIPDCABP;
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class AnimatorEventEntry; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_0589B5E7626E6766_OFFSET UNITYSDK_OFFSET(0x1484B490)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_0D76AE00F4F0B723_OFFSET UNITYSDK_OFFSET(0x1484AC90)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_128774387667156B_OFFSET UNITYSDK_OFFSET(0x1484B320)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_1625F5B82A3BAC0C_OFFSET UNITYSDK_OFFSET(0x1484ADE0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_C88F257407FB5C09_OFFSET UNITYSDK_OFFSET(0x1484AB90)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_DE8FDF9C87F3AA65_OFFSET UNITYSDK_OFFSET(0x1484B3F0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_FB6392A8F30862C7_OFFSET UNITYSDK_OFFSET(0x1484B360)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1484AAE0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1484B300)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x11E73190)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_FMHAMBGPKBD_OFFSET UNITYSDK_OFFSET(0x11E729F0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_GKGODFLGGCL_OFFSET UNITYSDK_OFFSET(0x11E731D0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_HPFIJKDELAG_OFFSET UNITYSDK_OFFSET(0x11E73350)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_KFEDENLCCKN_OFFSET UNITYSDK_OFFSET(0x11E732B0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_LBOMMOLFGFA_OFFSET UNITYSDK_OFFSET(0x11E72B00)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_LEMPLMPEPNG_OFFSET UNITYSDK_OFFSET(0x11E72C50)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x11E72940)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN__CTOR_OFFSET UNITYSDK_OFFSET(0x11E73170)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventBlackScreen_TypeDefinitionIndex = 46864;
+	inline static constexpr unsigned int AnimatorEventBlackScreen_TypeDefinitionIndex = 56392;
 
 	class AnimatorEventBlackScreen : public ::MoleMole::Config::AnimatorEvent
 	{
 	public:
 		::System::Single Duration; // 0x50
+		::System::Byte _padding0[0x4];
 		::System::String* Curve; // 0x58
 		::System::String* Tag; // 0x60
 
@@ -39,39 +40,39 @@ namespace MoleMole::Config
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_TOSTRING_OFFSET))(this);
 		}
 
-		::MoleMole::Config::AnimatorEventEntry* Method_2_C88F257407FB5C09()
+		::MoleMole::Config::AnimatorEventEntry* FMHAMBGPKBD()
 		{
-			return ((::MoleMole::Config::AnimatorEventEntry*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_C88F257407FB5C09_OFFSET))(this);
+			return ((::MoleMole::Config::AnimatorEventEntry*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_FMHAMBGPKBD_OFFSET))(this);
 		}
 
-		::System::Void Method_2_0D76AE00F4F0B723(::MoleMole::Config::AnimatorEventEntry* a1, ::System::String* a2, ::System::String* a3)
+		::System::Void LBOMMOLFGFA(::MoleMole::Config::AnimatorEventEntry* AAIJGGIEOGK, ::System::String* EHPDFPIHAGC, ::System::String* IDKCFBPCECO)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEntry*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_0D76AE00F4F0B723_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEntry*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_LBOMMOLFGFA_OFFSET))(this, AAIJGGIEOGK, EHPDFPIHAGC, IDKCFBPCECO);
 		}
 
-		::System::Void Method_2_1625F5B82A3BAC0C(::MoleMole::Battle::Entity* a1, ::Class_3_F33F9DC5F4112336* a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910 a6)
+		::System::Void LEMPLMPEPNG(::MoleMole::Battle::Entity* KECKGDFIALJ, ::NLNIIPDCABP* FNFNDIBMPDE, ::System::Single KDEHMPGOCEP, ::System::Single PADJNMGMGHO, ::System::Single KGIGMHCDOCF, ::ONNJLBKOEDN_IINOJMFDFJA FCHEPGPLFJG)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_3_F33F9DC5F4112336*, ::System::Single, ::System::Single, ::System::Single, ::Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_1625F5B82A3BAC0C_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::NLNIIPDCABP*, ::System::Single, ::System::Single, ::System::Single, ::ONNJLBKOEDN_IINOJMFDFJA))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_LEMPLMPEPNG_OFFSET))(this, KECKGDFIALJ, FNFNDIBMPDE, KDEHMPGOCEP, PADJNMGMGHO, KGIGMHCDOCF, FCHEPGPLFJG);
 		}
 
-		::System::String* Method_2_128774387667156B()
+		::System::String* DPIHOJBBGLA()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_128774387667156B_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_DPIHOJBBGLA_OFFSET))(this);
 		}
 
-		::MoleMole::Config::AnimatorEventEntry* Method_2_FB6392A8F30862C7()
+		::System::Void GKGODFLGGCL(::MoleMole::Battle::Entity* MIALFKCCCPI, ::NLNIIPDCABP* KMGKAIDEIBA, ::System::Single FDHMCIFPNCK, ::System::Single MPBJAGIKPJM, ::System::Single DDMDINPGCFI, ::ONNJLBKOEDN_IINOJMFDFJA CEIDLKIHMLC)
 		{
-			return ((::MoleMole::Config::AnimatorEventEntry*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_FB6392A8F30862C7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::NLNIIPDCABP*, ::System::Single, ::System::Single, ::System::Single, ::ONNJLBKOEDN_IINOJMFDFJA))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_GKGODFLGGCL_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM, DDMDINPGCFI, CEIDLKIHMLC);
 		}
 
-		::System::Void Method_2_DE8FDF9C87F3AA65(::MoleMole::Config::AnimatorEventEntry* a1, ::System::String* a2, ::System::String* a3)
+		::System::Void KFEDENLCCKN(::MoleMole::Config::AnimatorEventEntry* MIALFKCCCPI, ::System::String* KMGKAIDEIBA, ::System::String* FDHMCIFPNCK)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEntry*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_DE8FDF9C87F3AA65_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEntry*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_KFEDENLCCKN_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
 		}
 
-		::System::Void Method_2_0589B5E7626E6766(::MoleMole::Battle::Entity* a1, ::Class_3_F33F9DC5F4112336* a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910 a6)
+		::MoleMole::Config::AnimatorEventEntry* HPFIJKDELAG()
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_3_F33F9DC5F4112336*, ::System::Single, ::System::Single, ::System::Single, ::Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_METHOD_2_0589B5E7626E6766_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::MoleMole::Config::AnimatorEventEntry*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTBLACKSCREEN_HPFIJKDELAG_OFFSET))(this);
 		}
 	};
 }

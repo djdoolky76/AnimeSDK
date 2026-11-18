@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_3.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 
 namespace MoleMole { class ChessEntity; }
@@ -8,17 +7,17 @@ namespace MoleMole { class ChessEntityCollection; }
 namespace System { class Random; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYAVOIDANCEMOVENODE_CHECKNEEDAVOIDANCE_OFFSET UNITYSDK_OFFSET(0x129866A0)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYAVOIDANCEMOVENODE_HANDLEINAVOIDANCEMOVE_OFFSET UNITYSDK_OFFSET(0x129869D0)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYAVOIDANCEMOVENODE_HANDLENORMALMOVE_OFFSET UNITYSDK_OFFSET(0x12986BB0)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYAVOIDANCEMOVENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x12986550)
-#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYAVOIDANCEMOVENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12986E50)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYAVOIDANCEMOVENODE_CHECKNEEDAVOIDANCE_OFFSET UNITYSDK_OFFSET(0x124458F0)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYAVOIDANCEMOVENODE_HANDLEINAVOIDANCEMOVE_OFFSET UNITYSDK_OFFSET(0x12445C20)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYAVOIDANCEMOVENODE_HANDLENORMALMOVE_OFFSET UNITYSDK_OFFSET(0x12445E00)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYAVOIDANCEMOVENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x124457A0)
+#define MOLEMOLE_FLOWCANVAS_CHESSHACKENTITYAVOIDANCEMOVENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x124460A0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessHackEntityAvoidanceMoveNode_TypeDefinitionIndex = 78324;
+	inline static constexpr unsigned int ChessHackEntityAvoidanceMoveNode_TypeDefinitionIndex = 89029;
 
-	class ChessHackEntityAvoidanceMoveNode : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_3<::MoleMole::ChessEntityCollection*, ::MoleMole::ChessEntity*, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*>
+	class ChessHackEntityAvoidanceMoveNode
 	{
 	public:
 		::System::Random* _random; // 0x30

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int EngineRendererType_TypeDefinitionIndex = 6154;
+	inline static constexpr unsigned int EngineRendererType_TypeDefinitionIndex = 6163;
 
 	enum class EngineRendererType : ::System::Int32
 	{

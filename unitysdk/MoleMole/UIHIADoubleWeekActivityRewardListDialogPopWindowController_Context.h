@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYREWARDLISTDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E97850)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYREWARDLISTDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C5EC50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHIADoubleWeekActivityRewardListDialogPopWindowController_Context_TypeDefinitionIndex = 88751;
+	inline static constexpr unsigned int UIHIADoubleWeekActivityRewardListDialogPopWindowController_Context_TypeDefinitionIndex = 76280;
 
 	class UIHIADoubleWeekActivityRewardListDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

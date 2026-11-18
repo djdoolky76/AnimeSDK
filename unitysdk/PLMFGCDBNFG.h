@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/MCKCKBEGCCM.h"
+
+#define PLMFGCDBNFG_HLIHIKHICEJ_OFFSET UNITYSDK_OFFSET(0x817F40)
+#define PLMFGCDBNFG_ICJFNEDBJEL_OFFSET UNITYSDK_OFFSET(0x818690)
+#define PLMFGCDBNFG_JDAPDDEOCEA_OFFSET UNITYSDK_OFFSET(0x5932C0)
+#define PLMFGCDBNFG_JPPEEOLOGGP_OFFSET UNITYSDK_OFFSET(0x1B9F2F90)
+#define PLMFGCDBNFG_LBPMDIIBDPK_OFFSET UNITYSDK_OFFSET(0x818320)
+#define PLMFGCDBNFG_PHKCOCNFLBL_OFFSET UNITYSDK_OFFSET(0x818630)
+#define PLMFGCDBNFG__CTOR_OFFSET UNITYSDK_OFFSET(0x817F20)
+
+inline static constexpr unsigned int PLMFGCDBNFG_TypeDefinitionIndex = 79078;
+
+struct alignas(4) PLMFGCDBNFG
+{
+	::System::UInt16 KEMOBCCDIGA; // 0x10
+	::System::UInt16 FEMGPPEHCGF; // 0x12
+	::System::UInt16 ADCGKKCOELD; // 0x14
+	::System::UInt16 HGCICFMOJHN; // 0x16
+
+	::System::Void _ctor(::System::UInt16 DJJGLILJKEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + PLMFGCDBNFG__CTOR_OFFSET))(this, DJJGLILJKEA);
+	}
+
+	::MCKCKBEGCCM HLIHIKHICEJ()
+	{
+		return ((::MCKCKBEGCCM(*)(::PVOID))((::PBYTE)hIl2Cpp + PLMFGCDBNFG_HLIHIKHICEJ_OFFSET))(this);
+	}
+
+	::System::Void LBPMDIIBDPK(::MCKCKBEGCCM& LBPIPEAKPDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::MCKCKBEGCCM&))((::PBYTE)hIl2Cpp + PLMFGCDBNFG_LBPMDIIBDPK_OFFSET))(this, LBPIPEAKPDG);
+	}
+
+	::System::Boolean PHKCOCNFLBL(::System::UInt16 DMGCDEBGHOM)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + PLMFGCDBNFG_PHKCOCNFLBL_OFFSET))(this, DMGCDEBGHOM);
+	}
+
+	/*
+	static ::PLMFGCDBNFG JPPEEOLOGGP(::System::UInt16 DJJGLILJKEA)
+	{
+		return ((::PLMFGCDBNFG(*)(::System::UInt16))((::PBYTE)hIl2Cpp + PLMFGCDBNFG_JPPEEOLOGGP_OFFSET))(DJJGLILJKEA);
+	}
+	*/
+
+	::System::Boolean JDAPDDEOCEA()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PLMFGCDBNFG_JDAPDDEOCEA_OFFSET))(this);
+	}
+
+	::System::Boolean ICJFNEDBJEL(::MCKCKBEGCCM& LBPIPEAKPDG)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::MCKCKBEGCCM&))((::PBYTE)hIl2Cpp + PLMFGCDBNFG_ICJFNEDBJEL_OFFSET))(this, LBPIPEAKPDG);
+	}
+};

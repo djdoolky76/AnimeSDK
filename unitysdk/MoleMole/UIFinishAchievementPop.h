@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-class Class_1_5897CA91FEB65CA5;
+class JFLHGHFBNGJ;
 
-#define MOLEMOLE_UIFINISHACHIEVEMENTPOP_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x170D7F10)
-#define MOLEMOLE_UIFINISHACHIEVEMENTPOP_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x170D7F60)
-#define MOLEMOLE_UIFINISHACHIEVEMENTPOP__CTOR_OFFSET UNITYSDK_OFFSET(0x170D7F20)
+#define MOLEMOLE_UIFINISHACHIEVEMENTPOP_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x17085F60)
+#define MOLEMOLE_UIFINISHACHIEVEMENTPOP_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x17085FB0)
+#define MOLEMOLE_UIFINISHACHIEVEMENTPOP__CTOR_OFFSET UNITYSDK_OFFSET(0x17085F70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFinishAchievementPop_TypeDefinitionIndex = 88072;
+	inline static constexpr unsigned int UIFinishAchievementPop_TypeDefinitionIndex = 64178;
 
 	class UIFinishAchievementPop : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::Class_1_5897CA91FEB65CA5* _data; // 0x28
+		::JFLHGHFBNGJ* _data; // 0x28
 
-		::System::Void _ctor(::Class_1_5897CA91FEB65CA5* data)
+		::System::Void _ctor(::JFLHGHFBNGJ* data)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_5897CA91FEB65CA5*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFINISHACHIEVEMENTPOP__CTOR_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::JFLHGHFBNGJ*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFINISHACHIEVEMENTPOP__CTOR_OFFSET))(this, data);
 		}
 
 		::System::Int32 get_Priority()

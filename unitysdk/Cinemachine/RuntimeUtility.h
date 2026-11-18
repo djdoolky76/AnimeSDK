@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Ray.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
+#include "unitysdk/UnityEngine/Ray.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
@@ -10,36 +10,36 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class SphereCollider; }
 
-#define CINEMACHINE_RUNTIMEUTILITY_DESTROYOBJECT_OFFSET UNITYSDK_OFFSET(0x1F4917F0)
-#define CINEMACHINE_RUNTIMEUTILITY_DESTROYSCRATCHCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1F492E60)
-#define CINEMACHINE_RUNTIMEUTILITY_GETSCRATCHCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1F492B00)
-#define CINEMACHINE_RUNTIMEUTILITY_ISPREFAB_OFFSET UNITYSDK_OFFSET(0x1F4919A0)
-#define CINEMACHINE_RUNTIMEUTILITY_RAYCASTIGNORETAG_OFFSET UNITYSDK_OFFSET(0x1F4919B0)
-#define CINEMACHINE_RUNTIMEUTILITY_SPHERECASTIGNORETAG_OFFSET UNITYSDK_OFFSET(0x1F491EA0)
-#define CINEMACHINE_RUNTIMEUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4935B0)
+#define CINEMACHINE_RUNTIMEUTILITY_DESTROYOBJECT_OFFSET UNITYSDK_OFFSET(0x1F8837A0)
+#define CINEMACHINE_RUNTIMEUTILITY_DESTROYSCRATCHCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1F884E10)
+#define CINEMACHINE_RUNTIMEUTILITY_GETSCRATCHCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1F884AB0)
+#define CINEMACHINE_RUNTIMEUTILITY_ISPREFAB_OFFSET UNITYSDK_OFFSET(0x1F883950)
+#define CINEMACHINE_RUNTIMEUTILITY_RAYCASTIGNORETAG_OFFSET UNITYSDK_OFFSET(0x1F883960)
+#define CINEMACHINE_RUNTIMEUTILITY_SPHERECASTIGNORETAG_OFFSET UNITYSDK_OFFSET(0x1F883E50)
+#define CINEMACHINE_RUNTIMEUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F885560)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int RuntimeUtility_TypeDefinitionIndex = 34788;
+	inline static constexpr unsigned int RuntimeUtility_TypeDefinitionIndex = 34334;
 
 	class RuntimeUtility : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_s_HitBuffer()
 		{
-			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x29040);
+			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x2A280);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_PenetrationIndexBuffer()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x29048);
-		}
-		static ::UnityEngine::GameObject** StaticGet_s_ScratchColliderGameObject()
-		{
-			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(RuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x29050);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x2A288);
 		}
 		static ::UnityEngine::SphereCollider** StaticGet_s_ScratchCollider()
 		{
-			return (::UnityEngine::SphereCollider**)Il2CppClass::FromTypeDefinitionIndex(RuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x29058);
+			return (::UnityEngine::SphereCollider**)Il2CppClass::FromTypeDefinitionIndex(RuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x2A290);
+		}
+		static ::UnityEngine::GameObject** StaticGet_s_ScratchColliderGameObject()
+		{
+			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(RuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x2A298);
 		}
 
 		static ::System::Void _cctor()

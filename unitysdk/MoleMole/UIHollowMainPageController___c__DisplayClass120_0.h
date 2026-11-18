@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_3741FAB584DB310A;
+class GMEHEELDCAA;
 namespace MoleMole { class UIHollowMainPageController; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS120_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17C01630)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS120_0__PREPAREENTERBATTLE_B__1_OFFSET UNITYSDK_OFFSET(0x17C01930)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS120_0__PREPAREENTERBATTLE_G___DOPREPAREENTERBATTLE_0_OFFSET UNITYSDK_OFFSET(0x17C01640)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS120_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17C38250)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS120_0__PREPAREENTERBATTLE_B__1_OFFSET UNITYSDK_OFFSET(0x17C38550)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS120_0__PREPAREENTERBATTLE_G___DOPREPAREENTERBATTLE_0_OFFSET UNITYSDK_OFFSET(0x17C38260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass120_0_TypeDefinitionIndex = 73682;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass120_0_TypeDefinitionIndex = 84639;
 
 	class UIHollowMainPageController___c__DisplayClass120_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHollowMainPageController* __4__this; // 0x10
-		::Class_2_3741FAB584DB310A* videoUILoading; // 0x18
+		::GMEHEELDCAA* videoUILoading; // 0x10
+		::MoleMole::UIHollowMainPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

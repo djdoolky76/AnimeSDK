@@ -3,7 +3,7 @@
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticle_AutoScalingMode_TypeDefinitionIndex = 34857;
+	inline static constexpr unsigned int UIParticle_AutoScalingMode_TypeDefinitionIndex = 34403;
 
 	enum class UIParticle_AutoScalingMode : ::System::Int32
 	{

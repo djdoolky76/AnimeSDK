@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETBATTLECAMERAFORLOCALAVATAR_BACKCAMERA_OFFSET UNITYSDK_OFFSET(0x13838D10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETBATTLECAMERAFORLOCALAVATAR_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13838C50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETBATTLECAMERAFORLOCALAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x13838DB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETBATTLECAMERAFORLOCALAVATAR_BACKCAMERA_OFFSET UNITYSDK_OFFSET(0x139DDFF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETBATTLECAMERAFORLOCALAVATAR_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x139DDF30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETBATTLECAMERAFORLOCALAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x139DE090)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDResetBattleCameraForLocalAvatar_TypeDefinitionIndex = 88744;
+	inline static constexpr unsigned int LDResetBattleCameraForLocalAvatar_TypeDefinitionIndex = 84437;
 
 	class LDResetBattleCameraForLocalAvatar : public ::FlowCanvas::Nodes::FlowControlNode
 	{

@@ -6,25 +6,25 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine::Rendering::Universal { class FlagWindController; }
 namespace UnityEngine::Rendering::Universal { class SingleWeatherConfigWind; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDMANAGER_ADDWINDPROXY_OFFSET UNITYSDK_OFFSET(0x1DDF7860)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDMANAGER_APPLYWIND_OFFSET UNITYSDK_OFFSET(0x1DDF7D40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1DDF76A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDMANAGER_REMOVEWINDPROXY_OFFSET UNITYSDK_OFFSET(0x1DDF7B60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF77D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDMANAGER_ADDWINDPROXY_OFFSET UNITYSDK_OFFSET(0x1E1594E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDMANAGER_APPLYWIND_OFFSET UNITYSDK_OFFSET(0x1E1599C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E159320)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDMANAGER_REMOVEWINDPROXY_OFFSET UNITYSDK_OFFSET(0x1E1597E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E159450)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FlagWindManager_TypeDefinitionIndex = 27375;
+	inline static constexpr unsigned int FlagWindManager_TypeDefinitionIndex = 26923;
 
 	class FlagWindManager : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::FlagWindManager** StaticGet__instance()
 		{
-			return (::UnityEngine::Rendering::Universal::FlagWindManager**)Il2CppClass::FromTypeDefinitionIndex(FlagWindManager_TypeDefinitionIndex)->GetStaticField(0x22E30);
+			return (::UnityEngine::Rendering::Universal::FlagWindManager**)Il2CppClass::FromTypeDefinitionIndex(FlagWindManager_TypeDefinitionIndex)->GetStaticField(0x23E10);
 		}
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Rendering::Universal::FlagWindController*>* windProxySet; // 0x10
-		::UnityEngine::Rendering::Universal::SingleWeatherConfigWind* m_CurrentWindConfig; // 0x18
+		::UnityEngine::Rendering::Universal::SingleWeatherConfigWind* m_CurrentWindConfig; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Rendering::Universal::FlagWindController*>* windProxySet; // 0x18
 		::System::Single preFixedTime; // 0x20
 
 		::System::Void _ctor()

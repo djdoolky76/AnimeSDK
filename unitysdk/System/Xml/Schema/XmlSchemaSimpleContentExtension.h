@@ -6,19 +6,19 @@ namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaAnyAttribute; }
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLECONTENTEXTENSION_SET_BASETYPENAME_OFFSET UNITYSDK_OFFSET(0x1E4AA4F0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLECONTENTEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4AA590)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLECONTENTEXTENSION_SET_BASETYPENAME_OFFSET UNITYSDK_OFFSET(0x1E70E3A0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLECONTENTEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E70E440)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaSimpleContentExtension_TypeDefinitionIndex = 2186;
+	inline static constexpr unsigned int XmlSchemaSimpleContentExtension_TypeDefinitionIndex = 2185;
 
 	class XmlSchemaSimpleContentExtension : public ::System::Xml::Schema::XmlSchemaContent
 	{
 	public:
-		::System::Xml::XmlQualifiedName* baseTypeName; // 0x50
-		::System::Xml::Schema::XmlSchemaAnyAttribute* anyAttribute; // 0x58
-		::System::Xml::Schema::XmlSchemaObjectCollection* attributes; // 0x60
+		::System::Xml::Schema::XmlSchemaObjectCollection* attributes; // 0x50
+		::System::Xml::XmlQualifiedName* baseTypeName; // 0x58
+		::System::Xml::Schema::XmlSchemaAnyAttribute* anyAttribute; // 0x60
 
 		::System::Void _ctor()
 		{

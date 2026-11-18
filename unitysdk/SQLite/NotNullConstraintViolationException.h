@@ -4,27 +4,26 @@
 #include "unitysdk/UnityEngine/SQLite3_Result.h"
 
 namespace SQLite { class TableMapping; }
-namespace SQLite { class TableMapping_Column; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_GET_COLUMNS_OFFSET UNITYSDK_OFFSET(0x1E9FB280)
-#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_NEW_1_OFFSET UNITYSDK_OFFSET(0x1E9FB690)
-#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_NEW_2_OFFSET UNITYSDK_OFFSET(0x1E9FB700)
-#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_NEW_OFFSET UNITYSDK_OFFSET(0x1E9FB570)
-#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_SET_COLUMNS_OFFSET UNITYSDK_OFFSET(0x1E9FB290)
-#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E9FB380)
-#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FB2A0)
+#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_GET_COLUMNS_OFFSET UNITYSDK_OFFSET(0x1ECEFF10)
+#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_NEW_1_OFFSET UNITYSDK_OFFSET(0x1ECF0320)
+#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_NEW_2_OFFSET UNITYSDK_OFFSET(0x1ECF0390)
+#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_NEW_OFFSET UNITYSDK_OFFSET(0x1ECF0200)
+#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_SET_COLUMNS_OFFSET UNITYSDK_OFFSET(0x1ECEFF20)
+#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ECF0010)
+#define SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECEFF30)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int NotNullConstraintViolationException_TypeDefinitionIndex = 39022;
+	inline static constexpr unsigned int NotNullConstraintViolationException_TypeDefinitionIndex = 37022;
 
 	class NotNullConstraintViolationException : public ::SQLite::SQLiteException
 	{
 	public:
-		::System::Collections::Generic::IEnumerable_1<::SQLite::TableMapping_Column*>* _Columns_k__BackingField; // 0x90
+		::System::Collections::Generic::IEnumerable_1<::System::Object*>* _Columns_k__BackingField; // 0x90
 
 		::System::Void _ctor(::UnityEngine::SQLite3_Result r, ::System::String* message)
 		{
@@ -36,14 +35,14 @@ namespace SQLite
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::SQLite3_Result, ::System::String*, ::SQLite::TableMapping*, ::System::Object*))((::PBYTE)hIl2Cpp + SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION__CTOR_1_OFFSET))(this, r, message, mapping, obj);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::SQLite::TableMapping_Column*>* get_Columns()
+		::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Columns()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::SQLite::TableMapping_Column*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_GET_COLUMNS_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_GET_COLUMNS_OFFSET))(this);
 		}
 
-		::System::Void set_Columns(::System::Collections::Generic::IEnumerable_1<::SQLite::TableMapping_Column*>* value)
+		::System::Void set_Columns(::System::Collections::Generic::IEnumerable_1<::System::Object*>* value)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::SQLite::TableMapping_Column*>*))((::PBYTE)hIl2Cpp + SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_SET_COLUMNS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*))((::PBYTE)hIl2Cpp + SQLITE_NOTNULLCONSTRAINTVIOLATIONEXCEPTION_SET_COLUMNS_OFFSET))(this, value);
 		}
 
 		static ::SQLite::NotNullConstraintViolationException* New(::UnityEngine::SQLite3_Result r, ::System::String* message)

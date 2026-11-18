@@ -7,11 +7,11 @@ namespace MoleMole::Config { class ConfigLensDistortion; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5E400)
+#define MOLEMOLE_CONFIG_CONFIGLENSDISTORTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x190A2D60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLensDistortions_TypeDefinitionIndex = 53183;
+	inline static constexpr unsigned int ConfigLensDistortions_TypeDefinitionIndex = 48756;
 
 	class ConfigLensDistortions : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -22,6 +22,7 @@ namespace MoleMole::Config
 		::System::Single DefaultScale; // 0x64
 		::System::Single DefaultDepthClip; // 0x68
 		::UnityEngine::Vector2 DefaultCenter; // 0x6C
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigLensDistortion*>* ScreenEffects; // 0x78
 
 		::System::Void _ctor()

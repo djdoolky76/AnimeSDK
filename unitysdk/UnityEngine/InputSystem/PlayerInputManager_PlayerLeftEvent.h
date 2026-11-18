@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace UnityEngine::InputSystem { class PlayerInput; }
-
-#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUTMANAGER_PLAYERLEFTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB038E0)
+#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUTMANAGER_PLAYERLEFTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6EE90)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int PlayerInputManager_PlayerLeftEvent_TypeDefinitionIndex = 32328;
+	inline static constexpr unsigned int PlayerInputManager_PlayerLeftEvent_TypeDefinitionIndex = 31777;
 
-	class PlayerInputManager_PlayerLeftEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*>
+	class PlayerInputManager_PlayerLeftEvent
 	{
 	public:
 		::System::Void _ctor()

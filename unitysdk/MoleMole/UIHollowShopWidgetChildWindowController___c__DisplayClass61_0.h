@@ -8,11 +8,11 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI::Extension { class UITabButtonGroup; }
 
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1961A750)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18F2D360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass61_0_TypeDefinitionIndex = 65884;
+	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass61_0_TypeDefinitionIndex = 61291;
 
 	class UIHollowShopWidgetChildWindowController___c__DisplayClass61_0 : public ::System::Object
 	{

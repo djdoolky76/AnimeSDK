@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-#include "unitysdk/VideoColorData_VideoEntry.h"
+#include "unitysdk/UnityEngine/Color.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define VIDEOCOLORDATA_ADDVIDEODATA_OFFSET UNITYSDK_OFFSET(0x1D345320)
-#define VIDEOCOLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D345460)
+#define VIDEOCOLORDATA_ADDVIDEODATA_OFFSET UNITYSDK_OFFSET(0x1D9ECC60)
+#define VIDEOCOLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9ECD90)
 
-inline static constexpr unsigned int VideoColorData_TypeDefinitionIndex = 61571;
+inline static constexpr unsigned int VideoColorData_TypeDefinitionIndex = 41483;
 
 class VideoColorData : public ::UnityEngine::ScriptableObject
 {
 public:
-	::System::Collections::Generic::List_1<::VideoColorData_VideoEntry>* videoEntries; // 0x18
+	::System::Collections::Generic::List_1<::System::Object*>* videoEntries; // 0x18
 
 	::System::Void _ctor()
 	{

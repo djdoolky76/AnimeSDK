@@ -3,12 +3,11 @@
 #include "unitysdk/System/Object.h"
 
 namespace ParadoxNotion { class HierarchyTree_Element; }
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int HierarchyTree_Element__GetAllChildrenReferencesOfType_d__15_1_TypeDefinitionIndex = 30319;
+	inline static constexpr unsigned int HierarchyTree_Element__GetAllChildrenReferencesOfType_d__15_1_TypeDefinitionIndex = 29865;
 
 	template <typename T>
 	class HierarchyTree_Element__GetAllChildrenReferencesOfType_d__15_1 : public ::System::Object

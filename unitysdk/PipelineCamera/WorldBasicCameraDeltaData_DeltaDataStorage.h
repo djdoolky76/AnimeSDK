@@ -6,12 +6,13 @@
 #include "unitysdk/PipelineCamera/WorldBasicCameraDeltaData_LockSourceCoreSpace.h"
 #include "unitysdk/PipelineCamera/WorldBasicCameraDeltaData_LockSourceFinalSpace.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 
-#define PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTADATASTORAGE_UPDATE_OFFSET UNITYSDK_OFFSET(0xA95050)
+#define PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTADATASTORAGE_UPDATE_OFFSET UNITYSDK_OFFSET(0x977C20)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int WorldBasicCameraDeltaData_DeltaDataStorage_TypeDefinitionIndex = 38270;
+	inline static constexpr unsigned int WorldBasicCameraDeltaData_DeltaDataStorage_TypeDefinitionIndex = 36272;
 
 	struct alignas(4) WorldBasicCameraDeltaData_DeltaDataStorage
 	{
@@ -20,11 +21,9 @@ namespace PipelineCamera
 		::PipelineCamera::WorldBasicCameraDeltaData_LockSourceFinalSpace _lockSourceFinalSpace; // 0x10
 		::PipelineCamera::WorldBasicCameraDeltaData_LockSourceCoreSpace _lockSourceCoreSpace; // 0x10
 
-		/*
 		::PipelineCamera::WorldBasicCameraData Update(::System::Single fadedAlpha, ::PipelineCamera::WorldBasicCameraData& cameraData, ::PipelineCamera::WorldBasicCameraDataDeltaFlag flag)
 		{
 			return ((::PipelineCamera::WorldBasicCameraData(*)(::PVOID, ::System::Single, ::PipelineCamera::WorldBasicCameraData&, ::PipelineCamera::WorldBasicCameraDataDeltaFlag))((::PBYTE)hIl2Cpp + PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTADATASTORAGE_UPDATE_OFFSET))(this, fadedAlpha, cameraData, flag);
 		}
-		*/
 	};
 }

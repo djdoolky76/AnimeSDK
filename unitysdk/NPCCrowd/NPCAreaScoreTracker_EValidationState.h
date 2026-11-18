@@ -3,11 +3,11 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCAreaScoreTracker_EValidationState_TypeDefinitionIndex = 76439;
+	inline static constexpr unsigned int NPCAreaScoreTracker_EValidationState_TypeDefinitionIndex = 89482;
 
 	enum class NPCAreaScoreTracker_EValidationState : ::System::Int32
 	{
-		Idle = 0,
 		InProgress = 1,
+		Idle = 0,
 	};
 }

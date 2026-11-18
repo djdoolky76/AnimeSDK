@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGPREIFIXTASK_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x1B935120)
-#define MOLEMOLE_CONFIGPREIFIXTASK_METHOD_1_D331A55A8A344B8B_OFFSET UNITYSDK_OFFSET(0x1B935160)
-#define MOLEMOLE_CONFIGPREIFIXTASK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B935020)
-#define MOLEMOLE_CONFIGPREIFIXTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B935100)
+#define MOLEMOLE_CONFIGPREIFIXTASK_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x103E3CA0)
+#define MOLEMOLE_CONFIGPREIFIXTASK_HFENAHPFNKL_OFFSET UNITYSDK_OFFSET(0x103E3C00)
+#define MOLEMOLE_CONFIGPREIFIXTASK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x103E3B00)
+#define MOLEMOLE_CONFIGPREIFIXTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x103E3BE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigPreIFixTask_TypeDefinitionIndex = 70266;
+	inline static constexpr unsigned int ConfigPreIFixTask_TypeDefinitionIndex = 42015;
 
 	class ConfigPreIFixTask : public ::System::Object
 	{
 	public:
 		static ::MoleMole::ConfigPreIFixTask** StaticGet__config()
 		{
-			return (::MoleMole::ConfigPreIFixTask**)Il2CppClass::FromTypeDefinitionIndex(ConfigPreIFixTask_TypeDefinitionIndex)->GetStaticField(0x39EC0);
+			return (::MoleMole::ConfigPreIFixTask**)Il2CppClass::FromTypeDefinitionIndex(ConfigPreIFixTask_TypeDefinitionIndex)->GetStaticField(0x3BE20);
 		}
 		::System::Int32 urlRequestCount; // 0x10
 		::System::Single urlRetryDelay; // 0x14
@@ -34,14 +34,14 @@ namespace MoleMole
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPREIFIXTASK_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* Method_1_128774387667156B()
+		static ::MoleMole::ConfigPreIFixTask* HFENAHPFNKL()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPREIFIXTASK_METHOD_1_128774387667156B_OFFSET))(this);
+			return ((::MoleMole::ConfigPreIFixTask*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPREIFIXTASK_HFENAHPFNKL_OFFSET))();
 		}
 
-		static ::MoleMole::ConfigPreIFixTask* Method_1_D331A55A8A344B8B()
+		::System::String* DPIHOJBBGLA()
 		{
-			return ((::MoleMole::ConfigPreIFixTask*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPREIFIXTASK_METHOD_1_D331A55A8A344B8B_OFFSET))();
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGPREIFIXTASK_DPIHOJBBGLA_OFFSET))(this);
 		}
 	};
 }

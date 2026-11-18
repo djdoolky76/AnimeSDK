@@ -5,18 +5,18 @@
 namespace MoleMole { class UIVideoShopSelectPropertyPopWindowController; }
 namespace MoleMole { class UIVideoShopSelectPropertyTypeRowWidgetController; }
 
-#define MOLEMOLE_UIVIDEOSHOPSELECTPROPERTYPOPWINDOWCONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x112C5B70)
-#define MOLEMOLE_UIVIDEOSHOPSELECTPROPERTYPOPWINDOWCONTROLLER___C__DISPLAYCLASS28_0__INITBASEPROPERTYITEMS_B__0_OFFSET UNITYSDK_OFFSET(0x112C5B80)
+#define MOLEMOLE_UIVIDEOSHOPSELECTPROPERTYPOPWINDOWCONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10562470)
+#define MOLEMOLE_UIVIDEOSHOPSELECTPROPERTYPOPWINDOWCONTROLLER___C__DISPLAYCLASS28_0__INITBASEPROPERTYITEMS_B__0_OFFSET UNITYSDK_OFFSET(0x10562480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoShopSelectPropertyPopWindowController___c__DisplayClass28_0_TypeDefinitionIndex = 68102;
+	inline static constexpr unsigned int UIVideoShopSelectPropertyPopWindowController___c__DisplayClass28_0_TypeDefinitionIndex = 83721;
 
 	class UIVideoShopSelectPropertyPopWindowController___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIVideoShopSelectPropertyTypeRowWidgetController* itemCtrl; // 0x10
-		::MoleMole::UIVideoShopSelectPropertyPopWindowController* __4__this; // 0x18
+		::MoleMole::UIVideoShopSelectPropertyPopWindowController* __4__this; // 0x10
+		::MoleMole::UIVideoShopSelectPropertyTypeRowWidgetController* itemCtrl; // 0x18
 		::System::Int32 index; // 0x20
 		::System::Int32 baseProperty; // 0x24
 

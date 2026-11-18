@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookRABItemRowWidgetController_RABSectionType_TypeDefinitionIndex = 64141;
+	inline static constexpr unsigned int UIHandBookRABItemRowWidgetController_RABSectionType_TypeDefinitionIndex = 60896;
 
 	enum class UIHandBookRABItemRowWidgetController_RABSectionType : ::System::Int32
 	{
-		TrainingLevel = 0,
 		Tower = 1,
+		TrainingLevel = 0,
 		BossChallenge = 2,
 	};
 }

@@ -15,11 +15,12 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_CharacterInfo_TypeDefinitionIndex = 39771;
+	inline static constexpr unsigned int TMP_CharacterInfo_TypeDefinitionIndex = 37771;
 
 	struct alignas(8) TMP_CharacterInfo
 	{
 		::System::Char character; // 0x10
+		::System::Byte _padding0[0x2];
 		::System::Int32 index; // 0x14
 		::System::Int32 stringLength; // 0x18
 		::TMPro::TMP_TextElementType elementType; // 0x1C
@@ -27,9 +28,11 @@ namespace TMPro
 		::TMPro::TMP_FontAsset* fontAsset; // 0x28
 		::TMPro::TMP_SpriteAsset* spriteAsset; // 0x30
 		::System::Int32 spriteIndex; // 0x38
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Material* material; // 0x40
 		::System::Int32 materialReferenceIndex; // 0x48
 		::System::Boolean isUsingAlternateTypeface; // 0x4C
+		::System::Byte _padding2[0x3];
 		::System::Single pointSize; // 0x50
 		::System::Int32 lineNumber; // 0x54
 		::System::Int32 pageNumber; // 0x58

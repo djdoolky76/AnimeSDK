@@ -6,11 +6,11 @@
 namespace MoleMole { class AniamtorParamsSetting; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGBOSSAIRCOMBATPARRYATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B547760)
+#define MOLEMOLE_CONFIG_CONFIGBOSSAIRCOMBATPARRYATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA26B40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBossAirCombatParryAttack_TypeDefinitionIndex = 72339;
+	inline static constexpr unsigned int ConfigBossAirCombatParryAttack_TypeDefinitionIndex = 87310;
 
 	class ConfigBossAirCombatParryAttack : public ::System::Object
 	{

@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
-#include "unitysdk/MessagePack/MessagePackWriter.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/MessagePack/MessagePackWriter.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace ParadoxNotion::Serialization::FullSerializer { class fsMetaProperty; }
@@ -10,30 +9,30 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1EA962F0)
-#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_GETPROPERTYHASH_OFFSET UNITYSDK_OFFSET(0x1EA968F0)
-#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_GETTYPERUNTIMEHASH_OFFSET UNITYSDK_OFFSET(0x1EA96B90)
-#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_ISSHOULDHANDLEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1EA96510)
-#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1EA971A0)
-#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_LOGWARN_OFFSET UNITYSDK_OFFSET(0x1EA97140)
-#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_LOG_OFFSET UNITYSDK_OFFSET(0x1EA970C0)
-#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_TRYUSERESERVEDFORMATTERSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA96F10)
-#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA97250)
+#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1EDC7330)
+#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_GETPROPERTYHASH_OFFSET UNITYSDK_OFFSET(0x1EDC7930)
+#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_GETTYPERUNTIMEHASH_OFFSET UNITYSDK_OFFSET(0x1EDC7BD0)
+#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_ISSHOULDHANDLEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1EDC7550)
+#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1EDC81E0)
+#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_LOGWARN_OFFSET UNITYSDK_OFFSET(0x1EDC8180)
+#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_LOG_OFFSET UNITYSDK_OFFSET(0x1EDC8100)
+#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS_TRYUSERESERVEDFORMATTERSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EDC7F50)
+#define MESSAGEPACK_FORMATTERS_GRAPHBINARYUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDC8290)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GraphBinaryUtils_TypeDefinitionIndex = 30482;
+	inline static constexpr unsigned int GraphBinaryUtils_TypeDefinitionIndex = 30717;
 
 	class GraphBinaryUtils : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_s_NodeKeepPropEvenIgnore()
 		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GraphBinaryUtils_TypeDefinitionIndex)->GetStaticField(0x26370);
+			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GraphBinaryUtils_TypeDefinitionIndex)->GetStaticField(0x27440);
 		}
 		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet_s_PropertyTypeBlackList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(GraphBinaryUtils_TypeDefinitionIndex)->GetStaticField(0x26378);
+			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(GraphBinaryUtils_TypeDefinitionIndex)->GetStaticField(0x27448);
 		}
 
 		static ::System::Void _cctor()

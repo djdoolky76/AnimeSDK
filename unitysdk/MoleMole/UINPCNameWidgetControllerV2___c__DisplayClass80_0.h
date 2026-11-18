@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UINPCNameWidgetControllerV2; }
 
-#define MOLEMOLE_UINPCNAMEWIDGETCONTROLLERV2___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E0D7B0)
-#define MOLEMOLE_UINPCNAMEWIDGETCONTROLLERV2___C__DISPLAYCLASS80_0__PLAYARROWANIM_B__0_OFFSET UNITYSDK_OFFSET(0x17E0D7C0)
+#define MOLEMOLE_UINPCNAMEWIDGETCONTROLLERV2___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186E58E0)
+#define MOLEMOLE_UINPCNAMEWIDGETCONTROLLERV2___C__DISPLAYCLASS80_0__PLAYARROWANIM_B__0_OFFSET UNITYSDK_OFFSET(0x186E58F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINPCNameWidgetControllerV2___c__DisplayClass80_0_TypeDefinitionIndex = 71001;
+	inline static constexpr unsigned int UINPCNameWidgetControllerV2___c__DisplayClass80_0_TypeDefinitionIndex = 40241;
 
 	class UINPCNameWidgetControllerV2___c__DisplayClass80_0 : public ::System::Object
 	{

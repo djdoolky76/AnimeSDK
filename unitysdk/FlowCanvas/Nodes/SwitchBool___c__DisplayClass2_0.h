@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas::Nodes { class SwitchBool; }
 
-#define FLOWCANVAS_NODES_SWITCHBOOL___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E723510)
-#define FLOWCANVAS_NODES_SWITCHBOOL___C__DISPLAYCLASS2_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E723520)
+#define FLOWCANVAS_NODES_SWITCHBOOL___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C8830)
+#define FLOWCANVAS_NODES_SWITCHBOOL___C__DISPLAYCLASS2_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E9C8840)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchBool___c__DisplayClass2_0_TypeDefinitionIndex = 31357;
+	inline static constexpr unsigned int SwitchBool___c__DisplayClass2_0_TypeDefinitionIndex = 30012;
 
 	class SwitchBool___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Boolean>* selector; // 0x10
-		::FlowCanvas::FlowOutput* caseTrue; // 0x18
-		::FlowCanvas::FlowOutput* caseFalse; // 0x20
+		::FlowCanvas::FlowOutput* caseFalse; // 0x10
+		::FlowCanvas::ValueInput_1<::System::Boolean>* selector; // 0x18
+		::FlowCanvas::FlowOutput* caseTrue; // 0x20
 		::FlowCanvas::Nodes::SwitchBool* __4__this; // 0x28
 
 		::System::Void _ctor()

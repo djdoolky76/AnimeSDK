@@ -4,9 +4,9 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RendererUpdateAllAsyncHandle_TypeDefinitionIndex = 6155;
+	inline static constexpr unsigned int RendererUpdateAllAsyncHandle_TypeDefinitionIndex = 6164;
 
-	struct alignas(8) RendererUpdateAllAsyncHandle
+	struct alignas(4) RendererUpdateAllAsyncHandle
 	{
 		::System::IntPtr state; // 0x10
 	};

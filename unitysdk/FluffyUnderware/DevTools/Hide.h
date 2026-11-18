@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FluffyUnderware/DevTools/DTAttribute.h"
 
-#define FLUFFYUNDERWARE_DEVTOOLS_HIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA55DA0)
+#define FLUFFYUNDERWARE_DEVTOOLS_HIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5EA20)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int Hide_TypeDefinitionIndex = 28928;
+	inline static constexpr unsigned int Hide_TypeDefinitionIndex = 28367;
 
 	class Hide : public ::FluffyUnderware::DevTools::DTAttribute
 	{

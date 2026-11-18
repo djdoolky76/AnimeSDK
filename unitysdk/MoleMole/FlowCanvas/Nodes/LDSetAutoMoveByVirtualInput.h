@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_4.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETAUTOMOVEBYVIRTUALINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0x129955F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETAUTOMOVEBYVIRTUALINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x129957D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETAUTOMOVEBYVIRTUALINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0x12454800)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETAUTOMOVEBYVIRTUALINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x124549E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetAutoMoveByVirtualInput_TypeDefinitionIndex = 75902;
+	inline static constexpr unsigned int LDSetAutoMoveByVirtualInput_TypeDefinitionIndex = 87885;
 
-	class LDSetAutoMoveByVirtualInput : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::Boolean, ::UnityEngine::Vector2>
+	class LDSetAutoMoveByVirtualInput
 	{
 	public:
 		::System::Void _ctor()

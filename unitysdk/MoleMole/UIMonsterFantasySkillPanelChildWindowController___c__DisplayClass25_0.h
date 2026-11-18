@@ -5,12 +5,12 @@
 namespace MoleMole { class TurnBattleEntityUnit; }
 namespace MoleMole { class UIMonsterFantasySkillPanelChildWindowController; }
 
-#define MOLEMOLE_UIMONSTERFANTASYSKILLPANELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x168E2980)
-#define MOLEMOLE_UIMONSTERFANTASYSKILLPANELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS25_0__ONPOINTERUP_B__0_OFFSET UNITYSDK_OFFSET(0x168E2990)
+#define MOLEMOLE_UIMONSTERFANTASYSKILLPANELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17C887E0)
+#define MOLEMOLE_UIMONSTERFANTASYSKILLPANELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS25_0__ONPOINTERUP_B__0_OFFSET UNITYSDK_OFFSET(0x17C887F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasySkillPanelChildWindowController___c__DisplayClass25_0_TypeDefinitionIndex = 89065;
+	inline static constexpr unsigned int UIMonsterFantasySkillPanelChildWindowController___c__DisplayClass25_0_TypeDefinitionIndex = 90205;
 
 	class UIMonsterFantasySkillPanelChildWindowController___c__DisplayClass25_0 : public ::System::Object
 	{

@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYCLOUDCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1E266AE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYCLOUDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E266FC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYCLOUDCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1E384320)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYCLOUDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E384800)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SkyCloudConfig_TypeDefinitionIndex = 27469;
+	inline static constexpr unsigned int SkyCloudConfig_TypeDefinitionIndex = 27038;
 
-	class SkyCloudConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SkyCloudConfig*>
+	class SkyCloudConfig
 	{
 	public:
 		::UnityEngine::Gradient* cloudColorRamp; // 0x18
@@ -34,10 +33,12 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::System::Single cloudMoveSpeed; // 0x6C
 		::System::Boolean lowCloudTextureIsCubeMap; // 0x70
 		::System::Boolean lowCloudFillDome; // 0x71
+		::System::Byte _padding0[0x6];
 		::UnityEngine::Texture* lowCloudTexture; // 0x78
 		::UnityEngine::Texture* highCloudTexture; // 0x80
 		::UnityEngine::Texture* cloudDistortMap; // 0x88
 		::System::Boolean lowEarthEnabled; // 0x90
+		::System::Byte _padding1[0x7];
 		::UnityEngine::Texture* lowEarthTexture; // 0x98
 		::System::Single lowEarthAlpha; // 0xA0
 		::System::Single lowEarthUvScale; // 0xA4

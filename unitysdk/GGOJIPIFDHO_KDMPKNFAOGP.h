@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/GGOJIPIFDHO.h"
+#include "unitysdk/GGOJIPIFDHO_HALBMICGENH.h"
+#include "unitysdk/GGOJIPIFDHO_LOLAIKLHEMF.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace UnityEngine { class CapsuleCollider; }
+namespace UnityEngine { class Collider; }
+
+#define GGOJIPIFDHO_KDMPKNFAOGP_AHECPNPJEKM_OFFSET UNITYSDK_OFFSET(0x149C4060)
+#define GGOJIPIFDHO_KDMPKNFAOGP_AMEGHCHMIOD_OFFSET UNITYSDK_OFFSET(0x149C3A80)
+#define GGOJIPIFDHO_KDMPKNFAOGP_DFACDHAEDAH_OFFSET UNITYSDK_OFFSET(0x149C3F10)
+#define GGOJIPIFDHO_KDMPKNFAOGP_FHCPFFMMEOC_OFFSET UNITYSDK_OFFSET(0x149C3CE0)
+#define GGOJIPIFDHO_KDMPKNFAOGP_GOCLDCDPGCG_OFFSET UNITYSDK_OFFSET(0x149C3B70)
+#define GGOJIPIFDHO_KDMPKNFAOGP__CTOR_OFFSET UNITYSDK_OFFSET(0x149C34D0)
+
+inline static constexpr unsigned int GGOJIPIFDHO_KDMPKNFAOGP_TypeDefinitionIndex = 83232;
+
+class GGOJIPIFDHO_KDMPKNFAOGP : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_KDMPKNFAOGP__CTOR_OFFSET))(this);
+	}
+
+	::System::Void AMEGHCHMIOD(::GGOJIPIFDHO& PHMKLMLBNCA, ::UnityEngine::Collider* EHHHMFKHNAI)
+	{
+		return ((::System::Void(*)(::PVOID, ::GGOJIPIFDHO&, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_KDMPKNFAOGP_AMEGHCHMIOD_OFFSET))(this, PHMKLMLBNCA, EHHHMFKHNAI);
+	}
+
+	::UnityEngine::Vector3 GOCLDCDPGCG(::UnityEngine::Collider* EHHHMFKHNAI)
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_KDMPKNFAOGP_GOCLDCDPGCG_OFFSET))(this, EHHHMFKHNAI);
+	}
+
+	::System::Single FHCPFFMMEOC(::UnityEngine::Collider* EHHHMFKHNAI, ::GGOJIPIFDHO_HALBMICGENH& AAOCANGHBDG, ::GGOJIPIFDHO_LOLAIKLHEMF& OBIPHBKODPP)
+	{
+		return ((::System::Single(*)(::PVOID, ::UnityEngine::Collider*, ::GGOJIPIFDHO_HALBMICGENH&, ::GGOJIPIFDHO_LOLAIKLHEMF&))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_KDMPKNFAOGP_FHCPFFMMEOC_OFFSET))(this, EHHHMFKHNAI, AAOCANGHBDG, OBIPHBKODPP);
+	}
+
+	::System::Single AHECPNPJEKM(::UnityEngine::Collider* EHHHMFKHNAI, ::GGOJIPIFDHO_HALBMICGENH& AAOCANGHBDG, ::GGOJIPIFDHO_LOLAIKLHEMF& OBIPHBKODPP)
+	{
+		return ((::System::Single(*)(::PVOID, ::UnityEngine::Collider*, ::GGOJIPIFDHO_HALBMICGENH&, ::GGOJIPIFDHO_LOLAIKLHEMF&))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_KDMPKNFAOGP_AHECPNPJEKM_OFFSET))(this, EHHHMFKHNAI, AAOCANGHBDG, OBIPHBKODPP);
+	}
+
+	::UnityEngine::Vector3 DFACDHAEDAH(::UnityEngine::CapsuleCollider* DKMCMJOACMB)
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::CapsuleCollider*))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_KDMPKNFAOGP_DFACDHAEDAH_OFFSET))(this, DKMCMJOACMB);
+	}
+};

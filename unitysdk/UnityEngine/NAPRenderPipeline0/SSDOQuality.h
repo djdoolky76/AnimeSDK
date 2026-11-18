@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SSDOQuality_TypeDefinitionIndex = 5894;
+	inline static constexpr unsigned int SSDOQuality_TypeDefinitionIndex = 5900;
 
 	enum class SSDOQuality : ::System::Int32
 	{

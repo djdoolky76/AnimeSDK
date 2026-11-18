@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPOPHIDDENRENDERLAYERON_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B8380A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPOPHIDDENRENDERLAYERON__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8381E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPOPHIDDENRENDERLAYERON_INVOKE_OFFSET UNITYSDK_OFFSET(0x180DE5D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPOPHIDDENRENDERLAYERON__CTOR_OFFSET UNITYSDK_OFFSET(0x180DE710)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPopHiddenRenderLayerOn_TypeDefinitionIndex = 86473;
+	inline static constexpr unsigned int LDPopHiddenRenderLayerOn_TypeDefinitionIndex = 87396;
 
-	class LDPopHiddenRenderLayerOn : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::String*>
+	class LDPopHiddenRenderLayerOn
 	{
 	public:
 		::System::Void _ctor()

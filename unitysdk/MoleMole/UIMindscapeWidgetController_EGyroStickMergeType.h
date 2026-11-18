@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeWidgetController_EGyroStickMergeType_TypeDefinitionIndex = 78681;
+	inline static constexpr unsigned int UIMindscapeWidgetController_EGyroStickMergeType_TypeDefinitionIndex = 40367;
 
 	enum class UIMindscapeWidgetController_EGyroStickMergeType : ::System::Int32
 	{
-		C = 2,
 		A = 0,
 		B = 1,
+		C = 2,
 	};
 }

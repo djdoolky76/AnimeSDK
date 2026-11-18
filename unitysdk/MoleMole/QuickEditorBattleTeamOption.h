@@ -1,33 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_F9371E17A075FFBB.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
+#include "unitysdk/PCEALKAMJDN.h"
 
-class Class_1_4FD593C62220B85A;
-class Class_2_1824EF69C8E376A3;
-class Class_2_3BB4FDB082E23A99;
+class BKGKJNHLCKC;
+class BPFDIBAFAFI;
+class BPHGNMNLLHF;
+namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_QUICKEDITORBATTLETEAMOPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x173A16E0)
+#define MOLEMOLE_QUICKEDITORBATTLETEAMOPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x13F0F190)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int QuickEditorBattleTeamOption_TypeDefinitionIndex = 51405;
+	inline static constexpr unsigned int QuickEditorBattleTeamOption_TypeDefinitionIndex = 74555;
 
 	class QuickEditorBattleTeamOption : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_2_3BB4FDB082E23A99*>* buddyDataList; // 0x28
-		::System::Action_1<::Class_1_4FD593C62220B85A*>* onConfirmCallback; // 0x30
-		::System::Collections::Generic::List_1<::System::Int32>* historyTeam; // 0x38
-		::System::Collections::Generic::List_1<::Class_2_1824EF69C8E376A3*>* avatarItemList; // 0x40
-		::System::UInt32 monsterID; // 0x48
-		::System::Int32 questID; // 0x4C
-		::Enum_3_F9371E17A075FFBB displayMode; // 0x50
-		::System::Int32 hardCoreBossModeId; // 0x54
-		::System::Boolean useHardStyleBackground; // 0x58
+		::System::Collections::Generic::List_1<::System::Int32>* historyTeam; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* avatarAbilityMap; // 0x30
+		::System::Action_1<::BPFDIBAFAFI*>* onConfirmCallback; // 0x38
+		::System::Collections::Generic::List_1<::BKGKJNHLCKC*>* buddyDataList; // 0x40
+		::System::String* headerDescTextKey; // 0x48
+		::System::Collections::Generic::List_1<::BPHGNMNLLHF*>* avatarItemList; // 0x50
+		::System::Boolean useAlternativeBackground; // 0x58
 		::System::Boolean isOpenBuddy; // 0x59
+		::System::Byte _padding0[0x2];
+		::System::UInt32 monsterID; // 0x5C
+		::PCEALKAMJDN displayMode; // 0x60
 
 		::System::Void _ctor()
 		{

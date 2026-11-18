@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_ASSETSONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76F830)
+#define SIRENIX_ODININSPECTOR_ASSETSONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7FA70)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int AssetsOnlyAttribute_TypeDefinitionIndex = 7265;
+	inline static constexpr unsigned int AssetsOnlyAttribute_TypeDefinitionIndex = 7272;
 
 	class AssetsOnlyAttribute : public ::System::Attribute
 	{

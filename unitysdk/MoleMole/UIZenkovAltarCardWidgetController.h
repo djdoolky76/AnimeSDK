@@ -1,0 +1,148 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
+#include "unitysdk/System/ValueTuple_2.h"
+
+class IFOHGNLIAKH;
+class JFOGKNLPCKH;
+class MonoUITableScrollV2;
+class PFNKBGGDCDN;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIGeneralIconCardRarityWidgetController; }
+namespace MoleMole { class UIZenkovAltarCardWidgetController_Data; }
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_ABKDIFGNGMH_OFFSET UNITYSDK_OFFSET(0x164F1600)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_AHNMKPBFEKJ_OFFSET UNITYSDK_OFFSET(0x164F0B90)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_CCBGMIDNLGL_OFFSET UNITYSDK_OFFSET(0x164F0C10)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_DGICIHMKFEB_OFFSET UNITYSDK_OFFSET(0x164F02E0)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_GNMFCFHLLOE_OFFSET UNITYSDK_OFFSET(0x164F04C0)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_IAHFCDNLJME_OFFSET UNITYSDK_OFFSET(0x164F0090)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_ICKLJNHPFDN_OFFSET UNITYSDK_OFFSET(0x164F00F0)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_MOEHDMKPIOP_OFFSET UNITYSDK_OFFSET(0x164F1040)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x164EFAF0)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x164EFC00)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x164EFB80)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x164EF730)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x164EFE30)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_SETDATA_OFFSET UNITYSDK_OFFSET(0x164EFCC0)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_SETSELECT_OFFSET UNITYSDK_OFFSET(0x164EFDA0)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x164F0DE0)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x164F0DF0)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x164F0E80)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x164F0F20)
+#define MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x164F0FB0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIZenkovAltarCardWidgetController_TypeDefinitionIndex = 49938;
+
+	class UIZenkovAltarCardWidgetController : public ::MoleMole::ScrollViewItemWidgetController
+	{
+	public:
+		::PFNKBGGDCDN* _view; // 0x2F8
+		::MoleMole::UIZenkovAltarCardWidgetController_Data* EFFAONJBCOG; // 0x300
+		::MoleMole::UIGeneralIconCardRarityWidgetController* LCAPACGMIDD; // 0x308
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
+		}
+
+		::System::Void SetData(::MoleMole::UIZenkovAltarCardWidgetController_Data* data)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIZenkovAltarCardWidgetController_Data*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_SETDATA_OFFSET))(this, data);
+		}
+
+		::System::Void RefreshView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_REFRESHVIEW_OFFSET))(this);
+		}
+
+		::System::Void SetSelect(::System::Boolean isSelect)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_SETSELECT_OFFSET))(this, isSelect);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void GNMFCFHLLOE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_GNMFCFHLLOE_OFFSET))(this);
+		}
+
+		::JFOGKNLPCKH* IAHFCDNLJME()
+		{
+			return ((::JFOGKNLPCKH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_IAHFCDNLJME_OFFSET))(this);
+		}
+
+		::System::Void CCBGMIDNLGL()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_CCBGMIDNLGL_OFFSET))(this);
+		}
+
+		::System::Void MOEHDMKPIOP(::MonoUITableScrollV2* FAMGIABLFPH, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* NOGPMAKCPJN)
+		{
+			return ((::System::Void(*)(::PVOID, ::MonoUITableScrollV2*, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_MOEHDMKPIOP_OFFSET))(this, FAMGIABLFPH, NOGPMAKCPJN);
+		}
+
+		::System::Void ABKDIFGNGMH(::IFOHGNLIAKH* CPAHLHMBPME, ::System::Int32 OIKFFGKDHME)
+		{
+			return ((::System::Void(*)(::PVOID, ::IFOHGNLIAKH*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_ABKDIFGNGMH_OFFSET))(this, CPAHLHMBPME, OIKFFGKDHME);
+		}
+
+		::System::Void AHNMKPBFEKJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_AHNMKPBFEKJ_OFFSET))(this);
+		}
+
+		::System::Void ICKLJNHPFDN()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_ICKLJNHPFDN_OFFSET))(this);
+		}
+
+		::System::Void DGICIHMKFEB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARCARDWIDGETCONTROLLER_DGICIHMKFEB_OFFSET))(this);
+		}
+	};
+}

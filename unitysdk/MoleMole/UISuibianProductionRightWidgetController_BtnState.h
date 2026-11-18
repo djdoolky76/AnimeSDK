@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianProductionRightWidgetController_BtnState_TypeDefinitionIndex = 45709;
+	inline static constexpr unsigned int UISuibianProductionRightWidgetController_BtnState_TypeDefinitionIndex = 61877;
 
 	enum class UISuibianProductionRightWidgetController_BtnState : ::System::Int32
 	{

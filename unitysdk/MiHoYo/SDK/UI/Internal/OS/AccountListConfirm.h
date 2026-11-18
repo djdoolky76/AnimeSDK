@@ -3,30 +3,29 @@
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
 
 namespace System { class Action; }
-namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D772810)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_CANCEL_OFFSET UNITYSDK_OFFSET(0x1D773990)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1D773920)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1D7739B0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1D7737F0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1D7735A0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D773A20)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1DECBA00)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_CANCEL_OFFSET UNITYSDK_OFFSET(0x1DECCB70)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1DECCB00)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1DECCB90)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1DECC9D0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1DECC780)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DECCC00)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int AccountListConfirm_TypeDefinitionIndex = 20546;
+	inline static constexpr unsigned int AccountListConfirm_TypeDefinitionIndex = 19704;
 
 	class AccountListConfirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::UI::Internal::OS::AccountListConfirm** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::UI::Internal::OS::AccountListConfirm**)Il2CppClass::FromTypeDefinitionIndex(AccountListConfirm_TypeDefinitionIndex)->GetStaticField(0xAFD0);
+			return (::MiHoYo::SDK::UI::Internal::OS::AccountListConfirm**)Il2CppClass::FromTypeDefinitionIndex(AccountListConfirm_TypeDefinitionIndex)->GetStaticField(0xAF60);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* titlePath; // 0x0

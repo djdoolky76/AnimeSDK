@@ -1,25 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/CameraStoryDataActiveCondition.h"
-#include "unitysdk/MoleMole/Config/CameraStoryDataActiveConditionByBodySizeAndSection_Condition.h"
 
 namespace Nap::NapECS { class EcsWorld; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CAMERASTORYDATAACTIVECONDITIONBYBODYSIZEANDSECTION_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x116F8600)
-#define MOLEMOLE_CONFIG_CAMERASTORYDATAACTIVECONDITIONBYBODYSIZEANDSECTION_PASS_OFFSET UNITYSDK_OFFSET(0x116F8430)
-#define MOLEMOLE_CONFIG_CAMERASTORYDATAACTIVECONDITIONBYBODYSIZEANDSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x116F8610)
+#define MOLEMOLE_CONFIG_CAMERASTORYDATAACTIVECONDITIONBYBODYSIZEANDSECTION_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xFAB6770)
+#define MOLEMOLE_CONFIG_CAMERASTORYDATAACTIVECONDITIONBYBODYSIZEANDSECTION_PASS_OFFSET UNITYSDK_OFFSET(0xFAB65A0)
+#define MOLEMOLE_CONFIG_CAMERASTORYDATAACTIVECONDITIONBYBODYSIZEANDSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xFAB6780)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CameraStoryDataActiveConditionByBodySizeAndSection_TypeDefinitionIndex = 51862;
+	inline static constexpr unsigned int CameraStoryDataActiveConditionByBodySizeAndSection_TypeDefinitionIndex = 44936;
 
 	class CameraStoryDataActiveConditionByBodySizeAndSection : public ::MoleMole::Config::CameraStoryDataActiveCondition
 	{
 	public:
 		::System::Int32 priority; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::UInt32>* sections; // 0x18
-		::System::Collections::Generic::List_1<::MoleMole::Config::CameraStoryDataActiveConditionByBodySizeAndSection_Condition>* conditions; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* conditions; // 0x20
 
 		::System::Void _ctor()
 		{

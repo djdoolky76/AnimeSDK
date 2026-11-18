@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BKCJAIFHNKF.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+#include "unitysdk/NEIGJHNJNFL.h"
+
+class CPABOPKIGAL;
+class KCBEGMCCKCA;
+
+#define LNLPDGJCPDN_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0x1A629720)
+#define LNLPDGJCPDN_FEDNEKFMGNF_OFFSET UNITYSDK_OFFSET(0x1A6295E0)
+#define LNLPDGJCPDN_GDEOPIBNOIN_OFFSET UNITYSDK_OFFSET(0x1A629860)
+#define LNLPDGJCPDN_LHLLFJDCOOF_OFFSET UNITYSDK_OFFSET(0x1A629670)
+#define LNLPDGJCPDN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6297A0)
+
+inline static constexpr unsigned int LNLPDGJCPDN_TypeDefinitionIndex = 44517;
+
+class LNLPDGJCPDN : public ::BKCJAIFHNKF
+{
+public:
+	::CPABOPKIGAL* LMDIMIIBPLD; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LNLPDGJCPDN__CTOR_OFFSET))(this);
+	}
+
+	::System::Void FEDNEKFMGNF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LNLPDGJCPDN_FEDNEKFMGNF_OFFSET))(this);
+	}
+
+	::System::Void LHLLFJDCOOF(::KCBEGMCCKCA* MHPNGBGGMMN, ::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::KCBEGMCCKCA*, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + LNLPDGJCPDN_LHLLFJDCOOF_OFFSET))(this, MHPNGBGGMMN, BKBGPKNGNMF);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF, ::NEIGJHNJNFL DIHNFECKHMD)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&, ::NEIGJHNJNFL))((::PBYTE)hIl2Cpp + LNLPDGJCPDN_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF, DIHNFECKHMD);
+	}
+
+	::System::Void GDEOPIBNOIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LNLPDGJCPDN_GDEOPIBNOIN_OFFSET))(this);
+	}
+};

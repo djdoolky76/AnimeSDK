@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { struct Enum; }
+namespace System { class Enum; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_ENUMEXT_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1EA52420)
+#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_ENUMEXT_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1ED5B0A0)
 
 namespace FluffyUnderware::DevTools::Extensions
 {
-	inline static constexpr unsigned int EnumExt_TypeDefinitionIndex = 29010;
+	inline static constexpr unsigned int EnumExt_TypeDefinitionIndex = 28449;
 
 	class EnumExt : public ::System::Object
 	{

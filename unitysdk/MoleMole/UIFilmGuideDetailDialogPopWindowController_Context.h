@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_002D9FA6E2A452DC_Class_1_0B392030174BA59A;
+class LDGHPCBNKMP_GFFFJPGLBMP;
 
-#define MOLEMOLE_UIFILMGUIDEDETAILDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18053E90)
+#define MOLEMOLE_UIFILMGUIDEDETAILDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x199977B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFilmGuideDetailDialogPopWindowController_Context_TypeDefinitionIndex = 69174;
+	inline static constexpr unsigned int UIFilmGuideDetailDialogPopWindowController_Context_TypeDefinitionIndex = 44601;
 
 	class UIFilmGuideDetailDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_002D9FA6E2A452DC_Class_1_0B392030174BA59A* ScrollData; // 0x28
+		::LDGHPCBNKMP_GFFFJPGLBMP* ScrollData; // 0x28
 
 		::System::Void _ctor()
 		{

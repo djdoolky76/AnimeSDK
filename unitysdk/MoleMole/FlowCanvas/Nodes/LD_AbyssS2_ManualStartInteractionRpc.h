@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_MANUALSTARTINTERACTIONRPC_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19246D10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_MANUALSTARTINTERACTIONRPC__CTOR_OFFSET UNITYSDK_OFFSET(0x19246E20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_MANUALSTARTINTERACTIONRPC__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x19246E60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_MANUALSTARTINTERACTIONRPC_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x11912970)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_MANUALSTARTINTERACTIONRPC__CTOR_OFFSET UNITYSDK_OFFSET(0x11912A80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_MANUALSTARTINTERACTIONRPC__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x11912AC0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_ManualStartInteractionRpc_TypeDefinitionIndex = 80253;
+	inline static constexpr unsigned int LD_AbyssS2_ManualStartInteractionRpc_TypeDefinitionIndex = 74682;
 
 	class LD_AbyssS2_ManualStartInteractionRpc : public ::FlowCanvas::Nodes::FlowControlNode
 	{

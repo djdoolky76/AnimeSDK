@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITFIXEDCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x192403C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITFIXEDCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x19240510)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITFIXEDCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1190C070)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDEXITFIXEDCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1190C1C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDExitFixedCamera_TypeDefinitionIndex = 69333;
+	inline static constexpr unsigned int LDExitFixedCamera_TypeDefinitionIndex = 47286;
 
 	class LDExitFixedCamera : public ::FlowCanvas::Nodes::CallableActionNode
 	{

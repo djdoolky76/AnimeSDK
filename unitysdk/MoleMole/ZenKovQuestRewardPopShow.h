@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/LogicMessageBase.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace MoleMole { class UIZenkovReplenishDialogPopWindowController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ZENKOVQUESTREWARDPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x11A2B120)
-#define MOLEMOLE_ZENKOVQUESTREWARDPOPSHOW_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x11A2B0C0)
-#define MOLEMOLE_ZENKOVQUESTREWARDPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x11A2B000)
-#define MOLEMOLE_ZENKOVQUESTREWARDPOPSHOW__ONPROCESS_B__4_1_OFFSET UNITYSDK_OFFSET(0x11A2B510)
-#define MOLEMOLE_ZENKOVQUESTREWARDPOPSHOW___BASE_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x11A2B540)
+#define MOLEMOLE_ZENKOVQUESTREWARDPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x18F7DBD0)
+#define MOLEMOLE_ZENKOVQUESTREWARDPOPSHOW_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x18F7DB70)
+#define MOLEMOLE_ZENKOVQUESTREWARDPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x18F7DAB0)
+#define MOLEMOLE_ZENKOVQUESTREWARDPOPSHOW__ONPROCESS_B__4_1_OFFSET UNITYSDK_OFFSET(0x18F7DFC0)
+#define MOLEMOLE_ZENKOVQUESTREWARDPOPSHOW___BASE_SETMESSAGECONFIG_OFFSET UNITYSDK_OFFSET(0x18F7DFF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ZenKovQuestRewardPopShow_TypeDefinitionIndex = 89597;
+	inline static constexpr unsigned int ZenKovQuestRewardPopShow_TypeDefinitionIndex = 62153;
 
 	class ZenKovQuestRewardPopShow : public ::MoleMole::LogicMessageBase
 	{
 	public:
 		::MoleMole::UIZenkovReplenishDialogPopWindowController* _dialog; // 0x20
-		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* items; // 0x28
+		::System::Collections::Generic::List_1<::HGAJKHIMKJP*>* items; // 0x28
 
-		::System::Void _ctor(::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* items)
+		::System::Void _ctor(::System::Collections::Generic::List_1<::HGAJKHIMKJP*>* items)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVQUESTREWARDPOPSHOW__CTOR_OFFSET))(this, items);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::HGAJKHIMKJP*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_ZENKOVQUESTREWARDPOPSHOW__CTOR_OFFSET))(this, items);
 		}
 
 		::System::Void SetMessageConfig()

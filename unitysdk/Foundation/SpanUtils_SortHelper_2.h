@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Span_1.h"
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SpanUtils_SortHelper_2_TypeDefinitionIndex = 8714;
+	inline static constexpr unsigned int SpanUtils_SortHelper_2_TypeDefinitionIndex = 8710;
 
-	template <typename T, typename TComparer>
+	template <typename T1, typename T2>
 	class SpanUtils_SortHelper_2 : public ::System::Object
 	{
 	public:

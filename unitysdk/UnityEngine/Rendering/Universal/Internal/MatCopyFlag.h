@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MATCOPYFLAG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9A0F80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MATCOPYFLAG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF81F10)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int MatCopyFlag_TypeDefinitionIndex = 27022;
+	inline static constexpr unsigned int MatCopyFlag_TypeDefinitionIndex = 26919;
 
 	class MatCopyFlag : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_CopyOnSubThread()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MatCopyFlag_TypeDefinitionIndex)->GetStaticField(0x65F0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MatCopyFlag_TypeDefinitionIndex)->GetStaticField(0x6630);
 		}
 
 		static ::System::Void _cctor()

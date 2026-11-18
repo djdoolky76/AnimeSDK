@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
-#include "unitysdk/UnityEngine/UIElements/UIR/BMPAlloc.h"
 #include "unitysdk/UnityEngine/UIElements/UIR/Implementation/ClipMethod.h"
+#include "unitysdk/UnityEngine/UIElements/UIR/BMPAlloc.h"
 #include "unitysdk/UnityEngine/UIElements/UIR/RenderChainTextEntry.h"
 #include "unitysdk/UnityEngine/UIElements/UIR/RenderDataDirtyTypes.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UIElements { class VisualElement; }
@@ -14,7 +14,7 @@ namespace UnityEngine::UIElements::UIR { class RenderChainCommand; }
 
 namespace UnityEngine::UIElements::UIR
 {
-	inline static constexpr unsigned int RenderChainVEData_TypeDefinitionIndex = 28213;
+	inline static constexpr unsigned int RenderChainVEData_TypeDefinitionIndex = 27631;
 
 	struct alignas(8) RenderChainVEData
 	{
@@ -38,6 +38,7 @@ namespace UnityEngine::UIElements::UIR
 		::System::Boolean usesAtlas; // 0x73
 		::System::Boolean disableNudging; // 0x74
 		::System::Boolean usesLegacyText; // 0x75
+		::System::Byte _padding0[0x2];
 		::UnityEngine::UIElements::UIR::MeshHandle* data; // 0x78
 		::UnityEngine::UIElements::UIR::MeshHandle* closingData; // 0x80
 		::UnityEngine::Matrix4x4 verticesSpace; // 0x88
@@ -47,6 +48,7 @@ namespace UnityEngine::UIElements::UIR
 		::UnityEngine::UIElements::UIR::BMPAlloc clipRectID; // 0xD8
 		::UnityEngine::UIElements::UIR::BMPAlloc opacityID; // 0xE0
 		::System::Single compositeOpacity; // 0xE8
+		::System::Byte _padding1[0x4];
 		::UnityEngine::UIElements::VisualElement* prevText; // 0xF0
 		::UnityEngine::UIElements::VisualElement* nextText; // 0xF8
 		::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChainTextEntry>* textEntries; // 0x100

@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PostProcess/MKGlow/ComputeShaderVariants_KeywordState.h"
 #include "unitysdk/PostProcess/MKGlow/DebugView.h"
-#include "unitysdk/PostProcess/MKGlow/Effect_Keyword.h"
 #include "unitysdk/PostProcess/MKGlow/Effect_MaterialKeywords.h"
 #include "unitysdk/PostProcess/MKGlow/RenderDimension.h"
 #include "unitysdk/PostProcess/MKGlow/RenderPipeline.h"
@@ -30,150 +29,151 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define POSTPROCESS_MKGLOW_EFFECT_AFTERCOMPOSITECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C410510)
-#define POSTPROCESS_MKGLOW_EFFECT_ANGLETODIRECTION_OFFSET UNITYSDK_OFFSET(0x1C40EB10)
-#define POSTPROCESS_MKGLOW_EFFECT_ATTACHCARGBUFFERTOCOMPUTEKERNEL_OFFSET UNITYSDK_OFFSET(0x1C40EEF0)
-#define POSTPROCESS_MKGLOW_EFFECT_BEGINPROFILESAMPLE_OFFSET UNITYSDK_OFFSET(0x1C406720)
-#define POSTPROCESS_MKGLOW_EFFECT_BUILD_OFFSET UNITYSDK_OFFSET(0x1C406800)
-#define POSTPROCESS_MKGLOW_EFFECT_CHECKFEATURESUPPORT_OFFSET UNITYSDK_OFFSET(0x1C406530)
-#define POSTPROCESS_MKGLOW_EFFECT_COMPOSITE_OFFSET UNITYSDK_OFFSET(0x1C40DBB0)
-#define POSTPROCESS_MKGLOW_EFFECT_CONVERTGAMMAVALUE_1_OFFSET UNITYSDK_OFFSET(0x1C40E740)
-#define POSTPROCESS_MKGLOW_EFFECT_CONVERTGAMMAVALUE_OFFSET UNITYSDK_OFFSET(0x1C40E520)
-#define POSTPROCESS_MKGLOW_EFFECT_DISABLEDEBUGKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1C410460)
-#define POSTPROCESS_MKGLOW_EFFECT_DISABLERENDERKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1C40FA20)
-#define POSTPROCESS_MKGLOW_EFFECT_DISABLE_OFFSET UNITYSDK_OFFSET(0x1C404560)
-#define POSTPROCESS_MKGLOW_EFFECT_DOWNSAMPLE_OFFSET UNITYSDK_OFFSET(0x1C40C0C0)
-#define POSTPROCESS_MKGLOW_EFFECT_DRAW_OFFSET UNITYSDK_OFFSET(0x1C40FFC0)
-#define POSTPROCESS_MKGLOW_EFFECT_ENABLE_OFFSET UNITYSDK_OFFSET(0x1C404310)
-#define POSTPROCESS_MKGLOW_EFFECT_ENDPROFILESAMPLE_OFFSET UNITYSDK_OFFSET(0x1C406790)
-#define POSTPROCESS_MKGLOW_EFFECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C404550)
-#define POSTPROCESS_MKGLOW_EFFECT_GET_CURRENTRENDERINDEX_OFFSET UNITYSDK_OFFSET(0x1C403550)
-#define POSTPROCESS_MKGLOW_EFFECT_GET_RENDERTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x1C403560)
-#define POSTPROCESS_MKGLOW_EFFECT_GET_SELECTIVEGLOWCAMERAOBJECT_OFFSET UNITYSDK_OFFSET(0x1C405F00)
-#define POSTPROCESS_MKGLOW_EFFECT_GET_SELECTIVEGLOWCAMERA_OFFSET UNITYSDK_OFFSET(0x1C406150)
-#define POSTPROCESS_MKGLOW_EFFECT_GET_SOURCEFRAMEBUFFER_OFFSET UNITYSDK_OFFSET(0x1C403470)
-#define POSTPROCESS_MKGLOW_EFFECT_PREPAREDRAW_1_OFFSET UNITYSDK_OFFSET(0x1C40FAD0)
-#define POSTPROCESS_MKGLOW_EFFECT_PREPAREDRAW_OFFSET UNITYSDK_OFFSET(0x1C40F640)
-#define POSTPROCESS_MKGLOW_EFFECT_PREPARESCATTERING_OFFSET UNITYSDK_OFFSET(0x1C404610)
-#define POSTPROCESS_MKGLOW_EFFECT_PRESAMPLE_OFFSET UNITYSDK_OFFSET(0x1C40B7D0)
-#define POSTPROCESS_MKGLOW_EFFECT_SETFLOAT_OFFSET UNITYSDK_OFFSET(0x1C40E2D0)
-#define POSTPROCESS_MKGLOW_EFFECT_SETKEYWORD_OFFSET UNITYSDK_OFFSET(0x1C40EBA0)
-#define POSTPROCESS_MKGLOW_EFFECT_SETRENDERPRIORITY_OFFSET UNITYSDK_OFFSET(0x1C40F890)
-#define POSTPROCESS_MKGLOW_EFFECT_SETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1C40F370)
-#define POSTPROCESS_MKGLOW_EFFECT_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C40F0C0)
-#define POSTPROCESS_MKGLOW_EFFECT_SETUPSELECTIVEGLOWCAMERA_OFFSET UNITYSDK_OFFSET(0x1C406370)
-#define POSTPROCESS_MKGLOW_EFFECT_SETVECTOR_1_OFFSET UNITYSDK_OFFSET(0x1C40E5E0)
-#define POSTPROCESS_MKGLOW_EFFECT_SETVECTOR_2_OFFSET UNITYSDK_OFFSET(0x1C40E1C0)
-#define POSTPROCESS_MKGLOW_EFFECT_SETVECTOR_OFFSET UNITYSDK_OFFSET(0x1C40E3B0)
-#define POSTPROCESS_MKGLOW_EFFECT_UPDATECOMPUTESHADERTHREADGROUPS_OFFSET UNITYSDK_OFFSET(0x1C40ED10)
-#define POSTPROCESS_MKGLOW_EFFECT_UPDATECONSTANTBUFFERS_OFFSET UNITYSDK_OFFSET(0x1C407270)
-#define POSTPROCESS_MKGLOW_EFFECT_UPDATERENDERBUFFERS_OFFSET UNITYSDK_OFFSET(0x1C404720)
-#define POSTPROCESS_MKGLOW_EFFECT_UPDATERENDERINDEX_1_OFFSET UNITYSDK_OFFSET(0x1C40EE60)
-#define POSTPROCESS_MKGLOW_EFFECT_UPDATERENDERINDEX_OFFSET UNITYSDK_OFFSET(0x1C40EE10)
-#define POSTPROCESS_MKGLOW_EFFECT_UPSAMPLE_OFFSET UNITYSDK_OFFSET(0x1C40CDA0)
-#define POSTPROCESS_MKGLOW_EFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C410670)
-#define POSTPROCESS_MKGLOW_EFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C403570)
+#define POSTPROCESS_MKGLOW_EFFECT_AFTERCOMPOSITECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C8367B0)
+#define POSTPROCESS_MKGLOW_EFFECT_ANGLETODIRECTION_OFFSET UNITYSDK_OFFSET(0x1C834DC0)
+#define POSTPROCESS_MKGLOW_EFFECT_ATTACHCARGBUFFERTOCOMPUTEKERNEL_OFFSET UNITYSDK_OFFSET(0x1C8351A0)
+#define POSTPROCESS_MKGLOW_EFFECT_BEGINPROFILESAMPLE_OFFSET UNITYSDK_OFFSET(0x1C82CA20)
+#define POSTPROCESS_MKGLOW_EFFECT_BUILD_OFFSET UNITYSDK_OFFSET(0x1C82CB00)
+#define POSTPROCESS_MKGLOW_EFFECT_CHECKFEATURESUPPORT_OFFSET UNITYSDK_OFFSET(0x1C82C820)
+#define POSTPROCESS_MKGLOW_EFFECT_COMPOSITE_OFFSET UNITYSDK_OFFSET(0x1C833E60)
+#define POSTPROCESS_MKGLOW_EFFECT_CONVERTGAMMAVALUE_1_OFFSET UNITYSDK_OFFSET(0x1C8349F0)
+#define POSTPROCESS_MKGLOW_EFFECT_CONVERTGAMMAVALUE_OFFSET UNITYSDK_OFFSET(0x1C8347D0)
+#define POSTPROCESS_MKGLOW_EFFECT_DISABLEDEBUGKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1C836700)
+#define POSTPROCESS_MKGLOW_EFFECT_DISABLERENDERKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1C835CD0)
+#define POSTPROCESS_MKGLOW_EFFECT_DISABLE_OFFSET UNITYSDK_OFFSET(0x1C82A850)
+#define POSTPROCESS_MKGLOW_EFFECT_DOWNSAMPLE_OFFSET UNITYSDK_OFFSET(0x1C8323B0)
+#define POSTPROCESS_MKGLOW_EFFECT_DRAW_OFFSET UNITYSDK_OFFSET(0x1C836270)
+#define POSTPROCESS_MKGLOW_EFFECT_ENABLE_OFFSET UNITYSDK_OFFSET(0x1C82A600)
+#define POSTPROCESS_MKGLOW_EFFECT_ENDPROFILESAMPLE_OFFSET UNITYSDK_OFFSET(0x1C82CA90)
+#define POSTPROCESS_MKGLOW_EFFECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C82A840)
+#define POSTPROCESS_MKGLOW_EFFECT_GET_CURRENTRENDERINDEX_OFFSET UNITYSDK_OFFSET(0x1C829850)
+#define POSTPROCESS_MKGLOW_EFFECT_GET_RENDERTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x1C829860)
+#define POSTPROCESS_MKGLOW_EFFECT_GET_SELECTIVEGLOWCAMERAOBJECT_OFFSET UNITYSDK_OFFSET(0x1C82C1F0)
+#define POSTPROCESS_MKGLOW_EFFECT_GET_SELECTIVEGLOWCAMERA_OFFSET UNITYSDK_OFFSET(0x1C82C430)
+#define POSTPROCESS_MKGLOW_EFFECT_GET_SOURCEFRAMEBUFFER_OFFSET UNITYSDK_OFFSET(0x1C829770)
+#define POSTPROCESS_MKGLOW_EFFECT_PREPAREDRAW_1_OFFSET UNITYSDK_OFFSET(0x1C835D80)
+#define POSTPROCESS_MKGLOW_EFFECT_PREPAREDRAW_OFFSET UNITYSDK_OFFSET(0x1C8358F0)
+#define POSTPROCESS_MKGLOW_EFFECT_PREPARESCATTERING_OFFSET UNITYSDK_OFFSET(0x1C82A900)
+#define POSTPROCESS_MKGLOW_EFFECT_PRESAMPLE_OFFSET UNITYSDK_OFFSET(0x1C831AD0)
+#define POSTPROCESS_MKGLOW_EFFECT_SETFLOAT_OFFSET UNITYSDK_OFFSET(0x1C834580)
+#define POSTPROCESS_MKGLOW_EFFECT_SETKEYWORD_OFFSET UNITYSDK_OFFSET(0x1C834E50)
+#define POSTPROCESS_MKGLOW_EFFECT_SETRENDERPRIORITY_OFFSET UNITYSDK_OFFSET(0x1C835B40)
+#define POSTPROCESS_MKGLOW_EFFECT_SETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1C835620)
+#define POSTPROCESS_MKGLOW_EFFECT_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C835370)
+#define POSTPROCESS_MKGLOW_EFFECT_SETUPSELECTIVEGLOWCAMERA_OFFSET UNITYSDK_OFFSET(0x1C82C660)
+#define POSTPROCESS_MKGLOW_EFFECT_SETVECTOR_1_OFFSET UNITYSDK_OFFSET(0x1C834890)
+#define POSTPROCESS_MKGLOW_EFFECT_SETVECTOR_2_OFFSET UNITYSDK_OFFSET(0x1C834470)
+#define POSTPROCESS_MKGLOW_EFFECT_SETVECTOR_OFFSET UNITYSDK_OFFSET(0x1C834660)
+#define POSTPROCESS_MKGLOW_EFFECT_UPDATECOMPUTESHADERTHREADGROUPS_OFFSET UNITYSDK_OFFSET(0x1C834FC0)
+#define POSTPROCESS_MKGLOW_EFFECT_UPDATECONSTANTBUFFERS_OFFSET UNITYSDK_OFFSET(0x1C82D570)
+#define POSTPROCESS_MKGLOW_EFFECT_UPDATERENDERBUFFERS_OFFSET UNITYSDK_OFFSET(0x1C82AA10)
+#define POSTPROCESS_MKGLOW_EFFECT_UPDATERENDERINDEX_1_OFFSET UNITYSDK_OFFSET(0x1C835110)
+#define POSTPROCESS_MKGLOW_EFFECT_UPDATERENDERINDEX_OFFSET UNITYSDK_OFFSET(0x1C8350C0)
+#define POSTPROCESS_MKGLOW_EFFECT_UPSAMPLE_OFFSET UNITYSDK_OFFSET(0x1C833060)
+#define POSTPROCESS_MKGLOW_EFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C836910)
+#define POSTPROCESS_MKGLOW_EFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C829870)
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int Effect_TypeDefinitionIndex = 27228;
+	inline static constexpr unsigned int Effect_TypeDefinitionIndex = 26490;
 
 	class Effect : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet__selectiveReplacementTag()
+		static ::PostProcess::MKGlow::MKGlowResources** StaticGet__resources()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x23B60);
+			return (::PostProcess::MKGlow::MKGlowResources**)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x24B40);
 		}
 		static ::System::String** StaticGet__selectiveGlowCameraObjectName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x23B68);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x24B48);
 		}
-		static ::PostProcess::MKGlow::MKGlowResources** StaticGet__resources()
+		static ::System::String** StaticGet__selectiveReplacementTag()
 		{
-			return (::PostProcess::MKGlow::MKGlowResources**)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x23B70);
-		}
-		static ::System::Single* StaticGet__referenceAspectRatio()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x7690);
-		}
-		static ::UnityEngine::Vector2* StaticGet__selectiveWorkflowThreshold()
-		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x7694);
-		}
-		static ::System::Int32* StaticGet__glareIterationsBase()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x769C);
-		}
-		static ::PostProcess::MKGlow::RenderDimension* StaticGet__directComputeSize()
-		{
-			return (::PostProcess::MKGlow::RenderDimension*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x76A0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x24B50);
 		}
 		static ::System::Single* StaticGet_naturalIntensityMult()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x76A8);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x7710);
 		}
-		static ::System::Int32* StaticGet__cArgBufferSize()
+		static ::System::Int32* StaticGet__glareIterationsBase()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x76AC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x7714);
+		}
+		static ::PostProcess::MKGlow::RenderDimension* StaticGet__directComputeSize()
+		{
+			return (::PostProcess::MKGlow::RenderDimension*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x7718);
 		}
 		static ::UnityEngine::Vector2* StaticGet__referenceResolution()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x76B0);
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x7720);
 		}
-		::UnityEngine::Material* _renderMaterialNoGeometry; // 0x10
-		::PostProcess::MKGlow::RenderTarget _destinationFrameBuffer; // 0x18
-		::PostProcess::MKGlow::MipBuffer* _bloomDownsampleBuffer; // 0x50
-		::UnityEngine::ComputeBuffer* _cArgsComputeBuffer; // 0x58
-		::Il2CppArray<::System::Single>* _cArgArray; // 0x60
-		::PostProcess::MKGlow::RenderContext* _selectiveRenderContext; // 0x68
-		::UnityEngine::Camera* _selectiveGlowCamera; // 0x70
-		::PostProcess::MKGlow::MipBuffer* _glareUpsampleBuffer3; // 0x78
-		::PostProcess::MKGlow::MipBuffer* _bloomUpsampleBuffer; // 0x80
-		::PostProcess::MKGlow::ICameraData* _cameraData; // 0x88
-		::UnityEngine::GameObject* _selectiveGlowCameraObject; // 0x90
-		::Il2CppArray<::PostProcess::MKGlow::MipBuffer*>* packedGlareDownsampleBuffers; // 0x98
-		::PostProcess::MKGlow::MipBuffer* _glareDownsampleBuffer3; // 0xA0
-		::PostProcess::MKGlow::RenderTarget _selectiveRenderTarget; // 0xA8
-		::Il2CppArray<::UnityEngine::Vector2>* glareAngles; // 0xE0
-		::UnityEngine::Material* _renderMaterialGeometry; // 0xE8
-		::PostProcess::MKGlow::MipBuffer* _glareUpsampleBuffer1; // 0xF0
-		::PostProcess::MKGlow::MipBuffer* _lensFlareDownsampleBuffer; // 0xF8
-		::PostProcess::MKGlow::MipBuffer* _glareDownsampleBuffer0; // 0x100
-		::PostProcess::MKGlow::ISettings* _settings; // 0x108
-		::PostProcess::MKGlow::MipBuffer* _glareUpsampleBuffer0; // 0x110
-		::PostProcess::MKGlow::MipBuffer* _glareUpsampleBuffer2; // 0x118
-		::System::Collections::Generic::List_1<::PostProcess::MKGlow::Effect_MaterialKeywords>* _renderKeywordsBundle; // 0x120
-		::PostProcess::MKGlow::RenderTarget _sourceFrameBuffer; // 0x128
-		::Il2CppArray<::PostProcess::MKGlow::MipBuffer*>* packedGlareupsampleBuffers; // 0x160
-		::PostProcess::MKGlow::MipBuffer* _glareDownsampleBuffer2; // 0x168
-		::Il2CppArray<::PostProcess::MKGlow::Effect_Keyword>* _shaderKeywords; // 0x170
-		::Il2CppArray<::PostProcess::MKGlow::RenderContext*>* _sourceContext; // 0x178
-		::PostProcess::MKGlow::MipBuffer* _glareDownsampleBuffer1; // 0x180
-		::Il2CppArray<::PostProcess::MKGlow::RenderContext*>* _renderContext; // 0x188
-		::UnityEngine::Camera* _renderingCamera; // 0x190
-		::PostProcess::MKGlow::MipBuffer* _lensFlareUpsampleBuffer; // 0x198
-		::System::Collections::Generic::List_1<::PostProcess::MKGlow::RenderTarget>* _renderTargetsBundle; // 0x1A0
-		::UnityEngine::Rendering::CommandBuffer* _commandBuffer; // 0x1A8
-		::System::Int32 _lensFlareIterations; // 0x1B0
-		::UnityEngine::Vector2 _resolutionScale; // 0x1B4
-		::PostProcess::MKGlow::ComputeShaderVariants_KeywordState computeShaderFeatures; // 0x1BC
-		::PostProcess::MKGlow::RenderDimension _computeThreadGroups; // 0x1D4
-		::System::Boolean _useGlare; // 0x1DC
-		::System::Boolean _useGeometryShaders; // 0x1DD
-		::System::Boolean _useComputeShaders; // 0x1DE
-		::System::Boolean _useLensFlare; // 0x1DF
-		::PostProcess::MKGlow::DebugView _debugView; // 0x1E0
-		::System::Single bloomUpsampleSpread; // 0x1E4
-		::System::Boolean _useLensSurface; // 0x1E8
-		::System::Boolean _finalBlit; // 0x1E9
-		::System::Int32 _bloomIterations; // 0x1EC
-		::System::Int32 _glareIterations; // 0x1F0
-		::System::Int32 _minIterations; // 0x1F4
-		::System::Single _lensFlareUpsampleSpread; // 0x1F8
-		::System::Single _glareScatteringMult; // 0x1FC
-		::System::Int32 _currentRenderIndex; // 0x200
-		::UnityEngine::RenderTextureFormat _renderTextureFormat; // 0x204
+		static ::System::Single* StaticGet__referenceAspectRatio()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x7728);
+		}
+		static ::System::Int32* StaticGet__cArgBufferSize()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x772C);
+		}
+		static ::UnityEngine::Vector2* StaticGet__selectiveWorkflowThreshold()
+		{
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(Effect_TypeDefinitionIndex)->GetStaticField(0x7730);
+		}
+		::PostProcess::MKGlow::MipBuffer* _bloomUpsampleBuffer; // 0x10
+		::System::Collections::Generic::List_1<::PostProcess::MKGlow::RenderTarget>* _renderTargetsBundle; // 0x18
+		::PostProcess::MKGlow::MipBuffer* _glareDownsampleBuffer3; // 0x20
+		::UnityEngine::GameObject* _selectiveGlowCameraObject; // 0x28
+		::UnityEngine::Material* _renderMaterialNoGeometry; // 0x30
+		::PostProcess::MKGlow::MipBuffer* _glareUpsampleBuffer2; // 0x38
+		::PostProcess::MKGlow::MipBuffer* _glareUpsampleBuffer3; // 0x40
+		::Il2CppArray<::PostProcess::MKGlow::MipBuffer*>* packedGlareDownsampleBuffers; // 0x48
+		::PostProcess::MKGlow::RenderTarget _selectiveRenderTarget; // 0x50
+		::Il2CppArray<::System::Object*>* _shaderKeywords; // 0x88
+		::UnityEngine::ComputeBuffer* _cArgsComputeBuffer; // 0x90
+		::UnityEngine::Rendering::CommandBuffer* _commandBuffer; // 0x98
+		::PostProcess::MKGlow::MipBuffer* _glareDownsampleBuffer1; // 0xA0
+		::PostProcess::MKGlow::MipBuffer* _lensFlareDownsampleBuffer; // 0xA8
+		::UnityEngine::Camera* _renderingCamera; // 0xB0
+		::PostProcess::MKGlow::MipBuffer* _glareUpsampleBuffer1; // 0xB8
+		::Il2CppArray<::PostProcess::MKGlow::RenderContext*>* _sourceContext; // 0xC0
+		::System::Collections::Generic::List_1<::System::Object*>* _renderKeywordsBundle; // 0xC8
+		::PostProcess::MKGlow::RenderTarget _sourceFrameBuffer; // 0xD0
+		::PostProcess::MKGlow::ICameraData* _cameraData; // 0x108
+		::PostProcess::MKGlow::MipBuffer* _lensFlareUpsampleBuffer; // 0x110
+		::PostProcess::MKGlow::MipBuffer* _bloomDownsampleBuffer; // 0x118
+		::Il2CppArray<::System::Single>* _cArgArray; // 0x120
+		::Il2CppArray<::PostProcess::MKGlow::MipBuffer*>* packedGlareupsampleBuffers; // 0x128
+		::UnityEngine::Material* _renderMaterialGeometry; // 0x130
+		::Il2CppArray<::PostProcess::MKGlow::RenderContext*>* _renderContext; // 0x138
+		::PostProcess::MKGlow::RenderContext* _selectiveRenderContext; // 0x140
+		::Il2CppArray<::UnityEngine::Vector2>* glareAngles; // 0x148
+		::PostProcess::MKGlow::RenderTarget _destinationFrameBuffer; // 0x150
+		::PostProcess::MKGlow::MipBuffer* _glareDownsampleBuffer2; // 0x188
+		::PostProcess::MKGlow::ISettings* _settings; // 0x190
+		::PostProcess::MKGlow::MipBuffer* _glareUpsampleBuffer0; // 0x198
+		::UnityEngine::Camera* _selectiveGlowCamera; // 0x1A0
+		::PostProcess::MKGlow::MipBuffer* _glareDownsampleBuffer0; // 0x1A8
+		::System::Boolean _useLensSurface; // 0x1B0
+		::System::Boolean _useComputeShaders; // 0x1B1
+		::System::Byte _padding0[0x2];
+		::PostProcess::MKGlow::DebugView _debugView; // 0x1B4
+		::System::Single _lensFlareUpsampleSpread; // 0x1B8
+		::System::Int32 _minIterations; // 0x1BC
+		::System::Boolean _useGlare; // 0x1C0
+		::System::Boolean _finalBlit; // 0x1C1
+		::System::Boolean _useLensFlare; // 0x1C2
+		::System::Boolean _useGeometryShaders; // 0x1C3
+		::PostProcess::MKGlow::ComputeShaderVariants_KeywordState computeShaderFeatures; // 0x1C4
+		::System::Single _glareScatteringMult; // 0x1DC
+		::PostProcess::MKGlow::RenderDimension _computeThreadGroups; // 0x1E0
+		::UnityEngine::RenderTextureFormat _renderTextureFormat; // 0x1E8
+		::System::Int32 _lensFlareIterations; // 0x1EC
+		::UnityEngine::Vector2 _resolutionScale; // 0x1F0
+		::System::Int32 _bloomIterations; // 0x1F8
+		::System::Int32 _currentRenderIndex; // 0x1FC
+		::System::Int32 _glareIterations; // 0x200
+		::System::Single bloomUpsampleSpread; // 0x204
 
 		::System::Void _ctor()
 		{

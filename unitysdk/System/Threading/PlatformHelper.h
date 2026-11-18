@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_THREADING_PLATFORMHELPER_GET_ISSINGLEPROCESSOR_OFFSET UNITYSDK_OFFSET(0x1D1A83E0)
-#define SYSTEM_THREADING_PLATFORMHELPER_GET_PROCESSORCOUNT_OFFSET UNITYSDK_OFFSET(0x1D1A8350)
+#define SYSTEM_THREADING_PLATFORMHELPER_GET_ISSINGLEPROCESSOR_OFFSET UNITYSDK_OFFSET(0x1D785E10)
+#define SYSTEM_THREADING_PLATFORMHELPER_GET_PROCESSORCOUNT_OFFSET UNITYSDK_OFFSET(0x1D785D80)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int PlatformHelper_TypeDefinitionIndex = 800;
+	inline static constexpr unsigned int PlatformHelper_TypeDefinitionIndex = 799;
 
 	class PlatformHelper : public ::System::Object
 	{

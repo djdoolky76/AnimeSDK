@@ -6,18 +6,19 @@
 
 namespace UnityEngine { class AnimationClip; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONCLIPINFO_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x157AC4F0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONCLIPINFO_UNLOADASSET_OFFSET UNITYSDK_OFFSET(0x157AC6A0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONCLIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x157AC850)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONCLIPINFO_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x10DB6360)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONCLIPINFO_UNLOADASSET_OFFSET UNITYSDK_OFFSET(0x10DB6510)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONCLIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x10DB66C0)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAnimationClipInfo_TypeDefinitionIndex = 45110;
+	inline static constexpr unsigned int NPCAccessoryAnimationClipInfo_TypeDefinitionIndex = 65250;
 
 	class NPCAccessoryAnimationClipInfo : public ::System::Object
 	{
 	public:
 		::System::Int32 animationID; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationClip* _clip; // 0x18
 		::Foundation::AssetPath clipAssetPath; // 0x20
 		::Foundation::AssetRequestHandle clipHandle; // 0x30

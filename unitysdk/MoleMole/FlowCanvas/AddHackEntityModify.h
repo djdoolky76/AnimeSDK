@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_2.h"
 
 namespace MoleMole { class ChessEntityCollection; }
 namespace MoleMole::FlowCanvas { class HackModify; }
 
-#define MOLEMOLE_FLOWCANVAS_ADDHACKENTITYMODIFY_INVOKE_OFFSET UNITYSDK_OFFSET(0x19238ED0)
-#define MOLEMOLE_FLOWCANVAS_ADDHACKENTITYMODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x19238F60)
+#define MOLEMOLE_FLOWCANVAS_ADDHACKENTITYMODIFY_INVOKE_OFFSET UNITYSDK_OFFSET(0x11903D00)
+#define MOLEMOLE_FLOWCANVAS_ADDHACKENTITYMODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x11903D90)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int AddHackEntityModify_TypeDefinitionIndex = 87754;
+	inline static constexpr unsigned int AddHackEntityModify_TypeDefinitionIndex = 68661;
 
-	class AddHackEntityModify : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::MoleMole::FlowCanvas::HackModify*, ::MoleMole::ChessEntityCollection*>
+	class AddHackEntityModify
 	{
 	public:
 		::System::Void _ctor()

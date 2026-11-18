@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIBallGameUpgradeDialogPopWindowController___c__DisplayClass13_0; }
-
-#define MOLEMOLE_UIBALLGAMEUPGRADEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB9B150)
-#define MOLEMOLE_UIBALLGAMEUPGRADEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_1__PLAYUPGRADEANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x1FB9B160)
+#define MOLEMOLE_UIBALLGAMEUPGRADEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1F959420)
+#define MOLEMOLE_UIBALLGAMEUPGRADEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_1__PLAYUPGRADEANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x1F959430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameUpgradeDialogPopWindowController___c__DisplayClass13_1_TypeDefinitionIndex = 93348;
+	inline static constexpr unsigned int UIBallGameUpgradeDialogPopWindowController___c__DisplayClass13_1_TypeDefinitionIndex = 95005;
 
+	template <typename T>
 	class UIBallGameUpgradeDialogPopWindowController___c__DisplayClass13_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBallGameUpgradeDialogPopWindowController___c__DisplayClass13_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::Int32 showLevel; // 0x18
 
 		::System::Void _ctor()

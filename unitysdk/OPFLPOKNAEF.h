@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ALKLOKODIFN.h"
+#include "unitysdk/BPKOLGHLJHN.h"
+#include "unitysdk/DLJPEKIOMGM.h"
+#include "unitysdk/HFCLNHPELOH.h"
+#include "unitysdk/KJPDFGGPLKH.h"
+#include "unitysdk/NAHLMLOBBLC.h"
+#include "unitysdk/PEKDKFNADFL.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class String; }
+
+#define OPFLPOKNAEF_LONMJPFBAOA_OFFSET UNITYSDK_OFFSET(0x15522010)
+#define OPFLPOKNAEF__CTOR_OFFSET UNITYSDK_OFFSET(0x75B3F0)
+
+inline static constexpr unsigned int OPFLPOKNAEF_TypeDefinitionIndex = 56547;
+
+struct alignas(4) OPFLPOKNAEF
+{
+	::KJPDFGGPLKH JJEPENJLDIA; // 0x10
+	::PEKDKFNADFL MCJNKOKGPGN; // 0x38
+	::DLJPEKIOMGM FAOLEDHCKLL; // 0x48
+	::NAHLMLOBBLC OENLDAIMCPN; // 0x60
+	::HFCLNHPELOH OELOAAKBDDD; // 0x168
+	::ALKLOKODIFN EEMLDDICNHM; // 0x200
+	::BPKOLGHLJHN IKNCEGGJOAJ; // 0x208
+
+	::System::Void _ctor(::KJPDFGGPLKH& POOCMAFCHED, ::PEKDKFNADFL& ACMIDENMJEH, ::DLJPEKIOMGM& KMCHCDKODFG, ::NAHLMLOBBLC& HAMFOCKOJMK, ::HFCLNHPELOH& PIOPKONDIIH, ::ALKLOKODIFN& AEGLBINIDFB, ::BPKOLGHLJHN& GAKJOMPDGEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::KJPDFGGPLKH&, ::PEKDKFNADFL&, ::DLJPEKIOMGM&, ::NAHLMLOBBLC&, ::HFCLNHPELOH&, ::ALKLOKODIFN&, ::BPKOLGHLJHN&))((::PBYTE)hIl2Cpp + OPFLPOKNAEF__CTOR_OFFSET))(this, POOCMAFCHED, ACMIDENMJEH, KMCHCDKODFG, HAMFOCKOJMK, PIOPKONDIIH, AEGLBINIDFB, GAKJOMPDGEA);
+	}
+
+	static ::System::Void LONMJPFBAOA(::System::Boolean EOPKGAEDCEG, ::System::String* HIONLFKEGIA)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + OPFLPOKNAEF_LONMJPFBAOA_OFFSET))(EOPKGAEDCEG, HIONLFKEGIA);
+	}
+};

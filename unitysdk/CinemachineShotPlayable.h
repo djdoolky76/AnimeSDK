@@ -4,10 +4,10 @@
 
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define CINEMACHINESHOTPLAYABLE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1FBFA3B0)
-#define CINEMACHINESHOTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBFA4C0)
+#define CINEMACHINESHOTPLAYABLE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1FFFBDA0)
+#define CINEMACHINESHOTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFFBEB0)
 
-inline static constexpr unsigned int CinemachineShotPlayable_TypeDefinitionIndex = 34638;
+inline static constexpr unsigned int CinemachineShotPlayable_TypeDefinitionIndex = 34184;
 
 class CinemachineShotPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 {

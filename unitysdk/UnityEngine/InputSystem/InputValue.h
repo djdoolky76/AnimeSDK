@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/InputSystem/InputAction_CallbackContext.h"
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTVALUE_GET_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x1F3DDEE0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTVALUE_GET_OFFSET UNITYSDK_OFFSET(0x1F3DDE20)
-#define UNITYENGINE_INPUTSYSTEM_INPUTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3DDF00)
+#define UNITYENGINE_INPUTSYSTEM_INPUTVALUE_GET_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x1F7F2680)
+#define UNITYENGINE_INPUTSYSTEM_INPUTVALUE_GET_OFFSET UNITYSDK_OFFSET(0x1F7F25C0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7F26A0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputValue_TypeDefinitionIndex = 32320;
+	inline static constexpr unsigned int InputValue_TypeDefinitionIndex = 31769;
 
 	class InputValue : public ::System::Object
 	{
 	public:
-		::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> m_Context; // 0x10
+		::System::Nullable_1<::System::Object*> m_Context; // 0x10
 
 		::System::Void _ctor()
 		{

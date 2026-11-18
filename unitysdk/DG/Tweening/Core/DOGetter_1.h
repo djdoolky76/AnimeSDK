@@ -2,13 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace System { class AsyncCallback; }
-namespace System { class IAsyncResult; }
-namespace System { class Object; }
-
 namespace DG::Tweening::Core
 {
-	inline static constexpr unsigned int DOGetter_1_TypeDefinitionIndex = 28582;
+	inline static constexpr unsigned int DOGetter_1_TypeDefinitionIndex = 28021;
 
 	template <typename T>
 	class DOGetter_1 : public ::System::MulticastDelegate

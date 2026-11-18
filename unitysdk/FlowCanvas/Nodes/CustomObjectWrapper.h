@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/FlowNode.h"
 
-namespace UnityEngine { class Object; }
-
-#define FLOWCANVAS_NODES_CUSTOMOBJECTWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6B790)
+#define FLOWCANVAS_NODES_CUSTOMOBJECTWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF14400)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CustomObjectWrapper_TypeDefinitionIndex = 30906;
+	inline static constexpr unsigned int CustomObjectWrapper_TypeDefinitionIndex = 29790;
 
 	class CustomObjectWrapper : public ::FlowCanvas::FlowNode
 	{

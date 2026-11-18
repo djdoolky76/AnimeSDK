@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIINLEVELSKILLBUTTONGENERALEFFWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19852450)
+#define MOLEMOLE_UIINLEVELSKILLBUTTONGENERALEFFWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17F80FA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSkillButtonGeneralEffWidgetController_Context_TypeDefinitionIndex = 84205;
+	inline static constexpr unsigned int UIInLevelSkillButtonGeneralEffWidgetController_Context_TypeDefinitionIndex = 89606;
 
 	class UIInLevelSkillButtonGeneralEffWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

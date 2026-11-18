@@ -4,39 +4,39 @@
 #include "unitysdk/Cysharp/Threading/Tasks/TaskPool_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
+#include "unitysdk/System/Object.h"
 
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1FB14580)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1FB146C0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1FB14940)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1FB14490)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1FB14A60)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1FB14A00)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1FB14840)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1FB14990)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB144A0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB14570)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1FF14A40)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1FF14B80)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1FF14DF0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1FF14950)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1FF14F10)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1FF14EB0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1FF14D00)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1FF14E40)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF14960)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF14A30)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WaitUntilPromise_TypeDefinitionIndex = 31873;
+	inline static constexpr unsigned int UniTask_WaitUntilPromise_TypeDefinitionIndex = 31317;
 
 	class UniTask_WaitUntilPromise : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UniTask_WaitUntilPromise*>* StaticGet_pool()
+		static ::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UniTask_WaitUntilPromise*>*)Il2CppClass::FromTypeDefinitionIndex(UniTask_WaitUntilPromise_TypeDefinitionIndex)->GetStaticField(0x271D0);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)Il2CppClass::FromTypeDefinitionIndex(UniTask_WaitUntilPromise_TypeDefinitionIndex)->GetStaticField(0x282A0);
 		}
-		::Cysharp::Threading::Tasks::UniTask_WaitUntilPromise* nextNode; // 0x10
-		::System::Func_1<::System::Boolean>* predicate; // 0x18
-		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::System::Object*> core; // 0x20
-		::System::Threading::CancellationToken cancellationToken; // 0x48
+		::System::Func_1<::System::Boolean>* predicate; // 0x10
+		::System::Threading::CancellationToken cancellationToken; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_WaitUntilPromise* nextNode; // 0x20
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::System::Object*> core; // 0x28
 
 		static ::System::Void _cctor()
 		{

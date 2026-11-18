@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DBF2701137F18AA6.h"
+#include "unitysdk/MIKOMFIBMBN.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIFadeConfig_OverrideAnim; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIFADECONFIG_METHOD_1_E018B38DDB58E62A_1_OFFSET UNITYSDK_OFFSET(0x18AB61B0)
-#define MOLEMOLE_UIFADECONFIG_METHOD_1_E018B38DDB58E62A_OFFSET UNITYSDK_OFFSET(0x18AB6030)
-#define MOLEMOLE_UIFADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB6020)
+#define MOLEMOLE_UIFADECONFIG_GGMFFJMCJLI_OFFSET UNITYSDK_OFFSET(0x18086740)
+#define MOLEMOLE_UIFADECONFIG_NFOADICFMBL_OFFSET UNITYSDK_OFFSET(0x180865C0)
+#define MOLEMOLE_UIFADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x180865B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFadeConfig_TypeDefinitionIndex = 81286;
+	inline static constexpr unsigned int UIFadeConfig_TypeDefinitionIndex = 58906;
 
 	class UIFadeConfig : public ::System::Object
 	{
 	public:
 		::System::String* fadeIn; // 0x10
 		::System::String* fadeOut; // 0x18
-		::System::Collections::Generic::List_1<::MoleMole::UIFadeConfig_OverrideAnim*>* overrideFadeInAnim; // 0x20
-		::System::Collections::Generic::List_1<::MoleMole::UIFadeConfig_OverrideAnim*>* overrideFadeOutAnim; // 0x28
+		::System::Collections::Generic::List_1<::System::Object*>* overrideFadeInAnim; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* overrideFadeOutAnim; // 0x28
 		::System::Boolean ignoreFading; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::Single ignoreFadeMaskDuration; // 0x34
 
 		::System::Void _ctor()
@@ -30,14 +30,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFADECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::String* Method_1_E018B38DDB58E62A(::Enum_3_DBF2701137F18AA6 a1)
+		::System::String* NFOADICFMBL(::MIKOMFIBMBN KIAGKPDIDDH)
 		{
-			return ((::System::String*(*)(::PVOID, ::Enum_3_DBF2701137F18AA6))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFADECONFIG_METHOD_1_E018B38DDB58E62A_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::MIKOMFIBMBN))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFADECONFIG_NFOADICFMBL_OFFSET))(this, KIAGKPDIDDH);
 		}
 
-		::System::String* Method_1_E018B38DDB58E62A_1(::Enum_3_DBF2701137F18AA6 a1)
+		::System::String* GGMFFJMCJLI(::MIKOMFIBMBN KDEHMPGOCEP)
 		{
-			return ((::System::String*(*)(::PVOID, ::Enum_3_DBF2701137F18AA6))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFADECONFIG_METHOD_1_E018B38DDB58E62A_1_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::MIKOMFIBMBN))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFADECONFIG_GGMFFJMCJLI_OFFSET))(this, KDEHMPGOCEP);
 		}
 	};
 }

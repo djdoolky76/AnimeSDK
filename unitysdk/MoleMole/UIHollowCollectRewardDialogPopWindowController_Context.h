@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB29F0)
+#define MOLEMOLE_UIHOLLOWCOLLECTREWARDDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7A630)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCollectRewardDialogPopWindowController_Context_TypeDefinitionIndex = 85820;
+	inline static constexpr unsigned int UIHollowCollectRewardDialogPopWindowController_Context_TypeDefinitionIndex = 53142;
 
 	class UIHollowCollectRewardDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

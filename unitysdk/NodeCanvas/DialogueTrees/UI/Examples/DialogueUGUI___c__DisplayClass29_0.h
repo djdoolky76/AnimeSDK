@@ -5,17 +5,17 @@
 namespace NodeCanvas::DialogueTrees { class MultipleChoiceRequestInfo; }
 namespace NodeCanvas::DialogueTrees::UI::Examples { class DialogueUGUI; }
 
-#define NODECANVAS_DIALOGUETREES_UI_EXAMPLES_DIALOGUEUGUI___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B46F0)
+#define NODECANVAS_DIALOGUETREES_UI_EXAMPLES_DIALOGUEUGUI___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA657C0)
 
 namespace NodeCanvas::DialogueTrees::UI::Examples
 {
-	inline static constexpr unsigned int DialogueUGUI___c__DisplayClass29_0_TypeDefinitionIndex = 31477;
+	inline static constexpr unsigned int DialogueUGUI___c__DisplayClass29_0_TypeDefinitionIndex = 29796;
 
 	class DialogueUGUI___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:
-		::NodeCanvas::DialogueTrees::MultipleChoiceRequestInfo* info; // 0x10
-		::NodeCanvas::DialogueTrees::UI::Examples::DialogueUGUI* __4__this; // 0x18
+		::NodeCanvas::DialogueTrees::UI::Examples::DialogueUGUI* __4__this; // 0x10
+		::NodeCanvas::DialogueTrees::MultipleChoiceRequestInfo* info; // 0x18
 
 		::System::Void _ctor()
 		{

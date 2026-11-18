@@ -5,12 +5,12 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTINTERRUPTTEXTURESHEETSEQUENCEENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x177C3AD0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTINTERRUPTTEXTURESHEETSEQUENCEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x177C3B50)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTINTERRUPTTEXTURESHEETSEQUENCEENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x174EB1C0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTINTERRUPTTEXTURESHEETSEQUENCEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x174EB240)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventInterruptTextureSheetSequenceEntry_TypeDefinitionIndex = 76511;
+	inline static constexpr unsigned int AnimatorEventInterruptTextureSheetSequenceEntry_TypeDefinitionIndex = 54965;
 
 	class AnimatorEventInterruptTextureSheetSequenceEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

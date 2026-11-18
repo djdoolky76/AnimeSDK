@@ -1,0 +1,106 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JMLJAMHBGBN.h"
+#include "unitysdk/JMLJAMHBGBN_PGDLJPFDIAE.h"
+
+class AEINDKLBMFN;
+class BHLPCIOCEAI;
+class OCCHEBFLDEG;
+namespace MoleMole { class UIFashionStoreGameKeyOnTrailWidgetController; }
+namespace MoleMole { class UIFashionStoreGamePageController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define IHMDKKBKNPP_AMMELIOADAM_OFFSET UNITYSDK_OFFSET(0x153A9CD0)
+#define IHMDKKBKNPP_BAJIIBGJLGG_OFFSET UNITYSDK_OFFSET(0x153A9FA0)
+#define IHMDKKBKNPP_BJANDJKKNCD_OFFSET UNITYSDK_OFFSET(0x153A9BA0)
+#define IHMDKKBKNPP_BKJPMPBEHDO_OFFSET UNITYSDK_OFFSET(0x153A9F00)
+#define IHMDKKBKNPP_CMFOIAAGPFL_OFFSET UNITYSDK_OFFSET(0x153A9E70)
+#define IHMDKKBKNPP_DCJMFMAHBLD_OFFSET UNITYSDK_OFFSET(0x153A9980)
+#define IHMDKKBKNPP_DOJELHJAIMN_OFFSET UNITYSDK_OFFSET(0x153A9930)
+#define IHMDKKBKNPP_HFJDPNNENGO_OFFSET UNITYSDK_OFFSET(0x153AA040)
+#define IHMDKKBKNPP_JOAMBCEKNDI_OFFSET UNITYSDK_OFFSET(0x153A9D90)
+#define IHMDKKBKNPP_OIBKFFAGPNH_OFFSET UNITYSDK_OFFSET(0x153A9B20)
+#define IHMDKKBKNPP_PICNNAJDGAA_OFFSET UNITYSDK_OFFSET(0x153A9F10)
+#define IHMDKKBKNPP_PLPONJAKNEB_OFFSET UNITYSDK_OFFSET(0x153A9C00)
+#define IHMDKKBKNPP_PMAOHINGDEG_OFFSET UNITYSDK_OFFSET(0x153A9DE0)
+#define IHMDKKBKNPP__CTOR_OFFSET UNITYSDK_OFFSET(0x153A9910)
+
+inline static constexpr unsigned int IHMDKKBKNPP_TypeDefinitionIndex = 77347;
+
+class IHMDKKBKNPP : public ::JMLJAMHBGBN
+{
+public:
+	::BHLPCIOCEAI* DOCFGJEGBMI; // 0x48
+	::System::Int32 BHGHJEIJPNA; // 0x50
+	::System::Boolean ADPIKJAKKDM; // 0x54
+
+	::System::Void _ctor(::MoleMole::UIFashionStoreGamePageController* JOLDOMEIKEF, ::OCCHEBFLDEG* MNBAALEHLAJ, ::AEINDKLBMFN* LCKBJKPAPKA, ::System::Collections::Generic::List_1<::MoleMole::UIFashionStoreGameKeyOnTrailWidgetController*>* NGNAAGACEPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIFashionStoreGamePageController*, ::OCCHEBFLDEG*, ::AEINDKLBMFN*, ::System::Collections::Generic::List_1<::MoleMole::UIFashionStoreGameKeyOnTrailWidgetController*>*))((::PBYTE)hIl2Cpp + IHMDKKBKNPP__CTOR_OFFSET))(this, JOLDOMEIKEF, MNBAALEHLAJ, LCKBJKPAPKA, NGNAAGACEPI);
+	}
+
+	::JMLJAMHBGBN_PGDLJPFDIAE DOJELHJAIMN()
+	{
+		return ((::JMLJAMHBGBN_PGDLJPFDIAE(*)(::PVOID))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_DOJELHJAIMN_OFFSET))(this);
+	}
+
+	::System::Void DCJMFMAHBLD(::JMLJAMHBGBN* CMFJKNACHMO)
+	{
+		return ((::System::Void(*)(::PVOID, ::JMLJAMHBGBN*))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_DCJMFMAHBLD_OFFSET))(this, CMFJKNACHMO);
+	}
+
+	::System::Void OIBKFFAGPNH(::JMLJAMHBGBN* DEGJBKMLCHP)
+	{
+		return ((::System::Void(*)(::PVOID, ::JMLJAMHBGBN*))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_OIBKFFAGPNH_OFFSET))(this, DEGJBKMLCHP);
+	}
+
+	::System::Void BJANDJKKNCD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_BJANDJKKNCD_OFFSET))(this);
+	}
+
+	::JMLJAMHBGBN* PLPONJAKNEB()
+	{
+		return ((::JMLJAMHBGBN*(*)(::PVOID))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_PLPONJAKNEB_OFFSET))(this);
+	}
+
+	::System::Void AMMELIOADAM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_AMMELIOADAM_OFFSET))(this);
+	}
+
+	::System::Void PMAOHINGDEG(::JMLJAMHBGBN* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::JMLJAMHBGBN*))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_PMAOHINGDEG_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void CMFOIAAGPFL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_CMFOIAAGPFL_OFFSET))(this);
+	}
+
+	::JMLJAMHBGBN* BKJPMPBEHDO()
+	{
+		return ((::JMLJAMHBGBN*(*)(::PVOID))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_BKJPMPBEHDO_OFFSET))(this);
+	}
+
+	::System::Void PICNNAJDGAA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_PICNNAJDGAA_OFFSET))(this);
+	}
+
+	::System::Void BAJIIBGJLGG(::JMLJAMHBGBN* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::JMLJAMHBGBN*))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_BAJIIBGJLGG_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Boolean JOAMBCEKNDI()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_JOAMBCEKNDI_OFFSET))(this);
+	}
+
+	::JMLJAMHBGBN_PGDLJPFDIAE HFJDPNNENGO()
+	{
+		return ((::JMLJAMHBGBN_PGDLJPFDIAE(*)(::PVOID))((::PBYTE)hIl2Cpp + IHMDKKBKNPP_HFJDPNNENGO_OFFSET))(this);
+	}
+};

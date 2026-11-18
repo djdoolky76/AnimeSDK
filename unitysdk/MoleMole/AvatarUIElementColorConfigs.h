@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_AVATARUIELEMENTCOLORCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0xF11A690)
+#define MOLEMOLE_AVATARUIELEMENTCOLORCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x14D9E310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AvatarUIElementColorConfigs_TypeDefinitionIndex = 67769;
+	inline static constexpr unsigned int AvatarUIElementColorConfigs_TypeDefinitionIndex = 75562;
 
 	class AvatarUIElementColorConfigs : public ::System::Object
 	{

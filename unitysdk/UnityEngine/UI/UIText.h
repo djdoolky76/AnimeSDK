@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/Extension/UILocalizationText.h"
 
-#define UNITYENGINE_UI_UITEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1515A0)
+#define UNITYENGINE_UI_UITEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB750C0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int UIText_TypeDefinitionIndex = 56429;
+	inline static constexpr unsigned int UIText_TypeDefinitionIndex = 51724;
 
 	class UIText : public ::UnityEngine::UI::Extension::UILocalizationText
 	{

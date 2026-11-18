@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAvatarShowSettings_PerformType_TypeDefinitionIndex = 66347;
+	inline static constexpr unsigned int ConfigUIAvatarShowSettings_PerformType_TypeDefinitionIndex = 82390;
 
 	enum class ConfigUIAvatarShowSettings_PerformType : ::System::Byte
 	{
-		TimelinePrefab = 0x1,
-		AnimatorController = 0x2,
-		AnimationClip = 0x0,
+		TimelinePrefab = 1,
+		AnimationClip = 0,
+		AnimatorController = 2,
 	};
 }

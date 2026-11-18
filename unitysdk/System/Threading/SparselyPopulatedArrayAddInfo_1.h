@@ -6,10 +6,10 @@ namespace System::Threading { template <typename T> class SparselyPopulatedArray
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int SparselyPopulatedArrayAddInfo_1_TypeDefinitionIndex = 790;
+	inline static constexpr unsigned int SparselyPopulatedArrayAddInfo_1_TypeDefinitionIndex = 789;
 
 	template <typename T>
-	struct SparselyPopulatedArrayAddInfo_1
+	struct alignas(8) SparselyPopulatedArrayAddInfo_1
 	{
 		::System::Threading::SparselyPopulatedArrayFragment_1<T>* m_source; // 0x0
 		::System::Int32 m_index; // 0x0

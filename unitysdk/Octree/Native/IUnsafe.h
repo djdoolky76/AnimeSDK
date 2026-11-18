@@ -3,7 +3,7 @@
 
 namespace Octree::Native
 {
-	inline static constexpr unsigned int IUnsafe_TypeDefinitionIndex = 48795;
+	inline static constexpr unsigned int IUnsafe_TypeDefinitionIndex = 63091;
 
 	class IUnsafe
 	{

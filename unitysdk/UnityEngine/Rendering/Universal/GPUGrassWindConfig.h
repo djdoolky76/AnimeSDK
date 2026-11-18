@@ -7,7 +7,7 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassWindConfig_TypeDefinitionIndex = 27764;
+	inline static constexpr unsigned int GPUGrassWindConfig_TypeDefinitionIndex = 26690;
 
 	struct alignas(8) GPUGrassWindConfig
 	{
@@ -18,6 +18,7 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::Vector2 windScaleRange; // 0x24
 		::System::Single bounceAmplitude; // 0x2C
 		::System::Single windTexContrast; // 0x30
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Texture2D* windTex; // 0x38
 		::System::Single windControl; // 0x40
 	};

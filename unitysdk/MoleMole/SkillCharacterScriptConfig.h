@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_626947D8870F8D56.h"
-#include "unitysdk/MoleMole/AttackType.h"
-#include "unitysdk/MoleMole/CharacterScriptConfigBase.h"
+#include "unitysdk/DLCLCDFPIEE.h"
 #include "unitysdk/MoleMole/Config/CharacterSize.h"
 #include "unitysdk/MoleMole/Config/ConfigEntityAnimEventProtection.h"
 #include "unitysdk/MoleMole/Config/InlevelCameraState.h"
+#include "unitysdk/MoleMole/AttackType.h"
+#include "unitysdk/MoleMole/CharacterScriptConfigBase.h"
 
 namespace MoleMole { class AnimatorBlendData; }
 namespace MoleMole { class SkillCharacterAnimatorZoneData; }
-namespace MoleMole { class SkillCharacterScriptConfig_ListPatternPair; }
 namespace MoleMole::Battle { class AnimatorButtonControl; }
 namespace MoleMole::Config { class AnimatorZone; }
 namespace MoleMole::Config { class ConfigAnimatorEventPattern; }
@@ -19,71 +18,81 @@ namespace MoleMole::Config { class ConfigCounterstroke; }
 namespace MoleMole::Config { class ConfigEntityAnimEvent; }
 namespace MoleMole::Config { class ConfigEntityAnimEventGroup; }
 namespace MoleMole::Config { class ConfigEntitySkill; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_CLEAN_OFFSET UNITYSDK_OFFSET(0x1190D8D0)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GETSHORTDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x118DFD40)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_ANIMATORZONEGROUP_OFFSET UNITYSDK_OFFSET(0x1190DB50)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_EVENTPATTERNCONFIGS_OFFSET UNITYSDK_OFFSET(0x1190DD90)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_LINKEDANIMEVENTSOBJECT_OFFSET UNITYSDK_OFFSET(0x1190E4D0)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_LINKEDANIMEVENTS_OFFSET UNITYSDK_OFFSET(0x1190E350)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_STATELENGTHCONFIG_OFFSET UNITYSDK_OFFSET(0x1190D930)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1190E0C0)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1190E830)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1190E650)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG___BASE_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1190E840)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_CLEAN_OFFSET UNITYSDK_OFFSET(0x1A719980)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GETSHORTDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1A7199E0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_ANIMATORZONEGROUP_OFFSET UNITYSDK_OFFSET(0x1A719C90)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_EVENTPATTERNCONFIGS_OFFSET UNITYSDK_OFFSET(0x1A719ED0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_LINKEDANIMEVENTSOBJECT_OFFSET UNITYSDK_OFFSET(0x1A71A610)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_LINKEDANIMEVENTS_OFFSET UNITYSDK_OFFSET(0x1A71A490)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_GET_STATELENGTHCONFIG_OFFSET UNITYSDK_OFFSET(0x1A719A70)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A71A200)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A71A970)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A71A790)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG___BASE_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A71A980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SkillCharacterScriptConfig_TypeDefinitionIndex = 86315;
+	inline static constexpr unsigned int SkillCharacterScriptConfig_TypeDefinitionIndex = 48143;
 
 	class SkillCharacterScriptConfig : public ::MoleMole::CharacterScriptConfigBase
 	{
 	public:
-		static ::System::Boolean* StaticGet__hideOldAnimEvents()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_TypeDefinitionIndex)->GetStaticField(0xE3E0);
-		}
 		static ::System::Boolean* StaticGet_S_False()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_TypeDefinitionIndex)->GetStaticField(0xE3E1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_TypeDefinitionIndex)->GetStaticField(0xE8A0);
+		}
+		static ::System::Boolean* StaticGet__hideOldAnimEvents()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkillCharacterScriptConfig_TypeDefinitionIndex)->GetStaticField(0xE8A1);
 		}
 		::System::String* displayName; // 0x110
 		::System::Boolean IsBossLockState; // 0x118
+		::System::Byte _padding0[0x3];
 		::MoleMole::AttackType AttackType; // 0x11C
 		::Il2CppArray<::System::String*>* customTags; // 0x120
 		::System::Single AIWeightRatioM; // 0x128
 		::System::Single AIWeightDivisorN; // 0x12C
 		::System::Single AIWeightAdjusterS; // 0x130
 		::System::Boolean AIWeightCurveOverride; // 0x134
+		::System::Byte _padding1[0x3];
 		::UnityEngine::AnimationCurve* dis2AvatarWeightCurve; // 0x138
 		::System::Single dis2AvatarRatio; // 0x140
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* dis2CamCenterWeightCurve; // 0x148
 		::System::Single dis2CamCenterRatio; // 0x150
 		::System::Boolean EnableChangeTypeByDis; // 0x154
+		::System::Byte _padding3[0x3];
 		::System::Single nearDistance; // 0x158
 		::MoleMole::AttackType inNearType; // 0x15C
 		::System::Single farDistance; // 0x160
 		::MoleMole::AttackType leaveFarType; // 0x164
 		::System::Boolean EnableBlendMove; // 0x168
-		::Enum_3_626947D8870F8D56 MoveType; // 0x16C
+		::System::Byte _padding4[0x3];
+		::DLCLCDFPIEE MoveType; // 0x16C
 		::System::Single BlendSpeed; // 0x170
+		::System::Byte _padding5[0x4];
 		::MoleMole::AnimatorBlendData* BlendData; // 0x178
 		::MoleMole::AnimatorBlendData* StartBlendData; // 0x180
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::AnimatorBlendData*>* BlendDataByTag; // 0x188
 		::System::Boolean EnableCounterstroke; // 0x190
+		::System::Byte _padding6[0x7];
 		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigCounterstroke*>* ConfigCounterstrokes; // 0x198
 		::System::String* AIConfigPath; // 0x1A0
 		::MoleMole::Config::CharacterSize CharacterSize; // 0x1A8
 		::System::Boolean EnabledOverrideCameraState; // 0x1AC
+		::System::Byte _padding7[0x3];
 		::MoleMole::Config::InlevelCameraState OverrideBattleCameraState; // 0x1B0
 		::System::Single RotateSpeed; // 0x1B4
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntitySkill*>* Skills; // 0x1B8
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Battle::AnimatorButtonControl*>* ClickControls; // 0x1C0
 		::System::Single HoldControlTime; // 0x1C8
+		::System::Byte _padding8[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Battle::AnimatorButtonControl*>* HoldControls; // 0x1D0
 		::System::Collections::Generic::List_1<::System::String*>* TriggerCacheKeys; // 0x1D8
 		::System::String* StateLengthAssetPath; // 0x1E0
@@ -93,7 +102,7 @@ namespace MoleMole
 		::Il2CppArray<::System::String*>* patternPathNameList; // 0x200
 		::Il2CppArray<::MoleMole::Config::ConfigAnimatorEventPattern*>* _eventPatternConfigs; // 0x208
 		::Il2CppArray<::System::String*>* eventPatternConfigPaths; // 0x210
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::SkillCharacterScriptConfig_ListPatternPair*>* AnimatorStateEventPatternsDict; // 0x218
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* AnimatorStateEventPatternsDict; // 0x218
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* AnimatorStateClipNameDic; // 0x220
 		::System::String* linkedAnimEventConfigPath; // 0x228
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* SummonTagMax; // 0x230

@@ -2,41 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Rect.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define DEST_MATH_AAB2_CALCAREA_OFFSET UNITYSDK_OFFSET(0xAB43E0)
-#define DEST_MATH_AAB2_CALCCENTEREXTENTS_OFFSET UNITYSDK_OFFSET(0xAB4360)
-#define DEST_MATH_AAB2_CALCVERTICES_1_OFFSET UNITYSDK_OFFSET(0xAB43C0)
-#define DEST_MATH_AAB2_CALCVERTICES_2_OFFSET UNITYSDK_OFFSET(0xAB43D0)
-#define DEST_MATH_AAB2_CALCVERTICES_OFFSET UNITYSDK_OFFSET(0xAB4390)
-#define DEST_MATH_AAB2_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0xAB4530)
-#define DEST_MATH_AAB2_CONTAINS_OFFSET UNITYSDK_OFFSET(0xAB44F0)
-#define DEST_MATH_AAB2_CREATEFROMPOINTS_1_OFFSET UNITYSDK_OFFSET(0x1F7F5300)
-#define DEST_MATH_AAB2_CREATEFROMPOINTS_2_OFFSET UNITYSDK_OFFSET(0x1F7F55E0)
-#define DEST_MATH_AAB2_CREATEFROMPOINTS_OFFSET UNITYSDK_OFFSET(0x1F7F4E00)
-#define DEST_MATH_AAB2_CREATEFROMPOINT_1_OFFSET UNITYSDK_OFFSET(0x1F7F4D80)
-#define DEST_MATH_AAB2_CREATEFROMPOINT_OFFSET UNITYSDK_OFFSET(0x1F7F4D70)
-#define DEST_MATH_AAB2_CREATEFROMTWOPOINTS_1_OFFSET UNITYSDK_OFFSET(0x1F7F4DC0)
-#define DEST_MATH_AAB2_CREATEFROMTWOPOINTS_OFFSET UNITYSDK_OFFSET(0x1F7F4D90)
-#define DEST_MATH_AAB2_DISTANCETO_OFFSET UNITYSDK_OFFSET(0xAB4400)
-#define DEST_MATH_AAB2_INCLUDE_1_OFFSET UNITYSDK_OFFSET(0xAB45C0)
-#define DEST_MATH_AAB2_INCLUDE_2_OFFSET UNITYSDK_OFFSET(0xAB4610)
-#define DEST_MATH_AAB2_INCLUDE_3_OFFSET UNITYSDK_OFFSET(0xAB46A0)
-#define DEST_MATH_AAB2_INCLUDE_OFFSET UNITYSDK_OFFSET(0xAB4570)
-#define DEST_MATH_AAB2_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F7F4D50)
-#define DEST_MATH_AAB2_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F7F4D30)
-#define DEST_MATH_AAB2_PROJECT_OFFSET UNITYSDK_OFFSET(0xAB4480)
-#define DEST_MATH_AAB2_TOSTRING_OFFSET UNITYSDK_OFFSET(0xAB4730)
-#define DEST_MATH_AAB2__CTOR_1_OFFSET UNITYSDK_OFFSET(0x346F70)
-#define DEST_MATH_AAB2__CTOR_2_OFFSET UNITYSDK_OFFSET(0xAB4340)
-#define DEST_MATH_AAB2__CTOR_OFFSET UNITYSDK_OFFSET(0x3D1D30)
+#define DEST_MATH_AAB2_CALCAREA_OFFSET UNITYSDK_OFFSET(0x99A000)
+#define DEST_MATH_AAB2_CALCCENTEREXTENTS_OFFSET UNITYSDK_OFFSET(0x999F80)
+#define DEST_MATH_AAB2_CALCVERTICES_1_OFFSET UNITYSDK_OFFSET(0x999FE0)
+#define DEST_MATH_AAB2_CALCVERTICES_2_OFFSET UNITYSDK_OFFSET(0x999FF0)
+#define DEST_MATH_AAB2_CALCVERTICES_OFFSET UNITYSDK_OFFSET(0x999FB0)
+#define DEST_MATH_AAB2_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x99A150)
+#define DEST_MATH_AAB2_CONTAINS_OFFSET UNITYSDK_OFFSET(0x99A110)
+#define DEST_MATH_AAB2_CREATEFROMPOINTS_1_OFFSET UNITYSDK_OFFSET(0x1FBFEA80)
+#define DEST_MATH_AAB2_CREATEFROMPOINTS_2_OFFSET UNITYSDK_OFFSET(0x1FBFED60)
+#define DEST_MATH_AAB2_CREATEFROMPOINTS_OFFSET UNITYSDK_OFFSET(0x1FBFE580)
+#define DEST_MATH_AAB2_CREATEFROMPOINT_1_OFFSET UNITYSDK_OFFSET(0x1FBFE500)
+#define DEST_MATH_AAB2_CREATEFROMPOINT_OFFSET UNITYSDK_OFFSET(0x1FBFE4F0)
+#define DEST_MATH_AAB2_CREATEFROMTWOPOINTS_1_OFFSET UNITYSDK_OFFSET(0x1FBFE540)
+#define DEST_MATH_AAB2_CREATEFROMTWOPOINTS_OFFSET UNITYSDK_OFFSET(0x1FBFE510)
+#define DEST_MATH_AAB2_DISTANCETO_OFFSET UNITYSDK_OFFSET(0x99A020)
+#define DEST_MATH_AAB2_INCLUDE_1_OFFSET UNITYSDK_OFFSET(0x99A1E0)
+#define DEST_MATH_AAB2_INCLUDE_2_OFFSET UNITYSDK_OFFSET(0x99A230)
+#define DEST_MATH_AAB2_INCLUDE_3_OFFSET UNITYSDK_OFFSET(0x99A2C0)
+#define DEST_MATH_AAB2_INCLUDE_OFFSET UNITYSDK_OFFSET(0x99A190)
+#define DEST_MATH_AAB2_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1FBFE4D0)
+#define DEST_MATH_AAB2_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1FBFE4B0)
+#define DEST_MATH_AAB2_PROJECT_OFFSET UNITYSDK_OFFSET(0x99A0A0)
+#define DEST_MATH_AAB2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x99A350)
+#define DEST_MATH_AAB2__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3657B0)
+#define DEST_MATH_AAB2__CTOR_2_OFFSET UNITYSDK_OFFSET(0x999F60)
+#define DEST_MATH_AAB2__CTOR_OFFSET UNITYSDK_OFFSET(0x6708E0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int AAB2_TypeDefinitionIndex = 35422;
+	inline static constexpr unsigned int AAB2_TypeDefinitionIndex = 34995;
 
 	struct alignas(4) AAB2
 	{
@@ -72,40 +73,54 @@ namespace Dest::Math
 		}
 		*/
 
+		/*
 		static ::Dest::Math::AAB2 CreateFromPoint(::UnityEngine::Vector2& point)
 		{
 			return ((::Dest::Math::AAB2(*)(::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + DEST_MATH_AAB2_CREATEFROMPOINT_OFFSET))(point);
 		}
+		*/
 
+		/*
 		static ::Dest::Math::AAB2 CreateFromPoint_1(::UnityEngine::Vector2 point)
 		{
 			return ((::Dest::Math::AAB2(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + DEST_MATH_AAB2_CREATEFROMPOINT_1_OFFSET))(point);
 		}
+		*/
 
+		/*
 		static ::Dest::Math::AAB2 CreateFromTwoPoints(::UnityEngine::Vector2& point0, ::UnityEngine::Vector2& point1)
 		{
 			return ((::Dest::Math::AAB2(*)(::UnityEngine::Vector2&, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + DEST_MATH_AAB2_CREATEFROMTWOPOINTS_OFFSET))(point0, point1);
 		}
+		*/
 
+		/*
 		static ::Dest::Math::AAB2 CreateFromTwoPoints_1(::UnityEngine::Vector2 point0, ::UnityEngine::Vector2 point1)
 		{
 			return ((::Dest::Math::AAB2(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + DEST_MATH_AAB2_CREATEFROMTWOPOINTS_1_OFFSET))(point0, point1);
 		}
+		*/
 
+		/*
 		static ::Dest::Math::AAB2 CreateFromPoints(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2>* points)
 		{
 			return ((::Dest::Math::AAB2(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + DEST_MATH_AAB2_CREATEFROMPOINTS_OFFSET))(points);
 		}
+		*/
 
+		/*
 		static ::Dest::Math::AAB2 CreateFromPoints_1(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points)
 		{
 			return ((::Dest::Math::AAB2(*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + DEST_MATH_AAB2_CREATEFROMPOINTS_1_OFFSET))(points);
 		}
+		*/
 
+		/*
 		static ::Dest::Math::AAB2 CreateFromPoints_2(::Il2CppArray<::UnityEngine::Vector2>* points)
 		{
 			return ((::Dest::Math::AAB2(*)(::Il2CppArray<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + DEST_MATH_AAB2_CREATEFROMPOINTS_2_OFFSET))(points);
 		}
+		*/
 
 		::System::Void CalcCenterExtents(::UnityEngine::Vector2& center, ::UnityEngine::Vector2& extents)
 		{
@@ -162,15 +177,19 @@ namespace Dest::Math
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + DEST_MATH_AAB2_INCLUDE_1_OFFSET))(this, point);
 		}
 
+		/*
 		::System::Void Include_2(::Dest::Math::AAB2& box)
 		{
 			return ((::System::Void(*)(::PVOID, ::Dest::Math::AAB2&))((::PBYTE)hIl2Cpp + DEST_MATH_AAB2_INCLUDE_2_OFFSET))(this, box);
 		}
+		*/
 
+		/*
 		::System::Void Include_3(::Dest::Math::AAB2 box)
 		{
 			return ((::System::Void(*)(::PVOID, ::Dest::Math::AAB2))((::PBYTE)hIl2Cpp + DEST_MATH_AAB2_INCLUDE_3_OFFSET))(this, box);
 		}
+		*/
 
 		::System::String* ToString()
 		{

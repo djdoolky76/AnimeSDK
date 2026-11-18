@@ -6,14 +6,14 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_MONOGAMEPADSPACETARGET_DOCOPYRESET_OFFSET UNITYSDK_OFFSET(0x1909A4F0)
-#define MOLEMOLE_MONOGAMEPADSPACETARGET_GETNAVIGATEFORBID_OFFSET UNITYSDK_OFFSET(0x1909A470)
-#define MOLEMOLE_MONOGAMEPADSPACETARGET_GETNAVIGATEOBJ_OFFSET UNITYSDK_OFFSET(0x1909A3F0)
-#define MOLEMOLE_MONOGAMEPADSPACETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1909A540)
+#define MOLEMOLE_MONOGAMEPADSPACETARGET_DOCOPYRESET_OFFSET UNITYSDK_OFFSET(0x18102670)
+#define MOLEMOLE_MONOGAMEPADSPACETARGET_GETNAVIGATEFORBID_OFFSET UNITYSDK_OFFSET(0x181025F0)
+#define MOLEMOLE_MONOGAMEPADSPACETARGET_GETNAVIGATEOBJ_OFFSET UNITYSDK_OFFSET(0x18102570)
+#define MOLEMOLE_MONOGAMEPADSPACETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x181026C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadSpaceTarget_TypeDefinitionIndex = 70458;
+	inline static constexpr unsigned int MonoGamepadSpaceTarget_TypeDefinitionIndex = 84197;
 
 	class MonoGamepadSpaceTarget : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,14 +33,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSPACETARGET__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::GameObject* GetNavigateObj(::MoleMole::InputLogicEventType a1)
+		::UnityEngine::GameObject* GetNavigateObj(::MoleMole::InputLogicEventType DHNEEJCNAID)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::MoleMole::InputLogicEventType))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSPACETARGET_GETNAVIGATEOBJ_OFFSET))(this, a1);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::MoleMole::InputLogicEventType))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSPACETARGET_GETNAVIGATEOBJ_OFFSET))(this, DHNEEJCNAID);
 		}
 
-		::System::Boolean GetNavigateForbid(::MoleMole::InputLogicEventType a1)
+		::System::Boolean GetNavigateForbid(::MoleMole::InputLogicEventType DHNEEJCNAID)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputLogicEventType))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSPACETARGET_GETNAVIGATEFORBID_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputLogicEventType))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSPACETARGET_GETNAVIGATEFORBID_OFFSET))(this, DHNEEJCNAID);
 		}
 
 		::System::Void DoCopyReset()

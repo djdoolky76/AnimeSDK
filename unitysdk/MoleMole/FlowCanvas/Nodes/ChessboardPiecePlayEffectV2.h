@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_3.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDPIECEPLAYEFFECTV2_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B05A90)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDPIECEPLAYEFFECTV2__CTOR_OFFSET UNITYSDK_OFFSET(0x19B05C20)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDPIECEPLAYEFFECTV2_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8E2AA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDPIECEPLAYEFFECTV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E2C30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardPiecePlayEffectV2_TypeDefinitionIndex = 52150;
+	inline static constexpr unsigned int ChessboardPiecePlayEffectV2_TypeDefinitionIndex = 60759;
 
-	class ChessboardPiecePlayEffectV2 : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_3<::System::String*, ::System::Int32, ::System::Int32>
+	class ChessboardPiecePlayEffectV2
 	{
 	public:
 		::System::Void _ctor()

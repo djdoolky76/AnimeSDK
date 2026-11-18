@@ -1,36 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
-#include "unitysdk/System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter.h"
 #include "unitysdk/System/ValueType.h"
 
+namespace System { class Object; }
 namespace System { class Uri; }
 namespace System::IO { class Stream; }
 namespace System::Net { class ICredentials; }
 namespace System::Net { class IWebProxy; }
 namespace System::Net { class WebRequest; }
-namespace System::Net { class WebResponse; }
 namespace System::Net::Cache { class RequestCachePolicy; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Xml { class XmlDownloadManager; }
 
-#define SYSTEM_XML_XMLDOWNLOADMANAGER__GETNONFILESTREAMASYNC_D__5_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xA13EC0)
-#define SYSTEM_XML_XMLDOWNLOADMANAGER__GETNONFILESTREAMASYNC_D__5_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x977E40)
+#define SYSTEM_XML_XMLDOWNLOADMANAGER__GETNONFILESTREAMASYNC_D__5_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x9076B0)
+#define SYSTEM_XML_XMLDOWNLOADMANAGER__GETNONFILESTREAMASYNC_D__5_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x6C2D10)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlDownloadManager__GetNonFileStreamAsync_d__5_TypeDefinitionIndex = 1815;
+	inline static constexpr unsigned int XmlDownloadManager__GetNonFileStreamAsync_d__5_TypeDefinitionIndex = 1814;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	struct alignas(8) XmlDownloadManager__GetNonFileStreamAsync_d__5
 	{
-		::System::Net::IWebProxy* proxy; // 0x10
-		::System::Net::Cache::RequestCachePolicy* cachePolicy; // 0x18
-		::System::Net::WebRequest* _req_5__1; // 0x20
-		::System::Net::ICredentials* credentials; // 0x28
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*> __u__1; // 0x30
-		::System::Uri* uri; // 0x40
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder; // 0x48
-		::System::Xml::XmlDownloadManager* __4__this; // 0x60
+		::System::Net::WebRequest* _req_5__1; // 0x10
+		::System::Object* __u__1; // 0x18
+		::System::Byte _padding0[0x8];
+		::System::Net::Cache::RequestCachePolicy* cachePolicy; // 0x28
+		::System::Net::ICredentials* credentials; // 0x30
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder; // 0x38
+		::System::Byte _padding1[0x10];
+		::System::Xml::XmlDownloadManager* __4__this; // 0x50
+		::System::Net::IWebProxy* proxy; // 0x58
+		::System::Uri* uri; // 0x60
 		::System::Int32 __1__state; // 0x68
 
 		::System::Void MoveNext()

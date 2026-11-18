@@ -7,12 +7,12 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::ComponentModel { class ICustomTypeDescriptor; }
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ATTRIBUTEPROVIDER_GETTYPEDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1CC04890)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ATTRIBUTEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC04880)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ATTRIBUTEPROVIDER_GETTYPEDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1D0F97E0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_ATTRIBUTEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F97D0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int TypeDescriptor_AttributeProvider_TypeDefinitionIndex = 2995;
+	inline static constexpr unsigned int TypeDescriptor_AttributeProvider_TypeDefinitionIndex = 2994;
 
 	class TypeDescriptor_AttributeProvider : public ::System::ComponentModel::TypeDescriptionProvider
 	{

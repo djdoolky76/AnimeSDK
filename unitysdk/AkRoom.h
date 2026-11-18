@@ -9,40 +9,42 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define AKROOM_EXIT_OFFSET UNITYSDK_OFFSET(0x1F87C040)
-#define AKROOM_GETAKROOMID_OFFSET UNITYSDK_OFFSET(0x1F87BAD0)
-#define AKROOM_GETID_OFFSET UNITYSDK_OFFSET(0x1F87BC20)
-#define AKROOM_GET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1F87BDC0)
-#define AKROOM_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1F87D250)
-#define AKROOM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F87CB80)
-#define AKROOM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F87C1B0)
-#define AKROOM_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1F87CFF0)
-#define AKROOM_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1F87D050)
-#define AKROOM_POSTROOMTONE_OFFSET UNITYSDK_OFFSET(0x1F87D0B0)
-#define AKROOM_SET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1F87BE20)
-#define AKROOM_TRYENTER_OFFSET UNITYSDK_OFFSET(0x1F87BE80)
-#define AKROOM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F87D370)
-#define AKROOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1F87D260)
+#define AKROOM_EXIT_OFFSET UNITYSDK_OFFSET(0x1FC97080)
+#define AKROOM_GETAKROOMID_OFFSET UNITYSDK_OFFSET(0x1FC96B10)
+#define AKROOM_GETID_OFFSET UNITYSDK_OFFSET(0x1FC96C60)
+#define AKROOM_GET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1FC96E00)
+#define AKROOM_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1FC98290)
+#define AKROOM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1FC97BC0)
+#define AKROOM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1FC971F0)
+#define AKROOM_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1FC98030)
+#define AKROOM_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1FC98090)
+#define AKROOM_POSTROOMTONE_OFFSET UNITYSDK_OFFSET(0x1FC980F0)
+#define AKROOM_SET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1FC96E60)
+#define AKROOM_TRYENTER_OFFSET UNITYSDK_OFFSET(0x1FC96EC0)
+#define AKROOM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC983B0)
+#define AKROOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC982A0)
 
-inline static constexpr unsigned int AkRoom_TypeDefinitionIndex = 33801;
+inline static constexpr unsigned int AkRoom_TypeDefinitionIndex = 33347;
 
 class AkRoom : public ::AkTriggerHandler
 {
 public:
 	static ::System::UInt64* StaticGet_INVALID_ROOM_ID()
 	{
-		return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(AkRoom_TypeDefinitionIndex)->GetStaticField(0x8180);
+		return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(AkRoom_TypeDefinitionIndex)->GetStaticField(0x85B0);
 	}
 	static ::System::Int32* StaticGet__RoomCount_k__BackingField()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AkRoom_TypeDefinitionIndex)->GetStaticField(0x8188);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AkRoom_TypeDefinitionIndex)->GetStaticField(0x85B8);
 	}
 	::System::Int32 priority; // 0x30
+	::System::Byte _padding0[0x4];
 	::AK::Wwise::AuxBus* reverbAuxBus; // 0x38
 	::System::Single reverbLevel; // 0x40
 	::System::Single wallOcclusion; // 0x44
 	::AK::Wwise::Event* roomToneEvent; // 0x48
 	::System::Single roomToneAuxSend; // 0x50
+	::System::Byte _padding1[0x4];
 	::System::Collections::Generic::List_1<::AkRoomAwareObject*>* roomAwareObjectsEntered; // 0x58
 	::System::Collections::Generic::List_1<::AkRoomAwareObject*>* roomAwareObjectsDetectedWhileDisabled; // 0x60
 

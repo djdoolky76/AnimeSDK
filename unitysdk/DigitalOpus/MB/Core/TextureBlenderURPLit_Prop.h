@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int TextureBlenderURPLit_Prop_TypeDefinitionIndex = 94524;
+	inline static constexpr unsigned int TextureBlenderURPLit_Prop_TypeDefinitionIndex = 96211;
 
 	enum class TextureBlenderURPLit_Prop : ::System::Int32
 	{

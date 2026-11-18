@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWPOPWINDOWSERVER_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19BE2F40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWPOPWINDOWSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE3050)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWPOPWINDOWSERVER__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x19BE3090)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWPOPWINDOWSERVER_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A08E930)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWPOPWINDOWSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A08EA40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWPOPWINDOWSERVER__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1A08EA80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowPopWindowServer_TypeDefinitionIndex = 56454;
+	inline static constexpr unsigned int LDShowPopWindowServer_TypeDefinitionIndex = 62047;
 
 	class LDShowPopWindowServer : public ::FlowCanvas::Nodes::FlowControlNode
 	{

@@ -4,19 +4,19 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define UNITYENGINE_GUIHOOK_INVOKE_ONHOOKGUISETCHANGED_OFFSET UNITYSDK_OFFSET(0x1EA68F10)
-#define UNITYENGINE_GUIHOOK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA68F70)
+#define UNITYENGINE_GUIHOOK_INVOKE_ONHOOKGUISETCHANGED_OFFSET UNITYSDK_OFFSET(0x1EDA5750)
+#define UNITYENGINE_GUIHOOK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDA57B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIHook_TypeDefinitionIndex = 5344;
+	inline static constexpr unsigned int GUIHook_TypeDefinitionIndex = 5346;
 
 	class GUIHook : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Boolean>** StaticGet_onHookSetChanged()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GUIHook_TypeDefinitionIndex)->GetStaticField(0x55E0);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GUIHook_TypeDefinitionIndex)->GetStaticField(0x54E0);
 		}
 
 		::System::Void _ctor()

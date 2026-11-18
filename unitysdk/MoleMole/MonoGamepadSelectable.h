@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_1BED4272B39C388A.h"
 #include "unitysdk/MoleMole/GamepadNavTargetConfig.h"
-#include "unitysdk/MoleMole/MonoGamepadSelectable_Struct_2_05AF451D7E433529.h"
-#include "unitysdk/MoleMole/MonoGamepadSelectable_Struct_2_05AF451D7E433529_1.h"
+#include "unitysdk/PKCHBOLJIMH.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/MoleMole/MonoGamepadSelectable_CAJLGJKALBO.h"
+#include "unitysdk/MoleMole/MonoGamepadSelectable_KFLJHABALMF.h"
 
 namespace MoleMole { class MonoGamepadBaseList; }
 namespace MoleMole { class MonoGamepadModule; }
@@ -18,91 +18,102 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI::Extension { class UIButtonBase; }
 
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x144E8600)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_CLICK_OFFSET UNITYSDK_OFFSET(0x144E9E80)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ACTIVATEONSELECT_OFFSET UNITYSDK_OFFSET(0x144E82E0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ACTIVATEONWEAKFOCUSLIST_OFFSET UNITYSDK_OFFSET(0x144E84D0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_BUTTON_OFFSET UNITYSDK_OFFSET(0x144E82D0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_HASFOCUSUI_OFFSET UNITYSDK_OFFSET(0x144E8300)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_HASWEAKFOCUSUI_OFFSET UNITYSDK_OFFSET(0x144E84F0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ISFOCUS_OFFSET UNITYSDK_OFFSET(0x144E82C0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ISSELECT_OFFSET UNITYSDK_OFFSET(0x144E82B0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ISWEAKFOCUS_OFFSET UNITYSDK_OFFSET(0x144E8470)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ONFOCUSSTATECHANGED_OFFSET UNITYSDK_OFFSET(0x144E8580)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ONSELECTCHANGED_OFFSET UNITYSDK_OFFSET(0x144E8560)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_SOUNDACTIONSOURCEHINT_OFFSET UNITYSDK_OFFSET(0x144E85A0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_SOUNDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x144E8550)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_017C915772AE00E9_OFFSET UNITYSDK_OFFSET(0x144EC130)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_259218BAD97DABA5_OFFSET UNITYSDK_OFFSET(0x144ECC10)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0x144EBF40)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x144E97F0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x144EC4F0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_4CF1DCF96A27D996_OFFSET UNITYSDK_OFFSET(0x144E9840)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_4DA29451BA34B956_OFFSET UNITYSDK_OFFSET(0x144ED000)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_6BF0B1C95F527C3E_OFFSET UNITYSDK_OFFSET(0x144ED490)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_6F5D10D91147F9C3_OFFSET UNITYSDK_OFFSET(0x144ED680)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x144ED870)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_ADAEB67D212F3BAB_OFFSET UNITYSDK_OFFSET(0x144ECA20)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_AF9B73C9965C6444_OFFSET UNITYSDK_OFFSET(0x144E8FD0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_B41DEFAE71E2165B_OFFSET UNITYSDK_OFFSET(0x144EC690)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_C970428934B6987A_1_OFFSET UNITYSDK_OFFSET(0x144EAFB0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_C970428934B6987A_OFFSET UNITYSDK_OFFSET(0x144EADD0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_E38DBF86ED41255C_OFFSET UNITYSDK_OFFSET(0x144E8A20)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_EBAB6A35C21A2A5B_OFFSET UNITYSDK_OFFSET(0x144EC310)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_ECB1BE15AAE7A8A4_OFFSET UNITYSDK_OFFSET(0x144ED330)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_F6A713B4E496B7BA_OFFSET UNITYSDK_OFFSET(0x144EA710)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_FC31EDB72F32D7CF_1_OFFSET UNITYSDK_OFFSET(0x144ECE00)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_FC31EDB72F32D7CF_OFFSET UNITYSDK_OFFSET(0x144EABF0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_FFD65E4FEAD3C019_OFFSET UNITYSDK_OFFSET(0x144EDA90)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_SETBTNFOCUSSTATE_OFFSET UNITYSDK_OFFSET(0x144EAA90)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_SETBUTTONV2_OFFSET UNITYSDK_OFFSET(0x144EB330)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_SETBUTTON_OFFSET UNITYSDK_OFFSET(0x144EB190)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_SETSELECTED_OFFSET UNITYSDK_OFFSET(0x144EB510)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ACTIVATEONSELECT_OFFSET UNITYSDK_OFFSET(0x144E82F0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ACTIVATEONWEAKFOCUSLIST_OFFSET UNITYSDK_OFFSET(0x144E84E0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ONFOCUSSTATECHANGED_OFFSET UNITYSDK_OFFSET(0x144E8590)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ONSELECTCHANGED_OFFSET UNITYSDK_OFFSET(0x144E8570)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_SHOULDEXCLUDE_OFFSET UNITYSDK_OFFSET(0x144E9CD0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_SHOULDIGNORE_OFFSET UNITYSDK_OFFSET(0x144E92E0)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE_TRYDEACTIVATEINPUTFIELD_OFFSET UNITYSDK_OFFSET(0x144EB380)
-#define MOLEMOLE_MONOGAMEPADSELECTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x144EC640)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_AMENAFABHHH_OFFSET UNITYSDK_OFFSET(0x104369B0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x104357B0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_BALKPIKLFEA_OFFSET UNITYSDK_OFFSET(0x104390E0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_BAMCDNBCMCJ_OFFSET UNITYSDK_OFFSET(0x10435BD0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_BBBNBADBBCD_OFFSET UNITYSDK_OFFSET(0x10436180)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_BDOMPEDCGHP_OFFSET UNITYSDK_OFFSET(0x1043A700)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_CDBKNHGNGEE_OFFSET UNITYSDK_OFFSET(0x10439FC0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_CLICK_OFFSET UNITYSDK_OFFSET(0x10437050)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_CLPFEMDPFMA_OFFSET UNITYSDK_OFFSET(0x1043AC80)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_DFDGKLKICEO_OFFSET UNITYSDK_OFFSET(0x104394B0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_FPGJCEDFEKJ_OFFSET UNITYSDK_OFFSET(0x104378B0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GETSCROLLTOSHOWRECT_OFFSET UNITYSDK_OFFSET(0x104397E0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ACTIVATEONSELECT_OFFSET UNITYSDK_OFFSET(0x10435490)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ACTIVATEONWEAKFOCUSLIST_OFFSET UNITYSDK_OFFSET(0x10435680)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_BUTTON_OFFSET UNITYSDK_OFFSET(0x10435480)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_HASFOCUSUI_OFFSET UNITYSDK_OFFSET(0x104354B0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_HASWEAKFOCUSUI_OFFSET UNITYSDK_OFFSET(0x104356A0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ISCURRENTCLICKFROMNAVAUTOSELECT_OFFSET UNITYSDK_OFFSET(0x10437040)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ISFOCUS_OFFSET UNITYSDK_OFFSET(0x10435470)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ISSELECT_OFFSET UNITYSDK_OFFSET(0x10435460)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ISWEAKFOCUS_OFFSET UNITYSDK_OFFSET(0x10435620)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ONFOCUSSTATECHANGED_OFFSET UNITYSDK_OFFSET(0x10435730)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ONSELECTCHANGED_OFFSET UNITYSDK_OFFSET(0x10435710)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_SOUNDACTIONSOURCEHINT_OFFSET UNITYSDK_OFFSET(0x10435750)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_GET_SOUNDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x10435700)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_HFGDFKOLEAP_OFFSET UNITYSDK_OFFSET(0x1043A5A0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_HPLOCNJPJHO_OFFSET UNITYSDK_OFFSET(0x10439690)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_IIAHNJKJLNO_OFFSET UNITYSDK_OFFSET(0x1043A3A0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_INAGGCLAMEJ_OFFSET UNITYSDK_OFFSET(0x1043A1B0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_JAKDNGOALDB_OFFSET UNITYSDK_OFFSET(0x10438150)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_JHHAMJMOKND_OFFSET UNITYSDK_OFFSET(0x1043AA90)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_KPDFDDBJKAD_OFFSET UNITYSDK_OFFSET(0x10439DA0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_MAKEPAPPLFM_OFFSET UNITYSDK_OFFSET(0x104392D0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_MBBHCDGMGPL_OFFSET UNITYSDK_OFFSET(0x10437D90)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_MIHFEBMIPFI_OFFSET UNITYSDK_OFFSET(0x10439870)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_NIHPPFMHJPM_OFFSET UNITYSDK_OFFSET(0x1043AFB0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_ONGKFCACNHB_OFFSET UNITYSDK_OFFSET(0x10437F70)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_PBALLCJOAFH_OFFSET UNITYSDK_OFFSET(0x10436A00)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_SETBTNFOCUSSTATE_OFFSET UNITYSDK_OFFSET(0x10437C30)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_SETBUTTONV2_OFFSET UNITYSDK_OFFSET(0x104384D0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_SETBUTTON_OFFSET UNITYSDK_OFFSET(0x10438330)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_SETSELECTED_OFFSET UNITYSDK_OFFSET(0x104386B0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ACTIVATEONSELECT_OFFSET UNITYSDK_OFFSET(0x104354A0)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ACTIVATEONWEAKFOCUSLIST_OFFSET UNITYSDK_OFFSET(0x10435690)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ONFOCUSSTATECHANGED_OFFSET UNITYSDK_OFFSET(0x10435740)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ONSELECTCHANGED_OFFSET UNITYSDK_OFFSET(0x10435720)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_SHOULDEXCLUDE_OFFSET UNITYSDK_OFFSET(0x10436E90)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_SHOULDIGNORE_OFFSET UNITYSDK_OFFSET(0x10436490)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE_TRYDEACTIVATEINPUTFIELD_OFFSET UNITYSDK_OFFSET(0x10438520)
+#define MOLEMOLE_MONOGAMEPADSELECTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x10439820)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadSelectable_TypeDefinitionIndex = 67815;
+	inline static constexpr unsigned int MonoGamepadSelectable_TypeDefinitionIndex = 88415;
 
 	class MonoGamepadSelectable : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Boolean Field_5_1; // 0x18
-		::System::Boolean Field_5_0; // 0x19
+		static ::System::Boolean* StaticGet_GDLICFACELD()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadSelectable_TypeDefinitionIndex)->GetStaticField(0xDBA0);
+		}
+		::System::Boolean GPAPKNPENGB; // 0x18
+		::System::Boolean CPENEGOLKEF; // 0x19
 		::System::Boolean forceIgnore; // 0x1A
 		::System::Boolean forceExclude; // 0x1B
 		::System::Boolean ExcludeWhenIgnore; // 0x1C
 		::System::Boolean _ignoreWhenSmallAlpha; // 0x1D
+		::System::Byte _padding0[0x2];
 		::MoleMole::MonoGamepadBaseList* _list; // 0x20
 		::System::Boolean _ignoreWhenListEmpty; // 0x28
 		::System::Boolean _excludeWhenListEmpty; // 0x29
+		::System::Byte _padding1[0x6];
 		::UnityEngine::UI::Extension::UIButtonBase* _buttonV2; // 0x30
 		::UnityEngine::UI::Button* _untiyButton; // 0x38
 		::System::Boolean _setButtonStateOnSelect; // 0x40
 		::System::Boolean _selectWhenButtonUnavailable; // 0x41
+		::System::Byte _padding2[0x6];
 		::UnityEngine::UI::InputField* _inputField; // 0x48
-		::UnityEngine::GameObject* _activateOnSelect; // 0x50
-		::Il2CppArray<::UnityEngine::GameObject*>* _activateOnSelectList; // 0x58
-		::Il2CppArray<::UnityEngine::GameObject*>* _activateOnWeakFocusList; // 0x60
-		::MoleMole::GamepadNavTargetConfig _targetModule; // 0x68
-		::System::Boolean _focusOnTargetModuleOnClick; // 0x78
-		::System::Boolean _focusOnTargetModuleOnSelect; // 0x79
-		::System::Boolean _focusImmediately; // 0x7A
-		::System::Boolean _affectChildSelectable; // 0x7B
-		::Enum_3_1BED4272B39C388A _affectChildSelectableType; // 0x7C
-		::UnityEngine::CanvasGroup* Field_5_26; // 0x80
-		::System::Boolean _muteSelectSound; // 0x88
-		::System::Boolean _overrideSelectSound; // 0x89
-		::MoleMole::Config::ConfigSoundAction_Post2DEvent* _selectSound; // 0x90
-		::System::Action_1<::System::Boolean>* Field_5_30; // 0x98
-		::System::Action_1<::System::Boolean>* Field_5_29; // 0xA0
+		::UnityEngine::Transform* _scrollToShowRect; // 0x50
+		::UnityEngine::GameObject* _activateOnSelect; // 0x58
+		::Il2CppArray<::UnityEngine::GameObject*>* _activateOnSelectList; // 0x60
+		::Il2CppArray<::UnityEngine::GameObject*>* _activateOnWeakFocusList; // 0x68
+		::MoleMole::GamepadNavTargetConfig _targetModule; // 0x70
+		::System::Boolean _focusOnTargetModuleOnClick; // 0x80
+		::System::Boolean _focusOnTargetModuleOnSelect; // 0x81
+		::System::Boolean _focusImmediately; // 0x82
+		::System::Boolean _affectChildSelectable; // 0x83
+		::PKCHBOLJIMH _affectChildSelectableType; // 0x84
+		::UnityEngine::CanvasGroup* HAEHJMCNKJB; // 0x88
+		::System::Boolean _muteSelectSound; // 0x90
+		::System::Boolean _overrideSelectSound; // 0x91
+		::System::Byte _padding3[0x6];
+		::MoleMole::Config::ConfigSoundAction_Post2DEvent* _selectSound; // 0x98
+		::System::Action_1<::System::Boolean>* HJLPKEKOCLN; // 0xA0
+		::System::Action_1<::System::Boolean>* CFGLBEFGNHL; // 0xA8
 
 		::System::Void _ctor()
 		{
@@ -129,9 +140,9 @@ namespace MoleMole
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ACTIVATEONSELECT_OFFSET))(this);
 		}
 
-		::System::Void set_ActivateOnSelect(::UnityEngine::GameObject* a1)
+		::System::Void set_ActivateOnSelect(::UnityEngine::GameObject* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ACTIVATEONSELECT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ACTIVATEONSELECT_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Boolean get_HasFocusUI()
@@ -149,9 +160,9 @@ namespace MoleMole
 			return ((::Il2CppArray<::UnityEngine::GameObject*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ACTIVATEONWEAKFOCUSLIST_OFFSET))(this);
 		}
 
-		::System::Void set_ActivateOnWeakFocusList(::Il2CppArray<::UnityEngine::GameObject*>* a1)
+		::System::Void set_ActivateOnWeakFocusList(::Il2CppArray<::UnityEngine::GameObject*>* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ACTIVATEONWEAKFOCUSLIST_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ACTIVATEONWEAKFOCUSLIST_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Boolean get_HasWeakFocusUI()
@@ -169,9 +180,9 @@ namespace MoleMole
 			return ((::System::Action_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ONSELECTCHANGED_OFFSET))(this);
 		}
 
-		::System::Void set_OnSelectChanged(::System::Action_1<::System::Boolean>* a1)
+		::System::Void set_OnSelectChanged(::System::Action_1<::System::Boolean>* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ONSELECTCHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ONSELECTCHANGED_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Action_1<::System::Boolean>* get_OnFocusStateChanged()
@@ -179,9 +190,9 @@ namespace MoleMole
 			return ((::System::Action_1<::System::Boolean>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ONFOCUSSTATECHANGED_OFFSET))(this);
 		}
 
-		::System::Void set_OnFocusStateChanged(::System::Action_1<::System::Boolean>* a1)
+		::System::Void set_OnFocusStateChanged(::System::Action_1<::System::Boolean>* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ONFOCUSSTATECHANGED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SET_ONFOCUSSTATECHANGED_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::String* get_soundActionSourceHint()
@@ -204,24 +215,29 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SHOULDEXCLUDE_OFFSET))(this);
 		}
 
-		::System::Boolean Click(::MoleMole::MonoGamepadModule* a1, ::System::Boolean a2, ::System::Boolean a3)
+		static ::System::Boolean get_IsCurrentClickFromNavAutoSelect()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_CLICK_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_GET_ISCURRENTCLICKFROMNAVAUTOSELECT_OFFSET))();
 		}
 
-		::System::Void SetBtnFocusState(::System::Boolean a1, ::System::Boolean a2)
+		::System::Boolean Click(::MoleMole::MonoGamepadModule* IPKBEMFODCJ, ::System::Boolean AKHPIECINEP, ::System::Boolean NNCPEPJJDEA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SETBTNFOCUSSTATE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_CLICK_OFFSET))(this, IPKBEMFODCJ, AKHPIECINEP, NNCPEPJJDEA);
 		}
 
-		::System::Void SetButton(::UnityEngine::UI::Button* a1)
+		::System::Void SetBtnFocusState(::System::Boolean JLGCMPJMDLO, ::System::Boolean NPPMJEIPMFC)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Button*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SETBUTTON_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SETBTNFOCUSSTATE_OFFSET))(this, JLGCMPJMDLO, NPPMJEIPMFC);
 		}
 
-		::System::Void SetButtonV2(::UnityEngine::UI::Extension::UIButtonBase* a1)
+		::System::Void SetButton(::UnityEngine::UI::Button* DLMDEFNAIFG)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UIButtonBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SETBUTTONV2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Button*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SETBUTTON_OFFSET))(this, DLMDEFNAIFG);
+		}
+
+		::System::Void SetButtonV2(::UnityEngine::UI::Extension::UIButtonBase* DLMDEFNAIFG)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UIButtonBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SETBUTTONV2_OFFSET))(this, DLMDEFNAIFG);
 		}
 
 		::System::Boolean TryDeactivateInputField()
@@ -229,119 +245,124 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_TRYDEACTIVATEINPUTFIELD_OFFSET))(this);
 		}
 
-		::System::Void SetSelected(::System::Boolean a1, ::MoleMole::MonoGamepadModule* a2, ::System::Boolean a3, ::System::Boolean a4)
+		::System::Void SetSelected(::System::Boolean KCBDGFHGNJN, ::MoleMole::MonoGamepadModule* IPKBEMFODCJ, ::System::Boolean NPPMJEIPMFC, ::System::Boolean EAFLCDJBDOO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::MoleMole::MonoGamepadModule*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SETSELECTED_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::MoleMole::MonoGamepadModule*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_SETSELECTED_OFFSET))(this, KCBDGFHGNJN, IPKBEMFODCJ, NPPMJEIPMFC, EAFLCDJBDOO);
 		}
 
-		::System::String* Method_5_B41DEFAE71E2165B(::UnityEngine::Transform* a1)
+		::UnityEngine::Transform* GetScrollToShowRect()
 		{
-			return ((::System::String*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_B41DEFAE71E2165B_OFFSET))(this, a1);
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_GETSCROLLTOSHOWRECT_OFFSET))(this);
 		}
 
-		::System::Void Method_5_41A074549EF25F63()
+		::System::Void MIHFEBMIPFI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_41A074549EF25F63_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_MIHFEBMIPFI_OFFSET))(this);
 		}
 
-		::System::Void Method_5_017C915772AE00E9()
+		::System::Void CDBKNHGNGEE(::MoleMole::MonoGamepadSelectable_KFLJHABALMF& param_0)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_017C915772AE00E9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_KFLJHABALMF&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_CDBKNHGNGEE_OFFSET))(this, param_0);
 		}
 
-		::System::Void Method_5_ADAEB67D212F3BAB(::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529& a1)
+		::System::Void INAGGCLAMEJ()
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_ADAEB67D212F3BAB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_INAGGCLAMEJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_FC31EDB72F32D7CF(::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529_1& a1)
+		::System::Void JAKDNGOALDB(::MoleMole::MonoGamepadSelectable_CAJLGJKALBO& param_0)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529_1&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_FC31EDB72F32D7CF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_CAJLGJKALBO&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_JAKDNGOALDB_OFFSET))(this, param_0);
 		}
 
-		::MoleMole::MonoGamepadModule* Method_5_F6A713B4E496B7BA()
+		::System::Void DFDGKLKICEO()
 		{
-			return ((::MoleMole::MonoGamepadModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_F6A713B4E496B7BA_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_DFDGKLKICEO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_259218BAD97DABA5(::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529& a1)
+		::System::Void BALKPIKLFEA()
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_259218BAD97DABA5_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_BALKPIKLFEA_OFFSET))(this);
 		}
 
-		::System::Void Method_5_FC31EDB72F32D7CF_1(::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529& a1)
+		::System::Void IIAHNJKJLNO(::MoleMole::MonoGamepadSelectable_KFLJHABALMF& param_0)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_FC31EDB72F32D7CF_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_KFLJHABALMF&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_IIAHNJKJLNO_OFFSET))(this, param_0);
 		}
 
-		::System::Void Method_5_4DA29451BA34B956(::System::Boolean a1, ::MoleMole::MonoGamepadModule* a2)
+		::System::Void MAKEPAPPLFM()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::MoleMole::MonoGamepadModule*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_4DA29451BA34B956_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_MAKEPAPPLFM_OFFSET))(this);
 		}
 
-		::MoleMole::MonoGamepadSelectable* Method_5_4CF1DCF96A27D996(::System::Boolean a1)
+		::System::Boolean AMENAFABHHH()
 		{
-			return ((::MoleMole::MonoGamepadSelectable*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_4CF1DCF96A27D996_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_AMENAFABHHH_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_391A84BCD9F51317()
+		::System::Void HFGDFKOLEAP(::MoleMole::MonoGamepadSelectable_KFLJHABALMF& param_0)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_KFLJHABALMF&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_HFGDFKOLEAP_OFFSET))(this, param_0);
 		}
 
-		::System::Void Method_5_ECB1BE15AAE7A8A4(::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529& a1)
+		::System::Void HPLOCNJPJHO()
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_ECB1BE15AAE7A8A4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_HPLOCNJPJHO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_6BF0B1C95F527C3E()
+		::System::String* BDOMPEDCGHP(::UnityEngine::Transform* GKBJOPJKCLB)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_6BF0B1C95F527C3E_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_BDOMPEDCGHP_OFFSET))(this, GKBJOPJKCLB);
 		}
 
-		::System::Void Method_5_C970428934B6987A(::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529_1& a1)
+		::UnityEngine::GameObject* JHHAMJMOKND()
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529_1&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_C970428934B6987A_OFFSET))(this, a1);
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_JHHAMJMOKND_OFFSET))(this);
 		}
 
-		::UnityEngine::GameObject* Method_5_6F5D10D91147F9C3()
+		::System::Void BAMCDNBCMCJ()
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_6F5D10D91147F9C3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_BAMCDNBCMCJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_28EB11670A8E5A86()
+		::MoleMole::MonoGamepadSelectable* PBALLCJOAFH(::System::Boolean AAADCELFMLE)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_28EB11670A8E5A86_OFFSET))(this);
+			return ((::MoleMole::MonoGamepadSelectable*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_PBALLCJOAFH_OFFSET))(this, AAADCELFMLE);
 		}
 
-		::System::Void Method_5_C970428934B6987A_1(::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529_1& a1)
+		::MoleMole::MonoGamepadModule* FPGJCEDFEKJ()
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_Struct_2_05AF451D7E433529_1&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_C970428934B6987A_1_OFFSET))(this, a1);
+			return ((::MoleMole::MonoGamepadModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_FPGJCEDFEKJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_AF9B73C9965C6444()
+		::System::Void ONGKFCACNHB(::MoleMole::MonoGamepadSelectable_CAJLGJKALBO& param_0)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_AF9B73C9965C6444_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_CAJLGJKALBO&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_ONGKFCACNHB_OFFSET))(this, param_0);
 		}
 
-		::System::Void Method_5_EBAB6A35C21A2A5B()
+		::System::Void CLPFEMDPFMA(::System::Boolean KCBDGFHGNJN, ::MoleMole::MonoGamepadModule* IPKBEMFODCJ)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_EBAB6A35C21A2A5B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::MoleMole::MonoGamepadModule*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_CLPFEMDPFMA_OFFSET))(this, KCBDGFHGNJN, IPKBEMFODCJ);
 		}
 
-		::System::Void Method_5_E38DBF86ED41255C()
+		::System::Void KPDFDDBJKAD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_E38DBF86ED41255C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_KPDFDDBJKAD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_84B92802FDAFF6C8()
+		::System::Void NIHPPFMHJPM(::MoleMole::MonoGamepadSelectable_KFLJHABALMF& param_0)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_84B92802FDAFF6C8_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_KFLJHABALMF&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_NIHPPFMHJPM_OFFSET))(this, param_0);
 		}
 
-		::System::Void Method_5_FFD65E4FEAD3C019()
+		::System::Void MBBHCDGMGPL(::MoleMole::MonoGamepadSelectable_CAJLGJKALBO& param_0)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_METHOD_5_FFD65E4FEAD3C019_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable_CAJLGJKALBO&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_MBBHCDGMGPL_OFFSET))(this, param_0);
+		}
+
+		::System::Void BBBNBADBBCD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSELECTABLE_BBBNBADBBCD_OFFSET))(this);
 		}
 	};
 }

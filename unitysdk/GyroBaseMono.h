@@ -5,26 +5,29 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define GYROBASEMONO_ENABLEGYRO_OFFSET UNITYSDK_OFFSET(0x1EF4D110)
-#define GYROBASEMONO_GET_CURRENTGRAVITY_OFFSET UNITYSDK_OFFSET(0x1EF4CFC0)
-#define GYROBASEMONO_START_OFFSET UNITYSDK_OFFSET(0x1EF4D0C0)
-#define GYROBASEMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF4D260)
+#define GYROBASEMONO_ENABLEGYRO_OFFSET UNITYSDK_OFFSET(0x1F3FD170)
+#define GYROBASEMONO_GET_CURRENTGRAVITY_OFFSET UNITYSDK_OFFSET(0x1F3FD020)
+#define GYROBASEMONO_START_OFFSET UNITYSDK_OFFSET(0x1F3FD120)
+#define GYROBASEMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FD2C0)
 
-inline static constexpr unsigned int GyroBaseMono_TypeDefinitionIndex = 7814;
+inline static constexpr unsigned int GyroBaseMono_TypeDefinitionIndex = 8653;
 
 class GyroBaseMono : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::Boolean autoEnable; // 0x18
 	::System::Boolean ParallexLocal; // 0x19
+	::System::Byte _padding0[0x2];
 	::GyroBaseMono_Axes ParallexAxes; // 0x1C
 	::UnityEngine::Vector2 ParallexScale; // 0x20
 	::UnityEngine::Vector2 ParallexMax; // 0x28
 	::System::Single ParallexSensitivity; // 0x30
 	::System::Boolean Recover; // 0x34
+	::System::Byte _padding1[0x3];
 	::System::Single RecoverAngle; // 0x38
 	::System::Single RecoverBoundHardness; // 0x3C
 	::System::Boolean isEnableGyro; // 0x40
+	::System::Byte _padding2[0x3];
 	::UnityEngine::Vector3 baseGyroGravity; // 0x44
 	::UnityEngine::Vector3 gravityOffset; // 0x50
 

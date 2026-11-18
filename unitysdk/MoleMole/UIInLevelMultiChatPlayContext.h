@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/FCFOAKMODLK.h"
 #include "unitysdk/MoleMole/UIMainCityChatPlayContext.h"
-#include "unitysdk/Struct_2_57C422EDEAAA7766.h"
 
-#define MOLEMOLE_UIINLEVELMULTICHATPLAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18FDA4E0)
+#define MOLEMOLE_UIINLEVELMULTICHATPLAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x182CF440)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelMultiChatPlayContext_TypeDefinitionIndex = 54632;
+	inline static constexpr unsigned int UIInLevelMultiChatPlayContext_TypeDefinitionIndex = 72419;
 
 	class UIInLevelMultiChatPlayContext : public ::MoleMole::UIMainCityChatPlayContext
 	{
 	public:
-		::Il2CppArray<::Struct_2_57C422EDEAAA7766>* chatEntities; // 0x58
+		::Il2CppArray<::FCFOAKMODLK>* chatEntities; // 0x58
 
 		::System::Void _ctor()
 		{

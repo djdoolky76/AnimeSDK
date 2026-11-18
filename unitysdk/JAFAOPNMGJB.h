@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BKCJAIFHNKF.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+#include "unitysdk/NEIGJHNJNFL.h"
+
+class CPABOPKIGAL;
+class KCBEGMCCKCA;
+namespace System { class String; }
+template <typename T> class AAMKEDEDHPD_1;
+template <typename T> class KCMIFNGABDC_1;
+
+#define JAFAOPNMGJB_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0x198917F0)
+#define JAFAOPNMGJB_FEDNEKFMGNF_OFFSET UNITYSDK_OFFSET(0x198915B0)
+#define JAFAOPNMGJB_GDEOPIBNOIN_OFFSET UNITYSDK_OFFSET(0x19891B70)
+#define JAFAOPNMGJB_IPIPKJGPLOD_OFFSET UNITYSDK_OFFSET(0x19891C00)
+#define JAFAOPNMGJB_LHLLFJDCOOF_OFFSET UNITYSDK_OFFSET(0x198916F0)
+#define JAFAOPNMGJB__CTOR_OFFSET UNITYSDK_OFFSET(0x19891A20)
+
+inline static constexpr unsigned int JAFAOPNMGJB_TypeDefinitionIndex = 77135;
+
+class JAFAOPNMGJB : public ::BKCJAIFHNKF
+{
+public:
+	::KCMIFNGABDC_1<::System::String*>* NCJOBBPFMNH; // 0x18
+	::AAMKEDEDHPD_1<::System::Boolean>* JPJHAJKJOHN; // 0x20
+	::CPABOPKIGAL* MMFNFINOFPN; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JAFAOPNMGJB__CTOR_OFFSET))(this);
+	}
+
+	::System::Void FEDNEKFMGNF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JAFAOPNMGJB_FEDNEKFMGNF_OFFSET))(this);
+	}
+
+	::System::Void LHLLFJDCOOF(::KCBEGMCCKCA* MHPNGBGGMMN, ::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::KCBEGMCCKCA*, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + JAFAOPNMGJB_LHLLFJDCOOF_OFFSET))(this, MHPNGBGGMMN, BKBGPKNGNMF);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF, ::NEIGJHNJNFL DIHNFECKHMD)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&, ::NEIGJHNJNFL))((::PBYTE)hIl2Cpp + JAFAOPNMGJB_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF, DIHNFECKHMD);
+	}
+
+	::System::Void GDEOPIBNOIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JAFAOPNMGJB_GDEOPIBNOIN_OFFSET))(this);
+	}
+
+	::System::Boolean IPIPKJGPLOD(::LGCNEDCMPKM BKBGPKNGNMF, ::NEIGJHNJNFL DIHNFECKHMD)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::LGCNEDCMPKM, ::NEIGJHNJNFL))((::PBYTE)hIl2Cpp + JAFAOPNMGJB_IPIPKJGPLOD_OFFSET))(this, BKBGPKNGNMF, DIHNFECKHMD);
+	}
+};

@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/PureFunctionNodeBase.h"
 
-namespace FlowCanvas { class FlowNode; }
-
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PureFunctionNode_1_TypeDefinitionIndex = 31374;
+	inline static constexpr unsigned int PureFunctionNode_1_TypeDefinitionIndex = 29951;
 
-	template <typename TResult>
+	template <typename T>
 	class PureFunctionNode_1 : public ::FlowCanvas::Nodes::PureFunctionNodeBase
 	{
 	public:

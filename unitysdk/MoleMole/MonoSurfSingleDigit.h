@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/Foundation/AssetPath.h"
 
-class Class_2_A4D62D05D5EA8464;
+class HNLACBJDCGI;
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_MONOSURFSINGLEDIGIT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x13AC53D0)
-#define MOLEMOLE_MONOSURFSINGLEDIGIT__CTOR_OFFSET UNITYSDK_OFFSET(0x13AC5470)
+#define MOLEMOLE_MONOSURFSINGLEDIGIT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1469D6C0)
+#define MOLEMOLE_MONOSURFSINGLEDIGIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1469D760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSurfSingleDigit_TypeDefinitionIndex = 63195;
+	inline static constexpr unsigned int MonoSurfSingleDigit_TypeDefinitionIndex = 51046;
 
 	class MonoSurfSingleDigit : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,9 +24,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSINGLEDIGIT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetValue(::Class_2_A4D62D05D5EA8464* a1, ::Foundation::AssetPath a2)
+		::System::Void SetValue(::HNLACBJDCGI* CENDLIKDNJA, ::Foundation::AssetPath FPJDBPJCCPM)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_A4D62D05D5EA8464*, ::Foundation::AssetPath))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSINGLEDIGIT_SETVALUE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::Foundation::AssetPath))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSINGLEDIGIT_SETVALUE_OFFSET))(this, CENDLIKDNJA, FPJDBPJCCPM);
 		}
 	};
 }

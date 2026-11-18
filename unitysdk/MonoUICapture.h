@@ -6,30 +6,31 @@ namespace System { class String; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define MONOUICAPTURE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x14DB58C0)
-#define MONOUICAPTURE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x14DB5110)
-#define MONOUICAPTURE_ONUICAPTURE_OFFSET UNITYSDK_OFFSET(0x14DB5160)
-#define MONOUICAPTURE_UICAPTUREFINISHED_OFFSET UNITYSDK_OFFSET(0x14DB54D0)
-#define MONOUICAPTURE__CCTOR_OFFSET UNITYSDK_OFFSET(0x14DB5B60)
-#define MONOUICAPTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x14DB5B00)
+#define MONOUICAPTURE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x170EC850)
+#define MONOUICAPTURE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x170EC0A0)
+#define MONOUICAPTURE_ONUICAPTURE_OFFSET UNITYSDK_OFFSET(0x170EC0F0)
+#define MONOUICAPTURE_UICAPTUREFINISHED_OFFSET UNITYSDK_OFFSET(0x170EC460)
+#define MONOUICAPTURE__CCTOR_OFFSET UNITYSDK_OFFSET(0x170ECAF0)
+#define MONOUICAPTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x170ECA90)
 
-inline static constexpr unsigned int MonoUICapture_TypeDefinitionIndex = 89195;
+inline static constexpr unsigned int MonoUICapture_TypeDefinitionIndex = 84481;
 
 class MonoUICapture : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::Il2CppArray<::System::String*>** StaticGet_properties()
 	{
-		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoUICapture_TypeDefinitionIndex)->GetStaticField(0x33560);
+		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonoUICapture_TypeDefinitionIndex)->GetStaticField(0x35980);
 	}
 	static ::System::UInt32* StaticGet__UICaptureIndex()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoUICapture_TypeDefinitionIndex)->GetStaticField(0xB4E0);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(MonoUICapture_TypeDefinitionIndex)->GetStaticField(0xB5A0);
 	}
 	::System::Int32 downSample; // 0x18
 	::System::Single blurRadius; // 0x1C
 	::UnityEngine::RenderTexture* rt; // 0x20
 	::System::Int32 propertyID; // 0x28
+	::System::Byte _padding0[0x4];
 	::UnityEngine::UI::RawImage* image; // 0x30
 
 	::System::Void _ctor()

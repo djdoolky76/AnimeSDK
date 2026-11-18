@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataRowVersion_TypeDefinitionIndex = 39262;
+	inline static constexpr unsigned int DataRowVersion_TypeDefinitionIndex = 37262;
 
 	enum class DataRowVersion : ::System::Int32
 	{

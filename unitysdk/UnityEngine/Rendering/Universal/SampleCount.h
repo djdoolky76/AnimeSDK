@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SampleCount_TypeDefinitionIndex = 27643;
+	inline static constexpr unsigned int SampleCount_TypeDefinitionIndex = 27124;
 
 	enum class SampleCount : ::System::Int32
 	{

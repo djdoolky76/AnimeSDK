@@ -3,7 +3,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int ObstacleAvoidanceType_TypeDefinitionIndex = 27991;
+	inline static constexpr unsigned int ObstacleAvoidanceType_TypeDefinitionIndex = 27409;
 
 	enum class ObstacleAvoidanceType : ::System::Int32
 	{

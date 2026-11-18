@@ -7,21 +7,21 @@ namespace System { class Type; }
 namespace System::Reflection { class MethodBase; }
 namespace System::Runtime::Remoting::Messaging { class IMethodMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_GETTYPES_OFFSET UNITYSDK_OFFSET(0x1E446E30)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_RESOLVE_OFFSET UNITYSDK_OFFSET(0x1E447020)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1E447490)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_GETTYPES_OFFSET UNITYSDK_OFFSET(0x1E6CFCF0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_RESOLVE_OFFSET UNITYSDK_OFFSET(0x1E6CFEE0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6D0350)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int CADMethodRef_TypeDefinitionIndex = 1334;
+	inline static constexpr unsigned int CADMethodRef_TypeDefinitionIndex = 1333;
 
 	class CADMethodRef : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* generic_arg_names; // 0x10
-		::System::String* methodName; // 0x18
-		::System::String* typeName; // 0x20
-		::Il2CppArray<::System::String*>* param_names; // 0x28
+		::Il2CppArray<::System::String*>* param_names; // 0x10
+		::System::String* typeName; // 0x18
+		::System::String* methodName; // 0x20
+		::Il2CppArray<::System::String*>* generic_arg_names; // 0x28
 		::System::Boolean ctor; // 0x30
 
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg)

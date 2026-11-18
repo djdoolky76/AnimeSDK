@@ -2,21 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_3_6F28FFD006F2B451;
+class KBDGKAJPALP;
 namespace System { class String; }
 
-#define MOLEMOLE_ARCADE_BALLPIT_BALLGAMERESULTENDDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB6C790)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLGAMERESULTENDDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2F8050)
 
 namespace MoleMole::Arcade::BallPit
 {
-	inline static constexpr unsigned int BallGameResultEndDialogContext_TypeDefinitionIndex = 92568;
+	inline static constexpr unsigned int BallGameResultEndDialogContext_TypeDefinitionIndex = 93743;
 
 	class BallGameResultEndDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* RankStr; // 0x28
-		::Class_3_6F28FFD006F2B451* world; // 0x30
+		::KBDGKAJPALP* world; // 0x28
+		::System::String* RankStr; // 0x30
 		::System::Boolean IsSuccess; // 0x38
+		::System::Byte _padding0[0x3];
 		::System::Int32 Rank; // 0x3C
 
 		::System::Void _ctor()

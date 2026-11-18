@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Decimal.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Decimal.h"
 
 namespace System { class String; }
 namespace System::Xml::Schema { class TypedObject_DecimalStruct; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DE5CB70)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_GET_DVALUE_OFFSET UNITYSDK_OFFSET(0x1DE5CA30)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_GET_ISDECIMAL_OFFSET UNITYSDK_OFFSET(0x1DE5CA10)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_LISTDVALUEEQUALS_OFFSET UNITYSDK_OFFSET(0x1DE670A0)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_SETDECIMAL_OFFSET UNITYSDK_OFFSET(0x1DE5C5C0)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE67090)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE66E80)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E303B20)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_GET_DVALUE_OFFSET UNITYSDK_OFFSET(0x1E3039E0)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_GET_ISDECIMAL_OFFSET UNITYSDK_OFFSET(0x1E3039C0)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_LISTDVALUEEQUALS_OFFSET UNITYSDK_OFFSET(0x1E30E070)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_SETDECIMAL_OFFSET UNITYSDK_OFFSET(0x1E303570)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E30E060)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E30DE50)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int TypedObject_TypeDefinitionIndex = 1956;
+	inline static constexpr unsigned int TypedObject_TypeDefinitionIndex = 1955;
 
 	class TypedObject : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::TypedObject_DecimalStruct* dstruct; // 0x10
-		::System::String* svalue; // 0x18
-		::System::Xml::Schema::XmlSchemaDatatype* xsdtype; // 0x20
-		::System::Object* ovalue; // 0x28
-		::System::Boolean isList; // 0x30
-		::System::Int32 dim; // 0x34
+		::System::Xml::Schema::XmlSchemaDatatype* xsdtype; // 0x10
+		::System::Object* ovalue; // 0x18
+		::System::String* svalue; // 0x20
+		::System::Xml::Schema::TypedObject_DecimalStruct* dstruct; // 0x28
+		::System::Int32 dim; // 0x30
+		::System::Boolean isList; // 0x34
 
 		::System::Void _ctor(::System::Object* obj, ::System::String* svalue, ::System::Xml::Schema::XmlSchemaDatatype* xsdtype)
 		{

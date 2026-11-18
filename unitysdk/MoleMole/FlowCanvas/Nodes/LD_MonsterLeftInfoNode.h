@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_4.h"
 #include "unitysdk/MoleMole/Config/MonsterStrengthType.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERLEFTINFONODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x144D5180)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERLEFTINFONODE_QUERYMONSTERCOUNT_OFFSET UNITYSDK_OFFSET(0x144D51F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERLEFTINFONODE__CTOR_OFFSET UNITYSDK_OFFSET(0x144D5540)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERLEFTINFONODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1041DB90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERLEFTINFONODE_QUERYMONSTERCOUNT_OFFSET UNITYSDK_OFFSET(0x1041DC00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERLEFTINFONODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1041DF50)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_MonsterLeftInfoNode_TypeDefinitionIndex = 84881;
+	inline static constexpr unsigned int LD_MonsterLeftInfoNode_TypeDefinitionIndex = 56716;
 
-	class LD_MonsterLeftInfoNode : public ::FlowCanvas::Nodes::PureFunctionNode_4<::System::Int32, ::System::Boolean, ::MoleMole::Config::MonsterStrengthType, ::System::Boolean>
+	class LD_MonsterLeftInfoNode
 	{
 	public:
 		::System::Void _ctor()

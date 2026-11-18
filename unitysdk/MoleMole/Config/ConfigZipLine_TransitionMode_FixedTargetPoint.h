@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigZipLine_ConfigSpeedModifier_Switch; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_TRANSITIONMODE_FIXEDTARGETPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B562820)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_TRANSITIONMODE_FIXEDTARGETPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA45A00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_TransitionMode_FixedTargetPoint_TypeDefinitionIndex = 52995;
+	inline static constexpr unsigned int ConfigZipLine_TransitionMode_FixedTargetPoint_TypeDefinitionIndex = 54267;
 
 	class ConfigZipLine_TransitionMode_FixedTargetPoint : public ::System::Object
 	{

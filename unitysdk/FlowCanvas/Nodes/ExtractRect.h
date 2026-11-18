@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/ExtractorNode_6.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define FLOWCANVAS_NODES_EXTRACTRECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E536510)
-#define FLOWCANVAS_NODES_EXTRACTRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E536590)
+#define FLOWCANVAS_NODES_EXTRACTRECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E7AA580)
+#define FLOWCANVAS_NODES_EXTRACTRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AA600)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractRect_TypeDefinitionIndex = 30288;
+	inline static constexpr unsigned int ExtractRect_TypeDefinitionIndex = 29965;
 
-	class ExtractRect : public ::FlowCanvas::Nodes::ExtractorNode_6<::UnityEngine::Rect, ::UnityEngine::Vector2, ::System::Single, ::System::Single, ::System::Single, ::System::Single>
+	class ExtractRect
 	{
 	public:
 		::System::Void _ctor()

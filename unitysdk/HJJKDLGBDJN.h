@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MHMFINLCNFN.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+
+class HOFAIFGAHGJ;
+class LGAFMFNMCOG;
+class MKBBPOFGLOF;
+namespace System { class String; }
+template <typename T> class KCMIFNGABDC_1;
+
+#define HJJKDLGBDJN_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0x16CF53B0)
+#define HJJKDLGBDJN_FEDNEKFMGNF_OFFSET UNITYSDK_OFFSET(0x16CF5090)
+#define HJJKDLGBDJN_GDEOPIBNOIN_OFFSET UNITYSDK_OFFSET(0x16CF5620)
+#define HJJKDLGBDJN_JFBDALLPLBA_OFFSET UNITYSDK_OFFSET(0x16CF5630)
+#define HJJKDLGBDJN_MLAAFFHCOJE_OFFSET UNITYSDK_OFFSET(0x16CF4E80)
+#define HJJKDLGBDJN__CTOR_OFFSET UNITYSDK_OFFSET(0x16CF5410)
+
+inline static constexpr unsigned int HJJKDLGBDJN_TypeDefinitionIndex = 65991;
+
+class HJJKDLGBDJN : public ::MHMFINLCNFN
+{
+public:
+	::KCMIFNGABDC_1<::System::Boolean>* LOLGDBAGOJC; // 0x28
+	::KCMIFNGABDC_1<::System::Boolean>* OPIOEKPNDGN; // 0x30
+	::HOFAIFGAHGJ* LMLBAMFHPLL; // 0x38
+	::MKBBPOFGLOF* EGCCIODCJIA; // 0x40
+	::KCMIFNGABDC_1<::System::String*>* NJLILEGPIGL; // 0x48
+	::KCMIFNGABDC_1<::System::Boolean>* ODJKIPJFHLB; // 0x50
+	::KCMIFNGABDC_1<::System::Single>* JPIHKNPJKPH; // 0x58
+	::HOFAIFGAHGJ* DHNPAGFCFIB; // 0x60
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HJJKDLGBDJN__CTOR_OFFSET))(this);
+	}
+
+	::System::Void MLAAFFHCOJE(::LGAFMFNMCOG* ONBDAIKININ)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + HJJKDLGBDJN_MLAAFFHCOJE_OFFSET))(this, ONBDAIKININ);
+	}
+
+	::System::Void FEDNEKFMGNF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HJJKDLGBDJN_FEDNEKFMGNF_OFFSET))(this);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + HJJKDLGBDJN_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF);
+	}
+
+	::System::Void GDEOPIBNOIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HJJKDLGBDJN_GDEOPIBNOIN_OFFSET))(this);
+	}
+
+	::System::Void JFBDALLPLBA(::LGAFMFNMCOG* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + HJJKDLGBDJN_JFBDALLPLBA_OFFSET))(this, MIALFKCCCPI);
+	}
+};

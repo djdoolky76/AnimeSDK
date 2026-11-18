@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_A17F88B27FA91D04.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class MonoTriggerEventDispatcher; }
-namespace System { class String; }
-template <typename T1, typename T2> class Class_1_D8480A60B429B44D_Class_3_B6136C2F127116DF_22;
 
-#define MOLEMOLE_FLOORSUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13A7AE00)
-#define MOLEMOLE_FLOORSUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13A7AE40)
-#define MOLEMOLE_FLOORSUBSYSTEM___C__ONAWAKE_B__1_0_OFFSET UNITYSDK_OFFSET(0x13A7AE50)
+#define MOLEMOLE_FLOORSUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x146556A0)
+#define MOLEMOLE_FLOORSUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x146556E0)
+#define MOLEMOLE_FLOORSUBSYSTEM___C__ONAWAKE_B__1_0_OFFSET UNITYSDK_OFFSET(0x146556F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FloorSubsystem___c_TypeDefinitionIndex = 79592;
+	inline static constexpr unsigned int FloorSubsystem___c_TypeDefinitionIndex = 50122;
 
 	class FloorSubsystem___c : public ::System::Object
 	{
 	public:
-		static ::Class_1_D8480A60B429B44D_Class_3_B6136C2F127116DF_22<::Struct_2_A17F88B27FA91D04<::System::UInt32, ::System::String*>, ::MoleMole::MonoTriggerEventDispatcher*>** StaticGet___9__1_0()
+		static ::System::Object** StaticGet___9__1_0()
 		{
-			return (::Class_1_D8480A60B429B44D_Class_3_B6136C2F127116DF_22<::Struct_2_A17F88B27FA91D04<::System::UInt32, ::System::String*>, ::MoleMole::MonoTriggerEventDispatcher*>**)Il2CppClass::FromTypeDefinitionIndex(FloorSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x36650);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(FloorSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x388D0);
 		}
-		static ::MoleMole::FloorSubsystem___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::FloorSubsystem___c**)Il2CppClass::FromTypeDefinitionIndex(FloorSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x36658);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(FloorSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x388D8);
 		}
 
 		static ::System::Void _cctor()

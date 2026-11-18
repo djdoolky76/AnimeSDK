@@ -1,56 +1,57 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MESHDECIMATOR_MATH_VECTOR3_ANGLE_OFFSET UNITYSDK_OFFSET(0x1E273830)
-#define MESHDECIMATOR_MATH_VECTOR3_CLAMP_OFFSET UNITYSDK_OFFSET(0xA0E890)
-#define MESHDECIMATOR_MATH_VECTOR3_CROSS_OFFSET UNITYSDK_OFFSET(0x1E276170)
-#define MESHDECIMATOR_MATH_VECTOR3_DOT_OFFSET UNITYSDK_OFFSET(0x1E276140)
-#define MESHDECIMATOR_MATH_VECTOR3_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA0E9C0)
-#define MESHDECIMATOR_MATH_VECTOR3_EQUALS_OFFSET UNITYSDK_OFFSET(0xA0E940)
-#define MESHDECIMATOR_MATH_VECTOR3_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA0E8E0)
-#define MESHDECIMATOR_MATH_VECTOR3_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xA0E6C0)
-#define MESHDECIMATOR_MATH_VECTOR3_GET_MAGNITUDESQR_OFFSET UNITYSDK_OFFSET(0xA0E680)
-#define MESHDECIMATOR_MATH_VECTOR3_GET_MAGNITUDE_OFFSET UNITYSDK_OFFSET(0xA0E650)
-#define MESHDECIMATOR_MATH_VECTOR3_GET_NORMALIZED_OFFSET UNITYSDK_OFFSET(0xA0E6A0)
-#define MESHDECIMATOR_MATH_VECTOR3_LERP_OFFSET UNITYSDK_OFFSET(0x1E2761C0)
-#define MESHDECIMATOR_MATH_VECTOR3_NORMALIZE_1_OFFSET UNITYSDK_OFFSET(0x1E275B10)
-#define MESHDECIMATOR_MATH_VECTOR3_NORMALIZE_OFFSET UNITYSDK_OFFSET(0xA0E810)
-#define MESHDECIMATOR_MATH_VECTOR3_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1E26BE10)
-#define MESHDECIMATOR_MATH_VECTOR3_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1E275D40)
-#define MESHDECIMATOR_MATH_VECTOR3_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E26C430)
-#define MESHDECIMATOR_MATH_VECTOR3_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1E275E80)
-#define MESHDECIMATOR_MATH_VECTOR3_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1E275EC0)
-#define MESHDECIMATOR_MATH_VECTOR3_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E275EA0)
-#define MESHDECIMATOR_MATH_VECTOR3_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E275D90)
-#define MESHDECIMATOR_MATH_VECTOR3_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x1E275D20)
-#define MESHDECIMATOR_MATH_VECTOR3_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1E26BE40)
-#define MESHDECIMATOR_MATH_VECTOR3_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1E2737D0)
-#define MESHDECIMATOR_MATH_VECTOR3_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x1E275D60)
-#define MESHDECIMATOR_MATH_VECTOR3_ORTHONORMALIZE_OFFSET UNITYSDK_OFFSET(0x1E276220)
-#define MESHDECIMATOR_MATH_VECTOR3_SCALE_1_OFFSET UNITYSDK_OFFSET(0x1E276200)
-#define MESHDECIMATOR_MATH_VECTOR3_SCALE_OFFSET UNITYSDK_OFFSET(0xA0E7F0)
-#define MESHDECIMATOR_MATH_VECTOR3_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xA0E740)
-#define MESHDECIMATOR_MATH_VECTOR3_SET_OFFSET UNITYSDK_OFFSET(0x5CABA0)
-#define MESHDECIMATOR_MATH_VECTOR3_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0xA0EA20)
-#define MESHDECIMATOR_MATH_VECTOR3_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA0E9F0)
-#define MESHDECIMATOR_MATH_VECTOR3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E276390)
-#define MESHDECIMATOR_MATH_VECTOR3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x5CABA0)
-#define MESHDECIMATOR_MATH_VECTOR3__CTOR_2_OFFSET UNITYSDK_OFFSET(0xA0E7D0)
-#define MESHDECIMATOR_MATH_VECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x699570)
+#define MESHDECIMATOR_MATH_VECTOR3_ANGLE_OFFSET UNITYSDK_OFFSET(0x1E4EF8B0)
+#define MESHDECIMATOR_MATH_VECTOR3_CLAMP_OFFSET UNITYSDK_OFFSET(0x9027C0)
+#define MESHDECIMATOR_MATH_VECTOR3_CROSS_OFFSET UNITYSDK_OFFSET(0x1E4F21F0)
+#define MESHDECIMATOR_MATH_VECTOR3_DOT_OFFSET UNITYSDK_OFFSET(0x1E4F21C0)
+#define MESHDECIMATOR_MATH_VECTOR3_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9028F0)
+#define MESHDECIMATOR_MATH_VECTOR3_EQUALS_OFFSET UNITYSDK_OFFSET(0x902870)
+#define MESHDECIMATOR_MATH_VECTOR3_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x902810)
+#define MESHDECIMATOR_MATH_VECTOR3_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x9025F0)
+#define MESHDECIMATOR_MATH_VECTOR3_GET_MAGNITUDESQR_OFFSET UNITYSDK_OFFSET(0x9025B0)
+#define MESHDECIMATOR_MATH_VECTOR3_GET_MAGNITUDE_OFFSET UNITYSDK_OFFSET(0x902580)
+#define MESHDECIMATOR_MATH_VECTOR3_GET_NORMALIZED_OFFSET UNITYSDK_OFFSET(0x9025D0)
+#define MESHDECIMATOR_MATH_VECTOR3_LERP_OFFSET UNITYSDK_OFFSET(0x1E4F2240)
+#define MESHDECIMATOR_MATH_VECTOR3_NORMALIZE_1_OFFSET UNITYSDK_OFFSET(0x1E4F1B90)
+#define MESHDECIMATOR_MATH_VECTOR3_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x902740)
+#define MESHDECIMATOR_MATH_VECTOR3_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1E4E7E90)
+#define MESHDECIMATOR_MATH_VECTOR3_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1E4F1DC0)
+#define MESHDECIMATOR_MATH_VECTOR3_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E4E84B0)
+#define MESHDECIMATOR_MATH_VECTOR3_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1E4F1F00)
+#define MESHDECIMATOR_MATH_VECTOR3_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1E4F1F40)
+#define MESHDECIMATOR_MATH_VECTOR3_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E4F1F20)
+#define MESHDECIMATOR_MATH_VECTOR3_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E4F1E10)
+#define MESHDECIMATOR_MATH_VECTOR3_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x1E4F1DA0)
+#define MESHDECIMATOR_MATH_VECTOR3_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1E4E7EC0)
+#define MESHDECIMATOR_MATH_VECTOR3_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1E4EF850)
+#define MESHDECIMATOR_MATH_VECTOR3_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x1E4F1DE0)
+#define MESHDECIMATOR_MATH_VECTOR3_ORTHONORMALIZE_OFFSET UNITYSDK_OFFSET(0x1E4F22A0)
+#define MESHDECIMATOR_MATH_VECTOR3_SCALE_1_OFFSET UNITYSDK_OFFSET(0x1E4F2280)
+#define MESHDECIMATOR_MATH_VECTOR3_SCALE_OFFSET UNITYSDK_OFFSET(0x902720)
+#define MESHDECIMATOR_MATH_VECTOR3_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x902670)
+#define MESHDECIMATOR_MATH_VECTOR3_SET_OFFSET UNITYSDK_OFFSET(0x6069B0)
+#define MESHDECIMATOR_MATH_VECTOR3_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x902950)
+#define MESHDECIMATOR_MATH_VECTOR3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x902920)
+#define MESHDECIMATOR_MATH_VECTOR3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4F2410)
+#define MESHDECIMATOR_MATH_VECTOR3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x6069B0)
+#define MESHDECIMATOR_MATH_VECTOR3__CTOR_2_OFFSET UNITYSDK_OFFSET(0x902700)
+#define MESHDECIMATOR_MATH_VECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x6769E0)
 
 namespace MeshDecimator::Math
 {
-	inline static constexpr unsigned int Vector3_TypeDefinitionIndex = 35482;
+	inline static constexpr unsigned int Vector3_TypeDefinitionIndex = 35055;
 
 	struct alignas(4) Vector3
 	{
 		static ::MeshDecimator::Math::Vector3* StaticGet_zero()
 		{
-			return (::MeshDecimator::Math::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Vector3_TypeDefinitionIndex)->GetStaticField(0x86F0);
+			return (::MeshDecimator::Math::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Vector3_TypeDefinitionIndex)->GetStaticField(0x8BA0);
 		}
 		// static const ::System::Single Epsilon; // 0x0
 		::System::Single x; // 0x10
@@ -89,10 +90,12 @@ namespace MeshDecimator::Math
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_GET_MAGNITUDESQR_OFFSET))(this);
 		}
 
+		/*
 		::MeshDecimator::Math::Vector3 get_Normalized()
 		{
 			return ((::MeshDecimator::Math::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_GET_NORMALIZED_OFFSET))(this);
 		}
+		*/
 
 		::System::Single get_Item(::System::Int32 index)
 		{
@@ -104,45 +107,61 @@ namespace MeshDecimator::Math
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_SET_ITEM_OFFSET))(this, index, value);
 		}
 
+		/*
 		static ::MeshDecimator::Math::Vector3 op_Addition(::MeshDecimator::Math::Vector3 a, ::MeshDecimator::Math::Vector3 b)
 		{
 			return ((::MeshDecimator::Math::Vector3(*)(::MeshDecimator::Math::Vector3, ::MeshDecimator::Math::Vector3))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_OP_ADDITION_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::MeshDecimator::Math::Vector3 op_Subtraction(::MeshDecimator::Math::Vector3 a, ::MeshDecimator::Math::Vector3 b)
 		{
 			return ((::MeshDecimator::Math::Vector3(*)(::MeshDecimator::Math::Vector3, ::MeshDecimator::Math::Vector3))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_OP_SUBTRACTION_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::MeshDecimator::Math::Vector3 op_Multiply(::MeshDecimator::Math::Vector3 a, ::System::Single d)
 		{
 			return ((::MeshDecimator::Math::Vector3(*)(::MeshDecimator::Math::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_OP_MULTIPLY_OFFSET))(a, d);
 		}
+		*/
 
+		/*
 		static ::MeshDecimator::Math::Vector3 op_Multiply_1(::System::Single d, ::MeshDecimator::Math::Vector3 a)
 		{
 			return ((::MeshDecimator::Math::Vector3(*)(::System::Single, ::MeshDecimator::Math::Vector3))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_OP_MULTIPLY_1_OFFSET))(d, a);
 		}
+		*/
 
+		/*
 		static ::MeshDecimator::Math::Vector3 op_Division(::MeshDecimator::Math::Vector3 a, ::System::Single d)
 		{
 			return ((::MeshDecimator::Math::Vector3(*)(::MeshDecimator::Math::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_OP_DIVISION_OFFSET))(a, d);
 		}
+		*/
 
+		/*
 		static ::MeshDecimator::Math::Vector3 op_UnaryNegation(::MeshDecimator::Math::Vector3 a)
 		{
 			return ((::MeshDecimator::Math::Vector3(*)(::MeshDecimator::Math::Vector3))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_OP_UNARYNEGATION_OFFSET))(a);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::MeshDecimator::Math::Vector3 lhs, ::MeshDecimator::Math::Vector3 rhs)
 		{
 			return ((::System::Boolean(*)(::MeshDecimator::Math::Vector3, ::MeshDecimator::Math::Vector3))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_OP_EQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::MeshDecimator::Math::Vector3 lhs, ::MeshDecimator::Math::Vector3 rhs)
 		{
 			return ((::System::Boolean(*)(::MeshDecimator::Math::Vector3, ::MeshDecimator::Math::Vector3))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_OP_INEQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
 		/*
 		static ::MeshDecimator::Math::Vector3 op_Explicit(::MeshDecimator::Math::Vector3d v)
@@ -170,10 +189,12 @@ namespace MeshDecimator::Math
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_SET_OFFSET))(this, x, y, z);
 		}
 
+		/*
 		::System::Void Scale(::MeshDecimator::Math::Vector3& scale)
 		{
 			return ((::System::Void(*)(::PVOID, ::MeshDecimator::Math::Vector3&))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_SCALE_OFFSET))(this, scale);
 		}
+		*/
 
 		::System::Void Normalize()
 		{
@@ -195,10 +216,12 @@ namespace MeshDecimator::Math
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_EQUALS_OFFSET))(this, other);
 		}
 
+		/*
 		::System::Boolean Equals_1(::MeshDecimator::Math::Vector3 other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::MeshDecimator::Math::Vector3))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_EQUALS_1_OFFSET))(this, other);
 		}
+		*/
 
 		::System::String* ToString()
 		{
@@ -210,39 +233,53 @@ namespace MeshDecimator::Math
 			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_TOSTRING_1_OFFSET))(this, format);
 		}
 
+		/*
 		static ::System::Single Dot(::MeshDecimator::Math::Vector3& lhs, ::MeshDecimator::Math::Vector3& rhs)
 		{
 			return ((::System::Single(*)(::MeshDecimator::Math::Vector3&, ::MeshDecimator::Math::Vector3&))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_DOT_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::System::Void Cross(::MeshDecimator::Math::Vector3& lhs, ::MeshDecimator::Math::Vector3& rhs, ::MeshDecimator::Math::Vector3& result)
 		{
 			return ((::System::Void(*)(::MeshDecimator::Math::Vector3&, ::MeshDecimator::Math::Vector3&, ::MeshDecimator::Math::Vector3&))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_CROSS_OFFSET))(lhs, rhs, result);
 		}
+		*/
 
+		/*
 		static ::System::Single Angle(::MeshDecimator::Math::Vector3& from, ::MeshDecimator::Math::Vector3& to)
 		{
 			return ((::System::Single(*)(::MeshDecimator::Math::Vector3&, ::MeshDecimator::Math::Vector3&))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_ANGLE_OFFSET))(from, to);
 		}
+		*/
 
+		/*
 		static ::System::Void Lerp(::MeshDecimator::Math::Vector3& a, ::MeshDecimator::Math::Vector3& b, ::System::Single t, ::MeshDecimator::Math::Vector3& result)
 		{
 			return ((::System::Void(*)(::MeshDecimator::Math::Vector3&, ::MeshDecimator::Math::Vector3&, ::System::Single, ::MeshDecimator::Math::Vector3&))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_LERP_OFFSET))(a, b, t, result);
 		}
+		*/
 
+		/*
 		static ::System::Void Scale_1(::MeshDecimator::Math::Vector3& a, ::MeshDecimator::Math::Vector3& b, ::MeshDecimator::Math::Vector3& result)
 		{
 			return ((::System::Void(*)(::MeshDecimator::Math::Vector3&, ::MeshDecimator::Math::Vector3&, ::MeshDecimator::Math::Vector3&))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_SCALE_1_OFFSET))(a, b, result);
 		}
+		*/
 
+		/*
 		static ::System::Void Normalize_1(::MeshDecimator::Math::Vector3& value, ::MeshDecimator::Math::Vector3& result)
 		{
 			return ((::System::Void(*)(::MeshDecimator::Math::Vector3&, ::MeshDecimator::Math::Vector3&))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_NORMALIZE_1_OFFSET))(value, result);
 		}
+		*/
 
+		/*
 		static ::System::Void OrthoNormalize(::MeshDecimator::Math::Vector3& normal, ::MeshDecimator::Math::Vector3& tangent)
 		{
 			return ((::System::Void(*)(::MeshDecimator::Math::Vector3&, ::MeshDecimator::Math::Vector3&))((::PBYTE)hIl2Cpp + MESHDECIMATOR_MATH_VECTOR3_ORTHONORMALIZE_OFFSET))(normal, tangent);
 		}
+		*/
 	};
 }

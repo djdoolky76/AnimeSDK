@@ -3,13 +3,13 @@
 #include "unitysdk/System/BRECORD.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_VARIANT_CLEAR_OFFSET UNITYSDK_OFFSET(0x9DB0D0)
+#define SYSTEM_VARIANT_CLEAR_OFFSET UNITYSDK_OFFSET(0x8EBB80)
 
 namespace System
 {
 	inline static constexpr unsigned int Variant_TypeDefinitionIndex = 436;
 
-	struct alignas(8) Variant
+	struct alignas(4) Variant
 	{
 		::System::Int16 vt; // 0x10
 		::System::UInt16 wReserved1; // 0x12

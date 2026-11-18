@@ -4,19 +4,19 @@
 
 namespace System::Text::RegularExpressions { class RegexRunner; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_GET_OFFSET UNITYSDK_OFFSET(0x1CC2B600)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1CC2B630)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2B740)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_GET_OFFSET UNITYSDK_OFFSET(0x1D1205A0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1D1205D0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_EXCLUSIVEREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1206E0)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int ExclusiveReference_TypeDefinitionIndex = 2720;
+	inline static constexpr unsigned int ExclusiveReference_TypeDefinitionIndex = 2719;
 
 	class ExclusiveReference : public ::System::Object
 	{
 	public:
-		::System::Text::RegularExpressions::RegexRunner* _ref; // 0x10
-		::System::Object* _obj; // 0x18
+		::System::Object* _obj; // 0x10
+		::System::Text::RegularExpressions::RegexRunner* _ref; // 0x18
 		::System::Int32 _locked; // 0x20
 
 		::System::Void _ctor()

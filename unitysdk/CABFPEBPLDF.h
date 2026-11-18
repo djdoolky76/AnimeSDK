@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/KIJLFGJIJGG.h"
+#include "unitysdk/KNLCHPLFDDC.h"
+#include "unitysdk/DPKOIBEFPAO.h"
+#include "unitysdk/EOAHOOCNDHM.h"
+#include "unitysdk/OMGFCFDABLN.h"
+
+namespace System { class Object; }
+
+#define CABFPEBPLDF_IBBLCAOMCKF_2_OFFSET UNITYSDK_OFFSET(0x1685D2E0)
+#define CABFPEBPLDF_IBBLCAOMCKF_OFFSET UNITYSDK_OFFSET(0x1685D0E0)
+#define CABFPEBPLDF_MBCLDBNNFLJ_OFFSET UNITYSDK_OFFSET(0x1685D1A0)
+#define CABFPEBPLDF_MOMIMECJIMF_OFFSET UNITYSDK_OFFSET(0x1685D540)
+#define CABFPEBPLDF__CTOR_OFFSET UNITYSDK_OFFSET(0x1685D0D0)
+
+inline static constexpr unsigned int CABFPEBPLDF_TypeDefinitionIndex = 48468;
+
+class CABFPEBPLDF : public ::KNLCHPLFDDC
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CABFPEBPLDF__CTOR_OFFSET))(this);
+	}
+
+	::System::Void IBBLCAOMCKF(::System::Int32 DABCKBIAKHA, ::OMGFCFDABLN& LOACBJBANNC, ::DPKOIBEFPAO EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::OMGFCFDABLN&, ::DPKOIBEFPAO))((::PBYTE)hIl2Cpp + CABFPEBPLDF_IBBLCAOMCKF_OFFSET))(this, DABCKBIAKHA, LOACBJBANNC, EGEGIMGMJHN);
+	}
+
+	::System::Void MBCLDBNNFLJ(::System::Int32 DABCKBIAKHA, ::OMGFCFDABLN& LOACBJBANNC, ::System::Object* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::OMGFCFDABLN&, ::System::Object*))((::PBYTE)hIl2Cpp + CABFPEBPLDF_MBCLDBNNFLJ_OFFSET))(this, DABCKBIAKHA, LOACBJBANNC, EGEGIMGMJHN);
+	}
+
+	::System::Void IBBLCAOMCKF_2(::System::Int32 DABCKBIAKHA, ::OMGFCFDABLN& LOACBJBANNC, ::EOAHOOCNDHM EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::OMGFCFDABLN&, ::EOAHOOCNDHM))((::PBYTE)hIl2Cpp + CABFPEBPLDF_IBBLCAOMCKF_2_OFFSET))(this, DABCKBIAKHA, LOACBJBANNC, EGEGIMGMJHN);
+	}
+
+	::System::Boolean MOMIMECJIMF(::System::Int32 DABCKBIAKHA, ::KIJLFGJIJGG& OBNIAHNMHPF)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::KIJLFGJIJGG&))((::PBYTE)hIl2Cpp + CABFPEBPLDF_MOMIMECJIMF_OFFSET))(this, DABCKBIAKHA, OBNIAHNMHPF);
+	}
+};

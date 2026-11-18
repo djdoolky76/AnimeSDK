@@ -4,10 +4,10 @@
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int ComponentTraits_1_ArchetypeComponentIndex_1_TypeDefinitionIndex = 38411;
+	inline static constexpr unsigned int ComponentTraits_1_ArchetypeComponentIndex_1_TypeDefinitionIndex = 36413;
 
-	template <typename TScope, typename T>
-	struct ComponentTraits_1_ArchetypeComponentIndex_1
+	template <typename T>
+	struct alignas(4) ComponentTraits_1_ArchetypeComponentIndex_1
 	{
 		static ::System::UInt32* StaticGet_Index()
 		{

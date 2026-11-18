@@ -3,7 +3,7 @@
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int ResourceType_TypeDefinitionIndex = 1002;
+	inline static constexpr unsigned int ResourceType_TypeDefinitionIndex = 1001;
 
 	enum class ResourceType : ::System::Int32
 	{

@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/DateTime.h"
+#include "unitysdk/System/Object.h"
+
+class KOPLGEFDECB;
+
+#define KOPLGEFDECB_MEOFLKPCBDO_HBPLINHBFFK_OFFSET UNITYSDK_OFFSET(0x15BA7550)
+#define KOPLGEFDECB_MEOFLKPCBDO_JINCFIGEAKM_OFFSET UNITYSDK_OFFSET(0x15BA7190)
+#define KOPLGEFDECB_MEOFLKPCBDO_NLFEONBCABA_OFFSET UNITYSDK_OFFSET(0x15BA71F0)
+#define KOPLGEFDECB_MEOFLKPCBDO_PLPONJAKNEB_OFFSET UNITYSDK_OFFSET(0x15BA7350)
+#define KOPLGEFDECB_MEOFLKPCBDO__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA7590)
+
+inline static constexpr unsigned int KOPLGEFDECB_MEOFLKPCBDO_TypeDefinitionIndex = 80619;
+
+class KOPLGEFDECB_MEOFLKPCBDO : public ::System::Object
+{
+public:
+	::System::DateTime OJOIGJJPELF; // 0x10
+	::System::Single CJKOCJKOCOA; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KOPLGEFDECB_MEOFLKPCBDO__CTOR_OFFSET))(this);
+	}
+
+	::System::Void JINCFIGEAKM(::KOPLGEFDECB* AMNIHACKELI)
+	{
+		return ((::System::Void(*)(::PVOID, ::KOPLGEFDECB*))((::PBYTE)hIl2Cpp + KOPLGEFDECB_MEOFLKPCBDO_JINCFIGEAKM_OFFSET))(this, AMNIHACKELI);
+	}
+
+	::System::Void PLPONJAKNEB(::KOPLGEFDECB* AMNIHACKELI)
+	{
+		return ((::System::Void(*)(::PVOID, ::KOPLGEFDECB*))((::PBYTE)hIl2Cpp + KOPLGEFDECB_MEOFLKPCBDO_PLPONJAKNEB_OFFSET))(this, AMNIHACKELI);
+	}
+
+	::System::Void HBPLINHBFFK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KOPLGEFDECB_MEOFLKPCBDO_HBPLINHBFFK_OFFSET))(this);
+	}
+
+	::System::UInt32 NLFEONBCABA()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + KOPLGEFDECB_MEOFLKPCBDO_NLFEONBCABA_OFFSET))(this);
+	}
+};

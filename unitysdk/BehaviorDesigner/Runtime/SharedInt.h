@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDINT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F7C60E0)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7C61A0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDINT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1FB8AA70)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB8AB30)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedInt_TypeDefinitionIndex = 33920;
+	inline static constexpr unsigned int SharedInt_TypeDefinitionIndex = 33466;
 
-	class SharedInt : public ::BehaviorDesigner::Runtime::SharedVariable_1<::System::Int32>
+	class SharedInt
 	{
 	public:
 		::System::Void _ctor()

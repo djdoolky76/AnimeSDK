@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/AI/CompareCondition.h"
-#include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 #include "unitysdk/NPCCrowd/AI/IntValueGetterType.h"
+#include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 
-#define NPCCROWD_AI_INTCOMPARECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0xF84ED30)
-#define NPCCROWD_AI_INTCOMPARECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xF84ED20)
+#define NPCCROWD_AI_INTCOMPARECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0xEE722D0)
+#define NPCCROWD_AI_INTCOMPARECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xEE722C0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int IntCompareCondition_TypeDefinitionIndex = 56988;
+	inline static constexpr unsigned int IntCompareCondition_TypeDefinitionIndex = 87122;
 
 	class IntCompareCondition : public ::NPCCrowd::AI::CompareCondition
 	{

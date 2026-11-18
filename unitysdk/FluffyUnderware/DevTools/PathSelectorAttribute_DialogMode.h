@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int PathSelectorAttribute_DialogMode_TypeDefinitionIndex = 28972;
+	inline static constexpr unsigned int PathSelectorAttribute_DialogMode_TypeDefinitionIndex = 28411;
 
 	enum class PathSelectorAttribute_DialogMode : ::System::Int32
 	{

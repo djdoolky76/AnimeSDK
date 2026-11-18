@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas::Nodes { class MergeBoth; }
 
-#define FLOWCANVAS_NODES_MERGEBOTH___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B8090)
-#define FLOWCANVAS_NODES_MERGEBOTH___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E8B83B0)
+#define FLOWCANVAS_NODES_MERGEBOTH___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7D9B0)
+#define FLOWCANVAS_NODES_MERGEBOTH___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EB7DCD0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MergeBoth___c__DisplayClass7_0_TypeDefinitionIndex = 30007;
+	inline static constexpr unsigned int MergeBoth___c__DisplayClass7_0_TypeDefinitionIndex = 29226;
 
 	class MergeBoth___c__DisplayClass7_0 : public ::System::Object
 	{

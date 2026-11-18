@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ISetInteractable_TypeDefinitionIndex = 44267;
+	inline static constexpr unsigned int ISetInteractable_TypeDefinitionIndex = 83808;
 
 	class ISetInteractable
 	{

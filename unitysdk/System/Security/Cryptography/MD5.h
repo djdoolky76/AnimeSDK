@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HashAlgorithm.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MD5_CREATE_OFFSET UNITYSDK_OFFSET(0x1D817350)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MD5__CTOR_OFFSET UNITYSDK_OFFSET(0x1D817340)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MD5_CREATE_OFFSET UNITYSDK_OFFSET(0x1DD1EAC0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MD5__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD1EAB0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int MD5_TypeDefinitionIndex = 1075;
+	inline static constexpr unsigned int MD5_TypeDefinitionIndex = 1074;
 
 	class MD5 : public ::System::Security::Cryptography::HashAlgorithm
 	{

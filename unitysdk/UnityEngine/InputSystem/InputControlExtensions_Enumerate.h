@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputControlExtensions_Enumerate_TypeDefinitionIndex = 32228;
+	inline static constexpr unsigned int InputControlExtensions_Enumerate_TypeDefinitionIndex = 31677;
 
 	enum class InputControlExtensions_Enumerate : ::System::Int32
 	{

@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/DataStructures/Lists/EasySerializeDictionaryEntry_2.h"
-#include "unitysdk/MoleMole/UI/FlowerShop/EFinishJudge.h"
 
-namespace System { class String; }
-
-#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_FLOWERSUCCESSEFFECTDICENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EC830)
+#define MOLEMOLE_CONFIG_CONFIGFLOWERSHOPACTIVITYSCRIPTABLEOBJECT_FLOWERSUCCESSEFFECTDICENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1929EB40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFlowerShopActivityScriptableObject_FlowerSuccessEffectDicEntry_TypeDefinitionIndex = 48058;
+	inline static constexpr unsigned int ConfigFlowerShopActivityScriptableObject_FlowerSuccessEffectDicEntry_TypeDefinitionIndex = 83943;
 
-	class ConfigFlowerShopActivityScriptableObject_FlowerSuccessEffectDicEntry : public ::MoleMole::DataStructures::Lists::EasySerializeDictionaryEntry_2<::MoleMole::UI::FlowerShop::EFinishJudge, ::System::String*>
+	class ConfigFlowerShopActivityScriptableObject_FlowerSuccessEffectDicEntry
 	{
 	public:
 		::System::Void _ctor()

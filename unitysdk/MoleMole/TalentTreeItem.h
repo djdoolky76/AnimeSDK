@@ -4,16 +4,17 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TALENTTREEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18913BD0)
+#define MOLEMOLE_TALENTTREEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x131216D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TalentTreeItem_TypeDefinitionIndex = 91064;
+	inline static constexpr unsigned int TalentTreeItem_TypeDefinitionIndex = 43740;
 
 	class TalentTreeItem : public ::System::Object
 	{
 	public:
 		::System::Int32 ItemModelType; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::GameObject* ModelObj; // 0x18
 
 		::System::Void _ctor()

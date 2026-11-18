@@ -6,13 +6,13 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x19AD08C0)
-#define MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR_METHOD_2_FF36E2394D1E711C_OFFSET UNITYSDK_OFFSET(0x19AD0610)
-#define MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD0900)
+#define MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR_FLBFIEKHKME_OFFSET UNITYSDK_OFFSET(0xFFEA070)
+#define MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR_OMHONDGJJGN_OFFSET UNITYSDK_OFFSET(0xFFE9DC0)
+#define MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xFFEA0B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int QTEAttackTargetSelector_TypeDefinitionIndex = 75584;
+	inline static constexpr unsigned int QTEAttackTargetSelector_TypeDefinitionIndex = 48975;
 
 	class QTEAttackTargetSelector : public ::MoleMole::Config::ConfigTargetSelector
 	{
@@ -22,14 +22,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* Method_2_FF36E2394D1E711C(::MoleMole::Battle::Entity* a1)
+		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* OMHONDGJJGN(::MoleMole::Battle::Entity* AMNIHACKELI)
 		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR_METHOD_2_FF36E2394D1E711C_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR_OMHONDGJJGN_OFFSET))(this, AMNIHACKELI);
 		}
 
-		::System::String* Method_2_DA1BF2C227DC3D86()
+		::System::String* FLBFIEKHKME()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR_METHOD_2_DA1BF2C227DC3D86_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_QTEATTACKTARGETSELECTOR_FLBFIEKHKME_OFFSET))(this);
 		}
 	};
 }

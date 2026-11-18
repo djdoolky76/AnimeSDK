@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MNCICEGGMKF.h"
+#include "unitysdk/KBKLCGKKIPI.h"
+
+class CGGLJLECNJM;
+class OFLPOCHHHLC;
+
+#define NFDBHAONHMG_AJLNPBMKBMH_OFFSET UNITYSDK_OFFSET(0x1F735B80)
+#define NFDBHAONHMG_KLJLMGMLIIH_OFFSET UNITYSDK_OFFSET(0x1F734A30)
+#define NFDBHAONHMG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F735C90)
+
+inline static constexpr unsigned int NFDBHAONHMG_TypeDefinitionIndex = 95361;
+
+class NFDBHAONHMG : public ::MNCICEGGMKF
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NFDBHAONHMG__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KLJLMGMLIIH(::OFLPOCHHHLC* OAJIHMBGELO, ::OFLPOCHHHLC* LGOCCGBAHEA, ::CGGLJLECNJM* EGOIOLIBKMN)
+	{
+		return ((::System::Void(*)(::PVOID, ::OFLPOCHHHLC*, ::OFLPOCHHHLC*, ::CGGLJLECNJM*))((::PBYTE)hIl2Cpp + NFDBHAONHMG_KLJLMGMLIIH_OFFSET))(this, OAJIHMBGELO, LGOCCGBAHEA, EGOIOLIBKMN);
+	}
+
+	::KBKLCGKKIPI AJLNPBMKBMH(::System::Int32 DAAEHEHLLLD, ::System::Single HAAEBCOBKFF, ::System::Single GNHOCNHLCCA, ::System::Int32 JHFKDGBCOBA)
+	{
+		return ((::KBKLCGKKIPI(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + NFDBHAONHMG_AJLNPBMKBMH_OFFSET))(this, DAAEHEHLLLD, HAAEBCOBKFF, GNHOCNHLCCA, JHFKDGBCOBA);
+	}
+};

@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_AI_AIACTIONPLAYEFFECTCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x824320)
-#define NPCCROWD_AI_AIACTIONPLAYEFFECTCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x824370)
+#define NPCCROWD_AI_AIACTIONPLAYEFFECTCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x6507D0)
+#define NPCCROWD_AI_AIACTIONPLAYEFFECTCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x650820)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionPlayEffectConfig_TypeDefinitionIndex = 81410;
+	inline static constexpr unsigned int AIActionPlayEffectConfig_TypeDefinitionIndex = 51962;
 
 	struct alignas(8) AIActionPlayEffectConfig
 	{
@@ -19,9 +19,11 @@ namespace NPCCrowd::AI
 		::System::String* effectName; // 0x18
 		::System::String* effectTag; // 0x20
 		::System::Boolean setOwner; // 0x28
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 pos; // 0x2C
 		::UnityEngine::Vector3 rot; // 0x38
 		::System::Boolean attach; // 0x44
+		::System::Byte _padding1[0x3];
 		::System::String* attachBone; // 0x48
 
 		::NPCCrowd::AI::BaseActionConfig GetBaseActionConfig()

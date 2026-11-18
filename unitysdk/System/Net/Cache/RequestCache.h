@@ -1,22 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/TimeSpan.h"
 
-namespace System { class String; }
-namespace System::Collections::Specialized { class StringCollection; }
-namespace System::IO { class Stream; }
-namespace System::Net::Cache { class RequestCacheEntry; }
-
-#define SYSTEM_NET_CACHE_REQUESTCACHE_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1CC15BD0)
-#define SYSTEM_NET_CACHE_REQUESTCACHE_GET_ISPRIVATECACHE_OFFSET UNITYSDK_OFFSET(0x1CC15BC0)
-#define SYSTEM_NET_CACHE_REQUESTCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC15BE0)
-#define SYSTEM_NET_CACHE_REQUESTCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC15BB0)
+#define SYSTEM_NET_CACHE_REQUESTCACHE_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1D10AB30)
+#define SYSTEM_NET_CACHE_REQUESTCACHE_GET_ISPRIVATECACHE_OFFSET UNITYSDK_OFFSET(0x1D10AB20)
+#define SYSTEM_NET_CACHE_REQUESTCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D10AB40)
+#define SYSTEM_NET_CACHE_REQUESTCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10AB10)
 
 namespace System::Net::Cache
 {
-	inline static constexpr unsigned int RequestCache_TypeDefinitionIndex = 3860;
+	inline static constexpr unsigned int RequestCache_TypeDefinitionIndex = 3859;
 
 	class RequestCache : public ::System::Object
 	{
@@ -25,8 +18,8 @@ namespace System::Net::Cache
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(RequestCache_TypeDefinitionIndex)->GetStaticField(0x3340);
 		}
-		::System::Boolean _CanWrite; // 0x10
-		::System::Boolean _IsPrivateCache; // 0x11
+		::System::Boolean _IsPrivateCache; // 0x10
+		::System::Boolean _CanWrite; // 0x11
 
 		::System::Void _ctor(::System::Boolean isPrivateCache, ::System::Boolean canWrite)
 		{

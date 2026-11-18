@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETCURRENTROUNDINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1684DF60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETCURRENTROUNDINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1684E0C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETCURRENTROUNDINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D18CD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETCURRENTROUNDINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x10D18E30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedGetCurrentRoundIndex_TypeDefinitionIndex = 81689;
+	inline static constexpr unsigned int LDTurnBasedGetCurrentRoundIndex_TypeDefinitionIndex = 40658;
 
-	class LDTurnBasedGetCurrentRoundIndex : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Int32>
+	class LDTurnBasedGetCurrentRoundIndex
 	{
 	public:
 		::System::Void _ctor()

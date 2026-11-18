@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int NapPhysicsRayData_TypeDefinitionIndex = 27466;
+	inline static constexpr unsigned int NapPhysicsRayData_TypeDefinitionIndex = 27193;
 
 	struct alignas(4) NapPhysicsRayData
 	{

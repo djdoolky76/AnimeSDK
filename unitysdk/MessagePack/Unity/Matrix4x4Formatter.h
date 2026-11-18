@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_MATRIX4X4FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB75520)
-#define MESSAGEPACK_UNITY_MATRIX4X4FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB75430)
-#define MESSAGEPACK_UNITY_MATRIX4X4FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB75970)
+#define MESSAGEPACK_UNITY_MATRIX4X4FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF1E140)
+#define MESSAGEPACK_UNITY_MATRIX4X4FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF1E050)
+#define MESSAGEPACK_UNITY_MATRIX4X4FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF1E590)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int Matrix4x4Formatter_TypeDefinitionIndex = 30224;
+	inline static constexpr unsigned int Matrix4x4Formatter_TypeDefinitionIndex = 29789;
 
 	class Matrix4x4Formatter : public ::System::Object
 	{

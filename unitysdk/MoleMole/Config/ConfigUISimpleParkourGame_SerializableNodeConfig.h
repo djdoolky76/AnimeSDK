@@ -5,19 +5,19 @@
 #include "unitysdk/MoleMole/MiniUIGame/SimpleParkour/ETrackType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F1B93E9ABCA6C70F;
+class FNJCJNFMPON;
 namespace MoleMole::Config { class ConfigUISimpleParkourGame_SimpleParkourGlobalConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG_GETNODECOUNT_OFFSET UNITYSDK_OFFSET(0x16C559F0)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG_GETNODEDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x16C55A40)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG_GETTOTALSCORE_OFFSET UNITYSDK_OFFSET(0x16C55930)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG_TONODECONFIG_OFFSET UNITYSDK_OFFSET(0x16C55770)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16C55EE0)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG_GETNODECOUNT_OFFSET UNITYSDK_OFFSET(0x1A0400D0)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG_GETNODEDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1A040120)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG_GETTOTALSCORE_OFFSET UNITYSDK_OFFSET(0x1A040010)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG_TONODECONFIG_OFFSET UNITYSDK_OFFSET(0x1A03FE50)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0405C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUISimpleParkourGame_SerializableNodeConfig_TypeDefinitionIndex = 73977;
+	inline static constexpr unsigned int ConfigUISimpleParkourGame_SerializableNodeConfig_TypeDefinitionIndex = 64084;
 
 	class ConfigUISimpleParkourGame_SerializableNodeConfig : public ::System::Object
 	{
@@ -26,6 +26,7 @@ namespace MoleMole::Config
 		::System::Single AngleDelta; // 0x14
 		::MoleMole::MiniUIGame::SimpleParkour::ETrackType Track; // 0x18
 		::System::Boolean GrantsSpeedBoost; // 0x1C
+		::System::Byte _padding0[0x3];
 		::MoleMole::MiniUIGame::SimpleParkour::ENodeEffect Effect; // 0x20
 		::System::UInt32 HoldEndAngleDelta; // 0x24
 
@@ -34,9 +35,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_F1B93E9ABCA6C70F* ToNodeConfig(::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourGlobalConfig* globalConfig)
+		::FNJCJNFMPON* ToNodeConfig(::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourGlobalConfig* globalConfig)
 		{
-			return ((::Class_1_F1B93E9ABCA6C70F*(*)(::PVOID, ::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourGlobalConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG_TONODECONFIG_OFFSET))(this, globalConfig);
+			return ((::FNJCJNFMPON*(*)(::PVOID, ::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourGlobalConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME_SERIALIZABLENODECONFIG_TONODECONFIG_OFFSET))(this, globalConfig);
 		}
 
 		::System::Single GetTotalScore(::MoleMole::Config::ConfigUISimpleParkourGame_SimpleParkourGlobalConfig* globalConfig)

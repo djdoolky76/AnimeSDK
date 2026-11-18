@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHackInteractPointChildWindowController; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIHACKINTERACTPOINTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC8930)
-#define MOLEMOLE_UIHACKINTERACTPOINTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS42_0__SETSINGLEPROGRESSVISIBLE_B__0_OFFSET UNITYSDK_OFFSET(0x18EC8940)
+#define MOLEMOLE_UIHACKINTERACTPOINTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x199CA5F0)
+#define MOLEMOLE_UIHACKINTERACTPOINTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS42_0__SETSINGLEPROGRESSVISIBLE_B__0_OFFSET UNITYSDK_OFFSET(0x199CA600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHackInteractPointChildWindowController___c__DisplayClass42_0_TypeDefinitionIndex = 50750;
+	inline static constexpr unsigned int UIHackInteractPointChildWindowController___c__DisplayClass42_0_TypeDefinitionIndex = 65465;
 
 	class UIHackInteractPointChildWindowController___c__DisplayClass42_0 : public ::System::Object
 	{

@@ -6,9 +6,9 @@ class ConfigEntityJoystickOrder;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CONFIGENTITYJOYSTICKORDERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1644FD30)
+#define CONFIGENTITYJOYSTICKORDERS__CTOR_OFFSET UNITYSDK_OFFSET(0x197360D0)
 
-inline static constexpr unsigned int ConfigEntityJoystickOrders_TypeDefinitionIndex = 66649;
+inline static constexpr unsigned int ConfigEntityJoystickOrders_TypeDefinitionIndex = 45460;
 
 class ConfigEntityJoystickOrders : public ::Foundation::MihoyoSerializedScriptableObject
 {

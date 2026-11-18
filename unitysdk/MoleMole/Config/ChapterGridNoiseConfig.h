@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_CONFIG_CHAPTERGRIDNOISECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF136F60)
+#define MOLEMOLE_CONFIG_CHAPTERGRIDNOISECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xFFCF930)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChapterGridNoiseConfig_TypeDefinitionIndex = 69930;
+	inline static constexpr unsigned int ChapterGridNoiseConfig_TypeDefinitionIndex = 44121;
 
 	class ChapterGridNoiseConfig : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector2 noiseTexTiling; // 0x10
-		::System::Single noiseIntensity; // 0x18
+		::System::Single noiseIntensity; // 0x10
+		::UnityEngine::Vector2 noiseTexTiling; // 0x14
 		::UnityEngine::Vector2 noiseUVSpeed; // 0x1C
 
 		::System::Void _ctor()

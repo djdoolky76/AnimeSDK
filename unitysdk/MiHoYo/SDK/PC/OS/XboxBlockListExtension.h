@@ -4,11 +4,11 @@
 
 namespace MiHoYo::SDK::PC::OS { class XboxBlockListEntry; }
 
-#define MIHOYO_SDK_PC_OS_XBOXBLOCKLISTEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CA820)
+#define MIHOYO_SDK_PC_OS_XBOXBLOCKLISTEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D848DE0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxBlockListExtension_TypeDefinitionIndex = 20760;
+	inline static constexpr unsigned int XboxBlockListExtension_TypeDefinitionIndex = 19964;
 
 	class XboxBlockListExtension : public ::System::Object
 	{

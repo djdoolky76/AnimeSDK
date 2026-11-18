@@ -2,31 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class RecordKit_RecordNode;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RECORDKIT_CONTAINKEY_OFFSET UNITYSDK_OFFSET(0x1F0AA850)
-#define RECORDKIT_DELETEALL_OFFSET UNITYSDK_OFFSET(0x1F0AAC90)
-#define RECORDKIT_DELETE_OFFSET UNITYSDK_OFFSET(0x1F0AAAB0)
-#define RECORDKIT_GETUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1F0AAA70)
-#define RECORDKIT_GET_RECORDROOTPATH_OFFSET UNITYSDK_OFFSET(0x1F0AA670)
-#define RECORDKIT_SAVE_OFFSET UNITYSDK_OFFSET(0x1F0AADC0)
-#define RECORDKIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0AAF40)
-#define RECORDKIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0AAF30)
+#define RECORDKIT_CONTAINKEY_OFFSET UNITYSDK_OFFSET(0x1F2DC000)
+#define RECORDKIT_DELETEALL_OFFSET UNITYSDK_OFFSET(0x1F2DC440)
+#define RECORDKIT_DELETE_OFFSET UNITYSDK_OFFSET(0x1F2DC260)
+#define RECORDKIT_GETUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1F2DC220)
+#define RECORDKIT_GET_RECORDROOTPATH_OFFSET UNITYSDK_OFFSET(0x1F2DBE20)
+#define RECORDKIT_SAVE_OFFSET UNITYSDK_OFFSET(0x1F2DC570)
+#define RECORDKIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2DC6F0)
+#define RECORDKIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2DC6E0)
 
-inline static constexpr unsigned int RecordKit_TypeDefinitionIndex = 7863;
+inline static constexpr unsigned int RecordKit_TypeDefinitionIndex = 8673;
 
 class RecordKit : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RecordKit_RecordNode*>** StaticGet_recordDic()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_recordDic()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RecordKit_RecordNode*>**)Il2CppClass::FromTypeDefinitionIndex(RecordKit_TypeDefinitionIndex)->GetStaticField(0x6B00);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(RecordKit_TypeDefinitionIndex)->GetStaticField(0x6B10);
 	}
 	static ::System::String** StaticGet_m_recordPath()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RecordKit_TypeDefinitionIndex)->GetStaticField(0x6B08);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RecordKit_TypeDefinitionIndex)->GetStaticField(0x6B18);
 	}
 	// static const ::System::String* EXTENSION; // 0x0
 

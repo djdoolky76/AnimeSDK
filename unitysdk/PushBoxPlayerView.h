@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PushBoxPlayerView_PushBoxPlayerAppearance.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_0C791B68CB2A5BF5;
-class Class_1_E13183B148E560DC;
+class GOIKJCHFIIO;
+class MIKBKMMKEML;
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -14,29 +14,29 @@ namespace UnityEngine { class SpriteRenderer; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define PUSHBOXPLAYERVIEW_AWAKE_OFFSET UNITYSDK_OFFSET(0x1EC656A0)
-#define PUSHBOXPLAYERVIEW_GETWORLDLOCALPOS_OFFSET UNITYSDK_OFFSET(0x1EC65D10)
-#define PUSHBOXPLAYERVIEW_GET_SELFGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1EC65FF0)
-#define PUSHBOXPLAYERVIEW_GET_SELFTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1EC65E80)
-#define PUSHBOXPLAYERVIEW_INIT_OFFSET UNITYSDK_OFFSET(0x1EC65700)
-#define PUSHBOXPLAYERVIEW_PLAYTEXTURE_OFFSET UNITYSDK_OFFSET(0x1EC657C0)
-#define PUSHBOXPLAYERVIEW_RESET_OFFSET UNITYSDK_OFFSET(0x1EC66160)
-#define PUSHBOXPLAYERVIEW_SETAPPEARANCE_OFFSET UNITYSDK_OFFSET(0x1EC65970)
-#define PUSHBOXPLAYERVIEW_SETWORLDLOCALPOS_OFFSET UNITYSDK_OFFSET(0x1EC65C80)
-#define PUSHBOXPLAYERVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EC65DB0)
-#define PUSHBOXPLAYERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC661A0)
+#define PUSHBOXPLAYERVIEW_AWAKE_OFFSET UNITYSDK_OFFSET(0x1EBC2DE0)
+#define PUSHBOXPLAYERVIEW_GETWORLDLOCALPOS_OFFSET UNITYSDK_OFFSET(0x1EBC3450)
+#define PUSHBOXPLAYERVIEW_GET_SELFGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1EBC3730)
+#define PUSHBOXPLAYERVIEW_GET_SELFTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1EBC35C0)
+#define PUSHBOXPLAYERVIEW_INIT_OFFSET UNITYSDK_OFFSET(0x1EBC2E40)
+#define PUSHBOXPLAYERVIEW_PLAYTEXTURE_OFFSET UNITYSDK_OFFSET(0x1EBC2F00)
+#define PUSHBOXPLAYERVIEW_RESET_OFFSET UNITYSDK_OFFSET(0x1EBC38A0)
+#define PUSHBOXPLAYERVIEW_SETAPPEARANCE_OFFSET UNITYSDK_OFFSET(0x1EBC30B0)
+#define PUSHBOXPLAYERVIEW_SETWORLDLOCALPOS_OFFSET UNITYSDK_OFFSET(0x1EBC33C0)
+#define PUSHBOXPLAYERVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EBC34F0)
+#define PUSHBOXPLAYERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC38E0)
 
-inline static constexpr unsigned int PushBoxPlayerView_TypeDefinitionIndex = 42399;
+inline static constexpr unsigned int PushBoxPlayerView_TypeDefinitionIndex = 51901;
 
 class PushBoxPlayerView : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::UnityEngine::SpriteRenderer* spriteRenderer; // 0x18
 	::System::String* IdleSheetKey; // 0x20
-	::System::Collections::Generic::List_1<::PushBoxPlayerView_PushBoxPlayerAppearance>* Appearances; // 0x28
+	::System::Collections::Generic::List_1<::System::Object*>* Appearances; // 0x28
 	::UnityEngine::Transform* selfTran; // 0x30
 	::UnityEngine::GameObject* go; // 0x38
-	::Class_1_E13183B148E560DC* spriteRenderAnim; // 0x40
+	::MIKBKMMKEML* spriteRenderAnim; // 0x40
 
 	::System::Void _ctor()
 	{
@@ -48,9 +48,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PUSHBOXPLAYERVIEW_AWAKE_OFFSET))(this);
 	}
 
-	::System::Void Init(::Class_1_0C791B68CB2A5BF5* spriteResourceProxy, ::UnityEngine::Vector2 tileSize)
+	::System::Void Init(::GOIKJCHFIIO* spriteResourceProxy, ::UnityEngine::Vector2 tileSize)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_0C791B68CB2A5BF5*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + PUSHBOXPLAYERVIEW_INIT_OFFSET))(this, spriteResourceProxy, tileSize);
+		return ((::System::Void(*)(::PVOID, ::GOIKJCHFIIO*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + PUSHBOXPLAYERVIEW_INIT_OFFSET))(this, spriteResourceProxy, tileSize);
 	}
 
 	::System::Void SetAppearance(::System::String* key, ::UnityEngine::Vector2 tileSize)

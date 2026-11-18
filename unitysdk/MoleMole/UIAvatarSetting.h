@@ -4,19 +4,20 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_UIAVATARSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x19776350)
+#define MOLEMOLE_UIAVATARSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0EEFE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarSetting_TypeDefinitionIndex = 84148;
+	inline static constexpr unsigned int UIAvatarSetting_TypeDefinitionIndex = 61042;
 
 	class UIAvatarSetting : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector2 UIAvatarPosOffset; // 0x10
-		::System::Boolean IsOverrideOffset; // 0x18
-		::UnityEngine::Vector3 AvatarPos; // 0x1C
-		::UnityEngine::Vector3 AvatarRot; // 0x28
+		::UnityEngine::Vector3 AvatarRot; // 0x10
+		::UnityEngine::Vector2 UIAvatarPosOffset; // 0x1C
+		::System::Boolean IsOverrideOffset; // 0x24
+		::System::Byte _padding0[0x3];
+		::UnityEngine::Vector3 AvatarPos; // 0x28
 
 		::System::Void _ctor()
 		{

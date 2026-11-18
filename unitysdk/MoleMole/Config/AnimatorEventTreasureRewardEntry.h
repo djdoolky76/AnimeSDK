@@ -4,12 +4,12 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTTREASUREREWARDENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xF12DFA0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTTREASUREREWARDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xF12E020)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTTREASUREREWARDENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0xFFC6300)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTTREASUREREWARDENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xFFC6380)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventTreasureRewardEntry_TypeDefinitionIndex = 71420;
+	inline static constexpr unsigned int AnimatorEventTreasureRewardEntry_TypeDefinitionIndex = 55990;
 
 	class AnimatorEventTreasureRewardEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

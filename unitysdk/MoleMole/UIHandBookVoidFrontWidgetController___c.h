@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_1085;
+class FICMFIFLBEC;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIHANDBOOKVOIDFRONTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AFBB40)
-#define MOLEMOLE_UIHANDBOOKVOIDFRONTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18AFBB80)
-#define MOLEMOLE_UIHANDBOOKVOIDFRONTWIDGETCONTROLLER___C__ONUIINIT_B__2_0_OFFSET UNITYSDK_OFFSET(0x18AFBB90)
-#define MOLEMOLE_UIHANDBOOKVOIDFRONTWIDGETCONTROLLER___C__REFRESHVIEW_B__6_0_OFFSET UNITYSDK_OFFSET(0x18AFBBA0)
+#define MOLEMOLE_UIHANDBOOKVOIDFRONTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x187C33C0)
+#define MOLEMOLE_UIHANDBOOKVOIDFRONTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x187C3400)
+#define MOLEMOLE_UIHANDBOOKVOIDFRONTWIDGETCONTROLLER___C__ONUIINIT_B__2_0_OFFSET UNITYSDK_OFFSET(0x187C3410)
+#define MOLEMOLE_UIHANDBOOKVOIDFRONTWIDGETCONTROLLER___C__REFRESHVIEW_B__6_0_OFFSET UNITYSDK_OFFSET(0x187C3420)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookVoidFrontWidgetController___c_TypeDefinitionIndex = 79476;
+	inline static constexpr unsigned int UIHandBookVoidFrontWidgetController___c_TypeDefinitionIndex = 44573;
 
 	class UIHandBookVoidFrontWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIHandBookVoidFrontWidgetController___c** StaticGet___9()
+		static ::System::Comparison_1<::FICMFIFLBEC*>** StaticGet___9__6_0()
 		{
-			return (::MoleMole::UIHandBookVoidFrontWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookVoidFrontWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4DA10);
+			return (::System::Comparison_1<::FICMFIFLBEC*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookVoidFrontWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x50D30);
 		}
 		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookVoidFrontWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4DA18);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookVoidFrontWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x50D38);
 		}
-		static ::System::Comparison_1<::Class_2_208CC9941471731A_1085*>** StaticGet___9__6_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_2_208CC9941471731A_1085*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookVoidFrontWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4DA20);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookVoidFrontWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x50D40);
 		}
 
 		static ::System::Void _cctor()
@@ -46,9 +46,9 @@ namespace MoleMole
 			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKVOIDFRONTWIDGETCONTROLLER___C__ONUIINIT_B__2_0_OFFSET))(this, i);
 		}
 
-		::System::Int32 _RefreshView_b__6_0(::Class_2_208CC9941471731A_1085* l, ::Class_2_208CC9941471731A_1085* r)
+		::System::Int32 _RefreshView_b__6_0(::FICMFIFLBEC* l, ::FICMFIFLBEC* r)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_1085*, ::Class_2_208CC9941471731A_1085*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKVOIDFRONTWIDGETCONTROLLER___C__REFRESHVIEW_B__6_0_OFFSET))(this, l, r);
+			return ((::System::Int32(*)(::PVOID, ::FICMFIFLBEC*, ::FICMFIFLBEC*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHANDBOOKVOIDFRONTWIDGETCONTROLLER___C__REFRESHVIEW_B__6_0_OFFSET))(this, l, r);
 		}
 	};
 }

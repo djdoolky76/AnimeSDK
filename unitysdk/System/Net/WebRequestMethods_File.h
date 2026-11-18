@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace System::Net
 {
-	inline static constexpr unsigned int WebRequestMethods_File_TypeDefinitionIndex = 3358;
+	inline static constexpr unsigned int WebRequestMethods_File_TypeDefinitionIndex = 3357;
 
 	class WebRequestMethods_File : public ::System::Object
 	{

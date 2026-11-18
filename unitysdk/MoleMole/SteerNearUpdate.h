@@ -3,35 +3,35 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_3_AA6DF3A878195D3F;
-class Class_3_C93CC3D2C2AC4067;
+class DKPJAEANAPO;
+class GEIHCPAOKKK;
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Battle { class MonoSteerNear; }
 
-#define MOLEMOLE_STEERNEARUPDATE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x136ED770)
-#define MOLEMOLE_STEERNEARUPDATE_ONSTART_OFFSET UNITYSDK_OFFSET(0x136EDA20)
-#define MOLEMOLE_STEERNEARUPDATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x136EE080)
-#define MOLEMOLE_STEERNEARUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x136EE0D0)
-#define MOLEMOLE_STEERNEARUPDATE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x136EE190)
-#define MOLEMOLE_STEERNEARUPDATE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x136EE220)
-#define MOLEMOLE_STEERNEARUPDATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x136EE2B0)
+#define MOLEMOLE_STEERNEARUPDATE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x19CED0B0)
+#define MOLEMOLE_STEERNEARUPDATE_ONSTART_OFFSET UNITYSDK_OFFSET(0x19CED370)
+#define MOLEMOLE_STEERNEARUPDATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19CED9D0)
+#define MOLEMOLE_STEERNEARUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CEDA20)
+#define MOLEMOLE_STEERNEARUPDATE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x19CEDAE0)
+#define MOLEMOLE_STEERNEARUPDATE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x19CEDB70)
+#define MOLEMOLE_STEERNEARUPDATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19CEDC00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SteerNearUpdate_TypeDefinitionIndex = 64321;
+	inline static constexpr unsigned int SteerNearUpdate_TypeDefinitionIndex = 86461;
 
 	class SteerNearUpdate : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		::BehaviorDesigner::Runtime::SharedFloat* MaxDistance; // 0x58
-		::MoleMole::Battle::Entity* ownerEntity; // 0x60
-		::Class_3_AA6DF3A878195D3F* steerComponent; // 0x68
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x70
-		::Class_3_C93CC3D2C2AC4067* modelComponent; // 0x78
-		::BehaviorDesigner::Runtime::SharedFloat* MinDistance; // 0x80
-		::MoleMole::Battle::MonoSteerNear* monoSteer; // 0x88
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::BehaviorDesigner::Runtime::SharedFloat* MinDistance; // 0x68
+		::GEIHCPAOKKK* modelComponent; // 0x70
+		::MoleMole::Battle::Entity* ownerEntity; // 0x78
+		::MoleMole::Battle::MonoSteerNear* monoSteer; // 0x80
+		::DKPJAEANAPO* steerComponent; // 0x88
 		::System::Boolean Enable; // 0x90
 
 		::System::Void _ctor()

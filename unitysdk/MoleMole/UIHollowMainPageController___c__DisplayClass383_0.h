@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHollowMainPageController; }
 namespace MoleMole { class UIHollowMainPageController_CardSlot; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS383_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18999960)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS383_0__RUNCARDCHANGEANIM_B__0_OFFSET UNITYSDK_OFFSET(0x18999970)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS383_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16F0C850)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS383_0__RUNCARDCHANGEANIM_B__0_OFFSET UNITYSDK_OFFSET(0x16F0C860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass383_0_TypeDefinitionIndex = 73690;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass383_0_TypeDefinitionIndex = 84601;
 
 	class UIHollowMainPageController___c__DisplayClass383_0 : public ::System::Object
 	{

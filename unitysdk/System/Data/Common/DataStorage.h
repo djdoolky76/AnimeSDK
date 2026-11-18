@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Data/AggregateType.h"
 #include "unitysdk/System/Data/Common/StorageType.h"
+#include "unitysdk/System/Data/AggregateType.h"
 #include "unitysdk/System/Data/DataSetDateTime.h"
 #include "unitysdk/System/Object.h"
 
@@ -18,74 +18,74 @@ namespace System::Xml { class XmlReader; }
 namespace System::Xml { class XmlWriter; }
 namespace System::Xml::Serialization { class XmlRootAttribute; }
 
-#define SYSTEM_DATA_COMMON_DATASTORAGE_AGGREGATECOUNT_OFFSET UNITYSDK_OFFSET(0x1F73A8C0)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_AGGREGATE_OFFSET UNITYSDK_OFFSET(0x1F73A8B0)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_COMPAREBITS_OFFSET UNITYSDK_OFFSET(0x1F73A980)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_CONVERTOBJECTTOXML_OFFSET UNITYSDK_OFFSET(0x1F73AB80)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_CONVERTVALUE_OFFSET UNITYSDK_OFFSET(0x1F73A9E0)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_CONVERTXMLTOOBJECT_OFFSET UNITYSDK_OFFSET(0x1F73AB40)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_COPYBITS_OFFSET UNITYSDK_OFFSET(0x1F73A9F0)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_COPYVALUEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F73BB10)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_CREATESTORAGE_OFFSET UNITYSDK_OFFSET(0x1F73ABC0)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_DETERMINEIFVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1F73A7D0)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_GETBITS_OFFSET UNITYSDK_OFFSET(0x1F73AA30)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_GETEMPTYSTORAGEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F73BB00)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_GETQUALIFIEDNAME_OFFSET UNITYSDK_OFFSET(0x1F73BC90)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_GETSTORAGETYPE_OFFSET UNITYSDK_OFFSET(0x1F73B320)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_GETSTRINGLENGTH_OFFSET UNITYSDK_OFFSET(0x1F73AA60)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_GETTYPESTORAGE_OFFSET UNITYSDK_OFFSET(0x1F73B440)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1F73BB50)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_GET_DATETIMEMODE_OFFSET UNITYSDK_OFFSET(0x1F73A820)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_GET_FORMATPROVIDER_OFFSET UNITYSDK_OFFSET(0x1F73A840)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1F73AA70)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_IMPLEMENTSINTERFACES_OFFSET UNITYSDK_OFFSET(0x1F73B660)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_IMPLEMENTSINULLABLEVALUE_OFFSET UNITYSDK_OFFSET(0x1F73B920)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_INSPECTTYPEFORINTERFACES_OFFSET UNITYSDK_OFFSET(0x1F73B7A0)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_ISNULL_OFFSET UNITYSDK_OFFSET(0x1F73AA90)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_ISOBJECTNULL_OFFSET UNITYSDK_OFFSET(0x1F73B9A0)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_ISOBJECTSQLNULL_OFFSET UNITYSDK_OFFSET(0x1F73BA30)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_ISSQLTYPE_1_OFFSET UNITYSDK_OFFSET(0x1F73B560)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_ISSQLTYPE_OFFSET UNITYSDK_OFFSET(0x1F73B550)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_ISTYPECUSTOMTYPE_1_OFFSET UNITYSDK_OFFSET(0x1F73A7B0)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_ISTYPECUSTOMTYPE_OFFSET UNITYSDK_OFFSET(0x1F73B4E0)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_SETCAPACITY_OFFSET UNITYSDK_OFFSET(0x1F73AAD0)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_SETNULLBIT_OFFSET UNITYSDK_OFFSET(0x1F73AAB0)
-#define SYSTEM_DATA_COMMON_DATASTORAGE_SETSTORAGEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F73BB40)
-#define SYSTEM_DATA_COMMON_DATASTORAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F73BD10)
-#define SYSTEM_DATA_COMMON_DATASTORAGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F73A780)
-#define SYSTEM_DATA_COMMON_DATASTORAGE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F73A650)
-#define SYSTEM_DATA_COMMON_DATASTORAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F73A5B0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_AGGREGATECOUNT_OFFSET UNITYSDK_OFFSET(0x1FB398E0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_AGGREGATE_OFFSET UNITYSDK_OFFSET(0x1FB398D0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_COMPAREBITS_OFFSET UNITYSDK_OFFSET(0x1FB399A0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_CONVERTOBJECTTOXML_1_OFFSET UNITYSDK_OFFSET(0x1FB39BB0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_CONVERTVALUE_OFFSET UNITYSDK_OFFSET(0x1FB39A00)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_CONVERTXMLTOOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1FB39B70)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_COPYBITS_OFFSET UNITYSDK_OFFSET(0x1FB39A10)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_COPYVALUEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FB3AB40)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_CREATESTORAGE_OFFSET UNITYSDK_OFFSET(0x1FB39BF0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_DETERMINEIFVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1FB397F0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_GETBITS_OFFSET UNITYSDK_OFFSET(0x1FB39A50)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_GETEMPTYSTORAGEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FB3AB30)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_GETQUALIFIEDNAME_OFFSET UNITYSDK_OFFSET(0x1FB3ACC0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_GETSTORAGETYPE_OFFSET UNITYSDK_OFFSET(0x1FB3A350)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_GETSTRINGLENGTH_OFFSET UNITYSDK_OFFSET(0x1FB39A90)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_GETTYPESTORAGE_OFFSET UNITYSDK_OFFSET(0x1FB3A470)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1FB3AB80)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_GET_DATETIMEMODE_OFFSET UNITYSDK_OFFSET(0x1FB39840)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_GET_FORMATPROVIDER_OFFSET UNITYSDK_OFFSET(0x1FB39860)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1FB39AA0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_IMPLEMENTSINTERFACES_OFFSET UNITYSDK_OFFSET(0x1FB3A690)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_IMPLEMENTSINULLABLEVALUE_OFFSET UNITYSDK_OFFSET(0x1FB3A950)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_INSPECTTYPEFORINTERFACES_OFFSET UNITYSDK_OFFSET(0x1FB3A7D0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_ISNULL_OFFSET UNITYSDK_OFFSET(0x1FB39AC0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_ISOBJECTNULL_OFFSET UNITYSDK_OFFSET(0x1FB3A9D0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_ISOBJECTSQLNULL_OFFSET UNITYSDK_OFFSET(0x1FB3AA60)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_ISSQLTYPE_1_OFFSET UNITYSDK_OFFSET(0x1FB3A590)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_ISSQLTYPE_OFFSET UNITYSDK_OFFSET(0x1FB3A580)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_ISTYPECUSTOMTYPE_1_OFFSET UNITYSDK_OFFSET(0x1FB397D0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_ISTYPECUSTOMTYPE_OFFSET UNITYSDK_OFFSET(0x1FB3A510)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_SETCAPACITY_OFFSET UNITYSDK_OFFSET(0x1FB39B00)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_SETNULLBIT_OFFSET UNITYSDK_OFFSET(0x1FB39AE0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE_SETSTORAGEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FB3AB70)
+#define SYSTEM_DATA_COMMON_DATASTORAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB3AD40)
+#define SYSTEM_DATA_COMMON_DATASTORAGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FB397A0)
+#define SYSTEM_DATA_COMMON_DATASTORAGE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1FB39680)
+#define SYSTEM_DATA_COMMON_DATASTORAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB395E0)
 
 namespace System::Data::Common
 {
-	inline static constexpr unsigned int DataStorage_TypeDefinitionIndex = 39401;
+	inline static constexpr unsigned int DataStorage_TypeDefinitionIndex = 37401;
 
 	class DataStorage : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Tuple_4<::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean>*>** StaticGet_s_typeImplementsInterface()
-		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Tuple_4<::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(DataStorage_TypeDefinitionIndex)->GetStaticField(0x2AAD0);
-		}
 		static ::Il2CppArray<::System::Type*>** StaticGet_s_storageClassType()
 		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(DataStorage_TypeDefinitionIndex)->GetStaticField(0x2AAD8);
+			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(DataStorage_TypeDefinitionIndex)->GetStaticField(0x2BE30);
 		}
 		static ::System::Func_2<::System::Type*, ::System::Tuple_4<::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean>*>** StaticGet_s_inspectTypeForInterfaces()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Tuple_4<::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(DataStorage_TypeDefinitionIndex)->GetStaticField(0x2AAE0);
+			return (::System::Func_2<::System::Type*, ::System::Tuple_4<::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(DataStorage_TypeDefinitionIndex)->GetStaticField(0x2BE38);
 		}
-		::System::Data::DataTable* _table; // 0x10
-		::System::Object* _defaultValue; // 0x18
-		::System::Data::DataColumn* _column; // 0x20
-		::System::Object* _nullValue; // 0x28
+		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Tuple_4<::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean>*>** StaticGet_s_typeImplementsInterface()
+		{
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Tuple_4<::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(DataStorage_TypeDefinitionIndex)->GetStaticField(0x2BE40);
+		}
+		::System::Collections::BitArray* _dbNullBits; // 0x10
+		::System::Data::DataTable* _table; // 0x18
+		::System::Object* _defaultValue; // 0x20
+		::System::Data::DataColumn* _column; // 0x28
 		::System::Type* _dataType; // 0x30
-		::System::Collections::BitArray* _dbNullBits; // 0x38
+		::System::Object* _nullValue; // 0x38
 		::System::Data::Common::StorageType _storageTypeCode; // 0x40
-		::System::Boolean _isStringType; // 0x44
+		::System::Boolean _isCustomDefinedType; // 0x44
 		::System::Boolean _isCloneable; // 0x45
-		::System::Boolean _isCustomDefinedType; // 0x46
-		::System::Boolean _isValueType; // 0x47
+		::System::Boolean _isValueType; // 0x46
+		::System::Boolean _isStringType; // 0x47
 
 		::System::Void _ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue, ::System::Data::Common::StorageType storageType)
 		{
@@ -172,14 +172,14 @@ namespace System::Data::Common
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATA_COMMON_DATASTORAGE_SETCAPACITY_OFFSET))(this, capacity);
 		}
 
-		::System::Object* ConvertXmlToObject(::System::Xml::XmlReader* xmlReader, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib)
+		::System::Object* ConvertXmlToObject_1(::System::Xml::XmlReader* xmlReader, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Xml::XmlReader*, ::System::Xml::Serialization::XmlRootAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_DATA_COMMON_DATASTORAGE_CONVERTXMLTOOBJECT_OFFSET))(this, xmlReader, xmlAttrib);
+			return ((::System::Object*(*)(::PVOID, ::System::Xml::XmlReader*, ::System::Xml::Serialization::XmlRootAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_DATA_COMMON_DATASTORAGE_CONVERTXMLTOOBJECT_1_OFFSET))(this, xmlReader, xmlAttrib);
 		}
 
-		::System::Void ConvertObjectToXml(::System::Object* value, ::System::Xml::XmlWriter* xmlWriter, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib)
+		::System::Void ConvertObjectToXml_1(::System::Object* value, ::System::Xml::XmlWriter* xmlWriter, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Xml::XmlWriter*, ::System::Xml::Serialization::XmlRootAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_DATA_COMMON_DATASTORAGE_CONVERTOBJECTTOXML_OFFSET))(this, value, xmlWriter, xmlAttrib);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Xml::XmlWriter*, ::System::Xml::Serialization::XmlRootAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_DATA_COMMON_DATASTORAGE_CONVERTOBJECTTOXML_1_OFFSET))(this, value, xmlWriter, xmlAttrib);
 		}
 
 		static ::System::Data::Common::DataStorage* CreateStorage(::System::Data::DataColumn* column, ::System::Type* dataType, ::System::Data::Common::StorageType typeCode)

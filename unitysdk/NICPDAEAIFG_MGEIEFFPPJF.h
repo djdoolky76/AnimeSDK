@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MLJGPKJJPIL.h"
+
+class GCIMMDDIFBJ;
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+namespace MoleMole { class UIControlCollection; }
+namespace MoleMole { class UIGeneralNewHintWidgetController; }
+template <typename T> class MEKABAIJMNM_1;
+
+#define NICPDAEAIFG_MGEIEFFPPJF_EFKGNFCEENK_OFFSET UNITYSDK_OFFSET(0xE09D760)
+#define NICPDAEAIFG_MGEIEFFPPJF_FHCNJMEMBAI_OFFSET UNITYSDK_OFFSET(0xE09D9E0)
+#define NICPDAEAIFG_MGEIEFFPPJF_GGJBODIHKKB_OFFSET UNITYSDK_OFFSET(0xE09D9C0)
+#define NICPDAEAIFG_MGEIEFFPPJF_HMIPPEIFHEJ_OFFSET UNITYSDK_OFFSET(0xE09D9B0)
+#define NICPDAEAIFG_MGEIEFFPPJF_NELDEGPOGBO_OFFSET UNITYSDK_OFFSET(0xE09D9D0)
+#define NICPDAEAIFG_MGEIEFFPPJF_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0xE09D590)
+#define NICPDAEAIFG_MGEIEFFPPJF_OLLPMJPAPKK_OFFSET UNITYSDK_OFFSET(0xE09D9A0)
+#define NICPDAEAIFG_MGEIEFFPPJF_OOKLIMNOHIK_OFFSET UNITYSDK_OFFSET(0xE09D9F0)
+#define NICPDAEAIFG_MGEIEFFPPJF__CTOR_OFFSET UNITYSDK_OFFSET(0xE09D910)
+
+inline static constexpr unsigned int NICPDAEAIFG_MGEIEFFPPJF_TypeDefinitionIndex = 78119;
+
+class NICPDAEAIFG_MGEIEFFPPJF : public ::MLJGPKJJPIL
+{
+public:
+	// static const ::System::String* CIEGLJHCCHB; // 0x0
+	// static const ::System::String* LGOBBKILDDM; // 0x0
+	// static const ::System::String* BFBFDFIOJAM; // 0x0
+	::LGINJIKKBJA* _JANEPAFIHOB_k__BackingField; // 0x28
+	::GCIMMDDIFBJ* _KDEAFKIIKPH_k__BackingField; // 0x30
+	::MEKABAIJMNM_1<::MoleMole::UIGeneralNewHintWidgetController*>* _OOOHKCFPGPO_k__BackingField; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NICPDAEAIFG_MGEIEFFPPJF__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + NICPDAEAIFG_MGEIEFFPPJF_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::LGINJIKKBJA* OLLPMJPAPKK()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + NICPDAEAIFG_MGEIEFFPPJF_OLLPMJPAPKK_OFFSET))(this);
+	}
+
+	::System::Void EFKGNFCEENK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NICPDAEAIFG_MGEIEFFPPJF_EFKGNFCEENK_OFFSET))(this);
+	}
+
+	::GCIMMDDIFBJ* HMIPPEIFHEJ()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + NICPDAEAIFG_MGEIEFFPPJF_HMIPPEIFHEJ_OFFSET))(this);
+	}
+
+	::System::Void GGJBODIHKKB(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + NICPDAEAIFG_MGEIEFFPPJF_GGJBODIHKKB_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::MEKABAIJMNM_1<::MoleMole::UIGeneralNewHintWidgetController*>* NELDEGPOGBO()
+	{
+		return ((::MEKABAIJMNM_1<::MoleMole::UIGeneralNewHintWidgetController*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NICPDAEAIFG_MGEIEFFPPJF_NELDEGPOGBO_OFFSET))(this);
+	}
+
+	::System::Void FHCNJMEMBAI(::MEKABAIJMNM_1<::MoleMole::UIGeneralNewHintWidgetController*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MEKABAIJMNM_1<::MoleMole::UIGeneralNewHintWidgetController*>*))((::PBYTE)hIl2Cpp + NICPDAEAIFG_MGEIEFFPPJF_FHCNJMEMBAI_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void OOKLIMNOHIK(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + NICPDAEAIFG_MGEIEFFPPJF_OOKLIMNOHIK_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

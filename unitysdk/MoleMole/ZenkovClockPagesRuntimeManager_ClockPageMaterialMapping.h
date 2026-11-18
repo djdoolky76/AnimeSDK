@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_ZENKOVCLOCKPAGESRUNTIMEMANAGER_CLOCKPAGEMATERIALMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC676E0)
+#define MOLEMOLE_ZENKOVCLOCKPAGESRUNTIMEMANAGER_CLOCKPAGEMATERIALMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D168710)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ZenkovClockPagesRuntimeManager_ClockPageMaterialMapping_TypeDefinitionIndex = 27362;
+	inline static constexpr unsigned int ZenkovClockPagesRuntimeManager_ClockPageMaterialMapping_TypeDefinitionIndex = 26600;
 
 	class ZenkovClockPagesRuntimeManager_ClockPageMaterialMapping : public ::System::Object
 	{

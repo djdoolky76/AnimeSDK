@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D8D3580)
-#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D8D3680)
-#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1D8D3790)
-#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1D8D3820)
-#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_5_OFFSET UNITYSDK_OFFSET(0x1D8D38B0)
-#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D34C0)
+#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DDAFA20)
+#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DDAFB20)
+#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1DDAFC30)
+#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1DDAFCC0)
+#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_5_OFFSET UNITYSDK_OFFSET(0x1DDAFD50)
+#define SYSTEM_SECURITY_XMLSYNTAXEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDAF960)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int XmlSyntaxException_TypeDefinitionIndex = 949;
+	inline static constexpr unsigned int XmlSyntaxException_TypeDefinitionIndex = 948;
 
 	class XmlSyntaxException : public ::System::SystemException
 	{

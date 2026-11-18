@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/StateTreeGameplay/PlayAnimationTask.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_PLAYANIMATIONTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1D5D32E0)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_PLAYANIMATIONTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1D5D3250)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_PLAYANIMATIONTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1D5D3380)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_PLAYANIMATIONTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1D647C80)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_PLAYANIMATIONTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1D647BF0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_PLAYANIMATIONTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1D647D20)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_PlayAnimationTask_TypeDefinitionIndex = 78584;
+	inline static constexpr unsigned int VirtualFunctionExtensions_PlayAnimationTask_TypeDefinitionIndex = 92215;
 
 	class VirtualFunctionExtensions_PlayAnimationTask : public ::System::Object
 	{

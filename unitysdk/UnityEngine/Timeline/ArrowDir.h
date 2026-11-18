@@ -3,18 +3,18 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ArrowDir_TypeDefinitionIndex = 32985;
+	inline static constexpr unsigned int ArrowDir_TypeDefinitionIndex = 32440;
 
 	enum class ArrowDir : ::System::Byte
 	{
-		LeftTop = 0x0,
-		RightTop = 0x1,
-		LeftUp = 0x2,
-		LeftDown = 0x3,
-		LeftBottom = 0x4,
-		RightBottom = 0x5,
-		RightUp = 0x6,
-		RightDown = 0x7,
-		Count = 0x8,
+		LeftTop = 0,
+		RightTop = 1,
+		LeftUp = 2,
+		LeftDown = 3,
+		LeftBottom = 4,
+		RightBottom = 5,
+		RightUp = 6,
+		RightDown = 7,
+		Count = 8,
 	};
 }

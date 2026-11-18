@@ -4,7 +4,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExBeatSync_TypeDefinitionIndex = 34921;
+	inline static constexpr unsigned int CriAtomExBeatSync_TypeDefinitionIndex = 34470;
 
 	class CriAtomExBeatSync : public ::System::Object
 	{

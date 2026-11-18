@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraExternalValueType.h"
 #include "unitysdk/PipelineCamera/ExternalValueTupleSlot.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/Allocator.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define PIPELINECAMERA_CAMERAEXTERNALVALUECOLLECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA65170)
-#define PIPELINECAMERA_CAMERAEXTERNALVALUECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA651F0)
+#define PIPELINECAMERA_CAMERAEXTERNALVALUECOLLECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x945550)
+#define PIPELINECAMERA_CAMERAEXTERNALVALUECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9455D0)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraExternalValueCollection_TypeDefinitionIndex = 38180;
+	inline static constexpr unsigned int CameraExternalValueCollection_TypeDefinitionIndex = 36182;
 
 	struct alignas(8) CameraExternalValueCollection
 	{
 		::Unity::Collections::NativeArray_1<::PipelineCamera::ExternalValueTupleSlot> _metaData; // 0x10
-		::System::Byte* _buffer; // 0x20
+		::System::Byte _padding0[0x8];
+		::PVOID _buffer; // 0x20
 		::Unity::Collections::Allocator _allocator; // 0x28
 
 		::System::Void _ctor(::Il2CppArray<::PipelineCamera::ExternalValueTupleSlot>* metaData, ::System::Int32 alignment, ::System::Int32 length, ::Unity::Collections::Allocator allocator)

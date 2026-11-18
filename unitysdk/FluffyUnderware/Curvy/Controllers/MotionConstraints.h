@@ -3,16 +3,16 @@
 
 namespace FluffyUnderware::Curvy::Controllers
 {
-	inline static constexpr unsigned int MotionConstraints_TypeDefinitionIndex = 39648;
+	inline static constexpr unsigned int MotionConstraints_TypeDefinitionIndex = 37554;
 
 	enum class MotionConstraints : ::System::Int32
 	{
 		FreezePositionZ = 4,
-		None = 0,
 		FreezeRotationY = 16,
-		FreezeRotationZ = 32,
+		FreezePositionX = 1,
 		FreezeRotationX = 8,
 		FreezePositionY = 2,
-		FreezePositionX = 1,
+		FreezeRotationZ = 32,
+		None = 0,
 	};
 }

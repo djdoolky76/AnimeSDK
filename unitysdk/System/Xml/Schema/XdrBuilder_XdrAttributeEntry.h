@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/Schema/SchemaNames_Token.h"
 #include "unitysdk/System/Xml/XmlTokenizedType.h"
+#include "unitysdk/System/Object.h"
 
 namespace System::Xml::Schema { class XdrBuilder_XdrBuildFunction; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_XDRBUILDER_XDRATTRIBUTEENTRY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E61C020)
-#define SYSTEM_XML_SCHEMA_XDRBUILDER_XDRATTRIBUTEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E61BFF0)
+#define SYSTEM_XML_SCHEMA_XDRBUILDER_XDRATTRIBUTEENTRY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E899630)
+#define SYSTEM_XML_SCHEMA_XDRBUILDER_XDRATTRIBUTEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E899600)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XdrBuilder_XdrAttributeEntry_TypeDefinitionIndex = 2107;
+	inline static constexpr unsigned int XdrBuilder_XdrAttributeEntry_TypeDefinitionIndex = 2106;
 
 	class XdrBuilder_XdrAttributeEntry : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaDatatype* _Datatype; // 0x10
-		::System::Xml::Schema::XdrBuilder_XdrBuildFunction* _BuildFunc; // 0x18
+		::System::Xml::Schema::XdrBuilder_XdrBuildFunction* _BuildFunc; // 0x10
+		::System::Xml::Schema::XmlSchemaDatatype* _Datatype; // 0x18
 		::System::Int32 _SchemaFlags; // 0x20
 		::System::Xml::Schema::SchemaNames_Token _Attribute; // 0x24
 

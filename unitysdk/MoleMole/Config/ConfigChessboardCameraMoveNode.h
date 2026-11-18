@@ -5,33 +5,33 @@
 #include "unitysdk/MoleMole/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace MoleMole::Config { class AnimationCurveUISpecialNum; }
 namespace MoleMole::Config { class FloatUISpecialNum; }
 namespace MoleMole::Config { class IntUISpecialNum; }
 namespace MoleMole::Config { class StringUISpecialNum; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCAMERAMOVENODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1A4A8040)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCAMERAMOVENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4A8100)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCAMERAMOVENODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16530830)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCAMERAMOVENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x165308F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardCameraMoveNode_TypeDefinitionIndex = 58669;
+	inline static constexpr unsigned int ConfigChessboardCameraMoveNode_TypeDefinitionIndex = 44674;
 
 	class ConfigChessboardCameraMoveNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::MoleMole::Config::IntUISpecialNum* MoveType; // 0x18
-		::MoleMole::Config::AnimationCurveUISpecialNum* MoveToCenterCurve; // 0x20
-		::MoleMole::Config::StringUISpecialNum* PredefinedKey; // 0x28
-		::MoleMole::Config::StringUISpecialNum* StretchKey; // 0x30
-		::MoleMole::Config::FloatUISpecialNum* MoveToCenterDuration; // 0x38
-		::MoleMole::Vector2Int PieceIndexOffset; // 0x40
-		::MoleMole::Config::ConfigSetSection_Order ChessboardOrder; // 0x48
-		::System::Boolean EnableAudio; // 0x4C
-		::System::Boolean IgnoreIfTargetInFocusRange; // 0x4D
-		::System::Boolean UseFixedViewPriority; // 0x4E
-		::System::Boolean UseCustomZ; // 0x4F
+		::MoleMole::Config::FloatUISpecialNum* MoveToCenterDuration; // 0x18
+		::MoleMole::Config::StringUISpecialNum* StretchKey; // 0x20
+		::MoleMole::Config::IntUISpecialNum* MoveType; // 0x28
+		::MoleMole::Config::AnimationCurveUISpecialNum* MoveToCenterCurve; // 0x30
+		::MoleMole::Config::StringUISpecialNum* PredefinedKey; // 0x38
+		::System::Boolean UseCustomZ; // 0x40
+		::System::Boolean UseFixedViewPriority; // 0x41
+		::System::Boolean EnableAudio; // 0x42
+		::System::Boolean IgnoreIfTargetInFocusRange; // 0x43
+		::MoleMole::Vector2Int PieceIndexOffset; // 0x44
+		::MoleMole::Config::ConfigSetSection_Order ChessboardOrder; // 0x4C
 		::UnityEngine::Vector3 RelativePosition; // 0x50
 		::UnityEngine::Vector3 DesignatedPos; // 0x5C
 
@@ -40,9 +40,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHESSBOARDCAMERAMOVENODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHESSBOARDCAMERAMOVENODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHESSBOARDCAMERAMOVENODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

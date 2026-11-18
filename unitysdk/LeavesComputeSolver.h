@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/GpuCollisionBox.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/GpuCollisionBox.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
@@ -9,22 +9,22 @@ class LeavesConfig;
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class ComputeShader; }
 
-#define LEAVESCOMPUTESOLVER_ALLOCATEBUFFERS_OFFSET UNITYSDK_OFFSET(0x1C3FD3C0)
-#define LEAVESCOMPUTESOLVER_BINDALLBUFFERS_OFFSET UNITYSDK_OFFSET(0x1C3FDC40)
-#define LEAVESCOMPUTESOLVER_BINDALLKERNELS_OFFSET UNITYSDK_OFFSET(0x1C3FDEC0)
-#define LEAVESCOMPUTESOLVER_CLEARBUFFERSTODEFAULTS_OFFSET UNITYSDK_OFFSET(0x1C3FD950)
-#define LEAVESCOMPUTESOLVER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C3FF180)
-#define LEAVESCOMPUTESOLVER_GET_MAXLEAFCOUNT_OFFSET UNITYSDK_OFFSET(0x1C3FD1F0)
-#define LEAVESCOMPUTESOLVER_GET_NORMALSBUFFER_OFFSET UNITYSDK_OFFSET(0x1C3FD1D0)
-#define LEAVESCOMPUTESOLVER_GET_POSITIONSBUFFER_OFFSET UNITYSDK_OFFSET(0x1C3FD1C0)
-#define LEAVESCOMPUTESOLVER_GET_UVSBUFFER_OFFSET UNITYSDK_OFFSET(0x1C3FD1E0)
-#define LEAVESCOMPUTESOLVER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C3FDFD0)
-#define LEAVESCOMPUTESOLVER_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1C3FE680)
-#define LEAVESCOMPUTESOLVER_THREADGROUPS_OFFSET UNITYSDK_OFFSET(0x1C3FDF80)
-#define LEAVESCOMPUTESOLVER_UPDATECOLLISIONBOXES_OFFSET UNITYSDK_OFFSET(0x1C3FE5F0)
-#define LEAVESCOMPUTESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FD200)
+#define LEAVESCOMPUTESOLVER_ALLOCATEBUFFERS_OFFSET UNITYSDK_OFFSET(0x1C823420)
+#define LEAVESCOMPUTESOLVER_BINDALLBUFFERS_OFFSET UNITYSDK_OFFSET(0x1C823CA0)
+#define LEAVESCOMPUTESOLVER_BINDALLKERNELS_OFFSET UNITYSDK_OFFSET(0x1C823F20)
+#define LEAVESCOMPUTESOLVER_CLEARBUFFERSTODEFAULTS_OFFSET UNITYSDK_OFFSET(0x1C8239B0)
+#define LEAVESCOMPUTESOLVER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C8251E0)
+#define LEAVESCOMPUTESOLVER_GET_MAXLEAFCOUNT_OFFSET UNITYSDK_OFFSET(0x1C823250)
+#define LEAVESCOMPUTESOLVER_GET_NORMALSBUFFER_OFFSET UNITYSDK_OFFSET(0x1C823230)
+#define LEAVESCOMPUTESOLVER_GET_POSITIONSBUFFER_OFFSET UNITYSDK_OFFSET(0x1C823220)
+#define LEAVESCOMPUTESOLVER_GET_UVSBUFFER_OFFSET UNITYSDK_OFFSET(0x1C823240)
+#define LEAVESCOMPUTESOLVER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C824030)
+#define LEAVESCOMPUTESOLVER_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1C8246E0)
+#define LEAVESCOMPUTESOLVER_THREADGROUPS_OFFSET UNITYSDK_OFFSET(0x1C823FE0)
+#define LEAVESCOMPUTESOLVER_UPDATECOLLISIONBOXES_OFFSET UNITYSDK_OFFSET(0x1C824650)
+#define LEAVESCOMPUTESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C823260)
 
-inline static constexpr unsigned int LeavesComputeSolver_TypeDefinitionIndex = 27670;
+inline static constexpr unsigned int LeavesComputeSolver_TypeDefinitionIndex = 26293;
 
 class LeavesComputeSolver : public ::System::Object
 {
@@ -33,29 +33,30 @@ public:
 	// static const ::System::Int32 Float3Stride = 0xC; // 0x0
 	// static const ::System::Int32 Float2Stride = 0x8; // 0x0
 	// static const ::System::Int32 FloatStride = 0x4; // 0x0
-	::UnityEngine::ComputeBuffer* _velocitiesBuf; // 0x10
-	::UnityEngine::ComputeBuffer* _positionsBuf; // 0x18
-	::UnityEngine::ComputeBuffer* _uvsBuf; // 0x20
-	::UnityEngine::ComputeBuffer* _normalsBuf; // 0x28
-	::UnityEngine::ComputeBuffer* _oldPositionsBuf; // 0x30
-	::UnityEngine::ComputeBuffer* _predictedPositionsBuf; // 0x38
-	::UnityEngine::ComputeBuffer* _leafInfoBuf; // 0x40
-	::UnityEngine::ComputeBuffer* _collisionBoxesBuf; // 0x48
-	::UnityEngine::ComputeBuffer* _restLengthsBuf; // 0x50
-	::UnityEngine::ComputeShader* _shader; // 0x58
+	::UnityEngine::ComputeBuffer* _predictedPositionsBuf; // 0x10
+	::UnityEngine::ComputeBuffer* _collisionBoxesBuf; // 0x18
+	::UnityEngine::ComputeBuffer* _restLengthsBuf; // 0x20
+	::UnityEngine::ComputeShader* _shader; // 0x28
+	::UnityEngine::ComputeBuffer* _leafInfoBuf; // 0x30
+	::UnityEngine::ComputeBuffer* _oldPositionsBuf; // 0x38
+	::UnityEngine::ComputeBuffer* _normalsBuf; // 0x40
+	::UnityEngine::ComputeBuffer* _uvsBuf; // 0x48
+	::UnityEngine::ComputeBuffer* _positionsBuf; // 0x50
+	::UnityEngine::ComputeBuffer* _velocitiesBuf; // 0x58
 	::System::Int32 _kernelFinalize; // 0x60
-	::System::Int32 _kernelExtForces; // 0x64
-	::System::Int32 _kernelCharForce; // 0x68
-	::System::Int32 _maxVertexCount; // 0x6C
-	::System::Int32 _kernelBoxCollision; // 0x70
-	::System::Int32 _maxLeafCount; // 0x74
-	::System::Int32 _kernelBendConstraint; // 0x78
+	::System::Int32 _maxVertexCount; // 0x64
+	::System::Int32 _kernelBendConstraint; // 0x68
+	::System::Int32 _maxLeafCount; // 0x6C
+	::System::Int32 _collisionBoxCount; // 0x70
+	::System::Int32 _kernelCharForce; // 0x74
+	::System::Int32 _kernelDistConstraint; // 0x78
 	::System::Boolean _disposed; // 0x7C
-	::System::Int32 _kernelSolveAll; // 0x80
-	::System::Int32 _kernelDistConstraint; // 0x84
-	::System::Int32 _collisionBoxCount; // 0x88
+	::System::Byte _padding0[0x3];
+	::System::Int32 _kernelExtForces; // 0x80
+	::System::Int32 _kernelBoxCollision; // 0x84
+	::System::Int32 _kernelSave; // 0x88
 	::System::Int32 _kernelInit; // 0x8C
-	::System::Int32 _kernelSave; // 0x90
+	::System::Int32 _kernelSolveAll; // 0x90
 	::System::Int32 _kernelGroundCollision; // 0x94
 
 	::System::Void _ctor(::UnityEngine::ComputeShader* shader, ::System::Int32 maxLeafCount)

@@ -3,7 +3,7 @@
 
 namespace System::Web
 {
-	inline static constexpr unsigned int AspNetHostingPermissionLevel_TypeDefinitionIndex = 4102;
+	inline static constexpr unsigned int AspNetHostingPermissionLevel_TypeDefinitionIndex = 4101;
 
 	enum class AspNetHostingPermissionLevel : ::System::Int32
 	{

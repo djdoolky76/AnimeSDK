@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_URBANMAPICONSIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x11499250)
+#define MOLEMOLE_URBANMAPICONSIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x13C0BA20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UrbanMapIconSize_TypeDefinitionIndex = 53573;
+	inline static constexpr unsigned int UrbanMapIconSize_TypeDefinitionIndex = 76690;
 
 	class UrbanMapIconSize : public ::System::Object
 	{

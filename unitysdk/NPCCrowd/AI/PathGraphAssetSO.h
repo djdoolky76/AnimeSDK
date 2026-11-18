@@ -5,11 +5,11 @@
 namespace NPCCrowd::AI { class PathGraphConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0xF84EF10)
+#define NPCCROWD_AI_PATHGRAPHASSETSO__CTOR_OFFSET UNITYSDK_OFFSET(0xEE724B0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphAssetSO_TypeDefinitionIndex = 71474;
+	inline static constexpr unsigned int PathGraphAssetSO_TypeDefinitionIndex = 61766;
 
 	class PathGraphAssetSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

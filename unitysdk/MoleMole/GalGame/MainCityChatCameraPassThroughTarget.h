@@ -3,7 +3,7 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatCameraPassThroughTarget_TypeDefinitionIndex = 78885;
+	inline static constexpr unsigned int MainCityChatCameraPassThroughTarget_TypeDefinitionIndex = 52412;
 
 	enum class MainCityChatCameraPassThroughTarget : ::System::Int32
 	{

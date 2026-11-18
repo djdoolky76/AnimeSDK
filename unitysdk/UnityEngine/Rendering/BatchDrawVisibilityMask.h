@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchDrawVisibilityMask_TypeDefinitionIndex = 6213;
+	inline static constexpr unsigned int BatchDrawVisibilityMask_TypeDefinitionIndex = 6228;
 
 	enum class BatchDrawVisibilityMask : ::System::Int32
 	{

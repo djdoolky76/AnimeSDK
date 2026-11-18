@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::Module
 {
-	inline static constexpr unsigned int WorldBasicCameraDataChannel_TypeDefinitionIndex = 38667;
+	inline static constexpr unsigned int WorldBasicCameraDataChannel_TypeDefinitionIndex = 36667;
 
 	enum class WorldBasicCameraDataChannel : ::System::Int32
 	{

@@ -4,14 +4,15 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCPREFABPARTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17FB83B0)
+#define NPCPREFABPARTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x114DC6F0)
 
-inline static constexpr unsigned int NPCPrefabPartInfo_TypeDefinitionIndex = 68889;
+inline static constexpr unsigned int NPCPrefabPartInfo_TypeDefinitionIndex = 88769;
 
 class NPCPrefabPartInfo : public ::System::Object
 {
 public:
 	::System::Int32 partId; // 0x10
+	::System::Byte _padding0[0x4];
 	::Il2CppArray<::System::Boolean>* bOverrides; // 0x18
 	::Il2CppArray<::System::Int32>* overrideInfoIds; // 0x20
 	::System::Collections::Generic::List_1<::System::Int32>* logicTags; // 0x28

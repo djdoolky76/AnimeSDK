@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_UIFILTERBAGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x186AE820)
+#define MOLEMOLE_UIFILTERBAGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x184B7C80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFilterBagWidgetController_Context_TypeDefinitionIndex = 42842;
+	inline static constexpr unsigned int UIFilterBagWidgetController_Context_TypeDefinitionIndex = 47207;
 
 	class UIFilterBagWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

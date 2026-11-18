@@ -2,21 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine::InputSystem { class InputDevice; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CE5BF30)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CE5BF70)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CE5B940)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5B920)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D3C9FB0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D3C9FF0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D3C99C0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C99B0)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputDeviceCommandDelegate_TypeDefinitionIndex = 32470;
+	inline static constexpr unsigned int InputDeviceCommandDelegate_TypeDefinitionIndex = 31919;
 
 	class InputDeviceCommandDelegate : public ::System::MulticastDelegate
 	{
@@ -26,14 +25,14 @@ namespace UnityEngine::InputSystem::LowLevel
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Nullable_1<::System::Int64> Invoke(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand* command)
+		::System::Nullable_1<::System::Int64> Invoke(::UnityEngine::InputSystem::InputDevice* device, ::PVOID command)
 		{
-			return ((::System::Nullable_1<::System::Int64>(*)(::PVOID, ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE_INVOKE_OFFSET))(this, device, command);
+			return ((::System::Nullable_1<::System::Int64>(*)(::PVOID, ::UnityEngine::InputSystem::InputDevice*, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE_INVOKE_OFFSET))(this, device, command);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand* command, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::InputSystem::InputDevice* device, ::PVOID command, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE_BEGININVOKE_OFFSET))(this, device, command, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::InputSystem::InputDevice*, ::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTDEVICECOMMANDDELEGATE_BEGININVOKE_OFFSET))(this, device, command, callback, object);
 		}
 
 		::System::Nullable_1<::System::Int64> EndInvoke(::System::IAsyncResult* result)

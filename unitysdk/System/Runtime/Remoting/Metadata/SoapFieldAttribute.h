@@ -5,12 +5,12 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPFIELDATTRIBUTE_SETREFLECTIONOBJECT_OFFSET UNITYSDK_OFFSET(0x1E412D30)
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E412D20)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPFIELDATTRIBUTE_SETREFLECTIONOBJECT_OFFSET UNITYSDK_OFFSET(0x1E6978B0)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6978A0)
 
 namespace System::Runtime::Remoting::Metadata
 {
-	inline static constexpr unsigned int SoapFieldAttribute_TypeDefinitionIndex = 1319;
+	inline static constexpr unsigned int SoapFieldAttribute_TypeDefinitionIndex = 1318;
 
 	class SoapFieldAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute
 	{

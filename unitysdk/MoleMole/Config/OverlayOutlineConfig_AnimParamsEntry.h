@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class OverlayOutlineConfig_AnimParams; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_ANIMPARAMSENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C472400)
+#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_ANIMPARAMSENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E8870)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int OverlayOutlineConfig_AnimParamsEntry_TypeDefinitionIndex = 54298;
+	inline static constexpr unsigned int OverlayOutlineConfig_AnimParamsEntry_TypeDefinitionIndex = 38857;
 
 	class OverlayOutlineConfig_AnimParamsEntry : public ::System::Object
 	{

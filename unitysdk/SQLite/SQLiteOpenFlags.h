@@ -3,7 +3,7 @@
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteOpenFlags_TypeDefinitionIndex = 39024;
+	inline static constexpr unsigned int SQLiteOpenFlags_TypeDefinitionIndex = 37024;
 
 	enum class SQLiteOpenFlags : ::System::Int32
 	{

@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JJEJBPGJPJN.h"
+#include "unitysdk/MoleMole/EntityHandle.h"
+
+class HPIILKMDMFO;
+namespace MoleMole::Config { class ConfigZipLine; }
+template <typename T> class JIOLFCAGOFH_1;
+template <typename T> class LJHFMILANJA_1;
+
+#define HPIILKMDMFO_JHIPLFHPKNF_AHAOPPKFKLE_OFFSET UNITYSDK_OFFSET(0x14D3BE70)
+#define HPIILKMDMFO_JHIPLFHPKNF_DIIHMEDGFCH_OFFSET UNITYSDK_OFFSET(0x14D3BED0)
+#define HPIILKMDMFO_JHIPLFHPKNF_EOOHDMMHELM_OFFSET UNITYSDK_OFFSET(0x14D3BEB0)
+#define HPIILKMDMFO_JHIPLFHPKNF_HDBKLOMFEAA_OFFSET UNITYSDK_OFFSET(0x14D3BEE0)
+#define HPIILKMDMFO_JHIPLFHPKNF_JGPFAMKGNGG_OFFSET UNITYSDK_OFFSET(0x14D3BEA0)
+#define HPIILKMDMFO_JHIPLFHPKNF_KEDLPNPPAEM_OFFSET UNITYSDK_OFFSET(0x14D3BE80)
+#define HPIILKMDMFO_JHIPLFHPKNF_LBDIHCNPLJL_OFFSET UNITYSDK_OFFSET(0x14D3BE90)
+#define HPIILKMDMFO_JHIPLFHPKNF_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x14D3BD60)
+#define HPIILKMDMFO_JHIPLFHPKNF__CTOR_OFFSET UNITYSDK_OFFSET(0x14D3BBA0)
+
+inline static constexpr unsigned int HPIILKMDMFO_JHIPLFHPKNF_TypeDefinitionIndex = 58776;
+
+class HPIILKMDMFO_JHIPLFHPKNF : public ::JJEJBPGJPJN
+{
+public:
+	::LJHFMILANJA_1<::MoleMole::EntityHandle>* _NCMIPCMCBMN_k__BackingField; // 0x88
+	::HPIILKMDMFO* _DKNELDAGPCO_k__BackingField; // 0x90
+	::JIOLFCAGOFH_1<::MoleMole::Config::ConfigZipLine*>* _OMEOJFEHPDI_k__BackingField; // 0x98
+
+	::System::Void _ctor(::HPIILKMDMFO* CJHKKDKFGJE)
+	{
+		return ((::System::Void(*)(::PVOID, ::HPIILKMDMFO*))((::PBYTE)hIl2Cpp + HPIILKMDMFO_JHIPLFHPKNF__CTOR_OFFSET))(this, CJHKKDKFGJE);
+	}
+
+	::System::Void OnCreateProperty()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HPIILKMDMFO_JHIPLFHPKNF_ONCREATEPROPERTY_OFFSET))(this);
+	}
+
+	::System::Void AHAOPPKFKLE(::HPIILKMDMFO* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::HPIILKMDMFO*))((::PBYTE)hIl2Cpp + HPIILKMDMFO_JHIPLFHPKNF_AHAOPPKFKLE_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void KEDLPNPPAEM(::JIOLFCAGOFH_1<::MoleMole::Config::ConfigZipLine*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::JIOLFCAGOFH_1<::MoleMole::Config::ConfigZipLine*>*))((::PBYTE)hIl2Cpp + HPIILKMDMFO_JHIPLFHPKNF_KEDLPNPPAEM_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LJHFMILANJA_1<::MoleMole::EntityHandle>* LBDIHCNPLJL()
+	{
+		return ((::LJHFMILANJA_1<::MoleMole::EntityHandle>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HPIILKMDMFO_JHIPLFHPKNF_LBDIHCNPLJL_OFFSET))(this);
+	}
+
+	::HPIILKMDMFO* JGPFAMKGNGG()
+	{
+		return ((::HPIILKMDMFO*(*)(::PVOID))((::PBYTE)hIl2Cpp + HPIILKMDMFO_JHIPLFHPKNF_JGPFAMKGNGG_OFFSET))(this);
+	}
+
+	::MoleMole::Config::ConfigZipLine* EOOHDMMHELM()
+	{
+		return ((::MoleMole::Config::ConfigZipLine*(*)(::PVOID))((::PBYTE)hIl2Cpp + HPIILKMDMFO_JHIPLFHPKNF_EOOHDMMHELM_OFFSET))(this);
+	}
+
+	::System::Void DIIHMEDGFCH(::LJHFMILANJA_1<::MoleMole::EntityHandle>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::MoleMole::EntityHandle>*))((::PBYTE)hIl2Cpp + HPIILKMDMFO_JHIPLFHPKNF_DIIHMEDGFCH_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::JIOLFCAGOFH_1<::MoleMole::Config::ConfigZipLine*>* HDBKLOMFEAA()
+	{
+		return ((::JIOLFCAGOFH_1<::MoleMole::Config::ConfigZipLine*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HPIILKMDMFO_JHIPLFHPKNF_HDBKLOMFEAA_OFFSET))(this);
+	}
+};

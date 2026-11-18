@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/HideFlags.h"
 
 namespace UnityEngine { class Mesh; }
 
-#define SPINE_UNITY_SPINEMESH_NEWSKELETONMESH_OFFSET UNITYSDK_OFFSET(0x1C170CF0)
+#define SPINE_UNITY_SPINEMESH_NEWSKELETONMESH_OFFSET UNITYSDK_OFFSET(0x1FB28B90)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineMesh_TypeDefinitionIndex = 40176;
+	inline static constexpr unsigned int SpineMesh_TypeDefinitionIndex = 38196;
 
 	class SpineMesh : public ::System::Object
 	{
 	public:
-		// static const ::UnityEngine::HideFlags MeshHideflags; // 0x0
+		// static const ::UnityEngine::HideFlags MeshHideflags = 0x14; // 0x0
 
 		static ::UnityEngine::Mesh* NewSkeletonMesh()
 		{

@@ -7,36 +7,36 @@ namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class SendOrPostCallback; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_INVOKEUNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1FB402D0)
-#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_PUBLISHUNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1FB40390)
-#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB40890)
+#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_INVOKEUNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1FF48000)
+#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER_PUBLISHUNOBSERVEDTASKEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1FF480C0)
+#define CYSHARP_THREADING_TASKS_UNITASKSCHEDULER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF485C0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskScheduler_TypeDefinitionIndex = 31923;
+	inline static constexpr unsigned int UniTaskScheduler_TypeDefinitionIndex = 31372;
 
 	class UniTaskScheduler : public ::System::Object
 	{
 	public:
-		static ::System::Threading::SendOrPostCallback** StaticGet_handleExceptionInvoke()
-		{
-			return (::System::Threading::SendOrPostCallback**)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x272D0);
-		}
 		static ::System::Action_1<::System::Exception*>** StaticGet_UnobservedTaskException()
 		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x272D8);
+			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x283F0);
 		}
-		static ::UnityEngine::LogType* StaticGet_UnobservedExceptionWriteLogType()
+		static ::System::Threading::SendOrPostCallback** StaticGet_handleExceptionInvoke()
 		{
-			return (::UnityEngine::LogType*)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x7BF0);
+			return (::System::Threading::SendOrPostCallback**)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x283F8);
 		}
 		static ::System::Boolean* StaticGet_PropagateOperationCanceledException()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x7BF4);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x8000);
 		}
 		static ::System::Boolean* StaticGet_DispatchUnityMainThread()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x7BF5);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x8001);
+		}
+		static ::UnityEngine::LogType* StaticGet_UnobservedExceptionWriteLogType()
+		{
+			return (::UnityEngine::LogType*)Il2CppClass::FromTypeDefinitionIndex(UniTaskScheduler_TypeDefinitionIndex)->GetStaticField(0x8004);
 		}
 
 		static ::System::Void _cctor()

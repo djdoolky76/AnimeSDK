@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_7.h"
 #include "unitysdk/MoleMole/Config/InlevelCameraState.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCAMERASTATENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DAD5D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCAMERASTATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DAD9A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCAMERASTATENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B339B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCAMERASTATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B33D80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCameraStateNode_TypeDefinitionIndex = 47012;
+	inline static constexpr unsigned int LDCameraStateNode_TypeDefinitionIndex = 47986;
 
-	class LDCameraStateNode : public ::FlowCanvas::Nodes::CallableFunctionNode_7<::System::Boolean, ::MoleMole::Config::InlevelCameraState, ::System::Boolean, ::System::String*, ::System::String*, ::System::Single, ::System::String*>
+	class LDCameraStateNode
 	{
 	public:
 		::System::Void _ctor()

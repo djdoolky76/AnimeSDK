@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x197DF4A0)
-#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS41_0__TRYOPENMAINRANKDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x197DF4B0)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19833290)
+#define MOLEMOLE_UIARCADEPAGECONTROLLER___C__DISPLAYCLASS41_0__TRYOPENMAINRANKDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x198332A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadePageController___c__DisplayClass41_0_TypeDefinitionIndex = 83504;
+	inline static constexpr unsigned int UIArcadePageController___c__DisplayClass41_0_TypeDefinitionIndex = 64396;
 
 	class UIArcadePageController___c__DisplayClass41_0 : public ::System::Object
 	{

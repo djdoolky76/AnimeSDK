@@ -7,19 +7,20 @@ namespace UnityEngine::Timeline { class ComicShakeEvent; }
 namespace UnityEngine::Timeline { class KeyEventBase; }
 namespace UnityEngine::Timeline { class TimelineAsset; }
 
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERZONEINFO_INITTIMELINEASSETCTX_OFFSET UNITYSDK_OFFSET(0x1FB34550)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERZONEINFO_ONCAMERASHAKEEVENTCHANGED_OFFSET UNITYSDK_OFFSET(0x1FB34530)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERZONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB34560)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERZONEINFO_INITTIMELINEASSETCTX_OFFSET UNITYSDK_OFFSET(0x1FF328D0)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERZONEINFO_ONCAMERASHAKEEVENTCHANGED_OFFSET UNITYSDK_OFFSET(0x1FF328B0)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERZONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF328E0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int EventTriggerZoneInfo_TypeDefinitionIndex = 32952;
+	inline static constexpr unsigned int EventTriggerZoneInfo_TypeDefinitionIndex = 32407;
 
 	class EventTriggerZoneInfo : public ::System::Object
 	{
 	public:
 		::UnityEngine::Timeline::TimelineAsset* tlAsset; // 0x10
 		::System::Boolean isStart; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Timeline::KeyEventBase* keyEvent; // 0x20
 		::UnityEngine::Timeline::ComicEventBase* zoneEventBase; // 0x28
 		::UnityEngine::Timeline::ComicShakeEvent* cameraShakeEvent; // 0x30

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DBF2701137F18AA6.h"
+#include "unitysdk/MIKOMFIBMBN.h"
 #include "unitysdk/MoleMole/GalGame/MainCityChatShowUIConfig.h"
 
-class Class_2_15F9FE7F9AD3257D;
+class HNOMJDLHAOD;
 namespace MoleMole::GalGame { class MainCityChatShowUIConfig_OnCloseWithIndex; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_GET_UICTRL_OFFSET UNITYSDK_OFFSET(0x136A67D0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_ONOPEN_OFFSET UNITYSDK_OFFSET(0x136A67E0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x136A69C0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_GET_UICTRL_OFFSET UNITYSDK_OFFSET(0x1357DD10)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_ONOPEN_OFFSET UNITYSDK_OFFSET(0x1357DD20)
+#define MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1357DF00)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatShowTriDiceMissionConfig_TypeDefinitionIndex = 83025;
+	inline static constexpr unsigned int MainCityChatShowTriDiceMissionConfig_TypeDefinitionIndex = 88028;
 
 	class MainCityChatShowTriDiceMissionConfig : public ::MoleMole::GalGame::MainCityChatShowUIConfig
 	{
@@ -26,14 +26,14 @@ namespace MoleMole::GalGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_DBF2701137F18AA6 get_UICtrl()
+		::MIKOMFIBMBN get_UICtrl()
 		{
-			return ((::Enum_3_DBF2701137F18AA6(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_GET_UICTRL_OFFSET))(this);
+			return ((::MIKOMFIBMBN(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_GET_UICTRL_OFFSET))(this);
 		}
 
-		::System::Void OnOpen(::Class_2_15F9FE7F9AD3257D* node, ::MoleMole::GalGame::MainCityChatShowUIConfig_OnCloseWithIndex* onClose)
+		::System::Void OnOpen(::HNOMJDLHAOD* node, ::MoleMole::GalGame::MainCityChatShowUIConfig_OnCloseWithIndex* onClose)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_15F9FE7F9AD3257D*, ::MoleMole::GalGame::MainCityChatShowUIConfig_OnCloseWithIndex*))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_ONOPEN_OFFSET))(this, node, onClose);
+			return ((::System::Void(*)(::PVOID, ::HNOMJDLHAOD*, ::MoleMole::GalGame::MainCityChatShowUIConfig_OnCloseWithIndex*))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATSHOWTRIDICEMISSIONCONFIG_ONOPEN_OFFSET))(this, node, onClose);
 		}
 	};
 }

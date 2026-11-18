@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeGraph/NodeGraphVariables_NodeGraphVariablesScope.h"
 #include "unitysdk/NodeGraph/VariantUnion.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NODEGRAPH_NODEGRAPHVARIABLES_CLEAR_OFFSET UNITYSDK_OFFSET(0x142BED20)
-#define NODEGRAPH_NODEGRAPHVARIABLES_GETVALUE_OFFSET UNITYSDK_OFFSET(0x142BEA00)
-#define NODEGRAPH_NODEGRAPHVARIABLES_SETVALUE_OFFSET UNITYSDK_OFFSET(0x142BEB70)
-#define NODEGRAPH_NODEGRAPHVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x142BEDC0)
+#define NODEGRAPH_NODEGRAPHVARIABLES_CLEAR_OFFSET UNITYSDK_OFFSET(0xFD4FBC0)
+#define NODEGRAPH_NODEGRAPHVARIABLES_GETVALUE_OFFSET UNITYSDK_OFFSET(0xFD4F8A0)
+#define NODEGRAPH_NODEGRAPHVARIABLES_SETVALUE_OFFSET UNITYSDK_OFFSET(0xFD4FA10)
+#define NODEGRAPH_NODEGRAPHVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0xFD4FC60)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int NodeGraphVariables_TypeDefinitionIndex = 86876;
+	inline static constexpr unsigned int NodeGraphVariables_TypeDefinitionIndex = 40618;
 
 	class NodeGraphVariables : public ::System::Object
 	{

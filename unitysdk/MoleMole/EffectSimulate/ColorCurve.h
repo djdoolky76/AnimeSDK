@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/EffectSimulate/EvaluateAnimationCurve_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 
 class NapGradient;
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_0A66118846A84639_OFFSET UNITYSDK_OFFSET(0x148847D0)
-#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_155C191EC0431EA4_OFFSET UNITYSDK_OFFSET(0x148844E0)
-#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_30C47F9E0D18E066_OFFSET UNITYSDK_OFFSET(0x14884A40)
-#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_72B99BAD012F62D7_OFFSET UNITYSDK_OFFSET(0x148843F0)
-#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_ADF4AD3331B4D7AD_1_OFFSET UNITYSDK_OFFSET(0x14884660)
-#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0x14884610)
-#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_D78AF612F12CBCF2_OFFSET UNITYSDK_OFFSET(0x148846B0)
-#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_E4CA96892168D5CE_OFFSET UNITYSDK_OFFSET(0x14884740)
-#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x148845B0)
+#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_BNJAJBDLJHA_OFFSET UNITYSDK_OFFSET(0x1B4586E0)
+#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_EEKBEBDCPCL_OFFSET UNITYSDK_OFFSET(0x1B458770)
+#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_FCFOEJGPDNO_OFFSET UNITYSDK_OFFSET(0x1B458390)
+#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_FCMGIKPFDEG_OFFSET UNITYSDK_OFFSET(0x1B4585B0)
+#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_GECJPENLMDJ_OFFSET UNITYSDK_OFFSET(0x1B458840)
+#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_INMGFPFLGDC_OFFSET UNITYSDK_OFFSET(0x1B458650)
+#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_NAIMLHBOJIH_OFFSET UNITYSDK_OFFSET(0x1B458600)
+#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE_NDGBCAJAHPF_OFFSET UNITYSDK_OFFSET(0x1B458480)
+#define MOLEMOLE_EFFECTSIMULATE_COLORCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B458550)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ColorCurve_TypeDefinitionIndex = 87649;
+	inline static constexpr unsigned int ColorCurve_TypeDefinitionIndex = 87327;
 
-	class ColorCurve : public ::MoleMole::EffectSimulate::EvaluateAnimationCurve_1<::UnityEngine::Color>
+	class ColorCurve
 	{
 	public:
 		::NapGradient* gradient; // 0x90
@@ -30,44 +29,44 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Color Method_4_72B99BAD012F62D7(::System::Single a1, ::UnityEngine::Color a2)
+		::UnityEngine::Color FCFOEJGPDNO(::System::Single HIIOCANBKAM, ::UnityEngine::Color GIGFCJMEFHK)
 		{
-			return ((::UnityEngine::Color(*)(::PVOID, ::System::Single, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_72B99BAD012F62D7_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Color(*)(::PVOID, ::System::Single, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_FCFOEJGPDNO_OFFSET))(this, HIIOCANBKAM, GIGFCJMEFHK);
 		}
 
-		::UnityEngine::Color Method_4_155C191EC0431EA4(::UnityEngine::Color a1, ::UnityEngine::Color a2, ::System::Single a3)
+		::UnityEngine::Color NDGBCAJAHPF(::UnityEngine::Color DGJPJAHELMN, ::UnityEngine::Color LFGOAJKIDOL, ::System::Single IMLLDOHDCNC)
 		{
-			return ((::UnityEngine::Color(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_155C191EC0431EA4_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Color(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_NDGBCAJAHPF_OFFSET))(this, DGJPJAHELMN, LFGOAJKIDOL, IMLLDOHDCNC);
 		}
 
-		::System::Void Method_4_ADF4AD3331B4D7AD(::System::Int32 a1)
+		::System::Void FCMGIKPFDEG(::System::Int32 GEJCKFFFKCL)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_ADF4AD3331B4D7AD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_FCMGIKPFDEG_OFFSET))(this, GEJCKFFFKCL);
 		}
 
-		::System::Void Method_4_ADF4AD3331B4D7AD_1(::System::Int32 a1)
+		::System::Void NAIMLHBOJIH(::System::Int32 GEJCKFFFKCL)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_ADF4AD3331B4D7AD_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_NAIMLHBOJIH_OFFSET))(this, GEJCKFFFKCL);
 		}
 
-		::UnityEngine::AnimationCurve* Method_4_D78AF612F12CBCF2(::System::Int32 a1)
+		::UnityEngine::AnimationCurve* INMGFPFLGDC(::System::Int32 GEJCKFFFKCL)
 		{
-			return ((::UnityEngine::AnimationCurve*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_D78AF612F12CBCF2_OFFSET))(this, a1);
+			return ((::UnityEngine::AnimationCurve*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_INMGFPFLGDC_OFFSET))(this, GEJCKFFFKCL);
 		}
 
-		::System::Void Method_4_E4CA96892168D5CE(::System::Int32 a1, ::System::Boolean a2)
+		::System::Void BNJAJBDLJHA(::System::Int32 GEJCKFFFKCL, ::System::Boolean GEGOALONGBI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_E4CA96892168D5CE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_BNJAJBDLJHA_OFFSET))(this, GEJCKFFFKCL, GEGOALONGBI);
 		}
 
-		::System::Boolean Method_4_0A66118846A84639(::UnityEngine::Color a1, ::UnityEngine::Color a2)
+		::NapGradient* EEKBEBDCPCL(::System::Int32 MEGPACNOBIK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_0A66118846A84639_OFFSET))(this, a1, a2);
+			return ((::NapGradient*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_EEKBEBDCPCL_OFFSET))(this, MEGPACNOBIK);
 		}
 
-		::NapGradient* Method_4_30C47F9E0D18E066(::System::Int32 a1)
+		::System::Boolean GECJPENLMDJ(::UnityEngine::Color EJCBEJMGFAJ, ::UnityEngine::Color EBFCACIEKBC)
 		{
-			return ((::NapGradient*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_METHOD_4_30C47F9E0D18E066_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_COLORCURVE_GECJPENLMDJ_OFFSET))(this, EJCBEJMGFAJ, EBFCACIEKBC);
 		}
 	};
 }

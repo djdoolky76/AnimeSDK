@@ -3,7 +3,7 @@
 
 namespace Mono::Xml
 {
-	inline static constexpr unsigned int MiniParser_IReader_TypeDefinitionIndex = 2261;
+	inline static constexpr unsigned int MiniParser_IReader_TypeDefinitionIndex = 2260;
 
 	class MiniParser_IReader
 	{

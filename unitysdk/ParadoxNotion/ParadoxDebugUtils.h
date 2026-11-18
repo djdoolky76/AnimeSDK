@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define PARADOXNOTION_PARADOXDEBUGUTILS_BINARY_LOG_1_OFFSET UNITYSDK_OFFSET(0x1EB9E780)
-#define PARADOXNOTION_PARADOXDEBUGUTILS_BINARY_LOG_ERROR_OFFSET UNITYSDK_OFFSET(0x1EB9E710)
-#define PARADOXNOTION_PARADOXDEBUGUTILS_BINARY_LOG_FULL_OFFSET UNITYSDK_OFFSET(0x1EB9E820)
-#define PARADOXNOTION_PARADOXDEBUGUTILS_BINARY_LOG_OFFSET UNITYSDK_OFFSET(0x1EB9E6A0)
-#define PARADOXNOTION_PARADOXDEBUGUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB9E890)
+#define PARADOXNOTION_PARADOXDEBUGUTILS_BINARY_LOG_1_OFFSET UNITYSDK_OFFSET(0x1EF6E1F0)
+#define PARADOXNOTION_PARADOXDEBUGUTILS_BINARY_LOG_ERROR_OFFSET UNITYSDK_OFFSET(0x1EF6E180)
+#define PARADOXNOTION_PARADOXDEBUGUTILS_BINARY_LOG_FULL_OFFSET UNITYSDK_OFFSET(0x1EF6E290)
+#define PARADOXNOTION_PARADOXDEBUGUTILS_BINARY_LOG_OFFSET UNITYSDK_OFFSET(0x1EF6E110)
+#define PARADOXNOTION_PARADOXDEBUGUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF6E300)
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int ParadoxDebugUtils_TypeDefinitionIndex = 31279;
+	inline static constexpr unsigned int ParadoxDebugUtils_TypeDefinitionIndex = 29767;
 
 	class ParadoxDebugUtils : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_IsOpenLog1Log()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ParadoxDebugUtils_TypeDefinitionIndex)->GetStaticField(0x7AE0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ParadoxDebugUtils_TypeDefinitionIndex)->GetStaticField(0x7EF0);
 		}
 
 		static ::System::Void _cctor()

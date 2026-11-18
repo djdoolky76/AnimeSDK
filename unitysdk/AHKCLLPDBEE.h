@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AHKCLLPDBEE_FFAODEAKKHP.h"
+#include "unitysdk/System/Object.h"
+
+#define AHKCLLPDBEE_FFJHHCOKHFF_OFFSET UNITYSDK_OFFSET(0x1F8505A0)
+#define AHKCLLPDBEE_LINMAGICDAD_OFFSET UNITYSDK_OFFSET(0x1F8505B0)
+#define AHKCLLPDBEE_NJKBAFFCNEN_OFFSET UNITYSDK_OFFSET(0x1F8505C0)
+
+inline static constexpr unsigned int AHKCLLPDBEE_TypeDefinitionIndex = 18173;
+
+class AHKCLLPDBEE : public ::System::Object
+{
+public:
+	static ::System::UInt32 FFJHHCOKHFF(::System::Int32 HDKNIHBGIBC, ::AHKCLLPDBEE_FFAODEAKKHP OKAJEOHLMBJ)
+	{
+		return ((::System::UInt32(*)(::System::Int32, ::AHKCLLPDBEE_FFAODEAKKHP))((::PBYTE)hIl2Cpp + AHKCLLPDBEE_FFJHHCOKHFF_OFFSET))(HDKNIHBGIBC, OKAJEOHLMBJ);
+	}
+
+	static ::AHKCLLPDBEE_FFAODEAKKHP LINMAGICDAD(::System::UInt32 AELLPLBJELA)
+	{
+		return ((::AHKCLLPDBEE_FFAODEAKKHP(*)(::System::UInt32))((::PBYTE)hIl2Cpp + AHKCLLPDBEE_LINMAGICDAD_OFFSET))(AELLPLBJELA);
+	}
+
+	static ::System::Int32 NJKBAFFCNEN(::System::UInt32 AELLPLBJELA)
+	{
+		return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + AHKCLLPDBEE_NJKBAFFCNEN_OFFSET))(AELLPLBJELA);
+	}
+};

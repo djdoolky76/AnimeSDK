@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/LJIBNLBCGFG.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowChessboardUID.h"
-#include "unitysdk/Struct_2_90E529DB4DCB014F.h"
 #include "unitysdk/System/Object.h"
 
 class PushBoxGameView;
 
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3E870)
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS19_0__GENCHESSBOARD_B__0_OFFSET UNITYSDK_OFFSET(0x1BC3E880)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1EF740)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS19_0__GENCHESSBOARD_B__0_OFFSET UNITYSDK_OFFSET(0x1C1EF750)
 
-inline static constexpr unsigned int PushBoxGameView___c__DisplayClass19_0_TypeDefinitionIndex = 84519;
+inline static constexpr unsigned int PushBoxGameView___c__DisplayClass19_0_TypeDefinitionIndex = 61730;
 
 class PushBoxGameView___c__DisplayClass19_0 : public ::System::Object
 {
 public:
 	::PushBoxGameView* __4__this; // 0x10
-	::Struct_2_90E529DB4DCB014F sectionId; // 0x18
+	::LJIBNLBCGFG sectionId; // 0x18
 	::MoleMole::HollowChessboard::HollowChessboardUID chessboardUid; // 0x20
 
 	::System::Void _ctor()

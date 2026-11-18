@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
-
-namespace UnityEngine { class Collider; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnTriggerEnterHandler_TypeDefinitionIndex = 32036;
+	inline static constexpr unsigned int IAsyncOnTriggerEnterHandler_TypeDefinitionIndex = 31485;
 
 	class IAsyncOnTriggerEnterHandler
 	{

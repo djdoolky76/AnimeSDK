@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_F2DAD7F45F518868;
+class COCJHGGDBCA;
 namespace System { template <typename T> class Action_1; }
 
-#define NPCCROWD_LOD_NPCACCESSORYATTACHEDMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11949910)
-#define NPCCROWD_LOD_NPCACCESSORYATTACHEDMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11949950)
-#define NPCCROWD_LOD_NPCACCESSORYATTACHEDMANAGER___C__UPDATE_B__2_0_OFFSET UNITYSDK_OFFSET(0x11949960)
+#define NPCCROWD_LOD_NPCACCESSORYATTACHEDMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x105FB250)
+#define NPCCROWD_LOD_NPCACCESSORYATTACHEDMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x105FB290)
+#define NPCCROWD_LOD_NPCACCESSORYATTACHEDMANAGER___C__UPDATE_B__2_0_OFFSET UNITYSDK_OFFSET(0x105FB2A0)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCAccessoryAttachedManager___c_TypeDefinitionIndex = 54392;
+	inline static constexpr unsigned int NPCAccessoryAttachedManager___c_TypeDefinitionIndex = 56949;
 
 	class NPCAccessoryAttachedManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_3_F2DAD7F45F518868*>** StaticGet___9__2_0()
+		static ::System::Action_1<::COCJHGGDBCA*>** StaticGet___9__2_0()
 		{
-			return (::System::Action_1<::Class_3_F2DAD7F45F518868*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryAttachedManager___c_TypeDefinitionIndex)->GetStaticField(0x456A0);
+			return (::System::Action_1<::COCJHGGDBCA*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryAttachedManager___c_TypeDefinitionIndex)->GetStaticField(0x4B110);
 		}
-		static ::NPCCrowd::Lod::NPCAccessoryAttachedManager___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::NPCCrowd::Lod::NPCAccessoryAttachedManager___c**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryAttachedManager___c_TypeDefinitionIndex)->GetStaticField(0x456A8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryAttachedManager___c_TypeDefinitionIndex)->GetStaticField(0x4B118);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace NPCCrowd::Lod
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCACCESSORYATTACHEDMANAGER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Update_b__2_0(::Class_3_F2DAD7F45F518868* npcComp)
+		::System::Void _Update_b__2_0(::COCJHGGDBCA* npcComp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCACCESSORYATTACHEDMANAGER___C__UPDATE_B__2_0_OFFSET))(this, npcComp);
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCACCESSORYATTACHEDMANAGER___C__UPDATE_B__2_0_OFFSET))(this, npcComp);
 		}
 	};
 }

@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define BLACKCURTAINMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC3D790)
-#define BLACKCURTAINMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC3D7D0)
-#define BLACKCURTAINMANAGER___C__SUSPENDCURRENTMATPROPERTYMODIFIERS_B__25_0_OFFSET UNITYSDK_OFFSET(0x1AC3D7E0)
+#define BLACKCURTAINMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16936740)
+#define BLACKCURTAINMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16936780)
+#define BLACKCURTAINMANAGER___C__SUSPENDCURRENTMATPROPERTYMODIFIERS_B__25_0_OFFSET UNITYSDK_OFFSET(0x16936790)
 
-inline static constexpr unsigned int BlackCurtainManager___c_TypeDefinitionIndex = 68196;
+inline static constexpr unsigned int BlackCurtainManager___c_TypeDefinitionIndex = 58590;
 
 class BlackCurtainManager___c : public ::System::Object
 {
 public:
-	static ::BlackCurtainManager___c** StaticGet___9()
+	static ::System::Object** StaticGet___9()
 	{
-		return (::BlackCurtainManager___c**)Il2CppClass::FromTypeDefinitionIndex(BlackCurtainManager___c_TypeDefinitionIndex)->GetStaticField(0x38630);
+		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(BlackCurtainManager___c_TypeDefinitionIndex)->GetStaticField(0x3A4C0);
 	}
 	static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__25_0()
 	{
-		return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(BlackCurtainManager___c_TypeDefinitionIndex)->GetStaticField(0x38638);
+		return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(BlackCurtainManager___c_TypeDefinitionIndex)->GetStaticField(0x3A4C8);
 	}
 
 	static ::System::Void _cctor()

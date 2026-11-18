@@ -1,31 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
 
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1FAA6B90)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1FAA6C00)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1FAA6D30)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_TRYINVOKECONTINUATION_OFFSET UNITYSDK_OFFSET(0x1FAA6970)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1FAA6CC0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAA6550)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1FE8D0A0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1FE8D110)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1FE8D240)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_TRYINVOKECONTINUATION_OFFSET UNITYSDK_OFFSET(0x1FE8CE80)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1FE8D1D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALLPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE8CA60)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WhenAllPromise_TypeDefinitionIndex = 31879;
+	inline static constexpr unsigned int UniTask_WhenAllPromise_TypeDefinitionIndex = 31323;
 
 	class UniTask_WhenAllPromise : public ::System::Object
 	{
 	public:
 		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x10
-		::System::Int32 completeCount; // 0x30
-		::System::Int32 tasksLength; // 0x34
+		::System::Byte _padding0[0x18];
+		::System::Int32 tasksLength; // 0x30
+		::System::Int32 completeCount; // 0x34
 
 		::System::Void _ctor(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>* tasks, ::System::Int32 tasksLength)
 		{

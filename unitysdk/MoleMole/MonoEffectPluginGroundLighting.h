@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/LineLightingV2_LineLightingV2Param.h"
 #include "unitysdk/MoleMole/MonoEffectPluginBase.h"
 #include "unitysdk/MoleMole/MonoEffectPluginGroundLighting_LineFloatRange.h"
+#include "unitysdk/LineLightingV2_LineLightingV2Param.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace MoleMole { class MonoEffectPluginGroundLighting_BoneListConfig; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETCURVEWIDTH_OFFSET UNITYSDK_OFFSET(0x11D4BC10)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETDURATION_OFFSET UNITYSDK_OFFSET(0x11D4B9A0)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETENDPOINT_OFFSET UNITYSDK_OFFSET(0x11D4AE90)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETLINELIGHTINGV2PARAM_OFFSET UNITYSDK_OFFSET(0x11D4B3A0)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETSTARTPOINT_OFFSET UNITYSDK_OFFSET(0x11D4B130)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETUPDATEENDDELAYDURATION_OFFSET UNITYSDK_OFFSET(0x11D4BB40)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETUPDATEENDDURATION_OFFSET UNITYSDK_OFFSET(0x11D4BA70)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_METHOD_6_7A4445839B75D76B_OFFSET UNITYSDK_OFFSET(0x11D4B0B0)
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING__CTOR_OFFSET UNITYSDK_OFFSET(0x11D4BCF0)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_DOGBODCIKGG_OFFSET UNITYSDK_OFFSET(0x119397D0)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETCURVEWIDTH_OFFSET UNITYSDK_OFFSET(0x1193A330)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETDURATION_OFFSET UNITYSDK_OFFSET(0x1193A0C0)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETENDPOINT_OFFSET UNITYSDK_OFFSET(0x119395B0)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETLINELIGHTINGV2PARAM_OFFSET UNITYSDK_OFFSET(0x11939AC0)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETSTARTPOINT_OFFSET UNITYSDK_OFFSET(0x11939850)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETUPDATEENDDELAYDURATION_OFFSET UNITYSDK_OFFSET(0x1193A260)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETUPDATEENDDURATION_OFFSET UNITYSDK_OFFSET(0x1193A190)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1193A410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginGroundLighting_TypeDefinitionIndex = 83284;
+	inline static constexpr unsigned int MonoEffectPluginGroundLighting_TypeDefinitionIndex = 42515;
 
 	class MonoEffectPluginGroundLighting : public ::MoleMole::MonoEffectPluginBase
 	{
@@ -45,8 +45,10 @@ namespace MoleMole
 		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange EndGroundPointOffsetX; // 0x94
 		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange EndGroundPointOffsetZ; // 0xA0
 		::System::Boolean UseBonePoint; // 0xAC
-		::System::Collections::Generic::List_1<::MoleMole::MonoEffectPluginGroundLighting_BoneListConfig*>* BoneListConfigs; // 0xB0
+		::System::Byte _padding0[0x3];
+		::System::Collections::Generic::List_1<::System::Object*>* BoneListConfigs; // 0xB0
 		::System::Boolean UseEntityEndPoint; // 0xB8
+		::System::Byte _padding1[0x7];
 		::System::String* EntityEndPointAttachPointName; // 0xC0
 		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange altRotationRange; // 0xC8
 		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange ampXRange; // 0xD4
@@ -55,6 +57,7 @@ namespace MoleMole
 		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange displacementRange; // 0xF8
 		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange detailRange; // 0x104
 		::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange curveAmpRange; // 0x110
+		::System::Byte _padding2[0x4];
 		::System::String* layerMask; // 0x120
 		::System::String* tag; // 0x128
 		::System::Single rayDiatance; // 0x130
@@ -65,19 +68,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 GetEndPoint(::UnityEngine::Vector3 a1)
+		::UnityEngine::Vector3 GetEndPoint(::UnityEngine::Vector3 CKPGOKHECCH)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETENDPOINT_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETENDPOINT_OFFSET))(this, CKPGOKHECCH);
 		}
 
-		::UnityEngine::Vector3 GetStartPoint(::UnityEngine::Vector3 a1)
+		::UnityEngine::Vector3 GetStartPoint(::UnityEngine::Vector3 CKPGOKHECCH)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETSTARTPOINT_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETSTARTPOINT_OFFSET))(this, CKPGOKHECCH);
 		}
 
-		::LineLightingV2_LineLightingV2Param GetLineLightingV2Param(::LineLightingV2_LineLightingV2Param a1)
+		::LineLightingV2_LineLightingV2Param GetLineLightingV2Param(::LineLightingV2_LineLightingV2Param DEKJDEPKKLH)
 		{
-			return ((::LineLightingV2_LineLightingV2Param(*)(::PVOID, ::LineLightingV2_LineLightingV2Param))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETLINELIGHTINGV2PARAM_OFFSET))(this, a1);
+			return ((::LineLightingV2_LineLightingV2Param(*)(::PVOID, ::LineLightingV2_LineLightingV2Param))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETLINELIGHTINGV2PARAM_OFFSET))(this, DEKJDEPKKLH);
 		}
 
 		::System::Single GetDuration()
@@ -100,9 +103,9 @@ namespace MoleMole
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_GETCURVEWIDTH_OFFSET))(this);
 		}
 
-		::System::Single Method_6_7A4445839B75D76B(::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange a1)
+		::System::Single DOGBODCIKGG(::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange LNJFKBBFABK)
 		{
-			return ((::System::Single(*)(::PVOID, ::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_METHOD_6_7A4445839B75D76B_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::MoleMole::MonoEffectPluginGroundLighting_LineFloatRange))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_DOGBODCIKGG_OFFSET))(this, LNJFKBBFABK);
 		}
 	};
 }

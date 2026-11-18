@@ -7,20 +7,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERCOLLISIONCHECK_GET_TAGIDS_OFFSET UNITYSDK_OFFSET(0x1C467E20)
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERCOLLISIONCHECK_ONVALUECHANGED_TAG_OFFSET UNITYSDK_OFFSET(0x1C467F60)
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERCOLLISIONCHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C467FD0)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERCOLLISIONCHECK_GET_TAGIDS_OFFSET UNITYSDK_OFFSET(0x1C6DD5B0)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERCOLLISIONCHECK_ONVALUECHANGED_TAG_OFFSET UNITYSDK_OFFSET(0x1C6DD6F0)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGENTERCOLLISIONCHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6DD760)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigEnterCollisionCheck_TypeDefinitionIndex = 53021;
+	inline static constexpr unsigned int ConfigZipLine_ConfigEnterCollisionCheck_TypeDefinitionIndex = 54280;
 
 	class ConfigZipLine_ConfigEnterCollisionCheck : public ::System::Object
 	{
 	public:
 		::UnityEngine::LayerMask layer; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::String*>* tags; // 0x18
 		::System::Single radius; // 0x20
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::System::Int32>* _tagIDs; // 0x28
 
 		::System::Void _ctor()

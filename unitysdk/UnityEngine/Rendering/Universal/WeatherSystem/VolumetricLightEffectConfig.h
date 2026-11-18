@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICLIGHTEFFECTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CB42560)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICLIGHTEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB426B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICLIGHTEFFECTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CF04660)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICLIGHTEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF047B0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int VolumetricLightEffectConfig_TypeDefinitionIndex = 27839;
+	inline static constexpr unsigned int VolumetricLightEffectConfig_TypeDefinitionIndex = 26229;
 
-	class VolumetricLightEffectConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::VolumetricLightEffectConfig*>
+	class VolumetricLightEffectConfig
 	{
 	public:
 		::System::Boolean hasLightFogProxy; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single lightFogMaxDensity; // 0x1C
 		::System::Single lightFogSoftParticleStartFadeDistance; // 0x20
 		::System::Single lightFogSoftParticleFadeFactor; // 0x24

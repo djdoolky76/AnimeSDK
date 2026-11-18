@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_MATERIALGLITCHTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FB329D0)
-#define MOLEMOLE_TIMELINE_MATERIALGLITCHTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB32B70)
+#define MOLEMOLE_TIMELINE_MATERIALGLITCHTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FF30D50)
+#define MOLEMOLE_TIMELINE_MATERIALGLITCHTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF30EF0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialGlitchTrack_TypeDefinitionIndex = 32838;
+	inline static constexpr unsigned int MaterialGlitchTrack_TypeDefinitionIndex = 32289;
 
 	class MaterialGlitchTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

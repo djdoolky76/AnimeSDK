@@ -5,18 +5,17 @@
 
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-#define PARADOXNOTION_OBJECTUTILS_ANYEQUALS_OFFSET UNITYSDK_OFFSET(0x1E733290)
-#define PARADOXNOTION_OBJECTUTILS_FINDGAMEOBJECTSWITHINLAYERMASK_OFFSET UNITYSDK_OFFSET(0x1E7336C0)
-#define PARADOXNOTION_OBJECTUTILS_ISINLAYERMASK_OFFSET UNITYSDK_OFFSET(0x1E733790)
-#define PARADOXNOTION_OBJECTUTILS_TRANSFORMTOTYPE_OFFSET UNITYSDK_OFFSET(0x1E733410)
+#define PARADOXNOTION_OBJECTUTILS_ANYEQUALS_OFFSET UNITYSDK_OFFSET(0x1E9D8570)
+#define PARADOXNOTION_OBJECTUTILS_FINDGAMEOBJECTSWITHINLAYERMASK_OFFSET UNITYSDK_OFFSET(0x1E9D89A0)
+#define PARADOXNOTION_OBJECTUTILS_ISINLAYERMASK_OFFSET UNITYSDK_OFFSET(0x1E9D8A60)
+#define PARADOXNOTION_OBJECTUTILS_TRANSFORMTOTYPE_OFFSET UNITYSDK_OFFSET(0x1E9D86F0)
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int ObjectUtils_TypeDefinitionIndex = 31040;
+	inline static constexpr unsigned int ObjectUtils_TypeDefinitionIndex = 30552;
 
 	class ObjectUtils : public ::System::Object
 	{

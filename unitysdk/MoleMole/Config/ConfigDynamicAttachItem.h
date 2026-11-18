@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICATTACHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x116FEE20)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICATTACHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xFABD020)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDynamicAttachItem_TypeDefinitionIndex = 72621;
+	inline static constexpr unsigned int ConfigDynamicAttachItem_TypeDefinitionIndex = 67406;
 
 	class ConfigDynamicAttachItem : public ::System::Object
 	{
 	public:
-		::System::String* attachPointName; // 0x10
-		::System::String* dynamicAssetPath; // 0x18
+		::System::String* dynamicAssetPath; // 0x10
+		::System::String* attachPointName; // 0x18
 
 		::System::Void _ctor()
 		{

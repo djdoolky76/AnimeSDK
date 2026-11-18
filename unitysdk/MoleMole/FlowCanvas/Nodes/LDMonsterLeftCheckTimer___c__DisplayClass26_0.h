@@ -5,12 +5,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDMonsterLeftCheckTimer; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMONSTERLEFTCHECKTIMER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9A35D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMONSTERLEFTCHECKTIMER___C__DISPLAYCLASS26_0__INTERNALCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x1A9A35E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMONSTERLEFTCHECKTIMER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10D134F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMONSTERLEFTCHECKTIMER___C__DISPLAYCLASS26_0__INTERNALCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x10D13500)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMonsterLeftCheckTimer___c__DisplayClass26_0_TypeDefinitionIndex = 73446;
+	inline static constexpr unsigned int LDMonsterLeftCheckTimer___c__DisplayClass26_0_TypeDefinitionIndex = 86630;
 
 	class LDMonsterLeftCheckTimer___c__DisplayClass26_0 : public ::System::Object
 	{

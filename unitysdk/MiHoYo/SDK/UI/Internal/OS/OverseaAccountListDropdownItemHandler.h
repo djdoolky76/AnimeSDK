@@ -7,17 +7,17 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CE1EA20)
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_GETKEY_OFFSET UNITYSDK_OFFSET(0x1CE206F0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_ONDELETEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1CE20720)
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CE20640)
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_PARSEACCOUNTINFO_OFFSET UNITYSDK_OFFSET(0x1CE1F930)
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_START_OFFSET UNITYSDK_OFFSET(0x1CE1F920)
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE20780)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D38CFE0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_GETKEY_OFFSET UNITYSDK_OFFSET(0x1D38F050)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_ONDELETEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1D38F080)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D38EFA0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_PARSEACCOUNTINFO_OFFSET UNITYSDK_OFFSET(0x1D38E1F0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_START_OFFSET UNITYSDK_OFFSET(0x1D38E1E0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D38F0E0)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int OverseaAccountListDropdownItemHandler_TypeDefinitionIndex = 20540;
+	inline static constexpr unsigned int OverseaAccountListDropdownItemHandler_TypeDefinitionIndex = 19698;
 
 	class OverseaAccountListDropdownItemHandler : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,6 +30,7 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		// static const ::System::String* facebookIconPath; // 0x0
 		// static const ::System::String* googleIconPath; // 0x0
 		// static const ::System::String* twitterIconPath; // 0x0
+		// static const ::System::String* discordIconPath; // 0x0
 		// static const ::System::String* itemTextPath; // 0x0
 		// static const ::System::String* splitVertical; // 0x0
 		// static const ::System::String* MidContent; // 0x0
@@ -46,12 +47,13 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		::UnityEngine::UI::Image* facebookIcon; // 0x48
 		::UnityEngine::UI::Image* googleIcon; // 0x50
 		::UnityEngine::UI::Image* twitterIcon; // 0x58
-		::UnityEngine::UI::Image* itemBackgournd; // 0x60
-		::UnityEngine::UI::Image* buttonBackgournd; // 0x68
-		::UnityEngine::UI::Button* deleteButton; // 0x70
-		::UnityEngine::UI::Text* buttonText; // 0x78
-		::UnityEngine::UI::Image* icon; // 0x80
-		::System::String* type; // 0x88
+		::UnityEngine::UI::Image* discordIcon; // 0x60
+		::UnityEngine::UI::Image* itemBackgournd; // 0x68
+		::UnityEngine::UI::Image* buttonBackgournd; // 0x70
+		::UnityEngine::UI::Button* deleteButton; // 0x78
+		::UnityEngine::UI::Text* buttonText; // 0x80
+		::UnityEngine::UI::Image* icon; // 0x88
+		::System::String* type; // 0x90
 
 		::System::Void _ctor()
 		{

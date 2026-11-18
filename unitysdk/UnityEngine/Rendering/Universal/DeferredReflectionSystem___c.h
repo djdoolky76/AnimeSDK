@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::Rendering::Universal { class DeferredReflectionProbe; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E245C40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E245C80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__REMOVEPROBE_B__22_0_OFFSET UNITYSDK_OFFSET(0x1E245C90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E363470)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3634B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__REMOVEPROBE_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E3634C0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DeferredReflectionSystem___c_TypeDefinitionIndex = 27124;
+	inline static constexpr unsigned int DeferredReflectionSystem___c_TypeDefinitionIndex = 26977;
 
 	class DeferredReflectionSystem___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::UnityEngine::Rendering::Universal::DeferredReflectionProbe*>** StaticGet___9__22_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Predicate_1<::UnityEngine::Rendering::Universal::DeferredReflectionProbe*>**)Il2CppClass::FromTypeDefinitionIndex(DeferredReflectionSystem___c_TypeDefinitionIndex)->GetStaticField(0x22FC0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(DeferredReflectionSystem___c_TypeDefinitionIndex)->GetStaticField(0x23FA0);
 		}
-		static ::UnityEngine::Rendering::Universal::DeferredReflectionSystem___c** StaticGet___9()
+		static ::System::Predicate_1<::UnityEngine::Rendering::Universal::DeferredReflectionProbe*>** StaticGet___9__23_0()
 		{
-			return (::UnityEngine::Rendering::Universal::DeferredReflectionSystem___c**)Il2CppClass::FromTypeDefinitionIndex(DeferredReflectionSystem___c_TypeDefinitionIndex)->GetStaticField(0x22FC8);
+			return (::System::Predicate_1<::UnityEngine::Rendering::Universal::DeferredReflectionProbe*>**)Il2CppClass::FromTypeDefinitionIndex(DeferredReflectionSystem___c_TypeDefinitionIndex)->GetStaticField(0x23FA8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace UnityEngine::Rendering::Universal
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RemoveProbe_b__22_0(::UnityEngine::Rendering::Universal::DeferredReflectionProbe* r)
+		::System::Boolean _RemoveProbe_b__23_0(::UnityEngine::Rendering::Universal::DeferredReflectionProbe* r)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::Universal::DeferredReflectionProbe*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__REMOVEPROBE_B__22_0_OFFSET))(this, r);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::Universal::DeferredReflectionProbe*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_DEFERREDREFLECTIONSYSTEM___C__REMOVEPROBE_B__23_0_OFFSET))(this, r);
 		}
 	};
 }

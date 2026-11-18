@@ -2,21 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_218;
+class KGPPDENAECH;
 
-#define MOLEMOLE_UISUMMERTIDETREASUREINLEVELITEMWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16779D40)
+#define MOLEMOLE_UISUMMERTIDETREASUREINLEVELITEMWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x164C1F90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerTideTreasureInLevelItemWidgetController_Data_TypeDefinitionIndex = 60461;
+	inline static constexpr unsigned int UISummerTideTreasureInLevelItemWidgetController_Data_TypeDefinitionIndex = 62178;
 
 	class UISummerTideTreasureInLevelItemWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_218* Config; // 0x10
-		::System::UInt32 DropItemConfigId; // 0x18
-		::System::Boolean IsHidden; // 0x1C
-		::System::UInt32 Count; // 0x20
+		::KGPPDENAECH* Config; // 0x10
+		::System::Boolean IsHidden; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::UInt32 Count; // 0x1C
+		::System::UInt32 DropItemConfigId; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-class Class_3_5139B0F7496B8379_4;
+class LPKCNCBNLGO;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS_INVOKE_OFFSET UNITYSDK_OFFSET(0x144C5DA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS__CTOR_OFFSET UNITYSDK_OFFSET(0x144C5EC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1040E750)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS__CTOR_OFFSET UNITYSDK_OFFSET(0x1040E880)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMiniScapeQueryWeeklyTasks_TypeDefinitionIndex = 59564;
+	inline static constexpr unsigned int LDMiniScapeQueryWeeklyTasks_TypeDefinitionIndex = 64746;
 
-	class LDMiniScapeQueryWeeklyTasks : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Collections::Generic::IReadOnlyList_1<::Class_3_5139B0F7496B8379_4*>*>
+	class LDMiniScapeQueryWeeklyTasks
 	{
 	public:
 		::System::Void _ctor()
@@ -20,9 +19,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IReadOnlyList_1<::Class_3_5139B0F7496B8379_4*>* Invoke()
+		::System::Collections::Generic::IReadOnlyList_1<::LPKCNCBNLGO*>* Invoke()
 		{
-			return ((::System::Collections::Generic::IReadOnlyList_1<::Class_3_5139B0F7496B8379_4*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS_INVOKE_OFFSET))(this);
+			return ((::System::Collections::Generic::IReadOnlyList_1<::LPKCNCBNLGO*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDMINISCAPEQUERYWEEKLYTASKS_INVOKE_OFFSET))(this);
 		}
 	};
 }

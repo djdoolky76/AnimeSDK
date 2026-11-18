@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/BaseFormatter_1.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
-namespace Sirenix::Serialization { class IDataReader; }
-namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class ReflectionFormatter_1; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int SerializableFormatter_1_TypeDefinitionIndex = 7489;
+	inline static constexpr unsigned int SerializableFormatter_1_TypeDefinitionIndex = 7497;
 
 	template <typename T>
-	class SerializableFormatter_1 : public ::Sirenix::Serialization::BaseFormatter_1<T>
+	class SerializableFormatter_1
 	{
 	public:
 		static ::System::Func_3<::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext, T>** StaticGet_ISerializableConstructor()

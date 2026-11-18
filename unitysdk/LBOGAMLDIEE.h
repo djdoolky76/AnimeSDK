@@ -1,0 +1,76 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OCIKBEJKPCB.h"
+
+class HGFPBHGPFFM;
+class IAAELKLANJF;
+namespace MoleMole { class UIBaseController; }
+
+#define LBOGAMLDIEE_AFGPFLKDCIF_OFFSET UNITYSDK_OFFSET(0x18653D50)
+#define LBOGAMLDIEE_BCELJLFNDEI_OFFSET UNITYSDK_OFFSET(0x18653E60)
+#define LBOGAMLDIEE_DILOLMDPOFP_OFFSET UNITYSDK_OFFSET(0x18653DB0)
+#define LBOGAMLDIEE_JGLFNBBHMEF_OFFSET UNITYSDK_OFFSET(0x18653EF0)
+#define LBOGAMLDIEE_JMAACLDJJMN_OFFSET UNITYSDK_OFFSET(0x18653B90)
+#define LBOGAMLDIEE_KCBENEBBOGP_OFFSET UNITYSDK_OFFSET(0x18653B50)
+#define LBOGAMLDIEE_KJHFBOCBADC_OFFSET UNITYSDK_OFFSET(0x18653AD0)
+#define LBOGAMLDIEE_MCFILHLNBPK_OFFSET UNITYSDK_OFFSET(0x18653DD0)
+#define LBOGAMLDIEE_OOLCMLLACCB_OFFSET UNITYSDK_OFFSET(0x18653DA0)
+#define LBOGAMLDIEE__CTOR_OFFSET UNITYSDK_OFFSET(0x18653D90)
+
+inline static constexpr unsigned int LBOGAMLDIEE_TypeDefinitionIndex = 83259;
+
+class LBOGAMLDIEE : public ::OCIKBEJKPCB
+{
+public:
+	::IAAELKLANJF* MNOBHNFDLLF; // 0x90
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LBOGAMLDIEE__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KJHFBOCBADC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LBOGAMLDIEE_KJHFBOCBADC_OFFSET))(this);
+	}
+
+	::System::Void KCBENEBBOGP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LBOGAMLDIEE_KCBENEBBOGP_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* JMAACLDJJMN()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + LBOGAMLDIEE_JMAACLDJJMN_OFFSET))(this);
+	}
+
+	::System::Void AFGPFLKDCIF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LBOGAMLDIEE_AFGPFLKDCIF_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* OOLCMLLACCB()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + LBOGAMLDIEE_OOLCMLLACCB_OFFSET))(this);
+	}
+
+	::MoleMole::UIBaseController* DILOLMDPOFP()
+	{
+		return ((::MoleMole::UIBaseController*(*)(::PVOID))((::PBYTE)hIl2Cpp + LBOGAMLDIEE_DILOLMDPOFP_OFFSET))(this);
+	}
+
+	::System::Void MCFILHLNBPK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LBOGAMLDIEE_MCFILHLNBPK_OFFSET))(this);
+	}
+
+	::System::Void BCELJLFNDEI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LBOGAMLDIEE_BCELJLFNDEI_OFFSET))(this);
+	}
+
+	::System::Void JGLFNBBHMEF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LBOGAMLDIEE_JGLFNBBHMEF_OFFSET))(this);
+	}
+};

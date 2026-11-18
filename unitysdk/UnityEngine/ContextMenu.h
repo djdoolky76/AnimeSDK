@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ContextMenu_TypeDefinitionIndex = 5327;
+	inline static constexpr unsigned int ContextMenu_TypeDefinitionIndex = 5329;
 
 	class ContextMenu : public ::System::Attribute
 	{

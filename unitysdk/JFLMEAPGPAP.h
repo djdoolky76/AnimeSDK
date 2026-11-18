@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CENDGBANCMA.h"
+
+class CFMGIKJLMBJ;
+class FCANCDJBJNG;
+class FGABILKDFKP;
+
+#define JFLMEAPGPAP_LLCPLICBCCF_OFFSET UNITYSDK_OFFSET(0x1525F9C0)
+#define JFLMEAPGPAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1525FA50)
+
+inline static constexpr unsigned int JFLMEAPGPAP_TypeDefinitionIndex = 69036;
+
+class JFLMEAPGPAP
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JFLMEAPGPAP__CTOR_OFFSET))(this);
+	}
+
+	::CENDGBANCMA LLCPLICBCCF(::FGABILKDFKP* LJBPECKCCEA, ::FCANCDJBJNG* AIBJGMNPFKB, ::CFMGIKJLMBJ*& GOHPINDANII)
+	{
+		return ((::CENDGBANCMA(*)(::PVOID, ::FGABILKDFKP*, ::FCANCDJBJNG*, ::CFMGIKJLMBJ*&))((::PBYTE)hIl2Cpp + JFLMEAPGPAP_LLCPLICBCCF_OFFSET))(this, LJBPECKCCEA, AIBJGMNPFKB, GOHPINDANII);
+	}
+};

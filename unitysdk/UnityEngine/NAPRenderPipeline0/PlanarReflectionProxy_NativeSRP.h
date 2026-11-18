@@ -6,11 +6,11 @@
 
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PLANARREFLECTIONPROXY_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7CBEB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PLANARREFLECTIONPROXY_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E978AB0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PlanarReflectionProxy_NativeSRP_TypeDefinitionIndex = 6012;
+	inline static constexpr unsigned int PlanarReflectionProxy_NativeSRP_TypeDefinitionIndex = 6020;
 
 	class PlanarReflectionProxy_NativeSRP : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,10 +20,12 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Single yOffset; // 0x28
 		::System::Boolean captureFog; // 0x2C
 		::System::Boolean captureSkybox; // 0x2D
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Color backgroundColor; // 0x30
 		::System::Boolean keepMoveWithCharacter; // 0x40
 		::System::Boolean useHDRColorMode; // 0x41
 		::System::Boolean disableFade; // 0x42
+		::System::Byte _padding1[0x1];
 		::System::Single reflectionDistance; // 0x44
 		::UnityEngine::Camera* m_Camera; // 0x48
 

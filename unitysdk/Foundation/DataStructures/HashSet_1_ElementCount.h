@@ -4,10 +4,10 @@
 
 namespace Foundation::DataStructures
 {
-	inline static constexpr unsigned int HashSet_1_ElementCount_TypeDefinitionIndex = 8074;
+	inline static constexpr unsigned int HashSet_1_ElementCount_TypeDefinitionIndex = 8590;
 
 	template <typename T>
-	struct HashSet_1_ElementCount
+	struct alignas(4) HashSet_1_ElementCount
 	{
 		::System::Int32 uniqueCount; // 0x0
 		::System::Int32 unfoundCount; // 0x0

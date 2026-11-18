@@ -8,15 +8,16 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0xA53780)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x925C40)
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int PhraseRecognizedEventArgs_TypeDefinitionIndex = 5465;
+	inline static constexpr unsigned int PhraseRecognizedEventArgs_TypeDefinitionIndex = 5468;
 
 	struct alignas(8) PhraseRecognizedEventArgs
 	{
 		::UnityEngine::Windows::Speech::ConfidenceLevel confidence; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::Windows::Speech::SemanticMeaning>* semanticMeanings; // 0x18
 		::System::String* text; // 0x20
 		::System::DateTime phraseStartTime; // 0x28

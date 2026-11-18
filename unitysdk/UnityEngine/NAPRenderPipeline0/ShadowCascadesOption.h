@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ShadowCascadesOption_TypeDefinitionIndex = 5879;
+	inline static constexpr unsigned int ShadowCascadesOption_TypeDefinitionIndex = 5885;
 
 	enum class ShadowCascadesOption : ::System::Int32
 	{

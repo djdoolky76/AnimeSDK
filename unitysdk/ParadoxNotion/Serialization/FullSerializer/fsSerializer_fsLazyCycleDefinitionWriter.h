@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSSERIALIZER_FSLAZYCYCLEDEFINITIONWRITER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E8C87F0)
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSSERIALIZER_FSLAZYCYCLEDEFINITIONWRITER_WRITEDEFINITION_OFFSET UNITYSDK_OFFSET(0x1E8C8400)
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSSERIALIZER_FSLAZYCYCLEDEFINITIONWRITER_WRITEREFERENCE_OFFSET UNITYSDK_OFFSET(0x1E8C8590)
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSSERIALIZER_FSLAZYCYCLEDEFINITIONWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C88C0)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSSERIALIZER_FSLAZYCYCLEDEFINITIONWRITER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EB8E0F0)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSSERIALIZER_FSLAZYCYCLEDEFINITIONWRITER_WRITEDEFINITION_OFFSET UNITYSDK_OFFSET(0x1EB8DCF0)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSSERIALIZER_FSLAZYCYCLEDEFINITIONWRITER_WRITEREFERENCE_OFFSET UNITYSDK_OFFSET(0x1EB8DE90)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSSERIALIZER_FSLAZYCYCLEDEFINITIONWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8E1C0)
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int fsSerializer_fsLazyCycleDefinitionWriter_TypeDefinitionIndex = 29803;
+	inline static constexpr unsigned int fsSerializer_fsLazyCycleDefinitionWriter_TypeDefinitionIndex = 30781;
 
 	class fsSerializer_fsLazyCycleDefinitionWriter : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::ParadoxNotion::Serialization::FullSerializer::fsData*>* _pendingDefinitions; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::Int32>* _references; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::Int32>* _references; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::ParadoxNotion::Serialization::FullSerializer::fsData*>* _pendingDefinitions; // 0x18
 
 		::System::Void _ctor()
 		{

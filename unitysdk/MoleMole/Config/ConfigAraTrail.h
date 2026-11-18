@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGARATRAIL_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x1B8F1B70)
-#define MOLEMOLE_CONFIG_CONFIGARATRAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8F1BC0)
+#define MOLEMOLE_CONFIG_CONFIGARATRAIL_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x1922FCA0)
+#define MOLEMOLE_CONFIG_CONFIGARATRAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1922FCF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAraTrail_TypeDefinitionIndex = 45394;
+	inline static constexpr unsigned int ConfigAraTrail_TypeDefinitionIndex = 66749;
 
 	class ConfigAraTrail : public ::System::Object
 	{

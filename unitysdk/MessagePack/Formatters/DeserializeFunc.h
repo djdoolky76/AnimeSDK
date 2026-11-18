@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/MessagePack/MessagePackReader.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MESSAGEPACK_FORMATTERS_DESERIALIZEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DAD8A90)
-#define MESSAGEPACK_FORMATTERS_DESERIALIZEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DAD8B20)
-#define MESSAGEPACK_FORMATTERS_DESERIALIZEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DAD84C0)
-#define MESSAGEPACK_FORMATTERS_DESERIALIZEFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD84A0)
+#define MESSAGEPACK_FORMATTERS_DESERIALIZEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D476B60)
+#define MESSAGEPACK_FORMATTERS_DESERIALIZEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D476BF0)
+#define MESSAGEPACK_FORMATTERS_DESERIALIZEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D476590)
+#define MESSAGEPACK_FORMATTERS_DESERIALIZEFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D476580)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int DeserializeFunc_TypeDefinitionIndex = 31276;
+	inline static constexpr unsigned int DeserializeFunc_TypeDefinitionIndex = 29333;
 
 	class DeserializeFunc : public ::System::MulticastDelegate
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int EDynamicCacheMemoryPolicy_TypeDefinitionIndex = 5242;
+	inline static constexpr unsigned int EDynamicCacheMemoryPolicy_TypeDefinitionIndex = 5244;
 
 	enum class EDynamicCacheMemoryPolicy : ::System::Int32
 	{

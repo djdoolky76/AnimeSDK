@@ -8,43 +8,43 @@ namespace UnrealTypes { class PropertyParamsBase; }
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETCONDITIONALVALUEFLOATTASKINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1CB952C0)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETCONDITIONALVALUEFLOATTASKINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB94D50)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETCONDITIONALVALUEFLOATTASKINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EC39DB0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETCONDITIONALVALUEFLOATTASKINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC397C0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex = 58465;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex = 83034;
 
 	class RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
-		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x47970);
-		}
-		static ::UnrealTypes::BoolPropertyParams** StaticGet_Property_Condition()
-		{
-			return (::UnrealTypes::BoolPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x47978);
-		}
 		static ::UnrealTypes::FloatPropertyParams** StaticGet_Property_FalseValue()
 		{
-			return (::UnrealTypes::FloatPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x47980);
+			return (::UnrealTypes::FloatPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4CAE0);
 		}
 		static ::UnrealTypes::StructParams** StaticGet_StructParams()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x47988);
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4CAE8);
 		}
-		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
+		static ::UnrealTypes::BoolPropertyParams** StaticGet_Property_Condition()
 		{
-			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x47990);
+			return (::UnrealTypes::BoolPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4CAF0);
+		}
+		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
+		{
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4CAF8);
 		}
 		static ::UnrealTypes::FloatPropertyParams** StaticGet_Property_TrueValue()
 		{
-			return (::UnrealTypes::FloatPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x47998);
+			return (::UnrealTypes::FloatPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4CB00);
 		}
 		static ::UnrealTypes::FloatPropertyParams** StaticGet_Property_ResultValue()
 		{
-			return (::UnrealTypes::FloatPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x479A0);
+			return (::UnrealTypes::FloatPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4CB08);
+		}
+		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
+		{
+			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4CB10);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebFeature_TypeDefinitionIndex = 20226;
+	inline static constexpr unsigned int WebFeature_TypeDefinitionIndex = 19372;
 
 	enum class WebFeature : ::System::Int32
 	{

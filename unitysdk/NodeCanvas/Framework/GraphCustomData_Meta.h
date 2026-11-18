@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int GraphCustomData_Meta_TypeDefinitionIndex = 30166;
+	inline static constexpr unsigned int GraphCustomData_Meta_TypeDefinitionIndex = 29405;
 
 	struct alignas(8) GraphCustomData_Meta
 	{

@@ -6,12 +6,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_URBANMAPMESHHEIGHTINFO_METHOD_1_E2026108A7F81D59_OFFSET UNITYSDK_OFFSET(0x11A24D60)
-#define MOLEMOLE_URBANMAPMESHHEIGHTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11A24D00)
+#define MOLEMOLE_URBANMAPMESHHEIGHTINFO_IKMDJAAJAEI_OFFSET UNITYSDK_OFFSET(0x18F76040)
+#define MOLEMOLE_URBANMAPMESHHEIGHTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18F75FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UrbanMapMeshHeightInfo_TypeDefinitionIndex = 40783;
+	inline static constexpr unsigned int UrbanMapMeshHeightInfo_TypeDefinitionIndex = 75696;
 
 	class UrbanMapMeshHeightInfo : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_URBANMAPMESHHEIGHTINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Single Method_1_E2026108A7F81D59(::UnityEngine::Vector2 a1, ::System::Boolean a2)
+		::System::Single IKMDJAAJAEI(::UnityEngine::Vector2 KFGFBJFHPDK, ::System::Boolean NPIFDFOMCNM)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_URBANMAPMESHHEIGHTINFO_METHOD_1_E2026108A7F81D59_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_URBANMAPMESHHEIGHTINFO_IKMDJAAJAEI_OFFSET))(this, KFGFBJFHPDK, NPIFDFOMCNM);
 		}
 	};
 }

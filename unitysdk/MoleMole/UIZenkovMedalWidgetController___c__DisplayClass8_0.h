@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIZenkovMedalWidgetController; }
 
-#define MOLEMOLE_UIZENKOVMEDALWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14DA59E0)
-#define MOLEMOLE_UIZENKOVMEDALWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHFADEINANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x14DA59F0)
+#define MOLEMOLE_UIZENKOVMEDALWIDGETCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170D3B30)
+#define MOLEMOLE_UIZENKOVMEDALWIDGETCONTROLLER___C__DISPLAYCLASS8_0__REFRESHFADEINANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x170D3B40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovMedalWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 70861;
+	inline static constexpr unsigned int UIZenkovMedalWidgetController___c__DisplayClass8_0_TypeDefinitionIndex = 51514;
 
 	class UIZenkovMedalWidgetController___c__DisplayClass8_0 : public ::System::Object
 	{

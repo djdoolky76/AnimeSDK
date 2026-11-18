@@ -2,23 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/MonoEffectPluginBase.h"
 
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x129B2A30)
-#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE_START_OFFSET UNITYSDK_OFFSET(0x129B2380)
-#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x129B2CC0)
+#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x124748B0)
+#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE_START_OFFSET UNITYSDK_OFFSET(0x12474200)
+#define MOLEMOLE_MONOEFFECTPLUGINSORTDECALSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x12474B40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginSortDecalSimple_TypeDefinitionIndex = 64902;
+	inline static constexpr unsigned int MonoEffectPluginSortDecalSimple_TypeDefinitionIndex = 65360;
 
 	class MonoEffectPluginSortDecalSimple : public ::MoleMole::MonoEffectPluginBase
 	{
 	public:
-		// static const ::System::String* Field_6_7; // 0x0
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_6_0; // 0x18
+		// static const ::System::String* BGKHHCFGKPI; // 0x0
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* FPHDFOLHPCD; // 0x18
 
 		::System::Void _ctor()
 		{

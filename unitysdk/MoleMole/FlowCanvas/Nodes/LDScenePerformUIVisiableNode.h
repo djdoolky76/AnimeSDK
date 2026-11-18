@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_4.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMUIVISIABLENODE_CHECKHAVEPERFORM_OFFSET UNITYSDK_OFFSET(0x1B8390E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMUIVISIABLENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B838F40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMUIVISIABLENODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B839190)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMUIVISIABLENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B839170)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMUIVISIABLENODE_CHECKHAVEPERFORM_OFFSET UNITYSDK_OFFSET(0x180DF600)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMUIVISIABLENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x180DF460)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMUIVISIABLENODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x180DF6B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCENEPERFORMUIVISIABLENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x180DF690)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDScenePerformUIVisiableNode_TypeDefinitionIndex = 58715;
+	inline static constexpr unsigned int LDScenePerformUIVisiableNode_TypeDefinitionIndex = 45105;
 
-	class LDScenePerformUIVisiableNode : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::System::String*, ::Il2CppArray<::System::String*>*, ::System::Boolean>
+	class LDScenePerformUIVisiableNode
 	{
 	public:
 		static ::System::String** StaticGet_setupTag()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(LDScenePerformUIVisiableNode_TypeDefinitionIndex)->GetStaticField(0x43DB0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(LDScenePerformUIVisiableNode_TypeDefinitionIndex)->GetStaticField(0x49FD0);
 		}
 
 		::System::Void _ctor()

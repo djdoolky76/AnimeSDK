@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYTEAMTRIALFIGHTINFOPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x192840E0)
+#define MOLEMOLE_UIACTIVITYTEAMTRIALFIGHTINFOPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14BFF6A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityTeamTrialFightInfoPopWindowController_Context_TypeDefinitionIndex = 66782;
+	inline static constexpr unsigned int UIActivityTeamTrialFightInfoPopWindowController_Context_TypeDefinitionIndex = 90180;
 
 	class UIActivityTeamTrialFightInfoPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

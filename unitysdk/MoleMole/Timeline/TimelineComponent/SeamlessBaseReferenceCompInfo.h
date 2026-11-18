@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/CGRuntimeUnitLoadType.h"
 #include "unitysdk/MoleMole/Config/EntityType.h"
+#include "unitysdk/MoleMole/CGRuntimeUnitLoadType.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class CGRuntimeUnit; }
@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSBASEREFERENCECOMPINFO_INITBASEINFO_OFFSET UNITYSDK_OFFSET(0x168A5C20)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSBASEREFERENCECOMPINFO_REBIND_OFFSET UNITYSDK_OFFSET(0x168A6490)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSBASEREFERENCECOMPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x168A54C0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSBASEREFERENCECOMPINFO_INITBASEINFO_OFFSET UNITYSDK_OFFSET(0x19F61580)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSBASEREFERENCECOMPINFO_REBIND_OFFSET UNITYSDK_OFFSET(0x19F61DF0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSBASEREFERENCECOMPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19F60E20)
 
 namespace MoleMole::Timeline::TimelineComponent
 {
-	inline static constexpr unsigned int SeamlessBaseReferenceCompInfo_TypeDefinitionIndex = 48959;
+	inline static constexpr unsigned int SeamlessBaseReferenceCompInfo_TypeDefinitionIndex = 48102;
 
 	class SeamlessBaseReferenceCompInfo : public ::System::Object
 	{
@@ -23,6 +23,7 @@ namespace MoleMole::Timeline::TimelineComponent
 		::MoleMole::Config::EntityType EntityType; // 0x10
 		::System::Int32 unitId; // 0x14
 		::System::Int32 index; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* RelativePath; // 0x20
 		::MoleMole::CGRuntimeUnitLoadType LoadType; // 0x28
 

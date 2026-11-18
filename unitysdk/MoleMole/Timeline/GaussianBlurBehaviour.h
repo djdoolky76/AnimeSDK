@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Timeline/GaussianBlurBehaviour_Struct_2_52AD02145F5FCE3A_3.h"
+#include "unitysdk/MoleMole/Timeline/GaussianBlurBehaviour_LECHJJPPKNL.h"
 #include "unitysdk/MoleMole/Timeline/PostProcessBehaviourBase.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
@@ -9,45 +9,54 @@ namespace System { class String; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering::Universal { class GaussianBlur; }
 
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x1891B2A0)
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_METHOD_4_146BFCE7108816B9_OFFSET UNITYSDK_OFFSET(0x1891B9D0)
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_METHOD_4_1A8D9D2CD3FD3B22_OFFSET UNITYSDK_OFFSET(0x1891B500)
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x1891C980)
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0x1891C990)
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0x1891C9B0)
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0x1891C9A0)
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1891B8F0)
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1891C410)
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1891C600)
-#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1891C950)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x131294D0)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_ELONPKCGMOH_OFFSET UNITYSDK_OFFSET(0x13129750)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_GHDJIEJFFKG_OFFSET UNITYSDK_OFFSET(0x1312AE00)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_KBDIIEDMPHD_OFFSET UNITYSDK_OFFSET(0x1312AE30)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_ODLBLHOKABA_OFFSET UNITYSDK_OFFSET(0x13129C20)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_OGPBBOPCBKO_OFFSET UNITYSDK_OFFSET(0x1312AE20)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x13129B40)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_PDEDKHJDBDD_OFFSET UNITYSDK_OFFSET(0x1312AE10)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1312A830)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1312AA30)
+#define MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1312ADD0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int GaussianBlurBehaviour_TypeDefinitionIndex = 44734;
+	inline static constexpr unsigned int GaussianBlurBehaviour_TypeDefinitionIndex = 64435;
 
 	class GaussianBlurBehaviour : public ::MoleMole::Timeline::PostProcessBehaviourBase
 	{
 	public:
-		::MoleMole::Timeline::GaussianBlurBehaviour_Struct_2_52AD02145F5FCE3A_3 _methodParm; // 0x18
+		::MoleMole::Timeline::GaussianBlurBehaviour_LECHJJPPKNL _methodParm; // 0x18
 		::System::Boolean enabled; // 0x50
 		::System::Boolean active_downSample; // 0x51
 		::System::Boolean use_downSample; // 0x52
+		::System::Byte _padding0[0x1];
 		::System::Int32 downSample; // 0x54
 		::System::Boolean active_radius; // 0x58
 		::System::Boolean use_radius; // 0x59
+		::System::Byte _padding1[0x2];
 		::System::Single radius; // 0x5C
 		::System::Boolean active_mask; // 0x60
 		::System::Boolean use_mask; // 0x61
+		::System::Byte _padding2[0x6];
 		::UnityEngine::Texture* mask; // 0x68
 		::System::Boolean active_maskTiling; // 0x70
 		::System::Boolean use_maskTiling; // 0x71
+		::System::Byte _padding3[0x2];
 		::System::Single maskTiling; // 0x74
 		::System::Boolean active_maskRotation; // 0x78
 		::System::Boolean use_maskRotation; // 0x79
+		::System::Byte _padding4[0x2];
 		::System::Single maskRotation; // 0x7C
 		::System::Boolean active_maskDebug; // 0x80
 		::System::Boolean use_maskDebug; // 0x81
 		::System::Boolean maskDebug; // 0x82
+		::System::Boolean active_enableBlurWithMonsterMask; // 0x83
+		::System::Boolean use_enableBlurWithMonsterMask; // 0x84
+		::System::Boolean enableBlurWithMonsterMask; // 0x85
+		::System::Byte _padding5[0x2];
 		::UnityEngine::Rendering::Universal::GaussianBlur* _GaussianBlur; // 0x88
 
 		::System::Void _ctor()
@@ -55,54 +64,54 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void CopyValueFromComp(::System::Object* a1)
+		::System::Void CopyValueFromComp(::System::Object* NEEMKJBIIBC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET))(this, NEEMKJBIIBC);
 		}
 
-		::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
+		::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable HKOFGPMIFHB)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET))(this, HKOFGPMIFHB);
 		}
 
-		::System::Void ProcessFrame(::System::Object* a1)
+		::System::Void ProcessFrame(::System::Object* NEEMKJBIIBC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_PROCESSFRAME_OFFSET))(this, NEEMKJBIIBC);
 		}
 
-		::System::Void SetValue(::System::String* a1, ::System::Single a2)
+		::System::Void SetValue(::System::String* KEKLFCCONCL, ::System::Single EEKENHBPKGO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_SETVALUE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_SETVALUE_OFFSET))(this, KEKLFCCONCL, EEKENHBPKGO);
 		}
 
-		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+		::System::Void GHDJIEJFFKG(::System::Object* MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_GHDJIEJFFKG_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void Method_4_63F7844DC2D57F6C(::System::String* a1, ::System::Single a2)
+		::System::Void PDEDKHJDBDD(::UnityEngine::Playables::Playable MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_PDEDKHJDBDD_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::UnityEngine::Rendering::Universal::GaussianBlur* Method_4_1A8D9D2CD3FD3B22(::System::Object* a1)
+		::System::Void OGPBBOPCBKO(::System::String* MIALFKCCCPI, ::System::Single KMGKAIDEIBA)
 		{
-			return ((::UnityEngine::Rendering::Universal::GaussianBlur*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_METHOD_4_1A8D9D2CD3FD3B22_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_OGPBBOPCBKO_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 
-		::System::Void Method_4_146BFCE7108816B9()
+		::UnityEngine::Rendering::Universal::GaussianBlur* ELONPKCGMOH(::System::Object* NEEMKJBIIBC)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_METHOD_4_146BFCE7108816B9_OFFSET))(this);
+			return ((::UnityEngine::Rendering::Universal::GaussianBlur*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_ELONPKCGMOH_OFFSET))(this, NEEMKJBIIBC);
 		}
 
-		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
+		::System::Void ODLBLHOKABA()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_ODLBLHOKABA_OFFSET))(this);
 		}
 
-		::System::Void Method_4_B072873681D4192B_1(::System::Object* a1)
+		::System::Void KBDIIEDMPHD(::System::Object* MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_GAUSSIANBLURBEHAVIOUR_KBDIIEDMPHD_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

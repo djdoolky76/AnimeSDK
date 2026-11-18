@@ -2,42 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_3_1A58F01F41846A1D;
-class Class_3_6A6ED67B92DC299D;
+class MBKPHCPCKBO;
+class MMBKAKPDHIF;
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Collision; }
 
-#define MOLEMOLE_MONOENTITYCOLLIDER_AWAKE_OFFSET UNITYSDK_OFFSET(0x19DD4600)
-#define MOLEMOLE_MONOENTITYCOLLIDER_EMPTY_OFFSET UNITYSDK_OFFSET(0x19DD4380)
-#define MOLEMOLE_MONOENTITYCOLLIDER_GETCOMPONENTSAFELY_OFFSET UNITYSDK_OFFSET(0x19DD4490)
-#define MOLEMOLE_MONOENTITYCOLLIDER_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x19DD4370)
-#define MOLEMOLE_MONOENTITYCOLLIDER_METHOD_5_D460587695D41831_OFFSET UNITYSDK_OFFSET(0x19DD4650)
-#define MOLEMOLE_MONOENTITYCOLLIDER_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x19DD4C50)
-#define MOLEMOLE_MONOENTITYCOLLIDER_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x19DD4CF0)
-#define MOLEMOLE_MONOENTITYCOLLIDER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19DD4AD0)
-#define MOLEMOLE_MONOENTITYCOLLIDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19DD49C0)
-#define MOLEMOLE_MONOENTITYCOLLIDER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x19DD4D90)
-#define MOLEMOLE_MONOENTITYCOLLIDER_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x19DD4DF0)
-#define MOLEMOLE_MONOENTITYCOLLIDER_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0x19DD41B0)
-#define MOLEMOLE_MONOENTITYCOLLIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DD4EB0)
-#define MOLEMOLE_MONOENTITYCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19DD4E60)
+#define MOLEMOLE_MONOENTITYCOLLIDER_AWAKE_OFFSET UNITYSDK_OFFSET(0x12B5B060)
+#define MOLEMOLE_MONOENTITYCOLLIDER_EMPTY_OFFSET UNITYSDK_OFFSET(0x12B5ADE0)
+#define MOLEMOLE_MONOENTITYCOLLIDER_GETCOMPONENTSAFELY_OFFSET UNITYSDK_OFFSET(0x12B5AEF0)
+#define MOLEMOLE_MONOENTITYCOLLIDER_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x12B5ADD0)
+#define MOLEMOLE_MONOENTITYCOLLIDER_KINAGMIJLGC_OFFSET UNITYSDK_OFFSET(0x12B5B0B0)
+#define MOLEMOLE_MONOENTITYCOLLIDER_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x12B5B6B0)
+#define MOLEMOLE_MONOENTITYCOLLIDER_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x12B5B750)
+#define MOLEMOLE_MONOENTITYCOLLIDER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x12B5B530)
+#define MOLEMOLE_MONOENTITYCOLLIDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12B5B420)
+#define MOLEMOLE_MONOENTITYCOLLIDER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x12B5B7F0)
+#define MOLEMOLE_MONOENTITYCOLLIDER_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x12B5B850)
+#define MOLEMOLE_MONOENTITYCOLLIDER_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0x12B5AC10)
+#define MOLEMOLE_MONOENTITYCOLLIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B5B910)
+#define MOLEMOLE_MONOENTITYCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B5B8C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEntityCollider_TypeDefinitionIndex = 58809;
+	inline static constexpr unsigned int MonoEntityCollider_TypeDefinitionIndex = 39993;
 
 	class MonoEntityCollider : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoEntityCollider*>** StaticGet_Field_5_2()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoEntityCollider*>** StaticGet_LBKDPPFMADB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoEntityCollider*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEntityCollider_TypeDefinitionIndex)->GetStaticField(0x4C3D0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoEntityCollider*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEntityCollider_TypeDefinitionIndex)->GetStaticField(0x4D830);
 		}
-		::MoleMole::Battle::Entity* Field_5_1; // 0x18
-		::Class_3_1A58F01F41846A1D* Field_5_0; // 0x20
-		::Class_3_6A6ED67B92DC299D* Field_5_7; // 0x28
+		::MoleMole::Battle::Entity* LEOKEOFNDLH; // 0x18
+		::MMBKAKPDHIF* OKMNAMAKBPL; // 0x20
+		::MBKPHCPCKBO* AFDANLOAOIL; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -49,9 +49,9 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER__CCTOR_OFFSET))();
 		}
 
-		::System::Void set_Entity(::MoleMole::Battle::Entity* a1)
+		::System::Void set_Entity(::MoleMole::Battle::Entity* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_SET_ENTITY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_SET_ENTITY_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::MoleMole::Battle::Entity* get_Entity()
@@ -64,9 +64,9 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_EMPTY_OFFSET))();
 		}
 
-		static ::MoleMole::MonoEntityCollider* GetComponentSafely(::System::Int32 a1)
+		static ::MoleMole::MonoEntityCollider* GetComponentSafely(::System::Int32 HLJEFIIDMFA)
 		{
-			return ((::MoleMole::MonoEntityCollider*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_GETCOMPONENTSAFELY_OFFSET))(a1);
+			return ((::MoleMole::MonoEntityCollider*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_GETCOMPONENTSAFELY_OFFSET))(HLJEFIIDMFA);
 		}
 
 		::System::Void Awake()
@@ -84,29 +84,29 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void OnCollisionEnter(::UnityEngine::Collision* a1)
+		::System::Void OnCollisionEnter(::UnityEngine::Collision* GMKILPBDCFN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_ONCOLLISIONENTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_ONCOLLISIONENTER_OFFSET))(this, GMKILPBDCFN);
 		}
 
-		::System::Void OnCollisionExit(::UnityEngine::Collision* a1)
+		::System::Void OnCollisionExit(::UnityEngine::Collision* GMKILPBDCFN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_ONCOLLISIONEXIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_ONCOLLISIONEXIT_OFFSET))(this, GMKILPBDCFN);
 		}
 
-		::System::Void OnTriggerEnter(::UnityEngine::Collider* a1)
+		::System::Void OnTriggerEnter(::UnityEngine::Collider* LIBPKNHDIGP)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_ONTRIGGERENTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_ONTRIGGERENTER_OFFSET))(this, LIBPKNHDIGP);
 		}
 
-		::System::Void OnTriggerExit(::UnityEngine::Collider* a1)
+		::System::Void OnTriggerExit(::UnityEngine::Collider* LIBPKNHDIGP)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_ONTRIGGEREXIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_ONTRIGGEREXIT_OFFSET))(this, LIBPKNHDIGP);
 		}
 
-		::System::Void Method_5_D460587695D41831()
+		::System::Void KINAGMIJLGC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_METHOD_5_D460587695D41831_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOENTITYCOLLIDER_KINAGMIJLGC_OFFSET))(this);
 		}
 	};
 }

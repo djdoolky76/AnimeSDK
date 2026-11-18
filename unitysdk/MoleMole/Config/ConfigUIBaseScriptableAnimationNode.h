@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_25;
-class Class_1_D3581D8A71834B25;
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
+class DNGEKLMPBAC;
+class NGPAGDNPMKJ;
 namespace MoleMole::Config { class BoolUISpecialNum; }
 namespace MoleMole::Config { class UISpecialNumGroup; }
 
-#define MOLEMOLE_CONFIG_CONFIGUIBASESCRIPTABLEANIMATIONNODE_CREATEUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B7FA830)
-#define MOLEMOLE_CONFIG_CONFIGUIBASESCRIPTABLEANIMATIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FA8E0)
+#define MOLEMOLE_CONFIG_CONFIGUIBASESCRIPTABLEANIMATIONNODE_CREATEUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x192ADD20)
+#define MOLEMOLE_CONFIG_CONFIGUIBASESCRIPTABLEANIMATIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x192ADDD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIBaseScriptableAnimationNode_TypeDefinitionIndex = 75627;
+	inline static constexpr unsigned int ConfigUIBaseScriptableAnimationNode_TypeDefinitionIndex = 77497;
 
 	class ConfigUIBaseScriptableAnimationNode : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGUIBASESCRIPTABLEANIMATIONNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* CreateUIAnimationNode(::Class_1_43BD383C98B4C0C5_25* uiAnimationNodeContext, ::MoleMole::Config::UISpecialNumGroup* uiSpecialNumGroup, ::Class_1_D3581D8A71834B25* player)
+		::ADCIIHIOAMH* CreateUIAnimationNode(::NGPAGDNPMKJ* uiAnimationNodeContext, ::MoleMole::Config::UISpecialNumGroup* uiSpecialNumGroup, ::DNGEKLMPBAC* player)
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_25*, ::MoleMole::Config::UISpecialNumGroup*, ::Class_1_D3581D8A71834B25*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGUIBASESCRIPTABLEANIMATIONNODE_CREATEUIANIMATIONNODE_OFFSET))(this, uiAnimationNodeContext, uiSpecialNumGroup, player);
+			return ((::ADCIIHIOAMH*(*)(::PVOID, ::NGPAGDNPMKJ*, ::MoleMole::Config::UISpecialNumGroup*, ::DNGEKLMPBAC*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGUIBASESCRIPTABLEANIMATIONNODE_CREATEUIANIMATIONNODE_OFFSET))(this, uiAnimationNodeContext, uiSpecialNumGroup, player);
 		}
 	};
 }

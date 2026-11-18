@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PatrolMove_StartMode_TypeDefinitionIndex = 65431;
+	inline static constexpr unsigned int PatrolMove_StartMode_TypeDefinitionIndex = 89322;
 
 	enum class PatrolMove_StartMode : ::System::Int32
 	{

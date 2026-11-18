@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUGRASSUPDATEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C99EE00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUGRASSUPDATEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C99ECC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUGRASSUPDATEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CF7FD90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_GPUGRASSUPDATEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF7FC50)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int GPUGrassUpdatePass_TypeDefinitionIndex = 27042;
+	inline static constexpr unsigned int GPUGrassUpdatePass_TypeDefinitionIndex = 26223;
 
 	class GPUGrassUpdatePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

@@ -3,19 +3,19 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIVHSStorePageController_Context_Mode.h"
 
-class Class_1_F71F7FB55BBEB1D9;
+class MBHOGLGMFEM;
 namespace MoleMole { class UIVHSStoreLimitWidgetController_Context; }
 
-#define MOLEMOLE_UIVHSSTOREPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15FA2010)
+#define MOLEMOLE_UIVHSSTOREPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12C04FD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStorePageController_Context_TypeDefinitionIndex = 86475;
+	inline static constexpr unsigned int UIVHSStorePageController_Context_TypeDefinitionIndex = 57178;
 
 	class UIVHSStorePageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_F71F7FB55BBEB1D9* storeData; // 0x28
+		::MBHOGLGMFEM* storeData; // 0x28
 		::MoleMole::UIVHSStoreLimitWidgetController_Context* miniGameContext; // 0x30
 		::MoleMole::UIVHSStorePageController_Context_Mode mode; // 0x38
 

@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/NapStringInternCacheBackendLRU_Slot.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_ADDASMOSTRECENT_OFFSET UNITYSDK_OFFSET(0x1F01F640)
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_ALLOCATESLOT_OFFSET UNITYSDK_OFFSET(0x1F01F4C0)
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F01EFD0)
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_GETINTERNEDSTRING_OFFSET UNITYSDK_OFFSET(0x1F01F0C0)
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_GET_CACHEDSTRINGCOUNT_OFFSET UNITYSDK_OFFSET(0x1F01EEF0)
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_MOVETOMOSTRECENT_OFFSET UNITYSDK_OFFSET(0x1F01F450)
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_REMOVEFROMLIST_OFFSET UNITYSDK_OFFSET(0x1F01F530)
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_RESETSTATE_OFFSET UNITYSDK_OFFSET(0x1F01ED90)
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU__CTOR_OFFSET UNITYSDK_OFFSET(0x1F01ECE0)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_ADDASMOSTRECENT_OFFSET UNITYSDK_OFFSET(0x1F4DCD10)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_ALLOCATESLOT_OFFSET UNITYSDK_OFFSET(0x1F4DCB90)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F4DC6A0)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_GETINTERNEDSTRING_OFFSET UNITYSDK_OFFSET(0x1F4DC790)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_GET_CACHEDSTRINGCOUNT_OFFSET UNITYSDK_OFFSET(0x1F4DC5C0)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_MOVETOMOSTRECENT_OFFSET UNITYSDK_OFFSET(0x1F4DCB20)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_REMOVEFROMLIST_OFFSET UNITYSDK_OFFSET(0x1F4DCC00)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_RESETSTATE_OFFSET UNITYSDK_OFFSET(0x1F4DC460)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4DC3B0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NapStringInternCacheBackendLRU_TypeDefinitionIndex = 8366;
+	inline static constexpr unsigned int NapStringInternCacheBackendLRU_TypeDefinitionIndex = 8098;
 
 	class NapStringInternCacheBackendLRU : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>* m_HashToSlot; // 0x10
-		::System::Object* m_Lock; // 0x18
-		::Il2CppArray<::Foundation::NapStringInternCacheBackendLRU_Slot>* m_Slots; // 0x20
-		::Il2CppArray<::System::Int32>* m_FreeSlots; // 0x28
+		::Il2CppArray<::System::Object*>* m_Slots; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>* m_HashToSlot; // 0x18
+		::Il2CppArray<::System::Int32>* m_FreeSlots; // 0x20
+		::System::Object* m_Lock; // 0x28
 		::System::Int32 m_MostRecentSlot; // 0x30
 		::System::Int32 m_LeastRecentSlot; // 0x34
-		::System::Int32 m_Count; // 0x38
-		::System::Int32 m_Capacity; // 0x3C
-		::System::Int32 m_FreeCount; // 0x40
+		::System::Int32 m_FreeCount; // 0x38
+		::System::Int32 m_Count; // 0x3C
+		::System::Int32 m_Capacity; // 0x40
 
 		::System::Void _ctor(::System::Int32 capacity)
 		{
@@ -48,9 +47,9 @@ namespace Foundation
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_CLEAR_OFFSET))(this, freeMemory);
 		}
 
-		::System::String* GetInternedString(::System::UInt64 hash, ::System::Char* chars, ::System::Int32 charCount)
+		::System::String* GetInternedString(::System::UInt64 hash, ::PVOID chars, ::System::Int32 charCount)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::UInt64, ::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_GETINTERNEDSTRING_OFFSET))(this, hash, chars, charCount);
+			return ((::System::String*(*)(::PVOID, ::System::UInt64, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FOUNDATION_NAPSTRINGINTERNCACHEBACKENDLRU_GETINTERNEDSTRING_OFFSET))(this, hash, chars, charCount);
 		}
 
 		::System::Void ResetState()

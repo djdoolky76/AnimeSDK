@@ -6,7 +6,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IMGUIContainer_GUIGlobals_TypeDefinitionIndex = 28053;
+	inline static constexpr unsigned int IMGUIContainer_GUIGlobals_TypeDefinitionIndex = 27471;
 
 	struct alignas(4) IMGUIContainer_GUIGlobals
 	{
@@ -16,6 +16,7 @@ namespace UnityEngine::UIElements
 		::UnityEngine::Color backgroundColor; // 0x70
 		::System::Boolean enabled; // 0x80
 		::System::Boolean changed; // 0x81
+		::System::Byte _padding0[0x2];
 		::System::Int32 displayIndex; // 0x84
 	};
 }

@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_FLOATLESSEQUALTHAN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DFC95A0)
-#define FLOWCANVAS_NODES_FLOATLESSEQUALTHAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC95B0)
+#define FLOWCANVAS_NODES_FLOATLESSEQUALTHAN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E3F2630)
+#define FLOWCANVAS_NODES_FLOATLESSEQUALTHAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F2640)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int FloatLessEqualThan_TypeDefinitionIndex = 30894;
+	inline static constexpr unsigned int FloatLessEqualThan_TypeDefinitionIndex = 29748;
 
-	class FloatLessEqualThan : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Boolean, ::System::Single, ::System::Single>
+	class FloatLessEqualThan
 	{
 	public:
 		::System::Void _ctor()

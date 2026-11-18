@@ -5,9 +5,9 @@
 class SceneObjectAreaCheckDoEnable_ObecjConfig;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENEOBJECTAREACHECKDOENABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D33CD60)
+#define SCENEOBJECTAREACHECKDOENABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E32A0)
 
-inline static constexpr unsigned int SceneObjectAreaCheckDoEnable_TypeDefinitionIndex = 54509;
+inline static constexpr unsigned int SceneObjectAreaCheckDoEnable_TypeDefinitionIndex = 69043;
 
 class SceneObjectAreaCheckDoEnable : public ::System::Object
 {

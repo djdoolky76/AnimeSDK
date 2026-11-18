@@ -2,16 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISUMMERTIDETREASURESELLPREPAREPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E1AB80)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLPREPAREPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x188DC3E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerTideTreasureSellPreparePageController_Context_TypeDefinitionIndex = 50468;
+	inline static constexpr unsigned int UISummerTideTreasureSellPreparePageController_Context_TypeDefinitionIndex = 82204;
 
 	class UISummerTideTreasureSellPreparePageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Boolean ReturnToSummerMainPage; // 0x28
+		::System::Byte _padding0[0x3];
 		::System::Int32 LevelConfigId; // 0x2C
 
 		::System::Void _ctor()

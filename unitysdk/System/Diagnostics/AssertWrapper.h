@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Diagnostics { class StackFrame; }
 
-#define SYSTEM_DIAGNOSTICS_ASSERTWRAPPER_SHOWASSERT_OFFSET UNITYSDK_OFFSET(0x1CC057D0)
-#define SYSTEM_DIAGNOSTICS_ASSERTWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC05850)
+#define SYSTEM_DIAGNOSTICS_ASSERTWRAPPER_SHOWASSERT_OFFSET UNITYSDK_OFFSET(0x1D0FA720)
+#define SYSTEM_DIAGNOSTICS_ASSERTWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FA7A0)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int AssertWrapper_TypeDefinitionIndex = 2790;
+	inline static constexpr unsigned int AssertWrapper_TypeDefinitionIndex = 2789;
 
 	class AssertWrapper : public ::System::Object
 	{

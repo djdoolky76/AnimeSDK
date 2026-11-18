@@ -7,32 +7,32 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_UICAMERAATOM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x87F390)
-#define MOLEMOLE_UICAMERAATOM_EQUALS_OFFSET UNITYSDK_OFFSET(0x87F360)
-#define MOLEMOLE_UICAMERAATOM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x87F480)
-#define MOLEMOLE_UICAMERAATOM_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1853CDC0)
-#define MOLEMOLE_UICAMERAATOM_GET_FOV_OFFSET UNITYSDK_OFFSET(0x324CC0)
-#define MOLEMOLE_UICAMERAATOM_GET_POS_OFFSET UNITYSDK_OFFSET(0x41FCD0)
-#define MOLEMOLE_UICAMERAATOM_GET_ROT_OFFSET UNITYSDK_OFFSET(0x41E4B0)
-#define MOLEMOLE_UICAMERAATOM_METHOD_2_128A3A066D9C08E3_1_OFFSET UNITYSDK_OFFSET(0x1853E170)
-#define MOLEMOLE_UICAMERAATOM_METHOD_2_128A3A066D9C08E3_OFFSET UNITYSDK_OFFSET(0x1853DC50)
-#define MOLEMOLE_UICAMERAATOM_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x87F510)
-#define MOLEMOLE_UICAMERAATOM_METHOD_2_500BD849996697EA_OFFSET UNITYSDK_OFFSET(0x87F680)
-#define MOLEMOLE_UICAMERAATOM_METHOD_2_5C84E6237E32B708_OFFSET UNITYSDK_OFFSET(0x1853D310)
-#define MOLEMOLE_UICAMERAATOM_METHOD_2_615E1E979D709B9B_OFFSET UNITYSDK_OFFSET(0x1853D5A0)
-#define MOLEMOLE_UICAMERAATOM_METHOD_2_6D0360BD23602584_OFFSET UNITYSDK_OFFSET(0x87F5A0)
-#define MOLEMOLE_UICAMERAATOM_METHOD_2_70B33D50DE73FA8B_OFFSET UNITYSDK_OFFSET(0x1853DF10)
-#define MOLEMOLE_UICAMERAATOM_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x87F610)
-#define MOLEMOLE_UICAMERAATOM_METHOD_2_B2FBAC43FA08C2C9_OFFSET UNITYSDK_OFFSET(0x87F740)
-#define MOLEMOLE_UICAMERAATOM_METHOD_2_D3A27E093B03BCB3_OFFSET UNITYSDK_OFFSET(0x1853D9C0)
-#define MOLEMOLE_UICAMERAATOM_SET_FOV_OFFSET UNITYSDK_OFFSET(0x324A50)
-#define MOLEMOLE_UICAMERAATOM_SET_POS_OFFSET UNITYSDK_OFFSET(0x826A80)
-#define MOLEMOLE_UICAMERAATOM_SET_ROT_OFFSET UNITYSDK_OFFSET(0x56EA80)
-#define MOLEMOLE_UICAMERAATOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x87F500)
+#define MOLEMOLE_UICAMERAATOM_CCGJNPBEKCB_OFFSET UNITYSDK_OFFSET(0x7AA0F0)
+#define MOLEMOLE_UICAMERAATOM_CIBONHMNLEN_OFFSET UNITYSDK_OFFSET(0x1755E590)
+#define MOLEMOLE_UICAMERAATOM_DJNAHLAFGNJ_OFFSET UNITYSDK_OFFSET(0x1755DDC0)
+#define MOLEMOLE_UICAMERAATOM_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x7AA250)
+#define MOLEMOLE_UICAMERAATOM_EIHNCLBIJFG_OFFSET UNITYSDK_OFFSET(0x1755E300)
+#define MOLEMOLE_UICAMERAATOM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x7A9F70)
+#define MOLEMOLE_UICAMERAATOM_EQUALS_OFFSET UNITYSDK_OFFSET(0x7A9F40)
+#define MOLEMOLE_UICAMERAATOM_FPIFKGGDGEE_OFFSET UNITYSDK_OFFSET(0x1755DFD0)
+#define MOLEMOLE_UICAMERAATOM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x7AA060)
+#define MOLEMOLE_UICAMERAATOM_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1755D440)
+#define MOLEMOLE_UICAMERAATOM_GET_FOV_OFFSET UNITYSDK_OFFSET(0x358A70)
+#define MOLEMOLE_UICAMERAATOM_GET_POS_OFFSET UNITYSDK_OFFSET(0x3F2230)
+#define MOLEMOLE_UICAMERAATOM_GET_ROT_OFFSET UNITYSDK_OFFSET(0x3CE930)
+#define MOLEMOLE_UICAMERAATOM_HLBFMAOKADL_OFFSET UNITYSDK_OFFSET(0x7AA220)
+#define MOLEMOLE_UICAMERAATOM_HLPHPBAODIF_OFFSET UNITYSDK_OFFSET(0x7AA2E0)
+#define MOLEMOLE_UICAMERAATOM_INCFIJKMIGG_OFFSET UNITYSDK_OFFSET(0x1755E7F0)
+#define MOLEMOLE_UICAMERAATOM_JGBGPJACDOG_OFFSET UNITYSDK_OFFSET(0x7AA1B0)
+#define MOLEMOLE_UICAMERAATOM_NOGJIJMACNO_OFFSET UNITYSDK_OFFSET(0x1755E270)
+#define MOLEMOLE_UICAMERAATOM_SET_FOV_OFFSET UNITYSDK_OFFSET(0x358800)
+#define MOLEMOLE_UICAMERAATOM_SET_POS_OFFSET UNITYSDK_OFFSET(0x7CB5C0)
+#define MOLEMOLE_UICAMERAATOM_SET_ROT_OFFSET UNITYSDK_OFFSET(0x4255F0)
+#define MOLEMOLE_UICAMERAATOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x7AA0E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICameraAtom_TypeDefinitionIndex = 57897;
+	inline static constexpr unsigned int UICameraAtom_TypeDefinitionIndex = 76463;
 
 	struct alignas(4) UICameraAtom
 	{
@@ -45,9 +45,9 @@ namespace MoleMole
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_GET_FOV_OFFSET))(this);
 		}
 
-		::System::Void set_Fov(::System::Single a1)
+		::System::Void set_Fov(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_SET_FOV_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_SET_FOV_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Vector3 get_Pos()
@@ -55,9 +55,9 @@ namespace MoleMole
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_GET_POS_OFFSET))(this);
 		}
 
-		::System::Void set_Pos(::UnityEngine::Vector3 a1)
+		::System::Void set_Pos(::UnityEngine::Vector3 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_SET_POS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_SET_POS_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Quaternion get_Rot()
@@ -65,24 +65,28 @@ namespace MoleMole
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_GET_ROT_OFFSET))(this);
 		}
 
-		::System::Void set_Rot(::UnityEngine::Quaternion a1)
+		::System::Void set_Rot(::UnityEngine::Quaternion EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_SET_ROT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_SET_ROT_OFFSET))(this, EGEGIMGMJHN);
 		}
 
+		/*
 		static ::MoleMole::UICameraAtom get_Default()
 		{
 			return ((::MoleMole::UICameraAtom(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_GET_DEFAULT_OFFSET))();
 		}
+		*/
 
-		::System::Boolean Equals(::MoleMole::UICameraAtom a1)
+		/*
+		::System::Boolean Equals(::MoleMole::UICameraAtom LIBPKNHDIGP)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UICameraAtom))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_EQUALS_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UICameraAtom))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_EQUALS_OFFSET))(this, LIBPKNHDIGP);
 		}
+		*/
 
-		::System::Boolean Equals_1(::System::Object* a1)
+		::System::Boolean Equals_1(::System::Object* EIFONLCJOPG)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_EQUALS_1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_EQUALS_1_OFFSET))(this, EIFONLCJOPG);
 		}
 
 		::System::Int32 GetHashCode()
@@ -95,59 +99,73 @@ namespace MoleMole
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_TOSTRING_OFFSET))(this);
 		}
 
-		static ::MoleMole::UICameraAtom Method_2_5C84E6237E32B708(::MoleMole::UICameraAtom a1, ::MoleMole::UICameraAtom a2, ::System::Single a3)
+		::System::Boolean CCGJNPBEKCB(::UnityEngine::Vector3 OHOGDOMNHNK, ::System::Single IJPJAMNLKBJ)
 		{
-			return ((::MoleMole::UICameraAtom(*)(::MoleMole::UICameraAtom, ::MoleMole::UICameraAtom, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_METHOD_2_5C84E6237E32B708_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_CCGJNPBEKCB_OFFSET))(this, OHOGDOMNHNK, IJPJAMNLKBJ);
 		}
 
-		::System::String* Method_2_35EA095E1AFDD9C8()
+		::System::Boolean JGBGPJACDOG(::System::Object* MIALFKCCCPI)
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_METHOD_2_35EA095E1AFDD9C8_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_JGBGPJACDOG_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		static ::MoleMole::UICameraAtom Method_2_615E1E979D709B9B(::MoleMole::UICameraAtom a1, ::MoleMole::UICameraAtom a2)
+		/*
+		::System::Boolean HLBFMAOKADL(::MoleMole::UICameraAtom LIBPKNHDIGP, ::System::Single IJPJAMNLKBJ)
 		{
-			return ((::MoleMole::UICameraAtom(*)(::MoleMole::UICameraAtom, ::MoleMole::UICameraAtom))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_METHOD_2_615E1E979D709B9B_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UICameraAtom, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_HLBFMAOKADL_OFFSET))(this, LIBPKNHDIGP, IJPJAMNLKBJ);
+		}
+		*/
+
+		::System::String* DPIHOJBBGLA()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_DPIHOJBBGLA_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_6D0360BD23602584(::System::Object* a1)
+		::System::Int32 HLPHPBAODIF()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_METHOD_2_6D0360BD23602584_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_HLPHPBAODIF_OFFSET))(this);
 		}
 
-		::System::Int32 Method_2_95780ED94B90ED36()
+		/*
+		static ::MoleMole::UICameraAtom DJNAHLAFGNJ(::MoleMole::UICameraAtom EJCBEJMGFAJ, ::MoleMole::UICameraAtom EBFCACIEKBC, ::System::Single DHKKKJGDKOG)
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_METHOD_2_95780ED94B90ED36_OFFSET))(this);
+			return ((::MoleMole::UICameraAtom(*)(::MoleMole::UICameraAtom, ::MoleMole::UICameraAtom, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_DJNAHLAFGNJ_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC, DHKKKJGDKOG);
 		}
+		*/
 
-		::System::Boolean Method_2_500BD849996697EA(::UnityEngine::Vector3 a1, ::System::Single a2)
+		/*
+		static ::MoleMole::UICameraAtom FPIFKGGDGEE(::MoleMole::UICameraAtom EJCBEJMGFAJ, ::MoleMole::UICameraAtom EBFCACIEKBC)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_METHOD_2_500BD849996697EA_OFFSET))(this, a1, a2);
+			return ((::MoleMole::UICameraAtom(*)(::MoleMole::UICameraAtom, ::MoleMole::UICameraAtom))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_FPIFKGGDGEE_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
+		*/
 
-		static ::MoleMole::UICameraAtom Method_2_D3A27E093B03BCB3(::MoleMole::UICameraAtom a1, ::System::Single a2)
+		/*
+		static ::System::Boolean NOGJIJMACNO(::MoleMole::UICameraAtom EJCBEJMGFAJ, ::MoleMole::UICameraAtom EBFCACIEKBC)
 		{
-			return ((::MoleMole::UICameraAtom(*)(::MoleMole::UICameraAtom, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_METHOD_2_D3A27E093B03BCB3_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::MoleMole::UICameraAtom, ::MoleMole::UICameraAtom))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_NOGJIJMACNO_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
+		*/
 
-		static ::System::Boolean Method_2_128A3A066D9C08E3(::MoleMole::UICameraAtom a1, ::MoleMole::UICameraAtom a2)
+		/*
+		static ::MoleMole::UICameraAtom EIHNCLBIJFG(::MoleMole::UICameraAtom EJCBEJMGFAJ, ::System::Single EBFCACIEKBC)
 		{
-			return ((::System::Boolean(*)(::MoleMole::UICameraAtom, ::MoleMole::UICameraAtom))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_METHOD_2_128A3A066D9C08E3_OFFSET))(a1, a2);
+			return ((::MoleMole::UICameraAtom(*)(::MoleMole::UICameraAtom, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_EIHNCLBIJFG_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
+		*/
 
-		::System::Boolean Method_2_B2FBAC43FA08C2C9(::MoleMole::UICameraAtom a1, ::System::Single a2)
+		/*
+		static ::MoleMole::UICameraAtom CIBONHMNLEN(::MoleMole::UICameraAtom EJCBEJMGFAJ, ::MoleMole::UICameraAtom EBFCACIEKBC)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UICameraAtom, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_METHOD_2_B2FBAC43FA08C2C9_OFFSET))(this, a1, a2);
+			return ((::MoleMole::UICameraAtom(*)(::MoleMole::UICameraAtom, ::MoleMole::UICameraAtom))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_CIBONHMNLEN_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
+		*/
 
-		static ::MoleMole::UICameraAtom Method_2_70B33D50DE73FA8B(::MoleMole::UICameraAtom a1, ::MoleMole::UICameraAtom a2)
+		/*
+		static ::System::Boolean INCFIJKMIGG(::MoleMole::UICameraAtom EJCBEJMGFAJ, ::MoleMole::UICameraAtom EBFCACIEKBC)
 		{
-			return ((::MoleMole::UICameraAtom(*)(::MoleMole::UICameraAtom, ::MoleMole::UICameraAtom))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_METHOD_2_70B33D50DE73FA8B_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::MoleMole::UICameraAtom, ::MoleMole::UICameraAtom))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_INCFIJKMIGG_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
-
-		static ::System::Boolean Method_2_128A3A066D9C08E3_1(::MoleMole::UICameraAtom a1, ::MoleMole::UICameraAtom a2)
-		{
-			return ((::System::Boolean(*)(::MoleMole::UICameraAtom, ::MoleMole::UICameraAtom))((::PBYTE)hIl2Cpp + MOLEMOLE_UICAMERAATOM_METHOD_2_128A3A066D9C08E3_1_OFFSET))(a1, a2);
-		}
+		*/
 	};
 }

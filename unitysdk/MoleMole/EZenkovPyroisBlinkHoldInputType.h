@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EZenkovPyroisBlinkHoldInputType_TypeDefinitionIndex = 83142;
+	inline static constexpr unsigned int EZenkovPyroisBlinkHoldInputType_TypeDefinitionIndex = 71140;
 
 	enum class EZenkovPyroisBlinkHoldInputType : ::System::Int32
 	{

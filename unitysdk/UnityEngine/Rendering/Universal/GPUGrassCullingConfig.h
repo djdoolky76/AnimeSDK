@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSCULLINGCONFIG_GET_CULLINGDISTANCE_OFFSET UNITYSDK_OFFSET(0x1BC564D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSCULLINGCONFIG_SET_CULLINGDISTANCE_OFFSET UNITYSDK_OFFSET(0x1BC564E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSCULLINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC564F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSCULLINGCONFIG_GET_CULLINGDISTANCE_OFFSET UNITYSDK_OFFSET(0x16E4E0E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSCULLINGCONFIG_SET_CULLINGDISTANCE_OFFSET UNITYSDK_OFFSET(0x16E4E0F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSCULLINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E4E100)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassCullingConfig_TypeDefinitionIndex = 27591;
+	inline static constexpr unsigned int GPUGrassCullingConfig_TypeDefinitionIndex = 26393;
 
 	class GPUGrassCullingConfig : public ::System::Object
 	{
@@ -17,6 +17,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single distanceToLod2; // 0x14
 		::System::Single distanceCullEndDist; // 0x18
 		::System::Boolean DISATNACE_CULL_ENABLE; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::Single frustumCullNearOffset; // 0x20
 		::System::Single frustumCullEdgeOffset; // 0x24
 		::System::Single _CullingDistance_k__BackingField; // 0x28

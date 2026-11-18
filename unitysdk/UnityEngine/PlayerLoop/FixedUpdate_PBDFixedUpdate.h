@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int FixedUpdate_PBDFixedUpdate_TypeDefinitionIndex = 5585;
+	inline static constexpr unsigned int FixedUpdate_PBDFixedUpdate_TypeDefinitionIndex = 5588;
 
-	struct alignas(1) FixedUpdate_PBDFixedUpdate
+	struct alignas(4) FixedUpdate_PBDFixedUpdate
 	{
 	};
 }

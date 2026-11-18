@@ -5,8 +5,7 @@
 namespace System::Reflection { class ExceptionHandlingClause; }
 namespace System::Reflection { class LocalVariableInfo; }
 
-#define SYSTEM_REFLECTION_METHODBODY_METHOD_1_6A64CBFD634AF3E4_OFFSET UNITYSDK_OFFSET(0x1DC007E0)
-#define SYSTEM_REFLECTION_METHODBODY_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1DC007D0)
+#define SYSTEM_REFLECTION_METHODBODY_METHOD_0_OFFSET UNITYSDK_OFFSET(0x1DF816C0)
 
 namespace System::Reflection
 {
@@ -15,21 +14,17 @@ namespace System::Reflection
 	class MethodBody : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Reflection::ExceptionHandlingClause*>* Field_1_3; // 0x10
-		::Il2CppArray<::System::Reflection::LocalVariableInfo*>* Field_1_2; // 0x18
-		::Il2CppArray<::System::Byte>* Field_1_1; // 0x20
-		::System::Boolean Field_1_0; // 0x28
-		::System::Int32 Field_1_7; // 0x2C
-		::System::Int32 Field_1_6; // 0x30
+		::Il2CppArray<::System::Reflection::ExceptionHandlingClause*>* Field_0; // 0x10
+		::Il2CppArray<::System::Reflection::LocalVariableInfo*>* Field_1; // 0x18
+		::Il2CppArray<::System::Byte>* Field_2; // 0x20
+		::System::Boolean Field_3; // 0x28
+		::System::Byte _padding0[0x3];
+		::System::Int32 Field_4; // 0x2C
+		::System::Int32 Field_5; // 0x30
 
-		::System::Void Method_1_832295EC279E5994()
+		::System::Void Method_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODBODY_METHOD_1_832295EC279E5994_OFFSET))(this);
-		}
-
-		::Il2CppArray<::System::Byte>* Method_1_6A64CBFD634AF3E4()
-		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODBODY_METHOD_1_6A64CBFD634AF3E4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODBODY_METHOD_0_OFFSET))(this);
 		}
 	};
 }

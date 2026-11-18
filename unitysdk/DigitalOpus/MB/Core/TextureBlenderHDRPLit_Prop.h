@@ -3,7 +3,7 @@
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int TextureBlenderHDRPLit_Prop_TypeDefinitionIndex = 94511;
+	inline static constexpr unsigned int TextureBlenderHDRPLit_Prop_TypeDefinitionIndex = 96198;
 
 	enum class TextureBlenderHDRPLit_Prop : ::System::Int32
 	{

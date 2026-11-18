@@ -5,7 +5,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachinePath_Waypoint_TypeDefinitionIndex = 34673;
+	inline static constexpr unsigned int CinemachinePath_Waypoint_TypeDefinitionIndex = 34219;
 
 	struct alignas(4) CinemachinePath_Waypoint
 	{

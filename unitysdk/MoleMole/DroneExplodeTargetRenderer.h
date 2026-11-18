@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/DroneExplodeTargetRenderer_Enum_3_2F6E6B060CDCFABB.h"
+#include "unitysdk/MoleMole/DroneExplodeTargetRenderer_IOCMLGAMCHJ.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_DRONEEXPLODETARGETRENDERER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x16277220)
-#define MOLEMOLE_DRONEEXPLODETARGETRENDERER_TRIGGERINTERACT_OFFSET UNITYSDK_OFFSET(0x162771D0)
-#define MOLEMOLE_DRONEEXPLODETARGETRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x16277270)
+#define MOLEMOLE_DRONEEXPLODETARGETRENDERER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x19B36830)
+#define MOLEMOLE_DRONEEXPLODETARGETRENDERER_TRIGGERINTERACT_OFFSET UNITYSDK_OFFSET(0x19B367E0)
+#define MOLEMOLE_DRONEEXPLODETARGETRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B36880)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DroneExplodeTargetRenderer_TypeDefinitionIndex = 69425;
+	inline static constexpr unsigned int DroneExplodeTargetRenderer_TypeDefinitionIndex = 53043;
 
 	class DroneExplodeTargetRenderer : public ::UnityEngine::MonoBehaviour
 	{
@@ -19,14 +19,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DRONEEXPLODETARGETRENDERER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void TriggerInteract(::MoleMole::DroneExplodeTargetRenderer_Enum_3_2F6E6B060CDCFABB a1)
+		::System::Void TriggerInteract(::MoleMole::DroneExplodeTargetRenderer_IOCMLGAMCHJ PAECIAANMPC)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::DroneExplodeTargetRenderer_Enum_3_2F6E6B060CDCFABB))((::PBYTE)hIl2Cpp + MOLEMOLE_DRONEEXPLODETARGETRENDERER_TRIGGERINTERACT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::DroneExplodeTargetRenderer_IOCMLGAMCHJ))((::PBYTE)hIl2Cpp + MOLEMOLE_DRONEEXPLODETARGETRENDERER_TRIGGERINTERACT_OFFSET))(this, PAECIAANMPC);
 		}
 
-		::System::Void Initialize(::System::Boolean a1, ::System::Boolean a2)
+		::System::Void Initialize(::System::Boolean HJONLICJCJI, ::System::Boolean FIOEIEDAPKK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_DRONEEXPLODETARGETRENDERER_INITIALIZE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_DRONEEXPLODETARGETRENDERER_INITIALIZE_OFFSET))(this, HJONLICJCJI, FIOEIEDAPKK);
 		}
 	};
 }

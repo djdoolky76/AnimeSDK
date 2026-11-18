@@ -4,28 +4,28 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_D6FEE2A35B0F262A;
+class ANHBPHMAICA;
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AC64B0)
-#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC64F0)
-#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__REFRESHFLOWERTEXT_B__19_0_OFFSET UNITYSDK_OFFSET(0x18AC6500)
+#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18096A00)
+#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18096A40)
+#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__REFRESHFLOWERTEXT_B__19_0_OFFSET UNITYSDK_OFFSET(0x18096A50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerTimeLinePageController___c_TypeDefinitionIndex = 62488;
+	inline static constexpr unsigned int UIFlowerTimeLinePageController___c_TypeDefinitionIndex = 72804;
 
 	class UIFlowerTimeLinePageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIFlowerTimeLinePageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIFlowerTimeLinePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x4AC80);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x50D10);
 		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::MoleMole::UI::FlowerShop::ESlotType, ::Class_2_D6FEE2A35B0F262A*>, ::System::String*>** StaticGet___9__19_0()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::MoleMole::UI::FlowerShop::ESlotType, ::ANHBPHMAICA*>, ::System::String*>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::MoleMole::UI::FlowerShop::ESlotType, ::Class_2_D6FEE2A35B0F262A*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x4AC88);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::MoleMole::UI::FlowerShop::ESlotType, ::ANHBPHMAICA*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIFlowerTimeLinePageController___c_TypeDefinitionIndex)->GetStaticField(0x50D18);
 		}
 
 		static ::System::Void _cctor()
@@ -38,9 +38,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::String* _RefreshFlowerText_b__19_0(::System::Collections::Generic::KeyValuePair_2<::MoleMole::UI::FlowerShop::ESlotType, ::Class_2_D6FEE2A35B0F262A*> kv)
+		::System::String* _RefreshFlowerText_b__19_0(::System::Collections::Generic::KeyValuePair_2<::MoleMole::UI::FlowerShop::ESlotType, ::ANHBPHMAICA*> kv)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::MoleMole::UI::FlowerShop::ESlotType, ::Class_2_D6FEE2A35B0F262A*>))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__REFRESHFLOWERTEXT_B__19_0_OFFSET))(this, kv);
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::MoleMole::UI::FlowerShop::ESlotType, ::ANHBPHMAICA*>))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__REFRESHFLOWERTEXT_B__19_0_OFFSET))(this, kv);
 		}
 	};
 }

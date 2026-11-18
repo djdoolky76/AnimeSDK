@@ -2,12 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ChessStateMachine/StateMachineEntityAction.h"
 
-class Class_1_43BD383C98B4C0C5_31;
-class Class_2_5DF25B7A40A1031E;
-
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int StateMachineNormalEntityAction_1_TypeDefinitionIndex = 71005;
+	inline static constexpr unsigned int StateMachineNormalEntityAction_1_TypeDefinitionIndex = 66293;
 
 	template <typename T>
 	class StateMachineNormalEntityAction_1 : public ::MoleMole::ChessStateMachine::StateMachineEntityAction

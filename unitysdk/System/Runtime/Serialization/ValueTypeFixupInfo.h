@@ -4,11 +4,11 @@
 
 namespace System::Reflection { class FieldInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D815410)
+#define SYSTEM_RUNTIME_SERIALIZATION_VALUETYPEFIXUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD1CBA0)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int ValueTypeFixupInfo_TypeDefinitionIndex = 1175;
+	inline static constexpr unsigned int ValueTypeFixupInfo_TypeDefinitionIndex = 1174;
 
 	class ValueTypeFixupInfo : public ::System::Object
 	{

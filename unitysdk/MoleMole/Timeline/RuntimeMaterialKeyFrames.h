@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALKEYFRAMES_METHOD_1_EB476E77D9330246_OFFSET UNITYSDK_OFFSET(0x1B6B6990)
-#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALKEYFRAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B68B0)
+#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALKEYFRAMES_CHJFJPOKFAN_OFFSET UNITYSDK_OFFSET(0x1A728DE0)
+#define MOLEMOLE_TIMELINE_RUNTIMEMATERIALKEYFRAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A728D00)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int RuntimeMaterialKeyFrames_TypeDefinitionIndex = 64160;
+	inline static constexpr unsigned int RuntimeMaterialKeyFrames_TypeDefinitionIndex = 44509;
 
 	class RuntimeMaterialKeyFrames : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_RUNTIMEMATERIALKEYFRAMES__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_EB476E77D9330246(::System::Boolean a1)
+		::System::Void CHJFJPOKFAN(::System::Boolean JEHCBLBLEAO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_RUNTIMEMATERIALKEYFRAMES_METHOD_1_EB476E77D9330246_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_RUNTIMEMATERIALKEYFRAMES_CHJFJPOKFAN_OFFSET))(this, JEHCBLBLEAO);
 		}
 	};
 }

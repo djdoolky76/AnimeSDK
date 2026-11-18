@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int MeshUpdateFlags_TypeDefinitionIndex = 6159;
+	inline static constexpr unsigned int MeshUpdateFlags_TypeDefinitionIndex = 6168;
 
 	enum class MeshUpdateFlags : ::System::Int32
 	{

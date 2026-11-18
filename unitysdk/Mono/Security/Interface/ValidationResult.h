@@ -4,24 +4,24 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_ERRORCODE_OFFSET UNITYSDK_OFFSET(0x1F3F33F0)
-#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_POLICYERRORS_OFFSET UNITYSDK_OFFSET(0x1F3F3400)
-#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_TRUSTED_OFFSET UNITYSDK_OFFSET(0x1F3F33D0)
-#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_USERDENIED_OFFSET UNITYSDK_OFFSET(0x1F3F33E0)
-#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F3F33C0)
-#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F33A0)
+#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_ERRORCODE_OFFSET UNITYSDK_OFFSET(0x1F7FD340)
+#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_POLICYERRORS_OFFSET UNITYSDK_OFFSET(0x1F7FD350)
+#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_TRUSTED_OFFSET UNITYSDK_OFFSET(0x1F7FD320)
+#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_USERDENIED_OFFSET UNITYSDK_OFFSET(0x1F7FD330)
+#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F7FD310)
+#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7FD2F0)
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int ValidationResult_TypeDefinitionIndex = 2427;
+	inline static constexpr unsigned int ValidationResult_TypeDefinitionIndex = 2426;
 
 	class ValidationResult : public ::System::Object
 	{
 	public:
-		::System::Boolean user_denied; // 0x10
-		::System::Boolean trusted; // 0x11
-		::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors; // 0x14
-		::System::Int32 error_code; // 0x1C
+		::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors; // 0x10
+		::System::Int32 error_code; // 0x18
+		::System::Boolean trusted; // 0x1C
+		::System::Boolean user_denied; // 0x1D
 
 		::System::Void _ctor(::System::Boolean trusted, ::System::Boolean user_denied, ::System::Int32 error_code, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors)
 		{

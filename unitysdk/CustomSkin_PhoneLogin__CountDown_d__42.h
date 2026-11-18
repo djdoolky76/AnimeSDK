@@ -4,23 +4,24 @@
 
 class CustomSkin_PhoneLogin;
 
-#define CUSTOMSKIN_PHONELOGIN__COUNTDOWN_D__42_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x128BFF60)
-#define CUSTOMSKIN_PHONELOGIN__COUNTDOWN_D__42_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x128C01B0)
-#define CUSTOMSKIN_PHONELOGIN__COUNTDOWN_D__42_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x128C0210)
-#define CUSTOMSKIN_PHONELOGIN__COUNTDOWN_D__42_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x128C01C0)
-#define CUSTOMSKIN_PHONELOGIN__COUNTDOWN_D__42_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x128BFF50)
-#define CUSTOMSKIN_PHONELOGIN__COUNTDOWN_D__42__CTOR_OFFSET UNITYSDK_OFFSET(0x128BFF40)
+#define CUSTOMSKIN_PHONELOGIN__COUNTDOWN_D__42_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x12056C80)
+#define CUSTOMSKIN_PHONELOGIN__COUNTDOWN_D__42_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12056ED0)
+#define CUSTOMSKIN_PHONELOGIN__COUNTDOWN_D__42_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12056F30)
+#define CUSTOMSKIN_PHONELOGIN__COUNTDOWN_D__42_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x12056EE0)
+#define CUSTOMSKIN_PHONELOGIN__COUNTDOWN_D__42_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12056C70)
+#define CUSTOMSKIN_PHONELOGIN__COUNTDOWN_D__42__CTOR_OFFSET UNITYSDK_OFFSET(0x12056C60)
 
-inline static constexpr unsigned int CustomSkin_PhoneLogin__CountDown_d__42_TypeDefinitionIndex = 42910;
+inline static constexpr unsigned int CustomSkin_PhoneLogin__CountDown_d__42_TypeDefinitionIndex = 71934;
 
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36, typename T37, typename T38, typename T39, typename T40, typename T41, typename T42>
 class CustomSkin_PhoneLogin__CountDown_d__42 : public ::System::Object
 {
 public:
-	::System::Object* __2__current; // 0x10
-	::CustomSkin_PhoneLogin* __4__this; // 0x18
-	::System::Single _startTime_5__2; // 0x20
-	::System::Single time; // 0x24
-	::System::Int32 __1__state; // 0x28
+	::CustomSkin_PhoneLogin* __4__this; // 0x10
+	::System::Object* __2__current; // 0x18
+	::System::Single time; // 0x20
+	::System::Int32 __1__state; // 0x24
+	::System::Single _startTime_5__2; // 0x28
 
 	::System::Void _ctor(::System::Int32 __1__state)
 	{

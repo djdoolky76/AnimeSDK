@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 
 namespace System { class Object; }
 
-#define FLOWCANVAS_NODES_ISNOTNULL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E6CB9F0)
-#define FLOWCANVAS_NODES_ISNOTNULL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CBA30)
+#define FLOWCANVAS_NODES_ISNOTNULL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E954C80)
+#define FLOWCANVAS_NODES_ISNOTNULL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E954CC0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IsNotNull_TypeDefinitionIndex = 30727;
+	inline static constexpr unsigned int IsNotNull_TypeDefinitionIndex = 29969;
 
-	class IsNotNull : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Boolean, ::System::Object*>
+	class IsNotNull
 	{
 	public:
 		::System::Void _ctor()

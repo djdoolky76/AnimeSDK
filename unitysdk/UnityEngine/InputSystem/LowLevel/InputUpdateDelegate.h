@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-#include "unitysdk/UnityEngine/InputSystem/LowLevel/InputEventBuffer.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputUpdateType.h"
+#include "unitysdk/UnityEngine/InputSystem/LowLevel/InputEventBuffer.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F37AE30)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F37AEC0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F37AB20)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F37AB00)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F78C1A0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F78C230)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F78BE90)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_INPUTUPDATEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F78BE80)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputUpdateDelegate_TypeDefinitionIndex = 32548;
+	inline static constexpr unsigned int InputUpdateDelegate_TypeDefinitionIndex = 31997;
 
 	class InputUpdateDelegate : public ::System::MulticastDelegate
 	{

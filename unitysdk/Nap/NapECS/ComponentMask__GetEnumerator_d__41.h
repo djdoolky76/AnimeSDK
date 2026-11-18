@@ -3,27 +3,29 @@
 #include "unitysdk/Nap/NapECS/ComponentMask.h"
 #include "unitysdk/System/Object.h"
 
-#define NAP_NAPECS_COMPONENTMASK__GETENUMERATOR_D__41_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C832250)
-#define NAP_NAPECS_COMPONENTMASK__GETENUMERATOR_D__41_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_UINT16__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C832460)
-#define NAP_NAPECS_COMPONENTMASK__GETENUMERATOR_D__41_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C8324C0)
-#define NAP_NAPECS_COMPONENTMASK__GETENUMERATOR_D__41_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C832470)
-#define NAP_NAPECS_COMPONENTMASK__GETENUMERATOR_D__41_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C832240)
-#define NAP_NAPECS_COMPONENTMASK__GETENUMERATOR_D__41__CTOR_OFFSET UNITYSDK_OFFSET(0x1C82FB10)
+#define NAP_NAPECS_COMPONENTMASK__GETENUMERATOR_D__41_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1CDF8C30)
+#define NAP_NAPECS_COMPONENTMASK__GETENUMERATOR_D__41_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_UINT16__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CDF8E40)
+#define NAP_NAPECS_COMPONENTMASK__GETENUMERATOR_D__41_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CDF8EA0)
+#define NAP_NAPECS_COMPONENTMASK__GETENUMERATOR_D__41_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1CDF8E50)
+#define NAP_NAPECS_COMPONENTMASK__GETENUMERATOR_D__41_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CDF8C20)
+#define NAP_NAPECS_COMPONENTMASK__GETENUMERATOR_D__41__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF6470)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ComponentMask__GetEnumerator_d__41_TypeDefinitionIndex = 37963;
+	inline static constexpr unsigned int ComponentMask__GetEnumerator_d__41_TypeDefinitionIndex = 35972;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36, typename T37, typename T38, typename T39, typename T40, typename T41>
 	class ComponentMask__GetEnumerator_d__41 : public ::System::Object
 	{
 	public:
-		::System::Int32 __1__state; // 0x10
-		::System::UInt16 _baseIndex_5__4; // 0x14
-		::System::UInt16 __2__current; // 0x16
-		::Nap::NapECS::ComponentMask __4__this; // 0x18
+		::Nap::NapECS::ComponentMask __4__this; // 0x10
+		::System::Byte _j_5__2; // 0x50
+		::System::Byte _i_5__5; // 0x51
+		::System::UInt16 _baseIndex_5__4; // 0x52
+		::System::UInt16 __2__current; // 0x54
+		::System::Byte _padding0[0x2];
 		::System::UInt64 _mask_5__3; // 0x58
-		::System::Byte _i_5__5; // 0x60
-		::System::Byte _j_5__2; // 0x61
+		::System::Int32 __1__state; // 0x60
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

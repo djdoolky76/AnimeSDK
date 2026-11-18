@@ -8,20 +8,21 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 
-#define UIREWARDPROGRESSWIDGET_CONVERTPROGRESS_OFFSET UNITYSDK_OFFSET(0x18C5CE90)
-#define UIREWARDPROGRESSWIDGET_GETMAXVAL_OFFSET UNITYSDK_OFFSET(0x18C5CEF0)
-#define UIREWARDPROGRESSWIDGET_INITPROGRESS_OFFSET UNITYSDK_OFFSET(0x18C5C7E0)
-#define UIREWARDPROGRESSWIDGET_SETPROGERSS_OFFSET UNITYSDK_OFFSET(0x18C5C850)
-#define UIREWARDPROGRESSWIDGET_SETREWARD_OFFSET UNITYSDK_OFFSET(0x18C5CF40)
-#define UIREWARDPROGRESSWIDGET__CTOR_OFFSET UNITYSDK_OFFSET(0x18C5D150)
+#define UIREWARDPROGRESSWIDGET_CONVERTPROGRESS_OFFSET UNITYSDK_OFFSET(0x1A80CBC0)
+#define UIREWARDPROGRESSWIDGET_GETMAXVAL_OFFSET UNITYSDK_OFFSET(0x1A80CC20)
+#define UIREWARDPROGRESSWIDGET_INITPROGRESS_OFFSET UNITYSDK_OFFSET(0x1A80C510)
+#define UIREWARDPROGRESSWIDGET_SETPROGERSS_OFFSET UNITYSDK_OFFSET(0x1A80C580)
+#define UIREWARDPROGRESSWIDGET_SETREWARD_OFFSET UNITYSDK_OFFSET(0x1A80CC70)
+#define UIREWARDPROGRESSWIDGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A80CE80)
 
-inline static constexpr unsigned int UIRewardProgressWidget_TypeDefinitionIndex = 44150;
+inline static constexpr unsigned int UIRewardProgressWidget_TypeDefinitionIndex = 46819;
 
 class UIRewardProgressWidget : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::UnityEngine::GameObject* ProgressRoot; // 0x18
 	::System::Single maxValue; // 0x20
+	::System::Byte _padding0[0x4];
 	::UnityEngine::RectTransform* ProgressRect; // 0x28
 	::Il2CppArray<::UnityEngine::RectTransform*>* rewardsTrans; // 0x30
 	::System::Action_2<::UnityEngine::UI::Image*, ::System::String*>* LoadSpriteFunc; // 0x38

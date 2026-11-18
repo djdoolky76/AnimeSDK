@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define FLUFFYUNDERWARE_CURVY_CGDATAREFERENCESELECTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE58000)
+#define FLUFFYUNDERWARE_CURVY_CGDATAREFERENCESELECTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1FB010)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CGDataReferenceSelectorAttribute_TypeDefinitionIndex = 39640;
+	inline static constexpr unsigned int CGDataReferenceSelectorAttribute_TypeDefinitionIndex = 37666;
 
 	class CGDataReferenceSelectorAttribute : public ::FluffyUnderware::DevTools::DTPropertyAttribute
 	{

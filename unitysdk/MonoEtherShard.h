@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOETHERSHARD_ONENABLE_OFFSET UNITYSDK_OFFSET(0x10B01060)
-#define MONOETHERSHARD__CCTOR_OFFSET UNITYSDK_OFFSET(0x10B012A0)
-#define MONOETHERSHARD__CTOR_OFFSET UNITYSDK_OFFSET(0x10B01250)
+#define MONOETHERSHARD_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17268490)
+#define MONOETHERSHARD__CCTOR_OFFSET UNITYSDK_OFFSET(0x172686D0)
+#define MONOETHERSHARD__CTOR_OFFSET UNITYSDK_OFFSET(0x17268680)
 
-inline static constexpr unsigned int MonoEtherShard_TypeDefinitionIndex = 90180;
+inline static constexpr unsigned int MonoEtherShard_TypeDefinitionIndex = 66951;
 
 class MonoEtherShard : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Int32* StaticGet_RandomValue()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEtherShard_TypeDefinitionIndex)->GetStaticField(0x11C20);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEtherShard_TypeDefinitionIndex)->GetStaticField(0x124A0);
 	}
 
 	::System::Void _ctor()

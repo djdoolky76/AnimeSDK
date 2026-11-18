@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13521940)
+#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xEB1DDC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovHandInPopWindowController_Context_TypeDefinitionIndex = 58005;
+	inline static constexpr unsigned int UIZenkovHandInPopWindowController_Context_TypeDefinitionIndex = 67768;
 
 	class UIZenkovHandInPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

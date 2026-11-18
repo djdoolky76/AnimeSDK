@@ -6,20 +6,24 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x652520)
+#define NPCCROWD_ABILITY_NPCABILITYPATHFOLLOWPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5A7D40)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityPathFollowProcessor_ExecuteJob_TypeDefinitionIndex = 68221;
+	inline static constexpr unsigned int NPCAbilityPathFollowProcessor_ExecuteJob_TypeDefinitionIndex = 84141;
 
 	struct alignas(8) NPCAbilityPathFollowProcessor_ExecuteJob
 	{
 		::System::Single deltaTime; // 0x10
 		::System::Single currentTime; // 0x14
 		::Unity::Collections::NativeArray_1<::System::Boolean> runtime_bIsUsing; // 0x18
+		::System::Byte _padding0[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> runtime_transform; // 0x28
+		::System::Byte _padding1[0x8];
 		::Unity::Collections::NativeArray_1<::System::UInt32> EntityIds; // 0x38
+		::System::Byte _padding2[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2> runtime_pathFollow; // 0x48
+		::System::Byte _padding3[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMoveTargetFragment> runtime_moveTarget; // 0x58
 
 		::System::Void Execute(::System::Int32 idx)

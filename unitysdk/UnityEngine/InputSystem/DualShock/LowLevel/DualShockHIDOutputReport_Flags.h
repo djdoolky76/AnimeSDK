@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::DualShock::LowLevel
 {
-	inline static constexpr unsigned int DualShockHIDOutputReport_Flags_TypeDefinitionIndex = 32458;
+	inline static constexpr unsigned int DualShockHIDOutputReport_Flags_TypeDefinitionIndex = 31907;
 
 	enum class DualShockHIDOutputReport_Flags : ::System::Int32
 	{

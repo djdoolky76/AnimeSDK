@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelNPCNameWidgetController_AvatarPosFrameCache_TypeDefinitionIndex = 82009;
+	inline static constexpr unsigned int UIInLevelNPCNameWidgetController_AvatarPosFrameCache_TypeDefinitionIndex = 58315;
 
 	struct alignas(4) UIInLevelNPCNameWidgetController_AvatarPosFrameCache
 	{

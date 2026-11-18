@@ -4,27 +4,27 @@
 #include "unitysdk/Character.h"
 #include "unitysdk/CullingSphereAnchor.h"
 #include "unitysdk/MonoRenderEntity_DecalResolution.h"
-#include "unitysdk/MonoRenderEntity_UVSet.h"
 #include "unitysdk/System/ValueTuple_2.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/NapCapsuleAoNodeBinding.h"
-#include "unitysdk/UnityEngine/Rendering/ShadowCastingMode.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/GraphicSettings_EDamageDecalQuality.h"
+#include "unitysdk/UnityEngine/Rendering/ShadowCastingMode.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 
 class DamageDecalConfig;
 class MonoRenderEntity_MonsterDecalInfo;
-class MonoRenderEntity_MultipleSkeletons;
 class NapMaterial;
 class NapRenderEntity;
 class NapRenderer;
+namespace System { class Object; }
 namespace System::Collections { class BitArray; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Light; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class RenderTexture; }
@@ -35,212 +35,234 @@ namespace UnityEngine::Profiling { class CustomSampler; }
 namespace UnityEngine::Rendering::Universal { class ForwardRendererData; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define MONORENDERENTITY_APPLYNATIVEBACKEND_OFFSET UNITYSDK_OFFSET(0x1CB03D60)
-#define MONORENDERENTITY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CB04CD0)
-#define MONORENDERENTITY_CHECKDAMAGEDECALQUALITY_OFFSET UNITYSDK_OFFSET(0x1CB05660)
-#define MONORENDERENTITY_CLEANUPDECAL_OFFSET UNITYSDK_OFFSET(0x1CB05140)
-#define MONORENDERENTITY_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1CB06AD0)
-#define MONORENDERENTITY_COLLIDERTOCAPSULE_OFFSET UNITYSDK_OFFSET(0x1CB075A0)
-#define MONORENDERENTITY_CREATENATIVEOBJECT_OFFSET UNITYSDK_OFFSET(0x1CB03BD0)
-#define MONORENDERENTITY_CREATERANDOMZROTATIONMATRIX_OFFSET UNITYSDK_OFFSET(0x1CB08BB0)
-#define MONORENDERENTITY_DESTROYNATIVEOBJECT_OFFSET UNITYSDK_OFFSET(0x1CB03D10)
-#define MONORENDERENTITY_DISABLEGLOBALDAMAGEDECAL_OFFSET UNITYSDK_OFFSET(0x1CB0A720)
-#define MONORENDERENTITY_FIREDAMAGEDECAL_OFFSET UNITYSDK_OFFSET(0x1CB0A4A0)
-#define MONORENDERENTITY_FORCEREFRESH_OFFSET UNITYSDK_OFFSET(0x1CB06EA0)
-#define MONORENDERENTITY_GETCELLINDEX_OFFSET UNITYSDK_OFFSET(0x1CB09420)
-#define MONORENDERENTITY_GET_ACTUALCONTROLLINGENTITY_OFFSET UNITYSDK_OFFSET(0x1CB039D0)
-#define MONORENDERENTITY_GET_NATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x1CB03BC0)
-#define MONORENDERENTITY_GET_USENATIVEBACKEND_OFFSET UNITYSDK_OFFSET(0x1CB03B00)
-#define MONORENDERENTITY_INITGUNEYES_OFFSET UNITYSDK_OFFSET(0x1CB05890)
-#define MONORENDERENTITY_INITIALIZEDAMAGEDECALINFO_OFFSET UNITYSDK_OFFSET(0x1CB07BD0)
-#define MONORENDERENTITY_KILLCELL_OFFSET UNITYSDK_OFFSET(0x1CB091D0)
-#define MONORENDERENTITY_ONCUSTOMLIGHTDIRECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1CB03810)
-#define MONORENDERENTITY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CB06C30)
-#define MONORENDERENTITY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CB034F0)
-#define MONORENDERENTITY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CB032E0)
-#define MONORENDERENTITY_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x1CB03710)
-#define MONORENDERENTITY_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x1CB03770)
-#define MONORENDERENTITY_ONREALDISABLE_OFFSET UNITYSDK_OFFSET(0x1CB035B0)
-#define MONORENDERENTITY_ONREALENABLE_OFFSET UNITYSDK_OFFSET(0x1CB033A0)
-#define MONORENDERENTITY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1CB05420)
-#define MONORENDERENTITY_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1CB050C0)
-#define MONORENDERENTITY_PEROBJECTSHADOWFADEWITHHEIGHT_OFFSET UNITYSDK_OFFSET(0x1CB0B170)
-#define MONORENDERENTITY_RECALCULATECAPSULEAOARRAYS_OFFSET UNITYSDK_OFFSET(0x1CB04780)
-#define MONORENDERENTITY_RECOVERGLOBALDAMAGEDECAL_OFFSET UNITYSDK_OFFSET(0x1CB0AB50)
-#define MONORENDERENTITY_REFRESHIMPL_OFFSET UNITYSDK_OFFSET(0x1CB06E00)
-#define MONORENDERENTITY_REFRESH_OFFSET UNITYSDK_OFFSET(0x1CB06DB0)
-#define MONORENDERENTITY_REGISTERENTITYFORCG_OFFSET UNITYSDK_OFFSET(0x1CB053D0)
-#define MONORENDERENTITY_REGISTERENTITY_OFFSET UNITYSDK_OFFSET(0x1CB04E60)
-#define MONORENDERENTITY_RESETRENDERERSHADOWCASTER_OFFSET UNITYSDK_OFFSET(0x1CB0AFF0)
-#define MONORENDERENTITY_SELFUPDATE_OFFSET UNITYSDK_OFFSET(0x1CB06EF0)
-#define MONORENDERENTITY_SETGUNEYEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CB0B6A0)
-#define MONORENDERENTITY_SETUPNATIVE_OFFSET UNITYSDK_OFFSET(0x1CB04000)
-#define MONORENDERENTITY_SET_USENATIVEBACKEND_OFFSET UNITYSDK_OFFSET(0x1CB03B60)
-#define MONORENDERENTITY_SHUFFLEOVERLAYINDEX_OFFSET UNITYSDK_OFFSET(0x1CB0A070)
-#define MONORENDERENTITY_SPAWNDECAL_OFFSET UNITYSDK_OFFSET(0x1CB08E00)
-#define MONORENDERENTITY_SYNCWITHMONORENDERENTITYBUTTON_OFFSET UNITYSDK_OFFSET(0x1CB037D0)
-#define MONORENDERENTITY_UPDATECELLSTATE_OFFSET UNITYSDK_OFFSET(0x1CB05480)
-#define MONORENDERENTITY_UPDATEMONSTERMATERIALPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1CB094C0)
-#define MONORENDERENTITY_UPDATENATIVEPEROBJECTSHADOWRESOLVEALPHA_OFFSET UNITYSDK_OFFSET(0x1CB038B0)
-#define MONORENDERENTITY_VALIDATEENTITYVISIBILITYUPDATE_OFFSET UNITYSDK_OFFSET(0x1CB057F0)
-#define MONORENDERENTITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB0C0D0)
-#define MONORENDERENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB0BC90)
+#define MONORENDERENTITY_APPLYNATIVEBACKEND_OFFSET UNITYSDK_OFFSET(0x1CEC1C90)
+#define MONORENDERENTITY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CEC2F00)
+#define MONORENDERENTITY_CHECKDAMAGEDECALQUALITY_OFFSET UNITYSDK_OFFSET(0x1CEC38A0)
+#define MONORENDERENTITY_CLEANUPDECAL_OFFSET UNITYSDK_OFFSET(0x1CEC3370)
+#define MONORENDERENTITY_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1CEC4D10)
+#define MONORENDERENTITY_CLEARDIRECTIONOVERRIDELIGHT_OFFSET UNITYSDK_OFFSET(0x1CEC1500)
+#define MONORENDERENTITY_COLLIDERTOCAPSULE_OFFSET UNITYSDK_OFFSET(0x1CEC57E0)
+#define MONORENDERENTITY_CREATENATIVEOBJECT_OFFSET UNITYSDK_OFFSET(0x1CEC1B00)
+#define MONORENDERENTITY_CREATERANDOMZROTATIONMATRIX_OFFSET UNITYSDK_OFFSET(0x1CEC6DF0)
+#define MONORENDERENTITY_DESTROYNATIVEOBJECT_OFFSET UNITYSDK_OFFSET(0x1CEC1C40)
+#define MONORENDERENTITY_DISABLEGLOBALDAMAGEDECAL_OFFSET UNITYSDK_OFFSET(0x1CEC8950)
+#define MONORENDERENTITY_FIREDAMAGEDECAL_OFFSET UNITYSDK_OFFSET(0x1CEC86D0)
+#define MONORENDERENTITY_FORCEREFRESH_OFFSET UNITYSDK_OFFSET(0x1CEC50E0)
+#define MONORENDERENTITY_GETCELLINDEX_OFFSET UNITYSDK_OFFSET(0x1CEC7660)
+#define MONORENDERENTITY_GET_ACTUALCONTROLLINGENTITY_OFFSET UNITYSDK_OFFSET(0x1CEC19C0)
+#define MONORENDERENTITY_GET_DIRECTIONOVERRIDELIGHT_OFFSET UNITYSDK_OFFSET(0x1CEC1130)
+#define MONORENDERENTITY_GET_NATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x1CEC1AF0)
+#define MONORENDERENTITY_GET_USENATIVEBACKEND_OFFSET UNITYSDK_OFFSET(0x1CEC1550)
+#define MONORENDERENTITY_GET_USENREHARNESS_OFFSET UNITYSDK_OFFSET(0x1CEC1600)
+#define MONORENDERENTITY_INITGUNEYES_OFFSET UNITYSDK_OFFSET(0x1CEC3AD0)
+#define MONORENDERENTITY_INITIALIZEDAMAGEDECALINFO_OFFSET UNITYSDK_OFFSET(0x1CEC5E10)
+#define MONORENDERENTITY_KILLCELL_OFFSET UNITYSDK_OFFSET(0x1CEC7410)
+#define MONORENDERENTITY_ONCUSTOMLIGHTDIRECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1CEC16B0)
+#define MONORENDERENTITY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CEC4E70)
+#define MONORENDERENTITY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CEC0E10)
+#define MONORENDERENTITY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CEC0C00)
+#define MONORENDERENTITY_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x1CEC1030)
+#define MONORENDERENTITY_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x1CEC1090)
+#define MONORENDERENTITY_ONREALDISABLE_OFFSET UNITYSDK_OFFSET(0x1CEC0ED0)
+#define MONORENDERENTITY_ONREALENABLE_OFFSET UNITYSDK_OFFSET(0x1CEC0CC0)
+#define MONORENDERENTITY_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1CEC3660)
+#define MONORENDERENTITY_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1CEC32F0)
+#define MONORENDERENTITY_PEROBJECTSHADOWFADEWITHHEIGHT_OFFSET UNITYSDK_OFFSET(0x1CEC93A0)
+#define MONORENDERENTITY_RECALCULATECAPSULEAOARRAYS_OFFSET UNITYSDK_OFFSET(0x1CEC29B0)
+#define MONORENDERENTITY_RECOVERGLOBALDAMAGEDECAL_OFFSET UNITYSDK_OFFSET(0x1CEC8D80)
+#define MONORENDERENTITY_REFRESHIMPL_OFFSET UNITYSDK_OFFSET(0x1CEC5040)
+#define MONORENDERENTITY_REFRESH_OFFSET UNITYSDK_OFFSET(0x1CEC4FF0)
+#define MONORENDERENTITY_REGISTERENTITYFORCG_OFFSET UNITYSDK_OFFSET(0x1CEC3610)
+#define MONORENDERENTITY_REGISTERENTITY_OFFSET UNITYSDK_OFFSET(0x1CEC2F50)
+#define MONORENDERENTITY_RESETRENDERERSHADOWCASTER_OFFSET UNITYSDK_OFFSET(0x1CEC9220)
+#define MONORENDERENTITY_SELFUPDATE_OFFSET UNITYSDK_OFFSET(0x1CEC5130)
+#define MONORENDERENTITY_SETDIRECTIONOVERRIDELIGHT_OFFSET UNITYSDK_OFFSET(0x1CEC1140)
+#define MONORENDERENTITY_SETGUNEYEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CEC9920)
+#define MONORENDERENTITY_SETUPNATIVE_OFFSET UNITYSDK_OFFSET(0x1CEC1F50)
+#define MONORENDERENTITY_SHUFFLEOVERLAYINDEX_OFFSET UNITYSDK_OFFSET(0x1CEC82B0)
+#define MONORENDERENTITY_SPAWNDECAL_OFFSET UNITYSDK_OFFSET(0x1CEC7040)
+#define MONORENDERENTITY_SYNCDIRECTIONOVERRIDELIGHTINSTANCEIDTONATIVE_OFFSET UNITYSDK_OFFSET(0x1CEC1190)
+#define MONORENDERENTITY_SYNCWITHMONORENDERENTITYBUTTON_OFFSET UNITYSDK_OFFSET(0x1CEC10F0)
+#define MONORENDERENTITY_UPDATECELLSTATE_OFFSET UNITYSDK_OFFSET(0x1CEC36C0)
+#define MONORENDERENTITY_UPDATEMONSTERMATERIALPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1CEC7700)
+#define MONORENDERENTITY_UPDATENATIVEPEROBJECTSHADOWRESOLVEALPHA_OFFSET UNITYSDK_OFFSET(0x1CEC1760)
+#define MONORENDERENTITY_VALIDATEENTITYVISIBILITYUPDATE_OFFSET UNITYSDK_OFFSET(0x1CEC3A30)
+#define MONORENDERENTITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CECA360)
+#define MONORENDERENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC9F10)
 
-inline static constexpr unsigned int MonoRenderEntity_TypeDefinitionIndex = 27693;
+inline static constexpr unsigned int MonoRenderEntity_TypeDefinitionIndex = 27212;
 
 class MonoRenderEntity : public ::UnityEngine::MonoBehaviour
 {
 public:
+	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Object*>** StaticGet_DamageDecalTargetsInfo()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x248E0);
+	}
 	static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>** StaticGet_cachedPairs()
 	{
-		return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x21C40);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_InitializeDamageDecalInfo()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x21C48);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::MonoRenderEntity_MonsterDecalInfo*>** StaticGet_DamageDecalTargetsInfo()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::MonoRenderEntity_MonsterDecalInfo*>**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x21C50);
-	}
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_RecalculateCapsuleAOArrays()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x21C58);
+		return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x248E8);
 	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_InitGunEyes()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x21C60);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x248F0);
 	}
-	static ::System::Int32* StaticGet_defaultDamageDecalLevel()
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_InitializeDamageDecalInfo()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x5350);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x248F8);
 	}
-	static ::System::Boolean* StaticGet__UseNativeBackend_k__BackingField()
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_RecalculateCapsuleAOArrays()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x5354);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x24900);
 	}
 	static ::System::Boolean* StaticGet_modelReceiveDecal()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x5355);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x7190);
 	}
 	static ::System::Boolean* StaticGet_enableDamageDecalPerformanceTest()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x5356);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x7191);
+	}
+	static ::System::Int32* StaticGet_defaultDamageDecalLevel()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoRenderEntity_TypeDefinitionIndex)->GetStaticField(0x7194);
 	}
 	// static const ::System::Single DECAL_KILL_INTERVAL; // 0x0
 	::System::Boolean syncWithMonoRenderEntity; // 0x18
 	::System::Boolean isAwaken; // 0x19
 	::System::Boolean skipClearMPB; // 0x1A
+	::System::Byte _padding0[0x5];
 	::UnityEngine::Transform* middlePoint; // 0x20
 	::UnityEngine::Transform* rootBone; // 0x28
 	::UnityEngine::Transform* headBone; // 0x30
 	::System::Boolean useMultipleSkeletons; // 0x38
-	::System::Collections::Generic::List_1<::MonoRenderEntity_MultipleSkeletons*>* multipleSkeletonsList; // 0x40
+	::System::Byte _padding1[0x7];
+	::System::Collections::Generic::List_1<::System::Object*>* multipleSkeletonsList; // 0x40
 	::System::Boolean clipVerticesUnderRootBone; // 0x48
+	::System::Byte _padding2[0x3];
 	::System::Single rootBoneClipOffset; // 0x4C
 	::System::Boolean disableCullingSphere; // 0x50
+	::System::Byte _padding3[0x3];
 	::CullingSphereAnchor cullingSphereAnchor; // 0x54
 	::UnityEngine::Vector4 cullingSphere; // 0x58
 	::System::Boolean fixShadowSamplePointOutOfFrustum; // 0x68
 	::System::Boolean disableLightBlendShadowTemporalFade; // 0x69
-	::System::Boolean usePerObjectShadow; // 0x6A
-	::System::Boolean useCustomLightDirection; // 0x6B
-	::UnityEngine::Vector3 customLightDirection; // 0x6C
-	::System::Single perObjectShadowAlpha; // 0x78
-	::System::Single perObjectShadowResolveAlpha; // 0x7C
-	::System::Single perObjectShadowCullDistanceScale; // 0x80
-	::System::Boolean shadowFadeWithHeight; // 0x84
-	::System::Single fadeStartHeight; // 0x88
-	::System::Single fadeEndHeight; // 0x8C
-	::System::Single fadeStartDistance; // 0x90
-	::System::Single fadeEndDistance; // 0x94
-	::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShadowCastingMode>* _rendererShadowCastingModes; // 0x98
-	::Il2CppArray<::UnityEngine::Renderer*>* perObjectShadowRenderer; // 0xA0
-	::System::Boolean needResetShadowCasting; // 0xA8
-	::System::Int32 nativeHeightFadeProcessedFrame; // 0xAC
-	::System::Boolean rayCastForCullingSphere; // 0xB0
-	::System::Boolean perObjectShadowOptimizeSize; // 0xB1
-	::System::Single perObjectShadowMaxBoundsSize; // 0xB4
-	::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* perObjectShadowLowPriorityRenderers; // 0xB8
-	::UnityEngine::Vector4 headSphereNormalCenter; // 0xC0
-	::Il2CppArray<::UnityEngine::Renderer*>* lodIndexedRenderers; // 0xD0
-	::System::Boolean fixedAvatarLod3Shadow; // 0xD8
-	::System::Boolean isOrderedRenderers; // 0xD9
-	::Il2CppArray<::UnityEngine::Renderer*>* lodRenderers; // 0xE0
-	::Il2CppArray<::System::Int32>* lodRendererPartIdOffsets; // 0xE8
-	::UnityEngine::SkinnedMeshRenderer* gunEyeRenderer; // 0xF0
-	::UnityEngine::Transform* gunEyeBoneL; // 0xF8
-	::UnityEngine::Transform* gunEyeBoneR; // 0x100
-	::System::Int32 gunEyeState; // 0x108
-	::NapRenderer* gunEyeNapRenderer; // 0x110
-	::NapMaterial* gunEyeNapMaterial; // 0x118
-	::System::Int32 gunEyeNapMaterialIndex; // 0x120
-	::System::Int32 gunEyeStateCtlIndex; // 0x124
-	::System::Boolean useCustomBlendedDirectionalLightSize; // 0x128
-	::System::Single customBlendedDirectionalLightSize; // 0x12C
-	::System::Boolean fixRed; // 0x130
-	::System::Boolean preferPerMaterialMpb; // 0x131
-	::System::Boolean preferPerRendererMpb; // 0x132
-	::System::Boolean selfActivate; // 0x133
-	::System::Boolean forceInShadow; // 0x134
-	::System::Boolean initialized; // 0x135
-	::NapRenderEntity* NapRenderEntity; // 0x138
-	::System::IntPtr m_NativeHandle; // 0x140
-	::Il2CppArray<::UnityEngine::NAPRenderPipeline0::NapCapsuleAoNodeBinding>* elements; // 0x148
-	::System::Single capsuleAORadius; // 0x150
-	::Il2CppArray<::Capsule>* Capsules; // 0x158
-	::Character thisChar; // 0x160
-	::System::Int32 Index; // 0x17C
-	::System::Int32 _DamageDecalInfo; // 0x180
-	::System::Int32 _DamageDecalInfo2; // 0x184
-	::System::Int32 _DamageDecalEmissionColor; // 0x188
-	::System::Int32 _DamageDecalKillIndex; // 0x18C
-	::System::Int32 _DecalFadeDistance; // 0x190
-	::System::Int32 _DecalUVSet; // 0x194
-	::System::Int32 _CellSize; // 0x198
-	::System::Int32 _DecalProjectionNormal; // 0x19C
-	::System::Int32 _IsHit; // 0x1A0
-	::System::Int32 _DamageDecalArray; // 0x1A4
-	::System::Boolean enableDamageDecal; // 0x1A8
-	::MonoRenderEntity_DecalResolution decalResolution; // 0x1AC
-	::System::Collections::Generic::List_1<::UnityEngine::SkinnedMeshRenderer*>* decalModelList; // 0x1B0
-	::System::Collections::Generic::List_1<::MonoRenderEntity_UVSet>* decalUVList; // 0x1B8
-	::System::Single decalWidthFactor; // 0x1C0
-	::System::Single decalHeightFactor; // 0x1C4
-	::System::Single decalDepthFactor; // 0x1C8
-	::System::Single decalLifetimeFactor; // 0x1CC
-	::System::Boolean decalUseCustomColor; // 0x1D0
-	::UnityEngine::Color decalDamageColor; // 0x1D4
-	::System::Single decalFadeDistance; // 0x1E4
-	::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* pipelineAsset; // 0x1E8
-	::UnityEngine::Rendering::Universal::ForwardRendererData* forwardRendererData; // 0x1F0
-	::Il2CppArray<::DamageDecalConfig*>* decalConfigs; // 0x1F8
-	::Il2CppArray<::UnityEngine::SkinnedMeshRenderer*>* skinnedMeshRenderers; // 0x200
-	::System::Collections::Generic::List_1<::UnityEngine::MaterialPropertyBlock*>* matBlocks; // 0x208
-	::System::Int32 decalTypeCount; // 0x210
-	::System::Int32 currentDecalCount; // 0x214
-	::System::Int32 decalCellIndex; // 0x218
-	::System::Collections::BitArray* decalCellOccupied; // 0x220
-	::System::Int32 maxDecals; // 0x228
-	::System::Int32 decalKillThreshold; // 0x22C
-	::System::Int32 decalCellSize; // 0x230
-	::System::Single decalWidth; // 0x234
-	::System::Single decalHeight; // 0x238
-	::System::Single decalDepth; // 0x23C
-	::System::Boolean finishDrawDecalLUT; // 0x240
-	::Il2CppArray<::System::Single>* decalCellLifeTime; // 0x248
-	::Il2CppArray<::System::Single>* decalCellKillTime; // 0x250
-	::Il2CppArray<::UnityEngine::Color>* decalCellEmissionColor; // 0x258
-	::System::Boolean decalFinishInit; // 0x260
-	::UnityEngine::Material* decalMaterial; // 0x268
-	::Il2CppArray<::System::Int32>* decalCellOverlayIndex; // 0x270
-	::MonoRenderEntity_MonsterDecalInfo* decalTargetInfo; // 0x278
-	::UnityEngine::RenderTexture* decalDilationLUT; // 0x280
-	::Il2CppArray<::UnityEngine::Vector4>* damageDecalInfoData; // 0x288
-	::Il2CppArray<::UnityEngine::Vector4>* damageDecalInfoData2; // 0x290
-	::Il2CppArray<::System::Single>* damageDecalAngle; // 0x298
-	::UnityEngine::Rendering::Universal::GraphicSettings_EDamageDecalQuality damageDecalQuality; // 0x2A0
-	::System::Boolean napRenderEntityVisible; // 0x2A4
+	::System::Boolean disableLightBlendShadowTemporalFadeOnlyMobile; // 0x6A
+	::System::Byte _padding4[0x1];
+	::System::Single customShadowCoverage; // 0x6C
+	::System::Single customShadowCoverageMobile; // 0x70
+	::System::Byte _padding5[0x4];
+	::UnityEngine::Light* directionOverrideLight; // 0x78
+	::System::Boolean usePerObjectShadow; // 0x80
+	::System::Boolean useShadowProxy; // 0x81
+	::System::Boolean useCustomLightDirection; // 0x82
+	::System::Byte _padding6[0x1];
+	::UnityEngine::Vector3 customLightDirection; // 0x84
+	::System::Single perObjectShadowAlpha; // 0x90
+	::System::Single perObjectShadowResolveAlpha; // 0x94
+	::System::Single perObjectShadowCullDistanceScale; // 0x98
+	::System::Boolean shadowFadeWithHeight; // 0x9C
+	::System::Byte _padding7[0x3];
+	::System::Single fadeStartHeight; // 0xA0
+	::System::Single fadeEndHeight; // 0xA4
+	::System::Single fadeStartDistance; // 0xA8
+	::System::Single fadeEndDistance; // 0xAC
+	::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShadowCastingMode>* _rendererShadowCastingModes; // 0xB0
+	::Il2CppArray<::UnityEngine::Renderer*>* perObjectShadowRenderer; // 0xB8
+	::System::Boolean needResetShadowCasting; // 0xC0
+	::System::Boolean rayCastForCullingSphere; // 0xC1
+	::System::Boolean perObjectShadowOptimizeSize; // 0xC2
+	::System::Byte _padding8[0x1];
+	::System::Single perObjectShadowMaxBoundsSize; // 0xC4
+	::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* perObjectShadowLowPriorityRenderers; // 0xC8
+	::UnityEngine::Vector4 headSphereNormalCenter; // 0xD0
+	::Il2CppArray<::UnityEngine::Renderer*>* lodIndexedRenderers; // 0xE0
+	::System::Boolean isOrderedRenderers; // 0xE8
+	::System::Byte _padding9[0x7];
+	::Il2CppArray<::UnityEngine::Renderer*>* lodRenderers; // 0xF0
+	::Il2CppArray<::System::Int32>* lodRendererPartIdOffsets; // 0xF8
+	::UnityEngine::SkinnedMeshRenderer* gunEyeRenderer; // 0x100
+	::UnityEngine::Transform* gunEyeBoneL; // 0x108
+	::UnityEngine::Transform* gunEyeBoneR; // 0x110
+	::System::Int32 gunEyeState; // 0x118
+	::System::Byte _padding10[0x4];
+	::NapRenderer* gunEyeNapRenderer; // 0x120
+	::NapMaterial* gunEyeNapMaterial; // 0x128
+	::System::Int32 gunEyeNapMaterialIndex; // 0x130
+	::System::Int32 gunEyeStateCtlIndex; // 0x134
+	::System::Boolean useCustomBlendedDirectionalLightSize; // 0x138
+	::System::Byte _padding11[0x3];
+	::System::Single customBlendedDirectionalLightSize; // 0x13C
+	::System::Boolean fixRed; // 0x140
+	::System::Boolean preferPerMaterialMpb; // 0x141
+	::System::Boolean preferPerRendererMpb; // 0x142
+	::System::Boolean selfActivate; // 0x143
+	::System::Boolean forceInShadow; // 0x144
+	::System::Boolean initialized; // 0x145
+	::System::Byte _padding12[0x2];
+	::NapRenderEntity* NapRenderEntity; // 0x148
+	::System::IntPtr m_NativeHandle; // 0x150
+	::Il2CppArray<::UnityEngine::NAPRenderPipeline0::NapCapsuleAoNodeBinding>* elements; // 0x158
+	::System::Single capsuleAORadius; // 0x160
+	::System::Byte _padding13[0x4];
+	::Il2CppArray<::Capsule>* Capsules; // 0x168
+	::Character thisChar; // 0x170
+	::System::Int32 Index; // 0x18C
+	::System::Int32 _DamageDecalInfo; // 0x190
+	::System::Int32 _DamageDecalInfo2; // 0x194
+	::System::Int32 _DamageDecalEmissionColor; // 0x198
+	::System::Int32 _DamageDecalKillIndex; // 0x19C
+	::System::Int32 _DecalFadeDistance; // 0x1A0
+	::System::Int32 _DecalUVSet; // 0x1A4
+	::System::Int32 _CellSize; // 0x1A8
+	::System::Int32 _DecalProjectionNormal; // 0x1AC
+	::System::Int32 _IsHit; // 0x1B0
+	::System::Int32 _DamageDecalArray; // 0x1B4
+	::System::Boolean enableDamageDecal; // 0x1B8
+	::System::Byte _padding14[0x3];
+	::MonoRenderEntity_DecalResolution decalResolution; // 0x1BC
+	::System::Collections::Generic::List_1<::UnityEngine::SkinnedMeshRenderer*>* decalModelList; // 0x1C0
+	::System::Collections::Generic::List_1<::System::Object*>* decalUVList; // 0x1C8
+	::System::Single decalWidthFactor; // 0x1D0
+	::System::Single decalHeightFactor; // 0x1D4
+	::System::Single decalDepthFactor; // 0x1D8
+	::System::Single decalLifetimeFactor; // 0x1DC
+	::System::Boolean decalUseCustomColor; // 0x1E0
+	::System::Byte _padding15[0x3];
+	::UnityEngine::Color decalDamageColor; // 0x1E4
+	::System::Single decalFadeDistance; // 0x1F4
+	::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* pipelineAsset; // 0x1F8
+	::UnityEngine::Rendering::Universal::ForwardRendererData* forwardRendererData; // 0x200
+	::Il2CppArray<::DamageDecalConfig*>* decalConfigs; // 0x208
+	::Il2CppArray<::UnityEngine::SkinnedMeshRenderer*>* skinnedMeshRenderers; // 0x210
+	::System::Collections::Generic::List_1<::UnityEngine::MaterialPropertyBlock*>* matBlocks; // 0x218
+	::System::Int32 decalTypeCount; // 0x220
+	::System::Int32 currentDecalCount; // 0x224
+	::System::Int32 decalCellIndex; // 0x228
+	::System::Byte _padding16[0x4];
+	::System::Collections::BitArray* decalCellOccupied; // 0x230
+	::System::Int32 maxDecals; // 0x238
+	::System::Int32 decalKillThreshold; // 0x23C
+	::System::Int32 decalCellSize; // 0x240
+	::System::Single decalWidth; // 0x244
+	::System::Single decalHeight; // 0x248
+	::System::Single decalDepth; // 0x24C
+	::System::Boolean finishDrawDecalLUT; // 0x250
+	::System::Byte _padding17[0x7];
+	::Il2CppArray<::System::Single>* decalCellLifeTime; // 0x258
+	::Il2CppArray<::System::Single>* decalCellKillTime; // 0x260
+	::Il2CppArray<::UnityEngine::Color>* decalCellEmissionColor; // 0x268
+	::System::Boolean decalFinishInit; // 0x270
+	::System::Byte _padding18[0x7];
+	::UnityEngine::Material* decalMaterial; // 0x278
+	::Il2CppArray<::System::Int32>* decalCellOverlayIndex; // 0x280
+	::MonoRenderEntity_MonsterDecalInfo* decalTargetInfo; // 0x288
+	::UnityEngine::RenderTexture* decalDilationLUT; // 0x290
+	::Il2CppArray<::UnityEngine::Vector4>* damageDecalInfoData; // 0x298
+	::Il2CppArray<::UnityEngine::Vector4>* damageDecalInfoData2; // 0x2A0
+	::Il2CppArray<::System::Single>* damageDecalAngle; // 0x2A8
+	::UnityEngine::Rendering::Universal::GraphicSettings_EDamageDecalQuality damageDecalQuality; // 0x2B0
+	::System::Boolean napRenderEntityVisible; // 0x2B4
 
 	::System::Void _ctor()
 	{
@@ -277,6 +299,26 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONORENDERENTITY_SYNCWITHMONORENDERENTITYBUTTON_OFFSET))(this);
 	}
 
+	::UnityEngine::Light* get_DirectionOverrideLight()
+	{
+		return ((::UnityEngine::Light*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONORENDERENTITY_GET_DIRECTIONOVERRIDELIGHT_OFFSET))(this);
+	}
+
+	::System::Void SetDirectionOverrideLight(::UnityEngine::Light* light)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Light*))((::PBYTE)hIl2Cpp + MONORENDERENTITY_SETDIRECTIONOVERRIDELIGHT_OFFSET))(this, light);
+	}
+
+	::System::Void ClearDirectionOverrideLight()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONORENDERENTITY_CLEARDIRECTIONOVERRIDELIGHT_OFFSET))(this);
+	}
+
+	::System::Void SyncDirectionOverrideLightInstanceIDToNative()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONORENDERENTITY_SYNCDIRECTIONOVERRIDELIGHTINSTANCEIDTONATIVE_OFFSET))(this);
+	}
+
 	::System::Void OnCustomLightDirectionChanged()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONORENDERENTITY_ONCUSTOMLIGHTDIRECTIONCHANGED_OFFSET))(this);
@@ -297,9 +339,9 @@ public:
 		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + MONORENDERENTITY_GET_USENATIVEBACKEND_OFFSET))();
 	}
 
-	static ::System::Void set_UseNativeBackend(::System::Boolean value)
+	static ::System::Boolean get_UseNREHarness()
 	{
-		return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MONORENDERENTITY_SET_USENATIVEBACKEND_OFFSET))(value);
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + MONORENDERENTITY_GET_USENREHARNESS_OFFSET))();
 	}
 
 	::System::IntPtr get_NativeHandle()
@@ -317,14 +359,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONORENDERENTITY_DESTROYNATIVEOBJECT_OFFSET))(this);
 	}
 
-	::System::Void ApplyNativeBackend(::System::Boolean enable)
+	::System::Boolean ApplyNativeBackend(::System::Boolean enable)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MONORENDERENTITY_APPLYNATIVEBACKEND_OFFSET))(this, enable);
+		return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MONORENDERENTITY_APPLYNATIVEBACKEND_OFFSET))(this, enable);
 	}
 
-	::System::Void SetupNative()
+	::System::Boolean SetupNative()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONORENDERENTITY_SETUPNATIVE_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MONORENDERENTITY_SETUPNATIVE_OFFSET))(this);
 	}
 
 	::System::Void OnRealEnable()

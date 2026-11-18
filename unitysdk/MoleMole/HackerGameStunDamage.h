@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/HackerGameBaseDamage.h"
 #include "unitysdk/MoleMole/HackerGameDamageData.h"
 
-#define MOLEMOLE_HACKERGAMESTUNDAMAGE_APPLY_OFFSET UNITYSDK_OFFSET(0x136B9DD0)
-#define MOLEMOLE_HACKERGAMESTUNDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x136B9F00)
+#define MOLEMOLE_HACKERGAMESTUNDAMAGE_APPLY_OFFSET UNITYSDK_OFFSET(0x135903B0)
+#define MOLEMOLE_HACKERGAMESTUNDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x135904E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HackerGameStunDamage_TypeDefinitionIndex = 57473;
+	inline static constexpr unsigned int HackerGameStunDamage_TypeDefinitionIndex = 80150;
 
 	class HackerGameStunDamage : public ::MoleMole::HackerGameBaseDamage
 	{

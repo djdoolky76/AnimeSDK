@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_C31F776B3FE6F486_1;
+class CBMDHKLONOL;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIRABDATASTATWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1674E760)
-#define MOLEMOLE_UIRABDATASTATWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1674E7A0)
-#define MOLEMOLE_UIRABDATASTATWIDGETCONTROLLER___C__GETSORTEDDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0x1674E7B0)
+#define MOLEMOLE_UIRABDATASTATWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16492260)
+#define MOLEMOLE_UIRABDATASTATWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x164922A0)
+#define MOLEMOLE_UIRABDATASTATWIDGETCONTROLLER___C__GETSORTEDDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0x164922B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABDataStatWidgetController___c_TypeDefinitionIndex = 61649;
+	inline static constexpr unsigned int UIRABDataStatWidgetController___c_TypeDefinitionIndex = 82517;
 
 	class UIRABDataStatWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIRABDataStatWidgetController___c** StaticGet___9()
+		static ::System::Comparison_1<::CBMDHKLONOL*>** StaticGet___9__7_0()
 		{
-			return (::MoleMole::UIRABDataStatWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRABDataStatWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x50060);
+			return (::System::Comparison_1<::CBMDHKLONOL*>**)Il2CppClass::FromTypeDefinitionIndex(UIRABDataStatWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4EC20);
 		}
-		static ::System::Comparison_1<::Class_1_C31F776B3FE6F486_1*>** StaticGet___9__7_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_1_C31F776B3FE6F486_1*>**)Il2CppClass::FromTypeDefinitionIndex(UIRABDataStatWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x50068);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIRABDataStatWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4EC28);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABDATASTATWIDGETCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetSortedDataList_b__7_0(::Class_1_C31F776B3FE6F486_1* a, ::Class_1_C31F776B3FE6F486_1* b)
+		::System::Int32 _GetSortedDataList_b__7_0(::CBMDHKLONOL* a, ::CBMDHKLONOL* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_C31F776B3FE6F486_1*, ::Class_1_C31F776B3FE6F486_1*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABDATASTATWIDGETCONTROLLER___C__GETSORTEDDATALIST_B__7_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::CBMDHKLONOL*, ::CBMDHKLONOL*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABDATASTATWIDGETCONTROLLER___C__GETSORTEDDATALIST_B__7_0_OFFSET))(this, a, b);
 		}
 	};
 }

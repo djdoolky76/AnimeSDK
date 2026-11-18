@@ -1,11 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Container/NativeHashSet_2.h"
-#include "unitysdk/Foundation/Unreal/FGameplayTag.h"
-#include "unitysdk/Foundation/Unreal/FGameplayTagContainer.h"
 #include "unitysdk/NPCCrowd/AI/EAIActionTagHandlerSource.h"
 #include "unitysdk/NPCCrowd/AI/PathGraphSplineConfig_PathGraphPointRegionTypeMask.h"
 #include "unitysdk/NPCCrowd/Ability/ENPCAbilityMovementAction.h"
+#include "unitysdk/NPCCrowd/Ability/NavmeshToPathFollowType.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/Container/NativeHashSet_2.h"
+#include "unitysdk/Foundation/Unreal/FGameplayTag.h"
+#include "unitysdk/Foundation/Unreal/FGameplayTagContainer.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAIBlackboardFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMoveTargetFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityPathFollowFragmentV2.h"
@@ -19,17 +21,14 @@
 #include "unitysdk/NPCCrowd/Ability/NPCAbilityBehavioursDefine.h"
 #include "unitysdk/NPCCrowd/Ability/NPCAbilityPathFollowProcessor_NearestData.h"
 #include "unitysdk/NPCCrowd/Ability/NPCEntityNativeData.h"
-#include "unitysdk/NPCCrowd/Ability/NavmeshToPathFollowType.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_F2DAD7F45F518868;
+class COCJHGGDBCA;
 class NPCAvatarMeshAssetsSO_FPathGraphPointRegionTypeMaskTagConfig;
 class NPCAvatarMeshAssetsSO_GameplayTagActionConfig;
 namespace Foundation::Unreal { class FGameplayTagQuery; }
-namespace NPCCrowd { class NPCIDGeneratorInt; }
 namespace NPCCrowd::AI { class AIActionRefItem; }
 namespace NPCCrowd::Ability { class NPCAIProcessor_GameplayTagActionState; }
 namespace NPCCrowd::Ability { class NPCAbility; }
@@ -39,85 +38,83 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CHANGENAVMESHTOPATHFOLLOW_1_OFFSET UNITYSDK_OFFSET(0x9521A90)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CHANGENAVMESHTOPATHFOLLOW_OFFSET UNITYSDK_OFFSET(0x9524780)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEANUPINVALIDTAGACTIONHANDLERS_OFFSET UNITYSDK_OFFSET(0x9527240)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEARGAMEPLAYTAGACTIONRUNTIME_OFFSET UNITYSDK_OFFSET(0x9526080)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEARPATHGRAPHPOINTREGIONTYPEMASKACTIONS_OFFSET UNITYSDK_OFFSET(0x9528050)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEARPATHGRAPHPOINTREGIONTYPEMASKTAGS_OFFSET UNITYSDK_OFFSET(0x9527DF0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEARPATHMASKTAGRUNTIMEINJOB_OFFSET UNITYSDK_OFFSET(0x95259D0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x9522FB0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x951E190)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_GETCROWDCOMPONENT_OFFSET UNITYSDK_OFFSET(0x9523F60)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_GETMAXTURNINGANGLEFORHOTFIX_OFFSET UNITYSDK_OFFSET(0x9521640)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_GETMINTURNINGANGLEFORHOTFIX_OFFSET UNITYSDK_OFFSET(0x95215C0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_GETORCREATEGAMEPLAYTAGACTIONSTATE_OFFSET UNITYSDK_OFFSET(0x9526510)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_LOGRULEINVALIDONCE_OFFSET UNITYSDK_OFFSET(0x9527B70)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_NAVMESHTOPOS_1_OFFSET UNITYSDK_OFFSET(0x9524280)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_NAVMESHTOPOS_2_OFFSET UNITYSDK_OFFSET(0x9521B50)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_NAVMESHTOPOS_3_OFFSET UNITYSDK_OFFSET(0x95245D0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_NAVMESHTOPOS_OFFSET UNITYSDK_OFFSET(0x95241A0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0x9523360)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_PATHFOLLOWSETNEARESTDATA_OFFSET UNITYSDK_OFFSET(0x95217A0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_PREEXECUTEBEFOREJOBAFTERPATHFOLLOW_OFFSET UNITYSDK_OFFSET(0x9523860)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_PREEXECUTEBEFOREJOB_OFFSET UNITYSDK_OFFSET(0x95233A0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_PROCESSGAMEPLAYTAGACTIONINJOB_OFFSET UNITYSDK_OFFSET(0x9521EE0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_PROCESSMOVEACTION_OFFSET UNITYSDK_OFFSET(0x9522550)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_PROCESSPATHMASKTAGINJOB_OFFSET UNITYSDK_OFFSET(0x9521C00)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SCHEDULETAGCHANGEACTIONSBYBITS_OFFSET UNITYSDK_OFFSET(0x9525DF0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SCHEDULETAGCHANGEACTION_OFFSET UNITYSDK_OFFSET(0x9527930)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SETATTRACTORENTITYRETURNTOWANDERINGDATA_OFFSET UNITYSDK_OFFSET(0x9525300)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SETMOVEACTION_OFFSET UNITYSDK_OFFSET(0x9522470)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SETPATHFOLLOWTARGETDATA_OFFSET UNITYSDK_OFFSET(0x95249F0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SIMPLEMOVETO_1_OFFSET UNITYSDK_OFFSET(0x95250F0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SIMPLEMOVETO_OFFSET UNITYSDK_OFFSET(0x9524E40)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_STARTMASKACTIONS_OFFSET UNITYSDK_OFFSET(0x9526A80)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_STOPALLMASKACTIONS_OFFSET UNITYSDK_OFFSET(0x9527610)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_STOPMASKACTIONS_OFFSET UNITYSDK_OFFSET(0x9526F70)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_STOPNAVMESH_OFFSET UNITYSDK_OFFSET(0x9524E00)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_STOPSIMPLEMOVE_OFFSET UNITYSDK_OFFSET(0x9525260)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETABILITYRUNTIMEINDEX_OFFSET UNITYSDK_OFFSET(0x9527CE0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETCONFIGGAMEPLAYTAG_OFFSET UNITYSDK_OFFSET(0x9525A90)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETCONFIGTAGMATCHEXPRESSION_OFFSET UNITYSDK_OFFSET(0x9526860)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETCURRENTPATHGRAPHPOINTMASK_OFFSET UNITYSDK_OFFSET(0x9525650)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETGAMEPLAYTAGACTIONCONFIGSFORJOB_OFFSET UNITYSDK_OFFSET(0x9526370)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETPATHGRAPHPOINTMASKTAGCONFIGSFORJOB_OFFSET UNITYSDK_OFFSET(0x9525820)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYNAVMESHTOPATHFOLLOW_1_OFFSET UNITYSDK_OFFSET(0x9523570)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYNAVMESHTOPATHFOLLOW_2_OFFSET UNITYSDK_OFFSET(0x95239B0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYNAVMESHTOPATHFOLLOW_OFFSET UNITYSDK_OFFSET(0x95234C0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x95283C0)
-#define NPCCROWD_ABILITY_NPCAIPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x95283B0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CHANGENAVMESHTOPATHFOLLOW_1_OFFSET UNITYSDK_OFFSET(0x131871F0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CHANGENAVMESHTOPATHFOLLOW_OFFSET UNITYSDK_OFFSET(0x13189C90)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEANUPINVALIDTAGACTIONHANDLERS_OFFSET UNITYSDK_OFFSET(0x1318BFA0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEARGAMEPLAYTAGACTIONRUNTIME_OFFSET UNITYSDK_OFFSET(0x1318B5A0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEARPATHGRAPHPOINTREGIONTYPEMASKACTIONS_OFFSET UNITYSDK_OFFSET(0xE1054E0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEARPATHGRAPHPOINTREGIONTYPEMASKTAGS_OFFSET UNITYSDK_OFFSET(0xE105270)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEARPATHMASKTAGRUNTIMEINJOB_OFFSET UNITYSDK_OFFSET(0x1318AEF0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x13188710)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x131838D0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_GETCROWDCOMPONENT_OFFSET UNITYSDK_OFFSET(0x13189460)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_GETMAXTURNINGANGLEFORHOTFIX_OFFSET UNITYSDK_OFFSET(0x13186DA0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_GETMINTURNINGANGLEFORHOTFIX_OFFSET UNITYSDK_OFFSET(0x13186D20)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_GETORCREATEGAMEPLAYTAGACTIONSTATE_OFFSET UNITYSDK_OFFSET(0x1318BA30)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_LOGRULEINVALIDONCE_OFFSET UNITYSDK_OFFSET(0x1318C5B0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_NAVMESHTOPOS_1_OFFSET UNITYSDK_OFFSET(0x13189780)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_NAVMESHTOPOS_2_OFFSET UNITYSDK_OFFSET(0x131872B0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_NAVMESHTOPOS_3_OFFSET UNITYSDK_OFFSET(0x13189AE0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_NAVMESHTOPOS_OFFSET UNITYSDK_OFFSET(0x131896A0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0x13188AC0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_PATHFOLLOWSETNEARESTDATA_OFFSET UNITYSDK_OFFSET(0x13186F00)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_PROCESSGAMEPLAYTAGACTIONINJOB_OFFSET UNITYSDK_OFFSET(0x13187640)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_PROCESSMOVEACTION_OFFSET UNITYSDK_OFFSET(0x13187CB0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_PROCESSPATHMASKTAGINJOB_OFFSET UNITYSDK_OFFSET(0x13187360)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SCHEDULETAGCHANGEACTIONSBYBITS_OFFSET UNITYSDK_OFFSET(0x1318B310)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SCHEDULETAGCHANGEACTION_OFFSET UNITYSDK_OFFSET(0x1318C370)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SETATTRACTORENTITYRETURNTOWANDERINGDATA_OFFSET UNITYSDK_OFFSET(0x1318A820)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SETMOVEACTION_OFFSET UNITYSDK_OFFSET(0x13187BD0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SETPATHFOLLOWTARGETDATA_OFFSET UNITYSDK_OFFSET(0x13189F00)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SIMPLEMOVETO_1_OFFSET UNITYSDK_OFFSET(0x1318A610)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_SIMPLEMOVETO_OFFSET UNITYSDK_OFFSET(0x1318A350)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_STARTMASKACTIONS_OFFSET UNITYSDK_OFFSET(0xE104680)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_STOPALLMASKACTIONS_OFFSET UNITYSDK_OFFSET(0xE104E40)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_STOPMASKACTIONS_OFFSET UNITYSDK_OFFSET(0xE104B70)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_STOPNAVMESH_OFFSET UNITYSDK_OFFSET(0x1318A310)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_STOPSIMPLEMOVE_OFFSET UNITYSDK_OFFSET(0x1318A780)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETABILITYRUNTIMEINDEX_OFFSET UNITYSDK_OFFSET(0xE105160)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETCONFIGGAMEPLAYTAG_OFFSET UNITYSDK_OFFSET(0x1318AFB0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETCONFIGTAGMATCHEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1318BD80)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETCURRENTPATHGRAPHPOINTMASK_OFFSET UNITYSDK_OFFSET(0x1318AB70)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETGAMEPLAYTAGACTIONCONFIGSFORJOB_OFFSET UNITYSDK_OFFSET(0x1318B890)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETPATHGRAPHPOINTMASKTAGCONFIGSFORJOB_OFFSET UNITYSDK_OFFSET(0x1318AD40)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYNAVMESHTOPATHFOLLOW_1_OFFSET UNITYSDK_OFFSET(0x13188BB0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYNAVMESHTOPATHFOLLOW_2_OFFSET UNITYSDK_OFFSET(0x13188EB0)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYNAVMESHTOPATHFOLLOW_OFFSET UNITYSDK_OFFSET(0x13188B00)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xE105850)
+#define NPCCROWD_ABILITY_NPCAIPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE105840)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAIProcessor_TypeDefinitionIndex = 45892;
+	inline static constexpr unsigned int NPCAIProcessor_TypeDefinitionIndex = 92270;
 
 	class NPCAIProcessor : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_RuleValidateLogLock()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NPCAIProcessor_TypeDefinitionIndex)->GetStaticField(0x51140);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Ability::NPCAIProcessor_GameplayTagActionState*>** StaticGet_GameplayTagActionStates()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::Ability::NPCAIProcessor_GameplayTagActionState*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAIProcessor_TypeDefinitionIndex)->GetStaticField(0x51148);
-		}
 		static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_LoggedRuleInvalidEntities()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(NPCAIProcessor_TypeDefinitionIndex)->GetStaticField(0x51150);
+			return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(NPCAIProcessor_TypeDefinitionIndex)->GetStaticField(0x42660);
 		}
 		static ::System::Object** StaticGet_GameplayTagActionStateLock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NPCAIProcessor_TypeDefinitionIndex)->GetStaticField(0x51158);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NPCAIProcessor_TypeDefinitionIndex)->GetStaticField(0x42668);
+		}
+		static ::System::Object** StaticGet_RuleValidateLogLock()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NPCAIProcessor_TypeDefinitionIndex)->GetStaticField(0x42670);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>** StaticGet_GameplayTagActionStates()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NPCAIProcessor_TypeDefinitionIndex)->GetStaticField(0x42678);
 		}
 		static ::System::Single* StaticGet_MaxTurningAngleForHotFix()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAIProcessor_TypeDefinitionIndex)->GetStaticField(0x129D0);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAIProcessor_TypeDefinitionIndex)->GetStaticField(0xF2F0);
 		}
 		static ::System::Single* StaticGet_MinTurningAngleForHotFix()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAIProcessor_TypeDefinitionIndex)->GetStaticField(0x129D4);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCAIProcessor_TypeDefinitionIndex)->GetStaticField(0xF2F4);
 		}
 		// static const ::System::Int32 MaxPathMaskTagRuleCount = 0x20; // 0x0
 		// static const ::System::Int32 MaxGameplayTagActionRuleCount = 0x20; // 0x0
@@ -167,19 +164,9 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_ONINIT_OFFSET))(this);
 		}
 
-		::System::Void PreExecuteBeforeJob(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtime, ::System::Int32 idx, ::System::Single deltaTime, ::NPCCrowd::NPCIDGeneratorInt* IDGen)
-		{
-			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32, ::System::Single, ::NPCCrowd::NPCIDGeneratorInt*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_PREEXECUTEBEFOREJOB_OFFSET))(this, runtime, idx, deltaTime, IDGen);
-		}
-
 		static ::System::Boolean TryNavmeshToPathFollow(::NPCCrowd::Ability::NPCAbility* ability, ::NPCCrowd::Ability::NavmeshToPathFollowType changeType)
 		{
 			return ((::System::Boolean(*)(::NPCCrowd::Ability::NPCAbility*, ::NPCCrowd::Ability::NavmeshToPathFollowType))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYNAVMESHTOPATHFOLLOW_OFFSET))(ability, changeType);
-		}
-
-		::System::Void PreExecuteBeforeJobAfterPathFollow(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtime, ::System::Int32 idx, ::System::Single deltaTime, ::NPCCrowd::NPCIDGeneratorInt* IDGen)
-		{
-			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Ability::NPCAbilityRuntimeData*, ::System::Int32, ::System::Single, ::NPCCrowd::NPCIDGeneratorInt*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_PREEXECUTEBEFOREJOBAFTERPATHFOLLOW_OFFSET))(this, runtime, idx, deltaTime, IDGen);
 		}
 
 		static ::System::Boolean TryNavmeshToPathFollow_1(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtime, ::System::Int32 idx, ::NPCCrowd::Ability::NavmeshToPathFollowType changeType)
@@ -192,9 +179,9 @@ namespace NPCCrowd::Ability
 			return ((::System::Boolean(*)(::NPCCrowd::Ability::FNPCNavmeshFragment&, ::NPCCrowd::Ability::FNPCAIBlackboardFragment&, ::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2&, ::NPCCrowd::Ability::FTransformFragment, ::NPCCrowd::Ability::NavmeshToPathFollowType))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYNAVMESHTOPATHFOLLOW_2_OFFSET))(navmesh, blackboard, pathfollow2, transform, changeType);
 		}
 
-		static ::System::Boolean GetCrowdComponent(::System::UInt32 entityID, ::Class_3_F2DAD7F45F518868*& crowdComponent)
+		static ::System::Boolean GetCrowdComponent(::System::UInt32 entityID, ::COCJHGGDBCA*& crowdComponent)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::Class_3_F2DAD7F45F518868*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_GETCROWDCOMPONENT_OFFSET))(entityID, crowdComponent);
+			return ((::System::Boolean(*)(::System::UInt32, ::COCJHGGDBCA*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_GETCROWDCOMPONENT_OFFSET))(entityID, crowdComponent);
 		}
 
 		static ::System::Void NavmeshToPos(::NPCCrowd::Ability::NPCAbility* ability, ::UnityEngine::Vector3 pos)
@@ -272,9 +259,9 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::System::Int32, ::System::UInt32, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCGameplayTagActionRuntimeFragment>&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_PROCESSGAMEPLAYTAGACTIONINJOB_OFFSET))(idx, entityID, runtimeGameplayTagAction);
 		}
 
-		static ::System::Void ClearPathMaskTagRuntimeInJob(::System::UInt32 entityID, ::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FPathGraphPointRegionTypeMaskTagConfig*>* configs, ::NPCCrowd::Ability::FNPCPathMaskTagRuntimeFragment& runtime)
+		static ::System::Void ClearPathMaskTagRuntimeInJob(::System::UInt32 entityID, ::System::Collections::Generic::List_1<::System::Object*>* configs, ::NPCCrowd::Ability::FNPCPathMaskTagRuntimeFragment& runtime)
 		{
-			return ((::System::Void(*)(::System::UInt32, ::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FPathGraphPointRegionTypeMaskTagConfig*>*, ::NPCCrowd::Ability::FNPCPathMaskTagRuntimeFragment&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEARPATHMASKTAGRUNTIMEINJOB_OFFSET))(entityID, configs, runtime);
+			return ((::System::Void(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::Object*>*, ::NPCCrowd::Ability::FNPCPathMaskTagRuntimeFragment&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEARPATHMASKTAGRUNTIMEINJOB_OFFSET))(entityID, configs, runtime);
 		}
 
 		static ::System::Void ClearGameplayTagActionRuntime(::System::UInt32 entityID, ::NPCCrowd::Ability::FNPCGameplayTagActionRuntimeFragment& runtime)
@@ -282,9 +269,9 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::System::UInt32, ::NPCCrowd::Ability::FNPCGameplayTagActionRuntimeFragment&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEARGAMEPLAYTAGACTIONRUNTIME_OFFSET))(entityID, runtime);
 		}
 
-		static ::System::Void ScheduleTagChangeActionsByBits(::System::UInt32 entityID, ::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FPathGraphPointRegionTypeMaskTagConfig*>* configs, ::System::UInt32 bits, ::System::Boolean add)
+		static ::System::Void ScheduleTagChangeActionsByBits(::System::UInt32 entityID, ::System::Collections::Generic::List_1<::System::Object*>* configs, ::System::UInt32 bits, ::System::Boolean add)
 		{
-			return ((::System::Void(*)(::System::UInt32, ::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FPathGraphPointRegionTypeMaskTagConfig*>*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_SCHEDULETAGCHANGEACTIONSBYBITS_OFFSET))(entityID, configs, bits, add);
+			return ((::System::Void(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_SCHEDULETAGCHANGEACTIONSBYBITS_OFFSET))(entityID, configs, bits, add);
 		}
 
 		static ::System::Void ScheduleTagChangeAction(::System::UInt32 entityID, ::Foundation::Unreal::FGameplayTagContainer& runtimeTagContainer, ::System::Boolean add, ::NPCCrowd::AI::EAIActionTagHandlerSource source)
@@ -297,14 +284,14 @@ namespace NPCCrowd::Ability
 			return ((::NPCCrowd::Ability::NPCAIProcessor_GameplayTagActionState*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_GETORCREATEGAMEPLAYTAGACTIONSTATE_OFFSET))(entityID);
 		}
 
-		static ::System::Boolean TryGetPathGraphPointMaskTagConfigsForJob(::System::UInt32 entityID, ::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FPathGraphPointRegionTypeMaskTagConfig*>*& configs)
+		static ::System::Boolean TryGetPathGraphPointMaskTagConfigsForJob(::System::UInt32 entityID, ::System::Collections::Generic::List_1<::System::Object*>*& configs)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_FPathGraphPointRegionTypeMaskTagConfig*>*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETPATHGRAPHPOINTMASKTAGCONFIGSFORJOB_OFFSET))(entityID, configs);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::Object*>*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETPATHGRAPHPOINTMASKTAGCONFIGSFORJOB_OFFSET))(entityID, configs);
 		}
 
-		static ::System::Boolean TryGetGameplayTagActionConfigsForJob(::System::UInt32 entityID, ::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_GameplayTagActionConfig*>*& configs, ::Class_3_F2DAD7F45F518868*& npcComp)
+		static ::System::Boolean TryGetGameplayTagActionConfigsForJob(::System::UInt32 entityID, ::System::Collections::Generic::List_1<::System::Object*>*& configs, ::COCJHGGDBCA*& npcComp)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_GameplayTagActionConfig*>*&, ::Class_3_F2DAD7F45F518868*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETGAMEPLAYTAGACTIONCONFIGSFORJOB_OFFSET))(entityID, configs, npcComp);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::Collections::Generic::List_1<::System::Object*>*&, ::COCJHGGDBCA*&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETGAMEPLAYTAGACTIONCONFIGSFORJOB_OFFSET))(entityID, configs, npcComp);
 		}
 
 		static ::System::Void LogRuleInvalidOnce(::System::UInt32 entityID, ::System::String* message)
@@ -327,9 +314,9 @@ namespace NPCCrowd::Ability
 			return ((::System::Boolean(*)(::NPCCrowd::Ability::FNPCAbilityPathFollowFragmentV2&, ::NPCCrowd::AI::PathGraphSplineConfig_PathGraphPointRegionTypeMask&, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_TRYGETCURRENTPATHGRAPHPOINTMASK_OFFSET))(pathFollow, mask, pathId, pointIndex);
 		}
 
-		static ::System::Void CleanupInvalidTagActionHandlers(::System::UInt32 entityID, ::NPCCrowd::Ability::NPCAIProcessor_GameplayTagActionState* actionState, ::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_GameplayTagActionConfig*>* configs)
+		static ::System::Void CleanupInvalidTagActionHandlers(::System::UInt32 entityID, ::NPCCrowd::Ability::NPCAIProcessor_GameplayTagActionState* actionState, ::System::Collections::Generic::List_1<::System::Object*>* configs)
 		{
-			return ((::System::Void(*)(::System::UInt32, ::NPCCrowd::Ability::NPCAIProcessor_GameplayTagActionState*, ::System::Collections::Generic::List_1<::NPCAvatarMeshAssetsSO_GameplayTagActionConfig*>*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEANUPINVALIDTAGACTIONHANDLERS_OFFSET))(entityID, actionState, configs);
+			return ((::System::Void(*)(::System::UInt32, ::NPCCrowd::Ability::NPCAIProcessor_GameplayTagActionState*, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAIPROCESSOR_CLEANUPINVALIDTAGACTIONHANDLERS_OFFSET))(entityID, actionState, configs);
 		}
 
 		static ::System::Void StartMaskActions(::System::UInt32 entityID, ::NPCCrowd::Ability::NPCAIProcessor_GameplayTagActionState* actionState, ::System::Int32 configIndex, ::System::Collections::Generic::List_1<::NPCCrowd::AI::AIActionRefItem*>* actions)

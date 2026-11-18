@@ -4,29 +4,28 @@
 
 namespace MessagePack { class IFormatterResolver; }
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_RESOLVERS_STANDARDRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E53EB40)
-#define MESSAGEPACK_RESOLVERS_STANDARDRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E53ECB0)
+#define MESSAGEPACK_RESOLVERS_STANDARDRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7B2BA0)
+#define MESSAGEPACK_RESOLVERS_STANDARDRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B2D10)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int StandardResolver_TypeDefinitionIndex = 30979;
+	inline static constexpr unsigned int StandardResolver_TypeDefinitionIndex = 30879;
 
 	class StandardResolver : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::MessagePack::IFormatterResolver*>** StaticGet_Resolvers()
-		{
-			return (::Il2CppArray<::MessagePack::IFormatterResolver*>**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x25480);
-		}
 		static ::MessagePack::MessagePackSerializerOptions** StaticGet_Options()
 		{
-			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x25488);
+			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x26550);
 		}
 		static ::MessagePack::Resolvers::StandardResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::StandardResolver**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x25490);
+			return (::MessagePack::Resolvers::StandardResolver**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x26558);
+		}
+		static ::Il2CppArray<::MessagePack::IFormatterResolver*>** StaticGet_Resolvers()
+		{
+			return (::Il2CppArray<::MessagePack::IFormatterResolver*>**)Il2CppClass::FromTypeDefinitionIndex(StandardResolver_TypeDefinitionIndex)->GetStaticField(0x26560);
 		}
 
 		static ::System::Void _cctor()

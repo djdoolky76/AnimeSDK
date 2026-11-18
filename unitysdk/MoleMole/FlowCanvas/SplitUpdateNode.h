@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/FlowNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE_ADVANCE_OFFSET UNITYSDK_OFFSET(0x129A2D60)
-#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x129A2B50)
-#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE_START_OFFSET UNITYSDK_OFFSET(0x129A3050)
-#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE_STOP_OFFSET UNITYSDK_OFFSET(0x129A3180)
-#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x129A32B0)
-#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x129A32F0)
-#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE__REGISTERPORTS_B__0_1_OFFSET UNITYSDK_OFFSET(0x129A3320)
-#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE__REGISTERPORTS_B__0_2_OFFSET UNITYSDK_OFFSET(0x129A3350)
+#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE_ADVANCE_OFFSET UNITYSDK_OFFSET(0x12461B80)
+#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12461970)
+#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE_START_OFFSET UNITYSDK_OFFSET(0x12461E70)
+#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE_STOP_OFFSET UNITYSDK_OFFSET(0x12461FA0)
+#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x124620D0)
+#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x12462110)
+#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE__REGISTERPORTS_B__0_1_OFFSET UNITYSDK_OFFSET(0x12462140)
+#define MOLEMOLE_FLOWCANVAS_SPLITUPDATENODE__REGISTERPORTS_B__0_2_OFFSET UNITYSDK_OFFSET(0x12462170)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int SplitUpdateNode_TypeDefinitionIndex = 54522;
+	inline static constexpr unsigned int SplitUpdateNode_TypeDefinitionIndex = 75845;
 
 	class SplitUpdateNode : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Int32>* _delayedFrames; // 0xA8
-		::FlowCanvas::FlowOutput* _startOutput; // 0xB0
-		::FlowCanvas::FlowInput* _advance; // 0xB8
-		::FlowCanvas::FlowOutput* _delayedFinish; // 0xC0
-		::FlowCanvas::FlowInput* _start; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::Int32>* _updateInterval; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::Int32>* _feverEnergy; // 0xD8
-		::FlowCanvas::FlowOutput* _finish; // 0xE0
-		::FlowCanvas::FlowInput* _stop; // 0xE8
-		::FlowCanvas::FlowOutput* _update; // 0xF0
+		::FlowCanvas::FlowOutput* _startOutput; // 0xA8
+		::FlowCanvas::FlowOutput* _finish; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Int32>* _updateInterval; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Int32>* _delayedFrames; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Int32>* _feverEnergy; // 0xC8
+		::FlowCanvas::FlowOutput* _update; // 0xD0
+		::FlowCanvas::FlowInput* _advance; // 0xD8
+		::FlowCanvas::FlowOutput* _delayedFinish; // 0xE0
+		::FlowCanvas::FlowInput* _start; // 0xE8
+		::FlowCanvas::FlowInput* _stop; // 0xF0
 		::System::Int32 _curFrameCount; // 0xF8
 		::System::Int32 _delayedFrameCount; // 0xFC
 

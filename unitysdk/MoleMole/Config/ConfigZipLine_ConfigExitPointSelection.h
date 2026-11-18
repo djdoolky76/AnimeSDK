@@ -6,16 +6,17 @@
 namespace MoleMole::Config { class ConfigZipLine_ConfigExitPointSelection_NavMesh; }
 namespace MoleMole::Config { class ConfigZipLine_ConfigPreEnterPointSelection; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGEXITPOINTSELECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x14877DE0)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_CONFIGEXITPOINTSELECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x11EA36F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigExitPointSelection_TypeDefinitionIndex = 53022;
+	inline static constexpr unsigned int ConfigZipLine_ConfigExitPointSelection_TypeDefinitionIndex = 54282;
 
 	class ConfigZipLine_ConfigExitPointSelection : public ::System::Object
 	{
 	public:
 		::MoleMole::Config::ConfigZipLine_ExitPointSelectionMode selectionMode; // 0x10
+		::System::Byte _padding0[0x4];
 		::MoleMole::Config::ConfigZipLine_ConfigExitPointSelection_NavMesh* NavMesh; // 0x18
 		::MoleMole::Config::ConfigZipLine_ConfigPreEnterPointSelection* ExitPointSelection; // 0x20
 

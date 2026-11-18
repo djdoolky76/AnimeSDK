@@ -8,7 +8,7 @@ namespace System
 {
 	inline static constexpr unsigned int ConsoleScreenBufferInfo_TypeDefinitionIndex = 444;
 
-	struct alignas(2) ConsoleScreenBufferInfo
+	struct alignas(4) ConsoleScreenBufferInfo
 	{
 		::System::Coord Size; // 0x10
 		::System::Coord CursorPosition; // 0x14

@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/HollowChessboardParticleModuleConfig.h"
 
-class Class_1_0AC327AA661D91B2;
+class AENDIENHBKL;
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_CONFIG_HOLLOWPARTICLETEXTURESHEETANIMMODULECONFIG_CREATEMODULE_OFFSET UNITYSDK_OFFSET(0x1B7FE220)
-#define MOLEMOLE_CONFIG_HOLLOWPARTICLETEXTURESHEETANIMMODULECONFIG_GETMODULEID_OFFSET UNITYSDK_OFFSET(0x1B7FE350)
-#define MOLEMOLE_CONFIG_HOLLOWPARTICLETEXTURESHEETANIMMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FE420)
+#define MOLEMOLE_CONFIG_HOLLOWPARTICLETEXTURESHEETANIMMODULECONFIG_CREATEMODULE_OFFSET UNITYSDK_OFFSET(0x192B1FC0)
+#define MOLEMOLE_CONFIG_HOLLOWPARTICLETEXTURESHEETANIMMODULECONFIG_GETMODULEID_OFFSET UNITYSDK_OFFSET(0x192B20F0)
+#define MOLEMOLE_CONFIG_HOLLOWPARTICLETEXTURESHEETANIMMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192B21C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowParticleTextureSheetAnimModuleConfig_TypeDefinitionIndex = 60802;
+	inline static constexpr unsigned int HollowParticleTextureSheetAnimModuleConfig_TypeDefinitionIndex = 51272;
 
 	class HollowParticleTextureSheetAnimModuleConfig : public ::MoleMole::Config::HollowChessboardParticleModuleConfig
 	{
@@ -21,9 +21,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOLLOWPARTICLETEXTURESHEETANIMMODULECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_0AC327AA661D91B2* CreateModule(::UnityEngine::ParticleSystem* p)
+		::AENDIENHBKL* CreateModule(::UnityEngine::ParticleSystem* p)
 		{
-			return ((::Class_1_0AC327AA661D91B2*(*)(::PVOID, ::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOLLOWPARTICLETEXTURESHEETANIMMODULECONFIG_CREATEMODULE_OFFSET))(this, p);
+			return ((::AENDIENHBKL*(*)(::PVOID, ::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOLLOWPARTICLETEXTURESHEETANIMMODULECONFIG_CREATEMODULE_OFFSET))(this, p);
 		}
 
 		::System::Int32 GetModuleID()

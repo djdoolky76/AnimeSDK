@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/CompressionType.h"
 
-#define UNITYENGINE_COMPRESSION_DECOMPRESSMEMORY_OFFSET UNITYSDK_OFFSET(0x1FC52610)
+#define UNITYENGINE_COMPRESSION_DECOMPRESSMEMORY_OFFSET UNITYSDK_OFFSET(0x20046600)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Compression_TypeDefinitionIndex = 7677;
+	inline static constexpr unsigned int Compression_TypeDefinitionIndex = 7689;
 
 	class Compression : public ::System::Object
 	{

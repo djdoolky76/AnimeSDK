@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace AK::Wwise { class RTPC; }
 namespace UnityEngine { class GameObject; }
 
-#define AKRTPCTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1FAFB020)
-#define AKRTPCTRACK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1FAFB1D0)
-#define AKRTPCTRACK_SETPLAYABLEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1FAFB100)
-#define AKRTPCTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAFB290)
+#define AKRTPCTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1FF06D10)
+#define AKRTPCTRACK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1FF06EC0)
+#define AKRTPCTRACK_SETPLAYABLEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1FF06DF0)
+#define AKRTPCTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF06F80)
 
-inline static constexpr unsigned int AkRTPCTrack_TypeDefinitionIndex = 33800;
+inline static constexpr unsigned int AkRTPCTrack_TypeDefinitionIndex = 33346;
 
 class AkRTPCTrack : public ::UnityEngine::Timeline::TrackAsset
 {

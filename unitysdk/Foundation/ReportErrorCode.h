@@ -3,11 +3,11 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ReportErrorCode_TypeDefinitionIndex = 83290;
+	inline static constexpr unsigned int ReportErrorCode_TypeDefinitionIndex = 61986;
 
 	enum class ReportErrorCode : ::System::Int32
 	{
-		VerifyHashFailed = -9001,
 		OverwriteOldFileFailed = -9008,
+		VerifyHashFailed = -9001,
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_HIDEREFERENCEOBJECTPICKERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F770620)
+#define SIRENIX_ODININSPECTOR_HIDEREFERENCEOBJECTPICKERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB80840)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int HideReferenceObjectPickerAttribute_TypeDefinitionIndex = 7319;
+	inline static constexpr unsigned int HideReferenceObjectPickerAttribute_TypeDefinitionIndex = 7326;
 
 	class HideReferenceObjectPickerAttribute : public ::System::Attribute
 	{

@@ -6,15 +6,16 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_CURVY_THIRDPARTY_LIBTESSDOTNET_CONTOURVERTEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA8B020)
+#define FLUFFYUNDERWARE_CURVY_THIRDPARTY_LIBTESSDOTNET_CONTOURVERTEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x971590)
 
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int ContourVertex_TypeDefinitionIndex = 29044;
+	inline static constexpr unsigned int ContourVertex_TypeDefinitionIndex = 28483;
 
 	struct alignas(8) ContourVertex
 	{
 		::FluffyUnderware::Curvy::ThirdParty::LibTessDotNet::Vec3 Position; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Object* Data; // 0x20
 
 		::System::String* ToString()

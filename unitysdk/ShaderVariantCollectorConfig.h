@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SHADERVARIANTCOLLECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC703E0)
+#define SHADERVARIANTCOLLECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x200723A0)
 
-inline static constexpr unsigned int ShaderVariantCollectorConfig_TypeDefinitionIndex = 39159;
+inline static constexpr unsigned int ShaderVariantCollectorConfig_TypeDefinitionIndex = 37159;
 
 class ShaderVariantCollectorConfig : public ::UnityEngine::ScriptableObject
 {

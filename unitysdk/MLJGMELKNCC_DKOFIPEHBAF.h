@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class MLJGMELKNCC_LKHJFCFGKEK;
+class OHDMNFEMHMJ;
+
+#define MLJGMELKNCC_DKOFIPEHBAF_COKNIICCODC_OFFSET UNITYSDK_OFFSET(0x11A1D760)
+
+inline static constexpr unsigned int MLJGMELKNCC_DKOFIPEHBAF_TypeDefinitionIndex = 78682;
+
+class MLJGMELKNCC_DKOFIPEHBAF : public ::System::Object
+{
+public:
+	static ::MLJGMELKNCC_LKHJFCFGKEK* COKNIICCODC(::OHDMNFEMHMJ* AFEMOGCBIAD)
+	{
+		return ((::MLJGMELKNCC_LKHJFCFGKEK*(*)(::OHDMNFEMHMJ*))((::PBYTE)hIl2Cpp + MLJGMELKNCC_DKOFIPEHBAF_COKNIICCODC_OFFSET))(AFEMOGCBIAD);
+	}
+};

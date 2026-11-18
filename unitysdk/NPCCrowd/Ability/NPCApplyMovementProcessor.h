@@ -1,30 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMoveTargetFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMovementFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCCPUAnimatorFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FTransformFragment.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x1192F560)
-#define NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1192E5B0)
-#define NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1192F7D0)
-#define NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1192F7C0)
+#define NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x105E0B80)
+#define NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x105DF9D0)
+#define NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR_MARKAVATARAUDIOINPUTDIRTYIFSPEEDCHANGED_OFFSET UNITYSDK_OFFSET(0x105E0A50)
+#define NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x105E0DF0)
+#define NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x105E0DE0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCApplyMovementProcessor_TypeDefinitionIndex = 61794;
+	inline static constexpr unsigned int NPCApplyMovementProcessor_TypeDefinitionIndex = 87406;
 
 	class NPCApplyMovementProcessor : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_bIsFreezeMovement()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCApplyMovementProcessor_TypeDefinitionIndex)->GetStaticField(0x101C0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCApplyMovementProcessor_TypeDefinitionIndex)->GetStaticField(0x115E0);
 		}
 
 		::System::Void _ctor()
@@ -40,6 +42,11 @@ namespace NPCCrowd::Ability
 		static ::System::Void Execute(::System::Int32 idx, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment>& runtime_transform, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMovementFragment>& runtime_movement, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMoveTargetFragment> runtime_moveTarget, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCCPUAnimatorFragment> AnimationFragments, ::Unity::Collections::NativeArray_1<::System::UInt32> EntityIDs, ::System::Single currentTime, ::System::Single deltaTime)
 		{
 			return ((::System::Void(*)(::System::Int32, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment>&, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMovementFragment>&, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMoveTargetFragment>, ::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCCPUAnimatorFragment>, ::Unity::Collections::NativeArray_1<::System::UInt32>, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR_EXECUTE_OFFSET))(idx, runtime_transform, runtime_movement, runtime_moveTarget, AnimationFragments, EntityIDs, currentTime, deltaTime);
+		}
+
+		static ::System::Void MarkAvatarAudioInputDirtyIfSpeedChanged(::System::UInt32 entityId, ::UnityEngine::Vector3 currentVelocity)
+		{
+			return ((::System::Void(*)(::System::UInt32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCAPPLYMOVEMENTPROCESSOR_MARKAVATARAUDIOINPUTDIRTYIFSPEEDCHANGED_OFFSET))(entityId, currentVelocity);
 		}
 
 		::Unity::Jobs::JobHandle Execute_1(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtime, ::System::Single deltaTime, ::Unity::Jobs::JobHandle dependsOn)

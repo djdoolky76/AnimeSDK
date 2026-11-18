@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-namespace MoleMole { class UIZenkovRoleInfoTabWidgetController_Context; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIZENKOVROLEINFODIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11C2AE50)
+#define MOLEMOLE_UIZENKOVROLEINFODIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11390090)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovRoleInfoDialogPopWindowController_Context_TypeDefinitionIndex = 82325;
+	inline static constexpr unsigned int UIZenkovRoleInfoDialogPopWindowController_Context_TypeDefinitionIndex = 62667;
 
 	class UIZenkovRoleInfoDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::UIZenkovRoleInfoTabWidgetController_Context*>* RoleInfo; // 0x28
+		::System::Collections::Generic::List_1<::System::Object*>* RoleInfo; // 0x28
 		::System::Int32 DefaultIndex; // 0x30
 
 		::System::Void _ctor()

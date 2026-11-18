@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UITURNTABLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F9C730)
+#define MOLEMOLE_UITURNTABLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BFF730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITurntableContext_TypeDefinitionIndex = 80203;
+	inline static constexpr unsigned int UITurntableContext_TypeDefinitionIndex = 86118;
 
 	class UITurntableContext : public ::MoleMole::UIControllerContextBase
 	{

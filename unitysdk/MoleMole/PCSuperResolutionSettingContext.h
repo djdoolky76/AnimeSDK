@@ -7,20 +7,21 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PCSUPERRESOLUTIONSETTINGCONTEXT_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x1081DDF0)
-#define MOLEMOLE_PCSUPERRESOLUTIONSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1081E050)
-#define MOLEMOLE_PCSUPERRESOLUTIONSETTINGCONTEXT___BASE_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x1081E0F0)
+#define MOLEMOLE_PCSUPERRESOLUTIONSETTINGCONTEXT_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x15ACF330)
+#define MOLEMOLE_PCSUPERRESOLUTIONSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15ACF590)
+#define MOLEMOLE_PCSUPERRESOLUTIONSETTINGCONTEXT___BASE_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x15ACF630)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PCSuperResolutionSettingContext_TypeDefinitionIndex = 90291;
+	inline static constexpr unsigned int PCSuperResolutionSettingContext_TypeDefinitionIndex = 82239;
 
 	class PCSuperResolutionSettingContext : public ::MoleMole::SystemSettingContextBase
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Boolean>>* ShowOnUIRegexList; // 0x28
-		::MoleMole::PCSuperResolutionType SuperResolutionType; // 0x30
-		::System::Boolean CustomDefaultShowOnUI; // 0x34
+		::System::Boolean CustomDefaultShowOnUI; // 0x30
+		::System::Byte _padding0[0x3];
+		::MoleMole::PCSuperResolutionType SuperResolutionType; // 0x34
 
 		::System::Void _ctor()
 		{

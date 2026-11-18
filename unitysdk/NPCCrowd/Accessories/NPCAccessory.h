@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Ability/FTransformFragment.h"
+#include "unitysdk/NPCCrowd/Accessories/AccessoryDirtyFlags.h"
 #include "unitysdk/NPCCrowd/Accessories/FNPCAccessoryAttachSlotInfo.h"
 #include "unitysdk/NPCCrowd/FNPCAttachPointNameHandle.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/NPCCrowd/Ability/FTransformFragment.h"
 
 namespace NPCCrowd::Accessories { class NPCAccessoryAnimationRuntimeData; }
 namespace NPCCrowd::Accessories { class NPCAccessoryAvatarAssetsSO; }
@@ -15,30 +16,37 @@ namespace NPCCrowd::Animation { class NPCAccessoryCPUAnimator; }
 namespace NPCCrowd::Animation { class NPCUnionAnimator; }
 namespace NPCCrowd::Lod { class NPCCrowdLodRuntimeData; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORY_BUILDLAYERFLAGS_OFFSET UNITYSDK_OFFSET(0xF76D240)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORY_GETVALIDLAYERIDX_OFFSET UNITYSDK_OFFSET(0xF76D730)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORY_SETATTACHEDLOCALPRS_OFFSET UNITYSDK_OFFSET(0xF76BC20)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORY__CTOR_OFFSET UNITYSDK_OFFSET(0xF76D7C0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORY_BUILDLAYERFLAGS_OFFSET UNITYSDK_OFFSET(0xFD26130)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORY_GETVALIDLAYERIDX_OFFSET UNITYSDK_OFFSET(0xFD26630)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORY_SETATTACHEDLOCALPRS_OFFSET UNITYSDK_OFFSET(0xFD24AC0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORY__CTOR_OFFSET UNITYSDK_OFFSET(0xFD266B0)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessory_TypeDefinitionIndex = 69988;
+	inline static constexpr unsigned int NPCAccessory_TypeDefinitionIndex = 58330;
 
 	class NPCAccessory : public ::System::Object
 	{
 	public:
-		::NPCCrowd::Accessories::NPCAccessoryAvatarAssetsSO* accessoryConfig; // 0x10
-		::NPCCrowd::Accessories::NPCAccessoryAnimationRuntimeData* accessoryRuntimeData; // 0x18
-		::NPCCrowd::Accessories::NPCAccessoryReferenceComponentInfo* accessoryGoInfo; // 0x20
-		::NPCCrowd::Animation::NPCUnionAnimator* attachedNPCAnimator; // 0x28
-		::NPCCrowd::Lod::NPCCrowdLodRuntimeData* lodRuntimeData; // 0x30
-		::NPCCrowd::Animation::NPCAccessoryCPUAnimator* accessoryAnimator; // 0x38
-		::NPCCrowd::Accessories::FNPCAccessoryAttachSlotInfo attachSlotInfo; // 0x40
-		::NPCCrowd::Accessories::NPCAccessoryLodMeshAssets* meshConfig; // 0x88
-		::System::UInt32 ownerEntityID; // 0x90
-		::System::Nullable_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>> SampleCache; // 0x94
-		::System::Byte layerFlags; // 0xA0
-		::NPCCrowd::FNPCAttachPointNameHandle attachedPoint; // 0xA4
+		::NPCCrowd::Accessories::FNPCAccessoryAttachSlotInfo attachSlotInfo; // 0x10
+		::NPCCrowd::Animation::NPCUnionAnimator* attachedNPCAnimator; // 0x58
+		::NPCCrowd::Accessories::NPCAccessoryAvatarAssetsSO* accessoryConfig; // 0x60
+		::NPCCrowd::Lod::NPCCrowdLodRuntimeData* lodRuntimeData; // 0x68
+		::NPCCrowd::Animation::NPCAccessoryCPUAnimator* accessoryAnimator; // 0x70
+		::NPCCrowd::Accessories::NPCAccessoryAnimationRuntimeData* accessoryRuntimeData; // 0x78
+		::NPCCrowd::Accessories::NPCAccessoryLodMeshAssets* meshConfig; // 0x80
+		::NPCCrowd::Accessories::NPCAccessoryReferenceComponentInfo* accessoryGoInfo; // 0x88
+		::NPCCrowd::Accessories::AccessoryDirtyFlags optimizationDirtyFlags; // 0x90
+		::System::Byte boneLayerFlags; // 0x91
+		::System::Byte _padding0[0x2];
+		::System::UInt32 ownerEntityID; // 0x94
+		::NPCCrowd::FNPCAttachPointNameHandle attachedPoint; // 0x98
+		::System::Nullable_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>> SampleCache; // 0x9C
+		::System::Byte _padding1[0x4];
+		::System::Int32 followIndex; // 0xA8
+		::System::Boolean optimizationAlive; // 0xAC
+		::System::Boolean followTransformInitialized; // 0xAD
+		::System::Byte layerFlags; // 0xAE
 
 		::System::Void _ctor()
 		{

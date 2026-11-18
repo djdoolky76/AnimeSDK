@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Geometry/DefaultSurfaceDimension.h"
 
-namespace Foundation::Geometry { template <typename T> class IBezierControlPointPolicy_1; }
-
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int SmoothBezierSurface_1_TypeDefinitionIndex = 8717;
+	inline static constexpr unsigned int SmoothBezierSurface_1_TypeDefinitionIndex = 9051;
 
 	template <typename T>
 	class SmoothBezierSurface_1 : public ::Foundation::Geometry::DefaultSurfaceDimension

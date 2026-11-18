@@ -1,37 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Data/DataRowAction.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
-namespace System::Data { class ConstraintCollection; }
-namespace System::Data { class DataColumn; }
-namespace System::Data { class DataRow; }
 namespace System::Data { class DataSet; }
-namespace System::Data { class DataTable; }
 namespace System::Data { class PropertyCollection; }
 
-#define SYSTEM_DATA_CONSTRAINT_CHECKCONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1EAAD980)
-#define SYSTEM_DATA_CONSTRAINT_CHECKSTATEFORPROPERTY_OFFSET UNITYSDK_OFFSET(0x1EAAD9E0)
-#define SYSTEM_DATA_CONSTRAINT_GET_EXTENDEDPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1EAAD8D0)
-#define SYSTEM_DATA_CONSTRAINT_GET_SCHEMANAME_OFFSET UNITYSDK_OFFSET(0x1EAAD860)
-#define SYSTEM_DATA_CONSTRAINT_SET_CONSTRAINTNAME_OFFSET UNITYSDK_OFFSET(0x1EAAD390)
-#define SYSTEM_DATA_CONSTRAINT_SET_INCOLLECTION_OFFSET UNITYSDK_OFFSET(0x1EAAD890)
-#define SYSTEM_DATA_CONSTRAINT_SET_SCHEMANAME_OFFSET UNITYSDK_OFFSET(0x1EAAD880)
-#define SYSTEM_DATA_CONSTRAINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAADB10)
-#define SYSTEM_DATA_CONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAADB20)
+#define SYSTEM_DATA_CONSTRAINT_CHECKCONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1EDDE7F0)
+#define SYSTEM_DATA_CONSTRAINT_CHECKSTATEFORPROPERTY_OFFSET UNITYSDK_OFFSET(0x1EDDE850)
+#define SYSTEM_DATA_CONSTRAINT_GET_EXTENDEDPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1EDDE740)
+#define SYSTEM_DATA_CONSTRAINT_GET_SCHEMANAME_OFFSET UNITYSDK_OFFSET(0x1EDDE6D0)
+#define SYSTEM_DATA_CONSTRAINT_SET_CONSTRAINTNAME_OFFSET UNITYSDK_OFFSET(0x1EDDE200)
+#define SYSTEM_DATA_CONSTRAINT_SET_INCOLLECTION_OFFSET UNITYSDK_OFFSET(0x1EDDE700)
+#define SYSTEM_DATA_CONSTRAINT_SET_SCHEMANAME_OFFSET UNITYSDK_OFFSET(0x1EDDE6F0)
+#define SYSTEM_DATA_CONSTRAINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EDDE980)
+#define SYSTEM_DATA_CONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDDE990)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int Constraint_TypeDefinitionIndex = 39218;
+	inline static constexpr unsigned int Constraint_TypeDefinitionIndex = 37218;
 
 	class Constraint : public ::System::Object
 	{
 	public:
-		::System::String* _schemaName; // 0x10
-		::System::String* _name; // 0x18
-		::System::Data::DataSet* _dataSet; // 0x20
-		::System::Data::PropertyCollection* _extendedProperties; // 0x28
+		::System::Data::DataSet* _dataSet; // 0x10
+		::System::Data::PropertyCollection* _extendedProperties; // 0x18
+		::System::String* _schemaName; // 0x20
+		::System::String* _name; // 0x28
 		::System::Boolean _inCollection; // 0x30
 
 		::System::Void _ctor()

@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AAPCFDDBMJP;
+class ALCEJNMFHOK;
+class GFKHCDMJEKA;
+class ODPINEGGNDC;
+
+#define CNDKEBKJCDO_GKNCDAIHHEG_LJHDGNAEDIC_OFFSET UNITYSDK_OFFSET(0x1FB33BE0)
+#define CNDKEBKJCDO_GKNCDAIHHEG__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB33BD0)
+
+inline static constexpr unsigned int CNDKEBKJCDO_GKNCDAIHHEG_TypeDefinitionIndex = 18188;
+
+class CNDKEBKJCDO_GKNCDAIHHEG : public ::System::Object
+{
+public:
+	::ODPINEGGNDC* FDDEMMPCGAC; // 0x10
+	::Il2CppArray<::ALCEJNMFHOK*>* FIIPNEEGNIA; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CNDKEBKJCDO_GKNCDAIHHEG__CTOR_OFFSET))(this);
+	}
+
+	::AAPCFDDBMJP* LJHDGNAEDIC(::GFKHCDMJEKA* CIEOCEADIJB, ::System::Int32 HBJOLKHGGDD)
+	{
+		return ((::AAPCFDDBMJP*(*)(::PVOID, ::GFKHCDMJEKA*, ::System::Int32))((::PBYTE)hIl2Cpp + CNDKEBKJCDO_GKNCDAIHHEG_LJHDGNAEDIC_OFFSET))(this, CIEOCEADIJB, HBJOLKHGGDD);
+	}
+};

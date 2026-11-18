@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define MATERIALPROPERTYBLOCKPREVIEW_MPBPREVIEWCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E659A50)
+#define MATERIALPROPERTYBLOCKPREVIEW_MPBPREVIEWCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DD460)
 
-inline static constexpr unsigned int MaterialPropertyBlockPreview_MPBPreviewContent_TypeDefinitionIndex = 27554;
+inline static constexpr unsigned int MaterialPropertyBlockPreview_MPBPreviewContent_TypeDefinitionIndex = 26272;
 
 class MaterialPropertyBlockPreview_MPBPreviewContent : public ::System::Object
 {

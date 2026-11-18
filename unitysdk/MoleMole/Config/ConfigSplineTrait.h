@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 
-class Class_0_16E4307DCC419505_198;
-class Class_1_236FD73ABC492E3F;
-class Class_1_BE29B49AC03370B6;
+class EKHEOJOFLLA;
+class FKNIEPCILLG;
+class OHDHAGLCAEB;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1B917370)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B917470)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B917300)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B917C30)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1B9176F0)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B918130)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1B917460)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B917C90)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B917770)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B917FA0)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B917AF0)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B918250)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B918260)
-#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B918270)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1924EA00)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1924EB00)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1924E990)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1924F2C0)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1924ED80)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1924F7C0)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1924EAF0)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1924F320)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1924EE00)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1924F630)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1924F180)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1924F8D0)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1924F8E0)
+#define MOLEMOLE_CONFIG_CONFIGSPLINETRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1924F8F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSplineTrait_TypeDefinitionIndex = 90053;
+	inline static constexpr unsigned int ConfigSplineTrait_TypeDefinitionIndex = 74039;
 
 	class ConfigSplineTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -57,9 +57,9 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void ExposeMember(::Class_0_16E4307DCC419505_198* processor, ::System::String* prefix)
+		::System::Void ExposeMember(::OHDHAGLCAEB* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
@@ -77,34 +77,34 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::ConfigSplineTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::ConfigSplineTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		static ::MoleMole::Config::ConfigSplineTrait* ParseFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::ConfigSplineTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+			return ((::MoleMole::Config::ConfigSplineTrait*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Boolean GenerateComponent(::Class_1_BE29B49AC03370B6* buildContext)
+		::System::Boolean GenerateComponent(::EKHEOJOFLLA* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
+			return ((::System::Boolean(*)(::PVOID, ::EKHEOJOFLLA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_198* P0, ::System::String* P1)
+		::System::Void __base_ExposeMember(::OHDHAGLCAEB* P0, ::System::String* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 
-		::System::Boolean __base_GenerateComponent(::Class_1_BE29B49AC03370B6* P0)
+		::System::Boolean __base_GenerateComponent(::EKHEOJOFLLA* P0)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::EKHEOJOFLLA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSPLINETRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

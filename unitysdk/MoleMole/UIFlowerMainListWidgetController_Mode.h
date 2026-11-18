@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerMainListWidgetController_Mode_TypeDefinitionIndex = 87860;
+	inline static constexpr unsigned int UIFlowerMainListWidgetController_Mode_TypeDefinitionIndex = 40461;
 
 	enum class UIFlowerMainListWidgetController_Mode : ::System::Int32
 	{

@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 #include "unitysdk/NodeCanvas/Tasks/Actions/SetObjectVisibility_SetVisibleMode.h"
 
 namespace System { class String; }
-namespace UnityEngine { class Renderer; }
 
-#define NODECANVAS_TASKS_ACTIONS_SETOBJECTVISIBILITY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E236C60)
-#define NODECANVAS_TASKS_ACTIONS_SETOBJECTVISIBILITY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E236D20)
-#define NODECANVAS_TASKS_ACTIONS_SETOBJECTVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E236DF0)
+#define NODECANVAS_TASKS_ACTIONS_SETOBJECTVISIBILITY_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EBB84A0)
+#define NODECANVAS_TASKS_ACTIONS_SETOBJECTVISIBILITY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EBB8560)
+#define NODECANVAS_TASKS_ACTIONS_SETOBJECTVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB8630)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SetObjectVisibility_TypeDefinitionIndex = 29720;
+	inline static constexpr unsigned int SetObjectVisibility_TypeDefinitionIndex = 30538;
 
-	class SetObjectVisibility : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Renderer*>
+	class SetObjectVisibility
 	{
 	public:
 		::NodeCanvas::Tasks::Actions::SetObjectVisibility_SetVisibleMode setTo; // 0x60

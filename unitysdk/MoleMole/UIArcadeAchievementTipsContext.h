@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIARCADEACHIEVEMENTTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x197DF2F0)
+#define MOLEMOLE_UIARCADEACHIEVEMENTTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x198330E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadeAchievementTipsContext_TypeDefinitionIndex = 50910;
+	inline static constexpr unsigned int UIArcadeAchievementTipsContext_TypeDefinitionIndex = 59166;
 
 	class UIArcadeAchievementTipsContext : public ::MoleMole::UIControllerContextBase
 	{

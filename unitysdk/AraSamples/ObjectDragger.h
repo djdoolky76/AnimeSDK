@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ARASAMPLES_OBJECTDRAGGER_ONMOUSEDOWN_OFFSET UNITYSDK_OFFSET(0x1F643B50)
-#define ARASAMPLES_OBJECTDRAGGER_ONMOUSEDRAG_OFFSET UNITYSDK_OFFSET(0x1F643D70)
-#define ARASAMPLES_OBJECTDRAGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F643E90)
+#define ARASAMPLES_OBJECTDRAGGER_ONMOUSEDOWN_OFFSET UNITYSDK_OFFSET(0x1F9FA590)
+#define ARASAMPLES_OBJECTDRAGGER_ONMOUSEDRAG_OFFSET UNITYSDK_OFFSET(0x1F9FA7B0)
+#define ARASAMPLES_OBJECTDRAGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9FA8D0)
 
 namespace AraSamples
 {
-	inline static constexpr unsigned int ObjectDragger_TypeDefinitionIndex = 33553;
+	inline static constexpr unsigned int ObjectDragger_TypeDefinitionIndex = 33099;
 
 	class ObjectDragger : public ::UnityEngine::MonoBehaviour
 	{

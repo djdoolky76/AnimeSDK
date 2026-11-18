@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KCPErrorCode_TypeDefinitionIndex = 37177;
+	inline static constexpr unsigned int KCPErrorCode_TypeDefinitionIndex = 35163;
 
 	enum class KCPErrorCode : ::System::Int32
 	{

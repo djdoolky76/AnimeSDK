@@ -7,11 +7,11 @@
 
 namespace UnityEngine { class Camera; }
 
-#define EFFECTSCREENANCHOR_AWAKE_OFFSET UNITYSDK_OFFSET(0x14D358F0)
-#define EFFECTSCREENANCHOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x14D35930)
-#define EFFECTSCREENANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0x14D36090)
+#define EFFECTSCREENANCHOR_AWAKE_OFFSET UNITYSDK_OFFSET(0x1355D0B0)
+#define EFFECTSCREENANCHOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1355D0F0)
+#define EFFECTSCREENANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1355D850)
 
-inline static constexpr unsigned int EffectScreenAnchor_TypeDefinitionIndex = 68347;
+inline static constexpr unsigned int EffectScreenAnchor_TypeDefinitionIndex = 66213;
 
 class EffectScreenAnchor : public ::UnityEngine::MonoBehaviour
 {

@@ -5,11 +5,11 @@
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int ChunkComponentData_1_DisposeJob_TypeDefinitionIndex = 38396;
+	inline static constexpr unsigned int ChunkComponentData_1_DisposeJob_TypeDefinitionIndex = 36398;
 
-	template <typename TScope>
-	struct ChunkComponentData_1_DisposeJob
+	template <typename T>
+	struct alignas(8) ChunkComponentData_1_DisposeJob
 	{
-		::PipelineCamera::DataOrientated::ChunkComponentData_1<TScope> Data; // 0x0
+		::PipelineCamera::DataOrientated::ChunkComponentData_1<T> Data; // 0x0
 	};
 }

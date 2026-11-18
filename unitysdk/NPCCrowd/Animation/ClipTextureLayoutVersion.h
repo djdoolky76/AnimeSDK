@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int ClipTextureLayoutVersion_TypeDefinitionIndex = 83609;
+	inline static constexpr unsigned int ClipTextureLayoutVersion_TypeDefinitionIndex = 74357;
 
 	class ClipTextureLayoutVersion : public ::System::Object
 	{

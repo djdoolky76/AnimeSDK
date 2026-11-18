@@ -6,18 +6,18 @@
 namespace UnityEngine::NAPRenderPipeline0 { class ExternalFunctionUtils_EditorDrawLightMapScaleCallback; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_EXTERNALFUNCTIONUTILS_DRAWLIGHTMAPSCALECALLBACK_OFFSET UNITYSDK_OFFSET(0x1EB5F8C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_EXTERNALFUNCTIONUTILS_DRAWLIGHTMAPSCALECALLBACK_OFFSET UNITYSDK_OFFSET(0x1F024B20)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ExternalFunctionUtils_TypeDefinitionIndex = 6042;
+	inline static constexpr unsigned int ExternalFunctionUtils_TypeDefinitionIndex = 6050;
 
 	class ExternalFunctionUtils : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::ExternalFunctionUtils_EditorDrawLightMapScaleCallback** StaticGet_g_EditorDrawLightMapScale()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ExternalFunctionUtils_EditorDrawLightMapScaleCallback**)Il2CppClass::FromTypeDefinitionIndex(ExternalFunctionUtils_TypeDefinitionIndex)->GetStaticField(0x4F90);
+			return (::UnityEngine::NAPRenderPipeline0::ExternalFunctionUtils_EditorDrawLightMapScaleCallback**)Il2CppClass::FromTypeDefinitionIndex(ExternalFunctionUtils_TypeDefinitionIndex)->GetStaticField(0x4EB0);
 		}
 
 		static ::System::Void DrawLightMapScaleCallback(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ScriptableRenderContext& context)

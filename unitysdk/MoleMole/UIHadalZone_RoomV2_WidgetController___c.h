@@ -6,44 +6,44 @@ namespace MoleMole { class UIGeneralHeadRowWidgetController; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FD6D30)
-#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19FD6D70)
-#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C___OPENSELECTHEROPAGE_B__24_7_OFFSET UNITYSDK_OFFSET(0x19FD6DC0)
-#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C___REFRESHSELECTEDAVATAR_B__29_0_OFFSET UNITYSDK_OFFSET(0x19FD6EE0)
-#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C___REFRESHSELECTEDBUDDY_B__30_0_OFFSET UNITYSDK_OFFSET(0x19FD6F10)
-#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C___UPDATEROLES_B__13_2_OFFSET UNITYSDK_OFFSET(0x19FD6D80)
-#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C___UPDATEROLES_B__13_3_OFFSET UNITYSDK_OFFSET(0x19FD6DA0)
+#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A27BCC0)
+#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A27BD00)
+#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C___OPENSELECTHEROPAGE_B__24_7_OFFSET UNITYSDK_OFFSET(0x1A27BD50)
+#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C___REFRESHSELECTEDAVATAR_B__29_0_OFFSET UNITYSDK_OFFSET(0x1A27BE70)
+#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C___REFRESHSELECTEDBUDDY_B__30_0_OFFSET UNITYSDK_OFFSET(0x1A27BEA0)
+#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C___UPDATEROLES_B__13_2_OFFSET UNITYSDK_OFFSET(0x1A27BD10)
+#define MOLEMOLE_UIHADALZONE_ROOMV2_WIDGETCONTROLLER___C___UPDATEROLES_B__13_3_OFFSET UNITYSDK_OFFSET(0x1A27BD30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex = 46166;
+	inline static constexpr unsigned int UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex = 54396;
 
 	class UIHadalZone_RoomV2_WidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__13_2()
+		static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__30_0()
 		{
-			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x50FD0);
+			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x42180);
 		}
 		static ::System::Action** StaticGet___9__24_7()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x50FD8);
-		}
-		static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__30_0()
-		{
-			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x50FE0);
-		}
-		static ::MoleMole::UIHadalZone_RoomV2_WidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIHadalZone_RoomV2_WidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x50FE8);
-		}
-		static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__13_3()
-		{
-			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x50FF0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x42188);
 		}
 		static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__29_0()
 		{
-			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x50FF8);
+			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x42190);
+		}
+		static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__13_3()
+		{
+			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x42198);
+		}
+		static ::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>** StaticGet___9__13_2()
+		{
+			return (::System::Action_1<::MoleMole::UIGeneralHeadRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x421A0);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIHadalZone_RoomV2_WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x421A8);
 		}
 
 		static ::System::Void _cctor()

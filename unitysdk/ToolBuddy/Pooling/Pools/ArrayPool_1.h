@@ -2,21 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ToolBuddy/Pooling/Collections/SubArray_1.h"
-#include "unitysdk/ToolBuddy/Pooling/Pools/ArrayPoolUsageData.h"
 
 namespace System { class Random; }
 
 namespace ToolBuddy::Pooling::Pools
 {
-	inline static constexpr unsigned int ArrayPool_1_TypeDefinitionIndex = 26757;
+	inline static constexpr unsigned int ArrayPool_1_TypeDefinitionIndex = 26125;
 
 	template <typename T>
 	class ArrayPool_1 : public ::System::Object
 	{
 	public:
+		// static const ::System::Int32 keysInitialCapacity = 0xC8; // 0x0
 		::ToolBuddy::Pooling::Collections::SubArray_1<T> emptySubArray; // 0x0
 		::System::Random* random; // 0x0
-		// static const ::System::Int32 keysInitialCapacity = 0xC8; // 0x0
 		::Il2CppArray<::System::Int32>* poolKeys; // 0x0
 		::Il2CppArray<::Il2CppArray<T>*>* poolValues; // 0x0
 		::System::Int32 arraysCount; // 0x0

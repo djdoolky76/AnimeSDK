@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_HACKCHARGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF4A90)
+#define MOLEMOLE_CONFIG_HACKCHARGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A76F790)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HackChargeConfig_TypeDefinitionIndex = 68436;
+	inline static constexpr unsigned int HackChargeConfig_TypeDefinitionIndex = 86259;
 
 	class HackChargeConfig : public ::System::Object
 	{
@@ -27,6 +27,7 @@ namespace MoleMole::Config
 		::System::String* TargetPosAttachPoint; // 0x38
 		::System::String* PulseChargeTipTextKey; // 0x40
 		::UnityEngine::LayerMask ObstacleBlockLayerMask; // 0x48
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::String*>* ObstacleIgnoreTags; // 0x50
 		::System::String* PulseChargeEffectKey; // 0x58
 		::System::String* PulseChargeEffectAnim; // 0x60

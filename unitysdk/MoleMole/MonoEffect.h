@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MCKCKBEGCCM.h"
 #include "unitysdk/MoleMole/GameplayTag.h"
 #include "unitysdk/MoleMole/MonoEffectPluginMask.h"
 #include "unitysdk/MoleMole/MonoEffectRuntimeDataCache.h"
-#include "unitysdk/MoleMole/MonoEffect_Enum_3_EF934AA54C999033.h"
-#include "unitysdk/MoleMole/MonoEffect_Enum_3_F8BBB3B7E922E8A1.h"
-#include "unitysdk/MoleMole/MonoEffect_Enum_3_FC3DC21E660E5341.h"
-#include "unitysdk/Struct_2_9E75F47F2670B678.h"
+#include "unitysdk/MoleMole/MonoEffect_AJCEGOLPCEE.h"
+#include "unitysdk/MoleMole/MonoEffect_KNINDHJIAMO.h"
+#include "unitysdk/MoleMole/MonoEffect_OMJIAAEBPPA.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_452;
-class Class_3_D6DA183EF60F02C8;
+class AEMCAOEICDG;
+class GIPLLNOAECM;
 namespace MoleMole { class DynamicBoneParaSwitch; }
 namespace MoleMole { class MonoEffectExtensionBehaviour; }
 namespace MoleMole { class MonoEffectPluginAttachPoint; }
@@ -35,139 +35,141 @@ namespace MoleMole { class MonoEffectPluginSyncEntityPos; }
 namespace MoleMole { class MonoEffectPluginTransform; }
 namespace MoleMole { class MonoEffectSelfAttachPoint; }
 namespace MoleMole { class MonoEffectShape; }
-namespace MoleMole { class MonoEffect_LayeredEffect; }
-namespace MoleMole { class MonoEffect_TagGoConfig; }
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Battle { class XWeaponTrailCustom; }
 namespace MoleMole::EffectSimulate { class NapEffectSimulatorMgr; }
 namespace MoleMole::MonoEffectContrllerModule { class MonoEffectPluginController; }
-namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Behaviour; }
-namespace UnityEngine { class Component; }
 namespace UnityEngine { class Light; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class PBDDeformer; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_MONOEFFECT_AWAKE_OFFSET UNITYSDK_OFFSET(0x13AAD660)
-#define MOLEMOLE_MONOEFFECT_CLEARPARTICLESYSTEMS_OFFSET UNITYSDK_OFFSET(0x13AAEEF0)
-#define MOLEMOLE_MONOEFFECT_CLEARRENDER_OFFSET UNITYSDK_OFFSET(0x13AAF2C0)
-#define MOLEMOLE_MONOEFFECT_DOCACHEBEHAVIOURS_OFFSET UNITYSDK_OFFSET(0x13AACF60)
-#define MOLEMOLE_MONOEFFECT_GETCACHEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x13AAC630)
-#define MOLEMOLE_MONOEFFECT_GETSHAREDMATERIAL_OFFSET UNITYSDK_OFFSET(0x13AACCE0)
-#define MOLEMOLE_MONOEFFECT_GET_CACHEDBEHAVIOURS_OFFSET UNITYSDK_OFFSET(0x13AAD600)
-#define MOLEMOLE_MONOEFFECT_GET_CACHEDRENDERERSTOENABLE_OFFSET UNITYSDK_OFFSET(0x13AACF00)
-#define MOLEMOLE_MONOEFFECT_GET_CASTERENTITY_OFFSET UNITYSDK_OFFSET(0x13AAC5F0)
-#define MOLEMOLE_MONOEFFECT_GET_DYNAMICBONEPARASWITCHES_OFFSET UNITYSDK_OFFSET(0x13AABE10)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTANIMATIONS_OFFSET UNITYSDK_OFFSET(0x13AAA090)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTANIMATION_OFFSET UNITYSDK_OFFSET(0x13AA9F10)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTLOGICCONTROLLER_OFFSET UNITYSDK_OFFSET(0x13AAA290)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTMODELCOMPONENT_OFFSET UNITYSDK_OFFSET(0x13AAC610)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x13AAAB90)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINATTACHTOCAMERA_OFFSET UNITYSDK_OFFSET(0x13AABB10)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINAUDIO_OFFSET UNITYSDK_OFFSET(0x13AAA410)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINCLIPPLANE_OFFSET UNITYSDK_OFFSET(0x13AABC90)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINCONSTANTSCREENSIZE_OFFSET UNITYSDK_OFFSET(0x13AAC120)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINDESTROY_OFFSET UNITYSDK_OFFSET(0x13AAAA10)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINDITHER_OFFSET UNITYSDK_OFFSET(0x13AAA590)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINFADE_OFFSET UNITYSDK_OFFSET(0x13AAA710)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINFOLLOWCAMERA_OFFSET UNITYSDK_OFFSET(0x13AABFA0)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINFOLLOW_OFFSET UNITYSDK_OFFSET(0x13AAA890)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINGROUNDLIGHTING_OFFSET UNITYSDK_OFFSET(0x13AAB690)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINLASERLINERENDERERS_OFFSET UNITYSDK_OFFSET(0x13AAB990)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINSCREENEFFECT_OFFSET UNITYSDK_OFFSET(0x13AAAD10)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINSTATEANIMATION_OFFSET UNITYSDK_OFFSET(0x13AAC420)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINSYNCENTITYPOS_OFFSET UNITYSDK_OFFSET(0x13AAC2A0)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINTRANSFORM_OFFSET UNITYSDK_OFFSET(0x13AAAE90)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTSELFATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x13AAB810)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTSHAPE_OFFSET UNITYSDK_OFFSET(0x13AAB010)
-#define MOLEMOLE_MONOEFFECT_GET_EFFECTWEAPONTRAIL_OFFSET UNITYSDK_OFFSET(0x13AAB190)
-#define MOLEMOLE_MONOEFFECT_GET_FINALANGLEOFFSET_OFFSET UNITYSDK_OFFSET(0x13AAE840)
-#define MOLEMOLE_MONOEFFECT_GET_FINALPOSOFFSET_OFFSET UNITYSDK_OFFSET(0x13AAE810)
-#define MOLEMOLE_MONOEFFECT_GET_ISALLCOMPONENTSCACHED_OFFSET UNITYSDK_OFFSET(0x13AA90A0)
-#define MOLEMOLE_MONOEFFECT_GET_ISINACTIVECOMPCACHED_OFFSET UNITYSDK_OFFSET(0x13AA9010)
-#define MOLEMOLE_MONOEFFECT_GET_LAYEREDEFFECTLIGHTS_OFFSET UNITYSDK_OFFSET(0x13AA92B0)
-#define MOLEMOLE_MONOEFFECT_GET_LAYEREDEFFECTRENDERS_OFFSET UNITYSDK_OFFSET(0x13AA9820)
-#define MOLEMOLE_MONOEFFECT_GET_LIGHTS_OFFSET UNITYSDK_OFFSET(0x13AA9150)
-#define MOLEMOLE_MONOEFFECT_GET_MONOEFFECTEXTENSIONBEHAVIOUR_OFFSET UNITYSDK_OFFSET(0x13AAA1A0)
-#define MOLEMOLE_MONOEFFECT_GET_NEEDINACTIVECACHED_OFFSET UNITYSDK_OFFSET(0x13AA8FB0)
-#define MOLEMOLE_MONOEFFECT_GET_PARTICLESYS_OFFSET UNITYSDK_OFFSET(0x13AA9C30)
-#define MOLEMOLE_MONOEFFECT_GET_PBDDEFORMER_OFFSET UNITYSDK_OFFSET(0x13AAB590)
-#define MOLEMOLE_MONOEFFECT_GET_PLUGINHITWALLBULLET_OFFSET UNITYSDK_OFFSET(0x13AAB490)
-#define MOLEMOLE_MONOEFFECT_GET_PLUGINHITWALLSCRATCH_OFFSET UNITYSDK_OFFSET(0x13AAB390)
-#define MOLEMOLE_MONOEFFECT_GET_PLUGINHITWALL_OFFSET UNITYSDK_OFFSET(0x13AAB290)
-#define MOLEMOLE_MONOEFFECT_GET_POLYGONBEHAVIOR_OFFSET UNITYSDK_OFFSET(0x13AAC5A0)
-#define MOLEMOLE_MONOEFFECT_GET_RENDERERS_OFFSET UNITYSDK_OFFSET(0x13AA96C0)
-#define MOLEMOLE_MONOEFFECT_GET_SIMULATORMGR_OFFSET UNITYSDK_OFFSET(0x13AA9D90)
-#define MOLEMOLE_MONOEFFECT_INITPARTICLES_OFFSET UNITYSDK_OFFSET(0x13AAE910)
-#define MOLEMOLE_MONOEFFECT_METHOD_5_071850D2764E9D4C_OFFSET UNITYSDK_OFFSET(0x13AADAA0)
-#define MOLEMOLE_MONOEFFECT_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x13AA8EB0)
-#define MOLEMOLE_MONOEFFECT_METHOD_5_4CD1124C71DEC91E_OFFSET UNITYSDK_OFFSET(0x13AB0310)
-#define MOLEMOLE_MONOEFFECT_METHOD_5_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x13AAE120)
-#define MOLEMOLE_MONOEFFECT_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x13AB02A0)
-#define MOLEMOLE_MONOEFFECT_METHOD_5_C5E0D2AA3A5BB59B_OFFSET UNITYSDK_OFFSET(0x13AAE080)
-#define MOLEMOLE_MONOEFFECT_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13AA8DB0)
-#define MOLEMOLE_MONOEFFECT_METHOD_5_E69AA2E64A20143D_OFFSET UNITYSDK_OFFSET(0x13AAE5B0)
-#define MOLEMOLE_MONOEFFECT_METHOD_5_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0x13AB0510)
-#define MOLEMOLE_MONOEFFECT_METHOD_5_F978A1D172468895_OFFSET UNITYSDK_OFFSET(0x13AAD890)
-#define MOLEMOLE_MONOEFFECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13AAE240)
-#define MOLEMOLE_MONOEFFECT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x13AA8DF0)
-#define MOLEMOLE_MONOEFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x13AA8CC0)
-#define MOLEMOLE_MONOEFFECT_RESETPLAYSTATE_OFFSET UNITYSDK_OFFSET(0x13AAF3A0)
-#define MOLEMOLE_MONOEFFECT_SETATTACH_OFFSET UNITYSDK_OFFSET(0x13AAE870)
-#define MOLEMOLE_MONOEFFECT_SETCOMPONENTSACTIVE_OFFSET UNITYSDK_OFFSET(0x13AAF3F0)
-#define MOLEMOLE_MONOEFFECT_SET_CASTERENTITY_OFFSET UNITYSDK_OFFSET(0x13AAC600)
-#define MOLEMOLE_MONOEFFECT_SET_EFFECTMODELCOMPONENT_OFFSET UNITYSDK_OFFSET(0x13AAC620)
-#define MOLEMOLE_MONOEFFECT_UPDATECACHESERIALIZEDATA_OFFSET UNITYSDK_OFFSET(0x13AAFB10)
-#define MOLEMOLE_MONOEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x13AB01B0)
-#define MOLEMOLE_MONOEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x13AB0100)
+#define MOLEMOLE_MONOEFFECT_AJEEBNCNHMN_OFFSET UNITYSDK_OFFSET(0x1468D360)
+#define MOLEMOLE_MONOEFFECT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1468A590)
+#define MOLEMOLE_MONOEFFECT_BBNIOPNBLKG_OFFSET UNITYSDK_OFFSET(0x1468D0F0)
+#define MOLEMOLE_MONOEFFECT_CLEARPARTICLESYSTEMS_OFFSET UNITYSDK_OFFSET(0x1468BE40)
+#define MOLEMOLE_MONOEFFECT_CLEARRENDER_OFFSET UNITYSDK_OFFSET(0x1468C210)
+#define MOLEMOLE_MONOEFFECT_COLGFJCOBBE_OFFSET UNITYSDK_OFFSET(0x1468AFC0)
+#define MOLEMOLE_MONOEFFECT_DLIDBNKMKCO_OFFSET UNITYSDK_OFFSET(0x14685D40)
+#define MOLEMOLE_MONOEFFECT_DOCACHEBEHAVIOURS_OFFSET UNITYSDK_OFFSET(0x14689E90)
+#define MOLEMOLE_MONOEFFECT_EDFNIGBCOGK_OFFSET UNITYSDK_OFFSET(0x1468B060)
+#define MOLEMOLE_MONOEFFECT_GETCACHEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x14689560)
+#define MOLEMOLE_MONOEFFECT_GETSHAREDMATERIAL_OFFSET UNITYSDK_OFFSET(0x14689C10)
+#define MOLEMOLE_MONOEFFECT_GET_CACHEDBEHAVIOURS_OFFSET UNITYSDK_OFFSET(0x1468A530)
+#define MOLEMOLE_MONOEFFECT_GET_CACHEDRENDERERSTOENABLE_OFFSET UNITYSDK_OFFSET(0x14689E30)
+#define MOLEMOLE_MONOEFFECT_GET_CASTERENTITY_OFFSET UNITYSDK_OFFSET(0x14689520)
+#define MOLEMOLE_MONOEFFECT_GET_DYNAMICBONEPARASWITCHES_OFFSET UNITYSDK_OFFSET(0x14688D40)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTANIMATIONS_OFFSET UNITYSDK_OFFSET(0x14686F20)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTANIMATION_OFFSET UNITYSDK_OFFSET(0x14686DA0)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTLOGICCONTROLLER_OFFSET UNITYSDK_OFFSET(0x146871C0)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTMODELCOMPONENT_OFFSET UNITYSDK_OFFSET(0x14689540)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x14687AC0)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINATTACHTOCAMERA_OFFSET UNITYSDK_OFFSET(0x14688A40)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINAUDIO_OFFSET UNITYSDK_OFFSET(0x14687340)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINCLIPPLANE_OFFSET UNITYSDK_OFFSET(0x14688BC0)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINCONSTANTSCREENSIZE_OFFSET UNITYSDK_OFFSET(0x14689050)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINDESTROY_OFFSET UNITYSDK_OFFSET(0x14687940)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINDITHER_OFFSET UNITYSDK_OFFSET(0x146874C0)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINFADE_OFFSET UNITYSDK_OFFSET(0x14687640)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINFOLLOWCAMERA_OFFSET UNITYSDK_OFFSET(0x14688ED0)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINFOLLOW_OFFSET UNITYSDK_OFFSET(0x146877C0)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINGROUNDLIGHTING_OFFSET UNITYSDK_OFFSET(0x146885C0)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINLASERLINERENDERERS_OFFSET UNITYSDK_OFFSET(0x146888C0)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINSCREENEFFECT_OFFSET UNITYSDK_OFFSET(0x14687C40)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINSTATEANIMATION_OFFSET UNITYSDK_OFFSET(0x14689350)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINSYNCENTITYPOS_OFFSET UNITYSDK_OFFSET(0x146891D0)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINTRANSFORM_OFFSET UNITYSDK_OFFSET(0x14687DC0)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTSELFATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x14688740)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTSHAPE_OFFSET UNITYSDK_OFFSET(0x14687F40)
+#define MOLEMOLE_MONOEFFECT_GET_EFFECTWEAPONTRAIL_OFFSET UNITYSDK_OFFSET(0x146880C0)
+#define MOLEMOLE_MONOEFFECT_GET_FINALANGLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1468B790)
+#define MOLEMOLE_MONOEFFECT_GET_FINALPOSOFFSET_OFFSET UNITYSDK_OFFSET(0x1468B760)
+#define MOLEMOLE_MONOEFFECT_GET_ISALLCOMPONENTSCACHED_OFFSET UNITYSDK_OFFSET(0x14685F30)
+#define MOLEMOLE_MONOEFFECT_GET_ISINACTIVECOMPCACHED_OFFSET UNITYSDK_OFFSET(0x14685EA0)
+#define MOLEMOLE_MONOEFFECT_GET_LAYEREDEFFECTLIGHTS_OFFSET UNITYSDK_OFFSET(0x14686140)
+#define MOLEMOLE_MONOEFFECT_GET_LAYEREDEFFECTRENDERS_OFFSET UNITYSDK_OFFSET(0x146866B0)
+#define MOLEMOLE_MONOEFFECT_GET_LIGHTS_OFFSET UNITYSDK_OFFSET(0x14685FE0)
+#define MOLEMOLE_MONOEFFECT_GET_MONOEFFECTEXTENSIONBEHAVIOUR_OFFSET UNITYSDK_OFFSET(0x14687030)
+#define MOLEMOLE_MONOEFFECT_GET_NEEDINACTIVECACHED_OFFSET UNITYSDK_OFFSET(0x14685E40)
+#define MOLEMOLE_MONOEFFECT_GET_PARTICLESYS_OFFSET UNITYSDK_OFFSET(0x14686AC0)
+#define MOLEMOLE_MONOEFFECT_GET_PBDDEFORMER_OFFSET UNITYSDK_OFFSET(0x146884C0)
+#define MOLEMOLE_MONOEFFECT_GET_PLUGINHITWALLBULLET_OFFSET UNITYSDK_OFFSET(0x146883C0)
+#define MOLEMOLE_MONOEFFECT_GET_PLUGINHITWALLSCRATCH_OFFSET UNITYSDK_OFFSET(0x146882C0)
+#define MOLEMOLE_MONOEFFECT_GET_PLUGINHITWALL_OFFSET UNITYSDK_OFFSET(0x146881C0)
+#define MOLEMOLE_MONOEFFECT_GET_POLYGONBEHAVIOR_OFFSET UNITYSDK_OFFSET(0x146894D0)
+#define MOLEMOLE_MONOEFFECT_GET_RENDERERS_OFFSET UNITYSDK_OFFSET(0x14686550)
+#define MOLEMOLE_MONOEFFECT_GET_SIMULATORMGR_OFFSET UNITYSDK_OFFSET(0x14686C20)
+#define MOLEMOLE_MONOEFFECT_GHJPIBKPGGF_OFFSET UNITYSDK_OFFSET(0x1468A7D0)
+#define MOLEMOLE_MONOEFFECT_INITPARTICLES_OFFSET UNITYSDK_OFFSET(0x1468B860)
+#define MOLEMOLE_MONOEFFECT_JMPNKFCKKFG_OFFSET UNITYSDK_OFFSET(0x1468D2F0)
+#define MOLEMOLE_MONOEFFECT_LCGBGGOFBGD_OFFSET UNITYSDK_OFFSET(0x1468A9E0)
+#define MOLEMOLE_MONOEFFECT_LMBNMDHGDPL_OFFSET UNITYSDK_OFFSET(0x1468B500)
+#define MOLEMOLE_MONOEFFECT_LOFMNKAMILC_OFFSET UNITYSDK_OFFSET(0x14685C40)
+#define MOLEMOLE_MONOEFFECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1468B180)
+#define MOLEMOLE_MONOEFFECT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x14685C80)
+#define MOLEMOLE_MONOEFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x14685B50)
+#define MOLEMOLE_MONOEFFECT_RESETPLAYSTATE_OFFSET UNITYSDK_OFFSET(0x1468C2F0)
+#define MOLEMOLE_MONOEFFECT_SETATTACH_OFFSET UNITYSDK_OFFSET(0x1468B7C0)
+#define MOLEMOLE_MONOEFFECT_SETCOMPONENTSACTIVE_OFFSET UNITYSDK_OFFSET(0x1468C340)
+#define MOLEMOLE_MONOEFFECT_SET_CASTERENTITY_OFFSET UNITYSDK_OFFSET(0x14689530)
+#define MOLEMOLE_MONOEFFECT_SET_EFFECTMODELCOMPONENT_OFFSET UNITYSDK_OFFSET(0x14689550)
+#define MOLEMOLE_MONOEFFECT_UPDATECACHESERIALIZEDATA_OFFSET UNITYSDK_OFFSET(0x1468CA60)
+#define MOLEMOLE_MONOEFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1468D000)
+#define MOLEMOLE_MONOEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1468CF50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffect_TypeDefinitionIndex = 50323;
+	inline static constexpr unsigned int MonoEffect_TypeDefinitionIndex = 89486;
 
 	class MonoEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Renderer*>*>** StaticGet_Field_5_24()
+		static ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Renderer*>*>** StaticGet_FIFONGHPPGI()
 		{
-			return (::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Renderer*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffect_TypeDefinitionIndex)->GetStaticField(0x46E20);
+			return (::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Renderer*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffect_TypeDefinitionIndex)->GetStaticField(0x4C150);
 		}
-		static ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Light*>*>** StaticGet_Field_5_27()
+		static ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Light*>*>** StaticGet_BJJMABOONBM()
 		{
-			return (::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Light*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffect_TypeDefinitionIndex)->GetStaticField(0x46E28);
+			return (::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Light*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffect_TypeDefinitionIndex)->GetStaticField(0x4C158);
 		}
 		static ::System::Boolean* StaticGet_monoEffectUseSimulateTimeOffset()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoEffect_TypeDefinitionIndex)->GetStaticField(0x10700);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoEffect_TypeDefinitionIndex)->GetStaticField(0x11A20);
 		}
 		static ::System::Boolean* StaticGet_monoEffectNotSimulateIfNoOffset()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoEffect_TypeDefinitionIndex)->GetStaticField(0x10701);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoEffect_TypeDefinitionIndex)->GetStaticField(0x11A21);
 		}
 		::UnityEngine::Vector3 OffsetVec3; // 0x18
 		::UnityEngine::Vector3 PosOffset; // 0x24
 		::UnityEngine::Vector3 AngleOffset; // 0x30
 		::System::Boolean IsUseStartTimeOffset; // 0x3C
+		::System::Byte _padding0[0x3];
 		::System::Single StartTimeOffset; // 0x40
 		::System::Boolean IgnoreWorldTimeScale; // 0x44
 		::System::Boolean IgnoreOwnerTimeScale; // 0x45
 		::System::Boolean IgnoreWitchTimeScale; // 0x46
-		::MoleMole::MonoEffect_Enum_3_FC3DC21E660E5341 ActionWhenAttachedCasterKilled; // 0x48
-		::MoleMole::MonoEffect_Enum_3_EF934AA54C999033 CasterKilledType; // 0x4C
+		::System::Byte _padding1[0x1];
+		::MoleMole::MonoEffect_KNINDHJIAMO ActionWhenAttachedCasterKilled; // 0x48
+		::MoleMole::MonoEffect_OMJIAAEBPPA CasterKilledType; // 0x4C
 		::System::Boolean IsUseLayeredEffect; // 0x50
-		::System::Collections::Generic::List_1<::MoleMole::MonoEffect_LayeredEffect*>* LayeredEffectList; // 0x58
-		::System::Collections::Generic::List_1<::MoleMole::MonoEffect_TagGoConfig*>* TagGoConfigList; // 0x60
+		::System::Byte _padding2[0x7];
+		::System::Collections::Generic::List_1<::System::Object*>* LayeredEffectList; // 0x58
+		::System::Collections::Generic::List_1<::System::Object*>* TagGoConfigList; // 0x60
 		::System::Boolean IgnoreBlackScreenHide; // 0x68
 		::System::Boolean NeedShowLightInBlackScreen; // 0x69
 		::System::Boolean IgnoreColorAdjustment; // 0x6A
 		::System::Boolean IsExcludeFromLevelEndEffectDisappear; // 0x6B
+		::System::Byte _padding3[0x4];
 		::MoleMole::GameplayTag EffectTag; // 0x70
 		::MoleMole::MonoEffectPluginMask _MonoEffectPluginMask; // 0x80
 		::System::Boolean _isInactiveCached; // 0xA0
+		::System::Byte _padding4[0x7];
 		::Il2CppArray<::UnityEngine::Light*>* _lights; // 0xA8
 		::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Light*>*>* _layeredEffectLights; // 0xB0
 		::Il2CppArray<::UnityEngine::Renderer*>* _renderers; // 0xB8
@@ -175,48 +177,51 @@ namespace MoleMole
 		::Il2CppArray<::UnityEngine::ParticleSystem*>* _particleSys; // 0xC8
 		::MoleMole::EffectSimulate::NapEffectSimulatorMgr* _SimulatorMgr; // 0xD0
 		::UnityEngine::Animation* _effectAnimation; // 0xD8
-		::System::Boolean Field_5_35; // 0xE0
-		::Il2CppArray<::UnityEngine::Animation*>* Field_5_34; // 0xE8
-		::System::Boolean Field_5_33; // 0xF0
-		::MoleMole::MonoEffectExtensionBehaviour* Field_5_32; // 0xF8
-		::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController* _effectLogicController; // 0x100
-		::MoleMole::MonoEffectPluginAudio* _effectPluginAudio; // 0x108
-		::MoleMole::MonoEffectPluginDither* _effectPluginDither; // 0x110
-		::MoleMole::MonoEffectPluginFade* _effectPluginFade; // 0x118
-		::MoleMole::MonoEffectPluginFollow* _effectPluginFollow; // 0x120
-		::MoleMole::MonoEffectPluginDestroy* _effectPluginDestroy; // 0x128
-		::MoleMole::MonoEffectPluginAttachPoint* _effectPluginAttachPoint; // 0x130
-		::MoleMole::MonoEffectPluginScreenEffect* _effectPluginScreenEffect; // 0x138
-		::MoleMole::MonoEffectPluginTransform* _effectPluginTransform; // 0x140
-		::MoleMole::MonoEffectShape* _effectShape; // 0x148
-		::MoleMole::Battle::XWeaponTrailCustom* _effectWeapontrail; // 0x150
-		::MoleMole::MonoEffectPluginHitWall* _pluginHitWall; // 0x158
-		::MoleMole::MonoEffectPluginHitWallScratch* _pluginHitWallScratch; // 0x160
-		::MoleMole::MonoEffectPluginHitWallBullet* _pluginHitWallBullet; // 0x168
-		::UnityEngine::PBDDeformer* _deformer; // 0x170
-		::MoleMole::MonoEffectPluginGroundLighting* _effectPluginGroundLighting; // 0x178
-		::MoleMole::MonoEffectSelfAttachPoint* _effectSelfAttachPoint; // 0x180
-		::MoleMole::MonoEffectPluginLaserLineRenderers* _effectPluginLaserLineRenderers; // 0x188
-		::MoleMole::MonoEffectPluginAttachToCamera* _effectPluginAttachToCamera; // 0x190
-		::MoleMole::MonoEffectPluginClipPlane* _effectPluginClipPlane; // 0x198
-		::Il2CppArray<::MoleMole::DynamicBoneParaSwitch*>* _dynamicBoneParaSwitches; // 0x1A0
-		::MoleMole::MonoEffectPluginFollowCamera* _effectPluginFollowCamera; // 0x1A8
-		::MoleMole::MonoEffectPluginConstantScreenSize* _effectPluginConstantScreenSize; // 0x1B0
-		::MoleMole::MonoEffectPluginSyncEntityPos* _effectPluginSyncEntityPos; // 0x1B8
-		::MoleMole::MonoEffectPluginStateAnimation* _effectPluginStateAnimation; // 0x1C0
-		::MoleMole::MonoEffect_Enum_3_F8BBB3B7E922E8A1 Field_5_62; // 0x1C8
-		::Class_0_16E4307DCC419505_452* Field_5_61; // 0x1D0
-		::System::Boolean Field_5_60; // 0x1D8
-		::Il2CppArray<::UnityEngine::Material*>* Field_5_67; // 0x1E0
-		::MoleMole::Battle::Entity* Field_5_66; // 0x1E8
-		::Class_3_D6DA183EF60F02C8* Field_5_65; // 0x1F0
-		::System::Boolean IsBehavioursCached; // 0x1F8
-		::Il2CppArray<::UnityEngine::Renderer*>* _cacheRenderersToEnable; // 0x200
-		::Il2CppArray<::UnityEngine::Behaviour*>* _cachedBehaviours; // 0x208
-		::MoleMole::MonoEffectRuntimeDataCache RuntimeDataCache; // 0x210
-		::Struct_2_9E75F47F2670B678 RenderersThatNeedTimeOffsetMaterial; // 0x288
-		::UnityEngine::Vector3 Field_5_75; // 0x2C8
-		::UnityEngine::Vector3 Field_5_74; // 0x2D4
+		::System::Boolean GPAMFJJOLHP; // 0xE0
+		::System::Byte _padding5[0x7];
+		::Il2CppArray<::UnityEngine::Animation*>* ODBDDDICMBE; // 0xE8
+		::MoleMole::MonoEffectExtensionBehaviour* _MonoEffectExtensionBehaviour; // 0xF0
+		::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController* _effectLogicController; // 0xF8
+		::MoleMole::MonoEffectPluginAudio* _effectPluginAudio; // 0x100
+		::MoleMole::MonoEffectPluginDither* _effectPluginDither; // 0x108
+		::MoleMole::MonoEffectPluginFade* _effectPluginFade; // 0x110
+		::MoleMole::MonoEffectPluginFollow* _effectPluginFollow; // 0x118
+		::MoleMole::MonoEffectPluginDestroy* _effectPluginDestroy; // 0x120
+		::MoleMole::MonoEffectPluginAttachPoint* _effectPluginAttachPoint; // 0x128
+		::MoleMole::MonoEffectPluginScreenEffect* _effectPluginScreenEffect; // 0x130
+		::MoleMole::MonoEffectPluginTransform* _effectPluginTransform; // 0x138
+		::MoleMole::MonoEffectShape* _effectShape; // 0x140
+		::MoleMole::Battle::XWeaponTrailCustom* _effectWeapontrail; // 0x148
+		::MoleMole::MonoEffectPluginHitWall* _pluginHitWall; // 0x150
+		::MoleMole::MonoEffectPluginHitWallScratch* _pluginHitWallScratch; // 0x158
+		::MoleMole::MonoEffectPluginHitWallBullet* _pluginHitWallBullet; // 0x160
+		::UnityEngine::PBDDeformer* _deformer; // 0x168
+		::MoleMole::MonoEffectPluginGroundLighting* _effectPluginGroundLighting; // 0x170
+		::MoleMole::MonoEffectSelfAttachPoint* _effectSelfAttachPoint; // 0x178
+		::MoleMole::MonoEffectPluginLaserLineRenderers* _effectPluginLaserLineRenderers; // 0x180
+		::MoleMole::MonoEffectPluginAttachToCamera* _effectPluginAttachToCamera; // 0x188
+		::MoleMole::MonoEffectPluginClipPlane* _effectPluginClipPlane; // 0x190
+		::Il2CppArray<::MoleMole::DynamicBoneParaSwitch*>* _dynamicBoneParaSwitches; // 0x198
+		::MoleMole::MonoEffectPluginFollowCamera* _effectPluginFollowCamera; // 0x1A0
+		::MoleMole::MonoEffectPluginConstantScreenSize* _effectPluginConstantScreenSize; // 0x1A8
+		::MoleMole::MonoEffectPluginSyncEntityPos* _effectPluginSyncEntityPos; // 0x1B0
+		::MoleMole::MonoEffectPluginStateAnimation* _effectPluginStateAnimation; // 0x1B8
+		::MoleMole::MonoEffect_AJCEGOLPCEE BKMIDBIHNLJ; // 0x1C0
+		::System::Byte _padding6[0x4];
+		::GIPLLNOAECM* AFKGMLBJMMO; // 0x1C8
+		::System::Boolean CEPNKGFFMNF; // 0x1D0
+		::System::Byte _padding7[0x7];
+		::Il2CppArray<::UnityEngine::Material*>* PHGNAAFKDNK; // 0x1D8
+		::MoleMole::Battle::Entity* _MPGMBGLCGOK_k__BackingField; // 0x1E0
+		::AEMCAOEICDG* _NLDGDGEMNOB_k__BackingField; // 0x1E8
+		::System::Boolean IsBehavioursCached; // 0x1F0
+		::System::Byte _padding8[0x7];
+		::Il2CppArray<::UnityEngine::Renderer*>* _cacheRenderersToEnable; // 0x1F8
+		::Il2CppArray<::UnityEngine::Behaviour*>* _cachedBehaviours; // 0x200
+		::MoleMole::MonoEffectRuntimeDataCache RuntimeDataCache; // 0x208
+		::MCKCKBEGCCM RenderersThatNeedTimeOffsetMaterial; // 0x290
+		::UnityEngine::Vector3 GFNAJECLBDB; // 0x2D0
+		::UnityEngine::Vector3 JGKJAINABBD; // 0x2DC
 
 		::System::Void _ctor()
 		{
@@ -423,9 +428,9 @@ namespace MoleMole
 			return ((::MoleMole::MonoEffectPluginStateAnimation*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_GET_EFFECTPLUGINSTATEANIMATION_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_452* get_PolygonBehavior()
+		::GIPLLNOAECM* get_PolygonBehavior()
 		{
-			return ((::Class_0_16E4307DCC419505_452*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_GET_POLYGONBEHAVIOR_OFFSET))(this);
+			return ((::GIPLLNOAECM*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_GET_POLYGONBEHAVIOR_OFFSET))(this);
 		}
 
 		::MoleMole::Battle::Entity* get_casterEntity()
@@ -433,29 +438,29 @@ namespace MoleMole
 			return ((::MoleMole::Battle::Entity*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_GET_CASTERENTITY_OFFSET))(this);
 		}
 
-		::System::Void set_casterEntity(::MoleMole::Battle::Entity* a1)
+		::System::Void set_casterEntity(::MoleMole::Battle::Entity* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_SET_CASTERENTITY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_SET_CASTERENTITY_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::Class_3_D6DA183EF60F02C8* get_effectModelComponent()
+		::AEMCAOEICDG* get_effectModelComponent()
 		{
-			return ((::Class_3_D6DA183EF60F02C8*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_GET_EFFECTMODELCOMPONENT_OFFSET))(this);
+			return ((::AEMCAOEICDG*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_GET_EFFECTMODELCOMPONENT_OFFSET))(this);
 		}
 
-		::System::Void set_effectModelComponent(::Class_3_D6DA183EF60F02C8* a1)
+		::System::Void set_effectModelComponent(::AEMCAOEICDG* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_D6DA183EF60F02C8*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_SET_EFFECTMODELCOMPONENT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::AEMCAOEICDG*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_SET_EFFECTMODELCOMPONENT_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::UnityEngine::Material* GetCachedMaterial(::System::Int32 a1)
+		::UnityEngine::Material* GetCachedMaterial(::System::Int32 ABHBKFJKINO)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_GETCACHEDMATERIAL_OFFSET))(this, a1);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_GETCACHEDMATERIAL_OFFSET))(this, ABHBKFJKINO);
 		}
 
-		::UnityEngine::Material* GetSharedMaterial(::System::Int32 a1)
+		::UnityEngine::Material* GetSharedMaterial(::System::Int32 ABHBKFJKINO)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_GETSHAREDMATERIAL_OFFSET))(this, a1);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_GETSHAREDMATERIAL_OFFSET))(this, ABHBKFJKINO);
 		}
 
 		::Il2CppArray<::UnityEngine::Renderer*>* get_CachedRenderersToEnable()
@@ -488,19 +493,19 @@ namespace MoleMole
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_GET_FINALANGLEOFFSET_OFFSET))(this);
 		}
 
-		::System::Void SetAttach(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
+		::System::Void SetAttach(::UnityEngine::Vector3 ODNKEAPMILG, ::UnityEngine::Vector3 GEDCCBHAEDM)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_SETATTACH_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_SETATTACH_OFFSET))(this, ODNKEAPMILG, GEDCCBHAEDM);
 		}
 
-		::System::Void InitParticles(::System::Single a1, ::System::Boolean a2)
+		::System::Void InitParticles(::System::Single CAOPDAMCNCN, ::System::Boolean HFEDICLFPKO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_INITPARTICLES_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_INITPARTICLES_OFFSET))(this, CAOPDAMCNCN, HFEDICLFPKO);
 		}
 
-		::System::Void ClearParticleSystems(::System::Boolean a1)
+		::System::Void ClearParticleSystems(::System::Boolean HKLFOAJLIAE)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_CLEARPARTICLESYSTEMS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_CLEARPARTICLESYSTEMS_OFFSET))(this, HKLFOAJLIAE);
 		}
 
 		::System::Void ClearRender()
@@ -513,9 +518,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_RESETPLAYSTATE_OFFSET))(this);
 		}
 
-		::System::Void SetComponentsActive(::System::Boolean a1)
+		::System::Void SetComponentsActive(::System::Boolean FIPHFGHNNBE)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_SETCOMPONENTSACTIVE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_SETCOMPONENTSACTIVE_OFFSET))(this, FIPHFGHNNBE);
 		}
 
 		::System::Void DoCacheBehaviours()
@@ -528,54 +533,54 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_UPDATECACHESERIALIZEDATA_OFFSET))(this);
 		}
 
-		::System::Void Method_5_C5E0D2AA3A5BB59B()
+		::System::Void LMBNMDHGDPL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_METHOD_5_C5E0D2AA3A5BB59B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_LMBNMDHGDPL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_4343F372F34C05BF()
+		::System::Void BBNIOPNBLKG(::System::Boolean FBILHHBPEHD)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_METHOD_5_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_BBNIOPNBLKG_OFFSET))(this, FBILHHBPEHD);
 		}
 
-		::System::Void Method_5_071850D2764E9D4C()
+		::System::Void JMPNKFCKKFG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_METHOD_5_071850D2764E9D4C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_JMPNKFCKKFG_OFFSET))(this);
 		}
 
-		::System::Void Method_5_CA373AA1C7054598()
+		::System::Void LCGBGGOFBGD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_METHOD_5_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_LCGBGGOFBGD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_F978A1D172468895()
+		::System::Void LOFMNKAMILC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_METHOD_5_F978A1D172468895_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_LOFMNKAMILC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9681042564541CD6()
+		::System::Void GHJPIBKPGGF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_METHOD_5_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_GHJPIBKPGGF_OFFSET))(this);
 		}
 
-		::System::Void Method_5_89D1F247B9D324EE()
+		::System::Void DLIDBNKMKCO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_METHOD_5_89D1F247B9D324EE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_DLIDBNKMKCO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_4CD1124C71DEC91E(::System::Boolean a1)
+		::System::Void AJEEBNCNHMN()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_METHOD_5_4CD1124C71DEC91E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_AJEEBNCNHMN_OFFSET))(this);
 		}
 
-		::System::Void Method_5_F4ADC37B63F4E9EF()
+		::System::Void EDFNIGBCOGK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_METHOD_5_F4ADC37B63F4E9EF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_EDFNIGBCOGK_OFFSET))(this);
 		}
 
-		::System::Void Method_5_E69AA2E64A20143D()
+		::System::Void COLGFJCOBBE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_METHOD_5_E69AA2E64A20143D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECT_COLGFJCOBBE_OFFSET))(this);
 		}
 	};
 }

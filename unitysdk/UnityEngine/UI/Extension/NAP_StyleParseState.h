@@ -8,22 +8,26 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_UI_EXTENSION_NAP_STYLEPARSESTATE_BUILDSTYLEFLAGS_OFFSET UNITYSDK_OFFSET(0xA3DE80)
-#define UNITYENGINE_UI_EXTENSION_NAP_STYLEPARSESTATE_GET_CURRENTHIGHLIGHTSTATE_OFFSET UNITYSDK_OFFSET(0xA3DD90)
-#define UNITYENGINE_UI_EXTENSION_NAP_STYLEPARSESTATE_GET_CURRENTPOINTSIZE_OFFSET UNITYSDK_OFFSET(0xA3DE10)
-#define UNITYENGINE_UI_EXTENSION_NAP_STYLEPARSESTATE_GET_MARKDEPTH_OFFSET UNITYSDK_OFFSET(0xA3DD80)
+#define UNITYENGINE_UI_EXTENSION_NAP_STYLEPARSESTATE_BUILDSTYLEFLAGS_OFFSET UNITYSDK_OFFSET(0x961220)
+#define UNITYENGINE_UI_EXTENSION_NAP_STYLEPARSESTATE_GET_CURRENTHIGHLIGHTSTATE_OFFSET UNITYSDK_OFFSET(0x961130)
+#define UNITYENGINE_UI_EXTENSION_NAP_STYLEPARSESTATE_GET_CURRENTPOINTSIZE_OFFSET UNITYSDK_OFFSET(0x9611B0)
+#define UNITYENGINE_UI_EXTENSION_NAP_STYLEPARSESTATE_GET_MARKDEPTH_OFFSET UNITYSDK_OFFSET(0x93C290)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NAP_StyleParseState_TypeDefinitionIndex = 55641;
+	inline static constexpr unsigned int NAP_StyleParseState_TypeDefinitionIndex = 68153;
 
 	struct alignas(8) NAP_StyleParseState
 	{
 		::UnityEngine::UI::Extension::NAP_FontStyleStack fontStyleStack; // 0x10
+		::System::Byte _padding0[0x1];
 		::UnityEngine::UI::Extension::NAP_CharStyleFlags fontStyleInternal; // 0x16
 		::UnityEngine::UI::Extension::NAP_TextProcessingStack_1<::UnityEngine::UI::Extension::NAP_HighlightState> highlightStateStack; // 0x18
+		::System::Byte _padding1[0x28];
 		::UnityEngine::UI::Extension::NAP_TextProcessingStack_1<::System::Single> sizeStack; // 0x48
+		::System::Byte _padding2[0x18];
 		::System::Int32 pendingLinkStartGi; // 0x68
+		::System::Byte _padding3[0x4];
 		::System::String* pendingLinkId; // 0x70
 
 		::System::Int32 get_markDepth()

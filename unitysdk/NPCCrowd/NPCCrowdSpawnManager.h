@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/MoleMole/Config/CharacterFadeDitheringDataV2.h"
-#include "unitysdk/NPCCrowd/Lod/ConditionData.h"
 #include "unitysdk/NPCCrowd/NPCCrowdModuleManagerBase.h"
-#include "unitysdk/NPCCrowd/NPCCrowdSpawnManager_CrowdPoolKey.h"
-#include "unitysdk/NPCCrowd/NPCCrowdSpawnManager_FarthestDespawnCandidate.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Collections/NativeList_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
+#include "unitysdk/NPCCrowd/Lod/ConditionData.h"
+#include "unitysdk/NPCCrowd/NPCCrowdSpawnManager_CrowdPoolKey.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_F2DAD7F45F518868;
+class COCJHGGDBCA;
 namespace MoleMole::Battle { class Entity; }
 namespace NPCCrowd { class NPCCrowdSpawnManager_SpawnedNpcInfo; }
 namespace NPCCrowd { class NPCIDGeneratorInt; }
+namespace NPCCrowd { class NPCPathGraphManager; }
 namespace NPCCrowd { class NPCSpawnConfigSO; }
 namespace NPCCrowd { class NPCSpawnPointRuntime; }
 namespace NPCCrowd { class SpawnRangeConfig; }
@@ -23,161 +23,169 @@ namespace NPCCrowd::AI { class SpawnPoint; }
 namespace NPCCrowd::AI { class SpawnPointGroup; }
 namespace NPCCrowd::Lod { class INPCCrowdDistanceCheckInterface; }
 namespace NPCCrowd::Lod { class NPCCrowdDistanceManager_NpcCrowdDistanceCheck; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_ADDROADCROWDENTITY_OFFSET UNITYSDK_OFFSET(0x12D31E80)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_ADDSPAWNEDNPC_OFFSET UNITYSDK_OFFSET(0x12D34E40)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_APPLYLIGHTMODERECYCLESTATE_OFFSET UNITYSDK_OFFSET(0x12D30810)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_APPLYLIGHTMODEREUSESTATE_OFFSET UNITYSDK_OFFSET(0x12D2FBF0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_APPLYNPCLIMITRATIO_OFFSET UNITYSDK_OFFSET(0x12D321A0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_CHECKDESPAWN_OFFSET UNITYSDK_OFFSET(0x12D342E0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_CHECKSPAWNINFODESPAWN_OFFSET UNITYSDK_OFFSET(0x12D36110)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_CHECKSPAWN_OFFSET UNITYSDK_OFFSET(0x12D34AC0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_CLEARPOOLONSECTIONCHANGE_OFFSET UNITYSDK_OFFSET(0x12D2F0C0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_CLEAR_OFFSET UNITYSDK_OFFSET(0x12D33160)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_DEBUGSPAWNNPCATPLAYERPOSITION_OFFSET UNITYSDK_OFFSET(0x12D379A0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_DELAYDESPAWNENTITY_OFFSET UNITYSDK_OFFSET(0x12D35AA0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_DESPAWNFARTHEST_1_OFFSET UNITYSDK_OFFSET(0x12D35BF0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_DESPAWNFARTHEST_OFFSET UNITYSDK_OFFSET(0x12D35B90)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_DISTANCECALLBACK_OFFSET UNITYSDK_OFFSET(0x12D37030)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_ENABLESPAWN_OFFSET UNITYSDK_OFFSET(0x12D32330)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_EVICTLEASTRECENTLYUSEDPOOL_OFFSET UNITYSDK_OFFSET(0x12D30B60)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_FORCEDESTROYPOOLEDENTITY_OFFSET UNITYSDK_OFFSET(0x12D300D0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_GETSPAWNCOUNT_OFFSET UNITYSDK_OFFSET(0x12D34DA0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_GETSPAWNINFO_OFFSET UNITYSDK_OFFSET(0x12D34C90)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_GETSPAWNPOINTSBYPATH_OFFSET UNITYSDK_OFFSET(0x12D38D40)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_GETSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x12D38C30)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_GETSPAWNRANGECONFIG_OFFSET UNITYSDK_OFFSET(0x12D36770)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_GETVALIDSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x12D35190)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_GET_CURRENTCROWDCOUNT_OFFSET UNITYSDK_OFFSET(0x12D32140)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x12D31FC0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x12D32990)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_ISDELAYDESPAWNPATHNODE_OFFSET UNITYSDK_OFFSET(0x12D365D0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_ISPOOLOPTIMIZATIONENABLED_OFFSET UNITYSDK_OFFSET(0x12D2EFC0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_ISREPEATABLEAVATARID_OFFSET UNITYSDK_OFFSET(0x12D2FA90)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_ISVALIDPOOLEDNPC_OFFSET UNITYSDK_OFFSET(0x12D2FB50)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_MERGEPOINTVALIDRESULTS_OFFSET UNITYSDK_OFFSET(0x12D34190)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_ONCROWDENTITYADD_OFFSET UNITYSDK_OFFSET(0x12D36ED0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_ONCROWDENTITYREMOVE_OFFSET UNITYSDK_OFFSET(0x12D31530)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12D32CC0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_ONPATHLIMITCHANGED_OFFSET UNITYSDK_OFFSET(0x12D368E0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x12D324F0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x12D323C0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_PREUPDATE_OFFSET UNITYSDK_OFFSET(0x12D33780)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_REFRESHDELAYDESPAWNPATHNODECACHE_OFFSET UNITYSDK_OFFSET(0x12D32B10)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_REFRESHPOOLOPTIMIZATIONSWITCH_OFFSET UNITYSDK_OFFSET(0x12D2F010)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_REGISTERATTRACTORSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x12D37EE0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_REGISTERLOD_OFFSET UNITYSDK_OFFSET(0x12D31B20)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_REGISTERPATHSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x12D38130)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_REGISTERSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x12D38390)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_RELEASEPOPULATIONUSAGE_OFFSET UNITYSDK_OFFSET(0x12D31820)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_REMOVEENTITYFROMPOOLBYKEY_OFFSET UNITYSDK_OFFSET(0x12D30FD0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_REMOVEENTITYFROMPOOLONENTITYREMOVE_OFFSET UNITYSDK_OFFSET(0x12D30F10)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_REMOVEROADCROWDENTITY_OFFSET UNITYSDK_OFFSET(0x12D31960)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_RESETFADESTATE_OFFSET UNITYSDK_OFFSET(0x12D31A90)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_RESETPATHGRAPHSTATEFORRECYCLE_OFFSET UNITYSDK_OFFSET(0x12D313A0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_SETABILITYUSINGSTATE_OFFSET UNITYSDK_OFFSET(0x12D31220)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_SETSPAWNPOINTBLOCKED_OFFSET UNITYSDK_OFFSET(0x12D38AE0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_SHOULDQUEUEFADEFOROUTRANGE_OFFSET UNITYSDK_OFFSET(0x12D364D0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0x12D32240)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_SPAWNINITNPC_OFFSET UNITYSDK_OFFSET(0x12D372D0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_SPAWNNPC_OFFSET UNITYSDK_OFFSET(0x12D35370)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_STARTFADE_OFFSET UNITYSDK_OFFSET(0x12D35800)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_TRYACQUIREPOOLEDCROWDENTITY_OFFSET UNITYSDK_OFFSET(0x12D2F6E0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_TRYGETSPAWNNPCINFO_OFFSET UNITYSDK_OFFSET(0x12D36F20)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_TRYQUEUEFADE_OFFSET UNITYSDK_OFFSET(0x12D363A0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_TRYRECYCLETOPOOLLIGHTMODE_OFFSET UNITYSDK_OFFSET(0x12D30460)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_TRYSPAWNNPC_OFFSET UNITYSDK_OFFSET(0x12D36640)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_UNREGISTERLOD_OFFSET UNITYSDK_OFFSET(0x12D31700)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_UNREGISTERPATHSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x12D38940)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_UNREGISTERSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x12D38650)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_UPDATEDESPAWN_OFFSET UNITYSDK_OFFSET(0x12D33BE0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_UPDATEGLOBALPERCENTPOINTWEIGHTS_OFFSET UNITYSDK_OFFSET(0x12D346F0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_UPDATEPOINTVALID_OFFSET UNITYSDK_OFFSET(0x12D33900)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x12D34030)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER_WAIT_OFFSET UNITYSDK_OFFSET(0x12D30E90)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12D39370)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x12D38E20)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0x12D393F0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12D39480)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER___BASE_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x12D39510)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER___BASE_PREUPDATE_OFFSET UNITYSDK_OFFSET(0x12D395A0)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER___BASE_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0x12D39640)
-#define NPCCROWD_NPCCROWDSPAWNMANAGER___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x12D396D0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ADDROADCROWDENTITY_OFFSET UNITYSDK_OFFSET(0x14F35170)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ADDSPAWNEDNPC_OFFSET UNITYSDK_OFFSET(0x14F38400)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_APPLYLIGHTMODERECYCLESTATE_OFFSET UNITYSDK_OFFSET(0x14F33ED0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_APPLYLIGHTMODEREUSESTATE_OFFSET UNITYSDK_OFFSET(0x14F33330)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_APPLYNPCLIMITRATIO_OFFSET UNITYSDK_OFFSET(0x14F35490)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_BEGINPOINTJOBREADPHASE_OFFSET UNITYSDK_OFFSET(0x14F3BF90)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_CHECKDESPAWN_OFFSET UNITYSDK_OFFSET(0x14F378A0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_CHECKSPAWNINFODESPAWN_OFFSET UNITYSDK_OFFSET(0x14F396E0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_CHECKSPAWN_OFFSET UNITYSDK_OFFSET(0x14F38080)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_CLEARPOOLONSECTIONCHANGE_OFFSET UNITYSDK_OFFSET(0x14F32800)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_CLEAR_OFFSET UNITYSDK_OFFSET(0x14F364A0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_COMPLETEPOINTJOB_OFFSET UNITYSDK_OFFSET(0x14F37650)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_DEBUGSPAWNNPCATPLAYERPOSITION_OFFSET UNITYSDK_OFFSET(0x14F3AB80)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_DELAYDESPAWNENTITY_OFFSET UNITYSDK_OFFSET(0x14F39070)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_DESPAWNFARTHEST_1_OFFSET UNITYSDK_OFFSET(0x14F391B0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_DESPAWNFARTHEST_OFFSET UNITYSDK_OFFSET(0x14F39150)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_DISTANCECALLBACK_OFFSET UNITYSDK_OFFSET(0x14F3A200)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ENABLESPAWN_OFFSET UNITYSDK_OFFSET(0x14F35620)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ENSURESPAWNEDARRAYCAPACITY_OFFSET UNITYSDK_OFFSET(0x14F3C070)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_EVICTLEASTRECENTLYUSEDPOOL_OFFSET UNITYSDK_OFFSET(0x14F34220)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_FORCEDESTROYPOOLEDENTITY_OFFSET UNITYSDK_OFFSET(0x14F33790)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_GETSPAWNCOUNT_OFFSET UNITYSDK_OFFSET(0x14F38360)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_GETSPAWNINFO_OFFSET UNITYSDK_OFFSET(0x14F38250)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_GETSPAWNPOINTSBYPATH_OFFSET UNITYSDK_OFFSET(0x14F3BEB0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_GETSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x14F3BDA0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_GETSPAWNRANGECONFIG_OFFSET UNITYSDK_OFFSET(0x14F39D50)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_GETVALIDSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x14F38750)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_GET_CURRENTCROWDCOUNT_OFFSET UNITYSDK_OFFSET(0x14F35430)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x14F352B0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x14F35C90)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ISDELAYDESPAWNPATHNODE_OFFSET UNITYSDK_OFFSET(0x14F39BB0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ISPOOLOPTIMIZATIONENABLED_OFFSET UNITYSDK_OFFSET(0x14F32700)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ISREPEATABLEAVATARID_OFFSET UNITYSDK_OFFSET(0x14F331D0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ISVALIDPOOLEDNPC_OFFSET UNITYSDK_OFFSET(0x14F33290)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_MERGEPOINTVALIDRESULTS_OFFSET UNITYSDK_OFFSET(0x14F37750)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ONCROWDENTITYADD_OFFSET UNITYSDK_OFFSET(0x14F3A0A0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ONCROWDENTITYREMOVE_OFFSET UNITYSDK_OFFSET(0x14F34BF0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14F35FC0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ONPATHLIMITCHANGED_OFFSET UNITYSDK_OFFSET(0x14F39ED0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x14F357F0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x14F356B0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_PREUPDATE_OFFSET UNITYSDK_OFFSET(0x14F36BA0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_REFRESHDELAYDESPAWNPATHNODECACHE_OFFSET UNITYSDK_OFFSET(0x14F35E10)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_REFRESHPOOLOPTIMIZATIONSWITCH_OFFSET UNITYSDK_OFFSET(0x14F32750)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_REGISTERATTRACTORSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x14F3B0C0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_REGISTERPATHSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x14F3B300)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_REGISTERSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x14F3B560)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_RELEASEPOPULATIONUSAGE_OFFSET UNITYSDK_OFFSET(0x14F34E10)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_REMOVEENTITYFROMPOOLBYKEY_OFFSET UNITYSDK_OFFSET(0x14F34680)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_REMOVEENTITYFROMPOOLONENTITYREMOVE_OFFSET UNITYSDK_OFFSET(0x14F345C0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_REMOVEROADCROWDENTITY_OFFSET UNITYSDK_OFFSET(0x14F34F50)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_RESETFADESTATE_OFFSET UNITYSDK_OFFSET(0x14F35080)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_RESETPATHGRAPHSTATEFORRECYCLE_OFFSET UNITYSDK_OFFSET(0x14F34A40)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_SETABILITYUSINGSTATE_OFFSET UNITYSDK_OFFSET(0x14F348C0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_SETSPAWNPOINTBLOCKED_OFFSET UNITYSDK_OFFSET(0x14F3BC60)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_SHOULDQUEUEFADEFOROUTRANGE_OFFSET UNITYSDK_OFFSET(0x14F39AB0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0x14F35530)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_SPAWNINITNPC_OFFSET UNITYSDK_OFFSET(0x14F3A4B0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_SPAWNNPC_OFFSET UNITYSDK_OFFSET(0x14F38940)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_STARTFADE_OFFSET UNITYSDK_OFFSET(0x14F38DD0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_TRYACQUIREPOOLEDCROWDENTITY_OFFSET UNITYSDK_OFFSET(0x14F32E10)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_TRYGETSPAWNNPCINFO_OFFSET UNITYSDK_OFFSET(0x14F3A0F0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_TRYQUEUEFADE_OFFSET UNITYSDK_OFFSET(0x14F39980)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_TRYRECYCLETOPOOLLIGHTMODE_OFFSET UNITYSDK_OFFSET(0x14F33B20)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_TRYSPAWNNPC_OFFSET UNITYSDK_OFFSET(0x14F39C20)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_UNREGISTERPATHSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x14F3BAC0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_UNREGISTERSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x14F3B800)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_UPDATEDESPAWN_OFFSET UNITYSDK_OFFSET(0x14F37060)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_UPDATEGLOBALPERCENTPOINTWEIGHTS_OFFSET UNITYSDK_OFFSET(0x14F37CB0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_UPDATEPOINTVALID_OFFSET UNITYSDK_OFFSET(0x14F36D10)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x14F374D0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER_WAIT_OFFSET UNITYSDK_OFFSET(0x14F34550)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F3C710)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x14F3C1C0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0x14F3C790)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14F3C820)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER___BASE_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0x14F3C8B0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER___BASE_PREUPDATE_OFFSET UNITYSDK_OFFSET(0x14F3C940)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER___BASE_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0x14F3C9E0)
+#define NPCCROWD_NPCCROWDSPAWNMANAGER___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x14F3CA70)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCCrowdSpawnManager_TypeDefinitionIndex = 48986;
+	inline static constexpr unsigned int NPCCrowdSpawnManager_TypeDefinitionIndex = 43256;
 
 	class NPCCrowdSpawnManager : public ::NPCCrowd::NPCCrowdModuleManagerBase
 	{
 	public:
-		static ::Foundation::AssetRequestHandle* StaticGet__configAssetRequest()
-		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0x43330);
-		}
 		static ::System::String** StaticGet_SpawnConfigPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0x43350);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0x49100);
 		}
-		static ::System::Collections::Generic::IComparer_1<::NPCCrowd::NPCCrowdSpawnManager_FarthestDespawnCandidate>** StaticGet_s_farthestDespawnCandidateComparer()
+		static ::System::Collections::Generic::IComparer_1<::System::Object*>** StaticGet_s_farthestDespawnCandidateComparer()
 		{
-			return (::System::Collections::Generic::IComparer_1<::NPCCrowd::NPCCrowdSpawnManager_FarthestDespawnCandidate>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0x43358);
+			return (::System::Collections::Generic::IComparer_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0x49108);
 		}
-		static ::System::Single* StaticGet_NPCLimitRatio()
+		static ::Foundation::AssetRequestHandle* StaticGet__configAssetRequest()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0xFAF0);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0x49110);
 		}
 		static ::System::Single* StaticGet_GlobalSpawnInterval()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0xFAF4);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0x110D0);
+		}
+		static ::System::Single* StaticGet_NPCLimitRatio()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0x110D4);
 		}
 		static ::System::Boolean* StaticGet_DebugSpawnAtPlayerOnInit()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0xFAF8);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0x110D8);
 		}
 		static ::System::Boolean* StaticGet_enableSpawn()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0xFAF9);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0x110D9);
 		}
 		static ::System::Boolean* StaticGet_SpawnPointNoLimit()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0xFAFA);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdSpawnManager_TypeDefinitionIndex)->GetStaticField(0x110DA);
 		}
 		// static const ::System::String* FadeDitherKey; // 0x0
 		// static const ::System::Int32 MAX_NPCCROWD_COUNT = 0xFA; // 0x0
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _pooledStateTreeIndexBackup; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::NPCCrowdSpawnManager_SpawnedNpcInfo*>* _spawnedNpcList; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::NPCCrowdSpawnManager_SpawnedNpcInfo*>* _spawnedNpcListCache; // 0x28
-		::NPCCrowd::Lod::NPCCrowdDistanceManager_NpcCrowdDistanceCheck* distanceCallback; // 0x30
-		::System::Collections::Generic::HashSet_1<::System::Int32>* _delayDespawnPathNodeIDSet; // 0x38
-		::System::Collections::Generic::List_1<::NPCCrowd::NPCCrowdSpawnManager_CrowdPoolKey>* _emptyPoolKeysCache; // 0x40
-		::NPCCrowd::NPCIDGeneratorInt* IDGen; // 0x48
-		::System::Collections::Generic::List_1<::NPCCrowd::NPCSpawnPointRuntime*>* allSpawnPointRuntimesCache; // 0x50
-		::System::Collections::Generic::List_1<::NPCCrowd::NPCCrowdSpawnManager_SpawnedNpcInfo*>* delayFadeIDs; // 0x58
-		::System::Collections::Generic::List_1<::NPCCrowd::NPCSpawnPointRuntime*>* validNPCSpawnPoints; // 0x60
-		::System::Collections::Generic::List_1<::NPCCrowd::NPCCrowdSpawnManager_FarthestDespawnCandidate>* _farthestDespawnCandidates; // 0x68
-		::NPCCrowd::NPCSpawnConfigSO* _configSO; // 0x70
-		::MoleMole::Config::CharacterFadeDitheringDataV2 ditherData; // 0x78
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::NPCSpawnPointRuntime*>* allSpawnPointRuntimes; // 0xA0
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* delayDespawnIDs; // 0xA8
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::NPCCrowdSpawnManager_CrowdPoolKey, ::System::Single>* _poolKeyLastUsedTime; // 0xB0
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::NPCCrowdSpawnManager_CrowdPoolKey, ::System::Collections::Generic::List_1<::Class_3_F2DAD7F45F518868*>*>* _crowdEntityPool; // 0xB8
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* entityID2Handler; // 0xC0
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::NPCCrowd::NPCSpawnPointRuntime*>*>* _pathID2SpawnPoints; // 0xC8
-		::System::Single _spawnTimer; // 0xD0
-		::Unity::Collections::NativeArray_1<::System::Int32> _spawnedPathNodeIDArray; // 0xD8
-		::Unity::Collections::NativeList_1<::System::Int32> spawnPointValidIndices; // 0xE8
-		::Unity::Jobs::JobHandle _pointJobHandle; // 0xF8
-		::System::Single validPointWeight; // 0x108
-		::System::Boolean _isPoolOptimizationEnabled; // 0x10C
-		::Unity::Jobs::JobHandle _despawnJobHandle; // 0x110
-		::Unity::Collections::NativeArray_1<::System::Int32> spawnPointKey; // 0x120
-		::Unity::Collections::NativeArray_1<::System::UInt32> _spawnedNpcArray; // 0x130
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::NPCSpawnPointRuntime*>* allSpawnPointRuntimes; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::Int32>* _delayDespawnPathNodeIDSet; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* delayDespawnIDs; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::NPCCrowd::NPCSpawnPointRuntime*>*>* _pathID2SpawnPoints; // 0x30
+		::NPCCrowd::Lod::NPCCrowdDistanceManager_NpcCrowdDistanceCheck* distanceCallback; // 0x38
+		::System::Collections::Generic::List_1<::System::Object*>* _emptyPoolKeysCache; // 0x40
+		::System::Collections::Generic::List_1<::NPCCrowd::NPCSpawnPointRuntime*>* validNPCSpawnPoints; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Single>* _poolKeyLastUsedTime; // 0x50
+		::System::Collections::Generic::List_1<::System::Object*>* _farthestDespawnCandidates; // 0x58
+		::NPCCrowd::NPCIDGeneratorInt* IDGen; // 0x60
+		::System::Collections::Generic::List_1<::System::Object*>* delayFadeIDs; // 0x68
+		::System::Collections::Generic::List_1<::NPCCrowd::NPCSpawnPointRuntime*>* allSpawnPointRuntimesCache; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* _spawnedNpcListCache; // 0x78
+		::MoleMole::Config::CharacterFadeDitheringDataV2 ditherData; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::List_1<::COCJHGGDBCA*>*>* _crowdEntityPool; // 0xA8
+		::NPCCrowd::NPCPathGraphManager* _pointJobReadPathGraphManager; // 0xB0
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* entityID2Handler; // 0xB8
+		::NPCCrowd::NPCSpawnConfigSO* _configSO; // 0xC0
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* _spawnedNpcList; // 0xC8
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _pooledStateTreeIndexBackup; // 0xD0
+		::Unity::Jobs::JobHandle _despawnJobHandle; // 0xD8
+		::System::Single validPointWeight; // 0xE8
+		::System::Byte _padding0[0x4];
+		::Unity::Collections::NativeList_1<::System::Int32> spawnPointValidIndices; // 0xF0
+		::System::Byte _padding1[0x8];
+		::System::Boolean _isPoolOptimizationEnabled; // 0x100
+		::System::Byte _padding2[0x3];
+		::System::Single _spawnTimer; // 0x104
+		::Unity::Jobs::JobHandle _pointJobHandle; // 0x108
+		::Unity::Collections::NativeArray_1<::System::UInt32> _spawnedNpcArray; // 0x118
+		::System::Byte _padding3[0x8];
+		::Unity::Collections::NativeArray_1<::System::Int32> spawnPointKey; // 0x128
+		::System::Byte _padding4[0x8];
+		::Unity::Collections::NativeArray_1<::System::Int32> _spawnedPathNodeIDArray; // 0x138
 
 		::System::Void _ctor()
 		{
@@ -199,14 +207,14 @@ namespace NPCCrowd
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_REFRESHPOOLOPTIMIZATIONSWITCH_OFFSET))(this);
 		}
 
-		::System::Boolean TryAcquirePooledCrowdEntity(::System::Int32 tagID, ::System::Int32 avatarID, ::Class_3_F2DAD7F45F518868*& npcComp, ::System::Int32 populationID, ::System::Boolean onlyRepeatable)
+		::System::Boolean TryAcquirePooledCrowdEntity(::System::Int32 tagID, ::System::Int32 avatarID, ::COCJHGGDBCA*& npcComp, ::System::Int32 populationID, ::System::Boolean onlyRepeatable)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32, ::Class_3_F2DAD7F45F518868*&, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_TRYACQUIREPOOLEDCROWDENTITY_OFFSET))(this, tagID, avatarID, npcComp, populationID, onlyRepeatable);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32, ::COCJHGGDBCA*&, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_TRYACQUIREPOOLEDCROWDENTITY_OFFSET))(this, tagID, avatarID, npcComp, populationID, onlyRepeatable);
 		}
 
-		::System::Boolean TryRecycleToPoolLightMode(::Class_3_F2DAD7F45F518868* npcComp, ::System::Boolean onlyRepeatable)
+		::System::Boolean TryRecycleToPoolLightMode(::COCJHGGDBCA* npcComp, ::System::Boolean onlyRepeatable)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_3_F2DAD7F45F518868*, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_TRYRECYCLETOPOOLLIGHTMODE_OFFSET))(this, npcComp, onlyRepeatable);
+			return ((::System::Boolean(*)(::PVOID, ::COCJHGGDBCA*, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_TRYRECYCLETOPOOLLIGHTMODE_OFFSET))(this, npcComp, onlyRepeatable);
 		}
 
 		::System::Void ClearPoolOnSectionChange()
@@ -214,9 +222,9 @@ namespace NPCCrowd
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_CLEARPOOLONSECTIONCHANGE_OFFSET))(this);
 		}
 
-		::System::Void RemoveEntityFromPoolOnEntityRemove(::Class_3_F2DAD7F45F518868* npcCmp)
+		::System::Void RemoveEntityFromPoolOnEntityRemove(::COCJHGGDBCA* npcCmp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_REMOVEENTITYFROMPOOLONENTITYREMOVE_OFFSET))(this, npcCmp);
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_REMOVEENTITYFROMPOOLONENTITYREMOVE_OFFSET))(this, npcCmp);
 		}
 
 		::System::Boolean RemoveEntityFromPoolByKey(::NPCCrowd::NPCCrowdSpawnManager_CrowdPoolKey key, ::System::UInt32 entityID)
@@ -234,49 +242,39 @@ namespace NPCCrowd
 			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_ISREPEATABLEAVATARID_OFFSET))(avatarID);
 		}
 
-		static ::System::Boolean IsValidPooledNpc(::Class_3_F2DAD7F45F518868* npcComp)
+		static ::System::Boolean IsValidPooledNpc(::COCJHGGDBCA* npcComp)
 		{
-			return ((::System::Boolean(*)(::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_ISVALIDPOOLEDNPC_OFFSET))(npcComp);
+			return ((::System::Boolean(*)(::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_ISVALIDPOOLEDNPC_OFFSET))(npcComp);
 		}
 
-		::System::Boolean ApplyLightModeRecycleState(::Class_3_F2DAD7F45F518868* npcComp)
+		::System::Boolean ApplyLightModeRecycleState(::COCJHGGDBCA* npcComp)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_APPLYLIGHTMODERECYCLESTATE_OFFSET))(this, npcComp);
+			return ((::System::Boolean(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_APPLYLIGHTMODERECYCLESTATE_OFFSET))(this, npcComp);
 		}
 
-		::System::Boolean ApplyLightModeReuseState(::Class_3_F2DAD7F45F518868* npcComp, ::System::Int32 populationID, ::System::Int32 avatarID)
+		::System::Boolean ApplyLightModeReuseState(::COCJHGGDBCA* npcComp, ::System::Int32 populationID, ::System::Int32 avatarID)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_3_F2DAD7F45F518868*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_APPLYLIGHTMODEREUSESTATE_OFFSET))(this, npcComp, populationID, avatarID);
+			return ((::System::Boolean(*)(::PVOID, ::COCJHGGDBCA*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_APPLYLIGHTMODEREUSESTATE_OFFSET))(this, npcComp, populationID, avatarID);
 		}
 
-		::System::Boolean SetAbilityUsingState(::Class_3_F2DAD7F45F518868* npcComp, ::System::Boolean isUsing)
+		::System::Boolean SetAbilityUsingState(::COCJHGGDBCA* npcComp, ::System::Boolean isUsing)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_3_F2DAD7F45F518868*, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_SETABILITYUSINGSTATE_OFFSET))(this, npcComp, isUsing);
+			return ((::System::Boolean(*)(::PVOID, ::COCJHGGDBCA*, ::System::Boolean))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_SETABILITYUSINGSTATE_OFFSET))(this, npcComp, isUsing);
 		}
 
-		static ::System::Void ReleasePopulationUsage(::Class_3_F2DAD7F45F518868* npcComp)
+		static ::System::Void ReleasePopulationUsage(::COCJHGGDBCA* npcComp)
 		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_RELEASEPOPULATIONUSAGE_OFFSET))(npcComp);
+			return ((::System::Void(*)(::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_RELEASEPOPULATIONUSAGE_OFFSET))(npcComp);
 		}
 
-		static ::System::Void ResetFadeState(::Class_3_F2DAD7F45F518868* npcComp)
+		static ::System::Void ResetFadeState(::COCJHGGDBCA* npcComp)
 		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_RESETFADESTATE_OFFSET))(npcComp);
+			return ((::System::Void(*)(::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_RESETFADESTATE_OFFSET))(npcComp);
 		}
 
-		static ::System::Void ResetPathGraphStateForRecycle(::Class_3_F2DAD7F45F518868* npcComp)
+		static ::System::Void ResetPathGraphStateForRecycle(::COCJHGGDBCA* npcComp)
 		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_RESETPATHGRAPHSTATEFORRECYCLE_OFFSET))(npcComp);
-		}
-
-		static ::System::Void UnregisterLod(::Class_3_F2DAD7F45F518868* npcComp)
-		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_UNREGISTERLOD_OFFSET))(npcComp);
-		}
-
-		static ::System::Void RegisterLod(::Class_3_F2DAD7F45F518868* npcComp)
-		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_REGISTERLOD_OFFSET))(npcComp);
+			return ((::System::Void(*)(::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_RESETPATHGRAPHSTATEFORRECYCLE_OFFSET))(npcComp);
 		}
 
 		static ::System::Void RemoveRoadCrowdEntity(::MoleMole::Battle::Entity* entity)
@@ -289,9 +287,9 @@ namespace NPCCrowd
 			return ((::System::Void(*)(::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_ADDROADCROWDENTITY_OFFSET))(entity);
 		}
 
-		::System::Void ForceDestroyPooledEntity(::Class_3_F2DAD7F45F518868* npcComp)
+		::System::Void ForceDestroyPooledEntity(::COCJHGGDBCA* npcComp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_FORCEDESTROYPOOLEDENTITY_OFFSET))(this, npcComp);
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_FORCEDESTROYPOOLEDENTITY_OFFSET))(this, npcComp);
 		}
 
 		static ::NPCCrowd::NPCCrowdSpawnManager* Get()
@@ -424,14 +422,14 @@ namespace NPCCrowd
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_ONPATHLIMITCHANGED_OFFSET))(this, pathID, limit);
 		}
 
-		::System::Void OnCrowdEntityAdd(::Class_3_F2DAD7F45F518868* npcCmp)
+		::System::Void OnCrowdEntityAdd(::COCJHGGDBCA* npcCmp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_ONCROWDENTITYADD_OFFSET))(this, npcCmp);
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_ONCROWDENTITYADD_OFFSET))(this, npcCmp);
 		}
 
-		::System::Void OnCrowdEntityRemove(::Class_3_F2DAD7F45F518868* npcCmp)
+		::System::Void OnCrowdEntityRemove(::COCJHGGDBCA* npcCmp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_ONCROWDENTITYREMOVE_OFFSET))(this, npcCmp);
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_ONCROWDENTITYREMOVE_OFFSET))(this, npcCmp);
 		}
 
 		::System::Boolean TryGetSpawnNPCInfo(::System::UInt32 entityID, ::NPCCrowd::NPCCrowdSpawnManager_SpawnedNpcInfo*& spawnedNpcInfo)
@@ -534,6 +532,11 @@ namespace NPCCrowd
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_UPDATEDESPAWN_OFFSET))(this, deltaTime);
 		}
 
+		::System::Void EnsureSpawnedArrayCapacity(::System::Int32 requiredCapacity)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_ENSURESPAWNEDARRAYCAPACITY_OFFSET))(this, requiredCapacity);
+		}
+
 		::NPCCrowd::NPCSpawnPointRuntime* GetValidSpawnPoint()
 		{
 			return ((::NPCCrowd::NPCSpawnPointRuntime*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_GETVALIDSPAWNPOINT_OFFSET))(this);
@@ -542,6 +545,16 @@ namespace NPCCrowd
 		::System::Void Wait()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_WAIT_OFFSET))(this);
+		}
+
+		::System::Void BeginPointJobReadPhase()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_BEGINPOINTJOBREADPHASE_OFFSET))(this);
+		}
+
+		::System::Void CompletePointJob()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_NPCCROWDSPAWNMANAGER_COMPLETEPOINTJOB_OFFSET))(this);
 		}
 
 		::System::Void __base_Init()

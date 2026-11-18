@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_DITHERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6ED40)
+#define MOLEMOLE_DITHERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B94B1A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DitherConfig_TypeDefinitionIndex = 52942;
+	inline static constexpr unsigned int DitherConfig_TypeDefinitionIndex = 59143;
 
 	class DitherConfig : public ::System::Object
 	{
 	public:
-		::System::String* MpReconnectDitherAlphaConfigKey; // 0x10
-		::System::String* PartDitherAlphaConfigName; // 0x18
-		::System::String* DitherAlphaConfigName; // 0x20
-		::System::String* MpDisconnectDitherAlphaConfigKey; // 0x28
-		::System::String* DitherAlphaConfigKey; // 0x30
-		::System::String* BornDitherAlphaConfigKey; // 0x38
-		::System::Boolean MpDisconnectDither; // 0x40
-		::System::Boolean MpReconnectDither; // 0x41
+		::System::String* MpDisconnectDitherAlphaConfigKey; // 0x10
+		::System::String* DitherAlphaConfigKey; // 0x18
+		::System::String* MpReconnectDitherAlphaConfigKey; // 0x20
+		::System::String* BornDitherAlphaConfigKey; // 0x28
+		::System::String* PartDitherAlphaConfigName; // 0x30
+		::System::String* DitherAlphaConfigName; // 0x38
+		::System::Boolean MpReconnectDither; // 0x40
+		::System::Boolean MpDisconnectDither; // 0x41
 		::System::Boolean BornDither; // 0x42
 		::System::Boolean AvatarUsingDitherAlpha; // 0x43
 		::System::Single DefaultDitherAlpha; // 0x44

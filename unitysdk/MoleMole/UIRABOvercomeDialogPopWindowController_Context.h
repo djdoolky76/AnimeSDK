@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIRABOVERCOMEDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16751500)
+#define MOLEMOLE_UIRABOVERCOMEDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16494FF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABOvercomeDialogPopWindowController_Context_TypeDefinitionIndex = 72228;
+	inline static constexpr unsigned int UIRABOvercomeDialogPopWindowController_Context_TypeDefinitionIndex = 85769;
 
 	class UIRABOvercomeDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

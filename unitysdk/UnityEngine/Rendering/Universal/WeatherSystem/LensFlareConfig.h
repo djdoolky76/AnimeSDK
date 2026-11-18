@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
 namespace UnityEngine::Rendering { class LensFlareDataSRP; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LENSFLARECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D60EBF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LENSFLARECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D60EDA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LENSFLARECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D8DCB30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LENSFLARECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DCCE0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int LensFlareConfig_TypeDefinitionIndex = 27411;
+	inline static constexpr unsigned int LensFlareConfig_TypeDefinitionIndex = 27270;
 
-	class LensFlareConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::LensFlareConfig*>
+	class LensFlareConfig
 	{
 	public:
 		::UnityEngine::Rendering::LensFlareDataSRP* lensFlareDataSrp; // 0x18

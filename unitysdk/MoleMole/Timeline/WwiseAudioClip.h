@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class WwiseAudioBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1A5F4D20)
-#define MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1A5F4D10)
-#define MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_METHOD_4_0B1EB5C9B94BAB66_OFFSET UNITYSDK_OFFSET(0x1A5F4FE0)
-#define MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_METHOD_4_CF8BA38996D09531_OFFSET UNITYSDK_OFFSET(0x1A5F50C0)
-#define MOLEMOLE_TIMELINE_WWISEAUDIOCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F5120)
+#define MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19D00DC0)
+#define MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x19D00DB0)
+#define MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_GPGDFMIHALE_OFFSET UNITYSDK_OFFSET(0x19D01160)
+#define MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_KOPLHACOBFC_OFFSET UNITYSDK_OFFSET(0x19D01080)
+#define MOLEMOLE_TIMELINE_WWISEAUDIOCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19D011C0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int WwiseAudioClip_TypeDefinitionIndex = 72720;
+	inline static constexpr unsigned int WwiseAudioClip_TypeDefinitionIndex = 90120;
 
 	class WwiseAudioClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -36,19 +36,19 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* AMNIHACKELI)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_CREATEPLAYABLE_OFFSET))(this, MHPNGBGGMMN, AMNIHACKELI);
 		}
 
-		::System::Boolean Method_4_0B1EB5C9B94BAB66()
+		::System::Boolean GPGDFMIHALE()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_METHOD_4_0B1EB5C9B94BAB66_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_GPGDFMIHALE_OFFSET))(this);
 		}
 
-		::System::Boolean Method_4_CF8BA38996D09531()
+		::System::Boolean KOPLHACOBFC()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_METHOD_4_CF8BA38996D09531_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_WWISEAUDIOCLIP_KOPLHACOBFC_OFFSET))(this);
 		}
 	};
 }

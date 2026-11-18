@@ -3,7 +3,7 @@
 
 namespace Mono::Security::X509::Extensions
 {
-	inline static constexpr unsigned int KeyUsages_TypeDefinitionIndex = 2336;
+	inline static constexpr unsigned int KeyUsages_TypeDefinitionIndex = 2335;
 
 	enum class KeyUsages : ::System::Int32
 	{

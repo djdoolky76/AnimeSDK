@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/DJDODNGGEJI.h"
+
+class FMENAINBNCL;
+
+#define PJLKCLOEBFH_PEBADEAKKGD_CGKPGKFLCDN_OFFSET UNITYSDK_OFFSET(0x178DED30)
+#define PJLKCLOEBFH_PEBADEAKKGD_COGKOAHKHON_OFFSET UNITYSDK_OFFSET(0x178DED80)
+#define PJLKCLOEBFH_PEBADEAKKGD__CTOR_OFFSET UNITYSDK_OFFSET(0x178DED20)
+
+inline static constexpr unsigned int PJLKCLOEBFH_PEBADEAKKGD_TypeDefinitionIndex = 57286;
+
+class PJLKCLOEBFH_PEBADEAKKGD : public ::System::Object
+{
+public:
+	::FMENAINBNCL* DJBIBCLDCON; // 0x10
+	::FMENAINBNCL* MEIJILKMAKG; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PJLKCLOEBFH_PEBADEAKKGD__CTOR_OFFSET))(this);
+	}
+
+	::System::Void CGKPGKFLCDN(::FMENAINBNCL* JFDDLNDKIKM)
+	{
+		return ((::System::Void(*)(::PVOID, ::FMENAINBNCL*))((::PBYTE)hIl2Cpp + PJLKCLOEBFH_PEBADEAKKGD_CGKPGKFLCDN_OFFSET))(this, JFDDLNDKIKM);
+	}
+
+	::DJDODNGGEJI COGKOAHKHON()
+	{
+		return ((::DJDODNGGEJI(*)(::PVOID))((::PBYTE)hIl2Cpp + PJLKCLOEBFH_PEBADEAKKGD_COGKOAHKHON_OFFSET))(this);
+	}
+};

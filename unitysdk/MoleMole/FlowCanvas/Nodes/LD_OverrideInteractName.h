@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_OVERRIDEINTERACTNAME_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1B2750)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_OVERRIDEINTERACTNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B2950)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_OVERRIDEINTERACTNAME_INVOKE_OFFSET UNITYSDK_OFFSET(0x14AE6DF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_OVERRIDEINTERACTNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x14AE6FF0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_OverrideInteractName_TypeDefinitionIndex = 53954;
+	inline static constexpr unsigned int LD_OverrideInteractName_TypeDefinitionIndex = 86253;
 
-	class LD_OverrideInteractName : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::EntityHandle, ::System::String*>
+	class LD_OverrideInteractName
 	{
 	public:
 		::System::Void _ctor()

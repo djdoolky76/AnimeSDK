@@ -3,16 +3,16 @@
 #include "unitysdk/Nap/NapECS/SyncTimestamp.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NAP_NAPECS_SYNCTIMECONTEXT_GET_DELTATIME_OFFSET UNITYSDK_OFFSET(0x44C630)
-#define NAP_NAPECS_SYNCTIMECONTEXT_GET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0x31EA80)
-#define NAP_NAPECS_SYNCTIMECONTEXT_GET_UNSCALEDDELTATIME_OFFSET UNITYSDK_OFFSET(0x7B9470)
-#define NAP_NAPECS_SYNCTIMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x95C100)
+#define NAP_NAPECS_SYNCTIMECONTEXT_GET_DELTATIME_OFFSET UNITYSDK_OFFSET(0x42FDC0)
+#define NAP_NAPECS_SYNCTIMECONTEXT_GET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0x358710)
+#define NAP_NAPECS_SYNCTIMECONTEXT_GET_UNSCALEDDELTATIME_OFFSET UNITYSDK_OFFSET(0x6F95F0)
+#define NAP_NAPECS_SYNCTIMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x8608C0)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int SyncTimeContext_TypeDefinitionIndex = 38026;
+	inline static constexpr unsigned int SyncTimeContext_TypeDefinitionIndex = 35951;
 
-	struct alignas(8) SyncTimeContext
+	struct alignas(4) SyncTimeContext
 	{
 		::Nap::NapECS::SyncTimestamp _Timestamp_k__BackingField; // 0x10
 		::System::Single _DeltaTime_k__BackingField; // 0x20

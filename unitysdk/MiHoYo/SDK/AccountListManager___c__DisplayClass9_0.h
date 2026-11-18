@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class AccountListManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A93C0)
-#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS9_0__ONOPERATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1D3A93D0)
+#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DD120)
+#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS9_0__ONOPERATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1D8DD130)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountListManager___c__DisplayClass9_0_TypeDefinitionIndex = 20094;
+	inline static constexpr unsigned int AccountListManager___c__DisplayClass9_0_TypeDefinitionIndex = 19240;
 
 	class AccountListManager___c__DisplayClass9_0 : public ::System::Object
 	{

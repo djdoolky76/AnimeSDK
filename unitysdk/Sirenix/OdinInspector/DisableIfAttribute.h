@@ -5,20 +5,20 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_DISABLEIFATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1F76FE10)
-#define SIRENIX_ODININSPECTOR_DISABLEIFATTRIBUTE_SET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1F76FE20)
-#define SIRENIX_ODININSPECTOR_DISABLEIFATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F76FE40)
-#define SIRENIX_ODININSPECTOR_DISABLEIFATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76FE30)
+#define SIRENIX_ODININSPECTOR_DISABLEIFATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1FB80030)
+#define SIRENIX_ODININSPECTOR_DISABLEIFATTRIBUTE_SET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x1FB80040)
+#define SIRENIX_ODININSPECTOR_DISABLEIFATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FB80060)
+#define SIRENIX_ODININSPECTOR_DISABLEIFATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB80050)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int DisableIfAttribute_TypeDefinitionIndex = 7281;
+	inline static constexpr unsigned int DisableIfAttribute_TypeDefinitionIndex = 7288;
 
 	class DisableIfAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* Condition; // 0x10
-		::System::Object* Value; // 0x18
+		::System::Object* Value; // 0x10
+		::System::String* Condition; // 0x18
 
 		::System::Void _ctor(::System::String* condition)
 		{

@@ -5,9 +5,9 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMisc_LevelHUDOverrideParams_TypeDefinitionIndex = 48033;
+	inline static constexpr unsigned int ConfigMisc_LevelHUDOverrideParams_TypeDefinitionIndex = 92047;
 
-	struct alignas(4) ConfigMisc_LevelHUDOverrideParams
+	struct alignas(8) ConfigMisc_LevelHUDOverrideParams
 	{
 		::System::Nullable_1<::System::Single> ShowDistanceOnIdle; // 0x10
 		::System::Nullable_1<::System::Single> ShowDurationOnEnterBattle; // 0x18

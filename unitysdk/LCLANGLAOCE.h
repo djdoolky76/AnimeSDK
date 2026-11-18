@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class DBOHIIGPOKN;
+class HGBFKACDPBM;
+class LOICBEJNBOB;
+
+#define LCLANGLAOCE_OBDIOEIEMKB_OFFSET UNITYSDK_OFFSET(0x753D10)
+#define LCLANGLAOCE_PKOGNPKCHHE_OFFSET UNITYSDK_OFFSET(0x753CB0)
+#define LCLANGLAOCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x358B00)
+#define LCLANGLAOCE__CTOR_OFFSET UNITYSDK_OFFSET(0x753CA0)
+
+inline static constexpr unsigned int LCLANGLAOCE_TypeDefinitionIndex = 70379;
+
+struct alignas(8) LCLANGLAOCE
+{
+	::Il2CppArray<::DBOHIIGPOKN*>* ADFGLADGJNN; // 0x10
+
+	::System::Void _ctor(::DBOHIIGPOKN* CGMNNBDIGDJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::DBOHIIGPOKN*))((::PBYTE)hIl2Cpp + LCLANGLAOCE__CTOR_OFFSET))(this, CGMNNBDIGDJ);
+	}
+
+	::System::Void _ctor_1(::Il2CppArray<::DBOHIIGPOKN*>* FBMMHCAAOHC)
+	{
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::DBOHIIGPOKN*>*))((::PBYTE)hIl2Cpp + LCLANGLAOCE__CTOR_1_OFFSET))(this, FBMMHCAAOHC);
+	}
+
+	::LOICBEJNBOB* PKOGNPKCHHE(::HGBFKACDPBM* GEEHGDABNJF)
+	{
+		return ((::LOICBEJNBOB*(*)(::PVOID, ::HGBFKACDPBM*))((::PBYTE)hIl2Cpp + LCLANGLAOCE_PKOGNPKCHHE_OFFSET))(this, GEEHGDABNJF);
+	}
+
+	::LOICBEJNBOB* OBDIOEIEMKB(::HGBFKACDPBM* GEEHGDABNJF)
+	{
+		return ((::LOICBEJNBOB*(*)(::PVOID, ::HGBFKACDPBM*))((::PBYTE)hIl2Cpp + LCLANGLAOCE_OBDIOEIEMKB_OFFSET))(this, GEEHGDABNJF);
+	}
+};

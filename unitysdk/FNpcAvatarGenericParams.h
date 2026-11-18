@@ -5,6 +5,8 @@
 #include "unitysdk/FNpcAvatarGenericParams_AccessoryInfo.h"
 #include "unitysdk/Foundation/Unreal/FGameplayTagContainer.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/UnityEngine/Color32.h"
 
 class FNpcAvatarGenericParams_PartInfo;
 class NPCPrefabPartInfo;
@@ -12,19 +14,20 @@ class PartMaterials;
 namespace NPCCrowd::Accessories { class NPCSlotAccessoryInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FNPCAVATARGENERICPARAMS_CONVERTCONFIGPARTLISTTORUNTIMEPARTLIST_OFFSET UNITYSDK_OFFSET(0x147900A0)
-#define FNPCAVATARGENERICPARAMS_GENERATEACCITEMOVERRIDECOLORINFO_OFFSET UNITYSDK_OFFSET(0x14791030)
-#define FNPCAVATARGENERICPARAMS_GENERATECOLORINFO_OFFSET UNITYSDK_OFFSET(0x14790DE0)
-#define FNPCAVATARGENERICPARAMS_GETACCESSORYINFOLIST_OFFSET UNITYSDK_OFFSET(0x147907E0)
-#define FNPCAVATARGENERICPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x800D80)
+#define FNPCAVATARGENERICPARAMS_CONVERTCONFIGPARTLISTTORUNTIMEPARTLIST_OFFSET UNITYSDK_OFFSET(0x15CB1760)
+#define FNPCAVATARGENERICPARAMS_GENERATEACCITEMOVERRIDECOLORINFO_OFFSET UNITYSDK_OFFSET(0x15CB2700)
+#define FNPCAVATARGENERICPARAMS_GENERATECOLORINFO_OFFSET UNITYSDK_OFFSET(0x15CB24B0)
+#define FNPCAVATARGENERICPARAMS_GETACCESSORYINFOLIST_OFFSET UNITYSDK_OFFSET(0x15CB1EB0)
+#define FNPCAVATARGENERICPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x772640)
 
-inline static constexpr unsigned int FNpcAvatarGenericParams_TypeDefinitionIndex = 68456;
+inline static constexpr unsigned int FNpcAvatarGenericParams_TypeDefinitionIndex = 56512;
 
 struct alignas(8) FNpcAvatarGenericParams
 {
 	::System::Int32 id; // 0x10
 	::ENPCAvatarGender Gender; // 0x14
 	::ENPCAvatarSize Size; // 0x18
+	::System::Byte _padding0[0x4];
 	::Il2CppArray<::FNpcAvatarGenericParams_PartInfo*>* bodyPartInfos; // 0x20
 	::Il2CppArray<::FNpcAvatarGenericParams_AccessoryInfo>* accessoryPartWithIDs; // 0x28
 	::Il2CppArray<::System::Int32>* tagIds; // 0x30
@@ -41,19 +44,15 @@ struct alignas(8) FNpcAvatarGenericParams
 		return ((::Il2CppArray<::FNpcAvatarGenericParams_PartInfo*>*(*)(::System::Collections::Generic::List_1<::NPCPrefabPartInfo*>*, ::System::Collections::Generic::List_1<::PartMaterials*>*))((::PBYTE)hIl2Cpp + FNPCAVATARGENERICPARAMS_CONVERTCONFIGPARTLISTTORUNTIMEPARTLIST_OFFSET))(partList, overrideMats);
 	}
 
-	/*
 	static ::System::Void GenerateColorInfo(::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32>>*& overrideColors, ::System::Boolean bOverride, ::System::Int32 overrideInfoId)
 	{
 		return ((::System::Void(*)(::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32>>*&, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + FNPCAVATARGENERICPARAMS_GENERATECOLORINFO_OFFSET))(overrideColors, bOverride, overrideInfoId);
 	}
-	*/
 
-	/*
 	static ::System::Void GenerateAccItemOverrideColorInfo(::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32>>*& overrideColors, ::System::Boolean bOverride, ::System::Int32 overrideInfoId)
 	{
 		return ((::System::Void(*)(::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32>>*&, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + FNPCAVATARGENERICPARAMS_GENERATEACCITEMOVERRIDECOLORINFO_OFFSET))(overrideColors, bOverride, overrideInfoId);
 	}
-	*/
 
 	static ::Il2CppArray<::FNpcAvatarGenericParams_AccessoryInfo>* GetAccessoryInfoList(::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCSlotAccessoryInfo*>* accessory)
 	{

@@ -1,32 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_52F51ECF03644FA0.h"
+#include "unitysdk/FBFAEBLCJMD.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define MOLEMOLE_UICONTROLITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0x183D29E0)
-#define MOLEMOLE_UICONTROLITEM_ISMATCH_OFFSET UNITYSDK_OFFSET(0x183D26B0)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_4DE8CBABBBA1918B_OFFSET UNITYSDK_OFFSET(0x183D2A80)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_54EE5091F9DB1A7D_OFFSET UNITYSDK_OFFSET(0x183D2C50)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_7447D31007493755_OFFSET UNITYSDK_OFFSET(0x183D2D60)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_7F53CB1E098E0EB4_OFFSET UNITYSDK_OFFSET(0x183D2CE0)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_DC142A2AF2A69784_OFFSET UNITYSDK_OFFSET(0x183D2D50)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_DC4EC5A0BAFCAEA2_OFFSET UNITYSDK_OFFSET(0x183D2F40)
-#define MOLEMOLE_UICONTROLITEM_METHOD_1_FF9D9C132E279CF6_OFFSET UNITYSDK_OFFSET(0x183D3330)
-#define MOLEMOLE_UICONTROLITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x183D2C40)
+#define MOLEMOLE_UICONTROLITEM_DGNAAPGKIPL_OFFSET UNITYSDK_OFFSET(0x19851740)
+#define MOLEMOLE_UICONTROLITEM_DLBFECLPPMN_OFFSET UNITYSDK_OFFSET(0x19851170)
+#define MOLEMOLE_UICONTROLITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0x19850E00)
+#define MOLEMOLE_UICONTROLITEM_FMGMOOODOEF_OFFSET UNITYSDK_OFFSET(0x19851560)
+#define MOLEMOLE_UICONTROLITEM_INCFIJKMIGG_OFFSET UNITYSDK_OFFSET(0x19851100)
+#define MOLEMOLE_UICONTROLITEM_ISMATCH_OFFSET UNITYSDK_OFFSET(0x19850AD0)
+#define MOLEMOLE_UICONTROLITEM_JGBGPJACDOG_OFFSET UNITYSDK_OFFSET(0x19851870)
+#define MOLEMOLE_UICONTROLITEM_NOGJIJMACNO_OFFSET UNITYSDK_OFFSET(0x19851070)
+#define MOLEMOLE_UICONTROLITEM_PADHEHLKBDO_OFFSET UNITYSDK_OFFSET(0x19850EA0)
+#define MOLEMOLE_UICONTROLITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19851060)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIControlItem_TypeDefinitionIndex = 91583;
+	inline static constexpr unsigned int UIControlItem_TypeDefinitionIndex = 58522;
 
 	class UIControlItem : public ::System::Object
 	{
 	public:
 		::System::String* ExportName; // 0x10
-		::Enum_3_52F51ECF03644FA0 ExportType; // 0x18
+		::FBFAEBLCJMD ExportType; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Object* ExportObject; // 0x20
 		::System::String* CustomExportTypeName; // 0x28
 
@@ -35,49 +36,49 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean IsMatch(::System::String* a1)
+		::System::Boolean IsMatch(::System::String* LFPLEJICDJL)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_ISMATCH_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_ISMATCH_OFFSET))(this, LFPLEJICDJL);
 		}
 
-		::System::Boolean Equals(::System::Object* a1)
+		::System::Boolean Equals(::System::Object* EIFONLCJOPG)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_EQUALS_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_EQUALS_OFFSET))(this, EIFONLCJOPG);
 		}
 
-		static ::System::Boolean Method_1_54EE5091F9DB1A7D(::MoleMole::UIControlItem* a1, ::MoleMole::UIControlItem* a2)
+		::System::Boolean PADHEHLKBDO(::MoleMole::UIControlItem* LIBPKNHDIGP)
 		{
-			return ((::System::Boolean(*)(::MoleMole::UIControlItem*, ::MoleMole::UIControlItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_54EE5091F9DB1A7D_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UIControlItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_PADHEHLKBDO_OFFSET))(this, LIBPKNHDIGP);
 		}
 
-		::System::Boolean Method_1_DC142A2AF2A69784(::System::Object* a1)
+		static ::System::Boolean NOGJIJMACNO(::MoleMole::UIControlItem* FFKBEGIHIGG, ::MoleMole::UIControlItem* CKADGLGJJAB)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_DC142A2AF2A69784_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::MoleMole::UIControlItem*, ::MoleMole::UIControlItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_NOGJIJMACNO_OFFSET))(FFKBEGIHIGG, CKADGLGJJAB);
 		}
 
-		static ::System::Boolean Method_1_7F53CB1E098E0EB4(::MoleMole::UIControlItem* a1, ::MoleMole::UIControlItem* a2)
+		static ::System::Boolean INCFIJKMIGG(::MoleMole::UIControlItem* FFKBEGIHIGG, ::MoleMole::UIControlItem* CKADGLGJJAB)
 		{
-			return ((::System::Boolean(*)(::MoleMole::UIControlItem*, ::MoleMole::UIControlItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_7F53CB1E098E0EB4_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::MoleMole::UIControlItem*, ::MoleMole::UIControlItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_INCFIJKMIGG_OFFSET))(FFKBEGIHIGG, CKADGLGJJAB);
 		}
 
-		::System::Boolean Method_1_4DE8CBABBBA1918B(::MoleMole::UIControlItem* a1)
+		::System::Void DLBFECLPPMN(::System::Boolean DMPCHKMCDLL, ::UnityEngine::GameObject* JEIDPPCEHLD)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UIControlItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_4DE8CBABBBA1918B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_DLBFECLPPMN_OFFSET))(this, DMPCHKMCDLL, JEIDPPCEHLD);
 		}
 
-		::UnityEngine::GameObject* Method_1_7447D31007493755()
+		::UnityEngine::GameObject* FMGMOOODOEF()
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_7447D31007493755_OFFSET))(this);
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_FMGMOOODOEF_OFFSET))(this);
 		}
 
-		::System::Void Method_1_DC4EC5A0BAFCAEA2(::System::Boolean a1, ::UnityEngine::GameObject* a2)
+		::MoleMole::UIControlItem* DGNAAPGKIPL()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_DC4EC5A0BAFCAEA2_OFFSET))(this, a1, a2);
+			return ((::MoleMole::UIControlItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_DGNAAPGKIPL_OFFSET))(this);
 		}
 
-		::MoleMole::UIControlItem* Method_1_FF9D9C132E279CF6()
+		::System::Boolean JGBGPJACDOG(::System::Object* MIALFKCCCPI)
 		{
-			return ((::MoleMole::UIControlItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_METHOD_1_FF9D9C132E279CF6_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICONTROLITEM_JGBGPJACDOG_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

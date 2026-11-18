@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_ADDVALUEFLOATOVERTIMETASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3E8F50)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_ADDVALUEFLOATOVERTIMETASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3E8F90)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_ADDVALUEFLOATOVERTIMETASKINSTANCEDATA___C___CCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C3E8FA0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_ADDVALUEFLOATOVERTIMETASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9FF750)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_ADDVALUEFLOATOVERTIMETASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9FF790)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_ADDVALUEFLOATOVERTIMETASKINSTANCEDATA___C___CCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1B9FF7A0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTaskInstanceData___c_TypeDefinitionIndex = 86287;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTaskInstanceData___c_TypeDefinitionIndex = 80246;
 
 	class RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTaskInstanceData___c : public ::System::Object
 	{
 	public:
-		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTaskInstanceData___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x497B0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_AddValueFloatOverTimeTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x479C0);
 		}
 
 		static ::System::Void _cctor()

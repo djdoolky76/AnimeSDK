@@ -1,28 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_28C374693CE0ED28.h"
+#include "unitysdk/GLKENEMADBD.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_EVENTRANGE_GET_TIMEOFFSETSECONDS_OFFSET UNITYSDK_OFFSET(0x1382C910)
-#define MOLEMOLE_EVENTRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1382C920)
+#define MOLEMOLE_EVENTRANGE_GET_TIMEOFFSETSECONDS_OFFSET UNITYSDK_OFFSET(0x139D1BE0)
+#define MOLEMOLE_EVENTRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x139D1BF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EventRange_TypeDefinitionIndex = 71017;
+	inline static constexpr unsigned int EventRange_TypeDefinitionIndex = 92104;
 
 	class EventRange : public ::System::Object
 	{
 	public:
 		::System::String* TrackId; // 0x10
-		::Enum_3_28C374693CE0ED28 Type; // 0x18
+		::GLKENEMADBD Type; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Double StartBeat; // 0x20
 		::System::Double EndBeat; // 0x28
 		::System::Int32 TimeOffsetMs; // 0x30
+		::System::Byte _padding1[0x4];
 		::System::Double StartTimeSeconds; // 0x38
 		::System::Double EndTimeSeconds; // 0x40
 		::System::Int32 BoundNoteLaneId; // 0x48
+		::System::Byte _padding2[0x4];
 		::System::String* PerformSignalDesc; // 0x50
 		::System::String* EventKey; // 0x58
 

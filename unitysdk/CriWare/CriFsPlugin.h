@@ -2,39 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIFSPLUGIN_CRIWARE0F3477B0_OFFSET UNITYSDK_OFFSET(0x1F4D4B70)
-#define CRIWARE_CRIFSPLUGIN_CRIWARE891C65F4_OFFSET UNITYSDK_OFFSET(0x1F4D5460)
-#define CRIWARE_CRIFSPLUGIN_CRIWARECDE5A1FA_OFFSET UNITYSDK_OFFSET(0x1F4D53E0)
-#define CRIWARE_CRIFSPLUGIN_CRIWAREEF46D040_OFFSET UNITYSDK_OFFSET(0x1F4D5360)
-#define CRIWARE_CRIFSPLUGIN_FINALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1F4D5080)
-#define CRIWARE_CRIFSPLUGIN_INITIALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1F4D4C40)
-#define CRIWARE_CRIFSPLUGIN_ISLIBRARYINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1F4D4FB0)
-#define CRIWARE_CRIFSPLUGIN_SETCONFIGADDITIONALPARAMETERS_ANDROID_OFFSET UNITYSDK_OFFSET(0x1F4D4C30)
-#define CRIWARE_CRIFSPLUGIN_SETCONFIGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1F4D4A50)
-#define CRIWARE_CRIFSPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4D54E0)
+#define CRIWARE_CRIFSPLUGIN_CRIWARE0F3477B0_OFFSET UNITYSDK_OFFSET(0x1F8A2060)
+#define CRIWARE_CRIFSPLUGIN_CRIWARE891C65F4_OFFSET UNITYSDK_OFFSET(0x1F8A2950)
+#define CRIWARE_CRIFSPLUGIN_CRIWARECDE5A1FA_OFFSET UNITYSDK_OFFSET(0x1F8A28D0)
+#define CRIWARE_CRIFSPLUGIN_CRIWAREEF46D040_OFFSET UNITYSDK_OFFSET(0x1F8A2850)
+#define CRIWARE_CRIFSPLUGIN_FINALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1F8A2570)
+#define CRIWARE_CRIFSPLUGIN_INITIALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1F8A2130)
+#define CRIWARE_CRIFSPLUGIN_ISLIBRARYINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1F8A24A0)
+#define CRIWARE_CRIFSPLUGIN_SETCONFIGADDITIONALPARAMETERS_ANDROID_OFFSET UNITYSDK_OFFSET(0x1F8A2120)
+#define CRIWARE_CRIFSPLUGIN_SETCONFIGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1F8A1F40)
+#define CRIWARE_CRIFSPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8A29D0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsPlugin_TypeDefinitionIndex = 34970;
+	inline static constexpr unsigned int CriFsPlugin_TypeDefinitionIndex = 34519;
 
 	class CriFsPlugin : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_defaultInstallBufferSize()
+		static ::System::Int32* StaticGet_installBufferSize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriFsPlugin_TypeDefinitionIndex)->GetStaticField(0x8430);
-		}
-		static ::System::Boolean* StaticGet_isConfigured()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriFsPlugin_TypeDefinitionIndex)->GetStaticField(0x8434);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriFsPlugin_TypeDefinitionIndex)->GetStaticField(0x88D0);
 		}
 		static ::System::Int32* StaticGet_initializationCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriFsPlugin_TypeDefinitionIndex)->GetStaticField(0x8438);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriFsPlugin_TypeDefinitionIndex)->GetStaticField(0x88D4);
 		}
-		static ::System::Int32* StaticGet_installBufferSize()
+		static ::System::Int32* StaticGet_defaultInstallBufferSize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriFsPlugin_TypeDefinitionIndex)->GetStaticField(0x843C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriFsPlugin_TypeDefinitionIndex)->GetStaticField(0x88D8);
+		}
+		static ::System::Boolean* StaticGet_isConfigured()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriFsPlugin_TypeDefinitionIndex)->GetStaticField(0x88DC);
 		}
 
 		static ::System::Void _cctor()

@@ -7,12 +7,12 @@ class MB2_TextureBakeResults;
 namespace DigitalOpus::MB::Core { class MB_IMeshBakerSettings; }
 namespace UnityEngine { class Mesh; }
 
-#define DIGITALOPUS_MB_CORE_CUSTOMIZERPUTSLICEINDEXINUV0_Z_MESHASSIGN_UV0_OFFSET UNITYSDK_OFFSET(0x1F29EB70)
-#define DIGITALOPUS_MB_CORE_CUSTOMIZERPUTSLICEINDEXINUV0_Z__CTOR_OFFSET UNITYSDK_OFFSET(0x1F29EDC0)
+#define DIGITALOPUS_MB_CORE_CUSTOMIZERPUTSLICEINDEXINUV0_Z_MESHASSIGN_UV0_OFFSET UNITYSDK_OFFSET(0x1F6B8EF0)
+#define DIGITALOPUS_MB_CORE_CUSTOMIZERPUTSLICEINDEXINUV0_Z__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6B9140)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int CustomizerPutSliceIndexInUV0_z_TypeDefinitionIndex = 94494;
+	inline static constexpr unsigned int CustomizerPutSliceIndexInUV0_z_TypeDefinitionIndex = 96181;
 
 	class CustomizerPutSliceIndexInUV0_z : public ::DigitalOpus::MB::Core::MB_DefaultMeshAssignCustomizer
 	{

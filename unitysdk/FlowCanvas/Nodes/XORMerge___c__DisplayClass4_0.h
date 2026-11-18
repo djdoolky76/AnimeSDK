@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas::Nodes { class XORMerge; }
 
-#define FLOWCANVAS_NODES_XORMERGE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6EDC0)
-#define FLOWCANVAS_NODES_XORMERGE___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EB6EDD0)
+#define FLOWCANVAS_NODES_XORMERGE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF179F0)
+#define FLOWCANVAS_NODES_XORMERGE___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EF17A00)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int XORMerge___c__DisplayClass4_0_TypeDefinitionIndex = 30134;
+	inline static constexpr unsigned int XORMerge___c__DisplayClass4_0_TypeDefinitionIndex = 29347;
 
 	class XORMerge___c__DisplayClass4_0 : public ::System::Object
 	{

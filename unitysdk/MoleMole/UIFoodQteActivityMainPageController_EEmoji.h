@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFoodQteActivityMainPageController_EEmoji_TypeDefinitionIndex = 50399;
+	inline static constexpr unsigned int UIFoodQteActivityMainPageController_EEmoji_TypeDefinitionIndex = 52099;
 
 	enum class UIFoodQteActivityMainPageController_EEmoji : ::System::Int32
 	{
-		Finish = 3,
+		Idle = 0,
 		Success = 1,
 		Fail = 2,
-		Idle = 0,
+		Finish = 3,
 	};
 }

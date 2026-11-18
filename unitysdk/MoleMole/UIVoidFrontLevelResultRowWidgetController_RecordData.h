@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_4_01F9221F8B6A9296_Enum_3_ABEED6B2F204867D.h"
+#include "unitysdk/ADDEBPHFFIF_NABONMLJDBB.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIVOIDFRONTLEVELRESULTROWWIDGETCONTROLLER_RECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15A85F70)
+#define MOLEMOLE_UIVOIDFRONTLEVELRESULTROWWIDGETCONTROLLER_RECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13BE0360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVoidFrontLevelResultRowWidgetController_RecordData_TypeDefinitionIndex = 56344;
+	inline static constexpr unsigned int UIVoidFrontLevelResultRowWidgetController_RecordData_TypeDefinitionIndex = 56899;
 
 	class UIVoidFrontLevelResultRowWidgetController_RecordData : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::String* nameKey; // 0x28
 		::System::String* valueStr; // 0x30
-		::Class_4_01F9221F8B6A9296_Enum_3_ABEED6B2F204867D medalRank; // 0x38
+		::ADDEBPHFFIF_NABONMLJDBB medalRank; // 0x38
 
 		::System::Void _ctor()
 		{

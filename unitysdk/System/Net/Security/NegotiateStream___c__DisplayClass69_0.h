@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/Security/ProtectionLevel.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/Principal/TokenImpersonationLevel.h"
+#include "unitysdk/System/Object.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
@@ -10,21 +10,21 @@ namespace System { class String; }
 namespace System::Net { class NetworkCredential; }
 namespace System::Net::Security { class NegotiateStream; }
 
-#define SYSTEM_NET_SECURITY_NEGOTIATESTREAM___C__DISPLAYCLASS69_0__AUTHENTICATEASCLIENTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1D6B0100)
-#define SYSTEM_NET_SECURITY_NEGOTIATESTREAM___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B00F0)
+#define SYSTEM_NET_SECURITY_NEGOTIATESTREAM___C__DISPLAYCLASS69_0__AUTHENTICATEASCLIENTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1DBAA2F0)
+#define SYSTEM_NET_SECURITY_NEGOTIATESTREAM___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBAA2E0)
 
 namespace System::Net::Security
 {
-	inline static constexpr unsigned int NegotiateStream___c__DisplayClass69_0_TypeDefinitionIndex = 3697;
+	inline static constexpr unsigned int NegotiateStream___c__DisplayClass69_0_TypeDefinitionIndex = 3696;
 
 	class NegotiateStream___c__DisplayClass69_0 : public ::System::Object
 	{
 	public:
-		::System::Net::NetworkCredential* credential; // 0x10
-		::System::Net::Security::NegotiateStream* __4__this; // 0x18
-		::System::String* targetName; // 0x20
-		::System::Security::Principal::TokenImpersonationLevel allowedImpersonationLevel; // 0x28
-		::System::Net::Security::ProtectionLevel requiredProtectionLevel; // 0x2C
+		::System::Net::Security::NegotiateStream* __4__this; // 0x10
+		::System::String* targetName; // 0x18
+		::System::Net::NetworkCredential* credential; // 0x20
+		::System::Net::Security::ProtectionLevel requiredProtectionLevel; // 0x28
+		::System::Security::Principal::TokenImpersonationLevel allowedImpersonationLevel; // 0x2C
 
 		::System::Void _ctor()
 		{

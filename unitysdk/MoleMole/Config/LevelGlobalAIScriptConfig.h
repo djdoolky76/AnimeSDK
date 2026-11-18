@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
-#include "unitysdk/MoleMole/AttackType.h"
 #include "unitysdk/MoleMole/Config/CharacterSize.h"
-#include "unitysdk/MoleMole/Config/LevelGlobalAIScriptConfigData_AIGroupTagWeight.h"
+#include "unitysdk/MoleMole/AttackType.h"
 
 namespace MoleMole::Config { class LevelGlobalAIModule; }
-namespace MoleMole::Config { class LevelGlobalAIScriptConfig_AISteerParam; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIG_ONKEYCHANGE_OFFSET UNITYSDK_OFFSET(0x1B7FE530)
-#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FE590)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIG_ONKEYCHANGE_OFFSET UNITYSDK_OFFSET(0x192B22D0)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAISCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192B2330)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelGlobalAIScriptConfig_TypeDefinitionIndex = 84036;
+	inline static constexpr unsigned int LevelGlobalAIScriptConfig_TypeDefinitionIndex = 75692;
 
 	class LevelGlobalAIScriptConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -23,8 +22,8 @@ namespace MoleMole::Config
 		::System::String* DefaultLevelAIModuleKey; // 0x58
 		::Il2CppArray<::System::String*>* customKeyList; // 0x60
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::LevelGlobalAIModule*>* LevelGlobalAIModules; // 0x68
-		::System::Collections::Generic::Dictionary_2<::MoleMole::AttackType, ::MoleMole::Config::LevelGlobalAIScriptConfigData_AIGroupTagWeight>* AIGroupTagWeight; // 0x70
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::CharacterSize, ::System::Collections::Generic::Dictionary_2<::MoleMole::Config::CharacterSize, ::MoleMole::Config::LevelGlobalAIScriptConfig_AISteerParam*>*>* AISteerSizeWeight; // 0x78
+		::System::Collections::Generic::Dictionary_2<::MoleMole::AttackType, ::System::Object*>* AIGroupTagWeight; // 0x70
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::CharacterSize, ::System::Collections::Generic::Dictionary_2<::MoleMole::Config::CharacterSize, ::System::Object*>*>* AISteerSizeWeight; // 0x78
 		::System::Single AISteerStrength; // 0x80
 		::System::Single AISteerRadius; // 0x84
 		::System::Single NormalStrength; // 0x88

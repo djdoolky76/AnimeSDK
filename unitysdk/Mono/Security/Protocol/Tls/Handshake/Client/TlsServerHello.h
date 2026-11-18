@@ -6,22 +6,22 @@
 namespace Mono::Security::Protocol::Tls { class CipherSuite; }
 namespace Mono::Security::Protocol::Tls { class Context; }
 
-#define MONO_SECURITY_PROTOCOL_TLS_HANDSHAKE_CLIENT_TLSSERVERHELLO_PROCESSASSSL3_OFFSET UNITYSDK_OFFSET(0x1FBD5AF0)
-#define MONO_SECURITY_PROTOCOL_TLS_HANDSHAKE_CLIENT_TLSSERVERHELLO_PROCESSASTLS1_OFFSET UNITYSDK_OFFSET(0x1FBD5B00)
-#define MONO_SECURITY_PROTOCOL_TLS_HANDSHAKE_CLIENT_TLSSERVERHELLO_PROCESSPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1FBD5DF0)
-#define MONO_SECURITY_PROTOCOL_TLS_HANDSHAKE_CLIENT_TLSSERVERHELLO_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FBD58D0)
-#define MONO_SECURITY_PROTOCOL_TLS_HANDSHAKE_CLIENT_TLSSERVERHELLO__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBD58A0)
+#define MONO_SECURITY_PROTOCOL_TLS_HANDSHAKE_CLIENT_TLSSERVERHELLO_PROCESSASSSL3_OFFSET UNITYSDK_OFFSET(0x1FFD9260)
+#define MONO_SECURITY_PROTOCOL_TLS_HANDSHAKE_CLIENT_TLSSERVERHELLO_PROCESSASTLS1_OFFSET UNITYSDK_OFFSET(0x1FFD9270)
+#define MONO_SECURITY_PROTOCOL_TLS_HANDSHAKE_CLIENT_TLSSERVERHELLO_PROCESSPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1FFD9560)
+#define MONO_SECURITY_PROTOCOL_TLS_HANDSHAKE_CLIENT_TLSSERVERHELLO_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FFD9050)
+#define MONO_SECURITY_PROTOCOL_TLS_HANDSHAKE_CLIENT_TLSSERVERHELLO__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFD9020)
 
 namespace Mono::Security::Protocol::Tls::Handshake::Client
 {
-	inline static constexpr unsigned int TlsServerHello_TypeDefinitionIndex = 2412;
+	inline static constexpr unsigned int TlsServerHello_TypeDefinitionIndex = 2411;
 
 	class TlsServerHello : public ::Mono::Security::Protocol::Tls::Handshake::HandshakeMessage
 	{
 	public:
-		::Il2CppArray<::System::Byte>* sessionId; // 0x58
-		::Mono::Security::Protocol::Tls::CipherSuite* cipherSuite; // 0x60
-		::Il2CppArray<::System::Byte>* random; // 0x68
+		::Il2CppArray<::System::Byte>* random; // 0x58
+		::Il2CppArray<::System::Byte>* sessionId; // 0x60
+		::Mono::Security::Protocol::Tls::CipherSuite* cipherSuite; // 0x68
 		::Mono::Security::Protocol::Tls::SecurityCompressionType compressionMethod; // 0x70
 
 		::System::Void _ctor(::Mono::Security::Protocol::Tls::Context* context, ::Il2CppArray<::System::Byte>* buffer)

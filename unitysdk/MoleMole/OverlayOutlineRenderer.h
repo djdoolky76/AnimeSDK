@@ -1,92 +1,117 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/OverlayOutlineRenderer_Struct_2_FE254204089B286D.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 class NapGradient;
 namespace MoleMole::Config { class OverlayOutlineConfig; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
+namespace UnityEngine::Rendering::Universal::Internal { class BattleOutlineRenderer; }
 namespace UnityEngine::Rendering::Universal::Internal { class OutlineObjectRenderer; }
 
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_CLEAROUTLINESUPPRESSION_OFFSET UNITYSDK_OFFSET(0x1739E7A0)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_FADEOUT_OFFSET UNITYSDK_OFFSET(0x1739ECF0)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_FORCEHIDEOUTLINE_OFFSET UNITYSDK_OFFSET(0x1739E610)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_INITIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1739F790)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1739F6D0)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_0FD0EC313FAAB75A_OFFSET UNITYSDK_OFFSET(0x1739F080)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_660474B0F8C5FECE_OFFSET UNITYSDK_OFFSET(0x1739D2C0)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_6AA4327893736884_OFFSET UNITYSDK_OFFSET(0x1739D950)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_8B782E8AA167EEFF_OFFSET UNITYSDK_OFFSET(0x1739E290)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_8DF47EF45ABD2A6C_OFFSET UNITYSDK_OFFSET(0x1739F820)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_999B8B439422C7E7_OFFSET UNITYSDK_OFFSET(0x1739F220)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_AD12FCAF6745A64D_OFFSET UNITYSDK_OFFSET(0x173A0A70)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_AF53AC45ED2466EB_OFFSET UNITYSDK_OFFSET(0x173A0800)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_D799F376FC6F1700_OFFSET UNITYSDK_OFFSET(0x1739E060)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_F1CBF9DC71398C0E_OFFSET UNITYSDK_OFFSET(0x173A0E10)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1739D160)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1739D7F0)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1739DB20)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_PLAYANIM_OFFSET UNITYSDK_OFFSET(0x1739F2F0)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_SETOCCLUDEDBYDEPTHPEROBJECT_OFFSET UNITYSDK_OFFSET(0x1739E970)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_SETOCCLUDEDBYDEPTH_OFFSET UNITYSDK_OFFSET(0x1739E7F0)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER_SETOUTLINEPEROBJECT_OFFSET UNITYSDK_OFFSET(0x1739EB30)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x173A0740)
-#define MOLEMOLE_OVERLAYOUTLINERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x173A0600)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_AJDDLCHEOBM_OFFSET UNITYSDK_OFFSET(0x13F0E580)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_CDCEIJFMJJM_OFFSET UNITYSDK_OFFSET(0x13F09DA0)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_CDPFAMNKHLD_OFFSET UNITYSDK_OFFSET(0x13F0C270)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_CLEAROUTLINESUPPRESSION_OFFSET UNITYSDK_OFFSET(0x13F0AFC0)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_DISABLEEFFECTACTION_OFFSET UNITYSDK_OFFSET(0x13F0DDC0)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_ENABLEEFFECTACTION_OFFSET UNITYSDK_OFFSET(0x13F0DB60)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_FADEOUT_OFFSET UNITYSDK_OFFSET(0x13F0B510)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_FORCEHIDEOUTLINE_OFFSET UNITYSDK_OFFSET(0x13F0AE30)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_GCIJBIIHKME_OFFSET UNITYSDK_OFFSET(0x13F0A880)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_GFKIFIOKDJP_OFFSET UNITYSDK_OFFSET(0x13F0E9F0)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_GONDIDPANAC_OFFSET UNITYSDK_OFFSET(0x13F0DE10)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_IHDIOJEDEPG_OFFSET UNITYSDK_OFFSET(0x13F0E1E0)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_IHDKBHJNPPJ_OFFSET UNITYSDK_OFFSET(0x13F0B980)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_INITIALIZE_1_OFFSET UNITYSDK_OFFSET(0x13F0C910)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x13F0C830)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_LBHNOFAOCKE_OFFSET UNITYSDK_OFFSET(0x13F0C9A0)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_LELPCPOGICN_OFFSET UNITYSDK_OFFSET(0x13F096C0)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_LFPKGLHFABH_OFFSET UNITYSDK_OFFSET(0x13F0BC30)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_LNJPFLHOJPF_OFFSET UNITYSDK_OFFSET(0x13F0AAB0)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_OFDHCCBBOPD_OFFSET UNITYSDK_OFFSET(0x13F0A660)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x13F09560)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x13F09C40)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13F09FB0)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_PAPNJJAMPNJ_OFFSET UNITYSDK_OFFSET(0x13F0DBF0)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_PLAYANIM_OFFSET UNITYSDK_OFFSET(0x13F0BD00)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_SETOCCLUDEDBYDEPTHPEROBJECT_OFFSET UNITYSDK_OFFSET(0x13F0B190)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_SETOCCLUDEDBYDEPTH_OFFSET UNITYSDK_OFFSET(0x13F0B010)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER_SETOUTLINEPEROBJECT_OFFSET UNITYSDK_OFFSET(0x13F0B350)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13F0E120)
+#define MOLEMOLE_OVERLAYOUTLINERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x13F0DFD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int OverlayOutlineRenderer_TypeDefinitionIndex = 53219;
+	inline static constexpr unsigned int OverlayOutlineRenderer_TypeDefinitionIndex = 55277;
 
 	class OverlayOutlineRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::OverlayOutlineRenderer_Struct_2_FE254204089B286D>** StaticGet_Field_5_37()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>** StaticGet_NLGNAGOFHND()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::OverlayOutlineRenderer_Struct_2_FE254204089B286D>**)Il2CppClass::FromTypeDefinitionIndex(OverlayOutlineRenderer_TypeDefinitionIndex)->GetStaticField(0x44E90);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(OverlayOutlineRenderer_TypeDefinitionIndex)->GetStaticField(0x4AA70);
 		}
 		::MoleMole::Config::OverlayOutlineConfig* config; // 0x18
 		::System::Boolean useOutline; // 0x20
 		::System::Boolean useOverlay; // 0x21
-		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* Field_5_0; // 0x28
-		::UnityEngine::Material* Field_5_7; // 0x30
-		::MoleMole::Config::OverlayOutlineConfig* Field_5_6; // 0x38
-		::UnityEngine::Material* Field_5_5; // 0x40
-		::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer* Field_5_4; // 0x48
-		::System::Boolean Field_5_11; // 0x50
-		::System::Boolean Field_5_10; // 0x51
-		::System::Boolean Field_5_9; // 0x52
-		::System::Single Field_5_8; // 0x54
-		::NapGradient* Field_5_15; // 0x58
-		::NapGradient* Field_5_14; // 0x60
-		::System::Single Field_5_13; // 0x68
-		::System::Single Field_5_12; // 0x6C
-		::System::Boolean Field_5_19; // 0x70
-		::System::Boolean Field_5_18; // 0x71
-		::System::Boolean Field_5_17; // 0x72
-		::System::Single Field_5_16; // 0x74
-		::System::Single Field_5_23; // 0x78
-		::UnityEngine::Color Field_5_22; // 0x7C
-		::UnityEngine::Color Field_5_21; // 0x8C
-		::NapGradient* Field_5_20; // 0xA0
-		::NapGradient* Field_5_27; // 0xA8
-		::System::Single Field_5_26; // 0xB0
-		::System::Boolean Field_5_25; // 0xB4
-		::System::Int32 Field_5_24; // 0xB8
-		::System::Int32 Field_5_31; // 0xBC
-		::UnityEngine::Color Field_5_30; // 0xC0
-		::UnityEngine::Color Field_5_29; // 0xD0
-		::UnityEngine::Color Field_5_28; // 0xE0
-		::System::Boolean Field_5_35; // 0xF0
-		::System::Single Field_5_34; // 0xF4
-		::System::Single Field_5_33; // 0xF8
-		::System::Single Field_5_32; // 0xFC
-		::System::Boolean Field_5_39; // 0x100
-		::System::Boolean Field_5_38; // 0x101
+		::System::Byte _padding0[0x6];
+		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* AEPONOJONAA; // 0x28
+		::UnityEngine::Material* LPMKCIHIKOM; // 0x30
+		::MoleMole::Config::OverlayOutlineConfig* HGBPGMMOHOE; // 0x38
+		::UnityEngine::Material* EBIDGDBLDPI; // 0x40
+		::UnityEngine::Rendering::Universal::Internal::OutlineObjectRenderer* GAEIPOICOLD; // 0x48
+		::UnityEngine::Rendering::Universal::Internal::BattleOutlineRenderer* PFKPBDBEHKK; // 0x50
+		::System::Boolean ICBENNLEJMG; // 0x58
+		::System::Byte _padding1[0x3];
+		::System::Single MNBFNJJNLOC; // 0x5C
+		::System::Single LFDNEOICLOA; // 0x60
+		::System::Boolean OKFEHHMDMDH; // 0x64
+		::System::Byte _padding2[0x3];
+		::System::Single GBMHMHGCHEI; // 0x68
+		::System::Single LPFIAPJNPIJ; // 0x6C
+		::System::Single BKHOMGFBALA; // 0x70
+		::System::Single MKACMBFACKK; // 0x74
+		::System::Boolean EOPKGAEDCEG; // 0x78
+		::System::Boolean FOBHALIGGIK; // 0x79
+		::System::Boolean PJEAEFKDDGF; // 0x7A
+		::System::Byte _padding3[0x1];
+		::System::Single PALKJEELJHL; // 0x7C
+		::NapGradient* GBPAKPKBANL; // 0x80
+		::NapGradient* GBLLPBDAFED; // 0x88
+		::System::Single NMJENEBEBAB; // 0x90
+		::System::Single MLKLCEKJGPE; // 0x94
+		::System::Boolean HAFDIMGJBHC; // 0x98
+		::System::Boolean FJOOJIPGGMG; // 0x99
+		::System::Boolean DEAEKPBEHDM; // 0x9A
+		::System::Byte _padding4[0x1];
+		::System::Single BALJGFFCFBN; // 0x9C
+		::System::Single AFEGOAOPEOG; // 0xA0
+		::UnityEngine::Color EIHGHGPBKCH; // 0xA4
+		::UnityEngine::Color DODMILFIAMH; // 0xB4
+		::System::Byte _padding5[0x4];
+		::NapGradient* AEPNENHFGEI; // 0xC8
+		::NapGradient* KBBLBPKHGJH; // 0xD0
+		::System::Single BHBLAGENDPB; // 0xD8
+		::System::Boolean PIKPELJKJCJ; // 0xDC
+		::System::Byte _padding6[0x3];
+		::System::Int32 DMCFIJLECBJ; // 0xE0
+		::System::Int32 DOOEKJDNCHF; // 0xE4
+		::UnityEngine::Color JABCFEKMEIL; // 0xE8
+		::UnityEngine::Color JBFJLBNFPGJ; // 0xF8
+		::UnityEngine::Color JFEKNOKKCGC; // 0x108
+		::System::Boolean PBDMPNGCOJJ; // 0x118
+		::System::Byte _padding7[0x3];
+		::System::Single PFIKJGABNFB; // 0x11C
+		::System::Single IOCPDEKHPME; // 0x120
+		::System::Single HGFOBDPGCPG; // 0x124
+		::System::Boolean OKOJEFFDKGF; // 0x128
+		::System::Boolean IPJCGCNEDEK; // 0x129
 
 		::System::Void _ctor()
 		{
@@ -123,19 +148,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_CLEAROUTLINESUPPRESSION_OFFSET))(this);
 		}
 
-		::System::Void SetOccludedByDepth(::System::Boolean a1)
+		::System::Void SetOccludedByDepth(::System::Boolean PBMGFKEGNBD)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_SETOCCLUDEDBYDEPTH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_SETOCCLUDEDBYDEPTH_OFFSET))(this, PBMGFKEGNBD);
 		}
 
-		::System::Void SetOccludedByDepthPerObject(::System::Boolean a1)
+		::System::Void SetOccludedByDepthPerObject(::System::Boolean PBMGFKEGNBD)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_SETOCCLUDEDBYDEPTHPEROBJECT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_SETOCCLUDEDBYDEPTHPEROBJECT_OFFSET))(this, PBMGFKEGNBD);
 		}
 
-		::System::Void SetOutlinePerObject(::System::Boolean a1)
+		::System::Void SetOutlinePerObject(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_SETOUTLINEPEROBJECT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_SETOUTLINEPEROBJECT_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Void FadeOut()
@@ -143,69 +168,99 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_FADEOUT_OFFSET))(this);
 		}
 
-		::System::Void PlayAnim(::System::String* a1)
+		::System::Void PlayAnim(::System::String* BAENNHHMHNC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_PLAYANIM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_PLAYANIM_OFFSET))(this, BAENNHHMHNC);
 		}
 
-		::System::Void Initialize(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3)
+		::System::Void Initialize(::System::String* KDPCIAPDOLK, ::System::Boolean HJONLICJCJI, ::System::Boolean FIOEIEDAPKK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_INITIALIZE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_INITIALIZE_OFFSET))(this, KDPCIAPDOLK, HJONLICJCJI, FIOEIEDAPKK);
 		}
 
-		::System::Void Initialize_1(::MoleMole::Config::OverlayOutlineConfig* a1, ::System::Boolean a2, ::System::Boolean a3)
+		::System::Void Initialize_1(::MoleMole::Config::OverlayOutlineConfig* DFMKILICPFB, ::System::Boolean HJONLICJCJI, ::System::Boolean FIOEIEDAPKK)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::OverlayOutlineConfig*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_INITIALIZE_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::OverlayOutlineConfig*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_INITIALIZE_1_OFFSET))(this, DFMKILICPFB, HJONLICJCJI, FIOEIEDAPKK);
 		}
 
-		::System::Boolean Method_5_D799F376FC6F1700(::System::Single a1)
+		::System::Void EnableEffectAction(::System::String* AENNJEILGAE, ::System::String* BAENNHHMHNC)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_D799F376FC6F1700_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_ENABLEEFFECTACTION_OFFSET))(this, AENNJEILGAE, BAENNHHMHNC);
 		}
 
-		::System::Void Method_5_660474B0F8C5FECE()
+		::System::Void DisableEffectAction()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_660474B0F8C5FECE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_DISABLEEFFECTACTION_OFFSET))(this);
 		}
 
-		::System::Void Method_5_6AA4327893736884()
+		::System::Void LELPCPOGICN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_6AA4327893736884_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_LELPCPOGICN_OFFSET))(this);
 		}
 
-		static ::UnityEngine::Material* Method_5_F1CBF9DC71398C0E(::MoleMole::Config::OverlayOutlineConfig* a1)
+		::System::Void CDCEIJFMJJM()
 		{
-			return ((::UnityEngine::Material*(*)(::MoleMole::Config::OverlayOutlineConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_F1CBF9DC71398C0E_OFFSET))(a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_CDCEIJFMJJM_OFFSET))(this);
 		}
 
-		::System::Void Method_5_8B782E8AA167EEFF(::UnityEngine::Color a1, ::UnityEngine::Color a2)
+		::System::Void LBHNOFAOCKE()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_8B782E8AA167EEFF_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_LBHNOFAOCKE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_0FD0EC313FAAB75A()
+		::System::Void GFKIFIOKDJP(::System::Single MBJDMKCGOCK)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_0FD0EC313FAAB75A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_GFKIFIOKDJP_OFFSET))(this, MBJDMKCGOCK);
 		}
 
-		::System::Void Method_5_AF53AC45ED2466EB(::System::Single a1)
+		::System::Void LFPKGLHFABH(::System::Single KDEHMPGOCEP, ::System::Single PADJNMGMGHO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_AF53AC45ED2466EB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_LFPKGLHFABH_OFFSET))(this, KDEHMPGOCEP, PADJNMGMGHO);
 		}
 
-		::System::Void Method_5_8DF47EF45ABD2A6C()
+		::System::Void OFDHCCBBOPD(::System::Single PBCAAADNEPK)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_8DF47EF45ABD2A6C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_OFDHCCBBOPD_OFFSET))(this, PBCAAADNEPK);
 		}
 
-		static ::System::Void Method_5_AD12FCAF6745A64D(::MoleMole::Config::OverlayOutlineConfig* a1)
+		::System::Void PAPNJJAMPNJ()
 		{
-			return ((::System::Void(*)(::MoleMole::Config::OverlayOutlineConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_AD12FCAF6745A64D_OFFSET))(a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_PAPNJJAMPNJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_999B8B439422C7E7(::System::Single a1, ::System::Single a2)
+		static ::System::Void IHDIOJEDEPG(::MoleMole::Config::OverlayOutlineConfig* HIGOEJBKBBB)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_METHOD_5_999B8B439422C7E7_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::MoleMole::Config::OverlayOutlineConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_IHDIOJEDEPG_OFFSET))(HIGOEJBKBBB);
+		}
+
+		::System::Boolean GCIJBIIHKME(::System::Single PBCAAADNEPK)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_GCIJBIIHKME_OFFSET))(this, PBCAAADNEPK);
+		}
+
+		::System::Void IHDKBHJNPPJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_IHDKBHJNPPJ_OFFSET))(this);
+		}
+
+		::System::Void LNJPFLHOJPF(::UnityEngine::Color PCIIEJIBBKF, ::UnityEngine::Color KJGGFINPHHF)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_LNJPFLHOJPF_OFFSET))(this, PCIIEJIBBKF, KJGGFINPHHF);
+		}
+
+		static ::UnityEngine::Material* AJDDLCHEOBM(::MoleMole::Config::OverlayOutlineConfig* HIGOEJBKBBB)
+		{
+			return ((::UnityEngine::Material*(*)(::MoleMole::Config::OverlayOutlineConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_AJDDLCHEOBM_OFFSET))(HIGOEJBKBBB);
+		}
+
+		::System::Void GONDIDPANAC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_GONDIDPANAC_OFFSET))(this);
+		}
+
+		static ::UnityEngine::Gradient* CDPFAMNKHLD(::NapGradient* OPHCDHJLDDN)
+		{
+			return ((::UnityEngine::Gradient*(*)(::NapGradient*))((::PBYTE)hIl2Cpp + MOLEMOLE_OVERLAYOUTLINERENDERER_CDPFAMNKHLD_OFFSET))(OPHCDHJLDDN);
 		}
 	};
 }

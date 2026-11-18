@@ -3,12 +3,12 @@
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int NodeGraphVariables_NodeGraphVariablesScope_TypeDefinitionIndex = 86877;
+	inline static constexpr unsigned int NodeGraphVariables_NodeGraphVariablesScope_TypeDefinitionIndex = 40619;
 
 	enum class NodeGraphVariables_NodeGraphVariablesScope : ::System::Int32
 	{
-		Root = 1,
 		Local = 0,
 		Global = 2,
+		Root = 1,
 	};
 }

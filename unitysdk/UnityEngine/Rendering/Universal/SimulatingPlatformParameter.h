@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/SimulatingPlatform.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SIMULATINGPLATFORMPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FAD00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SIMULATINGPLATFORMPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D718AB0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SimulatingPlatformParameter_TypeDefinitionIndex = 27461;
+	inline static constexpr unsigned int SimulatingPlatformParameter_TypeDefinitionIndex = 26528;
 
-	class SimulatingPlatformParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::SimulatingPlatform>
+	class SimulatingPlatformParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Rendering::Universal::SimulatingPlatform value, ::System::Boolean overrideState)

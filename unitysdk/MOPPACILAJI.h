@@ -1,0 +1,99 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OOHOOAFNBNF.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
+
+class ABLPDAPPABA;
+class FKNIEPCILLG;
+class JCADHFOKIHK;
+class KFHNCJALFJK;
+class LNFCIBHFJHI;
+class LNODBDPJGFL;
+namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOPPACILAJI_BMDOEGFHNLD_OFFSET UNITYSDK_OFFSET(0x131AE550)
+#define MOPPACILAJI_DGNAAPGKIPL_OFFSET UNITYSDK_OFFSET(0x131ADC20)
+#define MOPPACILAJI_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x131AD6F0)
+#define MOPPACILAJI_FROMFLX_OFFSET UNITYSDK_OFFSET(0x131ADD30)
+#define MOPPACILAJI_GAKHPCMMPGA_OFFSET UNITYSDK_OFFSET(0x131AD650)
+#define MOPPACILAJI_GCPLFHBJMLD_OFFSET UNITYSDK_OFFSET(0x131AE5F0)
+#define MOPPACILAJI_GIJLLGEPMIA_OFFSET UNITYSDK_OFFSET(0x131ADD20)
+#define MOPPACILAJI_HGOAEJAJNPK_OFFSET UNITYSDK_OFFSET(0x131AE3F0)
+#define MOPPACILAJI_IAEALJJMOKA_OFFSET UNITYSDK_OFFSET(0x131AD750)
+#define MOPPACILAJI_LODDGCEMGJO_OFFSET UNITYSDK_OFFSET(0x131ADBB0)
+#define MOPPACILAJI_PDHKICNJNGG_OFFSET UNITYSDK_OFFSET(0x131ADDB0)
+#define MOPPACILAJI__CTOR_OFFSET UNITYSDK_OFFSET(0x131AE3E0)
+
+inline static constexpr unsigned int MOPPACILAJI_TypeDefinitionIndex = 90568;
+
+class MOPPACILAJI : public ::OOHOOAFNBNF
+{
+public:
+	::System::Collections::Generic::List_1<::LNODBDPJGFL*>* KHPIIKEGDCI; // 0x20
+	::System::Collections::Generic::List_1<::LNODBDPJGFL*>* MKBJAHEDFBE; // 0x28
+	::System::Boolean CKPEFPFJDMD; // 0x30
+	::System::Boolean HDDPFGLOOJA; // 0x31
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOPPACILAJI__CTOR_OFFSET))(this);
+	}
+
+	::ABLPDAPPABA* GAKHPCMMPGA(::KFHNCJALFJK* ADEDEAIPOLH, ::JCADHFOKIHK* KADBFNFHENH, ::LNFCIBHFJHI* FCJDAMKEGFM)
+	{
+		return ((::ABLPDAPPABA*(*)(::PVOID, ::KFHNCJALFJK*, ::JCADHFOKIHK*, ::LNFCIBHFJHI*))((::PBYTE)hIl2Cpp + MOPPACILAJI_GAKHPCMMPGA_OFFSET))(this, ADEDEAIPOLH, KADBFNFHENH, FCJDAMKEGFM);
+	}
+
+	::System::Boolean FromBinary(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOPPACILAJI_FROMBINARY_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
+	}
+
+	::System::Void LODDGCEMGJO(::System::Action_1<::System::Object*>* EJGDHCIBCJH)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOPPACILAJI_LODDGCEMGJO_OFFSET))(this, EJGDHCIBCJH);
+	}
+
+	::OOHOOAFNBNF* DGNAAPGKIPL()
+	{
+		return ((::OOHOOAFNBNF*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOPPACILAJI_DGNAAPGKIPL_OFFSET))(this);
+	}
+
+	::System::Int32 GIJLLGEPMIA()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOPPACILAJI_GIJLLGEPMIA_OFFSET))(this);
+	}
+
+	::System::Boolean FromFlx(::FlexBuffers::FlxValue HHIJHDFHPOI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOPPACILAJI_FROMFLX_OFFSET))(this, HHIJHDFHPOI);
+	}
+
+	static ::MOPPACILAJI* HGOAEJAJNPK(::FlexBuffers::FlxValue HHIJHDFHPOI)
+	{
+		return ((::MOPPACILAJI*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOPPACILAJI_HGOAEJAJNPK_OFFSET))(HHIJHDFHPOI);
+	}
+
+	::ABLPDAPPABA* BMDOEGFHNLD(::KFHNCJALFJK* MIALFKCCCPI, ::JCADHFOKIHK* KMGKAIDEIBA, ::LNFCIBHFJHI* FDHMCIFPNCK)
+	{
+		return ((::ABLPDAPPABA*(*)(::PVOID, ::KFHNCJALFJK*, ::JCADHFOKIHK*, ::LNFCIBHFJHI*))((::PBYTE)hIl2Cpp + MOPPACILAJI_BMDOEGFHNLD_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
+	}
+
+	::System::Boolean PDHKICNJNGG(::FlexBuffers::FlxMap HHIJHDFHPOI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOPPACILAJI_PDHKICNJNGG_OFFSET))(this, HHIJHDFHPOI);
+	}
+
+	::System::Boolean IAEALJJMOKA(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOPPACILAJI_IAEALJJMOKA_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
+	}
+
+	static ::MOPPACILAJI* GCPLFHBJMLD(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
+	{
+		return ((::MOPPACILAJI*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOPPACILAJI_GCPLFHBJMLD_OFFSET))(EAIMGHKJLNF, PIIOJAOKMDK);
+	}
+};

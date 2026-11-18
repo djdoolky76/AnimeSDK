@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace Cinemachine
 {
-	inline static constexpr unsigned int Documentation_TypeDefinitionIndex = 34738;
+	inline static constexpr unsigned int Documentation_TypeDefinitionIndex = 34284;
 
 	class Documentation : public ::System::Object
 	{

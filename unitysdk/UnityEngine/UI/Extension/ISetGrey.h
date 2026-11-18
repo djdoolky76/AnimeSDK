@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ISetGrey_TypeDefinitionIndex = 82964;
+	inline static constexpr unsigned int ISetGrey_TypeDefinitionIndex = 66108;
 
 	class ISetGrey
 	{

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_499EDFA3518A0E64;
+class EFCCPGCGLIE;
 namespace MoleMole { class UICafePageController; }
 
-#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19325870)
-#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS18_0__PAYCAFE_B__0_OFFSET UNITYSDK_OFFSET(0x19325880)
-#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS18_0__PAYCAFE_B__1_OFFSET UNITYSDK_OFFSET(0x193258D0)
-#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS18_0__PAYCAFE_B__2_OFFSET UNITYSDK_OFFSET(0x19325920)
+#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1738BA30)
+#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS18_0__PAYCAFE_B__0_OFFSET UNITYSDK_OFFSET(0x1738BA40)
+#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS18_0__PAYCAFE_B__1_OFFSET UNITYSDK_OFFSET(0x1738BA90)
+#define MOLEMOLE_UICAFEPAGECONTROLLER___C__DISPLAYCLASS18_0__PAYCAFE_B__2_OFFSET UNITYSDK_OFFSET(0x1738BAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICafePageController___c__DisplayClass18_0_TypeDefinitionIndex = 51441;
+	inline static constexpr unsigned int UICafePageController___c__DisplayClass18_0_TypeDefinitionIndex = 52441;
 
 	class UICafePageController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UICafePageController* __4__this; // 0x10
-		::Class_1_499EDFA3518A0E64* selectedCafeItem; // 0x18
+		::EFCCPGCGLIE* selectedCafeItem; // 0x10
+		::MoleMole::UICafePageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

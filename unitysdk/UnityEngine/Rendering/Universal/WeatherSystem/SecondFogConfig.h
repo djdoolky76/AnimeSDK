@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SECONDFOGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CB421E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SECONDFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB424C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SECONDFOGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CF042E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SECONDFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF045C0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SecondFogConfig_TypeDefinitionIndex = 26899;
+	inline static constexpr unsigned int SecondFogConfig_TypeDefinitionIndex = 26874;
 
-	class SecondFogConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SecondFogConfig*>
+	class SecondFogConfig
 	{
 	public:
 		::System::Boolean enableSecondFog; // 0x18
 		::System::Boolean synFogColor; // 0x19
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Color fogColorA; // 0x1C
 		::System::Single fogDensityA; // 0x2C
 		::System::Single fogScatteringA; // 0x30

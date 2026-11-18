@@ -4,38 +4,39 @@
 #include "unitysdk/MoleMole/Config/MusicBattleMarkerNodeType.h"
 #include "unitysdk/MoleMole/UIWidgetController.h"
 
-class Class_2_DC4020E41FD6C2B0;
+class ADPAOKFABDM;
 namespace MoleMole { class UIControlReference; }
 namespace MoleMole { class UIMusicBattleInLevelPerfectEffWidgetController; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_ANIMCOROUTINE_OFFSET UNITYSDK_OFFSET(0x18676E80)
-#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x18676B60)
-#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x18676BF0)
-#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x18676A30)
-#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_PLAYHITBTNLINK_OFFSET UNITYSDK_OFFSET(0x18676C70)
-#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_PLAYPERFECTANIM_OFFSET UNITYSDK_OFFSET(0x18676F00)
-#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18677170)
-#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER__ONUIINIT_B__7_0_OFFSET UNITYSDK_OFFSET(0x18677290)
-#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x18677370)
-#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x18677400)
-#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x18677490)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_ELPGDDFGKCE_OFFSET UNITYSDK_OFFSET(0x147DE7A0)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_FNODIPJLPAH_OFFSET UNITYSDK_OFFSET(0x147DECE0)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x147DE400)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x147DE490)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x147DE2D0)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_PLAYHITBTNLINK_OFFSET UNITYSDK_OFFSET(0x147DE510)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_POPJELIKFBB_OFFSET UNITYSDK_OFFSET(0x147DE720)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x147DEA10)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x147DEB30)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x147DEBC0)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x147DEC50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMusicBattleInLevelInteractWidgetController_TypeDefinitionIndex = 75351;
+	inline static constexpr unsigned int UIMusicBattleInLevelInteractWidgetController_TypeDefinitionIndex = 47463;
 
 	class UIMusicBattleInLevelInteractWidgetController : public ::MoleMole::UIWidgetController
 	{
 	public:
-		::Class_2_DC4020E41FD6C2B0* _view; // 0x2C0
-		::System::Single _animLength; // 0x2C8
-		::System::Single _animEndTime; // 0x2CC
-		::Foundation::Coroutine::CoroutineHandle _animCoroutine; // 0x2D0
-		::System::Collections::Generic::List_1<::MoleMole::UIMusicBattleInLevelPerfectEffWidgetController*>* _cachedWidgets; // 0x2D8
-		::System::Action_1<::MoleMole::UIMusicBattleInLevelPerfectEffWidgetController*>* _returnToCache; // 0x2E0
+		::ADPAOKFABDM* _view; // 0x2C8
+		::System::Single FFOJCOPJAHE; // 0x2D0
+		::System::Single KMMHPBKLBNL; // 0x2D4
+		::Foundation::Coroutine::CoroutineHandle GHBIGKKBCKE; // 0x2D8
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::List_1<::MoleMole::UIMusicBattleInLevelPerfectEffWidgetController*>* KOJKHPBCPGC; // 0x2E0
+		::System::Action_1<::MoleMole::UIMusicBattleInLevelPerfectEffWidgetController*>* JEFMMOPOEND; // 0x2E8
 
 		::System::Void _ctor()
 		{
@@ -62,21 +63,6 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::MusicBattleMarkerNodeType, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_PLAYHITBTNLINK_OFFSET))(this, color, isPerfect);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Single>* AnimCoroutine()
-		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_ANIMCOROUTINE_OFFSET))(this);
-		}
-
-		::System::Void PlayPerfectAnim(::System::Boolean isPerfect, ::MoleMole::Config::MusicBattleMarkerNodeType color)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::MoleMole::Config::MusicBattleMarkerNodeType))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_PLAYPERFECTANIM_OFFSET))(this, isPerfect, color);
-		}
-
-		::System::Void _OnUIInit_b__7_0(::MoleMole::UIMusicBattleInLevelPerfectEffWidgetController* w)
-		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::UIMusicBattleInLevelPerfectEffWidgetController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER__ONUIINIT_B__7_0_OFFSET))(this, w);
-		}
-
 		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
 		{
 			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
@@ -90,6 +76,21 @@ namespace MoleMole
 		::System::Void __base_OnUIInit()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void FNODIPJLPAH(::MoleMole::UIMusicBattleInLevelPerfectEffWidgetController* ALPANKAJAGK)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIMusicBattleInLevelPerfectEffWidgetController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_FNODIPJLPAH_OFFSET))(this, ALPANKAJAGK);
+		}
+
+		::System::Collections::Generic::IEnumerator_1<::System::Single>* POPJELIKFBB()
+		{
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_POPJELIKFBB_OFFSET))(this);
+		}
+
+		::System::Void ELPGDDFGKCE(::System::Boolean IMEHMFONCLH, ::MoleMole::Config::MusicBattleMarkerNodeType JBBFCGAMDHI)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::MoleMole::Config::MusicBattleMarkerNodeType))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMUSICBATTLEINLEVELINTERACTWIDGETCONTROLLER_ELPGDDFGKCE_OFFSET))(this, IMEHMFONCLH, JBBFCGAMDHI);
 		}
 	};
 }

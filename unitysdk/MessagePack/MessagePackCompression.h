@@ -3,12 +3,12 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackCompression_TypeDefinitionIndex = 30775;
+	inline static constexpr unsigned int MessagePackCompression_TypeDefinitionIndex = 30713;
 
 	enum class MessagePackCompression : ::System::Int32
 	{
+		None = 0,
 		Lz4BlockArray = 2,
 		Lz4Block = 1,
-		None = 0,
 	};
 }

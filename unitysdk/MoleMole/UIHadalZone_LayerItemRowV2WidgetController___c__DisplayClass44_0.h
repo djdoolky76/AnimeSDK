@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHadalZone_LayerItemRowV2WidgetController; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIHADALZONE_LAYERITEMROWV2WIDGETCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186D3300)
-#define MOLEMOLE_UIHADALZONE_LAYERITEMROWV2WIDGETCONTROLLER___C__DISPLAYCLASS44_0___UNLOCLAYERCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x186D3310)
+#define MOLEMOLE_UIHADALZONE_LAYERITEMROWV2WIDGETCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184DC0E0)
+#define MOLEMOLE_UIHADALZONE_LAYERITEMROWV2WIDGETCONTROLLER___C__DISPLAYCLASS44_0___UNLOCLAYERCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x184DC0F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_LayerItemRowV2WidgetController___c__DisplayClass44_0_TypeDefinitionIndex = 78146;
+	inline static constexpr unsigned int UIHadalZone_LayerItemRowV2WidgetController___c__DisplayClass44_0_TypeDefinitionIndex = 65585;
 
 	class UIHadalZone_LayerItemRowV2WidgetController___c__DisplayClass44_0 : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_CONFIGURATION_SETTINGSGROUPNAMEATTRIBUTE_GET_GROUPNAME_OFFSET UNITYSDK_OFFSET(0x1E973F40)
-#define SYSTEM_CONFIGURATION_SETTINGSGROUPNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E973F30)
+#define SYSTEM_CONFIGURATION_SETTINGSGROUPNAMEATTRIBUTE_GET_GROUPNAME_OFFSET UNITYSDK_OFFSET(0x1EC4BCC0)
+#define SYSTEM_CONFIGURATION_SETTINGSGROUPNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4BCB0)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SettingsGroupNameAttribute_TypeDefinitionIndex = 4222;
+	inline static constexpr unsigned int SettingsGroupNameAttribute_TypeDefinitionIndex = 4221;
 
 	class SettingsGroupNameAttribute : public ::System::Attribute
 	{

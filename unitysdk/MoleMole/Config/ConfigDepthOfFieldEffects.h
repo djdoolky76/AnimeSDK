@@ -7,11 +7,11 @@ namespace MoleMole::Config { class ConfigEntityDepthOfFieldEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGDEPTHOFFIELDEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1146DC90)
+#define MOLEMOLE_CONFIG_CONFIGDEPTHOFFIELDEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x131E11D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDepthOfFieldEffects_TypeDefinitionIndex = 69323;
+	inline static constexpr unsigned int ConfigDepthOfFieldEffects_TypeDefinitionIndex = 73328;
 
 	class ConfigDepthOfFieldEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -21,12 +21,14 @@ namespace MoleMole::Config
 		::System::Single DefaultGaussianEnd; // 0x60
 		::System::Single DefaultGaussianMaxRadius; // 0x64
 		::System::Boolean DefaultHighQualitySampling; // 0x68
+		::System::Byte _padding0[0x3];
 		::System::Single DefaultFocusDistance; // 0x6C
 		::System::Single DefaultFocalLength; // 0x70
 		::System::Single DefaultAperture; // 0x74
 		::System::Int32 DefaultBladeCount; // 0x78
 		::System::Single DefaultBladeCurvature; // 0x7C
 		::System::Single DefaultBladeRotation; // 0x80
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityDepthOfFieldEffect*>* DepthOfFieldEffects; // 0x88
 
 		::System::Void _ctor()

@@ -5,14 +5,14 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine::Rendering::Universal { class VisualEnvironmentE; }
 
-#define OCEANFEVERANIMCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE20E470)
-#define OCEANFEVERANIMCONTROLLER_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xE20DE40)
-#define OCEANFEVERANIMCONTROLLER_RESTOREBASEVALUES_OFFSET UNITYSDK_OFFSET(0xE20E3E0)
-#define OCEANFEVERANIMCONTROLLER_STARTANIM_OFFSET UNITYSDK_OFFSET(0xE20DE90)
-#define OCEANFEVERANIMCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE20E0C0)
-#define OCEANFEVERANIMCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xE20E650)
+#define OCEANFEVERANIMCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xFD99120)
+#define OCEANFEVERANIMCONTROLLER_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xFD98AF0)
+#define OCEANFEVERANIMCONTROLLER_RESTOREBASEVALUES_OFFSET UNITYSDK_OFFSET(0xFD99090)
+#define OCEANFEVERANIMCONTROLLER_STARTANIM_OFFSET UNITYSDK_OFFSET(0xFD98B40)
+#define OCEANFEVERANIMCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xFD98D70)
+#define OCEANFEVERANIMCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xFD99300)
 
-inline static constexpr unsigned int OceanFeverAnimController_TypeDefinitionIndex = 82416;
+inline static constexpr unsigned int OceanFeverAnimController_TypeDefinitionIndex = 48535;
 
 class OceanFeverAnimController : public ::MoleMole::Nap_VoGroupStateListener
 {
@@ -22,11 +22,13 @@ public:
 	::UnityEngine::AnimationCurve* profileDecodeWCurve; // 0x48
 	::System::Single animationDuration; // 0x50
 	::System::Boolean _isPlaying; // 0x54
+	::System::Byte _padding0[0x3];
 	::UnityEngine::Rendering::Universal::VisualEnvironmentE* _visualEnvironment; // 0x58
 	::System::Single _baseSeaPlanePosition; // 0x60
 	::System::Single _baseDecodeZ; // 0x64
 	::System::Single _baseDecodeW; // 0x68
 	::System::Boolean _hasOceanConfigBase; // 0x6C
+	::System::Byte _padding1[0x3];
 	::System::Single _animStartTime; // 0x70
 
 	::System::Void _ctor()

@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole::Config { class ConfigHollowChessboard_GeneralIntRange2IntRangeConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GENERALRANGE2RANGEGROUPCONFIG_GETRANDOMVALUE_OFFSET UNITYSDK_OFFSET(0x172A5B20)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GENERALRANGE2RANGEGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172A5C90)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GENERALRANGE2RANGEGROUPCONFIG_GETRANDOMVALUE_OFFSET UNITYSDK_OFFSET(0x164117D0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GENERALRANGE2RANGEGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16411940)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_GeneralRange2RangeGroupConfig_TypeDefinitionIndex = 59264;
+	inline static constexpr unsigned int ConfigHollowChessboard_GeneralRange2RangeGroupConfig_TypeDefinitionIndex = 46322;
 
 	class ConfigHollowChessboard_GeneralRange2RangeGroupConfig : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_GeneralIntRange2IntRangeConfig*>* RangeConfigList; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* RangeConfigList; // 0x10
 
 		::System::Void _ctor()
 		{

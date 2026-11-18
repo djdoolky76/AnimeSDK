@@ -5,11 +5,11 @@
 namespace FlowCanvas::Macros { class Macro; }
 namespace FlowCanvas::Macros { class MacroNodeWrapper; }
 
-#define FLOWCANVAS_MACROS_MACRONODEWRAPPER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA926F0)
+#define FLOWCANVAS_MACROS_MACRONODEWRAPPER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC37C0)
 
 namespace FlowCanvas::Macros
 {
-	inline static constexpr unsigned int MacroNodeWrapper___c__DisplayClass30_0_TypeDefinitionIndex = 30867;
+	inline static constexpr unsigned int MacroNodeWrapper___c__DisplayClass30_0_TypeDefinitionIndex = 29586;
 
 	class MacroNodeWrapper___c__DisplayClass30_0 : public ::System::Object
 	{

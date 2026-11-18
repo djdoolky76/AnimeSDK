@@ -1,71 +1,86 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/DJCHCMEFPIF.h"
+#include "unitysdk/LGOHCKHPJBN.h"
 #include "unitysdk/MoleMole/Config/GuidePoint_AutoGenStrategy.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
-#include "unitysdk/Struct_2_76CCAEE20B3AE57C.h"
-#include "unitysdk/Struct_2_A3F7BC7FD0AC1E07.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 
-class Class_1_A00B784DE48ED0A8;
-class Class_2_4B3401D95328DA92;
+class LKMLFIAKFOO;
+class PPAAHJMDPAO;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_ASYNCCALCPATH_OFFSET UNITYSDK_OFFSET(0x1916E990)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_CALCPATH_ASYNC_OFFSET UNITYSDK_OFFSET(0x1916D160)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_CANCELASYNCQUERY_OFFSET UNITYSDK_OFFSET(0x1916EAF0)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_CANREACHDIRECTLY_OFFSET UNITYSDK_OFFSET(0x1916ECB0)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_CUTLINEINQUESTCIRCLEAREA_OFFSET UNITYSDK_OFFSET(0x1916D3B0)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1916D9A0)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1916D620)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETBIGSCENENAVMESHPATHRESULT_ASYNC_OFFSET UNITYSDK_OFFSET(0x1916E4D0)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETBIGSCENETRACKPOINTSDATA_OFFSET UNITYSDK_OFFSET(0x1916E090)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETGROUNDPOS_OFFSET UNITYSDK_OFFSET(0x1916EB60)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETMAINCITYTARGETPOS_OFFSET UNITYSDK_OFFSET(0x1916E750)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETPOINTSINBIGSCENE_OFFSET UNITYSDK_OFFSET(0x1916DE30)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETPOINTSINMAINCITY_OFFSET UNITYSDK_OFFSET(0x1916DBD0)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETPOINTSONRADARHUD_OFFSET UNITYSDK_OFFSET(0x1916DA10)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETTRACKTARGETWORLDPOSITIONINBIGSCENE_OFFSET UNITYSDK_OFFSET(0x1916E1A0)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETWORLDPOINTSINBIGSCENE_NAVMESHCALC_ASYNC_OFFSET UNITYSDK_OFFSET(0x1916D2A0)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETWORLDPOINTSINMAINCITY_ASYNC_OFFSET UNITYSDK_OFFSET(0x1916D060)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GET_MAPMODEL_OFFSET UNITYSDK_OFFSET(0x1916C980)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GET_USEASYNCTRACKLINE_OFFSET UNITYSDK_OFFSET(0x1916C960)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_SAMPLEPOSITIONGRADUALLY_OFFSET UNITYSDK_OFFSET(0x1916E620)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_SETQUERYCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1916E940)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__ASYNCCALCPATH_B__33_0_OFFSET UNITYSDK_OFFSET(0x1916ED80)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1916CA40)
-#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1916EDB0)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_ASYNCCALCPATH_OFFSET UNITYSDK_OFFSET(0x185EAA60)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_CALCPATH_ASYNC_OFFSET UNITYSDK_OFFSET(0x185E9010)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_CANCELASYNCQUERY_OFFSET UNITYSDK_OFFSET(0x185EABC0)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_CANREACHDIRECTLY_OFFSET UNITYSDK_OFFSET(0x185EAD80)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_CUTLINEINQUESTCIRCLEAREA_OFFSET UNITYSDK_OFFSET(0x185E9280)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x185E9860)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0x185E94F0)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETBIGSCENENAVMESHPATHRESULT_ASYNC_OFFSET UNITYSDK_OFFSET(0x185EA2F0)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETBIGSCENETRACKPOINTSDATA_OFFSET UNITYSDK_OFFSET(0x185E9EB0)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETGROUNDPOS_OFFSET UNITYSDK_OFFSET(0x185EAC30)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETMAINCITYTARGETPOS_OFFSET UNITYSDK_OFFSET(0x185EA810)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETPOINTSONRADARHUD_OFFSET UNITYSDK_OFFSET(0x185E98D0)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETTRACKTARGETWORLDPOSITIONINBIGSCENE_OFFSET UNITYSDK_OFFSET(0x185E9FC0)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETWORLDPOINTSINBIGSCENE_NAVMESHCALC_ASYNC_OFFSET UNITYSDK_OFFSET(0x185E9170)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETWORLDPOINTSINMAINCITY_ASYNC_OFFSET UNITYSDK_OFFSET(0x185E8F00)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GET_MAPMODEL_OFFSET UNITYSDK_OFFSET(0x185E87B0)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GET_USEASYNCTRACKLINE_OFFSET UNITYSDK_OFFSET(0x185E8790)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_REFRESHPOINTSINBIGSCENE_OFFSET UNITYSDK_OFFSET(0x185E9CB0)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_REFRESHPOINTSINMAINCITY_OFFSET UNITYSDK_OFFSET(0x185E9AB0)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_SAMPLEPOSITIONGRADUALLY_OFFSET UNITYSDK_OFFSET(0x185EA440)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_SETQUERYCOMPLETED_OFFSET UNITYSDK_OFFSET(0x185EAA10)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__ASYNCCALCPATH_B__34_0_OFFSET UNITYSDK_OFFSET(0x185EAF80)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x185EAE50)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x185E8880)
+#define MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x185EAFB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapTrackLineWidgetContext_TypeDefinitionIndex = 54325;
+	inline static constexpr unsigned int UIUrbanMapTrackLineWidgetContext_TypeDefinitionIndex = 52010;
 
 	class UIUrbanMapTrackLineWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::MoleMole::Config::GuidePoint_AutoGenStrategy _splitStrategy; // 0x28
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* CachedBigSceneWorldPoints; // 0x78
-		::Struct_2_76CCAEE20B3AE57C TrackTarget; // 0x80
-		::System::Collections::Generic::List_1<::System::Single>* m_sampleDistanceList; // 0x98
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* CachedMainCityWorldPoints; // 0xA0
-		::Class_1_A00B784DE48ED0A8* QueryWrapper; // 0xA8
-		::UnityEngine::Color Color; // 0xB0
-		::Struct_2_A3F7BC7FD0AC1E07 MapConvertData; // 0xC0
-		::System::Boolean UseExternalTargetPos; // 0xF8
-		::System::Boolean IsCancelled; // 0xF9
-		::System::Boolean QueryCompleted; // 0xFA
-		::UnityEngine::Vector3 _beforeMappedDestinationPos; // 0xFC
-		::UnityEngine::Vector3 _afterMappedDestinationPos; // 0x108
-		::UnityEngine::Vector3 PlayerPosition; // 0x114
-		::System::Int32 defaultAreaMask; // 0x120
-		::UnityEngine::Vector3 ExternalTargetPos; // 0x124
-
-		::System::Void _ctor(::Struct_2_76CCAEE20B3AE57C trackTarget, ::Struct_2_A3F7BC7FD0AC1E07 mapConvertData, ::UnityEngine::Color color, ::UnityEngine::Vector3 playerPosition, ::System::Boolean needCache, ::UnityEngine::Vector3 externalTargetPos, ::System::Boolean useOverridePos)
+		static ::System::Collections::Generic::List_1<::System::Single>** StaticGet_m_sampleDistanceList()
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_76CCAEE20B3AE57C, ::Struct_2_A3F7BC7FD0AC1E07, ::UnityEngine::Color, ::UnityEngine::Vector3, ::System::Boolean, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__CTOR_OFFSET))(this, trackTarget, mapConvertData, color, playerPosition, needCache, externalTargetPos, useOverridePos);
+			return (::System::Collections::Generic::List_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(UIUrbanMapTrackLineWidgetContext_TypeDefinitionIndex)->GetStaticField(0x39200);
+		}
+		static ::System::Collections::Generic::List_1<::System::Single>** StaticGet_m_sampleVerticalToleranceList()
+		{
+			return (::System::Collections::Generic::List_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(UIUrbanMapTrackLineWidgetContext_TypeDefinitionIndex)->GetStaticField(0x39208);
+		}
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _pointsOnRadarHud; // 0x28
+		::PPAAHJMDPAO* QueryWrapper; // 0x30
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* CachedBigSceneWorldPoints; // 0x38
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* CachedMainCityWorldPoints; // 0x40
+		::MoleMole::Config::GuidePoint_AutoGenStrategy _splitStrategy; // 0x48
+		::DJCHCMEFPIF TrackTarget; // 0x98
+		::UnityEngine::Vector3 ExternalTargetPos; // 0xB0
+		::UnityEngine::Vector3 PlayerPosition; // 0xBC
+		::UnityEngine::Vector3 _afterMappedDestinationPos; // 0xC8
+		::LGOHCKHPJBN MapConvertData; // 0xD4
+		::UnityEngine::Vector3 _beforeMappedDestinationPos; // 0x10C
+		::System::Boolean UseExternalTargetPos; // 0x118
+		::System::Boolean QueryCompleted; // 0x119
+		::System::Boolean IsCancelled; // 0x11A
+		::System::Byte _padding0[0x1];
+		::System::Int32 defaultAreaMask; // 0x11C
+		::UnityEngine::Color Color; // 0x120
+
+		::System::Void _ctor(::DJCHCMEFPIF trackTarget, ::LGOHCKHPJBN mapConvertData, ::UnityEngine::Color color, ::UnityEngine::Vector3 playerPosition, ::System::Boolean needCache, ::UnityEngine::Vector3 externalTargetPos, ::System::Boolean useOverridePos)
+		{
+			return ((::System::Void(*)(::PVOID, ::DJCHCMEFPIF, ::LGOHCKHPJBN, ::UnityEngine::Color, ::UnityEngine::Vector3, ::System::Boolean, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__CTOR_OFFSET))(this, trackTarget, mapConvertData, color, playerPosition, needCache, externalTargetPos, useOverridePos);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_UseAsyncTrackLine()
@@ -93,9 +108,9 @@ namespace MoleMole
 			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector2>*(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETPOINTSONRADARHUD_OFFSET))(this, playerPos);
 		}
 
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* GetPointsInBigScene(::UnityEngine::Vector3 playerPosVal)
+		::System::Void RefreshPointsInBigScene(::UnityEngine::Vector3 playerPosVal)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector2>*(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETPOINTSINBIGSCENE_OFFSET))(this, playerPosVal);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_REFRESHPOINTSINBIGSCENE_OFFSET))(this, playerPosVal);
 		}
 
 		::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean> GetWorldPointsInBigScene_NavMeshCalc_Async(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* paths, ::UnityEngine::Vector3 playerPosVal)
@@ -123,14 +138,14 @@ namespace MoleMole
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETTRACKTARGETWORLDPOSITIONINBIGSCENE_OFFSET))(this);
 		}
 
-		::Class_2_4B3401D95328DA92* get_MapModel()
+		::LKMLFIAKFOO* get_MapModel()
 		{
-			return ((::Class_2_4B3401D95328DA92*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GET_MAPMODEL_OFFSET))(this);
+			return ((::LKMLFIAKFOO*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GET_MAPMODEL_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* GetPointsInMainCity(::UnityEngine::Vector3 playerPosVal)
+		::System::Void RefreshPointsInMainCity(::UnityEngine::Vector3 playerPosVal)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::Vector2>*(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_GETPOINTSINMAINCITY_OFFSET))(this, playerPosVal);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_REFRESHPOINTSINMAINCITY_OFFSET))(this, playerPosVal);
 		}
 
 		::System::Boolean GetMainCityTargetPos(::UnityEngine::Vector3& targetNavPos)
@@ -173,9 +188,9 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT_CANREACHDIRECTLY_OFFSET))(this, from, to);
 		}
 
-		::System::Boolean _AsyncCalcPath_b__33_0()
+		::System::Boolean _AsyncCalcPath_b__34_0()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__ASYNCCALCPATH_B__33_0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPTRACKLINEWIDGETCONTEXT__ASYNCCALCPATH_B__34_0_OFFSET))(this);
 		}
 
 		::System::Boolean __base_Equals(::System::Object* P0)

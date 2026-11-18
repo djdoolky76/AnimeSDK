@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_90858D70BEDD91CA;
+class GPPIBFNLGIL;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIGENERALFILTERPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x195F9750)
-#define MOLEMOLE_UIGENERALFILTERPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x195F9790)
-#define MOLEMOLE_UIGENERALFILTERPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__28_0_OFFSET UNITYSDK_OFFSET(0x195F97A0)
+#define MOLEMOLE_UIGENERALFILTERPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F0C6C0)
+#define MOLEMOLE_UIGENERALFILTERPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18F0C700)
+#define MOLEMOLE_UIGENERALFILTERPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__28_0_OFFSET UNITYSDK_OFFSET(0x18F0C710)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralFilterPopWindowController___c_TypeDefinitionIndex = 46960;
+	inline static constexpr unsigned int UIGeneralFilterPopWindowController___c_TypeDefinitionIndex = 52841;
 
 	class UIGeneralFilterPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_90858D70BEDD91CA*, ::System::Boolean>** StaticGet___9__28_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_1_90858D70BEDD91CA*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralFilterPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x450A0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralFilterPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4AB60);
 		}
-		static ::MoleMole::UIGeneralFilterPopWindowController___c** StaticGet___9()
+		static ::System::Func_2<::GPPIBFNLGIL*, ::System::Boolean>** StaticGet___9__28_0()
 		{
-			return (::MoleMole::UIGeneralFilterPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralFilterPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x450A8);
+			return (::System::Func_2<::GPPIBFNLGIL*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralFilterPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4AB68);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALFILTERPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RefreshView_b__28_0(::Class_1_90858D70BEDD91CA* g)
+		::System::Boolean _RefreshView_b__28_0(::GPPIBFNLGIL* g)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_90858D70BEDD91CA*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALFILTERPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__28_0_OFFSET))(this, g);
+			return ((::System::Boolean(*)(::PVOID, ::GPPIBFNLGIL*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALFILTERPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__28_0_OFFSET))(this, g);
 		}
 	};
 }

@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Rendering/BatchMaterialID.h"
 #include "unitysdk/UnityEngine/Rendering/BatchMeshID.h"
 
-#define UNITYENGINE_RENDERING_BATCHDRAWCOMMAND_SET_USELODDISTANCECULL_OFFSET UNITYSDK_OFFSET(0xA12A50)
+#define UNITYENGINE_RENDERING_BATCHDRAWCOMMAND_SET_USELODDISTANCECULL_OFFSET UNITYSDK_OFFSET(0x905C10)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchDrawCommand_TypeDefinitionIndex = 6218;
+	inline static constexpr unsigned int BatchDrawCommand_TypeDefinitionIndex = 6233;
 
 	struct alignas(4) BatchDrawCommand
 	{

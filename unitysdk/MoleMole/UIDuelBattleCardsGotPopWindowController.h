@@ -1,0 +1,152 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GMFAKIPCDED.h"
+#include "unitysdk/MoleMole/UIBaseController_FadeFlag.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+
+class EDKAGLIKOPH;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIDuelBattleCardsGotPopWindowContext; }
+namespace MoleMole { class UILinkTermCollector; }
+namespace MoleMole { class UIScaryNightInLevelBigCardWidgetController; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_CAMLKOAAKIK_OFFSET UNITYSDK_OFFSET(0x184B1BB0)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_EDADFLOHHNE_OFFSET UNITYSDK_OFFSET(0x184B1270)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x184B0780)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_IHJJDMDMMAK_OFFSET UNITYSDK_OFFSET(0x184B2410)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_KIABILFABOP_OFFSET UNITYSDK_OFFSET(0x184B1540)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x184B1C20)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_ONFADEPLAYFINISH_OFFSET UNITYSDK_OFFSET(0x184B1AF0)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x184B1E70)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x184B1CB0)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x184B0790)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x184B0890)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_PIONCLBHHFJ_OFFSET UNITYSDK_OFFSET(0x184B22F0)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_POJIEFBDNNH_OFFSET UNITYSDK_OFFSET(0x184B1FD0)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x184B2050)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x184B20E0)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER___BASE_ONFADEPLAYFINISH_OFFSET UNITYSDK_OFFSET(0x184B2170)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER___BASE_ONUICLOSE_OFFSET UNITYSDK_OFFSET(0x184B2180)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x184B2240)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x184B2250)
+#define MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x184B2260)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIDuelBattleCardsGotPopWindowController_TypeDefinitionIndex = 52731;
+
+	class UIDuelBattleCardsGotPopWindowController : public ::MoleMole::UIWindowController
+	{
+	public:
+		::EDKAGLIKOPH* _view; // 0x320
+		::MoleMole::UIDuelBattleCardsGotPopWindowContext* DAAAEJDBNFI; // 0x328
+		::System::Collections::Generic::List_1<::MoleMole::UIScaryNightInLevelBigCardWidgetController*>* CLNBMBJGCCO; // 0x330
+		::System::Boolean DLNGJNMHEGI; // 0x338
+		::System::Boolean GMIPPANJNEK; // 0x339
+		::System::Byte _padding0[0x6];
+		::MoleMole::UILinkTermCollector* MPAMBKPCELB; // 0x340
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::GMFAKIPCDED get_windowType()
+		{
+			return ((::GMFAKIPCDED(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnFadePlayFinish(::MoleMole::UIBaseController_FadeFlag flag, ::System::String* animName)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIBaseController_FadeFlag, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_ONFADEPLAYFINISH_OFFSET))(this, flag, animName);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnUIClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_ONUICLOSE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnFadePlayFinish(::MoleMole::UIBaseController_FadeFlag P0, ::System::String* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIBaseController_FadeFlag, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER___BASE_ONFADEPLAYFINISH_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnUIClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER___BASE_ONUICLOSE_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+
+		::System::Void CAMLKOAAKIK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_CAMLKOAAKIK_OFFSET))(this);
+		}
+
+		::System::Void KIABILFABOP(::System::Boolean GCKPCMEMKMM)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_KIABILFABOP_OFFSET))(this, GCKPCMEMKMM);
+		}
+
+		::System::Void PIONCLBHHFJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_PIONCLBHHFJ_OFFSET))(this);
+		}
+
+		::System::Void EDADFLOHHNE(::MoleMole::UIScaryNightInLevelBigCardWidgetController* OFJCKDMPPFO)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIScaryNightInLevelBigCardWidgetController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_EDADFLOHHNE_OFFSET))(this, OFJCKDMPPFO);
+		}
+
+		::System::Void POJIEFBDNNH()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_POJIEFBDNNH_OFFSET))(this);
+		}
+
+		::System::Void IHJJDMDMMAK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDUELBATTLECARDSGOTPOPWINDOWCONTROLLER_IHJJDMDMMAK_OFFSET))(this);
+		}
+	};
+}

@@ -6,12 +6,12 @@ namespace MoleMole { class UIHollowMainBottomWidgetController_BuffSlot; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER_BUFFSLOT___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18997530)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER_BUFFSLOT___C__DISPLAYCLASS41_0__PLAYBUFFDES_B__0_OFFSET UNITYSDK_OFFSET(0x18997D00)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER_BUFFSLOT___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16F0A530)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER_BUFFSLOT___C__DISPLAYCLASS41_0__PLAYBUFFDES_B__0_OFFSET UNITYSDK_OFFSET(0x16F0AD10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController_BuffSlot___c__DisplayClass41_0_TypeDefinitionIndex = 83686;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController_BuffSlot___c__DisplayClass41_0_TypeDefinitionIndex = 43702;
 
 	class UIHollowMainBottomWidgetController_BuffSlot___c__DisplayClass41_0 : public ::System::Object
 	{

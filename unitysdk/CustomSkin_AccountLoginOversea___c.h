@@ -4,27 +4,27 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CUSTOMSKIN_ACCOUNTLOGINOVERSEA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x194945E0)
-#define CUSTOMSKIN_ACCOUNTLOGINOVERSEA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19494620)
-#define CUSTOMSKIN_ACCOUNTLOGINOVERSEA___C__SETTHIRDLOGIN_B__15_0_OFFSET UNITYSDK_OFFSET(0x19494630)
-#define CUSTOMSKIN_ACCOUNTLOGINOVERSEA___C__SETTHIRDLOGIN_B__15_1_OFFSET UNITYSDK_OFFSET(0x19494640)
+#define CUSTOMSKIN_ACCOUNTLOGINOVERSEA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x168959E0)
+#define CUSTOMSKIN_ACCOUNTLOGINOVERSEA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16895A20)
+#define CUSTOMSKIN_ACCOUNTLOGINOVERSEA___C__SETTHIRDLOGIN_B__15_0_OFFSET UNITYSDK_OFFSET(0x16895A30)
+#define CUSTOMSKIN_ACCOUNTLOGINOVERSEA___C__SETTHIRDLOGIN_B__15_1_OFFSET UNITYSDK_OFFSET(0x16895A40)
 
-inline static constexpr unsigned int CustomSkin_AccountLoginOversea___c_TypeDefinitionIndex = 62966;
+inline static constexpr unsigned int CustomSkin_AccountLoginOversea___c_TypeDefinitionIndex = 60404;
 
 class CustomSkin_AccountLoginOversea___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__15_1()
+	static ::System::Object** StaticGet___9()
 	{
-		return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_AccountLoginOversea___c_TypeDefinitionIndex)->GetStaticField(0x4CC30);
+		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_AccountLoginOversea___c_TypeDefinitionIndex)->GetStaticField(0x506D0);
 	}
 	static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__15_0()
 	{
-		return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_AccountLoginOversea___c_TypeDefinitionIndex)->GetStaticField(0x4CC38);
+		return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_AccountLoginOversea___c_TypeDefinitionIndex)->GetStaticField(0x506D8);
 	}
-	static ::CustomSkin_AccountLoginOversea___c** StaticGet___9()
+	static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__15_1()
 	{
-		return (::CustomSkin_AccountLoginOversea___c**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_AccountLoginOversea___c_TypeDefinitionIndex)->GetStaticField(0x4CC40);
+		return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_AccountLoginOversea___c_TypeDefinitionIndex)->GetStaticField(0x506E0);
 	}
 
 	static ::System::Void _cctor()

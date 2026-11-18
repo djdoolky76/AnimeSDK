@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AD050)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5E110)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass4_0_TypeDefinitionIndex = 31066;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass4_0_TypeDefinitionIndex = 30632;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass4_0 : public ::System::Object
 	{

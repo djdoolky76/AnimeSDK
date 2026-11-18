@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/IFix/Core/Call.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/IFix/Core/Call.h"
 
 namespace IFix::Core { class VirtualMachine; }
 namespace System { class Type; }
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class MethodBase; }
 
-#define IFIX_CORE_REFLECTIONMETHODINVOKER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E084690)
-#define IFIX_CORE_REFLECTIONMETHODINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E084030)
+#define IFIX_CORE_REFLECTIONMETHODINVOKER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E41AB40)
+#define IFIX_CORE_REFLECTIONMETHODINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E41A4E0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int ReflectionMethodInvoker_TypeDefinitionIndex = 6943;
+	inline static constexpr unsigned int ReflectionMethodInvoker_TypeDefinitionIndex = 6950;
 
 	class ReflectionMethodInvoker : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Boolean>* outFlags; // 0x10
-		::System::Type* returnType; // 0x18
-		::System::Reflection::MethodBase* method; // 0x20
-		::Il2CppArray<::System::Boolean>* refFlags; // 0x28
-		::Il2CppArray<::System::Type*>* rawTypes; // 0x30
-		::System::Reflection::ConstructorInfo* ctor; // 0x38
-		::System::Boolean isValueTypeInstance; // 0x40
-		::System::Boolean isNullableValue; // 0x41
-		::System::Boolean hasReturn; // 0x42
-		::System::Boolean isNullableHasValue; // 0x43
-		::System::Int32 paramCount; // 0x44
-		::System::Boolean isNullableGetValueOrDefault; // 0x48
-		::System::Boolean hasThis; // 0x49
+		::System::Reflection::MethodBase* method; // 0x10
+		::System::Reflection::ConstructorInfo* ctor; // 0x18
+		::System::Type* returnType; // 0x20
+		::Il2CppArray<::System::Boolean>* outFlags; // 0x28
+		::Il2CppArray<::System::Boolean>* refFlags; // 0x30
+		::Il2CppArray<::System::Type*>* rawTypes; // 0x38
+		::System::Int32 paramCount; // 0x40
+		::System::Boolean hasReturn; // 0x44
+		::System::Boolean isNullableGetValueOrDefault; // 0x45
+		::System::Boolean hasThis; // 0x46
+		::System::Boolean isNullableHasValue; // 0x47
+		::System::Boolean isValueTypeInstance; // 0x48
+		::System::Boolean isNullableValue; // 0x49
 
 		::System::Void _ctor(::System::Reflection::MethodBase* method)
 		{

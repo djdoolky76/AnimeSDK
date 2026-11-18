@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_D375C91CCE5D3999;
+class CJIEIHEDMME;
 
-#define MOLEMOLE_UIACTIVITYROLESKINAWARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19761820)
+#define MOLEMOLE_UIACTIVITYROLESKINAWARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0DAC80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityRoleSkinAwardContext_TypeDefinitionIndex = 78373;
+	inline static constexpr unsigned int UIActivityRoleSkinAwardContext_TypeDefinitionIndex = 78968;
 
 	class UIActivityRoleSkinAwardContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_D375C91CCE5D3999* activityData; // 0x28
+		::CJIEIHEDMME* activityData; // 0x28
 
 		::System::Void _ctor()
 		{

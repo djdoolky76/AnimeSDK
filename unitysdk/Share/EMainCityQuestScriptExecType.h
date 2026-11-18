@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EMainCityQuestScriptExecType_TypeDefinitionIndex = 13893;
+	inline static constexpr unsigned int EMainCityQuestScriptExecType_TypeDefinitionIndex = 10717;
 
 	enum class EMainCityQuestScriptExecType : ::System::Int16
 	{
-		WhenEnterScene = 0,
-		Immediately = 1,
 		EnumCount = 2,
+		Immediately = 1,
+		WhenEnterScene = 0,
 	};
 }

@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_Group_CombineOp_TypeDefinitionIndex = 67348;
+	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_Group_CombineOp_TypeDefinitionIndex = 43146;
 
 	enum class ConfigSoundActionTriggerCondition_Group_CombineOp : ::System::Int32
 	{
-		And = 0,
 		Or = 1,
+		And = 0,
 	};
 }

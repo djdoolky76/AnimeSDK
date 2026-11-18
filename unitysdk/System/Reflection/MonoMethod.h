@@ -22,42 +22,42 @@ namespace System::Reflection { class MethodBody; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_0C7BBDFFD203B46C_OFFSET UNITYSDK_OFFSET(0x1D68C740)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_3DAA10467C74B801_OFFSET UNITYSDK_OFFSET(0x1D68C900)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_3FEA8408C5ED329C_OFFSET UNITYSDK_OFFSET(0x1D68D170)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_4701BC6211E16711_OFFSET UNITYSDK_OFFSET(0x1D68D3D0)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_5DCD2917CBE6E984_OFFSET UNITYSDK_OFFSET(0x1D68C8F0)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_62DDE419CEA20711_OFFSET UNITYSDK_OFFSET(0x1D68C750)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_6841F8CAC82B9A48_OFFSET UNITYSDK_OFFSET(0x1D68D710)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_6A56EDCDE2C256CF_OFFSET UNITYSDK_OFFSET(0x1D68D160)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_6C5DB94BC17DC310_OFFSET UNITYSDK_OFFSET(0x1D68D180)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_6E60EA9DEFBD06D3_OFFSET UNITYSDK_OFFSET(0x1D68CB90)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_78810BEC4D9DFF5E_OFFSET UNITYSDK_OFFSET(0x1D68C860)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_80A105D4D05CBD05_OFFSET UNITYSDK_OFFSET(0x1D68D190)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1D68C650)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_8CAAC837D1BDD16C_1_OFFSET UNITYSDK_OFFSET(0x1D68C6D0)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_8CAAC837D1BDD16C_OFFSET UNITYSDK_OFFSET(0x1D68C6C0)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x1D68C8A0)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_9F910299BBC0733E_OFFSET UNITYSDK_OFFSET(0x1D68D1B0)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_A0420FB436E33D57_OFFSET UNITYSDK_OFFSET(0x1D68D870)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_A3C117624446E448_OFFSET UNITYSDK_OFFSET(0x1D68D880)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_A51678A8D4BC4D2E_OFFSET UNITYSDK_OFFSET(0x1D68D720)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_A99467CE9479C990_OFFSET UNITYSDK_OFFSET(0x1D68D090)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_AA0FB569ADA413C9_OFFSET UNITYSDK_OFFSET(0x1D68C660)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_ACDCC589F31A1218_OFFSET UNITYSDK_OFFSET(0x1D68D010)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_C0F5355C66E7CFE2_OFFSET UNITYSDK_OFFSET(0x1D68C6B0)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_CC189634DEC8C028_OFFSET UNITYSDK_OFFSET(0x1D68D760)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x1D68D840)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_CFDB2DF757369D2B_OFFSET UNITYSDK_OFFSET(0x1D68D100)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_D0245B4DA3D85E3F_OFFSET UNITYSDK_OFFSET(0x1D68C6E0)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_DAB8FA6A764B2239_OFFSET UNITYSDK_OFFSET(0x1D68D0A0)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_DFD1CA50C1B9981F_OFFSET UNITYSDK_OFFSET(0x1D68D030)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_E5B66DFF261369AD_OFFSET UNITYSDK_OFFSET(0x1D68C7B0)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_E93FB20C44775568_OFFSET UNITYSDK_OFFSET(0x1D68CEF0)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_EABBA8A24DDDB637_OFFSET UNITYSDK_OFFSET(0x1D68D700)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_F0088C88851A7DFB_1_OFFSET UNITYSDK_OFFSET(0x1D68D900)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x1D68D6F0)
-#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_F03C8C30B60ADB89_OFFSET UNITYSDK_OFFSET(0x1D68D020)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_0_OFFSET UNITYSDK_OFFSET(0x1DB599C0)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_10_10_OFFSET UNITYSDK_OFFSET(0x1DB59C10)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_11_11_OFFSET UNITYSDK_OFFSET(0x1DB59C60)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_12_12_OFFSET UNITYSDK_OFFSET(0x1DB59C70)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_13_13_OFFSET UNITYSDK_OFFSET(0x1DB59F00)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_14_14_OFFSET UNITYSDK_OFFSET(0x1DB5A380)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_15_15_OFFSET UNITYSDK_OFFSET(0x1DB5A390)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_16_16_OFFSET UNITYSDK_OFFSET(0x1DB5A3A0)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_17_17_OFFSET UNITYSDK_OFFSET(0x1DB5A400)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_18_18_OFFSET UNITYSDK_OFFSET(0x1DB5A410)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_19_19_OFFSET UNITYSDK_OFFSET(0x1DB5A470)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_1_1_OFFSET UNITYSDK_OFFSET(0x1DB599D0)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_20_20_OFFSET UNITYSDK_OFFSET(0x1DB5A4D0)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_21_21_OFFSET UNITYSDK_OFFSET(0x1DB5A4E0)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_22_22_OFFSET UNITYSDK_OFFSET(0x1DB5A4F0)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_23_23_OFFSET UNITYSDK_OFFSET(0x1DB5A500)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_24_24_OFFSET UNITYSDK_OFFSET(0x1DB5A520)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_25_25_OFFSET UNITYSDK_OFFSET(0x1DB5A740)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_26_26_OFFSET UNITYSDK_OFFSET(0x1DB5AA80)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_27_27_OFFSET UNITYSDK_OFFSET(0x1DB5AA70)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_28_28_OFFSET UNITYSDK_OFFSET(0x1DB5AA90)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_29_29_OFFSET UNITYSDK_OFFSET(0x1DB5AAD0)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_2_2_OFFSET UNITYSDK_OFFSET(0x1DB59A20)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_30_30_OFFSET UNITYSDK_OFFSET(0x1DB5AA60)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_31_31_OFFSET UNITYSDK_OFFSET(0x1DB5ABB0)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_32_32_OFFSET UNITYSDK_OFFSET(0x1DB5A260)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_33_33_OFFSET UNITYSDK_OFFSET(0x1DB5ABE0)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_34_34_OFFSET UNITYSDK_OFFSET(0x1DB5ABF0)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_35_35_OFFSET UNITYSDK_OFFSET(0x1DB5AC70)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_3_3_OFFSET UNITYSDK_OFFSET(0x1DB59A30)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_4_4_OFFSET UNITYSDK_OFFSET(0x1DB59A40)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_5_OFFSET UNITYSDK_OFFSET(0x1DB59A50)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_6_6_OFFSET UNITYSDK_OFFSET(0x1DB59AB0)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_7_7_OFFSET UNITYSDK_OFFSET(0x1DB59AC0)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_8_8_OFFSET UNITYSDK_OFFSET(0x1DB59B20)
+#define SYSTEM_REFLECTION_MONOMETHOD_METHOD_9_9_OFFSET UNITYSDK_OFFSET(0x1DB59BD0)
 
 namespace System::Reflection
 {
@@ -66,188 +66,188 @@ namespace System::Reflection
 	class MonoMethod : public ::System::Reflection::RuntimeMethodInfo
 	{
 	public:
-		::System::IntPtr Field_5_2; // 0x10
-		::System::String* Field_5_1; // 0x18
-		::System::Type* Field_5_0; // 0x20
+		::System::IntPtr Field_0; // 0x10
+		::System::String* Field_1; // 0x18
+		::System::Type* Field_2; // 0x20
 
-		::System::Void Method_5_832295EC279E5994()
+		::System::Void Method_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_0_OFFSET))(this);
 		}
 
-		static ::System::String* Method_5_AA0FB569ADA413C9(::System::Reflection::MethodBase* method)
+		static ::System::String* Method_1_1(::System::Reflection::MethodBase* method)
 		{
-			return ((::System::String*(*)(::System::Reflection::MethodBase*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_AA0FB569ADA413C9_OFFSET))(method);
+			return ((::System::String*(*)(::System::Reflection::MethodBase*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_1_1_OFFSET))(method);
 		}
 
-		static ::System::Reflection::MonoMethod* Method_5_C0F5355C66E7CFE2(::System::Reflection::MonoMethod* method, ::System::Boolean definition)
+		static ::System::Reflection::MonoMethod* Method_2_2(::System::Reflection::MonoMethod* method, ::System::Boolean definition)
 		{
-			return ((::System::Reflection::MonoMethod*(*)(::System::Reflection::MonoMethod*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_C0F5355C66E7CFE2_OFFSET))(method, definition);
+			return ((::System::Reflection::MonoMethod*(*)(::System::Reflection::MonoMethod*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_2_2_OFFSET))(method, definition);
 		}
 
-		::System::Reflection::MethodInfo* Method_5_8CAAC837D1BDD16C()
+		::System::Reflection::MethodInfo* Method_3_3()
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_8CAAC837D1BDD16C_OFFSET))(this);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_3_3_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodInfo* Method_5_8CAAC837D1BDD16C_1()
+		::System::Reflection::MethodInfo* Method_4_4()
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_8CAAC837D1BDD16C_1_OFFSET))(this);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_4_4_OFFSET))(this);
 		}
 
-		::System::Type* Method_5_D0245B4DA3D85E3F()
+		::System::Type* Method_5_5()
 		{
-			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_D0245B4DA3D85E3F_OFFSET))(this);
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_5_OFFSET))(this);
 		}
 
-		::System::Reflection::ICustomAttributeProvider* Method_5_0C7BBDFFD203B46C()
+		::System::Reflection::ICustomAttributeProvider* Method_6_6()
 		{
-			return ((::System::Reflection::ICustomAttributeProvider*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_0C7BBDFFD203B46C_OFFSET))(this);
+			return ((::System::Reflection::ICustomAttributeProvider*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_6_6_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodImplAttributes Method_5_62DDE419CEA20711()
+		::System::Reflection::MethodImplAttributes Method_7_7()
 		{
-			return ((::System::Reflection::MethodImplAttributes(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_62DDE419CEA20711_OFFSET))(this);
+			return ((::System::Reflection::MethodImplAttributes(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_7_7_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Reflection::ParameterInfo*>* Method_5_E5B66DFF261369AD()
+		::Il2CppArray<::System::Reflection::ParameterInfo*>* Method_8_8()
 		{
-			return ((::Il2CppArray<::System::Reflection::ParameterInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_E5B66DFF261369AD_OFFSET))(this);
+			return ((::Il2CppArray<::System::Reflection::ParameterInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_8_8_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Reflection::ParameterInfo*>* Method_5_78810BEC4D9DFF5E()
+		::Il2CppArray<::System::Reflection::ParameterInfo*>* Method_9_9()
 		{
-			return ((::Il2CppArray<::System::Reflection::ParameterInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_78810BEC4D9DFF5E_OFFSET))(this);
+			return ((::Il2CppArray<::System::Reflection::ParameterInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_9_9_OFFSET))(this);
 		}
 
-		::System::Int32 Method_5_95780ED94B90ED36()
+		::System::Int32 Method_10_10()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_95780ED94B90ED36_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_10_10_OFFSET))(this);
 		}
 
-		::System::Object* Method_5_5DCD2917CBE6E984(::System::Object* obj, ::Il2CppArray<::System::Object*>* parameters, ::System::Exception*& exc)
+		::System::Object* Method_11_11(::System::Object* obj, ::Il2CppArray<::System::Object*>* parameters, ::System::Exception*& exc)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::Il2CppArray<::System::Object*>*, ::System::Exception*&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_5DCD2917CBE6E984_OFFSET))(this, obj, parameters, exc);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::Il2CppArray<::System::Object*>*, ::System::Exception*&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_11_11_OFFSET))(this, obj, parameters, exc);
 		}
 
-		::System::Object* Method_5_3DAA10467C74B801(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::Il2CppArray<::System::Object*>* parameters, ::System::Globalization::CultureInfo* culture)
+		::System::Object* Method_12_12(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::Il2CppArray<::System::Object*>* parameters, ::System::Globalization::CultureInfo* culture)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::Il2CppArray<::System::Object*>*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_3DAA10467C74B801_OFFSET))(this, obj, invokeAttr, binder, parameters, culture);
+			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::Il2CppArray<::System::Object*>*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_12_12_OFFSET))(this, obj, invokeAttr, binder, parameters, culture);
 		}
 
-		static ::System::Void Method_5_6E60EA9DEFBD06D3(::System::Reflection::Binder* binder, ::Il2CppArray<::System::Object*>* args, ::Il2CppArray<::System::Reflection::ParameterInfo*>* pinfo, ::System::Globalization::CultureInfo* culture, ::System::Reflection::BindingFlags invokeAttr)
+		static ::System::Void Method_13_13(::System::Reflection::Binder* binder, ::Il2CppArray<::System::Object*>* args, ::Il2CppArray<::System::Reflection::ParameterInfo*>* pinfo, ::System::Globalization::CultureInfo* culture, ::System::Reflection::BindingFlags invokeAttr)
 		{
-			return ((::System::Void(*)(::System::Reflection::Binder*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*, ::System::Globalization::CultureInfo*, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_6E60EA9DEFBD06D3_OFFSET))(binder, args, pinfo, culture, invokeAttr);
+			return ((::System::Void(*)(::System::Reflection::Binder*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*, ::System::Globalization::CultureInfo*, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_13_13_OFFSET))(binder, args, pinfo, culture, invokeAttr);
 		}
 
-		::System::RuntimeMethodHandle Method_5_ACDCC589F31A1218()
+		::System::RuntimeMethodHandle Method_14_14()
 		{
-			return ((::System::RuntimeMethodHandle(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_ACDCC589F31A1218_OFFSET))(this);
+			return ((::System::RuntimeMethodHandle(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_14_14_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodAttributes Method_5_F03C8C30B60ADB89()
+		::System::Reflection::MethodAttributes Method_15_15()
 		{
-			return ((::System::Reflection::MethodAttributes(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_F03C8C30B60ADB89_OFFSET))(this);
+			return ((::System::Reflection::MethodAttributes(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_15_15_OFFSET))(this);
 		}
 
-		::System::Reflection::CallingConventions Method_5_DFD1CA50C1B9981F()
+		::System::Reflection::CallingConventions Method_16_16()
 		{
-			return ((::System::Reflection::CallingConventions(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_DFD1CA50C1B9981F_OFFSET))(this);
+			return ((::System::Reflection::CallingConventions(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_16_16_OFFSET))(this);
 		}
 
-		::System::Type* Method_5_A99467CE9479C990()
+		::System::Type* Method_17_17()
 		{
-			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_A99467CE9479C990_OFFSET))(this);
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_17_17_OFFSET))(this);
 		}
 
-		::System::Type* Method_5_DAB8FA6A764B2239()
+		::System::Type* Method_18_18()
 		{
-			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_DAB8FA6A764B2239_OFFSET))(this);
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_18_18_OFFSET))(this);
 		}
 
-		::System::String* Method_5_CFDB2DF757369D2B()
+		::System::String* Method_19_19()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_CFDB2DF757369D2B_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_19_19_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_6A56EDCDE2C256CF(::System::Type* attributeType, ::System::Boolean inherit)
+		::System::Boolean Method_20_20(::System::Type* attributeType, ::System::Boolean inherit)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_6A56EDCDE2C256CF_OFFSET))(this, attributeType, inherit);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_20_20_OFFSET))(this, attributeType, inherit);
 		}
 
-		::Il2CppArray<::System::Object*>* Method_5_3FEA8408C5ED329C(::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* Method_21_21(::System::Boolean inherit)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_3FEA8408C5ED329C_OFFSET))(this, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_21_21_OFFSET))(this, inherit);
 		}
 
-		::Il2CppArray<::System::Object*>* Method_5_6C5DB94BC17DC310(::System::Type* attributeType, ::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* Method_22_22(::System::Type* attributeType, ::System::Boolean inherit)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_6C5DB94BC17DC310_OFFSET))(this, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_22_22_OFFSET))(this, attributeType, inherit);
 		}
 
-		::System::Void Method_5_80A105D4D05CBD05(::System::Reflection::PInvokeAttributes& flags, ::System::String*& entryPoint, ::System::String*& dllName)
+		::System::Void Method_23_23(::System::Reflection::PInvokeAttributes& flags, ::System::String*& entryPoint, ::System::String*& dllName)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::PInvokeAttributes&, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_80A105D4D05CBD05_OFFSET))(this, flags, entryPoint, dllName);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::PInvokeAttributes&, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_23_23_OFFSET))(this, flags, entryPoint, dllName);
 		}
 
-		::Il2CppArray<::System::Object*>* Method_5_9F910299BBC0733E()
+		::Il2CppArray<::System::Object*>* Method_24_24()
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_9F910299BBC0733E_OFFSET))(this);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_24_24_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodInfo* Method_5_4701BC6211E16711(::Il2CppArray<::System::Type*>* methodInstantiation)
+		::System::Reflection::MethodInfo* Method_25_25(::Il2CppArray<::System::Type*>* methodInstantiation)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_4701BC6211E16711_OFFSET))(this, methodInstantiation);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_25_25_OFFSET))(this, methodInstantiation);
 		}
 
-		::System::Reflection::MethodInfo* Method_5_6841F8CAC82B9A48(::Il2CppArray<::System::Type*>* types)
+		::System::Reflection::MethodInfo* Method_26_26(::Il2CppArray<::System::Type*>* types)
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_6841F8CAC82B9A48_OFFSET))(this, types);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_26_26_OFFSET))(this, types);
 		}
 
-		::Il2CppArray<::System::Type*>* Method_5_EABBA8A24DDDB637()
+		::Il2CppArray<::System::Type*>* Method_27_27()
 		{
-			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_EABBA8A24DDDB637_OFFSET))(this);
+			return ((::Il2CppArray<::System::Type*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_27_27_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodInfo* Method_5_A51678A8D4BC4D2E()
+		::System::Reflection::MethodInfo* Method_28_28()
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_A51678A8D4BC4D2E_OFFSET))(this);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_28_28_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodInfo* Method_5_CC189634DEC8C028()
+		::System::Reflection::MethodInfo* Method_29_29()
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_CC189634DEC8C028_OFFSET))(this);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_29_29_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_F0088C88851A7DFB()
+		::System::Boolean Method_30_30()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_F0088C88851A7DFB_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_30_30_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_CE34EA208837238D()
+		::System::Boolean Method_31_31()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_CE34EA208837238D_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_31_31_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_E93FB20C44775568()
+		::System::Boolean Method_32_32()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_E93FB20C44775568_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_32_32_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodBody* Method_5_A0420FB436E33D57()
+		::System::Reflection::MethodBody* Method_33_33()
 		{
-			return ((::System::Reflection::MethodBody*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_A0420FB436E33D57_OFFSET))(this);
+			return ((::System::Reflection::MethodBody*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_33_33_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* Method_5_A3C117624446E448()
+		::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* Method_34_34()
 		{
-			return ((::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_A3C117624446E448_OFFSET))(this);
+			return ((::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_34_34_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_F0088C88851A7DFB_1()
+		::System::Boolean Method_35_35()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_5_F0088C88851A7DFB_1_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOMETHOD_METHOD_35_35_OFFSET))(this);
 		}
 	};
 }

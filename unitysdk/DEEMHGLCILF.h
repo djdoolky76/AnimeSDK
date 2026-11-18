@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BPHGHOFKJBN.h"
+#include "unitysdk/KPNMDNMAFJG.h"
+
+class BCOFOFCAODO;
+class KDFEBFHFCHO;
+
+#define DEEMHGLCILF_ADHHAPIIBIE_OFFSET UNITYSDK_OFFSET(0x12405BE0)
+#define DEEMHGLCILF_HPHHABNPOND_OFFSET UNITYSDK_OFFSET(0x12405EF0)
+#define DEEMHGLCILF_KAEBEMDFEIC_OFFSET UNITYSDK_OFFSET(0x12405BB0)
+#define DEEMHGLCILF_PHJEDJCKMNM_OFFSET UNITYSDK_OFFSET(0x12405BC0)
+#define DEEMHGLCILF__CTOR_OFFSET UNITYSDK_OFFSET(0x12405BD0)
+
+inline static constexpr unsigned int DEEMHGLCILF_TypeDefinitionIndex = 80311;
+
+class DEEMHGLCILF : public ::KPNMDNMAFJG
+{
+public:
+	::System::Void _ctor(::BCOFOFCAODO* FAIPFCNDLDE)
+	{
+		return ((::System::Void(*)(::PVOID, ::BCOFOFCAODO*))((::PBYTE)hIl2Cpp + DEEMHGLCILF__CTOR_OFFSET))(this, FAIPFCNDLDE);
+	}
+
+	::BPHGHOFKJBN KAEBEMDFEIC()
+	{
+		return ((::BPHGHOFKJBN(*)(::PVOID))((::PBYTE)hIl2Cpp + DEEMHGLCILF_KAEBEMDFEIC_OFFSET))(this);
+	}
+
+	::System::Int32 PHJEDJCKMNM()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DEEMHGLCILF_PHJEDJCKMNM_OFFSET))(this);
+	}
+
+	::System::Void ADHHAPIIBIE(::System::Int32 NAEHCOOHFHB, ::System::Int32 GHIBJCNHPAF)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + DEEMHGLCILF_ADHHAPIIBIE_OFFSET))(this, NAEHCOOHFHB, GHIBJCNHPAF);
+	}
+
+	::System::Int32 HPHHABNPOND(::KDFEBFHFCHO* DEKJDEPKKLH)
+	{
+		return ((::System::Int32(*)(::PVOID, ::KDFEBFHFCHO*))((::PBYTE)hIl2Cpp + DEEMHGLCILF_HPHHABNPOND_OFFSET))(this, DEKJDEPKKLH);
+	}
+};

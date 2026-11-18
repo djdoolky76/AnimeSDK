@@ -12,45 +12,46 @@ namespace System::Text { class Encoding; }
 namespace System::Text { class StringBuilder; }
 namespace System::Threading { class ManualResetEvent; }
 
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_BEGINREADLINE_OFFSET UNITYSDK_OFFSET(0x1CC05C50)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_CANCELOPERATION_OFFSET UNITYSDK_OFFSET(0x1CC05F00)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1CC05A70)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CC05B40)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_FLUSHMESSAGEQUEUE_OFFSET UNITYSDK_OFFSET(0x1CC05D80)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_GETLINESFROMSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x1CC06630)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_GET_BASESTREAM_OFFSET UNITYSDK_OFFSET(0x1CC05C40)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_GET_CURRENTENCODING_OFFSET UNITYSDK_OFFSET(0x1CC05C30)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_INIT_OFFSET UNITYSDK_OFFSET(0x1CC05960)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_READBUFFER_OFFSET UNITYSDK_OFFSET(0x1CC05F10)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CC05A90)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_WAITUTILEOF_OFFSET UNITYSDK_OFFSET(0x1CC068C0)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CC05890)
-#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC05860)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_BEGINREADLINE_OFFSET UNITYSDK_OFFSET(0x1D0FABC0)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_CANCELOPERATION_OFFSET UNITYSDK_OFFSET(0x1D0FAE70)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1D0FA9D0)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D0FAAA0)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_FLUSHMESSAGEQUEUE_OFFSET UNITYSDK_OFFSET(0x1D0FACF0)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_GETLINESFROMSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x1D0FB5A0)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_GET_BASESTREAM_OFFSET UNITYSDK_OFFSET(0x1D0FABB0)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_GET_CURRENTENCODING_OFFSET UNITYSDK_OFFSET(0x1D0FABA0)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_INIT_OFFSET UNITYSDK_OFFSET(0x1D0FA8C0)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_READBUFFER_OFFSET UNITYSDK_OFFSET(0x1D0FAE80)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D0FA9F0)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER_WAITUTILEOF_OFFSET UNITYSDK_OFFSET(0x1D0FB830)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D0FA7E0)
+#define SYSTEM_DIAGNOSTICS_ASYNCSTREAMREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FA7B0)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int AsyncStreamReader_TypeDefinitionIndex = 2777;
+	inline static constexpr unsigned int AsyncStreamReader_TypeDefinitionIndex = 2776;
 
 	class AsyncStreamReader : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 DefaultBufferSize = 0x400; // 0x0
 		// static const ::System::Int32 MinBufferSize = 0x80; // 0x0
-		::System::Diagnostics::Process* process; // 0x10
-		::System::IO::Stream* stream; // 0x18
-		::System::Text::StringBuilder* sb; // 0x20
-		::System::Diagnostics::UserCallBack* userCallBack; // 0x28
-		::Il2CppArray<::System::Char>* charBuffer; // 0x30
-		::Il2CppArray<::System::Byte>* byteBuffer; // 0x38
-		::System::Object* syncObject; // 0x40
-		::System::Collections::Queue* messageQueue; // 0x48
-		::System::Text::Decoder* decoder; // 0x50
-		::System::Text::Encoding* encoding; // 0x58
+		::Il2CppArray<::System::Byte>* byteBuffer; // 0x10
+		::System::Text::StringBuilder* sb; // 0x18
+		::System::Collections::Queue* messageQueue; // 0x20
+		::System::Diagnostics::Process* process; // 0x28
+		::System::IO::Stream* stream; // 0x30
+		::System::Text::Encoding* encoding; // 0x38
+		::System::Diagnostics::UserCallBack* userCallBack; // 0x40
+		::System::Text::Decoder* decoder; // 0x48
+		::Il2CppArray<::System::Char>* charBuffer; // 0x50
+		::System::Object* syncObject; // 0x58
 		::System::Threading::ManualResetEvent* eofEvent; // 0x60
-		::System::Int32 _maxCharsPerBuffer; // 0x68
-		::System::Int32 currentLinePos; // 0x6C
-		::System::Boolean cancelOperation; // 0x70
-		::System::Boolean bLastCarriageReturn; // 0x71
+		::System::Int32 currentLinePos; // 0x68
+		::System::Boolean bLastCarriageReturn; // 0x6C
+		::System::Boolean cancelOperation; // 0x6D
+		::System::Byte _padding0[0x2];
+		::System::Int32 _maxCharsPerBuffer; // 0x70
 
 		::System::Void _ctor(::System::Diagnostics::Process* process, ::System::IO::Stream* stream, ::System::Diagnostics::UserCallBack* callback, ::System::Text::Encoding* encoding)
 		{

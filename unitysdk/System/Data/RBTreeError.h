@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int RBTreeError_TypeDefinitionIndex = 39323;
+	inline static constexpr unsigned int RBTreeError_TypeDefinitionIndex = 37323;
 
 	enum class RBTreeError : ::System::Int32
 	{

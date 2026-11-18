@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CLOSEROTATORCONTROLUI_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B164A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CLOSEROTATORCONTROLUI__CTOR_OFFSET UNITYSDK_OFFSET(0x19B16600)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CLOSEROTATORCONTROLUI_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8F3450)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CLOSEROTATORCONTROLUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F35B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_CloseRotatorControlUI_TypeDefinitionIndex = 58608;
+	inline static constexpr unsigned int LD_CloseRotatorControlUI_TypeDefinitionIndex = 56928;
 
-	class LD_CloseRotatorControlUI : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Single>
+	class LD_CloseRotatorControlUI
 	{
 	public:
 		::System::Void _ctor()

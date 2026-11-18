@@ -3,7 +3,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCPerformanceManager_EControlPhase_TypeDefinitionIndex = 84702;
+	inline static constexpr unsigned int NPCPerformanceManager_EControlPhase_TypeDefinitionIndex = 67155;
 
 	enum class NPCPerformanceManager_EControlPhase : ::System::Int32
 	{

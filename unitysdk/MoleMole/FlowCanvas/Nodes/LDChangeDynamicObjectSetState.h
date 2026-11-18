@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEDYNAMICOBJECTSETSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B52EC10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEDYNAMICOBJECTSETSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52ED20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEDYNAMICOBJECTSETSTATE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1B52ED60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEDYNAMICOBJECTSETSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x142F97F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEDYNAMICOBJECTSETSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x142F9900)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEDYNAMICOBJECTSETSTATE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x142F9940)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDChangeDynamicObjectSetState_TypeDefinitionIndex = 70224;
+	inline static constexpr unsigned int LDChangeDynamicObjectSetState_TypeDefinitionIndex = 68471;
 
 	class LDChangeDynamicObjectSetState : public ::FlowCanvas::Nodes::FlowControlNode
 	{

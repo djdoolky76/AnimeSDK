@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIRECYCLEINFODIALOGPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18866C60)
+#define MOLEMOLE_UIRECYCLEINFODIALOGPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18248A10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRecycleInfoDialogPopWindowContext_TypeDefinitionIndex = 48649;
+	inline static constexpr unsigned int UIRecycleInfoDialogPopWindowContext_TypeDefinitionIndex = 41153;
 
 	class UIRecycleInfoDialogPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HPBIMDNDPLK.h"
+#include "unitysdk/MoleMole/EnumSettingEntry.h"
+
+class MDCMEPJLGOK;
+
+#define MOLEMOLE_PREWARREMINDSETTINGENTRY_GETSETTINGCONTROLUNIT_OFFSET UNITYSDK_OFFSET(0x1BDE1870)
+#define MOLEMOLE_PREWARREMINDSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1BDE1860)
+#define MOLEMOLE_PREWARREMINDSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDE18F0)
+#define MOLEMOLE_PREWARREMINDSETTINGENTRY___BASE_GETSETTINGCONTROLUNIT_OFFSET UNITYSDK_OFFSET(0x1BDE1990)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int PreWarRemindSettingEntry_TypeDefinitionIndex = 53201;
+
+	class PreWarRemindSettingEntry : public ::MoleMole::EnumSettingEntry
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PREWARREMINDSETTINGENTRY__CTOR_OFFSET))(this);
+		}
+
+		::HPBIMDNDPLK get_SettingContentType()
+		{
+			return ((::HPBIMDNDPLK(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PREWARREMINDSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET))(this);
+		}
+
+		::MDCMEPJLGOK* GetSettingControlUnit()
+		{
+			return ((::MDCMEPJLGOK*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PREWARREMINDSETTINGENTRY_GETSETTINGCONTROLUNIT_OFFSET))(this);
+		}
+
+		::MDCMEPJLGOK* __base_GetSettingControlUnit()
+		{
+			return ((::MDCMEPJLGOK*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PREWARREMINDSETTINGENTRY___BASE_GETSETTINGCONTROLUNIT_OFFSET))(this);
+		}
+	};
+}

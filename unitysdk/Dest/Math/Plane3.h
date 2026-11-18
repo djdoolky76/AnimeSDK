@@ -2,46 +2,51 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Dest/Math/AAB3.h"
+#include "unitysdk/Dest/Math/Box3.h"
+#include "unitysdk/Dest/Math/Line3.h"
+#include "unitysdk/Dest/Math/Sphere3.h"
+#include "unitysdk/UnityEngine/Plane.h"
 
 namespace System { class String; }
 
-#define DEST_MATH_PLANE3_ANGLEBETWEENPLANEANDLINE_1_OFFSET UNITYSDK_OFFSET(0xA9BFF0)
-#define DEST_MATH_PLANE3_ANGLEBETWEENPLANEANDLINE_OFFSET UNITYSDK_OFFSET(0xA9BF10)
-#define DEST_MATH_PLANE3_ANGLEBETWEENPLANENORMALANDLINE_1_OFFSET UNITYSDK_OFFSET(0xA9BDF0)
-#define DEST_MATH_PLANE3_ANGLEBETWEENPLANENORMALANDLINE_OFFSET UNITYSDK_OFFSET(0xA9BD30)
-#define DEST_MATH_PLANE3_ANGLEBETWEENTWOPLANES_OFFSET UNITYSDK_OFFSET(0xA9C120)
-#define DEST_MATH_PLANE3_CALCORIGIN_OFFSET UNITYSDK_OFFSET(0x86C130)
-#define DEST_MATH_PLANE3_CREATEORTHONORMALBASIS_OFFSET UNITYSDK_OFFSET(0xA9B0F0)
-#define DEST_MATH_PLANE3_DISTANCETO_OFFSET UNITYSDK_OFFSET(0xA9B350)
-#define DEST_MATH_PLANE3_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F27BE80)
-#define DEST_MATH_PLANE3_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F27BE10)
-#define DEST_MATH_PLANE3_PROJECTVECTOR_OFFSET UNITYSDK_OFFSET(0xA9BC50)
-#define DEST_MATH_PLANE3_PROJECT_OFFSET UNITYSDK_OFFSET(0xA9BB70)
-#define DEST_MATH_PLANE3_QUERYSIDENEGATIVE_1_OFFSET UNITYSDK_OFFSET(0xA9B660)
-#define DEST_MATH_PLANE3_QUERYSIDENEGATIVE_2_OFFSET UNITYSDK_OFFSET(0xA9B690)
-#define DEST_MATH_PLANE3_QUERYSIDENEGATIVE_3_OFFSET UNITYSDK_OFFSET(0xA9B9D0)
-#define DEST_MATH_PLANE3_QUERYSIDENEGATIVE_OFFSET UNITYSDK_OFFSET(0xA9B4D0)
-#define DEST_MATH_PLANE3_QUERYSIDEPOSITIVE_1_OFFSET UNITYSDK_OFFSET(0xA9B670)
-#define DEST_MATH_PLANE3_QUERYSIDEPOSITIVE_2_OFFSET UNITYSDK_OFFSET(0xA9B7B0)
-#define DEST_MATH_PLANE3_QUERYSIDEPOSITIVE_3_OFFSET UNITYSDK_OFFSET(0xA9BAA0)
-#define DEST_MATH_PLANE3_QUERYSIDEPOSITIVE_OFFSET UNITYSDK_OFFSET(0xA9B590)
-#define DEST_MATH_PLANE3_QUERYSIDE_1_OFFSET UNITYSDK_OFFSET(0xA9B650)
-#define DEST_MATH_PLANE3_QUERYSIDE_2_OFFSET UNITYSDK_OFFSET(0xA9B680)
-#define DEST_MATH_PLANE3_QUERYSIDE_3_OFFSET UNITYSDK_OFFSET(0xA9B8E0)
-#define DEST_MATH_PLANE3_QUERYSIDE_OFFSET UNITYSDK_OFFSET(0xA9B400)
-#define DEST_MATH_PLANE3_SIGNEDDISTANCETO_1_OFFSET UNITYSDK_OFFSET(0xA9B2B0)
-#define DEST_MATH_PLANE3_SIGNEDDISTANCETO_OFFSET UNITYSDK_OFFSET(0xA9B200)
-#define DEST_MATH_PLANE3_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA9C1E0)
-#define DEST_MATH_PLANE3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x478110)
-#define DEST_MATH_PLANE3__CTOR_2_OFFSET UNITYSDK_OFFSET(0xA9AF10)
-#define DEST_MATH_PLANE3__CTOR_3_OFFSET UNITYSDK_OFFSET(0xA9AFD0)
-#define DEST_MATH_PLANE3__CTOR_4_OFFSET UNITYSDK_OFFSET(0xA9B080)
-#define DEST_MATH_PLANE3__CTOR_5_OFFSET UNITYSDK_OFFSET(0xA9B090)
-#define DEST_MATH_PLANE3__CTOR_OFFSET UNITYSDK_OFFSET(0x478110)
+#define DEST_MATH_PLANE3_ANGLEBETWEENPLANEANDLINE_1_OFFSET UNITYSDK_OFFSET(0x97F850)
+#define DEST_MATH_PLANE3_ANGLEBETWEENPLANEANDLINE_OFFSET UNITYSDK_OFFSET(0x97F770)
+#define DEST_MATH_PLANE3_ANGLEBETWEENPLANENORMALANDLINE_1_OFFSET UNITYSDK_OFFSET(0x97F650)
+#define DEST_MATH_PLANE3_ANGLEBETWEENPLANENORMALANDLINE_OFFSET UNITYSDK_OFFSET(0x97F590)
+#define DEST_MATH_PLANE3_ANGLEBETWEENTWOPLANES_OFFSET UNITYSDK_OFFSET(0x97F980)
+#define DEST_MATH_PLANE3_CALCORIGIN_OFFSET UNITYSDK_OFFSET(0x76D440)
+#define DEST_MATH_PLANE3_CREATEORTHONORMALBASIS_OFFSET UNITYSDK_OFFSET(0x97E950)
+#define DEST_MATH_PLANE3_DISTANCETO_OFFSET UNITYSDK_OFFSET(0x97EBB0)
+#define DEST_MATH_PLANE3_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F68A5A0)
+#define DEST_MATH_PLANE3_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F68A530)
+#define DEST_MATH_PLANE3_PROJECTVECTOR_OFFSET UNITYSDK_OFFSET(0x97F4B0)
+#define DEST_MATH_PLANE3_PROJECT_OFFSET UNITYSDK_OFFSET(0x97F3D0)
+#define DEST_MATH_PLANE3_QUERYSIDENEGATIVE_1_OFFSET UNITYSDK_OFFSET(0x97EEC0)
+#define DEST_MATH_PLANE3_QUERYSIDENEGATIVE_2_OFFSET UNITYSDK_OFFSET(0x97EEF0)
+#define DEST_MATH_PLANE3_QUERYSIDENEGATIVE_3_OFFSET UNITYSDK_OFFSET(0x97F230)
+#define DEST_MATH_PLANE3_QUERYSIDENEGATIVE_OFFSET UNITYSDK_OFFSET(0x97ED30)
+#define DEST_MATH_PLANE3_QUERYSIDEPOSITIVE_1_OFFSET UNITYSDK_OFFSET(0x97EED0)
+#define DEST_MATH_PLANE3_QUERYSIDEPOSITIVE_2_OFFSET UNITYSDK_OFFSET(0x97F010)
+#define DEST_MATH_PLANE3_QUERYSIDEPOSITIVE_3_OFFSET UNITYSDK_OFFSET(0x97F300)
+#define DEST_MATH_PLANE3_QUERYSIDEPOSITIVE_OFFSET UNITYSDK_OFFSET(0x97EDF0)
+#define DEST_MATH_PLANE3_QUERYSIDE_1_OFFSET UNITYSDK_OFFSET(0x97EEB0)
+#define DEST_MATH_PLANE3_QUERYSIDE_2_OFFSET UNITYSDK_OFFSET(0x97EEE0)
+#define DEST_MATH_PLANE3_QUERYSIDE_3_OFFSET UNITYSDK_OFFSET(0x97F140)
+#define DEST_MATH_PLANE3_QUERYSIDE_OFFSET UNITYSDK_OFFSET(0x97EC60)
+#define DEST_MATH_PLANE3_SIGNEDDISTANCETO_1_OFFSET UNITYSDK_OFFSET(0x97EB10)
+#define DEST_MATH_PLANE3_SIGNEDDISTANCETO_OFFSET UNITYSDK_OFFSET(0x97EA60)
+#define DEST_MATH_PLANE3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x97FA40)
+#define DEST_MATH_PLANE3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3CCA00)
+#define DEST_MATH_PLANE3__CTOR_2_OFFSET UNITYSDK_OFFSET(0x97E770)
+#define DEST_MATH_PLANE3__CTOR_3_OFFSET UNITYSDK_OFFSET(0x97E830)
+#define DEST_MATH_PLANE3__CTOR_4_OFFSET UNITYSDK_OFFSET(0x97E8E0)
+#define DEST_MATH_PLANE3__CTOR_5_OFFSET UNITYSDK_OFFSET(0x97E8F0)
+#define DEST_MATH_PLANE3__CTOR_OFFSET UNITYSDK_OFFSET(0x3CCA00)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Plane3_TypeDefinitionIndex = 35436;
+	inline static constexpr unsigned int Plane3_TypeDefinitionIndex = 35009;
 
 	struct alignas(4) Plane3
 	{
@@ -132,68 +137,50 @@ namespace Dest::Math
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_QUERYSIDEPOSITIVE_OFFSET))(this, point, epsilon);
 		}
 
-		/*
 		::System::Int32 QuerySide_1(::Dest::Math::Box3& box, ::System::Single epsilon)
 		{
 			return ((::System::Int32(*)(::PVOID, ::Dest::Math::Box3&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_QUERYSIDE_1_OFFSET))(this, box, epsilon);
 		}
-		*/
 
-		/*
 		::System::Boolean QuerySideNegative_1(::Dest::Math::Box3& box, ::System::Single epsilon)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Dest::Math::Box3&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_QUERYSIDENEGATIVE_1_OFFSET))(this, box, epsilon);
 		}
-		*/
 
-		/*
 		::System::Boolean QuerySidePositive_1(::Dest::Math::Box3& box, ::System::Single epsilon)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Dest::Math::Box3&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_QUERYSIDEPOSITIVE_1_OFFSET))(this, box, epsilon);
 		}
-		*/
 
-		/*
 		::System::Int32 QuerySide_2(::Dest::Math::AAB3& box, ::System::Single epsilon)
 		{
 			return ((::System::Int32(*)(::PVOID, ::Dest::Math::AAB3&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_QUERYSIDE_2_OFFSET))(this, box, epsilon);
 		}
-		*/
 
-		/*
 		::System::Boolean QuerySideNegative_2(::Dest::Math::AAB3& box, ::System::Single epsilon)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Dest::Math::AAB3&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_QUERYSIDENEGATIVE_2_OFFSET))(this, box, epsilon);
 		}
-		*/
 
-		/*
 		::System::Boolean QuerySidePositive_2(::Dest::Math::AAB3& box, ::System::Single epsilon)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Dest::Math::AAB3&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_QUERYSIDEPOSITIVE_2_OFFSET))(this, box, epsilon);
 		}
-		*/
 
-		/*
 		::System::Int32 QuerySide_3(::Dest::Math::Sphere3& sphere, ::System::Single epsilon)
 		{
 			return ((::System::Int32(*)(::PVOID, ::Dest::Math::Sphere3&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_QUERYSIDE_3_OFFSET))(this, sphere, epsilon);
 		}
-		*/
 
-		/*
 		::System::Boolean QuerySideNegative_3(::Dest::Math::Sphere3& sphere, ::System::Single epsilon)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Dest::Math::Sphere3&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_QUERYSIDENEGATIVE_3_OFFSET))(this, sphere, epsilon);
 		}
-		*/
 
-		/*
 		::System::Boolean QuerySidePositive_3(::Dest::Math::Sphere3& sphere, ::System::Single epsilon)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Dest::Math::Sphere3&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_QUERYSIDEPOSITIVE_3_OFFSET))(this, sphere, epsilon);
 		}
-		*/
 
 		::UnityEngine::Vector3 Project(::UnityEngine::Vector3 point)
 		{
@@ -205,34 +192,32 @@ namespace Dest::Math
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_PROJECTVECTOR_OFFSET))(this, vector);
 		}
 
-		/*
 		::System::Single AngleBetweenPlaneNormalAndLine(::Dest::Math::Line3 line)
 		{
 			return ((::System::Single(*)(::PVOID, ::Dest::Math::Line3))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_ANGLEBETWEENPLANENORMALANDLINE_OFFSET))(this, line);
 		}
-		*/
 
 		::System::Single AngleBetweenPlaneNormalAndLine_1(::UnityEngine::Vector3 direction)
 		{
 			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_ANGLEBETWEENPLANENORMALANDLINE_1_OFFSET))(this, direction);
 		}
 
-		/*
 		::System::Single AngleBetweenPlaneAndLine(::Dest::Math::Line3 line)
 		{
 			return ((::System::Single(*)(::PVOID, ::Dest::Math::Line3))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_ANGLEBETWEENPLANEANDLINE_OFFSET))(this, line);
 		}
-		*/
 
 		::System::Single AngleBetweenPlaneAndLine_1(::UnityEngine::Vector3 direction)
 		{
 			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_ANGLEBETWEENPLANEANDLINE_1_OFFSET))(this, direction);
 		}
 
+		/*
 		::System::Single AngleBetweenTwoPlanes(::Dest::Math::Plane3 anotherPlane)
 		{
 			return ((::System::Single(*)(::PVOID, ::Dest::Math::Plane3))((::PBYTE)hIl2Cpp + DEST_MATH_PLANE3_ANGLEBETWEENTWOPLANES_OFFSET))(this, anotherPlane);
 		}
+		*/
 
 		::System::String* ToString()
 		{

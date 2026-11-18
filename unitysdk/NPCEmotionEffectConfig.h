@@ -6,11 +6,11 @@ class NPCEmotionEffect;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCEMOTIONEFFECTCONFIG_GETEFFECTKEY_OFFSET UNITYSDK_OFFSET(0x157C5370)
-#define NPCEMOTIONEFFECTCONFIG_UNLOADASSETS_OFFSET UNITYSDK_OFFSET(0x157C54F0)
-#define NPCEMOTIONEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x157C5530)
+#define NPCEMOTIONEFFECTCONFIG_GETEFFECTKEY_OFFSET UNITYSDK_OFFSET(0x12907390)
+#define NPCEMOTIONEFFECTCONFIG_UNLOADASSETS_OFFSET UNITYSDK_OFFSET(0x12907510)
+#define NPCEMOTIONEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12907550)
 
-inline static constexpr unsigned int NPCEmotionEffectConfig_TypeDefinitionIndex = 53633;
+inline static constexpr unsigned int NPCEmotionEffectConfig_TypeDefinitionIndex = 61471;
 
 class NPCEmotionEffectConfig : public ::System::Object
 {
@@ -19,6 +19,7 @@ public:
 	::System::Single offsetHorizontal; // 0x18
 	::System::Single offsetVertical; // 0x1C
 	::System::Single offsetRadial; // 0x20
+	::System::Byte _padding0[0x4];
 	::System::Collections::Generic::List_1<::NPCEmotionEffect*>* effectAssets; // 0x28
 
 	::System::Void _ctor()

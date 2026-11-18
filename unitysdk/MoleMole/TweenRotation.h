@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Tween_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_TWEENROTATION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x11D80800)
-#define MOLEMOLE_TWEENROTATION_METHOD_7_CCD232FEDFF62067_OFFSET UNITYSDK_OFFSET(0x11D808B0)
-#define MOLEMOLE_TWEENROTATION_METHOD_7_D3E17EE162EAD52F_OFFSET UNITYSDK_OFFSET(0x11D809F0)
-#define MOLEMOLE_TWEENROTATION_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x11D80820)
-#define MOLEMOLE_TWEENROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x11D80AF0)
-#define MOLEMOLE_TWEENROTATION___BASE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x11D80B00)
+#define MOLEMOLE_TWEENROTATION_DFJPMOOOLHM_OFFSET UNITYSDK_OFFSET(0x189755D0)
+#define MOLEMOLE_TWEENROTATION_FKMOKFNLFOA_OFFSET UNITYSDK_OFFSET(0x18975490)
+#define MOLEMOLE_TWEENROTATION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x189753E0)
+#define MOLEMOLE_TWEENROTATION_PECPJKGEJKM_OFFSET UNITYSDK_OFFSET(0x189756E0)
+#define MOLEMOLE_TWEENROTATION_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x18975400)
+#define MOLEMOLE_TWEENROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x189756D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TweenRotation_TypeDefinitionIndex = 43772;
+	inline static constexpr unsigned int TweenRotation_TypeDefinitionIndex = 64221;
 
-	class TweenRotation : public ::MoleMole::Tween_1<::UnityEngine::Vector3>
+	class TweenRotation
 	{
 	public:
 		::System::Boolean isLocal; // 0xA0
-		::UnityEngine::Vector3 Field_7_7; // 0xA4
+		::System::Byte _padding0[0x3];
+		::UnityEngine::Vector3 HHGILNNMNAK; // 0xA4
 
 		::System::Void _ctor()
 		{
@@ -30,24 +30,24 @@ namespace MoleMole
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENROTATION_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_value(::UnityEngine::Vector3 a1)
+		::System::Void set_value(::UnityEngine::Vector3 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENROTATION_SET_VALUE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENROTATION_SET_VALUE_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Void Method_7_D3E17EE162EAD52F(::System::Single a1, ::System::Boolean a2)
+		::System::Void DFJPMOOOLHM(::System::Single CKELPHPMECF, ::System::Boolean GNFAABJPKPN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENROTATION_METHOD_7_D3E17EE162EAD52F_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENROTATION_DFJPMOOOLHM_OFFSET))(this, CKELPHPMECF, GNFAABJPKPN);
 		}
 
-		::System::Void __base_set_value(::UnityEngine::Vector3 a1)
+		::System::Void PECPJKGEJKM(::UnityEngine::Vector3 MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENROTATION___BASE_SET_VALUE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENROTATION_PECPJKGEJKM_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void Method_7_CCD232FEDFF62067(::UnityEngine::Vector3 a1)
+		::System::Void FKMOKFNLFOA(::UnityEngine::Vector3 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENROTATION_METHOD_7_CCD232FEDFF62067_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENROTATION_FKMOKFNLFOA_OFFSET))(this, EGEGIMGMJHN);
 		}
 	};
 }

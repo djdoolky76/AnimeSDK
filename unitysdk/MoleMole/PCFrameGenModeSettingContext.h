@@ -7,20 +7,21 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PCFRAMEGENMODESETTINGCONTEXT_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x11907A70)
-#define MOLEMOLE_PCFRAMEGENMODESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11907CD0)
-#define MOLEMOLE_PCFRAMEGENMODESETTINGCONTEXT___BASE_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x11907D70)
+#define MOLEMOLE_PCFRAMEGENMODESETTINGCONTEXT_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x1A712B20)
+#define MOLEMOLE_PCFRAMEGENMODESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A712D80)
+#define MOLEMOLE_PCFRAMEGENMODESETTINGCONTEXT___BASE_ISSHOWONUIINNER_OFFSET UNITYSDK_OFFSET(0x1A712E20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PCFrameGenModeSettingContext_TypeDefinitionIndex = 76251;
+	inline static constexpr unsigned int PCFrameGenModeSettingContext_TypeDefinitionIndex = 64499;
 
 	class PCFrameGenModeSettingContext : public ::MoleMole::SystemSettingContextBase
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Boolean>>* ShowOnUIRegexList; // 0x28
-		::MoleMole::PCFrameGenType FrameGenType; // 0x30
-		::System::Boolean CustomDefaultShowOnUI; // 0x34
+		::System::Boolean CustomDefaultShowOnUI; // 0x30
+		::System::Byte _padding0[0x3];
+		::MoleMole::PCFrameGenType FrameGenType; // 0x34
 
 		::System::Void _ctor()
 		{

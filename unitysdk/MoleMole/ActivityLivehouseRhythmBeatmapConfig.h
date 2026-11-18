@@ -12,16 +12,16 @@ namespace MoleMole { class Track; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_GET_AUDIOOFFSETSECONDS_OFFSET UNITYSDK_OFFSET(0x12EDCDA0)
-#define MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_METHOD_3_15E82C5C62701F51_OFFSET UNITYSDK_OFFSET(0x12EDD160)
-#define MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_METHOD_3_284A00008B880FD6_OFFSET UNITYSDK_OFFSET(0x12EDD0B0)
-#define MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_METHOD_3_5DB88A6B329F3A46_OFFSET UNITYSDK_OFFSET(0x12EDD240)
-#define MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x12EDD100)
-#define MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12EDCDB0)
+#define MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_ANLMHCDDMJM_OFFSET UNITYSDK_OFFSET(0x1274F4E0)
+#define MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_CPDDJBNHDNF_OFFSET UNITYSDK_OFFSET(0x1274F3F0)
+#define MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_DPPIANDCKDF_OFFSET UNITYSDK_OFFSET(0x1274F530)
+#define MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_GET_AUDIOOFFSETSECONDS_OFFSET UNITYSDK_OFFSET(0x1274F0D0)
+#define MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_LPPPIPPOPPC_OFFSET UNITYSDK_OFFSET(0x1274F590)
+#define MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1274F0E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityLivehouseRhythmBeatmapConfig_TypeDefinitionIndex = 76571;
+	inline static constexpr unsigned int ActivityLivehouseRhythmBeatmapConfig_TypeDefinitionIndex = 71993;
 
 	class ActivityLivehouseRhythmBeatmapConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -32,12 +32,14 @@ namespace MoleMole
 		::System::Double BlankTimeSeconds; // 0x28
 		::System::Double BeatMapEndSeconds; // 0x30
 		::System::Int32 CycleBeatCount; // 0x38
+		::System::Byte _padding0[0x4];
 		::System::Double DefaultBPM; // 0x40
 		::System::Double SecondsPerBeat; // 0x48
 		::System::Int32 DefaultNumerator; // 0x50
 		::System::Int32 DefaultDenominator; // 0x54
 		::System::Double NoteBaseDisplayDuration; // 0x58
 		::System::Single BaseScrollSpeedMultiplier; // 0x60
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::TempoChange*>* TempoMap; // 0x68
 		::System::Collections::Generic::List_1<::MoleMole::TimeSignatureChange*>* TimeSigMap; // 0x70
 		::System::Collections::Generic::List_1<::MoleMole::Track*>* Tracks; // 0x78
@@ -57,24 +59,24 @@ namespace MoleMole
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_GET_AUDIOOFFSETSECONDS_OFFSET))(this);
 		}
 
-		::System::Double Method_3_284A00008B880FD6()
+		::System::Collections::Generic::List_1<::MoleMole::EventRange*>* CPDDJBNHDNF(::System::String* LDJKLFLLGPA)
 		{
-			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_METHOD_3_284A00008B880FD6_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::MoleMole::EventRange*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_CPDDJBNHDNF_OFFSET))(this, LDJKLFLLGPA);
 		}
 
-		::System::Void Method_3_CA373AA1C7054598()
+		::System::Double ANLMHCDDMJM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_ANLMHCDDMJM_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::MoleMole::Note*>* Method_3_15E82C5C62701F51(::System::String* a1)
+		::System::Void DPPIANDCKDF()
 		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::Note*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_METHOD_3_15E82C5C62701F51_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_DPPIANDCKDF_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::MoleMole::EventRange*>* Method_3_5DB88A6B329F3A46(::System::String* a1)
+		::System::Collections::Generic::List_1<::MoleMole::Note*>* LPPPIPPOPPC(::System::String* LDJKLFLLGPA)
 		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::EventRange*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_METHOD_3_5DB88A6B329F3A46_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::MoleMole::Note*>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYLIVEHOUSERHYTHMBEATMAPCONFIG_LPPPIPPOPPC_OFFSET))(this, LDJKLFLLGPA);
 		}
 	};
 }

@@ -6,27 +6,27 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__AUTHENTICATEASCLIENTASYNC_B__79_0_OFFSET UNITYSDK_OFFSET(0x1D6106C0)
-#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__AUTHENTICATEASSERVERASYNC_B__81_0_OFFSET UNITYSDK_OFFSET(0x1D610770)
-#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D610670)
-#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6106B0)
+#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__AUTHENTICATEASCLIENTASYNC_B__79_0_OFFSET UNITYSDK_OFFSET(0x1DAD50E0)
+#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__AUTHENTICATEASSERVERASYNC_B__81_0_OFFSET UNITYSDK_OFFSET(0x1DAD5190)
+#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAD5090)
+#define MONO_NET_SECURITY_PRIVATE_LEGACYSSLSTREAM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD50D0)
 
 namespace Mono::Net::Security::Private
 {
-	inline static constexpr unsigned int LegacySslStream___c_TypeDefinitionIndex = 2646;
+	inline static constexpr unsigned int LegacySslStream___c_TypeDefinitionIndex = 2645;
 
 	class LegacySslStream___c : public ::System::Object
 	{
 	public:
-		static ::Mono::Net::Security::Private::LegacySslStream___c** StaticGet___9()
+		static ::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__81_0()
 		{
-			return (::Mono::Net::Security::Private::LegacySslStream___c**)Il2CppClass::FromTypeDefinitionIndex(LegacySslStream___c_TypeDefinitionIndex)->GetStaticField(0x2D30);
+			return (::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(LegacySslStream___c_TypeDefinitionIndex)->GetStaticField(0x2D30);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(LegacySslStream___c_TypeDefinitionIndex)->GetStaticField(0x2D38);
 		}
 		static ::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__79_0()
-		{
-			return (::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(LegacySslStream___c_TypeDefinitionIndex)->GetStaticField(0x2D38);
-		}
-		static ::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__81_0()
 		{
 			return (::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(LegacySslStream___c_TypeDefinitionIndex)->GetStaticField(0x2D40);
 		}

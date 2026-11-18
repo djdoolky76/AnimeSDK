@@ -6,17 +6,19 @@
 
 namespace NPCCrowd::AI { class AttractorRuntimeData; }
 
-#define NPCCROWD_AI_ATTRACTORBASEPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x6664A0)
-#define NPCCROWD_AI_ATTRACTORBASEPROCESSOR_EXECUTEJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x666490)
+#define NPCCROWD_AI_ATTRACTORBASEPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5FEFA0)
+#define NPCCROWD_AI_ATTRACTORBASEPROCESSOR_EXECUTEJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x5FEF90)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorBaseProcessor_ExecuteJob_TypeDefinitionIndex = 43326;
+	inline static constexpr unsigned int AttractorBaseProcessor_ExecuteJob_TypeDefinitionIndex = 39692;
 
 	struct alignas(8) AttractorBaseProcessor_ExecuteJob
 	{
 		::Unity::Collections::NativeArray_1<::System::Boolean> _isUsing; // 0x10
+		::System::Byte _padding0[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::AI::FAttractorBase> attractorBase; // 0x20
+		::System::Byte _padding1[0x8];
 		::System::Single deltaTime; // 0x30
 
 		::System::Void _ctor(::NPCCrowd::AI::AttractorRuntimeData* runtimeData, ::System::Single deltaTime)

@@ -2,12 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Cameras/VNoiseParams.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_CAMERAS_VTRANSFORMNOISEPARAMS_METHOD_2_9ED920BA288AD875_OFFSET UNITYSDK_OFFSET(0x7475B0)
+#define MOLEMOLE_CAMERAS_VTRANSFORMNOISEPARAMS_MKHBJMODDFB_OFFSET UNITYSDK_OFFSET(0x5F2180)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int VTransformNoiseParams_TypeDefinitionIndex = 48284;
+	inline static constexpr unsigned int VTransformNoiseParams_TypeDefinitionIndex = 87605;
 
 	struct alignas(4) VTransformNoiseParams
 	{
@@ -15,11 +16,9 @@ namespace MoleMole::Cameras
 		::MoleMole::Cameras::VNoiseParams Y; // 0x1C
 		::MoleMole::Cameras::VNoiseParams Z; // 0x28
 
-		/*
-		::UnityEngine::Vector3 Method_2_9ED920BA288AD875(::System::Single a1, ::UnityEngine::Vector3 a2)
+		::UnityEngine::Vector3 MKHBJMODDFB(::System::Single FNIOPKPHDEH, ::UnityEngine::Vector3 BBHIBBJFFJN)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VTRANSFORMNOISEPARAMS_METHOD_2_9ED920BA288AD875_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VTRANSFORMNOISEPARAMS_MKHBJMODDFB_OFFSET))(this, FNIOPKPHDEH, BBHIBBJFFJN);
 		}
-		*/
 	};
 }

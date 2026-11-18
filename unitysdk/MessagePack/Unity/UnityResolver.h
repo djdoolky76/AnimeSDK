@@ -3,23 +3,22 @@
 #include "unitysdk/System/Object.h"
 
 namespace MessagePack::Formatters { class IMessagePackFormatter; }
-namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System { class Type; }
 
-#define MESSAGEPACK_UNITY_UNITYRESOLVER_GETFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1D069DF0)
-#define MESSAGEPACK_UNITY_UNITYRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D069FF0)
-#define MESSAGEPACK_UNITY_UNITYRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D069DE0)
+#define MESSAGEPACK_UNITY_UNITYRESOLVER_GETFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1D5E4160)
+#define MESSAGEPACK_UNITY_UNITYRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5E4360)
+#define MESSAGEPACK_UNITY_UNITYRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E4150)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int UnityResolver_TypeDefinitionIndex = 30977;
+	inline static constexpr unsigned int UnityResolver_TypeDefinitionIndex = 29720;
 
 	class UnityResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Unity::UnityResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Unity::UnityResolver**)Il2CppClass::FromTypeDefinitionIndex(UnityResolver_TypeDefinitionIndex)->GetStaticField(0x254A0);
+			return (::MessagePack::Unity::UnityResolver**)Il2CppClass::FromTypeDefinitionIndex(UnityResolver_TypeDefinitionIndex)->GetStaticField(0x26570);
 		}
 
 		::System::Void _ctor()

@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/Tasks/CausalitySynchronousWork.h"
 #include "unitysdk/System/Threading/Tasks/CausalityTraceLevel.h"
+#include "unitysdk/System/Object.h"
 
-#define SYSTEM_THREADING_TASKS_ASYNCCAUSALITYTRACER_TRACESYNCHRONOUSWORKSTART_OFFSET UNITYSDK_OFFSET(0x1DC10B80)
+#define SYSTEM_THREADING_TASKS_ASYNCCAUSALITYTRACER_TRACESYNCHRONOUSWORKSTART_OFFSET UNITYSDK_OFFSET(0x1DF91A10)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int AsyncCausalityTracer_TypeDefinitionIndex = 873;
+	inline static constexpr unsigned int AsyncCausalityTracer_TypeDefinitionIndex = 872;
 
 	class AsyncCausalityTracer : public ::System::Object
 	{

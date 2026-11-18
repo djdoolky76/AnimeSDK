@@ -3,7 +3,7 @@
 
 namespace BinaryTracingFramework::Foundation
 {
-	inline static constexpr unsigned int IPoolObject_TypeDefinitionIndex = 34628;
+	inline static constexpr unsigned int IPoolObject_TypeDefinitionIndex = 34174;
 
 	class IPoolObject
 	{

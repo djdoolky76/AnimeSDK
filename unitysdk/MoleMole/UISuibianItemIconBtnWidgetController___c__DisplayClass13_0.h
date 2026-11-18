@@ -5,18 +5,18 @@
 namespace MoleMole { class UISuibianItemIconBtnWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UISUIBIANITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15199DA0)
-#define MOLEMOLE_UISUIBIANITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x15199DB0)
+#define MOLEMOLE_UISUIBIANITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14CDCD20)
+#define MOLEMOLE_UISUIBIANITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS13_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x14CDCD30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianItemIconBtnWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 55870;
+	inline static constexpr unsigned int UISuibianItemIconBtnWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 45835;
 
 	class UISuibianItemIconBtnWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::Action* customTipHandle; // 0x10
-		::MoleMole::UISuibianItemIconBtnWidgetController* __4__this; // 0x18
+		::MoleMole::UISuibianItemIconBtnWidgetController* __4__this; // 0x10
+		::System::Action* customTipHandle; // 0x18
 		::System::Int32 curCount; // 0x20
 
 		::System::Void _ctor()

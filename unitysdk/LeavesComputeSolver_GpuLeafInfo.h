@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int LeavesComputeSolver_GpuLeafInfo_TypeDefinitionIndex = 27671;
+inline static constexpr unsigned int LeavesComputeSolver_GpuLeafInfo_TypeDefinitionIndex = 26294;
 
 struct alignas(4) LeavesComputeSolver_GpuLeafInfo
 {

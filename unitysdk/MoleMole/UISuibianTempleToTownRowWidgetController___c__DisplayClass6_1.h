@@ -2,13 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UISUIBIANTEMPLETOTOWNROWWIDGETCONTROLLER___C__DISPLAYCLASS6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10EEDE20)
-#define MOLEMOLE_UISUIBIANTEMPLETOTOWNROWWIDGETCONTROLLER___C__DISPLAYCLASS6_1__REFRESHVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x10EEDE30)
+#define MOLEMOLE_UISUIBIANTEMPLETOTOWNROWWIDGETCONTROLLER___C__DISPLAYCLASS6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13B18D50)
+#define MOLEMOLE_UISUIBIANTEMPLETOTOWNROWWIDGETCONTROLLER___C__DISPLAYCLASS6_1__REFRESHVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x13B18D60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleToTownRowWidgetController___c__DisplayClass6_1_TypeDefinitionIndex = 68957;
+	inline static constexpr unsigned int UISuibianTempleToTownRowWidgetController___c__DisplayClass6_1_TypeDefinitionIndex = 74705;
 
+	template <typename T>
 	class UISuibianTempleToTownRowWidgetController___c__DisplayClass6_1 : public ::System::Object
 	{
 	public:

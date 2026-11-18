@@ -3,7 +3,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int Logger_StateTreeLogInstanceMode_TypeDefinitionIndex = 31589;
+	inline static constexpr unsigned int Logger_StateTreeLogInstanceMode_TypeDefinitionIndex = 31026;
 
 	enum class Logger_StateTreeLogInstanceMode : ::System::Int32
 	{

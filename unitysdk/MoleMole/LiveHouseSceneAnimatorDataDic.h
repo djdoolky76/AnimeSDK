@@ -1,18 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/DataStructures/Lists/EasySerializeDictionary_3.h"
 
-namespace MoleMole { class LiveHouseSceneAnimatorDataDicEntry; }
-namespace System { class String; }
-namespace UnityEngine { class Animator; }
-
-#define MOLEMOLE_LIVEHOUSESCENEANIMATORDATADIC__CTOR_OFFSET UNITYSDK_OFFSET(0x19B2DAA0)
+#define MOLEMOLE_LIVEHOUSESCENEANIMATORDATADIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A90C5F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LiveHouseSceneAnimatorDataDic_TypeDefinitionIndex = 80358;
+	inline static constexpr unsigned int LiveHouseSceneAnimatorDataDic_TypeDefinitionIndex = 93023;
 
-	class LiveHouseSceneAnimatorDataDic : public ::MoleMole::DataStructures::Lists::EasySerializeDictionary_3<::System::String*, ::UnityEngine::Animator*, ::MoleMole::LiveHouseSceneAnimatorDataDicEntry*>
+	class LiveHouseSceneAnimatorDataDic
 	{
 	public:
 		::System::Void _ctor()

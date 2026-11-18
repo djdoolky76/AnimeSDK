@@ -3,7 +3,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int PathCorner_TypeDefinitionIndex = 31777;
+	inline static constexpr unsigned int PathCorner_TypeDefinitionIndex = 31215;
 
 	enum class PathCorner : ::System::Int32
 	{

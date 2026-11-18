@@ -8,13 +8,13 @@ namespace System { template <typename T> class WeakReference_1; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraContext_2___c__DisplayClass56_0_1_TypeDefinitionIndex = 38147;
+	inline static constexpr unsigned int CameraContext_2___c__DisplayClass56_0_1_TypeDefinitionIndex = 36149;
 
-	template <typename TCameraController, typename TPlayerController, typename T>
+	template <typename T1, typename T2>
 	class CameraContext_2___c__DisplayClass56_0_1 : public ::System::Object
 	{
 	public:
-		::System::WeakReference_1<T>* weakReference; // 0x0
-		::System::Func_2<T, ::System::Action*>* eventGenerator; // 0x0
+		::System::WeakReference_1<T1>* weakReference; // 0x0
+		::System::Func_2<T1, ::System::Action*>* eventGenerator; // 0x0
 	};
 }

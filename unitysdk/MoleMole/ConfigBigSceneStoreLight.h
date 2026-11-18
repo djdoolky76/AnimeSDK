@@ -5,12 +5,12 @@
 namespace MoleMole { class BigSceneStoreLightData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGBIGSCENESTORELIGHT_GETSTORELIGHTLIST_OFFSET UNITYSDK_OFFSET(0x1B56A8D0)
-#define MOLEMOLE_CONFIGBIGSCENESTORELIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56A9B0)
+#define MOLEMOLE_CONFIGBIGSCENESTORELIGHT_GETSTORELIGHTLIST_OFFSET UNITYSDK_OFFSET(0x1BA4E250)
+#define MOLEMOLE_CONFIGBIGSCENESTORELIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA4E330)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigBigSceneStoreLight_TypeDefinitionIndex = 50564;
+	inline static constexpr unsigned int ConfigBigSceneStoreLight_TypeDefinitionIndex = 87104;
 
 	class ConfigBigSceneStoreLight : public ::Foundation::MihoyoSerializedScriptableObject
 	{

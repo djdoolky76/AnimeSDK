@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CLFBLCIJPKD_BCHIBNFLMLI.h"
+
+#define CLFBLCIJPKD_NHBFPPKNHEJ_BLPGBMJMAJF_OFFSET UNITYSDK_OFFSET(0x159E11D0)
+#define CLFBLCIJPKD_NHBFPPKNHEJ_KJOHEMDIHNJ_OFFSET UNITYSDK_OFFSET(0x159E1240)
+#define CLFBLCIJPKD_NHBFPPKNHEJ__CTOR_OFFSET UNITYSDK_OFFSET(0x159E11C0)
+
+inline static constexpr unsigned int CLFBLCIJPKD_NHBFPPKNHEJ_TypeDefinitionIndex = 88467;
+
+class CLFBLCIJPKD_NHBFPPKNHEJ : public ::CLFBLCIJPKD_BCHIBNFLMLI
+{
+public:
+	::System::Int32 OLMJJMKPFMO; // 0x30
+
+	::System::Void _ctor(::System::Int32 HMNFEIAMDNL)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_NHBFPPKNHEJ__CTOR_OFFSET))(this, HMNFEIAMDNL);
+	}
+
+	::System::Int32 BLPGBMJMAJF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_NHBFPPKNHEJ_BLPGBMJMAJF_OFFSET))(this);
+	}
+
+	::System::Int32 KJOHEMDIHNJ()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_NHBFPPKNHEJ_KJOHEMDIHNJ_OFFSET))(this);
+	}
+};

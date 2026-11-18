@@ -5,10 +5,10 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraVariableFetchContext_1_TypeDefinitionIndex = 38201;
+	inline static constexpr unsigned int CameraVariableFetchContext_1_TypeDefinitionIndex = 36203;
 
 	template <typename T>
-	struct CameraVariableFetchContext_1
+	struct alignas(8) CameraVariableFetchContext_1
 	{
 		T Input; // 0x0
 		::PipelineCamera::CameraSubModuleEvaluateContext_1<T> ModuleContext; // 0x0

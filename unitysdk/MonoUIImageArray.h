@@ -2,28 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class MonoUIImageArray_ChildData;
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MONOUIIMAGEARRAY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x11E57BE0)
-#define MONOUIIMAGEARRAY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11E57B90)
-#define MONOUIIMAGEARRAY_UPDATEANIMATIONS_OFFSET UNITYSDK_OFFSET(0x11E57C80)
-#define MONOUIIMAGEARRAY_UPDATE_OFFSET UNITYSDK_OFFSET(0x11E57C20)
-#define MONOUIIMAGEARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x11E58040)
+#define MONOUIIMAGEARRAY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x12FC6270)
+#define MONOUIIMAGEARRAY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12FC6220)
+#define MONOUIIMAGEARRAY_UPDATEANIMATIONS_OFFSET UNITYSDK_OFFSET(0x12FC6310)
+#define MONOUIIMAGEARRAY_UPDATE_OFFSET UNITYSDK_OFFSET(0x12FC62B0)
+#define MONOUIIMAGEARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x12FC66D0)
 
-inline static constexpr unsigned int MonoUIImageArray_TypeDefinitionIndex = 87165;
+inline static constexpr unsigned int MonoUIImageArray_TypeDefinitionIndex = 57855;
 
 class MonoUIImageArray : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::Boolean enableSwingAnimation; // 0x18
+	::System::Byte _padding0[0x3];
 	::System::Single swingAmplitude; // 0x1C
 	::System::Single swingSpeed; // 0x20
 	::System::Boolean enableBounceAnimation; // 0x24
+	::System::Byte _padding1[0x3];
 	::System::Single bounceWeight; // 0x28
 	::System::Single bounceDistance; // 0x2C
 	::System::Single bounceSpeed; // 0x30
-	::System::Collections::Generic::List_1<::MonoUIImageArray_ChildData*>* childDataList; // 0x38
+	::System::Byte _padding2[0x4];
+	::System::Collections::Generic::List_1<::System::Object*>* childDataList; // 0x38
 	::System::Single animationStartTime; // 0x40
 
 	::System::Void _ctor()

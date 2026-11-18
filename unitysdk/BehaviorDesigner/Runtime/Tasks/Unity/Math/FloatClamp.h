@@ -5,22 +5,22 @@
 
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_FLOATCLAMP_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F7C7D00)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_FLOATCLAMP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F7C7B30)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_FLOATCLAMP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7C7D40)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_FLOATCLAMP___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F7C7DD0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_FLOATCLAMP___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F7C7E60)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_FLOATCLAMP_ONRESET_OFFSET UNITYSDK_OFFSET(0x1FB8C6A0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_FLOATCLAMP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1FB8C4D0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_FLOATCLAMP__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB8C6E0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_FLOATCLAMP___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1FB8C770)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_FLOATCLAMP___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1FB8C800)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::Math
 {
-	inline static constexpr unsigned int FloatClamp_TypeDefinitionIndex = 34292;
+	inline static constexpr unsigned int FloatClamp_TypeDefinitionIndex = 33838;
 
 	class FloatClamp : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedFloat* maxValue; // 0x58
-		::BehaviorDesigner::Runtime::SharedFloat* floatVariable; // 0x60
-		::BehaviorDesigner::Runtime::SharedFloat* minValue; // 0x68
+		::BehaviorDesigner::Runtime::SharedFloat* minValue; // 0x58
+		::BehaviorDesigner::Runtime::SharedFloat* maxValue; // 0x60
+		::BehaviorDesigner::Runtime::SharedFloat* floatVariable; // 0x68
 
 		::System::Void _ctor()
 		{

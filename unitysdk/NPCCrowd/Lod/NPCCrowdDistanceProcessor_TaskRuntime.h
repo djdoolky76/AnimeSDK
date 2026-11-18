@@ -5,9 +5,9 @@
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdDistanceProcessor_TaskRuntime_TypeDefinitionIndex = 63861;
+	inline static constexpr unsigned int NPCCrowdDistanceProcessor_TaskRuntime_TypeDefinitionIndex = 77009;
 
-	struct alignas(8) NPCCrowdDistanceProcessor_TaskRuntime
+	struct alignas(4) NPCCrowdDistanceProcessor_TaskRuntime
 	{
 		::NPCCrowd::Lod::UpdateMode mode; // 0x10
 		::System::Int32 targetIdx1; // 0x14
@@ -15,8 +15,10 @@ namespace NPCCrowd::Lod
 		::System::Single lastDistance; // 0x1C
 		::System::Single curDistance; // 0x20
 		::System::Boolean dirtyFlag; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::Int32 refCnt; // 0x28
 		::System::Boolean valid; // 0x2C
+		::System::Byte _padding1[0x3];
 		::System::Int32 lastUpdateFrameCnt; // 0x30
 		::System::Int32 targetUpdateFrameCnt; // 0x34
 		::System::Single curMaxMovement; // 0x38

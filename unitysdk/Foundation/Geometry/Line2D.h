@@ -3,14 +3,14 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define FOUNDATION_GEOMETRY_LINE2D_CREATE_OFFSET UNITYSDK_OFFSET(0x1FC0BD60)
-#define FOUNDATION_GEOMETRY_LINE2D_GET_ISDEGENERATE_OFFSET UNITYSDK_OFFSET(0xAD08C0)
-#define FOUNDATION_GEOMETRY_LINE2D_ON_OFFSET UNITYSDK_OFFSET(0xAD0900)
-#define FOUNDATION_GEOMETRY_LINE2D__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
+#define FOUNDATION_GEOMETRY_LINE2D_CREATE_OFFSET UNITYSDK_OFFSET(0x2000CB00)
+#define FOUNDATION_GEOMETRY_LINE2D_GET_ISDEGENERATE_OFFSET UNITYSDK_OFFSET(0x9B6F20)
+#define FOUNDATION_GEOMETRY_LINE2D_ON_OFFSET UNITYSDK_OFFSET(0x9B6F60)
+#define FOUNDATION_GEOMETRY_LINE2D__CTOR_OFFSET UNITYSDK_OFFSET(0x3657B0)
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int Line2D_TypeDefinitionIndex = 8495;
+	inline static constexpr unsigned int Line2D_TypeDefinitionIndex = 8767;
 
 	struct alignas(4) Line2D
 	{
@@ -32,9 +32,11 @@ namespace Foundation::Geometry
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_LINE2D_ON_OFFSET))(this, point, tolerance);
 		}
 
+		/*
 		static ::Foundation::Geometry::Line2D Create(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b)
 		{
 			return ((::Foundation::Geometry::Line2D(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_LINE2D_CREATE_OFFSET))(a, b);
 		}
+		*/
 	};
 }

@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace BehaviorDesigner::Runtime { class SharedVariable; }
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int IVariableSource_TypeDefinitionIndex = 33880;
+	inline static constexpr unsigned int IVariableSource_TypeDefinitionIndex = 33426;
 
 	class IVariableSource
 	{

@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/Standart/Hash/xxHash/uint128.h"
 #include "unitysdk/System/Guid.h"
-#include "unitysdk/System/Object.h"
 
-#define STANDART_HASH_XXHASH_UTILS_BLOCKCOPY_OFFSET UNITYSDK_OFFSET(0x1EF88CA0)
-#define STANDART_HASH_XXHASH_UTILS_TOBYTES_OFFSET UNITYSDK_OFFSET(0x1EF88C20)
-#define STANDART_HASH_XXHASH_UTILS_TOGUID_OFFSET UNITYSDK_OFFSET(0x1EF88BB0)
+#define STANDART_HASH_XXHASH_UTILS_BLOCKCOPY_OFFSET UNITYSDK_OFFSET(0x1EF12E60)
+#define STANDART_HASH_XXHASH_UTILS_TOBYTES_OFFSET UNITYSDK_OFFSET(0x1EF12DE0)
+#define STANDART_HASH_XXHASH_UTILS_TOGUID_OFFSET UNITYSDK_OFFSET(0x1EF12D70)
 
 namespace Standart::Hash::xxHash
 {
-	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 8169;
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 7900;
 
 	class Utils : public ::System::Object
 	{

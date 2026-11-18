@@ -6,13 +6,13 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_ACTIONS_FINDWITHNAME_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EB99E20)
-#define NODECANVAS_TASKS_ACTIONS_FINDWITHNAME_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB9A070)
-#define NODECANVAS_TASKS_ACTIONS_FINDWITHNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9A120)
+#define NODECANVAS_TASKS_ACTIONS_FINDWITHNAME_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EF69880)
+#define NODECANVAS_TASKS_ACTIONS_FINDWITHNAME_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF69AD0)
+#define NODECANVAS_TASKS_ACTIONS_FINDWITHNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF69B80)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int FindWithName_TypeDefinitionIndex = 30623;
+	inline static constexpr unsigned int FindWithName_TypeDefinitionIndex = 30856;
 
 	class FindWithName : public ::NodeCanvas::Framework::ActionTask
 	{

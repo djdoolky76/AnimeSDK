@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_E46C7200C98EA660;
+class BPHAHGICCGN;
 namespace MoleMole { class UIZenkovControlCenterPageController; }
 
-#define MOLEMOLE_UIZENKOVBUILDINGUPGRADEDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14D98910)
+#define MOLEMOLE_UIZENKOVBUILDINGUPGRADEDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x170C44B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovBuildingUpgradeDialogPopWindowController_Context_TypeDefinitionIndex = 42404;
+	inline static constexpr unsigned int UIZenkovBuildingUpgradeDialogPopWindowController_Context_TypeDefinitionIndex = 62712;
 
 	class UIZenkovBuildingUpgradeDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_E46C7200C98EA660* BuildingData; // 0x28
-		::MoleMole::UIZenkovControlCenterPageController* Ctrl; // 0x30
-		::System::Int32 DstLevel; // 0x38
-		::System::Int32 Level; // 0x3C
+		::MoleMole::UIZenkovControlCenterPageController* Ctrl; // 0x28
+		::BPHAHGICCGN* BuildingData; // 0x30
+		::System::Int32 Level; // 0x38
+		::System::Int32 DstLevel; // 0x3C
 
 		::System::Void _ctor()
 		{

@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System::Configuration { class SettingsProvider; }
 namespace System::Configuration::Provider { class ProviderBase; }
 
-#define SYSTEM_CONFIGURATION_SETTINGSPROVIDERCOLLECTION_ADD_OFFSET UNITYSDK_OFFSET(0x1D3F93E0)
-#define SYSTEM_CONFIGURATION_SETTINGSPROVIDERCOLLECTION_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1D3F93A0)
-#define SYSTEM_CONFIGURATION_SETTINGSPROVIDERCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F9360)
+#define SYSTEM_CONFIGURATION_SETTINGSPROVIDERCOLLECTION_ADD_OFFSET UNITYSDK_OFFSET(0x1D8813A0)
+#define SYSTEM_CONFIGURATION_SETTINGSPROVIDERCOLLECTION_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1D881360)
+#define SYSTEM_CONFIGURATION_SETTINGSPROVIDERCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D881320)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SettingsProviderCollection_TypeDefinitionIndex = 4080;
+	inline static constexpr unsigned int SettingsProviderCollection_TypeDefinitionIndex = 4079;
 
 	class SettingsProviderCollection : public ::System::Configuration::Provider::ProviderCollection
 	{

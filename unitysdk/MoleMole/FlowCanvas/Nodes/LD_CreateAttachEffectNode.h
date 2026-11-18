@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
@@ -9,24 +9,24 @@ namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class ConfigPosRot; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13A8CC90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A8CE10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x13A8CE50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x13A8CE60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x14667510)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x14667690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x146676D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEATTACHEFFECTNODE__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x146676E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_CreateAttachEffectNode_TypeDefinitionIndex = 48479;
+	inline static constexpr unsigned int LD_CreateAttachEffectNode_TypeDefinitionIndex = 87302;
 
 	class LD_CreateAttachEffectNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* attachPointName; // 0xA8
-		::FlowCanvas::FlowOutput* _flowOutput; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::String*>* effectName; // 0xB8
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* attachEntity; // 0xC0
-		::MoleMole::Battle::Entity* _effectEntity; // 0xC8
-		::MoleMole::Config::ConfigPosRot* posRot; // 0xD0
+		::FlowCanvas::FlowOutput* _flowOutput; // 0xA8
+		::MoleMole::Config::ConfigPosRot* posRot; // 0xB0
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* attachEntity; // 0xB8
+		::MoleMole::Battle::Entity* _effectEntity; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::String*>* effectName; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::String*>* attachPointName; // 0xD0
 
 		::System::Void _ctor()
 		{

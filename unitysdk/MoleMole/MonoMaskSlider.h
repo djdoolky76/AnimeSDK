@@ -8,15 +8,15 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_MONOMASKSLIDER_AWAKE_OFFSET UNITYSDK_OFFSET(0x10811390)
-#define MOLEMOLE_MONOMASKSLIDER_GETRATIO_OFFSET UNITYSDK_OFFSET(0x10811860)
-#define MOLEMOLE_MONOMASKSLIDER_INITIALIZED_OFFSET UNITYSDK_OFFSET(0x108113E0)
-#define MOLEMOLE_MONOMASKSLIDER_UPDATEVALUE_OFFSET UNITYSDK_OFFSET(0x108114F0)
-#define MOLEMOLE_MONOMASKSLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x108118D0)
+#define MOLEMOLE_MONOMASKSLIDER_AWAKE_OFFSET UNITYSDK_OFFSET(0x15AC24E0)
+#define MOLEMOLE_MONOMASKSLIDER_GETRATIO_OFFSET UNITYSDK_OFFSET(0x15AC29B0)
+#define MOLEMOLE_MONOMASKSLIDER_INITIALIZED_OFFSET UNITYSDK_OFFSET(0x15AC2530)
+#define MOLEMOLE_MONOMASKSLIDER_UPDATEVALUE_OFFSET UNITYSDK_OFFSET(0x15AC2640)
+#define MOLEMOLE_MONOMASKSLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x15AC2A20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoMaskSlider_TypeDefinitionIndex = 77203;
+	inline static constexpr unsigned int MonoMaskSlider_TypeDefinitionIndex = 62471;
 
 	class MonoMaskSlider : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,6 +32,7 @@ namespace MoleMole
 		::UnityEngine::Vector2 fillAnchoredPosition; // 0x44
 		::UnityEngine::Vector2 fillSizeDelta; // 0x4C
 		::UnityEngine::Vector2 maskSizeDelta; // 0x54
+		::System::Byte _padding0[0x4];
 		::System::Action_2<::System::Single, ::System::Single>* onValueChanged; // 0x60
 		::System::Action* refreshRender; // 0x68
 		::System::Boolean isInit; // 0x70

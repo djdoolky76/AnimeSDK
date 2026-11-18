@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/ScriptableObject.h"
 
 namespace NPCCrowd::Accessories { class NpcAccessoryItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYMAPCONFIG_GETNPCACCITEM_OFFSET UNITYSDK_OFFSET(0xF603530)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF603610)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYMAPCONFIG_GETNPCACCITEM_OFFSET UNITYSDK_OFFSET(0xE787E10)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE787EF0)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryMapConfig_TypeDefinitionIndex = 64129;
+	inline static constexpr unsigned int NPCAccessoryMapConfig_TypeDefinitionIndex = 46600;
 
-	class NPCAccessoryMapConfig : public ::System::Object
+	class NPCAccessoryMapConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:
-		::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NpcAccessoryItem*>* items; // 0x10
+		::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NpcAccessoryItem*>* items; // 0x18
 
 		::System::Void _ctor()
 		{

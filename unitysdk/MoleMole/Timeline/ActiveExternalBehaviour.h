@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
 
-#define MOLEMOLE_TIMELINE_ACTIVEEXTERNALBEHAVIOUR_METHOD_2_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x19990370)
-#define MOLEMOLE_TIMELINE_ACTIVEEXTERNALBEHAVIOUR_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x19990300)
-#define MOLEMOLE_TIMELINE_ACTIVEEXTERNALBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19990350)
+#define MOLEMOLE_TIMELINE_ACTIVEEXTERNALBEHAVIOUR_MOONNIIOGKP_OFFSET UNITYSDK_OFFSET(0x14BCBAD0)
+#define MOLEMOLE_TIMELINE_ACTIVEEXTERNALBEHAVIOUR_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x14BCBA60)
+#define MOLEMOLE_TIMELINE_ACTIVEEXTERNALBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x14BCBAB0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ActiveExternalBehaviour_TypeDefinitionIndex = 50001;
+	inline static constexpr unsigned int ActiveExternalBehaviour_TypeDefinitionIndex = 42861;
 
 	class ActiveExternalBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -24,14 +24,14 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ACTIVEEXTERNALBEHAVIOUR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void OnGraphStart(::UnityEngine::Playables::Playable a1)
+		::System::Void OnGraphStart(::UnityEngine::Playables::Playable HKOFGPMIFHB)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ACTIVEEXTERNALBEHAVIOUR_ONGRAPHSTART_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ACTIVEEXTERNALBEHAVIOUR_ONGRAPHSTART_OFFSET))(this, HKOFGPMIFHB);
 		}
 
-		::System::Void Method_2_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+		::System::Void MOONNIIOGKP(::UnityEngine::Playables::Playable MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ACTIVEEXTERNALBEHAVIOUR_METHOD_2_324AEE341AAA7A1B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ACTIVEEXTERNALBEHAVIOUR_MOONNIIOGKP_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

@@ -5,17 +5,17 @@
 namespace System { class Array; }
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_COLLECTIONITEMFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE3C8C0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_COLLECTIONITEMFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2BC460)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializationReader_CollectionItemFixup_TypeDefinitionIndex = 1907;
+	inline static constexpr unsigned int XmlSerializationReader_CollectionItemFixup_TypeDefinitionIndex = 1906;
 
 	class XmlSerializationReader_CollectionItemFixup : public ::System::Object
 	{
 	public:
-		::System::Array* list; // 0x10
-		::System::String* id; // 0x18
+		::System::String* id; // 0x10
+		::System::Array* list; // 0x18
 		::System::Int32 index; // 0x20
 
 		::System::Void _ctor(::System::Array* list, ::System::Int32 index, ::System::String* id)

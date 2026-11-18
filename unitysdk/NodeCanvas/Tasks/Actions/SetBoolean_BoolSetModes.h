@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SetBoolean_BoolSetModes_TypeDefinitionIndex = 30467;
+	inline static constexpr unsigned int SetBoolean_BoolSetModes_TypeDefinitionIndex = 29529;
 
 	enum class SetBoolean_BoolSetModes : ::System::Int32
 	{

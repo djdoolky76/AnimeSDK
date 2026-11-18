@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEUPDATEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CB103C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEUPDATEPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1CB10370)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEUPDATEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB10310)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEUPDATEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CED1680)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEUPDATEPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1CED1630)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OFFSCREENPARTICLEUPDATEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED15D0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int OffscreenParticleUpdatePass_TypeDefinitionIndex = 27813;
+	inline static constexpr unsigned int OffscreenParticleUpdatePass_TypeDefinitionIndex = 26526;
 
 	class OffscreenParticleUpdatePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

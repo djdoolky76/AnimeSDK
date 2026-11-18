@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define DEST_MATH_LINE3_ANGLEBETWEENTWOLINES_OFFSET UNITYSDK_OFFSET(0xADDAC0)
-#define DEST_MATH_LINE3_CREATEFROMTWOPOINTS_1_OFFSET UNITYSDK_OFFSET(0x1FC654F0)
-#define DEST_MATH_LINE3_CREATEFROMTWOPOINTS_OFFSET UNITYSDK_OFFSET(0x1FC65470)
-#define DEST_MATH_LINE3_DISTANCETO_OFFSET UNITYSDK_OFFSET(0xADD860)
-#define DEST_MATH_LINE3_EVAL_OFFSET UNITYSDK_OFFSET(0xA64530)
-#define DEST_MATH_LINE3_PROJECT_OFFSET UNITYSDK_OFFSET(0xADD9A0)
-#define DEST_MATH_LINE3_TOSTRING_OFFSET UNITYSDK_OFFSET(0xADDB90)
-#define DEST_MATH_LINE3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3975A0)
-#define DEST_MATH_LINE3__CTOR_OFFSET UNITYSDK_OFFSET(0x97AF70)
+#define DEST_MATH_LINE3_ANGLEBETWEENTWOLINES_OFFSET UNITYSDK_OFFSET(0x9C16F0)
+#define DEST_MATH_LINE3_CREATEFROMTWOPOINTS_1_OFFSET UNITYSDK_OFFSET(0x20067F90)
+#define DEST_MATH_LINE3_CREATEFROMTWOPOINTS_OFFSET UNITYSDK_OFFSET(0x20067F10)
+#define DEST_MATH_LINE3_DISTANCETO_OFFSET UNITYSDK_OFFSET(0x9C1490)
+#define DEST_MATH_LINE3_EVAL_OFFSET UNITYSDK_OFFSET(0x93F800)
+#define DEST_MATH_LINE3_PROJECT_OFFSET UNITYSDK_OFFSET(0x9C15D0)
+#define DEST_MATH_LINE3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9C17C0)
+#define DEST_MATH_LINE3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3CAAD0)
+#define DEST_MATH_LINE3__CTOR_OFFSET UNITYSDK_OFFSET(0x8B4AE0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Line3_TypeDefinitionIndex = 35435;
+	inline static constexpr unsigned int Line3_TypeDefinitionIndex = 35008;
 
 	struct alignas(4) Line3
 	{
@@ -34,15 +34,19 @@ namespace Dest::Math
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + DEST_MATH_LINE3__CTOR_1_OFFSET))(this, center, direction);
 		}
 
+		/*
 		static ::Dest::Math::Line3 CreateFromTwoPoints(::UnityEngine::Vector3& p0, ::UnityEngine::Vector3& p1)
 		{
 			return ((::Dest::Math::Line3(*)(::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + DEST_MATH_LINE3_CREATEFROMTWOPOINTS_OFFSET))(p0, p1);
 		}
+		*/
 
+		/*
 		static ::Dest::Math::Line3 CreateFromTwoPoints_1(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1)
 		{
 			return ((::Dest::Math::Line3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + DEST_MATH_LINE3_CREATEFROMTWOPOINTS_1_OFFSET))(p0, p1);
 		}
+		*/
 
 		::UnityEngine::Vector3 Eval(::System::Single t)
 		{
@@ -59,10 +63,12 @@ namespace Dest::Math
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + DEST_MATH_LINE3_PROJECT_OFFSET))(this, point);
 		}
 
+		/*
 		::System::Single AngleBetweenTwoLines(::Dest::Math::Line3 anotherLine, ::System::Boolean acuteAngleDesired)
 		{
 			return ((::System::Single(*)(::PVOID, ::Dest::Math::Line3, ::System::Boolean))((::PBYTE)hIl2Cpp + DEST_MATH_LINE3_ANGLEBETWEENTWOLINES_OFFSET))(this, anotherLine, acuteAngleDesired);
 		}
+		*/
 
 		::System::String* ToString()
 		{

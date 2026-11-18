@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_704;
-namespace MoleMole { class UIHollowMainPageController___c__DisplayClass115_0; }
+class NCIILDJDHMK;
 namespace MoleMole { class UIVideoWidgetContext; }
 namespace MoleMole { class UIVideoWidgetController; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17DBB170)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_1__SHOWSTARTPERFORMANCE_B__1_OFFSET UNITYSDK_OFFSET(0x17DBB180)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17864BE0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_1__SHOWSTARTPERFORMANCE_B__1_OFFSET UNITYSDK_OFFSET(0x17864BF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass115_1_TypeDefinitionIndex = 73658;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass115_1_TypeDefinitionIndex = 84605;
 
+	template <typename T>
 	class UIHollowMainPageController___c__DisplayClass115_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIVideoWidgetContext* context; // 0x10
-		::MoleMole::UIHollowMainPageController___c__DisplayClass115_0* CS___8__locals1; // 0x18
-		::Class_2_208CC9941471731A_704* chessboardPerformResTemplate; // 0x20
+		::NCIILDJDHMK* chessboardPerformResTemplate; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
+		::MoleMole::UIVideoWidgetContext* context; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_D33A7AE9308D51C5;
+class BBDCAGEKHAJ;
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_MONOSTEER_GETSTEER_OFFSET UNITYSDK_OFFSET(0x129D4630)
-#define MOLEMOLE_MONOSTEER__CTOR_OFFSET UNITYSDK_OFFSET(0x129D4A00)
+#define MOLEMOLE_MONOSTEER_GETSTEER_OFFSET UNITYSDK_OFFSET(0x12498840)
+#define MOLEMOLE_MONOSTEER__CTOR_OFFSET UNITYSDK_OFFSET(0x12498C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSteer_TypeDefinitionIndex = 82997;
+	inline static constexpr unsigned int MonoSteer_TypeDefinitionIndex = 92102;
 
 	class MonoSteer : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,9 +22,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTEER__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D33A7AE9308D51C5* GetSteer(::MoleMole::Battle::Entity* a1)
+		::BBDCAGEKHAJ* GetSteer(::MoleMole::Battle::Entity* KECKGDFIALJ)
 		{
-			return ((::Class_1_D33A7AE9308D51C5*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTEER_GETSTEER_OFFSET))(this, a1);
+			return ((::BBDCAGEKHAJ*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTEER_GETSTEER_OFFSET))(this, KECKGDFIALJ);
 		}
 	};
 }

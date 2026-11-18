@@ -3,7 +3,7 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SocketAsyncOperation_TypeDefinitionIndex = 3661;
+	inline static constexpr unsigned int SocketAsyncOperation_TypeDefinitionIndex = 3660;
 
 	enum class SocketAsyncOperation : ::System::Int32
 	{

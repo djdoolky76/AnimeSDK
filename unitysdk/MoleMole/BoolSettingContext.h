@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_BOOLSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x116CB580)
+#define MOLEMOLE_BOOLSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xFA89EC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BoolSettingContext_TypeDefinitionIndex = 73556;
+	inline static constexpr unsigned int BoolSettingContext_TypeDefinitionIndex = 57149;
 
 	class BoolSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

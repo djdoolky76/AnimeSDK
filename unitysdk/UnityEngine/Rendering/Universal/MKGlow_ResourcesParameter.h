@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/VolumeParameter_1.h"
 
 namespace PostProcess::MKGlow { class MKGlowResources; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_MKGLOW_RESOURCESPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D6050C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_MKGLOW_RESOURCESPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D6050D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_MKGLOW_RESOURCESPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6050E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MKGLOW_RESOURCESPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D8D26A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MKGLOW_RESOURCESPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D8D26B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MKGLOW_RESOURCESPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D26C0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MKGlow_ResourcesParameter_TypeDefinitionIndex = 27632;
+	inline static constexpr unsigned int MKGlow_ResourcesParameter_TypeDefinitionIndex = 26375;
 
-	class MKGlow_ResourcesParameter : public ::UnityEngine::NAPRenderPipeline0::VolumeParameter_1<::PostProcess::MKGlow::MKGlowResources*>
+	class MKGlow_ResourcesParameter
 	{
 	public:
 		::System::Void _ctor()

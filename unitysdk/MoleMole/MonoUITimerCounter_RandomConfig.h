@@ -7,11 +7,12 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUITimerCounter_RandomConfig_TypeDefinitionIndex = 79332;
+	inline static constexpr unsigned int MonoUITimerCounter_RandomConfig_TypeDefinitionIndex = 60710;
 
 	struct alignas(8) MonoUITimerCounter_RandomConfig
 	{
 		::System::Single randomInterval; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* randomIntervalCurve; // 0x18
 		::System::Int32 min; // 0x20
 		::System::Int32 max; // 0x24

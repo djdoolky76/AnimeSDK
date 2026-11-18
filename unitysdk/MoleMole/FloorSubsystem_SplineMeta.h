@@ -5,21 +5,21 @@
 namespace FluffyUnderware::Curvy { class CurvySpline; }
 namespace System { class Object; }
 
-#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x8CD870)
-#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_EQUALS_OFFSET UNITYSDK_OFFSET(0x8CD800)
-#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8CD880)
-#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B953070)
-#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1B952EA0)
-#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B952E30)
-#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B953120)
-#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8CD7D0)
-#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x8CD7D0)
-#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x8CD8D0)
-#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8CD940)
+#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x62BA50)
+#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_EQUALS_OFFSET UNITYSDK_OFFSET(0x62B9E0)
+#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x62BA60)
+#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x103FE150)
+#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x103FDF80)
+#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x103FDF10)
+#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x103FE200)
+#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x62B9B0)
+#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x62B9B0)
+#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x62BAB0)
+#define MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x62BB20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FloorSubsystem_SplineMeta_TypeDefinitionIndex = 79590;
+	inline static constexpr unsigned int FloorSubsystem_SplineMeta_TypeDefinitionIndex = 50120;
 
 	struct alignas(8) FloorSubsystem_SplineMeta
 	{
@@ -36,20 +36,26 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::FluffyUnderware::Curvy::CurvySpline*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA__CTOR_1_OFFSET))(this, spline, withName);
 		}
 
+		/*
 		static ::MoleMole::FloorSubsystem_SplineMeta op_Implicit(::FluffyUnderware::Curvy::CurvySpline* value)
 		{
 			return ((::MoleMole::FloorSubsystem_SplineMeta(*)(::FluffyUnderware::Curvy::CurvySpline*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_OP_IMPLICIT_OFFSET))(value);
 		}
+		*/
 
+		/*
 		static ::FluffyUnderware::Curvy::CurvySpline* op_Implicit_1(::MoleMole::FloorSubsystem_SplineMeta value)
 		{
 			return ((::FluffyUnderware::Curvy::CurvySpline*(*)(::MoleMole::FloorSubsystem_SplineMeta))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_OP_IMPLICIT_1_OFFSET))(value);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::MoleMole::FloorSubsystem_SplineMeta other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::MoleMole::FloorSubsystem_SplineMeta))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{
@@ -61,15 +67,19 @@ namespace MoleMole
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_GETHASHCODE_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::MoleMole::FloorSubsystem_SplineMeta left, ::MoleMole::FloorSubsystem_SplineMeta right)
 		{
 			return ((::System::Boolean(*)(::MoleMole::FloorSubsystem_SplineMeta, ::MoleMole::FloorSubsystem_SplineMeta))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_OP_EQUALITY_OFFSET))(left, right);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::MoleMole::FloorSubsystem_SplineMeta left, ::MoleMole::FloorSubsystem_SplineMeta right)
 		{
 			return ((::System::Boolean(*)(::MoleMole::FloorSubsystem_SplineMeta, ::MoleMole::FloorSubsystem_SplineMeta))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOORSUBSYSTEM_SPLINEMETA_OP_INEQUALITY_OFFSET))(left, right);
 		}
+		*/
 
 		::System::Boolean __base_Equals(::System::Object* P0)
 		{

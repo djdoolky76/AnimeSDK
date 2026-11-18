@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETNPCIDSFORAVATAR_INNERFINDNPCIDS_OFFSET UNITYSDK_OFFSET(0x149E57F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETNPCIDSFORAVATAR_INVOKE_OFFSET UNITYSDK_OFFSET(0x149E5550)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETNPCIDSFORAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x149E59E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETNPCIDSFORAVATAR_INNERFINDNPCIDS_OFFSET UNITYSDK_OFFSET(0x130D58C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETNPCIDSFORAVATAR_INVOKE_OFFSET UNITYSDK_OFFSET(0x130D5620)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETNPCIDSFORAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x130D5AB0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetNpcIdsForAvatar_TypeDefinitionIndex = 83251;
+	inline static constexpr unsigned int LD_AbyssS2_GetNpcIdsForAvatar_TypeDefinitionIndex = 50522;
 
-	class LD_AbyssS2_GetNpcIdsForAvatar : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Collections::Generic::List_1<::System::Int32>*>
+	class LD_AbyssS2_GetNpcIdsForAvatar
 	{
 	public:
 		::System::Void _ctor()

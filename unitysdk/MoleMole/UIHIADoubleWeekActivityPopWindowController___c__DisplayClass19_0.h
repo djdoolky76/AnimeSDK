@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_31FA216B8128BBFD_8;
+class KIBCMAJOLIM;
 namespace MoleMole { class UIHIADoubleWeekActivityPopWindowController; }
 
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185BA520)
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__ONSELECTGRID_B__0_OFFSET UNITYSDK_OFFSET(0x185BA530)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1805D0A0)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__ONSELECTGRID_B__0_OFFSET UNITYSDK_OFFSET(0x1805D0B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHIADoubleWeekActivityPopWindowController___c__DisplayClass19_0_TypeDefinitionIndex = 86578;
+	inline static constexpr unsigned int UIHIADoubleWeekActivityPopWindowController___c__DisplayClass19_0_TypeDefinitionIndex = 58676;
 
 	class UIHIADoubleWeekActivityPopWindowController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::Class_3_31FA216B8128BBFD_8* grid; // 0x10
+		::KIBCMAJOLIM* grid; // 0x10
 		::MoleMole::UIHIADoubleWeekActivityPopWindowController* __4__this; // 0x18
 		::System::Int32 idx; // 0x20
 

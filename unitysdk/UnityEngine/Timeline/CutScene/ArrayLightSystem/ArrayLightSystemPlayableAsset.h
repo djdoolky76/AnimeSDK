@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 namespace UnityEngine::Timeline::CutScene::ArrayLightSystem { class ArrayLightSystemBehavior; }
 
-#define UNITYENGINE_TIMELINE_CUTSCENE_ARRAYLIGHTSYSTEM_ARRAYLIGHTSYSTEMPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F1A2060)
-#define UNITYENGINE_TIMELINE_CUTSCENE_ARRAYLIGHTSYSTEM_ARRAYLIGHTSYSTEMPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F1A2020)
-#define UNITYENGINE_TIMELINE_CUTSCENE_ARRAYLIGHTSYSTEM_ARRAYLIGHTSYSTEMPLAYABLEASSET_INITDATA_OFFSET UNITYSDK_OFFSET(0x1F1A2030)
-#define UNITYENGINE_TIMELINE_CUTSCENE_ARRAYLIGHTSYSTEM_ARRAYLIGHTSYSTEMPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1A2130)
+#define UNITYENGINE_TIMELINE_CUTSCENE_ARRAYLIGHTSYSTEM_ARRAYLIGHTSYSTEMPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F5966A0)
+#define UNITYENGINE_TIMELINE_CUTSCENE_ARRAYLIGHTSYSTEM_ARRAYLIGHTSYSTEMPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F596660)
+#define UNITYENGINE_TIMELINE_CUTSCENE_ARRAYLIGHTSYSTEM_ARRAYLIGHTSYSTEMPLAYABLEASSET_INITDATA_OFFSET UNITYSDK_OFFSET(0x1F596670)
+#define UNITYENGINE_TIMELINE_CUTSCENE_ARRAYLIGHTSYSTEM_ARRAYLIGHTSYSTEMPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F596780)
 
 namespace UnityEngine::Timeline::CutScene::ArrayLightSystem
 {
-	inline static constexpr unsigned int ArrayLightSystemPlayableAsset_TypeDefinitionIndex = 33087;
+	inline static constexpr unsigned int ArrayLightSystemPlayableAsset_TypeDefinitionIndex = 32546;
 
 	class ArrayLightSystemPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

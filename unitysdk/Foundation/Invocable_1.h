@@ -4,9 +4,9 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Invocable_1_TypeDefinitionIndex = 8489;
+	inline static constexpr unsigned int Invocable_1_TypeDefinitionIndex = 8968;
 
-	template <typename T1>
+	template <typename T>
 	class Invocable_1 : public ::System::Object
 	{
 	public:

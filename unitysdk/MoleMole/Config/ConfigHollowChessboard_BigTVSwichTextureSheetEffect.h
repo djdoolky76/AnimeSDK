@@ -1,47 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Config/ConfigHollowChessboard_BigTVSwitchReason.h"
 #include "unitysdk/MoleMole/Config/ConfigHollowChessboard_ChessEffectBase.h"
-#include "unitysdk/MoleMole/Config/ConfigHollowChessboard_ChessEffectBase_DurationType.h"
 
-class Class_1_8CE3173023BA2453;
-class Class_5_A6F8D19602712D95;
+class GDCCBKJDPGE;
+class PNJDGHBEMLK;
 namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectBigTVSwitchRunContext; }
 namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectRunContextBase; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0x177DE3A0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x177DE390)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_INTERNALRUN_OFFSET UNITYSDK_OFFSET(0x177DE0E0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_RUN_OFFSET UNITYSDK_OFFSET(0x177DDBF0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x177DE3F0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT___BASE_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0x177DE400)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1A764DF0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x1A764DE0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_INTERNALRUN_OFFSET UNITYSDK_OFFSET(0x1A764B30)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_RUN_OFFSET UNITYSDK_OFFSET(0x1A764640)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A764E40)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT___BASE_GETSUPPORTEDDURATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1A764E50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_BigTVSwichTextureSheetEffect_TypeDefinitionIndex = 59253;
+	inline static constexpr unsigned int ConfigHollowChessboard_BigTVSwichTextureSheetEffect_TypeDefinitionIndex = 46329;
 
 	class ConfigHollowChessboard_BigTVSwichTextureSheetEffect : public ::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigHollowChessboard_BigTVSwitchReason, ::System::String*>* TextureSheetMap; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>* TextureSheetMap; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Run(::Class_5_A6F8D19602712D95* chessPiece, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase* context, ::Class_1_8CE3173023BA2453* timeScale)
+		::System::Void Run(::PNJDGHBEMLK* chessPiece, ::System::Action_1<::System::Object*>* endCallback, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase* context, ::GDCCBKJDPGE* timeScale)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_5_A6F8D19602712D95*, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>*, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase*, ::Class_1_8CE3173023BA2453*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_RUN_OFFSET))(this, chessPiece, endCallback, context, timeScale);
+			return ((::System::Void(*)(::PVOID, ::PNJDGHBEMLK*, ::System::Action_1<::System::Object*>*, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase*, ::GDCCBKJDPGE*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_RUN_OFFSET))(this, chessPiece, endCallback, context, timeScale);
 		}
 
-		::System::Void InternalRun(::MoleMole::Config::ConfigHollowChessboard_ChessEffectBigTVSwitchRunContext* temp, ::Class_5_A6F8D19602712D95* chessPiece, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback)
+		::System::Void InternalRun(::MoleMole::Config::ConfigHollowChessboard_ChessEffectBigTVSwitchRunContext* temp, ::PNJDGHBEMLK* chessPiece, ::System::Action_1<::System::Object*>* endCallback)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectBigTVSwitchRunContext*, ::Class_5_A6F8D19602712D95*, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_INTERNALRUN_OFFSET))(this, temp, chessPiece, endCallback);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectBigTVSwitchRunContext*, ::PNJDGHBEMLK*, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_INTERNALRUN_OFFSET))(this, temp, chessPiece, endCallback);
 		}
 
 		::System::Single get_totalDuration()
@@ -49,14 +48,14 @@ namespace MoleMole::Config
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_GET_TOTALDURATION_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase_DurationType>* GetSupportedDurationType()
+		::System::Collections::Generic::IEnumerable_1<::System::Object*>* GetSupportedDurationType()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase_DurationType>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_GETSUPPORTEDDURATIONTYPE_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT_GETSUPPORTEDDURATIONTYPE_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase_DurationType>* __base_GetSupportedDurationType()
+		::System::Collections::Generic::IEnumerable_1<::System::Object*>* __base_GetSupportedDurationType()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase_DurationType>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT___BASE_GETSUPPORTEDDURATIONTYPE_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BIGTVSWICHTEXTURESHEETEFFECT___BASE_GETSUPPORTEDDURATIONTYPE_OFFSET))(this);
 		}
 	};
 }

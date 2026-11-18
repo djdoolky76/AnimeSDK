@@ -3,7 +3,7 @@
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int ConfigurationSaveMode_TypeDefinitionIndex = 2512;
+	inline static constexpr unsigned int ConfigurationSaveMode_TypeDefinitionIndex = 2511;
 
 	enum class ConfigurationSaveMode : ::System::Int32
 	{

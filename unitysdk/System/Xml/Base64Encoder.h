@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_BASE64ENCODER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1F1467B0)
-#define SYSTEM_XML_BASE64ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F146770)
+#define SYSTEM_XML_BASE64ENCODER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1F51A260)
+#define SYSTEM_XML_BASE64ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F51A220)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int Base64Encoder_TypeDefinitionIndex = 1662;
+	inline static constexpr unsigned int Base64Encoder_TypeDefinitionIndex = 1661;
 
 	class Base64Encoder : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_NPCATTACHPOINTNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x157C25A0)
+#define NPCCROWD_NPCATTACHPOINTNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x10DCBF40)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCAttachPointName_TypeDefinitionIndex = 51292;
+	inline static constexpr unsigned int NPCAttachPointName_TypeDefinitionIndex = 56342;
 
 	class NPCAttachPointName : public ::System::Object
 	{

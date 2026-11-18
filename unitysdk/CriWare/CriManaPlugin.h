@@ -4,65 +4,65 @@
 
 namespace System { class Action; }
 
-#define CRIWARE_CRIMANAPLUGIN_ADD_ONBEFOREINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FBC39E0)
-#define CRIWARE_CRIMANAPLUGIN_CRIMANAUNITY_USELEGACYDECODER_PC_OFFSET UNITYSDK_OFFSET(0x1FBC3FD0)
-#define CRIWARE_CRIMANAPLUGIN_CRIMANA_USESTREAMERMANAGER_OFFSET UNITYSDK_OFFSET(0x1FBC4C10)
-#define CRIWARE_CRIMANAPLUGIN_CRIWARE2348B5C8_OFFSET UNITYSDK_OFFSET(0x1FBC4AB0)
-#define CRIWARE_CRIMANAPLUGIN_CRIWARE356279DC_OFFSET UNITYSDK_OFFSET(0x1FBC4A30)
-#define CRIWARE_CRIMANAPLUGIN_CRIWARE3D003B8C_OFFSET UNITYSDK_OFFSET(0x1FBC3E70)
-#define CRIWARE_CRIMANAPLUGIN_CRIWARE4084722B_OFFSET UNITYSDK_OFFSET(0x1FBC4D60)
-#define CRIWARE_CRIMANAPLUGIN_CRIWARE5013D8DF_OFFSET UNITYSDK_OFFSET(0x1FBC3D00)
-#define CRIWARE_CRIMANAPLUGIN_CRIWARE88224C7A_OFFSET UNITYSDK_OFFSET(0x1FBC49B0)
-#define CRIWARE_CRIMANAPLUGIN_FINALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1FBC45B0)
-#define CRIWARE_CRIMANAPLUGIN_GETPRIMEBUFFERALIGNMENTSIZE_OFFSET UNITYSDK_OFFSET(0x1FBC4C90)
-#define CRIWARE_CRIMANAPLUGIN_INITIALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1FBC4050)
-#define CRIWARE_CRIMANAPLUGIN_ISLIBRARYINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1FBC44E0)
-#define CRIWARE_CRIMANAPLUGIN_REMOVE_ONBEFOREINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FBC3AC0)
-#define CRIWARE_CRIMANAPLUGIN_SETCONFIGADDITONALPARAMETERS_PC_OFFSET UNITYSDK_OFFSET(0x1FBC3D90)
-#define CRIWARE_CRIMANAPLUGIN_SETCONFIGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1FBC3BA0)
-#define CRIWARE_CRIMANAPLUGIN_USELEGACYDECODER_PC_OFFSET UNITYSDK_OFFSET(0x1FBC3EF0)
-#define CRIWARE_CRIMANAPLUGIN_USESTREAMERMANAGER_OFFSET UNITYSDK_OFFSET(0x1FBC4B30)
-#define CRIWARE_CRIMANAPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBC4DF0)
-#define CRIWARE_CRIMANAPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBC4DE0)
+#define CRIWARE_CRIMANAPLUGIN_ADD_ONBEFOREINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FFC7FF0)
+#define CRIWARE_CRIMANAPLUGIN_CRIMANAUNITY_USELEGACYDECODER_PC_OFFSET UNITYSDK_OFFSET(0x1FFC85E0)
+#define CRIWARE_CRIMANAPLUGIN_CRIMANA_USESTREAMERMANAGER_OFFSET UNITYSDK_OFFSET(0x1FFC9220)
+#define CRIWARE_CRIMANAPLUGIN_CRIWARE2348B5C8_OFFSET UNITYSDK_OFFSET(0x1FFC90C0)
+#define CRIWARE_CRIMANAPLUGIN_CRIWARE356279DC_OFFSET UNITYSDK_OFFSET(0x1FFC9040)
+#define CRIWARE_CRIMANAPLUGIN_CRIWARE3D003B8C_OFFSET UNITYSDK_OFFSET(0x1FFC8480)
+#define CRIWARE_CRIMANAPLUGIN_CRIWARE4084722B_OFFSET UNITYSDK_OFFSET(0x1FFC9370)
+#define CRIWARE_CRIMANAPLUGIN_CRIWARE5013D8DF_OFFSET UNITYSDK_OFFSET(0x1FFC8310)
+#define CRIWARE_CRIMANAPLUGIN_CRIWARE88224C7A_OFFSET UNITYSDK_OFFSET(0x1FFC8FC0)
+#define CRIWARE_CRIMANAPLUGIN_FINALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1FFC8BC0)
+#define CRIWARE_CRIMANAPLUGIN_GETPRIMEBUFFERALIGNMENTSIZE_OFFSET UNITYSDK_OFFSET(0x1FFC92A0)
+#define CRIWARE_CRIMANAPLUGIN_INITIALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1FFC8660)
+#define CRIWARE_CRIMANAPLUGIN_ISLIBRARYINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1FFC8AF0)
+#define CRIWARE_CRIMANAPLUGIN_REMOVE_ONBEFOREINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FFC80D0)
+#define CRIWARE_CRIMANAPLUGIN_SETCONFIGADDITONALPARAMETERS_PC_OFFSET UNITYSDK_OFFSET(0x1FFC83A0)
+#define CRIWARE_CRIMANAPLUGIN_SETCONFIGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1FFC81B0)
+#define CRIWARE_CRIMANAPLUGIN_USELEGACYDECODER_PC_OFFSET UNITYSDK_OFFSET(0x1FFC8500)
+#define CRIWARE_CRIMANAPLUGIN_USESTREAMERMANAGER_OFFSET UNITYSDK_OFFSET(0x1FFC9140)
+#define CRIWARE_CRIMANAPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFC9400)
+#define CRIWARE_CRIMANAPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFC93F0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriManaPlugin_TypeDefinitionIndex = 34976;
+	inline static constexpr unsigned int CriManaPlugin_TypeDefinitionIndex = 34525;
 
 	class CriManaPlugin : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_OnBeforeInitialize()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x29300);
-		}
 		static ::System::Action** StaticGet_OnInitialized()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x29308);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x2A560);
 		}
 		static ::System::Action** StaticGet_OnBeforeFinalize()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x29310);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x2A568);
+		}
+		static ::System::Action** StaticGet_OnBeforeInitialize()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x2A570);
 		}
 		static ::System::Action** StaticGet_OnFinalized()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x29318);
-		}
-		static ::System::Boolean* StaticGet_enabledMultithreadedRendering()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x84D0);
-		}
-		static ::System::Boolean* StaticGet_isConfigured()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x84D1);
-		}
-		static ::System::Int32* StaticGet_renderingEventOffset()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x84D4);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x2A578);
 		}
 		static ::System::Int32* StaticGet_initializationCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x84D8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x8970);
+		}
+		static ::System::Boolean* StaticGet_isConfigured()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x8974);
+		}
+		static ::System::Boolean* StaticGet_enabledMultithreadedRendering()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x8975);
+		}
+		static ::System::Int32* StaticGet_renderingEventOffset()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriManaPlugin_TypeDefinitionIndex)->GetStaticField(0x8978);
 		}
 
 		::System::Void _ctor()

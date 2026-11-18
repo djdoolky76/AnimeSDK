@@ -6,10 +6,10 @@
 namespace MoleMole { class AnimationCurveEx; }
 namespace System { class String; }
 
-#define MONOUITABLESCROLLV2_CONFIGITEMANIM_RESETANIMPARAMS_OFFSET UNITYSDK_OFFSET(0x114A9D90)
-#define MONOUITABLESCROLLV2_CONFIGITEMANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x114A9E30)
+#define MONOUITABLESCROLLV2_CONFIGITEMANIM_RESETANIMPARAMS_OFFSET UNITYSDK_OFFSET(0x13C1D140)
+#define MONOUITABLESCROLLV2_CONFIGITEMANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x13C1D1E0)
 
-inline static constexpr unsigned int MonoUITableScrollV2_ConfigItemAnim_TypeDefinitionIndex = 75065;
+inline static constexpr unsigned int MonoUITableScrollV2_ConfigItemAnim_TypeDefinitionIndex = 40094;
 
 class MonoUITableScrollV2_ConfigItemAnim : public ::System::Object
 {

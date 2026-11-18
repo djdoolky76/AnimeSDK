@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigSoundActionGeneral; }
 
-#define MOLEMOLE_CONFIG_SOUNDACTIONWITHWEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9277A0)
+#define MOLEMOLE_CONFIG_SOUNDACTIONWITHWEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1925F250)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SoundActionWithWeight_TypeDefinitionIndex = 51161;
+	inline static constexpr unsigned int SoundActionWithWeight_TypeDefinitionIndex = 88559;
 
 	class SoundActionWithWeight : public ::System::Object
 	{

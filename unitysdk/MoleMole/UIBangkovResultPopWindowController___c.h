@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UIBANGKOVRESULTPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1602E9D0)
-#define MOLEMOLE_UIBANGKOVRESULTPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1602EA10)
-#define MOLEMOLE_UIBANGKOVRESULTPOPWINDOWCONTROLLER___C__OPENITEMINFOBESIDEICON_B__25_1_OFFSET UNITYSDK_OFFSET(0x1602EA20)
+#define MOLEMOLE_UIBANGKOVRESULTPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15959E40)
+#define MOLEMOLE_UIBANGKOVRESULTPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15959E80)
+#define MOLEMOLE_UIBANGKOVRESULTPOPWINDOWCONTROLLER___C__OPENITEMINFOBESIDEICON_B__25_1_OFFSET UNITYSDK_OFFSET(0x15959E90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovResultPopWindowController___c_TypeDefinitionIndex = 48499;
+	inline static constexpr unsigned int UIBangkovResultPopWindowController___c_TypeDefinitionIndex = 56383;
 
 	class UIBangkovResultPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIBangkovResultPopWindowController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIBangkovResultPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovResultPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CF20);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovResultPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3EE00);
 		}
 		static ::System::Func_1<::System::Boolean>** StaticGet___9__25_1()
 		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovResultPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CF28);
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovResultPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3EE08);
 		}
 
 		static ::System::Void _cctor()

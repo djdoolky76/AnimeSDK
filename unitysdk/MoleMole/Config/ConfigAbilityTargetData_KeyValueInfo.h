@@ -5,17 +5,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGABILITYTARGETDATA_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8F1500)
+#define MOLEMOLE_CONFIG_CONFIGABILITYTARGETDATA_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1922F630)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAbilityTargetData_KeyValueInfo_TypeDefinitionIndex = 82873;
+	inline static constexpr unsigned int ConfigAbilityTargetData_KeyValueInfo_TypeDefinitionIndex = 72753;
 
 	class ConfigAbilityTargetData_KeyValueInfo : public ::System::Object
 	{
 	public:
 		::System::String* keyInst; // 0x10
 		::MoleMole::Config::ConfigAbilityTargetData_ValueType valueType; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* valueInst; // 0x20
 
 		::System::Void _ctor(::System::String* _keyInst, ::MoleMole::Config::ConfigAbilityTargetData_ValueType _valueType, ::System::String* _valueInst)

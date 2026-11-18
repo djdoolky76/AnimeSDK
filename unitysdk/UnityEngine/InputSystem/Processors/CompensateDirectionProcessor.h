@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/InputSystem/InputProcessor_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputControl; }
 
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_COMPENSATEDIRECTIONPROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F1F6B80)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_COMPENSATEDIRECTIONPROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F1F6ED0)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_COMPENSATEDIRECTIONPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1F6F10)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_COMPENSATEDIRECTIONPROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F5F24D0)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_COMPENSATEDIRECTIONPROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F5F2820)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_COMPENSATEDIRECTIONPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F2860)
 
 namespace UnityEngine::InputSystem::Processors
 {
-	inline static constexpr unsigned int CompensateDirectionProcessor_TypeDefinitionIndex = 32582;
+	inline static constexpr unsigned int CompensateDirectionProcessor_TypeDefinitionIndex = 32031;
 
-	class CompensateDirectionProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3>
+	class CompensateDirectionProcessor
 	{
 	public:
 		::System::Void _ctor()

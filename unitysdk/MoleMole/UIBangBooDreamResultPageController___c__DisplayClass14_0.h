@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIBANGBOODREAMRESULTPAGECONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E38280)
-#define MOLEMOLE_UIBANGBOODREAMRESULTPAGECONTROLLER___C__DISPLAYCLASS14_0__REFRESHCARD_B__0_OFFSET UNITYSDK_OFFSET(0x18E38290)
+#define MOLEMOLE_UIBANGBOODREAMRESULTPAGECONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1493F0)
+#define MOLEMOLE_UIBANGBOODREAMRESULTPAGECONTROLLER___C__DISPLAYCLASS14_0__REFRESHCARD_B__0_OFFSET UNITYSDK_OFFSET(0x1A149400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooDreamResultPageController___c__DisplayClass14_0_TypeDefinitionIndex = 83127;
+	inline static constexpr unsigned int UIBangBooDreamResultPageController___c__DisplayClass14_0_TypeDefinitionIndex = 72393;
 
 	class UIBangBooDreamResultPageController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* cardList; // 0x10
+		::System::Collections::Generic::List_1<::HGAJKHIMKJP*>* cardList; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -6,11 +6,11 @@ namespace MoleMole { class DitherConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_DITHERCONFIGSEPARATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4870E0)
+#define MOLEMOLE_DITHERCONFIGSEPARATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C703DF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DitherConfigSeparate_TypeDefinitionIndex = 64810;
+	inline static constexpr unsigned int DitherConfigSeparate_TypeDefinitionIndex = 49971;
 
 	class DitherConfigSeparate : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityLightingEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYLIGHTINGEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B0800)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLIGHTINGEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x16539770)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityLightingEffects_TypeDefinitionIndex = 59148;
+	inline static constexpr unsigned int ConfigEntityLightingEffects_TypeDefinitionIndex = 56166;
 
 	class ConfigEntityLightingEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

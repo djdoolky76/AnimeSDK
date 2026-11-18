@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MarshalByRefObject.h"
-#include "unitysdk/System/Reflection/Emit/AssemblyBuilderAccess.h"
 
 namespace System { class AppDomainSetup; }
 namespace System { class AssemblyLoadEventHandler; }
@@ -16,54 +15,52 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class Assembly; }
 namespace System::Reflection { class AssemblyName; }
 namespace System::Reflection { class MethodInfo; }
-namespace System::Reflection::Emit { class AssemblyBuilder; }
 namespace System::Runtime::ExceptionServices { class FirstChanceExceptionEventArgs; }
 namespace System::Runtime::Remoting::Contexts { class Context; }
 namespace System::Runtime::Remoting::Messaging { class CADMethodCallMessage; }
 namespace System::Runtime::Remoting::Messaging { class CADMethodReturnMessage; }
 namespace System::Security::Policy { class Evidence; }
 
-#define SYSTEM_APPDOMAIN_ADD_ASSEMBLYLOAD_OFFSET UNITYSDK_OFFSET(0x1C30D770)
-#define SYSTEM_APPDOMAIN_ADD_DOMAINUNLOAD_OFFSET UNITYSDK_OFFSET(0x1C30D870)
-#define SYSTEM_APPDOMAIN_ADD_UNHANDLEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C30D970)
-#define SYSTEM_APPDOMAIN_DEFINEDYNAMICASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1C30DA70)
-#define SYSTEM_APPDOMAIN_DOASSEMBLYLOAD_OFFSET UNITYSDK_OFFSET(0x1C30CAC0)
-#define SYSTEM_APPDOMAIN_DOASSEMBLYRESOLVE_OFFSET UNITYSDK_OFFSET(0x1C30CBD0)
-#define SYSTEM_APPDOMAIN_DODOMAINUNLOAD_OFFSET UNITYSDK_OFFSET(0x1C30D590)
-#define SYSTEM_APPDOMAIN_DORESOURCERESOLVE_OFFSET UNITYSDK_OFFSET(0x1C30D420)
-#define SYSTEM_APPDOMAIN_DOTYPERESOLVE_OFFSET UNITYSDK_OFFSET(0x1C30D060)
-#define SYSTEM_APPDOMAIN_GETCURDOMAIN_OFFSET UNITYSDK_OFFSET(0x1C30C430)
-#define SYSTEM_APPDOMAIN_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C30C650)
-#define SYSTEM_APPDOMAIN_GETDOMAINID_OFFSET UNITYSDK_OFFSET(0x1C30CA50)
-#define SYSTEM_APPDOMAIN_GETFRIENDLYNAME_OFFSET UNITYSDK_OFFSET(0x1C30C400)
-#define SYSTEM_APPDOMAIN_GETPROCESSGUID_OFFSET UNITYSDK_OFFSET(0x1C30C9C0)
-#define SYSTEM_APPDOMAIN_GETSETUP_OFFSET UNITYSDK_OFFSET(0x1C30C280)
-#define SYSTEM_APPDOMAIN_GET_CURRENTDOMAIN_OFFSET UNITYSDK_OFFSET(0x1C30C490)
-#define SYSTEM_APPDOMAIN_GET_SETUPINFORMATION_OFFSET UNITYSDK_OFFSET(0x1C30C290)
-#define SYSTEM_APPDOMAIN_INITIALIZELIFETIMESERVICE_OFFSET UNITYSDK_OFFSET(0x1C30C660)
-#define SYSTEM_APPDOMAIN_INTERNALGETCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C30C890)
-#define SYSTEM_APPDOMAIN_INTERNALGETDEFAULTCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C30C8C0)
-#define SYSTEM_APPDOMAIN_INTERNALGETPROCESSGUID_OFFSET UNITYSDK_OFFSET(0x1C30C8F0)
-#define SYSTEM_APPDOMAIN_INTERNALISFINALIZINGFORUNLOAD_OFFSET UNITYSDK_OFFSET(0x1C30CA00)
-#define SYSTEM_APPDOMAIN_INTERNALPOPDOMAINREF_OFFSET UNITYSDK_OFFSET(0x1C30C870)
-#define SYSTEM_APPDOMAIN_INTERNALPUSHDOMAINREFBYID_OFFSET UNITYSDK_OFFSET(0x1C30C860)
-#define SYSTEM_APPDOMAIN_INTERNALSETCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C30C880)
-#define SYSTEM_APPDOMAIN_INTERNALSETDOMAINBYID_OFFSET UNITYSDK_OFFSET(0x1C30C840)
-#define SYSTEM_APPDOMAIN_INTERNALSETDOMAIN_OFFSET UNITYSDK_OFFSET(0x1C30C850)
-#define SYSTEM_APPDOMAIN_INVOKEINDOMAINBYID_OFFSET UNITYSDK_OFFSET(0x1C30C900)
-#define SYSTEM_APPDOMAIN_ISFINALIZINGFORUNLOAD_OFFSET UNITYSDK_OFFSET(0x1C30CA10)
-#define SYSTEM_APPDOMAIN_LOADASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1C30C670)
-#define SYSTEM_APPDOMAIN_LOADSATELLITE_OFFSET UNITYSDK_OFFSET(0x1C30C680)
-#define SYSTEM_APPDOMAIN_LOAD_OFFSET UNITYSDK_OFFSET(0x1C30C750)
-#define SYSTEM_APPDOMAIN_METHOD_2_0C0F4CA32C5F0FF3_OFFSET UNITYSDK_OFFSET(0x1C30C5A0)
-#define SYSTEM_APPDOMAIN_METHOD_2_46733E97A29244E1_OFFSET UNITYSDK_OFFSET(0x1C30C740)
-#define SYSTEM_APPDOMAIN_METHOD_2_9FEFC1DDA79BD768_OFFSET UNITYSDK_OFFSET(0x1C30C4F0)
-#define SYSTEM_APPDOMAIN_PROCESSMESSAGEINDOMAIN_OFFSET UNITYSDK_OFFSET(0x1C30D5B0)
-#define SYSTEM_APPDOMAIN_REMOVE_ASSEMBLYLOAD_OFFSET UNITYSDK_OFFSET(0x1C30D7F0)
-#define SYSTEM_APPDOMAIN_REMOVE_DOMAINUNLOAD_OFFSET UNITYSDK_OFFSET(0x1C30D8F0)
-#define SYSTEM_APPDOMAIN_REMOVE_UNHANDLEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C30D9F0)
-#define SYSTEM_APPDOMAIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C30CA90)
-#define SYSTEM_APPDOMAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C30C270)
+#define SYSTEM_APPDOMAIN_ADD_ASSEMBLYLOAD_OFFSET UNITYSDK_OFFSET(0x1C884E30)
+#define SYSTEM_APPDOMAIN_ADD_DOMAINUNLOAD_OFFSET UNITYSDK_OFFSET(0x1C884F30)
+#define SYSTEM_APPDOMAIN_ADD_UNHANDLEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C885030)
+#define SYSTEM_APPDOMAIN_DOASSEMBLYLOAD_OFFSET UNITYSDK_OFFSET(0x1C884170)
+#define SYSTEM_APPDOMAIN_DOASSEMBLYRESOLVE_OFFSET UNITYSDK_OFFSET(0x1C884280)
+#define SYSTEM_APPDOMAIN_DODOMAINUNLOAD_OFFSET UNITYSDK_OFFSET(0x1C884C50)
+#define SYSTEM_APPDOMAIN_DORESOURCERESOLVE_OFFSET UNITYSDK_OFFSET(0x1C884AE0)
+#define SYSTEM_APPDOMAIN_DOTYPERESOLVE_OFFSET UNITYSDK_OFFSET(0x1C884710)
+#define SYSTEM_APPDOMAIN_GETCURDOMAIN_OFFSET UNITYSDK_OFFSET(0x1C883AE0)
+#define SYSTEM_APPDOMAIN_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C883D00)
+#define SYSTEM_APPDOMAIN_GETDOMAINID_OFFSET UNITYSDK_OFFSET(0x1C884100)
+#define SYSTEM_APPDOMAIN_GETFRIENDLYNAME_OFFSET UNITYSDK_OFFSET(0x1C883AB0)
+#define SYSTEM_APPDOMAIN_GETPROCESSGUID_OFFSET UNITYSDK_OFFSET(0x1C884070)
+#define SYSTEM_APPDOMAIN_GETSETUP_OFFSET UNITYSDK_OFFSET(0x1C883930)
+#define SYSTEM_APPDOMAIN_GET_CURRENTDOMAIN_OFFSET UNITYSDK_OFFSET(0x1C883B40)
+#define SYSTEM_APPDOMAIN_GET_SETUPINFORMATION_OFFSET UNITYSDK_OFFSET(0x1C883940)
+#define SYSTEM_APPDOMAIN_INITIALIZELIFETIMESERVICE_OFFSET UNITYSDK_OFFSET(0x1C883D10)
+#define SYSTEM_APPDOMAIN_INTERNALGETCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C883F40)
+#define SYSTEM_APPDOMAIN_INTERNALGETDEFAULTCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C883F70)
+#define SYSTEM_APPDOMAIN_INTERNALGETPROCESSGUID_OFFSET UNITYSDK_OFFSET(0x1C883FA0)
+#define SYSTEM_APPDOMAIN_INTERNALISFINALIZINGFORUNLOAD_OFFSET UNITYSDK_OFFSET(0x1C8840B0)
+#define SYSTEM_APPDOMAIN_INTERNALPOPDOMAINREF_OFFSET UNITYSDK_OFFSET(0x1C883F20)
+#define SYSTEM_APPDOMAIN_INTERNALPUSHDOMAINREFBYID_OFFSET UNITYSDK_OFFSET(0x1C883F10)
+#define SYSTEM_APPDOMAIN_INTERNALSETCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C883F30)
+#define SYSTEM_APPDOMAIN_INTERNALSETDOMAINBYID_OFFSET UNITYSDK_OFFSET(0x1C883EF0)
+#define SYSTEM_APPDOMAIN_INTERNALSETDOMAIN_OFFSET UNITYSDK_OFFSET(0x1C883F00)
+#define SYSTEM_APPDOMAIN_INVOKEINDOMAINBYID_OFFSET UNITYSDK_OFFSET(0x1C883FB0)
+#define SYSTEM_APPDOMAIN_ISFINALIZINGFORUNLOAD_OFFSET UNITYSDK_OFFSET(0x1C8840C0)
+#define SYSTEM_APPDOMAIN_LOADASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1C883D20)
+#define SYSTEM_APPDOMAIN_LOADSATELLITE_OFFSET UNITYSDK_OFFSET(0x1C883D30)
+#define SYSTEM_APPDOMAIN_LOAD_OFFSET UNITYSDK_OFFSET(0x1C883E00)
+#define SYSTEM_APPDOMAIN_METHOD_12_2_OFFSET UNITYSDK_OFFSET(0x1C883DF0)
+#define SYSTEM_APPDOMAIN_METHOD_6_OFFSET UNITYSDK_OFFSET(0x1C883BA0)
+#define SYSTEM_APPDOMAIN_METHOD_7_1_OFFSET UNITYSDK_OFFSET(0x1C883C50)
+#define SYSTEM_APPDOMAIN_PROCESSMESSAGEINDOMAIN_OFFSET UNITYSDK_OFFSET(0x1C884C70)
+#define SYSTEM_APPDOMAIN_REMOVE_ASSEMBLYLOAD_OFFSET UNITYSDK_OFFSET(0x1C884EB0)
+#define SYSTEM_APPDOMAIN_REMOVE_DOMAINUNLOAD_OFFSET UNITYSDK_OFFSET(0x1C884FB0)
+#define SYSTEM_APPDOMAIN_REMOVE_UNHANDLEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C8850B0)
+#define SYSTEM_APPDOMAIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C884140)
+#define SYSTEM_APPDOMAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C883920)
 
 namespace System
 {
@@ -72,15 +69,15 @@ namespace System
 	class AppDomain : public ::System::MarshalByRefObject
 	{
 	public:
-		static ::System::AppDomain** StaticGet_default_domain()
-		{
-			return (::System::AppDomain**)Il2CppClass::FromTypeDefinitionIndex(AppDomain_TypeDefinitionIndex)->GetStaticField(0x1020);
-		}
 		static ::System::String** StaticGet__process_guid()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AppDomain_TypeDefinitionIndex)->GetStaticField(0x1028);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AppDomain_TypeDefinitionIndex)->GetStaticField(0x1020);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_type_resolve_in_progress()
+		static ::System::AppDomain** StaticGet_default_domain()
+		{
+			return (::System::AppDomain**)Il2CppClass::FromTypeDefinitionIndex(AppDomain_TypeDefinitionIndex)->GetStaticField(0x1028);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_assembly_resolve_in_progress()
 		{
 			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AppDomain_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
@@ -92,7 +89,7 @@ namespace System
 		{
 			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AppDomain_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_assembly_resolve_in_progress()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_type_resolve_in_progress()
 		{
 			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AppDomain_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
@@ -100,6 +97,7 @@ namespace System
 		::System::Object* _evidence; // 0x20
 		::System::Object* _granted; // 0x28
 		::System::Int32 _principalPolicy; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::AssemblyLoadEventHandler* AssemblyLoad; // 0x38
 		::System::ResolveEventHandler* AssemblyResolve; // 0x40
 		::System::EventHandler* DomainUnload; // 0x48
@@ -144,14 +142,14 @@ namespace System
 			return ((::System::AppDomain*(*)())((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAIN_GET_CURRENTDOMAIN_OFFSET))();
 		}
 
-		::Il2CppArray<::System::Reflection::Assembly*>* Method_2_9FEFC1DDA79BD768(::System::Boolean refOnly)
+		::Il2CppArray<::System::Reflection::Assembly*>* Method_6(::System::Boolean refOnly)
 		{
-			return ((::Il2CppArray<::System::Reflection::Assembly*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAIN_METHOD_2_9FEFC1DDA79BD768_OFFSET))(this, refOnly);
+			return ((::Il2CppArray<::System::Reflection::Assembly*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAIN_METHOD_6_OFFSET))(this, refOnly);
 		}
 
-		::Il2CppArray<::System::Reflection::Assembly*>* Method_2_0C0F4CA32C5F0FF3()
+		::Il2CppArray<::System::Reflection::Assembly*>* Method_7_1()
 		{
-			return ((::Il2CppArray<::System::Reflection::Assembly*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAIN_METHOD_2_0C0F4CA32C5F0FF3_OFFSET))(this);
+			return ((::Il2CppArray<::System::Reflection::Assembly*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAIN_METHOD_7_1_OFFSET))(this);
 		}
 
 		::System::Object* GetData(::System::String* name)
@@ -174,9 +172,9 @@ namespace System
 			return ((::System::Reflection::Assembly*(*)(::PVOID, ::System::Reflection::AssemblyName*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAIN_LOADSATELLITE_OFFSET))(this, assemblyRef, throwOnError);
 		}
 
-		::System::Reflection::Assembly* Method_2_46733E97A29244E1(::System::String* assemblyString)
+		::System::Reflection::Assembly* Method_12_2(::System::String* assemblyString)
 		{
-			return ((::System::Reflection::Assembly*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAIN_METHOD_2_46733E97A29244E1_OFFSET))(this, assemblyString);
+			return ((::System::Reflection::Assembly*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAIN_METHOD_12_2_OFFSET))(this, assemblyString);
 		}
 
 		::System::Reflection::Assembly* Load(::System::String* assemblyString, ::System::Security::Policy::Evidence* assemblySecurity, ::System::Boolean refonly)
@@ -312,11 +310,6 @@ namespace System
 		::System::Void remove_UnhandledException(::System::UnhandledExceptionEventHandler* value)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UnhandledExceptionEventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAIN_REMOVE_UNHANDLEDEXCEPTION_OFFSET))(this, value);
-		}
-
-		::System::Reflection::Emit::AssemblyBuilder* DefineDynamicAssembly(::System::Reflection::AssemblyName* name, ::System::Reflection::Emit::AssemblyBuilderAccess access)
-		{
-			return ((::System::Reflection::Emit::AssemblyBuilder*(*)(::PVOID, ::System::Reflection::AssemblyName*, ::System::Reflection::Emit::AssemblyBuilderAccess))((::PBYTE)hIl2Cpp + SYSTEM_APPDOMAIN_DEFINEDYNAMICASSEMBLY_OFFSET))(this, name, access);
 		}
 	};
 }

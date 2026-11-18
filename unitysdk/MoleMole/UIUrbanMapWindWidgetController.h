@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UITwoDMapElement_UIController.h"
-#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/LIBOIKJGAIH.h"
 
-class Class_2_077CAE93E17BF63C;
+class DHNDHOMCOII;
 namespace MoleMole { class UIControlReference; }
 namespace MoleMole { class UIControllerContextBase; }
 
-#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x17D78ED0)
-#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x17D78F40)
-#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x17D78FE0)
-#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D791A0)
-#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x17D79200)
-#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x17D792A0)
+#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET UNITYSDK_OFFSET(0x166FF7B0)
+#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x166FF550)
+#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x166FF5F0)
+#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x166FF820)
+#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x166FF880)
+#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x166FF920)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapWindWidgetController_TypeDefinitionIndex = 90603;
+	inline static constexpr unsigned int UIUrbanMapWindWidgetController_TypeDefinitionIndex = 57961;
 
 	class UIUrbanMapWindWidgetController : public ::MoleMole::UITwoDMapElement_UIController
 	{
@@ -26,14 +26,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::Class_2_077CAE93E17BF63C* get__viewModel()
+		::System::Void OnCreateViewModel(::LIBOIKJGAIH& binderInfo, ::MoleMole::UIControlReference* controlReference)
 		{
-			return ((::Class_2_077CAE93E17BF63C*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
-		}
-
-		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
-		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
 		}
 
 		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
@@ -41,14 +36,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
 		}
 
-		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		::System::Void __base_OnCreateViewModel(::LIBOIKJGAIH& P0, ::MoleMole::UIControlReference* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
 		}
 
 		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
 		{
 			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::DHNDHOMCOII* OGMPOGIHBIK()
+		{
+			return ((::DHNDHOMCOII*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET))(this);
 		}
 	};
 }

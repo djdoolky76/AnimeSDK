@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_877AA22B04AFB81F;
+class JDJAHCLMBIO;
 namespace MoleMole { class UIMainCityMenuPageController; }
 
-#define MOLEMOLE_UIMAINCITYMENUPAGECONTROLLER___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C9FB10)
-#define MOLEMOLE_UIMAINCITYMENUPAGECONTROLLER___C__DISPLAYCLASS47_0__ONOPENACTIVITYCAROUSEL_B__0_OFFSET UNITYSDK_OFFSET(0x19C9FB20)
+#define MOLEMOLE_UIMAINCITYMENUPAGECONTROLLER___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19618D40)
+#define MOLEMOLE_UIMAINCITYMENUPAGECONTROLLER___C__DISPLAYCLASS47_0__ONOPENACTIVITYCAROUSEL_B__0_OFFSET UNITYSDK_OFFSET(0x19618D50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMenuPageController___c__DisplayClass47_0_TypeDefinitionIndex = 41745;
+	inline static constexpr unsigned int UIMainCityMenuPageController___c__DisplayClass47_0_TypeDefinitionIndex = 73309;
 
 	class UIMainCityMenuPageController___c__DisplayClass47_0 : public ::System::Object
 	{
 	public:
-		::Class_1_877AA22B04AFB81F* uiCarouselData; // 0x10
+		::JDJAHCLMBIO* uiCarouselData; // 0x10
 		::MoleMole::UIMainCityMenuPageController* __4__this; // 0x18
 
 		::System::Void _ctor()

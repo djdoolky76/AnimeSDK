@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETACTIVITYPIGWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16760AC0)
-#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETACTIVITYPIGWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16760B00)
-#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETACTIVITYPIGWIDGETCONTROLLER___C__TRYSENDDEPOSITREWARDREQUEST_B__9_0_OFFSET UNITYSDK_OFFSET(0x16760B10)
+#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETACTIVITYPIGWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x164A8F60)
+#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETACTIVITYPIGWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x164A8FA0)
+#define MOLEMOLE_UISHOPPINGMALLLIMITEDCARDWIDGETACTIVITYPIGWIDGETCONTROLLER___C__TRYSENDDEPOSITREWARDREQUEST_B__9_0_OFFSET UNITYSDK_OFFSET(0x164A8FB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIShoppingMallLimitedCardWidgetActivityPigWidgetController___c_TypeDefinitionIndex = 49860;
+	inline static constexpr unsigned int UIShoppingMallLimitedCardWidgetActivityPigWidgetController___c_TypeDefinitionIndex = 85788;
 
 	class UIShoppingMallLimitedCardWidgetActivityPigWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__9_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallLimitedCardWidgetActivityPigWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x51060);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallLimitedCardWidgetActivityPigWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x42350);
 		}
-		static ::MoleMole::UIShoppingMallLimitedCardWidgetActivityPigWidgetController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIShoppingMallLimitedCardWidgetActivityPigWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallLimitedCardWidgetActivityPigWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x51068);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIShoppingMallLimitedCardWidgetActivityPigWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x42358);
 		}
 
 		static ::System::Void _cctor()

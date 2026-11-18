@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_COMMANDBUILDER_SCOPEPERSIST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_COMMANDBUILDER_SCOPEPERSIST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandBuilder_ScopePersist_TypeDefinitionIndex = 39210;
+	inline static constexpr unsigned int CommandBuilder_ScopePersist_TypeDefinitionIndex = 37210;
 
-	struct alignas(1) CommandBuilder_ScopePersist
+	struct alignas(4) CommandBuilder_ScopePersist
 	{
 		::System::Void Dispose()
 		{

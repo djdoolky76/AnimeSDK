@@ -1,9 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/CameraType.h"
-#include "unitysdk/UnityEngine/LayerMask.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/AntialiasingMode.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/AntialiasingQuality.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/CameraRenderType.h"
@@ -13,14 +10,19 @@
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/FogType.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/MaterialDebugMode.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ShadingType.h"
-#include "unitysdk/UnityEngine/Rect.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 #include "unitysdk/UnityEngine/Rendering/DLSSGQualityMode.h"
 #include "unitysdk/UnityEngine/Rendering/DLSSQualityMode.h"
 #include "unitysdk/UnityEngine/Rendering/FSRFGQualityMode.h"
 #include "unitysdk/UnityEngine/Rendering/ReflexMode.h"
 #include "unitysdk/UnityEngine/Rendering/SortingCriteria.h"
 #include "unitysdk/UnityEngine/Rendering/SortingSettings.h"
+#include "unitysdk/UnityEngine/Rendering/XeSSFGQualityMode.h"
+#include "unitysdk/UnityEngine/Rendering/XeSSQualityMode.h"
+#include "unitysdk/UnityEngine/CameraType.h"
+#include "unitysdk/UnityEngine/LayerMask.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Rect.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
@@ -33,22 +35,22 @@ namespace UnityEngine::NAPRenderPipeline0 { class ICameraCacheData; }
 namespace UnityEngine::NAPRenderPipeline0 { class IUniversalAdditionalCameraData; }
 namespace UnityEngine::NAPRenderPipeline0 { class IWeatherConfig; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_ANTIALIASINGUSETEMPORAL_OFFSET UNITYSDK_OFFSET(0xA40E30)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GETGPUPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0xA40EE0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GETNONJITTEREDPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0xA40EB0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GETPREVIOUSVIEWMATRIX_OFFSET UNITYSDK_OFFSET(0xA40E50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GETPRIVOUSPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0xA40E80)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GETPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x78D550)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GETVIEWMATRIX_OFFSET UNITYSDK_OFFSET(0x44F040)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GET_ISPREVIEWCAMERA_OFFSET UNITYSDK_OFFSET(0xA40E20)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_SCREENTOVIEWPORTPOINT_OFFSET UNITYSDK_OFFSET(0xA41090)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_SETUPCAMERAVIEWDATA_OFFSET UNITYSDK_OFFSET(0xA40F80)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_WORLDTOSCREENPOINT_OFFSET UNITYSDK_OFFSET(0xA41060)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_WORLDTOVIEWPORTPOINT_OFFSET UNITYSDK_OFFSET(0xA410C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_ANTIALIASINGUSETEMPORAL_OFFSET UNITYSDK_OFFSET(0x91E2B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GETGPUPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x91E360)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GETNONJITTEREDPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x91E330)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GETPREVIOUSVIEWMATRIX_OFFSET UNITYSDK_OFFSET(0x91E2D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GETPRIVOUSPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x91E300)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GETPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x64C350)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GETVIEWMATRIX_OFFSET UNITYSDK_OFFSET(0x3CF620)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_GET_ISPREVIEWCAMERA_OFFSET UNITYSDK_OFFSET(0x91E2A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_SCREENTOVIEWPORTPOINT_OFFSET UNITYSDK_OFFSET(0x91E510)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_SETUPCAMERAVIEWDATA_OFFSET UNITYSDK_OFFSET(0x91E400)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_WORLDTOSCREENPOINT_OFFSET UNITYSDK_OFFSET(0x91E4E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERADATA_WORLDTOVIEWPORTPOINT_OFFSET UNITYSDK_OFFSET(0x91E540)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CameraData_TypeDefinitionIndex = 5952;
+	inline static constexpr unsigned int CameraData_TypeDefinitionIndex = 5958;
 
 	struct alignas(8) CameraData
 	{
@@ -63,8 +65,10 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::Vector3 cameraPositionWS; // 0x1D8
 		::UnityEngine::Vector3 cameraForwardWS; // 0x1E4
 		::UnityEngine::Vector3 cameraUpWS; // 0x1F0
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Camera* camera; // 0x200
 		::UnityEngine::NAPRenderPipeline0::CameraRenderType renderType; // 0x208
+		::System::Byte _padding1[0x4];
 		::UnityEngine::RenderTexture* targetTexture; // 0x210
 		::UnityEngine::RenderTextureDescriptor cameraTargetDescriptor; // 0x218
 		::UnityEngine::Rect pixelRect; // 0x250
@@ -88,6 +92,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Boolean isGpuQueryEnabled; // 0x286
 		::System::Boolean isLightShaftEnabled; // 0x287
 		::System::Boolean isGPUCullingEnabled; // 0x288
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Vector4 HizCullingParams; // 0x28C
 		::System::Boolean isClearDepthEnabled; // 0x29C
 		::System::Boolean isHdrEnabled; // 0x29D
@@ -103,10 +108,12 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Boolean renderDecals; // 0x2A7
 		::System::Boolean renderVolumetricFog; // 0x2A8
 		::System::Boolean renderWater; // 0x2A9
+		::System::Byte _padding3[0x6];
 		::UnityEngine::Camera* nextCamera; // 0x2B0
 		::UnityEngine::Camera* boundCamera; // 0x2B8
 		::System::Boolean drawGizmos; // 0x2C0
 		::System::Boolean useExtraGBuffer; // 0x2C1
+		::System::Byte _padding4[0x2];
 		::UnityEngine::CameraType cameraType; // 0x2C4
 		::UnityEngine::NAPRenderPipeline0::ShadingType shadingType; // 0x2C8
 		::UnityEngine::NAPRenderPipeline0::FogType fogType; // 0x2CC
@@ -117,12 +124,15 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Boolean historyBufferIsInValid; // 0x2D7
 		::System::Boolean isPlanarReflectionCamera; // 0x2D8
 		::System::Boolean isSceneViewCamera; // 0x2D9
+		::System::Byte _padding5[0x2];
 		::UnityEngine::Rendering::SortingCriteria defaultOpaqueSortFlags; // 0x2DC
 		::System::Single maxShadowDistance; // 0x2E0
 		::System::Boolean postProcessEnabled; // 0x2E4
+		::System::Byte _padding6[0x3];
 		::UnityEngine::NAPRenderPipeline0::IWeatherConfig* weatherConfig; // 0x2E8
 		::System::Object* captureActions; // 0x2F0
 		::UnityEngine::LayerMask volumeLayerMask; // 0x2F8
+		::System::Byte _padding7[0x4];
 		::UnityEngine::Transform* volumeTrigger; // 0x300
 		::System::Boolean readyToFreezeTheCamera; // 0x308
 		::System::Boolean theCameraIsFrozen; // 0x309
@@ -137,31 +147,38 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::Rendering::ReflexMode reflexMode; // 0x324
 		::System::Int32 frameLimitUs; // 0x328
 		::UnityEngine::Rendering::FSRFGQualityMode fsrFrameGenMode; // 0x32C
-		::System::Single fsrSharpenStrength; // 0x330
-		::System::Single taaSharpenStrength; // 0x334
-		::UnityEngine::NAPRenderPipeline0::MaterialDebugMode debugFeature; // 0x338
-		::System::Object* renderer; // 0x340
-		::System::Boolean resolveFinalTarget; // 0x348
-		::System::Object* volume_lighting; // 0x350
-		::System::Boolean m_UseLocalLightShadowCache; // 0x358
-		::UnityEngine::RenderTexture* m_LocalLightShadowStaticAtlas; // 0x360
-		::UnityEngine::RenderTexture* m_LocalLightShadowDynamicAtlas; // 0x368
-		::UnityEngine::Vector4 taaJitter; // 0x370
-		::UnityEngine::NAPRenderPipeline0::ICameraCacheData* cameraCachedData; // 0x380
-		::UnityEngine::Rendering::SortingSettings baseSortingSetting; // 0x388
-		::UnityEngine::NAPRenderPipeline0::IUniversalAdditionalCameraData* additionalCameraData; // 0x468
-		::System::Boolean needsUiBlur; // 0x470
-		::UnityEngine::NAPRenderPipeline0::EGlobalRTType renderTargetReplacement; // 0x474
-		::System::Boolean enableClusterLightAndIBLCulling; // 0x478
-		::System::Boolean enableFptlLightAndIBLCulling; // 0x479
-		::System::Boolean isLocalLightEnabled; // 0x47A
-		::System::Boolean isLocalReflectionProbeEnabled; // 0x47B
-		::System::Boolean isRenderShadowCasterAfterGBuffer; // 0x47C
-		::System::Boolean isForceOffScreenParticles; // 0x47D
-		::System::Int32 mGIQuality; // 0x480
-		::UnityEngine::NAPRenderPipeline0::ECameraRenderPassMask renderPassMask; // 0x484
-		::System::UInt32 renderLayerMaskForGBufferPass; // 0x488
-		::System::Boolean isPrefabEditMode; // 0x48C
+		::UnityEngine::Rendering::XeSSFGQualityMode xessFrameGenMode; // 0x330
+		::UnityEngine::Rendering::XeSSQualityMode xessMode; // 0x334
+		::System::Single fsrSharpenStrength; // 0x338
+		::System::Single taaSharpenStrength; // 0x33C
+		::UnityEngine::NAPRenderPipeline0::MaterialDebugMode debugFeature; // 0x340
+		::System::Byte _padding8[0x4];
+		::System::Object* renderer; // 0x348
+		::System::Boolean resolveFinalTarget; // 0x350
+		::System::Byte _padding9[0x7];
+		::System::Object* volume_lighting; // 0x358
+		::System::Boolean m_UseLocalLightShadowCache; // 0x360
+		::System::Byte _padding10[0x7];
+		::UnityEngine::RenderTexture* m_LocalLightShadowStaticAtlas; // 0x368
+		::UnityEngine::RenderTexture* m_LocalLightShadowDynamicAtlas; // 0x370
+		::UnityEngine::Vector4 taaJitter; // 0x378
+		::UnityEngine::NAPRenderPipeline0::ICameraCacheData* cameraCachedData; // 0x388
+		::UnityEngine::Rendering::SortingSettings baseSortingSetting; // 0x390
+		::UnityEngine::NAPRenderPipeline0::IUniversalAdditionalCameraData* additionalCameraData; // 0x470
+		::System::Boolean needsUiBlur; // 0x478
+		::System::Byte _padding11[0x3];
+		::UnityEngine::NAPRenderPipeline0::EGlobalRTType renderTargetReplacement; // 0x47C
+		::System::Boolean enableClusterLightAndIBLCulling; // 0x480
+		::System::Boolean enableFptlLightAndIBLCulling; // 0x481
+		::System::Boolean isLocalLightEnabled; // 0x482
+		::System::Boolean isLocalReflectionProbeEnabled; // 0x483
+		::System::Boolean isRenderShadowCasterAfterGBuffer; // 0x484
+		::System::Boolean isForceOffScreenParticles; // 0x485
+		::System::Byte _padding12[0x2];
+		::System::Int32 mGIQuality; // 0x488
+		::UnityEngine::NAPRenderPipeline0::ECameraRenderPassMask renderPassMask; // 0x48C
+		::System::UInt32 renderLayerMaskForGBufferPass; // 0x490
+		::System::Boolean isPrefabEditMode; // 0x494
 
 		::System::Boolean get_isPreviewCamera()
 		{

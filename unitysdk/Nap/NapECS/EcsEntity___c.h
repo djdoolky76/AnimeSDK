@@ -4,21 +4,21 @@
 
 namespace Nap::NapECS { class EcsComponent; }
 
-#define NAP_NAPECS_ECSENTITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C841690)
-#define NAP_NAPECS_ECSENTITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8416D0)
-#define NAP_NAPECS_ECSENTITY___C___CCTOR_B__110_0_OFFSET UNITYSDK_OFFSET(0x1C8416E0)
-#define NAP_NAPECS_ECSENTITY___C___CCTOR_B__110_1_OFFSET UNITYSDK_OFFSET(0x1C8416F0)
+#define NAP_NAPECS_ECSENTITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE07F90)
+#define NAP_NAPECS_ECSENTITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE07FD0)
+#define NAP_NAPECS_ECSENTITY___C___CCTOR_B__110_0_OFFSET UNITYSDK_OFFSET(0x1CE07FE0)
+#define NAP_NAPECS_ECSENTITY___C___CCTOR_B__110_1_OFFSET UNITYSDK_OFFSET(0x1CE07FF0)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsEntity___c_TypeDefinitionIndex = 38000;
+	inline static constexpr unsigned int EcsEntity___c_TypeDefinitionIndex = 36027;
 
 	class EcsEntity___c : public ::System::Object
 	{
 	public:
-		static ::Nap::NapECS::EcsEntity___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Nap::NapECS::EcsEntity___c**)Il2CppClass::FromTypeDefinitionIndex(EcsEntity___c_TypeDefinitionIndex)->GetStaticField(0x2A390);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(EcsEntity___c_TypeDefinitionIndex)->GetStaticField(0x2B6F0);
 		}
 
 		static ::System::Void _cctor()

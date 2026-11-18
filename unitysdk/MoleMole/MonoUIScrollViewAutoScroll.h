@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_C1D5FCB97A2B42C3.h"
+#include "unitysdk/CAOBMPCEGCL.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 class MonoUITableScrollV2;
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_AWAKE_OFFSET UNITYSDK_OFFSET(0x1739AF10)
-#define MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_BEGINSCROLL_OFFSET UNITYSDK_OFFSET(0x1739B150)
-#define MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x1739B080)
-#define MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_STOPSUBTITLESSCROLL_OFFSET UNITYSDK_OFFSET(0x1739B100)
-#define MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1739B390)
-#define MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL__CTOR_OFFSET UNITYSDK_OFFSET(0x1739B6D0)
+#define MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_AWAKE_OFFSET UNITYSDK_OFFSET(0x13F07200)
+#define MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_BEGINSCROLL_OFFSET UNITYSDK_OFFSET(0x13F07440)
+#define MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x13F07370)
+#define MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_STOPSUBTITLESSCROLL_OFFSET UNITYSDK_OFFSET(0x13F073F0)
+#define MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_UPDATE_OFFSET UNITYSDK_OFFSET(0x13F07680)
+#define MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL__CTOR_OFFSET UNITYSDK_OFFSET(0x13F07AE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIScrollViewAutoScroll_TypeDefinitionIndex = 53694;
+	inline static constexpr unsigned int MonoUIScrollViewAutoScroll_TypeDefinitionIndex = 82685;
 
 	class MonoUIScrollViewAutoScroll : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,9 +24,9 @@ namespace MoleMole
 		::System::Single scrollDuration; // 0x20
 		::System::Single beginScrollDelay; // 0x24
 		::System::Single scrollEndWaitTime; // 0x28
-		::Enum_3_C1D5FCB97A2B42C3 Field_5_5; // 0x2C
-		::System::Single Field_5_4; // 0x30
-		::System::Single Field_5_11; // 0x34
+		::CAOBMPCEGCL OHDAFIKPDGB; // 0x2C
+		::System::Single ACLCLFLJKPO; // 0x30
+		::System::Single AEIPKJJLBFA; // 0x34
 
 		::System::Void _ctor()
 		{
@@ -38,14 +38,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* a1)
+		::System::Void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* DIHNFECKHMD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_ONBEGINDRAG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_ONBEGINDRAG_OFFSET))(this, DIHNFECKHMD);
 		}
 
-		::System::Void BeginScroll(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		::System::Void BeginScroll(::System::Single IEMEOFIAKHO, ::System::Single LOPMOCNLNOB, ::System::Single DKHJBACFIDO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_BEGINSCROLL_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWAUTOSCROLL_BEGINSCROLL_OFFSET))(this, IEMEOFIAKHO, LOPMOCNLNOB, DKHJBACFIDO);
 		}
 
 		::System::Void StopSubtitlesScroll()

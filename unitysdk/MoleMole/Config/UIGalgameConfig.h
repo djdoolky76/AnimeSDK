@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_UIGALGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1487D8A0)
+#define MOLEMOLE_CONFIG_UIGALGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B450AC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int UIGalgameConfig_TypeDefinitionIndex = 72721;
+	inline static constexpr unsigned int UIGalgameConfig_TypeDefinitionIndex = 80153;
 
 	class UIGalgameConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
@@ -25,6 +25,7 @@ namespace MoleMole::Config
 		::System::Single singleStageFadeInAvatarDelay; // 0x88
 		::System::Single singleStageFadeOutBGDelay; // 0x8C
 		::System::Single singleStagefadeOutBGAnimDuration; // 0x90
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* singleStageFadeOutBGMoveCurve; // 0x98
 		::System::Single singleStageFadeOutAvatarDelay; // 0xA0
 		::System::Single singleStageFadeOutPageAnimDelay; // 0xA4
@@ -33,10 +34,12 @@ namespace MoleMole::Config
 		::System::Single doubleStageFadeInBGDelay; // 0xB0
 		::System::Single doubleStageFadeInBGAnimDuration; // 0xB4
 		::System::Single doubleStageFadeInBGAnimDistance; // 0xB8
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* doubleStageFadeInBGMoveCurve; // 0xC0
 		::System::Single doubleStageFadeOutBGDelay; // 0xC8
 		::System::Single doubleStagefadeOutBGAnimDuration; // 0xCC
 		::System::Single doubleStageFadeOutBGAnimDistance; // 0xD0
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* doubleStageFadeOutBGMoveCurve; // 0xD8
 		::System::Single doubleStageFadeOutAvatarDelay; // 0xE0
 		::System::Single doubleStageFadeOutPageAnimDelay; // 0xE4
@@ -47,6 +50,7 @@ namespace MoleMole::Config
 		::System::Single tripleStageFadeOutBGDelay; // 0xF8
 		::System::Single tripleStagefadeOutBGAnimDuration; // 0xFC
 		::System::Single tripleStageFadeOutBGAnimDistance; // 0x100
+		::System::Byte _padding3[0x4];
 		::UnityEngine::AnimationCurve* tripleStageFadeOutBGMoveCurve; // 0x108
 		::System::Single tripleStageFadeOutAvatarDelay; // 0x110
 		::System::Single tripleStageFadeOutPageAnimDelay; // 0x114

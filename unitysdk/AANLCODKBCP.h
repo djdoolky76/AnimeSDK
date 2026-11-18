@@ -1,0 +1,94 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GHCAHMCCPML.h"
+#include "unitysdk/System/Object.h"
+
+class PBIHJEGJPGD;
+
+#define AANLCODKBCP_BFEMEELGKAI_OFFSET UNITYSDK_OFFSET(0x16434A70)
+#define AANLCODKBCP_CBDLAEBBPBE_OFFSET UNITYSDK_OFFSET(0x16434E90)
+#define AANLCODKBCP_EDLLMCEPFGJ_OFFSET UNITYSDK_OFFSET(0x16434BB0)
+#define AANLCODKBCP_FBFPKKDAPLL_OFFSET UNITYSDK_OFFSET(0x16434D00)
+#define AANLCODKBCP_HBHPAEKHNED_OFFSET UNITYSDK_OFFSET(0x16434EB0)
+#define AANLCODKBCP_JCDGEHFKODD_OFFSET UNITYSDK_OFFSET(0x164350F0)
+#define AANLCODKBCP_JKADGKCDMHB_OFFSET UNITYSDK_OFFSET(0x16434DF0)
+#define AANLCODKBCP_KKELFCJHCAO_OFFSET UNITYSDK_OFFSET(0x164346A0)
+#define AANLCODKBCP_LIGKPLBGKIG_OFFSET UNITYSDK_OFFSET(0x16434DA0)
+#define AANLCODKBCP_MPKEJNFMFCI_OFFSET UNITYSDK_OFFSET(0x16434480)
+#define AANLCODKBCP_PDENGDMJAIH_OFFSET UNITYSDK_OFFSET(0x164348F0)
+#define AANLCODKBCP_POPDCDAPEPL_OFFSET UNITYSDK_OFFSET(0x16435010)
+#define AANLCODKBCP__CTOR_OFFSET UNITYSDK_OFFSET(0x16434470)
+
+inline static constexpr unsigned int AANLCODKBCP_TypeDefinitionIndex = 48033;
+
+class AANLCODKBCP : public ::System::Object
+{
+public:
+	::PBIHJEGJPGD* LFOHODONBIL; // 0x10
+	::System::Boolean PMKFKJOCFOJ; // 0x18
+
+	::System::Void _ctor(::PBIHJEGJPGD* IONJNNHMDAB)
+	{
+		return ((::System::Void(*)(::PVOID, ::PBIHJEGJPGD*))((::PBYTE)hIl2Cpp + AANLCODKBCP__CTOR_OFFSET))(this, IONJNNHMDAB);
+	}
+
+	::System::Void MPKEJNFMFCI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AANLCODKBCP_MPKEJNFMFCI_OFFSET))(this);
+	}
+
+	::System::Void KKELFCJHCAO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AANLCODKBCP_KKELFCJHCAO_OFFSET))(this);
+	}
+
+	::System::Void PDENGDMJAIH(::System::UInt32 BCCCMFIGOOI)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AANLCODKBCP_PDENGDMJAIH_OFFSET))(this, BCCCMFIGOOI);
+	}
+
+	::System::Void BFEMEELGKAI(::System::Boolean ADHCINEEDEO)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AANLCODKBCP_BFEMEELGKAI_OFFSET))(this, ADHCINEEDEO);
+	}
+
+	::System::Void EDLLMCEPFGJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AANLCODKBCP_EDLLMCEPFGJ_OFFSET))(this);
+	}
+
+	::System::Void FBFPKKDAPLL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AANLCODKBCP_FBFPKKDAPLL_OFFSET))(this);
+	}
+
+	::System::Void LIGKPLBGKIG(::GHCAHMCCPML FKMHMOELCIO)
+	{
+		return ((::System::Void(*)(::PVOID, ::GHCAHMCCPML))((::PBYTE)hIl2Cpp + AANLCODKBCP_LIGKPLBGKIG_OFFSET))(this, FKMHMOELCIO);
+	}
+
+	::System::Void CBDLAEBBPBE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AANLCODKBCP_CBDLAEBBPBE_OFFSET))(this);
+	}
+
+	::System::Void JKADGKCDMHB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AANLCODKBCP_JKADGKCDMHB_OFFSET))(this);
+	}
+
+	::System::Void HBHPAEKHNED()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AANLCODKBCP_HBHPAEKHNED_OFFSET))(this);
+	}
+
+	::System::Void POPDCDAPEPL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AANLCODKBCP_POPDCDAPEPL_OFFSET))(this);
+	}
+
+	::System::Void JCDGEHFKODD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AANLCODKBCP_JCDGEHFKODD_OFFSET))(this);
+	}
+};

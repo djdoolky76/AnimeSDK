@@ -5,12 +5,12 @@
 
 namespace System::Reflection { class MethodInfo; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTRACT___C__DISPLAYCLASS73_0__CREATESERIALIZATIONCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1FC4FA40)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTRACT___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC4FA30)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTRACT___C__DISPLAYCLASS73_0__CREATESERIALIZATIONCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x200543C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONCONTRACT___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0x200543B0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonContract___c__DisplayClass73_0_TypeDefinitionIndex = 7129;
+	inline static constexpr unsigned int JsonContract___c__DisplayClass73_0_TypeDefinitionIndex = 7136;
 
 	class JsonContract___c__DisplayClass73_0 : public ::System::Object
 	{

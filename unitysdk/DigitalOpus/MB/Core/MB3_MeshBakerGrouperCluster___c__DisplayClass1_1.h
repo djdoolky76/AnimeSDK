@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 
 namespace DigitalOpus::MB::Core { class MB3_AgglomerativeClustering_item_s; }
-namespace DigitalOpus::MB::Core { class MB3_MeshBakerGrouperCluster___c__DisplayClass1_0; }
 
-#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERCLUSTER___C__DISPLAYCLASS1_1__BUILDCLUSTERS_B__0_OFFSET UNITYSDK_OFFSET(0x1F88C4C0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERCLUSTER___C__DISPLAYCLASS1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1F88C4B0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERCLUSTER___C__DISPLAYCLASS1_1__BUILDCLUSTERS_B__0_OFFSET UNITYSDK_OFFSET(0x1FCA7500)
+#define DIGITALOPUS_MB_CORE_MB3_MESHBAKERGROUPERCLUSTER___C__DISPLAYCLASS1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCA74F0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshBakerGrouperCluster___c__DisplayClass1_1_TypeDefinitionIndex = 94507;
+	inline static constexpr unsigned int MB3_MeshBakerGrouperCluster___c__DisplayClass1_1_TypeDefinitionIndex = 96194;
 
+	template <typename T>
 	class MB3_MeshBakerGrouperCluster___c__DisplayClass1_1 : public ::System::Object
 	{
 	public:
-		::DigitalOpus::MB::Core::MB3_MeshBakerGrouperCluster___c__DisplayClass1_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::Int32 i; // 0x18
 
 		::System::Void _ctor()

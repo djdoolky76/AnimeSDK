@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGUIHACKERGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A004640)
+#define MOLEMOLE_CONFIGUIHACKERGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A781610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIHackerGame_TypeDefinitionIndex = 65698;
+	inline static constexpr unsigned int ConfigUIHackerGame_TypeDefinitionIndex = 42966;
 
 	class ConfigUIHackerGame : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -19,6 +19,7 @@ namespace MoleMole
 		::System::Single rotationDuration; // 0x60
 		::System::Single endAnimDuration; // 0x64
 		::System::Single endAnimDuration2; // 0x68
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* DifficultyToTutorialGroup; // 0x70
 		::System::String* RefreshUISoundKey; // 0x78
 		::System::String* EnterNormalPointSoundKey; // 0x80
@@ -28,6 +29,9 @@ namespace MoleMole
 		::System::String* ExitNormalPointSoundKey; // 0xA0
 		::System::String* IllegalActionSoundKey; // 0xA8
 		::System::String* SuccessSoundKey; // 0xB0
+		::System::String* EnterProtocolIndexPointSoundKey; // 0xB8
+		::System::String* EnterTransferBeltPointSoundKey; // 0xC0
+		::System::String* EnterPortalPointSoundKey; // 0xC8
 
 		::System::Void _ctor()
 		{

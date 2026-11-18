@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_EFFECTSIMULATE_AVATARUIPREVIEWSCENEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B822580)
+#define MOLEMOLE_EFFECTSIMULATE_AVATARUIPREVIEWSCENEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x180CC650)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int AvatarUIPreviewSceneData_TypeDefinitionIndex = 69680;
+	inline static constexpr unsigned int AvatarUIPreviewSceneData_TypeDefinitionIndex = 49792;
 
 	class AvatarUIPreviewSceneData : public ::UnityEngine::MonoBehaviour
 	{

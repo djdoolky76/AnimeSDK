@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 
-#define UNITYENGINE_SETUPCOROUTINE_INVOKEMEMBER_OFFSET UNITYSDK_OFFSET(0x1E8B34F0)
-#define UNITYENGINE_SETUPCOROUTINE_INVOKEMOVENEXT_OFFSET UNITYSDK_OFFSET(0x1E8B33E0)
-#define UNITYENGINE_SETUPCOROUTINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B3630)
+#define UNITYENGINE_SETUPCOROUTINE_INVOKEMEMBER_OFFSET UNITYSDK_OFFSET(0x1EB6BDB0)
+#define UNITYENGINE_SETUPCOROUTINE_INVOKEMOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EB6BCA0)
+#define UNITYENGINE_SETUPCOROUTINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6BEF0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SetupCoroutine_TypeDefinitionIndex = 5338;
+	inline static constexpr unsigned int SetupCoroutine_TypeDefinitionIndex = 5340;
 
 	class SetupCoroutine : public ::System::Object
 	{

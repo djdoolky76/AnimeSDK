@@ -7,12 +7,12 @@ namespace NapStreaming { class SceneAssetDensityCell; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NAPSTREAMING_NAPSTREAMINGASSETDENSITYCONFIG_CHECKNEEDGENERATE_OFFSET UNITYSDK_OFFSET(0x102CD4C0)
-#define NAPSTREAMING_NAPSTREAMINGASSETDENSITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x102CD540)
+#define NAPSTREAMING_NAPSTREAMINGASSETDENSITYCONFIG_CHECKNEEDGENERATE_OFFSET UNITYSDK_OFFSET(0x1365BB80)
+#define NAPSTREAMING_NAPSTREAMINGASSETDENSITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1365BC00)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingAssetDensityConfig_TypeDefinitionIndex = 41201;
+	inline static constexpr unsigned int NapStreamingAssetDensityConfig_TypeDefinitionIndex = 82087;
 
 	class NapStreamingAssetDensityConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

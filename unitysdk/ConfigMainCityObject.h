@@ -9,19 +9,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CONFIGMAINCITYOBJECT_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x13CD9130)
-#define CONFIGMAINCITYOBJECT_GETLIMITAREA_OFFSET UNITYSDK_OFFSET(0x13CD8FB0)
-#define CONFIGMAINCITYOBJECT_GETTRAFFICTIMELOOP_OFFSET UNITYSDK_OFFSET(0x13CD9210)
-#define CONFIGMAINCITYOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x13CD9250)
+#define CONFIGMAINCITYOBJECT_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x13281FC0)
+#define CONFIGMAINCITYOBJECT_GETLIMITAREA_OFFSET UNITYSDK_OFFSET(0x13281E40)
+#define CONFIGMAINCITYOBJECT_GETTRAFFICTIMELOOP_OFFSET UNITYSDK_OFFSET(0x132820A0)
+#define CONFIGMAINCITYOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x132820E0)
 
-inline static constexpr unsigned int ConfigMainCityObject_TypeDefinitionIndex = 54123;
+inline static constexpr unsigned int ConfigMainCityObject_TypeDefinitionIndex = 62139;
 
 class ConfigMainCityObject : public ::Foundation::MihoyoSerializedScriptableObject
 {
 public:
 	::System::Collections::Generic::Dictionary_2<::System::String*, ::MainCityObjectState_ScriptConfig*>* stateMaps; // 0x58
 	::System::Collections::Generic::List_1<::MoleMole::ClientSceneObjectStateLooperConfigBase*>* StateLoopers; // 0x60
-	::System::Collections::Generic::List_1<::TrafficRedLimitArea*>* areaLimit; // 0x68
+	::System::Collections::Generic::List_1<::System::Object*>* areaLimit; // 0x68
 
 	::System::Void _ctor()
 	{

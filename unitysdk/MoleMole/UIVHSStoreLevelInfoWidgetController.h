@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIGeneralShopLevelInfoWidgetController.h"
 
-class Class_2_208CC9941471731A_606;
+class DMCKDNIBENI;
 namespace System { class Object; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_UIVHSSTORELEVELINFOWIDGETCONTROLLER_SETBYTEMPLATE_OFFSET UNITYSDK_OFFSET(0x16789460)
-#define MOLEMOLE_UIVHSSTORELEVELINFOWIDGETCONTROLLER_SETUPDESCTEXT_OFFSET UNITYSDK_OFFSET(0x16789740)
-#define MOLEMOLE_UIVHSSTORELEVELINFOWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16789980)
-#define MOLEMOLE_UIVHSSTORELEVELINFOWIDGETCONTROLLER___BASE_SETBYTEMPLATE_OFFSET UNITYSDK_OFFSET(0x16789A20)
+#define MOLEMOLE_UIVHSSTORELEVELINFOWIDGETCONTROLLER_MONMIILJFIM_OFFSET UNITYSDK_OFFSET(0x164D1AA0)
+#define MOLEMOLE_UIVHSSTORELEVELINFOWIDGETCONTROLLER_SETBYTEMPLATE_OFFSET UNITYSDK_OFFSET(0x164D17C0)
+#define MOLEMOLE_UIVHSSTORELEVELINFOWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x164D1CD0)
+#define MOLEMOLE_UIVHSSTORELEVELINFOWIDGETCONTROLLER___BASE_SETBYTEMPLATE_OFFSET UNITYSDK_OFFSET(0x164D1D70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreLevelInfoWidgetController_TypeDefinitionIndex = 58348;
+	inline static constexpr unsigned int UIVHSStoreLevelInfoWidgetController_TypeDefinitionIndex = 41221;
 
 	class UIVHSStoreLevelInfoWidgetController : public ::MoleMole::UIGeneralShopLevelInfoWidgetController
 	{
@@ -28,14 +28,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVHSSTORELEVELINFOWIDGETCONTROLLER_SETBYTEMPLATE_OFFSET))(this, template_, curLevelData);
 		}
 
-		static ::System::Void SetupDescText(::UnityEngine::UI::Extension::UILocalizationText* text, ::Class_2_208CC9941471731A_606* template_, ::System::Single curLevelData)
-		{
-			return ((::System::Void(*)(::UnityEngine::UI::Extension::UILocalizationText*, ::Class_2_208CC9941471731A_606*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVHSSTORELEVELINFOWIDGETCONTROLLER_SETUPDESCTEXT_OFFSET))(text, template_, curLevelData);
-		}
-
 		::System::Void __base_SetByTemplate(::System::Object* P0, ::System::Single P1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVHSSTORELEVELINFOWIDGETCONTROLLER___BASE_SETBYTEMPLATE_OFFSET))(this, P0, P1);
+		}
+
+		static ::System::Void MONMIILJFIM(::UnityEngine::UI::Extension::UILocalizationText* FCCLIEJAKLI, ::DMCKDNIBENI* DEKJDEPKKLH, ::System::Single PJJNGDCJEDA)
+		{
+			return ((::System::Void(*)(::UnityEngine::UI::Extension::UILocalizationText*, ::DMCKDNIBENI*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVHSSTORELEVELINFOWIDGETCONTROLLER_MONMIILJFIM_OFFSET))(FCCLIEJAKLI, DEKJDEPKKLH, PJJNGDCJEDA);
 		}
 	};
 }

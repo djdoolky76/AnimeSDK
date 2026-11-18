@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/Console/ConsoleProduct.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/MiHoYo/SDK/Console/ConsoleProduct.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CACDCD0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CACDD50)
-#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CACD9C0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CACD9A0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CC6A070)
+#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CC6A0F0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CC69D60)
+#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC69D50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_ProductsCallback_TypeDefinitionIndex = 19747;
+	inline static constexpr unsigned int ConsoleDelegate_ProductsCallback_TypeDefinitionIndex = 18902;
 
 	class ConsoleDelegate_ProductsCallback : public ::System::MulticastDelegate
 	{

@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FluffyUnderware/DevTools/UnityEventEx_1.h"
 
-namespace FluffyUnderware::Curvy::Controllers { class CurvyController; }
-
-#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CONTROLLEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA6840)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CONTROLLEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F313DC0)
 
 namespace FluffyUnderware::Curvy::Controllers
 {
-	inline static constexpr unsigned int ControllerEvent_TypeDefinitionIndex = 39559;
+	inline static constexpr unsigned int ControllerEvent_TypeDefinitionIndex = 37656;
 
-	class ControllerEvent : public ::FluffyUnderware::DevTools::UnityEventEx_1<::FluffyUnderware::Curvy::Controllers::CurvyController*>
+	class ControllerEvent
 	{
 	public:
 		::System::Void _ctor()

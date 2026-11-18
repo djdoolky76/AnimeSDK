@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
@@ -9,22 +9,22 @@ namespace MoleMole::Cameras { class OverrideConfigSideScrollingCamera; }
 namespace MoleMole::Cameras { class SideScrollingCameraRuntimeParam; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2_HANDLEFLOWINPUT_OFFSET UNITYSDK_OFFSET(0x13A817B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13A81630)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x13A81F40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2_HANDLEFLOWINPUT_OFFSET UNITYSDK_OFFSET(0x1465BFB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1465BE40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSIDESCROLLINGCAMERAMODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1465C750)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnterSideScrollingCameraModeV2_TypeDefinitionIndex = 47400;
+	inline static constexpr unsigned int LDEnterSideScrollingCameraModeV2_TypeDefinitionIndex = 74392;
 
 	class LDEnterSideScrollingCameraModeV2 : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _output; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* _tag; // 0xA8
 		::FlowCanvas::FlowOutput* _onBlendInFinished; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::String*>* _cameraModeKey; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::String*>* _tag; // 0xC0
-		::FlowCanvas::ValueInput_1<::MoleMole::Cameras::OverrideConfigSideScrollingCamera*>* _overrideConfig; // 0xC8
+		::FlowCanvas::ValueInput_1<::MoleMole::Cameras::OverrideConfigSideScrollingCamera*>* _overrideConfig; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::String*>* _cameraModeKey; // 0xC0
+		::FlowCanvas::FlowOutput* _output; // 0xC8
 		::FlowCanvas::ValueInput_1<::MoleMole::Cameras::SideScrollingCameraRuntimeParam*>* _param; // 0xD0
 
 		::System::Void _ctor()

@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ConditionTask_1.h"
 
-namespace UnityEngine { class Transform; }
-
-#define NODECANVAS_TASKS_CONDITIONS_ISACTIVE_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EB9E600)
-#define NODECANVAS_TASKS_CONDITIONS_ISACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9E660)
+#define NODECANVAS_TASKS_CONDITIONS_ISACTIVE_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EF6E070)
+#define NODECANVAS_TASKS_CONDITIONS_ISACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6E0D0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int IsActive_TypeDefinitionIndex = 29735;
+	inline static constexpr unsigned int IsActive_TypeDefinitionIndex = 30013;
 
-	class IsActive : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Transform*>
+	class IsActive
 	{
 	public:
 		::System::Void _ctor()

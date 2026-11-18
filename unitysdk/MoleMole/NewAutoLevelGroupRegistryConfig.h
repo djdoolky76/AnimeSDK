@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-#define MOLEMOLE_NEWAUTOLEVELGROUPREGISTRYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1739D100)
+#define MOLEMOLE_NEWAUTOLEVELGROUPREGISTRYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13F09500)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NewAutoLevelGroupRegistryConfig_TypeDefinitionIndex = 52784;
+	inline static constexpr unsigned int NewAutoLevelGroupRegistryConfig_TypeDefinitionIndex = 76454;
 
 	class NewAutoLevelGroupRegistryConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_888FE764864EE896;
+class DJIKDMNECGN;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIYOROZUYAABYSSS2CHALLENGEREVIEWPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12E4D810)
-#define MOLEMOLE_UIYOROZUYAABYSSS2CHALLENGEREVIEWPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12E4D850)
-#define MOLEMOLE_UIYOROZUYAABYSSS2CHALLENGEREVIEWPOPWINDOWCONTROLLER___C__INITTAB_B__9_0_OFFSET UNITYSDK_OFFSET(0x12E4D860)
+#define MOLEMOLE_UIYOROZUYAABYSSS2CHALLENGEREVIEWPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x164E8840)
+#define MOLEMOLE_UIYOROZUYAABYSSS2CHALLENGEREVIEWPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x164E8880)
+#define MOLEMOLE_UIYOROZUYAABYSSS2CHALLENGEREVIEWPOPWINDOWCONTROLLER___C__INITTAB_B__9_0_OFFSET UNITYSDK_OFFSET(0x164E8890)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaAbyssS2ChallengeReviewPopWindowController___c_TypeDefinitionIndex = 69286;
+	inline static constexpr unsigned int UIYorozuyaAbyssS2ChallengeReviewPopWindowController___c_TypeDefinitionIndex = 51091;
 
 	class UIYorozuyaAbyssS2ChallengeReviewPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIYorozuyaAbyssS2ChallengeReviewPopWindowController___c** StaticGet___9()
+		static ::System::Comparison_1<::DJIKDMNECGN*>** StaticGet___9__9_0()
 		{
-			return (::MoleMole::UIYorozuyaAbyssS2ChallengeReviewPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2ChallengeReviewPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x45350);
+			return (::System::Comparison_1<::DJIKDMNECGN*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2ChallengeReviewPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4AE00);
 		}
-		static ::System::Comparison_1<::Class_1_888FE764864EE896*>** StaticGet___9__9_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_1_888FE764864EE896*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2ChallengeReviewPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x45358);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2ChallengeReviewPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4AE08);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIYOROZUYAABYSSS2CHALLENGEREVIEWPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _InitTab_b__9_0(::Class_1_888FE764864EE896* x, ::Class_1_888FE764864EE896* y)
+		::System::Int32 _InitTab_b__9_0(::DJIKDMNECGN* x, ::DJIKDMNECGN* y)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_888FE764864EE896*, ::Class_1_888FE764864EE896*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIYOROZUYAABYSSS2CHALLENGEREVIEWPOPWINDOWCONTROLLER___C__INITTAB_B__9_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::DJIKDMNECGN*, ::DJIKDMNECGN*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIYOROZUYAABYSSS2CHALLENGEREVIEWPOPWINDOWCONTROLLER___C__INITTAB_B__9_0_OFFSET))(this, x, y);
 		}
 	};
 }

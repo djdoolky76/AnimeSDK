@@ -4,22 +4,22 @@
 
 namespace System { class Object; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_DTATTRIBUTE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1EA4B010)
-#define FLUFFYUNDERWARE_DEVTOOLS_DTATTRIBUTE_GET_TYPESORT_OFFSET UNITYSDK_OFFSET(0x1EA4AFF0)
-#define FLUFFYUNDERWARE_DEVTOOLS_DTATTRIBUTE_SET_TYPESORT_OFFSET UNITYSDK_OFFSET(0x1EA4B000)
-#define FLUFFYUNDERWARE_DEVTOOLS_DTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA49080)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTATTRIBUTE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1ED53C90)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTATTRIBUTE_GET_TYPESORT_OFFSET UNITYSDK_OFFSET(0x1ED53C70)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTATTRIBUTE_SET_TYPESORT_OFFSET UNITYSDK_OFFSET(0x1ED53C80)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED51D00)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int DTAttribute_TypeDefinitionIndex = 28915;
+	inline static constexpr unsigned int DTAttribute_TypeDefinitionIndex = 28354;
 
 	class DTAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Boolean ShowBelowProperty; // 0x10
+		::System::Int32 Space; // 0x10
 		::System::Int32 _TypeSort_k__BackingField; // 0x14
 		::System::Int32 Sort; // 0x18
-		::System::Int32 Space; // 0x1C
+		::System::Boolean ShowBelowProperty; // 0x1C
 
 		::System::Void _ctor(::System::Int32 sortOrder, ::System::Boolean showBelow)
 		{

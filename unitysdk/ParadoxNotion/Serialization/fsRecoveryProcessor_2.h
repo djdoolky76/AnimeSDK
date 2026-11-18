@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ParadoxNotion/Serialization/FullSerializer/fsObjectProcessor.h"
 
-namespace ParadoxNotion::Serialization::FullSerializer { class fsData; }
-namespace System { class String; }
-namespace System { class Type; }
-
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int fsRecoveryProcessor_2_TypeDefinitionIndex = 31180;
+	inline static constexpr unsigned int fsRecoveryProcessor_2_TypeDefinitionIndex = 30073;
 
-	template <typename TCanProcess, typename TMissing>
+	template <typename T1, typename T2>
 	class fsRecoveryProcessor_2 : public ::ParadoxNotion::Serialization::FullSerializer::fsObjectProcessor
 	{
 	public:

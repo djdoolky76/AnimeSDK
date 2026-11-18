@@ -8,14 +8,14 @@ namespace System::Collections { class IEnumerable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_LAYERSELECT_OFFSET UNITYSDK_OFFSET(0x1F1A0B50)
-#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_SETSKINNEDMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1F1A12B0)
-#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_TRACINGLAYERSELECT_OFFSET UNITYSDK_OFFSET(0x1F1A0C70)
-#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1A1060)
+#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_LAYERSELECT_OFFSET UNITYSDK_OFFSET(0x1F595170)
+#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_SETSKINNEDMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1F5958D0)
+#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS_TRACINGLAYERSELECT_OFFSET UNITYSDK_OFFSET(0x1F595290)
+#define MOLEMOLE_TIMELINE_REALMESHRENDERERPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F595680)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int RealMeshRendererParams_TypeDefinitionIndex = 32840;
+	inline static constexpr unsigned int RealMeshRendererParams_TypeDefinitionIndex = 32291;
 
 	class RealMeshRendererParams : public ::System::Object
 	{
@@ -23,7 +23,9 @@ namespace MoleMole::Timeline
 		::UnityEngine::Rendering::ShadowCastingMode castShadows; // 0x10
 		::System::Boolean highShadingRate; // 0x14
 		::System::Boolean allowOcclusionWhenDynamic; // 0x15
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Experimental::Rendering::RayTracingMode rayTracingMode; // 0x18
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::System::Int32>* rayTracingLayerMash; // 0x20
 		::System::Collections::Generic::List_1<::System::Int32>* renderingLayers; // 0x28
 

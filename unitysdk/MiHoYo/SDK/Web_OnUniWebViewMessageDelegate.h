@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/UniWebViewMessage.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/MiHoYo/SDK/UniWebViewMessage.h"
 
 namespace MiHoYo::SDK { class Web; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEB_ONUNIWEBVIEWMESSAGEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E1910)
-#define MIHOYO_SDK_WEB_ONUNIWEBVIEWMESSAGEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E1990)
-#define MIHOYO_SDK_WEB_ONUNIWEBVIEWMESSAGEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7E1030)
-#define MIHOYO_SDK_WEB_ONUNIWEBVIEWMESSAGEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E1010)
+#define MIHOYO_SDK_WEB_ONUNIWEBVIEWMESSAGEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CAEFEB0)
+#define MIHOYO_SDK_WEB_ONUNIWEBVIEWMESSAGEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CAEFF30)
+#define MIHOYO_SDK_WEB_ONUNIWEBVIEWMESSAGEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CAEF5D0)
+#define MIHOYO_SDK_WEB_ONUNIWEBVIEWMESSAGEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAEF5C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Web_OnUniWebViewMessageDelegate_TypeDefinitionIndex = 20325;
+	inline static constexpr unsigned int Web_OnUniWebViewMessageDelegate_TypeDefinitionIndex = 19473;
 
 	class Web_OnUniWebViewMessageDelegate : public ::System::MulticastDelegate
 	{

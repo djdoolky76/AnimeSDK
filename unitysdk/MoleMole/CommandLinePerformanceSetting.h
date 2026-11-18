@@ -1,13 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/CommandLineSettingBase_2.h"
 #include "unitysdk/MoleMole/Config/ConfigViewObjectMisc_EntityCreate.h"
 #include "unitysdk/MoleMole/Config/ConfigViewObjectMisc_ZKReward.h"
 #include "unitysdk/MoleMole/ECrowdShadowFineness.h"
 #include "unitysdk/MoleMole/FrameRateInterpolateType.h"
 #include "unitysdk/MoleMole/InLevelNPCCrowdLevel.h"
 #include "unitysdk/MoleMole/NapAnisotropicSamplingType.h"
-#include "unitysdk/MoleMole/PerformanceSettingProfile_ENPCOmitLevel.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ENapGIQuality.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/NAPShaderQuality.h"
@@ -25,16 +23,17 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace MoleMole { class PerformanceSettingProfile; }
+namespace System { class Object; }
 
-#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING_METHOD_2_9FC70C958B16100F_OFFSET UNITYSDK_OFFSET(0x1A494280)
-#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING_METHOD_2_F1BB5925BFFCAC6C_OFFSET UNITYSDK_OFFSET(0x1A494EB0)
-#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A494E70)
+#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING_ALEKEEINDAO_OFFSET UNITYSDK_OFFSET(0x165161A0)
+#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING_PMKOMFHNKOE_OFFSET UNITYSDK_OFFSET(0x16516DD0)
+#define MOLEMOLE_COMMANDLINEPERFORMANCESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16516D90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLinePerformanceSetting_TypeDefinitionIndex = 68961;
+	inline static constexpr unsigned int CommandLinePerformanceSetting_TypeDefinitionIndex = 59841;
 
-	class CommandLinePerformanceSetting : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::PerformanceSettingProfile*, ::MoleMole::CommandLinePerformanceSetting*>
+	class CommandLinePerformanceSetting
 	{
 	public:
 		::System::Nullable_1<::System::Boolean> StreamingMipmapsActive; // 0x18
@@ -56,7 +55,7 @@ namespace MoleMole
 		::Il2CppArray<::System::Single>* CrowdLODDistances; // 0x80
 		::Il2CppArray<::System::Single>* CrowdCameraLODDistances; // 0x88
 		::Il2CppArray<::MoleMole::ECrowdShadowFineness>* CrowdShadowFineness; // 0x90
-		::System::Nullable_1<::MoleMole::PerformanceSettingProfile_ENPCOmitLevel> NpcOmitLevel; // 0x98
+		::System::Nullable_1<::System::Object*> NpcOmitLevel; // 0x98
 		::System::Nullable_1<::System::Single> materialLODDistRatio; // 0xA0
 		::System::Nullable_1<::System::Single> materialLODDistShadow; // 0xA8
 		::System::Nullable_1<::System::Int32> perObjectShadowMaxCount; // 0xB0
@@ -69,7 +68,9 @@ namespace MoleMole
 		::Il2CppArray<::System::Single>* ScreenCullingRatio; // 0xE8
 		::System::Nullable_1<::System::Boolean> ShadowHizCulling; // 0xF0
 		::System::Nullable_1<::UnityEngine::Vector4> HizCullingParams; // 0xF4
+		::System::Byte _padding0[0xC];
 		::System::Nullable_1<::UnityEngine::Vector4> HizShadowCullingParams; // 0x108
+		::System::Byte _padding1[0xC];
 		::System::Nullable_1<::System::Single> DiffuseOnlyDistance; // 0x11C
 		::System::Nullable_1<::System::Boolean> DisableDOF; // 0x124
 		::System::Nullable_1<::System::Boolean> DisableMotionBlur; // 0x126
@@ -79,6 +80,7 @@ namespace MoleMole
 		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::TransparentMatQuality> TransparentMatQuality; // 0x134
 		::System::Nullable_1<::System::Int32> ShadowSampleCount; // 0x13C
 		::System::Nullable_1<::UnityEngine::Vector4> SceneSampleTextureBias; // 0x144
+		::System::Byte _padding2[0xC];
 		::System::Nullable_1<::System::Single> CharacterSampleTextureBias; // 0x158
 		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::TAAQuality> TAAQuality; // 0x160
 		::System::Nullable_1<::System::Boolean> DitherOpt; // 0x168
@@ -161,24 +163,27 @@ namespace MoleMole
 		::System::Nullable_1<::System::Boolean> needExtraDownSampleForFrostedGlass; // 0x316
 		::System::Nullable_1<::System::Boolean> enableParticleLightCountOptimize; // 0x318
 		::System::Nullable_1<::MoleMole::Config::ConfigViewObjectMisc_EntityCreate> Vo_EntityCreate; // 0x320
+		::System::Byte _padding3[0x20];
 		::System::Nullable_1<::MoleMole::Config::ConfigViewObjectMisc_ZKReward> Vo_ZKReward; // 0x348
+		::System::Byte _padding4[0x8];
 		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::SSAOQuality> ssaoMaxQuality; // 0x358
 		::System::Nullable_1<::UnityEngine::Rendering::Universal::RTXAOQuality> rtxAOQuality; // 0x360
 		::System::Nullable_1<::UnityEngine::NAPRenderPipeline0::SSDOQuality> ssdoQuality; // 0x368
+		::System::Nullable_1<::System::Boolean> forceUseSMAAFor3DUICameraInLowMemoryDevice; // 0x370
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPERFORMANCESETTING__CTOR_OFFSET))(this);
 		}
 
-		::MoleMole::CommandLinePerformanceSetting* Method_2_9FC70C958B16100F(::MoleMole::PerformanceSettingProfile* a1)
+		::MoleMole::CommandLinePerformanceSetting* ALEKEEINDAO(::MoleMole::PerformanceSettingProfile* LJBPECKCCEA)
 		{
-			return ((::MoleMole::CommandLinePerformanceSetting*(*)(::PVOID, ::MoleMole::PerformanceSettingProfile*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPERFORMANCESETTING_METHOD_2_9FC70C958B16100F_OFFSET))(this, a1);
+			return ((::MoleMole::CommandLinePerformanceSetting*(*)(::PVOID, ::MoleMole::PerformanceSettingProfile*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPERFORMANCESETTING_ALEKEEINDAO_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::MoleMole::PerformanceSettingProfile* Method_2_F1BB5925BFFCAC6C(::MoleMole::PerformanceSettingProfile* a1)
+		::MoleMole::PerformanceSettingProfile* PMKOMFHNKOE(::MoleMole::PerformanceSettingProfile* LJBPECKCCEA)
 		{
-			return ((::MoleMole::PerformanceSettingProfile*(*)(::PVOID, ::MoleMole::PerformanceSettingProfile*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPERFORMANCESETTING_METHOD_2_F1BB5925BFFCAC6C_OFFSET))(this, a1);
+			return ((::MoleMole::PerformanceSettingProfile*(*)(::PVOID, ::MoleMole::PerformanceSettingProfile*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPERFORMANCESETTING_PMKOMFHNKOE_OFFSET))(this, LJBPECKCCEA);
 		}
 	};
 }

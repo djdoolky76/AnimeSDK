@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MB2_TextureBakeResults_ResultType_TypeDefinitionIndex = 94464;
+inline static constexpr unsigned int MB2_TextureBakeResults_ResultType_TypeDefinitionIndex = 96151;
 
 enum class MB2_TextureBakeResults_ResultType : ::System::Int32
 {

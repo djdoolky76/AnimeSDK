@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_IP_ADAPTER_INFO_TypeDefinitionIndex = 3838;
+	inline static constexpr unsigned int Win32_IP_ADAPTER_INFO_TypeDefinitionIndex = 3837;
 
 	struct alignas(8) Win32_IP_ADAPTER_INFO
 	{
@@ -16,18 +16,22 @@ namespace System::Net::NetworkInformation
 		// static const ::System::Int32 MAX_ADAPTER_ADDRESS_LENGTH = 0x8; // 0x0
 		::System::IntPtr Next; // 0x10
 		::System::Int32 ComboIndex; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* AdapterName; // 0x20
 		::System::String* Description; // 0x28
 		::System::UInt32 AddressLength; // 0x30
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::System::Byte>* Address; // 0x38
 		::System::UInt32 Index; // 0x40
 		::System::UInt32 Type; // 0x44
 		::System::UInt32 DhcpEnabled; // 0x48
+		::System::Byte _padding2[0x4];
 		::System::IntPtr CurrentIpAddress; // 0x50
 		::System::Net::NetworkInformation::Win32_IP_ADDR_STRING IpAddressList; // 0x58
 		::System::Net::NetworkInformation::Win32_IP_ADDR_STRING GatewayList; // 0x78
 		::System::Net::NetworkInformation::Win32_IP_ADDR_STRING DhcpServer; // 0x98
 		::System::Boolean HaveWins; // 0xB8
+		::System::Byte _padding3[0x7];
 		::System::Net::NetworkInformation::Win32_IP_ADDR_STRING PrimaryWinsServer; // 0xC0
 		::System::Net::NetworkInformation::Win32_IP_ADDR_STRING SecondaryWinsServer; // 0xE0
 		::System::Int64 LeaseObtained; // 0x100

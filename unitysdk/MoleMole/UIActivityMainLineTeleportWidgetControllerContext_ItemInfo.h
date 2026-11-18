@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityMainLineTeleportWidgetControllerContext_ItemInfo_TypeDefinitionIndex = 85577;
+	inline static constexpr unsigned int UIActivityMainLineTeleportWidgetControllerContext_ItemInfo_TypeDefinitionIndex = 75990;
 
 	struct alignas(4) UIActivityMainLineTeleportWidgetControllerContext_ItemInfo
 	{

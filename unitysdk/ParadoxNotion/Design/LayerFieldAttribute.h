@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ParadoxNotion/Design/DrawerAttribute.h"
 
-#define PARADOXNOTION_DESIGN_LAYERFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0707C0)
+#define PARADOXNOTION_DESIGN_LAYERFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EAB30)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int LayerFieldAttribute_TypeDefinitionIndex = 30729;
+	inline static constexpr unsigned int LayerFieldAttribute_TypeDefinitionIndex = 29739;
 
 	class LayerFieldAttribute : public ::ParadoxNotion::Design::DrawerAttribute
 	{

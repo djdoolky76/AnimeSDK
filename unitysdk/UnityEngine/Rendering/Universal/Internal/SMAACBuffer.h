@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int SMAACBuffer_TypeDefinitionIndex = 27945;
+	inline static constexpr unsigned int SMAACBuffer_TypeDefinitionIndex = 26652;
 
 	struct alignas(4) SMAACBuffer
 	{

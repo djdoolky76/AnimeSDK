@@ -1,50 +1,53 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-#include "unitysdk/System/Span_1.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/NapTransformData.h"
+#include "unitysdk/HHDPDELCDNI.h"
 
-#define NPCCROWD_ANIMATION_FREFPOSE_GETGLOBALSPACETRANSFORM_OFFSET UNITYSDK_OFFSET(0x60AFE0)
-#define NPCCROWD_ANIMATION_FREFPOSE_GETGLOBALTRANSFORM_OFFSET UNITYSDK_OFFSET(0x60C210)
-#define NPCCROWD_ANIMATION_FREFPOSE_GETLOCALTRANSFORM_OFFSET UNITYSDK_OFFSET(0x60B720)
-#define NPCCROWD_ANIMATION_FREFPOSE_GETMESHSPACETRANSFORM_OFFSET UNITYSDK_OFFSET(0x60AA00)
-#define NPCCROWD_ANIMATION_FREFPOSE_GETMESHTRANSFORM_OFFSET UNITYSDK_OFFSET(0x60B8E0)
-#define NPCCROWD_ANIMATION_FREFPOSE_GETPARENT_OFFSET UNITYSDK_OFFSET(0x60B570)
-#define NPCCROWD_ANIMATION_FREFPOSE_GET_BONECOUNT_OFFSET UNITYSDK_OFFSET(0x60A6D0)
-#define NPCCROWD_ANIMATION_FREFPOSE_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x60A6B0)
-#define NPCCROWD_ANIMATION_FREFPOSE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x60A6F0)
-#define NPCCROWD_ANIMATION_FREFPOSE_ISVALIDBONE_OFFSET UNITYSDK_OFFSET(0x60B6A0)
-#define NPCCROWD_ANIMATION_FREFPOSE_SETGLOBALTRANSFORM_OFFSET UNITYSDK_OFFSET(0x60E230)
-#define NPCCROWD_ANIMATION_FREFPOSE_SETLOCALTRANSFORM_OFFSET UNITYSDK_OFFSET(0x60D100)
-#define NPCCROWD_ANIMATION_FREFPOSE_SETMESHTRANSFORM_OFFSET UNITYSDK_OFFSET(0x60D250)
-#define NPCCROWD_ANIMATION_FREFPOSE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x60A8B0)
-#define NPCCROWD_ANIMATION_FREFPOSE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x60A9C0)
-#define NPCCROWD_ANIMATION_FREFPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x60A830)
+#define NPCCROWD_ANIMATION_FREFPOSE_GETGLOBALSPACETRANSFORM_OFFSET UNITYSDK_OFFSET(0x609900)
+#define NPCCROWD_ANIMATION_FREFPOSE_GETGLOBALTRANSFORM_OFFSET UNITYSDK_OFFSET(0x60AB30)
+#define NPCCROWD_ANIMATION_FREFPOSE_GETLOCALTRANSFORM_OFFSET UNITYSDK_OFFSET(0x60A040)
+#define NPCCROWD_ANIMATION_FREFPOSE_GETMESHSPACETRANSFORM_OFFSET UNITYSDK_OFFSET(0x609320)
+#define NPCCROWD_ANIMATION_FREFPOSE_GETMESHTRANSFORM_OFFSET UNITYSDK_OFFSET(0x60A200)
+#define NPCCROWD_ANIMATION_FREFPOSE_GETPARENT_OFFSET UNITYSDK_OFFSET(0x609E90)
+#define NPCCROWD_ANIMATION_FREFPOSE_GET_BONECOUNT_OFFSET UNITYSDK_OFFSET(0x608FF0)
+#define NPCCROWD_ANIMATION_FREFPOSE_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x608FD0)
+#define NPCCROWD_ANIMATION_FREFPOSE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x609010)
+#define NPCCROWD_ANIMATION_FREFPOSE_ISVALIDBONE_OFFSET UNITYSDK_OFFSET(0x609FC0)
+#define NPCCROWD_ANIMATION_FREFPOSE_SETGLOBALTRANSFORM_OFFSET UNITYSDK_OFFSET(0x60CB50)
+#define NPCCROWD_ANIMATION_FREFPOSE_SETLOCALTRANSFORM_OFFSET UNITYSDK_OFFSET(0x60BA20)
+#define NPCCROWD_ANIMATION_FREFPOSE_SETMESHTRANSFORM_OFFSET UNITYSDK_OFFSET(0x60BB70)
+#define NPCCROWD_ANIMATION_FREFPOSE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x6091D0)
+#define NPCCROWD_ANIMATION_FREFPOSE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x6092E0)
+#define NPCCROWD_ANIMATION_FREFPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x609150)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int FRefPose_TypeDefinitionIndex = 43094;
+	inline static constexpr unsigned int FRefPose_TypeDefinitionIndex = 84167;
 
 	struct alignas(8) FRefPose
 	{
-		::System::ReadOnlySpan_1<::System::Int32> _skeletonRef; // 0x10
-		::System::Span_1<::UnityEngine::NapTransformData> _poseRef; // 0x28
+		::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Int32> _skeletonRef; // 0x10
+		::System::Byte _padding0[0x10];
+		::System::Span_1_9011FAD97750D224<::UnityEngine::NapTransformData> _poseRef; // 0x28
+		::System::Byte _padding1[0x10];
 		::UnityEngine::NapTransformData _mesh; // 0x40
 
-		::System::Void _ctor(::System::ReadOnlySpan_1<::System::Int32> skeletonRef, ::System::Span_1<::UnityEngine::NapTransformData> poseRef, ::UnityEngine::NapTransformData mesh)
+		::System::Void _ctor(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Int32> skeletonRef, ::System::Span_1_9011FAD97750D224<::UnityEngine::NapTransformData> poseRef, ::UnityEngine::NapTransformData mesh)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Int32>, ::System::Span_1<::UnityEngine::NapTransformData>, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE__CTOR_OFFSET))(this, skeletonRef, poseRef, mesh);
+			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Int32>, ::System::Span_1_9011FAD97750D224<::UnityEngine::NapTransformData>, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE__CTOR_OFFSET))(this, skeletonRef, poseRef, mesh);
 		}
 
-		::System::Void _ctor_1(::System::ReadOnlySpan_1<::System::Int32> skeletonRef, ::UnityEngine::NapTransformData* posePointer, ::UnityEngine::NapTransformData mesh)
+		::System::Void _ctor_1(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Int32> skeletonRef, ::PVOID posePointer, ::UnityEngine::NapTransformData mesh)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Int32>, ::UnityEngine::NapTransformData*, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE__CTOR_1_OFFSET))(this, skeletonRef, posePointer, mesh);
+			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Int32>, ::PVOID, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE__CTOR_1_OFFSET))(this, skeletonRef, posePointer, mesh);
 		}
 
-		::System::Void _ctor_2(::System::Int32 boneCount, ::System::Int32* skeletonPointer, ::UnityEngine::NapTransformData* posePointer, ::UnityEngine::NapTransformData mesh)
+		::System::Void _ctor_2(::System::Int32 boneCount, ::PVOID skeletonPointer, ::PVOID posePointer, ::UnityEngine::NapTransformData mesh)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32*, ::UnityEngine::NapTransformData*, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE__CTOR_2_OFFSET))(this, boneCount, skeletonPointer, posePointer, mesh);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::PVOID, ::PVOID, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE__CTOR_2_OFFSET))(this, boneCount, skeletonPointer, posePointer, mesh);
 		}
 
 		::System::Boolean get_IsNull()
@@ -57,12 +60,10 @@ namespace NPCCrowd::Animation
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_GET_BONECOUNT_OFFSET))(this);
 		}
 
-		/*
-		::UnityEngine::NapTransformData& get_Item(::Struct_2_6402D4A3EAB8BDC8 index)
+		::UnityEngine::NapTransformData& get_Item(::HHDPDELCDNI index)
 		{
-			return ((::UnityEngine::NapTransformData&(*)(::PVOID, ::Struct_2_6402D4A3EAB8BDC8))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_GET_ITEM_OFFSET))(this, index);
+			return ((::UnityEngine::NapTransformData&(*)(::PVOID, ::HHDPDELCDNI))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_GET_ITEM_OFFSET))(this, index);
 		}
-		*/
 
 		::UnityEngine::NapTransformData GetMeshSpaceTransform(::UnityEngine::NapTransformData globalTransform)
 		{
@@ -74,60 +75,44 @@ namespace NPCCrowd::Animation
 			return ((::UnityEngine::NapTransformData(*)(::PVOID, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_GETGLOBALSPACETRANSFORM_OFFSET))(this, meshTransform);
 		}
 
-		/*
-		::Struct_2_6402D4A3EAB8BDC8 GetParent(::Struct_2_6402D4A3EAB8BDC8 bone)
+		::HHDPDELCDNI GetParent(::HHDPDELCDNI bone)
 		{
-			return ((::Struct_2_6402D4A3EAB8BDC8(*)(::PVOID, ::Struct_2_6402D4A3EAB8BDC8))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_GETPARENT_OFFSET))(this, bone);
+			return ((::HHDPDELCDNI(*)(::PVOID, ::HHDPDELCDNI))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_GETPARENT_OFFSET))(this, bone);
 		}
-		*/
 
-		/*
-		::System::Boolean IsValidBone(::Struct_2_6402D4A3EAB8BDC8 bone)
+		::System::Boolean IsValidBone(::HHDPDELCDNI bone)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Struct_2_6402D4A3EAB8BDC8))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_ISVALIDBONE_OFFSET))(this, bone);
+			return ((::System::Boolean(*)(::PVOID, ::HHDPDELCDNI))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_ISVALIDBONE_OFFSET))(this, bone);
 		}
-		*/
 
-		/*
-		::UnityEngine::NapTransformData GetLocalTransform(::Struct_2_6402D4A3EAB8BDC8 bone)
+		::UnityEngine::NapTransformData GetLocalTransform(::HHDPDELCDNI bone)
 		{
-			return ((::UnityEngine::NapTransformData(*)(::PVOID, ::Struct_2_6402D4A3EAB8BDC8))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_GETLOCALTRANSFORM_OFFSET))(this, bone);
+			return ((::UnityEngine::NapTransformData(*)(::PVOID, ::HHDPDELCDNI))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_GETLOCALTRANSFORM_OFFSET))(this, bone);
 		}
-		*/
 
-		/*
-		::UnityEngine::NapTransformData GetMeshTransform(::Struct_2_6402D4A3EAB8BDC8 bone)
+		::UnityEngine::NapTransformData GetMeshTransform(::HHDPDELCDNI bone)
 		{
-			return ((::UnityEngine::NapTransformData(*)(::PVOID, ::Struct_2_6402D4A3EAB8BDC8))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_GETMESHTRANSFORM_OFFSET))(this, bone);
+			return ((::UnityEngine::NapTransformData(*)(::PVOID, ::HHDPDELCDNI))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_GETMESHTRANSFORM_OFFSET))(this, bone);
 		}
-		*/
 
-		/*
-		::UnityEngine::NapTransformData GetGlobalTransform(::Struct_2_6402D4A3EAB8BDC8 bone)
+		::UnityEngine::NapTransformData GetGlobalTransform(::HHDPDELCDNI bone)
 		{
-			return ((::UnityEngine::NapTransformData(*)(::PVOID, ::Struct_2_6402D4A3EAB8BDC8))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_GETGLOBALTRANSFORM_OFFSET))(this, bone);
+			return ((::UnityEngine::NapTransformData(*)(::PVOID, ::HHDPDELCDNI))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_GETGLOBALTRANSFORM_OFFSET))(this, bone);
 		}
-		*/
 
-		/*
-		::System::Void SetLocalTransform(::Struct_2_6402D4A3EAB8BDC8 bone, ::UnityEngine::NapTransformData value)
+		::System::Void SetLocalTransform(::HHDPDELCDNI bone, ::UnityEngine::NapTransformData value)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_6402D4A3EAB8BDC8, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_SETLOCALTRANSFORM_OFFSET))(this, bone, value);
+			return ((::System::Void(*)(::PVOID, ::HHDPDELCDNI, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_SETLOCALTRANSFORM_OFFSET))(this, bone, value);
 		}
-		*/
 
-		/*
-		::System::Void SetMeshTransform(::Struct_2_6402D4A3EAB8BDC8 bone, ::UnityEngine::NapTransformData value)
+		::System::Void SetMeshTransform(::HHDPDELCDNI bone, ::UnityEngine::NapTransformData value)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_6402D4A3EAB8BDC8, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_SETMESHTRANSFORM_OFFSET))(this, bone, value);
+			return ((::System::Void(*)(::PVOID, ::HHDPDELCDNI, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_SETMESHTRANSFORM_OFFSET))(this, bone, value);
 		}
-		*/
 
-		/*
-		::System::Void SetGlobalTransform(::Struct_2_6402D4A3EAB8BDC8 bone, ::UnityEngine::NapTransformData value)
+		::System::Void SetGlobalTransform(::HHDPDELCDNI bone, ::UnityEngine::NapTransformData value)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_6402D4A3EAB8BDC8, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_SETGLOBALTRANSFORM_OFFSET))(this, bone, value);
+			return ((::System::Void(*)(::PVOID, ::HHDPDELCDNI, ::UnityEngine::NapTransformData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_FREFPOSE_SETGLOBALTRANSFORM_OFFSET))(this, bone, value);
 		}
-		*/
 	};
 }

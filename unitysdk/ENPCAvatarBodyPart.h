@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ENPCAvatarBodyPart_TypeDefinitionIndex = 57805;
+inline static constexpr unsigned int ENPCAvatarBodyPart_TypeDefinitionIndex = 49196;
 
 enum class ENPCAvatarBodyPart : ::System::Int32
 {
-	Hair = 3,
-	Screen = 6,
-	Clothes = 7,
-	Body = 1,
-	Beard = 9,
-	Eye = 4,
 	Ear = 8,
+	Hair = 3,
+	Eye = 4,
+	Body = 1,
 	Eyebrow = 10,
-	None = 0,
+	Clothes = 7,
+	Beard = 9,
 	Tail = 5,
+	Screen = 6,
+	None = 0,
 	Face = 2,
 };

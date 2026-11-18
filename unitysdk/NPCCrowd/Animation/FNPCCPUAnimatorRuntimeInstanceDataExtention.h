@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Animation/FNPCAnimatorRuntimeInstanceAnimClipData.h"
 #include "unitysdk/NPCCrowd/Animation/FNPCCPUAnimatorRuntimeInstanceData.h"
-#include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_FNPCCPUANIMATORRUNTIMEINSTANCEDATAEXTENTION_GETANIMCLIPDATA_OFFSET UNITYSDK_OFFSET(0xF612930)
+#define NPCCROWD_ANIMATION_FNPCCPUANIMATORRUNTIMEINSTANCEDATAEXTENTION_GETANIMCLIPDATA_OFFSET UNITYSDK_OFFSET(0x15F459F0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int FNPCCPUAnimatorRuntimeInstanceDataExtention_TypeDefinitionIndex = 81474;
+	inline static constexpr unsigned int FNPCCPUAnimatorRuntimeInstanceDataExtention_TypeDefinitionIndex = 60378;
 
 	class FNPCCPUAnimatorRuntimeInstanceDataExtention : public ::System::Object
 	{

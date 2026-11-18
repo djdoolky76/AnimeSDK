@@ -5,22 +5,22 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NUMERICS_MATRIX4X4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA466B0)
-#define SYSTEM_NUMERICS_MATRIX4X4_EQUALS_OFFSET UNITYSDK_OFFSET(0xA465A0)
-#define SYSTEM_NUMERICS_MATRIX4X4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA466D0)
-#define SYSTEM_NUMERICS_MATRIX4X4_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA466C0)
-#define SYSTEM_NUMERICS_MATRIX4X4__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E994120)
-#define SYSTEM_NUMERICS_MATRIX4X4__CTOR_OFFSET UNITYSDK_OFFSET(0xA46430)
+#define SYSTEM_NUMERICS_MATRIX4X4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9236D0)
+#define SYSTEM_NUMERICS_MATRIX4X4_EQUALS_OFFSET UNITYSDK_OFFSET(0x9235C0)
+#define SYSTEM_NUMERICS_MATRIX4X4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9236F0)
+#define SYSTEM_NUMERICS_MATRIX4X4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9236E0)
+#define SYSTEM_NUMERICS_MATRIX4X4__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC6BE90)
+#define SYSTEM_NUMERICS_MATRIX4X4__CTOR_OFFSET UNITYSDK_OFFSET(0x923450)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Matrix4x4_TypeDefinitionIndex = 6381;
+	inline static constexpr unsigned int Matrix4x4_TypeDefinitionIndex = 6387;
 
 	struct alignas(4) Matrix4x4
 	{
 		static ::System::Numerics::Matrix4x4* StaticGet__identity()
 		{
-			return (::System::Numerics::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(Matrix4x4_TypeDefinitionIndex)->GetStaticField(0x3000);
+			return (::System::Numerics::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(Matrix4x4_TypeDefinitionIndex)->GetStaticField(0x2F80);
 		}
 		::System::Single M11; // 0x10
 		::System::Single M12; // 0x14
@@ -49,10 +49,12 @@ namespace System::Numerics
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_MATRIX4X4__CCTOR_OFFSET))();
 		}
 
+		/*
 		::System::Boolean Equals(::System::Numerics::Matrix4x4 other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Numerics::Matrix4x4))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_MATRIX4X4_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{

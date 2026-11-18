@@ -2,65 +2,69 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/FName.h"
 #include "unitysdk/MoleMole/Config/CameraSequence/Utils/CameraRotationBasedOnEntityPolicy.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
 #include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
+#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace Nap::NapECS { class EcsWorld; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x16C36740)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_GETDATA_OFFSET UNITYSDK_OFFSET(0x16C368E0)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x16C36F50)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_14818C3563DF6DE0_OFFSET UNITYSDK_OFFSET(0x16C372C0)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_439B588EB4881570_OFFSET UNITYSDK_OFFSET(0x16C37230)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_5A60CCF7370A1875_OFFSET UNITYSDK_OFFSET(0x16C373D0)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_8067ABEE1E847951_OFFSET UNITYSDK_OFFSET(0x16C36B00)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_8958B8FE55CDB36F_OFFSET UNITYSDK_OFFSET(0x16C37150)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_C1397965C8E8E75A_1_OFFSET UNITYSDK_OFFSET(0x16C374C0)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_C1397965C8E8E75A_2_OFFSET UNITYSDK_OFFSET(0x16C37580)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_C1397965C8E8E75A_OFFSET UNITYSDK_OFFSET(0x16C37090)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_SETPATH_OFFSET UNITYSDK_OFFSET(0x16C366A0)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST__CCTOR_OFFSET UNITYSDK_OFFSET(0x16C36F80)
-#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST__CTOR_OFFSET UNITYSDK_OFFSET(0x16C36F60)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x18B8DDA0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_DBGONPGOBOH_OFFSET UNITYSDK_OFFSET(0x18B8E890)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_FAJBAMPHKNA_OFFSET UNITYSDK_OFFSET(0x18B8EC10)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_GETDATA_OFFSET UNITYSDK_OFFSET(0x18B8DF40)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x18B8E5B0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_HDLFCIOLGGL_OFFSET UNITYSDK_OFFSET(0x18B8EA40)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_IEPHBBCGGDO_OFFSET UNITYSDK_OFFSET(0x18B8E980)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_KHDHDAGABMA_OFFSET UNITYSDK_OFFSET(0x18B8E160)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_KIDNAEDFDFH_OFFSET UNITYSDK_OFFSET(0x18B8E7D0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_LPJNBGHHMPM_OFFSET UNITYSDK_OFFSET(0x18B8E6F0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_MFJEEENLADM_OFFSET UNITYSDK_OFFSET(0x18B8EB50)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_SETPATH_OFFSET UNITYSDK_OFFSET(0x18B8DD00)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B8E5E0)
+#define MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST__CTOR_OFFSET UNITYSDK_OFFSET(0x18B8E5C0)
 
 namespace MoleMole::Config::CameraSequence::Utils
 {
-	inline static constexpr unsigned int CameraRotationBasedOnEntityPolicy_ByLast_TypeDefinitionIndex = 73734;
+	inline static constexpr unsigned int CameraRotationBasedOnEntityPolicy_ByLast_TypeDefinitionIndex = 65723;
 
 	class CameraRotationBasedOnEntityPolicy_ByLast : public ::MoleMole::Config::CameraSequence::Utils::CameraRotationBasedOnEntityPolicy
 	{
 	public:
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_pitch()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraRotationBasedOnEntityPolicy_ByLast_TypeDefinitionIndex)->GetStaticField(0x10C80);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_roll()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraRotationBasedOnEntityPolicy_ByLast_TypeDefinitionIndex)->GetStaticField(0x10C88);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_yaw()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraRotationBasedOnEntityPolicy_ByLast_TypeDefinitionIndex)->GetStaticField(0x10C90);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityRotation()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraRotationBasedOnEntityPolicy_ByLast_TypeDefinitionIndex)->GetStaticField(0x10C98);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraRotationBasedOnEntityPolicy_ByLast_TypeDefinitionIndex)->GetStaticField(0x10540);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_LastCameraData()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraRotationBasedOnEntityPolicy_ByLast_TypeDefinitionIndex)->GetStaticField(0x10CA0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraRotationBasedOnEntityPolicy_ByLast_TypeDefinitionIndex)->GetStaticField(0x10548);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_roll()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraRotationBasedOnEntityPolicy_ByLast_TypeDefinitionIndex)->GetStaticField(0x10550);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_yaw()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraRotationBasedOnEntityPolicy_ByLast_TypeDefinitionIndex)->GetStaticField(0x10558);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_EntityRotation()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraRotationBasedOnEntityPolicy_ByLast_TypeDefinitionIndex)->GetStaticField(0x10560);
 		}
 		::System::Boolean overridePitch; // 0x40
+		::System::Byte _padding0[0x3];
 		::System::Single pitch; // 0x44
 		::System::Boolean overrideYaw; // 0x48
+		::System::Byte _padding1[0x3];
 		::System::Single yaw; // 0x4C
 		::System::Boolean overrideRoll; // 0x50
+		::System::Byte _padding2[0x3];
 		::System::Single roll; // 0x54
 		::PipelineCamera::WorldBasicCameraData LastCameraData; // 0x58
 		::System::Boolean useRelativeYaw; // 0x84
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Quaternion EntityRotation; // 0x88
 		::System::Boolean makeContextDependent; // 0x98
 
@@ -74,19 +78,19 @@ namespace MoleMole::Config::CameraSequence::Utils
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST__CCTOR_OFFSET))();
 		}
 
-		::System::Void SetPath(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& a1)
+		::System::Void SetPath(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& CJBJONJDOLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_SETPATH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_SETPATH_OFFSET))(this, CJBJONJDOLI);
 		}
 
-		::System::Void CollectVariable(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector a1)
+		::System::Void CollectVariable(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector KFJNBMIFJNC)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_COLLECTVARIABLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_COLLECTVARIABLE_OFFSET))(this, KFJNBMIFJNC);
 		}
 
-		::UnityEngine::Quaternion GetData(::System::Single a1, ::PipelineCamera::CameraSequence::CameraSequenceContext*& a2, ::System::UInt32 a3, ::Nap::NapECS::EcsWorld* a4)
+		::UnityEngine::Quaternion GetData(::System::Single FNIOPKPHDEH, ::PipelineCamera::CameraSequence::CameraSequenceContext*& AAOCANGHBDG, ::System::UInt32 BKLGNCBNEGM, ::Nap::NapECS::EcsWorld* HNGJFALIMGN)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::Single, ::PipelineCamera::CameraSequence::CameraSequenceContext*&, ::System::UInt32, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_GETDATA_OFFSET))(this, a1, a2, a3, a4);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::Single, ::PipelineCamera::CameraSequence::CameraSequenceContext*&, ::System::UInt32, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_GETDATA_OFFSET))(this, FNIOPKPHDEH, AAOCANGHBDG, BKLGNCBNEGM, HNGJFALIMGN);
 		}
 
 		::System::Boolean get_IsContextDependent()
@@ -94,44 +98,44 @@ namespace MoleMole::Config::CameraSequence::Utils
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_GET_ISCONTEXTDEPENDENT_OFFSET))(this);
 		}
 
-		::System::Single Method_4_C1397965C8E8E75A(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
+		::UnityEngine::Quaternion LPJNBGHHMPM(::PipelineCamera::CameraSequence::CameraSequenceContext* AAOCANGHBDG)
 		{
-			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_C1397965C8E8E75A_OFFSET))(this, a1);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_LPJNBGHHMPM_OFFSET))(this, AAOCANGHBDG);
 		}
 
-		::UnityEngine::Quaternion Method_4_8958B8FE55CDB36F(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
+		::UnityEngine::Vector3 KHDHDAGABMA(::PipelineCamera::CameraSequence::CameraSequenceContext*& AAOCANGHBDG)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_8958B8FE55CDB36F_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_KHDHDAGABMA_OFFSET))(this, AAOCANGHBDG);
 		}
 
-		::UnityEngine::Vector3 Method_4_8067ABEE1E847951(::PipelineCamera::CameraSequence::CameraSequenceContext*& a1)
+		::System::Single KIDNAEDFDFH(::PipelineCamera::CameraSequence::CameraSequenceContext* AAOCANGHBDG)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_8067ABEE1E847951_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_KIDNAEDFDFH_OFFSET))(this, AAOCANGHBDG);
 		}
 
-		::System::Void Method_4_439B588EB4881570(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& a1)
+		::System::Void DBGONPGOBOH(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_439B588EB4881570_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_DBGONPGOBOH_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::PipelineCamera::WorldBasicCameraData Method_4_14818C3563DF6DE0(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
+		::System::Single IEPHBBCGGDO(::PipelineCamera::CameraSequence::CameraSequenceContext* AAOCANGHBDG)
 		{
-			return ((::PipelineCamera::WorldBasicCameraData(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_14818C3563DF6DE0_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_IEPHBBCGGDO_OFFSET))(this, AAOCANGHBDG);
 		}
 
-		::System::Void Method_4_5A60CCF7370A1875(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector a1)
+		::PipelineCamera::WorldBasicCameraData HDLFCIOLGGL(::PipelineCamera::CameraSequence::CameraSequenceContext* AAOCANGHBDG)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_5A60CCF7370A1875_OFFSET))(this, a1);
+			return ((::PipelineCamera::WorldBasicCameraData(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_HDLFCIOLGGL_OFFSET))(this, AAOCANGHBDG);
 		}
 
-		::System::Single Method_4_C1397965C8E8E75A_1(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
+		::System::Single MFJEEENLADM(::PipelineCamera::CameraSequence::CameraSequenceContext* AAOCANGHBDG)
 		{
-			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_C1397965C8E8E75A_1_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_MFJEEENLADM_OFFSET))(this, AAOCANGHBDG);
 		}
 
-		::System::Single Method_4_C1397965C8E8E75A_2(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
+		::System::Void FAJBAMPHKNA(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& MIALFKCCCPI)
 		{
-			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_METHOD_4_C1397965C8E8E75A_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CAMERASEQUENCE_UTILS_CAMERAROTATIONBASEDONENTITYPOLICY_BYLAST_FAJBAMPHKNA_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

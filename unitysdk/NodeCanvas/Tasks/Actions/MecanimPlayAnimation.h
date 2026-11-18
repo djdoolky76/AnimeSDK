@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
-namespace UnityEngine { class Animator; }
 
-#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E2356A0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E235700)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E2358D0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E235A90)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EBB6ED0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EBB6F30)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EBB7100)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMPLAYANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB72C0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int MecanimPlayAnimation_TypeDefinitionIndex = 31359;
+	inline static constexpr unsigned int MecanimPlayAnimation_TypeDefinitionIndex = 29937;
 
-	class MecanimPlayAnimation : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Animator*>
+	class MecanimPlayAnimation
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::String*>* stateName; // 0x60

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int AntialiasingMode_TypeDefinitionIndex = 5872;
+	inline static constexpr unsigned int AntialiasingMode_TypeDefinitionIndex = 5878;
 
 	enum class AntialiasingMode : ::System::Int32
 	{
@@ -16,5 +16,6 @@ namespace UnityEngine::NAPRenderPipeline0
 		FSR2 = 6,
 		DLSS = 7,
 		FSR3 = 8,
+		XeSS = 9,
 	};
 }

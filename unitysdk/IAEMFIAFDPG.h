@@ -1,0 +1,88 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AKKAOLIOIIP;
+class AMECGPOBPPB;
+class EGIKECFKGEL;
+class GJMCABHONPM;
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+
+#define IAEMFIAFDPG_BOKMDMGOOBA_OFFSET UNITYSDK_OFFSET(0x16A8C9F0)
+#define IAEMFIAFDPG_CFFDJAAHPLE_OFFSET UNITYSDK_OFFSET(0x16A8C9C0)
+#define IAEMFIAFDPG_CLHJAPCJLIL_OFFSET UNITYSDK_OFFSET(0x16A8C970)
+#define IAEMFIAFDPG_COHJLBHOELC_OFFSET UNITYSDK_OFFSET(0x16A8C9A0)
+#define IAEMFIAFDPG_DJNEPFHBMCI_OFFSET UNITYSDK_OFFSET(0x16A8C9E0)
+#define IAEMFIAFDPG_EIHCAFFDHMC_OFFSET UNITYSDK_OFFSET(0x16A8C9D0)
+#define IAEMFIAFDPG_KCLPGFLDBKJ_OFFSET UNITYSDK_OFFSET(0x16A8C990)
+#define IAEMFIAFDPG_KKNNPLPEOFO_OFFSET UNITYSDK_OFFSET(0x16A8C9B0)
+#define IAEMFIAFDPG_NAAOCLOKCDG_OFFSET UNITYSDK_OFFSET(0x16A8C980)
+#define IAEMFIAFDPG_OHIOENCMIIM_OFFSET UNITYSDK_OFFSET(0x16A8CA00)
+#define IAEMFIAFDPG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8C950)
+
+inline static constexpr unsigned int IAEMFIAFDPG_TypeDefinitionIndex = 52032;
+
+class IAEMFIAFDPG : public ::System::Object
+{
+public:
+	::AKKAOLIOIIP* _FLIMOKHADKJ_k__BackingField; // 0x10
+	::EGIKECFKGEL* _FJLKNKBDPNG_k__BackingField; // 0x18
+	::System::Collections::Generic::IReadOnlyList_1<::AMECGPOBPPB*>* _OBCICCLHMFD_k__BackingField; // 0x20
+	::GJMCABHONPM* _NKKHOPADGBK_k__BackingField; // 0x28
+	::System::UInt32 _NHOAKHOHGLD_k__BackingField; // 0x30
+
+	::System::Void _ctor(::System::UInt32 CANJKOGCPAF, ::System::Collections::Generic::IReadOnlyList_1<::AMECGPOBPPB*>* CMMKCIHFNLO, ::EGIKECFKGEL* FJIGBLMJBBM, ::GJMCABHONPM* HFEGABOCGLJ, ::AKKAOLIOIIP* DGFALPONPNB)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::IReadOnlyList_1<::AMECGPOBPPB*>*, ::EGIKECFKGEL*, ::GJMCABHONPM*, ::AKKAOLIOIIP*))((::PBYTE)hIl2Cpp + IAEMFIAFDPG__CTOR_OFFSET))(this, CANJKOGCPAF, CMMKCIHFNLO, FJIGBLMJBBM, HFEGABOCGLJ, DGFALPONPNB);
+	}
+
+	::System::Void CLHJAPCJLIL(::System::UInt32 EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + IAEMFIAFDPG_CLHJAPCJLIL_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void NAAOCLOKCDG(::AKKAOLIOIIP* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::AKKAOLIOIIP*))((::PBYTE)hIl2Cpp + IAEMFIAFDPG_NAAOCLOKCDG_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void KCLPGFLDBKJ(::EGIKECFKGEL* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::EGIKECFKGEL*))((::PBYTE)hIl2Cpp + IAEMFIAFDPG_KCLPGFLDBKJ_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::GJMCABHONPM* COHJLBHOELC()
+	{
+		return ((::GJMCABHONPM*(*)(::PVOID))((::PBYTE)hIl2Cpp + IAEMFIAFDPG_COHJLBHOELC_OFFSET))(this);
+	}
+
+	::System::UInt32 KKNNPLPEOFO()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + IAEMFIAFDPG_KKNNPLPEOFO_OFFSET))(this);
+	}
+
+	::System::Void CFFDJAAHPLE(::System::Collections::Generic::IReadOnlyList_1<::AMECGPOBPPB*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::AMECGPOBPPB*>*))((::PBYTE)hIl2Cpp + IAEMFIAFDPG_CFFDJAAHPLE_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void EIHCAFFDHMC(::GJMCABHONPM* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GJMCABHONPM*))((::PBYTE)hIl2Cpp + IAEMFIAFDPG_EIHCAFFDHMC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::AKKAOLIOIIP* DJNEPFHBMCI()
+	{
+		return ((::AKKAOLIOIIP*(*)(::PVOID))((::PBYTE)hIl2Cpp + IAEMFIAFDPG_DJNEPFHBMCI_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IReadOnlyList_1<::AMECGPOBPPB*>* BOKMDMGOOBA()
+	{
+		return ((::System::Collections::Generic::IReadOnlyList_1<::AMECGPOBPPB*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IAEMFIAFDPG_BOKMDMGOOBA_OFFSET))(this);
+	}
+
+	::EGIKECFKGEL* OHIOENCMIIM()
+	{
+		return ((::EGIKECFKGEL*(*)(::PVOID))((::PBYTE)hIl2Cpp + IAEMFIAFDPG_OHIOENCMIIM_OFFSET))(this);
+	}
+};

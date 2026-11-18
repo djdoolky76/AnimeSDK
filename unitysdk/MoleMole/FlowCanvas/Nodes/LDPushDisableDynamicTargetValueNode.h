@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHDISABLEDYNAMICTARGETVALUENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A850F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHDISABLEDYNAMICTARGETVALUENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A851B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHDISABLEDYNAMICTARGETVALUENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465F920)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHDISABLEDYNAMICTARGETVALUENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1465F9E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPushDisableDynamicTargetValueNode_TypeDefinitionIndex = 83756;
+	inline static constexpr unsigned int LDPushDisableDynamicTargetValueNode_TypeDefinitionIndex = 48698;
 
-	class LDPushDisableDynamicTargetValueNode : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::String*>
+	class LDPushDisableDynamicTargetValueNode
 	{
 	public:
 		::System::Void _ctor()

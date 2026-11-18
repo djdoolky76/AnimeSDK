@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AIOGGGIHCAE;
+class BPDDEPLBABF;
+class DJKHNKJFMJO;
+class GEKNEEMAHBC;
+
+#define GNFLEHHGLHI_PKOGNPKCHHE_OFFSET UNITYSDK_OFFSET(0x15B2C460)
+
+inline static constexpr unsigned int GNFLEHHGLHI_TypeDefinitionIndex = 62181;
+
+class GNFLEHHGLHI : public ::System::Object
+{
+public:
+	static ::BPDDEPLBABF* PKOGNPKCHHE(::DJKHNKJFMJO* LBDJHIALDLB, ::AIOGGGIHCAE* BMDHAMNECNI, ::GEKNEEMAHBC* NALHCEONDDN)
+	{
+		return ((::BPDDEPLBABF*(*)(::DJKHNKJFMJO*, ::AIOGGGIHCAE*, ::GEKNEEMAHBC*))((::PBYTE)hIl2Cpp + GNFLEHHGLHI_PKOGNPKCHHE_OFFSET))(LBDJHIALDLB, BMDHAMNECNI, NALHCEONDDN);
+	}
+};

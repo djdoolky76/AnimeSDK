@@ -6,12 +6,12 @@
 namespace System::Data { class DataRow; }
 namespace System::Data { class DataViewListener; }
 
-#define SYSTEM_DATA_INDEX___C__DISPLAYCLASS86_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0B6D80)
-#define SYSTEM_DATA_INDEX___C__DISPLAYCLASS86_0__MAINTAINDATAVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1F0B6D90)
+#define SYSTEM_DATA_INDEX___C__DISPLAYCLASS86_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F465630)
+#define SYSTEM_DATA_INDEX___C__DISPLAYCLASS86_0__MAINTAINDATAVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1F465640)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int Index___c__DisplayClass86_0_TypeDefinitionIndex = 39342;
+	inline static constexpr unsigned int Index___c__DisplayClass86_0_TypeDefinitionIndex = 37342;
 
 	class Index___c__DisplayClass86_0 : public ::System::Object
 	{

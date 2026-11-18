@@ -5,23 +5,23 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define SCENEHIDDENOBJECTSET_REFRESH_OFFSET UNITYSDK_OFFSET(0x1E828390)
-#define SCENEHIDDENOBJECTSET_START_OFFSET UNITYSDK_OFFSET(0x1E828220)
-#define SCENEHIDDENOBJECTSET__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E828630)
-#define SCENEHIDDENOBJECTSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8284F0)
+#define SCENEHIDDENOBJECTSET_REFRESH_OFFSET UNITYSDK_OFFSET(0x119AD900)
+#define SCENEHIDDENOBJECTSET_START_OFFSET UNITYSDK_OFFSET(0x119AD790)
+#define SCENEHIDDENOBJECTSET__CCTOR_OFFSET UNITYSDK_OFFSET(0x119ADBA0)
+#define SCENEHIDDENOBJECTSET__CTOR_OFFSET UNITYSDK_OFFSET(0x119ADA60)
 
-inline static constexpr unsigned int SceneHiddenObjectSet_TypeDefinitionIndex = 79167;
+inline static constexpr unsigned int SceneHiddenObjectSet_TypeDefinitionIndex = 84496;
 
 class SceneHiddenObjectSet : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::SceneHiddenObjectSet** StaticGet_Instance()
 	{
-		return (::SceneHiddenObjectSet**)Il2CppClass::FromTypeDefinitionIndex(SceneHiddenObjectSet_TypeDefinitionIndex)->GetStaticField(0x49DB0);
+		return (::SceneHiddenObjectSet**)Il2CppClass::FromTypeDefinitionIndex(SceneHiddenObjectSet_TypeDefinitionIndex)->GetStaticField(0x31930);
 	}
 	static ::System::Boolean* StaticGet_HideSceneSmallObject()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SceneHiddenObjectSet_TypeDefinitionIndex)->GetStaticField(0x10F20);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SceneHiddenObjectSet_TypeDefinitionIndex)->GetStaticField(0xA7D0);
 	}
 	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* SmallObjectList; // 0x18
 	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* MiddleObjectList; // 0x20

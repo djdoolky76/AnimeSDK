@@ -4,15 +4,15 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_EFFECTTIMESEGMENTCONFIG_ISINUPDATE_OFFSET UNITYSDK_OFFSET(0x1A4BC190)
-#define MOLEMOLE_CONFIG_EFFECTTIMESEGMENTCONFIG_ISPOSTEND_OFFSET UNITYSDK_OFFSET(0x1A4BC220)
-#define MOLEMOLE_CONFIG_EFFECTTIMESEGMENTCONFIG_ISPOSTSTART_OFFSET UNITYSDK_OFFSET(0x1A4BC100)
-#define MOLEMOLE_CONFIG_EFFECTTIMESEGMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4BC290)
-#define MOLEMOLE_CONFIG_EFFECTTIMESEGMENTCONFIG__ONFRAMECHANGED_OFFSET UNITYSDK_OFFSET(0x1A4BC080)
+#define MOLEMOLE_CONFIG_EFFECTTIMESEGMENTCONFIG_ISINUPDATE_OFFSET UNITYSDK_OFFSET(0x16543200)
+#define MOLEMOLE_CONFIG_EFFECTTIMESEGMENTCONFIG_ISPOSTEND_OFFSET UNITYSDK_OFFSET(0x16543290)
+#define MOLEMOLE_CONFIG_EFFECTTIMESEGMENTCONFIG_ISPOSTSTART_OFFSET UNITYSDK_OFFSET(0x16543170)
+#define MOLEMOLE_CONFIG_EFFECTTIMESEGMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16543300)
+#define MOLEMOLE_CONFIG_EFFECTTIMESEGMENTCONFIG__ONFRAMECHANGED_OFFSET UNITYSDK_OFFSET(0x165430F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EffectTimeSegmentConfig_TypeDefinitionIndex = 63951;
+	inline static constexpr unsigned int EffectTimeSegmentConfig_TypeDefinitionIndex = 47468;
 
 	class EffectTimeSegmentConfig : public ::System::Object
 	{
@@ -20,9 +20,11 @@ namespace MoleMole::Config
 		::System::Single StartNormalizedTime; // 0x10
 		::System::Single EndNormalizedTime; // 0x14
 		::System::Int32 StartFrame; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Action_1<::MoleMole::Config::EffectTimeSegmentConfig*>* valueChangedCallback; // 0x20
 		::System::Int32 EndFrame; // 0x28
 		::System::Boolean isTimeMethod; // 0x2C
+		::System::Byte _padding1[0x3];
 		::System::Single StartTime; // 0x30
 		::System::Single EndTime; // 0x34
 		::System::Boolean IsHideEndType; // 0x38

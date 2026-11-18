@@ -3,14 +3,14 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int NumberCompareType_TypeDefinitionIndex = 82381;
+	inline static constexpr unsigned int NumberCompareType_TypeDefinitionIndex = 66387;
 
 	enum class NumberCompareType : ::System::Int32
 	{
 		GreaterEqual = 1,
-		Greater = 0,
 		Less = 3,
 		LessEqual = 4,
 		Equal = 2,
+		Greater = 0,
 	};
 }

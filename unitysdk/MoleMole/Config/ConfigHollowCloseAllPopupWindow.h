@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCLOSEALLPOPUPWINDOW_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x14376A70)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCLOSEALLPOPUPWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x14376B30)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCLOSEALLPOPUPWINDOW_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x121C1C00)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCLOSEALLPOPUPWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x121C1CC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowCloseAllPopupWindow_TypeDefinitionIndex = 82594;
+	inline static constexpr unsigned int ConfigHollowCloseAllPopupWindow_TypeDefinitionIndex = 60272;
 
 	class ConfigHollowCloseAllPopupWindow : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
@@ -19,9 +19,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCLOSEALLPOPUPWINDOW__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCLOSEALLPOPUPWINDOW_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCLOSEALLPOPUPWINDOW_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

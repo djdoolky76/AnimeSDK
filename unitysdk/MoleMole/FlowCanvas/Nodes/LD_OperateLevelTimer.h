@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_E6DDDFA618D1C311.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_3.h"
+#include "unitysdk/GJEKNGFCHAA.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_OPERATELEVELTIMER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1B26B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_OPERATELEVELTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B2730)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_OPERATELEVELTIMER_INVOKE_OFFSET UNITYSDK_OFFSET(0x14AE6D50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_OPERATELEVELTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x14AE6DD0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_OperateLevelTimer_TypeDefinitionIndex = 42290;
+	inline static constexpr unsigned int LD_OperateLevelTimer_TypeDefinitionIndex = 70372;
 
-	class LD_OperateLevelTimer : public ::FlowCanvas::Nodes::CallableActionNode_3<::System::String*, ::Enum_3_E6DDDFA618D1C311, ::System::Single>
+	class LD_OperateLevelTimer
 	{
 	public:
 		::System::Void _ctor()
@@ -20,9 +19,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_OPERATELEVELTIMER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Invoke(::System::String* timerKey, ::Enum_3_E6DDDFA618D1C311 opCode, ::System::Single value)
+		::System::Void Invoke(::System::String* timerKey, ::GJEKNGFCHAA opCode, ::System::Single value)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Enum_3_E6DDDFA618D1C311, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_OPERATELEVELTIMER_INVOKE_OFFSET))(this, timerKey, opCode, value);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::GJEKNGFCHAA, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_OPERATELEVELTIMER_INVOKE_OFFSET))(this, timerKey, opCode, value);
 		}
 	};
 }

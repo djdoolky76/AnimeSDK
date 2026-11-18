@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PIPELINECAMERA_METHOD___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EED37A0)
-#define PIPELINECAMERA_METHOD___C__DISPLAYCLASS38_0__SAMPLECIRCLE_B__0_OFFSET UNITYSDK_OFFSET(0x1EED37B0)
+#define PIPELINECAMERA_METHOD___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2413D0)
+#define PIPELINECAMERA_METHOD___C__DISPLAYCLASS38_0__SAMPLECIRCLE_B__0_OFFSET UNITYSDK_OFFSET(0x1F2413E0)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int Method___c__DisplayClass38_0_TypeDefinitionIndex = 38154;
+	inline static constexpr unsigned int Method___c__DisplayClass38_0_TypeDefinitionIndex = 36156;
 
 	class Method___c__DisplayClass38_0 : public ::System::Object
 	{

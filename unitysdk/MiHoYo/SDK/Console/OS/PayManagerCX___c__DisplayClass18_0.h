@@ -6,26 +6,26 @@ namespace MiHoYo::SDK::Console::OS { class PayManagerCX; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AD2F0)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1D3AD300)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__3_OFFSET UNITYSDK_OFFSET(0x1D3AD520)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E10E0)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1D8E10F0)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__3_OFFSET UNITYSDK_OFFSET(0x1D8E1310)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int PayManagerCX___c__DisplayClass18_0_TypeDefinitionIndex = 21191;
+	inline static constexpr unsigned int PayManagerCX___c__DisplayClass18_0_TypeDefinitionIndex = 20396;
 
 	class PayManagerCX___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::System::String* device; // 0x10
-		::System::String* collectionsId; // 0x18
-		::System::String* aid; // 0x20
-		::System::String* region; // 0x28
-		::System::String* uid; // 0x30
-		::MiHoYo::SDK::Console::OS::PayManagerCX* __4__this; // 0x38
-		::System::Action_1<::System::String*>* __9__3; // 0x40
-		::System::String* game; // 0x48
-		::System::String* gameToken; // 0x50
+		::System::String* game; // 0x10
+		::System::String* region; // 0x18
+		::System::String* collectionsId; // 0x20
+		::System::String* gameToken; // 0x28
+		::MiHoYo::SDK::Console::OS::PayManagerCX* __4__this; // 0x30
+		::System::String* aid; // 0x38
+		::System::String* device; // 0x40
+		::System::Action_1<::System::String*>* __9__3; // 0x48
+		::System::String* uid; // 0x50
 
 		::System::Void _ctor()
 		{

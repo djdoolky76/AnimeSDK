@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_1005B9479049BC5A;
+class DFBKEIBIDFJ;
 namespace MoleMole { class UIActivityReturnPageController; }
 
-#define MOLEMOLE_UIBACKFLOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E371C0)
+#define MOLEMOLE_UIBACKFLOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A148330)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBackFlowContext_TypeDefinitionIndex = 49483;
+	inline static constexpr unsigned int UIBackFlowContext_TypeDefinitionIndex = 84051;
 
 	class UIBackFlowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_1005B9479049BC5A* backFlowActivityData; // 0x28
+		::DFBKEIBIDFJ* backFlowActivityData; // 0x28
 		::MoleMole::UIActivityReturnPageController* parentController; // 0x30
 		::System::Int32 DefaultSelectRoleIndex; // 0x38
 

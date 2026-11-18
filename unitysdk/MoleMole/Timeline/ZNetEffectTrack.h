@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/ExposedReference_1.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
+#include "unitysdk/UnityEngine/ExposedReference_1.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::EffectSimulate { class NapEffectSimulatorMgr; }
 namespace MoleMole::Timeline { class ZNetEffectPlayableAsset; }
@@ -15,43 +15,45 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class IPropertyCollector; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CANCUSTOMRECORD_OFFSET UNITYSDK_OFFSET(0x1B6CC7F0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B6CB620)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B6CCC20)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CUSTOMGETRECORDANIMCLIPIMP_OFFSET UNITYSDK_OFFSET(0x1B6CC970)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CUSTOMGETSCENEGAMEOBJECTIMP_OFFSET UNITYSDK_OFFSET(0x1B6CC8D0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ERRORMSG_OFFSET UNITYSDK_OFFSET(0x1B6CC4D0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B6CCCD0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ISCUSTOMGETRECORDANIMCLIP_OFFSET UNITYSDK_OFFSET(0x1B6CC930)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ISCUSTOMGETSCENEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B6CC890)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_064D173F66ED9F75_OFFSET UNITYSDK_OFFSET(0x1B6CD000)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_088F4E9DF96E14A7_OFFSET UNITYSDK_OFFSET(0x1B6CBFB0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x1B6CD060)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_652F102150AC9967_OFFSET UNITYSDK_OFFSET(0x1B6CD010)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1B6CCFC0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_86345BF6881067A7_OFFSET UNITYSDK_OFFSET(0x1B6CC430)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_951FC52D171BDC09_OFFSET UNITYSDK_OFFSET(0x1B6CCFD0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_9CA5A80F6B5B9E01_OFFSET UNITYSDK_OFFSET(0x1B6CCFE0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x1B6CCF80)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_BC46FCF99873D9DD_OFFSET UNITYSDK_OFFSET(0x1B6CC7B0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_CC634B4673437CA3_OFFSET UNITYSDK_OFFSET(0x1B6CCFF0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_F0088C88851A7DFB_1_OFFSET UNITYSDK_OFFSET(0x1B6CCF70)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_F0088C88851A7DFB_2_OFFSET UNITYSDK_OFFSET(0x1B6CD050)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x1B6CCF60)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ONDUPLICATETRACK_OFFSET UNITYSDK_OFFSET(0x1B6CCBE0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ONMUTESTATECHANGE_OFFSET UNITYSDK_OFFSET(0x1B6CCB90)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CCF00)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_BEMBIANKABF_OFFSET UNITYSDK_OFFSET(0x1A73EA00)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_BPMKEKLABAP_OFFSET UNITYSDK_OFFSET(0x1A73F280)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CANCUSTOMRECORD_OFFSET UNITYSDK_OFFSET(0x1A73EA40)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CNBMFICEAGG_OFFSET UNITYSDK_OFFSET(0x1A73F1C0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_COLLEHFPFKO_OFFSET UNITYSDK_OFFSET(0x1A73E680)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1A73D870)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1A73EE70)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CUSTOMGETRECORDANIMCLIPIMP_OFFSET UNITYSDK_OFFSET(0x1A73EBC0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CUSTOMGETSCENEGAMEOBJECTIMP_OFFSET UNITYSDK_OFFSET(0x1A73EB20)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_DMLGNEADDAB_OFFSET UNITYSDK_OFFSET(0x1A73E200)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ERRORMSG_OFFSET UNITYSDK_OFFSET(0x1A73E720)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_FJEBEIAIGIM_OFFSET UNITYSDK_OFFSET(0x1A73F270)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_FLKKJFHMJBH_OFFSET UNITYSDK_OFFSET(0x1A73F1B0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_FOCELABFJEC_OFFSET UNITYSDK_OFFSET(0x1A73F1E0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1A73EF20)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_GDIEJLEBKEL_OFFSET UNITYSDK_OFFSET(0x1A73F240)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ISCUSTOMGETRECORDANIMCLIP_OFFSET UNITYSDK_OFFSET(0x1A73EB80)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ISCUSTOMGETSCENEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1A73EAE0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_LGAGFNHGIGH_OFFSET UNITYSDK_OFFSET(0x1A73F1F0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_LIDPHFBKAIL_OFFSET UNITYSDK_OFFSET(0x1A73F230)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_MDGFDDJGCFB_OFFSET UNITYSDK_OFFSET(0x1A73F260)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_MHCFJPIDDHD_OFFSET UNITYSDK_OFFSET(0x1A73F250)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_OLKDPLINLEH_OFFSET UNITYSDK_OFFSET(0x1A73F1D0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ONMUTESTATECHANGE_OFFSET UNITYSDK_OFFSET(0x1A73EDE0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ONPASTETRACK_OFFSET UNITYSDK_OFFSET(0x1A73EE30)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A73F150)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ZNetEffectTrack_TypeDefinitionIndex = 84464;
+	inline static constexpr unsigned int ZNetEffectTrack_TypeDefinitionIndex = 91503;
 
 	class ZNetEffectTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::UnityEngine::Playables::Playable mixerPlayable; // 0xB0
 		::UnityEngine::ExposedReference_1<::UnityEngine::Transform*> rootTransform; // 0xC0
+		::System::Byte _padding0[0x8];
 		::System::Boolean needResolve; // 0xD0
+		::System::Byte _padding1[0x7];
 		::MoleMole::Timeline::ZNetEffectPlayableAsset* m_stAsset; // 0xD8
 
 		::System::Void _ctor()
@@ -59,9 +61,9 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* JEIDPPCEHLD, ::UnityEngine::Timeline::TimelineClip* PHGBOCIDLEI)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CREATEPLAYABLE_OFFSET))(this, MHPNGBGGMMN, JEIDPPCEHLD, PHGBOCIDLEI);
 		}
 
 		::System::String* ErrorMsg()
@@ -94,94 +96,94 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::AnimationClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CUSTOMGETRECORDANIMCLIPIMP_OFFSET))(this);
 		}
 
-		::System::Void OnMuteStateChange(::System::Boolean a1)
+		::System::Void OnMuteStateChange(::System::Boolean NGJMKJNOGJN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ONMUTESTATECHANGE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ONMUTESTATECHANGE_OFFSET))(this, NGJMKJNOGJN);
 		}
 
-		::System::Void OnDuplicateTrack()
+		::System::Void OnPasteTrack()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ONDUPLICATETRACK_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_ONPASTETRACK_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* NJOAJLDJCCJ, ::System::Int32 BMHCCJPEFPI)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CREATETRACKMIXER_OFFSET))(this, MHPNGBGGMMN, NJOAJLDJCCJ, BMHCCJPEFPI);
 		}
 
-		::System::Void GatherProperties(::UnityEngine::Playables::PlayableDirector* a1, ::UnityEngine::Timeline::IPropertyCollector* a2)
+		::System::Void GatherProperties(::UnityEngine::Playables::PlayableDirector* GALAOBFOBFA, ::UnityEngine::Timeline::IPropertyCollector* BHNDKLNKKNK)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_GATHERPROPERTIES_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_GATHERPROPERTIES_OFFSET))(this, GALAOBFOBFA, BHNDKLNKKNK);
 		}
 
-		::UnityEngine::GameObject* Method_5_BC46FCF99873D9DD()
+		::System::String* FLKKJFHMJBH()
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_BC46FCF99873D9DD_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_FLKKJFHMJBH_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_F0088C88851A7DFB()
+		::UnityEngine::GameObject* CNBMFICEAGG()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_F0088C88851A7DFB_OFFSET))(this);
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_CNBMFICEAGG_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_F0088C88851A7DFB_1()
+		::System::Void OLKDPLINLEH()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_F0088C88851A7DFB_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_OLKDPLINLEH_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable Method_5_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::System::Boolean FOCELABFJEC()
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_FOCELABFJEC_OFFSET))(this);
 		}
 
-		static ::System::Single Method_5_088F4E9DF96E14A7(::MoleMole::EffectSimulate::NapEffectSimulatorMgr* a1, ::MoleMole::Timeline::ZNetEffectPlayableAsset* a2)
+		::UnityEngine::GameObject* BEMBIANKABF()
 		{
-			return ((::System::Single(*)(::MoleMole::EffectSimulate::NapEffectSimulatorMgr*, ::MoleMole::Timeline::ZNetEffectPlayableAsset*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_088F4E9DF96E14A7_OFFSET))(a1, a2);
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_BEMBIANKABF_OFFSET))(this);
 		}
 
-		::System::Void Method_5_832295EC279E5994()
+		::UnityEngine::Playables::Playable LGAGFNHGIGH(::UnityEngine::Playables::PlayableGraph MIALFKCCCPI, ::UnityEngine::GameObject* KMGKAIDEIBA, ::System::Int32 FDHMCIFPNCK)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_832295EC279E5994_OFFSET))(this);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_LGAGFNHGIGH_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
 		}
 
-		static ::System::Void Method_5_86345BF6881067A7(::UnityEngine::Timeline::TimelineClip* a1, ::System::Single a2)
+		::System::Void LIDPHFBKAIL(::System::Boolean MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::UnityEngine::Timeline::TimelineClip*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_86345BF6881067A7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_LIDPHFBKAIL_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void Method_5_951FC52D171BDC09(::System::Boolean a1)
+		static ::System::Single DMLGNEADDAB(::MoleMole::EffectSimulate::NapEffectSimulatorMgr* DEALLHLACDE, ::MoleMole::Timeline::ZNetEffectPlayableAsset* FAJABONNCHA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_951FC52D171BDC09_OFFSET))(this, a1);
+			return ((::System::Single(*)(::MoleMole::EffectSimulate::NapEffectSimulatorMgr*, ::MoleMole::Timeline::ZNetEffectPlayableAsset*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_DMLGNEADDAB_OFFSET))(DEALLHLACDE, FAJABONNCHA);
 		}
 
-		::UnityEngine::GameObject* Method_5_9CA5A80F6B5B9E01()
+		::System::Void GDIEJLEBKEL(::UnityEngine::Playables::PlayableDirector* MIALFKCCCPI, ::UnityEngine::Timeline::IPropertyCollector* KMGKAIDEIBA)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_9CA5A80F6B5B9E01_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_GDIEJLEBKEL_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 
-		::UnityEngine::AnimationClip* Method_5_CC634B4673437CA3()
+		::System::Boolean MHCFJPIDDHD()
 		{
-			return ((::UnityEngine::AnimationClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_CC634B4673437CA3_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_MHCFJPIDDHD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_064D173F66ED9F75(::UnityEngine::Playables::PlayableDirector* a1, ::UnityEngine::Timeline::IPropertyCollector* a2)
+		::UnityEngine::AnimationClip* MDGFDDJGCFB()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_064D173F66ED9F75_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::AnimationClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_MDGFDDJGCFB_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable Method_5_652F102150AC9967(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
+		static ::System::Void COLLEHFPFKO(::UnityEngine::Timeline::TimelineClip* PHGBOCIDLEI, ::System::Single FKABKJMDLNP)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_652F102150AC9967_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::Timeline::TimelineClip*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_COLLEHFPFKO_OFFSET))(PHGBOCIDLEI, FKABKJMDLNP);
 		}
 
-		::System::Boolean Method_5_F0088C88851A7DFB_2()
+		::System::Boolean FJEBEIAIGIM()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_F0088C88851A7DFB_2_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_FJEBEIAIGIM_OFFSET))(this);
 		}
 
-		::System::String* Method_5_126AB3935214AA22()
+		::UnityEngine::Playables::Playable BPMKEKLABAP(::UnityEngine::Playables::PlayableGraph MIALFKCCCPI, ::UnityEngine::GameObject* KMGKAIDEIBA, ::UnityEngine::Timeline::TimelineClip* FDHMCIFPNCK)
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_METHOD_5_126AB3935214AA22_OFFSET))(this);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTTRACK_BPMKEKLABAP_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
 		}
 	};
 }

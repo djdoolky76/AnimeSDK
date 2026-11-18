@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DDIFKFJCFDA_TypeDefinitionIndex = 23874;
+
+enum class DDIFKFJCFDA : ::System::Int32
+{
+	JAEGCLGOGHH = 2,
+	GANMIEADLLB = 15,
+	ALPDGJJNEKK = 10,
+	KNHHFKAIJBC = 11,
+	GDDNECDEEDM = 1,
+	FBBLILOPKJM = 9,
+	DOGNJJCEAAL = 3,
+	IFFEFIHIPJE = 14,
+	FNKGMAHIMBK = 12,
+	LBHAGKPNLMN = 6,
+	MKMOJAJEOON = 13,
+	IOLKKKPLILD = 8,
+	EEEMDAOFLOF = 0,
+	COHIPIOHKLC = 4,
+	CGBIIGNGLCC = 7,
+	OIKPOLIONPE = 5,
+	HABELPJMHJN = 16,
+};

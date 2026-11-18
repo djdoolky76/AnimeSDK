@@ -1,44 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_3FDE76C86672FDDC.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
+#include "unitysdk/OJHHBGPMJAK.h"
 
-class Class_3_1A345EAE5F749316_10;
-class Class_3_452E05BC28CF3B11;
-class Class_3_8280730987DC22B2_7;
-class Class_3_AE02BC8285203464_10;
+class AEPIGACPJDL;
+class EHKBIMEMOCP;
+class GDCLGFPAMDH;
+class JFFIPPCGFPF;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
-template <typename T1, typename T2> class Class_1_516A565475879095;
+template <typename T1, typename T2> class ELKFEFPPPFL_2;
 
-#define MOLEMOLE_UILEVELRESULTPAGECONTEXT_ISADDITIONAUPITEM_OFFSET UNITYSDK_OFFSET(0x19859700)
-#define MOLEMOLE_UILEVELRESULTPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19859760)
+#define MOLEMOLE_UILEVELRESULTPAGECONTEXT_ISADDITIONAUPITEM_OFFSET UNITYSDK_OFFSET(0x17F88500)
+#define MOLEMOLE_UILEVELRESULTPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17F88560)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultPageContext_TypeDefinitionIndex = 50554;
+	inline static constexpr unsigned int UILevelResultPageContext_TypeDefinitionIndex = 76092;
 
 	class UILevelResultPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action* OnRestartBattleAction; // 0x28
-		::System::Collections::Generic::HashSet_1<::System::Int32>* additionalUpItemSet; // 0x30
-		::System::Action* OnExitBattleAction; // 0x38
-		::Class_3_AE02BC8285203464_10* dungeonDoneRet; // 0x40
-		::Class_1_516A565475879095<::System::UInt32, ::Class_3_8280730987DC22B2_7*>* RawRewardItemReasonMap; // 0x48
-		::System::Action* OnFairyBtnAction; // 0x50
-		::System::Action* OnContinueAction; // 0x58
-		::System::Collections::Generic::IDictionary_2<::System::UInt32, ::Class_3_452E05BC28CF3B11*>* FightRewards; // 0x60
-		::Class_1_516A565475879095<::System::UInt32, ::Class_3_1A345EAE5F749316_10*>* RawRewardReasonItemMap; // 0x68
-		::System::Action* OnStartFadeInFinsh; // 0x70
-		::Enum_3_3FDE76C86672FDDC ShowType; // 0x78
-		::System::Boolean Procedure; // 0x7C
-		::System::Boolean IsOvernight; // 0x7D
-		::System::Boolean canRevive; // 0x7E
-		::System::Boolean enableDelayExit; // 0x7F
+		::System::Action* OnExitBattleAction; // 0x28
+		::System::Action* OnContinueAction; // 0x30
+		::ELKFEFPPPFL_2<::System::UInt32, ::EHKBIMEMOCP*>* RawRewardItemReasonMap; // 0x38
+		::System::Action* OnFairyBtnAction; // 0x40
+		::GDCLGFPAMDH* dungeonDoneRet; // 0x48
+		::System::Action* OnRestartBattleAction; // 0x50
+		::System::Collections::Generic::HashSet_1<::System::Int32>* additionalUpItemSet; // 0x58
+		::System::Action* OnStartFadeInFinsh; // 0x60
+		::System::Collections::Generic::IDictionary_2<::System::UInt32, ::AEPIGACPJDL*>* FightRewards; // 0x68
+		::ELKFEFPPPFL_2<::System::UInt32, ::JFFIPPCGFPF*>* RawRewardReasonItemMap; // 0x70
+		::System::Boolean Procedure; // 0x78
+		::System::Boolean IsOvernight; // 0x79
+		::System::Byte _padding0[0x2];
+		::OJHHBGPMJAK ShowType; // 0x7C
 		::System::Single delayExitTime; // 0x80
 		::System::Boolean isWin; // 0x84
+		::System::Boolean canRevive; // 0x85
+		::System::Boolean enableDelayExit; // 0x86
 
 		::System::Void _ctor()
 		{

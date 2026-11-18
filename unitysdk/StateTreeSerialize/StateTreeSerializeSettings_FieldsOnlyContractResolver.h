@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Newtonsoft/Json/MemberSerialization.h"
 #include "unitysdk/Newtonsoft/Json/Serialization/DefaultContractResolver.h"
+#include "unitysdk/Newtonsoft/Json/MemberSerialization.h"
 
 namespace Newtonsoft::Json::Serialization { class JsonProperty; }
 namespace System::Reflection { class MemberInfo; }
 
-#define STATETREESERIALIZE_STATETREESERIALIZESETTINGS_FIELDSONLYCONTRACTRESOLVER_CREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1E6F6A50)
-#define STATETREESERIALIZE_STATETREESERIALIZESETTINGS_FIELDSONLYCONTRACTRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F69F0)
+#define STATETREESERIALIZE_STATETREESERIALIZESETTINGS_FIELDSONLYCONTRACTRESOLVER_CREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1E99BDB0)
+#define STATETREESERIALIZE_STATETREESERIALIZESETTINGS_FIELDSONLYCONTRACTRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E99BD50)
 
 namespace StateTreeSerialize
 {
-	inline static constexpr unsigned int StateTreeSerializeSettings_FieldsOnlyContractResolver_TypeDefinitionIndex = 39162;
+	inline static constexpr unsigned int StateTreeSerializeSettings_FieldsOnlyContractResolver_TypeDefinitionIndex = 37162;
 
 	class StateTreeSerializeSettings_FieldsOnlyContractResolver : public ::Newtonsoft::Json::Serialization::DefaultContractResolver
 	{

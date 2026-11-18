@@ -3,14 +3,12 @@
 #include "unitysdk/ICSharpCode/SharpZipLib/Zip/FileUpdateMode.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::IO { class Stream; }
-
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_BASEARCHIVESTORAGE_GET_UPDATEMODE_OFFSET UNITYSDK_OFFSET(0x1ED0E740)
-#define ICSHARPCODE_SHARPZIPLIB_ZIP_BASEARCHIVESTORAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED0E730)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_BASEARCHIVESTORAGE_GET_UPDATEMODE_OFFSET UNITYSDK_OFFSET(0x1F0BFE20)
+#define ICSHARPCODE_SHARPZIPLIB_ZIP_BASEARCHIVESTORAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0BFE10)
 
 namespace ICSharpCode::SharpZipLib::Zip
 {
-	inline static constexpr unsigned int BaseArchiveStorage_TypeDefinitionIndex = 6885;
+	inline static constexpr unsigned int BaseArchiveStorage_TypeDefinitionIndex = 6892;
 
 	class BaseArchiveStorage : public ::System::Object
 	{

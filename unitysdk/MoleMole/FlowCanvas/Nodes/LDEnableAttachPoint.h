@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_3.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEATTACHPOINT_INVOKE_OFFSET UNITYSDK_OFFSET(0x118B4890)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x118B4A80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEATTACHPOINT_INVOKE_OFFSET UNITYSDK_OFFSET(0x16233A40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16233C30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnableAttachPoint_TypeDefinitionIndex = 72976;
+	inline static constexpr unsigned int LDEnableAttachPoint_TypeDefinitionIndex = 63579;
 
-	class LDEnableAttachPoint : public ::FlowCanvas::Nodes::CallableActionNode_3<::MoleMole::Battle::Entity*, ::System::String*, ::System::Boolean>
+	class LDEnableAttachPoint
 	{
 	public:
 		::System::Void _ctor()

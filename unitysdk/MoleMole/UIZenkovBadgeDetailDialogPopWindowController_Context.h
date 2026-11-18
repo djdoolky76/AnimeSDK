@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIZENKOVBADGEDETAILDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10AF61D0)
+#define MOLEMOLE_UIZENKOVBADGEDETAILDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16719B20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovBadgeDetailDialogPopWindowController_Context_TypeDefinitionIndex = 74688;
+	inline static constexpr unsigned int UIZenkovBadgeDetailDialogPopWindowController_Context_TypeDefinitionIndex = 54765;
 
 	class UIZenkovBadgeDetailDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelMainPageController_ChatHideUISource_TypeDefinitionIndex = 56213;
+	inline static constexpr unsigned int UIInLevelMainPageController_ChatHideUISource_TypeDefinitionIndex = 40248;
 
 	enum class UIInLevelMainPageController_ChatHideUISource : ::System::Int32
 	{

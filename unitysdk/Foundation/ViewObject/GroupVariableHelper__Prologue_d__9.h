@@ -7,18 +7,19 @@
 namespace Foundation::ViewObject { class GroupVariableHelper; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__PROLOGUE_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7B3700)
-#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__PROLOGUE_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__PROLOGUE_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x6C2C70)
+#define FOUNDATION_VIEWOBJECT_GROUPVARIABLEHELPER__PROLOGUE_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int GroupVariableHelper__Prologue_d__9_TypeDefinitionIndex = 51597;
+	inline static constexpr unsigned int GroupVariableHelper__Prologue_d__9_TypeDefinitionIndex = 41715;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	struct alignas(8) GroupVariableHelper__Prologue_d__9
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
-		::Foundation::ViewObject::GroupVariableHelper* __4__this; // 0x30
+		::Foundation::ViewObject::GroupVariableHelper* __4__this; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
 		::System::Int32 __1__state; // 0x38
 		::System::Boolean isWrite; // 0x3C
 

@@ -1,0 +1,84 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class OGDIIIHHMNM;
+class OGDIIIHHMNM_FFBKOPLFGFE;
+namespace UnityEngine::InputSystem { class InputAction; }
+namespace UnityEngine::InputSystem { class InputActionMap; }
+
+#define OGDIIIHHMNM_HNNDILLKNJG_BBCIBNKFMEE_OFFSET UNITYSDK_OFFSET(0x6B8240)
+#define OGDIIIHHMNM_HNNDILLKNJG_BDEOOKBIDAP_OFFSET UNITYSDK_OFFSET(0x6B82D0)
+#define OGDIIIHHMNM_HNNDILLKNJG_IBPBLFLKJJH_OFFSET UNITYSDK_OFFSET(0x6B8210)
+#define OGDIIIHHMNM_HNNDILLKNJG_JBPENNJPEKN_OFFSET UNITYSDK_OFFSET(0x6B82F0)
+#define OGDIIIHHMNM_HNNDILLKNJG_JCJEADDCEKJ_OFFSET UNITYSDK_OFFSET(0x6B8310)
+#define OGDIIIHHMNM_HNNDILLKNJG_JPPEEOLOGGP_OFFSET UNITYSDK_OFFSET(0x11B2A7C0)
+#define OGDIIIHHMNM_HNNDILLKNJG_MEFMAFIAGND_OFFSET UNITYSDK_OFFSET(0x6B82B0)
+#define OGDIIIHHMNM_HNNDILLKNJG_MIOFHOOBFCA_OFFSET UNITYSDK_OFFSET(0x6B8230)
+#define OGDIIIHHMNM_HNNDILLKNJG_OMPFLKCBFHF_OFFSET UNITYSDK_OFFSET(0x6B81B0)
+#define OGDIIIHHMNM_HNNDILLKNJG_PEDANHBGIGE_OFFSET UNITYSDK_OFFSET(0x6B8320)
+#define OGDIIIHHMNM_HNNDILLKNJG__CTOR_OFFSET UNITYSDK_OFFSET(0x358B00)
+
+inline static constexpr unsigned int OGDIIIHHMNM_HNNDILLKNJG_TypeDefinitionIndex = 93273;
+
+struct alignas(8) OGDIIIHHMNM_HNNDILLKNJG
+{
+	::OGDIIIHHMNM* MFCIHIKNLIE; // 0x10
+
+	::System::Void _ctor(::OGDIIIHHMNM* HHHNJIMDFOG)
+	{
+		return ((::System::Void(*)(::PVOID, ::OGDIIIHHMNM*))((::PBYTE)hIl2Cpp + OGDIIIHHMNM_HNNDILLKNJG__CTOR_OFFSET))(this, HHHNJIMDFOG);
+	}
+
+	::UnityEngine::InputSystem::InputActionMap* OMPFLKCBFHF()
+	{
+		return ((::UnityEngine::InputSystem::InputActionMap*(*)(::PVOID))((::PBYTE)hIl2Cpp + OGDIIIHHMNM_HNNDILLKNJG_OMPFLKCBFHF_OFFSET))(this);
+	}
+
+	::UnityEngine::InputSystem::InputAction* IBPBLFLKJJH()
+	{
+		return ((::UnityEngine::InputSystem::InputAction*(*)(::PVOID))((::PBYTE)hIl2Cpp + OGDIIIHHMNM_HNNDILLKNJG_IBPBLFLKJJH_OFFSET))(this);
+	}
+
+	::System::Void MIOFHOOBFCA(::OGDIIIHHMNM_FFBKOPLFGFE* ECMMKCJLBMD)
+	{
+		return ((::System::Void(*)(::PVOID, ::OGDIIIHHMNM_FFBKOPLFGFE*))((::PBYTE)hIl2Cpp + OGDIIIHHMNM_HNNDILLKNJG_MIOFHOOBFCA_OFFSET))(this, ECMMKCJLBMD);
+	}
+
+	/*
+	static ::UnityEngine::InputSystem::InputActionMap* JPPEEOLOGGP(::OGDIIIHHMNM_HNNDILLKNJG GEEKODJDNLG)
+	{
+		return ((::UnityEngine::InputSystem::InputActionMap*(*)(::OGDIIIHHMNM_HNNDILLKNJG))((::PBYTE)hIl2Cpp + OGDIIIHHMNM_HNNDILLKNJG_JPPEEOLOGGP_OFFSET))(GEEKODJDNLG);
+	}
+	*/
+
+	::System::Boolean BBCIBNKFMEE()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + OGDIIIHHMNM_HNNDILLKNJG_BBCIBNKFMEE_OFFSET))(this);
+	}
+
+	::UnityEngine::InputSystem::InputAction* MEFMAFIAGND()
+	{
+		return ((::UnityEngine::InputSystem::InputAction*(*)(::PVOID))((::PBYTE)hIl2Cpp + OGDIIIHHMNM_HNNDILLKNJG_MEFMAFIAGND_OFFSET))(this);
+	}
+
+	::UnityEngine::InputSystem::InputAction* BDEOOKBIDAP()
+	{
+		return ((::UnityEngine::InputSystem::InputAction*(*)(::PVOID))((::PBYTE)hIl2Cpp + OGDIIIHHMNM_HNNDILLKNJG_BDEOOKBIDAP_OFFSET))(this);
+	}
+
+	::UnityEngine::InputSystem::InputAction* JBPENNJPEKN()
+	{
+		return ((::UnityEngine::InputSystem::InputAction*(*)(::PVOID))((::PBYTE)hIl2Cpp + OGDIIIHHMNM_HNNDILLKNJG_JBPENNJPEKN_OFFSET))(this);
+	}
+
+	::System::Void JCJEADDCEKJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OGDIIIHHMNM_HNNDILLKNJG_JCJEADDCEKJ_OFFSET))(this);
+	}
+
+	::System::Void PEDANHBGIGE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OGDIIIHHMNM_HNNDILLKNJG_PEDANHBGIGE_OFFSET))(this);
+	}
+};

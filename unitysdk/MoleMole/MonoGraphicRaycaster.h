@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class Camera; }
 
-#define MOLEMOLE_MONOGRAPHICRAYCASTER_GET_EVENTCAMERA_OFFSET UNITYSDK_OFFSET(0x144EEA70)
-#define MOLEMOLE_MONOGRAPHICRAYCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x144EEBE0)
-#define MOLEMOLE_MONOGRAPHICRAYCASTER___BASE_GET_EVENTCAMERA_OFFSET UNITYSDK_OFFSET(0x144EEC40)
+#define MOLEMOLE_MONOGRAPHICRAYCASTER_GET_EVENTCAMERA_OFFSET UNITYSDK_OFFSET(0x1043B1A0)
+#define MOLEMOLE_MONOGRAPHICRAYCASTER_MMMBBLIEGKP_OFFSET UNITYSDK_OFFSET(0x1043B370)
+#define MOLEMOLE_MONOGRAPHICRAYCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1043B310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGraphicRaycaster_TypeDefinitionIndex = 65204;
+	inline static constexpr unsigned int MonoGraphicRaycaster_TypeDefinitionIndex = 72696;
 
 	class MonoGraphicRaycaster : public ::UnityEngine::UI::GraphicRaycaster
 	{
 	public:
-		::UnityEngine::Camera* Field_8_0; // 0x40
+		::UnityEngine::Camera* NHMBBMINMHH; // 0x40
 
 		::System::Void _ctor()
 		{
@@ -27,9 +27,9 @@ namespace MoleMole
 			return ((::UnityEngine::Camera*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGRAPHICRAYCASTER_GET_EVENTCAMERA_OFFSET))(this);
 		}
 
-		::UnityEngine::Camera* __base_get_eventCamera()
+		::UnityEngine::Camera* MMMBBLIEGKP()
 		{
-			return ((::UnityEngine::Camera*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGRAPHICRAYCASTER___BASE_GET_EVENTCAMERA_OFFSET))(this);
+			return ((::UnityEngine::Camera*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGRAPHICRAYCASTER_MMMBBLIEGKP_OFFSET))(this);
 		}
 	};
 }

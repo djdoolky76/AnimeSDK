@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformancePlayTvEffectAnimNode_GachaPerformanceAnimCtrlType_TypeDefinitionIndex = 58489;
+	inline static constexpr unsigned int ConfigGachaPerformancePlayTvEffectAnimNode_GachaPerformanceAnimCtrlType_TypeDefinitionIndex = 56854;
 
 	enum class ConfigGachaPerformancePlayTvEffectAnimNode_GachaPerformanceAnimCtrlType : ::System::Int32
 	{
-		Play = 0,
 		Stop = 1,
+		Play = 0,
 	};
 }

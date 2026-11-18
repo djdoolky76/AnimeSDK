@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-namespace MoleMole { class ConfigRichtapResource_Resource; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGRICHTAPRESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C486230)
+#define MOLEMOLE_CONFIGRICHTAPRESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C702D70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigRichtapResource_TypeDefinitionIndex = 46050;
+	inline static constexpr unsigned int ConfigRichtapResource_TypeDefinitionIndex = 91332;
 
 	class ConfigRichtapResource : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigRichtapResource_Resource*>* richtapResources; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* richtapResources; // 0x58
 
 		::System::Void _ctor()
 		{

@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define LOGINCUSTOMSKIN_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x1466E680)
-#define LOGINCUSTOMSKIN_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1466E440)
-#define LOGINCUSTOMSKIN_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1466E600)
-#define LOGINCUSTOMSKIN_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1466E640)
-#define LOGINCUSTOMSKIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1466E570)
+#define LOGINCUSTOMSKIN_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x14D57D10)
+#define LOGINCUSTOMSKIN_INSTANCE_OFFSET UNITYSDK_OFFSET(0x14D57AD0)
+#define LOGINCUSTOMSKIN_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x14D57C90)
+#define LOGINCUSTOMSKIN_ONSHOW_OFFSET UNITYSDK_OFFSET(0x14D57CD0)
+#define LOGINCUSTOMSKIN__CTOR_OFFSET UNITYSDK_OFFSET(0x14D57C00)
 
-inline static constexpr unsigned int LoginCustomSkin_TypeDefinitionIndex = 72053;
+inline static constexpr unsigned int LoginCustomSkin_TypeDefinitionIndex = 90947;
 
 class LoginCustomSkin : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 {
 public:
 	static ::LoginCustomSkin** StaticGet__instance()
 	{
-		return (::LoginCustomSkin**)Il2CppClass::FromTypeDefinitionIndex(LoginCustomSkin_TypeDefinitionIndex)->GetStaticField(0x51600);
+		return (::LoginCustomSkin**)Il2CppClass::FromTypeDefinitionIndex(LoginCustomSkin_TypeDefinitionIndex)->GetStaticField(0x4E730);
 	}
 
 	::System::Void _ctor()

@@ -7,11 +7,11 @@ namespace RBDDestruction { class VolumeData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RBDDESTRUCTION_RBDVOLUMEGROUPMANAGER_VOLUMEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x11091480)
+#define RBDDESTRUCTION_RBDVOLUMEGROUPMANAGER_VOLUMEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x108B81B0)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int RBDVolumeGroupManager_VolumeGroup_TypeDefinitionIndex = 27595;
+	inline static constexpr unsigned int RBDVolumeGroupManager_VolumeGroup_TypeDefinitionIndex = 26326;
 
 	class RBDVolumeGroupManager_VolumeGroup : public ::System::Object
 	{

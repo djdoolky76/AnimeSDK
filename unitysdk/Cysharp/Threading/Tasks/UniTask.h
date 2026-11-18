@@ -4,6 +4,12 @@
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Cysharp/Threading/Tasks/SwitchToMainThreadAwaitable.h"
+#include "unitysdk/Cysharp/Threading/Tasks/SwitchToThreadPoolAwaitable.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/System/Threading/CancellationToken.h"
+#include "unitysdk/System/TimeSpan.h"
 
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
 namespace System { class Action; }
@@ -13,52 +19,52 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_ACTION_OFFSET UNITYSDK_OFFSET(0x1FA4D3E0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAME_OFFSET UNITYSDK_OFFSET(0x1FA4CCB0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAY_1_OFFSET UNITYSDK_OFFSET(0x1FA4CE90)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAY_2_OFFSET UNITYSDK_OFFSET(0x1FA4D0B0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAY_3_OFFSET UNITYSDK_OFFSET(0x1FA4CF30)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAY_OFFSET UNITYSDK_OFFSET(0x1FA4CDA0)
-#define CYSHARP_THREADING_TASKS_UNITASK_FROMCANCELED_OFFSET UNITYSDK_OFFSET(0x1FA4D310)
-#define CYSHARP_THREADING_TASKS_UNITASK_FROMEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1FA4B200)
-#define CYSHARP_THREADING_TASKS_UNITASK_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x31EA80)
-#define CYSHARP_THREADING_TASKS_UNITASK_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xAC4820)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAME_1_OFFSET UNITYSDK_OFFSET(0x1FA4C9F0)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAME_2_OFFSET UNITYSDK_OFFSET(0x1FA4CAA0)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAME_3_OFFSET UNITYSDK_OFFSET(0x1FA4CB30)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAME_OFFSET UNITYSDK_OFFSET(0x1FA4C940)
-#define CYSHARP_THREADING_TASKS_UNITASK_RUNONTHREADPOOL_OFFSET UNITYSDK_OFFSET(0x1FA4D460)
-#define CYSHARP_THREADING_TASKS_UNITASK_SUPPRESSCANCELLATIONTHROW_OFFSET UNITYSDK_OFFSET(0xAC4900)
-#define CYSHARP_THREADING_TASKS_UNITASK_SWITCHTOMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1FA4D4D0)
-#define CYSHARP_THREADING_TASKS_UNITASK_SWITCHTOTHREADPOOL_OFFSET UNITYSDK_OFFSET(0x1FA4D4F0)
-#define CYSHARP_THREADING_TASKS_UNITASK_TOSTRING_OFFSET UNITYSDK_OFFSET(0xAC4920)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITFORENDOFFRAME_OFFSET UNITYSDK_OFFSET(0x1FA4CBC0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITFORFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1FA4CC50)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTIL_OFFSET UNITYSDK_OFFSET(0x1FA4D500)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILE_OFFSET UNITYSDK_OFFSET(0x1FA4D5A0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALL_1_OFFSET UNITYSDK_OFFSET(0x1FA4D6F0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENALL_OFFSET UNITYSDK_OFFSET(0x1FA4D640)
-#define CYSHARP_THREADING_TASKS_UNITASK_WHENANY_OFFSET UNITYSDK_OFFSET(0x1FA4D8C0)
-#define CYSHARP_THREADING_TASKS_UNITASK_YIELD__1_OFFSET UNITYSDK_OFFSET(0x1FA4C810)
-#define CYSHARP_THREADING_TASKS_UNITASK_YIELD__2_OFFSET UNITYSDK_OFFSET(0x1FA4C820)
-#define CYSHARP_THREADING_TASKS_UNITASK_YIELD__3_OFFSET UNITYSDK_OFFSET(0x1FA4C8B0)
-#define CYSHARP_THREADING_TASKS_UNITASK_YIELD__OFFSET UNITYSDK_OFFSET(0x1FA4C800)
-#define CYSHARP_THREADING_TASKS_UNITASK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA4DCF0)
-#define CYSHARP_THREADING_TASKS_UNITASK__CTOR_OFFSET UNITYSDK_OFFSET(0x3D2C20)
+#define CYSHARP_THREADING_TASKS_UNITASK_ACTION_OFFSET UNITYSDK_OFFSET(0x1FE65370)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAME_OFFSET UNITYSDK_OFFSET(0x1FE64C40)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAY_1_OFFSET UNITYSDK_OFFSET(0x1FE64E20)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAY_2_OFFSET UNITYSDK_OFFSET(0x1FE65040)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAY_3_OFFSET UNITYSDK_OFFSET(0x1FE64EC0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAY_OFFSET UNITYSDK_OFFSET(0x1FE64D30)
+#define CYSHARP_THREADING_TASKS_UNITASK_FROMCANCELED_OFFSET UNITYSDK_OFFSET(0x1FE652A0)
+#define CYSHARP_THREADING_TASKS_UNITASK_FROMEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1FE63150)
+#define CYSHARP_THREADING_TASKS_UNITASK_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x358710)
+#define CYSHARP_THREADING_TASKS_UNITASK_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x9AC870)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAME_1_OFFSET UNITYSDK_OFFSET(0x1FE64980)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAME_2_OFFSET UNITYSDK_OFFSET(0x1FE64A30)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAME_3_OFFSET UNITYSDK_OFFSET(0x1FE64AC0)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAME_OFFSET UNITYSDK_OFFSET(0x1FE648D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_RUNONTHREADPOOL_OFFSET UNITYSDK_OFFSET(0x1FE653F0)
+#define CYSHARP_THREADING_TASKS_UNITASK_SUPPRESSCANCELLATIONTHROW_OFFSET UNITYSDK_OFFSET(0x9AC950)
+#define CYSHARP_THREADING_TASKS_UNITASK_SWITCHTOMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1FE65460)
+#define CYSHARP_THREADING_TASKS_UNITASK_SWITCHTOTHREADPOOL_OFFSET UNITYSDK_OFFSET(0x1FE65480)
+#define CYSHARP_THREADING_TASKS_UNITASK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9AC970)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITFORENDOFFRAME_OFFSET UNITYSDK_OFFSET(0x1FE64B50)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITFORFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1FE64BE0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTIL_OFFSET UNITYSDK_OFFSET(0x1FE65490)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILE_OFFSET UNITYSDK_OFFSET(0x1FE65530)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALL_2_OFFSET UNITYSDK_OFFSET(0x1FE655D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENALL_3_OFFSET UNITYSDK_OFFSET(0x1FE65680)
+#define CYSHARP_THREADING_TASKS_UNITASK_WHENANY_1_OFFSET UNITYSDK_OFFSET(0x1FE65850)
+#define CYSHARP_THREADING_TASKS_UNITASK_YIELD_1_OFFSET UNITYSDK_OFFSET(0x1FE647A0)
+#define CYSHARP_THREADING_TASKS_UNITASK_YIELD_2_OFFSET UNITYSDK_OFFSET(0x1FE647B0)
+#define CYSHARP_THREADING_TASKS_UNITASK_YIELD_3_OFFSET UNITYSDK_OFFSET(0x1FE64840)
+#define CYSHARP_THREADING_TASKS_UNITASK_YIELD_OFFSET UNITYSDK_OFFSET(0x1FE64790)
+#define CYSHARP_THREADING_TASKS_UNITASK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE65C70)
+#define CYSHARP_THREADING_TASKS_UNITASK__CTOR_OFFSET UNITYSDK_OFFSET(0x382E80)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_TypeDefinitionIndex = 31853;
+	inline static constexpr unsigned int UniTask_TypeDefinitionIndex = 31297;
 
 	struct alignas(8) UniTask
 	{
-		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_CanceledUniTask()
-		{
-			return (::Cysharp::Threading::Tasks::UniTask*)Il2CppClass::FromTypeDefinitionIndex(UniTask_TypeDefinitionIndex)->GetStaticField(0x270D0);
-		}
 		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_CompletedTask()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask*)Il2CppClass::FromTypeDefinitionIndex(UniTask_TypeDefinitionIndex)->GetStaticField(0x270E0);
+			return (::Cysharp::Threading::Tasks::UniTask*)Il2CppClass::FromTypeDefinitionIndex(UniTask_TypeDefinitionIndex)->GetStaticField(0x281A0);
+		}
+		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_CanceledUniTask()
+		{
+			return (::Cysharp::Threading::Tasks::UniTask*)Il2CppClass::FromTypeDefinitionIndex(UniTask_TypeDefinitionIndex)->GetStaticField(0x281B0);
 		}
 		::Cysharp::Threading::Tasks::IUniTaskSource* source; // 0x10
 		::System::Int16 token; // 0x18
@@ -74,42 +80,46 @@ namespace Cysharp::Threading::Tasks
 		}
 
 		/*
-		static ::Cysharp::Threading::Tasks::YieldAwaitable Yield_()
+		static ::Cysharp::Threading::Tasks::YieldAwaitable Yield()
 		{
-			return ((::Cysharp::Threading::Tasks::YieldAwaitable(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_YIELD__OFFSET))();
+			return ((::Cysharp::Threading::Tasks::YieldAwaitable(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_YIELD_OFFSET))();
 		}
 		*/
 
 		/*
-		static ::Cysharp::Threading::Tasks::YieldAwaitable Yield__1(::Cysharp::Threading::Tasks::PlayerLoopTiming timing)
+		static ::Cysharp::Threading::Tasks::YieldAwaitable Yield_1(::Cysharp::Threading::Tasks::PlayerLoopTiming timing)
 		{
-			return ((::Cysharp::Threading::Tasks::YieldAwaitable(*)(::Cysharp::Threading::Tasks::PlayerLoopTiming))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_YIELD__1_OFFSET))(timing);
+			return ((::Cysharp::Threading::Tasks::YieldAwaitable(*)(::Cysharp::Threading::Tasks::PlayerLoopTiming))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_YIELD_1_OFFSET))(timing);
 		}
 		*/
 
 		/*
-		static ::Cysharp::Threading::Tasks::UniTask Yield__2(::System::Threading::CancellationToken cancellationToken)
+		static ::Cysharp::Threading::Tasks::UniTask Yield_2(::System::Threading::CancellationToken cancellationToken)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_YIELD__2_OFFSET))(cancellationToken);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_YIELD_2_OFFSET))(cancellationToken);
 		}
 		*/
 
 		/*
-		static ::Cysharp::Threading::Tasks::UniTask Yield__3(::Cysharp::Threading::Tasks::PlayerLoopTiming timing, ::System::Threading::CancellationToken cancellationToken)
+		static ::Cysharp::Threading::Tasks::UniTask Yield_3(::Cysharp::Threading::Tasks::PlayerLoopTiming timing, ::System::Threading::CancellationToken cancellationToken)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_YIELD__3_OFFSET))(timing, cancellationToken);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_YIELD_3_OFFSET))(timing, cancellationToken);
 		}
 		*/
 
+		/*
 		static ::Cysharp::Threading::Tasks::UniTask NextFrame()
 		{
 			return ((::Cysharp::Threading::Tasks::UniTask(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAME_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::Cysharp::Threading::Tasks::UniTask NextFrame_1(::Cysharp::Threading::Tasks::PlayerLoopTiming timing)
 		{
 			return ((::Cysharp::Threading::Tasks::UniTask(*)(::Cysharp::Threading::Tasks::PlayerLoopTiming))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAME_1_OFFSET))(timing);
 		}
+		*/
 
 		/*
 		static ::Cysharp::Threading::Tasks::UniTask NextFrame_2(::System::Threading::CancellationToken cancellationToken)
@@ -174,10 +184,12 @@ namespace Cysharp::Threading::Tasks
 		}
 		*/
 
+		/*
 		static ::Cysharp::Threading::Tasks::UniTask FromException(::System::Exception* ex)
 		{
 			return ((::Cysharp::Threading::Tasks::UniTask(*)(::System::Exception*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_FROMEXCEPTION_OFFSET))(ex);
 		}
+		*/
 
 		/*
 		static ::Cysharp::Threading::Tasks::UniTask FromCanceled(::System::Threading::CancellationToken cancellationToken)
@@ -186,12 +198,10 @@ namespace Cysharp::Threading::Tasks
 		}
 		*/
 
-		/*
 		static ::System::Action* Action(::System::Func_1<::Cysharp::Threading::Tasks::UniTaskVoid>* asyncAction)
 		{
 			return ((::System::Action*(*)(::System::Func_1<::Cysharp::Threading::Tasks::UniTaskVoid>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_ACTION_OFFSET))(asyncAction);
 		}
-		*/
 
 		/*
 		static ::Cysharp::Threading::Tasks::UniTask RunOnThreadPool(::System::Action* action, ::System::Boolean configureAwait, ::System::Threading::CancellationToken cancellationToken)
@@ -200,19 +210,15 @@ namespace Cysharp::Threading::Tasks
 		}
 		*/
 
-		/*
 		static ::Cysharp::Threading::Tasks::SwitchToMainThreadAwaitable SwitchToMainThread(::System::Threading::CancellationToken cancellationToken)
 		{
 			return ((::Cysharp::Threading::Tasks::SwitchToMainThreadAwaitable(*)(::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_SWITCHTOMAINTHREAD_OFFSET))(cancellationToken);
 		}
-		*/
 
-		/*
 		static ::Cysharp::Threading::Tasks::SwitchToThreadPoolAwaitable SwitchToThreadPool()
 		{
 			return ((::Cysharp::Threading::Tasks::SwitchToThreadPoolAwaitable(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_SWITCHTOTHREADPOOL_OFFSET))();
 		}
-		*/
 
 		/*
 		static ::Cysharp::Threading::Tasks::UniTask WaitUntil(::System::Func_1<::System::Boolean>* predicate, ::Cysharp::Threading::Tasks::PlayerLoopTiming timing, ::System::Threading::CancellationToken cancellationToken)
@@ -228,20 +234,24 @@ namespace Cysharp::Threading::Tasks
 		}
 		*/
 
-		static ::Cysharp::Threading::Tasks::UniTask WhenAll(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>* tasks)
+		/*
+		static ::Cysharp::Threading::Tasks::UniTask WhenAll_2(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>* tasks)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENALL_OFFSET))(tasks);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENALL_2_OFFSET))(tasks);
 		}
-
-		static ::Cysharp::Threading::Tasks::UniTask WhenAll_1(::System::Collections::Generic::IEnumerable_1<::Cysharp::Threading::Tasks::UniTask>* tasks)
-		{
-			return ((::Cysharp::Threading::Tasks::UniTask(*)(::System::Collections::Generic::IEnumerable_1<::Cysharp::Threading::Tasks::UniTask>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENALL_1_OFFSET))(tasks);
-		}
+		*/
 
 		/*
-		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Int32> WhenAny(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>* tasks)
+		static ::Cysharp::Threading::Tasks::UniTask WhenAll_3(::System::Collections::Generic::IEnumerable_1<::Cysharp::Threading::Tasks::UniTask>* tasks)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>(*)(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENANY_OFFSET))(tasks);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::System::Collections::Generic::IEnumerable_1<::Cysharp::Threading::Tasks::UniTask>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENALL_3_OFFSET))(tasks);
+		}
+		*/
+
+		/*
+		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Int32> WhenAny_1(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>* tasks)
+		{
+			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>(*)(::Il2CppArray<::Cysharp::Threading::Tasks::UniTask>*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_WHENANY_1_OFFSET))(tasks);
 		}
 		*/
 
@@ -257,12 +267,10 @@ namespace Cysharp::Threading::Tasks
 		}
 		*/
 
-		/*
 		::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean> SuppressCancellationThrow()
 		{
 			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_SUPPRESSCANCELLATIONTHROW_OFFSET))(this);
 		}
-		*/
 
 		::System::String* ToString()
 		{

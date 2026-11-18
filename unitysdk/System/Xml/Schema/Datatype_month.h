@@ -3,12 +3,12 @@
 #include "unitysdk/System/Xml/Schema/Datatype_dateTimeBase.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_MONTH_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1F104280)
-#define SYSTEM_XML_SCHEMA_DATATYPE_MONTH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F104290)
+#define SYSTEM_XML_SCHEMA_DATATYPE_MONTH_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1F4C5C80)
+#define SYSTEM_XML_SCHEMA_DATATYPE_MONTH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C5C90)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_month_TypeDefinitionIndex = 2013;
+	inline static constexpr unsigned int Datatype_month_TypeDefinitionIndex = 2012;
 
 	class Datatype_month : public ::System::Xml::Schema::Datatype_dateTimeBase
 	{

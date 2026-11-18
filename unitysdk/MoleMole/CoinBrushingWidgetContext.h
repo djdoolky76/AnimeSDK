@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_8A5136246E588D6D;
+class PPDNMFONAEH;
 
-#define MOLEMOLE_COINBRUSHINGWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x150E4900)
+#define MOLEMOLE_COINBRUSHINGWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x192242F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CoinBrushingWidgetContext_TypeDefinitionIndex = 68709;
+	inline static constexpr unsigned int CoinBrushingWidgetContext_TypeDefinitionIndex = 45437;
 
 	class CoinBrushingWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_8A5136246E588D6D* EntryData; // 0x28
+		::PPDNMFONAEH* EntryData; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -5,20 +5,23 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_MAIL_SMTPCLIENT_SMTPRESPONSE_PARSE_OFFSET UNITYSDK_OFFSET(0x1C8813E0)
+#define SYSTEM_NET_MAIL_SMTPCLIENT_SMTPRESPONSE_PARSE_OFFSET UNITYSDK_OFFSET(0x1CFC1BA0)
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int SmtpClient_SmtpResponse_TypeDefinitionIndex = 3597;
+	inline static constexpr unsigned int SmtpClient_SmtpResponse_TypeDefinitionIndex = 3596;
 
 	struct alignas(8) SmtpClient_SmtpResponse
 	{
 		::System::Net::Mail::SmtpStatusCode StatusCode; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* Description; // 0x18
 
+		/*
 		static ::System::Net::Mail::SmtpClient_SmtpResponse Parse(::System::String* line)
 		{
 			return ((::System::Net::Mail::SmtpClient_SmtpResponse(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_MAIL_SMTPCLIENT_SMTPRESPONSE_PARSE_OFFSET))(line);
 		}
+		*/
 	};
 }

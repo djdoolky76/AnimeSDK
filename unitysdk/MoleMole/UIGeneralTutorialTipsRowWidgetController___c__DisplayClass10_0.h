@@ -9,29 +9,29 @@ namespace DG::Tweening::Core { template <typename T> class DOSetter_1; }
 namespace MoleMole { class UIGeneralTutorialTipsRowWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185AC810)
-#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__DOANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x185AC820)
-#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__DOANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x185AC930)
-#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__DOANIMATION_B__2_OFFSET UNITYSDK_OFFSET(0x185ACBD0)
-#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__DOANIMATION_B__3_OFFSET UNITYSDK_OFFSET(0x185ACBE0)
-#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__DOANIMATION_B__4_OFFSET UNITYSDK_OFFSET(0x185ACBF0)
+#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1804F360)
+#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__DOANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x1804F370)
+#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__DOANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x1804F480)
+#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__DOANIMATION_B__2_OFFSET UNITYSDK_OFFSET(0x1804F710)
+#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__DOANIMATION_B__3_OFFSET UNITYSDK_OFFSET(0x1804F720)
+#define MOLEMOLE_UIGENERALTUTORIALTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__DOANIMATION_B__4_OFFSET UNITYSDK_OFFSET(0x1804F730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTutorialTipsRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 72008;
+	inline static constexpr unsigned int UIGeneralTutorialTipsRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 78338;
 
 	class UIGeneralTutorialTipsRowWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGeneralTutorialTipsRowWidgetController* __4__this; // 0x10
-		::DG::Tweening::TweenCallback* __9__4; // 0x18
-		::DG::Tweening::Core::DOSetter_1<::System::Single>* __9__3; // 0x20
-		::System::Action* __9__1; // 0x28
-		::DG::Tweening::Core::DOGetter_1<::System::Single>* __9__2; // 0x30
+		::System::Action* __9__1; // 0x10
+		::DG::Tweening::Core::DOGetter_1<::System::Single>* __9__2; // 0x18
+		::MoleMole::UIGeneralTutorialTipsRowWidgetController* __4__this; // 0x20
+		::DG::Tweening::Core::DOSetter_1<::System::Single>* __9__3; // 0x28
+		::DG::Tweening::TweenCallback* __9__4; // 0x30
 		::UnityEngine::Vector2 finalSize; // 0x38
-		::System::Single targetWidth; // 0x40
-		::System::Single length; // 0x44
-		::System::Single currentWidth; // 0x48
+		::System::Single length; // 0x40
+		::System::Single currentWidth; // 0x44
+		::System::Single targetWidth; // 0x48
 
 		::System::Void _ctor()
 		{

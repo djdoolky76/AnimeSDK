@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define SPECIALIDENTIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0x11091580)
+#define SPECIALIDENTIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0x108B82B0)
 
-inline static constexpr unsigned int SpecialIdentification_TypeDefinitionIndex = 27142;
+inline static constexpr unsigned int SpecialIdentification_TypeDefinitionIndex = 26422;
 
 class SpecialIdentification : public ::UnityEngine::MonoBehaviour
 {

@@ -8,20 +8,20 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 namespace System::Threading { class ExecutionContext; }
 
-#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1E7E9DC0)
-#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_GET_VALIDATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E7E9DB0)
-#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E7DB6A0)
-#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DB840)
+#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1EA9CE50)
+#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_GET_VALIDATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EA9CE40)
+#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EA8E780)
+#define SYSTEM_NET_SERVERCERTVALIDATIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA8E920)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ServerCertValidationCallback_TypeDefinitionIndex = 3489;
+	inline static constexpr unsigned int ServerCertValidationCallback_TypeDefinitionIndex = 3488;
 
 	class ServerCertValidationCallback : public ::System::Object
 	{
 	public:
-		::System::Threading::ExecutionContext* m_Context; // 0x10
-		::System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback; // 0x18
+		::System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback; // 0x10
+		::System::Threading::ExecutionContext* m_Context; // 0x18
 
 		::System::Void _ctor(::System::Net::Security::RemoteCertificateValidationCallback* validationCallback)
 		{

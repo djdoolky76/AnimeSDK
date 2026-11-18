@@ -3,12 +3,12 @@
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int SideScrollingReturnActCameraPolarType_TypeDefinitionIndex = 73143;
+	inline static constexpr unsigned int SideScrollingReturnActCameraPolarType_TypeDefinitionIndex = 41543;
 
 	enum class SideScrollingReturnActCameraPolarType : ::System::Int32
 	{
-		EntityForward = 2,
-		CameraRight = 1,
 		CameraForward = 0,
+		CameraRight = 1,
+		EntityForward = 2,
 	};
 }

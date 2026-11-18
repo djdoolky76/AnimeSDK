@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Ability/WaitingSlotFindTask.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTFINDTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x11931E50)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTFINDTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x11931DC0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTFINDTASK_LINK_OFFSET UNITYSDK_OFFSET(0x11931D50)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTFINDTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x105E3530)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTFINDTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x105E34A0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTFINDTASK_LINK_OFFSET UNITYSDK_OFFSET(0x105E3430)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_WaitingSlotFindTask_TypeDefinitionIndex = 77090;
+	inline static constexpr unsigned int VirtualFunctionExtensions_WaitingSlotFindTask_TypeDefinitionIndex = 85498;
 
 	class VirtualFunctionExtensions_WaitingSlotFindTask : public ::System::Object
 	{

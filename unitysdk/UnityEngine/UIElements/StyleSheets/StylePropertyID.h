@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int StylePropertyID_TypeDefinitionIndex = 28232;
+	inline static constexpr unsigned int StylePropertyID_TypeDefinitionIndex = 27650;
 
 	enum class StylePropertyID : ::System::Int32
 	{

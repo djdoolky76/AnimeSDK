@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ArrayExt___c__DisplayClass27_0_1_TypeDefinitionIndex = 7841;
+	inline static constexpr unsigned int ArrayExt___c__DisplayClass27_0_1_TypeDefinitionIndex = 8672;
 
-	template <typename TValue>
+	template <typename T>
 	class ArrayExt___c__DisplayClass27_0_1 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEqualityComparer_1<TValue>* comparer; // 0x0
+		::System::Collections::Generic::IEqualityComparer_1<T>* comparer; // 0x0
 	};
 }

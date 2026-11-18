@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/Foundation/Container/HierarchicalHashGrid2D_2.h"
 #include "unitysdk/Foundation/Container/NativeHashSet_2.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCDitherStateFragment.h"
 #include "unitysdk/NPCCrowd/Ability/NPCEntityNativeData.h"
 #include "unitysdk/NPCCrowd/Ability/NavigationObstacleItem.h"
 #include "unitysdk/NPCCrowd/Ability/NavigationObstacleItemEqualsFunc.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
@@ -14,16 +14,16 @@
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0xD884AF0)
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD883690)
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_FINDCLOSESTENTITY_OFFSET UNITYSDK_OFFSET(0xD884400)
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_GETCLOSESTENTITYDISTANCE_OFFSET UNITYSDK_OFFSET(0xD883980)
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_TRYGETNATIVEDATA_OFFSET UNITYSDK_OFFSET(0xD883880)
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD884D00)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0xED5A420)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xED58F90)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_FINDCLOSESTENTITY_OFFSET UNITYSDK_OFFSET(0xED59D30)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_GETCLOSESTENTITYDISTANCE_OFFSET UNITYSDK_OFFSET(0xED592A0)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_TRYGETNATIVEDATA_OFFSET UNITYSDK_OFFSET(0xED59190)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xED5A630)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityDitherProcessor_TypeDefinitionIndex = 81399;
+	inline static constexpr unsigned int NPCAbilityDitherProcessor_TypeDefinitionIndex = 53690;
 
 	class NPCAbilityDitherProcessor : public ::System::Object
 	{

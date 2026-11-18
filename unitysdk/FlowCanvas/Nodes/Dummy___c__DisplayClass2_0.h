@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define FLOWCANVAS_NODES_DUMMY___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E721760)
-#define FLOWCANVAS_NODES_DUMMY___C__DISPLAYCLASS2_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E721770)
+#define FLOWCANVAS_NODES_DUMMY___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C6A80)
+#define FLOWCANVAS_NODES_DUMMY___C__DISPLAYCLASS2_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E9C6A90)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Dummy___c__DisplayClass2_0_TypeDefinitionIndex = 30382;
+	inline static constexpr unsigned int Dummy___c__DisplayClass2_0_TypeDefinitionIndex = 29814;
 
 	class Dummy___c__DisplayClass2_0 : public ::System::Object
 	{

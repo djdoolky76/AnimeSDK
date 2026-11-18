@@ -3,7 +3,7 @@
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int MailHeaderID_TypeDefinitionIndex = 3575;
+	inline static constexpr unsigned int MailHeaderID_TypeDefinitionIndex = 3574;
 
 	enum class MailHeaderID : ::System::Int32
 	{

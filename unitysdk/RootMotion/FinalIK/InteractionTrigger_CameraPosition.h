@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_INTERACTIONTRIGGER_CAMERAPOSITION_GETROTATION_OFFSET UNITYSDK_OFFSET(0x1F578BD0)
-#define ROOTMOTION_FINALIK_INTERACTIONTRIGGER_CAMERAPOSITION_ISINRANGE_OFFSET UNITYSDK_OFFSET(0x1F578FF0)
-#define ROOTMOTION_FINALIK_INTERACTIONTRIGGER_CAMERAPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F579470)
+#define ROOTMOTION_FINALIK_INTERACTIONTRIGGER_CAMERAPOSITION_GETROTATION_OFFSET UNITYSDK_OFFSET(0x1F94F1B0)
+#define ROOTMOTION_FINALIK_INTERACTIONTRIGGER_CAMERAPOSITION_ISINRANGE_OFFSET UNITYSDK_OFFSET(0x1F94F5D0)
+#define ROOTMOTION_FINALIK_INTERACTIONTRIGGER_CAMERAPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F94FA50)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int InteractionTrigger_CameraPosition_TypeDefinitionIndex = 38987;
+	inline static constexpr unsigned int InteractionTrigger_CameraPosition_TypeDefinitionIndex = 36891;
 
 	class InteractionTrigger_CameraPosition : public ::System::Object
 	{

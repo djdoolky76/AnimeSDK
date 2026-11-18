@@ -8,11 +8,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUIACTIVITYRHYTHMCLICK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C486380)
+#define MOLEMOLE_CONFIGUIACTIVITYRHYTHMCLICK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C703090)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIActivityRhythmClick_TypeDefinitionIndex = 63492;
+	inline static constexpr unsigned int ConfigUIActivityRhythmClick_TypeDefinitionIndex = 40586;
 
 	class ConfigUIActivityRhythmClick : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -21,6 +21,7 @@ namespace MoleMole
 		::System::Single specificNoiseAmplitudeGain; // 0x60
 		::System::Single noiseDelayTime; // 0x64
 		::System::Single noiseBlendDuration; // 0x68
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* noiseBlendSpeedCurve; // 0x70
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ActivityRhythmClickCurveParamsStruct>* ClickCurveDic; // 0x78
 

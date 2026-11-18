@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_5.h"
-#include "unitysdk/MoleMole/HackerGameDamageData.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
+#include "unitysdk/MoleMole/HackerGameDamageData.h"
 
 namespace MoleMole { class ChessEntity; }
 namespace MoleMole { class HackerGameBaseDamage; }
 
-#define MOLEMOLE_FLOWCANVAS_CONSTRUCTDAMAGEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A999330)
-#define MOLEMOLE_FLOWCANVAS_CONSTRUCTDAMAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A999400)
+#define MOLEMOLE_FLOWCANVAS_CONSTRUCTDAMAGEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D090B0)
+#define MOLEMOLE_FLOWCANVAS_CONSTRUCTDAMAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D09180)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ConstructDamageData_TypeDefinitionIndex = 48164;
+	inline static constexpr unsigned int ConstructDamageData_TypeDefinitionIndex = 81629;
 
-	class ConstructDamageData : public ::FlowCanvas::Nodes::PureFunctionNode_5<::MoleMole::HackerGameDamageData, ::MoleMole::ChessEntity*, ::MoleMole::ChessEntity*, ::MoleMole::HackerGameBaseDamage*, ::MoleMole::HollowChessboard::HollowCell>
+	class ConstructDamageData
 	{
 	public:
 		::System::Void _ctor()

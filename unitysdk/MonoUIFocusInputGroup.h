@@ -4,20 +4,21 @@
 #include "unitysdk/MoleMole/LogicAxis2DInputType.h"
 #include "unitysdk/MoleMole/LogicButtonInputType.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
-#include "unitysdk/UnityEngine/InputSystem/Key.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/GamepadButton.h"
+#include "unitysdk/UnityEngine/InputSystem/Key.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MONOUIFOCUSINPUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x11E57950)
+#define MONOUIFOCUSINPUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x12FC5FE0)
 
-inline static constexpr unsigned int MonoUIFocusInputGroup_TypeDefinitionIndex = 68089;
+inline static constexpr unsigned int MonoUIFocusInputGroup_TypeDefinitionIndex = 41960;
 
 class MonoUIFocusInputGroup : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 {
 public:
 	::System::Boolean AllowInputPass; // 0x58
 	::System::Boolean EnabledAllListenMode; // 0x59
+	::System::Byte _padding0[0x6];
 	::System::Collections::Generic::List_1<::MoleMole::LogicButtonInputType>* ListenLogicButtonInputList; // 0x60
 	::System::Collections::Generic::List_1<::MoleMole::LogicAxis2DInputType>* ListenLogicAxis2DInputList; // 0x68
 	::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Key>* ListenRawKeyboardButtonInputList; // 0x70

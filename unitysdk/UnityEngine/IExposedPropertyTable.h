@@ -1,8 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/PropertyName.h"
-
-namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {

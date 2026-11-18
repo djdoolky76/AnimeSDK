@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_CACHEDGRASSRENDERITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x95D230)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CACHEDGRASSRENDERITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8AA360)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CachedGrassRenderItemData_TypeDefinitionIndex = 27562;
+	inline static constexpr unsigned int CachedGrassRenderItemData_TypeDefinitionIndex = 26760;
 
 	struct alignas(4) CachedGrassRenderItemData
 	{
@@ -21,9 +21,11 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single windSpeed; // 0x44
 		::System::Single bendValue; // 0x48
 
+		/*
 		::System::Void _ctor(::UnityEngine::Rendering::Universal::CachedGrassRenderItemData oldData, ::UnityEngine::Vector2Int index)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Universal::CachedGrassRenderItemData, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_CACHEDGRASSRENDERITEMDATA__CTOR_OFFSET))(this, oldData, index);
 		}
+		*/
 	};
 }

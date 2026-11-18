@@ -8,24 +8,24 @@ namespace Cinemachine { class CinemachineBlend; }
 namespace Cinemachine { class ICinemachineCamera; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_BLENDCAMERAOVERRIDE_OFFSET UNITYSDK_OFFSET(0x12EE1ED0)
-#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_GET_STATE_OFFSET UNITYSDK_OFFSET(0x12EE1EA0)
-#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_INTERNALUPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x12EE2110)
-#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x12EE2220)
-#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x12EE2270)
-#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA___BASE_INTERNALUPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x12EE25C0)
-#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA___BASE_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x12EE25F0)
+#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_ANFODOPJJKG_OFFSET UNITYSDK_OFFSET(0x12757E50)
+#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_BLENDCAMERAOVERRIDE_OFFSET UNITYSDK_OFFSET(0x12757750)
+#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_GET_STATE_OFFSET UNITYSDK_OFFSET(0x12757720)
+#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_INTERNALUPDATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x12757990)
+#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_JFIOGGEDFHB_OFFSET UNITYSDK_OFFSET(0x12757E40)
+#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x12757AA0)
+#define MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x12757AF0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int AnimationVirtualCamera_TypeDefinitionIndex = 90476;
+	inline static constexpr unsigned int AnimationVirtualCamera_TypeDefinitionIndex = 57796;
 
 	class AnimationVirtualCamera : public ::Cinemachine::CinemachineVirtualCamera
 	{
 	public:
-		::Cinemachine::CameraState Field_7_0; // 0x1C8
-		::Cinemachine::CinemachineBlend* Field_7_7; // 0x2B0
-		::UnityEngine::AnimationCurve* Field_7_6; // 0x2B8
+		::Cinemachine::CameraState JBDIJLLGBKA; // 0x1C8
+		::Cinemachine::CinemachineBlend* NGPKLFDGNBK; // 0x2B0
+		::UnityEngine::AnimationCurve* NEELHAEEJNN; // 0x2B8
 
 		::System::Void _ctor()
 		{
@@ -37,14 +37,14 @@ namespace MoleMole::Cameras
 			return ((::Cinemachine::CameraState(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_GET_STATE_OFFSET))(this);
 		}
 
-		::System::Void BlendCameraOverride(::Cinemachine::ICinemachineCamera* a1, ::Cinemachine::ICinemachineCamera* a2, ::System::Single a3, ::System::Single a4)
+		::System::Void BlendCameraOverride(::Cinemachine::ICinemachineCamera* ONMMJBIJBJJ, ::Cinemachine::ICinemachineCamera* CBIEBJOONOL, ::System::Single IMDNDAMHPAL, ::System::Single PMNLNNGEIFM)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::Cinemachine::ICinemachineCamera*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_BLENDCAMERAOVERRIDE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::ICinemachineCamera*, ::Cinemachine::ICinemachineCamera*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_BLENDCAMERAOVERRIDE_OFFSET))(this, ONMMJBIJBJJ, CBIEBJOONOL, IMDNDAMHPAL, PMNLNNGEIFM);
 		}
 
-		::System::Void InternalUpdateCameraState(::UnityEngine::Vector3 a1, ::System::Single a2)
+		::System::Void InternalUpdateCameraState(::UnityEngine::Vector3 NFLNBCPPJGL, ::System::Single PMNLNNGEIFM)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_INTERNALUPDATECAMERASTATE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_INTERNALUPDATECAMERASTATE_OFFSET))(this, NFLNBCPPJGL, PMNLNNGEIFM);
 		}
 
 		::System::Void OnTransformParentChanged()
@@ -52,14 +52,14 @@ namespace MoleMole::Cameras
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_ONTRANSFORMPARENTCHANGED_OFFSET))(this);
 		}
 
-		::System::Void __base_InternalUpdateCameraState(::UnityEngine::Vector3 a1, ::System::Single a2)
+		::System::Void JFIOGGEDFHB()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA___BASE_INTERNALUPDATECAMERASTATE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_JFIOGGEDFHB_OFFSET))(this);
 		}
 
-		::System::Void __base_OnTransformParentChanged()
+		::System::Void ANFODOPJJKG(::UnityEngine::Vector3 MIALFKCCCPI, ::System::Single KMGKAIDEIBA)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA___BASE_ONTRANSFORMPARENTCHANGED_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_ANIMATIONVIRTUALCAMERA_ANFODOPJJKG_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 	};
 }

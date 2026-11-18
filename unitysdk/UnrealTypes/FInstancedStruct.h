@@ -7,46 +7,47 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructOpsTraitsBase; }
 
-#define UNREALTYPES_FINSTANCEDSTRUCT_ASSIGN_OFFSET UNITYSDK_OFFSET(0xA14CC0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0xA149D0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_COPYCREATE_OFFSET UNITYSDK_OFFSET(0xA148D0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_CREATE_OFFSET UNITYSDK_OFFSET(0x1E38BAE0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0xA14B10)
-#define UNREALTYPES_FINSTANCEDSTRUCT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA14A00)
-#define UNREALTYPES_FINSTANCEDSTRUCT_EQUALS_OFFSET UNITYSDK_OFFSET(0xA14CF0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xA14200)
-#define UNREALTYPES_FINSTANCEDSTRUCT_GET_MEMORY_OFFSET UNITYSDK_OFFSET(0x31CCF0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_GET_POINTER_OFFSET UNITYSDK_OFFSET(0x31CCF0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_GET_SCRIPTSTRUCT_OFFSET UNITYSDK_OFFSET(0x325D00)
-#define UNREALTYPES_FINSTANCEDSTRUCT_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0xA14DC0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0xA14E20)
-#define UNREALTYPES_FINSTANCEDSTRUCT_INITIALIZEAS_1_OFFSET UNITYSDK_OFFSET(0xA14CB0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_INITIALIZEAS_OFFSET UNITYSDK_OFFSET(0xA14C40)
-#define UNREALTYPES_FINSTANCEDSTRUCT_MAKEREADONLYVIEW_OFFSET UNITYSDK_OFFSET(0xA14CD0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0xA149E0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_MOVECREATE_OFFSET UNITYSDK_OFFSET(0xA14BA0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E38A8A0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_RESETSTRUCTDATA_OFFSET UNITYSDK_OFFSET(0xA14BD0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_RESET_OFFSET UNITYSDK_OFFSET(0xA149F0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_SETSTRUCTDATA_1_OFFSET UNITYSDK_OFFSET(0xA14BC0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_SETSTRUCTDATA_OFFSET UNITYSDK_OFFSET(0xA14BC0)
-#define UNREALTYPES_FINSTANCEDSTRUCT_UNREALTYPES_ISTRUCT_UNREALTYPES_FINSTANCEDSTRUCT__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0xA149D0)
-#define UNREALTYPES_FINSTANCEDSTRUCT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E38BBC0)
-#define UNREALTYPES_FINSTANCEDSTRUCT__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA14B00)
-#define UNREALTYPES_FINSTANCEDSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0xA14A80)
+#define UNREALTYPES_FINSTANCEDSTRUCT_ASSIGN_OFFSET UNITYSDK_OFFSET(0x8ECA60)
+#define UNREALTYPES_FINSTANCEDSTRUCT_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x8EC770)
+#define UNREALTYPES_FINSTANCEDSTRUCT_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x8EC670)
+#define UNREALTYPES_FINSTANCEDSTRUCT_CREATE_OFFSET UNITYSDK_OFFSET(0x1E2A8BF0)
+#define UNREALTYPES_FINSTANCEDSTRUCT_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0x8EC8B0)
+#define UNREALTYPES_FINSTANCEDSTRUCT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8EC7A0)
+#define UNREALTYPES_FINSTANCEDSTRUCT_EQUALS_OFFSET UNITYSDK_OFFSET(0x8ECA90)
+#define UNREALTYPES_FINSTANCEDSTRUCT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x8EBFA0)
+#define UNREALTYPES_FINSTANCEDSTRUCT_GET_MEMORY_OFFSET UNITYSDK_OFFSET(0x2E38E0)
+#define UNREALTYPES_FINSTANCEDSTRUCT_GET_POINTER_OFFSET UNITYSDK_OFFSET(0x2E38E0)
+#define UNREALTYPES_FINSTANCEDSTRUCT_GET_SCRIPTSTRUCT_OFFSET UNITYSDK_OFFSET(0x359B10)
+#define UNREALTYPES_FINSTANCEDSTRUCT_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0x8ECB60)
+#define UNREALTYPES_FINSTANCEDSTRUCT_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0x8ECBC0)
+#define UNREALTYPES_FINSTANCEDSTRUCT_INITIALIZEAS_1_OFFSET UNITYSDK_OFFSET(0x8ECA50)
+#define UNREALTYPES_FINSTANCEDSTRUCT_INITIALIZEAS_OFFSET UNITYSDK_OFFSET(0x8EC9E0)
+#define UNREALTYPES_FINSTANCEDSTRUCT_MAKEREADONLYVIEW_OFFSET UNITYSDK_OFFSET(0x8ECA70)
+#define UNREALTYPES_FINSTANCEDSTRUCT_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0x8EC780)
+#define UNREALTYPES_FINSTANCEDSTRUCT_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x8EC940)
+#define UNREALTYPES_FINSTANCEDSTRUCT_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E2A77E0)
+#define UNREALTYPES_FINSTANCEDSTRUCT_RESETSTRUCTDATA_OFFSET UNITYSDK_OFFSET(0x8EC970)
+#define UNREALTYPES_FINSTANCEDSTRUCT_RESET_OFFSET UNITYSDK_OFFSET(0x8EC790)
+#define UNREALTYPES_FINSTANCEDSTRUCT_SETSTRUCTDATA_1_OFFSET UNITYSDK_OFFSET(0x8EC960)
+#define UNREALTYPES_FINSTANCEDSTRUCT_SETSTRUCTDATA_OFFSET UNITYSDK_OFFSET(0x8EC960)
+#define UNREALTYPES_FINSTANCEDSTRUCT_UNREALTYPES_ISTRUCT_UNREALTYPES_FINSTANCEDSTRUCT__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x8EC770)
+#define UNREALTYPES_FINSTANCEDSTRUCT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2A8CD0)
+#define UNREALTYPES_FINSTANCEDSTRUCT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8EC8A0)
+#define UNREALTYPES_FINSTANCEDSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x8EC820)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int FInstancedStruct_TypeDefinitionIndex = 28390;
+	inline static constexpr unsigned int FInstancedStruct_TypeDefinitionIndex = 27827;
 
 	struct alignas(8) FInstancedStruct
 	{
 		static ::UnrealTypes::StructOpsTraitsBase** StaticGet_StaticStructOpsTraits()
 		{
-			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(FInstancedStruct_TypeDefinitionIndex)->GetStaticField(0x23FB0);
+			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(FInstancedStruct_TypeDefinitionIndex)->GetStaticField(0x24FE0);
 		}
 		::Unity::Collections::Allocator _allocator; // 0x10
-		::System::Void* _structMemory; // 0x18
+		::System::Byte _padding0[0x4];
+		::PVOID _structMemory; // 0x18
 		::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*> _scriptStruct; // 0x20
 
 		::System::Void _ctor(::Unity::Collections::Allocator allocator)
@@ -69,9 +70,9 @@ namespace UnrealTypes
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_GET_ISVALID_OFFSET))(this);
 		}
 
-		::System::Void* get_Memory()
+		::PVOID get_Memory()
 		{
-			return ((::System::Void*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_GET_MEMORY_OFFSET))(this);
+			return ((::PVOID(*)(::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_GET_MEMORY_OFFSET))(this);
 		}
 
 		::System::IntPtr get_Pointer()
@@ -84,30 +85,40 @@ namespace UnrealTypes
 			return ((::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*>(*)(::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_GET_SCRIPTSTRUCT_OFFSET))(this);
 		}
 
+		/*
 		::UnrealTypes::FInstancedStruct DefaultCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::UnrealTypes::FInstancedStruct(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_DEFAULTCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::UnrealTypes::FInstancedStruct CopyCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::UnrealTypes::FInstancedStruct(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_COPYCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::UnrealTypes::FInstancedStruct MoveCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::UnrealTypes::FInstancedStruct(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_MOVECREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::System::Void CopyAssign(::UnrealTypes::FInstancedStruct& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnrealTypes::FInstancedStruct&))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		::System::Void MoveAssign(::UnrealTypes::FInstancedStruct& temp)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnrealTypes::FInstancedStruct&))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_MOVEASSIGN_OFFSET))(this, temp);
 		}
+		*/
 
 		::System::Void Dispose()
 		{
@@ -124,9 +135,9 @@ namespace UnrealTypes
 			return ((::System::Void(*)(::PVOID, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*>, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_SETSTRUCTDATA_OFFSET))(this, typeInfo, memory);
 		}
 
-		::System::Void SetStructData_1(::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*> structHandle, ::System::Void* memory)
+		::System::Void SetStructData_1(::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*> structHandle, ::PVOID memory)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*>, ::System::Void*))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_SETSTRUCTDATA_1_OFFSET))(this, structHandle, memory);
+			return ((::System::Void(*)(::PVOID, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*>, ::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_SETSTRUCTDATA_1_OFFSET))(this, structHandle, memory);
 		}
 
 		::System::Void ResetStructData()
@@ -139,9 +150,9 @@ namespace UnrealTypes
 			return ((::System::Void(*)(::PVOID, ::UnrealTypes::ScriptStruct*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_INITIALIZEAS_OFFSET))(this, inScriptStruct, inStructMemory);
 		}
 
-		::System::Void InitializeAs_1(::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*> inScriptStruct, ::System::Void* inStructMemory)
+		::System::Void InitializeAs_1(::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*> inScriptStruct, ::PVOID inStructMemory)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*>, ::System::Void*))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_INITIALIZEAS_1_OFFSET))(this, inScriptStruct, inStructMemory);
+			return ((::System::Void(*)(::PVOID, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*>, ::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_INITIALIZEAS_1_OFFSET))(this, inScriptStruct, inStructMemory);
 		}
 
 		/*
@@ -158,34 +169,42 @@ namespace UnrealTypes
 		}
 		*/
 
+		/*
 		::System::Boolean Equals(::UnrealTypes::FInstancedStruct other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FInstancedStruct))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::UnrealTypes::FInstancedStruct& lhs, ::UnrealTypes::FInstancedStruct& rhs)
 		{
 			return ((::System::Boolean(*)(::UnrealTypes::FInstancedStruct&, ::UnrealTypes::FInstancedStruct&))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_OP_INEQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
 		::UnrealTypes::ScriptStruct* get_StaticStruct()
 		{
 			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_GET_STATICSTRUCT_OFFSET))(this);
 		}
 
+		/*
 		static ::UnrealTypes::FInstancedStruct Create(::Unity::Collections::Allocator allocator)
 		{
 			return ((::UnrealTypes::FInstancedStruct(*)(::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_CREATE_OFFSET))(allocator);
 		}
+		*/
 
 		::UnrealTypes::StructOpsTraitsBase* get_StructOpsTraits()
 		{
 			return ((::UnrealTypes::StructOpsTraitsBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_GET_STRUCTOPSTRAITS_OFFSET))(this);
 		}
 
+		/*
 		::System::Void UnrealTypes_IStruct_UnrealTypes_FInstancedStruct__CopyAssign(::UnrealTypes::FInstancedStruct& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnrealTypes::FInstancedStruct&))((::PBYTE)hIl2Cpp + UNREALTYPES_FINSTANCEDSTRUCT_UNREALTYPES_ISTRUCT_UNREALTYPES_FINSTANCEDSTRUCT__COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 	};
 }

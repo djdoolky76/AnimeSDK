@@ -3,15 +3,15 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeTransitionType_TypeDefinitionIndex = 31680;
+	inline static constexpr unsigned int StateTreeTransitionType_TypeDefinitionIndex = 31118;
 
 	enum class StateTreeTransitionType : ::System::Byte
 	{
-		None = 0x0,
-		Succeeded = 0x1,
-		Failed = 0x2,
-		GotoState = 0x3,
-		NextState = 0x4,
-		NextSelectableState = 0x5,
+		None = 0,
+		Succeeded = 1,
+		Failed = 2,
+		GotoState = 3,
+		NextState = 4,
+		NextSelectableState = 5,
 	};
 }

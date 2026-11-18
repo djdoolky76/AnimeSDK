@@ -3,12 +3,12 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeConditionOperand_TypeDefinitionIndex = 31681;
+	inline static constexpr unsigned int StateTreeConditionOperand_TypeDefinitionIndex = 31119;
 
 	enum class StateTreeConditionOperand : ::System::Byte
 	{
-		Copy = 0x0,
-		And = 0x1,
-		Or = 0x2,
+		Copy = 0,
+		And = 1,
+		Or = 2,
 	};
 }

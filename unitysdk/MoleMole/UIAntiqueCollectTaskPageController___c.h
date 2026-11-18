@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIANTIQUECOLLECTTASKPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BE3770)
-#define MOLEMOLE_UIANTIQUECOLLECTTASKPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE37B0)
-#define MOLEMOLE_UIANTIQUECOLLECTTASKPAGECONTROLLER___C__ONGETALLREWARDBUTTONBYGROUPID_B__18_0_OFFSET UNITYSDK_OFFSET(0x18BE37C0)
+#define MOLEMOLE_UIANTIQUECOLLECTTASKPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18864180)
+#define MOLEMOLE_UIANTIQUECOLLECTTASKPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x188641C0)
+#define MOLEMOLE_UIANTIQUECOLLECTTASKPAGECONTROLLER___C__ONGETALLREWARDBUTTONBYGROUPID_B__18_0_OFFSET UNITYSDK_OFFSET(0x188641D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAntiqueCollectTaskPageController___c_TypeDefinitionIndex = 42431;
+	inline static constexpr unsigned int UIAntiqueCollectTaskPageController___c_TypeDefinitionIndex = 63881;
 
 	class UIAntiqueCollectTaskPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIAntiqueCollectTaskPageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIAntiqueCollectTaskPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAntiqueCollectTaskPageController___c_TypeDefinitionIndex)->GetStaticField(0x50F80);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIAntiqueCollectTaskPageController___c_TypeDefinitionIndex)->GetStaticField(0x41F30);
 		}
 		static ::System::Action** StaticGet___9__18_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAntiqueCollectTaskPageController___c_TypeDefinitionIndex)->GetStaticField(0x50F88);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAntiqueCollectTaskPageController___c_TypeDefinitionIndex)->GetStaticField(0x41F38);
 		}
 
 		static ::System::Void _cctor()

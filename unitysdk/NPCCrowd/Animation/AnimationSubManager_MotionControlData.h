@@ -4,17 +4,17 @@
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_TwoBonesIKControl.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MOTIONCONTROLDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xE563A50)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_MOTIONCONTROLDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x106A7800)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_MotionControlData_TypeDefinitionIndex = 88318;
+	inline static constexpr unsigned int AnimationSubManager_MotionControlData_TypeDefinitionIndex = 81137;
 
-	struct alignas(8) AnimationSubManager_MotionControlData
+	struct alignas(4) AnimationSubManager_MotionControlData
 	{
 		static ::NPCCrowd::Animation::AnimationSubManager_MotionControlData* StaticGet_Default()
 		{
-			return (::NPCCrowd::Animation::AnimationSubManager_MotionControlData*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_MotionControlData_TypeDefinitionIndex)->GetStaticField(0xB520);
+			return (::NPCCrowd::Animation::AnimationSubManager_MotionControlData*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_MotionControlData_TypeDefinitionIndex)->GetStaticField(0xB5D0);
 		}
 		::NPCCrowd::Animation::AnimationSubManager_TwoBonesIKControl LeftHand; // 0x10
 		::NPCCrowd::Animation::AnimationSubManager_TwoBonesIKControl RightHand; // 0x78

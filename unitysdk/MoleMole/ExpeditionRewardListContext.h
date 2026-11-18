@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_45C1DDE65CB117DE;
+class CIFBOKELGMC;
 
-#define MOLEMOLE_EXPEDITIONREWARDLISTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B951AC0)
+#define MOLEMOLE_EXPEDITIONREWARDLISTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x103FCBA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ExpeditionRewardListContext_TypeDefinitionIndex = 76666;
+	inline static constexpr unsigned int ExpeditionRewardListContext_TypeDefinitionIndex = 81584;
 
 	class ExpeditionRewardListContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_45C1DDE65CB117DE* LayerData; // 0x28
+		::CIFBOKELGMC* LayerData; // 0x28
 		::System::Boolean isShowNormal; // 0x30
 		::System::Boolean useCache; // 0x31
 

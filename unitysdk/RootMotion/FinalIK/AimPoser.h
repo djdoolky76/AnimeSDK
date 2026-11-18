@@ -4,20 +4,22 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RootMotion::FinalIK { class AimPoser_Pose; }
+namespace System { class Object; }
 
-#define ROOTMOTION_FINALIK_AIMPOSER_GETPOSE_OFFSET UNITYSDK_OFFSET(0x1EEDB7D0)
-#define ROOTMOTION_FINALIK_AIMPOSER_SETPOSEACTIVE_OFFSET UNITYSDK_OFFSET(0x1EEDB8D0)
-#define ROOTMOTION_FINALIK_AIMPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEDB930)
+#define ROOTMOTION_FINALIK_AIMPOSER_GETPOSE_OFFSET UNITYSDK_OFFSET(0x1F25DEF0)
+#define ROOTMOTION_FINALIK_AIMPOSER_SETPOSEACTIVE_OFFSET UNITYSDK_OFFSET(0x1F25DFF0)
+#define ROOTMOTION_FINALIK_AIMPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F25E050)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int AimPoser_TypeDefinitionIndex = 38872;
+	inline static constexpr unsigned int AimPoser_TypeDefinitionIndex = 36841;
 
 	class AimPoser : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single angleBuffer; // 0x18
-		::Il2CppArray<::RootMotion::FinalIK::AimPoser_Pose*>* poses; // 0x20
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::System::Object*>* poses; // 0x20
 
 		::System::Void _ctor()
 		{

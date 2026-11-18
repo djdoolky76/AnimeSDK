@@ -4,12 +4,13 @@
 
 namespace MoleMole { class UIGachaPageController; }
 
-#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS69_0__CHECKEXTRATIPSANDGACHA_B__0_OFFSET UNITYSDK_OFFSET(0x19ABAE70)
-#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19ABAE60)
+#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B000C40)
+#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS69_0__GACHA_B__2_OFFSET UNITYSDK_OFFSET(0x1B000E60)
+#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS69_0__GACHA_G__QUICKBUYORGACHA_0_OFFSET UNITYSDK_OFFSET(0x1B000C50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPageController___c__DisplayClass69_0_TypeDefinitionIndex = 84830;
+	inline static constexpr unsigned int UIGachaPageController___c__DisplayClass69_0_TypeDefinitionIndex = 58561;
 
 	class UIGachaPageController___c__DisplayClass69_0 : public ::System::Object
 	{
@@ -22,9 +23,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS69_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _CheckExtraTipsAndGacha_b__0()
+		::System::Void _Gacha_g__QuickBuyOrGacha_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS69_0__CHECKEXTRATIPSANDGACHA_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS69_0__GACHA_G__QUICKBUYORGACHA_0_OFFSET))(this);
+		}
+
+		::System::Void _Gacha_b__2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS69_0__GACHA_B__2_OFFSET))(this);
 		}
 	};
 }

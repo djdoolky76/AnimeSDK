@@ -9,52 +9,62 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x189CA990)
-#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_METHOD_5_1B3D8773D1869301_OFFSET UNITYSDK_OFFSET(0x189CA800)
-#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_METHOD_5_704FAC4600717444_OFFSET UNITYSDK_OFFSET(0x189CAA70)
-#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_METHOD_5_7B32E6463125895B_OFFSET UNITYSDK_OFFSET(0x189CB060)
-#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x189CB010)
-#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x189CB250)
-#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x189CA760)
-#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x189CAA20)
-#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x189CB2A0)
+#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1904B730)
+#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_BJNCALPPEKE_OFFSET UNITYSDK_OFFSET(0x1904BE00)
+#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_KPMLEJGGACE_OFFSET UNITYSDK_OFFSET(0x1904B5A0)
+#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1904BDB0)
+#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1904BFF0)
+#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1904B500)
+#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_PPFHNJGBMCF_OFFSET UNITYSDK_OFFSET(0x1904B810)
+#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1904B7C0)
+#define MOLEMOLE_UIMATERIALPARAMSCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1904C040)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMaterialParamsController_TypeDefinitionIndex = 69217;
+	inline static constexpr unsigned int UIMaterialParamsController_TypeDefinitionIndex = 72213;
 
 	class UIMaterialParamsController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean floatParam1Enable; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::String* floatParamName1; // 0x20
 		::System::Single floatParam1; // 0x28
 		::System::Boolean floatParam2Enable; // 0x2C
+		::System::Byte _padding1[0x3];
 		::System::String* floatParamName2; // 0x30
 		::System::Single floatParam2; // 0x38
 		::System::Boolean floatParam3Enable; // 0x3C
+		::System::Byte _padding2[0x3];
 		::System::String* floatParamName3; // 0x40
 		::System::Single floatParam3; // 0x48
 		::System::Boolean colorParam1Enable; // 0x4C
+		::System::Byte _padding3[0x3];
 		::System::String* colorParamName1; // 0x50
 		::UnityEngine::Color colorParam1; // 0x58
 		::System::Boolean colorParam2Enable; // 0x68
+		::System::Byte _padding4[0x7];
 		::System::String* colorParamName2; // 0x70
 		::UnityEngine::Color colorParam2; // 0x78
 		::System::Boolean colorParam3Enable; // 0x88
+		::System::Byte _padding5[0x7];
 		::System::String* colorParamName3; // 0x90
 		::UnityEngine::Color colorParam3; // 0x98
 		::System::Boolean vectorParam1Enable; // 0xA8
+		::System::Byte _padding6[0x7];
 		::System::String* vectorParamName1; // 0xB0
 		::UnityEngine::Vector4 vectorParam1; // 0xB8
 		::System::Boolean vectorParam2Enable; // 0xC8
+		::System::Byte _padding7[0x7];
 		::System::String* vectorParamName2; // 0xD0
 		::UnityEngine::Vector4 vectorParam2; // 0xD8
 		::System::Boolean vectorParam3Enable; // 0xE8
+		::System::Byte _padding8[0x7];
 		::System::String* vectorParamName3; // 0xF0
 		::UnityEngine::Vector4 vectorParam3; // 0xF8
 		::System::Boolean autoRefreshOnEnable; // 0x108
-		::UnityEngine::MaterialPropertyBlock* Field_5_29; // 0x110
+		::System::Byte _padding9[0x7];
+		::UnityEngine::MaterialPropertyBlock* IBCPOEAELBO; // 0x110
 		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* renderers; // 0x118
 
 		::System::Void _ctor()
@@ -87,19 +97,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALPARAMSCONTROLLER_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_1B3D8773D1869301()
+		::System::Void PPFHNJGBMCF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALPARAMSCONTROLLER_METHOD_5_1B3D8773D1869301_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALPARAMSCONTROLLER_PPFHNJGBMCF_OFFSET))(this);
 		}
 
-		::System::Void Method_5_704FAC4600717444()
+		::System::Void KPMLEJGGACE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALPARAMSCONTROLLER_METHOD_5_704FAC4600717444_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALPARAMSCONTROLLER_KPMLEJGGACE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_7B32E6463125895B()
+		::System::Void BJNCALPPEKE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALPARAMSCONTROLLER_METHOD_5_7B32E6463125895B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMATERIALPARAMSCONTROLLER_BJNCALPPEKE_OFFSET))(this);
 		}
 	};
 }

@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int MediaTypeNames_Text_TypeDefinitionIndex = 3637;
+	inline static constexpr unsigned int MediaTypeNames_Text_TypeDefinitionIndex = 3636;
 
 	class MediaTypeNames_Text : public ::System::Object
 	{

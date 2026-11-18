@@ -3,21 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 namespace UnrealTypes { class ICppStructOps; }
+namespace UnrealTypes { class ScriptStruct; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_UPDATEVALUEFLOATTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C5BB60)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_UPDATEVALUEFLOATTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18C5BBA0)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_UPDATEVALUEFLOATTASK___C___CCTOR_B__6_0_OFFSET UNITYSDK_OFFSET(0x18C5BBB0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_UPDATEVALUEFLOATTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A80B830)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_UPDATEVALUEFLOATTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A80B870)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_UPDATEVALUEFLOATTASK___C___CCTOR_B__6_0_OFFSET UNITYSDK_OFFSET(0x1A80B880)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_UPDATEVALUEFLOATTASK___C___CCTOR_B__6_1_OFFSET UNITYSDK_OFFSET(0x1A80B8E0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_UpdateValueFloatTask___c_TypeDefinitionIndex = 71604;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_UpdateValueFloatTask___c_TypeDefinitionIndex = 77406;
 
 	class RegistrationInfo_ScriptStruct_UpdateValueFloatTask___c : public ::System::Object
 	{
 	public:
-		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_UpdateValueFloatTask___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_UpdateValueFloatTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_UpdateValueFloatTask___c_TypeDefinitionIndex)->GetStaticField(0x3B320);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_UpdateValueFloatTask___c_TypeDefinitionIndex)->GetStaticField(0x3D1A0);
 		}
 
 		static ::System::Void _cctor()
@@ -30,9 +32,14 @@ namespace StateTreeGameplay
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_UPDATEVALUEFLOATTASK___C__CTOR_OFFSET))(this);
 		}
 
-		::UnrealTypes::ICppStructOps* __cctor_b__6_0()
+		::UnrealTypes::ScriptStruct* __cctor_b__6_0()
 		{
-			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_UPDATEVALUEFLOATTASK___C___CCTOR_B__6_0_OFFSET))(this);
+			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_UPDATEVALUEFLOATTASK___C___CCTOR_B__6_0_OFFSET))(this);
+		}
+
+		::UnrealTypes::ICppStructOps* __cctor_b__6_1()
+		{
+			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_UPDATEVALUEFLOATTASK___C___CCTOR_B__6_1_OFFSET))(this);
 		}
 	};
 }

@@ -8,18 +8,19 @@
 namespace Cysharp::Threading::Tasks { class UniTaskExtensions_ToCoroutineEnumerator; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR__RUNTASK_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xAD2230)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR__RUNTASK_D__6_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR__RUNTASK_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x9B8900)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS_TOCOROUTINEENUMERATOR__RUNTASK_D__6_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions_ToCoroutineEnumerator__RunTask_d__6_TypeDefinitionIndex = 31916;
+	inline static constexpr unsigned int UniTaskExtensions_ToCoroutineEnumerator__RunTask_d__6_TypeDefinitionIndex = 31363;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	struct alignas(8) UniTaskExtensions_ToCoroutineEnumerator__RunTask_d__6
 	{
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x10
-		::Cysharp::Threading::Tasks::UniTaskExtensions_ToCoroutineEnumerator* __4__this; // 0x20
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x28
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
+		::Cysharp::Threading::Tasks::UniTaskExtensions_ToCoroutineEnumerator* __4__this; // 0x28
 		::Cysharp::Threading::Tasks::UniTask task; // 0x30
 		::System::Int32 __1__state; // 0x40
 

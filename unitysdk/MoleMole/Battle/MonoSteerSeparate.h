@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/MonoSteer.h"
 
-class Class_1_D33A7AE9308D51C5;
+class BBDCAGEKHAJ;
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_BATTLE_MONOSTEERSEPARATE_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x12A173F0)
-#define MOLEMOLE_BATTLE_MONOSTEERSEPARATE_ONSTEERCREATE_OFFSET UNITYSDK_OFFSET(0x12A17320)
-#define MOLEMOLE_BATTLE_MONOSTEERSEPARATE__CTOR_OFFSET UNITYSDK_OFFSET(0x12A17500)
+#define MOLEMOLE_BATTLE_MONOSTEERSEPARATE_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x13044F40)
+#define MOLEMOLE_BATTLE_MONOSTEERSEPARATE_ONSTEERCREATE_OFFSET UNITYSDK_OFFSET(0x13044E60)
+#define MOLEMOLE_BATTLE_MONOSTEERSEPARATE__CTOR_OFFSET UNITYSDK_OFFSET(0x13045050)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int MonoSteerSeparate_TypeDefinitionIndex = 55830;
+	inline static constexpr unsigned int MonoSteerSeparate_TypeDefinitionIndex = 62910;
 
 	class MonoSteerSeparate : public ::MoleMole::MonoSteer
 	{
@@ -25,14 +25,14 @@ namespace MoleMole::Battle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MONOSTEERSEPARATE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D33A7AE9308D51C5* OnSteerCreate(::MoleMole::MonoSteer* a1, ::MoleMole::Battle::Entity* a2)
+		::BBDCAGEKHAJ* OnSteerCreate(::MoleMole::MonoSteer* MKIGHGFHEJO, ::MoleMole::Battle::Entity* KECKGDFIALJ)
 		{
-			return ((::Class_1_D33A7AE9308D51C5*(*)(::PVOID, ::MoleMole::MonoSteer*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MONOSTEERSEPARATE_ONSTEERCREATE_OFFSET))(this, a1, a2);
+			return ((::BBDCAGEKHAJ*(*)(::PVOID, ::MoleMole::MonoSteer*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MONOSTEERSEPARATE_ONSTEERCREATE_OFFSET))(this, MKIGHGFHEJO, KECKGDFIALJ);
 		}
 
-		::System::Single GetWeight(::MoleMole::Battle::Entity* a1)
+		::System::Single GetWeight(::MoleMole::Battle::Entity* KECKGDFIALJ)
 		{
-			return ((::System::Single(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MONOSTEERSEPARATE_GETWEIGHT_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MONOSTEERSEPARATE_GETWEIGHT_OFFSET))(this, KECKGDFIALJ);
 		}
 	};
 }

@@ -6,20 +6,20 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SUPERDEBUG_LOGMODULEATTRIBUTE_GET_DEFAULTENABLE_OFFSET UNITYSDK_OFFSET(0x1F699DD0)
-#define MOLEMOLE_SUPERDEBUG_LOGMODULEATTRIBUTE_GET_MODULECOLOR_OFFSET UNITYSDK_OFFSET(0x1F699DC0)
-#define MOLEMOLE_SUPERDEBUG_LOGMODULEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F699D90)
-#define MOLEMOLE_SUPERDEBUG_LOGMODULEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F699B80)
+#define MOLEMOLE_SUPERDEBUG_LOGMODULEATTRIBUTE_GET_DEFAULTENABLE_OFFSET UNITYSDK_OFFSET(0x1F3AB6C0)
+#define MOLEMOLE_SUPERDEBUG_LOGMODULEATTRIBUTE_GET_MODULECOLOR_OFFSET UNITYSDK_OFFSET(0x1F3AB6B0)
+#define MOLEMOLE_SUPERDEBUG_LOGMODULEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F3AB680)
+#define MOLEMOLE_SUPERDEBUG_LOGMODULEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3AB470)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SuperDebug_LogModuleAttribute_TypeDefinitionIndex = 7957;
+	inline static constexpr unsigned int SuperDebug_LogModuleAttribute_TypeDefinitionIndex = 7959;
 
 	class SuperDebug_LogModuleAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Boolean _DefaultEnable_k__BackingField; // 0x10
-		::UnityEngine::Color _ModuleColor_k__BackingField; // 0x14
+		::UnityEngine::Color _ModuleColor_k__BackingField; // 0x10
+		::System::Boolean _DefaultEnable_k__BackingField; // 0x20
 
 		::System::Void _ctor(::MoleMole::SuperDebug_ColorEnum colorEnum, ::System::Boolean defaultEnable)
 		{

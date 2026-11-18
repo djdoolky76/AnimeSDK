@@ -4,13 +4,13 @@
 
 namespace System::Net { class IPAddress; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32_SOCKET_ADDRESS_GETIPADDRESS_OFFSET UNITYSDK_OFFSET(0x9E6600)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32_SOCKET_ADDRESS_GETIPADDRESS_OFFSET UNITYSDK_OFFSET(0x8F8DC0)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_SOCKET_ADDRESS_TypeDefinitionIndex = 3849;
+	inline static constexpr unsigned int Win32_SOCKET_ADDRESS_TypeDefinitionIndex = 3848;
 
-	struct alignas(8) Win32_SOCKET_ADDRESS
+	struct alignas(4) Win32_SOCKET_ADDRESS
 	{
 		// static const ::System::Int32 AF_INET6 = 0x17; // 0x0
 		::System::IntPtr Sockaddr; // 0x10

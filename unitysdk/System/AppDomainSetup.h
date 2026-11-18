@@ -4,10 +4,10 @@
 
 namespace System { class String; }
 
-#define SYSTEM_APPDOMAINSETUP_GETAPPBASE_OFFSET UNITYSDK_OFFSET(0x1C30DAC0)
-#define SYSTEM_APPDOMAINSETUP_GET_APPLICATIONBASE_OFFSET UNITYSDK_OFFSET(0x1C30E120)
-#define SYSTEM_APPDOMAINSETUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C30C360)
-#define SYSTEM_APPDOMAINSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C30DAB0)
+#define SYSTEM_APPDOMAINSETUP_GETAPPBASE_OFFSET UNITYSDK_OFFSET(0x1C885140)
+#define SYSTEM_APPDOMAINSETUP_GET_APPLICATIONBASE_OFFSET UNITYSDK_OFFSET(0x1C8857A0)
+#define SYSTEM_APPDOMAINSETUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C883A10)
+#define SYSTEM_APPDOMAINSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C885130)
 
 namespace System
 {
@@ -28,14 +28,17 @@ namespace System
 		::System::String* shadow_copy_files; // 0x58
 		::System::Boolean publisher_policy; // 0x60
 		::System::Boolean path_changed; // 0x61
+		::System::Byte _padding0[0x2];
 		::System::Int32 loader_optimization; // 0x64
 		::System::Boolean disallow_binding_redirects; // 0x68
 		::System::Boolean disallow_code_downloads; // 0x69
+		::System::Byte _padding1[0x6];
 		::System::Object* _activationArguments; // 0x70
 		::System::Object* domain_initializer; // 0x78
 		::System::Object* application_trust; // 0x80
 		::Il2CppArray<::System::String*>* domain_initializer_args; // 0x88
 		::System::Boolean disallow_appbase_probe; // 0x90
+		::System::Byte _padding2[0x7];
 		::Il2CppArray<::System::Byte>* configuration_bytes; // 0x98
 		::Il2CppArray<::System::Byte>* serialized_non_primitives; // 0xA0
 		::System::String* _TargetFrameworkName_k__BackingField; // 0xA8

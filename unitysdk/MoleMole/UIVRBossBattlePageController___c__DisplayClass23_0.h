@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_732;
+class KDFEBFHFCHO;
 namespace MoleMole { class UIVRBossBattlePageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIVRBOSSBATTLEPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D7AB00)
-#define MOLEMOLE_UIVRBOSSBATTLEPAGECONTROLLER___C__DISPLAYCLASS23_0__OPENTIPSPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x17D7AB10)
-#define MOLEMOLE_UIVRBOSSBATTLEPAGECONTROLLER___C__DISPLAYCLASS23_0__OPENTIPSPANEL_B__1_OFFSET UNITYSDK_OFFSET(0x17D7ABA0)
+#define MOLEMOLE_UIVRBOSSBATTLEPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16701100)
+#define MOLEMOLE_UIVRBOSSBATTLEPAGECONTROLLER___C__DISPLAYCLASS23_0__OPENTIPSPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x16701110)
+#define MOLEMOLE_UIVRBOSSBATTLEPAGECONTROLLER___C__DISPLAYCLASS23_0__OPENTIPSPANEL_B__1_OFFSET UNITYSDK_OFFSET(0x167011A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVRBossBattlePageController___c__DisplayClass23_0_TypeDefinitionIndex = 86283;
+	inline static constexpr unsigned int UIVRBossBattlePageController___c__DisplayClass23_0_TypeDefinitionIndex = 63017;
 
 	class UIVRBossBattlePageController___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_732* data; // 0x10
+		::System::Action* __9__1; // 0x10
 		::MoleMole::UIVRBossBattlePageController* __4__this; // 0x18
-		::System::Action* __9__1; // 0x20
+		::KDFEBFHFCHO* data; // 0x20
 
 		::System::Void _ctor()
 		{

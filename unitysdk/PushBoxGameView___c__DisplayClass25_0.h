@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_C03EC65F99EF4B16;
+class OFABBAJJIBL;
 class PushBoxGameView;
 namespace System { class String; }
 
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB91040)
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS25_0__PLAYRESETANIM_B__0_OFFSET UNITYSDK_OFFSET(0x1CB91050)
-#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS25_0__PLAYRESETANIM_G____GETDURATION_1_OFFSET UNITYSDK_OFFSET(0x1CB91080)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1374C820)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS25_0__PLAYRESETANIM_B__0_OFFSET UNITYSDK_OFFSET(0x1374C830)
+#define PUSHBOXGAMEVIEW___C__DISPLAYCLASS25_0__PLAYRESETANIM_G____GETDURATION_1_OFFSET UNITYSDK_OFFSET(0x1374C860)
 
-inline static constexpr unsigned int PushBoxGameView___c__DisplayClass25_0_TypeDefinitionIndex = 84520;
+inline static constexpr unsigned int PushBoxGameView___c__DisplayClass25_0_TypeDefinitionIndex = 61723;
 
 class PushBoxGameView___c__DisplayClass25_0 : public ::System::Object
 {
 public:
 	::PushBoxGameView* __4__this; // 0x10
-	::Class_2_C03EC65F99EF4B16* eventModel; // 0x18
-	::System::String* textureKey; // 0x20
+	::System::String* textureKey; // 0x18
+	::OFABBAJJIBL* eventModel; // 0x20
 	::System::Boolean beginFromMiddle; // 0x28
 
 	::System::Void _ctor()

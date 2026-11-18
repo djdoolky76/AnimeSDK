@@ -3,11 +3,11 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageClipType_TypeDefinitionIndex = 82807;
+	inline static constexpr unsigned int MontageClipType_TypeDefinitionIndex = 39380;
 
 	enum class MontageClipType : ::System::Byte
 	{
-		Animation = 0x0,
-		SequenceKey = 0x1,
+		SequenceKey = 1,
+		Animation = 0,
 	};
 }

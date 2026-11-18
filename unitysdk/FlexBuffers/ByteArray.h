@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Span_1.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 
 namespace FlexBuffers { class IFlexStringInternCache; }
 namespace System { class String; }
 
-#define FLEXBUFFERS_BYTEARRAY_BLOCKCOPY_OFFSET UNITYSDK_OFFSET(0x1E9D4300)
-#define FLEXBUFFERS_BYTEARRAY_COMPUTEINDIRECTOFFSET_OFFSET UNITYSDK_OFFSET(0x1E9D4310)
-#define FLEXBUFFERS_BYTEARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E9D4330)
-#define FLEXBUFFERS_BYTEARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E9D3BC0)
-#define FLEXBUFFERS_BYTEARRAY_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1E9D3C00)
-#define FLEXBUFFERS_BYTEARRAY_READDOUBLE_OFFSET UNITYSDK_OFFSET(0x1E9D3F60)
-#define FLEXBUFFERS_BYTEARRAY_READLONG_OFFSET UNITYSDK_OFFSET(0x1E9D3C30)
-#define FLEXBUFFERS_BYTEARRAY_READSPANBYTES_OFFSET UNITYSDK_OFFSET(0x1E9D4200)
-#define FLEXBUFFERS_BYTEARRAY_READSTRING_OFFSET UNITYSDK_OFFSET(0x1E9D40C0)
-#define FLEXBUFFERS_BYTEARRAY_READULONG_OFFSET UNITYSDK_OFFSET(0x1E9D3DB0)
-#define FLEXBUFFERS_BYTEARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9D4340)
-#define FLEXBUFFERS_BYTEARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D3C20)
+#define FLEXBUFFERS_BYTEARRAY_BLOCKCOPY_OFFSET UNITYSDK_OFFSET(0x1ECC8F80)
+#define FLEXBUFFERS_BYTEARRAY_COMPUTEINDIRECTOFFSET_OFFSET UNITYSDK_OFFSET(0x1ECC8F90)
+#define FLEXBUFFERS_BYTEARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ECC8FB0)
+#define FLEXBUFFERS_BYTEARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1ECC8840)
+#define FLEXBUFFERS_BYTEARRAY_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1ECC8880)
+#define FLEXBUFFERS_BYTEARRAY_READDOUBLE_OFFSET UNITYSDK_OFFSET(0x1ECC8BE0)
+#define FLEXBUFFERS_BYTEARRAY_READLONG_OFFSET UNITYSDK_OFFSET(0x1ECC88B0)
+#define FLEXBUFFERS_BYTEARRAY_READSPANBYTES_OFFSET UNITYSDK_OFFSET(0x1ECC8E80)
+#define FLEXBUFFERS_BYTEARRAY_READSTRING_OFFSET UNITYSDK_OFFSET(0x1ECC8D40)
+#define FLEXBUFFERS_BYTEARRAY_READULONG_OFFSET UNITYSDK_OFFSET(0x1ECC8A30)
+#define FLEXBUFFERS_BYTEARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECC8FC0)
+#define FLEXBUFFERS_BYTEARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC88A0)
 
 namespace FlexBuffers
 {
-	inline static constexpr unsigned int ByteArray_TypeDefinitionIndex = 6753;
+	inline static constexpr unsigned int ByteArray_TypeDefinitionIndex = 6760;
 
 	class ByteArray : public ::System::Object
 	{
 	public:
 		static ::FlexBuffers::IFlexStringInternCache** StaticGet_StringInternCache()
 		{
-			return (::FlexBuffers::IFlexStringInternCache**)Il2CppClass::FromTypeDefinitionIndex(ByteArray_TypeDefinitionIndex)->GetStaticField(0x5BC0);
+			return (::FlexBuffers::IFlexStringInternCache**)Il2CppClass::FromTypeDefinitionIndex(ByteArray_TypeDefinitionIndex)->GetStaticField(0x5AC0);
 		}
 		::Il2CppArray<::System::Byte>* data; // 0x10
 
@@ -72,9 +72,9 @@ namespace FlexBuffers
 			return ((::System::String*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + FLEXBUFFERS_BYTEARRAY_READSTRING_OFFSET))(this, offset, byteCount);
 		}
 
-		::System::Span_1<::System::Byte> ReadSpanBytes(::System::Int32 offset, ::System::Int32 byteCount)
+		::System::Span_1_9011FAD97750D224<::System::Byte> ReadSpanBytes(::System::Int32 offset, ::System::Int32 byteCount)
 		{
-			return ((::System::Span_1<::System::Byte>(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + FLEXBUFFERS_BYTEARRAY_READSPANBYTES_OFFSET))(this, offset, byteCount);
+			return ((::System::Span_1_9011FAD97750D224<::System::Byte>(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + FLEXBUFFERS_BYTEARRAY_READSPANBYTES_OFFSET))(this, offset, byteCount);
 		}
 
 		::System::Void BlockCopy(::System::Int32 srcOffset, ::Il2CppArray<::System::Byte>* dst, ::System::Int32 dstOffset, ::System::Int32 count)

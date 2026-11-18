@@ -3,13 +3,13 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ChannelMapping_TypeDefinitionIndex = 27158;
+	inline static constexpr unsigned int ChannelMapping_TypeDefinitionIndex = 27127;
 
 	enum class ChannelMapping : ::System::Int32
 	{
-		A = 3,
-		R = 0,
 		G = 1,
 		B = 2,
+		R = 0,
+		A = 3,
 	};
 }

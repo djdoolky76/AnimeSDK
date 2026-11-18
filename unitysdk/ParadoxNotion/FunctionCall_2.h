@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace System { class AsyncCallback; }
-namespace System { class IAsyncResult; }
-namespace System { class Object; }
-
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int FunctionCall_2_TypeDefinitionIndex = 31434;
+	inline static constexpr unsigned int FunctionCall_2_TypeDefinitionIndex = 29914;
 
-	template <typename T1, typename TResult>
+	template <typename T1, typename T2>
 	class FunctionCall_2 : public ::System::MulticastDelegate
 	{
 	public:

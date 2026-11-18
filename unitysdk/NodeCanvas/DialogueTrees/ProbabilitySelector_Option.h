@@ -6,11 +6,11 @@ namespace NodeCanvas::Framework { class ConditionTask; }
 namespace NodeCanvas::Framework { class IBlackboard; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 
-#define NODECANVAS_DIALOGUETREES_PROBABILITYSELECTOR_OPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB92550)
+#define NODECANVAS_DIALOGUETREES_PROBABILITYSELECTOR_OPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF61F90)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int ProbabilitySelector_Option_TypeDefinitionIndex = 30098;
+	inline static constexpr unsigned int ProbabilitySelector_Option_TypeDefinitionIndex = 29772;
 
 	class ProbabilitySelector_Option : public ::System::Object
 	{

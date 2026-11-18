@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_8E938CB3775CAF5D;
+class LFLKAEJOACL;
 namespace MoleMole { class UISuibianTempleTurnoverRowWidgetController; }
 namespace System { class String; }
-template <typename T> class Class_0_16E4307DCC419505_159;
+template <typename T> class LJHFMILANJA_1;
 
-#define MOLEMOLE_UISUIBIANTEMPLETURNOVERROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E10CA0)
-#define MOLEMOLE_UISUIBIANTEMPLETURNOVERROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHTREND_B__0_OFFSET UNITYSDK_OFFSET(0x11E10CB0)
-#define MOLEMOLE_UISUIBIANTEMPLETURNOVERROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHTREND_B__1_OFFSET UNITYSDK_OFFSET(0x11E10E80)
+#define MOLEMOLE_UISUIBIANTEMPLETURNOVERROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188D2610)
+#define MOLEMOLE_UISUIBIANTEMPLETURNOVERROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHTREND_B__0_OFFSET UNITYSDK_OFFSET(0x188D2620)
+#define MOLEMOLE_UISUIBIANTEMPLETURNOVERROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHTREND_B__1_OFFSET UNITYSDK_OFFSET(0x188D27F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleTurnoverRowWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 51895;
+	inline static constexpr unsigned int UISuibianTempleTurnoverRowWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 89284;
 
 	class UISuibianTempleTurnoverRowWidgetController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::System::String* lockText; // 0x10
-		::Class_0_16E4307DCC419505_159<::System::Int32>* trendID; // 0x18
-		::MoleMole::UISuibianTempleTurnoverRowWidgetController* __4__this; // 0x20
-		::Class_2_8E938CB3775CAF5D* slot; // 0x28
+		::MoleMole::UISuibianTempleTurnoverRowWidgetController* __4__this; // 0x10
+		::System::String* lockText; // 0x18
+		::LJHFMILANJA_1<::System::Int32>* trendID; // 0x20
+		::LFLKAEJOACL* slot; // 0x28
 		::System::Boolean isCurrent; // 0x30
 
 		::System::Void _ctor()

@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PEKAIPABFMC.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define NAGDIBOOPJO_BBOMJDBNHIC_1_OFFSET UNITYSDK_OFFSET(0x18C47E70)
+#define NAGDIBOOPJO_BBOMJDBNHIC_2_OFFSET UNITYSDK_OFFSET(0x18C47ED0)
+#define NAGDIBOOPJO_BBOMJDBNHIC_3_OFFSET UNITYSDK_OFFSET(0x18C47F30)
+#define NAGDIBOOPJO_BBOMJDBNHIC_4_OFFSET UNITYSDK_OFFSET(0x18C47F90)
+#define NAGDIBOOPJO_BBOMJDBNHIC_OFFSET UNITYSDK_OFFSET(0x18C47DC0)
+#define NAGDIBOOPJO__CTOR_OFFSET UNITYSDK_OFFSET(0x18C47DB0)
+
+inline static constexpr unsigned int NAGDIBOOPJO_TypeDefinitionIndex = 80073;
+
+class NAGDIBOOPJO : public ::System::Object
+{
+public:
+	::System::String* GPIOJBLKFAJ; // 0x10
+	::PEKAIPABFMC NOOLOILNGPL; // 0x18
+	::System::Int32 GIDIMHILCNM; // 0x1C
+	::System::Int32 DPHOFEEEIJJ; // 0x20
+	::System::Int32 GIDLGHOLAOG; // 0x24
+	::System::Boolean EMJPCPFAHNG; // 0x28
+	::System::Byte _padding0[0x1];
+	::System::UInt16 HODAPEIHFND; // 0x2A
+	::System::Byte _padding1[0x4];
+	::System::Double EMLCLKNPFCK; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAGDIBOOPJO__CTOR_OFFSET))(this);
+	}
+
+	::NAGDIBOOPJO* BBOMJDBNHIC(::System::UInt16 KMBBIFBAPCO, ::System::Boolean HBIAIGLHMFP)
+	{
+		return ((::NAGDIBOOPJO*(*)(::PVOID, ::System::UInt16, ::System::Boolean))((::PBYTE)hIl2Cpp + NAGDIBOOPJO_BBOMJDBNHIC_OFFSET))(this, KMBBIFBAPCO, HBIAIGLHMFP);
+	}
+
+	::NAGDIBOOPJO* BBOMJDBNHIC_1(::System::Double EGEGIMGMJHN)
+	{
+		return ((::NAGDIBOOPJO*(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + NAGDIBOOPJO_BBOMJDBNHIC_1_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::NAGDIBOOPJO* BBOMJDBNHIC_2(::PEKAIPABFMC OBNIAHNMHPF, ::System::Int32 ODKLGCBHJOK)
+	{
+		return ((::NAGDIBOOPJO*(*)(::PVOID, ::PEKAIPABFMC, ::System::Int32))((::PBYTE)hIl2Cpp + NAGDIBOOPJO_BBOMJDBNHIC_2_OFFSET))(this, OBNIAHNMHPF, ODKLGCBHJOK);
+	}
+
+	::NAGDIBOOPJO* BBOMJDBNHIC_3(::PEKAIPABFMC OBNIAHNMHPF, ::System::String* EGEGIMGMJHN)
+	{
+		return ((::NAGDIBOOPJO*(*)(::PVOID, ::PEKAIPABFMC, ::System::String*))((::PBYTE)hIl2Cpp + NAGDIBOOPJO_BBOMJDBNHIC_3_OFFSET))(this, OBNIAHNMHPF, EGEGIMGMJHN);
+	}
+
+	::NAGDIBOOPJO* BBOMJDBNHIC_4(::PEKAIPABFMC OBNIAHNMHPF)
+	{
+		return ((::NAGDIBOOPJO*(*)(::PVOID, ::PEKAIPABFMC))((::PBYTE)hIl2Cpp + NAGDIBOOPJO_BBOMJDBNHIC_4_OFFSET))(this, OBNIAHNMHPF);
+	}
+};

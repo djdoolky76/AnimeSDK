@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D314CF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG_GETKODAMAGIPARAMS_OFFSET UNITYSDK_OFFSET(0x1D314B60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3150B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D45CFF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG_GETKODAMAGIPARAMS_OFFSET UNITYSDK_OFFSET(0x1D45CE60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_GICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D45D3B0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int GIConfig_TypeDefinitionIndex = 27333;
+	inline static constexpr unsigned int GIConfig_TypeDefinitionIndex = 27194;
 
-	class GIConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::GIConfig*>
+	class GIConfig
 	{
 	public:
 		::System::Single skyIntensity; // 0x18
@@ -20,6 +19,7 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::UnityEngine::Color middleColor; // 0x2C
 		::UnityEngine::Color groundColor; // 0x3C
 		::System::Boolean useRTXGICustomSkySH; // 0x4C
+		::System::Byte _padding0[0x3];
 		::System::Single rtxSkyIntensity; // 0x50
 		::UnityEngine::Color rtxSkyColor; // 0x54
 		::UnityEngine::Color rtxMiddleColor; // 0x64

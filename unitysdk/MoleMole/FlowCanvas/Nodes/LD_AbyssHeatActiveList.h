@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSHEATACTIVELIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1AE6D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSHEATACTIVELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AE940)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSHEATACTIVELIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x14AE2D40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSHEATACTIVELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x14AE2FC0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssHeatActiveList_TypeDefinitionIndex = 80266;
+	inline static constexpr unsigned int LD_AbyssHeatActiveList_TypeDefinitionIndex = 45034;
 
-	class LD_AbyssHeatActiveList : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Collections::Generic::List_1<::System::Int32>*>
+	class LD_AbyssHeatActiveList
 	{
 	public:
 		::System::Void _ctor()

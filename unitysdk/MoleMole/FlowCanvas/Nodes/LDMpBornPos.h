@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
@@ -9,30 +9,30 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMPBORNPOS_CALCBORNPOS_OFFSET UNITYSDK_OFFSET(0x19B0E9E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMPBORNPOS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19B0E7D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMPBORNPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x19B0EDC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMPBORNPOS__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x19B0EE40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMPBORNPOS__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x19B0EE70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMPBORNPOS__REGISTERPORTS_B__11_2_OFFSET UNITYSDK_OFFSET(0x19B0EE80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMPBORNPOS_CALCBORNPOS_OFFSET UNITYSDK_OFFSET(0x1A8EBA10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMPBORNPOS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A8EB800)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMPBORNPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8EBDF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMPBORNPOS__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x1A8EBE70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMPBORNPOS__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x1A8EBEA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMPBORNPOS__REGISTERPORTS_B__11_2_OFFSET UNITYSDK_OFFSET(0x1A8EBEB0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMpBornPos_TypeDefinitionIndex = 78989;
+	inline static constexpr unsigned int LDMpBornPos_TypeDefinitionIndex = 69722;
 
 	class LDMpBornPos : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* valueInputPos2BornPos; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::String*>* valueInputPos1BornPos; // 0xB0
-		::FlowCanvas::FlowOutput* finish; // 0xB8
-		::FlowCanvas::FlowOutput* output; // 0xC0
+		::FlowCanvas::FlowInput* input; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* valueInputCurrent; // 0xB0
+		::System::String* bornPos; // 0xB8
+		::FlowCanvas::FlowOutput* finish; // 0xC0
 		::FlowCanvas::ValueOutput_1<::System::Boolean>* valueOutputIsSuccess; // 0xC8
-		::FlowCanvas::ValueOutput_1<::System::String*>* valueOutputBornPos; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::String*>* valueInputPos3BornPos; // 0xD8
-		::FlowCanvas::ValueInput_1<::System::Int32>* valueInputCurrent; // 0xE0
-		::FlowCanvas::FlowInput* input; // 0xE8
-		::System::String* bornPos; // 0xF0
+		::FlowCanvas::ValueInput_1<::System::String*>* valueInputPos1BornPos; // 0xD0
+		::FlowCanvas::ValueInput_1<::System::String*>* valueInputPos2BornPos; // 0xD8
+		::FlowCanvas::ValueOutput_1<::System::String*>* valueOutputBornPos; // 0xE0
+		::FlowCanvas::FlowOutput* output; // 0xE8
+		::FlowCanvas::ValueInput_1<::System::String*>* valueInputPos3BornPos; // 0xF0
 		::System::Boolean isSuccess; // 0xF8
 
 		::System::Void _ctor()

@@ -3,28 +3,28 @@
 #include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_28F0414D4F296993;
+class IFLPGOKHDJI;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_VIEWOBJECT_STRUCTURES_FMEMBERALIVESTATECHECKACTION_CHECKEXECUTE_OFFSET UNITYSDK_OFFSET(0x803010)
-#define FOUNDATION_VIEWOBJECT_STRUCTURES_FMEMBERALIVESTATECHECKACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x803020)
-#define FOUNDATION_VIEWOBJECT_STRUCTURES_FMEMBERALIVESTATECHECKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x802FE0)
+#define FOUNDATION_VIEWOBJECT_STRUCTURES_FMEMBERALIVESTATECHECKACTION_CHECKEXECUTE_OFFSET UNITYSDK_OFFSET(0x7A9BC0)
+#define FOUNDATION_VIEWOBJECT_STRUCTURES_FMEMBERALIVESTATECHECKACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x7A9BD0)
+#define FOUNDATION_VIEWOBJECT_STRUCTURES_FMEMBERALIVESTATECHECKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x7A9B90)
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FMemberAliveStateCheckAction_TypeDefinitionIndex = 63950;
+	inline static constexpr unsigned int FMemberAliveStateCheckAction_TypeDefinitionIndex = 84059;
 
 	struct alignas(8) FMemberAliveStateCheckAction
 	{
 		::System::String* Name; // 0x10
 		::Foundation::ViewObject::ViewObjectHandle GroupHandle; // 0x18
-		::Class_1_28F0414D4F296993* Graph; // 0x28
+		::IFLPGOKHDJI* Graph; // 0x28
 		::System::Collections::Generic::List_1<::System::Int32>* TargetList; // 0x30
 
-		::System::Void _ctor(::System::String* name, ::Foundation::ViewObject::ViewObjectHandle groupHandle, ::Class_1_28F0414D4F296993* graph, ::System::Collections::Generic::List_1<::System::Int32>* targetList)
+		::System::Void _ctor(::System::String* name, ::Foundation::ViewObject::ViewObjectHandle groupHandle, ::IFLPGOKHDJI* graph, ::System::Collections::Generic::List_1<::System::Int32>* targetList)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Foundation::ViewObject::ViewObjectHandle, ::Class_1_28F0414D4F296993*, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_STRUCTURES_FMEMBERALIVESTATECHECKACTION__CTOR_OFFSET))(this, name, groupHandle, graph, targetList);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Foundation::ViewObject::ViewObjectHandle, ::IFLPGOKHDJI*, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_STRUCTURES_FMEMBERALIVESTATECHECKACTION__CTOR_OFFSET))(this, name, groupHandle, graph, targetList);
 		}
 
 		::System::Boolean CheckExecute()

@@ -2,15 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_CEF0D076577A9E4E;
+class CKGNBCLLHMK;
 
-#define MOLEMOLE_UIWORKBENCHTRUSTDEGREEPAGECONTROLLER___C__DISPLAYCLASS6_3__CTOR_OFFSET UNITYSDK_OFFSET(0x12E4CBD0)
-#define MOLEMOLE_UIWORKBENCHTRUSTDEGREEPAGECONTROLLER___C__DISPLAYCLASS6_3__ONUIOPEN_B__5_OFFSET UNITYSDK_OFFSET(0x12E4CBE0)
+#define MOLEMOLE_UIWORKBENCHTRUSTDEGREEPAGECONTROLLER___C__DISPLAYCLASS6_3__CTOR_OFFSET UNITYSDK_OFFSET(0x164E7C00)
+#define MOLEMOLE_UIWORKBENCHTRUSTDEGREEPAGECONTROLLER___C__DISPLAYCLASS6_3__ONUIOPEN_B__5_OFFSET UNITYSDK_OFFSET(0x164E7C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkBenchTrustDegreePageController___c__DisplayClass6_3_TypeDefinitionIndex = 58041;
+	inline static constexpr unsigned int UIWorkBenchTrustDegreePageController___c__DisplayClass6_3_TypeDefinitionIndex = 42270;
 
+	template <typename T1, typename T2, typename T3>
 	class UIWorkBenchTrustDegreePageController___c__DisplayClass6_3 : public ::System::Object
 	{
 	public:
@@ -21,9 +22,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIWORKBENCHTRUSTDEGREEPAGECONTROLLER___C__DISPLAYCLASS6_3__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _OnUIOpen_b__5(::Class_2_CEF0D076577A9E4E* template_)
+		::System::Boolean _OnUIOpen_b__5(::CKGNBCLLHMK* template_)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_CEF0D076577A9E4E*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIWORKBENCHTRUSTDEGREEPAGECONTROLLER___C__DISPLAYCLASS6_3__ONUIOPEN_B__5_OFFSET))(this, template_);
+			return ((::System::Boolean(*)(::PVOID, ::CKGNBCLLHMK*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIWORKBENCHTRUSTDEGREEPAGECONTROLLER___C__DISPLAYCLASS6_3__ONUIOPEN_B__5_OFFSET))(this, template_);
 		}
 	};
 }

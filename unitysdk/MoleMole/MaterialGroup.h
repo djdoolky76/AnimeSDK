@@ -14,44 +14,44 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define MOLEMOLE_MATERIALGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x136C5240)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x136C8840)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_3B3DC4D6C58B78C4_OFFSET UNITYSDK_OFFSET(0x136C7AD0)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_435AAB4498057B1D_OFFSET UNITYSDK_OFFSET(0x136C8880)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_4B7B2807E33723C8_OFFSET UNITYSDK_OFFSET(0x136C8270)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_51B9C64C69C57DB4_OFFSET UNITYSDK_OFFSET(0x136C5640)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_5AFCDA44F3E7F93E_OFFSET UNITYSDK_OFFSET(0x136C8360)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_73848A1A591EE38C_OFFSET UNITYSDK_OFFSET(0x136C8210)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_816ED7FC0A7FCCD1_OFFSET UNITYSDK_OFFSET(0x136C56B0)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_871AE5998998B6B7_OFFSET UNITYSDK_OFFSET(0x136C6320)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_99F150381B61899B_OFFSET UNITYSDK_OFFSET(0x136C5880)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_9B1F2653496E5C47_OFFSET UNITYSDK_OFFSET(0x136C52D0)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_A56084A2648D35E3_OFFSET UNITYSDK_OFFSET(0x136C6130)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_BE40E133AEDCC564_OFFSET UNITYSDK_OFFSET(0x136C73E0)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_C3F5B006C922A2D1_OFFSET UNITYSDK_OFFSET(0x136C69E0)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x136C62D0)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_D24E394C1D3224A9_OFFSET UNITYSDK_OFFSET(0x136C6E90)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_E58F1D67CF0EB396_OFFSET UNITYSDK_OFFSET(0x136C7D80)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_E866E78CAA8884E1_OFFSET UNITYSDK_OFFSET(0x136C7370)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_EA3FEDCCBC59C89F_OFFSET UNITYSDK_OFFSET(0x136C7260)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_EFC240F3C4F78D48_OFFSET UNITYSDK_OFFSET(0x136C6F60)
-#define MOLEMOLE_MATERIALGROUP_METHOD_1_FD055F0BA6D9DCC7_OFFSET UNITYSDK_OFFSET(0x136C7ED0)
-#define MOLEMOLE_MATERIALGROUP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x136C51E0)
-#define MOLEMOLE_MATERIALGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x136C55F0)
-#define MOLEMOLE_MATERIALGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x136C5170)
+#define MOLEMOLE_MATERIALGROUP_BEIEDHFLCEL_OFFSET UNITYSDK_OFFSET(0x135A3C80)
+#define MOLEMOLE_MATERIALGROUP_BLKPPNAOJMK_OFFSET UNITYSDK_OFFSET(0x135A2CA0)
+#define MOLEMOLE_MATERIALGROUP_DEPOEEFCBFL_OFFSET UNITYSDK_OFFSET(0x135A2050)
+#define MOLEMOLE_MATERIALGROUP_DGNAAPGKIPL_OFFSET UNITYSDK_OFFSET(0x135A46C0)
+#define MOLEMOLE_MATERIALGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x135A12B0)
+#define MOLEMOLE_MATERIALGROUP_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x135A4A00)
+#define MOLEMOLE_MATERIALGROUP_EDCDNMDLKBA_OFFSET UNITYSDK_OFFSET(0x135A23A0)
+#define MOLEMOLE_MATERIALGROUP_EEKEHNHBIIA_OFFSET UNITYSDK_OFFSET(0x135A25E0)
+#define MOLEMOLE_MATERIALGROUP_EHCLANCAPOL_OFFSET UNITYSDK_OFFSET(0x135A4520)
+#define MOLEMOLE_MATERIALGROUP_EMLDIHEBNBO_OFFSET UNITYSDK_OFFSET(0x135A4B50)
+#define MOLEMOLE_MATERIALGROUP_FAGAGHEJBOO_OFFSET UNITYSDK_OFFSET(0x135A1DA0)
+#define MOLEMOLE_MATERIALGROUP_FCPKJPBOLNC_OFFSET UNITYSDK_OFFSET(0x135A1340)
+#define MOLEMOLE_MATERIALGROUP_HLLDEDDMAFA_OFFSET UNITYSDK_OFFSET(0x135A3500)
+#define MOLEMOLE_MATERIALGROUP_IPNIPMIHJBG_OFFSET UNITYSDK_OFFSET(0x135A2490)
+#define MOLEMOLE_MATERIALGROUP_JFMCDDAFPEM_OFFSET UNITYSDK_OFFSET(0x135A20A0)
+#define MOLEMOLE_MATERIALGROUP_JODKHDMAHPM_OFFSET UNITYSDK_OFFSET(0x135A4A40)
+#define MOLEMOLE_MATERIALGROUP_KAPACODHJHI_OFFSET UNITYSDK_OFFSET(0x135A3040)
+#define MOLEMOLE_MATERIALGROUP_LJPHFIGGOJJ_OFFSET UNITYSDK_OFFSET(0x135A35D0)
+#define MOLEMOLE_MATERIALGROUP_NKLIPEFHBON_OFFSET UNITYSDK_OFFSET(0x135A16B0)
+#define MOLEMOLE_MATERIALGROUP_NONLGJIGJFJ_OFFSET UNITYSDK_OFFSET(0x135A37A0)
+#define MOLEMOLE_MATERIALGROUP_OJJAHCDMHFG_1_OFFSET UNITYSDK_OFFSET(0x135A4C20)
+#define MOLEMOLE_MATERIALGROUP_OJJAHCDMHFG_OFFSET UNITYSDK_OFFSET(0x135A3560)
+#define MOLEMOLE_MATERIALGROUP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x135A1250)
+#define MOLEMOLE_MATERIALGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x135A1660)
+#define MOLEMOLE_MATERIALGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x135A11E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MaterialGroup_TypeDefinitionIndex = 82993;
+	inline static constexpr unsigned int MaterialGroup_TypeDefinitionIndex = 48527;
 
 	class MaterialGroup : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::MoleMole::MaterialGroup_RendererMaterials*>** StaticGet_EMPTY_RENDERER_MATERIALS()
+		static ::Il2CppArray<::System::Object*>** StaticGet_EMPTY_RENDERER_MATERIALS()
 		{
-			return (::Il2CppArray<::MoleMole::MaterialGroup_RendererMaterials*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialGroup_TypeDefinitionIndex)->GetStaticField(0x4D720);
+			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialGroup_TypeDefinitionIndex)->GetStaticField(0x50C50);
 		}
-		::Il2CppArray<::MoleMole::MaterialGroup_RendererMaterials*>* entries; // 0x10
+		::Il2CppArray<::System::Object*>* entries; // 0x10
 		::Il2CppArray<::UnityEngine::Material*>* allInstancedMats; // 0x18
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Tuple_2<::UnityEngine::Renderer*, ::System::Int32>*>* matInfos; // 0x20
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Shader*>* matOriginalShaders; // 0x28
@@ -77,109 +77,109 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_51B9C64C69C57DB4(::UnityEngine::Shader* a1, ::Il2CppArray<::UnityEngine::Material*>* a2)
+		::System::Int32 NKLIPEFHBON(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Renderer*>* CKPOFHOEFOD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Shader*, ::Il2CppArray<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_51B9C64C69C57DB4_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_NKLIPEFHBON_OFFSET))(this, CKPOFHOEFOD);
 		}
 
-		::System::Int32 Method_1_99F150381B61899B(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Renderer*>* a1)
+		::Il2CppArray<::UnityEngine::Material*>* EDCDNMDLKBA(::System::Int32 EALOBKIJLND)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_99F150381B61899B_OFFSET))(this, a1);
+			return ((::Il2CppArray<::UnityEngine::Material*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_EDCDNMDLKBA_OFFSET))(this, EALOBKIJLND);
 		}
 
-		::System::Void Method_1_9B1F2653496E5C47()
+		::System::ValueTuple_3<::System::Boolean, ::UnityEngine::Renderer*, ::System::Int32> IPNIPMIHJBG(::UnityEngine::Material* KNNDDLMOKCG)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_9B1F2653496E5C47_OFFSET))(this);
+			return ((::System::ValueTuple_3<::System::Boolean, ::UnityEngine::Renderer*, ::System::Int32>(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_IPNIPMIHJBG_OFFSET))(this, KNNDDLMOKCG);
 		}
 
-		::System::Int32 Method_1_871AE5998998B6B7()
+		::System::Void FCPKJPBOLNC()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_871AE5998998B6B7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_FCPKJPBOLNC_OFFSET))(this);
 		}
 
-		::Il2CppArray<::UnityEngine::Material*>* Method_1_C3F5B006C922A2D1()
+		::System::Int32 EEKEHNHBIIA()
 		{
-			return ((::Il2CppArray<::UnityEngine::Material*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_C3F5B006C922A2D1_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_EEKEHNHBIIA_OFFSET))(this);
 		}
 
-		::System::Void Method_1_816ED7FC0A7FCCD1()
+		::System::Void BLKPPNAOJMK(::Il2CppArray<::UnityEngine::Material*>* NGOIGCBKNGA)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_816ED7FC0A7FCCD1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_BLKPPNAOJMK_OFFSET))(this, NGOIGCBKNGA);
 		}
 
-		::System::Void Method_1_D24E394C1D3224A9(::Il2CppArray<::UnityEngine::Renderer*>* a1)
+		::System::Void OJJAHCDMHFG(::System::String* BHCDICHLODJ, ::Il2CppArray<::UnityEngine::Material*>* NGOIGCBKNGA)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_D24E394C1D3224A9_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_OJJAHCDMHFG_OFFSET))(this, BHCDICHLODJ, NGOIGCBKNGA);
 		}
 
-		::System::Void Method_1_EFC240F3C4F78D48(::System::Int32 a1)
+		::System::Void NONLGJIGJFJ(::Il2CppArray<::UnityEngine::Renderer*>* AEPONOJONAA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_EFC240F3C4F78D48_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_NONLGJIGJFJ_OFFSET))(this, AEPONOJONAA);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598()
+		::System::Void JFMCDDAFPEM(::System::Int32 GOECEKJPAMG)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_JFMCDDAFPEM_OFFSET))(this, GOECEKJPAMG);
 		}
 
-		::System::Void Method_1_EA3FEDCCBC59C89F(::System::Int32 a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2)
+		::System::Void LJPHFIGGOJJ()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_EA3FEDCCBC59C89F_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_LJPHFIGGOJJ_OFFSET))(this);
 		}
 
-		::System::Void Method_1_E866E78CAA8884E1(::System::String* a1, ::Il2CppArray<::UnityEngine::Material*>* a2)
+		::System::Int32 BEIEDHFLCEL(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Renderer*>* IOJGBEMMBLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_E866E78CAA8884E1_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_BEIEDHFLCEL_OFFSET))(this, IOJGBEMMBLI);
 		}
 
-		::System::Int32 Method_1_BE40E133AEDCC564(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Renderer*>* a1)
+		::MoleMole::MaterialGroup* DGNAAPGKIPL()
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_BE40E133AEDCC564_OFFSET))(this, a1);
+			return ((::MoleMole::MaterialGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_DGNAAPGKIPL_OFFSET))(this);
 		}
 
-		static ::System::Boolean Method_1_A56084A2648D35E3(::MoleMole::MaterialGroup_RendererMaterials* a1, ::System::Collections::Generic::HashSet_1<::UnityEngine::Renderer*>* a2)
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Shader*>* HLLDEDDMAFA()
 		{
-			return ((::System::Boolean(*)(::MoleMole::MaterialGroup_RendererMaterials*, ::System::Collections::Generic::HashSet_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_A56084A2648D35E3_OFFSET))(a1, a2);
+			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Shader*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_HLLDEDDMAFA_OFFSET))(this);
 		}
 
-		::System::ValueTuple_3<::System::Boolean, ::UnityEngine::Renderer*, ::System::Int32> Method_1_E58F1D67CF0EB396(::UnityEngine::Material* a1)
+		static ::System::Boolean EHCLANCAPOL(::MoleMole::MaterialGroup_RendererMaterials* AAIJGGIEOGK, ::System::Collections::Generic::HashSet_1<::UnityEngine::Renderer*>* NEHIDKKIDGL)
 		{
-			return ((::System::ValueTuple_3<::System::Boolean, ::UnityEngine::Renderer*, ::System::Int32>(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_E58F1D67CF0EB396_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::MoleMole::MaterialGroup_RendererMaterials*, ::System::Collections::Generic::HashSet_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_EHCLANCAPOL_OFFSET))(AAIJGGIEOGK, NEHIDKKIDGL);
 		}
 
-		::MoleMole::MaterialGroup* Method_1_FD055F0BA6D9DCC7()
+		::MoleMole::MaterialGroup_RendererMaterials* FAGAGHEJBOO(::UnityEngine::Renderer* OCFHGOGFGPE)
 		{
-			return ((::MoleMole::MaterialGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_FD055F0BA6D9DCC7_OFFSET))(this);
+			return ((::MoleMole::MaterialGroup_RendererMaterials*(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_FAGAGHEJBOO_OFFSET))(this, OCFHGOGFGPE);
 		}
 
-		::MoleMole::MaterialGroup_RendererMaterials* Method_1_3B3DC4D6C58B78C4(::UnityEngine::Renderer* a1)
+		::System::Void DEPOEEFCBFL()
 		{
-			return ((::MoleMole::MaterialGroup_RendererMaterials*(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_3B3DC4D6C58B78C4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_DEPOEEFCBFL_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Shader*>* Method_1_73848A1A591EE38C()
+		::System::String* DPIHOJBBGLA()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Shader*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_73848A1A591EE38C_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_DPIHOJBBGLA_OFFSET))(this);
 		}
 
-		::Il2CppArray<::UnityEngine::Material*>* Method_1_4B7B2807E33723C8(::System::Int32 a1)
+		::System::Void JODKHDMAHPM(::System::Int32 EALOBKIJLND, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* DJLOKMMLFJC)
 		{
-			return ((::Il2CppArray<::UnityEngine::Material*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_4B7B2807E33723C8_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_JODKHDMAHPM_OFFSET))(this, EALOBKIJLND, DJLOKMMLFJC);
 		}
 
-		::System::Void Method_1_5AFCDA44F3E7F93E(::Il2CppArray<::UnityEngine::Renderer*>* a1)
+		::System::Void EMLDIHEBNBO(::Il2CppArray<::UnityEngine::Renderer*>* AEPONOJONAA)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_5AFCDA44F3E7F93E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_EMLDIHEBNBO_OFFSET))(this, AEPONOJONAA);
 		}
 
-		::System::String* Method_1_128774387667156B()
+		::System::Void OJJAHCDMHFG_1(::UnityEngine::Shader* JMHHPCPIDPE, ::Il2CppArray<::UnityEngine::Material*>* NGOIGCBKNGA)
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_128774387667156B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Shader*, ::Il2CppArray<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_OJJAHCDMHFG_1_OFFSET))(this, JMHHPCPIDPE, NGOIGCBKNGA);
 		}
 
-		::System::Void Method_1_435AAB4498057B1D(::Il2CppArray<::UnityEngine::Material*>* a1)
+		::Il2CppArray<::UnityEngine::Material*>* KAPACODHJHI()
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_METHOD_1_435AAB4498057B1D_OFFSET))(this, a1);
+			return ((::Il2CppArray<::UnityEngine::Material*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALGROUP_KAPACODHJHI_OFFSET))(this);
 		}
 	};
 }

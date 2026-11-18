@@ -5,12 +5,12 @@
 
 namespace System::Security { class IPermission; }
 
-#define SYSTEM_NET_DNSPERMISSIONATTRIBUTE_CREATEPERMISSION_OFFSET UNITYSDK_OFFSET(0x1C702580)
-#define SYSTEM_NET_DNSPERMISSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C702570)
+#define SYSTEM_NET_DNSPERMISSIONATTRIBUTE_CREATEPERMISSION_OFFSET UNITYSDK_OFFSET(0x1CBE2160)
+#define SYSTEM_NET_DNSPERMISSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE2150)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int DnsPermissionAttribute_TypeDefinitionIndex = 4111;
+	inline static constexpr unsigned int DnsPermissionAttribute_TypeDefinitionIndex = 4110;
 
 	class DnsPermissionAttribute : public ::System::Security::Permissions::CodeAccessSecurityAttribute
 	{

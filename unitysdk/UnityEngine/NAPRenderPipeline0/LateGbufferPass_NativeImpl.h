@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/LayerMask.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/LayerMask.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class LateGbufferPassNativeState; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_LATEGBUFFERPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E319B70)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LATEGBUFFERPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E319BA0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LATEGBUFFERPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1E319B40)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LATEGBUFFERPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E319AB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LATEGBUFFERPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E544A80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LATEGBUFFERPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E544AB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LATEGBUFFERPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1E544A50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LATEGBUFFERPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5449C0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LateGbufferPass_NativeImpl_TypeDefinitionIndex = 5716;
+	inline static constexpr unsigned int LateGbufferPass_NativeImpl_TypeDefinitionIndex = 5721;
 
 	class LateGbufferPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

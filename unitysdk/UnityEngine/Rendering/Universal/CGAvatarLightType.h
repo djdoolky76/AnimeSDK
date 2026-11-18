@@ -3,12 +3,12 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CGAvatarLightType_TypeDefinitionIndex = 27173;
+	inline static constexpr unsigned int CGAvatarLightType_TypeDefinitionIndex = 27256;
 
 	enum class CGAvatarLightType : ::System::UInt32
 	{
-		Gradient = 0x0,
-		NoGradient = 0x1,
-		AttenuationOnly = 0x2,
+		NoGradient = 1,
+		AttenuationOnly = 2,
+		Gradient = 0,
 	};
 }

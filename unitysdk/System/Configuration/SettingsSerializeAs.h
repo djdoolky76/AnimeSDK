@@ -3,7 +3,7 @@
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SettingsSerializeAs_TypeDefinitionIndex = 4078;
+	inline static constexpr unsigned int SettingsSerializeAs_TypeDefinitionIndex = 4077;
 
 	enum class SettingsSerializeAs : ::System::Int32
 	{

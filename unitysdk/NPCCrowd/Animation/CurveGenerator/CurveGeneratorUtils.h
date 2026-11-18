@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation::CurveGenerator
 {
-	inline static constexpr unsigned int CurveGeneratorUtils_TypeDefinitionIndex = 72483;
+	inline static constexpr unsigned int CurveGeneratorUtils_TypeDefinitionIndex = 82699;
 
 	class CurveGeneratorUtils : public ::System::Object
 	{

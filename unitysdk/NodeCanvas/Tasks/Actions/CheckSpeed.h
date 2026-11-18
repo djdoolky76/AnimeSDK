@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ConditionTask_1.h"
 #include "unitysdk/ParadoxNotion/CompareMethod.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
-namespace UnityEngine { class Rigidbody; }
 
-#define NODECANVAS_TASKS_ACTIONS_CHECKSPEED_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E8C3640)
-#define NODECANVAS_TASKS_ACTIONS_CHECKSPEED_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1E8C36D0)
-#define NODECANVAS_TASKS_ACTIONS_CHECKSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C37F0)
+#define NODECANVAS_TASKS_ACTIONS_CHECKSPEED_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EB88F30)
+#define NODECANVAS_TASKS_ACTIONS_CHECKSPEED_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EB88FC0)
+#define NODECANVAS_TASKS_ACTIONS_CHECKSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB890E0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int CheckSpeed_TypeDefinitionIndex = 29765;
+	inline static constexpr unsigned int CheckSpeed_TypeDefinitionIndex = 30172;
 
-	class CheckSpeed : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Rigidbody*>
+	class CheckSpeed
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* value; // 0x60

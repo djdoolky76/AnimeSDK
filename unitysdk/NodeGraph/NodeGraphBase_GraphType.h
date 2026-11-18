@@ -3,13 +3,13 @@
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int NodeGraphBase_GraphType_TypeDefinitionIndex = 85157;
+	inline static constexpr unsigned int NodeGraphBase_GraphType_TypeDefinitionIndex = 52049;
 
 	enum class NodeGraphBase_GraphType : ::System::Int32
 	{
-		Function = 1,
 		Child = 3,
-		Normal = 0,
 		Macro = 2,
+		Normal = 0,
+		Function = 1,
 	};
 }

@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_ITEMROTATE_START_OFFSET UNITYSDK_OFFSET(0x129AAFF0)
-#define MOLEMOLE_ITEMROTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0x129AB030)
-#define MOLEMOLE_ITEMROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x129AB1D0)
+#define MOLEMOLE_ITEMROTATE_START_OFFSET UNITYSDK_OFFSET(0x1246A990)
+#define MOLEMOLE_ITEMROTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1246A9D0)
+#define MOLEMOLE_ITEMROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1246AB70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ItemRotate_TypeDefinitionIndex = 63011;
+	inline static constexpr unsigned int ItemRotate_TypeDefinitionIndex = 42132;
 
 	class ItemRotate : public ::UnityEngine::MonoBehaviour
 	{

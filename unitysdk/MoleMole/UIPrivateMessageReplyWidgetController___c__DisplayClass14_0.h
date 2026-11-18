@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_794BA983EDDBCFDE_Class_1_6142B71DCEBDB866;
+class MLJGMELKNCC_LKHJFCFGKEK;
 namespace MoleMole { class UIPrivateMessageReplyWidgetController; }
 
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174876A0)
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS14_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x174876B0)
-#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS14_0__ONSCROLLITEMUPDATE_G__GETFINALREPLYTYPE_1_OFFSET UNITYSDK_OFFSET(0x17487760)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167997A0)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS14_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x167997B0)
+#define MOLEMOLE_UIPRIVATEMESSAGEREPLYWIDGETCONTROLLER___C__DISPLAYCLASS14_0__ONSCROLLITEMUPDATE_G__GETFINALREPLYTYPE_1_OFFSET UNITYSDK_OFFSET(0x16799860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 56245;
+	inline static constexpr unsigned int UIPrivateMessageReplyWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 80480;
 
 	class UIPrivateMessageReplyWidgetController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::Class_1_794BA983EDDBCFDE_Class_1_6142B71DCEBDB866* singleMessage; // 0x10
-		::MoleMole::UIPrivateMessageReplyWidgetController* __4__this; // 0x18
+		::MoleMole::UIPrivateMessageReplyWidgetController* __4__this; // 0x10
+		::MLJGMELKNCC_LKHJFCFGKEK* singleMessage; // 0x18
 
 		::System::Void _ctor()
 		{

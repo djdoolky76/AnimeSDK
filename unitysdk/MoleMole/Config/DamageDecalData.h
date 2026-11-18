@@ -6,14 +6,16 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DamageDecalData_TypeDefinitionIndex = 57615;
+	inline static constexpr unsigned int DamageDecalData_TypeDefinitionIndex = 66790;
 
 	struct alignas(4) DamageDecalData
 	{
 		::MoleMole::Config::CharacterDamageDecalType DecalType; // 0x10
 		::System::Boolean IsOverrideLifetime; // 0x14
+		::System::Byte _padding0[0x3];
 		::System::Single OverrideLifetime; // 0x18
 		::System::Boolean IsOverrideColor; // 0x1C
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Color OverrideColor; // 0x20
 	};
 }

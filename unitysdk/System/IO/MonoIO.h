@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/IO/FileAccess.h"
 #include "unitysdk/System/IO/FileAttributes.h"
 #include "unitysdk/System/IO/FileMode.h"
@@ -8,87 +7,88 @@
 #include "unitysdk/System/IO/FileShare.h"
 #include "unitysdk/System/IO/MonoFileType.h"
 #include "unitysdk/System/IO/MonoIOError.h"
-#include "unitysdk/System/IO/MonoIOStat.h"
 #include "unitysdk/System/IO/SeekOrigin.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/IO/MonoIOStat.h"
+#include "unitysdk/System/DateTime.h"
 
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::InteropServices { class SafeHandle; }
 
-#define SYSTEM_IO_MONOIO_CLOSE_OFFSET UNITYSDK_OFFSET(0x1CCB0C80)
-#define SYSTEM_IO_MONOIO_COPYFILE_1_OFFSET UNITYSDK_OFFSET(0x1CCB09C0)
-#define SYSTEM_IO_MONOIO_COPYFILE_OFFSET UNITYSDK_OFFSET(0x1CCB09B0)
-#define SYSTEM_IO_MONOIO_CREATEDIRECTORY_1_OFFSET UNITYSDK_OFFSET(0x1CCB0940)
-#define SYSTEM_IO_MONOIO_CREATEDIRECTORY_OFFSET UNITYSDK_OFFSET(0x1CCB0930)
-#define SYSTEM_IO_MONOIO_CREATEPIPE_OFFSET UNITYSDK_OFFSET(0x1CCB17B0)
-#define SYSTEM_IO_MONOIO_DELETEFILE_1_OFFSET UNITYSDK_OFFSET(0x1CCB09F0)
-#define SYSTEM_IO_MONOIO_DELETEFILE_OFFSET UNITYSDK_OFFSET(0x1CCB09E0)
-#define SYSTEM_IO_MONOIO_DUMPHANDLES_OFFSET UNITYSDK_OFFSET(0x1CCB0920)
-#define SYSTEM_IO_MONOIO_DUPLICATEHANDLE_OFFSET UNITYSDK_OFFSET(0x1CCB1800)
-#define SYSTEM_IO_MONOIO_EXISTSDIRECTORY_OFFSET UNITYSDK_OFFSET(0x1CCB0BD0)
-#define SYSTEM_IO_MONOIO_EXISTSFILE_OFFSET UNITYSDK_OFFSET(0x1CCB0BB0)
-#define SYSTEM_IO_MONOIO_EXISTSSYMLINK_OFFSET UNITYSDK_OFFSET(0x1CCB0C10)
-#define SYSTEM_IO_MONOIO_EXISTS_OFFSET UNITYSDK_OFFSET(0x1CCB0B90)
-#define SYSTEM_IO_MONOIO_FINDCLOSEFILE_OFFSET UNITYSDK_OFFSET(0x1CCB0B40)
-#define SYSTEM_IO_MONOIO_FINDFIRSTFILE_1_OFFSET UNITYSDK_OFFSET(0x1CCB0B20)
-#define SYSTEM_IO_MONOIO_FINDFIRSTFILE_OFFSET UNITYSDK_OFFSET(0x1CCB0B10)
-#define SYSTEM_IO_MONOIO_FINDNEXTFILE_OFFSET UNITYSDK_OFFSET(0x1CCB0B30)
-#define SYSTEM_IO_MONOIO_GETCURRENTDIRECTORY_OFFSET UNITYSDK_OFFSET(0x1CCB0970)
-#define SYSTEM_IO_MONOIO_GETEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x1CCAF9C0)
-#define SYSTEM_IO_MONOIO_GETEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1CCAF830)
-#define SYSTEM_IO_MONOIO_GETFILEATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1CCB0A10)
-#define SYSTEM_IO_MONOIO_GETFILEATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1CCB0A00)
-#define SYSTEM_IO_MONOIO_GETFILESTAT_1_OFFSET UNITYSDK_OFFSET(0x1CCB0C50)
-#define SYSTEM_IO_MONOIO_GETFILESTAT_OFFSET UNITYSDK_OFFSET(0x1CCB0C40)
-#define SYSTEM_IO_MONOIO_GETFILETYPE_1_OFFSET UNITYSDK_OFFSET(0x1CCB0A50)
-#define SYSTEM_IO_MONOIO_GETFILETYPE_OFFSET UNITYSDK_OFFSET(0x1CCB0A40)
-#define SYSTEM_IO_MONOIO_GETLENGTH_1_OFFSET UNITYSDK_OFFSET(0x1CCB1110)
-#define SYSTEM_IO_MONOIO_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1CCB10D0)
-#define SYSTEM_IO_MONOIO_GET_ALTDIRECTORYSEPARATORCHAR_OFFSET UNITYSDK_OFFSET(0x1CCB1870)
-#define SYSTEM_IO_MONOIO_GET_CONSOLEERROR_OFFSET UNITYSDK_OFFSET(0x1CCB17A0)
-#define SYSTEM_IO_MONOIO_GET_CONSOLEINPUT_OFFSET UNITYSDK_OFFSET(0x1CCB1790)
-#define SYSTEM_IO_MONOIO_GET_CONSOLEOUTPUT_OFFSET UNITYSDK_OFFSET(0x1CCB1780)
-#define SYSTEM_IO_MONOIO_GET_DIRECTORYSEPARATORCHAR_OFFSET UNITYSDK_OFFSET(0x1CCB1860)
-#define SYSTEM_IO_MONOIO_GET_PATHSEPARATOR_OFFSET UNITYSDK_OFFSET(0x1CCB1880)
-#define SYSTEM_IO_MONOIO_GET_VOLUMESEPARATORCHAR_OFFSET UNITYSDK_OFFSET(0x1CCB1850)
-#define SYSTEM_IO_MONOIO_MOVEFILE_1_OFFSET UNITYSDK_OFFSET(0x1CCB0990)
-#define SYSTEM_IO_MONOIO_MOVEFILE_OFFSET UNITYSDK_OFFSET(0x1CCB0980)
-#define SYSTEM_IO_MONOIO_OPEN_1_OFFSET UNITYSDK_OFFSET(0x1CCB0C70)
-#define SYSTEM_IO_MONOIO_OPEN_OFFSET UNITYSDK_OFFSET(0x1CCB0C60)
-#define SYSTEM_IO_MONOIO_READ_1_OFFSET UNITYSDK_OFFSET(0x1CCB0D20)
-#define SYSTEM_IO_MONOIO_READ_OFFSET UNITYSDK_OFFSET(0x1CCB0CB0)
-#define SYSTEM_IO_MONOIO_REMAPPATH_OFFSET UNITYSDK_OFFSET(0x1CCB1890)
-#define SYSTEM_IO_MONOIO_REMOVEDIRECTORY_1_OFFSET UNITYSDK_OFFSET(0x1CCB0960)
-#define SYSTEM_IO_MONOIO_REMOVEDIRECTORY_OFFSET UNITYSDK_OFFSET(0x1CCB0950)
-#define SYSTEM_IO_MONOIO_SEEK_1_OFFSET UNITYSDK_OFFSET(0x1CCB0FD0)
-#define SYSTEM_IO_MONOIO_SEEK_OFFSET UNITYSDK_OFFSET(0x1CCB0F90)
-#define SYSTEM_IO_MONOIO_SETFILEATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1CCB0A30)
-#define SYSTEM_IO_MONOIO_SETFILEATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1CCB0A20)
-#define SYSTEM_IO_MONOIO_SETFILETIME_1_OFFSET UNITYSDK_OFFSET(0x1CCB1440)
-#define SYSTEM_IO_MONOIO_SETFILETIME_2_OFFSET UNITYSDK_OFFSET(0x1CCB15A0)
-#define SYSTEM_IO_MONOIO_SETFILETIME_OFFSET UNITYSDK_OFFSET(0x1CCB13D0)
-#define SYSTEM_IO_MONOIO_SETLASTWRITETIME_OFFSET UNITYSDK_OFFSET(0x1CCB1560)
-#define SYSTEM_IO_MONOIO_SETLENGTH_1_OFFSET UNITYSDK_OFFSET(0x1CCB1290)
-#define SYSTEM_IO_MONOIO_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x1CCB1200)
-#define SYSTEM_IO_MONOIO_WRITE_1_OFFSET UNITYSDK_OFFSET(0x1CCB0E90)
-#define SYSTEM_IO_MONOIO_WRITE_OFFSET UNITYSDK_OFFSET(0x1CCB0E60)
-#define SYSTEM_IO_MONOIO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCB18A0)
+#define SYSTEM_IO_MONOIO_CLOSE_OFFSET UNITYSDK_OFFSET(0x1D1B1EB0)
+#define SYSTEM_IO_MONOIO_COPYFILE_1_OFFSET UNITYSDK_OFFSET(0x1D1B1BF0)
+#define SYSTEM_IO_MONOIO_COPYFILE_OFFSET UNITYSDK_OFFSET(0x1D1B1BE0)
+#define SYSTEM_IO_MONOIO_CREATEDIRECTORY_1_OFFSET UNITYSDK_OFFSET(0x1D1B1B70)
+#define SYSTEM_IO_MONOIO_CREATEDIRECTORY_OFFSET UNITYSDK_OFFSET(0x1D1B1B60)
+#define SYSTEM_IO_MONOIO_CREATEPIPE_OFFSET UNITYSDK_OFFSET(0x1D1B29E0)
+#define SYSTEM_IO_MONOIO_DELETEFILE_1_OFFSET UNITYSDK_OFFSET(0x1D1B1C20)
+#define SYSTEM_IO_MONOIO_DELETEFILE_OFFSET UNITYSDK_OFFSET(0x1D1B1C10)
+#define SYSTEM_IO_MONOIO_DUMPHANDLES_OFFSET UNITYSDK_OFFSET(0x1D1B1B50)
+#define SYSTEM_IO_MONOIO_DUPLICATEHANDLE_OFFSET UNITYSDK_OFFSET(0x1D1B2A30)
+#define SYSTEM_IO_MONOIO_EXISTSDIRECTORY_OFFSET UNITYSDK_OFFSET(0x1D1B1E00)
+#define SYSTEM_IO_MONOIO_EXISTSFILE_OFFSET UNITYSDK_OFFSET(0x1D1B1DE0)
+#define SYSTEM_IO_MONOIO_EXISTSSYMLINK_OFFSET UNITYSDK_OFFSET(0x1D1B1E40)
+#define SYSTEM_IO_MONOIO_EXISTS_OFFSET UNITYSDK_OFFSET(0x1D1B1DC0)
+#define SYSTEM_IO_MONOIO_FINDCLOSEFILE_OFFSET UNITYSDK_OFFSET(0x1D1B1D70)
+#define SYSTEM_IO_MONOIO_FINDFIRSTFILE_1_OFFSET UNITYSDK_OFFSET(0x1D1B1D50)
+#define SYSTEM_IO_MONOIO_FINDFIRSTFILE_OFFSET UNITYSDK_OFFSET(0x1D1B1D40)
+#define SYSTEM_IO_MONOIO_FINDNEXTFILE_OFFSET UNITYSDK_OFFSET(0x1D1B1D60)
+#define SYSTEM_IO_MONOIO_GETCURRENTDIRECTORY_OFFSET UNITYSDK_OFFSET(0x1D1B1BA0)
+#define SYSTEM_IO_MONOIO_GETEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x1D1B0BF0)
+#define SYSTEM_IO_MONOIO_GETEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1D1B0A60)
+#define SYSTEM_IO_MONOIO_GETFILEATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1D1B1C40)
+#define SYSTEM_IO_MONOIO_GETFILEATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1D1B1C30)
+#define SYSTEM_IO_MONOIO_GETFILESTAT_1_OFFSET UNITYSDK_OFFSET(0x1D1B1E80)
+#define SYSTEM_IO_MONOIO_GETFILESTAT_OFFSET UNITYSDK_OFFSET(0x1D1B1E70)
+#define SYSTEM_IO_MONOIO_GETFILETYPE_1_OFFSET UNITYSDK_OFFSET(0x1D1B1C80)
+#define SYSTEM_IO_MONOIO_GETFILETYPE_OFFSET UNITYSDK_OFFSET(0x1D1B1C70)
+#define SYSTEM_IO_MONOIO_GETLENGTH_1_OFFSET UNITYSDK_OFFSET(0x1D1B2340)
+#define SYSTEM_IO_MONOIO_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1D1B2300)
+#define SYSTEM_IO_MONOIO_GET_ALTDIRECTORYSEPARATORCHAR_OFFSET UNITYSDK_OFFSET(0x1D1B2AA0)
+#define SYSTEM_IO_MONOIO_GET_CONSOLEERROR_OFFSET UNITYSDK_OFFSET(0x1D1B29D0)
+#define SYSTEM_IO_MONOIO_GET_CONSOLEINPUT_OFFSET UNITYSDK_OFFSET(0x1D1B29C0)
+#define SYSTEM_IO_MONOIO_GET_CONSOLEOUTPUT_OFFSET UNITYSDK_OFFSET(0x1D1B29B0)
+#define SYSTEM_IO_MONOIO_GET_DIRECTORYSEPARATORCHAR_OFFSET UNITYSDK_OFFSET(0x1D1B2A90)
+#define SYSTEM_IO_MONOIO_GET_PATHSEPARATOR_OFFSET UNITYSDK_OFFSET(0x1D1B2AB0)
+#define SYSTEM_IO_MONOIO_GET_VOLUMESEPARATORCHAR_OFFSET UNITYSDK_OFFSET(0x1D1B2A80)
+#define SYSTEM_IO_MONOIO_MOVEFILE_1_OFFSET UNITYSDK_OFFSET(0x1D1B1BC0)
+#define SYSTEM_IO_MONOIO_MOVEFILE_OFFSET UNITYSDK_OFFSET(0x1D1B1BB0)
+#define SYSTEM_IO_MONOIO_OPEN_1_OFFSET UNITYSDK_OFFSET(0x1D1B1EA0)
+#define SYSTEM_IO_MONOIO_OPEN_OFFSET UNITYSDK_OFFSET(0x1D1B1E90)
+#define SYSTEM_IO_MONOIO_READ_1_OFFSET UNITYSDK_OFFSET(0x1D1B1F50)
+#define SYSTEM_IO_MONOIO_READ_OFFSET UNITYSDK_OFFSET(0x1D1B1EE0)
+#define SYSTEM_IO_MONOIO_REMAPPATH_OFFSET UNITYSDK_OFFSET(0x1D1B2AC0)
+#define SYSTEM_IO_MONOIO_REMOVEDIRECTORY_1_OFFSET UNITYSDK_OFFSET(0x1D1B1B90)
+#define SYSTEM_IO_MONOIO_REMOVEDIRECTORY_OFFSET UNITYSDK_OFFSET(0x1D1B1B80)
+#define SYSTEM_IO_MONOIO_SEEK_1_OFFSET UNITYSDK_OFFSET(0x1D1B2200)
+#define SYSTEM_IO_MONOIO_SEEK_OFFSET UNITYSDK_OFFSET(0x1D1B21C0)
+#define SYSTEM_IO_MONOIO_SETFILEATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1D1B1C60)
+#define SYSTEM_IO_MONOIO_SETFILEATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1D1B1C50)
+#define SYSTEM_IO_MONOIO_SETFILETIME_1_OFFSET UNITYSDK_OFFSET(0x1D1B2670)
+#define SYSTEM_IO_MONOIO_SETFILETIME_2_OFFSET UNITYSDK_OFFSET(0x1D1B27D0)
+#define SYSTEM_IO_MONOIO_SETFILETIME_OFFSET UNITYSDK_OFFSET(0x1D1B2600)
+#define SYSTEM_IO_MONOIO_SETLASTWRITETIME_OFFSET UNITYSDK_OFFSET(0x1D1B2790)
+#define SYSTEM_IO_MONOIO_SETLENGTH_1_OFFSET UNITYSDK_OFFSET(0x1D1B24C0)
+#define SYSTEM_IO_MONOIO_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x1D1B2430)
+#define SYSTEM_IO_MONOIO_WRITE_1_OFFSET UNITYSDK_OFFSET(0x1D1B20C0)
+#define SYSTEM_IO_MONOIO_WRITE_OFFSET UNITYSDK_OFFSET(0x1D1B2090)
+#define SYSTEM_IO_MONOIO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1B2AD0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int MonoIO_TypeDefinitionIndex = 685;
+	inline static constexpr unsigned int MonoIO_TypeDefinitionIndex = 684;
 
 	class MonoIO : public ::System::Object
 	{
 	public:
-		static ::System::IntPtr* StaticGet_InvalidHandle()
-		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(MonoIO_TypeDefinitionIndex)->GetStaticField(0xE0);
-		}
 		static ::System::Boolean* StaticGet_dump_handles()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoIO_TypeDefinitionIndex)->GetStaticField(0xE8);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoIO_TypeDefinitionIndex)->GetStaticField(0xE0);
+		}
+		static ::System::IntPtr* StaticGet_InvalidHandle()
+		{
+			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(MonoIO_TypeDefinitionIndex)->GetStaticField(0xE8);
 		}
 
 		static ::System::Void _cctor()
@@ -106,9 +106,9 @@ namespace System::IO
 			return ((::System::Exception*(*)(::System::String*, ::System::IO::MonoIOError))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_GETEXCEPTION_1_OFFSET))(path, error);
 		}
 
-		static ::System::Boolean CreateDirectory(::System::Char* path, ::System::IO::MonoIOError& error)
+		static ::System::Boolean CreateDirectory(::PVOID path, ::System::IO::MonoIOError& error)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_CREATEDIRECTORY_OFFSET))(path, error);
+			return ((::System::Boolean(*)(::PVOID, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_CREATEDIRECTORY_OFFSET))(path, error);
 		}
 
 		static ::System::Boolean CreateDirectory_1(::System::String* path, ::System::IO::MonoIOError& error)
@@ -116,9 +116,9 @@ namespace System::IO
 			return ((::System::Boolean(*)(::System::String*, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_CREATEDIRECTORY_1_OFFSET))(path, error);
 		}
 
-		static ::System::Boolean RemoveDirectory(::System::Char* path, ::System::IO::MonoIOError& error)
+		static ::System::Boolean RemoveDirectory(::PVOID path, ::System::IO::MonoIOError& error)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_REMOVEDIRECTORY_OFFSET))(path, error);
+			return ((::System::Boolean(*)(::PVOID, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_REMOVEDIRECTORY_OFFSET))(path, error);
 		}
 
 		static ::System::Boolean RemoveDirectory_1(::System::String* path, ::System::IO::MonoIOError& error)
@@ -131,9 +131,9 @@ namespace System::IO
 			return ((::System::String*(*)(::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_GETCURRENTDIRECTORY_OFFSET))(error);
 		}
 
-		static ::System::Boolean MoveFile(::System::Char* path, ::System::Char* dest, ::System::IO::MonoIOError& error)
+		static ::System::Boolean MoveFile(::PVOID path, ::PVOID dest, ::System::IO::MonoIOError& error)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::Char*, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_MOVEFILE_OFFSET))(path, dest, error);
+			return ((::System::Boolean(*)(::PVOID, ::PVOID, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_MOVEFILE_OFFSET))(path, dest, error);
 		}
 
 		static ::System::Boolean MoveFile_1(::System::String* path, ::System::String* dest, ::System::IO::MonoIOError& error)
@@ -141,9 +141,9 @@ namespace System::IO
 			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_MOVEFILE_1_OFFSET))(path, dest, error);
 		}
 
-		static ::System::Boolean CopyFile(::System::Char* path, ::System::Char* dest, ::System::Boolean overwrite, ::System::IO::MonoIOError& error)
+		static ::System::Boolean CopyFile(::PVOID path, ::PVOID dest, ::System::Boolean overwrite, ::System::IO::MonoIOError& error)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::Char*, ::System::Boolean, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_COPYFILE_OFFSET))(path, dest, overwrite, error);
+			return ((::System::Boolean(*)(::PVOID, ::PVOID, ::System::Boolean, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_COPYFILE_OFFSET))(path, dest, overwrite, error);
 		}
 
 		static ::System::Boolean CopyFile_1(::System::String* path, ::System::String* dest, ::System::Boolean overwrite, ::System::IO::MonoIOError& error)
@@ -151,9 +151,9 @@ namespace System::IO
 			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Boolean, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_COPYFILE_1_OFFSET))(path, dest, overwrite, error);
 		}
 
-		static ::System::Boolean DeleteFile(::System::Char* path, ::System::IO::MonoIOError& error)
+		static ::System::Boolean DeleteFile(::PVOID path, ::System::IO::MonoIOError& error)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_DELETEFILE_OFFSET))(path, error);
+			return ((::System::Boolean(*)(::PVOID, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_DELETEFILE_OFFSET))(path, error);
 		}
 
 		static ::System::Boolean DeleteFile_1(::System::String* path, ::System::IO::MonoIOError& error)
@@ -161,9 +161,9 @@ namespace System::IO
 			return ((::System::Boolean(*)(::System::String*, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_DELETEFILE_1_OFFSET))(path, error);
 		}
 
-		static ::System::IO::FileAttributes GetFileAttributes(::System::Char* path, ::System::IO::MonoIOError& error)
+		static ::System::IO::FileAttributes GetFileAttributes(::PVOID path, ::System::IO::MonoIOError& error)
 		{
-			return ((::System::IO::FileAttributes(*)(::System::Char*, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_GETFILEATTRIBUTES_OFFSET))(path, error);
+			return ((::System::IO::FileAttributes(*)(::PVOID, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_GETFILEATTRIBUTES_OFFSET))(path, error);
 		}
 
 		static ::System::IO::FileAttributes GetFileAttributes_1(::System::String* path, ::System::IO::MonoIOError& error)
@@ -171,9 +171,9 @@ namespace System::IO
 			return ((::System::IO::FileAttributes(*)(::System::String*, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_GETFILEATTRIBUTES_1_OFFSET))(path, error);
 		}
 
-		static ::System::Boolean SetFileAttributes(::System::Char* path, ::System::IO::FileAttributes attrs, ::System::IO::MonoIOError& error)
+		static ::System::Boolean SetFileAttributes(::PVOID path, ::System::IO::FileAttributes attrs, ::System::IO::MonoIOError& error)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::IO::FileAttributes, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_SETFILEATTRIBUTES_OFFSET))(path, attrs, error);
+			return ((::System::Boolean(*)(::PVOID, ::System::IO::FileAttributes, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_SETFILEATTRIBUTES_OFFSET))(path, attrs, error);
 		}
 
 		static ::System::Boolean SetFileAttributes_1(::System::String* path, ::System::IO::FileAttributes attrs, ::System::IO::MonoIOError& error)
@@ -191,9 +191,9 @@ namespace System::IO
 			return ((::System::IO::MonoFileType(*)(::System::Runtime::InteropServices::SafeHandle*, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_GETFILETYPE_1_OFFSET))(safeHandle, error);
 		}
 
-		static ::System::IntPtr FindFirstFile(::System::Char* pathWithPattern, ::System::String*& fileName, ::System::Int32& fileAttr, ::System::Int32& error)
+		static ::System::IntPtr FindFirstFile(::PVOID pathWithPattern, ::System::String*& fileName, ::System::Int32& fileAttr, ::System::Int32& error)
 		{
-			return ((::System::IntPtr(*)(::System::Char*, ::System::String*&, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_FINDFIRSTFILE_OFFSET))(pathWithPattern, fileName, fileAttr, error);
+			return ((::System::IntPtr(*)(::PVOID, ::System::String*&, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_FINDFIRSTFILE_OFFSET))(pathWithPattern, fileName, fileAttr, error);
 		}
 
 		static ::System::IntPtr FindFirstFile_1(::System::String* pathWithPattern, ::System::String*& fileName, ::System::Int32& fileAttr, ::System::Int32& error)
@@ -231,9 +231,9 @@ namespace System::IO
 			return ((::System::Boolean(*)(::System::String*, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_EXISTSSYMLINK_OFFSET))(path, error);
 		}
 
-		static ::System::Boolean GetFileStat(::System::Char* path, ::System::IO::MonoIOStat& stat, ::System::IO::MonoIOError& error)
+		static ::System::Boolean GetFileStat(::PVOID path, ::System::IO::MonoIOStat& stat, ::System::IO::MonoIOError& error)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::IO::MonoIOStat&, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_GETFILESTAT_OFFSET))(path, stat, error);
+			return ((::System::Boolean(*)(::PVOID, ::System::IO::MonoIOStat&, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_GETFILESTAT_OFFSET))(path, stat, error);
 		}
 
 		static ::System::Boolean GetFileStat_1(::System::String* path, ::System::IO::MonoIOStat& stat, ::System::IO::MonoIOError& error)
@@ -241,9 +241,9 @@ namespace System::IO
 			return ((::System::Boolean(*)(::System::String*, ::System::IO::MonoIOStat&, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_GETFILESTAT_1_OFFSET))(path, stat, error);
 		}
 
-		static ::System::IntPtr Open(::System::Char* filename, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, ::System::IO::FileOptions options, ::System::IO::MonoIOError& error)
+		static ::System::IntPtr Open(::PVOID filename, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, ::System::IO::FileOptions options, ::System::IO::MonoIOError& error)
 		{
-			return ((::System::IntPtr(*)(::System::Char*, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare, ::System::IO::FileOptions, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_OPEN_OFFSET))(filename, mode, access, share, options, error);
+			return ((::System::IntPtr(*)(::PVOID, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare, ::System::IO::FileOptions, ::System::IO::MonoIOError&))((::PBYTE)hIl2Cpp + SYSTEM_IO_MONOIO_OPEN_OFFSET))(filename, mode, access, share, options, error);
 		}
 
 		static ::System::IntPtr Open_1(::System::String* filename, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, ::System::IO::FileOptions options, ::System::IO::MonoIOError& error)

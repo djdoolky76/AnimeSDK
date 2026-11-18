@@ -3,12 +3,12 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int LevelQuestOperation_TypeDefinitionIndex = 48449;
+	inline static constexpr unsigned int LevelQuestOperation_TypeDefinitionIndex = 56319;
 
 	enum class LevelQuestOperation : ::System::Int32
 	{
 		Fail = 1,
-		Cancel = 2,
 		Succeed = 0,
+		Cancel = 2,
 	};
 }

@@ -3,13 +3,13 @@
 
 namespace FlexBuffers
 {
-	inline static constexpr unsigned int BitWidth_TypeDefinitionIndex = 6740;
+	inline static constexpr unsigned int BitWidth_TypeDefinitionIndex = 6747;
 
 	enum class BitWidth : ::System::Byte
 	{
-		Width8 = 0x0,
-		Width16 = 0x1,
-		Width32 = 0x2,
-		Width64 = 0x3,
+		Width8 = 0,
+		Width16 = 1,
+		Width32 = 2,
+		Width64 = 3,
 	};
 }

@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
 
 namespace FlowCanvas { class FlowBreak; }
@@ -11,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ForEach_1___c__DisplayClass3_0_TypeDefinitionIndex = 31089;
+	inline static constexpr unsigned int ForEach_1___c__DisplayClass3_0_TypeDefinitionIndex = 29457;
 
 	template <typename T>
 	class ForEach_1___c__DisplayClass3_0 : public ::System::Object

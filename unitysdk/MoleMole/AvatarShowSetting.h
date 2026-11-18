@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_46109A8C628F1592.h"
+#include "unitysdk/GHCBONEALKD.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class AnimatorRandomIntConfig; }
@@ -13,27 +13,27 @@ namespace MoleMole { class UIAvatarLightSetting; }
 namespace MoleMole { class UIAvatarSetting; }
 namespace MoleMole { class UIModelBgSetting; }
 
-#define MOLEMOLE_AVATARSHOWSETTING_GETCAMERASETTING_OFFSET UNITYSDK_OFFSET(0x12A146F0)
-#define MOLEMOLE_AVATARSHOWSETTING_GETSKINOVERRIDESETTING_OFFSET UNITYSDK_OFFSET(0x12A147B0)
-#define MOLEMOLE_AVATARSHOWSETTING_GET_HASSECONDARYCHARACTER_OFFSET UNITYSDK_OFFSET(0x12A14680)
-#define MOLEMOLE_AVATARSHOWSETTING_SUPPORTSEDITTARGET_OFFSET UNITYSDK_OFFSET(0x12A14690)
-#define MOLEMOLE_AVATARSHOWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x12A145D0)
+#define MOLEMOLE_AVATARSHOWSETTING_GETCAMERASETTING_OFFSET UNITYSDK_OFFSET(0x13041E30)
+#define MOLEMOLE_AVATARSHOWSETTING_GETSKINOVERRIDESETTING_OFFSET UNITYSDK_OFFSET(0x13041EF0)
+#define MOLEMOLE_AVATARSHOWSETTING_GET_HASSECONDARYCHARACTER_OFFSET UNITYSDK_OFFSET(0x13041DC0)
+#define MOLEMOLE_AVATARSHOWSETTING_SUPPORTSEDITTARGET_OFFSET UNITYSDK_OFFSET(0x13041DD0)
+#define MOLEMOLE_AVATARSHOWSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x13041D10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AvatarShowSetting_TypeDefinitionIndex = 42543;
+	inline static constexpr unsigned int AvatarShowSetting_TypeDefinitionIndex = 87944;
 
 	class AvatarShowSetting : public ::System::Object
 	{
 	public:
-		::MoleMole::SkinOverrideShowSettingConfigs* SkinOverrideShowSettingConfigs; // 0x10
-		::MoleMole::UIAvatarCameraSetting* AvatarCameraSetting; // 0x18
-		::MoleMole::UIAvatarLightSetting* AvatarLightSetting; // 0x20
-		::MoleMole::UIModelBgSetting* ModelBgSetting; // 0x28
-		::MoleMole::UIAvatarAnimatorParamsSetting* AnimatorParamsSetting; // 0x30
-		::MoleMole::UIAvatarCameraAnimationSetting* AvatarCameraAnimSetting; // 0x38
-		::MoleMole::AnimatorRandomIntConfig* AnimatorRandomIntConfigs; // 0x40
-		::MoleMole::SecondaryCharacterShowSetting* SecondaryCharacterShowSetting; // 0x48
+		::MoleMole::AnimatorRandomIntConfig* AnimatorRandomIntConfigs; // 0x10
+		::MoleMole::UIModelBgSetting* ModelBgSetting; // 0x18
+		::MoleMole::UIAvatarCameraAnimationSetting* AvatarCameraAnimSetting; // 0x20
+		::MoleMole::SkinOverrideShowSettingConfigs* SkinOverrideShowSettingConfigs; // 0x28
+		::MoleMole::UIAvatarCameraSetting* AvatarCameraSetting; // 0x30
+		::MoleMole::UIAvatarAnimatorParamsSetting* AnimatorParamsSetting; // 0x38
+		::MoleMole::SecondaryCharacterShowSetting* SecondaryCharacterShowSetting; // 0x40
+		::MoleMole::UIAvatarLightSetting* AvatarLightSetting; // 0x48
 		::MoleMole::UIAvatarSetting* AvatarSetting; // 0x50
 
 		::System::Void _ctor()
@@ -46,14 +46,14 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_AVATARSHOWSETTING_GET_HASSECONDARYCHARACTER_OFFSET))(this);
 		}
 
-		::System::Boolean SupportsEditTarget(::Enum_3_46109A8C628F1592 target)
+		::System::Boolean SupportsEditTarget(::GHCBONEALKD target)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Enum_3_46109A8C628F1592))((::PBYTE)hIl2Cpp + MOLEMOLE_AVATARSHOWSETTING_SUPPORTSEDITTARGET_OFFSET))(this, target);
+			return ((::System::Boolean(*)(::PVOID, ::GHCBONEALKD))((::PBYTE)hIl2Cpp + MOLEMOLE_AVATARSHOWSETTING_SUPPORTSEDITTARGET_OFFSET))(this, target);
 		}
 
-		::MoleMole::UIAvatarCameraSetting* GetCameraSetting(::Enum_3_46109A8C628F1592 target)
+		::MoleMole::UIAvatarCameraSetting* GetCameraSetting(::GHCBONEALKD target)
 		{
-			return ((::MoleMole::UIAvatarCameraSetting*(*)(::PVOID, ::Enum_3_46109A8C628F1592))((::PBYTE)hIl2Cpp + MOLEMOLE_AVATARSHOWSETTING_GETCAMERASETTING_OFFSET))(this, target);
+			return ((::MoleMole::UIAvatarCameraSetting*(*)(::PVOID, ::GHCBONEALKD))((::PBYTE)hIl2Cpp + MOLEMOLE_AVATARSHOWSETTING_GETCAMERASETTING_OFFSET))(this, target);
 		}
 
 		::MoleMole::AvatarShowSetting* GetSkinOverrideSetting(::System::UInt32 skinID)

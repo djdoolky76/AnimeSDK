@@ -7,7 +7,7 @@ namespace Unity::Jobs
 	inline static constexpr unsigned int IJobExtensions_JobStruct_1_TypeDefinitionIndex = 5050;
 
 	template <typename T>
-	struct IJobExtensions_JobStruct_1
+	struct alignas(4) IJobExtensions_JobStruct_1
 	{
 		static ::System::IntPtr* StaticGet_jobReflectionData()
 		{

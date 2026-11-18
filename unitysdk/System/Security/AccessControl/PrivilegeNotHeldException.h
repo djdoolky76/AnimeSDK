@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/UnauthorizedAccessException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_PRIVILEGENOTHELDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1D8D1A90)
-#define SYSTEM_SECURITY_ACCESSCONTROL_PRIVILEGENOTHELDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D19D0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_PRIVILEGENOTHELDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1DDADF30)
+#define SYSTEM_SECURITY_ACCESSCONTROL_PRIVILEGENOTHELDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDADE70)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int PrivilegeNotHeldException_TypeDefinitionIndex = 997;
+	inline static constexpr unsigned int PrivilegeNotHeldException_TypeDefinitionIndex = 996;
 
 	class PrivilegeNotHeldException : public ::System::UnauthorizedAccessException
 	{

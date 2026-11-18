@@ -15,12 +15,12 @@ namespace MoleMole::Config { class ScopedFrontCameraControlConfigInput; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGDISPLAYCASE_TRYGETCFG_OFFSET UNITYSDK_OFFSET(0x177D80E0)
-#define MOLEMOLE_CONFIG_CONFIGDISPLAYCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x177D82C0)
+#define MOLEMOLE_CONFIG_CONFIGDISPLAYCASE_TRYGETCFG_OFFSET UNITYSDK_OFFSET(0x174F8030)
+#define MOLEMOLE_CONFIG_CONFIGDISPLAYCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x174F8210)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDisplayCase_TypeDefinitionIndex = 58794;
+	inline static constexpr unsigned int ConfigDisplayCase_TypeDefinitionIndex = 73162;
 
 	class ConfigDisplayCase : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -43,6 +43,7 @@ namespace MoleMole::Config
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::Config::DisplayCase::DisplayColliderCfgData>*>* CaseColliderCfgs; // 0xB8
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::DisplayCase::DisplayBoundsCfgData>* CaseBoundsCfgs; // 0xC0
 		::MoleMole::Photo::ScopedFrontCameraControlCameraConfig CameraConfig; // 0xC8
+		::System::Byte _padding0[0x4];
 		::MoleMole::Config::ScopedFrontCameraControlConfigInput* InputConfig; // 0xF8
 		::MoleMole::Config::SelectOutlineColor SelectCfg; // 0x100
 		::System::Collections::Generic::Dictionary_2<::MoleMole::DisplayCase::EDisplayItemSubType, ::MoleMole::Config::DisplayCase::DisplayManualCfg>* ItemManualDefaultCfg; // 0x120

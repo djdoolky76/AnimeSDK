@@ -3,7 +3,7 @@
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticle_MeshSharing_TypeDefinitionIndex = 34855;
+	inline static constexpr unsigned int UIParticle_MeshSharing_TypeDefinitionIndex = 34401;
 
 	enum class UIParticle_MeshSharing : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIGUICOMMON_DAMAGETEXT_CONFIGSPECIALDAMAGETEXTEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x162763E0)
+#define MOLEMOLE_CONFIGUICOMMON_DAMAGETEXT_CONFIGSPECIALDAMAGETEXTEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B35980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_DamageText_ConfigSpecialDamageTextExtra_TypeDefinitionIndex = 57554;
+	inline static constexpr unsigned int ConfigUICommon_DamageText_ConfigSpecialDamageTextExtra_TypeDefinitionIndex = 65934;
 
 	class ConfigUICommon_DamageText_ConfigSpecialDamageTextExtra : public ::System::Object
 	{

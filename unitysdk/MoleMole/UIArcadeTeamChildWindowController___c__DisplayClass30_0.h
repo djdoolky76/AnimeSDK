@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_BE6BF7909AD9D940;
+class FBHPDPBIGPK;
 namespace MoleMole { class UIArcadeTeamChildWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIARCADETEAMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x197DF640)
-#define MOLEMOLE_UIARCADETEAMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__SHOWFRIENDINVITEPOPWINDOW_B__0_OFFSET UNITYSDK_OFFSET(0x197DF650)
-#define MOLEMOLE_UIARCADETEAMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__SHOWFRIENDINVITEPOPWINDOW_B__1_OFFSET UNITYSDK_OFFSET(0x197DF7F0)
+#define MOLEMOLE_UIARCADETEAMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19833430)
+#define MOLEMOLE_UIARCADETEAMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__SHOWFRIENDINVITEPOPWINDOW_B__0_OFFSET UNITYSDK_OFFSET(0x19833440)
+#define MOLEMOLE_UIARCADETEAMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__SHOWFRIENDINVITEPOPWINDOW_B__1_OFFSET UNITYSDK_OFFSET(0x198335D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadeTeamChildWindowController___c__DisplayClass30_0_TypeDefinitionIndex = 65757;
+	inline static constexpr unsigned int UIArcadeTeamChildWindowController___c__DisplayClass30_0_TypeDefinitionIndex = 61217;
 
 	class UIArcadeTeamChildWindowController___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::MoleMole::UIArcadeTeamChildWindowController* __4__this; // 0x18
+		::MoleMole::UIArcadeTeamChildWindowController* __4__this; // 0x10
+		::System::Action* __9__1; // 0x18
 		::System::Int32 pos; // 0x20
 
 		::System::Void _ctor()
@@ -26,9 +26,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIARCADETEAMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ShowFriendInvitePopWindow_b__0(::Class_1_BE6BF7909AD9D940* info)
+		::System::Void _ShowFriendInvitePopWindow_b__0(::FBHPDPBIGPK* info)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_BE6BF7909AD9D940*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIARCADETEAMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__SHOWFRIENDINVITEPOPWINDOW_B__0_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::FBHPDPBIGPK*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIARCADETEAMCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__SHOWFRIENDINVITEPOPWINDOW_B__0_OFFSET))(this, info);
 		}
 
 		::System::Void _ShowFriendInvitePopWindow_b__1()

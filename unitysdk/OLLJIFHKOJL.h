@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PBJOCICFNGK.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+
+class EEDPLKOAJPE;
+class IOOIHHOJOPI;
+
+#define OLLJIFHKOJL_EJMLADDEHAE_OFFSET UNITYSDK_OFFSET(0x14F8BF70)
+#define OLLJIFHKOJL_FKPGJHHHOGO_OFFSET UNITYSDK_OFFSET(0x14F8C070)
+#define OLLJIFHKOJL_LCCCMHKKIFG_OFFSET UNITYSDK_OFFSET(0x14F8C080)
+#define OLLJIFHKOJL__CTOR_OFFSET UNITYSDK_OFFSET(0x14F8C020)
+
+inline static constexpr unsigned int OLLJIFHKOJL_TypeDefinitionIndex = 67626;
+
+class OLLJIFHKOJL : public ::PBJOCICFNGK
+{
+public:
+	::EEDPLKOAJPE* _EIJOMNOODHF_k__BackingField; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OLLJIFHKOJL__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EJMLADDEHAE(::LIBOIKJGAIH& EIEOJFEPMAB, ::IOOIHHOJOPI* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::IOOIHHOJOPI*))((::PBYTE)hIl2Cpp + OLLJIFHKOJL_EJMLADDEHAE_OFFSET))(this, EIEOJFEPMAB, IOKOLJDCKPN);
+	}
+
+	::System::Void FKPGJHHHOGO(::EEDPLKOAJPE* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::EEDPLKOAJPE*))((::PBYTE)hIl2Cpp + OLLJIFHKOJL_FKPGJHHHOGO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::EEDPLKOAJPE* LCCCMHKKIFG()
+	{
+		return ((::EEDPLKOAJPE*(*)(::PVOID))((::PBYTE)hIl2Cpp + OLLJIFHKOJL_LCCCMHKKIFG_OFFSET))(this);
+	}
+};

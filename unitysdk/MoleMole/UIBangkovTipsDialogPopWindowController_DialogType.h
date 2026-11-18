@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovTipsDialogPopWindowController_DialogType_TypeDefinitionIndex = 47626;
+	inline static constexpr unsigned int UIBangkovTipsDialogPopWindowController_DialogType_TypeDefinitionIndex = 43363;
 
 	enum class UIBangkovTipsDialogPopWindowController_DialogType : ::System::Int32
 	{

@@ -4,18 +4,19 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_AI_AIACTIONNAVMESHTOCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x8240C0)
-#define NPCCROWD_AI_AIACTIONNAVMESHTOCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x824110)
+#define NPCCROWD_AI_AIACTIONNAVMESHTOCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x650570)
+#define NPCCROWD_AI_AIACTIONNAVMESHTOCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x6505C0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionNavmeshToConfig_TypeDefinitionIndex = 51034;
+	inline static constexpr unsigned int AIActionNavmeshToConfig_TypeDefinitionIndex = 66983;
 
-	struct alignas(8) AIActionNavmeshToConfig
+	struct alignas(4) AIActionNavmeshToConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 		::UnityEngine::Vector3 destination; // 0x18
 		::System::Boolean overrideStopDistance; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::Single stopDistance; // 0x28
 
 		::NPCCrowd::AI::BaseActionConfig GetBaseActionConfig()

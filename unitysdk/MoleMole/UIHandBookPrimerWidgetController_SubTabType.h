@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookPrimerWidgetController_SubTabType_TypeDefinitionIndex = 40901;
+	inline static constexpr unsigned int UIHandBookPrimerWidgetController_SubTabType_TypeDefinitionIndex = 91318;
 
 	enum class UIHandBookPrimerWidgetController_SubTabType : ::System::Int32
 	{
-		RAB = 16,
-		Proxy = 0,
 		BangbooMicroWeb = 17,
-		Suibian = 11,
+		Proxy = 0,
+		RAB = 16,
 		Antique = 14,
+		Suibian = 11,
 	};
 }

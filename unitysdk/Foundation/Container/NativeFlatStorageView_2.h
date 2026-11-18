@@ -4,10 +4,10 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeFlatStorageView_2_TypeDefinitionIndex = 8653;
+	inline static constexpr unsigned int NativeFlatStorageView_2_TypeDefinitionIndex = 8977;
 
-	template <typename TUserData, typename T>
-	struct NativeFlatStorageView_2
+	template <typename T1, typename T2>
+	struct alignas(8) NativeFlatStorageView_2
 	{
 		static ::System::Int32* StaticGet_Alignment()
 		{
@@ -17,6 +17,6 @@ namespace Foundation::Container
 		{
 			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(NativeFlatStorageView_2_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		::System::Byte* _pointer; // 0x0
+		::PVOID _pointer; // 0x0
 	};
 }

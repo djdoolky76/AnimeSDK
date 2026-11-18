@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETGLOBALVARIABLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x107D68D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETGLOBALVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x107D6B60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETGLOBALVARIABLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1430A7F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETGLOBALVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1430AA80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetGlobalVariable_TypeDefinitionIndex = 87583;
+	inline static constexpr unsigned int LD_GetGlobalVariable_TypeDefinitionIndex = 49606;
 
-	class LD_GetGlobalVariable : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Int32, ::System::String*>
+	class LD_GetGlobalVariable
 	{
 	public:
 		::System::Void _ctor()

@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/List_1.h"
 
 namespace MoleMole { template <typename T> class EmptyList_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EmptyList_1_TypeDefinitionIndex = 44495;
+	inline static constexpr unsigned int EmptyList_1_TypeDefinitionIndex = 77136;
 
 	template <typename T>
-	class EmptyList_1 : public ::System::Collections::Generic::List_1<T>
+	class EmptyList_1
 	{
 	public:
 		static ::MoleMole::EmptyList_1<T>** StaticGet_Instance()

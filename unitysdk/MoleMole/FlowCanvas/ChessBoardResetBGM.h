@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDRESETBGM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B953760)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDRESETBGM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B953980)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDRESETBGM_INVOKE_OFFSET UNITYSDK_OFFSET(0x103FE830)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDRESETBGM__CTOR_OFFSET UNITYSDK_OFFSET(0x103FEA50)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoardResetBGM_TypeDefinitionIndex = 58166;
+	inline static constexpr unsigned int ChessBoardResetBGM_TypeDefinitionIndex = 45097;
 
 	class ChessBoardResetBGM : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode
 	{

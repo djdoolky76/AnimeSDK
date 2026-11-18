@@ -14,9 +14,9 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture2D; }
 
-#define OCEANSDFGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C98FC80)
+#define OCEANSDFGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF70940)
 
-inline static constexpr unsigned int OceanSdfGenerator_TypeDefinitionIndex = 27514;
+inline static constexpr unsigned int OceanSdfGenerator_TypeDefinitionIndex = 26252;
 
 class OceanSdfGenerator : public ::UnityEngine::MonoBehaviour
 {
@@ -25,6 +25,7 @@ public:
 	::UnityEngine::Bounds bounds; // 0x18
 	::SDFResolution sdfResolution; // 0x30
 	::UnityEngine::Vector4 coastlineScaleOffset; // 0x34
+	::System::Byte _padding0[0x4];
 	::UnityEngine::ComputeShader* computeShader; // 0x48
 	::UnityEngine::Camera* captureCam; // 0x50
 	::UnityEngine::GameObject* CaptureBG; // 0x58
@@ -35,6 +36,7 @@ public:
 	::UnityEngine::Material* slopeMat; // 0x80
 	::WeatherConfig* weatherConfig; // 0x88
 	::System::Single seaLevel; // 0x90
+	::System::Byte _padding1[0x4];
 	::UnityEngine::Texture2D* sdf; // 0x98
 	::System::Int32 _SeedKernel; // 0xA0
 	::System::Int32 _FloodKernel; // 0xA4

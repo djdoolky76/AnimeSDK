@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/InputLogicEventType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_UIMAINCITYMINIMENUCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19865E00)
+#define MOLEMOLE_UIMAINCITYMINIMENUCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17F96F10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMiniMenuConfig_TypeDefinitionIndex = 79547;
+	inline static constexpr unsigned int UIMainCityMiniMenuConfig_TypeDefinitionIndex = 82817;
 
 	class UIMainCityMiniMenuConfig : public ::UnityEngine::MonoBehaviour
 	{

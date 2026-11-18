@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_1824EF69C8E376A3;
+class BPHGNMNLLHF;
 
-#define MOLEMOLE_UIRECTROLECARDWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15101DB0)
+#define MOLEMOLE_UIRECTROLECARDWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x147FE7E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRectRoleCardWidgetController_Data_TypeDefinitionIndex = 43966;
+	inline static constexpr unsigned int UIRectRoleCardWidgetController_Data_TypeDefinitionIndex = 65033;
 
 	class UIRectRoleCardWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_2_1824EF69C8E376A3* avatarItem; // 0x10
+		::BPHGNMNLLHF* avatarItem; // 0x10
 		::System::Boolean IsDefault; // 0x18
 
 		::System::Void _ctor()

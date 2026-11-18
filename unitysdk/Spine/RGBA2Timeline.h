@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/CurveTimeline.h"
-#include "unitysdk/Spine/MixBlend.h"
-#include "unitysdk/Spine/MixDirection.h"
+#include "unitysdk/Spine/MixFrom.h"
+#include "unitysdk/Spine/SlotCurveTimeline.h"
 
-namespace Spine { class Event; }
-namespace Spine { class Skeleton; }
-namespace Spine { template <typename T> class ExposedList_1; }
+namespace Spine { class Slot; }
+namespace Spine { class SlotPose; }
 
-#define SPINE_RGBA2TIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1ECEB340)
-#define SPINE_RGBA2TIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1ECEB1A0)
-#define SPINE_RGBA2TIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1ECEB1B0)
-#define SPINE_RGBA2TIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1ECEB1C0)
-#define SPINE_RGBA2TIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECEB000)
+#define SPINE_RGBA2TIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1EBF0E90)
+#define SPINE_RGBA2TIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1EBF0D00)
+#define SPINE_RGBA2TIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1EBF0D10)
+#define SPINE_RGBA2TIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF0C20)
 
 namespace Spine
 {
-	inline static constexpr unsigned int RGBA2Timeline_TypeDefinitionIndex = 33456;
+	inline static constexpr unsigned int RGBA2Timeline_TypeDefinitionIndex = 32918;
 
-	class RGBA2Timeline : public ::Spine::CurveTimeline
+	class RGBA2Timeline : public ::Spine::SlotCurveTimeline
 	{
 	public:
 		// static const ::System::Int32 ENTRIES = 0x8; // 0x0
@@ -29,7 +26,6 @@ namespace Spine
 		// static const ::System::Int32 R2 = 0x5; // 0x0
 		// static const ::System::Int32 G2 = 0x6; // 0x0
 		// static const ::System::Int32 B2 = 0x7; // 0x0
-		::System::Int32 slotIndex; // 0x28
 
 		::System::Void _ctor(::System::Int32 frameCount, ::System::Int32 bezierCount, ::System::Int32 slotIndex)
 		{
@@ -41,19 +37,14 @@ namespace Spine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_RGBA2TIMELINE_GET_FRAMEENTRIES_OFFSET))(this);
 		}
 
-		::System::Int32 get_SlotIndex()
-		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_RGBA2TIMELINE_GET_SLOTINDEX_OFFSET))(this);
-		}
-
 		::System::Void SetFrame(::System::Int32 frame, ::System::Single time, ::System::Single r, ::System::Single g, ::System::Single b, ::System::Single a, ::System::Single r2, ::System::Single g2, ::System::Single b2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_RGBA2TIMELINE_SETFRAME_OFFSET))(this, frame, time, r, g, b, a, r2, g2, b2);
 		}
 
-		::System::Void Apply(::Spine::Skeleton* skeleton, ::System::Single lastTime, ::System::Single time, ::Spine::ExposedList_1<::Spine::Event*>* firedEvents, ::System::Single alpha, ::Spine::MixBlend blend, ::Spine::MixDirection direction)
+		::System::Void Apply(::Spine::Slot* slot, ::Spine::SlotPose* pose, ::System::Single time, ::System::Single alpha, ::Spine::MixFrom from, ::System::Boolean add)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_RGBA2TIMELINE_APPLY_OFFSET))(this, skeleton, lastTime, time, firedEvents, alpha, blend, direction);
+			return ((::System::Void(*)(::PVOID, ::Spine::Slot*, ::Spine::SlotPose*, ::System::Single, ::System::Single, ::Spine::MixFrom, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_RGBA2TIMELINE_APPLY_OFFSET))(this, slot, pose, time, alpha, from, add);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DialogType_TypeDefinitionIndex = 20193;
+	inline static constexpr unsigned int DialogType_TypeDefinitionIndex = 19339;
 
 	enum class DialogType : ::System::Int32
 	{

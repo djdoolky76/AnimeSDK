@@ -5,18 +5,18 @@
 namespace MoleMole { class UIMusicBattleInLevelPerfectEffWidgetController; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIMUSICBATTLEINLEVELPERFECTEFFWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F49C20)
-#define MOLEMOLE_UIMUSICBATTLEINLEVELPERFECTEFFWIDGETCONTROLLER___C__DISPLAYCLASS7_0__PLAYEFFANIM_B__0_OFFSET UNITYSDK_OFFSET(0x15F49C30)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELPERFECTEFFWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x168CF580)
+#define MOLEMOLE_UIMUSICBATTLEINLEVELPERFECTEFFWIDGETCONTROLLER___C__DISPLAYCLASS7_0__PLAYEFFANIM_B__0_OFFSET UNITYSDK_OFFSET(0x168CF590)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMusicBattleInLevelPerfectEffWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 63799;
+	inline static constexpr unsigned int UIMusicBattleInLevelPerfectEffWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 63809;
 
 	class UIMusicBattleInLevelPerfectEffWidgetController___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MoleMole::UIMusicBattleInLevelPerfectEffWidgetController*>* onCompleted; // 0x10
-		::MoleMole::UIMusicBattleInLevelPerfectEffWidgetController* __4__this; // 0x18
+		::MoleMole::UIMusicBattleInLevelPerfectEffWidgetController* __4__this; // 0x10
+		::System::Action_1<::MoleMole::UIMusicBattleInLevelPerfectEffWidgetController*>* onCompleted; // 0x18
 
 		::System::Void _ctor()
 		{

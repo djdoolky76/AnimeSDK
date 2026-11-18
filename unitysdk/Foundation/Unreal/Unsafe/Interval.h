@@ -2,26 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/Unsafe/IntervalBound.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/Unreal/Interval_1.h"
 
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_INCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1FC0C160)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1FC0C430)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1FC0C1E0)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC0C690)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVAL__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_INCLUSIVE_OFFSET UNITYSDK_OFFSET(0x2000CF00)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x2000D1D0)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x2000CF80)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x2000D430)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVAL__CTOR_OFFSET UNITYSDK_OFFSET(0x3657B0)
 
 namespace Foundation::Unreal::Unsafe
 {
-	inline static constexpr unsigned int Interval_TypeDefinitionIndex = 8883;
+	inline static constexpr unsigned int Interval_TypeDefinitionIndex = 8904;
 
 	struct alignas(4) Interval
 	{
-		static ::Foundation::Unreal::Unsafe::Interval* StaticGet_All()
-		{
-			return (::Foundation::Unreal::Unsafe::Interval*)Il2CppClass::FromTypeDefinitionIndex(Interval_TypeDefinitionIndex)->GetStaticField(0x3C30);
-		}
 		static ::Foundation::Unreal::Unsafe::Interval* StaticGet_Empty()
 		{
-			return (::Foundation::Unreal::Unsafe::Interval*)Il2CppClass::FromTypeDefinitionIndex(Interval_TypeDefinitionIndex)->GetStaticField(0x3C40);
+			return (::Foundation::Unreal::Unsafe::Interval*)Il2CppClass::FromTypeDefinitionIndex(Interval_TypeDefinitionIndex)->GetStaticField(0x3BF0);
+		}
+		static ::Foundation::Unreal::Unsafe::Interval* StaticGet_All()
+		{
+			return (::Foundation::Unreal::Unsafe::Interval*)Il2CppClass::FromTypeDefinitionIndex(Interval_TypeDefinitionIndex)->GetStaticField(0x3C00);
 		}
 		::Foundation::Unreal::Unsafe::IntervalBound _lowerBound; // 0x10
 		::Foundation::Unreal::Unsafe::IntervalBound _upperBound; // 0x18
@@ -36,10 +37,12 @@ namespace Foundation::Unreal::Unsafe
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_UNSAFE_INTERVAL__CCTOR_OFFSET))();
 		}
 
+		/*
 		static ::Foundation::Unreal::Unsafe::Interval Inclusive(::System::Single min, ::System::Single max)
 		{
 			return ((::Foundation::Unreal::Unsafe::Interval(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_UNSAFE_INTERVAL_INCLUSIVE_OFFSET))(min, max);
 		}
+		*/
 
 		/*
 		static ::Foundation::Unreal::Interval_1<::System::Single> op_Implicit(::Foundation::Unreal::Unsafe::Interval interval)

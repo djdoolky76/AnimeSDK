@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_32.h"
+#include "unitysdk/JNHGEEOLJKL.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UICAMPIDLELISTPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C0ECA0)
+#define MOLEMOLE_UICAMPIDLELISTPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x184884D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdleListPopWindowControllerContext_TypeDefinitionIndex = 66861;
+	inline static constexpr unsigned int UICampIdleListPopWindowControllerContext_TypeDefinitionIndex = 48368;
 
 	class UICampIdleListPopWindowControllerContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_0A3761FE34514D6C_32 m_playType; // 0x28
+		::JNHGEEOLJKL m_playType; // 0x28
 
 		::System::Void _ctor()
 		{

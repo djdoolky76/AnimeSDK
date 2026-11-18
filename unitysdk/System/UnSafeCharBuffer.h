@@ -4,8 +4,8 @@
 
 namespace System { class String; }
 
-#define SYSTEM_UNSAFECHARBUFFER_APPENDSTRING_OFFSET UNITYSDK_OFFSET(0xA1B020)
-#define SYSTEM_UNSAFECHARBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0xA1B010)
+#define SYSTEM_UNSAFECHARBUFFER_APPENDSTRING_OFFSET UNITYSDK_OFFSET(0x90F020)
+#define SYSTEM_UNSAFECHARBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x90F010)
 
 namespace System
 {
@@ -13,13 +13,13 @@ namespace System
 
 	struct alignas(8) UnSafeCharBuffer
 	{
-		::System::Char* m_buffer; // 0x10
+		::PVOID m_buffer; // 0x10
 		::System::Int32 m_totalSize; // 0x18
 		::System::Int32 m_length; // 0x1C
 
-		::System::Void _ctor(::System::Char* buffer, ::System::Int32 bufferSize)
+		::System::Void _ctor(::PVOID buffer, ::System::Int32 bufferSize)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_UNSAFECHARBUFFER__CTOR_OFFSET))(this, buffer, bufferSize);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_UNSAFECHARBUFFER__CTOR_OFFSET))(this, buffer, bufferSize);
 		}
 
 		::System::Void AppendString(::System::String* stringToAppend)

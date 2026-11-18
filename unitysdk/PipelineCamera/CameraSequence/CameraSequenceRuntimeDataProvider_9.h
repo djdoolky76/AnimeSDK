@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider.h"
 
-namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
-
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceRuntimeDataProvider_9_TypeDefinitionIndex = 38517;
+	inline static constexpr unsigned int CameraSequenceRuntimeDataProvider_9_TypeDefinitionIndex = 36516;
 
-	template <typename T, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	class CameraSequenceRuntimeDataProvider_9 : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider
 	{
 	public:

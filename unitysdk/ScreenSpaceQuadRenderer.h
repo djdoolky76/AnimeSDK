@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define SCREENSPACEQUADRENDERER_GENERATEQUADMESH_OFFSET UNITYSDK_OFFSET(0x1E34FB80)
-#define SCREENSPACEQUADRENDERER_GETPROJECTEDWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x1E351490)
-#define SCREENSPACEQUADRENDERER_INIT_OFFSET UNITYSDK_OFFSET(0x1E350A10)
-#define SCREENSPACEQUADRENDERER_ONBEGINCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1E34FB20)
-#define SCREENSPACEQUADRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E34FAD0)
-#define SCREENSPACEQUADRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E34F9B0)
-#define SCREENSPACEQUADRENDERER_REGISTERRENDERING_OFFSET UNITYSDK_OFFSET(0x1E34FA00)
-#define SCREENSPACEQUADRENDERER_SETUPTARGET_OFFSET UNITYSDK_OFFSET(0x1E3509C0)
-#define SCREENSPACEQUADRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3515E0)
+#define SCREENSPACEQUADRENDERER_GENERATEQUADMESH_OFFSET UNITYSDK_OFFSET(0x1C6BB760)
+#define SCREENSPACEQUADRENDERER_GETPROJECTEDWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x1C6BD070)
+#define SCREENSPACEQUADRENDERER_INIT_OFFSET UNITYSDK_OFFSET(0x1C6BC5F0)
+#define SCREENSPACEQUADRENDERER_ONBEGINCAMERARENDERING_OFFSET UNITYSDK_OFFSET(0x1C6BB700)
+#define SCREENSPACEQUADRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C6BB6B0)
+#define SCREENSPACEQUADRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C6BB590)
+#define SCREENSPACEQUADRENDERER_REGISTERRENDERING_OFFSET UNITYSDK_OFFSET(0x1C6BB5E0)
+#define SCREENSPACEQUADRENDERER_SETUPTARGET_OFFSET UNITYSDK_OFFSET(0x1C6BC5A0)
+#define SCREENSPACEQUADRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6BD1C0)
 
-inline static constexpr unsigned int ScreenSpaceQuadRenderer_TypeDefinitionIndex = 49587;
+inline static constexpr unsigned int ScreenSpaceQuadRenderer_TypeDefinitionIndex = 84252;
 
 class ScreenSpaceQuadRenderer : public ::UnityEngine::MonoBehaviour
 {
@@ -37,11 +37,13 @@ public:
 	::UnityEngine::MeshFilter* meshFilter; // 0x40
 	::UnityEngine::MeshRenderer* meshRenderer; // 0x48
 	::UnityEngine::Vector3 targetPos; // 0x50
+	::System::Byte _padding0[0x4];
 	::Il2CppArray<::UnityEngine::Vector3>* vertices; // 0x60
 	::Il2CppArray<::UnityEngine::Color>* color; // 0x68
 	::Il2CppArray<::System::Int32>* triangles; // 0x70
 	::UnityEngine::Camera* cam; // 0x78
 	::System::Boolean finishInitialized; // 0x80
+	::System::Byte _padding1[0x3];
 	::System::Single worldDistToCam; // 0x84
 	::UnityEngine::Color vertexColor; // 0x88
 	::System::Int32 _QuadWorldCenter; // 0x98

@@ -5,7 +5,7 @@
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int TransformContextState_TypeDefinitionIndex = 49375;
+	inline static constexpr unsigned int TransformContextState_TypeDefinitionIndex = 54983;
 
 	struct alignas(4) TransformContextState
 	{

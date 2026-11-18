@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/TMPro/SpriteAssetUtilities/TexturePacker_JsonArray_Frame.h"
 #include "unitysdk/TMPro/SpriteAssetUtilities/TexturePacker_JsonArray_Meta.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define TMPRO_SPRITEASSETUTILITIES_TEXTUREPACKER_JSONARRAY_SPRITEDATAOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA41710)
+#define TMPRO_SPRITEASSETUTILITIES_TEXTUREPACKER_JSONARRAY_SPRITEDATAOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE51490)
 
 namespace TMPro::SpriteAssetUtilities
 {
-	inline static constexpr unsigned int TexturePacker_JsonArray_SpriteDataObject_TypeDefinitionIndex = 39927;
+	inline static constexpr unsigned int TexturePacker_JsonArray_SpriteDataObject_TypeDefinitionIndex = 37927;
 
 	class TexturePacker_JsonArray_SpriteDataObject : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Frame>* frames; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* frames; // 0x10
 		::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_Meta meta; // 0x18
 
 		::System::Void _ctor()

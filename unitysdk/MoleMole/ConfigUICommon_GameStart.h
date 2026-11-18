@@ -19,12 +19,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 
-#define MOLEMOLE_CONFIGUICOMMON_GAMESTART_GET_CURVEDATAINFO_OFFSET UNITYSDK_OFFSET(0x1C528410)
-#define MOLEMOLE_CONFIGUICOMMON_GAMESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x1C528650)
+#define MOLEMOLE_CONFIGUICOMMON_GAMESTART_GET_CURVEDATAINFO_OFFSET UNITYSDK_OFFSET(0x1CD14F00)
+#define MOLEMOLE_CONFIGUICOMMON_GAMESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD15150)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_GameStart_TypeDefinitionIndex = 62545;
+	inline static constexpr unsigned int ConfigUICommon_GameStart_TypeDefinitionIndex = 41879;
 
 	class ConfigUICommon_GameStart : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -35,6 +35,7 @@ namespace MoleMole
 		::System::Int32 MaxDelta; // 0x70
 		::System::Single MinDelta; // 0x74
 		::System::Single AnimTime; // 0x78
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* BiggerCurve; // 0x80
 		::UnityEngine::AnimationCurve* SmallerCurve; // 0x88
 		::UnityEngine::Color DefaultColor; // 0x90

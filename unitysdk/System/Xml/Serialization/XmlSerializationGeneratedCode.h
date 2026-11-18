@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONGENERATEDCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F255230)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONGENERATEDCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6540F0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializationGeneratedCode_TypeDefinitionIndex = 1901;
+	inline static constexpr unsigned int XmlSerializationGeneratedCode_TypeDefinitionIndex = 1900;
 
 	class XmlSerializationGeneratedCode : public ::System::Object
 	{

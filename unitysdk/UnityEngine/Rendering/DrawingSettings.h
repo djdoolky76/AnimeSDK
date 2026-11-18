@@ -5,33 +5,34 @@
 #include "unitysdk/UnityEngine/Rendering/DrawingSettings__shaderPassNames_e__FixedBuffer.h"
 #include "unitysdk/UnityEngine/Rendering/PerObjectData.h"
 #include "unitysdk/UnityEngine/Rendering/SortingSettings.h"
+#include "unitysdk/UnityEngine/Rendering/ShaderTagId.h"
 
 namespace System { class Object; }
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA56EC0)
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_EQUALS_OFFSET UNITYSDK_OFFSET(0xA56E80)
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA56F40)
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_GETSHADERPASSNAME_OFFSET UNITYSDK_OFFSET(0xA56E60)
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_GET_PEROBJECTDATA_OFFSET UNITYSDK_OFFSET(0xA56DC0)
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_SETSHADERPASSNAME_OFFSET UNITYSDK_OFFSET(0xA56E70)
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_SET_ENABLEDYNAMICBATCHING_OFFSET UNITYSDK_OFFSET(0xA56DE0)
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_SET_ENABLEINSTANCING_OFFSET UNITYSDK_OFFSET(0xA56E00)
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_SET_OVERRIDEMATERIALPASSINDEX_OFFSET UNITYSDK_OFFSET(0xA56E50)
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_SET_OVERRIDEMATERIAL_OFFSET UNITYSDK_OFFSET(0xA56E20)
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_SET_PEROBJECTDATA_OFFSET UNITYSDK_OFFSET(0xA56DD0)
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA914D0)
-#define UNITYENGINE_RENDERING_DRAWINGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xA56C70)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x934590)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_EQUALS_OFFSET UNITYSDK_OFFSET(0x934550)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x934610)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_GETSHADERPASSNAME_OFFSET UNITYSDK_OFFSET(0x934530)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_GET_PEROBJECTDATA_OFFSET UNITYSDK_OFFSET(0x934490)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_SETSHADERPASSNAME_OFFSET UNITYSDK_OFFSET(0x934540)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_SET_ENABLEDYNAMICBATCHING_OFFSET UNITYSDK_OFFSET(0x9344B0)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_SET_ENABLEINSTANCING_OFFSET UNITYSDK_OFFSET(0x9344D0)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_SET_OVERRIDEMATERIALPASSINDEX_OFFSET UNITYSDK_OFFSET(0x934520)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_SET_OVERRIDEMATERIAL_OFFSET UNITYSDK_OFFSET(0x9344F0)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS_SET_PEROBJECTDATA_OFFSET UNITYSDK_OFFSET(0x9344A0)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED89AB0)
+#define UNITYENGINE_RENDERING_DRAWINGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x934340)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DrawingSettings_TypeDefinitionIndex = 6244;
+	inline static constexpr unsigned int DrawingSettings_TypeDefinitionIndex = 6259;
 
 	struct alignas(4) DrawingSettings
 	{
 		static ::System::Int32* StaticGet_maxShaderPasses()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawingSettings_TypeDefinitionIndex)->GetStaticField(0x2A40);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawingSettings_TypeDefinitionIndex)->GetStaticField(0x29C0);
 		}
 		::UnityEngine::Rendering::SortingSettings m_SortingSettings; // 0x10
 		::UnityEngine::Rendering::DrawingSettings__shaderPassNames_e__FixedBuffer shaderPassNames; // 0xF0
@@ -42,12 +43,10 @@ namespace UnityEngine::Rendering
 		::System::Int32 m_MainLightIndex; // 0x140
 		::System::Int32 m_UseSrpBatcher; // 0x144
 
-		/*
 		::System::Void _ctor(::UnityEngine::Rendering::ShaderTagId shaderPassName, ::UnityEngine::Rendering::SortingSettings sortingSettings)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::ShaderTagId, ::UnityEngine::Rendering::SortingSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DRAWINGSETTINGS__CTOR_OFFSET))(this, shaderPassName, sortingSettings);
 		}
-		*/
 
 		static ::System::Void _cctor()
 		{
@@ -84,24 +83,22 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DRAWINGSETTINGS_SET_OVERRIDEMATERIALPASSINDEX_OFFSET))(this, value);
 		}
 
-		/*
 		::UnityEngine::Rendering::ShaderTagId GetShaderPassName(::System::Int32 index)
 		{
 			return ((::UnityEngine::Rendering::ShaderTagId(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DRAWINGSETTINGS_GETSHADERPASSNAME_OFFSET))(this, index);
 		}
-		*/
 
-		/*
 		::System::Void SetShaderPassName(::System::Int32 index, ::UnityEngine::Rendering::ShaderTagId shaderPassName)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Rendering::ShaderTagId))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DRAWINGSETTINGS_SETSHADERPASSNAME_OFFSET))(this, index, shaderPassName);
 		}
-		*/
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::DrawingSettings other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::DrawingSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DRAWINGSETTINGS_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{

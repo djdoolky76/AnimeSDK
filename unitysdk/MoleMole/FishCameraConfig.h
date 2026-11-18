@@ -7,7 +7,7 @@ namespace MoleMole::Cameras { class CameraTrackBlending; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FishCameraConfig_TypeDefinitionIndex = 58477;
+	inline static constexpr unsigned int FishCameraConfig_TypeDefinitionIndex = 80087;
 
 	struct alignas(8) FishCameraConfig
 	{

@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class NDGCMMKJPAN;
+
+#define NHELDICPIBO_BBAHHJLNLAE_OFFSET UNITYSDK_OFFSET(0xE75BB50)
+#define NHELDICPIBO_IDEMELDIOPG_OFFSET UNITYSDK_OFFSET(0xE75BD30)
+#define NHELDICPIBO_IKHBFOEIPKG_OFFSET UNITYSDK_OFFSET(0xE75BE10)
+
+inline static constexpr unsigned int NHELDICPIBO_TypeDefinitionIndex = 49966;
+
+class NHELDICPIBO : public ::System::Object
+{
+public:
+	static ::System::Int32 BBAHHJLNLAE(::NDGCMMKJPAN* JBHBDFAONFL, ::System::Int32 OJKKJOMGGBG, ::System::Int32 FCIHIDGKPDI, ::System::Int32 EKBKJJNGGDG)
+	{
+		return ((::System::Int32(*)(::NDGCMMKJPAN*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NHELDICPIBO_BBAHHJLNLAE_OFFSET))(JBHBDFAONFL, OJKKJOMGGBG, FCIHIDGKPDI, EKBKJJNGGDG);
+	}
+
+	static ::System::UInt32 IDEMELDIOPG(::NDGCMMKJPAN* JBHBDFAONFL, ::System::Int32 EKBKJJNGGDG)
+	{
+		return ((::System::UInt32(*)(::NDGCMMKJPAN*, ::System::Int32))((::PBYTE)hIl2Cpp + NHELDICPIBO_IDEMELDIOPG_OFFSET))(JBHBDFAONFL, EKBKJJNGGDG);
+	}
+
+	static ::System::Int32 IKHBFOEIPKG(::NDGCMMKJPAN* JBHBDFAONFL, ::System::Int32 GIALCLOKJBC, ::System::Int32 EKBKJJNGGDG)
+	{
+		return ((::System::Int32(*)(::NDGCMMKJPAN*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NHELDICPIBO_IKHBFOEIPKG_OFFSET))(JBHBDFAONFL, GIALCLOKJBC, EKBKJJNGGDG);
+	}
+};

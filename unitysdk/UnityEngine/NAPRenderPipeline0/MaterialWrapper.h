@@ -1,36 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/BaseMaterialWrapper.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/MaterialWrapper_SetTexCmd.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::NAPRenderPipeline0 { class BaseCachedConstantBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_CALCDIRTYFLAG_OFFSET UNITYSDK_OFFSET(0x1E7CB690)
-#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_ENABLEKEYWORD_OFFSET UNITYSDK_OFFSET(0x1E7CB600)
-#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1E7CB980)
-#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_GETCONSTANTBUFFER_OFFSET UNITYSDK_OFFSET(0x1E7CB570)
-#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1E7CB680)
-#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E7CB660)
-#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1E7CB5B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7CB3D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_CALCDIRTYFLAG_OFFSET UNITYSDK_OFFSET(0x1E978290)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_ENABLEKEYWORD_OFFSET UNITYSDK_OFFSET(0x1E978200)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1E978580)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_GETCONSTANTBUFFER_OFFSET UNITYSDK_OFFSET(0x1E978170)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1E978280)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E978260)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1E9781B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MATERIALWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E977FD0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int MaterialWrapper_TypeDefinitionIndex = 6001;
+	inline static constexpr unsigned int MaterialWrapper_TypeDefinitionIndex = 6009;
 
 	class MaterialWrapper : public ::UnityEngine::NAPRenderPipeline0::BaseMaterialWrapper
 	{
 	public:
 		::System::Int32 LastUsedTime; // 0x20
-		::Il2CppArray<::UnityEngine::NAPRenderPipeline0::MaterialWrapper_SetTexCmd>* m_SetTexCmds; // 0x28
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::System::Object*>* m_SetTexCmds; // 0x28
 		::System::Int32 m_SetTexCmdCount; // 0x30
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::System::String*>* m_EnabledKeywords; // 0x38
 		::System::Collections::Generic::List_1<::System::String*>* m_LastEnabledKeywords; // 0x40
 		::System::Boolean m_KeywordsDirty; // 0x48
+		::System::Byte _padding2[0x7];
 		::Il2CppArray<::UnityEngine::NAPRenderPipeline0::BaseCachedConstantBuffer*>* m_CBs; // 0x50
 
 		::System::Void _ctor(::UnityEngine::Material* materialObject, ::Il2CppArray<::UnityEngine::NAPRenderPipeline0::BaseCachedConstantBuffer*>* cbs)

@@ -5,7 +5,7 @@
 
 namespace UnityEngine { class Texture2D; }
 
-inline static constexpr unsigned int BlendShapeControlSequencePlay_SequenceParameters_TypeDefinitionIndex = 40559;
+inline static constexpr unsigned int BlendShapeControlSequencePlay_SequenceParameters_TypeDefinitionIndex = 44860;
 
 struct alignas(8) BlendShapeControlSequencePlay_SequenceParameters
 {

@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3D57574A5731A8CB;
+class JMIFADLDJED;
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CAMERAS_DEFAULTFRAMETWOSHAPECONFIG_CREATEPOLICY_OFFSET UNITYSDK_OFFSET(0x116CD400)
-#define MOLEMOLE_CAMERAS_DEFAULTFRAMETWOSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x116CD5E0)
+#define MOLEMOLE_CAMERAS_DEFAULTFRAMETWOSHAPECONFIG_CREATEPOLICY_OFFSET UNITYSDK_OFFSET(0xFA8BD40)
+#define MOLEMOLE_CAMERAS_DEFAULTFRAMETWOSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xFA8BF10)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int DefaultFrameTwoShapeConfig_TypeDefinitionIndex = 72866;
+	inline static constexpr unsigned int DefaultFrameTwoShapeConfig_TypeDefinitionIndex = 49132;
 
 	class DefaultFrameTwoShapeConfig : public ::System::Object
 	{
@@ -26,6 +26,7 @@ namespace MoleMole::Cameras
 		::System::Single maxVerticalOffset; // 0x40
 		::System::Single minHorizontalRatio; // 0x44
 		::System::Boolean enableAdjustment; // 0x48
+		::System::Byte _padding0[0x7];
 		::MoleMole::Cameras::CameraTrackBlending* blendIn; // 0x50
 		::MoleMole::Cameras::CameraTrackBlending* blendOut; // 0x58
 
@@ -34,9 +35,9 @@ namespace MoleMole::Cameras
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_DEFAULTFRAMETWOSHAPECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_3D57574A5731A8CB* CreatePolicy()
+		::JMIFADLDJED* CreatePolicy()
 		{
-			return ((::Class_1_3D57574A5731A8CB*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_DEFAULTFRAMETWOSHAPECONFIG_CREATEPOLICY_OFFSET))(this);
+			return ((::JMIFADLDJED*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_DEFAULTFRAMETWOSHAPECONFIG_CREATEPOLICY_OFFSET))(this);
 		}
 	};
 }

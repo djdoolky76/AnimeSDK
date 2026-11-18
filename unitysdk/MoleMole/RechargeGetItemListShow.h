@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GetItemListShow.h"
 
-class Class_2_21B3639A8626BA94;
+class GEAEOIGGMIE;
 
-#define MOLEMOLE_RECHARGEGETITEMLISTSHOW_ORDERCONFIRM_OFFSET UNITYSDK_OFFSET(0x13ACF8B0)
-#define MOLEMOLE_RECHARGEGETITEMLISTSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x13ACF840)
-#define MOLEMOLE_RECHARGEGETITEMLISTSHOW___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x13ACF9F0)
+#define MOLEMOLE_RECHARGEGETITEMLISTSHOW_ORDERCONFIRM_OFFSET UNITYSDK_OFFSET(0x146A9130)
+#define MOLEMOLE_RECHARGEGETITEMLISTSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x146A90C0)
+#define MOLEMOLE_RECHARGEGETITEMLISTSHOW___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x146A9270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RechargeGetItemListShow_TypeDefinitionIndex = 67299;
+	inline static constexpr unsigned int RechargeGetItemListShow_TypeDefinitionIndex = 86991;
 
 	class RechargeGetItemListShow : public ::MoleMole::GetItemListShow
 	{
 	public:
-		::System::Void _ctor(::Class_2_21B3639A8626BA94* context)
+		::System::Void _ctor(::GEAEOIGGMIE* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_21B3639A8626BA94*))((::PBYTE)hIl2Cpp + MOLEMOLE_RECHARGEGETITEMLISTSHOW__CTOR_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::GEAEOIGGMIE*))((::PBYTE)hIl2Cpp + MOLEMOLE_RECHARGEGETITEMLISTSHOW__CTOR_OFFSET))(this, context);
 		}
 
 		::System::Void OrderConfirm()

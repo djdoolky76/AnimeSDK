@@ -1,23 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ConditionTask_1.h"
 #include "unitysdk/ParadoxNotion/CompareMethod.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
-namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E6DE000)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1E6DE310)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1E6DE4F0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6DE6B0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E967350)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1E967660)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1E967840)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKDISTANCETOGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E967A00)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckDistanceToGameObject_TypeDefinitionIndex = 30589;
+	inline static constexpr unsigned int CheckDistanceToGameObject_TypeDefinitionIndex = 29459;
 
-	class CheckDistanceToGameObject : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Transform*>
+	class CheckDistanceToGameObject
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* distance; // 0x60

@@ -1,22 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_6E781DF9B76E407C.h"
+#include "unitysdk/ICIAEPPMOMP.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIRABSKILLDIALOGITEMROWWIDGETCONTROLLER_CONTEXT_GET_BOSSBASEID_OFFSET UNITYSDK_OFFSET(0x1799C640)
-#define MOLEMOLE_UIRABSKILLDIALOGITEMROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1799C780)
+#define MOLEMOLE_UIRABSKILLDIALOGITEMROWWIDGETCONTROLLER_CONTEXT_GET_BOSSBASEID_OFFSET UNITYSDK_OFFSET(0x17BC08A0)
+#define MOLEMOLE_UIRABSKILLDIALOGITEMROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17BC09E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABSkillDialogItemRowWidgetController_Context_TypeDefinitionIndex = 53375;
+	inline static constexpr unsigned int UIRABSkillDialogItemRowWidgetController_Context_TypeDefinitionIndex = 70822;
 
 	class UIRABSkillDialogItemRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Int32 skillDescId; // 0x28
+		::ICIAEPPMOMP skillIndex; // 0x28
 		::System::Boolean showDetailDialog; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::Int32 bossCharacterId; // 0x30
-		::Enum_3_6E781DF9B76E407C skillIndex; // 0x34
+		::System::Int32 skillDescId; // 0x34
 
 		::System::Void _ctor()
 		{

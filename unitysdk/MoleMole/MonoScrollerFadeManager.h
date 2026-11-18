@@ -9,31 +9,31 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define MOLEMOLE_MONOSCROLLERFADEMANAGER_FASTFORWARDTOANIMEND_OFFSET UNITYSDK_OFFSET(0x17393ED0)
-#define MOLEMOLE_MONOSCROLLERFADEMANAGER_GET_ISPLAYING_OFFSET UNITYSDK_OFFSET(0x17393200)
-#define MOLEMOLE_MONOSCROLLERFADEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x17393210)
-#define MOLEMOLE_MONOSCROLLERFADEMANAGER_METHOD_5_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x17393CF0)
-#define MOLEMOLE_MONOSCROLLERFADEMANAGER_METHOD_5_1F130271093617A5_OFFSET UNITYSDK_OFFSET(0x173942D0)
-#define MOLEMOLE_MONOSCROLLERFADEMANAGER_METHOD_5_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0x17393900)
-#define MOLEMOLE_MONOSCROLLERFADEMANAGER_METHOD_5_E01AB12B6F23773D_OFFSET UNITYSDK_OFFSET(0x17394230)
-#define MOLEMOLE_MONOSCROLLERFADEMANAGER_PLAYWHENSTOP_OFFSET UNITYSDK_OFFSET(0x17393980)
-#define MOLEMOLE_MONOSCROLLERFADEMANAGER_PLAY_OFFSET UNITYSDK_OFFSET(0x17393820)
-#define MOLEMOLE_MONOSCROLLERFADEMANAGER_RESET_OFFSET UNITYSDK_OFFSET(0x173939D0)
-#define MOLEMOLE_MONOSCROLLERFADEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x173941D0)
+#define MOLEMOLE_MONOSCROLLERFADEMANAGER_EBDHEJBLJDL_OFFSET UNITYSDK_OFFSET(0x13EFFF40)
+#define MOLEMOLE_MONOSCROLLERFADEMANAGER_FASTFORWARDTOANIMEND_OFFSET UNITYSDK_OFFSET(0x13F00120)
+#define MOLEMOLE_MONOSCROLLERFADEMANAGER_GET_ISPLAYING_OFFSET UNITYSDK_OFFSET(0x13EFF450)
+#define MOLEMOLE_MONOSCROLLERFADEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x13EFF460)
+#define MOLEMOLE_MONOSCROLLERFADEMANAGER_KALDMNBCHPB_OFFSET UNITYSDK_OFFSET(0x13F00480)
+#define MOLEMOLE_MONOSCROLLERFADEMANAGER_NCHACAJNHCG_OFFSET UNITYSDK_OFFSET(0x13EFFB50)
+#define MOLEMOLE_MONOSCROLLERFADEMANAGER_OBFNBEFCDGJ_OFFSET UNITYSDK_OFFSET(0x13F00520)
+#define MOLEMOLE_MONOSCROLLERFADEMANAGER_PLAYWHENSTOP_OFFSET UNITYSDK_OFFSET(0x13EFFBD0)
+#define MOLEMOLE_MONOSCROLLERFADEMANAGER_PLAY_OFFSET UNITYSDK_OFFSET(0x13EFFA70)
+#define MOLEMOLE_MONOSCROLLERFADEMANAGER_RESET_OFFSET UNITYSDK_OFFSET(0x13EFFC20)
+#define MOLEMOLE_MONOSCROLLERFADEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x13F00420)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoScrollerFadeManager_TypeDefinitionIndex = 47134;
+	inline static constexpr unsigned int MonoScrollerFadeManager_TypeDefinitionIndex = 46417;
 
 	class MonoScrollerFadeManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* Field_5_0; // 0x18
-		::UnityEngine::UI::ScrollRect* Field_5_7; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* CDMBEOFBKCL; // 0x18
+		::UnityEngine::UI::ScrollRect* GIFAINPFBDG; // 0x20
 		::System::Single FadeInDuration; // 0x28
 		::System::Single NextItemFadeInDelay; // 0x2C
 		::System::Single FirstDelay; // 0x30
-		::System::Boolean Field_5_11; // 0x34
+		::System::Boolean NCKCKOHHMOE; // 0x34
 
 		::System::Void _ctor()
 		{
@@ -45,9 +45,9 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCROLLERFADEMANAGER_GET_ISPLAYING_OFFSET))(this);
 		}
 
-		::System::Void Init(::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::RectTransform*>* a1, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::RectTransform*>* a2, ::System::Func_3<::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*, ::System::Boolean>* a3)
+		::System::Void Init(::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::RectTransform*>* MHNCIKNDFAI, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::RectTransform*>* GAJFBADCGAN, ::System::Func_3<::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*, ::System::Boolean>* MHCJCHIABNF)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::RectTransform*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::RectTransform*>*, ::System::Func_3<::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCROLLERFADEMANAGER_INIT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::RectTransform*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::RectTransform*>*, ::System::Func_3<::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCROLLERFADEMANAGER_INIT_OFFSET))(this, MHNCIKNDFAI, GAJFBADCGAN, MHCJCHIABNF);
 		}
 
 		::System::Void Play()
@@ -70,24 +70,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCROLLERFADEMANAGER_FASTFORWARDTOANIMEND_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* Method_5_627C7524E98F4AC5()
+		::System::Collections::IEnumerator* NCHACAJNHCG()
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCROLLERFADEMANAGER_METHOD_5_627C7524E98F4AC5_OFFSET))(this);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCROLLERFADEMANAGER_NCHACAJNHCG_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* Method_5_E01AB12B6F23773D(::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* a1, ::System::Int32 a2, ::System::Int32 a3)
+		::System::Void EBDHEJBLJDL()
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCROLLERFADEMANAGER_METHOD_5_E01AB12B6F23773D_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCROLLERFADEMANAGER_EBDHEJBLJDL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_06330CD58CB602B6()
+		::System::Collections::IEnumerator* KALDMNBCHPB(::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* FBFFNONANPB, ::System::Int32 BIOGEIHKABE, ::System::Int32 FKHDEPNOPGO)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCROLLERFADEMANAGER_METHOD_5_06330CD58CB602B6_OFFSET))(this);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCROLLERFADEMANAGER_KALDMNBCHPB_OFFSET))(this, FBFFNONANPB, BIOGEIHKABE, FKHDEPNOPGO);
 		}
 
-		::System::Void Method_5_1F130271093617A5()
+		::System::Void OBFNBEFCDGJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCROLLERFADEMANAGER_METHOD_5_1F130271093617A5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSCROLLERFADEMANAGER_OBFNBEFCDGJ_OFFSET))(this);
 		}
 	};
 }

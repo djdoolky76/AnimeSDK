@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class SkinMdbData; }
 
-#define MOLEMOLE_CONFIG_CONFIGSKINMDB__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC82E0)
+#define MOLEMOLE_CONFIG_CONFIGSKINMDB__CTOR_OFFSET UNITYSDK_OFFSET(0xFFE1E10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSkinMdb_TypeDefinitionIndex = 54796;
+	inline static constexpr unsigned int ConfigSkinMdb_TypeDefinitionIndex = 68514;
 
 	class ConfigSkinMdb : public ::Foundation::MihoyoSerializedScriptableObject
 	{

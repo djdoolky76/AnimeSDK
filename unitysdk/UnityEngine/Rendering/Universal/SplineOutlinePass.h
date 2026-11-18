@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Rendering/FilteringSettings.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1E7A1640)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E7A1800)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E7A1AA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7A1B40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A1560)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS___BASE_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1E7A1B50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E7A1B60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1EA526B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA52870)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EA52B10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA52BB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA525D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS___BASE_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1EA52BC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SPLINEOUTLINEPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EA52BD0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SplineOutlinePass_TypeDefinitionIndex = 26810;
+	inline static constexpr unsigned int SplineOutlinePass_TypeDefinitionIndex = 27340;
 
 	class SplineOutlinePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::System::Int32* StaticGet_SplineOutlineCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SplineOutlinePass_TypeDefinitionIndex)->GetStaticField(0x76C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SplineOutlinePass_TypeDefinitionIndex)->GetStaticField(0x7750);
 		}
 		::UnityEngine::Rendering::FilteringSettings m_FilteringSettingsForAll; // 0xA8
 

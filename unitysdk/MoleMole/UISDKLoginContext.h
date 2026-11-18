@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_602E5926BBE69120.h"
+#include "unitysdk/IPLCAPCBCJN.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISDKLOGINCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17A2DB10)
+#define MOLEMOLE_UISDKLOGINCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x179ADB60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISDKLoginContext_TypeDefinitionIndex = 88958;
+	inline static constexpr unsigned int UISDKLoginContext_TypeDefinitionIndex = 82608;
 
 	class UISDKLoginContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_602E5926BBE69120 enterGameState; // 0x28
+		::IPLCAPCBCJN enterGameState; // 0x28
 
 		::System::Void _ctor()
 		{

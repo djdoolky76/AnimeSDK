@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SCEPADTRIGGEREFFECTSLOPEFEEDBACKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x881B70)
+#define SCEPADTRIGGEREFFECTSLOPEFEEDBACKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x81D0A0)
 
-inline static constexpr unsigned int ScePadTriggerEffectSlopeFeedbackParam_TypeDefinitionIndex = 86527;
+inline static constexpr unsigned int ScePadTriggerEffectSlopeFeedbackParam_TypeDefinitionIndex = 45713;
 
-struct alignas(1) ScePadTriggerEffectSlopeFeedbackParam
+struct alignas(4) ScePadTriggerEffectSlopeFeedbackParam
 {
 	::System::Byte startPosition; // 0x10
 	::System::Byte endPosition; // 0x11

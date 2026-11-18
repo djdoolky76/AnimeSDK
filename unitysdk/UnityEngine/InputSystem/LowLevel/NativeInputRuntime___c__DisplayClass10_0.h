@@ -6,12 +6,12 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_NATIVEINPUTRUNTIME___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB03730)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_NATIVEINPUTRUNTIME___C__DISPLAYCLASS10_0__SET_ONBEFOREUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1EB03740)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_NATIVEINPUTRUNTIME___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6ECE0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_NATIVEINPUTRUNTIME___C__DISPLAYCLASS10_0__SET_ONBEFOREUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1EE6ECF0)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int NativeInputRuntime___c__DisplayClass10_0_TypeDefinitionIndex = 32559;
+	inline static constexpr unsigned int NativeInputRuntime___c__DisplayClass10_0_TypeDefinitionIndex = 32008;
 
 	class NativeInputRuntime___c__DisplayClass10_0 : public ::System::Object
 	{

@@ -5,12 +5,13 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LensFlareCommonSRP_ComponentContext_TypeDefinitionIndex = 26963;
+	inline static constexpr unsigned int LensFlareCommonSRP_ComponentContext_TypeDefinitionIndex = 26384;
 
 	struct alignas(4) LensFlareCommonSRP_ComponentContext
 	{
 		::System::Boolean visible; // 0x10
 		::System::Boolean isDirLight; // 0x11
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Vector3 positionWS; // 0x14
 		::UnityEngine::Vector3 viewportPos; // 0x20
 		::System::Single fade; // 0x2C

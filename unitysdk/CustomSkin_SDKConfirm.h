@@ -4,21 +4,21 @@
 
 namespace MoleMole { class UILoginMessageBoxPopWindowController; }
 
-#define CUSTOMSKIN_SDKCONFIRM_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1A89D740)
-#define CUSTOMSKIN_SDKCONFIRM_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1A89D900)
-#define CUSTOMSKIN_SDKCONFIRM_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1A89D950)
-#define CUSTOMSKIN_SDKCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A89D870)
-#define CUSTOMSKIN_SDKCONFIRM__ONSHOW_B__4_0_OFFSET UNITYSDK_OFFSET(0x1A89DC50)
-#define CUSTOMSKIN_SDKCONFIRM__ONSHOW_B__4_1_OFFSET UNITYSDK_OFFSET(0x1A89DC90)
+#define CUSTOMSKIN_SDKCONFIRM_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1831D680)
+#define CUSTOMSKIN_SDKCONFIRM_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1831D840)
+#define CUSTOMSKIN_SDKCONFIRM_ONSHOW_OFFSET UNITYSDK_OFFSET(0x1831D890)
+#define CUSTOMSKIN_SDKCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1831D7B0)
+#define CUSTOMSKIN_SDKCONFIRM__ONSHOW_B__4_0_OFFSET UNITYSDK_OFFSET(0x1831DB90)
+#define CUSTOMSKIN_SDKCONFIRM__ONSHOW_B__4_1_OFFSET UNITYSDK_OFFSET(0x1831DBD0)
 
-inline static constexpr unsigned int CustomSkin_SDKConfirm_TypeDefinitionIndex = 53788;
+inline static constexpr unsigned int CustomSkin_SDKConfirm_TypeDefinitionIndex = 44131;
 
 class CustomSkin_SDKConfirm : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 {
 public:
 	static ::CustomSkin_SDKConfirm** StaticGet__instance()
 	{
-		return (::CustomSkin_SDKConfirm**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_SDKConfirm_TypeDefinitionIndex)->GetStaticField(0x499F0);
+		return (::CustomSkin_SDKConfirm**)Il2CppClass::FromTypeDefinitionIndex(CustomSkin_SDKConfirm_TypeDefinitionIndex)->GetStaticField(0x51D40);
 	}
 	::MoleMole::UILoginMessageBoxPopWindowController* tip; // 0x18
 

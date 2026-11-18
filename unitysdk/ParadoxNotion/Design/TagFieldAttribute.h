@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ParadoxNotion/Design/DrawerAttribute.h"
 
-#define PARADOXNOTION_DESIGN_TAGFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF95470)
+#define PARADOXNOTION_DESIGN_TAGFIELDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F304720)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int TagFieldAttribute_TypeDefinitionIndex = 30898;
+	inline static constexpr unsigned int TagFieldAttribute_TypeDefinitionIndex = 29532;
 
 	class TagFieldAttribute : public ::ParadoxNotion::Design::DrawerAttribute
 	{

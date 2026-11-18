@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/ObjectModel/Collection_1.h"
 
-namespace Newtonsoft::Json { class JsonConverter; }
-
-#define NEWTONSOFT_JSON_JSONCONVERTERCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBBCCC0)
+#define NEWTONSOFT_JSON_JSONCONVERTERCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFC1300)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonConverterCollection_TypeDefinitionIndex = 6998;
+	inline static constexpr unsigned int JsonConverterCollection_TypeDefinitionIndex = 7005;
 
-	class JsonConverterCollection : public ::System::Collections::ObjectModel::Collection_1<::Newtonsoft::Json::JsonConverter*>
+	class JsonConverterCollection
 	{
 	public:
 		::System::Void _ctor()

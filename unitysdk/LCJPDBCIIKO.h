@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BFADKCEAHOM.h"
+
+class JIIFHCBAJHK;
+class PHPFCCFAFGO;
+
+#define LCJPDBCIIKO_BJPGBAJNJAG_OFFSET UNITYSDK_OFFSET(0x1E883B70)
+#define LCJPDBCIIKO_NKBEPBGKHLL_OFFSET UNITYSDK_OFFSET(0x1E883E20)
+#define LCJPDBCIIKO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E883DA0)
+
+inline static constexpr unsigned int LCJPDBCIIKO_TypeDefinitionIndex = 94779;
+
+class LCJPDBCIIKO : public ::BFADKCEAHOM
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LCJPDBCIIKO__CTOR_OFFSET))(this);
+	}
+
+	::System::Void BJPGBAJNJAG(::JIIFHCBAJHK* NFHLKPOFAEK, ::PHPFCCFAFGO* DKNFIAOAAPH)
+	{
+		return ((::System::Void(*)(::PVOID, ::JIIFHCBAJHK*, ::PHPFCCFAFGO*))((::PBYTE)hIl2Cpp + LCJPDBCIIKO_BJPGBAJNJAG_OFFSET))(this, NFHLKPOFAEK, DKNFIAOAAPH);
+	}
+
+	::System::Void NKBEPBGKHLL(::JIIFHCBAJHK* MIALFKCCCPI, ::PHPFCCFAFGO* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::JIIFHCBAJHK*, ::PHPFCCFAFGO*))((::PBYTE)hIl2Cpp + LCJPDBCIIKO_NKBEPBGKHLL_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+};

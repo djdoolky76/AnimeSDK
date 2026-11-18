@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::Haptics
 {
-	inline static constexpr unsigned int IHaptics_TypeDefinitionIndex = 32463;
+	inline static constexpr unsigned int IHaptics_TypeDefinitionIndex = 31912;
 
 	class IHaptics
 	{

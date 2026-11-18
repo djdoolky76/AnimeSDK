@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUSICBATTLEGETFEVER_INVOKE_OFFSET UNITYSDK_OFFSET(0x107CFA70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUSICBATTLEGETFEVER__CTOR_OFFSET UNITYSDK_OFFSET(0x107CFB00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUSICBATTLEGETFEVER_INVOKE_OFFSET UNITYSDK_OFFSET(0x143038F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUSICBATTLEGETFEVER__CTOR_OFFSET UNITYSDK_OFFSET(0x14303980)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMusicBattleGetFever_TypeDefinitionIndex = 73050;
+	inline static constexpr unsigned int LDMusicBattleGetFever_TypeDefinitionIndex = 82985;
 
-	class LDMusicBattleGetFever : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
+	class LDMusicBattleGetFever
 	{
 	public:
 		::System::Void _ctor()

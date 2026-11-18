@@ -3,25 +3,25 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMenuPageController_MenuClickDefine_TypeDefinitionIndex = 41747;
+	inline static constexpr unsigned int UIMainCityMenuPageController_MenuClickDefine_TypeDefinitionIndex = 73307;
 
 	enum class UIMainCityMenuPageController_MenuClickDefine : ::System::Int32
 	{
-		Notice = 15,
-		None = 0,
-		Achievement = 6,
+		PlayerInfo = 1,
 		Shop = 10,
-		Role = 9,
-		More = 2,
-		BattlePass = 11,
-		Yorozuya = 7,
+		Notice = 15,
 		Gacha = 12,
 		Intro = 13,
+		Mail = 14,
+		Setting = 3,
+		None = 0,
+		Role = 9,
 		PrivateMessage = 4,
 		Inventory = 8,
-		Mail = 14,
+		Yorozuya = 7,
+		More = 2,
+		BattlePass = 11,
 		HandBook = 5,
-		PlayerInfo = 1,
-		Setting = 3,
+		Achievement = 6,
 	};
 }

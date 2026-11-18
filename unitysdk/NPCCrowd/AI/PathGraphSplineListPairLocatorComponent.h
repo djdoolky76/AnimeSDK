@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/AI/PathGraphListPairLocatorComponent_1.h"
 
-namespace NPCCrowd::AI { class PathGraphSplineLocatorComponent; }
-
-#define NPCCROWD_AI_PATHGRAPHSPLINELISTPAIRLOCATORCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x157A7080)
+#define NPCCROWD_AI_PATHGRAPHSPLINELISTPAIRLOCATORCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x10DB0F60)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSplineListPairLocatorComponent_TypeDefinitionIndex = 58668;
+	inline static constexpr unsigned int PathGraphSplineListPairLocatorComponent_TypeDefinitionIndex = 86028;
 
-	class PathGraphSplineListPairLocatorComponent : public ::NPCCrowd::AI::PathGraphListPairLocatorComponent_1<::NPCCrowd::AI::PathGraphSplineLocatorComponent*>
+	class PathGraphSplineListPairLocatorComponent
 	{
 	public:
 		::System::Void _ctor()

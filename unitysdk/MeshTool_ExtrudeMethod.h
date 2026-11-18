@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MeshTool_ExtrudeMethod_TypeDefinitionIndex = 90871;
+inline static constexpr unsigned int MeshTool_ExtrudeMethod_TypeDefinitionIndex = 38257;
 
 enum class MeshTool_ExtrudeMethod : ::System::Int32
 {

@@ -3,313 +3,313 @@
 #include "unitysdk/Foundation/Unreal/FName.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CAMERAS_CAMERASEQUENCECONTEXTVARIABLEACCESSORINITIALIZER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x12A1B010)
-#define MOLEMOLE_CAMERAS_CAMERASEQUENCECONTEXTVARIABLEACCESSORINITIALIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12A1B050)
-#define MOLEMOLE_CAMERAS_CAMERASEQUENCECONTEXTVARIABLEACCESSORINITIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x12A2D0D0)
+#define MOLEMOLE_CAMERAS_CAMERASEQUENCECONTEXTVARIABLEACCESSORINITIALIZER_EICHDEINJGM_OFFSET UNITYSDK_OFFSET(0x13048B50)
+#define MOLEMOLE_CAMERAS_CAMERASEQUENCECONTEXTVARIABLEACCESSORINITIALIZER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x13048AD0)
+#define MOLEMOLE_CAMERAS_CAMERASEQUENCECONTEXTVARIABLEACCESSORINITIALIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13064140)
+#define MOLEMOLE_CAMERAS_CAMERASEQUENCECONTEXTVARIABLEACCESSORINITIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x13064130)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex = 46705;
+	inline static constexpr unsigned int CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex = 85709;
 
 	class CameraSequenceContextVariableAccessorInitializer : public ::System::Object
 	{
 	public:
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_6()
+		static ::Foundation::Unreal::FName* StaticGet_CNICIOOIPNM()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x110B0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13870);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_13()
+		static ::Foundation::Unreal::FName* StaticGet_JLLLIJKDDLP()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x110B8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13878);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_20()
+		static ::Foundation::Unreal::FName* StaticGet_JBEPFMPMFLD()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x110C0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13880);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_70()
+		static ::Foundation::Unreal::FName* StaticGet_BDLOICEEGGF()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x110C8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13888);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_72()
+		static ::Foundation::Unreal::FName* StaticGet_MOPKKBHCKGG()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x110D0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13890);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_47()
+		static ::Foundation::Unreal::FName* StaticGet_FJKMDPEEADC()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x110D8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13898);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_66()
+		static ::Foundation::Unreal::FName* StaticGet_CKLBMDENDPA()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x110E0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x138A0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_32()
+		static ::Foundation::Unreal::FName* StaticGet_MMDBNELICNL()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x110E8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x138A8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_59()
+		static ::Foundation::Unreal::FName* StaticGet_ELDKDNEHPBD()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x110F0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x138B0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_10()
+		static ::Foundation::Unreal::FName* StaticGet_AFPJNPPGDCC()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x110F8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x138B8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_53()
+		static ::Foundation::Unreal::FName* StaticGet_IBLOIIKNOHA()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11100);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x138C0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_42()
+		static ::Foundation::Unreal::FName* StaticGet_LEKJCMMGGGH()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11108);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x138C8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_15()
+		static ::Foundation::Unreal::FName* StaticGet_FIDNMGLMOID()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11110);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x138D0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_56()
+		static ::Foundation::Unreal::FName* StaticGet_MDBPAMENHKL()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11118);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x138D8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_17()
+		static ::Foundation::Unreal::FName* StaticGet_JAEJAPEKBOC()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11120);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x138E0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_75()
+		static ::Foundation::Unreal::FName* StaticGet_JKABGDPPPEF()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11128);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x138E8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_14()
+		static ::Foundation::Unreal::FName* StaticGet_IBPFECDEMPL()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11130);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x138F0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_71()
+		static ::Foundation::Unreal::FName* StaticGet_CEKGPPBJFCG()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11138);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x138F8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_31()
+		static ::Foundation::Unreal::FName* StaticGet_PELDKGBPMMD()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11140);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13900);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_23()
+		static ::Foundation::Unreal::FName* StaticGet_LJAFDAFFLAH()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11148);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13908);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_34()
+		static ::Foundation::Unreal::FName* StaticGet_MMNAAGFEHLC()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11150);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13910);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_60()
+		static ::Foundation::Unreal::FName* StaticGet_LMBKNCNCLOD()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11158);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13918);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_48()
+		static ::Foundation::Unreal::FName* StaticGet_MIIOCBNJHHL()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11160);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13920);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_50()
+		static ::Foundation::Unreal::FName* StaticGet_GAJOMHEDAMC()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11168);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13928);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_43()
+		static ::Foundation::Unreal::FName* StaticGet_EJKLLGFFBKO()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11170);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13930);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_57()
+		static ::Foundation::Unreal::FName* StaticGet_GCHJDJPGNKN()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11178);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13938);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_68()
+		static ::Foundation::Unreal::FName* StaticGet_KNDGFDENKFA()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11180);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13940);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_73()
+		static ::Foundation::Unreal::FName* StaticGet_BICMJJMNLJD()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11188);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13948);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_30()
+		static ::Foundation::Unreal::FName* StaticGet_PLOLNCNHDFL()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11190);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13950);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_16()
+		static ::Foundation::Unreal::FName* StaticGet_NOPIBNLNJAA()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11198);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13958);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_69()
+		static ::Foundation::Unreal::FName* StaticGet_JBEENHPHPLA()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x111A0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13960);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_12()
+		static ::Foundation::Unreal::FName* StaticGet_CIOMIMCEKAB()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x111A8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13968);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_46()
+		static ::Foundation::Unreal::FName* StaticGet_MFOMNIJFGAE()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x111B0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13970);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_52()
+		static ::Foundation::Unreal::FName* StaticGet_DFJIHHIFEGH()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x111B8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13978);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_35()
+		static ::Foundation::Unreal::FName* StaticGet_KJIKMIHIJEP()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x111C0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13980);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_38()
+		static ::Foundation::Unreal::FName* StaticGet_EGKKHMIELBE()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x111C8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13988);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_21()
+		static ::Foundation::Unreal::FName* StaticGet_CBNCEHMIKMB()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x111D0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13990);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_18()
+		static ::Foundation::Unreal::FName* StaticGet_IIDNFODLDOH()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x111D8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13998);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_19()
+		static ::Foundation::Unreal::FName* StaticGet_DDJDGMFHMJA()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x111E0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x139A0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_25()
+		static ::Foundation::Unreal::FName* StaticGet_HJGHJBIGCPO()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x111E8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x139A8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_39()
+		static ::Foundation::Unreal::FName* StaticGet_LHOEIHNNAHP()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x111F0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x139B0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_74()
+		static ::Foundation::Unreal::FName* StaticGet_NLHMOKGIANH()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x111F8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x139B8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_51()
+		static ::Foundation::Unreal::FName* StaticGet_LBBIOIFOHOI()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11200);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x139C0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_67()
+		static ::Foundation::Unreal::FName* StaticGet_JBPPACDMEBO()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11208);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x139C8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_28()
+		static ::Foundation::Unreal::FName* StaticGet_FDKDFBNDJEJ()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11210);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x139D0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_64()
+		static ::Foundation::Unreal::FName* StaticGet_FDFIPIMHOJK()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11218);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x139D8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_29()
+		static ::Foundation::Unreal::FName* StaticGet_DPPPPNGECEO()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11220);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x139E0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_41()
+		static ::Foundation::Unreal::FName* StaticGet_DMEFELINEJA()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11228);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x139E8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_27()
+		static ::Foundation::Unreal::FName* StaticGet_OMHJJIIFNAJ()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11230);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x139F0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_62()
+		static ::Foundation::Unreal::FName* StaticGet_ONOKFLFOEPI()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11238);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x139F8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_54()
+		static ::Foundation::Unreal::FName* StaticGet_KMJFDNNHLHI()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11240);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A00);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_37()
+		static ::Foundation::Unreal::FName* StaticGet_FIHOPNHJDOD()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11248);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A08);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_61()
+		static ::Foundation::Unreal::FName* StaticGet_PBJBGAJNINJ()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11250);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A10);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_65()
+		static ::Foundation::Unreal::FName* StaticGet_COCKIBLPLAN()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11258);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A18);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_9()
+		static ::Foundation::Unreal::FName* StaticGet_OGHFDHJPNOB()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11260);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A20);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_26()
+		static ::Foundation::Unreal::FName* StaticGet_AIMLNFLMBEG()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11268);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A28);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_11()
+		static ::Foundation::Unreal::FName* StaticGet_HLNDLLAEDBL()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11270);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A30);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_45()
+		static ::Foundation::Unreal::FName* StaticGet_LOENPHNDIHJ()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11278);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A38);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_55()
+		static ::Foundation::Unreal::FName* StaticGet_OOADEBHMIDE()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11280);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A40);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_58()
+		static ::Foundation::Unreal::FName* StaticGet_PDOPCNLEGJL()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11288);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A48);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_40()
+		static ::Foundation::Unreal::FName* StaticGet_JENMMAPJCKE()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11290);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A50);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_0()
+		static ::Foundation::Unreal::FName* StaticGet_MPLOGEMNBNE()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x11298);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A58);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_22()
+		static ::Foundation::Unreal::FName* StaticGet_ECNLNGJGOJG()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x112A0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A60);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_8()
+		static ::Foundation::Unreal::FName* StaticGet_MNMOFOOFILA()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x112A8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A68);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_44()
+		static ::Foundation::Unreal::FName* StaticGet_CFJMNAGJFGM()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x112B0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A70);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_36()
+		static ::Foundation::Unreal::FName* StaticGet_FBDEDIKNKGJ()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x112B8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A78);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_33()
+		static ::Foundation::Unreal::FName* StaticGet_PCBPBOEFCDC()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x112C0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A80);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_24()
+		static ::Foundation::Unreal::FName* StaticGet_NAJKJOKGDPA()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x112C8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A88);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_4()
+		static ::Foundation::Unreal::FName* StaticGet_IGMFAELIAPN()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x112D0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A90);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_63()
+		static ::Foundation::Unreal::FName* StaticGet_GPAPCBIPAJG()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x112D8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13A98);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_5()
+		static ::Foundation::Unreal::FName* StaticGet_GBHCHCCJLGC()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x112E0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13AA0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_49()
+		static ::System::Boolean* StaticGet_FBEOLJDLFFL()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x112E8);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13AA8);
 		}
-		static ::Foundation::Unreal::FName* StaticGet_Field_1_7()
+		static ::Foundation::Unreal::FName* StaticGet_CMNMGAHENLN()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x112F0);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13AAC);
 		}
-
-		static ::System::Void _cctor()
+		static ::Foundation::Unreal::FName* StaticGet_PIEJPHOCGPG()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERASEQUENCECONTEXTVARIABLEACCESSORINITIALIZER__CCTOR_OFFSET))();
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessorInitializer_TypeDefinitionIndex)->GetStaticField(0x13AB4);
 		}
 
 		::System::Void _ctor()
@@ -317,9 +317,19 @@ namespace MoleMole::Cameras
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERASEQUENCECONTEXTVARIABLEACCESSORINITIALIZER__CTOR_OFFSET))(this);
 		}
 
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERASEQUENCECONTEXTVARIABLEACCESSORINITIALIZER__CCTOR_OFFSET))();
+		}
+
 		static ::System::Void Initialize()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERASEQUENCECONTEXTVARIABLEACCESSORINITIALIZER_INITIALIZE_OFFSET))();
+		}
+
+		static ::System::Void EICHDEINJGM()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_CAMERASEQUENCECONTEXTVARIABLEACCESSORINITIALIZER_EICHDEINJGM_OFFSET))();
 		}
 	};
 }

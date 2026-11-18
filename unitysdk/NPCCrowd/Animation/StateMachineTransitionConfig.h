@@ -6,11 +6,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int StateMachineTransitionConfig_TypeDefinitionIndex = 79056;
+	inline static constexpr unsigned int StateMachineTransitionConfig_TypeDefinitionIndex = 89752;
 
 	struct alignas(8) StateMachineTransitionConfig
 	{
 		::System::Single DefaultTransitionTime; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>*>* TransitionDict; // 0x18
 	};
 }

@@ -6,7 +6,6 @@
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Timeline { class EventTriggerTrack; }
 namespace UnityEngine::Timeline { class ImgSplitScreenGroupPlayableAsset; }
@@ -14,31 +13,31 @@ namespace UnityEngine::Timeline { class ImgSplitScreenGroupTrack; }
 namespace UnityEngine::Timeline { class PauseWaitTrack; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GETTRACKDEFAULTNAME_OFFSET UNITYSDK_OFFSET(0x1FB20410)
-#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_AUTOPLAYCONTROLTRACK_OFFSET UNITYSDK_OFFSET(0x1FB20AD0)
-#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_MAININFO_OFFSET UNITYSDK_OFFSET(0x1FB209C0)
-#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_MAINTRACK_OFFSET UNITYSDK_OFFSET(0x1FB20900)
-#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_REALEND_OFFSET UNITYSDK_OFFSET(0x1FB208B0)
-#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_REALSTART_OFFSET UNITYSDK_OFFSET(0x1FB207D0)
-#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_SPLITSCREENCLIPS_OFFSET UNITYSDK_OFFSET(0x1FB20B10)
-#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_TRIGGERTRACK_OFFSET UNITYSDK_OFFSET(0x1FB20A80)
-#define UNITYENGINE_TIMELINE_COMICGROUPTRACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB20D40)
-#define UNITYENGINE_TIMELINE_COMICGROUPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB20C60)
+#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GETTRACKDEFAULTNAME_OFFSET UNITYSDK_OFFSET(0x1FF1AD90)
+#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_AUTOPLAYCONTROLTRACK_OFFSET UNITYSDK_OFFSET(0x1FF1B450)
+#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_MAININFO_OFFSET UNITYSDK_OFFSET(0x1FF1B340)
+#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_MAINTRACK_OFFSET UNITYSDK_OFFSET(0x1FF1B280)
+#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_REALEND_OFFSET UNITYSDK_OFFSET(0x1FF1B230)
+#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_REALSTART_OFFSET UNITYSDK_OFFSET(0x1FF1B150)
+#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_SPLITSCREENCLIPS_OFFSET UNITYSDK_OFFSET(0x1FF1B490)
+#define UNITYENGINE_TIMELINE_COMICGROUPTRACK_GET_TRIGGERTRACK_OFFSET UNITYSDK_OFFSET(0x1FF1B400)
+#define UNITYENGINE_TIMELINE_COMICGROUPTRACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF1B6C0)
+#define UNITYENGINE_TIMELINE_COMICGROUPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1B5E0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ComicGroupTrack_TypeDefinitionIndex = 32940;
+	inline static constexpr unsigned int ComicGroupTrack_TypeDefinitionIndex = 32395;
 
 	class ComicGroupTrack : public ::UnityEngine::Timeline::GroupTrack
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>** StaticGet_m_mapType2DefaultName()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ComicGroupTrack_TypeDefinitionIndex)->GetStaticField(0x284A0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ComicGroupTrack_TypeDefinitionIndex)->GetStaticField(0x29540);
 		}
 		static ::System::Int32* StaticGet_s_ComicTrackDefaultCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ComicGroupTrack_TypeDefinitionIndex)->GetStaticField(0x8060);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ComicGroupTrack_TypeDefinitionIndex)->GetStaticField(0x8470);
 		}
 		// static const ::System::String* WWISE_AUDIO_TRACK_NAME; // 0x0
 		// static const ::System::String* BGM_TRACK_NAME; // 0x0

@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int IChunkComponent_TypeDefinitionIndex = 38384;
+	inline static constexpr unsigned int IChunkComponent_TypeDefinitionIndex = 36386;
 
 	class IChunkComponent
 	{

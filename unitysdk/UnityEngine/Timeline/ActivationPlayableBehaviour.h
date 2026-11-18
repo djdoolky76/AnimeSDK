@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_TIMELINE_ACTIVATIONPLAYABLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1F3A0D20)
-#define UNITYENGINE_TIMELINE_ACTIVATIONPLAYABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A0E70)
+#define UNITYENGINE_TIMELINE_ACTIVATIONPLAYABLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1F6DC0F0)
+#define UNITYENGINE_TIMELINE_ACTIVATIONPLAYABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6DC260)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ActivationPlayableBehaviour_TypeDefinitionIndex = 32871;
+	inline static constexpr unsigned int ActivationPlayableBehaviour_TypeDefinitionIndex = 32323;
 
 	class ActivationPlayableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

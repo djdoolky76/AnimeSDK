@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NodeCanvas/Framework/ActionTask.h"
 
-#define NODECANVAS_TASKS_ACTIONS_FADEIN_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E542BB0)
-#define NODECANVAS_TASKS_ACTIONS_FADEIN_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E542BE0)
-#define NODECANVAS_TASKS_ACTIONS_FADEIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E542C30)
+#define NODECANVAS_TASKS_ACTIONS_FADEIN_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E7B6C30)
+#define NODECANVAS_TASKS_ACTIONS_FADEIN_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E7B6C60)
+#define NODECANVAS_TASKS_ACTIONS_FADEIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B6CB0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int FadeIn_TypeDefinitionIndex = 30023;
+	inline static constexpr unsigned int FadeIn_TypeDefinitionIndex = 29693;
 
 	class FadeIn : public ::NodeCanvas::Framework::ActionTask
 	{

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_17C17EA0873E8BE7.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/CAIMBOBMNGA.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define PHOTOFRAME_CALTEXTURESIZEINPHOTOIMAGE_OFFSET UNITYSDK_OFFSET(0x13453450)
-#define PHOTOFRAME_GETPHOTOCANVASSIZE_OFFSET UNITYSDK_OFFSET(0x13452C80)
-#define PHOTOFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x13453500)
+#define PHOTOFRAME_CALTEXTURESIZEINPHOTOIMAGE_OFFSET UNITYSDK_OFFSET(0x1D1FC8D0)
+#define PHOTOFRAME_GETPHOTOCANVASSIZE_OFFSET UNITYSDK_OFFSET(0x1D1FBE10)
+#define PHOTOFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1FC980)
 
-inline static constexpr unsigned int PhotoFrame_TypeDefinitionIndex = 61995;
+inline static constexpr unsigned int PhotoFrame_TypeDefinitionIndex = 78160;
 
 class PhotoFrame : public ::UnityEngine::MonoBehaviour
 {
@@ -23,7 +23,7 @@ public:
 	::UnityEngine::RectTransform* PhotoOuterEdgeCustomSize; // 0x30
 	::UnityEngine::RectTransform* FrameOuterBackRoot; // 0x38
 	::UnityEngine::RectTransform* FrameOuterFrontRoot; // 0x40
-	::Enum_3_17C17EA0873E8BE7 SaveMode; // 0x48
+	::CAIMBOBMNGA SaveMode; // 0x48
 	::UnityEngine::Vector2 m_RenderCanvasSize; // 0x4C
 
 	::System::Void _ctor()

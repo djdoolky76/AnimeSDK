@@ -5,34 +5,34 @@
 #include "unitysdk/Unity/Collections/AllocatorManager_AllocatorHandle.h"
 #include "unitysdk/Unity/Collections/NativeArrayOptions.h"
 
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_CLEAR_OFFSET UNITYSDK_OFFSET(0xAD0DF0)
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_CREATE_OFFSET UNITYSDK_OFFSET(0x1FC0D140)
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_DESTROY_OFFSET UNITYSDK_OFFSET(0x1FC0D320)
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD0DE0)
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_REALLOC_OFFSET UNITYSDK_OFFSET(0xAD0EC0)
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_REMOVERANGESWAPBACK_OFFSET UNITYSDK_OFFSET(0xAD0F30)
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_RESIZE_OFFSET UNITYSDK_OFFSET(0xAD0E00)
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_SETCAPACITY_OFFSET UNITYSDK_OFFSET(0xAD0ED0)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_CLEAR_OFFSET UNITYSDK_OFFSET(0x9B7450)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_CREATE_OFFSET UNITYSDK_OFFSET(0x2000DEE0)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_DESTROY_OFFSET UNITYSDK_OFFSET(0x2000E0C0)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9B7440)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_REALLOC_OFFSET UNITYSDK_OFFSET(0x9B7520)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_REMOVERANGESWAPBACK_OFFSET UNITYSDK_OFFSET(0x9B7590)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_RESIZE_OFFSET UNITYSDK_OFFSET(0x9B7460)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_SETCAPACITY_OFFSET UNITYSDK_OFFSET(0x9B7530)
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int UnsafeList_TypeDefinitionIndex = 18883;
+	inline static constexpr unsigned int UnsafeList_TypeDefinitionIndex = 18037;
 
 	struct alignas(8) UnsafeList
 	{
-		::System::Void* Ptr; // 0x10
+		::PVOID Ptr; // 0x10
 		::System::Int32 Length; // 0x18
 		::System::Int32 Capacity; // 0x1C
 		::Unity::Collections::AllocatorManager_AllocatorHandle Allocator; // 0x20
 
-		static ::Unity::Collections::LowLevel::Unsafe::UnsafeList* Create(::System::Int32 sizeOf, ::System::Int32 alignOf, ::System::Int32 initialCapacity, ::Unity::Collections::Allocator allocator, ::Unity::Collections::NativeArrayOptions options)
+		static ::PVOID Create(::System::Int32 sizeOf, ::System::Int32 alignOf, ::System::Int32 initialCapacity, ::Unity::Collections::Allocator allocator, ::Unity::Collections::NativeArrayOptions options)
 		{
-			return ((::Unity::Collections::LowLevel::Unsafe::UnsafeList*(*)(::System::Int32, ::System::Int32, ::System::Int32, ::Unity::Collections::Allocator, ::Unity::Collections::NativeArrayOptions))((::PBYTE)hIl2Cpp + UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_CREATE_OFFSET))(sizeOf, alignOf, initialCapacity, allocator, options);
+			return ((::PVOID(*)(::System::Int32, ::System::Int32, ::System::Int32, ::Unity::Collections::Allocator, ::Unity::Collections::NativeArrayOptions))((::PBYTE)hIl2Cpp + UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_CREATE_OFFSET))(sizeOf, alignOf, initialCapacity, allocator, options);
 		}
 
-		static ::System::Void Destroy(::Unity::Collections::LowLevel::Unsafe::UnsafeList* listData)
+		static ::System::Void Destroy(::PVOID listData)
 		{
-			return ((::System::Void(*)(::Unity::Collections::LowLevel::Unsafe::UnsafeList*))((::PBYTE)hIl2Cpp + UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_DESTROY_OFFSET))(listData);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_UNSAFELIST_DESTROY_OFFSET))(listData);
 		}
 
 		::System::Void Dispose()

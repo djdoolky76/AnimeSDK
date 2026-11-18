@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_4666E61F66433B1E_4;
+class PGPEKBONDHI;
 namespace MoleMole { class UIGachaBtnWidgetController; }
-namespace MoleMole { class UIGachaPageController___c__DisplayClass29_0; }
 
-#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS29_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18ACA7E0)
-#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS29_1__REFRESHGACHATABS_B__4_OFFSET UNITYSDK_OFFSET(0x18ACA7F0)
-#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS29_1__REFRESHGACHATABS_B__5_OFFSET UNITYSDK_OFFSET(0x18ACAC70)
+#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS29_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1809AD00)
+#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS29_1__REFRESHGACHATABS_B__4_OFFSET UNITYSDK_OFFSET(0x1809AD10)
+#define MOLEMOLE_UIGACHAPAGECONTROLLER___C__DISPLAYCLASS29_1__REFRESHGACHATABS_B__5_OFFSET UNITYSDK_OFFSET(0x1809B1A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaPageController___c__DisplayClass29_1_TypeDefinitionIndex = 84828;
+	inline static constexpr unsigned int UIGachaPageController___c__DisplayClass29_1_TypeDefinitionIndex = 58562;
 
+	template <typename T>
 	class UIGachaPageController___c__DisplayClass29_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGachaPageController___c__DisplayClass29_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::MoleMole::UIGachaBtnWidgetController* btnWidget; // 0x18
-		::Class_3_4666E61F66433B1E_4* gacha; // 0x20
+		::PGPEKBONDHI* gacha; // 0x20
 		::System::Int32 tabIdx; // 0x28
 
 		::System::Void _ctor()

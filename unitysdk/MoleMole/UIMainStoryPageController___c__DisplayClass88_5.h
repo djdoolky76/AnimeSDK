@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIMainStoryPageController___c__DisplayClass88_4; }
-
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_5__CTOR_OFFSET UNITYSDK_OFFSET(0x189C6E30)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_5__GOTOSUBITEM_B__5_OFFSET UNITYSDK_OFFSET(0x189C6FB0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_5__CTOR_OFFSET UNITYSDK_OFFSET(0x19047A40)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS88_5__GOTOSUBITEM_B__5_OFFSET UNITYSDK_OFFSET(0x19047BC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass88_5_TypeDefinitionIndex = 84562;
+	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass88_5_TypeDefinitionIndex = 60183;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class UIMainStoryPageController___c__DisplayClass88_5 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMainStoryPageController___c__DisplayClass88_4* CS___8__locals5; // 0x10
+		::System::Object* CS___8__locals5; // 0x10
 		::System::Boolean cachedOpenPreUIAfterFinish; // 0x18
 
 		::System::Void _ctor()

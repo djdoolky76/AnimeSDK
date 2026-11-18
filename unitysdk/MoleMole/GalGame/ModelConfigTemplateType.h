@@ -3,11 +3,11 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int ModelConfigTemplateType_TypeDefinitionIndex = 44284;
+	inline static constexpr unsigned int ModelConfigTemplateType_TypeDefinitionIndex = 45642;
 
 	enum class ModelConfigTemplateType : ::System::Int32
 	{
-		PhotoWall = 1,
 		Clue = 0,
+		PhotoWall = 1,
 	};
 }

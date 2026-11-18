@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_SHOWPROPERTYRESOLVERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7718A0)
+#define SIRENIX_ODININSPECTOR_SHOWPROPERTYRESOLVERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB81B10)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ShowPropertyResolverAttribute_TypeDefinitionIndex = 7362;
+	inline static constexpr unsigned int ShowPropertyResolverAttribute_TypeDefinitionIndex = 7369;
 
 	class ShowPropertyResolverAttribute : public ::System::Attribute
 	{

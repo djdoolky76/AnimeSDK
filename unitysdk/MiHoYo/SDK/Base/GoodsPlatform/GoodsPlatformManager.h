@@ -4,30 +4,33 @@
 #include "unitysdk/System/Object.h"
 
 namespace MiHoYo::SDK { class JSONArray; }
+namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Diagnostics { class Stopwatch; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_ERRORCODEMAPPING_OFFSET UNITYSDK_OFFSET(0x1C7B2830)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_GET_LISTGOODSWORKMODE_OFFSET UNITYSDK_OFFSET(0x1C7B2060)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_REQUESTLISTGOODSAPIWITHCDNFALLBACK_OFFSET UNITYSDK_OFFSET(0x1C7B27A0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_RETRIEVEGOODSLIST_OFFSET UNITYSDK_OFFSET(0x1C7B2070)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_SET_LISTGOODSWORKMODE_OFFSET UNITYSDK_OFFSET(0x1C7B2050)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7B28F0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7B2850)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_ERRORCODEMAPPING_OFFSET UNITYSDK_OFFSET(0x1CAC0990)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_GET_LISTGOODSWORKMODE_OFFSET UNITYSDK_OFFSET(0x1CABFCD0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_HASVALIDGOODSLIST_OFFSET UNITYSDK_OFFSET(0x1CAC0800)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_NORMALIZEGOODSLISTDATA_OFFSET UNITYSDK_OFFSET(0x1CAC05D0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_REQUESTLISTGOODSAPIWITHCDNFALLBACK_OFFSET UNITYSDK_OFFSET(0x1CAC0540)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_RETRIEVEGOODSLIST_OFFSET UNITYSDK_OFFSET(0x1CABFCE0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_SET_LISTGOODSWORKMODE_OFFSET UNITYSDK_OFFSET(0x1CABFCC0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAC0A50)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC09B0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int GoodsPlatformManager_TypeDefinitionIndex = 20934;
+	inline static constexpr unsigned int GoodsPlatformManager_TypeDefinitionIndex = 20138;
 
 	class GoodsPlatformManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager**)Il2CppClass::FromTypeDefinitionIndex(GoodsPlatformManager_TypeDefinitionIndex)->GetStaticField(0xA900);
+			return (::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager**)Il2CppClass::FromTypeDefinitionIndex(GoodsPlatformManager_TypeDefinitionIndex)->GetStaticField(0xA8E0);
 		}
 		// static const ::System::Int32 EC_INTERNAL_ERROR = 0x67; // 0x0
 		// static const ::System::String* PAY_LIST_GOODS_REQUEST; // 0x0
@@ -59,9 +62,19 @@ namespace MiHoYo::SDK::Base::GoodsPlatform
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_RETRIEVEGOODSLIST_OFFSET))(this, args, callback);
 		}
 
-		::System::Void RequestListGoodsAPIWithCDNFallback(::MiHoYo::SDK::JSONObject* queries, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>* callback)
+		::System::Void RequestListGoodsAPIWithCDNFallback(::MiHoYo::SDK::JSONObject* queries, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONObject*, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_REQUESTLISTGOODSAPIWITHCDNFALLBACK_OFFSET))(this, queries, callback);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONObject*, ::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_REQUESTLISTGOODSAPIWITHCDNFALLBACK_OFFSET))(this, queries, callback);
+		}
+
+		::MiHoYo::SDK::JSONObject* NormalizeGoodsListData(::MiHoYo::SDK::JSONNode* data)
+		{
+			return ((::MiHoYo::SDK::JSONObject*(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_NORMALIZEGOODSLISTDATA_OFFSET))(this, data);
+		}
+
+		::System::Boolean HasValidGoodsList(::MiHoYo::SDK::JSONArray* goods)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::MiHoYo::SDK::JSONArray*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER_HASVALIDGOODSLIST_OFFSET))(this, goods);
 		}
 
 		::System::Int32 ErrorCodeMapping(::System::Int32 ec)

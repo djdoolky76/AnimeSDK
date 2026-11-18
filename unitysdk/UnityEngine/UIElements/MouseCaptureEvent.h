@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/UIElements/MouseCaptureEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_MOUSECAPTUREEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0008A0)
+#define UNITYENGINE_UIELEMENTS_MOUSECAPTUREEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B5A30)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseCaptureEvent_TypeDefinitionIndex = 28092;
+	inline static constexpr unsigned int MouseCaptureEvent_TypeDefinitionIndex = 27510;
 
-	class MouseCaptureEvent : public ::UnityEngine::UIElements::MouseCaptureEventBase_1<::UnityEngine::UIElements::MouseCaptureEvent*>
+	class MouseCaptureEvent
 	{
 	public:
 		::System::Void _ctor()

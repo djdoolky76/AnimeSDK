@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMINISCAPECOLLECTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x189CC950)
-#define MOLEMOLE_UIMINISCAPECOLLECTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x189CC990)
-#define MOLEMOLE_UIMINISCAPECOLLECTPAGECONTROLLER___C__ONUIINIT_B__4_1_OFFSET UNITYSDK_OFFSET(0x189CC9A0)
+#define MOLEMOLE_UIMINISCAPECOLLECTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1904D700)
+#define MOLEMOLE_UIMINISCAPECOLLECTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1904D740)
+#define MOLEMOLE_UIMINISCAPECOLLECTPAGECONTROLLER___C__ONUIINIT_B__4_1_OFFSET UNITYSDK_OFFSET(0x1904D750)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniscapeCollectPageController___c_TypeDefinitionIndex = 83397;
+	inline static constexpr unsigned int UIMiniscapeCollectPageController___c_TypeDefinitionIndex = 88968;
 
 	class UIMiniscapeCollectPageController___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeCollectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3F200);
+		}
 		static ::System::Action** StaticGet___9__4_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeCollectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D340);
-		}
-		static ::MoleMole::UIMiniscapeCollectPageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIMiniscapeCollectPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeCollectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3D348);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeCollectPageController___c_TypeDefinitionIndex)->GetStaticField(0x3F208);
 		}
 
 		static ::System::Void _cctor()

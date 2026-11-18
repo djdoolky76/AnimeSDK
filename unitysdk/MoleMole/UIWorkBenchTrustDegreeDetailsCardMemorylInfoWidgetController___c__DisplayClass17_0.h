@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_2_CEF0D076577A9E4E;
+class CKGNBCLLHMK;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkBenchTrustDegreeDetailsCardMemorylInfoWidgetController___c__DisplayClass17_0_TypeDefinitionIndex = 61922;
+	inline static constexpr unsigned int UIWorkBenchTrustDegreeDetailsCardMemorylInfoWidgetController___c__DisplayClass17_0_TypeDefinitionIndex = 74805;
 
 	struct alignas(8) UIWorkBenchTrustDegreeDetailsCardMemorylInfoWidgetController___c__DisplayClass17_0
 	{
-		::Class_2_CEF0D076577A9E4E* value; // 0x10
+		::CKGNBCLLHMK* value; // 0x10
 	};
 }

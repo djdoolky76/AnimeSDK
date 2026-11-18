@@ -3,20 +3,13 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections { class IList; }
-namespace System::Collections::Generic { template <typename T> class ICollection_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
-namespace System::Collections::Generic { template <typename T> class IList_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define FOUNDATION_LISTX_ILISTTORMTEXT_OFFSET UNITYSDK_OFFSET(0x1F4BDF20)
+#define FOUNDATION_LISTX_ILISTTORMTEXT_OFFSET UNITYSDK_OFFSET(0x1F37CD00)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ListX_TypeDefinitionIndex = 7896;
+	inline static constexpr unsigned int ListX_TypeDefinitionIndex = 8178;
 
 	class ListX : public ::System::Object
 	{

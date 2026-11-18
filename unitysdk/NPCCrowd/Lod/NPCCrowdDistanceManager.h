@@ -1,8 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Lod/ConditionData.h"
-#include "unitysdk/NPCCrowd/Lod/NPCCrowdDistanceProcessor_TaskRuntime.h"
-#include "unitysdk/NPCCrowd/Lod/RegisterData.h"
 #include "unitysdk/NPCCrowd/Lod/Registry.h"
 #include "unitysdk/NPCCrowd/Lod/TargetPairInt.h"
 #include "unitysdk/NPCCrowd/Lod/UpdateMode.h"
@@ -11,48 +8,51 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/NPCCrowd/Lod/ConditionData.h"
+#include "unitysdk/NPCCrowd/Lod/RegisterData.h"
 
 namespace NPCCrowd { class NPCIDGeneratorInt; }
 namespace NPCCrowd::Lod { class INPCCrowdDistanceCheckInterface; }
 namespace NPCCrowd::Lod { class NPCCrowdCameraAgent; }
 namespace NPCCrowd::Lod { class NPCCrowdDistanceManager_NpcCrowdDistanceCheck; }
 namespace NPCCrowd::Lod { class NPCCrowdPlayerAgent; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_CHECK_OFFSET UNITYSDK_OFFSET(0x17FADEF0)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_COMMONREGISTERUPDATE_OFFSET UNITYSDK_OFFSET(0x17FABBD0)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_DISPOSECOMMONAGENTS_OFFSET UNITYSDK_OFFSET(0x17FAF910)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x17FAB3B0)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_INITCOMMONAGENTS_OFFSET UNITYSDK_OFFSET(0x17FAB700)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x17FAB530)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_INTERNALUNREGISTERUPDATE_OFFSET UNITYSDK_OFFSET(0x17FACE70)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17FAE900)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17FAF780)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17FAEA30)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_PRELATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17FAE4A0)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_REGISTERTARGET_OFFSET UNITYSDK_OFFSET(0x17FAC3F0)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_REGISTERUPDATE_OFFSET UNITYSDK_OFFSET(0x17FABDC0)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_TRYGETREGISTRYHANDLERSBYTASKIDX_OFFSET UNITYSDK_OFFSET(0x17FAB8A0)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_TRYGETREGISTRY_OFFSET UNITYSDK_OFFSET(0x17FAB9B0)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_TRYGETTARGET_OFFSET UNITYSDK_OFFSET(0x17FAB790)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_TRYSETREGISTRY_OFFSET UNITYSDK_OFFSET(0x17FABAC0)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_UNREGISTERUPDATE_OFFSET UNITYSDK_OFFSET(0x17FACDE0)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_UPDATEREGISTRYCONDITION_OFFSET UNITYSDK_OFFSET(0x17FACB90)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_UPDATETARGET_OFFSET UNITYSDK_OFFSET(0x17FAC840)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_WAIT_OFFSET UNITYSDK_OFFSET(0x17FAC390)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x17FAF960)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0x17FAFC10)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17FAFCA0)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17FAFD40)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER___BASE_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17FAFDD0)
-#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER___BASE_PRELATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17FAFE70)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_CHECK_OFFSET UNITYSDK_OFFSET(0x114D1FE0)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_COMMONREGISTERUPDATE_OFFSET UNITYSDK_OFFSET(0x114CFC90)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_DISPOSECOMMONAGENTS_OFFSET UNITYSDK_OFFSET(0x114D3A10)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x114CF450)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_INITCOMMONAGENTS_OFFSET UNITYSDK_OFFSET(0x114CF7A0)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x114CF5D0)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_INTERNALUNREGISTERUPDATE_OFFSET UNITYSDK_OFFSET(0x114D0F50)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x114D29F0)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x114D3880)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x114D2B20)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_PRELATEUPDATE_OFFSET UNITYSDK_OFFSET(0x114D2590)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_REGISTERTARGET_OFFSET UNITYSDK_OFFSET(0x114D04D0)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_REGISTERUPDATE_OFFSET UNITYSDK_OFFSET(0x114CFE80)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_TRYGETREGISTRYHANDLERSBYTASKIDX_OFFSET UNITYSDK_OFFSET(0x114CF960)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_TRYGETREGISTRY_OFFSET UNITYSDK_OFFSET(0x114CFA70)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_TRYGETTARGET_OFFSET UNITYSDK_OFFSET(0x114CF850)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_TRYSETREGISTRY_OFFSET UNITYSDK_OFFSET(0x114CFB80)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_UNREGISTERUPDATE_OFFSET UNITYSDK_OFFSET(0x114D0EC0)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_UPDATEREGISTRYCONDITION_OFFSET UNITYSDK_OFFSET(0x114D0C70)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_UPDATETARGET_OFFSET UNITYSDK_OFFSET(0x114D0920)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER_WAIT_OFFSET UNITYSDK_OFFSET(0x114D0470)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x114D3A60)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0x114D3D10)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x114D3DA0)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x114D3E40)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER___BASE_POSTLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x114D3ED0)
+#define NPCCROWD_LOD_NPCCROWDDISTANCEMANAGER___BASE_PRELATEUPDATE_OFFSET UNITYSDK_OFFSET(0x114D3F70)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdDistanceManager_TypeDefinitionIndex = 70915;
+	inline static constexpr unsigned int NPCCrowdDistanceManager_TypeDefinitionIndex = 65252;
 
 	class NPCCrowdDistanceManager : public ::NPCCrowd::NPCCrowdModuleManagerBase
 	{
@@ -60,24 +60,27 @@ namespace NPCCrowd::Lod
 		// static const ::System::Int32 MAX_TARGET_CNT = 0xDAC; // 0x0
 		// static const ::System::Int32 MAX_REGISTYR_CNT = 0x88B8; // 0x0
 		// static const ::System::Int32 MAX_TASK_CNT = 0x88B8; // 0x0
-		::Il2CppArray<::NPCCrowd::Lod::Registry>* _registries; // 0x18
-		::NPCCrowd::Lod::NPCCrowdCameraAgent* cameraAgent; // 0x20
-		::System::Collections::Generic::Stack_1<::System::Int32>* _availiableTargetIdx; // 0x28
-		::NPCCrowd::Lod::NPCCrowdPlayerAgent* playerAgent; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>* _taskIdx2handlers; // 0x38
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::ValueTuple_2<::System::Int32, ::System::Int32>>* _targetIdxCache; // 0x40
-		::System::Collections::Generic::HashSet_1<::System::Int32>* _delayDeleteRegistry; // 0x48
-		::NPCCrowd::NPCIDGeneratorInt* IDGen; // 0x50
-		::System::Collections::Generic::HashSet_1<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*>* _refreshTargets; // 0x58
+		::NPCCrowd::Lod::NPCCrowdCameraAgent* cameraAgent; // 0x18
+		::Il2CppArray<::NPCCrowd::Lod::Registry>* _registries; // 0x20
+		::NPCCrowd::NPCIDGeneratorInt* IDGen; // 0x28
+		::System::Collections::Generic::Stack_1<::System::Int32>* _availiableTargetIdx; // 0x30
+		::System::Collections::Generic::HashSet_1<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*>* _refreshTargets; // 0x38
+		::System::Collections::Generic::HashSet_1<::System::Int32>* _delayDeleteRegistry; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>* _taskIdx2handlers; // 0x48
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Lod::TargetPairInt, ::System::Int32>* _taskIdxCache; // 0x50
+		::NPCCrowd::Lod::NPCCrowdPlayerAgent* playerAgent; // 0x58
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* _registryHandlers; // 0x60
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Lod::TargetPairInt, ::System::Int32>* _taskIdxCache; // 0x68
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*>* _idxTargetCache; // 0x70
-		::Unity::Collections::NativeArray_1<::System::Single> movements; // 0x78
-		::Unity::Jobs::JobHandle _jobHandle; // 0x88
-		::System::Int32 taskCount; // 0x98
-		::System::Int32 registryCount; // 0x9C
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions; // 0xA0
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Lod::NPCCrowdDistanceProcessor_TaskRuntime> tasks; // 0xB0
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*>* _idxTargetCache; // 0x68
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::ValueTuple_2<::System::Int32, ::System::Int32>>* _targetIdxCache; // 0x70
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions; // 0x78
+		::System::Byte _padding0[0x8];
+		::Unity::Collections::NativeArray_1<::System::Object*> tasks; // 0x88
+		::System::Byte _padding1[0x8];
+		::Unity::Jobs::JobHandle _jobHandle; // 0x98
+		::Unity::Collections::NativeArray_1<::System::Single> movements; // 0xA8
+		::System::Byte _padding2[0x8];
+		::System::Int32 taskCount; // 0xB8
+		::System::Int32 registryCount; // 0xBC
 
 		::System::Void _ctor()
 		{

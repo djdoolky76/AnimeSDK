@@ -6,21 +6,21 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MONOMOVABLEPLANARREFLECTIONPROXY_CHECKTRIGGERINPROXY_OFFSET UNITYSDK_OFFSET(0x1C3FF260)
-#define MONOMOVABLEPLANARREFLECTIONPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C3FF7B0)
-#define MONOMOVABLEPLANARREFLECTIONPROXY_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1C3FF860)
-#define MONOMOVABLEPLANARREFLECTIONPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C3FF6D0)
-#define MONOMOVABLEPLANARREFLECTIONPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3FFA00)
-#define MONOMOVABLEPLANARREFLECTIONPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FF9B0)
+#define MONOMOVABLEPLANARREFLECTIONPROXY_CHECKTRIGGERINPROXY_OFFSET UNITYSDK_OFFSET(0x1C8252D0)
+#define MONOMOVABLEPLANARREFLECTIONPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C825820)
+#define MONOMOVABLEPLANARREFLECTIONPROXY_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1C8258D0)
+#define MONOMOVABLEPLANARREFLECTIONPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C825740)
+#define MONOMOVABLEPLANARREFLECTIONPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C825A70)
+#define MONOMOVABLEPLANARREFLECTIONPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C825A20)
 
-inline static constexpr unsigned int MonoMovablePlanarReflectionProxy_TypeDefinitionIndex = 27947;
+inline static constexpr unsigned int MonoMovablePlanarReflectionProxy_TypeDefinitionIndex = 26692;
 
 class MonoMovablePlanarReflectionProxy : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Collections::Generic::HashSet_1<::MonoMovablePlanarReflectionProxy*>** StaticGet_s_ProxyList()
 	{
-		return (::System::Collections::Generic::HashSet_1<::MonoMovablePlanarReflectionProxy*>**)Il2CppClass::FromTypeDefinitionIndex(MonoMovablePlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x23B50);
+		return (::System::Collections::Generic::HashSet_1<::MonoMovablePlanarReflectionProxy*>**)Il2CppClass::FromTypeDefinitionIndex(MonoMovablePlanarReflectionProxy_TypeDefinitionIndex)->GetStaticField(0x24B30);
 	}
 	::UnityEngine::Bounds m_BoundsOS; // 0x18
 

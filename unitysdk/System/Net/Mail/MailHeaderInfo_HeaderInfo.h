@@ -5,16 +5,17 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_MAIL_MAILHEADERINFO_HEADERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x95CCF0)
+#define SYSTEM_NET_MAIL_MAILHEADERINFO_HEADERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8AAEB0)
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int MailHeaderInfo_HeaderInfo_TypeDefinitionIndex = 3577;
+	inline static constexpr unsigned int MailHeaderInfo_HeaderInfo_TypeDefinitionIndex = 3576;
 
 	struct alignas(8) MailHeaderInfo_HeaderInfo
 	{
 		::System::String* NormalizedName; // 0x10
 		::System::Boolean IsSingleton; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Net::Mail::MailHeaderID ID; // 0x1C
 		::System::Boolean IsUserSettable; // 0x20
 		::System::Boolean AllowsUnicode; // 0x21

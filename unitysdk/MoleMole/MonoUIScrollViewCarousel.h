@@ -10,26 +10,26 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_CAROUSELSCROLLVIEWIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x14A17F40)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_CAROUSELSCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x14A17E20)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_DODESTROY_OFFSET UNITYSDK_OFFSET(0x14A17700)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x14A18220)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_ONDRAG_OFFSET UNITYSDK_OFFSET(0x14A182C0)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x14A18350)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_REFRESHCAROUSELSETTING_OFFSET UNITYSDK_OFFSET(0x14A17A60)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELACTION_OFFSET UNITYSDK_OFFSET(0x14A179F0)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELMOTIONSETTING_OFFSET UNITYSDK_OFFSET(0x14A17920)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELSETTING_OFFSET UNITYSDK_OFFSET(0x14A178C0)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELTIME_OFFSET UNITYSDK_OFFSET(0x14A17980)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_STARTCAROUSEL_OFFSET UNITYSDK_OFFSET(0x14A17AB0)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_STARTMOTIONCAROUSEL_OFFSET UNITYSDK_OFFSET(0x14A17C10)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_STOPCAROUSEL_OFFSET UNITYSDK_OFFSET(0x14A17C60)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x14A176A0)
-#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL__CTOR_OFFSET UNITYSDK_OFFSET(0x14A183E0)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_CAROUSELSCROLLVIEWIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x1310F670)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_CAROUSELSCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x1310F560)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_DODESTROY_OFFSET UNITYSDK_OFFSET(0x1310EE50)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x1310F950)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_ONDRAG_OFFSET UNITYSDK_OFFSET(0x1310F9F0)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x1310FA80)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_REFRESHCAROUSELSETTING_OFFSET UNITYSDK_OFFSET(0x1310F1B0)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELACTION_OFFSET UNITYSDK_OFFSET(0x1310F140)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELMOTIONSETTING_OFFSET UNITYSDK_OFFSET(0x1310F070)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELSETTING_OFFSET UNITYSDK_OFFSET(0x1310F010)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELTIME_OFFSET UNITYSDK_OFFSET(0x1310F0D0)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_STARTCAROUSEL_OFFSET UNITYSDK_OFFSET(0x1310F200)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_STARTMOTIONCAROUSEL_OFFSET UNITYSDK_OFFSET(0x1310F350)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_STOPCAROUSEL_OFFSET UNITYSDK_OFFSET(0x1310F3A0)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1310EDF0)
+#define MOLEMOLE_MONOUISCROLLVIEWCAROUSEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1310FB10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIScrollViewCarousel_TypeDefinitionIndex = 85019;
+	inline static constexpr unsigned int MonoUIScrollViewCarousel_TypeDefinitionIndex = 80028;
 
 	class MonoUIScrollViewCarousel : public ::UnityEngine::MonoBehaviour
 	{
@@ -48,6 +48,7 @@ namespace MoleMole
 		::System::Int32 maxItemNum; // 0x50
 		::System::Boolean isDestroyed; // 0x54
 		::System::Boolean isMoving; // 0x55
+		::System::Byte _padding0[0x2];
 		::System::Action* updateCallback; // 0x58
 		::System::Action_2<::System::Int32, ::System::Int32>* changeCallback; // 0x60
 		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* dragBeginAction; // 0x68
@@ -69,29 +70,29 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_DODESTROY_OFFSET))(this);
 		}
 
-		::System::Void SetCarouselSetting(::System::Int32 a1, ::System::Action_2<::System::Int32, ::System::Int32>* a2)
+		::System::Void SetCarouselSetting(::System::Int32 BDEPOACKHFJ, ::System::Action_2<::System::Int32, ::System::Int32>* FOBLADDNGGF)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELSETTING_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELSETTING_OFFSET))(this, BDEPOACKHFJ, FOBLADDNGGF);
 		}
 
-		::System::Void SetCarouselMotionSetting(::System::Int32 a1, ::System::Action* a2)
+		::System::Void SetCarouselMotionSetting(::System::Int32 BDEPOACKHFJ, ::System::Action* JBEOFOIPGBF)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELMOTIONSETTING_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELMOTIONSETTING_OFFSET))(this, BDEPOACKHFJ, JBEOFOIPGBF);
 		}
 
-		::System::Void SetCarouselTime(::System::Single a1, ::System::Single a2)
+		::System::Void SetCarouselTime(::System::Single IEGOGFCOPML, ::System::Single OOFMFFBJECG)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELTIME_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELTIME_OFFSET))(this, IEGOGFCOPML, OOFMFFBJECG);
 		}
 
-		::System::Void SetCarouselAction(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* a1, ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* a2, ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* a3)
+		::System::Void SetCarouselAction(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* JKMHACANICP, ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* ENNLOIMFLGO, ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* MGBGEOFNDCF)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*, ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*, ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELACTION_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*, ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*, ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_SETCAROUSELACTION_OFFSET))(this, JKMHACANICP, ENNLOIMFLGO, MGBGEOFNDCF);
 		}
 
-		::System::Void RefreshCarouselSetting(::System::Int32 a1)
+		::System::Void RefreshCarouselSetting(::System::Int32 BDEPOACKHFJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_REFRESHCAROUSELSETTING_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_REFRESHCAROUSELSETTING_OFFSET))(this, BDEPOACKHFJ);
 		}
 
 		::System::Void StartCarousel()
@@ -114,24 +115,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_CAROUSELSCROLLVIEW_OFFSET))(this);
 		}
 
-		::System::Void CarouselScrollViewImmediately(::System::Boolean a1)
+		::System::Void CarouselScrollViewImmediately(::System::Boolean OGFKCPFOGDA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_CAROUSELSCROLLVIEWIMMEDIATELY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_CAROUSELSCROLLVIEWIMMEDIATELY_OFFSET))(this, OGFKCPFOGDA);
 		}
 
-		::System::Void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* a1)
+		::System::Void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* DIHNFECKHMD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_ONBEGINDRAG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_ONBEGINDRAG_OFFSET))(this, DIHNFECKHMD);
 		}
 
-		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* a1)
+		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* DIHNFECKHMD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_ONDRAG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_ONDRAG_OFFSET))(this, DIHNFECKHMD);
 		}
 
-		::System::Void OnEndDrag(::UnityEngine::EventSystems::PointerEventData* a1)
+		::System::Void OnEndDrag(::UnityEngine::EventSystems::PointerEventData* DIHNFECKHMD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_ONENDDRAG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUISCROLLVIEWCAROUSEL_ONENDDRAG_OFFSET))(this, DIHNFECKHMD);
 		}
 	};
 }

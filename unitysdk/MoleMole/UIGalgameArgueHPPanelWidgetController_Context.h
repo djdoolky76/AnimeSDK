@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIGALGAMEARGUEHPPANELWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18808E00)
+#define MOLEMOLE_UIGALGAMEARGUEHPPANELWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1836F510)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgameArgueHPPanelWidgetController_Context_TypeDefinitionIndex = 49842;
+	inline static constexpr unsigned int UIGalgameArgueHPPanelWidgetController_Context_TypeDefinitionIndex = 81006;
 
 	class UIGalgameArgueHPPanelWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

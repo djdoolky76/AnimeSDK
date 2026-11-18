@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NapUIProfiling_UIFuncionType.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NAPUIPROFILING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC43B70)
+#define NAPUIPROFILING__CCTOR_OFFSET UNITYSDK_OFFSET(0x20048930)
 
-inline static constexpr unsigned int NapUIProfiling_TypeDefinitionIndex = 19182;
+inline static constexpr unsigned int NapUIProfiling_TypeDefinitionIndex = 18336;
 
 class NapUIProfiling : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::NapUIProfiling_UIFuncionType, ::System::String*>** StaticGet_TypeToStringMap()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_StringToTypeMap()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::NapUIProfiling_UIFuncionType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NapUIProfiling_TypeDefinitionIndex)->GetStaticField(0x87A0);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NapUIProfiling_TypeDefinitionIndex)->GetStaticField(0x8790);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::NapUIProfiling_UIFuncionType>** StaticGet_StringToTypeMap()
+	static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>** StaticGet_TypeToStringMap()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::NapUIProfiling_UIFuncionType>**)Il2CppClass::FromTypeDefinitionIndex(NapUIProfiling_TypeDefinitionIndex)->GetStaticField(0x87A8);
+		return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NapUIProfiling_TypeDefinitionIndex)->GetStaticField(0x8798);
 	}
 	static ::System::Boolean* StaticGet_EnableUIProfile()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapUIProfiling_TypeDefinitionIndex)->GetStaticField(0x42D0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapUIProfiling_TypeDefinitionIndex)->GetStaticField(0x4290);
 	}
 
 	static ::System::Void _cctor()

@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_85A37873CC9A51B0.h"
+#include "unitysdk/DAPDAOIGPPA.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/Struct_2_A47ACAABA9AAFE92.h"
-#include "unitysdk/System/Object.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_CLONE_OFFSET UNITYSDK_OFFSET(0x116FEE90)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x116FEE80)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x116FF0E0)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_FROMFLX_OFFSET UNITYSDK_OFFSET(0x116FEFA0)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_GETCONFIGDYNAMICVALUETYPE_OFFSET UNITYSDK_OFFSET(0x116FEE30)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x116FEF90)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x116FF0F0)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x116FF000)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x116FF100)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x116FF010)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE__CCTOR_OFFSET UNITYSDK_OFFSET(0x116FF260)
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x116FF250)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_CLONE_OFFSET UNITYSDK_OFFSET(0xFABD090)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0xFABD080)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xFABD210)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_FROMFLX_OFFSET UNITYSDK_OFFSET(0xFABD1A0)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_GETCONFIGDYNAMICVALUETYPE_OFFSET UNITYSDK_OFFSET(0xFABD030)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0xFABD190)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xFABD220)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xFABD200)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0xFABA610)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0xFABA050)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE__CCTOR_OFFSET UNITYSDK_OFFSET(0xFABD240)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xFABD230)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDynamicValue_TypeDefinitionIndex = 58230;
+	inline static constexpr unsigned int ConfigDynamicValue_TypeDefinitionIndex = 85233;
 
 	class ConfigDynamicValue : public ::System::Object
 	{
 	public:
 		static ::MoleMole::Config::ConfigDynamicValue** StaticGet_Empty()
 		{
-			return (::MoleMole::Config::ConfigDynamicValue**)Il2CppClass::FromTypeDefinitionIndex(ConfigDynamicValue_TypeDefinitionIndex)->GetStaticField(0x31150);
+			return (::MoleMole::Config::ConfigDynamicValue**)Il2CppClass::FromTypeDefinitionIndex(ConfigDynamicValue_TypeDefinitionIndex)->GetStaticField(0x4D350);
 		}
 
 		::System::Void _ctor()
@@ -44,9 +43,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE__CCTOR_OFFSET))();
 		}
 
-		::Enum_3_85A37873CC9A51B0 GetConfigDynamicValueType()
+		::DAPDAOIGPPA GetConfigDynamicValueType()
 		{
-			return ((::Enum_3_85A37873CC9A51B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_GETCONFIGDYNAMICVALUETYPE_OFFSET))(this);
+			return ((::DAPDAOIGPPA(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_GETCONFIGDYNAMICVALUETYPE_OFFSET))(this);
 		}
 
 		::System::Void ForeachRefTypeMember(::System::Action_1<::System::Object*>* callback)
@@ -79,19 +78,19 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::ConfigDynamicValue*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::ConfigDynamicValue* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		static ::MoleMole::Config::ConfigDynamicValue* ParseFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::ConfigDynamicValue*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+			return ((::MoleMole::Config::ConfigDynamicValue*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDYNAMICVALUE_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 	};
 }

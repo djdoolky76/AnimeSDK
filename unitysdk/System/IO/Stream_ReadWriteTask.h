@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Threading/Tasks/Task_1.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class Object; }
@@ -10,27 +9,28 @@ namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET UNITYSDK_OFFSET(0x1D8BFCE0)
-#define SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D8BFE40)
-#define SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D8BFEB0)
-#define SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BFD00)
+#define SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET UNITYSDK_OFFSET(0x1DD9C200)
+#define SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x1DD9C360)
+#define SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DD9C3D0)
+#define SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD9C220)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int Stream_ReadWriteTask_TypeDefinitionIndex = 652;
+	inline static constexpr unsigned int Stream_ReadWriteTask_TypeDefinitionIndex = 651;
 
-	class Stream_ReadWriteTask : public ::System::Threading::Tasks::Task_1<::System::Int32>
+	class Stream_ReadWriteTask
 	{
 	public:
 		static ::System::Threading::ContextCallback** StaticGet_s_invokeAsyncCallback()
 		{
 			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(Stream_ReadWriteTask_TypeDefinitionIndex)->GetStaticField(0xD40);
 		}
-		::Il2CppArray<::System::Byte>* _buffer; // 0x50
+		::System::IO::Stream* _stream; // 0x50
 		::System::AsyncCallback* _callback; // 0x58
-		::System::Threading::ExecutionContext* _context; // 0x60
-		::System::IO::Stream* _stream; // 0x68
+		::Il2CppArray<::System::Byte>* _buffer; // 0x60
+		::System::Threading::ExecutionContext* _context; // 0x68
 		::System::Boolean _isRead; // 0x70
+		::System::Byte _padding0[0x3];
 		::System::Int32 _offset; // 0x74
 		::System::Int32 _count; // 0x78
 

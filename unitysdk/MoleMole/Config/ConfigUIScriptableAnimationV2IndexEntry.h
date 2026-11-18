@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIScriptableAnimationV2IndexEntry_TypeDefinitionIndex = 69248;
+	inline static constexpr unsigned int ConfigUIScriptableAnimationV2IndexEntry_TypeDefinitionIndex = 48483;
 
 	struct alignas(8) ConfigUIScriptableAnimationV2IndexEntry
 	{

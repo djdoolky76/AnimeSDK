@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_468A4FBF2E9F527C;
+class BNFIIBMAMDO;
 namespace MoleMole { class UIBossChallengeSelectZonePageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIBOSSCHALLENGESELECTZONEPAGECONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170A3360)
-#define MOLEMOLE_UIBOSSCHALLENGESELECTZONEPAGECONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_B__1_OFFSET UNITYSDK_OFFSET(0x170A33F0)
-#define MOLEMOLE_UIBOSSCHALLENGESELECTZONEPAGECONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_B__2_OFFSET UNITYSDK_OFFSET(0x170A3560)
-#define MOLEMOLE_UIBOSSCHALLENGESELECTZONEPAGECONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_B__3_OFFSET UNITYSDK_OFFSET(0x170A36D0)
-#define MOLEMOLE_UIBOSSCHALLENGESELECTZONEPAGECONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_G__SORTKEY_0_OFFSET UNITYSDK_OFFSET(0x170A3370)
+#define MOLEMOLE_UIBOSSCHALLENGESELECTZONEPAGECONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170501A0)
+#define MOLEMOLE_UIBOSSCHALLENGESELECTZONEPAGECONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_B__1_OFFSET UNITYSDK_OFFSET(0x17050230)
+#define MOLEMOLE_UIBOSSCHALLENGESELECTZONEPAGECONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_B__2_OFFSET UNITYSDK_OFFSET(0x170503A0)
+#define MOLEMOLE_UIBOSSCHALLENGESELECTZONEPAGECONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_B__3_OFFSET UNITYSDK_OFFSET(0x17050510)
+#define MOLEMOLE_UIBOSSCHALLENGESELECTZONEPAGECONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_G__SORTKEY_0_OFFSET UNITYSDK_OFFSET(0x170501B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossChallengeSelectZonePageController___c__DisplayClass8_0_TypeDefinitionIndex = 67093;
+	inline static constexpr unsigned int UIBossChallengeSelectZonePageController___c__DisplayClass8_0_TypeDefinitionIndex = 54720;
 
 	class UIBossChallengeSelectZonePageController___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBossChallengeSelectZonePageController* __4__this; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* allNewHadalZoneIDs; // 0x18
-		::UnityEngine::Events::UnityAction* __9__3; // 0x20
-		::Class_2_468A4FBF2E9F527C* hadalModel; // 0x28
+		::BNFIIBMAMDO* hadalModel; // 0x10
+		::UnityEngine::Events::UnityAction* __9__3; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* allNewHadalZoneIDs; // 0x20
+		::MoleMole::UIBossChallengeSelectZonePageController* __4__this; // 0x28
 
 		::System::Void _ctor()
 		{

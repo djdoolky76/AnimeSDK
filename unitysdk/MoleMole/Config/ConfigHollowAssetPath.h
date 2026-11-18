@@ -4,19 +4,20 @@
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 #include "unitysdk/MoleMole/Config/ConfigHollowAssetPath_HollowAssetPathKey.h"
 
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWASSETPATH_GETASSETPATH_OFFSET UNITYSDK_OFFSET(0x14375C60)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWASSETPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x14375D10)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWASSETPATH_GETASSETPATH_OFFSET UNITYSDK_OFFSET(0x121C0DF0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWASSETPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x121C0EA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowAssetPath_TypeDefinitionIndex = 84350;
+	inline static constexpr unsigned int ConfigHollowAssetPath_TypeDefinitionIndex = 87222;
 
 	class ConfigHollowAssetPath : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigHollowAssetPath_HollowAssetPathKey, ::Foundation::AssetPath>* AssetPaths; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::Foundation::AssetPath>* AssetPaths; // 0x58
 
 		::System::Void _ctor()
 		{

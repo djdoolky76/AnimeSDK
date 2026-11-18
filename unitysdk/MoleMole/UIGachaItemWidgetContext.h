@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_3_AAC9B4B6713CDE1B;
+class DOJFNBKAOMN;
 
-#define MOLEMOLE_UIGACHAITEMWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x185856D0)
+#define MOLEMOLE_UIGACHAITEMWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18026BA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaItemWidgetContext_TypeDefinitionIndex = 86614;
+	inline static constexpr unsigned int UIGachaItemWidgetContext_TypeDefinitionIndex = 85354;
 
 	class UIGachaItemWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_AAC9B4B6713CDE1B* Item; // 0x28
+		::DOJFNBKAOMN* Item; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -5,18 +5,22 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYFIRSTPROCESSORS_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5A26F0)
+#define NPCCROWD_ABILITY_NPCABILITYFIRSTPROCESSORS_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5C7050)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityFirstProcessors_ExecuteJob_TypeDefinitionIndex = 75355;
+	inline static constexpr unsigned int NPCAbilityFirstProcessors_ExecuteJob_TypeDefinitionIndex = 50454;
 
 	struct alignas(8) NPCAbilityFirstProcessors_ExecuteJob
 	{
 		::System::Single deltaTime; // 0x10
+		::System::Byte _padding0[0x4];
 		::Unity::Collections::NativeArray_1<::System::Boolean> runtime_bIsUsing; // 0x18
+		::System::Byte _padding1[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilitySteeringFragment> runtime_steering; // 0x28
+		::System::Byte _padding2[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> runtime_lastTransform; // 0x38
+		::System::Byte _padding3[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> runtime_transform; // 0x48
 
 		::System::Void Execute(::System::Int32 idx)

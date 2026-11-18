@@ -2,21 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/Unreal/FName.h"
 
 namespace MoleMole::Utils { class NapCameraSequence; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceBlendSetting; }
 namespace PipelineCamera::SubModule { template <typename T> class CameraSequenceCollectionPlayer_1; }
 namespace System { template <typename T> class WeakReference_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_NAPCAMERASEQUENCEHANDLE_ISVALID_1_OFFSET UNITYSDK_OFFSET(0x7D9F70)
-#define MOLEMOLE_FLOWCANVAS_NODES_NAPCAMERASEQUENCEHANDLE_ISVALID_OFFSET UNITYSDK_OFFSET(0x7D9F40)
-#define MOLEMOLE_FLOWCANVAS_NODES_NAPCAMERASEQUENCEHANDLE_JUMPTOSECTION_OFFSET UNITYSDK_OFFSET(0x7D9F80)
-#define MOLEMOLE_FLOWCANVAS_NODES_NAPCAMERASEQUENCEHANDLE_STOP_OFFSET UNITYSDK_OFFSET(0x7D9F90)
-#define MOLEMOLE_FLOWCANVAS_NODES_NAPCAMERASEQUENCEHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x7D9F30)
+#define MOLEMOLE_FLOWCANVAS_NODES_NAPCAMERASEQUENCEHANDLE_ISVALID_1_OFFSET UNITYSDK_OFFSET(0x735CC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_NAPCAMERASEQUENCEHANDLE_ISVALID_OFFSET UNITYSDK_OFFSET(0x735C90)
+#define MOLEMOLE_FLOWCANVAS_NODES_NAPCAMERASEQUENCEHANDLE_JUMPTOSECTION_OFFSET UNITYSDK_OFFSET(0x735CD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_NAPCAMERASEQUENCEHANDLE_STOP_OFFSET UNITYSDK_OFFSET(0x735CE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_NAPCAMERASEQUENCEHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x735C80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int NapCameraSequenceHandle_TypeDefinitionIndex = 41717;
+	inline static constexpr unsigned int NapCameraSequenceHandle_TypeDefinitionIndex = 84863;
 
 	struct alignas(8) NapCameraSequenceHandle
 	{
@@ -38,12 +39,10 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Boolean(*)(::PVOID, ::PipelineCamera::SubModule::CameraSequenceCollectionPlayer_1<::PipelineCamera::WorldBasicCameraData>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_NAPCAMERASEQUENCEHANDLE_ISVALID_1_OFFSET))(this, player);
 		}
 
-		/*
 		::System::Boolean JumpToSection(::Foundation::Unreal::FName section, ::System::Boolean toEnd)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::Unreal::FName, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_NAPCAMERASEQUENCEHANDLE_JUMPTOSECTION_OFFSET))(this, section, toEnd);
 		}
-		*/
 
 		::System::Boolean Stop(::PipelineCamera::CameraSequence::CameraSequenceBlendSetting* blendSetting)
 		{

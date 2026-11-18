@@ -1,40 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
-#include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_DRAWOPAQUEPOSTPROCESSPASS_OFFSET UNITYSDK_OFFSET(0x1EA6CD00)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA6CC80)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_FINALBLIT_OFFSET UNITYSDK_OFFSET(0x1EA6D4B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_INTERNAL_DRAWOPAQUEPOSTPROCESSPASS_OFFSET UNITYSDK_OFFSET(0x1EA6CF80)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA6D950)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_DRAWOPAQUEPOSTPROCESSPASS_OFFSET UNITYSDK_OFFSET(0x1EDA9540)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EDA94C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_FINALBLIT_OFFSET UNITYSDK_OFFSET(0x1EDA9CF0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_INTERNAL_DRAWOPAQUEPOSTPROCESSPASS_OFFSET UNITYSDK_OFFSET(0x1EDA97C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDAA190)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int OpaquePostProcessPass_TypeDefinitionIndex = 5827;
+	inline static constexpr unsigned int OpaquePostProcessPass_TypeDefinitionIndex = 5833;
 
 	class OpaquePostProcessPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_k_ProfilerSample()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessPass_TypeDefinitionIndex)->GetStaticField(0x5660);
-		}
 		static ::Il2CppArray<::UnityEngine::RenderTexture*>** StaticGet_s_TempRTs()
 		{
-			return (::Il2CppArray<::UnityEngine::RenderTexture*>**)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessPass_TypeDefinitionIndex)->GetStaticField(0x5668);
+			return (::Il2CppArray<::UnityEngine::RenderTexture*>**)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessPass_TypeDefinitionIndex)->GetStaticField(0x5560);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_k_ProfilerSample()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessPass_TypeDefinitionIndex)->GetStaticField(0x5568);
 		}
 		static ::UnityEngine::Matrix4x4* StaticGet_identityMatrix()
 		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessPass_TypeDefinitionIndex)->GetStaticField(0x2E10);
+			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessPass_TypeDefinitionIndex)->GetStaticField(0x2D90);
 		}
 		::UnityEngine::Rendering::RenderTargetIdentifier m_Color; // 0xA8
 		::UnityEngine::Rendering::RenderTargetIdentifier m_Depth; // 0xD0

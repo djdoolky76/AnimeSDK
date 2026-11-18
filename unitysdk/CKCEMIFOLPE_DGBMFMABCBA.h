@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class CKCEMIFOLPE;
+
+#define CKCEMIFOLPE_DGBMFMABCBA_HLBJLGJLKBG_OFFSET UNITYSDK_OFFSET(0x159DEC20)
+#define CKCEMIFOLPE_DGBMFMABCBA_JAMOPEDOPIM_OFFSET UNITYSDK_OFFSET(0x159DE8D0)
+#define CKCEMIFOLPE_DGBMFMABCBA_LBLNPIHLECA_OFFSET UNITYSDK_OFFSET(0x159DE880)
+#define CKCEMIFOLPE_DGBMFMABCBA_LPMHCNMBMDG_OFFSET UNITYSDK_OFFSET(0x159DEA90)
+#define CKCEMIFOLPE_DGBMFMABCBA__CTOR_OFFSET UNITYSDK_OFFSET(0x159DE870)
+
+inline static constexpr unsigned int CKCEMIFOLPE_DGBMFMABCBA_TypeDefinitionIndex = 45390;
+
+class CKCEMIFOLPE_DGBMFMABCBA : public ::System::Object
+{
+public:
+	::CKCEMIFOLPE* KLHPEBKNIFB; // 0x10
+	::System::Int32 CKELOFDFEEM; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CKCEMIFOLPE_DGBMFMABCBA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void LBLNPIHLECA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CKCEMIFOLPE_DGBMFMABCBA_LBLNPIHLECA_OFFSET))(this);
+	}
+
+	::System::Void JAMOPEDOPIM(::System::Int32 EOGLMAEPALE)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CKCEMIFOLPE_DGBMFMABCBA_JAMOPEDOPIM_OFFSET))(this, EOGLMAEPALE);
+	}
+
+	::System::Void LPMHCNMBMDG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CKCEMIFOLPE_DGBMFMABCBA_LPMHCNMBMDG_OFFSET))(this);
+	}
+
+	::System::Void HLBJLGJLKBG(::System::Int32 EOGLMAEPALE)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CKCEMIFOLPE_DGBMFMABCBA_HLBJLGJLKBG_OFFSET))(this, EOGLMAEPALE);
+	}
+};

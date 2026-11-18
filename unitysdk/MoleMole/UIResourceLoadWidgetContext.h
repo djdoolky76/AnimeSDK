@@ -1,25 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_34F7035555410463_1.h"
+#include "unitysdk/GPNHHGBPCGM.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_GET_ISFULLDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x188670E0)
-#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_GET_ISPACKAGEDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x18867100)
-#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_SET_ISFULLDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x188670F0)
-#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_SET_ISPACKAGEDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x18867110)
-#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18867120)
+#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_GET_ISFULLDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x18248A90)
+#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_GET_ISPACKAGEDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x18248AB0)
+#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_SET_ISFULLDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x18248AA0)
+#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT_SET_ISPACKAGEDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x18248AC0)
+#define MOLEMOLE_UIRESOURCELOADWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18248AD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIResourceLoadWidgetContext_TypeDefinitionIndex = 47376;
+	inline static constexpr unsigned int UIResourceLoadWidgetContext_TypeDefinitionIndex = 62508;
 
 	class UIResourceLoadWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::ValueTuple_2<::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Collections::Generic::IEnumerable_1<::Enum_3_34F7035555410463_1>*> packagesInfo; // 0x28
+		::System::ValueTuple_2<::System::Collections::Generic::IEnumerable_1<::System::Int32>*, ::System::Collections::Generic::IEnumerable_1<::GPNHHGBPCGM>*> packagesInfo; // 0x28
+		::System::Byte _padding0[0x8];
 		::System::Boolean _IsFullDownload_k__BackingField; // 0x38
 		::System::Boolean _IsPackageDownload_k__BackingField; // 0x39
 

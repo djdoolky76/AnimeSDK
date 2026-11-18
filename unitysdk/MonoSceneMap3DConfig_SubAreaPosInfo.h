@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MONOSCENEMAP3DCONFIG_SUBAREAPOSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2E6B0)
+#define MONOSCENEMAP3DCONFIG_SUBAREAPOSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x13EBA6E0)
 
-inline static constexpr unsigned int MonoSceneMap3DConfig_SubAreaPosInfo_TypeDefinitionIndex = 50695;
+inline static constexpr unsigned int MonoSceneMap3DConfig_SubAreaPosInfo_TypeDefinitionIndex = 71259;
 
 class MonoSceneMap3DConfig_SubAreaPosInfo : public ::System::Object
 {

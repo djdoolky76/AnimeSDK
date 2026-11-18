@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_FLOATRENDERERFADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B952040)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_066A2A302F994390_OFFSET UNITYSDK_OFFSET(0x1B951D40)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_128774387667156B_OFFSET UNITYSDK_OFFSET(0x1B952530)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_16DC98BB343BC60B_OFFSET UNITYSDK_OFFSET(0x1B952570)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_BA46C25F570B6996_OFFSET UNITYSDK_OFFSET(0x1B9529D0)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1B952930)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_E8DB97264B6D98F7_OFFSET UNITYSDK_OFFSET(0x1B951B30)
-#define MOLEMOLE_FLOATRENDERERFADER_METHOD_2_FC67D285196A4120_OFFSET UNITYSDK_OFFSET(0x1B951E50)
-#define MOLEMOLE_FLOATRENDERERFADER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B952120)
-#define MOLEMOLE_FLOATRENDERERFADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B952520)
+#define MOLEMOLE_FLOATRENDERERFADER_AKLMDHKIFNB_OFFSET UNITYSDK_OFFSET(0x103FCC10)
+#define MOLEMOLE_FLOATRENDERERFADER_BBOMJDBNHIC_OFFSET UNITYSDK_OFFSET(0x103FD610)
+#define MOLEMOLE_FLOATRENDERERFADER_CBCPMNENKOK_OFFSET UNITYSDK_OFFSET(0x103FCE20)
+#define MOLEMOLE_FLOATRENDERERFADER_CMFOIAAGPFL_OFFSET UNITYSDK_OFFSET(0x103FDA10)
+#define MOLEMOLE_FLOATRENDERERFADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x103FD120)
+#define MOLEMOLE_FLOATRENDERERFADER_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x103FDE70)
+#define MOLEMOLE_FLOATRENDERERFADER_JIKGIBBPHFF_OFFSET UNITYSDK_OFFSET(0x103FDAB0)
+#define MOLEMOLE_FLOATRENDERERFADER_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x103FCF30)
+#define MOLEMOLE_FLOATRENDERERFADER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x103FD200)
+#define MOLEMOLE_FLOATRENDERERFADER__CTOR_OFFSET UNITYSDK_OFFSET(0x103FD600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FloatRendererFader_TypeDefinitionIndex = 54241;
+	inline static constexpr unsigned int FloatRendererFader_TypeDefinitionIndex = 74832;
 
 	class FloatRendererFader : public ::MoleMole::RendererFader
 	{
@@ -33,19 +33,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_E8DB97264B6D98F7(::UnityEngine::MaterialPropertyBlock*& a1, ::System::Single a2)
+		::System::Void AKLMDHKIFNB(::UnityEngine::MaterialPropertyBlock*& POJEDACFDOF, ::System::Single IMLLDOHDCNC)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*&, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_E8DB97264B6D98F7_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*&, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_AKLMDHKIFNB_OFFSET))(this, POJEDACFDOF, IMLLDOHDCNC);
 		}
 
-		::System::Void Method_2_066A2A302F994390(::UnityEngine::MaterialPropertyBlock*& a1, ::System::Single a2)
+		::System::Void CBCPMNENKOK(::UnityEngine::MaterialPropertyBlock*& POJEDACFDOF, ::System::Single IMLLDOHDCNC)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*&, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_066A2A302F994390_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*&, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_CBCPMNENKOK_OFFSET))(this, POJEDACFDOF, IMLLDOHDCNC);
 		}
 
-		::System::Void Method_2_FC67D285196A4120(::UnityEngine::MaterialPropertyBlock*& a1)
+		::System::Void NPOLNFDBOOD(::UnityEngine::MaterialPropertyBlock*& POJEDACFDOF)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_FC67D285196A4120_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_NPOLNFDBOOD_OFFSET))(this, POJEDACFDOF);
 		}
 
 		::System::Void Dispose()
@@ -58,24 +58,24 @@ namespace MoleMole
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* Method_2_128774387667156B()
+		::System::Void BBOMJDBNHIC(::UnityEngine::Renderer* DLGEGIHPJLD, ::System::Int32 JBEOJJKEGGI, ::System::String* BGJOPBCCMOC, ::System::Single PIPHENBKPND, ::System::Boolean LJDNCEDHCGF)
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_128774387667156B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32, ::System::String*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_BBOMJDBNHIC_OFFSET))(this, DLGEGIHPJLD, JBEOJJKEGGI, BGJOPBCCMOC, PIPHENBKPND, LJDNCEDHCGF);
 		}
 
-		::System::Void Method_2_16DC98BB343BC60B(::System::Int32 a1, ::System::Single a2, ::System::Boolean a3)
+		::System::Void CMFOIAAGPFL()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_16DC98BB343BC60B_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_CMFOIAAGPFL_OFFSET))(this);
 		}
 
-		::System::Void Method_2_CA373AA1C7054598()
+		::System::Void JIKGIBBPHFF(::System::Int32 DABJIHHDFNO, ::System::Single PIPHENBKPND, ::System::Boolean LJDNCEDHCGF)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_JIKGIBBPHFF_OFFSET))(this, DABJIHHDFNO, PIPHENBKPND, LJDNCEDHCGF);
 		}
 
-		::System::Void Method_2_BA46C25F570B6996(::UnityEngine::Renderer* a1, ::System::Int32 a2, ::System::String* a3, ::System::Single a4, ::System::Boolean a5)
+		::System::String* DPIHOJBBGLA()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32, ::System::String*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_METHOD_2_BA46C25F570B6996_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOATRENDERERFADER_DPIHOJBBGLA_OFFSET))(this);
 		}
 	};
 }

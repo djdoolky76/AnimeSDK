@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkCommonOutputSettings_ChannelConfiguration_ChannelConfigType_TypeDefinitionIndex = 33696;
+inline static constexpr unsigned int AkCommonOutputSettings_ChannelConfiguration_ChannelConfigType_TypeDefinitionIndex = 33242;
 
 enum class AkCommonOutputSettings_ChannelConfiguration_ChannelConfigType : ::System::Int32
 {

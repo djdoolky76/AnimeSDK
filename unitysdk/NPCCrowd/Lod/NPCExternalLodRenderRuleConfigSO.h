@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/AI/PathGraphConfig_RoadGraphType.h"
 #include "unitysdk/NPCCrowd/Lod/LodDistanceOverrideEntry.h"
-#include "unitysdk/NPCCrowd/Lod/NPCCrowdLodManager_LODRenderRuleConfig.h"
-#include "unitysdk/NPCCrowd/Lod/NPCExternalLodRenderRuleConfigSO_RuleEntry.h"
 #include "unitysdk/NPCCrowd/Lod/NPCExternalLodRenderRuleConfigSO_RuleKeyType.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
+#include "unitysdk/NPCCrowd/Lod/NPCCrowdLodManager_LODRenderRuleConfig.h"
 
 namespace Sirenix::OdinInspector { template <typename T> class ValueDropdownList_1; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_LOD_NPCEXTERNALLODRENDERRULECONFIGSO_BUILDKEYOPTIONS_OFFSET UNITYSDK_OFFSET(0x1066C260)
-#define NPCCROWD_LOD_NPCEXTERNALLODRENDERRULECONFIGSO_TRYGETLODDISTANCEOVERRIDEBYROADTYPE_OFFSET UNITYSDK_OFFSET(0x1066C8A0)
-#define NPCCROWD_LOD_NPCEXTERNALLODRENDERRULECONFIGSO_TRYGETRULECONFIGBYROADTYPE_OFFSET UNITYSDK_OFFSET(0x1066C7B0)
-#define NPCCROWD_LOD_NPCEXTERNALLODRENDERRULECONFIGSO_TRYGETRULECONFIG_OFFSET UNITYSDK_OFFSET(0x1066C700)
-#define NPCCROWD_LOD_NPCEXTERNALLODRENDERRULECONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0x1066C980)
+#define NPCCROWD_LOD_NPCEXTERNALLODRENDERRULECONFIGSO_BUILDKEYOPTIONS_OFFSET UNITYSDK_OFFSET(0xF1539B0)
+#define NPCCROWD_LOD_NPCEXTERNALLODRENDERRULECONFIGSO_TRYGETLODDISTANCEOVERRIDEBYROADTYPE_OFFSET UNITYSDK_OFFSET(0xF153FF0)
+#define NPCCROWD_LOD_NPCEXTERNALLODRENDERRULECONFIGSO_TRYGETRULECONFIGBYROADTYPE_OFFSET UNITYSDK_OFFSET(0xF153F00)
+#define NPCCROWD_LOD_NPCEXTERNALLODRENDERRULECONFIGSO_TRYGETRULECONFIG_OFFSET UNITYSDK_OFFSET(0xF153E50)
+#define NPCCROWD_LOD_NPCEXTERNALLODRENDERRULECONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0xF1540D0)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCExternalLodRenderRuleConfigSO_TypeDefinitionIndex = 57439;
+	inline static constexpr unsigned int NPCExternalLodRenderRuleConfigSO_TypeDefinitionIndex = 51770;
 
 	class NPCExternalLodRenderRuleConfigSO : public ::UnityEngine::ScriptableObject
 	{
 	public:
-		::System::Collections::Generic::List_1<::NPCCrowd::Lod::NPCExternalLodRenderRuleConfigSO_RuleEntry>* entries; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* entries; // 0x18
 		::System::Collections::Generic::List_1<::NPCCrowd::Lod::LodDistanceOverrideEntry>* lodDistanceOverrideEntries; // 0x20
 
 		::System::Void _ctor()

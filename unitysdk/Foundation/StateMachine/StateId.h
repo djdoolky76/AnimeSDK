@@ -3,24 +3,24 @@
 #include "unitysdk/Foundation/StateMachine/StateType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_STATEMACHINE_STATEID_EQUALS_OFFSET UNITYSDK_OFFSET(0x976070)
-#define FOUNDATION_STATEMACHINE_STATEID_GET_INDEX_OFFSET UNITYSDK_OFFSET(0xACD380)
-#define FOUNDATION_STATEMACHINE_STATEID_GET_ISSTATE_OFFSET UNITYSDK_OFFSET(0xACD3C0)
-#define FOUNDATION_STATEMACHINE_STATEID_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xACD3A0)
-#define FOUNDATION_STATEMACHINE_STATEID_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xACD390)
-#define FOUNDATION_STATEMACHINE_STATEID_NEWSTATE_OFFSET UNITYSDK_OFFSET(0x1FBE2E60)
-#define FOUNDATION_STATEMACHINE_STATEID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBE2DF0)
-#define FOUNDATION_STATEMACHINE_STATEID__CTOR_OFFSET UNITYSDK_OFFSET(0x324490)
+#define FOUNDATION_STATEMACHINE_STATEID_EQUALS_OFFSET UNITYSDK_OFFSET(0x8B0960)
+#define FOUNDATION_STATEMACHINE_STATEID_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x9B38D0)
+#define FOUNDATION_STATEMACHINE_STATEID_GET_ISSTATE_OFFSET UNITYSDK_OFFSET(0x9B3910)
+#define FOUNDATION_STATEMACHINE_STATEID_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x9B38F0)
+#define FOUNDATION_STATEMACHINE_STATEID_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9B38E0)
+#define FOUNDATION_STATEMACHINE_STATEID_NEWSTATE_OFFSET UNITYSDK_OFFSET(0x1FFE4E80)
+#define FOUNDATION_STATEMACHINE_STATEID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFE4E10)
+#define FOUNDATION_STATEMACHINE_STATEID__CTOR_OFFSET UNITYSDK_OFFSET(0x3BCD30)
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int StateId_TypeDefinitionIndex = 8529;
+	inline static constexpr unsigned int StateId_TypeDefinitionIndex = 8846;
 
-	struct alignas(1) StateId
+	struct alignas(4) StateId
 	{
 		static ::Foundation::StateMachine::StateId* StaticGet_Invalid()
 		{
-			return (::Foundation::StateMachine::StateId*)Il2CppClass::FromTypeDefinitionIndex(StateId_TypeDefinitionIndex)->GetStaticField(0x3BE0);
+			return (::Foundation::StateMachine::StateId*)Il2CppClass::FromTypeDefinitionIndex(StateId_TypeDefinitionIndex)->GetStaticField(0x3BA0);
 		}
 		::System::Byte Data; // 0x10
 
@@ -54,14 +54,18 @@ namespace Foundation::StateMachine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_STATEMACHINE_STATEID_GET_ISSTATE_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::Foundation::StateMachine::StateId other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::StateMachine::StateId))((::PBYTE)hIl2Cpp + FOUNDATION_STATEMACHINE_STATEID_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		static ::Foundation::StateMachine::StateId NewState(::System::Int32 index)
 		{
 			return ((::Foundation::StateMachine::StateId(*)(::System::Int32))((::PBYTE)hIl2Cpp + FOUNDATION_STATEMACHINE_STATEID_NEWSTATE_OFFSET))(index);
 		}
+		*/
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIInterKnotMissionWidgetController; }
 
-#define MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18385E20)
-#define MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS21_0__ONUIINIT_B__0_OFFSET UNITYSDK_OFFSET(0x18385E30)
+#define MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187EAA50)
+#define MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS21_0__ONUIINIT_B__0_OFFSET UNITYSDK_OFFSET(0x187EAA60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotMissionWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 91289;
+	inline static constexpr unsigned int UIInterKnotMissionWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 84573;
 
 	class UIInterKnotMissionWidgetController___c__DisplayClass21_0 : public ::System::Object
 	{

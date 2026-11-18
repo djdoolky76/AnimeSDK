@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIVIDEOSHOPSHOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x162C7030)
+#define MOLEMOLE_UIVIDEOSHOPSHOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC3D50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoshopShowContext_TypeDefinitionIndex = 69073;
+	inline static constexpr unsigned int UIVideoshopShowContext_TypeDefinitionIndex = 87128;
 
 	class UIVideoshopShowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* iconPath; // 0x28
-		::System::String* descText; // 0x30
-		::System::String* titleText; // 0x38
+		::System::String* titleText; // 0x28
+		::System::String* iconPath; // 0x30
+		::System::String* descText; // 0x38
 
 		::System::Void _ctor()
 		{

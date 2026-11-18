@@ -5,12 +5,12 @@
 
 namespace UnityEngine::Rendering::Universal { class VisQueryManager; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D608870)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER___C__DISPLAYCLASS32_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1D608880)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D6190)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VISQUERYMANAGER___C__DISPLAYCLASS32_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1D8D61A0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisQueryManager___c__DisplayClass32_0_TypeDefinitionIndex = 27020;
+	inline static constexpr unsigned int VisQueryManager___c__DisplayClass32_0_TypeDefinitionIndex = 26830;
 
 	class VisQueryManager___c__DisplayClass32_0 : public ::System::Object
 	{

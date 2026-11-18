@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PERFORMANCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDE5AD0)
+#define MIHOYO_SDK_PERFORMANCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C47C650)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PerformanceInfo_TypeDefinitionIndex = 19989;
+	inline static constexpr unsigned int PerformanceInfo_TypeDefinitionIndex = 19135;
 
 	class PerformanceInfo : public ::System::Object
 	{
@@ -20,6 +20,7 @@ namespace MiHoYo::SDK
 		::System::String* actionType; // 0x20
 		::System::String* endType; // 0x28
 		::System::Int32 time; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::String* performanceType; // 0x38
 		::System::String* eventId; // 0x40
 		::System::DateTime startTime; // 0x48

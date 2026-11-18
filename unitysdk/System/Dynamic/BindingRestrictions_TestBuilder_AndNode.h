@@ -11,6 +11,7 @@ namespace System::Dynamic
 	struct alignas(8) BindingRestrictions_TestBuilder_AndNode
 	{
 		::System::Int32 Depth; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Linq::Expressions::Expression* Node; // 0x18
 	};
 }

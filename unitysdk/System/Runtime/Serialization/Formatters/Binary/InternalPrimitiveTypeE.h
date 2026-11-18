@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int InternalPrimitiveTypeE_TypeDefinitionIndex = 1212;
+	inline static constexpr unsigned int InternalPrimitiveTypeE_TypeDefinitionIndex = 1211;
 
 	enum class InternalPrimitiveTypeE : ::System::Int32
 	{

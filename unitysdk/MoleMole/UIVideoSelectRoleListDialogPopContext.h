@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIVIDEOSELECTROLELISTDIALOGPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15ECC3D0)
+#define MOLEMOLE_UIVIDEOSELECTROLELISTDIALOGPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14E297A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoSelectRoleListDialogPopContext_TypeDefinitionIndex = 67699;
+	inline static constexpr unsigned int UIVideoSelectRoleListDialogPopContext_TypeDefinitionIndex = 51022;
 
 	class UIVideoSelectRoleListDialogPopContext : public ::MoleMole::UIControllerContextBase
 	{

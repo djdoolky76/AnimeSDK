@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIZENKOVLEVELUNLOCKROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x162EEB60)
+#define MOLEMOLE_UIZENKOVLEVELUNLOCKROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE53DF50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovLevelUnlockRowWidgetController_Data_TypeDefinitionIndex = 62648;
+	inline static constexpr unsigned int UIZenkovLevelUnlockRowWidgetController_Data_TypeDefinitionIndex = 78451;
 
 	class UIZenkovLevelUnlockRowWidgetController_Data : public ::System::Object
 	{

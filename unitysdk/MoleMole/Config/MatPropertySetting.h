@@ -4,9 +4,9 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MatPropertySetting_TypeDefinitionIndex = 75647;
+	inline static constexpr unsigned int MatPropertySetting_TypeDefinitionIndex = 63387;
 
-	struct alignas(1) MatPropertySetting
+	struct alignas(4) MatPropertySetting
 	{
 		::System::Boolean IsVeryHighQuaValid; // 0x10
 		::System::Boolean IsHighQuaValid; // 0x11

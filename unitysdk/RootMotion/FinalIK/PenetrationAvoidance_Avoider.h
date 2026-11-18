@@ -5,17 +5,16 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RootMotion::FinalIK { class IKSolverFullBodyBiped; }
-namespace RootMotion::FinalIK { class PenetrationAvoidance_Avoider_EffectorLink; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE_AVOIDER_GETOFFSETTARGET_OFFSET UNITYSDK_OFFSET(0x1FA5C150)
-#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE_AVOIDER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x1FA5C2E0)
-#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE_AVOIDER_SOLVE_OFFSET UNITYSDK_OFFSET(0x1FA5BF70)
-#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE_AVOIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA5C830)
+#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE_AVOIDER_GETOFFSETTARGET_OFFSET UNITYSDK_OFFSET(0x1FE6C810)
+#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE_AVOIDER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x1FE6C9A0)
+#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE_AVOIDER_SOLVE_OFFSET UNITYSDK_OFFSET(0x1FE6C630)
+#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE_AVOIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE6CEF0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int PenetrationAvoidance_Avoider_TypeDefinitionIndex = 38903;
+	inline static constexpr unsigned int PenetrationAvoidance_Avoider_TypeDefinitionIndex = 36957;
 
 	class PenetrationAvoidance_Avoider : public ::System::Object
 	{
@@ -23,7 +22,8 @@ namespace RootMotion::FinalIK
 		::Il2CppArray<::UnityEngine::Transform*>* raycastFrom; // 0x10
 		::UnityEngine::Transform* raycastTo; // 0x18
 		::System::Single raycastRadius; // 0x20
-		::Il2CppArray<::RootMotion::FinalIK::PenetrationAvoidance_Avoider_EffectorLink*>* effectors; // 0x28
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::System::Object*>* effectors; // 0x28
 		::System::Single smoothTimeIn; // 0x30
 		::System::Single smoothTimeOut; // 0x34
 		::UnityEngine::LayerMask layers; // 0x38

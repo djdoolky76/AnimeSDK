@@ -6,7 +6,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LightBakingOutput_TypeDefinitionIndex = 5207;
+	inline static constexpr unsigned int LightBakingOutput_TypeDefinitionIndex = 5209;
 
 	struct alignas(4) LightBakingOutput
 	{

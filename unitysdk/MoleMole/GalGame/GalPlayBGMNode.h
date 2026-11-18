@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_GALPLAYBGMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x144D86C0)
+#define MOLEMOLE_GALGAME_GALPLAYBGMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10422800)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalPlayBGMNode_TypeDefinitionIndex = 64886;
+	inline static constexpr unsigned int GalPlayBGMNode_TypeDefinitionIndex = 46700;
 
 	class GalPlayBGMNode : public ::MoleMole::GalGame::GalPlayableNodeBase
 	{

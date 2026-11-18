@@ -9,14 +9,14 @@ namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskFactory_1___c__DisplayClass44_0_3_TypeDefinitionIndex = 884;
+	inline static constexpr unsigned int TaskFactory_1___c__DisplayClass44_0_3_TypeDefinitionIndex = 883;
 
-	template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+	template <typename T1, typename T2, typename T3>
 	class TaskFactory_1___c__DisplayClass44_0_3 : public ::System::Object
 	{
 	public:
-		::System::Func_2<::System::IAsyncResult*, TResult>* endFunction; // 0x0
+		::System::Func_2<::System::IAsyncResult*, T1>* endFunction; // 0x0
 		::System::Action_1<::System::IAsyncResult*>* endAction; // 0x0
-		::System::Threading::Tasks::Task_1<TResult>* promise; // 0x0
+		::System::Threading::Tasks::Task_1<T1>* promise; // 0x0
 	};
 }

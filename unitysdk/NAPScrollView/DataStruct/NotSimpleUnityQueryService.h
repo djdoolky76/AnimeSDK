@@ -1,0 +1,112 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MoleMole { class UIControlReference; }
+namespace NAPScrollView::DataStruct { class NotSimpleUnityService; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::UI { class ILayoutGroup; }
+
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x13B546A0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_DATACONTENT_OFFSET UNITYSDK_OFFSET(0x13B546C0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_GAMEOBJECTACTIVEINHIERARCHY_OFFSET UNITYSDK_OFFSET(0x13B54840)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x13B54720)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_HASPARENTSCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x13B54820)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_LAYOUTGROUP_OFFSET UNITYSDK_OFFSET(0x13B547E0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_MULTITEMPLATES_OFFSET UNITYSDK_OFFSET(0x13B547C0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_PARENTVIEWPORTRECT_OFFSET UNITYSDK_OFFSET(0x13B54800)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x13B54760)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_TEMPLATECELL_OFFSET UNITYSDK_OFFSET(0x13B547A0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x13B54740)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_VERTICAL_OFFSET UNITYSDK_OFFSET(0x13B54780)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_VIEWPORT_OFFSET UNITYSDK_OFFSET(0x13B54700)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_VIEWRECT_OFFSET UNITYSDK_OFFSET(0x13B546E0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x13B54690)
+
+namespace NAPScrollView::DataStruct
+{
+	inline static constexpr unsigned int NotSimpleUnityQueryService_TypeDefinitionIndex = 43948;
+
+	class NotSimpleUnityQueryService : public ::System::Object
+	{
+	public:
+		::NAPScrollView::DataStruct::NotSimpleUnityService* _unity; // 0x10
+
+		::System::Void _ctor(::NAPScrollView::DataStruct::NotSimpleUnityService* unity)
+		{
+			return ((::System::Void(*)(::PVOID, ::NAPScrollView::DataStruct::NotSimpleUnityService*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE__CTOR_OFFSET))(this, unity);
+		}
+
+		::UnityEngine::RectTransform* get_Content()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_CONTENT_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_DataContent()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_DATACONTENT_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_ViewRect()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_VIEWRECT_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_Viewport()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_VIEWPORT_OFFSET))(this);
+		}
+
+		::UnityEngine::GameObject* get_GameObject()
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_GAMEOBJECT_OFFSET))(this);
+		}
+
+		::UnityEngine::Transform* get_Transform()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_TRANSFORM_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_RectTransform()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_RECTTRANSFORM_OFFSET))(this);
+		}
+
+		::System::Boolean get_Vertical()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_VERTICAL_OFFSET))(this);
+		}
+
+		::MoleMole::UIControlReference* get_TemplateCell()
+		{
+			return ((::MoleMole::UIControlReference*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_TEMPLATECELL_OFFSET))(this);
+		}
+
+		::Il2CppArray<::MoleMole::UIControlReference*>* get_MultiTemplates()
+		{
+			return ((::Il2CppArray<::MoleMole::UIControlReference*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_MULTITEMPLATES_OFFSET))(this);
+		}
+
+		::UnityEngine::UI::ILayoutGroup* get_LayoutGroup()
+		{
+			return ((::UnityEngine::UI::ILayoutGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_LAYOUTGROUP_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_ParentViewportRect()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_PARENTVIEWPORTRECT_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasParentScrollView()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_HASPARENTSCROLLVIEW_OFFSET))(this);
+		}
+
+		::System::Boolean get_GameObjectActiveInHierarchy()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEUNITYQUERYSERVICE_GET_GAMEOBJECTACTIVEINHIERARCHY_OFFSET))(this);
+		}
+	};
+}

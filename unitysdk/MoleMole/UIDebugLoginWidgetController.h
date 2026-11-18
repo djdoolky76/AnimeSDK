@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIWidgetController.h"
 
-#define MOLEMOLE_UIDEBUGLOGINWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16063A40)
+#define MOLEMOLE_UIDEBUGLOGINWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15990610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDebugLoginWidgetController_TypeDefinitionIndex = 64612;
+	inline static constexpr unsigned int UIDebugLoginWidgetController_TypeDefinitionIndex = 92805;
 
 	class UIDebugLoginWidgetController : public ::MoleMole::UIWidgetController
 	{

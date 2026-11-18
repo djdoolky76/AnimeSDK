@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SYSTEM_COMPONENTMODEL_CULTUREINFOCONVERTER_CULTUREINFOMAPPER_GETCULTUREINFONAME_OFFSET UNITYSDK_OFFSET(0x1CBF2920)
-#define SYSTEM_COMPONENTMODEL_CULTUREINFOCONVERTER_CULTUREINFOMAPPER_INITIALIZECULTUREINFOMAP_OFFSET UNITYSDK_OFFSET(0x1CBF2A20)
+#define SYSTEM_COMPONENTMODEL_CULTUREINFOCONVERTER_CULTUREINFOMAPPER_GETCULTUREINFONAME_OFFSET UNITYSDK_OFFSET(0x1D0E7760)
+#define SYSTEM_COMPONENTMODEL_CULTUREINFOCONVERTER_CULTUREINFOMAPPER_INITIALIZECULTUREINFOMAP_OFFSET UNITYSDK_OFFSET(0x1D0E7860)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int CultureInfoConverter_CultureInfoMapper_TypeDefinitionIndex = 2847;
+	inline static constexpr unsigned int CultureInfoConverter_CultureInfoMapper_TypeDefinitionIndex = 2846;
 
 	class CultureInfoConverter_CultureInfoMapper : public ::System::Object
 	{

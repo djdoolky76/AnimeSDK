@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_XOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DFCC110)
-#define FLOWCANVAS_NODES_XOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCC120)
+#define FLOWCANVAS_NODES_XOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E3F51E0)
+#define FLOWCANVAS_NODES_XOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F51F0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int XOR_TypeDefinitionIndex = 30245;
+	inline static constexpr unsigned int XOR_TypeDefinitionIndex = 30080;
 
-	class XOR : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Boolean, ::System::Boolean, ::System::Boolean>
+	class XOR
 	{
 	public:
 		::System::Void _ctor()

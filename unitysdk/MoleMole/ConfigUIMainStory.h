@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ConfigUIMainStory_PersonalLineEndPerformConfig; }
 
-#define MOLEMOLE_CONFIGUIMAINSTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8209E0)
+#define MOLEMOLE_CONFIGUIMAINSTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x180CAAC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIMainStory_TypeDefinitionIndex = 46330;
+	inline static constexpr unsigned int ConfigUIMainStory_TypeDefinitionIndex = 68143;
 
 	class ConfigUIMainStory : public ::Foundation::MihoyoSerializedScriptableObject
 	{

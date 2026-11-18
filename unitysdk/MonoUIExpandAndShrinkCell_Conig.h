@@ -4,17 +4,19 @@
 
 namespace System { class String; }
 
-#define MONOUIEXPANDANDSHRINKCELL_CONIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1353FE60)
+#define MONOUIEXPANDANDSHRINKCELL_CONIG__CTOR_OFFSET UNITYSDK_OFFSET(0xEB3CC30)
 
-inline static constexpr unsigned int MonoUIExpandAndShrinkCell_Conig_TypeDefinitionIndex = 51337;
+inline static constexpr unsigned int MonoUIExpandAndShrinkCell_Conig_TypeDefinitionIndex = 71869;
 
 class MonoUIExpandAndShrinkCell_Conig : public ::System::Object
 {
 public:
 	::System::Single fadeInTime; // 0x10
+	::System::Byte _padding0[0x4];
 	::System::String* fadeInCurveKey; // 0x18
 	::System::String* fadeInAnimName; // 0x20
 	::System::Single fadeOutTime; // 0x28
+	::System::Byte _padding1[0x4];
 	::System::String* fadeOutCurveKey; // 0x30
 	::System::String* fadeOutAnimName; // 0x38
 

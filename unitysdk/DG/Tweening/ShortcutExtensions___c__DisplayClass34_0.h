@@ -6,15 +6,15 @@
 namespace DG::Tweening { class Sequence; }
 namespace UnityEngine { class Rigidbody; }
 
-#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBC0370)
-#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS34_0__DOJUMP_B__0_OFFSET UNITYSDK_OFFSET(0x1FBC0380)
-#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS34_0__DOJUMP_B__1_OFFSET UNITYSDK_OFFSET(0x1FBC03D0)
-#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS34_0__DOJUMP_B__2_OFFSET UNITYSDK_OFFSET(0x1FBC0580)
-#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS34_0__DOJUMP_B__3_OFFSET UNITYSDK_OFFSET(0x1FBC05D0)
+#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFC49A0)
+#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS34_0__DOJUMP_B__0_OFFSET UNITYSDK_OFFSET(0x1FFC49B0)
+#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS34_0__DOJUMP_B__1_OFFSET UNITYSDK_OFFSET(0x1FFC4A00)
+#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS34_0__DOJUMP_B__2_OFFSET UNITYSDK_OFFSET(0x1FFC4BB0)
+#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS34_0__DOJUMP_B__3_OFFSET UNITYSDK_OFFSET(0x1FFC4C00)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int ShortcutExtensions___c__DisplayClass34_0_TypeDefinitionIndex = 28489;
+	inline static constexpr unsigned int ShortcutExtensions___c__DisplayClass34_0_TypeDefinitionIndex = 27928;
 
 	class ShortcutExtensions___c__DisplayClass34_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace DG::Tweening
 		::UnityEngine::Rigidbody* target; // 0x10
 		::DG::Tweening::Sequence* s; // 0x18
 		::UnityEngine::Vector3 endValue; // 0x20
-		::System::Single startPosY; // 0x2C
-		::System::Boolean offsetYSet; // 0x30
-		::System::Single offsetY; // 0x34
+		::System::Single offsetY; // 0x2C
+		::System::Single startPosY; // 0x30
+		::System::Boolean offsetYSet; // 0x34
 
 		::System::Void _ctor()
 		{

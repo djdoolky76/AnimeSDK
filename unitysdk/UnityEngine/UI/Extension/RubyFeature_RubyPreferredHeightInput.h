@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int RubyFeature_RubyPreferredHeightInput_TypeDefinitionIndex = 74237;
+	inline static constexpr unsigned int RubyFeature_RubyPreferredHeightInput_TypeDefinitionIndex = 74766;
 
 	struct alignas(8) RubyFeature_RubyPreferredHeightInput
 	{

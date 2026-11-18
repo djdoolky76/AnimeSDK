@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/StateTreeGameplay/AddValueFloatOverTimeTask.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
+#include "unitysdk/StateTreeGameplay/AddValueFloatOverTimeTask.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_ADDVALUEFLOATOVERTIMETASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x13458AC0)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_ADDVALUEFLOATOVERTIMETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x13458BE0)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_ADDVALUEFLOATOVERTIMETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x13458B60)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_ADDVALUEFLOATOVERTIMETASK_TICK_OFFSET UNITYSDK_OFFSET(0x13458CD0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_ADDVALUEFLOATOVERTIMETASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1D2037F0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_ADDVALUEFLOATOVERTIMETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1D203920)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_ADDVALUEFLOATOVERTIMETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1D203890)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_ADDVALUEFLOATOVERTIMETASK_TICK_OFFSET UNITYSDK_OFFSET(0x1D203A10)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_AddValueFloatOverTimeTask_TypeDefinitionIndex = 54047;
+	inline static constexpr unsigned int VirtualFunctionExtensions_AddValueFloatOverTimeTask_TypeDefinitionIndex = 39585;
 
 	class VirtualFunctionExtensions_AddValueFloatOverTimeTask : public ::System::Object
 	{

@@ -2,28 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Geometry/ConicSectionType.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/Geometry/AlgebraLine2D.h"
+#include "unitysdk/Foundation/Geometry/Ellipse2D.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
+#include "unitysdk/System/ValueTuple_3.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_GENERATEQUADRATICEQUATIONX_OFFSET UNITYSDK_OFFSET(0x9D5CB0)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_GENERATEQUADRATICEQUATIONY_OFFSET UNITYSDK_OFFSET(0x9D5D50)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_GETNORMAL_OFFSET UNITYSDK_OFFSET(0x9D5C30)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_GETSCALE_OFFSET UNITYSDK_OFFSET(0x1DD99800)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_GETTANGENTLINEXINTERSECTION_OFFSET UNITYSDK_OFFSET(0x9D71E0)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_GETTANGENTLINEYINTERSECTION_OFFSET UNITYSDK_OFFSET(0x9D6E50)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_GETTANGENTPOINT_OFFSET UNITYSDK_OFFSET(0x9D7580)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1DD998E0)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_GET_ELLIPSE_OFFSET UNITYSDK_OFFSET(0x9D6B00)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_GET_ISELLIPSE_OFFSET UNITYSDK_OFFSET(0x9D5C20)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_INTERSECTIONSOFLINE_OFFSET UNITYSDK_OFFSET(0x9D5DE0)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_NEW_1_OFFSET UNITYSDK_OFFSET(0x1DD99680)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_NEW_OFFSET UNITYSDK_OFFSET(0x1DD993E0)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D_SOLVE_OFFSET UNITYSDK_OFFSET(0x1DD952E0)
-#define FOUNDATION_GEOMETRY_CONICSECTION2D__CTOR_OFFSET UNITYSDK_OFFSET(0x9D9960)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_GENERATEQUADRATICEQUATIONX_OFFSET UNITYSDK_OFFSET(0x8E4760)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_GENERATEQUADRATICEQUATIONY_OFFSET UNITYSDK_OFFSET(0x8E4800)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_GETNORMAL_OFFSET UNITYSDK_OFFSET(0x8E46E0)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_GETSCALE_OFFSET UNITYSDK_OFFSET(0x1E218330)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_GETTANGENTLINEXINTERSECTION_OFFSET UNITYSDK_OFFSET(0x8E5C90)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_GETTANGENTLINEYINTERSECTION_OFFSET UNITYSDK_OFFSET(0x8E5900)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_GETTANGENTPOINT_OFFSET UNITYSDK_OFFSET(0x8E6030)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1E218410)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_GET_ELLIPSE_OFFSET UNITYSDK_OFFSET(0x8E55B0)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_GET_ISELLIPSE_OFFSET UNITYSDK_OFFSET(0x8E46D0)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_INTERSECTIONSOFLINE_OFFSET UNITYSDK_OFFSET(0x8E4890)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_NEW_1_OFFSET UNITYSDK_OFFSET(0x1E2181B0)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_NEW_OFFSET UNITYSDK_OFFSET(0x1E217F10)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D_SOLVE_OFFSET UNITYSDK_OFFSET(0x1E213E10)
+#define FOUNDATION_GEOMETRY_CONICSECTION2D__CTOR_OFFSET UNITYSDK_OFFSET(0x8E8410)
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int ConicSection2D_TypeDefinitionIndex = 8824;
+	inline static constexpr unsigned int ConicSection2D_TypeDefinitionIndex = 9078;
 
-	struct alignas(8) ConicSection2D
+	struct alignas(4) ConicSection2D
 	{
 		::System::Double A; // 0x10
 		::System::Double B; // 0x18
@@ -43,73 +49,57 @@ namespace Foundation::Geometry
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_GET_ISELLIPSE_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::Vector2 GetNormal(::UnityEngine::Vector2 point)
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_GETNORMAL_OFFSET))(this, point);
 		}
-		*/
 
-		/*
-		static ::System::Int32 Solve(::System::Double a, ::System::Double b, ::System::Double c, ::System::Span_1<::System::Double> result, ::System::Double tolerance)
+		static ::System::Int32 Solve(::System::Double a, ::System::Double b, ::System::Double c, ::System::Span_1_9011FAD97750D224<::System::Double> result, ::System::Double tolerance)
 		{
-			return ((::System::Int32(*)(::System::Double, ::System::Double, ::System::Double, ::System::Span_1<::System::Double>, ::System::Double))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_SOLVE_OFFSET))(a, b, c, result, tolerance);
+			return ((::System::Int32(*)(::System::Double, ::System::Double, ::System::Double, ::System::Span_1_9011FAD97750D224<::System::Double>, ::System::Double))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_SOLVE_OFFSET))(a, b, c, result, tolerance);
 		}
-		*/
 
-		/*
 		::System::ValueTuple_3<::System::Double, ::System::Double, ::System::Double> GenerateQuadraticEquationX(::System::Double k, ::System::Double p)
 		{
 			return ((::System::ValueTuple_3<::System::Double, ::System::Double, ::System::Double>(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_GENERATEQUADRATICEQUATIONX_OFFSET))(this, k, p);
 		}
-		*/
 
-		/*
 		::System::ValueTuple_3<::System::Double, ::System::Double, ::System::Double> GenerateQuadraticEquationY(::System::Double k, ::System::Double p)
 		{
 			return ((::System::ValueTuple_3<::System::Double, ::System::Double, ::System::Double>(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_GENERATEQUADRATICEQUATIONY_OFFSET))(this, k, p);
 		}
-		*/
 
-		/*
-		::System::Int32 IntersectionsOfLine(::Foundation::Geometry::AlgebraLine2D line, ::System::Span_1<::UnityEngine::Vector2> result, ::System::Double tolerance)
+		::System::Int32 IntersectionsOfLine(::Foundation::Geometry::AlgebraLine2D line, ::System::Span_1_9011FAD97750D224<::UnityEngine::Vector2> result, ::System::Double tolerance)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Foundation::Geometry::AlgebraLine2D, ::System::Span_1<::UnityEngine::Vector2>, ::System::Double))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_INTERSECTIONSOFLINE_OFFSET))(this, line, result, tolerance);
+			return ((::System::Int32(*)(::PVOID, ::Foundation::Geometry::AlgebraLine2D, ::System::Span_1_9011FAD97750D224<::UnityEngine::Vector2>, ::System::Double))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_INTERSECTIONSOFLINE_OFFSET))(this, line, result, tolerance);
 		}
-		*/
 
-		/*
 		::System::Nullable_1<::Foundation::Geometry::Ellipse2D> get_Ellipse()
 		{
 			return ((::System::Nullable_1<::Foundation::Geometry::Ellipse2D>(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_GET_ELLIPSE_OFFSET))(this);
 		}
-		*/
+
+		::System::Int32 GetTangentLineYIntersection(::System::Double k, ::System::Span_1_9011FAD97750D224<::System::Double> result)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Double, ::System::Span_1_9011FAD97750D224<::System::Double>))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_GETTANGENTLINEYINTERSECTION_OFFSET))(this, k, result);
+		}
+
+		::System::Int32 GetTangentLineXIntersection(::System::Double k, ::System::Span_1_9011FAD97750D224<::System::Double> result)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Double, ::System::Span_1_9011FAD97750D224<::System::Double>))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_GETTANGENTLINEXINTERSECTION_OFFSET))(this, k, result);
+		}
+
+		::System::Int32 GetTangentPoint(::System::Single slope, ::System::Span_1_9011FAD97750D224<::UnityEngine::Vector2> result)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Span_1_9011FAD97750D224<::UnityEngine::Vector2>))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_GETTANGENTPOINT_OFFSET))(this, slope, result);
+		}
 
 		/*
-		::System::Int32 GetTangentLineYIntersection(::System::Double k, ::System::Span_1<::System::Double> result)
-		{
-			return ((::System::Int32(*)(::PVOID, ::System::Double, ::System::Span_1<::System::Double>))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_GETTANGENTLINEYINTERSECTION_OFFSET))(this, k, result);
-		}
-		*/
-
-		/*
-		::System::Int32 GetTangentLineXIntersection(::System::Double k, ::System::Span_1<::System::Double> result)
-		{
-			return ((::System::Int32(*)(::PVOID, ::System::Double, ::System::Span_1<::System::Double>))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_GETTANGENTLINEXINTERSECTION_OFFSET))(this, k, result);
-		}
-		*/
-
-		/*
-		::System::Int32 GetTangentPoint(::System::Single slope, ::System::Span_1<::UnityEngine::Vector2> result)
-		{
-			return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Span_1<::UnityEngine::Vector2>))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_GETTANGENTPOINT_OFFSET))(this, slope, result);
-		}
-		*/
-
 		static ::Foundation::Geometry::ConicSection2D New(::System::Single a, ::System::Single b, ::System::Single c, ::System::Single d, ::System::Single e, ::System::Single f)
 		{
 			return ((::Foundation::Geometry::ConicSection2D(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CONICSECTION2D_NEW_OFFSET))(a, b, c, d, e, f);
 		}
+		*/
 
 		/*
 		static ::Foundation::Geometry::ConicSection2D New_1(::Foundation::Geometry::Ellipse2D ellipse)

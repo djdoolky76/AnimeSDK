@@ -4,11 +4,11 @@
 
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 
-#define MOLEMOLE_CAMERAS_TACTICALCOMBATCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x134E54B0)
+#define MOLEMOLE_CAMERAS_TACTICALCOMBATCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11A52A10)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int TacticalCombatCameraConfig_TypeDefinitionIndex = 68404;
+	inline static constexpr unsigned int TacticalCombatCameraConfig_TypeDefinitionIndex = 51314;
 
 	class TacticalCombatCameraConfig : public ::System::Object
 	{
@@ -18,6 +18,7 @@ namespace MoleMole::Cameras
 		::System::Single rollAngleThreshold; // 0x18
 		::System::Single screenOffsetXThreshold; // 0x1C
 		::System::Single screenOffsetYThreshold; // 0x20
+		::System::Byte _padding0[0x4];
 		::MoleMole::Cameras::CameraTrackBlending* blendIn; // 0x28
 		::MoleMole::Cameras::CameraTrackBlending* blendOut; // 0x30
 

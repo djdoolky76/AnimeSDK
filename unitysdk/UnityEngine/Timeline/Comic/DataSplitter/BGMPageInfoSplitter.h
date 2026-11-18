@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Timeline/Comic/DataSplitter/DataSplitterBase_1.h"
 
-namespace UnityEngine::Timeline::Comic::DataSplitter { class BGMPageInfo; }
-
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_BGMPAGEINFOSPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB203D0)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_BGMPAGEINFOSPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1AD50)
 
 namespace UnityEngine::Timeline::Comic::DataSplitter
 {
-	inline static constexpr unsigned int BGMPageInfoSplitter_TypeDefinitionIndex = 33097;
+	inline static constexpr unsigned int BGMPageInfoSplitter_TypeDefinitionIndex = 32557;
 
-	class BGMPageInfoSplitter : public ::UnityEngine::Timeline::Comic::DataSplitter::DataSplitterBase_1<::UnityEngine::Timeline::Comic::DataSplitter::BGMPageInfo*>
+	class BGMPageInfoSplitter
 	{
 	public:
 		::System::Void _ctor()

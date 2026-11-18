@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Globalization/DateTimeStyles.h"
 #include "unitysdk/System/DateTimeKind.h"
 #include "unitysdk/System/DayOfWeek.h"
-#include "unitysdk/System/Globalization/DateTimeStyles.h"
 #include "unitysdk/System/TypeCode.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
+#include "unitysdk/System/TimeSpan.h"
 
 namespace System { class IFormatProvider; }
 namespace System { class Object; }
@@ -13,136 +15,135 @@ namespace System { class Type; }
 namespace System::Globalization { class Calendar; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DATETIME_ADDDAYS_OFFSET UNITYSDK_OFFSET(0x9D37A0)
-#define SYSTEM_DATETIME_ADDHOURS_OFFSET UNITYSDK_OFFSET(0x9D37B0)
-#define SYSTEM_DATETIME_ADDMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x9D37C0)
-#define SYSTEM_DATETIME_ADDMINUTES_OFFSET UNITYSDK_OFFSET(0x9D37D0)
-#define SYSTEM_DATETIME_ADDMONTHS_OFFSET UNITYSDK_OFFSET(0x9D37E0)
-#define SYSTEM_DATETIME_ADDSECONDS_OFFSET UNITYSDK_OFFSET(0x9D37F0)
-#define SYSTEM_DATETIME_ADDTICKS_OFFSET UNITYSDK_OFFSET(0x9D36E0)
-#define SYSTEM_DATETIME_ADDYEARS_OFFSET UNITYSDK_OFFSET(0x9D3800)
-#define SYSTEM_DATETIME_ADD_1_OFFSET UNITYSDK_OFFSET(0x9D3790)
-#define SYSTEM_DATETIME_ADD_OFFSET UNITYSDK_OFFSET(0x9D36E0)
-#define SYSTEM_DATETIME_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x9D3940)
-#define SYSTEM_DATETIME_COMPARETO_OFFSET UNITYSDK_OFFSET(0x9D3890)
-#define SYSTEM_DATETIME_COMPARE_OFFSET UNITYSDK_OFFSET(0x1DCE8180)
-#define SYSTEM_DATETIME_DATETOTICKS_OFFSET UNITYSDK_OFFSET(0x1DCE6670)
-#define SYSTEM_DATETIME_DAYSINMONTH_OFFSET UNITYSDK_OFFSET(0x1DCE7F40)
-#define SYSTEM_DATETIME_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9D39A0)
-#define SYSTEM_DATETIME_EQUALS_OFFSET UNITYSDK_OFFSET(0x9D3970)
-#define SYSTEM_DATETIME_FROMBINARYRAW_OFFSET UNITYSDK_OFFSET(0x1DCE8650)
-#define SYSTEM_DATETIME_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DCE8370)
-#define SYSTEM_DATETIME_FROMFILETIMEUTC_OFFSET UNITYSDK_OFFSET(0x1DCE87B0)
-#define SYSTEM_DATETIME_FROMFILETIME_OFFSET UNITYSDK_OFFSET(0x1DCE86E0)
-#define SYSTEM_DATETIME_GETDATEPART_OFFSET UNITYSDK_OFFSET(0x9D3A70)
-#define SYSTEM_DATETIME_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9D3BA0)
-#define SYSTEM_DATETIME_GETSYSTEMTIMEASFILETIME_OFFSET UNITYSDK_OFFSET(0x1DCE8E20)
-#define SYSTEM_DATETIME_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x967F90)
-#define SYSTEM_DATETIME_GET_DATE_OFFSET UNITYSDK_OFFSET(0x9D3A20)
-#define SYSTEM_DATETIME_GET_DAYOFWEEK_OFFSET UNITYSDK_OFFSET(0x9D3A90)
-#define SYSTEM_DATETIME_GET_DAYOFYEAR_OFFSET UNITYSDK_OFFSET(0x9D3AD0)
-#define SYSTEM_DATETIME_GET_DAY_OFFSET UNITYSDK_OFFSET(0x9D3A80)
-#define SYSTEM_DATETIME_GET_HOUR_OFFSET UNITYSDK_OFFSET(0x9D3BC0)
-#define SYSTEM_DATETIME_GET_INTERNALKIND_OFFSET UNITYSDK_OFFSET(0x9D36D0)
-#define SYSTEM_DATETIME_GET_INTERNALTICKS_OFFSET UNITYSDK_OFFSET(0x9D36C0)
-#define SYSTEM_DATETIME_GET_KIND_OFFSET UNITYSDK_OFFSET(0x9D3C10)
-#define SYSTEM_DATETIME_GET_MILLISECOND_OFFSET UNITYSDK_OFFSET(0x9D3C40)
-#define SYSTEM_DATETIME_GET_MINUTE_OFFSET UNITYSDK_OFFSET(0x9D3C80)
-#define SYSTEM_DATETIME_GET_MONTH_OFFSET UNITYSDK_OFFSET(0x9D3CC0)
-#define SYSTEM_DATETIME_GET_NOW_OFFSET UNITYSDK_OFFSET(0x1DCE8D20)
-#define SYSTEM_DATETIME_GET_SECOND_OFFSET UNITYSDK_OFFSET(0x9D3CD0)
-#define SYSTEM_DATETIME_GET_TICKS_OFFSET UNITYSDK_OFFSET(0x9D36C0)
-#define SYSTEM_DATETIME_GET_TIMEOFDAY_OFFSET UNITYSDK_OFFSET(0x9D3D10)
-#define SYSTEM_DATETIME_GET_TODAY_OFFSET UNITYSDK_OFFSET(0x1DCE8EC0)
-#define SYSTEM_DATETIME_GET_UTCNOW_OFFSET UNITYSDK_OFFSET(0x1DCE8DF0)
-#define SYSTEM_DATETIME_GET_YEAR_OFFSET UNITYSDK_OFFSET(0x9D3D50)
-#define SYSTEM_DATETIME_ISAMBIGUOUSDAYLIGHTSAVINGTIME_OFFSET UNITYSDK_OFFSET(0x9D3C00)
-#define SYSTEM_DATETIME_ISLEAPYEAR_OFFSET UNITYSDK_OFFSET(0x1DCE8280)
-#define SYSTEM_DATETIME_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1DCE9FD0)
-#define SYSTEM_DATETIME_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1DCEA140)
-#define SYSTEM_DATETIME_OP_GREATERTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1DCEA1C0)
-#define SYSTEM_DATETIME_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1DCEA1A0)
-#define SYSTEM_DATETIME_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1DCEA150)
-#define SYSTEM_DATETIME_OP_LESSTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1DCEA180)
-#define SYSTEM_DATETIME_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1DCEA160)
-#define SYSTEM_DATETIME_OP_SUBTRACTION_1_OFFSET UNITYSDK_OFFSET(0x1DCEA120)
-#define SYSTEM_DATETIME_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1DCEA080)
-#define SYSTEM_DATETIME_PARSEEXACT_1_OFFSET UNITYSDK_OFFSET(0x1DCE9230)
-#define SYSTEM_DATETIME_PARSEEXACT_2_OFFSET UNITYSDK_OFFSET(0x1DCE92D0)
-#define SYSTEM_DATETIME_PARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1DCE91A0)
-#define SYSTEM_DATETIME_PARSE_1_OFFSET UNITYSDK_OFFSET(0x1DCE9070)
-#define SYSTEM_DATETIME_PARSE_2_OFFSET UNITYSDK_OFFSET(0x1DCE9100)
-#define SYSTEM_DATETIME_PARSE_OFFSET UNITYSDK_OFFSET(0x1DCE8FF0)
-#define SYSTEM_DATETIME_SPECIFYKIND_OFFSET UNITYSDK_OFFSET(0x1DCE8A00)
-#define SYSTEM_DATETIME_SUBTRACT_1_OFFSET UNITYSDK_OFFSET(0x9D3E60)
-#define SYSTEM_DATETIME_SUBTRACT_OFFSET UNITYSDK_OFFSET(0x9D3E40)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x9D4290)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOBYTE_OFFSET UNITYSDK_OFFSET(0x9D42C0)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOCHAR_OFFSET UNITYSDK_OFFSET(0x9D42A0)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TODATETIME_OFFSET UNITYSDK_OFFSET(0x259D70)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TODECIMAL_OFFSET UNITYSDK_OFFSET(0x9D4350)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x9D4340)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOINT16_OFFSET UNITYSDK_OFFSET(0x9D42D0)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOINT32_OFFSET UNITYSDK_OFFSET(0x9D42F0)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOINT64_OFFSET UNITYSDK_OFFSET(0x9D4310)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOSBYTE_OFFSET UNITYSDK_OFFSET(0x9D42B0)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x9D4330)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOTYPE_OFFSET UNITYSDK_OFFSET(0x9D4360)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOUINT16_OFFSET UNITYSDK_OFFSET(0x9D42E0)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOUINT32_OFFSET UNITYSDK_OFFSET(0x9D4300)
-#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOUINT64_OFFSET UNITYSDK_OFFSET(0x9D4320)
-#define SYSTEM_DATETIME_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x9D39B0)
-#define SYSTEM_DATETIME_TIMETOTICKS_OFFSET UNITYSDK_OFFSET(0x1DCE6A20)
-#define SYSTEM_DATETIME_TOBINARY_OFFSET UNITYSDK_OFFSET(0x9D39C0)
-#define SYSTEM_DATETIME_TOFILETIMEUTC_OFFSET UNITYSDK_OFFSET(0x9D3FC0)
-#define SYSTEM_DATETIME_TOFILETIME_OFFSET UNITYSDK_OFFSET(0x9D3F10)
-#define SYSTEM_DATETIME_TOLOCALTIME_1_OFFSET UNITYSDK_OFFSET(0x9D4080)
-#define SYSTEM_DATETIME_TOLOCALTIME_OFFSET UNITYSDK_OFFSET(0x9D4070)
-#define SYSTEM_DATETIME_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x9D4100)
-#define SYSTEM_DATETIME_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x9D4180)
-#define SYSTEM_DATETIME_TOSTRING_3_OFFSET UNITYSDK_OFFSET(0x9D4200)
-#define SYSTEM_DATETIME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9D4090)
-#define SYSTEM_DATETIME_TOUNIVERSALTIME_OFFSET UNITYSDK_OFFSET(0x9D4280)
-#define SYSTEM_DATETIME_TRYCREATE_OFFSET UNITYSDK_OFFSET(0x1DCEACD0)
-#define SYSTEM_DATETIME_TRYPARSEEXACT_1_OFFSET UNITYSDK_OFFSET(0x1DCE9E40)
-#define SYSTEM_DATETIME_TRYPARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1DCE9CB0)
-#define SYSTEM_DATETIME_TRYPARSE_1_OFFSET UNITYSDK_OFFSET(0x1DCE9B40)
-#define SYSTEM_DATETIME_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1DCE99F0)
-#define SYSTEM_DATETIME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCEAEB0)
-#define SYSTEM_DATETIME__CTOR_10_OFFSET UNITYSDK_OFFSET(0x9D3680)
-#define SYSTEM_DATETIME__CTOR_11_OFFSET UNITYSDK_OFFSET(0x9D3690)
-#define SYSTEM_DATETIME__CTOR_12_OFFSET UNITYSDK_OFFSET(0x9D36A0)
-#define SYSTEM_DATETIME__CTOR_13_OFFSET UNITYSDK_OFFSET(0x9D36B0)
-#define SYSTEM_DATETIME__CTOR_1_OFFSET UNITYSDK_OFFSET(0x324D50)
-#define SYSTEM_DATETIME__CTOR_2_OFFSET UNITYSDK_OFFSET(0x9D32B0)
-#define SYSTEM_DATETIME__CTOR_3_OFFSET UNITYSDK_OFFSET(0x9D32C0)
-#define SYSTEM_DATETIME__CTOR_4_OFFSET UNITYSDK_OFFSET(0x9D3370)
-#define SYSTEM_DATETIME__CTOR_5_OFFSET UNITYSDK_OFFSET(0x9D3390)
-#define SYSTEM_DATETIME__CTOR_6_OFFSET UNITYSDK_OFFSET(0x9D3460)
-#define SYSTEM_DATETIME__CTOR_7_OFFSET UNITYSDK_OFFSET(0x9D34B0)
-#define SYSTEM_DATETIME__CTOR_8_OFFSET UNITYSDK_OFFSET(0x9D3590)
-#define SYSTEM_DATETIME__CTOR_9_OFFSET UNITYSDK_OFFSET(0x9D3670)
-#define SYSTEM_DATETIME__CTOR_OFFSET UNITYSDK_OFFSET(0x9D3220)
+#define SYSTEM_DATETIME_ADDDAYS_OFFSET UNITYSDK_OFFSET(0x8DF950)
+#define SYSTEM_DATETIME_ADDHOURS_OFFSET UNITYSDK_OFFSET(0x8DF960)
+#define SYSTEM_DATETIME_ADDMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x8DF970)
+#define SYSTEM_DATETIME_ADDMINUTES_OFFSET UNITYSDK_OFFSET(0x8DF980)
+#define SYSTEM_DATETIME_ADDMONTHS_OFFSET UNITYSDK_OFFSET(0x8DF990)
+#define SYSTEM_DATETIME_ADDSECONDS_OFFSET UNITYSDK_OFFSET(0x8DF9A0)
+#define SYSTEM_DATETIME_ADDTICKS_OFFSET UNITYSDK_OFFSET(0x8DF890)
+#define SYSTEM_DATETIME_ADDYEARS_OFFSET UNITYSDK_OFFSET(0x8DF9B0)
+#define SYSTEM_DATETIME_ADD_1_OFFSET UNITYSDK_OFFSET(0x8DF940)
+#define SYSTEM_DATETIME_ADD_OFFSET UNITYSDK_OFFSET(0x8DF890)
+#define SYSTEM_DATETIME_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x8DFAF0)
+#define SYSTEM_DATETIME_COMPARETO_OFFSET UNITYSDK_OFFSET(0x8DFA40)
+#define SYSTEM_DATETIME_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E0DABE0)
+#define SYSTEM_DATETIME_DATETOTICKS_OFFSET UNITYSDK_OFFSET(0x1E0D90D0)
+#define SYSTEM_DATETIME_DAYSINMONTH_OFFSET UNITYSDK_OFFSET(0x1E0DA9A0)
+#define SYSTEM_DATETIME_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x8DFB50)
+#define SYSTEM_DATETIME_EQUALS_OFFSET UNITYSDK_OFFSET(0x8DFB20)
+#define SYSTEM_DATETIME_FROMBINARYRAW_OFFSET UNITYSDK_OFFSET(0x1E0DB0B0)
+#define SYSTEM_DATETIME_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E0DADD0)
+#define SYSTEM_DATETIME_FROMFILETIMEUTC_OFFSET UNITYSDK_OFFSET(0x1E0DB210)
+#define SYSTEM_DATETIME_FROMFILETIME_OFFSET UNITYSDK_OFFSET(0x1E0DB140)
+#define SYSTEM_DATETIME_GETDATEPART_OFFSET UNITYSDK_OFFSET(0x8DFC20)
+#define SYSTEM_DATETIME_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8DFD50)
+#define SYSTEM_DATETIME_GETSYSTEMTIMEASFILETIME_OFFSET UNITYSDK_OFFSET(0x1E0DB880)
+#define SYSTEM_DATETIME_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x8AD020)
+#define SYSTEM_DATETIME_GET_DATE_OFFSET UNITYSDK_OFFSET(0x8DFBD0)
+#define SYSTEM_DATETIME_GET_DAYOFWEEK_OFFSET UNITYSDK_OFFSET(0x8DFC40)
+#define SYSTEM_DATETIME_GET_DAYOFYEAR_OFFSET UNITYSDK_OFFSET(0x8DFC80)
+#define SYSTEM_DATETIME_GET_DAY_OFFSET UNITYSDK_OFFSET(0x8DFC30)
+#define SYSTEM_DATETIME_GET_HOUR_OFFSET UNITYSDK_OFFSET(0x8DFD70)
+#define SYSTEM_DATETIME_GET_INTERNALKIND_OFFSET UNITYSDK_OFFSET(0x8DF880)
+#define SYSTEM_DATETIME_GET_INTERNALTICKS_OFFSET UNITYSDK_OFFSET(0x8DF870)
+#define SYSTEM_DATETIME_GET_KIND_OFFSET UNITYSDK_OFFSET(0x8DFDC0)
+#define SYSTEM_DATETIME_GET_MILLISECOND_OFFSET UNITYSDK_OFFSET(0x8DFDF0)
+#define SYSTEM_DATETIME_GET_MINUTE_OFFSET UNITYSDK_OFFSET(0x8DFE30)
+#define SYSTEM_DATETIME_GET_MONTH_OFFSET UNITYSDK_OFFSET(0x8DFE70)
+#define SYSTEM_DATETIME_GET_NOW_OFFSET UNITYSDK_OFFSET(0x1E0DB780)
+#define SYSTEM_DATETIME_GET_SECOND_OFFSET UNITYSDK_OFFSET(0x8DFE80)
+#define SYSTEM_DATETIME_GET_TICKS_OFFSET UNITYSDK_OFFSET(0x8DF870)
+#define SYSTEM_DATETIME_GET_TIMEOFDAY_OFFSET UNITYSDK_OFFSET(0x8DFEC0)
+#define SYSTEM_DATETIME_GET_TODAY_OFFSET UNITYSDK_OFFSET(0x1E0DB920)
+#define SYSTEM_DATETIME_GET_UTCNOW_OFFSET UNITYSDK_OFFSET(0x1E0DB850)
+#define SYSTEM_DATETIME_GET_YEAR_OFFSET UNITYSDK_OFFSET(0x8DFF00)
+#define SYSTEM_DATETIME_ISAMBIGUOUSDAYLIGHTSAVINGTIME_OFFSET UNITYSDK_OFFSET(0x8DFDB0)
+#define SYSTEM_DATETIME_ISLEAPYEAR_OFFSET UNITYSDK_OFFSET(0x1E0DACE0)
+#define SYSTEM_DATETIME_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1E0DC980)
+#define SYSTEM_DATETIME_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E0DCAF0)
+#define SYSTEM_DATETIME_OP_GREATERTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1E0DCB70)
+#define SYSTEM_DATETIME_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1E0DCB50)
+#define SYSTEM_DATETIME_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E0DCB00)
+#define SYSTEM_DATETIME_OP_LESSTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1E0DCB30)
+#define SYSTEM_DATETIME_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1E0DCB10)
+#define SYSTEM_DATETIME_OP_SUBTRACTION_1_OFFSET UNITYSDK_OFFSET(0x1E0DCAD0)
+#define SYSTEM_DATETIME_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1E0DCA30)
+#define SYSTEM_DATETIME_PARSEEXACT_1_OFFSET UNITYSDK_OFFSET(0x1E0DBC90)
+#define SYSTEM_DATETIME_PARSEEXACT_2_OFFSET UNITYSDK_OFFSET(0x1E0DBD30)
+#define SYSTEM_DATETIME_PARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1E0DBC00)
+#define SYSTEM_DATETIME_PARSE_1_OFFSET UNITYSDK_OFFSET(0x1E0DBAD0)
+#define SYSTEM_DATETIME_PARSE_2_OFFSET UNITYSDK_OFFSET(0x1E0DBB60)
+#define SYSTEM_DATETIME_PARSE_OFFSET UNITYSDK_OFFSET(0x1E0DBA50)
+#define SYSTEM_DATETIME_SPECIFYKIND_OFFSET UNITYSDK_OFFSET(0x1E0DB460)
+#define SYSTEM_DATETIME_SUBTRACT_OFFSET UNITYSDK_OFFSET(0x8DFFF0)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOBOOLEAN_OFFSET UNITYSDK_OFFSET(0x8E0390)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOBYTE_OFFSET UNITYSDK_OFFSET(0x8E03C0)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOCHAR_OFFSET UNITYSDK_OFFSET(0x8E03A0)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TODATETIME_OFFSET UNITYSDK_OFFSET(0x282350)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TODECIMAL_OFFSET UNITYSDK_OFFSET(0x8E0450)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x8E0440)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOINT16_OFFSET UNITYSDK_OFFSET(0x8E03D0)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOINT32_OFFSET UNITYSDK_OFFSET(0x8E03F0)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOINT64_OFFSET UNITYSDK_OFFSET(0x8E0410)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOSBYTE_OFFSET UNITYSDK_OFFSET(0x8E03B0)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOSINGLE_OFFSET UNITYSDK_OFFSET(0x8E0430)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOTYPE_OFFSET UNITYSDK_OFFSET(0x8E0460)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOUINT16_OFFSET UNITYSDK_OFFSET(0x8E03E0)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOUINT32_OFFSET UNITYSDK_OFFSET(0x8E0400)
+#define SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOUINT64_OFFSET UNITYSDK_OFFSET(0x8E0420)
+#define SYSTEM_DATETIME_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x8DFB60)
+#define SYSTEM_DATETIME_TIMETOTICKS_OFFSET UNITYSDK_OFFSET(0x1E0D9480)
+#define SYSTEM_DATETIME_TOBINARY_OFFSET UNITYSDK_OFFSET(0x8DFB70)
+#define SYSTEM_DATETIME_TOFILETIMEUTC_OFFSET UNITYSDK_OFFSET(0x8E00C0)
+#define SYSTEM_DATETIME_TOFILETIME_OFFSET UNITYSDK_OFFSET(0x8E0010)
+#define SYSTEM_DATETIME_TOLOCALTIME_1_OFFSET UNITYSDK_OFFSET(0x8E0180)
+#define SYSTEM_DATETIME_TOLOCALTIME_OFFSET UNITYSDK_OFFSET(0x8E0170)
+#define SYSTEM_DATETIME_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x8E0200)
+#define SYSTEM_DATETIME_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x8E0280)
+#define SYSTEM_DATETIME_TOSTRING_3_OFFSET UNITYSDK_OFFSET(0x8E0300)
+#define SYSTEM_DATETIME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8E0190)
+#define SYSTEM_DATETIME_TOUNIVERSALTIME_OFFSET UNITYSDK_OFFSET(0x8E0380)
+#define SYSTEM_DATETIME_TRYCREATE_OFFSET UNITYSDK_OFFSET(0x1E0DD680)
+#define SYSTEM_DATETIME_TRYPARSEEXACT_1_OFFSET UNITYSDK_OFFSET(0x1E0DC7F0)
+#define SYSTEM_DATETIME_TRYPARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1E0DC660)
+#define SYSTEM_DATETIME_TRYPARSE_1_OFFSET UNITYSDK_OFFSET(0x1E0DC4F0)
+#define SYSTEM_DATETIME_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E0DC3A0)
+#define SYSTEM_DATETIME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0DD860)
+#define SYSTEM_DATETIME__CTOR_10_OFFSET UNITYSDK_OFFSET(0x8DF830)
+#define SYSTEM_DATETIME__CTOR_11_OFFSET UNITYSDK_OFFSET(0x8DF840)
+#define SYSTEM_DATETIME__CTOR_12_OFFSET UNITYSDK_OFFSET(0x8DF850)
+#define SYSTEM_DATETIME__CTOR_13_OFFSET UNITYSDK_OFFSET(0x8DF860)
+#define SYSTEM_DATETIME__CTOR_1_OFFSET UNITYSDK_OFFSET(0x358B00)
+#define SYSTEM_DATETIME__CTOR_2_OFFSET UNITYSDK_OFFSET(0x8DF460)
+#define SYSTEM_DATETIME__CTOR_3_OFFSET UNITYSDK_OFFSET(0x8DF470)
+#define SYSTEM_DATETIME__CTOR_4_OFFSET UNITYSDK_OFFSET(0x8DF520)
+#define SYSTEM_DATETIME__CTOR_5_OFFSET UNITYSDK_OFFSET(0x8DF540)
+#define SYSTEM_DATETIME__CTOR_6_OFFSET UNITYSDK_OFFSET(0x8DF610)
+#define SYSTEM_DATETIME__CTOR_7_OFFSET UNITYSDK_OFFSET(0x8DF660)
+#define SYSTEM_DATETIME__CTOR_8_OFFSET UNITYSDK_OFFSET(0x8DF740)
+#define SYSTEM_DATETIME__CTOR_9_OFFSET UNITYSDK_OFFSET(0x8DF820)
+#define SYSTEM_DATETIME__CTOR_OFFSET UNITYSDK_OFFSET(0x8DF3D0)
 
 namespace System
 {
 	inline static constexpr unsigned int DateTime_TypeDefinitionIndex = 210;
 
-	struct alignas(8) DateTime
+	struct alignas(4) DateTime
 	{
-		static ::Il2CppArray<::System::Int32>** StaticGet_DaysToMonth366()
+		static ::Il2CppArray<::System::Int32>** StaticGet_DaysToMonth365()
 		{
 			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DateTime_TypeDefinitionIndex)->GetStaticField(0x60);
 		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_DaysToMonth365()
+		static ::Il2CppArray<::System::Int32>** StaticGet_DaysToMonth366()
 		{
 			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DateTime_TypeDefinitionIndex)->GetStaticField(0x68);
 		}
-		static ::System::DateTime* StaticGet_MaxValue()
+		static ::System::DateTime* StaticGet_MinValue()
 		{
 			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(DateTime_TypeDefinitionIndex)->GetStaticField(0x20);
 		}
-		static ::System::DateTime* StaticGet_MinValue()
+		static ::System::DateTime* StaticGet_MaxValue()
 		{
 			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(DateTime_TypeDefinitionIndex)->GetStaticField(0x28);
 		}
@@ -253,12 +254,10 @@ namespace System
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Globalization::Calendar*, ::System::DateTimeKind))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME__CTOR_12_OFFSET))(this, year, month, day, hour, minute, second, millisecond, calendar, kind);
 		}
 
-		/*
 		::System::Void _ctor_13(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME__CTOR_13_OFFSET))(this, info, context);
 		}
-		*/
 
 		static ::System::Void _cctor()
 		{
@@ -282,65 +281,87 @@ namespace System
 		}
 		*/
 
+		/*
 		::System::DateTime Add_1(::System::Double value, ::System::Int32 scale)
 		{
 			return ((::System::DateTime(*)(::PVOID, ::System::Double, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_ADD_1_OFFSET))(this, value, scale);
 		}
+		*/
 
+		/*
 		::System::DateTime AddDays(::System::Double value)
 		{
 			return ((::System::DateTime(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_ADDDAYS_OFFSET))(this, value);
 		}
+		*/
 
+		/*
 		::System::DateTime AddHours(::System::Double value)
 		{
 			return ((::System::DateTime(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_ADDHOURS_OFFSET))(this, value);
 		}
+		*/
 
+		/*
 		::System::DateTime AddMilliseconds(::System::Double value)
 		{
 			return ((::System::DateTime(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_ADDMILLISECONDS_OFFSET))(this, value);
 		}
+		*/
 
+		/*
 		::System::DateTime AddMinutes(::System::Double value)
 		{
 			return ((::System::DateTime(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_ADDMINUTES_OFFSET))(this, value);
 		}
+		*/
 
+		/*
 		::System::DateTime AddMonths(::System::Int32 months)
 		{
 			return ((::System::DateTime(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_ADDMONTHS_OFFSET))(this, months);
 		}
+		*/
 
+		/*
 		::System::DateTime AddSeconds(::System::Double value)
 		{
 			return ((::System::DateTime(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_ADDSECONDS_OFFSET))(this, value);
 		}
+		*/
 
+		/*
 		::System::DateTime AddTicks(::System::Int64 value)
 		{
 			return ((::System::DateTime(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_ADDTICKS_OFFSET))(this, value);
 		}
+		*/
 
+		/*
 		::System::DateTime AddYears(::System::Int32 value)
 		{
 			return ((::System::DateTime(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_ADDYEARS_OFFSET))(this, value);
 		}
+		*/
 
+		/*
 		static ::System::Int32 Compare(::System::DateTime t1, ::System::DateTime t2)
 		{
 			return ((::System::Int32(*)(::System::DateTime, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_COMPARE_OFFSET))(t1, t2);
 		}
+		*/
 
 		::System::Int32 CompareTo(::System::Object* value)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_COMPARETO_OFFSET))(this, value);
 		}
 
+		/*
 		::System::Int32 CompareTo_1(::System::DateTime value)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_COMPARETO_1_OFFSET))(this, value);
 		}
+		*/
 
 		static ::System::Int64 DateToTicks(::System::Int32 year, ::System::Int32 month, ::System::Int32 day)
 		{
@@ -362,52 +383,64 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_EQUALS_OFFSET))(this, value);
 		}
 
+		/*
 		::System::Boolean Equals_1(::System::DateTime value)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_EQUALS_1_OFFSET))(this, value);
 		}
+		*/
 
+		/*
 		static ::System::DateTime FromBinary(::System::Int64 dateData)
 		{
 			return ((::System::DateTime(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_FROMBINARY_OFFSET))(dateData);
 		}
+		*/
 
+		/*
 		static ::System::DateTime FromBinaryRaw(::System::Int64 dateData)
 		{
 			return ((::System::DateTime(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_FROMBINARYRAW_OFFSET))(dateData);
 		}
+		*/
 
+		/*
 		static ::System::DateTime FromFileTime(::System::Int64 fileTime)
 		{
 			return ((::System::DateTime(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_FROMFILETIME_OFFSET))(fileTime);
 		}
+		*/
 
+		/*
 		static ::System::DateTime FromFileTimeUtc(::System::Int64 fileTime)
 		{
 			return ((::System::DateTime(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_FROMFILETIMEUTC_OFFSET))(fileTime);
 		}
+		*/
 
-		/*
 		::System::Void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET))(this, info, context);
 		}
-		*/
 
+		/*
 		static ::System::DateTime SpecifyKind(::System::DateTime value, ::System::DateTimeKind kind)
 		{
 			return ((::System::DateTime(*)(::System::DateTime, ::System::DateTimeKind))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_SPECIFYKIND_OFFSET))(value, kind);
 		}
+		*/
 
 		::System::Int64 ToBinary()
 		{
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_TOBINARY_OFFSET))(this);
 		}
 
+		/*
 		::System::DateTime get_Date()
 		{
 			return ((::System::DateTime(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_GET_DATE_OFFSET))(this);
 		}
+		*/
 
 		::System::Int32 GetDatePart(::System::Int32 part)
 		{
@@ -464,15 +497,19 @@ namespace System
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_GET_MONTH_OFFSET))(this);
 		}
 
+		/*
 		static ::System::DateTime get_Now()
 		{
 			return ((::System::DateTime(*)())((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_GET_NOW_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::System::DateTime get_UtcNow()
 		{
 			return ((::System::DateTime(*)())((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_GET_UTCNOW_OFFSET))();
 		}
+		*/
 
 		static ::System::Int64 GetSystemTimeAsFileTime()
 		{
@@ -489,17 +526,17 @@ namespace System
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_GET_TICKS_OFFSET))(this);
 		}
 
-		/*
 		::System::TimeSpan get_TimeOfDay()
 		{
 			return ((::System::TimeSpan(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_GET_TIMEOFDAY_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::System::DateTime get_Today()
 		{
 			return ((::System::DateTime(*)())((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_GET_TODAY_OFFSET))();
 		}
+		*/
 
 		::System::Int32 get_Year()
 		{
@@ -511,47 +548,52 @@ namespace System
 			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_ISLEAPYEAR_OFFSET))(year);
 		}
 
+		/*
 		static ::System::DateTime Parse(::System::String* s)
 		{
 			return ((::System::DateTime(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_PARSE_OFFSET))(s);
 		}
+		*/
 
+		/*
 		static ::System::DateTime Parse_1(::System::String* s, ::System::IFormatProvider* provider)
 		{
 			return ((::System::DateTime(*)(::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_PARSE_1_OFFSET))(s, provider);
 		}
+		*/
 
+		/*
 		static ::System::DateTime Parse_2(::System::String* s, ::System::IFormatProvider* provider, ::System::Globalization::DateTimeStyles styles)
 		{
 			return ((::System::DateTime(*)(::System::String*, ::System::IFormatProvider*, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_PARSE_2_OFFSET))(s, provider, styles);
 		}
+		*/
 
+		/*
 		static ::System::DateTime ParseExact(::System::String* s, ::System::String* format, ::System::IFormatProvider* provider)
 		{
 			return ((::System::DateTime(*)(::System::String*, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_PARSEEXACT_OFFSET))(s, format, provider);
 		}
+		*/
 
+		/*
 		static ::System::DateTime ParseExact_1(::System::String* s, ::System::String* format, ::System::IFormatProvider* provider, ::System::Globalization::DateTimeStyles style)
 		{
 			return ((::System::DateTime(*)(::System::String*, ::System::String*, ::System::IFormatProvider*, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_PARSEEXACT_1_OFFSET))(s, format, provider, style);
 		}
+		*/
 
+		/*
 		static ::System::DateTime ParseExact_2(::System::String* s, ::Il2CppArray<::System::String*>* formats, ::System::IFormatProvider* provider, ::System::Globalization::DateTimeStyles style)
 		{
 			return ((::System::DateTime(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*, ::System::Globalization::DateTimeStyles))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_PARSEEXACT_2_OFFSET))(s, formats, provider, style);
 		}
+		*/
 
 		/*
 		::System::TimeSpan Subtract(::System::DateTime value)
 		{
 			return ((::System::TimeSpan(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_SUBTRACT_OFFSET))(this, value);
-		}
-		*/
-
-		/*
-		::System::DateTime Subtract_1(::System::TimeSpan value)
-		{
-			return ((::System::DateTime(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_SUBTRACT_1_OFFSET))(this, value);
 		}
 		*/
 
@@ -565,15 +607,19 @@ namespace System
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_TOFILETIMEUTC_OFFSET))(this);
 		}
 
+		/*
 		::System::DateTime ToLocalTime()
 		{
 			return ((::System::DateTime(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_TOLOCALTIME_OFFSET))(this);
 		}
+		*/
 
+		/*
 		::System::DateTime ToLocalTime_1(::System::Boolean throwOnOverflow)
 		{
 			return ((::System::DateTime(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_TOLOCALTIME_1_OFFSET))(this, throwOnOverflow);
 		}
+		*/
 
 		::System::String* ToString()
 		{
@@ -595,30 +641,40 @@ namespace System
 			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_TOSTRING_3_OFFSET))(this, format, provider);
 		}
 
+		/*
 		::System::DateTime ToUniversalTime()
 		{
 			return ((::System::DateTime(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_TOUNIVERSALTIME_OFFSET))(this);
 		}
+		*/
 
+		/*
 		static ::System::Boolean TryParse(::System::String* s, ::System::DateTime& result)
 		{
 			return ((::System::Boolean(*)(::System::String*, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_TRYPARSE_OFFSET))(s, result);
 		}
+		*/
 
+		/*
 		static ::System::Boolean TryParse_1(::System::String* s, ::System::IFormatProvider* provider, ::System::Globalization::DateTimeStyles styles, ::System::DateTime& result)
 		{
 			return ((::System::Boolean(*)(::System::String*, ::System::IFormatProvider*, ::System::Globalization::DateTimeStyles, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_TRYPARSE_1_OFFSET))(s, provider, styles, result);
 		}
+		*/
 
+		/*
 		static ::System::Boolean TryParseExact(::System::String* s, ::System::String* format, ::System::IFormatProvider* provider, ::System::Globalization::DateTimeStyles style, ::System::DateTime& result)
 		{
 			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::IFormatProvider*, ::System::Globalization::DateTimeStyles, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_TRYPARSEEXACT_OFFSET))(s, format, provider, style, result);
 		}
+		*/
 
+		/*
 		static ::System::Boolean TryParseExact_1(::System::String* s, ::Il2CppArray<::System::String*>* formats, ::System::IFormatProvider* provider, ::System::Globalization::DateTimeStyles style, ::System::DateTime& result)
 		{
 			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*, ::System::Globalization::DateTimeStyles, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_TRYPARSEEXACT_1_OFFSET))(s, formats, provider, style, result);
 		}
+		*/
 
 		/*
 		static ::System::DateTime op_Addition(::System::DateTime d, ::System::TimeSpan t)
@@ -641,35 +697,47 @@ namespace System
 		}
 		*/
 
+		/*
 		static ::System::Boolean op_Equality(::System::DateTime d1, ::System::DateTime d2)
 		{
 			return ((::System::Boolean(*)(::System::DateTime, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_OP_EQUALITY_OFFSET))(d1, d2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::System::DateTime d1, ::System::DateTime d2)
 		{
 			return ((::System::Boolean(*)(::System::DateTime, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_OP_INEQUALITY_OFFSET))(d1, d2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_LessThan(::System::DateTime t1, ::System::DateTime t2)
 		{
 			return ((::System::Boolean(*)(::System::DateTime, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_OP_LESSTHAN_OFFSET))(t1, t2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_LessThanOrEqual(::System::DateTime t1, ::System::DateTime t2)
 		{
 			return ((::System::Boolean(*)(::System::DateTime, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_OP_LESSTHANOREQUAL_OFFSET))(t1, t2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_GreaterThan(::System::DateTime t1, ::System::DateTime t2)
 		{
 			return ((::System::Boolean(*)(::System::DateTime, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_OP_GREATERTHAN_OFFSET))(t1, t2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_GreaterThanOrEqual(::System::DateTime t1, ::System::DateTime t2)
 		{
 			return ((::System::Boolean(*)(::System::DateTime, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_OP_GREATERTHANOREQUAL_OFFSET))(t1, t2);
 		}
+		*/
 
 		::System::TypeCode GetTypeCode()
 		{
@@ -743,19 +811,23 @@ namespace System
 		}
 		*/
 
+		/*
 		::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider)
 		{
 			return ((::System::DateTime(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TODATETIME_OFFSET))(this, provider);
 		}
+		*/
 
 		::System::Object* System_IConvertible_ToType(::System::Type* type, ::System::IFormatProvider* provider)
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::Type*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_SYSTEM_ICONVERTIBLE_TOTYPE_OFFSET))(this, type, provider);
 		}
 
+		/*
 		static ::System::Boolean TryCreate(::System::Int32 year, ::System::Int32 month, ::System::Int32 day, ::System::Int32 hour, ::System::Int32 minute, ::System::Int32 second, ::System::Int32 millisecond, ::System::DateTime& result)
 		{
 			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::DateTime&))((::PBYTE)hIl2Cpp + SYSTEM_DATETIME_TRYCREATE_OFFSET))(year, month, day, hour, minute, second, millisecond, result);
 		}
+		*/
 	};
 }

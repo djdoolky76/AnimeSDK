@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_MONOUIIMAGENUM_SETNUMBER_OFFSET UNITYSDK_OFFSET(0x11D59720)
-#define MOLEMOLE_MONOUIIMAGENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x11D598D0)
+#define MOLEMOLE_MONOUIIMAGENUM_SETNUMBER_OFFSET UNITYSDK_OFFSET(0x119470A0)
+#define MOLEMOLE_MONOUIIMAGENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x11947250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIImageNum_TypeDefinitionIndex = 73350;
+	inline static constexpr unsigned int MonoUIImageNum_TypeDefinitionIndex = 68249;
 
 	class MonoUIImageNum : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,9 +24,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUIIMAGENUM__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetNumber(::System::Int32 a1)
+		::System::Void SetNumber(::System::Int32 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUIIMAGENUM_SETNUMBER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOUIIMAGENUM_SETNUMBER_OFFSET))(this, EGEGIMGMJHN);
 		}
 	};
 }

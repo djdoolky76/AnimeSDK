@@ -3,12 +3,12 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int LookController_FaceDir_TypeDefinitionIndex = 38976;
+	inline static constexpr unsigned int LookController_FaceDir_TypeDefinitionIndex = 36940;
 
 	enum class LookController_FaceDir : ::System::Byte
 	{
-		None = 0x0,
-		Right = 0x2,
-		Left = 0x1,
+		Left = 1,
+		None = 0,
+		Right = 2,
 	};
 }

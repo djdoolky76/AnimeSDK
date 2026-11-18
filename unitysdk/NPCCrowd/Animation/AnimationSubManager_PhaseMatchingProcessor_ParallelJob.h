@@ -1,55 +1,69 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/Container/NativeVector_1.h"
+#include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationClipData.h"
+#include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationClipDataMultiLayer.h"
+#include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationStateData.h"
+#include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationStateDataMultiLayer.h"
+#include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationTickData.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_PhaseMatchingProcessor_ParallelJob_Buffer.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_PoseInertializationRequest.h"
+#include "unitysdk/NPCCrowd/Animation/PhaseMatchingResult.h"
+#include "unitysdk/NPCCrowd/Animation/PhaseMatchingTarget.h"
+#include "unitysdk/NPCCrowd/Animation/PhaseSection.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/Unity/Collections/NativeSlice_1.h"
+#include "unitysdk/UnityEngine/NapAnimator_SampleAnimationJobRequest.h"
 
 namespace NPCCrowd::Animation { class AnimationSubManager_AnimationSharedData; }
-namespace NPCCrowd::Animation { class AnimationSubManager_AvatarArchetypeData; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_BUILDREQUEST_OFFSET UNITYSDK_OFFSET(0x157B2040)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x825BA0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_FETCHSECTION_OFFSET UNITYSDK_OFFSET(0x825D10)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_FOOTMATCHING_OFFSET UNITYSDK_OFFSET(0x157B0FC0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GETADDITIONALANIMATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x825E20)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GETCURRENTSTATUS_OFFSET UNITYSDK_OFFSET(0x825CD0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GETSAMPLETIME_OFFSET UNITYSDK_OFFSET(0x157B2000)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__ADDITIONALANIMATION_OFFSET UNITYSDK_OFFSET(0x825B30)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__AREACURVEID_OFFSET UNITYSDK_OFFSET(0x825B60)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__AREADERIVATIVECURVEID_OFFSET UNITYSDK_OFFSET(0x825B70)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__AREASECTIONCURVEID_OFFSET UNITYSDK_OFFSET(0x825B80)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__AVATARID_OFFSET UNITYSDK_OFFSET(0x825B50)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__FOOTSTATUSCURVEID_OFFSET UNITYSDK_OFFSET(0x825B90)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHINGADDITIONALANIMATION_OFFSET UNITYSDK_OFFSET(0x825DA0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHINGANIMATION_OFFSET UNITYSDK_OFFSET(0x825D20)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHINGDEFAULTANIMATION_OFFSET UNITYSDK_OFFSET(0x825D60)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHINGINSTANCE_OFFSET UNITYSDK_OFFSET(0x825C70)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHING_OFFSET UNITYSDK_OFFSET(0x825BB0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_TRYRESOLVEDISPATCHINDEX_OFFSET UNITYSDK_OFFSET(0x157AEA10)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_BUILDREQUEST_OFFSET UNITYSDK_OFFSET(0x10DBBA10)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x651D60)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_FETCHSECTION_OFFSET UNITYSDK_OFFSET(0x651ED0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_FOOTMATCHING_OFFSET UNITYSDK_OFFSET(0x10DBA990)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GETADDITIONALANIMATIONCOUNT_OFFSET UNITYSDK_OFFSET(0x651FE0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GETCURRENTSTATUS_OFFSET UNITYSDK_OFFSET(0x651E90)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GETSAMPLETIME_OFFSET UNITYSDK_OFFSET(0x10DBB9D0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__ADDITIONALANIMATION_OFFSET UNITYSDK_OFFSET(0x651CF0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__AREACURVEID_OFFSET UNITYSDK_OFFSET(0x651D20)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__AREADERIVATIVECURVEID_OFFSET UNITYSDK_OFFSET(0x651D30)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__AREASECTIONCURVEID_OFFSET UNITYSDK_OFFSET(0x651D40)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__AVATARID_OFFSET UNITYSDK_OFFSET(0x651D10)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__FOOTSTATUSCURVEID_OFFSET UNITYSDK_OFFSET(0x651D50)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHINGADDITIONALANIMATION_OFFSET UNITYSDK_OFFSET(0x651F60)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHINGANIMATION_OFFSET UNITYSDK_OFFSET(0x651EE0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHINGDEFAULTANIMATION_OFFSET UNITYSDK_OFFSET(0x651F20)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHINGINSTANCE_OFFSET UNITYSDK_OFFSET(0x651E30)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHING_OFFSET UNITYSDK_OFFSET(0x651D70)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_TRYRESOLVEDISPATCHINDEX_OFFSET UNITYSDK_OFFSET(0x10DB83D0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_PhaseMatchingProcessor_ParallelJob_TypeDefinitionIndex = 88284;
+	inline static constexpr unsigned int AnimationSubManager_PhaseMatchingProcessor_ParallelJob_TypeDefinitionIndex = 81262;
 
 	struct alignas(4) AnimationSubManager_PhaseMatchingProcessor_ParallelJob
 	{
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_s_sources()
+		{
+			return (::System::Collections::Generic::List_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_PhaseMatchingProcessor_ParallelJob_TypeDefinitionIndex)->GetStaticField(0x4C7C0);
+		}
 		static ::NPCCrowd::Animation::AnimationSubManager_AnimationSharedData** StaticGet_s_sharedData()
 		{
-			return (::NPCCrowd::Animation::AnimationSubManager_AnimationSharedData**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_PhaseMatchingProcessor_ParallelJob_TypeDefinitionIndex)->GetStaticField(0x47630);
-		}
-		static ::System::Collections::Generic::List_1<::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData*>** StaticGet_s_sources()
-		{
-			return (::System::Collections::Generic::List_1<::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_PhaseMatchingProcessor_ParallelJob_TypeDefinitionIndex)->GetStaticField(0x47638);
+			return (::NPCCrowd::Animation::AnimationSubManager_AnimationSharedData**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_PhaseMatchingProcessor_ParallelJob_TypeDefinitionIndex)->GetStaticField(0x4C7C8);
 		}
 		// static const ::System::Single Epsilon; // 0x0
 		::System::Int32 _frameCount; // 0x10
 		::System::Int32 _sourceIndex; // 0x14
 
-		/*
-		::Foundation::Container::NativeVector_1<::NPCCrowd::Animation::AnimationSubManager_Node_1<::NPCCrowd::Animation::CPUStateMachine::AnimationSampleData>> get__additionalAnimation()
+		::Foundation::Container::NativeVector_1<::System::Object*> get__additionalAnimation()
 		{
-			return ((::Foundation::Container::NativeVector_1<::NPCCrowd::Animation::AnimationSubManager_Node_1<::NPCCrowd::Animation::CPUStateMachine::AnimationSampleData>>(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__ADDITIONALANIMATION_OFFSET))(this);
+			return ((::Foundation::Container::NativeVector_1<::System::Object*>(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GET__ADDITIONALANIMATION_OFFSET))(this);
 		}
-		*/
 
 		::System::Int32 get__avatarId()
 		{
@@ -86,77 +100,59 @@ namespace NPCCrowd::Animation
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_EXECUTE_OFFSET))(this, chunkIndex);
 		}
 
-		/*
-		::System::Void PhaseMatching(::System::Span_1<::NPCCrowd::Animation::CPUStateMachine::AnimationStateDataMultiLayer> states, ::System::ReadOnlySpan_1<::NPCCrowd::Animation::CPUStateMachine::AnimationTickData> tickData, ::System::Span_1<::NPCCrowd::Animation::CPUStateMachine::AnimationClipDataMultiLayer> clipData, ::System::Span_1<::NPCCrowd::Animation::AnimationSubManager_PoseInertializationRequest> blendingRequests, ::System::ReadOnlySpan_1<::System::UInt32> entities)
+		::System::Void PhaseMatching(::System::Span_1_9011FAD97750D224<::NPCCrowd::Animation::CPUStateMachine::AnimationStateDataMultiLayer> states, ::System::ReadOnlySpan_1_F48FB86071006F3E<::NPCCrowd::Animation::CPUStateMachine::AnimationTickData> tickData, ::System::Span_1_9011FAD97750D224<::NPCCrowd::Animation::CPUStateMachine::AnimationClipDataMultiLayer> clipData, ::System::Span_1_9011FAD97750D224<::System::Object*> blendingRequests, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::UInt32> entities)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Span_1<::NPCCrowd::Animation::CPUStateMachine::AnimationStateDataMultiLayer>, ::System::ReadOnlySpan_1<::NPCCrowd::Animation::CPUStateMachine::AnimationTickData>, ::System::Span_1<::NPCCrowd::Animation::CPUStateMachine::AnimationClipDataMultiLayer>, ::System::Span_1<::NPCCrowd::Animation::AnimationSubManager_PoseInertializationRequest>, ::System::ReadOnlySpan_1<::System::UInt32>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHING_OFFSET))(this, states, tickData, clipData, blendingRequests, entities);
+			return ((::System::Void(*)(::PVOID, ::System::Span_1_9011FAD97750D224<::NPCCrowd::Animation::CPUStateMachine::AnimationStateDataMultiLayer>, ::System::ReadOnlySpan_1_F48FB86071006F3E<::NPCCrowd::Animation::CPUStateMachine::AnimationTickData>, ::System::Span_1_9011FAD97750D224<::NPCCrowd::Animation::CPUStateMachine::AnimationClipDataMultiLayer>, ::System::Span_1_9011FAD97750D224<::System::Object*>, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::UInt32>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHING_OFFSET))(this, states, tickData, clipData, blendingRequests, entities);
 		}
-		*/
 
-		/*
 		::System::Void PhaseMatchingInstance(::NPCCrowd::Animation::CPUStateMachine::AnimationStateData& state, ::NPCCrowd::Animation::CPUStateMachine::AnimationTickData tickData, ::NPCCrowd::Animation::CPUStateMachine::AnimationClipData& clipData, ::NPCCrowd::Animation::AnimationSubManager_PoseInertializationRequest& blendingRequest, ::System::UInt32 entityId, ::NPCCrowd::Animation::AnimationSubManager_PhaseMatchingProcessor_ParallelJob_Buffer& buffer)
 		{
 			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Animation::CPUStateMachine::AnimationStateData&, ::NPCCrowd::Animation::CPUStateMachine::AnimationTickData, ::NPCCrowd::Animation::CPUStateMachine::AnimationClipData&, ::NPCCrowd::Animation::AnimationSubManager_PoseInertializationRequest&, ::System::UInt32, ::NPCCrowd::Animation::AnimationSubManager_PhaseMatchingProcessor_ParallelJob_Buffer&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHINGINSTANCE_OFFSET))(this, state, tickData, clipData, blendingRequest, entityId, buffer);
 		}
-		*/
 
-		/*
 		::System::Void GetCurrentStatus(::NPCCrowd::Animation::CPUStateMachine::AnimationTickData tickData, ::NPCCrowd::Animation::PhaseMatchingTarget& target)
 		{
 			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Animation::CPUStateMachine::AnimationTickData, ::NPCCrowd::Animation::PhaseMatchingTarget&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GETCURRENTSTATUS_OFFSET))(this, tickData, target);
 		}
-		*/
 
-		/*
 		::System::Int32 FetchSection(::System::Int32 clipId, ::NPCCrowd::Animation::AnimationSubManager_PhaseMatchingProcessor_ParallelJob_Buffer& buffer)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::NPCCrowd::Animation::AnimationSubManager_PhaseMatchingProcessor_ParallelJob_Buffer&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_FETCHSECTION_OFFSET))(this, clipId, buffer);
 		}
-		*/
 
-		/*
 		static ::NPCCrowd::Animation::PhaseMatchingResult FootMatching(::NPCCrowd::Animation::PhaseMatchingTarget target, ::Unity::Collections::NativeSlice_1<::NPCCrowd::Animation::PhaseSection> sections)
 		{
 			return ((::NPCCrowd::Animation::PhaseMatchingResult(*)(::NPCCrowd::Animation::PhaseMatchingTarget, ::Unity::Collections::NativeSlice_1<::NPCCrowd::Animation::PhaseSection>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_FOOTMATCHING_OFFSET))(target, sections);
 		}
-		*/
 
-		/*
 		::NPCCrowd::Animation::PhaseMatchingResult PhaseMatchingAnimation(::System::Int32 clipId, ::NPCCrowd::Animation::PhaseMatchingTarget target, ::NPCCrowd::Animation::AnimationSubManager_PhaseMatchingProcessor_ParallelJob_Buffer& buffer)
 		{
 			return ((::NPCCrowd::Animation::PhaseMatchingResult(*)(::PVOID, ::System::Int32, ::NPCCrowd::Animation::PhaseMatchingTarget, ::NPCCrowd::Animation::AnimationSubManager_PhaseMatchingProcessor_ParallelJob_Buffer&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHINGANIMATION_OFFSET))(this, clipId, target, buffer);
 		}
-		*/
 
-		/*
 		::System::ValueTuple_2<::NPCCrowd::Animation::PhaseMatchingResult, ::System::Single> PhaseMatchingDefaultAnimation(::NPCCrowd::Animation::CPUStateMachine::AnimationClipData& state, ::NPCCrowd::Animation::PhaseMatchingTarget target, ::NPCCrowd::Animation::AnimationSubManager_PhaseMatchingProcessor_ParallelJob_Buffer& buffer)
 		{
 			return ((::System::ValueTuple_2<::NPCCrowd::Animation::PhaseMatchingResult, ::System::Single>(*)(::PVOID, ::NPCCrowd::Animation::CPUStateMachine::AnimationClipData&, ::NPCCrowd::Animation::PhaseMatchingTarget, ::NPCCrowd::Animation::AnimationSubManager_PhaseMatchingProcessor_ParallelJob_Buffer&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHINGDEFAULTANIMATION_OFFSET))(this, state, target, buffer);
 		}
-		*/
 
-		/*
 		::NPCCrowd::Animation::PhaseMatchingResult PhaseMatchingAdditionalAnimation(::NPCCrowd::Animation::CPUStateMachine::AnimationClipData& state, ::NPCCrowd::Animation::PhaseMatchingResult result, ::System::Single animLength, ::NPCCrowd::Animation::PhaseMatchingTarget target, ::NPCCrowd::Animation::AnimationSubManager_PhaseMatchingProcessor_ParallelJob_Buffer& buffer)
 		{
 			return ((::NPCCrowd::Animation::PhaseMatchingResult(*)(::PVOID, ::NPCCrowd::Animation::CPUStateMachine::AnimationClipData&, ::NPCCrowd::Animation::PhaseMatchingResult, ::System::Single, ::NPCCrowd::Animation::PhaseMatchingTarget, ::NPCCrowd::Animation::AnimationSubManager_PhaseMatchingProcessor_ParallelJob_Buffer&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_PHASEMATCHINGADDITIONALANIMATION_OFFSET))(this, state, result, animLength, target, buffer);
 		}
-		*/
 
 		::System::Int32 GetAdditionalAnimationCount(::System::Int32 index)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GETADDITIONALANIMATIONCOUNT_OFFSET))(this, index);
 		}
 
-		static ::System::Single GetSampleTime(::System::Single* buffer, ::System::Int32 count)
+		static ::System::Single GetSampleTime(::PVOID buffer, ::System::Int32 count)
 		{
-			return ((::System::Single(*)(::System::Single*, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GETSAMPLETIME_OFFSET))(buffer, count);
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_GETSAMPLETIME_OFFSET))(buffer, count);
 		}
 
-		/*
-		static ::UnityEngine::NapAnimator_SampleAnimationJobRequest BuildRequest(::System::Int32 animationId, ::System::Single time, ::System::Int32* idPtr, ::System::Single* curvePtr, ::System::Int32 curveCount)
+		static ::UnityEngine::NapAnimator_SampleAnimationJobRequest BuildRequest(::System::Int32 animationId, ::System::Single time, ::PVOID idPtr, ::PVOID curvePtr, ::System::Int32 curveCount)
 		{
-			return ((::UnityEngine::NapAnimator_SampleAnimationJobRequest(*)(::System::Int32, ::System::Single, ::System::Int32*, ::System::Single*, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_BUILDREQUEST_OFFSET))(animationId, time, idPtr, curvePtr, curveCount);
+			return ((::UnityEngine::NapAnimator_SampleAnimationJobRequest(*)(::System::Int32, ::System::Single, ::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_PHASEMATCHINGPROCESSOR_PARALLELJOB_BUILDREQUEST_OFFSET))(animationId, time, idPtr, curvePtr, curveCount);
 		}
-		*/
 	};
 }

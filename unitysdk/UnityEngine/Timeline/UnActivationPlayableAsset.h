@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_TIMELINE_UNACTIVATIONPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F1A24F0)
-#define UNITYENGINE_TIMELINE_UNACTIVATIONPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F1A24E0)
-#define UNITYENGINE_TIMELINE_UNACTIVATIONPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1A25E0)
+#define UNITYENGINE_TIMELINE_UNACTIVATIONPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F596B40)
+#define UNITYENGINE_TIMELINE_UNACTIVATIONPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F596B30)
+#define UNITYENGINE_TIMELINE_UNACTIVATIONPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F596C30)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int UnActivationPlayableAsset_TypeDefinitionIndex = 32989;
+	inline static constexpr unsigned int UnActivationPlayableAsset_TypeDefinitionIndex = 32444;
 
 	class UnActivationPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+
+class BKGKJNHLCKC;
+class DMHOLJNNCJA;
+class EBHJDFFGMIH;
+class JIGHBBFOLEH;
+namespace MoleMole { class ScrollViewItemWidgetController; }
+namespace MoleMole { class UIBangkovBangbooSelectItemWidgetController_Data; }
+
+#define JIGHBBFOLEH_DGEHHNCMPCJ_GBIPAIEDPFK_OFFSET UNITYSDK_OFFSET(0x18A1E140)
+#define JIGHBBFOLEH_DGEHHNCMPCJ_HCAKNEMJBMM_OFFSET UNITYSDK_OFFSET(0x18A1EB70)
+#define JIGHBBFOLEH_DGEHHNCMPCJ_JDBCAGPMOPN_OFFSET UNITYSDK_OFFSET(0x18A1E7F0)
+#define JIGHBBFOLEH_DGEHHNCMPCJ_LJPKJKFODBA_OFFSET UNITYSDK_OFFSET(0x18A1EB00)
+#define JIGHBBFOLEH_DGEHHNCMPCJ_NEFFKJMFLEC_OFFSET UNITYSDK_OFFSET(0x18A1E630)
+#define JIGHBBFOLEH_DGEHHNCMPCJ_OKBKCKGNCNH_OFFSET UNITYSDK_OFFSET(0x18A1E440)
+#define JIGHBBFOLEH_DGEHHNCMPCJ__CTOR_OFFSET UNITYSDK_OFFSET(0x18A1AD00)
+
+inline static constexpr unsigned int JIGHBBFOLEH_DGEHHNCMPCJ_TypeDefinitionIndex = 63417;
+
+class JIGHBBFOLEH_DGEHHNCMPCJ : public ::System::Object
+{
+public:
+	::JIGHBBFOLEH* KLHPEBKNIFB; // 0x10
+	::DMHOLJNNCJA* LHPFMGBDFPN; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JIGHBBFOLEH_DGEHHNCMPCJ__CTOR_OFFSET))(this);
+	}
+
+	::System::Void GBIPAIEDPFK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JIGHBBFOLEH_DGEHHNCMPCJ_GBIPAIEDPFK_OFFSET))(this);
+	}
+
+	::MoleMole::UIBangkovBangbooSelectItemWidgetController_Data* OKBKCKGNCNH()
+	{
+		return ((::MoleMole::UIBangkovBangbooSelectItemWidgetController_Data*(*)(::PVOID))((::PBYTE)hIl2Cpp + JIGHBBFOLEH_DGEHHNCMPCJ_OKBKCKGNCNH_OFFSET))(this);
+	}
+
+	::BKGKJNHLCKC* NEFFKJMFLEC()
+	{
+		return ((::BKGKJNHLCKC*(*)(::PVOID))((::PBYTE)hIl2Cpp + JIGHBBFOLEH_DGEHHNCMPCJ_NEFFKJMFLEC_OFFSET))(this);
+	}
+
+	::System::Int32 JDBCAGPMOPN()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + JIGHBBFOLEH_DGEHHNCMPCJ_JDBCAGPMOPN_OFFSET))(this);
+	}
+
+	::MoleMole::ScrollViewItemWidgetController* LJPKJKFODBA(::LIBOIKJGAIH DGDFDLNJEKJ)
+	{
+		return ((::MoleMole::ScrollViewItemWidgetController*(*)(::PVOID, ::LIBOIKJGAIH))((::PBYTE)hIl2Cpp + JIGHBBFOLEH_DGEHHNCMPCJ_LJPKJKFODBA_OFFSET))(this, DGDFDLNJEKJ);
+	}
+
+	::EBHJDFFGMIH* HCAKNEMJBMM()
+	{
+		return ((::EBHJDFFGMIH*(*)(::PVOID))((::PBYTE)hIl2Cpp + JIGHBBFOLEH_DGEHHNCMPCJ_HCAKNEMJBMM_OFFSET))(this);
+	}
+};

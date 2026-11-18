@@ -6,7 +6,7 @@ namespace MoleMole { class UIRankingImageConfig; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerFightingInfoWidgetController___c__DisplayClass47_0_TypeDefinitionIndex = 40686;
+	inline static constexpr unsigned int UIBabeltowerFightingInfoWidgetController___c__DisplayClass47_0_TypeDefinitionIndex = 67532;
 
 	struct alignas(8) UIBabeltowerFightingInfoWidgetController___c__DisplayClass47_0
 	{

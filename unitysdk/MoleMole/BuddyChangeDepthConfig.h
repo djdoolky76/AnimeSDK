@@ -5,21 +5,21 @@
 namespace MoleMole { class BuddyDepthConfig; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_BUDDYCHANGEDEPTHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14355F70)
+#define MOLEMOLE_BUDDYCHANGEDEPTHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1219F820)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BuddyChangeDepthConfig_TypeDefinitionIndex = 55025;
+	inline static constexpr unsigned int BuddyChangeDepthConfig_TypeDefinitionIndex = 64263;
 
 	class BuddyChangeDepthConfig : public ::System::Object
 	{
 	public:
 		::MoleMole::BuddyDepthConfig* far; // 0x10
-		::UnityEngine::AnimationCurve* curve; // 0x18
-		::MoleMole::BuddyDepthConfig* near; // 0x20
+		::MoleMole::BuddyDepthConfig* near; // 0x18
+		::UnityEngine::AnimationCurve* curve; // 0x20
 		::UnityEngine::AnimationCurve* curve_nearForFar; // 0x28
-		::System::Single changeTime; // 0x30
-		::System::Single changeTime_nearForFar; // 0x34
+		::System::Single changeTime_nearForFar; // 0x30
+		::System::Single changeTime; // 0x34
 
 		::System::Void _ctor()
 		{

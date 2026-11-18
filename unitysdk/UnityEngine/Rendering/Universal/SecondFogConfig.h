@@ -5,17 +5,18 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SECONDFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F823240)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SECONDFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F91FAB0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SecondFogConfig_TypeDefinitionIndex = 27821;
+	inline static constexpr unsigned int SecondFogConfig_TypeDefinitionIndex = 26978;
 
 	class SecondFogConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean enableSecondFog; // 0x10
 		::System::Boolean synFogColor; // 0x11
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Color fogColorA; // 0x14
 		::System::Single fogDensityA; // 0x24
 		::System::Single fogScatteringA; // 0x28

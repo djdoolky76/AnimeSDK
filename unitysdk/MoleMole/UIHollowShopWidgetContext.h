@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_E88275273EFBFE5C;
-class Class_2_DF73794ED874FFFB;
-class Class_3_82925E4A102A439B;
-class Class_5_8988B26E8EEE123D;
+class AFMMAIKKACF;
+class ALGKMLLALFG;
+class LBKLJGOMMAJ;
+class NKHMNIEAHIB;
 
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18856DE0)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x183BD490)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowShopWidgetContext_TypeDefinitionIndex = 59126;
+	inline static constexpr unsigned int UIHollowShopWidgetContext_TypeDefinitionIndex = 54004;
 
 	class UIHollowShopWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_82925E4A102A439B* shopInfo; // 0x28
-		::Class_1_E88275273EFBFE5C* scriptContext; // 0x30
-		::Class_2_DF73794ED874FFFB* graph; // 0x38
-		::Class_5_8988B26E8EEE123D* shopNode; // 0x40
+		::LBKLJGOMMAJ* shopInfo; // 0x28
+		::NKHMNIEAHIB* shopNode; // 0x30
+		::AFMMAIKKACF* scriptContext; // 0x38
+		::ALGKMLLALFG* graph; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -10,19 +10,19 @@ namespace System { class String; }
 namespace miHoYoEmotion { class EmoSync; }
 namespace miHoYoEmotion { class SequenceClipBakeData; }
 
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_METHOD_3_832295EC279E5994_1_OFFSET UNITYSDK_OFFSET(0x168958E0)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_METHOD_3_832295EC279E5994_2_OFFSET UNITYSDK_OFFSET(0x168958F0)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_METHOD_3_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x168958C0)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_METHOD_3_ED01C45E2F8DB392_OFFSET UNITYSDK_OFFSET(0x168958D0)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16895820)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_ONPAUSE_OFFSET UNITYSDK_OFFSET(0x16895250)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_ONPLAY_OFFSET UNITYSDK_OFFSET(0x16894E10)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_ONPROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x168955E0)
-#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16895870)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_EEEPHBMCNEN_OFFSET UNITYSDK_OFFSET(0x10D63B30)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_IFHNMAGGFAE_OFFSET UNITYSDK_OFFSET(0x10D63B40)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_JEINNALOJDE_OFFSET UNITYSDK_OFFSET(0x10D63B10)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_OFMFPDACPLH_OFFSET UNITYSDK_OFFSET(0x10D63B20)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x10D63A70)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_ONPAUSE_OFFSET UNITYSDK_OFFSET(0x10D634A0)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_ONPLAY_OFFSET UNITYSDK_OFFSET(0x10D63060)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_ONPROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x10D63830)
+#define MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x10D63AC0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int EmoSyncAnimationBehavior_TypeDefinitionIndex = 57405;
+	inline static constexpr unsigned int EmoSyncAnimationBehavior_TypeDefinitionIndex = 64127;
 
 	class EmoSyncAnimationBehavior : public ::MoleMole::Timeline::BaseTimeline::BaseTimelineBehavior
 	{
@@ -50,9 +50,9 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_ONPAUSE_OFFSET))(this);
 		}
 
-		::System::Void OnProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::Playable a2, ::UnityEngine::Playables::FrameData a3, ::System::Object* a4, ::System::Single a5, ::System::Int32 a6)
+		::System::Void OnProcessFrame(::UnityEngine::Playables::Playable BBAPGLCBDOF, ::UnityEngine::Playables::Playable HKOFGPMIFHB, ::UnityEngine::Playables::FrameData HMMMOCJAEOA, ::System::Object* NEEMKJBIIBC, ::System::Single IECOJPMPJMP, ::System::Int32 DFDHKJHBBAD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_ONPROCESSFRAME_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_ONPROCESSFRAME_OFFSET))(this, BBAPGLCBDOF, HKOFGPMIFHB, HMMMOCJAEOA, NEEMKJBIIBC, IECOJPMPJMP, DFDHKJHBBAD);
 		}
 
 		::System::Void OnDestroy()
@@ -60,24 +60,24 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_3_832295EC279E5994()
+		::System::Void JEINNALOJDE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_METHOD_3_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_JEINNALOJDE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_ED01C45E2F8DB392(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::Playable a2, ::UnityEngine::Playables::FrameData a3, ::System::Object* a4, ::System::Single a5, ::System::Int32 a6)
+		::System::Void OFMFPDACPLH(::UnityEngine::Playables::Playable MIALFKCCCPI, ::UnityEngine::Playables::Playable KMGKAIDEIBA, ::UnityEngine::Playables::FrameData FDHMCIFPNCK, ::System::Object* MPBJAGIKPJM, ::System::Single DDMDINPGCFI, ::System::Int32 CEIDLKIHMLC)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_METHOD_3_ED01C45E2F8DB392_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_OFMFPDACPLH_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM, DDMDINPGCFI, CEIDLKIHMLC);
 		}
 
-		::System::Void Method_3_832295EC279E5994_1()
+		::System::Void EEEPHBMCNEN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_METHOD_3_832295EC279E5994_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_EEEPHBMCNEN_OFFSET))(this);
 		}
 
-		::System::Void Method_3_832295EC279E5994_2()
+		::System::Void IFHNMAGGFAE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_METHOD_3_832295EC279E5994_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EMOSYNCANIMATIONBEHAVIOR_IFHNMAGGFAE_OFFSET))(this);
 		}
 	};
 }

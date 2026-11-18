@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_LAYERMASKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D069C60)
-#define MESSAGEPACK_UNITY_LAYERMASKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D069C30)
-#define MESSAGEPACK_UNITY_LAYERMASKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D069DD0)
+#define MESSAGEPACK_UNITY_LAYERMASKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D5E3FD0)
+#define MESSAGEPACK_UNITY_LAYERMASKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D5E3FA0)
+#define MESSAGEPACK_UNITY_LAYERMASKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E4140)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int LayerMaskFormatter_TypeDefinitionIndex = 31407;
+	inline static constexpr unsigned int LayerMaskFormatter_TypeDefinitionIndex = 30858;
 
 	class LayerMaskFormatter : public ::System::Object
 	{

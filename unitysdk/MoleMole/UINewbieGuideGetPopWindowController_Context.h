@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UINEWBIEGUIDEGETPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x189D0940)
+#define MOLEMOLE_UINEWBIEGUIDEGETPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x190518D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINewbieGuideGetPopWindowController_Context_TypeDefinitionIndex = 69170;
+	inline static constexpr unsigned int UINewbieGuideGetPopWindowController_Context_TypeDefinitionIndex = 49737;
 
 	class UINewbieGuideGetPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Boolean IsAvatar; // 0x28
-		::System::Int32 ItemId; // 0x2C
+		::System::Int32 ItemId; // 0x28
+		::System::Boolean IsAvatar; // 0x2C
 
 		::System::Void _ctor()
 		{

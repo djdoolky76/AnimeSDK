@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define CLKAKGJPFBA__CTOR_OFFSET UNITYSDK_OFFSET(0x1326CBA0)
+
+inline static constexpr unsigned int CLKAKGJPFBA_TypeDefinitionIndex = 45260;
+
+class CLKAKGJPFBA : public ::System::Object
+{
+public:
+	::System::UInt32 LLEPLCNIGKE; // 0x10
+	::System::UInt32 DPNDCBICEMH; // 0x14
+	::System::UInt32 EIPCGGPOHDD; // 0x18
+	::System::UInt32 PMMPJGJEKCH; // 0x1C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLKAKGJPFBA__CTOR_OFFSET))(this);
+	}
+};

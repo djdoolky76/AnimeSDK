@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/FlowNode.h"
 
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDBREAKFINALCAMERADATA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x15BC80C0)
-#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDBREAKFINALCAMERADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15BC8240)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDBREAKFINALCAMERADATA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19D4BBE0)
+#define CODE_LOGIC_CANVAS_LEVELDESIGN_LDBREAKFINALCAMERADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19D4BD60)
 
 namespace Code::Logic::Canvas::LevelDesign
 {
-	inline static constexpr unsigned int LDBreakFinalCameraData_TypeDefinitionIndex = 77643;
+	inline static constexpr unsigned int LDBreakFinalCameraData_TypeDefinitionIndex = 67409;
 
 	class LDBreakFinalCameraData : public ::FlowCanvas::FlowNode
 	{

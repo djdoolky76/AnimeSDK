@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PseudoStates_TypeDefinitionIndex = 28075;
+	inline static constexpr unsigned int PseudoStates_TypeDefinitionIndex = 27493;
 
 	enum class PseudoStates : ::System::Int32
 	{

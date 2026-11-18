@@ -3,7 +3,7 @@
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Baker_Mode_TypeDefinitionIndex = 38996;
+	inline static constexpr unsigned int Baker_Mode_TypeDefinitionIndex = 36916;
 
 	enum class Baker_Mode : ::System::Int32
 	{

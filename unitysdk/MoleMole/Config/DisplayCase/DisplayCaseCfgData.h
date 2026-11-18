@@ -8,13 +8,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole::Config::DisplayCase
 {
-	inline static constexpr unsigned int DisplayCaseCfgData_TypeDefinitionIndex = 47241;
+	inline static constexpr unsigned int DisplayCaseCfgData_TypeDefinitionIndex = 66321;
 
 	struct alignas(8) DisplayCaseCfgData
 	{
 		::System::Int32 SectionId; // 0x10
 		::System::Boolean IsFemale; // 0x14
+		::System::Byte _padding0[0x3];
 		::MoleMole::DisplayCase::DisplayBaseTransformData TransformData; // 0x18
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::DisplayCase::DisplayBaseTransformData>*>* AllItems; // 0x30
 	};
 }

@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineSettingBase_2_TypeDefinitionIndex = 61850;
+	inline static constexpr unsigned int CommandLineSettingBase_2_TypeDefinitionIndex = 69657;
 
-	template <typename ProfilerDataCls, typename CMDDataCls>
+	template <typename T1, typename T2>
 	class CommandLineSettingBase_2 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<ProfilerDataCls, ProfilerDataCls>* overrideDict; // 0x0
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* overrideDict; // 0x0
 	};
 }

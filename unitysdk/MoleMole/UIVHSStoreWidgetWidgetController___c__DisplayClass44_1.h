@@ -4,8 +4,9 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreWidgetWidgetController___c__DisplayClass44_1_TypeDefinitionIndex = 42745;
+	inline static constexpr unsigned int UIVHSStoreWidgetWidgetController___c__DisplayClass44_1_TypeDefinitionIndex = 68414;
 
+	template <typename T>
 	struct alignas(4) UIVHSStoreWidgetWidgetController___c__DisplayClass44_1
 	{
 		::System::Int32 preferTagID; // 0x10

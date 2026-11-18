@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_CAUSTICSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x10827320)
-#define MOLEMOLE_TIMELINE_CAUSTICSTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET UNITYSDK_OFFSET(0x108275D0)
-#define MOLEMOLE_TIMELINE_CAUSTICSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x10827570)
+#define MOLEMOLE_TIMELINE_CAUSTICSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x15AD84B0)
+#define MOLEMOLE_TIMELINE_CAUSTICSTRACK_LGAGFNHGIGH_OFFSET UNITYSDK_OFFSET(0x15AD8770)
+#define MOLEMOLE_TIMELINE_CAUSTICSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x15AD8710)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int CausticsTrack_TypeDefinitionIndex = 88390;
+	inline static constexpr unsigned int CausticsTrack_TypeDefinitionIndex = 57602;
 
 	class CausticsTrack : public ::MoleMole::Timeline::PostProcessTrack
 	{
@@ -22,14 +22,14 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CAUSTICSTRACK__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* NJOAJLDJCCJ, ::System::Int32 BMHCCJPEFPI)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CAUSTICSTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CAUSTICSTRACK_CREATETRACKMIXER_OFFSET))(this, MHPNGBGGMMN, NJOAJLDJCCJ, BMHCCJPEFPI);
 		}
 
-		::UnityEngine::Playables::Playable Method_6_B1CEB44F8026DA0D(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
+		::UnityEngine::Playables::Playable LGAGFNHGIGH(::UnityEngine::Playables::PlayableGraph MIALFKCCCPI, ::UnityEngine::GameObject* KMGKAIDEIBA, ::System::Int32 FDHMCIFPNCK)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CAUSTICSTRACK_METHOD_6_B1CEB44F8026DA0D_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CAUSTICSTRACK_LGAGFNHGIGH_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
 		}
 	};
 }

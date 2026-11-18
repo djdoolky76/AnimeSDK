@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Configuration/SpecialSetting.h"
+#include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_CONFIGURATION_SPECIALSETTINGATTRIBUTE_GET_SPECIALSETTING_OFFSET UNITYSDK_OFFSET(0x1D6A3D40)
-#define SYSTEM_CONFIGURATION_SPECIALSETTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A3D30)
+#define SYSTEM_CONFIGURATION_SPECIALSETTINGATTRIBUTE_GET_SPECIALSETTING_OFFSET UNITYSDK_OFFSET(0x1DB9DF60)
+#define SYSTEM_CONFIGURATION_SPECIALSETTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9DF50)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SpecialSettingAttribute_TypeDefinitionIndex = 4232;
+	inline static constexpr unsigned int SpecialSettingAttribute_TypeDefinitionIndex = 4231;
 
 	class SpecialSettingAttribute : public ::System::Attribute
 	{

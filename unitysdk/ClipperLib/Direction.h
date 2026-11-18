@@ -3,7 +3,7 @@
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int Direction_TypeDefinitionIndex = 33414;
+	inline static constexpr unsigned int Direction_TypeDefinitionIndex = 32874;
 
 	enum class Direction : ::System::Int32
 	{

@@ -7,21 +7,23 @@ namespace MoleMole::MonoEffectContrllerModule { class GuidanceCoreBase; }
 namespace MoleMole::MonoEffectContrllerModule { class GuidanceCore_Bezier2; }
 namespace MoleMole::MonoEffectContrllerModule { class GuidanceCore_Bezier3; }
 namespace MoleMole::MonoEffectContrllerModule { class GuidanceCore_BezierCustom; }
-namespace MoleMole::MonoEffectContrllerModule { class MonoEffectPluginController_Class_1_E5308BE9EEBA8B55; }
+namespace MoleMole::MonoEffectContrllerModule { class MonoEffectPluginController_MGNEBGDIIEO; }
 
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_GETCURRENTCONFIG_OFFSET UNITYSDK_OFFSET(0x6B86C0)
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x6B8680)
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONCREATECONTROLLER_OFFSET UNITYSDK_OFFSET(0x6B8740)
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONDESTROYCONTROLLER_OFFSET UNITYSDK_OFFSET(0x6B8750)
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONUPDATECONTROLLER_OFFSET UNITYSDK_OFFSET(0x6B8830)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_GETCURRENTCONFIG_OFFSET UNITYSDK_OFFSET(0x7700C0)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x770080)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONCREATECONTROLLER_OFFSET UNITYSDK_OFFSET(0x770140)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONDESTROYCONTROLLER_OFFSET UNITYSDK_OFFSET(0x770150)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONRETARGET_OFFSET UNITYSDK_OFFSET(0x770230)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONUPDATECONTROLLER_OFFSET UNITYSDK_OFFSET(0x7702B0)
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int GuidanceModule_TypeDefinitionIndex = 52674;
+	inline static constexpr unsigned int GuidanceModule_TypeDefinitionIndex = 87758;
 
 	struct alignas(8) GuidanceModule
 	{
 		::System::Boolean Enable; // 0x10
+		::System::Byte _padding0[0x3];
 		::MoleMole::MonoEffectContrllerModule::GuidanceModule_GuidanceType PathType; // 0x14
 		::MoleMole::MonoEffectContrllerModule::GuidanceCore_Bezier2* GuidanceConfig; // 0x18
 		::MoleMole::MonoEffectContrllerModule::GuidanceCore_Bezier3* GuidanceConfig_Bezier3; // 0x20
@@ -37,19 +39,24 @@ namespace MoleMole::MonoEffectContrllerModule
 			return ((::MoleMole::MonoEffectContrllerModule::GuidanceCoreBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_GETCURRENTCONFIG_OFFSET))(this);
 		}
 
-		::System::Void OnCreateController(::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_Class_1_E5308BE9EEBA8B55* controller)
+		::System::Void OnCreateController(::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_MGNEBGDIIEO* controller)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_Class_1_E5308BE9EEBA8B55*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONCREATECONTROLLER_OFFSET))(this, controller);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_MGNEBGDIIEO*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONCREATECONTROLLER_OFFSET))(this, controller);
 		}
 
-		::System::Void OnDestroyController(::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_Class_1_E5308BE9EEBA8B55* controller)
+		::System::Void OnDestroyController(::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_MGNEBGDIIEO* controller)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_Class_1_E5308BE9EEBA8B55*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONDESTROYCONTROLLER_OFFSET))(this, controller);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_MGNEBGDIIEO*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONDESTROYCONTROLLER_OFFSET))(this, controller);
 		}
 
-		::System::Void OnUpdateController(::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_Class_1_E5308BE9EEBA8B55* controller)
+		::System::Void OnRetarget(::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_MGNEBGDIIEO* controller)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_Class_1_E5308BE9EEBA8B55*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONUPDATECONTROLLER_OFFSET))(this, controller);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_MGNEBGDIIEO*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONRETARGET_OFFSET))(this, controller);
+		}
+
+		::System::Void OnUpdateController(::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_MGNEBGDIIEO* controller)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_MGNEBGDIIEO*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCEMODULE_ONUPDATECONTROLLER_OFFSET))(this, controller);
 		}
 	};
 }

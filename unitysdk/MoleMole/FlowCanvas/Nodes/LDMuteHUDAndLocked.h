@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_4.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEHUDANDLOCKED_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DB4730)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEHUDANDLOCKED__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB4C70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEHUDANDLOCKED_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B3AB20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEHUDANDLOCKED__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3B060)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMuteHUDAndLocked_TypeDefinitionIndex = 51210;
+	inline static constexpr unsigned int LDMuteHUDAndLocked_TypeDefinitionIndex = 46439;
 
-	class LDMuteHUDAndLocked : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::Boolean, ::System::Boolean>
+	class LDMuteHUDAndLocked
 	{
 	public:
 		::System::Void _ctor()

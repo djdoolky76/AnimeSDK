@@ -8,22 +8,22 @@ namespace System::Xml::Schema { class CompiledIdentityConstraint; }
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 namespace System::Xml::Schema { class XmlSchemaXPath; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAIDENTITYCONSTRAINT_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E7FDFB0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAIDENTITYCONSTRAINT_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E7FDFC0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAIDENTITYCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FDFD0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAIDENTITYCONSTRAINT_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1EAB0EE0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAIDENTITYCONSTRAINT_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1EAB0EF0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAIDENTITYCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB0F00)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaIdentityConstraint_TypeDefinitionIndex = 2161;
+	inline static constexpr unsigned int XmlSchemaIdentityConstraint_TypeDefinitionIndex = 2160;
 
 	class XmlSchemaIdentityConstraint : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaXPath* selector; // 0x50
-		::System::String* name; // 0x58
-		::System::Xml::XmlQualifiedName* qualifiedName; // 0x60
-		::System::Xml::Schema::XmlSchemaObjectCollection* fields; // 0x68
-		::System::Xml::Schema::CompiledIdentityConstraint* compiledConstraint; // 0x70
+		::System::Xml::XmlQualifiedName* qualifiedName; // 0x50
+		::System::Xml::Schema::CompiledIdentityConstraint* compiledConstraint; // 0x58
+		::System::Xml::Schema::XmlSchemaObjectCollection* fields; // 0x60
+		::System::String* name; // 0x68
+		::System::Xml::Schema::XmlSchemaXPath* selector; // 0x70
 
 		::System::Void _ctor()
 		{

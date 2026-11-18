@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-namespace MoleMole::Config { class EffectPatternInfoConfig_PatternInfoItem; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x172B4400)
-#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x172B45E0)
-#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172B47D0)
-#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x172B4980)
-#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG___BASE_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x172B4990)
+#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1641FF90)
+#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x164202E0)
+#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x164204D0)
+#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x16420680)
+#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG___BASE_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x16420690)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EffectPatternInfoConfig_TypeDefinitionIndex = 62742;
+	inline static constexpr unsigned int EffectPatternInfoConfig_TypeDefinitionIndex = 64158;
 
 	class EffectPatternInfoConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::EffectPatternInfoConfig_PatternInfoItem*>* patternMap; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* patternMap; // 0x58
 		::System::Collections::Generic::List_1<::System::String*>* patternMap_Keys; // 0x60
-		::System::Collections::Generic::List_1<::MoleMole::Config::EffectPatternInfoConfig_PatternInfoItem*>* patternMap_Values; // 0x68
+		::System::Collections::Generic::List_1<::System::Object*>* patternMap_Values; // 0x68
 
 		::System::Void _ctor()
 		{

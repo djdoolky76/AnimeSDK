@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/ExtractorNode_5.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define FLOWCANVAS_NODES_EXTRACTCOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EB8F250)
-#define FLOWCANVAS_NODES_EXTRACTCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8F280)
+#define FLOWCANVAS_NODES_EXTRACTCOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF5ECF0)
+#define FLOWCANVAS_NODES_EXTRACTCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF5ED20)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractColor_TypeDefinitionIndex = 31412;
+	inline static constexpr unsigned int ExtractColor_TypeDefinitionIndex = 30375;
 
-	class ExtractColor : public ::FlowCanvas::Nodes::ExtractorNode_5<::UnityEngine::Color, ::System::Single, ::System::Single, ::System::Single, ::System::Single>
+	class ExtractColor
 	{
 	public:
 		::System::Void _ctor()

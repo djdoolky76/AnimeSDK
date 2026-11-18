@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/StateTreeGameplay/VirtualProxy_StateTreeActorTaskBase.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALPROXY_SENDGRAPHEVENTTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1C13EF40)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_SENDGRAPHEVENTTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1C13EEE0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_SENDGRAPHEVENTTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1C13EFB0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_SENDGRAPHEVENTTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C13F060)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_SENDGRAPHEVENTTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1CB63800)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_SENDGRAPHEVENTTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1CB637A0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_SENDGRAPHEVENTTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1CB63870)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_SENDGRAPHEVENTTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB63920)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualProxy_SendGraphEventTask_TypeDefinitionIndex = 40248;
+	inline static constexpr unsigned int VirtualProxy_SendGraphEventTask_TypeDefinitionIndex = 71980;
 
 	class VirtualProxy_SendGraphEventTask : public ::StateTreeGameplay::VirtualProxy_StateTreeActorTaskBase
 	{

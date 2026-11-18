@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_F2DAD7F45F518868;
+class COCJHGGDBCA;
 namespace NPCCrowd::AI { class PathGraphFeaturePointPathConfig; }
 namespace NPCCrowd::AI { class PathGraphFeaturePointRuntime; }
 namespace NPCCrowd::AI { class PathGraphFeaturePointV2Config; }
@@ -13,32 +13,32 @@ namespace NPCCrowd::AI { class PopulationRuntime; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_CHECKPATHFINDINGRESULT_OFFSET UNITYSDK_OFFSET(0xF84FB20)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_CLEAR_OFFSET UNITYSDK_OFFSET(0xF84F040)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_GETSPAWNEDNPCCOUNT_OFFSET UNITYSDK_OFFSET(0xF84F130)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_GETTIME_OFFSET UNITYSDK_OFFSET(0xF84FC30)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_INIT_OFFSET UNITYSDK_OFFSET(0xF84F000)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_RANDRANGE_1_OFFSET UNITYSDK_OFFSET(0xF84FCE0)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_RANDRANGE_OFFSET UNITYSDK_OFFSET(0xF84FC70)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_REMOVECROWDNPC_OFFSET UNITYSDK_OFFSET(0xF84F4A0)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_SETENABLED_OFFSET UNITYSDK_OFFSET(0xF84F0E0)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_SPAWNCROWDNPC_OFFSET UNITYSDK_OFFSET(0xF84F1C0)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_STARTPATHFOLLOW_OFFSET UNITYSDK_OFFSET(0xF84F5C0)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_UPDATE_OFFSET UNITYSDK_OFFSET(0xF84F080)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xF84FD30)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_CHECKPATHFINDINGRESULT_OFFSET UNITYSDK_OFFSET(0xEE730D0)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_CLEAR_OFFSET UNITYSDK_OFFSET(0xEE725E0)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_GETSPAWNEDNPCCOUNT_OFFSET UNITYSDK_OFFSET(0xEE726D0)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_GETTIME_OFFSET UNITYSDK_OFFSET(0xEE731E0)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_INIT_OFFSET UNITYSDK_OFFSET(0xEE725A0)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_RANDRANGE_1_OFFSET UNITYSDK_OFFSET(0xEE73290)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_RANDRANGE_OFFSET UNITYSDK_OFFSET(0xEE73220)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_REMOVECROWDNPC_OFFSET UNITYSDK_OFFSET(0xEE72A40)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_SETENABLED_OFFSET UNITYSDK_OFFSET(0xEE72680)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_SPAWNCROWDNPC_OFFSET UNITYSDK_OFFSET(0xEE72760)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_STARTPATHFOLLOW_OFFSET UNITYSDK_OFFSET(0xEE72B60)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_UPDATE_OFFSET UNITYSDK_OFFSET(0xEE72620)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xEE732E0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSpawnGroupRuntime_TypeDefinitionIndex = 44118;
+	inline static constexpr unsigned int PathGraphSpawnGroupRuntime_TypeDefinitionIndex = 39037;
 
 	class PathGraphSpawnGroupRuntime : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointV2Config*>* FeaturePointConfigList; // 0x10
-		::NPCCrowd::AI::PathGraphStateRuntime* StateRuntime; // 0x18
-		::NPCCrowd::AI::PathGraphSpawnGroupConfig* Config; // 0x20
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointPathConfig*>* FeaturePointPathConfigList; // 0x28
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointRuntime*>* FeaturePointRuntimeList; // 0x30
+		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointRuntime*>* FeaturePointRuntimeList; // 0x10
+		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointPathConfig*>* FeaturePointPathConfigList; // 0x18
+		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointV2Config*>* FeaturePointConfigList; // 0x20
+		::NPCCrowd::AI::PathGraphSpawnGroupConfig* Config; // 0x28
+		::NPCCrowd::AI::PathGraphStateRuntime* StateRuntime; // 0x30
 		::System::Boolean Enabled; // 0x38
 
 		::System::Void _ctor()
@@ -71,19 +71,19 @@ namespace NPCCrowd::AI
 			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_GETSPAWNEDNPCCOUNT_OFFSET))(this, graphID);
 		}
 
-		static ::Class_3_F2DAD7F45F518868* SpawnCrowdNpc(::System::Int32 tag)
+		static ::COCJHGGDBCA* SpawnCrowdNpc(::System::Int32 tag)
 		{
-			return ((::Class_3_F2DAD7F45F518868*(*)(::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_SPAWNCROWDNPC_OFFSET))(tag);
+			return ((::COCJHGGDBCA*(*)(::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_SPAWNCROWDNPC_OFFSET))(tag);
 		}
 
-		static ::System::Void RemoveCrowdNpc(::Class_3_F2DAD7F45F518868* npcComp)
+		static ::System::Void RemoveCrowdNpc(::COCJHGGDBCA* npcComp)
 		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_REMOVECROWDNPC_OFFSET))(npcComp);
+			return ((::System::Void(*)(::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_REMOVECROWDNPC_OFFSET))(npcComp);
 		}
 
-		static ::System::Void StartPathFollow(::Class_3_F2DAD7F45F518868* npcComp, ::System::String* movementStyle, ::NPCCrowd::AI::PathGraphRuntime_PathFindingResult* pathResult, ::System::Int32 laneIndex, ::System::Single laneInnerOffset, ::NPCCrowd::AI::PopulationRuntime* populationRuntime)
+		static ::System::Void StartPathFollow(::COCJHGGDBCA* npcComp, ::System::String* movementStyle, ::NPCCrowd::AI::PathGraphRuntime_PathFindingResult* pathResult, ::System::Int32 laneIndex, ::System::Single laneInnerOffset, ::NPCCrowd::AI::PopulationRuntime* populationRuntime)
 		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*, ::System::String*, ::NPCCrowd::AI::PathGraphRuntime_PathFindingResult*, ::System::Int32, ::System::Single, ::NPCCrowd::AI::PopulationRuntime*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_STARTPATHFOLLOW_OFFSET))(npcComp, movementStyle, pathResult, laneIndex, laneInnerOffset, populationRuntime);
+			return ((::System::Void(*)(::COCJHGGDBCA*, ::System::String*, ::NPCCrowd::AI::PathGraphRuntime_PathFindingResult*, ::System::Int32, ::System::Single, ::NPCCrowd::AI::PopulationRuntime*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_PATHGRAPHSPAWNGROUPRUNTIME_STARTPATHFOLLOW_OFFSET))(npcComp, movementStyle, pathResult, laneIndex, laneInnerOffset, populationRuntime);
 		}
 
 		static ::System::Boolean CheckPathFindingResult(::NPCCrowd::AI::PathGraphRuntime_PathFindingResult* pathResult, ::NPCCrowd::AI::PathGraphFeaturePointPathConfig* pathConfig)

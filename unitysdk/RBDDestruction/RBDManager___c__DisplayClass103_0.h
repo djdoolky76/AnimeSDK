@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RBDDestruction/RBDManager_HitEvent.h"
 #include "unitysdk/System/Object.h"
 
 namespace RBDDestruction { class RBDManager; }
 
-#define RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS103_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78BA70)
-#define RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS103_0__PROCESSHITEVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E78BA80)
+#define RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS103_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3CC00)
+#define RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS103_0__PROCESSHITEVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EA3CC10)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int RBDManager___c__DisplayClass103_0_TypeDefinitionIndex = 27072;
+	inline static constexpr unsigned int RBDManager___c__DisplayClass103_0_TypeDefinitionIndex = 26557;
 
 	class RBDManager___c__DisplayClass103_0 : public ::System::Object
 	{
@@ -23,9 +22,9 @@ namespace RBDDestruction
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS103_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ProcessHitEvents_b__0(::Il2CppArray<::RBDDestruction::RBDManager_HitEvent>* batch)
+		::System::Void _ProcessHitEvents_b__0(::Il2CppArray<::System::Object*>* batch)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RBDDestruction::RBDManager_HitEvent>*))((::PBYTE)hIl2Cpp + RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS103_0__PROCESSHITEVENTS_B__0_OFFSET))(this, batch);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS103_0__PROCESSHITEVENTS_B__0_OFFSET))(this, batch);
 		}
 	};
 }

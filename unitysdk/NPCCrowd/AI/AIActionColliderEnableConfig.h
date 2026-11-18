@@ -3,14 +3,14 @@
 #include "unitysdk/NPCCrowd/AI/BaseActionConfig.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_AIACTIONCOLLIDERENABLECONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x830B60)
-#define NPCCROWD_AI_AIACTIONCOLLIDERENABLECONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x830BB0)
+#define NPCCROWD_AI_AIACTIONCOLLIDERENABLECONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x590690)
+#define NPCCROWD_AI_AIACTIONCOLLIDERENABLECONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x5906E0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionColliderEnableConfig_TypeDefinitionIndex = 52070;
+	inline static constexpr unsigned int AIActionColliderEnableConfig_TypeDefinitionIndex = 42067;
 
-	struct alignas(8) AIActionColliderEnableConfig
+	struct alignas(4) AIActionColliderEnableConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 		::System::Boolean enable; // 0x18

@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovResultNumWidgetController_EAnimState_TypeDefinitionIndex = 60833;
+	inline static constexpr unsigned int UIZenkovResultNumWidgetController_EAnimState_TypeDefinitionIndex = 57409;
 
 	enum class UIZenkovResultNumWidgetController_EAnimState : ::System::Int32
 	{
-		PrepareLoop = 1,
 		Idle = 0,
 		End = 3,
+		PrepareLoop = 1,
 		PrepareEnd = 2,
 	};
 }

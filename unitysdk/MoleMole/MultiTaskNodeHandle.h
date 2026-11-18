@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_E3019CE6003C7D3C;
+class NPCBBDGEGPM;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MultiTaskNodeHandle_TypeDefinitionIndex = 75600;
+	inline static constexpr unsigned int MultiTaskNodeHandle_TypeDefinitionIndex = 73158;
 
 	struct alignas(8) MultiTaskNodeHandle
 	{
-		::Class_1_E3019CE6003C7D3C* node; // 0x10
+		::NPCBBDGEGPM* node; // 0x10
 	};
 }

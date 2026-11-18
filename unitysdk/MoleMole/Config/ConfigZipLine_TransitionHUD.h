@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_TRANSITIONHUD__CTOR_OFFSET UNITYSDK_OFFSET(0x1350AA40)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_TRANSITIONHUD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92EEB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_TransitionHUD_TypeDefinitionIndex = 53016;
+	inline static constexpr unsigned int ConfigZipLine_TransitionHUD_TypeDefinitionIndex = 54286;
 
 	class ConfigZipLine_TransitionHUD : public ::System::Object
 	{

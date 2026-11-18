@@ -4,22 +4,21 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RootMotion::FinalIK { class IKSolverFullBodyBiped; }
-namespace RootMotion::FinalIK { class Inertia_Body_EffectorLink; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_INERTIA_BODY_RESET_OFFSET UNITYSDK_OFFSET(0x1F8AFF40)
-#define ROOTMOTION_FINALIK_INERTIA_BODY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F8B0120)
-#define ROOTMOTION_FINALIK_INERTIA_BODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8B05C0)
+#define ROOTMOTION_FINALIK_INERTIA_BODY_RESET_OFFSET UNITYSDK_OFFSET(0x1FC4D5A0)
+#define ROOTMOTION_FINALIK_INERTIA_BODY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FC4D780)
+#define ROOTMOTION_FINALIK_INERTIA_BODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC4DC20)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Inertia_Body_TypeDefinitionIndex = 38865;
+	inline static constexpr unsigned int Inertia_Body_TypeDefinitionIndex = 36818;
 
 	class Inertia_Body : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* transform; // 0x10
-		::Il2CppArray<::RootMotion::FinalIK::Inertia_Body_EffectorLink*>* effectorLinks; // 0x18
+		::Il2CppArray<::System::Object*>* effectorLinks; // 0x18
 		::System::Single speed; // 0x20
 		::System::Single acceleration; // 0x24
 		::System::Single matchVelocity; // 0x28

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineDeviceInfo_TypeDefinitionIndex = 49677;
+	inline static constexpr unsigned int CommandLineDeviceInfo_TypeDefinitionIndex = 82414;
 
 	struct alignas(8) CommandLineDeviceInfo
 	{
@@ -20,8 +20,10 @@ namespace MoleMole
 		::System::Int32 graphicsMemorySize; // 0x48
 		::System::Int32 processorCount; // 0x4C
 		::System::Int32 processorFrequency; // 0x50
+		::System::Byte _padding0[0x4];
 		::System::String* processorType; // 0x58
 		::System::Int32 systemMemorySize; // 0x60
+		::System::Byte _padding1[0x4];
 		::System::String* safeArea; // 0x68
 		::System::Boolean isRichtapEffectSupported; // 0x70
 		::System::Boolean isVibratorEffectSupported; // 0x71

@@ -4,10 +4,10 @@
 
 namespace System::Runtime::CompilerServices { class IRuntimeVariables; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEOPS_MERGEDRUNTIMEVARIABLES_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1F754EB0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEOPS_MERGEDRUNTIMEVARIABLES_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F754ED0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEOPS_MERGEDRUNTIMEVARIABLES_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F755040)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEOPS_MERGEDRUNTIMEVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1F754EA0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEOPS_MERGEDRUNTIMEVARIABLES_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1FB5E1C0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEOPS_MERGEDRUNTIMEVARIABLES_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1FB5E1E0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEOPS_MERGEDRUNTIMEVARIABLES_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1FB5E350)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEOPS_MERGEDRUNTIMEVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB5E1B0)
 
 namespace System::Runtime::CompilerServices
 {
@@ -16,9 +16,9 @@ namespace System::Runtime::CompilerServices
 	class RuntimeOps_MergedRuntimeVariables : public ::System::Object
 	{
 	public:
-		::System::Runtime::CompilerServices::IRuntimeVariables* _first; // 0x10
+		::Il2CppArray<::System::Int32>* _indexes; // 0x10
 		::System::Runtime::CompilerServices::IRuntimeVariables* _second; // 0x18
-		::Il2CppArray<::System::Int32>* _indexes; // 0x20
+		::System::Runtime::CompilerServices::IRuntimeVariables* _first; // 0x20
 
 		::System::Void _ctor(::System::Runtime::CompilerServices::IRuntimeVariables* first, ::System::Runtime::CompilerServices::IRuntimeVariables* second, ::Il2CppArray<::System::Int32>* indexes)
 		{

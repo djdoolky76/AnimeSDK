@@ -5,12 +5,12 @@
 namespace UnityEngine::InputSystem::HID { class HID_HIDLayoutBuilder; }
 namespace UnityEngine::InputSystem::Layouts { class InputControlLayout; }
 
-#define UNITYENGINE_INPUTSYSTEM_HID_HID___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7744B0)
-#define UNITYENGINE_INPUTSYSTEM_HID_HID___C__DISPLAYCLASS12_0__ONFINDLAYOUTFORDEVICE_B__0_OFFSET UNITYSDK_OFFSET(0x1E7744C0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F6A30)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID___C__DISPLAYCLASS12_0__ONFINDLAYOUTFORDEVICE_B__0_OFFSET UNITYSDK_OFFSET(0x1E9F6A40)
 
 namespace UnityEngine::InputSystem::HID
 {
-	inline static constexpr unsigned int HID___c__DisplayClass12_0_TypeDefinitionIndex = 32420;
+	inline static constexpr unsigned int HID___c__DisplayClass12_0_TypeDefinitionIndex = 31869;
 
 	class HID___c__DisplayClass12_0 : public ::System::Object
 	{

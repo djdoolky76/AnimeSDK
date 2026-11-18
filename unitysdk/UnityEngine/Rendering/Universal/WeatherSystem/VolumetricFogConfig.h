@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICFOGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1E7A4790)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A4A00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICFOGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1EA55800)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_VOLUMETRICFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA55A70)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int VolumetricFogConfig_TypeDefinitionIndex = 27745;
+	inline static constexpr unsigned int VolumetricFogConfig_TypeDefinitionIndex = 27024;
 
-	class VolumetricFogConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::VolumetricFogConfig*>
+	class VolumetricFogConfig
 	{
 	public:
 		::System::Boolean enableVolumetricFog; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single volumetricFogSize; // 0x1C
 		::System::Single volumetricFog_Jittering; // 0x20
 		::System::Single volumetricFog_Dithering; // 0x24

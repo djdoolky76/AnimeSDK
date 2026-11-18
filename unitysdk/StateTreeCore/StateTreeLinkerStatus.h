@@ -3,7 +3,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeLinkerStatus_TypeDefinitionIndex = 31585;
+	inline static constexpr unsigned int StateTreeLinkerStatus_TypeDefinitionIndex = 31022;
 
 	enum class StateTreeLinkerStatus : ::System::Int32
 	{

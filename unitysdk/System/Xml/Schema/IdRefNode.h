@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SCHEMA_IDREFNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E5C90)
+#define SYSTEM_XML_SCHEMA_IDREFNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E779CC0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int IdRefNode_TypeDefinitionIndex = 2201;
+	inline static constexpr unsigned int IdRefNode_TypeDefinitionIndex = 2200;
 
 	class IdRefNode : public ::System::Object
 	{

@@ -6,28 +6,30 @@
 namespace UnityEngine::Rendering::Universal { class VisualEnvironmentE; }
 namespace UnityEngine::Rendering::Universal::Internal { class NapLightMapData; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPBINDER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E79CA60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPBINDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E79C670)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPBINDER_SETLIGHTMAPDATA_OFFSET UNITYSDK_OFFSET(0x1E79C310)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPBINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E79CD90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E79CD40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPBINDER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1EA4DAC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPBINDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EA4D6D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPBINDER_SETLIGHTMAPDATA_OFFSET UNITYSDK_OFFSET(0x1EA4D370)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPBINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA4DE00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA4DDB0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int NapLightMapBinder_TypeDefinitionIndex = 27644;
+	inline static constexpr unsigned int NapLightMapBinder_TypeDefinitionIndex = 27246;
 
 	class NapLightMapBinder : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet_binderIndex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapLightMapBinder_TypeDefinitionIndex)->GetStaticField(0x6030);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapLightMapBinder_TypeDefinitionIndex)->GetStaticField(0x6050);
 		}
 		::System::Boolean ignoreTimeScale; // 0x18
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 bakeTimePosition; // 0x1C
 		::UnityEngine::Rendering::Universal::Internal::NapLightMapData* lightMapData; // 0x28
 		::System::Boolean ignoreLightProbe; // 0x30
 		::System::Boolean UseStaticTOD; // 0x31
+		::System::Byte _padding1[0x6];
 		::UnityEngine::Rendering::Universal::VisualEnvironmentE* visualEnvironmentE; // 0x38
 		::System::Int32 lightMapOffset; // 0x40
 		::System::Int32 lightMapCount; // 0x44

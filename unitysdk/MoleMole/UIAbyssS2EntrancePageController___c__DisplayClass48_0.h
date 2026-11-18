@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_155;
+class CFJOIHGDLHO;
 namespace MoleMole { class UIAbyssS2EntrancePageController; }
 
-#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x199A4100)
+#define MOLEMOLE_UIABYSSS2ENTRANCEPAGECONTROLLER___C__DISPLAYCLASS48_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14BDF750)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2EntrancePageController___c__DisplayClass48_0_TypeDefinitionIndex = 64828;
+	inline static constexpr unsigned int UIAbyssS2EntrancePageController___c__DisplayClass48_0_TypeDefinitionIndex = 60670;
 
 	class UIAbyssS2EntrancePageController___c__DisplayClass48_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_155* entranceConfig; // 0x10
+		::CFJOIHGDLHO* entranceConfig; // 0x10
 		::MoleMole::UIAbyssS2EntrancePageController* __4__this; // 0x18
 
 		::System::Void _ctor()

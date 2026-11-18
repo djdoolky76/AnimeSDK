@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/Serialization/SchemaTypes.h"
+#include "unitysdk/System/Object.h"
 
 namespace System { class InvalidOperationException; }
 namespace System { class String; }
@@ -10,25 +10,25 @@ namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 namespace System::Xml::Schema { class XmlSchemaPatternFacet; }
 
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA_CONVERTFORASSIGNMENT_OFFSET UNITYSDK_OFFSET(0x1DC6BE30)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA_CREATEMISSINGADDMETHODEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1DC6CA50)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GETGENERICLISTITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1DC6C770)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GETINDEXERPROPERTY_OFFSET UNITYSDK_OFFSET(0x1DC6C950)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_ISCOMPLEXTYPE_OFFSET UNITYSDK_OFFSET(0x1DC6BF70)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_ISLISTTYPE_OFFSET UNITYSDK_OFFSET(0x1DC6BC30)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1DC6BFD0)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_ISVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1DC6BFA0)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_ISXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1DC6BF90)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_LISTITEMTYPEDATA_OFFSET UNITYSDK_OFFSET(0x1DC6BC40)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_LISTITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1DC6C090)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA_LOOKUPTYPECONVERTOR_OFFSET UNITYSDK_OFFSET(0x1DC6BD10)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC6CBA0)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DC6B820)
-#define SYSTEM_XML_SERIALIZATION_TYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6B800)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA_CONVERTFORASSIGNMENT_OFFSET UNITYSDK_OFFSET(0x1DFECCF0)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA_CREATEMISSINGADDMETHODEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1DFED910)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GETGENERICLISTITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1DFED630)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GETINDEXERPROPERTY_OFFSET UNITYSDK_OFFSET(0x1DFED810)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_ISCOMPLEXTYPE_OFFSET UNITYSDK_OFFSET(0x1DFECE30)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_ISLISTTYPE_OFFSET UNITYSDK_OFFSET(0x1DFECAF0)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1DFECE90)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_ISVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1DFECE60)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_ISXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1DFECE50)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_LISTITEMTYPEDATA_OFFSET UNITYSDK_OFFSET(0x1DFECB00)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA_GET_LISTITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1DFECF50)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA_LOOKUPTYPECONVERTOR_OFFSET UNITYSDK_OFFSET(0x1DFECBD0)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFEDA60)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFEC6E0)
+#define SYSTEM_XML_SERIALIZATION_TYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFEC6C0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int TypeData_TypeDefinitionIndex = 1869;
+	inline static constexpr unsigned int TypeData_TypeDefinitionIndex = 1868;
 
 	class TypeData : public ::System::Object
 	{
@@ -37,18 +37,19 @@ namespace System::Xml::Serialization
 		{
 			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeData_TypeDefinitionIndex)->GetStaticField(0x1B70);
 		}
-		::System::Reflection::MethodInfo* typeConvertor; // 0x10
-		::System::String* fullTypeName; // 0x18
-		::System::Xml::Schema::XmlSchemaPatternFacet* facet; // 0x20
-		::System::Xml::Serialization::TypeData* mappedType; // 0x28
-		::System::Type* listItemType; // 0x30
-		::System::String* typeName; // 0x38
-		::System::Xml::Serialization::TypeData* listItemTypeData; // 0x40
-		::System::String* elementName; // 0x48
-		::System::Type* type; // 0x50
-		::System::Xml::Serialization::SchemaTypes sType; // 0x58
-		::System::Boolean nullableOverride; // 0x5C
-		::System::Boolean hasPublicConstructor; // 0x5D
+		::System::Xml::Serialization::TypeData* listItemTypeData; // 0x10
+		::System::String* typeName; // 0x18
+		::System::String* elementName; // 0x20
+		::System::Xml::Schema::XmlSchemaPatternFacet* facet; // 0x28
+		::System::String* fullTypeName; // 0x30
+		::System::Xml::Serialization::TypeData* mappedType; // 0x38
+		::System::Reflection::MethodInfo* typeConvertor; // 0x40
+		::System::Type* type; // 0x48
+		::System::Type* listItemType; // 0x50
+		::System::Boolean hasPublicConstructor; // 0x58
+		::System::Boolean nullableOverride; // 0x59
+		::System::Byte _padding0[0x2];
+		::System::Xml::Serialization::SchemaTypes sType; // 0x5C
 
 		::System::Void _ctor(::System::Type* type, ::System::String* elementName, ::System::Boolean isPrimitive)
 		{

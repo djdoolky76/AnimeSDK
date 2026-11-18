@@ -6,7 +6,7 @@ namespace Share { template <typename T> class CWeightListNode_1; }
 
 namespace Share
 {
-	inline static constexpr unsigned int CWeightListLevel_1_TypeDefinitionIndex = 12994;
+	inline static constexpr unsigned int CWeightListLevel_1_TypeDefinitionIndex = 14861;
 
 	template <typename T>
 	class CWeightListLevel_1 : public ::System::Object

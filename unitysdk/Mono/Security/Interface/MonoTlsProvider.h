@@ -1,30 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Mono/Security/Interface/MonoSslPolicyErrors.h"
-#include "unitysdk/System/Guid.h"
-#include "unitysdk/System/Object.h"
-#include "unitysdk/System/Security/Authentication/SslProtocols.h"
 #include "unitysdk/System/Security/Cryptography/X509Certificates/X509KeyStorageFlags.h"
+#include "unitysdk/System/Object.h"
 
-namespace Mono::Security::Interface { class ICertificateValidator2; }
-namespace Mono::Security::Interface { class IMonoSslStream; }
-namespace Mono::Security::Interface { class MonoTlsSettings; }
 namespace System { class String; }
-namespace System::IO { class Stream; }
-namespace System::Net::Security { class SslStream; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate2Impl; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
-namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
-namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDER_GETNATIVECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1FBB5290)
-#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDER_GETNATIVECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1FBB5240)
-#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDER_GET_HASNATIVECERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1FBB5230)
-#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBB5220)
+#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDER_GETNATIVECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1FFB9A00)
+#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDER_GETNATIVECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1FFB99B0)
+#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDER_GET_HASNATIVECERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1FFB99A0)
+#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFB9990)
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int MonoTlsProvider_TypeDefinitionIndex = 2441;
+	inline static constexpr unsigned int MonoTlsProvider_TypeDefinitionIndex = 2440;
 
 	class MonoTlsProvider : public ::System::Object
 	{

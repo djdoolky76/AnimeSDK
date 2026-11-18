@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1685EC66FBD28897;
+class KOIDMLPJGML;
 namespace MoleMole { class UITowerDefenseLevelPageController; }
 
-#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10EF7650)
-#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS18_0__REFRESHSPECIALICON_B__0_OFFSET UNITYSDK_OFFSET(0x10EF7660)
+#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13B22660)
+#define MOLEMOLE_UITOWERDEFENSELEVELPAGECONTROLLER___C__DISPLAYCLASS18_0__REFRESHSPECIALICON_B__0_OFFSET UNITYSDK_OFFSET(0x13B22670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerDefenseLevelPageController___c__DisplayClass18_0_TypeDefinitionIndex = 84622;
+	inline static constexpr unsigned int UITowerDefenseLevelPageController___c__DisplayClass18_0_TypeDefinitionIndex = 45988;
 
 	class UITowerDefenseLevelPageController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UITowerDefenseLevelPageController* __4__this; // 0x10
-		::Class_1_1685EC66FBD28897* viewData; // 0x18
+		::KOIDMLPJGML* viewData; // 0x18
 
 		::System::Void _ctor()
 		{

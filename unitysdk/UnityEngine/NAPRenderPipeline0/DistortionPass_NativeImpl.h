@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/LayerMask.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/CullingResults.h"
 #include "unitysdk/UnityEngine/Rendering/RenderQueueRange.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/LayerMask.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class DistortionPassNativeState; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_DISTORTIONPASS_NATIVEIMPL_AFTERCULLSETUP_OFFSET UNITYSDK_OFFSET(0x1EE1EF30)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DISTORTIONPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EE1EE60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DISTORTIONPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EE1EE90)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DISTORTIONPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1EE1EE30)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DISTORTIONPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE1ED90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DISTORTIONPASS_NATIVEIMPL_AFTERCULLSETUP_OFFSET UNITYSDK_OFFSET(0x1F185680)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DISTORTIONPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F1855B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DISTORTIONPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1F1855E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DISTORTIONPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1F185580)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DISTORTIONPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1854E0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DistortionPass_NativeImpl_TypeDefinitionIndex = 5733;
+	inline static constexpr unsigned int DistortionPass_NativeImpl_TypeDefinitionIndex = 5738;
 
 	class DistortionPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

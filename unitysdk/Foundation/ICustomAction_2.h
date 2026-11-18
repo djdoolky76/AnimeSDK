@@ -3,9 +3,9 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ICustomAction_2_TypeDefinitionIndex = 7924;
+	inline static constexpr unsigned int ICustomAction_2_TypeDefinitionIndex = 7876;
 
-	template <typename TArgs, typename TArgs2>
+	template <typename T1, typename T2>
 	class ICustomAction_2
 	{
 	public:

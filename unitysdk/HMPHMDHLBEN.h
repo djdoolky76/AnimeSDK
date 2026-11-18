@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OIGBHACJLFF.h"
+#include "unitysdk/PMJGFLIMNPB.h"
+
+class EKOMAFPIPMA_DKCFBCFGADG;
+
+#define HMPHMDHLBEN_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x19E33F90)
+#define HMPHMDHLBEN_JLIMOLHLFAK_OFFSET UNITYSDK_OFFSET(0x19E33FA0)
+#define HMPHMDHLBEN_JONDEPDJCPN_OFFSET UNITYSDK_OFFSET(0x19E34180)
+#define HMPHMDHLBEN__CTOR_OFFSET UNITYSDK_OFFSET(0x19E34100)
+
+inline static constexpr unsigned int HMPHMDHLBEN_TypeDefinitionIndex = 59081;
+
+class HMPHMDHLBEN : public ::OIGBHACJLFF
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HMPHMDHLBEN__CTOR_OFFSET))(this);
+	}
+
+	::PMJGFLIMNPB get_Type()
+	{
+		return ((::PMJGFLIMNPB(*)(::PVOID))((::PBYTE)hIl2Cpp + HMPHMDHLBEN_GET_TYPE_OFFSET))(this);
+	}
+
+	::System::Void JLIMOLHLFAK(::EKOMAFPIPMA_DKCFBCFGADG* HNOPAJLDCFB)
+	{
+		return ((::System::Void(*)(::PVOID, ::EKOMAFPIPMA_DKCFBCFGADG*))((::PBYTE)hIl2Cpp + HMPHMDHLBEN_JLIMOLHLFAK_OFFSET))(this, HNOPAJLDCFB);
+	}
+
+	::System::Void JONDEPDJCPN(::EKOMAFPIPMA_DKCFBCFGADG* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::EKOMAFPIPMA_DKCFBCFGADG*))((::PBYTE)hIl2Cpp + HMPHMDHLBEN_JONDEPDJCPN_OFFSET))(this, MIALFKCCCPI);
+	}
+};

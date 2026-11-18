@@ -6,19 +6,19 @@ namespace MoleMole { class UIMainCityRewardTipsWidgetController; }
 namespace MoleMole { class UIRewardTipsWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIREWARDTIPSWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x169080E0)
-#define MOLEMOLE_UIREWARDTIPSWIDGETCONTROLLER___C__DISPLAYCLASS21_0__RECYLEREWARDTIPWIDGET_B__0_OFFSET UNITYSDK_OFFSET(0x169080F0)
+#define MOLEMOLE_UIREWARDTIPSWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C583D0)
+#define MOLEMOLE_UIREWARDTIPSWIDGETCONTROLLER___C__DISPLAYCLASS21_0__RECYLEREWARDTIPWIDGET_B__0_OFFSET UNITYSDK_OFFSET(0x15C583E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRewardTipsWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 50372;
+	inline static constexpr unsigned int UIRewardTipsWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 89417;
 
 	class UIRewardTipsWidgetController___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
-		::System::Action* fadeOutCallback; // 0x10
+		::MoleMole::UIRewardTipsWidgetController* __4__this; // 0x10
 		::MoleMole::UIMainCityRewardTipsWidgetController* tipWidget; // 0x18
-		::MoleMole::UIRewardTipsWidgetController* __4__this; // 0x20
+		::System::Action* fadeOutCallback; // 0x20
 
 		::System::Void _ctor()
 		{

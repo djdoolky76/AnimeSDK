@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_UNITCOMPMANAGERPARAMS_METHOD_1_51421962743BED2A_OFFSET UNITYSDK_OFFSET(0x11D7E4C0)
-#define MOLEMOLE_TIMELINE_UNITCOMPMANAGERPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x11D7E4B0)
+#define MOLEMOLE_TIMELINE_UNITCOMPMANAGERPARAMS_IBBLCAOMCKF_OFFSET UNITYSDK_OFFSET(0x18973440)
+#define MOLEMOLE_TIMELINE_UNITCOMPMANAGERPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x18973430)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int UnitCompManagerParams_TypeDefinitionIndex = 40971;
+	inline static constexpr unsigned int UnitCompManagerParams_TypeDefinitionIndex = 39652;
 
 	class UnitCompManagerParams : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_UNITCOMPMANAGERPARAMS__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_51421962743BED2A(::UnityEngine::GameObject* a1)
+		::System::Void IBBLCAOMCKF(::UnityEngine::GameObject* ICPNADIPFKI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_UNITCOMPMANAGERPARAMS_METHOD_1_51421962743BED2A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_UNITCOMPMANAGERPARAMS_IBBLCAOMCKF_OFFSET))(this, ICPNADIPFKI);
 		}
 	};
 }

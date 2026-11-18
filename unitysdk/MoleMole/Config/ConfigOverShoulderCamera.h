@@ -7,11 +7,11 @@ namespace MoleMole::Cameras { class OverrideOverShoulderCameraConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGOVERSHOULDERCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CF420)
+#define MOLEMOLE_CONFIG_CONFIGOVERSHOULDERCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x127762A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigOverShoulderCamera_TypeDefinitionIndex = 49492;
+	inline static constexpr unsigned int ConfigOverShoulderCamera_TypeDefinitionIndex = 83861;
 
 	class ConfigOverShoulderCamera : public ::Foundation::MihoyoSerializedScriptableObject
 	{

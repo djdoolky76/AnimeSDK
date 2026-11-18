@@ -3,22 +3,22 @@
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class MonoSpawnPoint; }
-namespace MoleMole::FlowCanvas::Nodes { class LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_0; }
 namespace System::Collections { class IEnumerator; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19BDD7A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_1___TRANSFERAVATARTOLOOPSCENE_G___DELAYSET_1_OFFSET UNITYSDK_OFFSET(0x19BDD9F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_1___TRANSFERAVATARTOLOOPSCENE_G___SETPOS_0_OFFSET UNITYSDK_OFFSET(0x19BDD7B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A088190)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_1___TRANSFERAVATARTOLOOPSCENE_G___DELAYSET_1_OFFSET UNITYSDK_OFFSET(0x1A0883E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELZEROENTERLOOPSCENENODE___C__DISPLAYCLASS8_1___TRANSFERAVATARTOLOOPSCENE_G___SETPOS_0_OFFSET UNITYSDK_OFFSET(0x1A0881A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_1_TypeDefinitionIndex = 56969;
+	inline static constexpr unsigned int LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_1_TypeDefinitionIndex = 58492;
 
+	template <typename T>
 	class LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_1 : public ::System::Object
 	{
 	public:
 		::MoleMole::MonoSpawnPoint* waitSpawn; // 0x10
-		::MoleMole::FlowCanvas::Nodes::LDLevelZeroEnterLoopSceneNode___c__DisplayClass8_0* CS___8__locals1; // 0x18
+		::System::Object* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

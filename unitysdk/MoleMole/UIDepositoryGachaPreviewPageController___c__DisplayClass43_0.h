@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 
-#define MOLEMOLE_UIDEPOSITORYGACHAPREVIEWPAGECONTROLLER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18AADA90)
-#define MOLEMOLE_UIDEPOSITORYGACHAPREVIEWPAGECONTROLLER___C__DISPLAYCLASS43_0__GOTODETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x18AADAA0)
+#define MOLEMOLE_UIDEPOSITORYGACHAPREVIEWPAGECONTROLLER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1807CF80)
+#define MOLEMOLE_UIDEPOSITORYGACHAPREVIEWPAGECONTROLLER___C__DISPLAYCLASS43_0__GOTODETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1807CF90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDepositoryGachaPreviewPageController___c__DisplayClass43_0_TypeDefinitionIndex = 86881;
+	inline static constexpr unsigned int UIDepositoryGachaPreviewPageController___c__DisplayClass43_0_TypeDefinitionIndex = 42060;
 
 	class UIDepositoryGachaPreviewPageController___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:
-		::Class_1_0D6706375CDAAE8C* itemData; // 0x10
+		::HGAJKHIMKJP* itemData; // 0x10
 
 		::System::Void _ctor()
 		{

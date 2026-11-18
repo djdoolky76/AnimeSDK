@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class ConfigCharacterAttachment; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGATTACHMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1485C930)
+#define MOLEMOLE_CONFIG_CONFIGATTACHMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x11E87350)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAttachments_TypeDefinitionIndex = 48396;
+	inline static constexpr unsigned int ConfigAttachments_TypeDefinitionIndex = 67975;
 
 	class ConfigAttachments : public ::Foundation::MihoyoSerializedScriptableObject
 	{

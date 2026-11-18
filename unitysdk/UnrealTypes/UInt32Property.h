@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/FName.h"
-#include "unitysdk/UnrealTypes/UnmanagedProperty_1.h"
 
 namespace UnrealTypes { class IFieldVariant; }
 namespace UnrealTypes { class UInt32PropertyParams; }
 
-#define UNREALTYPES_UINT32PROPERTY_GETSIGNEDINTPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1E396510)
-#define UNREALTYPES_UINT32PROPERTY_GETUNSIGNEDINTPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1E396520)
-#define UNREALTYPES_UINT32PROPERTY_SETINTPROPERTYVALUE_1_OFFSET UNITYSDK_OFFSET(0x1E396540)
-#define UNREALTYPES_UINT32PROPERTY_SETINTPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1E396530)
-#define UNREALTYPES_UINT32PROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E384AC0)
-#define UNREALTYPES_UINT32PROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E395B80)
+#define UNREALTYPES_UINT32PROPERTY_GETSIGNEDINTPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1E2B8A00)
+#define UNREALTYPES_UINT32PROPERTY_GETUNSIGNEDINTPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1E2B8AA0)
+#define UNREALTYPES_UINT32PROPERTY_SETINTPROPERTYVALUE_1_OFFSET UNITYSDK_OFFSET(0x1E2B8960)
+#define UNREALTYPES_UINT32PROPERTY_SETINTPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1E2B88C0)
+#define UNREALTYPES_UINT32PROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E2A06C0)
+#define UNREALTYPES_UINT32PROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2B7C80)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int UInt32Property_TypeDefinitionIndex = 28374;
+	inline static constexpr unsigned int UInt32Property_TypeDefinitionIndex = 27813;
 
-	class UInt32Property : public ::UnrealTypes::UnmanagedProperty_1<::System::UInt32>
+	class UInt32Property
 	{
 	public:
 		::System::Void _ctor(::UnrealTypes::IFieldVariant* owner, ::Foundation::Unreal::FName name)
@@ -30,24 +29,24 @@ namespace UnrealTypes
 			return ((::System::Void(*)(::PVOID, ::UnrealTypes::IFieldVariant*, ::UnrealTypes::UInt32PropertyParams*))((::PBYTE)hIl2Cpp + UNREALTYPES_UINT32PROPERTY__CTOR_1_OFFSET))(this, owner, prop);
 		}
 
-		::System::Int64 GetSignedIntPropertyValue(::System::Void* address)
+		::System::Void SetIntPropertyValue(::PVOID address, ::System::UInt64 value)
 		{
-			return ((::System::Int64(*)(::PVOID, ::System::Void*))((::PBYTE)hIl2Cpp + UNREALTYPES_UINT32PROPERTY_GETSIGNEDINTPROPERTYVALUE_OFFSET))(this, address);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + UNREALTYPES_UINT32PROPERTY_SETINTPROPERTYVALUE_OFFSET))(this, address, value);
 		}
 
-		::System::UInt64 GetUnsignedIntPropertyValue(::System::Void* address)
+		::System::Void SetIntPropertyValue_1(::PVOID address, ::System::Int64 value)
 		{
-			return ((::System::UInt64(*)(::PVOID, ::System::Void*))((::PBYTE)hIl2Cpp + UNREALTYPES_UINT32PROPERTY_GETUNSIGNEDINTPROPERTYVALUE_OFFSET))(this, address);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + UNREALTYPES_UINT32PROPERTY_SETINTPROPERTYVALUE_1_OFFSET))(this, address, value);
 		}
 
-		::System::Void SetIntPropertyValue(::System::Void* address, ::System::Int64 value)
+		::System::Int64 GetSignedIntPropertyValue(::PVOID address)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Void*, ::System::Int64))((::PBYTE)hIl2Cpp + UNREALTYPES_UINT32PROPERTY_SETINTPROPERTYVALUE_OFFSET))(this, address, value);
+			return ((::System::Int64(*)(::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_UINT32PROPERTY_GETSIGNEDINTPROPERTYVALUE_OFFSET))(this, address);
 		}
 
-		::System::Void SetIntPropertyValue_1(::System::Void* address, ::System::UInt64 value)
+		::System::UInt64 GetUnsignedIntPropertyValue(::PVOID address)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Void*, ::System::UInt64))((::PBYTE)hIl2Cpp + UNREALTYPES_UINT32PROPERTY_SETINTPROPERTYVALUE_1_OFFSET))(this, address, value);
+			return ((::System::UInt64(*)(::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_UINT32PROPERTY_GETUNSIGNEDINTPROPERTYVALUE_OFFSET))(this, address);
 		}
 	};
 }

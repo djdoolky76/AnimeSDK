@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIOVERLORDFEASTSERVEPAGECONTROLLER___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A6DB20)
+#define MOLEMOLE_UIOVERLORDFEASTSERVEPAGECONTROLLER___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167658B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastServePageController___c__DisplayClass69_0_TypeDefinitionIndex = 53329;
+	inline static constexpr unsigned int UIOverlordFeastServePageController___c__DisplayClass69_0_TypeDefinitionIndex = 66427;
 
 	class UIOverlordFeastServePageController___c__DisplayClass69_0 : public ::System::Object
 	{

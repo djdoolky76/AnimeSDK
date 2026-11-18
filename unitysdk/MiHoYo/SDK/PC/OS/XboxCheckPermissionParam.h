@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXCHECKPERMISSIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C932EB0)
+#define MIHOYO_SDK_PC_OS_XBOXCHECKPERMISSIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE38750)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxCheckPermissionParam_TypeDefinitionIndex = 20782;
+	inline static constexpr unsigned int XboxCheckPermissionParam_TypeDefinitionIndex = 19986;
 
 	class XboxCheckPermissionParam : public ::System::Object
 	{

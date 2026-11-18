@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/CommandLineSettingBase_2.h"
 #include "unitysdk/MoleMole/SceneQualityLevel.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/SceneEffectQuality.h"
 
 namespace MoleMole { class SceneQualityProfileContext; }
 
-#define MOLEMOLE_COMMANDLINESCENEQUALITY_METHOD_2_200BFE514C980B06_OFFSET UNITYSDK_OFFSET(0x150E58D0)
-#define MOLEMOLE_COMMANDLINESCENEQUALITY_METHOD_2_EB9779B12C7F7019_OFFSET UNITYSDK_OFFSET(0x150E5780)
-#define MOLEMOLE_COMMANDLINESCENEQUALITY__CTOR_OFFSET UNITYSDK_OFFSET(0x150E5890)
+#define MOLEMOLE_COMMANDLINESCENEQUALITY_ALEKEEINDAO_OFFSET UNITYSDK_OFFSET(0x192254E0)
+#define MOLEMOLE_COMMANDLINESCENEQUALITY_PMKOMFHNKOE_OFFSET UNITYSDK_OFFSET(0x19225630)
+#define MOLEMOLE_COMMANDLINESCENEQUALITY__CTOR_OFFSET UNITYSDK_OFFSET(0x192255F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineSceneQuality_TypeDefinitionIndex = 85082;
+	inline static constexpr unsigned int CommandLineSceneQuality_TypeDefinitionIndex = 55639;
 
-	class CommandLineSceneQuality : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::SceneQualityProfileContext*, ::MoleMole::CommandLineSceneQuality*>
+	class CommandLineSceneQuality
 	{
 	public:
 		::System::Nullable_1<::MoleMole::SceneQualityLevel> Quality; // 0x18
@@ -27,14 +26,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESCENEQUALITY__CTOR_OFFSET))(this);
 		}
 
-		::MoleMole::CommandLineSceneQuality* Method_2_EB9779B12C7F7019(::MoleMole::SceneQualityProfileContext* a1)
+		::MoleMole::CommandLineSceneQuality* ALEKEEINDAO(::MoleMole::SceneQualityProfileContext* LJBPECKCCEA)
 		{
-			return ((::MoleMole::CommandLineSceneQuality*(*)(::PVOID, ::MoleMole::SceneQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESCENEQUALITY_METHOD_2_EB9779B12C7F7019_OFFSET))(this, a1);
+			return ((::MoleMole::CommandLineSceneQuality*(*)(::PVOID, ::MoleMole::SceneQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESCENEQUALITY_ALEKEEINDAO_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::MoleMole::SceneQualityProfileContext* Method_2_200BFE514C980B06(::MoleMole::SceneQualityProfileContext* a1)
+		::MoleMole::SceneQualityProfileContext* PMKOMFHNKOE(::MoleMole::SceneQualityProfileContext* LJBPECKCCEA)
 		{
-			return ((::MoleMole::SceneQualityProfileContext*(*)(::PVOID, ::MoleMole::SceneQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESCENEQUALITY_METHOD_2_200BFE514C980B06_OFFSET))(this, a1);
+			return ((::MoleMole::SceneQualityProfileContext*(*)(::PVOID, ::MoleMole::SceneQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINESCENEQUALITY_PMKOMFHNKOE_OFFSET))(this, LJBPECKCCEA);
 		}
 	};
 }

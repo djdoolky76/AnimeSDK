@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define PIPELINECAMERA_EASINGALPHAMODIFIER_EXPOINOUT_PIPELINECAMERA_IALPHAMODIFIER_DERIVATIVE_OFFSET UNITYSDK_OFFSET(0x9D1CD0)
-#define PIPELINECAMERA_EASINGALPHAMODIFIER_EXPOINOUT_PIPELINECAMERA_IALPHAMODIFIER_PROCESS_OFFSET UNITYSDK_OFFSET(0x9D1CC0)
+#define PIPELINECAMERA_EASINGALPHAMODIFIER_EXPOINOUT_PIPELINECAMERA_IALPHAMODIFIER_DERIVATIVE_OFFSET UNITYSDK_OFFSET(0x8DCD60)
+#define PIPELINECAMERA_EASINGALPHAMODIFIER_EXPOINOUT_PIPELINECAMERA_IALPHAMODIFIER_PROCESS_OFFSET UNITYSDK_OFFSET(0x8DCD50)
 
 namespace PipelineCamera::EasingAlphaModifier
 {
-	inline static constexpr unsigned int ExpoInOut_TypeDefinitionIndex = 38378;
+	inline static constexpr unsigned int ExpoInOut_TypeDefinitionIndex = 36380;
 
-	struct alignas(1) ExpoInOut
+	struct alignas(4) ExpoInOut
 	{
 		::System::Single PipelineCamera_IAlphaModifier_Process(::System::Single alpha)
 		{

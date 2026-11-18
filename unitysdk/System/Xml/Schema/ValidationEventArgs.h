@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/EventArgs.h"
 #include "unitysdk/System/Xml/Schema/XmlSeverityType.h"
+#include "unitysdk/System/EventArgs.h"
 
 namespace System::Xml::Schema { class XmlSchemaException; }
 
-#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E4E9010)
-#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTARGS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E4E9070)
-#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E8FB0)
+#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E77D050)
+#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTARGS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E77D0B0)
+#define SYSTEM_XML_SCHEMA_VALIDATIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E77CFF0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int ValidationEventArgs_TypeDefinitionIndex = 2094;
+	inline static constexpr unsigned int ValidationEventArgs_TypeDefinitionIndex = 2093;
 
 	class ValidationEventArgs : public ::System::EventArgs
 	{

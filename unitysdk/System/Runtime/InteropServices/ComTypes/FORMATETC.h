@@ -6,13 +6,15 @@
 
 namespace System::Runtime::InteropServices::ComTypes
 {
-	inline static constexpr unsigned int FORMATETC_TypeDefinitionIndex = 3128;
+	inline static constexpr unsigned int FORMATETC_TypeDefinitionIndex = 3127;
 
-	struct alignas(8) FORMATETC
+	struct alignas(4) FORMATETC
 	{
 		::System::Int16 cfFormat; // 0x10
+		::System::Byte _padding0[0x2];
 		::System::Runtime::InteropServices::ComTypes::DVASPECT dwAspect; // 0x14
 		::System::Int32 lindex; // 0x18
+		::System::Byte _padding1[0x4];
 		::System::IntPtr ptd; // 0x20
 		::System::Runtime::InteropServices::ComTypes::TYMED tymed; // 0x28
 	};

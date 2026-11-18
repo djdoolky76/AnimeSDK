@@ -3,13 +3,13 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EBuffStack_TypeDefinitionIndex = 17960;
+	inline static constexpr unsigned int EBuffStack_TypeDefinitionIndex = 9766;
 
 	enum class EBuffStack : ::System::Int16
 	{
 		Unique = 0,
-		Stack = 2,
-		Overwrite = 1,
 		EnumCount = 3,
+		Overwrite = 1,
+		Stack = 2,
 	};
 }

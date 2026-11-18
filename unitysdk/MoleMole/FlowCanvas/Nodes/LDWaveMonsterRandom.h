@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/Config/CampType.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/MonsterIDType.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
@@ -19,72 +19,73 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_BEGIN_OFFSET UNITYSDK_OFFSET(0x136982C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_BREAK_OFFSET UNITYSDK_OFFSET(0x13698750)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_CHECKWARPMONSTERNAME_OFFSET UNITYSDK_OFFSET(0x13699360)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_CREATEMONSTER_OFFSET UNITYSDK_OFFSET(0x13699AC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_DORESTART_OFFSET UNITYSDK_OFFSET(0x136989B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_FIREFINISHEVENT_OFFSET UNITYSDK_OFFSET(0x13698A40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_FORCEBREAK_OFFSET UNITYSDK_OFFSET(0x13698800)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_GET_MUTEAI_OFFSET UNITYSDK_OFFSET(0x13697B90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_GET_MUTEHUD_OFFSET UNITYSDK_OFFSET(0x13697C50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_INTERNALCOROUTINE_OFFSET UNITYSDK_OFFSET(0x136986A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0x1369AEB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x13698260)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_POSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x13698D60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_RANDOMPICK_OFFSET UNITYSDK_OFFSET(0x1369B410)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13697D10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_RESTART_OFFSET UNITYSDK_OFFSET(0x13698C40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_RESTDATA_OFFSET UNITYSDK_OFFSET(0x13698190)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1369B5D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__REGISTERPORTS_B__37_0_OFFSET UNITYSDK_OFFSET(0x1369B690)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__REGISTERPORTS_B__37_1_OFFSET UNITYSDK_OFFSET(0x1369B6C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__REGISTERPORTS_B__37_2_OFFSET UNITYSDK_OFFSET(0x1369B790)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__REGISTERPORTS_B__37_3_OFFSET UNITYSDK_OFFSET(0x1369B7C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__REGISTERPORTS_B__37_4_OFFSET UNITYSDK_OFFSET(0x1369B7D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__REGISTERPORTS_B__37_5_OFFSET UNITYSDK_OFFSET(0x1369B7E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1369B7F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_BEGIN_OFFSET UNITYSDK_OFFSET(0x13571E60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_BREAK_OFFSET UNITYSDK_OFFSET(0x135722F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_CHECKWARPMONSTERNAME_OFFSET UNITYSDK_OFFSET(0x13572F40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_CREATEMONSTER_OFFSET UNITYSDK_OFFSET(0x135736B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_DORESTART_OFFSET UNITYSDK_OFFSET(0x13572560)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_FIREFINISHEVENT_OFFSET UNITYSDK_OFFSET(0x13572600)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_FORCEBREAK_OFFSET UNITYSDK_OFFSET(0x135723A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_GET_MUTEAI_OFFSET UNITYSDK_OFFSET(0x13571730)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_GET_MUTEHUD_OFFSET UNITYSDK_OFFSET(0x135717F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_INTERNALCOROUTINE_OFFSET UNITYSDK_OFFSET(0x13572240)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0x13574AB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x13571E00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_POSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x13572940)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_RANDOMPICK_OFFSET UNITYSDK_OFFSET(0x13575010)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x135718B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_RESTART_OFFSET UNITYSDK_OFFSET(0x13572800)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM_RESTDATA_OFFSET UNITYSDK_OFFSET(0x13571D30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x135751D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__REGISTERPORTS_B__37_0_OFFSET UNITYSDK_OFFSET(0x13575290)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__REGISTERPORTS_B__37_1_OFFSET UNITYSDK_OFFSET(0x135752C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__REGISTERPORTS_B__37_2_OFFSET UNITYSDK_OFFSET(0x13575390)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__REGISTERPORTS_B__37_3_OFFSET UNITYSDK_OFFSET(0x135753C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__REGISTERPORTS_B__37_4_OFFSET UNITYSDK_OFFSET(0x135753D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM__REGISTERPORTS_B__37_5_OFFSET UNITYSDK_OFFSET(0x135753E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTERRANDOM___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x135753F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWaveMonsterRandom_TypeDefinitionIndex = 66966;
+	inline static constexpr unsigned int LDWaveMonsterRandom_TypeDefinitionIndex = 75196;
 
 	class LDWaveMonsterRandom : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueOutput_1<::System::Int32>* indexOutput; // 0xA8
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* createMonsterNameDic; // 0xB0
-		::FlowCanvas::FlowInput* input; // 0xB8
-		::FlowCanvas::FlowInput* restartInput; // 0xC0
-		::MoleMole::Battle::Entity* createEntity; // 0xC8
-		::FlowCanvas::FlowOutput* doOutput; // 0xD0
-		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* createList; // 0xD8
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterRandomSelectItem*>*>* randomIDInput; // 0xE0
-		::FlowCanvas::FlowInput* breakInput; // 0xE8
-		::FlowCanvas::FlowOutput* finishOutput; // 0xF0
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::EntitySaveDataMap*>* saveMapInput; // 0xF8
-		::System::String* currMonsterName; // 0x100
-		::UnityEngine::Coroutine* coroutine; // 0x108
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::MonsterIDType>* monsterIDTypeInput; // 0x110
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterCreateData*>*>* createInput; // 0x118
-		::FlowCanvas::ValueInput_1<::System::String*>* currentSectionName; // 0x120
-		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* entityOutput; // 0x128
-		::System::String* createMonsterName; // 0x130
-		::FlowCanvas::ValueInput_1<::System::Boolean>* muteAiInput; // 0x138
-		::FlowCanvas::ValueInput_1<::System::Boolean>* muteHudInput; // 0x140
-		::FlowCanvas::FlowOutput* output; // 0x148
-		::FlowCanvas::ValueInput_1<::System::Boolean>* towardsPlayerInput; // 0x150
-		::FlowCanvas::ValueInput_1<::MoleMole::Config::CampType>* campInput; // 0x158
-		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*>* entityListOutput; // 0x160
-		::System::String* errorMsg; // 0x168
+		::FlowCanvas::FlowInput* input; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::EntitySaveDataMap*>* saveMapInput; // 0xB0
+		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* entityOutput; // 0xB8
+		::FlowCanvas::ValueInput_1<::MoleMole::Config::CampType>* campInput; // 0xC0
+		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* createList; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* towardsPlayerInput; // 0xD0
+		::FlowCanvas::FlowOutput* doOutput; // 0xD8
+		::FlowCanvas::FlowInput* breakInput; // 0xE0
+		::FlowCanvas::FlowOutput* finishOutput; // 0xE8
+		::UnityEngine::Coroutine* coroutine; // 0xF0
+		::System::String* createMonsterName; // 0xF8
+		::FlowCanvas::ValueOutput_1<::System::Int32>* indexOutput; // 0x100
+		::FlowCanvas::ValueInput_1<::System::Boolean>* muteHudInput; // 0x108
+		::FlowCanvas::FlowInput* restartInput; // 0x110
+		::System::String* errorMsg; // 0x118
+		::MoleMole::Battle::Entity* createEntity; // 0x120
+		::FlowCanvas::FlowOutput* output; // 0x128
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* createMonsterNameDic; // 0x130
+		::FlowCanvas::ValueInput_1<::System::String*>* currentSectionName; // 0x138
+		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*>* entityListOutput; // 0x140
+		::System::String* currMonsterName; // 0x148
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterCreateData*>*>* createInput; // 0x150
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::MonsterIDType>* monsterIDTypeInput; // 0x158
+		::FlowCanvas::ValueInput_1<::System::Boolean>* muteAiInput; // 0x160
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterRandomSelectItem*>*>* randomIDInput; // 0x168
 		::System::Single startTime; // 0x170
-		::System::Boolean isAddToSaveMap; // 0x174
-		::System::Boolean waitBreak; // 0x175
+		::System::Boolean waittingRestart; // 0x174
+		::System::Boolean isStart; // 0x175
 		::System::Boolean waittingCreate; // 0x176
-		::System::Boolean waittingRestart; // 0x177
-		::System::Boolean isStart; // 0x178
-		::System::Single waitDuration; // 0x17C
-		::System::Int32 createIndex; // 0x180
+		::System::Boolean isAddToSaveMap; // 0x177
+		::System::Boolean waitBreak; // 0x178
+		::System::Byte _padding0[0x3];
+		::System::Int32 createIndex; // 0x17C
+		::System::Single waitDuration; // 0x180
 		::System::Single waitDelta; // 0x184
 
 		::System::Void _ctor()

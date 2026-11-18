@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WaterInteractionManager_InteractiveObjectData_TypeDefinitionIndex = 27577;
+	inline static constexpr unsigned int WaterInteractionManager_InteractiveObjectData_TypeDefinitionIndex = 26437;
 
 	struct alignas(4) WaterInteractionManager_InteractiveObjectData
 	{

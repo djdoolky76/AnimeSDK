@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_6C9FA1DA785001A9;
+class LJLBLOOMDOK;
 namespace MoleMole::ChessStateMachine { class ConditionData; }
 namespace MoleMole::ChessStateMachine { class GlobalParamsConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_CHECKCONDITIONLISTVALID_OFFSET UNITYSDK_OFFSET(0x1B538BD0)
-#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B538B60)
-#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_RESETAFTERCHECKVALID_OFFSET UNITYSDK_OFFSET(0x1B538E70)
-#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B539090)
+#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_CHECKCONDITIONLISTVALID_OFFSET UNITYSDK_OFFSET(0x1BA165D0)
+#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x1BA16560)
+#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_RESETAFTERCHECKVALID_OFFSET UNITYSDK_OFFSET(0x1BA16880)
+#define MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA16AA0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ConditionGroup_TypeDefinitionIndex = 58905;
+	inline static constexpr unsigned int ConditionGroup_TypeDefinitionIndex = 41953;
 
 	class ConditionGroup : public ::System::Object
 	{
@@ -35,14 +35,14 @@ namespace MoleMole::ChessStateMachine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_GET_ISNULL_OFFSET))(this);
 		}
 
-		::System::Boolean CheckConditionListValid(::Class_1_6C9FA1DA785001A9* GlobalParams)
+		::System::Boolean CheckConditionListValid(::LJLBLOOMDOK* GlobalParams)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_6C9FA1DA785001A9*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_CHECKCONDITIONLISTVALID_OFFSET))(this, GlobalParams);
+			return ((::System::Boolean(*)(::PVOID, ::LJLBLOOMDOK*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_CHECKCONDITIONLISTVALID_OFFSET))(this, GlobalParams);
 		}
 
-		::System::Void ResetAfterCheckValid(::Class_1_6C9FA1DA785001A9* GlobalParams)
+		::System::Void ResetAfterCheckValid(::LJLBLOOMDOK* GlobalParams)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_6C9FA1DA785001A9*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_RESETAFTERCHECKVALID_OFFSET))(this, GlobalParams);
+			return ((::System::Void(*)(::PVOID, ::LJLBLOOMDOK*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_CONDITIONGROUP_RESETAFTERCHECKVALID_OFFSET))(this, GlobalParams);
 		}
 	};
 }

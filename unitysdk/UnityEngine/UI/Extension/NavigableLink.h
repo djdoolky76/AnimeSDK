@@ -8,12 +8,13 @@ namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NavigableLink_TypeDefinitionIndex = 89723;
+	inline static constexpr unsigned int NavigableLink_TypeDefinitionIndex = 57902;
 
 	struct alignas(8) NavigableLink
 	{
 		::UnityEngine::UI::Extension::UILocalizationText* text; // 0x10
 		::System::Int32 linkIndex; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* linkId; // 0x20
 		::UnityEngine::Rect firstBound; // 0x28
 		::UnityEngine::Rect lastBound; // 0x38

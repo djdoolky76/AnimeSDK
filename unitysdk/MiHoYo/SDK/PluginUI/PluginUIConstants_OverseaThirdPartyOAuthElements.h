@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_OverseaThirdPartyOAuthElements_TypeDefinitionIndex = 21339;
+	inline static constexpr unsigned int PluginUIConstants_OverseaThirdPartyOAuthElements_TypeDefinitionIndex = 20544;
 
 	class PluginUIConstants_OverseaThirdPartyOAuthElements : public ::System::Object
 	{

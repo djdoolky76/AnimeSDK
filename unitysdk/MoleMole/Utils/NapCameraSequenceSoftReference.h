@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Utils/SoftScriptObjectReference_1.h"
 
-namespace MoleMole::Utils { class NapCameraSequence; }
-
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCESOFTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x14DA8320)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCESOFTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x170DD4E0)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int NapCameraSequenceSoftReference_TypeDefinitionIndex = 51896;
+	inline static constexpr unsigned int NapCameraSequenceSoftReference_TypeDefinitionIndex = 83130;
 
-	class NapCameraSequenceSoftReference : public ::MoleMole::Utils::SoftScriptObjectReference_1<::MoleMole::Utils::NapCameraSequence*>
+	class NapCameraSequenceSoftReference
 	{
 	public:
 		::System::Void _ctor()

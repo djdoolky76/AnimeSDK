@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Tilemaps/TileFlags.h"
 #include "unitysdk/UnityEngine/Tilemaps/Tile_ColliderType.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Sprite; }
 
-#define UNITYENGINE_TILEMAPS_TILEDATA_SET_COLLIDERTYPE_OFFSET UNITYSDK_OFFSET(0xA41590)
-#define UNITYENGINE_TILEMAPS_TILEDATA_SET_COLOR_OFFSET UNITYSDK_OFFSET(0xA5BB10)
-#define UNITYENGINE_TILEMAPS_TILEDATA_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0xA90650)
-#define UNITYENGINE_TILEMAPS_TILEDATA_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x9B70F0)
-#define UNITYENGINE_TILEMAPS_TILEDATA_SET_SPRITE_OFFSET UNITYSDK_OFFSET(0x324D50)
-#define UNITYENGINE_TILEMAPS_TILEDATA_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xADAAC0)
+#define UNITYENGINE_TILEMAPS_TILEDATA_SET_COLLIDERTYPE_OFFSET UNITYSDK_OFFSET(0x91EA10)
+#define UNITYENGINE_TILEMAPS_TILEDATA_SET_COLOR_OFFSET UNITYSDK_OFFSET(0x93CBA0)
+#define UNITYENGINE_TILEMAPS_TILEDATA_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x9749C0)
+#define UNITYENGINE_TILEMAPS_TILEDATA_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x9B1220)
+#define UNITYENGINE_TILEMAPS_TILEDATA_SET_SPRITE_OFFSET UNITYSDK_OFFSET(0x358B00)
+#define UNITYENGINE_TILEMAPS_TILEDATA_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x9C1390)
 
 namespace UnityEngine::Tilemaps
 {
-	inline static constexpr unsigned int TileData_TypeDefinitionIndex = 93726;
+	inline static constexpr unsigned int TileData_TypeDefinitionIndex = 95415;
 
 	struct alignas(8) TileData
 	{

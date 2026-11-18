@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int ExceptionType_TypeDefinitionIndex = 1810;
+	inline static constexpr unsigned int ExceptionType_TypeDefinitionIndex = 1809;
 
 	enum class ExceptionType : ::System::Int32
 	{

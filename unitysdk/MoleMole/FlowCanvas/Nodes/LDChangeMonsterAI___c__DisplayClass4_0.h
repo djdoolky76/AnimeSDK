@@ -5,12 +5,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes { class LDChangeMonsterAI; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1923FBB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI___C__DISPLAYCLASS4_0__PROCESSCHANGEAI_B__0_OFFSET UNITYSDK_OFFSET(0x1923FBC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1190B6E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI___C__DISPLAYCLASS4_0__PROCESSCHANGEAI_B__0_OFFSET UNITYSDK_OFFSET(0x1190B6F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDChangeMonsterAI___c__DisplayClass4_0_TypeDefinitionIndex = 87146;
+	inline static constexpr unsigned int LDChangeMonsterAI___c__DisplayClass4_0_TypeDefinitionIndex = 90414;
 
 	class LDChangeMonsterAI___c__DisplayClass4_0 : public ::System::Object
 	{

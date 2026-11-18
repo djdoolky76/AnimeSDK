@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSCHEMAPROVIDERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE3C8B0)
+#define SYSTEM_XML_SERIALIZATION_XMLSCHEMAPROVIDERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2BC450)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSchemaProviderAttribute_TypeDefinitionIndex = 1898;
+	inline static constexpr unsigned int XmlSchemaProviderAttribute_TypeDefinitionIndex = 1897;
 
 	class XmlSchemaProviderAttribute : public ::System::Attribute
 	{

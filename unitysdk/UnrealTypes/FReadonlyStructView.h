@@ -5,33 +5,33 @@
 
 namespace UnrealTypes { class ScriptStruct; }
 
-#define UNREALTYPES_FREADONLYSTRUCTVIEW_EQUALS_OFFSET UNITYSDK_OFFSET(0xA15C30)
-#define UNREALTYPES_FREADONLYSTRUCTVIEW_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xA15C00)
-#define UNREALTYPES_FREADONLYSTRUCTVIEW_GET_MEMORY_OFFSET UNITYSDK_OFFSET(0x259D70)
-#define UNREALTYPES_FREADONLYSTRUCTVIEW_GET_POINTER_OFFSET UNITYSDK_OFFSET(0x259D70)
-#define UNREALTYPES_FREADONLYSTRUCTVIEW_GET_SCRIPTSTRUCT_OFFSET UNITYSDK_OFFSET(0x32EEE0)
-#define UNREALTYPES_FREADONLYSTRUCTVIEW_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1E386370)
-#define UNREALTYPES_FREADONLYSTRUCTVIEW_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E38DB90)
-#define UNREALTYPES_FREADONLYSTRUCTVIEW_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E38B8E0)
-#define UNREALTYPES_FREADONLYSTRUCTVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E38F340)
-#define UNREALTYPES_FREADONLYSTRUCTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xA15C20)
+#define UNREALTYPES_FREADONLYSTRUCTVIEW_EQUALS_OFFSET UNITYSDK_OFFSET(0x8EDA50)
+#define UNREALTYPES_FREADONLYSTRUCTVIEW_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x8EDA20)
+#define UNREALTYPES_FREADONLYSTRUCTVIEW_GET_MEMORY_OFFSET UNITYSDK_OFFSET(0x282350)
+#define UNREALTYPES_FREADONLYSTRUCTVIEW_GET_POINTER_OFFSET UNITYSDK_OFFSET(0x282350)
+#define UNREALTYPES_FREADONLYSTRUCTVIEW_GET_SCRIPTSTRUCT_OFFSET UNITYSDK_OFFSET(0x363D60)
+#define UNREALTYPES_FREADONLYSTRUCTVIEW_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1E2A2B40)
+#define UNREALTYPES_FREADONLYSTRUCTVIEW_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E2AACD0)
+#define UNREALTYPES_FREADONLYSTRUCTVIEW_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E2A89F0)
+#define UNREALTYPES_FREADONLYSTRUCTVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2AC5A0)
+#define UNREALTYPES_FREADONLYSTRUCTVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x8EDA40)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int FReadOnlyStructView_TypeDefinitionIndex = 28431;
+	inline static constexpr unsigned int FReadOnlyStructView_TypeDefinitionIndex = 27870;
 
 	struct alignas(8) FReadOnlyStructView
 	{
 		static ::UnrealTypes::FReadOnlyStructView* StaticGet_Invalid()
 		{
-			return (::UnrealTypes::FReadOnlyStructView*)Il2CppClass::FromTypeDefinitionIndex(FReadOnlyStructView_TypeDefinitionIndex)->GetStaticField(0x77F0);
+			return (::UnrealTypes::FReadOnlyStructView*)Il2CppClass::FromTypeDefinitionIndex(FReadOnlyStructView_TypeDefinitionIndex)->GetStaticField(0x7BE0);
 		}
-		::System::Void* _structMemory; // 0x10
+		::PVOID _structMemory; // 0x10
 		::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*> _scriptStruct; // 0x18
 
-		::System::Void _ctor(::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*>& scriptStruct, ::System::Void* structMemory)
+		::System::Void _ctor(::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*>& scriptStruct, ::PVOID structMemory)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*>&, ::System::Void*))((::PBYTE)hIl2Cpp + UNREALTYPES_FREADONLYSTRUCTVIEW__CTOR_OFFSET))(this, scriptStruct, structMemory);
+			return ((::System::Void(*)(::PVOID, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::ScriptStruct*>&, ::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FREADONLYSTRUCTVIEW__CTOR_OFFSET))(this, scriptStruct, structMemory);
 		}
 
 		static ::System::Void _cctor()
@@ -39,9 +39,9 @@ namespace UnrealTypes
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNREALTYPES_FREADONLYSTRUCTVIEW__CCTOR_OFFSET))();
 		}
 
-		::System::Void* get_Memory()
+		::PVOID get_Memory()
 		{
-			return ((::System::Void*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FREADONLYSTRUCTVIEW_GET_MEMORY_OFFSET))(this);
+			return ((::PVOID(*)(::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FREADONLYSTRUCTVIEW_GET_MEMORY_OFFSET))(this);
 		}
 
 		::System::IntPtr get_Pointer()
@@ -73,14 +73,18 @@ namespace UnrealTypes
 		}
 		*/
 
+		/*
 		::System::Boolean Equals(::UnrealTypes::FReadOnlyStructView other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FReadOnlyStructView))((::PBYTE)hIl2Cpp + UNREALTYPES_FREADONLYSTRUCTVIEW_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::UnrealTypes::FReadOnlyStructView& lhs, ::UnrealTypes::FReadOnlyStructView& rhs)
 		{
 			return ((::System::Boolean(*)(::UnrealTypes::FReadOnlyStructView&, ::UnrealTypes::FReadOnlyStructView&))((::PBYTE)hIl2Cpp + UNREALTYPES_FREADONLYSTRUCTVIEW_OP_INEQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 	};
 }

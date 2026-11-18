@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FadeAnimationData_TypeDefinitionIndex = 51833;
+	inline static constexpr unsigned int FadeAnimationData_TypeDefinitionIndex = 54609;
 
 	struct alignas(8) FadeAnimationData
 	{

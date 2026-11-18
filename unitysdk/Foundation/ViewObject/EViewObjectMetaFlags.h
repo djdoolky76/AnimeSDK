@@ -3,13 +3,13 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int EViewObjectMetaFlags_TypeDefinitionIndex = 82794;
+	inline static constexpr unsigned int EViewObjectMetaFlags_TypeDefinitionIndex = 82712;
 
 	enum class EViewObjectMetaFlags : ::System::Int32
 	{
-		None = 0,
 		IsGroup = 2,
-		IsMember = 1,
 		HasEntity = 4,
+		None = 0,
+		IsMember = 1,
 	};
 }

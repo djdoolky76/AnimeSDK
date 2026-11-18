@@ -6,13 +6,13 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ZENKOVPYROISPERFECTBLINKAIDTARGETSELECTOR_METHOD_2_795CCF0CFE7601C6_OFFSET UNITYSDK_OFFSET(0x1487EC40)
-#define MOLEMOLE_CONFIG_ZENKOVPYROISPERFECTBLINKAIDTARGETSELECTOR_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x1487ED90)
-#define MOLEMOLE_CONFIG_ZENKOVPYROISPERFECTBLINKAIDTARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1487EDD0)
+#define MOLEMOLE_CONFIG_ZENKOVPYROISPERFECTBLINKAIDTARGETSELECTOR_FLBFIEKHKME_OFFSET UNITYSDK_OFFSET(0x1B451FB0)
+#define MOLEMOLE_CONFIG_ZENKOVPYROISPERFECTBLINKAIDTARGETSELECTOR_OMHONDGJJGN_OFFSET UNITYSDK_OFFSET(0x1B451E60)
+#define MOLEMOLE_CONFIG_ZENKOVPYROISPERFECTBLINKAIDTARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B451FF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ZenkovPyroisPerfectBlinkAidTargetSelector_TypeDefinitionIndex = 87917;
+	inline static constexpr unsigned int ZenkovPyroisPerfectBlinkAidTargetSelector_TypeDefinitionIndex = 65881;
 
 	class ZenkovPyroisPerfectBlinkAidTargetSelector : public ::MoleMole::Config::ConfigTargetSelector
 	{
@@ -22,14 +22,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ZENKOVPYROISPERFECTBLINKAIDTARGETSELECTOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* Method_2_795CCF0CFE7601C6(::MoleMole::Battle::Entity* a1)
+		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* OMHONDGJJGN(::MoleMole::Battle::Entity* AMNIHACKELI)
 		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ZENKOVPYROISPERFECTBLINKAIDTARGETSELECTOR_METHOD_2_795CCF0CFE7601C6_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ZENKOVPYROISPERFECTBLINKAIDTARGETSELECTOR_OMHONDGJJGN_OFFSET))(this, AMNIHACKELI);
 		}
 
-		::System::String* Method_2_DA1BF2C227DC3D86()
+		::System::String* FLBFIEKHKME()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ZENKOVPYROISPERFECTBLINKAIDTARGETSELECTOR_METHOD_2_DA1BF2C227DC3D86_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ZENKOVPYROISPERFECTBLINKAIDTARGETSELECTOR_FLBFIEKHKME_OFFSET))(this);
 		}
 	};
 }

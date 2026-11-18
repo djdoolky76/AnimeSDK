@@ -5,17 +5,18 @@
 
 namespace UnityEngine { class MeshRenderer; }
 
-#define MOLEMOLE_MONODRONEGRIDEFFECT_SYNCCHARACTERPOS_OFFSET UNITYSDK_OFFSET(0x149FD320)
-#define MOLEMOLE_MONODRONEGRIDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x149FD420)
+#define MOLEMOLE_MONODRONEGRIDEFFECT_SYNCCHARACTERPOS_OFFSET UNITYSDK_OFFSET(0x130EC810)
+#define MOLEMOLE_MONODRONEGRIDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x130EC910)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoDroneGridEffect_TypeDefinitionIndex = 82609;
+	inline static constexpr unsigned int MonoDroneGridEffect_TypeDefinitionIndex = 65199;
 
 	class MonoDroneGridEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Int32 Field_5_1; // 0x18
+		::System::Int32 NOBPIJJPPNP; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::MeshRenderer* MeshRenderer; // 0x20
 
 		::System::Void _ctor()
@@ -23,9 +24,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONODRONEGRIDEFFECT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SyncCharacterPos(::UnityEngine::Vector3 a1)
+		::System::Void SyncCharacterPos(::UnityEngine::Vector3 NLGEIGOEOLA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONODRONEGRIDEFFECT_SYNCCHARACTERPOS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONODRONEGRIDEFFECT_SYNCCHARACTERPOS_OFFSET))(this, NLGEIGOEOLA);
 		}
 	};
 }

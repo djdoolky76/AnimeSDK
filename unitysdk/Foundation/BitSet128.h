@@ -1,39 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
 
 namespace System { class Object; }
 
-#define FOUNDATION_BITSET128_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xACFA10)
-#define FOUNDATION_BITSET128_EQUALS_OFFSET UNITYSDK_OFFSET(0xACF9A0)
-#define FOUNDATION_BITSET128_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xACFAB0)
-#define FOUNDATION_BITSET128_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x623B20)
-#define FOUNDATION_BITSET128_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x699420)
-#define FOUNDATION_BITSET128_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x624250)
-#define FOUNDATION_BITSET128_NUMBITSET_OFFSET UNITYSDK_OFFSET(0x624340)
-#define FOUNDATION_BITSET128_OP_BITWISEAND_OFFSET UNITYSDK_OFFSET(0x1FBFCFC0)
-#define FOUNDATION_BITSET128_OP_BITWISEOR_OFFSET UNITYSDK_OFFSET(0x1FBFCFA0)
-#define FOUNDATION_BITSET128_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1FBFCFE0)
-#define FOUNDATION_BITSET128_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1FBFD000)
-#define FOUNDATION_BITSET128_OP_ONESCOMPLEMENT_OFFSET UNITYSDK_OFFSET(0x1FBFCF80)
-#define FOUNDATION_BITSET128_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xACF8B0)
-#define FOUNDATION_BITSET128__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBFD260)
-#define FOUNDATION_BITSET128__CTOR_1_OFFSET UNITYSDK_OFFSET(0xACF910)
-#define FOUNDATION_BITSET128__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
+#define FOUNDATION_BITSET128_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9B6880)
+#define FOUNDATION_BITSET128_EQUALS_OFFSET UNITYSDK_OFFSET(0x9B6810)
+#define FOUNDATION_BITSET128_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x9B6920)
+#define FOUNDATION_BITSET128_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x6716E0)
+#define FOUNDATION_BITSET128_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x676690)
+#define FOUNDATION_BITSET128_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x671AD0)
+#define FOUNDATION_BITSET128_NUMBITSET_OFFSET UNITYSDK_OFFSET(0x671B00)
+#define FOUNDATION_BITSET128_OP_BITWISEAND_OFFSET UNITYSDK_OFFSET(0x20000360)
+#define FOUNDATION_BITSET128_OP_BITWISEOR_OFFSET UNITYSDK_OFFSET(0x20000340)
+#define FOUNDATION_BITSET128_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x20000380)
+#define FOUNDATION_BITSET128_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x200003A0)
+#define FOUNDATION_BITSET128_OP_ONESCOMPLEMENT_OFFSET UNITYSDK_OFFSET(0x20000320)
+#define FOUNDATION_BITSET128_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x9B6720)
+#define FOUNDATION_BITSET128__CCTOR_OFFSET UNITYSDK_OFFSET(0x20000600)
+#define FOUNDATION_BITSET128__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9B6780)
+#define FOUNDATION_BITSET128__CTOR_OFFSET UNITYSDK_OFFSET(0x3657B0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BitSet128_TypeDefinitionIndex = 8835;
+	inline static constexpr unsigned int BitSet128_TypeDefinitionIndex = 8747;
 
-	struct alignas(8) BitSet128
+	struct alignas(4) BitSet128
 	{
-		static ::Foundation::BitSet128* StaticGet_Full()
-		{
-			return (::Foundation::BitSet128*)Il2CppClass::FromTypeDefinitionIndex(BitSet128_TypeDefinitionIndex)->GetStaticField(0x3C50);
-		}
 		static ::Foundation::BitSet128* StaticGet_Empty()
 		{
-			return (::Foundation::BitSet128*)Il2CppClass::FromTypeDefinitionIndex(BitSet128_TypeDefinitionIndex)->GetStaticField(0x3C60);
+			return (::Foundation::BitSet128*)Il2CppClass::FromTypeDefinitionIndex(BitSet128_TypeDefinitionIndex)->GetStaticField(0x3C10);
+		}
+		static ::Foundation::BitSet128* StaticGet_Full()
+		{
+			return (::Foundation::BitSet128*)Il2CppClass::FromTypeDefinitionIndex(BitSet128_TypeDefinitionIndex)->GetStaticField(0x3C20);
 		}
 		::System::UInt64 data1; // 0x10
 		::System::UInt64 data2; // 0x18
@@ -43,12 +44,10 @@ namespace Foundation
 			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::UInt64))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET128__CTOR_OFFSET))(this, data1, data2);
 		}
 
-		/*
-		::System::Void _ctor_1(::System::ReadOnlySpan_1<::System::UInt32> indicesSet)
+		::System::Void _ctor_1(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::UInt32> indicesSet)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1<::System::UInt32>))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET128__CTOR_1_OFFSET))(this, indicesSet);
+			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::UInt32>))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET128__CTOR_1_OFFSET))(this, indicesSet);
 		}
-		*/
 
 		static ::System::Void _cctor()
 		{
@@ -70,35 +69,47 @@ namespace Foundation
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET128_SET_ITEM_OFFSET))(this, index, value);
 		}
 
+		/*
 		static ::Foundation::BitSet128 op_OnesComplement(::Foundation::BitSet128& a)
 		{
 			return ((::Foundation::BitSet128(*)(::Foundation::BitSet128&))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET128_OP_ONESCOMPLEMENT_OFFSET))(a);
 		}
+		*/
 
+		/*
 		static ::Foundation::BitSet128 op_BitwiseOr(::Foundation::BitSet128& a, ::Foundation::BitSet128& b)
 		{
 			return ((::Foundation::BitSet128(*)(::Foundation::BitSet128&, ::Foundation::BitSet128&))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET128_OP_BITWISEOR_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::Foundation::BitSet128 op_BitwiseAnd(::Foundation::BitSet128& a, ::Foundation::BitSet128& b)
 		{
 			return ((::Foundation::BitSet128(*)(::Foundation::BitSet128&, ::Foundation::BitSet128&))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET128_OP_BITWISEAND_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::Foundation::BitSet128& a, ::Foundation::BitSet128& b)
 		{
 			return ((::System::Boolean(*)(::Foundation::BitSet128&, ::Foundation::BitSet128&))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET128_OP_EQUALITY_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::Foundation::BitSet128& a, ::Foundation::BitSet128& b)
 		{
 			return ((::System::Boolean(*)(::Foundation::BitSet128&, ::Foundation::BitSet128&))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET128_OP_INEQUALITY_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::Foundation::BitSet128 other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::BitSet128))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET128_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{

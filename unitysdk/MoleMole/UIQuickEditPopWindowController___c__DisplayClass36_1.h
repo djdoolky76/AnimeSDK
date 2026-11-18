@@ -4,13 +4,14 @@
 
 namespace MoleMole { class UIQuickEditPopWindowController; }
 
-#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__DISPLAYCLASS36_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17A16DE0)
-#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__DISPLAYCLASS36_1__ONGOBTNCLICKHANDLE_B__1_OFFSET UNITYSDK_OFFSET(0x17A16DF0)
+#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__DISPLAYCLASS36_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17996A10)
+#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__DISPLAYCLASS36_1__ONGOBTNCLICKHANDLE_B__1_OFFSET UNITYSDK_OFFSET(0x17996A20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuickEditPopWindowController___c__DisplayClass36_1_TypeDefinitionIndex = 70118;
+	inline static constexpr unsigned int UIQuickEditPopWindowController___c__DisplayClass36_1_TypeDefinitionIndex = 83764;
 
+	template <typename T>
 	class UIQuickEditPopWindowController___c__DisplayClass36_1 : public ::System::Object
 	{
 	public:

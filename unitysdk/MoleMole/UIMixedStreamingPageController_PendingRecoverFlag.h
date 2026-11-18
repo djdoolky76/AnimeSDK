@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMixedStreamingPageController_PendingRecoverFlag_TypeDefinitionIndex = 62854;
+	inline static constexpr unsigned int UIMixedStreamingPageController_PendingRecoverFlag_TypeDefinitionIndex = 79221;
 
 	enum class UIMixedStreamingPageController_PendingRecoverFlag : ::System::Int32
 	{
-		None = 0,
 		AnimationSkipped = 2,
+		None = 0,
 		SlotStateChanged = 1,
 	};
 }

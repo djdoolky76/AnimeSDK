@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CLIPPERLIB_INTRECT__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA1A020)
-#define CLIPPERLIB_INTRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x3D1930)
+#define CLIPPERLIB_INTRECT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x90BF00)
+#define CLIPPERLIB_INTRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x3FD6C0)
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int IntRect_TypeDefinitionIndex = 33407;
+	inline static constexpr unsigned int IntRect_TypeDefinitionIndex = 32867;
 
-	struct alignas(8) IntRect
+	struct alignas(4) IntRect
 	{
 		::System::Int64 left; // 0x10
 		::System::Int64 top; // 0x18
@@ -21,9 +21,11 @@ namespace ClipperLib
 			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::Int64, ::System::Int64, ::System::Int64))((::PBYTE)hIl2Cpp + CLIPPERLIB_INTRECT__CTOR_OFFSET))(this, l, t, r, b);
 		}
 
+		/*
 		::System::Void _ctor_1(::ClipperLib::IntRect ir)
 		{
 			return ((::System::Void(*)(::PVOID, ::ClipperLib::IntRect))((::PBYTE)hIl2Cpp + CLIPPERLIB_INTRECT__CTOR_1_OFFSET))(this, ir);
 		}
+		*/
 	};
 }

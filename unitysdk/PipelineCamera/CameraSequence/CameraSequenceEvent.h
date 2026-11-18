@@ -1,34 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceEventCategory.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceEventTriggerContext.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceLinkable.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceTriggerOffsetType.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
 #include "unitysdk/PipelineCamera/SerializableGuid.h"
+#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
 
-namespace PipelineCamera::CameraSequence { class CameraSequenceCollectionInstance; }
-namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 namespace PipelineCamera::CameraSequence { class ICameraSequenceSegmentOwner; }
-namespace System { class String; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1F1B3880)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT_CONVERTTO_1_OFFSET UNITYSDK_OFFSET(0x1F1B37E0)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT_CONVERTTO_OFFSET UNITYSDK_OFFSET(0x1F1B3770)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT_LINK_OFFSET UNITYSDK_OFFSET(0x1F1B3530)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT_ONLINKTIMECHANGED_OFFSET UNITYSDK_OFFSET(0x1F1B3670)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1B3A80)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT___BASE_LINK_OFFSET UNITYSDK_OFFSET(0x1F1B3AC0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1F4FEB40)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT_CONVERTTO_1_OFFSET UNITYSDK_OFFSET(0x1F4FEAA0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT_CONVERTTO_OFFSET UNITYSDK_OFFSET(0x1F4FEA30)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT_LINK_OFFSET UNITYSDK_OFFSET(0x1F4FE7F0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT_ONLINKTIMECHANGED_OFFSET UNITYSDK_OFFSET(0x1F4FE930)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4FED40)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEEVENT___BASE_LINK_OFFSET UNITYSDK_OFFSET(0x1F4FED80)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceEvent_TypeDefinitionIndex = 38489;
+	inline static constexpr unsigned int CameraSequenceEvent_TypeDefinitionIndex = 36488;
 
 	class CameraSequenceEvent : public ::PipelineCamera::CameraSequence::CameraSequenceLinkable
 	{
 	public:
 		// static const ::System::Single TriggerOffset; // 0x0
 		::System::Single triggerTimeOffset; // 0x28
+		::System::Byte _padding0[0x4];
 		::PipelineCamera::SerializableGuid eventId; // 0x30
 
 		::System::Void _ctor()

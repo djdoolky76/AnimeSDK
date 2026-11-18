@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaFacet.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAWHITESPACEFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F070050)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAWHITESPACEFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F407E60)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaWhiteSpaceFacet_TypeDefinitionIndex = 2156;
+	inline static constexpr unsigned int XmlSchemaWhiteSpaceFacet_TypeDefinitionIndex = 2155;
 
 	class XmlSchemaWhiteSpaceFacet : public ::System::Xml::Schema::XmlSchemaFacet
 	{

@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
 #include "unitysdk/StateTreeCore/StateTreePropertyAccess.h"
 #include "unitysdk/StateTreeCore/StateTreePropertyBindings.h"
@@ -7,7 +8,6 @@
 #include "unitysdk/StateTreeCore/StateTreePropertyCopyBatch.h"
 #include "unitysdk/StateTreeCore/StateTreePropertyIndirection.h"
 #include "unitysdk/StateTreeCore/StateTreePropertyRef.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/FPropertyHandle.h"
 #include "unitysdk/UnrealTypes/ReadOnlyNativeListView_1.h"
 #include "unitysdk/UnrealTypes/ReadOnlyRawPtr_1.h"
@@ -15,16 +15,16 @@
 
 namespace UnrealTypes { class Object; }
 
-#define STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_COPYPROPERTY_OFFSET UNITYSDK_OFFSET(0x1ED877D0)
-#define STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_GETADDRESS_OFFSET UNITYSDK_OFFSET(0x1ED889B0)
-#define STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_GETBATCHCOPIES_OFFSET UNITYSDK_OFFSET(0x1ED87720)
-#define STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_GETPROPERTYACCESS_OFFSET UNITYSDK_OFFSET(0x1ED88960)
-#define STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_PERFORMCOPYOBJECT_OFFSET UNITYSDK_OFFSET(0x1ED89440)
-#define STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_PERFORMCOPY_OFFSET UNITYSDK_OFFSET(0x1ED88A90)
+#define STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_COPYPROPERTY_OFFSET UNITYSDK_OFFSET(0x1F2EE8B0)
+#define STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_GETADDRESS_OFFSET UNITYSDK_OFFSET(0x1F2EFE50)
+#define STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_GETBATCHCOPIES_OFFSET UNITYSDK_OFFSET(0x1F2EE800)
+#define STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_GETPROPERTYACCESS_OFFSET UNITYSDK_OFFSET(0x1F2EFE00)
+#define STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_PERFORMCOPYOBJECT_OFFSET UNITYSDK_OFFSET(0x1F2F0F20)
+#define STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_PERFORMCOPY_OFFSET UNITYSDK_OFFSET(0x1F2EFF30)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreePropertyBindingsPureMethodExtensions_TypeDefinitionIndex = 31626;
+	inline static constexpr unsigned int StateTreePropertyBindingsPureMethodExtensions_TypeDefinitionIndex = 31063;
 
 	class StateTreePropertyBindingsPureMethodExtensions : public ::System::Object
 	{
@@ -44,19 +44,19 @@ namespace StateTreeCore
 			return ((::System::Boolean(*)(::StateTreeCore::StateTreePropertyBindings&, ::StateTreeCore::StateTreePropertyCopy&, ::StateTreeCore::StateTreeDataView, ::StateTreeCore::StateTreeDataView))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_COPYPROPERTY_OFFSET))(self, copy, sourceStructView, targetStructView);
 		}
 
-		static ::System::Void* GetAddress(::StateTreeCore::StateTreePropertyBindings& self, ::StateTreeCore::StateTreeDataView structView, ::StateTreeCore::StateTreePropertyIndirection& firstIndirection, ::UnrealTypes::FPropertyHandle leafProperty)
+		static ::PVOID GetAddress(::StateTreeCore::StateTreePropertyBindings& self, ::StateTreeCore::StateTreeDataView structView, ::StateTreeCore::StateTreePropertyIndirection& firstIndirection, ::UnrealTypes::FPropertyHandle leafProperty)
 		{
-			return ((::System::Void*(*)(::StateTreeCore::StateTreePropertyBindings&, ::StateTreeCore::StateTreeDataView, ::StateTreeCore::StateTreePropertyIndirection&, ::UnrealTypes::FPropertyHandle))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_GETADDRESS_OFFSET))(self, structView, firstIndirection, leafProperty);
+			return ((::PVOID(*)(::StateTreeCore::StateTreePropertyBindings&, ::StateTreeCore::StateTreeDataView, ::StateTreeCore::StateTreePropertyIndirection&, ::UnrealTypes::FPropertyHandle))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_GETADDRESS_OFFSET))(self, structView, firstIndirection, leafProperty);
 		}
 
-		static ::System::Void PerformCopy(::StateTreeCore::StateTreePropertyCopy& copy, ::System::Void* sourceAddress, ::System::Void* targetAddress)
+		static ::System::Void PerformCopy(::StateTreeCore::StateTreePropertyCopy& copy, ::PVOID sourceAddress, ::PVOID targetAddress)
 		{
-			return ((::System::Void(*)(::StateTreeCore::StateTreePropertyCopy&, ::System::Void*, ::System::Void*))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_PERFORMCOPY_OFFSET))(copy, sourceAddress, targetAddress);
+			return ((::System::Void(*)(::StateTreeCore::StateTreePropertyCopy&, ::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_PERFORMCOPY_OFFSET))(copy, sourceAddress, targetAddress);
 		}
 
-		static ::System::Void PerformCopyObject(::StateTreeCore::StateTreePropertyCopy& copy, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*> objectHandle, ::System::Void* targetAddress)
+		static ::System::Void PerformCopyObject(::StateTreeCore::StateTreePropertyCopy& copy, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*> objectHandle, ::PVOID targetAddress)
 		{
-			return ((::System::Void(*)(::StateTreeCore::StateTreePropertyCopy&, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>, ::System::Void*))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_PERFORMCOPYOBJECT_OFFSET))(copy, objectHandle, targetAddress);
+			return ((::System::Void(*)(::StateTreeCore::StateTreePropertyCopy&, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>, ::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYBINDINGSPUREMETHODEXTENSIONS_PERFORMCOPYOBJECT_OFFSET))(copy, objectHandle, targetAddress);
 		}
 	};
 }

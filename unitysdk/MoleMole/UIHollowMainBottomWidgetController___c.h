@@ -5,34 +5,34 @@
 namespace DG::Tweening { class TweenCallback; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17323BB0)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17323BF0)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__INITPLAYERPROPERTY_B__42_1_OFFSET UNITYSDK_OFFSET(0x17323C00)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__UPDATESTANIMAANIMMAXCURSE_B__95_1_OFFSET UNITYSDK_OFFSET(0x17323C10)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__UPDATESTANIMAANIMMAXCURSE_B__95_2_OFFSET UNITYSDK_OFFSET(0x17323C20)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18CD0440)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18CD0480)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__INITPLAYERPROPERTY_B__42_1_OFFSET UNITYSDK_OFFSET(0x18CD0490)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__UPDATESTANIMAANIMMAXCURSE_B__95_1_OFFSET UNITYSDK_OFFSET(0x18CD04A0)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__UPDATESTANIMAANIMMAXCURSE_B__95_2_OFFSET UNITYSDK_OFFSET(0x18CD04B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c_TypeDefinitionIndex = 83700;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c_TypeDefinitionIndex = 43692;
 
 	class UIHollowMainBottomWidgetController___c : public ::System::Object
 	{
 	public:
+		static ::DG::Tweening::TweenCallback** StaticGet___9__95_1()
+		{
+			return (::DG::Tweening::TweenCallback**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainBottomWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38E40);
+		}
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__42_1()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainBottomWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36D00);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainBottomWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38E48);
 		}
 		static ::DG::Tweening::TweenCallback** StaticGet___9__95_2()
 		{
-			return (::DG::Tweening::TweenCallback**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainBottomWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36D08);
+			return (::DG::Tweening::TweenCallback**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainBottomWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38E50);
 		}
-		static ::DG::Tweening::TweenCallback** StaticGet___9__95_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::DG::Tweening::TweenCallback**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainBottomWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36D10);
-		}
-		static ::MoleMole::UIHollowMainBottomWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIHollowMainBottomWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainBottomWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36D18);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainBottomWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38E58);
 		}
 
 		static ::System::Void _cctor()

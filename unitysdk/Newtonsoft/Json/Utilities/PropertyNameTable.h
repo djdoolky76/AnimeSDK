@@ -2,31 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace Newtonsoft::Json::Utilities { class PropertyNameTable_Entry; }
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_ADDENTRY_OFFSET UNITYSDK_OFFSET(0x1F73A110)
-#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_ADD_OFFSET UNITYSDK_OFFSET(0x1F739E80)
-#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_GET_OFFSET UNITYSDK_OFFSET(0x1F739990)
-#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_GROW_OFFSET UNITYSDK_OFFSET(0x1F73A240)
-#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_TEXTEQUALS_OFFSET UNITYSDK_OFFSET(0x1F739CF0)
-#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7398F0)
-#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F739940)
+#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_ADDENTRY_OFFSET UNITYSDK_OFFSET(0x1FB31360)
+#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_ADD_OFFSET UNITYSDK_OFFSET(0x1FB310D0)
+#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_GET_OFFSET UNITYSDK_OFFSET(0x1FB30BE0)
+#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_GROW_OFFSET UNITYSDK_OFFSET(0x1FB31490)
+#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE_TEXTEQUALS_OFFSET UNITYSDK_OFFSET(0x1FB30F40)
+#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB30B40)
+#define NEWTONSOFT_JSON_UTILITIES_PROPERTYNAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB30B90)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int PropertyNameTable_TypeDefinitionIndex = 7075;
+	inline static constexpr unsigned int PropertyNameTable_TypeDefinitionIndex = 7082;
 
 	class PropertyNameTable : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_HashCodeRandomizer()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PropertyNameTable_TypeDefinitionIndex)->GetStaticField(0x3250);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PropertyNameTable_TypeDefinitionIndex)->GetStaticField(0x31D0);
 		}
-		::Il2CppArray<::Newtonsoft::Json::Utilities::PropertyNameTable_Entry*>* _entries; // 0x10
-		::System::Int32 _mask; // 0x18
-		::System::Int32 _count; // 0x1C
+		::Il2CppArray<::System::Object*>* _entries; // 0x10
+		::System::Int32 _count; // 0x18
+		::System::Int32 _mask; // 0x1C
 
 		static ::System::Void _cctor()
 		{

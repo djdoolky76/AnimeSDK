@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_TIMEOUTEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C34B3F0)
-#define SYSTEM_TIMEOUTEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C34B480)
-#define SYSTEM_TIMEOUTEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C34B510)
-#define SYSTEM_TIMEOUTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C34B330)
+#define SYSTEM_TIMEOUTEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C8C28F0)
+#define SYSTEM_TIMEOUTEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C8C2980)
+#define SYSTEM_TIMEOUTEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C8C2A10)
+#define SYSTEM_TIMEOUTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8C2830)
 
 namespace System
 {

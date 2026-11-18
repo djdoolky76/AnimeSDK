@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTE_ADDKEYHASH_OFFSET UNITYSDK_OFFSET(0x1E4B04B0)
-#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E4B0490)
-#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4B0480)
+#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTE_ADDKEYHASH_OFFSET UNITYSDK_OFFSET(0x1E714360)
+#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E714340)
+#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E714330)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlAnyElementAttribute_TypeDefinitionIndex = 1873;
+	inline static constexpr unsigned int XmlAnyElementAttribute_TypeDefinitionIndex = 1872;
 
 	class XmlAnyElementAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* ns; // 0x10
-		::System::String* elementName; // 0x18
+		::System::String* elementName; // 0x10
+		::System::String* ns; // 0x18
 		::System::Int32 order; // 0x20
 
 		::System::Void _ctor()

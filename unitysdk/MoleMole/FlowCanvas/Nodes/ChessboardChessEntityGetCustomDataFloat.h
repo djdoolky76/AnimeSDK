@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableFunctionNode_3.h"
 
 namespace MoleMole { class ChessEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCHESSENTITYGETCUSTOMDATAFLOAT_INVOKE_OFFSET UNITYSDK_OFFSET(0x12988200)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCHESSENTITYGETCUSTOMDATAFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x12988270)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCHESSENTITYGETCUSTOMDATAFLOAT_INVOKE_OFFSET UNITYSDK_OFFSET(0x12447440)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDCHESSENTITYGETCUSTOMDATAFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x124474B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardChessEntityGetCustomDataFloat_TypeDefinitionIndex = 78040;
+	inline static constexpr unsigned int ChessboardChessEntityGetCustomDataFloat_TypeDefinitionIndex = 93213;
 
-	class ChessboardChessEntityGetCustomDataFloat : public ::MoleMole::FlowCanvas::ChessboardCallableFunctionNode_3<::System::Single, ::MoleMole::ChessEntity*, ::System::String*>
+	class ChessboardChessEntityGetCustomDataFloat
 	{
 	public:
 		::System::Void _ctor()

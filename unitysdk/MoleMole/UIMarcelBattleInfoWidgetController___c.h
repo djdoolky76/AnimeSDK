@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1685EC66FBD28897;
+class KOIDMLPJGML;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x189CA550)
-#define MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x189CA590)
-#define MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__FILLREWARDMAP_B__1_0_OFFSET UNITYSDK_OFFSET(0x189CA5A0)
+#define MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1904B2F0)
+#define MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1904B330)
+#define MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__FILLREWARDMAP_B__1_0_OFFSET UNITYSDK_OFFSET(0x1904B340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMarcelBattleInfoWidgetController___c_TypeDefinitionIndex = 42409;
+	inline static constexpr unsigned int UIMarcelBattleInfoWidgetController___c_TypeDefinitionIndex = 66609;
 
 	class UIMarcelBattleInfoWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_1685EC66FBD28897*>** StaticGet___9__1_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_1_1685EC66FBD28897*>**)Il2CppClass::FromTypeDefinitionIndex(UIMarcelBattleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x49180);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIMarcelBattleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x47170);
 		}
-		static ::MoleMole::UIMarcelBattleInfoWidgetController___c** StaticGet___9()
+		static ::System::Comparison_1<::KOIDMLPJGML*>** StaticGet___9__1_0()
 		{
-			return (::MoleMole::UIMarcelBattleInfoWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMarcelBattleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x49188);
+			return (::System::Comparison_1<::KOIDMLPJGML*>**)Il2CppClass::FromTypeDefinitionIndex(UIMarcelBattleInfoWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x47178);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _FillRewardMap_b__1_0(::Class_1_1685EC66FBD28897* a, ::Class_1_1685EC66FBD28897* b)
+		::System::Int32 _FillRewardMap_b__1_0(::KOIDMLPJGML* a, ::KOIDMLPJGML* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_1685EC66FBD28897*, ::Class_1_1685EC66FBD28897*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__FILLREWARDMAP_B__1_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::KOIDMLPJGML*, ::KOIDMLPJGML*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMARCELBATTLEINFOWIDGETCONTROLLER___C__FILLREWARDMAP_B__1_0_OFFSET))(this, a, b);
 		}
 	};
 }

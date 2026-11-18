@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
-#include "unitysdk/System/ReadOnlyMemory_1.h"
+#include "unitysdk/System/ReadOnlyMemory_1_0ED4571775E9BB6A.h"
 #include "unitysdk/System/SequencePosition.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ReadOnlySequence_1_Enumerator_TypeDefinitionIndex = 6581;
+	inline static constexpr unsigned int ReadOnlySequence_1_Enumerator_TypeDefinitionIndex = 6587;
 
 	template <typename T>
-	struct ReadOnlySequence_1_Enumerator
+	struct alignas(8) ReadOnlySequence_1_Enumerator
 	{
 		::System::Buffers::ReadOnlySequence_1<T> _sequence; // 0x0
 		::System::SequencePosition _next; // 0x0
-		::System::ReadOnlyMemory_1<T> _currentMemory; // 0x0
+		::System::ReadOnlyMemory_1_0ED4571775E9BB6A<T> _currentMemory; // 0x0
 	};
 }

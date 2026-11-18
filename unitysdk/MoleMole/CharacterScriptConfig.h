@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_45DCCA85C18A63B1.h"
-#include "unitysdk/MoleMole/AvatarSteerType.h"
+#include "unitysdk/ICCBEDBKLOI.h"
 #include "unitysdk/MoleMole/Battle/EntityBodySize.h"
-#include "unitysdk/MoleMole/CharacterScriptConfig_NumberPositiveType.h"
 #include "unitysdk/MoleMole/Config/AnimMoveState.h"
 #include "unitysdk/MoleMole/Config/ShoesType.h"
+#include "unitysdk/MoleMole/AvatarSteerType.h"
+#include "unitysdk/MoleMole/CharacterScriptConfig_NumberPositiveType.h"
 #include "unitysdk/MoleMole/SkillCharacterScriptConfig.h"
 
 namespace MoleMole { class AvatarUIElementColorConfigs; }
@@ -18,21 +18,20 @@ namespace MoleMole::Config { class AudioRTPCConvert; }
 namespace MoleMole::Config { class ConfigAttachmentItem; }
 namespace MoleMole::Config { class ConfigAudioFetchAnimatorParam; }
 namespace MoleMole::Config { class ConfigDynamicAttachItem; }
-namespace MoleMole::Config { class ConfigMisc_InteractRotate; }
 namespace MoleMole::Config { class HitRotationOverrideMapItem; }
 namespace MoleMole::Config { class SceneAvatarCutSceneConfig; }
 namespace MoleMole::LevelPerform { class DirectKillShakeSetting; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CHARACTERSCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11451A10)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x131C29F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterScriptConfig_TypeDefinitionIndex = 48405;
+	inline static constexpr unsigned int CharacterScriptConfig_TypeDefinitionIndex = 51773;
 
 	class CharacterScriptConfig : public ::MoleMole::SkillCharacterScriptConfig
 	{
@@ -52,6 +51,7 @@ namespace MoleMole
 		::System::Single LockOnRadiusRatio; // 0x2A4
 		::System::Single LockOnRadiusDelta; // 0x2A8
 		::System::Boolean HideHintArrow; // 0x2AC
+		::System::Byte _padding0[0x3];
 		::System::String* NomalCameraConfig; // 0x2B0
 		::System::String* InLevelOverrideNomalCameraConfig; // 0x2B8
 		::MoleMole::Battle::EntityBodySize EntityBodySize; // 0x2C0
@@ -72,83 +72,99 @@ namespace MoleMole
 		::System::Boolean MuteHitGroundKnock; // 0x318
 		::System::Boolean MuteGourndHitMovement; // 0x319
 		::System::Boolean MuteHitRotate; // 0x31A
+		::System::Byte _padding1[0x5];
 		::System::Collections::Generic::List_1<::MoleMole::Config::HitRotationOverrideMapItem*>* OverrideEffectHitDataList; // 0x320
 		::System::Boolean MuteKillRotate; // 0x328
 		::System::Boolean CanOverkillBeHit; // 0x329
+		::System::Byte _padding2[0x2];
 		::System::Single OverkillBeHitDuration; // 0x32C
 		::System::Int32 OverkillBeHitCount; // 0x330
 		::System::Single GroundHitMovementCurveRatio; // 0x334
 		::System::Boolean MuteHitSky; // 0x338
 		::System::Boolean MuteAirHitMovement; // 0x339
+		::System::Byte _padding3[0x2];
 		::System::Single AirHitMovementCurveRatio; // 0x33C
 		::System::Single MaxDeathTime; // 0x340
 		::System::Boolean ForceFrontHit; // 0x344
 		::System::Boolean ForceBackHit; // 0x345
 		::System::Boolean EnterDyingWhenDeadHit; // 0x346
+		::System::Byte _padding4[0x1];
 		::System::Collections::Generic::List_1<::MoleMole::TwoValue_1<::MoleMole::TwoDiffValue_2<::System::String*, ::System::Single>*>*>* CustomProperties; // 0x348
-		::System::Collections::Generic::HashSet_1<::System::String*>* MPCustomProperties; // 0x350
-		::MoleMole::Config::ShoesType CharacterShoes; // 0x358
-		::Enum_3_45DCCA85C18A63B1 DefendType; // 0x35C
-		::System::Collections::Generic::List_1<::MoleMole::TwoDiffValue_2<::MoleMole::Config::ConfigAudioFetchAnimatorParam*, ::MoleMole::Config::AudioRTPCConvert*>*>* audioFetchAnimatorParams; // 0x360
-		::System::String* TeamShieldHudAttachPoint; // 0x368
-		::System::Single TeamShieldHudOffsetX; // 0x370
-		::System::Single TeamShieldHudOffsetY; // 0x374
-		::System::Single TeamShieldHudDynamicOffsetYSpeed; // 0x378
-		::System::Single TeamShieldHudDynamicOffsetThresholdY; // 0x37C
-		::System::Single TeamShieldHudDynamicOffsetXSpeed; // 0x380
-		::System::Single TeamShieldHudDynamicOffsetThresholdX; // 0x384
-		::System::Single HudOffsetX; // 0x388
-		::System::Single HudOffsetY; // 0x38C
-		::System::Single HudDynamicOffsetYSpeed; // 0x390
-		::System::Single HudDynamicOffsetThresholdY; // 0x394
-		::System::Single HudDynamicOffsetXSpeed; // 0x398
-		::System::Single HudDynamicOffsetThresholdX; // 0x39C
-		::System::Single HudOffsetDeltaX; // 0x3A0
-		::UnityEngine::AnimationCurve* HudScreenOffsetCurveX; // 0x3A8
-		::System::Single HudOffsetDeltaY; // 0x3B0
-		::UnityEngine::AnimationCurve* HudScreenOffsetCurveY; // 0x3B8
-		::System::String* Override_MONSTER_HUD_SCALE_CURVE; // 0x3C0
-		::System::String* Override_MONSTER_HUD_ALPHA_CURVE; // 0x3C8
-		::MoleMole::CharacterScriptConfig_HUDInfoDict* OverrideHUDInfo; // 0x3D0
-		::System::Single PromoteHudOffsetY; // 0x3D8
-		::MoleMole::AvatarUIElementColorConfigs* UIElementColorConfigs; // 0x3E0
-		::System::Boolean CloseRepickBornPos; // 0x3E8
-		::System::Boolean RaycastBornPosAfterSpawn; // 0x3E9
-		::System::String* TimeSlowFallbackKey; // 0x3F0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* TimeSlowAnimEventIds; // 0x3F8
-		::MoleMole::LevelPerform::DirectKillShakeSetting* fallbackShakeSetting; // 0x400
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::LevelPerform::DirectKillShakeSetting*>* levelSettlementShakeSetting; // 0x408
-		::MoleMole::Config::SceneAvatarCutSceneConfig* scenePerformConfig; // 0x410
-		::System::Int32 PhotoCameraConfig; // 0x418
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigAttachmentItem*>* attachmentsGroup; // 0x420
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigDynamicAttachItem*>* dynamicAttachGroup; // 0x428
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimMoveState, ::System::String*>* overrideRunStates; // 0x430
-		::System::String* overrideRunStateTiltBone; // 0x438
-		::System::Boolean UseAnimationBlendTilt; // 0x440
-		::System::String* AnimationBlendTiltParam; // 0x448
-		::System::Boolean LeftJoyStickMode; // 0x450
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigMisc_InteractRotate*>* OverrideInteractRotateInfo; // 0x458
-		::MoleMole::CharacterScriptConfig_ConfigCustomPropertyUI* CustomPropertyUIParams; // 0x460
-		::System::Boolean SingleAvatarShowPerfectSwitchEnergy; // 0x468
-		::System::String* InLevelLocalRoleHudUICtrlName; // 0x470
-		::MoleMole::CharacterScriptConfig_NumberPositiveType InLevelLocalRoleHudOffsetXPositiveType; // 0x478
-		::MoleMole::CharacterScriptConfig_NumberPositiveType InLevelLocalRoleHudOffsetYPositiveType; // 0x47C
-		::System::Boolean FisticuffUseNormalFrameHalt; // 0x480
-		::System::Boolean ForceKeepCollisionDetectMode; // 0x481
-		::System::String* AlertConfigKey; // 0x488
-		::System::Boolean MuteMonsterLevelHUDOnIdle; // 0x490
-		::System::Boolean ShowMonsterHPWhenLevelHUDShowOnIdle; // 0x491
-		::System::Boolean MuteMonsterLevelHUDOnEnterBattle; // 0x492
-		::MoleMole::ConfigEnvironmentFeatureModifier* EnvironmentFeatureModifier; // 0x498
-		::System::Boolean EnableAvatarFlyHeightLimit; // 0x4A0
-		::System::Single AvatarFlyHeightLimitStart; // 0x4A4
-		::System::Single AvatarFlyHeightLimitMax; // 0x4A8
-		::System::String* AvatarFlyHeightCurveKey; // 0x4B0
-		::System::Boolean EnableAvatarAI; // 0x4B8
-		::System::String* LifePointCustomProperty; // 0x4C0
-		::System::Collections::Generic::List_1<::System::Int32>* DynamicWeapons; // 0x4C8
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>* DefaultDynamicAccs; // 0x4D0
-		::System::String* OverrideIgnisFatuusEffect; // 0x4D8
+		::MoleMole::Config::ShoesType CharacterShoes; // 0x350
+		::ICCBEDBKLOI DefendType; // 0x354
+		::System::Collections::Generic::List_1<::MoleMole::TwoDiffValue_2<::MoleMole::Config::ConfigAudioFetchAnimatorParam*, ::MoleMole::Config::AudioRTPCConvert*>*>* audioFetchAnimatorParams; // 0x358
+		::System::String* TeamShieldHudAttachPoint; // 0x360
+		::System::Single TeamShieldHudOffsetX; // 0x368
+		::System::Single TeamShieldHudOffsetY; // 0x36C
+		::System::Single TeamShieldHudDynamicOffsetYSpeed; // 0x370
+		::System::Single TeamShieldHudDynamicOffsetThresholdY; // 0x374
+		::System::Single TeamShieldHudDynamicOffsetXSpeed; // 0x378
+		::System::Single TeamShieldHudDynamicOffsetThresholdX; // 0x37C
+		::System::Single HudOffsetX; // 0x380
+		::System::Single HudOffsetY; // 0x384
+		::System::Single HudDynamicOffsetYSpeed; // 0x388
+		::System::Single HudDynamicOffsetThresholdY; // 0x38C
+		::System::Single HudDynamicOffsetXSpeed; // 0x390
+		::System::Single HudDynamicOffsetThresholdX; // 0x394
+		::System::Single HudOffsetDeltaX; // 0x398
+		::System::Byte _padding5[0x4];
+		::UnityEngine::AnimationCurve* HudScreenOffsetCurveX; // 0x3A0
+		::System::Single HudOffsetDeltaY; // 0x3A8
+		::System::Byte _padding6[0x4];
+		::UnityEngine::AnimationCurve* HudScreenOffsetCurveY; // 0x3B0
+		::System::String* Override_MONSTER_HUD_SCALE_CURVE; // 0x3B8
+		::System::String* Override_MONSTER_HUD_ALPHA_CURVE; // 0x3C0
+		::MoleMole::CharacterScriptConfig_HUDInfoDict* OverrideHUDInfo; // 0x3C8
+		::System::Single PromoteHudOffsetY; // 0x3D0
+		::System::Byte _padding7[0x4];
+		::MoleMole::AvatarUIElementColorConfigs* UIElementColorConfigs; // 0x3D8
+		::System::Boolean CloseRepickBornPos; // 0x3E0
+		::System::Boolean RaycastBornPosAfterSpawn; // 0x3E1
+		::System::Byte _padding8[0x6];
+		::System::String* TimeSlowFallbackKey; // 0x3E8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* TimeSlowAnimEventIds; // 0x3F0
+		::MoleMole::LevelPerform::DirectKillShakeSetting* fallbackShakeSetting; // 0x3F8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::LevelPerform::DirectKillShakeSetting*>* levelSettlementShakeSetting; // 0x400
+		::MoleMole::Config::SceneAvatarCutSceneConfig* scenePerformConfig; // 0x408
+		::System::Int32 PhotoCameraConfig; // 0x410
+		::System::Byte _padding9[0x4];
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigAttachmentItem*>* attachmentsGroup; // 0x418
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigDynamicAttachItem*>* dynamicAttachGroup; // 0x420
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimMoveState, ::System::String*>* overrideRunStates; // 0x428
+		::System::String* overrideRunStateTiltBone; // 0x430
+		::System::Boolean UseAnimationBlendTilt; // 0x438
+		::System::Byte _padding10[0x7];
+		::System::String* AnimationBlendTiltParam; // 0x440
+		::System::Boolean LeftJoyStickMode; // 0x448
+		::System::Byte _padding11[0x7];
+		::System::Collections::Generic::List_1<::System::Object*>* OverrideInteractRotateInfo; // 0x450
+		::MoleMole::CharacterScriptConfig_ConfigCustomPropertyUI* CustomPropertyUIParams; // 0x458
+		::System::Boolean SingleAvatarShowPerfectSwitchEnergy; // 0x460
+		::System::Byte _padding12[0x7];
+		::System::String* InLevelLocalRoleHudUICtrlName; // 0x468
+		::MoleMole::CharacterScriptConfig_NumberPositiveType InLevelLocalRoleHudOffsetXPositiveType; // 0x470
+		::MoleMole::CharacterScriptConfig_NumberPositiveType InLevelLocalRoleHudOffsetYPositiveType; // 0x474
+		::System::Boolean FisticuffUseNormalFrameHalt; // 0x478
+		::System::Boolean ForceKeepCollisionDetectMode; // 0x479
+		::System::Byte _padding13[0x6];
+		::System::String* AlertConfigKey; // 0x480
+		::System::Boolean MuteMonsterLevelHUDOnIdle; // 0x488
+		::System::Boolean ShowMonsterHPWhenLevelHUDShowOnIdle; // 0x489
+		::System::Boolean MuteMonsterLevelHUDOnEnterBattle; // 0x48A
+		::System::Byte _padding14[0x5];
+		::MoleMole::ConfigEnvironmentFeatureModifier* EnvironmentFeatureModifier; // 0x490
+		::System::Boolean EnableAvatarFlyHeightLimit; // 0x498
+		::System::Byte _padding15[0x3];
+		::System::Single AvatarFlyHeightLimitStart; // 0x49C
+		::System::Single AvatarFlyHeightLimitMax; // 0x4A0
+		::System::Byte _padding16[0x4];
+		::System::String* AvatarFlyHeightCurveKey; // 0x4A8
+		::System::Boolean EnableAvatarAI; // 0x4B0
+		::System::Byte _padding17[0x7];
+		::System::String* LifePointCustomProperty; // 0x4B8
+		::System::Collections::Generic::List_1<::System::Int32>* DynamicWeapons; // 0x4C0
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Int32>*>* DefaultDynamicAccs; // 0x4C8
+		::System::String* OverrideIgnisFatuusEffect; // 0x4D0
 
 		::System::Void _ctor()
 		{

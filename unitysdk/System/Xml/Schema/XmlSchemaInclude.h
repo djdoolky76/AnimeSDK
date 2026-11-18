@@ -4,12 +4,12 @@
 
 namespace System::Xml::Schema { class XmlSchemaAnnotation; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINCLUDE_ADDANNOTATION_OFFSET UNITYSDK_OFFSET(0x1DE6A450)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINCLUDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE6A440)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINCLUDE_ADDANNOTATION_OFFSET UNITYSDK_OFFSET(0x1E311420)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINCLUDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E311410)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaInclude_TypeDefinitionIndex = 2167;
+	inline static constexpr unsigned int XmlSchemaInclude_TypeDefinitionIndex = 2166;
 
 	class XmlSchemaInclude : public ::System::Xml::Schema::XmlSchemaExternal
 	{

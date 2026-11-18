@@ -8,19 +8,23 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define FOUNDATION_STATEMACHINE_MACHINE_STORAGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAA8980)
-#define FOUNDATION_STATEMACHINE_MACHINE_STORAGE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xAA8950)
+#define FOUNDATION_STATEMACHINE_MACHINE_STORAGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x98ED10)
+#define FOUNDATION_STATEMACHINE_MACHINE_STORAGE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x98ECE0)
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int Machine_Storage_TypeDefinitionIndex = 8784;
+	inline static constexpr unsigned int Machine_Storage_TypeDefinitionIndex = 8996;
 
 	struct alignas(8) Machine_Storage
 	{
 		::Unity::Collections::NativeArray_1<::Foundation::StateMachine::StateMetadata> States; // 0x10
+		::System::Byte _padding0[0x8];
 		::Unity::Collections::NativeArray_1<::Foundation::StateMachine::Transition> Transitions; // 0x20
+		::System::Byte _padding1[0x8];
 		::Unity::Collections::NativeArray_1<::Foundation::StateMachine::Condition> Conditions; // 0x30
+		::System::Byte _padding2[0x8];
 		::Unity::Collections::NativeArray_1<::Foundation::StateMachine::ParameterType> Parameters; // 0x40
+		::System::Byte _padding3[0x8];
 		::Unity::Collections::NativeArray_1<::Foundation::StateMachine::LayerMetadata> Layers; // 0x50
 
 		::System::Boolean get_IsValid()

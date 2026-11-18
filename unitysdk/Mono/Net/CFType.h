@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_NET_CFTYPE_GETTYPEID_OFFSET UNITYSDK_OFFSET(0x1E27BBD0)
-#define MONO_NET_CFTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E27BC50)
+#define MONO_NET_CFTYPE_GETTYPEID_OFFSET UNITYSDK_OFFSET(0x1E4F7C50)
+#define MONO_NET_CFTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F7CD0)
 
 namespace Mono::Net
 {
-	inline static constexpr unsigned int CFType_TypeDefinitionIndex = 2583;
+	inline static constexpr unsigned int CFType_TypeDefinitionIndex = 2582;
 
 	class CFType : public ::System::Object
 	{

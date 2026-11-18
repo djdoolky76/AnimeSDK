@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreDialogV2PopWindowController_SaleLogic___c__DisplayClass7_0_TypeDefinitionIndex = 55338;
+	inline static constexpr unsigned int UIVHSStoreDialogV2PopWindowController_SaleLogic___c__DisplayClass7_0_TypeDefinitionIndex = 55719;
 
 	struct alignas(8) UIVHSStoreDialogV2PopWindowController_SaleLogic___c__DisplayClass7_0
 	{

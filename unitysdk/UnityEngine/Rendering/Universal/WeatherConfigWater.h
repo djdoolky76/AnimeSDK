@@ -5,11 +5,11 @@
 namespace UnityEngine::Rendering::Universal { class SingleWeatherConfigWater; }
 namespace UnityEngine::Rendering::Universal { class WaterResources; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGWATER_DEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0x1CF17CA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGWATER_GETINDEX_OFFSET UNITYSDK_OFFSET(0x1CF17D20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGWATER_LERP_OFFSET UNITYSDK_OFFSET(0x1CF17F70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGWATER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF182E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGWATER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF18250)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGWATER_DEFAULTCONFIG_OFFSET UNITYSDK_OFFSET(0x1D2AA2D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGWATER_GETINDEX_OFFSET UNITYSDK_OFFSET(0x1D2AA350)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGWATER_LERP_OFFSET UNITYSDK_OFFSET(0x1D2AA5A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGWATER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2AA910)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGWATER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AA880)
 
 namespace UnityEngine::Rendering::Universal
 {
@@ -20,7 +20,7 @@ namespace UnityEngine::Rendering::Universal
 	public:
 		static ::UnityEngine::Rendering::Universal::SingleWeatherConfigWater** StaticGet_s_CachedSingleWaterConfig()
 		{
-			return (::UnityEngine::Rendering::Universal::SingleWeatherConfigWater**)Il2CppClass::FromTypeDefinitionIndex(WeatherConfigWater_TypeDefinitionIndex)->GetStaticField(0x22E10);
+			return (::UnityEngine::Rendering::Universal::SingleWeatherConfigWater**)Il2CppClass::FromTypeDefinitionIndex(WeatherConfigWater_TypeDefinitionIndex)->GetStaticField(0x23DF0);
 		}
 		::UnityEngine::Rendering::Universal::WaterResources* waterResources; // 0x18
 		::Il2CppArray<::UnityEngine::Rendering::Universal::SingleWeatherConfigWater*>* configs; // 0x20

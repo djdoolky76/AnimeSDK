@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_PATHFOLLOWBLOCKEDCONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1127A530)
-#define NPCCROWD_ABILITY_PATHFOLLOWBLOCKEDCONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1127A540)
+#define NPCCROWD_ABILITY_PATHFOLLOWBLOCKEDCONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x11F9A3C0)
+#define NPCCROWD_ABILITY_PATHFOLLOWBLOCKEDCONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x11F9A3D0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int PathFollowBlockedCondition_StructOpsTypeTraits_TypeDefinitionIndex = 77891;
+	inline static constexpr unsigned int PathFollowBlockedCondition_StructOpsTypeTraits_TypeDefinitionIndex = 43856;
 
 	class PathFollowBlockedCondition_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

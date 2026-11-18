@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PMGFJAPEHFB.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/EKLMJGLFFED.h"
+
+class MEHHHAABGPC;
+class PAJAFKNAAEF;
+
+#define IBGHJAGLABK_BBOMJDBNHIC_1_OFFSET UNITYSDK_OFFSET(0xF835910)
+#define IBGHJAGLABK_CCGMONANMDG_OFFSET UNITYSDK_OFFSET(0xF835830)
+#define IBGHJAGLABK_IPNHHPNONAA_OFFSET UNITYSDK_OFFSET(0xF835840)
+#define IBGHJAGLABK_MBAFALEBFMC_OFFSET UNITYSDK_OFFSET(0xF8358B0)
+#define IBGHJAGLABK__CTOR_OFFSET UNITYSDK_OFFSET(0xF835900)
+
+inline static constexpr unsigned int IBGHJAGLABK_TypeDefinitionIndex = 82370;
+
+class IBGHJAGLABK : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IBGHJAGLABK__CTOR_OFFSET))(this);
+	}
+
+	::PMGFJAPEHFB CCGMONANMDG()
+	{
+		return ((::PMGFJAPEHFB(*)(::PVOID))((::PBYTE)hIl2Cpp + IBGHJAGLABK_CCGMONANMDG_OFFSET))(this);
+	}
+
+	::MEHHHAABGPC* IPNHHPNONAA(::EKLMJGLFFED BDGKJJPIKIB)
+	{
+		return ((::MEHHHAABGPC*(*)(::PVOID, ::EKLMJGLFFED))((::PBYTE)hIl2Cpp + IBGHJAGLABK_IPNHHPNONAA_OFFSET))(this, BDGKJJPIKIB);
+	}
+
+	::System::Void MBAFALEBFMC(::MEHHHAABGPC* GAGANPBKNDI)
+	{
+		return ((::System::Void(*)(::PVOID, ::MEHHHAABGPC*))((::PBYTE)hIl2Cpp + IBGHJAGLABK_MBAFALEBFMC_OFFSET))(this, GAGANPBKNDI);
+	}
+
+	::System::Void BBOMJDBNHIC_1(::PAJAFKNAAEF* GAGANPBKNDI)
+	{
+		return ((::System::Void(*)(::PVOID, ::PAJAFKNAAEF*))((::PBYTE)hIl2Cpp + IBGHJAGLABK_BBOMJDBNHIC_1_OFFSET))(this, GAGANPBKNDI);
+	}
+};

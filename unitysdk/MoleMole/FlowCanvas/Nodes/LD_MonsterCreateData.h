@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/Nodes/ObjectFunctionNode_1.h"
 
-namespace MoleMole::FlowCanvas::Nodes { class MonsterCreateData; }
-
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERCREATEDATA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x118C33E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERCREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x118C35D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERCREATEDATA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16242850)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_MONSTERCREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16242A40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_MonsterCreateData_TypeDefinitionIndex = 51671;
+	inline static constexpr unsigned int LD_MonsterCreateData_TypeDefinitionIndex = 61543;
 
-	class LD_MonsterCreateData : public ::MoleMole::FlowCanvas::Nodes::ObjectFunctionNode_1<::MoleMole::FlowCanvas::Nodes::MonsterCreateData*>
+	class LD_MonsterCreateData
 	{
 	public:
 		::System::Void _ctor()

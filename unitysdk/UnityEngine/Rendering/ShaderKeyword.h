@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_SHADERKEYWORD_GETGLOBALKEYWORDINDEX_OFFSET UNITYSDK_OFFSET(0x1EBEB380)
-#define UNITYENGINE_RENDERING_SHADERKEYWORD__CTOR_OFFSET UNITYSDK_OFFSET(0xA647E0)
+#define UNITYENGINE_RENDERING_SHADERKEYWORD_GETGLOBALKEYWORDINDEX_OFFSET UNITYSDK_OFFSET(0x1EF7C9A0)
+#define UNITYENGINE_RENDERING_SHADERKEYWORD__CTOR_OFFSET UNITYSDK_OFFSET(0x93FAB0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShaderKeyword_TypeDefinitionIndex = 6277;
+	inline static constexpr unsigned int ShaderKeyword_TypeDefinitionIndex = 6292;
 
 	struct alignas(4) ShaderKeyword
 	{

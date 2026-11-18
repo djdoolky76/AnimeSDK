@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UITapesGroup3DModelController; }
 
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x140D1430)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1718CD00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITapesGroup3DModelController___c__DisplayClass44_0_TypeDefinitionIndex = 60821;
+	inline static constexpr unsigned int UITapesGroup3DModelController___c__DisplayClass44_0_TypeDefinitionIndex = 84919;
 
 	class UITapesGroup3DModelController___c__DisplayClass44_0 : public ::System::Object
 	{

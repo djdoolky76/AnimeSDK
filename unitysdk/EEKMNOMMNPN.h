@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EDMNFDCNFPM_KLLLOHMALOE.h"
+#include "unitysdk/System/Object.h"
+
+#define EEKMNOMMNPN_AMGBGFDJNFG_OFFSET UNITYSDK_OFFSET(0x11A6ABE0)
+#define EEKMNOMMNPN_AOLKFIKCNOH_OFFSET UNITYSDK_OFFSET(0x11A6AC70)
+#define EEKMNOMMNPN_PAJNCNHJDKM_OFFSET UNITYSDK_OFFSET(0x11A6AC30)
+
+inline static constexpr unsigned int EEKMNOMMNPN_TypeDefinitionIndex = 70879;
+
+class EEKMNOMMNPN : public ::System::Object
+{
+public:
+	static ::System::Boolean AMGBGFDJNFG(::EDMNFDCNFPM_KLLLOHMALOE OBNIAHNMHPF)
+	{
+		return ((::System::Boolean(*)(::EDMNFDCNFPM_KLLLOHMALOE))((::PBYTE)hIl2Cpp + EEKMNOMMNPN_AMGBGFDJNFG_OFFSET))(OBNIAHNMHPF);
+	}
+
+	static ::System::Boolean PAJNCNHJDKM(::EDMNFDCNFPM_KLLLOHMALOE OBNIAHNMHPF)
+	{
+		return ((::System::Boolean(*)(::EDMNFDCNFPM_KLLLOHMALOE))((::PBYTE)hIl2Cpp + EEKMNOMMNPN_PAJNCNHJDKM_OFFSET))(OBNIAHNMHPF);
+	}
+
+	static ::System::Boolean AOLKFIKCNOH(::EDMNFDCNFPM_KLLLOHMALOE OBNIAHNMHPF)
+	{
+		return ((::System::Boolean(*)(::EDMNFDCNFPM_KLLLOHMALOE))((::PBYTE)hIl2Cpp + EEKMNOMMNPN_AOLKFIKCNOH_OFFSET))(OBNIAHNMHPF);
+	}
+};

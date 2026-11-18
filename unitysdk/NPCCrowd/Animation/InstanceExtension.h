@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Animation/AnimatorControllerInstance.h"
 #include "unitysdk/NPCCrowd/Animation/AnimatorControllerParamEntry.h"
 #include "unitysdk/NPCCrowd/Animation/AnimatorControllerStateEntry.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeSlice_1.h"
 #include "unitysdk/UnityEngine/Animations/AnimatorControllerPlayable.h"
 
-#define NPCCROWD_ANIMATION_INSTANCEEXTENSION_SET_1_OFFSET UNITYSDK_OFFSET(0xF877CE0)
-#define NPCCROWD_ANIMATION_INSTANCEEXTENSION_SET_2_OFFSET UNITYSDK_OFFSET(0xF877D40)
-#define NPCCROWD_ANIMATION_INSTANCEEXTENSION_SET_OFFSET UNITYSDK_OFFSET(0xF877C80)
+#define NPCCROWD_ANIMATION_INSTANCEEXTENSION_SET_1_OFFSET UNITYSDK_OFFSET(0xEE9CF40)
+#define NPCCROWD_ANIMATION_INSTANCEEXTENSION_SET_2_OFFSET UNITYSDK_OFFSET(0xEE9CFA0)
+#define NPCCROWD_ANIMATION_INSTANCEEXTENSION_SET_OFFSET UNITYSDK_OFFSET(0xEE9CEE0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int InstanceExtension_TypeDefinitionIndex = 51948;
+	inline static constexpr unsigned int InstanceExtension_TypeDefinitionIndex = 51250;
 
 	class InstanceExtension : public ::System::Object
 	{

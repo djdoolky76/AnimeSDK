@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_DISABLECONTEXTMENUATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76FE00)
+#define SIRENIX_ODININSPECTOR_DISABLECONTEXTMENUATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB80020)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int DisableContextMenuAttribute_TypeDefinitionIndex = 7280;
+	inline static constexpr unsigned int DisableContextMenuAttribute_TypeDefinitionIndex = 7287;
 
 	class DisableContextMenuAttribute : public ::System::Attribute
 	{

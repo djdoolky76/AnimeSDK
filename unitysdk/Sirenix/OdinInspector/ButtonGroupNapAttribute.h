@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class GUILayoutOption; }
 
-#define SIRENIX_ODININSPECTOR_BUTTONGROUPNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF4E500)
+#define SIRENIX_ODININSPECTOR_BUTTONGROUPNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FE0D0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ButtonGroupNapAttribute_TypeDefinitionIndex = 8089;
+	inline static constexpr unsigned int ButtonGroupNapAttribute_TypeDefinitionIndex = 7974;
 
 	class ButtonGroupNapAttribute : public ::Sirenix::OdinInspector::ButtonGroupAttribute
 	{

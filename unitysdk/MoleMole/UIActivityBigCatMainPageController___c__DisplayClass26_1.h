@@ -2,19 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_1699D6295DC3F818_1;
+class PLDJFGCHMKK;
 
-#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__DISPLAYCLASS26_1__CTOR_OFFSET UNITYSDK_OFFSET(0x138734C0)
-#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__DISPLAYCLASS26_1__REFRESHWEAPONREWARD_B__1_OFFSET UNITYSDK_OFFSET(0x138734D0)
+#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__DISPLAYCLASS26_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13A1A2A0)
+#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__DISPLAYCLASS26_1__REFRESHWEAPONREWARD_B__1_OFFSET UNITYSDK_OFFSET(0x13A1A2B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBigCatMainPageController___c__DisplayClass26_1_TypeDefinitionIndex = 82386;
+	inline static constexpr unsigned int UIActivityBigCatMainPageController___c__DisplayClass26_1_TypeDefinitionIndex = 67314;
 
+	template <typename T>
 	class UIActivityBigCatMainPageController___c__DisplayClass26_1 : public ::System::Object
 	{
 	public:
-		::Class_3_1699D6295DC3F818_1* reward; // 0x10
+		::PLDJFGCHMKK* reward; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_DB32C2DBCDB93B06;
-class Class_2_8BAFC913A3AC9999;
+class CANOPECPHCD;
+class GCDMLDNBPMN;
 
-#define MOLEMOLE_UIRABSTARUPSKILLWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16753390)
+#define MOLEMOLE_UIRABSTARUPSKILLWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16496E40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABStarUpSkillWidgetController_Context_TypeDefinitionIndex = 60178;
+	inline static constexpr unsigned int UIRABStarUpSkillWidgetController_Context_TypeDefinitionIndex = 65893;
 
 	class UIRABStarUpSkillWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_DB32C2DBCDB93B06* SkillData; // 0x28
-		::Class_2_8BAFC913A3AC9999* FactorData; // 0x30
+		::GCDMLDNBPMN* SkillData; // 0x28
+		::CANOPECPHCD* FactorData; // 0x30
 		::System::Boolean ShowTitle; // 0x38
 
 		::System::Void _ctor()

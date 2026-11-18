@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
@@ -11,15 +11,15 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORFINDTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x102987E0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORFINDTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x102986B0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORFINDTASK_LINK_OFFSET UNITYSDK_OFFSET(0x102985B0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORFINDTASK_TICK_OFFSET UNITYSDK_OFFSET(0x10298920)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORFINDTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x10297960)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORFINDTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x115B6700)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORFINDTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x115B65D0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORFINDTASK_LINK_OFFSET UNITYSDK_OFFSET(0x115B64D0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORFINDTASK_TICK_OFFSET UNITYSDK_OFFSET(0x115B6840)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORFINDTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x115B5840)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_AttractorFindTask_TypeDefinitionIndex = 85151;
+	inline static constexpr unsigned int VirtualProxy_AttractorFindTask_TypeDefinitionIndex = 67073;
 
 	class VirtualProxy_AttractorFindTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{

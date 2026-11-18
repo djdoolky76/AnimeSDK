@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/CGRuntimeUnitLoadType.h"
-#include "unitysdk/MoleMole/Timeline/TimelineComponent/SeamlessConstraintReferenceCompInfo_1.h"
 
 namespace MoleMole { class CGRuntimeUnit; }
 namespace UnityEngine::Animations { class ParentConstraint; }
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_REBINDCOMPS_SEAMLESSPARENTCONSTRAINTSYNCINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x129E8EB0)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_REBINDCOMPS_SEAMLESSPARENTCONSTRAINTSYNCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x129E8EA0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_REBINDCOMPS_SEAMLESSPARENTCONSTRAINTSYNCINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x188295D0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_REBINDCOMPS_SEAMLESSPARENTCONSTRAINTSYNCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x188295C0)
 
 namespace MoleMole::Timeline::TimelineComponent::RebindComps
 {
-	inline static constexpr unsigned int SeamlessParentConstraintSyncInfo_TypeDefinitionIndex = 73105;
+	inline static constexpr unsigned int SeamlessParentConstraintSyncInfo_TypeDefinitionIndex = 70544;
 
-	class SeamlessParentConstraintSyncInfo : public ::MoleMole::Timeline::TimelineComponent::SeamlessConstraintReferenceCompInfo_1<::UnityEngine::Animations::ParentConstraint*>
+	class SeamlessParentConstraintSyncInfo
 	{
 	public:
 		::System::Void _ctor()

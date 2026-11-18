@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/CameraData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderTargetHandle.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/CameraData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
-#include "unitysdk/UnityEngine/Vector4.h"
 
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class NapRenderContext_CurrentFrameRenderConfigs; }
 namespace UnityEngine::Rendering::Universal { class ScreenEffects; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_DOCHARACTERGHOST_OFFSET UNITYSDK_OFFSET(0x1D2FFB80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D2FF9E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D300C30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_GETCHARACTERGHOSTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1D300D10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_ISPASSREADY_OFFSET UNITYSDK_OFFSET(0x1D2FF5A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_SETUPCHARACTERGHOST_OFFSET UNITYSDK_OFFSET(0x1D300B30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1D2FF990)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FF900)
-#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D300ED0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_DOCHARACTERGHOST_OFFSET UNITYSDK_OFFSET(0x1D447A60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D4478C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D448B10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_GETCHARACTERGHOSTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1D448BF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_ISPASSREADY_OFFSET UNITYSDK_OFFSET(0x1D447480)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_SETUPCHARACTERGHOST_OFFSET UNITYSDK_OFFSET(0x1D448A10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1D447870)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4477E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_CHARACTERGHOSTPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D448DB0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int CharacterGhostPass_TypeDefinitionIndex = 27513;
+	inline static constexpr unsigned int CharacterGhostPass_TypeDefinitionIndex = 26391;
 
 	class CharacterGhostPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		::UnityEngine::Rendering::Universal::ScreenEffects* m_ScreenEffects; // 0xA8
-		::Il2CppArray<::UnityEngine::Vector4>* m_GhostLayerParams; // 0xB0
+		::Il2CppArray<::UnityEngine::Vector4>* m_GhostLayerParams; // 0xA8
+		::UnityEngine::Rendering::Universal::ScreenEffects* m_ScreenEffects; // 0xB0
 		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle characterGhostRT; // 0xB8
 
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent passEvent)

@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_KeyCollection_Enumerator.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class Action; }
@@ -11,37 +10,40 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTFORBINARYRESPONSE_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1CE08480)
-#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTFORBINARYRESPONSE_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CE09100)
-#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTFORBINARYRESPONSE_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CE09160)
-#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTFORBINARYRESPONSE_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1CE09110)
-#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTFORBINARYRESPONSE_D__20_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CE08470)
-#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTFORBINARYRESPONSE_D__20__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE08460)
+#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTFORBINARYRESPONSE_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D376A10)
+#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTFORBINARYRESPONSE_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D377690)
+#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTFORBINARYRESPONSE_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D3776F0)
+#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTFORBINARYRESPONSE_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D3776A0)
+#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTFORBINARYRESPONSE_D__20_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D376A00)
+#define MIHOYO_SDK_NETUTIL__PERFORMHTTPREQUESTFORBINARYRESPONSE_D__20__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3769F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil__PerformHttpRequestForBinaryResponse_d__20_TypeDefinitionIndex = 20306;
+	inline static constexpr unsigned int NetUtil__PerformHttpRequestForBinaryResponse_d__20_TypeDefinitionIndex = 19452;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20>
 	class NetUtil__PerformHttpRequestForBinaryResponse_d__20 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x10
-		::System::String* _errorMsg_5__8; // 0x18
-		::System::Action_3<::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::String*>* completeCallback; // 0x20
-		::System::Object* __2__current; // 0x28
-		::System::String* _key_5__5; // 0x30
-		::System::Func_1<::UnityEngine::Networking::UnityWebRequest*>* buildRequestFun; // 0x38
-		::UnityEngine::Networking::UnityWebRequest* _request_5__3; // 0x40
-		::System::Exception* _ex_5__9; // 0x48
-		::System::String* _value_5__6; // 0x50
-		::System::Action* timeoutCallback; // 0x58
-		::System::Collections::Generic::Dictionary_2_KeyCollection_Enumerator<::System::String*, ::System::String*> __s__4; // 0x60
-		::System::Int64 _responseCode_5__7; // 0x78
-		::System::Int32 retryLimit; // 0x80
-		::System::Int32 _leftRetryCount_5__2; // 0x84
-		::System::Int32 __1__state; // 0x88
+		::System::String* _key_5__5; // 0x10
+		::System::Func_1<::UnityEngine::Networking::UnityWebRequest*>* buildRequestFun; // 0x18
+		::UnityEngine::Networking::UnityWebRequest* _request_5__3; // 0x20
+		::System::Action_3<::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::String*>* completeCallback; // 0x28
+		::System::String* _value_5__6; // 0x30
+		::System::Action* timeoutCallback; // 0x38
+		::System::Object* __2__current; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x48
+		::System::Exception* _ex_5__9; // 0x50
+		::System::String* _errorMsg_5__8; // 0x58
+		::System::Object* __s__4; // 0x60
+		::System::Byte _padding0[0x10];
+		::System::Int32 _delayTimeMs_5__1; // 0x78
+		::System::Byte _padding1[0x4];
+		::System::Int64 _responseCode_5__7; // 0x80
+		::System::Int32 retryLimit; // 0x88
 		::System::Single timeoutSecond; // 0x8C
-		::System::Int32 _delayTimeMs_5__1; // 0x90
+		::System::Int32 __1__state; // 0x90
+		::System::Int32 _leftRetryCount_5__2; // 0x94
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

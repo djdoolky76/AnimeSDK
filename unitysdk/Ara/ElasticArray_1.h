@@ -2,12 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
-
 namespace Ara
 {
-	inline static constexpr unsigned int ElasticArray_1_TypeDefinitionIndex = 33564;
+	inline static constexpr unsigned int ElasticArray_1_TypeDefinitionIndex = 33110;
 
 	template <typename T>
 	class ElasticArray_1 : public ::System::Object

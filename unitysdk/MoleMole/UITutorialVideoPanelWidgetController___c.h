@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_E9529ED64113E4E9;
+class DGDNKBFMHME;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UITUTORIALVIDEOPANELWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162A5C90)
-#define MOLEMOLE_UITUTORIALVIDEOPANELWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162A5CD0)
-#define MOLEMOLE_UITUTORIALVIDEOPANELWIDGETCONTROLLER___C__PLAYVIDEOINNER_B__12_0_OFFSET UNITYSDK_OFFSET(0x162A5CE0)
+#define MOLEMOLE_UITUTORIALVIDEOPANELWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19CA2F30)
+#define MOLEMOLE_UITUTORIALVIDEOPANELWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19CA2F70)
+#define MOLEMOLE_UITUTORIALVIDEOPANELWIDGETCONTROLLER___C__PLAYVIDEOINNER_B__12_0_OFFSET UNITYSDK_OFFSET(0x19CA2F80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITutorialVideoPanelWidgetController___c_TypeDefinitionIndex = 75243;
+	inline static constexpr unsigned int UITutorialVideoPanelWidgetController___c_TypeDefinitionIndex = 48679;
 
 	class UITutorialVideoPanelWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_E9529ED64113E4E9*>** StaticGet___9__12_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action_1<::Class_1_E9529ED64113E4E9*>**)Il2CppClass::FromTypeDefinitionIndex(UITutorialVideoPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x333C0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UITutorialVideoPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x35770);
 		}
-		static ::MoleMole::UITutorialVideoPanelWidgetController___c** StaticGet___9()
+		static ::System::Action_1<::DGDNKBFMHME*>** StaticGet___9__12_0()
 		{
-			return (::MoleMole::UITutorialVideoPanelWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UITutorialVideoPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x333C8);
+			return (::System::Action_1<::DGDNKBFMHME*>**)Il2CppClass::FromTypeDefinitionIndex(UITutorialVideoPanelWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x35778);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITUTORIALVIDEOPANELWIDGETCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PlayVideoInner_b__12_0(::Class_1_E9529ED64113E4E9* vp)
+		::System::Void _PlayVideoInner_b__12_0(::DGDNKBFMHME* vp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E9529ED64113E4E9*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITUTORIALVIDEOPANELWIDGETCONTROLLER___C__PLAYVIDEOINNER_B__12_0_OFFSET))(this, vp);
+			return ((::System::Void(*)(::PVOID, ::DGDNKBFMHME*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITUTORIALVIDEOPANELWIDGETCONTROLLER___C__PLAYVIDEOINNER_B__12_0_OFFSET))(this, vp);
 		}
 	};
 }

@@ -4,13 +4,13 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_CORECAMERAVALUES_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA3A790)
-#define UNITYENGINE_RENDERING_CORECAMERAVALUES_EQUALS_OFFSET UNITYSDK_OFFSET(0xA0F0F0)
-#define UNITYENGINE_RENDERING_CORECAMERAVALUES_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA3A7F0)
+#define UNITYENGINE_RENDERING_CORECAMERAVALUES_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x918700)
+#define UNITYENGINE_RENDERING_CORECAMERAVALUES_EQUALS_OFFSET UNITYSDK_OFFSET(0x903020)
+#define UNITYENGINE_RENDERING_CORECAMERAVALUES_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x918760)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CoreCameraValues_TypeDefinitionIndex = 6231;
+	inline static constexpr unsigned int CoreCameraValues_TypeDefinitionIndex = 6246;
 
 	struct alignas(4) CoreCameraValues
 	{
@@ -18,10 +18,12 @@ namespace UnityEngine::Rendering
 		::System::UInt32 cullingMask; // 0x14
 		::System::Int32 instanceID; // 0x18
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::CoreCameraValues other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::CoreCameraValues))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CORECAMERAVALUES_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{

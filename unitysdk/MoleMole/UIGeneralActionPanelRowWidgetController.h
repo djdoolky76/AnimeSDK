@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
-#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/LIBOIKJGAIH.h"
 
-class Class_2_00C847E56FB9E0BF_1;
+class NHGOPMDGMNE;
 namespace MoleMole { class UIControlReference; }
 namespace System { class Object; }
 
-#define MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x18AD38B0)
-#define MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x18AD3920)
-#define MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x18AD39C0)
-#define MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD3B90)
-#define MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x18AD3BA0)
-#define MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x18AD3C40)
+#define MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET UNITYSDK_OFFSET(0x180A43D0)
+#define MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x180A4160)
+#define MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x180A4200)
+#define MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x180A4440)
+#define MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x180A4450)
+#define MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x180A44F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralActionPanelRowWidgetController_TypeDefinitionIndex = 84583;
+	inline static constexpr unsigned int UIGeneralActionPanelRowWidgetController_TypeDefinitionIndex = 65952;
 
 	class UIGeneralActionPanelRowWidgetController : public ::MoleMole::ScrollViewItemWidgetController
 	{
@@ -26,14 +26,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::Class_2_00C847E56FB9E0BF_1* get__viewModel()
+		::System::Void OnCreateViewModel(::LIBOIKJGAIH& binderInfo, ::MoleMole::UIControlReference* controlReference)
 		{
-			return ((::Class_2_00C847E56FB9E0BF_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
-		}
-
-		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
-		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
 		}
 
 		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
@@ -41,14 +36,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
 		}
 
-		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		::System::Void __base_OnCreateViewModel(::LIBOIKJGAIH& P0, ::MoleMole::UIControlReference* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
 		}
 
 		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::NHGOPMDGMNE* OGMPOGIHBIK()
+		{
+			return ((::NHGOPMDGMNE*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALACTIONPANELROWWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET))(this);
 		}
 	};
 }

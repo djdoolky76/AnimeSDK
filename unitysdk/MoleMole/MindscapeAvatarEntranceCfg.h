@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MINDSCAPEAVATARENTRANCECFG__CTOR_OFFSET UNITYSDK_OFFSET(0x199530C0)
+#define MOLEMOLE_MINDSCAPEAVATARENTRANCECFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A90FD70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MindscapeAvatarEntranceCfg_TypeDefinitionIndex = 90260;
+	inline static constexpr unsigned int MindscapeAvatarEntranceCfg_TypeDefinitionIndex = 39891;
 
 	class MindscapeAvatarEntranceCfg : public ::System::Object
 	{

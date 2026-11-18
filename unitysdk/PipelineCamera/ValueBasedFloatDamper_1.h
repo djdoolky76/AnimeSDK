@@ -4,14 +4,12 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace System { template <typename T> class Func_1; }
-
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ValueBasedFloatDamper_1_TypeDefinitionIndex = 38322;
+	inline static constexpr unsigned int ValueBasedFloatDamper_1_TypeDefinitionIndex = 36324;
 
 	template <typename T>
-	struct ValueBasedFloatDamper_1
+	struct alignas(8) ValueBasedFloatDamper_1
 	{
 		::System::Nullable_1<::System::Single> _currentValue; // 0x0
 		::System::Nullable_1<::System::Single> _lastTargetValue; // 0x0

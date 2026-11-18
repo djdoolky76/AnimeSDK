@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/Serializer_1.h"
 #include "unitysdk/System/Guid.h"
 
 namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace System { class String; }
 
-#define SIRENIX_SERIALIZATION_GUIDSERIALIZER_READVALUE_OFFSET UNITYSDK_OFFSET(0x1F916D40)
-#define SIRENIX_SERIALIZATION_GUIDSERIALIZER_WRITEVALUE_OFFSET UNITYSDK_OFFSET(0x1F917340)
-#define SIRENIX_SERIALIZATION_GUIDSERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F917430)
+#define SIRENIX_SERIALIZATION_GUIDSERIALIZER_READVALUE_OFFSET UNITYSDK_OFFSET(0x1F85BC80)
+#define SIRENIX_SERIALIZATION_GUIDSERIALIZER_WRITEVALUE_OFFSET UNITYSDK_OFFSET(0x1F85C280)
+#define SIRENIX_SERIALIZATION_GUIDSERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F85C370)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int GuidSerializer_TypeDefinitionIndex = 7548;
+	inline static constexpr unsigned int GuidSerializer_TypeDefinitionIndex = 7560;
 
-	class GuidSerializer : public ::Sirenix::Serialization::Serializer_1<::System::Guid>
+	class GuidSerializer
 	{
 	public:
 		::System::Void _ctor()

@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/ZNet/ZNetSceneRootCom_Enum_3_36A1D5219DB23A51.h"
+#include "unitysdk/MoleMole/ZNet/ZNetSceneRootCom_FGCOLFDLJHB.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace MoleMole::EffectSimulate { class FxEditorConfigData; }
 
-#define MOLEMOLE_ZNET_ZNETSCENEROOTCOM_FORCERESIMULATEAFTERONESECOND_OFFSET UNITYSDK_OFFSET(0x10F17F70)
-#define MOLEMOLE_ZNET_ZNETSCENEROOTCOM_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10F17F30)
-#define MOLEMOLE_ZNET_ZNETSCENEROOTCOM_METHOD_5_DE3FCF8E254811E9_OFFSET UNITYSDK_OFFSET(0x10F18000)
-#define MOLEMOLE_ZNET_ZNETSCENEROOTCOM_UPDATE_OFFSET UNITYSDK_OFFSET(0x10F17E60)
-#define MOLEMOLE_ZNET_ZNETSCENEROOTCOM__CTOR_OFFSET UNITYSDK_OFFSET(0x10F17FB0)
+#define MOLEMOLE_ZNET_ZNETSCENEROOTCOM_FORCERESIMULATEAFTERONESECOND_OFFSET UNITYSDK_OFFSET(0x13B46B70)
+#define MOLEMOLE_ZNET_ZNETSCENEROOTCOM_GHKEPOJICMP_OFFSET UNITYSDK_OFFSET(0x13B46B30)
+#define MOLEMOLE_ZNET_ZNETSCENEROOTCOM_KOBEJBFMIAP_OFFSET UNITYSDK_OFFSET(0x13B46C00)
+#define MOLEMOLE_ZNET_ZNETSCENEROOTCOM_UPDATE_OFFSET UNITYSDK_OFFSET(0x13B46A60)
+#define MOLEMOLE_ZNET_ZNETSCENEROOTCOM__CTOR_OFFSET UNITYSDK_OFFSET(0x13B46BB0)
 
 namespace MoleMole::ZNet
 {
-	inline static constexpr unsigned int ZNetSceneRootCom_TypeDefinitionIndex = 46092;
+	inline static constexpr unsigned int ZNetSceneRootCom_TypeDefinitionIndex = 46736;
 
 	class ZNetSceneRootCom : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::MoleMole::ZNet::ZNetSceneRootCom_Enum_3_36A1D5219DB23A51 rootType; // 0x18
-		::System::Single Field_5_0; // 0x1C
+		::MoleMole::ZNet::ZNetSceneRootCom_FGCOLFDLJHB rootType; // 0x18
+		::System::Single JCILLMKAIOK; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -36,14 +36,14 @@ namespace MoleMole::ZNet
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_ZNETSCENEROOTCOM_FORCERESIMULATEAFTERONESECOND_OFFSET))(this);
 		}
 
-		::System::Void Method_5_CA373AA1C7054598()
+		static ::MoleMole::EffectSimulate::FxEditorConfigData* KOBEJBFMIAP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_ZNETSCENEROOTCOM_METHOD_5_CA373AA1C7054598_OFFSET))(this);
+			return ((::MoleMole::EffectSimulate::FxEditorConfigData*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_ZNETSCENEROOTCOM_KOBEJBFMIAP_OFFSET))();
 		}
 
-		static ::MoleMole::EffectSimulate::FxEditorConfigData* Method_5_DE3FCF8E254811E9()
+		::System::Void GHKEPOJICMP()
 		{
-			return ((::MoleMole::EffectSimulate::FxEditorConfigData*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_ZNETSCENEROOTCOM_METHOD_5_DE3FCF8E254811E9_OFFSET))();
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_ZNETSCENEROOTCOM_GHKEPOJICMP_OFFSET))(this);
 		}
 	};
 }

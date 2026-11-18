@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICACCESSORYCHILDTRANSFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xF138EC0)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICACCESSORYCHILDTRANSFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xFFD1F10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDynamicAccessoryChildTransformInfo_TypeDefinitionIndex = 78088;
+	inline static constexpr unsigned int ConfigDynamicAccessoryChildTransformInfo_TypeDefinitionIndex = 85622;
 
 	class ConfigDynamicAccessoryChildTransformInfo : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_CONFIGMOBILESETTING_METHOD_1_08DCF72FBE01FF99_OFFSET UNITYSDK_OFFSET(0x1BD80040)
-#define MOLEMOLE_CONFIGMOBILESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD80000)
+#define MOLEMOLE_CONFIGMOBILESETTING_AFNOALNPOIN_OFFSET UNITYSDK_OFFSET(0x190C44F0)
+#define MOLEMOLE_CONFIGMOBILESETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x190C44B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigMobileSetting_TypeDefinitionIndex = 69249;
+	inline static constexpr unsigned int ConfigMobileSetting_TypeDefinitionIndex = 43711;
 
 	class ConfigMobileSetting : public ::System::Object
 	{
@@ -32,9 +32,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMOBILESETTING__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_08DCF72FBE01FF99()
+		::System::Void AFNOALNPOIN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMOBILESETTING_METHOD_1_08DCF72FBE01FF99_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGMOBILESETTING_AFNOALNPOIN_OFFSET))(this);
 		}
 	};
 }

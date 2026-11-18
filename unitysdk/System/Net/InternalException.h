@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_NET_INTERNALEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7E5010)
-#define SYSTEM_NET_INTERNALEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E4F50)
+#define SYSTEM_NET_INTERNALEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EA980A0)
+#define SYSTEM_NET_INTERNALEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA97FE0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int InternalException_TypeDefinitionIndex = 3292;
+	inline static constexpr unsigned int InternalException_TypeDefinitionIndex = 3291;
 
 	class InternalException : public ::System::SystemException
 	{

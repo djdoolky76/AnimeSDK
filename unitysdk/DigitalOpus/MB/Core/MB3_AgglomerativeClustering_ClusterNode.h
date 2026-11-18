@@ -5,12 +5,12 @@
 
 namespace DigitalOpus::MB::Core { class MB3_AgglomerativeClustering_item_s; }
 
-#define DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_CLUSTERNODE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F29F2C0)
-#define DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_CLUSTERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F29F220)
+#define DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_CLUSTERNODE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F6B9640)
+#define DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_CLUSTERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6B95A0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_AgglomerativeClustering_ClusterNode_TypeDefinitionIndex = 94548;
+	inline static constexpr unsigned int MB3_AgglomerativeClustering_ClusterNode_TypeDefinitionIndex = 96235;
 
 	class MB3_AgglomerativeClustering_ClusterNode : public ::System::Object
 	{
@@ -21,6 +21,7 @@ namespace DigitalOpus::MB::Core
 		::System::Int32 height; // 0x28
 		::System::Single distToMergedCentroid; // 0x2C
 		::UnityEngine::Vector3 centroid; // 0x30
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Int32>* leafs; // 0x40
 		::System::Int32 idx; // 0x48
 		::System::Boolean isUnclustered; // 0x4C
@@ -30,9 +31,9 @@ namespace DigitalOpus::MB::Core
 			return ((::System::Void(*)(::PVOID, ::DigitalOpus::MB::Core::MB3_AgglomerativeClustering_item_s*, ::System::Int32))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_CLUSTERNODE__CTOR_OFFSET))(this, ii, index);
 		}
 
-		::System::Void _ctor_1(::DigitalOpus::MB::Core::MB3_AgglomerativeClustering_ClusterNode* a, ::DigitalOpus::MB::Core::MB3_AgglomerativeClustering_ClusterNode* b, ::System::Int32 index, ::System::Int32 h, ::System::Single dist, ::Il2CppArray<::DigitalOpus::MB::Core::MB3_AgglomerativeClustering_ClusterNode*>* clusters)
+		::System::Void _ctor_1(::DigitalOpus::MB::Core::MB3_AgglomerativeClustering_ClusterNode* a, ::DigitalOpus::MB::Core::MB3_AgglomerativeClustering_ClusterNode* b, ::System::Int32 index, ::System::Int32 h, ::System::Single dist, ::Il2CppArray<::System::Object*>* clusters)
 		{
-			return ((::System::Void(*)(::PVOID, ::DigitalOpus::MB::Core::MB3_AgglomerativeClustering_ClusterNode*, ::DigitalOpus::MB::Core::MB3_AgglomerativeClustering_ClusterNode*, ::System::Int32, ::System::Int32, ::System::Single, ::Il2CppArray<::DigitalOpus::MB::Core::MB3_AgglomerativeClustering_ClusterNode*>*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_CLUSTERNODE__CTOR_1_OFFSET))(this, a, b, index, h, dist, clusters);
+			return ((::System::Void(*)(::PVOID, ::DigitalOpus::MB::Core::MB3_AgglomerativeClustering_ClusterNode*, ::DigitalOpus::MB::Core::MB3_AgglomerativeClustering_ClusterNode*, ::System::Int32, ::System::Int32, ::System::Single, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_CLUSTERNODE__CTOR_1_OFFSET))(this, a, b, index, h, dist, clusters);
 		}
 	};
 }

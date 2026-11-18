@@ -7,13 +7,14 @@
 namespace MoleMole { class UIMonsterFantasyRoleItemWidgetController_HpAnimDataBindView; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIMONSTERFANTASYROLEITEMWIDGETCONTROLLER_HPANIMDATABINDVIEW__HANDLEHPUPANIM_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x871BA0)
-#define MOLEMOLE_UIMONSTERFANTASYROLEITEMWIDGETCONTROLLER_HPANIMDATABINDVIEW__HANDLEHPUPANIM_D__19_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_UIMONSTERFANTASYROLEITEMWIDGETCONTROLLER_HPANIMDATABINDVIEW__HANDLEHPUPANIM_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7B4B30)
+#define MOLEMOLE_UIMONSTERFANTASYROLEITEMWIDGETCONTROLLER_HPANIMDATABINDVIEW__HANDLEHPUPANIM_D__19_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyRoleItemWidgetController_HpAnimDataBindView__HandleHpUpAnim_d__19_TypeDefinitionIndex = 45813;
+	inline static constexpr unsigned int UIMonsterFantasyRoleItemWidgetController_HpAnimDataBindView__HandleHpUpAnim_d__19_TypeDefinitionIndex = 92623;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19>
 	struct alignas(8) UIMonsterFantasyRoleItemWidgetController_HpAnimDataBindView__HandleHpUpAnim_d__19
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10

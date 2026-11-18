@@ -3,7 +3,7 @@
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int AstNode_AstType_TypeDefinitionIndex = 1638;
+	inline static constexpr unsigned int AstNode_AstType_TypeDefinitionIndex = 1637;
 
 	enum class AstNode_AstType : ::System::Int32
 	{

@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/APPJJNBEEJK.h"
+#include "unitysdk/System/Object.h"
+
+class FBHPDPBIGPK;
+class IDGDIFDMIDP;
+
+#define NPPLKJIMDIE_OELOIEMLPHE_KBMDALOKNOI_OFFSET UNITYSDK_OFFSET(0x10602730)
+#define NPPLKJIMDIE_OELOIEMLPHE_PGAFPOFBBED_OFFSET UNITYSDK_OFFSET(0x106028C0)
+#define NPPLKJIMDIE_OELOIEMLPHE__CTOR_OFFSET UNITYSDK_OFFSET(0x10602720)
+
+inline static constexpr unsigned int NPPLKJIMDIE_OELOIEMLPHE_TypeDefinitionIndex = 45729;
+
+class NPPLKJIMDIE_OELOIEMLPHE : public ::System::Object
+{
+public:
+	::APPJJNBEEJK DFIJKGPOMAP; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPPLKJIMDIE_OELOIEMLPHE__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KBMDALOKNOI(::FBHPDPBIGPK* PMLAACAFPDO)
+	{
+		return ((::System::Void(*)(::PVOID, ::FBHPDPBIGPK*))((::PBYTE)hIl2Cpp + NPPLKJIMDIE_OELOIEMLPHE_KBMDALOKNOI_OFFSET))(this, PMLAACAFPDO);
+	}
+
+	::System::Void PGAFPOFBBED(::IDGDIFDMIDP* AJAAEBEOIJM)
+	{
+		return ((::System::Void(*)(::PVOID, ::IDGDIFDMIDP*))((::PBYTE)hIl2Cpp + NPPLKJIMDIE_OELOIEMLPHE_PGAFPOFBBED_OFFSET))(this, AJAAEBEOIJM);
+	}
+};

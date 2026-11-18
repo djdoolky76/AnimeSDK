@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlatBuffers/Config/RABMapConfigTemplate.h"
-#include "unitysdk/Struct_2_3E75877A2888D88A_784.h"
+#include "unitysdk/HGOBJKFDAHJ.h"
 
-class Class_0_16E4307DCC419505_7;
+class KGBFLHNJHHN;
 
-#define MOLEMOLE_PROJECT_CONFIG_RABMAPCONFIGTEMPLATEEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x169935B0)
+#define MOLEMOLE_PROJECT_CONFIG_RABMAPCONFIGTEMPLATEEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF679C0)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int RABMapConfigTemplateExt_TypeDefinitionIndex = 11834;
+	inline static constexpr unsigned int RABMapConfigTemplateExt_TypeDefinitionIndex = 10671;
 
 	class RABMapConfigTemplateExt : public ::MoleMole::FlatBuffers::Config::RABMapConfigTemplate
 	{
 	public:
-		::System::Void _ctor(::Struct_2_3E75877A2888D88A_784 data, ::Class_0_16E4307DCC419505_7* notify)
+		::System::Void _ctor(::HGOBJKFDAHJ data, ::KGBFLHNJHHN* notify)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_784, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + MOLEMOLE_PROJECT_CONFIG_RABMAPCONFIGTEMPLATEEXT__CTOR_OFFSET))(this, data, notify);
+			return ((::System::Void(*)(::PVOID, ::HGOBJKFDAHJ, ::KGBFLHNJHHN*))((::PBYTE)hIl2Cpp + MOLEMOLE_PROJECT_CONFIG_RABMAPCONFIGTEMPLATEEXT__CTOR_OFFSET))(this, data, notify);
 		}
 	};
 }

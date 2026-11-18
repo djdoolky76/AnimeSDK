@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIYorozuyaChapterMap3DModelController; }
 
-#define MOLEMOLE_UIYOROZUYACHAPTERMAP3DMODELCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E3CAC0)
-#define MOLEMOLE_UIYOROZUYACHAPTERMAP3DMODELCONTROLLER___C__DISPLAYCLASS44_0__PLAYSTARTMAP_B__0_OFFSET UNITYSDK_OFFSET(0x11E3CAD0)
+#define MOLEMOLE_UIYOROZUYACHAPTERMAP3DMODELCONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12F9C930)
+#define MOLEMOLE_UIYOROZUYACHAPTERMAP3DMODELCONTROLLER___C__DISPLAYCLASS44_0__PLAYSTARTMAP_B__0_OFFSET UNITYSDK_OFFSET(0x12F9C940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaChapterMap3DModelController___c__DisplayClass44_0_TypeDefinitionIndex = 73885;
+	inline static constexpr unsigned int UIYorozuyaChapterMap3DModelController___c__DisplayClass44_0_TypeDefinitionIndex = 82301;
 
 	class UIYorozuyaChapterMap3DModelController___c__DisplayClass44_0 : public ::System::Object
 	{

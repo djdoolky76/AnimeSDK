@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int FixedUpdate_DirectorFixedSampleTime_TypeDefinitionIndex = 5574;
+	inline static constexpr unsigned int FixedUpdate_DirectorFixedSampleTime_TypeDefinitionIndex = 5577;
 
-	struct alignas(1) FixedUpdate_DirectorFixedSampleTime
+	struct alignas(4) FixedUpdate_DirectorFixedSampleTime
 	{
 	};
 }

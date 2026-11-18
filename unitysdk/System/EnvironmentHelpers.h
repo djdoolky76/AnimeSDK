@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_ENVIRONMENTHELPERS_ISWINDOWSVISTAORABOVE_OFFSET UNITYSDK_OFFSET(0x1DD16430)
+#define SYSTEM_ENVIRONMENTHELPERS_ISWINDOWSVISTAORABOVE_OFFSET UNITYSDK_OFFSET(0x1E0B7150)
 
 namespace System
 {
-	inline static constexpr unsigned int EnvironmentHelpers_TypeDefinitionIndex = 2695;
+	inline static constexpr unsigned int EnvironmentHelpers_TypeDefinitionIndex = 2694;
 
 	class EnvironmentHelpers : public ::System::Object
 	{

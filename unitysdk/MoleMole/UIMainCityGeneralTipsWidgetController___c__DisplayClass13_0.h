@@ -7,22 +7,22 @@ namespace DG::Tweening { class TweenCallback; }
 namespace MoleMole { class UIMainCityGeneralTipsWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYGENERALTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189C1B20)
-#define MOLEMOLE_UIMAINCITYGENERALTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__UPDATECONTENTFADEOUTANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x189C1B30)
-#define MOLEMOLE_UIMAINCITYGENERALTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__UPDATECONTENTFADEOUTANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x189C1BF0)
+#define MOLEMOLE_UIMAINCITYGENERALTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19042760)
+#define MOLEMOLE_UIMAINCITYGENERALTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__UPDATECONTENTFADEOUTANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x19042770)
+#define MOLEMOLE_UIMAINCITYGENERALTIPSWIDGETCONTROLLER___C__DISPLAYCLASS13_0__UPDATECONTENTFADEOUTANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x19042830)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityGeneralTipsWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 68199;
+	inline static constexpr unsigned int UIMainCityGeneralTipsWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 79267;
 
 	class UIMainCityGeneralTipsWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::DG::Tweening::TweenCallback* __9__1; // 0x18
-		::MoleMole::UIMainCityGeneralTipsWidgetController* __4__this; // 0x20
-		::UnityEngine::Vector2 finalSize; // 0x28
-		::System::Single length; // 0x30
+		::MoleMole::UIMainCityGeneralTipsWidgetController* __4__this; // 0x10
+		::System::Action* callback; // 0x18
+		::DG::Tweening::TweenCallback* __9__1; // 0x20
+		::System::Single length; // 0x28
+		::UnityEngine::Vector2 finalSize; // 0x2C
 		::System::Boolean resetLayout; // 0x34
 
 		::System::Void _ctor()

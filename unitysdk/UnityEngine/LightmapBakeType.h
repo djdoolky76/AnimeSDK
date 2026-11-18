@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LightmapBakeType_TypeDefinitionIndex = 5221;
+	inline static constexpr unsigned int LightmapBakeType_TypeDefinitionIndex = 5223;
 
 	enum class LightmapBakeType : ::System::Int32
 	{

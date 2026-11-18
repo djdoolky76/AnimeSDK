@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_CUSTOMCONTEXTMENUNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AD550)
+#define SIRENIX_ODININSPECTOR_CUSTOMCONTEXTMENUNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D757620)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int CustomContextMenuNapAttribute_TypeDefinitionIndex = 8114;
+	inline static constexpr unsigned int CustomContextMenuNapAttribute_TypeDefinitionIndex = 8149;
 
 	class CustomContextMenuNapAttribute : public ::System::Attribute
 	{

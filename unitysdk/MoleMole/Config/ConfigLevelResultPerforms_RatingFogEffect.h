@@ -7,11 +7,12 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLevelResultPerforms_RatingFogEffect_TypeDefinitionIndex = 73019;
+	inline static constexpr unsigned int ConfigLevelResultPerforms_RatingFogEffect_TypeDefinitionIndex = 56351;
 
 	struct alignas(8) ConfigLevelResultPerforms_RatingFogEffect
 	{
 		::MoleMole::Config::ShaderCustomType FogEffectType; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::String*>* FogEffects; // 0x18
 	};
 }

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/XR/AvailableTrackingData.h"
 #include "unitysdk/UnityEngine/XR/XRNode.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_XR_XRNODESTATE_SET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x3253A0)
-#define UNITYENGINE_XR_XRNODESTATE_SET_TRACKED_OFFSET UNITYSDK_OFFSET(0xACAB00)
-#define UNITYENGINE_XR_XRNODESTATE_SET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x9B70F0)
+#define UNITYENGINE_XR_XRNODESTATE_SET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x359150)
+#define UNITYENGINE_XR_XRNODESTATE_SET_TRACKED_OFFSET UNITYSDK_OFFSET(0x9B1230)
+#define UNITYENGINE_XR_XRNODESTATE_SET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x9B1220)
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRNodeState_TypeDefinitionIndex = 28239;
+	inline static constexpr unsigned int XRNodeState_TypeDefinitionIndex = 27657;
 
-	struct alignas(8) XRNodeState
+	struct alignas(4) XRNodeState
 	{
 		::UnityEngine::XR::XRNode m_Type; // 0x10
 		::UnityEngine::XR::AvailableTrackingData m_AvailableFields; // 0x14

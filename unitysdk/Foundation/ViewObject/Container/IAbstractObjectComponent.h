@@ -3,7 +3,7 @@
 
 namespace Foundation::ViewObject::Container
 {
-	inline static constexpr unsigned int IAbstractObjectComponent_TypeDefinitionIndex = 89093;
+	inline static constexpr unsigned int IAbstractObjectComponent_TypeDefinitionIndex = 43067;
 
 	class IAbstractObjectComponent
 	{

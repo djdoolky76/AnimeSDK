@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JDFJEIJHICL.h"
+#include "unitysdk/KCBEGMCCKCA.h"
+
+class BDAGGNNDKIL;
+class COMMFDFJMHF;
+namespace System { class String; }
+
+#define NPHNOMHCOEK_CBHGHHHODOI_OFFSET UNITYSDK_OFFSET(0x14F44DE0)
+#define NPHNOMHCOEK_DEJBOKDOGCD_OFFSET UNITYSDK_OFFSET(0x14F44E40)
+#define NPHNOMHCOEK_DJDJKILDPGP_OFFSET UNITYSDK_OFFSET(0x14F44D50)
+#define NPHNOMHCOEK_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x14F44FD0)
+#define NPHNOMHCOEK_EDHKKMBBHHG_OFFSET UNITYSDK_OFFSET(0x14F44D40)
+#define NPHNOMHCOEK_LLMEJGMDIIJ_OFFSET UNITYSDK_OFFSET(0x14F45080)
+#define NPHNOMHCOEK_MCGFDCGKHNN_OFFSET UNITYSDK_OFFSET(0x14F45010)
+#define NPHNOMHCOEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14F44ED0)
+#define NPHNOMHCOEK__CTOR_OFFSET UNITYSDK_OFFSET(0x14F44FC0)
+
+inline static constexpr unsigned int NPHNOMHCOEK_TypeDefinitionIndex = 72441;
+
+class NPHNOMHCOEK : public ::KCBEGMCCKCA
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPHNOMHCOEK__CTOR_OFFSET))(this);
+	}
+
+	::JDFJEIJHICL EDHKKMBBHHG()
+	{
+		return ((::JDFJEIJHICL(*)(::PVOID))((::PBYTE)hIl2Cpp + NPHNOMHCOEK_EDHKKMBBHHG_OFFSET))(this);
+	}
+
+	::System::Void DJDJKILDPGP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPHNOMHCOEK_DJDJKILDPGP_OFFSET))(this);
+	}
+
+	::System::Void CBHGHHHODOI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPHNOMHCOEK_CBHGHHHODOI_OFFSET))(this);
+	}
+
+	::System::Void DEJBOKDOGCD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPHNOMHCOEK_DEJBOKDOGCD_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPHNOMHCOEK_TOSTRING_OFFSET))(this);
+	}
+
+	::System::String* DPIHOJBBGLA()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPHNOMHCOEK_DPIHOJBBGLA_OFFSET))(this);
+	}
+
+	::NPHNOMHCOEK* MCGFDCGKHNN(::COMMFDFJMHF* DFHMOELFDEC)
+	{
+		return ((::NPHNOMHCOEK*(*)(::PVOID, ::COMMFDFJMHF*))((::PBYTE)hIl2Cpp + NPHNOMHCOEK_MCGFDCGKHNN_OFFSET))(this, DFHMOELFDEC);
+	}
+
+	::BDAGGNNDKIL* LLMEJGMDIIJ()
+	{
+		return ((::BDAGGNNDKIL*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPHNOMHCOEK_LLMEJGMDIIJ_OFFSET))(this);
+	}
+};

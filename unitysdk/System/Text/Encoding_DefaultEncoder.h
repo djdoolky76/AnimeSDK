@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/Text/Encoder.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class Object; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTECOUNT_1_OFFSET UNITYSDK_OFFSET(0x1D8D4610)
-#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTECOUNT_OFFSET UNITYSDK_OFFSET(0x1D8D45E0)
-#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTES_1_OFFSET UNITYSDK_OFFSET(0x1D8D4680)
-#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1D8D4640)
-#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x1D8D4470)
-#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1D8D4520)
-#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D8D41A0)
-#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D4190)
+#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTECOUNT_1_OFFSET UNITYSDK_OFFSET(0x1DDB0AB0)
+#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTECOUNT_OFFSET UNITYSDK_OFFSET(0x1DDB0A80)
+#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTES_1_OFFSET UNITYSDK_OFFSET(0x1DDB0B20)
+#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1DDB0AE0)
+#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x1DDB0910)
+#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1DDB09C0)
+#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DDB0640)
+#define SYSTEM_TEXT_ENCODING_DEFAULTENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDB0630)
 
 namespace System::Text
 {
@@ -24,8 +24,9 @@ namespace System::Text
 	{
 	public:
 		::System::Text::Encoding* m_encoding; // 0x20
-		::System::Char charLeftOver; // 0x28
-		::System::Boolean m_hasInitializedEncoding; // 0x2A
+		::System::Boolean m_hasInitializedEncoding; // 0x28
+		::System::Byte _padding0[0x1];
+		::System::Char charLeftOver; // 0x2A
 
 		::System::Void _ctor(::System::Text::Encoding* encoding)
 		{
@@ -52,9 +53,9 @@ namespace System::Text
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTECOUNT_OFFSET))(this, chars, index, count, flush);
 		}
 
-		::System::Int32 GetByteCount_1(::System::Char* chars, ::System::Int32 count, ::System::Boolean flush)
+		::System::Int32 GetByteCount_1(::PVOID chars, ::System::Int32 count, ::System::Boolean flush)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Char*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTECOUNT_1_OFFSET))(this, chars, count, flush);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTECOUNT_1_OFFSET))(this, chars, count, flush);
 		}
 
 		::System::Int32 GetBytes(::Il2CppArray<::System::Char>* chars, ::System::Int32 charIndex, ::System::Int32 charCount, ::Il2CppArray<::System::Byte>* bytes, ::System::Int32 byteIndex, ::System::Boolean flush)
@@ -62,9 +63,9 @@ namespace System::Text
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTES_OFFSET))(this, chars, charIndex, charCount, bytes, byteIndex, flush);
 		}
 
-		::System::Int32 GetBytes_1(::System::Char* chars, ::System::Int32 charCount, ::System::Byte* bytes, ::System::Int32 byteCount, ::System::Boolean flush)
+		::System::Int32 GetBytes_1(::PVOID chars, ::System::Int32 charCount, ::PVOID bytes, ::System::Int32 byteCount, ::System::Boolean flush)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Char*, ::System::Int32, ::System::Byte*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTES_1_OFFSET))(this, chars, charCount, bytes, byteCount, flush);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32, ::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTENCODER_GETBYTES_1_OFFSET))(this, chars, charCount, bytes, byteCount, flush);
 		}
 	};
 }

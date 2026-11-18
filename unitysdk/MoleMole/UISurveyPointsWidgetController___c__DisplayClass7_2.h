@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UISurveyPointsWidgetController___c__DisplayClass7_1; }
 namespace UnityEngine::UI::Extension { class UIDynamicNumberLabel; }
 
-#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_2__CTOR_OFFSET UNITYSDK_OFFSET(0x19154080)
-#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_2__REFRESHVIEW_B__5_OFFSET UNITYSDK_OFFSET(0x19154090)
+#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_2__CTOR_OFFSET UNITYSDK_OFFSET(0x185CFFF0)
+#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_2__REFRESHVIEW_B__5_OFFSET UNITYSDK_OFFSET(0x185D0000)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISurveyPointsWidgetController___c__DisplayClass7_2_TypeDefinitionIndex = 76740;
+	inline static constexpr unsigned int UISurveyPointsWidgetController___c__DisplayClass7_2_TypeDefinitionIndex = 77134;
 
+	template <typename T1, typename T2>
 	class UISurveyPointsWidgetController___c__DisplayClass7_2 : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::Extension::UIDynamicNumberLabel* dynamicLabel; // 0x10
-		::MoleMole::UISurveyPointsWidgetController___c__DisplayClass7_1* CS___8__locals2; // 0x18
+		::System::Object* CS___8__locals2; // 0x10
+		::UnityEngine::UI::Extension::UIDynamicNumberLabel* dynamicLabel; // 0x18
 
 		::System::Void _ctor()
 		{

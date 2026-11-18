@@ -1,19 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CameraConfig.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
+#include "unitysdk/CameraConfig.h"
 
+namespace MoleMole { class ConfigUICoopTeam3D_CameraConfig; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define CONFIGCAMERASPHERICALCOORDINATE_GETCONFIGBYID_OFFSET UNITYSDK_OFFSET(0x13CD8D60)
-#define CONFIGCAMERASPHERICALCOORDINATE__CTOR_OFFSET UNITYSDK_OFFSET(0x13CD8E00)
+#define CONFIGCAMERASPHERICALCOORDINATE_GETCONFIGBYID_OFFSET UNITYSDK_OFFSET(0x13281B90)
+#define CONFIGCAMERASPHERICALCOORDINATE__CTOR_OFFSET UNITYSDK_OFFSET(0x13281C30)
 
-inline static constexpr unsigned int ConfigCameraSphericalCoordinate_TypeDefinitionIndex = 43887;
+inline static constexpr unsigned int ConfigCameraSphericalCoordinate_TypeDefinitionIndex = 51797;
 
 class ConfigCameraSphericalCoordinate : public ::Foundation::MihoyoSerializedScriptableObject
 {
 public:
-	::Il2CppArray<::CameraConfig>* cameraConfigs; // 0x58
+	::Il2CppArray<::MoleMole::ConfigUICoopTeam3D_CameraConfig*>* cameraConfigs; // 0x58
 	::UnityEngine::AnimationCurve* radiusCurve; // 0x60
 	::UnityEngine::AnimationCurve* heightCurve; // 0x68
 	::UnityEngine::AnimationCurve* rotationCurve; // 0x70

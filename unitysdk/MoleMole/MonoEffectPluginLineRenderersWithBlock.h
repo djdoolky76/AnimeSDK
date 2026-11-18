@@ -7,39 +7,42 @@
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_METHOD_6_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x19094F20)
-#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_METHOD_6_56CE4AFC5339F746_OFFSET UNITYSDK_OFFSET(0x19095F90)
-#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_METHOD_6_59436527057ADF55_OFFSET UNITYSDK_OFFSET(0x19095C90)
-#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_METHOD_6_8B4B3FEAD1B0C4A6_OFFSET UNITYSDK_OFFSET(0x190950C0)
-#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19094FD0)
-#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19094E60)
-#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_UPDATE_OFFSET UNITYSDK_OFFSET(0x19095010)
-#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK__CCTOR_OFFSET UNITYSDK_OFFSET(0x19095C40)
-#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x19095BE0)
+#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_IIJDACIILDP_OFFSET UNITYSDK_OFFSET(0x180FD680)
+#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_JMPNKFCKKFG_OFFSET UNITYSDK_OFFSET(0x180FE250)
+#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_LOFMNKAMILC_OFFSET UNITYSDK_OFFSET(0x180FD4E0)
+#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x180FD590)
+#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x180FD420)
+#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_POFKIMBCKDB_OFFSET UNITYSDK_OFFSET(0x180FE2B0)
+#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_UPDATE_OFFSET UNITYSDK_OFFSET(0x180FD5D0)
+#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK__CCTOR_OFFSET UNITYSDK_OFFSET(0x180FE200)
+#define MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x180FE1A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginLineRenderersWithBlock_TypeDefinitionIndex = 86919;
+	inline static constexpr unsigned int MonoEffectPluginLineRenderersWithBlock_TypeDefinitionIndex = 58635;
 
 	class MonoEffectPluginLineRenderersWithBlock : public ::MoleMole::MonoEffectPluginBase
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_Field_6_8()
+		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_MINJKDIFLJH()
 		{
-			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginLineRenderersWithBlock_TypeDefinitionIndex)->GetStaticField(0x4A960);
+			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginLineRenderersWithBlock_TypeDefinitionIndex)->GetStaticField(0x52100);
 		}
-		// static const ::System::Int32 Field_6_15 = 0x40; // 0x0
+		// static const ::System::Int32 AAGJDCAKHFF = 0x40; // 0x0
 		::System::Single maxLength; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* outgoingTransform; // 0x20
 		::UnityEngine::LayerMask layerMask; // 0x28
 		::System::Boolean updateOnStart; // 0x2C
+		::System::Byte _padding1[0x3];
 		::System::Single updateInterval; // 0x30
-		::System::Single Field_6_5; // 0x34
-		::System::Boolean Field_6_4; // 0x38
+		::System::Single NOOKCECOBIK; // 0x34
+		::System::Boolean HGBLNCDJJAL; // 0x38
+		::System::Byte _padding2[0x7];
 		::UnityEngine::Transform* endEffect; // 0x40
 		::UnityEngine::Transform* blockEffect; // 0x48
 		::Il2CppArray<::UnityEngine::LineRenderer*>* lineRenderers; // 0x50
-		::System::Boolean Field_6_14; // 0x58
+		::System::Boolean JBBFEFOJDJO; // 0x58
 
 		::System::Void _ctor()
 		{
@@ -66,24 +69,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_8B4B3FEAD1B0C4A6()
+		::System::Void JMPNKFCKKFG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_METHOD_6_8B4B3FEAD1B0C4A6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_JMPNKFCKKFG_OFFSET))(this);
 		}
 
-		::System::Void Method_6_151E25A63D14DDB0()
+		::System::Void LOFMNKAMILC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_METHOD_6_151E25A63D14DDB0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_LOFMNKAMILC_OFFSET))(this);
 		}
 
-		::System::Void Method_6_56CE4AFC5339F746()
+		::System::Void IIJDACIILDP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_METHOD_6_56CE4AFC5339F746_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_IIJDACIILDP_OFFSET))(this);
 		}
 
-		::System::Void Method_6_59436527057ADF55(::System::Boolean a1, ::UnityEngine::Transform* a2, ::System::Boolean a3)
+		::System::Void POFKIMBCKDB(::System::Boolean AMGAAHMANDM, ::UnityEngine::Transform* LFJLELJKNAA, ::System::Boolean IOKNPLAMIKB)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_METHOD_6_59436527057ADF55_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINLINERENDERERSWITHBLOCK_POFKIMBCKDB_OFFSET))(this, AMGAAHMANDM, LFJLELJKNAA, IOKNPLAMIKB);
 		}
 	};
 }

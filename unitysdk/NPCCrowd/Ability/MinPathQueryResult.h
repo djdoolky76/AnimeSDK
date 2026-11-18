@@ -5,11 +5,12 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int MinPathQueryResult_TypeDefinitionIndex = 83371;
+	inline static constexpr unsigned int MinPathQueryResult_TypeDefinitionIndex = 69815;
 
 	struct alignas(4) MinPathQueryResult
 	{
 		::System::Boolean queryFinished; // 0x10
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 nearestPos; // 0x14
 	};
 }

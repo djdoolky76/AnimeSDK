@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/System/Object.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_RENDERMATERIAL_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B801C10)
-#define MOLEMOLE_CONFIG_RENDERMATERIAL_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1B802010)
-#define MOLEMOLE_CONFIG_RENDERMATERIAL_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B801C70)
-#define MOLEMOLE_CONFIG_RENDERMATERIAL_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B802090)
-#define MOLEMOLE_CONFIG_RENDERMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B802560)
+#define MOLEMOLE_CONFIG_RENDERMATERIAL_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x192B6C50)
+#define MOLEMOLE_CONFIG_RENDERMATERIAL_FROMFLX_OFFSET UNITYSDK_OFFSET(0x192B7050)
+#define MOLEMOLE_CONFIG_RENDERMATERIAL_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x192B6CB0)
+#define MOLEMOLE_CONFIG_RENDERMATERIAL_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x192B70D0)
+#define MOLEMOLE_CONFIG_RENDERMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x192B75A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int RenderMaterial_TypeDefinitionIndex = 77222;
+	inline static constexpr unsigned int RenderMaterial_TypeDefinitionIndex = 59575;
 
 	class RenderMaterial : public ::System::Object
 	{
@@ -30,14 +30,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RENDERMATERIAL__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RENDERMATERIAL_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RENDERMATERIAL_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RENDERMATERIAL_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RENDERMATERIAL_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)

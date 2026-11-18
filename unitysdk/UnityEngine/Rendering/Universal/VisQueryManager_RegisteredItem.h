@@ -8,7 +8,7 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VisQueryManager_RegisteredItem_TypeDefinitionIndex = 27021;
+	inline static constexpr unsigned int VisQueryManager_RegisteredItem_TypeDefinitionIndex = 26831;
 
 	struct alignas(8) VisQueryManager_RegisteredItem
 	{
@@ -18,6 +18,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::UInt32 Gen; // 0x34
 		::System::Int32 Link; // 0x38
 		::System::Boolean TimestampValid; // 0x3C
+		::System::Byte _padding0[0x3];
 		::System::UInt32 LastQueriedFrame; // 0x40
 		::System::Single QueryResult; // 0x44
 	};

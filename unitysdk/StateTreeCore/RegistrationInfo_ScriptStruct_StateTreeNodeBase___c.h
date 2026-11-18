@@ -3,21 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 namespace UnrealTypes { class ICppStructOps; }
+namespace UnrealTypes { class ScriptStruct; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREENODEBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC351A0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREENODEBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC351E0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREENODEBASE___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1FC351F0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREENODEBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x20037ED0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREENODEBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x20037F10)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREENODEBASE___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x20037F20)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREENODEBASE___C___CCTOR_B__7_1_OFFSET UNITYSDK_OFFSET(0x20037F80)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeNodeBase___c_TypeDefinitionIndex = 31597;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeNodeBase___c_TypeDefinitionIndex = 31034;
 
 	class RegistrationInfo_ScriptStruct_StateTreeNodeBase___c : public ::System::Object
 	{
 	public:
-		static ::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreeNodeBase___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreeNodeBase___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeNodeBase___c_TypeDefinitionIndex)->GetStaticField(0x26D90);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeNodeBase___c_TypeDefinitionIndex)->GetStaticField(0x27E00);
 		}
 
 		static ::System::Void _cctor()
@@ -30,9 +32,14 @@ namespace StateTreeCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREENODEBASE___C__CTOR_OFFSET))(this);
 		}
 
-		::UnrealTypes::ICppStructOps* __cctor_b__7_0()
+		::UnrealTypes::ScriptStruct* __cctor_b__7_0()
 		{
-			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREENODEBASE___C___CCTOR_B__7_0_OFFSET))(this);
+			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREENODEBASE___C___CCTOR_B__7_0_OFFSET))(this);
+		}
+
+		::UnrealTypes::ICppStructOps* __cctor_b__7_1()
+		{
+			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREENODEBASE___C___CCTOR_B__7_1_OFFSET))(this);
 		}
 	};
 }

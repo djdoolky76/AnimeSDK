@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeGraph/GraphPortDirection.h"
-#include "unitysdk/NodeGraph/GraphPortType.h"
 #include "unitysdk/System/Object.h"
 
 namespace NodeGraph { class GraphNodeBase; }
 namespace System { class String; }
 
-#define NODEGRAPH_IGRAPHPORT_GET_PORTNAME_OFFSET UNITYSDK_OFFSET(0x10682E00)
-#define NODEGRAPH_IGRAPHPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x10682E10)
+#define NODEGRAPH_IGRAPHPORT_GET_PORTNAME_OFFSET UNITYSDK_OFFSET(0xF165AF0)
+#define NODEGRAPH_IGRAPHPORT__CTOR_OFFSET UNITYSDK_OFFSET(0xF165B00)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int IGraphPort_TypeDefinitionIndex = 73862;
+	inline static constexpr unsigned int IGraphPort_TypeDefinitionIndex = 47691;
 
 	class IGraphPort : public ::System::Object
 	{

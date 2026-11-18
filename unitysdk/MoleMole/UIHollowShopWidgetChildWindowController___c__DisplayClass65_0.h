@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_2924E454126F7D2D.h"
+#include "unitysdk/KGAIJJGMCEC.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIHollowShopWidgetChildWindowController; }
 namespace System { class Action; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1961AF80)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS65_0__OPENINI_B__0_OFFSET UNITYSDK_OFFSET(0x1961AF90)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18F2DB90)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS65_0__OPENINI_B__0_OFFSET UNITYSDK_OFFSET(0x18F2DBA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass65_0_TypeDefinitionIndex = 65874;
+	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass65_0_TypeDefinitionIndex = 61285;
 
 	class UIHollowShopWidgetChildWindowController___c__DisplayClass65_0 : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OpenIni_b__0(::Enum_3_2924E454126F7D2D type, ::System::Int32 newItemID)
+		::System::Void _OpenIni_b__0(::KGAIJJGMCEC type, ::System::Int32 newItemID)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_2924E454126F7D2D, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS65_0__OPENINI_B__0_OFFSET))(this, type, newItemID);
+			return ((::System::Void(*)(::PVOID, ::KGAIJJGMCEC, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS65_0__OPENINI_B__0_OFFSET))(this, type, newItemID);
 		}
 	};
 }

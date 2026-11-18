@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdConditionBase.h"
+#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
@@ -11,15 +11,15 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0xF0D4670)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xF0D4790)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_LINK_OFFSET UNITYSDK_OFFSET(0xF0D4720)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0xF0D47F0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xF0D3C50)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x114BE0F0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x114BE210)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_LINK_OFFSET UNITYSDK_OFFSET(0x114BE1A0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x114BE270)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PATHFOLLOWBLOCKEDCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x114BD670)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_PathFollowBlockedCondition_TypeDefinitionIndex = 87211;
+	inline static constexpr unsigned int VirtualProxy_PathFollowBlockedCondition_TypeDefinitionIndex = 61472;
 
 	class VirtualProxy_PathFollowBlockedCondition : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdConditionBase
 	{

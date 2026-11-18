@@ -4,11 +4,11 @@
 
 namespace MoleMole::Photo { class ScopedFrontCameraControlAnimationBlendSpace1DConfig; }
 
-#define MOLEMOLE_CONFIG_SCOPEDFRONTCAMERACONTROLEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA0380)
+#define MOLEMOLE_CONFIG_SCOPEDFRONTCAMERACONTROLEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A04D000)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ScopedFrontCameraControlEmotion_TypeDefinitionIndex = 54142;
+	inline static constexpr unsigned int ScopedFrontCameraControlEmotion_TypeDefinitionIndex = 51163;
 
 	class ScopedFrontCameraControlEmotion : public ::System::Object
 	{

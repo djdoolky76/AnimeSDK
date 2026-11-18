@@ -3,13 +3,13 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIInterKnotV3PageContext_MissionFocusItemStyle.h"
 
-#define MOLEMOLE_UIINTERKNOTV3PAGECONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x164F17A0)
-#define MOLEMOLE_UIINTERKNOTV3PAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x164F17E0)
-#define MOLEMOLE_UIINTERKNOTV3PAGECONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x164F1830)
+#define MOLEMOLE_UIINTERKNOTV3PAGECONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x197A83F0)
+#define MOLEMOLE_UIINTERKNOTV3PAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x197A8430)
+#define MOLEMOLE_UIINTERKNOTV3PAGECONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x197A8480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotV3PageContext_TypeDefinitionIndex = 64616;
+	inline static constexpr unsigned int UIInterKnotV3PageContext_TypeDefinitionIndex = 65257;
 
 	class UIInterKnotV3PageContext : public ::MoleMole::UIControllerContextBase
 	{
@@ -19,6 +19,7 @@ namespace MoleMole
 		// static const ::System::Int32 MissionTab = 0x3; // 0x0
 		// static const ::System::Int32 NewsTab = 0x5; // 0x0
 		::System::Boolean FromActivity; // 0x28
+		::System::Byte _padding0[0x3];
 		::MoleMole::UIInterKnotV3PageContext_MissionFocusItemStyle JumpMissionFocusItemStyle; // 0x2C
 
 		::System::Void _ctor()

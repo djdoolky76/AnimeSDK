@@ -4,19 +4,19 @@
 
 namespace System::Text { class StringBuilder; }
 
-#define ZXING_ONED_UPCEANEXTENSION5SUPPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE94260)
-#define ZXING_ONED_UPCEANEXTENSION5SUPPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE941B0)
+#define ZXING_ONED_UPCEANEXTENSION5SUPPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C321EE0)
+#define ZXING_ONED_UPCEANEXTENSION5SUPPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C321E30)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int UPCEANExtension5Support_TypeDefinitionIndex = 19437;
+	inline static constexpr unsigned int UPCEANExtension5Support_TypeDefinitionIndex = 18591;
 
 	class UPCEANExtension5Support : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_CHECK_DIGIT_ENCODINGS()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UPCEANExtension5Support_TypeDefinitionIndex)->GetStaticField(0x8DE0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UPCEANExtension5Support_TypeDefinitionIndex)->GetStaticField(0x8DD0);
 		}
 		::System::Text::StringBuilder* decodeRowStringBuffer; // 0x10
 		::Il2CppArray<::System::Int32>* decodeMiddleCounters; // 0x18

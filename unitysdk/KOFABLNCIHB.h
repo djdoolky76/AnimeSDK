@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MHMFINLCNFN.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+
+class CPABOPKIGAL;
+class LGAFMFNMCOG;
+template <typename T> class KCMIFNGABDC_1;
+
+#define KOFABLNCIHB_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0x18649CC0)
+#define KOFABLNCIHB_FEDNEKFMGNF_OFFSET UNITYSDK_OFFSET(0x186499F0)
+#define KOFABLNCIHB_GDEOPIBNOIN_OFFSET UNITYSDK_OFFSET(0x1864A7C0)
+#define KOFABLNCIHB_JFBDALLPLBA_OFFSET UNITYSDK_OFFSET(0x1864A730)
+#define KOFABLNCIHB_MLAAFFHCOJE_OFFSET UNITYSDK_OFFSET(0x186498A0)
+#define KOFABLNCIHB__CTOR_OFFSET UNITYSDK_OFFSET(0x1864A430)
+
+inline static constexpr unsigned int KOFABLNCIHB_TypeDefinitionIndex = 74186;
+
+class KOFABLNCIHB : public ::MHMFINLCNFN
+{
+public:
+	::KCMIFNGABDC_1<::System::Int32>* FHGFOACNDPF; // 0x28
+	::KCMIFNGABDC_1<::System::Int32>* LFPCKGNFIME; // 0x30
+	::CPABOPKIGAL* CJNEMGNJIEI; // 0x38
+	::CPABOPKIGAL* PKKLIFFIMMB; // 0x40
+	::CPABOPKIGAL* BOHNBOELHDG; // 0x48
+	::KCMIFNGABDC_1<::System::Boolean>* FMDCCMLPJDM; // 0x50
+	::CPABOPKIGAL* AJCPNCIMKGC; // 0x58
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KOFABLNCIHB__CTOR_OFFSET))(this);
+	}
+
+	::System::Void MLAAFFHCOJE(::LGAFMFNMCOG* ONBDAIKININ)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + KOFABLNCIHB_MLAAFFHCOJE_OFFSET))(this, ONBDAIKININ);
+	}
+
+	::System::Void FEDNEKFMGNF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KOFABLNCIHB_FEDNEKFMGNF_OFFSET))(this);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + KOFABLNCIHB_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF);
+	}
+
+	::System::Void JFBDALLPLBA(::LGAFMFNMCOG* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + KOFABLNCIHB_JFBDALLPLBA_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void GDEOPIBNOIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KOFABLNCIHB_GDEOPIBNOIN_OFFSET))(this);
+	}
+};

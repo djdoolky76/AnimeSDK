@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/FAGKFHCECFA.h"
+
+class MCBAKIPCFHH;
+
+#define NJJOLMLMPDD_AHFAANHFLCH_OFFSET UNITYSDK_OFFSET(0x5A6A70)
+#define NJJOLMLMPDD_GPENHPOJHPJ_OFFSET UNITYSDK_OFFSET(0x5A68B0)
+#define NJJOLMLMPDD_HMPFPCCBKMJ_OFFSET UNITYSDK_OFFSET(0x5A6970)
+#define NJJOLMLMPDD_LEDNKKIADNA_OFFSET UNITYSDK_OFFSET(0x5A69D0)
+#define NJJOLMLMPDD_LNHLCEJBOIN_OFFSET UNITYSDK_OFFSET(0x5A6910)
+#define NJJOLMLMPDD__CTOR_OFFSET UNITYSDK_OFFSET(0x358B00)
+
+inline static constexpr unsigned int NJJOLMLMPDD_TypeDefinitionIndex = 54760;
+
+struct alignas(8) NJJOLMLMPDD
+{
+	::MCBAKIPCFHH* MJDBKKHBBPH; // 0x10
+
+	::System::Void _ctor(::MCBAKIPCFHH* FEGCFBOFLON)
+	{
+		return ((::System::Void(*)(::PVOID, ::MCBAKIPCFHH*))((::PBYTE)hIl2Cpp + NJJOLMLMPDD__CTOR_OFFSET))(this, FEGCFBOFLON);
+	}
+
+	::System::Boolean GPENHPOJHPJ()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NJJOLMLMPDD_GPENHPOJHPJ_OFFSET))(this);
+	}
+
+	::System::Single LNHLCEJBOIN()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + NJJOLMLMPDD_LNHLCEJBOIN_OFFSET))(this);
+	}
+
+	::System::Single HMPFPCCBKMJ()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + NJJOLMLMPDD_HMPFPCCBKMJ_OFFSET))(this);
+	}
+
+	::FAGKFHCECFA LEDNKKIADNA(::System::Single FNIOPKPHDEH, ::FAGKFHCECFA& JFLDAALEMGB)
+	{
+		return ((::FAGKFHCECFA(*)(::PVOID, ::System::Single, ::FAGKFHCECFA&))((::PBYTE)hIl2Cpp + NJJOLMLMPDD_LEDNKKIADNA_OFFSET))(this, FNIOPKPHDEH, JFLDAALEMGB);
+	}
+
+	::FAGKFHCECFA AHFAANHFLCH(::System::Single FNIOPKPHDEH, ::FAGKFHCECFA& JFLDAALEMGB)
+	{
+		return ((::FAGKFHCECFA(*)(::PVOID, ::System::Single, ::FAGKFHCECFA&))((::PBYTE)hIl2Cpp + NJJOLMLMPDD_AHFAANHFLCH_OFFSET))(this, FNIOPKPHDEH, JFLDAALEMGB);
+	}
+};

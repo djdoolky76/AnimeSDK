@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/BeginInitPassGetFromNativeOutParams.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class Object; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_BEGININITPASS_NATIVEIMPL_BEGININITPASSGETFROMNATIVE_OFFSET UNITYSDK_OFFSET(0x1EDE0FA0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_BEGININITPASS_NATIVEIMPL_EXECUTE_IMPL_OFFSET UNITYSDK_OFFSET(0x1EDE0F80)
-#define UNITYENGINE_NAPRENDERPIPELINE0_BEGININITPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EDE0F90)
-#define UNITYENGINE_NAPRENDERPIPELINE0_BEGININITPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE0F20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BEGININITPASS_NATIVEIMPL_BEGININITPASSGETFROMNATIVE_OFFSET UNITYSDK_OFFSET(0x1F0D6630)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BEGININITPASS_NATIVEIMPL_EXECUTE_IMPL_OFFSET UNITYSDK_OFFSET(0x1F0D6610)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BEGININITPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F0D6620)
+#define UNITYENGINE_NAPRENDERPIPELINE0_BEGININITPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D65B0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int BeginInitPass_NativeImpl_TypeDefinitionIndex = 5714;
+	inline static constexpr unsigned int BeginInitPass_NativeImpl_TypeDefinitionIndex = 5718;
 
 	class BeginInitPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIPHOTOWALLSWITCHCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1798DE50)
+#define MOLEMOLE_UIPHOTOWALLSWITCHCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17BAC020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPhotoWallSwitchContext_TypeDefinitionIndex = 83705;
+	inline static constexpr unsigned int UIPhotoWallSwitchContext_TypeDefinitionIndex = 59108;
 
 	class UIPhotoWallSwitchContext : public ::MoleMole::UIControllerContextBase
 	{

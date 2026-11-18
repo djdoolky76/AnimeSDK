@@ -4,7 +4,7 @@
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehicleSensorOutline_TypeDefinitionIndex = 44974;
+	inline static constexpr unsigned int VehicleSensorOutline_TypeDefinitionIndex = 77368;
 
 	struct alignas(4) VehicleSensorOutline
 	{

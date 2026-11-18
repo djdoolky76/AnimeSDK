@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int CspProviderFlags_TypeDefinitionIndex = 1048;
+	inline static constexpr unsigned int CspProviderFlags_TypeDefinitionIndex = 1047;
 
 	enum class CspProviderFlags : ::System::Int32
 	{

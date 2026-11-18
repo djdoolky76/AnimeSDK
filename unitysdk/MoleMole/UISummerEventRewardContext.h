@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_D375C91CCE5D3999;
+class CJIEIHEDMME;
 
-#define MOLEMOLE_UISUMMEREVENTREWARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x119F5010)
+#define MOLEMOLE_UISUMMEREVENTREWARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1562AD80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerEventRewardContext_TypeDefinitionIndex = 47813;
+	inline static constexpr unsigned int UISummerEventRewardContext_TypeDefinitionIndex = 82323;
 
 	class UISummerEventRewardContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_D375C91CCE5D3999* activityData; // 0x28
+		::CJIEIHEDMME* activityData; // 0x28
 
 		::System::Void _ctor()
 		{

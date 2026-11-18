@@ -4,9 +4,9 @@
 
 namespace DG::Tweening::Plugins::Options
 {
-	inline static constexpr unsigned int ColorOptions_TypeDefinitionIndex = 28564;
+	inline static constexpr unsigned int ColorOptions_TypeDefinitionIndex = 28003;
 
-	struct alignas(1) ColorOptions
+	struct alignas(4) ColorOptions
 	{
 		::System::Boolean alphaOnly; // 0x10
 	};

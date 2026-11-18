@@ -9,7 +9,7 @@ namespace System { class Type; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class MonoProperty; }
 
-#define SYSTEM_REFLECTION_MONOPROPERTYINFO_METHOD_2_0C6643DF02B338C4_OFFSET UNITYSDK_OFFSET(0x1DDE1360)
+#define SYSTEM_REFLECTION_MONOPROPERTYINFO_METHOD_0_OFFSET UNITYSDK_OFFSET(0x1E262080)
 
 namespace System::Reflection
 {
@@ -17,16 +17,18 @@ namespace System::Reflection
 
 	struct alignas(8) MonoPropertyInfo
 	{
-		::System::Type* Field_2_1; // 0x10
-		::System::Type* Field_2_0; // 0x18
-		::System::String* Field_2_7; // 0x20
-		::System::Reflection::MethodInfo* Field_2_6; // 0x28
-		::System::Reflection::MethodInfo* Field_2_5; // 0x30
-		::System::Reflection::PropertyAttributes Field_2_4; // 0x38
+		::System::Type* Field_0; // 0x10
+		::System::Type* Field_1; // 0x18
+		::System::String* Field_2; // 0x20
+		::System::Reflection::MethodInfo* Field_3; // 0x28
+		::System::Reflection::MethodInfo* Field_4; // 0x30
+		::System::Reflection::PropertyAttributes Field_5; // 0x38
 
-		static ::System::Void Method_2_0C6643DF02B338C4(::System::Reflection::MonoProperty* prop, ::System::Reflection::MonoPropertyInfo& info, ::System::Reflection::PInfo req_info)
+		/*
+		static ::System::Void Method_0(::System::Reflection::MonoProperty* prop, ::System::Reflection::MonoPropertyInfo& info, ::System::Reflection::PInfo req_info)
 		{
-			return ((::System::Void(*)(::System::Reflection::MonoProperty*, ::System::Reflection::MonoPropertyInfo&, ::System::Reflection::PInfo))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOPROPERTYINFO_METHOD_2_0C6643DF02B338C4_OFFSET))(prop, info, req_info);
+			return ((::System::Void(*)(::System::Reflection::MonoProperty*, ::System::Reflection::MonoPropertyInfo&, ::System::Reflection::PInfo))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MONOPROPERTYINFO_METHOD_0_OFFSET))(prop, info, req_info);
 		}
+		*/
 	};
 }

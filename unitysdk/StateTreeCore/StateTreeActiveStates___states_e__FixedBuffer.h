@@ -4,10 +4,10 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeActiveStates___states_e__FixedBuffer_TypeDefinitionIndex = 31551;
+	inline static constexpr unsigned int StateTreeActiveStates___states_e__FixedBuffer_TypeDefinitionIndex = 30988;
 
-	struct alignas(2) StateTreeActiveStates___states_e__FixedBuffer
+	struct alignas(4) StateTreeActiveStates___states_e__FixedBuffer
 	{
-		::System::UInt16 data[8]; // 0x0
+		::System::UInt16 FixedElementField; // 0x10
 	};
 }

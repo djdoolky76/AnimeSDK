@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MonoUITableScrollV2_MoveReason.h"
 #include "unitysdk/NAPScrollView/Plugin/BasePlugin.h"
 
 namespace NAPScrollView::Plugin { template <typename T> class IRolling_1; }
@@ -8,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace NAPScrollView::Plugin
 {
-	inline static constexpr unsigned int Plugin_Rolling_1_TypeDefinitionIndex = 41630;
+	inline static constexpr unsigned int Plugin_Rolling_1_TypeDefinitionIndex = 89741;
 
 	template <typename T>
 	class Plugin_Rolling_1 : public ::NAPScrollView::Plugin::BasePlugin

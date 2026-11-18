@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_45B62668F0BA5CF8.h"
-#include "unitysdk/Struct_2_EB409772687773A2_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/CKMMPOGHDFI.h"
+#include "unitysdk/JOHNONOOOCH.h"
 
-class Class_3_D92ADC48CDFCC09B_2;
+class NLANCPLMPLB;
 
-#define MOLEMOLE_CONFIG_CONFIGMONSTERDEFAULTTRAIT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B910130)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERDEFAULTTRAIT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B910170)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERDEFAULTTRAIT___C__ONPOSTENTITYREADY_B__21_0_OFFSET UNITYSDK_OFFSET(0x1B910180)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERDEFAULTTRAIT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19247890)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERDEFAULTTRAIT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x192478D0)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERDEFAULTTRAIT___C__ONPOSTENTITYREADY_B__21_0_OFFSET UNITYSDK_OFFSET(0x192478E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMonsterDefaultTrait___c_TypeDefinitionIndex = 89913;
+	inline static constexpr unsigned int ConfigMonsterDefaultTrait___c_TypeDefinitionIndex = 69126;
 
 	class ConfigMonsterDefaultTrait___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::Config::ConfigMonsterDefaultTrait___c** StaticGet___9()
+		static ::NLANCPLMPLB** StaticGet___9__21_0()
 		{
-			return (::MoleMole::Config::ConfigMonsterDefaultTrait___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigMonsterDefaultTrait___c_TypeDefinitionIndex)->GetStaticField(0x39C90);
+			return (::NLANCPLMPLB**)Il2CppClass::FromTypeDefinitionIndex(ConfigMonsterDefaultTrait___c_TypeDefinitionIndex)->GetStaticField(0x3BDD0);
 		}
-		static ::Class_3_D92ADC48CDFCC09B_2** StaticGet___9__21_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Class_3_D92ADC48CDFCC09B_2**)Il2CppClass::FromTypeDefinitionIndex(ConfigMonsterDefaultTrait___c_TypeDefinitionIndex)->GetStaticField(0x39C98);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ConfigMonsterDefaultTrait___c_TypeDefinitionIndex)->GetStaticField(0x3BDD8);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMONSTERDEFAULTTRAIT___C__CTOR_OFFSET))(this);
 		}
 
-		::Struct_2_45B62668F0BA5CF8 _OnPostEntityReady_b__21_0(::Struct_2_EB409772687773A2_1& target)
+		::JOHNONOOOCH _OnPostEntityReady_b__21_0(::CKMMPOGHDFI& target)
 		{
-			return ((::Struct_2_45B62668F0BA5CF8(*)(::PVOID, ::Struct_2_EB409772687773A2_1&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMONSTERDEFAULTTRAIT___C__ONPOSTENTITYREADY_B__21_0_OFFSET))(this, target);
+			return ((::JOHNONOOOCH(*)(::PVOID, ::CKMMPOGHDFI&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMONSTERDEFAULTTRAIT___C__ONPOSTENTITYREADY_B__21_0_OFFSET))(this, target);
 		}
 	};
 }

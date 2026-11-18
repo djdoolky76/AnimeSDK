@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/LightType.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/Internal/BakedPointShadowBakeFaceMask.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/Internal/BakedPointShadowCubemapFace.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/Internal/BakedPointShadowFaceResolution.h"
+#include "unitysdk/UnityEngine/LightType.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
@@ -12,15 +12,15 @@ namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture2DArray; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWATLAS_GETSLICEINDEXFORCUBEMAPFACE_OFFSET UNITYSDK_OFFSET(0x1C5B2AF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWATLAS_GETTEMPTEXTUREWITHINDEX_OFFSET UNITYSDK_OFFSET(0x1C5B2810)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWATLAS_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1C5B2930)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWATLAS_SETTEMPTEXTUREWITHINDEX_OFFSET UNITYSDK_OFFSET(0x1C5B28A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWATLAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5B2B60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWATLAS_GETSLICEINDEXFORCUBEMAPFACE_OFFSET UNITYSDK_OFFSET(0x1CA44730)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWATLAS_GETTEMPTEXTUREWITHINDEX_OFFSET UNITYSDK_OFFSET(0x1CA44450)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWATLAS_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1CA44570)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWATLAS_SETTEMPTEXTUREWITHINDEX_OFFSET UNITYSDK_OFFSET(0x1CA444E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_BAKEDPOINTSHADOWATLAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA447A0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int BakedPointShadowAtlas_TypeDefinitionIndex = 27689;
+	inline static constexpr unsigned int BakedPointShadowAtlas_TypeDefinitionIndex = 27164;
 
 	class BakedPointShadowAtlas : public ::UnityEngine::ScriptableObject
 	{

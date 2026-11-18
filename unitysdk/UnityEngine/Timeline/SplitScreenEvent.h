@@ -2,22 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/KeyEventBase.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine::Timeline { class SplitScreenEvent_CustomImgPosModifyInfo; }
 
-#define UNITYENGINE_TIMELINE_SPLITSCREENEVENT_GETEDITORSHOWNAME_OFFSET UNITYSDK_OFFSET(0x1FB35880)
-#define UNITYENGINE_TIMELINE_SPLITSCREENEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB358C0)
+#define UNITYENGINE_TIMELINE_SPLITSCREENEVENT_GETEDITORSHOWNAME_OFFSET UNITYSDK_OFFSET(0x1FF33C70)
+#define UNITYENGINE_TIMELINE_SPLITSCREENEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF33CB0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int SplitScreenEvent_TypeDefinitionIndex = 32963;
+	inline static constexpr unsigned int SplitScreenEvent_TypeDefinitionIndex = 32418;
 
 	class SplitScreenEvent : public ::UnityEngine::Timeline::KeyEventBase
 	{
 	public:
 		::System::Int32 animIndex; // 0x40
-		::System::Collections::Generic::List_1<::UnityEngine::Timeline::SplitScreenEvent_CustomImgPosModifyInfo*>* imgPosModifyInfos; // 0x48
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* imgPosModifyInfos; // 0x48
 
 		::System::Void _ctor()
 		{

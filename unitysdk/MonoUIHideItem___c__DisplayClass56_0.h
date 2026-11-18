@@ -5,10 +5,10 @@
 class MonoUIHideItem;
 namespace System { class Action; }
 
-#define MONOUIHIDEITEM___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1166F6E0)
-#define MONOUIHIDEITEM___C__DISPLAYCLASS56_0___PLAYANIMATIONWITHDELAYCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x1166F6F0)
+#define MONOUIHIDEITEM___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16B39DD0)
+#define MONOUIHIDEITEM___C__DISPLAYCLASS56_0___PLAYANIMATIONWITHDELAYCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x16B39DE0)
 
-inline static constexpr unsigned int MonoUIHideItem___c__DisplayClass56_0_TypeDefinitionIndex = 83752;
+inline static constexpr unsigned int MonoUIHideItem___c__DisplayClass56_0_TypeDefinitionIndex = 55502;
 
 class MonoUIHideItem___c__DisplayClass56_0 : public ::System::Object
 {

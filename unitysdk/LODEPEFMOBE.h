@@ -1,0 +1,117 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AFJCFHFEGCG.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/OMGFCFDABLN.h"
+
+class GAMICCELBAG;
+namespace System { class String; }
+
+#define LODEPEFMOBE_APHGPJJCILI_OFFSET UNITYSDK_OFFSET(0x6F2360)
+#define LODEPEFMOBE_BLDPPDFCAMN_OFFSET UNITYSDK_OFFSET(0x358B00)
+#define LODEPEFMOBE_CGIDFONADHI_OFFSET UNITYSDK_OFFSET(0x282350)
+#define LODEPEFMOBE_DECMGICKDLH_OFFSET UNITYSDK_OFFSET(0x2E38E0)
+#define LODEPEFMOBE_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x6F25A0)
+#define LODEPEFMOBE_EQUALS_OFFSET UNITYSDK_OFFSET(0x6F2550)
+#define LODEPEFMOBE_GMMPDGINCCP_OFFSET UNITYSDK_OFFSET(0x379C90)
+#define LODEPEFMOBE_INCFIJKMIGG_OFFSET UNITYSDK_OFFSET(0x12D45C80)
+#define LODEPEFMOBE_JDLLMFBOCAJ_OFFSET UNITYSDK_OFFSET(0x6F2420)
+#define LODEPEFMOBE_MOKPJANACHK_OFFSET UNITYSDK_OFFSET(0x3CED50)
+#define LODEPEFMOBE_NOGJIJMACNO_OFFSET UNITYSDK_OFFSET(0x12D459F0)
+#define LODEPEFMOBE_PBLCEFJDDKH_OFFSET UNITYSDK_OFFSET(0x6F23F0)
+#define LODEPEFMOBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x6F2590)
+#define LODEPEFMOBE__CCTOR_OFFSET UNITYSDK_OFFSET(0x12D45960)
+#define LODEPEFMOBE__CTOR_OFFSET UNITYSDK_OFFSET(0x6F2500)
+
+inline static constexpr unsigned int LODEPEFMOBE_TypeDefinitionIndex = 59948;
+
+struct alignas(8) LODEPEFMOBE
+{
+	static ::LODEPEFMOBE* StaticGet_FDJHEBHLJLD()
+	{
+		return (::LODEPEFMOBE*)Il2CppClass::FromTypeDefinitionIndex(LODEPEFMOBE_TypeDefinitionIndex)->GetStaticField(0x469B0);
+	}
+	::GAMICCELBAG* _MJHLFBJIODC_k__BackingField; // 0x10
+	::AFJCFHFEGCG BPNAOACOEEC; // 0x18
+
+	::System::Void _ctor(::System::String* HIAIKHDFCLN, ::OMGFCFDABLN& LOACBJBANNC, ::GAMICCELBAG* PDFEDOCLDHG)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::OMGFCFDABLN&, ::GAMICCELBAG*))((::PBYTE)hIl2Cpp + LODEPEFMOBE__CTOR_OFFSET))(this, HIAIKHDFCLN, LOACBJBANNC, PDFEDOCLDHG);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + LODEPEFMOBE__CCTOR_OFFSET))();
+	}
+
+	::System::String* DECMGICKDLH()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + LODEPEFMOBE_DECMGICKDLH_OFFSET))(this);
+	}
+
+	::System::String* MOKPJANACHK()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + LODEPEFMOBE_MOKPJANACHK_OFFSET))(this);
+	}
+
+	::System::String* GMMPDGINCCP()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + LODEPEFMOBE_GMMPDGINCCP_OFFSET))(this);
+	}
+
+	::System::Boolean APHGPJJCILI()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + LODEPEFMOBE_APHGPJJCILI_OFFSET))(this);
+	}
+
+	::System::Boolean PBLCEFJDDKH()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + LODEPEFMOBE_PBLCEFJDDKH_OFFSET))(this);
+	}
+
+	::System::String* JDLLMFBOCAJ()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + LODEPEFMOBE_JDLLMFBOCAJ_OFFSET))(this);
+	}
+
+	/*
+	::System::Boolean Equals(::LODEPEFMOBE LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::LODEPEFMOBE))((::PBYTE)hIl2Cpp + LODEPEFMOBE_EQUALS_OFFSET))(this, LIBPKNHDIGP);
+	}
+	*/
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + LODEPEFMOBE_TOSTRING_OFFSET))(this);
+	}
+
+	/*
+	static ::System::Boolean NOGJIJMACNO(::LODEPEFMOBE FFKBEGIHIGG, ::LODEPEFMOBE CKADGLGJJAB)
+	{
+		return ((::System::Boolean(*)(::LODEPEFMOBE, ::LODEPEFMOBE))((::PBYTE)hIl2Cpp + LODEPEFMOBE_NOGJIJMACNO_OFFSET))(FFKBEGIHIGG, CKADGLGJJAB);
+	}
+	*/
+
+	/*
+	static ::System::Boolean INCFIJKMIGG(::LODEPEFMOBE FFKBEGIHIGG, ::LODEPEFMOBE CKADGLGJJAB)
+	{
+		return ((::System::Boolean(*)(::LODEPEFMOBE, ::LODEPEFMOBE))((::PBYTE)hIl2Cpp + LODEPEFMOBE_INCFIJKMIGG_OFFSET))(FFKBEGIHIGG, CKADGLGJJAB);
+	}
+	*/
+
+	::GAMICCELBAG* CGIDFONADHI()
+	{
+		return ((::GAMICCELBAG*(*)(::PVOID))((::PBYTE)hIl2Cpp + LODEPEFMOBE_CGIDFONADHI_OFFSET))(this);
+	}
+
+	::System::Void BLDPPDFCAMN(::GAMICCELBAG* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GAMICCELBAG*))((::PBYTE)hIl2Cpp + LODEPEFMOBE_BLDPPDFCAMN_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::String* DPIHOJBBGLA()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + LODEPEFMOBE_DPIHOJBBGLA_OFFSET))(this);
+	}
+};

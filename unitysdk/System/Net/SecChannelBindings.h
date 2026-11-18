@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_SECCHANNELBINDINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C710B70)
+#define SYSTEM_NET_SECCHANNELBINDINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF0750)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int SecChannelBindings_TypeDefinitionIndex = 3313;
+	inline static constexpr unsigned int SecChannelBindings_TypeDefinitionIndex = 3312;
 
 	class SecChannelBindings : public ::System::Object
 	{

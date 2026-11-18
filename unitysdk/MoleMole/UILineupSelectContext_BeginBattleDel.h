@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_1_E081FCEC8F87505A;
+class ALDOKCCIFNB;
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19C9B830)
-#define MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19C9B860)
-#define MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x19C9B310)
-#define MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19C9B2F0)
+#define MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x19614AD0)
+#define MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x19614B00)
+#define MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x196145B0)
+#define MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x196145A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILineupSelectContext_BeginBattleDel_TypeDefinitionIndex = 52588;
+	inline static constexpr unsigned int UILineupSelectContext_BeginBattleDel_TypeDefinitionIndex = 81296;
 
 	class UILineupSelectContext_BeginBattleDel : public ::System::MulticastDelegate
 	{
@@ -24,14 +24,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Void Invoke(::Class_1_E081FCEC8F87505A* data)
+		::System::Void Invoke(::ALDOKCCIFNB* data)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E081FCEC8F87505A*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::ALDOKCCIFNB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL_INVOKE_OFFSET))(this, data);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Class_1_E081FCEC8F87505A* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::ALDOKCCIFNB* data, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_1_E081FCEC8F87505A*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::ALDOKCCIFNB*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_BEGINBATTLEDEL_BEGININVOKE_OFFSET))(this, data, callback, object);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* result)

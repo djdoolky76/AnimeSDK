@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/IntegratedSubsystem_1.h"
 
 namespace System { template <typename T> class Action_1; }
-namespace UnityEngine::XR { class XRInputSubsystemDescriptor; }
 
-#define UNITYENGINE_XR_XRINPUTSUBSYSTEM_INVOKEBOUNDARYCHANGEDEVENT_OFFSET UNITYSDK_OFFSET(0x1FB67210)
-#define UNITYENGINE_XR_XRINPUTSUBSYSTEM_INVOKETRACKINGORIGINUPDATEDEVENT_OFFSET UNITYSDK_OFFSET(0x1FB67160)
-#define UNITYENGINE_XR_XRINPUTSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB672C0)
+#define UNITYENGINE_XR_XRINPUTSUBSYSTEM_INVOKEBOUNDARYCHANGEDEVENT_OFFSET UNITYSDK_OFFSET(0x1FF6B4F0)
+#define UNITYENGINE_XR_XRINPUTSUBSYSTEM_INVOKETRACKINGORIGINUPDATEDEVENT_OFFSET UNITYSDK_OFFSET(0x1FF6B440)
+#define UNITYENGINE_XR_XRINPUTSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF6B5A0)
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRInputSubsystem_TypeDefinitionIndex = 28254;
+	inline static constexpr unsigned int XRInputSubsystem_TypeDefinitionIndex = 27672;
 
-	class XRInputSubsystem : public ::UnityEngine::IntegratedSubsystem_1<::UnityEngine::XR::XRInputSubsystemDescriptor*>
+	class XRInputSubsystem
 	{
 	public:
 		::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* trackingOriginUpdated; // 0x20

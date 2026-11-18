@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMECHBOOGETSERVERROBOTID_INVOKE_OFFSET UNITYSDK_OFFSET(0x149DB0A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMECHBOOGETSERVERROBOTID__CTOR_OFFSET UNITYSDK_OFFSET(0x149DB0E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMECHBOOGETSERVERROBOTID_INVOKE_OFFSET UNITYSDK_OFFSET(0x130CACF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMECHBOOGETSERVERROBOTID__CTOR_OFFSET UNITYSDK_OFFSET(0x130CAD30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMechBooGetServerRobotID_TypeDefinitionIndex = 87743;
+	inline static constexpr unsigned int LDMechBooGetServerRobotID_TypeDefinitionIndex = 88702;
 
-	class LDMechBooGetServerRobotID : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
+	class LDMechBooGetServerRobotID
 	{
 	public:
 		::System::Void _ctor()

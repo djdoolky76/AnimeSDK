@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_21CBD932FB56D3A8.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/GEJADGCJEBG.h"
 
-class Class_1_30B210AEDB34BA56;
-class Class_3_D92ADC48CDFCC09B_3;
+class CPJHOPDANAJ;
+class PDKOPODIHIE;
 
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOOREROSIONDATACOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x148276B0)
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOOREROSIONDATACOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x148276F0)
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOOREROSIONDATACOMPONENT___C__ONENABLE_B__5_0_OFFSET UNITYSDK_OFFSET(0x14827700)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOOREROSIONDATACOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13242400)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOOREROSIONDATACOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13242440)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOOREROSIONDATACOMPONENT___C__ONENABLE_B__5_0_OFFSET UNITYSDK_OFFSET(0x13242450)
 
 namespace Foundation::ViewObject::Donjon
 {
-	inline static constexpr unsigned int FloorErosionDataComponent___c_TypeDefinitionIndex = 61865;
+	inline static constexpr unsigned int FloorErosionDataComponent___c_TypeDefinitionIndex = 40405;
 
 	class FloorErosionDataComponent___c : public ::System::Object
 	{
 	public:
-		static ::Foundation::ViewObject::Donjon::FloorErosionDataComponent___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Foundation::ViewObject::Donjon::FloorErosionDataComponent___c**)Il2CppClass::FromTypeDefinitionIndex(FloorErosionDataComponent___c_TypeDefinitionIndex)->GetStaticField(0x2F4F0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(FloorErosionDataComponent___c_TypeDefinitionIndex)->GetStaticField(0x31B60);
 		}
-		static ::Class_3_D92ADC48CDFCC09B_3** StaticGet___9__5_0()
+		static ::PDKOPODIHIE** StaticGet___9__5_0()
 		{
-			return (::Class_3_D92ADC48CDFCC09B_3**)Il2CppClass::FromTypeDefinitionIndex(FloorErosionDataComponent___c_TypeDefinitionIndex)->GetStaticField(0x2F4F8);
+			return (::PDKOPODIHIE**)Il2CppClass::FromTypeDefinitionIndex(FloorErosionDataComponent___c_TypeDefinitionIndex)->GetStaticField(0x31B68);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace Foundation::ViewObject::Donjon
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_DONJON_FLOOREROSIONDATACOMPONENT___C__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_30B210AEDB34BA56* _OnEnable_b__5_0(::Struct_2_21CBD932FB56D3A8 context)
+		::CPJHOPDANAJ* _OnEnable_b__5_0(::GEJADGCJEBG context)
 		{
-			return ((::Class_1_30B210AEDB34BA56*(*)(::PVOID, ::Struct_2_21CBD932FB56D3A8))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_DONJON_FLOOREROSIONDATACOMPONENT___C__ONENABLE_B__5_0_OFFSET))(this, context);
+			return ((::CPJHOPDANAJ*(*)(::PVOID, ::GEJADGCJEBG))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_DONJON_FLOOREROSIONDATACOMPONENT___C__ONENABLE_B__5_0_OFFSET))(this, context);
 		}
 	};
 }

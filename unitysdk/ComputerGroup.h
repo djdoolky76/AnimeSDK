@@ -5,10 +5,10 @@
 class ScreenPlayData;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define COMPUTERGROUP_GETSCREENDATA_OFFSET UNITYSDK_OFFSET(0x12F17060)
-#define COMPUTERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x12F17140)
+#define COMPUTERGROUP_GETSCREENDATA_OFFSET UNITYSDK_OFFSET(0x13E1F120)
+#define COMPUTERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x13E1F200)
 
-inline static constexpr unsigned int ComputerGroup_TypeDefinitionIndex = 75986;
+inline static constexpr unsigned int ComputerGroup_TypeDefinitionIndex = 82968;
 
 class ComputerGroup : public ::System::Object
 {

@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/EZenkovPyroisBlinkHoldInputType.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_ZENKOVPYROISBLINKHOLDINPUTTYPESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11666020)
+#define MOLEMOLE_ZENKOVPYROISBLINKHOLDINPUTTYPESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14E5D9E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ZenkovPyroisBlinkHoldInputTypeSettingContext_TypeDefinitionIndex = 57513;
+	inline static constexpr unsigned int ZenkovPyroisBlinkHoldInputTypeSettingContext_TypeDefinitionIndex = 88671;
 
 	class ZenkovPyroisBlinkHoldInputTypeSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

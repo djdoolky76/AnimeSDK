@@ -6,21 +6,21 @@ namespace ParadoxNotion { class TypeConverter_CustomConverter; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PARADOXNOTION_TYPECONVERTER_ADD_CUSTOMCONVERTER_OFFSET UNITYSDK_OFFSET(0x1E54C020)
-#define PARADOXNOTION_TYPECONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1E54D780)
-#define PARADOXNOTION_TYPECONVERTER_GET_OFFSET UNITYSDK_OFFSET(0x1E54C140)
-#define PARADOXNOTION_TYPECONVERTER_REMOVE_CUSTOMCONVERTER_OFFSET UNITYSDK_OFFSET(0x1E54C0B0)
+#define PARADOXNOTION_TYPECONVERTER_ADD_CUSTOMCONVERTER_OFFSET UNITYSDK_OFFSET(0x1E7C00A0)
+#define PARADOXNOTION_TYPECONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1E7C1800)
+#define PARADOXNOTION_TYPECONVERTER_GET_OFFSET UNITYSDK_OFFSET(0x1E7C01C0)
+#define PARADOXNOTION_TYPECONVERTER_REMOVE_CUSTOMCONVERTER_OFFSET UNITYSDK_OFFSET(0x1E7C0130)
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int TypeConverter_TypeDefinitionIndex = 30560;
+	inline static constexpr unsigned int TypeConverter_TypeDefinitionIndex = 29149;
 
 	class TypeConverter : public ::System::Object
 	{
 	public:
 		static ::ParadoxNotion::TypeConverter_CustomConverter** StaticGet_customConverter()
 		{
-			return (::ParadoxNotion::TypeConverter_CustomConverter**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter_TypeDefinitionIndex)->GetStaticField(0x26260);
+			return (::ParadoxNotion::TypeConverter_CustomConverter**)Il2CppClass::FromTypeDefinitionIndex(TypeConverter_TypeDefinitionIndex)->GetStaticField(0x26EC0);
 		}
 
 		static ::System::Void add_customConverter(::ParadoxNotion::TypeConverter_CustomConverter* value)

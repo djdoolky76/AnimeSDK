@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_1824EF69C8E376A3;
+class BPHGNMNLLHF;
 
-#define MOLEMOLE_UIAVATARSPECIALAWAKENCONTRASTDIALOGPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1601B5C0)
+#define MOLEMOLE_UIAVATARSPECIALAWAKENCONTRASTDIALOGPOPWINDOWCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15946A10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarSpecialAwakenContrastDialogPopWindowControllerContext_TypeDefinitionIndex = 68422;
+	inline static constexpr unsigned int UIAvatarSpecialAwakenContrastDialogPopWindowControllerContext_TypeDefinitionIndex = 43433;
 
 	class UIAvatarSpecialAwakenContrastDialogPopWindowControllerContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_1824EF69C8E376A3* AvatarData; // 0x28
+		::BPHGNMNLLHF* AvatarData; // 0x28
 		::System::Int32 AvatarAwakenID; // 0x30
 		::System::Int32 AvatarAwakenDesItemIndex; // 0x34
 

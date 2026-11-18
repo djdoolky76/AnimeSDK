@@ -1,23 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
-namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EB78CB0)
-#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB78F00)
-#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB79040)
-#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE__ONEXECUTE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1EB79060)
+#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EF218E0)
+#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF21B30)
+#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF21C70)
+#define NODECANVAS_TASKS_ACTIONS_SORTGAMEOBJECTLISTBYDISTANCE__ONEXECUTE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1EF21C90)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SortGameObjectListByDistance_TypeDefinitionIndex = 30462;
+	inline static constexpr unsigned int SortGameObjectListByDistance_TypeDefinitionIndex = 29638;
 
-	class SortGameObjectListByDistance : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>
+	class SortGameObjectListByDistance
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* targetList; // 0x60

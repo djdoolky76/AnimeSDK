@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_COMVISIBLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE8B3D0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_COMVISIBLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4244A0)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int ComVisibleAttribute_TypeDefinitionIndex = 1414;
+	inline static constexpr unsigned int ComVisibleAttribute_TypeDefinitionIndex = 1413;
 
 	class ComVisibleAttribute : public ::System::Attribute
 	{

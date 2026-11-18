@@ -1,49 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/DDLPJCBNIJE.h"
 #include "unitysdk/MoleMole/BattleMapSubsystem_BattleCellInfo.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
-#include "unitysdk/MoleMole/GameSubsystemBaseEx_1.h"
-#include "unitysdk/Struct_2_889E5B2995035C6D.h"
-#include "unitysdk/Struct_2_CD3644488168ACA0.h"
+#include "unitysdk/FDIGBIBAMIJ.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace MoleMole { class ConfigPointScoreCalculatePipe; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_CALCULATESPAWNPOINTSCORE_OFFSET UNITYSDK_OFFSET(0x167E9570)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_DRAWINFO_OFFSET UNITYSDK_OFFSET(0x167E9740)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_1_OFFSET UNITYSDK_OFFSET(0x167E8CE0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_OFFSET UNITYSDK_OFFSET(0x167E89B0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLUNIQUEINDEX_OFFSET UNITYSDK_OFFSET(0x167E8720)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GET_OFFSET UNITYSDK_OFFSET(0x167E88E0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_REGISTERSPAWNPOINTINFO_OFFSET UNITYSDK_OFFSET(0x167E8E60)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_UNIQUEINDEX2POSITION_OFFSET UNITYSDK_OFFSET(0x167E87F0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM_UPDATEENTITYBOUNDS_OFFSET UNITYSDK_OFFSET(0x167E90E0)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x167E9860)
-#define MOLEMOLE_BATTLEMAPSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x167E9780)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_CALCULATESPAWNPOINTSCORE_OFFSET UNITYSDK_OFFSET(0x1650DEE0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_DRAWINFO_OFFSET UNITYSDK_OFFSET(0x1650E0B0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_1_OFFSET UNITYSDK_OFFSET(0x1650D650)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_OFFSET UNITYSDK_OFFSET(0x1650D320)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLUNIQUEINDEX_OFFSET UNITYSDK_OFFSET(0x1650D090)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_GET_OFFSET UNITYSDK_OFFSET(0x1650D250)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_REGISTERSPAWNPOINTINFO_OFFSET UNITYSDK_OFFSET(0x1650D7D0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_UNIQUEINDEX2POSITION_OFFSET UNITYSDK_OFFSET(0x1650D160)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM_UPDATEENTITYBOUNDS_OFFSET UNITYSDK_OFFSET(0x1650DA50)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1650E1D0)
+#define MOLEMOLE_BATTLEMAPSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1650E0F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BattleMapSubsystem_TypeDefinitionIndex = 56195;
+	inline static constexpr unsigned int BattleMapSubsystem_TypeDefinitionIndex = 49645;
 
-	class BattleMapSubsystem : public ::MoleMole::GameSubsystemBaseEx_1<::MoleMole::BattleMapSubsystem*>
+	class BattleMapSubsystem
 	{
 	public:
-		static ::MoleMole::BattleMapSubsystem_BattleCellInfo* StaticGet_EmptyBattleCellInfo()
-		{
-			return (::MoleMole::BattleMapSubsystem_BattleCellInfo*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xDFC0);
-		}
 		static ::System::Boolean* StaticGet_EnableRandomByScore()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xDFC3);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xE160);
+		}
+		static ::MoleMole::BattleMapSubsystem_BattleCellInfo* StaticGet_EmptyBattleCellInfo()
+		{
+			return (::MoleMole::BattleMapSubsystem_BattleCellInfo*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xE161);
 		}
 		static ::System::Boolean* StaticGet_EnableBattleMapSystem()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xDFC4);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattleMapSubsystem_TypeDefinitionIndex)->GetStaticField(0xE164);
 		}
-		::System::Collections::Generic::Dictionary_2<::System::Int64, ::MoleMole::BattleMapSubsystem_BattleCellInfo>* _battleCellMap; // 0x10
-		::System::Collections::Generic::Dictionary_2<::MoleMole::EntityHandle, ::Struct_2_889E5B2995035C6D>* _battleMapEntityInfos; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Object*>* _battleCellMap; // 0x10
+		::System::Collections::Generic::Dictionary_2<::MoleMole::EntityHandle, ::DDLPJCBNIJE>* _battleMapEntityInfos; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -55,14 +55,14 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLEMAPSUBSYSTEM__CCTOR_OFFSET))();
 		}
 
-		static ::Struct_2_CD3644488168ACA0 GetCellUniqueIndex(::UnityEngine::Vector3 position)
+		static ::FDIGBIBAMIJ GetCellUniqueIndex(::UnityEngine::Vector3 position)
 		{
-			return ((::Struct_2_CD3644488168ACA0(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLUNIQUEINDEX_OFFSET))(position);
+			return ((::FDIGBIBAMIJ(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLUNIQUEINDEX_OFFSET))(position);
 		}
 
-		static ::UnityEngine::Vector3 UniqueIndex2Position(::Struct_2_CD3644488168ACA0 index)
+		static ::UnityEngine::Vector3 UniqueIndex2Position(::FDIGBIBAMIJ index)
 		{
-			return ((::UnityEngine::Vector3(*)(::Struct_2_CD3644488168ACA0))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLEMAPSUBSYSTEM_UNIQUEINDEX2POSITION_OFFSET))(index);
+			return ((::UnityEngine::Vector3(*)(::FDIGBIBAMIJ))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLEMAPSUBSYSTEM_UNIQUEINDEX2POSITION_OFFSET))(index);
 		}
 
 		static ::MoleMole::BattleMapSubsystem* Get()
@@ -75,9 +75,9 @@ namespace MoleMole
 			return ((::MoleMole::BattleMapSubsystem_BattleCellInfo(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_OFFSET))(this, position);
 		}
 
-		::MoleMole::BattleMapSubsystem_BattleCellInfo GetCellInfoByPosition_1(::Struct_2_CD3644488168ACA0 index)
+		::MoleMole::BattleMapSubsystem_BattleCellInfo GetCellInfoByPosition_1(::FDIGBIBAMIJ index)
 		{
-			return ((::MoleMole::BattleMapSubsystem_BattleCellInfo(*)(::PVOID, ::Struct_2_CD3644488168ACA0))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_1_OFFSET))(this, index);
+			return ((::MoleMole::BattleMapSubsystem_BattleCellInfo(*)(::PVOID, ::FDIGBIBAMIJ))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLEMAPSUBSYSTEM_GETCELLINFOBYPOSITION_1_OFFSET))(this, index);
 		}
 
 		::System::Void RegisterSpawnPointInfo(::UnityEngine::Vector3 position)

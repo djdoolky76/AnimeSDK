@@ -4,20 +4,20 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 
 namespace RootMotion::FinalIK { class IKSolverFullBodyBiped; }
-namespace RootMotion::FinalIK { class OffsetPose_EffectorLink; }
+namespace System { class Object; }
 
-#define ROOTMOTION_FINALIK_OFFSETPOSE_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1EE51900)
-#define ROOTMOTION_FINALIK_OFFSETPOSE_APPLY_OFFSET UNITYSDK_OFFSET(0x1EE51800)
-#define ROOTMOTION_FINALIK_OFFSETPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE519A0)
+#define ROOTMOTION_FINALIK_OFFSETPOSE_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1F1F4920)
+#define ROOTMOTION_FINALIK_OFFSETPOSE_APPLY_OFFSET UNITYSDK_OFFSET(0x1F1F4820)
+#define ROOTMOTION_FINALIK_OFFSETPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1F49C0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int OffsetPose_TypeDefinitionIndex = 38783;
+	inline static constexpr unsigned int OffsetPose_TypeDefinitionIndex = 36806;
 
 	class OffsetPose : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Il2CppArray<::RootMotion::FinalIK::OffsetPose_EffectorLink*>* effectorLinks; // 0x18
+		::Il2CppArray<::System::Object*>* effectorLinks; // 0x18
 
 		::System::Void _ctor()
 		{

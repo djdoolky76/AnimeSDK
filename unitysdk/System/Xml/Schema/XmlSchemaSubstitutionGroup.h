@@ -5,11 +5,11 @@
 namespace System::Collections { class ArrayList; }
 namespace System::Xml { class XmlQualifiedName; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASUBSTITUTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E377040)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASUBSTITUTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5CEF30)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaSubstitutionGroup_TypeDefinitionIndex = 2193;
+	inline static constexpr unsigned int XmlSchemaSubstitutionGroup_TypeDefinitionIndex = 2192;
 
 	class XmlSchemaSubstitutionGroup : public ::System::Xml::Schema::XmlSchemaObject
 	{

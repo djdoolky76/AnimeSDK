@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/UI/UIText.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/UICharInfo.h"
 #include "unitysdk/UnityEngine/UILineInfo.h"
 #include "unitysdk/UnityEngine/UIVertex.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace MoleMole { class UITextLink_Class_1_82AA3D510AE3F83B; }
 namespace MoleMole { class UITextLink_HrefClickEvent; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -17,55 +17,57 @@ namespace System::Text::RegularExpressions { class Regex; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define MOLEMOLE_UITEXTLINK_AWAKE_OFFSET UNITYSDK_OFFSET(0x140D1760)
-#define MOLEMOLE_UITEXTLINK_GET_GETHYPERLINKINFO_OFFSET UNITYSDK_OFFSET(0x140D1750)
-#define MOLEMOLE_UITEXTLINK_GET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x140D1730)
-#define MOLEMOLE_UITEXTLINK_METHOD_11_609AED97738F44F5_OFFSET UNITYSDK_OFFSET(0x140D2200)
-#define MOLEMOLE_UITEXTLINK_METHOD_11_8417EA39EEED3F86_OFFSET UNITYSDK_OFFSET(0x140D2770)
-#define MOLEMOLE_UITEXTLINK_METHOD_11_CA20A96113B135EC_OFFSET UNITYSDK_OFFSET(0x140D40B0)
-#define MOLEMOLE_UITEXTLINK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x140D18A0)
-#define MOLEMOLE_UITEXTLINK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x140D17B0)
-#define MOLEMOLE_UITEXTLINK_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x140D39F0)
-#define MOLEMOLE_UITEXTLINK_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x140D1A40)
-#define MOLEMOLE_UITEXTLINK_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0x140D1970)
-#define MOLEMOLE_UITEXTLINK_SET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x140D1740)
-#define MOLEMOLE_UITEXTLINK_UNITYENGINE_EVENTSYSTEMS_IPOINTERDOWNHANDLER_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x140D3D30)
-#define MOLEMOLE_UITEXTLINK_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x140D19E0)
-#define MOLEMOLE_UITEXTLINK__CCTOR_OFFSET UNITYSDK_OFFSET(0x140D3F10)
-#define MOLEMOLE_UITEXTLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x140D3D80)
-#define MOLEMOLE_UITEXTLINK___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x140D4050)
-#define MOLEMOLE_UITEXTLINK___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x140D4060)
-#define MOLEMOLE_UITEXTLINK___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x140D4070)
-#define MOLEMOLE_UITEXTLINK___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x140D4080)
-#define MOLEMOLE_UITEXTLINK___BASE_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0x140D4090)
-#define MOLEMOLE_UITEXTLINK___BASE_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x140D40A0)
+#define MOLEMOLE_UITEXTLINK_AWAKE_OFFSET UNITYSDK_OFFSET(0x1718D030)
+#define MOLEMOLE_UITEXTLINK_BBLHCDDOKHF_OFFSET UNITYSDK_OFFSET(0x1718F960)
+#define MOLEMOLE_UITEXTLINK_CFGIPMCNBAL_OFFSET UNITYSDK_OFFSET(0x1718F940)
+#define MOLEMOLE_UITEXTLINK_GET_GETHYPERLINKINFO_OFFSET UNITYSDK_OFFSET(0x1718D020)
+#define MOLEMOLE_UITEXTLINK_GET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x1718D000)
+#define MOLEMOLE_UITEXTLINK_GOKBADGGEMB_OFFSET UNITYSDK_OFFSET(0x1718FAF0)
+#define MOLEMOLE_UITEXTLINK_GPGLNOBDBGJ_OFFSET UNITYSDK_OFFSET(0x1718F950)
+#define MOLEMOLE_UITEXTLINK_ICCPMCDGBDH_OFFSET UNITYSDK_OFFSET(0x1718E040)
+#define MOLEMOLE_UITEXTLINK_ILHIIDBCNEC_OFFSET UNITYSDK_OFFSET(0x1718F930)
+#define MOLEMOLE_UITEXTLINK_KBOIHOEPHCI_OFFSET UNITYSDK_OFFSET(0x1718F920)
+#define MOLEMOLE_UITEXTLINK_KDOIBCBFBAG_OFFSET UNITYSDK_OFFSET(0x1718FAE0)
+#define MOLEMOLE_UITEXTLINK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1718D170)
+#define MOLEMOLE_UITEXTLINK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1718D080)
+#define MOLEMOLE_UITEXTLINK_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1718F2C0)
+#define MOLEMOLE_UITEXTLINK_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1718D310)
+#define MOLEMOLE_UITEXTLINK_PHHMMHHLHBE_OFFSET UNITYSDK_OFFSET(0x1718DAD0)
+#define MOLEMOLE_UITEXTLINK_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0x1718D240)
+#define MOLEMOLE_UITEXTLINK_SET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x1718D010)
+#define MOLEMOLE_UITEXTLINK_UNITYENGINE_EVENTSYSTEMS_IPOINTERDOWNHANDLER_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1718F600)
+#define MOLEMOLE_UITEXTLINK_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1718D2B0)
+#define MOLEMOLE_UITEXTLINK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1718F7E0)
+#define MOLEMOLE_UITEXTLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1718F650)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITextLink_TypeDefinitionIndex = 55454;
+	inline static constexpr unsigned int UITextLink_TypeDefinitionIndex = 74691;
 
 	class UITextLink : public ::UnityEngine::UI::UIText
 	{
 	public:
 		static ::System::Text::RegularExpressions::Regex** StaticGet_s_HrefRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(UITextLink_TypeDefinitionIndex)->GetStaticField(0x4AF00);
-		}
-		static ::System::Text::StringBuilder** StaticGet_s_TextBuilder()
-		{
-			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(UITextLink_TypeDefinitionIndex)->GetStaticField(0x4AF08);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(UITextLink_TypeDefinitionIndex)->GetStaticField(0x52230);
 		}
 		static ::System::String** StaticGet_temp()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UITextLink_TypeDefinitionIndex)->GetStaticField(0x4AF10);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UITextLink_TypeDefinitionIndex)->GetStaticField(0x52238);
+		}
+		static ::System::Text::StringBuilder** StaticGet_s_TextBuilder()
+		{
+			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(UITextLink_TypeDefinitionIndex)->GetStaticField(0x52240);
 		}
 		::System::String* m_OutputText; // 0x3C8
-		::System::Collections::Generic::List_1<::MoleMole::UITextLink_Class_1_82AA3D510AE3F83B*>* m_HrefInfos; // 0x3D0
+		::System::Collections::Generic::List_1<::System::Object*>* m_HrefInfos; // 0x3D0
 		::MoleMole::UITextLink_HrefClickEvent* m_OnHrefClick; // 0x3D8
 		::System::Boolean UseTextLinkPopTip; // 0x3E0
 		::System::Boolean ChangeHrefColor; // 0x3E1
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Color HrefColor; // 0x3E4
 		::System::Boolean UseUnderLine; // 0x3F4
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Color underLineColor; // 0x3F8
 		::System::Single _lineHeight; // 0x408
 		::System::Single _lineOffset; // 0x40C
@@ -89,9 +91,9 @@ namespace MoleMole
 			return ((::MoleMole::UITextLink_HrefClickEvent*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_GET_ONHREFCLICK_OFFSET))(this);
 		}
 
-		::System::Void set_onHrefClick(::MoleMole::UITextLink_HrefClickEvent* a1)
+		::System::Void set_onHrefClick(::MoleMole::UITextLink_HrefClickEvent* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::UITextLink_HrefClickEvent*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_SET_ONHREFCLICK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UITextLink_HrefClickEvent*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_SET_ONHREFCLICK_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::String* get_GetHyperlinkInfo()
@@ -124,64 +126,64 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_UPDATEGEOMETRY_OFFSET))(this);
 		}
 
-		::System::Void OnPopulateMesh(::UnityEngine::UI::VertexHelper* a1)
+		::System::Void OnPopulateMesh(::UnityEngine::UI::VertexHelper* CDAHODBFMLM)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_ONPOPULATEMESH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_ONPOPULATEMESH_OFFSET))(this, CDAHODBFMLM);
 		}
 
-		::System::String* Method_11_8417EA39EEED3F86(::System::String* a1)
+		::System::String* ICCPMCDGBDH(::System::String* KDLLCKNMNEI)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_METHOD_11_8417EA39EEED3F86_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_ICCPMCDGBDH_OFFSET))(this, KDLLCKNMNEI);
 		}
 
-		::System::Void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* a1)
+		::System::Void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* DIHNFECKHMD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_ONPOINTERCLICK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_ONPOINTERCLICK_OFFSET))(this, DIHNFECKHMD);
 		}
 
-		::System::Void UnityEngine_EventSystems_IPointerDownHandler_OnPointerDown(::UnityEngine::EventSystems::PointerEventData* a1)
+		::System::Void UnityEngine_EventSystems_IPointerDownHandler_OnPointerDown(::UnityEngine::EventSystems::PointerEventData* DIHNFECKHMD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_UNITYENGINE_EVENTSYSTEMS_IPOINTERDOWNHANDLER_ONPOINTERDOWN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_UNITYENGINE_EVENTSYSTEMS_IPOINTERDOWNHANDLER_ONPOINTERDOWN_OFFSET))(this, DIHNFECKHMD);
 		}
 
-		::System::Void __base_Awake()
+		::System::Void PHHMMHHLHBE(::UnityEngine::UI::VertexHelper* LMDJKLKHMNA, ::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* FPOHOIOEKFG, ::UnityEngine::Vector3 DEMOHAIKEBC, ::UnityEngine::Vector3 KGMIOMAGGGB)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK___BASE_AWAKE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_PHHMMHHLHBE_OFFSET))(this, LMDJKLKHMNA, FPOHOIOEKFG, DEMOHAIKEBC, KGMIOMAGGGB);
 		}
 
-		::System::Void __base_OnDisable()
+		::System::Void KBOIHOEPHCI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK___BASE_ONDISABLE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_KBOIHOEPHCI_OFFSET))(this);
 		}
 
-		::System::Void __base_OnEnable()
+		::System::Void ILHIIDBCNEC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK___BASE_ONENABLE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_ILHIIDBCNEC_OFFSET))(this);
 		}
 
-		::System::Void __base_OnPopulateMesh(::UnityEngine::UI::VertexHelper* a1)
+		::System::Void CFGIPMCNBAL()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK___BASE_ONPOPULATEMESH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_CFGIPMCNBAL_OFFSET))(this);
 		}
 
-		::System::Void __base_SetVerticesDirty()
+		::System::Void GPGLNOBDBGJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK___BASE_SETVERTICESDIRTY_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_GPGLNOBDBGJ_OFFSET))(this);
 		}
 
-		::System::Void __base_UpdateGeometry()
+		::System::Void BBLHCDDOKHF(::System::String* HMMMOCJAEOA)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK___BASE_UPDATEGEOMETRY_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_BBLHCDDOKHF_OFFSET))(this, HMMMOCJAEOA);
 		}
 
-		::System::Void Method_11_CA20A96113B135EC(::System::String* a1)
+		::System::Void KDOIBCBFBAG()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_METHOD_11_CA20A96113B135EC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_KDOIBCBFBAG_OFFSET))(this);
 		}
 
-		::System::Void Method_11_609AED97738F44F5(::UnityEngine::UI::VertexHelper* a1, ::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4)
+		::System::Void GOKBADGGEMB(::UnityEngine::UI::VertexHelper* MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_METHOD_11_609AED97738F44F5_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITEXTLINK_GOKBADGGEMB_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

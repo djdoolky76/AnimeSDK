@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace Mono::Security { class ASN1; }
+namespace Mono::Security { class ASN1_B704B12AF883B8E0; }
 namespace System { class String; }
 namespace System::Security::Cryptography { class AsymmetricAlgorithm; }
 namespace System::Security::Cryptography { class DSA; }
 namespace System::Security::Cryptography { class RSA; }
 
-#define MONO_SECURITY_X509_X509BUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0x1F50F000)
-#define MONO_SECURITY_X509_X509BUILDER_GETOID_OFFSET UNITYSDK_OFFSET(0x1F50ED00)
-#define MONO_SECURITY_X509_X509BUILDER_GET_HASH_OFFSET UNITYSDK_OFFSET(0x1F50EEB0)
-#define MONO_SECURITY_X509_X509BUILDER_SET_HASH_OFFSET UNITYSDK_OFFSET(0x1F50EEC0)
-#define MONO_SECURITY_X509_X509BUILDER_SIGN_1_OFFSET UNITYSDK_OFFSET(0x1F50F310)
-#define MONO_SECURITY_X509_X509BUILDER_SIGN_2_OFFSET UNITYSDK_OFFSET(0x1F50F4B0)
-#define MONO_SECURITY_X509_X509BUILDER_SIGN_OFFSET UNITYSDK_OFFSET(0x1F50EF10)
-#define MONO_SECURITY_X509_X509BUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F50ECC0)
+#define MONO_SECURITY_X509_X509BUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0x1F8DD0E0)
+#define MONO_SECURITY_X509_X509BUILDER_GETOID_OFFSET UNITYSDK_OFFSET(0x1F8DCDE0)
+#define MONO_SECURITY_X509_X509BUILDER_GET_HASH_OFFSET UNITYSDK_OFFSET(0x1F8DCF90)
+#define MONO_SECURITY_X509_X509BUILDER_SET_HASH_OFFSET UNITYSDK_OFFSET(0x1F8DCFA0)
+#define MONO_SECURITY_X509_X509BUILDER_SIGN_1_OFFSET UNITYSDK_OFFSET(0x1F8DD3F0)
+#define MONO_SECURITY_X509_X509BUILDER_SIGN_2_OFFSET UNITYSDK_OFFSET(0x1F8DD590)
+#define MONO_SECURITY_X509_X509BUILDER_SIGN_OFFSET UNITYSDK_OFFSET(0x1F8DCFF0)
+#define MONO_SECURITY_X509_X509BUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8DCDA0)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int X509Builder_TypeDefinitionIndex = 2293;
+	inline static constexpr unsigned int X509Builder_TypeDefinitionIndex = 2292;
 
 	class X509Builder : public ::System::Object
 	{
@@ -52,9 +52,9 @@ namespace Mono::Security::X509
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::Security::Cryptography::AsymmetricAlgorithm*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509BUILDER_SIGN_OFFSET))(this, aa);
 		}
 
-		::Il2CppArray<::System::Byte>* Build(::Mono::Security::ASN1* tbs, ::System::String* hashoid, ::Il2CppArray<::System::Byte>* signature)
+		::Il2CppArray<::System::Byte>* Build(::Mono::Security::ASN1_B704B12AF883B8E0* tbs, ::System::String* hashoid, ::Il2CppArray<::System::Byte>* signature)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Mono::Security::ASN1*, ::System::String*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509BUILDER_BUILD_OFFSET))(this, tbs, hashoid, signature);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Mono::Security::ASN1_B704B12AF883B8E0*, ::System::String*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_X509BUILDER_BUILD_OFFSET))(this, tbs, hashoid, signature);
 		}
 
 		::Il2CppArray<::System::Byte>* Sign_1(::System::Security::Cryptography::RSA* key)

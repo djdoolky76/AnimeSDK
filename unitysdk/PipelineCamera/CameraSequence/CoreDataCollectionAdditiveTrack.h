@@ -1,18 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraSequence/AdditiveCameraSequenceTrack_3.h"
-#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 
-namespace PipelineCamera::CameraSequence { class CoreDataCollectionSegment; }
-namespace PipelineCamera::CameraSequence { class CoreDataComposite; }
-
-#define PIPELINECAMERA_CAMERASEQUENCE_COREDATACOLLECTIONADDITIVETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E913740)
+#define PIPELINECAMERA_CAMERASEQUENCE_COREDATACOLLECTIONADDITIVETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC32170)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CoreDataCollectionAdditiveTrack_TypeDefinitionIndex = 38541;
+	inline static constexpr unsigned int CoreDataCollectionAdditiveTrack_TypeDefinitionIndex = 36540;
 
-	class CoreDataCollectionAdditiveTrack : public ::PipelineCamera::CameraSequence::AdditiveCameraSequenceTrack_3<::PipelineCamera::CameraSequence::CoreDataCollectionSegment*, ::PipelineCamera::CameraSequence::CoreDataComposite*, ::PipelineCamera::WorldBasicCameraData>
+	class CoreDataCollectionAdditiveTrack
 	{
 	public:
 		::System::Void _ctor()

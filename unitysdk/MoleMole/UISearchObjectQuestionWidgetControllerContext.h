@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISEARCHOBJECTQUESTIONWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F78CF0)
+#define MOLEMOLE_UISEARCHOBJECTQUESTIONWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16900A00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISearchObjectQuestionWidgetControllerContext_TypeDefinitionIndex = 68170;
+	inline static constexpr unsigned int UISearchObjectQuestionWidgetControllerContext_TypeDefinitionIndex = 54858;
 
 	class UISearchObjectQuestionWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{

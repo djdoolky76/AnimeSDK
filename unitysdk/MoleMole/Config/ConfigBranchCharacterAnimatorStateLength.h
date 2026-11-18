@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGBRANCHCHARACTERANIMATORSTATELENGTH__CTOR_OFFSET UNITYSDK_OFFSET(0x1485E8F0)
+#define MOLEMOLE_CONFIG_CONFIGBRANCHCHARACTERANIMATORSTATELENGTH__CTOR_OFFSET UNITYSDK_OFFSET(0x11E896B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBranchCharacterAnimatorStateLength_TypeDefinitionIndex = 79693;
+	inline static constexpr unsigned int ConfigBranchCharacterAnimatorStateLength_TypeDefinitionIndex = 64136;
 
 	class ConfigBranchCharacterAnimatorStateLength : public ::Foundation::MihoyoSerializedScriptableObject
 	{

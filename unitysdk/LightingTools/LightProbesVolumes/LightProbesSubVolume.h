@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESSUBVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1FC6EEB0)
-#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESSUBVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6EF50)
+#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESSUBVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x200726D0)
+#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESSUBVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x20072770)
 
 namespace LightingTools::LightProbesVolumes
 {
-	inline static constexpr unsigned int LightProbesSubVolume_TypeDefinitionIndex = 94445;
+	inline static constexpr unsigned int LightProbesSubVolume_TypeDefinitionIndex = 96132;
 
 	class LightProbesSubVolume : public ::UnityEngine::MonoBehaviour
 	{

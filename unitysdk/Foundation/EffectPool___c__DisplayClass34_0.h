@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/AssetRequestHandle.h"
 
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF7CC50)
-#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS34_0__WARMUPINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1EF7CC60)
+#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF06D90)
+#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS34_0__WARMUPINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1EF06DA0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int EffectPool___c__DisplayClass34_0_TypeDefinitionIndex = 8129;
+	inline static constexpr unsigned int EffectPool___c__DisplayClass34_0_TypeDefinitionIndex = 8619;
 
 	class EffectPool___c__DisplayClass34_0 : public ::System::Object
 	{

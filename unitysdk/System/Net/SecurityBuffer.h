@@ -6,14 +6,14 @@
 namespace System::Runtime::InteropServices { class SafeHandle; }
 namespace System::Security::Authentication::ExtendedProtection { class ChannelBinding; }
 
-#define SYSTEM_NET_SECURITYBUFFER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D626510)
-#define SYSTEM_NET_SECURITYBUFFER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D626550)
-#define SYSTEM_NET_SECURITYBUFFER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1D6265B0)
-#define SYSTEM_NET_SECURITYBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6264A0)
+#define SYSTEM_NET_SECURITYBUFFER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DAEAEF0)
+#define SYSTEM_NET_SECURITYBUFFER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DAEAF30)
+#define SYSTEM_NET_SECURITYBUFFER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1DAEAF90)
+#define SYSTEM_NET_SECURITYBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEAE80)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int SecurityBuffer_TypeDefinitionIndex = 3309;
+	inline static constexpr unsigned int SecurityBuffer_TypeDefinitionIndex = 3308;
 
 	class SecurityBuffer : public ::System::Object
 	{

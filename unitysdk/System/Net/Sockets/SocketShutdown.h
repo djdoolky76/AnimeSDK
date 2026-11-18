@@ -3,7 +3,7 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SocketShutdown_TypeDefinitionIndex = 3670;
+	inline static constexpr unsigned int SocketShutdown_TypeDefinitionIndex = 3669;
 
 	enum class SocketShutdown : ::System::Int32
 	{

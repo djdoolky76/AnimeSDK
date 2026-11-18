@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/TimeSpan.h"
 
 namespace System::Threading { class ReaderWriterLock; }
 
-#define PIPELINECAMERA_SCOPEDWRITELOCK_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA9E6C0)
-#define PIPELINECAMERA_SCOPEDWRITELOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA9E5F0)
+#define PIPELINECAMERA_SCOPEDWRITELOCK_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x985190)
+#define PIPELINECAMERA_SCOPEDWRITELOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9850C0)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ScopedWriteLock_TypeDefinitionIndex = 38356;
+	inline static constexpr unsigned int ScopedWriteLock_TypeDefinitionIndex = 36358;
 
 	struct alignas(8) ScopedWriteLock
 	{
 		::System::Threading::ReaderWriterLock* _lock; // 0x10
 
-		/*
 		::System::Void _ctor(::System::Threading::ReaderWriterLock* rwLock, ::System::TimeSpan timeSpan)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Threading::ReaderWriterLock*, ::System::TimeSpan))((::PBYTE)hIl2Cpp + PIPELINECAMERA_SCOPEDWRITELOCK__CTOR_OFFSET))(this, rwLock, timeSpan);
 		}
-		*/
 
 		::System::Void System_IDisposable_Dispose()
 		{

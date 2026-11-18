@@ -1,23 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/InputSystem/DualShock/LowLevel/DualSenseHIDInputReport.h"
 
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_DUALSENSEGAMEPADHID_DUALSENSEHIDMINIMALINPUTREPORT_TOHIDINPUTREPORT_OFFSET UNITYSDK_OFFSET(0xAB4EC0)
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_DUALSENSEGAMEPADHID_DUALSENSEHIDMINIMALINPUTREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F80CDF0)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_DUALSENSEGAMEPADHID_DUALSENSEHIDMINIMALINPUTREPORT_TOHIDINPUTREPORT_OFFSET UNITYSDK_OFFSET(0x99ADC0)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_DUALSENSEGAMEPADHID_DUALSENSEHIDMINIMALINPUTREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC1D950)
 
 namespace UnityEngine::InputSystem::DualShock
 {
-	inline static constexpr unsigned int DualSenseGamepadHID_DualSenseHIDMinimalInputReport_TypeDefinitionIndex = 32443;
+	inline static constexpr unsigned int DualSenseGamepadHID_DualSenseHIDMinimalInputReport_TypeDefinitionIndex = 31892;
 
-	struct alignas(1) DualSenseGamepadHID_DualSenseHIDMinimalInputReport
+	struct alignas(4) DualSenseGamepadHID_DualSenseHIDMinimalInputReport
 	{
 		static ::System::Int32* StaticGet_ExpectedSize2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadHID_DualSenseHIDMinimalInputReport_TypeDefinitionIndex)->GetStaticField(0x7D50);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadHID_DualSenseHIDMinimalInputReport_TypeDefinitionIndex)->GetStaticField(0x8150);
 		}
 		static ::System::Int32* StaticGet_ExpectedSize1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadHID_DualSenseHIDMinimalInputReport_TypeDefinitionIndex)->GetStaticField(0x7D54);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadHID_DualSenseHIDMinimalInputReport_TypeDefinitionIndex)->GetStaticField(0x8154);
 		}
 		::System::Byte reportId; // 0x10
 		::System::Byte leftStickX; // 0x11
@@ -35,11 +36,9 @@ namespace UnityEngine::InputSystem::DualShock
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_DUALSHOCK_DUALSENSEGAMEPADHID_DUALSENSEHIDMINIMALINPUTREPORT__CCTOR_OFFSET))();
 		}
 
-		/*
 		::UnityEngine::InputSystem::DualShock::LowLevel::DualSenseHIDInputReport ToHIDInputReport()
 		{
 			return ((::UnityEngine::InputSystem::DualShock::LowLevel::DualSenseHIDInputReport(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_DUALSHOCK_DUALSENSEGAMEPADHID_DUALSENSEHIDMINIMALINPUTREPORT_TOHIDINPUTREPORT_OFFSET))(this);
 		}
-		*/
 	};
 }

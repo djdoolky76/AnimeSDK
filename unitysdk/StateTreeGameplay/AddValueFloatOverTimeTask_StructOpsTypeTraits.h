@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define STATETREEGAMEPLAY_ADDVALUEFLOATOVERTIMETASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1CB924F0)
-#define STATETREEGAMEPLAY_ADDVALUEFLOATOVERTIMETASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB92460)
+#define STATETREEGAMEPLAY_ADDVALUEFLOATOVERTIMETASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1374DD40)
+#define STATETREEGAMEPLAY_ADDVALUEFLOATOVERTIMETASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1374DCA0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int AddValueFloatOverTimeTask_StructOpsTypeTraits_TypeDefinitionIndex = 65782;
+	inline static constexpr unsigned int AddValueFloatOverTimeTask_StructOpsTypeTraits_TypeDefinitionIndex = 42449;
 
 	class AddValueFloatOverTimeTask_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

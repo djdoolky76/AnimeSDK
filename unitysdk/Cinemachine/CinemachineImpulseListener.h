@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/Cinemachine/CinemachineExtension.h"
+#include "unitysdk/Cinemachine/CameraState.h"
 
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define CINEMACHINE_CINEMACHINEIMPULSELISTENER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1F84DF00)
-#define CINEMACHINE_CINEMACHINEIMPULSELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x1F84DEE0)
-#define CINEMACHINE_CINEMACHINEIMPULSELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F84E150)
+#define CINEMACHINE_CINEMACHINEIMPULSELISTENER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1FC673B0)
+#define CINEMACHINE_CINEMACHINEIMPULSELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x1FC67390)
+#define CINEMACHINE_CINEMACHINEIMPULSELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC67600)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineImpulseListener_TypeDefinitionIndex = 34814;
+	inline static constexpr unsigned int CinemachineImpulseListener_TypeDefinitionIndex = 34360;
 
 	class CinemachineImpulseListener : public ::Cinemachine::CinemachineExtension
 	{

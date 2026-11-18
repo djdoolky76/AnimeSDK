@@ -4,18 +4,18 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryParser; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINASSEMBLY_READ_OFFSET UNITYSDK_OFFSET(0x1DDE6BB0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE6BA0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINASSEMBLY_READ_OFFSET UNITYSDK_OFFSET(0x1E2678B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYCROSSAPPDOMAINASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2678A0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int BinaryCrossAppDomainAssembly_TypeDefinitionIndex = 1184;
+	inline static constexpr unsigned int BinaryCrossAppDomainAssembly_TypeDefinitionIndex = 1183;
 
 	class BinaryCrossAppDomainAssembly : public ::System::Object
 	{
 	public:
-		::System::Int32 assemblyIndex; // 0x10
-		::System::Int32 assemId; // 0x14
+		::System::Int32 assemId; // 0x10
+		::System::Int32 assemblyIndex; // 0x14
 
 		::System::Void _ctor()
 		{

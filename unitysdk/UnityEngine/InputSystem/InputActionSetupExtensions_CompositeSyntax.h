@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputAction; }
 namespace UnityEngine::InputSystem { class InputActionMap; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONSETUPEXTENSIONS_COMPOSITESYNTAX_GET_BINDINGINDEX_OFFSET UNITYSDK_OFFSET(0xA593F0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONSETUPEXTENSIONS_COMPOSITESYNTAX_WITH_OFFSET UNITYSDK_OFFSET(0xA59430)
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONSETUPEXTENSIONS_COMPOSITESYNTAX__CTOR_OFFSET UNITYSDK_OFFSET(0xA59420)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONSETUPEXTENSIONS_COMPOSITESYNTAX_GET_BINDINGINDEX_OFFSET UNITYSDK_OFFSET(0x93A920)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONSETUPEXTENSIONS_COMPOSITESYNTAX_WITH_OFFSET UNITYSDK_OFFSET(0x93A960)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONSETUPEXTENSIONS_COMPOSITESYNTAX__CTOR_OFFSET UNITYSDK_OFFSET(0x93A950)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionSetupExtensions_CompositeSyntax_TypeDefinitionIndex = 32178;
+	inline static constexpr unsigned int InputActionSetupExtensions_CompositeSyntax_TypeDefinitionIndex = 31627;
 
 	struct alignas(8) InputActionSetupExtensions_CompositeSyntax
 	{
@@ -30,9 +30,11 @@ namespace UnityEngine::InputSystem
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONSETUPEXTENSIONS_COMPOSITESYNTAX_GET_BINDINGINDEX_OFFSET))(this);
 		}
 
+		/*
 		::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax With(::System::String* name, ::System::String* binding, ::System::String* groups, ::System::String* processors)
 		{
 			return ((::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONSETUPEXTENSIONS_COMPOSITESYNTAX_WITH_OFFSET))(this, name, binding, groups, processors);
 		}
+		*/
 	};
 }

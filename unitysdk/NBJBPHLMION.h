@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JABMAACFECK.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/MMHCBMJGEBL.h"
+#include "unitysdk/NNCILIONLBN.h"
+
+class OLBEKACKPGM;
+
+#define NBJBPHLMION_ANYFEATUREAVAILABLE_OFFSET UNITYSDK_OFFSET(0xE568680)
+#define NBJBPHLMION_DYNAMICWEIGHT_OFFSET UNITYSDK_OFFSET(0xE5686D0)
+#define NBJBPHLMION_ECSEXECUTE_OFFSET UNITYSDK_OFFSET(0xE568720)
+#define NBJBPHLMION_EJICCOPPGBD_OFFSET UNITYSDK_OFFSET(0xE5687E0)
+#define NBJBPHLMION_GETENVIRONMENTFEATURE_OFFSET UNITYSDK_OFFSET(0xE5686C0)
+#define NBJBPHLMION_GET_FIXEDPRIORITY_OFFSET UNITYSDK_OFFSET(0xE568670)
+#define NBJBPHLMION_LIMPLADPELP_OFFSET UNITYSDK_OFFSET(0xE568850)
+#define NBJBPHLMION__CTOR_OFFSET UNITYSDK_OFFSET(0xE5687D0)
+
+inline static constexpr unsigned int NBJBPHLMION_TypeDefinitionIndex = 83127;
+
+class NBJBPHLMION : public ::System::Object
+{
+public:
+	::JABMAACFECK BHONKGFLLIA; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NBJBPHLMION__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 get_FixedPriority()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NBJBPHLMION_GET_FIXEDPRIORITY_OFFSET))(this);
+	}
+
+	::System::Boolean AnyFeatureAvailable()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NBJBPHLMION_ANYFEATUREAVAILABLE_OFFSET))(this);
+	}
+
+	::JABMAACFECK& GetEnvironmentFeature()
+	{
+		return ((::JABMAACFECK&(*)(::PVOID))((::PBYTE)hIl2Cpp + NBJBPHLMION_GETENVIRONMENTFEATURE_OFFSET))(this);
+	}
+
+	::System::Int32 DynamicWeight(::MMHCBMJGEBL& AAOCANGHBDG)
+	{
+		return ((::System::Int32(*)(::PVOID, ::MMHCBMJGEBL&))((::PBYTE)hIl2Cpp + NBJBPHLMION_DYNAMICWEIGHT_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Boolean EcsExecute(::NNCILIONLBN& AAOCANGHBDG, ::OLBEKACKPGM*& NJAPONLHMHH)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::NNCILIONLBN&, ::OLBEKACKPGM*&))((::PBYTE)hIl2Cpp + NBJBPHLMION_ECSEXECUTE_OFFSET))(this, AAOCANGHBDG, NJAPONLHMHH);
+	}
+
+	::System::Int32 EJICCOPPGBD(::MMHCBMJGEBL& AAOCANGHBDG)
+	{
+		return ((::System::Int32(*)(::PVOID, ::MMHCBMJGEBL&))((::PBYTE)hIl2Cpp + NBJBPHLMION_EJICCOPPGBD_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Boolean LIMPLADPELP(::NNCILIONLBN& AAOCANGHBDG, ::OLBEKACKPGM*& NJAPONLHMHH)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::NNCILIONLBN&, ::OLBEKACKPGM*&))((::PBYTE)hIl2Cpp + NBJBPHLMION_LIMPLADPELP_OFFSET))(this, AAOCANGHBDG, NJAPONLHMHH);
+	}
+};

@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int IAnimationControllerOverrideItem_1_TypeDefinitionIndex = 50581;
+	inline static constexpr unsigned int IAnimationControllerOverrideItem_1_TypeDefinitionIndex = 81855;
 
 	template <typename T>
 	class IAnimationControllerOverrideItem_1

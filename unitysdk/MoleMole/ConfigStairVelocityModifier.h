@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/BaseConfigEnvironmentFeatureModifier.h"
 
-#define MOLEMOLE_CONFIGSTAIRVELOCITYMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B935210)
+#define MOLEMOLE_CONFIGSTAIRVELOCITYMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x103E3CF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigStairVelocityModifier_TypeDefinitionIndex = 55969;
+	inline static constexpr unsigned int ConfigStairVelocityModifier_TypeDefinitionIndex = 55258;
 
 	class ConfigStairVelocityModifier : public ::MoleMole::BaseConfigEnvironmentFeatureModifier
 	{

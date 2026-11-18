@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define LEAVESCONFIG_GETNORMALIZEDUVWEIGHTS_OFFSET UNITYSDK_OFFSET(0x1E78A160)
-#define LEAVESCONFIG_GET_STEPDELTATIME_OFFSET UNITYSDK_OFFSET(0x1E789F40)
-#define LEAVESCONFIG_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1E789FA0)
-#define LEAVESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78A260)
+#define LEAVESCONFIG_GETNORMALIZEDUVWEIGHTS_OFFSET UNITYSDK_OFFSET(0x1EA3B2F0)
+#define LEAVESCONFIG_GET_STEPDELTATIME_OFFSET UNITYSDK_OFFSET(0x1EA3B0D0)
+#define LEAVESCONFIG_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1EA3B130)
+#define LEAVESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3B3F0)
 
-inline static constexpr unsigned int LeavesConfig_TypeDefinitionIndex = 27825;
+inline static constexpr unsigned int LeavesConfig_TypeDefinitionIndex = 26996;
 
 class LeavesConfig : public ::UnityEngine::ScriptableObject
 {
@@ -17,6 +17,7 @@ public:
 	::System::Int32 maxLeafCount; // 0x18
 	::System::Single simulationFps; // 0x1C
 	::System::Boolean useFixedStep; // 0x20
+	::System::Byte _padding0[0x3];
 	::System::Int32 maxSubStepsPerFrame; // 0x24
 	::System::Single leafLifetime; // 0x28
 	::UnityEngine::Vector3 gravity; // 0x2C
@@ -40,19 +41,24 @@ public:
 	::System::Single upwardBoost; // 0x9C
 	::System::Boolean enableBoundaryBoxes; // 0xA0
 	::System::Boolean enableSceneCollision; // 0xA1
+	::System::Byte _padding1[0x2];
 	::System::Int32 maxCollisionBoxes; // 0xA4
 	::System::Single collisionFriction; // 0xA8
 	::System::Single groundSpeedThreshold; // 0xAC
 	::System::Boolean enableCharacterInteraction; // 0xB0
+	::System::Byte _padding2[0x3];
 	::System::Single characterForceRadius; // 0xB4
 	::System::Single characterForceStrength; // 0xB8
 	::System::Single characterUpwardRatio; // 0xBC
 	::System::Single characterMinSpeed; // 0xC0
 	::System::Boolean enableVortexField; // 0xC4
+	::System::Byte _padding3[0x3];
 	::System::Single vortexStrength; // 0xC8
 	::System::Boolean enableFrontMask; // 0xCC
+	::System::Byte _padding4[0x3];
 	::System::Single frontMaskStrength; // 0xD0
 	::System::Boolean enableCharacterLag; // 0xD4
+	::System::Byte _padding5[0x3];
 	::System::Single characterLagLerp; // 0xD8
 	::System::Single uvWeightQ0; // 0xDC
 	::System::Single uvWeightQ1; // 0xE0

@@ -6,13 +6,13 @@
 
 namespace UnityEngine::Rendering::Universal { class Vignette; }
 
-#define VIGNETTEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CB9F400)
-#define VIGNETTEPROXY_COPYVALUEFROM_OFFSET UNITYSDK_OFFSET(0x1CB9F7D0)
-#define VIGNETTEPROXY_SETVALUETO_OFFSET UNITYSDK_OFFSET(0x1CB9FA10)
-#define VIGNETTEPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CB9F9C0)
-#define VIGNETTEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB9FDE0)
+#define VIGNETTEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1EC45910)
+#define VIGNETTEPROXY_COPYVALUEFROM_OFFSET UNITYSDK_OFFSET(0x1EC45CE0)
+#define VIGNETTEPROXY_SETVALUETO_OFFSET UNITYSDK_OFFSET(0x1EC45F20)
+#define VIGNETTEPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EC45ED0)
+#define VIGNETTEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC462F0)
 
-inline static constexpr unsigned int VignetteProxy_TypeDefinitionIndex = 68076;
+inline static constexpr unsigned int VignetteProxy_TypeDefinitionIndex = 68898;
 
 class VignetteProxy : public ::UnityEngine::MonoBehaviour
 {
@@ -22,6 +22,7 @@ public:
 	::System::Single intensity; // 0x30
 	::System::Single smoothness; // 0x34
 	::System::Boolean rounded; // 0x38
+	::System::Byte _padding0[0x7];
 	::UnityEngine::Rendering::Universal::Vignette* _vignette; // 0x40
 
 	::System::Void _ctor()

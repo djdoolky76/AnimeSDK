@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_E4F1098F508CC7DC_Enum_3_D311A4070E6E7A7A.h"
-#include "unitysdk/Enum_3_5F152DBF108B0858.h"
-#include "unitysdk/Enum_3_F79A436E91A3822C.h"
+#include "unitysdk/EFIFKJHLKCF.h"
+#include "unitysdk/HMENNFHKEOE_GLDNHBHMBDL.h"
+#include "unitysdk/IBAHIJOBGBG.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/NodeGraph/VariantUnion.h"
 #include "unitysdk/Share/ENotificationBadgeType.h"
 
-class Class_1_BE6BF7909AD9D940;
+class FBHPDPBIGPK;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIFRIENDCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16DBA650)
+#define MOLEMOLE_UIFRIENDCARDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x166B0160)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendCardContext_TypeDefinitionIndex = 82292;
+	inline static constexpr unsigned int UIFriendCardContext_TypeDefinitionIndex = 83591;
 
 	class UIFriendCardContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_BE6BF7909AD9D940* info; // 0x28
-		::NodeGraph::VariantUnion subKey; // 0x30
-		::System::Action_1<::Class_1_BE6BF7909AD9D940*>* onClickSendMessage; // 0x48
-		::Class_1_E4F1098F508CC7DC_Enum_3_D311A4070E6E7A7A FromModule; // 0x50
-		::Enum_3_5F152DBF108B0858 IdentityType; // 0x54
-		::Share::ENotificationBadgeType notificationBadgeType; // 0x58
-		::System::Boolean isShowingPlatform; // 0x5C
-		::System::Int32 ModuleID; // 0x60
-		::Enum_3_F79A436E91A3822C DisplayTag; // 0x64
+		::System::Action_1<::FBHPDPBIGPK*>* onClickSendMessage; // 0x28
+		::FBHPDPBIGPK* info; // 0x30
+		::NodeGraph::VariantUnion subKey; // 0x38
+		::HMENNFHKEOE_GLDNHBHMBDL FromModule; // 0x50
+		::EFIFKJHLKCF IdentityType; // 0x54
+		::System::Int32 ModuleID; // 0x58
+		::Share::ENotificationBadgeType notificationBadgeType; // 0x5C
+		::IBAHIJOBGBG DisplayTag; // 0x60
 
 		::System::Void _ctor()
 		{

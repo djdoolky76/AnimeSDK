@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PBJOCICFNGK.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+
+class BCPOAKGDAJO;
+class IOOIHHOJOPI;
+template <typename T> class BFMLEHMAGAK_1;
+
+#define EDFHNBHEDNC_AALJBKPGKOL_OFFSET UNITYSDK_OFFSET(0x16BD3C80)
+#define EDFHNBHEDNC_AMJGJEHFGFP_OFFSET UNITYSDK_OFFSET(0x16BD3BB0)
+#define EDFHNBHEDNC_CODFLGKLBJL_OFFSET UNITYSDK_OFFSET(0x16BD3A60)
+#define EDFHNBHEDNC_EJMLADDEHAE_OFFSET UNITYSDK_OFFSET(0x16BD3800)
+#define EDFHNBHEDNC_IEEDDFOBJIO_OFFSET UNITYSDK_OFFSET(0x16BD3BA0)
+#define EDFHNBHEDNC_KOPGGFBMBJN_OFFSET UNITYSDK_OFFSET(0x16BD3B80)
+#define EDFHNBHEDNC__CTOR_OFFSET UNITYSDK_OFFSET(0x16BD3B30)
+
+inline static constexpr unsigned int EDFHNBHEDNC_TypeDefinitionIndex = 39591;
+
+class EDFHNBHEDNC : public ::PBJOCICFNGK
+{
+public:
+	::BFMLEHMAGAK_1<::System::Int64>* _GBLJJGJPFEK_k__BackingField; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDFHNBHEDNC__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EJMLADDEHAE(::LIBOIKJGAIH& EIEOJFEPMAB, ::IOOIHHOJOPI* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::IOOIHHOJOPI*))((::PBYTE)hIl2Cpp + EDFHNBHEDNC_EJMLADDEHAE_OFFSET))(this, EIEOJFEPMAB, IOKOLJDCKPN);
+	}
+
+	::System::Int64 KOPGGFBMBJN()
+	{
+		return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + EDFHNBHEDNC_KOPGGFBMBJN_OFFSET))(this);
+	}
+
+	::System::Void IEEDDFOBJIO(::BFMLEHMAGAK_1<::System::Int64>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::BFMLEHMAGAK_1<::System::Int64>*))((::PBYTE)hIl2Cpp + EDFHNBHEDNC_IEEDDFOBJIO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Int64 AMJGJEHFGFP()
+	{
+		return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + EDFHNBHEDNC_AMJGJEHFGFP_OFFSET))(this);
+	}
+
+	::BCPOAKGDAJO* CODFLGKLBJL()
+	{
+		return ((::BCPOAKGDAJO*(*)(::PVOID))((::PBYTE)hIl2Cpp + EDFHNBHEDNC_CODFLGKLBJL_OFFSET))(this);
+	}
+
+	::BFMLEHMAGAK_1<::System::Int64>* AALJBKPGKOL()
+	{
+		return ((::BFMLEHMAGAK_1<::System::Int64>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EDFHNBHEDNC_AALJBKPGKOL_OFFSET))(this);
+	}
+};

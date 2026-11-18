@@ -7,18 +7,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODE_CREATE_OFFSET UNITYSDK_OFFSET(0x14F0DE30)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F0E210)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODE_CREATE_OFFSET UNITYSDK_OFFSET(0x1A5B31E0)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5B35C0)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagNode_TypeDefinitionIndex = 10049;
+	inline static constexpr unsigned int FGameplayTagNode_TypeDefinitionIndex = 12545;
 
 	struct alignas(8) FGameplayTagNode
 	{
 		static ::Foundation::Unreal::FGameplayTagNode* StaticGet_Root()
 		{
-			return (::Foundation::Unreal::FGameplayTagNode*)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagNode_TypeDefinitionIndex)->GetStaticField(0x7840);
+			return (::Foundation::Unreal::FGameplayTagNode*)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagNode_TypeDefinitionIndex)->GetStaticField(0x77E0);
 		}
 		::Foundation::Unreal::FName Tag; // 0x10
 		::Foundation::Unreal::FGameplayTagContainer CompleteTagWithParents; // 0x18
@@ -30,9 +30,11 @@ namespace Foundation::Unreal
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FGAMEPLAYTAGNODE__CCTOR_OFFSET))();
 		}
 
+		/*
 		static ::Foundation::Unreal::FGameplayTagNode Create(::Foundation::Unreal::FName shortTag, ::Foundation::Unreal::FName fullTag, ::Foundation::Unreal::FGameplayTagNodeIndex parentTagIndex, ::Foundation::Unreal::FGameplayTagNode& parentTag)
 		{
 			return ((::Foundation::Unreal::FGameplayTagNode(*)(::Foundation::Unreal::FName, ::Foundation::Unreal::FName, ::Foundation::Unreal::FGameplayTagNodeIndex, ::Foundation::Unreal::FGameplayTagNode&))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FGAMEPLAYTAGNODE_CREATE_OFFSET))(shortTag, fullTag, parentTagIndex, parentTag);
 		}
+		*/
 	};
 }

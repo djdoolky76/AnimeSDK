@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17907600)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17907640)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__ONPROCESS_B__7_6_OFFSET UNITYSDK_OFFSET(0x17907650)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14AED910)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14AED950)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__ONPROCESS_B__7_6_OFFSET UNITYSDK_OFFSET(0x14AED960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HallRefreshShowObj___c_TypeDefinitionIndex = 44139;
+	inline static constexpr unsigned int HallRefreshShowObj___c_TypeDefinitionIndex = 65509;
 
 	class HallRefreshShowObj___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(HallRefreshShowObj___c_TypeDefinitionIndex)->GetStaticField(0x3EA60);
+		}
 		static ::System::Action** StaticGet___9__7_6()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(HallRefreshShowObj___c_TypeDefinitionIndex)->GetStaticField(0x3CB80);
-		}
-		static ::MoleMole::HallRefreshShowObj___c** StaticGet___9()
-		{
-			return (::MoleMole::HallRefreshShowObj___c**)Il2CppClass::FromTypeDefinitionIndex(HallRefreshShowObj___c_TypeDefinitionIndex)->GetStaticField(0x3CB88);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(HallRefreshShowObj___c_TypeDefinitionIndex)->GetStaticField(0x3EA68);
 		}
 
 		static ::System::Void _cctor()

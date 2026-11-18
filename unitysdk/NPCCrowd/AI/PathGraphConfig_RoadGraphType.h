@@ -3,13 +3,13 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphConfig_RoadGraphType_TypeDefinitionIndex = 60395;
+	inline static constexpr unsigned int PathGraphConfig_RoadGraphType_TypeDefinitionIndex = 87007;
 
 	enum class PathGraphConfig_RoadGraphType : ::System::Int32
 	{
-		Skyway = 2,
-		Others = 3,
-		Sidewalk = 0,
 		Highway = 1,
+		Sidewalk = 0,
+		Others = 3,
+		Skyway = 2,
 	};
 }

@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ICEBNIECGBK.h"
+#include "unitysdk/OLPPOJJADDO.h"
+
+template <typename T> class BFMLEHMAGAK_1;
+
+#define CMAENHCHJFG_EDMEOAJKDKE_OFFSET UNITYSDK_OFFSET(0x14572AB0)
+#define CMAENHCHJFG_FDILCHDDCPB_OFFSET UNITYSDK_OFFSET(0x14572AE0)
+#define CMAENHCHJFG_HDADBBONCOE_OFFSET UNITYSDK_OFFSET(0x14572BE0)
+#define CMAENHCHJFG_HKNPPIIOIFO_OFFSET UNITYSDK_OFFSET(0x14572AC0)
+#define CMAENHCHJFG_NHLMHIHPNED_OFFSET UNITYSDK_OFFSET(0x14572AD0)
+#define CMAENHCHJFG__CTOR_OFFSET UNITYSDK_OFFSET(0x14572BA0)
+
+inline static constexpr unsigned int CMAENHCHJFG_TypeDefinitionIndex = 55851;
+
+class CMAENHCHJFG
+{
+public:
+	::BFMLEHMAGAK_1<::OLPPOJJADDO>* ELEMEAGFJIF; // 0x230
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMAENHCHJFG__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean EDMEOAJKDKE()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CMAENHCHJFG_EDMEOAJKDKE_OFFSET))(this);
+	}
+
+	::System::Boolean HKNPPIIOIFO()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CMAENHCHJFG_HKNPPIIOIFO_OFFSET))(this);
+	}
+
+	::ICEBNIECGBK NHLMHIHPNED()
+	{
+		return ((::ICEBNIECGBK(*)(::PVOID))((::PBYTE)hIl2Cpp + CMAENHCHJFG_NHLMHIHPNED_OFFSET))(this);
+	}
+
+	::BFMLEHMAGAK_1<::OLPPOJJADDO>* FDILCHDDCPB()
+	{
+		return ((::BFMLEHMAGAK_1<::OLPPOJJADDO>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CMAENHCHJFG_FDILCHDDCPB_OFFSET))(this);
+	}
+
+	::OLPPOJJADDO HDADBBONCOE()
+	{
+		return ((::OLPPOJJADDO(*)(::PVOID))((::PBYTE)hIl2Cpp + CMAENHCHJFG_HDADBBONCOE_OFFSET))(this);
+	}
+};

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Coroutine/CoroutineHandle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/Coroutine/CoroutineHandle.h"
 
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace UnityEngine { class CustomYieldInstruction; }
 
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS128_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7814E0)
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS128_0__WAITUNTILDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1F7814F0)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS128_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9C77C0)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS128_0__WAITUNTILDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1F9C77D0)
 
 namespace Foundation::Coroutine
 {
-	inline static constexpr unsigned int CoroutineManager___c__DisplayClass128_0_TypeDefinitionIndex = 8045;
+	inline static constexpr unsigned int CoroutineManager___c__DisplayClass128_0_TypeDefinitionIndex = 8541;
 
 	class CoroutineManager___c__DisplayClass128_0 : public ::System::Object
 	{

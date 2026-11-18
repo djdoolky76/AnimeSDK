@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/InputSystem/Layouts/InputControlLayout_Collection_LayoutMatcher.h"
-#include "unitysdk/UnityEngine/InputSystem/Layouts/InputControlLayout_Collection_PrecompiledLayout.h"
 #include "unitysdk/UnityEngine/InputSystem/Utilities/InternedString.h"
+#include "unitysdk/UnityEngine/InputSystem/Layouts/InputControlLayout_Cache.h"
+#include "unitysdk/UnityEngine/InputSystem/Layouts/InputDeviceDescription.h"
+#include "unitysdk/UnityEngine/InputSystem/Layouts/InputDeviceMatcher.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T> class Func_1; }
@@ -15,26 +17,26 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::InputSystem { class InputControl; }
 namespace UnityEngine::InputSystem::Layouts { class InputControlLayout; }
 
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_ADDMATCHER_OFFSET UNITYSDK_OFFSET(0xAA3B20)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_ALLOCATE_OFFSET UNITYSDK_OFFSET(0xAA3640)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_COMPUTEDISTANCEININHERITANCEHIERARCHY_OFFSET UNITYSDK_OFFSET(0xAA3850)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_FINDLAYOUTTHATINTRODUCESCONTROL_OFFSET UNITYSDK_OFFSET(0xAA3880)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_GETBASELAYOUTNAME_OFFSET UNITYSDK_OFFSET(0xAA3720)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_GETBASELAYOUTS_OFFSET UNITYSDK_OFFSET(0xAA39E0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_GETCONTROLTYPEFORLAYOUT_OFFSET UNITYSDK_OFFSET(0xAA38A0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_GETROOTLAYOUTNAME_OFFSET UNITYSDK_OFFSET(0xAA37A0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_HASLAYOUT_OFFSET UNITYSDK_OFFSET(0xAA36C0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_ISBASEDON_OFFSET UNITYSDK_OFFSET(0xAA3A80)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_ISGENERATEDLAYOUT_OFFSET UNITYSDK_OFFSET(0xAA3950)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_TRYFINDLAYOUTFORTYPE_OFFSET UNITYSDK_OFFSET(0xAA3650)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_TRYFINDMATCHINGLAYOUT_OFFSET UNITYSDK_OFFSET(0xAA3670)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_TRYLOADLAYOUTINTERNAL_OFFSET UNITYSDK_OFFSET(0xAA36E0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_TRYLOADLAYOUT_OFFSET UNITYSDK_OFFSET(0xAA3700)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_VALUETYPEISASSIGNABLEFROM_OFFSET UNITYSDK_OFFSET(0xAA38C0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_ADDMATCHER_OFFSET UNITYSDK_OFFSET(0x98A200)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x989D20)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_COMPUTEDISTANCEININHERITANCEHIERARCHY_OFFSET UNITYSDK_OFFSET(0x989F30)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_FINDLAYOUTTHATINTRODUCESCONTROL_OFFSET UNITYSDK_OFFSET(0x989F60)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_GETBASELAYOUTNAME_OFFSET UNITYSDK_OFFSET(0x989E00)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_GETBASELAYOUTS_OFFSET UNITYSDK_OFFSET(0x98A0C0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_GETCONTROLTYPEFORLAYOUT_OFFSET UNITYSDK_OFFSET(0x989F80)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_GETROOTLAYOUTNAME_OFFSET UNITYSDK_OFFSET(0x989E80)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_HASLAYOUT_OFFSET UNITYSDK_OFFSET(0x989DA0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_ISBASEDON_OFFSET UNITYSDK_OFFSET(0x98A160)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_ISGENERATEDLAYOUT_OFFSET UNITYSDK_OFFSET(0x98A030)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_TRYFINDLAYOUTFORTYPE_OFFSET UNITYSDK_OFFSET(0x989D30)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_TRYFINDMATCHINGLAYOUT_OFFSET UNITYSDK_OFFSET(0x989D50)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_TRYLOADLAYOUTINTERNAL_OFFSET UNITYSDK_OFFSET(0x989DC0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_TRYLOADLAYOUT_OFFSET UNITYSDK_OFFSET(0x989DE0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_VALUETYPEISASSIGNABLEFROM_OFFSET UNITYSDK_OFFSET(0x989FA0)
 
 namespace UnityEngine::InputSystem::Layouts
 {
-	inline static constexpr unsigned int InputControlLayout_Collection_TypeDefinitionIndex = 32608;
+	inline static constexpr unsigned int InputControlLayout_Collection_TypeDefinitionIndex = 32057;
 
 	struct alignas(8) InputControlLayout_Collection
 	{
@@ -45,8 +47,8 @@ namespace UnityEngine::InputSystem::Layouts
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::InternedString>* baseLayoutTable; // 0x28
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::Il2CppArray<::UnityEngine::InputSystem::Utilities::InternedString>*>* layoutOverrides; // 0x30
 		::System::Collections::Generic::HashSet_1<::UnityEngine::InputSystem::Utilities::InternedString>* layoutOverrideNames; // 0x38
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection_PrecompiledLayout>* precompiledLayouts; // 0x40
-		::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection_LayoutMatcher>* layoutMatchers; // 0x48
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Object*>* precompiledLayouts; // 0x40
+		::System::Collections::Generic::List_1<::System::Object*>* layoutMatchers; // 0x48
 
 		::System::Void Allocate()
 		{
@@ -58,12 +60,10 @@ namespace UnityEngine::InputSystem::Layouts
 			return ((::UnityEngine::InputSystem::Utilities::InternedString(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_TRYFINDLAYOUTFORTYPE_OFFSET))(this, layoutType);
 		}
 
-		/*
 		::UnityEngine::InputSystem::Utilities::InternedString TryFindMatchingLayout(::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription)
 		{
 			return ((::UnityEngine::InputSystem::Utilities::InternedString(*)(::PVOID, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_TRYFINDMATCHINGLAYOUT_OFFSET))(this, deviceDescription);
 		}
-		*/
 
 		::System::Boolean HasLayout(::UnityEngine::InputSystem::Utilities::InternedString name)
 		{
@@ -95,12 +95,10 @@ namespace UnityEngine::InputSystem::Layouts
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::InternedString, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_COMPUTEDISTANCEININHERITANCEHIERARCHY_OFFSET))(this, firstLayout, secondLayout, distance);
 		}
 
-		/*
 		::UnityEngine::InputSystem::Utilities::InternedString FindLayoutThatIntroducesControl(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache cache)
 		{
 			return ((::UnityEngine::InputSystem::Utilities::InternedString(*)(::PVOID, ::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_FINDLAYOUTTHATINTRODUCESCONTROL_OFFSET))(this, control, cache);
 		}
-		*/
 
 		::System::Type* GetControlTypeForLayout(::UnityEngine::InputSystem::Utilities::InternedString layoutName)
 		{
@@ -127,11 +125,9 @@ namespace UnityEngine::InputSystem::Layouts
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::InternedString))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_ISBASEDON_OFFSET))(this, parentLayout, childLayout);
 		}
 
-		/*
 		::System::Void AddMatcher(::UnityEngine::InputSystem::Utilities::InternedString layout, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_COLLECTION_ADDMATCHER_OFFSET))(this, layout, matcher);
 		}
-		*/
 	};
 }

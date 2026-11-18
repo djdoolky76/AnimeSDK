@@ -1,12 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/Unity/SubmeshInstruction.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/Spine/Unity/SubmeshInstruction.h"
 
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace Spine::Unity { class MeshGenerator; }
 namespace Spine::Unity { class MeshRendererBuffers; }
 namespace Spine::Unity { class SkeletonPartsRenderer_SkeletonPartsRendererDelegate; }
+namespace Spine::Unity { class SkeletonRenderer; }
 namespace Spine::Unity { class SkeletonRendererInstruction; }
 namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
@@ -14,22 +15,22 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define SPINE_UNITY_SKELETONPARTSRENDERER_ADD_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x1C18A950)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_CLEARMESH_OFFSET UNITYSDK_OFFSET(0x1C18AA60)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHFILTER_OFFSET UNITYSDK_OFFSET(0x1C18A930)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHGENERATOR_OFFSET UNITYSDK_OFFSET(0x1C18A6E0)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1C18A910)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_LAZYINTIALIZE_OFFSET UNITYSDK_OFFSET(0x1C18A700)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_NEWPARTSRENDERERGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C18B9F0)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C18AA50)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_REMOVE_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x1C18A9D0)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_RENDERPARTS_OFFSET UNITYSDK_OFFSET(0x1C18AA90)
-#define SPINE_UNITY_SKELETONPARTSRENDERER_SETPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1C18B9B0)
-#define SPINE_UNITY_SKELETONPARTSRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C18BCC0)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_ADD_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x1FDCC670)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_CLEARMESH_OFFSET UNITYSDK_OFFSET(0x1FDCC7F0)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHFILTER_OFFSET UNITYSDK_OFFSET(0x1FDCC650)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHGENERATOR_OFFSET UNITYSDK_OFFSET(0x1FDCC400)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_GET_MESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1FDCC630)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_LAZYINTIALIZE_OFFSET UNITYSDK_OFFSET(0x1FDCC420)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_NEWPARTSRENDERERGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1FDCCD00)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FDCC770)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_REMOVE_ONMESHANDMATERIALSUPDATED_OFFSET UNITYSDK_OFFSET(0x1FDCC6F0)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_RENDERPARTS_OFFSET UNITYSDK_OFFSET(0x1FDCC820)
+#define SPINE_UNITY_SKELETONPARTSRENDERER_SETPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1FDCCCC0)
+#define SPINE_UNITY_SKELETONPARTSRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDCCFD0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonPartsRenderer_TypeDefinitionIndex = 40132;
+	inline static constexpr unsigned int SkeletonPartsRenderer_TypeDefinitionIndex = 38147;
 
 	class SkeletonPartsRenderer : public ::UnityEngine::MonoBehaviour
 	{
@@ -86,9 +87,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_CLEARMESH_OFFSET))(this);
 		}
 
-		::System::Void RenderParts(::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>* instructions, ::System::Int32 startSubmesh, ::System::Int32 endSubmesh)
+		::System::Void RenderParts(::Spine::Unity::SkeletonRenderer* skeletonRenderer, ::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>* instructions, ::System::Int32 startSubmesh, ::System::Int32 endSubmesh, ::System::Boolean materialsNeedUpdate)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_RENDERPARTS_OFFSET))(this, instructions, startSubmesh, endSubmesh);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRenderer*, ::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONPARTSRENDERER_RENDERPARTS_OFFSET))(this, skeletonRenderer, instructions, startSubmesh, endSubmesh, materialsNeedUpdate);
 		}
 
 		::System::Void SetPropertyBlock(::UnityEngine::MaterialPropertyBlock* block)

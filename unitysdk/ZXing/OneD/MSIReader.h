@@ -5,35 +5,35 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define ZXING_ONED_MSIREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE90D40)
-#define ZXING_ONED_MSIREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BE90C50)
-#define ZXING_ONED_MSIREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE90B70)
+#define ZXING_ONED_MSIREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C31E9C0)
+#define ZXING_ONED_MSIREADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C31E8D0)
+#define ZXING_ONED_MSIREADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C31E7F0)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int MSIReader_TypeDefinitionIndex = 19489;
+	inline static constexpr unsigned int MSIReader_TypeDefinitionIndex = 18643;
 
 	class MSIReader : public ::ZXing::OneD::OneDReader
 	{
 	public:
 		static ::System::String** StaticGet_ALPHABET_STRING()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x8D60);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x8D50);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x8D58);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_doubleAndCrossSum()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x8D60);
 		}
 		static ::Il2CppArray<::System::Char>** StaticGet_ALPHABET()
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x8D68);
 		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x8D70);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_doubleAndCrossSum()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x8D78);
-		}
-		::Il2CppArray<::System::Int32>* counters; // 0x10
-		::System::Text::StringBuilder* decodeRowResult; // 0x18
+		::System::Text::StringBuilder* decodeRowResult; // 0x10
+		::Il2CppArray<::System::Int32>* counters; // 0x18
 		::System::Boolean usingCheckDigit; // 0x20
 
 		::System::Void _ctor()

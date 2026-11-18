@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIGALGAMEARGUEHPPANELWIDGETCONTROLLER_ARGUEHPPANELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x186BF610)
+#define MOLEMOLE_UIGALGAMEARGUEHPPANELWIDGETCONTROLLER_ARGUEHPPANELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x184C8A10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgameArgueHPPanelWidgetController_ArgueHPPanelParam_TypeDefinitionIndex = 49841;
+	inline static constexpr unsigned int UIGalgameArgueHPPanelWidgetController_ArgueHPPanelParam_TypeDefinitionIndex = 81008;
 
 	class UIGalgameArgueHPPanelWidgetController_ArgueHPPanelParam : public ::System::Object
 	{
 	public:
-		::System::Boolean isLeftSide; // 0x10
-		::System::Int32 currentHealth; // 0x14
-		::System::Int32 maxHealth; // 0x18
+		::System::Int32 currentHealth; // 0x10
+		::System::Int32 maxHealth; // 0x14
+		::System::Boolean isLeftSide; // 0x18
 
 		::System::Void _ctor()
 		{

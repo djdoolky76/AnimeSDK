@@ -2,25 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask_Awaiter.h"
-#include "unitysdk/Struct_2_32BC8A3A2B32C8F9.h"
+#include "unitysdk/GGNCCKFEDOC.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace MoleMole { class UIAbyssS2MapRefreshPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Threading { class CancellationTokenSource; }
 
-#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER__REFRESHMAP_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x884220)
-#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER__REFRESHMAP_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER__REFRESHMAP_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7C1120)
+#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER__REFRESHMAP_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2MapRefreshPageController__RefreshMap_d__12_TypeDefinitionIndex = 91335;
+	inline static constexpr unsigned int UIAbyssS2MapRefreshPageController__RefreshMap_d__12_TypeDefinitionIndex = 51168;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
 	struct alignas(8) UIAbyssS2MapRefreshPageController__RefreshMap_d__12
 	{
-		::Struct_2_32BC8A3A2B32C8F9 ___5__3; // 0x10
+		::MoleMole::UIAbyssS2MapRefreshPageController* __4__this; // 0x10
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x18
-		::MoleMole::UIAbyssS2MapRefreshPageController* __4__this; // 0x28
+		::GGNCCKFEDOC ___5__3; // 0x28
 		::System::Threading::CancellationTokenSource* __7__wrap1; // 0x30
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x38
 		::System::Int32 itemId; // 0x48

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_PREPAREINTERACTION_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1383A220)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_PREPAREINTERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1383A300)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_PREPAREINTERACTION__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1383A340)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_PREPAREINTERACTION_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x139E07F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_PREPAREINTERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x139E08D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_PREPAREINTERACTION__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x139E0910)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_PrepareInteraction_TypeDefinitionIndex = 51660;
+	inline static constexpr unsigned int LD_AbyssS2_PrepareInteraction_TypeDefinitionIndex = 49913;
 
 	class LD_AbyssS2_PrepareInteraction : public ::FlowCanvas::Nodes::FlowControlNode
 	{

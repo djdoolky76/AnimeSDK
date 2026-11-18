@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ENGKPGFGGLM.h"
+#include "unitysdk/OJMPKEAMPCA.h"
+#include "unitysdk/IDNONHDGGNB.h"
+
+#define LMLIEBFAJHK_CNHBDOMKKDE_OFFSET UNITYSDK_OFFSET(0x11F22BE0)
+#define LMLIEBFAJHK_FIGPAOKNJLN_OFFSET UNITYSDK_OFFSET(0x11F22B40)
+#define LMLIEBFAJHK_GCDIGLPEOGH_OFFSET UNITYSDK_OFFSET(0x11F22A00)
+#define LMLIEBFAJHK_GGINLMMGECA_OFFSET UNITYSDK_OFFSET(0x11F22BD0)
+#define LMLIEBFAJHK_JJFIBEFNEOJ_OFFSET UNITYSDK_OFFSET(0x11F22B30)
+#define LMLIEBFAJHK_OHFHFOHMBJH_OFFSET UNITYSDK_OFFSET(0x11F22A90)
+#define LMLIEBFAJHK_PHOADBJGFBE_OFFSET UNITYSDK_OFFSET(0x11F228F0)
+#define LMLIEBFAJHK__CCTOR_OFFSET UNITYSDK_OFFSET(0x11F22980)
+#define LMLIEBFAJHK__CTOR_OFFSET UNITYSDK_OFFSET(0x11F229F0)
+
+inline static constexpr unsigned int LMLIEBFAJHK_TypeDefinitionIndex = 42334;
+
+class LMLIEBFAJHK : public ::ENGKPGFGGLM
+{
+public:
+	// static const ::System::UInt16 GBKNNOFLGDJ = 0xAF; // 0x0
+	::OJMPKEAMPCA _FGJFLDJIKDB_k__BackingField; // 0x20
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + LMLIEBFAJHK__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMLIEBFAJHK__CTOR_OFFSET))(this);
+	}
+
+	::System::Void PHOADBJGFBE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMLIEBFAJHK_PHOADBJGFBE_OFFSET))(this);
+	}
+
+	::System::Void GCDIGLPEOGH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMLIEBFAJHK_GCDIGLPEOGH_OFFSET))(this);
+	}
+
+	::System::Void OHFHFOHMBJH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMLIEBFAJHK_OHFHFOHMBJH_OFFSET))(this);
+	}
+
+	::System::Void JJFIBEFNEOJ(::OJMPKEAMPCA EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::OJMPKEAMPCA))((::PBYTE)hIl2Cpp + LMLIEBFAJHK_JJFIBEFNEOJ_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void FIGPAOKNJLN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMLIEBFAJHK_FIGPAOKNJLN_OFFSET))(this);
+	}
+
+	::OJMPKEAMPCA GGINLMMGECA()
+	{
+		return ((::OJMPKEAMPCA(*)(::PVOID))((::PBYTE)hIl2Cpp + LMLIEBFAJHK_GGINLMMGECA_OFFSET))(this);
+	}
+
+	::System::Void CNHBDOMKKDE(::IDNONHDGGNB& MLGDMCLMGGO, ::IDNONHDGGNB& PEPNPDEFGHB)
+	{
+		return ((::System::Void(*)(::PVOID, ::IDNONHDGGNB&, ::IDNONHDGGNB&))((::PBYTE)hIl2Cpp + LMLIEBFAJHK_CNHBDOMKKDE_OFFSET))(this, MLGDMCLMGGO, PEPNPDEFGHB);
+	}
+};

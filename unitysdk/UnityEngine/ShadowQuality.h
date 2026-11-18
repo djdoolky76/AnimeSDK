@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ShadowQuality_TypeDefinitionIndex = 5225;
+	inline static constexpr unsigned int ShadowQuality_TypeDefinitionIndex = 5227;
 
 	enum class ShadowQuality : ::System::Int32
 	{

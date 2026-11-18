@@ -2,21 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_01B22E9930E7BB4D_Class_2_9B4E325599CB32B2;
-class Class_2_C6DB47ABD5161ECB;
+class CKENOHMEEGI_MFODNKHMNJC;
+class MJFAOJPCCLO;
 
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS12_3__BUILDVIEWMODELDATABINDING_B__14_OFFSET UNITYSDK_OFFSET(0x15117B60)
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS12_3__CTOR_OFFSET UNITYSDK_OFFSET(0x15117B50)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS12_3__BUILDVIEWMODELDATABINDING_B__14_OFFSET UNITYSDK_OFFSET(0x14816BC0)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS12_3__CTOR_OFFSET UNITYSDK_OFFSET(0x14816BB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleDeployBangbooDetailWidgetController___c__DisplayClass12_3_TypeDefinitionIndex = 78603;
+	inline static constexpr unsigned int UISuibianTempleDeployBangbooDetailWidgetController___c__DisplayClass12_3_TypeDefinitionIndex = 39680;
 
+	template <typename T1, typename T2, typename T3>
 	class UISuibianTempleDeployBangbooDetailWidgetController___c__DisplayClass12_3 : public ::System::Object
 	{
 	public:
-		::Class_2_01B22E9930E7BB4D_Class_2_9B4E325599CB32B2* skill; // 0x10
-		::Class_2_C6DB47ABD5161ECB* skillView; // 0x18
+		::CKENOHMEEGI_MFODNKHMNJC* skill; // 0x10
+		::MJFAOJPCCLO* skillView; // 0x18
 
 		::System::Void _ctor()
 		{

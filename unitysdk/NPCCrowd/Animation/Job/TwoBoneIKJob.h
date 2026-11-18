@@ -3,19 +3,21 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Animations/TransformSceneHandle.h"
 #include "unitysdk/UnityEngine/Animations/TransformStreamHandle.h"
+#include "unitysdk/UnityEngine/Animations/AnimationStream.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_PROCESSANIMATION_OFFSET UNITYSDK_OFFSET(0x669040)
-#define NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_PROCESSROOTMOTION_OFFSET UNITYSDK_OFFSET(0x669000)
-#define NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_SETUP_OFFSET UNITYSDK_OFFSET(0x668FF0)
-#define NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_SOLVE_OFFSET UNITYSDK_OFFSET(0xF774360)
-#define NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_TRIANGLEANGLE_OFFSET UNITYSDK_OFFSET(0xF774D30)
+#define NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_PROCESSANIMATION_OFFSET UNITYSDK_OFFSET(0x601870)
+#define NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_PROCESSROOTMOTION_OFFSET UNITYSDK_OFFSET(0x601830)
+#define NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_SETUP_OFFSET UNITYSDK_OFFSET(0x601820)
+#define NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_SOLVE_OFFSET UNITYSDK_OFFSET(0xFD2D2C0)
+#define NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_TRIANGLEANGLE_OFFSET UNITYSDK_OFFSET(0xFD2DC90)
 
 namespace NPCCrowd::Animation::Job
 {
-	inline static constexpr unsigned int TwoBoneIKJob_TypeDefinitionIndex = 64542;
+	inline static constexpr unsigned int TwoBoneIKJob_TypeDefinitionIndex = 74179;
 
 	struct alignas(4) TwoBoneIKJob
 	{
@@ -29,32 +31,24 @@ namespace NPCCrowd::Animation::Job
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_SETUP_OFFSET))(this, animator, topX, midX, lowX, effectorX);
 		}
 
-		/*
 		::System::Void ProcessRootMotion(::UnityEngine::Animations::AnimationStream stream)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_PROCESSROOTMOTION_OFFSET))(this, stream);
 		}
-		*/
 
-		/*
 		::System::Void ProcessAnimation(::UnityEngine::Animations::AnimationStream stream)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_PROCESSANIMATION_OFFSET))(this, stream);
 		}
-		*/
 
-		/*
 		static ::System::Single TriangleAngle(::System::Single aLen, ::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2)
 		{
 			return ((::System::Single(*)(::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_TRIANGLEANGLE_OFFSET))(aLen, v1, v2);
 		}
-		*/
 
-		/*
 		static ::System::Void Solve(::UnityEngine::Animations::AnimationStream stream, ::UnityEngine::Animations::TransformStreamHandle topHandle, ::UnityEngine::Animations::TransformStreamHandle midHandle, ::UnityEngine::Animations::TransformStreamHandle lowHandle, ::UnityEngine::Animations::TransformSceneHandle effectorHandle)
 		{
 			return ((::System::Void(*)(::UnityEngine::Animations::AnimationStream, ::UnityEngine::Animations::TransformStreamHandle, ::UnityEngine::Animations::TransformStreamHandle, ::UnityEngine::Animations::TransformStreamHandle, ::UnityEngine::Animations::TransformSceneHandle))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_TWOBONEIKJOB_SOLVE_OFFSET))(stream, topHandle, midHandle, lowHandle, effectorHandle);
 		}
-		*/
 	};
 }

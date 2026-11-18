@@ -5,15 +5,15 @@
 namespace System { class String; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1C718AC0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_MATCHPATTERN_OFFSET UNITYSDK_OFFSET(0x1C718880)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_SCAN_OFFSET UNITYSDK_OFFSET(0x1C718B30)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C719160)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C717FF0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1CBF8690)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_MATCHPATTERN_OFFSET UNITYSDK_OFFSET(0x1CBF8450)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_SCAN_OFFSET UNITYSDK_OFFSET(0x1CBF8700)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CBF8D30)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXBOYERMOORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF7BC0)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int RegexBoyerMoore_TypeDefinitionIndex = 2722;
+	inline static constexpr unsigned int RegexBoyerMoore_TypeDefinitionIndex = 2721;
 
 	class RegexBoyerMoore : public ::System::Object
 	{
@@ -21,13 +21,14 @@ namespace System::Text::RegularExpressions
 		// static const ::System::Int32 infinite = 0x7FFFFFFF; // 0x0
 		::System::String* _pattern; // 0x10
 		::Il2CppArray<::Il2CppArray<::System::Int32>*>* _negativeUnicode; // 0x18
-		::System::Globalization::CultureInfo* _culture; // 0x20
+		::Il2CppArray<::System::Int32>* _negativeASCII; // 0x20
 		::Il2CppArray<::System::Int32>* _positive; // 0x28
-		::Il2CppArray<::System::Int32>* _negativeASCII; // 0x30
-		::System::Int32 _lowASCII; // 0x38
-		::System::Boolean _rightToLeft; // 0x3C
-		::System::Boolean _caseInsensitive; // 0x3D
-		::System::Int32 _highASCII; // 0x40
+		::System::Globalization::CultureInfo* _culture; // 0x30
+		::System::Boolean _caseInsensitive; // 0x38
+		::System::Boolean _rightToLeft; // 0x39
+		::System::Byte _padding0[0x2];
+		::System::Int32 _highASCII; // 0x3C
+		::System::Int32 _lowASCII; // 0x40
 
 		::System::Void _ctor(::System::String* pattern, ::System::Boolean caseInsensitive, ::System::Boolean rightToLeft, ::System::Globalization::CultureInfo* culture)
 		{

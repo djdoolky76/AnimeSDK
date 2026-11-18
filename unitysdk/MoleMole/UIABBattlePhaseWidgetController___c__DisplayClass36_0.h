@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 
-class Class_2_208CC9941471731A_1014;
+class MJGHEKNNBNA;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x191C4000)
-#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS36_0__ONCAMPCHANGE_B__1_OFFSET UNITYSDK_OFFSET(0x191C4010)
+#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162FF2B0)
+#define MOLEMOLE_UIABBATTLEPHASEWIDGETCONTROLLER___C__DISPLAYCLASS36_0__ONCAMPCHANGE_B__1_OFFSET UNITYSDK_OFFSET(0x162FF2C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABBattlePhaseWidgetController___c__DisplayClass36_0_TypeDefinitionIndex = 54930;
+	inline static constexpr unsigned int UIABBattlePhaseWidgetController___c__DisplayClass36_0_TypeDefinitionIndex = 87229;
 
 	class UIABBattlePhaseWidgetController___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEnumerable_1<::Class_2_208CC9941471731A_1014*>* curList; // 0x10
+		::System::Collections::Generic::IEnumerable_1<::MJGHEKNNBNA*>* curList; // 0x10
 
 		::System::Void _ctor()
 		{

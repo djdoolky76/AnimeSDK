@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
-#include "unitysdk/System/Data/AggregateType.h"
 #include "unitysdk/System/Data/Common/DataStorage.h"
 #include "unitysdk/System/Data/Common/ObjectStorage_Families.h"
+#include "unitysdk/System/Data/AggregateType.h"
 
 namespace System { class Object; }
 namespace System { class String; }
@@ -17,52 +17,52 @@ namespace System::Xml::Serialization { class XmlRootAttribute; }
 namespace System::Xml::Serialization { class XmlSerializer; }
 namespace System::Xml::Serialization { class XmlSerializerFactory; }
 
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_AGGREGATE_OFFSET UNITYSDK_OFFSET(0x1CD66A90)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1CD678F0)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_COMPAREVALUETO_OFFSET UNITYSDK_OFFSET(0x1CD676A0)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_COMPAREWITHFAMILIES_OFFSET UNITYSDK_OFFSET(0x1CD66CF0)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_COMPARE_OFFSET UNITYSDK_OFFSET(0x1CD66AE0)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_CONVERTOBJECTTOXML_1_OFFSET UNITYSDK_OFFSET(0x1CD69F80)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_CONVERTOBJECTTOXML_OFFSET UNITYSDK_OFFSET(0x1CD69A80)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_CONVERTXMLTOOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1CD68C90)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_CONVERTXMLTOOBJECT_OFFSET UNITYSDK_OFFSET(0x1CD68560)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_COPYVALUE_OFFSET UNITYSDK_OFFSET(0x1CD6A160)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_COPY_OFFSET UNITYSDK_OFFSET(0x1CD67BC0)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_GETEMPTYSTORAGE_OFFSET UNITYSDK_OFFSET(0x1CD6A120)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_GETFAMILY_OFFSET UNITYSDK_OFFSET(0x1CD67B20)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_GETXMLSERIALIZER_1_OFFSET UNITYSDK_OFFSET(0x1CD69390)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_GETXMLSERIALIZER_OFFSET UNITYSDK_OFFSET(0x1CD68C00)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_GET_OFFSET UNITYSDK_OFFSET(0x1CD678A0)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_ISNULL_OFFSET UNITYSDK_OFFSET(0x1CD67C70)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_SETCAPACITY_OFFSET UNITYSDK_OFFSET(0x1CD684F0)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_SETSTORAGE_OFFSET UNITYSDK_OFFSET(0x1CD6A460)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_SET_OFFSET UNITYSDK_OFFSET(0x1CD67CB0)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_VERIFYIDYNAMICMETAOBJECTPROVIDER_OFFSET UNITYSDK_OFFSET(0x1CD6A6E0)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD6A7D0)
-#define SYSTEM_DATA_COMMON_OBJECTSTORAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD66910)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_AGGREGATE_OFFSET UNITYSDK_OFFSET(0x1D2E5000)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1D2E5E60)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_COMPAREVALUETO_OFFSET UNITYSDK_OFFSET(0x1D2E5C10)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_COMPAREWITHFAMILIES_OFFSET UNITYSDK_OFFSET(0x1D2E5260)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_COMPARE_OFFSET UNITYSDK_OFFSET(0x1D2E5050)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_CONVERTOBJECTTOXML_1_OFFSET UNITYSDK_OFFSET(0x1D2E84F0)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_CONVERTOBJECTTOXML_OFFSET UNITYSDK_OFFSET(0x1D2E7FF0)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_CONVERTXMLTOOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1D2E7200)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_CONVERTXMLTOOBJECT_OFFSET UNITYSDK_OFFSET(0x1D2E6AD0)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_COPYVALUE_OFFSET UNITYSDK_OFFSET(0x1D2E86D0)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_COPY_OFFSET UNITYSDK_OFFSET(0x1D2E6130)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_GETEMPTYSTORAGE_OFFSET UNITYSDK_OFFSET(0x1D2E8690)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_GETFAMILY_OFFSET UNITYSDK_OFFSET(0x1D2E6090)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_GETXMLSERIALIZER_1_OFFSET UNITYSDK_OFFSET(0x1D2E7900)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_GETXMLSERIALIZER_OFFSET UNITYSDK_OFFSET(0x1D2E7170)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_GET_OFFSET UNITYSDK_OFFSET(0x1D2E5E10)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_ISNULL_OFFSET UNITYSDK_OFFSET(0x1D2E61E0)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_SETCAPACITY_OFFSET UNITYSDK_OFFSET(0x1D2E6A60)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_SETSTORAGE_OFFSET UNITYSDK_OFFSET(0x1D2E89D0)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_SET_OFFSET UNITYSDK_OFFSET(0x1D2E6220)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE_VERIFYIDYNAMICMETAOBJECTPROVIDER_OFFSET UNITYSDK_OFFSET(0x1D2E8C50)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2E8D40)
+#define SYSTEM_DATA_COMMON_OBJECTSTORAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E4E80)
 
 namespace System::Data::Common
 {
-	inline static constexpr unsigned int ObjectStorage_TypeDefinitionIndex = 39409;
+	inline static constexpr unsigned int ObjectStorage_TypeDefinitionIndex = 37409;
 
 	class ObjectStorage : public ::System::Data::Common::DataStorage
 	{
 	public:
 		static ::System::Object** StaticGet_s_tempAssemblyCacheLock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ObjectStorage_TypeDefinitionIndex)->GetStaticField(0x2AB80);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ObjectStorage_TypeDefinitionIndex)->GetStaticField(0x2BEE0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*>, ::System::Xml::Serialization::XmlSerializer*>** StaticGet_s_tempAssemblyCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*>, ::System::Xml::Serialization::XmlSerializer*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectStorage_TypeDefinitionIndex)->GetStaticField(0x2AB88);
-		}
-		static ::System::Xml::Serialization::XmlSerializerFactory** StaticGet_s_serializerFactory()
-		{
-			return (::System::Xml::Serialization::XmlSerializerFactory**)Il2CppClass::FromTypeDefinitionIndex(ObjectStorage_TypeDefinitionIndex)->GetStaticField(0x2AB90);
+			return (::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*>, ::System::Xml::Serialization::XmlSerializer*>**)Il2CppClass::FromTypeDefinitionIndex(ObjectStorage_TypeDefinitionIndex)->GetStaticField(0x2BEE8);
 		}
 		static ::System::Object** StaticGet_s_defaultValue()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ObjectStorage_TypeDefinitionIndex)->GetStaticField(0x2AB98);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ObjectStorage_TypeDefinitionIndex)->GetStaticField(0x2BEF0);
+		}
+		static ::System::Xml::Serialization::XmlSerializerFactory** StaticGet_s_serializerFactory()
+		{
+			return (::System::Xml::Serialization::XmlSerializerFactory**)Il2CppClass::FromTypeDefinitionIndex(ObjectStorage_TypeDefinitionIndex)->GetStaticField(0x2BEF8);
 		}
 		::Il2CppArray<::System::Object*>* _values; // 0x48
 		::System::Boolean _implementsIXmlSerializable; // 0x50

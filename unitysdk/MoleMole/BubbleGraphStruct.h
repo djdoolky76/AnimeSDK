@@ -7,11 +7,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BubbleGraphStruct_TypeDefinitionIndex = 86629;
+	inline static constexpr unsigned int BubbleGraphStruct_TypeDefinitionIndex = 65127;
 
 	struct alignas(8) BubbleGraphStruct
 	{
 		::System::Int32 performId; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::BubbleSpeakerPair>* BubbleSpeakerPairList; // 0x18
 		::System::Single delayTime; // 0x20
 	};

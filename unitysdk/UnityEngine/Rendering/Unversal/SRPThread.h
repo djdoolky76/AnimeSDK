@@ -8,34 +8,34 @@ namespace UnityEngine::Profiling { class CustomSampler; }
 namespace UnityEngine::Rendering::Unversal { class SRPHelperExecuteContext; }
 namespace UnityEngine::Rendering::Unversal { class SRPThreadSharedData; }
 
-#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1E267270)
-#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD_EXECUTEPASSESONHELPER_OFFSET UNITYSDK_OFFSET(0x1E267320)
-#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E267140)
-#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD_SCHEDULEEXECUTEPASSES_OFFSET UNITYSDK_OFFSET(0x1E2672C0)
-#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD_THREADBODY_OFFSET UNITYSDK_OFFSET(0x1E267670)
-#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD_WAITSRPTHREAD_OFFSET UNITYSDK_OFFSET(0x1E267620)
-#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1E267210)
+#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1E384AB0)
+#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD_EXECUTEPASSESONHELPER_OFFSET UNITYSDK_OFFSET(0x1E384B60)
+#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E384980)
+#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD_SCHEDULEEXECUTEPASSES_OFFSET UNITYSDK_OFFSET(0x1E384B00)
+#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD_THREADBODY_OFFSET UNITYSDK_OFFSET(0x1E384EC0)
+#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD_WAITSRPTHREAD_OFFSET UNITYSDK_OFFSET(0x1E384E70)
+#define UNITYENGINE_RENDERING_UNVERSAL_SRPTHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1E384A50)
 
 namespace UnityEngine::Rendering::Unversal
 {
-	inline static constexpr unsigned int SRPThread_TypeDefinitionIndex = 27614;
+	inline static constexpr unsigned int SRPThread_TypeDefinitionIndex = 26768;
 
 	class SRPThread : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::Unversal::SRPThread** StaticGet_Instance()
 		{
-			return (::UnityEngine::Rendering::Unversal::SRPThread**)Il2CppClass::FromTypeDefinitionIndex(SRPThread_TypeDefinitionIndex)->GetStaticField(0x22D70);
+			return (::UnityEngine::Rendering::Unversal::SRPThread**)Il2CppClass::FromTypeDefinitionIndex(SRPThread_TypeDefinitionIndex)->GetStaticField(0x23D50);
 		}
 		static ::System::Int32* StaticGet_DebugEndWaitMS()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SRPThread_TypeDefinitionIndex)->GetStaticField(0x61F0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SRPThread_TypeDefinitionIndex)->GetStaticField(0x6230);
 		}
 		static ::System::Int32* StaticGet_DebugStartWaitMS()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SRPThread_TypeDefinitionIndex)->GetStaticField(0x61F4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SRPThread_TypeDefinitionIndex)->GetStaticField(0x6234);
 		}
-		// static const ::System::Boolean forceDisableThreading; // 0x0
+		// static const ::System::Boolean forceDisableThreading = 0x1; // 0x0
 		::System::Threading::Thread* m_Thread; // 0x10
 		::UnityEngine::Rendering::Unversal::SRPThreadSharedData* m_SharedData; // 0x18
 		::System::Threading::AutoResetEvent* m_MainLaunchEvent; // 0x20

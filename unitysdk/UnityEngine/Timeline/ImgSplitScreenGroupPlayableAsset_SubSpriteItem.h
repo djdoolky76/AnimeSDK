@@ -5,11 +5,11 @@
 namespace MoleMole::Comic { class IComicAnim; }
 namespace UnityEngine { class Sprite; }
 
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_SUBSPRITEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1F996180)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_SUBSPRITEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD8FEC0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImgSplitScreenGroupPlayableAsset_SubSpriteItem_TypeDefinitionIndex = 32981;
+	inline static constexpr unsigned int ImgSplitScreenGroupPlayableAsset_SubSpriteItem_TypeDefinitionIndex = 32436;
 
 	class ImgSplitScreenGroupPlayableAsset_SubSpriteItem : public ::System::Object
 	{

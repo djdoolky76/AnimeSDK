@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7EA3F9477E892234.h"
+#include "unitysdk/LENFNPPJAHE.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-#define MOLEMOLE_UIYOROZUYADIFFICULTENTRANCECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1165C8E0)
+#define MOLEMOLE_UIYOROZUYADIFFICULTENTRANCECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14E49790)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaDifficultEntranceContext_TypeDefinitionIndex = 60295;
+	inline static constexpr unsigned int UIYorozuyaDifficultEntranceContext_TypeDefinitionIndex = 74242;
 
 	class UIYorozuyaDifficultEntranceContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::UnityEngine::Events::UnityAction_1<::Enum_3_7EA3F9477E892234>* ClickAction; // 0x28
-		::Enum_3_7EA3F9477E892234 EntranceType; // 0x30
-		::System::Int32 AbyssGroupId; // 0x34
+		::UnityEngine::Events::UnityAction_1<::LENFNPPJAHE>* ClickAction; // 0x28
+		::System::Int32 AbyssGroupId; // 0x30
+		::LENFNPPJAHE EntranceType; // 0x34
 
 		::System::Void _ctor()
 		{

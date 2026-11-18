@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_8575301325873662;
+class CAOHMEBNFMD;
 namespace System { class String; }
 
-#define MOLEMOLE_UITOWERDEFENSEBATTLEINFOWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1303D230)
-#define MOLEMOLE_UITOWERDEFENSEBATTLEINFOWIDGETCONTROLLER___C__DISPLAYCLASS5_0__GETBUFF_G__GETDATADESC_0_OFFSET UNITYSDK_OFFSET(0x1303D240)
+#define MOLEMOLE_UITOWERDEFENSEBATTLEINFOWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1055C580)
+#define MOLEMOLE_UITOWERDEFENSEBATTLEINFOWIDGETCONTROLLER___C__DISPLAYCLASS5_0__GETBUFF_G__GETDATADESC_0_OFFSET UNITYSDK_OFFSET(0x1055C590)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerDefenseBattleInfoWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 70598;
+	inline static constexpr unsigned int UITowerDefenseBattleInfoWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 54452;
 
 	class UITowerDefenseBattleInfoWidgetController___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::Class_1_8575301325873662* templateMap; // 0x10
+		::CAOHMEBNFMD* templateMap; // 0x10
 
 		::System::Void _ctor()
 		{

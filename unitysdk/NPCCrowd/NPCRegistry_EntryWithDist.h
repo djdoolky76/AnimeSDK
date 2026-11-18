@@ -5,9 +5,9 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCRegistry_EntryWithDist_TypeDefinitionIndex = 63850;
+	inline static constexpr unsigned int NPCRegistry_EntryWithDist_TypeDefinitionIndex = 92446;
 
-	struct alignas(8) NPCRegistry_EntryWithDist
+	struct alignas(4) NPCRegistry_EntryWithDist
 	{
 		::NPCCrowd::NPCRegistryEntry entry; // 0x10
 		::System::Single distanceSq; // 0x60

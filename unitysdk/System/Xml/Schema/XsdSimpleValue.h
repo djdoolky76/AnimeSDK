@@ -4,17 +4,17 @@
 
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XSDSIMPLEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F070C60)
+#define SYSTEM_XML_SCHEMA_XSDSIMPLEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F408A70)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XsdSimpleValue_TypeDefinitionIndex = 1982;
+	inline static constexpr unsigned int XsdSimpleValue_TypeDefinitionIndex = 1981;
 
 	class XsdSimpleValue : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaSimpleType* xmlType; // 0x10
-		::System::Object* typedValue; // 0x18
+		::System::Object* typedValue; // 0x10
+		::System::Xml::Schema::XmlSchemaSimpleType* xmlType; // 0x18
 
 		::System::Void _ctor(::System::Xml::Schema::XmlSchemaSimpleType* st, ::System::Object* value)
 		{

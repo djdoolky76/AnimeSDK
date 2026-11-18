@@ -3,7 +3,7 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadState_TypeDefinitionIndex = 853;
+	inline static constexpr unsigned int ThreadState_TypeDefinitionIndex = 852;
 
 	enum class ThreadState : ::System::Int32
 	{

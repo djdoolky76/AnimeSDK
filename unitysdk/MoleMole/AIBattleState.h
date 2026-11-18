@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AIBattleState_TypeDefinitionIndex = 51964;
+	inline static constexpr unsigned int AIBattleState_TypeDefinitionIndex = 42506;
 
 	enum class AIBattleState : ::System::Int32
 	{
-		BornState = 1,
+		BattleState = 2,
 		None = 0,
 		DieState = 3,
-		BattleState = 2,
+		BornState = 1,
 	};
 }

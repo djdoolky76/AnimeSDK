@@ -1,39 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/CurveTimeline1.h"
-#include "unitysdk/Spine/MixBlend.h"
-#include "unitysdk/Spine/MixDirection.h"
+#include "unitysdk/Spine/BoneTimeline1.h"
+#include "unitysdk/Spine/MixFrom.h"
 
-namespace Spine { class Event; }
-namespace Spine { class Skeleton; }
-namespace Spine { template <typename T> class ExposedList_1; }
+namespace Spine { class BonePose; }
 
-#define SPINE_SCALEYTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1ECEC550)
-#define SPINE_SCALEYTIMELINE_GET_BONEINDEX_OFFSET UNITYSDK_OFFSET(0x1ECEC540)
-#define SPINE_SCALEYTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECEC450)
+#define SPINE_SCALEYTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1EBF1C10)
+#define SPINE_SCALEYTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF1B70)
 
 namespace Spine
 {
-	inline static constexpr unsigned int ScaleYTimeline_TypeDefinitionIndex = 33449;
+	inline static constexpr unsigned int ScaleYTimeline_TypeDefinitionIndex = 32909;
 
-	class ScaleYTimeline : public ::Spine::CurveTimeline1
+	class ScaleYTimeline : public ::Spine::BoneTimeline1
 	{
 	public:
-		::System::Int32 boneIndex; // 0x28
-
 		::System::Void _ctor(::System::Int32 frameCount, ::System::Int32 bezierCount, ::System::Int32 boneIndex)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_SCALEYTIMELINE__CTOR_OFFSET))(this, frameCount, bezierCount, boneIndex);
 		}
 
-		::System::Int32 get_BoneIndex()
+		::System::Void Apply(::Spine::BonePose* pose, ::Spine::BonePose* setup, ::System::Single time, ::System::Single alpha, ::Spine::MixFrom from, ::System::Boolean add, ::System::Boolean mixOut)
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SCALEYTIMELINE_GET_BONEINDEX_OFFSET))(this);
-		}
-
-		::System::Void Apply(::Spine::Skeleton* skeleton, ::System::Single lastTime, ::System::Single time, ::Spine::ExposedList_1<::Spine::Event*>* firedEvents, ::System::Single alpha, ::Spine::MixBlend blend, ::Spine::MixDirection direction)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_SCALEYTIMELINE_APPLY_OFFSET))(this, skeleton, lastTime, time, firedEvents, alpha, blend, direction);
+			return ((::System::Void(*)(::PVOID, ::Spine::BonePose*, ::Spine::BonePose*, ::System::Single, ::System::Single, ::Spine::MixFrom, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_SCALEYTIMELINE_APPLY_OFFSET))(this, pose, setup, time, alpha, from, add, mixOut);
 		}
 	};
 }

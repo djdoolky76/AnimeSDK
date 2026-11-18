@@ -5,38 +5,38 @@
 #include "unitysdk/MoleMole/Config/MonsterFunctionType.h"
 #include "unitysdk/MoleMole/Config/TargetValueModifyFunc.h"
 #include "unitysdk/MoleMole/Config/TeamRelationship.h"
-#include "unitysdk/MoleMole/GameplayTag.h"
 #include "unitysdk/MoleMole/TargetValueType.h"
+#include "unitysdk/MoleMole/GameplayTag.h"
 
-class Class_3_E2819F45333A39BF;
+class HAFLGNENJDI;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SETSELFTARGETVALUE_COLLECTTARGETENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x13AD1090)
-#define MOLEMOLE_SETSELFTARGETVALUE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13AD0870)
-#define MOLEMOLE_SETSELFTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13AD0A30)
-#define MOLEMOLE_SETSELFTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x13AD1300)
-#define MOLEMOLE_SETSELFTARGETVALUE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13AD1490)
-#define MOLEMOLE_SETSELFTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13AD1520)
+#define MOLEMOLE_SETSELFTARGETVALUE_COLLECTTARGETENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x146ABF70)
+#define MOLEMOLE_SETSELFTARGETVALUE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x146AB740)
+#define MOLEMOLE_SETSELFTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x146AB900)
+#define MOLEMOLE_SETSELFTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x146AC1E0)
+#define MOLEMOLE_SETSELFTARGETVALUE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x146AC380)
+#define MOLEMOLE_SETSELFTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x146AC410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetSelfTargetValue_TypeDefinitionIndex = 71436;
+	inline static constexpr unsigned int SetSelfTargetValue_TypeDefinitionIndex = 62656;
 
 	class SetSelfTargetValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* enemyEntityList; // 0x58
-		::Il2CppArray<::MoleMole::Config::MonsterFunctionType>* monsterFunctionTypeArray; // 0x60
-		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* relationShipList; // 0x68
-		::Class_3_E2819F45333A39BF* characterBattleData; // 0x70
+		::Il2CppArray<::MoleMole::Config::MonsterFunctionType>* monsterFunctionTypeArray; // 0x58
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::System::Collections::Generic::List_1<::System::UInt32>* enemyEntityList; // 0x68
+		::HAFLGNENJDI* characterBattleData; // 0x70
 		::MoleMole::Battle::Entity* ownerEntity; // 0x78
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x80
-		::MoleMole::Config::TargetValueModifyFunc ModifyType; // 0x88
-		::MoleMole::Config::TeamRelationship TargetRelationShip; // 0x8C
+		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* relationShipList; // 0x80
+		::System::Single modifyValue; // 0x88
+		::MoleMole::Config::TargetValueModifyFunc ModifyType; // 0x8C
 		::MoleMole::TargetValueType valueType; // 0x90
-		::System::Single modifyValue; // 0x94
+		::MoleMole::Config::TeamRelationship TargetRelationShip; // 0x94
 
 		::System::Void _ctor()
 		{

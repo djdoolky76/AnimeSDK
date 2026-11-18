@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class MOHDBDOMBPN;
+
+#define MOHDBDOMBPN_OMEPMDJOOOC_GDNOIOBKMAL_OFFSET UNITYSDK_OFFSET(0x16CAD290)
+#define MOHDBDOMBPN_OMEPMDJOOOC_JANDKOBOMNA_OFFSET UNITYSDK_OFFSET(0x16CACB20)
+#define MOHDBDOMBPN_OMEPMDJOOOC_LHADBALCMCH_OFFSET UNITYSDK_OFFSET(0x16CAD090)
+#define MOHDBDOMBPN_OMEPMDJOOOC_NGAHPGJHBCP_OFFSET UNITYSDK_OFFSET(0x16CAD450)
+#define MOHDBDOMBPN_OMEPMDJOOOC_OHBAMMHOGDM_OFFSET UNITYSDK_OFFSET(0x16CACD20)
+#define MOHDBDOMBPN_OMEPMDJOOOC_ONHLBEAINOF_OFFSET UNITYSDK_OFFSET(0x16CACED0)
+#define MOHDBDOMBPN_OMEPMDJOOOC__CTOR_OFFSET UNITYSDK_OFFSET(0x16CACB10)
+
+inline static constexpr unsigned int MOHDBDOMBPN_OMEPMDJOOOC_TypeDefinitionIndex = 69267;
+
+class MOHDBDOMBPN_OMEPMDJOOOC : public ::System::Object
+{
+public:
+	::MOHDBDOMBPN* KLHPEBKNIFB; // 0x10
+	::System::Boolean PKMHAPKBJOD; // 0x18
+	::System::Boolean DKKCCBBJOMM; // 0x19
+	::System::Boolean OKGFJJEBEIM; // 0x1A
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOHDBDOMBPN_OMEPMDJOOOC__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean JANDKOBOMNA()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOHDBDOMBPN_OMEPMDJOOOC_JANDKOBOMNA_OFFSET))(this);
+	}
+
+	::System::Boolean OHBAMMHOGDM()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOHDBDOMBPN_OMEPMDJOOOC_OHBAMMHOGDM_OFFSET))(this);
+	}
+
+	::System::Boolean ONHLBEAINOF()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOHDBDOMBPN_OMEPMDJOOOC_ONHLBEAINOF_OFFSET))(this);
+	}
+
+	::System::Boolean LHADBALCMCH()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOHDBDOMBPN_OMEPMDJOOOC_LHADBALCMCH_OFFSET))(this);
+	}
+
+	::System::Boolean GDNOIOBKMAL()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOHDBDOMBPN_OMEPMDJOOOC_GDNOIOBKMAL_OFFSET))(this);
+	}
+
+	::System::Boolean NGAHPGJHBCP()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOHDBDOMBPN_OMEPMDJOOOC_NGAHPGJHBCP_OFFSET))(this);
+	}
+};

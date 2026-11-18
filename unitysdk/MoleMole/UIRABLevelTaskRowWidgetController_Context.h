@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_7ADAC692329D9ED8;
+class AONHAICLNNE;
 
-#define MOLEMOLE_UIRABLEVELTASKROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x160BF990)
+#define MOLEMOLE_UIRABLEVELTASKROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x167A8000)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABLevelTaskRowWidgetController_Context_TypeDefinitionIndex = 72094;
+	inline static constexpr unsigned int UIRABLevelTaskRowWidgetController_Context_TypeDefinitionIndex = 44545;
 
 	class UIRABLevelTaskRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_7ADAC692329D9ED8* data; // 0x28
+		::AONHAICLNNE* data; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DG/Tweening/Ease.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 
 namespace DG::Tweening { class EaseFunction; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define DG_TWEENING_EASEFACTORY_STOPMOTION_1_OFFSET UNITYSDK_OFFSET(0x1FA10E60)
-#define DG_TWEENING_EASEFACTORY_STOPMOTION_2_OFFSET UNITYSDK_OFFSET(0x1FA10DC0)
-#define DG_TWEENING_EASEFACTORY_STOPMOTION_OFFSET UNITYSDK_OFFSET(0x1FA10CB0)
-#define DG_TWEENING_EASEFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA10F60)
+#define DG_TWEENING_EASEFACTORY_STOPMOTION_1_OFFSET UNITYSDK_OFFSET(0x1FE24000)
+#define DG_TWEENING_EASEFACTORY_STOPMOTION_2_OFFSET UNITYSDK_OFFSET(0x1FE23F60)
+#define DG_TWEENING_EASEFACTORY_STOPMOTION_OFFSET UNITYSDK_OFFSET(0x1FE23E50)
+#define DG_TWEENING_EASEFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE240F0)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int EaseFactory_TypeDefinitionIndex = 28444;
+	inline static constexpr unsigned int EaseFactory_TypeDefinitionIndex = 27883;
 
 	class EaseFactory : public ::System::Object
 	{

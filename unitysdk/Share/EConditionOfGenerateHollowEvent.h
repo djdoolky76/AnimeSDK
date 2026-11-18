@@ -3,14 +3,14 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EConditionOfGenerateHollowEvent_TypeDefinitionIndex = 11270;
+	inline static constexpr unsigned int EConditionOfGenerateHollowEvent_TypeDefinitionIndex = 17548;
 
 	enum class EConditionOfGenerateHollowEvent : ::System::Int16
 	{
-		GenreCard = 4,
-		ItemID = 3,
 		FinishedEventType = 1,
+		GenreCard = 4,
 		FinishedEventID = 2,
 		AvatarID = 5,
+		ItemID = 3,
 	};
 }

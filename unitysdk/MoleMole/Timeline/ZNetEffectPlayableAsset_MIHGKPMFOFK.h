@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class MonoBehaviour; }
+
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x13A0C950)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_UNITYENGINE_MONOBEHAVIOUR__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x13A0CBB0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_UNITYENGINE_MONOBEHAVIOUR__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x13A0CB40)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x13A0CC30)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x13A0CBA0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x13A0CB50)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A0C940)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK__CTOR_OFFSET UNITYSDK_OFFSET(0x13A0C920)
+
+namespace MoleMole::Timeline
+{
+	inline static constexpr unsigned int ZNetEffectPlayableAsset_MIHGKPMFOFK_TypeDefinitionIndex = 56693;
+
+	class ZNetEffectPlayableAsset_MIHGKPMFOFK : public ::System::Object
+	{
+	public:
+		::UnityEngine::MonoBehaviour* IDBEJJEKGDI; // 0x10
+		::UnityEngine::GameObject* IAPKABMDJNF; // 0x18
+		::UnityEngine::GameObject* IKBPGJNPMAO; // 0x20
+		::Il2CppArray<::UnityEngine::MonoBehaviour*>* GHANCJDIDBC; // 0x28
+		::System::Int32 MDPILDGFNHN; // 0x30
+		::System::Int32 FPDDAGHMOJB; // 0x34
+		::System::Int32 CNCDBBAMLPL; // 0x38
+
+		::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK__CTOR_OFFSET))(this, MDPILDGFNHN);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_MOVENEXT_OFFSET))(this);
+		}
+
+		::UnityEngine::MonoBehaviour* System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current()
+		{
+			return ((::UnityEngine::MonoBehaviour*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_UNITYENGINE_MONOBEHAVIOUR__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>* System_Collections_Generic_IEnumerable_UnityEngine_MonoBehaviour__GetEnumerator()
+		{
+			return ((::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_UNITYENGINE_MONOBEHAVIOUR__GETENUMERATOR_OFFSET))(this);
+		}
+
+		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_MIHGKPMFOFK_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+		}
+	};
+}

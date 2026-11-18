@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERATIO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B5318F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5319B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERATIO_INVOKE_OFFSET UNITYSDK_OFFSET(0x142FC4D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x142FC590)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetGenericScoreRatio_TypeDefinitionIndex = 46769;
+	inline static constexpr unsigned int LDGetGenericScoreRatio_TypeDefinitionIndex = 54110;
 
-	class LDGetGenericScoreRatio : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Single, ::System::String*, ::System::Boolean>
+	class LDGetGenericScoreRatio
 	{
 	public:
 		::System::Void _ctor()

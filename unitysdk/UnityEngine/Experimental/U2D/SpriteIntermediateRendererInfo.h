@@ -7,9 +7,9 @@
 
 namespace UnityEngine::Experimental::U2D
 {
-	inline static constexpr unsigned int SpriteIntermediateRendererInfo_TypeDefinitionIndex = 6309;
+	inline static constexpr unsigned int SpriteIntermediateRendererInfo_TypeDefinitionIndex = 6324;
 
-	struct alignas(8) SpriteIntermediateRendererInfo
+	struct alignas(4) SpriteIntermediateRendererInfo
 	{
 		::System::Int32 SpriteID; // 0x10
 		::System::Int32 TextureID; // 0x14

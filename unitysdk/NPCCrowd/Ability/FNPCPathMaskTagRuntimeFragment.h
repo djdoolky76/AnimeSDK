@@ -4,12 +4,13 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCPathMaskTagRuntimeFragment_TypeDefinitionIndex = 52032;
+	inline static constexpr unsigned int FNPCPathMaskTagRuntimeFragment_TypeDefinitionIndex = 86378;
 
 	struct alignas(4) FNPCPathMaskTagRuntimeFragment
 	{
 		::System::Int32 lastPathId; // 0x10
 		::System::Int16 lastControlPointIndex; // 0x14
+		::System::Byte _padding0[0x2];
 		::System::Int32 lastMask; // 0x18
 		::System::UInt32 activeTagBits; // 0x1C
 	};

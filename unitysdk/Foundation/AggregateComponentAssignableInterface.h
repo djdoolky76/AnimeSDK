@@ -5,17 +5,18 @@
 
 namespace System { class Type; }
 
-#define FOUNDATION_AGGREGATECOMPONENTASSIGNABLEINTERFACE_GET_OFFSET UNITYSDK_OFFSET(0xA8E050)
-#define FOUNDATION_AGGREGATECOMPONENTASSIGNABLEINTERFACE_ISASSIGNABLE_OFFSET UNITYSDK_OFFSET(0xA8E100)
-#define FOUNDATION_AGGREGATECOMPONENTASSIGNABLEINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xA8E040)
+#define FOUNDATION_AGGREGATECOMPONENTASSIGNABLEINTERFACE_GET_OFFSET UNITYSDK_OFFSET(0x974F40)
+#define FOUNDATION_AGGREGATECOMPONENTASSIGNABLEINTERFACE_ISASSIGNABLE_1_OFFSET UNITYSDK_OFFSET(0x974FF0)
+#define FOUNDATION_AGGREGATECOMPONENTASSIGNABLEINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x974F30)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AggregateComponentAssignableInterface_TypeDefinitionIndex = 8740;
+	inline static constexpr unsigned int AggregateComponentAssignableInterface_TypeDefinitionIndex = 8926;
 
 	struct alignas(8) AggregateComponentAssignableInterface
 	{
 		::System::Int32 Count; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Int64>* _secondaryTypes; // 0x18
 		::Foundation::AggregateComponentAssignableInterface___inlineTypes_e__FixedBuffer _inlineTypes; // 0x20
 
@@ -29,9 +30,9 @@ namespace Foundation
 			return ((::System::Int64(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FOUNDATION_AGGREGATECOMPONENTASSIGNABLEINTERFACE_GET_OFFSET))(this, index);
 		}
 
-		::System::Boolean IsAssignable(::System::Int64 typeHash)
+		::System::Boolean IsAssignable_1(::System::Int64 typeHash)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + FOUNDATION_AGGREGATECOMPONENTASSIGNABLEINTERFACE_ISASSIGNABLE_OFFSET))(this, typeHash);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + FOUNDATION_AGGREGATECOMPONENTASSIGNABLEINTERFACE_ISASSIGNABLE_1_OFFSET))(this, typeHash);
 		}
 	};
 }

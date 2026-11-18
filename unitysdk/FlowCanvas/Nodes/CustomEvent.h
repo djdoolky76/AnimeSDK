@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/RouterEventNode_1.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace NodeCanvas::Framework { class GraphOwner; }
@@ -9,26 +8,26 @@ namespace ParadoxNotion { class IEventData; }
 namespace ParadoxNotion::Services { class EventRouter; }
 namespace System { class String; }
 
-#define FLOWCANVAS_NODES_CUSTOMEVENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E535CA0)
-#define FLOWCANVAS_NODES_CUSTOMEVENT_ONCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x1E535FD0)
-#define FLOWCANVAS_NODES_CUSTOMEVENT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1E535EF0)
-#define FLOWCANVAS_NODES_CUSTOMEVENT_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1E535D30)
-#define FLOWCANVAS_NODES_CUSTOMEVENT_UNSUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1E535E10)
-#define FLOWCANVAS_NODES_CUSTOMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E536310)
-#define FLOWCANVAS_NODES_CUSTOMEVENT__REGISTERPORTS_B__8_0_OFFSET UNITYSDK_OFFSET(0x1E536390)
-#define FLOWCANVAS_NODES_CUSTOMEVENT__REGISTERPORTS_B__8_1_OFFSET UNITYSDK_OFFSET(0x1E5363A0)
+#define FLOWCANVAS_NODES_CUSTOMEVENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E7A9D10)
+#define FLOWCANVAS_NODES_CUSTOMEVENT_ONCUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x1E7AA040)
+#define FLOWCANVAS_NODES_CUSTOMEVENT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1E7A9F60)
+#define FLOWCANVAS_NODES_CUSTOMEVENT_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1E7A9DA0)
+#define FLOWCANVAS_NODES_CUSTOMEVENT_UNSUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1E7A9E80)
+#define FLOWCANVAS_NODES_CUSTOMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AA380)
+#define FLOWCANVAS_NODES_CUSTOMEVENT__REGISTERPORTS_B__8_0_OFFSET UNITYSDK_OFFSET(0x1E7AA400)
+#define FLOWCANVAS_NODES_CUSTOMEVENT__REGISTERPORTS_B__8_1_OFFSET UNITYSDK_OFFSET(0x1E7AA410)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CustomEvent_TypeDefinitionIndex = 30603;
+	inline static constexpr unsigned int CustomEvent_TypeDefinitionIndex = 29660;
 
-	class CustomEvent : public ::FlowCanvas::Nodes::RouterEventNode_1<::NodeCanvas::Framework::GraphOwner*>
+	class CustomEvent
 	{
 	public:
-		::NodeCanvas::Framework::GraphOwner* receiver; // 0xC0
+		::FlowCanvas::FlowOutput* onReceived; // 0xC0
 		::NodeCanvas::Framework::GraphOwner* sender; // 0xC8
 		::NodeCanvas::Framework::BBParameter_1<::System::String*>* eventName; // 0xD0
-		::FlowCanvas::FlowOutput* onReceived; // 0xD8
+		::NodeCanvas::Framework::GraphOwner* receiver; // 0xD8
 
 		::System::Void _ctor()
 		{

@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GBDELDCBAAB.h"
+
+class AFMMAIKKACF;
+class GAJCDFLMFBN;
+
+#define AMFADELLPFJ_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0x134E2A70)
+#define AMFADELLPFJ_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0x134E2AC0)
+#define AMFADELLPFJ__CTOR_OFFSET UNITYSDK_OFFSET(0x134E29B0)
+
+inline static constexpr unsigned int AMFADELLPFJ_TypeDefinitionIndex = 58446;
+
+class AMFADELLPFJ : public ::GBDELDCBAAB
+{
+public:
+	::AFMMAIKKACF* AAOCANGHBDG; // 0x28
+	::System::Boolean MNGONOOMLKK; // 0x30
+
+	::System::Void _ctor(::GAJCDFLMFBN* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::GAJCDFLMFBN*))((::PBYTE)hIl2Cpp + AMFADELLPFJ__CTOR_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Void GLEJMKLOMBP(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + AMFADELLPFJ_GLEJMKLOMBP_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void LIDIODHDJAF(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + AMFADELLPFJ_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+};

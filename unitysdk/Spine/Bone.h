@@ -1,133 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 
 namespace Spine { class BoneData; }
-namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
-namespace System { class String; }
 
-#define SPINE_BONE_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1FADDCC0)
-#define SPINE_BONE_GET_APPLIEDROTATION_OFFSET UNITYSDK_OFFSET(0x1FADDDB0)
-#define SPINE_BONE_GET_ASCALEX_OFFSET UNITYSDK_OFFSET(0x1FADDE10)
-#define SPINE_BONE_GET_ASCALEY_OFFSET UNITYSDK_OFFSET(0x1FADDE30)
-#define SPINE_BONE_GET_ASHEARX_OFFSET UNITYSDK_OFFSET(0x1FADDE50)
-#define SPINE_BONE_GET_ASHEARY_OFFSET UNITYSDK_OFFSET(0x1FADDE70)
-#define SPINE_BONE_GET_AX_OFFSET UNITYSDK_OFFSET(0x1FADDDD0)
-#define SPINE_BONE_GET_AY_OFFSET UNITYSDK_OFFSET(0x1FADDDF0)
-#define SPINE_BONE_GET_A_OFFSET UNITYSDK_OFFSET(0x1FADDE90)
-#define SPINE_BONE_GET_B_OFFSET UNITYSDK_OFFSET(0x1FADDEB0)
-#define SPINE_BONE_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1FADDCB0)
-#define SPINE_BONE_GET_C_OFFSET UNITYSDK_OFFSET(0x1FADDED0)
-#define SPINE_BONE_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1FADDC80)
-#define SPINE_BONE_GET_D_OFFSET UNITYSDK_OFFSET(0x1FADDEF0)
-#define SPINE_BONE_GET_PARENT_OFFSET UNITYSDK_OFFSET(0x1FADDCA0)
-#define SPINE_BONE_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x1FADDD10)
-#define SPINE_BONE_GET_SCALEX_OFFSET UNITYSDK_OFFSET(0x1FADDD30)
-#define SPINE_BONE_GET_SCALEY_OFFSET UNITYSDK_OFFSET(0x1FADDD50)
-#define SPINE_BONE_GET_SHEARX_OFFSET UNITYSDK_OFFSET(0x1FADDD70)
-#define SPINE_BONE_GET_SHEARY_OFFSET UNITYSDK_OFFSET(0x1FADDD90)
-#define SPINE_BONE_GET_SKELETON_OFFSET UNITYSDK_OFFSET(0x1FADDC90)
-#define SPINE_BONE_GET_WORLDROTATIONX_OFFSET UNITYSDK_OFFSET(0x1FADDF50)
-#define SPINE_BONE_GET_WORLDROTATIONY_OFFSET UNITYSDK_OFFSET(0x1FADDFD0)
-#define SPINE_BONE_GET_WORLDSCALEX_OFFSET UNITYSDK_OFFSET(0x1FADE050)
-#define SPINE_BONE_GET_WORLDSCALEY_OFFSET UNITYSDK_OFFSET(0x1FADE070)
-#define SPINE_BONE_GET_WORLDTOLOCALROTATIONX_OFFSET UNITYSDK_OFFSET(0x1FADF230)
-#define SPINE_BONE_GET_WORLDTOLOCALROTATIONY_OFFSET UNITYSDK_OFFSET(0x1FADF330)
-#define SPINE_BONE_GET_WORLDX_OFFSET UNITYSDK_OFFSET(0x1FADDF10)
-#define SPINE_BONE_GET_WORLDY_OFFSET UNITYSDK_OFFSET(0x1FADDF30)
-#define SPINE_BONE_GET_X_OFFSET UNITYSDK_OFFSET(0x1FADDCD0)
-#define SPINE_BONE_GET_Y_OFFSET UNITYSDK_OFFSET(0x1FADDCF0)
-#define SPINE_BONE_LOCALTOWORLDROTATION_OFFSET UNITYSDK_OFFSET(0x1FADF520)
-#define SPINE_BONE_LOCALTOWORLD_OFFSET UNITYSDK_OFFSET(0x1FADF1F0)
-#define SPINE_BONE_ROTATEWORLD_OFFSET UNITYSDK_OFFSET(0x1FADF610)
-#define SPINE_BONE_SETTOSETUPPOSE_OFFSET UNITYSDK_OFFSET(0x1FADE1C0)
-#define SPINE_BONE_SET_APPLIEDROTATION_OFFSET UNITYSDK_OFFSET(0x1FADDDC0)
-#define SPINE_BONE_SET_ASCALEX_OFFSET UNITYSDK_OFFSET(0x1FADDE20)
-#define SPINE_BONE_SET_ASCALEY_OFFSET UNITYSDK_OFFSET(0x1FADDE40)
-#define SPINE_BONE_SET_ASHEARX_OFFSET UNITYSDK_OFFSET(0x1FADDE60)
-#define SPINE_BONE_SET_ASHEARY_OFFSET UNITYSDK_OFFSET(0x1FADDE80)
-#define SPINE_BONE_SET_AX_OFFSET UNITYSDK_OFFSET(0x1FADDDE0)
-#define SPINE_BONE_SET_AY_OFFSET UNITYSDK_OFFSET(0x1FADDE00)
-#define SPINE_BONE_SET_A_OFFSET UNITYSDK_OFFSET(0x1FADDEA0)
-#define SPINE_BONE_SET_B_OFFSET UNITYSDK_OFFSET(0x1FADDEC0)
-#define SPINE_BONE_SET_C_OFFSET UNITYSDK_OFFSET(0x1FADDEE0)
-#define SPINE_BONE_SET_D_OFFSET UNITYSDK_OFFSET(0x1FADDF00)
-#define SPINE_BONE_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x1FADDD20)
-#define SPINE_BONE_SET_SCALEX_OFFSET UNITYSDK_OFFSET(0x1FADDD40)
-#define SPINE_BONE_SET_SCALEY_OFFSET UNITYSDK_OFFSET(0x1FADDD60)
-#define SPINE_BONE_SET_SHEARX_OFFSET UNITYSDK_OFFSET(0x1FADDD80)
-#define SPINE_BONE_SET_SHEARY_OFFSET UNITYSDK_OFFSET(0x1FADDDA0)
-#define SPINE_BONE_SET_WORLDX_OFFSET UNITYSDK_OFFSET(0x1FADDF20)
-#define SPINE_BONE_SET_WORLDY_OFFSET UNITYSDK_OFFSET(0x1FADDF40)
-#define SPINE_BONE_SET_X_OFFSET UNITYSDK_OFFSET(0x1FADDCE0)
-#define SPINE_BONE_SET_Y_OFFSET UNITYSDK_OFFSET(0x1FADDD00)
-#define SPINE_BONE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1FADF730)
-#define SPINE_BONE_UPDATEAPPLIEDTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1FADEDD0)
-#define SPINE_BONE_UPDATEWORLDTRANSFORM_1_OFFSET UNITYSDK_OFFSET(0x1FADE3B0)
-#define SPINE_BONE_UPDATEWORLDTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1FADED70)
-#define SPINE_BONE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FADE350)
-#define SPINE_BONE_WORLDTOLOCALROTATION_OFFSET UNITYSDK_OFFSET(0x1FADF430)
-#define SPINE_BONE_WORLDTOLOCAL_OFFSET UNITYSDK_OFFSET(0x1FADF160)
-#define SPINE_BONE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FADE220)
-#define SPINE_BONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FADE090)
+#define SPINE_BONE_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1FFA6E70)
+#define SPINE_BONE_GET_PARENT_OFFSET UNITYSDK_OFFSET(0x1FFA6E60)
+#define SPINE_BONE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FFA6D80)
+#define SPINE_BONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFA6C30)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Bone_TypeDefinitionIndex = 33504;
+	inline static constexpr unsigned int Bone_TypeDefinitionIndex = 32980;
 
-	class Bone : public ::System::Object
+	class Bone
 	{
 	public:
 		static ::System::Boolean* StaticGet_yDown()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Bone_TypeDefinitionIndex)->GetStaticField(0x8110);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Bone_TypeDefinitionIndex)->GetStaticField(0x8520);
 		}
-		::Spine::BoneData* data; // 0x10
-		::Spine::ExposedList_1<::Spine::Bone*>* children; // 0x18
-		::Spine::Bone* parent; // 0x20
-		::Spine::Skeleton* skeleton; // 0x28
-		::System::Single rotation; // 0x30
-		::System::Single worldY; // 0x34
-		::System::Single y; // 0x38
-		::System::Single ascaleY; // 0x3C
-		::System::Boolean active; // 0x40
-		::System::Boolean sorted; // 0x41
-		::System::Single ax; // 0x44
-		::System::Single ashearY; // 0x48
-		::System::Single ascaleX; // 0x4C
-		::System::Single ay; // 0x50
-		::System::Single scaleY; // 0x54
-		::System::Single a; // 0x58
-		::System::Single shearX; // 0x5C
-		::System::Single x; // 0x60
-		::System::Single c; // 0x64
-		::System::Single scaleX; // 0x68
-		::System::Single worldX; // 0x6C
-		::System::Single shearY; // 0x70
-		::System::Single arotation; // 0x74
-		::System::Single d; // 0x78
-		::System::Single b; // 0x7C
-		::System::Single ashearX; // 0x80
+		::Spine::ExposedList_1<::Spine::Bone*>* children; // 0x38
+		::Spine::Bone* parent; // 0x40
+		::System::Boolean sorted; // 0x48
 
-		::System::Void _ctor(::Spine::BoneData* data, ::Spine::Skeleton* skeleton, ::Spine::Bone* parent)
+		::System::Void _ctor(::Spine::BoneData* data, ::Spine::Bone* parent)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::BoneData*, ::Spine::Skeleton*, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_BONE__CTOR_OFFSET))(this, data, skeleton, parent);
+			return ((::System::Void(*)(::PVOID, ::Spine::BoneData*, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_BONE__CTOR_OFFSET))(this, data, parent);
 		}
 
-		::System::Void _ctor_1(::Spine::Bone* bone, ::Spine::Skeleton* skeleton, ::Spine::Bone* parent)
+		::System::Void _ctor_1(::Spine::Bone* bone, ::Spine::Bone* parent)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Bone*, ::Spine::Skeleton*, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_BONE__CTOR_1_OFFSET))(this, bone, skeleton, parent);
-		}
-
-		::Spine::BoneData* get_Data()
-		{
-			return ((::Spine::BoneData*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_DATA_OFFSET))(this);
-		}
-
-		::Spine::Skeleton* get_Skeleton()
-		{
-			return ((::Spine::Skeleton*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_SKELETON_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Spine::Bone*, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_BONE__CTOR_1_OFFSET))(this, bone, parent);
 		}
 
 		::Spine::Bone* get_Parent()
@@ -138,296 +42,6 @@ namespace Spine
 		::Spine::ExposedList_1<::Spine::Bone*>* get_Children()
 		{
 			return ((::Spine::ExposedList_1<::Spine::Bone*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_CHILDREN_OFFSET))(this);
-		}
-
-		::System::Boolean get_Active()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_ACTIVE_OFFSET))(this);
-		}
-
-		::System::Single get_X()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_X_OFFSET))(this);
-		}
-
-		::System::Void set_X(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_X_OFFSET))(this, value);
-		}
-
-		::System::Single get_Y()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_Y_OFFSET))(this);
-		}
-
-		::System::Void set_Y(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_Y_OFFSET))(this, value);
-		}
-
-		::System::Single get_Rotation()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_ROTATION_OFFSET))(this);
-		}
-
-		::System::Void set_Rotation(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_ROTATION_OFFSET))(this, value);
-		}
-
-		::System::Single get_ScaleX()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_SCALEX_OFFSET))(this);
-		}
-
-		::System::Void set_ScaleX(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_SCALEX_OFFSET))(this, value);
-		}
-
-		::System::Single get_ScaleY()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_SCALEY_OFFSET))(this);
-		}
-
-		::System::Void set_ScaleY(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_SCALEY_OFFSET))(this, value);
-		}
-
-		::System::Single get_ShearX()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_SHEARX_OFFSET))(this);
-		}
-
-		::System::Void set_ShearX(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_SHEARX_OFFSET))(this, value);
-		}
-
-		::System::Single get_ShearY()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_SHEARY_OFFSET))(this);
-		}
-
-		::System::Void set_ShearY(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_SHEARY_OFFSET))(this, value);
-		}
-
-		::System::Single get_AppliedRotation()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_APPLIEDROTATION_OFFSET))(this);
-		}
-
-		::System::Void set_AppliedRotation(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_APPLIEDROTATION_OFFSET))(this, value);
-		}
-
-		::System::Single get_AX()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_AX_OFFSET))(this);
-		}
-
-		::System::Void set_AX(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_AX_OFFSET))(this, value);
-		}
-
-		::System::Single get_AY()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_AY_OFFSET))(this);
-		}
-
-		::System::Void set_AY(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_AY_OFFSET))(this, value);
-		}
-
-		::System::Single get_AScaleX()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_ASCALEX_OFFSET))(this);
-		}
-
-		::System::Void set_AScaleX(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_ASCALEX_OFFSET))(this, value);
-		}
-
-		::System::Single get_AScaleY()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_ASCALEY_OFFSET))(this);
-		}
-
-		::System::Void set_AScaleY(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_ASCALEY_OFFSET))(this, value);
-		}
-
-		::System::Single get_AShearX()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_ASHEARX_OFFSET))(this);
-		}
-
-		::System::Void set_AShearX(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_ASHEARX_OFFSET))(this, value);
-		}
-
-		::System::Single get_AShearY()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_ASHEARY_OFFSET))(this);
-		}
-
-		::System::Void set_AShearY(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_ASHEARY_OFFSET))(this, value);
-		}
-
-		::System::Single get_A()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_A_OFFSET))(this);
-		}
-
-		::System::Void set_A(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_A_OFFSET))(this, value);
-		}
-
-		::System::Single get_B()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_B_OFFSET))(this);
-		}
-
-		::System::Void set_B(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_B_OFFSET))(this, value);
-		}
-
-		::System::Single get_C()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_C_OFFSET))(this);
-		}
-
-		::System::Void set_C(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_C_OFFSET))(this, value);
-		}
-
-		::System::Single get_D()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_D_OFFSET))(this);
-		}
-
-		::System::Void set_D(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_D_OFFSET))(this, value);
-		}
-
-		::System::Single get_WorldX()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_WORLDX_OFFSET))(this);
-		}
-
-		::System::Void set_WorldX(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_WORLDX_OFFSET))(this, value);
-		}
-
-		::System::Single get_WorldY()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_WORLDY_OFFSET))(this);
-		}
-
-		::System::Void set_WorldY(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_SET_WORLDY_OFFSET))(this, value);
-		}
-
-		::System::Single get_WorldRotationX()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_WORLDROTATIONX_OFFSET))(this);
-		}
-
-		::System::Single get_WorldRotationY()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_WORLDROTATIONY_OFFSET))(this);
-		}
-
-		::System::Single get_WorldScaleX()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_WORLDSCALEX_OFFSET))(this);
-		}
-
-		::System::Single get_WorldScaleY()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_WORLDSCALEY_OFFSET))(this);
-		}
-
-		::System::Void Update()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_UPDATE_OFFSET))(this);
-		}
-
-		::System::Void UpdateWorldTransform()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_UPDATEWORLDTRANSFORM_OFFSET))(this);
-		}
-
-		::System::Void UpdateWorldTransform_1(::System::Single x, ::System::Single y, ::System::Single rotation, ::System::Single scaleX, ::System::Single scaleY, ::System::Single shearX, ::System::Single shearY)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_UPDATEWORLDTRANSFORM_1_OFFSET))(this, x, y, rotation, scaleX, scaleY, shearX, shearY);
-		}
-
-		::System::Void SetToSetupPose()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_SETTOSETUPPOSE_OFFSET))(this);
-		}
-
-		::System::Void UpdateAppliedTransform()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_UPDATEAPPLIEDTRANSFORM_OFFSET))(this);
-		}
-
-		::System::Void WorldToLocal(::System::Single worldX, ::System::Single worldY, ::System::Single& localX, ::System::Single& localY)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + SPINE_BONE_WORLDTOLOCAL_OFFSET))(this, worldX, worldY, localX, localY);
-		}
-
-		::System::Void LocalToWorld(::System::Single localX, ::System::Single localY, ::System::Single& worldX, ::System::Single& worldY)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + SPINE_BONE_LOCALTOWORLD_OFFSET))(this, localX, localY, worldX, worldY);
-		}
-
-		::System::Single get_WorldToLocalRotationX()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_WORLDTOLOCALROTATIONX_OFFSET))(this);
-		}
-
-		::System::Single get_WorldToLocalRotationY()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_GET_WORLDTOLOCALROTATIONY_OFFSET))(this);
-		}
-
-		::System::Single WorldToLocalRotation(::System::Single worldRotation)
-		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_WORLDTOLOCALROTATION_OFFSET))(this, worldRotation);
-		}
-
-		::System::Single LocalToWorldRotation(::System::Single localRotation)
-		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_LOCALTOWORLDROTATION_OFFSET))(this, localRotation);
-		}
-
-		::System::Void RotateWorld(::System::Single degrees)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_BONE_ROTATEWORLD_OFFSET))(this, degrees);
-		}
-
-		::System::String* ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_BONE_TOSTRING_OFFSET))(this);
 		}
 	};
 }

@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/InputSystem/InputProcessor_1.h"
 
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputControl; }
 
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEPROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1EB03B20)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEPROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB03B30)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB03BB0)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEPROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1EE6F0D0)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEPROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE6F0E0)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_SCALEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6F160)
 
 namespace UnityEngine::InputSystem::Processors
 {
-	inline static constexpr unsigned int ScaleProcessor_TypeDefinitionIndex = 32590;
+	inline static constexpr unsigned int ScaleProcessor_TypeDefinitionIndex = 32039;
 
-	class ScaleProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::System::Single>
+	class ScaleProcessor
 	{
 	public:
 		::System::Single factor; // 0x10

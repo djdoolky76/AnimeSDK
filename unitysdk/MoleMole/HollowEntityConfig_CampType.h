@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HollowEntityConfig_CampType_TypeDefinitionIndex = 68296;
+	inline static constexpr unsigned int HollowEntityConfig_CampType_TypeDefinitionIndex = 57920;
 
 	enum class HollowEntityConfig_CampType : ::System::Int32
 	{
-		TeamKind = 4,
 		TeamNeutral = 3,
-		TeamGood = 2,
-		TeamEvil = 1,
 		Unknow = 999,
+		TeamKind = 4,
+		TeamEvil = 1,
+		TeamGood = 2,
 	};
 }

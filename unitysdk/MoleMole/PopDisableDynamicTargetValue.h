@@ -6,19 +6,19 @@
 namespace MoleMole { class SharedGameEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_POPDISABLEDYNAMICTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1792A910)
-#define MOLEMOLE_POPDISABLEDYNAMICTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1792AA80)
-#define MOLEMOLE_POPDISABLEDYNAMICTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1792AB10)
+#define MOLEMOLE_POPDISABLEDYNAMICTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x14B15570)
+#define MOLEMOLE_POPDISABLEDYNAMICTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x14B156E0)
+#define MOLEMOLE_POPDISABLEDYNAMICTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x14B15770)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PopDisableDynamicTargetValue_TypeDefinitionIndex = 43674;
+	inline static constexpr unsigned int PopDisableDynamicTargetValue_TypeDefinitionIndex = 92155;
 
 	class PopDisableDynamicTargetValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::System::String* Tag; // 0x58
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
+		::System::String* Tag; // 0x60
 
 		::System::Void _ctor()
 		{

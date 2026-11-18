@@ -4,11 +4,11 @@
 
 namespace MoleMole::HollowChessboard { class PieceMaterialSetting; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_PIECEMATERIALCHANGEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x19256390)
+#define MOLEMOLE_HOLLOWCHESSBOARD_PIECEMATERIALCHANGEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x11923F00)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int PieceMaterialChangeEntry_TypeDefinitionIndex = 59425;
+	inline static constexpr unsigned int PieceMaterialChangeEntry_TypeDefinitionIndex = 59836;
 
 	class PieceMaterialChangeEntry : public ::System::Object
 	{

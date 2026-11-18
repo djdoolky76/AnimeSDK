@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/GradientColorKey.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/SkyLutUtils_LinearGraidentColorKey.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -12,37 +11,37 @@ namespace UnityEngine { class Gradient; }
 namespace UnityEngine::NAPRenderPipeline0 { class IWeatherConfig; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS_ADDKEY_OFFSET UNITYSDK_OFFSET(0x1EB59A70)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS_FILLWITHWEATHERCONFIG_OFFSET UNITYSDK_OFFSET(0x1EB59CD0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS_GENERATESKYLUT_OFFSET UNITYSDK_OFFSET(0x1EB58AE0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB59DE0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS_ADDKEY_OFFSET UNITYSDK_OFFSET(0x1EEFDB00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS_FILLWITHWEATHERCONFIG_OFFSET UNITYSDK_OFFSET(0x1EEFDD60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS_GENERATESKYLUT_OFFSET UNITYSDK_OFFSET(0x1EEFCB70)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEFDE70)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SkyLutUtils_TypeDefinitionIndex = 5982;
+	inline static constexpr unsigned int SkyLutUtils_TypeDefinitionIndex = 5990;
 
 	class SkyLutUtils : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::SkyLutUtils_LinearGraidentColorKey>** StaticGet_m_GradientDatas()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::GradientColorKey>*>** StaticGet_skyLutGradientColorKeys()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::SkyLutUtils_LinearGraidentColorKey>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54E0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::GradientColorKey>*>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x53E0);
+		}
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_m_GradientDatas()
+		{
+			return (::System::Collections::Generic::List_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x53E8);
 		}
 		static ::Il2CppArray<::System::Single>** StaticGet_skyLutGradientItemCount()
 		{
-			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54E8);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::GradientColorKey>*>** StaticGet_skyLutGradientColorKeys()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::GradientColorKey>*>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54F0);
+			return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x53F0);
 		}
 		static ::UnityEngine::ComputeBuffer** StaticGet_m_ComputeBuffer()
 		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x54F8);
+			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x53F8);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Gradient*>** StaticGet_skyLutGradients()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Gradient*>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x5500);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Gradient*>**)Il2CppClass::FromTypeDefinitionIndex(SkyLutUtils_TypeDefinitionIndex)->GetStaticField(0x5400);
 		}
 
 		static ::System::Void _cctor()

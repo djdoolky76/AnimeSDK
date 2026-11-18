@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_CONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x116DD850)
+#define MOLEMOLE_CHESSSTATEMACHINE_CONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xFA9C550)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ConfigBase_TypeDefinitionIndex = 72312;
+	inline static constexpr unsigned int ConfigBase_TypeDefinitionIndex = 45278;
 
 	class ConfigBase : public ::System::Object
 	{

@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/ReflectedFieldNodeWrapper_AccessMode.h"
 #include "unitysdk/System/Object.h"
 
-namespace FlowCanvas { class FlowNode; }
 namespace System::Reflection { class FieldInfo; }
 
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDFIELDNODE_CREATE_OFFSET UNITYSDK_OFFSET(0x1E8B7EA0)
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDFIELDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B7EE0)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDFIELDNODE_CREATE_OFFSET UNITYSDK_OFFSET(0x1EB7D7C0)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDFIELDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7D800)
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int ReflectedFieldNode_TypeDefinitionIndex = 30397;
+	inline static constexpr unsigned int ReflectedFieldNode_TypeDefinitionIndex = 29344;
 
 	class ReflectedFieldNode : public ::System::Object
 	{

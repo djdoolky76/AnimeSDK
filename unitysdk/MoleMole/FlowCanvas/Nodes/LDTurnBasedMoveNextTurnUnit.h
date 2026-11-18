@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_3FFB084FB2E4C2F3.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
+#include "unitysdk/MOADBGJENKE.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDMOVENEXTTURNUNIT_INVOKE_OFFSET UNITYSDK_OFFSET(0x19BE5620)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDMOVENEXTTURNUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE5750)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDMOVENEXTTURNUNIT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A091000)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDMOVENEXTTURNUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A091130)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedMoveNextTurnUnit_TypeDefinitionIndex = 47681;
+	inline static constexpr unsigned int LDTurnBasedMoveNextTurnUnit_TypeDefinitionIndex = 66042;
 
-	class LDTurnBasedMoveNextTurnUnit : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::Enum_3_3FFB084FB2E4C2F3>
+	class LDTurnBasedMoveNextTurnUnit
 	{
 	public:
 		::System::Void _ctor()
@@ -18,9 +17,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDMOVENEXTTURNUNIT__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_3FFB084FB2E4C2F3 Invoke()
+		::MOADBGJENKE Invoke()
 		{
-			return ((::Enum_3_3FFB084FB2E4C2F3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDMOVENEXTTURNUNIT_INVOKE_OFFSET))(this);
+			return ((::MOADBGJENKE(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDMOVENEXTTURNUNIT_INVOKE_OFFSET))(this);
 		}
 	};
 }

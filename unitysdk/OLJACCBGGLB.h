@@ -1,0 +1,141 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OAOOLPCNHKA.h"
+#include "unitysdk/OLJACCBGGLB_BEFEPNONLFD.h"
+
+class FPLDABGFDMJ;
+class GEIHCPAOKKK;
+namespace MoleMole::Level { class LevelConfig_SceneMoveElement; }
+namespace Nap::NapECS { class EcsEntity; }
+namespace Nap::NapECS { class EcsFilter; }
+namespace Nap::NapECS { class EcsWorld; }
+namespace System { class String; }
+
+#define OLJACCBGGLB_ADCNBAADLJF_OFFSET UNITYSDK_OFFSET(0x1369DC30)
+#define OLJACCBGGLB_APAGIJMHEAK_OFFSET UNITYSDK_OFFSET(0x1369D8A0)
+#define OLJACCBGGLB_CMFOMGGDPPA_OFFSET UNITYSDK_OFFSET(0x1369DAC0)
+#define OLJACCBGGLB_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x1369C4F0)
+#define OLJACCBGGLB_DKOCNOHOMIA_OFFSET UNITYSDK_OFFSET(0x1369D030)
+#define OLJACCBGGLB_DOJHAHIJEKC_OFFSET UNITYSDK_OFFSET(0x1369D6A0)
+#define OLJACCBGGLB_DPBMGBOMOGL_OFFSET UNITYSDK_OFFSET(0x1369E330)
+#define OLJACCBGGLB_HMLGKBFFNHI_OFFSET UNITYSDK_OFFSET(0x1369D480)
+#define OLJACCBGGLB_HNOPFIJMGMB_OFFSET UNITYSDK_OFFSET(0x1369CC30)
+#define OLJACCBGGLB_JCEJPEBLHHM_OFFSET UNITYSDK_OFFSET(0x1369E1E0)
+#define OLJACCBGGLB_KHBONHCBHOK_OFFSET UNITYSDK_OFFSET(0x1369DF40)
+#define OLJACCBGGLB_LHEKIHAOKMC_OFFSET UNITYSDK_OFFSET(0x1369DC90)
+#define OLJACCBGGLB_MNEFKNFOABP_OFFSET UNITYSDK_OFFSET(0x1369DEB0)
+#define OLJACCBGGLB_MPPGNPPANGC_OFFSET UNITYSDK_OFFSET(0x1369C900)
+#define OLJACCBGGLB_NGJBBEMINMP_OFFSET UNITYSDK_OFFSET(0x1369E860)
+#define OLJACCBGGLB_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x1369DB90)
+#define OLJACCBGGLB_OINJFHDPDCG_OFFSET UNITYSDK_OFFSET(0x1369D9E0)
+#define OLJACCBGGLB_PMHJBNNPCLB_OFFSET UNITYSDK_OFFSET(0x1369DB50)
+#define OLJACCBGGLB_UPDATE_OFFSET UNITYSDK_OFFSET(0x1369C740)
+#define OLJACCBGGLB__CTOR_OFFSET UNITYSDK_OFFSET(0x1369C8B0)
+
+inline static constexpr unsigned int OLJACCBGGLB_TypeDefinitionIndex = 50406;
+
+class OLJACCBGGLB : public ::OAOOLPCNHKA
+{
+public:
+	::Nap::NapECS::EcsFilter* PNPMMLNCDNK; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OLJACCBGGLB__CTOR_OFFSET))(this);
+	}
+
+	::System::Void CreateFilters(::Nap::NapECS::EcsWorld* GEEHGDABNJF)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_CREATEFILTERS_OFFSET))(this, GEEHGDABNJF);
+	}
+
+	::System::Void Update()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OLJACCBGGLB_UPDATE_OFFSET))(this);
+	}
+
+	static ::System::Void MPPGNPPANGC(::FPLDABGFDMJ* FNALOOPPDEF)
+	{
+		return ((::System::Void(*)(::FPLDABGFDMJ*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_MPPGNPPANGC_OFFSET))(FNALOOPPDEF);
+	}
+
+	static ::System::Void HMLGKBFFNHI(::System::UInt32 BKLGNCBNEGM)
+	{
+		return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + OLJACCBGGLB_HMLGKBFFNHI_OFFSET))(BKLGNCBNEGM);
+	}
+
+	static ::System::Void DOJHAHIJEKC(::FPLDABGFDMJ* FNALOOPPDEF)
+	{
+		return ((::System::Void(*)(::FPLDABGFDMJ*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_DOJHAHIJEKC_OFFSET))(FNALOOPPDEF);
+	}
+
+	::System::Void APAGIJMHEAK(::Nap::NapECS::EcsEntity* MNGHGOLKKNO)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsEntity*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_APAGIJMHEAK_OFFSET))(this, MNGHGOLKKNO);
+	}
+
+	::System::Void CMFOMGGDPPA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OLJACCBGGLB_CMFOMGGDPPA_OFFSET))(this);
+	}
+
+	static ::MoleMole::Level::LevelConfig_SceneMoveElement* HNOPFIJMGMB(::System::String* ALFCJABDJCP)
+	{
+		return ((::MoleMole::Level::LevelConfig_SceneMoveElement*(*)(::System::String*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_HNOPFIJMGMB_OFFSET))(ALFCJABDJCP);
+	}
+
+	static ::System::Void PMHJBNNPCLB(::Nap::NapECS::EcsEntity* KECKGDFIALJ)
+	{
+		return ((::System::Void(*)(::Nap::NapECS::EcsEntity*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_PMHJBNNPCLB_OFFSET))(KECKGDFIALJ);
+	}
+
+	static ::System::Void NPOLNFDBOOD(::FPLDABGFDMJ* FNALOOPPDEF)
+	{
+		return ((::System::Void(*)(::FPLDABGFDMJ*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_NPOLNFDBOOD_OFFSET))(FNALOOPPDEF);
+	}
+
+	static ::System::Boolean ADCNBAADLJF(::OLJACCBGGLB_BEFEPNONLFD& param_0)
+	{
+		return ((::System::Boolean(*)(::OLJACCBGGLB_BEFEPNONLFD&))((::PBYTE)hIl2Cpp + OLJACCBGGLB_ADCNBAADLJF_OFFSET))(param_0);
+	}
+
+	static ::System::Void LHEKIHAOKMC(::FPLDABGFDMJ* FNALOOPPDEF)
+	{
+		return ((::System::Void(*)(::FPLDABGFDMJ*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_LHEKIHAOKMC_OFFSET))(FNALOOPPDEF);
+	}
+
+	::System::Void MNEFKNFOABP(::Nap::NapECS::EcsWorld* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_MNEFKNFOABP_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	static ::System::Void KHBONHCBHOK(::GEIHCPAOKKK* OHPJHPEOFLD, ::FPLDABGFDMJ* FNALOOPPDEF, ::System::Single PMNLNNGEIFM, ::FPLDABGFDMJ* CABKJBEKFFL)
+	{
+		return ((::System::Void(*)(::GEIHCPAOKKK*, ::FPLDABGFDMJ*, ::System::Single, ::FPLDABGFDMJ*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_KHBONHCBHOK_OFFSET))(OHPJHPEOFLD, FNALOOPPDEF, PMNLNNGEIFM, CABKJBEKFFL);
+	}
+
+	static ::System::Void NGJBBEMINMP(::FPLDABGFDMJ* FNALOOPPDEF)
+	{
+		return ((::System::Void(*)(::FPLDABGFDMJ*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_NGJBBEMINMP_OFFSET))(FNALOOPPDEF);
+	}
+
+	static ::System::Void JCEJPEBLHHM(::FPLDABGFDMJ* FNALOOPPDEF, ::System::Single PMNLNNGEIFM)
+	{
+		return ((::System::Void(*)(::FPLDABGFDMJ*, ::System::Single))((::PBYTE)hIl2Cpp + OLJACCBGGLB_JCEJPEBLHHM_OFFSET))(FNALOOPPDEF, PMNLNNGEIFM);
+	}
+
+	static ::System::Void DPBMGBOMOGL(::FPLDABGFDMJ* FNALOOPPDEF, ::System::Single PMNLNNGEIFM)
+	{
+		return ((::System::Void(*)(::FPLDABGFDMJ*, ::System::Single))((::PBYTE)hIl2Cpp + OLJACCBGGLB_DPBMGBOMOGL_OFFSET))(FNALOOPPDEF, PMNLNNGEIFM);
+	}
+
+	static ::System::Void OINJFHDPDCG(::FPLDABGFDMJ* FNALOOPPDEF)
+	{
+		return ((::System::Void(*)(::FPLDABGFDMJ*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_OINJFHDPDCG_OFFSET))(FNALOOPPDEF);
+	}
+
+	static ::System::Void DKOCNOHOMIA(::FPLDABGFDMJ* FNALOOPPDEF, ::MoleMole::Level::LevelConfig_SceneMoveElement* DFMKILICPFB)
+	{
+		return ((::System::Void(*)(::FPLDABGFDMJ*, ::MoleMole::Level::LevelConfig_SceneMoveElement*))((::PBYTE)hIl2Cpp + OLJACCBGGLB_DKOCNOHOMIA_OFFSET))(FNALOOPPDEF, DFMKILICPFB);
+	}
+};

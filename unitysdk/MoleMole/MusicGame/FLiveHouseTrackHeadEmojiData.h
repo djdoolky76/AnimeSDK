@@ -3,20 +3,21 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_MUSICGAME_FLIVEHOUSETRACKHEADEMOJIDATA_ISNULLOREMPTY_OFFSET UNITYSDK_OFFSET(0x7D3760)
-#define MOLEMOLE_MUSICGAME_FLIVEHOUSETRACKHEADEMOJIDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x138569B0)
+#define MOLEMOLE_MUSICGAME_FLIVEHOUSETRACKHEADEMOJIDATA_ISNULLOREMPTY_OFFSET UNITYSDK_OFFSET(0x7156B0)
+#define MOLEMOLE_MUSICGAME_FLIVEHOUSETRACKHEADEMOJIDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x139FD1A0)
 
 namespace MoleMole::MusicGame
 {
-	inline static constexpr unsigned int FLiveHouseTrackHeadEmojiData_TypeDefinitionIndex = 70584;
+	inline static constexpr unsigned int FLiveHouseTrackHeadEmojiData_TypeDefinitionIndex = 46012;
 
-	struct alignas(8) FLiveHouseTrackHeadEmojiData
+	struct alignas(4) FLiveHouseTrackHeadEmojiData
 	{
 		static ::MoleMole::MusicGame::FLiveHouseTrackHeadEmojiData* StaticGet_Empty()
 		{
-			return (::MoleMole::MusicGame::FLiveHouseTrackHeadEmojiData*)Il2CppClass::FromTypeDefinitionIndex(FLiveHouseTrackHeadEmojiData_TypeDefinitionIndex)->GetStaticField(0x47D30);
+			return (::MoleMole::MusicGame::FLiveHouseTrackHeadEmojiData*)Il2CppClass::FromTypeDefinitionIndex(FLiveHouseTrackHeadEmojiData_TypeDefinitionIndex)->GetStaticField(0x4B9D0);
 		}
 		::System::Single duration; // 0x10
+		::System::Byte _padding0[0x4];
 		::Foundation::AssetPath assetPath; // 0x18
 
 		static ::System::Void _cctor()

@@ -2,36 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/NativeMemoryRequestHandle.h"
 #include "unitysdk/Foundation/NativeVariableArray_1.h"
-#include "unitysdk/MoleMole/Photo/PlayableUnitConfig_1.h"
-#include "unitysdk/Struct_2_ACD0EF80A5330786.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-#include "unitysdk/System/Span_1.h"
+#include "unitysdk/PMBCHGNJMKF.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 #include "unitysdk/UnityEngine/Animations/PropertyStreamHandle.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
-class Class_1_3A8CBD6A2FB912AF;
+class KAMGGOJKJCM;
 namespace Foundation { class NativeMemory; }
 namespace Foundation { class NativeMemoryBuilder; }
 namespace MoleMole::Photo { class Skeleton; }
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class AvatarMask; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_BUILDPROPERTYHANDLES_OFFSET UNITYSDK_OFFSET(0x144FC2D0)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_CREATEPLAYABLEUNIT_OFFSET UNITYSDK_OFFSET(0x144FB800)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GETBLENDSHAPEPARAMCOUNT_OFFSET UNITYSDK_OFFSET(0x144FD370)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GETSKINNEDMESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x144FD110)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x144FB7F0)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0x144FC740)
-#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x144FD5A0)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_BUILDPROPERTYHANDLES_OFFSET UNITYSDK_OFFSET(0x104486C0)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_CREATEPLAYABLEUNIT_OFFSET UNITYSDK_OFFSET(0x10447BF0)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GETBLENDSHAPEPARAMCOUNT_OFFSET UNITYSDK_OFFSET(0x10449760)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GETSKINNEDMESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x10449500)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x10447BE0)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0x10448B30)
+#define MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10449990)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int PlayableUnitBlendShapeConfig_TypeDefinitionIndex = 45734;
+	inline static constexpr unsigned int PlayableUnitBlendShapeConfig_TypeDefinitionIndex = 83389;
 
-	class PlayableUnitBlendShapeConfig : public ::MoleMole::Photo::PlayableUnitConfig_1<::Class_1_3A8CBD6A2FB912AF*>
+	class PlayableUnitBlendShapeConfig
 	{
 	public:
 		// static const ::System::String* BlendShapePrefix; // 0x0
@@ -54,14 +52,14 @@ namespace MoleMole::Photo
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET))(this);
 		}
 
-		::Class_1_3A8CBD6A2FB912AF* CreatePlayableUnit(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::Struct_2_ACD0EF80A5330786 context, ::Foundation::NativeMemory* memory, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle> variables)
+		::KAMGGOJKJCM* CreatePlayableUnit(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::PMBCHGNJMKF context, ::Foundation::NativeMemory* memory, ::System::ReadOnlySpan_1_F48FB86071006F3E<::Foundation::NativeMemoryRequestHandle> variables)
 		{
-			return ((::Class_1_3A8CBD6A2FB912AF*(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::Struct_2_ACD0EF80A5330786, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_CREATEPLAYABLEUNIT_OFFSET))(this, graph, animator, context, memory, variables);
+			return ((::KAMGGOJKJCM*(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::PMBCHGNJMKF, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1_F48FB86071006F3E<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_CREATEPLAYABLEUNIT_OFFSET))(this, graph, animator, context, memory, variables);
 		}
 
-		::System::Void RequestMemory(::UnityEngine::Animator* animator, ::MoleMole::Photo::Skeleton* skeleton, ::Foundation::NativeMemoryBuilder* builder, ::System::Span_1<::Foundation::NativeMemoryRequestHandle> output)
+		::System::Void RequestMemory(::UnityEngine::Animator* animator, ::MoleMole::Photo::Skeleton* skeleton, ::Foundation::NativeMemoryBuilder* builder, ::System::Span_1_9011FAD97750D224<::Foundation::NativeMemoryRequestHandle> output)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::MoleMole::Photo::Skeleton*, ::Foundation::NativeMemoryBuilder*, ::System::Span_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_REQUESTMEMORY_OFFSET))(this, animator, skeleton, builder, output);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::MoleMole::Photo::Skeleton*, ::Foundation::NativeMemoryBuilder*, ::System::Span_1_9011FAD97750D224<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEUNITBLENDSHAPECONFIG_REQUESTMEMORY_OFFSET))(this, animator, skeleton, builder, output);
 		}
 
 		::System::Void BuildPropertyHandles(::Foundation::NativeVariableArray_1<::UnityEngine::Animations::PropertyStreamHandle> handles, ::UnityEngine::Animator* animator, ::System::Collections::Generic::List_1<::UnityEngine::SkinnedMeshRenderer*>* renderers)

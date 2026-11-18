@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class InteractEntry; }
 
-#define MOLEMOLE_CONFIG_CONFIGINTERACTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CD5D0)
+#define MOLEMOLE_CONFIG_CONFIGINTERACTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12774A50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigInteractEntry_TypeDefinitionIndex = 71412;
+	inline static constexpr unsigned int ConfigInteractEntry_TypeDefinitionIndex = 48887;
 
 	class ConfigInteractEntry : public ::Foundation::MihoyoSerializedScriptableObject
 	{

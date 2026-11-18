@@ -3,12 +3,12 @@
 #include "unitysdk/Microsoft/Win32/SessionEndReasons.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define MICROSOFT_WIN32_SESSIONENDEDEVENTARGS_GET_REASON_OFFSET UNITYSDK_OFFSET(0x1E96E600)
-#define MICROSOFT_WIN32_SESSIONENDEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E96E5C0)
+#define MICROSOFT_WIN32_SESSIONENDEDEVENTARGS_GET_REASON_OFFSET UNITYSDK_OFFSET(0x1EC463A0)
+#define MICROSOFT_WIN32_SESSIONENDEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC46360)
 
 namespace Microsoft::Win32
 {
-	inline static constexpr unsigned int SessionEndedEventArgs_TypeDefinitionIndex = 4296;
+	inline static constexpr unsigned int SessionEndedEventArgs_TypeDefinitionIndex = 4295;
 
 	class SessionEndedEventArgs : public ::System::EventArgs
 	{

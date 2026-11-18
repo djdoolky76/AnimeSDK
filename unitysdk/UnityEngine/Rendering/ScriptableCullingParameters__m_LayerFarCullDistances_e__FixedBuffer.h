@@ -4,10 +4,10 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer_TypeDefinitionIndex = 6239;
+	inline static constexpr unsigned int ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer_TypeDefinitionIndex = 6254;
 
 	struct alignas(4) ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer
 	{
-		::System::Single data[32]; // 0x0
+		::System::Single FixedElementField; // 0x10
 	};
 }

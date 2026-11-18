@@ -7,12 +7,12 @@ namespace MoleMole { class ConfigAvatarDateTeleport; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class Action; }
 
-#define NODEGRAPH_GRAPHLOGICUTIL___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x102CDA90)
-#define NODEGRAPH_GRAPHLOGICUTIL___C__DISPLAYCLASS7_0__TELEPORTTOPOS_B__0_OFFSET UNITYSDK_OFFSET(0x102CDAA0)
+#define NODEGRAPH_GRAPHLOGICUTIL___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1365C5D0)
+#define NODEGRAPH_GRAPHLOGICUTIL___C__DISPLAYCLASS7_0__TELEPORTTOPOS_B__0_OFFSET UNITYSDK_OFFSET(0x1365C5E0)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphLogicUtil___c__DisplayClass7_0_TypeDefinitionIndex = 80844;
+	inline static constexpr unsigned int GraphLogicUtil___c__DisplayClass7_0_TypeDefinitionIndex = 78401;
 
 	class GraphLogicUtil___c__DisplayClass7_0 : public ::System::Object
 	{

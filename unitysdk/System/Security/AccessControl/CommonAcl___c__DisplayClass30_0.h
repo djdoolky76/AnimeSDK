@@ -5,12 +5,12 @@
 namespace System::Security::AccessControl { class KnownAce; }
 namespace System::Security::Principal { class SecurityIdentifier; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_COMMONACL___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D01A0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_COMMONACL___C__DISPLAYCLASS30_0__PURGE_B__0_OFFSET UNITYSDK_OFFSET(0x1D8D01B0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_COMMONACL___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDAC640)
+#define SYSTEM_SECURITY_ACCESSCONTROL_COMMONACL___C__DISPLAYCLASS30_0__PURGE_B__0_OFFSET UNITYSDK_OFFSET(0x1DDAC650)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int CommonAcl___c__DisplayClass30_0_TypeDefinitionIndex = 975;
+	inline static constexpr unsigned int CommonAcl___c__DisplayClass30_0_TypeDefinitionIndex = 974;
 
 	class CommonAcl___c__DisplayClass30_0 : public ::System::Object
 	{

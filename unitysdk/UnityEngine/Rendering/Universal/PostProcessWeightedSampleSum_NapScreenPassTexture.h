@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
+#include "unitysdk/UnityEngine/Rect.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_NAPSCREENPASSTEXTURE_ISVALID_OFFSET UNITYSDK_OFFSET(0x97B3F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_NAPSCREENPASSTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x97B3B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_NAPSCREENPASSTEXTURE_ISVALID_OFFSET UNITYSDK_OFFSET(0x8B4F60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_POSTPROCESSWEIGHTEDSAMPLESUM_NAPSCREENPASSTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x8B4F20)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int PostProcessWeightedSampleSum_NapScreenPassTexture_TypeDefinitionIndex = 27980;
+	inline static constexpr unsigned int PostProcessWeightedSampleSum_NapScreenPassTexture_TypeDefinitionIndex = 26443;
 
-	struct alignas(8) PostProcessWeightedSampleSum_NapScreenPassTexture
+	struct alignas(4) PostProcessWeightedSampleSum_NapScreenPassTexture
 	{
 		::UnityEngine::Rect ViewRect; // 0x10
 		::UnityEngine::Rendering::RenderTargetIdentifier RTId; // 0x20

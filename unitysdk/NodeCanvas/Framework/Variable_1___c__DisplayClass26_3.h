@@ -7,9 +7,9 @@ namespace UnityEngine { class Component; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Variable_1___c__DisplayClass26_3_TypeDefinitionIndex = 30485;
+	inline static constexpr unsigned int Variable_1___c__DisplayClass26_3_TypeDefinitionIndex = 29838;
 
-	template <typename T>
+	template <typename T1, typename T2, typename T3>
 	class Variable_1___c__DisplayClass26_3 : public ::System::Object
 	{
 	public:

@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 
-namespace Newtonsoft::Json::Serialization { class DefaultContractResolver___c__DisplayClass38_0; }
 namespace Newtonsoft::Json::Serialization { template <typename T> class ObjectConstructor_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS38_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1F30BA60)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS38_2__SETEXTENSIONDATADELEGATES_B__1_OFFSET UNITYSDK_OFFSET(0x1F30BA70)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS38_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1F71DE00)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS38_2__SETEXTENSIONDATADELEGATES_B__1_OFFSET UNITYSDK_OFFSET(0x1F71DE10)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass38_2_TypeDefinitionIndex = 7107;
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass38_2_TypeDefinitionIndex = 7114;
 
+	template <typename T1, typename T2>
 	class DefaultContractResolver___c__DisplayClass38_2 : public ::System::Object
 	{
 	public:
 		::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* createEnumerableWrapper; // 0x10
-		::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass38_0* CS___8__locals2; // 0x18
+		::System::Object* CS___8__locals2; // 0x18
 
 		::System::Void _ctor()
 		{

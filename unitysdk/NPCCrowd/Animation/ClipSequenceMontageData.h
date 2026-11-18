@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define NPCCROWD_ANIMATION_CLIPSEQUENCEMONTAGEDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x6342A0)
-#define NPCCROWD_ANIMATION_CLIPSEQUENCEMONTAGEDATA___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x6342B0)
+#define NPCCROWD_ANIMATION_CLIPSEQUENCEMONTAGEDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x67EB40)
+#define NPCCROWD_ANIMATION_CLIPSEQUENCEMONTAGEDATA___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x67EB50)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int ClipSequenceMontageData_TypeDefinitionIndex = 50833;
+	inline static constexpr unsigned int ClipSequenceMontageData_TypeDefinitionIndex = 49385;
 
 	struct alignas(4) ClipSequenceMontageData
 	{
@@ -17,6 +17,7 @@ namespace NPCCrowd::Animation
 		::System::Int32 loopAnim; // 0x14
 		::System::Int32 outAnim; // 0x18
 		::System::Boolean controlDuration; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::Single duration; // 0x20
 
 		::System::Boolean Equals(::System::Object* obj)

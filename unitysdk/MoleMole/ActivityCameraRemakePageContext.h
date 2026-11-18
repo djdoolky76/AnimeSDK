@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7B044D15E4826ADC.h"
+#include "unitysdk/DJPBMMDAFKB.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_ACTIVITYCAMERAREMAKEPAGECONTEXT_GET_ACTIVITYTYPE_OFFSET UNITYSDK_OFFSET(0x1482F5F0)
-#define MOLEMOLE_ACTIVITYCAMERAREMAKEPAGECONTEXT_SET_ACTIVITYTYPE_OFFSET UNITYSDK_OFFSET(0x1482F600)
-#define MOLEMOLE_ACTIVITYCAMERAREMAKEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1482F610)
+#define MOLEMOLE_ACTIVITYCAMERAREMAKEPAGECONTEXT_GET_ACTIVITYTYPE_OFFSET UNITYSDK_OFFSET(0x11E52A20)
+#define MOLEMOLE_ACTIVITYCAMERAREMAKEPAGECONTEXT_SET_ACTIVITYTYPE_OFFSET UNITYSDK_OFFSET(0x11E52A30)
+#define MOLEMOLE_ACTIVITYCAMERAREMAKEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E52A40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityCameraRemakePageContext_TypeDefinitionIndex = 50273;
+	inline static constexpr unsigned int ActivityCameraRemakePageContext_TypeDefinitionIndex = 50638;
 
 	class ActivityCameraRemakePageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_7B044D15E4826ADC _ActivityType_k__BackingField; // 0x28
+		::DJPBMMDAFKB _ActivityType_k__BackingField; // 0x28
 
-		::System::Void _ctor(::Enum_3_7B044D15E4826ADC activityType)
+		::System::Void _ctor(::DJPBMMDAFKB activityType)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_7B044D15E4826ADC))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYCAMERAREMAKEPAGECONTEXT__CTOR_OFFSET))(this, activityType);
+			return ((::System::Void(*)(::PVOID, ::DJPBMMDAFKB))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYCAMERAREMAKEPAGECONTEXT__CTOR_OFFSET))(this, activityType);
 		}
 
-		::Enum_3_7B044D15E4826ADC get_ActivityType()
+		::DJPBMMDAFKB get_ActivityType()
 		{
-			return ((::Enum_3_7B044D15E4826ADC(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYCAMERAREMAKEPAGECONTEXT_GET_ACTIVITYTYPE_OFFSET))(this);
+			return ((::DJPBMMDAFKB(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYCAMERAREMAKEPAGECONTEXT_GET_ACTIVITYTYPE_OFFSET))(this);
 		}
 
-		::System::Void set_ActivityType(::Enum_3_7B044D15E4826ADC value)
+		::System::Void set_ActivityType(::DJPBMMDAFKB value)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_7B044D15E4826ADC))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYCAMERAREMAKEPAGECONTEXT_SET_ACTIVITYTYPE_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::DJPBMMDAFKB))((::PBYTE)hIl2Cpp + MOLEMOLE_ACTIVITYCAMERAREMAKEPAGECONTEXT_SET_ACTIVITYTYPE_OFFSET))(this, value);
 		}
 	};
 }

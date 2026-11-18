@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_C0F166E610126827.h"
+#include "unitysdk/LGLPGGLOHDO.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/MoleMole/Config/RuntimePolygonBound.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -15,62 +15,65 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_04AF73A09EA893EA_OFFSET UNITYSDK_OFFSET(0x13AC8180)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_168CB7D727816462_OFFSET UNITYSDK_OFFSET(0x13AC8ED0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_4D180EE6CCAF9213_OFFSET UNITYSDK_OFFSET(0x13ACB840)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_51BFB3E94FB1CB71_OFFSET UNITYSDK_OFFSET(0x13AC9830)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_53742E90BB500E06_OFFSET UNITYSDK_OFFSET(0x13AC76C0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_55F181A4B49BC3F3_OFFSET UNITYSDK_OFFSET(0x13ACB4D0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_57E4BA37E771C492_OFFSET UNITYSDK_OFFSET(0x13ACA730)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_5FADA780F71C971E_OFFSET UNITYSDK_OFFSET(0x13AC83B0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_6C4917BFE459750B_OFFSET UNITYSDK_OFFSET(0x13ACB040)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_6E3E9A6DC759FB76_OFFSET UNITYSDK_OFFSET(0x13ACA220)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_6F41D10A334C4DA0_OFFSET UNITYSDK_OFFSET(0x13ACB5F0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_8068DF89AAA80F54_OFFSET UNITYSDK_OFFSET(0x13AC7F60)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_880DFF29BF355A17_OFFSET UNITYSDK_OFFSET(0x13AC95D0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_89E89349E1D44E81_OFFSET UNITYSDK_OFFSET(0x13ACAF90)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_8ADCE9C57A07A406_OFFSET UNITYSDK_OFFSET(0x13ACB590)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_99053D1AE5A59190_OFFSET UNITYSDK_OFFSET(0x13AC7380)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_9C600FE2756E336D_OFFSET UNITYSDK_OFFSET(0x13AC7E90)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_A29FB25C27BCF355_OFFSET UNITYSDK_OFFSET(0x13AC8840)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_A93A77624721F809_OFFSET UNITYSDK_OFFSET(0x13ACA4D0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_B953F5B762A2C3B6_OFFSET UNITYSDK_OFFSET(0x13AC88D0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_BBC77FCCD600FB29_OFFSET UNITYSDK_OFFSET(0x13AC84B0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_BC3D63492246CA32_OFFSET UNITYSDK_OFFSET(0x13AC97C0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_C4C0E1999F96C1F5_OFFSET UNITYSDK_OFFSET(0x13AC9A60)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_D1772482A593E38D_OFFSET UNITYSDK_OFFSET(0x13ACA7A0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_D729EA2F7EBAA848_OFFSET UNITYSDK_OFFSET(0x13ACA3C0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_FD086027167FCB75_OFFSET UNITYSDK_OFFSET(0x13AC8640)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13AC7DE0)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_ONSUBMITPOLYGON_OFFSET UNITYSDK_OFFSET(0x13AC6F50)
-#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x13AC7E30)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_ADNFCFDCMDF_OFFSET UNITYSDK_OFFSET(0x146A1A10)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_AJNEBCAFACH_OFFSET UNITYSDK_OFFSET(0x146A1AC0)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_APNGLCBFEOC_OFFSET UNITYSDK_OFFSET(0x146A2CE0)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_CLLFMPAPEME_OFFSET UNITYSDK_OFFSET(0x146A2EE0)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_CLMBAGNMBEK_OFFSET UNITYSDK_OFFSET(0x146A21E0)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_DJCNIJGGKDI_OFFSET UNITYSDK_OFFSET(0x146A4010)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_FGDHEIJNPFF_OFFSET UNITYSDK_OFFSET(0x146A2010)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_HDJAOMKJAIC_1_OFFSET UNITYSDK_OFFSET(0x146A3F40)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_HDJAOMKJAIC_OFFSET UNITYSDK_OFFSET(0x146A3EE0)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_HECGPAAPNBO_OFFSET UNITYSDK_OFFSET(0x146A1F00)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_ICGHIJHGGHE_OFFSET UNITYSDK_OFFSET(0x146A17B0)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_IDKDIHEBKEJ_OFFSET UNITYSDK_OFFSET(0x146A2C70)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_IGNJOGIKNLP_OFFSET UNITYSDK_OFFSET(0x146A0DC0)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_INHHBCOAMOA_OFFSET UNITYSDK_OFFSET(0x146A3D40)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_IOCMEGENEED_OFFSET UNITYSDK_OFFSET(0x146A3C80)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_JGDBMDAJMNC_OFFSET UNITYSDK_OFFSET(0x1469FBF0)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_KDIGIGKCPMI_OFFSET UNITYSDK_OFFSET(0x146A2A40)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_LCGJKKJIJEJ_OFFSET UNITYSDK_OFFSET(0x1469FF30)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_MCBOCKAGKHH_OFFSET UNITYSDK_OFFSET(0x146A1580)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_MLENBIADKCD_OFFSET UNITYSDK_OFFSET(0x146A2F70)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_MPPMAKOBDIO_OFFSET UNITYSDK_OFFSET(0x146A2110)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_OBNKBAGFDJN_OFFSET UNITYSDK_OFFSET(0x146A0700)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x146A0650)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_ONSUBMITPOLYGON_OFFSET UNITYSDK_OFFSET(0x1469F7C0)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_PENAABAABML_OFFSET UNITYSDK_OFFSET(0x146A29D0)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_PFJCKCKKNPG_OFFSET UNITYSDK_OFFSET(0x146A1CB0)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_PKNJCOICMBG_OFFSET UNITYSDK_OFFSET(0x146A3570)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_POBMNPCECJO_OFFSET UNITYSDK_OFFSET(0x146A0920)
+#define MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x146A06A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NapLevel_MiasmaSprayerMeshGenerator_TypeDefinitionIndex = 62478;
+	inline static constexpr unsigned int NapLevel_MiasmaSprayerMeshGenerator_TypeDefinitionIndex = 70041;
 
 	class NapLevel_MiasmaSprayerMeshGenerator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single Field_5_3; // 0x0
-		// static const ::System::Int32 Field_5_2 = 0x20; // 0x0
+		// static const ::System::Single PHGIFJBOGPB; // 0x0
+		// static const ::System::Int32 NPAPDLIJLDH = 0x20; // 0x0
 		::UnityEngine::MeshRenderer* m_TargetMeshRenderer; // 0x18
 		::UnityEngine::MeshFilter* m_TargetMeshFilter; // 0x20
-		::Enum_3_C0F166E610126827 _uvMode; // 0x28
+		::LGLPGGLOHDO _uvMode; // 0x28
 		::System::Single _planarTilingSize; // 0x2C
 		::System::Boolean _enableEdgeTransition; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::Single _edgeTransitionDistance; // 0x34
-		::UnityEngine::Mesh* Field_5_11; // 0x38
-		::UnityEngine::Material* Field_5_10; // 0x40
+		::System::Single _heightOffset; // 0x38
+		::System::Byte _padding1[0x4];
+		::UnityEngine::Mesh* BFDOGKGJIAP; // 0x40
+		::UnityEngine::Material* OIJKKAAIBAJ; // 0x48
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void OnSubmitPolygon(::System::String* a1, ::System::Collections::Generic::List_1<::MoleMole::Config::RuntimePolygonBound>* a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a3)
+		::System::Void OnSubmitPolygon(::System::String* PLAAMNBJHFN, ::System::Collections::Generic::List_1<::MoleMole::Config::RuntimePolygonBound>* JLKFFJEIMAP, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* HPMOIAMHPLC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::RuntimePolygonBound>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_ONSUBMITPOLYGON_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::MoleMole::Config::RuntimePolygonBound>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_ONSUBMITPOLYGON_OFFSET))(this, PLAAMNBJHFN, JLKFFJEIMAP, HPMOIAMHPLC);
 		}
 
 		::System::Void OnDestroy()
@@ -78,134 +81,134 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9C600FE2756E336D(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a3)
+		static ::System::Void OBNKBAGFDJN(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* FBBKCBCPNDM, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* GAJHHPOMOBF, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CHPCHCGAFIN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_9C600FE2756E336D_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_OBNKBAGFDJN_OFFSET))(FBBKCBCPNDM, GAJHHPOMOBF, CHPCHCGAFIN);
 		}
 
-		::UnityEngine::Mesh* Method_5_53742E90BB500E06(::System::Collections::Generic::List_1<::MoleMole::Config::RuntimePolygonBound>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a2)
+		::System::Void POBMNPCECJO(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CELGKCKLPJC, ::UnityEngine::Vector3 EIIDOADGOIF, ::UnityEngine::Quaternion BFBELMDIAHI, ::UnityEngine::Vector3 AAFIKENFLAL, ::System::Single KGHNBNOMMJI, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* DDCMDFBCOCJ, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* AGLPILADKGJ, ::System::Collections::Generic::List_1<::UnityEngine::Color>* COEABFOGOBI)
 		{
-			return ((::UnityEngine::Mesh*(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::Config::RuntimePolygonBound>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_53742E90BB500E06_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::System::Single, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_POBMNPCECJO_OFFSET))(this, CELGKCKLPJC, EIIDOADGOIF, BFBELMDIAHI, AAFIKENFLAL, KGHNBNOMMJI, DDCMDFBCOCJ, AGLPILADKGJ, COEABFOGOBI);
 		}
 
-		::System::Void Method_5_FD086027167FCB75(::MoleMole::Config::RuntimePolygonBound a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a2, ::System::Collections::Generic::List_1<::System::Int32>* a3, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a4, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a5, ::System::Collections::Generic::List_1<::UnityEngine::Color>* a6)
+		::System::Void JGDBMDAJMNC()
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::RuntimePolygonBound, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_FD086027167FCB75_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_JGDBMDAJMNC_OFFSET))(this);
 		}
 
-		static ::System::Boolean Method_5_880DFF29BF355A17(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4, ::UnityEngine::Vector2& a5)
+		static ::System::Boolean IGNJOGIKNLP(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CELGKCKLPJC, ::System::Single BDEDDEGJFKL, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& JFMLEBOIEIC)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_880DFF29BF355A17_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Single, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_IGNJOGIKNLP_OFFSET))(CELGKCKLPJC, BDEDDEGJFKL, JFMLEBOIEIC);
 		}
 
-		static ::System::Boolean Method_5_51BFB3E94FB1CB71(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1)
+		static ::System::Single HECGPAAPNBO(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CELGKCKLPJC)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_51BFB3E94FB1CB71_OFFSET))(a1);
+			return ((::System::Single(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_HECGPAAPNBO_OFFSET))(CELGKCKLPJC);
 		}
 
-		static ::System::Boolean Method_5_A29FB25C27BCF355(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1, ::System::Single a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& a3)
+		::System::Void FGDHEIJNPFF(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CELGKCKLPJC, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CHPCHCGAFIN)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Single, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_A29FB25C27BCF355_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_FGDHEIJNPFF_OFFSET))(this, CELGKCKLPJC, CHPCHCGAFIN);
 		}
 
-		static ::System::Void Method_5_04AF73A09EA893EA(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a3)
+		static ::System::Boolean MPPMAKOBDIO(::UnityEngine::Vector2 JNDDJMAHNAI, ::UnityEngine::Vector2 EJCBEJMGFAJ, ::UnityEngine::Vector2 EBFCACIEKBC)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_04AF73A09EA893EA_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_MPPMAKOBDIO_OFFSET))(JNDDJMAHNAI, EJCBEJMGFAJ, EBFCACIEKBC);
 		}
 
-		static ::System::Single Method_5_D729EA2F7EBAA848(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1)
+		static ::System::Boolean CLMBAGNMBEK(::UnityEngine::Vector2 OJEAHHBCAAN, ::UnityEngine::Vector2 EEBGKAHLFNO, ::UnityEngine::Vector2 JJGPBPEDLNO, ::UnityEngine::Vector2 IJFHKDLHBMH)
 		{
-			return ((::System::Single(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_D729EA2F7EBAA848_OFFSET))(a1);
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_CLMBAGNMBEK_OFFSET))(OJEAHHBCAAN, EEBGKAHLFNO, JJGPBPEDLNO, IJFHKDLHBMH);
 		}
 
-		static ::System::Boolean Method_5_A93A77624721F809(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1)
+		static ::System::Void KDIGIGKCPMI(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* FBBKCBCPNDM, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* GAJHHPOMOBF, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CHPCHCGAFIN)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_A93A77624721F809_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_KDIGIGKCPMI_OFFSET))(FBBKCBCPNDM, GAJHHPOMOBF, CHPCHCGAFIN);
 		}
 
-		static ::System::Void Method_5_BBC77FCCD600FB29(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a2)
+		static ::System::Boolean ICGHIJHGGHE(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CELGKCKLPJC)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_BBC77FCCD600FB29_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_ICGHIJHGGHE_OFFSET))(CELGKCKLPJC);
 		}
 
-		static ::System::Boolean Method_5_6E3E9A6DC759FB76(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1, ::System::Single a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& a3)
+		::System::Void APNGLCBFEOC(::MoleMole::Config::RuntimePolygonBound PLKKOIKIMMA, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* DDCMDFBCOCJ, ::System::Collections::Generic::List_1<::System::Int32>* JOLIICIAMBF, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CHPCHCGAFIN, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* AGLPILADKGJ, ::System::Collections::Generic::List_1<::UnityEngine::Color>* COEABFOGOBI)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Single, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_6E3E9A6DC759FB76_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::RuntimePolygonBound, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_APNGLCBFEOC_OFFSET))(this, PLKKOIKIMMA, DDCMDFBCOCJ, JOLIICIAMBF, CHPCHCGAFIN, AGLPILADKGJ, COEABFOGOBI);
 		}
 
-		static ::System::Single Method_5_89E89349E1D44E81(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1)
+		static ::System::Boolean MCBOCKAGKHH(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CELGKCKLPJC)
 		{
-			return ((::System::Single(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_89E89349E1D44E81_OFFSET))(a1);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_MCBOCKAGKHH_OFFSET))(CELGKCKLPJC);
 		}
 
-		static ::System::Single Method_5_BC3D63492246CA32(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
+		static ::System::Void IOCMEGENEED(::System::Collections::Generic::List_1<::System::Int32>* JOLIICIAMBF, ::System::Int32 EJCBEJMGFAJ, ::System::Int32 EBFCACIEKBC, ::System::Int32 CBLGCIFLMKL, ::System::Boolean IKIAINGDFMJ)
 		{
-			return ((::System::Single(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_BC3D63492246CA32_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_IOCMEGENEED_OFFSET))(JOLIICIAMBF, EJCBEJMGFAJ, EBFCACIEKBC, CBLGCIFLMKL, IKIAINGDFMJ);
 		}
 
-		::System::Void Method_5_B953F5B762A2C3B6(::MoleMole::Config::RuntimePolygonBound a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a3, ::System::Collections::Generic::List_1<::System::Int32>* a4, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a5, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a6, ::System::Collections::Generic::List_1<::UnityEngine::Color>* a7)
+		static ::System::Boolean PFJCKCKKNPG(::UnityEngine::Vector2 OPMPKFEHOBM, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* ICCPGFIBMBD, ::System::Boolean IKIAINGDFMJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::RuntimePolygonBound, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_B953F5B762A2C3B6_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_PFJCKCKKNPG_OFFSET))(OPMPKFEHOBM, ICCPGFIBMBD, IKIAINGDFMJ);
 		}
 
-		::System::Void Method_5_168CB7D727816462(::MoleMole::Config::RuntimePolygonBound a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a2, ::System::Collections::Generic::List_1<::System::Int32>* a3, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a4, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a5, ::System::Collections::Generic::List_1<::UnityEngine::Color>* a6)
+		static ::System::Boolean CLLFMPAPEME(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CELGKCKLPJC, ::System::Single BDEDDEGJFKL, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& JFMLEBOIEIC)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::RuntimePolygonBound, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_168CB7D727816462_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Single, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_CLLFMPAPEME_OFFSET))(CELGKCKLPJC, BDEDDEGJFKL, JFMLEBOIEIC);
 		}
 
-		::System::Void Method_5_99053D1AE5A59190()
+		::System::Void HDJAOMKJAIC(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CELGKCKLPJC, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CHPCHCGAFIN)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_99053D1AE5A59190_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_HDJAOMKJAIC_OFFSET))(this, CELGKCKLPJC, CHPCHCGAFIN);
 		}
 
-		static ::System::Void Method_5_55F181A4B49BC3F3(::System::Collections::Generic::List_1<::System::Int32>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5)
+		static ::System::Boolean AJNEBCAFACH(::UnityEngine::Vector2 FEEFJKNGPAD, ::UnityEngine::Vector2 EJKCCEHMDDO, ::UnityEngine::Vector2 BAFOIFLFFPH, ::UnityEngine::Vector2 HHNBDNMLOCD, ::UnityEngine::Vector2& GPPDFABNGMG)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_55F181A4B49BC3F3_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_AJNEBCAFACH_OFFSET))(FEEFJKNGPAD, EJKCCEHMDDO, BAFOIFLFFPH, HHNBDNMLOCD, GPPDFABNGMG);
 		}
 
-		static ::System::Boolean Method_5_57E4BA37E771C492(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
+		static ::System::Single PENAABAABML(::UnityEngine::Vector2 EJCBEJMGFAJ, ::UnityEngine::Vector2 EBFCACIEKBC)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_57E4BA37E771C492_OFFSET))(a1, a2, a3);
+			return ((::System::Single(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_PENAABAABML_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
 
-		::System::Void Method_5_8ADCE9C57A07A406(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a2)
+		static ::System::Void DJCNIJGGKDI(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CELGKCKLPJC, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CHPCHCGAFIN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_8ADCE9C57A07A406_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_DJCNIJGGKDI_OFFSET))(CELGKCKLPJC, CHPCHCGAFIN);
 		}
 
-		static ::System::Boolean Method_5_6F41D10A334C4DA0(::UnityEngine::Vector2 a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a2, ::System::Boolean a3)
+		static ::System::Single ADNFCFDCMDF(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* KPBGFGOPMJJ)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_6F41D10A334C4DA0_OFFSET))(a1, a2, a3);
+			return ((::System::Single(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_ADNFCFDCMDF_OFFSET))(KPBGFGOPMJJ);
 		}
 
-		static ::System::Boolean Method_5_4D180EE6CCAF9213(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3)
+		static ::System::Boolean IDKDIHEBKEJ(::System::Int32 EJCBEJMGFAJ, ::System::Int32 EBFCACIEKBC, ::System::Int32 JHFKDGBCOBA)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_4D180EE6CCAF9213_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_IDKDIHEBKEJ_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC, JHFKDGBCOBA);
 		}
 
-		static ::System::Boolean Method_5_D1772482A593E38D(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4)
+		::UnityEngine::Mesh* LCGJKKJIJEJ(::System::Collections::Generic::List_1<::MoleMole::Config::RuntimePolygonBound>* GFCPEGNMKFC, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* HPMOIAMHPLC)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_D1772482A593E38D_OFFSET))(a1, a2, a3, a4);
+			return ((::UnityEngine::Mesh*(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::Config::RuntimePolygonBound>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_LCGJKKJIJEJ_OFFSET))(this, GFCPEGNMKFC, HPMOIAMHPLC);
 		}
 
-		static ::System::Boolean Method_5_C4C0E1999F96C1F5(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1, ::System::Single a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& a3)
+		::System::Void HDJAOMKJAIC_1(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* FBBKCBCPNDM, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* GAJHHPOMOBF, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CHPCHCGAFIN)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Single, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_C4C0E1999F96C1F5_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_HDJAOMKJAIC_1_OFFSET))(this, FBBKCBCPNDM, GAJHHPOMOBF, CHPCHCGAFIN);
 		}
 
-		static ::System::Void Method_5_8068DF89AAA80F54(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a3)
+		::System::Void PKNJCOICMBG(::MoleMole::Config::RuntimePolygonBound PLKKOIKIMMA, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* DDCMDFBCOCJ, ::System::Collections::Generic::List_1<::System::Int32>* JOLIICIAMBF, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CHPCHCGAFIN, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* AGLPILADKGJ, ::System::Collections::Generic::List_1<::UnityEngine::Color>* COEABFOGOBI)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_8068DF89AAA80F54_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::RuntimePolygonBound, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_PKNJCOICMBG_OFFSET))(this, PLKKOIKIMMA, DDCMDFBCOCJ, JOLIICIAMBF, CHPCHCGAFIN, AGLPILADKGJ, COEABFOGOBI);
 		}
 
-		::System::Void Method_5_5FADA780F71C971E(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a2)
+		::System::Void MLENBIADKCD(::MoleMole::Config::RuntimePolygonBound PLKKOIKIMMA, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* JFMLEBOIEIC, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* DDCMDFBCOCJ, ::System::Collections::Generic::List_1<::System::Int32>* JOLIICIAMBF, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CHPCHCGAFIN, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* AGLPILADKGJ, ::System::Collections::Generic::List_1<::UnityEngine::Color>* COEABFOGOBI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_5FADA780F71C971E_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::RuntimePolygonBound, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_MLENBIADKCD_OFFSET))(this, PLKKOIKIMMA, JFMLEBOIEIC, DDCMDFBCOCJ, JOLIICIAMBF, CHPCHCGAFIN, AGLPILADKGJ, COEABFOGOBI);
 		}
 
-		::System::Void Method_5_6C4917BFE459750B(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::UnityEngine::Vector3 a4, ::System::Single a5, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a6, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* a7, ::System::Collections::Generic::List_1<::UnityEngine::Color>* a8)
+		static ::System::Boolean INHHBCOAMOA(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* CELGKCKLPJC, ::System::Single BDEDDEGJFKL, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& JFMLEBOIEIC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::System::Single, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_METHOD_5_6C4917BFE459750B_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Single, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_NAPLEVEL_MIASMASPRAYERMESHGENERATOR_INHHBCOAMOA_OFFSET))(CELGKCKLPJC, BDEDDEGJFKL, JFMLEBOIEIC);
 		}
 	};
 }

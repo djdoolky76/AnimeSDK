@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Rendering/ShadowSplitData.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PunctualLightShadowCasterPass_ShadowAtlasStaticUpdateRequest_TypeDefinitionIndex = 5815;
+	inline static constexpr unsigned int PunctualLightShadowCasterPass_ShadowAtlasStaticUpdateRequest_TypeDefinitionIndex = 5821;
 
 	struct alignas(4) PunctualLightShadowCasterPass_ShadowAtlasStaticUpdateRequest
 	{

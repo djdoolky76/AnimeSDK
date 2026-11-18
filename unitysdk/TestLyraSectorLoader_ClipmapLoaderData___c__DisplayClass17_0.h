@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/AssetRequestHandle.h"
 
 class TestLyraSectorLoader_PackedAssetRequestInfo;
 namespace UnityEngine { class Object; }
 
-#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FD2D0)
-#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA___C__DISPLAYCLASS17_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1D2FD2E0)
+#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4451A0)
+#define TESTLYRASECTORLOADER_CLIPMAPLOADERDATA___C__DISPLAYCLASS17_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1D4451B0)
 
-inline static constexpr unsigned int TestLyraSectorLoader_ClipmapLoaderData___c__DisplayClass17_0_TypeDefinitionIndex = 27867;
+inline static constexpr unsigned int TestLyraSectorLoader_ClipmapLoaderData___c__DisplayClass17_0_TypeDefinitionIndex = 27099;
 
 class TestLyraSectorLoader_ClipmapLoaderData___c__DisplayClass17_0 : public ::System::Object
 {

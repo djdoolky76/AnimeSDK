@@ -3,18 +3,21 @@
 #include "unitysdk/Foundation/FixedArray1_1.h"
 #include "unitysdk/Foundation/NativeMemoryRequest.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/NativeTempMemory1.h"
+#include "unitysdk/Foundation/NativeTempMemoryBuilder2.h"
 
-#define FOUNDATION_NATIVETEMPMEMORYBUILDER1_BUILD_OFFSET UNITYSDK_OFFSET(0x9DA070)
-#define FOUNDATION_NATIVETEMPMEMORYBUILDER1_REQUESTINTERNAL_OFFSET UNITYSDK_OFFSET(0x9DA220)
-#define FOUNDATION_NATIVETEMPMEMORYBUILDER1__CTOR_OFFSET UNITYSDK_OFFSET(0x9DA010)
+#define FOUNDATION_NATIVETEMPMEMORYBUILDER1_BUILD_OFFSET UNITYSDK_OFFSET(0x8E8B20)
+#define FOUNDATION_NATIVETEMPMEMORYBUILDER1_REQUESTINTERNAL_OFFSET UNITYSDK_OFFSET(0x8E8CD0)
+#define FOUNDATION_NATIVETEMPMEMORYBUILDER1__CTOR_OFFSET UNITYSDK_OFFSET(0x8E8AC0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeTempMemoryBuilder1_TypeDefinitionIndex = 8814;
+	inline static constexpr unsigned int NativeTempMemoryBuilder1_TypeDefinitionIndex = 8750;
 
 	struct alignas(8) NativeTempMemoryBuilder1
 	{
 		::System::Int32 _alignment; // 0x10
+		::System::Byte _padding0[0x4];
 		::Foundation::FixedArray1_1<::Foundation::NativeMemoryRequest> _requests; // 0x18
 
 		::System::Void _ctor(::System::Int32 alignment, ::Foundation::NativeMemoryRequest request)
@@ -22,18 +25,14 @@ namespace Foundation
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Foundation::NativeMemoryRequest))((::PBYTE)hIl2Cpp + FOUNDATION_NATIVETEMPMEMORYBUILDER1__CTOR_OFFSET))(this, alignment, request);
 		}
 
-		/*
 		::Foundation::NativeTempMemory1 Build()
 		{
 			return ((::Foundation::NativeTempMemory1(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_NATIVETEMPMEMORYBUILDER1_BUILD_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::Foundation::NativeTempMemoryBuilder2 RequestInternal(::Foundation::NativeMemoryRequest& request)
 		{
 			return ((::Foundation::NativeTempMemoryBuilder2(*)(::PVOID, ::Foundation::NativeMemoryRequest&))((::PBYTE)hIl2Cpp + FOUNDATION_NATIVETEMPMEMORYBUILDER1_REQUESTINTERNAL_OFFSET))(this, request);
 		}
-		*/
 	};
 }

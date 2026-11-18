@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class EKILHKMHNGH;
+class GLFCLDDCFCP;
+namespace System { class Action; }
+
+#define ODGJPBGHLAJ_HELLBFDBJPH_GBHALEOBMKL_OFFSET UNITYSDK_OFFSET(0x16BFD260)
+#define ODGJPBGHLAJ_HELLBFDBJPH_JEJCPJFNPJA_OFFSET UNITYSDK_OFFSET(0x16BFD270)
+#define ODGJPBGHLAJ_HELLBFDBJPH_MDHIJNFNPOO_OFFSET UNITYSDK_OFFSET(0x16BFD110)
+#define ODGJPBGHLAJ_HELLBFDBJPH_MMHNNPALPNO_OFFSET UNITYSDK_OFFSET(0x16BFD100)
+#define ODGJPBGHLAJ_HELLBFDBJPH__CTOR_OFFSET UNITYSDK_OFFSET(0x16BFD0F0)
+
+inline static constexpr unsigned int ODGJPBGHLAJ_HELLBFDBJPH_TypeDefinitionIndex = 83793;
+
+class ODGJPBGHLAJ_HELLBFDBJPH : public ::System::Object
+{
+public:
+	::System::Action* EJGDHCIBCJH; // 0x10
+	::System::Int32 NIAACBGPDDA; // 0x18
+	::System::Int32 JHFKDGBCOBA; // 0x1C
+	::System::UInt32 CGNEDPLGLFD; // 0x20
+	::System::UInt32 IJGLMKFOGGH; // 0x24
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODGJPBGHLAJ_HELLBFDBJPH__CTOR_OFFSET))(this);
+	}
+
+	::System::Void MMHNNPALPNO(::GLFCLDDCFCP* DJCNCELJPOM)
+	{
+		return ((::System::Void(*)(::PVOID, ::GLFCLDDCFCP*))((::PBYTE)hIl2Cpp + ODGJPBGHLAJ_HELLBFDBJPH_MMHNNPALPNO_OFFSET))(this, DJCNCELJPOM);
+	}
+
+	::System::Void GBHALEOBMKL(::GLFCLDDCFCP* DJCNCELJPOM)
+	{
+		return ((::System::Void(*)(::PVOID, ::GLFCLDDCFCP*))((::PBYTE)hIl2Cpp + ODGJPBGHLAJ_HELLBFDBJPH_GBHALEOBMKL_OFFSET))(this, DJCNCELJPOM);
+	}
+
+	::System::Void MDHIJNFNPOO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODGJPBGHLAJ_HELLBFDBJPH_MDHIJNFNPOO_OFFSET))(this);
+	}
+
+	::System::Void JEJCPJFNPJA(::EKILHKMHNGH* DJCNCELJPOM)
+	{
+		return ((::System::Void(*)(::PVOID, ::EKILHKMHNGH*))((::PBYTE)hIl2Cpp + ODGJPBGHLAJ_HELLBFDBJPH_JEJCPJFNPJA_OFFSET))(this, DJCNCELJPOM);
+	}
+};

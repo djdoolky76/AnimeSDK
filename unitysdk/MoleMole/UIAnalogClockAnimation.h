@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/UIAnalogClockAnimation_Enum_3_69F5F23936D95363.h"
+#include "unitysdk/MoleMole/UIAnalogClockAnimation_HBCHOFIONGP.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIANALOGCLOCKANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x192870E0)
-#define MOLEMOLE_UIANALOGCLOCKANIMATION_METHOD_5_C137A300E46D5C0F_OFFSET UNITYSDK_OFFSET(0x192872B0)
-#define MOLEMOLE_UIANALOGCLOCKANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19287580)
+#define MOLEMOLE_UIANALOGCLOCKANIMATION_KJICDJGJHFJ_OFFSET UNITYSDK_OFFSET(0x14C028B0)
+#define MOLEMOLE_UIANALOGCLOCKANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x14C026E0)
+#define MOLEMOLE_UIANALOGCLOCKANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x14C02B80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAnalogClockAnimation_TypeDefinitionIndex = 84250;
+	inline static constexpr unsigned int UIAnalogClockAnimation_TypeDefinitionIndex = 82585;
 
 	class UIAnalogClockAnimation : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,7 +23,7 @@ namespace MoleMole
 		::UnityEngine::Quaternion RotationAt12; // 0x30
 		::UnityEngine::Quaternion RotationAt4; // 0x40
 		::UnityEngine::Quaternion RotationAt8; // 0x50
-		::MoleMole::UIAnalogClockAnimation_Enum_3_69F5F23936D95363 TimeSource; // 0x60
+		::MoleMole::UIAnalogClockAnimation_HBCHOFIONGP TimeSource; // 0x60
 		::System::Single TickInterval; // 0x64
 
 		::System::Void _ctor()
@@ -36,9 +36,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIANALOGCLOCKANIMATION_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_C137A300E46D5C0F(::UnityEngine::Transform* a1, ::System::Single a2)
+		::System::Void KJICDJGJHFJ(::UnityEngine::Transform* IAONGDJHJOG, ::System::Single EJAOAGGJHHA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIANALOGCLOCKANIMATION_METHOD_5_C137A300E46D5C0F_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIANALOGCLOCKANIMATION_KJICDJGJHFJ_OFFSET))(this, IAONGDJHJOG, EJAOAGGJHHA);
 		}
 	};
 }

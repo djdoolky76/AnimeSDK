@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BABHLKDOAKH.h"
+#include "unitysdk/PAHKIAODNCA.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/KKKJEHEGBEI.h"
+#include "unitysdk/MAFLFGHKKGE.h"
+
+class HCDLPKAAPDN;
+class KBDGKAJPALP;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define POPCMBHIDAH_JDEOBOCICKB_COKCIHIALJP_OFFSET UNITYSDK_OFFSET(0x1D6BA770)
+#define POPCMBHIDAH_JDEOBOCICKB_DBPFNEFMKHH_OFFSET UNITYSDK_OFFSET(0x1D6BA640)
+#define POPCMBHIDAH_JDEOBOCICKB_JILDDLMKFMI_OFFSET UNITYSDK_OFFSET(0x1D6BA5E0)
+#define POPCMBHIDAH_JDEOBOCICKB_NHONMFAPFIA_OFFSET UNITYSDK_OFFSET(0x1D6BA4C0)
+#define POPCMBHIDAH_JDEOBOCICKB__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BA4B0)
+
+inline static constexpr unsigned int POPCMBHIDAH_JDEOBOCICKB_TypeDefinitionIndex = 93885;
+
+class POPCMBHIDAH_JDEOBOCICKB : public ::System::Object
+{
+public:
+	::System::Collections::Generic::List_1<::System::Int32>* JDCEJJOLKMC; // 0x10
+	::Il2CppArray<::BABHLKDOAKH>* PPDBEALANGE; // 0x18
+	::KBDGKAJPALP* GEEHGDABNJF; // 0x20
+	::PAHKIAODNCA NCMGNDHNBKJ; // 0x28
+	::System::Int32 KAMJLKGLFDB; // 0x2C
+	::System::Int32 LPIFLOABACF; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + POPCMBHIDAH_JDEOBOCICKB__CTOR_OFFSET))(this);
+	}
+
+	::HCDLPKAAPDN* NHONMFAPFIA()
+	{
+		return ((::HCDLPKAAPDN*(*)(::PVOID))((::PBYTE)hIl2Cpp + POPCMBHIDAH_JDEOBOCICKB_NHONMFAPFIA_OFFSET))(this);
+	}
+
+	::System::Void JILDDLMKFMI(::MAFLFGHKKGE IGAAKDOIPNN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MAFLFGHKKGE))((::PBYTE)hIl2Cpp + POPCMBHIDAH_JDEOBOCICKB_JILDDLMKFMI_OFFSET))(this, IGAAKDOIPNN);
+	}
+
+	::HCDLPKAAPDN* DBPFNEFMKHH()
+	{
+		return ((::HCDLPKAAPDN*(*)(::PVOID))((::PBYTE)hIl2Cpp + POPCMBHIDAH_JDEOBOCICKB_DBPFNEFMKHH_OFFSET))(this);
+	}
+
+	::System::Void COKCIHIALJP(::KKKJEHEGBEI IGAAKDOIPNN)
+	{
+		return ((::System::Void(*)(::PVOID, ::KKKJEHEGBEI))((::PBYTE)hIl2Cpp + POPCMBHIDAH_JDEOBOCICKB_COKCIHIALJP_OFFSET))(this, IGAAKDOIPNN);
+	}
+};

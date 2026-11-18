@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelNPCNameWidgetController__AnimRunState_TypeDefinitionIndex = 82014;
+	inline static constexpr unsigned int UIInLevelNPCNameWidgetController__AnimRunState_TypeDefinitionIndex = 58324;
 
 	struct alignas(8) UIInLevelNPCNameWidgetController__AnimRunState
 	{

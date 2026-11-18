@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_MEDIA_SYSTEMSOUND_PLAY_OFFSET UNITYSDK_OFFSET(0x1E977F70)
-#define SYSTEM_MEDIA_SYSTEMSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1E977F30)
+#define SYSTEM_MEDIA_SYSTEMSOUND_PLAY_OFFSET UNITYSDK_OFFSET(0x1EC4FCF0)
+#define SYSTEM_MEDIA_SYSTEMSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4FCB0)
 
 namespace System::Media
 {
-	inline static constexpr unsigned int SystemSound_TypeDefinitionIndex = 4150;
+	inline static constexpr unsigned int SystemSound_TypeDefinitionIndex = 4149;
 
 	class SystemSound : public ::System::Object
 	{

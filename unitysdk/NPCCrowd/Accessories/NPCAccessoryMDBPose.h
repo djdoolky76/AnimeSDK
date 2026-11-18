@@ -3,16 +3,17 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYMDBPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0xE55A270)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYMDBPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x10694EA0)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryMDBPose_TypeDefinitionIndex = 60986;
+	inline static constexpr unsigned int NPCAccessoryMDBPose_TypeDefinitionIndex = 52269;
 
 	class NPCAccessoryMDBPose : public ::System::Object
 	{
 	public:
 		::System::Int32 id; // 0x10
+		::System::Byte _padding0[0x4];
 		::Foundation::AssetPath clipAssetPath; // 0x18
 
 		::System::Void _ctor()

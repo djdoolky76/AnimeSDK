@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdConditionBase.h"
+#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
@@ -11,15 +11,15 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PLAYERAVATARDISTANCECONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x1127B380)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PLAYERAVATARDISTANCECONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1127B4A0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PLAYERAVATARDISTANCECONDITION_LINK_OFFSET UNITYSDK_OFFSET(0x1127B430)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PLAYERAVATARDISTANCECONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1127B500)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_PLAYERAVATARDISTANCECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1127B570)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PLAYERAVATARDISTANCECONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x11F9B390)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PLAYERAVATARDISTANCECONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x11F9B4B0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PLAYERAVATARDISTANCECONDITION_LINK_OFFSET UNITYSDK_OFFSET(0x11F9B440)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PLAYERAVATARDISTANCECONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x11F9B510)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_PLAYERAVATARDISTANCECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x11F9B580)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_PlayerAvatarDistanceCondition_TypeDefinitionIndex = 68896;
+	inline static constexpr unsigned int VirtualProxy_PlayerAvatarDistanceCondition_TypeDefinitionIndex = 58436;
 
 	class VirtualProxy_PlayerAvatarDistanceCondition : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdConditionBase
 	{

@@ -2,15 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class Array; }
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections { class IList; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int CollectionWrapper_1_TypeDefinitionIndex = 7041;
+	inline static constexpr unsigned int CollectionWrapper_1_TypeDefinitionIndex = 7048;
 
 	template <typename T>
 	class CollectionWrapper_1 : public ::System::Object

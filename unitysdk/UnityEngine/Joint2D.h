@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Rigidbody2D; }
 
-#define UNITYENGINE_JOINT2D_GET_CONNECTEDBODY_OFFSET UNITYSDK_OFFSET(0x1F3C1AF0)
-#define UNITYENGINE_JOINT2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3BE230)
+#define UNITYENGINE_JOINT2D_GET_CONNECTEDBODY_OFFSET UNITYSDK_OFFSET(0x1F7CB790)
+#define UNITYENGINE_JOINT2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7C7ED0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Joint2D_TypeDefinitionIndex = 18800;
+	inline static constexpr unsigned int Joint2D_TypeDefinitionIndex = 17951;
 
 	class Joint2D : public ::UnityEngine::Behaviour
 	{

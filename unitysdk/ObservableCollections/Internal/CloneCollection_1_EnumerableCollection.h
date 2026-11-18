@@ -2,12 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
-
 namespace ObservableCollections::Internal
 {
-	inline static constexpr unsigned int CloneCollection_1_EnumerableCollection_TypeDefinitionIndex = 28652;
+	inline static constexpr unsigned int CloneCollection_1_EnumerableCollection_TypeDefinitionIndex = 28220;
 
 	template <typename T>
 	class CloneCollection_1_EnumerableCollection : public ::System::Object

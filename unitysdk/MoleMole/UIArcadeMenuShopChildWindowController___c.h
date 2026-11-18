@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_47EB23CB5C4B2615_3;
+class CDPHJIKAJEM;
 namespace System { class Action; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E2AA60)
-#define MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18E2AAA0)
-#define MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__ONSELECTBTNCLICKED_B__22_1_OFFSET UNITYSDK_OFFSET(0x18E2AC40)
-#define MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__REFRESHVIEW_B__18_0_OFFSET UNITYSDK_OFFSET(0x18E2AAB0)
+#define MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A13BBE0)
+#define MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A13BC20)
+#define MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__ONSELECTBTNCLICKED_B__22_1_OFFSET UNITYSDK_OFFSET(0x1A13BDC0)
+#define MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__REFRESHVIEW_B__18_0_OFFSET UNITYSDK_OFFSET(0x1A13BC30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadeMenuShopChildWindowController___c_TypeDefinitionIndex = 83486;
+	inline static constexpr unsigned int UIArcadeMenuShopChildWindowController___c_TypeDefinitionIndex = 40187;
 
 	class UIArcadeMenuShopChildWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_47EB23CB5C4B2615_3*>** StaticGet___9__18_0()
-		{
-			return (::System::Comparison_1<::Class_1_47EB23CB5C4B2615_3*>**)Il2CppClass::FromTypeDefinitionIndex(UIArcadeMenuShopChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CDB0);
-		}
 		static ::System::Action** StaticGet___9__22_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIArcadeMenuShopChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CDB8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIArcadeMenuShopChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3EC90);
 		}
-		static ::MoleMole::UIArcadeMenuShopChildWindowController___c** StaticGet___9()
+		static ::System::Comparison_1<::CDPHJIKAJEM*>** StaticGet___9__18_0()
 		{
-			return (::MoleMole::UIArcadeMenuShopChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIArcadeMenuShopChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CDC0);
+			return (::System::Comparison_1<::CDPHJIKAJEM*>**)Il2CppClass::FromTypeDefinitionIndex(UIArcadeMenuShopChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3EC98);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIArcadeMenuShopChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3ECA0);
 		}
 
 		static ::System::Void _cctor()
@@ -41,9 +41,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _RefreshView_b__18_0(::Class_1_47EB23CB5C4B2615_3* a, ::Class_1_47EB23CB5C4B2615_3* b)
+		::System::Int32 _RefreshView_b__18_0(::CDPHJIKAJEM* a, ::CDPHJIKAJEM* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_47EB23CB5C4B2615_3*, ::Class_1_47EB23CB5C4B2615_3*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__REFRESHVIEW_B__18_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::CDPHJIKAJEM*, ::CDPHJIKAJEM*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIARCADEMENUSHOPCHILDWINDOWCONTROLLER___C__REFRESHVIEW_B__18_0_OFFSET))(this, a, b);
 		}
 
 		::System::Void _OnSelectBtnClicked_b__22_1()

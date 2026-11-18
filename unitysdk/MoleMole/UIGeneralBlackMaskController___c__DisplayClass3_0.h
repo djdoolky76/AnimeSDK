@@ -5,12 +5,12 @@
 namespace MoleMole { class UIGeneralBlackMaskContext; }
 namespace MoleMole { class UIGeneralBlackMaskController; }
 
-#define MOLEMOLE_UIGENERALBLACKMASKCONTROLLER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EE59C0)
-#define MOLEMOLE_UIGENERALBLACKMASKCONTROLLER___C__DISPLAYCLASS3_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x19EE59D0)
+#define MOLEMOLE_UIGENERALBLACKMASKCONTROLLER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D6A80)
+#define MOLEMOLE_UIGENERALBLACKMASKCONTROLLER___C__DISPLAYCLASS3_0__ONUIOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x1A3D6A90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralBlackMaskController___c__DisplayClass3_0_TypeDefinitionIndex = 44873;
+	inline static constexpr unsigned int UIGeneralBlackMaskController___c__DisplayClass3_0_TypeDefinitionIndex = 81784;
 
 	class UIGeneralBlackMaskController___c__DisplayClass3_0 : public ::System::Object
 	{

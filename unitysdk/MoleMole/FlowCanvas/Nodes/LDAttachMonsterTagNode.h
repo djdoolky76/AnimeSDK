@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_3.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDATTACHMONSTERTAGNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B52CD30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDATTACHMONSTERTAGNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52CE80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDATTACHMONSTERTAGNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x142F7900)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDATTACHMONSTERTAGNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x142F7A50)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDAttachMonsterTagNode_TypeDefinitionIndex = 42222;
+	inline static constexpr unsigned int LDAttachMonsterTagNode_TypeDefinitionIndex = 45608;
 
-	class LDAttachMonsterTagNode : public ::FlowCanvas::Nodes::CallableActionNode_3<::MoleMole::Battle::Entity*, ::System::String*, ::System::String*>
+	class LDAttachMonsterTagNode
 	{
 	public:
 		::System::Void _ctor()

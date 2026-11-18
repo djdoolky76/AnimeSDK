@@ -7,18 +7,19 @@
 namespace MoleMole { class UIHouseRhythmPrepPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIHOUSERHYTHMPREPPAGECONTROLLER__TRIGGERNEWBIE_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x88E980)
-#define MOLEMOLE_UIHOUSERHYTHMPREPPAGECONTROLLER__TRIGGERNEWBIE_D__18_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x52B600)
+#define MOLEMOLE_UIHOUSERHYTHMPREPPAGECONTROLLER__TRIGGERNEWBIE_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7AB2A0)
+#define MOLEMOLE_UIHOUSERHYTHMPREPPAGECONTROLLER__TRIGGERNEWBIE_D__18_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x4B0120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHouseRhythmPrepPageController__TriggerNewbie_d__18_TypeDefinitionIndex = 89013;
+	inline static constexpr unsigned int UIHouseRhythmPrepPageController__TriggerNewbie_d__18_TypeDefinitionIndex = 53547;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18>
 	struct alignas(8) UIHouseRhythmPrepPageController__TriggerNewbie_d__18
 	{
 		::MoleMole::UIHouseRhythmPrepPageController* __4__this; // 0x10
-		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x18
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x38
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
+		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x28
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void MoveNext()

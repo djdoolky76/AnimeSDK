@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
 
 namespace FlowCanvas { class FlowOutput; }
@@ -9,7 +8,7 @@ namespace FlowCanvas::Nodes::Legacy { template <typename T1, typename T2> class 
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int ReflectedActionNode_2___c__DisplayClass3_0_TypeDefinitionIndex = 29719;
+	inline static constexpr unsigned int ReflectedActionNode_2___c__DisplayClass3_0_TypeDefinitionIndex = 30068;
 
 	template <typename T1, typename T2>
 	class ReflectedActionNode_2___c__DisplayClass3_0 : public ::System::Object

@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYERUI_GET_COLORLIST_OFFSET UNITYSDK_OFFSET(0x1147A930)
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYERUI_GET_GRADIENTCOLORLIST_OFFSET UNITYSDK_OFFSET(0x1147AA20)
-#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYERUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1147ACE0)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYERUI_GET_COLORLIST_OFFSET UNITYSDK_OFFSET(0x1C6CBD50)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYERUI_GET_GRADIENTCOLORLIST_OFFSET UNITYSDK_OFFSET(0x1C6CBE40)
+#define MOLEMOLE_CONFIG_CONFIGMULTIPLAYERUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6CC100)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMultiplayerUI_TypeDefinitionIndex = 40493;
+	inline static constexpr unsigned int ConfigMultiplayerUI_TypeDefinitionIndex = 67338;
 
 	class ConfigMultiplayerUI : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -33,6 +33,7 @@ namespace MoleMole::Config
 		::UnityEngine::Color Member_GradientColor_Left_3; // 0x128
 		::UnityEngine::Color Member_GradientColor_Right_3; // 0x138
 		::System::Single DistanceToMemberShowGuidePoint; // 0x148
+		::System::Byte _padding0[0x4];
 		::System::String* MultiPlayerBossSpecialUIPath; // 0x150
 		::UnityEngine::Color ReviveProgressBarColor_Dying; // 0x158
 		::UnityEngine::Color ReviveProgressBarColor_Reviving; // 0x168
@@ -46,6 +47,7 @@ namespace MoleMole::Config
 		::System::Single UseEntityLocalPosDistance; // 0x1DC
 		::System::Single MPMessageDisappearTime; // 0x1E0
 		::UnityEngine::Color EmoticonWheelCDMaskColor; // 0x1E4
+		::System::Byte _padding1[0x4];
 		::System::String* TeamReviveItemPath; // 0x1F8
 		::System::String* TreasureItemPath; // 0x200
 		::System::String* ClueItemPath; // 0x208

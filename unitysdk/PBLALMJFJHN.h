@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CGJEMKCKIJG.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+
+class CPABOPKIGAL;
+class HOFAIFGAHGJ;
+class LGAFMFNMCOG;
+namespace System { class String; }
+template <typename T> class KCMIFNGABDC_1;
+
+#define PBLALMJFJHN_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0x178B0740)
+#define PBLALMJFJHN_FEDNEKFMGNF_OFFSET UNITYSDK_OFFSET(0x178B0590)
+#define PBLALMJFJHN_GDEOPIBNOIN_OFFSET UNITYSDK_OFFSET(0x178B0BF0)
+#define PBLALMJFJHN_JFBDALLPLBA_OFFSET UNITYSDK_OFFSET(0x178B0B60)
+#define PBLALMJFJHN_MLAAFFHCOJE_OFFSET UNITYSDK_OFFSET(0x178B04A0)
+#define PBLALMJFJHN__CTOR_OFFSET UNITYSDK_OFFSET(0x178B0A20)
+
+inline static constexpr unsigned int PBLALMJFJHN_TypeDefinitionIndex = 88135;
+
+class PBLALMJFJHN : public ::CGJEMKCKIJG
+{
+public:
+	::KCMIFNGABDC_1<::System::Single>* KLHOOKKFBHD; // 0x18
+	::HOFAIFGAHGJ* KLKEIADHCPG; // 0x20
+	::CPABOPKIGAL* MMFNFINOFPN; // 0x28
+	::KCMIFNGABDC_1<::System::String*>* HFEIPMCNCNI; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBLALMJFJHN__CTOR_OFFSET))(this);
+	}
+
+	::System::Void MLAAFFHCOJE(::LGAFMFNMCOG* ONBDAIKININ)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + PBLALMJFJHN_MLAAFFHCOJE_OFFSET))(this, ONBDAIKININ);
+	}
+
+	::System::Void FEDNEKFMGNF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBLALMJFJHN_FEDNEKFMGNF_OFFSET))(this);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + PBLALMJFJHN_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF);
+	}
+
+	::System::Void JFBDALLPLBA(::LGAFMFNMCOG* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + PBLALMJFJHN_JFBDALLPLBA_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void GDEOPIBNOIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBLALMJFJHN_GDEOPIBNOIN_OFFSET))(this);
+	}
+};

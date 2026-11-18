@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MCONJOMJABJ.h"
+
+class FKLMDAMIFBF;
+class LLNGENGKNCN;
+
+#define MOOMHPOBJOO_CLIKFGGLPMO_OFFSET UNITYSDK_OFFSET(0x174B6290)
+#define MOOMHPOBJOO_KNPKHIHEILN_OFFSET UNITYSDK_OFFSET(0x174B6280)
+#define MOOMHPOBJOO_PAJKJKDELMF_OFFSET UNITYSDK_OFFSET(0x174B61E0)
+#define MOOMHPOBJOO__CTOR_OFFSET UNITYSDK_OFFSET(0x174B6200)
+
+inline static constexpr unsigned int MOOMHPOBJOO_TypeDefinitionIndex = 64542;
+
+class MOOMHPOBJOO : public ::MCONJOMJABJ
+{
+public:
+	::LLNGENGKNCN* BBLLBHIJMKN; // 0x30
+	::FKLMDAMIFBF* _GCHBGBELDAE_k__BackingField; // 0x38
+
+	::System::Void _ctor(::FKLMDAMIFBF* HMOIMNEIIAK)
+	{
+		return ((::System::Void(*)(::PVOID, ::FKLMDAMIFBF*))((::PBYTE)hIl2Cpp + MOOMHPOBJOO__CTOR_OFFSET))(this, HMOIMNEIIAK);
+	}
+
+	::System::Int32 PAJKJKDELMF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOOMHPOBJOO_PAJKJKDELMF_OFFSET))(this);
+	}
+
+	::FKLMDAMIFBF* KNPKHIHEILN()
+	{
+		return ((::FKLMDAMIFBF*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOOMHPOBJOO_KNPKHIHEILN_OFFSET))(this);
+	}
+
+	::System::Void CLIKFGGLPMO(::FKLMDAMIFBF* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FKLMDAMIFBF*))((::PBYTE)hIl2Cpp + MOOMHPOBJOO_CLIKFGGLPMO_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

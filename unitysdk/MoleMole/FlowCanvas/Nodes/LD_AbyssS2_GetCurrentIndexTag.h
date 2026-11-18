@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/AreaIDTag.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETCURRENTINDEXTAG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1AFE90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETCURRENTINDEXTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AFFB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETCURRENTINDEXTAG_INVOKE_OFFSET UNITYSDK_OFFSET(0x14AE4530)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETCURRENTINDEXTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x14AE4660)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetCurrentIndexTag_TypeDefinitionIndex = 82740;
+	inline static constexpr unsigned int LD_AbyssS2_GetCurrentIndexTag_TypeDefinitionIndex = 72680;
 
-	class LD_AbyssS2_GetCurrentIndexTag : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::MoleMole::FlowCanvas::Nodes::AreaIDTag>
+	class LD_AbyssS2_GetCurrentIndexTag
 	{
 	public:
 		::System::Void _ctor()

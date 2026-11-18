@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define MOLEMOLE_UGUIEXTENSIONS_TILT_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x191C2020)
-#define MOLEMOLE_UGUIEXTENSIONS_TILT__CTOR_OFFSET UNITYSDK_OFFSET(0x191C1F70)
+#define MOLEMOLE_UGUIEXTENSIONS_TILT_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x162FD2E0)
+#define MOLEMOLE_UGUIEXTENSIONS_TILT__CTOR_OFFSET UNITYSDK_OFFSET(0x162FD230)
 
 namespace MoleMole::UGUIExtensions
 {
-	inline static constexpr unsigned int Tilt_TypeDefinitionIndex = 56146;
+	inline static constexpr unsigned int Tilt_TypeDefinitionIndex = 49334;
 
 	class Tilt : public ::UnityEngine::UI::BaseMeshEffect
 	{
@@ -22,9 +22,9 @@ namespace MoleMole::UGUIExtensions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UGUIEXTENSIONS_TILT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ModifyMesh(::UnityEngine::UI::VertexHelper* a1)
+		::System::Void ModifyMesh(::UnityEngine::UI::VertexHelper* KKHICLCLGDM)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_UGUIEXTENSIONS_TILT_MODIFYMESH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_UGUIEXTENSIONS_TILT_MODIFYMESH_OFFSET))(this, KKHICLCLGDM);
 		}
 	};
 }

@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace UnityEngine::Timeline { class ComicGroupTrack; }
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ComicGroupTrack__TraverseTracks_d__7_1_TypeDefinitionIndex = 32941;
+	inline static constexpr unsigned int ComicGroupTrack__TraverseTracks_d__7_1_TypeDefinitionIndex = 32396;
 
 	template <typename T>
 	class ComicGroupTrack__TraverseTracks_d__7_1 : public ::System::Object

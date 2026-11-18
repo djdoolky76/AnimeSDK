@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_205B03D40B9BD873.h"
+#include "unitysdk/FAKODLEPJOA.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-class Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915;
+class KGMDCDKMBEJ_HKEFCDFAGCF;
 namespace System { class Action; }
 
-#define MOLEMOLE_UITUTORIALDIALOG_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x15F9C780)
-#define MOLEMOLE_UITUTORIALDIALOG_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x15F9C860)
-#define MOLEMOLE_UITUTORIALDIALOG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15F9C7E0)
-#define MOLEMOLE_UITUTORIALDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x15F9C790)
+#define MOLEMOLE_UITUTORIALDIALOG_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x12BFF780)
+#define MOLEMOLE_UITUTORIALDIALOG_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x12BFF860)
+#define MOLEMOLE_UITUTORIALDIALOG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12BFF7E0)
+#define MOLEMOLE_UITUTORIALDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x12BFF790)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITutorialDialog_TypeDefinitionIndex = 68682;
+	inline static constexpr unsigned int UITutorialDialog_TypeDefinitionIndex = 53539;
 
 	class UITutorialDialog : public ::MoleMole::DisplayMessageBase
 	{
 	public:
 		::System::Action* callback; // 0x28
-		::Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915* popupGroupData; // 0x30
+		::KGMDCDKMBEJ_HKEFCDFAGCF* popupGroupData; // 0x30
 		::System::Boolean _isLoaded; // 0x38
-		::System::Boolean isPreload; // 0x39
-		::System::Boolean CanCloseOnlyReachEnd; // 0x3A
+		::System::Boolean CanCloseOnlyReachEnd; // 0x39
+		::System::Boolean isPreload; // 0x3A
 
-		::System::Void _ctor(::Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915* popupGroupData, ::System::Action* callback)
+		::System::Void _ctor(::KGMDCDKMBEJ_HKEFCDFAGCF* popupGroupData, ::System::Action* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITUTORIALDIALOG__CTOR_OFFSET))(this, popupGroupData, callback);
+			return ((::System::Void(*)(::PVOID, ::KGMDCDKMBEJ_HKEFCDFAGCF*, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITUTORIALDIALOG__CTOR_OFFSET))(this, popupGroupData, callback);
 		}
 
-		::System::Void _ctor_1(::System::Int32 id, ::System::Action* callback, ::Enum_3_205B03D40B9BD873 page)
+		::System::Void _ctor_1(::System::Int32 id, ::System::Action* callback, ::FAKODLEPJOA page)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*, ::Enum_3_205B03D40B9BD873))((::PBYTE)hIl2Cpp + MOLEMOLE_UITUTORIALDIALOG__CTOR_1_OFFSET))(this, id, callback, page);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*, ::FAKODLEPJOA))((::PBYTE)hIl2Cpp + MOLEMOLE_UITUTORIALDIALOG__CTOR_1_OFFSET))(this, id, callback, page);
 		}
 
 		::System::Int32 get_Priority()

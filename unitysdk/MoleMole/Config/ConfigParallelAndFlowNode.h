@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseFlowNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 
-#define MOLEMOLE_CONFIG_CONFIGPARALLELANDFLOWNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16262350)
-#define MOLEMOLE_CONFIG_CONFIGPARALLELANDFLOWNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16262440)
+#define MOLEMOLE_CONFIG_CONFIGPARALLELANDFLOWNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x19B1BD60)
+#define MOLEMOLE_CONFIG_CONFIGPARALLELANDFLOWNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B1BE50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigParallelAndFlowNode_TypeDefinitionIndex = 66039;
+	inline static constexpr unsigned int ConfigParallelAndFlowNode_TypeDefinitionIndex = 40922;
 
 	class ConfigParallelAndFlowNode : public ::MoleMole::Config::ConfigUIBaseFlowNode
 	{
@@ -19,9 +19,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPARALLELANDFLOWNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPARALLELANDFLOWNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPARALLELANDFLOWNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

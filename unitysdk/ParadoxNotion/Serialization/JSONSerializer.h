@@ -12,38 +12,38 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_CLONE_OFFSET UNITYSDK_OFFSET(0x1DAFB2E0)
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_COPYSERIALIZED_OFFSET UNITYSDK_OFFSET(0x1DAFB430)
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DAFAC00)
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_FLUSHMEM_OFFSET UNITYSDK_OFFSET(0x1DAFAA10)
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_INTERNAL_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DAFAC70)
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_PRETTIFYJSON_OFFSET UNITYSDK_OFFSET(0x1DAFB780)
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_SERIALIZEANDEXECUTENOCYCLES_1_OFFSET UNITYSDK_OFFSET(0x1DAECA60)
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_SERIALIZEANDEXECUTENOCYCLES_OFFSET UNITYSDK_OFFSET(0x1DAED060)
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DAE79E0)
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_SHOWDATA_OFFSET UNITYSDK_OFFSET(0x1DAFB590)
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_TRYDESERIALIZEOVERWRITE_OFFSET UNITYSDK_OFFSET(0x1DAFB260)
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAFA950)
-#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER___FLUSHDATACACHE_OFFSET UNITYSDK_OFFSET(0x1DAFAB10)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_CLONE_1_OFFSET UNITYSDK_OFFSET(0x1D4993A0)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_COPYSERIALIZED_OFFSET UNITYSDK_OFFSET(0x1D4994F0)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_DESERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1D498CC0)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_FLUSHMEM_OFFSET UNITYSDK_OFFSET(0x1D498AD0)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_INTERNAL_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D498D30)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_PRETTIFYJSON_OFFSET UNITYSDK_OFFSET(0x1D499840)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_SERIALIZEANDEXECUTENOCYCLES_1_OFFSET UNITYSDK_OFFSET(0x1D48AB30)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_SERIALIZEANDEXECUTENOCYCLES_OFFSET UNITYSDK_OFFSET(0x1D48B130)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D485AA0)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_SHOWDATA_OFFSET UNITYSDK_OFFSET(0x1D499650)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_TRYDESERIALIZEOVERWRITE_1_OFFSET UNITYSDK_OFFSET(0x1D499320)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D498A10)
+#define PARADOXNOTION_SERIALIZATION_JSONSERIALIZER___FLUSHDATACACHE_OFFSET UNITYSDK_OFFSET(0x1D498BD0)
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int JSONSerializer_TypeDefinitionIndex = 31426;
+	inline static constexpr unsigned int JSONSerializer_TypeDefinitionIndex = 30660;
 
 	class JSONSerializer : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::ParadoxNotion::Serialization::FullSerializer::fsData*>** StaticGet_dataCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::ParadoxNotion::Serialization::FullSerializer::fsData*>**)Il2CppClass::FromTypeDefinitionIndex(JSONSerializer_TypeDefinitionIndex)->GetStaticField(0x254D0);
-		}
-		static ::System::Object** StaticGet_serializerLock()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(JSONSerializer_TypeDefinitionIndex)->GetStaticField(0x254D8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::ParadoxNotion::Serialization::FullSerializer::fsData*>**)Il2CppClass::FromTypeDefinitionIndex(JSONSerializer_TypeDefinitionIndex)->GetStaticField(0x265A0);
 		}
 		static ::ParadoxNotion::Serialization::FullSerializer::fsSerializer** StaticGet_serializer()
 		{
-			return (::ParadoxNotion::Serialization::FullSerializer::fsSerializer**)Il2CppClass::FromTypeDefinitionIndex(JSONSerializer_TypeDefinitionIndex)->GetStaticField(0x254E0);
+			return (::ParadoxNotion::Serialization::FullSerializer::fsSerializer**)Il2CppClass::FromTypeDefinitionIndex(JSONSerializer_TypeDefinitionIndex)->GetStaticField(0x265A8);
+		}
+		static ::System::Object** StaticGet_serializerLock()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(JSONSerializer_TypeDefinitionIndex)->GetStaticField(0x265B0);
 		}
 
 		static ::System::Void _cctor()
@@ -66,14 +66,14 @@ namespace ParadoxNotion::Serialization
 			return ((::System::String*(*)(::System::Type*, ::System::Object*, ::System::Collections::Generic::List_1<::UnityEngine::Object*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_SERIALIZE_OFFSET))(type, instance, references, pretyJson);
 		}
 
-		static ::System::Object* Deserialize(::System::Type* type, ::System::String* json, ::System::Collections::Generic::List_1<::UnityEngine::Object*>* references)
+		static ::System::Object* Deserialize_1(::System::Type* type, ::System::String* json, ::System::Collections::Generic::List_1<::UnityEngine::Object*>* references)
 		{
-			return ((::System::Object*(*)(::System::Type*, ::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Object*>*))((::PBYTE)hIl2Cpp + PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_DESERIALIZE_OFFSET))(type, json, references);
+			return ((::System::Object*(*)(::System::Type*, ::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Object*>*))((::PBYTE)hIl2Cpp + PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_DESERIALIZE_1_OFFSET))(type, json, references);
 		}
 
-		static ::System::Object* TryDeserializeOverwrite(::System::Object* instance, ::System::String* json, ::System::Collections::Generic::List_1<::UnityEngine::Object*>* references)
+		static ::System::Object* TryDeserializeOverwrite_1(::System::Object* instance, ::System::String* json, ::System::Collections::Generic::List_1<::UnityEngine::Object*>* references)
 		{
-			return ((::System::Object*(*)(::System::Object*, ::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Object*>*))((::PBYTE)hIl2Cpp + PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_TRYDESERIALIZEOVERWRITE_OFFSET))(instance, json, references);
+			return ((::System::Object*(*)(::System::Object*, ::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Object*>*))((::PBYTE)hIl2Cpp + PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_TRYDESERIALIZEOVERWRITE_1_OFFSET))(instance, json, references);
 		}
 
 		static ::System::Object* Internal_Deserialize(::System::Type* type, ::System::String* json, ::System::Collections::Generic::List_1<::UnityEngine::Object*>* references, ::System::Object* instance)
@@ -91,9 +91,9 @@ namespace ParadoxNotion::Serialization
 			return ((::System::Void(*)(::System::Type*, ::System::Object*, ::System::Action_1<::System::Object*>*, ::System::Action_2<::System::Object*, ::ParadoxNotion::Serialization::FullSerializer::fsData*>*))((::PBYTE)hIl2Cpp + PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_SERIALIZEANDEXECUTENOCYCLES_1_OFFSET))(type, instance, beforeCall, afterCall);
 		}
 
-		static ::System::Object* Clone(::System::Object* original)
+		static ::System::Object* Clone_1(::System::Object* original)
 		{
-			return ((::System::Object*(*)(::System::Object*))((::PBYTE)hIl2Cpp + PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_CLONE_OFFSET))(original);
+			return ((::System::Object*(*)(::System::Object*))((::PBYTE)hIl2Cpp + PARADOXNOTION_SERIALIZATION_JSONSERIALIZER_CLONE_1_OFFSET))(original);
 		}
 
 		static ::System::Void CopySerialized(::System::Object* source, ::System::Object* target)

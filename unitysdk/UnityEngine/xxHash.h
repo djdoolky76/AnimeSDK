@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_XXHASH_COMPUTEHASH64_OFFSET UNITYSDK_OFFSET(0x1E494E10)
-#define UNITYENGINE_XXHASH__CTOR_OFFSET UNITYSDK_OFFSET(0x1E494E20)
+#define UNITYENGINE_XXHASH_COMPUTEHASH64_OFFSET UNITYSDK_OFFSET(0x1E65CE30)
+#define UNITYENGINE_XXHASH__CTOR_OFFSET UNITYSDK_OFFSET(0x1E65CE40)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int xxHash_TypeDefinitionIndex = 5282;
+	inline static constexpr unsigned int xxHash_TypeDefinitionIndex = 5284;
 
 	class xxHash : public ::System::Object
 	{

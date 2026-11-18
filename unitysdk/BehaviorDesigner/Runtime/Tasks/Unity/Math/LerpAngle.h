@@ -5,23 +5,23 @@
 
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERPANGLE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EC8C6F0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERPANGLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC8C480)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERPANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8C750)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERPANGLE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EC8C7E0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERPANGLE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC8C870)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERPANGLE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F08BED0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERPANGLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F08BC60)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERPANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F08BF30)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERPANGLE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F08BFC0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_LERPANGLE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F08C050)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::Math
 {
-	inline static constexpr unsigned int LerpAngle_TypeDefinitionIndex = 34306;
+	inline static constexpr unsigned int LerpAngle_TypeDefinitionIndex = 33852;
 
 	class LerpAngle : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedFloat* lerpAmount; // 0x58
-		::BehaviorDesigner::Runtime::SharedFloat* toValue; // 0x60
-		::BehaviorDesigner::Runtime::SharedFloat* fromValue; // 0x68
-		::BehaviorDesigner::Runtime::SharedFloat* storeResult; // 0x70
+		::BehaviorDesigner::Runtime::SharedFloat* fromValue; // 0x58
+		::BehaviorDesigner::Runtime::SharedFloat* storeResult; // 0x60
+		::BehaviorDesigner::Runtime::SharedFloat* lerpAmount; // 0x68
+		::BehaviorDesigner::Runtime::SharedFloat* toValue; // 0x70
 
 		::System::Void _ctor()
 		{

@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HFENKOGKFAN.h"
+
+class JBKHFMBIANJ;
+class KHLJFPECEGH;
+
+#define PMDKPAOFJHH_HNGHFIOEKGL_OFFSET UNITYSDK_OFFSET(0x1A7FB8A0)
+#define PMDKPAOFJHH_PHOADBJGFBE_OFFSET UNITYSDK_OFFSET(0x1A7FB820)
+#define PMDKPAOFJHH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7FB790)
+
+inline static constexpr unsigned int PMDKPAOFJHH_TypeDefinitionIndex = 45354;
+
+class PMDKPAOFJHH : public ::HFENKOGKFAN
+{
+public:
+	::System::Void _ctor(::KHLJFPECEGH* PHGBOCIDLEI)
+	{
+		return ((::System::Void(*)(::PVOID, ::KHLJFPECEGH*))((::PBYTE)hIl2Cpp + PMDKPAOFJHH__CTOR_OFFSET))(this, PHGBOCIDLEI);
+	}
+
+	::System::Void PHOADBJGFBE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PMDKPAOFJHH_PHOADBJGFBE_OFFSET))(this);
+	}
+
+	::PMDKPAOFJHH* HNGHFIOEKGL(::JBKHFMBIANJ* AJMCCOEAIFE)
+	{
+		return ((::PMDKPAOFJHH*(*)(::PVOID, ::JBKHFMBIANJ*))((::PBYTE)hIl2Cpp + PMDKPAOFJHH_HNGHFIOEKGL_OFFSET))(this, AJMCCOEAIFE);
+	}
+};

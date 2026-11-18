@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIACTIVITYBATTLECOMMONRECORDPOPWINDOWCONTROLLER_RECORDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x196D6900)
+#define MOLEMOLE_UIACTIVITYBATTLECOMMONRECORDPOPWINDOWCONTROLLER_RECORDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19F78BA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBattleCommonRecordPopWindowController_RecordInfo_TypeDefinitionIndex = 71842;
+	inline static constexpr unsigned int UIActivityBattleCommonRecordPopWindowController_RecordInfo_TypeDefinitionIndex = 90332;
 
 	class UIActivityBattleCommonRecordPopWindowController_RecordInfo : public ::System::Object
 	{
 	public:
-		::System::String* descKey; // 0x10
+		::System::String* valueStr; // 0x10
 		::System::String* nameKey; // 0x18
-		::System::String* valueStr; // 0x20
+		::System::String* descKey; // 0x20
 
 		::System::Void _ctor()
 		{

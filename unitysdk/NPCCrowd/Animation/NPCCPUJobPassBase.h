@@ -3,12 +3,12 @@
 #include "unitysdk/NPCCrowd/Animation/NPCCPUAnimationPassBase.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
-#define NPCCROWD_ANIMATION_NPCCPUJOBPASSBASE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12D28060)
-#define NPCCROWD_ANIMATION_NPCCPUJOBPASSBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x12D28050)
+#define NPCCROWD_ANIMATION_NPCCPUJOBPASSBASE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x137A9420)
+#define NPCCROWD_ANIMATION_NPCCPUJOBPASSBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x137A9410)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCPUJobPassBase_TypeDefinitionIndex = 67861;
+	inline static constexpr unsigned int NPCCPUJobPassBase_TypeDefinitionIndex = 43162;
 
 	class NPCCPUJobPassBase : public ::NPCCrowd::Animation::NPCCPUAnimationPassBase
 	{

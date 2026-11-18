@@ -1,36 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D6E4E70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D6E5770)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6E5810)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E4D60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D6E5850)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D702310)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D703080)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D703190)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7021E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DRAWOUTLINEOBJECTSPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D7031E0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DrawOutlineObjectsPass_TypeDefinitionIndex = 27016;
+	inline static constexpr unsigned int DrawOutlineObjectsPass_TypeDefinitionIndex = 27325;
 
 	class DrawOutlineObjectsPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::System::Int32* StaticGet__OutlineObjectsTex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawOutlineObjectsPass_TypeDefinitionIndex)->GetStaticField(0x6EB0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawOutlineObjectsPass_TypeDefinitionIndex)->GetStaticField(0x6EC0);
+		}
+		static ::System::Int32* StaticGet__OutlineFadeAlphaTex()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrawOutlineObjectsPass_TypeDefinitionIndex)->GetStaticField(0x6EC4);
 		}
 		// static const ::System::Int32 downSample = 0x4; // 0x0
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xA8
+		::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* m_MRT2; // 0xA8
 		::System::String* m_ProfilerTag; // 0xB0
-		::System::Int32 cullingMask; // 0xB8
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xB8
+		::System::Int32 cullingMask; // 0xC0
+		::System::Boolean m_HasAllocatedOutlineTex; // 0xC4
+		::System::Boolean m_HasBattleOutlines; // 0xC5
 
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent evt)
 		{

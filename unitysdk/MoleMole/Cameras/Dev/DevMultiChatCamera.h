@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_CAMERAS_DEV_DEVMULTICHATCAMERA_SYNC_OFFSET UNITYSDK_OFFSET(0x116CD6A0)
-#define MOLEMOLE_CAMERAS_DEV_DEVMULTICHATCAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0x116CD650)
-#define MOLEMOLE_CAMERAS_DEV_DEVMULTICHATCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x116CDB40)
+#define MOLEMOLE_CAMERAS_DEV_DEVMULTICHATCAMERA_SYNC_OFFSET UNITYSDK_OFFSET(0xFA8BFD0)
+#define MOLEMOLE_CAMERAS_DEV_DEVMULTICHATCAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0xFA8BF80)
+#define MOLEMOLE_CAMERAS_DEV_DEVMULTICHATCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xFA8C470)
 
 namespace MoleMole::Cameras::Dev
 {
-	inline static constexpr unsigned int DevMultiChatCamera_TypeDefinitionIndex = 56810;
+	inline static constexpr unsigned int DevMultiChatCamera_TypeDefinitionIndex = 87788;
 
 	class DevMultiChatCamera : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,6 +30,7 @@ namespace MoleMole::Cameras::Dev
 		::System::Single heightOffset; // 0x48
 		::System::Single pitch; // 0x4C
 		::System::Boolean sync; // 0x50
+		::System::Byte _padding0[0x3];
 		::PipelineCamera::FinalCameraData CameraData; // 0x54
 
 		::System::Void _ctor()

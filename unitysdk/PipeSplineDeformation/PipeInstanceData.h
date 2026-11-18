@@ -4,7 +4,7 @@
 
 namespace PipeSplineDeformation
 {
-	inline static constexpr unsigned int PipeInstanceData_TypeDefinitionIndex = 27252;
+	inline static constexpr unsigned int PipeInstanceData_TypeDefinitionIndex = 27151;
 
 	struct alignas(4) PipeInstanceData
 	{

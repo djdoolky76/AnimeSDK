@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/LyraSector/LyraSectorCoord.h"
-#include "unitysdk/UnityEngine/Rendering/SerializedDictionary_2.h"
 
-namespace LyraSector { class LyraDistanceFieldAsset; }
+#define TESTLYRASECTORLOADER_COORDTODISTANCEFIELDASSETDICT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BB350)
 
-#define TESTLYRASECTORLOADER_COORDTODISTANCEFIELDASSETDICT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EE030)
+inline static constexpr unsigned int TestLyraSectorLoader_CoordToDistanceFieldAssetDict_TypeDefinitionIndex = 27103;
 
-inline static constexpr unsigned int TestLyraSectorLoader_CoordToDistanceFieldAssetDict_TypeDefinitionIndex = 27873;
-
-class TestLyraSectorLoader_CoordToDistanceFieldAssetDict : public ::UnityEngine::Rendering::SerializedDictionary_2<::LyraSector::LyraSectorCoord, ::LyraSector::LyraDistanceFieldAsset*>
+class TestLyraSectorLoader_CoordToDistanceFieldAssetDict
 {
 public:
 	::System::Void _ctor()

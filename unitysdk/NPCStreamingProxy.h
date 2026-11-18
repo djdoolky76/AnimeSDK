@@ -14,49 +14,52 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define NPCSTREAMINGPROXY_CHANGESTATE_OFFSET UNITYSDK_OFFSET(0x142B1C40)
-#define NPCSTREAMINGPROXY_CHECKDUMMY_OFFSET UNITYSDK_OFFSET(0x142B1FC0)
-#define NPCSTREAMINGPROXY_CREATENPCSTREAMINGPROXY_OFFSET UNITYSDK_OFFSET(0x142B1F50)
-#define NPCSTREAMINGPROXY_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0x142B1720)
-#define NPCSTREAMINGPROXY_ONBECAMEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x142B1E00)
-#define NPCSTREAMINGPROXY_ONBECAMEVISIBLE_OFFSET UNITYSDK_OFFSET(0x142B1EA0)
-#define NPCSTREAMINGPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x142B1790)
-#define NPCSTREAMINGPROXY_START_OFFSET UNITYSDK_OFFSET(0x142B1730)
-#define NPCSTREAMINGPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x142B19A0)
-#define NPCSTREAMINGPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x142B21C0)
-#define NPCSTREAMINGPROXY__CHANGESTATE_B__20_0_OFFSET UNITYSDK_OFFSET(0x142B22A0)
-#define NPCSTREAMINGPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x142B2170)
+#define NPCSTREAMINGPROXY_CHANGESTATE_OFFSET UNITYSDK_OFFSET(0xFD44E60)
+#define NPCSTREAMINGPROXY_CHECKDUMMY_OFFSET UNITYSDK_OFFSET(0xFD451E0)
+#define NPCSTREAMINGPROXY_CREATENPCSTREAMINGPROXY_OFFSET UNITYSDK_OFFSET(0xFD45170)
+#define NPCSTREAMINGPROXY_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xFD44940)
+#define NPCSTREAMINGPROXY_ONBECAMEINVISIBLE_OFFSET UNITYSDK_OFFSET(0xFD45020)
+#define NPCSTREAMINGPROXY_ONBECAMEVISIBLE_OFFSET UNITYSDK_OFFSET(0xFD450C0)
+#define NPCSTREAMINGPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xFD449B0)
+#define NPCSTREAMINGPROXY_START_OFFSET UNITYSDK_OFFSET(0xFD44950)
+#define NPCSTREAMINGPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0xFD44BC0)
+#define NPCSTREAMINGPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0xFD453E0)
+#define NPCSTREAMINGPROXY__CHANGESTATE_B__20_0_OFFSET UNITYSDK_OFFSET(0xFD454C0)
+#define NPCSTREAMINGPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xFD45390)
 
-inline static constexpr unsigned int NPCStreamingProxy_TypeDefinitionIndex = 67512;
+inline static constexpr unsigned int NPCStreamingProxy_TypeDefinitionIndex = 91825;
 
 class NPCStreamingProxy : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_DUMMY_PATHES()
 	{
-		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x4B250);
-	}
-	static ::System::Boolean* StaticGet_OpenStreaming()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x114E0);
+		return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x523C0);
 	}
 	static ::System::Single* StaticGet_CachedDistance()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x114E4);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x13CA0);
 	}
 	static ::System::Single* StaticGet_CachedTime()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x114E8);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x13CA4);
+	}
+	static ::System::Boolean* StaticGet_OpenStreaming()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCStreamingProxy_TypeDefinitionIndex)->GetStaticField(0x13CA8);
 	}
 	// static const ::System::String* PROXY_PATH; // 0x0
 	::System::Single _nowTime; // 0x18
 	::System::Boolean _needStreamingOut; // 0x1C
+	::System::Byte _padding0[0x3];
 	::System::String* _path; // 0x20
 	::Foundation::AssetRequestHandle _request; // 0x28
 	::NPCStreamingProxy_StreamingState NowState; // 0x48
+	::System::Byte _padding1[0x4];
 	::System::Action_2<::UnityEngine::GameObject*, ::System::UInt32>* OnStreamingIn; // 0x50
 	::System::Action_1<::System::UInt32>* OnStreamingOut; // 0x58
 	::System::UInt32 CachedEntityId; // 0x60
+	::System::Byte _padding2[0x4];
 	::UnityEngine::Transform* _mainCameraTr; // 0x68
 
 	::System::Void _ctor()

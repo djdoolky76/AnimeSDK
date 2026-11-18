@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_DTPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA493F0)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED52070)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int DTPropertyAttribute_TypeDefinitionIndex = 28957;
+	inline static constexpr unsigned int DTPropertyAttribute_TypeDefinitionIndex = 28396;
 
 	class DTPropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:
-		::System::String* Tooltip; // 0x10
-		::System::String* Label; // 0x18
-		::System::String* Color; // 0x20
+		::System::String* Label; // 0x10
+		::System::String* Color; // 0x18
+		::System::String* Tooltip; // 0x20
 		::FluffyUnderware::DevTools::AttributeOptionsFlags Options; // 0x28
 		::System::Int32 Precision; // 0x2C
 

@@ -5,8 +5,9 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace MoleMole { class MonoGuideViewContainer_Class_1_D73F3E9363085E2E; }
+namespace MoleMole { class MonoGuideViewContainer_OHKOMONFJGO; }
 namespace MoleMole::Battle { class Entity; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -18,48 +19,48 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1686FDC0)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1686FFE0)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_0DC794B6E3A200E7_OFFSET UNITYSDK_OFFSET(0x16873010)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_11D9E7585BB3F14E_OFFSET UNITYSDK_OFFSET(0x168743D0)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_2157CED3CDDF8996_OFFSET UNITYSDK_OFFSET(0x16870180)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_3C34CB4247CE20D0_OFFSET UNITYSDK_OFFSET(0x168714A0)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_42E284B79BA71F17_OFFSET UNITYSDK_OFFSET(0x16871C90)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0x16870100)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_6328E5EADA440195_OFFSET UNITYSDK_OFFSET(0x168744D0)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_66F42CE2EDA79734_OFFSET UNITYSDK_OFFSET(0x16870E90)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_70F807F41F81D824_OFFSET UNITYSDK_OFFSET(0x16872F10)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_837E000018190079_OFFSET UNITYSDK_OFFSET(0x16873AD0)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_8E0BA7B7FC76D039_OFFSET UNITYSDK_OFFSET(0x16871860)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_A3A311326D005F67_OFFSET UNITYSDK_OFFSET(0x16871300)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_A477888256D643A2_OFFSET UNITYSDK_OFFSET(0x16872620)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_AA1802E1FBE37761_OFFSET UNITYSDK_OFFSET(0x16872900)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_B54EC4D992F50245_OFFSET UNITYSDK_OFFSET(0x16872880)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_B891D7F7C53AFC92_OFFSET UNITYSDK_OFFSET(0x16873690)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_B89A1E5EB5AAFFCE_OFFSET UNITYSDK_OFFSET(0x16873990)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_C99DA86370D1A4C9_OFFSET UNITYSDK_OFFSET(0x16874050)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1686FF90)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_DAC15E132264A2F6_OFFSET UNITYSDK_OFFSET(0x168724D0)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_EBCB76FF27EFDAE1_OFFSET UNITYSDK_OFFSET(0x16874120)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETTARGET_1_OFFSET UNITYSDK_OFFSET(0x16871AE0)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETTARGET_OFFSET UNITYSDK_OFFSET(0x16871710)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETVIEWENABLE_OFFSET UNITYSDK_OFFSET(0x1686FF30)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETVIEWVISABLE_OFFSET UNITYSDK_OFFSET(0x168716A0)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_STOPALL_OFFSET UNITYSDK_OFFSET(0x16870E10)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_STOPTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x16871540)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_STOPTARGETPOINT_OFFSET UNITYSDK_OFFSET(0x16871190)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_WARNNINGTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x16872060)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_WARNNINGTARGET_OFFSET UNITYSDK_OFFSET(0x16871F00)
-#define MOLEMOLE_MONOGUIDEVIEWCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x168721C0)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_AAMMFJBPPFF_OFFSET UNITYSDK_OFFSET(0x10D3BF60)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_AWAKE_OFFSET UNITYSDK_OFFSET(0x10D3BC20)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_CDOGLELPMCB_OFFSET UNITYSDK_OFFSET(0x10D3BFE0)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_CENMNLEANJN_1_OFFSET UNITYSDK_OFFSET(0x10D3FE30)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_CENMNLEANJN_OFFSET UNITYSDK_OFFSET(0x10D3E860)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_DJEIDDICKNB_OFFSET UNITYSDK_OFFSET(0x10D3D160)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_GAADDBPBJLO_1_OFFSET UNITYSDK_OFFSET(0x10D40740)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_GAADDBPBJLO_OFFSET UNITYSDK_OFFSET(0x10D40670)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_GANNFJBBMPB_OFFSET UNITYSDK_OFFSET(0x10D3D2F0)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_GBLIJJIMPGI_OFFSET UNITYSDK_OFFSET(0x10D3E580)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_GJDDPKHCENF_OFFSET UNITYSDK_OFFSET(0x10D3EE70)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_GLNEONMKBKA_OFFSET UNITYSDK_OFFSET(0x10D3E2F0)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_HHAEAGPGJDD_OFFSET UNITYSDK_OFFSET(0x10D3E430)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_IHBCDIELJOP_OFFSET UNITYSDK_OFFSET(0x10D3F7B0)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_IKLKKFIKCBI_1_OFFSET UNITYSDK_OFFSET(0x10D3D6B0)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_IKLKKFIKCBI_OFFSET UNITYSDK_OFFSET(0x10D3DAD0)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_JFJOLPOCAAE_OFFSET UNITYSDK_OFFSET(0x10D3E7E0)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_JNBLHJIFOPC_OFFSET UNITYSDK_OFFSET(0x10D3CCF0)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_KHCLKJBMDHH_OFFSET UNITYSDK_OFFSET(0x10D3F120)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x10D3BE40)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_LBDNBJBIHHF_OFFSET UNITYSDK_OFFSET(0x10D40380)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_NDMCDEBBGCM_OFFSET UNITYSDK_OFFSET(0x10D3BDF0)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_PFMKHGNPEJC_OFFSET UNITYSDK_OFFSET(0x10D3FD30)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETTARGET_1_OFFSET UNITYSDK_OFFSET(0x10D3D920)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETTARGET_OFFSET UNITYSDK_OFFSET(0x10D3D560)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETVIEWENABLE_OFFSET UNITYSDK_OFFSET(0x10D3BD90)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETVIEWVISABLE_OFFSET UNITYSDK_OFFSET(0x10D3D4F0)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_STOPALL_OFFSET UNITYSDK_OFFSET(0x10D3CC70)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_STOPTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x10D3D390)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_STOPTARGETPOINT_OFFSET UNITYSDK_OFFSET(0x10D3CFF0)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_WARNNINGTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x10D3DE80)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER_WARNNINGTARGET_OFFSET UNITYSDK_OFFSET(0x10D3DD20)
+#define MOLEMOLE_MONOGUIDEVIEWCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x10D3DFE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGuideViewContainer_TypeDefinitionIndex = 81316;
+	inline static constexpr unsigned int MonoGuideViewContainer_TypeDefinitionIndex = 87506;
 
 	class MonoGuideViewContainer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single Field_5_14; // 0x0
+		// static const ::System::Single IMBCOAKFECC; // 0x0
 		::UnityEngine::GameObject* arrowTemplate; // 0x18
 		::UnityEngine::Vector2 BorderRange; // 0x20
 		::UnityEngine::Sprite* iconEnemy; // 0x28
@@ -68,22 +69,24 @@ namespace MoleMole
 		::System::Single iconFadeOutTime; // 0x40
 		::System::Single tweenScaleSize; // 0x44
 		::System::Single tweenScaleTime; // 0x48
-		::System::Boolean Field_5_8; // 0x4C
-		::System::Single Field_5_15; // 0x50
-		::UnityEngine::Transform* Field_5_13; // 0x58
-		::UnityEngine::Camera* Field_5_12; // 0x60
-		::UnityEngine::RectTransform* Field_5_19; // 0x68
-		::System::Single Field_5_18; // 0x70
-		::System::Single Field_5_17; // 0x74
-		::System::Collections::Generic::Queue_1<::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E*>* Field_5_16; // 0x78
-		::System::Collections::Generic::List_1<::System::UInt32>* Field_5_23; // 0x80
-		::System::Collections::Generic::List_1<::System::Int32>* Field_5_22; // 0x88
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector3>* Field_5_21; // 0x90
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E*>* Field_5_20; // 0x98
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E*>* Field_5_27; // 0xA0
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_5_26; // 0xA8
-		::System::Collections::Generic::HashSet_1<::System::Int32>* Field_5_25; // 0xB0
-		::System::Int32 Field_5_24; // 0xB8
+		::System::Boolean MGNBAFFHBNM; // 0x4C
+		::System::Byte _padding0[0x3];
+		::System::Single PEPALPOBPOK; // 0x50
+		::System::Byte _padding1[0x4];
+		::UnityEngine::Transform* KMODOGNHAAK; // 0x58
+		::UnityEngine::Camera* COCPHGPGOOI; // 0x60
+		::UnityEngine::RectTransform* OMKEGKFBGDP; // 0x68
+		::System::Single NNMPPDJBLGD; // 0x70
+		::System::Single FAFJKKEEOKI; // 0x74
+		::System::Collections::Generic::Queue_1<::System::Object*>* NCPLECKFGAK; // 0x78
+		::System::Collections::Generic::List_1<::System::UInt32>* NFBIEEPHGFB; // 0x80
+		::System::Collections::Generic::List_1<::System::Int32>* EJNLEPHEFIA; // 0x88
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector3>* LMELDEDGIGD; // 0x90
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* DJFGKJNBOCA; // 0x98
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* IJODBBGOGNK; // 0xA0
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* PNAEIIPEMJN; // 0xA8
+		::System::Collections::Generic::HashSet_1<::System::Int32>* DPHFNGMBNCP; // 0xB0
+		::System::Int32 GONODCOMIAA; // 0xB8
 
 		::System::Void _ctor()
 		{
@@ -105,149 +108,149 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_STOPALL_OFFSET))(this);
 		}
 
-		::System::Void StopTargetPoint(::System::Collections::Generic::List_1<::System::String*>* a1)
+		::System::Void StopTargetPoint(::System::Collections::Generic::List_1<::System::String*>* GFDOBACOHGM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_STOPTARGETPOINT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_STOPTARGETPOINT_OFFSET))(this, GFDOBACOHGM);
 		}
 
-		::System::Void StopTargetEntity(::MoleMole::Battle::Entity* a1)
+		::System::Void StopTargetEntity(::MoleMole::Battle::Entity* KECKGDFIALJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_STOPTARGETENTITY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_STOPTARGETENTITY_OFFSET))(this, KECKGDFIALJ);
 		}
 
-		::System::Void SetViewEnable(::System::Boolean a1)
+		::System::Void SetViewEnable(::System::Boolean JKBLDFBGBPK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETVIEWENABLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETVIEWENABLE_OFFSET))(this, JKBLDFBGBPK);
 		}
 
-		::System::Void SetViewVisable(::System::Boolean a1)
+		::System::Void SetViewVisable(::System::Boolean OMLPEMJJFBK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETVIEWVISABLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETVIEWVISABLE_OFFSET))(this, OMLPEMJJFBK);
 		}
 
-		::System::Int32 SetTarget(::UnityEngine::Vector3 a1, ::System::Single a2, ::MoleMole::Config::CampType a3, ::System::String* a4)
+		::System::Int32 SetTarget(::UnityEngine::Vector3 CKPGOKHECCH, ::System::Single MHJJPGIOCGN, ::MoleMole::Config::CampType OLNAFBAENGH, ::System::String* DHJMCKFKENB)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::MoleMole::Config::CampType, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETTARGET_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::MoleMole::Config::CampType, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETTARGET_OFFSET))(this, CKPGOKHECCH, MHJJPGIOCGN, OLNAFBAENGH, DHJMCKFKENB);
 		}
 
-		::System::UInt32 SetTarget_1(::MoleMole::Battle::Entity* a1, ::System::Single a2, ::MoleMole::Config::CampType a3)
+		::System::UInt32 SetTarget_1(::MoleMole::Battle::Entity* KECKGDFIALJ, ::System::Single MHJJPGIOCGN, ::MoleMole::Config::CampType OLNAFBAENGH)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::MoleMole::Config::CampType))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETTARGET_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::UInt32(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::MoleMole::Config::CampType))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_SETTARGET_1_OFFSET))(this, KECKGDFIALJ, MHJJPGIOCGN, OLNAFBAENGH);
 		}
 
-		::System::Void WarnningTarget(::System::Int32 a1, ::System::Boolean a2)
+		::System::Void WarnningTarget(::System::Int32 ABHBKFJKINO, ::System::Boolean HIJAHPPMNCP)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_WARNNINGTARGET_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_WARNNINGTARGET_OFFSET))(this, ABHBKFJKINO, HIJAHPPMNCP);
 		}
 
-		::System::Void WarnningTargetEntity(::System::UInt32 a1, ::System::Boolean a2)
+		::System::Void WarnningTargetEntity(::System::UInt32 MGMDLMBEDJF, ::System::Boolean HIJAHPPMNCP)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_WARNNINGTARGETENTITY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_WARNNINGTARGETENTITY_OFFSET))(this, MGMDLMBEDJF, HIJAHPPMNCP);
 		}
 
-		::System::Void Method_5_42E284B79BA71F17(::MoleMole::Battle::Entity* a1, ::System::Single a2, ::MoleMole::Config::CampType a3)
+		::System::Void GLNEONMKBKA(::System::UInt32 BKLGNCBNEGM, ::UnityEngine::Vector3 CFJFMMGPGKE, ::MoleMole::MonoGuideViewContainer_OHKOMONFJGO* IPMMCGDMODG)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::MoleMole::Config::CampType))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_42E284B79BA71F17_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector3, ::MoleMole::MonoGuideViewContainer_OHKOMONFJGO*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_GLNEONMKBKA_OFFSET))(this, BKLGNCBNEGM, CFJFMMGPGKE, IPMMCGDMODG);
 		}
 
-		::System::Void Method_5_70F807F41F81D824(::System::Int32 a1)
+		::System::Void IKLKKFIKCBI(::MoleMole::Battle::Entity* HOLFNDIMGJJ, ::System::Single MHJJPGIOCGN, ::MoleMole::Config::CampType OLNAFBAENGH)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_70F807F41F81D824_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Single, ::MoleMole::Config::CampType))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_IKLKKFIKCBI_OFFSET))(this, HOLFNDIMGJJ, MHJJPGIOCGN, OLNAFBAENGH);
 		}
 
-		::System::Void Method_5_0DC794B6E3A200E7()
+		::System::Void GJDDPKHCENF(::UnityEngine::Vector3 IACKHFCLPJI, ::UnityEngine::Vector3 FMDLIFKLFKI, ::UnityEngine::Vector3 CFJFMMGPGKE, ::MoleMole::MonoGuideViewContainer_OHKOMONFJGO* IPMMCGDMODG, ::System::Int32 ABHBKFJKINO)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_0DC794B6E3A200E7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::MoleMole::MonoGuideViewContainer_OHKOMONFJGO*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_GJDDPKHCENF_OFFSET))(this, IACKHFCLPJI, FMDLIFKLFKI, CFJFMMGPGKE, IPMMCGDMODG, ABHBKFJKINO);
 		}
 
-		::System::Int32 Method_5_A3A311326D005F67(::System::String* a1)
+		::System::Void CENMNLEANJN(::MoleMole::Battle::Entity* HOLFNDIMGJJ, ::MoleMole::MonoGuideViewContainer_OHKOMONFJGO* IPMMCGDMODG)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_A3A311326D005F67_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::MonoGuideViewContainer_OHKOMONFJGO*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_CENMNLEANJN_OFFSET))(this, HOLFNDIMGJJ, IPMMCGDMODG);
 		}
 
-		::System::Void Method_5_AA1802E1FBE37761(::MoleMole::Battle::Entity* a1, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E* a2)
+		::System::Void IHBCDIELJOP(::MoleMole::Battle::Entity* HOLFNDIMGJJ, ::UnityEngine::Vector3 FMDLIFKLFKI, ::UnityEngine::Vector3 CFJFMMGPGKE, ::MoleMole::MonoGuideViewContainer_OHKOMONFJGO* IPMMCGDMODG)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_AA1802E1FBE37761_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::MoleMole::MonoGuideViewContainer_OHKOMONFJGO*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_IHBCDIELJOP_OFFSET))(this, HOLFNDIMGJJ, FMDLIFKLFKI, CFJFMMGPGKE, IPMMCGDMODG);
 		}
 
-		::UnityEngine::Transform* Method_5_A477888256D643A2(::MoleMole::Battle::Entity* a1)
+		::System::Boolean AAMMFJBPPFF()
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_A477888256D643A2_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_AAMMFJBPPFF_OFFSET))(this);
 		}
 
-		::System::Void Method_5_2157CED3CDDF8996()
+		::System::Void KHCLKJBMDHH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_2157CED3CDDF8996_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_KHCLKJBMDHH_OFFSET))(this);
 		}
 
-		::System::Single Method_5_11D9E7585BB3F14E(::MoleMole::Battle::Entity* a1)
+		::System::Single PFMKHGNPEJC(::MoleMole::Battle::Entity* HOLFNDIMGJJ)
 		{
-			return ((::System::Single(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_11D9E7585BB3F14E_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_PFMKHGNPEJC_OFFSET))(this, HOLFNDIMGJJ);
 		}
 
-		::System::Void Method_5_3C34CB4247CE20D0(::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E* a1)
+		::System::Void CENMNLEANJN_1(::UnityEngine::Vector3 CKPGOKHECCH, ::MoleMole::MonoGuideViewContainer_OHKOMONFJGO* IPMMCGDMODG)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_3C34CB4247CE20D0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::MoleMole::MonoGuideViewContainer_OHKOMONFJGO*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_CENMNLEANJN_1_OFFSET))(this, CKPGOKHECCH, IPMMCGDMODG);
 		}
 
-		::System::Void Method_5_C99DA86370D1A4C9(::System::UInt32 a1)
+		::MoleMole::MonoGuideViewContainer_OHKOMONFJGO* HHAEAGPGJDD()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_C99DA86370D1A4C9_OFFSET))(this, a1);
+			return ((::MoleMole::MonoGuideViewContainer_OHKOMONFJGO*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_HHAEAGPGJDD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_66F42CE2EDA79734()
+		::System::Void NDMCDEBBGCM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_66F42CE2EDA79734_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_NDMCDEBBGCM_OFFSET))(this);
 		}
 
-		::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E* Method_5_DAC15E132264A2F6()
+		::System::Void CDOGLELPMCB()
 		{
-			return ((::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_DAC15E132264A2F6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_CDOGLELPMCB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_6328E5EADA440195(::UnityEngine::Vector3 a1, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E* a2)
+		::System::Void GAADDBPBJLO(::System::UInt32 BKLGNCBNEGM)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_6328E5EADA440195_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_GAADDBPBJLO_OFFSET))(this, BKLGNCBNEGM);
 		}
 
-		::System::Void Method_5_837E000018190079(::MoleMole::Battle::Entity* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E* a4)
+		::System::Void IKLKKFIKCBI_1(::System::Int32 ABHBKFJKINO, ::System::Single MHJJPGIOCGN, ::MoleMole::Config::CampType OLNAFBAENGH, ::System::String* DHJMCKFKENB)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_837E000018190079_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::MoleMole::Config::CampType, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_IKLKKFIKCBI_1_OFFSET))(this, ABHBKFJKINO, MHJJPGIOCGN, OLNAFBAENGH, DHJMCKFKENB);
 		}
 
-		::System::Void Method_5_EBCB76FF27EFDAE1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E* a4, ::System::Int32 a5)
+		::System::Void JNBLHJIFOPC()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_EBCB76FF27EFDAE1_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_JNBLHJIFOPC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_8E0BA7B7FC76D039(::System::Int32 a1, ::System::Single a2, ::MoleMole::Config::CampType a3, ::System::String* a4)
+		::UnityEngine::Transform* GBLIJJIMPGI(::MoleMole::Battle::Entity* KECKGDFIALJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::MoleMole::Config::CampType, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_8E0BA7B7FC76D039_OFFSET))(this, a1, a2, a3, a4);
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_GBLIJJIMPGI_OFFSET))(this, KECKGDFIALJ);
 		}
 
-		::System::Boolean Method_5_B891D7F7C53AFC92(::MoleMole::Battle::Entity* a1)
+		::System::Boolean LBDNBJBIHHF(::MoleMole::Battle::Entity* HOLFNDIMGJJ)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_B891D7F7C53AFC92_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_LBDNBJBIHHF_OFFSET))(this, HOLFNDIMGJJ);
 		}
 
-		::System::Boolean Method_5_4DA6D4A624E42CAB()
+		::System::Void GANNFJBBMPB(::MoleMole::MonoGuideViewContainer_OHKOMONFJGO* IPMMCGDMODG)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_4DA6D4A624E42CAB_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGuideViewContainer_OHKOMONFJGO*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_GANNFJBBMPB_OFFSET))(this, IPMMCGDMODG);
 		}
 
-		::System::Void Method_5_B54EC4D992F50245(::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E* a1)
+		::System::Int32 DJEIDDICKNB(::System::String* DHJMCKFKENB)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_B54EC4D992F50245_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_DJEIDDICKNB_OFFSET))(this, DHJMCKFKENB);
 		}
 
-		::System::Void Method_5_CA373AA1C7054598()
+		::System::Void JFJOLPOCAAE(::MoleMole::MonoGuideViewContainer_OHKOMONFJGO* IPMMCGDMODG)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGuideViewContainer_OHKOMONFJGO*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_JFJOLPOCAAE_OFFSET))(this, IPMMCGDMODG);
 		}
 
-		::System::Void Method_5_B89A1E5EB5AAFFCE(::System::UInt32 a1, ::UnityEngine::Vector3 a2, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E* a3)
+		::System::Void GAADDBPBJLO_1(::System::Int32 ABHBKFJKINO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector3, ::MoleMole::MonoGuideViewContainer_Class_1_D73F3E9363085E2E*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_METHOD_5_B89A1E5EB5AAFFCE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGUIDEVIEWCONTAINER_GAADDBPBJLO_1_OFFSET))(this, ABHBKFJKINO);
 		}
 	};
 }

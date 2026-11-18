@@ -1,37 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/DefaultConstruct.h"
 #include "unitysdk/Foundation/Unreal/FNameEntryAllocator___blocks_e__FixedBuffer.h"
+#include "unitysdk/Foundation/DefaultConstruct.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/Unreal/FNameEntryHandle.h"
 
-#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_ALLOCATEBLOCK_OFFSET UNITYSDK_OFFSET(0x1FBE2FA0)
-#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_ALLOCATENAMEENTRY_OFFSET UNITYSDK_OFFSET(0xACD4A0)
-#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1FBE3470)
-#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_FREEBLOCK_OFFSET UNITYSDK_OFFSET(0x1FBE3070)
-#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x66B730)
-#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_NEWBLOCK_OFFSET UNITYSDK_OFFSET(0xACD490)
-#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_RESOLVE_OFFSET UNITYSDK_OFFSET(0xACD4B0)
-#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_TOALIGNEDLENGTH_OFFSET UNITYSDK_OFFSET(0x1FBE3010)
-#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBE2ED0)
-#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xACD3D0)
+#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_ALLOCATEBLOCK_OFFSET UNITYSDK_OFFSET(0x1FFE4FC0)
+#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_ALLOCATENAMEENTRY_OFFSET UNITYSDK_OFFSET(0x9B39F0)
+#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1FFE5490)
+#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_FREEBLOCK_OFFSET UNITYSDK_OFFSET(0x1FFE5090)
+#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x5CA830)
+#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_NEWBLOCK_OFFSET UNITYSDK_OFFSET(0x9B39E0)
+#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_RESOLVE_1_OFFSET UNITYSDK_OFFSET(0x9B3A00)
+#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_TOALIGNEDLENGTH_OFFSET UNITYSDK_OFFSET(0x1FFE5030)
+#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFE4EF0)
+#define FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x9B3920)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FNameEntryAllocator_TypeDefinitionIndex = 8673;
+	inline static constexpr unsigned int FNameEntryAllocator_TypeDefinitionIndex = 9066;
 
-	struct alignas(8) FNameEntryAllocator
+	struct alignas(4) FNameEntryAllocator
 	{
 		static ::System::Int32* StaticGet_DataOffset()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryAllocator_TypeDefinitionIndex)->GetStaticField(0x3B70);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryAllocator_TypeDefinitionIndex)->GetStaticField(0x3B30);
 		}
 		static ::System::Int32* StaticGet_BlockByteSize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryAllocator_TypeDefinitionIndex)->GetStaticField(0x3B74);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryAllocator_TypeDefinitionIndex)->GetStaticField(0x3B34);
 		}
 		static ::System::Int32* StaticGet_Stride()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryAllocator_TypeDefinitionIndex)->GetStaticField(0x3B78);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(FNameEntryAllocator_TypeDefinitionIndex)->GetStaticField(0x3B38);
 		}
 		::System::UInt32 _currentBlock; // 0x10
 		::System::Int32 _currentByteCursor; // 0x14
@@ -72,23 +73,21 @@ namespace Foundation::Unreal
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_NEWBLOCK_OFFSET))(this);
 		}
 
-		/*
-		::Foundation::Unreal::FNameEntry* AllocateNameEntry(::System::Int32 bytes, ::Foundation::Unreal::FNameEntryHandle& handle)
+		::PVOID AllocateNameEntry(::System::Int32 bytes, ::Foundation::Unreal::FNameEntryHandle& handle)
 		{
-			return ((::Foundation::Unreal::FNameEntry*(*)(::PVOID, ::System::Int32, ::Foundation::Unreal::FNameEntryHandle&))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_ALLOCATENAMEENTRY_OFFSET))(this, bytes, handle);
+			return ((::PVOID(*)(::PVOID, ::System::Int32, ::Foundation::Unreal::FNameEntryHandle&))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_ALLOCATENAMEENTRY_OFFSET))(this, bytes, handle);
 		}
-		*/
 
+		/*
 		static ::Foundation::Unreal::FNameEntryAllocator Create()
 		{
 			return ((::Foundation::Unreal::FNameEntryAllocator(*)())((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_CREATE_OFFSET))();
 		}
-
-		/*
-		::Foundation::Unreal::FNameEntry* Resolve(::Foundation::Unreal::FNameEntryHandle handle)
-		{
-			return ((::Foundation::Unreal::FNameEntry*(*)(::PVOID, ::Foundation::Unreal::FNameEntryHandle))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_RESOLVE_OFFSET))(this, handle);
-		}
 		*/
+
+		::PVOID Resolve_1(::Foundation::Unreal::FNameEntryHandle handle)
+		{
+			return ((::PVOID(*)(::PVOID, ::Foundation::Unreal::FNameEntryHandle))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FNAMEENTRYALLOCATOR_RESOLVE_1_OFFSET))(this, handle);
+		}
 	};
 }

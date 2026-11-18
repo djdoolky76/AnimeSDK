@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHECKENTITYHAVEAPPLYBUFFNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x144BB300)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHECKENTITYHAVEAPPLYBUFFNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x144BB490)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHECKENTITYHAVEAPPLYBUFFNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x10403C70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHECKENTITYHAVEAPPLYBUFFNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10403E00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCheckEntityHaveApplyBuffNode_TypeDefinitionIndex = 86947;
+	inline static constexpr unsigned int LDCheckEntityHaveApplyBuffNode_TypeDefinitionIndex = 44286;
 
-	class LDCheckEntityHaveApplyBuffNode : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::Int32>
+	class LDCheckEntityHaveApplyBuffNode
 	{
 	public:
 		::System::Void _ctor()

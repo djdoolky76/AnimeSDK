@@ -1,56 +1,55 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/MissionResult.h"
-#include "unitysdk/MonoHollowResultPageConfig_HueAndLight.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-class MonoHollowResultPageConfig_BlinkConfigInfo;
 class MonoHollowResultPageConfig_ResutlLights;
 class NumberBlinkConfig;
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MONOHOLLOWRESULTPAGECONFIG_MONOREFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x14121580)
-#define MONOHOLLOWRESULTPAGECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x14121DE0)
-#define MONOHOLLOWRESULTPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14121680)
+#define MONOHOLLOWRESULTPAGECONFIG_MONOREFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x120C32A0)
+#define MONOHOLLOWRESULTPAGECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x120C3B00)
+#define MONOHOLLOWRESULTPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x120C33A0)
 
-inline static constexpr unsigned int MonoHollowResultPageConfig_TypeDefinitionIndex = 41013;
+inline static constexpr unsigned int MonoHollowResultPageConfig_TypeDefinitionIndex = 63408;
 
 class MonoHollowResultPageConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 {
 public:
-	static ::System::Int32* StaticGet_ValidCol()
+	static ::System::Int32* StaticGet_ExpandRow()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDCE0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDD40);
 	}
 	static ::System::Int32* StaticGet_ExpandCol()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDCE4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDD44);
+	}
+	static ::System::Int32* StaticGet_ValidCol()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDD48);
 	}
 	static ::System::Int32* StaticGet_ValidRow()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDCE8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDD4C);
 	}
-	static ::System::Int32* StaticGet_ExpandRow()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoHollowResultPageConfig_TypeDefinitionIndex)->GetStaticField(0xDCEC);
-	}
-	::Il2CppArray<::System::Single>* DepthMatrix; // 0x58
-	::Il2CppArray<::MonoHollowResultPageConfig_HueAndLight>* SuccessHue; // 0x60
+	::System::Object* DepthMatrix; // 0x58
+	::System::Object* SuccessHue; // 0x60
 	::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Collections::Generic::List_1<::System::Single>*>* SuccessHue1; // 0x68
 	::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Collections::Generic::List_1<::System::Single>*>* SuccessSaturation; // 0x70
 	::System::Collections::Generic::List_1<::System::Single>* FailLight; // 0x78
 	::System::Collections::Generic::List_1<::System::Single>* FailSaturation; // 0x80
 	::System::Collections::Generic::List_1<::System::String*>* TextureSheetConfigs; // 0x88
-	::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::MonoHollowResultPageConfig_BlinkConfigInfo*>* BlinkMatrixMap; // 0x90
+	::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Object*>* BlinkMatrixMap; // 0x90
 	::System::Int32 NumberValidRow; // 0x98
 	::System::Int32 NumberValidCol; // 0x9C
 	::System::Int32 NumberExpandRow; // 0xA0
 	::System::Int32 NumberExpandCol; // 0xA4
-	::Il2CppArray<::System::Single>* NumberDepthMatrix; // 0xA8
-	::System::Collections::Generic::List_1<::MonoHollowResultPageConfig_BlinkConfigInfo*>* NumberBlinkList; // 0xB0
+	::System::Object* NumberDepthMatrix; // 0xA8
+	::System::Collections::Generic::List_1<::System::Object*>* NumberBlinkList; // 0xB0
 	::NumberBlinkConfig* NumberBlinkConfig; // 0xB8
 	::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::UnityEngine::Color>* MissionResultDict; // 0xC0
 	::MonoHollowResultPageConfig_ResutlLights* Success_Lights; // 0xC8

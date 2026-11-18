@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/DLLLACFEBJF.h"
+#include "unitysdk/System/ValueType.h"
+
+class AEDDHAGDPNM;
+
+#define NEIGJHNJNFL_DABGFBDHOGD_OFFSET UNITYSDK_OFFSET(0x7D8780)
+#define NEIGJHNJNFL_FABCPKEMFMK_OFFSET UNITYSDK_OFFSET(0x7D8770)
+#define NEIGJHNJNFL_OEJAFAHIPIA_OFFSET UNITYSDK_OFFSET(0x7D87C0)
+#define NEIGJHNJNFL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x7D8730)
+#define NEIGJHNJNFL__CTOR_2_OFFSET UNITYSDK_OFFSET(0x7D8750)
+#define NEIGJHNJNFL__CTOR_OFFSET UNITYSDK_OFFSET(0x7D8720)
+
+inline static constexpr unsigned int NEIGJHNJNFL_TypeDefinitionIndex = 91740;
+
+struct alignas(8) NEIGJHNJNFL
+{
+	::System::Int32 KOMCHMAIGIL; // 0x10
+	::System::Int32 HLMKCILIKGI; // 0x14
+	::DLLLACFEBJF GKPIDOANHCC; // 0x18
+	::System::Byte _padding0[0x4];
+	::AEDDHAGDPNM* FPOLLJNHGFM; // 0x20
+
+	::System::Void _ctor(::DLLLACFEBJF JPJBIBPBODE, ::AEDDHAGDPNM* NFFNEFLKPDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::DLLLACFEBJF, ::AEDDHAGDPNM*))((::PBYTE)hIl2Cpp + NEIGJHNJNFL__CTOR_OFFSET))(this, JPJBIBPBODE, NFFNEFLKPDG);
+	}
+
+	::System::Void _ctor_1(::DLLLACFEBJF JPJBIBPBODE, ::System::Int32 COMDNFILAIC, ::AEDDHAGDPNM* NFFNEFLKPDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::DLLLACFEBJF, ::System::Int32, ::AEDDHAGDPNM*))((::PBYTE)hIl2Cpp + NEIGJHNJNFL__CTOR_1_OFFSET))(this, JPJBIBPBODE, COMDNFILAIC, NFFNEFLKPDG);
+	}
+
+	::System::Void _ctor_2(::DLLLACFEBJF JPJBIBPBODE, ::System::Int32 NJEMNLDCHNN, ::System::Int32 COMDNFILAIC, ::AEDDHAGDPNM* NFFNEFLKPDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::DLLLACFEBJF, ::System::Int32, ::System::Int32, ::AEDDHAGDPNM*))((::PBYTE)hIl2Cpp + NEIGJHNJNFL__CTOR_2_OFFSET))(this, JPJBIBPBODE, NJEMNLDCHNN, COMDNFILAIC, NFFNEFLKPDG);
+	}
+
+	::System::Void FABCPKEMFMK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEIGJHNJNFL_FABCPKEMFMK_OFFSET))(this);
+	}
+
+	::System::Void DABGFBDHOGD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEIGJHNJNFL_DABGFBDHOGD_OFFSET))(this);
+	}
+
+	::System::Void OEJAFAHIPIA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEIGJHNJNFL_OEJAFAHIPIA_OFFSET))(this);
+	}
+};

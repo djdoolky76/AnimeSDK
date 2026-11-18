@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/StateMachine/Machine.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/Allocator.h"
+#include "unitysdk/Foundation/StateMachine/Machine.h"
 
-#define FOUNDATION_STATEMACHINE_MACHINECACHE_BUILD_OFFSET UNITYSDK_OFFSET(0x1FC0BE40)
-#define FOUNDATION_STATEMACHINE_MACHINECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC0BEA0)
+#define FOUNDATION_STATEMACHINE_MACHINECACHE_BUILD_OFFSET UNITYSDK_OFFSET(0x2000CBE0)
+#define FOUNDATION_STATEMACHINE_MACHINECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x2000CC40)
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int MachineCache_TypeDefinitionIndex = 8501;
+	inline static constexpr unsigned int MachineCache_TypeDefinitionIndex = 8954;
 
 	class MachineCache : public ::System::Object
 	{

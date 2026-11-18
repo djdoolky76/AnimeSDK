@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/LayerMaskStatic_Enum_3_BA21CC391326FDD3.h"
+#include "unitysdk/MoleMole/LayerMaskStatic_LDGDJLOILCG.h"
 #include "unitysdk/MoleMole/MonoConfigurableCollider.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 
 namespace MoleMole::Config { class ConfigTimeDrivenAttackCollider; }
 namespace UnityEngine { class CapsuleCollider; }
 
-#define MOLEMOLE_MONOCAPSULECOLLIDER_AWAKE_OFFSET UNITYSDK_OFFSET(0x19090E10)
-#define MOLEMOLE_MONOCAPSULECOLLIDER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x19091170)
-#define MOLEMOLE_MONOCAPSULECOLLIDER_DRAWLINE_OFFSET UNITYSDK_OFFSET(0x190911D0)
-#define MOLEMOLE_MONOCAPSULECOLLIDER_METHOD_6_74DA9B165C92DE14_OFFSET UNITYSDK_OFFSET(0x190913F0)
-#define MOLEMOLE_MONOCAPSULECOLLIDER_METHOD_6_999B8B439422C7E7_OFFSET UNITYSDK_OFFSET(0x19091570)
-#define MOLEMOLE_MONOCAPSULECOLLIDER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x190910F0)
-#define MOLEMOLE_MONOCAPSULECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19091610)
-#define MOLEMOLE_MONOCAPSULECOLLIDER___BASE_CLEANUP_OFFSET UNITYSDK_OFFSET(0x19091670)
-#define MOLEMOLE_MONOCAPSULECOLLIDER___BASE_DRAWLINE_OFFSET UNITYSDK_OFFSET(0x19091700)
-#define MOLEMOLE_MONOCAPSULECOLLIDER___BASE_SETUPCOLLIDER_OFFSET UNITYSDK_OFFSET(0x19091790)
+#define MOLEMOLE_MONOCAPSULECOLLIDER_AGMACLCJFDG_OFFSET UNITYSDK_OFFSET(0x180F8D70)
+#define MOLEMOLE_MONOCAPSULECOLLIDER_AWAKE_OFFSET UNITYSDK_OFFSET(0x180F8610)
+#define MOLEMOLE_MONOCAPSULECOLLIDER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x180F8970)
+#define MOLEMOLE_MONOCAPSULECOLLIDER_DRAWLINE_OFFSET UNITYSDK_OFFSET(0x180F89D0)
+#define MOLEMOLE_MONOCAPSULECOLLIDER_HJAMMCMDOIN_OFFSET UNITYSDK_OFFSET(0x180F8E70)
+#define MOLEMOLE_MONOCAPSULECOLLIDER_JLIKKGIONDO_OFFSET UNITYSDK_OFFSET(0x180F8F10)
+#define MOLEMOLE_MONOCAPSULECOLLIDER_OAINLNDJEOH_OFFSET UNITYSDK_OFFSET(0x180F8E80)
+#define MOLEMOLE_MONOCAPSULECOLLIDER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x180F88F0)
+#define MOLEMOLE_MONOCAPSULECOLLIDER_PKJHDIJLBNE_OFFSET UNITYSDK_OFFSET(0x180F8BF0)
+#define MOLEMOLE_MONOCAPSULECOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x180F8E10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoCapsuleCollider_TypeDefinitionIndex = 50275;
+	inline static constexpr unsigned int MonoCapsuleCollider_TypeDefinitionIndex = 68822;
 
 	class MonoCapsuleCollider : public ::MoleMole::MonoConfigurableCollider
 	{
 	public:
-		::UnityEngine::CapsuleCollider* Field_6_0; // 0x78
+		::UnityEngine::CapsuleCollider* AKGAGMPANLB; // 0x78
 
 		::System::Void _ctor()
 		{
@@ -47,34 +47,34 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER_CLEANUP_OFFSET))(this);
 		}
 
-		::System::Void DrawLine(::System::Boolean a1)
+		::System::Void DrawLine(::System::Boolean KBJJDPHGEDI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER_DRAWLINE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER_DRAWLINE_OFFSET))(this, KBJJDPHGEDI);
 		}
 
-		::System::Void Method_6_74DA9B165C92DE14(::MoleMole::Config::ConfigTimeDrivenAttackCollider* a1, ::UnityEngine::LayerMask a2, ::MoleMole::LayerMaskStatic_Enum_3_BA21CC391326FDD3 a3)
+		::System::Void PKJHDIJLBNE(::MoleMole::Config::ConfigTimeDrivenAttackCollider* DFMKILICPFB, ::UnityEngine::LayerMask FBNGKPGLADH, ::MoleMole::LayerMaskStatic_LDGDJLOILCG BBFAJBKOAOB)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigTimeDrivenAttackCollider*, ::UnityEngine::LayerMask, ::MoleMole::LayerMaskStatic_Enum_3_BA21CC391326FDD3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER_METHOD_6_74DA9B165C92DE14_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigTimeDrivenAttackCollider*, ::UnityEngine::LayerMask, ::MoleMole::LayerMaskStatic_LDGDJLOILCG))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER_PKJHDIJLBNE_OFFSET))(this, DFMKILICPFB, FBNGKPGLADH, BBFAJBKOAOB);
 		}
 
-		::System::Void __base_CleanUp()
+		::System::Void AGMACLCJFDG(::System::Single NCCDJLDKFGA, ::System::Single KKAMDFNMMJH)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER___BASE_CLEANUP_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER_AGMACLCJFDG_OFFSET))(this, NCCDJLDKFGA, KKAMDFNMMJH);
 		}
 
-		::System::Void __base_DrawLine(::System::Boolean a1)
+		::System::Void HJAMMCMDOIN(::MoleMole::Config::ConfigTimeDrivenAttackCollider* MIALFKCCCPI, ::UnityEngine::LayerMask KMGKAIDEIBA, ::MoleMole::LayerMaskStatic_LDGDJLOILCG FDHMCIFPNCK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER___BASE_DRAWLINE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigTimeDrivenAttackCollider*, ::UnityEngine::LayerMask, ::MoleMole::LayerMaskStatic_LDGDJLOILCG))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER_HJAMMCMDOIN_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
 		}
 
-		::System::Void __base_SetupCollider(::MoleMole::Config::ConfigTimeDrivenAttackCollider* a1, ::UnityEngine::LayerMask a2, ::MoleMole::LayerMaskStatic_Enum_3_BA21CC391326FDD3 a3)
+		::System::Void OAINLNDJEOH(::System::Boolean MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ConfigTimeDrivenAttackCollider*, ::UnityEngine::LayerMask, ::MoleMole::LayerMaskStatic_Enum_3_BA21CC391326FDD3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER___BASE_SETUPCOLLIDER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER_OAINLNDJEOH_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void Method_6_999B8B439422C7E7(::System::Single a1, ::System::Single a2)
+		::System::Void JLIKKGIONDO()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER_METHOD_6_999B8B439422C7E7_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULECOLLIDER_JLIKKGIONDO_OFFSET))(this);
 		}
 	};
 }

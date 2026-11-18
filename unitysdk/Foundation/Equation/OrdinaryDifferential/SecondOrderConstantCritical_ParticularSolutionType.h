@@ -3,11 +3,11 @@
 
 namespace Foundation::Equation::OrdinaryDifferential
 {
-	inline static constexpr unsigned int SecondOrderConstantCritical_ParticularSolutionType_TypeDefinitionIndex = 8817;
+	inline static constexpr unsigned int SecondOrderConstantCritical_ParticularSolutionType_TypeDefinitionIndex = 9026;
 
 	enum class SecondOrderConstantCritical_ParticularSolutionType : ::System::Int32
 	{
-		SecondOrderPolynomial = 1,
 		Constant = 0,
+		SecondOrderPolynomial = 1,
 	};
 }

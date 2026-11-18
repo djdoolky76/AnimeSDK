@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MobileTouchRumbleEnableType_TypeDefinitionIndex = 90926;
+	inline static constexpr unsigned int MobileTouchRumbleEnableType_TypeDefinitionIndex = 89884;
 
 	enum class MobileTouchRumbleEnableType : ::System::Int32
 	{
-		OnlyEnableBattle = 2,
-		OnlyEnablePerform = 1,
 		AllEnable = 3,
+		OnlyEnableBattle = 2,
 		Disable = 0,
+		OnlyEnablePerform = 1,
 	};
 }

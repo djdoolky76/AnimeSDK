@@ -3,7 +3,7 @@
 
 namespace DG::Tweening::Core
 {
-	inline static constexpr unsigned int DOTweenAnimationType_TypeDefinitionIndex = 35141;
+	inline static constexpr unsigned int DOTweenAnimationType_TypeDefinitionIndex = 34690;
 
 	enum class DOTweenAnimationType : ::System::Int32
 	{

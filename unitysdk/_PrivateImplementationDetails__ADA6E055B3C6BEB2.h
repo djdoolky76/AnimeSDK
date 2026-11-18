@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_112.h"
+#include "unitysdk/_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12.h"
+#include "unitysdk/_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_16.h"
+#include "unitysdk/_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_192.h"
+#include "unitysdk/_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_256.h"
+#include "unitysdk/_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_288.h"
+
+inline static constexpr unsigned int _PrivateImplementationDetails__ADA6E055B3C6BEB2_TypeDefinitionIndex = 8460;
+
+class _PrivateImplementationDetails__ADA6E055B3C6BEB2 : public ::System::Object
+{
+public:
+	static ::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_16* StaticGet__1456763F890A84558F99AFA687C36B9037697848()
+	{
+		return (::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__ADA6E055B3C6BEB2_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12* StaticGet__148E9E3E864CD628C70D3DC1D8309483BD8C0E89()
+	{
+		return (::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__ADA6E055B3C6BEB2_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_256* StaticGet__3CDA7449B0586AB873C75C04BB11D4864F5D7392()
+	{
+		return (::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_256*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__ADA6E055B3C6BEB2_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_288* StaticGet__5BCD21C341BE6DDF8FFFAE1A23ABA24DCBB612BF()
+	{
+		return (::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_288*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__ADA6E055B3C6BEB2_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12* StaticGet__5CF7299F6558A8AC3F821B4F2F65F23798D319D3()
+	{
+		return (::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__ADA6E055B3C6BEB2_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12* StaticGet_AAF72C1002FDBCAE040DAE16A10D82184CE83679()
+	{
+		return (::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__ADA6E055B3C6BEB2_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12* StaticGet_B67A7FB4648C62F6A1337CA473436D0E787E8633()
+	{
+		return (::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__ADA6E055B3C6BEB2_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12* StaticGet_C69BF4F300AD2C2E49A8072C2FE6B712FA73EA8F()
+	{
+		return (::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__ADA6E055B3C6BEB2_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_112* StaticGet_F4789DA95951D4CEA75EEFF2955583B343E0A1B0()
+	{
+		return (::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_112*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__ADA6E055B3C6BEB2_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12* StaticGet_FAD52931F5B79811D31566BB18B6E0B5D2E2A164()
+	{
+		return (::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__ADA6E055B3C6BEB2_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_192* StaticGet_FEF070138AB3336A708A182D8861242AA432361F()
+	{
+		return (::_PrivateImplementationDetails__ADA6E055B3C6BEB2___StaticArrayInitTypeSize_192*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__ADA6E055B3C6BEB2_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+};

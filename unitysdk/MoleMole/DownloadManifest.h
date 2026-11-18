@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_34F7035555410463_1.h"
+#include "unitysdk/GPNHHGBPCGM.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_7FC98B52833961D9;
+class AGLEKEKLCKC;
 namespace MoleMole { class DownloadFileInfo; }
 namespace System { class String; }
 
-#define MOLEMOLE_DOWNLOADMANIFEST_METHOD_1_92C46EC231D398A9_OFFSET UNITYSDK_OFFSET(0x1B822390)
-#define MOLEMOLE_DOWNLOADMANIFEST_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B822190)
-#define MOLEMOLE_DOWNLOADMANIFEST_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B822150)
-#define MOLEMOLE_DOWNLOADMANIFEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B822380)
+#define MOLEMOLE_DOWNLOADMANIFEST_DOPENCMCDHL_OFFSET UNITYSDK_OFFSET(0x180CC460)
+#define MOLEMOLE_DOWNLOADMANIFEST_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x180CC270)
+#define MOLEMOLE_DOWNLOADMANIFEST_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x180CC230)
+#define MOLEMOLE_DOWNLOADMANIFEST__CTOR_OFFSET UNITYSDK_OFFSET(0x180CC450)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DownloadManifest_TypeDefinitionIndex = 68128;
+	inline static constexpr unsigned int DownloadManifest_TypeDefinitionIndex = 84857;
 
 	class DownloadManifest : public ::System::Object
 	{
 	public:
 		::System::String* remoteParentDir; // 0x10
 		::Il2CppArray<::MoleMole::DownloadFileInfo*>* files; // 0x18
-		::Il2CppArray<::Enum_3_34F7035555410463_1>* packages; // 0x20
-		::Il2CppArray<::Enum_3_34F7035555410463_1>* basePackages; // 0x28
-		::Il2CppArray<::Enum_3_34F7035555410463_1>* baseOnlyPackages; // 0x30
+		::Il2CppArray<::GPNHHGBPCGM>* packages; // 0x20
+		::Il2CppArray<::GPNHHGBPCGM>* basePackages; // 0x28
+		::Il2CppArray<::GPNHHGBPCGM>* baseOnlyPackages; // 0x30
 		::Il2CppArray<::System::Int32>* baseOnlyTitles; // 0x38
 
 		::System::Void _ctor()
@@ -41,9 +41,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DOWNLOADMANIFEST_ONAFTERDESERIALIZE_OFFSET))(this);
 		}
 
-		::Class_2_7FC98B52833961D9* Method_1_92C46EC231D398A9()
+		::AGLEKEKLCKC* DOPENCMCDHL()
 		{
-			return ((::Class_2_7FC98B52833961D9*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DOWNLOADMANIFEST_METHOD_1_92C46EC231D398A9_OFFSET))(this);
+			return ((::AGLEKEKLCKC*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DOWNLOADMANIFEST_DOPENCMCDHL_OFFSET))(this);
 		}
 	};
 }

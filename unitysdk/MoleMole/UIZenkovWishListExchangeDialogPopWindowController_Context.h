@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIZENKOVWISHLISTEXCHANGEDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B18770)
+#define MOLEMOLE_UIZENKOVWISHLISTEXCHANGEDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12C14000)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovWishListExchangeDialogPopWindowController_Context_TypeDefinitionIndex = 51257;
+	inline static constexpr unsigned int UIZenkovWishListExchangeDialogPopWindowController_Context_TypeDefinitionIndex = 59439;
 
 	class UIZenkovWishListExchangeDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

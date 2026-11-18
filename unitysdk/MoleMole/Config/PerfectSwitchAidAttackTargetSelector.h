@@ -6,21 +6,21 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x19FF6520)
-#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR_METHOD_2_77080AF97C54AF23_OFFSET UNITYSDK_OFFSET(0x19FF6330)
-#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FF65C0)
-#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF65B0)
+#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR_FLBFIEKHKME_OFFSET UNITYSDK_OFFSET(0x1A770320)
+#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR_OMHONDGJJGN_OFFSET UNITYSDK_OFFSET(0x1A770130)
+#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A7703C0)
+#define MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7703B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int PerfectSwitchAidAttackTargetSelector_TypeDefinitionIndex = 45269;
+	inline static constexpr unsigned int PerfectSwitchAidAttackTargetSelector_TypeDefinitionIndex = 57788;
 
 	class PerfectSwitchAidAttackTargetSelector : public ::MoleMole::Config::ConfigTargetSelector
 	{
 	public:
 		static ::System::String** StaticGet_PerfectSwitchForceLockConfigTag()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerfectSwitchAidAttackTargetSelector_TypeDefinitionIndex)->GetStaticField(0x3C7D0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PerfectSwitchAidAttackTargetSelector_TypeDefinitionIndex)->GetStaticField(0x3E920);
 		}
 
 		::System::Void _ctor()
@@ -33,14 +33,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR__CCTOR_OFFSET))();
 		}
 
-		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* Method_2_77080AF97C54AF23(::MoleMole::Battle::Entity* a1)
+		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* OMHONDGJJGN(::MoleMole::Battle::Entity* AMNIHACKELI)
 		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR_METHOD_2_77080AF97C54AF23_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR_OMHONDGJJGN_OFFSET))(this, AMNIHACKELI);
 		}
 
-		::System::String* Method_2_35EA095E1AFDD9C8()
+		::System::String* FLBFIEKHKME()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR_METHOD_2_35EA095E1AFDD9C8_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PERFECTSWITCHAIDATTACKTARGETSELECTOR_FLBFIEKHKME_OFFSET))(this);
 		}
 	};
 }

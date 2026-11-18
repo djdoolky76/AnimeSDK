@@ -5,13 +5,14 @@
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UICOOPEQUIPMENTSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS50_1__CTOR_OFFSET UNITYSDK_OFFSET(0x170ACE50)
-#define MOLEMOLE_UICOOPEQUIPMENTSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS50_1__INITSORT_B__3_OFFSET UNITYSDK_OFFSET(0x170ACE60)
+#define MOLEMOLE_UICOOPEQUIPMENTSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS50_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1705A850)
+#define MOLEMOLE_UICOOPEQUIPMENTSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS50_1__INITSORT_B__3_OFFSET UNITYSDK_OFFSET(0x1705A860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopEquipmentSelectPopWindowController___c__DisplayClass50_1_TypeDefinitionIndex = 82683;
+	inline static constexpr unsigned int UICoopEquipmentSelectPopWindowController___c__DisplayClass50_1_TypeDefinitionIndex = 53957;
 
+	template <typename T>
 	class UICoopEquipmentSelectPopWindowController___c__DisplayClass50_1 : public ::System::Object
 	{
 	public:

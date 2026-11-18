@@ -7,9 +7,9 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HollowCameraSerializeField_TypeDefinitionIndex = 40574;
+	inline static constexpr unsigned int HollowCameraSerializeField_TypeDefinitionIndex = 92714;
 
-	struct alignas(4) HollowCameraSerializeField
+	struct alignas(8) HollowCameraSerializeField
 	{
 		::MoleMole::UICameraAtom InitAtom; // 0x10
 		::MoleMole::UICameraAtom TargetAtom; // 0x30

@@ -5,13 +5,14 @@
 namespace MoleMole { class UIVHSStorePicBtnWidgetController; }
 namespace MoleMole { class UIVHSStoreWidgetWidgetController; }
 
-#define MOLEMOLE_UIVHSSTOREWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS35_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1916F450)
-#define MOLEMOLE_UIVHSSTOREWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS35_1__INITSLOT_B__5_OFFSET UNITYSDK_OFFSET(0x1916F460)
+#define MOLEMOLE_UIVHSSTOREWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS35_1__CTOR_OFFSET UNITYSDK_OFFSET(0x185EB660)
+#define MOLEMOLE_UIVHSSTOREWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS35_1__INITSLOT_B__5_OFFSET UNITYSDK_OFFSET(0x185EB670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreWidgetWidgetController___c__DisplayClass35_1_TypeDefinitionIndex = 42752;
+	inline static constexpr unsigned int UIVHSStoreWidgetWidgetController___c__DisplayClass35_1_TypeDefinitionIndex = 68409;
 
+	template <typename T>
 	class UIVHSStoreWidgetWidgetController___c__DisplayClass35_1 : public ::System::Object
 	{
 	public:

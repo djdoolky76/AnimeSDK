@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ILayoutSelfController_TypeDefinitionIndex = 19251;
+	inline static constexpr unsigned int ILayoutSelfController_TypeDefinitionIndex = 18405;
 
 	class ILayoutSelfController
 	{

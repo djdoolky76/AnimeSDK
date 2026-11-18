@@ -4,10 +4,10 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FTuple_4_TypeDefinitionIndex = 8426;
+	inline static constexpr unsigned int FTuple_4_TypeDefinitionIndex = 7988;
 
 	template <typename T1, typename T2, typename T3, typename T4>
-	struct FTuple_4
+	struct alignas(8) FTuple_4
 	{
 		T1 Item1; // 0x0
 		T2 Item2; // 0x0

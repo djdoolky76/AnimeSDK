@@ -7,22 +7,22 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_GENERALTIPSSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1924EEB0)
-#define MOLEMOLE_GENERALTIPSSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1924EF00)
-#define MOLEMOLE_GENERALTIPSSHOW_SETDETAILANDTTITLE_OFFSET UNITYSDK_OFFSET(0x1924F260)
-#define MOLEMOLE_GENERALTIPSSHOW_SETGOBTN_OFFSET UNITYSDK_OFFSET(0x1924F1F0)
-#define MOLEMOLE_GENERALTIPSSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1924EEC0)
+#define MOLEMOLE_GENERALTIPSSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1191CCF0)
+#define MOLEMOLE_GENERALTIPSSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1191CD40)
+#define MOLEMOLE_GENERALTIPSSHOW_SETDETAILANDTTITLE_OFFSET UNITYSDK_OFFSET(0x1191D0A0)
+#define MOLEMOLE_GENERALTIPSSHOW_SETGOBTN_OFFSET UNITYSDK_OFFSET(0x1191D030)
+#define MOLEMOLE_GENERALTIPSSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1191CD00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralTipsShow_TypeDefinitionIndex = 79502;
+	inline static constexpr unsigned int GeneralTipsShow_TypeDefinitionIndex = 80944;
 
 	class GeneralTipsShow : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::System::String* message; // 0x28
+		::System::String* title; // 0x28
 		::MoleMole::GeneralTipsShow_GoBtnData GoData; // 0x30
-		::System::String* title; // 0x50
+		::System::String* message; // 0x50
 		::System::String* detail; // 0x58
 		::System::Boolean showCustomDetailTitle; // 0x60
 

@@ -7,18 +7,19 @@ namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYWALLBLOCKFILTER_TAGSCHECK_OFFSET UNITYSDK_OFFSET(0x14374240)
-#define MOLEMOLE_CONFIG_CONFIGENTITYWALLBLOCKFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x14373B50)
-#define MOLEMOLE_CONFIG_CONFIGENTITYWALLBLOCKFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x143743D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYWALLBLOCKFILTER_TAGSCHECK_OFFSET UNITYSDK_OFFSET(0x121BE270)
+#define MOLEMOLE_CONFIG_CONFIGENTITYWALLBLOCKFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x121BDB80)
+#define MOLEMOLE_CONFIG_CONFIGENTITYWALLBLOCKFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x121BE400)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityWallBlockFilter_TypeDefinitionIndex = 84169;
+	inline static constexpr unsigned int ConfigEntityWallBlockFilter_TypeDefinitionIndex = 72665;
 
 	class ConfigEntityWallBlockFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{
 	public:
 		::UnityEngine::LayerMask FilterLayerMask; // 0x18
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::String*>* tags; // 0x20
 		::System::Single raycastOffset; // 0x28
 		::System::Boolean useLockBoneAsTarget; // 0x2C

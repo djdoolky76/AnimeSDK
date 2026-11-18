@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIBMJLOJLKD.h"
+
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+namespace MoleMole { class NotificationBadgeEx; }
+namespace MoleMole { class UIControlCollection; }
+
+#define HHENPOGKDFM_CHKLENBINHH_DJEJNBMCPPC_OFFSET UNITYSDK_OFFSET(0x146FB9C0)
+#define HHENPOGKDFM_CHKLENBINHH_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x146FB9D0)
+#define HHENPOGKDFM_CHKLENBINHH_EGJLFKFLGMH_OFFSET UNITYSDK_OFFSET(0x146FB9B0)
+#define HHENPOGKDFM_CHKLENBINHH_IOBDMMKFJOF_OFFSET UNITYSDK_OFFSET(0x146FB990)
+#define HHENPOGKDFM_CHKLENBINHH_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x146FB900)
+#define HHENPOGKDFM_CHKLENBINHH_LPJDGLNMMJI_OFFSET UNITYSDK_OFFSET(0x146FB9A0)
+#define HHENPOGKDFM_CHKLENBINHH_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x146FB7B0)
+#define HHENPOGKDFM_CHKLENBINHH__CTOR_OFFSET UNITYSDK_OFFSET(0x146FB980)
+
+inline static constexpr unsigned int HHENPOGKDFM_CHKLENBINHH_TypeDefinitionIndex = 93168;
+
+class HHENPOGKDFM_CHKLENBINHH : public ::GIBMJLOJLKD
+{
+public:
+	::LGINJIKKBJA* _LCMBLLAMCEB_k__BackingField; // 0x18
+	::MoleMole::NotificationBadgeEx* _CLNCPACBPCP_k__BackingField; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HHENPOGKDFM_CHKLENBINHH__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + HHENPOGKDFM_CHKLENBINHH_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::LGINJIKKBJA* IOBDMMKFJOF()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + HHENPOGKDFM_CHKLENBINHH_IOBDMMKFJOF_OFFSET))(this);
+	}
+
+	::MoleMole::NotificationBadgeEx* LPJDGLNMMJI()
+	{
+		return ((::MoleMole::NotificationBadgeEx*(*)(::PVOID))((::PBYTE)hIl2Cpp + HHENPOGKDFM_CHKLENBINHH_LPJDGLNMMJI_OFFSET))(this);
+	}
+
+	::System::Void EGJLFKFLGMH(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + HHENPOGKDFM_CHKLENBINHH_EGJLFKFLGMH_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void DJEJNBMCPPC(::MoleMole::NotificationBadgeEx* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::NotificationBadgeEx*))((::PBYTE)hIl2Cpp + HHENPOGKDFM_CHKLENBINHH_DJEJNBMCPPC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HHENPOGKDFM_CHKLENBINHH_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::System::Void ECNOGHHOPPF(::HNLACBJDCGI* MIALFKCCCPI, ::MoleMole::UIControlCollection* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + HHENPOGKDFM_CHKLENBINHH_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+};

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/InputSystem/TrackedDevice.h"
 
-#define UNITY_XR_OPENVR_VIVELIGHTHOUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3DB9E0)
+#define UNITY_XR_OPENVR_VIVELIGHTHOUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7F0190)
 
 namespace Unity::XR::OpenVR
 {
-	inline static constexpr unsigned int ViveLighthouse_TypeDefinitionIndex = 32126;
+	inline static constexpr unsigned int ViveLighthouse_TypeDefinitionIndex = 31575;
 
 	class ViveLighthouse : public ::UnityEngine::InputSystem::TrackedDevice
 	{

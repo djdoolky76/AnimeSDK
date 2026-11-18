@@ -7,12 +7,12 @@
 
 namespace MoleMole::Cameras { class CameraTrackSetting; }
 
-#define MOLEMOLE_CAMERAMODELSPHEREDATA_GETOVERRIDETRACK_OFFSET UNITYSDK_OFFSET(0x1279EE80)
-#define MOLEMOLE_CAMERAMODELSPHEREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1279F020)
+#define MOLEMOLE_CAMERAMODELSPHEREDATA_GETOVERRIDETRACK_OFFSET UNITYSDK_OFFSET(0x1C5ADAE0)
+#define MOLEMOLE_CAMERAMODELSPHEREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5ADC80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraModelSphereData_TypeDefinitionIndex = 56645;
+	inline static constexpr unsigned int CameraModelSphereData_TypeDefinitionIndex = 73518;
 
 	class CameraModelSphereData : public ::System::Object
 	{
@@ -22,6 +22,7 @@ namespace MoleMole
 		::UnityEngine::Vector3 DEFAULT_FOLLOWOFFSET; // 0x18
 		::UnityEngine::Vector3 DEFAULT_LOOKATOFFSET; // 0x24
 		::System::Boolean OverrideElevationTrack; // 0x30
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::MoleMole::CameraOrbit>* Orbits; // 0x38
 		::MoleMole::CameraOrbit TopOrbit; // 0x40
 		::System::Single TopCurvature; // 0x48

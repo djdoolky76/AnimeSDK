@@ -4,14 +4,14 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_MONOLEVELRESULTPAGECONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x168750E0)
-#define MOLEMOLE_MONOLEVELRESULTPAGECONFIG_START_OFFSET UNITYSDK_OFFSET(0x16875120)
-#define MOLEMOLE_MONOLEVELRESULTPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16875350)
-#define MOLEMOLE_MONOLEVELRESULTPAGECONFIG__START_G____NOTIFYEXP_9_0_OFFSET UNITYSDK_OFFSET(0x16875200)
+#define MOLEMOLE_MONOLEVELRESULTPAGECONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x10D41010)
+#define MOLEMOLE_MONOLEVELRESULTPAGECONFIG_START_OFFSET UNITYSDK_OFFSET(0x10D41050)
+#define MOLEMOLE_MONOLEVELRESULTPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10D41280)
+#define MOLEMOLE_MONOLEVELRESULTPAGECONFIG__START_G____NOTIFYEXP_9_0_OFFSET UNITYSDK_OFFSET(0x10D41130)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoLevelResultPageConfig_TypeDefinitionIndex = 87416;
+	inline static constexpr unsigned int MonoLevelResultPageConfig_TypeDefinitionIndex = 76912;
 
 	class MonoLevelResultPageConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
@@ -19,6 +19,7 @@ namespace MoleMole
 		::System::Single DelayRefreshExp; // 0x58
 		::System::Single ExpAnimDuration; // 0x5C
 		::System::Single ExpUpgradePaussDuration; // 0x60
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* ExpCurve; // 0x68
 		::System::Single DelayRefreshBtn; // 0x70
 		::System::Single ChallengeItemDelay; // 0x74

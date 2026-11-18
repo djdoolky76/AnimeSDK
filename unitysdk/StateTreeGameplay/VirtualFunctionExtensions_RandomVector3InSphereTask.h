@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/StateTreeGameplay/RandomVector3InSphereTask.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_RANDOMVECTOR3INSPHERETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1E509120)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_RANDOMVECTOR3INSPHERETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1E5090A0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_RANDOMVECTOR3INSPHERETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1E1A1FC0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_RANDOMVECTOR3INSPHERETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1E1A1F40)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_RandomVector3InSphereTask_TypeDefinitionIndex = 76173;
+	inline static constexpr unsigned int VirtualFunctionExtensions_RandomVector3InSphereTask_TypeDefinitionIndex = 87020;
 
 	class VirtualFunctionExtensions_RandomVector3InSphereTask : public ::System::Object
 	{

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_9F091E965E210217_26;
-namespace MoleMole { class UIMonsterFantasyBossInfoPageController___c__DisplayClass53_2; }
+class GFHOCGNJKEF;
 
-#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS53_3__BUILDCLIENTMONSTERINFO_B__6_OFFSET UNITYSDK_OFFSET(0x168E10C0)
-#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS53_3__CTOR_OFFSET UNITYSDK_OFFSET(0x168DD0B0)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS53_3__BUILDCLIENTMONSTERINFO_B__6_OFFSET UNITYSDK_OFFSET(0x17C86F30)
+#define MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS53_3__CTOR_OFFSET UNITYSDK_OFFSET(0x17C861B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyBossInfoPageController___c__DisplayClass53_3_TypeDefinitionIndex = 49450;
+	inline static constexpr unsigned int UIMonsterFantasyBossInfoPageController___c__DisplayClass53_3_TypeDefinitionIndex = 59122;
 
+	template <typename T1, typename T2, typename T3>
 	class UIMonsterFantasyBossInfoPageController___c__DisplayClass53_3 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMonsterFantasyBossInfoPageController___c__DisplayClass53_2* CS___8__locals2; // 0x10
+		::System::Object* CS___8__locals2; // 0x10
 		::System::Int32 i1; // 0x18
 
 		::System::Void _ctor()
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS53_3__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _BuildClientMonsterInfo_b__6(::Class_3_9F091E965E210217_26* x)
+		::System::Boolean _BuildClientMonsterInfo_b__6(::GFHOCGNJKEF* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_3_9F091E965E210217_26*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS53_3__BUILDCLIENTMONSTERINFO_B__6_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::GFHOCGNJKEF*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMONSTERFANTASYBOSSINFOPAGECONTROLLER___C__DISPLAYCLASS53_3__BUILDCLIENTMONSTERINFO_B__6_OFFSET))(this, x);
 		}
 	};
 }

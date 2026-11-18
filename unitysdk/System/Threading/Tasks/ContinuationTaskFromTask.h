@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Threading/StackCrawlMark.h"
 #include "unitysdk/System/Threading/Tasks/InternalTaskOptions.h"
 #include "unitysdk/System/Threading/Tasks/Task.h"
 #include "unitysdk/System/Threading/Tasks/TaskCreationOptions.h"
+#include "unitysdk/System/Threading/StackCrawlMark.h"
 
 namespace System { class Delegate; }
 namespace System { class Object; }
 
-#define SYSTEM_THREADING_TASKS_CONTINUATIONTASKFROMTASK_INNERINVOKE_OFFSET UNITYSDK_OFFSET(0x1CCCD620)
-#define SYSTEM_THREADING_TASKS_CONTINUATIONTASKFROMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCCD150)
+#define SYSTEM_THREADING_TASKS_CONTINUATIONTASKFROMTASK_INNERINVOKE_OFFSET UNITYSDK_OFFSET(0x1D1CE850)
+#define SYSTEM_THREADING_TASKS_CONTINUATIONTASKFROMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CE380)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int ContinuationTaskFromTask_TypeDefinitionIndex = 920;
+	inline static constexpr unsigned int ContinuationTaskFromTask_TypeDefinitionIndex = 919;
 
 	class ContinuationTaskFromTask : public ::System::Threading::Tasks::Task
 	{

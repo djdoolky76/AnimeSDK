@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int GIConfig_BrightnessFetchType_TypeDefinitionIndex = 27334;
+	inline static constexpr unsigned int GIConfig_BrightnessFetchType_TypeDefinitionIndex = 27195;
 
 	enum class GIConfig_BrightnessFetchType : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/MoleMole/SceneQualityLevel.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/SceneEffectQuality.h"
 
-#define MOLEMOLE_SCENEQUALITYPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11D656C0)
+#define MOLEMOLE_SCENEQUALITYPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18958770)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneQualityProfileContext_TypeDefinitionIndex = 83825;
+	inline static constexpr unsigned int SceneQualityProfileContext_TypeDefinitionIndex = 43866;
 
 	class SceneQualityProfileContext : public ::MoleMole::GraphicSettingProfileContextBase
 	{

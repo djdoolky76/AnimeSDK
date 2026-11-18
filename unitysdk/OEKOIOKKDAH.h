@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int OEKOIOKKDAH_TypeDefinitionIndex = 24638;
+
+enum class OEKOIOKKDAH : ::System::Int32
+{
+	AGOALNMFGHP = 1,
+	NFLDLKLOGCJ = 4,
+	EGBMNHKCODL = 15,
+	APHKGLHLPHI = 7,
+	LCCDMANBFAN = 18,
+	PKHLFIPCKFI = 12,
+	DIGGJNABEGD = 0,
+	MBIHMJJFFHN = 11,
+	PBOABBEEDAK = 14,
+	FDLMHOANBEI = 13,
+	MAHHCJGNFHJ = 2,
+	DCEAFOOOEII = 16,
+	MAHAKBHMADH = 5,
+	BPJGFIMFEAB = 9,
+	BPCODOJBHFH = 6,
+	IINEDGNMCHH = 8,
+	PDFLMEBAMGC = 19,
+	BBIOJKJPHJP = 17,
+	GPELPGPICKN = 3,
+	BEHKFLJFCJB = 10,
+};

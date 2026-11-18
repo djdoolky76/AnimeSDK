@@ -5,25 +5,26 @@
 #include "unitysdk/MoleMole/MonoUIGameObjectNumber_SpecOffsetConfig.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x14A172F0)
-#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER_SETNUMBER_OFFSET UNITYSDK_OFFSET(0x14A15B90)
-#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x14A174C0)
-#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__DISABLEALLPARTS_OFFSET UNITYSDK_OFFSET(0x14A164A0)
-#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__EFF_PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x14A17050)
-#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__HASZEROSHOWOPT_OFFSET UNITYSDK_OFFSET(0x14A15AA0)
-#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__SETOFFSET_OFFSET UNITYSDK_OFFSET(0x14A16720)
-#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__SETPARTS_OFFSET UNITYSDK_OFFSET(0x14A16120)
-#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__TRYPLAYNUMBANIMATION_OFFSET UNITYSDK_OFFSET(0x14A16DC0)
-#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__TRYSETANIMAPAUSE_OFFSET UNITYSDK_OFFSET(0x14A17170)
+#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1310E980)
+#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER_SETNUMBER_OFFSET UNITYSDK_OFFSET(0x1310D220)
+#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1310EB50)
+#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__DISABLEALLPARTS_OFFSET UNITYSDK_OFFSET(0x1310DB30)
+#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__EFF_PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x1310E6E0)
+#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__HASZEROSHOWOPT_OFFSET UNITYSDK_OFFSET(0x1310D130)
+#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__SETOFFSET_OFFSET UNITYSDK_OFFSET(0x1310DDB0)
+#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__SETPARTS_OFFSET UNITYSDK_OFFSET(0x1310D7B0)
+#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__TRYPLAYNUMBANIMATION_OFFSET UNITYSDK_OFFSET(0x1310E450)
+#define MOLEMOLE_MONOUIGAMEOBJECTNUMBER__TRYSETANIMAPAUSE_OFFSET UNITYSDK_OFFSET(0x1310E800)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIGameObjectNumber_TypeDefinitionIndex = 89103;
+	inline static constexpr unsigned int MonoUIGameObjectNumber_TypeDefinitionIndex = 86276;
 
 	class MonoUIGameObjectNumber : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
@@ -31,17 +32,18 @@ namespace MoleMole
 		// static const ::System::String* KEY_SPEC_SET; // 0x0
 		// static const ::System::String* KEY_ANIM_SET; // 0x0
 		// static const ::System::String* KEY_OFFSET; // 0x0
-		::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUIGameObjectNumber_NumberUnits, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::GameObject*>*>* numbers; // 0x58
-		::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUIGameObjectNumber_NumberUnits, ::System::Boolean>* numberOpenZero; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::GameObject*>*>* numbers; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Boolean>* numberOpenZero; // 0x60
 		::System::Int32 curNumber; // 0x68
 		::System::Boolean _isRunning; // 0x6C
+		::System::Byte _padding0[0x3];
 		::MoleMole::MonoUIGameObjectNumber_NumberAnimation LAnimation; // 0x70
 		::MoleMole::MonoUIGameObjectNumber_NumberAnimation RAnimation; // 0x80
 		::UnityEngine::GameObject* L; // 0x90
 		::UnityEngine::GameObject* R; // 0x98
 		::MoleMole::MonoUIGameObjectNumber_SpecOffsetConfig unitsOffset; // 0xA0
 		::MoleMole::MonoUIGameObjectNumber_SpecOffsetConfig tensOffset; // 0xB8
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::MonoUIGameObjectNumber_SpecOffsetConfig>* SpecDigitOffsetConfigs; // 0xD0
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* SpecDigitOffsetConfigs; // 0xD0
 		::System::String* audioRTPC; // 0xD8
 		::System::String* audioEvent; // 0xE0
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Animation*, ::System::String*>* _lastAnimation; // 0xE8

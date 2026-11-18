@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1279E360)
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1279E3A0)
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM___C___SENDAVATARCHANGE_B__21_0_OFFSET UNITYSDK_OFFSET(0x1279E3B0)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5ACFC0)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AD000)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM___C___SENDAVATARCHANGE_B__21_0_OFFSET UNITYSDK_OFFSET(0x1C5AD010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BigSceneMiscLogicSubSystem___c_TypeDefinitionIndex = 51418;
+	inline static constexpr unsigned int BigSceneMiscLogicSubSystem___c_TypeDefinitionIndex = 39725;
 
 	class BigSceneMiscLogicSubSystem___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(BigSceneMiscLogicSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x4C050);
+		}
 		static ::System::Action** StaticGet___9__21_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(BigSceneMiscLogicSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x468D0);
-		}
-		static ::MoleMole::BigSceneMiscLogicSubSystem___c** StaticGet___9()
-		{
-			return (::MoleMole::BigSceneMiscLogicSubSystem___c**)Il2CppClass::FromTypeDefinitionIndex(BigSceneMiscLogicSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x468D8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(BigSceneMiscLogicSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x4C058);
 		}
 
 		static ::System::Void _cctor()

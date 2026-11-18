@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CGJEMKCKIJG.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+
+class CPABOPKIGAL;
+class EJHHPFFPFOJ;
+class HOFAIFGAHGJ;
+class MKBBPOFGLOF;
+namespace System { class String; }
+template <typename T> class KCMIFNGABDC_1;
+
+#define DACCMMPOFCH_CGCCDMAHNOK_OFFSET UNITYSDK_OFFSET(0x193F3450)
+#define DACCMMPOFCH_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0x193F2E40)
+#define DACCMMPOFCH_EMNDAHHHONK_OFFSET UNITYSDK_OFFSET(0x193F3150)
+#define DACCMMPOFCH_FEDNEKFMGNF_OFFSET UNITYSDK_OFFSET(0x193F2BE0)
+#define DACCMMPOFCH_GDEOPIBNOIN_OFFSET UNITYSDK_OFFSET(0x193F3F70)
+#define DACCMMPOFCH_KMDNEGFKKNI_OFFSET UNITYSDK_OFFSET(0x193F4000)
+#define DACCMMPOFCH__CTOR_OFFSET UNITYSDK_OFFSET(0x193F3D70)
+
+inline static constexpr unsigned int DACCMMPOFCH_TypeDefinitionIndex = 42813;
+
+class DACCMMPOFCH : public ::CGJEMKCKIJG
+{
+public:
+	::HOFAIFGAHGJ* LOJEMALELOH; // 0x18
+	::KCMIFNGABDC_1<::System::Int32>* LFPCKGNFIME; // 0x20
+	::KCMIFNGABDC_1<::System::Int32>* FBIAIBPNIAA; // 0x28
+	::CPABOPKIGAL* LMDIMIIBPLD; // 0x30
+	::KCMIFNGABDC_1<::System::String*>* EMAHNHIJPHA; // 0x38
+	::MKBBPOFGLOF* PLEJMLIFFHG; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DACCMMPOFCH__CTOR_OFFSET))(this);
+	}
+
+	::System::Void FEDNEKFMGNF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DACCMMPOFCH_FEDNEKFMGNF_OFFSET))(this);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + DACCMMPOFCH_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF);
+	}
+
+	::System::Void GDEOPIBNOIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DACCMMPOFCH_GDEOPIBNOIN_OFFSET))(this);
+	}
+
+	::EJHHPFFPFOJ* EMNDAHHHONK(::System::String* IACKHFCLPJI, ::System::UInt32 KMMGKJPAOMF)
+	{
+		return ((::EJHHPFFPFOJ*(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + DACCMMPOFCH_EMNDAHHHONK_OFFSET))(this, IACKHFCLPJI, KMMGKJPAOMF);
+	}
+
+	static ::System::Void CGCCDMAHNOK(::System::UInt32 PDMHCPFGNAJ)
+	{
+		return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + DACCMMPOFCH_CGCCDMAHNOK_OFFSET))(PDMHCPFGNAJ);
+	}
+
+	::System::Void KMDNEGFKKNI(::EJHHPFFPFOJ* PFDJMMCJIIM)
+	{
+		return ((::System::Void(*)(::PVOID, ::EJHHPFFPFOJ*))((::PBYTE)hIl2Cpp + DACCMMPOFCH_KMDNEGFKKNI_OFFSET))(this, PFDJMMCJIIM);
+	}
+};

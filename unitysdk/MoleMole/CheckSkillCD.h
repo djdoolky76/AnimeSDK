@@ -3,26 +3,26 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Conditional.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_3_B9D5951434CC70FD;
+class DJAGNIDEICF;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CHECKSKILLCD_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x16C24E10)
-#define MOLEMOLE_CHECKSKILLCD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x16C24FC0)
-#define MOLEMOLE_CHECKSKILLCD__CTOR_OFFSET UNITYSDK_OFFSET(0x16C25030)
-#define MOLEMOLE_CHECKSKILLCD___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x16C250C0)
-#define MOLEMOLE_CHECKSKILLCD___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x16C25150)
+#define MOLEMOLE_CHECKSKILLCD_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x18B7DA30)
+#define MOLEMOLE_CHECKSKILLCD_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x18B7DBE0)
+#define MOLEMOLE_CHECKSKILLCD__CTOR_OFFSET UNITYSDK_OFFSET(0x18B7DC50)
+#define MOLEMOLE_CHECKSKILLCD___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x18B7DCE0)
+#define MOLEMOLE_CHECKSKILLCD___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x18B7DD70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckSkillCD_TypeDefinitionIndex = 42488;
+	inline static constexpr unsigned int CheckSkillCD_TypeDefinitionIndex = 77226;
 
 	class CheckSkillCD : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
-		::Class_3_B9D5951434CC70FD* _skillComponent; // 0x50
+		::MoleMole::SharedGameEntity* sharedOwnerEntity; // 0x50
 		::MoleMole::Battle::Entity* _ownerEntity; // 0x58
-		::MoleMole::SharedGameEntity* sharedOwnerEntity; // 0x60
+		::DJAGNIDEICF* _skillComponent; // 0x60
 		::System::Int32 skillBtnIndex; // 0x68
 
 		::System::Void _ctor()

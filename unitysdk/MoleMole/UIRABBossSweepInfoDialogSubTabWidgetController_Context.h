@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIRABBOSSSWEEPINFODIALOGSUBTABWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16902320)
+#define MOLEMOLE_UIRABBOSSSWEEPINFODIALOGSUBTABWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15C52900)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABBossSweepInfoDialogSubTabWidgetController_Context_TypeDefinitionIndex = 56219;
+	inline static constexpr unsigned int UIRABBossSweepInfoDialogSubTabWidgetController_Context_TypeDefinitionIndex = 82047;
 
 	class UIRABBossSweepInfoDialogSubTabWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

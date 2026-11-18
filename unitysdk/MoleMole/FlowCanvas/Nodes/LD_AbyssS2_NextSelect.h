@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTSELECT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A05C160)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTSELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05C450)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTSELECT__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1A05C490)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTSELECT__REGISTERPORTS_B__3_1_OFFSET UNITYSDK_OFFSET(0x1A05C6F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTSELECT__SENDEVENT_OFFSET UNITYSDK_OFFSET(0x1A05C260)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTSELECT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13EDBBF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTSELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x13EDBEE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTSELECT__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x13EDBF20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTSELECT__REGISTERPORTS_B__3_1_OFFSET UNITYSDK_OFFSET(0x13EDC180)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_NEXTSELECT__SENDEVENT_OFFSET UNITYSDK_OFFSET(0x13EDBCF0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_NextSelect_TypeDefinitionIndex = 72521;
+	inline static constexpr unsigned int LD_AbyssS2_NextSelect_TypeDefinitionIndex = 58194;
 
 	class LD_AbyssS2_NextSelect : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _output; // 0xA8
-		::FlowCanvas::FlowOutput* _error; // 0xB0
+		::FlowCanvas::FlowOutput* _error; // 0xA8
+		::FlowCanvas::FlowOutput* _output; // 0xB0
 		::FlowCanvas::ValueInput_1<::System::Int32>* nextSelectAreaID; // 0xB8
 
 		::System::Void _ctor()

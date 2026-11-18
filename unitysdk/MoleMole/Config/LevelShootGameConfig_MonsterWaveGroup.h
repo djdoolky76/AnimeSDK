@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_MONSTERWAVEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16C5AC60)
+#define MOLEMOLE_CONFIG_LEVELSHOOTGAMECONFIG_MONSTERWAVEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A046490)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelShootGameConfig_MonsterWaveGroup_TypeDefinitionIndex = 52693;
+	inline static constexpr unsigned int LevelShootGameConfig_MonsterWaveGroup_TypeDefinitionIndex = 40527;
 
 	class LevelShootGameConfig_MonsterWaveGroup : public ::System::Object
 	{

@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMultiInteractionTargetListItemWidgetController_DisplayStrategyType_TypeDefinitionIndex = 79754;
+	inline static constexpr unsigned int UIMultiInteractionTargetListItemWidgetController_DisplayStrategyType_TypeDefinitionIndex = 80002;
 
 	enum class UIMultiInteractionTargetListItemWidgetController_DisplayStrategyType : ::System::Int32
 	{
+		ZenkovDoor = 3,
 		ZenkovContainer = 4,
 		None = 0,
-		Default = 1,
-		ZenkovDoor = 3,
 		ZenkovDrop = 2,
+		Default = 1,
 	};
 }

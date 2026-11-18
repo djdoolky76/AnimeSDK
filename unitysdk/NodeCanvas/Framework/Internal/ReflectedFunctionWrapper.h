@@ -3,15 +3,14 @@
 #include "unitysdk/NodeCanvas/Framework/Internal/ReflectedWrapper.h"
 
 namespace NodeCanvas::Framework { class IBlackboard; }
-namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define NODECANVAS_FRAMEWORK_INTERNAL_REFLECTEDFUNCTIONWRAPPER_CREATE_OFFSET UNITYSDK_OFFSET(0x1E6DB4C0)
-#define NODECANVAS_FRAMEWORK_INTERNAL_REFLECTEDFUNCTIONWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6DBAD0)
+#define NODECANVAS_FRAMEWORK_INTERNAL_REFLECTEDFUNCTIONWRAPPER_CREATE_OFFSET UNITYSDK_OFFSET(0x1E964800)
+#define NODECANVAS_FRAMEWORK_INTERNAL_REFLECTEDFUNCTIONWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E964E10)
 
 namespace NodeCanvas::Framework::Internal
 {
-	inline static constexpr unsigned int ReflectedFunctionWrapper_TypeDefinitionIndex = 31470;
+	inline static constexpr unsigned int ReflectedFunctionWrapper_TypeDefinitionIndex = 30373;
 
 	class ReflectedFunctionWrapper : public ::NodeCanvas::Framework::Internal::ReflectedWrapper
 	{

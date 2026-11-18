@@ -4,12 +4,12 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ArrayExt___c__DisplayClass26_0_1_TypeDefinitionIndex = 7839;
+	inline static constexpr unsigned int ArrayExt___c__DisplayClass26_0_1_TypeDefinitionIndex = 8671;
 
-	template <typename TValue>
+	template <typename T>
 	class ArrayExt___c__DisplayClass26_0_1 : public ::System::Object
 	{
 	public:
-		TValue secondValue; // 0x0
+		T secondValue; // 0x0
 	};
 }

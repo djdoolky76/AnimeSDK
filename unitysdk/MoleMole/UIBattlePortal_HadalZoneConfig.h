@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/UIBattlePortal_HadalZoneConfig_CfgLayerInfoItem.h"
 #include "unitysdk/MoleMole/UIBattlePortal_HadalZoneConfig_CfgZoneInfoItem.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIBATTLEPORTAL_HADALZONECONFIG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18D28400)
-#define MOLEMOLE_UIBATTLEPORTAL_HADALZONECONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18D283C0)
-#define MOLEMOLE_UIBATTLEPORTAL_HADALZONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D28440)
+#define MOLEMOLE_UIBATTLEPORTAL_HADALZONECONFIG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18D35240)
+#define MOLEMOLE_UIBATTLEPORTAL_HADALZONECONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18D35200)
+#define MOLEMOLE_UIBATTLEPORTAL_HADALZONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D35280)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBattlePortal_HadalZoneConfig_TypeDefinitionIndex = 43838;
+	inline static constexpr unsigned int UIBattlePortal_HadalZoneConfig_TypeDefinitionIndex = 47556;
 
 	class UIBattlePortal_HadalZoneConfig : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,7 +24,7 @@ namespace MoleMole
 		::System::String* bgVideoPath; // 0x28
 		::MoleMole::UIBattlePortal_HadalZoneConfig_CfgZoneInfoItem dynZoneInfoSprite; // 0x30
 		::MoleMole::UIBattlePortal_HadalZoneConfig_CfgZoneInfoItem fixedZoneInfoSprite; // 0x40
-		::System::Collections::Generic::List_1<::MoleMole::UIBattlePortal_HadalZoneConfig_CfgLayerInfoItem>* LayerInfoItems; // 0x50
+		::System::Collections::Generic::List_1<::System::Object*>* LayerInfoItems; // 0x50
 
 		::System::Void _ctor()
 		{

@@ -4,9 +4,9 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int AbilitySwitchSetting_TypeDefinitionIndex = 43348;
+	inline static constexpr unsigned int AbilitySwitchSetting_TypeDefinitionIndex = 82767;
 
-	struct alignas(1) AbilitySwitchSetting
+	struct alignas(4) AbilitySwitchSetting
 	{
 		::System::Boolean DisableNavmeshProcessor; // 0x10
 		::System::Boolean DisableAIActionProcessor; // 0x11

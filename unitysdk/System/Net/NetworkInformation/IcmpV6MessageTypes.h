@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_ICMPV6MESSAGETYPES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6ADD10)
+#define SYSTEM_NET_NETWORKINFORMATION_ICMPV6MESSAGETYPES__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBA7F00)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int IcmpV6MessageTypes_TypeDefinitionIndex = 3785;
+	inline static constexpr unsigned int IcmpV6MessageTypes_TypeDefinitionIndex = 3784;
 
 	class IcmpV6MessageTypes : public ::System::Object
 	{

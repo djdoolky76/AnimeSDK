@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPREQUESTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E52D7A0)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPREQUESTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB51580)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkInterface_HttpRequestParams_TypeDefinitionIndex = 37153;
+	inline static constexpr unsigned int HoYoSDKNetworkInterface_HttpRequestParams_TypeDefinitionIndex = 35139;
 
 	class HoYoSDKNetworkInterface_HttpRequestParams : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* m_arraBody; // 0x10
-		::System::String* m_strMethodName; // 0x18
+		::System::String* m_strUrl; // 0x10
+		::System::String* m_strIpAddr; // 0x18
 		::System::String* m_strHeaders; // 0x20
-		::System::String* m_strIpAddr; // 0x28
-		::System::String* m_strOptions; // 0x30
-		::System::String* m_strUrl; // 0x38
-		::System::Int32 m_nRecvTimeout; // 0x40
-		::System::Int32 m_nConnectTimeout; // 0x44
+		::Il2CppArray<::System::Byte>* m_arraBody; // 0x28
+		::System::String* m_strMethodName; // 0x30
+		::System::String* m_strOptions; // 0x38
+		::System::Int32 m_nConnectTimeout; // 0x40
+		::System::Int32 m_nRecvTimeout; // 0x44
 		::System::Int32 m_nPort; // 0x48
 
 		::System::Void _ctor()

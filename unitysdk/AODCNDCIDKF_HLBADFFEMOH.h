@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AODCNDCIDKF_HLBADFFEMOH_TypeDefinitionIndex = 79601;
+
+enum class AODCNDCIDKF_HLBADFFEMOH : ::System::UInt32
+{
+	NAP_UIEvent_PointerDown = 101,
+	NAP_GAME_PRELOAD_SUCCESS = 1,
+	NAP_SDK_ENTER_GAME = 5,
+	NAP_GAME_APPLY_PARAMS_FAILED = 4,
+	NAP_GAME_APPLY_PARAMS_SUCCESS = 3,
+	NAP_SDK_ENTER_FAILED = 6,
+	NAP_GAME_PRELOAD_FAILED = 2,
+	NAP_UIEvent_BeginDrag = 102,
+	NAP_GETSERVERDIAPTCH_FAILED = 8,
+	NAP_GETLOCALDATA_FAILED = 7,
+};

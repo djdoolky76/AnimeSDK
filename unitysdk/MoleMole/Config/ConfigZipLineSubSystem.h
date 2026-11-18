@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINESUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1350AAC0)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINESUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92EF30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLineSubSystem_TypeDefinitionIndex = 56837;
+	inline static constexpr unsigned int ConfigZipLineSubSystem_TypeDefinitionIndex = 83882;
 
 	class ConfigZipLineSubSystem : public ::Foundation::MihoyoSerializedScriptableObject
 	{

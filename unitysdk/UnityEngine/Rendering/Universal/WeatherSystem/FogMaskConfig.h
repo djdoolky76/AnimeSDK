@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_FOGMASKCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CF187E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_FOGMASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF18CA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_FOGMASKCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D2AAE10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_FOGMASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AB2D0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int FogMaskConfig_TypeDefinitionIndex = 27383;
+	inline static constexpr unsigned int FogMaskConfig_TypeDefinitionIndex = 26985;
 
-	class FogMaskConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::FogMaskConfig*>
+	class FogMaskConfig
 	{
 	public:
 		::System::Boolean enableFogMask; // 0x18
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Color fogMaskScattering; // 0x1C
 		::System::Single fogMaskTransmittance; // 0x2C
 		::System::Single fogMaskIntensity; // 0x30

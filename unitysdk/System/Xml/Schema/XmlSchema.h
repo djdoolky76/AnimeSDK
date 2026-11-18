@@ -22,31 +22,31 @@ namespace System::Xml::Schema { class XmlSchemaCompilationSettings; }
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 namespace System::Xml::Schema { class XmlSchemaObjectTable; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_ADDANNOTATION_OFFSET UNITYSDK_OFFSET(0x1F253CE0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_CLONE_OFFSET UNITYSDK_OFFSET(0x1F253620)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_COMPILESCHEMAINSET_OFFSET UNITYSDK_OFFSET(0x1F253310)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_COMPILESCHEMA_OFFSET UNITYSDK_OFFSET(0x1F2530B0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0x1F253740)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GETEXTERNALSCHEMASLIST_OFFSET UNITYSDK_OFFSET(0x1F253F20)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_ATTRIBUTEGROUPS_OFFSET UNITYSDK_OFFSET(0x1F253400)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1F2533A0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_BASEURI_OFFSET UNITYSDK_OFFSET(0x1F253530)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_DOCUMENT_OFFSET UNITYSDK_OFFSET(0x1F2535B0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_ELEMENTS_OFFSET UNITYSDK_OFFSET(0x1F2534D0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_IDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F253CB0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_IMPORTEDNAMESPACES_OFFSET UNITYSDK_OFFSET(0x1F253E70)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_IMPORTEDSCHEMAS_OFFSET UNITYSDK_OFFSET(0x1F253DC0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_SCHEMAID_OFFSET UNITYSDK_OFFSET(0x1F253540)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_SCHEMATYPES_OFFSET UNITYSDK_OFFSET(0x1F253460)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_READ_OFFSET UNITYSDK_OFFSET(0x1F252F00)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_SETUNHANDLEDATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1F253CD0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_SET_IDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F253CC0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F254180)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F252C30)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_ADDANNOTATION_OFFSET UNITYSDK_OFFSET(0x1F652BB0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_CLONE_OFFSET UNITYSDK_OFFSET(0x1F652520)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_COMPILESCHEMAINSET_OFFSET UNITYSDK_OFFSET(0x1F652200)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_COMPILESCHEMA_OFFSET UNITYSDK_OFFSET(0x1F651FA0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0x1F652630)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GETEXTERNALSCHEMASLIST_OFFSET UNITYSDK_OFFSET(0x1F652DF0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_ATTRIBUTEGROUPS_OFFSET UNITYSDK_OFFSET(0x1F6522F0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1F652290)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_BASEURI_OFFSET UNITYSDK_OFFSET(0x1F652440)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_DOCUMENT_OFFSET UNITYSDK_OFFSET(0x1F6524C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_ELEMENTS_OFFSET UNITYSDK_OFFSET(0x1F6523D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_IDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F652B80)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_IMPORTEDNAMESPACES_OFFSET UNITYSDK_OFFSET(0x1F652D40)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_IMPORTEDSCHEMAS_OFFSET UNITYSDK_OFFSET(0x1F652C90)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_SCHEMAID_OFFSET UNITYSDK_OFFSET(0x1F652450)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_SCHEMATYPES_OFFSET UNITYSDK_OFFSET(0x1F652360)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_READ_OFFSET UNITYSDK_OFFSET(0x1F651DF0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_SETUNHANDLEDATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1F652BA0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_SET_IDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F652B90)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F653040)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F651B20)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchema_TypeDefinitionIndex = 2113;
+	inline static constexpr unsigned int XmlSchema_TypeDefinitionIndex = 2112;
 
 	class XmlSchema : public ::System::Xml::Schema::XmlSchemaObject
 	{
@@ -55,34 +55,36 @@ namespace System::Xml::Schema
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(XmlSchema_TypeDefinitionIndex)->GetStaticField(0xEF0);
 		}
-		::System::Collections::ArrayList* importedNamespaces; // 0x38
+		::System::String* version; // 0x38
 		::System::Xml::Schema::XmlSchemaObjectTable* attributes; // 0x40
-		::System::Xml::Schema::XmlSchemaObjectTable* groups; // 0x48
-		::System::Collections::ArrayList* importedSchemas; // 0x50
+		::System::Xml::Schema::XmlSchemaObjectCollection* includes; // 0x48
+		::System::Collections::Hashtable* ids; // 0x50
 		::Il2CppArray<::System::Xml::XmlAttribute*>* moreAttributes; // 0x58
-		::System::Xml::Schema::XmlSchemaObjectTable* attributeGroups; // 0x60
-		::System::Xml::Schema::XmlSchemaObjectTable* elements; // 0x68
-		::System::Collections::Hashtable* ids; // 0x70
-		::System::Xml::Schema::XmlSchemaObjectTable* identityConstraints; // 0x78
-		::System::Xml::Schema::XmlSchemaObjectCollection* items; // 0x80
-		::System::String* version; // 0x88
-		::System::Xml::Schema::XmlSchemaObjectTable* types; // 0x90
-		::System::Xml::XmlDocument* document; // 0x98
-		::System::Uri* baseUri; // 0xA0
-		::System::Xml::Schema::XmlSchemaObjectCollection* includes; // 0xA8
-		::System::String* id; // 0xB0
-		::System::String* targetNs; // 0xB8
-		::System::Xml::Schema::XmlSchemaObjectTable* notations; // 0xC0
-		::System::Int32 schemaId; // 0xC8
-		::System::Xml::Schema::XmlSchemaForm attributeFormDefault; // 0xCC
-		::System::Int32 errorCount; // 0xD0
-		::System::Boolean isChameleon; // 0xD4
-		::System::Boolean isCompiled; // 0xD5
-		::System::Xml::Schema::XmlSchemaForm elementFormDefault; // 0xD8
-		::System::Boolean isCompiledBySet; // 0xDC
-		::System::Boolean isPreprocessed; // 0xDD
-		::System::Boolean isRedefined; // 0xDE
-		::System::Xml::Schema::XmlSchemaDerivationMethod finalDefault; // 0xE0
+		::System::Xml::Schema::XmlSchemaObjectTable* identityConstraints; // 0x60
+		::System::Xml::Schema::XmlSchemaObjectTable* notations; // 0x68
+		::System::String* id; // 0x70
+		::System::Xml::XmlDocument* document; // 0x78
+		::System::Uri* baseUri; // 0x80
+		::System::Xml::Schema::XmlSchemaObjectTable* attributeGroups; // 0x88
+		::System::Xml::Schema::XmlSchemaObjectCollection* items; // 0x90
+		::System::Xml::Schema::XmlSchemaObjectTable* groups; // 0x98
+		::System::Collections::ArrayList* importedSchemas; // 0xA0
+		::System::Xml::Schema::XmlSchemaObjectTable* types; // 0xA8
+		::System::String* targetNs; // 0xB0
+		::System::Xml::Schema::XmlSchemaObjectTable* elements; // 0xB8
+		::System::Collections::ArrayList* importedNamespaces; // 0xC0
+		::System::Xml::Schema::XmlSchemaDerivationMethod finalDefault; // 0xC8
+		::System::Int32 schemaId; // 0xCC
+		::System::Boolean isChameleon; // 0xD0
+		::System::Boolean isCompiledBySet; // 0xD1
+		::System::Boolean isRedefined; // 0xD2
+		::System::Byte _padding0[0x1];
+		::System::Xml::Schema::XmlSchemaForm attributeFormDefault; // 0xD4
+		::System::Int32 errorCount; // 0xD8
+		::System::Boolean isPreprocessed; // 0xDC
+		::System::Boolean isCompiled; // 0xDD
+		::System::Byte _padding1[0x2];
+		::System::Xml::Schema::XmlSchemaForm elementFormDefault; // 0xE0
 		::System::Xml::Schema::XmlSchemaDerivationMethod blockDefault; // 0xE4
 
 		::System::Void _ctor()

@@ -1,16 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/InputSystem/InputBindingComposite.h"
-#include "unitysdk/UnityEngine/InputSystem/InputBindingCompositeContext.h"
-
-namespace System { class Object; }
-namespace System { class Type; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputBindingComposite_1_TypeDefinitionIndex = 32200;
+	inline static constexpr unsigned int InputBindingComposite_1_TypeDefinitionIndex = 31649;
 
-	template <typename TValue>
+	template <typename T>
 	class InputBindingComposite_1 : public ::UnityEngine::InputSystem::InputBindingComposite
 	{
 	public:

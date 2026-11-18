@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define TWOPOINTSLINKGENERATOR_SETUPMATERIALS_OFFSET UNITYSDK_OFFSET(0x1C3EF180)
-#define TWOPOINTSLINKGENERATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C3EF3F0)
-#define TWOPOINTSLINKGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3EF950)
+#define TWOPOINTSLINKGENERATOR_SETUPMATERIALS_OFFSET UNITYSDK_OFFSET(0x1BA05E40)
+#define TWOPOINTSLINKGENERATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BA060B0)
+#define TWOPOINTSLINKGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA06610)
 
-inline static constexpr unsigned int TwoPointsLinkGenerator_TypeDefinitionIndex = 76321;
+inline static constexpr unsigned int TwoPointsLinkGenerator_TypeDefinitionIndex = 74838;
 
 class TwoPointsLinkGenerator : public ::UnityEngine::MonoBehaviour
 {
@@ -19,6 +19,7 @@ public:
 	::UnityEngine::GameObject* startObject; // 0x18
 	::UnityEngine::GameObject* endObject; // 0x20
 	::System::Single width; // 0x28
+	::System::Byte _padding0[0x4];
 	::System::Collections::Generic::List_1<::UnityEngine::Material*>* materials; // 0x30
 	::FluffyUnderware::Curvy::Shapes::CSRectangle* rect0; // 0x38
 	::FluffyUnderware::Curvy::Shapes::CSRectangle* rect1; // 0x40

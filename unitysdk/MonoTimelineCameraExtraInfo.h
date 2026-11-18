@@ -2,14 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOTIMELINECAMERAEXTRAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x112F1EF0)
+#define MONOTIMELINECAMERAEXTRAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x10596BB0)
 
-inline static constexpr unsigned int MonoTimelineCameraExtraInfo_TypeDefinitionIndex = 66905;
+inline static constexpr unsigned int MonoTimelineCameraExtraInfo_TypeDefinitionIndex = 58345;
 
 class MonoTimelineCameraExtraInfo : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::Boolean CameraApplyOnTransitionYRatio; // 0x18
+	::System::Byte _padding0[0x3];
 	::System::Single CameraOnTransitionYRatioValue; // 0x1C
 	::System::Single CameraOnTransitionPolarAngle; // 0x20
 

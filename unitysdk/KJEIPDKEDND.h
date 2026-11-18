@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NMPOMCLNLMB.h"
+#include "unitysdk/System/Object.h"
+
+class OCLLKJMICKK;
+class PNHPELCKOHH;
+
+#define KJEIPDKEDND_BMMIHPJOKFC_OFFSET UNITYSDK_OFFSET(0x1E76EFC0)
+#define KJEIPDKEDND_EJPNEBOFCOB_OFFSET UNITYSDK_OFFSET(0x1E76EB80)
+#define KJEIPDKEDND_MMDCONIEJNO_1_OFFSET UNITYSDK_OFFSET(0x1E76EE50)
+#define KJEIPDKEDND_MMDCONIEJNO_OFFSET UNITYSDK_OFFSET(0x1E76E900)
+
+inline static constexpr unsigned int KJEIPDKEDND_TypeDefinitionIndex = 94392;
+
+class KJEIPDKEDND : public ::System::Object
+{
+public:
+	static ::System::Void MMDCONIEJNO(::OCLLKJMICKK* KMHICJLIECP)
+	{
+		return ((::System::Void(*)(::OCLLKJMICKK*))((::PBYTE)hIl2Cpp + KJEIPDKEDND_MMDCONIEJNO_OFFSET))(KMHICJLIECP);
+	}
+
+	static ::System::Void MMDCONIEJNO_1(::PNHPELCKOHH* GEEHGDABNJF)
+	{
+		return ((::System::Void(*)(::PNHPELCKOHH*))((::PBYTE)hIl2Cpp + KJEIPDKEDND_MMDCONIEJNO_1_OFFSET))(GEEHGDABNJF);
+	}
+
+	static ::System::Boolean BMMIHPJOKFC(::OCLLKJMICKK* KMHICJLIECP, ::System::Int32 FABLDPFOBHG, ::System::Int64 MALKPIKMAJB, ::System::Int64& NBMMLCHLIFF)
+	{
+		return ((::System::Boolean(*)(::OCLLKJMICKK*, ::System::Int32, ::System::Int64, ::System::Int64&))((::PBYTE)hIl2Cpp + KJEIPDKEDND_BMMIHPJOKFC_OFFSET))(KMHICJLIECP, FABLDPFOBHG, MALKPIKMAJB, NBMMLCHLIFF);
+	}
+
+	static ::System::Boolean EJPNEBOFCOB(::OCLLKJMICKK* KMHICJLIECP, ::System::Int32 FABLDPFOBHG, ::System::Int64 AKJAHMIDLDE, ::NMPOMCLNLMB DOILJOJNPBE, ::System::Int64& CPMMOMELAKD, ::System::Boolean NCOEOPILOOK)
+	{
+		return ((::System::Boolean(*)(::OCLLKJMICKK*, ::System::Int32, ::System::Int64, ::NMPOMCLNLMB, ::System::Int64&, ::System::Boolean))((::PBYTE)hIl2Cpp + KJEIPDKEDND_EJPNEBOFCOB_OFFSET))(KMHICJLIECP, FABLDPFOBHG, AKJAHMIDLDE, DOILJOJNPBE, CPMMOMELAKD, NCOEOPILOOK);
+	}
+};

@@ -4,21 +4,21 @@
 
 namespace FluffyUnderware::Curvy::Generator { class CGModule; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_DIRTINESSMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9312F0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_DIRTINESSMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F931330)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_DIRTINESSMANAGER___C___CCTOR_B__16_0_OFFSET UNITYSDK_OFFSET(0x1F931340)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_DIRTINESSMANAGER___C___CCTOR_B__16_1_OFFSET UNITYSDK_OFFSET(0x1F931370)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_DIRTINESSMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD34E10)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_DIRTINESSMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD34E50)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_DIRTINESSMANAGER___C___CCTOR_B__16_0_OFFSET UNITYSDK_OFFSET(0x1FD34E60)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_DIRTINESSMANAGER___C___CCTOR_B__16_1_OFFSET UNITYSDK_OFFSET(0x1FD34E90)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGModule_DirtinessManager___c_TypeDefinitionIndex = 39716;
+	inline static constexpr unsigned int CGModule_DirtinessManager___c_TypeDefinitionIndex = 37613;
 
 	class CGModule_DirtinessManager___c : public ::System::Object
 	{
 	public:
-		static ::FluffyUnderware::Curvy::Generator::CGModule_DirtinessManager___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::FluffyUnderware::Curvy::Generator::CGModule_DirtinessManager___c**)Il2CppClass::FromTypeDefinitionIndex(CGModule_DirtinessManager___c_TypeDefinitionIndex)->GetStaticField(0x2AF20);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(CGModule_DirtinessManager___c_TypeDefinitionIndex)->GetStaticField(0x2C280);
 		}
 
 		static ::System::Void _cctor()

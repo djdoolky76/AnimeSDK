@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_AD1085F76E7418A3;
+class IGPKLGJGBCI;
 namespace MoleMole { class UIHardCoreBossBattletPrepPageController; }
 
-#define MOLEMOLE_UIHARDCOREBOSSBATTLEDETAILPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18ED6950)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLEDETAILPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x199D85F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHardCoreBossBattleDetailPageController_Context_TypeDefinitionIndex = 86041;
+	inline static constexpr unsigned int UIHardCoreBossBattleDetailPageController_Context_TypeDefinitionIndex = 60192;
 
 	class UIHardCoreBossBattleDetailPageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_AD1085F76E7418A3* LevelData; // 0x28
+		::IGPKLGJGBCI* LevelData; // 0x28
 		::MoleMole::UIHardCoreBossBattletPrepPageController* BeforeUI; // 0x30
 		::System::Int32 SelectedTabIndex; // 0x38
 

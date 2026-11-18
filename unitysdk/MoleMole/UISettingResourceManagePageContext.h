@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_C6855DE1E2953473.h"
+#include "unitysdk/BBNGMAHAFFE.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISETTINGRESOURCEMANAGEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16760A40)
+#define MOLEMOLE_UISETTINGRESOURCEMANAGEPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x164A8EE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISettingResourceManagePageContext_TypeDefinitionIndex = 55220;
+	inline static constexpr unsigned int UISettingResourceManagePageContext_TypeDefinitionIndex = 41952;
 
 	class UISettingResourceManagePageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Int32 TypeId; // 0x28
-		::Enum_3_C6855DE1E2953473 PageType; // 0x2C
+		::BBNGMAHAFFE PageType; // 0x28
+		::System::Int32 TypeId; // 0x2C
 
 		::System::Void _ctor()
 		{

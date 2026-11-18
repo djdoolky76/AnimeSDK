@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int JsonConfig_TypeDefinitionIndex = 7428;
+	inline static constexpr unsigned int JsonConfig_TypeDefinitionIndex = 7435;
 
 	class JsonConfig : public ::System::Object
 	{

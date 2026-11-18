@@ -7,13 +7,13 @@ namespace MoleMole { class MonoSpawnPoint; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_MONOSPAWNPOINTMASKREGION_METHOD_5_1832344A4618383C_OFFSET UNITYSDK_OFFSET(0x129CBF50)
-#define MOLEMOLE_MONOSPAWNPOINTMASKREGION_REFRESHMASKEDSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x129CBCA0)
-#define MOLEMOLE_MONOSPAWNPOINTMASKREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x129CCA10)
+#define MOLEMOLE_MONOSPAWNPOINTMASKREGION_BJHJJDDIFMK_OFFSET UNITYSDK_OFFSET(0x1248FC00)
+#define MOLEMOLE_MONOSPAWNPOINTMASKREGION_REFRESHMASKEDSPAWNPOINT_OFFSET UNITYSDK_OFFSET(0x1248F950)
+#define MOLEMOLE_MONOSPAWNPOINTMASKREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x124906C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSpawnPointMaskRegion_TypeDefinitionIndex = 40671;
+	inline static constexpr unsigned int MonoSpawnPointMaskRegion_TypeDefinitionIndex = 63006;
 
 	class MonoSpawnPointMaskRegion : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,9 +31,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSPAWNPOINTMASKREGION_REFRESHMASKEDSPAWNPOINT_OFFSET))(this);
 		}
 
-		::System::Void Method_5_1832344A4618383C(::System::Collections::Generic::IEnumerable_1<::MoleMole::MonoSpawnPoint*>* a1)
+		::System::Void BJHJJDDIFMK(::System::Collections::Generic::IEnumerable_1<::MoleMole::MonoSpawnPoint*>* AFEAFGGLAMK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::MoleMole::MonoSpawnPoint*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSPAWNPOINTMASKREGION_METHOD_5_1832344A4618383C_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::MoleMole::MonoSpawnPoint*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSPAWNPOINTMASKREGION_BJHJJDDIFMK_OFFSET))(this, AFEAFGGLAMK);
 		}
 	};
 }

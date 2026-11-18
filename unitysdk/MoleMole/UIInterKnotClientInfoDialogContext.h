@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_696E0C6E8A7D9C84_Enum_3_F7091D5FF381B6D1.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
+#include "unitysdk/NDHLHBHJBHF_OMDGJHFNEEL.h"
 
-#define MOLEMOLE_UIINTERKNOTCLIENTINFODIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x184B2B50)
+#define MOLEMOLE_UIINTERKNOTCLIENTINFODIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF70A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotClientInfoDialogContext_TypeDefinitionIndex = 48051;
+	inline static constexpr unsigned int UIInterKnotClientInfoDialogContext_TypeDefinitionIndex = 63213;
 
 	class UIInterKnotClientInfoDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_696E0C6E8A7D9C84_Enum_3_F7091D5FF381B6D1 status; // 0x28
-		::System::Int32 questID; // 0x2C
+		::System::Int32 questID; // 0x28
+		::NDHLHBHJBHF_OMDGJHFNEEL status; // 0x2C
 
 		::System::Void _ctor()
 		{

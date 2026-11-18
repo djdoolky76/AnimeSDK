@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Jobs/TransformAccess.h"
 
 namespace UnityEngine::Jobs
 {
-	inline static constexpr unsigned int IJobParallelForTransform_TypeDefinitionIndex = 5442;
+	inline static constexpr unsigned int IJobParallelForTransform_TypeDefinitionIndex = 5445;
 
 	class IJobParallelForTransform
 	{

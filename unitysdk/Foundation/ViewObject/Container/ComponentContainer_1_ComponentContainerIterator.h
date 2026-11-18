@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_Enumerator.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace Foundation::ViewObject::Container { template <typename T> class ComponentContainer_1; }
 namespace System { class Object; }
 
 namespace Foundation::ViewObject::Container
 {
-	inline static constexpr unsigned int ComponentContainer_1_ComponentContainerIterator_TypeDefinitionIndex = 52424;
+	inline static constexpr unsigned int ComponentContainer_1_ComponentContainerIterator_TypeDefinitionIndex = 66114;
 
 	template <typename T>
-	struct ComponentContainer_1_ComponentContainerIterator
+	struct alignas(8) ComponentContainer_1_ComponentContainerIterator
 	{
-		::System::Collections::Generic::Dictionary_2_Enumerator<::System::Int64, T> _enumerator; // 0x0
+		::System::Object* _enumerator; // 0x0
 	};
 }

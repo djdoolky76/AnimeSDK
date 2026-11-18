@@ -3,11 +3,11 @@
 #include "unitysdk/NPCCrowd/AI/PathGraphFeaturePointConfig.h"
 #include "unitysdk/NPCCrowd/AI/PathGraphSpawnPointConfig_SpawnStyle.h"
 
-#define NPCCROWD_AI_PATHGRAPHSPAWNPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13DE40B0)
+#define NPCCROWD_AI_PATHGRAPHSPAWNPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE0BC9E0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSpawnPointConfig_TypeDefinitionIndex = 41453;
+	inline static constexpr unsigned int PathGraphSpawnPointConfig_TypeDefinitionIndex = 71369;
 
 	class PathGraphSpawnPointConfig : public ::NPCCrowd::AI::PathGraphFeaturePointConfig
 	{
@@ -16,11 +16,14 @@ namespace NPCCrowd::AI
 		::System::Single spawnInterval; // 0x4C
 		::System::Single spawnVarious; // 0x50
 		::System::Boolean spawnDistanceLimit; // 0x54
+		::System::Byte _padding0[0x3];
 		::System::Single minSpawnDistance; // 0x58
 		::System::Single maxSpawnDistance; // 0x5C
 		::System::Boolean spawnCountLimit; // 0x60
+		::System::Byte _padding1[0x3];
 		::System::Int32 maxSpawnCount; // 0x64
 		::System::Boolean cameraFrustumLimit; // 0x68
+		::System::Byte _padding2[0x3];
 		::NPCCrowd::AI::PathGraphSpawnPointConfig_SpawnStyle spawnStyle; // 0x6C
 
 		::System::Void _ctor()

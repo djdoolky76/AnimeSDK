@@ -17,19 +17,21 @@ class SequencePlay;
 class SingleScreen;
 class TV_Wall;
 
-#define MAINCITYOBJECTSTATE_SCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x167D3C10)
+#define MAINCITYOBJECTSTATE_SCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x164F8B80)
 
-inline static constexpr unsigned int MainCityObjectState_ScriptConfig_TypeDefinitionIndex = 84593;
+inline static constexpr unsigned int MainCityObjectState_ScriptConfig_TypeDefinitionIndex = 62318;
 
 class MainCityObjectState_ScriptConfig : public ::System::Object
 {
 public:
 	::SceneObjectType sceneObjectType; // 0x10
+	::System::Byte _padding0[0x4];
 	::TV_Wall* tvWallConfig; // 0x18
 	::ComputerGroup* computerGroup; // 0x20
 	::SingleScreen* singleScreen; // 0x28
 	::LightGroup* lightGroup; // 0x30
 	::MainCityObjectActiveState showMainCityObject; // 0x38
+	::System::Byte _padding1[0x4];
 	::SequencePlay* sequencePlay; // 0x40
 	::ModifyMaterialProperty* ModifyMaterialProperty; // 0x48
 	::SceneObjectLightProxySetting* LightProxySetting; // 0x50

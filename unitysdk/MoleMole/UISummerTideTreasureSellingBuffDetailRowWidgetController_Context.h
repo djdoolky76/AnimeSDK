@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISUMMERTIDETREASURESELLINGBUFFDETAILROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x151AECE0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGBUFFDETAILROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1135F130)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerTideTreasureSellingBuffDetailRowWidgetController_Context_TypeDefinitionIndex = 53172;
+	inline static constexpr unsigned int UISummerTideTreasureSellingBuffDetailRowWidgetController_Context_TypeDefinitionIndex = 44398;
 
 	class UISummerTideTreasureSellingBuffDetailRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -1,22 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace UnityEngine { class GameObject; }
 
-#define GAUSSIANBLURVOLUMETIMELINEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x150854D0)
-#define GAUSSIANBLURVOLUMETIMELINEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x150854C0)
-#define GAUSSIANBLURVOLUMETIMELINEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x150856D0)
+#define GAUSSIANBLURVOLUMETIMELINEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x15D925F0)
+#define GAUSSIANBLURVOLUMETIMELINEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x15D925E0)
+#define GAUSSIANBLURVOLUMETIMELINEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x15D927F0)
 
-inline static constexpr unsigned int GaussianBlurVolumeTimelineAsset_TypeDefinitionIndex = 50559;
+inline static constexpr unsigned int GaussianBlurVolumeTimelineAsset_TypeDefinitionIndex = 87318;
 
 class GaussianBlurVolumeTimelineAsset : public ::UnityEngine::Playables::PlayableAsset
 {
 public:
 	::System::Boolean isActive; // 0x18
+	::System::Byte _padding0[0x3];
 	::System::Single maskTiling; // 0x1C
 	::System::Single maskRotation; // 0x20
 

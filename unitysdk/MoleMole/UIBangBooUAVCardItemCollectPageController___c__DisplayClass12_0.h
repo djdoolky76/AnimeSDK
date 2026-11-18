@@ -5,12 +5,12 @@
 
 namespace MoleMole { class UIBangBooUAVCardItemCollectPageController; }
 
-#define MOLEMOLE_UIBANGBOOUAVCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180211A0)
-#define MOLEMOLE_UIBANGBOOUAVCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS12_0__INITTAB_B__0_OFFSET UNITYSDK_OFFSET(0x180211B0)
+#define MOLEMOLE_UIBANGBOOUAVCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19185750)
+#define MOLEMOLE_UIBANGBOOUAVCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS12_0__INITTAB_B__0_OFFSET UNITYSDK_OFFSET(0x19185760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooUAVCardItemCollectPageController___c__DisplayClass12_0_TypeDefinitionIndex = 56671;
+	inline static constexpr unsigned int UIBangBooUAVCardItemCollectPageController___c__DisplayClass12_0_TypeDefinitionIndex = 41547;
 
 	class UIBangBooUAVCardItemCollectPageController___c__DisplayClass12_0 : public ::System::Object
 	{

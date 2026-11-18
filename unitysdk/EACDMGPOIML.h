@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/EKBGOODPALC.h"
+#include "unitysdk/NJNGHAOBGCA.h"
+
+class CLNGHONFNHE;
+
+#define EACDMGPOIML_HJJNCHHHGEL_OFFSET UNITYSDK_OFFSET(0x1D698080)
+#define EACDMGPOIML_KHABHIGBPIN_OFFSET UNITYSDK_OFFSET(0x8BDEE0)
+#define EACDMGPOIML_MFHCGJOMMCA_OFFSET UNITYSDK_OFFSET(0x8BDEF0)
+
+inline static constexpr unsigned int EACDMGPOIML_TypeDefinitionIndex = 93563;
+
+struct alignas(4) EACDMGPOIML
+{
+	::System::Boolean KHABHIGBPIN(::CLNGHONFNHE* BMEPJBGGDFN, ::NJNGHAOBGCA& HBMGHPEPBNC, ::EKBGOODPALC& HNOPAJLDCFB)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::CLNGHONFNHE*, ::NJNGHAOBGCA&, ::EKBGOODPALC&))((::PBYTE)hIl2Cpp + EACDMGPOIML_KHABHIGBPIN_OFFSET))(this, BMEPJBGGDFN, HBMGHPEPBNC, HNOPAJLDCFB);
+	}
+
+	::System::Boolean MFHCGJOMMCA(::CLNGHONFNHE* BMEPJBGGDFN, ::NJNGHAOBGCA& HBMGHPEPBNC, ::EKBGOODPALC& HNOPAJLDCFB)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::CLNGHONFNHE*, ::NJNGHAOBGCA&, ::EKBGOODPALC&))((::PBYTE)hIl2Cpp + EACDMGPOIML_MFHCGJOMMCA_OFFSET))(this, BMEPJBGGDFN, HBMGHPEPBNC, HNOPAJLDCFB);
+	}
+
+	static ::System::Boolean HJJNCHHHGEL(::Il2CppArray<::System::Int32>* AJOEFNLFJCF, ::System::Int32 AELLPLBJELA)
+	{
+		return ((::System::Boolean(*)(::Il2CppArray<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + EACDMGPOIML_HJJNCHHHGEL_OFFSET))(AJOEFNLFJCF, AELLPLBJELA);
+	}
+};

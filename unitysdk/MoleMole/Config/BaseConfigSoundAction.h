@@ -2,21 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_197;
+class EIOKLKEJAME;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x1145C710)
-#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_EXECUTE_OFFSET UNITYSDK_OFFSET(0x11467550)
-#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_GET_PARAMHINT_OFFSET UNITYSDK_OFFSET(0x114674A0)
-#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_ISMATCH_OFFSET UNITYSDK_OFFSET(0x114674B0)
-#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_SHOWLOG_OFFSET UNITYSDK_OFFSET(0x114677A0)
-#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_TESTSOUNDACTION_OFFSET UNITYSDK_OFFSET(0x114675F0)
-#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x11467840)
+#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x131D8BD0)
+#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_EXECUTE_2_OFFSET UNITYSDK_OFFSET(0x131CBD60)
+#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_GET_CANDEFEREXECUTION_OFFSET UNITYSDK_OFFSET(0x131D8B20)
+#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_GET_PARAMHINT_OFFSET UNITYSDK_OFFSET(0x131D8B10)
+#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_ISMATCH_OFFSET UNITYSDK_OFFSET(0x131D8B30)
+#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_SHOWLOG_OFFSET UNITYSDK_OFFSET(0x131D8E20)
+#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_TESTSOUNDACTION_OFFSET UNITYSDK_OFFSET(0x131D8C70)
+#define MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x131D8EC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BaseConfigSoundAction_TypeDefinitionIndex = 59988;
+	inline static constexpr unsigned int BaseConfigSoundAction_TypeDefinitionIndex = 91299;
 
 	class BaseConfigSoundAction : public ::System::Object
 	{
@@ -33,14 +34,19 @@ namespace MoleMole::Config
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_GET_PARAMHINT_OFFSET))(this);
 		}
 
+		::System::Boolean get_CanDeferExecution()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_GET_CANDEFEREXECUTION_OFFSET))(this);
+		}
+
 		::System::Boolean IsMatch(::System::String* pattern)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_ISMATCH_OFFSET))(this, pattern);
 		}
 
-		::System::Void Execute()
+		::System::Void Execute_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_EXECUTE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_EXECUTE_1_OFFSET))(this);
 		}
 
 		::System::Void TestSoundAction()
@@ -48,14 +54,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_TESTSOUNDACTION_OFFSET))(this);
 		}
 
-		::System::Void Execute_1(::UnityEngine::GameObject* gameObject, ::System::String* sourceHint)
+		::System::Void Execute_2(::UnityEngine::GameObject* gameObject, ::System::String* sourceHint)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_EXECUTE_1_OFFSET))(this, gameObject, sourceHint);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_EXECUTE_2_OFFSET))(this, gameObject, sourceHint);
 		}
 
-		::System::Void ShowLog(::Class_0_16E4307DCC419505_197* context)
+		::System::Void ShowLog(::EIOKLKEJAME* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_197*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_SHOWLOG_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::EIOKLKEJAME*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_BASECONFIGSOUNDACTION_SHOWLOG_OFFSET))(this, context);
 		}
 	};
 }

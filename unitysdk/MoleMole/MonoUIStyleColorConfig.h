@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_MONOUISTYLECOLORCONFIG_TRGGETCOLOR_OFFSET UNITYSDK_OFFSET(0x11D59920)
-#define MOLEMOLE_MONOUISTYLECOLORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11D59A00)
+#define MOLEMOLE_MONOUISTYLECOLORCONFIG_TRGGETCOLOR_OFFSET UNITYSDK_OFFSET(0x119472A0)
+#define MOLEMOLE_MONOUISTYLECOLORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11947380)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIStyleColorConfig_TypeDefinitionIndex = 77013;
+	inline static constexpr unsigned int MonoUIStyleColorConfig_TypeDefinitionIndex = 49303;
 
 	class MonoUIStyleColorConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

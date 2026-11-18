@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/GraphCustomData_Meta.h"
 #include "unitysdk/System/Object.h"
 
-#define NODECANVAS_FRAMEWORK_GRAPHCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF91150)
+#define NODECANVAS_FRAMEWORK_GRAPHCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3003F0)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int GraphCustomData_TypeDefinitionIndex = 30165;
+	inline static constexpr unsigned int GraphCustomData_TypeDefinitionIndex = 29404;
 
 	class GraphCustomData : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Byte>* _serializedBytes; // 0x10
-		::Il2CppArray<::NodeCanvas::Framework::GraphCustomData_Meta>* _serializedMetaArray; // 0x18
+		::Il2CppArray<::System::Object*>* _serializedMetaArray; // 0x18
 
 		::System::Void _ctor()
 		{

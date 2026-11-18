@@ -9,15 +9,15 @@ namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_BINDMESHRENDERGROUP_GETBINDMESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x143556D0)
-#define MOLEMOLE_BINDMESHRENDERGROUP_GETMATERIALSLISTBYRENDERS_OFFSET UNITYSDK_OFFSET(0x14355710)
-#define MOLEMOLE_BINDMESHRENDERGROUP_GETOVERRIDERDITHERKEY_OFFSET UNITYSDK_OFFSET(0x14355690)
-#define MOLEMOLE_BINDMESHRENDERGROUP_METHOD_1_3306F24AC967FE79_OFFSET UNITYSDK_OFFSET(0x14355B70)
-#define MOLEMOLE_BINDMESHRENDERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x14355B60)
+#define MOLEMOLE_BINDMESHRENDERGROUP_CLINGMNJFOC_OFFSET UNITYSDK_OFFSET(0x1219F000)
+#define MOLEMOLE_BINDMESHRENDERGROUP_GETBINDMESHRENDERERS_OFFSET UNITYSDK_OFFSET(0x1219EB60)
+#define MOLEMOLE_BINDMESHRENDERGROUP_GETMATERIALSLISTBYRENDERS_OFFSET UNITYSDK_OFFSET(0x1219EBA0)
+#define MOLEMOLE_BINDMESHRENDERGROUP_GETOVERRIDERDITHERKEY_OFFSET UNITYSDK_OFFSET(0x1219EB20)
+#define MOLEMOLE_BINDMESHRENDERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1219EFF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BindMeshRenderGroup_TypeDefinitionIndex = 42312;
+	inline static constexpr unsigned int BindMeshRenderGroup_TypeDefinitionIndex = 79667;
 
 	class BindMeshRenderGroup : public ::System::Object
 	{
@@ -43,14 +43,14 @@ namespace MoleMole
 			return ((::Il2CppArray<::UnityEngine::Renderer*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BINDMESHRENDERGROUP_GETBINDMESHRENDERERS_OFFSET))(this);
 		}
 
-		::System::Void GetMaterialsListByRenders(::System::Int32 a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2)
+		::System::Void GetMaterialsListByRenders(::System::Int32 EALOBKIJLND, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* DJLOKMMLFJC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_BINDMESHRENDERGROUP_GETMATERIALSLISTBYRENDERS_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_BINDMESHRENDERGROUP_GETMATERIALSLISTBYRENDERS_OFFSET))(this, EALOBKIJLND, DJLOKMMLFJC);
 		}
 
-		::System::Void Method_1_3306F24AC967FE79()
+		::System::Void CLINGMNJFOC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BINDMESHRENDERGROUP_METHOD_1_3306F24AC967FE79_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BINDMESHRENDERGROUP_CLINGMNJFOC_OFFSET))(this);
 		}
 	};
 }

@@ -4,30 +4,30 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DEB6760)
-#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DEB67C0)
-#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE_GET_PASSWORD_OFFSET UNITYSDK_OFFSET(0x1DEB6750)
-#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1DEB67D0)
-#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEB6890)
-#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DEB6740)
-#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB6730)
+#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E335AD0)
+#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E335B30)
+#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE_GET_PASSWORD_OFFSET UNITYSDK_OFFSET(0x1E335AC0)
+#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E335B40)
+#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E335C00)
+#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E335AB0)
+#define SYSTEM_COMPONENTMODEL_PASSWORDPROPERTYTEXTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E335AA0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int PasswordPropertyTextAttribute_TypeDefinitionIndex = 2955;
+	inline static constexpr unsigned int PasswordPropertyTextAttribute_TypeDefinitionIndex = 2954;
 
 	class PasswordPropertyTextAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::PasswordPropertyTextAttribute** StaticGet_No()
+		static ::System::ComponentModel::PasswordPropertyTextAttribute** StaticGet_Yes()
 		{
 			return (::System::ComponentModel::PasswordPropertyTextAttribute**)Il2CppClass::FromTypeDefinitionIndex(PasswordPropertyTextAttribute_TypeDefinitionIndex)->GetStaticField(0x2690);
 		}
-		static ::System::ComponentModel::PasswordPropertyTextAttribute** StaticGet_Default()
+		static ::System::ComponentModel::PasswordPropertyTextAttribute** StaticGet_No()
 		{
 			return (::System::ComponentModel::PasswordPropertyTextAttribute**)Il2CppClass::FromTypeDefinitionIndex(PasswordPropertyTextAttribute_TypeDefinitionIndex)->GetStaticField(0x2698);
 		}
-		static ::System::ComponentModel::PasswordPropertyTextAttribute** StaticGet_Yes()
+		static ::System::ComponentModel::PasswordPropertyTextAttribute** StaticGet_Default()
 		{
 			return (::System::ComponentModel::PasswordPropertyTextAttribute**)Il2CppClass::FromTypeDefinitionIndex(PasswordPropertyTextAttribute_TypeDefinitionIndex)->GetStaticField(0x26A0);
 		}

@@ -3,7 +3,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int Inheritance_TypeDefinitionIndex = 31754;
+	inline static constexpr unsigned int Inheritance_TypeDefinitionIndex = 31192;
 
 	enum class Inheritance : ::System::Int32
 	{

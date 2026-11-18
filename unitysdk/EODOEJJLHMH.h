@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MHMFINLCNFN.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+
+class LGAFMFNMCOG;
+template <typename T> class KCMIFNGABDC_1;
+
+#define EODOEJJLHMH_ALHHNOIENBA_OFFSET UNITYSDK_OFFSET(0x15E3AD60)
+#define EODOEJJLHMH_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0x15E3ACF0)
+#define EODOEJJLHMH_FEDNEKFMGNF_OFFSET UNITYSDK_OFFSET(0x15E3AC60)
+#define EODOEJJLHMH_GDEOPIBNOIN_OFFSET UNITYSDK_OFFSET(0x15E3AFF0)
+#define EODOEJJLHMH_JFBDALLPLBA_OFFSET UNITYSDK_OFFSET(0x15E3AF60)
+#define EODOEJJLHMH_MLAAFFHCOJE_OFFSET UNITYSDK_OFFSET(0x15E3AB10)
+#define EODOEJJLHMH__CTOR_OFFSET UNITYSDK_OFFSET(0x15E3AEC0)
+
+inline static constexpr unsigned int EODOEJJLHMH_TypeDefinitionIndex = 57631;
+
+class EODOEJJLHMH : public ::MHMFINLCNFN
+{
+public:
+	::KCMIFNGABDC_1<::System::Boolean>* JPJHAJKJOHN; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EODOEJJLHMH__CTOR_OFFSET))(this);
+	}
+
+	::System::Void MLAAFFHCOJE(::LGAFMFNMCOG* ONBDAIKININ)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + EODOEJJLHMH_MLAAFFHCOJE_OFFSET))(this, ONBDAIKININ);
+	}
+
+	::System::Void FEDNEKFMGNF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EODOEJJLHMH_FEDNEKFMGNF_OFFSET))(this);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + EODOEJJLHMH_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF);
+	}
+
+	::System::Void JFBDALLPLBA(::LGAFMFNMCOG* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + EODOEJJLHMH_JFBDALLPLBA_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void GDEOPIBNOIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EODOEJJLHMH_GDEOPIBNOIN_OFFSET))(this);
+	}
+
+	::System::Void ALHHNOIENBA(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + EODOEJJLHMH_ALHHNOIENBA_OFFSET))(this, BKBGPKNGNMF);
+	}
+};

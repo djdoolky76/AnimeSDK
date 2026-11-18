@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class Exception; }
 namespace System { class Type; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1DCF17B0)
-#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION_GET_TYPES_OFFSET UNITYSDK_OFFSET(0x1DCF17A0)
-#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DCF1550)
-#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DCF15F0)
-#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCF1490)
+#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1E0E4170)
+#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION_GET_TYPES_OFFSET UNITYSDK_OFFSET(0x1E0E4160)
+#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E0E3F10)
+#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E0E3FB0)
+#define SYSTEM_REFLECTION_REFLECTIONTYPELOADEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E3E50)
 
 namespace System::Reflection
 {
@@ -20,8 +20,8 @@ namespace System::Reflection
 	class ReflectionTypeLoadException : public ::System::SystemException
 	{
 	public:
-		::Il2CppArray<::System::Exception*>* _exceptions; // 0x88
-		::Il2CppArray<::System::Type*>* _classes; // 0x90
+		::Il2CppArray<::System::Type*>* _classes; // 0x88
+		::Il2CppArray<::System::Exception*>* _exceptions; // 0x90
 
 		::System::Void _ctor()
 		{

@@ -5,14 +5,14 @@
 namespace RootMotion::FinalIK { class VRIK; }
 namespace UnityEngine { class Renderer; }
 
-#define ROOTMOTION_FINALIK_VRIKLODCONTROLLER_GETLODLEVEL_OFFSET UNITYSDK_OFFSET(0x1F579E00)
-#define ROOTMOTION_FINALIK_VRIKLODCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x1F579D30)
-#define ROOTMOTION_FINALIK_VRIKLODCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F579DC0)
-#define ROOTMOTION_FINALIK_VRIKLODCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F57A070)
+#define ROOTMOTION_FINALIK_VRIKLODCONTROLLER_GETLODLEVEL_OFFSET UNITYSDK_OFFSET(0x1F9503E0)
+#define ROOTMOTION_FINALIK_VRIKLODCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x1F950310)
+#define ROOTMOTION_FINALIK_VRIKLODCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F9503A0)
+#define ROOTMOTION_FINALIK_VRIKLODCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F950650)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int VRIKLODController_TypeDefinitionIndex = 38895;
+	inline static constexpr unsigned int VRIKLODController_TypeDefinitionIndex = 36943;
 
 	class VRIKLODController : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,6 +20,7 @@ namespace RootMotion::FinalIK
 		::UnityEngine::Renderer* LODRenderer; // 0x18
 		::System::Single LODDistance; // 0x20
 		::System::Boolean allowCulled; // 0x24
+		::System::Byte _padding0[0x3];
 		::RootMotion::FinalIK::VRIK* ik; // 0x28
 
 		::System::Void _ctor()

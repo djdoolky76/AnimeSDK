@@ -4,12 +4,12 @@
 
 namespace System::Configuration { class SettingsProvider; }
 
-#define SYSTEM_CONFIGURATION_SETTINGSLOADEDEVENTARGS_GET_PROVIDER_OFFSET UNITYSDK_OFFSET(0x1D6A38F0)
-#define SYSTEM_CONFIGURATION_SETTINGSLOADEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A38B0)
+#define SYSTEM_CONFIGURATION_SETTINGSLOADEDEVENTARGS_GET_PROVIDER_OFFSET UNITYSDK_OFFSET(0x1DB9DB10)
+#define SYSTEM_CONFIGURATION_SETTINGSLOADEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9DAD0)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SettingsLoadedEventArgs_TypeDefinitionIndex = 4196;
+	inline static constexpr unsigned int SettingsLoadedEventArgs_TypeDefinitionIndex = 4195;
 
 	class SettingsLoadedEventArgs : public ::System::EventArgs
 	{

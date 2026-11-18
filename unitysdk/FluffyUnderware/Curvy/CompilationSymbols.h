@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CompilationSymbols_TypeDefinitionIndex = 39454;
+	inline static constexpr unsigned int CompilationSymbols_TypeDefinitionIndex = 37628;
 
 	class CompilationSymbols : public ::System::Object
 	{

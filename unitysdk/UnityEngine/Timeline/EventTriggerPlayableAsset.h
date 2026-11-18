@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class EventTriggerBehaviour; }
 namespace UnityEngine::Timeline { class EventTriggerZoneInfo; }
 
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F9904A0)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F9905A0)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9905B0)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FD79F60)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FD7A060)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD7A070)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int EventTriggerPlayableAsset_TypeDefinitionIndex = 32951;
+	inline static constexpr unsigned int EventTriggerPlayableAsset_TypeDefinitionIndex = 32406;
 
 	class EventTriggerPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

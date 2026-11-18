@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_66C4D81440373C6E;
+class BFLPANDDGHG;
 
-#define MOLEMOLE_UIAREASHOPROLEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x189550B0)
+#define MOLEMOLE_UIAREASHOPROLEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17EAC4B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAreaShopRoleWidgetContext_TypeDefinitionIndex = 59434;
+	inline static constexpr unsigned int UIAreaShopRoleWidgetContext_TypeDefinitionIndex = 76225;
 
 	class UIAreaShopRoleWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_66C4D81440373C6E* DBattleFighter; // 0x28
+		::BFLPANDDGHG* DBattleFighter; // 0x28
 
 		::System::Void _ctor()
 		{

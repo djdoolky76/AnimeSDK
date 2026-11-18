@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneFootPrint_FootType_TypeDefinitionIndex = 90788;
+	inline static constexpr unsigned int AnimatorZoneFootPrint_FootType_TypeDefinitionIndex = 84505;
 
 	enum class AnimatorZoneFootPrint_FootType : ::System::Int32
 	{

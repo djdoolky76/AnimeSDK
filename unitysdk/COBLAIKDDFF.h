@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NPINMCKNMCE.h"
+
+class BCCMPEIHJMN_CAICKFLHNGI;
+
+#define COBLAIKDDFF_ALKMAHLNANM_OFFSET UNITYSDK_OFFSET(0x15A1E750)
+#define COBLAIKDDFF_BHEKANJKJPN_OFFSET UNITYSDK_OFFSET(0x15A1E3F0)
+#define COBLAIKDDFF_DDFLFHKOALF_OFFSET UNITYSDK_OFFSET(0x15A1EF00)
+#define COBLAIKDDFF_EJGKEGCCDBO_OFFSET UNITYSDK_OFFSET(0x15A1E460)
+#define COBLAIKDDFF_LPONAEEDJJH_OFFSET UNITYSDK_OFFSET(0x15A1EB20)
+#define COBLAIKDDFF_MNENODHCCBM_OFFSET UNITYSDK_OFFSET(0x15A1E500)
+#define COBLAIKDDFF__CTOR_OFFSET UNITYSDK_OFFSET(0x15A1E3A0)
+
+inline static constexpr unsigned int COBLAIKDDFF_TypeDefinitionIndex = 49170;
+
+class COBLAIKDDFF : public ::NPINMCKNMCE
+{
+public:
+	::System::Void _ctor(::BCCMPEIHJMN_CAICKFLHNGI* HHEOJLBHEGI)
+	{
+		return ((::System::Void(*)(::PVOID, ::BCCMPEIHJMN_CAICKFLHNGI*))((::PBYTE)hIl2Cpp + COBLAIKDDFF__CTOR_OFFSET))(this, HHEOJLBHEGI);
+	}
+
+	::System::Void BHEKANJKJPN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COBLAIKDDFF_BHEKANJKJPN_OFFSET))(this);
+	}
+
+	::System::Void ALKMAHLNANM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COBLAIKDDFF_ALKMAHLNANM_OFFSET))(this);
+	}
+
+	::System::Void EJGKEGCCDBO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COBLAIKDDFF_EJGKEGCCDBO_OFFSET))(this);
+	}
+
+	::System::Void MNENODHCCBM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COBLAIKDDFF_MNENODHCCBM_OFFSET))(this);
+	}
+
+	::System::Void DDFLFHKOALF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COBLAIKDDFF_DDFLFHKOALF_OFFSET))(this);
+	}
+
+	::System::Void LPONAEEDJJH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COBLAIKDDFF_LPONAEEDJJH_OFFSET))(this);
+	}
+};

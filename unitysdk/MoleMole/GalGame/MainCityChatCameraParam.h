@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraVariableFetchContext_1.h"
-#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIMainCityChatPlayWidgetController; }
 namespace MoleMole::Battle { class Entity; }
-namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAM_GETPLAYER_OFFSET UNITYSDK_OFFSET(0x149E9E50)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAM_GETTARGET_OFFSET UNITYSDK_OFFSET(0x149E9F40)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x149EA040)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAM_GETPLAYER_OFFSET UNITYSDK_OFFSET(0x130DB1A0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAM_GETTARGET_OFFSET UNITYSDK_OFFSET(0x130DB290)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x130DB390)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatCameraParam_TypeDefinitionIndex = 71761;
+	inline static constexpr unsigned int MainCityChatCameraParam_TypeDefinitionIndex = 43456;
 
 	class MainCityChatCameraParam : public ::System::Object
 	{

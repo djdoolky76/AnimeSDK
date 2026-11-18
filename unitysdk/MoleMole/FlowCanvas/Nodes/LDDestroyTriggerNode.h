@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTRIGGERNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x118B4300)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTRIGGERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x118B43F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTRIGGERNODE__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x118B4430)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTRIGGERNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x162334B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTRIGGERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x162335A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTRIGGERNODE__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x162335E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDDestroyTriggerNode_TypeDefinitionIndex = 87231;
+	inline static constexpr unsigned int LDDestroyTriggerNode_TypeDefinitionIndex = 38410;
 
 	class LDDestroyTriggerNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{

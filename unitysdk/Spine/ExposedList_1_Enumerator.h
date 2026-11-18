@@ -3,14 +3,13 @@
 #include "unitysdk/System/ValueType.h"
 
 namespace Spine { template <typename T> class ExposedList_1; }
-namespace System { class Object; }
 
 namespace Spine
 {
-	inline static constexpr unsigned int ExposedList_1_Enumerator_TypeDefinitionIndex = 33511;
+	inline static constexpr unsigned int ExposedList_1_Enumerator_TypeDefinitionIndex = 32995;
 
 	template <typename T>
-	struct ExposedList_1_Enumerator
+	struct alignas(8) ExposedList_1_Enumerator
 	{
 		::Spine::ExposedList_1<T>* l; // 0x0
 		::System::Int32 next; // 0x0

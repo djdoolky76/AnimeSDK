@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_181;
-class Class_2_208CC9941471731A_708;
+class HGIDAMPAOGK;
+class MKFCCEABOBN;
 
-#define MOLEMOLE_UIACTIVITYREMIELLECAMERAMISSIONROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A61DE00)
+#define MOLEMOLE_UIACTIVITYREMIELLECAMERAMISSIONROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19D2A1F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityRemielleCameraMissionRowWidgetController_Data_TypeDefinitionIndex = 57618;
+	inline static constexpr unsigned int UIActivityRemielleCameraMissionRowWidgetController_Data_TypeDefinitionIndex = 68531;
 
 	class UIActivityRemielleCameraMissionRowWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_181* GeneralLevel; // 0x10
-		::Class_2_208CC9941471731A_708* template_; // 0x18
+		::MKFCCEABOBN* template_; // 0x10
+		::HGIDAMPAOGK* GeneralLevel; // 0x18
 
 		::System::Void _ctor()
 		{

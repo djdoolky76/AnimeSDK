@@ -10,19 +10,21 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfCamera_TypeDefinitionIndex = 53523;
+	inline static constexpr unsigned int ConfigSurfCamera_TypeDefinitionIndex = 71823;
 
 	struct alignas(8) ConfigSurfCamera
 	{
 		::UnityEngine::Vector3 DefaultRotation; // 0x10
 		::System::Single DefaultFov; // 0x1C
 		::System::Boolean UseFovCurve; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single MaxFOV; // 0x24
 		::UnityEngine::AnimationCurve* FovCurve; // 0x28
 		::System::Single DefaultDistance; // 0x30
 		::System::Single MaxDistance; // 0x34
 		::UnityEngine::AnimationCurve* OffsetZBySpeedCurve; // 0x38
 		::System::Single SteerDistanceMax; // 0x40
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* SteerDistanceCurve; // 0x48
 		::UnityEngine::Vector2 DefaultOffset; // 0x50
 		::UnityEngine::Vector2 MaxOffset; // 0x58
@@ -33,6 +35,7 @@ namespace MoleMole::Config
 		::MoleMole::SurfCameraContext_CameraSide InitSide; // 0x80
 		::System::Single FixedXOffset; // 0x84
 		::System::Single ChangeSideDuration; // 0x88
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* ChangeSideCurve; // 0x90
 		::System::Single HandShakeLoopXDuration; // 0x98
 		::System::Single HandShakeLoopXAmplitude; // 0x9C
@@ -40,9 +43,11 @@ namespace MoleMole::Config
 		::System::Single HandShakeLoopYAmplitude; // 0xA4
 		::System::Single BlendRatio; // 0xA8
 		::System::Boolean FollowRoadYaw; // 0xAC
+		::System::Byte _padding3[0x3];
 		::System::Single TrackPositionOffset; // 0xB0
 		::System::Single MouseRotationMaxAngle; // 0xB4
 		::System::Single MouseSensitivity; // 0xB8
+		::System::Byte _padding4[0x4];
 		::System::String* CameraShakeKey; // 0xC0
 		::System::Single CameraShakeLandingSpeedThreshold; // 0xC8
 	};

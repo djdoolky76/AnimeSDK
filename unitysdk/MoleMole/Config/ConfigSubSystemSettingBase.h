@@ -8,12 +8,12 @@ namespace MoleMole { class SystemSettingEntryBase; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSUBSYSTEMSETTINGBASE_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x1B4DCE50)
-#define MOLEMOLE_CONFIG_CONFIGSUBSYSTEMSETTINGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CD4F0)
+#define MOLEMOLE_CONFIG_CONFIGSUBSYSTEMSETTINGBASE_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x127881D0)
+#define MOLEMOLE_CONFIG_CONFIGSUBSYSTEMSETTINGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x12774970)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSubSystemSettingBase_TypeDefinitionIndex = 55376;
+	inline static constexpr unsigned int ConfigSubSystemSettingBase_TypeDefinitionIndex = 92571;
 
 	class ConfigSubSystemSettingBase : public ::Foundation::MihoyoSerializedScriptableObject
 	{

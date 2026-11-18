@@ -3,7 +3,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int FillMode_TypeDefinitionIndex = 31779;
+	inline static constexpr unsigned int FillMode_TypeDefinitionIndex = 31217;
 
 	enum class FillMode : ::System::Int32
 	{

@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace Foundation { class ITickFunctionCollector; }
-namespace Foundation { template <typename T> class ITickSequencer_1; }
-namespace Foundation { template <typename T> class TickFunction_1; }
-
 namespace Foundation
 {
-	inline static constexpr unsigned int ITickCollector_1_TypeDefinitionIndex = 8520;
+	inline static constexpr unsigned int ITickCollector_1_TypeDefinitionIndex = 8813;
 
-	template <typename TTickingGroup>
+	template <typename T>
 	class ITickCollector_1
 	{
 	public:

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/AccessControl/AceQualifier.h"
 #include "unitysdk/System/Security/AccessControl/AuditFlags.h"
 #include "unitysdk/System/Security/AccessControl/InheritanceFlags.h"
 #include "unitysdk/System/Security/AccessControl/PropagationFlags.h"
+#include "unitysdk/System/Object.h"
 
 namespace System::Security::AccessControl { class CommonAce; }
 namespace System::Security::Principal { class SecurityIdentifier; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_COMMONACL___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E5F00)
-#define SYSTEM_SECURITY_ACCESSCONTROL_COMMONACL___C__DISPLAYCLASS53_0__REMOVEACESPECIFIC_B__0_OFFSET UNITYSDK_OFFSET(0x1C6E5F10)
+#define SYSTEM_SECURITY_ACCESSCONTROL_COMMONACL___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC439C0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_COMMONACL___C__DISPLAYCLASS53_0__REMOVEACESPECIFIC_B__0_OFFSET UNITYSDK_OFFSET(0x1CC439D0)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int CommonAcl___c__DisplayClass53_0_TypeDefinitionIndex = 976;
+	inline static constexpr unsigned int CommonAcl___c__DisplayClass53_0_TypeDefinitionIndex = 975;
 
 	class CommonAcl___c__DisplayClass53_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace System::Security::AccessControl
 		::System::Security::Principal::SecurityIdentifier* sid; // 0x10
 		::System::Security::AccessControl::AuditFlags auditFlags; // 0x18
 		::System::Security::AccessControl::InheritanceFlags inheritanceFlags; // 0x1C
-		::System::Security::AccessControl::AceQualifier aceQualifier; // 0x20
-		::System::Security::AccessControl::PropagationFlags propagationFlags; // 0x24
-		::System::Int32 accessMask; // 0x28
+		::System::Int32 accessMask; // 0x20
+		::System::Security::AccessControl::AceQualifier aceQualifier; // 0x24
+		::System::Security::AccessControl::PropagationFlags propagationFlags; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace System::IO::Ports
 {
-	inline static constexpr unsigned int SerialPinChange_TypeDefinitionIndex = 4160;
+	inline static constexpr unsigned int SerialPinChange_TypeDefinitionIndex = 4159;
 
 	enum class SerialPinChange : ::System::Int32
 	{

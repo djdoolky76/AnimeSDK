@@ -5,19 +5,19 @@
 namespace MoleMole { class UIGachaAvatarBgRowWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIGACHAAVATARBGROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB6A40)
-#define MOLEMOLE_UIGACHAAVATARBGROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x19AB6A50)
-#define MOLEMOLE_UIGACHAAVATARBGROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x19AB6B10)
+#define MOLEMOLE_UIGACHAAVATARBGROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFFCA90)
+#define MOLEMOLE_UIGACHAAVATARBGROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1AFFCAA0)
+#define MOLEMOLE_UIGACHAAVATARBGROWWIDGETCONTROLLER___C__DISPLAYCLASS9_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x1AFFCB60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaAvatarBgRowWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 54939;
+	inline static constexpr unsigned int UIGachaAvatarBgRowWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 51817;
 
 	class UIGachaAvatarBgRowWidgetController___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGachaAvatarBgRowWidgetController* __4__this; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action* __9__1; // 0x10
+		::MoleMole::UIGachaAvatarBgRowWidgetController* __4__this; // 0x18
 		::System::Int32 avatarID; // 0x20
 
 		::System::Void _ctor()

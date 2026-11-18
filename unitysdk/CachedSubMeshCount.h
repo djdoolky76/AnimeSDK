@@ -7,15 +7,16 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define CACHEDSUBMESHCOUNT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x975800)
-#define CACHEDSUBMESHCOUNT_RESET_OFFSET UNITYSDK_OFFSET(0x975820)
-#define CACHEDSUBMESHCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x975810)
+#define CACHEDSUBMESHCOUNT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x8B0130)
+#define CACHEDSUBMESHCOUNT_RESET_OFFSET UNITYSDK_OFFSET(0x8B0150)
+#define CACHEDSUBMESHCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x8B0140)
 
-inline static constexpr unsigned int CachedSubMeshCount_TypeDefinitionIndex = 27904;
+inline static constexpr unsigned int CachedSubMeshCount_TypeDefinitionIndex = 27079;
 
 struct alignas(8) CachedSubMeshCount
 {
 	::System::Boolean useSkinnedMesh; // 0x10
+	::System::Byte _padding0[0x7];
 	::UnityEngine::MeshFilter* _meshFilter; // 0x18
 	::UnityEngine::SkinnedMeshRenderer* _skinnedMeshRenderer; // 0x20
 	::UnityEngine::Mesh* _cachedMesh; // 0x28

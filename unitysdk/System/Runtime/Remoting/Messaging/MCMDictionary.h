@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Runtime::Remoting::Messaging { class IMethodMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4122B0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E412240)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E696E30)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_MCMDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E696DC0)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int MCMDictionary_TypeDefinitionIndex = 1355;
+	inline static constexpr unsigned int MCMDictionary_TypeDefinitionIndex = 1354;
 
 	class MCMDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary
 	{

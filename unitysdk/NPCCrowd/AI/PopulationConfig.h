@@ -8,13 +8,13 @@
 namespace NPCCrowd::AI { class PopulationTimeConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_1_OFFSET UNITYSDK_OFFSET(0xF84FF20)
-#define NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_OFFSET UNITYSDK_OFFSET(0xF84FDD0)
-#define NPCCROWD_AI_POPULATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF8500D0)
+#define NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_1_OFFSET UNITYSDK_OFFSET(0xEE734D0)
+#define NPCCROWD_AI_POPULATIONCONFIG_GETTIMECONFIG_OFFSET UNITYSDK_OFFSET(0xEE73380)
+#define NPCCROWD_AI_POPULATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xEE73680)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PopulationConfig_TypeDefinitionIndex = 71131;
+	inline static constexpr unsigned int PopulationConfig_TypeDefinitionIndex = 80448;
 
 	class PopulationConfig : public ::System::Object
 	{
@@ -22,6 +22,7 @@ namespace NPCCrowd::AI
 		::System::Int32 populationID; // 0x10
 		::NPCCrowd::AI::RandomSelectType randomSelectType; // 0x14
 		::System::Int32 npcCommonTagID; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::NPCCrowd::AI::PopulationTimeConfig*>* timeConfigs; // 0x20
 
 		::System::Void _ctor()

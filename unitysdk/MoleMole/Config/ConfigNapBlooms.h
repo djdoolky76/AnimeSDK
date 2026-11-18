@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigNapBloom; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGNAPBLOOMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1170B250)
+#define MOLEMOLE_CONFIG_CONFIGNAPBLOOMS__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC7E50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigNapBlooms_TypeDefinitionIndex = 42225;
+	inline static constexpr unsigned int ConfigNapBlooms_TypeDefinitionIndex = 39288;
 
 	class ConfigNapBlooms : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -18,6 +18,7 @@ namespace MoleMole::Config
 		::System::Single DefaultGlareScaler; // 0x58
 		::System::Single DefaultGlareThreshold; // 0x5C
 		::System::Single DefaultGlareIntensity; // 0x60
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigNapBloom*>* ScreenEffects; // 0x68
 
 		::System::Void _ctor()

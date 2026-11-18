@@ -1,0 +1,117 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/LPPPCLJMLCL.h"
+#include "unitysdk/MoleMole/HollowChessboard/RenderDataAliveType.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
+
+class GKEELEFEGPD;
+class HJEBAFLEPOF;
+class LFDLDKDPFIN;
+
+#define AMFAHGEFDFJ_AFAMABHDGMK_OFFSET UNITYSDK_OFFSET(0x12D07B10)
+#define AMFAHGEFDFJ_AFNKMJDPILJ_OFFSET UNITYSDK_OFFSET(0x12D07E90)
+#define AMFAHGEFDFJ_APCKPKCNFJE_OFFSET UNITYSDK_OFFSET(0x12D07CD0)
+#define AMFAHGEFDFJ_BGDEGCFHMHG_OFFSET UNITYSDK_OFFSET(0x12D07A20)
+#define AMFAHGEFDFJ_BNJHEKFGHLD_OFFSET UNITYSDK_OFFSET(0x12D07C00)
+#define AMFAHGEFDFJ_CEBEKJMAKIN_OFFSET UNITYSDK_OFFSET(0x12D07B90)
+#define AMFAHGEFDFJ_DGONCNOAKFG_OFFSET UNITYSDK_OFFSET(0x12D07A60)
+#define AMFAHGEFDFJ_DMMHANOOMGC_OFFSET UNITYSDK_OFFSET(0x12D07D70)
+#define AMFAHGEFDFJ_HEMOHDFDKEG_OFFSET UNITYSDK_OFFSET(0x12D07C60)
+#define AMFAHGEFDFJ_JDAPDDEOCEA_OFFSET UNITYSDK_OFFSET(0x12D07E00)
+#define AMFAHGEFDFJ_KPKDIDNKHKO_OFFSET UNITYSDK_OFFSET(0x12D07C80)
+#define AMFAHGEFDFJ_LAFDAPPOBGL_OFFSET UNITYSDK_OFFSET(0x12D07B80)
+#define AMFAHGEFDFJ_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x12D07BA0)
+#define AMFAHGEFDFJ_PJPAAIHIOBC_OFFSET UNITYSDK_OFFSET(0x12D07D60)
+#define AMFAHGEFDFJ__CTOR_OFFSET UNITYSDK_OFFSET(0x12D079C0)
+
+inline static constexpr unsigned int AMFAHGEFDFJ_TypeDefinitionIndex = 65383;
+
+class AMFAHGEFDFJ : public ::System::Object
+{
+public:
+	::HJEBAFLEPOF* _OELKLGBLAPN_k__BackingField; // 0x10
+	::LFDLDKDPFIN* MLOLOIPGFDN; // 0x18
+	::GKEELEFEGPD* AOCGEBNCICK; // 0x20
+	::System::Int32 BELNJJKMMJP; // 0x28
+	::System::UInt32 BKLGNCBNEGM; // 0x2C
+	::MoleMole::HollowChessboard::RenderDataAliveType GPNLFMAMAOD; // 0x30
+	::System::Boolean AIEOINEIMGB; // 0x34
+	::System::Byte _padding0[0x3];
+	::System::Int32 KLDFKELMKFH; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ__CTOR_OFFSET))(this);
+	}
+
+	::LFDLDKDPFIN* BGDEGCFHMHG()
+	{
+		return ((::LFDLDKDPFIN*(*)(::PVOID))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_BGDEGCFHMHG_OFFSET))(this);
+	}
+
+	::System::Void DGONCNOAKFG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_DGONCNOAKFG_OFFSET))(this);
+	}
+
+	::System::Int32 LAFDAPPOBGL()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_LAFDAPPOBGL_OFFSET))(this);
+	}
+
+	::System::Void CEBEKJMAKIN(::HJEBAFLEPOF* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::HJEBAFLEPOF*))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_CEBEKJMAKIN_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void NPOLNFDBOOD(::System::Int32 ABHBKFJKINO, ::System::Int32 HCOKMJNBPHI)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_NPOLNFDBOOD_OFFSET))(this, ABHBKFJKINO, HCOKMJNBPHI);
+	}
+
+	::System::Void BNJHEKFGHLD(::LPPPCLJMLCL EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LPPPCLJMLCL))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_BNJHEKFGHLD_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LPPPCLJMLCL HEMOHDFDKEG()
+	{
+		return ((::LPPPCLJMLCL(*)(::PVOID))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_HEMOHDFDKEG_OFFSET))(this);
+	}
+
+	::System::Boolean KPKDIDNKHKO()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_KPKDIDNKHKO_OFFSET))(this);
+	}
+
+	::System::Int32 APCKPKCNFJE()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_APCKPKCNFJE_OFFSET))(this);
+	}
+
+	::HJEBAFLEPOF* PJPAAIHIOBC()
+	{
+		return ((::HJEBAFLEPOF*(*)(::PVOID))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_PJPAAIHIOBC_OFFSET))(this);
+	}
+
+	::System::UInt64 DMMHANOOMGC()
+	{
+		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_DMMHANOOMGC_OFFSET))(this);
+	}
+
+	::System::Boolean JDAPDDEOCEA()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_JDAPDDEOCEA_OFFSET))(this);
+	}
+
+	::System::Void AFNKMJDPILJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_AFNKMJDPILJ_OFFSET))(this);
+	}
+
+	::MoleMole::HollowChessboard::HollowCell AFAMABHDGMK()
+	{
+		return ((::MoleMole::HollowChessboard::HollowCell(*)(::PVOID))((::PBYTE)hIl2Cpp + AMFAHGEFDFJ_AFAMABHDGMK_OFFSET))(this);
+	}
+};

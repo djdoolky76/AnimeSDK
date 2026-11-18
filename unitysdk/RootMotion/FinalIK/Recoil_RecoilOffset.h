@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
 
 namespace RootMotion::FinalIK { class IKSolverFullBodyBiped; }
-namespace RootMotion::FinalIK { class Recoil_RecoilOffset_EffectorLink; }
 
-#define ROOTMOTION_FINALIK_RECOIL_RECOILOFFSET_APPLY_OFFSET UNITYSDK_OFFSET(0x1F922A20)
-#define ROOTMOTION_FINALIK_RECOIL_RECOILOFFSET_START_OFFSET UNITYSDK_OFFSET(0x1F9229B0)
-#define ROOTMOTION_FINALIK_RECOIL_RECOILOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F922D30)
+#define ROOTMOTION_FINALIK_RECOIL_RECOILOFFSET_APPLY_OFFSET UNITYSDK_OFFSET(0x1FD2C3D0)
+#define ROOTMOTION_FINALIK_RECOIL_RECOILOFFSET_START_OFFSET UNITYSDK_OFFSET(0x1FD2C360)
+#define ROOTMOTION_FINALIK_RECOIL_RECOILOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD2C6E0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Recoil_RecoilOffset_TypeDefinitionIndex = 38826;
+	inline static constexpr unsigned int Recoil_RecoilOffset_TypeDefinitionIndex = 36964;
 
 	class Recoil_RecoilOffset : public ::System::Object
 	{
@@ -21,7 +20,8 @@ namespace RootMotion::FinalIK
 		::UnityEngine::Vector3 offset; // 0x10
 		::System::Single additivity; // 0x1C
 		::System::Single maxAdditiveOffsetMag; // 0x20
-		::Il2CppArray<::RootMotion::FinalIK::Recoil_RecoilOffset_EffectorLink*>* effectorLinks; // 0x28
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::System::Object*>* effectorLinks; // 0x28
 		::UnityEngine::Vector3 additiveOffset; // 0x30
 		::UnityEngine::Vector3 lastOffset; // 0x3C
 

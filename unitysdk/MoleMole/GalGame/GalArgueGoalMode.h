@@ -3,7 +3,7 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalArgueGoalMode_TypeDefinitionIndex = 50025;
+	inline static constexpr unsigned int GalArgueGoalMode_TypeDefinitionIndex = 52202;
 
 	enum class GalArgueGoalMode : ::System::Int32
 	{

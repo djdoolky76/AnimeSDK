@@ -1,40 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS_EXECUTESSRPASS_OFFSET UNITYSDK_OFFSET(0x1EA70E30)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA71FD0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS_SETLOCALRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1EA70350)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA72040)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA702C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS_EXECUTESSRPASS_OFFSET UNITYSDK_OFFSET(0x1EDAD5D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EDAE770)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS_SETLOCALRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1EDACAF0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDAE7E0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SSRPass_TypeDefinitionIndex = 5825;
+	inline static constexpr unsigned int SSRPass_TypeDefinitionIndex = 5831;
 
 	class SSRPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_mProfilingSampler()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(SSRPass_TypeDefinitionIndex)->GetStaticField(0x5670);
-		}
-
-		::System::Void _ctor(::System::String* profilerTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventConfig)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS__CTOR_OFFSET))(this, profilerTag, renderPassEventConfig);
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(SSRPass_TypeDefinitionIndex)->GetStaticField(0x5570);
 		}
 
 		static ::System::Void _cctor()

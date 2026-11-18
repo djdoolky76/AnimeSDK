@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIShoppingMallCasperPageController_TabType_TypeDefinitionIndex = 50599;
+	inline static constexpr unsigned int UIShoppingMallCasperPageController_TabType_TypeDefinitionIndex = 60501;
 
 	enum class UIShoppingMallCasperPageController_TabType : ::System::Int32
 	{

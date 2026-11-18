@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define SYSTEM_UNCNAMEHELPER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1C71AE60)
-#define SYSTEM_UNCNAMEHELPER_PARSECANONICALNAME_OFFSET UNITYSDK_OFFSET(0x1C71AE50)
-#define SYSTEM_UNCNAMEHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C71AE40)
+#define SYSTEM_UNCNAMEHELPER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1CBFAA20)
+#define SYSTEM_UNCNAMEHELPER_PARSECANONICALNAME_OFFSET UNITYSDK_OFFSET(0x1CBFAA10)
+#define SYSTEM_UNCNAMEHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBFAA00)
 
 namespace System
 {
-	inline static constexpr unsigned int UncNameHelper_TypeDefinitionIndex = 2693;
+	inline static constexpr unsigned int UncNameHelper_TypeDefinitionIndex = 2692;
 
 	class UncNameHelper : public ::System::Object
 	{
@@ -27,9 +27,9 @@ namespace System
 			return ((::System::String*(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_UNCNAMEHELPER_PARSECANONICALNAME_OFFSET))(str, start, end, loopback);
 		}
 
-		static ::System::Boolean IsValid(::System::Char* name, ::System::UInt16 start, ::System::Int32& returnedEnd, ::System::Boolean notImplicitFile)
+		static ::System::Boolean IsValid(::PVOID name, ::System::UInt16 start, ::System::Int32& returnedEnd, ::System::Boolean notImplicitFile)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::UInt16, ::System::Int32&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_UNCNAMEHELPER_ISVALID_OFFSET))(name, start, returnedEnd, notImplicitFile);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt16, ::System::Int32&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_UNCNAMEHELPER_ISVALID_OFFSET))(name, start, returnedEnd, notImplicitFile);
 		}
 	};
 }

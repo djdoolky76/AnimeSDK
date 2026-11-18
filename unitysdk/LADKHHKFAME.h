@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class LKFIBOOFEJC;
+
+#define LADKHHKFAME_HJKKAFKJPMJ_OFFSET UNITYSDK_OFFSET(0x1517A090)
+#define LADKHHKFAME_HNNAMKLBMNE_OFFSET UNITYSDK_OFFSET(0x15179E50)
+#define LADKHHKFAME_LGLLHDFFLIA_OFFSET UNITYSDK_OFFSET(0x15179F60)
+#define LADKHHKFAME__CTOR_OFFSET UNITYSDK_OFFSET(0x15179DB0)
+
+inline static constexpr unsigned int LADKHHKFAME_TypeDefinitionIndex = 41983;
+
+class LADKHHKFAME
+{
+public:
+	::System::Void _ctor(::System::Int32 MFJHLIAHICC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + LADKHHKFAME__CTOR_OFFSET))(this, MFJHLIAHICC);
+	}
+
+	::LKFIBOOFEJC* LGLLHDFFLIA()
+	{
+		return ((::LKFIBOOFEJC*(*)(::PVOID))((::PBYTE)hIl2Cpp + LADKHHKFAME_LGLLHDFFLIA_OFFSET))(this);
+	}
+
+	::System::Int32 HJKKAFKJPMJ()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + LADKHHKFAME_HJKKAFKJPMJ_OFFSET))(this);
+	}
+
+	::System::Void HNNAMKLBMNE(::LKFIBOOFEJC* PMAMMGFJAJL)
+	{
+		return ((::System::Void(*)(::PVOID, ::LKFIBOOFEJC*))((::PBYTE)hIl2Cpp + LADKHHKFAME_HNNAMKLBMNE_OFFSET))(this, PMAMMGFJAJL);
+	}
+};

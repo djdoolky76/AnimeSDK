@@ -5,12 +5,12 @@
 namespace MoleMole { class UIMixedStreamingPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMIXEDSTREAMINGPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC75F0)
-#define MOLEMOLE_UIMIXEDSTREAMINGPAGECONTROLLER___C__DISPLAYCLASS24_0__PLAYBYSHOWSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x19CC7600)
+#define MOLEMOLE_UIMIXEDSTREAMINGPAGECONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FC6090)
+#define MOLEMOLE_UIMIXEDSTREAMINGPAGECONTROLLER___C__DISPLAYCLASS24_0__PLAYBYSHOWSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x18FC60A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMixedStreamingPageController___c__DisplayClass24_0_TypeDefinitionIndex = 62855;
+	inline static constexpr unsigned int UIMixedStreamingPageController___c__DisplayClass24_0_TypeDefinitionIndex = 79222;
 
 	class UIMixedStreamingPageController___c__DisplayClass24_0 : public ::System::Object
 	{

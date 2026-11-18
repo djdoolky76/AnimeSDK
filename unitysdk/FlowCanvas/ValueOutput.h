@@ -4,18 +4,15 @@
 
 namespace FlowCanvas { class FlowNode; }
 namespace FlowCanvas { class ValueHandlerObject; }
-namespace FlowCanvas { template <typename T> class ValueHandler_1; }
-namespace FlowCanvas { template <typename T> class ValueOutput_1; }
-namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define FLOWCANVAS_VALUEOUTPUT_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1EF8BF70)
-#define FLOWCANVAS_VALUEOUTPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8BF60)
+#define FLOWCANVAS_VALUEOUTPUT_CREATEINSTANCE_1_OFFSET UNITYSDK_OFFSET(0x1F2FB200)
+#define FLOWCANVAS_VALUEOUTPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2FB1F0)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int ValueOutput_TypeDefinitionIndex = 31219;
+	inline static constexpr unsigned int ValueOutput_TypeDefinitionIndex = 30860;
 
 	class ValueOutput : public ::FlowCanvas::Port
 	{
@@ -25,9 +22,9 @@ namespace FlowCanvas
 			return ((::System::Void(*)(::PVOID, ::FlowCanvas::FlowNode*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + FLOWCANVAS_VALUEOUTPUT__CTOR_OFFSET))(this, parent, name, ID);
 		}
 
-		static ::FlowCanvas::ValueOutput* CreateInstance(::System::Type* t, ::FlowCanvas::FlowNode* parent, ::System::String* name, ::System::String* ID, ::FlowCanvas::ValueHandlerObject* getter)
+		static ::FlowCanvas::ValueOutput* CreateInstance_1(::System::Type* t, ::FlowCanvas::FlowNode* parent, ::System::String* name, ::System::String* ID, ::FlowCanvas::ValueHandlerObject* getter)
 		{
-			return ((::FlowCanvas::ValueOutput*(*)(::System::Type*, ::FlowCanvas::FlowNode*, ::System::String*, ::System::String*, ::FlowCanvas::ValueHandlerObject*))((::PBYTE)hIl2Cpp + FLOWCANVAS_VALUEOUTPUT_CREATEINSTANCE_OFFSET))(t, parent, name, ID, getter);
+			return ((::FlowCanvas::ValueOutput*(*)(::System::Type*, ::FlowCanvas::FlowNode*, ::System::String*, ::System::String*, ::FlowCanvas::ValueHandlerObject*))((::PBYTE)hIl2Cpp + FLOWCANVAS_VALUEOUTPUT_CREATEINSTANCE_1_OFFSET))(t, parent, name, ID, getter);
 		}
 	};
 }

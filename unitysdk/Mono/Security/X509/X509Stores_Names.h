@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define MONO_SECURITY_X509_X509STORES_NAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1FADA900)
+#define MONO_SECURITY_X509_X509STORES_NAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1FEEB670)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int X509Stores_Names_TypeDefinitionIndex = 2307;
+	inline static constexpr unsigned int X509Stores_Names_TypeDefinitionIndex = 2306;
 
 	class X509Stores_Names : public ::System::Object
 	{

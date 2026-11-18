@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDataClearPriority_TypeDefinitionIndex = 54882;
+	inline static constexpr unsigned int ConfigDataClearPriority_TypeDefinitionIndex = 82499;
 
 	enum class ConfigDataClearPriority : ::System::Int32
 	{

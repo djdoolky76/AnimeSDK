@@ -5,18 +5,19 @@
 
 namespace System { class String; }
 
-#define ROOTMOTION_FINALIK_AIMPOSER_POSE_ISINDIRECTION_OFFSET UNITYSDK_OFFSET(0x1F8A7650)
-#define ROOTMOTION_FINALIK_AIMPOSER_POSE_SETANGLEBUFFER_OFFSET UNITYSDK_OFFSET(0x1F8A7A20)
-#define ROOTMOTION_FINALIK_AIMPOSER_POSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8A7A30)
+#define ROOTMOTION_FINALIK_AIMPOSER_POSE_ISINDIRECTION_OFFSET UNITYSDK_OFFSET(0x1FC44CE0)
+#define ROOTMOTION_FINALIK_AIMPOSER_POSE_SETANGLEBUFFER_OFFSET UNITYSDK_OFFSET(0x1FC450B0)
+#define ROOTMOTION_FINALIK_AIMPOSER_POSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC450C0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int AimPoser_Pose_TypeDefinitionIndex = 38873;
+	inline static constexpr unsigned int AimPoser_Pose_TypeDefinitionIndex = 36842;
 
 	class AimPoser_Pose : public ::System::Object
 	{
 	public:
 		::System::Boolean visualize; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::String* name; // 0x18
 		::UnityEngine::Vector3 direction; // 0x20
 		::System::Single yaw; // 0x2C

@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_SafePhoneActionParam_TypeDefinitionIndex = 37872;
+	inline static constexpr unsigned int UIConstants_SafePhoneActionParam_TypeDefinitionIndex = 35870;
 
 	class UIConstants_SafePhoneActionParam : public ::System::Object
 	{

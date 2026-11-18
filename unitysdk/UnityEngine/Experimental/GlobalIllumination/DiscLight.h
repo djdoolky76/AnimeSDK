@@ -9,7 +9,7 @@
 
 namespace UnityEngine::Experimental::GlobalIllumination
 {
-	inline static constexpr unsigned int DiscLight_TypeDefinitionIndex = 6320;
+	inline static constexpr unsigned int DiscLight_TypeDefinitionIndex = 6335;
 
 	struct alignas(4) DiscLight
 	{

@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
-namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_ACTIONS_GETGAMEOBJECTPOSITION_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EBC08D0)
-#define NODECANVAS_TASKS_ACTIONS_GETGAMEOBJECTPOSITION_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EBC0B40)
-#define NODECANVAS_TASKS_ACTIONS_GETGAMEOBJECTPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC0C20)
+#define NODECANVAS_TASKS_ACTIONS_GETGAMEOBJECTPOSITION_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EF93190)
+#define NODECANVAS_TASKS_ACTIONS_GETGAMEOBJECTPOSITION_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF93400)
+#define NODECANVAS_TASKS_ACTIONS_GETGAMEOBJECTPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF934E0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int GetGameObjectPosition_TypeDefinitionIndex = 30620;
+	inline static constexpr unsigned int GetGameObjectPosition_TypeDefinitionIndex = 30130;
 
-	class GetGameObjectPosition : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>
+	class GetGameObjectPosition
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveAs; // 0x60

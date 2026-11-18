@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaFacet.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAENUMERATIONFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E49F970)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAENUMERATIONFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E703730)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaEnumerationFacet_TypeDefinitionIndex = 2149;
+	inline static constexpr unsigned int XmlSchemaEnumerationFacet_TypeDefinitionIndex = 2148;
 
 	class XmlSchemaEnumerationFacet : public ::System::Xml::Schema::XmlSchemaFacet
 	{

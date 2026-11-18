@@ -5,13 +5,13 @@
 
 namespace UnityEngine::Rendering::Universal { class FXColorCorrection; }
 
-#define FXCOLORCORRECTIONPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x178A2160)
-#define FXCOLORCORRECTIONPROXY_COPYVALUEFROMFXCOLORCORRECTION_OFFSET UNITYSDK_OFFSET(0x178A2570)
-#define FXCOLORCORRECTIONPROXY_SETVALUETOFXCOLORCORRECTION_OFFSET UNITYSDK_OFFSET(0x178A2940)
-#define FXCOLORCORRECTIONPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x178A28F0)
-#define FXCOLORCORRECTIONPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x178A34C0)
+#define FXCOLORCORRECTIONPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x11C81570)
+#define FXCOLORCORRECTIONPROXY_COPYVALUEFROMFXCOLORCORRECTION_OFFSET UNITYSDK_OFFSET(0x11C81980)
+#define FXCOLORCORRECTIONPROXY_SETVALUETOFXCOLORCORRECTION_OFFSET UNITYSDK_OFFSET(0x11C81D50)
+#define FXCOLORCORRECTIONPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x11C81D00)
+#define FXCOLORCORRECTIONPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x11C82540)
 
-inline static constexpr unsigned int FXColorCorrectionProxy_TypeDefinitionIndex = 70608;
+inline static constexpr unsigned int FXColorCorrectionProxy_TypeDefinitionIndex = 42111;
 
 class FXColorCorrectionProxy : public ::UnityEngine::MonoBehaviour
 {
@@ -22,6 +22,7 @@ public:
 	::System::Single gamma; // 0x24
 	::System::Boolean lutInvert; // 0x28
 	::System::Boolean lutToneColors; // 0x29
+	::System::Byte _padding0[0x2];
 	::UnityEngine::Color lutToneA; // 0x2C
 	::UnityEngine::Color lutToneB; // 0x3C
 	::System::Single lutMiddlePoint; // 0x4C
@@ -29,10 +30,12 @@ public:
 	::System::Single desaturate; // 0x54
 	::System::Boolean invert; // 0x58
 	::System::Boolean toneColors; // 0x59
+	::System::Byte _padding1[0x2];
 	::UnityEngine::Color toneA; // 0x5C
 	::UnityEngine::Color toneB; // 0x6C
 	::System::Single middlePoint; // 0x7C
 	::System::Single softness; // 0x80
+	::System::Byte _padding2[0x4];
 	::UnityEngine::Rendering::Universal::FXColorCorrection* _fXColorCorrection; // 0x88
 
 	::System::Void _ctor()

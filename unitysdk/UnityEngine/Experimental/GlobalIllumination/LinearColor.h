@@ -1,13 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Color.h"
 
-#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LINEARCOLOR_BLACK_OFFSET UNITYSDK_OFFSET(0x1E600510)
-#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LINEARCOLOR_CONVERT_OFFSET UNITYSDK_OFFSET(0x1E600400)
+#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LINEARCOLOR_BLACK_OFFSET UNITYSDK_OFFSET(0x1E848F90)
+#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LINEARCOLOR_CONVERT_OFFSET UNITYSDK_OFFSET(0x1E848E80)
 
 namespace UnityEngine::Experimental::GlobalIllumination
 {
-	inline static constexpr unsigned int LinearColor_TypeDefinitionIndex = 6315;
+	inline static constexpr unsigned int LinearColor_TypeDefinitionIndex = 6330;
 
 	struct alignas(4) LinearColor
 	{
@@ -23,9 +24,11 @@ namespace UnityEngine::Experimental::GlobalIllumination
 		}
 		*/
 
+		/*
 		static ::UnityEngine::Experimental::GlobalIllumination::LinearColor Black()
 		{
 			return ((::UnityEngine::Experimental::GlobalIllumination::LinearColor(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LINEARCOLOR_BLACK_OFFSET))();
 		}
+		*/
 	};
 }

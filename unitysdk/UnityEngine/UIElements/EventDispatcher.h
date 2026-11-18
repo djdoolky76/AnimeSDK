@@ -2,8 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/UIElements/DispatchMode.h"
-#include "unitysdk/UnityEngine/UIElements/EventDispatcher_DispatchContext.h"
-#include "unitysdk/UnityEngine/UIElements/EventDispatcher_EventRecord.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
@@ -14,33 +12,34 @@ namespace UnityEngine::UIElements { class IPanel; }
 namespace UnityEngine::UIElements { class PointerDispatchState; }
 namespace UnityEngine::UIElements { template <typename T> class ObjectPool_1; }
 
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_APPLYDISPATCHINGSTRATEGIES_OFFSET UNITYSDK_OFFSET(0x1CFF89E0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_CLOSEGATE_OFFSET UNITYSDK_OFFSET(0x1CFF85B0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_DISPATCH_OFFSET UNITYSDK_OFFSET(0x1CFF0100)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_DISPATCHIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x1CFF8090)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_POINTERSTATE_OFFSET UNITYSDK_OFFSET(0x1CFF7CE0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_OPENGATE_OFFSET UNITYSDK_OFFSET(0x1CFF85C0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENTQUEUE_OFFSET UNITYSDK_OFFSET(0x1CFF8640)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENT_OFFSET UNITYSDK_OFFSET(0x1CFF80B0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CFF8CC0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF7CF0)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_APPLYDISPATCHINGSTRATEGIES_OFFSET UNITYSDK_OFFSET(0x1D5ADB70)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_CLOSEGATE_OFFSET UNITYSDK_OFFSET(0x1D5AD740)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_DISPATCH_OFFSET UNITYSDK_OFFSET(0x1D5A5280)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_DISPATCHIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x1D5AD220)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_POINTERSTATE_OFFSET UNITYSDK_OFFSET(0x1D5ACE70)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_OPENGATE_OFFSET UNITYSDK_OFFSET(0x1D5AD750)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENTQUEUE_OFFSET UNITYSDK_OFFSET(0x1D5AD7D0)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENT_OFFSET UNITYSDK_OFFSET(0x1D5AD240)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5ADE50)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5ACE80)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventDispatcher_TypeDefinitionIndex = 28044;
+	inline static constexpr unsigned int EventDispatcher_TypeDefinitionIndex = 27462;
 
 	class EventDispatcher : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>** StaticGet_k_EventQueuePool()
+		static ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::System::Object*>*>** StaticGet_k_EventQueuePool()
 		{
-			return (::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>**)Il2CppClass::FromTypeDefinitionIndex(EventDispatcher_TypeDefinitionIndex)->GetStaticField(0x23C60);
+			return (::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(EventDispatcher_TypeDefinitionIndex)->GetStaticField(0x24C50);
 		}
 		::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* m_DispatchingStrategies; // 0x10
-		::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* m_Queue; // 0x18
+		::System::Collections::Generic::Queue_1<::System::Object*>* m_Queue; // 0x18
 		::UnityEngine::UIElements::PointerDispatchState* _pointerState_k__BackingField; // 0x20
 		::System::UInt32 m_GateCount; // 0x28
-		::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventDispatcher_DispatchContext>* m_DispatchContexts; // 0x30
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::Stack_1<::System::Object*>* m_DispatchContexts; // 0x30
 		::System::Boolean m_Immediate; // 0x38
 
 		::System::Void _ctor()

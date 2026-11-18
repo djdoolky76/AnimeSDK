@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableFunctionNode_3.h"
 
 namespace MoleMole { class ChessEntity; }
 namespace MoleMole { class ChessEntityCollection; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_ADDENTITYBYCHESSENTITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1382DB50)
-#define MOLEMOLE_FLOWCANVAS_NODES_ADDENTITYBYCHESSENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1382DBC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_ADDENTITYBYCHESSENTITY_INVOKE_OFFSET UNITYSDK_OFFSET(0x139D2E30)
+#define MOLEMOLE_FLOWCANVAS_NODES_ADDENTITYBYCHESSENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x139D2EA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int AddEntityByChessEntity_TypeDefinitionIndex = 83805;
+	inline static constexpr unsigned int AddEntityByChessEntity_TypeDefinitionIndex = 70562;
 
-	class AddEntityByChessEntity : public ::MoleMole::FlowCanvas::ChessboardCallableFunctionNode_3<::MoleMole::ChessEntity*, ::MoleMole::ChessEntity*, ::MoleMole::ChessEntityCollection*>
+	class AddEntityByChessEntity
 	{
 	public:
 		::System::Void _ctor()

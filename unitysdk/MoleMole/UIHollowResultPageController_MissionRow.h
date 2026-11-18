@@ -5,18 +5,19 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER_MISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1961A690)
+#define MOLEMOLE_UIHOLLOWRESULTPAGECONTROLLER_MISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18F2D2A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowResultPageController_MissionRow_TypeDefinitionIndex = 41929;
+	inline static constexpr unsigned int UIHollowResultPageController_MissionRow_TypeDefinitionIndex = 71572;
 
 	class UIHollowResultPageController_MissionRow : public ::System::Object
 	{
 	public:
-		::System::Object* Data; // 0x10
-		::System::String* strValue; // 0x18
+		::System::String* strValue; // 0x10
+		::System::Object* Data; // 0x18
 		::System::Boolean showComplete; // 0x20
+		::System::Byte _padding0[0x3];
 		::MoleMole::UIHollowResultPageController_MissionRowType Type; // 0x24
 
 		::System::Void _ctor(::MoleMole::UIHollowResultPageController_MissionRowType Type, ::System::Object* data)

@@ -3,7 +3,7 @@
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int MatPropertyData_Value_ValueType_TypeDefinitionIndex = 54936;
+	inline static constexpr unsigned int MatPropertyData_Value_ValueType_TypeDefinitionIndex = 69553;
 
 	enum class MatPropertyData_Value_ValueType : ::System::Int32
 	{

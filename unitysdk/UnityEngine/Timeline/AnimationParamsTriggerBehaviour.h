@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1F9945B0)
-#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1F993FF0)
-#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1F994330)
-#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9946B0)
+#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1FD8E3E0)
+#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1FD8DE20)
+#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1FD8E160)
+#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD8E4E0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AnimationParamsTriggerBehaviour_TypeDefinitionIndex = 32876;
+	inline static constexpr unsigned int AnimationParamsTriggerBehaviour_TypeDefinitionIndex = 32328;
 
 	class AnimationParamsTriggerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace ParadoxNotion::Serialization { class SerializedEventInfo; }
 
-#define MESSAGEPACK_FORMATTERS_GRAPH_SERIALIZEDEVENTINFO_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF8E190)
-#define MESSAGEPACK_FORMATTERS_GRAPH_SERIALIZEDEVENTINFO_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF8E170)
-#define MESSAGEPACK_FORMATTERS_GRAPH_SERIALIZEDEVENTINFO_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8E2A0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_SERIALIZEDEVENTINFO_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F2FD420)
+#define MESSAGEPACK_FORMATTERS_GRAPH_SERIALIZEDEVENTINFO_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F2FD400)
+#define MESSAGEPACK_FORMATTERS_GRAPH_SERIALIZEDEVENTINFO_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2FD530)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Graph_SerializedEventInfo_Formatter_TypeDefinitionIndex = 30075;
+	inline static constexpr unsigned int Graph_SerializedEventInfo_Formatter_TypeDefinitionIndex = 30833;
 
 	class Graph_SerializedEventInfo_Formatter : public ::System::Object
 	{

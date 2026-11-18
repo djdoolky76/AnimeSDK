@@ -3,16 +3,16 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsWorldTimeCenter_RunningPhase_TypeDefinitionIndex = 37948;
+	inline static constexpr unsigned int EcsWorldTimeCenter_RunningPhase_TypeDefinitionIndex = 35936;
 
 	enum class EcsWorldTimeCenter_RunningPhase : ::System::Byte
 	{
-		None = 0x0,
-		Paused = 0x3,
-		Running = 0x2,
-		Initialized = 0x1,
-		Destroyed = 0x6,
-		Stopped = 0x4,
-		Error = 0x5,
+		Error = 5,
+		Stopped = 4,
+		Destroyed = 6,
+		Paused = 3,
+		Running = 2,
+		Initialized = 1,
+		None = 0,
 	};
 }

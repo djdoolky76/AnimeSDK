@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXENTITLEMENTSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CA830)
+#define MIHOYO_SDK_PC_OS_XBOXENTITLEMENTSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D848DF0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxEntitlementsParam_TypeDefinitionIndex = 20752;
+	inline static constexpr unsigned int XboxEntitlementsParam_TypeDefinitionIndex = 19956;
 
 	class XboxEntitlementsParam : public ::System::Object
 	{

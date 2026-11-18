@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
@@ -13,31 +13,31 @@ namespace System::Threading { class CancellationTokenSource; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class Transform; }
 
-#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_CALCULATECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x1948F3C0)
-#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_GET_ISTICKING_OFFSET UNITYSDK_OFFSET(0x1948F5C0)
-#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_ONCLICKSWITCH_OFFSET UNITYSDK_OFFSET(0x1948F2A0)
-#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_REGONSWITCHCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1948F1A0)
-#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_REGONSWITCHSTART_OFFSET UNITYSDK_OFFSET(0x1948F1F0)
-#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_SETCAMERAANDVIEWTARGET_OFFSET UNITYSDK_OFFSET(0x1948F240)
-#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_SWITCHCAMERA_OFFSET UNITYSDK_OFFSET(0x1948F310)
-#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1948F550)
-#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_WAITUNTILTIMECURSOR_OFFSET UNITYSDK_OFFSET(0x1948F470)
-#define CONFIGCAMERASPHERICALCOORDINATESWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1948F5D0)
+#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_CALCULATECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x16890370)
+#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_GET_ISTICKING_OFFSET UNITYSDK_OFFSET(0x16890560)
+#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_ONCLICKSWITCH_OFFSET UNITYSDK_OFFSET(0x16890250)
+#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_REGONSWITCHCOMPLETE_OFFSET UNITYSDK_OFFSET(0x16890150)
+#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_REGONSWITCHSTART_OFFSET UNITYSDK_OFFSET(0x168901A0)
+#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_SETCAMERAANDVIEWTARGET_OFFSET UNITYSDK_OFFSET(0x168901F0)
+#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_SWITCHCAMERA_OFFSET UNITYSDK_OFFSET(0x168902C0)
+#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0x168904F0)
+#define CONFIGCAMERASPHERICALCOORDINATESWITCHER_WAITUNTILTIMECURSOR_OFFSET UNITYSDK_OFFSET(0x16890420)
+#define CONFIGCAMERASPHERICALCOORDINATESWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x16890570)
 
-inline static constexpr unsigned int ConfigCameraSphericalCoordinateSwitcher_TypeDefinitionIndex = 57833;
+inline static constexpr unsigned int ConfigCameraSphericalCoordinateSwitcher_TypeDefinitionIndex = 40338;
 
 class ConfigCameraSphericalCoordinateSwitcher : public ::System::Object
 {
 public:
-	::System::Action* m_onSwitchComplete; // 0x10
-	::System::Action* m_onSwitchStart; // 0x18
-	::UnityEngine::Transform* m_cam; // 0x20
-	::UnityEngine::Transform* m_viewTarget; // 0x28
-	::UnityEngine::Coroutine* m_switchCoroutine; // 0x30
+	::UnityEngine::Transform* m_viewTarget; // 0x10
+	::System::Threading::CancellationTokenSource* m_originalSource; // 0x18
+	::System::Action* m_onSwitchComplete; // 0x20
+	::UnityEngine::Transform* m_cam; // 0x28
+	::System::Action* m_onSwitchStart; // 0x30
 	::MoleMole::Config::PlayerAccessoryTabData* m_prevConfigID; // 0x38
-	::System::Threading::CancellationTokenSource* m_originalSource; // 0x40
-	::System::Boolean m_isTicking; // 0x48
-	::System::Single m_curTimeCursor; // 0x4C
+	::UnityEngine::Coroutine* m_switchCoroutine; // 0x40
+	::System::Single m_curTimeCursor; // 0x48
+	::System::Boolean m_isTicking; // 0x4C
 
 	::System::Void _ctor()
 	{

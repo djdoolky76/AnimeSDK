@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightLODChange_TypeDefinitionIndex = 27206;
+	inline static constexpr unsigned int LightLODChange_TypeDefinitionIndex = 26286;
 
 	struct alignas(4) LightLODChange
 	{
@@ -15,6 +15,7 @@ namespace UnityEngine::Rendering::Universal
 		// static const ::System::Byte kLightEnableChange = 0x8; // 0x0
 		// static const ::System::Byte kLightShouldCullChange = 0x10; // 0x0
 		::System::Byte changeType; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Int32 index; // 0x14
 		::System::Single shadowStrength; // 0x18
 		::UnityEngine::LightShadows shadow; // 0x1C

@@ -4,18 +4,20 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_DRIFTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172B43F0)
+#define MOLEMOLE_CONFIG_DRIFTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1641F8A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DriftOverrideConfig_TypeDefinitionIndex = 79196;
+	inline static constexpr unsigned int DriftOverrideConfig_TypeDefinitionIndex = 73872;
 
 	class DriftOverrideConfig : public ::System::Object
 	{
 	public:
 		::System::Single OverflowDecelerateDuration; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* OverflowDecelerateDurationCurve; // 0x18
 		::System::Single OverflowDecelRatioNoInput; // 0x20
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* OverflowDecelerateCurve; // 0x28
 		::System::Single DriftExitSideSpeed; // 0x30
 		::System::Single DriftAccelDurationRatio; // 0x34
@@ -24,6 +26,7 @@ namespace MoleMole::Config
 		::System::Single DriftAccelMaxAddSpeed; // 0x44
 		::UnityEngine::AnimationCurve* DriftAccelAddSpeedCurve; // 0x48
 		::System::Single DriftMaxForce; // 0x50
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* DriftAccelerateCurve; // 0x58
 		::System::Single DriftMaxTotalSpeedRatio; // 0x60
 		::System::Single DriftMaxAngle; // 0x64

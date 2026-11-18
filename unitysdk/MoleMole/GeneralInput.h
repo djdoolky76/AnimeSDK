@@ -7,12 +7,12 @@ namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI::Extension { class UIButtonEx; }
 
-#define MOLEMOLE_GENERALINPUT_REGISTERDELETEBTN_OFFSET UNITYSDK_OFFSET(0x13A924B0)
-#define MOLEMOLE_GENERALINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x13A92580)
+#define MOLEMOLE_GENERALINPUT_REGISTERDELETEBTN_OFFSET UNITYSDK_OFFSET(0x1466D3C0)
+#define MOLEMOLE_GENERALINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1466D490)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralInput_TypeDefinitionIndex = 71835;
+	inline static constexpr unsigned int GeneralInput_TypeDefinitionIndex = 82054;
 
 	class GeneralInput : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,9 +26,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GENERALINPUT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void RegisterDeleteBtn(::System::Action* a1)
+		::System::Void RegisterDeleteBtn(::System::Action* IADEALBCGKO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_GENERALINPUT_REGISTERDELETEBTN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_GENERALINPUT_REGISTERDELETEBTN_OFFSET))(this, IADEALBCGKO);
 		}
 	};
 }

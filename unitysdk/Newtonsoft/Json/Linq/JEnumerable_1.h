@@ -2,19 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace Newtonsoft::Json::Linq { class JToken; }
-namespace Newtonsoft::Json::Linq { template <typename T> class IJEnumerable_1; }
-namespace System { class Object; }
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JEnumerable_1_TypeDefinitionIndex = 7176;
+	inline static constexpr unsigned int JEnumerable_1_TypeDefinitionIndex = 7183;
 
 	template <typename T>
-	struct JEnumerable_1
+	struct alignas(8) JEnumerable_1
 	{
 		static ::Newtonsoft::Json::Linq::JEnumerable_1<T>* StaticGet_Empty()
 		{

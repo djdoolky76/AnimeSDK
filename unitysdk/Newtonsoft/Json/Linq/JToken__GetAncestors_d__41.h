@@ -6,29 +6,31 @@ namespace Newtonsoft::Json::Linq { class JToken; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F89CFD0)
-#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_NEWTONSOFT_JSON_LINQ_JTOKEN__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F89D0D0)
-#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_NEWTONSOFT_JSON_LINQ_JTOKEN__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F89D060)
-#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F89D2C0)
-#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F89D0C0)
-#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F89D070)
-#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F89CFC0)
-#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41__CTOR_OFFSET UNITYSDK_OFFSET(0x1F89CEF0)
+#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1FCB8000)
+#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_NEWTONSOFT_JSON_LINQ_JTOKEN__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1FCB8100)
+#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_NEWTONSOFT_JSON_LINQ_JTOKEN__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1FCB8090)
+#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1FCB82F0)
+#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1FCB80F0)
+#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1FCB80A0)
+#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1FCB7FF0)
+#define NEWTONSOFT_JSON_LINQ_JTOKEN__GETANCESTORS_D__41__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCB7F20)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JToken__GetAncestors_d__41_TypeDefinitionIndex = 7190;
+	inline static constexpr unsigned int JToken__GetAncestors_d__41_TypeDefinitionIndex = 7197;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36, typename T37, typename T38, typename T39, typename T40, typename T41>
 	class JToken__GetAncestors_d__41 : public ::System::Object
 	{
 	public:
-		::Newtonsoft::Json::Linq::JToken* _current_5__1; // 0x10
-		::Newtonsoft::Json::Linq::JToken* __2__current; // 0x18
+		::Newtonsoft::Json::Linq::JToken* __2__current; // 0x10
+		::Newtonsoft::Json::Linq::JToken* _current_5__1; // 0x18
 		::Newtonsoft::Json::Linq::JToken* __4__this; // 0x20
-		::System::Boolean self; // 0x28
-		::System::Boolean __3__self; // 0x29
-		::System::Int32 __1__state; // 0x2C
-		::System::Int32 __l__initialThreadId; // 0x30
+		::System::Int32 __l__initialThreadId; // 0x28
+		::System::Boolean __3__self; // 0x2C
+		::System::Boolean self; // 0x2D
+		::System::Byte _padding0[0x2];
+		::System::Int32 __1__state; // 0x30
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

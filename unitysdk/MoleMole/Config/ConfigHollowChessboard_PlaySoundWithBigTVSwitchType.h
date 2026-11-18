@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Config/ConfigHollowChessboard_BigTVSwitchReason.h"
 #include "unitysdk/MoleMole/Config/ConfigHollowChessboard_ChessEffectBase.h"
 
-class Class_1_8CE3173023BA2453;
-class Class_5_A6F8D19602712D95;
+class GDCCBKJDPGE;
+class PNJDGHBEMLK;
 namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectRunContextBase; }
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x16C43240)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE_RUN_OFFSET UNITYSDK_OFFSET(0x16C430A0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C43250)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE_GET_TOTALDURATION_OFFSET UNITYSDK_OFFSET(0x1A0300E0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE_RUN_OFFSET UNITYSDK_OFFSET(0x1A02FF40)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0300F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_PlaySoundWithBigTVSwitchType_TypeDefinitionIndex = 59275;
+	inline static constexpr unsigned int ConfigHollowChessboard_PlaySoundWithBigTVSwitchType_TypeDefinitionIndex = 46309;
 
 	class ConfigHollowChessboard_PlaySoundWithBigTVSwitchType : public ::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigHollowChessboard_BigTVSwitchReason, ::System::Int32>* KeyMap; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>* KeyMap; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Run(::Class_5_A6F8D19602712D95* chessPiece, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>* endCallback, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase* context, ::Class_1_8CE3173023BA2453* timeScale)
+		::System::Void Run(::PNJDGHBEMLK* chessPiece, ::System::Action_1<::System::Object*>* endCallback, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase* context, ::GDCCBKJDPGE* timeScale)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_5_A6F8D19602712D95*, ::System::Action_1<::MoleMole::Config::ConfigHollowChessboard_ChessEffectBase*>*, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase*, ::Class_1_8CE3173023BA2453*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE_RUN_OFFSET))(this, chessPiece, endCallback, context, timeScale);
+			return ((::System::Void(*)(::PVOID, ::PNJDGHBEMLK*, ::System::Action_1<::System::Object*>*, ::MoleMole::Config::ConfigHollowChessboard_ChessEffectRunContextBase*, ::GDCCBKJDPGE*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_PLAYSOUNDWITHBIGTVSWITCHTYPE_RUN_OFFSET))(this, chessPiece, endCallback, context, timeScale);
 		}
 
 		::System::Single get_totalDuration()

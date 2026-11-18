@@ -3,14 +3,14 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DownloadDiffPatcher_Step_TypeDefinitionIndex = 52893;
+	inline static constexpr unsigned int DownloadDiffPatcher_Step_TypeDefinitionIndex = 62279;
 
 	enum class DownloadDiffPatcher_Step : ::System::Byte
 	{
-		Finish = 0x4,
-		Collect = 0x1,
-		Move = 0x3,
-		Init = 0x0,
-		DiffPatch = 0x2,
+		Move = 3,
+		DiffPatch = 2,
+		Finish = 4,
+		Collect = 1,
+		Init = 0,
 	};
 }

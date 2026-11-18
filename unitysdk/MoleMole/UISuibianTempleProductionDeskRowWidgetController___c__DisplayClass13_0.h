@@ -5,19 +5,19 @@
 namespace MoleMole { class UISuibianTempleProductionDeskRowWidgetController; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONDESKROWWIDGETCONTROLLER___C__DISPLAYCLASS13_0__BINDVIEWCALLBACK_G__ONCLICK_0_OFFSET UNITYSDK_OFFSET(0x1629BD10)
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONDESKROWWIDGETCONTROLLER___C__DISPLAYCLASS13_0__BINDVIEWCALLBACK_G__ONLOCK_1_OFFSET UNITYSDK_OFFSET(0x1629BED0)
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONDESKROWWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1629BD00)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONDESKROWWIDGETCONTROLLER___C__DISPLAYCLASS13_0__BINDVIEWCALLBACK_G__ONCLICK_0_OFFSET UNITYSDK_OFFSET(0x19C990A0)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONDESKROWWIDGETCONTROLLER___C__DISPLAYCLASS13_0__BINDVIEWCALLBACK_G__ONLOCK_1_OFFSET UNITYSDK_OFFSET(0x19C99260)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONDESKROWWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C99090)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleProductionDeskRowWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 60370;
+	inline static constexpr unsigned int UISuibianTempleProductionDeskRowWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 77438;
 
 	class UISuibianTempleProductionDeskRowWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UISuibianTempleProductionDeskRowWidgetController* __4__this; // 0x10
-		::UnityEngine::Events::UnityAction* action; // 0x18
+		::UnityEngine::Events::UnityAction* action; // 0x10
+		::MoleMole::UISuibianTempleProductionDeskRowWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

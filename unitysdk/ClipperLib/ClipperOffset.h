@@ -10,28 +10,28 @@ namespace ClipperLib { class PolyNode; }
 namespace ClipperLib { class PolyTree; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLIPPERLIB_CLIPPEROFFSET_ADDPATHS_OFFSET UNITYSDK_OFFSET(0x1E3D4CE0)
-#define CLIPPERLIB_CLIPPEROFFSET_ADDPATH_OFFSET UNITYSDK_OFFSET(0x1E3D4860)
-#define CLIPPERLIB_CLIPPEROFFSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E3D47E0)
-#define CLIPPERLIB_CLIPPEROFFSET_DOMITER_OFFSET UNITYSDK_OFFSET(0x1E3D78F0)
-#define CLIPPERLIB_CLIPPEROFFSET_DOOFFSET_OFFSET UNITYSDK_OFFSET(0x1E3D5260)
-#define CLIPPERLIB_CLIPPEROFFSET_DOROUND_OFFSET UNITYSDK_OFFSET(0x1E3D6CE0)
-#define CLIPPERLIB_CLIPPEROFFSET_DOSQUARE_OFFSET UNITYSDK_OFFSET(0x1E3D6A00)
-#define CLIPPERLIB_CLIPPEROFFSET_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x1E3D7300)
-#define CLIPPERLIB_CLIPPEROFFSET_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E3D6FF0)
-#define CLIPPERLIB_CLIPPEROFFSET_FIXORIENTATIONS_OFFSET UNITYSDK_OFFSET(0x1E3D4DF0)
-#define CLIPPERLIB_CLIPPEROFFSET_GETUNITNORMAL_OFFSET UNITYSDK_OFFSET(0x1E3D51E0)
-#define CLIPPERLIB_CLIPPEROFFSET_GET_ARCTOLERANCE_OFFSET UNITYSDK_OFFSET(0x1E3D4640)
-#define CLIPPERLIB_CLIPPEROFFSET_GET_MITERLIMIT_OFFSET UNITYSDK_OFFSET(0x1E3D4660)
-#define CLIPPERLIB_CLIPPEROFFSET_OFFSETPOINT_OFFSET UNITYSDK_OFFSET(0x1E3D65C0)
-#define CLIPPERLIB_CLIPPEROFFSET_ROUND_OFFSET UNITYSDK_OFFSET(0x1E3D4840)
-#define CLIPPERLIB_CLIPPEROFFSET_SET_ARCTOLERANCE_OFFSET UNITYSDK_OFFSET(0x1E3D4650)
-#define CLIPPERLIB_CLIPPEROFFSET_SET_MITERLIMIT_OFFSET UNITYSDK_OFFSET(0x1E3D4670)
-#define CLIPPERLIB_CLIPPEROFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D4680)
+#define CLIPPERLIB_CLIPPEROFFSET_ADDPATHS_OFFSET UNITYSDK_OFFSET(0x1E617F30)
+#define CLIPPERLIB_CLIPPEROFFSET_ADDPATH_OFFSET UNITYSDK_OFFSET(0x1E617AB0)
+#define CLIPPERLIB_CLIPPEROFFSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E617A30)
+#define CLIPPERLIB_CLIPPEROFFSET_DOMITER_OFFSET UNITYSDK_OFFSET(0x1E61AB30)
+#define CLIPPERLIB_CLIPPEROFFSET_DOOFFSET_OFFSET UNITYSDK_OFFSET(0x1E6184B0)
+#define CLIPPERLIB_CLIPPEROFFSET_DOROUND_OFFSET UNITYSDK_OFFSET(0x1E619F30)
+#define CLIPPERLIB_CLIPPEROFFSET_DOSQUARE_OFFSET UNITYSDK_OFFSET(0x1E619C50)
+#define CLIPPERLIB_CLIPPEROFFSET_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x1E61A540)
+#define CLIPPERLIB_CLIPPEROFFSET_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E61A230)
+#define CLIPPERLIB_CLIPPEROFFSET_FIXORIENTATIONS_OFFSET UNITYSDK_OFFSET(0x1E618040)
+#define CLIPPERLIB_CLIPPEROFFSET_GETUNITNORMAL_OFFSET UNITYSDK_OFFSET(0x1E618430)
+#define CLIPPERLIB_CLIPPEROFFSET_GET_ARCTOLERANCE_OFFSET UNITYSDK_OFFSET(0x1E617890)
+#define CLIPPERLIB_CLIPPEROFFSET_GET_MITERLIMIT_OFFSET UNITYSDK_OFFSET(0x1E6178B0)
+#define CLIPPERLIB_CLIPPEROFFSET_OFFSETPOINT_OFFSET UNITYSDK_OFFSET(0x1E619810)
+#define CLIPPERLIB_CLIPPEROFFSET_ROUND_OFFSET UNITYSDK_OFFSET(0x1E617A90)
+#define CLIPPERLIB_CLIPPEROFFSET_SET_ARCTOLERANCE_OFFSET UNITYSDK_OFFSET(0x1E6178A0)
+#define CLIPPERLIB_CLIPPEROFFSET_SET_MITERLIMIT_OFFSET UNITYSDK_OFFSET(0x1E6178C0)
+#define CLIPPERLIB_CLIPPEROFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6178D0)
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int ClipperOffset_TypeDefinitionIndex = 33427;
+	inline static constexpr unsigned int ClipperOffset_TypeDefinitionIndex = 32887;
 
 	class ClipperOffset : public ::System::Object
 	{
@@ -39,19 +39,19 @@ namespace ClipperLib
 		// static const ::System::Double two_pi; // 0x0
 		// static const ::System::Double def_arc_tolerance; // 0x0
 		::System::Collections::Generic::List_1<::ClipperLib::IntPoint>* m_srcPoly; // 0x10
-		::ClipperLib::PolyNode* m_polyNodes; // 0x18
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::ClipperLib::IntPoint>*>* m_destPolys; // 0x20
-		::System::Collections::Generic::List_1<::ClipperLib::DoublePoint>* m_normals; // 0x28
-		::System::Collections::Generic::List_1<::ClipperLib::IntPoint>* m_destPoly; // 0x30
-		::System::Double m_StepsPerRad; // 0x38
-		::System::Double m_cos; // 0x40
-		::System::Double m_miterLim; // 0x48
-		::System::Double _ArcTolerance_k__BackingField; // 0x50
-		::ClipperLib::IntPoint m_lowest; // 0x58
-		::System::Double _MiterLimit_k__BackingField; // 0x68
-		::System::Double m_sin; // 0x70
-		::System::Double m_sinA; // 0x78
-		::System::Double m_delta; // 0x80
+		::System::Collections::Generic::List_1<::ClipperLib::IntPoint>* m_destPoly; // 0x18
+		::System::Collections::Generic::List_1<::ClipperLib::DoublePoint>* m_normals; // 0x20
+		::ClipperLib::PolyNode* m_polyNodes; // 0x28
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::ClipperLib::IntPoint>*>* m_destPolys; // 0x30
+		::System::Double m_sinA; // 0x38
+		::System::Double m_delta; // 0x40
+		::System::Double _ArcTolerance_k__BackingField; // 0x48
+		::System::Double m_cos; // 0x50
+		::System::Double m_StepsPerRad; // 0x58
+		::System::Double _MiterLimit_k__BackingField; // 0x60
+		::ClipperLib::IntPoint m_lowest; // 0x68
+		::System::Double m_sin; // 0x78
+		::System::Double m_miterLim; // 0x80
 
 		::System::Void _ctor(::System::Double miterLimit, ::System::Double arcTolerance)
 		{

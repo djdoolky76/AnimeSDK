@@ -4,10 +4,10 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_Operation__Operands_e__FixedBuffer_TypeDefinitionIndex = 88351;
+	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_Operation__Operands_e__FixedBuffer_TypeDefinitionIndex = 81187;
 
-	struct alignas(1) AnimationSubManager_AnimationScheduler_Operation__Operands_e__FixedBuffer
+	struct alignas(4) AnimationSubManager_AnimationScheduler_Operation__Operands_e__FixedBuffer
 	{
-		::System::Byte data[64]; // 0x0
+		::System::Byte FixedElementField; // 0x10
 	};
 }

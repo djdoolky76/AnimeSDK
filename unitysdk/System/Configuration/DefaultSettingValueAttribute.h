@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_CONFIGURATION_DEFAULTSETTINGVALUEATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E7E1580)
-#define SYSTEM_CONFIGURATION_DEFAULTSETTINGVALUEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E1570)
+#define SYSTEM_CONFIGURATION_DEFAULTSETTINGVALUEATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EA94620)
+#define SYSTEM_CONFIGURATION_DEFAULTSETTINGVALUEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA94610)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int DefaultSettingValueAttribute_TypeDefinitionIndex = 4206;
+	inline static constexpr unsigned int DefaultSettingValueAttribute_TypeDefinitionIndex = 4205;
 
 	class DefaultSettingValueAttribute : public ::System::Attribute
 	{

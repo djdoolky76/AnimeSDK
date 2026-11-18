@@ -4,30 +4,30 @@
 #include "unitysdk/MoleMole/Config/ConfigEntityTimeSlows_ValueType.h"
 
 namespace MoleMole::Config { class ConfigEntityTimeSlowBase; }
-namespace MoleMole::Config { class ConfigEntityTimeSlows_KeyValueInfo; }
 namespace Newtonsoft::Json { class JsonSerializerSettings; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS_BRIDGEONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x14862C00)
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS_BRIDGEONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x148627C0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS_GETVALUETYPEENUM_OFFSET UNITYSDK_OFFSET(0x14862AD0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS_GETVALUETYPE_OFFSET UNITYSDK_OFFSET(0x14862F80)
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS__CTOR_OFFSET UNITYSDK_OFFSET(0x148630C0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS___BASE_BRIDGEONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x148632F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS___BASE_BRIDGEONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x14863380)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS_BRIDGEONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x11E8FBD0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS_BRIDGEONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x11E8F780)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS_GETVALUETYPEENUM_OFFSET UNITYSDK_OFFSET(0x11E8FAA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS_GETVALUETYPE_OFFSET UNITYSDK_OFFSET(0x11E8FF50)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS__CTOR_OFFSET UNITYSDK_OFFSET(0x11E90090)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS___BASE_BRIDGEONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x11E902B0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOWS___BASE_BRIDGEONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x11E90340)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityTimeSlows_TypeDefinitionIndex = 60077;
+	inline static constexpr unsigned int ConfigEntityTimeSlows_TypeDefinitionIndex = 63634;
 
 	class ConfigEntityTimeSlows : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityTimeSlowBase*>* timeSlows; // 0x58
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityTimeSlows_KeyValueInfo*>* KeyValueInfoList; // 0x60
+		::System::Collections::Generic::List_1<::System::Object*>* KeyValueInfoList; // 0x60
 		::Newtonsoft::Json::JsonSerializerSettings* serializerSettings; // 0x68
 
 		::System::Void _ctor()

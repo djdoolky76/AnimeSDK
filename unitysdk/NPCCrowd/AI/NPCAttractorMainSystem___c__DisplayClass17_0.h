@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_025FF4981524A424_270;
+class MBIBMHAPIGM;
 namespace NPCCrowd::AI { class AttractorRuntime; }
 
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x951C510)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___C__DISPLAYCLASS17_0__LATEUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x951C520)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13181C50)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___C__DISPLAYCLASS17_0__LATEUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x13181C60)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCAttractorMainSystem___c__DisplayClass17_0_TypeDefinitionIndex = 74913;
+	inline static constexpr unsigned int NPCAttractorMainSystem___c__DisplayClass17_0_TypeDefinitionIndex = 39871;
 
 	class NPCAttractorMainSystem___c__DisplayClass17_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace NPCCrowd::AI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _LateUpdate_b__0(::Class_3_025FF4981524A424_270* rsp)
+		::System::Void _LateUpdate_b__0(::MBIBMHAPIGM* rsp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_025FF4981524A424_270*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___C__DISPLAYCLASS17_0__LATEUPDATE_B__0_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::MBIBMHAPIGM*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___C__DISPLAYCLASS17_0__LATEUPDATE_B__0_OFFSET))(this, rsp);
 		}
 	};
 }

@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class AFMMAIKKACF;
+class EHGPNGPADCB;
+
+#define BEPGJNFOPLP_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0x14C3D770)
+#define BEPGJNFOPLP_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0x14C3DD40)
+#define BEPGJNFOPLP__CTOR_OFFSET UNITYSDK_OFFSET(0x14C3D760)
+
+inline static constexpr unsigned int BEPGJNFOPLP_TypeDefinitionIndex = 65488;
+
+class BEPGJNFOPLP
+{
+public:
+	::System::Void _ctor(::EHGPNGPADCB* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::EHGPNGPADCB*))((::PBYTE)hIl2Cpp + BEPGJNFOPLP__CTOR_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Void GLEJMKLOMBP(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + BEPGJNFOPLP_GLEJMKLOMBP_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void LIDIODHDJAF(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + BEPGJNFOPLP_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+};

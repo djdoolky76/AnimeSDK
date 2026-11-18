@@ -5,7 +5,7 @@
 
 namespace PipeSplineDeformation
 {
-	inline static constexpr unsigned int CurveSample_TypeDefinitionIndex = 26764;
+	inline static constexpr unsigned int CurveSample_TypeDefinitionIndex = 26758;
 
 	struct alignas(4) CurveSample
 	{

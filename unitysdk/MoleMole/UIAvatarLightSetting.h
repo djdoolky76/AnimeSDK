@@ -9,34 +9,36 @@
 
 namespace UnityEngine { class Cubemap; }
 
-#define MOLEMOLE_UIAVATARLIGHTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x18E2FE40)
+#define MOLEMOLE_UIAVATARLIGHTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A140FB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarLightSetting_TypeDefinitionIndex = 48501;
+	inline static constexpr unsigned int UIAvatarLightSetting_TypeDefinitionIndex = 89569;
 
 	class UIAvatarLightSetting : public ::System::Object
 	{
 	public:
 		::MoleMole::UIAvatarLightChangeSettings ChangeSettings; // 0x10
 		::UnityEngine::Cubemap* ReflectionCube; // 0x28
-		::UnityEngine::Vector3 PositionOffset; // 0x30
-		::System::Boolean OverrideHairShadowLightDir; // 0x3C
-		::System::Boolean unlockLightX; // 0x3D
-		::UnityEngine::Color LightColor; // 0x40
-		::UnityEngine::Vector2 hairShadowLightDir; // 0x50
-		::System::Single ReflectionCubeRotation; // 0x58
-		::UnityEngine::Vector3 LightRotOffset; // 0x5C
-		::System::Single CommonYRot; // 0x68
-		::System::Single LightIntensity; // 0x6C
-		::UnityEngine::Color GIColor; // 0x70
-		::System::Boolean EnableLightAvatarPart; // 0x80
-		::System::Boolean EnableHairShadowOffset; // 0x81
-		::System::Boolean PointLight; // 0x82
-		::UnityEngine::Vector4 LightAvatarPartRotOffset; // 0x84
-		::UnityEngine::Vector3 MainPageLightRotOffset; // 0x94
-		::UnityEngine::Vector2 HairShadowOffset; // 0xA0
-		::System::Single Range; // 0xA8
+		::System::Boolean EnableLightAvatarPart; // 0x30
+		::System::Boolean unlockLightX; // 0x31
+		::System::Boolean PointLight; // 0x32
+		::System::Byte _padding0[0x1];
+		::UnityEngine::Vector3 PositionOffset; // 0x34
+		::UnityEngine::Color GIColor; // 0x40
+		::UnityEngine::Vector3 MainPageLightRotOffset; // 0x50
+		::UnityEngine::Vector2 HairShadowOffset; // 0x5C
+		::System::Boolean OverrideHairShadowLightDir; // 0x64
+		::System::Boolean EnableHairShadowOffset; // 0x65
+		::System::Byte _padding1[0x2];
+		::UnityEngine::Vector4 LightAvatarPartRotOffset; // 0x68
+		::System::Single Range; // 0x78
+		::UnityEngine::Vector3 LightRotOffset; // 0x7C
+		::System::Single LightIntensity; // 0x88
+		::System::Single ReflectionCubeRotation; // 0x8C
+		::UnityEngine::Vector2 hairShadowLightDir; // 0x90
+		::UnityEngine::Color LightColor; // 0x98
+		::System::Single CommonYRot; // 0xA8
 
 		::System::Void _ctor()
 		{

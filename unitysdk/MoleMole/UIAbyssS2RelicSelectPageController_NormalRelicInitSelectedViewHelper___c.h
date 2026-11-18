@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_684;
+class AEFKCFCIHDK;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__BUILDDESCRIPTIONCONTENT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1A5F9350)
-#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__BUILDDESCRIPTIONCONTENT_B__2_1_OFFSET UNITYSDK_OFFSET(0x1A5F9360)
-#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5F9300)
-#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F9340)
+#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__BUILDDESCRIPTIONCONTENT_B__2_0_OFFSET UNITYSDK_OFFSET(0x19D053E0)
+#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__BUILDDESCRIPTIONCONTENT_B__2_1_OFFSET UNITYSDK_OFFSET(0x19D053F0)
+#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D05390)
+#define MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19D053D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RelicSelectPageController_NormalRelicInitSelectedViewHelper___c_TypeDefinitionIndex = 51187;
+	inline static constexpr unsigned int UIAbyssS2RelicSelectPageController_NormalRelicInitSelectedViewHelper___c_TypeDefinitionIndex = 44296;
 
 	class UIAbyssS2RelicSelectPageController_NormalRelicInitSelectedViewHelper___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_2_208CC9941471731A_684*>** StaticGet___9__2_1()
+		static ::System::Comparison_1<::AEFKCFCIHDK*>** StaticGet___9__2_1()
 		{
-			return (::System::Comparison_1<::Class_2_208CC9941471731A_684*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController_NormalRelicInitSelectedViewHelper___c_TypeDefinitionIndex)->GetStaticField(0x3FAB0);
+			return (::System::Comparison_1<::AEFKCFCIHDK*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController_NormalRelicInitSelectedViewHelper___c_TypeDefinitionIndex)->GetStaticField(0x44CB0);
 		}
-		static ::System::Func_2<::Class_2_208CC9941471731A_684*, ::System::Boolean>** StaticGet___9__2_0()
+		static ::System::Func_2<::AEFKCFCIHDK*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::Class_2_208CC9941471731A_684*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController_NormalRelicInitSelectedViewHelper___c_TypeDefinitionIndex)->GetStaticField(0x3FAB8);
+			return (::System::Func_2<::AEFKCFCIHDK*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController_NormalRelicInitSelectedViewHelper___c_TypeDefinitionIndex)->GetStaticField(0x44CB8);
 		}
-		static ::MoleMole::UIAbyssS2RelicSelectPageController_NormalRelicInitSelectedViewHelper___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIAbyssS2RelicSelectPageController_NormalRelicInitSelectedViewHelper___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController_NormalRelicInitSelectedViewHelper___c_TypeDefinitionIndex)->GetStaticField(0x3FAC0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2RelicSelectPageController_NormalRelicInitSelectedViewHelper___c_TypeDefinitionIndex)->GetStaticField(0x44CC0);
 		}
 
 		static ::System::Void _cctor()
@@ -41,14 +41,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _BuildDescriptionContent_b__2_0(::Class_2_208CC9941471731A_684* ext)
+		::System::Boolean _BuildDescriptionContent_b__2_0(::AEFKCFCIHDK* ext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_684*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__BUILDDESCRIPTIONCONTENT_B__2_0_OFFSET))(this, ext);
+			return ((::System::Boolean(*)(::PVOID, ::AEFKCFCIHDK*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__BUILDDESCRIPTIONCONTENT_B__2_0_OFFSET))(this, ext);
 		}
 
-		::System::Int32 _BuildDescriptionContent_b__2_1(::Class_2_208CC9941471731A_684* l, ::Class_2_208CC9941471731A_684* r)
+		::System::Int32 _BuildDescriptionContent_b__2_1(::AEFKCFCIHDK* l, ::AEFKCFCIHDK* r)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_684*, ::Class_2_208CC9941471731A_684*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__BUILDDESCRIPTIONCONTENT_B__2_1_OFFSET))(this, l, r);
+			return ((::System::Int32(*)(::PVOID, ::AEFKCFCIHDK*, ::AEFKCFCIHDK*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2RELICSELECTPAGECONTROLLER_NORMALRELICINITSELECTEDVIEWHELPER___C__BUILDDESCRIPTIONCONTENT_B__2_1_OFFSET))(this, l, r);
 		}
 	};
 }

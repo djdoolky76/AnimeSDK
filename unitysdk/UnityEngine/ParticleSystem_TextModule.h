@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class ParticleSystem; }
 
-#define UNITYENGINE_PARTICLESYSTEM_TEXTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x324D50)
+#define UNITYENGINE_PARTICLESYSTEM_TEXTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x358B00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_TextModule_TypeDefinitionIndex = 7740;
+	inline static constexpr unsigned int ParticleSystem_TextModule_TypeDefinitionIndex = 7752;
 
 	struct alignas(8) ParticleSystem_TextModule
 	{

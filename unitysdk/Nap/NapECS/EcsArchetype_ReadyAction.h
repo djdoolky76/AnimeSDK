@@ -8,7 +8,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsArchetype_ReadyAction_TypeDefinitionIndex = 37988;
+	inline static constexpr unsigned int EcsArchetype_ReadyAction_TypeDefinitionIndex = 35988;
 
 	struct alignas(8) EcsArchetype_ReadyAction
 	{

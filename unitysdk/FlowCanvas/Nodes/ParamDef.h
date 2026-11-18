@@ -9,16 +9,18 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ParamDef_TypeDefinitionIndex = 30193;
+	inline static constexpr unsigned int ParamDef_TypeDefinitionIndex = 29903;
 
 	struct alignas(8) ParamDef
 	{
 		::System::Type* paramType; // 0x10
 		::System::Type* arrayType; // 0x18
 		::FlowCanvas::Nodes::ParamMode paramMode; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::String* portName; // 0x28
 		::System::String* portId; // 0x30
 		::System::Boolean isParamsArray; // 0x38
+		::System::Byte _padding1[0x7];
 		::System::Reflection::MemberInfo* presentedInfo; // 0x40
 	};
 }

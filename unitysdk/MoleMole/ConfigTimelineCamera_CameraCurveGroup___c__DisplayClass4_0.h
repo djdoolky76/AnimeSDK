@@ -5,12 +5,12 @@
 namespace MoleMole { class ConfigTimelineCamera_CameraCurveItem; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGTIMELINECAMERA_CAMERACURVEGROUP___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19228A40)
-#define MOLEMOLE_CONFIGTIMELINECAMERA_CAMERACURVEGROUP___C__DISPLAYCLASS4_0__SETCURVE_B__0_OFFSET UNITYSDK_OFFSET(0x19228A50)
+#define MOLEMOLE_CONFIGTIMELINECAMERA_CAMERACURVEGROUP___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x118F45E0)
+#define MOLEMOLE_CONFIGTIMELINECAMERA_CAMERACURVEGROUP___C__DISPLAYCLASS4_0__SETCURVE_B__0_OFFSET UNITYSDK_OFFSET(0x118F45F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigTimelineCamera_CameraCurveGroup___c__DisplayClass4_0_TypeDefinitionIndex = 68777;
+	inline static constexpr unsigned int ConfigTimelineCamera_CameraCurveGroup___c__DisplayClass4_0_TypeDefinitionIndex = 53651;
 
 	class ConfigTimelineCamera_CameraCurveGroup___c__DisplayClass4_0 : public ::System::Object
 	{

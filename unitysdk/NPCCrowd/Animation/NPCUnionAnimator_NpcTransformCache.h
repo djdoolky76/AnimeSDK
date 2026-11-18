@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define NPCCROWD_ANIMATION_NPCUNIONANIMATOR_NPCTRANSFORMCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x102C0570)
+#define NPCCROWD_ANIMATION_NPCUNIONANIMATOR_NPCTRANSFORMCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x13648DB0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCUnionAnimator_NpcTransformCache_TypeDefinitionIndex = 51756;
+	inline static constexpr unsigned int NPCUnionAnimator_NpcTransformCache_TypeDefinitionIndex = 85033;
 
 	class NPCUnionAnimator_NpcTransformCache : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int ICrowdLODTickData_TypeDefinitionIndex = 70856;
+	inline static constexpr unsigned int ICrowdLODTickData_TypeDefinitionIndex = 84381;
 
 	class ICrowdLODTickData
 	{

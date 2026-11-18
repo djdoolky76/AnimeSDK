@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_TerrainUpdate_TypeDefinitionIndex = 5571;
+	inline static constexpr unsigned int EarlyUpdate_TerrainUpdate_TypeDefinitionIndex = 5574;
 
-	struct alignas(1) EarlyUpdate_TerrainUpdate
+	struct alignas(4) EarlyUpdate_TerrainUpdate
 	{
 	};
 }

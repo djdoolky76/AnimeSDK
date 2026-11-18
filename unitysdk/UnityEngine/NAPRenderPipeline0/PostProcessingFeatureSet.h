@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PostProcessingFeatureSet_TypeDefinitionIndex = 5902;
+	inline static constexpr unsigned int PostProcessingFeatureSet_TypeDefinitionIndex = 5908;
 
 	enum class PostProcessingFeatureSet : ::System::Int32
 	{

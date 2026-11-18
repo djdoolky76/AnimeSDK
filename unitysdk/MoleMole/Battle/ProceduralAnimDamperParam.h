@@ -5,7 +5,7 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int ProceduralAnimDamperParam_TypeDefinitionIndex = 59380;
+	inline static constexpr unsigned int ProceduralAnimDamperParam_TypeDefinitionIndex = 86902;
 
 	struct alignas(4) ProceduralAnimDamperParam
 	{

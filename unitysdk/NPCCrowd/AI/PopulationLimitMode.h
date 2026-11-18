@@ -3,11 +3,11 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PopulationLimitMode_TypeDefinitionIndex = 53835;
+	inline static constexpr unsigned int PopulationLimitMode_TypeDefinitionIndex = 85277;
 
 	enum class PopulationLimitMode : ::System::Int32
 	{
-		PopulationWeight = 1,
 		PopulationCount = 0,
+		PopulationWeight = 1,
 	};
 }

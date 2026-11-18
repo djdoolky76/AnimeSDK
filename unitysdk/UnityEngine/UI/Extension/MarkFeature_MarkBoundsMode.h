@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int MarkFeature_MarkBoundsMode_TypeDefinitionIndex = 90137;
+	inline static constexpr unsigned int MarkFeature_MarkBoundsMode_TypeDefinitionIndex = 70590;
 
 	enum class MarkFeature_MarkBoundsMode : ::System::Int32
 	{

@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIBMJLOJLKD.h"
+
+class FGCOIBFFCHB;
+class HNLACBJDCGI;
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+
+#define OGDCIBKALHL_AHDIKCDIHPD_BJACBMEHNKD_OFFSET UNITYSDK_OFFSET(0x1292E5F0)
+#define OGDCIBKALHL_AHDIKCDIHPD_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x1292E540)
+#define OGDCIBKALHL_AHDIKCDIHPD_EDBMCLELHLK_OFFSET UNITYSDK_OFFSET(0x1292E520)
+#define OGDCIBKALHL_AHDIKCDIHPD_ENJENAJGHFI_OFFSET UNITYSDK_OFFSET(0x1292E530)
+#define OGDCIBKALHL_AHDIKCDIHPD_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x1292E490)
+#define OGDCIBKALHL_AHDIKCDIHPD_ODBDPEEPINO_OFFSET UNITYSDK_OFFSET(0x1292E5E0)
+#define OGDCIBKALHL_AHDIKCDIHPD_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x1292E340)
+#define OGDCIBKALHL_AHDIKCDIHPD__CTOR_OFFSET UNITYSDK_OFFSET(0x1292E510)
+
+inline static constexpr unsigned int OGDCIBKALHL_AHDIKCDIHPD_TypeDefinitionIndex = 54798;
+
+class OGDCIBKALHL_AHDIKCDIHPD : public ::GIBMJLOJLKD
+{
+public:
+	::UnityEngine::UI::Extension::UILocalizationText* _KHNJFPMPDGC_k__BackingField; // 0x18
+	::FGCOIBFFCHB* _EOMOJEGEGKM_k__BackingField; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OGDCIBKALHL_AHDIKCDIHPD__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + OGDCIBKALHL_AHDIKCDIHPD_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::System::Void EDBMCLELHLK(::UnityEngine::UI::Extension::UILocalizationText* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*))((::PBYTE)hIl2Cpp + OGDCIBKALHL_AHDIKCDIHPD_EDBMCLELHLK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::FGCOIBFFCHB* ENJENAJGHFI()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + OGDCIBKALHL_AHDIKCDIHPD_ENJENAJGHFI_OFFSET))(this);
+	}
+
+	::System::Void ECNOGHHOPPF(::HNLACBJDCGI* MIALFKCCCPI, ::MoleMole::UIControlCollection* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + OGDCIBKALHL_AHDIKCDIHPD_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+
+	::System::Void ODBDPEEPINO(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + OGDCIBKALHL_AHDIKCDIHPD_ODBDPEEPINO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::UI::Extension::UILocalizationText* BJACBMEHNKD()
+	{
+		return ((::UnityEngine::UI::Extension::UILocalizationText*(*)(::PVOID))((::PBYTE)hIl2Cpp + OGDCIBKALHL_AHDIKCDIHPD_BJACBMEHNKD_OFFSET))(this);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OGDCIBKALHL_AHDIKCDIHPD_KGEBDLGBGNM_OFFSET))(this);
+	}
+};

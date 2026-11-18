@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDQUATERNION_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E85DA70)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDQUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E85DB40)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDQUATERNION_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1EB02C20)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDQUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB02CF0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedQuaternion_TypeDefinitionIndex = 33927;
+	inline static constexpr unsigned int SharedQuaternion_TypeDefinitionIndex = 33473;
 
-	class SharedQuaternion : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::Quaternion>
+	class SharedQuaternion
 	{
 	public:
 		::System::Void _ctor()

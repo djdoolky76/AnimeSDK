@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Animation/NPCCrowdMontageManager_SequenceLayerSourceData.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
-#include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_GETLAYERORINVALID_OFFSET UNITYSDK_OFFSET(0xE94A730)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_GETLAYERSOURCES_OFFSET UNITYSDK_OFFSET(0xE94A8B0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_GETMAXLAYERINDEXORDEFAULT_OFFSET UNITYSDK_OFFSET(0xE94A8F0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_HASANYVALIDLAYER_OFFSET UNITYSDK_OFFSET(0xE94A6D0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_INVALID_OFFSET UNITYSDK_OFFSET(0xE94A4D0)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_SETLAYER_OFFSET UNITYSDK_OFFSET(0xE94A800)
-#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE94A610)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_GETLAYERORINVALID_OFFSET UNITYSDK_OFFSET(0x100399A0)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_GETLAYERSOURCES_OFFSET UNITYSDK_OFFSET(0x10039B20)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_GETMAXLAYERINDEXORDEFAULT_OFFSET UNITYSDK_OFFSET(0x10039B60)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_HASANYVALIDLAYER_OFFSET UNITYSDK_OFFSET(0x10039940)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_INVALID_OFFSET UNITYSDK_OFFSET(0x10039740)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_SETLAYER_OFFSET UNITYSDK_OFFSET(0x10039A70)
+#define NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10039880)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdMontageManager_SequenceTrackedMontageData_TypeDefinitionIndex = 66973;
+	inline static constexpr unsigned int NPCCrowdMontageManager_SequenceTrackedMontageData_TypeDefinitionIndex = 39853;
 
 	class NPCCrowdMontageManager_SequenceTrackedMontageData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::NPCCrowdMontageManager_SequenceLayerSourceData>* _layerSourceMap; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* _layerSourceMap; // 0x10
 
 		::System::Void _ctor()
 		{
@@ -49,9 +49,9 @@ namespace NPCCrowd::Animation
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::NPCCrowd::Animation::NPCCrowdMontageManager_SequenceLayerSourceData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_SETLAYER_OFFSET))(this, layerIndex, layerData);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::NPCCrowd::Animation::NPCCrowdMontageManager_SequenceLayerSourceData>>* GetLayerSources()
+		::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>>* GetLayerSources()
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::NPCCrowd::Animation::NPCCrowdMontageManager_SequenceLayerSourceData>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_GETLAYERSOURCES_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_NPCCROWDMONTAGEMANAGER_SEQUENCETRACKEDMONTAGEDATA_GETLAYERSOURCES_OFFSET))(this);
 		}
 
 		::System::Int32 GetMaxLayerIndexOrDefault(::System::Int32 defaultCount)

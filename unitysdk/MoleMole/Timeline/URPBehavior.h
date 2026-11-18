@@ -1,30 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 namespace MoleMole::Timeline { class URPSetting; }
 
-#define MOLEMOLE_TIMELINE_URPBEHAVIOR_METHOD_2_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x173BE240)
-#define MOLEMOLE_TIMELINE_URPBEHAVIOR_METHOD_2_79ED6854413CA2F4_1_OFFSET UNITYSDK_OFFSET(0x173BE230)
-#define MOLEMOLE_TIMELINE_URPBEHAVIOR_METHOD_2_79ED6854413CA2F4_2_OFFSET UNITYSDK_OFFSET(0x173BE250)
-#define MOLEMOLE_TIMELINE_URPBEHAVIOR_METHOD_2_79ED6854413CA2F4_OFFSET UNITYSDK_OFFSET(0x173BE220)
-#define MOLEMOLE_TIMELINE_URPBEHAVIOR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x173BE0D0)
-#define MOLEMOLE_TIMELINE_URPBEHAVIOR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x173BDF40)
-#define MOLEMOLE_TIMELINE_URPBEHAVIOR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x173BE170)
-#define MOLEMOLE_TIMELINE_URPBEHAVIOR_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x173BE030)
-#define MOLEMOLE_TIMELINE_URPBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x173BE1E0)
+#define MOLEMOLE_TIMELINE_URPBEHAVIOR_HMFCFBCMFAK_OFFSET UNITYSDK_OFFSET(0x13F29E60)
+#define MOLEMOLE_TIMELINE_URPBEHAVIOR_MIDMHINHEGI_OFFSET UNITYSDK_OFFSET(0x13F29E70)
+#define MOLEMOLE_TIMELINE_URPBEHAVIOR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x13F29D10)
+#define MOLEMOLE_TIMELINE_URPBEHAVIOR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x13F29B80)
+#define MOLEMOLE_TIMELINE_URPBEHAVIOR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x13F29DB0)
+#define MOLEMOLE_TIMELINE_URPBEHAVIOR_PALLNLODODO_OFFSET UNITYSDK_OFFSET(0x13F29E90)
+#define MOLEMOLE_TIMELINE_URPBEHAVIOR_PDEDKHJDBDD_OFFSET UNITYSDK_OFFSET(0x13F29E80)
+#define MOLEMOLE_TIMELINE_URPBEHAVIOR_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x13F29C70)
+#define MOLEMOLE_TIMELINE_URPBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x13F29E20)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int URPBehavior_TypeDefinitionIndex = 42099;
+	inline static constexpr unsigned int URPBehavior_TypeDefinitionIndex = 54212;
 
 	class URPBehavior : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::MoleMole::Timeline::URPSetting* setting; // 0x10
 		::System::Boolean hasPrevSetting; // 0x18
+		::System::Byte _padding0[0x7];
 		::MoleMole::Timeline::URPSetting* prevSetting; // 0x20
 
 		::System::Void _ctor()
@@ -32,44 +33,44 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable HKOFGPMIFHB, ::UnityEngine::Playables::FrameData HMMMOCJAEOA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_ONBEHAVIOURPLAY_OFFSET))(this, HKOFGPMIFHB, HMMMOCJAEOA);
 		}
 
-		::System::Void PrepareFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		::System::Void PrepareFrame(::UnityEngine::Playables::Playable HKOFGPMIFHB, ::UnityEngine::Playables::FrameData HMMMOCJAEOA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_PREPAREFRAME_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_PREPAREFRAME_OFFSET))(this, HKOFGPMIFHB, HMMMOCJAEOA);
 		}
 
-		::System::Void OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		::System::Void OnBehaviourPause(::UnityEngine::Playables::Playable HKOFGPMIFHB, ::UnityEngine::Playables::FrameData HMMMOCJAEOA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_ONBEHAVIOURPAUSE_OFFSET))(this, HKOFGPMIFHB, HMMMOCJAEOA);
 		}
 
-		::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
+		::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable HKOFGPMIFHB)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_ONPLAYABLEDESTROY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_ONPLAYABLEDESTROY_OFFSET))(this, HKOFGPMIFHB);
 		}
 
-		::System::Void Method_2_79ED6854413CA2F4(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		::System::Void HMFCFBCMFAK(::UnityEngine::Playables::Playable MIALFKCCCPI, ::UnityEngine::Playables::FrameData KMGKAIDEIBA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_METHOD_2_79ED6854413CA2F4_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_HMFCFBCMFAK_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 
-		::System::Void Method_2_79ED6854413CA2F4_1(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		::System::Void MIDMHINHEGI(::UnityEngine::Playables::Playable MIALFKCCCPI, ::UnityEngine::Playables::FrameData KMGKAIDEIBA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_METHOD_2_79ED6854413CA2F4_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_MIDMHINHEGI_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 
-		::System::Void Method_2_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+		::System::Void PDEDKHJDBDD(::UnityEngine::Playables::Playable MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_METHOD_2_324AEE341AAA7A1B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_PDEDKHJDBDD_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void Method_2_79ED6854413CA2F4_2(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		::System::Void PALLNLODODO(::UnityEngine::Playables::Playable MIALFKCCCPI, ::UnityEngine::Playables::FrameData KMGKAIDEIBA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_METHOD_2_79ED6854413CA2F4_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_URPBEHAVIOR_PALLNLODODO_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 	};
 }

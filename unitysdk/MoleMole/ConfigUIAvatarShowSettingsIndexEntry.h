@@ -6,13 +6,15 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAvatarShowSettingsIndexEntry_TypeDefinitionIndex = 80303;
+	inline static constexpr unsigned int ConfigUIAvatarShowSettingsIndexEntry_TypeDefinitionIndex = 48013;
 
-	struct alignas(8) ConfigUIAvatarShowSettingsIndexEntry
+	struct alignas(4) ConfigUIAvatarShowSettingsIndexEntry
 	{
 		::System::Int32 AvatarID; // 0x10
+		::System::Byte _padding0[0x4];
 		::Foundation::AssetPath AssetPath; // 0x18
 		::System::Boolean HasMainPageInfo; // 0x28
+		::System::Byte _padding1[0x7];
 		::MoleMole::ConfigUIAvatarShowData_RuntimeMainPage3DInfo MainPageInfo; // 0x30
 	};
 }

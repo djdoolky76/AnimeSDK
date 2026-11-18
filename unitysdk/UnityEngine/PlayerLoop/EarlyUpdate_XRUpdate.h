@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_XRUpdate_TypeDefinitionIndex = 5560;
+	inline static constexpr unsigned int EarlyUpdate_XRUpdate_TypeDefinitionIndex = 5563;
 
-	struct alignas(1) EarlyUpdate_XRUpdate
+	struct alignas(4) EarlyUpdate_XRUpdate
 	{
 	};
 }

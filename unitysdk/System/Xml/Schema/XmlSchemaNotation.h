@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace System::Xml { class XmlQualifiedName; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMANOTATION_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F10B4A0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMANOTATION_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F10B4B0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMANOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F10B4C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMANOTATION_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F4CCEA0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMANOTATION_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1F4CCEB0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMANOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4CCEC0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaNotation_TypeDefinitionIndex = 2169;
+	inline static constexpr unsigned int XmlSchemaNotation_TypeDefinitionIndex = 2168;
 
 	class XmlSchemaNotation : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{
 	public:
-		::System::String* systemId; // 0x50
-		::System::String* name; // 0x58
-		::System::Xml::XmlQualifiedName* qname; // 0x60
-		::System::String* publicId; // 0x68
+		::System::String* name; // 0x50
+		::System::Xml::XmlQualifiedName* qname; // 0x58
+		::System::String* publicId; // 0x60
+		::System::String* systemId; // 0x68
 
 		::System::Void _ctor()
 		{

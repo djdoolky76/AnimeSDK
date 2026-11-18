@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYSIGNINROWV2WIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x191FFCD0)
+#define MOLEMOLE_UIACTIVITYSIGNINROWV2WIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2122E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivitySignInRowV2WidgetController_Context_TypeDefinitionIndex = 73004;
+	inline static constexpr unsigned int UIActivitySignInRowV2WidgetController_Context_TypeDefinitionIndex = 88023;
 
 	class UIActivitySignInRowV2WidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

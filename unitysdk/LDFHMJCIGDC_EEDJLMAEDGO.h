@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class CLGEOOJGIMO;
+
+#define LDFHMJCIGDC_EEDJLMAEDGO_BBBDICDBHKC_OFFSET UNITYSDK_OFFSET(0x199821F0)
+#define LDFHMJCIGDC_EEDJLMAEDGO_NNDAFINIDFN_OFFSET UNITYSDK_OFFSET(0x199820B0)
+#define LDFHMJCIGDC_EEDJLMAEDGO__CTOR_OFFSET UNITYSDK_OFFSET(0x199820A0)
+
+inline static constexpr unsigned int LDFHMJCIGDC_EEDJLMAEDGO_TypeDefinitionIndex = 49150;
+
+class LDFHMJCIGDC_EEDJLMAEDGO : public ::System::Object
+{
+public:
+	::System::Int32 AELLPLBJELA; // 0x10
+	::System::Int32 OLLCOEKKMDO; // 0x14
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDFHMJCIGDC_EEDJLMAEDGO__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean NNDAFINIDFN(::CLGEOOJGIMO* DFMKILICPFB)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::CLGEOOJGIMO*))((::PBYTE)hIl2Cpp + LDFHMJCIGDC_EEDJLMAEDGO_NNDAFINIDFN_OFFSET))(this, DFMKILICPFB);
+	}
+
+	::System::Int32 BBBDICDBHKC(::CLGEOOJGIMO* HAAEBCOBKFF, ::CLGEOOJGIMO* BFMMEICFNCD)
+	{
+		return ((::System::Int32(*)(::PVOID, ::CLGEOOJGIMO*, ::CLGEOOJGIMO*))((::PBYTE)hIl2Cpp + LDFHMJCIGDC_EEDJLMAEDGO_BBBDICDBHKC_OFFSET))(this, HAAEBCOBKFF, BFMMEICFNCD);
+	}
+};

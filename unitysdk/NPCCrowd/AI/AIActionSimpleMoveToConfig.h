@@ -4,17 +4,18 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define NPCCROWD_AI_AIACTIONSIMPLEMOVETOCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x462FC0)
-#define NPCCROWD_AI_AIACTIONSIMPLEMOVETOCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x463010)
+#define NPCCROWD_AI_AIACTIONSIMPLEMOVETOCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x6FE8D0)
+#define NPCCROWD_AI_AIACTIONSIMPLEMOVETOCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x6FE920)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionSimpleMoveToConfig_TypeDefinitionIndex = 61639;
+	inline static constexpr unsigned int AIActionSimpleMoveToConfig_TypeDefinitionIndex = 49474;
 
-	struct alignas(8) AIActionSimpleMoveToConfig
+	struct alignas(4) AIActionSimpleMoveToConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 		::System::Boolean isWorldAxis; // 0x18
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector2 targetPosXRange; // 0x1C
 		::UnityEngine::Vector2 targetPosYRange; // 0x24
 		::UnityEngine::Vector2 targetPosZRange; // 0x2C

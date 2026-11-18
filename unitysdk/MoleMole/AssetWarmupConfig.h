@@ -5,9 +5,9 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AssetWarmupConfig_TypeDefinitionIndex = 55207;
+	inline static constexpr unsigned int AssetWarmupConfig_TypeDefinitionIndex = 42507;
 
-	struct alignas(8) AssetWarmupConfig
+	struct alignas(4) AssetWarmupConfig
 	{
 		::Foundation::AssetPath preloadPaths; // 0x10
 		::System::Int32 warmupCount; // 0x20

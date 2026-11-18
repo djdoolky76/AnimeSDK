@@ -6,17 +6,17 @@ namespace System { class IFormatProvider; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITY_MATHEMATICS_FLOAT2_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA5FA50)
-#define UNITY_MATHEMATICS_FLOAT2_EQUALS_OFFSET UNITYSDK_OFFSET(0xA0DFF0)
-#define UNITY_MATHEMATICS_FLOAT2_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA5FB20)
-#define UNITY_MATHEMATICS_FLOAT2_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1EBCE790)
-#define UNITY_MATHEMATICS_FLOAT2_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0xA5FC00)
-#define UNITY_MATHEMATICS_FLOAT2_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA5FB50)
-#define UNITY_MATHEMATICS_FLOAT2__CTOR_OFFSET UNITYSDK_OFFSET(0x4E4210)
+#define UNITY_MATHEMATICS_FLOAT2_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x940000)
+#define UNITY_MATHEMATICS_FLOAT2_EQUALS_OFFSET UNITYSDK_OFFSET(0x901F10)
+#define UNITY_MATHEMATICS_FLOAT2_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9400D0)
+#define UNITY_MATHEMATICS_FLOAT2_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1EF7F020)
+#define UNITY_MATHEMATICS_FLOAT2_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x9401B0)
+#define UNITY_MATHEMATICS_FLOAT2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x940100)
+#define UNITY_MATHEMATICS_FLOAT2__CTOR_OFFSET UNITYSDK_OFFSET(0x409320)
 
 namespace Unity::Mathematics
 {
-	inline static constexpr unsigned int float2_TypeDefinitionIndex = 32731;
+	inline static constexpr unsigned int float2_TypeDefinitionIndex = 32180;
 
 	struct alignas(4) float2
 	{
@@ -28,15 +28,19 @@ namespace Unity::Mathematics
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_FLOAT2__CTOR_OFFSET))(this, x, y);
 		}
 
+		/*
 		static ::Unity::Mathematics::float2 op_Division(::Unity::Mathematics::float2 lhs, ::Unity::Mathematics::float2 rhs)
 		{
 			return ((::Unity::Mathematics::float2(*)(::Unity::Mathematics::float2, ::Unity::Mathematics::float2))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_FLOAT2_OP_DIVISION_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::Unity::Mathematics::float2 rhs)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Unity::Mathematics::float2))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_FLOAT2_EQUALS_OFFSET))(this, rhs);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* o)
 		{

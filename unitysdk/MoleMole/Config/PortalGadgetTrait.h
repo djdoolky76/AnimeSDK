@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/Foundation/ViewObject/EntityBuildContext.h"
-#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-class Class_0_16E4307DCC419505_198;
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
+class OHDHAGLCAEB;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x13510630)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1350F910)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1350FA10)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1350F8C0)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x13510190)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1350FC90)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1350FA00)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x135101F0)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1350FD10)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x135104A0)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x13510050)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_POSTPROCESSENTITY_OFFSET UNITYSDK_OFFSET(0x13510680)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x13510820)
-#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x13510830)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B9374B0)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1B936790)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B936890)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B936740)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B937010)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1B936B10)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1B936880)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B937070)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B936B90)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B937320)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B936ED0)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT_POSTPROCESSENTITY_OFFSET UNITYSDK_OFFSET(0x1B937500)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9376A0)
+#define MOLEMOLE_CONFIG_PORTALGADGETTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B9376B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int PortalGadgetTrait_TypeDefinitionIndex = 43748;
+	inline static constexpr unsigned int PortalGadgetTrait_TypeDefinitionIndex = 64694;
 
 	class PortalGadgetTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -57,9 +57,9 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void ExposeMember(::Class_0_16E4307DCC419505_198* processor, ::System::String* prefix)
+		::System::Void ExposeMember(::OHDHAGLCAEB* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
@@ -77,19 +77,19 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::PortalGadgetTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::PortalGadgetTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		static ::MoleMole::Config::PortalGadgetTrait* ParseFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::PortalGadgetTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+			return ((::MoleMole::Config::PortalGadgetTrait*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
 		::System::Boolean BuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& buildContext)
@@ -102,9 +102,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT_POSTPROCESSENTITY_OFFSET))(this, entityHandle);
 		}
 
-		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_198* P0, ::System::String* P1)
+		::System::Void __base_ExposeMember(::OHDHAGLCAEB* P0, ::System::String* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PORTALGADGETTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 	};
 }

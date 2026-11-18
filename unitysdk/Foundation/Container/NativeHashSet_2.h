@@ -8,12 +8,12 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeHashSet_2_TypeDefinitionIndex = 8891;
+	inline static constexpr unsigned int NativeHashSet_2_TypeDefinitionIndex = 8830;
 
-	template <typename T, typename TKeyFunc>
-	struct NativeHashSet_2
+	template <typename T1, typename T2>
+	struct alignas(8) NativeHashSet_2
 	{
-		::Foundation::Container::NativeHashSetData_4<::Foundation::Container::EmptyUserData, T, TKeyFunc, ::Foundation::Native::RawPointer> _data; // 0x0
+		::Foundation::Container::NativeHashSetData_4<::Foundation::Container::EmptyUserData, T1, T2, ::Foundation::Native::RawPointer> _data; // 0x0
 		::Unity::Collections::Allocator m_AllocatorLabel; // 0x0
 	};
 }

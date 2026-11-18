@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGWAIT4CONDITION_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B562300)
-#define MOLEMOLE_CONFIG_CONFIGWAIT4CONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B562370)
+#define MOLEMOLE_CONFIG_CONFIGWAIT4CONDITION_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1BA454E0)
+#define MOLEMOLE_CONFIG_CONFIGWAIT4CONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA45550)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigWait4Condition_TypeDefinitionIndex = 54070;
+	inline static constexpr unsigned int ConfigWait4Condition_TypeDefinitionIndex = 52411;
 
 	class ConfigWait4Condition : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
@@ -24,9 +24,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGWAIT4CONDITION__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGWAIT4CONDITION_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGWAIT4CONDITION_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

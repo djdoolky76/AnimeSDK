@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int FixedUpdate_AudioFixedUpdate_TypeDefinitionIndex = 5575;
+	inline static constexpr unsigned int FixedUpdate_AudioFixedUpdate_TypeDefinitionIndex = 5578;
 
-	struct alignas(1) FixedUpdate_AudioFixedUpdate
+	struct alignas(4) FixedUpdate_AudioFixedUpdate
 	{
 	};
 }

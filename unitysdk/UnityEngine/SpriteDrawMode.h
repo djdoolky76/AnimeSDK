@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SpriteDrawMode_TypeDefinitionIndex = 5419;
+	inline static constexpr unsigned int SpriteDrawMode_TypeDefinitionIndex = 5422;
 
 	enum class SpriteDrawMode : ::System::Int32
 	{

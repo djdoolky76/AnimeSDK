@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/TextAnchor.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-#include "unitysdk/UnityEngine/TextAnchor.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_TEXTSHOWBEHAVIOUR_METHOD_2_79ED6854413CA2F4_OFFSET UNITYSDK_OFFSET(0x129E8E90)
-#define MOLEMOLE_TIMELINE_TEXTSHOWBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x129E8E00)
-#define MOLEMOLE_TIMELINE_TEXTSHOWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x129E8E80)
+#define MOLEMOLE_TIMELINE_TEXTSHOWBEHAVIOUR_MIDMHINHEGI_OFFSET UNITYSDK_OFFSET(0x188295B0)
+#define MOLEMOLE_TIMELINE_TEXTSHOWBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x18829520)
+#define MOLEMOLE_TIMELINE_TEXTSHOWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x188295A0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TextShowBehaviour_TypeDefinitionIndex = 72394;
+	inline static constexpr unsigned int TextShowBehaviour_TypeDefinitionIndex = 83681;
 
 	class TextShowBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -32,14 +32,14 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTSHOWBEHAVIOUR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		::System::Void OnBehaviourPause(::UnityEngine::Playables::Playable HKOFGPMIFHB, ::UnityEngine::Playables::FrameData HMMMOCJAEOA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTSHOWBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTSHOWBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, HKOFGPMIFHB, HMMMOCJAEOA);
 		}
 
-		::System::Void Method_2_79ED6854413CA2F4(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
+		::System::Void MIDMHINHEGI(::UnityEngine::Playables::Playable MIALFKCCCPI, ::UnityEngine::Playables::FrameData KMGKAIDEIBA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTSHOWBEHAVIOUR_METHOD_2_79ED6854413CA2F4_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTSHOWBEHAVIOUR_MIDMHINHEGI_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 	};
 }

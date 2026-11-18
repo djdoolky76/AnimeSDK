@@ -6,24 +6,24 @@ namespace MoleMole { class UIBabeltowerTrickScoreRowWidgetController; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIBABELTOWERINLEVELPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19778FD0)
-#define MOLEMOLE_UIBABELTOWERINLEVELPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19779010)
-#define MOLEMOLE_UIBABELTOWERINLEVELPAGECONTROLLER___C__REFRESHTRICKSCORE_B__13_2_OFFSET UNITYSDK_OFFSET(0x19779020)
+#define MOLEMOLE_UIBABELTOWERINLEVELPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0F1CA0)
+#define MOLEMOLE_UIBABELTOWERINLEVELPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F1CE0)
+#define MOLEMOLE_UIBABELTOWERINLEVELPAGECONTROLLER___C__REFRESHTRICKSCORE_B__13_2_OFFSET UNITYSDK_OFFSET(0x1A0F1CF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerInLevelPageController___c_TypeDefinitionIndex = 65038;
+	inline static constexpr unsigned int UIBabeltowerInLevelPageController___c_TypeDefinitionIndex = 75615;
 
 	class UIBabeltowerInLevelPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIBabeltowerInLevelPageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIBabeltowerInLevelPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerInLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x36AE0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerInLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x38C70);
 		}
 		static ::System::Func_2<::MoleMole::UIBabeltowerTrickScoreRowWidgetController*, ::UnityEngine::GameObject*>** StaticGet___9__13_2()
 		{
-			return (::System::Func_2<::MoleMole::UIBabeltowerTrickScoreRowWidgetController*, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerInLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x36AE8);
+			return (::System::Func_2<::MoleMole::UIBabeltowerTrickScoreRowWidgetController*, ::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerInLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x38C78);
 		}
 
 		static ::System::Void _cctor()

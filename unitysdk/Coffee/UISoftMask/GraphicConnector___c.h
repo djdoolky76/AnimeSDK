@@ -5,24 +5,24 @@
 namespace Coffee::UISoftMask { class GraphicConnector; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define COFFEE_UISOFTMASK_GRAPHICCONNECTOR___C__ADDCONNECTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F8D9680)
-#define COFFEE_UISOFTMASK_GRAPHICCONNECTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8D9630)
-#define COFFEE_UISOFTMASK_GRAPHICCONNECTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8D9670)
+#define COFFEE_UISOFTMASK_GRAPHICCONNECTOR___C__ADDCONNECTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1FCE7E80)
+#define COFFEE_UISOFTMASK_GRAPHICCONNECTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCE7E30)
+#define COFFEE_UISOFTMASK_GRAPHICCONNECTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCE7E70)
 
 namespace Coffee::UISoftMask
 {
-	inline static constexpr unsigned int GraphicConnector___c_TypeDefinitionIndex = 94430;
+	inline static constexpr unsigned int GraphicConnector___c_TypeDefinitionIndex = 96117;
 
 	class GraphicConnector___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::Coffee::UISoftMask::GraphicConnector*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::Coffee::UISoftMask::GraphicConnector*>**)Il2CppClass::FromTypeDefinitionIndex(GraphicConnector___c_TypeDefinitionIndex)->GetStaticField(0x52520);
+			return (::System::Comparison_1<::Coffee::UISoftMask::GraphicConnector*>**)Il2CppClass::FromTypeDefinitionIndex(GraphicConnector___c_TypeDefinitionIndex)->GetStaticField(0x52CC0);
 		}
-		static ::Coffee::UISoftMask::GraphicConnector___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Coffee::UISoftMask::GraphicConnector___c**)Il2CppClass::FromTypeDefinitionIndex(GraphicConnector___c_TypeDefinitionIndex)->GetStaticField(0x52528);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(GraphicConnector___c_TypeDefinitionIndex)->GetStaticField(0x52CC8);
 		}
 
 		static ::System::Void _cctor()

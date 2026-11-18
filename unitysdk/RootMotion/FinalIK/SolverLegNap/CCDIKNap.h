@@ -6,20 +6,20 @@
 namespace RootMotion::FinalIK::SolverLegNap { class BoneChain; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_SOLVERLEGNAP_CCDIKNAP_SOLVECCDIK_1_OFFSET UNITYSDK_OFFSET(0x1F2F47B0)
-#define ROOTMOTION_FINALIK_SOLVERLEGNAP_CCDIKNAP_SOLVECCDIK_OFFSET UNITYSDK_OFFSET(0x1F2F4660)
-#define ROOTMOTION_FINALIK_SOLVERLEGNAP_CCDIKNAP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2F4C90)
+#define ROOTMOTION_FINALIK_SOLVERLEGNAP_CCDIKNAP_SOLVECCDIK_1_OFFSET UNITYSDK_OFFSET(0x1F706B70)
+#define ROOTMOTION_FINALIK_SOLVERLEGNAP_CCDIKNAP_SOLVECCDIK_OFFSET UNITYSDK_OFFSET(0x1F706A20)
+#define ROOTMOTION_FINALIK_SOLVERLEGNAP_CCDIKNAP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F707050)
 
 namespace RootMotion::FinalIK::SolverLegNap
 {
-	inline static constexpr unsigned int CCDIKNap_TypeDefinitionIndex = 38937;
+	inline static constexpr unsigned int CCDIKNap_TypeDefinitionIndex = 36924;
 
 	class CCDIKNap : public ::System::Object
 	{
 	public:
 		static ::RootMotion::FinalIK::SolverLegNap::BoneChain** StaticGet__boneChian()
 		{
-			return (::RootMotion::FinalIK::SolverLegNap::BoneChain**)Il2CppClass::FromTypeDefinitionIndex(CCDIKNap_TypeDefinitionIndex)->GetStaticField(0x2A870);
+			return (::RootMotion::FinalIK::SolverLegNap::BoneChain**)Il2CppClass::FromTypeDefinitionIndex(CCDIKNap_TypeDefinitionIndex)->GetStaticField(0x2BBD0);
 		}
 
 		static ::System::Void _cctor()

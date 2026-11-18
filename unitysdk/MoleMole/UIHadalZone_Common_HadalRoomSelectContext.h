@@ -2,23 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIHADALZONE_COMMON_HADALROOMSELECTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x184169C0)
+#define MOLEMOLE_UIHADALZONE_COMMON_HADALROOMSELECTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C3CD80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_Common_HadalRoomSelectContext_TypeDefinitionIndex = 43787;
+	inline static constexpr unsigned int UIHadalZone_Common_HadalRoomSelectContext_TypeDefinitionIndex = 50979;
 
 	class UIHadalZone_Common_HadalRoomSelectContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Boolean usePrevLayerHistory; // 0x28
 		::System::Boolean isBattleResultChange; // 0x29
-		::System::Int32 roomIndex; // 0x2C
-		::System::Int32 subLayerIndex; // 0x30
-		::System::Int32 layerID; // 0x34
+		::System::Byte _padding0[0x2];
+		::System::Int32 layerIndex; // 0x2C
+		::System::Int32 roomID; // 0x30
+		::System::Int32 roomIndex; // 0x34
 		::System::Int32 zoneId; // 0x38
-		::System::Int32 roomID; // 0x3C
-		::System::Int32 layerIndex; // 0x40
+		::System::Int32 subLayerIndex; // 0x3C
+		::System::Int32 layerID; // 0x40
 
 		::System::Void _ctor()
 		{

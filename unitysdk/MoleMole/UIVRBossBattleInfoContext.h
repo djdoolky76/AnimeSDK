@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/HPFBEABCPEO.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
-#include "unitysdk/Struct_2_8F9E26CA2B644EB8.h"
 
-class Class_2_208CC9941471731A_732;
+class KDFEBFHFCHO;
 
-#define MOLEMOLE_UIVRBOSSBATTLEINFOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E2F6B0)
+#define MOLEMOLE_UIVRBOSSBATTLEINFOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12F8F540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVRBossBattleInfoContext_TypeDefinitionIndex = 70358;
+	inline static constexpr unsigned int UIVRBossBattleInfoContext_TypeDefinitionIndex = 50249;
 
 	class UIVRBossBattleInfoContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_208CC9941471731A_732* questTemplate; // 0x28
-		::Struct_2_8F9E26CA2B644EB8 JumpData; // 0x30
+		::KDFEBFHFCHO* questTemplate; // 0x28
+		::HPFBEABCPEO JumpData; // 0x30
 
 		::System::Void _ctor()
 		{

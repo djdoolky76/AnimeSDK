@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace System { class Object; }
 namespace System { class String; }
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ValueDropdownItem_1_TypeDefinitionIndex = 7387;
+	inline static constexpr unsigned int ValueDropdownItem_1_TypeDefinitionIndex = 7394;
 
 	template <typename T>
-	struct ValueDropdownItem_1
+	struct alignas(8) ValueDropdownItem_1
 	{
 		::System::String* Text; // 0x0
 		::System::String* SelectedText; // 0x0

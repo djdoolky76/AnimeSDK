@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace MoleMole { class UISuibianTempleHiveBoxPageController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18897450)
-#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXPAGECONTROLLER___C__DISPLAYCLASS28_0__ONCLICKBUYBTN_B__1_OFFSET UNITYSDK_OFFSET(0x18897460)
+#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18285F60)
+#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXPAGECONTROLLER___C__DISPLAYCLASS28_0__ONCLICKBUYBTN_B__1_OFFSET UNITYSDK_OFFSET(0x18285F70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleHiveBoxPageController___c__DisplayClass28_0_TypeDefinitionIndex = 60452;
+	inline static constexpr unsigned int UISuibianTempleHiveBoxPageController___c__DisplayClass28_0_TypeDefinitionIndex = 77863;
 
 	class UISuibianTempleHiveBoxPageController___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UISuibianTempleHiveBoxPageController* __4__this; // 0x10
-		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* selectToBuyList; // 0x18
+		::System::Collections::Generic::List_1<::HGAJKHIMKJP*>* selectToBuyList; // 0x10
+		::MoleMole::UISuibianTempleHiveBoxPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

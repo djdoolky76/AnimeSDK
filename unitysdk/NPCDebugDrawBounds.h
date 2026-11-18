@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 
 namespace UnityEngine { class MeshRenderer; }
 
-#define NPCDEBUGDRAWBOUNDS_DRAWBOUNDS_OFFSET UNITYSDK_OFFSET(0x13DF5C30)
-#define NPCDEBUGDRAWBOUNDS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x13DF5A40)
-#define NPCDEBUGDRAWBOUNDS_UPDATE_OFFSET UNITYSDK_OFFSET(0x13DF5B20)
-#define NPCDEBUGDRAWBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x13DF6220)
+#define NPCDEBUGDRAWBOUNDS_DRAWBOUNDS_OFFSET UNITYSDK_OFFSET(0xE0D9780)
+#define NPCDEBUGDRAWBOUNDS_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE0D9590)
+#define NPCDEBUGDRAWBOUNDS_UPDATE_OFFSET UNITYSDK_OFFSET(0xE0D9670)
+#define NPCDEBUGDRAWBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0xE0D9D70)
 
-inline static constexpr unsigned int NPCDebugDrawBounds_TypeDefinitionIndex = 85490;
+inline static constexpr unsigned int NPCDebugDrawBounds_TypeDefinitionIndex = 56631;
 
 class NPCDebugDrawBounds : public ::UnityEngine::MonoBehaviour
 {

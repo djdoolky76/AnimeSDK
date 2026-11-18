@@ -1,28 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
+class OHDHAGLCAEB;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x19ACB7D0)
-#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x19ACB780)
-#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ACBCB0)
-#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x19ACB8E0)
-#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x19ACB8D0)
-#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ACBD10)
-#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x19ACB960)
-#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ACBEF0)
-#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x19ACBB50)
-#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACC0A0)
+#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0xFFE5270)
+#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0xFFE5370)
+#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0xFFE5220)
+#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xFFE57C0)
+#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0xFFE5410)
+#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0xFFE5360)
+#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xFFE5820)
+#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xFFE5490)
+#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0xFFE5A00)
+#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0xFFE5680)
+#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0xFFE5B90)
+#define MOLEMOLE_CONFIG_DEBUGINFOTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0xFFE5BA0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DebugInfoTrait_TypeDefinitionIndex = 63193;
+	inline static constexpr unsigned int DebugInfoTrait_TypeDefinitionIndex = 85751;
 
 	class DebugInfoTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -49,6 +52,11 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DEBUGINFOTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
+		::System::Void ExposeMember(::OHDHAGLCAEB* processor, ::System::String* prefix)
+		{
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DEBUGINFOTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
+		}
+
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DEBUGINFOTRAIT_FROMFLX_OFFSET))(this, node);
@@ -64,19 +72,24 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::DebugInfoTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DEBUGINFOTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DEBUGINFOTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DEBUGINFOTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DEBUGINFOTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DEBUGINFOTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::DebugInfoTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		static ::MoleMole::Config::DebugInfoTrait* ParseFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::DebugInfoTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DEBUGINFOTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+			return ((::MoleMole::Config::DebugInfoTrait*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DEBUGINFOTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+		}
+
+		::System::Void __base_ExposeMember(::OHDHAGLCAEB* P0, ::System::String* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DEBUGINFOTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 	};
 }

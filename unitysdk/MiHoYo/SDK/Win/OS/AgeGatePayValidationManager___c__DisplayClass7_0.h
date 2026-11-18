@@ -6,19 +6,19 @@ namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalConsentDialog; }
 namespace MiHoYo::SDK::Win::OS { class AgeGatePayValidationManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFE92E0)
-#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS7_0__ONPARENTALCONSENTINPUTEMAILBUTTONPRESSEDCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x1CFE92F0)
-#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS7_0__ONPARENTALCONSENTINPUTEMAILBUTTONPRESSEDCONFIRM_B__1_OFFSET UNITYSDK_OFFSET(0x1CFE9350)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D518CE0)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS7_0__ONPARENTALCONSENTINPUTEMAILBUTTONPRESSEDCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x1D518CF0)
+#define MIHOYO_SDK_WIN_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS7_0__ONPARENTALCONSENTINPUTEMAILBUTTONPRESSEDCONFIRM_B__1_OFFSET UNITYSDK_OFFSET(0x1D518D50)
 
 namespace MiHoYo::SDK::Win::OS
 {
-	inline static constexpr unsigned int AgeGatePayValidationManager___c__DisplayClass7_0_TypeDefinitionIndex = 21661;
+	inline static constexpr unsigned int AgeGatePayValidationManager___c__DisplayClass7_0_TypeDefinitionIndex = 20861;
 
 	class AgeGatePayValidationManager___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog* dialog; // 0x10
-		::MiHoYo::SDK::Win::OS::AgeGatePayValidationManager* __4__this; // 0x18
+		::MiHoYo::SDK::Win::OS::AgeGatePayValidationManager* __4__this; // 0x10
+		::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog* dialog; // 0x18
 		::System::String* email; // 0x20
 
 		::System::Void _ctor()

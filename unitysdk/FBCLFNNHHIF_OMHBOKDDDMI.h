@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class EFKKOGMDDEN;
+class FBCLFNNHHIF;
+class JFOANKAAJOH;
+class ODPINEGGNDC;
+
+#define FBCLFNNHHIF_OMHBOKDDDMI_LJHDGNAEDIC_OFFSET UNITYSDK_OFFSET(0x1FFC5670)
+#define FBCLFNNHHIF_OMHBOKDDDMI__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFC5660)
+
+inline static constexpr unsigned int FBCLFNNHHIF_OMHBOKDDDMI_TypeDefinitionIndex = 18104;
+
+class FBCLFNNHHIF_OMHBOKDDDMI : public ::System::Object
+{
+public:
+	::ODPINEGGNDC* FDDEMMPCGAC; // 0x10
+	::FBCLFNNHHIF* KLHPEBKNIFB; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FBCLFNNHHIF_OMHBOKDDDMI__CTOR_OFFSET))(this);
+	}
+
+	::JFOANKAAJOH* LJHDGNAEDIC(::EFKKOGMDDEN* LJEPPLANHIL, ::System::Int32 HBJOLKHGGDD)
+	{
+		return ((::JFOANKAAJOH*(*)(::PVOID, ::EFKKOGMDDEN*, ::System::Int32))((::PBYTE)hIl2Cpp + FBCLFNNHHIF_OMHBOKDDDMI_LJHDGNAEDIC_OFFSET))(this, LJEPPLANHIL, HBJOLKHGGDD);
+	}
+};

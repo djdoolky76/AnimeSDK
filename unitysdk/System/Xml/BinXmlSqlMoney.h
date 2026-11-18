@@ -1,18 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/Decimal.h"
 
 namespace System { class String; }
 
-#define SYSTEM_XML_BINXMLSQLMONEY_TODECIMAL_OFFSET UNITYSDK_OFFSET(0xA970B0)
-#define SYSTEM_XML_BINXMLSQLMONEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA97120)
-#define SYSTEM_XML_BINXMLSQLMONEY__CTOR_OFFSET UNITYSDK_OFFSET(0x9B1250)
+#define SYSTEM_XML_BINXMLSQLMONEY_TODECIMAL_OFFSET UNITYSDK_OFFSET(0x97E130)
+#define SYSTEM_XML_BINXMLSQLMONEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x97E1A0)
+#define SYSTEM_XML_BINXMLSQLMONEY__CTOR_OFFSET UNITYSDK_OFFSET(0x8D6310)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int BinXmlSqlMoney_TypeDefinitionIndex = 1668;
+	inline static constexpr unsigned int BinXmlSqlMoney_TypeDefinitionIndex = 1667;
 
-	struct alignas(8) BinXmlSqlMoney
+	struct alignas(4) BinXmlSqlMoney
 	{
 		::System::Int64 data; // 0x10
 
@@ -21,12 +22,10 @@ namespace System::Xml
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINXMLSQLMONEY__CTOR_OFFSET))(this, v);
 		}
 
-		/*
 		::System::Decimal ToDecimal()
 		{
 			return ((::System::Decimal(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_BINXMLSQLMONEY_TODECIMAL_OFFSET))(this);
 		}
-		*/
 
 		::System::String* ToString()
 		{

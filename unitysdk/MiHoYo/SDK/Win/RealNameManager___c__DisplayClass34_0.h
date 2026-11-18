@@ -8,26 +8,26 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D78EA10)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS34_0__SHOWGRANTPHONEPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x1D78EA20)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS34_0__SHOWGRANTPHONEPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x1D78EA40)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS34_0__SHOWGRANTPHONEPLUGINUI_B__2_OFFSET UNITYSDK_OFFSET(0x1D78EA70)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS34_0__SHOWGRANTPHONEPLUGINUI_B__3_OFFSET UNITYSDK_OFFSET(0x1D78ED90)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS34_0__SHOWGRANTPHONEPLUGINUI_B__4_OFFSET UNITYSDK_OFFSET(0x1D78EDE0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE3510)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS34_0__SHOWGRANTPHONEPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x1DEE3520)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS34_0__SHOWGRANTPHONEPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x1DEE3540)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS34_0__SHOWGRANTPHONEPLUGINUI_B__2_OFFSET UNITYSDK_OFFSET(0x1DEE3570)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS34_0__SHOWGRANTPHONEPLUGINUI_B__3_OFFSET UNITYSDK_OFFSET(0x1DEE3890)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS34_0__SHOWGRANTPHONEPLUGINUI_B__4_OFFSET UNITYSDK_OFFSET(0x1DEE38E0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int RealNameManager___c__DisplayClass34_0_TypeDefinitionIndex = 21451;
+	inline static constexpr unsigned int RealNameManager___c__DisplayClass34_0_TypeDefinitionIndex = 20651;
 
 	class RealNameManager___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* verifyAction; // 0x10
-		::System::Action* getCaptchaAction; // 0x18
-		::MiHoYo::SDK::Win::RealNameManager* __4__this; // 0x20
-		::MiHoYo::SDK::AccountModel* account; // 0x28
-		::System::Boolean isShowRedirect; // 0x30
-		::System::Boolean isShowOtherVerify; // 0x31
+		::MiHoYo::SDK::Win::RealNameManager* __4__this; // 0x10
+		::MiHoYo::SDK::AccountModel* account; // 0x18
+		::System::Action_1<::System::String*>* verifyAction; // 0x20
+		::System::Action* getCaptchaAction; // 0x28
+		::System::Boolean isShowOtherVerify; // 0x30
+		::System::Boolean isShowRedirect; // 0x31
 
 		::System::Void _ctor()
 		{

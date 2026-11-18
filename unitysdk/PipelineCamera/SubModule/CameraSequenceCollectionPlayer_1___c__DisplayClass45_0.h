@@ -3,12 +3,11 @@
 #include "unitysdk/PipelineCamera/WorldBasicCameraDataDeltaFlag.h"
 #include "unitysdk/System/Object.h"
 
-namespace PipelineCamera { class ICameraDataBlender; }
 namespace UnityEngine { class AnimationCurve; }
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int CameraSequenceCollectionPlayer_1___c__DisplayClass45_0_TypeDefinitionIndex = 38692;
+	inline static constexpr unsigned int CameraSequenceCollectionPlayer_1___c__DisplayClass45_0_TypeDefinitionIndex = 36692;
 
 	template <typename T>
 	class CameraSequenceCollectionPlayer_1___c__DisplayClass45_0 : public ::System::Object

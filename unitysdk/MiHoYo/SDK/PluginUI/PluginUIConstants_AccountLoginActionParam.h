@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_AccountLoginActionParam_TypeDefinitionIndex = 21286;
+	inline static constexpr unsigned int PluginUIConstants_AccountLoginActionParam_TypeDefinitionIndex = 20491;
 
 	class PluginUIConstants_AccountLoginActionParam : public ::System::Object
 	{

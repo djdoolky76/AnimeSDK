@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PrimitiveVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_VECTOR4PARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E8AD500)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VECTOR4PARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1E8AD490)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VECTOR4PARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E8AD510)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VECTOR4PARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AC330)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VECTOR4PARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EB65DC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VECTOR4PARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1EB65D50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VECTOR4PARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EB65DD0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VECTOR4PARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB64BF0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int Vector4Parameter_TypeDefinitionIndex = 6064;
+	inline static constexpr unsigned int Vector4Parameter_TypeDefinitionIndex = 6072;
 
-	class Vector4Parameter : public ::UnityEngine::NAPRenderPipeline0::PrimitiveVolumeParameter_1<::UnityEngine::Vector4>
+	class Vector4Parameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Vector4 value, ::System::Boolean overrideState)

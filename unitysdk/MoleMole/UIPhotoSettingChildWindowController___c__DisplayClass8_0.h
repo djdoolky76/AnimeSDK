@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_730A101C592B37EC;
+class DEPFFHDJHKL;
 
-#define MOLEMOLE_UIPHOTOSETTINGCHILDWINDOWCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F50410)
-#define MOLEMOLE_UIPHOTOSETTINGCHILDWINDOWCONTROLLER___C__DISPLAYCLASS8_0__REFRESHSELFIEMOTIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0x15F50420)
+#define MOLEMOLE_UIPHOTOSETTINGCHILDWINDOWCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x168D6000)
+#define MOLEMOLE_UIPHOTOSETTINGCHILDWINDOWCONTROLLER___C__DISPLAYCLASS8_0__REFRESHSELFIEMOTIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0x168D6010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPhotoSettingChildWindowController___c__DisplayClass8_0_TypeDefinitionIndex = 43550;
+	inline static constexpr unsigned int UIPhotoSettingChildWindowController___c__DisplayClass8_0_TypeDefinitionIndex = 53401;
 
 	class UIPhotoSettingChildWindowController___c__DisplayClass8_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHOTOSETTINGCHILDWINDOWCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RefreshSelfieMotionData_b__0(::Class_1_730A101C592B37EC* x)
+		::System::Boolean _RefreshSelfieMotionData_b__0(::DEPFFHDJHKL* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_730A101C592B37EC*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHOTOSETTINGCHILDWINDOWCONTROLLER___C__DISPLAYCLASS8_0__REFRESHSELFIEMOTIONDATA_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::DEPFFHDJHKL*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPHOTOSETTINGCHILDWINDOWCONTROLLER___C__DISPLAYCLASS8_0__REFRESHSELFIEMOTIONDATA_B__0_OFFSET))(this, x);
 		}
 	};
 }

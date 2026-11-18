@@ -6,13 +6,13 @@
 
 namespace System::Security::Principal { class SecurityIdentifier; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_KNOWNACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DF41F70)
-#define SYSTEM_SECURITY_ACCESSCONTROL_KNOWNACE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DF41F80)
-#define SYSTEM_SECURITY_ACCESSCONTROL_KNOWNACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF41EF0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_KNOWNACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E3A1E00)
+#define SYSTEM_SECURITY_ACCESSCONTROL_KNOWNACE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E3A1E10)
+#define SYSTEM_SECURITY_ACCESSCONTROL_KNOWNACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3A1D80)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int KnownAce_TypeDefinitionIndex = 986;
+	inline static constexpr unsigned int KnownAce_TypeDefinitionIndex = 985;
 
 	class KnownAce : public ::System::Security::AccessControl::GenericAce
 	{

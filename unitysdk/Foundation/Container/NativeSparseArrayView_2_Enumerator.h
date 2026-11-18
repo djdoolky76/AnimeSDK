@@ -6,12 +6,12 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeSparseArrayView_2_Enumerator_TypeDefinitionIndex = 8617;
+	inline static constexpr unsigned int NativeSparseArrayView_2_Enumerator_TypeDefinitionIndex = 9056;
 
-	template <typename TUserData, typename T>
-	struct NativeSparseArrayView_2_Enumerator
+	template <typename T1, typename T2>
+	struct alignas(8) NativeSparseArrayView_2_Enumerator
 	{
-		::Foundation::Container::Pointer_1<T> _data; // 0x0
+		::Foundation::Container::Pointer_1<T1> _data; // 0x0
 		::Foundation::Container::NativeBitArraySetIndexEnumerator _indexEnumerator; // 0x0
 	};
 }

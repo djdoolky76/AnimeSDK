@@ -2,32 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIROPEMAKERWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AA2100)
-#define MOLEMOLE_UIROPEMAKERWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA2140)
-#define MOLEMOLE_UIROPEMAKERWIDGETCONTROLLER___C__ONUIINIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x16AA2150)
-#define MOLEMOLE_UIROPEMAKERWIDGETCONTROLLER___C__REFRESHPENDINGVIEW_B__6_1_OFFSET UNITYSDK_OFFSET(0x16AA2270)
+#define MOLEMOLE_UIROPEMAKERWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18893620)
+#define MOLEMOLE_UIROPEMAKERWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18893660)
+#define MOLEMOLE_UIROPEMAKERWIDGETCONTROLLER___C__ONUIINIT_B__2_0_OFFSET UNITYSDK_OFFSET(0x18893670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRopeMakerWidgetController___c_TypeDefinitionIndex = 71812;
+	inline static constexpr unsigned int UIRopeMakerWidgetController___c_TypeDefinitionIndex = 90213;
 
 	class UIRopeMakerWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__6_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIRopeMakerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4C670);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIRopeMakerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4DAA0);
 		}
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__1_0()
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__2_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIRopeMakerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4C678);
-		}
-		static ::MoleMole::UIRopeMakerWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIRopeMakerWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRopeMakerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4C680);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIRopeMakerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4DAA8);
 		}
 
 		static ::System::Void _cctor()
@@ -40,14 +34,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROPEMAKERWIDGETCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnUIInit_b__1_0()
+		::System::Void _OnUIInit_b__2_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROPEMAKERWIDGETCONTROLLER___C__ONUIINIT_B__1_0_OFFSET))(this);
-		}
-
-		::System::Void _RefreshPendingView_b__6_1(::System::Boolean success)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROPEMAKERWIDGETCONTROLLER___C__REFRESHPENDINGVIEW_B__6_1_OFFSET))(this, success);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROPEMAKERWIDGETCONTROLLER___C__ONUIINIT_B__2_0_OFFSET))(this);
 		}
 	};
 }

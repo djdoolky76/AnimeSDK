@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXACHIEVEMENTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D76E7E0)
+#define MIHOYO_SDK_PC_OS_XBOXACHIEVEMENTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC79D0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxAchievementEntry_TypeDefinitionIndex = 20769;
+	inline static constexpr unsigned int XboxAchievementEntry_TypeDefinitionIndex = 19973;
 
 	class XboxAchievementEntry : public ::System::Object
 	{
@@ -16,8 +16,10 @@ namespace MiHoYo::SDK::PC::OS
 		::System::String* id; // 0x10
 		::System::String* name; // 0x18
 		::System::Int32 progressState; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::Int64 gamerscore; // 0x28
 		::System::Int32 percentComplete; // 0x30
+		::System::Byte _padding1[0x4];
 		::System::Int64 timeUnlocked; // 0x38
 
 		::System::Void _ctor()

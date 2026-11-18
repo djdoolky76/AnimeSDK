@@ -3,7 +3,7 @@
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int SdfIconType_TypeDefinitionIndex = 7401;
+	inline static constexpr unsigned int SdfIconType_TypeDefinitionIndex = 7408;
 
 	enum class SdfIconType : ::System::Int32
 	{

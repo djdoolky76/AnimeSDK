@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_6.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSUMMERTPSCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A81F80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSUMMERTPSCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x13A82120)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSUMMERTPSCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465C790)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERSUMMERTPSCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1465C930)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnterSummerTpsCamera_TypeDefinitionIndex = 64638;
+	inline static constexpr unsigned int LDEnterSummerTpsCamera_TypeDefinitionIndex = 91222;
 
-	class LDEnterSummerTpsCamera : public ::FlowCanvas::Nodes::CallableFunctionNode_6<::System::Boolean, ::System::String*, ::System::String*, ::UnityEngine::Vector3, ::MoleMole::Cameras::CameraTrackBlending*, ::MoleMole::Cameras::CameraTrackBlending*>
+	class LDEnterSummerTpsCamera
 	{
 	public:
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIInLevelRemiellePanelChildWindowController; }
 
-#define MOLEMOLE_UIINLEVELREMIELLEPANELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17AC2F40)
-#define MOLEMOLE_UIINLEVELREMIELLEPANELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS57_0__ONCURPOINTCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x17AC2F50)
+#define MOLEMOLE_UIINLEVELREMIELLEPANELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175F1AF0)
+#define MOLEMOLE_UIINLEVELREMIELLEPANELCHILDWINDOWCONTROLLER___C__DISPLAYCLASS57_0__ONCURPOINTCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x175F1B00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelRemiellePanelChildWindowController___c__DisplayClass57_0_TypeDefinitionIndex = 88444;
+	inline static constexpr unsigned int UIInLevelRemiellePanelChildWindowController___c__DisplayClass57_0_TypeDefinitionIndex = 69559;
 
 	class UIInLevelRemiellePanelChildWindowController___c__DisplayClass57_0 : public ::System::Object
 	{

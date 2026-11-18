@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1910126201EC593B;
+class EMLGGGPOHEN;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIBABELTOWERBATTLEDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19294350)
-#define MOLEMOLE_UIBABELTOWERBATTLEDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19294390)
-#define MOLEMOLE_UIBABELTOWERBATTLEDIALOGPOPWINDOWCONTROLLER___C__INITBABELSKILLDESC_B__21_0_OFFSET UNITYSDK_OFFSET(0x192943A0)
+#define MOLEMOLE_UIBABELTOWERBATTLEDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14C0E1D0)
+#define MOLEMOLE_UIBABELTOWERBATTLEDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14C0E210)
+#define MOLEMOLE_UIBABELTOWERBATTLEDIALOGPOPWINDOWCONTROLLER___C__INITBABELSKILLDESC_B__21_0_OFFSET UNITYSDK_OFFSET(0x14C0E220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerBattleDialogPopWindowController___c_TypeDefinitionIndex = 47891;
+	inline static constexpr unsigned int UIBabeltowerBattleDialogPopWindowController___c_TypeDefinitionIndex = 78610;
 
 	class UIBabeltowerBattleDialogPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIBabeltowerBattleDialogPopWindowController___c** StaticGet___9()
+		static ::System::Func_2<::EMLGGGPOHEN*, ::System::Int32>** StaticGet___9__21_0()
 		{
-			return (::MoleMole::UIBabeltowerBattleDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerBattleDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32B00);
+			return (::System::Func_2<::EMLGGGPOHEN*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerBattleDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x35040);
 		}
-		static ::System::Func_2<::Class_1_1910126201EC593B*, ::System::Int32>** StaticGet___9__21_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_1_1910126201EC593B*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerBattleDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32B08);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIBabeltowerBattleDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x35048);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBABELTOWERBATTLEDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _InitBabelSkillDesc_b__21_0(::Class_1_1910126201EC593B* group)
+		::System::Int32 _InitBabelSkillDesc_b__21_0(::EMLGGGPOHEN* group)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_1910126201EC593B*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBABELTOWERBATTLEDIALOGPOPWINDOWCONTROLLER___C__INITBABELSKILLDESC_B__21_0_OFFSET))(this, group);
+			return ((::System::Int32(*)(::PVOID, ::EMLGGGPOHEN*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBABELTOWERBATTLEDIALOGPOPWINDOWCONTROLLER___C__INITBABELSKILLDESC_B__21_0_OFFSET))(this, group);
 		}
 	};
 }

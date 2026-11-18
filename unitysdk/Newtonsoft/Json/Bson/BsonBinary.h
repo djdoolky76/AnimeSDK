@@ -3,13 +3,13 @@
 #include "unitysdk/Newtonsoft/Json/Bson/BsonBinaryType.h"
 #include "unitysdk/Newtonsoft/Json/Bson/BsonValue.h"
 
-#define NEWTONSOFT_JSON_BSON_BSONBINARY_GET_BINARYTYPE_OFFSET UNITYSDK_OFFSET(0x1F3020E0)
-#define NEWTONSOFT_JSON_BSON_BSONBINARY_SET_BINARYTYPE_OFFSET UNITYSDK_OFFSET(0x1F3020F0)
-#define NEWTONSOFT_JSON_BSON_BSONBINARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F302100)
+#define NEWTONSOFT_JSON_BSON_BSONBINARY_GET_BINARYTYPE_OFFSET UNITYSDK_OFFSET(0x1F714470)
+#define NEWTONSOFT_JSON_BSON_BSONBINARY_SET_BINARYTYPE_OFFSET UNITYSDK_OFFSET(0x1F714480)
+#define NEWTONSOFT_JSON_BSON_BSONBINARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F714490)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonBinary_TypeDefinitionIndex = 7244;
+	inline static constexpr unsigned int BsonBinary_TypeDefinitionIndex = 7251;
 
 	class BsonBinary : public ::Newtonsoft::Json::Bson::BsonValue
 	{

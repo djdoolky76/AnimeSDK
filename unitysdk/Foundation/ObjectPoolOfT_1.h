@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ObjectPoolOfT_1_ObjectHandler_1.h"
 #include "unitysdk/System/Object.h"
 
-namespace Foundation { template <typename T> class IObjectPoolAllocator_1; }
 namespace Foundation { template <typename T> class ObjectPoolInstance_1; }
 namespace System { template <typename T> class Func_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectPoolOfT_1_TypeDefinitionIndex = 8135;
+	inline static constexpr unsigned int ObjectPoolOfT_1_TypeDefinitionIndex = 8607;
 
 	template <typename T>
 	class ObjectPoolOfT_1 : public ::System::Object

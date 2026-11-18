@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_XML_SERIALIZATION_XMLANYATTRIBUTEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE757E0)
+#define SYSTEM_XML_SERIALIZATION_XMLANYATTRIBUTEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E31C7E0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlAnyAttributeAttribute_TypeDefinitionIndex = 1872;
+	inline static constexpr unsigned int XmlAnyAttributeAttribute_TypeDefinitionIndex = 1871;
 
 	class XmlAnyAttributeAttribute : public ::System::Attribute
 	{

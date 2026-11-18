@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIScroller_Direction_TypeDefinitionIndex = 56992;
+	inline static constexpr unsigned int UIScroller_Direction_TypeDefinitionIndex = 77687;
 
 	enum class UIScroller_Direction : ::System::Int32
 	{

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
-class Class_1_B7E341C5F1A6F199;
-class Class_2_061E58EC483ADC82;
+class CEFNBKMCNND;
+class ENGKPGFGGLM;
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
@@ -14,44 +14,44 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_BINDEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0x107CE040)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x107CEDF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_ONEVENTFROMANYONE_OFFSET UNITYSDK_OFFSET(0x107CE720)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_ONEVENTREACHED_OFFSET UNITYSDK_OFFSET(0x107CEA30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_ONHOSTCHANGED_OFFSET UNITYSDK_OFFSET(0x107CE420)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_ONSTAGECHANGED_OFFSET UNITYSDK_OFFSET(0x107CE550)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_PROCESSEVENT_OFFSET UNITYSDK_OFFSET(0x107CE7E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x107CD540)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_START_OFFSET UNITYSDK_OFFSET(0x107CD720)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_UNBINDEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0x107CDC40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_WAITAUTHORITYNOTIFYCOROUTINE_OFFSET UNITYSDK_OFFSET(0x107CDFC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x107CEE40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE__REGISTERPORTS_B__16_0_OFFSET UNITYSDK_OFFSET(0x107CEE80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x107CEFF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_BINDEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0x14301ED0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14302C70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_ONEVENTFROMANYONE_OFFSET UNITYSDK_OFFSET(0x143025A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_ONEVENTREACHED_OFFSET UNITYSDK_OFFSET(0x143028B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_ONHOSTCHANGED_OFFSET UNITYSDK_OFFSET(0x143022B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_ONSTAGECHANGED_OFFSET UNITYSDK_OFFSET(0x143023E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_PROCESSEVENT_OFFSET UNITYSDK_OFFSET(0x14302660)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x143013C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_START_OFFSET UNITYSDK_OFFSET(0x143015A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_UNBINDEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0x14301AC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_WAITAUTHORITYNOTIFYCOROUTINE_OFFSET UNITYSDK_OFFSET(0x14301E50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x14302CC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE__REGISTERPORTS_B__16_0_OFFSET UNITYSDK_OFFSET(0x14302D00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14302E70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDListenGameEventNode_TypeDefinitionIndex = 85351;
+	inline static constexpr unsigned int LDListenGameEventNode_TypeDefinitionIndex = 68126;
 
 	class LDListenGameEventNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* listenerEntityInput; // 0xA8
-		::FlowCanvas::FlowOutput* reached; // 0xB0
-		::MoleMole::EntityHandle bindEntityHandle; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isGloableInput; // 0xC8
-		::UnityEngine::Coroutine* coroutine; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::String*>* eventInput; // 0xD8
-		::FlowCanvas::ValueInput_1<::System::Int32>* listenTimesInput; // 0xE0
-		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* entityOutput; // 0xE8
-		::FlowCanvas::FlowOutput* output; // 0xF0
-		::System::Int32 currentListenTimes; // 0xF8
-		::System::Boolean listenStart; // 0xFC
-		::System::Boolean bindEvent; // 0xFD
-		::System::Boolean bindStageChangeEvent; // 0xFE
-		::System::Boolean AutoRegisterOnStageChanged; // 0xFF
-		::System::UInt32 listenEnittyId; // 0x100
-		::System::UInt32 triggerEventEntityId; // 0x104
+		::MoleMole::EntityHandle bindEntityHandle; // 0xA8
+		::UnityEngine::Coroutine* coroutine; // 0xB8
+		::FlowCanvas::FlowOutput* reached; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::String*>* eventInput; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Int32>* listenTimesInput; // 0xD0
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* listenerEntityInput; // 0xD8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isGloableInput; // 0xE0
+		::FlowCanvas::FlowOutput* output; // 0xE8
+		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* entityOutput; // 0xF0
+		::System::UInt32 triggerEventEntityId; // 0xF8
+		::System::Int32 currentListenTimes; // 0xFC
+		::System::Boolean listenStart; // 0x100
+		::System::Boolean bindEvent; // 0x101
+		::System::Boolean AutoRegisterOnStageChanged; // 0x102
+		::System::Boolean bindStageChangeEvent; // 0x103
+		::System::UInt32 listenEnittyId; // 0x104
 
 		::System::Void _ctor()
 		{
@@ -93,14 +93,14 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_UNBINDEVENTLISTENER_OFFSET))(this);
 		}
 
-		::System::Void OnEventFromAnyone(::Class_1_B7E341C5F1A6F199* evt)
+		::System::Void OnEventFromAnyone(::ENGKPGFGGLM* evt)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_B7E341C5F1A6F199*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_ONEVENTFROMANYONE_OFFSET))(this, evt);
+			return ((::System::Void(*)(::PVOID, ::ENGKPGFGGLM*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_ONEVENTFROMANYONE_OFFSET))(this, evt);
 		}
 
-		::System::Void ProcessEvent(::Class_2_061E58EC483ADC82* evt)
+		::System::Void ProcessEvent(::CEFNBKMCNND* evt)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_061E58EC483ADC82*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_PROCESSEVENT_OFFSET))(this, evt);
+			return ((::System::Void(*)(::PVOID, ::CEFNBKMCNND*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDLISTENGAMEEVENTNODE_PROCESSEVENT_OFFSET))(this, evt);
 		}
 
 		::System::Void OnEventReached(::System::UInt32 entityId)

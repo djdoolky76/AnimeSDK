@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
@@ -12,23 +12,23 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_EXTRAMOTIONVECTORPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E65FAA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_EXTRAMOTIONVECTORPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E6606C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_EXTRAMOTIONVECTORPASS_GET_MAT_OFFSET UNITYSDK_OFFSET(0x1E65F8F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_EXTRAMOTIONVECTORPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6607A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_EXTRAMOTIONVECTORPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E65F950)
-#define UNITYENGINE_RENDERING_UNIVERSAL_EXTRAMOTIONVECTORPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E6607E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_EXTRAMOTIONVECTORPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E8E3570)
+#define UNITYENGINE_RENDERING_UNIVERSAL_EXTRAMOTIONVECTORPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E8E4190)
+#define UNITYENGINE_RENDERING_UNIVERSAL_EXTRAMOTIONVECTORPASS_GET_MAT_OFFSET UNITYSDK_OFFSET(0x1E8E33C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_EXTRAMOTIONVECTORPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8E4270)
+#define UNITYENGINE_RENDERING_UNIVERSAL_EXTRAMOTIONVECTORPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E3420)
+#define UNITYENGINE_RENDERING_UNIVERSAL_EXTRAMOTIONVECTORPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E8E42B0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ExtraMotionVectorPass_TypeDefinitionIndex = 27880;
+	inline static constexpr unsigned int ExtraMotionVectorPass_TypeDefinitionIndex = 26957;
 
 	class ExtraMotionVectorPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::System::Int32* StaticGet_ExtraMotionVectorShaderId()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ExtraMotionVectorPass_TypeDefinitionIndex)->GetStaticField(0x6F90);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ExtraMotionVectorPass_TypeDefinitionIndex)->GetStaticField(0x7000);
 		}
 		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_Sampler; // 0xA8
 		::System::Boolean m_FirstExecute; // 0xB0

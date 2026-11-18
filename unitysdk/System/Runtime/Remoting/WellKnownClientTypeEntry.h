@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C32A040)
-#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C329F20)
+#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C8A15C0)
+#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A14A0)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int WellKnownClientTypeEntry_TypeDefinitionIndex = 1264;
+	inline static constexpr unsigned int WellKnownClientTypeEntry_TypeDefinitionIndex = 1263;
 
 	class WellKnownClientTypeEntry : public ::System::Runtime::Remoting::TypeEntry
 	{
 	public:
-		::System::String* obj_url; // 0x20
-		::System::Type* obj_type; // 0x28
-		::System::String* app_url; // 0x30
+		::System::Type* obj_type; // 0x20
+		::System::String* app_url; // 0x28
+		::System::String* obj_url; // 0x30
 
 		::System::Void _ctor(::System::String* typeName, ::System::String* assemblyName, ::System::String* objectUrl)
 		{

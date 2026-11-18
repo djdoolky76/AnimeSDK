@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
-
-namespace System { class IConvertible; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ConvertTo_1_TypeDefinitionIndex = 30244;
+	inline static constexpr unsigned int ConvertTo_1_TypeDefinitionIndex = 29766;
 
 	template <typename T>
-	class ConvertTo_1 : public ::FlowCanvas::Nodes::PureFunctionNode_2<T, ::System::IConvertible*>
+	class ConvertTo_1
 	{
 	public:
 	};

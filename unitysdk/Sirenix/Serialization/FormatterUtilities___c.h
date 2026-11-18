@@ -6,34 +6,34 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8C6DB0)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8C6DF0)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES___C__FINDSERIALIZABLEMEMBERSMAP_B__15_0_OFFSET UNITYSDK_OFFSET(0x1F8C6E00)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES___C__FINDSERIALIZABLEMEMBERSMAP_B__15_1_OFFSET UNITYSDK_OFFSET(0x1F8C6E30)
-#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES___C__FINDSERIALIZABLEMEMBERS_B__16_0_OFFSET UNITYSDK_OFFSET(0x1F8C6E40)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCD0710)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCD0750)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES___C__FINDSERIALIZABLEMEMBERSMAP_B__15_0_OFFSET UNITYSDK_OFFSET(0x1FCD0760)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES___C__FINDSERIALIZABLEMEMBERSMAP_B__15_1_OFFSET UNITYSDK_OFFSET(0x1FCD0790)
+#define SIRENIX_SERIALIZATION_FORMATTERUTILITIES___C__FINDSERIALIZABLEMEMBERS_B__16_0_OFFSET UNITYSDK_OFFSET(0x1FCD07A0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int FormatterUtilities___c_TypeDefinitionIndex = 7512;
+	inline static constexpr unsigned int FormatterUtilities___c_TypeDefinitionIndex = 7520;
 
 	class FormatterUtilities___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__16_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities___c_TypeDefinitionIndex)->GetStaticField(0x63B0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities___c_TypeDefinitionIndex)->GetStaticField(0x62B0);
 		}
 		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities___c_TypeDefinitionIndex)->GetStaticField(0x63B8);
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities___c_TypeDefinitionIndex)->GetStaticField(0x62B8);
+		}
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>** StaticGet___9__16_0()
+		{
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities___c_TypeDefinitionIndex)->GetStaticField(0x62C0);
 		}
 		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>** StaticGet___9__15_1()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities___c_TypeDefinitionIndex)->GetStaticField(0x63C0);
-		}
-		static ::Sirenix::Serialization::FormatterUtilities___c** StaticGet___9()
-		{
-			return (::Sirenix::Serialization::FormatterUtilities___c**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities___c_TypeDefinitionIndex)->GetStaticField(0x63C8);
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*>**)Il2CppClass::FromTypeDefinitionIndex(FormatterUtilities___c_TypeDefinitionIndex)->GetStaticField(0x62C8);
 		}
 
 		static ::System::Void _cctor()

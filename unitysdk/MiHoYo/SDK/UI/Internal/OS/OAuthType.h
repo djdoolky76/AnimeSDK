@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int OAuthType_TypeDefinitionIndex = 20548;
+	inline static constexpr unsigned int OAuthType_TypeDefinitionIndex = 19706;
 
 	enum class OAuthType : ::System::Int32
 	{
@@ -11,5 +11,6 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		Google = 1,
 		Facebook = 3,
 		Twitter = 4,
+		Discord = 5,
 	};
 }

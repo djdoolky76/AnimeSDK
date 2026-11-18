@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
-namespace NodeCanvas::Framework { class Blackboard; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_SAVEBLACKBOARD_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EB78700)
-#define NODECANVAS_TASKS_ACTIONS_SAVEBLACKBOARD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB78780)
-#define NODECANVAS_TASKS_ACTIONS_SAVEBLACKBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB78820)
+#define NODECANVAS_TASKS_ACTIONS_SAVEBLACKBOARD_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EF21330)
+#define NODECANVAS_TASKS_ACTIONS_SAVEBLACKBOARD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF213B0)
+#define NODECANVAS_TASKS_ACTIONS_SAVEBLACKBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF21450)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SaveBlackboard_TypeDefinitionIndex = 31083;
+	inline static constexpr unsigned int SaveBlackboard_TypeDefinitionIndex = 30687;
 
-	class SaveBlackboard : public ::NodeCanvas::Framework::ActionTask_1<::NodeCanvas::Framework::Blackboard*>
+	class SaveBlackboard
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::String*>* saveKey; // 0x60

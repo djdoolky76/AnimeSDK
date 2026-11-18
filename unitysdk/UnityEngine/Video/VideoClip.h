@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_VIDEO_VIDEOCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB2F540)
+#define UNITYENGINE_VIDEO_VIDEOCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF3DA40)
 
 namespace UnityEngine::Video
 {
-	inline static constexpr unsigned int VideoClip_TypeDefinitionIndex = 19420;
+	inline static constexpr unsigned int VideoClip_TypeDefinitionIndex = 18574;
 
 	class VideoClip : public ::UnityEngine::Object
 	{

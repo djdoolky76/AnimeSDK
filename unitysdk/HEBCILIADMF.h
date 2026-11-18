@@ -1,0 +1,116 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OAOOLPCNHKA.h"
+
+class AEMCAOEICDG;
+class FDKIIFCDJNP;
+class IANAIPMNOBC;
+namespace MoleMole::MonoEffectContrllerModule { class MonoEffectPluginController; }
+namespace Nap::NapECS { class EcsEntity; }
+namespace Nap::NapECS { class EcsFilter; }
+namespace Nap::NapECS { class EcsWorld; }
+
+#define HEBCILIADMF_AILPBAKAPGJ_OFFSET UNITYSDK_OFFSET(0x14D21C10)
+#define HEBCILIADMF_APAGIJMHEAK_OFFSET UNITYSDK_OFFSET(0x14D21240)
+#define HEBCILIADMF_BEEHNGHKCDF_OFFSET UNITYSDK_OFFSET(0x14D22430)
+#define HEBCILIADMF_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x14D20D60)
+#define HEBCILIADMF_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x14D20FF0)
+#define HEBCILIADMF_HMLGKBFFNHI_OFFSET UNITYSDK_OFFSET(0x14D215F0)
+#define HEBCILIADMF_IHCMADABNGA_OFFSET UNITYSDK_OFFSET(0x14D225D0)
+#define HEBCILIADMF_INEGOEGIOKM_OFFSET UNITYSDK_OFFSET(0x14D211B0)
+#define HEBCILIADMF_KDCMNBCIBFK_OFFSET UNITYSDK_OFFSET(0x14D21CA0)
+#define HEBCILIADMF_KNPGCOJGGDM_OFFSET UNITYSDK_OFFSET(0x14D22E70)
+#define HEBCILIADMF_LHACHIGMFOH_OFFSET UNITYSDK_OFFSET(0x14D22D20)
+#define HEBCILIADMF_MNEFKNFOABP_OFFSET UNITYSDK_OFFSET(0x14D22C90)
+#define HEBCILIADMF_MPCBPPLAFJD_OFFSET UNITYSDK_OFFSET(0x14D227A0)
+#define HEBCILIADMF_OFOOHLAHFEG_OFFSET UNITYSDK_OFFSET(0x14D221B0)
+#define HEBCILIADMF_OOPDHEALBKD_OFFSET UNITYSDK_OFFSET(0x14D22A50)
+#define HEBCILIADMF__CTOR_OFFSET UNITYSDK_OFFSET(0x14D21160)
+
+inline static constexpr unsigned int HEBCILIADMF_TypeDefinitionIndex = 46469;
+
+class HEBCILIADMF : public ::OAOOLPCNHKA
+{
+public:
+	::Nap::NapECS::EcsFilter* JDDGPFHBFJL; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEBCILIADMF__CTOR_OFFSET))(this);
+	}
+
+	::System::Void CreateFilters(::Nap::NapECS::EcsWorld* GEEHGDABNJF)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + HEBCILIADMF_CREATEFILTERS_OFFSET))(this, GEEHGDABNJF);
+	}
+
+	::System::Void FixedUpdate()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEBCILIADMF_FIXEDUPDATE_OFFSET))(this);
+	}
+
+	::System::Void INEGOEGIOKM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEBCILIADMF_INEGOEGIOKM_OFFSET))(this);
+	}
+
+	static ::System::Void APAGIJMHEAK(::Nap::NapECS::EcsEntity* MNGHGOLKKNO)
+	{
+		return ((::System::Void(*)(::Nap::NapECS::EcsEntity*))((::PBYTE)hIl2Cpp + HEBCILIADMF_APAGIJMHEAK_OFFSET))(MNGHGOLKKNO);
+	}
+
+	static ::System::Void HMLGKBFFNHI(::System::UInt32 BKLGNCBNEGM)
+	{
+		return ((::System::Void(*)(::System::UInt32))((::PBYTE)hIl2Cpp + HEBCILIADMF_HMLGKBFFNHI_OFFSET))(BKLGNCBNEGM);
+	}
+
+	static ::System::Void OFOOHLAHFEG(::FDKIIFCDJNP* GBELIHABEDH)
+	{
+		return ((::System::Void(*)(::FDKIIFCDJNP*))((::PBYTE)hIl2Cpp + HEBCILIADMF_OFOOHLAHFEG_OFFSET))(GBELIHABEDH);
+	}
+
+	static ::System::Boolean IHCMADABNGA(::FDKIIFCDJNP* GBELIHABEDH)
+	{
+		return ((::System::Boolean(*)(::FDKIIFCDJNP*))((::PBYTE)hIl2Cpp + HEBCILIADMF_IHCMADABNGA_OFFSET))(GBELIHABEDH);
+	}
+
+	static ::System::Void KDCMNBCIBFK(::FDKIIFCDJNP* MAHAOAIGPEH, ::AEMCAOEICDG* LHPFMGBDFPN, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController* NCIMBHDKIJM)
+	{
+		return ((::System::Void(*)(::FDKIIFCDJNP*, ::AEMCAOEICDG*, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController*))((::PBYTE)hIl2Cpp + HEBCILIADMF_KDCMNBCIBFK_OFFSET))(MAHAOAIGPEH, LHPFMGBDFPN, NCIMBHDKIJM);
+	}
+
+	static ::System::Void AILPBAKAPGJ(::FDKIIFCDJNP* GBELIHABEDH)
+	{
+		return ((::System::Void(*)(::FDKIIFCDJNP*))((::PBYTE)hIl2Cpp + HEBCILIADMF_AILPBAKAPGJ_OFFSET))(GBELIHABEDH);
+	}
+
+	static ::System::Void MPCBPPLAFJD(::FDKIIFCDJNP* GBELIHABEDH, ::System::Single PMNLNNGEIFM)
+	{
+		return ((::System::Void(*)(::FDKIIFCDJNP*, ::System::Single))((::PBYTE)hIl2Cpp + HEBCILIADMF_MPCBPPLAFJD_OFFSET))(GBELIHABEDH, PMNLNNGEIFM);
+	}
+
+	static ::System::Void BEEHNGHKCDF(::FDKIIFCDJNP* GBELIHABEDH)
+	{
+		return ((::System::Void(*)(::FDKIIFCDJNP*))((::PBYTE)hIl2Cpp + HEBCILIADMF_BEEHNGHKCDF_OFFSET))(GBELIHABEDH);
+	}
+
+	::System::Void MNEFKNFOABP(::Nap::NapECS::EcsWorld* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + HEBCILIADMF_MNEFKNFOABP_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	static ::System::Void LHACHIGMFOH(::FDKIIFCDJNP* GBELIHABEDH)
+	{
+		return ((::System::Void(*)(::FDKIIFCDJNP*))((::PBYTE)hIl2Cpp + HEBCILIADMF_LHACHIGMFOH_OFFSET))(GBELIHABEDH);
+	}
+
+	static ::System::Void OOPDHEALBKD(::FDKIIFCDJNP* GBELIHABEDH, ::IANAIPMNOBC* HODAIDNDKHD, ::System::Int32 AKGGKGEPJLP)
+	{
+		return ((::System::Void(*)(::FDKIIFCDJNP*, ::IANAIPMNOBC*, ::System::Int32))((::PBYTE)hIl2Cpp + HEBCILIADMF_OOPDHEALBKD_OFFSET))(GBELIHABEDH, HODAIDNDKHD, AKGGKGEPJLP);
+	}
+
+	static ::System::Void KNPGCOJGGDM(::FDKIIFCDJNP* GBELIHABEDH, ::System::Single PMNLNNGEIFM)
+	{
+		return ((::System::Void(*)(::FDKIIFCDJNP*, ::System::Single))((::PBYTE)hIl2Cpp + HEBCILIADMF_KNPGCOJGGDM_OFFSET))(GBELIHABEDH, PMNLNNGEIFM);
+	}
+};

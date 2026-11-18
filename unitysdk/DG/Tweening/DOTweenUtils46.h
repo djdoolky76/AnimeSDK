@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define DG_TWEENING_DOTWEENUTILS46_SWITCHTORECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1FA1C350)
+#define DG_TWEENING_DOTWEENUTILS46_SWITCHTORECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1FE37340)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int DOTweenUtils46_TypeDefinitionIndex = 35089;
+	inline static constexpr unsigned int DOTweenUtils46_TypeDefinitionIndex = 34638;
 
 	class DOTweenUtils46 : public ::System::Object
 	{

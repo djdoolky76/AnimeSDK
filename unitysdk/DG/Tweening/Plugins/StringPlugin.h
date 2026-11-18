@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DG/Tweening/Core/Enums/UpdateNotice.h"
-#include "unitysdk/DG/Tweening/Plugins/Core/ABSTweenPlugin_3.h"
 #include "unitysdk/DG/Tweening/Plugins/Options/StringOptions.h"
 
 namespace DG::Tweening { class Tween; }
@@ -12,32 +11,32 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define DG_TWEENING_PLUGINS_STRINGPLUGIN_APPEND_OFFSET UNITYSDK_OFFSET(0x1FBE6130)
-#define DG_TWEENING_PLUGINS_STRINGPLUGIN_CONVERTTOSTARTVALUE_OFFSET UNITYSDK_OFFSET(0x1FBE58C0)
-#define DG_TWEENING_PLUGINS_STRINGPLUGIN_EVALUATEANDAPPLY_OFFSET UNITYSDK_OFFSET(0x1FBE5AE0)
-#define DG_TWEENING_PLUGINS_STRINGPLUGIN_GETSPEEDBASEDDURATION_OFFSET UNITYSDK_OFFSET(0x1FBE5AA0)
-#define DG_TWEENING_PLUGINS_STRINGPLUGIN_RESET_OFFSET UNITYSDK_OFFSET(0x1FBE5890)
-#define DG_TWEENING_PLUGINS_STRINGPLUGIN_SCRAMBLEDCHARSTOUSE_OFFSET UNITYSDK_OFFSET(0x1FBE6D30)
-#define DG_TWEENING_PLUGINS_STRINGPLUGIN_SETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x1FBE58E0)
-#define DG_TWEENING_PLUGINS_STRINGPLUGIN_SETFROM_OFFSET UNITYSDK_OFFSET(0x1FBE5800)
-#define DG_TWEENING_PLUGINS_STRINGPLUGIN_SETRELATIVEENDVALUE_OFFSET UNITYSDK_OFFSET(0x1FBE58D0)
-#define DG_TWEENING_PLUGINS_STRINGPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBE6E30)
-#define DG_TWEENING_PLUGINS_STRINGPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBE6E10)
+#define DG_TWEENING_PLUGINS_STRINGPLUGIN_APPEND_OFFSET UNITYSDK_OFFSET(0x1FFE8DD0)
+#define DG_TWEENING_PLUGINS_STRINGPLUGIN_CONVERTTOSTARTVALUE_OFFSET UNITYSDK_OFFSET(0x1FFE8560)
+#define DG_TWEENING_PLUGINS_STRINGPLUGIN_EVALUATEANDAPPLY_OFFSET UNITYSDK_OFFSET(0x1FFE8780)
+#define DG_TWEENING_PLUGINS_STRINGPLUGIN_GETSPEEDBASEDDURATION_OFFSET UNITYSDK_OFFSET(0x1FFE8740)
+#define DG_TWEENING_PLUGINS_STRINGPLUGIN_RESET_OFFSET UNITYSDK_OFFSET(0x1FFE8530)
+#define DG_TWEENING_PLUGINS_STRINGPLUGIN_SCRAMBLEDCHARSTOUSE_OFFSET UNITYSDK_OFFSET(0x1FFE99D0)
+#define DG_TWEENING_PLUGINS_STRINGPLUGIN_SETCHANGEVALUE_OFFSET UNITYSDK_OFFSET(0x1FFE8580)
+#define DG_TWEENING_PLUGINS_STRINGPLUGIN_SETFROM_OFFSET UNITYSDK_OFFSET(0x1FFE84A0)
+#define DG_TWEENING_PLUGINS_STRINGPLUGIN_SETRELATIVEENDVALUE_OFFSET UNITYSDK_OFFSET(0x1FFE8570)
+#define DG_TWEENING_PLUGINS_STRINGPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFE9AD0)
+#define DG_TWEENING_PLUGINS_STRINGPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFE9AB0)
 
 namespace DG::Tweening::Plugins
 {
-	inline static constexpr unsigned int StringPlugin_TypeDefinitionIndex = 28554;
+	inline static constexpr unsigned int StringPlugin_TypeDefinitionIndex = 27993;
 
-	class StringPlugin : public ::DG::Tweening::Plugins::Core::ABSTweenPlugin_3<::System::String*, ::System::String*, ::DG::Tweening::Plugins::Options::StringOptions>
+	class StringPlugin
 	{
 	public:
-		static ::System::Text::StringBuilder** StaticGet__Buffer()
-		{
-			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(StringPlugin_TypeDefinitionIndex)->GetStaticField(0x24230);
-		}
 		static ::System::Collections::Generic::List_1<::System::Char>** StaticGet__OpenedTags()
 		{
-			return (::System::Collections::Generic::List_1<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(StringPlugin_TypeDefinitionIndex)->GetStaticField(0x24238);
+			return (::System::Collections::Generic::List_1<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(StringPlugin_TypeDefinitionIndex)->GetStaticField(0x252F0);
+		}
+		static ::System::Text::StringBuilder** StaticGet__Buffer()
+		{
+			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(StringPlugin_TypeDefinitionIndex)->GetStaticField(0x252F8);
 		}
 
 		::System::Void _ctor()

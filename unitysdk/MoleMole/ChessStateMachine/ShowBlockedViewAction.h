@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ChessStateMachine/TextureSheetVEBase.h"
 
-class Class_1_43BD383C98B4C0C5_31;
+class PINBHKFHPAL;
 
-#define MOLEMOLE_CHESSSTATEMACHINE_SHOWBLOCKEDVIEWACTION_RUN_OFFSET UNITYSDK_OFFSET(0x14847E40)
-#define MOLEMOLE_CHESSSTATEMACHINE_SHOWBLOCKEDVIEWACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x14848110)
-#define MOLEMOLE_CHESSSTATEMACHINE_SHOWBLOCKEDVIEWACTION___BASE_RUN_OFFSET UNITYSDK_OFFSET(0x14848120)
+#define MOLEMOLE_CHESSSTATEMACHINE_SHOWBLOCKEDVIEWACTION_RUN_OFFSET UNITYSDK_OFFSET(0x11E6FCA0)
+#define MOLEMOLE_CHESSSTATEMACHINE_SHOWBLOCKEDVIEWACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x11E6FF70)
+#define MOLEMOLE_CHESSSTATEMACHINE_SHOWBLOCKEDVIEWACTION___BASE_RUN_OFFSET UNITYSDK_OFFSET(0x11E6FF80)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ShowBlockedViewAction_TypeDefinitionIndex = 71722;
+	inline static constexpr unsigned int ShowBlockedViewAction_TypeDefinitionIndex = 46168;
 
 	class ShowBlockedViewAction : public ::MoleMole::ChessStateMachine::TextureSheetVEBase
 	{
@@ -20,14 +20,14 @@ namespace MoleMole::ChessStateMachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWBLOCKEDVIEWACTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Run(::Class_1_43BD383C98B4C0C5_31* context)
+		::System::Void Run(::PINBHKFHPAL* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_31*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWBLOCKEDVIEWACTION_RUN_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::PINBHKFHPAL*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWBLOCKEDVIEWACTION_RUN_OFFSET))(this, context);
 		}
 
-		::System::Void __base_Run(::Class_1_43BD383C98B4C0C5_31* P0)
+		::System::Void __base_Run(::PINBHKFHPAL* P0)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_31*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWBLOCKEDVIEWACTION___BASE_RUN_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::PINBHKFHPAL*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWBLOCKEDVIEWACTION___BASE_RUN_OFFSET))(this, P0);
 		}
 	};
 }

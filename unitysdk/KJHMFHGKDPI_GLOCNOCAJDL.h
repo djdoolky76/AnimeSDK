@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BFEMPGIFEBO.h"
+#include "unitysdk/System/Object.h"
+
+#define KJHMFHGKDPI_GLOCNOCAJDL_BABBGJKFFJD_OFFSET UNITYSDK_OFFSET(0xD3FD6E0)
+#define KJHMFHGKDPI_GLOCNOCAJDL_COMPARE_OFFSET UNITYSDK_OFFSET(0xD3FD5C0)
+#define KJHMFHGKDPI_GLOCNOCAJDL__CTOR_OFFSET UNITYSDK_OFFSET(0xD3FD700)
+
+inline static constexpr unsigned int KJHMFHGKDPI_GLOCNOCAJDL_TypeDefinitionIndex = 88579;
+
+class KJHMFHGKDPI_GLOCNOCAJDL : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KJHMFHGKDPI_GLOCNOCAJDL__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 Compare(::BFEMPGIFEBO EJCBEJMGFAJ, ::BFEMPGIFEBO EBFCACIEKBC)
+	{
+		return ((::System::Int32(*)(::PVOID, ::BFEMPGIFEBO, ::BFEMPGIFEBO))((::PBYTE)hIl2Cpp + KJHMFHGKDPI_GLOCNOCAJDL_COMPARE_OFFSET))(this, EJCBEJMGFAJ, EBFCACIEKBC);
+	}
+
+	static ::System::Int32 BABBGJKFFJD(::BFEMPGIFEBO EGEGIMGMJHN)
+	{
+		return ((::System::Int32(*)(::BFEMPGIFEBO))((::PBYTE)hIl2Cpp + KJHMFHGKDPI_GLOCNOCAJDL_BABBGJKFFJD_OFFSET))(EGEGIMGMJHN);
+	}
+};

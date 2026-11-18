@@ -3,18 +3,18 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int BakedPointShadowBakeFaceMask_TypeDefinitionIndex = 26802;
+	inline static constexpr unsigned int BakedPointShadowBakeFaceMask_TypeDefinitionIndex = 26973;
 
 	enum class BakedPointShadowBakeFaceMask : ::System::Int32
 	{
-		PositiveZ = 16,
-		NegativeX = 2,
-		PositiveY = 4,
+		NegativeY = 8,
 		None = 0,
 		All = 63,
-		PositiveX = 1,
-		NegativeY = 8,
-		HorizontalRing = 51,
+		PositiveY = 4,
+		NegativeX = 2,
 		NegativeZ = 32,
+		PositiveX = 1,
+		PositiveZ = 16,
+		HorizontalRing = 51,
 	};
 }

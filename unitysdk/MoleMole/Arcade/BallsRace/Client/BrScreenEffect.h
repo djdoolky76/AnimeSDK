@@ -7,11 +7,12 @@ namespace System { class String; }
 
 namespace MoleMole::Arcade::BallsRace::Client
 {
-	inline static constexpr unsigned int BrScreenEffect_TypeDefinitionIndex = 93283;
+	inline static constexpr unsigned int BrScreenEffect_TypeDefinitionIndex = 95003;
 
 	struct alignas(8) BrScreenEffect
 	{
 		::MoleMole::Config::ScreenEffectType Type; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* Key; // 0x18
 		::System::Boolean Loop; // 0x20
 	};

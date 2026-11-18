@@ -1,40 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlatBuffers/ByteBufferAllocator.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-#include "unitysdk/System/Span_1.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_CHECKBUFFERISVALID_OFFSET UNITYSDK_OFFSET(0x1F62A060)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_CLEANUPALLINSTANCES_OFFSET UNITYSDK_OFFSET(0x1F629E20)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F62A240)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_DODISPOSE_OFFSET UNITYSDK_OFFSET(0x1F62A010)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_GET_READONLYSPAN_OFFSET UNITYSDK_OFFSET(0x1F62A180)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_GET_SPAN_OFFSET UNITYSDK_OFFSET(0x1F62A0C0)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_GROWFRONT_OFFSET UNITYSDK_OFFSET(0x1F62A070)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR_INITBUFFER_OFFSET UNITYSDK_OFFSET(0x1F62A050)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F62A300)
-#define FLATBUFFERS_NATIVEARRAYALLOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F624670)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_CHECKBUFFERISVALID_OFFSET UNITYSDK_OFFSET(0x1F9E8DD0)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_CLEANUPALLINSTANCES_OFFSET UNITYSDK_OFFSET(0x1F9E8B90)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F9E8FB0)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_DODISPOSE_OFFSET UNITYSDK_OFFSET(0x1F9E8D80)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_GET_READONLYSPAN_OFFSET UNITYSDK_OFFSET(0x1F9E8EF0)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_GET_SPAN_OFFSET UNITYSDK_OFFSET(0x1F9E8E30)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_GROWFRONT_OFFSET UNITYSDK_OFFSET(0x1F9E8DE0)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR_INITBUFFER_OFFSET UNITYSDK_OFFSET(0x1F9E8DC0)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9E9070)
+#define FLATBUFFERS_NATIVEARRAYALLOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9E33F0)
 
 namespace FlatBuffers
 {
-	inline static constexpr unsigned int NativeArrayAllocator_TypeDefinitionIndex = 6725;
+	inline static constexpr unsigned int NativeArrayAllocator_TypeDefinitionIndex = 6732;
 
 	class NativeArrayAllocator : public ::FlatBuffers::ByteBufferAllocator
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::FlatBuffers::NativeArrayAllocator*>** StaticGet_s_AllInstances()
 		{
-			return (::System::Collections::Generic::List_1<::FlatBuffers::NativeArrayAllocator*>**)Il2CppClass::FromTypeDefinitionIndex(NativeArrayAllocator_TypeDefinitionIndex)->GetStaticField(0x5BA0);
+			return (::System::Collections::Generic::List_1<::FlatBuffers::NativeArrayAllocator*>**)Il2CppClass::FromTypeDefinitionIndex(NativeArrayAllocator_TypeDefinitionIndex)->GetStaticField(0x5AA0);
 		}
 		static ::System::Boolean* StaticGet_s_UnloadRegistered()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NativeArrayAllocator_TypeDefinitionIndex)->GetStaticField(0x31C0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NativeArrayAllocator_TypeDefinitionIndex)->GetStaticField(0x3140);
 		}
 		::Unity::Collections::NativeArray_1<::System::Byte> _NativeArray; // 0x18
-		::System::Void* _rawDataPtr; // 0x28
+		::System::Byte _padding0[0x8];
+		::PVOID _rawDataPtr; // 0x28
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* bytes)
 		{
@@ -61,14 +62,14 @@ namespace FlatBuffers
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FLATBUFFERS_NATIVEARRAYALLOCATOR_GROWFRONT_OFFSET))(this, newSize);
 		}
 
-		::System::Span_1<::System::Byte> get_Span()
+		::System::Span_1_9011FAD97750D224<::System::Byte> get_Span()
 		{
-			return ((::System::Span_1<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + FLATBUFFERS_NATIVEARRAYALLOCATOR_GET_SPAN_OFFSET))(this);
+			return ((::System::Span_1_9011FAD97750D224<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + FLATBUFFERS_NATIVEARRAYALLOCATOR_GET_SPAN_OFFSET))(this);
 		}
 
-		::System::ReadOnlySpan_1<::System::Byte> get_ReadOnlySpan()
+		::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Byte> get_ReadOnlySpan()
 		{
-			return ((::System::ReadOnlySpan_1<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + FLATBUFFERS_NATIVEARRAYALLOCATOR_GET_READONLYSPAN_OFFSET))(this);
+			return ((::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + FLATBUFFERS_NATIVEARRAYALLOCATOR_GET_READONLYSPAN_OFFSET))(this);
 		}
 
 		::System::Void InitBuffer()

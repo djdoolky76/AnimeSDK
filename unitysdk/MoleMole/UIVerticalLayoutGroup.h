@@ -6,31 +6,32 @@
 namespace MoleMole { class UIHorizontalLayoutGroup_UIAdaptorRectOffset; }
 namespace UnityEngine::UI { class VerticalLayoutGroup; }
 
-#define MOLEMOLE_UIVERTICALLAYOUTGROUP_GET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x11C220F0)
-#define MOLEMOLE_UIVERTICALLAYOUTGROUP_MARKVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x11C22110)
-#define MOLEMOLE_UIVERTICALLAYOUTGROUP_REINITFROMLAYOUTGROUP_OFFSET UNITYSDK_OFFSET(0x11C21FC0)
-#define MOLEMOLE_UIVERTICALLAYOUTGROUP_SET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x11C22100)
-#define MOLEMOLE_UIVERTICALLAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x11C21E80)
+#define MOLEMOLE_UIVERTICALLAYOUTGROUP_GET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x11381D20)
+#define MOLEMOLE_UIVERTICALLAYOUTGROUP_MARKVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x11381D40)
+#define MOLEMOLE_UIVERTICALLAYOUTGROUP_REINITFROMLAYOUTGROUP_OFFSET UNITYSDK_OFFSET(0x11381BF0)
+#define MOLEMOLE_UIVERTICALLAYOUTGROUP_SET_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x11381D30)
+#define MOLEMOLE_UIVERTICALLAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x11381AB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVerticalLayoutGroup_TypeDefinitionIndex = 80756;
+	inline static constexpr unsigned int UIVerticalLayoutGroup_TypeDefinitionIndex = 86304;
 
 	class UIVerticalLayoutGroup : public ::System::Object
 	{
 	public:
 		::MoleMole::UIHorizontalLayoutGroup_UIAdaptorRectOffset* padding; // 0x10
-		::UnityEngine::TextAnchor childAlignment; // 0x18
-		::System::Boolean ScaleWidth; // 0x1C
+		::System::Boolean SizeWidth; // 0x18
+		::System::Boolean ForceExpandHeight; // 0x19
+		::System::Boolean ScaleWidth; // 0x1A
+		::System::Boolean PosX; // 0x1B
+		::System::Boolean ScaleHeight; // 0x1C
 		::System::Boolean SizeHeight; // 0x1D
-		::System::Boolean ForceExpandHeight; // 0x1E
-		::System::Boolean ScaleHeight; // 0x1F
-		::System::Boolean SizeWidth; // 0x20
+		::System::Boolean ForceExpandWidth; // 0x1E
+		::System::Byte _padding0[0x1];
+		::UnityEngine::TextAnchor childAlignment; // 0x20
 		::System::Single spacing; // 0x24
-		::System::Boolean ForceExpandWidth; // 0x28
+		::System::Boolean _valueChanged_k__BackingField; // 0x28
 		::System::Boolean PosY; // 0x29
-		::System::Boolean PosX; // 0x2A
-		::System::Boolean _valueChanged_k__BackingField; // 0x2B
 
 		::System::Void _ctor(::UnityEngine::UI::VerticalLayoutGroup* verticalLayout)
 		{

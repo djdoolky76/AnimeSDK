@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1685EC66FBD28897;
-template <typename T> class Class_0_16E4307DCC41950C_17;
+class KOIDMLPJGML;
+template <typename T> class DHLIOFKOPIP_1;
 
-#define MOLEMOLE_UIDEPOSITORYGACHAPREVIEWPAGECONTROLLER___C__DISPLAYCLASS42_0__CREATEFILTERANDSORTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x19F934A0)
-#define MOLEMOLE_UIDEPOSITORYGACHAPREVIEWPAGECONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19F93490)
+#define MOLEMOLE_UIDEPOSITORYGACHAPREVIEWPAGECONTROLLER___C__DISPLAYCLASS42_0__CREATEFILTERANDSORTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x18925BC0)
+#define MOLEMOLE_UIDEPOSITORYGACHAPREVIEWPAGECONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18925BB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDepositoryGachaPreviewPageController___c__DisplayClass42_0_TypeDefinitionIndex = 86880;
+	inline static constexpr unsigned int UIDepositoryGachaPreviewPageController___c__DisplayClass42_0_TypeDefinitionIndex = 42063;
 
 	class UIDepositoryGachaPreviewPageController___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC41950C_17<::Class_1_1685EC66FBD28897*>* slotFilterGroup; // 0x10
+		::DHLIOFKOPIP_1<::KOIDMLPJGML*>* slotFilterGroup; // 0x10
 
 		::System::Void _ctor()
 		{

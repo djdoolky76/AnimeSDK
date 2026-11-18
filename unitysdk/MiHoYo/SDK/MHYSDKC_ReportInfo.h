@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_ReportInfo_TypeDefinitionIndex = 37262;
+	inline static constexpr unsigned int MHYSDKC_ReportInfo_TypeDefinitionIndex = 35248;
 
 	class MHYSDKC_ReportInfo : public ::System::Object
 	{

@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HNIKKIMMLAN.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+
+class IOOIHHOJOPI;
+
+#define PLBMGMLPPHK_EJGAIMLGDPO_OFFSET UNITYSDK_OFFSET(0x14BAF8D0)
+#define PLBMGMLPPHK_EJMLADDEHAE_OFFSET UNITYSDK_OFFSET(0x14BAF520)
+#define PLBMGMLPPHK__CTOR_OFFSET UNITYSDK_OFFSET(0x14BAF8C0)
+
+inline static constexpr unsigned int PLBMGMLPPHK_TypeDefinitionIndex = 83289;
+
+class PLBMGMLPPHK : public ::HNIKKIMMLAN
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLBMGMLPPHK__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EJMLADDEHAE(::LIBOIKJGAIH& EIEOJFEPMAB, ::IOOIHHOJOPI* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::IOOIHHOJOPI*))((::PBYTE)hIl2Cpp + PLBMGMLPPHK_EJMLADDEHAE_OFFSET))(this, EIEOJFEPMAB, IOKOLJDCKPN);
+	}
+
+	::System::Void EJGAIMLGDPO(::LIBOIKJGAIH& MIALFKCCCPI, ::IOOIHHOJOPI* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::IOOIHHOJOPI*))((::PBYTE)hIl2Cpp + PLBMGMLPPHK_EJGAIMLGDPO_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+};

@@ -1,12 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-#include "unitysdk/System/Threading/LazyThreadSafetyMode.h"
 
-namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
-namespace System { template <typename T> class Lazy_1_Boxed; }
 
 namespace System
 {

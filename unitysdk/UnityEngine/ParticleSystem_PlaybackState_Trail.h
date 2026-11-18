@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_PlaybackState_Trail_TypeDefinitionIndex = 7721;
+	inline static constexpr unsigned int ParticleSystem_PlaybackState_Trail_TypeDefinitionIndex = 7733;
 
 	struct alignas(4) ParticleSystem_PlaybackState_Trail
 	{

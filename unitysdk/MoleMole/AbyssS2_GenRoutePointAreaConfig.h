@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_GenRoutePointAreaConfig_TypeDefinitionIndex = 87608;
+	inline static constexpr unsigned int AbyssS2_GenRoutePointAreaConfig_TypeDefinitionIndex = 93060;
 
 	struct alignas(4) AbyssS2_GenRoutePointAreaConfig
 	{

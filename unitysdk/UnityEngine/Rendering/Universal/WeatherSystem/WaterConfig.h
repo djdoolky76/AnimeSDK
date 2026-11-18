@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace UnityEngine { class Cubemap; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WATERCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1DE187B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WATERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE18DA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WATERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE18CC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WATERCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1E17BF70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WATERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E17C560)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WATERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E17C480)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int WaterConfig_TypeDefinitionIndex = 27130;
+	inline static constexpr unsigned int WaterConfig_TypeDefinitionIndex = 26658;
 
-	class WaterConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::WaterConfig*>
+	class WaterConfig
 	{
 	public:
 		static ::UnityEngine::Rendering::Universal::WeatherSystem::WaterConfig** StaticGet_s_CachedConfig()
 		{
-			return (::UnityEngine::Rendering::Universal::WeatherSystem::WaterConfig**)Il2CppClass::FromTypeDefinitionIndex(WaterConfig_TypeDefinitionIndex)->GetStaticField(0x22F80);
+			return (::UnityEngine::Rendering::Universal::WeatherSystem::WaterConfig**)Il2CppClass::FromTypeDefinitionIndex(WaterConfig_TypeDefinitionIndex)->GetStaticField(0x23F60);
 		}
 		::UnityEngine::GameObject* OceanFFTBakeData; // 0x18
 		::UnityEngine::Vector2 WaveScale; // 0x20
@@ -45,6 +44,7 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::System::Single SpecularDetailNormalEnhance; // 0x94
 		::UnityEngine::Cubemap* ReflectionCube; // 0x98
 		::System::Single ReflectSmothness; // 0xA0
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Texture2D* FoamNoiseTexture; // 0xA8
 		::System::Single FoamNoiseSize; // 0xB0
 		::System::Single EdgeFoamRange; // 0xB4

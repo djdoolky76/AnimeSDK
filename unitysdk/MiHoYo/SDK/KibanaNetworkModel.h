@@ -4,17 +4,18 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_KIBANANETWORKMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD407B0)
+#define MIHOYO_SDK_KIBANANETWORKMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0595A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaNetworkModel_TypeDefinitionIndex = 19993;
+	inline static constexpr unsigned int KibanaNetworkModel_TypeDefinitionIndex = 19139;
 
 	class KibanaNetworkModel : public ::MiHoYo::SDK::KibanaBaseModel
 	{
 	public:
 		::System::String* network_url; // 0xD8
 		::System::Int32 network_status_code; // 0xE0
+		::System::Byte _padding0[0x4];
 		::System::String* network_data; // 0xE8
 		::System::String* net_request_body; // 0xF0
 		::System::String* network_response_region; // 0xF8

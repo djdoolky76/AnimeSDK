@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Map3DLiftRenderer_ELiftType_TypeDefinitionIndex = 48889;
+inline static constexpr unsigned int Map3DLiftRenderer_ELiftType_TypeDefinitionIndex = 83981;
 
 enum class Map3DLiftRenderer_ELiftType : ::System::Int32
 {
-	NotConnectedInvalid = 2,
-	NotConnected = 1,
 	Connected = 0,
+	NotConnected = 1,
+	NotConnectedInvalid = 2,
 };

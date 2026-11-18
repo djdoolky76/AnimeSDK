@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Guid.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 namespace CriWare { class CriAtomListener; }
 namespace CriWare { class CriAtomSourceBase; }
@@ -13,18 +13,18 @@ namespace System { class String; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_GET_ISEDITOR_OFFSET UNITYSDK_OFFSET(0x1FA40710)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_GET_M_GUID_OFFSET UNITYSDK_OFFSET(0x1FA406B0)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x1FA40720)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x1FA406D0)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1FA40700)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1FA40880)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_SET_M_GUID_OFFSET UNITYSDK_OFFSET(0x1FA406C0)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA416B0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_GET_ISEDITOR_OFFSET UNITYSDK_OFFSET(0x1FE4C600)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_GET_M_GUID_OFFSET UNITYSDK_OFFSET(0x1FE4C5A0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x1FE4C610)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x1FE4C5C0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1FE4C5F0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1FE4C770)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR_SET_M_GUID_OFFSET UNITYSDK_OFFSET(0x1FE4C5B0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMMIXERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE4D5A0)
 
 namespace CriWare::CriTimeline::Atom
 {
-	inline static constexpr unsigned int CriAtomMixerBehaviour_TypeDefinitionIndex = 35042;
+	inline static constexpr unsigned int CriAtomMixerBehaviour_TypeDefinitionIndex = 34591;
 
 	class CriAtomMixerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -38,6 +38,7 @@ namespace CriWare::CriTimeline::Atom
 		::System::Boolean m_ApplyPlayableSpeed; // 0x32
 		::System::Boolean m_CheckPosWithinClip; // 0x33
 		::System::Guid _m_Guid_k__BackingField; // 0x34
+		::System::Byte _padding0[0x4];
 		::System::DateTime m_lastScrubTime; // 0x48
 		::System::Double m_lastDirectorTime; // 0x50
 		::CriWare::CriAtomListener* previewSelectedListenerObj; // 0x58

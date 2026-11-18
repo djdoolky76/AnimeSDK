@@ -13,30 +13,34 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define MB3_ATLASPACKERRENDERTEXTURE_ONRENDERATLAS_OFFSET UNITYSDK_OFFSET(0x1F639F90)
-#define MB3_ATLASPACKERRENDERTEXTURE_ONRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1F63A090)
-#define MB3_ATLASPACKERRENDERTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F63A0C0)
+#define MB3_ATLASPACKERRENDERTEXTURE_ONRENDERATLAS_OFFSET UNITYSDK_OFFSET(0x1F9F09E0)
+#define MB3_ATLASPACKERRENDERTEXTURE_ONRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1F9F0AE0)
+#define MB3_ATLASPACKERRENDERTEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9F0B10)
 
-inline static constexpr unsigned int MB3_AtlasPackerRenderTexture_TypeDefinitionIndex = 94492;
+inline static constexpr unsigned int MB3_AtlasPackerRenderTexture_TypeDefinitionIndex = 96179;
 
 class MB3_AtlasPackerRenderTexture : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::MB_TextureCombinerRenderTexture* fastRenderer; // 0x18
 	::System::Boolean _doRenderAtlas; // 0x20
+	::System::Byte _padding0[0x3];
 	::System::Int32 width; // 0x24
 	::System::Int32 height; // 0x28
 	::System::Int32 padding; // 0x2C
 	::System::Boolean isNormalMap; // 0x30
 	::System::Boolean fixOutOfBoundsUVs; // 0x31
 	::System::Boolean considerNonTextureProperties; // 0x32
+	::System::Byte _padding1[0x5];
 	::DigitalOpus::MB::Core::MB3_TextureCombinerNonTextureProperties* resultMaterialTextureBlender; // 0x38
 	::Il2CppArray<::UnityEngine::Rect>* rects; // 0x40
 	::UnityEngine::Texture2D* tex1; // 0x48
 	::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB_TexSet*>* textureSets; // 0x50
 	::System::Int32 indexOfTexSetToRender; // 0x58
+	::System::Byte _padding2[0x4];
 	::DigitalOpus::MB::Core::ShaderTextureProperty* texPropertyName; // 0x60
 	::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL; // 0x68
+	::System::Byte _padding3[0x4];
 	::UnityEngine::Texture2D* testTex; // 0x70
 	::UnityEngine::Material* testMat; // 0x78
 

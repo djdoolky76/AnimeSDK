@@ -7,11 +7,11 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine::Experimental::Rendering { class RayTracingShader; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF5630)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERERDATA_SHADERRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2862F0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ForwardRendererData_ShaderResources_TypeDefinitionIndex = 27772;
+	inline static constexpr unsigned int ForwardRendererData_ShaderResources_TypeDefinitionIndex = 27352;
 
 	class ForwardRendererData_ShaderResources : public ::System::Object
 	{
@@ -102,11 +102,11 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::ComputeShader* RTXAOCS; // 0x2A8
 		::UnityEngine::Shader* rtxAODebugBlitPS; // 0x2B0
 		::UnityEngine::Shader* reactiveMaskDitherPS; // 0x2B8
-		::UnityEngine::ComputeShader* volumetricCloudV2CS; // 0x2C0
-		::UnityEngine::Material* volumetricCloudProcessMaterial; // 0x2C8
-		::UnityEngine::ComputeShader* findBrightSpotsCS; // 0x2D0
-		::UnityEngine::Material* brightSpotsFlareMaterial; // 0x2D8
-		::UnityEngine::Material* clearStencil421Material; // 0x2E0
+		::UnityEngine::Material* volumetricCloudProcessMaterial; // 0x2C0
+		::UnityEngine::ComputeShader* findBrightSpotsCS; // 0x2C8
+		::UnityEngine::Material* brightSpotsFlareMaterial; // 0x2D0
+		::UnityEngine::Material* clearStencil421Material; // 0x2D8
+		::UnityEngine::Shader* avlVolumetricLightPS; // 0x2E0
 
 		::System::Void _ctor()
 		{

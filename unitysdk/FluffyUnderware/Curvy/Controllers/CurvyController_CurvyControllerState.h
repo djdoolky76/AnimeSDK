@@ -3,12 +3,12 @@
 
 namespace FluffyUnderware::Curvy::Controllers
 {
-	inline static constexpr unsigned int CurvyController_CurvyControllerState_TypeDefinitionIndex = 39562;
+	inline static constexpr unsigned int CurvyController_CurvyControllerState_TypeDefinitionIndex = 37461;
 
 	enum class CurvyController_CurvyControllerState : ::System::Int32
 	{
-		Playing = 1,
 		Stopped = 0,
 		Paused = 2,
+		Playing = 1,
 	};
 }

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETANIMATORBOOL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1684A8E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETANIMATORBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1684AA10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETANIMATORBOOL__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1684AA50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETANIMATORBOOL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10D156B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETANIMATORBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x10D157E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETANIMATORBOOL__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x10D15820)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetAnimatorBool_TypeDefinitionIndex = 56045;
+	inline static constexpr unsigned int LDSetAnimatorBool_TypeDefinitionIndex = 85933;
 
 	class LDSetAnimatorBool : public ::FlowCanvas::Nodes::FlowControlNode
 	{

@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_1100;
+class LJCFFEHCCLF;
 namespace MoleMole { class UIMusicPlayerPageController; }
 
-#define MOLEMOLE_UIMUSICPLAYERPAGECONTROLLER___C__DISPLAYCLASS58_0__CTOR_OFFSET UNITYSDK_OFFSET(0x168E3C80)
-#define MOLEMOLE_UIMUSICPLAYERPAGECONTROLLER___C__DISPLAYCLASS58_0__PLAYSONG_B__0_OFFSET UNITYSDK_OFFSET(0x168E3C90)
-#define MOLEMOLE_UIMUSICPLAYERPAGECONTROLLER___C__DISPLAYCLASS58_0__PLAYSONG_B__1_OFFSET UNITYSDK_OFFSET(0x168E3CC0)
-#define MOLEMOLE_UIMUSICPLAYERPAGECONTROLLER___C__DISPLAYCLASS58_0__PLAYSONG_B__2_OFFSET UNITYSDK_OFFSET(0x168E3D00)
+#define MOLEMOLE_UIMUSICPLAYERPAGECONTROLLER___C__DISPLAYCLASS58_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17C8A670)
+#define MOLEMOLE_UIMUSICPLAYERPAGECONTROLLER___C__DISPLAYCLASS58_0__PLAYSONG_B__0_OFFSET UNITYSDK_OFFSET(0x17C8A680)
+#define MOLEMOLE_UIMUSICPLAYERPAGECONTROLLER___C__DISPLAYCLASS58_0__PLAYSONG_B__1_OFFSET UNITYSDK_OFFSET(0x17C8A6B0)
+#define MOLEMOLE_UIMUSICPLAYERPAGECONTROLLER___C__DISPLAYCLASS58_0__PLAYSONG_B__2_OFFSET UNITYSDK_OFFSET(0x17C8A6F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMusicPlayerPageController___c__DisplayClass58_0_TypeDefinitionIndex = 45102;
+	inline static constexpr unsigned int UIMusicPlayerPageController___c__DisplayClass58_0_TypeDefinitionIndex = 53059;
 
 	class UIMusicPlayerPageController___c__DisplayClass58_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_1100* template_; // 0x10
-		::MoleMole::UIMusicPlayerPageController* __4__this; // 0x18
-		::System::Int32 songId; // 0x20
-		::System::Int32 lastIndex; // 0x24
+		::MoleMole::UIMusicPlayerPageController* __4__this; // 0x10
+		::LJCFFEHCCLF* template_; // 0x18
+		::System::Int32 lastIndex; // 0x20
+		::System::Int32 songId; // 0x24
 
 		::System::Void _ctor()
 		{

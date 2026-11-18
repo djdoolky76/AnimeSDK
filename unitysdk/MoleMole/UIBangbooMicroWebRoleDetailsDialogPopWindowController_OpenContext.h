@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIBANGBOOMICROWEBROLEDETAILSDIALOGPOPWINDOWCONTROLLER_OPENCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E411B0)
+#define MOLEMOLE_UIBANGBOOMICROWEBROLEDETAILSDIALOGPOPWINDOWCONTROLLER_OPENCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A151CA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooMicroWebRoleDetailsDialogPopWindowController_OpenContext_TypeDefinitionIndex = 58649;
+	inline static constexpr unsigned int UIBangbooMicroWebRoleDetailsDialogPopWindowController_OpenContext_TypeDefinitionIndex = 61532;
 
 	class UIBangbooMicroWebRoleDetailsDialogPopWindowController_OpenContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::UInt32 SelectCharacterGroupId; // 0x28
-		::System::Boolean ShowRoleTabBar; // 0x2C
+		::System::Boolean ShowRoleTabBar; // 0x28
+		::System::Byte _padding0[0x3];
+		::System::UInt32 SelectCharacterGroupId; // 0x2C
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_ATTACHPOINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x134C66F0)
-#define MOLEMOLE_ATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x134C66D0)
+#define MOLEMOLE_ATTACHPOINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x11A35860)
+#define MOLEMOLE_ATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x11A35840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AttachPoint_TypeDefinitionIndex = 50276;
+	inline static constexpr unsigned int AttachPoint_TypeDefinitionIndex = 67974;
 
 	class AttachPoint : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ATTACHPOINT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* a1, ::UnityEngine::Transform* a2)
+		::System::Void _ctor_1(::System::String* HIAIKHDFCLN, ::UnityEngine::Transform* LNEEMAGIHLB)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_ATTACHPOINT__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_ATTACHPOINT__CTOR_1_OFFSET))(this, HIAIKHDFCLN, LNEEMAGIHLB);
 		}
 	};
 }

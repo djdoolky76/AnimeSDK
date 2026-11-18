@@ -10,27 +10,27 @@ namespace System::Collections { class Stack; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define FOUNDATION_SPAWNERPOOL_CLEARPOOL_OFFSET UNITYSDK_OFFSET(0x1F785CA0)
-#define FOUNDATION_SPAWNERPOOL_DESPAWNALL_OFFSET UNITYSDK_OFFSET(0x1F785BE0)
-#define FOUNDATION_SPAWNERPOOL_DESPAWNLIST_OFFSET UNITYSDK_OFFSET(0x1F785A60)
-#define FOUNDATION_SPAWNERPOOL_DESPAWN_OFFSET UNITYSDK_OFFSET(0x1F7858A0)
-#define FOUNDATION_SPAWNERPOOL_GETACTIVESPAWNS_OFFSET UNITYSDK_OFFSET(0x1F785D30)
-#define FOUNDATION_SPAWNERPOOL_PRESPAWN_OFFSET UNITYSDK_OFFSET(0x1F785650)
-#define FOUNDATION_SPAWNERPOOL_SPAWN_1_OFFSET UNITYSDK_OFFSET(0x1F785320)
-#define FOUNDATION_SPAWNERPOOL_SPAWN_OFFSET UNITYSDK_OFFSET(0x1F785280)
-#define FOUNDATION_SPAWNERPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F785190)
+#define FOUNDATION_SPAWNERPOOL_CLEARPOOL_OFFSET UNITYSDK_OFFSET(0x1F9CBFA0)
+#define FOUNDATION_SPAWNERPOOL_DESPAWNALL_OFFSET UNITYSDK_OFFSET(0x1F9CBEE0)
+#define FOUNDATION_SPAWNERPOOL_DESPAWNLIST_OFFSET UNITYSDK_OFFSET(0x1F9CBD60)
+#define FOUNDATION_SPAWNERPOOL_DESPAWN_OFFSET UNITYSDK_OFFSET(0x1F9CBBA0)
+#define FOUNDATION_SPAWNERPOOL_GETACTIVESPAWNS_OFFSET UNITYSDK_OFFSET(0x1F9CC030)
+#define FOUNDATION_SPAWNERPOOL_PRESPAWN_OFFSET UNITYSDK_OFFSET(0x1F9CB950)
+#define FOUNDATION_SPAWNERPOOL_SPAWN_1_OFFSET UNITYSDK_OFFSET(0x1F9CB620)
+#define FOUNDATION_SPAWNERPOOL_SPAWN_OFFSET UNITYSDK_OFFSET(0x1F9CB580)
+#define FOUNDATION_SPAWNERPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9CB490)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SpawnerPool_TypeDefinitionIndex = 8400;
+	inline static constexpr unsigned int SpawnerPool_TypeDefinitionIndex = 8667;
 
 	class SpawnerPool : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* SpawnedObjects; // 0x10
-		::System::String* PoolName; // 0x18
-		::UnityEngine::GameObject* SpawnObj; // 0x20
-		::System::Collections::Stack* AvailableObjects; // 0x28
+		::UnityEngine::GameObject* SpawnObj; // 0x10
+		::System::Collections::Stack* AvailableObjects; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* SpawnedObjects; // 0x20
+		::System::String* PoolName; // 0x28
 
 		::System::Void _ctor(::System::String* poolName, ::UnityEngine::GameObject* objToSpawn)
 		{

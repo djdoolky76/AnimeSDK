@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/MoleMole/ConfigNewbie_HighLightExtra.h"
 #include "unitysdk/MoleMole/ConfigNewbie_TargetPath_ExtraType.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
 
 namespace SimpleJSON { class JSONClass; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x19AD8910)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x19AD8920)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x19AD89F0)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD8AD0)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0xFFF5920)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0xFFF5930)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0xFFF5A00)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTPREFABDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xFFF5AE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_HighLightPrefabData_TypeDefinitionIndex = 78123;
+	inline static constexpr unsigned int ConfigNewbie_HighLightPrefabData_TypeDefinitionIndex = 55932;
 
 	class ConfigNewbie_HighLightPrefabData : public ::MoleMole::ConfigNewbie_HighLightExtra
 	{

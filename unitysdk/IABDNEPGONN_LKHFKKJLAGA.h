@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ACKGHDALHDK_GBPMKLCIEJL.h"
+#include "unitysdk/System/Object.h"
+
+class ACKGHDALHDK_GEKOIHCHPMB;
+class IABDNEPGONN;
+
+#define IABDNEPGONN_LKHFKKJLAGA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x160890F0)
+#define IABDNEPGONN_LKHFKKJLAGA__CTOR_OFFSET UNITYSDK_OFFSET(0x16089080)
+
+inline static constexpr unsigned int IABDNEPGONN_LKHFKKJLAGA_TypeDefinitionIndex = 42902;
+
+class IABDNEPGONN_LKHFKKJLAGA : public ::System::Object
+{
+public:
+	::IABDNEPGONN* IODOGEMDDII; // 0x10
+	::ACKGHDALHDK_GBPMKLCIEJL PHHDHIBOCKA; // 0x18
+	::System::Boolean IFHPNDPONAL; // 0x1C
+
+	::System::Void _ctor(::ACKGHDALHDK_GEKOIHCHPMB* CKJMLFDDIMP, ::IABDNEPGONN* IODOGEMDDII)
+	{
+		return ((::System::Void(*)(::PVOID, ::ACKGHDALHDK_GEKOIHCHPMB*, ::IABDNEPGONN*))((::PBYTE)hIl2Cpp + IABDNEPGONN_LKHFKKJLAGA__CTOR_OFFSET))(this, CKJMLFDDIMP, IODOGEMDDII);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IABDNEPGONN_LKHFKKJLAGA_DISPOSE_OFFSET))(this);
+	}
+};

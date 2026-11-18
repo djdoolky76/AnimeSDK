@@ -2,22 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_3_0ECDE22EF9FEEAE2;
+class KIPELNFMIAP;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMAINCITYREVIVALREWARDDETAILSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19CA0440)
+#define MOLEMOLE_UIMAINCITYREVIVALREWARDDETAILSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19619670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityRevivalRewardDetailsContext_TypeDefinitionIndex = 81128;
+	inline static constexpr unsigned int UIMainCityRevivalRewardDetailsContext_TypeDefinitionIndex = 62016;
 
 	class UIMainCityRevivalRewardDetailsContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_3_0ECDE22EF9FEEAE2*>* progressList; // 0x28
-		::System::Boolean CurrentProgressRewarded; // 0x30
-		::System::Int32 CurrentProgressLevel; // 0x34
-		::System::Int32 LandID; // 0x38
+		::System::Collections::Generic::List_1<::KIPELNFMIAP*>* progressList; // 0x28
+		::System::Int32 LandID; // 0x30
+		::System::Boolean CurrentProgressRewarded; // 0x34
+		::System::Byte _padding0[0x3];
+		::System::Int32 CurrentProgressLevel; // 0x38
 
 		::System::Void _ctor(::System::Int32 landID, ::System::Int32 currentProgressLevel, ::System::Boolean currentProgressRewarded)
 		{

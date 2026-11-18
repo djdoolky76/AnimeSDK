@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ConditionTask_1.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
-namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_CONDITIONS_ISWITHINLAYERMASK_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EA9FC50)
-#define NODECANVAS_TASKS_CONDITIONS_ISWITHINLAYERMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9FCE0)
+#define NODECANVAS_TASKS_CONDITIONS_ISWITHINLAYERMASK_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EDD0CC0)
+#define NODECANVAS_TASKS_CONDITIONS_ISWITHINLAYERMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD0D50)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int IsWithinLayerMask_TypeDefinitionIndex = 31395;
+	inline static constexpr unsigned int IsWithinLayerMask_TypeDefinitionIndex = 29694;
 
-	class IsWithinLayerMask : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Transform*>
+	class IsWithinLayerMask
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::LayerMask>* targetLayers; // 0x60

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_COMIC_AUDIOCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F81A110)
+#define MOLEMOLE_COMIC_AUDIOCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC2FAD0)
 
 namespace MoleMole::Comic
 {
-	inline static constexpr unsigned int AudioContent_TypeDefinitionIndex = 32772;
+	inline static constexpr unsigned int AudioContent_TypeDefinitionIndex = 32223;
 
 	class AudioContent : public ::System::Object
 	{

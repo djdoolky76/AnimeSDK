@@ -4,53 +4,58 @@
 #include "unitysdk/NPCCrowd/Animation/FootLockStatus.h"
 #include "unitysdk/NPCCrowd/Animation/PhaseSectionFlag.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/NPCCrowd/Animation/PhaseMatchingResult.h"
+#include "unitysdk/NPCCrowd/Animation/PhaseMatchingTarget.h"
+#include "unitysdk/NPCCrowd/Animation/PhaseSection_LossFunctionResult.h"
+#include "unitysdk/System/Numerics/Complex.h"
+#include "unitysdk/System/ValueTuple_5.h"
 
-#define NPCCROWD_ANIMATION_PHASESECTION_CALCULATELOSSFUNCTIONVALUE_OFFSET UNITYSDK_OFFSET(0x72D270)
-#define NPCCROWD_ANIMATION_PHASESECTION_CALCULATELOSSFUNCTION_OFFSET UNITYSDK_OFFSET(0x72D070)
-#define NPCCROWD_ANIMATION_PHASESECTION_COULDMATCHPHASE_OFFSET UNITYSDK_OFFSET(0x112A0F30)
-#define NPCCROWD_ANIMATION_PHASESECTION_DERIVATIVE_OFFSET UNITYSDK_OFFSET(0x72CEF0)
-#define NPCCROWD_ANIMATION_PHASESECTION_ENSURETIME01_OFFSET UNITYSDK_OFFSET(0x112A0840)
-#define NPCCROWD_ANIMATION_PHASESECTION_EVALUATEPHASE_OFFSET UNITYSDK_OFFSET(0x72CF80)
-#define NPCCROWD_ANIMATION_PHASESECTION_EVALUATETIME_OFFSET UNITYSDK_OFFSET(0x72CFD0)
-#define NPCCROWD_ANIMATION_PHASESECTION_EVALUATE_OFFSET UNITYSDK_OFFSET(0x72CDB0)
-#define NPCCROWD_ANIMATION_PHASESECTION_GENERATELOSSFUNCTIONDERIVATIVEZEROEQUATION_OFFSET UNITYSDK_OFFSET(0x72D140)
-#define NPCCROWD_ANIMATION_PHASESECTION_GETZEROEQUATIONINPUTRANGE_OFFSET UNITYSDK_OFFSET(0x72D120)
-#define NPCCROWD_ANIMATION_PHASESECTION_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x72CCB0)
-#define NPCCROWD_ANIMATION_PHASESECTION_GET_FOOTSTATUS_OFFSET UNITYSDK_OFFSET(0x72CCF0)
-#define NPCCROWD_ANIMATION_PHASESECTION_GET_ISZEROSECTION_OFFSET UNITYSDK_OFFSET(0x72CFF0)
-#define NPCCROWD_ANIMATION_PHASESECTION_ISSINGLEFOOT_OFFSET UNITYSDK_OFFSET(0x112A0F20)
-#define NPCCROWD_ANIMATION_PHASESECTION_MATCHZEROSECTION_OFFSET UNITYSDK_OFFSET(0x72D010)
-#define NPCCROWD_ANIMATION_PHASESECTION_MATCH_OFFSET UNITYSDK_OFFSET(0x72D040)
-#define NPCCROWD_ANIMATION_PHASESECTION_SELECT_OFFSET UNITYSDK_OFFSET(0x72CFE0)
-#define NPCCROWD_ANIMATION_PHASESECTION_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x72CCC0)
-#define NPCCROWD_ANIMATION_PHASESECTION_SET_FOOTSTATUS_OFFSET UNITYSDK_OFFSET(0x72CD00)
-#define NPCCROWD_ANIMATION_PHASESECTION_SLICE_OFFSET UNITYSDK_OFFSET(0x72CD90)
-#define NPCCROWD_ANIMATION_PHASESECTION_UPDATEBYLOSSFUNCTIONEXTREME_OFFSET UNITYSDK_OFFSET(0x72D0C0)
-#define NPCCROWD_ANIMATION_PHASESECTION_UPDATELOSSFUNCTIONRESULT_OFFSET UNITYSDK_OFFSET(0x72D1D0)
-#define NPCCROWD_ANIMATION_PHASESECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x112A2C60)
-#define NPCCROWD_ANIMATION_PHASESECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x72CD60)
+#define NPCCROWD_ANIMATION_PHASESECTION_CALCULATELOSSFUNCTIONVALUE_OFFSET UNITYSDK_OFFSET(0x6CCEC0)
+#define NPCCROWD_ANIMATION_PHASESECTION_CALCULATELOSSFUNCTION_OFFSET UNITYSDK_OFFSET(0x6CCCD0)
+#define NPCCROWD_ANIMATION_PHASESECTION_COULDMATCHPHASE_OFFSET UNITYSDK_OFFSET(0x11FC07A0)
+#define NPCCROWD_ANIMATION_PHASESECTION_DERIVATIVE_OFFSET UNITYSDK_OFFSET(0x6CCB50)
+#define NPCCROWD_ANIMATION_PHASESECTION_ENSURETIME01_OFFSET UNITYSDK_OFFSET(0x11FC00B0)
+#define NPCCROWD_ANIMATION_PHASESECTION_EVALUATEPHASE_OFFSET UNITYSDK_OFFSET(0x6CCBE0)
+#define NPCCROWD_ANIMATION_PHASESECTION_EVALUATETIME_OFFSET UNITYSDK_OFFSET(0x6CCC30)
+#define NPCCROWD_ANIMATION_PHASESECTION_EVALUATE_OFFSET UNITYSDK_OFFSET(0x6CCA10)
+#define NPCCROWD_ANIMATION_PHASESECTION_GENERATELOSSFUNCTIONDERIVATIVEZEROEQUATION_OFFSET UNITYSDK_OFFSET(0x6CCDA0)
+#define NPCCROWD_ANIMATION_PHASESECTION_GETZEROEQUATIONINPUTRANGE_OFFSET UNITYSDK_OFFSET(0x6CCD80)
+#define NPCCROWD_ANIMATION_PHASESECTION_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x6CC910)
+#define NPCCROWD_ANIMATION_PHASESECTION_GET_FOOTSTATUS_OFFSET UNITYSDK_OFFSET(0x6CC950)
+#define NPCCROWD_ANIMATION_PHASESECTION_GET_ISZEROSECTION_OFFSET UNITYSDK_OFFSET(0x6CCC50)
+#define NPCCROWD_ANIMATION_PHASESECTION_ISSINGLEFOOT_OFFSET UNITYSDK_OFFSET(0x11FC0790)
+#define NPCCROWD_ANIMATION_PHASESECTION_MATCHZEROSECTION_OFFSET UNITYSDK_OFFSET(0x6CCC70)
+#define NPCCROWD_ANIMATION_PHASESECTION_MATCH_OFFSET UNITYSDK_OFFSET(0x6CCCA0)
+#define NPCCROWD_ANIMATION_PHASESECTION_SELECT_OFFSET UNITYSDK_OFFSET(0x6CCC40)
+#define NPCCROWD_ANIMATION_PHASESECTION_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x6CC920)
+#define NPCCROWD_ANIMATION_PHASESECTION_SET_FOOTSTATUS_OFFSET UNITYSDK_OFFSET(0x6CC960)
+#define NPCCROWD_ANIMATION_PHASESECTION_SLICE_OFFSET UNITYSDK_OFFSET(0x6CC9F0)
+#define NPCCROWD_ANIMATION_PHASESECTION_UPDATEBYLOSSFUNCTIONEXTREME_OFFSET UNITYSDK_OFFSET(0x6CCD20)
+#define NPCCROWD_ANIMATION_PHASESECTION_UPDATELOSSFUNCTIONRESULT_OFFSET UNITYSDK_OFFSET(0x6CCE20)
+#define NPCCROWD_ANIMATION_PHASESECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x11FC2490)
+#define NPCCROWD_ANIMATION_PHASESECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x6CC9C0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int PhaseSection_TypeDefinitionIndex = 61196;
+	inline static constexpr unsigned int PhaseSection_TypeDefinitionIndex = 89753;
 
 	struct alignas(4) PhaseSection
 	{
 		static ::Foundation::Unreal::Interval_1<::System::Single>* StaticGet_AccelerateIncreasing()
 		{
-			return (::Foundation::Unreal::Interval_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(PhaseSection_TypeDefinitionIndex)->GetStaticField(0x126E0);
-		}
-		static ::Foundation::Unreal::Interval_1<::System::Single>* StaticGet_AccelerateDecreasing()
-		{
-			return (::Foundation::Unreal::Interval_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(PhaseSection_TypeDefinitionIndex)->GetStaticField(0x126F0);
+			return (::Foundation::Unreal::Interval_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(PhaseSection_TypeDefinitionIndex)->GetStaticField(0x13610);
 		}
 		static ::Foundation::Unreal::Interval_1<::System::Single>* StaticGet_DecelerateIncreasing()
 		{
-			return (::Foundation::Unreal::Interval_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(PhaseSection_TypeDefinitionIndex)->GetStaticField(0x12700);
+			return (::Foundation::Unreal::Interval_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(PhaseSection_TypeDefinitionIndex)->GetStaticField(0x13620);
+		}
+		static ::Foundation::Unreal::Interval_1<::System::Single>* StaticGet_AccelerateDecreasing()
+		{
+			return (::Foundation::Unreal::Interval_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(PhaseSection_TypeDefinitionIndex)->GetStaticField(0x13630);
 		}
 		static ::Foundation::Unreal::Interval_1<::System::Single>* StaticGet_DecelerateDecreasing()
 		{
-			return (::Foundation::Unreal::Interval_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(PhaseSection_TypeDefinitionIndex)->GetStaticField(0x12710);
+			return (::Foundation::Unreal::Interval_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(PhaseSection_TypeDefinitionIndex)->GetStaticField(0x13640);
 		}
 		// static const ::System::Single Epsilon; // 0x0
 		// static const ::System::Single BigNumber; // 0x0
@@ -97,10 +102,12 @@ namespace NPCCrowd::Animation
 			return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASESECTION_ENSURETIME01_OFFSET))(time);
 		}
 
+		/*
 		::NPCCrowd::Animation::PhaseSection Slice(::System::Single startTime, ::System::Single endTime)
 		{
 			return ((::NPCCrowd::Animation::PhaseSection(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASESECTION_SLICE_OFFSET))(this, startTime, endTime);
 		}
+		*/
 
 		::System::Single Evaluate(::System::Single time)
 		{
@@ -132,12 +139,10 @@ namespace NPCCrowd::Animation
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASESECTION_GET_ISZEROSECTION_OFFSET))(this);
 		}
 
-		/*
 		::NPCCrowd::Animation::PhaseMatchingResult MatchZeroSection(::NPCCrowd::Animation::PhaseMatchingTarget target)
 		{
 			return ((::NPCCrowd::Animation::PhaseMatchingResult(*)(::PVOID, ::NPCCrowd::Animation::PhaseMatchingTarget))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASESECTION_MATCHZEROSECTION_OFFSET))(this, target);
 		}
-		*/
 
 		static ::System::Boolean IsSingleFoot(::NPCCrowd::Animation::FootLockStatus self)
 		{
@@ -149,51 +154,39 @@ namespace NPCCrowd::Animation
 			return ((::System::Boolean(*)(::NPCCrowd::Animation::FootLockStatus, ::NPCCrowd::Animation::FootLockStatus))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASESECTION_COULDMATCHPHASE_OFFSET))(currentLock, sectionLock);
 		}
 
-		/*
 		::NPCCrowd::Animation::PhaseMatchingResult Match(::NPCCrowd::Animation::PhaseMatchingTarget target)
 		{
 			return ((::NPCCrowd::Animation::PhaseMatchingResult(*)(::PVOID, ::NPCCrowd::Animation::PhaseMatchingTarget))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASESECTION_MATCH_OFFSET))(this, target);
 		}
-		*/
 
-		/*
 		::NPCCrowd::Animation::PhaseSection_LossFunctionResult CalculateLossFunction(::System::Single time, ::NPCCrowd::Animation::PhaseMatchingTarget target, ::System::Single areaWeight, ::System::Single areaDerivativeWeight)
 		{
 			return ((::NPCCrowd::Animation::PhaseSection_LossFunctionResult(*)(::PVOID, ::System::Single, ::NPCCrowd::Animation::PhaseMatchingTarget, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASESECTION_CALCULATELOSSFUNCTION_OFFSET))(this, time, target, areaWeight, areaDerivativeWeight);
 		}
-		*/
 
-		/*
 		::NPCCrowd::Animation::PhaseSection_LossFunctionResult UpdateByLossFunctionExtreme(::NPCCrowd::Animation::PhaseMatchingTarget target, ::System::Single areaWeight, ::System::Single areaDerivativeWeight, ::NPCCrowd::Animation::PhaseSection_LossFunctionResult result)
 		{
 			return ((::NPCCrowd::Animation::PhaseSection_LossFunctionResult(*)(::PVOID, ::NPCCrowd::Animation::PhaseMatchingTarget, ::System::Single, ::System::Single, ::NPCCrowd::Animation::PhaseSection_LossFunctionResult))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASESECTION_UPDATEBYLOSSFUNCTIONEXTREME_OFFSET))(this, target, areaWeight, areaDerivativeWeight, result);
 		}
-		*/
 
 		::Foundation::Unreal::Interval_1<::System::Single> GetZeroEquationInputRange()
 		{
 			return ((::Foundation::Unreal::Interval_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASESECTION_GETZEROEQUATIONINPUTRANGE_OFFSET))(this);
 		}
 
-		/*
 		::System::ValueTuple_5<::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single> GenerateLossFunctionDerivativeZeroEquation(::NPCCrowd::Animation::PhaseMatchingTarget target, ::System::Single areaWeight, ::System::Single areaDerivativeWeight)
 		{
 			return ((::System::ValueTuple_5<::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single>(*)(::PVOID, ::NPCCrowd::Animation::PhaseMatchingTarget, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASESECTION_GENERATELOSSFUNCTIONDERIVATIVEZEROEQUATION_OFFSET))(this, target, areaWeight, areaDerivativeWeight);
 		}
-		*/
 
-		/*
 		::NPCCrowd::Animation::PhaseSection_LossFunctionResult UpdateLossFunctionResult(::Foundation::Unreal::Interval_1<::System::Single> range, ::System::Numerics::Complex root, ::NPCCrowd::Animation::PhaseSection_LossFunctionResult result, ::NPCCrowd::Animation::PhaseMatchingTarget target, ::System::Single areaWeight, ::System::Single areaDerivativeWeight)
 		{
 			return ((::NPCCrowd::Animation::PhaseSection_LossFunctionResult(*)(::PVOID, ::Foundation::Unreal::Interval_1<::System::Single>, ::System::Numerics::Complex, ::NPCCrowd::Animation::PhaseSection_LossFunctionResult, ::NPCCrowd::Animation::PhaseMatchingTarget, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASESECTION_UPDATELOSSFUNCTIONRESULT_OFFSET))(this, range, root, result, target, areaWeight, areaDerivativeWeight);
 		}
-		*/
 
-		/*
 		::NPCCrowd::Animation::PhaseSection_LossFunctionResult CalculateLossFunctionValue(::System::Single t, ::NPCCrowd::Animation::PhaseMatchingTarget target, ::System::Single areaWeight, ::System::Single areaDerivativeWeight)
 		{
 			return ((::NPCCrowd::Animation::PhaseSection_LossFunctionResult(*)(::PVOID, ::System::Single, ::NPCCrowd::Animation::PhaseMatchingTarget, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASESECTION_CALCULATELOSSFUNCTIONVALUE_OFFSET))(this, t, target, areaWeight, areaDerivativeWeight);
 		}
-		*/
 	};
 }

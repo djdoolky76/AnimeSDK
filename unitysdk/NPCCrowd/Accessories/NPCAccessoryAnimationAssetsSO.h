@@ -16,18 +16,18 @@ namespace UnityEngine { class MDBAvatar; }
 namespace UnityEngine { class RuntimeAnimatorController; }
 namespace UnityEngine { class TextAsset; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_GET_ALLFOLLOWANIMATIONCLIPSETTINGS_OFFSET UNITYSDK_OFFSET(0x12D0F500)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_GET_MDBCLOTHS_OFFSET UNITYSDK_OFFSET(0x12D0F750)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_GET_MDBCONTROLLER_OFFSET UNITYSDK_OFFSET(0x12D0F9D0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_GET_MDBHUMAN_OFFSET UNITYSDK_OFFSET(0x12D0F590)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_REFRESHANIMDATA_OFFSET UNITYSDK_OFFSET(0x12D0FB90)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_REFRESH_OFFSET UNITYSDK_OFFSET(0x12D100A0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0x12D10230)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO__CTOR_OFFSET UNITYSDK_OFFSET(0x12D10500)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_GET_ALLFOLLOWANIMATIONCLIPSETTINGS_OFFSET UNITYSDK_OFFSET(0x1378FDD0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_GET_MDBCLOTHS_OFFSET UNITYSDK_OFFSET(0x13790020)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_GET_MDBCONTROLLER_OFFSET UNITYSDK_OFFSET(0x137902A0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_GET_MDBHUMAN_OFFSET UNITYSDK_OFFSET(0x1378FE60)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_REFRESHANIMDATA_OFFSET UNITYSDK_OFFSET(0x13790460)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_REFRESH_OFFSET UNITYSDK_OFFSET(0x13790970)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0x13790B00)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONASSETSSO__CTOR_OFFSET UNITYSDK_OFFSET(0x13790DD0)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAnimationAssetsSO_TypeDefinitionIndex = 76093;
+	inline static constexpr unsigned int NPCAccessoryAnimationAssetsSO_TypeDefinitionIndex = 68789;
 
 	class NPCAccessoryAnimationAssetsSO : public ::UnityEngine::ScriptableObject
 	{
@@ -36,12 +36,15 @@ namespace NPCCrowd::Accessories
 		::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessoryAnimationInfo_FollowAnimationClip*>* followAnimationClipSettings; // 0x20
 		::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessoryAnimationInfo_FollowAnimationClip*>* customFollowAnimationClipSettings; // 0x28
 		::System::Boolean bUseDampingIK; // 0x30
+		::System::Byte _padding0[0x7];
 		::NPCCrowd::Accessories::NPCAccessoryAnimationInfo_DampingIK* dampingIKSettings; // 0x38
 		::System::Boolean bUseMDB; // 0x40
+		::System::Byte _padding1[0x7];
 		::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessoryAnimationInfo_FollowMdbPose>* customFollowAnimationMdbPoses; // 0x48
 		::UnityEngine::Vector3 gpuFollowOffsetEulerAngles; // 0x50
 		::UnityEngine::Vector3 gpuFollowOffsetLocalPos; // 0x5C
 		::System::Boolean overrideMdbClothStateForPathNPC; // 0x68
+		::System::Byte _padding2[0x7];
 		::UnityEngine::MDBAvatar* mdbAvatar; // 0x70
 		::Foundation::AssetPath mdbHumanAssetPath; // 0x78
 		::UnityEngine::TextAsset* _mdbHumanAsset; // 0x88
@@ -53,6 +56,7 @@ namespace NPCCrowd::Accessories
 		::UnityEngine::RuntimeAnimatorController* _mdbControllerAsset; // 0xD8
 		::Foundation::AssetRequestHandle _mdbControllerHandle; // 0xE0
 		::System::Boolean bIsInited; // 0x100
+		::System::Byte _padding3[0x7];
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Accessories::NPCAccessoryAnimationClipInfo*>* animationDict; // 0x108
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* followNPCAnimDict; // 0x110
 

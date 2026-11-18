@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FBFAEBLCJMD.h"
+#include "unitysdk/System/Object.h"
+
+class GKLJJFLOOKC_KMIIDCACHCJ;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define GKLJJFLOOKC_JAMGKKOFENF_BEOEGGEFKOA_OFFSET UNITYSDK_OFFSET(0x14CF7A70)
+#define GKLJJFLOOKC_JAMGKKOFENF_COKFOJFDMMK_OFFSET UNITYSDK_OFFSET(0x14CF7C20)
+#define GKLJJFLOOKC_JAMGKKOFENF_GLOAAACBNPP_OFFSET UNITYSDK_OFFSET(0x14CF7C60)
+#define GKLJJFLOOKC_JAMGKKOFENF_GPAHPGDBDNE_OFFSET UNITYSDK_OFFSET(0x14CF6550)
+#define GKLJJFLOOKC_JAMGKKOFENF_HKHOHFIODDP_OFFSET UNITYSDK_OFFSET(0x14CF7CC0)
+#define GKLJJFLOOKC_JAMGKKOFENF__CTOR_OFFSET UNITYSDK_OFFSET(0x14CF64B0)
+
+inline static constexpr unsigned int GKLJJFLOOKC_JAMGKKOFENF_TypeDefinitionIndex = 76996;
+
+class GKLJJFLOOKC_JAMGKKOFENF : public ::System::Object
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::FBFAEBLCJMD, ::System::Object*>* NIBCCLBOKEO; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GKLJJFLOOKC_JAMGKKOFENF__CTOR_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::Dictionary_2<::FBFAEBLCJMD, ::System::Object*>* COKFOJFDMMK()
+	{
+		return ((::System::Collections::Generic::Dictionary_2<::FBFAEBLCJMD, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GKLJJFLOOKC_JAMGKKOFENF_COKFOJFDMMK_OFFSET))(this);
+	}
+
+	::System::Void BEOEGGEFKOA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GKLJJFLOOKC_JAMGKKOFENF_BEOEGGEFKOA_OFFSET))(this);
+	}
+
+	::GKLJJFLOOKC_KMIIDCACHCJ* GLOAAACBNPP(::FBFAEBLCJMD MCOHLHMKLIP)
+	{
+		return ((::GKLJJFLOOKC_KMIIDCACHCJ*(*)(::PVOID, ::FBFAEBLCJMD))((::PBYTE)hIl2Cpp + GKLJJFLOOKC_JAMGKKOFENF_GLOAAACBNPP_OFFSET))(this, MCOHLHMKLIP);
+	}
+
+	::System::Boolean HKHOHFIODDP(::FBFAEBLCJMD NBBNGMPEFFM, ::GKLJJFLOOKC_KMIIDCACHCJ*& PMJNBIMDHHH)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FBFAEBLCJMD, ::GKLJJFLOOKC_KMIIDCACHCJ*&))((::PBYTE)hIl2Cpp + GKLJJFLOOKC_JAMGKKOFENF_HKHOHFIODDP_OFFSET))(this, NBBNGMPEFFM, PMJNBIMDHHH);
+	}
+
+	::System::Void GPAHPGDBDNE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GKLJJFLOOKC_JAMGKKOFENF_GPAHPGDBDNE_OFFSET))(this);
+	}
+};

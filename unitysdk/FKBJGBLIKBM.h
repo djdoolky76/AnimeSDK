@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ANAPNFPOMNG.h"
+
+class EACAAHHACNK;
+class EEMBGOKOFMF;
+class NHJNNFHNKPA;
+
+#define FKBJGBLIKBM_FALOLKDBFEI_OFFSET UNITYSDK_OFFSET(0x1FBD91C0)
+#define FKBJGBLIKBM_HOHMIBPDPCC_OFFSET UNITYSDK_OFFSET(0x1FBD8D50)
+#define FKBJGBLIKBM_NFBJHHPKEKH_OFFSET UNITYSDK_OFFSET(0x1FBD9100)
+#define FKBJGBLIKBM_OMOLEGNGHOM_OFFSET UNITYSDK_OFFSET(0x1FBD9090)
+#define FKBJGBLIKBM_PMMEGCJCAFK_OFFSET UNITYSDK_OFFSET(0x1FBD9290)
+#define FKBJGBLIKBM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBD91B0)
+
+inline static constexpr unsigned int FKBJGBLIKBM_TypeDefinitionIndex = 29030;
+
+class FKBJGBLIKBM : public ::ANAPNFPOMNG
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FKBJGBLIKBM__CTOR_OFFSET))(this);
+	}
+
+	::EEMBGOKOFMF* HOHMIBPDPCC()
+	{
+		return ((::EEMBGOKOFMF*(*)(::PVOID))((::PBYTE)hIl2Cpp + FKBJGBLIKBM_HOHMIBPDPCC_OFFSET))(this);
+	}
+
+	::System::Void NFBJHHPKEKH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FKBJGBLIKBM_NFBJHHPKEKH_OFFSET))(this);
+	}
+
+	::NHJNNFHNKPA* OMOLEGNGHOM()
+	{
+		return ((::NHJNNFHNKPA*(*)(::PVOID))((::PBYTE)hIl2Cpp + FKBJGBLIKBM_OMOLEGNGHOM_OFFSET))(this);
+	}
+
+	::System::Void FALOLKDBFEI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FKBJGBLIKBM_FALOLKDBFEI_OFFSET))(this);
+	}
+
+	::EACAAHHACNK* PMMEGCJCAFK()
+	{
+		return ((::EACAAHHACNK*(*)(::PVOID))((::PBYTE)hIl2Cpp + FKBJGBLIKBM_PMMEGCJCAFK_OFFSET))(this);
+	}
+};

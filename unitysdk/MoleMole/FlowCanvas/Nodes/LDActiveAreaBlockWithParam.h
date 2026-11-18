@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDACTIVEAREABLOCKWITHPARAM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1382F4D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDACTIVEAREABLOCKWITHPARAM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1382F390)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDACTIVEAREABLOCKWITHPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1382FAA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDACTIVEAREABLOCKWITHPARAM_INVOKE_OFFSET UNITYSDK_OFFSET(0x139D47B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDACTIVEAREABLOCKWITHPARAM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x139D4670)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDACTIVEAREABLOCKWITHPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x139D4D80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDActiveAreaBlockWithParam_TypeDefinitionIndex = 46938;
+	inline static constexpr unsigned int LDActiveAreaBlockWithParam_TypeDefinitionIndex = 53529;
 
 	class LDActiveAreaBlockWithParam : public ::FlowCanvas::Nodes::FlowControlNode
 	{

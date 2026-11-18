@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/MoleMole/ConfigNewbie_NewbieFairy.h"
 #include "unitysdk/MoleMole/ConfigNewbie_NewbieInputLogicType.h"
 #include "unitysdk/MoleMole/InputLogicEventType.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
 
 namespace MoleMole { class ConfigNewbie_CircleEffect; }
 namespace MoleMole { class ConfigNewbie_HighLightData; }
@@ -12,13 +12,13 @@ namespace SimpleJSON { class JSONClass; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x19BB4760)
-#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x19BB5F30)
-#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB7870)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x1A0583F0)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1A059BC0)
+#define MOLEMOLE_CONFIGNEWBIE_NEWBIESTEP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05B600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_NewbieStep_TypeDefinitionIndex = 78129;
+	inline static constexpr unsigned int ConfigNewbie_NewbieStep_TypeDefinitionIndex = 55930;
 
 	class ConfigNewbie_NewbieStep : public ::System::Object
 	{
@@ -26,33 +26,41 @@ namespace MoleMole
 		::System::String* DescText; // 0x10
 		::System::Boolean ShowMask; // 0x18
 		::System::Boolean FullSceneClick; // 0x19
+		::System::Byte _padding0[0x2];
 		::System::Int32 DelayShowTime; // 0x1C
 		::System::Int32 ClickWaitTime; // 0x20
 		::System::Boolean IsEnd; // 0x24
+		::System::Byte _padding1[0x3];
 		::System::Int32 ConditionMatch; // 0x28
 		::System::Boolean HighLightClick; // 0x2C
 		::System::Boolean HighLightReverseImmediately; // 0x2D
+		::System::Byte _padding2[0x2];
 		::MoleMole::ConfigNewbie_NewbieInputLogicType InputLogicType; // 0x30
 		::MoleMole::ConfigNewbie_NewbieInputLogicType DisplayInputLogicType; // 0x34
 		::System::Boolean SkipConsoleClick; // 0x38
+		::System::Byte _padding3[0x7];
 		::System::Collections::Generic::List_1<::MoleMole::InputLogicEventType>* AllowLogicEventPassList; // 0x40
-		::System::Collections::Generic::List_1<::MoleMole::ConfigNewbie_HighLightData*>* HighLights; // 0x48
+		::System::Collections::Generic::List_1<::System::Object*>* HighLights; // 0x48
 		::MoleMole::ConfigNewbie_NewbieFairy Fairy; // 0x50
 		::MoleMole::ConfigNewbie_CircleEffect* CircleEffect; // 0x68
 		::MoleMole::ConfigNewbie_CircleEffect* ConsoleCircleEffect; // 0x70
 		::System::Boolean ForceHideCursor; // 0x78
 		::System::Boolean SendEndNewBieBeforeLastStepFadeout; // 0x79
 		::System::Boolean IsDragGuide; // 0x7A
+		::System::Byte _padding4[0x5];
 		::MoleMole::ConfigNewbie_HighLightData* DragSourceTarget; // 0x80
 		::MoleMole::ConfigNewbie_HighLightData* DragDestTarget; // 0x88
 		::System::Boolean ShowDragGesture; // 0x90
 		::System::Boolean UseDragCondition; // 0x91
+		::System::Byte _padding5[0x2];
 		::System::Int32 DragConditionMatch; // 0x94
 		::System::Boolean BlockDoubleClick; // 0x98
 		::System::Boolean IsDoubleClickGuide; // 0x99
+		::System::Byte _padding6[0x6];
 		::MoleMole::ConfigNewbie_HighLightData* DoubleClickTarget; // 0xA0
 		::System::Boolean ShowDoubleClickGesture; // 0xA8
 		::System::Boolean UseDoubleClickCondition; // 0xA9
+		::System::Byte _padding7[0x2];
 		::System::Int32 DoubleClickConditionMatch; // 0xAC
 
 		::System::Void _ctor()

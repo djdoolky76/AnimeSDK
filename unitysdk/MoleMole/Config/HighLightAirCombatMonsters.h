@@ -6,11 +6,11 @@ namespace MoleMole::Config { class HighLightAirCombatMonster; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_HIGHLIGHTAIRCOMBATMONSTERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD6FDD0)
+#define MOLEMOLE_CONFIG_HIGHLIGHTAIRCOMBATMONSTERS__CTOR_OFFSET UNITYSDK_OFFSET(0x190B4E70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HighLightAirCombatMonsters_TypeDefinitionIndex = 70240;
+	inline static constexpr unsigned int HighLightAirCombatMonsters_TypeDefinitionIndex = 72876;
 
 	class HighLightAirCombatMonsters : public ::System::Object
 	{

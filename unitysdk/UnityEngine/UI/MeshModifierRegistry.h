@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/UI/GraphicRegistry_2.h"
 
-namespace UnityEngine::UI { class IMeshModifier; }
-
-#define UNITYENGINE_UI_MESHMODIFIERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA2B3D0)
+#define UNITYENGINE_UI_MESHMODIFIERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE356C0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int MeshModifierRegistry_TypeDefinitionIndex = 19335;
+	inline static constexpr unsigned int MeshModifierRegistry_TypeDefinitionIndex = 18489;
 
-	class MeshModifierRegistry : public ::UnityEngine::UI::GraphicRegistry_2<::UnityEngine::UI::MeshModifierRegistry*, ::UnityEngine::UI::IMeshModifier*>
+	class MeshModifierRegistry
 	{
 	public:
 		::System::Void _ctor()

@@ -3,20 +3,18 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-namespace System { class String; }
-
-#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_BUILDABILITYCONFIGINFO_OFFSET UNITYSDK_OFFSET(0x14A1B2A0)
-#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_BUILDAUTOMETACONFIG_OFFSET UNITYSDK_OFFSET(0x14A1B1B0)
-#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_GET_AUTOABILITYREGISTRYCONFIGPATH_OFFSET UNITYSDK_OFFSET(0x14A1B0C0)
-#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_GET_AUTOGRAPHREGISTRYCONFIGPATH_OFFSET UNITYSDK_OFFSET(0x14A1B110)
-#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_GET_AUTOLEVELGROUPREGISTRYCONFIGPATH_OFFSET UNITYSDK_OFFSET(0x14A1B160)
-#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_REFRESHGAMESTARTSCRIPTOBJECTS_OFFSET UNITYSDK_OFFSET(0x14A1B2E0)
-#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_SPLITREGISTRYCONFIGS_OFFSET UNITYSDK_OFFSET(0x14A1B260)
-#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14A1B320)
+#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_BUILDABILITYCONFIGINFO_OFFSET UNITYSDK_OFFSET(0x13112A40)
+#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_BUILDAUTOMETACONFIG_OFFSET UNITYSDK_OFFSET(0x13112990)
+#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_GET_AUTOABILITYREGISTRYCONFIGPATH_OFFSET UNITYSDK_OFFSET(0x13112850)
+#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_GET_AUTOGRAPHREGISTRYCONFIGPATH_OFFSET UNITYSDK_OFFSET(0x131128A0)
+#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_GET_AUTOLEVELGROUPREGISTRYCONFIGPATH_OFFSET UNITYSDK_OFFSET(0x131128F0)
+#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_GET_AUTOVOSEQREGISTRYCONFIGPATH_OFFSET UNITYSDK_OFFSET(0x13112940)
+#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG_REFRESHGAMESTARTSCRIPTOBJECTS_OFFSET UNITYSDK_OFFSET(0x13112A80)
+#define MOLEMOLE_NEWAUTOCONFIGMETACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13112AC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NewAutoConfigMetaConfig_TypeDefinitionIndex = 66617;
+	inline static constexpr unsigned int NewAutoConfigMetaConfig_TypeDefinitionIndex = 46163;
 
 	class NewAutoConfigMetaConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -24,6 +22,7 @@ namespace MoleMole
 		// static const ::System::String* AUTO_ABILITY_REGISTRY_CONFIG_ASSET_PATH; // 0x0
 		// static const ::System::String* AUTO_GRAPH_REGISTRY_CONFIG_ASSET_PATH; // 0x0
 		// static const ::System::String* AUTO_LEVEL_GROUP_REGISTRY_CONFIG_ASSET_PATH; // 0x0
+		// static const ::System::String* AUTO_VO_SEQ_REGISTRY_CONFIG_ASSET_PATH; // 0x0
 		::Il2CppArray<::Foundation::AssetPath>* postprocessColorAdjustmentsPathes; // 0x58
 		::Il2CppArray<::Foundation::AssetPath>* postprocessColorAdjustmentsPathes_NewVersion; // 0x60
 		::Il2CppArray<::Foundation::AssetPath>* postprocessDepthOfFieldPathes; // 0x68
@@ -118,85 +117,87 @@ namespace MoleMole
 		::Foundation::AssetPath abilityRegistryConfigPath; // 0x330
 		::Foundation::AssetPath graphRegistryConfigPath; // 0x340
 		::Foundation::AssetPath levelGroupRegistryConfigPath; // 0x350
-		::Il2CppArray<::Foundation::AssetPath>* dynamicObjectRegistryPathes; // 0x360
-		::Il2CppArray<::Foundation::AssetPath>* logicMovementDataPathes; // 0x368
-		::Il2CppArray<::Foundation::AssetPath>* logicRotationDataPathes; // 0x370
-		::Il2CppArray<::Foundation::AssetPath>* animationCurveLibraryPaths; // 0x378
-		::Il2CppArray<::Foundation::AssetPath>* timelineDataPathes; // 0x380
-		::Il2CppArray<::Foundation::AssetPath>* timelineDataExtraPathes; // 0x388
-		::Il2CppArray<::Foundation::AssetPath>* languageVideoDataPaths; // 0x390
-		::Il2CppArray<::Foundation::AssetPath>* noiseDataPathes; // 0x398
-		::Il2CppArray<::Foundation::AssetPath>* cameraScreenOffsetPathes; // 0x3A0
-		::Il2CppArray<::Foundation::AssetPath>* cameraShakePathes; // 0x3A8
-		::Il2CppArray<::Foundation::AssetPath>* cameraZoomPathes; // 0x3B0
-		::Il2CppArray<::Foundation::AssetPath>* cameraStretchPathes; // 0x3B8
-		::Il2CppArray<::Foundation::AssetPath>* cameraLockTargetPathes; // 0x3C0
-		::Il2CppArray<::Foundation::AssetPath>* cameraCutScenePathes; // 0x3C8
-		::Il2CppArray<::Foundation::AssetPath>* cameraCutsceneGroupPathes; // 0x3D0
-		::Il2CppArray<::Foundation::AssetPath>* lockTargetPathes; // 0x3D8
-		::Il2CppArray<::Foundation::AssetPath>* entitySkillPathes; // 0x3E0
-		::Il2CppArray<::Foundation::AssetPath>* interactEntryPathes; // 0x3E8
-		::Il2CppArray<::Foundation::AssetPath>* sharedAnimEventsPathes; // 0x3F0
-		::Il2CppArray<::Foundation::AssetPath>* commonAnimEventsPathes; // 0x3F8
-		::Il2CppArray<::Foundation::AssetPath>* timeSlowPathes; // 0x400
-		::Il2CppArray<::Foundation::AssetPath>* dropItemEffectPathes; // 0x408
-		::Il2CppArray<::Foundation::AssetPath>* levelDesignAssetPathes; // 0x410
-		::Il2CppArray<::Foundation::AssetPath>* levelGlobalAIPathes; // 0x418
-		::Il2CppArray<::Foundation::AssetPath>* levelGlobalCounterstrokePathes; // 0x420
-		::Il2CppArray<::Foundation::AssetPath>* levelReviveConfigPathes; // 0x428
-		::Il2CppArray<::Foundation::AssetPath>* hitDataPathes; // 0x430
-		::Il2CppArray<::Foundation::AssetPath>* glitchEffectPathes; // 0x438
-		::Il2CppArray<::Foundation::AssetPath>* vignettePathes; // 0x440
-		::Il2CppArray<::Foundation::AssetPath>* radialBlurPathes; // 0x448
-		::Il2CppArray<::Foundation::AssetPath>* gaussianBlurPathes; // 0x450
-		::Il2CppArray<::Foundation::AssetPath>* depthOfFieldPathes; // 0x458
-		::Il2CppArray<::Foundation::AssetPath>* screenEffectsPathes; // 0x460
-		::Il2CppArray<::Foundation::AssetPath>* lensDistortionPathes; // 0x468
-		::Il2CppArray<::Foundation::AssetPath>* chromaticAberrationPathes; // 0x470
-		::Il2CppArray<::Foundation::AssetPath>* runStatePathes; // 0x478
-		::Il2CppArray<::Foundation::AssetPath>* effectLODDataConfigPaths; // 0x480
-		::Il2CppArray<::Foundation::AssetPath>* colorAdjustmentsPathes; // 0x488
-		::Il2CppArray<::Foundation::AssetPath>* fXColorCorrectionsPathes; // 0x490
-		::Il2CppArray<::Foundation::AssetPath>* filmGrainPathes; // 0x498
-		::Il2CppArray<::Foundation::AssetPath>* avatarColorCorrectionsPathes; // 0x4A0
-		::Il2CppArray<::Foundation::AssetPath>* materialPropertyModifierPathes; // 0x4A8
-		::Il2CppArray<::Foundation::AssetPath>* materialPropertyModifierPathes_New; // 0x4B0
-		::Il2CppArray<::Foundation::AssetPath>* araTrailConfigPathes; // 0x4B8
-		::Il2CppArray<::Foundation::AssetPath>* flowCanvasConfigPathes; // 0x4C0
-		::Il2CppArray<::Foundation::AssetPath>* teamEntityConfigPathes; // 0x4C8
-		::Il2CppArray<::Foundation::AssetPath>* uiAvatarShowSettingsPaths; // 0x4D0
-		::Il2CppArray<::Foundation::AssetPath>* uiBuddyShowSettingsPaths; // 0x4D8
-		::Il2CppArray<::Foundation::AssetPath>* galGameAvatarShowSettingsPaths; // 0x4E0
-		::Il2CppArray<::Foundation::AssetPath>* scriptableAnimationV2Paths; // 0x4E8
-		::Il2CppArray<::Foundation::AssetPath>* gamepadRumblePaths; // 0x4F0
-		::Il2CppArray<::Foundation::AssetPath>* realtimeQTEConfigPaths; // 0x4F8
-		::Il2CppArray<::Foundation::AssetPath>* overShoulderCameraConfigPaths; // 0x500
-		::Il2CppArray<::Foundation::AssetPath>* avatarLayoutCameraConfigPaths; // 0x508
-		::Il2CppArray<::Foundation::AssetPath>* globalSoundActionPaths; // 0x510
-		::Il2CppArray<::Foundation::AssetPath>* npcCrowdJsonPaths; // 0x518
-		::Il2CppArray<::Foundation::AssetPath>* npcCrowdAssetSoPaths; // 0x520
-		::Il2CppArray<::Foundation::AssetPath>* npcCrowdAnimationSoPaths; // 0x528
-		::Il2CppArray<::Foundation::AssetPath>* textureConfigPaths; // 0x530
-		::Il2CppArray<::Foundation::AssetPath>* cameraOverrideTrackPaths; // 0x538
-		::Il2CppArray<::Foundation::AssetPath>* cameraBangbooAdjustmentPaths; // 0x540
-		::Il2CppArray<::Foundation::AssetPath>* chessboardPluginRegistryPathes; // 0x548
-		::Il2CppArray<::Foundation::AssetPath>* chessboardEntityRegistryPaths; // 0x550
-		::Il2CppArray<::Foundation::AssetPath>* dynamicOverrideWeatherPaths; // 0x558
-		::Il2CppArray<::Foundation::AssetPath>* bigSceneCommonSkillPaths; // 0x560
-		::Il2CppArray<::Foundation::AssetPath>* bigSceneGroupEntityPriorityPaths; // 0x568
-		::Il2CppArray<::Foundation::AssetPath>* dynamicCheckTreePaths; // 0x570
-		::Il2CppArray<::Foundation::AssetPath>* GroupChallengeConfigRegistryPaths; // 0x578
-		::Il2CppArray<::Foundation::AssetPath>* LevelWeatherPaths; // 0x580
-		::Il2CppArray<::Foundation::AssetPath>* CinemaSingleBeatMapConfigPath; // 0x588
-		::Il2CppArray<::Foundation::AssetPath>* SurfGameItemDataConfigPaths; // 0x590
-		::Il2CppArray<::Foundation::AssetPath>* GraphInteractConfigPaths; // 0x598
-		::Il2CppArray<::Foundation::AssetPath>* AbilityTargetDataConfigPaths; // 0x5A0
-		::Il2CppArray<::Foundation::AssetPath>* simpleMoveConfigPaths; // 0x5A8
-		::Il2CppArray<::Foundation::AssetPath>* SlideRopeCameraConfigPaths; // 0x5B0
-		::Il2CppArray<::Foundation::AssetPath>* SlideRopeLockCameraConfigPaths; // 0x5B8
-		::Il2CppArray<::Foundation::AssetPath>* SlideRopePatternConfigPaths; // 0x5C0
-		::Il2CppArray<::Foundation::AssetPath>* HighLightAirCombatConfigPaths; // 0x5C8
-		::Il2CppArray<::Foundation::AssetPath>* HighLightAirCombatCameraConfigPaths; // 0x5D0
+		::Foundation::AssetPath voSeqRegistryConfigPath; // 0x360
+		::Il2CppArray<::Foundation::AssetPath>* dynamicObjectRegistryPathes; // 0x370
+		::Il2CppArray<::Foundation::AssetPath>* logicMovementDataPathes; // 0x378
+		::Il2CppArray<::Foundation::AssetPath>* logicRotationDataPathes; // 0x380
+		::Il2CppArray<::Foundation::AssetPath>* animationCurveLibraryPaths; // 0x388
+		::Il2CppArray<::Foundation::AssetPath>* timelineDataPathes; // 0x390
+		::Il2CppArray<::Foundation::AssetPath>* timelineDataExtraPathes; // 0x398
+		::Il2CppArray<::Foundation::AssetPath>* languageVideoDataPaths; // 0x3A0
+		::Il2CppArray<::Foundation::AssetPath>* noiseDataPathes; // 0x3A8
+		::Il2CppArray<::Foundation::AssetPath>* cameraScreenOffsetPathes; // 0x3B0
+		::Il2CppArray<::Foundation::AssetPath>* cameraShakePathes; // 0x3B8
+		::Il2CppArray<::Foundation::AssetPath>* cameraZoomPathes; // 0x3C0
+		::Il2CppArray<::Foundation::AssetPath>* cameraStretchPathes; // 0x3C8
+		::Il2CppArray<::Foundation::AssetPath>* cameraLockTargetPathes; // 0x3D0
+		::Il2CppArray<::Foundation::AssetPath>* cameraCutScenePathes; // 0x3D8
+		::Il2CppArray<::Foundation::AssetPath>* cameraCutsceneGroupPathes; // 0x3E0
+		::Il2CppArray<::Foundation::AssetPath>* lockTargetPathes; // 0x3E8
+		::Il2CppArray<::Foundation::AssetPath>* entitySkillPathes; // 0x3F0
+		::Il2CppArray<::Foundation::AssetPath>* interactEntryPathes; // 0x3F8
+		::Il2CppArray<::Foundation::AssetPath>* sharedAnimEventsPathes; // 0x400
+		::Il2CppArray<::Foundation::AssetPath>* commonAnimEventsPathes; // 0x408
+		::Il2CppArray<::Foundation::AssetPath>* timeSlowPathes; // 0x410
+		::Il2CppArray<::Foundation::AssetPath>* windFieldPathes; // 0x418
+		::Il2CppArray<::Foundation::AssetPath>* dropItemEffectPathes; // 0x420
+		::Il2CppArray<::Foundation::AssetPath>* levelDesignAssetPathes; // 0x428
+		::Il2CppArray<::Foundation::AssetPath>* levelGlobalAIPathes; // 0x430
+		::Il2CppArray<::Foundation::AssetPath>* levelGlobalCounterstrokePathes; // 0x438
+		::Il2CppArray<::Foundation::AssetPath>* levelReviveConfigPathes; // 0x440
+		::Il2CppArray<::Foundation::AssetPath>* hitDataPathes; // 0x448
+		::Il2CppArray<::Foundation::AssetPath>* glitchEffectPathes; // 0x450
+		::Il2CppArray<::Foundation::AssetPath>* vignettePathes; // 0x458
+		::Il2CppArray<::Foundation::AssetPath>* radialBlurPathes; // 0x460
+		::Il2CppArray<::Foundation::AssetPath>* gaussianBlurPathes; // 0x468
+		::Il2CppArray<::Foundation::AssetPath>* depthOfFieldPathes; // 0x470
+		::Il2CppArray<::Foundation::AssetPath>* screenEffectsPathes; // 0x478
+		::Il2CppArray<::Foundation::AssetPath>* lensDistortionPathes; // 0x480
+		::Il2CppArray<::Foundation::AssetPath>* chromaticAberrationPathes; // 0x488
+		::Il2CppArray<::Foundation::AssetPath>* runStatePathes; // 0x490
+		::Il2CppArray<::Foundation::AssetPath>* effectLODDataConfigPaths; // 0x498
+		::Il2CppArray<::Foundation::AssetPath>* colorAdjustmentsPathes; // 0x4A0
+		::Il2CppArray<::Foundation::AssetPath>* fXColorCorrectionsPathes; // 0x4A8
+		::Il2CppArray<::Foundation::AssetPath>* filmGrainPathes; // 0x4B0
+		::Il2CppArray<::Foundation::AssetPath>* avatarColorCorrectionsPathes; // 0x4B8
+		::Il2CppArray<::Foundation::AssetPath>* materialPropertyModifierPathes; // 0x4C0
+		::Il2CppArray<::Foundation::AssetPath>* materialPropertyModifierPathes_New; // 0x4C8
+		::Il2CppArray<::Foundation::AssetPath>* araTrailConfigPathes; // 0x4D0
+		::Il2CppArray<::Foundation::AssetPath>* flowCanvasConfigPathes; // 0x4D8
+		::Il2CppArray<::Foundation::AssetPath>* teamEntityConfigPathes; // 0x4E0
+		::Il2CppArray<::Foundation::AssetPath>* uiAvatarShowSettingsPaths; // 0x4E8
+		::Il2CppArray<::Foundation::AssetPath>* uiBuddyShowSettingsPaths; // 0x4F0
+		::Il2CppArray<::Foundation::AssetPath>* galGameAvatarShowSettingsPaths; // 0x4F8
+		::Il2CppArray<::Foundation::AssetPath>* scriptableAnimationV2Paths; // 0x500
+		::Il2CppArray<::Foundation::AssetPath>* gamepadRumblePaths; // 0x508
+		::Il2CppArray<::Foundation::AssetPath>* realtimeQTEConfigPaths; // 0x510
+		::Il2CppArray<::Foundation::AssetPath>* overShoulderCameraConfigPaths; // 0x518
+		::Il2CppArray<::Foundation::AssetPath>* avatarLayoutCameraConfigPaths; // 0x520
+		::Il2CppArray<::Foundation::AssetPath>* globalSoundActionPaths; // 0x528
+		::Il2CppArray<::Foundation::AssetPath>* npcCrowdJsonPaths; // 0x530
+		::Il2CppArray<::Foundation::AssetPath>* npcCrowdAssetSoPaths; // 0x538
+		::Il2CppArray<::Foundation::AssetPath>* npcCrowdAnimationSoPaths; // 0x540
+		::Il2CppArray<::Foundation::AssetPath>* textureConfigPaths; // 0x548
+		::Il2CppArray<::Foundation::AssetPath>* cameraOverrideTrackPaths; // 0x550
+		::Il2CppArray<::Foundation::AssetPath>* cameraBangbooAdjustmentPaths; // 0x558
+		::Il2CppArray<::Foundation::AssetPath>* chessboardPluginRegistryPathes; // 0x560
+		::Il2CppArray<::Foundation::AssetPath>* chessboardEntityRegistryPaths; // 0x568
+		::Il2CppArray<::Foundation::AssetPath>* dynamicOverrideWeatherPaths; // 0x570
+		::Il2CppArray<::Foundation::AssetPath>* bigSceneCommonSkillPaths; // 0x578
+		::Il2CppArray<::Foundation::AssetPath>* bigSceneGroupEntityPriorityPaths; // 0x580
+		::Il2CppArray<::Foundation::AssetPath>* dynamicCheckTreePaths; // 0x588
+		::Il2CppArray<::Foundation::AssetPath>* GroupChallengeConfigRegistryPaths; // 0x590
+		::Il2CppArray<::Foundation::AssetPath>* LevelWeatherPaths; // 0x598
+		::Il2CppArray<::Foundation::AssetPath>* CinemaSingleBeatMapConfigPath; // 0x5A0
+		::Il2CppArray<::Foundation::AssetPath>* SurfGameItemDataConfigPaths; // 0x5A8
+		::Il2CppArray<::Foundation::AssetPath>* GraphInteractConfigPaths; // 0x5B0
+		::Il2CppArray<::Foundation::AssetPath>* AbilityTargetDataConfigPaths; // 0x5B8
+		::Il2CppArray<::Foundation::AssetPath>* simpleMoveConfigPaths; // 0x5C0
+		::Il2CppArray<::Foundation::AssetPath>* SlideRopeCameraConfigPaths; // 0x5C8
+		::Il2CppArray<::Foundation::AssetPath>* SlideRopeLockCameraConfigPaths; // 0x5D0
+		::Il2CppArray<::Foundation::AssetPath>* SlideRopePatternConfigPaths; // 0x5D8
+		::Il2CppArray<::Foundation::AssetPath>* HighLightAirCombatConfigPaths; // 0x5E0
+		::Il2CppArray<::Foundation::AssetPath>* HighLightAirCombatCameraConfigPaths; // 0x5E8
 
 		::System::Void _ctor()
 		{
@@ -218,14 +219,14 @@ namespace MoleMole
 			return ((::Foundation::AssetPath(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_NEWAUTOCONFIGMETACONFIG_GET_AUTOLEVELGROUPREGISTRYCONFIGPATH_OFFSET))();
 		}
 
+		static ::Foundation::AssetPath get_AutoVOSeqRegistryConfigPath()
+		{
+			return ((::Foundation::AssetPath(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_NEWAUTOCONFIGMETACONFIG_GET_AUTOVOSEQREGISTRYCONFIGPATH_OFFSET))();
+		}
+
 		::System::Void BuildAutoMetaConfig()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_NEWAUTOCONFIGMETACONFIG_BUILDAUTOMETACONFIG_OFFSET))(this);
-		}
-
-		::System::Void SplitRegistryConfigs()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_NEWAUTOCONFIGMETACONFIG_SPLITREGISTRYCONFIGS_OFFSET))(this);
 		}
 
 		::System::Void BuildAbilityConfigInfo()

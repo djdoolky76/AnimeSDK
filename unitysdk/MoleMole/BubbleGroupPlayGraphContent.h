@@ -3,16 +3,16 @@
 #include "unitysdk/MoleMole/BubbleGraphStruct.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_1A345EAE5F749316_44;
+class AKACBDOIHMC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_BUBBLEGROUPPLAYGRAPHCONTENT_CLONE_OFFSET UNITYSDK_OFFSET(0x134D3CB0)
-#define MOLEMOLE_BUBBLEGROUPPLAYGRAPHCONTENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x134D3D50)
-#define MOLEMOLE_BUBBLEGROUPPLAYGRAPHCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x134D3D40)
+#define MOLEMOLE_BUBBLEGROUPPLAYGRAPHCONTENT_CLONE_OFFSET UNITYSDK_OFFSET(0x11A419E0)
+#define MOLEMOLE_BUBBLEGROUPPLAYGRAPHCONTENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x11A41A80)
+#define MOLEMOLE_BUBBLEGROUPPLAYGRAPHCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x11A41A70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BubbleGroupPlayGraphContent_TypeDefinitionIndex = 49954;
+	inline static constexpr unsigned int BubbleGroupPlayGraphContent_TypeDefinitionIndex = 50112;
 
 	class BubbleGroupPlayGraphContent : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BUBBLEGROUPPLAYGRAPHCONTENT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Class_3_1A345EAE5F749316_44* protoCli)
+		::System::Void _ctor_1(::AKACBDOIHMC* protoCli)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_1A345EAE5F749316_44*))((::PBYTE)hIl2Cpp + MOLEMOLE_BUBBLEGROUPPLAYGRAPHCONTENT__CTOR_1_OFFSET))(this, protoCli);
+			return ((::System::Void(*)(::PVOID, ::AKACBDOIHMC*))((::PBYTE)hIl2Cpp + MOLEMOLE_BUBBLEGROUPPLAYGRAPHCONTENT__CTOR_1_OFFSET))(this, protoCli);
 		}
 
 		static ::MoleMole::BubbleGroupPlayGraphContent* Clone(::MoleMole::BubbleGroupPlayGraphContent* other)

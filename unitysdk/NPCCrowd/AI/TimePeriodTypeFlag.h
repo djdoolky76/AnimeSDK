@@ -3,13 +3,13 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int TimePeriodTypeFlag_TypeDefinitionIndex = 45501;
+	inline static constexpr unsigned int TimePeriodTypeFlag_TypeDefinitionIndex = 58591;
 
 	enum class TimePeriodTypeFlag : ::System::Int32
 	{
-		AFTERNOON = 4,
-		MORNING = 2,
 		NIGHT = 16,
+		MORNING = 2,
 		EVENING = 8,
+		AFTERNOON = 4,
 	};
 }

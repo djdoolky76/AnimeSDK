@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_Enumerator.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace MoleMole { class ChessEntity; }
 namespace MoleMole { class ChessEntityCollection; }
 namespace System { class Object; }
 
-#define MOLEMOLE_CHESSENTITYCOLLECTION_ENUMERATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x856F70)
-#define MOLEMOLE_CHESSENTITYCOLLECTION_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x856F10)
-#define MOLEMOLE_CHESSENTITYCOLLECTION_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x856EF0)
-#define MOLEMOLE_CHESSENTITYCOLLECTION_ENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x856F00)
-#define MOLEMOLE_CHESSENTITYCOLLECTION_ENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x856F20)
-#define MOLEMOLE_CHESSENTITYCOLLECTION_ENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x856EE0)
+#define MOLEMOLE_CHESSENTITYCOLLECTION_ENUMERATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x7D4110)
+#define MOLEMOLE_CHESSENTITYCOLLECTION_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x7D40B0)
+#define MOLEMOLE_CHESSENTITYCOLLECTION_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7D4090)
+#define MOLEMOLE_CHESSENTITYCOLLECTION_ENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x7D40A0)
+#define MOLEMOLE_CHESSENTITYCOLLECTION_ENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x7D40C0)
+#define MOLEMOLE_CHESSENTITYCOLLECTION_ENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x7D4080)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ChessEntityCollection_Enumerator_TypeDefinitionIndex = 56714;
+	inline static constexpr unsigned int ChessEntityCollection_Enumerator_TypeDefinitionIndex = 62716;
 
 	struct alignas(8) ChessEntityCollection_Enumerator
 	{
 		::MoleMole::ChessEntityCollection* _innerCollection; // 0x10
-		::System::Collections::Generic::Dictionary_2_Enumerator<::System::Int32, ::MoleMole::ChessEntity*> _innerEnumerator; // 0x18
+		::System::Object* _innerEnumerator; // 0x18
 
 		::System::Void _ctor(::MoleMole::ChessEntityCollection* collection)
 		{

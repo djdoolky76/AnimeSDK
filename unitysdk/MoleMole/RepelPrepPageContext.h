@@ -3,20 +3,20 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_1_A13822D5BC2AB737;
+class CNJCDKHAAPH;
 
-#define MOLEMOLE_REPELPREPPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x129D8470)
+#define MOLEMOLE_REPELPREPPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1249C690)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RepelPrepPageContext_TypeDefinitionIndex = 84278;
+	inline static constexpr unsigned int RepelPrepPageContext_TypeDefinitionIndex = 50314;
 
 	class RepelPrepPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_A13822D5BC2AB737* data; // 0x28
-		::System::Boolean disableAutoOpenLevelInfo; // 0x30
-		::UnityEngine::Vector2 focusDir; // 0x34
+		::CNJCDKHAAPH* data; // 0x28
+		::UnityEngine::Vector2 focusDir; // 0x30
+		::System::Boolean disableAutoOpenLevelInfo; // 0x38
 
 		::System::Void _ctor()
 		{

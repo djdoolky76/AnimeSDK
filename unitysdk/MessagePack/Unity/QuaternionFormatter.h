@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_QUATERNIONFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EBBA270)
-#define MESSAGEPACK_UNITY_QUATERNIONFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EBBA210)
-#define MESSAGEPACK_UNITY_QUATERNIONFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBA4A0)
+#define MESSAGEPACK_UNITY_QUATERNIONFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF8CB20)
+#define MESSAGEPACK_UNITY_QUATERNIONFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF8CAC0)
+#define MESSAGEPACK_UNITY_QUATERNIONFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8CD50)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int QuaternionFormatter_TypeDefinitionIndex = 31500;
+	inline static constexpr unsigned int QuaternionFormatter_TypeDefinitionIndex = 29370;
 
 	class QuaternionFormatter : public ::System::Object
 	{

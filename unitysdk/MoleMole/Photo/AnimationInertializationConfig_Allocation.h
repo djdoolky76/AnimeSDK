@@ -3,14 +3,14 @@
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int AnimationInertializationConfig_Allocation_TypeDefinitionIndex = 76960;
+	inline static constexpr unsigned int AnimationInertializationConfig_Allocation_TypeDefinitionIndex = 71592;
 
 	enum class AnimationInertializationConfig_Allocation : ::System::Int32
 	{
-		Request = 3,
+		SnapshotsBones = 0,
 		SnapshotsPoses = 1,
 		BonesDiff = 2,
-		SnapshotsBones = 0,
+		Request = 3,
 		Count = 4,
 	};
 }

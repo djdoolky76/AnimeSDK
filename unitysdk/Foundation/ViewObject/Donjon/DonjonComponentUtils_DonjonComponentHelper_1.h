@@ -4,7 +4,7 @@
 
 namespace Foundation::ViewObject::Donjon
 {
-	inline static constexpr unsigned int DonjonComponentUtils_DonjonComponentHelper_1_TypeDefinitionIndex = 52989;
+	inline static constexpr unsigned int DonjonComponentUtils_DonjonComponentHelper_1_TypeDefinitionIndex = 71044;
 
 	template <typename T>
 	class DonjonComponentUtils_DonjonComponentHelper_1 : public ::System::Object

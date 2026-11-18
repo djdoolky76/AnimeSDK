@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBuddyDIYComponentWidgetController; }
 
-#define MOLEMOLE_UIBANGBOODIYWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1896E700)
-#define MOLEMOLE_UIBANGBOODIYWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS4_0__GETCOMPONENTWIDGET_B__0_OFFSET UNITYSDK_OFFSET(0x1896E710)
+#define MOLEMOLE_UIBANGBOODIYWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17EC5530)
+#define MOLEMOLE_UIBANGBOODIYWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS4_0__GETCOMPONENTWIDGET_B__0_OFFSET UNITYSDK_OFFSET(0x17EC5540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooDIYWidgetWidgetController___c__DisplayClass4_0_TypeDefinitionIndex = 71419;
+	inline static constexpr unsigned int UIBangbooDIYWidgetWidgetController___c__DisplayClass4_0_TypeDefinitionIndex = 89264;
 
 	class UIBangbooDIYWidgetWidgetController___c__DisplayClass4_0 : public ::System::Object
 	{

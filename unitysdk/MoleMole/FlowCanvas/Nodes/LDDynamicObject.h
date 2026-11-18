@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDYNAMICOBJECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B831F00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDYNAMICOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8322A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDYNAMICOBJECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x180D83C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDYNAMICOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x180D8770)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDDynamicObject_TypeDefinitionIndex = 81406;
+	inline static constexpr unsigned int LDDynamicObject_TypeDefinitionIndex = 85384;
 
-	class LDDynamicObject : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Boolean>
+	class LDDynamicObject
 	{
 	public:
 		::System::Void _ctor()

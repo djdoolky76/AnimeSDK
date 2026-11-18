@@ -8,29 +8,30 @@ namespace MoleMole { class UITransitionPanelPopWindowController; }
 namespace System { class Action; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__REFRESHIMGINFO_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15EBDC90)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__REFRESHIMGINFO_D__18_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15EBDF70)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__REFRESHIMGINFO_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15EBDFD0)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__REFRESHIMGINFO_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15EBDF80)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__REFRESHIMGINFO_D__18_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15EBDC80)
-#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__REFRESHIMGINFO_D__18__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBD620)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__REFRESHIMGINFO_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x14E1AEB0)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__REFRESHIMGINFO_D__18_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14E1B180)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__REFRESHIMGINFO_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14E1B1E0)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__REFRESHIMGINFO_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x14E1B190)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__REFRESHIMGINFO_D__18_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14E1AEA0)
+#define MOLEMOLE_UITRANSITIONPANELPOPWINDOWCONTROLLER__REFRESHIMGINFO_D__18__CTOR_OFFSET UNITYSDK_OFFSET(0x14E1AE90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITransitionPanelPopWindowController__RefreshImgInfo_d__18_TypeDefinitionIndex = 58153;
+	inline static constexpr unsigned int UITransitionPanelPopWindowController__RefreshImgInfo_d__18_TypeDefinitionIndex = 57669;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18>
 	class UITransitionPanelPopWindowController__RefreshImgInfo_d__18 : public ::System::Object
 	{
 	public:
-		::MoleMole::UITransitionPanelPopWindowController* __4__this; // 0x10
-		::UnityEngine::AnimationCurve* curve; // 0x18
+		::UnityEngine::AnimationCurve* curve; // 0x10
+		::MoleMole::UITransitionPanelPopWindowController* __4__this; // 0x18
 		::System::Action* onFadeEndCallback; // 0x20
-		::MoleMole::UITransitionPanelPopWindowController_TransitionState state; // 0x28
-		::System::Int32 __1__state; // 0x2C
-		::UnityEngine::Color targetColor; // 0x30
-		::System::Single __2__current; // 0x40
-		::UnityEngine::Color fromColor; // 0x44
-		::System::Single _timeSpan_5__2; // 0x54
+		::System::Single _timeSpan_5__2; // 0x28
+		::MoleMole::UITransitionPanelPopWindowController_TransitionState state; // 0x2C
+		::System::Single __2__current; // 0x30
+		::UnityEngine::Color fromColor; // 0x34
+		::System::Int32 __1__state; // 0x44
+		::UnityEngine::Color targetColor; // 0x48
 		::System::Single duration; // 0x58
 
 		::System::Void _ctor(::System::Int32 __1__state)

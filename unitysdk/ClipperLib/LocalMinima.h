@@ -4,18 +4,18 @@
 
 namespace ClipperLib { class TEdge; }
 
-#define CLIPPERLIB_LOCALMINIMA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D4360)
+#define CLIPPERLIB_LOCALMINIMA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6175B0)
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int LocalMinima_TypeDefinitionIndex = 33418;
+	inline static constexpr unsigned int LocalMinima_TypeDefinitionIndex = 32878;
 
 	class LocalMinima : public ::System::Object
 	{
 	public:
-		::ClipperLib::LocalMinima* Next; // 0x10
-		::ClipperLib::TEdge* LeftBound; // 0x18
-		::ClipperLib::TEdge* RightBound; // 0x20
+		::ClipperLib::TEdge* LeftBound; // 0x10
+		::ClipperLib::TEdge* RightBound; // 0x18
+		::ClipperLib::LocalMinima* Next; // 0x20
 		::System::Int64 Y; // 0x28
 
 		::System::Void _ctor()

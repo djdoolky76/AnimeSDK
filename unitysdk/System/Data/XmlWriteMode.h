@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int XmlWriteMode_TypeDefinitionIndex = 39362;
+	inline static constexpr unsigned int XmlWriteMode_TypeDefinitionIndex = 37362;
 
 	enum class XmlWriteMode : ::System::Int32
 	{

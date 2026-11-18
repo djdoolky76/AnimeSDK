@@ -8,13 +8,13 @@ namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x1D5667C0)
-#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER_CREATE_OFFSET UNITYSDK_OFFSET(0x1D566770)
-#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D566440)
+#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x1DA616E0)
+#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER_CREATE_OFFSET UNITYSDK_OFFSET(0x1DA61690)
+#define SYSTEM_XML_SCHEMA_XMLUNIONCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA61360)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlUnionConverter_TypeDefinitionIndex = 2218;
+	inline static constexpr unsigned int XmlUnionConverter_TypeDefinitionIndex = 2217;
 
 	class XmlUnionConverter : public ::System::Xml::Schema::XmlBaseConverter
 	{

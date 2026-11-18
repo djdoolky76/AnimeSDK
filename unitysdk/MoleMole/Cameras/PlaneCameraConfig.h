@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_CAMERAS_PLANECAMERACONFIG_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x12A2D400)
-#define MOLEMOLE_CAMERAS_PLANECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12A2D470)
+#define MOLEMOLE_CAMERAS_PLANECAMERACONFIG_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x19273F70)
+#define MOLEMOLE_CAMERAS_PLANECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19273FE0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int PlaneCameraConfig_TypeDefinitionIndex = 80294;
+	inline static constexpr unsigned int PlaneCameraConfig_TypeDefinitionIndex = 54315;
 
 	class PlaneCameraConfig : public ::System::Object
 	{

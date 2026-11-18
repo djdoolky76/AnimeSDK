@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_SECTR_MONOGUID_GET_INSTANCEGUID_OFFSET UNITYSDK_OFFSET(0x1809CA20)
-#define MOLEMOLE_SECTR_MONOGUID__CTOR_OFFSET UNITYSDK_OFFSET(0x1809CA50)
+#define MOLEMOLE_SECTR_MONOGUID_GET_INSTANCEGUID_OFFSET UNITYSDK_OFFSET(0x198D1BB0)
+#define MOLEMOLE_SECTR_MONOGUID__CTOR_OFFSET UNITYSDK_OFFSET(0x198D1BE0)
 
 namespace MoleMole::SECTR
 {
-	inline static constexpr unsigned int MonoGuid_TypeDefinitionIndex = 81120;
+	inline static constexpr unsigned int MonoGuid_TypeDefinitionIndex = 63995;
 
 	class MonoGuid : public ::UnityEngine::MonoBehaviour
 	{

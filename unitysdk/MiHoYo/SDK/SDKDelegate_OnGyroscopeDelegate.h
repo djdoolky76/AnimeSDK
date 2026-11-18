@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CloudGame/MailBox/GameControl/Gyroscope.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/CloudGame/MailBox/GameControl/Gyroscope.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D4B9960)
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D4B99D0)
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D4B9420)
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4B9400)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DA3D640)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DA3D6B0)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DA3D0F0)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROSCOPEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3D0E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_OnGyroscopeDelegate_TypeDefinitionIndex = 19906;
+	inline static constexpr unsigned int SDKDelegate_OnGyroscopeDelegate_TypeDefinitionIndex = 19051;
 
 	class SDKDelegate_OnGyroscopeDelegate : public ::System::MulticastDelegate
 	{

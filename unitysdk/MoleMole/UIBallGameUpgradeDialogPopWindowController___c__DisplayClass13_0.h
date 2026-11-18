@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIBallGameUpgradeRowWidgetController; }
 
-#define MOLEMOLE_UIBALLGAMEUPGRADEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED53490)
+#define MOLEMOLE_UIBALLGAMEUPGRADEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFAD970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameUpgradeDialogPopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 93346;
+	inline static constexpr unsigned int UIBallGameUpgradeDialogPopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 95007;
 
 	class UIBallGameUpgradeDialogPopWindowController___c__DisplayClass13_0 : public ::System::Object
 	{

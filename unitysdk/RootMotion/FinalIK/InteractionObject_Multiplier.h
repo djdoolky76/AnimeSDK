@@ -5,12 +5,12 @@
 
 namespace RootMotion::FinalIK { class InteractionObject_WeightCurve; }
 
-#define ROOTMOTION_FINALIK_INTERACTIONOBJECT_MULTIPLIER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1EE517A0)
-#define ROOTMOTION_FINALIK_INTERACTIONOBJECT_MULTIPLIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE517E0)
+#define ROOTMOTION_FINALIK_INTERACTIONOBJECT_MULTIPLIER_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1F1F47C0)
+#define ROOTMOTION_FINALIK_INTERACTIONOBJECT_MULTIPLIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1F4800)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int InteractionObject_Multiplier_TypeDefinitionIndex = 38791;
+	inline static constexpr unsigned int InteractionObject_Multiplier_TypeDefinitionIndex = 36798;
 
 	class InteractionObject_Multiplier : public ::System::Object
 	{

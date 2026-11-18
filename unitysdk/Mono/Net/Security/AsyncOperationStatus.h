@@ -3,7 +3,7 @@
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int AsyncOperationStatus_TypeDefinitionIndex = 2607;
+	inline static constexpr unsigned int AsyncOperationStatus_TypeDefinitionIndex = 2606;
 
 	enum class AsyncOperationStatus : ::System::Int32
 	{

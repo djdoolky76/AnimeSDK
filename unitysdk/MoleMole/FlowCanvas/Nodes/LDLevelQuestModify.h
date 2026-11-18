@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/Battle/LevelQuestOperation.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY_BEGIN_OFFSET UNITYSDK_OFFSET(0x13835DC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13835CB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x138360B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x138360F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY_BEGIN_OFFSET UNITYSDK_OFFSET(0x139DB090)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x139DAF80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x139DB390)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLEVELQUESTMODIFY__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x139DB3D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelQuestModify_TypeDefinitionIndex = 58343;
+	inline static constexpr unsigned int LDLevelQuestModify_TypeDefinitionIndex = 42068;
 
 	class LDLevelQuestModify : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Int32>* levelQuestID; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::LevelQuestOperation>* modifyType; // 0xB0
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::LevelQuestOperation>* modifyType; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* levelQuestID; // 0xB0
 		::FlowCanvas::FlowInput* input; // 0xB8
 		::FlowCanvas::FlowOutput* output; // 0xC0
 

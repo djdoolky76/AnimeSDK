@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/Foundation/AssetRequestHandle.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define FOUNDATION_ASSETREQUESTDESTROYDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED8A420)
-#define FOUNDATION_ASSETREQUESTDESTROYDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED8A490)
-#define FOUNDATION_ASSETREQUESTDESTROYDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED89FD0)
-#define FOUNDATION_ASSETREQUESTDESTROYDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED89FB0)
+#define FOUNDATION_ASSETREQUESTDESTROYDEL_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EE919B0)
+#define FOUNDATION_ASSETREQUESTDESTROYDEL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EE91A20)
+#define FOUNDATION_ASSETREQUESTDESTROYDEL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EE91560)
+#define FOUNDATION_ASSETREQUESTDESTROYDEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE91550)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AssetRequestDestroyDel_TypeDefinitionIndex = 7887;
+	inline static constexpr unsigned int AssetRequestDestroyDel_TypeDefinitionIndex = 8577;
 
 	class AssetRequestDestroyDel : public ::System::MulticastDelegate
 	{

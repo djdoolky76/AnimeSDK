@@ -6,24 +6,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_CHANGEUSAGEMSG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAD8AD0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_CHANGEUSAGEMSG___C__CREATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1EAD8B20)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_CHANGEUSAGEMSG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD8B10)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_CHANGEUSAGEMSG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE2CD60)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_CHANGEUSAGEMSG___C__CREATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1EE2CDB0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_CHANGEUSAGEMSG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2CDA0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_ChangeUsageMsg___c_TypeDefinitionIndex = 32280;
+	inline static constexpr unsigned int InputRemoting_ChangeUsageMsg___c_TypeDefinitionIndex = 31729;
 
 	class InputRemoting_ChangeUsageMsg___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::InputSystem::InputRemoting_ChangeUsageMsg___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::UnityEngine::InputSystem::InputRemoting_ChangeUsageMsg___c**)Il2CppClass::FromTypeDefinitionIndex(InputRemoting_ChangeUsageMsg___c_TypeDefinitionIndex)->GetStaticField(0x27730);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(InputRemoting_ChangeUsageMsg___c_TypeDefinitionIndex)->GetStaticField(0x28810);
 		}
 		static ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputRemoting_ChangeUsageMsg___c_TypeDefinitionIndex)->GetStaticField(0x27738);
+			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputRemoting_ChangeUsageMsg___c_TypeDefinitionIndex)->GetStaticField(0x28818);
 		}
 
 		static ::System::Void _cctor()

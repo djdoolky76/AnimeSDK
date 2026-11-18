@@ -4,20 +4,20 @@
 
 namespace System::Xml::Schema { class XmlSchemaContent; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXCONTENT_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1F06EBD0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXCONTENT_SET_ISMIXED_OFFSET UNITYSDK_OFFSET(0x1F06EBC0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F06EBE0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXCONTENT_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1F4069E0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXCONTENT_SET_ISMIXED_OFFSET UNITYSDK_OFFSET(0x1F4069D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4069F0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaComplexContent_TypeDefinitionIndex = 2128;
+	inline static constexpr unsigned int XmlSchemaComplexContent_TypeDefinitionIndex = 2127;
 
 	class XmlSchemaComplexContent : public ::System::Xml::Schema::XmlSchemaContentModel
 	{
 	public:
 		::System::Xml::Schema::XmlSchemaContent* content; // 0x50
-		::System::Boolean hasMixedAttribute; // 0x58
-		::System::Boolean isMixed; // 0x59
+		::System::Boolean isMixed; // 0x58
+		::System::Boolean hasMixedAttribute; // 0x59
 
 		::System::Void _ctor()
 		{

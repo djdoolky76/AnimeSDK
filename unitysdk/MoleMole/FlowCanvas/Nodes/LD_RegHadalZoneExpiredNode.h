@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_REGHADALZONEEXPIREDNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19B17360)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_REGHADALZONEEXPIREDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B17470)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_REGHADALZONEEXPIREDNODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x19B174B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_REGHADALZONEEXPIREDNODE__REGISTERPORTS_B__3_1_OFFSET UNITYSDK_OFFSET(0x19B17A20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_REGHADALZONEEXPIREDNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A8F4310)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_REGHADALZONEEXPIREDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F4410)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_REGHADALZONEEXPIREDNODE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1A8F4450)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_REGHADALZONEEXPIREDNODE__REGISTERPORTS_B__3_1_OFFSET UNITYSDK_OFFSET(0x1A8F49C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_RegHadalZoneExpiredNode_TypeDefinitionIndex = 44222;
+	inline static constexpr unsigned int LD_RegHadalZoneExpiredNode_TypeDefinitionIndex = 54469;
 
 	class LD_RegHadalZoneExpiredNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* output; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Single>* beforeExpiredSeconds; // 0xB0
-		::FlowCanvas::FlowOutput* expiredOut; // 0xB8
+		::FlowCanvas::FlowOutput* expiredOut; // 0xA8
+		::FlowCanvas::FlowOutput* output; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Single>* beforeExpiredSeconds; // 0xB8
 
 		::System::Void _ctor()
 		{

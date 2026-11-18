@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_LEVELCUSTOMPERFORMEND_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1B1EE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_LEVELCUSTOMPERFORMEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B1FD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_LEVELCUSTOMPERFORMEND_INVOKE_OFFSET UNITYSDK_OFFSET(0x14AE6590)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_LEVELCUSTOMPERFORMEND__CTOR_OFFSET UNITYSDK_OFFSET(0x14AE6680)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_LevelCustomPerformEnd_TypeDefinitionIndex = 86004;
+	inline static constexpr unsigned int LD_LevelCustomPerformEnd_TypeDefinitionIndex = 82071;
 
-	class LD_LevelCustomPerformEnd : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Int32>
+	class LD_LevelCustomPerformEnd
 	{
 	public:
 		::System::Void _ctor()

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIGENERALSMALLTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19602070)
+#define MOLEMOLE_UIGENERALSMALLTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18F14BF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralSmallTipsContext_TypeDefinitionIndex = 46488;
+	inline static constexpr unsigned int UIGeneralSmallTipsContext_TypeDefinitionIndex = 40889;
 
 	class UIGeneralSmallTipsContext : public ::MoleMole::UIControllerContextBase
 	{

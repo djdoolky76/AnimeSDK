@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/EqualityComparer_1.h"
 
 namespace System { class String; }
 
-#define SYSTEM_COLLECTIONS_GENERIC_NONRANDOMIZEDSTRINGEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DF28AC0)
-#define SYSTEM_COLLECTIONS_GENERIC_NONRANDOMIZEDSTRINGEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DF28AF0)
-#define SYSTEM_COLLECTIONS_GENERIC_NONRANDOMIZEDSTRINGEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF28B80)
+#define SYSTEM_COLLECTIONS_GENERIC_NONRANDOMIZEDSTRINGEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E388D10)
+#define SYSTEM_COLLECTIONS_GENERIC_NONRANDOMIZEDSTRINGEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E388D40)
+#define SYSTEM_COLLECTIONS_GENERIC_NONRANDOMIZEDSTRINGEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E388DD0)
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int NonRandomizedStringEqualityComparer_TypeDefinitionIndex = 1528;
+	inline static constexpr unsigned int NonRandomizedStringEqualityComparer_TypeDefinitionIndex = 1527;
 
-	class NonRandomizedStringEqualityComparer : public ::System::Collections::Generic::EqualityComparer_1<::System::String*>
+	class NonRandomizedStringEqualityComparer
 	{
 	public:
 		::System::Void _ctor()

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_1A39E1B51756BF41;
+class FGCOIBFFCHB;
 
-#define MOLEMOLE_UIINLEVELPLAYERMOVECHILDWINDOWCONTROLLER_DIRDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17AC2F30)
+#define MOLEMOLE_UIINLEVELPLAYERMOVECHILDWINDOWCONTROLLER_DIRDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x175F1520)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPlayerMoveChildWindowController_DirData_TypeDefinitionIndex = 43474;
+	inline static constexpr unsigned int UIInLevelPlayerMoveChildWindowController_DirData_TypeDefinitionIndex = 67152;
 
 	class UIInLevelPlayerMoveChildWindowController_DirData : public ::System::Object
 	{
 	public:
-		::Class_2_1A39E1B51756BF41* trans; // 0x10
+		::FGCOIBFFCHB* trans; // 0x10
 		::System::Single rBegin; // 0x18
 		::System::Single rEnd; // 0x1C
 

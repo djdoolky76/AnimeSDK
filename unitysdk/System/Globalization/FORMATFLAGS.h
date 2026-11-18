@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int FORMATFLAGS_TypeDefinitionIndex = 715;
+	inline static constexpr unsigned int FORMATFLAGS_TypeDefinitionIndex = 714;
 
 	enum class FORMATFLAGS : ::System::Int32
 	{

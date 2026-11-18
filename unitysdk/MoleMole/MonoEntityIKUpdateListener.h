@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_MONOENTITYIKUPDATELISTENER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13AB3710)
-#define MOLEMOLE_MONOENTITYIKUPDATELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x13AB3760)
+#define MOLEMOLE_MONOENTITYIKUPDATELISTENER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x14690560)
+#define MOLEMOLE_MONOENTITYIKUPDATELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x146905B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEntityIKUpdateListener_TypeDefinitionIndex = 80449;
+	inline static constexpr unsigned int MonoEntityIKUpdateListener_TypeDefinitionIndex = 54880;
 
 	class MonoEntityIKUpdateListener : public ::UnityEngine::MonoBehaviour
 	{

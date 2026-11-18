@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_FD26DBB29540C9AE;
+class JELNECMCEIO;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_GENERALQUESTPREUNLOCKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B195F0)
+#define MOLEMOLE_GENERALQUESTPREUNLOCKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F7E30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralQuestPreUnlockContext_TypeDefinitionIndex = 69926;
+	inline static constexpr unsigned int GeneralQuestPreUnlockContext_TypeDefinitionIndex = 82574;
 
 	class GeneralQuestPreUnlockContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_FD26DBB29540C9AE* data; // 0x28
+		::JELNECMCEIO* data; // 0x28
 		::System::Action_1<::System::Boolean>* requestResult; // 0x30
 
 		::System::Void _ctor()

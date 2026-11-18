@@ -1,0 +1,182 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CEIGLAMCELC_LLGGKJLGBLC.h"
+#include "unitysdk/MJHDNMKGLBJ.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class FCKLGBGHAHN;
+
+#define CEIGLAMCELC_ACBGNJJJBFP_OFFSET UNITYSDK_OFFSET(0x18DCB2D0)
+#define CEIGLAMCELC_BHDKMIINBLP_OFFSET UNITYSDK_OFFSET(0x18DCB2E0)
+#define CEIGLAMCELC_BPLEKADHHGD_OFFSET UNITYSDK_OFFSET(0x18DCB360)
+#define CEIGLAMCELC_DGPCFEDJBMB_OFFSET UNITYSDK_OFFSET(0x18DCB310)
+#define CEIGLAMCELC_DLFKBFODIDA_OFFSET UNITYSDK_OFFSET(0x18DCB530)
+#define CEIGLAMCELC_EBDPFCIDGAD_OFFSET UNITYSDK_OFFSET(0x18DCB340)
+#define CEIGLAMCELC_EFLPHAOLPMC_OFFSET UNITYSDK_OFFSET(0x18DCB370)
+#define CEIGLAMCELC_FEGFHEIEMNO_OFFSET UNITYSDK_OFFSET(0x18DCB1F0)
+#define CEIGLAMCELC_FJEGJDKBFHP_OFFSET UNITYSDK_OFFSET(0x18DCB330)
+#define CEIGLAMCELC_GETCLASSID_OFFSET UNITYSDK_OFFSET(0x18DCB0A0)
+#define CEIGLAMCELC_JFDOOELFAOA_OFFSET UNITYSDK_OFFSET(0x18DCB240)
+#define CEIGLAMCELC_JHNOEMAMMMG_OFFSET UNITYSDK_OFFSET(0x18DCB500)
+#define CEIGLAMCELC_LAJDKLLOJHF_OFFSET UNITYSDK_OFFSET(0x18DCB1A0)
+#define CEIGLAMCELC_LNEPMIHLKKI_OFFSET UNITYSDK_OFFSET(0x18DCB520)
+#define CEIGLAMCELC_LOHCNELPAHA_OFFSET UNITYSDK_OFFSET(0x18DCB210)
+#define CEIGLAMCELC_MEFBHFEOKGH_OFFSET UNITYSDK_OFFSET(0x18DCB540)
+#define CEIGLAMCELC_NAHGJFKMCLM_OFFSET UNITYSDK_OFFSET(0x18DCB510)
+#define CEIGLAMCELC_NALLPPLBHGP_OFFSET UNITYSDK_OFFSET(0x18DCB2C0)
+#define CEIGLAMCELC_NDBDAMIIMAI_OFFSET UNITYSDK_OFFSET(0x18DCB220)
+#define CEIGLAMCELC_ODOHJNPMPLF_OFFSET UNITYSDK_OFFSET(0x18DCB2F0)
+#define CEIGLAMCELC_ONCLEAN_OFFSET UNITYSDK_OFFSET(0x18DCAFE0)
+#define CEIGLAMCELC_PEBIBOJHGKO_OFFSET UNITYSDK_OFFSET(0x18DCB320)
+#define CEIGLAMCELC_PHEAAOMEHNM_OFFSET UNITYSDK_OFFSET(0x18DCB230)
+#define CEIGLAMCELC_PLIFKFCOHKA_OFFSET UNITYSDK_OFFSET(0x18DCB180)
+#define CEIGLAMCELC__CCTOR_OFFSET UNITYSDK_OFFSET(0x18DCB0F0)
+#define CEIGLAMCELC__CTOR_OFFSET UNITYSDK_OFFSET(0x18DCB170)
+
+inline static constexpr unsigned int CEIGLAMCELC_TypeDefinitionIndex = 88848;
+
+class CEIGLAMCELC : public ::MJHDNMKGLBJ
+{
+public:
+	// static const ::System::Int32 IPAPPCOIEIF = 0x86; // 0x0
+	::FCKLGBGHAHN* _GABEAHCMGFC_k__BackingField; // 0x48
+	::UnityEngine::Vector3 _GADIIFPHFGK_k__BackingField; // 0x50
+	::CEIGLAMCELC_LLGGKJLGBLC _KFLGADIGCNN_k__BackingField; // 0x5C
+	::System::Boolean _KHPELHCIGNA_k__BackingField; // 0x60
+	::System::Boolean _EOMEGBIALFA_k__BackingField; // 0x61
+	::System::Byte _padding0[0x2];
+	::System::Single _HDBIHCMFHDE_k__BackingField; // 0x64
+	::UnityEngine::Vector3 _FNNMMNHJLCA_k__BackingField; // 0x68
+	::System::UInt32 _GCIGPMICBIJ_k__BackingField; // 0x74
+	::UnityEngine::Vector3 _FOENCOPEOBD_k__BackingField; // 0x78
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CEIGLAMCELC__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnClean()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC_ONCLEAN_OFFSET))(this);
+	}
+
+	::System::Int32 GetClassID()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC_GETCLASSID_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector3 PLIFKFCOHKA()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC_PLIFKFCOHKA_OFFSET))(this);
+	}
+
+	::System::Void LAJDKLLOJHF(::CEIGLAMCELC_LLGGKJLGBLC LHCJKHKKIBB)
+	{
+		return ((::System::Void(*)(::PVOID, ::CEIGLAMCELC_LLGGKJLGBLC))((::PBYTE)hIl2Cpp + CEIGLAMCELC_LAJDKLLOJHF_OFFSET))(this, LHCJKHKKIBB);
+	}
+
+	::UnityEngine::Vector3 FEGFHEIEMNO()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC_FEGFHEIEMNO_OFFSET))(this);
+	}
+
+	::System::UInt32 LOHCNELPAHA()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC_LOHCNELPAHA_OFFSET))(this);
+	}
+
+	::System::Single NDBDAMIIMAI()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC_NDBDAMIIMAI_OFFSET))(this);
+	}
+
+	::System::Void PHEAAOMEHNM(::UnityEngine::Vector3 EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CEIGLAMCELC_PHEAAOMEHNM_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	static ::CEIGLAMCELC* JFDOOELFAOA()
+	{
+		return ((::CEIGLAMCELC*(*)())((::PBYTE)hIl2Cpp + CEIGLAMCELC_JFDOOELFAOA_OFFSET))();
+	}
+
+	::System::Void NALLPPLBHGP(::FCKLGBGHAHN* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FCKLGBGHAHN*))((::PBYTE)hIl2Cpp + CEIGLAMCELC_NALLPPLBHGP_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void ACBGNJJJBFP(::System::UInt32 EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CEIGLAMCELC_ACBGNJJJBFP_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Boolean BHDKMIINBLP()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC_BHDKMIINBLP_OFFSET))(this);
+	}
+
+	::System::Void ODOHJNPMPLF(::UnityEngine::Vector3 EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CEIGLAMCELC_ODOHJNPMPLF_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Boolean DGPCFEDJBMB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC_DGPCFEDJBMB_OFFSET))(this);
+	}
+
+	::FCKLGBGHAHN* PEBIBOJHGKO()
+	{
+		return ((::FCKLGBGHAHN*(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC_PEBIBOJHGKO_OFFSET))(this);
+	}
+
+	::System::Void FJEGJDKBFHP(::CEIGLAMCELC_LLGGKJLGBLC EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::CEIGLAMCELC_LLGGKJLGBLC))((::PBYTE)hIl2Cpp + CEIGLAMCELC_FJEGJDKBFHP_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::Vector3 EBDPFCIDGAD()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC_EBDPFCIDGAD_OFFSET))(this);
+	}
+
+	::System::Void BPLEKADHHGD(::System::Single EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CEIGLAMCELC_BPLEKADHHGD_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void EFLPHAOLPMC(::System::UInt32 FLEDHKJGAEP, ::UnityEngine::Vector3 CPILJNMFPJL, ::UnityEngine::Vector3 FCNPOKNKMOD, ::System::Single MDPPNMIPDMP)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CEIGLAMCELC_EFLPHAOLPMC_OFFSET))(this, FLEDHKJGAEP, CPILJNMFPJL, FCNPOKNKMOD, MDPPNMIPDMP);
+	}
+
+	::CEIGLAMCELC_LLGGKJLGBLC JHNOEMAMMMG()
+	{
+		return ((::CEIGLAMCELC_LLGGKJLGBLC(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC_JHNOEMAMMMG_OFFSET))(this);
+	}
+
+	::System::Void NAHGJFKMCLM(::UnityEngine::Vector3 EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CEIGLAMCELC_NAHGJFKMCLM_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void LNEPMIHLKKI(::System::Boolean EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CEIGLAMCELC_LNEPMIHLKKI_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void DLFKBFODIDA(::System::Boolean EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CEIGLAMCELC_DLFKBFODIDA_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Int32 MEFBHFEOKGH()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CEIGLAMCELC_MEFBHFEOKGH_OFFSET))(this);
+	}
+};

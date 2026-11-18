@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class Type; }
-namespace System::ComponentModel { class License; }
-namespace System::ComponentModel { class LicenseContext; }
-
-#define SYSTEM_COMPONENTMODEL_LICENSEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A3040)
+#define SYSTEM_COMPONENTMODEL_LICENSEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9D260)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int LicenseProvider_TypeDefinitionIndex = 2931;
+	inline static constexpr unsigned int LicenseProvider_TypeDefinitionIndex = 2930;
 
 	class LicenseProvider : public ::System::Object
 	{

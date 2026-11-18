@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/InputSystem/InputProcessor_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputControl; }
 
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_INVERTVECTOR3PROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F1F7010)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_INVERTVECTOR3PROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F1F7070)
-#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_INVERTVECTOR3PROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1F7130)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_INVERTVECTOR3PROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x1F5F2960)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_INVERTVECTOR3PROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F5F29C0)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_INVERTVECTOR3PROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F2A80)
 
 namespace UnityEngine::InputSystem::Processors
 {
-	inline static constexpr unsigned int InvertVector3Processor_TypeDefinitionIndex = 32586;
+	inline static constexpr unsigned int InvertVector3Processor_TypeDefinitionIndex = 32035;
 
-	class InvertVector3Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3>
+	class InvertVector3Processor
 	{
 	public:
-		::System::Boolean invertY; // 0x10
-		::System::Boolean invertZ; // 0x11
-		::System::Boolean invertX; // 0x12
+		::System::Boolean invertZ; // 0x10
+		::System::Boolean invertX; // 0x11
+		::System::Boolean invertY; // 0x12
 
 		::System::Void _ctor()
 		{

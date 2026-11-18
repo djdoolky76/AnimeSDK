@@ -3,65 +3,62 @@
 #include "unitysdk/Foundation/Geometry/__details_of_ExtendConvexHull2D/EdgeStorage.h"
 #include "unitysdk/Foundation/Geometry/__details_of_ExtendConvexHull2D/EdgeType.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/Geometry/Ellipse2D.h"
+#include "unitysdk/Foundation/Geometry/EllipseArc2D.h"
+#include "unitysdk/Foundation/Geometry/Segment2D.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
-#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GETPOINT_OFFSET UNITYSDK_OFFSET(0xAA8810)
-#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_ARCAREA_OFFSET UNITYSDK_OFFSET(0xAA8610)
-#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_END_OFFSET UNITYSDK_OFFSET(0xAA8760)
-#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_MAXX_OFFSET UNITYSDK_OFFSET(0xAA87F0)
-#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_MAXY_OFFSET UNITYSDK_OFFSET(0xAA8800)
-#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_MINX_OFFSET UNITYSDK_OFFSET(0xAA87E0)
-#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_START_OFFSET UNITYSDK_OFFSET(0xAA86E0)
-#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_NEW_1_OFFSET UNITYSDK_OFFSET(0x1F562370)
-#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_NEW_2_OFFSET UNITYSDK_OFFSET(0x1F562460)
-#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_NEW_OFFSET UNITYSDK_OFFSET(0x1F562160)
-#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xAA8870)
-#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE__CTOR_OFFSET UNITYSDK_OFFSET(0xAA8820)
+#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GETPOINT_OFFSET UNITYSDK_OFFSET(0x98EBA0)
+#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_ARCAREA_OFFSET UNITYSDK_OFFSET(0x98E9A0)
+#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_END_OFFSET UNITYSDK_OFFSET(0x98EAF0)
+#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_MAXX_OFFSET UNITYSDK_OFFSET(0x98EB80)
+#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_MAXY_OFFSET UNITYSDK_OFFSET(0x98EB90)
+#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_MINX_OFFSET UNITYSDK_OFFSET(0x98EB70)
+#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_START_OFFSET UNITYSDK_OFFSET(0x98EA70)
+#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_NEW_1_OFFSET UNITYSDK_OFFSET(0x1F919BF0)
+#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_NEW_2_OFFSET UNITYSDK_OFFSET(0x1F919CE0)
+#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_NEW_OFFSET UNITYSDK_OFFSET(0x1F9199E0)
+#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x98EC00)
+#define FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x98EBB0)
 
 namespace Foundation::Geometry::ExtendConvexHull2D
 {
-	inline static constexpr unsigned int Edge_TypeDefinitionIndex = 8518;
+	inline static constexpr unsigned int Edge_TypeDefinitionIndex = 9052;
 
-	struct alignas(8) Edge
+	struct alignas(4) Edge
 	{
 		static ::Foundation::Geometry::ExtendConvexHull2D::Edge* StaticGet_Null()
 		{
-			return (::Foundation::Geometry::ExtendConvexHull2D::Edge*)Il2CppClass::FromTypeDefinitionIndex(Edge_TypeDefinitionIndex)->GetStaticField(0x3D70);
+			return (::Foundation::Geometry::ExtendConvexHull2D::Edge*)Il2CppClass::FromTypeDefinitionIndex(Edge_TypeDefinitionIndex)->GetStaticField(0x3D30);
 		}
 		::Foundation::Geometry::__details_of_ExtendConvexHull2D::EdgeType Type; // 0x10
+		::System::Byte _padding0[0x4];
 		::Foundation::Geometry::__details_of_ExtendConvexHull2D::EdgeStorage Storage; // 0x18
 
-		/*
 		::System::Void _ctor(::Foundation::Geometry::Segment2D segment)
 		{
 			return ((::System::Void(*)(::PVOID, ::Foundation::Geometry::Segment2D))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE__CTOR_OFFSET))(this, segment);
 		}
-		*/
 
-		/*
 		::System::Void _ctor_1(::Foundation::Geometry::EllipseArc2D arc)
 		{
 			return ((::System::Void(*)(::PVOID, ::Foundation::Geometry::EllipseArc2D))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE__CTOR_1_OFFSET))(this, arc);
 		}
-		*/
 
 		::System::Single get_ArcArea()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_ARCAREA_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::Vector2 get_Start()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_START_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector2 get_End()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_END_OFFSET))(this);
 		}
-		*/
 
 		::System::Single get_MinX()
 		{
@@ -78,12 +75,10 @@ namespace Foundation::Geometry::ExtendConvexHull2D
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GET_MAXY_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::Vector2 GetPoint(::System::Single t)
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_EXTENDCONVEXHULL2D_EDGE_GETPOINT_OFFSET))(this, t);
 		}
-		*/
 
 		/*
 		static ::Foundation::Geometry::ExtendConvexHull2D::Edge New(::Foundation::Geometry::Ellipse2D ellipse, ::UnityEngine::Vector2 start, ::UnityEngine::Vector2 end)

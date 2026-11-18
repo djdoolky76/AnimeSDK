@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FluffyUnderware/DevTools/DTRegionAttribute.h"
 
-#define FLUFFYUNDERWARE_DEVTOOLS_FLOATREGIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA55C10)
+#define FLUFFYUNDERWARE_DEVTOOLS_FLOATREGIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5E890)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int FloatRegionAttribute_TypeDefinitionIndex = 28975;
+	inline static constexpr unsigned int FloatRegionAttribute_TypeDefinitionIndex = 28414;
 
 	class FloatRegionAttribute : public ::FluffyUnderware::DevTools::DTRegionAttribute
 	{

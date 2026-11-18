@@ -3,15 +3,15 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EFightRanking_TypeDefinitionIndex = 10290;
+	inline static constexpr unsigned int EFightRanking_TypeDefinitionIndex = 12782;
 
 	enum class EFightRanking : ::System::Int16
 	{
-		None = 0,
-		S = 5,
-		C = 2,
-		B = 3,
-		D = 1,
 		A = 4,
+		D = 1,
+		B = 3,
+		C = 2,
+		S = 5,
+		None = 0,
 	};
 }

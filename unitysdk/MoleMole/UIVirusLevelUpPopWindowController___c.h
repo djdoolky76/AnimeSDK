@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_485;
+class GCLOKEACLHO;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A85910)
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15A85950)
-#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___C__ONUIOPEN_B__7_0_OFFSET UNITYSDK_OFFSET(0x15A85960)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13BDFD00)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13BDFD40)
+#define MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___C__ONUIOPEN_B__7_0_OFFSET UNITYSDK_OFFSET(0x13BDFD50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVirusLevelUpPopWindowController___c_TypeDefinitionIndex = 47320;
+	inline static constexpr unsigned int UIVirusLevelUpPopWindowController___c_TypeDefinitionIndex = 86025;
 
 	class UIVirusLevelUpPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIVirusLevelUpPopWindowController___c** StaticGet___9()
+		static ::System::Comparison_1<::GCLOKEACLHO*>** StaticGet___9__7_0()
 		{
-			return (::MoleMole::UIVirusLevelUpPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIVirusLevelUpPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x49310);
+			return (::System::Comparison_1<::GCLOKEACLHO*>**)Il2CppClass::FromTypeDefinitionIndex(UIVirusLevelUpPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x47380);
 		}
-		static ::System::Comparison_1<::Class_2_208CC9941471731A_485*>** StaticGet___9__7_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_2_208CC9941471731A_485*>**)Il2CppClass::FromTypeDefinitionIndex(UIVirusLevelUpPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x49318);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIVirusLevelUpPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x47388);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _OnUIOpen_b__7_0(::Class_2_208CC9941471731A_485* ext, ::Class_2_208CC9941471731A_485* templateExt)
+		::System::Int32 _OnUIOpen_b__7_0(::GCLOKEACLHO* ext, ::GCLOKEACLHO* templateExt)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_485*, ::Class_2_208CC9941471731A_485*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___C__ONUIOPEN_B__7_0_OFFSET))(this, ext, templateExt);
+			return ((::System::Int32(*)(::PVOID, ::GCLOKEACLHO*, ::GCLOKEACLHO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIRUSLEVELUPPOPWINDOWCONTROLLER___C__ONUIOPEN_B__7_0_OFFSET))(this, ext, templateExt);
 		}
 	};
 }

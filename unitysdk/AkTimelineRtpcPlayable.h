@@ -1,29 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 class AkTimelineRtpcPlayableBehaviour;
 namespace AK::Wwise { class RTPC; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define AKTIMELINERTPCPLAYABLE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FBCCD50)
-#define AKTIMELINERTPCPLAYABLE_GET_OWNINGCLIP_OFFSET UNITYSDK_OFFSET(0x1FBCCD20)
-#define AKTIMELINERTPCPLAYABLE_SETUPCLIPDISPLAY_OFFSET UNITYSDK_OFFSET(0x1FBCCD10)
-#define AKTIMELINERTPCPLAYABLE_SET_OWNINGCLIP_OFFSET UNITYSDK_OFFSET(0x1FBCCD30)
-#define AKTIMELINERTPCPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FBCCD40)
-#define AKTIMELINERTPCPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBCCEF0)
+#define AKTIMELINERTPCPLAYABLE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FFD3730)
+#define AKTIMELINERTPCPLAYABLE_GET_OWNINGCLIP_OFFSET UNITYSDK_OFFSET(0x1FFD3700)
+#define AKTIMELINERTPCPLAYABLE_SETUPCLIPDISPLAY_OFFSET UNITYSDK_OFFSET(0x1FFD36F0)
+#define AKTIMELINERTPCPLAYABLE_SET_OWNINGCLIP_OFFSET UNITYSDK_OFFSET(0x1FFD3710)
+#define AKTIMELINERTPCPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FFD3720)
+#define AKTIMELINERTPCPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFD38D0)
 
-inline static constexpr unsigned int AkTimelineRtpcPlayable_TypeDefinitionIndex = 33738;
+inline static constexpr unsigned int AkTimelineRtpcPlayable_TypeDefinitionIndex = 33284;
 
 class AkTimelineRtpcPlayable : public ::UnityEngine::Playables::PlayableAsset
 {
 public:
 	::AK::Wwise::RTPC* RTPC; // 0x18
 	::System::Boolean setGlobally; // 0x20
+	::System::Byte _padding0[0x7];
 	::AkTimelineRtpcPlayableBehaviour* template_; // 0x28
 	::UnityEngine::Timeline::TimelineClip* _owningClip_k__BackingField; // 0x30
 

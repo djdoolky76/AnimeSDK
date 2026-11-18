@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_AF5BA1C65F12F4B1_Class_2_35FBCE11E39E6839;
+class EKGAHGCJOAN_PLPDLPGLIAD;
 namespace MoleMole { class UIZenkovTalentPageController; }
-namespace MoleMole { class UIZenkovTalentPageController_TalentConnectionLine; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x112E3260)
-#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__DISPLAYCLASS30_0__ONNODESTATECHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x112E3270)
+#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10587E90)
+#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__DISPLAYCLASS30_0__ONNODESTATECHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x10587EA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovTalentPageController___c__DisplayClass30_0_TypeDefinitionIndex = 84330;
+	inline static constexpr unsigned int UIZenkovTalentPageController___c__DisplayClass30_0_TypeDefinitionIndex = 43035;
 
 	class UIZenkovTalentPageController___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIZenkovTalentPageController* __4__this; // 0x10
-		::Class_2_AF5BA1C65F12F4B1_Class_2_35FBCE11E39E6839* node; // 0x18
-		::System::Collections::Generic::List_1<::MoleMole::UIZenkovTalentPageController_TalentConnectionLine*>* value; // 0x20
+		::EKGAHGCJOAN_PLPDLPGLIAD* node; // 0x10
+		::MoleMole::UIZenkovTalentPageController* __4__this; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* value; // 0x20
 
 		::System::Void _ctor()
 		{

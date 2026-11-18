@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_ATTACKPATTERNMORPHBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C34870)
+#define MOLEMOLE_CONFIG_ATTACKPATTERNMORPHBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B8BED0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AttackPatternMorphBase_TypeDefinitionIndex = 50854;
+	inline static constexpr unsigned int AttackPatternMorphBase_TypeDefinitionIndex = 91046;
 
 	class AttackPatternMorphBase : public ::System::Object
 	{

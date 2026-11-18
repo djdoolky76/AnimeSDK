@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Ability/FTransformFragment.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/NPCCrowd/Ability/FTransformFragment.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 #include "unitysdk/UnityEngine/Jobs/TransformAccessArray.h"
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCABILITYFLUSHTRANSFORMPROCESSOR_EXECUTECOMBINED_OFFSET UNITYSDK_OFFSET(0x1192DC90)
-#define NPCCROWD_ABILITY_NPCABILITYFLUSHTRANSFORMPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1192DAF0)
-#define NPCCROWD_ABILITY_NPCABILITYFLUSHTRANSFORMPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1192DDE0)
+#define NPCCROWD_ABILITY_NPCABILITYFLUSHTRANSFORMPROCESSOR_EXECUTECOMBINED_OFFSET UNITYSDK_OFFSET(0x105DF410)
+#define NPCCROWD_ABILITY_NPCABILITYFLUSHTRANSFORMPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x105DF270)
+#define NPCCROWD_ABILITY_NPCABILITYFLUSHTRANSFORMPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x105DF560)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityFlushTransformProcessor_TypeDefinitionIndex = 45017;
+	inline static constexpr unsigned int NPCAbilityFlushTransformProcessor_TypeDefinitionIndex = 57535;
 
 	class NPCAbilityFlushTransformProcessor : public ::System::Object
 	{

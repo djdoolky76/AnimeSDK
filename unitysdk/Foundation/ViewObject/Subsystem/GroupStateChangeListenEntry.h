@@ -1,22 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/ViewObject/Subsystem/GroupStateChangeData.h"
+#include "unitysdk/Foundation/Tuple_2.h"
 
-class Class_1_28F0414D4F296993;
+class IFLPGOKHDJI;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x85AD60)
-#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_EQUALS_OFFSET UNITYSDK_OFFSET(0x85AC90)
-#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x85AD70)
-#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_GETSTATEID_OFFSET UNITYSDK_OFFSET(0x85ADD0)
-#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_NOTIFY_OFFSET UNITYSDK_OFFSET(0x85AC60)
-#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x85AE50)
-#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x85AEC0)
+#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x6DFE50)
+#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_EQUALS_OFFSET UNITYSDK_OFFSET(0x6DFD80)
+#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x6DFE60)
+#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_GETSTATEID_OFFSET UNITYSDK_OFFSET(0x6DFEC0)
+#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_NOTIFY_OFFSET UNITYSDK_OFFSET(0x6DFD50)
+#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x6DFF40)
+#define FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x6DFFB0)
 
 namespace Foundation::ViewObject::Subsystem
 {
-	inline static constexpr unsigned int GroupStateChangeListenEntry_TypeDefinitionIndex = 71313;
+	inline static constexpr unsigned int GroupStateChangeListenEntry_TypeDefinitionIndex = 79182;
 
 	struct alignas(8) GroupStateChangeListenEntry
 	{
@@ -24,19 +26,20 @@ namespace Foundation::ViewObject::Subsystem
 		::System::UInt32 GroupId; // 0x14
 		::System::String* StateName; // 0x18
 		::System::Int32 TargetStateValue; // 0x20
-		::Class_1_28F0414D4F296993* Script; // 0x28
+		::System::Byte _padding0[0x4];
+		::IFLPGOKHDJI* Script; // 0x28
 
-		/*
 		::System::Boolean Notify(::Foundation::ViewObject::Subsystem::GroupStateChangeData data)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::Subsystem::GroupStateChangeData))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_NOTIFY_OFFSET))(this, data);
 		}
-		*/
 
+		/*
 		::System::Boolean Equals(::Foundation::ViewObject::Subsystem::GroupStateChangeListenEntry other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::Subsystem::GroupStateChangeListenEntry))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{
@@ -48,12 +51,10 @@ namespace Foundation::ViewObject::Subsystem
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_GETHASHCODE_OFFSET))(this);
 		}
 
-		/*
 		::Foundation::Tuple_2<::System::UInt32, ::System::String*> GetStateId()
 		{
 			return ((::Foundation::Tuple_2<::System::UInt32, ::System::String*>(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_SUBSYSTEM_GROUPSTATECHANGELISTENENTRY_GETSTATEID_OFFSET))(this);
 		}
-		*/
 
 		::System::Boolean __base_Equals(::System::Object* P0)
 		{

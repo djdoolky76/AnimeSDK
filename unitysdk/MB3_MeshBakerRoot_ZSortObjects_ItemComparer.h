@@ -4,10 +4,10 @@
 
 class MB3_MeshBakerRoot_ZSortObjects_Item;
 
-#define MB3_MESHBAKERROOT_ZSORTOBJECTS_ITEMCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1F8902C0)
-#define MB3_MESHBAKERROOT_ZSORTOBJECTS_ITEMCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F890300)
+#define MB3_MESHBAKERROOT_ZSORTOBJECTS_ITEMCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1FCAB300)
+#define MB3_MESHBAKERROOT_ZSORTOBJECTS_ITEMCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCAB340)
 
-inline static constexpr unsigned int MB3_MeshBakerRoot_ZSortObjects_ItemComparer_TypeDefinitionIndex = 94480;
+inline static constexpr unsigned int MB3_MeshBakerRoot_ZSortObjects_ItemComparer_TypeDefinitionIndex = 96167;
 
 class MB3_MeshBakerRoot_ZSortObjects_ItemComparer : public ::System::Object
 {

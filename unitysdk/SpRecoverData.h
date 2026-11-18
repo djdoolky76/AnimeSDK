@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SPRECOVERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A684ED0)
+#define SPRECOVERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C67F140)
 
-inline static constexpr unsigned int SpRecoverData_TypeDefinitionIndex = 78785;
+inline static constexpr unsigned int SpRecoverData_TypeDefinitionIndex = 57998;
 
 class SpRecoverData : public ::System::Object
 {
 public:
-	::System::Single RatioValue; // 0x10
-	::System::Single DeltaValue; // 0x14
+	::System::Single DeltaValue; // 0x10
+	::System::Single RatioValue; // 0x14
 
 	::System::Void _ctor()
 	{

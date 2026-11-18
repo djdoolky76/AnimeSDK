@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGVIEWPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10682D10)
+#define NAPSTREAMING_NAPSTREAMINGDATA_STREAMINGVIEWPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xF165700)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingData_StreamingViewportData_TypeDefinitionIndex = 41795;
+	inline static constexpr unsigned int NapStreamingData_StreamingViewportData_TypeDefinitionIndex = 60754;
 
 	class NapStreamingData_StreamingViewportData : public ::System::Object
 	{

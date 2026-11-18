@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/HexagonalLib/HexagonalGrid.h"
 #include "unitysdk/System/Exception.h"
+#include "unitysdk/HexagonalLib/HexagonalGrid.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
 namespace HexagonalLib { class HexagonalException_MessageBuilder; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define HEXAGONALLIB_HEXAGONALEXCEPTION_CREATEBUILDER_OFFSET UNITYSDK_OFFSET(0x1F05F040)
-#define HEXAGONALLIB_HEXAGONALEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F05EF30)
-#define HEXAGONALLIB_HEXAGONALEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F05F2E0)
-#define HEXAGONALLIB_HEXAGONALEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F05F510)
-#define HEXAGONALLIB_HEXAGONALEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F05EEB0)
+#define HEXAGONALLIB_HEXAGONALEXCEPTION_CREATEBUILDER_OFFSET UNITYSDK_OFFSET(0x1F546330)
+#define HEXAGONALLIB_HEXAGONALEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F546220)
+#define HEXAGONALLIB_HEXAGONALEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F5465D0)
+#define HEXAGONALLIB_HEXAGONALEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F546800)
+#define HEXAGONALLIB_HEXAGONALEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5461A0)
 
 namespace HexagonalLib
 {
-	inline static constexpr unsigned int HexagonalException_TypeDefinitionIndex = 29281;
+	inline static constexpr unsigned int HexagonalException_TypeDefinitionIndex = 28799;
 
 	class HexagonalException : public ::System::Exception
 	{

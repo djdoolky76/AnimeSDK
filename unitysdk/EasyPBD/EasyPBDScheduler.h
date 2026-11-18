@@ -7,42 +7,42 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define EASYPBD_EASYPBDSCHEDULER_COMPAREBYHIERARCHYDEPTH_OFFSET UNITYSDK_OFFSET(0x1CEDE2C0)
-#define EASYPBD_EASYPBDSCHEDULER_CREATERUNTIMEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1CEDCF70)
-#define EASYPBD_EASYPBDSCHEDULER_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1CEDD6D0)
-#define EASYPBD_EASYPBDSCHEDULER_GETHIERARCHYDEPTH_OFFSET UNITYSDK_OFFSET(0x1CEDE3E0)
-#define EASYPBD_EASYPBDSCHEDULER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1CEDDF30)
-#define EASYPBD_EASYPBDSCHEDULER_MARKORDERDIRTY_OFFSET UNITYSDK_OFFSET(0x1CEDD650)
-#define EASYPBD_EASYPBDSCHEDULER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CEDE1D0)
-#define EASYPBD_EASYPBDSCHEDULER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1CEDD1E0)
-#define EASYPBD_EASYPBDSCHEDULER_RESETSTATICSTATE_OFFSET UNITYSDK_OFFSET(0x1CEDCE20)
-#define EASYPBD_EASYPBDSCHEDULER_SORTIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1CEDD990)
-#define EASYPBD_EASYPBDSCHEDULER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1CEDD430)
-#define EASYPBD_EASYPBDSCHEDULER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEDE6A0)
-#define EASYPBD_EASYPBDSCHEDULER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDE650)
+#define EASYPBD_EASYPBDSCHEDULER_COMPAREBYHIERARCHYDEPTH_OFFSET UNITYSDK_OFFSET(0x1D26EA60)
+#define EASYPBD_EASYPBDSCHEDULER_CREATERUNTIMEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1D26D710)
+#define EASYPBD_EASYPBDSCHEDULER_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1D26DE70)
+#define EASYPBD_EASYPBDSCHEDULER_GETHIERARCHYDEPTH_OFFSET UNITYSDK_OFFSET(0x1D26EB80)
+#define EASYPBD_EASYPBDSCHEDULER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1D26E6D0)
+#define EASYPBD_EASYPBDSCHEDULER_MARKORDERDIRTY_OFFSET UNITYSDK_OFFSET(0x1D26DDF0)
+#define EASYPBD_EASYPBDSCHEDULER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D26E970)
+#define EASYPBD_EASYPBDSCHEDULER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1D26D980)
+#define EASYPBD_EASYPBDSCHEDULER_RESETSTATICSTATE_OFFSET UNITYSDK_OFFSET(0x1D26D5C0)
+#define EASYPBD_EASYPBDSCHEDULER_SORTIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1D26E130)
+#define EASYPBD_EASYPBDSCHEDULER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1D26DBD0)
+#define EASYPBD_EASYPBDSCHEDULER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D26EE40)
+#define EASYPBD_EASYPBDSCHEDULER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D26EDF0)
 
 namespace EasyPBD
 {
-	inline static constexpr unsigned int EasyPBDScheduler_TypeDefinitionIndex = 27684;
+	inline static constexpr unsigned int EasyPBDScheduler_TypeDefinitionIndex = 26197;
 
 	class EasyPBDScheduler : public ::UnityEngine::MonoBehaviour
 	{
 	public:
+		static ::System::Collections::Generic::HashSet_1<::EasyPBD::EasyPBDRope*>** StaticGet_ActiveRopeSet()
+		{
+			return (::System::Collections::Generic::HashSet_1<::EasyPBD::EasyPBDRope*>**)Il2CppClass::FromTypeDefinitionIndex(EasyPBDScheduler_TypeDefinitionIndex)->GetStaticField(0x23B90);
+		}
 		static ::System::Collections::Generic::List_1<::EasyPBD::EasyPBDRope*>** StaticGet_ActiveRopes()
 		{
-			return (::System::Collections::Generic::List_1<::EasyPBD::EasyPBDRope*>**)Il2CppClass::FromTypeDefinitionIndex(EasyPBDScheduler_TypeDefinitionIndex)->GetStaticField(0x22BB0);
+			return (::System::Collections::Generic::List_1<::EasyPBD::EasyPBDRope*>**)Il2CppClass::FromTypeDefinitionIndex(EasyPBDScheduler_TypeDefinitionIndex)->GetStaticField(0x23B98);
 		}
 		static ::EasyPBD::EasyPBDScheduler** StaticGet_runtimeInstance()
 		{
-			return (::EasyPBD::EasyPBDScheduler**)Il2CppClass::FromTypeDefinitionIndex(EasyPBDScheduler_TypeDefinitionIndex)->GetStaticField(0x22BB8);
-		}
-		static ::System::Collections::Generic::HashSet_1<::EasyPBD::EasyPBDRope*>** StaticGet_ActiveRopeSet()
-		{
-			return (::System::Collections::Generic::HashSet_1<::EasyPBD::EasyPBDRope*>**)Il2CppClass::FromTypeDefinitionIndex(EasyPBDScheduler_TypeDefinitionIndex)->GetStaticField(0x22BC0);
+			return (::EasyPBD::EasyPBDScheduler**)Il2CppClass::FromTypeDefinitionIndex(EasyPBDScheduler_TypeDefinitionIndex)->GetStaticField(0x23BA0);
 		}
 		static ::System::Boolean* StaticGet_orderDirty()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EasyPBDScheduler_TypeDefinitionIndex)->GetStaticField(0x6070);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EasyPBDScheduler_TypeDefinitionIndex)->GetStaticField(0x6090);
 		}
 
 		::System::Void _ctor()

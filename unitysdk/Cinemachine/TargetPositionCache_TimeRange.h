@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CINEMACHINE_TARGETPOSITIONCACHE_TIMERANGE_CONTAINS_OFFSET UNITYSDK_OFFSET(0xAB8290)
-#define CINEMACHINE_TARGETPOSITIONCACHE_TIMERANGE_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1F94AF10)
-#define CINEMACHINE_TARGETPOSITIONCACHE_TIMERANGE_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x7F1840)
-#define CINEMACHINE_TARGETPOSITIONCACHE_TIMERANGE_INCLUDE_OFFSET UNITYSDK_OFFSET(0xAB82B0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_TIMERANGE_CONTAINS_OFFSET UNITYSDK_OFFSET(0x99E4F0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_TIMERANGE_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1FD49F80)
+#define CINEMACHINE_TARGETPOSITIONCACHE_TIMERANGE_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x6C98C0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_TIMERANGE_INCLUDE_OFFSET UNITYSDK_OFFSET(0x99E510)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int TargetPositionCache_TimeRange_TypeDefinitionIndex = 34797;
+	inline static constexpr unsigned int TargetPositionCache_TimeRange_TypeDefinitionIndex = 34343;
 
 	struct alignas(4) TargetPositionCache_TimeRange
 	{
@@ -26,10 +26,12 @@ namespace Cinemachine
 			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_TARGETPOSITIONCACHE_TIMERANGE_CONTAINS_OFFSET))(this, time);
 		}
 
+		/*
 		static ::Cinemachine::TargetPositionCache_TimeRange get_Empty()
 		{
 			return ((::Cinemachine::TargetPositionCache_TimeRange(*)())((::PBYTE)hIl2Cpp + CINEMACHINE_TARGETPOSITIONCACHE_TIMERANGE_GET_EMPTY_OFFSET))();
 		}
+		*/
 
 		::System::Void Include(::System::Single time)
 		{

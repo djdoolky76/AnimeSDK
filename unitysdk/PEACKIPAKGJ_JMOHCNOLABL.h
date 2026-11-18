@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class PEACKIPAKGJ;
+namespace MoleMole { class LogicMessageBase; }
+
+#define PEACKIPAKGJ_JMOHCNOLABL_BCOGBDDIMCB_OFFSET UNITYSDK_OFFSET(0x178BD3C0)
+#define PEACKIPAKGJ_JMOHCNOLABL_FPLLBHIOLOD_OFFSET UNITYSDK_OFFSET(0x178BCF50)
+#define PEACKIPAKGJ_JMOHCNOLABL_GIAOBHOJCDP_OFFSET UNITYSDK_OFFSET(0x178BC750)
+#define PEACKIPAKGJ_JMOHCNOLABL_IDGAGMBHEJJ_OFFSET UNITYSDK_OFFSET(0x178BC570)
+#define PEACKIPAKGJ_JMOHCNOLABL__CTOR_OFFSET UNITYSDK_OFFSET(0x178BC530)
+
+inline static constexpr unsigned int PEACKIPAKGJ_JMOHCNOLABL_TypeDefinitionIndex = 88687;
+
+class PEACKIPAKGJ_JMOHCNOLABL
+{
+public:
+	::System::Void _ctor(::PEACKIPAKGJ* CLDIIILGGHP)
+	{
+		return ((::System::Void(*)(::PVOID, ::PEACKIPAKGJ*))((::PBYTE)hIl2Cpp + PEACKIPAKGJ_JMOHCNOLABL__CTOR_OFFSET))(this, CLDIIILGGHP);
+	}
+
+	::System::Void IDGAGMBHEJJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PEACKIPAKGJ_JMOHCNOLABL_IDGAGMBHEJJ_OFFSET))(this);
+	}
+
+	::System::Int32 GIAOBHOJCDP(::System::Boolean HNBCANPGODP)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PEACKIPAKGJ_JMOHCNOLABL_GIAOBHOJCDP_OFFSET))(this, HNBCANPGODP);
+	}
+
+	::System::Void FPLLBHIOLOD(::MoleMole::LogicMessageBase* GCNMAOLMLBJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::LogicMessageBase*))((::PBYTE)hIl2Cpp + PEACKIPAKGJ_JMOHCNOLABL_FPLLBHIOLOD_OFFSET))(this, GCNMAOLMLBJ);
+	}
+
+	::System::Void BCOGBDDIMCB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PEACKIPAKGJ_JMOHCNOLABL_BCOGBDDIMCB_OFFSET))(this);
+	}
+};

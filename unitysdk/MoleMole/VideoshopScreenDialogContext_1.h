@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-template <typename T> class Class_0_16E4307DCC41950C_17;
-template <typename T> class Class_2_9B614D02A0AA9182;
+template <typename T> class CPODIDNILKM_1;
+template <typename T> class DHLIOFKOPIP_1;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VideoshopScreenDialogContext_1_TypeDefinitionIndex = 57221;
+	inline static constexpr unsigned int VideoshopScreenDialogContext_1_TypeDefinitionIndex = 81692;
 
-	template <typename TItemClass>
+	template <typename T>
 	class VideoshopScreenDialogContext_1 : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_0_16E4307DCC41950C_17<TItemClass>* groupData; // 0x0
-		::Class_2_9B614D02A0AA9182<TItemClass>* sorter; // 0x0
+		::DHLIOFKOPIP_1<T>* groupData; // 0x0
+		::CPODIDNILKM_1<T>* sorter; // 0x0
 	};
 }

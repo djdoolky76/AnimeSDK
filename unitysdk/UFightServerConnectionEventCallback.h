@@ -3,17 +3,17 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UFightServerConnectionType.h"
 
-class Class_3_AE02BC8285203464_13;
+class JMKAMCIHBJK;
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UFIGHTSERVERCONNECTIONEVENTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6BCC90)
-#define UFIGHTSERVERCONNECTIONEVENTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6BCD10)
-#define UFIGHTSERVERCONNECTIONEVENTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6BC980)
-#define UFIGHTSERVERCONNECTIONEVENTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6BC960)
+#define UFIGHTSERVERCONNECTIONEVENTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F35EFC0)
+#define UFIGHTSERVERCONNECTIONEVENTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F35F040)
+#define UFIGHTSERVERCONNECTIONEVENTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F35ECB0)
+#define UFIGHTSERVERCONNECTIONEVENTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F35ECA0)
 
-inline static constexpr unsigned int UFightServerConnectionEventCallback_TypeDefinitionIndex = 29479;
+inline static constexpr unsigned int UFightServerConnectionEventCallback_TypeDefinitionIndex = 28847;
 
 class UFightServerConnectionEventCallback : public ::System::MulticastDelegate
 {
@@ -23,14 +23,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UFIGHTSERVERCONNECTIONEVENTCALLBACK__CTOR_OFFSET))(this, object, method);
 	}
 
-	::System::Void Invoke(::UFightServerConnectionType type, ::Class_3_AE02BC8285203464_13* rsp)
+	::System::Void Invoke(::UFightServerConnectionType type, ::JMKAMCIHBJK* rsp)
 	{
-		return ((::System::Void(*)(::PVOID, ::UFightServerConnectionType, ::Class_3_AE02BC8285203464_13*))((::PBYTE)hIl2Cpp + UFIGHTSERVERCONNECTIONEVENTCALLBACK_INVOKE_OFFSET))(this, type, rsp);
+		return ((::System::Void(*)(::PVOID, ::UFightServerConnectionType, ::JMKAMCIHBJK*))((::PBYTE)hIl2Cpp + UFIGHTSERVERCONNECTIONEVENTCALLBACK_INVOKE_OFFSET))(this, type, rsp);
 	}
 
-	::System::IAsyncResult* BeginInvoke(::UFightServerConnectionType type, ::Class_3_AE02BC8285203464_13* rsp, ::System::AsyncCallback* callback, ::System::Object* object)
+	::System::IAsyncResult* BeginInvoke(::UFightServerConnectionType type, ::JMKAMCIHBJK* rsp, ::System::AsyncCallback* callback, ::System::Object* object)
 	{
-		return ((::System::IAsyncResult*(*)(::PVOID, ::UFightServerConnectionType, ::Class_3_AE02BC8285203464_13*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UFIGHTSERVERCONNECTIONEVENTCALLBACK_BEGININVOKE_OFFSET))(this, type, rsp, callback, object);
+		return ((::System::IAsyncResult*(*)(::PVOID, ::UFightServerConnectionType, ::JMKAMCIHBJK*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + UFIGHTSERVERCONNECTIONEVENTCALLBACK_BEGININVOKE_OFFSET))(this, type, rsp, callback, object);
 	}
 
 	::System::Void EndInvoke(::System::IAsyncResult* result)

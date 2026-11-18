@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 
 namespace FlowCanvas::Nodes { class ReflectedMethodNodeWrapper; }
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_GRAPH_REFLECTEDMETHOD_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E8BBCB0)
-#define MESSAGEPACK_FORMATTERS_GRAPH_REFLECTEDMETHOD_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E8BB630)
-#define MESSAGEPACK_FORMATTERS_GRAPH_REFLECTEDMETHOD_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8BC4D0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_REFLECTEDMETHOD_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB81580)
+#define MESSAGEPACK_FORMATTERS_GRAPH_REFLECTEDMETHOD_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB80EF0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_REFLECTEDMETHOD_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB81DC0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Graph_ReflectedMethod_Formatter_TypeDefinitionIndex = 30314;
+	inline static constexpr unsigned int Graph_ReflectedMethod_Formatter_TypeDefinitionIndex = 29525;
 
 	class Graph_ReflectedMethod_Formatter : public ::System::Object
 	{

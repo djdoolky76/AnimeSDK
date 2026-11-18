@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/ExtractorNode_5.h"
 #include "unitysdk/UnityEngine/ContactPoint.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class GameObject; }
 
-#define FLOWCANVAS_NODES_EXTRACTCOLLISION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E5363B0)
-#define FLOWCANVAS_NODES_EXTRACTCOLLISION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5364F0)
+#define FLOWCANVAS_NODES_EXTRACTCOLLISION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E7AA420)
+#define FLOWCANVAS_NODES_EXTRACTCOLLISION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AA560)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractCollision_TypeDefinitionIndex = 29726;
+	inline static constexpr unsigned int ExtractCollision_TypeDefinitionIndex = 30566;
 
-	class ExtractCollision : public ::FlowCanvas::Nodes::ExtractorNode_5<::UnityEngine::Collision*, ::Il2CppArray<::UnityEngine::ContactPoint>*, ::UnityEngine::ContactPoint, ::UnityEngine::GameObject*, ::UnityEngine::Vector3>
+	class ExtractCollision
 	{
 	public:
 		::System::Void _ctor()

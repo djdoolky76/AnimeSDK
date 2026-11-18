@@ -6,20 +6,21 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_MASKEDTEXTPROVIDER_CHARDESCRIPTOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C6F90C0)
-#define SYSTEM_COMPONENTMODEL_MASKEDTEXTPROVIDER_CHARDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F90B0)
+#define SYSTEM_COMPONENTMODEL_MASKEDTEXTPROVIDER_CHARDESCRIPTOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CBD8CA0)
+#define SYSTEM_COMPONENTMODEL_MASKEDTEXTPROVIDER_CHARDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD8C90)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int MaskedTextProvider_CharDescriptor_TypeDefinitionIndex = 2947;
+	inline static constexpr unsigned int MaskedTextProvider_CharDescriptor_TypeDefinitionIndex = 2946;
 
 	class MaskedTextProvider_CharDescriptor : public ::System::Object
 	{
 	public:
-		::System::Int32 MaskPosition; // 0x10
-		::System::ComponentModel::MaskedTextProvider_CharType CharType; // 0x14
+		::System::ComponentModel::MaskedTextProvider_CharType CharType; // 0x10
+		::System::Boolean IsAssigned; // 0x14
+		::System::Byte _padding0[0x3];
 		::System::ComponentModel::MaskedTextProvider_CaseConversion CaseConversion; // 0x18
-		::System::Boolean IsAssigned; // 0x1C
+		::System::Int32 MaskPosition; // 0x1C
 
 		::System::Void _ctor(::System::Int32 maskPos, ::System::ComponentModel::MaskedTextProvider_CharType charType)
 		{

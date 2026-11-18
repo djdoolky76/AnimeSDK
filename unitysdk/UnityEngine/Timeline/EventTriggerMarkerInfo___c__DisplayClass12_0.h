@@ -5,12 +5,12 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Timeline { class ComicEventBase; }
 
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3AB8D0)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__DISPLAYCLASS12_0__TRAVERSEEVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1F3AB8E0)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6E76D0)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__DISPLAYCLASS12_0__TRAVERSEEVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1F6E76E0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int EventTriggerMarkerInfo___c__DisplayClass12_0_TypeDefinitionIndex = 32947;
+	inline static constexpr unsigned int EventTriggerMarkerInfo___c__DisplayClass12_0_TypeDefinitionIndex = 32402;
 
 	class EventTriggerMarkerInfo___c__DisplayClass12_0 : public ::System::Object
 	{

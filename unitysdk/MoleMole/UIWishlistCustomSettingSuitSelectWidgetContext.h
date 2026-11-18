@@ -5,11 +5,11 @@
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIWISHLISTCUSTOMSETTINGSUITSELECTWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x140DF2F0)
+#define MOLEMOLE_UIWISHLISTCUSTOMSETTINGSUITSELECTWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1719ABB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistCustomSettingSuitSelectWidgetContext_TypeDefinitionIndex = 79280;
+	inline static constexpr unsigned int UIWishlistCustomSettingSuitSelectWidgetContext_TypeDefinitionIndex = 68876;
 
 	class UIWishlistCustomSettingSuitSelectWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

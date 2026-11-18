@@ -3,15 +3,15 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeTransitionTrigger_TypeDefinitionIndex = 31684;
+	inline static constexpr unsigned int StateTreeTransitionTrigger_TypeDefinitionIndex = 31122;
 
 	enum class StateTreeTransitionTrigger : ::System::Byte
 	{
-		None = 0x0,
-		OnStateCompleted = 0x3,
-		OnStateSucceeded = 0x1,
-		OnStateFailed = 0x2,
-		OnTick = 0x4,
-		OnEvent = 0x8,
+		None = 0,
+		OnStateCompleted = 3,
+		OnStateSucceeded = 1,
+		OnStateFailed = 2,
+		OnTick = 4,
+		OnEvent = 8,
 	};
 }

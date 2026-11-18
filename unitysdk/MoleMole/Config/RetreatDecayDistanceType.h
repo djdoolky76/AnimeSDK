@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int RetreatDecayDistanceType_TypeDefinitionIndex = 79974;
+	inline static constexpr unsigned int RetreatDecayDistanceType_TypeDefinitionIndex = 50210;
 
 	enum class RetreatDecayDistanceType : ::System::Int32
 	{
-		PatternToAttackee = 2,
-		AttackerToAttackee = 1,
 		None = 0,
+		AttackerToAttackee = 1,
+		PatternToAttackee = 2,
 	};
 }

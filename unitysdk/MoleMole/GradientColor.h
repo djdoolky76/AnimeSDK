@@ -1,42 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/UI/BaseMeshEffect.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/UIVertex.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define MOLEMOLE_GRADIENTCOLOR_GET_COLORBOTTOM_OFFSET UNITYSDK_OFFSET(0x13A92AD0)
-#define MOLEMOLE_GRADIENTCOLOR_GET_COLORLEFT_OFFSET UNITYSDK_OFFSET(0x13A92B90)
-#define MOLEMOLE_GRADIENTCOLOR_GET_COLORRIGHT_OFFSET UNITYSDK_OFFSET(0x13A92C50)
-#define MOLEMOLE_GRADIENTCOLOR_GET_COLORTOP_OFFSET UNITYSDK_OFFSET(0x13A92880)
-#define MOLEMOLE_GRADIENTCOLOR_GET_GRADIENTOFFSETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x13A92DC0)
-#define MOLEMOLE_GRADIENTCOLOR_GET_GRADIENTOFFSETVERTICAL_OFFSET UNITYSDK_OFFSET(0x13A92D10)
-#define MOLEMOLE_GRADIENTCOLOR_GET_IGNOREPRECOLOR_OFFSET UNITYSDK_OFFSET(0x13A92E70)
-#define MOLEMOLE_GRADIENTCOLOR_METHOD_7_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0x13A93620)
-#define MOLEMOLE_GRADIENTCOLOR_METHOD_7_2A9A3A19317E953E_OFFSET UNITYSDK_OFFSET(0x13A930C0)
-#define MOLEMOLE_GRADIENTCOLOR_METHOD_7_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0x13A92940)
-#define MOLEMOLE_GRADIENTCOLOR_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x13A92EE0)
-#define MOLEMOLE_GRADIENTCOLOR_SET_COLORBOTTOM_OFFSET UNITYSDK_OFFSET(0x13A92AE0)
-#define MOLEMOLE_GRADIENTCOLOR_SET_COLORLEFT_OFFSET UNITYSDK_OFFSET(0x13A92BA0)
-#define MOLEMOLE_GRADIENTCOLOR_SET_COLORRIGHT_OFFSET UNITYSDK_OFFSET(0x13A92C60)
-#define MOLEMOLE_GRADIENTCOLOR_SET_COLORTOP_OFFSET UNITYSDK_OFFSET(0x13A92890)
-#define MOLEMOLE_GRADIENTCOLOR_SET_GRADIENTOFFSETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x13A92DD0)
-#define MOLEMOLE_GRADIENTCOLOR_SET_GRADIENTOFFSETVERTICAL_OFFSET UNITYSDK_OFFSET(0x13A92D20)
-#define MOLEMOLE_GRADIENTCOLOR_SET_IGNOREPRECOLOR_OFFSET UNITYSDK_OFFSET(0x13A92E80)
-#define MOLEMOLE_GRADIENTCOLOR_START_OFFSET UNITYSDK_OFFSET(0x13A935B0)
-#define MOLEMOLE_GRADIENTCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x13A938A0)
-#define MOLEMOLE_GRADIENTCOLOR___BASE_START_OFFSET UNITYSDK_OFFSET(0x13A93950)
+#define MOLEMOLE_GRADIENTCOLOR_ABDLEONNPAJ_OFFSET UNITYSDK_OFFSET(0x1466D850)
+#define MOLEMOLE_GRADIENTCOLOR_GCNDBCDDKPF_OFFSET UNITYSDK_OFFSET(0x1466E530)
+#define MOLEMOLE_GRADIENTCOLOR_GET_COLORBOTTOM_OFFSET UNITYSDK_OFFSET(0x1466D9E0)
+#define MOLEMOLE_GRADIENTCOLOR_GET_COLORLEFT_OFFSET UNITYSDK_OFFSET(0x1466DAA0)
+#define MOLEMOLE_GRADIENTCOLOR_GET_COLORRIGHT_OFFSET UNITYSDK_OFFSET(0x1466DB60)
+#define MOLEMOLE_GRADIENTCOLOR_GET_COLORTOP_OFFSET UNITYSDK_OFFSET(0x1466D790)
+#define MOLEMOLE_GRADIENTCOLOR_GET_GRADIENTOFFSETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1466DCD0)
+#define MOLEMOLE_GRADIENTCOLOR_GET_GRADIENTOFFSETVERTICAL_OFFSET UNITYSDK_OFFSET(0x1466DC20)
+#define MOLEMOLE_GRADIENTCOLOR_GET_IGNOREPRECOLOR_OFFSET UNITYSDK_OFFSET(0x1466DD80)
+#define MOLEMOLE_GRADIENTCOLOR_HEMMCCCFOKM_OFFSET UNITYSDK_OFFSET(0x1466DFD0)
+#define MOLEMOLE_GRADIENTCOLOR_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1466DDF0)
+#define MOLEMOLE_GRADIENTCOLOR_NIGDIMFIAEJ_OFFSET UNITYSDK_OFFSET(0x1466E860)
+#define MOLEMOLE_GRADIENTCOLOR_SET_COLORBOTTOM_OFFSET UNITYSDK_OFFSET(0x1466D9F0)
+#define MOLEMOLE_GRADIENTCOLOR_SET_COLORLEFT_OFFSET UNITYSDK_OFFSET(0x1466DAB0)
+#define MOLEMOLE_GRADIENTCOLOR_SET_COLORRIGHT_OFFSET UNITYSDK_OFFSET(0x1466DB70)
+#define MOLEMOLE_GRADIENTCOLOR_SET_COLORTOP_OFFSET UNITYSDK_OFFSET(0x1466D7A0)
+#define MOLEMOLE_GRADIENTCOLOR_SET_GRADIENTOFFSETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1466DCE0)
+#define MOLEMOLE_GRADIENTCOLOR_SET_GRADIENTOFFSETVERTICAL_OFFSET UNITYSDK_OFFSET(0x1466DC30)
+#define MOLEMOLE_GRADIENTCOLOR_SET_IGNOREPRECOLOR_OFFSET UNITYSDK_OFFSET(0x1466DD90)
+#define MOLEMOLE_GRADIENTCOLOR_START_OFFSET UNITYSDK_OFFSET(0x1466E4C0)
+#define MOLEMOLE_GRADIENTCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1466E7B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GradientColor_TypeDefinitionIndex = 89016;
+	inline static constexpr unsigned int GradientColor_TypeDefinitionIndex = 69543;
 
 	class GradientColor : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:
-		// static const ::System::Int32 Field_7_2 = 0x6; // 0x0
+		// static const ::System::Int32 KHPGDALIEKG = 0x6; // 0x0
 		::UnityEngine::Color m_colorTop; // 0x20
 		::UnityEngine::Color m_colorBottom; // 0x30
 		::UnityEngine::Color m_colorLeft; // 0x40
@@ -56,9 +56,9 @@ namespace MoleMole
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_GET_COLORTOP_OFFSET))(this);
 		}
 
-		::System::Void set_ColorTop(::UnityEngine::Color a1)
+		::System::Void set_ColorTop(::UnityEngine::Color EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_COLORTOP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_COLORTOP_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Color get_ColorBottom()
@@ -66,9 +66,9 @@ namespace MoleMole
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_GET_COLORBOTTOM_OFFSET))(this);
 		}
 
-		::System::Void set_ColorBottom(::UnityEngine::Color a1)
+		::System::Void set_ColorBottom(::UnityEngine::Color EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_COLORBOTTOM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_COLORBOTTOM_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Color get_ColorLeft()
@@ -76,9 +76,9 @@ namespace MoleMole
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_GET_COLORLEFT_OFFSET))(this);
 		}
 
-		::System::Void set_ColorLeft(::UnityEngine::Color a1)
+		::System::Void set_ColorLeft(::UnityEngine::Color EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_COLORLEFT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_COLORLEFT_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Color get_ColorRight()
@@ -86,9 +86,9 @@ namespace MoleMole
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_GET_COLORRIGHT_OFFSET))(this);
 		}
 
-		::System::Void set_ColorRight(::UnityEngine::Color a1)
+		::System::Void set_ColorRight(::UnityEngine::Color EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_COLORRIGHT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_COLORRIGHT_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Single get_GradientOffsetVertical()
@@ -96,9 +96,9 @@ namespace MoleMole
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_GET_GRADIENTOFFSETVERTICAL_OFFSET))(this);
 		}
 
-		::System::Void set_GradientOffsetVertical(::System::Single a1)
+		::System::Void set_GradientOffsetVertical(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_GRADIENTOFFSETVERTICAL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_GRADIENTOFFSETVERTICAL_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Single get_GradientOffsetHorizontal()
@@ -106,9 +106,9 @@ namespace MoleMole
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_GET_GRADIENTOFFSETHORIZONTAL_OFFSET))(this);
 		}
 
-		::System::Void set_GradientOffsetHorizontal(::System::Single a1)
+		::System::Void set_GradientOffsetHorizontal(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_GRADIENTOFFSETHORIZONTAL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_GRADIENTOFFSETHORIZONTAL_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Boolean get_IgnorePreColor()
@@ -116,14 +116,14 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_GET_IGNOREPRECOLOR_OFFSET))(this);
 		}
 
-		::System::Void set_IgnorePreColor(::System::Boolean a1)
+		::System::Void set_IgnorePreColor(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_IGNOREPRECOLOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_SET_IGNOREPRECOLOR_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Void ModifyMesh(::UnityEngine::UI::VertexHelper* a1)
+		::System::Void ModifyMesh(::UnityEngine::UI::VertexHelper* KKHICLCLGDM)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_MODIFYMESH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_MODIFYMESH_OFFSET))(this, KKHICLCLGDM);
 		}
 
 		::System::Void Start()
@@ -131,24 +131,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_START_OFFSET))(this);
 		}
 
-		::System::Void __base_Start()
+		::System::Void ABDLEONNPAJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR___BASE_START_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_ABDLEONNPAJ_OFFSET))(this);
 		}
 
-		::System::Void Method_7_28EB11670A8E5A86()
+		::System::Void HEMMCCCFOKM(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* CGLPDFKDFAP)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_METHOD_7_28EB11670A8E5A86_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_HEMMCCCFOKM_OFFSET))(this, CGLPDFKDFAP);
 		}
 
-		::System::Void Method_7_2A9A3A19317E953E(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* a1)
+		::System::Void NIGDIMFIAEJ()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_METHOD_7_2A9A3A19317E953E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_NIGDIMFIAEJ_OFFSET))(this);
 		}
 
-		::System::Void Method_7_97D83E4CB3B11935()
+		::System::Void GCNDBCDDKPF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_METHOD_7_97D83E4CB3B11935_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GRADIENTCOLOR_GCNDBCDDKPF_OFFSET))(this);
 		}
 	};
 }

@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x118B4AA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO_START_OFFSET UNITYSDK_OFFSET(0x118B4C40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x118B4F80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x118B5070)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x118B50A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO__REGISTERPORTS_B__4_2_OFFSET UNITYSDK_OFFSET(0x118B50B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO__REGISTERPORTS_B__4_3_OFFSET UNITYSDK_OFFSET(0x118B50C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16233C50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO_START_OFFSET UNITYSDK_OFFSET(0x16233DF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16234130)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x16234220)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x16234250)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO__REGISTERPORTS_B__4_2_OFFSET UNITYSDK_OFFSET(0x16234260)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETDEADAVATARINFO__REGISTERPORTS_B__4_3_OFFSET UNITYSDK_OFFSET(0x16234270)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetDeadAvatarInfo_TypeDefinitionIndex = 70933;
+	inline static constexpr unsigned int LDGetDeadAvatarInfo_TypeDefinitionIndex = 56074;
 
 	class LDGetDeadAvatarInfo : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* Indexes; // 0xA8
-		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* DeadEntities; // 0xB0
-		::FlowCanvas::FlowOutput* Output; // 0xB8
+		::FlowCanvas::FlowOutput* Output; // 0xA8
+		::System::Collections::Generic::List_1<::System::Int32>* Indexes; // 0xB0
+		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* DeadEntities; // 0xB8
 		::System::Boolean HasDeadAvatar; // 0xC0
 
 		::System::Void _ctor()

@@ -7,36 +7,37 @@ namespace Mono::Xml { class MiniParser_IReader; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define MONO_XML_MINIPARSER_FATALERR_OFFSET UNITYSDK_OFFSET(0x1FADAAC0)
-#define MONO_XML_MINIPARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x1FADACB0)
-#define MONO_XML_MINIPARSER_RESET_OFFSET UNITYSDK_OFFSET(0x1FADA9B0)
-#define MONO_XML_MINIPARSER_STREQUALS_OFFSET UNITYSDK_OFFSET(0x1FADA9C0)
-#define MONO_XML_MINIPARSER_XLAT_OFFSET UNITYSDK_OFFSET(0x1FADAB20)
-#define MONO_XML_MINIPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FADD410)
-#define MONO_XML_MINIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FADA950)
+#define MONO_XML_MINIPARSER_FATALERR_OFFSET UNITYSDK_OFFSET(0x1FEEB820)
+#define MONO_XML_MINIPARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x1FEEBA10)
+#define MONO_XML_MINIPARSER_RESET_OFFSET UNITYSDK_OFFSET(0x1FEEB710)
+#define MONO_XML_MINIPARSER_STREQUALS_OFFSET UNITYSDK_OFFSET(0x1FEEB720)
+#define MONO_XML_MINIPARSER_XLAT_OFFSET UNITYSDK_OFFSET(0x1FEEB880)
+#define MONO_XML_MINIPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FEEE170)
+#define MONO_XML_MINIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FEEB6C0)
 
 namespace Mono::Xml
 {
-	inline static constexpr unsigned int MiniParser_TypeDefinitionIndex = 2260;
+	inline static constexpr unsigned int MiniParser_TypeDefinitionIndex = 2259;
 
 	class MiniParser : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_errors()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiniParser_TypeDefinitionIndex)->GetStaticField(0x2570);
-		}
 		static ::Il2CppArray<::System::UInt16>** StaticGet_tbl()
 		{
-			return (::Il2CppArray<::System::UInt16>**)Il2CppClass::FromTypeDefinitionIndex(MiniParser_TypeDefinitionIndex)->GetStaticField(0x2578);
+			return (::Il2CppArray<::System::UInt16>**)Il2CppClass::FromTypeDefinitionIndex(MiniParser_TypeDefinitionIndex)->GetStaticField(0x2570);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_errors()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiniParser_TypeDefinitionIndex)->GetStaticField(0x2578);
 		}
 		static ::System::Int32* StaticGet_INPUT_RANGE()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MiniParser_TypeDefinitionIndex)->GetStaticField(0xF80);
 		}
 		::Il2CppArray<::System::Int32>* twoCharBuff; // 0x10
-		::System::Int32 line; // 0x18
-		::System::Boolean splitCData; // 0x1C
+		::System::Boolean splitCData; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Int32 line; // 0x1C
 		::System::Int32 col; // 0x20
 
 		::System::Void _ctor()

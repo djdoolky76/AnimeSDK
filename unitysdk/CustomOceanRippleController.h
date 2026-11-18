@@ -4,33 +4,33 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CUSTOMOCEANRIPPLECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A89ACF0)
-#define CUSTOMOCEANRIPPLECONTROLLER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1A89B1F0)
-#define CUSTOMOCEANRIPPLECONTROLLER_PUSHRIPPLEPARAMS_OFFSET UNITYSDK_OFFSET(0x1A89AF20)
-#define CUSTOMOCEANRIPPLECONTROLLER_SANITIZERIPPLEPARAMS_OFFSET UNITYSDK_OFFSET(0x1A89AE30)
-#define CUSTOMOCEANRIPPLECONTROLLER_SETRIPPLEDATA_OFFSET UNITYSDK_OFFSET(0x1A89B5A0)
-#define CUSTOMOCEANRIPPLECONTROLLER_SETRIPPLEENABLED_OFFSET UNITYSDK_OFFSET(0x1A89B750)
-#define CUSTOMOCEANRIPPLECONTROLLER_TRIGGERRIPPLE_OFFSET UNITYSDK_OFFSET(0x1A89B460)
-#define CUSTOMOCEANRIPPLECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A89B300)
-#define CUSTOMOCEANRIPPLECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A89B830)
-#define CUSTOMOCEANRIPPLECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A89B7D0)
+#define CUSTOMOCEANRIPPLECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1831AC30)
+#define CUSTOMOCEANRIPPLECONTROLLER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1831B130)
+#define CUSTOMOCEANRIPPLECONTROLLER_PUSHRIPPLEPARAMS_OFFSET UNITYSDK_OFFSET(0x1831AE60)
+#define CUSTOMOCEANRIPPLECONTROLLER_SANITIZERIPPLEPARAMS_OFFSET UNITYSDK_OFFSET(0x1831AD70)
+#define CUSTOMOCEANRIPPLECONTROLLER_SETRIPPLEDATA_OFFSET UNITYSDK_OFFSET(0x1831B4E0)
+#define CUSTOMOCEANRIPPLECONTROLLER_SETRIPPLEENABLED_OFFSET UNITYSDK_OFFSET(0x1831B690)
+#define CUSTOMOCEANRIPPLECONTROLLER_TRIGGERRIPPLE_OFFSET UNITYSDK_OFFSET(0x1831B3A0)
+#define CUSTOMOCEANRIPPLECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1831B240)
+#define CUSTOMOCEANRIPPLECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1831B770)
+#define CUSTOMOCEANRIPPLECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1831B710)
 
-inline static constexpr unsigned int CustomOceanRippleController_TypeDefinitionIndex = 77308;
+inline static constexpr unsigned int CustomOceanRippleController_TypeDefinitionIndex = 79251;
 
 class CustomOceanRippleController : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Int32* StaticGet_CustomSingleRippleParams0ID()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CustomOceanRippleController_TypeDefinitionIndex)->GetStaticField(0x10F00);
-	}
 	static ::System::Int32* StaticGet_CustomSingleRippleParams2ID()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CustomOceanRippleController_TypeDefinitionIndex)->GetStaticField(0x10F04);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CustomOceanRippleController_TypeDefinitionIndex)->GetStaticField(0x136F0);
+	}
+	static ::System::Int32* StaticGet_CustomSingleRippleParams0ID()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CustomOceanRippleController_TypeDefinitionIndex)->GetStaticField(0x136F4);
 	}
 	static ::System::Int32* StaticGet_CustomSingleRippleParams1ID()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CustomOceanRippleController_TypeDefinitionIndex)->GetStaticField(0x10F08);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CustomOceanRippleController_TypeDefinitionIndex)->GetStaticField(0x136F8);
 	}
 	// static const ::System::Single MinRippleRange; // 0x0
 	// static const ::System::Single MaxRippleRange; // 0x0
@@ -46,6 +46,7 @@ public:
 	::System::Single rippleIntensity; // 0x28
 	::System::Single fadeDuration; // 0x2C
 	::System::Boolean rippleEnabled; // 0x30
+	::System::Byte _padding0[0x3];
 	::System::Single triggerTime; // 0x34
 	::System::Single stopTime; // 0x38
 	::System::Boolean wasRippleEnabled; // 0x3C

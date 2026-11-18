@@ -2,33 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class GUIStyle; }
-namespace UnityEngine::Rendering::Universal { class SRPBatcherProfiler_RecorderEntry; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D606220)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_ONGUI_OFFSET UNITYSDK_OFFSET(0x1D606E60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_RAZCOUNTERS_OFFSET UNITYSDK_OFFSET(0x1D606900)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_RESETSTATS_OFFSET UNITYSDK_OFFSET(0x1D606830)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_TOGGLESTATS_OFFSET UNITYSDK_OFFSET(0x1D606980)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D6069D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D607050)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D8D3B40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_ONGUI_OFFSET UNITYSDK_OFFSET(0x1D8D4780)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_RAZCOUNTERS_OFFSET UNITYSDK_OFFSET(0x1D8D4220)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_RESETSTATS_OFFSET UNITYSDK_OFFSET(0x1D8D4150)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_TOGGLESTATS_OFFSET UNITYSDK_OFFSET(0x1D8D42A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D8D42F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D4970)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SRPBatcherProfiler_TypeDefinitionIndex = 27756;
+	inline static constexpr unsigned int SRPBatcherProfiler_TypeDefinitionIndex = 26630;
 
 	class SRPBatcherProfiler : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		// static const ::System::Single kAverageStatDuration; // 0x0
 		::System::Boolean m_Enable; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Int32 m_frameCount; // 0x1C
 		::System::Single m_AccDeltaTime; // 0x20
+		::System::Byte _padding1[0x4];
 		::System::String* m_statsLabel; // 0x28
 		::UnityEngine::GUIStyle* m_style; // 0x30
 		::System::Boolean m_oldBatcherEnable; // 0x38
-		::Il2CppArray<::UnityEngine::Rendering::Universal::SRPBatcherProfiler_RecorderEntry*>* recordersList; // 0x40
+		::System::Byte _padding2[0x7];
+		::Il2CppArray<::System::Object*>* recordersList; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -4,10 +4,10 @@
 
 namespace BinaryTracingFramework::Foundation
 {
-	inline static constexpr unsigned int PoolObjectWarp_1_TypeDefinitionIndex = 34629;
+	inline static constexpr unsigned int PoolObjectWarp_1_TypeDefinitionIndex = 34175;
 
 	template <typename T>
-	struct PoolObjectWarp_1
+	struct alignas(8) PoolObjectWarp_1
 	{
 		T _poolObject; // 0x0
 	};

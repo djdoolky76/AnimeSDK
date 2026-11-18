@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 
 namespace FlowCanvas { class BinderConnection; }
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_GRAPH_BINDERCONNECTION_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E8BB030)
-#define MESSAGEPACK_FORMATTERS_GRAPH_BINDERCONNECTION_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E8BA430)
-#define MESSAGEPACK_FORMATTERS_GRAPH_BINDERCONNECTION_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8BB620)
+#define MESSAGEPACK_FORMATTERS_GRAPH_BINDERCONNECTION_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB808F0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_BINDERCONNECTION_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB7FCF0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_BINDERCONNECTION_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB80EE0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Graph_BinderConnection_Formatter_TypeDefinitionIndex = 31410;
+	inline static constexpr unsigned int Graph_BinderConnection_Formatter_TypeDefinitionIndex = 29637;
 
 	class Graph_BinderConnection_Formatter : public ::System::Object
 	{

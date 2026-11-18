@@ -4,11 +4,11 @@
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int ArchetypeComponentData_1___componentOffset_e__FixedBuffer_TypeDefinitionIndex = 38400;
+	inline static constexpr unsigned int ArchetypeComponentData_1___componentOffset_e__FixedBuffer_TypeDefinitionIndex = 36402;
 
-	template <typename TScope>
-	struct ArchetypeComponentData_1___componentOffset_e__FixedBuffer
+	template <typename T>
+	struct alignas(4) ArchetypeComponentData_1___componentOffset_e__FixedBuffer
 	{
-		::System::Int16 data[0]; // 0x0
+		::System::Int16 FixedElementField; // 0x0
 	};
 }

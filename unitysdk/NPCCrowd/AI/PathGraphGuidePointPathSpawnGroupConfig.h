@@ -2,23 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/AI/PathGraphSpawnGroupConfig.h"
 
-namespace NPCCrowd::AI { class PathGraphGuidePointPathSpawnGroupConfig_SpawnPathInfo; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHGUIDEPOINTPATHSPAWNGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF764EB0)
+#define NPCCROWD_AI_PATHGRAPHGUIDEPOINTPATHSPAWNGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xFD1E640)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphGuidePointPathSpawnGroupConfig_TypeDefinitionIndex = 53497;
+	inline static constexpr unsigned int PathGraphGuidePointPathSpawnGroupConfig_TypeDefinitionIndex = 86167;
 
 	class PathGraphGuidePointPathSpawnGroupConfig : public ::NPCCrowd::AI::PathGraphSpawnGroupConfig
 	{
 	public:
 		::System::Boolean spawnCountLimit; // 0x48
+		::System::Byte _padding0[0x3];
 		::System::Int32 maxSpawnCount; // 0x4C
 		::System::Single spawnInterval; // 0x50
 		::System::Single spawnVarious; // 0x54
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphGuidePointPathSpawnGroupConfig_SpawnPathInfo*>* pathInfoList; // 0x58
+		::System::Collections::Generic::List_1<::System::Object*>* pathInfoList; // 0x58
 
 		::System::Void _ctor()
 		{

@@ -5,26 +5,28 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_KIBANABASEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCD8D0)
+#define MIHOYO_SDK_KIBANABASEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4632E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaBaseModel_TypeDefinitionIndex = 19991;
+	inline static constexpr unsigned int KibanaBaseModel_TypeDefinitionIndex = 19137;
 
 	class KibanaBaseModel : public ::System::Object
 	{
 	public:
 		::System::String* sdk_version; // 0x10
 		::System::Int32 sdk_env; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* game_biz; // 0x20
 		::System::String* channel_id; // 0x28
 		::System::String* sub_channel_id; // 0x30
 		::System::String* launch_trace_id; // 0x38
-		::System::String* age_gate_type; // 0x40
+		::System::String* age_gate_country; // 0x40
 		::System::String* server_id; // 0x48
 		::System::String* role_id; // 0x50
 		::System::String* aid; // 0x58
 		::System::Int32 client_type; // 0x60
+		::System::Byte _padding1[0x4];
 		::System::String* sys_version; // 0x68
 		::System::String* device_name; // 0x70
 		::System::String* device_model; // 0x78
@@ -34,6 +36,7 @@ namespace MiHoYo::SDK
 		::System::String* mac_description; // 0x98
 		::System::String* module; // 0xA0
 		::System::Int32 tk_code; // 0xA8
+		::System::Byte _padding2[0x4];
 		::System::String* tk_time; // 0xB0
 		::System::Int64 tk_timestamp; // 0xB8
 		::System::String* tk_request_id; // 0xC0

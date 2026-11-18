@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
-namespace FlowCanvas::Nodes { class LatchInt___c__DisplayClass2_0; }
-
-#define FLOWCANVAS_NODES_LATCHINT___C__DISPLAYCLASS2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB24B90)
-#define FLOWCANVAS_NODES_LATCHINT___C__DISPLAYCLASS2_1__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1DB24BA0)
+#define FLOWCANVAS_NODES_LATCHINT___C__DISPLAYCLASS2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE97A30)
+#define FLOWCANVAS_NODES_LATCHINT___C__DISPLAYCLASS2_1__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1DE97A40)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LatchInt___c__DisplayClass2_1_TypeDefinitionIndex = 30874;
+	inline static constexpr unsigned int LatchInt___c__DisplayClass2_1_TypeDefinitionIndex = 29675;
 
+	template <typename T>
 	class LatchInt___c__DisplayClass2_1 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::LatchInt___c__DisplayClass2_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::Int32 i; // 0x18
 
 		::System::Void _ctor()

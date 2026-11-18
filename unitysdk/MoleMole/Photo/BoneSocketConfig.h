@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_PHOTO_BONESOCKETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168872B0)
+#define MOLEMOLE_PHOTO_BONESOCKETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10D53A70)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int BoneSocketConfig_TypeDefinitionIndex = 57291;
+	inline static constexpr unsigned int BoneSocketConfig_TypeDefinitionIndex = 38728;
 
 	class BoneSocketConfig : public ::System::Object
 	{

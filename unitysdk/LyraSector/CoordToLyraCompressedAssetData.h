@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/LyraSector/LyraSectorCoord.h"
-#include "unitysdk/UnityEngine/Rendering/SerializedDictionary_2.h"
 
-namespace LyraSector { class LyraPackedAssetSectorData; }
-
-#define LYRASECTOR_COORDTOLYRACOMPRESSEDASSETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4C77F0)
+#define LYRASECTOR_COORDTOLYRACOMPRESSEDASSETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C970570)
 
 namespace LyraSector
 {
-	inline static constexpr unsigned int CoordToLyraCompressedAssetData_TypeDefinitionIndex = 27324;
+	inline static constexpr unsigned int CoordToLyraCompressedAssetData_TypeDefinitionIndex = 26703;
 
-	class CoordToLyraCompressedAssetData : public ::UnityEngine::Rendering::SerializedDictionary_2<::LyraSector::LyraSectorCoord, ::LyraSector::LyraPackedAssetSectorData*>
+	class CoordToLyraCompressedAssetData
 	{
 	public:
 		::System::Void _ctor()

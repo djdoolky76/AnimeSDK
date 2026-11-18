@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ICEBNIECGBK.h"
+#include "unitysdk/OLPPOJJADDO.h"
+
+namespace UnityEngine { class RectTransform; }
+template <typename T> class BFMLEHMAGAK_1;
+
+#define HLJIHDEFJEK_CCKJJKMFJMH_OFFSET UNITYSDK_OFFSET(0x14D343D0)
+#define HLJIHDEFJEK_FDILCHDDCPB_OFFSET UNITYSDK_OFFSET(0x14D34510)
+#define HLJIHDEFJEK_FLOJICFHPLL_OFFSET UNITYSDK_OFFSET(0x14D345E0)
+#define HLJIHDEFJEK_IADJCECLLCI_OFFSET UNITYSDK_OFFSET(0x14D343C0)
+#define HLJIHDEFJEK_KIAGBIJAKNP_OFFSET UNITYSDK_OFFSET(0x14D34470)
+#define HLJIHDEFJEK_MJMCCLKHLIF_OFFSET UNITYSDK_OFFSET(0x14D34630)
+#define HLJIHDEFJEK_MPBOHOJBKJB_OFFSET UNITYSDK_OFFSET(0x14D34500)
+#define HLJIHDEFJEK_NHLMHIHPNED_OFFSET UNITYSDK_OFFSET(0x14D345D0)
+#define HLJIHDEFJEK__CTOR_OFFSET UNITYSDK_OFFSET(0x14D345F0)
+
+inline static constexpr unsigned int HLJIHDEFJEK_TypeDefinitionIndex = 44345;
+
+class HLJIHDEFJEK
+{
+public:
+	::BFMLEHMAGAK_1<::OLPPOJJADDO>* ELEMEAGFJIF; // 0x230
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HLJIHDEFJEK__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean IADJCECLLCI()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HLJIHDEFJEK_IADJCECLLCI_OFFSET))(this);
+	}
+
+	::System::Boolean CCKJJKMFJMH()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HLJIHDEFJEK_CCKJJKMFJMH_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* KIAGBIJAKNP()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + HLJIHDEFJEK_KIAGBIJAKNP_OFFSET))(this);
+	}
+
+	::System::Single MPBOHOJBKJB()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + HLJIHDEFJEK_MPBOHOJBKJB_OFFSET))(this);
+	}
+
+	::BFMLEHMAGAK_1<::OLPPOJJADDO>* FDILCHDDCPB()
+	{
+		return ((::BFMLEHMAGAK_1<::OLPPOJJADDO>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HLJIHDEFJEK_FDILCHDDCPB_OFFSET))(this);
+	}
+
+	::ICEBNIECGBK NHLMHIHPNED()
+	{
+		return ((::ICEBNIECGBK(*)(::PVOID))((::PBYTE)hIl2Cpp + HLJIHDEFJEK_NHLMHIHPNED_OFFSET))(this);
+	}
+
+	::System::Single FLOJICFHPLL()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + HLJIHDEFJEK_FLOJICFHPLL_OFFSET))(this);
+	}
+
+	::OLPPOJJADDO MJMCCLKHLIF()
+	{
+		return ((::OLPPOJJADDO(*)(::PVOID))((::PBYTE)hIl2Cpp + HLJIHDEFJEK_MJMCCLKHLIF_OFFSET))(this);
+	}
+};

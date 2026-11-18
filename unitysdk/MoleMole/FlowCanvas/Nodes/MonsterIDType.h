@@ -3,11 +3,11 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MonsterIDType_TypeDefinitionIndex = 88426;
+	inline static constexpr unsigned int MonsterIDType_TypeDefinitionIndex = 81673;
 
 	enum class MonsterIDType : ::System::Int32
 	{
-		BaseID = 1,
 		SubID = 0,
+		BaseID = 1,
 	};
 }

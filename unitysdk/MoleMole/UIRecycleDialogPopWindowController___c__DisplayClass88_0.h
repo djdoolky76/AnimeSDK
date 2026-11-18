@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 
-#define MOLEMOLE_UIRECYCLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS88_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E2FF20)
-#define MOLEMOLE_UIRECYCLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS88_0__SELECTEQUIPFORNOTCONSOLE_B__0_OFFSET UNITYSDK_OFFSET(0x17E2FF30)
+#define MOLEMOLE_UIRECYCLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS88_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18708180)
+#define MOLEMOLE_UIRECYCLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS88_0__SELECTEQUIPFORNOTCONSOLE_B__0_OFFSET UNITYSDK_OFFSET(0x18708190)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRecycleDialogPopWindowController___c__DisplayClass88_0_TypeDefinitionIndex = 67831;
+	inline static constexpr unsigned int UIRecycleDialogPopWindowController___c__DisplayClass88_0_TypeDefinitionIndex = 42930;
 
 	class UIRecycleDialogPopWindowController___c__DisplayClass88_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS88_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _SelectEquipForNotConsole_b__0(::Class_1_0D6706375CDAAE8C* x)
+		::System::Boolean _SelectEquipForNotConsole_b__0(::HGAJKHIMKJP* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_0D6706375CDAAE8C*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS88_0__SELECTEQUIPFORNOTCONSOLE_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::HGAJKHIMKJP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRECYCLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS88_0__SELECTEQUIPFORNOTCONSOLE_B__0_OFFSET))(this, x);
 		}
 	};
 }

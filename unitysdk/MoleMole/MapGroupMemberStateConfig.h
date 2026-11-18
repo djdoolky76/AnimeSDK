@@ -12,15 +12,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_ADDTOBOUNDSLIST_OFFSET UNITYSDK_OFFSET(0x136C4B70)
-#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GETPIVOTCENTER_OFFSET UNITYSDK_OFFSET(0x136C4840)
-#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GET_ANIMATOR_OFFSET UNITYSDK_OFFSET(0x136C4650)
-#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GET_MESHBOUNDS_OFFSET UNITYSDK_OFFSET(0x136C40F0)
-#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x136C5110)
+#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_ADDTOBOUNDSLIST_OFFSET UNITYSDK_OFFSET(0x135A0BE0)
+#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GETPIVOTCENTER_OFFSET UNITYSDK_OFFSET(0x135A08B0)
+#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GET_ANIMATOR_OFFSET UNITYSDK_OFFSET(0x135A06C0)
+#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GET_MESHBOUNDS_OFFSET UNITYSDK_OFFSET(0x135A0160)
+#define MOLEMOLE_MAPGROUPMEMBERSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x135A1180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MapGroupMemberStateConfig_TypeDefinitionIndex = 44812;
+	inline static constexpr unsigned int MapGroupMemberStateConfig_TypeDefinitionIndex = 49262;
 
 	class MapGroupMemberStateConfig : public ::UnityEngine::MonoBehaviour
 	{
@@ -37,10 +37,11 @@ namespace MoleMole
 		::System::Boolean IgnoreRadarInit; // 0x56
 		::System::Boolean ShowRadarSpecialEffect; // 0x57
 		::System::Int32 ForceShowLayerIndex; // 0x58
-		::System::Nullable_1<::UnityEngine::Bounds> Field_5_12; // 0x5C
+		::System::Nullable_1<::UnityEngine::Bounds> DDKHFDHJLBB; // 0x5C
+		::System::Byte _padding0[0x14];
 		::System::Collections::Generic::List_1<::MoleMole::SMapGroupMemberStateConfigBounds*>* OverrideBounds; // 0x78
 		::System::Collections::Generic::List_1<::MoleMole::SMapGroupMemberStateConfigBounds*>* RadarSplitOverrideBounds; // 0x80
-		::UnityEngine::Animator* Field_5_17; // 0x88
+		::UnityEngine::Animator* FPGIEMNHLEF; // 0x88
 
 		::System::Void _ctor()
 		{
@@ -62,9 +63,9 @@ namespace MoleMole
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_GETPIVOTCENTER_OFFSET))(this);
 		}
 
-		::System::Void AddToBoundsList(::System::Collections::Generic::IList_1<::UnityEngine::Bounds>* a1)
+		::System::Void AddToBoundsList(::System::Collections::Generic::IList_1<::UnityEngine::Bounds>* PILELGPBCLL)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::Bounds>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_ADDTOBOUNDSLIST_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::Bounds>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MAPGROUPMEMBERSTATECONFIG_ADDTOBOUNDSLIST_OFFSET))(this, PILELGPBCLL);
 		}
 	};
 }

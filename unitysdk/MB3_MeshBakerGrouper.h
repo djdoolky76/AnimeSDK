@@ -16,32 +16,34 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define MB3_MESHBAKERGROUPER_CREATEGROUPER_OFFSET UNITYSDK_OFFSET(0x1F55FC70)
-#define MB3_MESHBAKERGROUPER_DELETEALLCHILDMESHBAKERS_OFFSET UNITYSDK_OFFSET(0x1F55FCF0)
-#define MB3_MESHBAKERGROUPER_GENERATEMESHBAKERS_OFFSET UNITYSDK_OFFSET(0x1F55FE40)
-#define MB3_MESHBAKERGROUPER_GETMESHBAKERSETTINGSASSERIALIZEDPROPERTY_OFFSET UNITYSDK_OFFSET(0x1F55FA20)
-#define MB3_MESHBAKERGROUPER_GETMESHBAKERSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F55F8A0)
-#define MB3_MESHBAKERGROUPER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1F55FB80)
-#define MB3_MESHBAKERGROUPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5609F0)
-#define MB3_MESHBAKERGROUPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F560930)
+#define MB3_MESHBAKERGROUPER_CREATEGROUPER_OFFSET UNITYSDK_OFFSET(0x1F942DE0)
+#define MB3_MESHBAKERGROUPER_DELETEALLCHILDMESHBAKERS_OFFSET UNITYSDK_OFFSET(0x1F942E60)
+#define MB3_MESHBAKERGROUPER_GENERATEMESHBAKERS_OFFSET UNITYSDK_OFFSET(0x1F942FB0)
+#define MB3_MESHBAKERGROUPER_GETMESHBAKERSETTINGSASSERIALIZEDPROPERTY_OFFSET UNITYSDK_OFFSET(0x1F942B90)
+#define MB3_MESHBAKERGROUPER_GETMESHBAKERSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F942A10)
+#define MB3_MESHBAKERGROUPER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x1F942CF0)
+#define MB3_MESHBAKERGROUPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F943B60)
+#define MB3_MESHBAKERGROUPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F943AA0)
 
-inline static constexpr unsigned int MB3_MeshBakerGrouper_TypeDefinitionIndex = 94475;
+inline static constexpr unsigned int MB3_MeshBakerGrouper_TypeDefinitionIndex = 96162;
 
 class MB3_MeshBakerGrouper : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::UnityEngine::Color* StaticGet_WHITE_TRANSP()
 	{
-		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(MB3_MeshBakerGrouper_TypeDefinitionIndex)->GetStaticField(0x13270);
+		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(MB3_MeshBakerGrouper_TypeDefinitionIndex)->GetStaticField(0x14090);
 	}
 	::DigitalOpus::MB::Core::MB3_MeshBakerGrouperBehaviour* grouper; // 0x18
 	::MB3_MeshBakerGrouper_ClusterType clusterType; // 0x20
+	::System::Byte _padding0[0x4];
 	::UnityEngine::Transform* parentSceneObject; // 0x28
 	::DigitalOpus::MB::Core::GrouperData* data; // 0x30
 	::UnityEngine::Bounds sourceObjectBounds; // 0x38
 	::System::String* prefabOptions_outputFolder; // 0x50
 	::System::Boolean prefabOptions_autoGeneratePrefabs; // 0x58
 	::System::Boolean prefabOptions_mergeOutputIntoSinglePrefab; // 0x59
+	::System::Byte _padding1[0x6];
 	::DigitalOpus::MB::Core::MB3_MeshCombinerSettings* meshBakerSettingsAsset; // 0x60
 	::DigitalOpus::MB::Core::MB3_MeshCombinerSettingsData* meshBakerSettings; // 0x68
 

@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA1F10)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD2F90)
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int fsObjectAttribute_TypeDefinitionIndex = 29823;
+	inline static constexpr unsigned int fsObjectAttribute_TypeDefinitionIndex = 29228;
 
 	class fsObjectAttribute : public ::System::Attribute
 	{

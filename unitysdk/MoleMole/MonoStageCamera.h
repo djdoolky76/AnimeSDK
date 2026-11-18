@@ -5,26 +5,26 @@
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace System { class String; }
 
-#define MOLEMOLE_MONOSTAGECAMERA_ACTIVECAM_OFFSET UNITYSDK_OFFSET(0x1909D580)
-#define MOLEMOLE_MONOSTAGECAMERA_AWAKE_OFFSET UNITYSDK_OFFSET(0x1909D150)
-#define MOLEMOLE_MONOSTAGECAMERA_GET_TRANSFORMNAME_OFFSET UNITYSDK_OFFSET(0x1909D140)
-#define MOLEMOLE_MONOSTAGECAMERA_METHOD_5_75DE19B7C4B2C2D6_OFFSET UNITYSDK_OFFSET(0x1909DA10)
-#define MOLEMOLE_MONOSTAGECAMERA_METHOD_5_78037B64B814568E_OFFSET UNITYSDK_OFFSET(0x1909D200)
-#define MOLEMOLE_MONOSTAGECAMERA_METHOD_5_AE828D899505A3B4_OFFSET UNITYSDK_OFFSET(0x1909D5E0)
-#define MOLEMOLE_MONOSTAGECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1909D980)
+#define MOLEMOLE_MONOSTAGECAMERA_ACTIVECAM_OFFSET UNITYSDK_OFFSET(0x181057C0)
+#define MOLEMOLE_MONOSTAGECAMERA_AWAKE_OFFSET UNITYSDK_OFFSET(0x18105390)
+#define MOLEMOLE_MONOSTAGECAMERA_GET_TRANSFORMNAME_OFFSET UNITYSDK_OFFSET(0x18105380)
+#define MOLEMOLE_MONOSTAGECAMERA_GHCEKHCHMCO_OFFSET UNITYSDK_OFFSET(0x18105C60)
+#define MOLEMOLE_MONOSTAGECAMERA_HLLBCGOLHAK_OFFSET UNITYSDK_OFFSET(0x18105820)
+#define MOLEMOLE_MONOSTAGECAMERA_HNKAIHMIDPM_OFFSET UNITYSDK_OFFSET(0x18105440)
+#define MOLEMOLE_MONOSTAGECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x18105BD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoStageCamera_TypeDefinitionIndex = 62220;
+	inline static constexpr unsigned int MonoStageCamera_TypeDefinitionIndex = 68959;
 
 	class MonoStageCamera : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::String* Field_5_2; // 0x18
+		::System::String* OCBEHJPOGKB; // 0x18
 		::System::String* followName; // 0x20
 		::System::String* lookAtName; // 0x28
 		::Cinemachine::CinemachineVirtualCamera* virtualCamera; // 0x30
-		::System::Boolean Field_5_6; // 0x38
+		::System::Boolean DEBGKPLOPCG; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -41,24 +41,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTAGECAMERA_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void ActiveCam(::System::Boolean a1)
+		::System::Void ActiveCam(::System::Boolean FIPHFGHNNBE)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTAGECAMERA_ACTIVECAM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTAGECAMERA_ACTIVECAM_OFFSET))(this, FIPHFGHNNBE);
 		}
 
-		::System::Void Method_5_75DE19B7C4B2C2D6()
+		::System::Void GHCEKHCHMCO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTAGECAMERA_METHOD_5_75DE19B7C4B2C2D6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTAGECAMERA_GHCEKHCHMCO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_AE828D899505A3B4()
+		::System::Void HLLBCGOLHAK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTAGECAMERA_METHOD_5_AE828D899505A3B4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTAGECAMERA_HLLBCGOLHAK_OFFSET))(this);
 		}
 
-		::System::Void Method_5_78037B64B814568E()
+		::System::Void HNKAIHMIDPM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTAGECAMERA_METHOD_5_78037B64B814568E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTAGECAMERA_HNKAIHMIDPM_OFFSET))(this);
 		}
 	};
 }

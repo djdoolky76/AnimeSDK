@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCEEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1E7FE100)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7FE120)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E7FE140)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1E7FE280)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FE0E0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCEEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1EAB1030)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EAB1050)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EAB1070)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1EAB11B0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFERENCEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB1010)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaInferenceException_TypeDefinitionIndex = 2068;
+	inline static constexpr unsigned int XmlSchemaInferenceException_TypeDefinitionIndex = 2067;
 
 	class XmlSchemaInferenceException : public ::System::Xml::Schema::XmlSchemaException
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIVIRTUALJOYSTICKBASECONTROLLER_DIRDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED10D0)
+#define MOLEMOLE_UIVIRTUALJOYSTICKBASECONTROLLER_DIRDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14E2E4D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVirtualJoystickBaseController_DirData_TypeDefinitionIndex = 64929;
+	inline static constexpr unsigned int UIVirtualJoystickBaseController_DirData_TypeDefinitionIndex = 83610;
 
 	class UIVirtualJoystickBaseController_DirData : public ::System::Object
 	{

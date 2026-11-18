@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define ANIMATORZONEPROFILER_SCOPEDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x821520)
-#define ANIMATORZONEPROFILER_SCOPEDISPOSABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x8214B0)
+#define ANIMATORZONEPROFILER_SCOPEDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x6E1490)
+#define ANIMATORZONEPROFILER_SCOPEDISPOSABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x6E1420)
 
-inline static constexpr unsigned int AnimatorZoneProfiler_ScopeDisposable_TypeDefinitionIndex = 87974;
+inline static constexpr unsigned int AnimatorZoneProfiler_ScopeDisposable_TypeDefinitionIndex = 38397;
 
-struct alignas(1) AnimatorZoneProfiler_ScopeDisposable
+struct alignas(4) AnimatorZoneProfiler_ScopeDisposable
 {
 	::System::Void _ctor(::System::String* functionName, ::System::UInt32 entityID, ::System::String* animatorName)
 	{

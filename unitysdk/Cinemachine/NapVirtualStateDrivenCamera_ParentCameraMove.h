@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CINEMACHINE_NAPVIRTUALSTATEDRIVENCAMERA_PARENTCAMERAMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x346F70)
+#define CINEMACHINE_NAPVIRTUALSTATEDRIVENCAMERA_PARENTCAMERAMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x3657B0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int NapVirtualStateDrivenCamera_ParentCameraMove_TypeDefinitionIndex = 34695;
+	inline static constexpr unsigned int NapVirtualStateDrivenCamera_ParentCameraMove_TypeDefinitionIndex = 34241;
 
 	struct alignas(8) NapVirtualStateDrivenCamera_ParentCameraMove
 	{

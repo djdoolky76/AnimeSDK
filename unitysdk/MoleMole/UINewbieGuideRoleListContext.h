@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UINEWBIEGUIDEROLELISTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x179736F0)
+#define MOLEMOLE_UINEWBIEGUIDEROLELISTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17B90F60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINewbieGuideRoleListContext_TypeDefinitionIndex = 90167;
+	inline static constexpr unsigned int UINewbieGuideRoleListContext_TypeDefinitionIndex = 42051;
 
 	class UINewbieGuideRoleListContext : public ::MoleMole::UIControllerContextBase
 	{

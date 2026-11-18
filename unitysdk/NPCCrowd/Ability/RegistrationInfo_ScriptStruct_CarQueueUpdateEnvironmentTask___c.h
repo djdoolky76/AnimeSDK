@@ -3,21 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 namespace UnrealTypes { class ICppStructOps; }
+namespace UnrealTypes { class ScriptStruct; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEUPDATEENVIRONMENTTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF6021C0)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEUPDATEENVIRONMENTTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF602200)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEUPDATEENVIRONMENTTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xF602210)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEUPDATEENVIRONMENTTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE786B60)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEUPDATEENVIRONMENTTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE786BA0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEUPDATEENVIRONMENTTASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xE786BB0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEUPDATEENVIRONMENTTASK___C___CCTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0xE786C10)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_CarQueueUpdateEnvironmentTask___c_TypeDefinitionIndex = 66594;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_CarQueueUpdateEnvironmentTask___c_TypeDefinitionIndex = 65889;
 
 	class RegistrationInfo_ScriptStruct_CarQueueUpdateEnvironmentTask___c : public ::System::Object
 	{
 	public:
-		static ::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_CarQueueUpdateEnvironmentTask___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::NPCCrowd::Ability::RegistrationInfo_ScriptStruct_CarQueueUpdateEnvironmentTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CarQueueUpdateEnvironmentTask___c_TypeDefinitionIndex)->GetStaticField(0x3D830);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_CarQueueUpdateEnvironmentTask___c_TypeDefinitionIndex)->GetStaticField(0x3F760);
 		}
 
 		static ::System::Void _cctor()
@@ -30,9 +32,14 @@ namespace NPCCrowd::Ability
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEUPDATEENVIRONMENTTASK___C__CTOR_OFFSET))(this);
 		}
 
-		::UnrealTypes::ICppStructOps* __cctor_b__2_0()
+		::UnrealTypes::ScriptStruct* __cctor_b__2_0()
 		{
-			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEUPDATEENVIRONMENTTASK___C___CCTOR_B__2_0_OFFSET))(this);
+			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEUPDATEENVIRONMENTTASK___C___CCTOR_B__2_0_OFFSET))(this);
+		}
+
+		::UnrealTypes::ICppStructOps* __cctor_b__2_1()
+		{
+			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_CARQUEUEUPDATEENVIRONMENTTASK___C___CCTOR_B__2_1_OFFSET))(this);
 		}
 	};
 }

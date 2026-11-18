@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK::PC::OS { class PayErrorHandler; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C908970)
-#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS10_0__OPENAGELIMITWEBPASSPORT_B__0_OFFSET UNITYSDK_OFFSET(0x1C908980)
-#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS10_0__OPENAGELIMITWEBPASSPORT_B__1_OFFSET UNITYSDK_OFFSET(0x1C908A50)
+#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF37E60)
+#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS10_0__OPENAGELIMITWEBPASSPORT_B__0_OFFSET UNITYSDK_OFFSET(0x1CF37E70)
+#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS10_0__OPENAGELIMITWEBPASSPORT_B__1_OFFSET UNITYSDK_OFFSET(0x1CF37F40)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int PayErrorHandler___c__DisplayClass10_0_TypeDefinitionIndex = 20812;
+	inline static constexpr unsigned int PayErrorHandler___c__DisplayClass10_0_TypeDefinitionIndex = 20016;
 
 	class PayErrorHandler___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::System::String* accountId; // 0x10
-		::System::String* cookieToken; // 0x18
+		::System::String* cookieToken; // 0x10
+		::System::String* accountId; // 0x18
 		::MiHoYo::SDK::PC::OS::PayErrorHandler* __4__this; // 0x20
 
 		::System::Void _ctor()

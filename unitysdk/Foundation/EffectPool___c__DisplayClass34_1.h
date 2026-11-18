@@ -6,18 +6,19 @@ namespace Foundation { class BundleObjectInstanceRequest; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS34_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B85AAC0)
-#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS34_1__WARMUPINSTANCE_B__1_OFFSET UNITYSDK_OFFSET(0x1B85AAD0)
+#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS34_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18A86A20)
+#define FOUNDATION_EFFECTPOOL___C__DISPLAYCLASS34_1__WARMUPINSTANCE_B__1_OFFSET UNITYSDK_OFFSET(0x18A86A30)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int EffectPool___c__DisplayClass34_1_TypeDefinitionIndex = 8131;
+	inline static constexpr unsigned int EffectPool___c__DisplayClass34_1_TypeDefinitionIndex = 8617;
 
+	template <typename T>
 	class EffectPool___c__DisplayClass34_1 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::UnityEngine::Object*>* __9__1; // 0x10
-		::Foundation::BundleObjectInstanceRequest* bundleObjectInstanceRequest; // 0x18
+		::Foundation::BundleObjectInstanceRequest* bundleObjectInstanceRequest; // 0x10
+		::System::Action_1<::UnityEngine::Object*>* __9__1; // 0x18
 
 		::System::Void _ctor()
 		{

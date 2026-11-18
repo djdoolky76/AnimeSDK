@@ -6,29 +6,29 @@ namespace System { class Action; }
 namespace System { template <typename T> class EventHandler_1; }
 namespace System::Threading::Tasks { class UnobservedTaskExceptionEventArgs; }
 
-#define MOLEMOLE_GAMEENGINE___C_METHOD_1_7A73F165001BC325_OFFSET UNITYSDK_OFFSET(0x19B19460)
-#define MOLEMOLE_GAMEENGINE___C_METHOD_1_A65BE9C8C3DA7ECC_OFFSET UNITYSDK_OFFSET(0x19B194E0)
-#define MOLEMOLE_GAMEENGINE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B19410)
-#define MOLEMOLE_GAMEENGINE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B19450)
+#define MOLEMOLE_GAMEENGINE___C_AJCKCMJMPIK_OFFSET UNITYSDK_OFFSET(0x1A8F7D10)
+#define MOLEMOLE_GAMEENGINE___C_MLMMHDOEPJE_OFFSET UNITYSDK_OFFSET(0x1A8F7C90)
+#define MOLEMOLE_GAMEENGINE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A8F7C40)
+#define MOLEMOLE_GAMEENGINE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F7C80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GameEngine___c_TypeDefinitionIndex = 72835;
+	inline static constexpr unsigned int GameEngine___c_TypeDefinitionIndex = 81901;
 
 	class GameEngine___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::GameEngine___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__122_0()
 		{
-			return (::MoleMole::GameEngine___c**)Il2CppClass::FromTypeDefinitionIndex(GameEngine___c_TypeDefinitionIndex)->GetStaticField(0x4E9A0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(GameEngine___c_TypeDefinitionIndex)->GetStaticField(0x4E940);
 		}
-		static ::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>** StaticGet___9__85_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(GameEngine___c_TypeDefinitionIndex)->GetStaticField(0x4E9A8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(GameEngine___c_TypeDefinitionIndex)->GetStaticField(0x4E948);
 		}
-		static ::System::Action** StaticGet___9__119_0()
+		static ::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>** StaticGet___9__88_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(GameEngine___c_TypeDefinitionIndex)->GetStaticField(0x4E9B0);
+			return (::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(GameEngine___c_TypeDefinitionIndex)->GetStaticField(0x4E950);
 		}
 
 		static ::System::Void _cctor()
@@ -41,14 +41,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEENGINE___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_7A73F165001BC325()
+		::System::Void MLMMHDOEPJE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEENGINE___C_METHOD_1_7A73F165001BC325_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEENGINE___C_MLMMHDOEPJE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_A65BE9C8C3DA7ECC(::System::Object* a1, ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs* a2)
+		::System::Void AJCKCMJMPIK(::System::Object* PIIPCLCCOIG, ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs* NNEIALKMJAJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEENGINE___C_METHOD_1_A65BE9C8C3DA7ECC_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEENGINE___C_AJCKCMJMPIK_OFFSET))(this, PIIPCLCCOIG, NNEIALKMJAJ);
 		}
 	};
 }

@@ -5,20 +5,20 @@
 namespace MoleMole { class UISuibianTempleExpeditionAreaWidgetController; }
 namespace MoleMole { class UISuibianTempleExpeditionPageController; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEEXPEDITIONPAGECONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1676DF80)
-#define MOLEMOLE_UISUIBIANTEMPLEEXPEDITIONPAGECONTROLLER___C__DISPLAYCLASS27_0__ONFOCUSAREA_B__0_OFFSET UNITYSDK_OFFSET(0x1676DF90)
-#define MOLEMOLE_UISUIBIANTEMPLEEXPEDITIONPAGECONTROLLER___C__DISPLAYCLASS27_0__ONFOCUSAREA_B__1_OFFSET UNITYSDK_OFFSET(0x1676E050)
+#define MOLEMOLE_UISUIBIANTEMPLEEXPEDITIONPAGECONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164B61E0)
+#define MOLEMOLE_UISUIBIANTEMPLEEXPEDITIONPAGECONTROLLER___C__DISPLAYCLASS27_0__ONFOCUSAREA_B__0_OFFSET UNITYSDK_OFFSET(0x164B61F0)
+#define MOLEMOLE_UISUIBIANTEMPLEEXPEDITIONPAGECONTROLLER___C__DISPLAYCLASS27_0__ONFOCUSAREA_B__1_OFFSET UNITYSDK_OFFSET(0x164B62B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleExpeditionPageController___c__DisplayClass27_0_TypeDefinitionIndex = 62506;
+	inline static constexpr unsigned int UISuibianTempleExpeditionPageController___c__DisplayClass27_0_TypeDefinitionIndex = 92892;
 
 	class UISuibianTempleExpeditionPageController___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UISuibianTempleExpeditionPageController* __4__this; // 0x10
-		::System::Int32 areaID; // 0x18
-		::System::Int32 layerID; // 0x1C
+		::System::Int32 layerID; // 0x18
+		::System::Int32 areaID; // 0x1C
 
 		::System::Void _ctor()
 		{

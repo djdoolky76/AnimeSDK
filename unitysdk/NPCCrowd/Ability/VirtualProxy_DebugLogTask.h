@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
@@ -11,14 +11,14 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_DEBUGLOGTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x12D0C8C0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_DEBUGLOGTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x12D0C860)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_DEBUGLOGTASK_LINK_OFFSET UNITYSDK_OFFSET(0x12D0C7F0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_DEBUGLOGTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x12D0C930)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_DEBUGLOGTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1378D190)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_DEBUGLOGTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1378D130)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_DEBUGLOGTASK_LINK_OFFSET UNITYSDK_OFFSET(0x1378D0C0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_DEBUGLOGTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1378D200)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_DebugLogTask_TypeDefinitionIndex = 55495;
+	inline static constexpr unsigned int VirtualProxy_DebugLogTask_TypeDefinitionIndex = 46590;
 
 	class VirtualProxy_DebugLogTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{

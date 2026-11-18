@@ -3,14 +3,14 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int CurveMoveComponent_Config_SpeedMode_TypeDefinitionIndex = 65745;
+	inline static constexpr unsigned int CurveMoveComponent_Config_SpeedMode_TypeDefinitionIndex = 74202;
 
 	enum class CurveMoveComponent_Config_SpeedMode : ::System::Int32
 	{
-		ResetPos = 4,
 		Acceleration = 1,
-		Teleport = 3,
 		Curve = 2,
+		Teleport = 3,
 		FixedSpeed = 0,
+		ResetPos = 4,
 	};
 }

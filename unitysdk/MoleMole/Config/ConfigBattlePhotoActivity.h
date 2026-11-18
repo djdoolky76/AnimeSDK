@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_501339D5CF922B98.h"
+#include "unitysdk/CFIHHHCKJMA.h"
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
@@ -8,11 +8,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGBATTLEPHOTOACTIVITY__CTOR_OFFSET UNITYSDK_OFFSET(0x11469C90)
+#define MOLEMOLE_CONFIG_CONFIGBATTLEPHOTOACTIVITY__CTOR_OFFSET UNITYSDK_OFFSET(0x131DBB70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBattlePhotoActivity_TypeDefinitionIndex = 83949;
+	inline static constexpr unsigned int ConfigBattlePhotoActivity_TypeDefinitionIndex = 47696;
 
 	class ConfigBattlePhotoActivity : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -23,7 +23,7 @@ namespace MoleMole::Config
 		::System::String* UseBattlePhotoSkillCustomEvent; // 0x70
 		::System::String* UseBattlePhotoSkillPerfectCustomEvent; // 0x78
 		::System::Collections::Generic::List_1<::System::String*>* SkillActiveAvatarZoneTags; // 0x80
-		::Enum_3_501339D5CF922B98 SkillEnergySlotType; // 0x88
+		::CFIHHHCKJMA SkillEnergySlotType; // 0x88
 		::System::Single SkillEnergyForOneSlot; // 0x8C
 		::System::Single SkillEnergyAutoRecoverySpeed; // 0x90
 		::System::Single SkillCDTime; // 0x94

@@ -1,0 +1,85 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CDDKOKGCIHG.h"
+#include "unitysdk/OAOOLPCNHKA.h"
+
+class DFMEGKIBEJO;
+class EDLHMDBMNGM;
+namespace Nap::NapECS { class EcsFilter; }
+namespace Nap::NapECS { class EcsWorld; }
+namespace System::Collections::Generic { template <typename T> class Queue_1; }
+
+#define IPOMHHIALOP_CHJMGGOGJKI_OFFSET UNITYSDK_OFFSET(0x160C6120)
+#define IPOMHHIALOP_CMFOMGGDPPA_OFFSET UNITYSDK_OFFSET(0x160C4B70)
+#define IPOMHHIALOP_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x160C4820)
+#define IPOMHHIALOP_HHKAMCOHHAH_OFFSET UNITYSDK_OFFSET(0x160C6170)
+#define IPOMHHIALOP_IFBHCOOAFCI_OFFSET UNITYSDK_OFFSET(0x160C5390)
+#define IPOMHHIALOP_LCLHGGBPDCG_1_OFFSET UNITYSDK_OFFSET(0x160C4FA0)
+#define IPOMHHIALOP_LCLHGGBPDCG_OFFSET UNITYSDK_OFFSET(0x160C4C00)
+#define IPOMHHIALOP_MFDLLMIELMH_OFFSET UNITYSDK_OFFSET(0x160C4F50)
+#define IPOMHHIALOP_MNEFKNFOABP_OFFSET UNITYSDK_OFFSET(0x160C6A00)
+#define IPOMHHIALOP_UPDATE_OFFSET UNITYSDK_OFFSET(0x160C49B0)
+#define IPOMHHIALOP__CTOR_OFFSET UNITYSDK_OFFSET(0x160C4B20)
+
+inline static constexpr unsigned int IPOMHHIALOP_TypeDefinitionIndex = 66956;
+
+class IPOMHHIALOP : public ::OAOOLPCNHKA
+{
+public:
+	::Nap::NapECS::EcsFilter* PNPMMLNCDNK; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IPOMHHIALOP__CTOR_OFFSET))(this);
+	}
+
+	::System::Void CreateFilters(::Nap::NapECS::EcsWorld* GEEHGDABNJF)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + IPOMHHIALOP_CREATEFILTERS_OFFSET))(this, GEEHGDABNJF);
+	}
+
+	::System::Void Update()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IPOMHHIALOP_UPDATE_OFFSET))(this);
+	}
+
+	::System::Void CMFOMGGDPPA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IPOMHHIALOP_CMFOMGGDPPA_OFFSET))(this);
+	}
+
+	static ::System::Void LCLHGGBPDCG(::EDLHMDBMNGM* DJCACDEONNH, ::CDDKOKGCIHG PBAEADKGGPH, ::System::Int32 DKOFFFNEFJC)
+	{
+		return ((::System::Void(*)(::EDLHMDBMNGM*, ::CDDKOKGCIHG, ::System::Int32))((::PBYTE)hIl2Cpp + IPOMHHIALOP_LCLHGGBPDCG_OFFSET))(DJCACDEONNH, PBAEADKGGPH, DKOFFFNEFJC);
+	}
+
+	static ::System::Void LCLHGGBPDCG_1(::EDLHMDBMNGM* DJCACDEONNH, ::EDLHMDBMNGM* LMDAKFAEOLN, ::CDDKOKGCIHG PBAEADKGGPH, ::System::Int32 DKOFFFNEFJC)
+	{
+		return ((::System::Void(*)(::EDLHMDBMNGM*, ::EDLHMDBMNGM*, ::CDDKOKGCIHG, ::System::Int32))((::PBYTE)hIl2Cpp + IPOMHHIALOP_LCLHGGBPDCG_1_OFFSET))(DJCACDEONNH, LMDAKFAEOLN, PBAEADKGGPH, DKOFFFNEFJC);
+	}
+
+	static ::System::Void IFBHCOOAFCI(::System::Int32 ACHBBPJIBIE, ::System::Collections::Generic::Queue_1<::EDLHMDBMNGM*>* GCIJKLDBODD, ::DFMEGKIBEJO* GBELIHABEDH)
+	{
+		return ((::System::Void(*)(::System::Int32, ::System::Collections::Generic::Queue_1<::EDLHMDBMNGM*>*, ::DFMEGKIBEJO*))((::PBYTE)hIl2Cpp + IPOMHHIALOP_IFBHCOOAFCI_OFFSET))(ACHBBPJIBIE, GCIJKLDBODD, GBELIHABEDH);
+	}
+
+	static ::System::Int32 MFDLLMIELMH(::System::Int32 LIPIOJLPPCO)
+	{
+		return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + IPOMHHIALOP_MFDLLMIELMH_OFFSET))(LIPIOJLPPCO);
+	}
+
+	static ::System::Void CHJMGGOGJKI(::DFMEGKIBEJO* GBELIHABEDH)
+	{
+		return ((::System::Void(*)(::DFMEGKIBEJO*))((::PBYTE)hIl2Cpp + IPOMHHIALOP_CHJMGGOGJKI_OFFSET))(GBELIHABEDH);
+	}
+
+	::System::Void MNEFKNFOABP(::Nap::NapECS::EcsWorld* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::Nap::NapECS::EcsWorld*))((::PBYTE)hIl2Cpp + IPOMHHIALOP_MNEFKNFOABP_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	static ::System::Void HHKAMCOHHAH(::DFMEGKIBEJO* GBELIHABEDH)
+	{
+		return ((::System::Void(*)(::DFMEGKIBEJO*))((::PBYTE)hIl2Cpp + IPOMHHIALOP_HHKAMCOHHAH_OFFSET))(GBELIHABEDH);
+	}
+};

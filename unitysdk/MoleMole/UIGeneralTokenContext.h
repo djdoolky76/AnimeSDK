@@ -6,11 +6,11 @@ namespace MoleMole { class UITokenShowConfig; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGENERALTOKENCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18AE7380)
+#define MOLEMOLE_UIGENERALTOKENCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x180B8340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTokenContext_TypeDefinitionIndex = 77128;
+	inline static constexpr unsigned int UIGeneralTokenContext_TypeDefinitionIndex = 72443;
 
 	class UIGeneralTokenContext : public ::MoleMole::UIControllerContextBase
 	{

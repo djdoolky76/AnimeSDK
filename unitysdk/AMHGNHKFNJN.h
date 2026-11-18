@@ -1,0 +1,108 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IOOIHHOJOPI.h"
+
+class FGCOIBFFCHB;
+class GCIMMDDIFBJ;
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+class MonoUITableScrollV2;
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine { class GameObject; }
+
+#define AMHGNHKFNJN_AIJFDAOBFPI_OFFSET UNITYSDK_OFFSET(0x12D08D00)
+#define AMHGNHKFNJN_ALFPDBMHKOL_OFFSET UNITYSDK_OFFSET(0x12D08CC0)
+#define AMHGNHKFNJN_ANONBDGILCO_OFFSET UNITYSDK_OFFSET(0x12D08D30)
+#define AMHGNHKFNJN_CCDOJFFAPAM_OFFSET UNITYSDK_OFFSET(0x12D08D10)
+#define AMHGNHKFNJN_EFKGNFCEENK_OFFSET UNITYSDK_OFFSET(0x12D089C0)
+#define AMHGNHKFNJN_GJGGCPBBNCF_OFFSET UNITYSDK_OFFSET(0x12D08CD0)
+#define AMHGNHKFNJN_HDPEBEKHNLG_OFFSET UNITYSDK_OFFSET(0x12D08CF0)
+#define AMHGNHKFNJN_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x12D08920)
+#define AMHGNHKFNJN_NBCFMMIBLMC_OFFSET UNITYSDK_OFFSET(0x12D08D50)
+#define AMHGNHKFNJN_NMANGMHHCNE_OFFSET UNITYSDK_OFFSET(0x12D08CE0)
+#define AMHGNHKFNJN_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x12D08720)
+#define AMHGNHKFNJN_OKJPLLLKODM_OFFSET UNITYSDK_OFFSET(0x12D08D40)
+#define AMHGNHKFNJN_PJJHPIANMLB_OFFSET UNITYSDK_OFFSET(0x12D08D20)
+#define AMHGNHKFNJN__CTOR_OFFSET UNITYSDK_OFFSET(0x12D08C30)
+
+inline static constexpr unsigned int AMHGNHKFNJN_TypeDefinitionIndex = 42018;
+
+class AMHGNHKFNJN : public ::IOOIHHOJOPI
+{
+public:
+	::GCIMMDDIFBJ* _JCHEPPCFGAC_k__BackingField; // 0x28
+	::FGCOIBFFCHB* _MGLIAEMIBDK_k__BackingField; // 0x30
+	::LGINJIKKBJA* _JLHGKIJIEDG_k__BackingField; // 0x38
+	::UnityEngine::GameObject* _IEKOMEGBMKN_k__BackingField; // 0x40
+	::MonoUITableScrollV2* _IBHDBANBONN_k__BackingField; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AMHGNHKFNJN__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::MonoUITableScrollV2* ALFPDBMHKOL()
+	{
+		return ((::MonoUITableScrollV2*(*)(::PVOID))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_ALFPDBMHKOL_OFFSET))(this);
+	}
+
+	::System::Void GJGGCPBBNCF(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_GJGGCPBBNCF_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::GameObject* NMANGMHHCNE()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_NMANGMHHCNE_OFFSET))(this);
+	}
+
+	::System::Void HDPEBEKHNLG(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_HDPEBEKHNLG_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void EFKGNFCEENK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_EFKGNFCEENK_OFFSET))(this);
+	}
+
+	::System::Void AIJFDAOBFPI(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_AIJFDAOBFPI_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::System::Void CCDOJFFAPAM(::MonoUITableScrollV2* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MonoUITableScrollV2*))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_CCDOJFFAPAM_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void PJJHPIANMLB(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_PJJHPIANMLB_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LGINJIKKBJA* ANONBDGILCO()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_ANONBDGILCO_OFFSET))(this);
+	}
+
+	::GCIMMDDIFBJ* OKJPLLLKODM()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_OKJPLLLKODM_OFFSET))(this);
+	}
+
+	::FGCOIBFFCHB* NBCFMMIBLMC()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + AMHGNHKFNJN_NBCFMMIBLMC_OFFSET))(this);
+	}
+};

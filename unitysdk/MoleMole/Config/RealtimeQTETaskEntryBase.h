@@ -3,31 +3,35 @@
 #include "unitysdk/MoleMole/RealtimeQTETaskUIPositionType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D47998EF092D4845;
+class BCMJNECADGK;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_REALTIMEQTETASKENTRYBASE_CREATEREALTIMEQTETASK_OFFSET UNITYSDK_OFFSET(0x1B926D40)
-#define MOLEMOLE_CONFIG_REALTIMEQTETASKENTRYBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B926D80)
+#define MOLEMOLE_CONFIG_REALTIMEQTETASKENTRYBASE_CREATEREALTIMEQTETASK_OFFSET UNITYSDK_OFFSET(0x1925F010)
+#define MOLEMOLE_CONFIG_REALTIMEQTETASKENTRYBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1925F050)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int RealtimeQTETaskEntryBase_TypeDefinitionIndex = 74323;
+	inline static constexpr unsigned int RealtimeQTETaskEntryBase_TypeDefinitionIndex = 43717;
 
 	class RealtimeQTETaskEntryBase : public ::System::Object
 	{
 	public:
 		::System::Boolean IsInfiniteDurationTime; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single DurationTime; // 0x14
 		::System::Boolean disableHighLightUI; // 0x18
+		::System::Byte _padding1[0x3];
 		::MoleMole::RealtimeQTETaskUIPositionType UIPositionType; // 0x1C
 		::System::Boolean SuccessInstantFinish; // 0x20
 		::System::Boolean FailInstantFinish; // 0x21
+		::System::Byte _padding2[0x6];
 		::System::String* TimeSlowConfigKey; // 0x28
 		::Il2CppArray<::System::String*>* HideUIItemTagList; // 0x30
 		::System::Boolean IgnoreHandleInputButOnlyShowIcon; // 0x38
 		::System::Boolean CustomHandleUIShowLogic; // 0x39
 		::System::Boolean UseCommonQTEHint; // 0x3A
 		::System::Boolean SkipSuccessCloseAnimation; // 0x3B
+		::System::Byte _padding3[0x4];
 		::System::String* QTEInputSoundAction; // 0x40
 		::System::String* QTEStartSoundAction; // 0x48
 		::System::String* QTEFinishSoundAction; // 0x50
@@ -39,9 +43,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REALTIMEQTETASKENTRYBASE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D47998EF092D4845* CreateRealtimeQTETask()
+		::BCMJNECADGK* CreateRealtimeQTETask()
 		{
-			return ((::Class_1_D47998EF092D4845*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REALTIMEQTETASKENTRYBASE_CREATEREALTIMEQTETASK_OFFSET))(this);
+			return ((::BCMJNECADGK*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REALTIMEQTETASKENTRYBASE_CREATEREALTIMEQTETASK_OFFSET))(this);
 		}
 	};
 }

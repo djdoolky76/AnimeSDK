@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int IConfigChangeBGVideo_TypeDefinitionIndex = 64913;
+	inline static constexpr unsigned int IConfigChangeBGVideo_TypeDefinitionIndex = 84292;
 
 	class IConfigChangeBGVideo
 	{

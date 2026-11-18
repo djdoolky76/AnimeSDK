@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 #include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/System/Object.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_NULLABLEFORCESBYTEBLOCKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E6CDFB0)
-#define MESSAGEPACK_FORMATTERS_NULLABLEFORCESBYTEBLOCKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E6CDF50)
-#define MESSAGEPACK_FORMATTERS_NULLABLEFORCESBYTEBLOCKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6CDFF0)
-#define MESSAGEPACK_FORMATTERS_NULLABLEFORCESBYTEBLOCKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CDF40)
+#define MESSAGEPACK_FORMATTERS_NULLABLEFORCESBYTEBLOCKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E957230)
+#define MESSAGEPACK_FORMATTERS_NULLABLEFORCESBYTEBLOCKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E9571D0)
+#define MESSAGEPACK_FORMATTERS_NULLABLEFORCESBYTEBLOCKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E957270)
+#define MESSAGEPACK_FORMATTERS_NULLABLEFORCESBYTEBLOCKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9571C0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NullableForceSByteBlockFormatter_TypeDefinitionIndex = 30751;
+	inline static constexpr unsigned int NullableForceSByteBlockFormatter_TypeDefinitionIndex = 29481;
 
 	class NullableForceSByteBlockFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::NullableForceSByteBlockFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::NullableForceSByteBlockFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableForceSByteBlockFormatter_TypeDefinitionIndex)->GetStaticField(0x262F0);
+			return (::MessagePack::Formatters::NullableForceSByteBlockFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableForceSByteBlockFormatter_TypeDefinitionIndex)->GetStaticField(0x273C0);
 		}
 
 		::System::Void _ctor()

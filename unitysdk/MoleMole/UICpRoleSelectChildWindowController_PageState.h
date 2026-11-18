@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpRoleSelectChildWindowController_PageState_TypeDefinitionIndex = 94770;
+	inline static constexpr unsigned int UICpRoleSelectChildWindowController_PageState_TypeDefinitionIndex = 96421;
 
 	enum class UICpRoleSelectChildWindowController_PageState : ::System::Int32
 	{

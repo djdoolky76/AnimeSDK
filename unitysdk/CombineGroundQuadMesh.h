@@ -6,9 +6,9 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define COMBINEGROUNDQUADMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CB080)
+#define COMBINEGROUNDQUADMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E83A0)
 
-inline static constexpr unsigned int CombineGroundQuadMesh_TypeDefinitionIndex = 27842;
+inline static constexpr unsigned int CombineGroundQuadMesh_TypeDefinitionIndex = 26180;
 
 class CombineGroundQuadMesh : public ::UnityEngine::MonoBehaviour
 {
@@ -18,6 +18,7 @@ public:
 	::System::Boolean removeDownFace; // 0x1A
 	::System::Boolean disableGroundShadow; // 0x1B
 	::System::Boolean regenerateNormal; // 0x1C
+	::System::Byte _padding0[0x3];
 	::System::Single minGap; // 0x20
 	::UV2ProjectAxis uv2ProjectAxis; // 0x24
 	::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>* renderers; // 0x28

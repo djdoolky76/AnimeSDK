@@ -7,26 +7,28 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define PIPELINECAMERA_DEMO_DATA_BASICCAMERADATACOMPONENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E88B500)
-#define PIPELINECAMERA_DEMO_DATA_BASICCAMERADATACOMPONENT_PROCESSINPUT_OFFSET UNITYSDK_OFFSET(0x1E88B540)
-#define PIPELINECAMERA_DEMO_DATA_BASICCAMERADATACOMPONENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E88B6B0)
-#define PIPELINECAMERA_DEMO_DATA_BASICCAMERADATACOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E88B6F0)
+#define PIPELINECAMERA_DEMO_DATA_BASICCAMERADATACOMPONENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EB4FAE0)
+#define PIPELINECAMERA_DEMO_DATA_BASICCAMERADATACOMPONENT_PROCESSINPUT_OFFSET UNITYSDK_OFFSET(0x1EB4FB20)
+#define PIPELINECAMERA_DEMO_DATA_BASICCAMERADATACOMPONENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EB4FC90)
+#define PIPELINECAMERA_DEMO_DATA_BASICCAMERADATACOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB4FCD0)
 
 namespace PipelineCamera::Demo::Data
 {
-	inline static constexpr unsigned int BasicCameraDataComponent_TypeDefinitionIndex = 38416;
+	inline static constexpr unsigned int BasicCameraDataComponent_TypeDefinitionIndex = 36418;
 
 	class BasicCameraDataComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Camera* _camera; // 0x18
 		::System::Boolean _isCameraValid; // 0x20
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Transform* follow; // 0x28
 		::System::Single radius; // 0x30
 		::System::Single fieldOfView; // 0x34
 		::UnityEngine::Vector3 cameraRotation; // 0x38
 		::UnityEngine::Vector2 offset; // 0x44
 		::System::Boolean isLocalSpace; // 0x4C
+		::System::Byte _padding1[0x3];
 		::System::Single sensitivity; // 0x50
 		::UnityEngine::Vector3 _lastMovePosition; // 0x54
 

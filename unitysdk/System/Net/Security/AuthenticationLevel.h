@@ -3,7 +3,7 @@
 
 namespace System::Net::Security
 {
-	inline static constexpr unsigned int AuthenticationLevel_TypeDefinitionIndex = 3692;
+	inline static constexpr unsigned int AuthenticationLevel_TypeDefinitionIndex = 3691;
 
 	enum class AuthenticationLevel : ::System::Int32
 	{

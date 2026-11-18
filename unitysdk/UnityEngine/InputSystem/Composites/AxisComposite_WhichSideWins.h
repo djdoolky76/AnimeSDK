@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::Composites
 {
-	inline static constexpr unsigned int AxisComposite_WhichSideWins_TypeDefinitionIndex = 32712;
+	inline static constexpr unsigned int AxisComposite_WhichSideWins_TypeDefinitionIndex = 32161;
 
 	enum class AxisComposite_WhichSideWins : ::System::Int32
 	{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_MIME_CONTENTDISPOSITION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C709F00)
-#define SYSTEM_NET_MIME_CONTENTDISPOSITION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C709F40)
-#define SYSTEM_NET_MIME_CONTENTDISPOSITION___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x1C709F50)
-#define SYSTEM_NET_MIME_CONTENTDISPOSITION___C___CCTOR_B__13_1_OFFSET UNITYSDK_OFFSET(0x1C70A000)
+#define SYSTEM_NET_MIME_CONTENTDISPOSITION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBE9AF0)
+#define SYSTEM_NET_MIME_CONTENTDISPOSITION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE9B30)
+#define SYSTEM_NET_MIME_CONTENTDISPOSITION___C___CCTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0x1CBE9B40)
+#define SYSTEM_NET_MIME_CONTENTDISPOSITION___C___CCTOR_B__13_1_OFFSET UNITYSDK_OFFSET(0x1CBE9BF0)
 
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int ContentDisposition___c_TypeDefinitionIndex = 3610;
+	inline static constexpr unsigned int ContentDisposition___c_TypeDefinitionIndex = 3609;
 
 	class ContentDisposition___c : public ::System::Object
 	{
 	public:
-		static ::System::Net::Mime::ContentDisposition___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Net::Mime::ContentDisposition___c**)Il2CppClass::FromTypeDefinitionIndex(ContentDisposition___c_TypeDefinitionIndex)->GetStaticField(0x2C40);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ContentDisposition___c_TypeDefinitionIndex)->GetStaticField(0x2C40);
 		}
 
 		static ::System::Void _cctor()

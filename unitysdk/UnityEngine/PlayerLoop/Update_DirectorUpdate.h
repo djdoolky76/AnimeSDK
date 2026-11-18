@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int Update_DirectorUpdate_TypeDefinitionIndex = 5599;
+	inline static constexpr unsigned int Update_DirectorUpdate_TypeDefinitionIndex = 5602;
 
-	struct alignas(1) Update_DirectorUpdate
+	struct alignas(4) Update_DirectorUpdate
 	{
 	};
 }

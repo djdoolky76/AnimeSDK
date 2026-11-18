@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_AD1085F76E7418A3;
+class IGPKLGJGBCI;
 
-#define MOLEMOLE_UIHARDCOREBOSSBATTLEWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17DB1B40)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLEWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1785B600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHardCoreBossBattleWidgetController_Context_TypeDefinitionIndex = 79723;
+	inline static constexpr unsigned int UIHardCoreBossBattleWidgetController_Context_TypeDefinitionIndex = 69718;
 
 	class UIHardCoreBossBattleWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_AD1085F76E7418A3* LevelData; // 0x28
+		::IGPKLGJGBCI* LevelData; // 0x28
 		::System::Int32 ModeTabIndex; // 0x30
 
 		::System::Void _ctor()

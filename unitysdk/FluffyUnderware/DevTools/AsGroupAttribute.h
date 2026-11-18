@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_ASGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA49420)
+#define FLUFFYUNDERWARE_DEVTOOLS_ASGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED520A0)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int AsGroupAttribute_TypeDefinitionIndex = 28924;
+	inline static constexpr unsigned int AsGroupAttribute_TypeDefinitionIndex = 28363;
 
 	class AsGroupAttribute : public ::FluffyUnderware::DevTools::GroupAttribute
 	{

@@ -1,114 +1,113 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/AssetRequestHandle.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/UI/BaseMeshEffect.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-namespace System { class String; }
 namespace System::Collections { class IEnumerable; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GETMODIFIEDMATERIALPOST_OFFSET UNITYSDK_OFFSET(0x15517CA0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x15517900)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_COLOR1_OFFSET UNITYSDK_OFFSET(0x155165B0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_COLOR2_OFFSET UNITYSDK_OFFSET(0x15516740)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_COLOR3_OFFSET UNITYSDK_OFFSET(0x155168D0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_COLOR4_OFFSET UNITYSDK_OFFSET(0x15516A60)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_POINT1_OFFSET UNITYSDK_OFFSET(0x155164F0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_POINT2_OFFSET UNITYSDK_OFFSET(0x15516680)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_POINT3_OFFSET UNITYSDK_OFFSET(0x15516810)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_POINT4_OFFSET UNITYSDK_OFFSET(0x155169A0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_MODIFIERSORTORDER_OFFSET UNITYSDK_OFFSET(0x15517C60)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x15517590)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONCANVASHIERARCHYCHANGED_OFFSET UNITYSDK_OFFSET(0x155174B0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15516F80)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x15517400)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x15516F10)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15516EA0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x15517240)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x15517320)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_BLENDMODE_OFFSET UNITYSDK_OFFSET(0x15516C00)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR1_OFFSET UNITYSDK_OFFSET(0x155165C0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR2_OFFSET UNITYSDK_OFFSET(0x15516750)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR3_OFFSET UNITYSDK_OFFSET(0x155168E0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR4_OFFSET UNITYSDK_OFFSET(0x15516A70)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_OPACITY_OFFSET UNITYSDK_OFFSET(0x15516B30)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT1_OFFSET UNITYSDK_OFFSET(0x15516500)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT2_OFFSET UNITYSDK_OFFSET(0x15516690)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT3_OFFSET UNITYSDK_OFFSET(0x15516820)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT4_OFFSET UNITYSDK_OFFSET(0x155169B0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_USINGUV_OFFSET UNITYSDK_OFFSET(0x15516470)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_START_OFFSET UNITYSDK_OFFSET(0x15516C80)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x15518010)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15517F00)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONCANVASHIERARCHYCHANGED_OFFSET UNITYSDK_OFFSET(0x15518280)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15518310)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x155183A0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x155183B0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x155183C0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x155183D0)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x15518460)
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_START_OFFSET UNITYSDK_OFFSET(0x155184F0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_DJDFLPPNCCH_OFFSET UNITYSDK_OFFSET(0x12B95580)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_FNPJJIBJLGA_OFFSET UNITYSDK_OFFSET(0x12B95620)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GETMODIFIEDMATERIALPOST_OFFSET UNITYSDK_OFFSET(0x12B94E60)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x12B94AC0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_COLOR1_OFFSET UNITYSDK_OFFSET(0x12B93770)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_COLOR2_OFFSET UNITYSDK_OFFSET(0x12B93900)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_COLOR3_OFFSET UNITYSDK_OFFSET(0x12B93A90)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_COLOR4_OFFSET UNITYSDK_OFFSET(0x12B93C20)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_POINT1_OFFSET UNITYSDK_OFFSET(0x12B936B0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_POINT2_OFFSET UNITYSDK_OFFSET(0x12B93840)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_POINT3_OFFSET UNITYSDK_OFFSET(0x12B939D0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_POINT4_OFFSET UNITYSDK_OFFSET(0x12B93B60)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GLHGKPIGJLJ_OFFSET UNITYSDK_OFFSET(0x12B95460)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_IFHNMAGGFAE_OFFSET UNITYSDK_OFFSET(0x12B95590)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ILHIIDBCNEC_OFFSET UNITYSDK_OFFSET(0x12B95450)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_JFIOGGEDFHB_OFFSET UNITYSDK_OFFSET(0x12B956B0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_KDOIBCBFBAG_OFFSET UNITYSDK_OFFSET(0x12B95440)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_MODIFIERSORTORDER_OFFSET UNITYSDK_OFFSET(0x12B94E20)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x12B94750)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_NIGDIMFIAEJ_OFFSET UNITYSDK_OFFSET(0x12B954F0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONCANVASHIERARCHYCHANGED_OFFSET UNITYSDK_OFFSET(0x12B94670)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12B94140)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0x12B945C0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x12B940D0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12B94060)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x12B94400)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x12B944E0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_BLENDMODE_OFFSET UNITYSDK_OFFSET(0x12B93DC0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR1_OFFSET UNITYSDK_OFFSET(0x12B93780)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR2_OFFSET UNITYSDK_OFFSET(0x12B93910)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR3_OFFSET UNITYSDK_OFFSET(0x12B93AA0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR4_OFFSET UNITYSDK_OFFSET(0x12B93C30)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_OPACITY_OFFSET UNITYSDK_OFFSET(0x12B93CF0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT1_OFFSET UNITYSDK_OFFSET(0x12B936C0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT2_OFFSET UNITYSDK_OFFSET(0x12B93850)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT3_OFFSET UNITYSDK_OFFSET(0x12B939E0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT4_OFFSET UNITYSDK_OFFSET(0x12B93B70)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_USINGUV_OFFSET UNITYSDK_OFFSET(0x12B93630)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_START_OFFSET UNITYSDK_OFFSET(0x12B93E40)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B951D0)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B950C0)
 
 namespace Code::Logic::UI::UGUIExtensions
 {
-	inline static constexpr unsigned int UI4ColorGradient_TypeDefinitionIndex = 71106;
+	inline static constexpr unsigned int UI4ColorGradient_TypeDefinitionIndex = 46229;
 
 	class UI4ColorGradient : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:
-		static ::System::Collections::IEnumerable** StaticGet_BlendModes()
-		{
-			return (::System::Collections::IEnumerable**)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x47C10);
-		}
 		static ::System::Collections::IEnumerable** StaticGet_UVSet()
 		{
-			return (::System::Collections::IEnumerable**)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x47C18);
+			return (::System::Collections::IEnumerable**)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x45DD0);
 		}
-		static ::System::Int32* StaticGet_Field_7_31()
+		static ::System::Collections::IEnumerable** StaticGet_BlendModes()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10AD0);
+			return (::System::Collections::IEnumerable**)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x45DD8);
 		}
-		static ::System::Int32* StaticGet_Field_7_26()
+		static ::System::Int32* StaticGet_DAJAJPBBIMC()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10AD4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10220);
 		}
-		static ::System::Int32* StaticGet_Field_7_20()
+		static ::System::Int32* StaticGet_PFAPAMHDLGK()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10AD8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10224);
 		}
-		static ::System::Int32* StaticGet_Field_7_25()
+		static ::System::Int32* StaticGet_MIJDFKPJMJA()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10ADC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10228);
 		}
-		static ::System::Int32* StaticGet_Field_7_27()
+		static ::System::Int32* StaticGet_GAOCDNPHDCN()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10AE0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x1022C);
 		}
-		static ::System::Int32* StaticGet_Field_7_24()
+		static ::System::Int32* StaticGet_GONCFGOOKFB()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10AE4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10230);
 		}
-		static ::System::Int32* StaticGet_Field_7_30()
+		static ::System::Int32* StaticGet_LBJIBFCFMPF()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10AE8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10234);
 		}
-		static ::System::Int32* StaticGet_Field_7_23()
+		static ::System::Int32* StaticGet_KCECHBNEALN()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10AEC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10238);
 		}
-		static ::System::Int32* StaticGet_Field_7_22()
+		static ::System::Int32* StaticGet_FHAMBJFPCLH()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10AF0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x1023C);
 		}
-		static ::System::Int32* StaticGet_Field_7_21()
+		static ::System::Int32* StaticGet_POICFFLLFHG()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10AF4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10240);
 		}
-		// static const ::System::String* Field_7_17; // 0x0
+		static ::System::Int32* StaticGet_AECBDCOAGDM()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UI4ColorGradient_TypeDefinitionIndex)->GetStaticField(0x10244);
+		}
+		// static const ::System::String* MGHKFIBFFEM; // 0x0
 		::System::Int32 usingUV; // 0x20
 		::UnityEngine::Vector2 point1; // 0x24
 		::UnityEngine::Color color1; // 0x2C
@@ -120,10 +119,12 @@ namespace Code::Logic::UI::UGUIExtensions
 		::UnityEngine::Color color4; // 0x74
 		::System::Single opacity; // 0x84
 		::System::Int32 blendMode; // 0x88
-		::UnityEngine::RectTransform* Field_7_12; // 0x90
-		::UnityEngine::Material* Field_7_19; // 0x98
-		::System::Boolean Field_7_18; // 0xA0
-		::Foundation::AssetRequestHandle Field_7_16; // 0xA8
+		::System::Byte _padding0[0x4];
+		::UnityEngine::RectTransform* OBLEMFDIIOD; // 0x90
+		::UnityEngine::Material* IDBDGJDONAD; // 0x98
+		::System::Boolean EEDKJEDOEFO; // 0xA0
+		::System::Byte _padding1[0x7];
+		::Foundation::AssetRequestHandle ABELMABCOPB; // 0xA8
 
 		::System::Void _ctor()
 		{
@@ -135,9 +136,9 @@ namespace Code::Logic::UI::UGUIExtensions
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT__CCTOR_OFFSET))();
 		}
 
-		::System::Void set_UsingUV(::System::Int32 a1)
+		::System::Void set_UsingUV(::System::Int32 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_USINGUV_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_USINGUV_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Vector2 get_Point1()
@@ -145,9 +146,9 @@ namespace Code::Logic::UI::UGUIExtensions
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_POINT1_OFFSET))(this);
 		}
 
-		::System::Void set_Point1(::UnityEngine::Vector2 a1)
+		::System::Void set_Point1(::UnityEngine::Vector2 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT1_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Color get_Color1()
@@ -155,9 +156,9 @@ namespace Code::Logic::UI::UGUIExtensions
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_COLOR1_OFFSET))(this);
 		}
 
-		::System::Void set_Color1(::UnityEngine::Color a1)
+		::System::Void set_Color1(::UnityEngine::Color EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR1_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Vector2 get_Point2()
@@ -165,9 +166,9 @@ namespace Code::Logic::UI::UGUIExtensions
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_POINT2_OFFSET))(this);
 		}
 
-		::System::Void set_Point2(::UnityEngine::Vector2 a1)
+		::System::Void set_Point2(::UnityEngine::Vector2 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT2_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Color get_Color2()
@@ -175,9 +176,9 @@ namespace Code::Logic::UI::UGUIExtensions
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_COLOR2_OFFSET))(this);
 		}
 
-		::System::Void set_Color2(::UnityEngine::Color a1)
+		::System::Void set_Color2(::UnityEngine::Color EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR2_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Vector2 get_Point3()
@@ -185,9 +186,9 @@ namespace Code::Logic::UI::UGUIExtensions
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_POINT3_OFFSET))(this);
 		}
 
-		::System::Void set_Point3(::UnityEngine::Vector2 a1)
+		::System::Void set_Point3(::UnityEngine::Vector2 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT3_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Color get_Color3()
@@ -195,9 +196,9 @@ namespace Code::Logic::UI::UGUIExtensions
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_COLOR3_OFFSET))(this);
 		}
 
-		::System::Void set_Color3(::UnityEngine::Color a1)
+		::System::Void set_Color3(::UnityEngine::Color EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR3_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Vector2 get_Point4()
@@ -205,9 +206,9 @@ namespace Code::Logic::UI::UGUIExtensions
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_POINT4_OFFSET))(this);
 		}
 
-		::System::Void set_Point4(::UnityEngine::Vector2 a1)
+		::System::Void set_Point4(::UnityEngine::Vector2 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_POINT4_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Color get_Color4()
@@ -215,19 +216,19 @@ namespace Code::Logic::UI::UGUIExtensions
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GET_COLOR4_OFFSET))(this);
 		}
 
-		::System::Void set_Color4(::UnityEngine::Color a1)
+		::System::Void set_Color4(::UnityEngine::Color EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_COLOR4_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Void set_Opacity(::System::Single a1)
+		::System::Void set_Opacity(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_OPACITY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_OPACITY_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Void set_BlendMode(::System::Int32 a1)
+		::System::Void set_BlendMode(::System::Int32 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_BLENDMODE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_SET_BLENDMODE_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Void Start()
@@ -270,14 +271,14 @@ namespace Code::Logic::UI::UGUIExtensions
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ONCANVASHIERARCHYCHANGED_OFFSET))(this);
 		}
 
-		::System::Void ModifyMesh(::UnityEngine::UI::VertexHelper* a1)
+		::System::Void ModifyMesh(::UnityEngine::UI::VertexHelper* KKHICLCLGDM)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_MODIFYMESH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_MODIFYMESH_OFFSET))(this, KKHICLCLGDM);
 		}
 
-		::UnityEngine::Material* GetModifiedMaterial(::UnityEngine::Material* a1)
+		::UnityEngine::Material* GetModifiedMaterial(::UnityEngine::Material* GPFKPAIDODB)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GETMODIFIEDMATERIAL_OFFSET))(this, a1);
+			return ((::UnityEngine::Material*(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GETMODIFIEDMATERIAL_OFFSET))(this, GPFKPAIDODB);
 		}
 
 		::System::Int32 ModifierSortOrder()
@@ -285,49 +286,49 @@ namespace Code::Logic::UI::UGUIExtensions
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_MODIFIERSORTORDER_OFFSET))(this);
 		}
 
-		::UnityEngine::Material* GetModifiedMaterialPost(::UnityEngine::Material* a1)
+		::System::Void GetModifiedMaterialPost(::UnityEngine::Material* GPFKPAIDODB)
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GETMODIFIEDMATERIALPOST_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GETMODIFIEDMATERIALPOST_OFFSET))(this, GPFKPAIDODB);
 		}
 
-		::System::Void __base_OnCanvasHierarchyChanged()
+		::System::Void KDOIBCBFBAG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONCANVASHIERARCHYCHANGED_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_KDOIBCBFBAG_OFFSET))(this);
 		}
 
-		::System::Void __base_OnDestroy()
+		::System::Void ILHIIDBCNEC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONDESTROY_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_ILHIIDBCNEC_OFFSET))(this);
 		}
 
-		::System::Void __base_OnDidApplyAnimationProperties()
+		::System::Void GLHGKPIGJLJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_GLHGKPIGJLJ_OFFSET))(this);
 		}
 
-		::System::Void __base_OnDisable()
+		::System::Void NIGDIMFIAEJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONDISABLE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_NIGDIMFIAEJ_OFFSET))(this);
 		}
 
-		::System::Void __base_OnEnable()
+		::System::Void DJDFLPPNCCH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONENABLE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_DJDFLPPNCCH_OFFSET))(this);
 		}
 
-		::System::Void __base_OnRectTransformDimensionsChange()
+		::System::Void IFHNMAGGFAE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_IFHNMAGGFAE_OFFSET))(this);
 		}
 
-		::System::Void __base_OnTransformParentChanged()
+		::System::Void FNPJJIBJLGA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_ONTRANSFORMPARENTCHANGED_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_FNPJJIBJLGA_OFFSET))(this);
 		}
 
-		::System::Void __base_Start()
+		::System::Void JFIOGGEDFHB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT___BASE_START_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_LOGIC_UI_UGUIEXTENSIONS_UI4COLORGRADIENT_JFIOGGEDFHB_OFFSET))(this);
 		}
 	};
 }

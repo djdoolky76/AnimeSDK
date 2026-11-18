@@ -6,13 +6,13 @@
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ENTITYTYPEABILITYTARGET_METHOD_3_78BB607F43B05857_OFFSET UNITYSDK_OFFSET(0x1C46AAA0)
-#define MOLEMOLE_CONFIG_ENTITYTYPEABILITYTARGET_METHOD_3_7D517655F72D87C3_OFFSET UNITYSDK_OFFSET(0x1C46A950)
-#define MOLEMOLE_CONFIG_ENTITYTYPEABILITYTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C46AA90)
+#define MOLEMOLE_CONFIG_ENTITYTYPEABILITYTARGET_BKKPLGJLKLE_OFFSET UNITYSDK_OFFSET(0x1C6E04E0)
+#define MOLEMOLE_CONFIG_ENTITYTYPEABILITYTARGET_DGKIALPKGNF_OFFSET UNITYSDK_OFFSET(0x1C6E0630)
+#define MOLEMOLE_CONFIG_ENTITYTYPEABILITYTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E0620)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EntityTypeAbilityTarget_TypeDefinitionIndex = 87918;
+	inline static constexpr unsigned int EntityTypeAbilityTarget_TypeDefinitionIndex = 45288;
 
 	class EntityTypeAbilityTarget : public ::MoleMole::Config::CommonAbilityTarget
 	{
@@ -24,14 +24,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ENTITYTYPEABILITYTARGET__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_3_7D517655F72D87C3(::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a1, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*& a2)
+		::System::Boolean BKKPLGJLKLE(::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* GDIJDKDIAAD, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*& HBPANNDINGD)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ENTITYTYPEABILITYTARGET_METHOD_3_7D517655F72D87C3_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ENTITYTYPEABILITYTARGET_BKKPLGJLKLE_OFFSET))(this, GDIJDKDIAAD, HBPANNDINGD);
 		}
 
-		::System::Boolean Method_3_78BB607F43B05857(::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* a1, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*& a2)
+		::System::Boolean DGKIALPKGNF(::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* MIALFKCCCPI, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*& KMGKAIDEIBA)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ENTITYTYPEABILITYTARGET_METHOD_3_78BB607F43B05857_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*, ::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ENTITYTYPEABILITYTARGET_DGKIALPKGNF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 	};
 }

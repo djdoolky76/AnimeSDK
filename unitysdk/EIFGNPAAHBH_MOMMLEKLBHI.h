@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/EIFGNPAAHBH_NDJMKKKEHGM.h"
+
+namespace System { class Random; }
+
+#define EIFGNPAAHBH_MOMMLEKLBHI_CEHHJHAKGPJ_OFFSET UNITYSDK_OFFSET(0xFE15510)
+#define EIFGNPAAHBH_MOMMLEKLBHI_DOCGJLHODCN_OFFSET UNITYSDK_OFFSET(0xFE155B0)
+#define EIFGNPAAHBH_MOMMLEKLBHI_OLAGBNEFJJP_OFFSET UNITYSDK_OFFSET(0xFE15620)
+
+inline static constexpr unsigned int EIFGNPAAHBH_MOMMLEKLBHI_TypeDefinitionIndex = 69065;
+
+class EIFGNPAAHBH_MOMMLEKLBHI : public ::System::Object
+{
+public:
+	static ::EIFGNPAAHBH_NDJMKKKEHGM CEHHJHAKGPJ(::System::Int32 ELEFICKKPFC, ::System::UInt64 EILOMGNBLHP)
+	{
+		return ((::EIFGNPAAHBH_NDJMKKKEHGM(*)(::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + EIFGNPAAHBH_MOMMLEKLBHI_CEHHJHAKGPJ_OFFSET))(ELEFICKKPFC, EILOMGNBLHP);
+	}
+
+	static ::System::UInt32 DOCGJLHODCN(::System::Int32 ELEFICKKPFC, ::System::UInt64 EILOMGNBLHP)
+	{
+		return ((::System::UInt32(*)(::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + EIFGNPAAHBH_MOMMLEKLBHI_DOCGJLHODCN_OFFSET))(ELEFICKKPFC, EILOMGNBLHP);
+	}
+
+	static ::System::Random* OLAGBNEFJJP(::System::Int32 ELEFICKKPFC, ::System::UInt64 EILOMGNBLHP)
+	{
+		return ((::System::Random*(*)(::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + EIFGNPAAHBH_MOMMLEKLBHI_OLAGBNEFJJP_OFFSET))(ELEFICKKPFC, EILOMGNBLHP);
+	}
+};

@@ -2,29 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 #include "unitysdk/UnityEngine/RenderTextureFormat.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::NAPRenderPipeline0 { class RTXGI_RadixSortBuffers; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_HISTORYBUFFER_RELEASESCENEHISTORY_OFFSET UNITYSDK_OFFSET(0x1EA6EB10)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_HISTORYBUFFER_RELEASEWHENCHANGED_OFFSET UNITYSDK_OFFSET(0x1EA6E5D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_HISTORYBUFFER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1EA6E4A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_HISTORYBUFFER_RELOCATEIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1EA6EFF0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_HISTORYBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6FCA0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_HISTORYBUFFER_RELEASESCENEHISTORY_OFFSET UNITYSDK_OFFSET(0x1EDAB350)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_HISTORYBUFFER_RELEASEWHENCHANGED_OFFSET UNITYSDK_OFFSET(0x1EDAAE10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_HISTORYBUFFER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1EDAACE0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_HISTORYBUFFER_RELOCATEIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1EDAB830)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTXGI_HISTORYBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDAC4E0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RTXGI_HistoryBuffer_TypeDefinitionIndex = 5801;
+	inline static constexpr unsigned int RTXGI_HistoryBuffer_TypeDefinitionIndex = 5806;
 
 	class RTXGI_HistoryBuffer : public ::System::Object
 	{
 	public:
 		::UnityEngine::RenderTextureFormat BufferFormat; // 0x10
 		::System::Boolean bEnableForwardGBuffer; // 0x14
+		::System::Byte _padding0[0x3];
 		::UnityEngine::RenderTexture* TemporalReservoir; // 0x18
 		::UnityEngine::RenderTexture* HistoryResult; // 0x20
 		::UnityEngine::RenderTexture* HistorySpecResult; // 0x28

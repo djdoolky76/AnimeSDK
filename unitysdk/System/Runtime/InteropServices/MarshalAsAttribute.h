@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Runtime/InteropServices/UnmanagedType.h"
 #include "unitysdk/System/Runtime/InteropServices/VarEnum.h"
+#include "unitysdk/System/Attribute.h"
 
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALASATTRIBUTE_COPY_OFFSET UNITYSDK_OFFSET(0x1D8C2A30)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALASATTRIBUTE_COPY_OFFSET UNITYSDK_OFFSET(0x1DD9EF30)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int MarshalAsAttribute_TypeDefinitionIndex = 1438;
+	inline static constexpr unsigned int MarshalAsAttribute_TypeDefinitionIndex = 1437;
 
 	class MarshalAsAttribute : public ::System::Attribute
 	{

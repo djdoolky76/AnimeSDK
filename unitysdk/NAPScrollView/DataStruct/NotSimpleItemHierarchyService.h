@@ -1,0 +1,179 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_2.h"
+
+class MonoUITableScrollV2_BaseScrollLogic;
+namespace MoleMole { class ScrollViewItemWidgetController; }
+namespace NAPScrollView::DataStruct { class NotSimpleScrollViewAdapterServices; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Transform; }
+
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_DATAINDEXTOVECTOR_OFFSET UNITYSDK_OFFSET(0x12C3E490)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETALLITEMS_1_OFFSET UNITYSDK_OFFSET(0x12C3D2B0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETALLITEMS_OFFSET UNITYSDK_OFFSET(0x12C3CDC0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETDATAINDEXBYITEMGO_INCLUDEDUMMY_OFFSET UNITYSDK_OFFSET(0x12C3CC40)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETDATAINDEXBYITEMGO_OFFSET UNITYSDK_OFFSET(0x12C3CB60)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETITEMCONTROLLERBYDATAINDEX_OFFSET UNITYSDK_OFFSET(0x12C3D870)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETITEMGOBYDATAINDEX_OFFSET UNITYSDK_OFFSET(0x12C3CA10)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETITEMTRANSBYDATAINDEX_OFFSET UNITYSDK_OFFSET(0x12C3C6F0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETITEMTRANSBYDATAINDEX_WITHDUMMY_OFFSET UNITYSDK_OFFSET(0x12C3C850)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETSCROLLITEM_OFFSET UNITYSDK_OFFSET(0x12C3D7A0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETVIEWPORTCHILDREN_OFFSET UNITYSDK_OFFSET(0x12C3DFE0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETVIEWRECTCENTERCHILD_OFFSET UNITYSDK_OFFSET(0x12C3D9C0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_DATACONTENT_OFFSET UNITYSDK_OFFSET(0x12C3C600)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_ENDINDEXINCLUDEDUMMY_OFFSET UNITYSDK_OFFSET(0x12C3EB70)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_ENDINDEX_OFFSET UNITYSDK_OFFSET(0x12C3E800)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_LOGIC_OFFSET UNITYSDK_OFFSET(0x12C3C5E0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_MAXDATAINDEXINCLUDEDUMMY_OFFSET UNITYSDK_OFFSET(0x12C3ECA0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_MAXDATAINDEX_OFFSET UNITYSDK_OFFSET(0x12C3F260)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_MINDATAINDEXINCLUDEDUMMY_OFFSET UNITYSDK_OFFSET(0x12C3EA20)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_MINDATAINDEX_OFFSET UNITYSDK_OFFSET(0x12C3EDF0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_STARTINDEXINCLUDEDUMMY_OFFSET UNITYSDK_OFFSET(0x12C3E8F0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_STARTINDEX_OFFSET UNITYSDK_OFFSET(0x12C3E710)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_ROUNDDATAINDEX_OFFSET UNITYSDK_OFFSET(0x12C3E2E0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x12C3F6D0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C3C5D0)
+
+namespace NAPScrollView::DataStruct
+{
+	inline static constexpr unsigned int NotSimpleItemHierarchyService_TypeDefinitionIndex = 51986;
+
+	class NotSimpleItemHierarchyService : public ::System::Object
+	{
+	public:
+		static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>** StaticGet_EmptyGameObjects()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(NotSimpleItemHierarchyService_TypeDefinitionIndex)->GetStaticField(0x50EB0);
+		}
+		::NAPScrollView::DataStruct::NotSimpleScrollViewAdapterServices* _services; // 0x10
+
+		::System::Void _ctor(::NAPScrollView::DataStruct::NotSimpleScrollViewAdapterServices* services)
+		{
+			return ((::System::Void(*)(::PVOID, ::NAPScrollView::DataStruct::NotSimpleScrollViewAdapterServices*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE__CTOR_OFFSET))(this, services);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE__CCTOR_OFFSET))();
+		}
+
+		::MonoUITableScrollV2_BaseScrollLogic* get_Logic()
+		{
+			return ((::MonoUITableScrollV2_BaseScrollLogic*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_LOGIC_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_DataContent()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_DATACONTENT_OFFSET))(this);
+		}
+
+		::UnityEngine::Transform* GetItemTransByDataIndex(::System::Int32 dataIndex)
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETITEMTRANSBYDATAINDEX_OFFSET))(this, dataIndex);
+		}
+
+		::UnityEngine::Transform* GetItemTransByDataIndex_WithDummy(::System::Int32 dataIndex)
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETITEMTRANSBYDATAINDEX_WITHDUMMY_OFFSET))(this, dataIndex);
+		}
+
+		::UnityEngine::GameObject* GetItemGOByDataIndex(::System::Int32 dataIndex)
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETITEMGOBYDATAINDEX_OFFSET))(this, dataIndex);
+		}
+
+		::System::Int32 GetDataIndexByItemGO(::UnityEngine::GameObject* go)
+		{
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETDATAINDEXBYITEMGO_OFFSET))(this, go);
+		}
+
+		::System::Int32 GetDataIndexByItemGO_IncludeDummy(::UnityEngine::GameObject* go)
+		{
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETDATAINDEXBYITEMGO_INCLUDEDUMMY_OFFSET))(this, go);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::GameObject*>* GetAllItems()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::GameObject*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETALLITEMS_OFFSET))(this);
+		}
+
+		::System::Void GetAllItems_1(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& items)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*&))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETALLITEMS_1_OFFSET))(this, items);
+		}
+
+		::MoleMole::ScrollViewItemWidgetController* GetScrollItem(::UnityEngine::GameObject* go)
+		{
+			return ((::MoleMole::ScrollViewItemWidgetController*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETSCROLLITEM_OFFSET))(this, go);
+		}
+
+		::MoleMole::ScrollViewItemWidgetController* GetItemControllerByDataIndex(::System::Int32 dataIndex)
+		{
+			return ((::MoleMole::ScrollViewItemWidgetController*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETITEMCONTROLLERBYDATAINDEX_OFFSET))(this, dataIndex);
+		}
+
+		::UnityEngine::GameObject* GetViewRectCenterChild()
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETVIEWRECTCENTERCHILD_OFFSET))(this);
+		}
+
+		::System::Void GetViewportChildren(::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* children)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GETVIEWPORTCHILDREN_OFFSET))(this, children);
+		}
+
+		::System::Int32 RoundDataIndex(::System::Int32 dataIndex)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_ROUNDDATAINDEX_OFFSET))(this, dataIndex);
+		}
+
+		::System::ValueTuple_2<::System::Int32, ::System::Int32> DataIndexToVector(::System::Int32 dataIndex)
+		{
+			return ((::System::ValueTuple_2<::System::Int32, ::System::Int32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_DATAINDEXTOVECTOR_OFFSET))(this, dataIndex);
+		}
+
+		::System::Int32 get_StartIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_STARTINDEX_OFFSET))(this);
+		}
+
+		::System::Int32 get_EndIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_ENDINDEX_OFFSET))(this);
+		}
+
+		::System::Int32 get_StartIndexIncludeDummy()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_STARTINDEXINCLUDEDUMMY_OFFSET))(this);
+		}
+
+		::System::Int32 get_EndIndexIncludeDummy()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_ENDINDEXINCLUDEDUMMY_OFFSET))(this);
+		}
+
+		::System::Int32 get_MinDataIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_MINDATAINDEX_OFFSET))(this);
+		}
+
+		::System::Int32 get_MaxDataIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_MAXDATAINDEX_OFFSET))(this);
+		}
+
+		::System::Int32 get_MinDataIndexIncludeDummy()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_MINDATAINDEXINCLUDEDUMMY_OFFSET))(this);
+		}
+
+		::System::Int32 get_MaxDataIndexIncludeDummy()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEITEMHIERARCHYSERVICE_GET_MAXDATAINDEXINCLUDEDUMMY_OFFSET))(this);
+		}
+	};
+}

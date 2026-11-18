@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBossChallengeTabBtnsWidgetController; }
 
-#define MOLEMOLE_UIBOSSCHALLENGETABBTNSWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19A906B0)
-#define MOLEMOLE_UIBOSSCHALLENGETABBTNSWIDGETCONTROLLER___C__DISPLAYCLASS11_0__SETUP_B__0_OFFSET UNITYSDK_OFFSET(0x19A91AF0)
+#define MOLEMOLE_UIBOSSCHALLENGETABBTNSWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A360590)
+#define MOLEMOLE_UIBOSSCHALLENGETABBTNSWIDGETCONTROLLER___C__DISPLAYCLASS11_0__SETUP_B__0_OFFSET UNITYSDK_OFFSET(0x1A3619C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossChallengeTabBtnsWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 63014;
+	inline static constexpr unsigned int UIBossChallengeTabBtnsWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 38430;
 
 	class UIBossChallengeTabBtnsWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{

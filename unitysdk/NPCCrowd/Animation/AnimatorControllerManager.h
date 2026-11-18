@@ -1,37 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Animation/AnimatorControllerManager_ArchetypeData.h"
 #include "unitysdk/NPCCrowd/Animation/AnimatorControllerParamEntry.h"
 #include "unitysdk/NPCCrowd/Animation/AnimatorControllerStateEntry.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
+#include "unitysdk/NPCCrowd/Animation/AnimatorControllerManager_ArchetypeData.h"
 #include "unitysdk/Unity/Collections/NativeSlice_1.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace NPCCrowd::Animation { class AnimationControllerInstanceConfig; }
-namespace NPCCrowd::Animation { template <typename T1, typename T2> class AnimatorControllerInstance_2; }
-namespace NPCCrowd::Animation { template <typename T> class AnimatorControllerParamResolver_1; }
-namespace NPCCrowd::Animation { template <typename T> class AnimatorControllerStateResolver_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimatorOverrideController; }
 
-#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_ALLOCATECHUNK_OFFSET UNITYSDK_OFFSET(0x12D208B0)
-#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x12D20990)
-#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12D21BB0)
-#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_FINDORADD_OFFSET UNITYSDK_OFFSET(0x12D216E0)
-#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_GETARCHETYPE_OFFSET UNITYSDK_OFFSET(0x12D20770)
-#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_GETINSTANCECONTROLLER_OFFSET UNITYSDK_OFFSET(0x12D220A0)
-#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_GETINSTANCEPARAM_OFFSET UNITYSDK_OFFSET(0x12D21F70)
-#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_GETINSTANCESTATE_OFFSET UNITYSDK_OFFSET(0x12D22000)
-#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_ISVALIDINSTANCE_OFFSET UNITYSDK_OFFSET(0x12D21A40)
-#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_NEW_OFFSET UNITYSDK_OFFSET(0x12D20D70)
-#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x12D22120)
+#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_ALLOCATECHUNK_OFFSET UNITYSDK_OFFSET(0x137A1CE0)
+#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x137A1DC0)
+#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x137A2FF0)
+#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_FINDORADD_OFFSET UNITYSDK_OFFSET(0x137A2B10)
+#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_GETARCHETYPE_OFFSET UNITYSDK_OFFSET(0x137A1BA0)
+#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_GETINSTANCECONTROLLER_OFFSET UNITYSDK_OFFSET(0x137A34E0)
+#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_GETINSTANCEPARAM_OFFSET UNITYSDK_OFFSET(0x137A33B0)
+#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_GETINSTANCESTATE_OFFSET UNITYSDK_OFFSET(0x137A3440)
+#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_ISVALIDINSTANCE_OFFSET UNITYSDK_OFFSET(0x137A2E80)
+#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_NEW_OFFSET UNITYSDK_OFFSET(0x137A21A0)
+#define NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x137A3560)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimatorControllerManager_TypeDefinitionIndex = 72654;
+	inline static constexpr unsigned int AnimatorControllerManager_TypeDefinitionIndex = 76482;
 
 	class AnimatorControllerManager : public ::System::Object
 	{
@@ -40,7 +36,7 @@ namespace NPCCrowd::Animation
 		// static const ::System::Int32 ChunkSizeBit = 0x3; // 0x0
 		// static const ::System::Int32 ChunkMask = 0x7; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::ValueTuple_2<::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimatorControllerStateEntry>, ::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimatorControllerParamEntry>>>*, ::System::Int32>>* _archetypeData; // 0x10
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::AnimationControllerInstanceConfig*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::UnityEngine::AnimatorOverrideController*, ::NPCCrowd::Animation::AnimatorControllerManager_ArchetypeData>>*>* _instanceData; // 0x18
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Animation::AnimationControllerInstanceConfig*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::UnityEngine::AnimatorOverrideController*, ::System::Object*>>*>* _instanceData; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -62,14 +58,14 @@ namespace NPCCrowd::Animation
 			return ((::NPCCrowd::Animation::AnimatorControllerManager_ArchetypeData(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_ALLOCATE_OFFSET))(this, archetype);
 		}
 
-		::System::ValueTuple_2<::UnityEngine::AnimatorOverrideController*, ::NPCCrowd::Animation::AnimatorControllerManager_ArchetypeData> New(::NPCCrowd::Animation::AnimationControllerInstanceConfig* instanceConfig, ::System::Int32 instanceIndex)
+		::System::ValueTuple_2<::UnityEngine::AnimatorOverrideController*, ::System::Object*> New(::NPCCrowd::Animation::AnimationControllerInstanceConfig* instanceConfig, ::System::Int32 instanceIndex)
 		{
-			return ((::System::ValueTuple_2<::UnityEngine::AnimatorOverrideController*, ::NPCCrowd::Animation::AnimatorControllerManager_ArchetypeData>(*)(::PVOID, ::NPCCrowd::Animation::AnimationControllerInstanceConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_NEW_OFFSET))(this, instanceConfig, instanceIndex);
+			return ((::System::ValueTuple_2<::UnityEngine::AnimatorOverrideController*, ::System::Object*>(*)(::PVOID, ::NPCCrowd::Animation::AnimationControllerInstanceConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_NEW_OFFSET))(this, instanceConfig, instanceIndex);
 		}
 
-		::System::ValueTuple_2<::UnityEngine::AnimatorOverrideController*, ::NPCCrowd::Animation::AnimatorControllerManager_ArchetypeData> FindOrAdd(::NPCCrowd::Animation::AnimationControllerInstanceConfig* instanceConfig, ::System::Int32 instanceIndex)
+		::System::ValueTuple_2<::UnityEngine::AnimatorOverrideController*, ::System::Object*> FindOrAdd(::NPCCrowd::Animation::AnimationControllerInstanceConfig* instanceConfig, ::System::Int32 instanceIndex)
 		{
-			return ((::System::ValueTuple_2<::UnityEngine::AnimatorOverrideController*, ::NPCCrowd::Animation::AnimatorControllerManager_ArchetypeData>(*)(::PVOID, ::NPCCrowd::Animation::AnimationControllerInstanceConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_FINDORADD_OFFSET))(this, instanceConfig, instanceIndex);
+			return ((::System::ValueTuple_2<::UnityEngine::AnimatorOverrideController*, ::System::Object*>(*)(::PVOID, ::NPCCrowd::Animation::AnimationControllerInstanceConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATORCONTROLLERMANAGER_FINDORADD_OFFSET))(this, instanceConfig, instanceIndex);
 		}
 
 		static ::System::Boolean IsValidInstance(::NPCCrowd::Animation::AnimationControllerInstanceConfig* instance, ::System::Int32 instanceIndex)

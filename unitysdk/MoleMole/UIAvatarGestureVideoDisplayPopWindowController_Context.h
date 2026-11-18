@@ -1,25 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_46A4DF183FD2681B.h"
+#include "unitysdk/EFKKEPALCJA.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_0_16E4307DCC419505_179;
-namespace MoleMole { class UIGeneralAvatarGesturePurchaseWidgetController_Context; }
+class NBDLJECLJJO;
+namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIAVATARGESTUREVIDEODISPLAYPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1850A190)
+#define MOLEMOLE_UIAVATARGESTUREVIDEODISPLAYPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A22B2C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarGestureVideoDisplayPopWindowController_Context_TypeDefinitionIndex = 67156;
+	inline static constexpr unsigned int UIAvatarGestureVideoDisplayPopWindowController_Context_TypeDefinitionIndex = 57237;
 
 	class UIAvatarGestureVideoDisplayPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action_1<::MoleMole::UIGeneralAvatarGesturePurchaseWidgetController_Context*>* OnPurchase; // 0x28
-		::Class_0_16E4307DCC419505_179* GoodsData; // 0x30
-		::Enum_3_46A4DF183FD2681B Mode; // 0x38
-		::System::Boolean DoubleConfirm; // 0x3C
+		::NBDLJECLJJO* GoodsData; // 0x28
+		::System::Action_1<::System::Object*>* OnPurchase; // 0x30
+		::System::Boolean DoubleConfirm; // 0x38
+		::System::Byte _padding0[0x3];
+		::EFKKEPALCJA Mode; // 0x3C
 
 		::System::Void _ctor()
 		{

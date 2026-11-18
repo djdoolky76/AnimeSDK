@@ -3,29 +3,28 @@
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
 
 namespace System { class Action; }
-namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_BINDTAPTAP_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D1DFD70)
-#define MIHOYO_SDK_WIN_BINDTAPTAP_BIND_OFFSET UNITYSDK_OFFSET(0x1D1E0550)
-#define MIHOYO_SDK_WIN_BINDTAPTAP_HIDE_OFFSET UNITYSDK_OFFSET(0x1D1DFBD0)
-#define MIHOYO_SDK_WIN_BINDTAPTAP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D1E0590)
-#define MIHOYO_SDK_WIN_BINDTAPTAP_REGISTER_OFFSET UNITYSDK_OFFSET(0x1D1E0570)
-#define MIHOYO_SDK_WIN_BINDTAPTAP_SHOW_OFFSET UNITYSDK_OFFSET(0x1D1DFC40)
-#define MIHOYO_SDK_WIN_BINDTAPTAP_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1D1E0410)
-#define MIHOYO_SDK_WIN_BINDTAPTAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E05B0)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D85E030)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_BIND_OFFSET UNITYSDK_OFFSET(0x1D85E810)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_HIDE_OFFSET UNITYSDK_OFFSET(0x1D85DE90)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D85E850)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_REGISTER_OFFSET UNITYSDK_OFFSET(0x1D85E830)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_SHOW_OFFSET UNITYSDK_OFFSET(0x1D85DF00)
+#define MIHOYO_SDK_WIN_BINDTAPTAP_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1D85E6D0)
+#define MIHOYO_SDK_WIN_BINDTAPTAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D85E870)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindTapTap_TypeDefinitionIndex = 21604;
+	inline static constexpr unsigned int BindTapTap_TypeDefinitionIndex = 20804;
 
 	class BindTapTap : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::Win::BindTapTap** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::BindTapTap**)Il2CppClass::FromTypeDefinitionIndex(BindTapTap_TypeDefinitionIndex)->GetStaticField(0x9690);
+			return (::MiHoYo::SDK::Win::BindTapTap**)Il2CppClass::FromTypeDefinitionIndex(BindTapTap_TypeDefinitionIndex)->GetStaticField(0x96A0);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* BindButtonPath; // 0x0

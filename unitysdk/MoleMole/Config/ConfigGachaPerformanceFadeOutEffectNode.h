@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigConditionPredicateNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFADEOUTEFFECTNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x172A57A0)
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFADEOUTEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x172A5810)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFADEOUTEFFECTNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16411020)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFADEOUTEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16411090)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformanceFadeOutEffectNode_TypeDefinitionIndex = 61079;
+	inline static constexpr unsigned int ConfigGachaPerformanceFadeOutEffectNode_TypeDefinitionIndex = 76476;
 
 	class ConfigGachaPerformanceFadeOutEffectNode : public ::MoleMole::Config::ConfigConditionPredicateNode
 	{
@@ -22,9 +22,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFADEOUTEFFECTNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFADEOUTEFFECTNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEFADEOUTEFFECTNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

@@ -5,17 +5,17 @@
 namespace MoleMole { class SkillCharacterScriptConfig_PatternPair; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR_ADDPAIR_OFFSET UNITYSDK_OFFSET(0x16890040)
-#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x168900E0)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR_ADDPAIR_OFFSET UNITYSDK_OFFSET(0x10D5D590)
+#define MOLEMOLE_SKILLCHARACTERSCRIPTCONFIG_LISTPATTERNPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x10D5D630)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SkillCharacterScriptConfig_ListPatternPair_TypeDefinitionIndex = 86316;
+	inline static constexpr unsigned int SkillCharacterScriptConfig_ListPatternPair_TypeDefinitionIndex = 48145;
 
 	class SkillCharacterScriptConfig_ListPatternPair : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::SkillCharacterScriptConfig_PatternPair*>* pairList; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* pairList; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -6,11 +6,11 @@ namespace MoleMole { class FishMove3DCurve; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_FISHMOVEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19DA7FF0)
+#define MOLEMOLE_FISHMOVEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2EFE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FishMoveParam_TypeDefinitionIndex = 49616;
+	inline static constexpr unsigned int FishMoveParam_TypeDefinitionIndex = 93146;
 
 	class FishMoveParam : public ::System::Object
 	{
@@ -20,6 +20,7 @@ namespace MoleMole
 		::System::Single TurnAngleSpeed; // 0x1C
 		::MoleMole::FishMove3DCurve* Move3DCurve; // 0x20
 		::System::Single MoveXSpeed; // 0x28
+		::System::Byte _padding0[0x4];
 		::MoleMole::FishMove3DCurve* ClickCurve; // 0x30
 		::MoleMole::FishMove3DCurve* PressCurve; // 0x38
 		::System::Single HurtRate; // 0x40
@@ -28,8 +29,10 @@ namespace MoleMole
 		::System::Single FrequencyRate; // 0x50
 		::System::Single SpeedRate; // 0x54
 		::System::Single MoveXSpeedLocal; // 0x58
+		::System::Byte _padding1[0x4];
 		::MoleMole::FishMove3DCurve* Move3DCurveLocal; // 0x60
 		::System::Single MoveXSpeedLocalBoss; // 0x68
+		::System::Byte _padding2[0x4];
 		::MoleMole::FishMove3DCurve* Move3DCurveLocalBoss; // 0x70
 
 		::System::Void _ctor()

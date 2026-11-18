@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationClip; }
 
-#define NPCEMOTIONCLIPASSET_GET_BLINKCLIP_OFFSET UNITYSDK_OFFSET(0x12D3B910)
-#define NPCEMOTIONCLIPASSET_GET_FACIALCLIP_OFFSET UNITYSDK_OFFSET(0x12D3B760)
-#define NPCEMOTIONCLIPASSET_UNLOADASSETS_OFFSET UNITYSDK_OFFSET(0x12D3BAC0)
-#define NPCEMOTIONCLIPASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x12D3BDC0)
+#define NPCEMOTIONCLIPASSET_GET_BLINKCLIP_OFFSET UNITYSDK_OFFSET(0x14F3ED20)
+#define NPCEMOTIONCLIPASSET_GET_FACIALCLIP_OFFSET UNITYSDK_OFFSET(0x14F3EB70)
+#define NPCEMOTIONCLIPASSET_UNLOADASSETS_OFFSET UNITYSDK_OFFSET(0x14F3EED0)
+#define NPCEMOTIONCLIPASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x14F3F1D0)
 
-inline static constexpr unsigned int NPCEmotionClipAsset_TypeDefinitionIndex = 71070;
+inline static constexpr unsigned int NPCEmotionClipAsset_TypeDefinitionIndex = 67201;
 
 class NPCEmotionClipAsset : public ::System::Object
 {
@@ -22,6 +22,7 @@ public:
 	::UnityEngine::AnimationClip* _facialClip; // 0x28
 	::Foundation::AssetRequestHandle _facialClipHandle; // 0x30
 	::System::Int32 facialAnimationID; // 0x50
+	::System::Byte _padding0[0x4];
 	::Foundation::AssetPath blinkClipPath; // 0x58
 	::UnityEngine::AnimationClip* _blinkClip; // 0x68
 	::Foundation::AssetRequestHandle _blinkClipHandle; // 0x70

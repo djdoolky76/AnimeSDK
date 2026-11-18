@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGUISTARTFUNCTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x162670C0)
+#define MOLEMOLE_CONFIG_CONFIGUISTARTFUNCTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B21360)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIStartFunctionNode_TypeDefinitionIndex = 89359;
+	inline static constexpr unsigned int ConfigUIStartFunctionNode_TypeDefinitionIndex = 63456;
 
 	class ConfigUIStartFunctionNode : public ::MoleMole::Config::ConfigUIBaseFunctionNode
 	{

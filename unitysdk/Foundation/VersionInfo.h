@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_VERSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F62E5D0)
+#define FOUNDATION_VERSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7D66F0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int VersionInfo_TypeDefinitionIndex = 7947;
+	inline static constexpr unsigned int VersionInfo_TypeDefinitionIndex = 8137;
 
 	class VersionInfo : public ::System::Object
 	{

@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/ProfilingRecorder/SystemTimeRecorder_SystemTimeDelta.h"
-#include "unitysdk/ProfilingRecorder/SystemTimeRecorder_SystemTimeEntry.h"
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/ProfilingRecorder/SystemTimeRecorder_SystemTimeDelta.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Diagnostics { class Stopwatch; }
 
-#define PROFILINGRECORDER_SYSTEMTIMERECORDER_END_OFFSET UNITYSDK_OFFSET(0x1C85B250)
-#define PROFILINGRECORDER_SYSTEMTIMERECORDER_PROFILINGRECORDER_IPROFILERRECORDER_END_OFFSET UNITYSDK_OFFSET(0x1C85B7C0)
-#define PROFILINGRECORDER_SYSTEMTIMERECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C85B810)
+#define PROFILINGRECORDER_SYSTEMTIMERECORDER_END_OFFSET UNITYSDK_OFFSET(0x1CE23530)
+#define PROFILINGRECORDER_SYSTEMTIMERECORDER_PROFILINGRECORDER_IPROFILERRECORDER_END_OFFSET UNITYSDK_OFFSET(0x1CE23AA0)
+#define PROFILINGRECORDER_SYSTEMTIMERECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE23AF0)
 
 namespace ProfilingRecorder
 {
-	inline static constexpr unsigned int SystemTimeRecorder_TypeDefinitionIndex = 38008;
+	inline static constexpr unsigned int SystemTimeRecorder_TypeDefinitionIndex = 36006;
 
 	class SystemTimeRecorder : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::ProfilingRecorder::SystemTimeRecorder_SystemTimeEntry>* _systemTimes; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>* _pendingStarts; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int64>* _pendingStarts; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _systemTimes; // 0x18
 		::System::Diagnostics::Stopwatch* _stopwatch; // 0x20
 		::System::Boolean _isRecording; // 0x28
+		::System::Byte _padding0[0x7];
 		::System::DateTime _recordStartTime; // 0x30
 
 		::System::Void _ctor()

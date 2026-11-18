@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigSurfGameItemAction.h"
 
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMOVERRIDEDRIFTACTION_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16264660)
-#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMOVERRIDEDRIFTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16264720)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMOVERRIDEDRIFTACTION_EXECUTE_OFFSET UNITYSDK_OFFSET(0x19B1E8F0)
+#define MOLEMOLE_CONFIG_CONFIGSURFGAMEITEMOVERRIDEDRIFTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19B1E9B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfGameItemOverrideDriftAction_TypeDefinitionIndex = 79645;
+	inline static constexpr unsigned int ConfigSurfGameItemOverrideDriftAction_TypeDefinitionIndex = 44497;
 
 	class ConfigSurfGameItemOverrideDriftAction : public ::MoleMole::Config::ConfigSurfGameItemAction
 	{
 	public:
 		::System::Boolean EnableOverride; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Int32 OverrideId; // 0x14
 
 		::System::Void _ctor()

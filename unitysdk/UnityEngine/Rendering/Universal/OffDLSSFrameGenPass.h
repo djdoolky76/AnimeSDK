@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OFFDLSSFRAMEGENPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D605FE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OFFDLSSFRAMEGENPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D605F50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OFFDLSSFRAMEGENPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D8D3900)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OFFDLSSFRAMEGENPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D3870)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OffDLSSFrameGenPass_TypeDefinitionIndex = 27239;
+	inline static constexpr unsigned int OffDLSSFrameGenPass_TypeDefinitionIndex = 26132;
 
 	class OffDLSSFrameGenPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

@@ -5,24 +5,24 @@
 namespace MoleMole { class UIWorkbenchMainPageSmallBtnWidgetController_Context; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIWORKBENCHMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10F044C0)
-#define MOLEMOLE_UIWORKBENCHMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10F04500)
-#define MOLEMOLE_UIWORKBENCHMAINPAGECONTROLLER___C__INITAPPICONSDATA_B__25_0_OFFSET UNITYSDK_OFFSET(0x10F04510)
+#define MOLEMOLE_UIWORKBENCHMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13B2FAE0)
+#define MOLEMOLE_UIWORKBENCHMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13B2FB20)
+#define MOLEMOLE_UIWORKBENCHMAINPAGECONTROLLER___C__INITAPPICONSDATA_B__25_0_OFFSET UNITYSDK_OFFSET(0x13B2FB30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkBenchMainPageController___c_TypeDefinitionIndex = 67477;
+	inline static constexpr unsigned int UIWorkBenchMainPageController___c_TypeDefinitionIndex = 85393;
 
 	class UIWorkBenchMainPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIWorkBenchMainPageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIWorkBenchMainPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIWorkBenchMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x500E0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIWorkBenchMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4EC70);
 		}
-		static ::System::Comparison_1<::MoleMole::UIWorkbenchMainPageSmallBtnWidgetController_Context*>** StaticGet___9__25_0()
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__25_0()
 		{
-			return (::System::Comparison_1<::MoleMole::UIWorkbenchMainPageSmallBtnWidgetController_Context*>**)Il2CppClass::FromTypeDefinitionIndex(UIWorkBenchMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x500E8);
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UIWorkBenchMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x4EC78);
 		}
 
 		static ::System::Void _cctor()

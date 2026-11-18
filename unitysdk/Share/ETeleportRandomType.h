@@ -3,7 +3,7 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ETeleportRandomType_TypeDefinitionIndex = 14020;
+	inline static constexpr unsigned int ETeleportRandomType_TypeDefinitionIndex = 10702;
 
 	enum class ETeleportRandomType : ::System::Int16
 	{

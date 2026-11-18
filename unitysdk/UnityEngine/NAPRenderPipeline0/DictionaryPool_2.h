@@ -7,15 +7,15 @@ namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class ObjectPo
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DictionaryPool_2_TypeDefinitionIndex = 5975;
+	inline static constexpr unsigned int DictionaryPool_2_TypeDefinitionIndex = 5983;
 
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class DictionaryPool_2 : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::ObjectPool_1<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>** StaticGet_s_Pool()
+		static ::UnityEngine::NAPRenderPipeline0::ObjectPool_1<::System::Collections::Generic::Dictionary_2<T1, T2>*>** StaticGet_s_Pool()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ObjectPool_1<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryPool_2_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::UnityEngine::NAPRenderPipeline0::ObjectPool_1<::System::Collections::Generic::Dictionary_2<T1, T2>*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryPool_2_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 	};
 }

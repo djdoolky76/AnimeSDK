@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/EOAHOOCNDHM.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+#include "unitysdk/OMGFCFDABLN.h"
+
+class JODMGCIFBLC;
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+
+#define AEGOIPKBOAN_LPIIBPOLLJF_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14347220)
+#define AEGOIPKBOAN_LPIIBPOLLJF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x143472C0)
+#define AEGOIPKBOAN_LPIIBPOLLJF_INVOKE_OFFSET UNITYSDK_OFFSET(0x14346E20)
+#define AEGOIPKBOAN_LPIIBPOLLJF__CTOR_OFFSET UNITYSDK_OFFSET(0x14346E10)
+
+inline static constexpr unsigned int AEGOIPKBOAN_LPIIBPOLLJF_TypeDefinitionIndex = 54716;
+
+class AEGOIPKBOAN_LPIIBPOLLJF : public ::System::MulticastDelegate
+{
+public:
+	::System::Void _ctor(::System::Object* FABAAKLFDHN, ::System::IntPtr LJEPPLANHIL)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + AEGOIPKBOAN_LPIIBPOLLJF__CTOR_OFFSET))(this, FABAAKLFDHN, LJEPPLANHIL);
+	}
+
+	::EOAHOOCNDHM Invoke(::LGCNEDCMPKM& BKBGPKNGNMF, ::OMGFCFDABLN& LOACBJBANNC, ::JODMGCIFBLC* AJJJALEMELA)
+	{
+		return ((::EOAHOOCNDHM(*)(::PVOID, ::LGCNEDCMPKM&, ::OMGFCFDABLN&, ::JODMGCIFBLC*))((::PBYTE)hIl2Cpp + AEGOIPKBOAN_LPIIBPOLLJF_INVOKE_OFFSET))(this, BKBGPKNGNMF, LOACBJBANNC, AJJJALEMELA);
+	}
+
+	::System::IAsyncResult* BeginInvoke(::LGCNEDCMPKM& BKBGPKNGNMF, ::OMGFCFDABLN& LOACBJBANNC, ::JODMGCIFBLC* AJJJALEMELA, ::System::AsyncCallback* EJGDHCIBCJH, ::System::Object* FABAAKLFDHN)
+	{
+		return ((::System::IAsyncResult*(*)(::PVOID, ::LGCNEDCMPKM&, ::OMGFCFDABLN&, ::JODMGCIFBLC*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + AEGOIPKBOAN_LPIIBPOLLJF_BEGININVOKE_OFFSET))(this, BKBGPKNGNMF, LOACBJBANNC, AJJJALEMELA, EJGDHCIBCJH, FABAAKLFDHN);
+	}
+
+	::EOAHOOCNDHM EndInvoke(::LGCNEDCMPKM& BKBGPKNGNMF, ::OMGFCFDABLN& LOACBJBANNC, ::System::IAsyncResult* IGAAKDOIPNN)
+	{
+		return ((::EOAHOOCNDHM(*)(::PVOID, ::LGCNEDCMPKM&, ::OMGFCFDABLN&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + AEGOIPKBOAN_LPIIBPOLLJF_ENDINVOKE_OFFSET))(this, BKBGPKNGNMF, LOACBJBANNC, IGAAKDOIPNN);
+	}
+};

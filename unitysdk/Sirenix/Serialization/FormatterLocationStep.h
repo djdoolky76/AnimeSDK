@@ -3,7 +3,7 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int FormatterLocationStep_TypeDefinitionIndex = 7510;
+	inline static constexpr unsigned int FormatterLocationStep_TypeDefinitionIndex = 7518;
 
 	enum class FormatterLocationStep : ::System::Int32
 	{

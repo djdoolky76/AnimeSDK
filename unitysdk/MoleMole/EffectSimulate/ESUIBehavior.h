@@ -5,13 +5,13 @@
 namespace MoleMole::EffectSimulate { class NESUIDataCache; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_EFFECTSIMULATE_ESUIBEHAVIOR_METHOD_3_00B3DEE0F5490F85_OFFSET UNITYSDK_OFFSET(0x19234B10)
-#define MOLEMOLE_EFFECTSIMULATE_ESUIBEHAVIOR_METHOD_3_4272BE5198E6F216_OFFSET UNITYSDK_OFFSET(0x19234D10)
-#define MOLEMOLE_EFFECTSIMULATE_ESUIBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19234CA0)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIBEHAVIOR_MLOKIDFFEPH_OFFSET UNITYSDK_OFFSET(0x118FFB90)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIBEHAVIOR_PKOOKCIHDHF_OFFSET UNITYSDK_OFFSET(0x118FF990)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x118FFB20)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESUIBehavior_TypeDefinitionIndex = 66092;
+	inline static constexpr unsigned int ESUIBehavior_TypeDefinitionIndex = 85372;
 
 	class ESUIBehavior : public ::MoleMole::EffectSimulate::ESLoopable
 	{
@@ -24,14 +24,14 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIBEHAVIOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_00B3DEE0F5490F85(::UnityEngine::GameObject* a1)
+		::System::Void PKOOKCIHDHF(::UnityEngine::GameObject* NJOAJLDJCCJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIBEHAVIOR_METHOD_3_00B3DEE0F5490F85_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIBEHAVIOR_PKOOKCIHDHF_OFFSET))(this, NJOAJLDJCCJ);
 		}
 
-		::System::Void Method_3_4272BE5198E6F216(::UnityEngine::GameObject* a1)
+		::System::Void MLOKIDFFEPH(::UnityEngine::GameObject* MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIBEHAVIOR_METHOD_3_4272BE5198E6F216_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIBEHAVIOR_MLOKIDFFEPH_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

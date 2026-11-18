@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/RouterEventNode_1.h"
 
-class Class_5_DCFF91E03A93C03C;
+class FBAMLABJMKF;
 namespace FlowCanvas { class FlowOutput; }
-namespace NodeCanvas::Framework { class GraphOwner; }
 namespace ParadoxNotion { class IEventData; }
 namespace ParadoxNotion::Services { class EventRouter; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_GET_CHESSPIECEDATA_OFFSET UNITYSDK_OFFSET(0x1B526ED0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_GET_CURRENTCHESSBOARD_OFFSET UNITYSDK_OFFSET(0x1B526D40)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_ONRECEIVEEVENT_OFFSET UNITYSDK_OFFSET(0x1B526C90)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B526C10)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1B5269D0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_UNSUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1B526AF0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B527060)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_GET_CHESSPIECEDATA_OFFSET UNITYSDK_OFFSET(0x142F1AD0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_GET_CURRENTCHESSBOARD_OFFSET UNITYSDK_OFFSET(0x142F1940)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_ONRECEIVEEVENT_OFFSET UNITYSDK_OFFSET(0x142F1890)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x142F1810)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x142F15D0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_UNSUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x142F16F0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x142F1C60)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardEventNode_TypeDefinitionIndex = 84323;
+	inline static constexpr unsigned int ChessboardEventNode_TypeDefinitionIndex = 70032;
 
-	class ChessboardEventNode : public ::FlowCanvas::Nodes::RouterEventNode_1<::NodeCanvas::Framework::GraphOwner*>
+	class ChessboardEventNode
 	{
 	public:
 		::FlowCanvas::FlowOutput* _onReceived; // 0xC0
@@ -52,9 +50,9 @@ namespace MoleMole::FlowCanvas
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::ParadoxNotion::IEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_ONRECEIVEEVENT_OFFSET))(this, eventName, msg);
 		}
 
-		::Class_5_DCFF91E03A93C03C* get_CurrentChessboard()
+		::FBAMLABJMKF* get_CurrentChessboard()
 		{
-			return ((::Class_5_DCFF91E03A93C03C*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_GET_CURRENTCHESSBOARD_OFFSET))(this);
+			return ((::FBAMLABJMKF*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_CHESSBOARDEVENTNODE_GET_CURRENTCHESSBOARD_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* get_ChessPieceData()

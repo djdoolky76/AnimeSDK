@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovErosionProgressWidgetController_ShowState_TypeDefinitionIndex = 77998;
+	inline static constexpr unsigned int UIZenkovErosionProgressWidgetController_ShowState_TypeDefinitionIndex = 62631;
 
 	enum class UIZenkovErosionProgressWidgetController_ShowState : ::System::Int32
 	{
-		Show = 1,
 		Hide = 0,
+		Show = 1,
 		FadeOut = 2,
 	};
 }

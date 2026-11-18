@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ObjectPoolInstance_1.h"
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectPoolInstanceWithSlowGenericNew_1_TypeDefinitionIndex = 8163;
+	inline static constexpr unsigned int ObjectPoolInstanceWithSlowGenericNew_1_TypeDefinitionIndex = 7966;
 
 	template <typename T>
-	class ObjectPoolInstanceWithSlowGenericNew_1 : public ::Foundation::ObjectPoolInstance_1<T>
+	class ObjectPoolInstanceWithSlowGenericNew_1
 	{
 	public:
 	};

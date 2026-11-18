@@ -5,28 +5,28 @@
 namespace MoleMole { class UIAbyssS2RewardDialogPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1892F500)
-#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS30_0__PLAYEXPANIM_B__0_OFFSET UNITYSDK_OFFSET(0x1892F510)
-#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS30_0__PLAYEXPANIM_B__1_OFFSET UNITYSDK_OFFSET(0x1892F650)
-#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS30_0__PLAYEXPANIM_B__3_OFFSET UNITYSDK_OFFSET(0x1892F860)
-#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS30_0__PLAYEXPANIM_B__4_OFFSET UNITYSDK_OFFSET(0x1892F960)
+#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E8AFD0)
+#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS30_0__PLAYEXPANIM_B__0_OFFSET UNITYSDK_OFFSET(0x17E8AFE0)
+#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS30_0__PLAYEXPANIM_B__1_OFFSET UNITYSDK_OFFSET(0x17E8B120)
+#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS30_0__PLAYEXPANIM_B__3_OFFSET UNITYSDK_OFFSET(0x17E8B330)
+#define MOLEMOLE_UIABYSSS2REWARDDIALOGPAGECONTROLLER___C__DISPLAYCLASS30_0__PLAYEXPANIM_B__4_OFFSET UNITYSDK_OFFSET(0x17E8B430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2RewardDialogPageController___c__DisplayClass30_0_TypeDefinitionIndex = 58815;
+	inline static constexpr unsigned int UIAbyssS2RewardDialogPageController___c__DisplayClass30_0_TypeDefinitionIndex = 79355;
 
 	class UIAbyssS2RewardDialogPageController___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__3; // 0x10
-		::System::Action* __9__4; // 0x18
+		::System::Action* __9__4; // 0x10
+		::System::Action* __9__3; // 0x18
 		::MoleMole::UIAbyssS2RewardDialogPageController* __4__this; // 0x20
 		::System::Int32 newLevel; // 0x28
-		::System::Int32 oldLevel; // 0x2C
+		::System::Int32 oldTotalExp; // 0x2C
 		::System::Int32 newExp; // 0x30
-		::System::Int32 oldTotalExp; // 0x34
-		::System::Int32 newTotalExp; // 0x38
-		::System::Single newRatio; // 0x3C
+		::System::Int32 oldLevel; // 0x34
+		::System::Single newRatio; // 0x38
+		::System::Int32 newTotalExp; // 0x3C
 
 		::System::Void _ctor()
 		{

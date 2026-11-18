@@ -4,21 +4,20 @@
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceEvent; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceEventTrack; }
-namespace PipelineCamera::CameraSequence { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9> class CameraSequenceComposite_5___c__24_4; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceComposite_5___c__24_4_TypeDefinitionIndex = 38480;
+	inline static constexpr unsigned int CameraSequenceComposite_5___c__24_4_TypeDefinitionIndex = 36479;
 
-	template <typename TSequence, typename TSegment, typename TBaseTrack, typename TAdditiveTrack, typename T, typename T1, typename T2, typename T3, typename T4>
+	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class CameraSequenceComposite_5___c__24_4 : public ::System::Object
 	{
 	public:
-		static ::PipelineCamera::CameraSequence::CameraSequenceComposite_5___c__24_4<TSequence, TSegment, TBaseTrack, TAdditiveTrack, T, T1, T2, T3, T4>** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::PipelineCamera::CameraSequence::CameraSequenceComposite_5___c__24_4<TSequence, TSegment, TBaseTrack, TAdditiveTrack, T, T1, T2, T3, T4>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceComposite_5___c__24_4_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceComposite_5___c__24_4_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 		static ::System::Func_2<::PipelineCamera::CameraSequence::CameraSequenceEventTrack*, ::System::Collections::Generic::IEnumerable_1<::PipelineCamera::CameraSequence::CameraSequenceEvent*>*>** StaticGet___9__24_0()
 		{

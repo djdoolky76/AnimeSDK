@@ -2,17 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM_CHECKTIMEOVER_OFFSET UNITYSDK_OFFSET(0x989AE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM_GET_LOCALTOWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x5C7D70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM_REFRESHALPHAANDMIRROR_OFFSET UNITYSDK_OFFSET(0x989B60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM_REFRESHLIFETIME_OFFSET UNITYSDK_OFFSET(0x989AF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9899F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x989990)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM_CHECKTIMEOVER_OFFSET UNITYSDK_OFFSET(0x8B93B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM_GET_LOCALTOWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x40DB00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM_REFRESHALPHAANDMIRROR_OFFSET UNITYSDK_OFFSET(0x8B9430)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM_REFRESHLIFETIME_OFFSET UNITYSDK_OFFSET(0x8B93C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8B92C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x8B9260)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int FootPrintManager_FootPrintRenderItem_TypeDefinitionIndex = 27140;
+	inline static constexpr unsigned int FootPrintManager_FootPrintRenderItem_TypeDefinitionIndex = 26842;
 
 	struct alignas(4) FootPrintManager_FootPrintRenderItem
 	{
@@ -22,19 +25,15 @@ namespace UnityEngine::Rendering::Universal::Internal
 		::System::Single mirrorValue; // 0x54
 		::System::Single lifeTime; // 0x58
 
-		/*
 		::System::Void _ctor(::System::Single spawnT, ::UnityEngine::Vector3 p, ::UnityEngine::Quaternion r, ::System::Single size, ::System::Boolean mirror)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM__CTOR_OFFSET))(this, spawnT, p, r, size, mirror);
 		}
-		*/
 
-		/*
 		::System::Void _ctor_1(::System::Single spawnT, ::UnityEngine::Vector3 p, ::UnityEngine::Quaternion r, ::UnityEngine::Vector3 s, ::System::Boolean mirror)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM__CTOR_1_OFFSET))(this, spawnT, p, r, s, mirror);
 		}
-		*/
 
 		::UnityEngine::Matrix4x4 get_localToWorldMatrix()
 		{
@@ -51,11 +50,9 @@ namespace UnityEngine::Rendering::Universal::Internal
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM_REFRESHLIFETIME_OFFSET))(this, currentTime);
 		}
 
-		/*
 		::UnityEngine::Vector2 RefreshAlphaAndMirror(::System::Single currentTime, ::System::Single fadeInLifeTime, ::System::Single fadeInMultiValue, ::System::Single fadeOutLifeTime, ::System::Single fadeOutMultiValue)
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_FOOTPRINTMANAGER_FOOTPRINTRENDERITEM_REFRESHALPHAANDMIRROR_OFFSET))(this, currentTime, fadeInLifeTime, fadeInMultiValue, fadeOutLifeTime, fadeOutMultiValue);
 		}
-		*/
 	};
 }

@@ -1,41 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/BaseUnityGeneratedFormatter_1.h"
 #include "unitysdk/Sirenix/Serialization/BufferedString.h"
 
 namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
-namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Timeline::Comic::DataSplitter { class FloatSplitter; }
 
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_FLOATSPLITTER_FLOATSPLITTER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1F81DEB0)
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_FLOATSPLITTER_FLOATSPLITTER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1F81DEC0)
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_FLOATSPLITTER_FLOATSPLITTER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1F81DF90)
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_FLOATSPLITTER_FLOATSPLITTER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F81E080)
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_FLOATSPLITTER_FLOATSPLITTER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F81E040)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_FLOATSPLITTER_FLOATSPLITTER_UNITYGENERATEDFORMATTER_GET_MEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x1FC33880)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_FLOATSPLITTER_FLOATSPLITTER_UNITYGENERATEDFORMATTER_READMEMBER_OFFSET UNITYSDK_OFFSET(0x1FC33890)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_FLOATSPLITTER_FLOATSPLITTER_UNITYGENERATEDFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1FC33960)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_FLOATSPLITTER_FLOATSPLITTER_UNITYGENERATEDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC33A10)
 
 namespace UnityEngine::Timeline::Comic::DataSplitter
 {
-	inline static constexpr unsigned int FloatSplitter_FloatSplitter_UnityGeneratedFormatter_TypeDefinitionIndex = 33100;
+	inline static constexpr unsigned int FloatSplitter_FloatSplitter_UnityGeneratedFormatter_TypeDefinitionIndex = 32560;
 
-	class FloatSplitter_FloatSplitter_UnityGeneratedFormatter : public ::Sirenix::Serialization::BaseUnityGeneratedFormatter_1<::UnityEngine::Timeline::Comic::DataSplitter::FloatSplitter*>
+	class FloatSplitter_FloatSplitter_UnityGeneratedFormatter
 	{
 	public:
-		static ::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>*>** StaticGet_CachedSerializer0()
-		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(FloatSplitter_FloatSplitter_UnityGeneratedFormatter_TypeDefinitionIndex)->GetStaticField(0x28170);
-		}
-
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_FLOATSPLITTER_FLOATSPLITTER_UNITYGENERATEDFORMATTER__CTOR_OFFSET))(this);
-		}
-
-		static ::System::Void _cctor()
-		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_FLOATSPLITTER_FLOATSPLITTER_UNITYGENERATEDFORMATTER__CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_MemberCount()

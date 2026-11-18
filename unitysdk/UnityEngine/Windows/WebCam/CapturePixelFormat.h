@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Windows::WebCam
 {
-	inline static constexpr unsigned int CapturePixelFormat_TypeDefinitionIndex = 5483;
+	inline static constexpr unsigned int CapturePixelFormat_TypeDefinitionIndex = 5486;
 
 	enum class CapturePixelFormat : ::System::Int32
 	{

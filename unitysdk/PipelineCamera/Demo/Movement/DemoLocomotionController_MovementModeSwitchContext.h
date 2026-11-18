@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::Demo::Movement
 {
-	inline static constexpr unsigned int DemoLocomotionController_MovementModeSwitchContext_TypeDefinitionIndex = 38423;
+	inline static constexpr unsigned int DemoLocomotionController_MovementModeSwitchContext_TypeDefinitionIndex = 36425;
 
 	enum class DemoLocomotionController_MovementModeSwitchContext : ::System::Int32
 	{

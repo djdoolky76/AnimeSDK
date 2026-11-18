@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/UI/Extension/UILinearTransition_TransitionMode.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI::Extension { class UILinearTransition; }
 
-#define MOLEMOLE_MONOLINEARTRANSITION_REFRESH_OFFSET UNITYSDK_OFFSET(0x17391AB0)
-#define MOLEMOLE_MONOLINEARTRANSITION_UPDATE_OFFSET UNITYSDK_OFFSET(0x17391A60)
-#define MOLEMOLE_MONOLINEARTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x17391DA0)
+#define MOLEMOLE_MONOLINEARTRANSITION_REFRESH_OFFSET UNITYSDK_OFFSET(0x13EFDCF0)
+#define MOLEMOLE_MONOLINEARTRANSITION_UPDATE_OFFSET UNITYSDK_OFFSET(0x13EFDCA0)
+#define MOLEMOLE_MONOLINEARTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x13EFDFE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoLinearTransition_TypeDefinitionIndex = 70334;
+	inline static constexpr unsigned int MonoLinearTransition_TypeDefinitionIndex = 86747;
 
 	class MonoLinearTransition : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,6 +33,7 @@ namespace MoleMole
 		::System::Single transitionRate3; // 0x54
 		::System::Single transitionRate4; // 0x58
 		::System::Boolean invert2; // 0x5C
+		::System::Byte _padding0[0x3];
 		::System::Single targetPosition1; // 0x60
 		::System::Single targetAngle1; // 0x64
 		::System::Single lineSoftness1; // 0x68

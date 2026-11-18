@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IOOIHHOJOPI.h"
+
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+class MonoUITableScrollV2;
+namespace MoleMole { class UIControlCollection; }
+
+#define NADIDHHJABG_CBIBIFBAIFA_OFFSET UNITYSDK_OFFSET(0x120DD280)
+#define NADIDHHJABG_COHJMMJFEEG_OFFSET UNITYSDK_OFFSET(0x120DD260)
+#define NADIDHHJABG_EFKGNFCEENK_OFFSET UNITYSDK_OFFSET(0x120DCFF0)
+#define NADIDHHJABG_HBPBBIAECKB_OFFSET UNITYSDK_OFFSET(0x120DD250)
+#define NADIDHHJABG_JKBHIPEBLIA_OFFSET UNITYSDK_OFFSET(0x120DD240)
+#define NADIDHHJABG_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x120DCF50)
+#define NADIDHHJABG_LHMJDEMPGEH_OFFSET UNITYSDK_OFFSET(0x120DD230)
+#define NADIDHHJABG_OHHBAPCMJAE_OFFSET UNITYSDK_OFFSET(0x120DD270)
+#define NADIDHHJABG_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x120DCDD0)
+#define NADIDHHJABG__CTOR_OFFSET UNITYSDK_OFFSET(0x120DD1A0)
+
+inline static constexpr unsigned int NADIDHHJABG_TypeDefinitionIndex = 80006;
+
+class NADIDHHJABG : public ::IOOIHHOJOPI
+{
+public:
+	::MonoUITableScrollV2* _LFAJCKFBGFP_k__BackingField; // 0x28
+	::LGINJIKKBJA* _CLLGEONIHKP_k__BackingField; // 0x30
+	::LGINJIKKBJA* _NPDHHEEKOKH_k__BackingField; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NADIDHHJABG__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + NADIDHHJABG_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::System::Void EFKGNFCEENK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NADIDHHJABG_EFKGNFCEENK_OFFSET))(this);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NADIDHHJABG_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::System::Void LHMJDEMPGEH(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + NADIDHHJABG_LHMJDEMPGEH_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LGINJIKKBJA* JKBHIPEBLIA()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + NADIDHHJABG_JKBHIPEBLIA_OFFSET))(this);
+	}
+
+	::LGINJIKKBJA* HBPBBIAECKB()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + NADIDHHJABG_HBPBBIAECKB_OFFSET))(this);
+	}
+
+	::System::Void COHJMMJFEEG(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + NADIDHHJABG_COHJMMJFEEG_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void OHHBAPCMJAE(::MonoUITableScrollV2* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MonoUITableScrollV2*))((::PBYTE)hIl2Cpp + NADIDHHJABG_OHHBAPCMJAE_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::MonoUITableScrollV2* CBIBIFBAIFA()
+	{
+		return ((::MonoUITableScrollV2*(*)(::PVOID))((::PBYTE)hIl2Cpp + NADIDHHJABG_CBIBIFBAIFA_OFFSET))(this);
+	}
+};

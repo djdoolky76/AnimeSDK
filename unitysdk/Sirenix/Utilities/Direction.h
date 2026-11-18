@@ -3,7 +3,7 @@
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int Direction_TypeDefinitionIndex = 6477;
+	inline static constexpr unsigned int Direction_TypeDefinitionIndex = 6483;
 
 	enum class Direction : ::System::Int32
 	{

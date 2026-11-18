@@ -7,20 +7,20 @@
 namespace System::Net { class IPAddress; }
 namespace System::Net::Sockets { class Socket; }
 
-#define SYSTEM_NET_SOCKETS_MULTIPLESOCKETMULTIPLECONNECTASYNC_GETNEXTADDRESS_OFFSET UNITYSDK_OFFSET(0x1C8821D0)
-#define SYSTEM_NET_SOCKETS_MULTIPLESOCKETMULTIPLECONNECTASYNC_ONFAIL_OFFSET UNITYSDK_OFFSET(0x1C8822D0)
-#define SYSTEM_NET_SOCKETS_MULTIPLESOCKETMULTIPLECONNECTASYNC_ONSUCCEED_OFFSET UNITYSDK_OFFSET(0x1C882280)
-#define SYSTEM_NET_SOCKETS_MULTIPLESOCKETMULTIPLECONNECTASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C881FF0)
+#define SYSTEM_NET_SOCKETS_MULTIPLESOCKETMULTIPLECONNECTASYNC_GETNEXTADDRESS_OFFSET UNITYSDK_OFFSET(0x1CFC2990)
+#define SYSTEM_NET_SOCKETS_MULTIPLESOCKETMULTIPLECONNECTASYNC_ONFAIL_OFFSET UNITYSDK_OFFSET(0x1CFC2A90)
+#define SYSTEM_NET_SOCKETS_MULTIPLESOCKETMULTIPLECONNECTASYNC_ONSUCCEED_OFFSET UNITYSDK_OFFSET(0x1CFC2A40)
+#define SYSTEM_NET_SOCKETS_MULTIPLESOCKETMULTIPLECONNECTASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC27B0)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int MultipleSocketMultipleConnectAsync_TypeDefinitionIndex = 3681;
+	inline static constexpr unsigned int MultipleSocketMultipleConnectAsync_TypeDefinitionIndex = 3680;
 
 	class MultipleSocketMultipleConnectAsync : public ::System::Net::Sockets::MultipleConnectAsync
 	{
 	public:
-		::System::Net::Sockets::Socket* socket6; // 0x40
-		::System::Net::Sockets::Socket* socket4; // 0x48
+		::System::Net::Sockets::Socket* socket4; // 0x40
+		::System::Net::Sockets::Socket* socket6; // 0x48
 
 		::System::Void _ctor(::System::Net::Sockets::SocketType socketType, ::System::Net::Sockets::ProtocolType protocolType)
 		{

@@ -6,13 +6,13 @@
 
 namespace FluffyUnderware::Curvy::Generator { class CGModuleInputSlot; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEBUGVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F9318D0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEBUGVOLUME_RESET_OFFSET UNITYSDK_OFFSET(0x1F931900)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEBUGVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1F931970)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEBUGVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1FD353F0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEBUGVOLUME_RESET_OFFSET UNITYSDK_OFFSET(0x1FD35420)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEBUGVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD35490)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int DebugVolume_TypeDefinitionIndex = 39575;
+	inline static constexpr unsigned int DebugVolume_TypeDefinitionIndex = 37518;
 
 	class DebugVolume : public ::FluffyUnderware::Curvy::Generator::CGModule
 	{
@@ -20,14 +20,17 @@ namespace FluffyUnderware::Curvy::Generator::Modules
 		::FluffyUnderware::Curvy::Generator::CGModuleInputSlot* InData; // 0xB8
 		::System::Boolean ShowPathSamples; // 0xC0
 		::System::Boolean ShowCrossSamples; // 0xC1
+		::System::Byte _padding0[0x2];
 		::FluffyUnderware::DevTools::IntRegion LimitCross; // 0xC4
 		::System::Boolean ShowNormals; // 0xD0
 		::System::Boolean ShowIndex; // 0xD1
 		::System::Boolean ShowMap; // 0xD2
+		::System::Byte _padding1[0x1];
 		::UnityEngine::Color PathColor; // 0xD4
 		::UnityEngine::Color VolumeColor; // 0xE4
 		::UnityEngine::Color NormalColor; // 0xF4
 		::System::Boolean Interpolate; // 0x104
+		::System::Byte _padding2[0x3];
 		::System::Single InterpolatePathF; // 0x108
 		::System::Single InterpolateCrossF; // 0x10C
 

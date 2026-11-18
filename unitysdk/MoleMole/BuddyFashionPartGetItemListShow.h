@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GetItemListShow.h"
 
-class Class_1_61B3BCD70D19C820;
+class HJFOMLOOGBE;
 
-#define MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW_DOPROCESS_OFFSET UNITYSDK_OFFSET(0xF11E040)
-#define MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0xF11E030)
-#define MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW___BASE_DOPROCESS_OFFSET UNITYSDK_OFFSET(0xF11E3B0)
+#define MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW_DOPROCESS_OFFSET UNITYSDK_OFFSET(0xFFB5990)
+#define MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0xFFB5980)
+#define MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW___BASE_DOPROCESS_OFFSET UNITYSDK_OFFSET(0xFFB5D00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BuddyFashionPartGetItemListShow_TypeDefinitionIndex = 60539;
+	inline static constexpr unsigned int BuddyFashionPartGetItemListShow_TypeDefinitionIndex = 76327;
 
 	class BuddyFashionPartGetItemListShow : public ::MoleMole::GetItemListShow
 	{
 	public:
-		::System::Void _ctor(::Class_1_61B3BCD70D19C820* context)
+		::System::Void _ctor(::HJFOMLOOGBE* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_61B3BCD70D19C820*))((::PBYTE)hIl2Cpp + MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW__CTOR_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::HJFOMLOOGBE*))((::PBYTE)hIl2Cpp + MOLEMOLE_BUDDYFASHIONPARTGETITEMLISTSHOW__CTOR_OFFSET))(this, context);
 		}
 
 		::System::Void DoProcess()

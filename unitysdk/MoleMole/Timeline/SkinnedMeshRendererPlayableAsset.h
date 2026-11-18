@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class SkinnedMeshRendererBehavior; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_SKINNEDMESHRENDERERPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F3A0BA0)
-#define MOLEMOLE_TIMELINE_SKINNEDMESHRENDERERPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F3A0B90)
-#define MOLEMOLE_TIMELINE_SKINNEDMESHRENDERERPLAYABLEASSET_INITCLIP_OFFSET UNITYSDK_OFFSET(0x1F3A0C70)
-#define MOLEMOLE_TIMELINE_SKINNEDMESHRENDERERPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A0C90)
+#define MOLEMOLE_TIMELINE_SKINNEDMESHRENDERERPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F6DBF60)
+#define MOLEMOLE_TIMELINE_SKINNEDMESHRENDERERPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F6DBF50)
+#define MOLEMOLE_TIMELINE_SKINNEDMESHRENDERERPLAYABLEASSET_INITCLIP_OFFSET UNITYSDK_OFFSET(0x1F6DC040)
+#define MOLEMOLE_TIMELINE_SKINNEDMESHRENDERERPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6DC060)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int SkinnedMeshRendererPlayableAsset_TypeDefinitionIndex = 32849;
+	inline static constexpr unsigned int SkinnedMeshRendererPlayableAsset_TypeDefinitionIndex = 32300;
 
 	class SkinnedMeshRendererPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

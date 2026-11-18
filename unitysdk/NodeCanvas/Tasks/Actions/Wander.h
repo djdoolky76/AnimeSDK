@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
-namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define NODECANVAS_TASKS_ACTIONS_WANDER_DOWANDER_OFFSET UNITYSDK_OFFSET(0x1EA9E460)
-#define NODECANVAS_TASKS_ACTIONS_WANDER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA9E3E0)
-#define NODECANVAS_TASKS_ACTIONS_WANDER_ONPAUSE_OFFSET UNITYSDK_OFFSET(0x1EA9E8D0)
-#define NODECANVAS_TASKS_ACTIONS_WANDER_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1EA9E8E0)
-#define NODECANVAS_TASKS_ACTIONS_WANDER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EA9E790)
-#define NODECANVAS_TASKS_ACTIONS_WANDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9EA80)
+#define NODECANVAS_TASKS_ACTIONS_WANDER_DOWANDER_OFFSET UNITYSDK_OFFSET(0x1EDCF4D0)
+#define NODECANVAS_TASKS_ACTIONS_WANDER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EDCF450)
+#define NODECANVAS_TASKS_ACTIONS_WANDER_ONPAUSE_OFFSET UNITYSDK_OFFSET(0x1EDCF940)
+#define NODECANVAS_TASKS_ACTIONS_WANDER_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1EDCF950)
+#define NODECANVAS_TASKS_ACTIONS_WANDER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EDCF800)
+#define NODECANVAS_TASKS_ACTIONS_WANDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDCFAF0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int Wander_TypeDefinitionIndex = 30008;
+	inline static constexpr unsigned int Wander_TypeDefinitionIndex = 30296;
 
-	class Wander : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::AI::NavMeshAgent*>
+	class Wander
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* keepDistance; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxWanderDistance; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* minWanderDistance; // 0x70
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* speed; // 0x78
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* speed; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* keepDistance; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxWanderDistance; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* minWanderDistance; // 0x78
 		::System::Boolean repeat; // 0x80
 
 		::System::Void _ctor()

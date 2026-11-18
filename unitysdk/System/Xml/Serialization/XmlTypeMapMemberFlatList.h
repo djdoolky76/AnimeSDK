@@ -4,11 +4,11 @@
 
 namespace System::Xml::Serialization { class ListMap; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERFLATLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6E2D0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERFLATLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFEF190)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlTypeMapMemberFlatList_TypeDefinitionIndex = 1929;
+	inline static constexpr unsigned int XmlTypeMapMemberFlatList_TypeDefinitionIndex = 1928;
 
 	class XmlTypeMapMemberFlatList : public ::System::Xml::Serialization::XmlTypeMapMemberExpandable
 	{

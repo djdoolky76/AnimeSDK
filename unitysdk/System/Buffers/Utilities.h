@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_BUFFERS_UTILITIES_GETMAXSIZEFORBUCKET_OFFSET UNITYSDK_OFFSET(0x1FC6D6F0)
-#define SYSTEM_BUFFERS_UTILITIES_SELECTBUCKETINDEX_OFFSET UNITYSDK_OFFSET(0x1FC6D680)
+#define SYSTEM_BUFFERS_UTILITIES_GETMAXSIZEFORBUCKET_OFFSET UNITYSDK_OFFSET(0x1D791DE0)
+#define SYSTEM_BUFFERS_UTILITIES_SELECTBUCKETINDEX_OFFSET UNITYSDK_OFFSET(0x1D791D70)
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int Utilities_TypeDefinitionIndex = 6530;
+	inline static constexpr unsigned int Utilities_TypeDefinitionIndex = 3254;
 
 	class Utilities : public ::System::Object
 	{

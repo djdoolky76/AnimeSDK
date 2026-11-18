@@ -4,25 +4,25 @@
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-class MonoSceneMap3DConfig_LiftPosInfo;
 namespace MoleMole { class MapLayerOrderInfo; }
 namespace MoleMole { class MapOverrideBounds; }
 namespace MoleMole { class RadarStateChangeImageConfig; }
 namespace MoleMole { class SerializableDecalAreaData; }
 namespace MoleMole { class UIThreeDMapConfig; }
 namespace MoleMole { class UrbanMapMeshLayerInfo; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUIURBANMAP_GETCONFIGBYKEY_OFFSET UNITYSDK_OFFSET(0x19ADA960)
-#define MOLEMOLE_CONFIGUIURBANMAP_TRYGETURBANMAPMESHLAYERINFO_OFFSET UNITYSDK_OFFSET(0x19ADA4C0)
-#define MOLEMOLE_CONFIGUIURBANMAP_TRYGETURBANMAPMESHLAYEROVERRIDEBOUNDS_OFFSET UNITYSDK_OFFSET(0x19ADA330)
-#define MOLEMOLE_CONFIGUIURBANMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADAB10)
+#define MOLEMOLE_CONFIGUIURBANMAP_GETCONFIGBYKEY_OFFSET UNITYSDK_OFFSET(0xFFF69C0)
+#define MOLEMOLE_CONFIGUIURBANMAP_TRYGETURBANMAPMESHLAYERINFO_OFFSET UNITYSDK_OFFSET(0xFFF6510)
+#define MOLEMOLE_CONFIGUIURBANMAP_TRYGETURBANMAPMESHLAYEROVERRIDEBOUNDS_OFFSET UNITYSDK_OFFSET(0xFFF6380)
+#define MOLEMOLE_CONFIGUIURBANMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xFFF6B70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIUrbanMap_TypeDefinitionIndex = 61187;
+	inline static constexpr unsigned int ConfigUIUrbanMap_TypeDefinitionIndex = 82780;
 
 	class ConfigUIUrbanMap : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -42,8 +42,9 @@ namespace MoleMole
 		::DG::Tweening::Ease ExitEase; // 0x98
 		::System::Single WaitGlichTime; // 0x9C
 		::System::Single ExWaitTime; // 0xA0
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::SerializableDecalAreaData*>* DecalAreaDataProfile; // 0xA8
-		::System::Collections::Generic::List_1<::MonoSceneMap3DConfig_LiftPosInfo*>* LiftPosInfos; // 0xB0
+		::System::Collections::Generic::List_1<::System::Object*>* LiftPosInfos; // 0xB0
 		::System::Collections::Generic::List_1<::MoleMole::MapLayerOrderInfo*>* LayerOrderInfos; // 0xB8
 		::System::Collections::Generic::List_1<::MoleMole::MapLayerOrderInfo*>* RadarLayerOrderInfos; // 0xC0
 		::System::Collections::Generic::List_1<::MoleMole::RadarStateChangeImageConfig*>* RadarStateChangeImageConfigs; // 0xC8

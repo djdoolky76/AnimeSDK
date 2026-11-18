@@ -6,24 +6,24 @@
 
 namespace MoleMole::Config { class ScreenEffectVector4; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYLIFTGAMMAGAINEFFECT_GETGAIN_OFFSET UNITYSDK_OFFSET(0x1625C7A0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYLIFTGAMMAGAINEFFECT_GETGAMMA_OFFSET UNITYSDK_OFFSET(0x1625C700)
-#define MOLEMOLE_CONFIG_CONFIGENTITYLIFTGAMMAGAINEFFECT_GETLIFT_OFFSET UNITYSDK_OFFSET(0x1625C660)
-#define MOLEMOLE_CONFIG_CONFIGENTITYLIFTGAMMAGAINEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1625C840)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLIFTGAMMAGAINEFFECT_GETGAIN_OFFSET UNITYSDK_OFFSET(0x19B16EF0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLIFTGAMMAGAINEFFECT_GETGAMMA_OFFSET UNITYSDK_OFFSET(0x19B16E50)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLIFTGAMMAGAINEFFECT_GETLIFT_OFFSET UNITYSDK_OFFSET(0x19B16DB0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYLIFTGAMMAGAINEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B16F90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityLiftGammaGainEffect_TypeDefinitionIndex = 85396;
+	inline static constexpr unsigned int ConfigEntityLiftGammaGainEffect_TypeDefinitionIndex = 39800;
 
 	class ConfigEntityLiftGammaGainEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectVector4* gamma; // 0x40
-		::MoleMole::Config::ScreenEffectVector4* gain; // 0x48
-		::MoleMole::Config::ScreenEffectVector4* lift; // 0x50
+		::MoleMole::Config::ScreenEffectVector4* gain; // 0x40
+		::MoleMole::Config::ScreenEffectVector4* lift; // 0x48
+		::MoleMole::Config::ScreenEffectVector4* gamma; // 0x50
 		::MoleMole::Config::ScreenEffectFieldHandleType liftHandleType; // 0x58
-		::MoleMole::Config::ScreenEffectFieldHandleType gammaHandleType; // 0x5C
-		::MoleMole::Config::ScreenEffectFieldHandleType gainHandleType; // 0x60
+		::MoleMole::Config::ScreenEffectFieldHandleType gainHandleType; // 0x5C
+		::MoleMole::Config::ScreenEffectFieldHandleType gammaHandleType; // 0x60
 
 		::System::Void _ctor()
 		{

@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class GOGADEDMKCC;
+
+#define JIGODLIKGDA_BILOGBBAGPA_MGINCAJCIPA_COMPARE_OFFSET UNITYSDK_OFFSET(0x165AD950)
+#define JIGODLIKGDA_BILOGBBAGPA_MGINCAJCIPA__CCTOR_OFFSET UNITYSDK_OFFSET(0x165AD9E0)
+#define JIGODLIKGDA_BILOGBBAGPA_MGINCAJCIPA__CTOR_OFFSET UNITYSDK_OFFSET(0x165AD9D0)
+
+inline static constexpr unsigned int JIGODLIKGDA_BILOGBBAGPA_MGINCAJCIPA_TypeDefinitionIndex = 58733;
+
+class JIGODLIKGDA_BILOGBBAGPA_MGINCAJCIPA : public ::System::Object
+{
+public:
+	static ::JIGODLIKGDA_BILOGBBAGPA_MGINCAJCIPA** StaticGet_DDGNFJDLOKA()
+	{
+		return (::JIGODLIKGDA_BILOGBBAGPA_MGINCAJCIPA**)Il2CppClass::FromTypeDefinitionIndex(JIGODLIKGDA_BILOGBBAGPA_MGINCAJCIPA_TypeDefinitionIndex)->GetStaticField(0x4E620);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JIGODLIKGDA_BILOGBBAGPA_MGINCAJCIPA__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + JIGODLIKGDA_BILOGBBAGPA_MGINCAJCIPA__CCTOR_OFFSET))();
+	}
+
+	::System::Int32 Compare(::GOGADEDMKCC* HAAEBCOBKFF, ::GOGADEDMKCC* BFMMEICFNCD)
+	{
+		return ((::System::Int32(*)(::PVOID, ::GOGADEDMKCC*, ::GOGADEDMKCC*))((::PBYTE)hIl2Cpp + JIGODLIKGDA_BILOGBBAGPA_MGINCAJCIPA_COMPARE_OFFSET))(this, HAAEBCOBKFF, BFMMEICFNCD);
+	}
+};

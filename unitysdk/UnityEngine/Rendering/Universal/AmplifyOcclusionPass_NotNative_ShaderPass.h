@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int AmplifyOcclusionPass_NotNative_ShaderPass_TypeDefinitionIndex = 27030;
+	inline static constexpr unsigned int AmplifyOcclusionPass_NotNative_ShaderPass_TypeDefinitionIndex = 27314;
 
 	class AmplifyOcclusionPass_NotNative_ShaderPass : public ::System::Object
 	{

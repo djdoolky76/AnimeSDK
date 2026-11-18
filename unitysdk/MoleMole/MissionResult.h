@@ -3,15 +3,15 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MissionResult_TypeDefinitionIndex = 66753;
+	inline static constexpr unsigned int MissionResult_TypeDefinitionIndex = 79861;
 
 	enum class MissionResult : ::System::Byte
 	{
-		Fail = 0x0,
-		Gold_S = 0x4,
-		Plastics_C = 0x1,
-		SS = 0x5,
-		Silver_A = 0x3,
-		Cooper_B = 0x2,
+		Cooper_B = 2,
+		Plastics_C = 1,
+		SS = 5,
+		Silver_A = 3,
+		Fail = 0,
+		Gold_S = 4,
 	};
 }

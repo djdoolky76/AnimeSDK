@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
+#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeActiveStates.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
@@ -12,15 +12,15 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_SETSTATEMACHINEPARAMTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x13DE8830)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_SETSTATEMACHINEPARAMTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x13DE87D0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_SETSTATEMACHINEPARAMTASK_LINK_OFFSET UNITYSDK_OFFSET(0x13DE8760)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_SETSTATEMACHINEPARAMTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0x13DE88A0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_SETSTATEMACHINEPARAMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x13DE8940)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_SETSTATEMACHINEPARAMTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xE0C5380)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_SETSTATEMACHINEPARAMTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xE0C5320)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_SETSTATEMACHINEPARAMTASK_LINK_OFFSET UNITYSDK_OFFSET(0xE0C52B0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_SETSTATEMACHINEPARAMTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0xE0C53F0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_SETSTATEMACHINEPARAMTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xE0C5490)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_SetStateMachineParamTask_TypeDefinitionIndex = 76918;
+	inline static constexpr unsigned int VirtualProxy_SetStateMachineParamTask_TypeDefinitionIndex = 42478;
 
 	class VirtualProxy_SetStateMachineParamTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{

@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookWeeklyQuestWidgetController_HBAbyssEntranceTypeEnum_TypeDefinitionIndex = 61789;
+	inline static constexpr unsigned int UIHandBookWeeklyQuestWidgetController_HBAbyssEntranceTypeEnum_TypeDefinitionIndex = 68156;
 
 	enum class UIHandBookWeeklyQuestWidgetController_HBAbyssEntranceTypeEnum : ::System::Int32
 	{

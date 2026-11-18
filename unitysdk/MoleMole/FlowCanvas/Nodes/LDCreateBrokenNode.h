@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x118B18D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x118B1EB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16230A70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATEBROKENNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16231050)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCreateBrokenNode_TypeDefinitionIndex = 57035;
+	inline static constexpr unsigned int LDCreateBrokenNode_TypeDefinitionIndex = 56501;
 
-	class LDCreateBrokenNode : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::MoleMole::Battle::Entity*, ::System::Int32, ::System::String*>
+	class LDCreateBrokenNode
 	{
 	public:
 		::System::Void _ctor()

@@ -3,14 +3,14 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LightLodQuality_TypeDefinitionIndex = 26773;
+	inline static constexpr unsigned int LightLodQuality_TypeDefinitionIndex = 26680;
 
 	enum class LightLodQuality : ::System::Int32
 	{
-		VeryHigh = 0,
 		Disable = -1,
-		High = 1,
 		Middle = 2,
 		Low = 3,
+		VeryHigh = 0,
+		High = 1,
 	};
 }

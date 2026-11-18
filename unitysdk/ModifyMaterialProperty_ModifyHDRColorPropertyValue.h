@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define MODIFYMATERIALPROPERTY_MODIFYHDRCOLORPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xF1197B0)
+#define MODIFYMATERIALPROPERTY_MODIFYHDRCOLORPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x14D9C1E0)
 
-inline static constexpr unsigned int ModifyMaterialProperty_ModifyHDRColorPropertyValue_TypeDefinitionIndex = 44831;
+inline static constexpr unsigned int ModifyMaterialProperty_ModifyHDRColorPropertyValue_TypeDefinitionIndex = 44855;
 
 class ModifyMaterialProperty_ModifyHDRColorPropertyValue : public ::System::Object
 {

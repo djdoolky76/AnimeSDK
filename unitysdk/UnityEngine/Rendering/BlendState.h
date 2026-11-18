@@ -5,18 +5,18 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_BLENDSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA7FF90)
-#define UNITYENGINE_RENDERING_BLENDSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0xA7FF40)
-#define UNITYENGINE_RENDERING_BLENDSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA80020)
-#define UNITYENGINE_RENDERING_BLENDSTATE_GET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1EE2AE90)
-#define UNITYENGINE_RENDERING_BLENDSTATE_SET_BLENDSTATE0_OFFSET UNITYSDK_OFFSET(0x324D50)
-#define UNITYENGINE_RENDERING_BLENDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA7FEF0)
+#define UNITYENGINE_RENDERING_BLENDSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9607F0)
+#define UNITYENGINE_RENDERING_BLENDSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x9607A0)
+#define UNITYENGINE_RENDERING_BLENDSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x960880)
+#define UNITYENGINE_RENDERING_BLENDSTATE_GET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1F191730)
+#define UNITYENGINE_RENDERING_BLENDSTATE_SET_BLENDSTATE0_OFFSET UNITYSDK_OFFSET(0x358B00)
+#define UNITYENGINE_RENDERING_BLENDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x960750)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BlendState_TypeDefinitionIndex = 6230;
+	inline static constexpr unsigned int BlendState_TypeDefinitionIndex = 6245;
 
-	struct alignas(2) BlendState
+	struct alignas(4) BlendState
 	{
 		::UnityEngine::Rendering::RenderTargetBlendState m_BlendState0; // 0x10
 		::UnityEngine::Rendering::RenderTargetBlendState m_BlendState1; // 0x18
@@ -35,20 +35,24 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BLENDSTATE__CTOR_OFFSET))(this, separateMRTBlend, alphaToMask);
 		}
 
+		/*
 		static ::UnityEngine::Rendering::BlendState get_defaultValue()
 		{
 			return ((::UnityEngine::Rendering::BlendState(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BLENDSTATE_GET_DEFAULTVALUE_OFFSET))();
 		}
+		*/
 
 		::System::Void set_blendState0(::UnityEngine::Rendering::RenderTargetBlendState value)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::RenderTargetBlendState))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BLENDSTATE_SET_BLENDSTATE0_OFFSET))(this, value);
 		}
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::BlendState other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::BlendState))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BLENDSTATE_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{

@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_WINDOWS_MARKUP_VALUESERIALIZERATTRIBUTE_GET_VALUESERIALIZERTYPENAME_OFFSET UNITYSDK_OFFSET(0x1E983F20)
-#define SYSTEM_WINDOWS_MARKUP_VALUESERIALIZERATTRIBUTE_GET_VALUESERIALIZERTYPE_OFFSET UNITYSDK_OFFSET(0x1E983E70)
-#define SYSTEM_WINDOWS_MARKUP_VALUESERIALIZERATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E983E60)
-#define SYSTEM_WINDOWS_MARKUP_VALUESERIALIZERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E983E50)
+#define SYSTEM_WINDOWS_MARKUP_VALUESERIALIZERATTRIBUTE_GET_VALUESERIALIZERTYPENAME_OFFSET UNITYSDK_OFFSET(0x1EC5BC90)
+#define SYSTEM_WINDOWS_MARKUP_VALUESERIALIZERATTRIBUTE_GET_VALUESERIALIZERTYPE_OFFSET UNITYSDK_OFFSET(0x1EC5BBE0)
+#define SYSTEM_WINDOWS_MARKUP_VALUESERIALIZERATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC5BBD0)
+#define SYSTEM_WINDOWS_MARKUP_VALUESERIALIZERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC5BBC0)
 
 namespace System::Windows::Markup
 {
-	inline static constexpr unsigned int ValueSerializerAttribute_TypeDefinitionIndex = 2706;
+	inline static constexpr unsigned int ValueSerializerAttribute_TypeDefinitionIndex = 2705;
 
 	class ValueSerializerAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* _valueSerializerTypeName; // 0x10
-		::System::Type* _valueSerializerType; // 0x18
+		::System::Type* _valueSerializerType; // 0x10
+		::System::String* _valueSerializerTypeName; // 0x18
 
 		::System::Void _ctor(::System::Type* valueSerializerType)
 		{

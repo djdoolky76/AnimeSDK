@@ -1,25 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/ReadContentAsBinaryHelper_State.h"
+#include "unitysdk/System/Object.h"
 
 namespace System::Xml { class XmlReader; }
 
-#define SYSTEM_XML_READCONTENTASBINARYHELPER_FINISH_OFFSET UNITYSDK_OFFSET(0x1F103930)
-#define SYSTEM_XML_READCONTENTASBINARYHELPER_MOVETONEXTCONTENTNODE_OFFSET UNITYSDK_OFFSET(0x1F103A70)
-#define SYSTEM_XML_READCONTENTASBINARYHELPER_RESET_OFFSET UNITYSDK_OFFSET(0x1F103BF0)
+#define SYSTEM_XML_READCONTENTASBINARYHELPER_FINISH_OFFSET UNITYSDK_OFFSET(0x1F4C5320)
+#define SYSTEM_XML_READCONTENTASBINARYHELPER_MOVETONEXTCONTENTNODE_OFFSET UNITYSDK_OFFSET(0x1F4C5460)
+#define SYSTEM_XML_READCONTENTASBINARYHELPER_RESET_OFFSET UNITYSDK_OFFSET(0x1F4C55E0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int ReadContentAsBinaryHelper_TypeDefinitionIndex = 1695;
+	inline static constexpr unsigned int ReadContentAsBinaryHelper_TypeDefinitionIndex = 1694;
 
 	class ReadContentAsBinaryHelper : public ::System::Object
 	{
 	public:
 		::System::Xml::XmlReader* reader; // 0x10
 		::System::Xml::ReadContentAsBinaryHelper_State state; // 0x18
-		::System::Int32 valueOffset; // 0x1C
-		::System::Boolean isEnd; // 0x20
+		::System::Boolean isEnd; // 0x1C
+		::System::Byte _padding0[0x3];
+		::System::Int32 valueOffset; // 0x20
 
 		::System::Void Finish()
 		{

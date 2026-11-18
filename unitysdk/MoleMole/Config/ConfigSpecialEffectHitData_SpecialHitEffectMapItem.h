@@ -6,24 +6,24 @@
 #include "unitysdk/MoleMole/Config/CharacterAnimatorStateType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITDATA_SPECIALHITEFFECTMAPITEM_MATCHANIMATORSTATE_OFFSET UNITYSDK_OFFSET(0x1A4B83E0)
-#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITDATA_SPECIALHITEFFECTMAPITEM_MATCH_OFFSET UNITYSDK_OFFSET(0x1A4B8310)
-#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITDATA_SPECIALHITEFFECTMAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B8430)
+#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITDATA_SPECIALHITEFFECTMAPITEM_MATCHANIMATORSTATE_OFFSET UNITYSDK_OFFSET(0x1653F110)
+#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITDATA_SPECIALHITEFFECTMAPITEM_MATCH_OFFSET UNITYSDK_OFFSET(0x1653F040)
+#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITDATA_SPECIALHITEFFECTMAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1653F160)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSpecialEffectHitData_SpecialHitEffectMapItem_TypeDefinitionIndex = 70356;
+	inline static constexpr unsigned int ConfigSpecialEffectHitData_SpecialHitEffectMapItem_TypeDefinitionIndex = 55951;
 
 	class ConfigSpecialEffectHitData_SpecialHitEffectMapItem : public ::System::Object
 	{
 	public:
-		::MoleMole::Config::CharacterAnimatorStateType animatorState; // 0x10
-		::MoleMole::Config::AnimatorAirHitType attackFrameAirHitType; // 0x14
+		::MoleMole::Config::AnimatorAirHitType specialHitAirHitType; // 0x10
+		::MoleMole::Config::AnimatorHitEffect specialHitEffect; // 0x14
 		::MoleMole::Config::AnimatorGroundHitType attackFrameGroundHitType; // 0x18
-		::MoleMole::Config::AnimatorHitEffect specialHitEffect; // 0x1C
-		::MoleMole::Config::AnimatorAirHitType specialHitAirHitType; // 0x20
-		::MoleMole::Config::AnimatorGroundHitType specialHitGroundHitType; // 0x24
-		::MoleMole::Config::AnimatorHitEffect attackFrameHitEffect; // 0x28
+		::MoleMole::Config::CharacterAnimatorStateType animatorState; // 0x1C
+		::MoleMole::Config::AnimatorGroundHitType specialHitGroundHitType; // 0x20
+		::MoleMole::Config::AnimatorHitEffect attackFrameHitEffect; // 0x24
+		::MoleMole::Config::AnimatorAirHitType attackFrameAirHitType; // 0x28
 
 		::System::Void _ctor()
 		{

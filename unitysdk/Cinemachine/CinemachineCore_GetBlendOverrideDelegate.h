@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CinemachineBlendDefinition.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/Cinemachine/CinemachineBlendDefinition.h"
 
 namespace Cinemachine { class ICinemachineCamera; }
 namespace System { class AsyncCallback; }
@@ -9,14 +9,14 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FBED160)
-#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FBED200)
-#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FBEC860)
-#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBEC840)
+#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FFED390)
+#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FFED430)
+#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FFECA90)
+#define CINEMACHINE_CINEMACHINECORE_GETBLENDOVERRIDEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFECA80)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineCore_GetBlendOverrideDelegate_TypeDefinitionIndex = 34742;
+	inline static constexpr unsigned int CinemachineCore_GetBlendOverrideDelegate_TypeDefinitionIndex = 34288;
 
 	class CinemachineCore_GetBlendOverrideDelegate : public ::System::MulticastDelegate
 	{

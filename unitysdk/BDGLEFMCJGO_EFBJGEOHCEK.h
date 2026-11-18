@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BKGKJNHLCKC;
+class MANBGDFAHPC;
+
+#define BDGLEFMCJGO_EFBJGEOHCEK_MCLOMFDACBF_OFFSET UNITYSDK_OFFSET(0xFF67110)
+#define BDGLEFMCJGO_EFBJGEOHCEK_NKIOHBJJJNH_OFFSET UNITYSDK_OFFSET(0xFF671C0)
+#define BDGLEFMCJGO_EFBJGEOHCEK__CTOR_OFFSET UNITYSDK_OFFSET(0xFF67100)
+
+inline static constexpr unsigned int BDGLEFMCJGO_EFBJGEOHCEK_TypeDefinitionIndex = 80412;
+
+class BDGLEFMCJGO_EFBJGEOHCEK : public ::System::Object
+{
+public:
+	::MANBGDFAHPC* CGELPKBKHOJ; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDGLEFMCJGO_EFBJGEOHCEK__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean MCLOMFDACBF(::BKGKJNHLCKC* PELAJIFDIPN)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::BKGKJNHLCKC*))((::PBYTE)hIl2Cpp + BDGLEFMCJGO_EFBJGEOHCEK_MCLOMFDACBF_OFFSET))(this, PELAJIFDIPN);
+	}
+
+	::System::Boolean NKIOHBJJJNH(::BKGKJNHLCKC* PELAJIFDIPN)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::BKGKJNHLCKC*))((::PBYTE)hIl2Cpp + BDGLEFMCJGO_EFBJGEOHCEK_NKIOHBJJJNH_OFFSET))(this, PELAJIFDIPN);
+	}
+};

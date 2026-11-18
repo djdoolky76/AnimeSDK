@@ -3,16 +3,12 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Tuple_2; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SHARE_CSTRINGGENERATOR_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1C268AB0)
+#define SHARE_CSTRINGGENERATOR_GETSTRING_OFFSET UNITYSDK_OFFSET(0x20072B20)
 
 namespace Share
 {
-	inline static constexpr unsigned int CStringGenerator_TypeDefinitionIndex = 14954;
+	inline static constexpr unsigned int CStringGenerator_TypeDefinitionIndex = 11986;
 
 	class CStringGenerator : public ::System::Object
 	{

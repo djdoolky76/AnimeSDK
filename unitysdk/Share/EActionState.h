@@ -3,14 +3,14 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EActionState_TypeDefinitionIndex = 11496;
+	inline static constexpr unsigned int EActionState_TypeDefinitionIndex = 9864;
 
 	enum class EActionState : ::System::Int16
 	{
-		Finished = 2,
-		EnumCount = 4,
-		Error = 3,
 		Init = 0,
+		EnumCount = 4,
+		Finished = 2,
+		Error = 3,
 		Running = 1,
 	};
 }

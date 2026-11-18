@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/MinimalBaseFormatter_1.h"
 #include "unitysdk/System/DateTimeOffset.h"
 
 namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 
-#define SIRENIX_SERIALIZATION_DATETIMEOFFSETFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1FBD3B30)
-#define SIRENIX_SERIALIZATION_DATETIMEOFFSETFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1FBD3CD0)
-#define SIRENIX_SERIALIZATION_DATETIMEOFFSETFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBD3DD0)
+#define SIRENIX_SERIALIZATION_DATETIMEOFFSETFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1FFD72B0)
+#define SIRENIX_SERIALIZATION_DATETIMEOFFSETFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1FFD7450)
+#define SIRENIX_SERIALIZATION_DATETIMEOFFSETFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFD7550)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int DateTimeOffsetFormatter_TypeDefinitionIndex = 7454;
+	inline static constexpr unsigned int DateTimeOffsetFormatter_TypeDefinitionIndex = 7461;
 
-	class DateTimeOffsetFormatter : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::System::DateTimeOffset>
+	class DateTimeOffsetFormatter
 	{
 	public:
 		::System::Void _ctor()

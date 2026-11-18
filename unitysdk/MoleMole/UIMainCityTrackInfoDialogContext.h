@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIMAINCITYTRACKINFODIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17AEF6B0)
+#define MOLEMOLE_UIMAINCITYTRACKINFODIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1761ECF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityTrackInfoDialogContext_TypeDefinitionIndex = 78012;
+	inline static constexpr unsigned int UIMainCityTrackInfoDialogContext_TypeDefinitionIndex = 59158;
 
 	class UIMainCityTrackInfoDialogContext : public ::MoleMole::UIControllerContextBase
 	{

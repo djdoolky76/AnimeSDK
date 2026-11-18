@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/Allocator.h"
+#include "unitysdk/Foundation/Native/RawPointer.h"
 
-#define FOUNDATION_DEFAULTNATIVEALLOCATOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x826600)
-#define FOUNDATION_DEFAULTNATIVEALLOCATOR_FREE_OFFSET UNITYSDK_OFFSET(0xA16D40)
-#define FOUNDATION_DEFAULTNATIVEALLOCATOR_GET_ISCREATED_OFFSET UNITYSDK_OFFSET(0x7463F0)
-#define FOUNDATION_DEFAULTNATIVEALLOCATOR_MALLOC_OFFSET UNITYSDK_OFFSET(0xA16D60)
-#define FOUNDATION_DEFAULTNATIVEALLOCATOR_RESOLVE_OFFSET UNITYSDK_OFFSET(0xA16D80)
-#define FOUNDATION_DEFAULTNATIVEALLOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x3253A0)
+#define FOUNDATION_DEFAULTNATIVEALLOCATOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x44D8D0)
+#define FOUNDATION_DEFAULTNATIVEALLOCATOR_FREE_OFFSET UNITYSDK_OFFSET(0x908460)
+#define FOUNDATION_DEFAULTNATIVEALLOCATOR_GET_ISCREATED_OFFSET UNITYSDK_OFFSET(0x7506B0)
+#define FOUNDATION_DEFAULTNATIVEALLOCATOR_MALLOC_OFFSET UNITYSDK_OFFSET(0x908480)
+#define FOUNDATION_DEFAULTNATIVEALLOCATOR_RESOLVE_OFFSET UNITYSDK_OFFSET(0x9084A0)
+#define FOUNDATION_DEFAULTNATIVEALLOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x359150)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DefaultNativeAllocator_TypeDefinitionIndex = 8796;
+	inline static constexpr unsigned int DefaultNativeAllocator_TypeDefinitionIndex = 8953;
 
 	struct alignas(4) DefaultNativeAllocator
 	{
@@ -23,31 +24,27 @@ namespace Foundation
 			return ((::System::Void(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + FOUNDATION_DEFAULTNATIVEALLOCATOR__CTOR_OFFSET))(this, type);
 		}
 
-		/*
 		::System::Void Free(::Foundation::Native::RawPointer memory)
 		{
 			return ((::System::Void(*)(::PVOID, ::Foundation::Native::RawPointer))((::PBYTE)hIl2Cpp + FOUNDATION_DEFAULTNATIVEALLOCATOR_FREE_OFFSET))(this, memory);
 		}
-		*/
 
-		/*
 		::Foundation::Native::RawPointer Malloc(::System::Int64 size, ::System::Int32 alignment)
 		{
 			return ((::Foundation::Native::RawPointer(*)(::PVOID, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + FOUNDATION_DEFAULTNATIVEALLOCATOR_MALLOC_OFFSET))(this, size, alignment);
 		}
-		*/
+
+		::PVOID Resolve(::Foundation::Native::RawPointer memory)
+		{
+			return ((::PVOID(*)(::PVOID, ::Foundation::Native::RawPointer))((::PBYTE)hIl2Cpp + FOUNDATION_DEFAULTNATIVEALLOCATOR_RESOLVE_OFFSET))(this, memory);
+		}
 
 		/*
-		::System::Void* Resolve(::Foundation::Native::RawPointer memory)
-		{
-			return ((::System::Void*(*)(::PVOID, ::Foundation::Native::RawPointer))((::PBYTE)hIl2Cpp + FOUNDATION_DEFAULTNATIVEALLOCATOR_RESOLVE_OFFSET))(this, memory);
-		}
-		*/
-
 		::System::Boolean Equals(::Foundation::DefaultNativeAllocator other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::DefaultNativeAllocator))((::PBYTE)hIl2Cpp + FOUNDATION_DEFAULTNATIVEALLOCATOR_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean get_IsCreated()
 		{

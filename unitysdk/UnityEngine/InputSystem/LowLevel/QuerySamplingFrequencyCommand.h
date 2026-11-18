@@ -2,14 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYSAMPLINGFREQUENCYCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1CE5C6E0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYSAMPLINGFREQUENCYCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x97A0F0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYSAMPLINGFREQUENCYCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1CE5C6C0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYSAMPLINGFREQUENCYCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1D3CA760)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYSAMPLINGFREQUENCYCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x8B7D00)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYSAMPLINGFREQUENCYCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1D3CA740)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int QuerySamplingFrequencyCommand_TypeDefinitionIndex = 32484;
+	inline static constexpr unsigned int QuerySamplingFrequencyCommand_TypeDefinitionIndex = 31933;
 
 	struct alignas(4) QuerySamplingFrequencyCommand
 	{
@@ -17,23 +18,21 @@ namespace UnityEngine::InputSystem::LowLevel
 		::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand; // 0x10
 		::System::Single frequency; // 0x18
 
-		/*
 		static ::UnityEngine::InputSystem::Utilities::FourCC get_Type()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYSAMPLINGFREQUENCYCOMMAND_GET_TYPE_OFFSET))();
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYSAMPLINGFREQUENCYCOMMAND_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand Create()
 		{
 			return ((::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYSAMPLINGFREQUENCYCOMMAND_CREATE_OFFSET))();
 		}
+		*/
 	};
 }

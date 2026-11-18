@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_PLAYSUMMERSHOOTINGOPENINGAUDIO_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19BEA780)
-#define MOLEMOLE_FLOWCANVAS_NODES_PLAYSUMMERSHOOTINGOPENINGAUDIO_START_OFFSET UNITYSDK_OFFSET(0x19BEA870)
-#define MOLEMOLE_FLOWCANVAS_NODES_PLAYSUMMERSHOOTINGOPENINGAUDIO__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEAA50)
-#define MOLEMOLE_FLOWCANVAS_NODES_PLAYSUMMERSHOOTINGOPENINGAUDIO__START_B__3_0_OFFSET UNITYSDK_OFFSET(0x19BEAA90)
+#define MOLEMOLE_FLOWCANVAS_NODES_PLAYSUMMERSHOOTINGOPENINGAUDIO_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x162C7660)
+#define MOLEMOLE_FLOWCANVAS_NODES_PLAYSUMMERSHOOTINGOPENINGAUDIO_START_OFFSET UNITYSDK_OFFSET(0x162C7740)
+#define MOLEMOLE_FLOWCANVAS_NODES_PLAYSUMMERSHOOTINGOPENINGAUDIO__CTOR_OFFSET UNITYSDK_OFFSET(0x162C7920)
+#define MOLEMOLE_FLOWCANVAS_NODES_PLAYSUMMERSHOOTINGOPENINGAUDIO__START_B__3_0_OFFSET UNITYSDK_OFFSET(0x162C7960)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PlaySummerShootingOpeningAudio_TypeDefinitionIndex = 46204;
+	inline static constexpr unsigned int PlaySummerShootingOpeningAudio_TypeDefinitionIndex = 73449;
 
 	class PlaySummerShootingOpeningAudio : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _out; // 0xA8
-		::FlowCanvas::FlowOutput* _finish; // 0xB0
+		::FlowCanvas::FlowOutput* _finish; // 0xA8
+		::FlowCanvas::FlowOutput* _out; // 0xB0
 
 		::System::Void _ctor()
 		{

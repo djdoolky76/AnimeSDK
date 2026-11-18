@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/DG/Tweening/Plugins/Options/OrientType.h"
 #include "unitysdk/DG/Tweening/AxisConstraint.h"
 #include "unitysdk/DG/Tweening/PathMode.h"
-#include "unitysdk/DG/Tweening/Plugins/Options/OrientType.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -11,7 +11,7 @@ namespace UnityEngine { class Transform; }
 
 namespace DG::Tweening::Plugins::Options
 {
-	inline static constexpr unsigned int PathOptions_TypeDefinitionIndex = 28559;
+	inline static constexpr unsigned int PathOptions_TypeDefinitionIndex = 27998;
 
 	struct alignas(8) PathOptions
 	{
@@ -20,12 +20,15 @@ namespace DG::Tweening::Plugins::Options
 		::DG::Tweening::AxisConstraint lockPositionAxis; // 0x18
 		::DG::Tweening::AxisConstraint lockRotationAxis; // 0x1C
 		::System::Boolean isClosedPath; // 0x20
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 lookAtPosition; // 0x24
 		::UnityEngine::Transform* lookAtTransform; // 0x30
 		::System::Single lookAhead; // 0x38
 		::System::Boolean hasCustomForwardDirection; // 0x3C
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Quaternion forward; // 0x40
 		::System::Boolean useLocalPosition; // 0x50
+		::System::Byte _padding2[0x7];
 		::UnityEngine::Transform* parent; // 0x58
 		::UnityEngine::Quaternion startupRot; // 0x60
 		::System::Single startupZRot; // 0x70

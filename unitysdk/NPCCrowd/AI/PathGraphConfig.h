@@ -9,19 +9,21 @@ namespace NPCCrowd::AI { class PathGraphNodeConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15B71760)
+#define NPCCROWD_AI_PATHGRAPHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE0B9D20)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphConfig_TypeDefinitionIndex = 60394;
+	inline static constexpr unsigned int PathGraphConfig_TypeDefinitionIndex = 87006;
 
 	class PathGraphConfig : public ::System::Object
 	{
 	public:
 		::System::Int32 graphID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* name; // 0x18
 		::NPCCrowd::AI::PathGraphConfig_RoadGraphType roadType; // 0x20
 		::System::Boolean overrideBehavioursType; // 0x24
+		::System::Byte _padding1[0x3];
 		::NPCCrowd::Ability::EMoveBehaviours behavioursTypeOverride; // 0x28
 		::NPCCrowd::AI::PathGraphShadowOverrideConfig shadowOverride; // 0x2C
 		::System::Int32 connectorCount; // 0x40

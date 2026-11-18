@@ -6,23 +6,23 @@
 namespace System { class String; }
 namespace System { class UriParser; }
 
-#define SYSTEM_URIHELPER_ENSUREDESTINATIONSIZE_OFFSET UNITYSDK_OFFSET(0x1D2592E0)
-#define SYSTEM_URIHELPER_ESCAPEASCIICHAR_OFFSET UNITYSDK_OFFSET(0x1D2352E0)
-#define SYSTEM_URIHELPER_ESCAPEDASCII_OFFSET UNITYSDK_OFFSET(0x1D234AD0)
-#define SYSTEM_URIHELPER_ESCAPESTRING_OFFSET UNITYSDK_OFFSET(0x1D258990)
-#define SYSTEM_URIHELPER_IS3986UNRESERVED_OFFSET UNITYSDK_OFFSET(0x1D25A470)
-#define SYSTEM_URIHELPER_ISNOTSAFEFORUNESCAPE_OFFSET UNITYSDK_OFFSET(0x1D234B40)
-#define SYSTEM_URIHELPER_ISRESERVEDUNRESERVEDORHASH_OFFSET UNITYSDK_OFFSET(0x1D2595D0)
-#define SYSTEM_URIHELPER_ISUNRESERVED_OFFSET UNITYSDK_OFFSET(0x1D259420)
-#define SYSTEM_URIHELPER_MATCHUTF8SEQUENCE_OFFSET UNITYSDK_OFFSET(0x1D234BB0)
-#define SYSTEM_URIHELPER_TESTFORSUBPATH_OFFSET UNITYSDK_OFFSET(0x1D258790)
-#define SYSTEM_URIHELPER_UNESCAPESTRING_1_OFFSET UNITYSDK_OFFSET(0x1D2597B0)
-#define SYSTEM_URIHELPER_UNESCAPESTRING_OFFSET UNITYSDK_OFFSET(0x1D259730)
-#define SYSTEM_URIHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D25A570)
+#define SYSTEM_URIHELPER_ENSUREDESTINATIONSIZE_OFFSET UNITYSDK_OFFSET(0x1D7C7EF0)
+#define SYSTEM_URIHELPER_ESCAPEASCIICHAR_OFFSET UNITYSDK_OFFSET(0x1D7A3ED0)
+#define SYSTEM_URIHELPER_ESCAPEDASCII_OFFSET UNITYSDK_OFFSET(0x1D7A36C0)
+#define SYSTEM_URIHELPER_ESCAPESTRING_OFFSET UNITYSDK_OFFSET(0x1D7C75A0)
+#define SYSTEM_URIHELPER_IS3986UNRESERVED_OFFSET UNITYSDK_OFFSET(0x1D7C9080)
+#define SYSTEM_URIHELPER_ISNOTSAFEFORUNESCAPE_OFFSET UNITYSDK_OFFSET(0x1D7A3730)
+#define SYSTEM_URIHELPER_ISRESERVEDUNRESERVEDORHASH_OFFSET UNITYSDK_OFFSET(0x1D7C81E0)
+#define SYSTEM_URIHELPER_ISUNRESERVED_OFFSET UNITYSDK_OFFSET(0x1D7C8030)
+#define SYSTEM_URIHELPER_MATCHUTF8SEQUENCE_OFFSET UNITYSDK_OFFSET(0x1D7A37A0)
+#define SYSTEM_URIHELPER_TESTFORSUBPATH_OFFSET UNITYSDK_OFFSET(0x1D7C73A0)
+#define SYSTEM_URIHELPER_UNESCAPESTRING_1_OFFSET UNITYSDK_OFFSET(0x1D7C83C0)
+#define SYSTEM_URIHELPER_UNESCAPESTRING_OFFSET UNITYSDK_OFFSET(0x1D7C8340)
+#define SYSTEM_URIHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7C9180)
 
 namespace System
 {
-	inline static constexpr unsigned int UriHelper_TypeDefinitionIndex = 2677;
+	inline static constexpr unsigned int UriHelper_TypeDefinitionIndex = 2676;
 
 	class UriHelper : public ::System::Object
 	{
@@ -45,9 +45,9 @@ namespace System
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_URIHELPER__CCTOR_OFFSET))();
 		}
 
-		static ::System::Boolean TestForSubPath(::System::Char* pMe, ::System::UInt16 meLength, ::System::Char* pShe, ::System::UInt16 sheLength, ::System::Boolean ignoreCase)
+		static ::System::Boolean TestForSubPath(::PVOID pMe, ::System::UInt16 meLength, ::PVOID pShe, ::System::UInt16 sheLength, ::System::Boolean ignoreCase)
 		{
-			return ((::System::Boolean(*)(::System::Char*, ::System::UInt16, ::System::Char*, ::System::UInt16, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_URIHELPER_TESTFORSUBPATH_OFFSET))(pMe, meLength, pShe, sheLength, ignoreCase);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt16, ::PVOID, ::System::UInt16, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_URIHELPER_TESTFORSUBPATH_OFFSET))(pMe, meLength, pShe, sheLength, ignoreCase);
 		}
 
 		static ::Il2CppArray<::System::Char>* EscapeString(::System::String* input, ::System::Int32 start, ::System::Int32 end, ::Il2CppArray<::System::Char>* dest, ::System::Int32& destPos, ::System::Boolean isUriString, ::System::Char force1, ::System::Char force2, ::System::Char rsvd)
@@ -55,9 +55,9 @@ namespace System
 			return ((::Il2CppArray<::System::Char>*(*)(::System::String*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32&, ::System::Boolean, ::System::Char, ::System::Char, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_URIHELPER_ESCAPESTRING_OFFSET))(input, start, end, dest, destPos, isUriString, force1, force2, rsvd);
 		}
 
-		static ::Il2CppArray<::System::Char>* EnsureDestinationSize(::System::Char* pStr, ::Il2CppArray<::System::Char>* dest, ::System::Int32 currentInputPos, ::System::Int16 charsToAdd, ::System::Int16 minReallocateChars, ::System::Int32& destPos, ::System::Int32 prevInputPos)
+		static ::Il2CppArray<::System::Char>* EnsureDestinationSize(::PVOID pStr, ::Il2CppArray<::System::Char>* dest, ::System::Int32 currentInputPos, ::System::Int16 charsToAdd, ::System::Int16 minReallocateChars, ::System::Int32& destPos, ::System::Int32 prevInputPos)
 		{
-			return ((::Il2CppArray<::System::Char>*(*)(::System::Char*, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int16, ::System::Int16, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_URIHELPER_ENSUREDESTINATIONSIZE_OFFSET))(pStr, dest, currentInputPos, charsToAdd, minReallocateChars, destPos, prevInputPos);
+			return ((::Il2CppArray<::System::Char>*(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int16, ::System::Int16, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_URIHELPER_ENSUREDESTINATIONSIZE_OFFSET))(pStr, dest, currentInputPos, charsToAdd, minReallocateChars, destPos, prevInputPos);
 		}
 
 		static ::Il2CppArray<::System::Char>* UnescapeString(::System::String* input, ::System::Int32 start, ::System::Int32 end, ::Il2CppArray<::System::Char>* dest, ::System::Int32& destPosition, ::System::Char rsvd1, ::System::Char rsvd2, ::System::Char rsvd3, ::System::UnescapeMode unescapeMode, ::System::UriParser* syntax, ::System::Boolean isQuery)
@@ -65,14 +65,14 @@ namespace System
 			return ((::Il2CppArray<::System::Char>*(*)(::System::String*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32&, ::System::Char, ::System::Char, ::System::Char, ::System::UnescapeMode, ::System::UriParser*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_URIHELPER_UNESCAPESTRING_OFFSET))(input, start, end, dest, destPosition, rsvd1, rsvd2, rsvd3, unescapeMode, syntax, isQuery);
 		}
 
-		static ::Il2CppArray<::System::Char>* UnescapeString_1(::System::Char* pStr, ::System::Int32 start, ::System::Int32 end, ::Il2CppArray<::System::Char>* dest, ::System::Int32& destPosition, ::System::Char rsvd1, ::System::Char rsvd2, ::System::Char rsvd3, ::System::UnescapeMode unescapeMode, ::System::UriParser* syntax, ::System::Boolean isQuery)
+		static ::Il2CppArray<::System::Char>* UnescapeString_1(::PVOID pStr, ::System::Int32 start, ::System::Int32 end, ::Il2CppArray<::System::Char>* dest, ::System::Int32& destPosition, ::System::Char rsvd1, ::System::Char rsvd2, ::System::Char rsvd3, ::System::UnescapeMode unescapeMode, ::System::UriParser* syntax, ::System::Boolean isQuery)
 		{
-			return ((::Il2CppArray<::System::Char>*(*)(::System::Char*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32&, ::System::Char, ::System::Char, ::System::Char, ::System::UnescapeMode, ::System::UriParser*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_URIHELPER_UNESCAPESTRING_1_OFFSET))(pStr, start, end, dest, destPosition, rsvd1, rsvd2, rsvd3, unescapeMode, syntax, isQuery);
+			return ((::Il2CppArray<::System::Char>*(*)(::PVOID, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32&, ::System::Char, ::System::Char, ::System::Char, ::System::UnescapeMode, ::System::UriParser*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_URIHELPER_UNESCAPESTRING_1_OFFSET))(pStr, start, end, dest, destPosition, rsvd1, rsvd2, rsvd3, unescapeMode, syntax, isQuery);
 		}
 
-		static ::System::Void MatchUTF8Sequence(::System::Char* pDest, ::Il2CppArray<::System::Char>* dest, ::System::Int32& destOffset, ::Il2CppArray<::System::Char>* unescapedChars, ::System::Int32 charCount, ::Il2CppArray<::System::Byte>* bytes, ::System::Int32 byteCount, ::System::Boolean isQuery, ::System::Boolean iriParsing)
+		static ::System::Void MatchUTF8Sequence(::PVOID pDest, ::Il2CppArray<::System::Char>* dest, ::System::Int32& destOffset, ::Il2CppArray<::System::Char>* unescapedChars, ::System::Int32 charCount, ::Il2CppArray<::System::Byte>* bytes, ::System::Int32 byteCount, ::System::Boolean isQuery, ::System::Boolean iriParsing)
 		{
-			return ((::System::Void(*)(::System::Char*, ::Il2CppArray<::System::Char>*, ::System::Int32&, ::Il2CppArray<::System::Char>*, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_URIHELPER_MATCHUTF8SEQUENCE_OFFSET))(pDest, dest, destOffset, unescapedChars, charCount, bytes, byteCount, isQuery, iriParsing);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32&, ::Il2CppArray<::System::Char>*, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_URIHELPER_MATCHUTF8SEQUENCE_OFFSET))(pDest, dest, destOffset, unescapedChars, charCount, bytes, byteCount, isQuery, iriParsing);
 		}
 
 		static ::System::Void EscapeAsciiChar(::System::Char ch, ::Il2CppArray<::System::Char>* to, ::System::Int32& pos)

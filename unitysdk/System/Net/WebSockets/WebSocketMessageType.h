@@ -3,7 +3,7 @@
 
 namespace System::Net::WebSockets
 {
-	inline static constexpr unsigned int WebSocketMessageType_TypeDefinitionIndex = 3903;
+	inline static constexpr unsigned int WebSocketMessageType_TypeDefinitionIndex = 3902;
 
 	enum class WebSocketMessageType : ::System::Int32
 	{

@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/ConfigLazyLoadItem_1.h"
 
-namespace MoleMole { class ConfigUICommon_HollowCard; }
-
-#define MOLEMOLE_CONFIGUIHOLLOWCARDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD80BC0)
+#define MOLEMOLE_CONFIGUIHOLLOWCARDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x190C5FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIHollowCardItem_TypeDefinitionIndex = 68803;
+	inline static constexpr unsigned int ConfigUIHollowCardItem_TypeDefinitionIndex = 58933;
 
-	class ConfigUIHollowCardItem : public ::MoleMole::ConfigLazyLoadItem_1<::MoleMole::ConfigUICommon_HollowCard*>
+	class ConfigUIHollowCardItem
 	{
 	public:
 		::System::Void _ctor()

@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class CGGLJLECNJM;
+class OFLPOCHHHLC;
+
+#define MNCICEGGMKF_BBOMJDBNHIC_OFFSET UNITYSDK_OFFSET(0x1FBDD810)
+#define MNCICEGGMKF_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x1FBDD730)
+#define MNCICEGGMKF_OPADELAKHOG_OFFSET UNITYSDK_OFFSET(0x1FBDD7B0)
+#define MNCICEGGMKF__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBDD7A0)
+
+inline static constexpr unsigned int MNCICEGGMKF_TypeDefinitionIndex = 29064;
+
+class MNCICEGGMKF : public ::System::Object
+{
+public:
+	::OFLPOCHHHLC* HIKGDNGGOKM; // 0x10
+	::CGGLJLECNJM* BDBLILJIPMN; // 0x18
+	::OFLPOCHHHLC* FCKBABBBPLI; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MNCICEGGMKF__CTOR_OFFSET))(this);
+	}
+
+	::System::Void NPOLNFDBOOD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MNCICEGGMKF_NPOLNFDBOOD_OFFSET))(this);
+	}
+
+	::System::Void OPADELAKHOG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MNCICEGGMKF_OPADELAKHOG_OFFSET))(this);
+	}
+
+	::MNCICEGGMKF* BBOMJDBNHIC(::OFLPOCHHHLC* OAJIHMBGELO, ::OFLPOCHHHLC* LGOCCGBAHEA, ::CGGLJLECNJM* EGOIOLIBKMN)
+	{
+		return ((::MNCICEGGMKF*(*)(::PVOID, ::OFLPOCHHHLC*, ::OFLPOCHHHLC*, ::CGGLJLECNJM*))((::PBYTE)hIl2Cpp + MNCICEGGMKF_BBOMJDBNHIC_OFFSET))(this, OAJIHMBGELO, LGOCCGBAHEA, EGOIOLIBKMN);
+	}
+};

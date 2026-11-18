@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CCJNBGEHNHE.h"
+
+class KMNLFJHLPAK;
+class KOHPAOOBMGD;
+
+#define HNFAFFPDGAN_BEDJGLFPODG_OFFSET UNITYSDK_OFFSET(0x10120080)
+#define HNFAFFPDGAN_BFEPKHKCIDO_OFFSET UNITYSDK_OFFSET(0x10120360)
+#define HNFAFFPDGAN_LMJOOODKCJN_OFFSET UNITYSDK_OFFSET(0x10120120)
+#define HNFAFFPDGAN__CTOR_OFFSET UNITYSDK_OFFSET(0x10120350)
+
+inline static constexpr unsigned int HNFAFFPDGAN_TypeDefinitionIndex = 91540;
+
+class HNFAFFPDGAN : public ::CCJNBGEHNHE
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HNFAFFPDGAN__CTOR_OFFSET))(this);
+	}
+
+	::KOHPAOOBMGD* BEDJGLFPODG()
+	{
+		return ((::KOHPAOOBMGD*(*)(::PVOID))((::PBYTE)hIl2Cpp + HNFAFFPDGAN_BEDJGLFPODG_OFFSET))(this);
+	}
+
+	::System::Void LMJOOODKCJN(::KMNLFJHLPAK* LCHLGCGCOOE)
+	{
+		return ((::System::Void(*)(::PVOID, ::KMNLFJHLPAK*))((::PBYTE)hIl2Cpp + HNFAFFPDGAN_LMJOOODKCJN_OFFSET))(this, LCHLGCGCOOE);
+	}
+
+	::System::Void BFEPKHKCIDO(::KMNLFJHLPAK* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::KMNLFJHLPAK*))((::PBYTE)hIl2Cpp + HNFAFFPDGAN_BFEPKHKCIDO_OFFSET))(this, MIALFKCCCPI);
+	}
+};

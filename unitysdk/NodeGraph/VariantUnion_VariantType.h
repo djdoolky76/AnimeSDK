@@ -3,17 +3,17 @@
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int VariantUnion_VariantType_TypeDefinitionIndex = 64410;
+	inline static constexpr unsigned int VariantUnion_VariantType_TypeDefinitionIndex = 76620;
 
 	enum class VariantUnion_VariantType : ::System::Int32
 	{
-		Int64 = 3,
-		Bool = 1,
-		Object = 7,
-		String = 6,
-		Int32 = 2,
-		Float = 4,
-		Nullable = 0,
 		Double = 5,
+		Float = 4,
+		Bool = 1,
+		Int32 = 2,
+		Int64 = 3,
+		String = 6,
+		Object = 7,
+		Nullable = 0,
 	};
 }

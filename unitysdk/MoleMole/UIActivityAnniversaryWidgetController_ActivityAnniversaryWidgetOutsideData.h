@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_57.h"
+#include "unitysdk/KHOGENJCAEJ.h"
 
-#define MOLEMOLE_UIACTIVITYANNIVERSARYWIDGETCONTROLLER_ACTIVITYANNIVERSARYWIDGETOUTSIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E033A0)
+#define MOLEMOLE_UIACTIVITYANNIVERSARYWIDGETCONTROLLER_ACTIVITYANNIVERSARYWIDGETOUTSIDEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A114760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityAnniversaryWidgetController_ActivityAnniversaryWidgetOutsideData_TypeDefinitionIndex = 49230;
+	inline static constexpr unsigned int UIActivityAnniversaryWidgetController_ActivityAnniversaryWidgetOutsideData_TypeDefinitionIndex = 57758;
 
-	class UIActivityAnniversaryWidgetController_ActivityAnniversaryWidgetOutsideData : public ::Class_1_43BD383C98B4C0C5_57
+	class UIActivityAnniversaryWidgetController_ActivityAnniversaryWidgetOutsideData : public ::KHOGENJCAEJ
 	{
 	public:
 		::System::Int32 RoleIndex; // 0x10

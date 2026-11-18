@@ -9,22 +9,23 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MOLEMOLE_UIURBANMAPLEFTLOCATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x140D8F20)
+#define MOLEMOLE_UIURBANMAPLEFTLOCATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x171947E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapLeftLocationContext_TypeDefinitionIndex = 82992;
+	inline static constexpr unsigned int UIUrbanMapLeftLocationContext_TypeDefinitionIndex = 68940;
 
 	class UIUrbanMapLeftLocationContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action_3<::System::Boolean, ::System::Boolean, ::System::Action_2<::System::Boolean, ::System::Boolean>*>* OnSetExpand; // 0x28
-		::System::Collections::Generic::IList_1<::MoleMole::UIUrbanMapLeftLocationRowContext*>* RowList; // 0x30
+		::System::Action_1<::MoleMole::UIUrbanMapLeftLocationRowContext*>* OnConsoleSelect; // 0x28
+		::System::Action_3<::System::Boolean, ::System::Boolean, ::System::Action_2<::System::Boolean, ::System::Boolean>*>* OnSetExpand; // 0x30
 		::System::String* Title; // 0x38
-		::System::Action_1<::MoleMole::UIUrbanMapLeftLocationRowContext*>* OnConsoleSelect; // 0x40
-		::System::Boolean DefaultExpand; // 0x48
-		::System::Boolean EnableExpand; // 0x49
-		::System::Boolean Mode2d; // 0x4A
+		::System::Collections::Generic::IList_1<::MoleMole::UIUrbanMapLeftLocationRowContext*>* RowList; // 0x40
+		::System::Boolean Mode2d; // 0x48
+		::System::Boolean DefaultExpand; // 0x49
+		::System::Boolean EnableExpand; // 0x4A
+		::System::Byte _padding0[0x1];
 		::System::Int32 InitIndex; // 0x4C
 		::System::Single OtherHeight; // 0x50
 

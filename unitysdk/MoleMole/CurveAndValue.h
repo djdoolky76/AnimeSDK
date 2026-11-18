@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CURVEANDVALUE_METHOD_1_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x1B502850)
-#define MOLEMOLE_CURVEANDVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B502840)
+#define MOLEMOLE_CURVEANDVALUE_FCFOEJGPDNO_OFFSET UNITYSDK_OFFSET(0x142CEC60)
+#define MOLEMOLE_CURVEANDVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x142CEC50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CurveAndValue_TypeDefinitionIndex = 47214;
+	inline static constexpr unsigned int CurveAndValue_TypeDefinitionIndex = 73025;
 
 	class CurveAndValue : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CURVEANDVALUE__CTOR_OFFSET))(this);
 		}
 
-		::System::Single Method_1_D437D090E63BE8A7(::System::Single a1)
+		::System::Single FCFOEJGPDNO(::System::Single FNIOPKPHDEH)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CURVEANDVALUE_METHOD_1_D437D090E63BE8A7_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CURVEANDVALUE_FCFOEJGPDNO_OFFSET))(this, FNIOPKPHDEH);
 		}
 	};
 }

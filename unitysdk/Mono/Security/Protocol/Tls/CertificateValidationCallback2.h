@@ -3,19 +3,19 @@
 #include "unitysdk/System/MulticastDelegate.h"
 
 namespace Mono::Security::Interface { class ValidationResult; }
-namespace Mono::Security::X509 { class X509CertificateCollection; }
+namespace Mono::Security::X509 { class X509CertificateCollection_8FF10F09B594C630; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E6FD150)
-#define MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E6FD180)
-#define MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E6FCC30)
-#define MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FCC10)
+#define MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E9A24A0)
+#define MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E9A24D0)
+#define MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E9A1F80)
+#define MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A1F70)
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int CertificateValidationCallback2_TypeDefinitionIndex = 2374;
+	inline static constexpr unsigned int CertificateValidationCallback2_TypeDefinitionIndex = 2373;
 
 	class CertificateValidationCallback2 : public ::System::MulticastDelegate
 	{
@@ -25,14 +25,14 @@ namespace Mono::Security::Protocol::Tls
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2__CTOR_OFFSET))(this, object, method);
 		}
 
-		::Mono::Security::Interface::ValidationResult* Invoke(::Mono::Security::X509::X509CertificateCollection* collection)
+		::Mono::Security::Interface::ValidationResult* Invoke(::Mono::Security::X509::X509CertificateCollection_8FF10F09B594C630* collection)
 		{
-			return ((::Mono::Security::Interface::ValidationResult*(*)(::PVOID, ::Mono::Security::X509::X509CertificateCollection*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2_INVOKE_OFFSET))(this, collection);
+			return ((::Mono::Security::Interface::ValidationResult*(*)(::PVOID, ::Mono::Security::X509::X509CertificateCollection_8FF10F09B594C630*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2_INVOKE_OFFSET))(this, collection);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Mono::Security::X509::X509CertificateCollection* collection, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Mono::Security::X509::X509CertificateCollection_8FF10F09B594C630* collection, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Mono::Security::X509::X509CertificateCollection*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2_BEGININVOKE_OFFSET))(this, collection, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Mono::Security::X509::X509CertificateCollection_8FF10F09B594C630*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_TLS_CERTIFICATEVALIDATIONCALLBACK2_BEGININVOKE_OFFSET))(this, collection, callback, object);
 		}
 
 		::Mono::Security::Interface::ValidationResult* EndInvoke(::System::IAsyncResult* result)

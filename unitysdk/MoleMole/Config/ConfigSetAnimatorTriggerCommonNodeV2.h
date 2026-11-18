@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigConditionPredicateNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODEV2_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B557C20)
-#define MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B557C90)
+#define MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODEV2_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1BA3A9B0)
+#define MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA3AA20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSetAnimatorTriggerCommonNodeV2_TypeDefinitionIndex = 70174;
+	inline static constexpr unsigned int ConfigSetAnimatorTriggerCommonNodeV2_TypeDefinitionIndex = 54038;
 
 	class ConfigSetAnimatorTriggerCommonNodeV2 : public ::MoleMole::Config::ConfigConditionPredicateNode
 	{
@@ -23,9 +23,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODEV2__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODEV2_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSETANIMATORTRIGGERCOMMONNODEV2_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

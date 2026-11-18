@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/BubbleType.h"
 #include "unitysdk/MoleMole/FairyTextUpdateType.h"
-#include "unitysdk/Struct_2_D83DC7376F4C0DA0.h"
+#include "unitysdk/FlowCanvas/Flow.h"
+#include "unitysdk/JAPOBHAHDFP.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
 namespace FlowCanvas { class FlowOutput; }
@@ -12,40 +12,40 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETFINALTEXTWITHCACHE_OFFSET UNITYSDK_OFFSET(0x13A87B60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONCLOSEPARAM_OFFSET UNITYSDK_OFFSET(0x13A876B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONGRAPHSTOPEDPARAM_OFFSET UNITYSDK_OFFSET(0x13A87200)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONRESTARTPARAM_OFFSET UNITYSDK_OFFSET(0x13A878A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONSTARTPARAM_OFFSET UNITYSDK_OFFSET(0x13A873F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x13A86F00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x13A86C00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_ONRESTART_OFFSET UNITYSDK_OFFSET(0x13A87080)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_ONSTART_OFFSET UNITYSDK_OFFSET(0x13A86D80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13A868B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI__CTOR_OFFSET UNITYSDK_OFFSET(0x13A88380)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x13A884B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x13A88500)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI__REGISTERPORTS_B__11_2_OFFSET UNITYSDK_OFFSET(0x13A88510)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x13A88520)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETFINALTEXTWITHCACHE_OFFSET UNITYSDK_OFFSET(0x146623F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONCLOSEPARAM_OFFSET UNITYSDK_OFFSET(0x14661F20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONGRAPHSTOPEDPARAM_OFFSET UNITYSDK_OFFSET(0x14661A50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONRESTARTPARAM_OFFSET UNITYSDK_OFFSET(0x14662120)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONSTARTPARAM_OFFSET UNITYSDK_OFFSET(0x14661C50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x14661750)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x14661450)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_ONRESTART_OFFSET UNITYSDK_OFFSET(0x146618D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_ONSTART_OFFSET UNITYSDK_OFFSET(0x146615D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x14661100)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI__CTOR_OFFSET UNITYSDK_OFFSET(0x14662C10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x14662D40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x14662D90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI__REGISTERPORTS_B__11_2_OFFSET UNITYSDK_OFFSET(0x14662DA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x14662DB0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowScoreUI_TypeDefinitionIndex = 59299;
+	inline static constexpr unsigned int LDShowScoreUI_TypeDefinitionIndex = 89917;
 
 	class LDShowScoreUI : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::Il2CppArray<::FlowCanvas::ValueInput_1<::System::String*>*>* paramInputs; // 0xA8
+		::System::String* cachedFinalText; // 0xA8
 		::System::String* cachedKey; // 0xB0
-		::System::Collections::Generic::List_1<::System::String*>* paramList; // 0xB8
-		::System::Collections::Generic::List_1<::System::String*>* cachedParam; // 0xC0
-		::FlowCanvas::ValueInput_1<::MoleMole::FairyTextUpdateType>* UpdateType; // 0xC8
-		::FlowCanvas::FlowOutput* output; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::Boolean>* ShowWhenMidText; // 0xD8
-		::System::String* cachedFinalText; // 0xE0
-		::FlowCanvas::ValueInput_1<::System::String*>* textMapKey; // 0xE8
-		::FlowCanvas::ValueInput_1<::System::String*>* iconTextureKey; // 0xF0
-		::FlowCanvas::ValueInput_1<::MoleMole::BubbleType>* bubbleType; // 0xF8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* ShowWhenMidText; // 0xB8
+		::FlowCanvas::ValueInput_1<::MoleMole::FairyTextUpdateType>* UpdateType; // 0xC0
+		::Il2CppArray<::FlowCanvas::ValueInput_1<::System::String*>*>* paramInputs; // 0xC8
+		::System::Collections::Generic::List_1<::System::String*>* paramList; // 0xD0
+		::FlowCanvas::FlowOutput* output; // 0xD8
+		::FlowCanvas::ValueInput_1<::MoleMole::BubbleType>* bubbleType; // 0xE0
+		::FlowCanvas::ValueInput_1<::System::String*>* iconTextureKey; // 0xE8
+		::FlowCanvas::ValueInput_1<::System::String*>* textMapKey; // 0xF0
+		::System::Collections::Generic::List_1<::System::String*>* cachedParam; // 0xF8
 
 		::System::Void _ctor()
 		{
@@ -77,24 +77,24 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_ONRESTART_OFFSET))(this);
 		}
 
-		::System::Void GetOnGraphStopedParam(::Struct_2_D83DC7376F4C0DA0& arg)
+		::System::Void GetOnGraphStopedParam(::JAPOBHAHDFP& arg)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_D83DC7376F4C0DA0&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONGRAPHSTOPEDPARAM_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::JAPOBHAHDFP&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONGRAPHSTOPEDPARAM_OFFSET))(this, arg);
 		}
 
-		::System::Void GetOnStartParam(::Struct_2_D83DC7376F4C0DA0& arg)
+		::System::Void GetOnStartParam(::JAPOBHAHDFP& arg)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_D83DC7376F4C0DA0&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONSTARTPARAM_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::JAPOBHAHDFP&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONSTARTPARAM_OFFSET))(this, arg);
 		}
 
-		::System::Void GetOnCloseParam(::Struct_2_D83DC7376F4C0DA0& arg)
+		::System::Void GetOnCloseParam(::JAPOBHAHDFP& arg)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_D83DC7376F4C0DA0&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONCLOSEPARAM_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::JAPOBHAHDFP&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONCLOSEPARAM_OFFSET))(this, arg);
 		}
 
-		::System::Void GetOnRestartParam(::Struct_2_D83DC7376F4C0DA0& arg)
+		::System::Void GetOnRestartParam(::JAPOBHAHDFP& arg)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_D83DC7376F4C0DA0&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONRESTARTPARAM_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::JAPOBHAHDFP&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCOREUI_GETONRESTARTPARAM_OFFSET))(this, arg);
 		}
 
 		::System::ValueTuple_2<::System::String*, ::MoleMole::FairyTextUpdateType> GetFinalTextWithCache()

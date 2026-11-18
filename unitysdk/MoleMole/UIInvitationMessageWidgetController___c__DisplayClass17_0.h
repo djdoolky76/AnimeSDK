@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_36;
+class OAEFGCLEHHO;
 namespace MoleMole { class UIInvitationMessageWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIINVITATIONMESSAGEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18389870)
-#define MOLEMOLE_UIINVITATIONMESSAGEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__ONCLICKTRUSTBTN_B__0_OFFSET UNITYSDK_OFFSET(0x18389880)
-#define MOLEMOLE_UIINVITATIONMESSAGEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__ONCLICKTRUSTBTN_B__1_OFFSET UNITYSDK_OFFSET(0x18389920)
+#define MOLEMOLE_UIINVITATIONMESSAGEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187EE1B0)
+#define MOLEMOLE_UIINVITATIONMESSAGEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__ONCLICKTRUSTBTN_B__0_OFFSET UNITYSDK_OFFSET(0x187EE1C0)
+#define MOLEMOLE_UIINVITATIONMESSAGEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__ONCLICKTRUSTBTN_B__1_OFFSET UNITYSDK_OFFSET(0x187EE260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInvitationMessageWidgetController___c__DisplayClass17_0_TypeDefinitionIndex = 62671;
+	inline static constexpr unsigned int UIInvitationMessageWidgetController___c__DisplayClass17_0_TypeDefinitionIndex = 44696;
 
 	class UIInvitationMessageWidgetController___c__DisplayClass17_0 : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINVITATIONMESSAGEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnClickTrustBtn_b__0(::Class_0_16E4307DCC419505_36* msg)
+		::System::Void _OnClickTrustBtn_b__0(::OAEFGCLEHHO* msg)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_36*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINVITATIONMESSAGEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__ONCLICKTRUSTBTN_B__0_OFFSET))(this, msg);
+			return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINVITATIONMESSAGEWIDGETCONTROLLER___C__DISPLAYCLASS17_0__ONCLICKTRUSTBTN_B__0_OFFSET))(this, msg);
 		}
 
 		::System::Void _OnClickTrustBtn_b__1()

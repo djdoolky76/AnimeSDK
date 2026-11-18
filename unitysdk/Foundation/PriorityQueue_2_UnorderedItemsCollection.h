@@ -1,22 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/PriorityQueue_2_UnorderedItemsCollection_Enumerator.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
 
 namespace Foundation { template <typename T1, typename T2> class PriorityQueue_2; }
-namespace System { class Array; }
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int PriorityQueue_2_UnorderedItemsCollection_TypeDefinitionIndex = 8022;
+	inline static constexpr unsigned int PriorityQueue_2_UnorderedItemsCollection_TypeDefinitionIndex = 8567;
 
-	template <typename TElement, typename TPriority>
+	template <typename T1, typename T2>
 	class PriorityQueue_2_UnorderedItemsCollection : public ::System::Object
 	{
 	public:
-		::Foundation::PriorityQueue_2<TElement, TPriority>* _queue; // 0x0
+		::Foundation::PriorityQueue_2<T1, T2>* _queue; // 0x0
 	};
 }

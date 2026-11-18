@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class AFMMAIKKACF;
+class ALGKMLLALFG;
+class EHGPNGPADCB;
+namespace MoleMole { class UIHollowChessboard3DModelController; }
+
+#define CHPPICKJHIO_CLALMOCJIBB_OFFSET UNITYSDK_OFFSET(0x159DAD40)
+#define CHPPICKJHIO_CMFOMGGDPPA_OFFSET UNITYSDK_OFFSET(0x159DACB0)
+#define CHPPICKJHIO_FGGAFENLMHP_OFFSET UNITYSDK_OFFSET(0x159DABC0)
+#define CHPPICKJHIO_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0x159DA670)
+#define CHPPICKJHIO_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0x159DAC20)
+#define CHPPICKJHIO_OKJCHFGIKBH_OFFSET UNITYSDK_OFFSET(0x159DA910)
+#define CHPPICKJHIO__CTOR_OFFSET UNITYSDK_OFFSET(0x159DA650)
+
+inline static constexpr unsigned int CHPPICKJHIO_TypeDefinitionIndex = 75288;
+
+class CHPPICKJHIO
+{
+public:
+	::MoleMole::UIHollowChessboard3DModelController* BDEFFPHDGNJ; // 0x30
+	::ALGKMLLALFG* JOKIHJCIMGA; // 0x38
+	::System::Double NAIDADGNEDI; // 0x40
+	::System::Single JPIHKNPJKPH; // 0x48
+
+	::System::Void _ctor(::EHGPNGPADCB* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::EHGPNGPADCB*))((::PBYTE)hIl2Cpp + CHPPICKJHIO__CTOR_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Void GLEJMKLOMBP(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + CHPPICKJHIO_GLEJMKLOMBP_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void OKJCHFGIKBH(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + CHPPICKJHIO_OKJCHFGIKBH_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void FGGAFENLMHP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CHPPICKJHIO_FGGAFENLMHP_OFFSET))(this);
+	}
+
+	::System::Void LIDIODHDJAF(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + CHPPICKJHIO_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void CMFOMGGDPPA(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + CHPPICKJHIO_CMFOMGGDPPA_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void CLALMOCJIBB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CHPPICKJHIO_CLALMOCJIBB_OFFSET))(this);
+	}
+};

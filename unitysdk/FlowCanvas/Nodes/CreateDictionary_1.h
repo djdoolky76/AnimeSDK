@@ -4,7 +4,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CreateDictionary_1_TypeDefinitionIndex = 30505;
+	inline static constexpr unsigned int CreateDictionary_1_TypeDefinitionIndex = 30834;
 
 	template <typename T>
 	class CreateDictionary_1 : public ::FlowCanvas::FlowNode

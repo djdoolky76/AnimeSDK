@@ -7,12 +7,13 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int ProceduralAnimFixedParam_TypeDefinitionIndex = 70219;
+	inline static constexpr unsigned int ProceduralAnimFixedParam_TypeDefinitionIndex = 65923;
 
 	struct alignas(8) ProceduralAnimFixedParam
 	{
 		::System::Single FixedRotateSpeed; // 0x10
 		::System::Boolean IsApplyCurveSpeed; // 0x14
+		::System::Byte _padding0[0x3];
 		::UnityEngine::AnimationCurve* Curve; // 0x18
 		::UnityEngine::AnimatorStateInfo StateInfo; // 0x20
 		::System::Single NormalizedTime; // 0x48

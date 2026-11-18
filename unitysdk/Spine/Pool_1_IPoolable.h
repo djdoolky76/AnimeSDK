@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int Pool_1_IPoolable_TypeDefinitionIndex = 33476;
+	inline static constexpr unsigned int Pool_1_IPoolable_TypeDefinitionIndex = 32952;
 
 	template <typename T>
 	class Pool_1_IPoolable

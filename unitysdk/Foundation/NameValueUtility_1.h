@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ReadOnlyNativeVariableArray_1.h"
-#include "unitysdk/Foundation/Unreal/FName.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T> class Comparer_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NameValueUtility_1_TypeDefinitionIndex = 8560;
+	inline static constexpr unsigned int NameValueUtility_1_TypeDefinitionIndex = 8879;
 
 	template <typename T>
 	class NameValueUtility_1 : public ::System::Object

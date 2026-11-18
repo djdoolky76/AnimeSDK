@@ -6,10 +6,10 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_CONSOLEKEYINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9A7C90)
-#define SYSTEM_CONSOLEKEYINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x9A7C20)
-#define SYSTEM_CONSOLEKEYINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9A7CB0)
-#define SYSTEM_CONSOLEKEYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9A7B70)
+#define SYSTEM_CONSOLEKEYINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x8D48D0)
+#define SYSTEM_CONSOLEKEYINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x8D4860)
+#define SYSTEM_CONSOLEKEYINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8D48F0)
+#define SYSTEM_CONSOLEKEYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8D47B0)
 
 namespace System
 {
@@ -18,6 +18,7 @@ namespace System
 	struct alignas(4) ConsoleKeyInfo
 	{
 		::System::Char _keyChar; // 0x10
+		::System::Byte _padding0[0x2];
 		::System::ConsoleKey _key; // 0x14
 		::System::ConsoleModifiers _mods; // 0x18
 
@@ -31,10 +32,12 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLEKEYINFO_EQUALS_OFFSET))(this, value);
 		}
 
+		/*
 		::System::Boolean Equals_1(::System::ConsoleKeyInfo obj)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::ConsoleKeyInfo))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLEKEYINFO_EQUALS_1_OFFSET))(this, obj);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{

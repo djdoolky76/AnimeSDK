@@ -3,19 +3,19 @@
 #include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/MoleMole/Config/TerrainMatType.h"
 #include "unitysdk/MoleMole/Config/WeatherType.h"
-#include "unitysdk/MoleMole/MonoTerrainZoneVoxel_Enum_3_BE429607AD3CE9BA.h"
-#include "unitysdk/MoleMole/MonoTerrainZoneVoxel_WeatherDefaultMat.h"
+#include "unitysdk/MoleMole/MonoTerrainZoneVoxel_BEFDJNDCGNA.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
-#include "unitysdk/System/Numerics/Vector3.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
+#include "unitysdk/System/Numerics/Vector3.h"
 
-class Class_1_4AF8D6CF5BED3FDC;
+class EPBCKEFEADP;
 namespace MoleMole { class MonoDynamicObjectVoxel; }
+namespace MoleMole { class MonoStageEnv; }
 namespace MoleMole { class MonoTerrainZoneVoxel_VoxelData; }
 namespace MoleMole::Voxel { class VoxelArray; }
 namespace MoleMole::Voxel { class VoxelCompressArray; }
@@ -30,86 +30,86 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Object; }
 
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_ADDDYNAMICOBJECTVOXEL_OFFSET UNITYSDK_OFFSET(0x1791BDF0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_COMPRESSEDARRAY_OFFSET UNITYSDK_OFFSET(0x1791B9E0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_OCT_OFFSET UNITYSDK_OFFSET(0x1791B180)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_OFFSET UNITYSDK_OFFSET(0x1791B080)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_RAWARRAY_OFFSET UNITYSDK_OFFSET(0x1791B6F0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_GETSURFACECOVERSWITCHINFO_OFFSET UNITYSDK_OFFSET(0x17919BE0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_GETSURFACESWITCHINFO_OFFSET UNITYSDK_OFFSET(0x17919A70)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_GETUNSCALEPOS_OFFSET UNITYSDK_OFFSET(0x1791AD60)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_GETVOXEL_OFFSET UNITYSDK_OFFSET(0x1791AE50)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_02416282B55EC5F3_OFFSET UNITYSDK_OFFSET(0x1791A830)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_050E70FEDB783306_OFFSET UNITYSDK_OFFSET(0x1791C940)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_0927CBCFB2A51C9A_OFFSET UNITYSDK_OFFSET(0x1791C880)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x1791C640)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_19CCC07C980409E4_OFFSET UNITYSDK_OFFSET(0x1791CD00)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_19FB9C4218A5B74F_OFFSET UNITYSDK_OFFSET(0x1791C790)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0x1791A200)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_464F9487BF0D77F8_OFFSET UNITYSDK_OFFSET(0x1791D350)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0x1791D000)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0x17919FE0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_6424DA16BE1ACD1D_OFFSET UNITYSDK_OFFSET(0x1791D5B0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_72E9BF2CBB9F3970_OFFSET UNITYSDK_OFFSET(0x1791BF50)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_7744894CEC41BF06_OFFSET UNITYSDK_OFFSET(0x1791A530)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x1791CD70)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_7F576417C636CD3F_1_OFFSET UNITYSDK_OFFSET(0x1791D0F0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_7F576417C636CD3F_OFFSET UNITYSDK_OFFSET(0x1791B000)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_904639FDEF8DA904_OFFSET UNITYSDK_OFFSET(0x1791C990)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1791C530)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_BE54D43753BC5B5F_OFFSET UNITYSDK_OFFSET(0x1791D4A0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_BFB8545B28B0DAAD_OFFSET UNITYSDK_OFFSET(0x1791CCA0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_C0B9D1B2E5611154_OFFSET UNITYSDK_OFFSET(0x1791D170)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1791D0A0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1791C600)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_DCD71EDAFE07637E_OFFSET UNITYSDK_OFFSET(0x1791D550)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_E05A16F4C3178177_1_OFFSET UNITYSDK_OFFSET(0x1791CFA0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_E05A16F4C3178177_OFFSET UNITYSDK_OFFSET(0x1791C8E0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_F3F1A00B2E67355E_OFFSET UNITYSDK_OFFSET(0x1791BDA0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_FEA241CA014F8043_OFFSET UNITYSDK_OFFSET(0x1791CC00)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17919F90)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17919F50)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_PACKMATTYPE_OFFSET UNITYSDK_OFFSET(0x17919D20)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_PACKSPANDATATOTOP_OFFSET UNITYSDK_OFFSET(0x17919F00)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_REMOVEDYNAMICOBJECTVOXEL_OFFSET UNITYSDK_OFFSET(0x1791BEA0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_RESETVOXEL_OFFSET UNITYSDK_OFFSET(0x1791AE00)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_START_OFFSET UNITYSDK_OFFSET(0x1791A4E0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_UNPACKMATTYPE_OFFSET UNITYSDK_OFFSET(0x17919E60)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1791A7E0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1791C4C0)
-#define MOLEMOLE_MONOTERRAINZONEVOXEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1791C140)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_ACLMIIKMPIA_OFFSET UNITYSDK_OFFSET(0x14B06530)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_ADDDYNAMICOBJECTVOXEL_OFFSET UNITYSDK_OFFSET(0x14B06580)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_BBGBCMHBNND_OFFSET UNITYSDK_OFFSET(0x14B07C90)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_BLPACEFLCDN_OFFSET UNITYSDK_OFFSET(0x14B07BC0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_CFNGPFKIFBH_OFFSET UNITYSDK_OFFSET(0x14B074D0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_DLNIAHNJGEA_OFFSET UNITYSDK_OFFSET(0x14B04CC0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_EAKMJJAPJHH_OFFSET UNITYSDK_OFFSET(0x14B079E0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_EGGMEAGKBHA_1_OFFSET UNITYSDK_OFFSET(0x14B07990)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_EGGMEAGKBHA_OFFSET UNITYSDK_OFFSET(0x14B072B0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_EMPHMNMDPNK_OFFSET UNITYSDK_OFFSET(0x14B07360)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_COMPRESSEDARRAY_OFFSET UNITYSDK_OFFSET(0x14B06170)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_OCT_OFFSET UNITYSDK_OFFSET(0x14B05910)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_OFFSET UNITYSDK_OFFSET(0x14B05810)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_RAWARRAY_OFFSET UNITYSDK_OFFSET(0x14B05E80)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_FNADNKNOBAK_OFFSET UNITYSDK_OFFSET(0x14B06CD0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_GETSURFACECOVERSWITCHINFO_OFFSET UNITYSDK_OFFSET(0x14B04220)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_GETSURFACESWITCHINFO_OFFSET UNITYSDK_OFFSET(0x14B04090)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_GETUNSCALEPOS_OFFSET UNITYSDK_OFFSET(0x14B054F0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_GETVOXEL_OFFSET UNITYSDK_OFFSET(0x14B055E0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_GKOCBBPAJLE_OFFSET UNITYSDK_OFFSET(0x14B07400)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_GMECMEFOPAA_OFFSET UNITYSDK_OFFSET(0x14B066E0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_HHCBLPDCJNA_OFFSET UNITYSDK_OFFSET(0x14B06E30)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_HLMELOGOJOD_OFFSET UNITYSDK_OFFSET(0x14B07DB0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_IFKNLGPGBCN_OFFSET UNITYSDK_OFFSET(0x14B07530)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_JAFAACAOEAK_OFFSET UNITYSDK_OFFSET(0x14B07E60)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_JGJFJHDCEEJ_OFFSET UNITYSDK_OFFSET(0x14B07020)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_KAPDOGMKOFM_OFFSET UNITYSDK_OFFSET(0x14B07D30)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_KBBMEMOKAEL_OFFSET UNITYSDK_OFFSET(0x14B04890)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_KDKOCNKFDMK_OFFSET UNITYSDK_OFFSET(0x14B05790)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_LICEFPEPFFJ_OFFSET UNITYSDK_OFFSET(0x14B07CD0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_MFCMKKHOILI_OFFSET UNITYSDK_OFFSET(0x14B07080)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_MKGGEIBDIJG_OFFSET UNITYSDK_OFFSET(0x14B07840)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_MPOJPEPOAOL_OFFSET UNITYSDK_OFFSET(0x14B04670)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_NIAMOGANEPN_OFFSET UNITYSDK_OFFSET(0x14B077A0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_NNMLOACDCDF_OFFSET UNITYSDK_OFFSET(0x14B07300)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_ODOAPLFHCCC_OFFSET UNITYSDK_OFFSET(0x14B04FC0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_OKHBPJHGPLP_OFFSET UNITYSDK_OFFSET(0x14B07460)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14B045F0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x14B045B0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_PACKMATTYPE_OFFSET UNITYSDK_OFFSET(0x14B04380)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_PACKSPANDATATOTOP_OFFSET UNITYSDK_OFFSET(0x14B04560)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_REMOVEDYNAMICOBJECTVOXEL_OFFSET UNITYSDK_OFFSET(0x14B06630)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_RESETVOXEL_OFFSET UNITYSDK_OFFSET(0x14B05590)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_START_OFFSET UNITYSDK_OFFSET(0x14B04B70)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_UNPACKMATTYPE_OFFSET UNITYSDK_OFFSET(0x14B044C0)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL_UPDATE_OFFSET UNITYSDK_OFFSET(0x14B04F70)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B06C60)
+#define MOLEMOLE_MONOTERRAINZONEVOXEL__CTOR_OFFSET UNITYSDK_OFFSET(0x14B068E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTerrainZoneVoxel_TypeDefinitionIndex = 62029;
+	inline static constexpr unsigned int MonoTerrainZoneVoxel_TypeDefinitionIndex = 63475;
 
 	class MonoTerrainZoneVoxel : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Action_1<::UnityEngine::Vector3>** StaticGet_Field_5_12()
+		static ::System::Action_1<::UnityEngine::Vector3>** StaticGet_MJDJHIIOPBA()
 		{
-			return (::System::Action_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(MonoTerrainZoneVoxel_TypeDefinitionIndex)->GetStaticField(0x32800);
-		}
-		static ::System::Int32* StaticGet_Field_5_29()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoTerrainZoneVoxel_TypeDefinitionIndex)->GetStaticField(0xB1E0);
-		}
-		static ::System::Int32* StaticGet_Field_5_30()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoTerrainZoneVoxel_TypeDefinitionIndex)->GetStaticField(0xB1E4);
-		}
-		static ::System::Byte* StaticGet_COVER_MAT_MAX_RANGE()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MonoTerrainZoneVoxel_TypeDefinitionIndex)->GetStaticField(0xB1E8);
+			return (::System::Action_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(MonoTerrainZoneVoxel_TypeDefinitionIndex)->GetStaticField(0x34B00);
 		}
 		static ::System::Byte* StaticGet_BASE_MAT_MAX_RANGE()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MonoTerrainZoneVoxel_TypeDefinitionIndex)->GetStaticField(0xB1E9);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MonoTerrainZoneVoxel_TypeDefinitionIndex)->GetStaticField(0xB1E0);
 		}
-		// static const ::System::String* Field_5_31; // 0x0
-		::MoleMole::MonoTerrainZoneVoxel_Enum_3_BE429607AD3CE9BA Field_5_0; // 0x18
+		static ::System::Byte* StaticGet_COVER_MAT_MAX_RANGE()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MonoTerrainZoneVoxel_TypeDefinitionIndex)->GetStaticField(0xB1E1);
+		}
+		static ::System::Int32* StaticGet_FDHDEMNIEPN()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoTerrainZoneVoxel_TypeDefinitionIndex)->GetStaticField(0xB1E4);
+		}
+		static ::System::Int32* StaticGet_LNPPKAKOEIO()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoTerrainZoneVoxel_TypeDefinitionIndex)->GetStaticField(0xB1E8);
+		}
+		// static const ::System::String* MJLJOFBPILB; // 0x0
+		::MoleMole::MonoTerrainZoneVoxel_BEFDJNDCGNA OFCENPKIIKD; // 0x18
 		::MoleMole::Config::WeatherType bakedWeatherType; // 0x1C
-		::Il2CppArray<::MoleMole::MonoTerrainZoneVoxel_VoxelData*>* weatherVoxelData; // 0x20
+		::Il2CppArray<::System::Object*>* weatherVoxelData; // 0x20
 		::MoleMole::Voxel::VoxelArray* weatherVoxelArray; // 0x28
 		::MoleMole::Voxel::VoxelCompressArray* weatherVoxelCompressedArray; // 0x30
 		::UnityEngine::Vector3Int voxelMeta; // 0x38
@@ -119,26 +119,33 @@ namespace MoleMole
 		::System::Single QueryRadis; // 0x64
 		::UnityEngine::Vector3 CharacterPos; // 0x68
 		::UnityEngine::Vector3 VoxelCharacterPos; // 0x74
-		::MoleMole::Config::WeatherType _currentTerrainWeatherType; // 0x80
-		::System::Collections::Generic::List_1<::System::Byte>* Field_5_18; // 0x88
-		::MoleMole::Voxel::VoxelArray* Field_5_17; // 0x90
-		::System::Boolean Field_5_16; // 0x98
-		::Foundation::AssetRequestHandle Field_5_23; // 0xA0
-		::MoleMole::Voxel::VoxelCompressArray* Field_5_22; // 0xC0
-		::Class_1_4AF8D6CF5BED3FDC* Field_5_21; // 0xC8
-		::Il2CppArray<::UnityEngine::Color>* Field_5_20; // 0xD0
-		::UnityEngine::Material* Field_5_27; // 0xD8
-		::System::Boolean Field_5_26; // 0xE0
-		::UnityEngine::Bounds Field_5_25; // 0xE4
-		::UnityEngine::ComputeBuffer* Field_5_24; // 0x100
-		::Foundation::AssetRequestHandle Field_5_28; // 0x108
-		::Il2CppArray<::MoleMole::MonoTerrainZoneVoxel_WeatherDefaultMat>* defaultTerrainMatTypes; // 0x128
-		::System::Boolean isWorking; // 0x130
-		::System::Boolean Field_5_33; // 0x131
-		::System::Int32 Field_5_32; // 0x134
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::WeatherType, ::System::Byte>* Field_5_39; // 0x138
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_5_38; // 0x140
-		::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> Field_5_37; // 0x148
+		::MoleMole::MonoStageEnv* EEPBBJJPAHG; // 0x80
+		::System::Boolean HKBHKFPCJND; // 0x88
+		::System::Byte _padding0[0x3];
+		::MoleMole::Config::WeatherType _currentTerrainWeatherType; // 0x8C
+		::System::Collections::Generic::List_1<::System::Byte>* EPHAGOFLDFG; // 0x90
+		::MoleMole::Voxel::VoxelArray* DLJIDNPNDMA; // 0x98
+		::System::Boolean FFOEGJPGLMN; // 0xA0
+		::System::Byte _padding1[0x7];
+		::Foundation::AssetRequestHandle NNBIHDEFEHC; // 0xA8
+		::MoleMole::Voxel::VoxelCompressArray* ILEHLMFOJOF; // 0xC8
+		::EPBCKEFEADP* LOBPIJMBMPF; // 0xD0
+		::Il2CppArray<::UnityEngine::Color>* BFFHKHOGBNP; // 0xD8
+		::UnityEngine::Material* LIDEAIFDGOG; // 0xE0
+		::System::Boolean PFCILMCGMKD; // 0xE8
+		::System::Byte _padding2[0x3];
+		::UnityEngine::Bounds JIAGKPFBPKP; // 0xEC
+		::System::Byte _padding3[0x4];
+		::UnityEngine::ComputeBuffer* MKDPHFDFBFL; // 0x108
+		::Foundation::AssetRequestHandle MFOAGFOOJAP; // 0x110
+		::Il2CppArray<::System::Object*>* defaultTerrainMatTypes; // 0x130
+		::System::Boolean isWorking; // 0x138
+		::System::Boolean AIIOCFOHMFD; // 0x139
+		::System::Byte _padding4[0x2];
+		::System::Int32 JILAACIGKPN; // 0x13C
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::WeatherType, ::System::Byte>* MPFLHIPOAGD; // 0x140
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* LNHNEAHBKII; // 0x148
+		::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32> NIFIDOODANP; // 0x150
 
 		::System::Void _ctor()
 		{
@@ -150,29 +157,29 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void GetSurfaceSwitchInfo(::MoleMole::Config::TerrainMatType a1, ::System::String*& a2, ::System::String*& a3)
+		static ::System::Void GetSurfaceSwitchInfo(::MoleMole::Config::TerrainMatType KNNDDLMOKCG, ::System::String*& GCMFNEDFOAK, ::System::String*& BLNPKKGMONJ)
 		{
-			return ((::System::Void(*)(::MoleMole::Config::TerrainMatType, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_GETSURFACESWITCHINFO_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::MoleMole::Config::TerrainMatType, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_GETSURFACESWITCHINFO_OFFSET))(KNNDDLMOKCG, GCMFNEDFOAK, BLNPKKGMONJ);
 		}
 
-		static ::System::Void GetSurfaceCoverSwitchInfo(::MoleMole::Config::TerrainMatType a1, ::System::String*& a2, ::System::String*& a3)
+		static ::System::Void GetSurfaceCoverSwitchInfo(::MoleMole::Config::TerrainMatType KNNDDLMOKCG, ::System::String*& GCMFNEDFOAK, ::System::String*& BLNPKKGMONJ)
 		{
-			return ((::System::Void(*)(::MoleMole::Config::TerrainMatType, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_GETSURFACECOVERSWITCHINFO_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::MoleMole::Config::TerrainMatType, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_GETSURFACECOVERSWITCHINFO_OFFSET))(KNNDDLMOKCG, GCMFNEDFOAK, BLNPKKGMONJ);
 		}
 
-		static ::System::Void PackMatType(::System::Int32 a1, ::System::Int32 a2, ::System::Byte& a3)
+		static ::System::Void PackMatType(::System::Int32 APHIOACPOIA, ::System::Int32 NMNENPNKDDG, ::System::Byte& ABGCEKBKIEI)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_PACKMATTYPE_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_PACKMATTYPE_OFFSET))(APHIOACPOIA, NMNENPNKDDG, ABGCEKBKIEI);
 		}
 
-		static ::System::Void UnpackMatType(::System::Byte a1, ::System::Byte& a2, ::System::Byte& a3)
+		static ::System::Void UnpackMatType(::System::Byte ABGCEKBKIEI, ::System::Byte& HCMCEJGHNCJ, ::System::Byte& EHMEODELCMC)
 		{
-			return ((::System::Void(*)(::System::Byte, ::System::Byte&, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_UNPACKMATTYPE_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Byte, ::System::Byte&, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_UNPACKMATTYPE_OFFSET))(ABGCEKBKIEI, HCMCEJGHNCJ, EHMEODELCMC);
 		}
 
-		static ::System::Int32 PackSpanDataToTop(::System::Int16 a1, ::System::Int32 a2)
+		static ::System::Int32 PackSpanDataToTop(::System::Int16 LJBPECKCCEA, ::System::Int32 FHMHCDPLGPG)
 		{
-			return ((::System::Int32(*)(::System::Int16, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_PACKSPANDATATOTOP_OFFSET))(a1, a2);
+			return ((::System::Int32(*)(::System::Int16, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_PACKSPANDATATOTOP_OFFSET))(LJBPECKCCEA, FHMHCDPLGPG);
 		}
 
 		::System::Void OnEnable()
@@ -195,9 +202,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_UPDATE_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 GetUnScalePos(::UnityEngine::Vector3 a1)
+		::UnityEngine::Vector3 GetUnScalePos(::UnityEngine::Vector3 CKPGOKHECCH)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_GETUNSCALEPOS_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_GETUNSCALEPOS_OFFSET))(this, CKPGOKHECCH);
 		}
 
 		::System::Void ResetVoxel()
@@ -205,179 +212,179 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_RESETVOXEL_OFFSET))(this);
 		}
 
-		::System::Boolean GetVoxel(::UnityEngine::Vector3 a1, ::System::Collections::Generic::List_1<::System::Byte>*& a2)
+		::System::Boolean GetVoxel(::UnityEngine::Vector3 CKPGOKHECCH, ::System::Collections::Generic::List_1<::System::Byte>*& PILELGPBCLL)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::System::Byte>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_GETVOXEL_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::System::Byte>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_GETVOXEL_OFFSET))(this, CKPGOKHECCH, PILELGPBCLL);
 		}
 
-		::System::Boolean FetchVoxelWithLayer(::UnityEngine::Vector3 a1, ::System::Byte& a2, ::System::Byte& a3)
+		::System::Boolean FetchVoxelWithLayer(::UnityEngine::Vector3 CKPGOKHECCH, ::System::Byte& PJDMCGIFAPI, ::System::Byte& FJIPMELDMDF)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Byte&, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Byte&, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_OFFSET))(this, CKPGOKHECCH, PJDMCGIFAPI, FJIPMELDMDF);
 		}
 
-		::System::Boolean FetchVoxelWithLayer_RawArray(::UnityEngine::Vector3 a1, ::System::Byte& a2, ::System::Byte& a3)
+		::System::Boolean FetchVoxelWithLayer_RawArray(::UnityEngine::Vector3 CKPGOKHECCH, ::System::Byte& PJDMCGIFAPI, ::System::Byte& FJIPMELDMDF)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Byte&, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_RAWARRAY_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Byte&, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_RAWARRAY_OFFSET))(this, CKPGOKHECCH, PJDMCGIFAPI, FJIPMELDMDF);
 		}
 
-		::System::Void AddDynamicObjectVoxel(::MoleMole::MonoDynamicObjectVoxel* a1)
+		::System::Void AddDynamicObjectVoxel(::MoleMole::MonoDynamicObjectVoxel* LJACIKAEILI)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoDynamicObjectVoxel*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_ADDDYNAMICOBJECTVOXEL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoDynamicObjectVoxel*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_ADDDYNAMICOBJECTVOXEL_OFFSET))(this, LJACIKAEILI);
 		}
 
-		::System::Void RemoveDynamicObjectVoxel(::MoleMole::MonoDynamicObjectVoxel* a1)
+		::System::Void RemoveDynamicObjectVoxel(::MoleMole::MonoDynamicObjectVoxel* LJACIKAEILI)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoDynamicObjectVoxel*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_REMOVEDYNAMICOBJECTVOXEL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoDynamicObjectVoxel*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_REMOVEDYNAMICOBJECTVOXEL_OFFSET))(this, LJACIKAEILI);
 		}
 
-		::System::Boolean FetchVoxelWithLayer_CompressedArray(::UnityEngine::Vector3 a1, ::System::Byte& a2, ::System::Byte& a3)
+		::System::Boolean FetchVoxelWithLayer_CompressedArray(::UnityEngine::Vector3 CKPGOKHECCH, ::System::Byte& PJDMCGIFAPI, ::System::Byte& FJIPMELDMDF)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Byte&, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_COMPRESSEDARRAY_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Byte&, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_COMPRESSEDARRAY_OFFSET))(this, CKPGOKHECCH, PJDMCGIFAPI, FJIPMELDMDF);
 		}
 
-		::System::Boolean FetchVoxelWithLayer_Oct(::UnityEngine::Vector3 a1, ::System::Byte& a2, ::System::Byte& a3)
+		::System::Boolean FetchVoxelWithLayer_Oct(::UnityEngine::Vector3 CKPGOKHECCH, ::System::Byte& PJDMCGIFAPI, ::System::Byte& FJIPMELDMDF)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Byte&, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_OCT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Byte&, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_FETCHVOXELWITHLAYER_OCT_OFFSET))(this, CKPGOKHECCH, PJDMCGIFAPI, FJIPMELDMDF);
 		}
 
-		::System::Void Method_5_9681042564541CD6()
+		::System::Void FNADNKNOBAK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_FNADNKNOBAK_OFFSET))(this);
 		}
 
-		::System::Void Method_5_151E25A63D14DDB0()
+		::UnityEngine::ComputeBuffer* JGJFJHDCEEJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_151E25A63D14DDB0_OFFSET))(this);
+			return ((::UnityEngine::ComputeBuffer*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_JGJFJHDCEEJ_OFFSET))(this);
 		}
 
-		::UnityEngine::Mesh* Method_5_0927CBCFB2A51C9A()
+		::System::Void HHCBLPDCJNA(::UnityEngine::ComputeShader* EGJFDCDEINP)
 		{
-			return ((::UnityEngine::Mesh*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_0927CBCFB2A51C9A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ComputeShader*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_HHCBLPDCJNA_OFFSET))(this, EGJFDCDEINP);
 		}
 
-		::UnityEngine::ComputeBuffer* Method_5_E05A16F4C3178177()
+		::System::Void MFCMKKHOILI()
 		{
-			return ((::UnityEngine::ComputeBuffer*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_E05A16F4C3178177_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_MFCMKKHOILI_OFFSET))(this);
 		}
 
-		::System::Void Method_5_050E70FEDB783306(::System::String* a1)
+		::System::Void EGGMEAGKBHA(::System::String* LCEGOBBEECM, ::System::Boolean HJHAMICPOJB)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_050E70FEDB783306_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_EGGMEAGKBHA_OFFSET))(this, LCEGOBBEECM, HJHAMICPOJB);
 		}
 
-		static ::System::Numerics::Vector3 Method_5_7F576417C636CD3F(::UnityEngine::Vector3 a1)
+		::UnityEngine::Mesh* NNMLOACDCDF()
 		{
-			return ((::System::Numerics::Vector3(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_7F576417C636CD3F_OFFSET))(a1);
+			return ((::UnityEngine::Mesh*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_NNMLOACDCDF_OFFSET))(this);
 		}
 
-		::System::Void Method_5_19FB9C4218A5B74F(::UnityEngine::ComputeShader* a1)
+		::System::Boolean EMPHMNMDPNK()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::ComputeShader*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_19FB9C4218A5B74F_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_EMPHMNMDPNK_OFFSET))(this);
 		}
 
-		::System::Void Method_5_904639FDEF8DA904(::MoleMole::MonoTerrainZoneVoxel_VoxelData* a1)
+		::System::Void MPOJPEPOAOL()
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoTerrainZoneVoxel_VoxelData*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_904639FDEF8DA904_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_MPOJPEPOAOL_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_5_FEA241CA014F8043(::UnityEngine::Vector3 a1)
+		::System::Void ODOAPLFHCCC()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_FEA241CA014F8043_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_ODOAPLFHCCC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_28EB11670A8E5A86()
+		::System::Void OKHBPJHGPLP(::System::Boolean FBILHHBPEHD)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_28EB11670A8E5A86_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_OKHBPJHGPLP_OFFSET))(this, FBILHHBPEHD);
 		}
 
-		::System::Void Method_5_CA373AA1C7054598()
+		::System::Void CFNGPFKIFBH(::System::Byte LJBPECKCCEA, ::UnityEngine::Vector3 CKPGOKHECCH)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Byte, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_CFNGPFKIFBH_OFFSET))(this, LJBPECKCCEA, CKPGOKHECCH);
 		}
 
-		::System::Void Method_5_19CCC07C980409E4(::System::Boolean a1)
+		::System::Void IFKNLGPGBCN(::MoleMole::MonoTerrainZoneVoxel_VoxelData* ICCPJMAELND)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_19CCC07C980409E4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoTerrainZoneVoxel_VoxelData*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_IFKNLGPGBCN_OFFSET))(this, ICCPJMAELND);
 		}
 
-		::System::Void Method_5_02416282B55EC5F3()
+		::System::Void KBBMEMOKAEL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_02416282B55EC5F3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_KBBMEMOKAEL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_7744894CEC41BF06()
+		::System::Void MKGGEIBDIJG(::System::Object* HEAJMIGHEHG)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_7744894CEC41BF06_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_MKGGEIBDIJG_OFFSET))(this, HEAJMIGHEHG);
 		}
 
-		static ::UnityEngine::Vector3 Method_5_7F576417C636CD3F_1(::System::Numerics::Vector3 a1)
+		::System::Void EGGMEAGKBHA_1(::System::String* NGHLLDAJJJE)
 		{
-			return ((::UnityEngine::Vector3(*)(::System::Numerics::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_7F576417C636CD3F_1_OFFSET))(a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_EGGMEAGKBHA_1_OFFSET))(this, NGHLLDAJJJE);
 		}
 
-		::System::Void Method_5_C0B9D1B2E5611154(::UnityEngine::Vector3 a1)
+		::System::Boolean GMECMEFOPAA(::System::Byte& MBNJJODLBFK)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_C0B9D1B2E5611154_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_GMECMEFOPAA_OFFSET))(this, MBNJJODLBFK);
 		}
 
-		::System::Boolean Method_5_72E9BF2CBB9F3970(::System::Byte& a1)
+		::System::Void EAKMJJAPJHH(::UnityEngine::Vector3 CKPGOKHECCH)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Byte&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_72E9BF2CBB9F3970_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_EAKMJJAPJHH_OFFSET))(this, CKPGOKHECCH);
 		}
 
-		::System::Void Method_5_464F9487BF0D77F8(::System::Object* a1)
+		static ::System::Numerics::Vector3 KDKOCNKFDMK(::UnityEngine::Vector3 HFMHOELKCAJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_464F9487BF0D77F8_OFFSET))(this, a1);
+			return ((::System::Numerics::Vector3(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_KDKOCNKFDMK_OFFSET))(HFMHOELKCAJ);
 		}
 
-		::System::Void Method_5_7DB49B5407C8FD68()
+		::System::Void BLPACEFLCDN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_7DB49B5407C8FD68_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_BLPACEFLCDN_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_F3F1A00B2E67355E(::UnityEngine::Vector3& a1)
+		static ::System::Void ACLMIIKMPIA(::UnityEngine::Vector3& HLFFCMIFFIB)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_F3F1A00B2E67355E_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_ACLMIIKMPIA_OFFSET))(HLFFCMIFFIB);
 		}
 
-		::System::Void Method_5_BE54D43753BC5B5F(::UnityEngine::Object* a1, ::Foundation::AssetRequestHandle a2)
+		::System::Void LICEFPEPFFJ(::UnityEngine::Object* NGLKIKLLLFL, ::Foundation::AssetRequestHandle PHHDHIBOCKA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_BE54D43753BC5B5F_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_LICEFPEPFFJ_OFFSET))(this, NGLKIKLLLFL, PHHDHIBOCKA);
 		}
 
-		::System::Void Method_5_CA373AA1C7054598_1()
+		static ::UnityEngine::Vector3 KAPDOGMKOFM(::System::Numerics::Vector3 HFMHOELKCAJ)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_CA373AA1C7054598_1_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::System::Numerics::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_KAPDOGMKOFM_OFFSET))(HFMHOELKCAJ);
 		}
 
-		::System::Void Method_5_DCD71EDAFE07637E(::UnityEngine::Object* a1, ::Foundation::AssetRequestHandle a2)
+		::System::Void HLMELOGOJOD(::UnityEngine::Object* NGLKIKLLLFL, ::Foundation::AssetRequestHandle PHHDHIBOCKA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_DCD71EDAFE07637E_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*, ::Foundation::AssetRequestHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_HLMELOGOJOD_OFFSET))(this, NGLKIKLLLFL, PHHDHIBOCKA);
 		}
 
-		::System::Void Method_5_BFB8545B28B0DAAD(::System::Byte a1, ::UnityEngine::Vector3 a2)
+		::System::Void DLNIAHNJGEA()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_BFB8545B28B0DAAD_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_DLNIAHNJGEA_OFFSET))(this);
 		}
 
-		::System::Void Method_5_6424DA16BE1ACD1D(::System::String* a1, ::System::Boolean a2)
+		::System::Void BBGBCMHBNND()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_6424DA16BE1ACD1D_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_BBGBCMHBNND_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_4DA6D4A624E42CAB()
+		::UnityEngine::ComputeBuffer* GKOCBBPAJLE()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_4DA6D4A624E42CAB_OFFSET))(this);
+			return ((::UnityEngine::ComputeBuffer*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_GKOCBBPAJLE_OFFSET))(this);
 		}
 
-		::UnityEngine::ComputeBuffer* Method_5_E05A16F4C3178177_1()
+		::System::Void JAFAACAOEAK()
 		{
-			return ((::UnityEngine::ComputeBuffer*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_E05A16F4C3178177_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_JAFAACAOEAK_OFFSET))(this);
 		}
 
-		::System::Void Method_5_51CFFE2AF748ECD7()
+		::UnityEngine::Vector3 NIAMOGANEPN(::UnityEngine::Vector3 CKPGOKHECCH)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_METHOD_5_51CFFE2AF748ECD7_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONEVOXEL_NIAMOGANEPN_OFFSET))(this, CKPGOKHECCH);
 		}
 	};
 }

@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ACLDatabaseLRUSweep_TypeDefinitionIndex = 5672;
+	inline static constexpr unsigned int PostLateUpdate_ACLDatabaseLRUSweep_TypeDefinitionIndex = 5676;
 
-	struct alignas(1) PostLateUpdate_ACLDatabaseLRUSweep
+	struct alignas(4) PostLateUpdate_ACLDatabaseLRUSweep
 	{
 	};
 }

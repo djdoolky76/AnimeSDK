@@ -11,57 +11,57 @@ namespace System::Reflection { class Assembly; }
 namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MemberInfo; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_COMPARETYPE_OFFSET UNITYSDK_OFFSET(0x1E467B70)
-#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1E466DA0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETALLFIELDS_OFFSET UNITYSDK_OFFSET(0x1E466E50)
-#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETFIELDS_OFFSET UNITYSDK_OFFSET(0x1E467120)
-#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETNAME_OFFSET UNITYSDK_OFFSET(0x1E467C30)
-#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETPUBLICFIELDS_OFFSET UNITYSDK_OFFSET(0x1E467470)
-#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETSERIALIZABLEFIELDS_1_OFFSET UNITYSDK_OFFSET(0x1E467740)
-#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETSERIALIZABLEFIELDS_OFFSET UNITYSDK_OFFSET(0x1E45D840)
-#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETTYPEWITHINASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1E4571B0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_HASATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E45E170)
-#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E467E30)
-#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E467E20)
+#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_COMPARETYPE_OFFSET UNITYSDK_OFFSET(0x1E6B1A60)
+#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1E6B0C70)
+#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETALLFIELDS_OFFSET UNITYSDK_OFFSET(0x1E6B0D20)
+#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETFIELDS_OFFSET UNITYSDK_OFFSET(0x1E6B1000)
+#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETNAME_OFFSET UNITYSDK_OFFSET(0x1E6B1B20)
+#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETPUBLICFIELDS_OFFSET UNITYSDK_OFFSET(0x1E6B1350)
+#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETSERIALIZABLEFIELDS_1_OFFSET UNITYSDK_OFFSET(0x1E6B1630)
+#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETSERIALIZABLEFIELDS_OFFSET UNITYSDK_OFFSET(0x1E6A76A0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_GETTYPEWITHINASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1E6A1020)
+#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY_HASATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E6A7FE0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6B1D20)
+#define BEHAVIORDESIGNER_RUNTIME_TASKUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B1D10)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int TaskUtility_TypeDefinitionIndex = 33904;
+	inline static constexpr unsigned int TaskUtility_TypeDefinitionIndex = 33450;
 
 	class TaskUtility : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Reflection::Assembly*>** StaticGet_loadedAssemblies()
-		{
-			return (::System::Collections::Generic::List_1<::System::Reflection::Assembly*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x28CE0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::Reflection::FieldInfo*>*>** StaticGet_publicFieldsLookup()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::Reflection::FieldInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x28CE8);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::Reflection::FieldInfo*>*>** StaticGet_allFieldsLookup()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::Reflection::FieldInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x28CF0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::String*>** StaticGet_memberNameLookup()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x28CF8);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::Reflection::FieldInfo*>*>** StaticGet_serializableFieldsLookup()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::Reflection::FieldInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x28D00);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::FieldInfo*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Boolean>*>** StaticGet_hasFieldLookup()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::FieldInfo*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x28D08);
-		}
-		static ::Il2CppArray<::System::Char>** StaticGet_TrimCharacters()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x28D10);
+			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x29F20);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>** StaticGet_typeLookup()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x28D18);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x29F28);
+		}
+		static ::Il2CppArray<::System::Char>** StaticGet_TrimCharacters()
+		{
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x29F30);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::Reflection::FieldInfo*>*>** StaticGet_allFieldsLookup()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::Reflection::FieldInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x29F38);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::Reflection::FieldInfo*>*>** StaticGet_publicFieldsLookup()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::Reflection::FieldInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x29F40);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::Reflection::FieldInfo*>*>** StaticGet_serializableFieldsLookup()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::Reflection::FieldInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x29F48);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Reflection::FieldInfo*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Boolean>*>** StaticGet_hasFieldLookup()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Reflection::FieldInfo*, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x29F50);
+		}
+		static ::System::Collections::Generic::List_1<::System::Reflection::Assembly*>** StaticGet_loadedAssemblies()
+		{
+			return (::System::Collections::Generic::List_1<::System::Reflection::Assembly*>**)Il2CppClass::FromTypeDefinitionIndex(TaskUtility_TypeDefinitionIndex)->GetStaticField(0x29F58);
 		}
 
 		::System::Void _ctor()

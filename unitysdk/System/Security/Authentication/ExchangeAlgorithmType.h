@@ -3,7 +3,7 @@
 
 namespace System::Security::Authentication
 {
-	inline static constexpr unsigned int ExchangeAlgorithmType_TypeDefinitionIndex = 3146;
+	inline static constexpr unsigned int ExchangeAlgorithmType_TypeDefinitionIndex = 3145;
 
 	enum class ExchangeAlgorithmType : ::System::Int32
 	{

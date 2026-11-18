@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FieldPrecision_TypeDefinitionIndex = 18714;
+	inline static constexpr unsigned int FieldPrecision_TypeDefinitionIndex = 17865;
 
 	enum class FieldPrecision : ::System::Int32
 	{

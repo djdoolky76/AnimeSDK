@@ -7,47 +7,47 @@ namespace System::Runtime::CompilerServices { template <typename T1, typename T2
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
-#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_EXPANDPRIME_OFFSET UNITYSDK_OFFSET(0x1F0184F0)
-#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_GETENTROPY_OFFSET UNITYSDK_OFFSET(0x1F018940)
-#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_GETEQUALITYCOMPARERFORSERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1F018810)
-#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_GETMINPRIME_OFFSET UNITYSDK_OFFSET(0x1F018440)
-#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_GETPRIME_OFFSET UNITYSDK_OFFSET(0x1F0181D0)
-#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_GETRANDOMIZEDEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1F018630)
-#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_GET_SERIALIZATIONINFOTABLE_OFFSET UNITYSDK_OFFSET(0x1F017FA0)
-#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_ISPRIME_OFFSET UNITYSDK_OFFSET(0x1F018120)
-#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_ISWELLKNOWNEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1F018590)
-#define FOUNDATION_DATASTRUCTURES_HASHHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F018C10)
+#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_EXPANDPRIME_OFFSET UNITYSDK_OFFSET(0x1F4D5760)
+#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_GETENTROPY_OFFSET UNITYSDK_OFFSET(0x1F4D5BB0)
+#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_GETEQUALITYCOMPARERFORSERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1F4D5A80)
+#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_GETMINPRIME_OFFSET UNITYSDK_OFFSET(0x1F4D56B0)
+#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_GETPRIME_OFFSET UNITYSDK_OFFSET(0x1F4D5440)
+#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_GETRANDOMIZEDEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1F4D58A0)
+#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_GET_SERIALIZATIONINFOTABLE_OFFSET UNITYSDK_OFFSET(0x1F4D5210)
+#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_ISPRIME_OFFSET UNITYSDK_OFFSET(0x1F4D5390)
+#define FOUNDATION_DATASTRUCTURES_HASHHELPERS_ISWELLKNOWNEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1F4D5800)
+#define FOUNDATION_DATASTRUCTURES_HASHHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4D5E80)
 
 namespace Foundation::DataStructures
 {
-	inline static constexpr unsigned int HashHelpers_TypeDefinitionIndex = 8179;
+	inline static constexpr unsigned int HashHelpers_TypeDefinitionIndex = 8058;
 
 	class HashHelpers : public ::System::Object
 	{
 	public:
+		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>** StaticGet_s_SerializationInfoTable()
+		{
+			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x72F0);
+		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_data()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x7440);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x72F8);
 		}
 		static ::System::Security::Cryptography::RandomNumberGenerator** StaticGet_rng()
 		{
-			return (::System::Security::Cryptography::RandomNumberGenerator**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x7448);
-		}
-		static ::System::Object** StaticGet_lockObj()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x7450);
+			return (::System::Security::Cryptography::RandomNumberGenerator**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x7300);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_primes()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x7458);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x7308);
 		}
-		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>** StaticGet_s_SerializationInfoTable()
+		static ::System::Object** StaticGet_lockObj()
 		{
-			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x7460);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x7310);
 		}
 		static ::System::Int32* StaticGet_currentIndex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x3AB0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x3860);
 		}
 		// static const ::System::Int32 HashCollisionThreshold = 0x64; // 0x0
 		// static const ::System::Int32 MaxPrimeArrayLength = 0x7FEFFFFD; // 0x0

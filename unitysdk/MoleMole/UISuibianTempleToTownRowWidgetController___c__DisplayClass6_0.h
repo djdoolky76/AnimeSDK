@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_1016;
+class FMIGBKDOJFD;
 namespace MoleMole { class UISuibianTempleToTownRowWidgetController; }
 
-#define MOLEMOLE_UISUIBIANTEMPLETOTOWNROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10EED960)
-#define MOLEMOLE_UISUIBIANTEMPLETOTOWNROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x10EED970)
-#define MOLEMOLE_UISUIBIANTEMPLETOTOWNROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x10EED9A0)
+#define MOLEMOLE_UISUIBIANTEMPLETOTOWNROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13B18890)
+#define MOLEMOLE_UISUIBIANTEMPLETOTOWNROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x13B188A0)
+#define MOLEMOLE_UISUIBIANTEMPLETOTOWNROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x13B188D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleToTownRowWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 68958;
+	inline static constexpr unsigned int UISuibianTempleToTownRowWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 74704;
 
 	class UISuibianTempleToTownRowWidgetController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_1016* template_; // 0x10
+		::FMIGBKDOJFD* template_; // 0x10
 		::MoleMole::UISuibianTempleToTownRowWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()

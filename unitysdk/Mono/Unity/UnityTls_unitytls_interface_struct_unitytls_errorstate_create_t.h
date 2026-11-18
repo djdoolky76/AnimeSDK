@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_errorstate.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/Mono/Unity/UnityTls_unitytls_errorstate.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_CREATE_T_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CBEE440)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_CREATE_T_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CBEE470)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_CREATE_T_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CBEE130)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_CREATE_T__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBEE110)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_CREATE_T_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D0E32B0)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_CREATE_T_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D0E32E0)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_CREATE_T_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D0E2F90)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_CREATE_T__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E2F80)
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_errorstate_create_t_TypeDefinitionIndex = 2548;
+	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_errorstate_create_t_TypeDefinitionIndex = 2547;
 
 	class UnityTls_unitytls_interface_struct_unitytls_errorstate_create_t : public ::System::MulticastDelegate
 	{

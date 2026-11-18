@@ -4,41 +4,40 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RootMotion::FinalIK { class IKSolverVR_Arm; }
-namespace RootMotion::FinalIK { class IKSolverVR_Leg; }
 namespace RootMotion::FinalIK { class IKSolverVR_VirtualBone; }
+namespace System { class Object; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_ADJUSTCHESTBYHANDS_OFFSET UNITYSDK_OFFSET(0x1F3D1930)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_APPLYOFFSETS_OFFSET UNITYSDK_OFFSET(0x1F3D0900)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_BEND_1_OFFSET UNITYSDK_OFFSET(0x1F3D3860)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_BEND_OFFSET UNITYSDK_OFFSET(0x1F3D3DC0)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_CALCULATECHESTTARGETROTATION_OFFSET UNITYSDK_OFFSET(0x1F3D13B0)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_FABRIKPASS_OFFSET UNITYSDK_OFFSET(0x1F3D3610)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_ANCHORRELATIVETOHEAD_OFFSET UNITYSDK_OFFSET(0x1F3CE6C0)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_ANCHORROTATION_OFFSET UNITYSDK_OFFSET(0x1F3CE6A0)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_CHEST_OFFSET UNITYSDK_OFFSET(0x1F3CE5B0)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_FIRSTSPINEBONE_OFFSET UNITYSDK_OFFSET(0x1F3CE570)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_HEAD_OFFSET UNITYSDK_OFFSET(0x1F3CE620)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_NECK_OFFSET UNITYSDK_OFFSET(0x1F3CE660)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_PELVIS_OFFSET UNITYSDK_OFFSET(0x1F3CE530)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_INVERSETRANSLATETOHEAD_OFFSET UNITYSDK_OFFSET(0x1F3D3C70)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_LIMITPELVISPOSITION_OFFSET UNITYSDK_OFFSET(0x1F3D49E0)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_ONREAD_OFFSET UNITYSDK_OFFSET(0x1F3CE6E0)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_PRESOLVE_OFFSET UNITYSDK_OFFSET(0x1F3CFB40)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_RESETOFFSETS_OFFSET UNITYSDK_OFFSET(0x1F3D4960)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_SET_ANCHORRELATIVETOHEAD_OFFSET UNITYSDK_OFFSET(0x1F3CE6D0)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_SET_ANCHORROTATION_OFFSET UNITYSDK_OFFSET(0x1F3CE6B0)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_SOLVEPELVIS_OFFSET UNITYSDK_OFFSET(0x1F3D4140)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_SOLVE_OFFSET UNITYSDK_OFFSET(0x1F3D20C0)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_TRANSLATEPELVIS_OFFSET UNITYSDK_OFFSET(0x1F3D2DC0)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_WRITE_OFFSET UNITYSDK_OFFSET(0x1F3D4630)
-#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3D4D70)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_ADJUSTCHESTBYHANDS_OFFSET UNITYSDK_OFFSET(0x1F7E6100)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_APPLYOFFSETS_OFFSET UNITYSDK_OFFSET(0x1F7E50D0)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_BEND_1_OFFSET UNITYSDK_OFFSET(0x1F7E8030)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_BEND_OFFSET UNITYSDK_OFFSET(0x1F7E8590)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_CALCULATECHESTTARGETROTATION_OFFSET UNITYSDK_OFFSET(0x1F7E5B80)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_FABRIKPASS_OFFSET UNITYSDK_OFFSET(0x1F7E7DE0)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_ANCHORRELATIVETOHEAD_OFFSET UNITYSDK_OFFSET(0x1F7E2E90)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_ANCHORROTATION_OFFSET UNITYSDK_OFFSET(0x1F7E2E70)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_CHEST_OFFSET UNITYSDK_OFFSET(0x1F7E2D80)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_FIRSTSPINEBONE_OFFSET UNITYSDK_OFFSET(0x1F7E2D40)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_HEAD_OFFSET UNITYSDK_OFFSET(0x1F7E2DF0)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_NECK_OFFSET UNITYSDK_OFFSET(0x1F7E2E30)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_GET_PELVIS_OFFSET UNITYSDK_OFFSET(0x1F7E2D00)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_INVERSETRANSLATETOHEAD_OFFSET UNITYSDK_OFFSET(0x1F7E8440)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_LIMITPELVISPOSITION_OFFSET UNITYSDK_OFFSET(0x1F7E91B0)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_ONREAD_OFFSET UNITYSDK_OFFSET(0x1F7E2EB0)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_PRESOLVE_OFFSET UNITYSDK_OFFSET(0x1F7E4310)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_RESETOFFSETS_OFFSET UNITYSDK_OFFSET(0x1F7E9130)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_SET_ANCHORRELATIVETOHEAD_OFFSET UNITYSDK_OFFSET(0x1F7E2EA0)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_SET_ANCHORROTATION_OFFSET UNITYSDK_OFFSET(0x1F7E2E80)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_SOLVEPELVIS_OFFSET UNITYSDK_OFFSET(0x1F7E8910)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_SOLVE_OFFSET UNITYSDK_OFFSET(0x1F7E6890)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_TRANSLATEPELVIS_OFFSET UNITYSDK_OFFSET(0x1F7E7590)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_WRITE_OFFSET UNITYSDK_OFFSET(0x1F7E8E00)
+#define ROOTMOTION_FINALIK_IKSOLVERVR_SPINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7E9540)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolverVR_Spine_TypeDefinitionIndex = 38949;
+	inline static constexpr unsigned int IKSolverVR_Spine_TypeDefinitionIndex = 37009;
 
 	class IKSolverVR_Spine : public ::RootMotion::FinalIK::IKSolverVR_BodyPart
 	{
@@ -51,10 +50,12 @@ namespace RootMotion::FinalIK
 		::System::Single useAnimatedHeadHeightWeight; // 0x60
 		::System::Single useAnimatedHeadHeightRange; // 0x64
 		::System::Single animatedHeadHeightBlend; // 0x68
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* pelvisTarget; // 0x70
 		::System::Single pelvisPositionWeight; // 0x78
 		::System::Single pelvisRotationWeight; // 0x7C
 		::System::Single maintainPelvisPosition; // 0x80
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Transform* chestGoal; // 0x88
 		::System::Single chestGoalWeight; // 0x90
 		::System::Single chestClampWeight; // 0x94
@@ -97,6 +98,7 @@ namespace RootMotion::FinalIK
 		::System::Boolean hasChest; // 0x218
 		::System::Boolean hasNeck; // 0x219
 		::System::Boolean hasLegs; // 0x21A
+		::System::Byte _padding2[0x1];
 		::System::Single headHeight; // 0x21C
 		::System::Single sizeMlp; // 0x220
 		::UnityEngine::Vector3 chestForward; // 0x224
@@ -166,14 +168,14 @@ namespace RootMotion::FinalIK
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_APPLYOFFSETS_OFFSET))(this, scale);
 		}
 
-		::System::Void CalculateChestTargetRotation(::RootMotion::FinalIK::IKSolverVR_VirtualBone* rootBone, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Arm*>* arms)
+		::System::Void CalculateChestTargetRotation(::RootMotion::FinalIK::IKSolverVR_VirtualBone* rootBone, ::Il2CppArray<::System::Object*>* arms)
 		{
-			return ((::System::Void(*)(::PVOID, ::RootMotion::FinalIK::IKSolverVR_VirtualBone*, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Arm*>*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_CALCULATECHESTTARGETROTATION_OFFSET))(this, rootBone, arms);
+			return ((::System::Void(*)(::PVOID, ::RootMotion::FinalIK::IKSolverVR_VirtualBone*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_CALCULATECHESTTARGETROTATION_OFFSET))(this, rootBone, arms);
 		}
 
-		::System::Void Solve(::UnityEngine::Animator* animator, ::RootMotion::FinalIK::IKSolverVR_VirtualBone* rootBone, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Leg*>* legs, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Arm*>* arms, ::System::Single scale)
+		::System::Void Solve(::UnityEngine::Animator* animator, ::RootMotion::FinalIK::IKSolverVR_VirtualBone* rootBone, ::Il2CppArray<::System::Object*>* legs, ::Il2CppArray<::System::Object*>* arms, ::System::Single scale)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::RootMotion::FinalIK::IKSolverVR_VirtualBone*, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Leg*>*, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Arm*>*, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_SOLVE_OFFSET))(this, animator, rootBone, legs, arms, scale);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::RootMotion::FinalIK::IKSolverVR_VirtualBone*, ::Il2CppArray<::System::Object*>*, ::Il2CppArray<::System::Object*>*, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_SOLVE_OFFSET))(this, animator, rootBone, legs, arms, scale);
 		}
 
 		::System::Void FABRIKPass(::UnityEngine::Vector3 animatedPelvisPos, ::UnityEngine::Vector3 rootUp, ::System::Single weight)
@@ -196,34 +198,34 @@ namespace RootMotion::FinalIK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_RESETOFFSETS_OFFSET))(this);
 		}
 
-		::System::Void AdjustChestByHands(::UnityEngine::Quaternion& chestTargetRotation, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Arm*>* arms)
+		::System::Void AdjustChestByHands(::UnityEngine::Quaternion& chestTargetRotation, ::Il2CppArray<::System::Object*>* arms)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion&, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Arm*>*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_ADJUSTCHESTBYHANDS_OFFSET))(this, chestTargetRotation, arms);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion&, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_ADJUSTCHESTBYHANDS_OFFSET))(this, chestTargetRotation, arms);
 		}
 
-		::System::Void InverseTranslateToHead(::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Leg*>* legs, ::System::Boolean limited, ::System::Boolean useCurrentLegMag, ::UnityEngine::Vector3 offset, ::System::Single w)
+		::System::Void InverseTranslateToHead(::Il2CppArray<::System::Object*>* legs, ::System::Boolean limited, ::System::Boolean useCurrentLegMag, ::UnityEngine::Vector3 offset, ::System::Single w)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Leg*>*, ::System::Boolean, ::System::Boolean, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_INVERSETRANSLATETOHEAD_OFFSET))(this, legs, limited, useCurrentLegMag, offset, w);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::System::Boolean, ::System::Boolean, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_INVERSETRANSLATETOHEAD_OFFSET))(this, legs, limited, useCurrentLegMag, offset, w);
 		}
 
-		::System::Void TranslatePelvis(::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Leg*>* legs, ::UnityEngine::Vector3 deltaPosition, ::UnityEngine::Quaternion deltaRotation, ::System::Single scale)
+		::System::Void TranslatePelvis(::Il2CppArray<::System::Object*>* legs, ::UnityEngine::Vector3 deltaPosition, ::UnityEngine::Quaternion deltaRotation, ::System::Single scale)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Leg*>*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_TRANSLATEPELVIS_OFFSET))(this, legs, deltaPosition, deltaRotation, scale);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_TRANSLATEPELVIS_OFFSET))(this, legs, deltaPosition, deltaRotation, scale);
 		}
 
-		::UnityEngine::Vector3 LimitPelvisPosition(::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Leg*>* legs, ::UnityEngine::Vector3 pelvisPosition, ::System::Boolean useCurrentLegMag, ::System::Int32 it)
+		::UnityEngine::Vector3 LimitPelvisPosition(::Il2CppArray<::System::Object*>* legs, ::UnityEngine::Vector3 pelvisPosition, ::System::Boolean useCurrentLegMag, ::System::Int32 it)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_Leg*>*, ::UnityEngine::Vector3, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_LIMITPELVISPOSITION_OFFSET))(this, legs, pelvisPosition, useCurrentLegMag, it);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::UnityEngine::Vector3, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_LIMITPELVISPOSITION_OFFSET))(this, legs, pelvisPosition, useCurrentLegMag, it);
 		}
 
-		::System::Void Bend(::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_VirtualBone*>* bones, ::System::Int32 firstIndex, ::System::Int32 lastIndex, ::UnityEngine::Quaternion targetRotation, ::System::Single clampWeight, ::System::Boolean uniformWeight, ::System::Single w)
+		::System::Void Bend(::Il2CppArray<::System::Object*>* bones, ::System::Int32 firstIndex, ::System::Int32 lastIndex, ::UnityEngine::Quaternion targetRotation, ::System::Single clampWeight, ::System::Boolean uniformWeight, ::System::Single w)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_VirtualBone*>*, ::System::Int32, ::System::Int32, ::UnityEngine::Quaternion, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_BEND_OFFSET))(this, bones, firstIndex, lastIndex, targetRotation, clampWeight, uniformWeight, w);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::System::Int32, ::System::Int32, ::UnityEngine::Quaternion, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_BEND_OFFSET))(this, bones, firstIndex, lastIndex, targetRotation, clampWeight, uniformWeight, w);
 		}
 
-		::System::Void Bend_1(::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_VirtualBone*>* bones, ::System::Int32 firstIndex, ::System::Int32 lastIndex, ::UnityEngine::Quaternion targetRotation, ::UnityEngine::Quaternion rotationOffset, ::System::Single clampWeight, ::System::Boolean uniformWeight, ::System::Single w)
+		::System::Void Bend_1(::Il2CppArray<::System::Object*>* bones, ::System::Int32 firstIndex, ::System::Int32 lastIndex, ::UnityEngine::Quaternion targetRotation, ::UnityEngine::Quaternion rotationOffset, ::System::Single clampWeight, ::System::Boolean uniformWeight, ::System::Single w)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RootMotion::FinalIK::IKSolverVR_VirtualBone*>*, ::System::Int32, ::System::Int32, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_BEND_1_OFFSET))(this, bones, firstIndex, lastIndex, targetRotation, rotationOffset, clampWeight, uniformWeight, w);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*, ::System::Int32, ::System::Int32, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERVR_SPINE_BEND_1_OFFSET))(this, bones, firstIndex, lastIndex, targetRotation, rotationOffset, clampWeight, uniformWeight, w);
 		}
 	};
 }

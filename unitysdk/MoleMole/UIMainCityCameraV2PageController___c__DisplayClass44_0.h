@@ -5,18 +5,18 @@
 namespace MoleMole { class UIMainCityCameraV2PageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYCAMERAV2PAGECONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179E51E0)
-#define MOLEMOLE_UIMAINCITYCAMERAV2PAGECONTROLLER___C__DISPLAYCLASS44_0__STATE_PHOTOMODE_END_B__0_OFFSET UNITYSDK_OFFSET(0x179E51F0)
+#define MOLEMOLE_UIMAINCITYCAMERAV2PAGECONTROLLER___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1795F710)
+#define MOLEMOLE_UIMAINCITYCAMERAV2PAGECONTROLLER___C__DISPLAYCLASS44_0__STATE_PHOTOMODE_END_B__0_OFFSET UNITYSDK_OFFSET(0x1795F720)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityCameraV2PageController___c__DisplayClass44_0_TypeDefinitionIndex = 61216;
+	inline static constexpr unsigned int UIMainCityCameraV2PageController___c__DisplayClass44_0_TypeDefinitionIndex = 61651;
 
 	class UIMainCityCameraV2PageController___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMainCityCameraV2PageController* __4__this; // 0x10
-		::System::Action* callback; // 0x18
+		::System::Action* callback; // 0x10
+		::MoleMole::UIMainCityCameraV2PageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

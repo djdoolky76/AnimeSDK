@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/NPCCrowd/Ability/PlayerAvatarDistanceCondition.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/System/Object.h"
-#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_PLAYERAVATARDISTANCECONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0xF6030B0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_PLAYERAVATARDISTANCECONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xF6031F0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_PLAYERAVATARDISTANCECONDITION_LINK_OFFSET UNITYSDK_OFFSET(0xF603180)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_PLAYERAVATARDISTANCECONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0xF603280)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_PLAYERAVATARDISTANCECONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0xE787990)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_PLAYERAVATARDISTANCECONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xE787AD0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_PLAYERAVATARDISTANCECONDITION_LINK_OFFSET UNITYSDK_OFFSET(0xE787A60)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_PLAYERAVATARDISTANCECONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0xE787B60)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_PlayerAvatarDistanceCondition_TypeDefinitionIndex = 90084;
+	inline static constexpr unsigned int VirtualFunctionExtensions_PlayerAvatarDistanceCondition_TypeDefinitionIndex = 67538;
 
 	class VirtualFunctionExtensions_PlayerAvatarDistanceCondition : public ::System::Object
 	{

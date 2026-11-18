@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_175;
+class IFOHGNLIAKH;
 namespace MoleMole { class UIBangkovWishListkRowWidgetController; }
 
-#define MOLEMOLE_UIBANGKOVWISHLISTKROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E481C0)
-#define MOLEMOLE_UIBANGKOVWISHLISTKROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHREWARDITEMS_B__0_OFFSET UNITYSDK_OFFSET(0x18E481D0)
+#define MOLEMOLE_UIBANGKOVWISHLISTKROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17FF9790)
+#define MOLEMOLE_UIBANGKOVWISHLISTKROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHREWARDITEMS_B__0_OFFSET UNITYSDK_OFFSET(0x17FF97A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovWishListkRowWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 77486;
+	inline static constexpr unsigned int UIBangkovWishListkRowWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 54404;
 
 	class UIBangkovWishListkRowWidgetController___c__DisplayClass16_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVWISHLISTKROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RefreshRewardItems_b__0(::Class_0_16E4307DCC419505_175* ctrl)
+		::System::Void _RefreshRewardItems_b__0(::IFOHGNLIAKH* ctrl)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVWISHLISTKROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHREWARDITEMS_B__0_OFFSET))(this, ctrl);
+			return ((::System::Void(*)(::PVOID, ::IFOHGNLIAKH*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVWISHLISTKROWWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHREWARDITEMS_B__0_OFFSET))(this, ctrl);
 		}
 	};
 }

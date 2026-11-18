@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Reflection/Assembly.h"
 #include "unitysdk/System/Reflection/Emit/AssemblyBuilderAccess.h"
+#include "unitysdk/System/Reflection/Assembly.h"
 
 namespace System { class String; }
 namespace System::Reflection { class AssemblyName; }
 namespace System::Reflection::Emit { class ModuleBuilder; }
 
-#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_DEFINEDYNAMICASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1E445200)
-#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_DEFINEDYNAMICMODULE_OFFSET UNITYSDK_OFFSET(0x1E445250)
-#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4452A0)
+#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_DEFINEDYNAMICASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1E6CE100)
+#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER_DEFINEDYNAMICMODULE_OFFSET UNITYSDK_OFFSET(0x1E6CE150)
+#define SYSTEM_REFLECTION_EMIT_ASSEMBLYBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CE1A0)
 
 namespace System::Reflection::Emit
 {

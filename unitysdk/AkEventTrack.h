@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace UnityEngine { class GameObject; }
 
-#define AKEVENTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1ECB3FF0)
-#define AKEVENTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECB41A0)
+#define AKEVENTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1F052D80)
+#define AKEVENTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F052F30)
 
-inline static constexpr unsigned int AkEventTrack_TypeDefinitionIndex = 33786;
+inline static constexpr unsigned int AkEventTrack_TypeDefinitionIndex = 33332;
 
 class AkEventTrack : public ::UnityEngine::Timeline::TrackAsset
 {

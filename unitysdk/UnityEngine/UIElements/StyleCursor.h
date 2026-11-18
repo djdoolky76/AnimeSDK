@@ -7,21 +7,22 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_STYLECURSOR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x97F340)
-#define UNITYENGINE_UIELEMENTS_STYLECURSOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x97F250)
-#define UNITYENGINE_UIELEMENTS_STYLECURSOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x97F350)
-#define UNITYENGINE_UIELEMENTS_STYLECURSOR_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0x325570)
-#define UNITYENGINE_UIELEMENTS_STYLECURSOR_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x97F200)
-#define UNITYENGINE_UIELEMENTS_STYLECURSOR_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D0078E0)
-#define UNITYENGINE_UIELEMENTS_STYLECURSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x97F390)
+#define UNITYENGINE_UIELEMENTS_STYLECURSOR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x8BB780)
+#define UNITYENGINE_UIELEMENTS_STYLECURSOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x8BB690)
+#define UNITYENGINE_UIELEMENTS_STYLECURSOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8BB790)
+#define UNITYENGINE_UIELEMENTS_STYLECURSOR_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0x359320)
+#define UNITYENGINE_UIELEMENTS_STYLECURSOR_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x8BB640)
+#define UNITYENGINE_UIELEMENTS_STYLECURSOR_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D5BCA80)
+#define UNITYENGINE_UIELEMENTS_STYLECURSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8BB7D0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleCursor_TypeDefinitionIndex = 28185;
+	inline static constexpr unsigned int StyleCursor_TypeDefinitionIndex = 27603;
 
-	struct alignas(8) StyleCursor
+	struct alignas(4) StyleCursor
 	{
 		::UnityEngine::UIElements::StyleKeyword m_Keyword; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::UIElements::Cursor m_Value; // 0x18
 		::System::Int32 m_Specificity; // 0x30
 
@@ -35,15 +36,19 @@ namespace UnityEngine::UIElements
 			return ((::UnityEngine::UIElements::StyleKeyword(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECURSOR_GET_KEYWORD_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::UIElements::StyleCursor lhs, ::UnityEngine::UIElements::StyleCursor rhs)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::UIElements::StyleCursor, ::UnityEngine::UIElements::StyleCursor))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECURSOR_OP_EQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::UnityEngine::UIElements::StyleCursor other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleCursor))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECURSOR_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{

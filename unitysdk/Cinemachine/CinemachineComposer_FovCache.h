@@ -2,13 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rect.h"
+#include "unitysdk/Cinemachine/LensSettings.h"
 
-#define CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_SCREENTOFOV_OFFSET UNITYSDK_OFFSET(0xAB56C0)
-#define CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_UPDATECACHE_OFFSET UNITYSDK_OFFSET(0xAB5650)
+#define CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_SCREENTOFOV_OFFSET UNITYSDK_OFFSET(0x99BA10)
+#define CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_UPDATECACHE_OFFSET UNITYSDK_OFFSET(0x99B9A0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineComposer_FovCache_TypeDefinitionIndex = 34699;
+	inline static constexpr unsigned int CinemachineComposer_FovCache_TypeDefinitionIndex = 34245;
 
 	struct alignas(4) CinemachineComposer_FovCache
 	{
@@ -21,12 +22,10 @@ namespace Cinemachine
 		::UnityEngine::Rect mSoftGuideRect; // 0x40
 		::UnityEngine::Rect mHardGuideRect; // 0x50
 
-		/*
 		::System::Void UpdateCache(::Cinemachine::LensSettings lens, ::UnityEngine::Rect softGuide, ::UnityEngine::Rect hardGuide, ::System::Single targetDistance)
 		{
 			return ((::System::Void(*)(::PVOID, ::Cinemachine::LensSettings, ::UnityEngine::Rect, ::UnityEngine::Rect, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOMPOSER_FOVCACHE_UPDATECACHE_OFFSET))(this, lens, softGuide, hardGuide, targetDistance);
 		}
-		*/
 
 		::UnityEngine::Rect ScreenToFOV(::UnityEngine::Rect rScreen, ::System::Single fov, ::System::Single fovH, ::System::Single aspect)
 		{

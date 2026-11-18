@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER_VIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x174575E0)
-#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER_VIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17457620)
-#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER_VIEWMODEL___C__ONCREATEPROPERTY_B__58_0_OFFSET UNITYSDK_OFFSET(0x17457630)
+#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER_VIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x193AC6E0)
+#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER_VIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x193AC720)
+#define MOLEMOLE_UIMINISCAPEMAPPAGE_MAPICONDETAILWIDGETCONTROLLER_VIEWMODEL___C__ONCREATEPROPERTY_B__58_0_OFFSET UNITYSDK_OFFSET(0x193AC730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniScapeMapPage_MapIconDetailWidgetController_ViewModel___c_TypeDefinitionIndex = 43359;
+	inline static constexpr unsigned int UIMiniScapeMapPage_MapIconDetailWidgetController_ViewModel___c_TypeDefinitionIndex = 55632;
 
 	class UIMiniScapeMapPage_MapIconDetailWidgetController_ViewModel___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIMiniScapeMapPage_MapIconDetailWidgetController_ViewModel___c_TypeDefinitionIndex)->GetStaticField(0x4ACC0);
+		}
 		static ::System::Func_1<::System::Boolean>** StaticGet___9__58_0()
 		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIMiniScapeMapPage_MapIconDetailWidgetController_ViewModel___c_TypeDefinitionIndex)->GetStaticField(0x45220);
-		}
-		static ::MoleMole::UIMiniScapeMapPage_MapIconDetailWidgetController_ViewModel___c** StaticGet___9()
-		{
-			return (::MoleMole::UIMiniScapeMapPage_MapIconDetailWidgetController_ViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(UIMiniScapeMapPage_MapIconDetailWidgetController_ViewModel___c_TypeDefinitionIndex)->GetStaticField(0x45228);
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIMiniScapeMapPage_MapIconDetailWidgetController_ViewModel___c_TypeDefinitionIndex)->GetStaticField(0x4ACC8);
 		}
 
 		static ::System::Void _cctor()

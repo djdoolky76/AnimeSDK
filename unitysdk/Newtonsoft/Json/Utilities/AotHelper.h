@@ -4,21 +4,21 @@
 
 namespace System { class Action; }
 
-#define NEWTONSOFT_JSON_UTILITIES_AOTHELPER_ENSURE_OFFSET UNITYSDK_OFFSET(0x1F89F990)
-#define NEWTONSOFT_JSON_UTILITIES_AOTHELPER_ISFALSE_OFFSET UNITYSDK_OFFSET(0x1F89FAC0)
-#define NEWTONSOFT_JSON_UTILITIES_AOTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F89FB30)
-#define NEWTONSOFT_JSON_UTILITIES_AOTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F89FB20)
+#define NEWTONSOFT_JSON_UTILITIES_AOTHELPER_ENSURE_OFFSET UNITYSDK_OFFSET(0x1FCBA9A0)
+#define NEWTONSOFT_JSON_UTILITIES_AOTHELPER_ISFALSE_OFFSET UNITYSDK_OFFSET(0x1FCBAAD0)
+#define NEWTONSOFT_JSON_UTILITIES_AOTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCBAB40)
+#define NEWTONSOFT_JSON_UTILITIES_AOTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCBAB30)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int AotHelper_TypeDefinitionIndex = 7033;
+	inline static constexpr unsigned int AotHelper_TypeDefinitionIndex = 7040;
 
 	class AotHelper : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_s_alwaysFalse()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AotHelper_TypeDefinitionIndex)->GetStaticField(0x32B0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AotHelper_TypeDefinitionIndex)->GetStaticField(0x3230);
 		}
 
 		::System::Void _ctor()

@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace TMPro::SpriteAssetUtilities
 {
-	inline static constexpr unsigned int TexturePacker_JsonArray_Frame_TypeDefinitionIndex = 39925;
+	inline static constexpr unsigned int TexturePacker_JsonArray_Frame_TypeDefinitionIndex = 37925;
 
 	struct alignas(8) TexturePacker_JsonArray_Frame
 	{
@@ -17,6 +17,7 @@ namespace TMPro::SpriteAssetUtilities
 		::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame frame; // 0x18
 		::System::Boolean rotated; // 0x28
 		::System::Boolean trimmed; // 0x29
+		::System::Byte _padding0[0x2];
 		::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame spriteSourceSize; // 0x2C
 		::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize sourceSize; // 0x3C
 		::UnityEngine::Vector2 pivot; // 0x44

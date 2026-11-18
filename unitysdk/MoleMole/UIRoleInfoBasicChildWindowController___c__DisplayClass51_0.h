@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_CAE10C54ABAE6FAF.h"
+#include "unitysdk/OOHBEPCMHMC.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIRoleInfoBasicChildWindowController; }
 
-#define MOLEMOLE_UIROLEINFOBASICCHILDWINDOWCONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A2D390)
-#define MOLEMOLE_UIROLEINFOBASICCHILDWINDOWCONTROLLER___C__DISPLAYCLASS51_0__INITAVATARSCOREDIALOG_B__3_OFFSET UNITYSDK_OFFSET(0x17A2D3A0)
+#define MOLEMOLE_UIROLEINFOBASICCHILDWINDOWCONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179AD420)
+#define MOLEMOLE_UIROLEINFOBASICCHILDWINDOWCONTROLLER___C__DISPLAYCLASS51_0__INITAVATARSCOREDIALOG_B__3_OFFSET UNITYSDK_OFFSET(0x179AD430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleInfoBasicChildWindowController___c__DisplayClass51_0_TypeDefinitionIndex = 63386;
+	inline static constexpr unsigned int UIRoleInfoBasicChildWindowController___c__DisplayClass51_0_TypeDefinitionIndex = 59536;
 
 	class UIRoleInfoBasicChildWindowController___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIRoleInfoBasicChildWindowController* __4__this; // 0x10
-		::Enum_3_CAE10C54ABAE6FAF weaponScoreLevel; // 0x18
-		::Enum_3_CAE10C54ABAE6FAF levelScoreLevel; // 0x1C
-		::System::Int32 index; // 0x20
-		::Enum_3_CAE10C54ABAE6FAF totalScore; // 0x24
-		::Enum_3_CAE10C54ABAE6FAF skillScoreLevel; // 0x28
-		::Enum_3_CAE10C54ABAE6FAF equipScoreLevel; // 0x2C
+		::System::Int32 index; // 0x18
+		::OOHBEPCMHMC equipScoreLevel; // 0x1C
+		::OOHBEPCMHMC weaponScoreLevel; // 0x20
+		::OOHBEPCMHMC skillScoreLevel; // 0x24
+		::OOHBEPCMHMC levelScoreLevel; // 0x28
+		::OOHBEPCMHMC totalScore; // 0x2C
 
 		::System::Void _ctor()
 		{

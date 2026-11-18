@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/LatentActionNode_4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define FLOWCANVAS_NODES_MOVETO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DFC9F70)
-#define FLOWCANVAS_NODES_MOVETO_ONBREAK_OFFSET UNITYSDK_OFFSET(0x1DFCA000)
-#define FLOWCANVAS_NODES_MOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCA020)
+#define FLOWCANVAS_NODES_MOVETO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E3F3010)
+#define FLOWCANVAS_NODES_MOVETO_ONBREAK_OFFSET UNITYSDK_OFFSET(0x1E3F30A0)
+#define FLOWCANVAS_NODES_MOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F30C0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MoveTo_TypeDefinitionIndex = 30211;
+	inline static constexpr unsigned int MoveTo_TypeDefinitionIndex = 30000;
 
-	class MoveTo : public ::FlowCanvas::Nodes::LatentActionNode_4<::UnityEngine::AI::NavMeshAgent*, ::UnityEngine::Vector3, ::System::Single, ::System::Single>
+	class MoveTo
 	{
 	public:
 		::UnityEngine::AI::NavMeshAgent* agent; // 0x60

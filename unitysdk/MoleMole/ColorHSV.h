@@ -1,26 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/MoleMole/ColorHSV_CBPFINCLIAK.h"
+#include "unitysdk/UnityEngine/Color.h"
 
 namespace System { class Object; }
 
-#define MOLEMOLE_COLORHSV_EQUALS_OFFSET UNITYSDK_OFFSET(0x816CD0)
-#define MOLEMOLE_COLORHSV_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x816DD0)
-#define MOLEMOLE_COLORHSV_METHOD_2_0BF8162BD55D7016_OFFSET UNITYSDK_OFFSET(0x150E5190)
-#define MOLEMOLE_COLORHSV_METHOD_2_1B3EDB277B9F7AE7_OFFSET UNITYSDK_OFFSET(0x150E4AE0)
-#define MOLEMOLE_COLORHSV_METHOD_2_4DB3384D86E03AF1_OFFSET UNITYSDK_OFFSET(0x150E52C0)
-#define MOLEMOLE_COLORHSV_METHOD_2_6D0360BD23602584_OFFSET UNITYSDK_OFFSET(0x816EE0)
-#define MOLEMOLE_COLORHSV_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x816E70)
-#define MOLEMOLE_COLORHSV_METHOD_2_9ACADD854D7C1F45_OFFSET UNITYSDK_OFFSET(0x150E4D80)
-#define MOLEMOLE_COLORHSV_METHOD_2_BFE62A4F0DBF4601_OFFSET UNITYSDK_OFFSET(0x150E5210)
-#define MOLEMOLE_COLORHSV_METHOD_2_F307268A8DA4AA0D_OFFSET UNITYSDK_OFFSET(0x150E4B70)
-#define MOLEMOLE_COLORHSV_METHOD_2_F44F79F49F8F2E0B_OFFSET UNITYSDK_OFFSET(0x150E4F30)
-#define MOLEMOLE_COLORHSV__CTOR_1_OFFSET UNITYSDK_OFFSET(0x816CA0)
-#define MOLEMOLE_COLORHSV__CTOR_OFFSET UNITYSDK_OFFSET(0x5CABA0)
+#define MOLEMOLE_COLORHSV_CIBONHMNLEN_OFFSET UNITYSDK_OFFSET(0x19224BD0)
+#define MOLEMOLE_COLORHSV_EQUALS_OFFSET UNITYSDK_OFFSET(0x7DC390)
+#define MOLEMOLE_COLORHSV_FPIFKGGDGEE_OFFSET UNITYSDK_OFFSET(0x192244D0)
+#define MOLEMOLE_COLORHSV_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x7DC490)
+#define MOLEMOLE_COLORHSV_HLPHPBAODIF_OFFSET UNITYSDK_OFFSET(0x7DC530)
+#define MOLEMOLE_COLORHSV_INCFIJKMIGG_OFFSET UNITYSDK_OFFSET(0x19224B50)
+#define MOLEMOLE_COLORHSV_JCIODAGLLGB_OFFSET UNITYSDK_OFFSET(0x19224670)
+#define MOLEMOLE_COLORHSV_JGBGPJACDOG_OFFSET UNITYSDK_OFFSET(0x7DC5A0)
+#define MOLEMOLE_COLORHSV_JPPEEOLOGGP_OFFSET UNITYSDK_OFFSET(0x19224820)
+#define MOLEMOLE_COLORHSV_NCPOIJABFOA_OFFSET UNITYSDK_OFFSET(0x192245C0)
+#define MOLEMOLE_COLORHSV_NOGJIJMACNO_OFFSET UNITYSDK_OFFSET(0x19224AA0)
+#define MOLEMOLE_COLORHSV__CTOR_1_OFFSET UNITYSDK_OFFSET(0x7DC360)
+#define MOLEMOLE_COLORHSV__CTOR_OFFSET UNITYSDK_OFFSET(0x6069B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ColorHSV_TypeDefinitionIndex = 57141;
+	inline static constexpr unsigned int ColorHSV_TypeDefinitionIndex = 60315;
 
 	struct alignas(4) ColorHSV
 	{
@@ -28,21 +30,19 @@ namespace MoleMole
 		::System::Single s; // 0x14
 		::System::Single v; // 0x18
 
-		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		::System::Void _ctor(::System::Single DMIAICJPPDL, ::System::Single EMIKCAHJLGB, ::System::Single HFMHOELKCAJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV__CTOR_OFFSET))(this, DMIAICJPPDL, EMIKCAHJLGB, HFMHOELKCAJ);
 		}
 
-		/*
-		::System::Void _ctor_1(::UnityEngine::Color a1)
+		::System::Void _ctor_1(::UnityEngine::Color JBBFCGAMDHI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV__CTOR_1_OFFSET))(this, JBBFCGAMDHI);
 		}
-		*/
 
-		::System::Boolean Equals(::System::Object* a1)
+		::System::Boolean Equals(::System::Object* EIFONLCJOPG)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_EQUALS_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_EQUALS_OFFSET))(this, EIFONLCJOPG);
 		}
 
 		::System::Int32 GetHashCode()
@@ -51,56 +51,62 @@ namespace MoleMole
 		}
 
 		/*
-		static ::MoleMole::ColorHSV_Struct_2_1C0D1D514F9A1CCA Method_2_1B3EDB277B9F7AE7(::MoleMole::ColorHSV& a1, ::MoleMole::ColorHSV& a2)
+		static ::MoleMole::ColorHSV_CBPFINCLIAK FPIFKGGDGEE(::MoleMole::ColorHSV& FFKBEGIHIGG, ::MoleMole::ColorHSV& CKADGLGJJAB)
 		{
-			return ((::MoleMole::ColorHSV_Struct_2_1C0D1D514F9A1CCA(*)(::MoleMole::ColorHSV&, ::MoleMole::ColorHSV&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_METHOD_2_1B3EDB277B9F7AE7_OFFSET))(a1, a2);
+			return ((::MoleMole::ColorHSV_CBPFINCLIAK(*)(::MoleMole::ColorHSV&, ::MoleMole::ColorHSV&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_FPIFKGGDGEE_OFFSET))(FFKBEGIHIGG, CKADGLGJJAB);
+		}
+		*/
+
+		::System::Int32 HLPHPBAODIF()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_HLPHPBAODIF_OFFSET))(this);
+		}
+
+		/*
+		static ::MoleMole::ColorHSV NCPOIJABFOA(::MoleMole::ColorHSV& EJCBEJMGFAJ, ::MoleMole::ColorHSV& EBFCACIEKBC, ::System::Single IMLLDOHDCNC)
+		{
+			return ((::MoleMole::ColorHSV(*)(::MoleMole::ColorHSV&, ::MoleMole::ColorHSV&, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_NCPOIJABFOA_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC, IMLLDOHDCNC);
 		}
 		*/
 
 		/*
-		static ::MoleMole::ColorHSV Method_2_F307268A8DA4AA0D(::UnityEngine::Color& a1)
+		static ::UnityEngine::Color JCIODAGLLGB(::MoleMole::ColorHSV& NDEHKILJFHA)
 		{
-			return ((::MoleMole::ColorHSV(*)(::UnityEngine::Color&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_METHOD_2_F307268A8DA4AA0D_OFFSET))(a1);
+			return ((::UnityEngine::Color(*)(::MoleMole::ColorHSV&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_JCIODAGLLGB_OFFSET))(NDEHKILJFHA);
 		}
 		*/
 
 		/*
-		static ::UnityEngine::Color Method_2_9ACADD854D7C1F45(::MoleMole::ColorHSV& a1)
+		static ::MoleMole::ColorHSV JPPEEOLOGGP(::UnityEngine::Color& JBBFCGAMDHI)
 		{
-			return ((::UnityEngine::Color(*)(::MoleMole::ColorHSV&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_METHOD_2_9ACADD854D7C1F45_OFFSET))(a1);
+			return ((::MoleMole::ColorHSV(*)(::UnityEngine::Color&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_JPPEEOLOGGP_OFFSET))(JBBFCGAMDHI);
+		}
+		*/
+
+		::System::Boolean JGBGPJACDOG(::System::Object* MIALFKCCCPI)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_JGBGPJACDOG_OFFSET))(this, MIALFKCCCPI);
+		}
+
+		/*
+		static ::System::Boolean NOGJIJMACNO(::MoleMole::ColorHSV& FFKBEGIHIGG, ::MoleMole::ColorHSV& CKADGLGJJAB)
+		{
+			return ((::System::Boolean(*)(::MoleMole::ColorHSV&, ::MoleMole::ColorHSV&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_NOGJIJMACNO_OFFSET))(FFKBEGIHIGG, CKADGLGJJAB);
 		}
 		*/
 
 		/*
-		static ::MoleMole::ColorHSV Method_2_F44F79F49F8F2E0B(::MoleMole::ColorHSV& a1, ::MoleMole::ColorHSV_Struct_2_1C0D1D514F9A1CCA& a2)
+		static ::MoleMole::ColorHSV CIBONHMNLEN(::MoleMole::ColorHSV& FFKBEGIHIGG, ::MoleMole::ColorHSV_CBPFINCLIAK& CKADGLGJJAB)
 		{
-			return ((::MoleMole::ColorHSV(*)(::MoleMole::ColorHSV&, ::MoleMole::ColorHSV_Struct_2_1C0D1D514F9A1CCA&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_METHOD_2_F44F79F49F8F2E0B_OFFSET))(a1, a2);
+			return ((::MoleMole::ColorHSV(*)(::MoleMole::ColorHSV&, ::MoleMole::ColorHSV_CBPFINCLIAK&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_CIBONHMNLEN_OFFSET))(FFKBEGIHIGG, CKADGLGJJAB);
 		}
 		*/
 
-		::System::Int32 Method_2_95780ED94B90ED36()
+		/*
+		static ::System::Boolean INCFIJKMIGG(::MoleMole::ColorHSV& FFKBEGIHIGG, ::MoleMole::ColorHSV& CKADGLGJJAB)
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_METHOD_2_95780ED94B90ED36_OFFSET))(this);
+			return ((::System::Boolean(*)(::MoleMole::ColorHSV&, ::MoleMole::ColorHSV&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_INCFIJKMIGG_OFFSET))(FFKBEGIHIGG, CKADGLGJJAB);
 		}
-
-		::System::Boolean Method_2_6D0360BD23602584(::System::Object* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_METHOD_2_6D0360BD23602584_OFFSET))(this, a1);
-		}
-
-		static ::System::Boolean Method_2_0BF8162BD55D7016(::MoleMole::ColorHSV& a1, ::MoleMole::ColorHSV& a2)
-		{
-			return ((::System::Boolean(*)(::MoleMole::ColorHSV&, ::MoleMole::ColorHSV&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_METHOD_2_0BF8162BD55D7016_OFFSET))(a1, a2);
-		}
-
-		static ::System::Boolean Method_2_BFE62A4F0DBF4601(::MoleMole::ColorHSV& a1, ::MoleMole::ColorHSV& a2)
-		{
-			return ((::System::Boolean(*)(::MoleMole::ColorHSV&, ::MoleMole::ColorHSV&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_METHOD_2_BFE62A4F0DBF4601_OFFSET))(a1, a2);
-		}
-
-		static ::MoleMole::ColorHSV Method_2_4DB3384D86E03AF1(::MoleMole::ColorHSV& a1, ::MoleMole::ColorHSV& a2, ::System::Single a3)
-		{
-			return ((::MoleMole::ColorHSV(*)(::MoleMole::ColorHSV&, ::MoleMole::ColorHSV&, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORHSV_METHOD_2_4DB3384D86E03AF1_OFFSET))(a1, a2, a3);
-		}
+		*/
 	};
 }

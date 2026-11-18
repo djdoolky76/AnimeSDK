@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_AB2EF02AB0EB9012_1_Struct_2_BBD456EBC9087BC2_3.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4;
+class IFFKIHMPGJK_PGPENLLCLDF;
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B08E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__DISPLAYCLASS11_0___HANDLELEVEL_AREAEND_B__0_OFFSET UNITYSDK_OFFSET(0x1B1B08F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__DISPLAYCLASS11_0___HANDLELEVEL_AREAEND_B__3_OFFSET UNITYSDK_OFFSET(0x1B1B0BB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14AE4F80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__DISPLAYCLASS11_0___HANDLELEVEL_AREAEND_B__0_OFFSET UNITYSDK_OFFSET(0x14AE4F90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__DISPLAYCLASS11_0___HANDLELEVEL_AREAEND_B__3_OFFSET UNITYSDK_OFFSET(0x14AE5250)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_LoadNextArea___c__DisplayClass11_0_TypeDefinitionIndex = 73090;
+	inline static constexpr unsigned int LD_AbyssS2_LoadNextArea___c__DisplayClass11_0_TypeDefinitionIndex = 54010;
 
 	class LD_AbyssS2_LoadNextArea___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::System::Tuple_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_2_AB2EF02AB0EB9012_1_Struct_2_BBD456EBC9087BC2_3>*>* suddenEventFcDefaultVariablesSetting; // 0x10
+		::System::Tuple_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>*>* suddenEventFcDefaultVariablesSetting; // 0x10
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__DISPLAYCLASS11_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __HandleLevel_AreaEnd_b__0(::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4* tCtxObj)
+		::System::Void __HandleLevel_AreaEnd_b__0(::IFFKIHMPGJK_PGPENLLCLDF* tCtxObj)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__DISPLAYCLASS11_0___HANDLELEVEL_AREAEND_B__0_OFFSET))(this, tCtxObj);
+			return ((::System::Void(*)(::PVOID, ::IFFKIHMPGJK_PGPENLLCLDF*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__DISPLAYCLASS11_0___HANDLELEVEL_AREAEND_B__0_OFFSET))(this, tCtxObj);
 		}
 
-		::System::Void __HandleLevel_AreaEnd_b__3(::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4* ctx)
+		::System::Void __HandleLevel_AreaEnd_b__3(::IFFKIHMPGJK_PGPENLLCLDF* ctx)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_3E2EF1FFB1C88E56_Class_1_E30C28B1C26233E4*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__DISPLAYCLASS11_0___HANDLELEVEL_AREAEND_B__3_OFFSET))(this, ctx);
+			return ((::System::Void(*)(::PVOID, ::IFFKIHMPGJK_PGPENLLCLDF*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LOADNEXTAREA___C__DISPLAYCLASS11_0___HANDLELEVEL_AREAEND_B__3_OFFSET))(this, ctx);
 		}
 	};
 }

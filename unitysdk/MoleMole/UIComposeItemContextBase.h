@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_402812A65CC3A690;
+class AMAJILNNDMA;
 
-#define MOLEMOLE_UICOMPOSEITEMCONTEXTBASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x1803DCF0)
-#define MOLEMOLE_UICOMPOSEITEMCONTEXTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1803DDD0)
-#define MOLEMOLE_UICOMPOSEITEMCONTEXTBASE___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x1803DE30)
+#define MOLEMOLE_UICOMPOSEITEMCONTEXTBASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x191A2430)
+#define MOLEMOLE_UICOMPOSEITEMCONTEXTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x191A2510)
+#define MOLEMOLE_UICOMPOSEITEMCONTEXTBASE___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x191A2570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComposeItemContextBase_TypeDefinitionIndex = 85230;
+	inline static constexpr unsigned int UIComposeItemContextBase_TypeDefinitionIndex = 71599;
 
 	class UIComposeItemContextBase : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_402812A65CC3A690* selectItem; // 0x28
-		::System::Int32 setCount; // 0x30
+		::AMAJILNNDMA* selectItem; // 0x28
+		::System::Int32 filterIndex; // 0x30
 		::System::Int32 selectTab; // 0x34
-		::System::Int32 filterIndex; // 0x38
+		::System::Int32 setCount; // 0x38
 
 		::System::Void _ctor()
 		{

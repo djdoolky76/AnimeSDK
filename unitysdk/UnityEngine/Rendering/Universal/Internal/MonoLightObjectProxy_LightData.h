@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Light; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXY_LIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F5D10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MONOLIGHTOBJECTPROXY_LIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C30F0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int MonoLightObjectProxy_LightData_TypeDefinitionIndex = 27809;
+	inline static constexpr unsigned int MonoLightObjectProxy_LightData_TypeDefinitionIndex = 27311;
 
 	class MonoLightObjectProxy_LightData : public ::System::Object
 	{

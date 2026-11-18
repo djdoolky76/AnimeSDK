@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/DataStructures/Lists/EasySerializeDictionaryEntry_2.h"
 
-namespace MoleMole { class DeviceAdaptData; }
-namespace System { class String; }
-
-#define MOLEMOLE_CONFIGUIADAPT_DEVICEADAPTDATADICENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C486470)
+#define MOLEMOLE_CONFIGUIADAPT_DEVICEADAPTDATADICENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C703180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAdapt_DeviceAdaptDataDicEntry_TypeDefinitionIndex = 58376;
+	inline static constexpr unsigned int ConfigUIAdapt_DeviceAdaptDataDicEntry_TypeDefinitionIndex = 70685;
 
-	class ConfigUIAdapt_DeviceAdaptDataDicEntry : public ::MoleMole::DataStructures::Lists::EasySerializeDictionaryEntry_2<::System::String*, ::MoleMole::DeviceAdaptData*>
+	class ConfigUIAdapt_DeviceAdaptDataDicEntry
 	{
 	public:
 		::System::Void _ctor()

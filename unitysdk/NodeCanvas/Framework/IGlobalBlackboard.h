@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class String; }
-
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int IGlobalBlackboard_TypeDefinitionIndex = 31392;
+	inline static constexpr unsigned int IGlobalBlackboard_TypeDefinitionIndex = 30784;
 
 	class IGlobalBlackboard
 	{

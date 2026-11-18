@@ -11,30 +11,30 @@ namespace System::Text::RegularExpressions { class MatchEvaluator; }
 namespace System::Text::RegularExpressions { class Regex; }
 namespace System::Text::RegularExpressions { class RegexNode; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_GET_PATTERN_OFFSET UNITYSDK_OFFSET(0x1DD33760)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACEMENTIMPLRTL_OFFSET UNITYSDK_OFFSET(0x1DD33510)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACEMENTIMPL_OFFSET UNITYSDK_OFFSET(0x1DD332F0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACEMENT_OFFSET UNITYSDK_OFFSET(0x1DD33770)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACE_1_OFFSET UNITYSDK_OFFSET(0x1DD33C70)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACE_OFFSET UNITYSDK_OFFSET(0x1DD33800)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_SPLIT_OFFSET UNITYSDK_OFFSET(0x1DD34120)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD32EC0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_GET_PATTERN_OFFSET UNITYSDK_OFFSET(0x1E0D4460)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACEMENTIMPLRTL_OFFSET UNITYSDK_OFFSET(0x1E0D4210)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACEMENTIMPL_OFFSET UNITYSDK_OFFSET(0x1E0D3FF0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACEMENT_OFFSET UNITYSDK_OFFSET(0x1E0D4470)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACE_1_OFFSET UNITYSDK_OFFSET(0x1E0D4970)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACE_OFFSET UNITYSDK_OFFSET(0x1E0D4500)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_SPLIT_OFFSET UNITYSDK_OFFSET(0x1E0D4E20)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0D3BC0)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int RegexReplacement_TypeDefinitionIndex = 2747;
+	inline static constexpr unsigned int RegexReplacement_TypeDefinitionIndex = 2746;
 
 	class RegexReplacement : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 Specials = 0x4; // 0x0
-		// static const ::System::Int32 LeftPortion = 0xFFFFFFFF; // 0x0
-		// static const ::System::Int32 RightPortion = 0xFFFFFFFE; // 0x0
-		// static const ::System::Int32 LastGroup = 0xFFFFFFFD; // 0x0
-		// static const ::System::Int32 WholeString = 0xFFFFFFFC; // 0x0
-		::System::String* _rep; // 0x10
+		// static const ::System::Int32 LeftPortion = -0x1; // 0x0
+		// static const ::System::Int32 RightPortion = -0x2; // 0x0
+		// static const ::System::Int32 LastGroup = -0x3; // 0x0
+		// static const ::System::Int32 WholeString = -0x4; // 0x0
+		::System::Collections::Generic::List_1<::System::Int32>* _rules; // 0x10
 		::System::Collections::Generic::List_1<::System::String*>* _strings; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* _rules; // 0x20
+		::System::String* _rep; // 0x20
 
 		::System::Void _ctor(::System::String* rep, ::System::Text::RegularExpressions::RegexNode* concat, ::System::Collections::Hashtable* _caps)
 		{

@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ProfilerSynchronizeStats_TypeDefinitionIndex = 5661;
+	inline static constexpr unsigned int PostLateUpdate_ProfilerSynchronizeStats_TypeDefinitionIndex = 5665;
 
-	struct alignas(1) PostLateUpdate_ProfilerSynchronizeStats
+	struct alignas(4) PostLateUpdate_ProfilerSynchronizeStats
 	{
 	};
 }

@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnrealTypes/ObjectPropertyBase_1.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class IFieldVariant; }
 namespace UnrealTypes { class Object; }
 namespace UnrealTypes { class ObjectPropertyParams; }
 
-#define UNREALTYPES_OBJECTPROPERTY_GETOBJECTHANDLEPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1E38FEF0)
-#define UNREALTYPES_OBJECTPROPERTY_SETOBJECTHANDLEPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1E38FF40)
-#define UNREALTYPES_OBJECTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E382D20)
+#define UNREALTYPES_OBJECTPROPERTY_GETOBJECTHANDLEPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1E2B0560)
+#define UNREALTYPES_OBJECTPROPERTY_SETOBJECTHANDLEPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0x1E2B0610)
+#define UNREALTYPES_OBJECTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E29E9C0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ObjectProperty_TypeDefinitionIndex = 28381;
+	inline static constexpr unsigned int ObjectProperty_TypeDefinitionIndex = 27820;
 
-	class ObjectProperty : public ::UnrealTypes::ObjectPropertyBase_1<::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>>
+	class ObjectProperty
 	{
 	public:
 		::System::Void _ctor(::UnrealTypes::IFieldVariant* owner, ::UnrealTypes::ObjectPropertyParams* prop)
@@ -23,14 +22,14 @@ namespace UnrealTypes
 			return ((::System::Void(*)(::PVOID, ::UnrealTypes::IFieldVariant*, ::UnrealTypes::ObjectPropertyParams*))((::PBYTE)hIl2Cpp + UNREALTYPES_OBJECTPROPERTY__CTOR_OFFSET))(this, owner, prop);
 		}
 
-		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*> GetObjectHandlePropertyValue(::System::Void* propertyValueAddress)
+		::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*> GetObjectHandlePropertyValue(::PVOID propertyValueAddress)
 		{
-			return ((::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>(*)(::PVOID, ::System::Void*))((::PBYTE)hIl2Cpp + UNREALTYPES_OBJECTPROPERTY_GETOBJECTHANDLEPROPERTYVALUE_OFFSET))(this, propertyValueAddress);
+			return ((::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>(*)(::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_OBJECTPROPERTY_GETOBJECTHANDLEPROPERTYVALUE_OFFSET))(this, propertyValueAddress);
 		}
 
-		::System::Void SetObjectHandlePropertyValue(::System::Void* propertyValueAddress, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*> value)
+		::System::Void SetObjectHandlePropertyValue(::PVOID propertyValueAddress, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*> value)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Void*, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>))((::PBYTE)hIl2Cpp + UNREALTYPES_OBJECTPROPERTY_SETOBJECTHANDLEPROPERTYVALUE_OFFSET))(this, propertyValueAddress, value);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>))((::PBYTE)hIl2Cpp + UNREALTYPES_OBJECTPROPERTY_SETOBJECTHANDLEPROPERTYVALUE_OFFSET))(this, propertyValueAddress, value);
 		}
 	};
 }

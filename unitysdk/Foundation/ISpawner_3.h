@@ -3,9 +3,9 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ISpawner_3_TypeDefinitionIndex = 8294;
+	inline static constexpr unsigned int ISpawner_3_TypeDefinitionIndex = 8286;
 
-	template <typename T, typename T1, typename T2>
+	template <typename T1, typename T2, typename T3>
 	class ISpawner_3
 	{
 	public:

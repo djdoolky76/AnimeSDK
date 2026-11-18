@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int PenButton_TypeDefinitionIndex = 32255;
+	inline static constexpr unsigned int PenButton_TypeDefinitionIndex = 31704;
 
 	enum class PenButton : ::System::Int32
 	{

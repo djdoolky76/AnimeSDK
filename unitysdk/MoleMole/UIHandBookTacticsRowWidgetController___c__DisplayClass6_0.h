@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_547;
+class LMAJAHEPDEI;
 namespace MoleMole { class UIHandBookTacticsRowWidgetController; }
 
-#define MOLEMOLE_UIHANDBOOKTACTICSROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BF0AC0)
-#define MOLEMOLE_UIHANDBOOKTACTICSROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x17BF0AD0)
+#define MOLEMOLE_UIHANDBOOKTACTICSROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175BB3A0)
+#define MOLEMOLE_UIHANDBOOKTACTICSROWWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x175BB3B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookTacticsRowWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 58000;
+	inline static constexpr unsigned int UIHandBookTacticsRowWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 41509;
 
 	class UIHandBookTacticsRowWidgetController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHandBookTacticsRowWidgetController* __4__this; // 0x10
-		::Class_2_208CC9941471731A_547* template_; // 0x18
+		::LMAJAHEPDEI* template_; // 0x10
+		::MoleMole::UIHandBookTacticsRowWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

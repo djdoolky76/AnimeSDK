@@ -4,7 +4,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Ping_cap_user_header_t_TypeDefinitionIndex = 3819;
+	inline static constexpr unsigned int Ping_cap_user_header_t_TypeDefinitionIndex = 3818;
 
 	struct alignas(4) Ping_cap_user_header_t
 	{

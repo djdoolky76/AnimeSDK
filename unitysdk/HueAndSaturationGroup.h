@@ -5,9 +5,9 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HUEANDSATURATIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A56E560)
+#define HUEANDSATURATIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1819D6A0)
 
-inline static constexpr unsigned int HueAndSaturationGroup_TypeDefinitionIndex = 73162;
+inline static constexpr unsigned int HueAndSaturationGroup_TypeDefinitionIndex = 61958;
 
 class HueAndSaturationGroup : public ::System::Object
 {

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Globalization/CalendricalCalculationsHelper_CorrectionAlgorithm.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_GLOBALIZATION_CALENDRICALCALCULATIONSHELPER_EPHEMERISCORRECTIONALGORITHMMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x312BA0)
+#define SYSTEM_GLOBALIZATION_CALENDRICALCALCULATIONSHELPER_EPHEMERISCORRECTIONALGORITHMMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x2E4140)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CalendricalCalculationsHelper_EphemerisCorrectionAlgorithmMap_TypeDefinitionIndex = 699;
+	inline static constexpr unsigned int CalendricalCalculationsHelper_EphemerisCorrectionAlgorithmMap_TypeDefinitionIndex = 698;
 
 	struct alignas(4) CalendricalCalculationsHelper_EphemerisCorrectionAlgorithmMap
 	{

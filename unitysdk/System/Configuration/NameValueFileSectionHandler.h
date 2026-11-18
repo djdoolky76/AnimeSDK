@@ -4,12 +4,12 @@
 
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_CONFIGURATION_NAMEVALUEFILESECTIONHANDLER_CREATE_OFFSET UNITYSDK_OFFSET(0x1D6172E0)
-#define SYSTEM_CONFIGURATION_NAMEVALUEFILESECTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6172A0)
+#define SYSTEM_CONFIGURATION_NAMEVALUEFILESECTIONHANDLER_CREATE_OFFSET UNITYSDK_OFFSET(0x1DADBCD0)
+#define SYSTEM_CONFIGURATION_NAMEVALUEFILESECTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DADBC90)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int NameValueFileSectionHandler_TypeDefinitionIndex = 4215;
+	inline static constexpr unsigned int NameValueFileSectionHandler_TypeDefinitionIndex = 4214;
 
 	class NameValueFileSectionHandler : public ::System::Object
 	{

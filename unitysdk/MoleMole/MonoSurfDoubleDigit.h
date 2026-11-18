@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/Foundation/AssetPath.h"
 
-class Class_2_A4D62D05D5EA8464;
+class HNLACBJDCGI;
 namespace MoleMole { class MonoSurfSingleDigit; }
 
-#define MOLEMOLE_MONOSURFDOUBLEDIGIT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x13853380)
-#define MOLEMOLE_MONOSURFDOUBLEDIGIT__CTOR_OFFSET UNITYSDK_OFFSET(0x13853490)
+#define MOLEMOLE_MONOSURFDOUBLEDIGIT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x139F8AF0)
+#define MOLEMOLE_MONOSURFDOUBLEDIGIT__CTOR_OFFSET UNITYSDK_OFFSET(0x139F8C00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSurfDoubleDigit_TypeDefinitionIndex = 71357;
+	inline static constexpr unsigned int MonoSurfDoubleDigit_TypeDefinitionIndex = 65523;
 
 	class MonoSurfDoubleDigit : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,9 +24,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFDOUBLEDIGIT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetValue(::System::Int32 a1, ::Class_2_A4D62D05D5EA8464* a2, ::Il2CppArray<::Foundation::AssetPath>* a3)
+		::System::Void SetValue(::System::Int32 EGEGIMGMJHN, ::HNLACBJDCGI* CENDLIKDNJA, ::Il2CppArray<::Foundation::AssetPath>* BNMNDKJFMGK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Class_2_A4D62D05D5EA8464*, ::Il2CppArray<::Foundation::AssetPath>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFDOUBLEDIGIT_SETVALUE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::HNLACBJDCGI*, ::Il2CppArray<::Foundation::AssetPath>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFDOUBLEDIGIT_SETVALUE_OFFSET))(this, EGEGIMGMJHN, CENDLIKDNJA, BNMNDKJFMGK);
 		}
 	};
 }

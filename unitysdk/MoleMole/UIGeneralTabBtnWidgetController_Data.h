@@ -9,28 +9,29 @@ namespace MoleMole { class UIGeneralTabBtnWidgetController_Data_OnClickSubItem; 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_BADGESUBID_OFFSET UNITYSDK_OFFSET(0x172F5820)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_BADGETYPE_OFFSET UNITYSDK_OFFSET(0x172F5810)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_ONSELECTSUBITEM_OFFSET UNITYSDK_OFFSET(0x172F5860)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_SUBDATAS_OFFSET UNITYSDK_OFFSET(0x172F5840)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x172F5800)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_SET_ONSELECTSUBITEM_OFFSET UNITYSDK_OFFSET(0x172F5870)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_SET_SUBDATAS_OFFSET UNITYSDK_OFFSET(0x172F5850)
-#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x172F5880)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_BADGESUBID_OFFSET UNITYSDK_OFFSET(0x173D1CF0)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_BADGETYPE_OFFSET UNITYSDK_OFFSET(0x173D1CE0)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_ONSELECTSUBITEM_OFFSET UNITYSDK_OFFSET(0x173D1D30)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_SUBDATAS_OFFSET UNITYSDK_OFFSET(0x173D1D10)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x173D1CD0)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_SET_ONSELECTSUBITEM_OFFSET UNITYSDK_OFFSET(0x173D1D40)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_SET_SUBDATAS_OFFSET UNITYSDK_OFFSET(0x173D1D20)
+#define MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x173D1D50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTabBtnWidgetController_Data_TypeDefinitionIndex = 42461;
+	inline static constexpr unsigned int UIGeneralTabBtnWidgetController_Data_TypeDefinitionIndex = 82262;
 
 	class UIGeneralTabBtnWidgetController_Data : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::UIGeneralTabBtnWidgetController_Data*>* _subDatas_k__BackingField; // 0x10
+		::System::String* _text_k__BackingField; // 0x10
 		::System::Nullable_1<::NodeGraph::VariantUnion> _badgeSubId_k__BackingField; // 0x18
+		::System::Byte _padding0[0x18];
 		::MoleMole::UIGeneralTabBtnWidgetController_Data_OnClickSubItem* _onSelectSubItem_k__BackingField; // 0x38
-		::System::String* _text_k__BackingField; // 0x40
-		::System::Int32 selectIndex; // 0x48
-		::System::Nullable_1<::Share::ENotificationBadgeType> _badgeType_k__BackingField; // 0x4C
+		::System::Collections::Generic::List_1<::System::Object*>* _subDatas_k__BackingField; // 0x40
+		::System::Nullable_1<::Share::ENotificationBadgeType> _badgeType_k__BackingField; // 0x48
+		::System::Int32 selectIndex; // 0x50
 		::System::Boolean expand; // 0x54
 
 		::System::Void _ctor()
@@ -53,14 +54,14 @@ namespace MoleMole
 			return ((::System::Nullable_1<::NodeGraph::VariantUnion>(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_BADGESUBID_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::MoleMole::UIGeneralTabBtnWidgetController_Data*>* get_subDatas()
+		::System::Collections::Generic::List_1<::System::Object*>* get_subDatas()
 		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::UIGeneralTabBtnWidgetController_Data*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_SUBDATAS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_GET_SUBDATAS_OFFSET))(this);
 		}
 
-		::System::Void set_subDatas(::System::Collections::Generic::List_1<::MoleMole::UIGeneralTabBtnWidgetController_Data*>* value)
+		::System::Void set_subDatas(::System::Collections::Generic::List_1<::System::Object*>* value)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::UIGeneralTabBtnWidgetController_Data*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_SET_SUBDATAS_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALTABBTNWIDGETCONTROLLER_DATA_SET_SUBDATAS_OFFSET))(this, value);
 		}
 
 		::MoleMole::UIGeneralTabBtnWidgetController_Data_OnClickSubItem* get_onSelectSubItem()

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_COLLECTIONS_GENERIC_KEYNOTFOUNDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CE63050)
-#define SYSTEM_COLLECTIONS_GENERIC_KEYNOTFOUNDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1CE630E0)
-#define SYSTEM_COLLECTIONS_GENERIC_KEYNOTFOUNDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE62F90)
+#define SYSTEM_COLLECTIONS_GENERIC_KEYNOTFOUNDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D3FC150)
+#define SYSTEM_COLLECTIONS_GENERIC_KEYNOTFOUNDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D3FC1E0)
+#define SYSTEM_COLLECTIONS_GENERIC_KEYNOTFOUNDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FC090)
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int KeyNotFoundException_TypeDefinitionIndex = 1555;
+	inline static constexpr unsigned int KeyNotFoundException_TypeDefinitionIndex = 1554;
 
 	class KeyNotFoundException : public ::System::SystemException
 	{

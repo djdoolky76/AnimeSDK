@@ -4,34 +4,34 @@
 
 namespace FlowCanvas { template <typename T> class ValueHandler_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LISTENITEMCHALLENGERESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DB7BA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LISTENITEMCHALLENGERESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB7BE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LISTENITEMCHALLENGERESULT___C__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x19DB7BF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LISTENITEMCHALLENGERESULT___C__REGISTERPORTS_B__3_1_OFFSET UNITYSDK_OFFSET(0x19DB7C10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LISTENITEMCHALLENGERESULT___C__REGISTERPORTS_B__3_2_OFFSET UNITYSDK_OFFSET(0x19DB7C20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LISTENITEMCHALLENGERESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B3DFC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LISTENITEMCHALLENGERESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3E000)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LISTENITEMCHALLENGERESULT___C__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x12B3E010)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LISTENITEMCHALLENGERESULT___C__REGISTERPORTS_B__3_1_OFFSET UNITYSDK_OFFSET(0x12B3E030)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_LISTENITEMCHALLENGERESULT___C__REGISTERPORTS_B__3_2_OFFSET UNITYSDK_OFFSET(0x12B3E040)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_ListenItemChallengeResult___c_TypeDefinitionIndex = 90712;
+	inline static constexpr unsigned int LD_AbyssS2_ListenItemChallengeResult___c_TypeDefinitionIndex = 78399;
 
 	class LD_AbyssS2_ListenItemChallengeResult___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::FlowCanvas::Nodes::LD_AbyssS2_ListenItemChallengeResult___c** StaticGet___9()
-		{
-			return (::MoleMole::FlowCanvas::Nodes::LD_AbyssS2_ListenItemChallengeResult___c**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_ListenItemChallengeResult___c_TypeDefinitionIndex)->GetStaticField(0x3F820);
-		}
 		static ::FlowCanvas::ValueHandler_1<::System::Int32>** StaticGet___9__3_2()
 		{
-			return (::FlowCanvas::ValueHandler_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_ListenItemChallengeResult___c_TypeDefinitionIndex)->GetStaticField(0x3F828);
+			return (::FlowCanvas::ValueHandler_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_ListenItemChallengeResult___c_TypeDefinitionIndex)->GetStaticField(0x44B70);
 		}
 		static ::FlowCanvas::ValueHandler_1<::System::Int32>** StaticGet___9__3_0()
 		{
-			return (::FlowCanvas::ValueHandler_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_ListenItemChallengeResult___c_TypeDefinitionIndex)->GetStaticField(0x3F830);
+			return (::FlowCanvas::ValueHandler_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_ListenItemChallengeResult___c_TypeDefinitionIndex)->GetStaticField(0x44B78);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_ListenItemChallengeResult___c_TypeDefinitionIndex)->GetStaticField(0x44B80);
 		}
 		static ::FlowCanvas::ValueHandler_1<::System::Boolean>** StaticGet___9__3_1()
 		{
-			return (::FlowCanvas::ValueHandler_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_ListenItemChallengeResult___c_TypeDefinitionIndex)->GetStaticField(0x3F838);
+			return (::FlowCanvas::ValueHandler_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LD_AbyssS2_ListenItemChallengeResult___c_TypeDefinitionIndex)->GetStaticField(0x44B88);
 		}
 
 		static ::System::Void _cctor()

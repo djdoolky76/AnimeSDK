@@ -3,13 +3,12 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { template <typename T> class Func_1; }
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int LinqExtensions__PrependWith_d__7_1_TypeDefinitionIndex = 6452;
+	inline static constexpr unsigned int LinqExtensions__PrependWith_d__7_1_TypeDefinitionIndex = 6458;
 
 	template <typename T>
 	class LinqExtensions__PrependWith_d__7_1 : public ::System::Object

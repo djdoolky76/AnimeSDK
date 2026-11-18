@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ResetInputAxis_TypeDefinitionIndex = 5659;
+	inline static constexpr unsigned int PostLateUpdate_ResetInputAxis_TypeDefinitionIndex = 5663;
 
-	struct alignas(1) PostLateUpdate_ResetInputAxis
+	struct alignas(4) PostLateUpdate_ResetInputAxis
 	{
 	};
 }

@@ -3,11 +3,10 @@
 #include "unitysdk/System/Object.h"
 
 namespace Cysharp::Threading::Tasks { template <typename T> class UniTaskCompletionSource_1; }
-namespace UnityEngine { class ScriptableObject; }
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int SoftScriptObjectReference_1___c__DisplayClass1_0_TypeDefinitionIndex = 77483;
+	inline static constexpr unsigned int SoftScriptObjectReference_1___c__DisplayClass1_0_TypeDefinitionIndex = 68337;
 
 	template <typename T>
 	class SoftScriptObjectReference_1___c__DisplayClass1_0 : public ::System::Object

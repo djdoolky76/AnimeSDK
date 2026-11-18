@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CINEMAPOSITIONSO_METHOD_4_88B60F3B95FAA4F1_1_OFFSET UNITYSDK_OFFSET(0x16246F20)
-#define MOLEMOLE_CINEMAPOSITIONSO_METHOD_4_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x16246EA0)
-#define MOLEMOLE_CINEMAPOSITIONSO__CTOR_OFFSET UNITYSDK_OFFSET(0x16246F10)
+#define MOLEMOLE_CINEMAPOSITIONSO_EBCFEHBPKON_OFFSET UNITYSDK_OFFSET(0x19B02750)
+#define MOLEMOLE_CINEMAPOSITIONSO_MKFMEKDJNBA_OFFSET UNITYSDK_OFFSET(0x19B027D0)
+#define MOLEMOLE_CINEMAPOSITIONSO__CTOR_OFFSET UNITYSDK_OFFSET(0x19B027C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CinemaPositionSo_TypeDefinitionIndex = 90920;
+	inline static constexpr unsigned int CinemaPositionSo_TypeDefinitionIndex = 51668;
 
 	class CinemaPositionSo : public ::MoleMole::CinemaNpcOffsetSo
 	{
@@ -20,14 +20,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMAPOSITIONSO__CTOR_OFFSET))(this);
 		}
 
-		::System::String* Method_4_88B60F3B95FAA4F1()
+		::System::String* EBCFEHBPKON()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMAPOSITIONSO_METHOD_4_88B60F3B95FAA4F1_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMAPOSITIONSO_EBCFEHBPKON_OFFSET))(this);
 		}
 
-		::System::String* Method_4_88B60F3B95FAA4F1_1()
+		::System::String* MKFMEKDJNBA()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMAPOSITIONSO_METHOD_4_88B60F3B95FAA4F1_1_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CINEMAPOSITIONSO_MKFMEKDJNBA_OFFSET))(this);
 		}
 	};
 }

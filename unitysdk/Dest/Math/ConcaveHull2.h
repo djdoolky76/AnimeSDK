@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Dest/Math/ConcaveHull2_InnerPoint.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define DEST_MATH_CONCAVEHULL2_CALCDISTANCEFROMPOINTTOEDGE_OFFSET UNITYSDK_OFFSET(0x1F7F8B70)
-#define DEST_MATH_CONCAVEHULL2_CREATE_OFFSET UNITYSDK_OFFSET(0x1F7F7700)
-#define DEST_MATH_CONCAVEHULL2_QUICKSORT_OFFSET UNITYSDK_OFFSET(0x1F7F8950)
-#define DEST_MATH_CONCAVEHULL2__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7F8C60)
+#define DEST_MATH_CONCAVEHULL2_CALCDISTANCEFROMPOINTTOEDGE_OFFSET UNITYSDK_OFFSET(0x1FC022F0)
+#define DEST_MATH_CONCAVEHULL2_CREATE_OFFSET UNITYSDK_OFFSET(0x1FC00E80)
+#define DEST_MATH_CONCAVEHULL2_QUICKSORT_OFFSET UNITYSDK_OFFSET(0x1FC020D0)
+#define DEST_MATH_CONCAVEHULL2__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC023E0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ConcaveHull2_TypeDefinitionIndex = 35322;
+	inline static constexpr unsigned int ConcaveHull2_TypeDefinitionIndex = 34895;
 
 	class ConcaveHull2 : public ::System::Object
 	{
@@ -21,9 +20,9 @@ namespace Dest::Math
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DEST_MATH_CONCAVEHULL2__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Quicksort(::Il2CppArray<::Dest::Math::ConcaveHull2_InnerPoint>* x, ::System::Int32 first, ::System::Int32 last)
+		static ::System::Void Quicksort(::Il2CppArray<::System::Object*>* x, ::System::Int32 first, ::System::Int32 last)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::Dest::Math::ConcaveHull2_InnerPoint>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + DEST_MATH_CONCAVEHULL2_QUICKSORT_OFFSET))(x, first, last);
+			return ((::System::Void(*)(::Il2CppArray<::System::Object*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + DEST_MATH_CONCAVEHULL2_QUICKSORT_OFFSET))(x, first, last);
 		}
 
 		static ::System::Single CalcDistanceFromPointToEdge(::UnityEngine::Vector2& pointA, ::UnityEngine::Vector2& v0, ::UnityEngine::Vector2& v1)

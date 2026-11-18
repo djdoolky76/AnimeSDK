@@ -4,12 +4,12 @@
 
 namespace System::Reflection { class ParameterInfo; }
 
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDMETHODNODE___C__DISPLAYCLASS1_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x1EF89F10)
-#define FLOWCANVAS_NODES_LEGACY_REFLECTEDMETHODNODE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF89F00)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDMETHODNODE___C__DISPLAYCLASS1_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x1F2F91B0)
+#define FLOWCANVAS_NODES_LEGACY_REFLECTEDMETHODNODE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F91A0)
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int ReflectedMethodNode___c__DisplayClass1_0_TypeDefinitionIndex = 30732;
+	inline static constexpr unsigned int ReflectedMethodNode___c__DisplayClass1_0_TypeDefinitionIndex = 29875;
 
 	class ReflectedMethodNode___c__DisplayClass1_0 : public ::System::Object
 	{

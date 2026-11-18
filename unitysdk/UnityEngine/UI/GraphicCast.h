@@ -2,25 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/EGraphicCastShape.h"
 #include "unitysdk/UnityEngine/UI/Graphic.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_GRAPHICCAST_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0x1EC6A240)
-#define UNITYENGINE_UI_GRAPHICCAST_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1EC6A1E0)
-#define UNITYENGINE_UI_GRAPHICCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6A720)
-#define UNITYENGINE_UI_GRAPHICCAST___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1EC6A780)
+#define UNITYENGINE_UI_GRAPHICCAST_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0x1EBC7E60)
+#define UNITYENGINE_UI_GRAPHICCAST_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1EBC7E00)
+#define UNITYENGINE_UI_GRAPHICCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC8340)
+#define UNITYENGINE_UI_GRAPHICCAST___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1EBC83A0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GraphicCast_TypeDefinitionIndex = 64687;
+	inline static constexpr unsigned int GraphicCast_TypeDefinitionIndex = 73461;
 
 	class GraphicCast : public ::UnityEngine::UI::Graphic
 	{
 	public:
 		::UnityEngine::UI::EGraphicCastShape CastShape; // 0xA8
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::Vector3>* corners; // 0xB0
 
 		::System::Void _ctor()

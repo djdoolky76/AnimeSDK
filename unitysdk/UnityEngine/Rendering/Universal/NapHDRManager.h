@@ -2,50 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPHDRMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C455F20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPHDRMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C87DB40)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapHDRManager_TypeDefinitionIndex = 27925;
+	inline static constexpr unsigned int NapHDRManager_TypeDefinitionIndex = 27243;
 
 	class NapHDRManager : public ::System::Object
 	{
 	public:
-		static ::System::Single* StaticGet_AvatarMaxLuminanceScaleFadeRange()
+		static ::System::Boolean* StaticGet_HDRSplitLine()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x69C0);
-		}
-		static ::System::Single* StaticGet_HueShiftLerpRange()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x69C4);
-		}
-		static ::System::Single* StaticGet_HueShiftLerpThreshold()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x69C8);
-		}
-		static ::System::Single* StaticGet_SceneMaxLuminanceScaleFadeRange()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x69CC);
-		}
-		static ::System::Single* StaticGet_SceneMaxLuminanceScale()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x69D0);
-		}
-		static ::System::Single* StaticGet_HDRSplitRatio()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x69D4);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x6210);
 		}
 		static ::System::Boolean* StaticGet_HDRPipelineOn()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x69D8);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x6211);
 		}
-		static ::System::Boolean* StaticGet_HDRSplitLine()
+		static ::System::Single* StaticGet_SceneMaxLuminanceScale()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x69D9);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x6214);
 		}
 		static ::System::Single* StaticGet_AvatarMaxLuminanceScale()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x69DC);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x6218);
+		}
+		static ::System::Single* StaticGet_SceneMaxLuminanceScaleFadeRange()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x621C);
+		}
+		static ::System::Single* StaticGet_HueShiftLerpThreshold()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x6220);
+		}
+		static ::System::Single* StaticGet_HDRSplitRatio()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x6224);
+		}
+		static ::System::Single* StaticGet_AvatarMaxLuminanceScaleFadeRange()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x6228);
+		}
+		static ::System::Single* StaticGet_HueShiftLerpRange()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(NapHDRManager_TypeDefinitionIndex)->GetStaticField(0x622C);
 		}
 
 		static ::System::Void _cctor()

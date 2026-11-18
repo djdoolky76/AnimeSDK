@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PC_OS_XBOXFRIENDEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C908E30)
+#define MIHOYO_SDK_PC_OS_XBOXFRIENDEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF38320)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxFriendExtension_TypeDefinitionIndex = 20758;
+	inline static constexpr unsigned int XboxFriendExtension_TypeDefinitionIndex = 19962;
 
 	class XboxFriendExtension : public ::System::Object
 	{

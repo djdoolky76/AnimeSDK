@@ -6,19 +6,19 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_UIVHSSTOREWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15144EE0)
-#define MOLEMOLE_UIVHSSTOREWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS26_0__SWITCHANIM_B__0_OFFSET UNITYSDK_OFFSET(0x15144EF0)
+#define MOLEMOLE_UIVHSSTOREWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13E7A750)
+#define MOLEMOLE_UIVHSSTOREWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS26_0__SWITCHANIM_B__0_OFFSET UNITYSDK_OFFSET(0x13E7A760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreWidgetWidgetController___c__DisplayClass26_0_TypeDefinitionIndex = 42749;
+	inline static constexpr unsigned int UIVHSStoreWidgetWidgetController___c__DisplayClass26_0_TypeDefinitionIndex = 68415;
 
 	class UIVHSStoreWidgetWidgetController___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
-		::System::String* inAnim; // 0x10
-		::System::Action* onSwitch; // 0x18
-		::UnityEngine::Animation* anim; // 0x20
+		::UnityEngine::Animation* anim; // 0x10
+		::System::String* inAnim; // 0x18
+		::System::Action* onSwitch; // 0x20
 
 		::System::Void _ctor()
 		{

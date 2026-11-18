@@ -7,12 +7,12 @@
 namespace FluffyUnderware::Curvy { class CurvySpline; }
 namespace UnityEngine { class GameObject; }
 
-#define OBJECTSANIMATIONBYCURVE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16FF4580)
-#define OBJECTSANIMATIONBYCURVE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16FF4430)
-#define OBJECTSANIMATIONBYCURVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x16FF46D0)
-#define OBJECTSANIMATIONBYCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF5240)
+#define OBJECTSANIMATIONBYCURVE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x172EB410)
+#define OBJECTSANIMATIONBYCURVE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x172EB2C0)
+#define OBJECTSANIMATIONBYCURVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x172EB560)
+#define OBJECTSANIMATIONBYCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x172EC0D0)
 
-inline static constexpr unsigned int ObjectsAnimationByCurve_TypeDefinitionIndex = 47842;
+inline static constexpr unsigned int ObjectsAnimationByCurve_TypeDefinitionIndex = 76316;
 
 class ObjectsAnimationByCurve : public ::UnityEngine::MonoBehaviour
 {
@@ -22,6 +22,7 @@ public:
 	::System::Single gapRatio; // 0x28
 	::System::Single speed; // 0x2C
 	::System::Boolean loop; // 0x30
+	::System::Byte _padding0[0x3];
 	::ObjectsAnimationByCurve_AxisType facingAxis; // 0x34
 	::System::Single selfRotationSpeed; // 0x38
 	::System::Single selfRotationPhaseStep; // 0x3C

@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class String; }
-
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ISetText_TypeDefinitionIndex = 67009;
+	inline static constexpr unsigned int ISetText_TypeDefinitionIndex = 53725;
 
 	class ISetText
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int MirrorReflectionQuality_TypeDefinitionIndex = 5881;
+	inline static constexpr unsigned int MirrorReflectionQuality_TypeDefinitionIndex = 5887;
 
 	enum class MirrorReflectionQuality : ::System::Int32
 	{

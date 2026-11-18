@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CONFIG_RUBYDEFAULTPARAMS_METHOD_2_3DE3F17C9617DA68_OFFSET UNITYSDK_OFFSET(0x1B926DF0)
+#define MOLEMOLE_CONFIG_RUBYDEFAULTPARAMS_OIOCDLMKFHN_OFFSET UNITYSDK_OFFSET(0x1925F0C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int RubyDefaultParams_TypeDefinitionIndex = 41464;
+	inline static constexpr unsigned int RubyDefaultParams_TypeDefinitionIndex = 92105;
 
 	struct alignas(4) RubyDefaultParams
 	{
@@ -15,9 +15,11 @@ namespace MoleMole::Config
 		::System::Single rubyFontScale; // 0x10
 		::System::Single rubyHeightOffsetRatio; // 0x14
 
-		static ::MoleMole::Config::RubyDefaultParams Method_2_3DE3F17C9617DA68()
+		/*
+		static ::MoleMole::Config::RubyDefaultParams OIOCDLMKFHN()
 		{
-			return ((::MoleMole::Config::RubyDefaultParams(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RUBYDEFAULTPARAMS_METHOD_2_3DE3F17C9617DA68_OFFSET))();
+			return ((::MoleMole::Config::RubyDefaultParams(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RUBYDEFAULTPARAMS_OIOCDLMKFHN_OFFSET))();
 		}
+		*/
 	};
 }

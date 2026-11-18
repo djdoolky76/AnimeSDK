@@ -5,12 +5,12 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_K_COUNT_EQUALS_OFFSET UNITYSDK_OFFSET(0x7BE000)
-#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_K_COUNT_METHOD_2_6D0360BD23602584_OFFSET UNITYSDK_OFFSET(0x7BE010)
+#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_K_COUNT_EQUALS_OFFSET UNITYSDK_OFFSET(0x7D8C80)
+#define MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_K_COUNT_JGBGPJACDOG_OFFSET UNITYSDK_OFFSET(0x7D8C90)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int FieldInfo_EventInfo_K_Count_TypeDefinitionIndex = 75366;
+	inline static constexpr unsigned int FieldInfo_EventInfo_K_Count_TypeDefinitionIndex = 47247;
 
 	struct alignas(8) FieldInfo_EventInfo_K_Count
 	{
@@ -18,14 +18,14 @@ namespace MoleMole::Battle
 		::System::Int32 kCount; // 0x18
 		::System::Single time; // 0x1C
 
-		::System::Boolean Equals(::System::Object* a1)
+		::System::Boolean Equals(::System::Object* EIFONLCJOPG)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_K_COUNT_EQUALS_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_K_COUNT_EQUALS_OFFSET))(this, EIFONLCJOPG);
 		}
 
-		::System::Boolean Method_2_6D0360BD23602584(::System::Object* a1)
+		::System::Boolean JGBGPJACDOG(::System::Object* MIALFKCCCPI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_K_COUNT_METHOD_2_6D0360BD23602584_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_FIELDINFO_EVENTINFO_K_COUNT_JGBGPJACDOG_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

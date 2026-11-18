@@ -5,13 +5,13 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_CURVEGENERATOR_ADJUSTMENTBLENDINGCURVEGENERATOR_GETRATIOCURVENAME_OFFSET UNITYSDK_OFFSET(0xF6128B0)
+#define NPCCROWD_ANIMATION_CURVEGENERATOR_ADJUSTMENTBLENDINGCURVEGENERATOR_GETRATIOCURVENAME_OFFSET UNITYSDK_OFFSET(0x15F45970)
 
 namespace NPCCrowd::Animation::CurveGenerator
 {
-	inline static constexpr unsigned int AdjustmentBlendingCurveGenerator_TypeDefinitionIndex = 56904;
+	inline static constexpr unsigned int AdjustmentBlendingCurveGenerator_TypeDefinitionIndex = 60975;
 
-	struct alignas(1) AdjustmentBlendingCurveGenerator
+	struct alignas(4) AdjustmentBlendingCurveGenerator
 	{
 		static ::System::String* GetRatioCurveName(::System::String* boneName, ::NPCCrowd::Animation::CurveGenerator::AdjustmentBlendingCurveGenerator_MotionRatioCurveType curve)
 		{

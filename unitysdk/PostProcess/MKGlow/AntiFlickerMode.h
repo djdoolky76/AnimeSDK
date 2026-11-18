@@ -3,7 +3,7 @@
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int AntiFlickerMode_TypeDefinitionIndex = 27876;
+	inline static constexpr unsigned int AntiFlickerMode_TypeDefinitionIndex = 27180;
 
 	enum class AntiFlickerMode : ::System::Int32
 	{

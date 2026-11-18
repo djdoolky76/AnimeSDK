@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIZENKOVSHAREROLEICONWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x174A1340)
+#define MOLEMOLE_UIZENKOVSHAREROLEICONWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C16090)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovShareRoleIconWidgetController_Context_TypeDefinitionIndex = 84496;
+	inline static constexpr unsigned int UIZenkovShareRoleIconWidgetController_Context_TypeDefinitionIndex = 76475;
 
 	class UIZenkovShareRoleIconWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

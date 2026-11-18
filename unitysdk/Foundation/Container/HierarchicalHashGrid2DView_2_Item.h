@@ -4,12 +4,12 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int HierarchicalHashGrid2DView_2_Item_TypeDefinitionIndex = 8512;
+	inline static constexpr unsigned int HierarchicalHashGrid2DView_2_Item_TypeDefinitionIndex = 9047;
 
-	template <typename T, typename TEqualsFunc>
-	struct HierarchicalHashGrid2DView_2_Item
+	template <typename T1, typename T2>
+	struct alignas(8) HierarchicalHashGrid2DView_2_Item
 	{
-		T Id; // 0x0
+		T1 Id; // 0x0
 		::System::Int64 Next; // 0x0
 	};
 }

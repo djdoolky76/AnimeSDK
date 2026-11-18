@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class AFMMAIKKACF;
+class EHGPNGPADCB;
+
+#define JINMMDBJLHB_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0x14FBD090)
+#define JINMMDBJLHB_HKPDBLNAKMK_OFFSET UNITYSDK_OFFSET(0x14FBD380)
+#define JINMMDBJLHB_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0x14FBD3D0)
+#define JINMMDBJLHB__CTOR_OFFSET UNITYSDK_OFFSET(0x14FBD080)
+
+inline static constexpr unsigned int JINMMDBJLHB_TypeDefinitionIndex = 71974;
+
+class JINMMDBJLHB
+{
+public:
+	::System::Void _ctor(::EHGPNGPADCB* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::EHGPNGPADCB*))((::PBYTE)hIl2Cpp + JINMMDBJLHB__CTOR_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Void GLEJMKLOMBP(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + JINMMDBJLHB_GLEJMKLOMBP_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void LIDIODHDJAF(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + JINMMDBJLHB_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void HKPDBLNAKMK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JINMMDBJLHB_HKPDBLNAKMK_OFFSET))(this);
+	}
+};

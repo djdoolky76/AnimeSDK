@@ -7,22 +7,24 @@ namespace MoleMole::Config { class ConfigEntityFXFogEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4AFF70)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXFOGEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x16538EE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityFXFogEffects_TypeDefinitionIndex = 57095;
+	inline static constexpr unsigned int ConfigEntityFXFogEffects_TypeDefinitionIndex = 41220;
 
 	class ConfigEntityFXFogEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		::System::Boolean DefaultFxFogOverrideCustomData; // 0x58
 		::System::Boolean DefaultFxFog; // 0x59
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Color DefaultFxFogStartColor; // 0x5C
 		::UnityEngine::Color DefaultFxFogEndColor; // 0x6C
 		::UnityEngine::Color DefaultFxFogFinalColor; // 0x7C
 		::System::Single DefaultFxFogIntensityForSky; // 0x8C
 		::System::Single DefaultFxVolumetricFogIntensity; // 0x90
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityFXFogEffect*>* Effects; // 0x98
 
 		::System::Void _ctor()

@@ -16,11 +16,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUICINEMA__CTOR_OFFSET UNITYSDK_OFFSET(0x16275FA0)
+#define MOLEMOLE_CONFIGUICINEMA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B35540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICinema_TypeDefinitionIndex = 41068;
+	inline static constexpr unsigned int ConfigUICinema_TypeDefinitionIndex = 87528;
 
 	class ConfigUICinema : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -41,6 +41,7 @@ namespace MoleMole
 		::System::Single specificNoiseAmplitudeGain; // 0xD8
 		::System::Single noiseDelayTime; // 0xDC
 		::System::Single noiseBlendDuration; // 0xE0
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* noiseBlendSpeedCurve; // 0xE8
 		::System::Single countDownEffectTime; // 0xF0
 		::System::Single npcAnimspeed; // 0xF4

@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEBUBBLENODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x149DFEF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEBUBBLENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x149DFFE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEBUBBLENODE__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x149E0020)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEBUBBLENODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x130CFB90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEBUBBLENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x130CFC80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREMOVEBUBBLENODE__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x130CFCC0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRemoveBubbleNode_TypeDefinitionIndex = 87692;
+	inline static constexpr unsigned int LDRemoveBubbleNode_TypeDefinitionIndex = 85317;
 
 	class LDRemoveBubbleNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{

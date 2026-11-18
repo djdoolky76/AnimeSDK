@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/ETickingGroup.h"
-#include "unitysdk/Foundation/TickFunction_1.h"
 
 namespace Foundation { class ExclusiveResourceManager; }
 
-#define FOUNDATION_EXCLUSIVERESOURCEMANAGER_TICKER_DOTICK_OFFSET UNITYSDK_OFFSET(0x1F8C44E0)
-#define FOUNDATION_EXCLUSIVERESOURCEMANAGER_TICKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8C4520)
+#define FOUNDATION_EXCLUSIVERESOURCEMANAGER_TICKER_DOTICK_OFFSET UNITYSDK_OFFSET(0x1FCC3A60)
+#define FOUNDATION_EXCLUSIVERESOURCEMANAGER_TICKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCC3AA0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ExclusiveResourceManager_Ticker_TypeDefinitionIndex = 8759;
+	inline static constexpr unsigned int ExclusiveResourceManager_Ticker_TypeDefinitionIndex = 8935;
 
-	class ExclusiveResourceManager_Ticker : public ::Foundation::TickFunction_1<::Foundation::ETickingGroup>
+	class ExclusiveResourceManager_Ticker
 	{
 	public:
 		::Foundation::ExclusiveResourceManager* Manager; // 0x28

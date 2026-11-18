@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC11500)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC11540)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1FC11550)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x20010530)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x20010570)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITWHILEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x20010580)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WaitWhilePromise___c_TypeDefinitionIndex = 31876;
+	inline static constexpr unsigned int UniTask_WaitWhilePromise___c_TypeDefinitionIndex = 31320;
 
 	class UniTask_WaitWhilePromise___c : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::UniTask_WaitWhilePromise___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask_WaitWhilePromise___c**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WaitWhilePromise___c_TypeDefinitionIndex)->GetStaticField(0x27060);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UniTask_WaitWhilePromise___c_TypeDefinitionIndex)->GetStaticField(0x28130);
 		}
 
 		static ::System::Void _cctor()

@@ -6,7 +6,7 @@ namespace UnityEngine { class Transform; }
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehicleModelNodes_TypeDefinitionIndex = 78641;
+	inline static constexpr unsigned int VehicleModelNodes_TypeDefinitionIndex = 51891;
 
 	struct alignas(8) VehicleModelNodes
 	{

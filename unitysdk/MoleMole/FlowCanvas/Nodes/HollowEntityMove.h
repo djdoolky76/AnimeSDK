@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_2.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowEntityMoveComponent_MoveCmd.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYMOVE_INVOKEINNER_OFFSET UNITYSDK_OFFSET(0x1382DEC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYMOVE_INVOKES_OFFSET UNITYSDK_OFFSET(0x1382E0B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYMOVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1382DE40)
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1382E120)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYMOVE_INVOKEINNER_OFFSET UNITYSDK_OFFSET(0x139D31A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYMOVE_INVOKES_OFFSET UNITYSDK_OFFSET(0x139D3390)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYMOVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x139D3120)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x139D3400)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int HollowEntityMove_TypeDefinitionIndex = 75251;
+	inline static constexpr unsigned int HollowEntityMove_TypeDefinitionIndex = 75230;
 
-	class HollowEntityMove : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::System::UInt32, ::MoleMole::HollowChessboard::HollowEntityMoveComponent_MoveCmd>
+	class HollowEntityMove
 	{
 	public:
 		::System::Void _ctor()

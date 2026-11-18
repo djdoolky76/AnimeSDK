@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_546C6222FBEA4460;
+class GIEMFJONNKB;
 
-#define MOLEMOLE_UIGENERALSORTWIDGETTOGGLEINFOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A316EC0)
+#define MOLEMOLE_UIGENERALSORTWIDGETTOGGLEINFOCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x197637D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralSortWidgetToggleInfoContext_TypeDefinitionIndex = 54030;
+	inline static constexpr unsigned int UIGeneralSortWidgetToggleInfoContext_TypeDefinitionIndex = 60794;
 
 	class UIGeneralSortWidgetToggleInfoContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_546C6222FBEA4460* ToggleInfo; // 0x28
+		::GIEMFJONNKB* ToggleInfo; // 0x28
 
 		::System::Void _ctor()
 		{

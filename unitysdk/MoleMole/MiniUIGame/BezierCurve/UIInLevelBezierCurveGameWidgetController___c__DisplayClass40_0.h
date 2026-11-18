@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_AD73F3F0692AA278.h"
+#include "unitysdk/HDAHILBOJEC.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole::MiniUIGame::BezierCurve { class UIMissionPointWidgetController; }
 
-#define MOLEMOLE_MINIUIGAME_BEZIERCURVE_UIINLEVELBEZIERCURVEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS40_0__CONTAINSDETECTEDPOINT_B__0_OFFSET UNITYSDK_OFFSET(0x136D1A70)
-#define MOLEMOLE_MINIUIGAME_BEZIERCURVE_UIINLEVELBEZIERCURVEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x136D1A60)
+#define MOLEMOLE_MINIUIGAME_BEZIERCURVE_UIINLEVELBEZIERCURVEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS40_0__CONTAINSDETECTEDPOINT_B__0_OFFSET UNITYSDK_OFFSET(0x135ADA90)
+#define MOLEMOLE_MINIUIGAME_BEZIERCURVE_UIINLEVELBEZIERCURVEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x135ADA80)
 
 namespace MoleMole::MiniUIGame::BezierCurve
 {
-	inline static constexpr unsigned int UIInLevelBezierCurveGameWidgetController___c__DisplayClass40_0_TypeDefinitionIndex = 43043;
+	inline static constexpr unsigned int UIInLevelBezierCurveGameWidgetController___c__DisplayClass40_0_TypeDefinitionIndex = 83645;
 
 	class UIInLevelBezierCurveGameWidgetController___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::Enum_3_AD73F3F0692AA278 type; // 0x10
+		::HDAHILBOJEC type; // 0x10
 
 		::System::Void _ctor()
 		{

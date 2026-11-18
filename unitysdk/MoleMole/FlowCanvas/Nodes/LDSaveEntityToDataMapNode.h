@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_4.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::FlowCanvas::Nodes { class EntitySaveDataMap; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSAVEENTITYTODATAMAPNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1684A4D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSAVEENTITYTODATAMAPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1684A8C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSAVEENTITYTODATAMAPNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D15120)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSAVEENTITYTODATAMAPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D15510)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSaveEntityToDataMapNode_TypeDefinitionIndex = 44106;
+	inline static constexpr unsigned int LDSaveEntityToDataMapNode_TypeDefinitionIndex = 51044;
 
-	class LDSaveEntityToDataMapNode : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::String*, ::MoleMole::FlowCanvas::Nodes::EntitySaveDataMap*>
+	class LDSaveEntityToDataMapNode
 	{
 	public:
 		::System::Void _ctor()

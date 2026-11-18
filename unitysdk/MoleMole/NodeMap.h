@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_NODEMAP_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x136E5D70)
-#define MOLEMOLE_NODEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x136E5EE0)
+#define MOLEMOLE_NODEMAP_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x135C6670)
+#define MOLEMOLE_NODEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x135C67E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NodeMap_TypeDefinitionIndex = 61993;
+	inline static constexpr unsigned int NodeMap_TypeDefinitionIndex = 56173;
 
 	class NodeMap : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_NODEMAP__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean TryGetValue(::System::String* a1, ::System::Collections::Generic::List_1<::System::String*>*& a2)
+		::System::Boolean TryGetValue(::System::String* MCOHLHMKLIP, ::System::Collections::Generic::List_1<::System::String*>*& EGEGIMGMJHN)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_NODEMAP_TRYGETVALUE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_NODEMAP_TRYGETVALUE_OFFSET))(this, MCOHLHMKLIP, EGEGIMGMJHN);
 		}
 	};
 }

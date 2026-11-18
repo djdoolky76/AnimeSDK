@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERAS_AVATARLAYOUTCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1279F430)
+#define MOLEMOLE_CAMERAS_AVATARLAYOUTCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AE090)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int AvatarLayoutCameraConfig_TypeDefinitionIndex = 56494;
+	inline static constexpr unsigned int AvatarLayoutCameraConfig_TypeDefinitionIndex = 91860;
 
 	class AvatarLayoutCameraConfig : public ::System::Object
 	{
@@ -21,16 +21,21 @@ namespace MoleMole::Cameras
 		::System::Single YawAngle; // 0x24
 		::System::Single RollAngle; // 0x28
 		::System::Boolean DisableFollowPosition; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::Single PositionDamping; // 0x30
 		::System::Boolean DisableFollowRotation; // 0x34
+		::System::Byte _padding1[0x3];
 		::System::Single RotationDamping; // 0x38
 		::System::Single BlendInDuration; // 0x3C
 		::System::String* BlendInCurveKey; // 0x40
 		::System::Single BlendOutDuration; // 0x48
+		::System::Byte _padding2[0x4];
 		::System::String* BlendOutCurveKey; // 0x50
 		::System::Boolean ManualSetCameraOutElevation; // 0x58
+		::System::Byte _padding3[0x3];
 		::System::Single CustomCameraOutElevation; // 0x5C
 		::System::Boolean ManualSetCameraOutPolar; // 0x60
+		::System::Byte _padding4[0x3];
 		::System::Single CustomCameraOutPolar; // 0x64
 		::System::Single CameraShakeRatio; // 0x68
 		::System::Single CameraZoomRatio; // 0x6C

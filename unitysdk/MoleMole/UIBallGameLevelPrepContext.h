@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_CC95A650FCE7BB57.h"
+#include "unitysdk/IJAKAMBLNJH.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIBALLGAMELEVELPREPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17094D60)
+#define MOLEMOLE_UIBALLGAMELEVELPREPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17041360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameLevelPrepContext_TypeDefinitionIndex = 49267;
+	inline static constexpr unsigned int UIBallGameLevelPrepContext_TypeDefinitionIndex = 73106;
 
 	class UIBallGameLevelPrepContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_CC95A650FCE7BB57 levelType; // 0x28
-		::System::Int32 selectGameLevelID; // 0x2C
+		::System::Int32 selectGameLevelID; // 0x28
+		::IJAKAMBLNJH levelType; // 0x2C
 
 		::System::Void _ctor()
 		{

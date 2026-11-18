@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigSurfVehicle; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_MONOSURFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FE650)
+#define MOLEMOLE_CONFIG_MONOSURFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192B23F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MonoSurfConfig_TypeDefinitionIndex = 71057;
+	inline static constexpr unsigned int MonoSurfConfig_TypeDefinitionIndex = 53095;
 
 	class MonoSurfConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

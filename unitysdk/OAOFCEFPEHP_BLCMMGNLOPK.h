@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JJEJBPGJPJN.h"
+
+class DPLNEIFPACM;
+class FOLOGHLENFB;
+template <typename T> class EFBMBOCNAJI_1;
+template <typename T> class KLIOMMIOFDC_1;
+
+#define OAOFCEFPEHP_BLCMMGNLOPK_HGHEJDEIFBG_OFFSET UNITYSDK_OFFSET(0xEEC9690)
+#define OAOFCEFPEHP_BLCMMGNLOPK_HIDNDEHEJMO_OFFSET UNITYSDK_OFFSET(0xEEC9990)
+#define OAOFCEFPEHP_BLCMMGNLOPK_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xEEC9550)
+#define OAOFCEFPEHP_BLCMMGNLOPK__CTOR_OFFSET UNITYSDK_OFFSET(0xEEC9680)
+
+inline static constexpr unsigned int OAOFCEFPEHP_BLCMMGNLOPK_TypeDefinitionIndex = 71790;
+
+class OAOFCEFPEHP_BLCMMGNLOPK : public ::JJEJBPGJPJN
+{
+public:
+	::KLIOMMIOFDC_1<::FOLOGHLENFB*>* ANCKPBMNNJH; // 0x88
+	::KLIOMMIOFDC_1<::DPLNEIFPACM*>* ENFHPFMFNAA; // 0x90
+	::EFBMBOCNAJI_1<::System::Int32>* MNOJLHBPHCG; // 0x98
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OAOFCEFPEHP_BLCMMGNLOPK__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnCreateProperty()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OAOFCEFPEHP_BLCMMGNLOPK_ONCREATEPROPERTY_OFFSET))(this);
+	}
+
+	::System::Void HGHEJDEIFBG(::System::Int32 HFMHOELKCAJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OAOFCEFPEHP_BLCMMGNLOPK_HGHEJDEIFBG_OFFSET))(this, HFMHOELKCAJ);
+	}
+
+	::System::Int32 HIDNDEHEJMO()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + OAOFCEFPEHP_BLCMMGNLOPK_HIDNDEHEJMO_OFFSET))(this);
+	}
+};

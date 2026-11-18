@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaFacet.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPATTERNFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECAA1B0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPATTERNFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F048F70)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaPatternFacet_TypeDefinitionIndex = 2148;
+	inline static constexpr unsigned int XmlSchemaPatternFacet_TypeDefinitionIndex = 2147;
 
 	class XmlSchemaPatternFacet : public ::System::Xml::Schema::XmlSchemaFacet
 	{

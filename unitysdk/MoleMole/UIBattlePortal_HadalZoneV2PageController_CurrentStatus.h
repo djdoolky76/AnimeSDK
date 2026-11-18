@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBattlePortal_HadalZoneV2PageController_CurrentStatus_TypeDefinitionIndex = 70035;
+	inline static constexpr unsigned int UIBattlePortal_HadalZoneV2PageController_CurrentStatus_TypeDefinitionIndex = 85858;
 
 	enum class UIBattlePortal_HadalZoneV2PageController_CurrentStatus : ::System::Int32
 	{

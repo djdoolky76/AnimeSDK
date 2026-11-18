@@ -7,11 +7,12 @@ namespace System { class String; }
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int PivotLocationDamperConfig_TypeDefinitionIndex = 38686;
+	inline static constexpr unsigned int PivotLocationDamperConfig_TypeDefinitionIndex = 36686;
 
 	struct alignas(8) PivotLocationDamperConfig
 	{
 		::System::Int32 Priority; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* DebugName; // 0x18
 		::PipelineCamera::PositionDampingAxis Axis; // 0x20
 		::System::Boolean ExternalUpdate; // 0x24

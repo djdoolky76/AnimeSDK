@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define MOLEMOLE_PRELOADOBJECT_METHOD_1_0BD4114815AFCF15_OFFSET UNITYSDK_OFFSET(0x1385D270)
-#define MOLEMOLE_PRELOADOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1385CF10)
-#define MOLEMOLE_PRELOADOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1385CF00)
+#define MOLEMOLE_PRELOADOBJECT_GPJEOEJDPNH_OFFSET UNITYSDK_OFFSET(0x13A03CA0)
+#define MOLEMOLE_PRELOADOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x13A03940)
+#define MOLEMOLE_PRELOADOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x13A03930)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PreloadObject_TypeDefinitionIndex = 66338;
+	inline static constexpr unsigned int PreloadObject_TypeDefinitionIndex = 51641;
 
 	class PreloadObject : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Type*>** StaticGet_AssetTpeArray()
 		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(PreloadObject_TypeDefinitionIndex)->GetStaticField(0x3FA40);
+			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(PreloadObject_TypeDefinitionIndex)->GetStaticField(0x44C60);
 		}
 		::System::String* AssetPath; // 0x10
 		::System::Int32 AssetType; // 0x18
@@ -33,9 +33,9 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_PRELOADOBJECT__CCTOR_OFFSET))();
 		}
 
-		::System::Type* Method_1_0BD4114815AFCF15()
+		::System::Type* GPJEOEJDPNH()
 		{
-			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PRELOADOBJECT_METHOD_1_0BD4114815AFCF15_OFFSET))(this);
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PRELOADOBJECT_GPJEOEJDPNH_OFFSET))(this);
 		}
 	};
 }

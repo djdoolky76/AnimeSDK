@@ -1,17 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NodeCanvas/Framework/GraphOwner.h"
-#include "unitysdk/NodeCanvas/Framework/Graph_UpdateMode.h"
 
-namespace NodeCanvas::Framework { class Graph; }
-namespace NodeCanvas::Framework { class IBlackboard; }
-namespace System { class Type; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int GraphOwner_1_TypeDefinitionIndex = 30721;
+	inline static constexpr unsigned int GraphOwner_1_TypeDefinitionIndex = 30191;
 
 	template <typename T>
 	class GraphOwner_1 : public ::NodeCanvas::Framework::GraphOwner

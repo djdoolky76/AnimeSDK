@@ -4,16 +4,17 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_FISHDAMAGECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x118AAA90)
+#define MOLEMOLE_FISHDAMAGECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x16229BE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FishDamageCurve_TypeDefinitionIndex = 85400;
+	inline static constexpr unsigned int FishDamageCurve_TypeDefinitionIndex = 83822;
 
 	class FishDamageCurve : public ::System::Object
 	{
 	public:
 		::System::Int32 Level; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* ClickDamageCurve; // 0x18
 		::UnityEngine::AnimationCurve* PressDamageCurve; // 0x20
 

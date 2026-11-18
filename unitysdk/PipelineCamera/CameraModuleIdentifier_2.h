@@ -2,16 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace System { class Object; }
-
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraModuleIdentifier_2_TypeDefinitionIndex = 38222;
+	inline static constexpr unsigned int CameraModuleIdentifier_2_TypeDefinitionIndex = 36224;
 
-	template <typename TCameraController, typename TPlayerController>
-	struct CameraModuleIdentifier_2
+	template <typename T1, typename T2>
+	struct alignas(8) CameraModuleIdentifier_2
 	{
-		TCameraController Controller; // 0x0
+		T1 Controller; // 0x0
 		::System::Int32 PipelineType; // 0x0
 		::System::Int32 ModuleIndex; // 0x0
 	};

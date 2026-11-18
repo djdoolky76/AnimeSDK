@@ -5,7 +5,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraDebugDrawLines2D_LineStrip_TypeDefinitionIndex = 38277;
+	inline static constexpr unsigned int CameraDebugDrawLines2D_LineStrip_TypeDefinitionIndex = 36279;
 
 	struct alignas(4) CameraDebugDrawLines2D_LineStrip
 	{

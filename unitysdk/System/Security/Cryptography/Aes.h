@@ -5,23 +5,23 @@
 namespace System { class String; }
 namespace System::Security::Cryptography { class KeySizes; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1D691C50)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES_CREATE_OFFSET UNITYSDK_OFFSET(0x1D691BE0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D691CF0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D691B50)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1DB5EFB0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES_CREATE_OFFSET UNITYSDK_OFFSET(0x1DB5EF40)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB5F050)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_AES__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5EEC0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int Aes_TypeDefinitionIndex = 1037;
+	inline static constexpr unsigned int Aes_TypeDefinitionIndex = 1036;
 
 	class Aes : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{
 	public:
-		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
+		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
 		{
 			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(Aes_TypeDefinitionIndex)->GetStaticField(0x930);
 		}
-		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
+		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
 		{
 			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(Aes_TypeDefinitionIndex)->GetStaticField(0x938);
 		}

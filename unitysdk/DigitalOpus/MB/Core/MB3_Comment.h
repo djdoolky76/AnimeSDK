@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define DIGITALOPUS_MB_CORE_MB3_COMMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F42D980)
+#define DIGITALOPUS_MB_CORE_MB3_COMMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F829370)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_Comment_TypeDefinitionIndex = 94495;
+	inline static constexpr unsigned int MB3_Comment_TypeDefinitionIndex = 96182;
 
 	class MB3_Comment : public ::UnityEngine::MonoBehaviour
 	{

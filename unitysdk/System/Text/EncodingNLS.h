@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace System::Text { class Decoder; }
 namespace System::Text { class Encoder; }
 
-#define SYSTEM_TEXT_ENCODINGNLS_GETBYTECOUNT_1_OFFSET UNITYSDK_OFFSET(0x1D8D48B0)
-#define SYSTEM_TEXT_ENCODINGNLS_GETBYTECOUNT_2_OFFSET UNITYSDK_OFFSET(0x1D8D4940)
-#define SYSTEM_TEXT_ENCODINGNLS_GETBYTECOUNT_OFFSET UNITYSDK_OFFSET(0x1D8D4740)
-#define SYSTEM_TEXT_ENCODINGNLS_GETBYTES_1_OFFSET UNITYSDK_OFFSET(0x1D8D4C10)
-#define SYSTEM_TEXT_ENCODINGNLS_GETBYTES_2_OFFSET UNITYSDK_OFFSET(0x1D8D4E40)
-#define SYSTEM_TEXT_ENCODINGNLS_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1D8D4A10)
-#define SYSTEM_TEXT_ENCODINGNLS_GETCHARCOUNT_1_OFFSET UNITYSDK_OFFSET(0x1D8D50D0)
-#define SYSTEM_TEXT_ENCODINGNLS_GETCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x1D8D4F60)
-#define SYSTEM_TEXT_ENCODINGNLS_GETCHARS_1_OFFSET UNITYSDK_OFFSET(0x1D8D53D0)
-#define SYSTEM_TEXT_ENCODINGNLS_GETCHARS_OFFSET UNITYSDK_OFFSET(0x1D8D51A0)
-#define SYSTEM_TEXT_ENCODINGNLS_GETDECODER_OFFSET UNITYSDK_OFFSET(0x1D8D5710)
-#define SYSTEM_TEXT_ENCODINGNLS_GETENCODER_OFFSET UNITYSDK_OFFSET(0x1D8D5780)
-#define SYSTEM_TEXT_ENCODINGNLS_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1D8D54F0)
-#define SYSTEM_TEXT_ENCODINGNLS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D46C0)
+#define SYSTEM_TEXT_ENCODINGNLS_GETBYTECOUNT_1_OFFSET UNITYSDK_OFFSET(0x1DDB0D50)
+#define SYSTEM_TEXT_ENCODINGNLS_GETBYTECOUNT_2_OFFSET UNITYSDK_OFFSET(0x1DDB0DE0)
+#define SYSTEM_TEXT_ENCODINGNLS_GETBYTECOUNT_OFFSET UNITYSDK_OFFSET(0x1DDB0BE0)
+#define SYSTEM_TEXT_ENCODINGNLS_GETBYTES_1_OFFSET UNITYSDK_OFFSET(0x1DDB10B0)
+#define SYSTEM_TEXT_ENCODINGNLS_GETBYTES_2_OFFSET UNITYSDK_OFFSET(0x1DDB12E0)
+#define SYSTEM_TEXT_ENCODINGNLS_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1DDB0EB0)
+#define SYSTEM_TEXT_ENCODINGNLS_GETCHARCOUNT_1_OFFSET UNITYSDK_OFFSET(0x1DDB1570)
+#define SYSTEM_TEXT_ENCODINGNLS_GETCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x1DDB1400)
+#define SYSTEM_TEXT_ENCODINGNLS_GETCHARS_1_OFFSET UNITYSDK_OFFSET(0x1DDB1870)
+#define SYSTEM_TEXT_ENCODINGNLS_GETCHARS_OFFSET UNITYSDK_OFFSET(0x1DDB1640)
+#define SYSTEM_TEXT_ENCODINGNLS_GETDECODER_OFFSET UNITYSDK_OFFSET(0x1DDB1BB0)
+#define SYSTEM_TEXT_ENCODINGNLS_GETENCODER_OFFSET UNITYSDK_OFFSET(0x1DDB1C20)
+#define SYSTEM_TEXT_ENCODINGNLS_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1DDB1990)
+#define SYSTEM_TEXT_ENCODINGNLS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDB0B60)
 
 namespace System::Text
 {
@@ -43,9 +43,9 @@ namespace System::Text
 			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGNLS_GETBYTECOUNT_1_OFFSET))(this, s);
 		}
 
-		::System::Int32 GetByteCount_2(::System::Char* chars, ::System::Int32 count)
+		::System::Int32 GetByteCount_2(::PVOID chars, ::System::Int32 count)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGNLS_GETBYTECOUNT_2_OFFSET))(this, chars, count);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGNLS_GETBYTECOUNT_2_OFFSET))(this, chars, count);
 		}
 
 		::System::Int32 GetBytes(::System::String* s, ::System::Int32 charIndex, ::System::Int32 charCount, ::Il2CppArray<::System::Byte>* bytes, ::System::Int32 byteIndex)
@@ -58,9 +58,9 @@ namespace System::Text
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGNLS_GETBYTES_1_OFFSET))(this, chars, charIndex, charCount, bytes, byteIndex);
 		}
 
-		::System::Int32 GetBytes_2(::System::Char* chars, ::System::Int32 charCount, ::System::Byte* bytes, ::System::Int32 byteCount)
+		::System::Int32 GetBytes_2(::PVOID chars, ::System::Int32 charCount, ::PVOID bytes, ::System::Int32 byteCount)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Char*, ::System::Int32, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGNLS_GETBYTES_2_OFFSET))(this, chars, charCount, bytes, byteCount);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGNLS_GETBYTES_2_OFFSET))(this, chars, charCount, bytes, byteCount);
 		}
 
 		::System::Int32 GetCharCount(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 index, ::System::Int32 count)
@@ -68,9 +68,9 @@ namespace System::Text
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGNLS_GETCHARCOUNT_OFFSET))(this, bytes, index, count);
 		}
 
-		::System::Int32 GetCharCount_1(::System::Byte* bytes, ::System::Int32 count)
+		::System::Int32 GetCharCount_1(::PVOID bytes, ::System::Int32 count)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGNLS_GETCHARCOUNT_1_OFFSET))(this, bytes, count);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGNLS_GETCHARCOUNT_1_OFFSET))(this, bytes, count);
 		}
 
 		::System::Int32 GetChars(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 byteIndex, ::System::Int32 byteCount, ::Il2CppArray<::System::Char>* chars, ::System::Int32 charIndex)
@@ -78,9 +78,9 @@ namespace System::Text
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGNLS_GETCHARS_OFFSET))(this, bytes, byteIndex, byteCount, chars, charIndex);
 		}
 
-		::System::Int32 GetChars_1(::System::Byte* bytes, ::System::Int32 byteCount, ::System::Char* chars, ::System::Int32 charCount)
+		::System::Int32 GetChars_1(::PVOID bytes, ::System::Int32 byteCount, ::PVOID chars, ::System::Int32 charCount)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Byte*, ::System::Int32, ::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGNLS_GETCHARS_1_OFFSET))(this, bytes, byteCount, chars, charCount);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODINGNLS_GETCHARS_1_OFFSET))(this, bytes, byteCount, chars, charCount);
 		}
 
 		::System::String* GetString(::Il2CppArray<::System::Byte>* bytes, ::System::Int32 index, ::System::Int32 count)

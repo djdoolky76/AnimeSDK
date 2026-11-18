@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/SymmetricAlgorithm.h"
 
-#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_PKZIPCLASSIC_GENERATEKEYS_OFFSET UNITYSDK_OFFSET(0x1FBFE300)
-#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_PKZIPCLASSIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBFE980)
+#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_PKZIPCLASSIC_GENERATEKEYS_OFFSET UNITYSDK_OFFSET(0x200016B0)
+#define ICSHARPCODE_SHARPZIPLIB_ENCRYPTION_PKZIPCLASSIC__CTOR_OFFSET UNITYSDK_OFFSET(0x20001D30)
 
 namespace ICSharpCode::SharpZipLib::Encryption
 {
-	inline static constexpr unsigned int PkzipClassic_TypeDefinitionIndex = 6798;
+	inline static constexpr unsigned int PkzipClassic_TypeDefinitionIndex = 6805;
 
 	class PkzipClassic : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{

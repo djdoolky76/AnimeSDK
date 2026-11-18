@@ -5,24 +5,26 @@
 
 class NPCEmotionClipConfig;
 class NPCEmotionEffectConfig;
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace miHoYoEmotion { class BaseShapeData; }
-namespace miHoYoEmotion { class ClipShapeManager_CurveBinding; }
 namespace miHoYoEmotion { class EmotionSetData; }
 
-#define NPCAVATAREMOTIONPARAMSSO_UNLOADASSETS_OFFSET UNITYSDK_OFFSET(0xD87AE20)
-#define NPCAVATAREMOTIONPARAMSSO__CTOR_OFFSET UNITYSDK_OFFSET(0xD87AE90)
+#define NPCAVATAREMOTIONPARAMSSO_UNLOADASSETS_OFFSET UNITYSDK_OFFSET(0xED50A20)
+#define NPCAVATAREMOTIONPARAMSSO__CTOR_OFFSET UNITYSDK_OFFSET(0xED50A90)
 
-inline static constexpr unsigned int NPCAvatarEmotionParamsSO_TypeDefinitionIndex = 70853;
+inline static constexpr unsigned int NPCAvatarEmotionParamsSO_TypeDefinitionIndex = 50126;
 
 class NPCAvatarEmotionParamsSO : public ::UnityEngine::ScriptableObject
 {
 public:
 	::miHoYoEmotion::BaseShapeData* shapeData; // 0x18
 	::System::Boolean matchBlendName; // 0x20
-	::System::Collections::Generic::List_1<::miHoYoEmotion::ClipShapeManager_CurveBinding*>* currModelBindingList; // 0x28
+	::System::Byte _padding0[0x7];
+	::System::Collections::Generic::List_1<::System::Object*>* currModelBindingList; // 0x28
 	::System::Boolean useBone; // 0x30
+	::System::Byte _padding1[0x3];
 	::miHoYoEmotion::ElementManager_Type type; // 0x34
 	::System::String* defaultEmotion; // 0x38
 	::System::String* resetEmotion; // 0x40

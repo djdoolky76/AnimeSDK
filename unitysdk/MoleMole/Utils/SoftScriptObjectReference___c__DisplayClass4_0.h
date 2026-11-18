@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/AssetRequestHandle.h"
 
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class ScriptableObject; }
 
-#define MOLEMOLE_UTILS_SOFTSCRIPTOBJECTREFERENCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E56730)
-#define MOLEMOLE_UTILS_SOFTSCRIPTOBJECTREFERENCE___C__DISPLAYCLASS4_0__LOADASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x11E56740)
+#define MOLEMOLE_UTILS_SOFTSCRIPTOBJECTREFERENCE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12FC4AD0)
+#define MOLEMOLE_UTILS_SOFTSCRIPTOBJECTREFERENCE___C__DISPLAYCLASS4_0__LOADASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x12FC4AE0)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int SoftScriptObjectReference___c__DisplayClass4_0_TypeDefinitionIndex = 43264;
+	inline static constexpr unsigned int SoftScriptObjectReference___c__DisplayClass4_0_TypeDefinitionIndex = 39011;
 
 	class SoftScriptObjectReference___c__DisplayClass4_0 : public ::System::Object
 	{

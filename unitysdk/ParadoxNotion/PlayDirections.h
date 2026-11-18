@@ -3,7 +3,7 @@
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int PlayDirections_TypeDefinitionIndex = 31136;
+	inline static constexpr unsigned int PlayDirections_TypeDefinitionIndex = 30673;
 
 	enum class PlayDirections : ::System::Int32
 	{

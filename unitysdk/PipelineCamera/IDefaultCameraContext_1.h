@@ -1,16 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraExternalValueCollection.h"
-#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
-#include "unitysdk/UnityEngine/Vector3.h"
-
-namespace PipelineCamera { class ICameraCommand; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int IDefaultCameraContext_1_TypeDefinitionIndex = 38145;
+	inline static constexpr unsigned int IDefaultCameraContext_1_TypeDefinitionIndex = 36147;
 
-	template <typename TController>
+	template <typename T>
 	class IDefaultCameraContext_1
 	{
 	public:

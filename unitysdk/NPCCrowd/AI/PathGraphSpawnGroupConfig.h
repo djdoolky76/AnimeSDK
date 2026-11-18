@@ -7,22 +7,25 @@ namespace NPCCrowd::AI { class PathGraphConfigExportComponent; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPCONFIG_GET_GROUPINDEX_OFFSET UNITYSDK_OFFSET(0x112784F0)
-#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11278450)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPCONFIG_GET_GROUPINDEX_OFFSET UNITYSDK_OFFSET(0x11F98480)
+#define NPCCROWD_AI_PATHGRAPHSPAWNGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11F983E0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSpawnGroupConfig_TypeDefinitionIndex = 53280;
+	inline static constexpr unsigned int PathGraphSpawnGroupConfig_TypeDefinitionIndex = 62344;
 
 	class PathGraphSpawnGroupConfig : public ::System::Object
 	{
 	public:
 		::System::Int32 groupID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* name; // 0x18
 		::System::Collections::Generic::List_1<::System::Int32>* tagList; // 0x20
 		::System::Int32 populationId; // 0x28
+		::System::Byte _padding1[0x4];
 		::System::String* movementStyle; // 0x30
 		::NPCCrowd::AI::PathGraphSpawnGroupConfig_SpawnGroupType type; // 0x38
+		::System::Byte _padding2[0x4];
 		::NPCCrowd::AI::PathGraphConfigExportComponent* exportConfig; // 0x40
 
 		::System::Void _ctor(::NPCCrowd::AI::PathGraphSpawnGroupConfig_SpawnGroupType type)

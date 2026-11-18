@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SINGLEWEATHERCONFIGWIND__CTOR_OFFSET UNITYSDK_OFFSET(0x1C51E230)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SINGLEWEATHERCONFIGWIND__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9CB6F0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SingleWeatherConfigWind_TypeDefinitionIndex = 27602;
+	inline static constexpr unsigned int SingleWeatherConfigWind_TypeDefinitionIndex = 27187;
 
 	class SingleWeatherConfigWind : public ::System::Object
 	{
@@ -19,10 +19,12 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single extraWindIntensity; // 0x18
 		::System::Single shakeFrequence; // 0x1C
 		::System::Single animationLoopTime; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* mainWindIntensityCurve; // 0x28
 		::UnityEngine::Vector3 pbdWindDirection; // 0x30
 		::System::Single pbdWindIntensity; // 0x3C
 		::System::Boolean useProceduralWindCurve; // 0x40
+		::System::Byte _padding1[0x3];
 		::System::Single pbdWindFerquence; // 0x44
 
 		::System::Void _ctor()

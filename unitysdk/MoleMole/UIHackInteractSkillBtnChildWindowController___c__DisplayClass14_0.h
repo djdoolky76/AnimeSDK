@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIHackInteractSkillBtnChildWindowController; }
 
-#define MOLEMOLE_UIHACKINTERACTSKILLBTNCHILDWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CLOSECOMMONBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x18820130)
-#define MOLEMOLE_UIHACKINTERACTSKILLBTNCHILDWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18820120)
+#define MOLEMOLE_UIHACKINTERACTSKILLBTNCHILDWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CLOSECOMMONBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x18386900)
+#define MOLEMOLE_UIHACKINTERACTSKILLBTNCHILDWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183868F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHackInteractSkillBtnChildWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 75934;
+	inline static constexpr unsigned int UIHackInteractSkillBtnChildWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 60659;
 
 	class UIHackInteractSkillBtnChildWindowController___c__DisplayClass14_0 : public ::System::Object
 	{

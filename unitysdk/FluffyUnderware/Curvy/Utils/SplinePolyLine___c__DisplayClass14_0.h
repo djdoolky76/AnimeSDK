@@ -4,20 +4,21 @@
 #include "unitysdk/ToolBuddy/Pooling/Collections/SubArrayList_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7A9980)
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE___C__DISPLAYCLASS14_0__GETPOLYGON_B__0_OFFSET UNITYSDK_OFFSET(0x1F7A9990)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBB2DF0)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE___C__DISPLAYCLASS14_0__GETPOLYGON_B__0_OFFSET UNITYSDK_OFFSET(0x1FBB2E00)
 
 namespace FluffyUnderware::Curvy::Utils
 {
-	inline static constexpr unsigned int SplinePolyLine___c__DisplayClass14_0_TypeDefinitionIndex = 39691;
+	inline static constexpr unsigned int SplinePolyLine___c__DisplayClass14_0_TypeDefinitionIndex = 37639;
 
 	class SplinePolyLine___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
 		::ToolBuddy::Pooling::Collections::SubArrayList_1<::UnityEngine::Vector3> vPos; // 0x10
-		::System::Single angleFromLast; // 0x30
+		::System::Byte _padding0[0x18];
+		::System::Int32 linearSteps; // 0x30
 		::System::Single distAccu; // 0x34
-		::System::Int32 linearSteps; // 0x38
+		::System::Single angleFromLast; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int AssetInformation_TypeDefinitionIndex = 39529;
+	inline static constexpr unsigned int AssetInformation_TypeDefinitionIndex = 37500;
 
 	class AssetInformation : public ::System::Object
 	{

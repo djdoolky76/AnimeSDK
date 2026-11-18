@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYSAMEGROUPFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x117037B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSAMEGROUPFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11703890)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSAMEGROUPFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0xFAC04D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSAMEGROUPFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC05B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntitySameGroupFilter_TypeDefinitionIndex = 72411;
+	inline static constexpr unsigned int ConfigEntitySameGroupFilter_TypeDefinitionIndex = 58303;
 
 	class ConfigEntitySameGroupFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{

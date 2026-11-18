@@ -7,11 +7,12 @@ namespace MoleMole { class UIBaseController; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotInGamePageController_NewbieData_TypeDefinitionIndex = 87262;
+	inline static constexpr unsigned int UIActivityHotpotInGamePageController_NewbieData_TypeDefinitionIndex = 43533;
 
 	struct alignas(8) UIActivityHotpotInGamePageController_NewbieData
 	{
 		::System::Int32 id; // 0x10
+		::System::Byte _padding0[0x4];
 		::MoleMole::UIBaseController* controller; // 0x18
 		::MoleMole::UIActivityHotpotInGamePageController_NewbieExtraFlag flag; // 0x20
 	};

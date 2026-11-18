@@ -6,21 +6,24 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TIMELINE_BUBBLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F990250)
+#define UNITYENGINE_TIMELINE_BUBBLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD79D10)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int BubbleInfo_TypeDefinitionIndex = 32934;
+	inline static constexpr unsigned int BubbleInfo_TypeDefinitionIndex = 32389;
 
 	class BubbleInfo : public ::System::Object
 	{
 	public:
 		::UnityEngine::Vector3 Position; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* Key; // 0x20
 		::UnityEngine::Vector3 Rotation; // 0x28
 		::System::Boolean showArrow; // 0x34
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector2 ArrowAnchorUGUIPosition; // 0x38
 		::System::Single sizeDeltaY; // 0x40
+		::System::Byte _padding2[0x4];
 		::System::String* externalKey; // 0x48
 		::System::Boolean hideWhenSplitScreen; // 0x50
 

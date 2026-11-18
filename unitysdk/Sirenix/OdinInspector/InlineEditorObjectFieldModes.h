@@ -3,7 +3,7 @@
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int InlineEditorObjectFieldModes_TypeDefinitionIndex = 7398;
+	inline static constexpr unsigned int InlineEditorObjectFieldModes_TypeDefinitionIndex = 7405;
 
 	enum class InlineEditorObjectFieldModes : ::System::Int32
 	{

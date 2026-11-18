@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ITurnBattleUnitSnapshot_1_TypeDefinitionIndex = 81101;
+	inline static constexpr unsigned int ITurnBattleUnitSnapshot_1_TypeDefinitionIndex = 78252;
 
 	template <typename T>
 	class ITurnBattleUnitSnapshot_1

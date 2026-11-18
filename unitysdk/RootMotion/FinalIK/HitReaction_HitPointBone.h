@@ -3,26 +3,26 @@
 #include "unitysdk/RootMotion/FinalIK/HitReaction_HitPoint.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RootMotion::FinalIK { class HitReaction_HitPointBone_BoneLink; }
 namespace RootMotion::FinalIK { class IKSolverFullBodyBiped; }
+namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Rigidbody; }
 
-#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTBONE_CROSSFADESTART_OFFSET UNITYSDK_OFFSET(0x1EEDD320)
-#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTBONE_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1EEDD280)
-#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTBONE_HIT_OFFSET UNITYSDK_OFFSET(0x1EEDCE30)
-#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTBONE_ONAPPLY_OFFSET UNITYSDK_OFFSET(0x1EEDD390)
-#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTBONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEDD490)
+#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTBONE_CROSSFADESTART_OFFSET UNITYSDK_OFFSET(0x1F25FA40)
+#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTBONE_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1F25F9A0)
+#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTBONE_HIT_OFFSET UNITYSDK_OFFSET(0x1F25F550)
+#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTBONE_ONAPPLY_OFFSET UNITYSDK_OFFSET(0x1F25FAB0)
+#define ROOTMOTION_FINALIK_HITREACTION_HITPOINTBONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F25FBB0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int HitReaction_HitPointBone_TypeDefinitionIndex = 38839;
+	inline static constexpr unsigned int HitReaction_HitPointBone_TypeDefinitionIndex = 36811;
 
 	class HitReaction_HitPointBone : public ::RootMotion::FinalIK::HitReaction_HitPoint
 	{
 	public:
 		::UnityEngine::AnimationCurve* aroundCenterOfMass; // 0x48
-		::Il2CppArray<::RootMotion::FinalIK::HitReaction_HitPointBone_BoneLink*>* boneLinks; // 0x50
+		::Il2CppArray<::System::Object*>* boneLinks; // 0x50
 		::UnityEngine::Rigidbody* rigidbody; // 0x58
 		::UnityEngine::Vector3 comAxis; // 0x60
 

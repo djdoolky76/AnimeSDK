@@ -3,7 +3,7 @@
 
 namespace System::Security::Authentication
 {
-	inline static constexpr unsigned int CipherAlgorithmType_TypeDefinitionIndex = 3145;
+	inline static constexpr unsigned int CipherAlgorithmType_TypeDefinitionIndex = 3144;
 
 	enum class CipherAlgorithmType : ::System::Int32
 	{

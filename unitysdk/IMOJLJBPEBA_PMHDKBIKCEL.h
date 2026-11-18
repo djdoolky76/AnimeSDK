@@ -1,0 +1,76 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class APFAOGMDCIH;
+class IMOJLJBPEBA;
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define IMOJLJBPEBA_PMHDKBIKCEL_JPCPBBAMDGJ_OFFSET UNITYSDK_OFFSET(0x1FBDB870)
+#define IMOJLJBPEBA_PMHDKBIKCEL_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1FBDB880)
+#define IMOJLJBPEBA_PMHDKBIKCEL_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MOLEMOLE_ARCADE_COREBASE_SIMPLEJSON_JSONNODE__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1FBDBA80)
+#define IMOJLJBPEBA_PMHDKBIKCEL_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_MOLEMOLE_ARCADE_COREBASE_SIMPLEJSON_JSONNODE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1FBDBA10)
+#define IMOJLJBPEBA_PMHDKBIKCEL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1FBDBB00)
+#define IMOJLJBPEBA_PMHDKBIKCEL_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1FBDBA70)
+#define IMOJLJBPEBA_PMHDKBIKCEL_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1FBDBA20)
+#define IMOJLJBPEBA_PMHDKBIKCEL_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1FBDB850)
+#define IMOJLJBPEBA_PMHDKBIKCEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBDB830)
+
+inline static constexpr unsigned int IMOJLJBPEBA_PMHDKBIKCEL_TypeDefinitionIndex = 29006;
+
+class IMOJLJBPEBA_PMHDKBIKCEL : public ::System::Object
+{
+public:
+	::IMOJLJBPEBA* KLHPEBKNIFB; // 0x10
+	::System::Object* GHANCJDIDBC; // 0x18
+	::System::Byte _padding0[0x20];
+	::APFAOGMDCIH* IDBEJJEKGDI; // 0x40
+	::System::Int32 FPDDAGHMOJB; // 0x48
+	::System::Int32 MDPILDGFNHN; // 0x4C
+
+	::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IMOJLJBPEBA_PMHDKBIKCEL__CTOR_OFFSET))(this, MDPILDGFNHN);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IMOJLJBPEBA_PMHDKBIKCEL_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + IMOJLJBPEBA_PMHDKBIKCEL_MOVENEXT_OFFSET))(this);
+	}
+
+	::APFAOGMDCIH* System_Collections_Generic_IEnumerator_MoleMole_Arcade_CoreBase_SimpleJSON_JSONNode__get_Current()
+	{
+		return ((::APFAOGMDCIH*(*)(::PVOID))((::PBYTE)hIl2Cpp + IMOJLJBPEBA_PMHDKBIKCEL_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_MOLEMOLE_ARCADE_COREBASE_SIMPLEJSON_JSONNODE__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IMOJLJBPEBA_PMHDKBIKCEL_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + IMOJLJBPEBA_PMHDKBIKCEL_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IEnumerator_1<::APFAOGMDCIH*>* System_Collections_Generic_IEnumerable_MoleMole_Arcade_CoreBase_SimpleJSON_JSONNode__GetEnumerator()
+	{
+		return ((::System::Collections::Generic::IEnumerator_1<::APFAOGMDCIH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IMOJLJBPEBA_PMHDKBIKCEL_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MOLEMOLE_ARCADE_COREBASE_SIMPLEJSON_JSONNODE__GETENUMERATOR_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+	{
+		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + IMOJLJBPEBA_PMHDKBIKCEL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+	}
+
+	::System::Void JPCPBBAMDGJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IMOJLJBPEBA_PMHDKBIKCEL_JPCPBBAMDGJ_OFFSET))(this);
+	}
+};

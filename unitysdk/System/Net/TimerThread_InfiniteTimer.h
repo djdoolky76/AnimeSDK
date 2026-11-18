@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/TimerThread_Timer.h"
 
-#define SYSTEM_NET_TIMERTHREAD_INFINITETIMER_CANCEL_OFFSET UNITYSDK_OFFSET(0x1C8882D0)
-#define SYSTEM_NET_TIMERTHREAD_INFINITETIMER_GET_HASEXPIRED_OFFSET UNITYSDK_OFFSET(0x1C8882C0)
-#define SYSTEM_NET_TIMERTHREAD_INFINITETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C888270)
+#define SYSTEM_NET_TIMERTHREAD_INFINITETIMER_CANCEL_OFFSET UNITYSDK_OFFSET(0x1CFC8A60)
+#define SYSTEM_NET_TIMERTHREAD_INFINITETIMER_GET_HASEXPIRED_OFFSET UNITYSDK_OFFSET(0x1CFC8A50)
+#define SYSTEM_NET_TIMERTHREAD_INFINITETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC8A00)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TimerThread_InfiniteTimer_TypeDefinitionIndex = 3403;
+	inline static constexpr unsigned int TimerThread_InfiniteTimer_TypeDefinitionIndex = 3402;
 
 	class TimerThread_InfiniteTimer : public ::System::Net::TimerThread_Timer
 	{

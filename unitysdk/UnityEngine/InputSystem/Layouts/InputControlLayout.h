@@ -3,14 +3,14 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/InputSystem/Layouts/InputControlLayout_Cache.h"
-#include "unitysdk/UnityEngine/InputSystem/Layouts/InputControlLayout_CacheRefInstance.h"
 #include "unitysdk/UnityEngine/InputSystem/Layouts/InputControlLayout_Collection.h"
-#include "unitysdk/UnityEngine/InputSystem/Layouts/InputControlLayout_ControlItem.h"
 #include "unitysdk/UnityEngine/InputSystem/Layouts/InputControlLayout_Flags.h"
-#include "unitysdk/UnityEngine/InputSystem/Layouts/InputDeviceMatcher.h"
 #include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 #include "unitysdk/UnityEngine/InputSystem/Utilities/InlinedArray_1.h"
 #include "unitysdk/UnityEngine/InputSystem/Utilities/InternedString.h"
+#include "unitysdk/UnityEngine/InputSystem/Layouts/InputControlLayout_CacheRefInstance.h"
+#include "unitysdk/UnityEngine/InputSystem/Layouts/InputControlLayout_ControlItem.h"
+#include "unitysdk/UnityEngine/InputSystem/Layouts/InputDeviceMatcher.h"
 #include "unitysdk/UnityEngine/InputSystem/Utilities/ReadOnlyArray_1.h"
 
 namespace System { class String; }
@@ -21,89 +21,91 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class MemberInfo; }
 namespace UnityEngine::InputSystem::Layouts { class InputControlAttribute; }
 
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMFIELDS_OFFSET UNITYSDK_OFFSET(0x1EB46D30)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMMEMBERS_OFFSET UNITYSDK_OFFSET(0x1EB46E30)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMMEMBER_OFFSET UNITYSDK_OFFSET(0x1EB47340)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1EB46DB0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMS_OFFSET UNITYSDK_OFFSET(0x1EB46A90)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CACHEREF_OFFSET UNITYSDK_OFFSET(0x1EB4AF40)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CREATECONTROLITEMFROMMEMBER_OFFSET UNITYSDK_OFFSET(0x1EB47540)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CREATELOOKUPTABLEFORCONTROLS_OFFSET UNITYSDK_OFFSET(0x1EB49CF0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FINDCONTROLINCLUDINGARRAYELEMENTS_OFFSET UNITYSDK_OFFSET(0x1EB460E0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FINDCONTROL_OFFSET UNITYSDK_OFFSET(0x1EB45F50)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1EB46D00)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FROMTYPE_OFFSET UNITYSDK_OFFSET(0x1EB465C0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GETVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EB46580)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_APPLIEDOVERRIDES_OFFSET UNITYSDK_OFFSET(0x1EB45AE0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_BASELAYOUTS_OFFSET UNITYSDK_OFFSET(0x1EB45A90)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x1EB4AEE0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_CANRUNINBACKGROUND_OFFSET UNITYSDK_OFFSET(0x1EB45D00)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_COMMONUSAGES_OFFSET UNITYSDK_OFFSET(0x1EB45B30)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_CONTROLS_OFFSET UNITYSDK_OFFSET(0x1EB45B60)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_DEFAULTVARIANT_OFFSET UNITYSDK_OFFSET(0x1EB459A0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1EB45A20)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_HIDEINUI_OFFSET UNITYSDK_OFFSET(0x1EB45CD0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_ISCONTROLLAYOUT_OFFSET UNITYSDK_OFFSET(0x1EB45C10)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_ISDEVICELAYOUT_OFFSET UNITYSDK_OFFSET(0x1EB45BB0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_ISGENERICTYPEOFDEVICE_OFFSET UNITYSDK_OFFSET(0x1EB45CA0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_ISOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1EB45C70)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1EB45D90)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EB45A10)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_STATEFORMAT_OFFSET UNITYSDK_OFFSET(0x1EB45A70)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_STATESIZEINBYTES_OFFSET UNITYSDK_OFFSET(0x1EB45A80)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EB45A50)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_UPDATEBEFORERENDER_OFFSET UNITYSDK_OFFSET(0x1EB45B90)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_VARIANTS_OFFSET UNITYSDK_OFFSET(0x1EB45A60)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_INFERLAYOUTFROMVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EB48030)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_MERGELAYOUT_OFFSET UNITYSDK_OFFSET(0x1EB48440)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_PARSEHEADERFIELDSFROMJSON_OFFSET UNITYSDK_OFFSET(0x1EB4A600)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_SET_CANRUNINBACKGROUND_OFFSET UNITYSDK_OFFSET(0x1EB45D20)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_SET_HIDEINUI_OFFSET UNITYSDK_OFFSET(0x1EB45CE0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_SET_ISGENERICTYPEOFDEVICE_OFFSET UNITYSDK_OFFSET(0x1EB45CB0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_SET_ISOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1EB45C80)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1EB46C30)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_VARIANTSMATCH_1_OFFSET UNITYSDK_OFFSET(0x1EB4A3A0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_VARIANTSMATCH_OFFSET UNITYSDK_OFFSET(0x1EB4A5A0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB4AFA0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB46BF0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT__MERGELAYOUT_B__74_0_OFFSET UNITYSDK_OFFSET(0x1EB4B000)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMFIELDS_OFFSET UNITYSDK_OFFSET(0x1EED78A0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMMEMBERS_OFFSET UNITYSDK_OFFSET(0x1EED79A0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMMEMBER_OFFSET UNITYSDK_OFFSET(0x1EED7EB0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1EED7920)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMS_OFFSET UNITYSDK_OFFSET(0x1EED7600)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CACHEREF_OFFSET UNITYSDK_OFFSET(0x1EEDBAC0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CREATECONTROLITEMFROMMEMBER_OFFSET UNITYSDK_OFFSET(0x1EED80B0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CREATELOOKUPTABLEFORCONTROLS_OFFSET UNITYSDK_OFFSET(0x1EEDA870)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FINDCONTROLINCLUDINGARRAYELEMENTS_OFFSET UNITYSDK_OFFSET(0x1EED6C30)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FINDCONTROL_OFFSET UNITYSDK_OFFSET(0x1EED6AA0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1EED7870)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FROMTYPE_OFFSET UNITYSDK_OFFSET(0x1EED7120)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GETVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EED70D0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_APPLIEDOVERRIDES_OFFSET UNITYSDK_OFFSET(0x1EED6640)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_BASELAYOUTS_OFFSET UNITYSDK_OFFSET(0x1EED65F0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x1EEDBA60)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_CANRUNINBACKGROUND_OFFSET UNITYSDK_OFFSET(0x1EED6860)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_COMMONUSAGES_OFFSET UNITYSDK_OFFSET(0x1EED6690)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_CONTROLS_OFFSET UNITYSDK_OFFSET(0x1EED66C0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_DEFAULTVARIANT_OFFSET UNITYSDK_OFFSET(0x1EED6510)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1EED6590)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_HIDEINUI_OFFSET UNITYSDK_OFFSET(0x1EED6830)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_ISCONTROLLAYOUT_OFFSET UNITYSDK_OFFSET(0x1EED6770)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_ISDEVICELAYOUT_OFFSET UNITYSDK_OFFSET(0x1EED6710)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_ISGENERICTYPEOFDEVICE_OFFSET UNITYSDK_OFFSET(0x1EED6800)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_ISOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1EED67D0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1EED68F0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EED6580)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_STATEFORMAT_OFFSET UNITYSDK_OFFSET(0x1EED65D0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_STATESIZEINBYTES_OFFSET UNITYSDK_OFFSET(0x1EED65E0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EED65B0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_UPDATEBEFORERENDER_OFFSET UNITYSDK_OFFSET(0x1EED66F0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_VARIANTS_OFFSET UNITYSDK_OFFSET(0x1EED65C0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_INFERLAYOUTFROMVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EED8BA0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_MERGELAYOUT_OFFSET UNITYSDK_OFFSET(0x1EED8FB0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_PARSEHEADERFIELDSFROMJSON_OFFSET UNITYSDK_OFFSET(0x1EEDB180)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_SET_CANRUNINBACKGROUND_OFFSET UNITYSDK_OFFSET(0x1EED6880)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_SET_HIDEINUI_OFFSET UNITYSDK_OFFSET(0x1EED6840)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_SET_ISGENERICTYPEOFDEVICE_OFFSET UNITYSDK_OFFSET(0x1EED6810)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_SET_ISOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1EED67E0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1EED77A0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_VARIANTSMATCH_1_OFFSET UNITYSDK_OFFSET(0x1EEDAF20)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_VARIANTSMATCH_OFFSET UNITYSDK_OFFSET(0x1EEDB120)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEDBB20)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EED7760)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT__MERGELAYOUT_B__74_0_OFFSET UNITYSDK_OFFSET(0x1EEDBB80)
 
 namespace UnityEngine::InputSystem::Layouts
 {
-	inline static constexpr unsigned int InputControlLayout_TypeDefinitionIndex = 32596;
+	inline static constexpr unsigned int InputControlLayout_TypeDefinitionIndex = 32045;
 
 	class InputControlLayout : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache* StaticGet_s_CacheInstance()
-		{
-			return (::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache*)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_TypeDefinitionIndex)->GetStaticField(0x27360);
-		}
 		static ::UnityEngine::InputSystem::Utilities::InternedString* StaticGet_s_DefaultVariant()
 		{
-			return (::UnityEngine::InputSystem::Utilities::InternedString*)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_TypeDefinitionIndex)->GetStaticField(0x27368);
+			return (::UnityEngine::InputSystem::Utilities::InternedString*)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_TypeDefinitionIndex)->GetStaticField(0x28440);
 		}
 		static ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection* StaticGet_s_Layouts()
 		{
-			return (::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection*)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_TypeDefinitionIndex)->GetStaticField(0x27378);
+			return (::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection*)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_TypeDefinitionIndex)->GetStaticField(0x28450);
+		}
+		static ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache* StaticGet_s_CacheInstance()
+		{
+			return (::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache*)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_TypeDefinitionIndex)->GetStaticField(0x28490);
 		}
 		static ::System::Int32* StaticGet_s_CacheInstanceRef()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_TypeDefinitionIndex)->GetStaticField(0x7C30);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(InputControlLayout_TypeDefinitionIndex)->GetStaticField(0x8030);
 		}
 		// static const ::System::String* VariantSeparator; // 0x0
-		::System::Type* m_Type; // 0x10
-		::UnityEngine::InputSystem::Utilities::InternedString m_Variants; // 0x18
-		::System::String* m_DisplayName; // 0x28
-		::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> m_AppliedOverrides; // 0x30
-		::Il2CppArray<::UnityEngine::InputSystem::Utilities::InternedString>* m_CommonUsages; // 0x50
+		::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> m_AppliedOverrides; // 0x10
+		::System::Byte _padding0[0x18];
+		::UnityEngine::InputSystem::Utilities::InternedString m_Variants; // 0x30
+		::UnityEngine::InputSystem::Utilities::InternedString m_Name; // 0x40
+		::Il2CppArray<::System::Object*>* m_Controls; // 0x50
 		::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> m_BaseLayouts; // 0x58
-		::System::String* m_Description; // 0x78
-		::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* m_Controls; // 0x80
-		::UnityEngine::InputSystem::Utilities::InternedString m_Name; // 0x88
-		::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags m_Flags; // 0x98
-		::UnityEngine::InputSystem::Utilities::FourCC m_StateFormat; // 0x9C
-		::System::Nullable_1<::System::Boolean> m_UpdateBeforeRender; // 0xA0
+		::System::Byte _padding1[0x18];
+		::System::String* m_DisplayName; // 0x78
+		::Il2CppArray<::UnityEngine::InputSystem::Utilities::InternedString>* m_CommonUsages; // 0x80
+		::System::String* m_Description; // 0x88
+		::System::Type* m_Type; // 0x90
+		::UnityEngine::InputSystem::Utilities::FourCC m_StateFormat; // 0x98
+		::System::Nullable_1<::System::Boolean> m_UpdateBeforeRender; // 0x9C
+		::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags m_Flags; // 0xA0
 		::System::Int32 m_StateSizeInBytes; // 0xA4
 
 		::System::Void _ctor(::System::String* name, ::System::Type* type)
@@ -166,9 +168,9 @@ namespace UnityEngine::InputSystem::Layouts
 			return ((::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString>(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_COMMONUSAGES_OFFSET))(this);
 		}
 
-		::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> get_controls()
+		::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::System::Object*> get_controls()
 		{
-			return ((::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_CONTROLS_OFFSET))(this);
+			return ((::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::System::Object*>(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_CONTROLS_OFFSET))(this);
 		}
 
 		::System::Boolean get_updateBeforeRender()
@@ -231,14 +233,14 @@ namespace UnityEngine::InputSystem::Layouts
 			return ((::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_GET_ITEM_OFFSET))(this, path);
 		}
 
-		::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> FindControl(::UnityEngine::InputSystem::Utilities::InternedString path)
+		::System::Nullable_1<::System::Object*> FindControl(::UnityEngine::InputSystem::Utilities::InternedString path)
 		{
-			return ((::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>(*)(::PVOID, ::UnityEngine::InputSystem::Utilities::InternedString))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FINDCONTROL_OFFSET))(this, path);
+			return ((::System::Nullable_1<::System::Object*>(*)(::PVOID, ::UnityEngine::InputSystem::Utilities::InternedString))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FINDCONTROL_OFFSET))(this, path);
 		}
 
-		::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> FindControlIncludingArrayElements(::System::String* path, ::System::Int32& arrayIndex)
+		::System::Nullable_1<::System::Object*> FindControlIncludingArrayElements(::System::String* path, ::System::Int32& arrayIndex)
 		{
-			return ((::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>(*)(::PVOID, ::System::String*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FINDCONTROLINCLUDINGARRAYELEMENTS_OFFSET))(this, path, arrayIndex);
+			return ((::System::Nullable_1<::System::Object*>(*)(::PVOID, ::System::String*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FINDCONTROLINCLUDINGARRAYELEMENTS_OFFSET))(this, path, arrayIndex);
 		}
 
 		::System::Type* GetValueType()
@@ -261,29 +263,29 @@ namespace UnityEngine::InputSystem::Layouts
 			return ((::UnityEngine::InputSystem::Layouts::InputControlLayout*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_FROMJSON_OFFSET))(json);
 		}
 
-		static ::System::Void AddControlItems(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlLayouts, ::System::String* layoutName)
+		static ::System::Void AddControlItems(::System::Type* type, ::System::Collections::Generic::List_1<::System::Object*>* controlLayouts, ::System::String* layoutName)
 		{
-			return ((::System::Void(*)(::System::Type*, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMS_OFFSET))(type, controlLayouts, layoutName);
+			return ((::System::Void(*)(::System::Type*, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMS_OFFSET))(type, controlLayouts, layoutName);
 		}
 
-		static ::System::Void AddControlItemsFromFields(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlLayouts, ::System::String* layoutName)
+		static ::System::Void AddControlItemsFromFields(::System::Type* type, ::System::Collections::Generic::List_1<::System::Object*>* controlLayouts, ::System::String* layoutName)
 		{
-			return ((::System::Void(*)(::System::Type*, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMFIELDS_OFFSET))(type, controlLayouts, layoutName);
+			return ((::System::Void(*)(::System::Type*, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMFIELDS_OFFSET))(type, controlLayouts, layoutName);
 		}
 
-		static ::System::Void AddControlItemsFromProperties(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlLayouts, ::System::String* layoutName)
+		static ::System::Void AddControlItemsFromProperties(::System::Type* type, ::System::Collections::Generic::List_1<::System::Object*>* controlLayouts, ::System::String* layoutName)
 		{
-			return ((::System::Void(*)(::System::Type*, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMPROPERTIES_OFFSET))(type, controlLayouts, layoutName);
+			return ((::System::Void(*)(::System::Type*, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMPROPERTIES_OFFSET))(type, controlLayouts, layoutName);
 		}
 
-		static ::System::Void AddControlItemsFromMembers(::Il2CppArray<::System::Reflection::MemberInfo*>* members, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlItems, ::System::String* layoutName)
+		static ::System::Void AddControlItemsFromMembers(::Il2CppArray<::System::Reflection::MemberInfo*>* members, ::System::Collections::Generic::List_1<::System::Object*>* controlItems, ::System::String* layoutName)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Reflection::MemberInfo*>*, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMMEMBERS_OFFSET))(members, controlItems, layoutName);
+			return ((::System::Void(*)(::Il2CppArray<::System::Reflection::MemberInfo*>*, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMMEMBERS_OFFSET))(members, controlItems, layoutName);
 		}
 
-		static ::System::Void AddControlItemsFromMember(::System::Reflection::MemberInfo* member, ::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputControlAttribute*>* attributes, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlItems)
+		static ::System::Void AddControlItemsFromMember(::System::Reflection::MemberInfo* member, ::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputControlAttribute*>* attributes, ::System::Collections::Generic::List_1<::System::Object*>* controlItems)
 		{
-			return ((::System::Void(*)(::System::Reflection::MemberInfo*, ::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputControlAttribute*>*, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMMEMBER_OFFSET))(member, attributes, controlItems);
+			return ((::System::Void(*)(::System::Reflection::MemberInfo*, ::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputControlAttribute*>*, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_ADDCONTROLITEMSFROMMEMBER_OFFSET))(member, attributes, controlItems);
 		}
 
 		static ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem CreateControlItemFromMember(::System::Reflection::MemberInfo* member, ::UnityEngine::InputSystem::Layouts::InputControlAttribute* attribute)
@@ -301,9 +303,9 @@ namespace UnityEngine::InputSystem::Layouts
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::Layouts::InputControlLayout*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_MERGELAYOUT_OFFSET))(this, other);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* CreateLookupTableForControls(::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlItems, ::System::Collections::Generic::List_1<::System::String*>* variants)
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* CreateLookupTableForControls(::Il2CppArray<::System::Object*>* controlItems, ::System::Collections::Generic::List_1<::System::String*>* variants)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*(*)(::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CREATELOOKUPTABLEFORCONTROLS_OFFSET))(controlItems, variants);
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*(*)(::Il2CppArray<::System::Object*>*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CREATELOOKUPTABLEFORCONTROLS_OFFSET))(controlItems, variants);
 		}
 
 		static ::System::Boolean VariantsMatch(::UnityEngine::InputSystem::Utilities::InternedString expected, ::UnityEngine::InputSystem::Utilities::InternedString actual)

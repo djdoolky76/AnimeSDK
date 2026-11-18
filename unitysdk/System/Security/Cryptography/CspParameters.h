@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/Cryptography/CspProviderFlags.h"
+#include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CSPPARAMETERS_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1E129E50)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CSPPARAMETERS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E129FC0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CSPPARAMETERS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E129F70)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CSPPARAMETERS__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1E12A010)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CSPPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E129F20)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CSPPARAMETERS_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1E496330)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CSPPARAMETERS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E4964A0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CSPPARAMETERS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E496450)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CSPPARAMETERS__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1E4964F0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CSPPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E496400)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int CspParameters_TypeDefinitionIndex = 1049;
+	inline static constexpr unsigned int CspParameters_TypeDefinitionIndex = 1048;
 
 	class CspParameters : public ::System::Object
 	{
 	public:
 		::System::String* ProviderName; // 0x10
 		::System::String* KeyContainerName; // 0x18
-		::System::Int32 KeyNumber; // 0x20
-		::System::Int32 m_flags; // 0x24
+		::System::Int32 m_flags; // 0x20
+		::System::Int32 KeyNumber; // 0x24
 		::System::Int32 ProviderType; // 0x28
 
 		::System::Void _ctor()

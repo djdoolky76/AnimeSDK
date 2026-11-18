@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityWhiteBalanceEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYWHITEBALANCEEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B0B70)
+#define MOLEMOLE_CONFIG_CONFIGENTITYWHITEBALANCEEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x16539AE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityWhiteBalanceEffects_TypeDefinitionIndex = 42641;
+	inline static constexpr unsigned int ConfigEntityWhiteBalanceEffects_TypeDefinitionIndex = 51315;
 
 	class ConfigEntityWhiteBalanceEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

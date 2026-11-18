@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIActivityFightUI_RewardGroup_ItemWidgetController_Data; }
 
-#define MOLEMOLE_UIACTIVITYFIGHTUI_REWARDGROUP_ITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1893C020)
+#define MOLEMOLE_UIACTIVITYFIGHTUI_REWARDGROUP_ITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E97D80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityFightUI_RewardGroup_ItemWidgetController_Context_TypeDefinitionIndex = 65061;
+	inline static constexpr unsigned int UIActivityFightUI_RewardGroup_ItemWidgetController_Context_TypeDefinitionIndex = 39191;
 
 	class UIActivityFightUI_RewardGroup_ItemWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

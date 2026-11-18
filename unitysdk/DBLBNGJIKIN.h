@@ -1,0 +1,81 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PBJOCICFNGK.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+
+class FIDHDFFENNM;
+class IOOIHHOJOPI;
+namespace MoleMole { class UITabBtn03RowWidgetController; }
+template <typename T> class LJHFMILANJA_1;
+template <typename T> class MEKABAIJMNM_1;
+
+#define DBLBNGJIKIN_DLEFGOFFBCJ_OFFSET UNITYSDK_OFFSET(0x147BFDD0)
+#define DBLBNGJIKIN_EJMLADDEHAE_OFFSET UNITYSDK_OFFSET(0x147BF7A0)
+#define DBLBNGJIKIN_EKIFPEICBMK_OFFSET UNITYSDK_OFFSET(0x147BFF10)
+#define DBLBNGJIKIN_LKNBCFOKJLO_OFFSET UNITYSDK_OFFSET(0x147BFD30)
+#define DBLBNGJIKIN_MOKINDNACHI_OFFSET UNITYSDK_OFFSET(0x147BF9D0)
+#define DBLBNGJIKIN_NPKBDILPMHJ_OFFSET UNITYSDK_OFFSET(0x147BFE80)
+#define DBLBNGJIKIN_PDKCHDBODJB_OFFSET UNITYSDK_OFFSET(0x147BFF20)
+#define DBLBNGJIKIN_PENDMLPCMKB_OFFSET UNITYSDK_OFFSET(0x147BFDC0)
+#define DBLBNGJIKIN_PILPKINFMBA_OFFSET UNITYSDK_OFFSET(0x147BFA50)
+#define DBLBNGJIKIN__CTOR_OFFSET UNITYSDK_OFFSET(0x147BFCE0)
+
+inline static constexpr unsigned int DBLBNGJIKIN_TypeDefinitionIndex = 72959;
+
+class DBLBNGJIKIN : public ::PBJOCICFNGK
+{
+public:
+	::MEKABAIJMNM_1<::MoleMole::UITabBtn03RowWidgetController*>* IKLJKIELNPP; // 0x50
+	::MoleMole::UITabBtn03RowWidgetController* GFACPBAEBKF; // 0x58
+	::LJHFMILANJA_1<::FIDHDFFENNM*>* _NIIOHJPLBJF_k__BackingField; // 0x60
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DBLBNGJIKIN__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EJMLADDEHAE(::LIBOIKJGAIH& EIEOJFEPMAB, ::IOOIHHOJOPI* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::IOOIHHOJOPI*))((::PBYTE)hIl2Cpp + DBLBNGJIKIN_EJMLADDEHAE_OFFSET))(this, EIEOJFEPMAB, IOKOLJDCKPN);
+	}
+
+	::System::Void MOKINDNACHI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DBLBNGJIKIN_MOKINDNACHI_OFFSET))(this);
+	}
+
+	::System::Void PILPKINFMBA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DBLBNGJIKIN_PILPKINFMBA_OFFSET))(this);
+	}
+
+	::System::Void LKNBCFOKJLO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DBLBNGJIKIN_LKNBCFOKJLO_OFFSET))(this);
+	}
+
+	::LJHFMILANJA_1<::FIDHDFFENNM*>* PENDMLPCMKB()
+	{
+		return ((::LJHFMILANJA_1<::FIDHDFFENNM*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DBLBNGJIKIN_PENDMLPCMKB_OFFSET))(this);
+	}
+
+	::System::Void DLEFGOFFBCJ(::System::Boolean LIEJIGMGGOL)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + DBLBNGJIKIN_DLEFGOFFBCJ_OFFSET))(this, LIEJIGMGGOL);
+	}
+
+	::System::Void NPKBDILPMHJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DBLBNGJIKIN_NPKBDILPMHJ_OFFSET))(this);
+	}
+
+	::System::Void EKIFPEICBMK(::LJHFMILANJA_1<::FIDHDFFENNM*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::FIDHDFFENNM*>*))((::PBYTE)hIl2Cpp + DBLBNGJIKIN_EKIFPEICBMK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void PDKCHDBODJB(::FIDHDFFENNM* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::FIDHDFFENNM*))((::PBYTE)hIl2Cpp + DBLBNGJIKIN_PDKCHDBODJB_OFFSET))(this, LJBPECKCCEA);
+	}
+};

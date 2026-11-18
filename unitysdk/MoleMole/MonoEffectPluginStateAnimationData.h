@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginStateAnimationData_TypeDefinitionIndex = 71589;
+	inline static constexpr unsigned int MonoEffectPluginStateAnimationData_TypeDefinitionIndex = 54331;
 
 	struct alignas(8) MonoEffectPluginStateAnimationData
 	{

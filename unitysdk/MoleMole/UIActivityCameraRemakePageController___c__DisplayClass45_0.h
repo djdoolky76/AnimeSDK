@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYCAMERAREMAKEPAGECONTROLLER___C__DISPLAYCLASS45_0__CLEARALLNOTIFICATION_B__0_OFFSET UNITYSDK_OFFSET(0x18938970)
-#define MOLEMOLE_UIACTIVITYCAMERAREMAKEPAGECONTROLLER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18938960)
+#define MOLEMOLE_UIACTIVITYCAMERAREMAKEPAGECONTROLLER___C__DISPLAYCLASS45_0__CLEARALLNOTIFICATION_B__0_OFFSET UNITYSDK_OFFSET(0x17E94420)
+#define MOLEMOLE_UIACTIVITYCAMERAREMAKEPAGECONTROLLER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E94410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCameraRemakePageController___c__DisplayClass45_0_TypeDefinitionIndex = 78920;
+	inline static constexpr unsigned int UIActivityCameraRemakePageController___c__DisplayClass45_0_TypeDefinitionIndex = 92024;
 
 	class UIActivityCameraRemakePageController___c__DisplayClass45_0 : public ::System::Object
 	{

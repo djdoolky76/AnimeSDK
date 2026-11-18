@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define COFFEE_UIPARTICLEEXTENSIONS_PARTICLESYSTEMEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E30F480)
-#define COFFEE_UIPARTICLEEXTENSIONS_PARTICLESYSTEMEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E30F4C0)
-#define COFFEE_UIPARTICLEEXTENSIONS_PARTICLESYSTEMEXTENSIONS___C__EXEC_B__9_0_OFFSET UNITYSDK_OFFSET(0x1E30F4D0)
+#define COFFEE_UIPARTICLEEXTENSIONS_PARTICLESYSTEMEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E20FDE0)
+#define COFFEE_UIPARTICLEEXTENSIONS_PARTICLESYSTEMEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E20FE20)
+#define COFFEE_UIPARTICLEEXTENSIONS_PARTICLESYSTEMEXTENSIONS___C__EXEC_B__9_0_OFFSET UNITYSDK_OFFSET(0x1E20FE30)
 
 namespace Coffee::UIParticleExtensions
 {
-	inline static constexpr unsigned int ParticleSystemExtensions___c_TypeDefinitionIndex = 34850;
+	inline static constexpr unsigned int ParticleSystemExtensions___c_TypeDefinitionIndex = 34396;
 
 	class ParticleSystemExtensions___c : public ::System::Object
 	{
 	public:
-		static ::Coffee::UIParticleExtensions::ParticleSystemExtensions___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Coffee::UIParticleExtensions::ParticleSystemExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(ParticleSystemExtensions___c_TypeDefinitionIndex)->GetStaticField(0x291A0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ParticleSystemExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2A400);
 		}
 		static ::System::Predicate_1<::UnityEngine::ParticleSystem*>** StaticGet___9__9_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(ParticleSystemExtensions___c_TypeDefinitionIndex)->GetStaticField(0x291A8);
+			return (::System::Predicate_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(ParticleSystemExtensions___c_TypeDefinitionIndex)->GetStaticField(0x2A408);
 		}
 
 		static ::System::Void _cctor()

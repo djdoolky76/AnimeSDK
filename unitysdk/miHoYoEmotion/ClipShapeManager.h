@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueTuple_2.h"
-#include "unitysdk/miHoYoEmotion/ClipShapeManager_CurveBinding_BoneParamType.h"
 #include "unitysdk/miHoYoEmotion/ElementManager.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -11,60 +11,61 @@ namespace System::Text::RegularExpressions { class Regex; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace miHoYoEmotion { class ClipShapeData; }
-namespace miHoYoEmotion { class ClipShapeManager_ClipShapeRuntime; }
 namespace miHoYoEmotion { class ClipShapeManager_CurveBinding; }
 namespace miHoYoEmotion { class EyeKey; }
 
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_APPLYBINDINGDATAATLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1D038F50)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_APPLYBINDINGDATA_OFFSET UNITYSDK_OFFSET(0x1D033270)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CACHEBINDINGVALUE_OFFSET UNITYSDK_OFFSET(0x1D033190)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CLEARBINDINGVALUECACHE_OFFSET UNITYSDK_OFFSET(0x1D0330F0)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CLEARSMRREFERENCES_OFFSET UNITYSDK_OFFSET(0x1D036390)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_GET_EYEKEY_OFFSET UNITYSDK_OFFSET(0x1D034D20)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_GET_FACEMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1D034CF0)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_GET_PHONEMESHAPERUNTIMES_OFFSET UNITYSDK_OFFSET(0x1D034D10)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_INITEMOANIM_OFFSET UNITYSDK_OFFSET(0x1D0390C0)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_INITFACEMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1D0352C0)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1D038F00)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_REFRESHBINDINGLIST_OFFSET UNITYSDK_OFFSET(0x1D02CF40)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_SET_FACEMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1D034D00)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_START_OFFSET UNITYSDK_OFFSET(0x1D034EF0)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_UPDATERUNTIMEINDEX_OFFSET UNITYSDK_OFFSET(0x1D039450)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_UPDATESHAPEDATA_OFFSET UNITYSDK_OFFSET(0x1D034FA0)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_UPDATESHAPERUNTIME_OFFSET UNITYSDK_OFFSET(0x1D039290)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D039F50)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0399C0)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER___BASE_INITEMOANIM_OFFSET UNITYSDK_OFFSET(0x1D03A000)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER___BASE_START_OFFSET UNITYSDK_OFFSET(0x1D03A090)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER___BASE_UPDATESHAPEDATA_OFFSET UNITYSDK_OFFSET(0x1D03A120)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER___BASE_UPDATESHAPERUNTIME_OFFSET UNITYSDK_OFFSET(0x1D03A1B0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_APPLYBINDINGDATAATLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1D58C580)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_APPLYBINDINGDATA_OFFSET UNITYSDK_OFFSET(0x1D586820)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CACHEBINDINGVALUE_OFFSET UNITYSDK_OFFSET(0x1D586740)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CLEARBINDINGVALUECACHE_OFFSET UNITYSDK_OFFSET(0x1D5866A0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CLEARSMRREFERENCES_OFFSET UNITYSDK_OFFSET(0x1D5899C0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_GET_EYEKEY_OFFSET UNITYSDK_OFFSET(0x1D5882E0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_GET_FACEMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1D5882B0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_GET_PHONEMESHAPERUNTIMES_OFFSET UNITYSDK_OFFSET(0x1D5882D0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_INITEMOANIM_OFFSET UNITYSDK_OFFSET(0x1D58C6F0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_INITFACEMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1D588880)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1D58C530)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_REFRESHBINDINGLIST_OFFSET UNITYSDK_OFFSET(0x1D580450)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_SET_FACEMESHRENDERER_OFFSET UNITYSDK_OFFSET(0x1D5882C0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_START_OFFSET UNITYSDK_OFFSET(0x1D5884B0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_UPDATERUNTIMEINDEX_OFFSET UNITYSDK_OFFSET(0x1D58CA80)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_UPDATESHAPEDATA_OFFSET UNITYSDK_OFFSET(0x1D588560)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_UPDATESHAPERUNTIME_OFFSET UNITYSDK_OFFSET(0x1D58C8C0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D58D580)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D58CFF0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER___BASE_INITEMOANIM_OFFSET UNITYSDK_OFFSET(0x1D58D630)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER___BASE_START_OFFSET UNITYSDK_OFFSET(0x1D58D6C0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER___BASE_UPDATESHAPEDATA_OFFSET UNITYSDK_OFFSET(0x1D58D750)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER___BASE_UPDATESHAPERUNTIME_OFFSET UNITYSDK_OFFSET(0x1D58D7E0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int ClipShapeManager_TypeDefinitionIndex = 40043;
+	inline static constexpr unsigned int ClipShapeManager_TypeDefinitionIndex = 38002;
 
 	class ClipShapeManager : public ::miHoYoEmotion::ElementManager
 	{
 	public:
 		static ::System::Text::RegularExpressions::Regex** StaticGet_faceRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ClipShapeManager_TypeDefinitionIndex)->GetStaticField(0x2C8C0);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ClipShapeManager_TypeDefinitionIndex)->GetStaticField(0x2DC20);
 		}
 		::UnityEngine::SkinnedMeshRenderer* _faceMeshRenderer_k__BackingField; // 0x48
 		::System::Boolean matchBlendName; // 0x50
-		::System::Collections::Generic::List_1<::miHoYoEmotion::ClipShapeManager_CurveBinding*>* currModelBindingList; // 0x58
-		::Il2CppArray<::miHoYoEmotion::ClipShapeManager_ClipShapeRuntime*>* _phonemeShapeRuntimes; // 0x60
-		::Il2CppArray<::miHoYoEmotion::ClipShapeManager_ClipShapeRuntime*>* _emotionShapeRuntimes; // 0x68
+		::System::Byte _padding0[0x7];
+		::System::Collections::Generic::List_1<::System::Object*>* currModelBindingList; // 0x58
+		::Il2CppArray<::System::Object*>* _phonemeShapeRuntimes; // 0x60
+		::Il2CppArray<::System::Object*>* _emotionShapeRuntimes; // 0x68
 		::miHoYoEmotion::ClipShapeData* _clipShapeData; // 0x70
 		::System::Boolean useBone; // 0x78
 		::System::Boolean isRefreshBindingList; // 0x79
+		::System::Byte _padding1[0x6];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* blendName2MeshIndex; // 0x80
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* currIndex2MeshIndex; // 0x88
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* meshIndex2CurrIndex; // 0x90
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* blendShapeName2CurrIndex; // 0x98
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::miHoYoEmotion::ClipShapeManager_CurveBinding_BoneParamType, ::System::String*>, ::System::Int32>* boneBindingType2CurrIndex; // 0xA0
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Object*, ::System::String*>, ::System::Int32>* boneBindingType2CurrIndex; // 0xA0
 		::miHoYoEmotion::EyeKey* eyeKey; // 0xA8
-		::System::Collections::Generic::Dictionary_2<::miHoYoEmotion::ClipShapeManager_CurveBinding*, ::System::Single>* bindingCacheValue; // 0xB0
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Single>* bindingCacheValue; // 0xB0
 		::System::Boolean _runtimeIndexUpdated; // 0xB8
 
 		::System::Void _ctor()
@@ -87,9 +88,9 @@ namespace miHoYoEmotion
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_CLIPSHAPEMANAGER_SET_FACEMESHRENDERER_OFFSET))(this, value);
 		}
 
-		::Il2CppArray<::miHoYoEmotion::ClipShapeManager_ClipShapeRuntime*>* get_PhonemeShapeRuntimes()
+		::Il2CppArray<::System::Object*>* get_PhonemeShapeRuntimes()
 		{
-			return ((::Il2CppArray<::miHoYoEmotion::ClipShapeManager_ClipShapeRuntime*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_CLIPSHAPEMANAGER_GET_PHONEMESHAPERUNTIMES_OFFSET))(this);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_CLIPSHAPEMANAGER_GET_PHONEMESHAPERUNTIMES_OFFSET))(this);
 		}
 
 		::miHoYoEmotion::EyeKey* get_EyeKey()

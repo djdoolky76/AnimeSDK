@@ -5,21 +5,22 @@
 
 namespace NPCCrowd::Ability { class NPCAbility; }
 
-#define NPCCROWD_ABILITY_NPCABILITYBRIDGEDATA_REFRESHDATA_OFFSET UNITYSDK_OFFSET(0x1063EA30)
-#define NPCCROWD_ABILITY_NPCABILITYBRIDGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1063EC10)
+#define NPCCROWD_ABILITY_NPCABILITYBRIDGEDATA_REFRESHDATA_OFFSET UNITYSDK_OFFSET(0xE1BD7F0)
+#define NPCCROWD_ABILITY_NPCABILITYBRIDGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE1BD9D0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityBridgeData_TypeDefinitionIndex = 48333;
+	inline static constexpr unsigned int NPCAbilityBridgeData_TypeDefinitionIndex = 51698;
 
 	class NPCAbilityBridgeData : public ::System::Object
 	{
 	public:
-		::System::Int32 stairType; // 0x10
-		::NPCCrowd::Ability::FTransformFragment transform; // 0x14
+		::NPCCrowd::Ability::FTransformFragment transform; // 0x10
+		::System::Int32 stairType; // 0x40
 		::System::Boolean IsPathFollowFinished; // 0x44
-		::System::Boolean navmeshArrived; // 0x45
-		::System::Boolean navmeshEnable; // 0x46
+		::System::Boolean navmeshEnable; // 0x45
+		::System::Boolean navmeshArrived; // 0x46
+		::System::Byte _padding0[0x1];
 		::System::Single attractorCDTimer; // 0x48
 
 		::System::Void _ctor()

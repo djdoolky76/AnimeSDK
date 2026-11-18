@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
-#include "unitysdk/MessagePack/MessagePackWriter.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/WrapMode.h"
+#include "unitysdk/MessagePack/MessagePackReader.h"
+#include "unitysdk/MessagePack/MessagePackWriter.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB75C30)
-#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB75C20)
-#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB75C40)
+#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF1E850)
+#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF1E840)
+#define MESSAGEPACK_UNITY_WRAPMODEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF1E860)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int WrapModeFormatter_TypeDefinitionIndex = 29879;
+	inline static constexpr unsigned int WrapModeFormatter_TypeDefinitionIndex = 30339;
 
 	class WrapModeFormatter : public ::System::Object
 	{

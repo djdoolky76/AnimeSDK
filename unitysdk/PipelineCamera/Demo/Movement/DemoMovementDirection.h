@@ -3,7 +3,7 @@
 
 namespace PipelineCamera::Demo::Movement
 {
-	inline static constexpr unsigned int DemoMovementDirection_TypeDefinitionIndex = 38418;
+	inline static constexpr unsigned int DemoMovementDirection_TypeDefinitionIndex = 36420;
 
 	enum class DemoMovementDirection : ::System::Int32
 	{

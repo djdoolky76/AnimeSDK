@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeWidgetController_EStickState_TypeDefinitionIndex = 78683;
+	inline static constexpr unsigned int UIMindscapeWidgetController_EStickState_TypeDefinitionIndex = 40360;
 
 	enum class UIMindscapeWidgetController_EStickState : ::System::Int32
 	{
-		Gyro = 0,
 		Stick = 1,
 		WaitReStartGyro = 2,
+		Gyro = 0,
 	};
 }

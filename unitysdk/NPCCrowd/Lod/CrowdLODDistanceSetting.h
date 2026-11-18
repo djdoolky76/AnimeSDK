@@ -3,12 +3,12 @@
 #include "unitysdk/NPCCrowd/Lod/ELODLevel.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_LOD_CROWDLODDISTANCESETTING_GETLODLEVEL_OFFSET UNITYSDK_OFFSET(0x756500)
-#define NPCCROWD_LOD_CROWDLODDISTANCESETTING_INITLODDEFAULTSETTING_OFFSET UNITYSDK_OFFSET(0x11949660)
+#define NPCCROWD_LOD_CROWDLODDISTANCESETTING_GETLODLEVEL_OFFSET UNITYSDK_OFFSET(0x633750)
+#define NPCCROWD_LOD_CROWDLODDISTANCESETTING_INITLODDEFAULTSETTING_OFFSET UNITYSDK_OFFSET(0x105FAFA0)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int CrowdLODDistanceSetting_TypeDefinitionIndex = 78945;
+	inline static constexpr unsigned int CrowdLODDistanceSetting_TypeDefinitionIndex = 71449;
 
 	struct alignas(8) CrowdLODDistanceSetting
 	{
@@ -16,10 +16,12 @@ namespace NPCCrowd::Lod
 		::Il2CppArray<::System::Single>* startLODDistance; // 0x18
 		::System::Single lodBias; // 0x20
 
+		/*
 		static ::NPCCrowd::Lod::CrowdLODDistanceSetting InitLODDefaultSetting(::Il2CppArray<::System::Single>* lodDis, ::System::Single lodBias)
 		{
 			return ((::NPCCrowd::Lod::CrowdLODDistanceSetting(*)(::Il2CppArray<::System::Single>*, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_CROWDLODDISTANCESETTING_INITLODDEFAULTSETTING_OFFSET))(lodDis, lodBias);
 		}
+		*/
 
 		::NPCCrowd::Lod::ELODLevel GetLodLevel(::System::Single distanceM, ::System::Single avatarLodBias)
 		{

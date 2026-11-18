@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
-#include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/LDStarRandomPositionTask_State.h"
+#include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
@@ -15,40 +15,40 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK_CLOSE_OFFSET UNITYSDK_OFFSET(0x19BE3E90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK_CORORANDOMPOSITION_OFFSET UNITYSDK_OFFSET(0x19BE4350)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK_PAUSE_OFFSET UNITYSDK_OFFSET(0x19BE3DB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19BE3A30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK_RESUME_OFFSET UNITYSDK_OFFSET(0x19BE3E20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK_START_OFFSET UNITYSDK_OFFSET(0x19BE3F70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE43F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK__REGISTERPORTS_B__18_0_OFFSET UNITYSDK_OFFSET(0x19BE4430)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK__REGISTERPORTS_B__18_1_OFFSET UNITYSDK_OFFSET(0x19BE4440)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK_CLOSE_OFFSET UNITYSDK_OFFSET(0x1A08F870)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK_CORORANDOMPOSITION_OFFSET UNITYSDK_OFFSET(0x1A08FD30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK_PAUSE_OFFSET UNITYSDK_OFFSET(0x1A08F790)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A08F410)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK_RESUME_OFFSET UNITYSDK_OFFSET(0x1A08F800)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK_START_OFFSET UNITYSDK_OFFSET(0x1A08F950)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A08FDD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK__REGISTERPORTS_B__18_0_OFFSET UNITYSDK_OFFSET(0x1A08FE10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONTASK__REGISTERPORTS_B__18_1_OFFSET UNITYSDK_OFFSET(0x1A08FE20)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDStarRandomPositionTask_TypeDefinitionIndex = 81144;
+	inline static constexpr unsigned int LDStarRandomPositionTask_TypeDefinitionIndex = 68476;
 
 	class LDStarRandomPositionTask : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Single>* _inputCellSize; // 0xA8
-		::FlowCanvas::FlowOutput* _flowOutputDo; // 0xB0
-		::FlowCanvas::ValueOutput_1<::UnityEngine::Vector3>* _outputPosition; // 0xB8
-		::FlowCanvas::FlowOutput* _flowOutputFinish; // 0xC0
-		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* inputCenter; // 0xC8
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* _inputCenterOffset; // 0xD0
-		::FlowCanvas::FlowOutput* _flowOutputOut; // 0xD8
-		::FlowCanvas::ValueInput_1<::System::Int32>* inputCount; // 0xE0
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::String*>*>* _inputDefaultExclude; // 0xE8
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector2>* inputRandomDelay; // 0xF0
-		::FlowCanvas::ValueInput_1<::System::Single>* inputInterval; // 0xF8
-		::UnityEngine::Coroutine* runingCoroutine; // 0x100
-		::FlowCanvas::ValueInput_1<::System::Single>* _inputRange; // 0x108
-		::FlowCanvas::FlowOutput* _groupStart; // 0x110
-		::MoleMole::FlowCanvas::Nodes::LDStarRandomPositionTask_State _state; // 0x118
-		::System::Int32 taskHandle; // 0x11C
-		::UnityEngine::Vector3 outPosition; // 0x120
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector2>* inputRandomDelay; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* inputCenter; // 0xB0
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* _inputCenterOffset; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Single>* _inputRange; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::String*>*>* _inputDefaultExclude; // 0xC8
+		::FlowCanvas::FlowOutput* _groupStart; // 0xD0
+		::FlowCanvas::FlowOutput* _flowOutputFinish; // 0xD8
+		::FlowCanvas::ValueInput_1<::System::Single>* _inputCellSize; // 0xE0
+		::FlowCanvas::FlowOutput* _flowOutputOut; // 0xE8
+		::FlowCanvas::ValueInput_1<::System::Single>* inputInterval; // 0xF0
+		::UnityEngine::Coroutine* runingCoroutine; // 0xF8
+		::FlowCanvas::FlowOutput* _flowOutputDo; // 0x100
+		::FlowCanvas::ValueOutput_1<::UnityEngine::Vector3>* _outputPosition; // 0x108
+		::FlowCanvas::ValueInput_1<::System::Int32>* inputCount; // 0x110
+		::UnityEngine::Vector3 outPosition; // 0x118
+		::System::Int32 taskHandle; // 0x124
+		::MoleMole::FlowCanvas::Nodes::LDStarRandomPositionTask_State _state; // 0x128
 
 		::System::Void _ctor()
 		{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_168;
-namespace MoleMole { class UIOverlordFeastIntroduceTipsPopWindowController___c__DisplayClass9_0; }
+class JONIDDDCNNG;
 
-#define MOLEMOLE_UIOVERLORDFEASTINTRODUCETIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1756A840)
-#define MOLEMOLE_UIOVERLORDFEASTINTRODUCETIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_2__REFRESHVIEW_B__6_OFFSET UNITYSDK_OFFSET(0x1756A850)
+#define MOLEMOLE_UIOVERLORDFEASTINTRODUCETIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18FDD3F0)
+#define MOLEMOLE_UIOVERLORDFEASTINTRODUCETIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_2__REFRESHVIEW_B__6_OFFSET UNITYSDK_OFFSET(0x18FDD400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastIntroduceTipsPopWindowController___c__DisplayClass9_2_TypeDefinitionIndex = 46444;
+	inline static constexpr unsigned int UIOverlordFeastIntroduceTipsPopWindowController___c__DisplayClass9_2_TypeDefinitionIndex = 57645;
 
+	template <typename T1, typename T2>
 	class UIOverlordFeastIntroduceTipsPopWindowController___c__DisplayClass9_2 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIOverlordFeastIntroduceTipsPopWindowController___c__DisplayClass9_0* CS___8__locals2; // 0x10
-		::Class_2_208CC9941471731A_168* gameConfig; // 0x18
+		::System::Object* CS___8__locals2; // 0x10
+		::JONIDDDCNNG* gameConfig; // 0x18
 
 		::System::Void _ctor()
 		{

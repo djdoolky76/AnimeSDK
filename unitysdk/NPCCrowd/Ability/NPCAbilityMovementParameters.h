@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Ability/FNPCAbilityMovementStyleSpeedParameters.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/NPCCrowd/Ability/FNPCAbilityMovementStyleSpeedParameters.h"
 
 namespace NPCCrowd::Ability { class NPCAbilityMovementMoveStyleParameters; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTPARAMETERS_GETMOVEMENTPARAMBYANIMID_OFFSET UNITYSDK_OFFSET(0xD886180)
-#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTPARAMETERS_RANDDESIREDMOVESPEED_OFFSET UNITYSDK_OFFSET(0xD8853A0)
-#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTPARAMETERS_REFRESH_OFFSET UNITYSDK_OFFSET(0xD884DD0)
-#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0xD887BF0)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTPARAMETERS_GETMOVEMENTPARAMBYANIMID_OFFSET UNITYSDK_OFFSET(0xED5BC30)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTPARAMETERS_RANDDESIREDMOVESPEED_OFFSET UNITYSDK_OFFSET(0xED5AE50)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTPARAMETERS_REFRESH_OFFSET UNITYSDK_OFFSET(0xED5A880)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0xED5D6A0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityMovementParameters_TypeDefinitionIndex = 55941;
+	inline static constexpr unsigned int NPCAbilityMovementParameters_TypeDefinitionIndex = 91982;
 
 	class NPCAbilityMovementParameters : public ::System::Object
 	{
@@ -27,6 +27,7 @@ namespace NPCCrowd::Ability
 		::System::Single DownStairSpeed; // 0x24
 		::System::Single StairPrepareDistance; // 0x28
 		::System::Boolean EnablePhysicsGroundedOnStair; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCAbilityMovementMoveStyleParameters*>* MovementStyles; // 0x30
 		::System::String* DefaultMovementStyle; // 0x38
 

@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_GUICOLORATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F770280)
-#define SIRENIX_ODININSPECTOR_GUICOLORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F770260)
+#define SIRENIX_ODININSPECTOR_GUICOLORATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FB804A0)
+#define SIRENIX_ODININSPECTOR_GUICOLORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB80480)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int GUIColorAttribute_TypeDefinitionIndex = 7303;
+	inline static constexpr unsigned int GUIColorAttribute_TypeDefinitionIndex = 7310;
 
 	class GUIColorAttribute : public ::System::Attribute
 	{

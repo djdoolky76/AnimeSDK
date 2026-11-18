@@ -7,20 +7,20 @@ namespace NodeGraph { class GraphOutputValuePort; }
 namespace NodeGraph { template <typename T> class GraphPortList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NODEGRAPH_GRAPHVALUECONNECTION_ADDOUTPORT_OFFSET UNITYSDK_OFFSET(0x17FB9250)
-#define NODEGRAPH_GRAPHVALUECONNECTION_REMOVEOUTPORT_OFFSET UNITYSDK_OFFSET(0x17FB9390)
-#define NODEGRAPH_GRAPHVALUECONNECTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17FB9040)
-#define NODEGRAPH_GRAPHVALUECONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17FB8F50)
+#define NODEGRAPH_GRAPHVALUECONNECTION_ADDOUTPORT_OFFSET UNITYSDK_OFFSET(0x114DE890)
+#define NODEGRAPH_GRAPHVALUECONNECTION_REMOVEOUTPORT_OFFSET UNITYSDK_OFFSET(0x114DE9D0)
+#define NODEGRAPH_GRAPHVALUECONNECTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x114DE680)
+#define NODEGRAPH_GRAPHVALUECONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x114DE590)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphValueConnection_TypeDefinitionIndex = 89646;
+	inline static constexpr unsigned int GraphValueConnection_TypeDefinitionIndex = 53009;
 
 	class GraphValueConnection : public ::System::Object
 	{
 	public:
-		::NodeGraph::GraphOutputValuePort* _in; // 0x10
-		::NodeGraph::GraphPortList_1<::NodeGraph::GraphInputValuePort*>* _outList; // 0x18
+		::NodeGraph::GraphPortList_1<::NodeGraph::GraphInputValuePort*>* _outList; // 0x10
+		::NodeGraph::GraphOutputValuePort* _in; // 0x18
 
 		::System::Void _ctor(::NodeGraph::GraphOutputValuePort* inPort, ::NodeGraph::GraphInputValuePort* outPort)
 		{

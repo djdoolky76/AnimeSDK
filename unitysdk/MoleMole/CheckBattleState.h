@@ -6,19 +6,20 @@
 
 namespace MoleMole { class SharedGameEntity; }
 
-#define MOLEMOLE_CHECKBATTLESTATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12CA9A00)
-#define MOLEMOLE_CHECKBATTLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x12CA9BD0)
-#define MOLEMOLE_CHECKBATTLESTATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12CA9C60)
+#define MOLEMOLE_CHECKBATTLESTATE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19088E10)
+#define MOLEMOLE_CHECKBATTLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19088FE0)
+#define MOLEMOLE_CHECKBATTLESTATE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19089070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckBattleState_TypeDefinitionIndex = 52289;
+	inline static constexpr unsigned int CheckBattleState_TypeDefinitionIndex = 79280;
 
 	class CheckBattleState : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
 		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x50
 		::System::Boolean IsEqual; // 0x58
+		::System::Byte _padding0[0x3];
 		::MoleMole::AIBattleState BattleValue; // 0x5C
 
 		::System::Void _ctor()

@@ -5,16 +5,17 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TIMELINE_COMICSHAKEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB20D60)
+#define UNITYENGINE_TIMELINE_COMICSHAKEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1B6E0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ComicShakeEvent_TypeDefinitionIndex = 32966;
+	inline static constexpr unsigned int ComicShakeEvent_TypeDefinitionIndex = 32421;
 
 	class ComicShakeEvent : public ::UnityEngine::Timeline::LogicEventBase
 	{
 	public:
 		::MoleMole::ComicImgPart shakePart; // 0x48
+		::System::Byte _padding0[0x4];
 		::System::String* shakeKey; // 0x50
 		::System::String* voiceKey; // 0x58
 

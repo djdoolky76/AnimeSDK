@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
 
 namespace MoleMole { class LevelTriggerShapParam; }
 namespace MoleMole { class MonoSceneToFindObject; }
 
-#define MOLEMOLE_MONOSPAWNPOINT_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0x13AC4F10)
-#define MOLEMOLE_MONOSPAWNPOINT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x13A864A0)
-#define MOLEMOLE_MONOSPAWNPOINT_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x13A86500)
-#define MOLEMOLE_MONOSPAWNPOINT_GET_SCENETOFINDOBJECT_OFFSET UNITYSDK_OFFSET(0x13AC5080)
-#define MOLEMOLE_MONOSPAWNPOINT_GET_TRIGGERPARAM_OFFSET UNITYSDK_OFFSET(0x13AC5070)
-#define MOLEMOLE_MONOSPAWNPOINT_GET_XZPOSITION_OFFSET UNITYSDK_OFFSET(0x13AC4E10)
-#define MOLEMOLE_MONOSPAWNPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x13AC5160)
+#define MOLEMOLE_MONOSPAWNPOINT_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0x1469D410)
+#define MOLEMOLE_MONOSPAWNPOINT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x14660CF0)
+#define MOLEMOLE_MONOSPAWNPOINT_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x14660D50)
+#define MOLEMOLE_MONOSPAWNPOINT_GET_SCENETOFINDOBJECT_OFFSET UNITYSDK_OFFSET(0x1469D580)
+#define MOLEMOLE_MONOSPAWNPOINT_GET_TRIGGERPARAM_OFFSET UNITYSDK_OFFSET(0x1469D570)
+#define MOLEMOLE_MONOSPAWNPOINT_GET_XZPOSITION_OFFSET UNITYSDK_OFFSET(0x1469D310)
+#define MOLEMOLE_MONOSPAWNPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1469D660)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSpawnPoint_TypeDefinitionIndex = 47970;
+	inline static constexpr unsigned int MonoSpawnPoint_TypeDefinitionIndex = 83178;
 
 	class MonoSpawnPoint : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,12 +26,15 @@ namespace MoleMole
 		::System::Boolean _isTrigger; // 0x18
 		::System::Boolean _showGizmos; // 0x19
 		::System::Boolean _wireMode; // 0x1A
+		::System::Byte _padding0[0x1];
 		::UnityEngine::Color _color; // 0x1C
 		::UnityEngine::Vector3 _gizmosSize; // 0x2C
 		::UnityEngine::Vector3 _gizmosOffset; // 0x38
+		::System::Byte _padding1[0x4];
 		::MoleMole::LevelTriggerShapParam* triggerParam; // 0x48
-		::System::Boolean Field_5_4; // 0x50
-		::MoleMole::MonoSceneToFindObject* Field_5_11; // 0x58
+		::System::Boolean MNFBBJBDLPP; // 0x50
+		::System::Byte _padding2[0x7];
+		::MoleMole::MonoSceneToFindObject* IMNLMIAIPIP; // 0x58
 
 		::System::Void _ctor()
 		{

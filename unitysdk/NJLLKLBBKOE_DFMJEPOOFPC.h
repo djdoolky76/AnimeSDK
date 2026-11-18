@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIBMJLOJLKD.h"
+
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+namespace MoleMole { class UIControlCollection; }
+namespace MoleMole { class UIGeneralBtn03WidgetController; }
+template <typename T> class MEKABAIJMNM_1;
+
+#define NJLLKLBBKOE_DFMJEPOOFPC_AIJFDAOBFPI_OFFSET UNITYSDK_OFFSET(0xFD021C0)
+#define NJLLKLBBKOE_DFMJEPOOFPC_ANONBDGILCO_OFFSET UNITYSDK_OFFSET(0xFD021E0)
+#define NJLLKLBBKOE_DFMJEPOOFPC_BJMMOABMAJE_OFFSET UNITYSDK_OFFSET(0xFD021D0)
+#define NJLLKLBBKOE_DFMJEPOOFPC_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0xFD02120)
+#define NJLLKLBBKOE_DFMJEPOOFPC_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0xFD02020)
+#define NJLLKLBBKOE_DFMJEPOOFPC_OFLGFJBADDK_OFFSET UNITYSDK_OFFSET(0xFD02110)
+#define NJLLKLBBKOE_DFMJEPOOFPC_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0xFD01EA0)
+#define NJLLKLBBKOE_DFMJEPOOFPC__CTOR_OFFSET UNITYSDK_OFFSET(0xFD02100)
+
+inline static constexpr unsigned int NJLLKLBBKOE_DFMJEPOOFPC_TypeDefinitionIndex = 45331;
+
+class NJLLKLBBKOE_DFMJEPOOFPC : public ::GIBMJLOJLKD
+{
+public:
+	::LGINJIKKBJA* _JLHGKIJIEDG_k__BackingField; // 0x18
+	::MEKABAIJMNM_1<::MoleMole::UIGeneralBtn03WidgetController*>* _JMHDBDHJECJ_k__BackingField; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NJLLKLBBKOE_DFMJEPOOFPC__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + NJLLKLBBKOE_DFMJEPOOFPC_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::MEKABAIJMNM_1<::MoleMole::UIGeneralBtn03WidgetController*>* OFLGFJBADDK()
+	{
+		return ((::MEKABAIJMNM_1<::MoleMole::UIGeneralBtn03WidgetController*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NJLLKLBBKOE_DFMJEPOOFPC_OFLGFJBADDK_OFFSET))(this);
+	}
+
+	::System::Void ECNOGHHOPPF(::HNLACBJDCGI* MIALFKCCCPI, ::MoleMole::UIControlCollection* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + NJLLKLBBKOE_DFMJEPOOFPC_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+
+	::System::Void AIJFDAOBFPI(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + NJLLKLBBKOE_DFMJEPOOFPC_AIJFDAOBFPI_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void BJMMOABMAJE(::MEKABAIJMNM_1<::MoleMole::UIGeneralBtn03WidgetController*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MEKABAIJMNM_1<::MoleMole::UIGeneralBtn03WidgetController*>*))((::PBYTE)hIl2Cpp + NJLLKLBBKOE_DFMJEPOOFPC_BJMMOABMAJE_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LGINJIKKBJA* ANONBDGILCO()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + NJLLKLBBKOE_DFMJEPOOFPC_ANONBDGILCO_OFFSET))(this);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NJLLKLBBKOE_DFMJEPOOFPC_KGEBDLGBGNM_OFFSET))(this);
+	}
+};

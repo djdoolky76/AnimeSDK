@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class FrameEstimateInfoPassNativeState; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_FRAMEESTIMATEINFOPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E7CB0D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_FRAMEESTIMATEINFOPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E7CB100)
-#define UNITYENGINE_NAPRENDERPIPELINE0_FRAMEESTIMATEINFOPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7CB050)
+#define UNITYENGINE_NAPRENDERPIPELINE0_FRAMEESTIMATEINFOPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E977C90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_FRAMEESTIMATEINFOPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E977CC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_FRAMEESTIMATEINFOPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E977C10)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int FrameEstimateInfoPass_NativeImpl_TypeDefinitionIndex = 5784;
+	inline static constexpr unsigned int FrameEstimateInfoPass_NativeImpl_TypeDefinitionIndex = 5789;
 
 	class FrameEstimateInfoPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

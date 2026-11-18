@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DepthTextureMode_TypeDefinitionIndex = 5229;
+	inline static constexpr unsigned int DepthTextureMode_TypeDefinitionIndex = 5231;
 
 	enum class DepthTextureMode : ::System::Int32
 	{

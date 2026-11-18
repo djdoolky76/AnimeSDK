@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7FA27888FA17A22A.h"
+#include "unitysdk/HPBIMDNDPLK.h"
 #include "unitysdk/MoleMole/GraphicEnumSettingEntryBase.h"
 #include "unitysdk/MoleMole/GraphicSettingProfileType.h"
 
-#define MOLEMOLE_VSYNCSETTINGENTRY_GET_PROFILETYPE_OFFSET UNITYSDK_OFFSET(0x11E567E0)
-#define MOLEMOLE_VSYNCSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x11E567D0)
-#define MOLEMOLE_VSYNCSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x11E567F0)
+#define MOLEMOLE_VSYNCSETTINGENTRY_GET_PROFILETYPE_OFFSET UNITYSDK_OFFSET(0x12FC4B80)
+#define MOLEMOLE_VSYNCSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x12FC4B70)
+#define MOLEMOLE_VSYNCSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12FC4B90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VSyncSettingEntry_TypeDefinitionIndex = 91497;
+	inline static constexpr unsigned int VSyncSettingEntry_TypeDefinitionIndex = 57376;
 
 	class VSyncSettingEntry : public ::MoleMole::GraphicEnumSettingEntryBase
 	{
@@ -20,9 +20,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_VSYNCSETTINGENTRY__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_7FA27888FA17A22A get_SettingContentType()
+		::HPBIMDNDPLK get_SettingContentType()
 		{
-			return ((::Enum_3_7FA27888FA17A22A(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_VSYNCSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET))(this);
+			return ((::HPBIMDNDPLK(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_VSYNCSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET))(this);
 		}
 
 		::MoleMole::GraphicSettingProfileType get_ProfileType()

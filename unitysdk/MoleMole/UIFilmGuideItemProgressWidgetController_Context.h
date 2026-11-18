@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIFILMGUIDEITEMPROGRESSWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1971CBD0)
+#define MOLEMOLE_UIFILMGUIDEITEMPROGRESSWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3C7AF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFilmGuideItemProgressWidgetController_Context_TypeDefinitionIndex = 82855;
+	inline static constexpr unsigned int UIFilmGuideItemProgressWidgetController_Context_TypeDefinitionIndex = 77836;
 
 	class UIFilmGuideItemProgressWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

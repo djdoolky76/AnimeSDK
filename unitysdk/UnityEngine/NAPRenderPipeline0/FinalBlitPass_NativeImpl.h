@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class FinalBlitPassNativeState; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_FINALBLITPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB5F990)
-#define UNITYENGINE_NAPRENDERPIPELINE0_FINALBLITPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1EB5F960)
-#define UNITYENGINE_NAPRENDERPIPELINE0_FINALBLITPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5F8E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_FINALBLITPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F024BF0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_FINALBLITPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1F024BC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_FINALBLITPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F024B40)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int FinalBlitPass_NativeImpl_TypeDefinitionIndex = 5743;
+	inline static constexpr unsigned int FinalBlitPass_NativeImpl_TypeDefinitionIndex = 5748;
 
 	class FinalBlitPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

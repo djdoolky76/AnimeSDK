@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UICOOPCLUENEWTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA43B0)
+#define MOLEMOLE_UICOOPCLUENEWTIPSDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A374860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopClueNewTipsDialogPopWindowController_Context_TypeDefinitionIndex = 63401;
+	inline static constexpr unsigned int UICoopClueNewTipsDialogPopWindowController_Context_TypeDefinitionIndex = 60827;
 
 	class UICoopClueNewTipsDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

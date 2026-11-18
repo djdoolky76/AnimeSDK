@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/ScriptableObject.h"
 
 class NPCPrefabInfo;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCPREFABTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1194EB90)
+#define NPCPREFABTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x10600110)
 
-inline static constexpr unsigned int NPCPrefabTable_TypeDefinitionIndex = 91270;
+inline static constexpr unsigned int NPCPrefabTable_TypeDefinitionIndex = 70016;
 
-class NPCPrefabTable : public ::System::Object
+class NPCPrefabTable : public ::UnityEngine::ScriptableObject
 {
 public:
-	::System::Collections::Generic::List_1<::NPCPrefabInfo*>* NPCPrefabs; // 0x10
+	::System::Collections::Generic::List_1<::NPCPrefabInfo*>* NPCPrefabs; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchDrawRange_TypeDefinitionIndex = 6220;
+	inline static constexpr unsigned int BatchDrawRange_TypeDefinitionIndex = 6235;
 
 	struct alignas(4) BatchDrawRange
 	{

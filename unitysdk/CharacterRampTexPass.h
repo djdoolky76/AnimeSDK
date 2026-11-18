@@ -1,44 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CharacterRampTexPass_CharacterRampPerMaterial.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class NapRenderEntity;
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define CHARACTERRAMPTEXPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CAFC260)
-#define CHARACTERRAMPTEXPASS_RENDERRAMPTEX_OFFSET UNITYSDK_OFFSET(0x1CAFC660)
-#define CHARACTERRAMPTEXPASS_UPDATERAMPMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1CAFD200)
-#define CHARACTERRAMPTEXPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAFE370)
-#define CHARACTERRAMPTEXPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAFC110)
-#define CHARACTERRAMPTEXPASS__UPDATERAMPMATERIALPROPERTIES_G__RECALCULATECOLOR_7_0_OFFSET UNITYSDK_OFFSET(0x1CAFE310)
+#define CHARACTERRAMPTEXPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CEB9910)
+#define CHARACTERRAMPTEXPASS_RENDERRAMPTEX_OFFSET UNITYSDK_OFFSET(0x1CEB9D10)
+#define CHARACTERRAMPTEXPASS_UPDATERAMPMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1CEBA8B0)
+#define CHARACTERRAMPTEXPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEBBA20)
+#define CHARACTERRAMPTEXPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEB97C0)
+#define CHARACTERRAMPTEXPASS__UPDATERAMPMATERIALPROPERTIES_G__RECALCULATECOLOR_7_0_OFFSET UNITYSDK_OFFSET(0x1CEBB9C0)
 
-inline static constexpr unsigned int CharacterRampTexPass_TypeDefinitionIndex = 27819;
+inline static constexpr unsigned int CharacterRampTexPass_TypeDefinitionIndex = 26756;
 
 class CharacterRampTexPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 {
 public:
 	static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_dependencyProperties()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CharacterRampTexPass_TypeDefinitionIndex)->GetStaticField(0x23850);
+		return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CharacterRampTexPass_TypeDefinitionIndex)->GetStaticField(0x248A0);
 	}
 	static ::System::Boolean* StaticGet_logAllRampTexUpdates()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CharacterRampTexPass_TypeDefinitionIndex)->GetStaticField(0x7110);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CharacterRampTexPass_TypeDefinitionIndex)->GetStaticField(0x7180);
 	}
-	::System::Collections::Generic::List_1<::CharacterRampTexPass_CharacterRampPerMaterial>* rampProperties; // 0xA8
-	::System::String* k_ProfilerTag; // 0xB0
-	::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_Sampler; // 0xB8
+	::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_Sampler; // 0xA8
+	::System::Collections::Generic::List_1<::System::Object*>* rampProperties; // 0xB0
+	::System::String* k_ProfilerTag; // 0xB8
 
 	::System::Void _ctor(::System::String* profileTag, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent renderPassEvent)
 	{

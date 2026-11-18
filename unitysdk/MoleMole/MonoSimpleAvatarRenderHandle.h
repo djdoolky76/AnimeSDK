@@ -5,19 +5,19 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_MONOSIMPLEAVATARRENDERHANDLE_FORCECLEAR_OFFSET UNITYSDK_OFFSET(0x10812EF0)
-#define MOLEMOLE_MONOSIMPLEAVATARRENDERHANDLE_GETALLMATERIALS_OFFSET UNITYSDK_OFFSET(0x108130F0)
-#define MOLEMOLE_MONOSIMPLEAVATARRENDERHANDLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x10812F40)
-#define MOLEMOLE_MONOSIMPLEAVATARRENDERHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x108138B0)
+#define MOLEMOLE_MONOSIMPLEAVATARRENDERHANDLE_FORCECLEAR_OFFSET UNITYSDK_OFFSET(0x15AC4110)
+#define MOLEMOLE_MONOSIMPLEAVATARRENDERHANDLE_GETALLMATERIALS_OFFSET UNITYSDK_OFFSET(0x15AC4310)
+#define MOLEMOLE_MONOSIMPLEAVATARRENDERHANDLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15AC4160)
+#define MOLEMOLE_MONOSIMPLEAVATARRENDERHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x15AC4AD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSimpleAvatarRenderHandle_TypeDefinitionIndex = 78655;
+	inline static constexpr unsigned int MonoSimpleAvatarRenderHandle_TypeDefinitionIndex = 70522;
 
 	class MonoSimpleAvatarRenderHandle : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Material*>* Field_5_0; // 0x18
+		::Il2CppArray<::UnityEngine::Material*>* AOELADKLBCG; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -34,9 +34,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSIMPLEAVATARRENDERHANDLE_ONDESTROY_OFFSET))(this);
 		}
 
-		::Il2CppArray<::UnityEngine::Material*>* GetAllMaterials(::Il2CppArray<::UnityEngine::Renderer*>* a1, ::System::Boolean a2)
+		::Il2CppArray<::UnityEngine::Material*>* GetAllMaterials(::Il2CppArray<::UnityEngine::Renderer*>* AEPONOJONAA, ::System::Boolean FGNGJKLPJLH)
 		{
-			return ((::Il2CppArray<::UnityEngine::Material*>*(*)(::PVOID, ::Il2CppArray<::UnityEngine::Renderer*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSIMPLEAVATARRENDERHANDLE_GETALLMATERIALS_OFFSET))(this, a1, a2);
+			return ((::Il2CppArray<::UnityEngine::Material*>*(*)(::PVOID, ::Il2CppArray<::UnityEngine::Renderer*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSIMPLEAVATARRENDERHANDLE_GETALLMATERIALS_OFFSET))(this, AEPONOJONAA, FGNGJKLPJLH);
 		}
 	};
 }

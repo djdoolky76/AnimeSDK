@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEMONSTERHUDCURVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B0F820)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEMONSTERHUDCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B0F940)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEMONSTERHUDCURVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8EC850)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDMUTEMONSTERHUDCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8EC970)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDMuteMonsterHUDCurve_TypeDefinitionIndex = 49495;
+	inline static constexpr unsigned int LDMuteMonsterHUDCurve_TypeDefinitionIndex = 49059;
 
-	class LDMuteMonsterHUDCurve : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::EntityHandle, ::System::Boolean>
+	class LDMuteMonsterHUDCurve
 	{
 	public:
 		::System::Void _ctor()

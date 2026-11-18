@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/TimelineDataExtra.h"
 
-#define MOLEMOLE_CHATPLUSTIMELINEEXTRADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x172749D0)
+#define MOLEMOLE_CHATPLUSTIMELINEEXTRADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x163E50E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ChatPlusTimelineExtraData_TypeDefinitionIndex = 70936;
+	inline static constexpr unsigned int ChatPlusTimelineExtraData_TypeDefinitionIndex = 87798;
 
 	class ChatPlusTimelineExtraData : public ::MoleMole::TimelineDataExtra
 	{

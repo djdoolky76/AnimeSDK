@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_39CBA493DD92466B.h"
+#include "unitysdk/HAAGNEAJHGM.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHDRSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17BDCA50)
+#define MOLEMOLE_UIHDRSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175A7170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHDRSettingContext_TypeDefinitionIndex = 49578;
+	inline static constexpr unsigned int UIHDRSettingContext_TypeDefinitionIndex = 47827;
 
 	class UIHDRSettingContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Action* FinishCB; // 0x28
-		::Enum_3_39CBA493DD92466B SettingSource; // 0x30
+		::HAAGNEAJHGM SettingSource; // 0x30
 
 		::System::Void _ctor()
 		{

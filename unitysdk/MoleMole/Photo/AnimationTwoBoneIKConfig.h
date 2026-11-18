@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/NativeMemoryRequestHandle.h"
 #include "unitysdk/MoleMole/Photo/AnimationTwoBoneIKFlag.h"
-#include "unitysdk/MoleMole/Photo/NapAnimationJobConfig_1.h"
 #include "unitysdk/PipelineCamera/SerializableHashString.h"
-#include "unitysdk/Struct_2_4CBDB11AAF13DED0.h"
-#include "unitysdk/Struct_2_ACD0EF80A5330786.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-#include "unitysdk/System/Span_1.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Foundation/NativeMemoryRequestHandle.h"
+#include "unitysdk/GFAHOCFKDNI.h"
+#include "unitysdk/PMBCHGNJMKF.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace Foundation { class NativeMemory; }
 namespace Foundation { class NativeMemoryBuilder; }
@@ -17,16 +16,16 @@ namespace MoleMole::Photo { class PlayableGraphFloatAttributeConfig; }
 namespace MoleMole::Photo { class Skeleton; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG_CREATEJOBDATA_OFFSET UNITYSDK_OFFSET(0x13ACD3B0)
-#define MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x13ACD3A0)
-#define MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0x13ACE3A0)
-#define MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13ACE7E0)
+#define MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG_CREATEJOBDATA_OFFSET UNITYSDK_OFFSET(0x146A6020)
+#define MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET UNITYSDK_OFFSET(0x146A6010)
+#define MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG_REQUESTMEMORY_OFFSET UNITYSDK_OFFSET(0x146A7010)
+#define MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x146A7450)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int AnimationTwoBoneIKConfig_TypeDefinitionIndex = 80214;
+	inline static constexpr unsigned int AnimationTwoBoneIKConfig_TypeDefinitionIndex = 43232;
 
-	class AnimationTwoBoneIKConfig : public ::MoleMole::Photo::NapAnimationJobConfig_1<::Struct_2_4CBDB11AAF13DED0>
+	class AnimationTwoBoneIKConfig
 	{
 	public:
 		// static const ::System::Int32 WeightIndex = 0x0; // 0x0
@@ -52,14 +51,14 @@ namespace MoleMole::Photo
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG_GET_DYNAMICMEMORYCOUNT_OFFSET))(this);
 		}
 
-		::Struct_2_4CBDB11AAF13DED0 CreateJobData(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::Struct_2_ACD0EF80A5330786& context, ::Foundation::NativeMemory* memory, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle> variables)
+		::GFAHOCFKDNI CreateJobData(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Animator* animator, ::PMBCHGNJMKF& context, ::Foundation::NativeMemory* memory, ::System::ReadOnlySpan_1_F48FB86071006F3E<::Foundation::NativeMemoryRequestHandle> variables)
 		{
-			return ((::Struct_2_4CBDB11AAF13DED0(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::Struct_2_ACD0EF80A5330786&, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG_CREATEJOBDATA_OFFSET))(this, graph, animator, context, memory, variables);
+			return ((::GFAHOCFKDNI(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Animator*, ::PMBCHGNJMKF&, ::Foundation::NativeMemory*, ::System::ReadOnlySpan_1_F48FB86071006F3E<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG_CREATEJOBDATA_OFFSET))(this, graph, animator, context, memory, variables);
 		}
 
-		::System::Void RequestMemory(::UnityEngine::Animator* animator, ::MoleMole::Photo::Skeleton* skeleton, ::Foundation::NativeMemoryBuilder* builder, ::System::Span_1<::Foundation::NativeMemoryRequestHandle> output)
+		::System::Void RequestMemory(::UnityEngine::Animator* animator, ::MoleMole::Photo::Skeleton* skeleton, ::Foundation::NativeMemoryBuilder* builder, ::System::Span_1_9011FAD97750D224<::Foundation::NativeMemoryRequestHandle> output)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::MoleMole::Photo::Skeleton*, ::Foundation::NativeMemoryBuilder*, ::System::Span_1<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG_REQUESTMEMORY_OFFSET))(this, animator, skeleton, builder, output);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::MoleMole::Photo::Skeleton*, ::Foundation::NativeMemoryBuilder*, ::System::Span_1_9011FAD97750D224<::Foundation::NativeMemoryRequestHandle>))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_ANIMATIONTWOBONEIKCONFIG_REQUESTMEMORY_OFFSET))(this, animator, skeleton, builder, output);
 		}
 	};
 }

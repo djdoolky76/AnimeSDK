@@ -2,20 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableOutputHandle.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
+#include "unitysdk/UnityEngine/Playables/PlayableOutput.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_CREATE_OFFSET UNITYSDK_OFFSET(0x1EA641F0)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x31EA80)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GET_NULL_OFFSET UNITYSDK_OFFSET(0x1EA64270)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1EA644C0)
-#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT__CTOR_OFFSET UNITYSDK_OFFSET(0xA54770)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_CREATE_OFFSET UNITYSDK_OFFSET(0x1EDA0A30)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x358710)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GET_NULL_OFFSET UNITYSDK_OFFSET(0x1EDA0AB0)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1EDA0D00)
+#define UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x935120)
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int ScriptPlayableOutput_TypeDefinitionIndex = 6306;
+	inline static constexpr unsigned int ScriptPlayableOutput_TypeDefinitionIndex = 6321;
 
-	struct alignas(8) ScriptPlayableOutput
+	struct alignas(4) ScriptPlayableOutput
 	{
 		::UnityEngine::Playables::PlayableOutputHandle m_Handle; // 0x10
 
@@ -31,10 +33,12 @@ namespace UnityEngine::Playables
 		}
 		*/
 
+		/*
 		static ::UnityEngine::Playables::ScriptPlayableOutput get_Null()
 		{
 			return ((::UnityEngine::Playables::ScriptPlayableOutput(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_SCRIPTPLAYABLEOUTPUT_GET_NULL_OFFSET))();
 		}
+		*/
 
 		::UnityEngine::Playables::PlayableOutputHandle GetHandle()
 		{

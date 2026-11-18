@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
@@ -11,12 +11,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_LENSFLAREOCCLUSIONPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E94CA30)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LENSFLAREOCCLUSIONPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E94C970)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LENSFLAREOCCLUSIONPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1ECA57B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LENSFLAREOCCLUSIONPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA56F0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LensFlareOcclusionPass_TypeDefinitionIndex = 5835;
+	inline static constexpr unsigned int LensFlareOcclusionPass_TypeDefinitionIndex = 5841;
 
 	class LensFlareOcclusionPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

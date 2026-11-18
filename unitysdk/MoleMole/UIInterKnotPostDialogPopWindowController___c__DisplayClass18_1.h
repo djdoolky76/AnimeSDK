@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIInterKnotPostDialogPopWindowController___c__DisplayClass18_0; }
-
-#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17AC9650)
-#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_1__SHOWCHATANIM_B__0_OFFSET UNITYSDK_OFFSET(0x17AC9660)
+#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x175F81B0)
+#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_1__SHOWCHATANIM_B__0_OFFSET UNITYSDK_OFFSET(0x175F81C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPostDialogPopWindowController___c__DisplayClass18_1_TypeDefinitionIndex = 85437;
+	inline static constexpr unsigned int UIInterKnotPostDialogPopWindowController___c__DisplayClass18_1_TypeDefinitionIndex = 63345;
 
+	template <typename T>
 	class UIInterKnotPostDialogPopWindowController___c__DisplayClass18_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIInterKnotPostDialogPopWindowController___c__DisplayClass18_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::Int32 index; // 0x18
 
 		::System::Void _ctor()

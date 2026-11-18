@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_6CC3841F9D35D206;
+class EHBMDMONNBB;
 
-#define MOLEMOLE_UIQUESTIONSANSWERV2CHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A14F90)
-#define MOLEMOLE_UIQUESTIONSANSWERV2CHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS0_0__REFRESHOPTION_B__0_OFFSET UNITYSDK_OFFSET(0x17A14FA0)
+#define MOLEMOLE_UIQUESTIONSANSWERV2CHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17994BD0)
+#define MOLEMOLE_UIQUESTIONSANSWERV2CHATPLAYWIDGETCONTROLLER___C__DISPLAYCLASS0_0__REFRESHOPTION_B__0_OFFSET UNITYSDK_OFFSET(0x17994BE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerV2ChatPlayWidgetController___c__DisplayClass0_0_TypeDefinitionIndex = 69152;
+	inline static constexpr unsigned int UIQuestionsAnswerV2ChatPlayWidgetController___c__DisplayClass0_0_TypeDefinitionIndex = 76548;
 
 	class UIQuestionsAnswerV2ChatPlayWidgetController___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::Class_1_6CC3841F9D35D206* option; // 0x10
+		::EHBMDMONNBB* option; // 0x10
 
 		::System::Void _ctor()
 		{

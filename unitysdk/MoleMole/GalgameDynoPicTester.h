@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Color.h"
 
-#define MOLEMOLE_GALGAMEDYNOPICTESTER_METHOD_5_50B0C51E91B23365_OFFSET UNITYSDK_OFFSET(0x16857160)
-#define MOLEMOLE_GALGAMEDYNOPICTESTER_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x168572D0)
-#define MOLEMOLE_GALGAMEDYNOPICTESTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16857110)
+#define MOLEMOLE_GALGAMEDYNOPICTESTER_CHACFGGPGAB_OFFSET UNITYSDK_OFFSET(0x10D22470)
+#define MOLEMOLE_GALGAMEDYNOPICTESTER_KNFLBLIJENB_OFFSET UNITYSDK_OFFSET(0x10D22300)
+#define MOLEMOLE_GALGAMEDYNOPICTESTER__CTOR_OFFSET UNITYSDK_OFFSET(0x10D222B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GalgameDynoPicTester_TypeDefinitionIndex = 84040;
+	inline static constexpr unsigned int GalgameDynoPicTester_TypeDefinitionIndex = 40777;
 
 	class GalgameDynoPicTester : public ::UnityEngine::MonoBehaviour
 	{
@@ -19,14 +19,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAMEDYNOPICTESTER__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Color Method_5_50B0C51E91B23365()
+		::UnityEngine::Color KNFLBLIJENB()
 		{
-			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAMEDYNOPICTESTER_METHOD_5_50B0C51E91B23365_OFFSET))(this);
+			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAMEDYNOPICTESTER_KNFLBLIJENB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_CA373AA1C7054598()
+		::System::Void CHACFGGPGAB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAMEDYNOPICTESTER_METHOD_5_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAMEDYNOPICTESTER_CHACFGGPGAB_OFFSET))(this);
 		}
 	};
 }

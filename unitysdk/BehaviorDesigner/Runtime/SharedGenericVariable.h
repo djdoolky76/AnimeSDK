@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 
 namespace BehaviorDesigner::Runtime { class GenericVariable; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDGENERICVARIABLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F9A9E90)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDGENERICVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9A9D50)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDGENERICVARIABLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1FDB09B0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDGENERICVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDB0870)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedGenericVariable_TypeDefinitionIndex = 33919;
+	inline static constexpr unsigned int SharedGenericVariable_TypeDefinitionIndex = 33465;
 
-	class SharedGenericVariable : public ::BehaviorDesigner::Runtime::SharedVariable_1<::BehaviorDesigner::Runtime::GenericVariable*>
+	class SharedGenericVariable
 	{
 	public:
 		::System::Void _ctor()

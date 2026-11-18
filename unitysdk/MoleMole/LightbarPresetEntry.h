@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_LIGHTBARPRESETENTRY_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x19BF71C0)
+#define MOLEMOLE_LIGHTBARPRESETENTRY_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x162D2420)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LightbarPresetEntry_TypeDefinitionIndex = 47139;
+	inline static constexpr unsigned int LightbarPresetEntry_TypeDefinitionIndex = 59530;
 
 	struct alignas(4) LightbarPresetEntry
 	{
@@ -17,9 +17,11 @@ namespace MoleMole
 		::System::Single hueCyclePeriod; // 0x20
 		::System::Single fadeDuration; // 0x24
 
+		/*
 		static ::MoleMole::LightbarPresetEntry get_Default()
 		{
 			return ((::MoleMole::LightbarPresetEntry(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_LIGHTBARPRESETENTRY_GET_DEFAULT_OFFSET))();
 		}
+		*/
 	};
 }

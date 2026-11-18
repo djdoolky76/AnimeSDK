@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_SIGNATUREDESCRIPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A7CC0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SIGNATUREDESCRIPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7856C0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int SignatureDescription_TypeDefinitionIndex = 1102;
+	inline static constexpr unsigned int SignatureDescription_TypeDefinitionIndex = 1101;
 
 	class SignatureDescription : public ::System::Object
 	{
 	public:
-		::System::String* _strDigest; // 0x10
-		::System::String* _strFormatter; // 0x18
-		::System::String* _strKey; // 0x20
-		::System::String* _strDeformatter; // 0x28
+		::System::String* _strKey; // 0x10
+		::System::String* _strDeformatter; // 0x18
+		::System::String* _strDigest; // 0x20
+		::System::String* _strFormatter; // 0x28
 
 		::System::Void _ctor()
 		{

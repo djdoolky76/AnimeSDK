@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
-#define UNITY_JOBS_LOWLEVEL_UNSAFE_JOBHANDLEUNSAFEUTILITY_COMBINEDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1E5FF0A0)
+#define UNITY_JOBS_LOWLEVEL_UNSAFE_JOBHANDLEUNSAFEUTILITY_COMBINEDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1E847B10)
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
@@ -12,9 +12,9 @@ namespace Unity::Jobs::LowLevel::Unsafe
 	class JobHandleUnsafeUtility : public ::System::Object
 	{
 	public:
-		static ::Unity::Jobs::JobHandle CombineDependencies(::Unity::Jobs::JobHandle* jobs, ::System::Int32 count)
+		static ::Unity::Jobs::JobHandle CombineDependencies(::PVOID jobs, ::System::Int32 count)
 		{
-			return ((::Unity::Jobs::JobHandle(*)(::Unity::Jobs::JobHandle*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITY_JOBS_LOWLEVEL_UNSAFE_JOBHANDLEUNSAFEUTILITY_COMBINEDEPENDENCIES_OFFSET))(jobs, count);
+			return ((::Unity::Jobs::JobHandle(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITY_JOBS_LOWLEVEL_UNSAFE_JOBHANDLEUNSAFEUTILITY_COMBINEDEPENDENCIES_OFFSET))(jobs, count);
 		}
 	};
 }

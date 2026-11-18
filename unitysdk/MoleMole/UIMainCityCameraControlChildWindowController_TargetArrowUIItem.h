@@ -8,18 +8,18 @@ namespace MoleMole { class UIGeneralTargetArrowWidgetController; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER_TARGETARROWUIITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18323C70)
+#define MOLEMOLE_UIMAINCITYCAMERACONTROLCHILDWINDOWCONTROLLER_TARGETARROWUIITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x183E5270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityCameraControlChildWindowController_TargetArrowUIItem_TypeDefinitionIndex = 48623;
+	inline static constexpr unsigned int UIMainCityCameraControlChildWindowController_TargetArrowUIItem_TypeDefinitionIndex = 80710;
 
 	class UIMainCityCameraControlChildWindowController_TargetArrowUIItem : public ::System::Object
 	{
 	public:
-		::System::String* key; // 0x10
+		::MoleMole::UIGeneralTargetArrowWidgetController* widget; // 0x10
 		::UnityEngine::Transform* targetTransform; // 0x18
-		::MoleMole::UIGeneralTargetArrowWidgetController* widget; // 0x20
+		::System::String* key; // 0x20
 		::MoleMole::UIMainCityCameraControlChildWindowController_TargetArrowUIItem_State state; // 0x28
 		::UnityEngine::Vector3 offset; // 0x2C
 

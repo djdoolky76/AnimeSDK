@@ -5,20 +5,21 @@
 namespace UnityEngine { class Rigidbody2D; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIRIGIDBODYPOSFIX_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x15184C00)
-#define MOLEMOLE_UIRIGIDBODYPOSFIX_METHOD_5_6DD25DF274ED24AE_OFFSET UNITYSDK_OFFSET(0x15184DE0)
-#define MOLEMOLE_UIRIGIDBODYPOSFIX__CTOR_OFFSET UNITYSDK_OFFSET(0x15184FA0)
+#define MOLEMOLE_UIRIGIDBODYPOSFIX_CDGBOJGGNEJ_OFFSET UNITYSDK_OFFSET(0x14CC5F50)
+#define MOLEMOLE_UIRIGIDBODYPOSFIX_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x14CC5D70)
+#define MOLEMOLE_UIRIGIDBODYPOSFIX__CTOR_OFFSET UNITYSDK_OFFSET(0x14CC6110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRigidbodyPosFix_TypeDefinitionIndex = 89894;
+	inline static constexpr unsigned int UIRigidbodyPosFix_TypeDefinitionIndex = 76741;
 
 	class UIRigidbodyPosFix : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Transform* Center; // 0x18
 		::System::Single MaxRadius; // 0x20
-		::UnityEngine::Rigidbody2D* Field_5_0; // 0x28
+		::System::Byte _padding0[0x4];
+		::UnityEngine::Rigidbody2D* PMBOGIPHJHB; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -30,9 +31,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYPOSFIX_FIXEDUPDATE_OFFSET))(this);
 		}
 
-		::UnityEngine::Rigidbody2D* Method_5_6DD25DF274ED24AE()
+		::UnityEngine::Rigidbody2D* CDGBOJGGNEJ()
 		{
-			return ((::UnityEngine::Rigidbody2D*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYPOSFIX_METHOD_5_6DD25DF274ED24AE_OFFSET))(this);
+			return ((::UnityEngine::Rigidbody2D*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYPOSFIX_CDGBOJGGNEJ_OFFSET))(this);
 		}
 	};
 }

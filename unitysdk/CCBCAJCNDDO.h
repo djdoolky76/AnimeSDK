@@ -1,0 +1,121 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OCIKBEJKPCB.h"
+
+class CGKIDDDOMKI;
+class HGFPBHGPFFM;
+class LGINJIKKBJA;
+namespace MoleMole { class UIBangkovBagBtnWidgetController; }
+namespace MoleMole { class UIBaseController; }
+namespace System { class EventArgs; }
+
+#define CCBCAJCNDDO_AFGPFLKDCIF_OFFSET UNITYSDK_OFFSET(0x14534EB0)
+#define CCBCAJCNDDO_ANIMPLMDKOF_OFFSET UNITYSDK_OFFSET(0x14535030)
+#define CCBCAJCNDDO_BACDHKHBDIC_OFFSET UNITYSDK_OFFSET(0x14535740)
+#define CCBCAJCNDDO_BCELJLFNDEI_OFFSET UNITYSDK_OFFSET(0x145350C0)
+#define CCBCAJCNDDO_DDDBFIBAEHO_OFFSET UNITYSDK_OFFSET(0x14534A50)
+#define CCBCAJCNDDO_EHKNNFFAGLC_OFFSET UNITYSDK_OFFSET(0x14535250)
+#define CCBCAJCNDDO_FDJMDNLEADG_OFFSET UNITYSDK_OFFSET(0x14534E50)
+#define CCBCAJCNDDO_IDDGDNNCGIO_OFFSET UNITYSDK_OFFSET(0x14535150)
+#define CCBCAJCNDDO_JGLFNBBHMEF_OFFSET UNITYSDK_OFFSET(0x145356B0)
+#define CCBCAJCNDDO_JMAACLDJJMN_OFFSET UNITYSDK_OFFSET(0x14534AC0)
+#define CCBCAJCNDDO_JMDEKPONKMF_OFFSET UNITYSDK_OFFSET(0x14534930)
+#define CCBCAJCNDDO_KCBENEBBOGP_OFFSET UNITYSDK_OFFSET(0x14534C80)
+#define CCBCAJCNDDO_KJHFBOCBADC_OFFSET UNITYSDK_OFFSET(0x145348B0)
+#define CCBCAJCNDDO_MCFILHLNBPK_OFFSET UNITYSDK_OFFSET(0x145357E0)
+#define CCBCAJCNDDO_OCPDJAKHGGC_OFFSET UNITYSDK_OFFSET(0x145351C0)
+#define CCBCAJCNDDO_OOLCMLLACCB_OFFSET UNITYSDK_OFFSET(0x145351B0)
+#define CCBCAJCNDDO__CTOR_OFFSET UNITYSDK_OFFSET(0x14535020)
+
+inline static constexpr unsigned int CCBCAJCNDDO_TypeDefinitionIndex = 71103;
+
+class CCBCAJCNDDO : public ::OCIKBEJKPCB
+{
+public:
+	::CGKIDDDOMKI* ACAMHLHLGNP; // 0x90
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KJHFBOCBADC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_KJHFBOCBADC_OFFSET))(this);
+	}
+
+	::System::Void JMDEKPONKMF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_JMDEKPONKMF_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* JMAACLDJJMN()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_JMAACLDJJMN_OFFSET))(this);
+	}
+
+	::System::Void KCBENEBBOGP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_KCBENEBBOGP_OFFSET))(this);
+	}
+
+	::System::Void AFGPFLKDCIF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_AFGPFLKDCIF_OFFSET))(this);
+	}
+
+	::LGINJIKKBJA* DDDBFIBAEHO()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_DDDBFIBAEHO_OFFSET))(this);
+	}
+
+	::System::Void ANIMPLMDKOF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_ANIMPLMDKOF_OFFSET))(this);
+	}
+
+	::System::Void BCELJLFNDEI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_BCELJLFNDEI_OFFSET))(this);
+	}
+
+	::MoleMole::UIBaseController* IDDGDNNCGIO()
+	{
+		return ((::MoleMole::UIBaseController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_IDDGDNNCGIO_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* OOLCMLLACCB()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_OOLCMLLACCB_OFFSET))(this);
+	}
+
+	::System::Void OCPDJAKHGGC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_OCPDJAKHGGC_OFFSET))(this);
+	}
+
+	::System::Void EHKNNFFAGLC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_EHKNNFFAGLC_OFFSET))(this);
+	}
+
+	::System::Void JGLFNBBHMEF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_JGLFNBBHMEF_OFFSET))(this);
+	}
+
+	::MoleMole::UIBangkovBagBtnWidgetController* FDJMDNLEADG()
+	{
+		return ((::MoleMole::UIBangkovBagBtnWidgetController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_FDJMDNLEADG_OFFSET))(this);
+	}
+
+	::System::Void BACDHKHBDIC(::System::EventArgs* KOIBHLHLMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_BACDHKHBDIC_OFFSET))(this, KOIBHLHLMFC);
+	}
+
+	::System::Void MCFILHLNBPK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CCBCAJCNDDO_MCFILHLNBPK_OFFSET))(this);
+	}
+};

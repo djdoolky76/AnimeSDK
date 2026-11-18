@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_BIGSCENEFLOORCAPABILITYSUBSYSTEM_FLOORCAPABILITYTRIGGERIDENTIFIERALLOCATOR_ALLOCATEID_OFFSET UNITYSDK_OFFSET(0x12EE1A50)
+#define MOLEMOLE_BIGSCENEFLOORCAPABILITYSUBSYSTEM_FLOORCAPABILITYTRIGGERIDENTIFIERALLOCATOR_ALLOCATEID_OFFSET UNITYSDK_OFFSET(0x12756EB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BigSceneFloorCapabilitySubSystem_FloorCapabilityTriggerIdentifierAllocator_TypeDefinitionIndex = 63703;
+	inline static constexpr unsigned int BigSceneFloorCapabilitySubSystem_FloorCapabilityTriggerIdentifierAllocator_TypeDefinitionIndex = 66561;
 
 	class BigSceneFloorCapabilitySubSystem_FloorCapabilityTriggerIdentifierAllocator : public ::System::Object
 	{
 	public:
 		static ::System::UInt32* StaticGet__currentId()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(BigSceneFloorCapabilitySubSystem_FloorCapabilityTriggerIdentifierAllocator_TypeDefinitionIndex)->GetStaticField(0x120C0);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(BigSceneFloorCapabilitySubSystem_FloorCapabilityTriggerIdentifierAllocator_TypeDefinitionIndex)->GetStaticField(0x12D70);
 		}
 
 		static ::System::UInt32 AllocateId()

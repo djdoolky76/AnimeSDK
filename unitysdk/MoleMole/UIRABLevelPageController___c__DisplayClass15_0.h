@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIRABPageController; }
 
-#define MOLEMOLE_UIRABLEVELPAGECONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16904480)
-#define MOLEMOLE_UIRABLEVELPAGECONTROLLER___C__DISPLAYCLASS15_0__ONUICLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x16904490)
+#define MOLEMOLE_UIRABLEVELPAGECONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C54A60)
+#define MOLEMOLE_UIRABLEVELPAGECONTROLLER___C__DISPLAYCLASS15_0__ONUICLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x15C54A70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABLevelPageController___c__DisplayClass15_0_TypeDefinitionIndex = 82375;
+	inline static constexpr unsigned int UIRABLevelPageController___c__DisplayClass15_0_TypeDefinitionIndex = 85269;
 
 	class UIRABLevelPageController___c__DisplayClass15_0 : public ::System::Object
 	{

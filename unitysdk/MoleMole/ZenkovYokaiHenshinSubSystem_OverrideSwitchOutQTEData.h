@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ZenkovYokaiHenshinSubSystem_OverrideSwitchOutQTEData_TypeDefinitionIndex = 81757;
+	inline static constexpr unsigned int ZenkovYokaiHenshinSubSystem_OverrideSwitchOutQTEData_TypeDefinitionIndex = 73821;
 
 	struct alignas(8) ZenkovYokaiHenshinSubSystem_OverrideSwitchOutQTEData
 	{

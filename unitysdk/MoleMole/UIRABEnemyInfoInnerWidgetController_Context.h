@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-namespace MoleMole { class UIRABLevelEnemyRowWidgetController_Data; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIRABENEMYINFOINNERWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x150F8D50)
+#define MOLEMOLE_UIRABENEMYINFOINNERWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x147F57B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABEnemyInfoInnerWidgetController_Context_TypeDefinitionIndex = 63582;
+	inline static constexpr unsigned int UIRABEnemyInfoInnerWidgetController_Context_TypeDefinitionIndex = 86549;
 
 	class UIRABEnemyInfoInnerWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::UIRABLevelEnemyRowWidgetController_Data*>* monsters; // 0x28
+		::System::Collections::Generic::List_1<::System::Object*>* monsters; // 0x28
 
 		::System::Void _ctor()
 		{

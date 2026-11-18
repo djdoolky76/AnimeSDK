@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PrimitiveVolumeParameter_1.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_NOINTERPMINFLOATPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F348EC0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NOINTERPMINFLOATPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F348ED0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NOINTERPMINFLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F348FB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NOINTERPMINFLOATPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F76F700)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NOINTERPMINFLOATPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F76F710)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NOINTERPMINFLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76F7F0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NoInterpMinFloatParameter_TypeDefinitionIndex = 6058;
+	inline static constexpr unsigned int NoInterpMinFloatParameter_TypeDefinitionIndex = 6066;
 
-	class NoInterpMinFloatParameter : public ::UnityEngine::NAPRenderPipeline0::PrimitiveVolumeParameter_1<::System::Single>
+	class NoInterpMinFloatParameter
 	{
 	public:
 		::System::Single min; // 0x20

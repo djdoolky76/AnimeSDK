@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace UnityEngine::InputSystem { class PlayerInput; }
-
-#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_DEVICELOSTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F810E90)
+#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_DEVICELOSTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC21A10)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int PlayerInput_DeviceLostEvent_TypeDefinitionIndex = 32323;
+	inline static constexpr unsigned int PlayerInput_DeviceLostEvent_TypeDefinitionIndex = 31772;
 
-	class PlayerInput_DeviceLostEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*>
+	class PlayerInput_DeviceLostEvent
 	{
 	public:
 		::System::Void _ctor()

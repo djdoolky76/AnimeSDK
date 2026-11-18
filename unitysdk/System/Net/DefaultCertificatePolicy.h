@@ -6,12 +6,12 @@ namespace System::Net { class ServicePoint; }
 namespace System::Net { class WebRequest; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 
-#define SYSTEM_NET_DEFAULTCERTIFICATEPOLICY_CHECKVALIDATIONRESULT_OFFSET UNITYSDK_OFFSET(0x1DEBEC00)
-#define SYSTEM_NET_DEFAULTCERTIFICATEPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEBED20)
+#define SYSTEM_NET_DEFAULTCERTIFICATEPOLICY_CHECKVALIDATIONRESULT_OFFSET UNITYSDK_OFFSET(0x1E33DF50)
+#define SYSTEM_NET_DEFAULTCERTIFICATEPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E33E070)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int DefaultCertificatePolicy_TypeDefinitionIndex = 3497;
+	inline static constexpr unsigned int DefaultCertificatePolicy_TypeDefinitionIndex = 3496;
 
 	class DefaultCertificatePolicy : public ::System::Object
 	{

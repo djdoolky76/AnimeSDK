@@ -4,14 +4,14 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_AI_AIACTIONROOTROTATECONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x69C8B0)
-#define NPCCROWD_AI_AIACTIONROOTROTATECONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x69C900)
+#define NPCCROWD_AI_AIACTIONROOTROTATECONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x680560)
+#define NPCCROWD_AI_AIACTIONROOTROTATECONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x6805B0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionRootRotateConfig_TypeDefinitionIndex = 90807;
+	inline static constexpr unsigned int AIActionRootRotateConfig_TypeDefinitionIndex = 71812;
 
-	struct alignas(8) AIActionRootRotateConfig
+	struct alignas(4) AIActionRootRotateConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 		::UnityEngine::Vector3 axis; // 0x18

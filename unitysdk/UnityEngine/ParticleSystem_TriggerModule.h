@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class ParticleSystem; }
 
-#define UNITYENGINE_PARTICLESYSTEM_TRIGGERMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x324D50)
+#define UNITYENGINE_PARTICLESYSTEM_TRIGGERMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x358B00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_TriggerModule_TypeDefinitionIndex = 7736;
+	inline static constexpr unsigned int ParticleSystem_TriggerModule_TypeDefinitionIndex = 7748;
 
 	struct alignas(8) ParticleSystem_TriggerModule
 	{

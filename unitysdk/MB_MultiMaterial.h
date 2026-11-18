@@ -5,15 +5,16 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define MB_MULTIMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F544720)
+#define MB_MULTIMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F930EF0)
 
-inline static constexpr unsigned int MB_MultiMaterial_TypeDefinitionIndex = 94453;
+inline static constexpr unsigned int MB_MultiMaterial_TypeDefinitionIndex = 96140;
 
 class MB_MultiMaterial : public ::System::Object
 {
 public:
 	::UnityEngine::Material* combinedMaterial; // 0x10
 	::System::Boolean considerMeshUVs; // 0x18
+	::System::Byte _padding0[0x7];
 	::System::Collections::Generic::List_1<::UnityEngine::Material*>* sourceMaterials; // 0x20
 
 	::System::Void _ctor()

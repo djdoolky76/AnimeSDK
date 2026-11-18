@@ -6,7 +6,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputUpdate_SerializedState_TypeDefinitionIndex = 32556;
+	inline static constexpr unsigned int InputUpdate_SerializedState_TypeDefinitionIndex = 32005;
 
 	struct alignas(4) InputUpdate_SerializedState
 	{

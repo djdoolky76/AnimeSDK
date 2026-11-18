@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NOLNCCBKMJD.h"
+
+class HODNLFIBLOO;
+class IIKNLDKMGGB;
+
+#define AFGJOBNNOAI_DFJPMOOOLHM_OFFSET UNITYSDK_OFFSET(0x181F0560)
+#define AFGJOBNNOAI_EJGJNKJCNIA_OFFSET UNITYSDK_OFFSET(0x181F0740)
+#define AFGJOBNNOAI_FJLKEACBKKF_OFFSET UNITYSDK_OFFSET(0x181F0620)
+#define AFGJOBNNOAI_KGLEJIHILKP_OFFSET UNITYSDK_OFFSET(0x181F05C0)
+#define AFGJOBNNOAI_NAIFLDEIPIN_OFFSET UNITYSDK_OFFSET(0x181F06B0)
+#define AFGJOBNNOAI_OABMBBANMCM_OFFSET UNITYSDK_OFFSET(0x181F04C0)
+#define AFGJOBNNOAI_PBGJKMAEINN_OFFSET UNITYSDK_OFFSET(0x181F07D0)
+#define AFGJOBNNOAI_PCHHCBFOKFN_OFFSET UNITYSDK_OFFSET(0x181F0500)
+#define AFGJOBNNOAI__CTOR_OFFSET UNITYSDK_OFFSET(0x181F04B0)
+
+inline static constexpr unsigned int AFGJOBNNOAI_TypeDefinitionIndex = 61736;
+
+class AFGJOBNNOAI : public ::NOLNCCBKMJD
+{
+public:
+	::System::Single DICENAHFINB; // 0x38
+	::System::Single NHLCCIEKEPD; // 0x3C
+
+	::System::Void _ctor(::System::Int32 AICAJMMLFPH, ::IIKNLDKMGGB* AMNIHACKELI)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::IIKNLDKMGGB*))((::PBYTE)hIl2Cpp + AFGJOBNNOAI__CTOR_OFFSET))(this, AICAJMMLFPH, AMNIHACKELI);
+	}
+
+	::System::Void OABMBBANMCM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AFGJOBNNOAI_OABMBBANMCM_OFFSET))(this);
+	}
+
+	::System::Void PCHHCBFOKFN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AFGJOBNNOAI_PCHHCBFOKFN_OFFSET))(this);
+	}
+
+	::System::Void DFJPMOOOLHM(::System::Single FNIOPKPHDEH)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AFGJOBNNOAI_DFJPMOOOLHM_OFFSET))(this, FNIOPKPHDEH);
+	}
+
+	::HODNLFIBLOO* KGLEJIHILKP()
+	{
+		return ((::HODNLFIBLOO*(*)(::PVOID))((::PBYTE)hIl2Cpp + AFGJOBNNOAI_KGLEJIHILKP_OFFSET))(this);
+	}
+
+	::System::Void FJLKEACBKKF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AFGJOBNNOAI_FJLKEACBKKF_OFFSET))(this);
+	}
+
+	::System::Void NAIFLDEIPIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AFGJOBNNOAI_NAIFLDEIPIN_OFFSET))(this);
+	}
+
+	::HODNLFIBLOO* EJGJNKJCNIA()
+	{
+		return ((::HODNLFIBLOO*(*)(::PVOID))((::PBYTE)hIl2Cpp + AFGJOBNNOAI_EJGJNKJCNIA_OFFSET))(this);
+	}
+
+	::System::Void PBGJKMAEINN(::System::Single MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AFGJOBNNOAI_PBGJKMAEINN_OFFSET))(this, MIALFKCCCPI);
+	}
+};

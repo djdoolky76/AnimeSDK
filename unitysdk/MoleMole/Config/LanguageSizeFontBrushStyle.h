@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_GET_BOLDNESS_OFFSET UNITYSDK_OFFSET(0x7CF310)
-#define MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_GET_SHARPNESS_OFFSET UNITYSDK_OFFSET(0x7CF390)
-#define MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_SET_BOLDNESS_OFFSET UNITYSDK_OFFSET(0x7CF320)
-#define MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_SET_SHARPNESS_OFFSET UNITYSDK_OFFSET(0x7CF3A0)
+#define MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_GET_BOLDNESS_OFFSET UNITYSDK_OFFSET(0x815B20)
+#define MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_GET_SHARPNESS_OFFSET UNITYSDK_OFFSET(0x815BA0)
+#define MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_SET_BOLDNESS_OFFSET UNITYSDK_OFFSET(0x815B30)
+#define MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_SET_SHARPNESS_OFFSET UNITYSDK_OFFSET(0x815BB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LanguageSizeFontBrushStyle_TypeDefinitionIndex = 48505;
+	inline static constexpr unsigned int LanguageSizeFontBrushStyle_TypeDefinitionIndex = 41956;
 
 	struct alignas(4) LanguageSizeFontBrushStyle
 	{
@@ -24,9 +24,9 @@ namespace MoleMole::Config
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_GET_BOLDNESS_OFFSET))(this);
 		}
 
-		::System::Void set_Boldness(::System::Single a1)
+		::System::Void set_Boldness(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_SET_BOLDNESS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_SET_BOLDNESS_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Single get_Sharpness()
@@ -34,9 +34,9 @@ namespace MoleMole::Config
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_GET_SHARPNESS_OFFSET))(this);
 		}
 
-		::System::Void set_Sharpness(::System::Single a1)
+		::System::Void set_Sharpness(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_SET_SHARPNESS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_LANGUAGESIZEFONTBRUSHSTYLE_SET_SHARPNESS_OFFSET))(this, EGEGIMGMJHN);
 		}
 	};
 }

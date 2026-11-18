@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Configuration/SettingAttribute.h"
 
-#define SYSTEM_CONFIGURATION_APPLICATIONSCOPEDSETTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB2B60)
+#define SYSTEM_CONFIGURATION_APPLICATIONSCOPEDSETTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF3950)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int ApplicationScopedSettingAttribute_TypeDefinitionIndex = 4190;
+	inline static constexpr unsigned int ApplicationScopedSettingAttribute_TypeDefinitionIndex = 4189;
 
 	class ApplicationScopedSettingAttribute : public ::System::Configuration::SettingAttribute
 	{

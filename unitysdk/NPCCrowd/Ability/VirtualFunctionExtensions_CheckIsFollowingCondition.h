@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Ability/CheckIsFollowingCondition.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_CHECKISFOLLOWINGCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xF0D4330)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_CHECKISFOLLOWINGCONDITION_LINK_OFFSET UNITYSDK_OFFSET(0xF0D42C0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_CHECKISFOLLOWINGCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0xF0D43C0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_CHECKISFOLLOWINGCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x114BDDB0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_CHECKISFOLLOWINGCONDITION_LINK_OFFSET UNITYSDK_OFFSET(0x114BDD40)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_CHECKISFOLLOWINGCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x114BDE40)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_CheckIsFollowingCondition_TypeDefinitionIndex = 48212;
+	inline static constexpr unsigned int VirtualFunctionExtensions_CheckIsFollowingCondition_TypeDefinitionIndex = 46238;
 
 	class VirtualFunctionExtensions_CheckIsFollowingCondition : public ::System::Object
 	{

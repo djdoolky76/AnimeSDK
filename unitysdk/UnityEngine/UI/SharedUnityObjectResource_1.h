@@ -7,10 +7,10 @@ namespace System { class String; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SharedUnityObjectResource_1_TypeDefinitionIndex = 52656;
+	inline static constexpr unsigned int SharedUnityObjectResource_1_TypeDefinitionIndex = 65489;
 
 	template <typename T>
-	struct SharedUnityObjectResource_1
+	struct alignas(8) SharedUnityObjectResource_1
 	{
 		::System::String* _AssetPath_k__BackingField; // 0x0
 		::System::Int32 _RefCount_k__BackingField; // 0x0

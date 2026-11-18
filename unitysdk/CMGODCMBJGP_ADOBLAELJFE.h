@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class CMGODCMBJGP;
+namespace System { class Action; }
+
+#define CMGODCMBJGP_ADOBLAELJFE_DAKNPOFHCIA_OFFSET UNITYSDK_OFFSET(0x13E13320)
+#define CMGODCMBJGP_ADOBLAELJFE_DHDNALGKIIP_OFFSET UNITYSDK_OFFSET(0x13E130C0)
+#define CMGODCMBJGP_ADOBLAELJFE_JFOKBNIMHHP_OFFSET UNITYSDK_OFFSET(0x13E131F0)
+#define CMGODCMBJGP_ADOBLAELJFE_KFJGDBACHOP_OFFSET UNITYSDK_OFFSET(0x13E13390)
+#define CMGODCMBJGP_ADOBLAELJFE_KKHPKHCGDJE_OFFSET UNITYSDK_OFFSET(0x13E130E0)
+#define CMGODCMBJGP_ADOBLAELJFE_MFFJEADMDDM_OFFSET UNITYSDK_OFFSET(0x13E13050)
+#define CMGODCMBJGP_ADOBLAELJFE_ODIGADIOCBL_OFFSET UNITYSDK_OFFSET(0x13E13150)
+#define CMGODCMBJGP_ADOBLAELJFE__CTOR_OFFSET UNITYSDK_OFFSET(0x13E13040)
+
+inline static constexpr unsigned int CMGODCMBJGP_ADOBLAELJFE_TypeDefinitionIndex = 49041;
+
+class CMGODCMBJGP_ADOBLAELJFE : public ::System::Object
+{
+public:
+	::System::Action* AEPKIFBFCOD; // 0x10
+	::CMGODCMBJGP* KLHPEBKNIFB; // 0x18
+	::System::Boolean FKGMECIECDM; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMGODCMBJGP_ADOBLAELJFE__CTOR_OFFSET))(this);
+	}
+
+	::System::Void MFFJEADMDDM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMGODCMBJGP_ADOBLAELJFE_MFFJEADMDDM_OFFSET))(this);
+	}
+
+	::System::Void DHDNALGKIIP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMGODCMBJGP_ADOBLAELJFE_DHDNALGKIIP_OFFSET))(this);
+	}
+
+	::System::Void KKHPKHCGDJE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMGODCMBJGP_ADOBLAELJFE_KKHPKHCGDJE_OFFSET))(this);
+	}
+
+	::System::Void ODIGADIOCBL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMGODCMBJGP_ADOBLAELJFE_ODIGADIOCBL_OFFSET))(this);
+	}
+
+	::System::Void JFOKBNIMHHP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMGODCMBJGP_ADOBLAELJFE_JFOKBNIMHHP_OFFSET))(this);
+	}
+
+	::System::Void DAKNPOFHCIA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMGODCMBJGP_ADOBLAELJFE_DAKNPOFHCIA_OFFSET))(this);
+	}
+
+	::System::Void KFJGDBACHOP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMGODCMBJGP_ADOBLAELJFE_KFJGDBACHOP_OFFSET))(this);
+	}
+};

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCAbilityMovementStyleSpeedParameters_TypeDefinitionIndex = 70627;
+	inline static constexpr unsigned int FNPCAbilityMovementStyleSpeedParameters_TypeDefinitionIndex = 68534;
 
 	struct alignas(8) FNPCAbilityMovementStyleSpeedParameters
 	{
@@ -20,6 +20,7 @@ namespace NPCCrowd::Ability
 		::System::Single StartDistance; // 0x24
 		::Foundation::Unreal::FGameplayTagContainer movementTags; // 0x28
 		::System::Int32 StateMachineInstanceIndex; // 0x98
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::NPCCrowd::Ability::NPCStateMachineRandomIntInitConfig*>* StateMachineRandomIntInitConfigs; // 0xA0
 	};
 }

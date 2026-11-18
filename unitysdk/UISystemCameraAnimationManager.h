@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/SingletonDisposable_1.h"
 
-class Class_1_C52C1BF5199A0D45;
+class DDBCJHCAKFE;
 namespace UnityEngine { class Camera; }
 
-#define UISYSTEMCAMERAANIMATIONMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D5D3EB0)
-#define UISYSTEMCAMERAANIMATIONMANAGER_GETCAMERAANIMATIONDRIVER_OFFSET UNITYSDK_OFFSET(0x1D5D3E20)
-#define UISYSTEMCAMERAANIMATIONMANAGER_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1D5D3EF0)
-#define UISYSTEMCAMERAANIMATIONMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D3F30)
+#define UISYSTEMCAMERAANIMATIONMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D648850)
+#define UISYSTEMCAMERAANIMATIONMANAGER_GETCAMERAANIMATIONDRIVER_OFFSET UNITYSDK_OFFSET(0x1D6487C0)
+#define UISYSTEMCAMERAANIMATIONMANAGER_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1D648890)
+#define UISYSTEMCAMERAANIMATIONMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6488D0)
 
-inline static constexpr unsigned int UISystemCameraAnimationManager_TypeDefinitionIndex = 62236;
+inline static constexpr unsigned int UISystemCameraAnimationManager_TypeDefinitionIndex = 74759;
 
-class UISystemCameraAnimationManager : public ::Foundation::SingletonDisposable_1<::UISystemCameraAnimationManager*>
+class UISystemCameraAnimationManager
 {
 public:
 	::System::Void _ctor()
@@ -20,9 +19,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UISYSTEMCAMERAANIMATIONMANAGER__CTOR_OFFSET))(this);
 	}
 
-	::Class_1_C52C1BF5199A0D45* GetCameraAnimationDriver(::UnityEngine::Camera* ui3DCamera)
+	::DDBCJHCAKFE* GetCameraAnimationDriver(::UnityEngine::Camera* ui3DCamera)
 	{
-		return ((::Class_1_C52C1BF5199A0D45*(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UISYSTEMCAMERAANIMATIONMANAGER_GETCAMERAANIMATIONDRIVER_OFFSET))(this, ui3DCamera);
+		return ((::DDBCJHCAKFE*(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UISYSTEMCAMERAANIMATIONMANAGER_GETCAMERAANIMATIONDRIVER_OFFSET))(this, ui3DCamera);
 	}
 
 	::System::Void Dispose()

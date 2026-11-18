@@ -5,11 +5,11 @@
 namespace RootMotion::FinalIK { class LimbIK; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_TGSPVLEGIKCONTROLLER_LIMBNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1190F510)
+#define MOLEMOLE_TGSPVLEGIKCONTROLLER_LIMBNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A722F40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TgsPvLegIkController_LimbNode_TypeDefinitionIndex = 56647;
+	inline static constexpr unsigned int TgsPvLegIkController_LimbNode_TypeDefinitionIndex = 51031;
 
 	class TgsPvLegIkController_LimbNode : public ::System::Object
 	{

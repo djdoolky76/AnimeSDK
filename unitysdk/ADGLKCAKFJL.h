@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PHIPKKHPBOF.h"
+
+class EAIOHODECAO;
+class OMPFPLKPOGG;
+namespace System { class String; }
+
+#define ADGLKCAKFJL_BBOMJDBNHIC_OFFSET UNITYSDK_OFFSET(0x1F3054B0)
+#define ADGLKCAKFJL_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x1F305470)
+#define ADGLKCAKFJL_EIMKFKGAHBN_OFFSET UNITYSDK_OFFSET(0x1F305260)
+#define ADGLKCAKFJL_GEFNCCFJNIM_OFFSET UNITYSDK_OFFSET(0x1F305320)
+#define ADGLKCAKFJL_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x1F304DF0)
+#define ADGLKCAKFJL_PHLDJAGJHCC_OFFSET UNITYSDK_OFFSET(0x1F3053B0)
+#define ADGLKCAKFJL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F304E60)
+#define ADGLKCAKFJL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F305250)
+
+inline static constexpr unsigned int ADGLKCAKFJL_TypeDefinitionIndex = 29011;
+
+class ADGLKCAKFJL : public ::PHIPKKHPBOF
+{
+public:
+	::EAIOHODECAO* HMPEEAAAGHE; // 0x10
+	::System::UInt32 ECKECOGIDOO; // 0x18
+	::System::Int32 MNAIIBHLHMA; // 0x1C
+	::System::Int32 OECBKOEADGE; // 0x20
+	::System::UInt32 EFABDKEPNJI; // 0x24
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ADGLKCAKFJL__CTOR_OFFSET))(this);
+	}
+
+	::System::Void NPOLNFDBOOD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ADGLKCAKFJL_NPOLNFDBOOD_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ADGLKCAKFJL_TOSTRING_OFFSET))(this);
+	}
+
+	::OMPFPLKPOGG* EIMKFKGAHBN()
+	{
+		return ((::OMPFPLKPOGG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ADGLKCAKFJL_EIMKFKGAHBN_OFFSET))(this);
+	}
+
+	::System::Void GEFNCCFJNIM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ADGLKCAKFJL_GEFNCCFJNIM_OFFSET))(this);
+	}
+
+	::OMPFPLKPOGG* PHLDJAGJHCC()
+	{
+		return ((::OMPFPLKPOGG*(*)(::PVOID))((::PBYTE)hIl2Cpp + ADGLKCAKFJL_PHLDJAGJHCC_OFFSET))(this);
+	}
+
+	::System::String* DPIHOJBBGLA()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ADGLKCAKFJL_DPIHOJBBGLA_OFFSET))(this);
+	}
+
+	::System::Void BBOMJDBNHIC(::EAIOHODECAO* GEEHGDABNJF, ::System::Int32 BKLGNCBNEGM, ::System::Int32 CHNALIPKFKM)
+	{
+		return ((::System::Void(*)(::PVOID, ::EAIOHODECAO*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ADGLKCAKFJL_BBOMJDBNHIC_OFFSET))(this, GEEHGDABNJF, BKLGNCBNEGM, CHNALIPKFKM);
+	}
+};

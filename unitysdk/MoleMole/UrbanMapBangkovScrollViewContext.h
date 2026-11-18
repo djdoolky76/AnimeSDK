@@ -5,11 +5,11 @@
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MOLEMOLE_URBANMAPBANGKOVSCROLLVIEWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11A24CB0)
+#define MOLEMOLE_URBANMAPBANGKOVSCROLLVIEWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18F75F90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UrbanMapBangkovScrollViewContext_TypeDefinitionIndex = 40273;
+	inline static constexpr unsigned int UrbanMapBangkovScrollViewContext_TypeDefinitionIndex = 70970;
 
 	class UrbanMapBangkovScrollViewContext : public ::MoleMole::UIControllerContextBase
 	{

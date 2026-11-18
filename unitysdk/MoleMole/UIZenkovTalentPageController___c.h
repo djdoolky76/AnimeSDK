@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_AF5BA1C65F12F4B1_Class_2_35FBCE11E39E6839;
+class EKGAHGCJOAN_PLPDLPGLIAD;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B18320)
-#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B18360)
-#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__TRYOVERRIDEALLGAMEPADSPACETARGETS_B__35_2_OFFSET UNITYSDK_OFFSET(0x15B18370)
+#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12C13BB0)
+#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12C13BF0)
+#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__TRYOVERRIDEALLGAMEPADSPACETARGETS_B__40_2_OFFSET UNITYSDK_OFFSET(0x12C13C00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovTalentPageController___c_TypeDefinitionIndex = 84328;
+	inline static constexpr unsigned int UIZenkovTalentPageController___c_TypeDefinitionIndex = 43040;
 
 	class UIZenkovTalentPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIZenkovTalentPageController___c** StaticGet___9()
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__40_2()
 		{
-			return (::MoleMole::UIZenkovTalentPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovTalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x453E0);
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovTalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AE90);
 		}
-		static ::System::Comparison_1<::Class_2_AF5BA1C65F12F4B1_Class_2_35FBCE11E39E6839*>** StaticGet___9__35_2()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_2_AF5BA1C65F12F4B1_Class_2_35FBCE11E39E6839*>**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovTalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x453E8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovTalentPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AE98);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _TryOverrideAllGamepadSpaceTargets_b__35_2(::Class_2_AF5BA1C65F12F4B1_Class_2_35FBCE11E39E6839* a, ::Class_2_AF5BA1C65F12F4B1_Class_2_35FBCE11E39E6839* b)
+		::System::Int32 _TryOverrideAllGamepadSpaceTargets_b__40_2(::EKGAHGCJOAN_PLPDLPGLIAD* a, ::EKGAHGCJOAN_PLPDLPGLIAD* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_AF5BA1C65F12F4B1_Class_2_35FBCE11E39E6839*, ::Class_2_AF5BA1C65F12F4B1_Class_2_35FBCE11E39E6839*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__TRYOVERRIDEALLGAMEPADSPACETARGETS_B__35_2_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::EKGAHGCJOAN_PLPDLPGLIAD*, ::EKGAHGCJOAN_PLPDLPGLIAD*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER___C__TRYOVERRIDEALLGAMEPADSPACETARGETS_B__40_2_OFFSET))(this, a, b);
 		}
 	};
 }

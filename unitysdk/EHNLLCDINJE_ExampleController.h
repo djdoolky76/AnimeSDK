@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MCKCKBEGCCM.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+
+class EHNLLCDINJE;
+class ENGKPGFGGLM;
+
+#define EHNLLCDINJE_EXAMPLECONTROLLER_GET_COMPONENTCLASSIDS_OFFSET UNITYSDK_OFFSET(0x10F31180)
+#define EHNLLCDINJE_EXAMPLECONTROLLER_GET_EVENTSMASK_OFFSET UNITYSDK_OFFSET(0x10F31150)
+#define EHNLLCDINJE_EXAMPLECONTROLLER_GPJHKAHPAAG_OFFSET UNITYSDK_OFFSET(0x10F31370)
+#define EHNLLCDINJE_EXAMPLECONTROLLER_NHKAMCDPNEM_OFFSET UNITYSDK_OFFSET(0x10F31300)
+#define EHNLLCDINJE_EXAMPLECONTROLLER_ONEVENT_OFFSET UNITYSDK_OFFSET(0x10F31190)
+#define EHNLLCDINJE_EXAMPLECONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x10F311E0)
+#define EHNLLCDINJE_EXAMPLECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x10F31350)
+#define EHNLLCDINJE_EXAMPLECONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x10F31360)
+
+inline static constexpr unsigned int EHNLLCDINJE_ExampleController_TypeDefinitionIndex = 81392;
+
+class EHNLLCDINJE_ExampleController : public ::MoleMole::UIWindowController
+{
+public:
+	::MCKCKBEGCCM _eventsMask; // 0x320
+	::Il2CppArray<::System::Int32>* CLNHIHIFCPK; // 0x360
+	::EHNLLCDINJE* GLPCNDAHAMK; // 0x368
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EHNLLCDINJE_EXAMPLECONTROLLER__CTOR_OFFSET))(this);
+	}
+
+	::MCKCKBEGCCM get_EventsMask()
+	{
+		return ((::MCKCKBEGCCM(*)(::PVOID))((::PBYTE)hIl2Cpp + EHNLLCDINJE_EXAMPLECONTROLLER_GET_EVENTSMASK_OFFSET))(this);
+	}
+
+	::Il2CppArray<::System::Int32>* get_ComponentClassIds()
+	{
+		return ((::Il2CppArray<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EHNLLCDINJE_EXAMPLECONTROLLER_GET_COMPONENTCLASSIDS_OFFSET))(this);
+	}
+
+	::System::Void OnEvent(::ENGKPGFGGLM* evt)
+	{
+		return ((::System::Void(*)(::PVOID, ::ENGKPGFGGLM*))((::PBYTE)hIl2Cpp + EHNLLCDINJE_EXAMPLECONTROLLER_ONEVENT_OFFSET))(this, evt);
+	}
+
+	::System::Void OnUIInit()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EHNLLCDINJE_EXAMPLECONTROLLER_ONUIINIT_OFFSET))(this);
+	}
+
+	::System::Void __base_OnUIInit()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EHNLLCDINJE_EXAMPLECONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+	}
+
+	::System::Void GPJHKAHPAAG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EHNLLCDINJE_EXAMPLECONTROLLER_GPJHKAHPAAG_OFFSET))(this);
+	}
+
+	::System::Void NHKAMCDPNEM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EHNLLCDINJE_EXAMPLECONTROLLER_NHKAMCDPNEM_OFFSET))(this);
+	}
+};

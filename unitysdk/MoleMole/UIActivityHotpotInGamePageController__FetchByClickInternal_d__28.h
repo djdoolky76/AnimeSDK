@@ -1,25 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_C91109162D964E4D_Struct_2_05E939B2CEBE19D9.h"
 #include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1_Awaiter.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace MoleMole { class UIActivityHotpotInGamePageController; }
+namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER__FETCHBYCLICKINTERNAL_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8BE890)
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER__FETCHBYCLICKINTERNAL_D__28_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER__FETCHBYCLICKINTERNAL_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7DAD10)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER__FETCHBYCLICKINTERNAL_D__28_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotInGamePageController__FetchByClickInternal_d__28_TypeDefinitionIndex = 87260;
+	inline static constexpr unsigned int UIActivityHotpotInGamePageController__FetchByClickInternal_d__28_TypeDefinitionIndex = 43523;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28>
 	struct alignas(8) UIActivityHotpotInGamePageController__FetchByClickInternal_d__28
 	{
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Class_3_C91109162D964E4D_Struct_2_05E939B2CEBE19D9> __u__1; // 0x10
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
-		::MoleMole::UIActivityHotpotInGamePageController* __4__this; // 0x40
+		::System::Object* __u__1; // 0x10
+		::System::Byte _padding0[0x18];
+		::MoleMole::UIActivityHotpotInGamePageController* __4__this; // 0x30
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x38
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void MoveNext()

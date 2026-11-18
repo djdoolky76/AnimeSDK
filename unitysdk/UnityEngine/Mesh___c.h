@@ -5,29 +5,29 @@
 
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define UNITYENGINE_MESH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7C01F0)
-#define UNITYENGINE_MESH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C0230)
-#define UNITYENGINE_MESH___C__GET_BVHBAKELEVELS_B__83_0_OFFSET UNITYSDK_OFFSET(0x1E7C0240)
-#define UNITYENGINE_MESH___C__SET_BVHBAKELEVELS_B__84_0_OFFSET UNITYSDK_OFFSET(0x1E7C0250)
+#define UNITYENGINE_MESH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E96CDB0)
+#define UNITYENGINE_MESH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E96CDF0)
+#define UNITYENGINE_MESH___C__GET_BVHBAKELEVELS_B__83_0_OFFSET UNITYSDK_OFFSET(0x1E96CE00)
+#define UNITYENGINE_MESH___C__SET_BVHBAKELEVELS_B__84_0_OFFSET UNITYSDK_OFFSET(0x1E96CE10)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Mesh___c_TypeDefinitionIndex = 5264;
+	inline static constexpr unsigned int Mesh___c_TypeDefinitionIndex = 5266;
 
 	class Mesh___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::UnityEngine::MeshBVHBakeLevel, ::System::Byte>** StaticGet___9__84_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Converter_2<::UnityEngine::MeshBVHBakeLevel, ::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Mesh___c_TypeDefinitionIndex)->GetStaticField(0x5200);
-		}
-		static ::UnityEngine::Mesh___c** StaticGet___9()
-		{
-			return (::UnityEngine::Mesh___c**)Il2CppClass::FromTypeDefinitionIndex(Mesh___c_TypeDefinitionIndex)->GetStaticField(0x5208);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Mesh___c_TypeDefinitionIndex)->GetStaticField(0x5100);
 		}
 		static ::System::Converter_2<::System::Byte, ::UnityEngine::MeshBVHBakeLevel>** StaticGet___9__83_0()
 		{
-			return (::System::Converter_2<::System::Byte, ::UnityEngine::MeshBVHBakeLevel>**)Il2CppClass::FromTypeDefinitionIndex(Mesh___c_TypeDefinitionIndex)->GetStaticField(0x5210);
+			return (::System::Converter_2<::System::Byte, ::UnityEngine::MeshBVHBakeLevel>**)Il2CppClass::FromTypeDefinitionIndex(Mesh___c_TypeDefinitionIndex)->GetStaticField(0x5108);
+		}
+		static ::System::Converter_2<::UnityEngine::MeshBVHBakeLevel, ::System::Byte>** StaticGet___9__84_0()
+		{
+			return (::System::Converter_2<::UnityEngine::MeshBVHBakeLevel, ::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Mesh___c_TypeDefinitionIndex)->GetStaticField(0x5110);
 		}
 
 		static ::System::Void _cctor()

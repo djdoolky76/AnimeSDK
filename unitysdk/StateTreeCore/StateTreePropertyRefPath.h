@@ -8,28 +8,28 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructOpsTraitsBase; }
 
-#define STATETREECORE_STATETREEPROPERTYREFPATH_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0xAAEC80)
-#define STATETREECORE_STATETREEPROPERTYREFPATH_COPYCREATE_OFFSET UNITYSDK_OFFSET(0xAAEB00)
-#define STATETREECORE_STATETREEPROPERTYREFPATH_CREATE_OFFSET UNITYSDK_OFFSET(0x1F6D9E90)
-#define STATETREECORE_STATETREEPROPERTYREFPATH_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0xAAEA50)
-#define STATETREECORE_STATETREEPROPERTYREFPATH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8D2930)
-#define STATETREECORE_STATETREEPROPERTYREFPATH_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0xAAE9F0)
-#define STATETREECORE_STATETREEPROPERTYREFPATH_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0xAAEE00)
-#define STATETREECORE_STATETREEPROPERTYREFPATH_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0xAAED60)
-#define STATETREECORE_STATETREEPROPERTYREFPATH_MOVECREATE_OFFSET UNITYSDK_OFFSET(0xAAEBA0)
-#define STATETREECORE_STATETREEPROPERTYREFPATH_RESET_OFFSET UNITYSDK_OFFSET(0xAAED90)
-#define STATETREECORE_STATETREEPROPERTYREFPATH_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREEPROPERTYREFPATH__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0xAAEC80)
-#define STATETREECORE_STATETREEPROPERTYREFPATH__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6DA320)
+#define STATETREECORE_STATETREEPROPERTYREFPATH_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x994D00)
+#define STATETREECORE_STATETREEPROPERTYREFPATH_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x994B80)
+#define STATETREECORE_STATETREEPROPERTYREFPATH_CREATE_OFFSET UNITYSDK_OFFSET(0x1FA8B0C0)
+#define STATETREECORE_STATETREEPROPERTYREFPATH_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0x994AD0)
+#define STATETREECORE_STATETREEPROPERTYREFPATH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x5B0EA0)
+#define STATETREECORE_STATETREEPROPERTYREFPATH_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0x994A70)
+#define STATETREECORE_STATETREEPROPERTYREFPATH_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0x994E80)
+#define STATETREECORE_STATETREEPROPERTYREFPATH_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0x994DE0)
+#define STATETREECORE_STATETREEPROPERTYREFPATH_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x994C20)
+#define STATETREECORE_STATETREEPROPERTYREFPATH_RESET_OFFSET UNITYSDK_OFFSET(0x994E10)
+#define STATETREECORE_STATETREEPROPERTYREFPATH_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREEPROPERTYREFPATH__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x994D00)
+#define STATETREECORE_STATETREEPROPERTYREFPATH__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA8B550)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreePropertyRefPath_TypeDefinitionIndex = 31622;
+	inline static constexpr unsigned int StateTreePropertyRefPath_TypeDefinitionIndex = 31059;
 
-	struct alignas(8) StateTreePropertyRefPath
+	struct alignas(4) StateTreePropertyRefPath
 	{
 		static ::UnrealTypes::StructOpsTraitsBase** StaticGet_StaticStructOpsTraits()
 		{
-			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(StateTreePropertyRefPath_TypeDefinitionIndex)->GetStaticField(0x26F20);
+			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(StateTreePropertyRefPath_TypeDefinitionIndex)->GetStaticField(0x27FF0);
 		}
 		// static const ::System::UInt32 PersistentTypeHash = 0x4D3285CB; // 0x0
 		::StateTreeCore::StateTreePropertyPath SourcePropertyPath; // 0x10
@@ -45,35 +45,47 @@ namespace StateTreeCore
 			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYREFPATH_GET_STATICSTRUCT_OFFSET))(this);
 		}
 
+		/*
 		static ::StateTreeCore::StateTreePropertyRefPath Create(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreePropertyRefPath(*)(::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYREFPATH_CREATE_OFFSET))(allocator);
 		}
+		*/
 
+		/*
 		::StateTreeCore::StateTreePropertyRefPath DefaultCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreePropertyRefPath(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYREFPATH_DEFAULTCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::StateTreeCore::StateTreePropertyRefPath CopyCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreePropertyRefPath(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYREFPATH_COPYCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::StateTreeCore::StateTreePropertyRefPath MoveCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreePropertyRefPath(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYREFPATH_MOVECREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::System::Void CopyAssign(::StateTreeCore::StateTreePropertyRefPath& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTreePropertyRefPath&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYREFPATH_COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		::System::Void MoveAssign(::StateTreeCore::StateTreePropertyRefPath& temp)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTreePropertyRefPath&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYREFPATH_MOVEASSIGN_OFFSET))(this, temp);
 		}
+		*/
 
 		::System::Void Reset()
 		{
@@ -90,9 +102,11 @@ namespace StateTreeCore
 			return ((::UnrealTypes::StructOpsTraitsBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYREFPATH_GET_STRUCTOPSTRAITS_OFFSET))(this);
 		}
 
+		/*
 		::System::Void UnrealTypes_IStruct_StateTreeCore_StateTreePropertyRefPath__CopyAssign(::StateTreeCore::StateTreePropertyRefPath& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTreePropertyRefPath&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYREFPATH_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREEPROPERTYREFPATH__COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 	};
 }

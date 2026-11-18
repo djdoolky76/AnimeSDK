@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int CompiledIdentityConstraint_ConstraintRole_TypeDefinitionIndex = 1951;
+	inline static constexpr unsigned int CompiledIdentityConstraint_ConstraintRole_TypeDefinitionIndex = 1950;
 
 	enum class CompiledIdentityConstraint_ConstraintRole : ::System::Int32
 	{

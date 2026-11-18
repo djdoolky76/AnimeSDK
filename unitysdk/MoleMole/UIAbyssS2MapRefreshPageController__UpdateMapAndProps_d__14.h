@@ -8,21 +8,23 @@
 namespace MoleMole { class UIAbyssS2MapRefreshPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER__UPDATEMAPANDPROPS_D__14_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x89D770)
-#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER__UPDATEMAPANDPROPS_D__14_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER__UPDATEMAPANDPROPS_D__14_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x770E70)
+#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER__UPDATEMAPANDPROPS_D__14_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2MapRefreshPageController__UpdateMapAndProps_d__14_TypeDefinitionIndex = 91333;
+	inline static constexpr unsigned int UIAbyssS2MapRefreshPageController__UpdateMapAndProps_d__14_TypeDefinitionIndex = 51166;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14>
 	struct alignas(8) UIAbyssS2MapRefreshPageController__UpdateMapAndProps_d__14
 	{
-		::System::Threading::CancellationToken ctsToken; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
-		::MoleMole::UIAbyssS2MapRefreshPageController* __4__this; // 0x28
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
-		::System::Int32 __1__state; // 0x40
-		::System::Boolean needReSortProps; // 0x44
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
+		::MoleMole::UIAbyssS2MapRefreshPageController* __4__this; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
+		::System::Threading::CancellationToken ctsToken; // 0x38
+		::System::Boolean needReSortProps; // 0x40
+		::System::Byte _padding0[0x3];
+		::System::Int32 __1__state; // 0x44
 
 		::System::Void MoveNext()
 		{

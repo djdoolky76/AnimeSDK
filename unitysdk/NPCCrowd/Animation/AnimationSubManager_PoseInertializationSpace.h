@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_PoseInertializationSpace_TypeDefinitionIndex = 88238;
+	inline static constexpr unsigned int AnimationSubManager_PoseInertializationSpace_TypeDefinitionIndex = 81128;
 
 	enum class AnimationSubManager_PoseInertializationSpace : ::System::Int32
 	{
-		WorldRotation = 2,
 		LocalSpace = 0,
+		WorldRotation = 2,
 		WorldSpace = 1,
 	};
 }

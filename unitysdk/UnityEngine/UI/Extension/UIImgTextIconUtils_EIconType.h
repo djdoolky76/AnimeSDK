@@ -3,12 +3,12 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIImgTextIconUtils_EIconType_TypeDefinitionIndex = 41166;
+	inline static constexpr unsigned int UIImgTextIconUtils_EIconType_TypeDefinitionIndex = 91535;
 
 	enum class UIImgTextIconUtils_EIconType : ::System::UInt16
 	{
-		ActionIcon = 0x2,
-		Quad = 0x0,
-		IconMap = 0x1,
+		ActionIcon = 2,
+		IconMap = 1,
+		Quad = 0,
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlNamespaceScope_TypeDefinitionIndex = 1833;
+	inline static constexpr unsigned int XmlNamespaceScope_TypeDefinitionIndex = 1832;
 
 	enum class XmlNamespaceScope : ::System::Int32
 	{

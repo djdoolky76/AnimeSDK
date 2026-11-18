@@ -5,17 +5,17 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UICPINLEVELCHILDWINDOWCONTROLLER_PRICEOBJINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB5E070)
+#define MOLEMOLE_UICPINLEVELCHILDWINDOWCONTROLLER_PRICEOBJINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF90460)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpInlevelChildWindowController_PriceObjInfo_TypeDefinitionIndex = 94870;
+	inline static constexpr unsigned int UICpInlevelChildWindowController_PriceObjInfo_TypeDefinitionIndex = 96387;
 
 	class UICpInlevelChildWindowController_PriceObjInfo : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* priceIcon; // 0x10
-		::UnityEngine::GameObject* PriceObj; // 0x18
+		::UnityEngine::GameObject* PriceObj; // 0x10
+		::UnityEngine::Transform* priceIcon; // 0x18
 
 		::System::Void _ctor()
 		{

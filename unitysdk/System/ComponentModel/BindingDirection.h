@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int BindingDirection_TypeDefinitionIndex = 2823;
+	inline static constexpr unsigned int BindingDirection_TypeDefinitionIndex = 2822;
 
 	enum class BindingDirection : ::System::Int32
 	{

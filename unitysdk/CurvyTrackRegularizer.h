@@ -7,9 +7,9 @@ namespace FluffyUnderware::Curvy { class CurvySpline; }
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define CURVYTRACKREGULARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A89AC50)
+#define CURVYTRACKREGULARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1831AB90)
 
-inline static constexpr unsigned int CurvyTrackRegularizer_TypeDefinitionIndex = 89134;
+inline static constexpr unsigned int CurvyTrackRegularizer_TypeDefinitionIndex = 60987;
 
 class CurvyTrackRegularizer : public ::UnityEngine::MonoBehaviour
 {
@@ -24,6 +24,7 @@ public:
 	::System::Single divPerMeter; // 0x30
 	::System::Single uvTileLength; // 0x34
 	::System::Boolean reverseUV; // 0x38
+	::System::Byte _padding0[0x7];
 	::UnityEngine::Material* pipeMaterial; // 0x40
 	::System::String* bakeOutputPath; // 0x48
 

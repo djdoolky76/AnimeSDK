@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace UnityEngine::U2D
 {
-	inline static constexpr unsigned int SpriteBone_TypeDefinitionIndex = 5431;
+	inline static constexpr unsigned int SpriteBone_TypeDefinitionIndex = 5434;
 
 	struct alignas(8) SpriteBone
 	{

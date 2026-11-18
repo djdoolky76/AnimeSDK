@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_CursorType_TypeDefinitionIndex = 33205;
+	inline static constexpr unsigned int BrowserNative_CursorType_TypeDefinitionIndex = 32665;
 
 	enum class BrowserNative_CursorType : ::System::Int32
 	{

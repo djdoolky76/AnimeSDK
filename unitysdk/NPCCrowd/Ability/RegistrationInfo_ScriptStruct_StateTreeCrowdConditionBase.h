@@ -5,23 +5,23 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREECROWDCONDITIONBASE_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xF860610)
-#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREECROWDCONDITIONBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0xF8604A0)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREECROWDCONDITIONBASE_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0xEE85520)
+#define NPCCROWD_ABILITY_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREECROWDCONDITIONBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0xEE853B0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase_TypeDefinitionIndex = 63713;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase_TypeDefinitionIndex = 67905;
 
 	class RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::StructParams** StaticGet_StructParams()
-		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase_TypeDefinitionIndex)->GetStaticField(0x33970);
-		}
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase_TypeDefinitionIndex)->GetStaticField(0x33978);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase_TypeDefinitionIndex)->GetStaticField(0x39A90);
+		}
+		static ::UnrealTypes::StructParams** StaticGet_StructParams()
+		{
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeCrowdConditionBase_TypeDefinitionIndex)->GetStaticField(0x39A98);
 		}
 
 		static ::System::Void _cctor()

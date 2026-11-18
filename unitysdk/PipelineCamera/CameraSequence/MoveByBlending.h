@@ -1,35 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/PipelineCamera/CameraSequence/CoreDataSequence.h"
 #include "unitysdk/PipelineCamera/CameraLocationMotionChannel.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CoreDataSequence.h"
 #include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceAlphaSampler; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 namespace PipelineCamera::CameraSequence { class MoveByBlending_MoveTargetDataProvider; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_BUILDRUNTIMEDATAPROVIDERDATAPATH_OFFSET UNITYSDK_OFFSET(0x1F056B50)
-#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1F056640)
-#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_GETRATESCALE_OFFSET UNITYSDK_OFFSET(0x1F0565A0)
-#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_GETSEQUENCEDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F0567A0)
-#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_GETSEQUENCELENGTH_OFFSET UNITYSDK_OFFSET(0x1F056550)
-#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1F056630)
-#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_ISLOOP_OFFSET UNITYSDK_OFFSET(0x1F0565F0)
-#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1F056BC0)
+#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_BUILDRUNTIMEDATAPROVIDERDATAPATH_OFFSET UNITYSDK_OFFSET(0x1F3D6440)
+#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1F3D5F30)
+#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_GETRATESCALE_OFFSET UNITYSDK_OFFSET(0x1F3D5E90)
+#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_GETSEQUENCEDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F3D6090)
+#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_GETSEQUENCELENGTH_OFFSET UNITYSDK_OFFSET(0x1F3D5E40)
+#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1F3D5F20)
+#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING_ISLOOP_OFFSET UNITYSDK_OFFSET(0x1F3D5EE0)
+#define PIPELINECAMERA_CAMERASEQUENCE_MOVEBYBLENDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3D64B0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int MoveByBlending_TypeDefinitionIndex = 38637;
+	inline static constexpr unsigned int MoveByBlending_TypeDefinitionIndex = 36637;
 
 	class MoveByBlending : public ::PipelineCamera::CameraSequence::CoreDataSequence
 	{
 	public:
 		::PipelineCamera::CameraLocationMotionChannel channel; // 0x18
+		::System::Byte _padding0[0x4];
 		::PipelineCamera::CameraSequence::MoveByBlending_MoveTargetDataProvider* dataProvider; // 0x20
 		::System::Single playLength; // 0x28
 		::System::Single playRate; // 0x2C
 		::System::Boolean multipleAlpha; // 0x30
+		::System::Byte _padding1[0x7];
 		::PipelineCamera::CameraSequence::CameraSequenceAlphaSampler* RightSampler; // 0x38
 		::PipelineCamera::CameraSequence::CameraSequenceAlphaSampler* UpSampler; // 0x40
 		::PipelineCamera::CameraSequence::CameraSequenceAlphaSampler* ForwardSampler; // 0x48

@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices::ComTypes
 {
-	inline static constexpr unsigned int TYMED_TypeDefinitionIndex = 3135;
+	inline static constexpr unsigned int TYMED_TypeDefinitionIndex = 3134;
 
 	enum class TYMED : ::System::Int32
 	{

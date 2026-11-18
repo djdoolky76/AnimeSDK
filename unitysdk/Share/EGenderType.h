@@ -3,12 +3,12 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EGenderType_TypeDefinitionIndex = 9099;
+	inline static constexpr unsigned int EGenderType_TypeDefinitionIndex = 10112;
 
 	enum class EGenderType : ::System::Int16
 	{
-		Female = 2,
 		Male = 1,
 		Unisex = 0,
+		Female = 2,
 	};
 }

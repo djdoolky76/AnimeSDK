@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DEVSTAGEAREA_NAVMESHCLEANER__CTOR_OFFSET UNITYSDK_OFFSET(0x139349E0)
+#define DEVSTAGEAREA_NAVMESHCLEANER__CTOR_OFFSET UNITYSDK_OFFSET(0x17218810)
 
 namespace DevStageArea
 {
-	inline static constexpr unsigned int NavMeshCleaner_TypeDefinitionIndex = 65130;
+	inline static constexpr unsigned int NavMeshCleaner_TypeDefinitionIndex = 66823;
 
 	class NavMeshCleaner : public ::UnityEngine::MonoBehaviour
 	{

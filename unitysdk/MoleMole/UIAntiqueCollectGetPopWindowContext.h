@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIANTIQUECOLLECTGETPOPWINDOWCONTEXT_GET_COLLECTID_OFFSET UNITYSDK_OFFSET(0x197DD0A0)
-#define MOLEMOLE_UIANTIQUECOLLECTGETPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x197DD120)
+#define MOLEMOLE_UIANTIQUECOLLECTGETPOPWINDOWCONTEXT_GET_COLLECTID_OFFSET UNITYSDK_OFFSET(0x19830EC0)
+#define MOLEMOLE_UIANTIQUECOLLECTGETPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19830F40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAntiqueCollectGetPopWindowContext_TypeDefinitionIndex = 54401;
+	inline static constexpr unsigned int UIAntiqueCollectGetPopWindowContext_TypeDefinitionIndex = 43076;
 
 	class UIAntiqueCollectGetPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{

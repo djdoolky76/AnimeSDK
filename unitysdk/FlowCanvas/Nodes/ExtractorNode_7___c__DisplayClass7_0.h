@@ -7,13 +7,13 @@ namespace FlowCanvas::Nodes { template <typename T1, typename T2, typename T3, t
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractorNode_7___c__DisplayClass7_0_TypeDefinitionIndex = 29774;
+	inline static constexpr unsigned int ExtractorNode_7___c__DisplayClass7_0_TypeDefinitionIndex = 29256;
 
-	template <typename TInstance, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class ExtractorNode_7___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::ExtractorNode_7<TInstance, T1, T2, T3, T4, T5, T6>* __4__this; // 0x0
-		::FlowCanvas::ValueInput_1<TInstance>* i; // 0x0
+		::FlowCanvas::Nodes::ExtractorNode_7<T1, T2, T3, T4, T5, T6, T7>* __4__this; // 0x0
+		::FlowCanvas::ValueInput_1<T1>* i; // 0x0
 	};
 }

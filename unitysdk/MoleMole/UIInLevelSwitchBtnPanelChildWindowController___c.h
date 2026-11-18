@@ -6,29 +6,29 @@ namespace System { class EventArgs; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C91980)
-#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C919C0)
-#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__INITSWITCHAVATARCOMPONENT_B__25_0_OFFSET UNITYSDK_OFFSET(0x19C919E0)
-#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__ONUIOPEN_B__18_3_OFFSET UNITYSDK_OFFSET(0x19C919D0)
+#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19607E30)
+#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19607E70)
+#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__INITSWITCHAVATARCOMPONENT_B__27_0_OFFSET UNITYSDK_OFFSET(0x19607E90)
+#define MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__ONUIOPEN_B__19_3_OFFSET UNITYSDK_OFFSET(0x19607E80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex = 91116;
+	inline static constexpr unsigned int UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex = 71872;
 
 	class UIInLevelSwitchBtnPanelChildWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::System::Boolean>** StaticGet___9__25_0()
+		static ::System::Action_1<::System::EventArgs*>** StaticGet___9__19_3()
 		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x36DD0);
+			return (::System::Action_1<::System::EventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x38F10);
 		}
-		static ::MoleMole::UIInLevelSwitchBtnPanelChildWindowController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIInLevelSwitchBtnPanelChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x36DD8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x38F18);
 		}
-		static ::System::Action_1<::System::EventArgs*>** StaticGet___9__18_3()
+		static ::System::Func_1<::System::Boolean>** StaticGet___9__27_0()
 		{
-			return (::System::Action_1<::System::EventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x36DE0);
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelSwitchBtnPanelChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x38F20);
 		}
 
 		static ::System::Void _cctor()
@@ -41,14 +41,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnUIOpen_b__18_3(::System::EventArgs* args)
+		::System::Void _OnUIOpen_b__19_3(::System::EventArgs* args)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__ONUIOPEN_B__18_3_OFFSET))(this, args);
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__ONUIOPEN_B__19_3_OFFSET))(this, args);
 		}
 
-		::System::Boolean _InitSwitchAvatarComponent_b__25_0()
+		::System::Boolean _InitSwitchAvatarComponent_b__27_0()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__INITSWITCHAVATARCOMPONENT_B__25_0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINLEVELSWITCHBTNPANELCHILDWINDOWCONTROLLER___C__INITSWITCHAVATARCOMPONENT_B__27_0_OFFSET))(this);
 		}
 	};
 }

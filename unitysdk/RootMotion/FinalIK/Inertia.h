@@ -2,22 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RootMotion/FinalIK/OffsetModifier.h"
 
-namespace RootMotion::FinalIK { class Inertia_Body; }
-namespace RootMotion::FinalIK { class OffsetModifier_OffsetLimits; }
+namespace System { class Object; }
 
-#define ROOTMOTION_FINALIK_INERTIA_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1FA18230)
-#define ROOTMOTION_FINALIK_INERTIA_RESETBODIES_OFFSET UNITYSDK_OFFSET(0x1FA181B0)
-#define ROOTMOTION_FINALIK_INERTIA__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA182F0)
+#define ROOTMOTION_FINALIK_INERTIA_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1FE322A0)
+#define ROOTMOTION_FINALIK_INERTIA_RESETBODIES_OFFSET UNITYSDK_OFFSET(0x1FE32220)
+#define ROOTMOTION_FINALIK_INERTIA__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE32360)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Inertia_TypeDefinitionIndex = 38864;
+	inline static constexpr unsigned int Inertia_TypeDefinitionIndex = 36817;
 
 	class Inertia : public ::RootMotion::FinalIK::OffsetModifier
 	{
 	public:
-		::Il2CppArray<::RootMotion::FinalIK::Inertia_Body*>* bodies; // 0x30
-		::Il2CppArray<::RootMotion::FinalIK::OffsetModifier_OffsetLimits*>* limits; // 0x38
+		::Il2CppArray<::System::Object*>* bodies; // 0x30
+		::Il2CppArray<::System::Object*>* limits; // 0x38
 
 		::System::Void _ctor()
 		{

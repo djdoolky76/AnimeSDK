@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class COBPHGPKPLN_FDLNEILHGFH;
+
+#define COBPHGPKPLN_DPPEJJGFDBL_COMPARE_OFFSET UNITYSDK_OFFSET(0x13275890)
+#define COBPHGPKPLN_DPPEJJGFDBL__CTOR_OFFSET UNITYSDK_OFFSET(0x13275960)
+
+inline static constexpr unsigned int COBPHGPKPLN_DPPEJJGFDBL_TypeDefinitionIndex = 64385;
+
+class COBPHGPKPLN_DPPEJJGFDBL : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COBPHGPKPLN_DPPEJJGFDBL__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 Compare(::COBPHGPKPLN_FDLNEILHGFH* HAAEBCOBKFF, ::COBPHGPKPLN_FDLNEILHGFH* BFMMEICFNCD)
+	{
+		return ((::System::Int32(*)(::PVOID, ::COBPHGPKPLN_FDLNEILHGFH*, ::COBPHGPKPLN_FDLNEILHGFH*))((::PBYTE)hIl2Cpp + COBPHGPKPLN_DPPEJJGFDBL_COMPARE_OFFSET))(this, HAAEBCOBKFF, BFMMEICFNCD);
+	}
+};

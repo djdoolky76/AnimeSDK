@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDESKYCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CCA6B50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDESKYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA6C10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDESKYCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D1A7B10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDESKYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A7BD0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OverrideSkyConfig_TypeDefinitionIndex = 27920;
+	inline static constexpr unsigned int OverrideSkyConfig_TypeDefinitionIndex = 26396;
 
-	class OverrideSkyConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::OverrideSkyConfig*>
+	class OverrideSkyConfig
 	{
 	public:
 		::UnityEngine::Color SkyBtnColor; // 0x18

@@ -1,23 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_75A5C8C4100A8E33.h"
 #include "unitysdk/Foundation/AssetPath.h"
+#include "unitysdk/HNBABCBHNBE.h"
 #include "unitysdk/MoleMole/Config/TerrainMatType.h"
-#include "unitysdk/MoleMole/GameplayTag.h"
-#include "unitysdk/MoleMole/InLevelChatConfig.h"
-#include "unitysdk/MoleMole/InLevelMultiChatConfig.h"
 #include "unitysdk/MoleMole/Level/BangbooAbilityConfig.h"
 #include "unitysdk/MoleMole/Level/BangbooAbilityTemplateConfig.h"
 #include "unitysdk/MoleMole/Level/BangbooAbilityType.h"
 #include "unitysdk/MoleMole/Level/BangbooPlayType.h"
 #include "unitysdk/MoleMole/Level/BangbooPlayTypeConfig.h"
 #include "unitysdk/MoleMole/Level/BangbooPlayTypeTemplate.h"
-#include "unitysdk/MoleMole/Level/LevelConfig_DayTimeRange.h"
 #include "unitysdk/MoleMole/Level/LevelConfig_LevelPrefabConfig.h"
-#include "unitysdk/MoleMole/Level/LevelConfig_RankingItemConfig.h"
 #include "unitysdk/MoleMole/Level/LevelZeroMonsterWaveLimit.h"
 #include "unitysdk/MoleMole/Level/OverrideScenePerformDelayConfig.h"
 #include "unitysdk/MoleMole/Level/RatingType.h"
+#include "unitysdk/MoleMole/GameplayTag.h"
+#include "unitysdk/MoleMole/InLevelChatConfig.h"
+#include "unitysdk/MoleMole/InLevelMultiChatConfig.h"
 #include "unitysdk/MoleMole/MissionResult.h"
 #include "unitysdk/MoleMole/NapSplitSerialized_MainScriptableObject.h"
 #include "unitysdk/MoleMole/VoidFrontSubGameType.h"
@@ -27,22 +25,20 @@ namespace MoleMole { class SimpleGameplayTagTable; }
 namespace MoleMole { class TeamGroupDataItem; }
 namespace MoleMole::Level { class BangbooFindObjConfig; }
 namespace MoleMole::Level { class LevelConfig_FocusUIIconSetting; }
-namespace MoleMole::Level { class LevelConfig_GlobalAIUpgradePair; }
-namespace MoleMole::Level { class LevelConfig_GlobalAIUpgradeParam; }
-namespace MoleMole::Level { class LevelConfig_SceneMoveGroup; }
 namespace MoleMole::Monster { class MonsterCampCollisionMatrix; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_LEVEL_LEVELCONFIG_GETLEVELABYSSGLOBALAICONFIG_OFFSET UNITYSDK_OFFSET(0x129AB8E0)
-#define MOLEMOLE_LEVEL_LEVELCONFIG_TRYGETFOCUSICONPATH_OFFSET UNITYSDK_OFFSET(0x129AB9F0)
-#define MOLEMOLE_LEVEL_LEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x129ABB00)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_GETLEVELABYSSGLOBALAICONFIG_OFFSET UNITYSDK_OFFSET(0x1246B310)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_TRYGETFOCUSICONPATH_OFFSET UNITYSDK_OFFSET(0x1246B420)
+#define MOLEMOLE_LEVEL_LEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1246B530)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_TypeDefinitionIndex = 86294;
+	inline static constexpr unsigned int LevelConfig_TypeDefinitionIndex = 40479;
 
 	class LevelConfig : public ::MoleMole::NapSplitSerialized_MainScriptableObject
 	{
@@ -61,27 +57,30 @@ namespace MoleMole::Level
 		::System::Single RewardTip_Duration; // 0x68
 		::System::Int32 RewardTip_MaxCount; // 0x6C
 		::MoleMole::TeamGroupDataItem* teamGroup; // 0x70
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_DayTimeRange>* DayTimePeriodConfig; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* DayTimePeriodConfig; // 0x78
 		::System::Single listenerOffsetRatio; // 0x80
 		::System::Single listenerOffsetRatio_ScrollingCameraMode; // 0x84
 		::System::Single listenerOffset_ScrollingCameraMode; // 0x88
 		::System::Boolean muteAudio; // 0x8C
+		::System::Byte _padding0[0x3];
 		::System::String* TerrainMatGroup; // 0x90
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::TerrainMatType, ::System::String*>* TerrainMatStates; // 0x98
 		::System::String* TerrainMatCoverGroup; // 0xA0
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::TerrainMatType, ::System::String*>* TerrainMatCoverStates; // 0xA8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_SceneMoveGroup*>* sceneMoveGroup; // 0xB0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* sceneMoveGroup; // 0xB0
 		::System::String* levelZeroDefaultMainFC; // 0xB8
 		::System::String* levelZeroDevDefaultMainFC; // 0xC0
 		::System::String* levelZeroDefaultLoopStageName; // 0xC8
 		::System::Single levelZeroExceptionPointAwayRadius; // 0xD0
 		::System::Int32 levelZeroDefaultWrapBattleID; // 0xD4
 		::MoleMole::Level::LevelZeroMonsterWaveLimit MonsterWaveLimit; // 0xD8
+		::System::Byte _padding1[0x4];
 		::MoleMole::Level::LevelConfig_LevelPrefabConfig levelZeroVolume; // 0xE8
 		::MoleMole::Monster::MonsterCampCollisionMatrix* MonsterCampConfig; // 0xF8
 		::System::String* Default_Set_Level_Win_TextID; // 0x100
 		::System::Int32 MaxArchiveRankingCount; // 0x108
-		::System::Collections::Generic::List_1<::MoleMole::Level::LevelConfig_RankingItemConfig>* resultRankingItemConfig; // 0x110
+		::System::Byte _padding2[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* resultRankingItemConfig; // 0x110
 		::System::String* LongFight_Win_TextID; // 0x118
 		::System::String* LongFight_Lose_TextID; // 0x120
 		::System::String* LongFight_Show_Page_WIN_Title; // 0x128
@@ -90,18 +89,21 @@ namespace MoleMole::Level
 		::System::Single LongFight_Fadeout_BlackDuration; // 0x13C
 		::UnityEngine::AnimationCurve* LongFight_Fadeout_Curve; // 0x140
 		::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Int32>* LongFightMissionResultTypeReflect; // 0x148
-		::System::Collections::Generic::List_1<::Enum_3_75A5C8C4100A8E33>* ApplyRatingQuestTypes; // 0x150
+		::System::Collections::Generic::List_1<::HNBABCBHNBE>* ApplyRatingQuestTypes; // 0x150
 		::System::Collections::Generic::Dictionary_2<::MoleMole::MissionResult, ::System::Int32>* LongFightMissionResultWithFinish; // 0x158
 		::System::Boolean use_checkarea_culling; // 0x160
 		::System::Boolean use_checkarea_effect_culling; // 0x161
 		::System::Boolean use_checkarea_sceneobject_culling; // 0x162
+		::System::Byte _padding3[0x5];
 		::System::Collections::Generic::List_1<::System::Int32>* SupportAreaCullingBattleEventIDs; // 0x168
 		::System::Collections::Generic::List_1<::MoleMole::GameplayTag>* NotSupportAreaCullingEntityTags; // 0x170
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Level::LevelConfig_GlobalAIUpgradePair*>* GlobalAIUpgradeConfigs; // 0x178
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* GlobalAIUpgradeConfigs; // 0x178
 		::System::Single namePanelYAxisVisibleTolerance; // 0x180
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::LevelConfig_FocusUIIconSetting*>* FocusUIIcons; // 0x188
+		::System::Byte _padding4[0x4];
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* FocusUIIcons; // 0x188
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::InLevelChatConfig>* inLevelChatConfig; // 0x190
 		::MoleMole::InLevelChatConfig defaultInLevelChatConfig; // 0x198
+		::System::Byte _padding5[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::InLevelMultiChatConfig>* inLevelMultiChatConfigs; // 0x1A8
 		::MoleMole::InLevelMultiChatConfig defaultInLevelMultiChatConfig; // 0x1B0
 		::System::Int32 AliveMonsterCountCriterion; // 0x1BC
@@ -113,14 +115,17 @@ namespace MoleMole::Level
 		::System::String* aliveTypeHadalMainFcPath; // 0x1E0
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::System::String*>* HadalCountDownIconKey; // 0x1E8
 		::System::Single hadalProtectTime; // 0x1F0
+		::System::Byte _padding6[0x4];
 		::System::Collections::Generic::Dictionary_2<::MoleMole::VoidFrontSubGameType, ::System::String*>* VoidFrontFCMap; // 0x1F8
 		::System::String* HardCoreBossMainFC; // 0x200
 		::System::Boolean isStartPassTimeAfterScenePerform; // 0x208
+		::System::Byte _padding7[0x3];
 		::System::Single startPassTimeAfterScenePerformDelay; // 0x20C
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Level::OverrideScenePerformDelayConfig>* scenePerformOverrides; // 0x210
 		::System::Int32 maxPartnerCount; // 0x218
 		::System::Boolean avatar_AntiFreeze_Open; // 0x21C
 		::System::Boolean monster_AntiFreeze_Open; // 0x21D
+		::System::Byte _padding8[0x2];
 		::System::Single avatar_AntiFreeze_Duration; // 0x220
 		::System::Single avatar_AntiFreeze_TransferCurtain; // 0x224
 		::System::Collections::Generic::List_1<::System::String*>* avatar_AntiFreeze_SpPrefix; // 0x228
@@ -132,6 +137,7 @@ namespace MoleMole::Level
 		::System::Single BattleRegionOneWayDoorEffectChangeInterval; // 0x244
 		::System::String* pureBattleQuestMainFc; // 0x248
 		::System::Single FlowCanvasTaskMaxDelayTime; // 0x250
+		::System::Byte _padding9[0x4];
 		::System::String* AbyssS2_RouteMap_MainFc; // 0x258
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::MoleMole::Level::BangbooPlayTypeConfig>* BangbooPlayTypeConfigs; // 0x260
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::BangbooPlayType, ::Foundation::AssetPath>* BranchSkillButtonIconPath; // 0x268
@@ -144,9 +150,9 @@ namespace MoleMole::Level
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVEL_LEVELCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean GetLevelAbyssGlobalAIConfig(::System::Int32 queryKey, ::System::Collections::Generic::List_1<::MoleMole::Level::LevelConfig_GlobalAIUpgradeParam*>*& attackCdConfigs)
+		::System::Boolean GetLevelAbyssGlobalAIConfig(::System::Int32 queryKey, ::System::Collections::Generic::List_1<::System::Object*>*& attackCdConfigs)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::Level::LevelConfig_GlobalAIUpgradeParam*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVEL_LEVELCONFIG_GETLEVELABYSSGLOBALAICONFIG_OFFSET))(this, queryKey, attackCdConfigs);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::System::Object*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_LEVEL_LEVELCONFIG_GETLEVELABYSSGLOBALAICONFIG_OFFSET))(this, queryKey, attackCdConfigs);
 		}
 
 		::System::Boolean TryGetFocusIconPath(::System::String* key, ::MoleMole::Level::LevelConfig_FocusUIIconSetting*& iconPath)

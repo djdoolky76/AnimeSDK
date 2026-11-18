@@ -8,27 +8,27 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_3E8B8757B7A354CC_OFFSET UNITYSDK_OFFSET(0x1384F800)
-#define MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0x1384F1D0)
-#define MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_D3700E59FA9F1C7C_OFFSET UNITYSDK_OFFSET(0x1384FF50)
-#define MOLEMOLE_MONOGENERALKEYPANELSORT_SETCHANGEDIRTY_OFFSET UNITYSDK_OFFSET(0x1384F5D0)
-#define MOLEMOLE_MONOGENERALKEYPANELSORT_START_OFFSET UNITYSDK_OFFSET(0x1384F180)
-#define MOLEMOLE_MONOGENERALKEYPANELSORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1384F770)
-#define MOLEMOLE_MONOGENERALKEYPANELSORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1384F620)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT_ADNEHFEPLLD_OFFSET UNITYSDK_OFFSET(0x139F54C0)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT_FBBNDKEKAIC_OFFSET UNITYSDK_OFFSET(0x139F4E90)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT_LFEGNLOGBLI_OFFSET UNITYSDK_OFFSET(0x139F5C10)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT_SETCHANGEDIRTY_OFFSET UNITYSDK_OFFSET(0x139F5290)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT_START_OFFSET UNITYSDK_OFFSET(0x139F4E40)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x139F5430)
+#define MOLEMOLE_MONOGENERALKEYPANELSORT__CTOR_OFFSET UNITYSDK_OFFSET(0x139F52E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGeneralKeyPanelSort_TypeDefinitionIndex = 90242;
+	inline static constexpr unsigned int MonoGeneralKeyPanelSort_TypeDefinitionIndex = 76405;
 
 	class MonoGeneralKeyPanelSort : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::MoleMole::InputLogicEventType>** StaticGet_Field_5_2()
+		static ::System::Collections::Generic::List_1<::MoleMole::InputLogicEventType>** StaticGet_OBGJHMGHMBF()
 		{
-			return (::System::Collections::Generic::List_1<::MoleMole::InputLogicEventType>**)Il2CppClass::FromTypeDefinitionIndex(MonoGeneralKeyPanelSort_TypeDefinitionIndex)->GetStaticField(0x3FA30);
+			return (::System::Collections::Generic::List_1<::MoleMole::InputLogicEventType>**)Il2CppClass::FromTypeDefinitionIndex(MonoGeneralKeyPanelSort_TypeDefinitionIndex)->GetStaticField(0x44C50);
 		}
-		::System::Collections::Generic::List_1<::MoleMole::UIGeneralKeyPanelWidgetController*>* Field_5_1; // 0x18
-		::System::Collections::Generic::Dictionary_2<::MoleMole::UIGeneralKeyPanelWidgetController*, ::UnityEngine::Transform*>* Field_5_0; // 0x20
+		::System::Collections::Generic::List_1<::MoleMole::UIGeneralKeyPanelWidgetController*>* MNNHMPHJKFD; // 0x18
+		::System::Collections::Generic::Dictionary_2<::MoleMole::UIGeneralKeyPanelWidgetController*, ::UnityEngine::Transform*>* HLPNJONGLAB; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -50,19 +50,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALKEYPANELSORT_SETCHANGEDIRTY_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B877181B6123B7F6()
+		static ::System::Int32 ADNEHFEPLLD(::MoleMole::InputLogicEventType KAMJLKGLFDB)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_B877181B6123B7F6_OFFSET))(this);
+			return ((::System::Int32(*)(::MoleMole::InputLogicEventType))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALKEYPANELSORT_ADNEHFEPLLD_OFFSET))(KAMJLKGLFDB);
 		}
 
-		static ::System::Int32 Method_5_3E8B8757B7A354CC(::MoleMole::InputLogicEventType a1)
+		::System::Void FBBNDKEKAIC()
 		{
-			return ((::System::Int32(*)(::MoleMole::InputLogicEventType))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_3E8B8757B7A354CC_OFFSET))(a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALKEYPANELSORT_FBBNDKEKAIC_OFFSET))(this);
 		}
 
-		::System::Int32 Method_5_D3700E59FA9F1C7C(::MoleMole::UIGeneralKeyPanelWidgetController* a1, ::MoleMole::UIGeneralKeyPanelWidgetController* a2)
+		::System::Int32 LFEGNLOGBLI(::MoleMole::UIGeneralKeyPanelWidgetController* EJCBEJMGFAJ, ::MoleMole::UIGeneralKeyPanelWidgetController* EBFCACIEKBC)
 		{
-			return ((::System::Int32(*)(::PVOID, ::MoleMole::UIGeneralKeyPanelWidgetController*, ::MoleMole::UIGeneralKeyPanelWidgetController*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALKEYPANELSORT_METHOD_5_D3700E59FA9F1C7C_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::MoleMole::UIGeneralKeyPanelWidgetController*, ::MoleMole::UIGeneralKeyPanelWidgetController*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALKEYPANELSORT_LFEGNLOGBLI_OFFSET))(this, EJCBEJMGFAJ, EBFCACIEKBC);
 		}
 	};
 }

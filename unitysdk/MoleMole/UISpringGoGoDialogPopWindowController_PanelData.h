@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISPRINGGOGODIALOGPOPWINDOWCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x160DF820)
+#define MOLEMOLE_UISPRINGGOGODIALOGPOPWINDOWCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x167C8BC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISpringGoGoDialogPopWindowController_PanelData_TypeDefinitionIndex = 55533;
+	inline static constexpr unsigned int UISpringGoGoDialogPopWindowController_PanelData_TypeDefinitionIndex = 73108;
 
 	class UISpringGoGoDialogPopWindowController_PanelData : public ::MoleMole::UIControllerContextBase
 	{

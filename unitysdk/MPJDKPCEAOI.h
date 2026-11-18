@@ -1,0 +1,89 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ICEBNIECGBK.h"
+#include "unitysdk/OLPPOJJADDO.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace UnityEngine { class RectTransform; }
+template <typename T> class BFMLEHMAGAK_1;
+
+#define MPJDKPCEAOI_BALOBFOMNBD_OFFSET UNITYSDK_OFFSET(0x1078C310)
+#define MPJDKPCEAOI_CCKJJKMFJMH_OFFSET UNITYSDK_OFFSET(0x1078C0C0)
+#define MPJDKPCEAOI_FDILCHDDCPB_OFFSET UNITYSDK_OFFSET(0x1078C1F0)
+#define MPJDKPCEAOI_FLOJICFHPLL_OFFSET UNITYSDK_OFFSET(0x1078C2C0)
+#define MPJDKPCEAOI_GCOJGPHFBAI_OFFSET UNITYSDK_OFFSET(0x1078CD20)
+#define MPJDKPCEAOI_GMLPKMHCDEL_OFFSET UNITYSDK_OFFSET(0x1078BFA0)
+#define MPJDKPCEAOI_HKNPPIIOIFO_OFFSET UNITYSDK_OFFSET(0x1078C0B0)
+#define MPJDKPCEAOI_KIAGBIJAKNP_OFFSET UNITYSDK_OFFSET(0x1078C160)
+#define MPJDKPCEAOI_MHCCOKMDCJN_OFFSET UNITYSDK_OFFSET(0x1078C320)
+#define MPJDKPCEAOI_NHLMHIHPNED_OFFSET UNITYSDK_OFFSET(0x1078C2B0)
+#define MPJDKPCEAOI_OPMCOPAFCPJ_OFFSET UNITYSDK_OFFSET(0x1078C060)
+#define MPJDKPCEAOI__CTOR_OFFSET UNITYSDK_OFFSET(0x1078C2D0)
+
+inline static constexpr unsigned int MPJDKPCEAOI_TypeDefinitionIndex = 72457;
+
+class MPJDKPCEAOI
+{
+public:
+	::BFMLEHMAGAK_1<::OLPPOJJADDO>* ELEMEAGFJIF; // 0x230
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJDKPCEAOI__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 GMLPKMHCDEL()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJDKPCEAOI_GMLPKMHCDEL_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector2 OPMCOPAFCPJ()
+	{
+		return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJDKPCEAOI_OPMCOPAFCPJ_OFFSET))(this);
+	}
+
+	::System::Boolean HKNPPIIOIFO()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJDKPCEAOI_HKNPPIIOIFO_OFFSET))(this);
+	}
+
+	::System::Boolean CCKJJKMFJMH()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJDKPCEAOI_CCKJJKMFJMH_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* KIAGBIJAKNP()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJDKPCEAOI_KIAGBIJAKNP_OFFSET))(this);
+	}
+
+	::BFMLEHMAGAK_1<::OLPPOJJADDO>* FDILCHDDCPB()
+	{
+		return ((::BFMLEHMAGAK_1<::OLPPOJJADDO>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJDKPCEAOI_FDILCHDDCPB_OFFSET))(this);
+	}
+
+	::ICEBNIECGBK NHLMHIHPNED()
+	{
+		return ((::ICEBNIECGBK(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJDKPCEAOI_NHLMHIHPNED_OFFSET))(this);
+	}
+
+	::System::Single FLOJICFHPLL()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJDKPCEAOI_FLOJICFHPLL_OFFSET))(this);
+	}
+
+	::System::Int32 BALOBFOMNBD()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJDKPCEAOI_BALOBFOMNBD_OFFSET))(this);
+	}
+
+	::OLPPOJJADDO MHCCOKMDCJN()
+	{
+		return ((::OLPPOJJADDO(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJDKPCEAOI_MHCCOKMDCJN_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector2 GCOJGPHFBAI()
+	{
+		return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJDKPCEAOI_GCOJGPHFBAI_OFFSET))(this);
+	}
+};

@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MESSAGEPACK_UNITY_ANIMATIONCURVEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E72A660)
-#define MESSAGEPACK_UNITY_ANIMATIONCURVEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E72A380)
-#define MESSAGEPACK_UNITY_ANIMATIONCURVEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E72AAD0)
+#define MESSAGEPACK_UNITY_ANIMATIONCURVEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E9CF950)
+#define MESSAGEPACK_UNITY_ANIMATIONCURVEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E9CF670)
+#define MESSAGEPACK_UNITY_ANIMATIONCURVEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9CFDC0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int AnimationCurveFormatter_TypeDefinitionIndex = 29871;
+	inline static constexpr unsigned int AnimationCurveFormatter_TypeDefinitionIndex = 29328;
 
 	class AnimationCurveFormatter : public ::System::Object
 	{

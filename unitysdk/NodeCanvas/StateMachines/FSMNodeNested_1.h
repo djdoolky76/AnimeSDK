@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NodeCanvas/StateMachines/FSMNode.h"
 
-namespace NodeCanvas::Framework { class BBParameter; }
 namespace NodeCanvas::Framework { class Graph; }
 namespace NodeCanvas::Framework::Internal { class BBMappingParameter; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -10,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NodeCanvas::StateMachines
 {
-	inline static constexpr unsigned int FSMNodeNested_1_TypeDefinitionIndex = 30434;
+	inline static constexpr unsigned int FSMNodeNested_1_TypeDefinitionIndex = 30761;
 
 	template <typename T>
 	class FSMNodeNested_1 : public ::NodeCanvas::StateMachines::FSMNode

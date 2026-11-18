@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_DISALLOWMULTIPLECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA0EA50)
+#define UNITYENGINE_DISALLOWMULTIPLECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8E100)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DisallowMultipleComponent_TypeDefinitionIndex = 5325;
+	inline static constexpr unsigned int DisallowMultipleComponent_TypeDefinitionIndex = 5327;
 
 	class DisallowMultipleComponent : public ::System::Attribute
 	{

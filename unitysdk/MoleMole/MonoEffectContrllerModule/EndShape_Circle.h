@@ -2,14 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_2DDAC2F6C97EB8AD;
+class CLPEHLLCADI;
 
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_ENDSHAPE_CIRCLE_SAMPLE_OFFSET UNITYSDK_OFFSET(0x6B8640)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_ENDSHAPE_CIRCLE_SAMPLE_OFFSET UNITYSDK_OFFSET(0x770040)
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int EndShape_Circle_TypeDefinitionIndex = 55042;
+	inline static constexpr unsigned int EndShape_Circle_TypeDefinitionIndex = 83072;
 
 	struct alignas(4) EndShape_Circle
 	{
@@ -19,11 +20,9 @@ namespace MoleMole::MonoEffectContrllerModule
 		::UnityEngine::Quaternion Rotate; // 0x14
 		::System::Boolean OnlyEndge; // 0x24
 
-		/*
-		::UnityEngine::Vector3 Sample(::Class_1_2DDAC2F6C97EB8AD* randomGenerator)
+		::UnityEngine::Vector3 Sample(::CLPEHLLCADI* randomGenerator)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::Class_1_2DDAC2F6C97EB8AD*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_ENDSHAPE_CIRCLE_SAMPLE_OFFSET))(this, randomGenerator);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::CLPEHLLCADI*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_ENDSHAPE_CIRCLE_SAMPLE_OFFSET))(this, randomGenerator);
 		}
-		*/
 	};
 }

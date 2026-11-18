@@ -1,0 +1,87 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/KOLFGAALPJM.h"
+
+class EGLPLOHEAEL;
+class IKNGGHOCDBF;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define AJJFHBEHANJ_ACGOFPJMGNG_OFFSET UNITYSDK_OFFSET(0x1F8BD4A0)
+#define AJJFHBEHANJ_ELAFOFHNNGJ_OFFSET UNITYSDK_OFFSET(0x1F8BD520)
+#define AJJFHBEHANJ_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F8BCAF0)
+#define AJJFHBEHANJ_FHKCDOBINPH_OFFSET UNITYSDK_OFFSET(0x1F8BCDB0)
+#define AJJFHBEHANJ_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F8BCBD0)
+#define AJJFHBEHANJ_GKPKIEFDPMD_OFFSET UNITYSDK_OFFSET(0x1F8BD450)
+#define AJJFHBEHANJ_IKKMFALGCJJ_OFFSET UNITYSDK_OFFSET(0x1F8BCD30)
+#define AJJFHBEHANJ_LKOEALOOBLI_OFFSET UNITYSDK_OFFSET(0x1F8BDA80)
+#define AJJFHBEHANJ_MNGHBPNCMPK_OFFSET UNITYSDK_OFFSET(0x1F8BCE00)
+#define AJJFHBEHANJ_NNMIABKFEOJ_OFFSET UNITYSDK_OFFSET(0x1F8BCC70)
+#define AJJFHBEHANJ__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8BCAE0)
+
+inline static constexpr unsigned int AJJFHBEHANJ_TypeDefinitionIndex = 18120;
+
+class AJJFHBEHANJ : public ::System::Object
+{
+public:
+	::System::Collections::Generic::List_1<::System::UInt64>* CAPAFKKMDPC; // 0x10
+	::System::Collections::Generic::List_1<::EGLPLOHEAEL*>* IPOOJFJLHEB; // 0x18
+	::System::Collections::Generic::List_1<::IKNGGHOCDBF*>* BJCNEDMFEOC; // 0x20
+	::System::Collections::Generic::List_1<::System::UInt64>* GJEIDKJHKCN; // 0x28
+	::System::Collections::Generic::List_1<::System::UInt32>* OPEIBBJBKNP; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJJFHBEHANJ__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean Equals(::System::Object* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + AJJFHBEHANJ_EQUALS_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AJJFHBEHANJ_GETHASHCODE_OFFSET))(this);
+	}
+
+	::AJJFHBEHANJ* NNMIABKFEOJ(::AJJFHBEHANJ* LIBPKNHDIGP)
+	{
+		return ((::AJJFHBEHANJ*(*)(::PVOID, ::AJJFHBEHANJ*))((::PBYTE)hIl2Cpp + AJJFHBEHANJ_NNMIABKFEOJ_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::AJJFHBEHANJ* IKKMFALGCJJ(::System::UInt32 EGEGIMGMJHN)
+	{
+		return ((::AJJFHBEHANJ*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + AJJFHBEHANJ_IKKMFALGCJJ_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::AJJFHBEHANJ* FHKCDOBINPH(::IKNGGHOCDBF* EGEGIMGMJHN)
+	{
+		return ((::AJJFHBEHANJ*(*)(::PVOID, ::IKNGGHOCDBF*))((::PBYTE)hIl2Cpp + AJJFHBEHANJ_FHKCDOBINPH_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void MNGHBPNCMPK(::System::Int32 HDKNIHBGIBC, ::KOLFGAALPJM& AJMCCOEAIFE)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::KOLFGAALPJM&))((::PBYTE)hIl2Cpp + AJJFHBEHANJ_MNGHBPNCMPK_OFFSET))(this, HDKNIHBGIBC, AJMCCOEAIFE);
+	}
+
+	::AJJFHBEHANJ* GKPKIEFDPMD(::EGLPLOHEAEL* EGEGIMGMJHN)
+	{
+		return ((::AJJFHBEHANJ*(*)(::PVOID, ::EGLPLOHEAEL*))((::PBYTE)hIl2Cpp + AJJFHBEHANJ_GKPKIEFDPMD_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::AJJFHBEHANJ* ACGOFPJMGNG(::System::UInt64 EGEGIMGMJHN)
+	{
+		return ((::AJJFHBEHANJ*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + AJJFHBEHANJ_ACGOFPJMGNG_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Int32 ELAFOFHNNGJ(::System::Int32 HDKNIHBGIBC)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AJJFHBEHANJ_ELAFOFHNNGJ_OFFSET))(this, HDKNIHBGIBC);
+	}
+
+	::AJJFHBEHANJ* LKOEALOOBLI(::System::UInt64 EGEGIMGMJHN)
+	{
+		return ((::AJJFHBEHANJ*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + AJJFHBEHANJ_LKOEALOOBLI_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

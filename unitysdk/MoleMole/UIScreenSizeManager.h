@@ -4,55 +4,56 @@
 #include "unitysdk/UnityEngine/ScreenOrientation.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-namespace MoleMole { class UIScreenSizeManager_Class_3_340DA576D305E267; }
+namespace MoleMole { class UIScreenSizeManager_EBOOLILDEIC; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UISCREENSIZEMANAGER_ADD_ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x15A26460)
-#define MOLEMOLE_UISCREENSIZEMANAGER_ADD_UPDATE_OFFSET UNITYSDK_OFFSET(0x15A26620)
-#define MOLEMOLE_UISCREENSIZEMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x15A267E0)
-#define MOLEMOLE_UISCREENSIZEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15A268B0)
-#define MOLEMOLE_UISCREENSIZEMANAGER_MARKLAYOUTFORREBUILD_OFFSET UNITYSDK_OFFSET(0x15A26DC0)
-#define MOLEMOLE_UISCREENSIZEMANAGER_METHOD_5_11C95569233D7E49_OFFSET UNITYSDK_OFFSET(0x15A26BA0)
-#define MOLEMOLE_UISCREENSIZEMANAGER_REMOVE_ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x15A26540)
-#define MOLEMOLE_UISCREENSIZEMANAGER_REMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x15A26700)
-#define MOLEMOLE_UISCREENSIZEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A26EA0)
-#define MOLEMOLE_UISCREENSIZEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x15A26E50)
+#define MOLEMOLE_UISCREENSIZEMANAGER_ADD_ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x15C69100)
+#define MOLEMOLE_UISCREENSIZEMANAGER_ADD_UPDATE_OFFSET UNITYSDK_OFFSET(0x15C692C0)
+#define MOLEMOLE_UISCREENSIZEMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x15C69480)
+#define MOLEMOLE_UISCREENSIZEMANAGER_DEBEMPHOCBN_OFFSET UNITYSDK_OFFSET(0x15C69840)
+#define MOLEMOLE_UISCREENSIZEMANAGER_JPOLBPCHLHK_OFFSET UNITYSDK_OFFSET(0x15C69C40)
+#define MOLEMOLE_UISCREENSIZEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15C69550)
+#define MOLEMOLE_UISCREENSIZEMANAGER_MARKLAYOUTFORREBUILD_OFFSET UNITYSDK_OFFSET(0x15C69B40)
+#define MOLEMOLE_UISCREENSIZEMANAGER_REMOVE_ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x15C691E0)
+#define MOLEMOLE_UISCREENSIZEMANAGER_REMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x15C693A0)
+#define MOLEMOLE_UISCREENSIZEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C69C20)
+#define MOLEMOLE_UISCREENSIZEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x15C69BD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIScreenSizeManager_TypeDefinitionIndex = 69651;
+	inline static constexpr unsigned int UIScreenSizeManager_TypeDefinitionIndex = 39898;
 
 	class UIScreenSizeManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::MoleMole::UIScreenSizeManager_Class_3_340DA576D305E267** StaticGet_Field_5_1()
+		static ::MoleMole::UIScreenSizeManager_EBOOLILDEIC** StaticGet_BNANNPOLFAC()
 		{
-			return (::MoleMole::UIScreenSizeManager_Class_3_340DA576D305E267**)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x492C0);
+			return (::MoleMole::UIScreenSizeManager_EBOOLILDEIC**)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x472C0);
 		}
-		static ::System::String** StaticGet_Field_5_5()
+		static ::System::String** StaticGet_CIOPHMMCAOE()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x492C8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x472C8);
 		}
-		static ::System::Action** StaticGet_Field_5_0()
+		static ::System::Action** StaticGet_PGMEJLDDHFI()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x492D0);
-		}
-		static ::UnityEngine::Vector2* StaticGet_Field_5_7()
-		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x10DA0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x472D0);
 		}
 		static ::System::Boolean* StaticGet_RightClickOpenView()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x10DA8);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x10670);
 		}
-		static ::System::Int32* StaticGet_Field_5_4()
+		static ::UnityEngine::ScreenOrientation* StaticGet_KPKCPFNFBNA()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x10DAC);
+			return (::UnityEngine::ScreenOrientation*)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x10674);
 		}
-		static ::UnityEngine::ScreenOrientation* StaticGet_Field_5_6()
+		static ::System::Int32* StaticGet_GAOODNKIJKI()
 		{
-			return (::UnityEngine::ScreenOrientation*)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x10DB0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x10678);
+		}
+		static ::UnityEngine::Vector2* StaticGet_BCNLPNGBMKL()
+		{
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UIScreenSizeManager_TypeDefinitionIndex)->GetStaticField(0x1067C);
 		}
 
 		::System::Void _ctor()
@@ -65,24 +66,24 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void add_onScreenSizeChanged(::MoleMole::UIScreenSizeManager_Class_3_340DA576D305E267* a1)
+		static ::System::Void add_onScreenSizeChanged(::MoleMole::UIScreenSizeManager_EBOOLILDEIC* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::MoleMole::UIScreenSizeManager_Class_3_340DA576D305E267*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER_ADD_ONSCREENSIZECHANGED_OFFSET))(a1);
+			return ((::System::Void(*)(::MoleMole::UIScreenSizeManager_EBOOLILDEIC*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER_ADD_ONSCREENSIZECHANGED_OFFSET))(EGEGIMGMJHN);
 		}
 
-		static ::System::Void remove_onScreenSizeChanged(::MoleMole::UIScreenSizeManager_Class_3_340DA576D305E267* a1)
+		static ::System::Void remove_onScreenSizeChanged(::MoleMole::UIScreenSizeManager_EBOOLILDEIC* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::MoleMole::UIScreenSizeManager_Class_3_340DA576D305E267*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER_REMOVE_ONSCREENSIZECHANGED_OFFSET))(a1);
+			return ((::System::Void(*)(::MoleMole::UIScreenSizeManager_EBOOLILDEIC*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER_REMOVE_ONSCREENSIZECHANGED_OFFSET))(EGEGIMGMJHN);
 		}
 
-		static ::System::Void add_update(::System::Action* a1)
+		static ::System::Void add_update(::System::Action* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER_ADD_UPDATE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER_ADD_UPDATE_OFFSET))(EGEGIMGMJHN);
 		}
 
-		static ::System::Void remove_update(::System::Action* a1)
+		static ::System::Void remove_update(::System::Action* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER_REMOVE_UPDATE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER_REMOVE_UPDATE_OFFSET))(EGEGIMGMJHN);
 		}
 
 		::System::Void Awake()
@@ -100,9 +101,14 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER_MARKLAYOUTFORREBUILD_OFFSET))();
 		}
 
-		static ::System::Void Method_5_11C95569233D7E49(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
+		static ::System::Void DEBEMPHOCBN(::UnityEngine::Vector2 NHOEAFJJJGA, ::UnityEngine::Vector2 CMJHMGPKGKH)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER_METHOD_5_11C95569233D7E49_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER_DEBEMPHOCBN_OFFSET))(NHOEAFJJJGA, CMJHMGPKGKH);
+		}
+
+		static ::System::Void JPOLBPCHLHK()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UISCREENSIZEMANAGER_JPOLBPCHLHK_OFFSET))();
 		}
 	};
 }

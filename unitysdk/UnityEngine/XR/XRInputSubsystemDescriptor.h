@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/IntegratedSubsystemDescriptor_1.h"
 
-namespace UnityEngine::XR { class XRInputSubsystem; }
-
-#define UNITYENGINE_XR_XRINPUTSUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB672E0)
+#define UNITYENGINE_XR_XRINPUTSUBSYSTEMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF6B5C0)
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRInputSubsystemDescriptor_TypeDefinitionIndex = 28255;
+	inline static constexpr unsigned int XRInputSubsystemDescriptor_TypeDefinitionIndex = 27673;
 
-	class XRInputSubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<::UnityEngine::XR::XRInputSubsystem*>
+	class XRInputSubsystemDescriptor
 	{
 	public:
 		::System::Void _ctor()

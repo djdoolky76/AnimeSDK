@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_208CC9941471731A_1088;
-class Class_2_F69D29AB796376C2;
+class EGOPHPIBPJJ;
+class GEILNPBJMFF;
 namespace System { class String; }
 
-#define MOLEMOLE_UICOOPLEVELUNLOCKROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18AA8A40)
+#define MOLEMOLE_UICOOPLEVELUNLOCKROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18077EF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopLevelUnlockRowWidgetController_Context_TypeDefinitionIndex = 86261;
+	inline static constexpr unsigned int UICoopLevelUnlockRowWidgetController_Context_TypeDefinitionIndex = 54490;
 
 	class UICoopLevelUnlockRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_208CC9941471731A_1088* CoopQuestTemplate; // 0x28
-		::Class_2_F69D29AB796376C2* QuestTemplate; // 0x30
+		::EGOPHPIBPJJ* QuestTemplate; // 0x28
+		::GEILNPBJMFF* CoopQuestTemplate; // 0x30
 		::System::String* TextKey; // 0x38
-		::System::Boolean ShowChallenge; // 0x40
-		::System::Boolean ShowNightmare; // 0x41
-		::System::Boolean ShowNormal; // 0x42
-		::System::Boolean ShowStudy; // 0x43
+		::System::Boolean ShowNormal; // 0x40
+		::System::Boolean ShowChallenge; // 0x41
+		::System::Boolean ShowStudy; // 0x42
+		::System::Boolean ShowNightmare; // 0x43
 
 		::System::Void _ctor(::System::Int32 questId)
 		{

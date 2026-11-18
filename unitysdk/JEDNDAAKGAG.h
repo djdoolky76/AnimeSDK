@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class AFMMAIKKACF;
+class EHGPNGPADCB;
+
+#define JEDNDAAKGAG_CALBFFFCOFG_OFFSET UNITYSDK_OFFSET(0x1944ECE0)
+#define JEDNDAAKGAG_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0x1944EC20)
+#define JEDNDAAKGAG_LGDMAAJFKNE_OFFSET UNITYSDK_OFFSET(0x1944ECF0)
+#define JEDNDAAKGAG_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0x1944EFD0)
+#define JEDNDAAKGAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1944EC10)
+
+inline static constexpr unsigned int JEDNDAAKGAG_TypeDefinitionIndex = 41332;
+
+class JEDNDAAKGAG
+{
+public:
+	::System::Void _ctor(::EHGPNGPADCB* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::EHGPNGPADCB*))((::PBYTE)hIl2Cpp + JEDNDAAKGAG__CTOR_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Void GLEJMKLOMBP(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + JEDNDAAKGAG_GLEJMKLOMBP_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void CALBFFFCOFG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JEDNDAAKGAG_CALBFFFCOFG_OFFSET))(this);
+	}
+
+	::System::Void LGDMAAJFKNE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JEDNDAAKGAG_LGDMAAJFKNE_OFFSET))(this);
+	}
+
+	::System::Void LIDIODHDJAF(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + JEDNDAAKGAG_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+};

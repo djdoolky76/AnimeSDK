@@ -15,61 +15,69 @@ namespace UnityEngine { class AnimageComponent; }
 namespace UnityEngine { class Rigidbody; }
 namespace UnityEngine { class Transform; }
 
-#define WEAPONRAYCAST_DOCALCULATETARGET_OFFSET UNITYSDK_OFFSET(0x1C1527E0)
-#define WEAPONRAYCAST_GETBIPROOTPOSITION_OFFSET UNITYSDK_OFFSET(0x1C151650)
-#define WEAPONRAYCAST_GETDELTAFROMRIGIDBODYTOTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1C151FF0)
-#define WEAPONRAYCAST_GETRAYCASTHIT_OFFSET UNITYSDK_OFFSET(0x1C1519E0)
-#define WEAPONRAYCAST_GETSTAGEGROUNDPOSHIT_OFFSET UNITYSDK_OFFSET(0x1C151BD0)
-#define WEAPONRAYCAST_GET_BLENDVALUE_OFFSET UNITYSDK_OFFSET(0x1C1524A0)
-#define WEAPONRAYCAST_GET_CALCPROCESSTIME_OFFSET UNITYSDK_OFFSET(0x1C152390)
-#define WEAPONRAYCAST_GET_ENABLEDEBUG_OFFSET UNITYSDK_OFFSET(0x1C151610)
-#define WEAPONRAYCAST_GET_GIZMOSLASTTIME_OFFSET UNITYSDK_OFFSET(0x1C151630)
-#define WEAPONRAYCAST_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1C152E80)
-#define WEAPONRAYCAST_ONANIMATORIK_OFFSET UNITYSDK_OFFSET(0x1C152D90)
-#define WEAPONRAYCAST_SET_DISABLEDAMPING_OFFSET UNITYSDK_OFFSET(0x1C151830)
-#define WEAPONRAYCAST_SET_ENABLEDEBUG_OFFSET UNITYSDK_OFFSET(0x1C151620)
-#define WEAPONRAYCAST_SET_GIZMOSLASTTIME_OFFSET UNITYSDK_OFFSET(0x1C151640)
-#define WEAPONRAYCAST_SMOOTHSTEP_OFFSET UNITYSDK_OFFSET(0x1C152300)
-#define WEAPONRAYCAST_START_OFFSET UNITYSDK_OFFSET(0x1C151840)
-#define WEAPONRAYCAST_TRIGGERRAYCASTCLOSE_OFFSET UNITYSDK_OFFSET(0x1C1526D0)
-#define WEAPONRAYCAST_TRIGGERRAYCASTOPEN_OFFSET UNITYSDK_OFFSET(0x1C1525D0)
-#define WEAPONRAYCAST_UPDATESETTIME_OFFSET UNITYSDK_OFFSET(0x1C152430)
-#define WEAPONRAYCAST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C153390)
-#define WEAPONRAYCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1532B0)
+#define WEAPONRAYCAST_DOCALCULATETARGET_OFFSET UNITYSDK_OFFSET(0x1CB76300)
+#define WEAPONRAYCAST_GETBIPROOTPOSITION_OFFSET UNITYSDK_OFFSET(0x1CB75170)
+#define WEAPONRAYCAST_GETDELTAFROMRIGIDBODYTOTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1CB75B10)
+#define WEAPONRAYCAST_GETRAYCASTHIT_OFFSET UNITYSDK_OFFSET(0x1CB75500)
+#define WEAPONRAYCAST_GETSTAGEGROUNDPOSHIT_OFFSET UNITYSDK_OFFSET(0x1CB756F0)
+#define WEAPONRAYCAST_GET_BLENDVALUE_OFFSET UNITYSDK_OFFSET(0x1CB75FC0)
+#define WEAPONRAYCAST_GET_CALCPROCESSTIME_OFFSET UNITYSDK_OFFSET(0x1CB75EB0)
+#define WEAPONRAYCAST_GET_ENABLEDEBUG_OFFSET UNITYSDK_OFFSET(0x1CB75130)
+#define WEAPONRAYCAST_GET_GIZMOSLASTTIME_OFFSET UNITYSDK_OFFSET(0x1CB75150)
+#define WEAPONRAYCAST_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1CB769A0)
+#define WEAPONRAYCAST_ONANIMATORIK_OFFSET UNITYSDK_OFFSET(0x1CB768B0)
+#define WEAPONRAYCAST_SET_DISABLEDAMPING_OFFSET UNITYSDK_OFFSET(0x1CB75350)
+#define WEAPONRAYCAST_SET_ENABLEDEBUG_OFFSET UNITYSDK_OFFSET(0x1CB75140)
+#define WEAPONRAYCAST_SET_GIZMOSLASTTIME_OFFSET UNITYSDK_OFFSET(0x1CB75160)
+#define WEAPONRAYCAST_SMOOTHSTEP_OFFSET UNITYSDK_OFFSET(0x1CB75E20)
+#define WEAPONRAYCAST_START_OFFSET UNITYSDK_OFFSET(0x1CB75360)
+#define WEAPONRAYCAST_TRIGGERRAYCASTCLOSE_OFFSET UNITYSDK_OFFSET(0x1CB761F0)
+#define WEAPONRAYCAST_TRIGGERRAYCASTOPEN_OFFSET UNITYSDK_OFFSET(0x1CB760F0)
+#define WEAPONRAYCAST_UPDATESETTIME_OFFSET UNITYSDK_OFFSET(0x1CB75F50)
+#define WEAPONRAYCAST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB76EB0)
+#define WEAPONRAYCAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB76DD0)
 
-inline static constexpr unsigned int WeaponRaycast_TypeDefinitionIndex = 73653;
+inline static constexpr unsigned int WeaponRaycast_TypeDefinitionIndex = 75264;
 
 class WeaponRaycast : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_rayCastHitResults()
 	{
-		return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(WeaponRaycast_TypeDefinitionIndex)->GetStaticField(0x41350);
+		return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(WeaponRaycast_TypeDefinitionIndex)->GetStaticField(0x45B60);
 	}
 	static ::System::String** StaticGet_GroundTag()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(WeaponRaycast_TypeDefinitionIndex)->GetStaticField(0x41358);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(WeaponRaycast_TypeDefinitionIndex)->GetStaticField(0x45B68);
 	}
 	::System::Single RayCastHeight; // 0x18
+	::System::Byte _padding0[0x4];
 	::UnityEngine::Transform* Weapon; // 0x20
 	::System::Single velocityLimit; // 0x28
 	::System::Boolean UseIKDelta; // 0x2C
 	::System::Boolean CheckGroundTag; // 0x2D
+	::System::Byte _padding1[0x2];
 	::WeaponRaycast_TransitionMode transitionMode; // 0x30
 	::UnityEngine::Vector3 raycastOffset; // 0x34
 	::System::Boolean EnableRangeMin; // 0x40
 	::System::Boolean EnableRangeMax; // 0x41
+	::System::Byte _padding2[0x2];
 	::UnityEngine::Vector2 range; // 0x44
 	::System::Boolean EnableRadiusRetaining; // 0x4C
+	::System::Byte _padding3[0x3];
 	::System::Single radius; // 0x50
 	::System::Single SubsideDepth; // 0x54
 	::System::Boolean EnableClamp; // 0x58
+	::System::Byte _padding4[0x3];
 	::UnityEngine::Vector2 ClampRange; // 0x5C
 	::System::Boolean _enableDebug_k__BackingField; // 0x64
+	::System::Byte _padding5[0x3];
 	::System::Single _GizmosLastTime_k__BackingField; // 0x68
+	::System::Byte _padding6[0x4];
 	::UnityEngine::Transform* Player; // 0x70
 	::System::String* bipRootCpName; // 0x78
 	::UnityEngine::StringIDWrapper bipRootNameWrapper; // 0x80
+	::System::Byte _padding7[0x4];
 	::UnityEngine::AnimageComponent* animageComponent; // 0x88
 	::AMLegIK* legIK; // 0x90
 	::UnityEngine::LayerMask IKLayerMask; // 0x98
@@ -79,6 +87,7 @@ public:
 	::UnityEngine::Vector3 BipRootPositionBeforeIK; // 0xA8
 	::System::Boolean disableDamping; // 0xB4
 	::System::Boolean isZoneOpenState; // 0xB5
+	::System::Byte _padding8[0x2];
 	::System::Single setTime; // 0xB8
 	::System::Single transitionTime; // 0xBC
 	::System::Boolean isAnimatorIKPrepared; // 0xC0

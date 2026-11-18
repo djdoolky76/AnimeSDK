@@ -3,7 +3,7 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SocketInformationOptions_TypeDefinitionIndex = 3667;
+	inline static constexpr unsigned int SocketInformationOptions_TypeDefinitionIndex = 3666;
 
 	enum class SocketInformationOptions : ::System::Int32
 	{

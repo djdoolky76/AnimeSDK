@@ -5,7 +5,6 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace MoleMole::Config { class EtherEyesInteractableVariationConfig; }
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
@@ -13,73 +12,75 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_CLOSEVISION_OFFSET UNITYSDK_OFFSET(0x192373F0)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x19237B70)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_2839AE123F8ECAA7_OFFSET UNITYSDK_OFFSET(0x19237BC0)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_3C927B51D2142A24_1_OFFSET UNITYSDK_OFFSET(0x19238A30)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_3C927B51D2142A24_2_OFFSET UNITYSDK_OFFSET(0x19238A90)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_3C927B51D2142A24_3_OFFSET UNITYSDK_OFFSET(0x19238AC0)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_3C927B51D2142A24_4_OFFSET UNITYSDK_OFFSET(0x19238B20)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_3C927B51D2142A24_OFFSET UNITYSDK_OFFSET(0x19238A00)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_660474B0F8C5FECE_1_OFFSET UNITYSDK_OFFSET(0x19236890)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_660474B0F8C5FECE_OFFSET UNITYSDK_OFFSET(0x19236C00)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_B2C52ACF9D9B435B_OFFSET UNITYSDK_OFFSET(0x19235C90)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_FB4BE762B6186C23_1_OFFSET UNITYSDK_OFFSET(0x19238A60)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_FB4BE762B6186C23_2_OFFSET UNITYSDK_OFFSET(0x19238AF0)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_FB4BE762B6186C23_3_OFFSET UNITYSDK_OFFSET(0x19238B50)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_FB4BE762B6186C23_4_OFFSET UNITYSDK_OFFSET(0x19238B80)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_FB4BE762B6186C23_OFFSET UNITYSDK_OFFSET(0x192389D0)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19236F70)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19236840)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19235C40)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_OPENVISION_OFFSET UNITYSDK_OFFSET(0x19236FC0)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_TRIGGERINTERACT_OFFSET UNITYSDK_OFFSET(0x19237830)
-#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x19238780)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_BOJKIMLHJOO_OFFSET UNITYSDK_OFFSET(0x119039B0)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_CLOSEVISION_OFFSET UNITYSDK_OFFSET(0x11902280)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_FKFBKAOIBHP_OFFSET UNITYSDK_OFFSET(0x11903800)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_GCPLFNDMHAO_OFFSET UNITYSDK_OFFSET(0x11903830)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_GOEPAGKOHNI_OFFSET UNITYSDK_OFFSET(0x11901AA0)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_HJFJLKNCHCB_OFFSET UNITYSDK_OFFSET(0x11903920)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x119029E0)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_JCBFLKNNEJP_OFFSET UNITYSDK_OFFSET(0x119038F0)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_KKGLDGPHLNF_OFFSET UNITYSDK_OFFSET(0x11903950)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_KLDFCFCEGBP_OFFSET UNITYSDK_OFFSET(0x11903860)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_KNFAEFJIKLO_OFFSET UNITYSDK_OFFSET(0x11902A30)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_LBHNOFAOCKE_OFFSET UNITYSDK_OFFSET(0x11900B80)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_LELPCPOGICN_OFFSET UNITYSDK_OFFSET(0x11901730)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_MCPHAPCHKFC_OFFSET UNITYSDK_OFFSET(0x11903890)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_NELEHMEMKPP_OFFSET UNITYSDK_OFFSET(0x119038C0)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_NJENMGDKPML_OFFSET UNITYSDK_OFFSET(0x11903980)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11901E10)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x119016E0)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11900B30)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_OPENVISION_OFFSET UNITYSDK_OFFSET(0x11901E60)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER_TRIGGERINTERACT_OFFSET UNITYSDK_OFFSET(0x119026B0)
+#define MOLEMOLE_ETHEREYEINTERACTABLERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x119035B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EtherEyeInteractableRenderer_TypeDefinitionIndex = 86066;
+	inline static constexpr unsigned int EtherEyeInteractableRenderer_TypeDefinitionIndex = 82668;
 
 	class EtherEyeInteractableRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::UnityEngine::Material** StaticGet_Field_5_7()
+		static ::UnityEngine::Material** StaticGet_LPMKCIHIKOM()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EtherEyeInteractableRenderer_TypeDefinitionIndex)->GetStaticField(0x4FC80);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EtherEyeInteractableRenderer_TypeDefinitionIndex)->GetStaticField(0x516E0);
 		}
-		static ::Foundation::AssetRequestHandle* StaticGet_Field_5_4()
+		static ::UnityEngine::Material** StaticGet_BHEIJMNJAHL()
 		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(EtherEyeInteractableRenderer_TypeDefinitionIndex)->GetStaticField(0x4FC88);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EtherEyeInteractableRenderer_TypeDefinitionIndex)->GetStaticField(0x516E8);
 		}
-		static ::UnityEngine::Material** StaticGet_Field_5_6()
+		static ::Foundation::AssetRequestHandle* StaticGet_FMMONJLPBCK()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(EtherEyeInteractableRenderer_TypeDefinitionIndex)->GetStaticField(0x4FCA8);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(EtherEyeInteractableRenderer_TypeDefinitionIndex)->GetStaticField(0x516F0);
 		}
-		static ::Foundation::AssetRequestHandle* StaticGet_Field_5_5()
+		static ::Foundation::AssetRequestHandle* StaticGet_ILHPMAPLAPP()
 		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(EtherEyeInteractableRenderer_TypeDefinitionIndex)->GetStaticField(0x4FCB0);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(EtherEyeInteractableRenderer_TypeDefinitionIndex)->GetStaticField(0x51710);
 		}
-		// static const ::System::String* Field_5_16; // 0x0
-		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* Field_5_2; // 0x18
+		// static const ::System::String* PJNJFACFJHP; // 0x0
+		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* AEPONOJONAA; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* SurfaceObject; // 0x20
-		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* Field_5_0; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* HAIJEIMBFGH; // 0x28
 		::UnityEngine::Material* tempMat; // 0x30
 		::UnityEngine::Material* SurfaceTempMat; // 0x38
-		::System::Single Field_5_9; // 0x40
-		::System::Single Field_5_8; // 0x44
+		::System::Single FHFNKECFJJN; // 0x40
+		::System::Single JHGEILKCEJA; // 0x44
 		::System::Single openTransitionTime; // 0x48
 		::System::Single closeTransitionTime; // 0x4C
 		::System::Single triggerTransitionTime; // 0x50
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* openCurve; // 0x58
 		::UnityEngine::AnimationCurve* closeCurve; // 0x60
 		::UnityEngine::AnimationCurve* triggerCurve; // 0x68
 		::MoleMole::Config::EtherEyesObjectSize testObjectSize; // 0x70
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EtherEyesObjectSize, ::MoleMole::Config::EtherEyesInteractableVariationConfig*>* Field_5_23; // 0x78
-		::System::Int32 Field_5_22; // 0x80
-		::System::Int32 Field_5_21; // 0x84
-		::System::Int32 Field_5_20; // 0x88
-		::System::Int32 Field_5_27; // 0x8C
-		::System::Int32 Field_5_26; // 0x90
+		::System::Byte _padding1[0x4];
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EtherEyesObjectSize, ::MoleMole::Config::EtherEyesInteractableVariationConfig*>* LNPNHBHCGKA; // 0x78
+		::System::Int32 DMCFIJLECBJ; // 0x80
+		::System::Int32 KBDFOMFPKNK; // 0x84
+		::System::Int32 KEBLLOMIKPA; // 0x88
+		::System::Int32 KCLMGOEHCBN; // 0x8C
+		::System::Int32 FKEBMGNBBLG; // 0x90
 
 		::System::Void _ctor()
 		{
@@ -111,9 +112,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_CLOSEVISION_OFFSET))(this);
 		}
 
-		::System::Void TriggerInteract(::System::Boolean a1)
+		::System::Void TriggerInteract(::System::Boolean NFLGOADHPJE)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_TRIGGERINTERACT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_TRIGGERINTERACT_OFFSET))(this, NFLGOADHPJE);
 		}
 
 		::System::Void Initialize()
@@ -121,74 +122,74 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_INITIALIZE_OFFSET))(this);
 		}
 
-		::System::Single Method_5_FB4BE762B6186C23()
+		::System::Single FKFBKAOIBHP()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_FB4BE762B6186C23_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_FKFBKAOIBHP_OFFSET))(this);
 		}
 
-		::System::Void Method_5_3C927B51D2142A24(::System::Single a1)
+		::System::Void GCPLFNDMHAO(::System::Single HAAEBCOBKFF)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_3C927B51D2142A24_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_GCPLFNDMHAO_OFFSET))(this, HAAEBCOBKFF);
 		}
 
-		::System::Void Method_5_3C927B51D2142A24_1(::System::Single a1)
+		::System::Void LBHNOFAOCKE()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_3C927B51D2142A24_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_LBHNOFAOCKE_OFFSET))(this);
 		}
 
-		::System::Single Method_5_FB4BE762B6186C23_1()
+		::System::Void KLDFCFCEGBP(::System::Single HAAEBCOBKFF)
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_FB4BE762B6186C23_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_KLDFCFCEGBP_OFFSET))(this, HAAEBCOBKFF);
 		}
 
-		::System::Void Method_5_3C927B51D2142A24_2(::System::Single a1)
+		::System::Void MCPHAPCHKFC(::System::Single HAAEBCOBKFF)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_3C927B51D2142A24_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_MCPHAPCHKFC_OFFSET))(this, HAAEBCOBKFF);
 		}
 
-		::System::Void Method_5_B2C52ACF9D9B435B()
+		::System::Single NELEHMEMKPP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_B2C52ACF9D9B435B_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_NELEHMEMKPP_OFFSET))(this);
 		}
 
-		::System::Void Method_5_2839AE123F8ECAA7()
+		::System::Void JCBFLKNNEJP(::System::Single HAAEBCOBKFF)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_2839AE123F8ECAA7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_JCBFLKNNEJP_OFFSET))(this, HAAEBCOBKFF);
 		}
 
-		::System::Void Method_5_660474B0F8C5FECE()
+		::System::Void GOEPAGKOHNI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_660474B0F8C5FECE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_GOEPAGKOHNI_OFFSET))(this);
 		}
 
-		::System::Void Method_5_3C927B51D2142A24_3(::System::Single a1)
+		::System::Single HJFJLKNCHCB()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_3C927B51D2142A24_3_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_HJFJLKNCHCB_OFFSET))(this);
 		}
 
-		::System::Single Method_5_FB4BE762B6186C23_2()
+		::System::Void KNFAEFJIKLO()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_FB4BE762B6186C23_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_KNFAEFJIKLO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_660474B0F8C5FECE_1()
+		::System::Void KKGLDGPHLNF(::System::Single HAAEBCOBKFF)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_660474B0F8C5FECE_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_KKGLDGPHLNF_OFFSET))(this, HAAEBCOBKFF);
 		}
 
-		::System::Void Method_5_3C927B51D2142A24_4(::System::Single a1)
+		::System::Single NJENMGDKPML()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_3C927B51D2142A24_4_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_NJENMGDKPML_OFFSET))(this);
 		}
 
-		::System::Single Method_5_FB4BE762B6186C23_3()
+		::System::Void LELPCPOGICN()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_FB4BE762B6186C23_3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_LELPCPOGICN_OFFSET))(this);
 		}
 
-		::System::Single Method_5_FB4BE762B6186C23_4()
+		::System::Single BOJKIMLHJOO()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_METHOD_5_FB4BE762B6186C23_4_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYEINTERACTABLERENDERER_BOJKIMLHJOO_OFFSET))(this);
 		}
 	};
 }

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/BoundingSphere.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
@@ -18,63 +18,63 @@ namespace UnityEngine::Rendering::Universal::Internal { class DecalSystem_CullRe
 namespace UnityEngine::Rendering::Universal::Internal { class DecalSystem_DecalHandle; }
 namespace UnityEngine::Rendering::Universal::Internal { class DecalSystem_TextureScaleBias; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_ADDDECAL_OFFSET UNITYSDK_OFFSET(0x1D5F3130)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_ASSIGNCURRENTBATCHES_OFFSET UNITYSDK_OFFSET(0x1D5F4460)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_BEGINCULL_OFFSET UNITYSDK_OFFSET(0x1D5F3EC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_CREATEDRAWDATA_OFFSET UNITYSDK_OFFSET(0x1D5F4790)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_ENDCULL_OFFSET UNITYSDK_OFFSET(0x1D5F50C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_GETDECALPROJECTBOUNDINGSPHERE_OFFSET UNITYSDK_OFFSET(0x1D5F2630)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1D5F58C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_GET_DRAWORDER_OFFSET UNITYSDK_OFFSET(0x1D5F5980)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_GET_KEYMATERIAL_OFFSET UNITYSDK_OFFSET(0x1D5F58B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_INITIALIZEMATERIALVALUES_OFFSET UNITYSDK_OFFSET(0x1D5F2240)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_ISDRAWN_OFFSET UNITYSDK_OFFSET(0x1D5F4620)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_MOVECACHEDDATA_OFFSET UNITYSDK_OFFSET(0x1D5F3960)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_NEEDRENDERDECAL_OFFSET UNITYSDK_OFFSET(0x1D5F5270)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_QUERYCULLRESULTS_OFFSET UNITYSDK_OFFSET(0x1D5F4220)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_REFRESHDRAWORDER_OFFSET UNITYSDK_OFFSET(0x1D5F58D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_REMOVEDECAL_OFFSET UNITYSDK_OFFSET(0x1D5F3E00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_RENDERDECAL_OFFSET UNITYSDK_OFFSET(0x1D5F53F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_SETCULLRESULT_OFFSET UNITYSDK_OFFSET(0x1D5F5990)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_UPDATECACHEDDATA_OFFSET UNITYSDK_OFFSET(0x1D5F2960)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5F5B00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F2380)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_ADDDECAL_OFFSET UNITYSDK_OFFSET(0x1D8C0510)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_ASSIGNCURRENTBATCHES_OFFSET UNITYSDK_OFFSET(0x1D8C1830)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_BEGINCULL_OFFSET UNITYSDK_OFFSET(0x1D8C1290)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_CREATEDRAWDATA_OFFSET UNITYSDK_OFFSET(0x1D8C1B60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_ENDCULL_OFFSET UNITYSDK_OFFSET(0x1D8C2480)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_GETDECALPROJECTBOUNDINGSPHERE_OFFSET UNITYSDK_OFFSET(0x1D8BFA10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1D8C2CA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_GET_DRAWORDER_OFFSET UNITYSDK_OFFSET(0x1D8C2D60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_GET_KEYMATERIAL_OFFSET UNITYSDK_OFFSET(0x1D8C2C90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_INITIALIZEMATERIALVALUES_OFFSET UNITYSDK_OFFSET(0x1D8BF610)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_ISDRAWN_OFFSET UNITYSDK_OFFSET(0x1D8C19F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_MOVECACHEDDATA_OFFSET UNITYSDK_OFFSET(0x1D8C0D30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_NEEDRENDERDECAL_OFFSET UNITYSDK_OFFSET(0x1D8C2640)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_QUERYCULLRESULTS_OFFSET UNITYSDK_OFFSET(0x1D8C15F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_REFRESHDRAWORDER_OFFSET UNITYSDK_OFFSET(0x1D8C2CB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_REMOVEDECAL_OFFSET UNITYSDK_OFFSET(0x1D8C11D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_RENDERDECAL_OFFSET UNITYSDK_OFFSET(0x1D8C27C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_SETCULLRESULT_OFFSET UNITYSDK_OFFSET(0x1D8C2D70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET_UPDATECACHEDDATA_OFFSET UNITYSDK_OFFSET(0x1D8BFD40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8C2EE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_DECALSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BF750)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DecalSystem_DecalSet_TypeDefinitionIndex = 26877;
+	inline static constexpr unsigned int DecalSystem_DecalSet_TypeDefinitionIndex = 27144;
 
 	class DecalSystem_DecalSet : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet__DrawOrderShderId()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DecalSystem_DecalSet_TypeDefinitionIndex)->GetStaticField(0x7290);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DecalSystem_DecalSet_TypeDefinitionIndex)->GetStaticField(0x72F0);
 		}
-		::Il2CppArray<::UnityEngine::Matrix4x4>* m_CachedDecalToWorld; // 0x10
-		::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Matrix4x4>*>* m_DecalToWorld; // 0x18
-		::UnityEngine::Rendering::Universal::Internal::DecalSystem_TextureScaleBias* m_Mask; // 0x20
-		::Il2CppArray<::System::Int32>* m_ResultIndices; // 0x28
-		::UnityEngine::MaterialPropertyBlock* m_PropertyBlock; // 0x30
-		::Il2CppArray<::UnityEngine::BoundingSphere>* m_BoundingSpheres; // 0x38
-		::UnityEngine::Rendering::Universal::Internal::DecalSystem_TextureScaleBias* m_Normal; // 0x40
-		::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Vector4>*>* m_ExtraParams; // 0x48
-		::Il2CppArray<::UnityEngine::Vector4>* m_CachedExtraParams; // 0x50
-		::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Matrix4x4>*>* m_NormalToWorld; // 0x58
+		::Il2CppArray<::UnityEngine::Vector4>* m_CachedExtraParams; // 0x10
+		::Il2CppArray<::System::Single>* m_CachedEmissionIntensity; // 0x18
+		::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Matrix4x4>*>* m_NormalToWorld; // 0x20
+		::Il2CppArray<::UnityEngine::BoundingSphere>* m_BoundingSpheres; // 0x28
+		::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Vector4>*>* m_ExtraParams; // 0x30
+		::UnityEngine::Rendering::Universal::Internal::DecalSystem_TextureScaleBias* m_Diffuse; // 0x38
+		::Il2CppArray<::System::Object*>* m_Handles; // 0x40
+		::Il2CppArray<::System::Int32>* m_CachedLayerMask; // 0x48
+		::UnityEngine::Rendering::Universal::Internal::DecalSystem_TextureScaleBias* m_Normal; // 0x50
+		::Il2CppArray<::UnityEngine::Vector4>* m_CachedUVScaleBias; // 0x58
 		::Il2CppArray<::UnityEngine::Vector2>* m_CachedDrawDistances; // 0x60
-		::UnityEngine::Rendering::Universal::Internal::DecalSystem_TextureScaleBias* m_Diffuse; // 0x68
-		::UnityEngine::Material* m_Material; // 0x70
-		::Il2CppArray<::UnityEngine::Rendering::Universal::Internal::DecalSystem_DecalHandle*>* m_Handles; // 0x78
-		::Il2CppArray<::System::Single>* m_CachedEmissionIntensity; // 0x80
-		::Il2CppArray<::UnityEngine::Matrix4x4>* m_CachedNormalToWorld; // 0x88
-		::Il2CppArray<::System::Boolean>* m_CachedAnimationToggle; // 0x90
-		::Il2CppArray<::System::Int32>* m_CachedLayerMask; // 0x98
-		::Il2CppArray<::UnityEngine::Vector4>* m_CachedUVScaleBias; // 0xA0
-		::System::Int32 m_InstanceCount; // 0xA8
-		::System::Int32 m_NumResults; // 0xAC
-		::System::Int32 _DrawOrder; // 0xB0
-		::System::Int32 m_DecalsCount; // 0xB4
-		::UnityEngine::Vector2Int MinMaxSiblingIndex; // 0xB8
+		::UnityEngine::Rendering::Universal::Internal::DecalSystem_TextureScaleBias* m_Mask; // 0x68
+		::Il2CppArray<::System::Boolean>* m_CachedAnimationToggle; // 0x70
+		::UnityEngine::MaterialPropertyBlock* m_PropertyBlock; // 0x78
+		::Il2CppArray<::System::Int32>* m_ResultIndices; // 0x80
+		::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Matrix4x4>*>* m_DecalToWorld; // 0x88
+		::Il2CppArray<::UnityEngine::Matrix4x4>* m_CachedDecalToWorld; // 0x90
+		::Il2CppArray<::UnityEngine::Matrix4x4>* m_CachedNormalToWorld; // 0x98
+		::UnityEngine::Material* m_Material; // 0xA0
+		::System::Int32 m_NumResults; // 0xA8
+		::System::Int32 m_InstanceCount; // 0xAC
+		::System::Int32 m_DecalsCount; // 0xB0
+		::UnityEngine::Vector2Int MinMaxSiblingIndex; // 0xB4
+		::System::Int32 _DrawOrder; // 0xBC
 
 		::System::Void _ctor(::UnityEngine::Material* material, ::System::Single normalIntensity)
 		{

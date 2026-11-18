@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D7305149E3DC417E;
-namespace MoleMole { class UIHollowMainBottomWidgetController___c__DisplayClass49_0; }
+class LHBKFFHANDB;
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS49_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18842630)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS49_2__PLAYGETCOINANIM_B__1_OFFSET UNITYSDK_OFFSET(0x18842640)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS49_2__CTOR_OFFSET UNITYSDK_OFFSET(0x183A9130)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS49_2__PLAYGETCOINANIM_B__1_OFFSET UNITYSDK_OFFSET(0x183A9140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass49_2_TypeDefinitionIndex = 83693;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass49_2_TypeDefinitionIndex = 43689;
 
+	template <typename T1, typename T2>
 	class UIHollowMainBottomWidgetController___c__DisplayClass49_2 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHollowMainBottomWidgetController___c__DisplayClass49_0* CS___8__locals2; // 0x10
-		::Class_1_D7305149E3DC417E* item; // 0x18
+		::System::Object* CS___8__locals2; // 0x10
+		::LHBKFFHANDB* item; // 0x18
 
 		::System::Void _ctor()
 		{

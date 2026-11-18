@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LineLightingV2_CurveAxis.h"
-#include "unitysdk/LineLightingV2_LineLightingV2Param.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/LineLightingV2_LineLightingV2Param.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define LINELIGHTINGV2_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FC07BB0)
-#define LINELIGHTINGV2_COLLECTLINPOS_OFFSET UNITYSDK_OFFSET(0x1FC086F0)
-#define LINELIGHTINGV2_GETENABLE_OFFSET UNITYSDK_OFFSET(0x1FC08910)
-#define LINELIGHTINGV2_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1FC08970)
-#define LINELIGHTINGV2_INIT_OFFSET UNITYSDK_OFFSET(0x1FC07C90)
-#define LINELIGHTINGV2_SETCUSTOMSCALE_OFFSET UNITYSDK_OFFSET(0x1FC088D0)
-#define LINELIGHTINGV2_SETDYNAMICENDPOINT_OFFSET UNITYSDK_OFFSET(0x1FC08890)
-#define LINELIGHTINGV2_SETENABLE_OFFSET UNITYSDK_OFFSET(0x1FC088E0)
-#define LINELIGHTINGV2_SETLINELIGHTINGV2PARAM_OFFSET UNITYSDK_OFFSET(0x1FC08920)
-#define LINELIGHTINGV2_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1FC07DB0)
-#define LINELIGHTINGV2_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FC07D70)
-#define LINELIGHTINGV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC08980)
+#define LINELIGHTINGV2_AWAKE_OFFSET UNITYSDK_OFFSET(0x2000ABB0)
+#define LINELIGHTINGV2_COLLECTLINPOS_OFFSET UNITYSDK_OFFSET(0x2000B6F0)
+#define LINELIGHTINGV2_GETENABLE_OFFSET UNITYSDK_OFFSET(0x2000B910)
+#define LINELIGHTINGV2_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x2000B970)
+#define LINELIGHTINGV2_INIT_OFFSET UNITYSDK_OFFSET(0x2000AC90)
+#define LINELIGHTINGV2_SETCUSTOMSCALE_OFFSET UNITYSDK_OFFSET(0x2000B8D0)
+#define LINELIGHTINGV2_SETDYNAMICENDPOINT_OFFSET UNITYSDK_OFFSET(0x2000B890)
+#define LINELIGHTINGV2_SETENABLE_OFFSET UNITYSDK_OFFSET(0x2000B8E0)
+#define LINELIGHTINGV2_SETLINELIGHTINGV2PARAM_OFFSET UNITYSDK_OFFSET(0x2000B920)
+#define LINELIGHTINGV2_SIMULATE_OFFSET UNITYSDK_OFFSET(0x2000ADB0)
+#define LINELIGHTINGV2_UPDATE_OFFSET UNITYSDK_OFFSET(0x2000AD70)
+#define LINELIGHTINGV2__CTOR_OFFSET UNITYSDK_OFFSET(0x2000B980)
 
-inline static constexpr unsigned int LineLightingV2_TypeDefinitionIndex = 35314;
+inline static constexpr unsigned int LineLightingV2_TypeDefinitionIndex = 34887;
 
 class LineLightingV2 : public ::UnityEngine::MonoBehaviour
 {
@@ -37,11 +37,13 @@ public:
 	::System::Single displacement; // 0x34
 	::System::Single detail; // 0x38
 	::System::Boolean useCurve; // 0x3C
+	::System::Byte _padding0[0x3];
 	::UnityEngine::AnimationCurve* curve; // 0x40
 	::System::Single curveAmp; // 0x48
 	::LineLightingV2_CurveAxis curveAxis; // 0x4C
 	::System::Boolean enableMonoUpdate; // 0x50
 	::System::Boolean _isDirty; // 0x51
+	::System::Byte _padding1[0x6];
 	::UnityEngine::LineRenderer* _lineRender; // 0x58
 	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _linePosList; // 0x60
 	::System::Single _time; // 0x68
@@ -49,6 +51,7 @@ public:
 	::System::Single _oriLength; // 0x70
 	::System::Boolean _useDynamicEndPos; // 0x74
 	::System::Boolean _isDynamicEndPosChange; // 0x75
+	::System::Byte _padding2[0x2];
 	::UnityEngine::Vector3 _dynamicEndPos; // 0x78
 	::System::Single _customTimeScale; // 0x84
 	::System::Boolean _alphaEnable; // 0x88

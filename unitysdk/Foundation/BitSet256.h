@@ -4,29 +4,29 @@
 
 namespace System { class Object; }
 
-#define FOUNDATION_BITSET256_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xAB7210)
-#define FOUNDATION_BITSET256_EQUALS_OFFSET UNITYSDK_OFFSET(0xAB7120)
-#define FOUNDATION_BITSET256_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xAB71B0)
-#define FOUNDATION_BITSET256_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xAB7020)
-#define FOUNDATION_BITSET256_OP_BITWISEAND_OFFSET UNITYSDK_OFFSET(0x1F8C3250)
-#define FOUNDATION_BITSET256_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F8C3280)
-#define FOUNDATION_BITSET256_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xAB7090)
-#define FOUNDATION_BITSET256__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8C3460)
-#define FOUNDATION_BITSET256__CTOR_OFFSET UNITYSDK_OFFSET(0x3D1930)
+#define FOUNDATION_BITSET256_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x99D820)
+#define FOUNDATION_BITSET256_EQUALS_OFFSET UNITYSDK_OFFSET(0x99D730)
+#define FOUNDATION_BITSET256_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x99D7C0)
+#define FOUNDATION_BITSET256_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x99D630)
+#define FOUNDATION_BITSET256_OP_BITWISEAND_OFFSET UNITYSDK_OFFSET(0x1FCC27D0)
+#define FOUNDATION_BITSET256_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1FCC2800)
+#define FOUNDATION_BITSET256_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x99D6A0)
+#define FOUNDATION_BITSET256__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCC29E0)
+#define FOUNDATION_BITSET256__CTOR_OFFSET UNITYSDK_OFFSET(0x3FD6C0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BitSet256_TypeDefinitionIndex = 8681;
+	inline static constexpr unsigned int BitSet256_TypeDefinitionIndex = 9085;
 
-	struct alignas(8) BitSet256
+	struct alignas(4) BitSet256
 	{
 		static ::Foundation::BitSet256* StaticGet_Empty()
 		{
-			return (::Foundation::BitSet256*)Il2CppClass::FromTypeDefinitionIndex(BitSet256_TypeDefinitionIndex)->GetStaticField(0x3BA0);
+			return (::Foundation::BitSet256*)Il2CppClass::FromTypeDefinitionIndex(BitSet256_TypeDefinitionIndex)->GetStaticField(0x3B60);
 		}
 		static ::Foundation::BitSet256* StaticGet_Full()
 		{
-			return (::Foundation::BitSet256*)Il2CppClass::FromTypeDefinitionIndex(BitSet256_TypeDefinitionIndex)->GetStaticField(0x3BC0);
+			return (::Foundation::BitSet256*)Il2CppClass::FromTypeDefinitionIndex(BitSet256_TypeDefinitionIndex)->GetStaticField(0x3B80);
 		}
 		::System::UInt64 data1; // 0x10
 		::System::UInt64 data2; // 0x18
@@ -53,20 +53,26 @@ namespace Foundation
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET256_SET_ITEM_OFFSET))(this, index, value);
 		}
 
+		/*
 		static ::Foundation::BitSet256 op_BitwiseAnd(::Foundation::BitSet256 left, ::Foundation::BitSet256 right)
 		{
 			return ((::Foundation::BitSet256(*)(::Foundation::BitSet256, ::Foundation::BitSet256))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET256_OP_BITWISEAND_OFFSET))(left, right);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::Foundation::BitSet256 left, ::Foundation::BitSet256 right)
 		{
 			return ((::System::Boolean(*)(::Foundation::BitSet256, ::Foundation::BitSet256))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET256_OP_EQUALITY_OFFSET))(left, right);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::Foundation::BitSet256 other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::BitSet256))((::PBYTE)hIl2Cpp + FOUNDATION_BITSET256_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{

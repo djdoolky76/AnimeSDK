@@ -5,13 +5,14 @@
 
 namespace MoleMole { class UISuibianTempleDeployBangbooDetailWidgetController; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS12_2__BUILDVIEWMODELDATABINDING_B__13_OFFSET UNITYSDK_OFFSET(0x17D56EB0)
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS12_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17D56EA0)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS12_2__BUILDVIEWMODELDATABINDING_B__13_OFFSET UNITYSDK_OFFSET(0x166DCF20)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER___C__DISPLAYCLASS12_2__CTOR_OFFSET UNITYSDK_OFFSET(0x166DCF10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleDeployBangbooDetailWidgetController___c__DisplayClass12_2_TypeDefinitionIndex = 78601;
+	inline static constexpr unsigned int UISuibianTempleDeployBangbooDetailWidgetController___c__DisplayClass12_2_TypeDefinitionIndex = 39685;
 
+	template <typename T1, typename T2>
 	class UISuibianTempleDeployBangbooDetailWidgetController___c__DisplayClass12_2 : public ::System::Object
 	{
 	public:

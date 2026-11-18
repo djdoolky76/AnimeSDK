@@ -3,13 +3,14 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ESkillPropertyType_TypeDefinitionIndex = 9478;
+	inline static constexpr unsigned int ESkillPropertyType_TypeDefinitionIndex = 9234;
 
 	enum class ESkillPropertyType : ::System::UInt16
 	{
-		SpRecovery = 0x3EB,
-		DamageRate = 0x3E9,
-		StunRatio = 0x3EA,
-		RpRecovery = 0x3EC,
+		StunRatio = 1002,
+		DamageRate = 1001,
+		SpRecovery = 1003,
+		EpRecovery = 1005,
+		RpRecovery = 1004,
 	};
 }

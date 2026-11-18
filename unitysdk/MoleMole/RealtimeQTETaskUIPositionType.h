@@ -3,16 +3,17 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RealtimeQTETaskUIPositionType_TypeDefinitionIndex = 89017;
+	inline static constexpr unsigned int RealtimeQTETaskUIPositionType_TypeDefinitionIndex = 87671;
 
 	enum class RealtimeQTETaskUIPositionType : ::System::Int32
 	{
-		Down = 2,
-		Custom02 = 6,
 		Left = 3,
-		Custom01 = 5,
-		Center = 0,
-		Up = 1,
+		Down = 2,
 		Right = 4,
+		Custom02 = 6,
+		Up = 1,
+		Center = 0,
+		CustomWrestle = 7,
+		Custom01 = 5,
 	};
 }

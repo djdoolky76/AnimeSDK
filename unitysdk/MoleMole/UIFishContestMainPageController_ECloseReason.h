@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishContestMainPageController_ECloseReason_TypeDefinitionIndex = 52884;
+	inline static constexpr unsigned int UIFishContestMainPageController_ECloseReason_TypeDefinitionIndex = 49989;
 
 	enum class UIFishContestMainPageController_ECloseReason : ::System::Int32
 	{
-		Timeout = 2,
 		FinishFish = 1,
+		Timeout = 2,
 		ManualClose = 0,
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int FConflictData_TypeDefinitionIndex = 61632;
+	inline static constexpr unsigned int FConflictData_TypeDefinitionIndex = 75941;
 
 	struct alignas(4) FConflictData
 	{

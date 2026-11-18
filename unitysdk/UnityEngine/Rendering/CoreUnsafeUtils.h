@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Hash128.h"
 
-namespace System::Collections::Generic { template <typename T> class List_1; }
-
-#define UNITYENGINE_RENDERING_COREUNSAFEUTILS_COMBINEHASHES_OFFSET UNITYSDK_OFFSET(0x1CA68E70)
-#define UNITYENGINE_RENDERING_COREUNSAFEUTILS_COMPAREHASHES_OFFSET UNITYSDK_OFFSET(0x1CA68E40)
-#define UNITYENGINE_RENDERING_COREUNSAFEUTILS_HAVEDUPLICATES_OFFSET UNITYSDK_OFFSET(0x1CA68E80)
-#define UNITYENGINE_RENDERING_COREUNSAFEUTILS_QUICKSORT_OFFSET UNITYSDK_OFFSET(0x1CA68DD0)
+#define UNITYENGINE_RENDERING_COREUNSAFEUTILS_COMBINEHASHES_1_OFFSET UNITYSDK_OFFSET(0x1D06A560)
+#define UNITYENGINE_RENDERING_COREUNSAFEUTILS_COMPAREHASHES_1_OFFSET UNITYSDK_OFFSET(0x1D06A530)
+#define UNITYENGINE_RENDERING_COREUNSAFEUTILS_HAVEDUPLICATES_OFFSET UNITYSDK_OFFSET(0x1D06A570)
+#define UNITYENGINE_RENDERING_COREUNSAFEUTILS_QUICKSORT_OFFSET UNITYSDK_OFFSET(0x1D06A4C0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CoreUnsafeUtils_TypeDefinitionIndex = 18663;
+	inline static constexpr unsigned int CoreUnsafeUtils_TypeDefinitionIndex = 17814;
 
 	class CoreUnsafeUtils : public ::System::Object
 	{
@@ -22,14 +19,14 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::Il2CppArray<::System::UInt32>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUNSAFEUTILS_QUICKSORT_OFFSET))(arr, left, right);
 		}
 
-		static ::System::Int32 CompareHashes(::System::Int32 oldHashCount, ::UnityEngine::Hash128* oldHashes, ::System::Int32 newHashCount, ::UnityEngine::Hash128* newHashes, ::System::Int32* addIndices, ::System::Int32* removeIndices, ::System::Int32& addCount, ::System::Int32& remCount)
+		static ::System::Int32 CompareHashes_1(::System::Int32 oldHashCount, ::PVOID oldHashes, ::System::Int32 newHashCount, ::PVOID newHashes, ::PVOID addIndices, ::PVOID removeIndices, ::System::Int32& addCount, ::System::Int32& remCount)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::UnityEngine::Hash128*, ::System::Int32, ::UnityEngine::Hash128*, ::System::Int32*, ::System::Int32*, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUNSAFEUTILS_COMPAREHASHES_OFFSET))(oldHashCount, oldHashes, newHashCount, newHashes, addIndices, removeIndices, addCount, remCount);
+			return ((::System::Int32(*)(::System::Int32, ::PVOID, ::System::Int32, ::PVOID, ::PVOID, ::PVOID, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUNSAFEUTILS_COMPAREHASHES_1_OFFSET))(oldHashCount, oldHashes, newHashCount, newHashes, addIndices, removeIndices, addCount, remCount);
 		}
 
-		static ::System::Void CombineHashes(::System::Int32 count, ::UnityEngine::Hash128* hashes, ::UnityEngine::Hash128* outHash)
+		static ::System::Void CombineHashes_1(::System::Int32 count, ::PVOID hashes, ::PVOID outHash)
 		{
-			return ((::System::Void(*)(::System::Int32, ::UnityEngine::Hash128*, ::UnityEngine::Hash128*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUNSAFEUTILS_COMBINEHASHES_OFFSET))(count, hashes, outHash);
+			return ((::System::Void(*)(::System::Int32, ::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_COREUNSAFEUTILS_COMBINEHASHES_1_OFFSET))(count, hashes, outHash);
 		}
 
 		static ::System::Boolean HaveDuplicates(::Il2CppArray<::System::Int32>* arr)

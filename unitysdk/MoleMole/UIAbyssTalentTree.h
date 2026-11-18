@@ -5,11 +5,11 @@
 namespace MoleMole { class TalentTreeItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIABYSSTALENTTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x11D97DC0)
+#define MOLEMOLE_UIABYSSTALENTTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1898E0F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssTalentTree_TypeDefinitionIndex = 55090;
+	inline static constexpr unsigned int UIAbyssTalentTree_TypeDefinitionIndex = 60004;
 
 	class UIAbyssTalentTree : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

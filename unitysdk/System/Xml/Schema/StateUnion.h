@@ -4,7 +4,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int StateUnion_TypeDefinitionIndex = 2096;
+	inline static constexpr unsigned int StateUnion_TypeDefinitionIndex = 2095;
 
 	struct alignas(4) StateUnion
 	{

@@ -4,16 +4,17 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FOGMASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D3480)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FOGMASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C97C200)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FogMaskConfig_TypeDefinitionIndex = 27886;
+	inline static constexpr unsigned int FogMaskConfig_TypeDefinitionIndex = 26952;
 
 	class FogMaskConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean enableFogMask; // 0x10
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Color fogMaskScattering; // 0x14
 		::System::Single fogMaskTransmittance; // 0x24
 		::System::Single fogMaskIntensity; // 0x28

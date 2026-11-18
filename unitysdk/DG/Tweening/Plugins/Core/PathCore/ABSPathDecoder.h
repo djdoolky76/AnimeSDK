@@ -1,16 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/DG/Tweening/Plugins/Core/PathCore/ControlPoint.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace DG::Tweening::Plugins::Core::PathCore { class Path; }
-
-#define DG_TWEENING_PLUGINS_CORE_PATHCORE_ABSPATHDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6F840)
+#define DG_TWEENING_PLUGINS_CORE_PATHCORE_ABSPATHDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x20073080)
 
 namespace DG::Tweening::Plugins::Core::PathCore
 {
-	inline static constexpr unsigned int ABSPathDecoder_TypeDefinitionIndex = 28576;
+	inline static constexpr unsigned int ABSPathDecoder_TypeDefinitionIndex = 28015;
 
 	class ABSPathDecoder : public ::System::Object
 	{

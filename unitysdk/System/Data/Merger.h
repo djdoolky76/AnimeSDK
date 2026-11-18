@@ -1,40 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Data/DataKey.h"
 #include "unitysdk/System/Data/MissingSchemaAction.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Data/DataKey.h"
 
 namespace System::Data { class DataRelation; }
 namespace System::Data { class DataSet; }
 namespace System::Data { class DataTable; }
 namespace System::Data { class PropertyCollection; }
 
-#define SYSTEM_DATA_MERGER_GETSRCKEY_OFFSET UNITYSDK_OFFSET(0x1EAB5460)
-#define SYSTEM_DATA_MERGER_MERGECONSTRAINTS_1_OFFSET UNITYSDK_OFFSET(0x1EAB63B0)
-#define SYSTEM_DATA_MERGER_MERGECONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1EAB35A0)
-#define SYSTEM_DATA_MERGER_MERGEDATASET_OFFSET UNITYSDK_OFFSET(0x1EAB19C0)
-#define SYSTEM_DATA_MERGER_MERGEEXTENDEDPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1EAB45E0)
-#define SYSTEM_DATA_MERGER_MERGERELATION_OFFSET UNITYSDK_OFFSET(0x1EAB3630)
-#define SYSTEM_DATA_MERGER_MERGESCHEMA_OFFSET UNITYSDK_OFFSET(0x1EAB5660)
-#define SYSTEM_DATA_MERGER_MERGETABLEDATA_OFFSET UNITYSDK_OFFSET(0x1EAB3500)
-#define SYSTEM_DATA_MERGER_MERGETABLE_1_OFFSET UNITYSDK_OFFSET(0x1EAB4D80)
-#define SYSTEM_DATA_MERGER_MERGETABLE_OFFSET UNITYSDK_OFFSET(0x1EAB4950)
-#define SYSTEM_DATA_MERGER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EAB19A0)
-#define SYSTEM_DATA_MERGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB1980)
+#define SYSTEM_DATA_MERGER_GETSRCKEY_OFFSET UNITYSDK_OFFSET(0x1EDE62B0)
+#define SYSTEM_DATA_MERGER_MERGECONSTRAINTS_1_OFFSET UNITYSDK_OFFSET(0x1EDE7200)
+#define SYSTEM_DATA_MERGER_MERGECONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1EDE4400)
+#define SYSTEM_DATA_MERGER_MERGEDATASET_OFFSET UNITYSDK_OFFSET(0x1EDE2810)
+#define SYSTEM_DATA_MERGER_MERGEEXTENDEDPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1EDE5430)
+#define SYSTEM_DATA_MERGER_MERGERELATION_OFFSET UNITYSDK_OFFSET(0x1EDE4490)
+#define SYSTEM_DATA_MERGER_MERGESCHEMA_OFFSET UNITYSDK_OFFSET(0x1EDE64B0)
+#define SYSTEM_DATA_MERGER_MERGETABLEDATA_OFFSET UNITYSDK_OFFSET(0x1EDE4360)
+#define SYSTEM_DATA_MERGER_MERGETABLE_1_OFFSET UNITYSDK_OFFSET(0x1EDE5BD0)
+#define SYSTEM_DATA_MERGER_MERGETABLE_OFFSET UNITYSDK_OFFSET(0x1EDE57A0)
+#define SYSTEM_DATA_MERGER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EDE27F0)
+#define SYSTEM_DATA_MERGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE27D0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int Merger_TypeDefinitionIndex = 39318;
+	inline static constexpr unsigned int Merger_TypeDefinitionIndex = 37318;
 
 	class Merger : public ::System::Object
 	{
 	public:
-		::System::Data::DataTable* _dataTable; // 0x10
-		::System::Data::DataSet* _dataSet; // 0x18
+		::System::Data::DataSet* _dataSet; // 0x10
+		::System::Data::DataTable* _dataTable; // 0x18
 		::System::Data::MissingSchemaAction _missingSchemaAction; // 0x20
-		::System::Boolean _preserveChanges; // 0x24
+		::System::Boolean _IgnoreNSforTableLookup; // 0x24
 		::System::Boolean _isStandAlonetable; // 0x25
-		::System::Boolean _IgnoreNSforTableLookup; // 0x26
+		::System::Boolean _preserveChanges; // 0x26
 
 		::System::Void _ctor(::System::Data::DataSet* dataSet, ::System::Boolean preserveChanges, ::System::Data::MissingSchemaAction missingSchemaAction)
 		{

@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-inline static constexpr unsigned int GpuCollisionBox_TypeDefinitionIndex = 27900;
+inline static constexpr unsigned int GpuCollisionBox_TypeDefinitionIndex = 27041;
 
 struct alignas(4) GpuCollisionBox
 {

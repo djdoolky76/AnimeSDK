@@ -1,0 +1,80 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace System { class String; }
+
+#define KPNIFGIKELE_BEBANOFCFII_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x129B0240)
+#define KPNIFGIKELE_BEBANOFCFII_GIALDDHFBLF_OFFSET UNITYSDK_OFFSET(0x129B0160)
+#define KPNIFGIKELE_BEBANOFCFII_INELPPKPACG_OFFSET UNITYSDK_OFFSET(0x129B0230)
+#define KPNIFGIKELE_BEBANOFCFII_KIBIIABFBOI_OFFSET UNITYSDK_OFFSET(0x129B0280)
+#define KPNIFGIKELE_BEBANOFCFII_MBKDOMFJFIG_OFFSET UNITYSDK_OFFSET(0x129AFEE0)
+#define KPNIFGIKELE_BEBANOFCFII_MNJMOMLNIIJ_OFFSET UNITYSDK_OFFSET(0x129B02A0)
+#define KPNIFGIKELE_BEBANOFCFII_PHOADBJGFBE_OFFSET UNITYSDK_OFFSET(0x129B0070)
+#define KPNIFGIKELE_BEBANOFCFII_TOSTRING_OFFSET UNITYSDK_OFFSET(0x129AFDC0)
+#define KPNIFGIKELE_BEBANOFCFII__CTOR_OFFSET UNITYSDK_OFFSET(0x129AFED0)
+
+inline static constexpr unsigned int KPNIFGIKELE_BEBANOFCFII_TypeDefinitionIndex = 42220;
+
+class KPNIFGIKELE_BEBANOFCFII : public ::System::Object
+{
+public:
+	::Il2CppArray<::UnityEngine::Vector3>* HINCBOLAKPE; // 0x10
+	::UnityEngine::Vector3 FOLHIAMAPAC; // 0x18
+	::System::UInt32 KPBCENDNNDC; // 0x24
+	::UnityEngine::Vector3 IIFGPAHCHDC; // 0x28
+	::UnityEngine::Vector3 GLPBNHEECLO; // 0x34
+	::UnityEngine::Vector3 LBKMCOKBJEA; // 0x40
+	::System::Boolean JNAJHNMMCDD; // 0x4C
+	::System::Byte _padding0[0x3];
+	::UnityEngine::Vector3 AHCJGKIPAAB; // 0x50
+	::UnityEngine::Vector3 _HKBDFMFKLJD_k__BackingField; // 0x5C
+	::System::Int32 ALJIBGBBAPK; // 0x68
+	::UnityEngine::Vector3 CJDEFHFPAGK; // 0x6C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPNIFGIKELE_BEBANOFCFII__CTOR_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + KPNIFGIKELE_BEBANOFCFII_TOSTRING_OFFSET))(this);
+	}
+
+	static ::System::Void MBKDOMFJFIG(::KPNIFGIKELE_BEBANOFCFII* DJCNCELJPOM)
+	{
+		return ((::System::Void(*)(::KPNIFGIKELE_BEBANOFCFII*))((::PBYTE)hIl2Cpp + KPNIFGIKELE_BEBANOFCFII_MBKDOMFJFIG_OFFSET))(DJCNCELJPOM);
+	}
+
+	static ::System::Void GIALDDHFBLF(::KPNIFGIKELE_BEBANOFCFII* OLKHDAAGGAA, ::KPNIFGIKELE_BEBANOFCFII* NJLNJCLGLNO)
+	{
+		return ((::System::Void(*)(::KPNIFGIKELE_BEBANOFCFII*, ::KPNIFGIKELE_BEBANOFCFII*))((::PBYTE)hIl2Cpp + KPNIFGIKELE_BEBANOFCFII_GIALDDHFBLF_OFFSET))(OLKHDAAGGAA, NJLNJCLGLNO);
+	}
+
+	::System::Void INELPPKPACG(::UnityEngine::Vector3 EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + KPNIFGIKELE_BEBANOFCFII_INELPPKPACG_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::String* DPIHOJBBGLA()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + KPNIFGIKELE_BEBANOFCFII_DPIHOJBBGLA_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector3 KIBIIABFBOI()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + KPNIFGIKELE_BEBANOFCFII_KIBIIABFBOI_OFFSET))(this);
+	}
+
+	::System::Void PHOADBJGFBE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPNIFGIKELE_BEBANOFCFII_PHOADBJGFBE_OFFSET))(this);
+	}
+
+	static ::KPNIFGIKELE_BEBANOFCFII* MNJMOMLNIIJ()
+	{
+		return ((::KPNIFGIKELE_BEBANOFCFII*(*)())((::PBYTE)hIl2Cpp + KPNIFGIKELE_BEBANOFCFII_MNJMOMLNIIJ_OFFSET))();
+	}
+};

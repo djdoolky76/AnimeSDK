@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class JOJCBEHIBDJ;
+
+#define MGMBFJHNCMM_AIAPFLHMCGA_OFFSET UNITYSDK_OFFSET(0x6C98F0)
+#define MGMBFJHNCMM_GHHMPPMBGGH_OFFSET UNITYSDK_OFFSET(0x11F499F0)
+#define MGMBFJHNCMM_OMAGGPLFODH_1_OFFSET UNITYSDK_OFFSET(0x11F49AB0)
+#define MGMBFJHNCMM_OMAGGPLFODH_OFFSET UNITYSDK_OFFSET(0x11F49A60)
+#define MGMBFJHNCMM__CTOR_OFFSET UNITYSDK_OFFSET(0x6C98D0)
+
+inline static constexpr unsigned int MGMBFJHNCMM_TypeDefinitionIndex = 55357;
+
+struct alignas(4) MGMBFJHNCMM
+{
+	::System::UInt32 LFEDBFBLGOM; // 0x10
+	::System::UInt32 DOHHMABDGPE; // 0x14
+	::System::UInt32 BILOCKBPNBI; // 0x18
+	::System::UInt32 NCCOMOEHEHK; // 0x1C
+
+	::System::Void _ctor(::System::UInt32 KBKAGADINHJ, ::System::UInt32 GCFDHEFHCAJ, ::System::UInt32 AGCMMKOIPCB, ::System::UInt32 BBGGFOPDICP)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + MGMBFJHNCMM__CTOR_OFFSET))(this, KBKAGADINHJ, GCFDHEFHCAJ, AGCMMKOIPCB, BBGGFOPDICP);
+	}
+
+	::System::UInt64 AIAPFLHMCGA()
+	{
+		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + MGMBFJHNCMM_AIAPFLHMCGA_OFFSET))(this);
+	}
+
+	/*
+	static ::MGMBFJHNCMM GHHMPPMBGGH(::JOJCBEHIBDJ* HMMMOCJAEOA)
+	{
+		return ((::MGMBFJHNCMM(*)(::JOJCBEHIBDJ*))((::PBYTE)hIl2Cpp + MGMBFJHNCMM_GHHMPPMBGGH_OFFSET))(HMMMOCJAEOA);
+	}
+	*/
+
+	static ::System::UInt64 OMAGGPLFODH(::JOJCBEHIBDJ* HMMMOCJAEOA)
+	{
+		return ((::System::UInt64(*)(::JOJCBEHIBDJ*))((::PBYTE)hIl2Cpp + MGMBFJHNCMM_OMAGGPLFODH_OFFSET))(HMMMOCJAEOA);
+	}
+
+	static ::System::UInt64 OMAGGPLFODH_1(::System::UInt32 KBKAGADINHJ, ::System::UInt32 GCFDHEFHCAJ)
+	{
+		return ((::System::UInt64(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + MGMBFJHNCMM_OMAGGPLFODH_1_OFFSET))(KBKAGADINHJ, GCFDHEFHCAJ);
+	}
+};

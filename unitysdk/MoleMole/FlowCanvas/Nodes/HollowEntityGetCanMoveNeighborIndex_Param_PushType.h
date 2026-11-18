@@ -3,11 +3,11 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int HollowEntityGetCanMoveNeighborIndex_Param_PushType_TypeDefinitionIndex = 68915;
+	inline static constexpr unsigned int HollowEntityGetCanMoveNeighborIndex_Param_PushType_TypeDefinitionIndex = 74152;
 
 	enum class HollowEntityGetCanMoveNeighborIndex_Param_PushType : ::System::Int32
 	{
-		CanPush = 1,
 		NotPush = 0,
+		CanPush = 1,
 	};
 }

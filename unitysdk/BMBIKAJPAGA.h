@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IEJHOJBLOHI.h"
+
+class FNDKCOPLCKJ;
+class KBDGKAJPALP;
+class OFLPOCHHHLC;
+class OLLCHBFEFBA;
+class OMMJDLCLMHJ;
+class PMLCKJBHLLB;
+namespace System { template <typename T> class Action_1; }
+
+#define BMBIKAJPAGA_APFHALLCOBD_OFFSET UNITYSDK_OFFSET(0x1DE45ED0)
+#define BMBIKAJPAGA_CMFOMGGDPPA_OFFSET UNITYSDK_OFFSET(0x1DE461A0)
+#define BMBIKAJPAGA_GJMKKHCJGEI_OFFSET UNITYSDK_OFFSET(0x1DE45DB0)
+#define BMBIKAJPAGA_KHGPLGMDOFC_OFFSET UNITYSDK_OFFSET(0x1DE45960)
+#define BMBIKAJPAGA_MNEFKNFOABP_OFFSET UNITYSDK_OFFSET(0x1DE46110)
+#define BMBIKAJPAGA_OKJCHFGIKBH_OFFSET UNITYSDK_OFFSET(0x1DE45C70)
+#define BMBIKAJPAGA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE45D30)
+
+inline static constexpr unsigned int BMBIKAJPAGA_TypeDefinitionIndex = 93775;
+
+class BMBIKAJPAGA : public ::IEJHOJBLOHI
+{
+public:
+	::System::Action_1<::FNDKCOPLCKJ*>* APGEOEMDIDK; // 0x28
+	::OLLCHBFEFBA* LODKPEIDPHH; // 0x30
+	::System::Action_1<::OMMJDLCLMHJ*>* BOLNCPFCBLM; // 0x38
+	::PMLCKJBHLLB* DAAAEJDBNFI; // 0x40
+	::KBDGKAJPALP* NAEFJGAOJCB; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BMBIKAJPAGA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KHGPLGMDOFC(::OFLPOCHHHLC* GEEHGDABNJF)
+	{
+		return ((::System::Void(*)(::PVOID, ::OFLPOCHHHLC*))((::PBYTE)hIl2Cpp + BMBIKAJPAGA_KHGPLGMDOFC_OFFSET))(this, GEEHGDABNJF);
+	}
+
+	::System::Void OKJCHFGIKBH(::System::Single PMNLNNGEIFM)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + BMBIKAJPAGA_OKJCHFGIKBH_OFFSET))(this, PMNLNNGEIFM);
+	}
+
+	::System::Void GJMKKHCJGEI(::OMMJDLCLMHJ* EJPAKIKIBOH)
+	{
+		return ((::System::Void(*)(::PVOID, ::OMMJDLCLMHJ*))((::PBYTE)hIl2Cpp + BMBIKAJPAGA_GJMKKHCJGEI_OFFSET))(this, EJPAKIKIBOH);
+	}
+
+	::System::Void APFHALLCOBD(::FNDKCOPLCKJ* LGDPDNGAKJK)
+	{
+		return ((::System::Void(*)(::PVOID, ::FNDKCOPLCKJ*))((::PBYTE)hIl2Cpp + BMBIKAJPAGA_APFHALLCOBD_OFFSET))(this, LGDPDNGAKJK);
+	}
+
+	::System::Void MNEFKNFOABP(::OFLPOCHHHLC* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::OFLPOCHHHLC*))((::PBYTE)hIl2Cpp + BMBIKAJPAGA_MNEFKNFOABP_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void CMFOMGGDPPA(::System::Single MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + BMBIKAJPAGA_CMFOMGGDPPA_OFFSET))(this, MIALFKCCCPI);
+	}
+};

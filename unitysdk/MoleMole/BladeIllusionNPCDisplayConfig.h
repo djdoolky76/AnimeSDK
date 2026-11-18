@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_BLADEILLUSIONNPCDISPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16C22B30)
+#define MOLEMOLE_BLADEILLUSIONNPCDISPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B7B2C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BladeIllusionNPCDisplayConfig_TypeDefinitionIndex = 80114;
+	inline static constexpr unsigned int BladeIllusionNPCDisplayConfig_TypeDefinitionIndex = 58271;
 
 	class BladeIllusionNPCDisplayConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{
@@ -19,8 +19,10 @@ namespace MoleMole
 		::System::String* lookAtIKAttachPointName; // 0x60
 		::UnityEngine::AnimationCurve* showingDitherCurve; // 0x68
 		::System::Single showingDitherTime; // 0x70
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* hidingDitherCurve; // 0x78
 		::System::Single hidingDitherTime; // 0x80
+		::System::Byte _padding1[0x4];
 		::System::String* animatorTrigger; // 0x88
 		::System::Boolean enableGhostMask; // 0x90
 

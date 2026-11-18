@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CGJEMKCKIJG.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+
+class BDIGDABPLBK;
+class CCGKLCKJFPH;
+class MDLKEKANMHL;
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define GEGDLJDFNMN_BIKNPDECHOK_OFFSET UNITYSDK_OFFSET(0x16609290)
+#define GEGDLJDFNMN_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0x16608A90)
+#define GEGDLJDFNMN_IIAPOPMJHHA_OFFSET UNITYSDK_OFFSET(0x16608950)
+#define GEGDLJDFNMN_IPFGDOEEMOJ_OFFSET UNITYSDK_OFFSET(0x16609030)
+#define GEGDLJDFNMN_KNIPDAILJHP_OFFSET UNITYSDK_OFFSET(0x166091E0)
+#define GEGDLJDFNMN_KONOFBBAGIE_OFFSET UNITYSDK_OFFSET(0x16609140)
+#define GEGDLJDFNMN__CTOR_OFFSET UNITYSDK_OFFSET(0x16609020)
+
+inline static constexpr unsigned int GEGDLJDFNMN_TypeDefinitionIndex = 81654;
+
+class GEGDLJDFNMN : public ::CGJEMKCKIJG
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GEGDLJDFNMN__CTOR_OFFSET))(this);
+	}
+
+	::System::Void IIAPOPMJHHA(::MDLKEKANMHL* MHPNGBGGMMN, ::BDIGDABPLBK*& OLAHLBBKEIL, ::CCGKLCKJFPH* EBALKHIEICC)
+	{
+		return ((::System::Void(*)(::PVOID, ::MDLKEKANMHL*, ::BDIGDABPLBK*&, ::CCGKLCKJFPH*))((::PBYTE)hIl2Cpp + GEGDLJDFNMN_IIAPOPMJHHA_OFFSET))(this, MHPNGBGGMMN, OLAHLBBKEIL, EBALKHIEICC);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + GEGDLJDFNMN_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF);
+	}
+
+	::System::Void IPFGDOEEMOJ(::MDLKEKANMHL* MHPNGBGGMMN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MDLKEKANMHL*))((::PBYTE)hIl2Cpp + GEGDLJDFNMN_IPFGDOEEMOJ_OFFSET))(this, MHPNGBGGMMN);
+	}
+
+	::System::Void KONOFBBAGIE(::MDLKEKANMHL* MIALFKCCCPI, ::BDIGDABPLBK*& KMGKAIDEIBA, ::CCGKLCKJFPH* FDHMCIFPNCK)
+	{
+		return ((::System::Void(*)(::PVOID, ::MDLKEKANMHL*, ::BDIGDABPLBK*&, ::CCGKLCKJFPH*))((::PBYTE)hIl2Cpp + GEGDLJDFNMN_KONOFBBAGIE_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
+	}
+
+	static ::System::Collections::Generic::IEnumerator_1<::System::Single>* KNIPDAILJHP(::LGCNEDCMPKM BKBGPKNGNMF)
+	{
+		return ((::System::Collections::Generic::IEnumerator_1<::System::Single>*(*)(::LGCNEDCMPKM))((::PBYTE)hIl2Cpp + GEGDLJDFNMN_KNIPDAILJHP_OFFSET))(BKBGPKNGNMF);
+	}
+
+	static ::System::Collections::Generic::IEnumerator_1<::System::Single>* BIKNPDECHOK(::LGCNEDCMPKM BKBGPKNGNMF)
+	{
+		return ((::System::Collections::Generic::IEnumerator_1<::System::Single>*(*)(::LGCNEDCMPKM))((::PBYTE)hIl2Cpp + GEGDLJDFNMN_BIKNPDECHOK_OFFSET))(BKBGPKNGNMF);
+	}
+};

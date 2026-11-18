@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/HollowChessboardParticleModuleConfig.h"
 
-class Class_1_0AC327AA661D91B2;
+class AENDIENHBKL;
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_CONFIG_HOLLOWPARTICLEINITIALMODULECONFIG_CREATEMODULE_OFFSET UNITYSDK_OFFSET(0x1C46D570)
-#define MOLEMOLE_CONFIG_HOLLOWPARTICLEINITIALMODULECONFIG_GETMODULEID_OFFSET UNITYSDK_OFFSET(0x1C46D650)
-#define MOLEMOLE_CONFIG_HOLLOWPARTICLEINITIALMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C46D720)
+#define MOLEMOLE_CONFIG_HOLLOWPARTICLEINITIALMODULECONFIG_CREATEMODULE_OFFSET UNITYSDK_OFFSET(0x1C6E3160)
+#define MOLEMOLE_CONFIG_HOLLOWPARTICLEINITIALMODULECONFIG_GETMODULEID_OFFSET UNITYSDK_OFFSET(0x1C6E3240)
+#define MOLEMOLE_CONFIG_HOLLOWPARTICLEINITIALMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E3310)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowParticleInitialModuleConfig_TypeDefinitionIndex = 78023;
+	inline static constexpr unsigned int HollowParticleInitialModuleConfig_TypeDefinitionIndex = 90028;
 
 	class HollowParticleInitialModuleConfig : public ::MoleMole::Config::HollowChessboardParticleModuleConfig
 	{
@@ -23,9 +23,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOLLOWPARTICLEINITIALMODULECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_0AC327AA661D91B2* CreateModule(::UnityEngine::ParticleSystem* p)
+		::AENDIENHBKL* CreateModule(::UnityEngine::ParticleSystem* p)
 		{
-			return ((::Class_1_0AC327AA661D91B2*(*)(::PVOID, ::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOLLOWPARTICLEINITIALMODULECONFIG_CREATEMODULE_OFFSET))(this, p);
+			return ((::AENDIENHBKL*(*)(::PVOID, ::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOLLOWPARTICLEINITIALMODULECONFIG_CREATEMODULE_OFFSET))(this, p);
 		}
 
 		::System::Int32 GetModuleID()

@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/MobileInLevelQTECancelType.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_MOBILEINLEVELQTECANCELTYPESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1908F3C0)
+#define MOLEMOLE_MOBILEINLEVELQTECANCELTYPESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x180F6D40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MobileInLevelQTECancelTypeSettingContext_TypeDefinitionIndex = 86620;
+	inline static constexpr unsigned int MobileInLevelQTECancelTypeSettingContext_TypeDefinitionIndex = 92034;
 
 	class MobileInLevelQTECancelTypeSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

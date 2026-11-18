@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_4.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETARROWUINODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19BE36D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETARROWUINODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE3A10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETARROWUINODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A08F0B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWTARGETARROWUINODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A08F3F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowTargetArrowUINode_TypeDefinitionIndex = 56563;
+	inline static constexpr unsigned int LDShowTargetArrowUINode_TypeDefinitionIndex = 53856;
 
-	class LDShowTargetArrowUINode : public ::FlowCanvas::Nodes::CallableActionNode_4<::System::String*, ::MoleMole::EntityHandle, ::System::String*, ::UnityEngine::Vector3>
+	class LDShowTargetArrowUINode
 	{
 	public:
 		::System::Void _ctor()

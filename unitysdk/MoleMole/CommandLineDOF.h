@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/CommandLineSettingBase_2.h"
 #include "unitysdk/System/Nullable_1.h"
 
 namespace MoleMole { class DOFProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEDOF_METHOD_2_2133B72CEC412931_OFFSET UNITYSDK_OFFSET(0x134E7B40)
-#define MOLEMOLE_COMMANDLINEDOF_METHOD_2_B0123943C68C9BC5_OFFSET UNITYSDK_OFFSET(0x134E7C50)
-#define MOLEMOLE_COMMANDLINEDOF__CTOR_OFFSET UNITYSDK_OFFSET(0x134E7C10)
+#define MOLEMOLE_COMMANDLINEDOF_ALEKEEINDAO_OFFSET UNITYSDK_OFFSET(0x11A55170)
+#define MOLEMOLE_COMMANDLINEDOF_PMKOMFHNKOE_OFFSET UNITYSDK_OFFSET(0x11A55280)
+#define MOLEMOLE_COMMANDLINEDOF__CTOR_OFFSET UNITYSDK_OFFSET(0x11A55240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineDOF_TypeDefinitionIndex = 73362;
+	inline static constexpr unsigned int CommandLineDOF_TypeDefinitionIndex = 74400;
 
-	class CommandLineDOF : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::DOFProfileContext*, ::MoleMole::CommandLineDOF*>
+	class CommandLineDOF
 	{
 	public:
 		::System::Nullable_1<::System::Boolean> enable; // 0x18
@@ -23,14 +22,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEDOF__CTOR_OFFSET))(this);
 		}
 
-		::MoleMole::CommandLineDOF* Method_2_2133B72CEC412931(::MoleMole::DOFProfileContext* a1)
+		::MoleMole::CommandLineDOF* ALEKEEINDAO(::MoleMole::DOFProfileContext* LJBPECKCCEA)
 		{
-			return ((::MoleMole::CommandLineDOF*(*)(::PVOID, ::MoleMole::DOFProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEDOF_METHOD_2_2133B72CEC412931_OFFSET))(this, a1);
+			return ((::MoleMole::CommandLineDOF*(*)(::PVOID, ::MoleMole::DOFProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEDOF_ALEKEEINDAO_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::MoleMole::DOFProfileContext* Method_2_B0123943C68C9BC5(::MoleMole::DOFProfileContext* a1)
+		::MoleMole::DOFProfileContext* PMKOMFHNKOE(::MoleMole::DOFProfileContext* LJBPECKCCEA)
 		{
-			return ((::MoleMole::DOFProfileContext*(*)(::PVOID, ::MoleMole::DOFProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEDOF_METHOD_2_B0123943C68C9BC5_OFFSET))(this, a1);
+			return ((::MoleMole::DOFProfileContext*(*)(::PVOID, ::MoleMole::DOFProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEDOF_PMKOMFHNKOE_OFFSET))(this, LJBPECKCCEA);
 		}
 	};
 }

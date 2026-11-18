@@ -5,25 +5,26 @@
 class AkCallbackManager_EventCallback;
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE_CREATE_OFFSET UNITYSDK_OFFSET(0x1FB47170)
-#define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE_RECYCLE_OFFSET UNITYSDK_OFFSET(0x1FB47360)
-#define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB47030)
-#define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB47160)
+#define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE_CREATE_OFFSET UNITYSDK_OFFSET(0x1FF4E7A0)
+#define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE_RECYCLE_OFFSET UNITYSDK_OFFSET(0x1FF4E990)
+#define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF4E660)
+#define AKCALLBACKMANAGER_EVENTCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF4E790)
 
-inline static constexpr unsigned int AkCallbackManager_EventCallbackPackage_TypeDefinitionIndex = 33687;
+inline static constexpr unsigned int AkCallbackManager_EventCallbackPackage_TypeDefinitionIndex = 33233;
 
 class AkCallbackManager_EventCallbackPackage : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Stack_1<::AkCallbackManager_EventCallbackPackage*>** StaticGet_m_Pool()
+	static ::System::Collections::Generic::Stack_1<::System::Object*>** StaticGet_m_Pool()
 	{
-		return (::System::Collections::Generic::Stack_1<::AkCallbackManager_EventCallbackPackage*>**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_EventCallbackPackage_TypeDefinitionIndex)->GetStaticField(0x28B20);
+		return (::System::Collections::Generic::Stack_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_EventCallbackPackage_TypeDefinitionIndex)->GetStaticField(0x29D60);
 	}
 	// static const ::System::Int32 POOL_SIZE = 0x400; // 0x0
-	::AkCallbackManager_EventCallback* m_Callback; // 0x10
-	::System::Object* m_Cookie; // 0x18
-	::System::UInt32 m_playingID; // 0x20
-	::System::Boolean m_bNotifyEndOfEvent; // 0x24
+	::System::Object* m_Cookie; // 0x10
+	::AkCallbackManager_EventCallback* m_Callback; // 0x18
+	::System::Boolean m_bNotifyEndOfEvent; // 0x20
+	::System::Byte _padding0[0x3];
+	::System::UInt32 m_playingID; // 0x24
 
 	static ::System::Void _cctor()
 	{

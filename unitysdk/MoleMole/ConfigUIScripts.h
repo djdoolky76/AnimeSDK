@@ -14,11 +14,11 @@ namespace MoleMole { class ConfigUIMainCity; }
 namespace MoleMole { class ConfigUIMainStory; }
 namespace MoleMole::Config { class ConfigOverlordFeast; }
 
-#define MOLEMOLE_CONFIGUISCRIPTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD80CC0)
+#define MOLEMOLE_CONFIGUISCRIPTS__CTOR_OFFSET UNITYSDK_OFFSET(0x190C60E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIScripts_TypeDefinitionIndex = 69413;
+	inline static constexpr unsigned int ConfigUIScripts_TypeDefinitionIndex = 89248;
 
 	class ConfigUIScripts : public ::Foundation::MihoyoSerializedScriptableObject
 	{

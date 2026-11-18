@@ -4,12 +4,12 @@
 
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_TASK_SETONCOUNTDOWNMRES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D81F010)
-#define SYSTEM_THREADING_TASKS_TASK_SETONCOUNTDOWNMRES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81EEF0)
+#define SYSTEM_THREADING_TASKS_TASK_SETONCOUNTDOWNMRES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DD26770)
+#define SYSTEM_THREADING_TASKS_TASK_SETONCOUNTDOWNMRES__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD26650)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int Task_SetOnCountdownMres_TypeDefinitionIndex = 903;
+	inline static constexpr unsigned int Task_SetOnCountdownMres_TypeDefinitionIndex = 902;
 
 	class Task_SetOnCountdownMres : public ::System::Threading::ManualResetEventSlim
 	{

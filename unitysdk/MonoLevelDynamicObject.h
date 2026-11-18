@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_8AEDFD848EEC981C_1.h"
-#include "unitysdk/MoleMole/GameplayTag.h"
+#include "unitysdk/NHMECLPHCFP.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/MoleMole/GameplayTag.h"
 
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define MONOLEVELDYNAMICOBJECT_GETNAVMESHMARKTYPE_OFFSET UNITYSDK_OFFSET(0x162F9930)
-#define MONOLEVELDYNAMICOBJECT_GETOBJECTTAG_OFFSET UNITYSDK_OFFSET(0x162F9500)
-#define MONOLEVELDYNAMICOBJECT_GETOBJECT_OFFSET UNITYSDK_OFFSET(0x162F9650)
-#define MONOLEVELDYNAMICOBJECT_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x162F9970)
-#define MONOLEVELDYNAMICOBJECT_RESETACTIVE_OFFSET UNITYSDK_OFFSET(0x162F98E0)
-#define MONOLEVELDYNAMICOBJECT_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x162F96A0)
-#define MONOLEVELDYNAMICOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x162F99C0)
+#define MONOLEVELDYNAMICOBJECT_GETNAVMESHMARKTYPE_OFFSET UNITYSDK_OFFSET(0xE548810)
+#define MONOLEVELDYNAMICOBJECT_GETOBJECTTAG_OFFSET UNITYSDK_OFFSET(0xE5483D0)
+#define MONOLEVELDYNAMICOBJECT_GETOBJECT_OFFSET UNITYSDK_OFFSET(0xE548520)
+#define MONOLEVELDYNAMICOBJECT_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE548850)
+#define MONOLEVELDYNAMICOBJECT_RESETACTIVE_OFFSET UNITYSDK_OFFSET(0xE5487C0)
+#define MONOLEVELDYNAMICOBJECT_SETACTIVE_OFFSET UNITYSDK_OFFSET(0xE548570)
+#define MONOLEVELDYNAMICOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xE5488A0)
 
-inline static constexpr unsigned int MonoLevelDynamicObject_TypeDefinitionIndex = 83942;
+inline static constexpr unsigned int MonoLevelDynamicObject_TypeDefinitionIndex = 85222;
 
 class MonoLevelDynamicObject : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::String* DynamicObjectName; // 0x18
-	::Enum_3_8AEDFD848EEC981C_1 NavmeshType; // 0x20
+	::NHMECLPHCFP NavmeshType; // 0x20
 	::System::Boolean DefaultActiveState; // 0x24
 
 	::System::Void _ctor()
@@ -50,9 +50,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLEVELDYNAMICOBJECT_RESETACTIVE_OFFSET))(this);
 	}
 
-	::Enum_3_8AEDFD848EEC981C_1 GetNavmeshMarkType()
+	::NHMECLPHCFP GetNavmeshMarkType()
 	{
-		return ((::Enum_3_8AEDFD848EEC981C_1(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLEVELDYNAMICOBJECT_GETNAVMESHMARKTYPE_OFFSET))(this);
+		return ((::NHMECLPHCFP(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOLEVELDYNAMICOBJECT_GETNAVMESHMARKTYPE_OFFSET))(this);
 	}
 
 	::UnityEngine::Transform* GetTransform()

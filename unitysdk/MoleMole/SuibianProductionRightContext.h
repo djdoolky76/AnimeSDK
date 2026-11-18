@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_SUIBIANPRODUCTIONRIGHTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x180A1360)
+#define MOLEMOLE_SUIBIANPRODUCTIONRIGHTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x198D4920)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SuibianProductionRightContext_TypeDefinitionIndex = 45670;
+	inline static constexpr unsigned int SuibianProductionRightContext_TypeDefinitionIndex = 80345;
 
 	class SuibianProductionRightContext : public ::MoleMole::UIControllerContextBase
 	{

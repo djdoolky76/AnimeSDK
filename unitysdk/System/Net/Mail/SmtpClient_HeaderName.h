@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace System { class String; }
-
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int SmtpClient_HeaderName_TypeDefinitionIndex = 3596;
+	inline static constexpr unsigned int SmtpClient_HeaderName_TypeDefinitionIndex = 3595;
 
-	struct alignas(1) SmtpClient_HeaderName
+	struct alignas(4) SmtpClient_HeaderName
 	{
 		// static const ::System::String* ContentTransferEncoding; // 0x0
 		// static const ::System::String* ContentType; // 0x0

@@ -9,11 +9,11 @@ namespace MoleMole::Config { class ConfigHollowPlayerMove; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x16C43340)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0301E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowPlayer_TypeDefinitionIndex = 71112;
+	inline static constexpr unsigned int ConfigHollowPlayer_TypeDefinitionIndex = 75057;
 
 	class ConfigHollowPlayer : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -21,6 +21,7 @@ namespace MoleMole::Config
 		::MoleMole::Config::ConfigHollowPlayerMove* configMove; // 0x58
 		::System::String* canTriggerEventSheetAnimKey; // 0x60
 		::System::Int32 canTriggerEventVideoId; // 0x68
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::Int32>* ItemCollectItemIdForbiddenList; // 0x70
 		::System::Collections::Generic::List_1<::Share::EItemType>* ItemCollectItemTypeForbiddenList; // 0x78
 		::System::Collections::Generic::List_1<::System::Int32>* ItemCollectItemTypeWhiteList; // 0x80

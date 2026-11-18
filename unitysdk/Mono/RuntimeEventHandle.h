@@ -4,14 +4,14 @@
 
 namespace System { class Object; }
 
-#define MONO_RUNTIMEEVENTHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x908790)
-#define MONO_RUNTIMEEVENTHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x325570)
+#define MONO_RUNTIMEEVENTHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x84AB60)
+#define MONO_RUNTIMEEVENTHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x359320)
 
 namespace Mono
 {
 	inline static constexpr unsigned int RuntimeEventHandle_TypeDefinitionIndex = 11;
 
-	struct alignas(8) RuntimeEventHandle
+	struct alignas(4) RuntimeEventHandle
 	{
 		::System::IntPtr value; // 0x10
 

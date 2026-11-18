@@ -8,7 +8,7 @@ namespace UnityEngine::Rendering { class LensFlareDataSRP; }
 namespace UnityEngine::Rendering::Universal { class LensFlareConfig; }
 namespace UnityEngine::Rendering::Universal { class LightShaftConfig; }
 
-inline static constexpr unsigned int WeatherConfig_ResultMainLightParams_TypeDefinitionIndex = 27750;
+inline static constexpr unsigned int WeatherConfig_ResultMainLightParams_TypeDefinitionIndex = 26172;
 
 struct alignas(8) WeatherConfig_ResultMainLightParams
 {
@@ -17,6 +17,7 @@ struct alignas(8) WeatherConfig_ResultMainLightParams
 	::System::Single intensity; // 0x30
 	::System::Single intensityForChar; // 0x34
 	::UnityEngine::Vector3 mainLightDirectionEular; // 0x38
+	::System::Byte _padding0[0x4];
 	::UnityEngine::Rendering::LensFlareDataSRP* resultLensFlareData; // 0x48
 	::UnityEngine::Rendering::Universal::LensFlareConfig* resultLensFlareConfig; // 0x50
 	::UnityEngine::Rendering::Universal::LightShaftConfig* resultLightShaftConfig; // 0x58

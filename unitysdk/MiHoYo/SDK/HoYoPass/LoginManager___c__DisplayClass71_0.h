@@ -7,19 +7,19 @@ namespace MiHoYo::SDK { class Web; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS71_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C92B0D0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS71_0__THIRDPARTYACCOUNTBINDING_B__0_OFFSET UNITYSDK_OFFSET(0x1C92B0E0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS71_0__THIRDPARTYACCOUNTBINDING_B__1_OFFSET UNITYSDK_OFFSET(0x1C92B290)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS71_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE309F0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS71_0__THIRDPARTYACCOUNTBINDING_B__0_OFFSET UNITYSDK_OFFSET(0x1CE30A00)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS71_0__THIRDPARTYACCOUNTBINDING_B__1_OFFSET UNITYSDK_OFFSET(0x1CE30BB0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass71_0_TypeDefinitionIndex = 20446;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass71_0_TypeDefinitionIndex = 19594;
 
 	class LoginManager___c__DisplayClass71_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Int32>* callback; // 0x10
-		::System::String* actionTicket; // 0x18
+		::System::String* actionTicket; // 0x10
+		::System::Action_1<::System::Int32>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

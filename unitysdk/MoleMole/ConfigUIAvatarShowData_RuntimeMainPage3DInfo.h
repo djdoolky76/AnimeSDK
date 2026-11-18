@@ -7,12 +7,13 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAvatarShowData_RuntimeMainPage3DInfo_TypeDefinitionIndex = 56956;
+	inline static constexpr unsigned int ConfigUIAvatarShowData_RuntimeMainPage3DInfo_TypeDefinitionIndex = 75157;
 
 	struct alignas(8) ConfigUIAvatarShowData_RuntimeMainPage3DInfo
 	{
 		::System::String* avatarMainPagePrefabPath; // 0x10
 		::System::Int32 cameraPerformType; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* animationClipPath; // 0x20
 		::System::String* animatorControllerPath; // 0x28
 		::System::String* avatarShowPrefabPath; // 0x30

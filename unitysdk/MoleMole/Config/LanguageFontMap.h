@@ -9,11 +9,12 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LanguageFontMap_TypeDefinitionIndex = 83610;
+	inline static constexpr unsigned int LanguageFontMap_TypeDefinitionIndex = 69546;
 
 	struct alignas(8) LanguageFontMap
 	{
 		::MoleMole::LanguageType languageType; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* fontName; // 0x18
 		::System::String* lightFontName; // 0x20
 		::System::Int32 lightFontSize; // 0x28

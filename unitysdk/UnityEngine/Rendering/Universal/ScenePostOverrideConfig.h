@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTOVERRIDECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1BC72FE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC730A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTOVERRIDECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x16E88470)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E88530)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScenePostOverrideConfig_TypeDefinitionIndex = 27759;
+	inline static constexpr unsigned int ScenePostOverrideConfig_TypeDefinitionIndex = 27271;
 
-	class ScenePostOverrideConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::ScenePostOverrideConfig*>
+	class ScenePostOverrideConfig
 	{
 	public:
 		::System::Single ChannelMixer_redOutRedIn; // 0x18

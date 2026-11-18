@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/InputSystem/Gamepad.h"
 
-#define UNITYENGINE_INPUTSYSTEM_SWITCH_SWITCHPROCONTROLLERHID__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7E73D0)
+#define UNITYENGINE_INPUTSYSTEM_SWITCH_SWITCHPROCONTROLLERHID__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBFB340)
 
 namespace UnityEngine::InputSystem::Switch
 {
-	inline static constexpr unsigned int SwitchProControllerHID_TypeDefinitionIndex = 32398;
+	inline static constexpr unsigned int SwitchProControllerHID_TypeDefinitionIndex = 31847;
 
 	class SwitchProControllerHID : public ::UnityEngine::InputSystem::Gamepad
 	{

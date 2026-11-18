@@ -5,14 +5,15 @@
 class MainCityObjectLoopStateCondition;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MAINCITYOBJECTSTATEGRAPHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x150D41B0)
+#define MAINCITYOBJECTSTATEGRAPHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19212D00)
 
-inline static constexpr unsigned int MainCityObjectStateGraphItem_TypeDefinitionIndex = 86747;
+inline static constexpr unsigned int MainCityObjectStateGraphItem_TypeDefinitionIndex = 48971;
 
 class MainCityObjectStateGraphItem : public ::System::Object
 {
 public:
 	::System::Int32 WidgetID; // 0x10
+	::System::Byte _padding0[0x4];
 	::System::Collections::Generic::List_1<::MainCityObjectLoopStateCondition*>* States; // 0x18
 
 	::System::Void _ctor()

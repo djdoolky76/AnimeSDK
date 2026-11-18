@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RectTransform_Edge_TypeDefinitionIndex = 5413;
+	inline static constexpr unsigned int RectTransform_Edge_TypeDefinitionIndex = 5416;
 
 	enum class RectTransform_Edge : ::System::Int32
 	{

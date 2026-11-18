@@ -3,31 +3,30 @@
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
 
 namespace System { class Action; }
-namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Toggle; }
 namespace UnityEngine::UI { class ToggleGroup; }
 
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D1F0100)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_CLICKCANCELBUTTON_OFFSET UNITYSDK_OFFSET(0x1D1F1320)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_CLICKLOGOUTBUTTON_OFFSET UNITYSDK_OFFSET(0x1D1F1340)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1D1F14E0)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D1F1550)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1D1F13B0)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1D1F0920)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F1570)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D86AA00)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_CLICKCANCELBUTTON_OFFSET UNITYSDK_OFFSET(0x1D86BC20)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_CLICKLOGOUTBUTTON_OFFSET UNITYSDK_OFFSET(0x1D86BC40)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1D86BDE0)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D86BE50)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1D86BCB0)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1D86B220)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D86BE70)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LogoutConfirm_TypeDefinitionIndex = 21392;
+	inline static constexpr unsigned int LogoutConfirm_TypeDefinitionIndex = 20596;
 
 	class LogoutConfirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::Win::LogoutConfirm** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::LogoutConfirm**)Il2CppClass::FromTypeDefinitionIndex(LogoutConfirm_TypeDefinitionIndex)->GetStaticField(0x97F0);
+			return (::MiHoYo::SDK::Win::LogoutConfirm**)Il2CppClass::FromTypeDefinitionIndex(LogoutConfirm_TypeDefinitionIndex)->GetStaticField(0x97B0);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0

@@ -5,17 +5,17 @@
 
 namespace System { class String; }
 
-#define SYSTEM_IO_SEARCHPATTERN2_OP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEBDA80)
+#define SYSTEM_IO_SEARCHPATTERN2_OP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E33CDF0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int SearchPattern2_Op_TypeDefinitionIndex = 3235;
+	inline static constexpr unsigned int SearchPattern2_Op_TypeDefinitionIndex = 3234;
 
 	class SearchPattern2_Op : public ::System::Object
 	{
 	public:
-		::System::IO::SearchPattern2_Op* Next; // 0x10
-		::System::String* Argument; // 0x18
+		::System::String* Argument; // 0x10
+		::System::IO::SearchPattern2_Op* Next; // 0x18
 		::System::IO::SearchPattern2_OpCode Code; // 0x20
 
 		::System::Void _ctor(::System::IO::SearchPattern2_OpCode code)

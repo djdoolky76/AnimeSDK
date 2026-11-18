@@ -9,21 +9,24 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int FNpcAvatarGenericParams_AccessoryInfo_TypeDefinitionIndex = 58427;
+inline static constexpr unsigned int FNpcAvatarGenericParams_AccessoryInfo_TypeDefinitionIndex = 80483;
 
 struct alignas(8) FNpcAvatarGenericParams_AccessoryInfo
 {
 	::System::String* AccessoryKey; // 0x10
 	::System::Boolean bMix; // 0x18
+	::System::Byte _padding0[0x3];
 	::System::Int32 SlotNameHash; // 0x1C
 	::System::Int32 AccessoryId; // 0x20
 	::System::Int32 SceneObjectId; // 0x24
 	::System::String* SeqFrameKey; // 0x28
 	::System::Boolean OverrideDefaultSlotOffset; // 0x30
+	::System::Byte _padding1[0x3];
 	::UnityEngine::Vector3 OffsetPosition; // 0x34
 	::UnityEngine::Quaternion OffsetRotation; // 0x40
 	::UnityEngine::Vector3 OffsetScale; // 0x50
 	::System::Boolean OverrideMaterials; // 0x5C
+	::System::Byte _padding2[0x3];
 	::Il2CppArray<::Foundation::AssetPath>* OverrideMaterialPathList; // 0x60
 	::Il2CppArray<::Il2CppArray<::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32>>*>* OverridePropertyColorsArray; // 0x68
 	::Il2CppArray<::System::Int32>* AnimIDList; // 0x70

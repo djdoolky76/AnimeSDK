@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SECTR_SECTR_STREAMERROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x14500EC0)
+#define MOLEMOLE_SECTR_SECTR_STREAMERROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1044D6D0)
 
 namespace MoleMole::SECTR
 {
-	inline static constexpr unsigned int SECTR_StreamerRoot_TypeDefinitionIndex = 90947;
+	inline static constexpr unsigned int SECTR_StreamerRoot_TypeDefinitionIndex = 67132;
 
 	class SECTR_StreamerRoot : public ::UnityEngine::MonoBehaviour
 	{
@@ -17,6 +17,7 @@ namespace MoleMole::SECTR
 		::System::String* configName; // 0x18
 		::System::String* worldName; // 0x20
 		::System::Boolean manualLoadSector; // 0x28
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::System::String*>* SectorNameList; // 0x30
 
 		::System::Void _ctor()

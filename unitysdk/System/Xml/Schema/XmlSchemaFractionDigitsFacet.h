@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaNumericFacet.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAFRACTIONDIGITSFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E622A20)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAFRACTIONDIGITSFACET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A0030)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaFractionDigitsFacet_TypeDefinitionIndex = 2155;
+	inline static constexpr unsigned int XmlSchemaFractionDigitsFacet_TypeDefinitionIndex = 2154;
 
 	class XmlSchemaFractionDigitsFacet : public ::System::Xml::Schema::XmlSchemaNumericFacet
 	{

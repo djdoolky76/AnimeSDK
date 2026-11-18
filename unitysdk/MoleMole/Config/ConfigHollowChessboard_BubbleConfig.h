@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BUBBLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CCF40)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_BUBBLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12773C80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_BubbleConfig_TypeDefinitionIndex = 59267;
+	inline static constexpr unsigned int ConfigHollowChessboard_BubbleConfig_TypeDefinitionIndex = 46327;
 
 	class ConfigHollowChessboard_BubbleConfig : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Image_FillMethod_TypeDefinitionIndex = 19221;
+	inline static constexpr unsigned int Image_FillMethod_TypeDefinitionIndex = 18375;
 
 	enum class Image_FillMethod : ::System::Int32
 	{

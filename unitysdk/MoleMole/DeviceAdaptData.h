@@ -3,13 +3,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define MOLEMOLE_DEVICEADAPTDATA_METHOD_1_D64FD9A228A1C4E0_1_OFFSET UNITYSDK_OFFSET(0x19BC5670)
-#define MOLEMOLE_DEVICEADAPTDATA_METHOD_1_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x19BC55E0)
-#define MOLEMOLE_DEVICEADAPTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC5590)
+#define MOLEMOLE_DEVICEADAPTDATA_OGNKHKDMLLJ_OFFSET UNITYSDK_OFFSET(0x1A06B6E0)
+#define MOLEMOLE_DEVICEADAPTDATA_PGGGEHPAGBE_OFFSET UNITYSDK_OFFSET(0x1A06B650)
+#define MOLEMOLE_DEVICEADAPTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A06B600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DeviceAdaptData_TypeDefinitionIndex = 89816;
+	inline static constexpr unsigned int DeviceAdaptData_TypeDefinitionIndex = 41763;
 
 	class DeviceAdaptData : public ::System::Object
 	{
@@ -17,6 +17,7 @@ namespace MoleMole
 		::System::Single dpi; // 0x10
 		::System::Int32 height; // 0x14
 		::System::Int32 width; // 0x18
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::Rect>* cutoutsLeft; // 0x20
 		::Il2CppArray<::UnityEngine::Rect>* cutoutsRight; // 0x28
 		::UnityEngine::Rect safeAreaLeft; // 0x30
@@ -27,14 +28,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DEVICEADAPTDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Single Method_1_D64FD9A228A1C4E0()
+		::System::Single PGGGEHPAGBE()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DEVICEADAPTDATA_METHOD_1_D64FD9A228A1C4E0_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DEVICEADAPTDATA_PGGGEHPAGBE_OFFSET))(this);
 		}
 
-		::System::Single Method_1_D64FD9A228A1C4E0_1()
+		::System::Single OGNKHKDMLLJ()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DEVICEADAPTDATA_METHOD_1_D64FD9A228A1C4E0_1_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DEVICEADAPTDATA_OGNKHKDMLLJ_OFFSET))(this);
 		}
 	};
 }

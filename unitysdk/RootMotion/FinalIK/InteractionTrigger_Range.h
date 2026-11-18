@@ -5,25 +5,25 @@
 
 namespace RootMotion::FinalIK { class InteractionTrigger_CameraPosition; }
 namespace RootMotion::FinalIK { class InteractionTrigger_CharacterPosition; }
-namespace RootMotion::FinalIK { class InteractionTrigger_Range_Interaction; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_INTERACTIONTRIGGER_RANGE_ISINRANGE_OFFSET UNITYSDK_OFFSET(0x1F922650)
-#define ROOTMOTION_FINALIK_INTERACTIONTRIGGER_RANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F922720)
+#define ROOTMOTION_FINALIK_INTERACTIONTRIGGER_RANGE_ISINRANGE_OFFSET UNITYSDK_OFFSET(0x1FD2C000)
+#define ROOTMOTION_FINALIK_INTERACTIONTRIGGER_RANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD2C0D0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int InteractionTrigger_Range_TypeDefinitionIndex = 38989;
+	inline static constexpr unsigned int InteractionTrigger_Range_TypeDefinitionIndex = 36892;
 
 	class InteractionTrigger_Range : public ::System::Object
 	{
 	public:
 		::System::String* name; // 0x10
 		::System::Boolean show; // 0x18
+		::System::Byte _padding0[0x7];
 		::RootMotion::FinalIK::InteractionTrigger_CharacterPosition* characterPosition; // 0x20
 		::RootMotion::FinalIK::InteractionTrigger_CameraPosition* cameraPosition; // 0x28
-		::Il2CppArray<::RootMotion::FinalIK::InteractionTrigger_Range_Interaction*>* interactions; // 0x30
+		::Il2CppArray<::System::Object*>* interactions; // 0x30
 
 		::System::Void _ctor()
 		{

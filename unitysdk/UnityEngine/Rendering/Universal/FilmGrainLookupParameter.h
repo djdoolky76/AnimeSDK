@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/FilmGrainLookup.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FILMGRAINLOOKUPPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x110984A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FILMGRAINLOOKUPPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x108BF200)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FilmGrainLookupParameter_TypeDefinitionIndex = 27398;
+	inline static constexpr unsigned int FilmGrainLookupParameter_TypeDefinitionIndex = 26895;
 
-	class FilmGrainLookupParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::FilmGrainLookup>
+	class FilmGrainLookupParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Rendering::Universal::FilmGrainLookup value, ::System::Boolean overrideState)

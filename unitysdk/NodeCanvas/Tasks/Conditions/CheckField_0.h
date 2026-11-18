@@ -6,18 +6,18 @@ namespace NodeCanvas::Framework { class BBParameter; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKFIELD_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D06FE30)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKFIELD_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EA1A0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckField_0_TypeDefinitionIndex = 31153;
+	inline static constexpr unsigned int CheckField_0_TypeDefinitionIndex = 29514;
 
 	class CheckField_0 : public ::System::Object
 	{
 	public:
-		::System::Type* targetType; // 0x10
+		::System::String* fieldName; // 0x10
 		::NodeCanvas::Framework::BBParameter* checkValue; // 0x18
-		::System::String* fieldName; // 0x20
+		::System::Type* targetType; // 0x20
 
 		::System::Void _ctor()
 		{

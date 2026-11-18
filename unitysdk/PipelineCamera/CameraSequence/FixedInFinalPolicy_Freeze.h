@@ -1,52 +1,52 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/FName.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
 #include "unitysdk/PipelineCamera/CameraSequence/FinalBasicCameraDataChannel.h"
 #include "unitysdk/PipelineCamera/CameraSequence/FixedInFinalPolicy.h"
-#include "unitysdk/PipelineCamera/FinalCameraData.h"
 #include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
+#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
+#include "unitysdk/PipelineCamera/FinalCameraData.h"
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EC2C820)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_FETCH_BEGINCAMERADATA_OFFSET UNITYSDK_OFFSET(0x1EC2CC70)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_FETCH_FIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x1EC2CBB0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_FETCH_LOCATION_OFFSET UNITYSDK_OFFSET(0x1EC2C9C0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_FETCH_ROTATION_OFFSET UNITYSDK_OFFSET(0x1EC2CAC0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1EC2B750)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1EC2C770)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1EC2C780)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC2CD90)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC2CD80)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EC2CE70)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1EC2CF60)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EFF87C0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_FETCH_BEGINCAMERADATA_OFFSET UNITYSDK_OFFSET(0x1EFF8C10)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_FETCH_FIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x1EFF8B50)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_FETCH_LOCATION_OFFSET UNITYSDK_OFFSET(0x1EFF8960)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_FETCH_ROTATION_OFFSET UNITYSDK_OFFSET(0x1EFF8A60)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1EFF76F0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1EFF8710)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1EFF8720)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFF8D30)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF8D20)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EFF8E10)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY_FREEZE___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1EFF8F00)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FixedInFinalPolicy_Freeze_TypeDefinitionIndex = 38558;
+	inline static constexpr unsigned int FixedInFinalPolicy_Freeze_TypeDefinitionIndex = 36557;
 
 	class FixedInFinalPolicy_Freeze : public ::PipelineCamera::CameraSequence::FixedInFinalPolicy
 	{
 	public:
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_fieldOfView()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInFinalPolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x92B0);
+		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_rotation()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInFinalPolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8E20);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_location()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInFinalPolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8E28);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInFinalPolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x92B8);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_BeginCameraData()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInFinalPolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8E30);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInFinalPolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x92C0);
 		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_fieldOfView()
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_location()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInFinalPolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x8E38);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedInFinalPolicy_Freeze_TypeDefinitionIndex)->GetStaticField(0x92C8);
 		}
 		::PipelineCamera::WorldBasicCameraData BeginCameraData; // 0x40
 		::UnityEngine::Vector3 location; // 0x6C

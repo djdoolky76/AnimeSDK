@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_2BF8C713045E78D9;
+class DHMNFJBEEDP;
 
-#define MOLEMOLE_UIURBANMAPMISSIONPROGRESSROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x140D9AA0)
+#define MOLEMOLE_UIURBANMAPMISSIONPROGRESSROWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17195360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapMissionProgressRowContext_TypeDefinitionIndex = 88699;
+	inline static constexpr unsigned int UIUrbanMapMissionProgressRowContext_TypeDefinitionIndex = 66517;
 
 	class UIUrbanMapMissionProgressRowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_2BF8C713045E78D9* CollectData; // 0x28
+		::DHMNFJBEEDP* CollectData; // 0x28
 
 		::System::Void _ctor()
 		{

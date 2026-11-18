@@ -7,17 +7,17 @@ namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CONFIGTEXTURESHEETDATA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A899090)
-#define CONFIGTEXTURESHEETDATA___C__DISPLAYCLASS4_0__RELOADTEXTURESHEETFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x1A8990A0)
+#define CONFIGTEXTURESHEETDATA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18318F80)
+#define CONFIGTEXTURESHEETDATA___C__DISPLAYCLASS4_0__RELOADTEXTURESHEETFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x18318F90)
 
-inline static constexpr unsigned int ConfigTextureSheetData___c__DisplayClass4_0_TypeDefinitionIndex = 72801;
+inline static constexpr unsigned int ConfigTextureSheetData___c__DisplayClass4_0_TypeDefinitionIndex = 47980;
 
 class ConfigTextureSheetData___c__DisplayClass4_0 : public ::System::Object
 {
 public:
 	::System::Action_1<::MoleMole::ConfigTextureSheet*>* __9__0; // 0x10
-	::System::Collections::Generic::List_1<::MoleMole::ConfigTextureSheet*>* multiConfigs; // 0x18
-	::System::Action* complete; // 0x20
+	::System::Action* complete; // 0x18
+	::System::Collections::Generic::List_1<::MoleMole::ConfigTextureSheet*>* multiConfigs; // 0x20
 	::System::Int32 inLoadingRef; // 0x28
 
 	::System::Void _ctor()

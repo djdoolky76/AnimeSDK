@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_MOVETOTASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xE9332D0)
-#define NPCCROWD_ABILITY_MOVETOTASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xE9332E0)
+#define NPCCROWD_ABILITY_MOVETOTASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x10021B20)
+#define NPCCROWD_ABILITY_MOVETOTASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x10021B30)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int MoveToTask_StructOpsTypeTraits_TypeDefinitionIndex = 48546;
+	inline static constexpr unsigned int MoveToTask_StructOpsTypeTraits_TypeDefinitionIndex = 43538;
 
 	class MoveToTask_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

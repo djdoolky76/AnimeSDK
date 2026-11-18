@@ -1,0 +1,105 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AOEFLPEICBM.h"
+
+class AKCGFNKLIBA;
+class CKOLCOGDGEO;
+class EEDABKDPNNE;
+class FEGNLFMDNPB;
+class LJGLPJJKEBL;
+namespace MoleMole { class UIHollowCardOptionsBasePopWindowController; }
+namespace MoleMole { class UIHollowCardOptionsDialogContext; }
+namespace System { class String; }
+
+#define EGJMNFFOIDF_CONBBNIOBFK_OFFSET UNITYSDK_OFFSET(0x16BDE2C0)
+#define EGJMNFFOIDF_DEDMJEIEHAD_OFFSET UNITYSDK_OFFSET(0x16BDE130)
+#define EGJMNFFOIDF_EJCKILOIBKE_OFFSET UNITYSDK_OFFSET(0x16BDDA80)
+#define EGJMNFFOIDF_EMPHBHAMIFL_OFFSET UNITYSDK_OFFSET(0x16BDE430)
+#define EGJMNFFOIDF_FEHMDNJBLOH_OFFSET UNITYSDK_OFFSET(0x16BDDED0)
+#define EGJMNFFOIDF_GKNGJICLELG_OFFSET UNITYSDK_OFFSET(0x16BDED90)
+#define EGJMNFFOIDF_HOAODFNPKJE_OFFSET UNITYSDK_OFFSET(0x16BDF030)
+#define EGJMNFFOIDF_IHIDLIOJGHG_OFFSET UNITYSDK_OFFSET(0x16BDEDE0)
+#define EGJMNFFOIDF_IOMKOJJDIMF_OFFSET UNITYSDK_OFFSET(0x16BDE310)
+#define EGJMNFFOIDF_ODEEJCPBCMM_OFFSET UNITYSDK_OFFSET(0x16BDD870)
+#define EGJMNFFOIDF_PIONCLBHHFJ_OFFSET UNITYSDK_OFFSET(0x16BDE750)
+#define EGJMNFFOIDF_PLDMOMBENBK_OFFSET UNITYSDK_OFFSET(0x16BDEC20)
+#define EGJMNFFOIDF__CTOR_OFFSET UNITYSDK_OFFSET(0x16BDD820)
+
+inline static constexpr unsigned int EGJMNFFOIDF_TypeDefinitionIndex = 44506;
+
+class EGJMNFFOIDF : public ::AOEFLPEICBM
+{
+public:
+	// static const ::System::String* CBLLCKNPLMF; // 0x0
+	::CKOLCOGDGEO* HOPCLNFJCOD; // 0x20
+	::AKCGFNKLIBA* BHOMMFINLMI; // 0x28
+	::MoleMole::UIHollowCardOptionsBasePopWindowController* JOLDOMEIKEF; // 0x30
+	::FEGNLFMDNPB* NGPIAJDNDJK; // 0x38
+	::LJGLPJJKEBL* MEDFNEHNICK; // 0x40
+	::System::Boolean GNCHEGBNLDE; // 0x48
+
+	::System::Void _ctor(::LJGLPJJKEBL* AAIJGGIEOGK)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJGLPJJKEBL*))((::PBYTE)hIl2Cpp + EGJMNFFOIDF__CTOR_OFFSET))(this, AAIJGGIEOGK);
+	}
+
+	::System::Void ODEEJCPBCMM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGJMNFFOIDF_ODEEJCPBCMM_OFFSET))(this);
+	}
+
+	::System::Void FEHMDNJBLOH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGJMNFFOIDF_FEHMDNJBLOH_OFFSET))(this);
+	}
+
+	::System::Void DEDMJEIEHAD(::EEDABKDPNNE* NIKCOJEJGGE)
+	{
+		return ((::System::Void(*)(::PVOID, ::EEDABKDPNNE*))((::PBYTE)hIl2Cpp + EGJMNFFOIDF_DEDMJEIEHAD_OFFSET))(this, NIKCOJEJGGE);
+	}
+
+	::System::Void IOMKOJJDIMF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGJMNFFOIDF_IOMKOJJDIMF_OFFSET))(this);
+	}
+
+	::System::Void EMPHBHAMIFL(::FEGNLFMDNPB* GCKPCMEMKMM, ::CKOLCOGDGEO* IGAAKDOIPNN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FEGNLFMDNPB*, ::CKOLCOGDGEO*))((::PBYTE)hIl2Cpp + EGJMNFFOIDF_EMPHBHAMIFL_OFFSET))(this, GCKPCMEMKMM, IGAAKDOIPNN);
+	}
+
+	::System::Void PIONCLBHHFJ(::FEGNLFMDNPB* GCKPCMEMKMM, ::CKOLCOGDGEO* IGAAKDOIPNN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FEGNLFMDNPB*, ::CKOLCOGDGEO*))((::PBYTE)hIl2Cpp + EGJMNFFOIDF_PIONCLBHHFJ_OFFSET))(this, GCKPCMEMKMM, IGAAKDOIPNN);
+	}
+
+	::System::Void PLDMOMBENBK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGJMNFFOIDF_PLDMOMBENBK_OFFSET))(this);
+	}
+
+	::System::Void GKNGJICLELG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGJMNFFOIDF_GKNGJICLELG_OFFSET))(this);
+	}
+
+	::System::Void IHIDLIOJGHG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGJMNFFOIDF_IHIDLIOJGHG_OFFSET))(this);
+	}
+
+	::MoleMole::UIHollowCardOptionsDialogContext* EJCKILOIBKE()
+	{
+		return ((::MoleMole::UIHollowCardOptionsDialogContext*(*)(::PVOID))((::PBYTE)hIl2Cpp + EGJMNFFOIDF_EJCKILOIBKE_OFFSET))(this);
+	}
+
+	::System::Void CONBBNIOBFK(::AKCGFNKLIBA* ALNDIKCGIEP)
+	{
+		return ((::System::Void(*)(::PVOID, ::AKCGFNKLIBA*))((::PBYTE)hIl2Cpp + EGJMNFFOIDF_CONBBNIOBFK_OFFSET))(this, ALNDIKCGIEP);
+	}
+
+	::System::String* HOAODFNPKJE()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EGJMNFFOIDF_HOAODFNPKJE_OFFSET))(this);
+	}
+};

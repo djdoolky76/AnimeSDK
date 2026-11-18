@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAAPPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A00A0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAAPPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D61B5A0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaAppInfo_TypeDefinitionIndex = 2119;
+	inline static constexpr unsigned int XmlSchemaAppInfo_TypeDefinitionIndex = 2118;
 
 	class XmlSchemaAppInfo : public ::System::Xml::Schema::XmlSchemaObject
 	{
 	public:
-		::System::String* source; // 0x38
-		::Il2CppArray<::System::Xml::XmlNode*>* markup; // 0x40
+		::Il2CppArray<::System::Xml::XmlNode*>* markup; // 0x38
+		::System::String* source; // 0x40
 
 		::System::Void _ctor()
 		{

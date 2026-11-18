@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/LKHMMKPKIGP.h"
+#include "unitysdk/PDOGMMJACKN.h"
+
+class JDDHAHBFBMI;
+namespace System { class String; }
+
+#define PHJAONNBHMO_BELBKIBHPKE_OFFSET UNITYSDK_OFFSET(0x1D626E30)
+#define PHJAONNBHMO_CGMDAOIPHJN_OFFSET UNITYSDK_OFFSET(0x13A95450)
+#define PHJAONNBHMO_NDFINNPHHAL_OFFSET UNITYSDK_OFFSET(0x13A957E0)
+#define PHJAONNBHMO_OLILLOJBKCA_OFFSET UNITYSDK_OFFSET(0x1D626EB0)
+
+inline static constexpr unsigned int PHJAONNBHMO_TypeDefinitionIndex = 88885;
+
+class PHJAONNBHMO : public ::System::Object
+{
+public:
+	static ::System::String* CGMDAOIPHJN(::JDDHAHBFBMI* MHACFCHPBMC, ::System::String* JCBHEBKDBEG, ::System::String* EDKEPAAFFEJ)
+	{
+		return ((::System::String*(*)(::JDDHAHBFBMI*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + PHJAONNBHMO_CGMDAOIPHJN_OFFSET))(MHACFCHPBMC, JCBHEBKDBEG, EDKEPAAFFEJ);
+	}
+
+	static ::LKHMMKPKIGP NDFINNPHHAL(::JDDHAHBFBMI* MHACFCHPBMC)
+	{
+		return ((::LKHMMKPKIGP(*)(::JDDHAHBFBMI*))((::PBYTE)hIl2Cpp + PHJAONNBHMO_NDFINNPHHAL_OFFSET))(MHACFCHPBMC);
+	}
+
+	static ::PDOGMMJACKN BELBKIBHPKE(::JDDHAHBFBMI* MHACFCHPBMC)
+	{
+		return ((::PDOGMMJACKN(*)(::JDDHAHBFBMI*))((::PBYTE)hIl2Cpp + PHJAONNBHMO_BELBKIBHPKE_OFFSET))(MHACFCHPBMC);
+	}
+
+	static ::System::Boolean OLILLOJBKCA(::JDDHAHBFBMI* MHACFCHPBMC)
+	{
+		return ((::System::Boolean(*)(::JDDHAHBFBMI*))((::PBYTE)hIl2Cpp + PHJAONNBHMO_OLILLOJBKCA_OFFSET))(MHACFCHPBMC);
+	}
+};

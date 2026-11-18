@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_LEVEL_LEVELCONFIG_FOCUSUIICONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x138460F0)
+#define MOLEMOLE_LEVEL_LEVELCONFIG_FOCUSUIICONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x139ED810)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_FocusUIIconSetting_TypeDefinitionIndex = 86303;
+	inline static constexpr unsigned int LevelConfig_FocusUIIconSetting_TypeDefinitionIndex = 40485;
 
 	class LevelConfig_FocusUIIconSetting : public ::System::Object
 	{
@@ -16,6 +16,7 @@ namespace MoleMole::Level
 		::System::String* iconPath; // 0x10
 		::System::Boolean isCloseNamePanel; // 0x18
 		::System::Boolean isCloseDistanceScale; // 0x19
+		::System::Byte _padding0[0x2];
 		::System::Int32 defaultScaleWhenCloseCloseDistance; // 0x1C
 
 		::System::Void _ctor()

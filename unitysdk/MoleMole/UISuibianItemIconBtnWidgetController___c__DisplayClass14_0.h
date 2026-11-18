@@ -5,20 +5,20 @@
 namespace MoleMole { class UISuibianItemIconBtnWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UISUIBIANITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175A9BA0)
-#define MOLEMOLE_UISUIBIANITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS14_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x175A9BB0)
+#define MOLEMOLE_UISUIBIANITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185A4F10)
+#define MOLEMOLE_UISUIBIANITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS14_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x185A4F20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianItemIconBtnWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 55869;
+	inline static constexpr unsigned int UISuibianItemIconBtnWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 45836;
 
 	class UISuibianItemIconBtnWidgetController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UISuibianItemIconBtnWidgetController* __4__this; // 0x10
-		::System::Action* customTipHandle; // 0x18
-		::System::Boolean isShowTip; // 0x20
-		::System::Int32 itemID; // 0x24
+		::System::Action* customTipHandle; // 0x10
+		::MoleMole::UISuibianItemIconBtnWidgetController* __4__this; // 0x18
+		::System::Int32 itemID; // 0x20
+		::System::Boolean isShowTip; // 0x24
 
 		::System::Void _ctor()
 		{

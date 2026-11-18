@@ -1,72 +1,72 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-#include "unitysdk/System/Span_1.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 
 namespace System { class String; }
 
-#define MESSAGEPACK_LZ4_LZ4CODEC_ASSERT_OFFSET UNITYSDK_OFFSET(0x1D05C560)
-#define MESSAGEPACK_LZ4_LZ4CODEC_BLOCKCOPY32_OFFSET UNITYSDK_OFFSET(0x1D063D40)
-#define MESSAGEPACK_LZ4_LZ4CODEC_BLOCKCOPY64_OFFSET UNITYSDK_OFFSET(0x1D063DA0)
-#define MESSAGEPACK_LZ4_LZ4CODEC_BLOCKCOPY_OFFSET UNITYSDK_OFFSET(0x1D05D090)
-#define MESSAGEPACK_LZ4_LZ4CODEC_CHECKARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1D05D9D0)
-#define MESSAGEPACK_LZ4_LZ4CODEC_COPY4_OFFSET UNITYSDK_OFFSET(0x1D05CD20)
-#define MESSAGEPACK_LZ4_LZ4CODEC_COPY8_OFFSET UNITYSDK_OFFSET(0x1D05CE40)
-#define MESSAGEPACK_LZ4_LZ4CODEC_DECODE32SAFE_OFFSET UNITYSDK_OFFSET(0x1D05C380)
-#define MESSAGEPACK_LZ4_LZ4CODEC_DECODE64SAFE_OFFSET UNITYSDK_OFFSET(0x1D05C470)
-#define MESSAGEPACK_LZ4_LZ4CODEC_DECODE_1_OFFSET UNITYSDK_OFFSET(0x1D0634D0)
-#define MESSAGEPACK_LZ4_LZ4CODEC_DECODE_OFFSET UNITYSDK_OFFSET(0x1D05C310)
-#define MESSAGEPACK_LZ4_LZ4CODEC_ENCODE32SAFE_OFFSET UNITYSDK_OFFSET(0x1D05C0B0)
-#define MESSAGEPACK_LZ4_LZ4CODEC_ENCODE64SAFE_OFFSET UNITYSDK_OFFSET(0x1D05C1E0)
-#define MESSAGEPACK_LZ4_LZ4CODEC_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1D061900)
-#define MESSAGEPACK_LZ4_LZ4CODEC_ENCODE_OFFSET UNITYSDK_OFFSET(0x1D05C040)
-#define MESSAGEPACK_LZ4_LZ4CODEC_EQUAL2_OFFSET UNITYSDK_OFFSET(0x1D05CB40)
-#define MESSAGEPACK_LZ4_LZ4CODEC_EQUAL4_OFFSET UNITYSDK_OFFSET(0x1D05CBE0)
-#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESS64KCTX_32_OFFSET UNITYSDK_OFFSET(0x1D061AC0)
-#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESS64KCTX_64_OFFSET UNITYSDK_OFFSET(0x1D0620D0)
-#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESS64KCTX_SAFE32_OFFSET UNITYSDK_OFFSET(0x1D05DB60)
-#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESS64KCTX_SAFE64_OFFSET UNITYSDK_OFFSET(0x1D05F360)
-#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESSCTX_32_OFFSET UNITYSDK_OFFSET(0x1D062780)
-#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESSCTX_64_OFFSET UNITYSDK_OFFSET(0x1D062DF0)
-#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESSCTX_SAFE32_OFFSET UNITYSDK_OFFSET(0x1D05E700)
-#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESSCTX_SAFE64_OFFSET UNITYSDK_OFFSET(0x1D05FF20)
-#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_32_OFFSET UNITYSDK_OFFSET(0x1D063610)
-#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_64_OFFSET UNITYSDK_OFFSET(0x1D063960)
-#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_SAFE32_OFFSET UNITYSDK_OFFSET(0x1D060B90)
-#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_SAFE64_OFFSET UNITYSDK_OFFSET(0x1D061240)
-#define MESSAGEPACK_LZ4_LZ4CODEC_MAXIMUMOUTPUTLENGTH_OFFSET UNITYSDK_OFFSET(0x1D063E20)
-#define MESSAGEPACK_LZ4_LZ4CODEC_PEEK2_OFFSET UNITYSDK_OFFSET(0x1D05C610)
-#define MESSAGEPACK_LZ4_LZ4CODEC_PEEK4_OFFSET UNITYSDK_OFFSET(0x1D05C670)
-#define MESSAGEPACK_LZ4_LZ4CODEC_POKE2_OFFSET UNITYSDK_OFFSET(0x1D05C5C0)
-#define MESSAGEPACK_LZ4_LZ4CODEC_SECURECOPY_OFFSET UNITYSDK_OFFSET(0x1D05D730)
-#define MESSAGEPACK_LZ4_LZ4CODEC_WILDCOPY_OFFSET UNITYSDK_OFFSET(0x1D05D4E0)
-#define MESSAGEPACK_LZ4_LZ4CODEC_XOR4_OFFSET UNITYSDK_OFFSET(0x1D05C710)
-#define MESSAGEPACK_LZ4_LZ4CODEC_XOR8_OFFSET UNITYSDK_OFFSET(0x1D05C860)
-#define MESSAGEPACK_LZ4_LZ4CODEC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D063E40)
+#define MESSAGEPACK_LZ4_LZ4CODEC_ASSERT_OFFSET UNITYSDK_OFFSET(0x1D5D68D0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_BLOCKCOPY32_OFFSET UNITYSDK_OFFSET(0x1D5DE0B0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_BLOCKCOPY64_OFFSET UNITYSDK_OFFSET(0x1D5DE110)
+#define MESSAGEPACK_LZ4_LZ4CODEC_BLOCKCOPY_OFFSET UNITYSDK_OFFSET(0x1D5D7400)
+#define MESSAGEPACK_LZ4_LZ4CODEC_CHECKARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1D5D7D40)
+#define MESSAGEPACK_LZ4_LZ4CODEC_COPY4_OFFSET UNITYSDK_OFFSET(0x1D5D7090)
+#define MESSAGEPACK_LZ4_LZ4CODEC_COPY8_OFFSET UNITYSDK_OFFSET(0x1D5D71B0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_DECODE32SAFE_OFFSET UNITYSDK_OFFSET(0x1D5D66F0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_DECODE64SAFE_OFFSET UNITYSDK_OFFSET(0x1D5D67E0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_DECODE_1_OFFSET UNITYSDK_OFFSET(0x1D5DD840)
+#define MESSAGEPACK_LZ4_LZ4CODEC_DECODE_OFFSET UNITYSDK_OFFSET(0x1D5D6680)
+#define MESSAGEPACK_LZ4_LZ4CODEC_ENCODE32SAFE_OFFSET UNITYSDK_OFFSET(0x1D5D6420)
+#define MESSAGEPACK_LZ4_LZ4CODEC_ENCODE64SAFE_OFFSET UNITYSDK_OFFSET(0x1D5D6550)
+#define MESSAGEPACK_LZ4_LZ4CODEC_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1D5DBC70)
+#define MESSAGEPACK_LZ4_LZ4CODEC_ENCODE_OFFSET UNITYSDK_OFFSET(0x1D5D63B0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_EQUAL2_OFFSET UNITYSDK_OFFSET(0x1D5D6EB0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_EQUAL4_OFFSET UNITYSDK_OFFSET(0x1D5D6F50)
+#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESS64KCTX_32_OFFSET UNITYSDK_OFFSET(0x1D5DBE30)
+#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESS64KCTX_64_OFFSET UNITYSDK_OFFSET(0x1D5DC440)
+#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESS64KCTX_SAFE32_OFFSET UNITYSDK_OFFSET(0x1D5D7ED0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESS64KCTX_SAFE64_OFFSET UNITYSDK_OFFSET(0x1D5D96D0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESSCTX_32_OFFSET UNITYSDK_OFFSET(0x1D5DCAF0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESSCTX_64_OFFSET UNITYSDK_OFFSET(0x1D5DD160)
+#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESSCTX_SAFE32_OFFSET UNITYSDK_OFFSET(0x1D5D8A70)
+#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESSCTX_SAFE64_OFFSET UNITYSDK_OFFSET(0x1D5DA290)
+#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_32_OFFSET UNITYSDK_OFFSET(0x1D5DD980)
+#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_64_OFFSET UNITYSDK_OFFSET(0x1D5DDCD0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_SAFE32_OFFSET UNITYSDK_OFFSET(0x1D5DAF00)
+#define MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_SAFE64_OFFSET UNITYSDK_OFFSET(0x1D5DB5B0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_MAXIMUMOUTPUTLENGTH_OFFSET UNITYSDK_OFFSET(0x1D5DE190)
+#define MESSAGEPACK_LZ4_LZ4CODEC_PEEK2_OFFSET UNITYSDK_OFFSET(0x1D5D6980)
+#define MESSAGEPACK_LZ4_LZ4CODEC_PEEK4_OFFSET UNITYSDK_OFFSET(0x1D5D69E0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_POKE2_OFFSET UNITYSDK_OFFSET(0x1D5D6930)
+#define MESSAGEPACK_LZ4_LZ4CODEC_SECURECOPY_OFFSET UNITYSDK_OFFSET(0x1D5D7AA0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_WILDCOPY_OFFSET UNITYSDK_OFFSET(0x1D5D7850)
+#define MESSAGEPACK_LZ4_LZ4CODEC_XOR4_OFFSET UNITYSDK_OFFSET(0x1D5D6A80)
+#define MESSAGEPACK_LZ4_LZ4CODEC_XOR8_OFFSET UNITYSDK_OFFSET(0x1D5D6BD0)
+#define MESSAGEPACK_LZ4_LZ4CODEC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5DE1B0)
 
 namespace MessagePack::LZ4
 {
-	inline static constexpr unsigned int LZ4Codec_TypeDefinitionIndex = 31328;
+	inline static constexpr unsigned int LZ4Codec_TypeDefinitionIndex = 29736;
 
 	class LZ4Codec : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_DEBRUIJN_TABLE_64()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LZ4Codec_TypeDefinitionIndex)->GetStaticField(0x25A90);
-		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_DEBRUIJN_TABLE_32()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LZ4Codec_TypeDefinitionIndex)->GetStaticField(0x25A98);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LZ4Codec_TypeDefinitionIndex)->GetStaticField(0x271D0);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_DEBRUIJN_TABLE_64()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LZ4Codec_TypeDefinitionIndex)->GetStaticField(0x271D8);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_DECODER_TABLE_64()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LZ4Codec_TypeDefinitionIndex)->GetStaticField(0x25AA0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LZ4Codec_TypeDefinitionIndex)->GetStaticField(0x271E0);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_DECODER_TABLE_32()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LZ4Codec_TypeDefinitionIndex)->GetStaticField(0x25AA8);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LZ4Codec_TypeDefinitionIndex)->GetStaticField(0x271E8);
 		}
 		// static const ::System::Int32 MEMORY_USAGE = 0xC; // 0x0
 		// static const ::System::Int32 NOTCOMPRESSIBLE_DETECTIONLEVEL = 0x6; // 0x0
@@ -230,54 +230,54 @@ namespace MessagePack::LZ4
 			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_SAFE64_OFFSET))(src, dst, src_0, dst_0, dst_len);
 		}
 
-		static ::System::Int32 Encode_1(::System::ReadOnlySpan_1<::System::Byte> input, ::System::Span_1<::System::Byte> output)
+		static ::System::Int32 Encode_1(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Byte> input, ::System::Span_1_9011FAD97750D224<::System::Byte> output)
 		{
-			return ((::System::Int32(*)(::System::ReadOnlySpan_1<::System::Byte>, ::System::Span_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_ENCODE_1_OFFSET))(input, output);
+			return ((::System::Int32(*)(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Byte>, ::System::Span_1_9011FAD97750D224<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_ENCODE_1_OFFSET))(input, output);
 		}
 
-		static ::System::Int32 Decode_1(::System::ReadOnlySpan_1<::System::Byte> input, ::System::Span_1<::System::Byte> output)
+		static ::System::Int32 Decode_1(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Byte> input, ::System::Span_1_9011FAD97750D224<::System::Byte> output)
 		{
-			return ((::System::Int32(*)(::System::ReadOnlySpan_1<::System::Byte>, ::System::Span_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_DECODE_1_OFFSET))(input, output);
+			return ((::System::Int32(*)(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Byte>, ::System::Span_1_9011FAD97750D224<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_DECODE_1_OFFSET))(input, output);
 		}
 
-		static ::System::Int32 LZ4_compressCtx_32(::System::UInt32* hash_table, ::System::Byte* src, ::System::Byte* dst, ::System::Int32 src_len, ::System::Int32 dst_maxlen)
+		static ::System::Int32 LZ4_compressCtx_32(::PVOID hash_table, ::PVOID src, ::PVOID dst, ::System::Int32 src_len, ::System::Int32 dst_maxlen)
 		{
-			return ((::System::Int32(*)(::System::UInt32*, ::System::Byte*, ::System::Byte*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESSCTX_32_OFFSET))(hash_table, src, dst, src_len, dst_maxlen);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESSCTX_32_OFFSET))(hash_table, src, dst, src_len, dst_maxlen);
 		}
 
-		static ::System::Int32 LZ4_compress64kCtx_32(::System::UInt16* hash_table, ::System::Byte* src, ::System::Byte* dst, ::System::Int32 src_len, ::System::Int32 dst_maxlen)
+		static ::System::Int32 LZ4_compress64kCtx_32(::PVOID hash_table, ::PVOID src, ::PVOID dst, ::System::Int32 src_len, ::System::Int32 dst_maxlen)
 		{
-			return ((::System::Int32(*)(::System::UInt16*, ::System::Byte*, ::System::Byte*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESS64KCTX_32_OFFSET))(hash_table, src, dst, src_len, dst_maxlen);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESS64KCTX_32_OFFSET))(hash_table, src, dst, src_len, dst_maxlen);
 		}
 
-		static ::System::Int32 LZ4_uncompress_32(::System::Byte* src, ::System::Byte* dst, ::System::Int32 dst_len)
+		static ::System::Int32 LZ4_uncompress_32(::PVOID src, ::PVOID dst, ::System::Int32 dst_len)
 		{
-			return ((::System::Int32(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_32_OFFSET))(src, dst, dst_len);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_32_OFFSET))(src, dst, dst_len);
 		}
 
-		static ::System::Void BlockCopy32(::System::Byte* src, ::System::Byte* dst, ::System::Int32 len)
+		static ::System::Void BlockCopy32(::PVOID src, ::PVOID dst, ::System::Int32 len)
 		{
-			return ((::System::Void(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_BLOCKCOPY32_OFFSET))(src, dst, len);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_BLOCKCOPY32_OFFSET))(src, dst, len);
 		}
 
-		static ::System::Int32 LZ4_compressCtx_64(::System::UInt32* hash_table, ::System::Byte* src, ::System::Byte* dst, ::System::Int32 src_len, ::System::Int32 dst_maxlen)
+		static ::System::Int32 LZ4_compressCtx_64(::PVOID hash_table, ::PVOID src, ::PVOID dst, ::System::Int32 src_len, ::System::Int32 dst_maxlen)
 		{
-			return ((::System::Int32(*)(::System::UInt32*, ::System::Byte*, ::System::Byte*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESSCTX_64_OFFSET))(hash_table, src, dst, src_len, dst_maxlen);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESSCTX_64_OFFSET))(hash_table, src, dst, src_len, dst_maxlen);
 		}
 
-		static ::System::Int32 LZ4_compress64kCtx_64(::System::UInt16* hash_table, ::System::Byte* src, ::System::Byte* dst, ::System::Int32 src_len, ::System::Int32 dst_maxlen)
+		static ::System::Int32 LZ4_compress64kCtx_64(::PVOID hash_table, ::PVOID src, ::PVOID dst, ::System::Int32 src_len, ::System::Int32 dst_maxlen)
 		{
-			return ((::System::Int32(*)(::System::UInt16*, ::System::Byte*, ::System::Byte*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESS64KCTX_64_OFFSET))(hash_table, src, dst, src_len, dst_maxlen);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_COMPRESS64KCTX_64_OFFSET))(hash_table, src, dst, src_len, dst_maxlen);
 		}
 
-		static ::System::Int32 LZ4_uncompress_64(::System::Byte* src, ::System::Byte* dst, ::System::Int32 dst_len)
+		static ::System::Int32 LZ4_uncompress_64(::PVOID src, ::PVOID dst, ::System::Int32 dst_len)
 		{
-			return ((::System::Int32(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_64_OFFSET))(src, dst, dst_len);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_LZ4_UNCOMPRESS_64_OFFSET))(src, dst, dst_len);
 		}
 
-		static ::System::Void BlockCopy64(::System::Byte* src, ::System::Byte* dst, ::System::Int32 len)
+		static ::System::Void BlockCopy64(::PVOID src, ::PVOID dst, ::System::Int32 len)
 		{
-			return ((::System::Void(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_BLOCKCOPY64_OFFSET))(src, dst, len);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_LZ4_LZ4CODEC_BLOCKCOPY64_OFFSET))(src, dst, len);
 		}
 
 		static ::System::Int32 MaximumOutputLength(::System::Int32 inputLength)

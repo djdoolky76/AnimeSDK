@@ -1,26 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/VisualEnvironmentE_Quality.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
+#include "unitysdk/UnityEngine/Color.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTSHAFTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D6FE540)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTSHAFTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FE780)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTSHAFTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D721D00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTSHAFTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D721F40)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int LightShaftConfig_TypeDefinitionIndex = 27580;
+	inline static constexpr unsigned int LightShaftConfig_TypeDefinitionIndex = 26487;
 
-	class LightShaftConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::LightShaftConfig*>
+	class LightShaftConfig
 	{
 	public:
 		::System::Boolean lightShaft; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single lightShaftThreshold; // 0x1C
 		::System::Single lightShaftIntensity; // 0x20
 		::UnityEngine::Color lightShaftColor; // 0x24
 		::System::Single lightShaftLength; // 0x34
 		::System::Single lightShaftFadeLength; // 0x38
 		::System::Boolean lightShaftBlur; // 0x3C
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Rendering::Universal::VisualEnvironmentE_Quality lightShaftRTQuality; // 0x40
 		::UnityEngine::Rendering::Universal::VisualEnvironmentE_Quality lightShaftSampleQuality; // 0x44
 

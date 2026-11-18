@@ -3,7 +3,7 @@
 
 namespace PathCreation
 {
-	inline static constexpr unsigned int EndOfPathInstruction_TypeDefinitionIndex = 38105;
+	inline static constexpr unsigned int EndOfPathInstruction_TypeDefinitionIndex = 36107;
 
 	enum class EndOfPathInstruction : ::System::Int32
 	{

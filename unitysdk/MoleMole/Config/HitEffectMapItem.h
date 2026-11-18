@@ -6,21 +6,21 @@
 #include "unitysdk/MoleMole/Config/CharacterAnimatorStateType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_MATCHANIMATORSTATE_OFFSET UNITYSDK_OFFSET(0x1A4BCAC0)
-#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_MATCH_OFFSET UNITYSDK_OFFSET(0x1A4BC9F0)
-#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4BCB10)
+#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_MATCHANIMATORSTATE_OFFSET UNITYSDK_OFFSET(0x16543B90)
+#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM_MATCH_OFFSET UNITYSDK_OFFSET(0x16543AC0)
+#define MOLEMOLE_CONFIG_HITEFFECTMAPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16543BE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HitEffectMapItem_TypeDefinitionIndex = 72299;
+	inline static constexpr unsigned int HitEffectMapItem_TypeDefinitionIndex = 48333;
 
 	class HitEffectMapItem : public ::System::Object
 	{
 	public:
 		::MoleMole::Config::CharacterAnimatorStateType animatorState; // 0x10
 		::MoleMole::Config::AnimatorAirHitType attackFrameAirHitType; // 0x14
-		::MoleMole::Config::AnimatorGroundHitType attackFrameGroundHitType; // 0x18
-		::MoleMole::Config::AnimatorHitEffect attackFrameHitEffect; // 0x1C
+		::MoleMole::Config::AnimatorHitEffect attackFrameHitEffect; // 0x18
+		::MoleMole::Config::AnimatorGroundHitType attackFrameGroundHitType; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -9,18 +9,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATORZONEPARRYSOLO_ACTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16C32690)
+#define MOLEMOLE_CONFIG_ANIMATORZONEPARRYSOLO_ACTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18B8B080)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneParrySolo_ActionGroup_TypeDefinitionIndex = 88115;
+	inline static constexpr unsigned int AnimatorZoneParrySolo_ActionGroup_TypeDefinitionIndex = 54533;
 
 	class AnimatorZoneParrySolo_ActionGroup : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::String*>* animTagList; // 0x10
-		::System::Nullable_1<::MoleMole::Config::HitStrengthType> hitStrengthType; // 0x18
-		::System::Nullable_1<::MoleMole::Config::HitDataType> hitType; // 0x20
+		::System::Nullable_1<::MoleMole::Config::HitDataType> hitType; // 0x18
+		::System::Nullable_1<::MoleMole::Config::HitStrengthType> hitStrengthType; // 0x20
 		::MoleMole::Config::AnimatorZoneParrySolo_RotateType rotateType; // 0x28
 
 		::System::Void _ctor()

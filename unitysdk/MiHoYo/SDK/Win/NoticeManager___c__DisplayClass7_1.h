@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 
 namespace MiHoYo::SDK { class NetworkResponseModel; }
-namespace MiHoYo::SDK::Win { class NoticeManager___c__DisplayClass7_0; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_1__CHECKPOPNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x1CFE92A0)
-#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFE9290)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_1__CHECKPOPNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x1D518CA0)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1D518C90)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int NoticeManager___c__DisplayClass7_1_TypeDefinitionIndex = 21494;
+	inline static constexpr unsigned int NoticeManager___c__DisplayClass7_1_TypeDefinitionIndex = 20694;
 
+	template <typename T>
 	class NoticeManager___c__DisplayClass7_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::NoticeManager___c__DisplayClass7_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::String* requestLang; // 0x18
 
 		::System::Void _ctor()

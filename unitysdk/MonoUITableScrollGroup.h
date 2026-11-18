@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MonoUITableScrollV2_ScrollMeta.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/NAPScrollView/DataStruct/ScrollMeta.h"
 
 class MonoUITableScrollV2;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MONOUITABLESCROLLGROUP_ADDSCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x11A327E0)
-#define MONOUITABLESCROLLGROUP_GET_SCROLLVIEWLIST_OFFSET UNITYSDK_OFFSET(0x11A323F0)
-#define MONOUITABLESCROLLGROUP_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x11A325F0)
-#define MONOUITABLESCROLLGROUP_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11A32400)
-#define MONOUITABLESCROLLGROUP_ONSCROLL_OFFSET UNITYSDK_OFFSET(0x11A32AA0)
-#define MONOUITABLESCROLLGROUP_REMOVESCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x11A32940)
-#define MONOUITABLESCROLLGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x11A32CE0)
+#define MONOUITABLESCROLLGROUP_ADDSCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x18F849A0)
+#define MONOUITABLESCROLLGROUP_GET_SCROLLVIEWLIST_OFFSET UNITYSDK_OFFSET(0x18F845B0)
+#define MONOUITABLESCROLLGROUP_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18F847B0)
+#define MONOUITABLESCROLLGROUP_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18F845C0)
+#define MONOUITABLESCROLLGROUP_ONSCROLL_OFFSET UNITYSDK_OFFSET(0x18F84C60)
+#define MONOUITABLESCROLLGROUP_REMOVESCROLLVIEW_OFFSET UNITYSDK_OFFSET(0x18F84B00)
+#define MONOUITABLESCROLLGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18F84DF0)
 
-inline static constexpr unsigned int MonoUITableScrollGroup_TypeDefinitionIndex = 45126;
+inline static constexpr unsigned int MonoUITableScrollGroup_TypeDefinitionIndex = 76459;
 
 class MonoUITableScrollGroup : public ::UnityEngine::MonoBehaviour
 {
@@ -52,8 +52,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MonoUITableScrollV2*))((::PBYTE)hIl2Cpp + MONOUITABLESCROLLGROUP_REMOVESCROLLVIEW_OFFSET))(this, scrollView);
 	}
 
-	::System::Void OnScroll(::MonoUITableScrollV2_ScrollMeta scrollMeta)
+	::System::Void OnScroll(::NAPScrollView::DataStruct::ScrollMeta scrollMeta)
 	{
-		return ((::System::Void(*)(::PVOID, ::MonoUITableScrollV2_ScrollMeta))((::PBYTE)hIl2Cpp + MONOUITABLESCROLLGROUP_ONSCROLL_OFFSET))(this, scrollMeta);
+		return ((::System::Void(*)(::PVOID, ::NAPScrollView::DataStruct::ScrollMeta))((::PBYTE)hIl2Cpp + MONOUITABLESCROLLGROUP_ONSCROLL_OFFSET))(this, scrollMeta);
 	}
 };

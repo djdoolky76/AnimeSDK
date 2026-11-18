@@ -5,12 +5,12 @@
 namespace RootMotion::FinalIK { class VirtualBone; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_VIRTUALBONEHIERARCHY___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F143910)
-#define ROOTMOTION_FINALIK_VIRTUALBONEHIERARCHY___C__DISPLAYCLASS6_0__FINDBONE_B__0_OFFSET UNITYSDK_OFFSET(0x1F143920)
+#define ROOTMOTION_FINALIK_VIRTUALBONEHIERARCHY___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5173C0)
+#define ROOTMOTION_FINALIK_VIRTUALBONEHIERARCHY___C__DISPLAYCLASS6_0__FINDBONE_B__0_OFFSET UNITYSDK_OFFSET(0x1F5173D0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int VirtualBoneHierarchy___c__DisplayClass6_0_TypeDefinitionIndex = 38853;
+	inline static constexpr unsigned int VirtualBoneHierarchy___c__DisplayClass6_0_TypeDefinitionIndex = 36775;
 
 	class VirtualBoneHierarchy___c__DisplayClass6_0 : public ::System::Object
 	{

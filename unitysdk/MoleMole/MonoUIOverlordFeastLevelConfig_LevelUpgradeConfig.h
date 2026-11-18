@@ -4,16 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOUIOVERLORDFEASTLEVELCONFIG_LEVELUPGRADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13855340)
+#define MOLEMOLE_MONOUIOVERLORDFEASTLEVELCONFIG_LEVELUPGRADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x139FAC30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIOverlordFeastLevelConfig_LevelUpgradeConfig_TypeDefinitionIndex = 80990;
+	inline static constexpr unsigned int MonoUIOverlordFeastLevelConfig_LevelUpgradeConfig_TypeDefinitionIndex = 88946;
 
 	class MonoUIOverlordFeastLevelConfig_LevelUpgradeConfig : public ::System::Object
 	{
 	public:
 		::System::Int32 Level; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* LevelUpgradeAnimName; // 0x18
 		::System::Single progressAnimDelay; // 0x20
 

@@ -7,26 +7,26 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { template <typename T> class ObjectPool_1; }
 
-#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x1E6C86D0)
-#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE_REGISTERTOSCOPE_OFFSET UNITYSDK_OFFSET(0x1E6C89F0)
-#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E6C87B0)
-#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6C8B90)
-#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C8B80)
+#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x1E9519A0)
+#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE_REGISTERTOSCOPE_OFFSET UNITYSDK_OFFSET(0x1E951CC0)
+#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E951A80)
+#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E951E60)
+#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E951E50)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int LayoutRebuilder_DelayScope_TypeDefinitionIndex = 19258;
+	inline static constexpr unsigned int LayoutRebuilder_DelayScope_TypeDefinitionIndex = 18412;
 
 	class LayoutRebuilder_DelayScope : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Stack_1<::UnityEngine::UI::LayoutRebuilder_DelayScope*>** StaticGet__scopes()
+		static ::UnityEngine::UI::ObjectPool_1<::System::Object*>** StaticGet_s_delayScopes()
 		{
-			return (::System::Collections::Generic::Stack_1<::UnityEngine::UI::LayoutRebuilder_DelayScope*>**)Il2CppClass::FromTypeDefinitionIndex(LayoutRebuilder_DelayScope_TypeDefinitionIndex)->GetStaticField(0x87F0);
+			return (::UnityEngine::UI::ObjectPool_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(LayoutRebuilder_DelayScope_TypeDefinitionIndex)->GetStaticField(0x87E0);
 		}
-		static ::UnityEngine::UI::ObjectPool_1<::UnityEngine::UI::LayoutRebuilder_DelayScope*>** StaticGet_s_delayScopes()
+		static ::System::Collections::Generic::Stack_1<::System::Object*>** StaticGet__scopes()
 		{
-			return (::UnityEngine::UI::ObjectPool_1<::UnityEngine::UI::LayoutRebuilder_DelayScope*>**)Il2CppClass::FromTypeDefinitionIndex(LayoutRebuilder_DelayScope_TypeDefinitionIndex)->GetStaticField(0x87F8);
+			return (::System::Collections::Generic::Stack_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(LayoutRebuilder_DelayScope_TypeDefinitionIndex)->GetStaticField(0x87E8);
 		}
 		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* _dirtyRectTransforms; // 0x10
 

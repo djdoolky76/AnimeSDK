@@ -6,11 +6,11 @@ namespace MoleMole::Battle { class AnimatorParamControl; }
 namespace MoleMole::Cameras { class OverShoulderCameraConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL__CTOR_OFFSET UNITYSDK_OFFSET(0x172B3940)
+#define MOLEMOLE_CONFIG_CONFIGVENTCRAWL__CTOR_OFFSET UNITYSDK_OFFSET(0x1641EDF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigVentCrawl_TypeDefinitionIndex = 44550;
+	inline static constexpr unsigned int ConfigVentCrawl_TypeDefinitionIndex = 40697;
 
 	class ConfigVentCrawl : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -24,12 +24,14 @@ namespace MoleMole::Config
 		::MoleMole::Battle::AnimatorParamControl* StartAnimatorParamControl; // 0x78
 		::MoleMole::Battle::AnimatorParamControl* EndAnimatorParamControl; // 0x80
 		::System::Single StartActingDelayTime; // 0x88
+		::System::Byte _padding0[0x4];
 		::System::String* StartEndDitherKey; // 0x90
 		::System::Single PathPointDistanceThreshold; // 0x98
 		::System::Single MoveInputAngleThreshold; // 0x9C
 		::System::Single CheckUpslopeAngleThreshold; // 0xA0
 		::System::Single CheckDownslopeAngleThreshold; // 0xA4
 		::System::Single CheckTurnXZAngleThreshold; // 0xA8
+		::System::Byte _padding1[0x4];
 		::System::String* EnterPipeSoundAction; // 0xB0
 		::System::String* ExitPipeCommonSoundAction; // 0xB8
 		::System::String* ExitPipeClimbSoundAction; // 0xC0

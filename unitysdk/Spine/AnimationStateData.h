@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/AnimationStateData_AnimationPair.h"
 #include "unitysdk/System/Object.h"
 
 namespace Spine { class Animation; }
@@ -8,23 +7,23 @@ namespace Spine { class SkeletonData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SPINE_ANIMATIONSTATEDATA_GETMIX_OFFSET UNITYSDK_OFFSET(0x1FAEC850)
-#define SPINE_ANIMATIONSTATEDATA_GET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x1FAEC420)
-#define SPINE_ANIMATIONSTATEDATA_GET_SKELETONDATA_OFFSET UNITYSDK_OFFSET(0x1FAEC410)
-#define SPINE_ANIMATIONSTATEDATA_SETMIX_1_OFFSET UNITYSDK_OFFSET(0x1FAEC740)
-#define SPINE_ANIMATIONSTATEDATA_SETMIX_OFFSET UNITYSDK_OFFSET(0x1FAEC5A0)
-#define SPINE_ANIMATIONSTATEDATA_SET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x1FAEC430)
-#define SPINE_ANIMATIONSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAEC440)
+#define SPINE_ANIMATIONSTATEDATA_GETMIX_OFFSET UNITYSDK_OFFSET(0x1FE5BC30)
+#define SPINE_ANIMATIONSTATEDATA_GET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x1FE5B800)
+#define SPINE_ANIMATIONSTATEDATA_GET_SKELETONDATA_OFFSET UNITYSDK_OFFSET(0x1FE5B7F0)
+#define SPINE_ANIMATIONSTATEDATA_SETMIX_1_OFFSET UNITYSDK_OFFSET(0x1FE5BB20)
+#define SPINE_ANIMATIONSTATEDATA_SETMIX_OFFSET UNITYSDK_OFFSET(0x1FE5B980)
+#define SPINE_ANIMATIONSTATEDATA_SET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x1FE5B810)
+#define SPINE_ANIMATIONSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE5B820)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AnimationStateData_TypeDefinitionIndex = 33478;
+	inline static constexpr unsigned int AnimationStateData_TypeDefinitionIndex = 32954;
 
 	class AnimationStateData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::Spine::AnimationStateData_AnimationPair, ::System::Single>* animationToMixTime; // 0x10
-		::Spine::SkeletonData* skeletonData; // 0x18
+		::Spine::SkeletonData* skeletonData; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Single>* animationToMixTime; // 0x18
 		::System::Single defaultMix; // 0x20
 
 		::System::Void _ctor(::Spine::SkeletonData* skeletonData)

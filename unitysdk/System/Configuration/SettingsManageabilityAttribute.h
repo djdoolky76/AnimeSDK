@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Configuration/SettingsManageability.h"
+#include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_CONFIGURATION_SETTINGSMANAGEABILITYATTRIBUTE_GET_MANAGEABILITY_OFFSET UNITYSDK_OFFSET(0x1D886260)
-#define SYSTEM_CONFIGURATION_SETTINGSMANAGEABILITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D886250)
+#define SYSTEM_CONFIGURATION_SETTINGSMANAGEABILITYATTRIBUTE_GET_MANAGEABILITY_OFFSET UNITYSDK_OFFSET(0x1DD33B90)
+#define SYSTEM_CONFIGURATION_SETTINGSMANAGEABILITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD33B80)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SettingsManageabilityAttribute_TypeDefinitionIndex = 4224;
+	inline static constexpr unsigned int SettingsManageabilityAttribute_TypeDefinitionIndex = 4223;
 
 	class SettingsManageabilityAttribute : public ::System::Attribute
 	{

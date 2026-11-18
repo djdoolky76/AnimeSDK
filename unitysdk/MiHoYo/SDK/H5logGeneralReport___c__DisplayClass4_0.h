@@ -6,20 +6,20 @@
 namespace MiHoYo::SDK { class H5logGeneralReport; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_H5LOGGENERALREPORT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFFE970)
-#define MIHOYO_SDK_H5LOGGENERALREPORT___C__DISPLAYCLASS4_0__LOGREPORTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1DFFE980)
+#define MIHOYO_SDK_H5LOGGENERALREPORT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F554670)
+#define MIHOYO_SDK_H5LOGGENERALREPORT___C__DISPLAYCLASS4_0__LOGREPORTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1F554680)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int H5logGeneralReport___c__DisplayClass4_0_TypeDefinitionIndex = 37523;
+	inline static constexpr unsigned int H5logGeneralReport___c__DisplayClass4_0_TypeDefinitionIndex = 35501;
 
 	class H5logGeneralReport___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::String* moduleType; // 0x10
-		::MiHoYo::SDK::H5logGeneralReport* __4__this; // 0x18
-		::System::String* eventName; // 0x20
-		::System::String* message; // 0x28
+		::MiHoYo::SDK::H5logGeneralReport* __4__this; // 0x10
+		::System::String* eventName; // 0x18
+		::System::String* message; // 0x20
+		::System::String* moduleType; // 0x28
 		::MiHoYo::SDK::H5logGeneralReport_LogLevel logLevel; // 0x30
 
 		::System::Void _ctor()

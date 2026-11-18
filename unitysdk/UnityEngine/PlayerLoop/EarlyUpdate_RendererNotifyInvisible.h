@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_RendererNotifyInvisible_TypeDefinitionIndex = 5553;
+	inline static constexpr unsigned int EarlyUpdate_RendererNotifyInvisible_TypeDefinitionIndex = 5556;
 
-	struct alignas(1) EarlyUpdate_RendererNotifyInvisible
+	struct alignas(4) EarlyUpdate_RendererNotifyInvisible
 	{
 	};
 }

@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/UI/Extension/NAP_Offset.h"
+#include "unitysdk/UnityEngine/Color32.h"
 
 namespace System { class Object; }
 
-#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x885A60)
-#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x885B60)
-#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x18B4D180)
-#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x18B4D300)
-#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x41EAF0)
-#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x885B70)
-#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x885BE0)
+#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x7E1940)
+#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x7E1A40)
+#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x194CDC00)
+#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x194CDD80)
+#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x3CF240)
+#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x7E1A50)
+#define UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x7E1AC0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int NAP_HighlightState_TypeDefinitionIndex = 65421;
+	inline static constexpr unsigned int NAP_HighlightState_TypeDefinitionIndex = 85951;
 
 	struct alignas(4) NAP_HighlightState
 	{
@@ -28,15 +28,19 @@ namespace UnityEngine::UI::Extension
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color32, ::UnityEngine::UI::Extension::NAP_Offset))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE__CTOR_OFFSET))(this, color, padding);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::UI::Extension::NAP_HighlightState lhs, ::UnityEngine::UI::Extension::NAP_HighlightState rhs)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::UI::Extension::NAP_HighlightState, ::UnityEngine::UI::Extension::NAP_HighlightState))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE_OP_EQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::UnityEngine::UI::Extension::NAP_HighlightState lhs, ::UnityEngine::UI::Extension::NAP_HighlightState rhs)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::UI::Extension::NAP_HighlightState, ::UnityEngine::UI::Extension::NAP_HighlightState))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_NAP_HIGHLIGHTSTATE_OP_INEQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* obj)
 		{

@@ -6,19 +6,20 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PROFILINGRECORDER_ECSRECORDER_ECSSNAPSHOT_TOJSON_OFFSET UNITYSDK_OFFSET(0xA685B0)
-#define PROFILINGRECORDER_ECSRECORDER_ECSSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA68560)
-#define PROFILINGRECORDER_ECSRECORDER_ECSSNAPSHOT___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA685C0)
+#define PROFILINGRECORDER_ECSRECORDER_ECSSNAPSHOT_TOJSON_OFFSET UNITYSDK_OFFSET(0x91F6C0)
+#define PROFILINGRECORDER_ECSRECORDER_ECSSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x91F670)
+#define PROFILINGRECORDER_ECSRECORDER_ECSSNAPSHOT___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x91F6D0)
 
 namespace ProfilingRecorder
 {
-	inline static constexpr unsigned int EcsRecorder_EcsSnapshot_TypeDefinitionIndex = 85712;
+	inline static constexpr unsigned int EcsRecorder_EcsSnapshot_TypeDefinitionIndex = 59130;
 
 	struct alignas(8) EcsRecorder_EcsSnapshot
 	{
 		::System::Int32 TotalComponentCount; // 0x10
 		::System::Int32 TotalArchetypeCount; // 0x14
 		::System::Int32 TotalEntityCount; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* ComponentCountByType; // 0x20
 		::System::DateTime Timestamp; // 0x28
 

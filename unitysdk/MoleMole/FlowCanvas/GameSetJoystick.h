@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_2.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B04850)
-#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x19B04D70)
-#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK__CTOR_OFFSET UNITYSDK_OFFSET(0x19B05150)
-#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x19B05170)
+#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8E1850)
+#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1A8E1D80)
+#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E2160)
+#define MOLEMOLE_FLOWCANVAS_GAMESETJOYSTICK___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1A8E2180)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int GameSetJoystick_TypeDefinitionIndex = 66627;
+	inline static constexpr unsigned int GameSetJoystick_TypeDefinitionIndex = 70877;
 
-	class GameSetJoystick : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::UnityEngine::Vector4, ::System::Single>
+	class GameSetJoystick
 	{
 	public:
 		static ::System::Nullable_1<::UnityEngine::Vector4>* StaticGet__savedSafeZone()
 		{
-			return (::System::Nullable_1<::UnityEngine::Vector4>*)Il2CppClass::FromTypeDefinitionIndex(GameSetJoystick_TypeDefinitionIndex)->GetStaticField(0x12CB0);
+			return (::System::Nullable_1<::UnityEngine::Vector4>*)Il2CppClass::FromTypeDefinitionIndex(GameSetJoystick_TypeDefinitionIndex)->GetStaticField(0x12920);
 		}
 		static ::System::Nullable_1<::System::Single>* StaticGet__savedKeepTime()
 		{
-			return (::System::Nullable_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(GameSetJoystick_TypeDefinitionIndex)->GetStaticField(0x12CC4);
+			return (::System::Nullable_1<::System::Single>*)Il2CppClass::FromTypeDefinitionIndex(GameSetJoystick_TypeDefinitionIndex)->GetStaticField(0x12934);
 		}
 
 		::System::Void _ctor()

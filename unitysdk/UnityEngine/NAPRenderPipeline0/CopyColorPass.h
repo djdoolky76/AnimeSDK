@@ -1,48 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/Downsampling.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 
 namespace System { class String; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_EXECUTECOPYCOLORPASS_OFFSET UNITYSDK_OFFSET(0x1EA8A860)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA8BB90)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_RELEASETEMPBUFFER_OFFSET UNITYSDK_OFFSET(0x1EA8BCA0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_SETLOCALRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1EA8A5A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA8BE50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_EXECUTECOPYCOLORPASS_OFFSET UNITYSDK_OFFSET(0x1ED82C60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1ED83F90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_RELEASETEMPBUFFER_OFFSET UNITYSDK_OFFSET(0x1ED840A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS_SETLOCALRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1ED829A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_COPYCOLORPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED84250)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CopyColorPass_TypeDefinitionIndex = 5821;
+	inline static constexpr unsigned int CopyColorPass_TypeDefinitionIndex = 5827;
 
 	class CopyColorPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_blurryTextureStrings()
+		static ::Il2CppArray<::System::Int32>** StaticGet_sizes()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x51E0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x50D0);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_blurryPing()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x51E8);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_sizes()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x51F0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x50D8);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_blurryPong()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x51F8);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x50E0);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_blurryTextureStrings()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x50E8);
 		}
 		static ::System::Boolean* StaticGet_s_TempMipBufferExist()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x2A30);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CopyColorPass_TypeDefinitionIndex)->GetStaticField(0x29B0);
 		}
 
 		static ::System::Void _cctor()

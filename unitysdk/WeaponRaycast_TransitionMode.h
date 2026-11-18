@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int WeaponRaycast_TransitionMode_TypeDefinitionIndex = 73655;
+inline static constexpr unsigned int WeaponRaycast_TransitionMode_TypeDefinitionIndex = 75265;
 
 enum class WeaponRaycast_TransitionMode : ::System::Int32
 {

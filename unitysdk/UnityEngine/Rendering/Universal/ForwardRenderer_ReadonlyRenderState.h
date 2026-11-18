@@ -3,12 +3,13 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/MaterialDebugMode.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/CameraData.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_READONLYRENDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA396A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_READONLYRENDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x91B710)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ForwardRenderer_ReadonlyRenderState_TypeDefinitionIndex = 27350;
+	inline static constexpr unsigned int ForwardRenderer_ReadonlyRenderState_TypeDefinitionIndex = 26408;
 
 	struct alignas(4) ForwardRenderer_ReadonlyRenderState
 	{
@@ -27,11 +28,9 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single fsrJitterSpread; // 0x1C
 		::UnityEngine::Vector4 dynamicScreenSize; // 0x20
 
-		/*
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::CameraData& cameraData, ::UnityEngine::NAPRenderPipeline0::MaterialDebugMode materialDebugMode)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::NAPRenderPipeline0::CameraData&, ::UnityEngine::NAPRenderPipeline0::MaterialDebugMode))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_FORWARDRENDERER_READONLYRENDERSTATE__CTOR_OFFSET))(this, cameraData, materialDebugMode);
 		}
-		*/
 	};
 }

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETVEHICLEHITCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B16BB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETVEHICLEHITCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B16C50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETVEHICLEHITCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8F3B60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETVEHICLEHITCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F3C00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetVehicleHitCount_TypeDefinitionIndex = 79288;
+	inline static constexpr unsigned int LD_GetVehicleHitCount_TypeDefinitionIndex = 89522;
 
-	class LD_GetVehicleHitCount : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Int32, ::MoleMole::Battle::Entity*>
+	class LD_GetVehicleHitCount
 	{
 	public:
 		::System::Void _ctor()

@@ -4,20 +4,20 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERAOVERRIDESCREENDAMPINGENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x16C2B4D0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERAOVERRIDESCREENDAMPINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x16C2B550)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERAOVERRIDESCREENDAMPINGENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x18B82EC0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTCAMERAOVERRIDESCREENDAMPINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x18B82F40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventCameraOverrideScreenDampingEntry_TypeDefinitionIndex = 68155;
+	inline static constexpr unsigned int AnimatorEventCameraOverrideScreenDampingEntry_TypeDefinitionIndex = 40607;
 
 	class AnimatorEventCameraOverrideScreenDampingEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
-		::System::Single VerticalDampingValue; // 0x58
-		::System::Boolean EnableVerticalDamping; // 0x5C
-		::System::Boolean EnableHorizontalDamping; // 0x5D
-		::System::Single HorizontalDampingValue; // 0x60
+		::System::Single HorizontalDampingValue; // 0x58
+		::System::Single VerticalDampingValue; // 0x5C
+		::System::Boolean EnableHorizontalDamping; // 0x60
+		::System::Boolean EnableVerticalDamping; // 0x61
 
 		::System::Void _ctor()
 		{

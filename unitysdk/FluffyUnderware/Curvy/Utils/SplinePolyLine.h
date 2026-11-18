@@ -3,29 +3,30 @@
 #include "unitysdk/FluffyUnderware/Curvy/ThirdParty/LibTessDotNet/ContourOrientation.h"
 #include "unitysdk/FluffyUnderware/Curvy/Utils/SplinePolyLine_VertexCalculation.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Space.h"
 #include "unitysdk/ToolBuddy/Pooling/Collections/SubArrayList_1.h"
 #include "unitysdk/ToolBuddy/Pooling/Collections/SubArray_1.h"
-#include "unitysdk/UnityEngine/Space.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace FluffyUnderware::Curvy { class CurvySpline; }
 
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE_GETPOLYGON_OFFSET UNITYSDK_OFFSET(0x1F86F0F0)
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE_GETVERTEXLIST_OFFSET UNITYSDK_OFFSET(0x1F86EEB0)
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE_GETVERTICES_OFFSET UNITYSDK_OFFSET(0x1F86ECE0)
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE_GET_ISCLOSED_OFFSET UNITYSDK_OFFSET(0x1F86EB90)
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F86EB70)
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F86EB50)
-#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F86EB40)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE_GETPOLYGON_OFFSET UNITYSDK_OFFSET(0x1FC8A9E0)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE_GETVERTEXLIST_OFFSET UNITYSDK_OFFSET(0x1FC8A7A0)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE_GETVERTICES_OFFSET UNITYSDK_OFFSET(0x1FC8A5D0)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE_GET_ISCLOSED_OFFSET UNITYSDK_OFFSET(0x1FC8A480)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FC8A460)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1FC8A440)
+#define FLUFFYUNDERWARE_CURVY_UTILS_SPLINEPOLYLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC8A430)
 
 namespace FluffyUnderware::Curvy::Utils
 {
-	inline static constexpr unsigned int SplinePolyLine_TypeDefinitionIndex = 39689;
+	inline static constexpr unsigned int SplinePolyLine_TypeDefinitionIndex = 37638;
 
 	class SplinePolyLine : public ::System::Object
 	{
 	public:
 		::FluffyUnderware::Curvy::ThirdParty::LibTessDotNet::ContourOrientation Orientation; // 0x10
+		::System::Byte _padding0[0x4];
 		::FluffyUnderware::Curvy::CurvySpline* Spline; // 0x18
 		::FluffyUnderware::Curvy::Utils::SplinePolyLine_VertexCalculation VertexMode; // 0x20
 		::System::Single Angle; // 0x24

@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/HollowInteractEffectImpBase.h"
 
-class Class_1_32D1736C0D56C181;
+class PJGJHHPJEKD;
 
-#define MOLEMOLE_CONFIG_INTERACTPLAYSOUND_ONINTERACTINTERNAL_OFFSET UNITYSDK_OFFSET(0x16269EA0)
-#define MOLEMOLE_CONFIG_INTERACTPLAYSOUND_ONSTOP_OFFSET UNITYSDK_OFFSET(0x16269E50)
-#define MOLEMOLE_CONFIG_INTERACTPLAYSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1626A010)
+#define MOLEMOLE_CONFIG_INTERACTPLAYSOUND_ONINTERACTINTERNAL_OFFSET UNITYSDK_OFFSET(0x19B24620)
+#define MOLEMOLE_CONFIG_INTERACTPLAYSOUND_ONSTOP_OFFSET UNITYSDK_OFFSET(0x19B245D0)
+#define MOLEMOLE_CONFIG_INTERACTPLAYSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x19B247A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int InteractPlaySound_TypeDefinitionIndex = 41396;
+	inline static constexpr unsigned int InteractPlaySound_TypeDefinitionIndex = 53014;
 
 	class InteractPlaySound : public ::MoleMole::Config::HollowInteractEffectImpBase
 	{
@@ -22,14 +22,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INTERACTPLAYSOUND__CTOR_OFFSET))(this);
 		}
 
-		::System::Void OnStop(::Class_1_32D1736C0D56C181* context)
+		::System::Void OnStop(::PJGJHHPJEKD* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_32D1736C0D56C181*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INTERACTPLAYSOUND_ONSTOP_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::PJGJHHPJEKD*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INTERACTPLAYSOUND_ONSTOP_OFFSET))(this, context);
 		}
 
-		::System::Void OnInteractInternal(::Class_1_32D1736C0D56C181* context)
+		::System::Void OnInteractInternal(::PJGJHHPJEKD* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_32D1736C0D56C181*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INTERACTPLAYSOUND_ONINTERACTINTERNAL_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::PJGJHHPJEKD*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INTERACTPLAYSOUND_ONINTERACTINTERNAL_OFFSET))(this, context);
 		}
 	};
 }

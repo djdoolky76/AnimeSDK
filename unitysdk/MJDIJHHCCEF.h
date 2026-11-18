@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CGJEMKCKIJG.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+
+class CPABOPKIGAL;
+class HOFAIFGAHGJ;
+class LGAFMFNMCOG;
+class MKBBPOFGLOF;
+template <typename T> class KCMIFNGABDC_1;
+
+#define MJDIJHHCCEF_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0x12D8EE40)
+#define MJDIJHHCCEF_FEDNEKFMGNF_OFFSET UNITYSDK_OFFSET(0x12D8EBE0)
+#define MJDIJHHCCEF_GDEOPIBNOIN_OFFSET UNITYSDK_OFFSET(0x12D8F220)
+#define MJDIJHHCCEF_JFBDALLPLBA_OFFSET UNITYSDK_OFFSET(0x12D8F2B0)
+#define MJDIJHHCCEF_MLAAFFHCOJE_OFFSET UNITYSDK_OFFSET(0x12D8EA00)
+#define MJDIJHHCCEF__CTOR_OFFSET UNITYSDK_OFFSET(0x12D8F020)
+
+inline static constexpr unsigned int MJDIJHHCCEF_TypeDefinitionIndex = 86971;
+
+class MJDIJHHCCEF : public ::CGJEMKCKIJG
+{
+public:
+	::HOFAIFGAHGJ* LOJEMALELOH; // 0x18
+	::MKBBPOFGLOF* MDBJDMPDGND; // 0x20
+	::CPABOPKIGAL* LMDIMIIBPLD; // 0x28
+	::KCMIFNGABDC_1<::System::Int32>* FJMNMKPGFIF; // 0x30
+	::KCMIFNGABDC_1<::System::Boolean>* NFLLDIBOLJC; // 0x38
+	::KCMIFNGABDC_1<::System::Boolean>* HLOBCOLBFPL; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MJDIJHHCCEF__CTOR_OFFSET))(this);
+	}
+
+	::System::Void MLAAFFHCOJE(::LGAFMFNMCOG* ONBDAIKININ)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + MJDIJHHCCEF_MLAAFFHCOJE_OFFSET))(this, ONBDAIKININ);
+	}
+
+	::System::Void FEDNEKFMGNF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MJDIJHHCCEF_FEDNEKFMGNF_OFFSET))(this);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + MJDIJHHCCEF_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF);
+	}
+
+	::System::Void GDEOPIBNOIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MJDIJHHCCEF_GDEOPIBNOIN_OFFSET))(this);
+	}
+
+	::System::Void JFBDALLPLBA(::LGAFMFNMCOG* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + MJDIJHHCCEF_JFBDALLPLBA_OFFSET))(this, MIALFKCCCPI);
+	}
+};

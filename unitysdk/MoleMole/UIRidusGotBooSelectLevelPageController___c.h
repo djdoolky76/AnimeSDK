@@ -2,49 +2,49 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_1093;
-class Class_2_208CC9941471731A_714;
+class CJNGKDMBMDA;
+class FJIFILPGMCF;
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15184900)
-#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15184940)
-#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__ONSELECTLEVEL_B__57_0_OFFSET UNITYSDK_OFFSET(0x15184B30)
-#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__ONSELECTTAB_B__51_1_OFFSET UNITYSDK_OFFSET(0x15184A60)
-#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__ONSETPASSIVESKILLS_B__19_0_OFFSET UNITYSDK_OFFSET(0x15184950)
-#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__REFRESHPASSIVESKILLVIEW_B__23_0_OFFSET UNITYSDK_OFFSET(0x15184970)
-#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__REFRESHVIEW_B__27_0_OFFSET UNITYSDK_OFFSET(0x15184990)
+#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14CC5A40)
+#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14CC5A80)
+#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__ONSELECTLEVEL_B__57_0_OFFSET UNITYSDK_OFFSET(0x14CC5C90)
+#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__ONSELECTTAB_B__51_1_OFFSET UNITYSDK_OFFSET(0x14CC5BB0)
+#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__ONSETPASSIVESKILLS_B__19_0_OFFSET UNITYSDK_OFFSET(0x14CC5A90)
+#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__REFRESHPASSIVESKILLVIEW_B__23_0_OFFSET UNITYSDK_OFFSET(0x14CC5AB0)
+#define MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__REFRESHVIEW_B__27_0_OFFSET UNITYSDK_OFFSET(0x14CC5AD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex = 76796;
+	inline static constexpr unsigned int UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex = 77074;
 
 	class UIRidusGotBooSelectLevelPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIRidusGotBooSelectLevelPageController___c** StaticGet___9()
+		static ::System::Func_2<::FJIFILPGMCF*, ::System::Int32>** StaticGet___9__23_0()
 		{
-			return (::MoleMole::UIRidusGotBooSelectLevelPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x3A7F0);
+			return (::System::Func_2<::FJIFILPGMCF*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x3C620);
 		}
-		static ::System::Converter_2<::Class_2_208CC9941471731A_714*, ::System::Int32>** StaticGet___9__19_0()
+		static ::System::Converter_2<::FJIFILPGMCF*, ::System::Int32>** StaticGet___9__19_0()
 		{
-			return (::System::Converter_2<::Class_2_208CC9941471731A_714*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x3A7F8);
+			return (::System::Converter_2<::FJIFILPGMCF*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x3C628);
 		}
-		static ::System::Converter_2<::System::Int32, ::Class_2_208CC9941471731A_714*>** StaticGet___9__51_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Converter_2<::System::Int32, ::Class_2_208CC9941471731A_714*>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x3A800);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x3C630);
 		}
-		static ::System::Func_2<::Class_2_208CC9941471731A_714*, ::System::Int32>** StaticGet___9__23_0()
+		static ::System::Converter_2<::System::Int32, ::FJIFILPGMCF*>** StaticGet___9__51_1()
 		{
-			return (::System::Func_2<::Class_2_208CC9941471731A_714*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x3A808);
+			return (::System::Converter_2<::System::Int32, ::FJIFILPGMCF*>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x3C638);
 		}
-		static ::System::Converter_2<::System::Int32, ::Class_2_208CC9941471731A_1093*>** StaticGet___9__27_0()
+		static ::System::Converter_2<::System::Int32, ::FJIFILPGMCF*>** StaticGet___9__57_0()
 		{
-			return (::System::Converter_2<::System::Int32, ::Class_2_208CC9941471731A_1093*>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x3A810);
+			return (::System::Converter_2<::System::Int32, ::FJIFILPGMCF*>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x3C640);
 		}
-		static ::System::Converter_2<::System::Int32, ::Class_2_208CC9941471731A_714*>** StaticGet___9__57_0()
+		static ::System::Converter_2<::System::Int32, ::CJNGKDMBMDA*>** StaticGet___9__27_0()
 		{
-			return (::System::Converter_2<::System::Int32, ::Class_2_208CC9941471731A_714*>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x3A818);
+			return (::System::Converter_2<::System::Int32, ::CJNGKDMBMDA*>**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooSelectLevelPageController___c_TypeDefinitionIndex)->GetStaticField(0x3C648);
 		}
 
 		static ::System::Void _cctor()
@@ -57,29 +57,29 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _OnSetPassiveSkills_b__19_0(::Class_2_208CC9941471731A_714* x)
+		::System::Int32 _OnSetPassiveSkills_b__19_0(::FJIFILPGMCF* x)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_714*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__ONSETPASSIVESKILLS_B__19_0_OFFSET))(this, x);
+			return ((::System::Int32(*)(::PVOID, ::FJIFILPGMCF*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__ONSETPASSIVESKILLS_B__19_0_OFFSET))(this, x);
 		}
 
-		::System::Int32 _RefreshPassiveSkillView_b__23_0(::Class_2_208CC9941471731A_714* x)
+		::System::Int32 _RefreshPassiveSkillView_b__23_0(::FJIFILPGMCF* x)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_714*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__REFRESHPASSIVESKILLVIEW_B__23_0_OFFSET))(this, x);
+			return ((::System::Int32(*)(::PVOID, ::FJIFILPGMCF*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__REFRESHPASSIVESKILLVIEW_B__23_0_OFFSET))(this, x);
 		}
 
-		::Class_2_208CC9941471731A_1093* _RefreshView_b__27_0(::System::Int32 x)
+		::CJNGKDMBMDA* _RefreshView_b__27_0(::System::Int32 x)
 		{
-			return ((::Class_2_208CC9941471731A_1093*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__REFRESHVIEW_B__27_0_OFFSET))(this, x);
+			return ((::CJNGKDMBMDA*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__REFRESHVIEW_B__27_0_OFFSET))(this, x);
 		}
 
-		::Class_2_208CC9941471731A_714* _OnSelectTab_b__51_1(::System::Int32 x)
+		::FJIFILPGMCF* _OnSelectTab_b__51_1(::System::Int32 x)
 		{
-			return ((::Class_2_208CC9941471731A_714*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__ONSELECTTAB_B__51_1_OFFSET))(this, x);
+			return ((::FJIFILPGMCF*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__ONSELECTTAB_B__51_1_OFFSET))(this, x);
 		}
 
-		::Class_2_208CC9941471731A_714* _OnSelectLevel_b__57_0(::System::Int32 x)
+		::FJIFILPGMCF* _OnSelectLevel_b__57_0(::System::Int32 x)
 		{
-			return ((::Class_2_208CC9941471731A_714*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__ONSELECTLEVEL_B__57_0_OFFSET))(this, x);
+			return ((::FJIFILPGMCF*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIDUSGOTBOOSELECTLEVELPAGECONTROLLER___C__ONSELECTLEVEL_B__57_0_OFFSET))(this, x);
 		}
 	};
 }

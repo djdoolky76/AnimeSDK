@@ -8,11 +8,11 @@
 
 namespace MoleMole::Config::EffectPattern { class MonoEffectPluginFollowSoData_New; }
 
-#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG_PATTERNINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B562F60)
+#define MOLEMOLE_CONFIG_EFFECTPATTERNINFOCONFIG_PATTERNINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA46140)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EffectPatternInfoConfig_PatternInfoItem_TypeDefinitionIndex = 62743;
+	inline static constexpr unsigned int EffectPatternInfoConfig_PatternInfoItem_TypeDefinitionIndex = 64161;
 
 	class EffectPatternInfoConfig_PatternInfoItem : public ::System::Object
 	{
@@ -26,6 +26,7 @@ namespace MoleMole::Config
 		::System::Byte fullGoLOD; // 0x2B
 		::MoleMole::Config::EffectPatternInfoConfig_EffectType effectType; // 0x2C
 		::MoleMole::Config::EffectPatternInfoConfig_ParticleSystemFreqMode particleSystemFreqMode; // 0x30
+		::System::Byte _padding0[0x4];
 		::MoleMole::Config::EffectPattern::MonoEffectPluginFollowSoData_New* effectFollowData; // 0x38
 		::System::Boolean CanCarryIntoBlackCurtain; // 0x40
 		::System::Boolean ForbidSuspendByBlackCurtain; // 0x41

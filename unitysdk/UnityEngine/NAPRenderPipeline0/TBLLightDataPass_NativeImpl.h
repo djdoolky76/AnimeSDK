@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class TBLLightDataPassNativeState; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E48CCE0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1E48CCB0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E48CC30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E654D40)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1E654D10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TBLLIGHTDATAPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E654C90)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int TBLLightDataPass_NativeImpl_TypeDefinitionIndex = 5780;
+	inline static constexpr unsigned int TBLLightDataPass_NativeImpl_TypeDefinitionIndex = 5785;
 
 	class TBLLightDataPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

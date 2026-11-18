@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_B4A64C8A35A4BC67.h"
-#include "unitysdk/MoleMole/GameplayTag.h"
+#include "unitysdk/JMICCCNNAKJ.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/MoleMole/GameplayTag.h"
 
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_DYNAMICOBJECT_GETOBJECTTAG_OFFSET UNITYSDK_OFFSET(0x19D6F5C0)
-#define MOLEMOLE_DYNAMICOBJECT_GETOBJECT_OFFSET UNITYSDK_OFFSET(0x19D6F6D0)
-#define MOLEMOLE_DYNAMICOBJECT_RESETACTIVE_OFFSET UNITYSDK_OFFSET(0x19D6F960)
-#define MOLEMOLE_DYNAMICOBJECT_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x19D6F720)
-#define MOLEMOLE_DYNAMICOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6F9A0)
+#define MOLEMOLE_DYNAMICOBJECT_GETOBJECTTAG_OFFSET UNITYSDK_OFFSET(0x1B94BA20)
+#define MOLEMOLE_DYNAMICOBJECT_GETOBJECT_OFFSET UNITYSDK_OFFSET(0x1B94BB30)
+#define MOLEMOLE_DYNAMICOBJECT_RESETACTIVE_OFFSET UNITYSDK_OFFSET(0x1B94BDD0)
+#define MOLEMOLE_DYNAMICOBJECT_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x1B94BB80)
+#define MOLEMOLE_DYNAMICOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B94BE10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DynamicObject_TypeDefinitionIndex = 64401;
+	inline static constexpr unsigned int DynamicObject_TypeDefinitionIndex = 81301;
 
 	class DynamicObject : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::String* objectNameId; // 0x18
-		::Enum_3_B4A64C8A35A4BC67 dynamicObjectType; // 0x20
+		::JMICCCNNAKJ dynamicObjectType; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::String* assetPath; // 0x28
 
 		::System::Void _ctor()
@@ -39,9 +40,9 @@ namespace MoleMole
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_DYNAMICOBJECT_GETOBJECT_OFFSET))(this);
 		}
 
-		::System::Void SetActive(::System::Boolean a1)
+		::System::Void SetActive(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_DYNAMICOBJECT_SETACTIVE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_DYNAMICOBJECT_SETACTIVE_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Void ResetActive()

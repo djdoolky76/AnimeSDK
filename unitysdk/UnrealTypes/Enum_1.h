@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Enum; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int Enum_1_TypeDefinitionIndex = 28311;
+	inline static constexpr unsigned int Enum_1_TypeDefinitionIndex = 27729;
 
 	template <typename T>
 	class Enum_1 : public ::System::Object

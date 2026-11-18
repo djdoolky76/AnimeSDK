@@ -3,14 +3,14 @@
 
 namespace MoleMole::MaterialPropertyModifierEnumDefine
 {
-	inline static constexpr unsigned int DistortionChannelType_TypeDefinitionIndex = 66564;
+	inline static constexpr unsigned int DistortionChannelType_TypeDefinitionIndex = 55686;
 
 	enum class DistortionChannelType : ::System::Byte
 	{
-		B = 0x2,
-		R = 0x0,
-		G = 0x1,
-		A = 0x3,
-		RG = 0x4,
+		B = 2,
+		A = 3,
+		RG = 4,
+		R = 0,
+		G = 1,
 	};
 }

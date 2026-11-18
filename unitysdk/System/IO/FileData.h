@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/IO/FileAttributes.h"
+#include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 
-#define SYSTEM_IO_FILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D61A050)
+#define SYSTEM_IO_FILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1DADEA40)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int FileData_TypeDefinitionIndex = 3217;
+	inline static constexpr unsigned int FileData_TypeDefinitionIndex = 3216;
 
 	class FileData : public ::System::Object
 	{
@@ -19,6 +19,7 @@ namespace System::IO
 		::System::DateTime CreationTime; // 0x18
 		::System::IO::FileAttributes Attributes; // 0x20
 		::System::Boolean NotExists; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::DateTime LastWriteTime; // 0x28
 
 		::System::Void _ctor()

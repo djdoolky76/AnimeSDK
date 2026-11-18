@@ -5,20 +5,22 @@
 
 namespace System { class String; }
 
-#define INAPLEVEL_COMMONSTATECHANGEEFFECT_GET_STATETYPE_OFFSET UNITYSDK_OFFSET(0x1D6CD420)
-#define INAPLEVEL_COMMONSTATECHANGEEFFECT_PROCESS_1_OFFSET UNITYSDK_OFFSET(0x1D6CD500)
-#define INAPLEVEL_COMMONSTATECHANGEEFFECT_PROCESS_OFFSET UNITYSDK_OFFSET(0x1D6CD430)
-#define INAPLEVEL_COMMONSTATECHANGEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CD620)
+#define INAPLEVEL_COMMONSTATECHANGEEFFECT_GET_STATETYPE_OFFSET UNITYSDK_OFFSET(0x1D6EA8D0)
+#define INAPLEVEL_COMMONSTATECHANGEEFFECT_PROCESS_1_OFFSET UNITYSDK_OFFSET(0x1D6EA9B0)
+#define INAPLEVEL_COMMONSTATECHANGEEFFECT_PROCESS_OFFSET UNITYSDK_OFFSET(0x1D6EA8E0)
+#define INAPLEVEL_COMMONSTATECHANGEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EAAA0)
 
-inline static constexpr unsigned int INapLevel_CommonStateChangeEffect_TypeDefinitionIndex = 26789;
+inline static constexpr unsigned int INapLevel_CommonStateChangeEffect_TypeDefinitionIndex = 26319;
 
 class INapLevel_CommonStateChangeEffect : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::EffectStateType _stateType; // 0x18
+	::System::Byte _padding0[0x4];
 	::Il2CppArray<::System::Int32>* _intStates; // 0x20
 	::Il2CppArray<::System::String*>* _stringStates; // 0x28
 	::System::Boolean isDynamicState; // 0x30
+	::System::Byte _padding1[0x3];
 	::System::Int32 _currentIntState; // 0x34
 	::System::String* _currentStringState; // 0x38
 	::System::Boolean _hasState; // 0x40

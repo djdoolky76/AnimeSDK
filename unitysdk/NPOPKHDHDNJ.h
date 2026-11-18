@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class EAIOHODECAO;
+class KNLHFLFKGMP;
+class NCMKBHAPEKA;
+class OCMOOBCKMJP;
+
+#define NPOPKHDHDNJ_KHKEIDMFHCK_OFFSET UNITYSDK_OFFSET(0x1F01C920)
+#define NPOPKHDHDNJ_PNMGHEMHGIB_OFFSET UNITYSDK_OFFSET(0x1F01C670)
+
+inline static constexpr unsigned int NPOPKHDHDNJ_TypeDefinitionIndex = 36067;
+
+class NPOPKHDHDNJ : public ::System::Object
+{
+public:
+	static ::NCMKBHAPEKA* PNMGHEMHGIB(::EAIOHODECAO* GEEHGDABNJF)
+	{
+		return ((::NCMKBHAPEKA*(*)(::EAIOHODECAO*))((::PBYTE)hIl2Cpp + NPOPKHDHDNJ_PNMGHEMHGIB_OFFSET))(GEEHGDABNJF);
+	}
+
+	static ::OCMOOBCKMJP* KHKEIDMFHCK(::KNLHFLFKGMP* JDPKJJCKJLG)
+	{
+		return ((::OCMOOBCKMJP*(*)(::KNLHFLFKGMP*))((::PBYTE)hIl2Cpp + NPOPKHDHDNJ_KHKEIDMFHCK_OFFSET))(JDPKJJCKJLG);
+	}
+};

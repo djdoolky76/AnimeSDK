@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace FlowCanvas { template <typename T> class ValueHandler_1; }
 namespace System { class Type; }
 
-#define FLOWCANVAS_TYPECONVERTER_HASCONVERTION_OFFSET UNITYSDK_OFFSET(0x1EB800A0)
-#define FLOWCANVAS_TYPECONVERTER_QUICKCONVERT_OFFSET UNITYSDK_OFFSET(0x1EB80120)
+#define FLOWCANVAS_TYPECONVERTER_HASCONVERTION_OFFSET UNITYSDK_OFFSET(0x1EF4FE30)
+#define FLOWCANVAS_TYPECONVERTER_QUICKCONVERT_1_OFFSET UNITYSDK_OFFSET(0x1EF4FEB0)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int TypeConverter_TypeDefinitionIndex = 30259;
+	inline static constexpr unsigned int TypeConverter_TypeDefinitionIndex = 30590;
 
 	class TypeConverter : public ::System::Object
 	{
@@ -20,9 +19,9 @@ namespace FlowCanvas
 			return ((::System::Boolean(*)(::System::Type*, ::System::Type*))((::PBYTE)hIl2Cpp + FLOWCANVAS_TYPECONVERTER_HASCONVERTION_OFFSET))(sourceType, targetType);
 		}
 
-		static ::System::Object* QuickConvert(::System::Object* obj, ::System::Type* type)
+		static ::System::Object* QuickConvert_1(::System::Object* obj, ::System::Type* type)
 		{
-			return ((::System::Object*(*)(::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + FLOWCANVAS_TYPECONVERTER_QUICKCONVERT_OFFSET))(obj, type);
+			return ((::System::Object*(*)(::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + FLOWCANVAS_TYPECONVERTER_QUICKCONVERT_1_OFFSET))(obj, type);
 		}
 	};
 }

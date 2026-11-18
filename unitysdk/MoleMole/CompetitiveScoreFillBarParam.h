@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_COMPETITIVESCOREFILLBARPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1484A980)
+#define MOLEMOLE_COMPETITIVESCOREFILLBARPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x11E727E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CompetitiveScoreFillBarParam_TypeDefinitionIndex = 69213;
+	inline static constexpr unsigned int CompetitiveScoreFillBarParam_TypeDefinitionIndex = 42393;
 
 	class CompetitiveScoreFillBarParam : public ::UnityEngine::MonoBehaviour
 	{

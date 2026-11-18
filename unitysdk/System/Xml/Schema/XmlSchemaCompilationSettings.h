@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPILATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA92B0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPILATIONSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F048070)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaCompilationSettings_TypeDefinitionIndex = 2127;
+	inline static constexpr unsigned int XmlSchemaCompilationSettings_TypeDefinitionIndex = 2126;
 
 	class XmlSchemaCompilationSettings : public ::System::Object
 	{

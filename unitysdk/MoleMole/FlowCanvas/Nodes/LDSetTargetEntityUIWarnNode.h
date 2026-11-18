@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
 
-class Class_1_B419CE8F81850DEC;
+class HELBPHOMBOK;
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETTARGETENTITYUIWARNNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19BE2D90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETTARGETENTITYUIWARNNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE2F00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETTARGETENTITYUIWARNNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A08E780)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETTARGETENTITYUIWARNNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A08E8F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetTargetEntityUIWarnNode_TypeDefinitionIndex = 41167;
+	inline static constexpr unsigned int LDSetTargetEntityUIWarnNode_TypeDefinitionIndex = 65013;
 
-	class LDSetTargetEntityUIWarnNode : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::System::Boolean, ::System::UInt32>
+	class LDSetTargetEntityUIWarnNode
 	{
 	public:
-		::Class_1_B419CE8F81850DEC* param; // 0x40
+		::HELBPHOMBOK* param; // 0x40
 
 		::System::Void _ctor()
 		{

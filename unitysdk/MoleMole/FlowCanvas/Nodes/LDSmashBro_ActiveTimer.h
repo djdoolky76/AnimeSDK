@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_ACTIVETIMER_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x144CB5F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_ACTIVETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x144CB6E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_ACTIVETIMER__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x144CB720)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_ACTIVETIMER_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10413FD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_ACTIVETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x104140C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_ACTIVETIMER__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x10414100)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSmashBro_ActiveTimer_TypeDefinitionIndex = 76013;
+	inline static constexpr unsigned int LDSmashBro_ActiveTimer_TypeDefinitionIndex = 85445;
 
 	class LDSmashBro_ActiveTimer : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _output; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::String*>* _timerKey; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::String*>* _timerKey; // 0xA8
+		::FlowCanvas::FlowOutput* _output; // 0xB0
 
 		::System::Void _ctor()
 		{

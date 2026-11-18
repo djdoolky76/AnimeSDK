@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int IConstraintInternal_TypeDefinitionIndex = 6698;
+	inline static constexpr unsigned int IConstraintInternal_TypeDefinitionIndex = 6705;
 
 	class IConstraintInternal
 	{

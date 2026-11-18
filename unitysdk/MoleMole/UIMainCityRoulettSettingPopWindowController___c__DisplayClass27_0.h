@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIMainCityRoulettSettingPopWindowController; }
 
-#define MOLEMOLE_UIMAINCITYROULETTSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1900DF10)
-#define MOLEMOLE_UIMAINCITYROULETTSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS27_0__SETFUNCTOINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x1900DF20)
+#define MOLEMOLE_UIMAINCITYROULETTSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15D0D2D0)
+#define MOLEMOLE_UIMAINCITYROULETTSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS27_0__SETFUNCTOINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x15D0D2E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityRoulettSettingPopWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 45475;
+	inline static constexpr unsigned int UIMainCityRoulettSettingPopWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 42873;
 
 	class UIMainCityRoulettSettingPopWindowController___c__DisplayClass27_0 : public ::System::Object
 	{

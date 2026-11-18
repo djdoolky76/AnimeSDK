@@ -2,25 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_NATIVEMEMORYREQUEST_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x9D9FA0)
-#define FOUNDATION_NATIVEMEMORYREQUEST_NEWBLOB_OFFSET UNITYSDK_OFFSET(0x1DDA3840)
-#define FOUNDATION_NATIVEMEMORYREQUEST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDA3B30)
-#define FOUNDATION_NATIVEMEMORYREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x9D9FD0)
+#define FOUNDATION_NATIVEMEMORYREQUEST_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x8E8A50)
+#define FOUNDATION_NATIVEMEMORYREQUEST_NEWBLOB_OFFSET UNITYSDK_OFFSET(0x1E2223C0)
+#define FOUNDATION_NATIVEMEMORYREQUEST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2226B0)
+#define FOUNDATION_NATIVEMEMORYREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x8E8A80)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeMemoryRequest_TypeDefinitionIndex = 8599;
+	inline static constexpr unsigned int NativeMemoryRequest_TypeDefinitionIndex = 8893;
 
-	struct alignas(8) NativeMemoryRequest
+	struct alignas(4) NativeMemoryRequest
 	{
 		static ::Foundation::NativeMemoryRequest* StaticGet_Null()
 		{
-			return (::Foundation::NativeMemoryRequest*)Il2CppClass::FromTypeDefinitionIndex(NativeMemoryRequest_TypeDefinitionIndex)->GetStaticField(0x3D30);
+			return (::Foundation::NativeMemoryRequest*)Il2CppClass::FromTypeDefinitionIndex(NativeMemoryRequest_TypeDefinitionIndex)->GetStaticField(0x3CF0);
 		}
 		::System::Int32 Alignment; // 0x10
 		::System::Int32 Size; // 0x14
 		::System::Int64 TypeHash; // 0x18
 		::System::Int32 Number; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::UInt64 RequestId; // 0x28
 
 		::System::Void _ctor(::System::Int32 alignment, ::System::Int32 size, ::System::Int64 typeHash, ::System::Int32 number, ::System::UInt64 requestId)
@@ -38,9 +39,11 @@ namespace Foundation
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_NATIVEMEMORYREQUEST_GET_ISNULL_OFFSET))(this);
 		}
 
+		/*
 		static ::Foundation::NativeMemoryRequest NewBlob(::System::Int32 alignment, ::System::Int32 number)
 		{
 			return ((::Foundation::NativeMemoryRequest(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + FOUNDATION_NATIVEMEMORYREQUEST_NEWBLOB_OFFSET))(alignment, number);
 		}
+		*/
 	};
 }

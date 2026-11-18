@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_VEHICLESTART_INVOKE_OFFSET UNITYSDK_OFFSET(0x107DA7D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_VEHICLESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x107DA840)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_VEHICLESTART_INVOKE_OFFSET UNITYSDK_OFFSET(0x1430E700)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_VEHICLESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x1430E770)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_VehicleStart_TypeDefinitionIndex = 90326;
+	inline static constexpr unsigned int LD_VehicleStart_TypeDefinitionIndex = 57936;
 
-	class LD_VehicleStart : public ::FlowCanvas::Nodes::CallableActionNode_1<::MoleMole::Battle::Entity*>
+	class LD_VehicleStart
 	{
 	public:
 		::System::Void _ctor()

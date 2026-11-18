@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace Sirenix::Serialization::Utilities { template <typename T> class Cache_1; }
-
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int Cache_1_TypeDefinitionIndex = 7634;
+	inline static constexpr unsigned int Cache_1_TypeDefinitionIndex = 7646;
 
 	template <typename T>
 	class Cache_1 : public ::System::Object
@@ -20,7 +18,6 @@ namespace Sirenix::Serialization::Utilities
 		{
 			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(Cache_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		::System::Boolean isFree; // 0x0
 		static ::System::Int32* StaticGet_THREAD_LOCK_TOKEN()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Cache_1_TypeDefinitionIndex)->GetStaticField(0x0);
@@ -29,6 +26,7 @@ namespace Sirenix::Serialization::Utilities
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Cache_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
+		::System::Boolean isFree; // 0x0
 		T Value; // 0x0
 	};
 }

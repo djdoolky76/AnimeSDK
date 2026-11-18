@@ -4,17 +4,18 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PLUGINUI_PLUGINUIBRIDGEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCEBB20)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUIBRIDGEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D123B10)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIBridgeElement_TypeDefinitionIndex = 21252;
+	inline static constexpr unsigned int PluginUIBridgeElement_TypeDefinitionIndex = 20457;
 
 	class PluginUIBridgeElement : public ::System::Object
 	{
 	public:
 		::System::String* id; // 0x10
 		::System::Int32 action_index; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* text; // 0x20
 		::System::String* hint_text; // 0x28
 		::System::Boolean visible; // 0x30

@@ -7,17 +7,17 @@
 #include "unitysdk/UnityEngine/NapTransformData.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_TWOBONESIKCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x11942240)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_TWOBONESIKCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x105F3BB0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_TwoBonesIKControl_TypeDefinitionIndex = 88367;
+	inline static constexpr unsigned int AnimationSubManager_TwoBonesIKControl_TypeDefinitionIndex = 81120;
 
 	struct alignas(8) AnimationSubManager_TwoBonesIKControl
 	{
 		static ::NPCCrowd::Animation::AnimationSubManager_TwoBonesIKControl* StaticGet_Zero()
 		{
-			return (::NPCCrowd::Animation::AnimationSubManager_TwoBonesIKControl*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_TwoBonesIKControl_TypeDefinitionIndex)->GetStaticField(0xCFD0);
+			return (::NPCCrowd::Animation::AnimationSubManager_TwoBonesIKControl*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_TwoBonesIKControl_TypeDefinitionIndex)->GetStaticField(0xD100);
 		}
 		::UnityEngine::NapTransformData Effector; // 0x10
 		::UnityEngine::Vector3 JointTarget; // 0x40

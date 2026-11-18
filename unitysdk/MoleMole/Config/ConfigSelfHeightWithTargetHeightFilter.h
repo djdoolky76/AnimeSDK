@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_9F43ACD08F0FC8E8.h"
+#include "unitysdk/BBDGELOKMMC.h"
 #include "unitysdk/MoleMole/Config/ConfigEntityFilter.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CONFIG_CONFIGSELFHEIGHTWITHTARGETHEIGHTFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x1C4621B0)
-#define MOLEMOLE_CONFIG_CONFIGSELFHEIGHTWITHTARGETHEIGHTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C462500)
+#define MOLEMOLE_CONFIG_CONFIGSELFHEIGHTWITHTARGETHEIGHTFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x1C6D6EF0)
+#define MOLEMOLE_CONFIG_CONFIGSELFHEIGHTWITHTARGETHEIGHTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D7240)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSelfHeightWithTargetHeightFilter_TypeDefinitionIndex = 67074;
+	inline static constexpr unsigned int ConfigSelfHeightWithTargetHeightFilter_TypeDefinitionIndex = 91807;
 
 	class ConfigSelfHeightWithTargetHeightFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{
 	public:
 		::System::Single Height; // 0x18
-		::Enum_3_9F43ACD08F0FC8E8 CompareType; // 0x1C
+		::BBDGELOKMMC CompareType; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -4,13 +4,13 @@
 
 namespace UnrealTypes { class Property; }
 
-#define STATETREECORE_PROPERTYREFHELPERS_BOOLVALIDATOR_ISVALID_OFFSET UNITYSDK_OFFSET(0xAC9F10)
+#define STATETREECORE_PROPERTYREFHELPERS_BOOLVALIDATOR_ISVALID_OFFSET UNITYSDK_OFFSET(0x9AFED0)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int PropertyRefHelpers_BoolValidator_TypeDefinitionIndex = 31660;
+	inline static constexpr unsigned int PropertyRefHelpers_BoolValidator_TypeDefinitionIndex = 31097;
 
-	struct alignas(1) PropertyRefHelpers_BoolValidator
+	struct alignas(4) PropertyRefHelpers_BoolValidator
 	{
 		::System::Boolean IsValid(::UnrealTypes::Property* property)
 		{

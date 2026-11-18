@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::PC::OS { class AgeGatePayManager; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0C130)
-#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS29_0__TRYUPDATETICKET_G__NETWORKCALLBACK_0_OFFSET UNITYSDK_OFFSET(0x1CE0C140)
+#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D37A390)
+#define MIHOYO_SDK_PC_OS_AGEGATEPAYMANAGER___C__DISPLAYCLASS29_0__TRYUPDATETICKET_G__NETWORKCALLBACK_0_OFFSET UNITYSDK_OFFSET(0x1D37A3A0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int AgeGatePayManager___c__DisplayClass29_0_TypeDefinitionIndex = 20596;
+	inline static constexpr unsigned int AgeGatePayManager___c__DisplayClass29_0_TypeDefinitionIndex = 19754;
 
 	class AgeGatePayManager___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Int32>* callback; // 0x10
-		::MiHoYo::SDK::PC::OS::AgeGatePayManager* __4__this; // 0x18
+		::MiHoYo::SDK::PC::OS::AgeGatePayManager* __4__this; // 0x10
+		::System::Action_1<::System::Int32>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

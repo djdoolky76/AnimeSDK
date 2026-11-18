@@ -11,17 +11,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_LEVELGLOBALAIMODULE_GET_CUSTOMTAGCONFIGDICT_OFFSET UNITYSDK_OFFSET(0x1350E090)
-#define MOLEMOLE_CONFIG_LEVELGLOBALAIMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1350E2D0)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAIMODULE_GET_CUSTOMTAGCONFIGDICT_OFFSET UNITYSDK_OFFSET(0x1B9338F0)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAIMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B933B30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelGlobalAIModule_TypeDefinitionIndex = 71380;
+	inline static constexpr unsigned int LevelGlobalAIModule_TypeDefinitionIndex = 56375;
 
 	class LevelGlobalAIModule : public ::System::Object
 	{
 	public:
 		::System::Int32 AvatarBeAttackMaxNum; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* AtkRemoveCD; // 0x18
 		::System::Collections::Generic::Dictionary_2<::MoleMole::AttackType, ::System::Int32>* AvatarBeAttackTypeMaxNum; // 0x20
 		::System::Collections::Generic::Dictionary_2<::MoleMole::AttackType, ::System::Int32>* LeftOnlyTypeAddNumDict; // 0x28

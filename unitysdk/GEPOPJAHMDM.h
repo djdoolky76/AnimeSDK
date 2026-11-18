@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ABDGMIJLHBL.h"
+#include "unitysdk/ENBEPNDMDEE.h"
+#include "unitysdk/IFDBBKFIBOA.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/NIGADNGLACP.h"
+
+#define GEPOPJAHMDM_BNDNGDDMNHD_OFFSET UNITYSDK_OFFSET(0x788550)
+#define GEPOPJAHMDM_ELCGCMOJMEN_OFFSET UNITYSDK_OFFSET(0x282350)
+#define GEPOPJAHMDM_HIFFONICDNE_OFFSET UNITYSDK_OFFSET(0x788780)
+#define GEPOPJAHMDM_IHMNCJDIEBP_OFFSET UNITYSDK_OFFSET(0x7885D0)
+#define GEPOPJAHMDM_JECEBJOKDCI_OFFSET UNITYSDK_OFFSET(0x48C0E0)
+#define GEPOPJAHMDM_PNNJKJEOHAL_OFFSET UNITYSDK_OFFSET(0x788380)
+#define GEPOPJAHMDM__CTOR_OFFSET UNITYSDK_OFFSET(0x788710)
+
+inline static constexpr unsigned int GEPOPJAHMDM_TypeDefinitionIndex = 72713;
+
+struct alignas(4) GEPOPJAHMDM
+{
+	::IFDBBKFIBOA _IJPMAJPDBKM_k__BackingField; // 0x10
+	::ENBEPNDMDEE _HFILIHNPEDG_k__BackingField; // 0x18
+
+	::System::Void _ctor(::IFDBBKFIBOA& GOPHGKKGNKP, ::ENBEPNDMDEE& FEBFAJEEMIN)
+	{
+		return ((::System::Void(*)(::PVOID, ::IFDBBKFIBOA&, ::ENBEPNDMDEE&))((::PBYTE)hIl2Cpp + GEPOPJAHMDM__CTOR_OFFSET))(this, GOPHGKKGNKP, FEBFAJEEMIN);
+	}
+
+	::System::Boolean PNNJKJEOHAL()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GEPOPJAHMDM_PNNJKJEOHAL_OFFSET))(this);
+	}
+
+	::System::Boolean JECEBJOKDCI()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GEPOPJAHMDM_JECEBJOKDCI_OFFSET))(this);
+	}
+
+	::NIGADNGLACP BNDNGDDMNHD()
+	{
+		return ((::NIGADNGLACP(*)(::PVOID))((::PBYTE)hIl2Cpp + GEPOPJAHMDM_BNDNGDDMNHD_OFFSET))(this);
+	}
+
+	::ABDGMIJLHBL IHMNCJDIEBP()
+	{
+		return ((::ABDGMIJLHBL(*)(::PVOID))((::PBYTE)hIl2Cpp + GEPOPJAHMDM_IHMNCJDIEBP_OFFSET))(this);
+	}
+
+	::IFDBBKFIBOA ELCGCMOJMEN()
+	{
+		return ((::IFDBBKFIBOA(*)(::PVOID))((::PBYTE)hIl2Cpp + GEPOPJAHMDM_ELCGCMOJMEN_OFFSET))(this);
+	}
+
+	::ENBEPNDMDEE HIFFONICDNE()
+	{
+		return ((::ENBEPNDMDEE(*)(::PVOID))((::PBYTE)hIl2Cpp + GEPOPJAHMDM_HIFFONICDNE_OFFSET))(this);
+	}
+};

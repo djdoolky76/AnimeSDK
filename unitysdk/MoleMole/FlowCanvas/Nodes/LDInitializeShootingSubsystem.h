@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINITIALIZESHOOTINGSUBSYSTEM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19B0BF30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINITIALIZESHOOTINGSUBSYSTEM_START_OFFSET UNITYSDK_OFFSET(0x19B0BFF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDINITIALIZESHOOTINGSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19B0C1B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINITIALIZESHOOTINGSUBSYSTEM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A8E8F50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINITIALIZESHOOTINGSUBSYSTEM_START_OFFSET UNITYSDK_OFFSET(0x1A8E9010)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDINITIALIZESHOOTINGSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E91D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDInitializeShootingSubsystem_TypeDefinitionIndex = 86759;
+	inline static constexpr unsigned int LDInitializeShootingSubsystem_TypeDefinitionIndex = 71316;
 
 	class LDInitializeShootingSubsystem : public ::FlowCanvas::Nodes::FlowControlNode
 	{

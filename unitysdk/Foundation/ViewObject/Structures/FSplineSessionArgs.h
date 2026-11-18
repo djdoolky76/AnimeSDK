@@ -4,22 +4,24 @@
 #include "unitysdk/MoleMole/Config/EntityType.h"
 #include "unitysdk/MoleMole/Config/Spline_WayPoint.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/MoleMole/EntityHandle.h"
 
 namespace System { class String; }
 
-#define FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_GET_VIEWOBJECTHANDLE_OFFSET UNITYSDK_OFFSET(0x41E6C0)
-#define FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_SET_ENTITYHANDLE_OFFSET UNITYSDK_OFFSET(0x783270)
-#define FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_SET_VIEWOBJECTHANDLE_OFFSET UNITYSDK_OFFSET(0x7831A0)
-#define FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_WITHENTITYHANDLE_OFFSET UNITYSDK_OFFSET(0x7832C0)
-#define FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_WITHVIEWOBJECTHANDLE_OFFSET UNITYSDK_OFFSET(0x783290)
+#define FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_GET_VIEWOBJECTHANDLE_OFFSET UNITYSDK_OFFSET(0x3CEFD0)
+#define FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_SET_ENTITYHANDLE_OFFSET UNITYSDK_OFFSET(0x775600)
+#define FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_SET_VIEWOBJECTHANDLE_OFFSET UNITYSDK_OFFSET(0x775530)
+#define FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_WITHENTITYHANDLE_OFFSET UNITYSDK_OFFSET(0x775650)
+#define FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_WITHVIEWOBJECTHANDLE_OFFSET UNITYSDK_OFFSET(0x775620)
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FSplineSessionArgs_TypeDefinitionIndex = 91293;
+	inline static constexpr unsigned int FSplineSessionArgs_TypeDefinitionIndex = 57216;
 
 	struct alignas(8) FSplineSessionArgs
 	{
 		::MoleMole::Config::EntityType EntityType; // 0x10
+		::System::Byte _padding0[0x4];
 		::Foundation::ViewObject::ViewObjectHandle _ViewObjectHandle; // 0x18
 		::System::String* SplineName; // 0x28
 		::MoleMole::Config::Spline_WayPoint WayPoint; // 0x30
@@ -34,17 +36,17 @@ namespace Foundation::ViewObject::Structures
 			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_SET_VIEWOBJECTHANDLE_OFFSET))(this, value);
 		}
 
-		/*
 		::System::Void set_EntityHandle(::MoleMole::EntityHandle value)
 		{
 			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_SET_ENTITYHANDLE_OFFSET))(this, value);
 		}
-		*/
 
+		/*
 		::Foundation::ViewObject::Structures::FSplineSessionArgs WithViewObjectHandle(::Foundation::ViewObject::ViewObjectHandle viewObjectHandle)
 		{
 			return ((::Foundation::ViewObject::Structures::FSplineSessionArgs(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_STRUCTURES_FSPLINESESSIONARGS_WITHVIEWOBJECTHANDLE_OFFSET))(this, viewObjectHandle);
 		}
+		*/
 
 		/*
 		::Foundation::ViewObject::Structures::FSplineSessionArgs WithEntityHandle(::MoleMole::EntityHandle entityHandle)

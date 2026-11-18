@@ -7,11 +7,11 @@ namespace NPCCrowd::Ability { class NPCStateMachineRandomIntInitConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTMOVESTYLEPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1192E460)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEMENTMOVESTYLEPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x105DF880)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityMovementMoveStyleParameters_TypeDefinitionIndex = 80430;
+	inline static constexpr unsigned int NPCAbilityMovementMoveStyleParameters_TypeDefinitionIndex = 85682;
 
 	class NPCAbilityMovementMoveStyleParameters : public ::System::Object
 	{

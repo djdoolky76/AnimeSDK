@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BMBMBLDFBID.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class IOJCPIOCHME;
+class JEPHFHPHAIB;
+namespace MoleMole { class UIHollowChessboard3DModelController; }
+
+#define IOJCPIOCHME_NLOBFINMLDN_EOKPEMGOPNA_OFFSET UNITYSDK_OFFSET(0x197E5AD0)
+#define IOJCPIOCHME_NLOBFINMLDN_GBNINLNBOLD_OFFSET UNITYSDK_OFFSET(0x197E5E70)
+#define IOJCPIOCHME_NLOBFINMLDN_IAEIFFJKMJE_OFFSET UNITYSDK_OFFSET(0x197E5D50)
+#define IOJCPIOCHME_NLOBFINMLDN_JEGFKLNBPDD_OFFSET UNITYSDK_OFFSET(0x197E60F0)
+#define IOJCPIOCHME_NLOBFINMLDN__CTOR_OFFSET UNITYSDK_OFFSET(0x197E5AC0)
+
+inline static constexpr unsigned int IOJCPIOCHME_NLOBFINMLDN_TypeDefinitionIndex = 48464;
+
+class IOJCPIOCHME_NLOBFINMLDN : public ::System::Object
+{
+public:
+	::JEPHFHPHAIB* IJEGAGBCCKK; // 0x10
+	::IOJCPIOCHME* KLHPEBKNIFB; // 0x18
+	::MoleMole::UIHollowChessboard3DModelController* MJMGDGPDCFN; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IOJCPIOCHME_NLOBFINMLDN__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EOKPEMGOPNA(::BMBMBLDFBID HFMHOELKCAJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::BMBMBLDFBID))((::PBYTE)hIl2Cpp + IOJCPIOCHME_NLOBFINMLDN_EOKPEMGOPNA_OFFSET))(this, HFMHOELKCAJ);
+	}
+
+	::System::Void GBNINLNBOLD(::BMBMBLDFBID HFMHOELKCAJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::BMBMBLDFBID))((::PBYTE)hIl2Cpp + IOJCPIOCHME_NLOBFINMLDN_GBNINLNBOLD_OFFSET))(this, HFMHOELKCAJ);
+	}
+
+	::System::Void JEGFKLNBPDD(::BMBMBLDFBID PHHDHIBOCKA)
+	{
+		return ((::System::Void(*)(::PVOID, ::BMBMBLDFBID))((::PBYTE)hIl2Cpp + IOJCPIOCHME_NLOBFINMLDN_JEGFKLNBPDD_OFFSET))(this, PHHDHIBOCKA);
+	}
+
+	::System::Void IAEIFFJKMJE(::UnityEngine::Vector3 IACKHFCLPJI)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + IOJCPIOCHME_NLOBFINMLDN_IAEIFFJKMJE_OFFSET))(this, IACKHFCLPJI);
+	}
+};

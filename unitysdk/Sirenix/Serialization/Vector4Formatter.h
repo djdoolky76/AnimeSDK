@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/MinimalBaseFormatter_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define SIRENIX_SERIALIZATION_VECTOR4FORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1F054D60)
-#define SIRENIX_SERIALIZATION_VECTOR4FORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1F054ED0)
-#define SIRENIX_SERIALIZATION_VECTOR4FORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0550B0)
-#define SIRENIX_SERIALIZATION_VECTOR4FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F055050)
+#define SIRENIX_SERIALIZATION_VECTOR4FORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1F3D46C0)
+#define SIRENIX_SERIALIZATION_VECTOR4FORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1F3D4830)
+#define SIRENIX_SERIALIZATION_VECTOR4FORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3D4A10)
+#define SIRENIX_SERIALIZATION_VECTOR4FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3D49B0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int Vector4Formatter_TypeDefinitionIndex = 7596;
+	inline static constexpr unsigned int Vector4Formatter_TypeDefinitionIndex = 7608;
 
-	class Vector4Formatter : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::UnityEngine::Vector4>
+	class Vector4Formatter
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_FloatSerializer()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Vector4Formatter_TypeDefinitionIndex)->GetStaticField(0x6670);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Vector4Formatter_TypeDefinitionIndex)->GetStaticField(0x6590);
 		}
 
 		::System::Void _ctor()

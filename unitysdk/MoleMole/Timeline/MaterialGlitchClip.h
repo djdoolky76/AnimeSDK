@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class MaterialGlitchBehavior; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_MATERIALGLITCHCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F111190)
-#define MOLEMOLE_TIMELINE_MATERIALGLITCHCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F111180)
-#define MOLEMOLE_TIMELINE_MATERIALGLITCHCLIP_INITDATA_OFFSET UNITYSDK_OFFSET(0x1F111260)
-#define MOLEMOLE_TIMELINE_MATERIALGLITCHCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F111280)
+#define MOLEMOLE_TIMELINE_MATERIALGLITCHCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F485390)
+#define MOLEMOLE_TIMELINE_MATERIALGLITCHCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F485380)
+#define MOLEMOLE_TIMELINE_MATERIALGLITCHCLIP_INITDATA_OFFSET UNITYSDK_OFFSET(0x1F485470)
+#define MOLEMOLE_TIMELINE_MATERIALGLITCHCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F485490)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialGlitchClip_TypeDefinitionIndex = 32837;
+	inline static constexpr unsigned int MaterialGlitchClip_TypeDefinitionIndex = 32288;
 
 	class MaterialGlitchClip : public ::UnityEngine::Playables::PlayableAsset
 	{

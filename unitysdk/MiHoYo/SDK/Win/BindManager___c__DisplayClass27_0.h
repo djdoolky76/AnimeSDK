@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE27360)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS27_0__REQUESTMAILCODE_B__0_OFFSET UNITYSDK_OFFSET(0x1CE27370)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D395CA0)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS27_0__REQUESTMAILCODE_B__0_OFFSET UNITYSDK_OFFSET(0x1D395CB0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass27_0_TypeDefinitionIndex = 21483;
+	inline static constexpr unsigned int BindManager___c__DisplayClass27_0_TypeDefinitionIndex = 20683;
 
 	class BindManager___c__DisplayClass27_0 : public ::System::Object
 	{

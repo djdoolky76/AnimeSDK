@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/Data/SqlTypes/SqlBoolean.h"
+#include "unitysdk/System/Decimal.h"
 
 namespace System { class Object; }
 namespace System { class String; }
@@ -10,88 +12,89 @@ namespace System::Xml { class XmlWriter; }
 namespace System::Xml::Schema { class XmlSchema; }
 namespace System::Xml::Schema { class XmlSchemaSet; }
 
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0xA83540)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_COMPARETO_OFFSET UNITYSDK_OFFSET(0xA83530)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xA83560)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA83570)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_GETXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1EFD4330)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x7D8680)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xA83180)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1EFD3B20)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1EFD3A70)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1EFD2E40)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1EFD3310)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1EFD3920)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1EFD3820)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1EFD3A00)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1EFD2C90)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x1EFD3460)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_3_OFFSET UNITYSDK_OFFSET(0x1EFD3560)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_4_OFFSET UNITYSDK_OFFSET(0x1EFD3660)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_5_OFFSET UNITYSDK_OFFSET(0x1EFD3760)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1EFD2C60)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1EFD3990)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1EFD31C0)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1EFD3000)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x1EFD2D60)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_GETSCHEMA_OFFSET UNITYSDK_OFFSET(0x3CADC0)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_READXML_OFFSET UNITYSDK_OFFSET(0xA83590)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_WRITEXML_OFFSET UNITYSDK_OFFSET(0xA835A0)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_TODECIMAL_OFFSET UNITYSDK_OFFSET(0xA83200)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_TODOUBLE_OFFSET UNITYSDK_OFFSET(0xA83220)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_TOSQLDECIMAL_OFFSET UNITYSDK_OFFSET(0xA83400)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_TOSQLDOUBLE_OFFSET UNITYSDK_OFFSET(0xA83380)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA83310)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFD43B0)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA830D0)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY__CTOR_2_OFFSET UNITYSDK_OFFSET(0xA830E0)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY__CTOR_3_OFFSET UNITYSDK_OFFSET(0xA83150)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY__CTOR_4_OFFSET UNITYSDK_OFFSET(0xA83160)
-#define SYSTEM_DATA_SQLTYPES_SQLMONEY__CTOR_OFFSET UNITYSDK_OFFSET(0xA7B6E0)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x968640)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_COMPARETO_OFFSET UNITYSDK_OFFSET(0x968630)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x968660)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x968670)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_GETXSDTYPE_OFFSET UNITYSDK_OFFSET(0x1F354930)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x75E7A0)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x968280)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1F354120)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1F354070)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1F353440)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1F353910)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F353F20)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1F353E20)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1F354000)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F353290)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x1F353A60)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_3_OFFSET UNITYSDK_OFFSET(0x1F353B60)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_4_OFFSET UNITYSDK_OFFSET(0x1F353C60)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_5_OFFSET UNITYSDK_OFFSET(0x1F353D60)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F353260)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1F353F90)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1F3537C0)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1F353600)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x1F353360)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_GETSCHEMA_OFFSET UNITYSDK_OFFSET(0x3B9490)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_READXML_OFFSET UNITYSDK_OFFSET(0x968690)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_SYSTEM_XML_SERIALIZATION_IXMLSERIALIZABLE_WRITEXML_OFFSET UNITYSDK_OFFSET(0x9686A0)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_TODECIMAL_OFFSET UNITYSDK_OFFSET(0x968300)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_TODOUBLE_OFFSET UNITYSDK_OFFSET(0x968320)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_TOSQLDECIMAL_OFFSET UNITYSDK_OFFSET(0x968500)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_TOSQLDOUBLE_OFFSET UNITYSDK_OFFSET(0x968480)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x968410)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3549B0)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9681D0)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY__CTOR_2_OFFSET UNITYSDK_OFFSET(0x9681E0)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY__CTOR_3_OFFSET UNITYSDK_OFFSET(0x968250)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY__CTOR_4_OFFSET UNITYSDK_OFFSET(0x968260)
+#define SYSTEM_DATA_SQLTYPES_SQLMONEY__CTOR_OFFSET UNITYSDK_OFFSET(0x95E270)
 
 namespace System::Data::SqlTypes
 {
-	inline static constexpr unsigned int SqlMoney_TypeDefinitionIndex = 39384;
+	inline static constexpr unsigned int SqlMoney_TypeDefinitionIndex = 37384;
 
-	struct alignas(8) SqlMoney
+	struct alignas(4) SqlMoney
 	{
-		static ::System::Int64* StaticGet_s_maxLong()
-		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x9090);
-		}
-		static ::System::Data::SqlTypes::SqlMoney* StaticGet_Null()
-		{
-			return (::System::Data::SqlTypes::SqlMoney*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x9098);
-		}
-		static ::System::Data::SqlTypes::SqlMoney* StaticGet_Zero()
-		{
-			return (::System::Data::SqlTypes::SqlMoney*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x90A8);
-		}
-		static ::System::Int64* StaticGet_s_minLong()
-		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x90B8);
-		}
 		static ::System::Int64* StaticGet_s_lTickBase()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x90C0);
-		}
-		static ::System::Int32* StaticGet_s_iMoneyScale()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x90C8);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x9530);
 		}
 		static ::System::Double* StaticGet_s_dTickBase()
 		{
-			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x90D0);
+			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x9538);
 		}
-		static ::System::Data::SqlTypes::SqlMoney* StaticGet_MinValue()
+		static ::System::Int32* StaticGet_s_iMoneyScale()
 		{
-			return (::System::Data::SqlTypes::SqlMoney*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x90D8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x9540);
 		}
 		static ::System::Data::SqlTypes::SqlMoney* StaticGet_MaxValue()
 		{
-			return (::System::Data::SqlTypes::SqlMoney*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x90E8);
+			return (::System::Data::SqlTypes::SqlMoney*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x9548);
+		}
+		static ::System::Int64* StaticGet_s_minLong()
+		{
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x9558);
+		}
+		static ::System::Data::SqlTypes::SqlMoney* StaticGet_Null()
+		{
+			return (::System::Data::SqlTypes::SqlMoney*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x9560);
+		}
+		static ::System::Int64* StaticGet_s_maxLong()
+		{
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x9570);
+		}
+		static ::System::Data::SqlTypes::SqlMoney* StaticGet_MinValue()
+		{
+			return (::System::Data::SqlTypes::SqlMoney*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x9578);
+		}
+		static ::System::Data::SqlTypes::SqlMoney* StaticGet_Zero()
+		{
+			return (::System::Data::SqlTypes::SqlMoney*)Il2CppClass::FromTypeDefinitionIndex(SqlMoney_TypeDefinitionIndex)->GetStaticField(0x9588);
 		}
 		::System::Boolean _fNotNull; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::Int64 _value; // 0x18
 
 		::System::Void _ctor(::System::Boolean fNull)
@@ -114,12 +117,10 @@ namespace System::Data::SqlTypes
 			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY__CTOR_3_OFFSET))(this, value);
 		}
 
-		/*
 		::System::Void _ctor_4(::System::Decimal value)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Decimal))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY__CTOR_4_OFFSET))(this, value);
 		}
-		*/
 
 		static ::System::Void _cctor()
 		{
@@ -131,19 +132,15 @@ namespace System::Data::SqlTypes
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY_GET_ISNULL_OFFSET))(this);
 		}
 
-		/*
 		::System::Decimal get_Value()
 		{
 			return ((::System::Decimal(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY_GET_VALUE_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::System::Decimal ToDecimal()
 		{
 			return ((::System::Decimal(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY_TODECIMAL_OFFSET))(this);
 		}
-		*/
 
 		::System::Double ToDouble()
 		{
@@ -157,40 +154,52 @@ namespace System::Data::SqlTypes
 		}
 		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlMoney op_Implicit_1(::System::Int64 x)
 		{
 			return ((::System::Data::SqlTypes::SqlMoney(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_IMPLICIT_1_OFFSET))(x);
 		}
+		*/
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY_TOSTRING_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Data::SqlTypes::SqlMoney op_UnaryNegation(::System::Data::SqlTypes::SqlMoney x)
 		{
 			return ((::System::Data::SqlTypes::SqlMoney(*)(::System::Data::SqlTypes::SqlMoney))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_UNARYNEGATION_OFFSET))(x);
 		}
+		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlMoney op_Addition(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y)
 		{
 			return ((::System::Data::SqlTypes::SqlMoney(*)(::System::Data::SqlTypes::SqlMoney, ::System::Data::SqlTypes::SqlMoney))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_ADDITION_OFFSET))(x, y);
 		}
+		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlMoney op_Subtraction(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y)
 		{
 			return ((::System::Data::SqlTypes::SqlMoney(*)(::System::Data::SqlTypes::SqlMoney, ::System::Data::SqlTypes::SqlMoney))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_SUBTRACTION_OFFSET))(x, y);
 		}
+		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlMoney op_Multiply(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y)
 		{
 			return ((::System::Data::SqlTypes::SqlMoney(*)(::System::Data::SqlTypes::SqlMoney, ::System::Data::SqlTypes::SqlMoney))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_MULTIPLY_OFFSET))(x, y);
 		}
+		*/
 
+		/*
 		static ::System::Data::SqlTypes::SqlMoney op_Division(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y)
 		{
 			return ((::System::Data::SqlTypes::SqlMoney(*)(::System::Data::SqlTypes::SqlMoney, ::System::Data::SqlTypes::SqlMoney))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY_OP_DIVISION_OFFSET))(x, y);
 		}
+		*/
 
 		/*
 		static ::System::Data::SqlTypes::SqlMoney op_Implicit_2(::System::Data::SqlTypes::SqlByte x)
@@ -281,10 +290,12 @@ namespace System::Data::SqlTypes
 			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY_COMPARETO_OFFSET))(this, value);
 		}
 
+		/*
 		::System::Int32 CompareTo_1(::System::Data::SqlTypes::SqlMoney value)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Data::SqlTypes::SqlMoney))((::PBYTE)hIl2Cpp + SYSTEM_DATA_SQLTYPES_SQLMONEY_COMPARETO_1_OFFSET))(this, value);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* value)
 		{

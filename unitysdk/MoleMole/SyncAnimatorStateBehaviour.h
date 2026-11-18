@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo.h"
-#include "unitysdk/MoleMole/SyncAnimatorStateBehaviour_SyncBlendTreeParams.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedStateMachineBehaviour.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 
 namespace MoleMole { class SyncAnimatorStateBehaviourTarget; }
+namespace System { class Object; }
 namespace UnityEngine { class Animator; }
 
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_GET_SYNCTOANIMATORS_OFFSET UNITYSDK_OFFSET(0x136F1ED0)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_09920515A731BB72_OFFSET UNITYSDK_OFFSET(0x136F28A0)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_2DB8CABC5F9281CC_1_OFFSET UNITYSDK_OFFSET(0x136F2AF0)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_2DB8CABC5F9281CC_OFFSET UNITYSDK_OFFSET(0x136F2AE0)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_561276174346BF04_OFFSET UNITYSDK_OFFSET(0x136F2800)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_F7B3836BB0EBCB17_OFFSET UNITYSDK_OFFSET(0x136F2250)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x136F2050)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x136F24A0)
-#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x136F2A80)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_GET_SYNCTOANIMATORS_OFFSET UNITYSDK_OFFSET(0x19CF1980)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_GMBDGCBMFKK_OFFSET UNITYSDK_OFFSET(0x19CF2590)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_IPLMOHBNKLI_OFFSET UNITYSDK_OFFSET(0x19CF2350)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_JMDEKPONKMF_OFFSET UNITYSDK_OFFSET(0x19CF1D00)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_MOHLKAAELGB_OFFSET UNITYSDK_OFFSET(0x19CF22B0)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x19CF1B00)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x19CF1F50)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_POOMDENNKIK_OFFSET UNITYSDK_OFFSET(0x19CF25A0)
+#define MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF2530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SyncAnimatorStateBehaviour_TypeDefinitionIndex = 78119;
+	inline static constexpr unsigned int SyncAnimatorStateBehaviour_TypeDefinitionIndex = 50053;
 
 	class SyncAnimatorStateBehaviour : public ::Sirenix::OdinInspector::SerializedStateMachineBehaviour
 	{
 	public:
 		::System::Boolean Initialized; // 0x58
+		::System::Byte _padding0[0x7];
 		::MoleMole::SyncAnimatorStateBehaviourTarget* SyncAnimatorTarget; // 0x60
-		::Il2CppArray<::MoleMole::SyncAnimatorStateBehaviour_SyncBlendTreeParams>* SyncParamStates; // 0x68
+		::Il2CppArray<::System::Object*>* SyncParamStates; // 0x68
 
 		::System::Void _ctor()
 		{
@@ -39,39 +39,39 @@ namespace MoleMole
 			return ((::Il2CppArray<::UnityEngine::Animator*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_GET_SYNCTOANIMATORS_OFFSET))(this);
 		}
 
-		::System::Void OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
+		::System::Void OnStateEnter(::UnityEngine::Animator* ICAAMDMMDDJ, ::UnityEngine::AnimatorStateInfo LGAABHLIHKE, ::System::Int32 EEGBEFGJJBM)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEENTER_OFFSET))(this, ICAAMDMMDDJ, LGAABHLIHKE, EEGBEFGJJBM);
 		}
 
-		::System::Void OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
+		::System::Void OnStateUpdate(::UnityEngine::Animator* ICAAMDMMDDJ, ::UnityEngine::AnimatorStateInfo LGAABHLIHKE, ::System::Int32 EEGBEFGJJBM)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_ONSTATEUPDATE_OFFSET))(this, ICAAMDMMDDJ, LGAABHLIHKE, EEGBEFGJJBM);
 		}
 
-		::System::Void Method_5_F7B3836BB0EBCB17(::UnityEngine::Animator* a1)
+		::System::Void GMBDGCBMFKK(::UnityEngine::Animator* MIALFKCCCPI, ::UnityEngine::AnimatorStateInfo KMGKAIDEIBA, ::System::Int32 FDHMCIFPNCK)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_F7B3836BB0EBCB17_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_GMBDGCBMFKK_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
 		}
 
-		::System::Boolean Method_5_561276174346BF04(::System::Int32 a1, ::Il2CppArray<::MoleMole::SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo>*& a2)
+		::System::Boolean MOHLKAAELGB(::System::Int32 NKEGAAJBAHA, ::Il2CppArray<::System::Object*>*& DEHKDNOBINF)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::Il2CppArray<::MoleMole::SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_561276174346BF04_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_MOHLKAAELGB_OFFSET))(this, NKEGAAJBAHA, DEHKDNOBINF);
 		}
 
-		::System::Void Method_5_09920515A731BB72(::UnityEngine::Animator* a1, ::UnityEngine::Animator* a2, ::Il2CppArray<::MoleMole::SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo>* a3)
+		::System::Void POOMDENNKIK(::UnityEngine::Animator* MIALFKCCCPI, ::UnityEngine::AnimatorStateInfo KMGKAIDEIBA, ::System::Int32 FDHMCIFPNCK)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::Animator*, ::Il2CppArray<::MoleMole::SyncAnimatorStateBehaviour_SyncBlendTreeParamInfo>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_09920515A731BB72_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_POOMDENNKIK_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
 		}
 
-		::System::Void Method_5_2DB8CABC5F9281CC(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
+		::System::Void IPLMOHBNKLI(::UnityEngine::Animator* KHGFAKJKDGG, ::UnityEngine::Animator* HODAIDNDKHD, ::Il2CppArray<::System::Object*>* DEHKDNOBINF)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_2DB8CABC5F9281CC_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::Animator*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_IPLMOHBNKLI_OFFSET))(this, KHGFAKJKDGG, HODAIDNDKHD, DEHKDNOBINF);
 		}
 
-		::System::Void Method_5_2DB8CABC5F9281CC_1(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
+		::System::Void JMDEKPONKMF(::UnityEngine::Animator* ICAAMDMMDDJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_METHOD_5_2DB8CABC5F9281CC_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + MOLEMOLE_SYNCANIMATORSTATEBEHAVIOUR_JMDEKPONKMF_OFFSET))(this, ICAAMDMMDDJ);
 		}
 	};
 }

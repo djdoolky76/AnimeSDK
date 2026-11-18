@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define LOCALE_GETTEXT_1_OFFSET UNITYSDK_OFFSET(0x1F4C3130)
-#define LOCALE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1F4C3120)
-#define LOCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C3110)
+#define LOCALE_GETTEXT_1_OFFSET UNITYSDK_OFFSET(0x1D3FA320)
+#define LOCALE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1D3FA310)
+#define LOCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FA300)
 
-inline static constexpr unsigned int Locale_TypeDefinitionIndex = 2259;
+inline static constexpr unsigned int Locale_TypeDefinitionIndex = 1;
 
 class Locale : public ::System::Object
 {

@@ -3,7 +3,7 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int LazyThreadSafetyMode_TypeDefinitionIndex = 792;
+	inline static constexpr unsigned int LazyThreadSafetyMode_TypeDefinitionIndex = 791;
 
 	enum class LazyThreadSafetyMode : ::System::Int32
 	{

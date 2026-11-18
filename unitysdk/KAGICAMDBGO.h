@@ -1,0 +1,132 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OCIKBEJKPCB.h"
+
+class HGFPBHGPFFM;
+class NCKHKNFJAMD;
+namespace MoleMole { class UIZenkovErosionProgressWidgetController; }
+
+#define KAGICAMDBGO_ACFAACMNLEE_OFFSET UNITYSDK_OFFSET(0x17B60D50)
+#define KAGICAMDBGO_ADPJEOKEDND_OFFSET UNITYSDK_OFFSET(0x17B61020)
+#define KAGICAMDBGO_AFGPFLKDCIF_OFFSET UNITYSDK_OFFSET(0x17B60920)
+#define KAGICAMDBGO_ANIMPLMDKOF_OFFSET UNITYSDK_OFFSET(0x17B60F00)
+#define KAGICAMDBGO_BCELJLFNDEI_OFFSET UNITYSDK_OFFSET(0x17B61370)
+#define KAGICAMDBGO_CMFOMGGDPPA_OFFSET UNITYSDK_OFFSET(0x17B60F90)
+#define KAGICAMDBGO_FOPLPAMBLDM_OFFSET UNITYSDK_OFFSET(0x17B606E0)
+#define KAGICAMDBGO_GMOGAADJELE_OFFSET UNITYSDK_OFFSET(0x17B60BC0)
+#define KAGICAMDBGO_JGLFNBBHMEF_OFFSET UNITYSDK_OFFSET(0x17B60DE0)
+#define KAGICAMDBGO_JMAACLDJJMN_OFFSET UNITYSDK_OFFSET(0x17B60540)
+#define KAGICAMDBGO_JMDEKPONKMF_OFFSET UNITYSDK_OFFSET(0x17B60670)
+#define KAGICAMDBGO_KCBENEBBOGP_OFFSET UNITYSDK_OFFSET(0x17B608D0)
+#define KAGICAMDBGO_KJHFBOCBADC_OFFSET UNITYSDK_OFFSET(0x17B605F0)
+#define KAGICAMDBGO_LNJOOFKCJNN_OFFSET UNITYSDK_OFFSET(0x17B60500)
+#define KAGICAMDBGO_MCFILHLNBPK_OFFSET UNITYSDK_OFFSET(0x17B60E70)
+#define KAGICAMDBGO_OKJCHFGIKBH_OFFSET UNITYSDK_OFFSET(0x17B60960)
+#define KAGICAMDBGO_OOLCMLLACCB_OFFSET UNITYSDK_OFFSET(0x17B61400)
+#define KAGICAMDBGO_PBEFIMFFFJH_OFFSET UNITYSDK_OFFSET(0x17B60C30)
+#define KAGICAMDBGO__CTOR_OFFSET UNITYSDK_OFFSET(0x17B60C20)
+
+inline static constexpr unsigned int KAGICAMDBGO_TypeDefinitionIndex = 50104;
+
+class KAGICAMDBGO : public ::OCIKBEJKPCB
+{
+public:
+	::NCKHKNFJAMD* GHFCHLGGAPP; // 0x90
+	::System::Single HCGLLAFACKO; // 0x98
+	::System::Single ONEAGHJLJJJ; // 0x9C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO__CTOR_OFFSET))(this);
+	}
+
+	::System::Void LNJOOFKCJNN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_LNJOOFKCJNN_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* JMAACLDJJMN()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_JMAACLDJJMN_OFFSET))(this);
+	}
+
+	::System::Void KJHFBOCBADC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_KJHFBOCBADC_OFFSET))(this);
+	}
+
+	::System::Void JMDEKPONKMF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_JMDEKPONKMF_OFFSET))(this);
+	}
+
+	::System::Void KCBENEBBOGP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_KCBENEBBOGP_OFFSET))(this);
+	}
+
+	::System::Void AFGPFLKDCIF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_AFGPFLKDCIF_OFFSET))(this);
+	}
+
+	::System::Void OKJCHFGIKBH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_OKJCHFGIKBH_OFFSET))(this);
+	}
+
+	::System::Void FOPLPAMBLDM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_FOPLPAMBLDM_OFFSET))(this);
+	}
+
+	::System::Void ACFAACMNLEE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_ACFAACMNLEE_OFFSET))(this);
+	}
+
+	::System::Void JGLFNBBHMEF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_JGLFNBBHMEF_OFFSET))(this);
+	}
+
+	::System::Void MCFILHLNBPK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_MCFILHLNBPK_OFFSET))(this);
+	}
+
+	::System::Void ANIMPLMDKOF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_ANIMPLMDKOF_OFFSET))(this);
+	}
+
+	::System::Void CMFOMGGDPPA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_CMFOMGGDPPA_OFFSET))(this);
+	}
+
+	static ::System::Boolean PBEFIMFFFJH()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + KAGICAMDBGO_PBEFIMFFFJH_OFFSET))();
+	}
+
+	::System::Void ADPJEOKEDND(::System::Boolean FIPHFGHNNBE)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + KAGICAMDBGO_ADPJEOKEDND_OFFSET))(this, FIPHFGHNNBE);
+	}
+
+	::System::Void BCELJLFNDEI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_BCELJLFNDEI_OFFSET))(this);
+	}
+
+	::MoleMole::UIZenkovErosionProgressWidgetController* GMOGAADJELE()
+	{
+		return ((::MoleMole::UIZenkovErosionProgressWidgetController*(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_GMOGAADJELE_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* OOLCMLLACCB()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + KAGICAMDBGO_OOLCMLLACCB_OFFSET))(this);
+	}
+};

@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::PC::OS { class PayErrorHandler; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4AF650)
-#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_0__SHOWPAYAGELIMITNEWFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1D4AF660)
+#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA33320)
+#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_0__SHOWPAYAGELIMITNEWFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1DA33330)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int PayErrorHandler___c__DisplayClass9_0_TypeDefinitionIndex = 20810;
+	inline static constexpr unsigned int PayErrorHandler___c__DisplayClass9_0_TypeDefinitionIndex = 20014;
 
 	class PayErrorHandler___c__DisplayClass9_0 : public ::System::Object
 	{

@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JJEJBPGJPJN.h"
+
+namespace System { class Object; }
+template <typename T> class LGFJMNEABJP_1;
+template <typename T> class LJHFMILANJA_1;
+
+#define PONBOHIGCJP_ABBGFEIBHKB_AFAAOEHELAH_OFFSET UNITYSDK_OFFSET(0x1EBBE520)
+#define PONBOHIGCJP_ABBGFEIBHKB_ENPDCAHJNBD_OFFSET UNITYSDK_OFFSET(0x1EBBE530)
+#define PONBOHIGCJP_ABBGFEIBHKB_FGBKKMAEKHG_OFFSET UNITYSDK_OFFSET(0x1EBBE510)
+#define PONBOHIGCJP_ABBGFEIBHKB_OHPFPJHMADC_OFFSET UNITYSDK_OFFSET(0x1EBBE500)
+#define PONBOHIGCJP_ABBGFEIBHKB_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1EBBE450)
+#define PONBOHIGCJP_ABBGFEIBHKB__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBE4F0)
+
+inline static constexpr unsigned int PONBOHIGCJP_ABBGFEIBHKB_TypeDefinitionIndex = 77416;
+
+class PONBOHIGCJP_ABBGFEIBHKB : public ::JJEJBPGJPJN
+{
+public:
+	::LGFJMNEABJP_1<::System::Object*>* _BAAPECDJMJD_k__BackingField; // 0x88
+	::LJHFMILANJA_1<::System::Int32>* _HLOCPJMNCAP_k__BackingField; // 0x90
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PONBOHIGCJP_ABBGFEIBHKB__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnCreateProperty()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PONBOHIGCJP_ABBGFEIBHKB_ONCREATEPROPERTY_OFFSET))(this);
+	}
+
+	::System::Void OHPFPJHMADC(::LJHFMILANJA_1<::System::Int32>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::System::Int32>*))((::PBYTE)hIl2Cpp + PONBOHIGCJP_ABBGFEIBHKB_OHPFPJHMADC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LJHFMILANJA_1<::System::Int32>* FGBKKMAEKHG()
+	{
+		return ((::LJHFMILANJA_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PONBOHIGCJP_ABBGFEIBHKB_FGBKKMAEKHG_OFFSET))(this);
+	}
+
+	::LGFJMNEABJP_1<::System::Object*>* AFAAOEHELAH()
+	{
+		return ((::LGFJMNEABJP_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PONBOHIGCJP_ABBGFEIBHKB_AFAAOEHELAH_OFFSET))(this);
+	}
+
+	::System::Void ENPDCAHJNBD(::LGFJMNEABJP_1<::System::Object*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGFJMNEABJP_1<::System::Object*>*))((::PBYTE)hIl2Cpp + PONBOHIGCJP_ABBGFEIBHKB_ENPDCAHJNBD_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

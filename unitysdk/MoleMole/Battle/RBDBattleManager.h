@@ -1,119 +1,115 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_09D8878FDDF9963B.h"
-#include "unitysdk/Enum_3_576D2B842B630070.h"
-#include "unitysdk/Enum_3_F40B865AC61AB8D7.h"
-#include "unitysdk/MoleMole/Battle/RBDBattleManager_Enum_3_67E9A566F14F14F7.h"
-#include "unitysdk/MoleMole/Battle/RBDBattleManager_Struct_2_0781496C6B531BAB.h"
-#include "unitysdk/MoleMole/Battle/RBDBattleManager_Struct_2_FB463563CC2FB07B.h"
-#include "unitysdk/RBDDestruction/RBDManager_DestroyEvent.h"
-#include "unitysdk/RBDDestruction/RBDManager_GroundedEvent.h"
-#include "unitysdk/RBDDestruction/RBDManager_HitEvent.h"
+#include "unitysdk/EBGABOFHFHL.h"
+#include "unitysdk/KDIBDJABMDM.h"
+#include "unitysdk/KMGGCBGCNPM.h"
+#include "unitysdk/MoleMole/Battle/RBDBattleManager_OJBIDAFMHMM.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_560B23058CA4940C;
-class Class_1_66BE267322CE07F6;
-class Class_1_CEB3A2AC6A2FFA68;
-class Class_1_FE4DC5D381092977;
-class Class_3_707412604A129938;
+class CIEODNAJCEO;
+class DIAEPBNFKBO;
+class GHLDLOHAOGM;
+class PFFLAOOPDII;
+class POJCPPEHHFE;
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Battle { class RBDBattleData; }
 namespace MoleMole::Battle { class RBDEffectInfo; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_BULLETTRIGGERDESTRUCTIBLEHIT_OFFSET UNITYSDK_OFFSET(0x134CA280)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_CHECKENTITYINRUSH_OFFSET UNITYSDK_OFFSET(0x134CB4B0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_CHECKRESVALID_OFFSET UNITYSDK_OFFSET(0x134C9480)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x134CC620)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_GETRUNTIMEDATA_OFFSET UNITYSDK_OFFSET(0x134CB660)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_HITDESTRUCTIBLE_OFFSET UNITYSDK_OFFSET(0x134C9050)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_112F0AC12B1FD790_OFFSET UNITYSDK_OFFSET(0x134D0320)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_16EE4DABFA5B5867_OFFSET UNITYSDK_OFFSET(0x134CF4E0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x134D0690)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_4164A7F0842B285E_OFFSET UNITYSDK_OFFSET(0x134CEE10)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_425D55F2F4775139_OFFSET UNITYSDK_OFFSET(0x134CD7D0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_5827406084A7DA6E_OFFSET UNITYSDK_OFFSET(0x134C9910)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_8E235C789FEC971B_OFFSET UNITYSDK_OFFSET(0x134CBB20)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0x134D10A0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_A984848EA3E436DA_OFFSET UNITYSDK_OFFSET(0x134D1280)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_AF0FC2A3AC3D7460_OFFSET UNITYSDK_OFFSET(0x134CB230)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_B13995D2D125B4C3_OFFSET UNITYSDK_OFFSET(0x134C9F40)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_B2AF81294D9C69C7_1_OFFSET UNITYSDK_OFFSET(0x134D1990)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_B2AF81294D9C69C7_OFFSET UNITYSDK_OFFSET(0x134CDA90)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_D1289BD4E2C7FF87_OFFSET UNITYSDK_OFFSET(0x134D1BB0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_D308836DB54415C3_OFFSET UNITYSDK_OFFSET(0x134CC860)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_D3206EC93EE606A4_OFFSET UNITYSDK_OFFSET(0x134D1DE0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_E16793082E43059F_OFFSET UNITYSDK_OFFSET(0x134CDF90)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_E5D087CB526C8BC7_OFFSET UNITYSDK_OFFSET(0x134D1700)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_E8552C808F3BB490_OFFSET UNITYSDK_OFFSET(0x134D06F0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_F7BA13C72A6B3F58_OFFSET UNITYSDK_OFFSET(0x134CF7F0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_FD6692A5F6B0AC0C_OFFSET UNITYSDK_OFFSET(0x134CFCB0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_FE72BF2F281C4FA8_OFFSET UNITYSDK_OFFSET(0x134D0B10)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x134CFC60)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_PROCESSDESTROY_OFFSET UNITYSDK_OFFSET(0x134CF2C0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_PROCESSGROUNDED_OFFSET UNITYSDK_OFFSET(0x134CF0A0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_PROCESSHITBREAK_OFFSET UNITYSDK_OFFSET(0x134CDD60)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_START_OFFSET UNITYSDK_OFFSET(0x134CF7A0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_TRIGGERCOLLIDERASYNC_OFFSET UNITYSDK_OFFSET(0x134CA630)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x134D00F0)
-#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x134CFFD0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_ADHJBHIOADO_OFFSET UNITYSDK_OFFSET(0x11A3E770)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_AOKOMHPOJKA_OFFSET UNITYSDK_OFFSET(0x11A38370)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_BBOMJDBNHIC_OFFSET UNITYSDK_OFFSET(0x11A3DC40)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_BJANDJKKNCD_OFFSET UNITYSDK_OFFSET(0x11A3E100)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_BULLETTRIGGERDESTRUCTIBLEHIT_OFFSET UNITYSDK_OFFSET(0x11A386B0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_CHECKENTITYINRUSH_OFFSET UNITYSDK_OFFSET(0x11A398E0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_CHECKRESVALID_OFFSET UNITYSDK_OFFSET(0x11A378B0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_CJOMMNANKKA_OFFSET UNITYSDK_OFFSET(0x11A3D930)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_DKIMMFCKEPC_OFFSET UNITYSDK_OFFSET(0x11A3F520)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_EBHBPCBLEMM_OFFSET UNITYSDK_OFFSET(0x11A3FD10)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_EJLNOEOJOLN_OFFSET UNITYSDK_OFFSET(0x11A3F300)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_FBDFJNFGOPC_OFFSET UNITYSDK_OFFSET(0x11A3F890)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_FFIJLGONBLL_OFFSET UNITYSDK_OFFSET(0x11A39660)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x11A3AA60)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_GETRUNTIMEDATA_OFFSET UNITYSDK_OFFSET(0x11A39A90)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_GFCLGINCAOO_OFFSET UNITYSDK_OFFSET(0x11A3BED0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_HITDESTRUCTIBLE_OFFSET UNITYSDK_OFFSET(0x11A37480)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_IFEBHFNACDJ_OFFSET UNITYSDK_OFFSET(0x11A40480)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_JLNFNJCNEJL_OFFSET UNITYSDK_OFFSET(0x11A3EEE0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_KANMDKIGDOJ_OFFSET UNITYSDK_OFFSET(0x11A3FFA0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_KMILCKPHIKM_OFFSET UNITYSDK_OFFSET(0x11A3ACA0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_KPAFDDABDKB_OFFSET UNITYSDK_OFFSET(0x11A3C3D0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_LLDNJOADIEN_OFFSET UNITYSDK_OFFSET(0x11A3BC10)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_LPKDCIOMKMD_OFFSET UNITYSDK_OFFSET(0x11A39F60)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_MDJIBGABKBF_OFFSET UNITYSDK_OFFSET(0x11A40250)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_NPPPMCMDKIJ_OFFSET UNITYSDK_OFFSET(0x11A3D260)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_OICLJNDGLKL_OFFSET UNITYSDK_OFFSET(0x11A3ED00)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11A3E0B0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_OOGCFKMGADO_OFFSET UNITYSDK_OFFSET(0x11A37D40)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_PROCESSDESTROY_OFFSET UNITYSDK_OFFSET(0x11A3D710)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_PROCESSGROUNDED_OFFSET UNITYSDK_OFFSET(0x11A3D4F0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_PROCESSHITBREAK_OFFSET UNITYSDK_OFFSET(0x11A3C1A0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_START_OFFSET UNITYSDK_OFFSET(0x11A3DBF0)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER_TRIGGERCOLLIDERASYNC_OFFSET UNITYSDK_OFFSET(0x11A38A60)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11A3E540)
+#define MOLEMOLE_BATTLE_RBDBATTLEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x11A3E420)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int RBDBattleManager_TypeDefinitionIndex = 76494;
+	inline static constexpr unsigned int RBDBattleManager_TypeDefinitionIndex = 82383;
 
 	class RBDBattleManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Battle::RBDEffectInfo*>** StaticGet_m_dicEffectLimits()
+		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet__raycastHits()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Battle::RBDEffectInfo*>**)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0x44520);
-		}
-		static ::System::Collections::Generic::List_1<::Class_1_CEB3A2AC6A2FFA68*>** StaticGet_m_lstRuntimeAudioInfos()
-		{
-			return (::System::Collections::Generic::List_1<::Class_1_CEB3A2AC6A2FFA68*>**)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0x44528);
+			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0x31830);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Battle::RBDBattleData*>** StaticGet_m_dicRuntimeDatas()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Battle::RBDBattleData*>**)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0x44530);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Battle::RBDBattleData*>**)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0x31838);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Queue_1<::Class_1_66BE267322CE07F6*>*>** StaticGet_m_dicRuntimeEffects()
+		static ::System::Collections::Generic::List_1<::POJCPPEHHFE*>** StaticGet_m_lstRuntimeAudioInfos()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Queue_1<::Class_1_66BE267322CE07F6*>*>**)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0x44538);
+			return (::System::Collections::Generic::List_1<::POJCPPEHHFE*>**)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0x31840);
 		}
-		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet__raycastHits()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Queue_1<::CIEODNAJCEO*>*>** StaticGet_m_dicRuntimeEffects()
 		{
-			return (::Il2CppArray<::UnityEngine::RaycastHit>**)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0x44540);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Queue_1<::CIEODNAJCEO*>*>**)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0x31848);
 		}
-		static ::Unity::Collections::NativeArray_1<::MoleMole::Battle::RBDBattleManager_Struct_2_FB463563CC2FB07B>* StaticGet__castBaseDatas()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Battle::RBDEffectInfo*>** StaticGet_m_dicEffectLimits()
 		{
-			return (::Unity::Collections::NativeArray_1<::MoleMole::Battle::RBDBattleManager_Struct_2_FB463563CC2FB07B>*)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0xFE40);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Battle::RBDEffectInfo*>**)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0x31850);
 		}
-		static ::Unity::Collections::NativeArray_1<::System::Int32>* StaticGet__hitCounts()
+		static ::Unity::Collections::NativeArray_1<::System::Object*>* StaticGet__castJobInDatas()
 		{
-			return (::Unity::Collections::NativeArray_1<::System::Int32>*)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0xFE50);
+			return (::Unity::Collections::NativeArray_1<::System::Object*>*)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0xA740);
 		}
 		static ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>* StaticGet__hitResults()
 		{
-			return (::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>*)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0xFE60);
-		}
-		static ::Unity::Collections::NativeArray_1<::MoleMole::Battle::RBDBattleManager_Struct_2_0781496C6B531BAB>* StaticGet__castJobInDatas()
-		{
-			return (::Unity::Collections::NativeArray_1<::MoleMole::Battle::RBDBattleManager_Struct_2_0781496C6B531BAB>*)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0xFE70);
-		}
-		static ::System::Boolean* StaticGet_ENABLE_HIT_DESTRUCTIBLE()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0xFE80);
+			return (::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>*)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0xA750);
 		}
 		static ::System::Int32* StaticGet_m_nArrayCurIndex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0xFE84);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0xA760);
+		}
+		static ::System::Boolean* StaticGet_ENABLE_HIT_DESTRUCTIBLE()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0xA764);
+		}
+		static ::Unity::Collections::NativeArray_1<::System::Int32>* StaticGet__hitCounts()
+		{
+			return (::Unity::Collections::NativeArray_1<::System::Int32>*)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0xA768);
+		}
+		static ::Unity::Collections::NativeArray_1<::System::Object*>* StaticGet__castBaseDatas()
+		{
+			return (::Unity::Collections::NativeArray_1<::System::Object*>*)Il2CppClass::FromTypeDefinitionIndex(RBDBattleManager_TypeDefinitionIndex)->GetStaticField(0xA778);
 		}
 		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet__hitResultsInJob()
 		{
@@ -127,6 +123,7 @@ namespace MoleMole::Battle
 		// static const ::System::String* EVADE_ANIMATOR_TAG; // 0x0
 		// static const ::System::String* EVADE_BACK_ANIMATOR_TAG; // 0x0
 		::System::Boolean m_bOpenLogicRBD; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::MoleMole::Battle::RBDEffectInfo*>* m_lstRBDEffectInfos; // 0x20
 		::System::Collections::Generic::List_1<::MoleMole::Battle::RBDBattleData*>* m_RBDDatas; // 0x28
 
@@ -140,54 +137,54 @@ namespace MoleMole::Battle
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER__CCTOR_OFFSET))();
 		}
 
-		static ::System::Boolean HitDestructible(::Enum_3_576D2B842B630070 a1, ::System::UInt32 a2, ::System::Collections::Generic::List_1<::Class_1_560B23058CA4940C*>* a3)
+		static ::System::Boolean HitDestructible(::KDIBDJABMDM IMLLDOHDCNC, ::System::UInt32 IJAENCFFJEA, ::System::Collections::Generic::List_1<::GHLDLOHAOGM*>* JFGCINDEHOP)
 		{
-			return ((::System::Boolean(*)(::Enum_3_576D2B842B630070, ::System::UInt32, ::System::Collections::Generic::List_1<::Class_1_560B23058CA4940C*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_HITDESTRUCTIBLE_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::KDIBDJABMDM, ::System::UInt32, ::System::Collections::Generic::List_1<::GHLDLOHAOGM*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_HITDESTRUCTIBLE_OFFSET))(IMLLDOHDCNC, IJAENCFFJEA, JFGCINDEHOP);
 		}
 
-		static ::System::Void BulletTriggerDestructibleHit(::Enum_3_576D2B842B630070 a1, ::System::UInt32 a2, ::Class_1_FE4DC5D381092977* a3)
+		static ::System::Void BulletTriggerDestructibleHit(::KDIBDJABMDM IMLLDOHDCNC, ::System::UInt32 IJAENCFFJEA, ::PFFLAOOPDII* FEJBAMAHKKA)
 		{
-			return ((::System::Void(*)(::Enum_3_576D2B842B630070, ::System::UInt32, ::Class_1_FE4DC5D381092977*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_BULLETTRIGGERDESTRUCTIBLEHIT_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::KDIBDJABMDM, ::System::UInt32, ::PFFLAOOPDII*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_BULLETTRIGGERDESTRUCTIBLEHIT_OFFSET))(IMLLDOHDCNC, IJAENCFFJEA, FEJBAMAHKKA);
 		}
 
-		static ::System::Void TriggerColliderAsync(::Enum_3_576D2B842B630070 a1, ::System::UInt32 a2)
+		static ::System::Void TriggerColliderAsync(::KDIBDJABMDM IMLLDOHDCNC, ::System::UInt32 IJAENCFFJEA)
 		{
-			return ((::System::Void(*)(::Enum_3_576D2B842B630070, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_TRIGGERCOLLIDERASYNC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::KDIBDJABMDM, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_TRIGGERCOLLIDERASYNC_OFFSET))(IMLLDOHDCNC, IJAENCFFJEA);
 		}
 
-		static ::System::Boolean CheckEntityInRush(::Class_3_707412604A129938* a1)
+		static ::System::Boolean CheckEntityInRush(::DIAEPBNFKBO* HBNBIBADGNH)
 		{
-			return ((::System::Boolean(*)(::Class_3_707412604A129938*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_CHECKENTITYINRUSH_OFFSET))(a1);
+			return ((::System::Boolean(*)(::DIAEPBNFKBO*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_CHECKENTITYINRUSH_OFFSET))(HBNBIBADGNH);
 		}
 
-		static ::MoleMole::Battle::RBDBattleManager_Enum_3_67E9A566F14F14F7 CheckResValid(::Enum_3_576D2B842B630070 a1, ::System::UInt32 a2, ::System::Int32 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6)
+		static ::MoleMole::Battle::RBDBattleManager_OJBIDAFMHMM CheckResValid(::KDIBDJABMDM IMLLDOHDCNC, ::System::UInt32 IJAENCFFJEA, ::System::Int32 DOLFGBPBAIN, ::UnityEngine::Vector3 LKKJMPKFCIA, ::UnityEngine::Vector3 LBKMCOKBJEA, ::UnityEngine::Vector3 ANNNDENOJJG)
 		{
-			return ((::MoleMole::Battle::RBDBattleManager_Enum_3_67E9A566F14F14F7(*)(::Enum_3_576D2B842B630070, ::System::UInt32, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_CHECKRESVALID_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::MoleMole::Battle::RBDBattleManager_OJBIDAFMHMM(*)(::KDIBDJABMDM, ::System::UInt32, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_CHECKRESVALID_OFFSET))(IMLLDOHDCNC, IJAENCFFJEA, DOLFGBPBAIN, LKKJMPKFCIA, LBKMCOKBJEA, ANNNDENOJJG);
 		}
 
-		static ::MoleMole::Battle::RBDBattleData* GetRuntimeData(::System::Int32 a1)
+		static ::MoleMole::Battle::RBDBattleData* GetRuntimeData(::System::Int32 MGMDLMBEDJF)
 		{
-			return ((::MoleMole::Battle::RBDBattleData*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_GETRUNTIMEDATA_OFFSET))(a1);
+			return ((::MoleMole::Battle::RBDBattleData*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_GETRUNTIMEDATA_OFFSET))(MGMDLMBEDJF);
 		}
 
-		static ::System::Void FixedUpdate(::System::Single a1)
+		static ::System::Void FixedUpdate(::System::Single LHLNCMNBGAG)
 		{
-			return ((::System::Void(*)(::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_FIXEDUPDATE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_FIXEDUPDATE_OFFSET))(LHLNCMNBGAG);
 		}
 
-		static ::System::Void ProcessHitBreak(::Il2CppArray<::RBDDestruction::RBDManager_HitEvent>* a1, ::System::Int32 a2)
+		static ::System::Void ProcessHitBreak(::Il2CppArray<::System::Object*>* FHGFMBBLNPA, ::System::Int32 ANFFADCGGHI)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::RBDDestruction::RBDManager_HitEvent>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_PROCESSHITBREAK_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Il2CppArray<::System::Object*>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_PROCESSHITBREAK_OFFSET))(FHGFMBBLNPA, ANFFADCGGHI);
 		}
 
-		static ::System::Void ProcessGrounded(::Il2CppArray<::RBDDestruction::RBDManager_GroundedEvent>* a1, ::System::Int32 a2)
+		static ::System::Void ProcessGrounded(::Il2CppArray<::System::Object*>* FHGFMBBLNPA, ::System::Int32 ANFFADCGGHI)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::RBDDestruction::RBDManager_GroundedEvent>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_PROCESSGROUNDED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Il2CppArray<::System::Object*>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_PROCESSGROUNDED_OFFSET))(FHGFMBBLNPA, ANFFADCGGHI);
 		}
 
-		static ::System::Void ProcessDestroy(::Il2CppArray<::RBDDestruction::RBDManager_DestroyEvent>* a1, ::System::Int32 a2)
+		static ::System::Void ProcessDestroy(::Il2CppArray<::System::Object*>* FHGFMBBLNPA, ::System::Int32 ANFFADCGGHI)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::RBDDestruction::RBDManager_DestroyEvent>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_PROCESSDESTROY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Il2CppArray<::System::Object*>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_PROCESSDESTROY_OFFSET))(FHGFMBBLNPA, ANFFADCGGHI);
 		}
 
 		::System::Void Start()
@@ -200,114 +197,114 @@ namespace MoleMole::Battle
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_ONDESTROY_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_16EE4DABFA5B5867(::System::Int32 a1, ::System::Int32 a2)
+		static ::System::Void LLDNJOADIEN(::System::Boolean FBILHHBPEHD, ::MoleMole::Battle::RBDBattleData* MKBCMHIAMHF)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_16EE4DABFA5B5867_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Boolean, ::MoleMole::Battle::RBDBattleData*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_LLDNJOADIEN_OFFSET))(FBILHHBPEHD, MKBCMHIAMHF);
 		}
 
-		static ::System::Boolean Method_5_112F0AC12B1FD790(::System::String* a1, ::UnityEngine::Vector3 a2)
+		static ::System::Single OOGCFKMGADO(::System::Int32 HJIJHNHLPOJ, ::KDIBDJABMDM IMLLDOHDCNC, ::System::UInt32 IJAENCFFJEA)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_112F0AC12B1FD790_OFFSET))(a1, a2);
+			return ((::System::Single(*)(::System::Int32, ::KDIBDJABMDM, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_OOGCFKMGADO_OFFSET))(HJIJHNHLPOJ, IMLLDOHDCNC, IJAENCFFJEA);
 		}
 
-		::System::Boolean Method_5_1D4018D4200358D0()
+		static ::System::Void AOKOMHPOJKA(::System::Int32 HJIJHNHLPOJ, ::UnityEngine::Vector3 ANNNDENOJJG)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_1D4018D4200358D0_OFFSET))(this);
+			return ((::System::Void(*)(::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_AOKOMHPOJKA_OFFSET))(HJIJHNHLPOJ, ANNNDENOJJG);
 		}
 
-		static ::System::Void Method_5_E8552C808F3BB490(::MoleMole::Battle::RBDBattleData* a1)
+		static ::System::Void GFCLGINCAOO()
 		{
-			return ((::System::Void(*)(::MoleMole::Battle::RBDBattleData*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_E8552C808F3BB490_OFFSET))(a1);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_GFCLGINCAOO_OFFSET))();
 		}
 
-		::System::Void Method_5_FE72BF2F281C4FA8()
+		::System::Void BBOMJDBNHIC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_FE72BF2F281C4FA8_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_BBOMJDBNHIC_OFFSET))(this);
 		}
 
-		static ::MoleMole::Battle::RBDBattleManager_Enum_3_67E9A566F14F14F7 Method_5_8E235C789FEC971B(::MoleMole::Battle::RBDBattleData* a1, ::Enum_3_576D2B842B630070 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::MoleMole::Battle::Entity* a6)
+		static ::System::Void JLNFNJCNEJL(::MoleMole::Battle::RBDBattleData* MKBCMHIAMHF)
 		{
-			return ((::MoleMole::Battle::RBDBattleManager_Enum_3_67E9A566F14F14F7(*)(::MoleMole::Battle::RBDBattleData*, ::Enum_3_576D2B842B630070, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_8E235C789FEC971B_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::MoleMole::Battle::RBDBattleData*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_JLNFNJCNEJL_OFFSET))(MKBCMHIAMHF);
 		}
 
-		::System::Void Method_5_F7BA13C72A6B3F58()
+		static ::MoleMole::Battle::RBDBattleManager_OJBIDAFMHMM LPKDCIOMKMD(::MoleMole::Battle::RBDBattleData* MKBCMHIAMHF, ::KDIBDJABMDM IMLLDOHDCNC, ::UnityEngine::Vector3 LKKJMPKFCIA, ::UnityEngine::Vector3 LBKMCOKBJEA, ::UnityEngine::Vector3 ANNNDENOJJG, ::MoleMole::Battle::Entity* MFMPICKHAMJ)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_F7BA13C72A6B3F58_OFFSET))(this);
+			return ((::MoleMole::Battle::RBDBattleManager_OJBIDAFMHMM(*)(::MoleMole::Battle::RBDBattleData*, ::KDIBDJABMDM, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_LPKDCIOMKMD_OFFSET))(MKBCMHIAMHF, IMLLDOHDCNC, LKKJMPKFCIA, LBKMCOKBJEA, ANNNDENOJJG, MFMPICKHAMJ);
 		}
 
-		::System::Void Method_5_FD6692A5F6B0AC0C()
+		static ::System::Void EJLNOEOJOLN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_FD6692A5F6B0AC0C_OFFSET))(this);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_EJLNOEOJOLN_OFFSET))();
 		}
 
-		static ::System::Void Method_5_A239DF324AF4215D()
+		static ::System::Void KMILCKPHIKM()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_A239DF324AF4215D_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_KMILCKPHIKM_OFFSET))();
 		}
 
-		static ::System::Void Method_5_E16793082E43059F(::Enum_3_09D8878FDDF9963B a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::System::Single a6)
+		static ::System::Boolean DKIMMFCKEPC(::System::String* KIPAABMPICE, ::UnityEngine::Vector3 CKPGOKHECCH)
 		{
-			return ((::System::Void(*)(::Enum_3_09D8878FDDF9963B, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_E16793082E43059F_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::System::String*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_DKIMMFCKEPC_OFFSET))(KIPAABMPICE, CKPGOKHECCH);
 		}
 
-		static ::System::Void Method_5_AF0FC2A3AC3D7460(::Enum_3_576D2B842B630070 a1, ::System::UInt32 a2, ::Enum_3_F40B865AC61AB8D7 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::System::Single a6, ::UnityEngine::Vector3 a7, ::System::Single a8, ::System::Int32 a9)
+		static ::System::Void CJOMMNANKKA(::System::Int32 ANFFADCGGHI, ::System::Int32 BDNCMNNDOBB)
 		{
-			return ((::System::Void(*)(::Enum_3_576D2B842B630070, ::System::UInt32, ::Enum_3_F40B865AC61AB8D7, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_AF0FC2A3AC3D7460_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_CJOMMNANKKA_OFFSET))(ANFFADCGGHI, BDNCMNNDOBB);
 		}
 
-		static ::System::Void Method_5_B2AF81294D9C69C7()
+		::System::Void BJANDJKKNCD()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_B2AF81294D9C69C7_OFFSET))();
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_BJANDJKKNCD_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_D308836DB54415C3()
+		::System::Void FBDFJNFGOPC()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_D308836DB54415C3_OFFSET))();
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_FBDFJNFGOPC_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_D3206EC93EE606A4(::System::String* a1, ::MoleMole::Battle::RBDBattleData* a2, ::System::Boolean a3)
+		static ::System::Void NPPPMCMDKIJ(::System::Int32 ANFFADCGGHI, ::System::Int32 BDNCMNNDOBB)
 		{
-			return ((::System::Void(*)(::System::String*, ::MoleMole::Battle::RBDBattleData*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_D3206EC93EE606A4_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_NPPPMCMDKIJ_OFFSET))(ANFFADCGGHI, BDNCMNNDOBB);
 		}
 
-		static ::System::Single Method_5_5827406084A7DA6E(::System::Int32 a1, ::Enum_3_576D2B842B630070 a2, ::System::UInt32 a3)
+		static ::System::Void KANMDKIGDOJ(::System::String* HIAIKHDFCLN, ::MoleMole::Battle::RBDBattleData* MKBCMHIAMHF, ::System::Boolean BCILCINLCGC)
 		{
-			return ((::System::Single(*)(::System::Int32, ::Enum_3_576D2B842B630070, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_5827406084A7DA6E_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::String*, ::MoleMole::Battle::RBDBattleData*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_KANMDKIGDOJ_OFFSET))(HIAIKHDFCLN, MKBCMHIAMHF, BCILCINLCGC);
 		}
 
-		static ::System::Boolean Method_5_D1289BD4E2C7FF87(::System::String* a1)
+		static ::System::Void EBHBPCBLEMM()
 		{
-			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_D1289BD4E2C7FF87_OFFSET))(a1);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_EBHBPCBLEMM_OFFSET))();
 		}
 
-		static ::System::Void Method_5_4164A7F0842B285E(::System::Int32 a1, ::System::Int32 a2)
+		static ::System::Void FFIJLGONBLL(::KDIBDJABMDM BNCDPFLLGKD, ::System::UInt32 LONODJEPPGL, ::EBGABOFHFHL GKNOAHFGNKJ, ::UnityEngine::Vector3 FGLJPLFOOKH, ::UnityEngine::Vector3 JKJBHEJKNDO, ::System::Single NCCDJLDKFGA, ::UnityEngine::Vector3 DAAEHEHLLLD, ::System::Single KGKGLNJAJGN, ::System::Int32 LBPIPEAKPDG)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_4164A7F0842B285E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::KDIBDJABMDM, ::System::UInt32, ::EBGABOFHFHL, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_FFIJLGONBLL_OFFSET))(BNCDPFLLGKD, LONODJEPPGL, GKNOAHFGNKJ, FGLJPLFOOKH, JKJBHEJKNDO, NCCDJLDKFGA, DAAEHEHLLLD, KGKGLNJAJGN, LBPIPEAKPDG);
 		}
 
-		static ::System::Void Method_5_E5D087CB526C8BC7()
+		static ::System::Boolean MDJIBGABKBF(::System::String* KIPAABMPICE)
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_E5D087CB526C8BC7_OFFSET))();
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_MDJIBGABKBF_OFFSET))(KIPAABMPICE);
 		}
 
-		static ::System::Void Method_5_B2AF81294D9C69C7_1()
+		::System::Boolean IFEBHFNACDJ()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_B2AF81294D9C69C7_1_OFFSET))();
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_IFEBHFNACDJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_A984848EA3E436DA()
+		::System::Void ADHJBHIOADO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_A984848EA3E436DA_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_ADHJBHIOADO_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_425D55F2F4775139(::System::Boolean a1, ::MoleMole::Battle::RBDBattleData* a2)
+		static ::System::Void KPAFDDABDKB(::KMGGCBGCNPM IMLLDOHDCNC, ::System::Int32 ANFFADCGGHI, ::System::Int32 BDNCMNNDOBB, ::UnityEngine::Vector3 CKPGOKHECCH, ::UnityEngine::Vector3 DAAEHEHLLLD, ::System::Single AINCMLCGIDK)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::MoleMole::Battle::RBDBattleData*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_425D55F2F4775139_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::KMGGCBGCNPM, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_KPAFDDABDKB_OFFSET))(IMLLDOHDCNC, ANFFADCGGHI, BDNCMNNDOBB, CKPGOKHECCH, DAAEHEHLLLD, AINCMLCGIDK);
 		}
 
-		static ::System::Void Method_5_B13995D2D125B4C3(::System::Int32 a1, ::UnityEngine::Vector3 a2)
+		static ::System::Void OICLJNDGLKL()
 		{
-			return ((::System::Void(*)(::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_METHOD_5_B13995D2D125B4C3_OFFSET))(a1, a2);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_RBDBATTLEMANAGER_OICLJNDGLKL_OFFSET))();
 		}
 	};
 }

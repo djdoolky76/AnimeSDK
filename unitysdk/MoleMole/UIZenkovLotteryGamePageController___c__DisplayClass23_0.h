@@ -5,17 +5,17 @@
 namespace MoleMole { class UIZenkovLotteryGamePageController; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10F13320)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13B3FC80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovLotteryGamePageController___c__DisplayClass23_0_TypeDefinitionIndex = 66021;
+	inline static constexpr unsigned int UIZenkovLotteryGamePageController___c__DisplayClass23_0_TypeDefinitionIndex = 57268;
 
 	class UIZenkovLotteryGamePageController___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::RectTransform* _itemInfoRoot; // 0x10
-		::MoleMole::UIZenkovLotteryGamePageController* __4__this; // 0x18
+		::MoleMole::UIZenkovLotteryGamePageController* __4__this; // 0x10
+		::UnityEngine::RectTransform* _itemInfoRoot; // 0x18
 
 		::System::Void _ctor()
 		{

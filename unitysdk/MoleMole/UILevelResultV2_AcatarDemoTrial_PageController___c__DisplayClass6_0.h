@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UILEVELRESULTV2_ACATARDEMOTRIAL_PAGECONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1839DC30)
-#define MOLEMOLE_UILEVELRESULTV2_ACATARDEMOTRIAL_PAGECONTROLLER___C__DISPLAYCLASS6_0__SETTRIALNEXTLEVELAVATARBTN_B__0_OFFSET UNITYSDK_OFFSET(0x1839DC40)
+#define MOLEMOLE_UILEVELRESULTV2_ACATARDEMOTRIAL_PAGECONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18802520)
+#define MOLEMOLE_UILEVELRESULTV2_ACATARDEMOTRIAL_PAGECONTROLLER___C__DISPLAYCLASS6_0__SETTRIALNEXTLEVELAVATARBTN_B__0_OFFSET UNITYSDK_OFFSET(0x18802530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultV2_AcatarDemoTrial_PageController___c__DisplayClass6_0_TypeDefinitionIndex = 49068;
+	inline static constexpr unsigned int UILevelResultV2_AcatarDemoTrial_PageController___c__DisplayClass6_0_TypeDefinitionIndex = 85654;
 
 	class UILevelResultV2_AcatarDemoTrial_PageController___c__DisplayClass6_0 : public ::System::Object
 	{

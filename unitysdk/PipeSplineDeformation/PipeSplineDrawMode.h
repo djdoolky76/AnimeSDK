@@ -3,11 +3,11 @@
 
 namespace PipeSplineDeformation
 {
-	inline static constexpr unsigned int PipeSplineDrawMode_TypeDefinitionIndex = 27381;
+	inline static constexpr unsigned int PipeSplineDrawMode_TypeDefinitionIndex = 26929;
 
 	enum class PipeSplineDrawMode : ::System::Int32
 	{
-		InstancedIndirect = 1,
 		Instanced = 0,
+		InstancedIndirect = 1,
 	};
 }

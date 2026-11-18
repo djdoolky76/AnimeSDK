@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIVIDEOSHOPUPSETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A858B0)
+#define MOLEMOLE_UIVIDEOSHOPUPSETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13BDFCA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoshopUpSetContext_TypeDefinitionIndex = 84531;
+	inline static constexpr unsigned int UIVideoshopUpSetContext_TypeDefinitionIndex = 65854;
 
 	class UIVideoshopUpSetContext : public ::MoleMole::UIControllerContextBase
 	{

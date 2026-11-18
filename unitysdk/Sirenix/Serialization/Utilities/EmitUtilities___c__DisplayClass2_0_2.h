@@ -6,9 +6,9 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int EmitUtilities___c__DisplayClass2_0_2_TypeDefinitionIndex = 7645;
+	inline static constexpr unsigned int EmitUtilities___c__DisplayClass2_0_2_TypeDefinitionIndex = 7657;
 
-	template <typename InstanceType, typename FieldType>
+	template <typename T1, typename T2>
 	class EmitUtilities___c__DisplayClass2_0_2 : public ::System::Object
 	{
 	public:

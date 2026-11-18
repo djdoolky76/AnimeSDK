@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CalendarWeekRule_TypeDefinitionIndex = 705;
+	inline static constexpr unsigned int CalendarWeekRule_TypeDefinitionIndex = 704;
 
 	enum class CalendarWeekRule : ::System::Int32
 	{

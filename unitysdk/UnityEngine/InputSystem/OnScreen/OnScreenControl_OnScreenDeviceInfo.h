@@ -7,30 +7,35 @@
 namespace UnityEngine::InputSystem { class InputDevice; }
 namespace UnityEngine::InputSystem::OnScreen { class OnScreenControl; }
 
-#define UNITYENGINE_INPUTSYSTEM_ONSCREEN_ONSCREENCONTROL_ONSCREENDEVICEINFO_ADDCONTROL_OFFSET UNITYSDK_OFFSET(0xA681B0)
-#define UNITYENGINE_INPUTSYSTEM_ONSCREEN_ONSCREENCONTROL_ONSCREENDEVICEINFO_DESTROY_OFFSET UNITYSDK_OFFSET(0xA68210)
-#define UNITYENGINE_INPUTSYSTEM_ONSCREEN_ONSCREENCONTROL_ONSCREENDEVICEINFO_REMOVECONTROL_OFFSET UNITYSDK_OFFSET(0xA681F0)
+#define UNITYENGINE_INPUTSYSTEM_ONSCREEN_ONSCREENCONTROL_ONSCREENDEVICEINFO_ADDCONTROL_OFFSET UNITYSDK_OFFSET(0x948590)
+#define UNITYENGINE_INPUTSYSTEM_ONSCREEN_ONSCREENCONTROL_ONSCREENDEVICEINFO_DESTROY_OFFSET UNITYSDK_OFFSET(0x9485F0)
+#define UNITYENGINE_INPUTSYSTEM_ONSCREEN_ONSCREENCONTROL_ONSCREENDEVICEINFO_REMOVECONTROL_OFFSET UNITYSDK_OFFSET(0x9485D0)
 
 namespace UnityEngine::InputSystem::OnScreen
 {
-	inline static constexpr unsigned int OnScreenControl_OnScreenDeviceInfo_TypeDefinitionIndex = 32404;
+	inline static constexpr unsigned int OnScreenControl_OnScreenDeviceInfo_TypeDefinitionIndex = 31853;
 
 	struct alignas(8) OnScreenControl_OnScreenDeviceInfo
 	{
 		::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr; // 0x10
 		::Unity::Collections::NativeArray_1<::System::Byte> buffer; // 0x18
+		::System::Byte _padding0[0x8];
 		::UnityEngine::InputSystem::InputDevice* device; // 0x28
 		::UnityEngine::InputSystem::OnScreen::OnScreenControl* firstControl; // 0x30
 
+		/*
 		::UnityEngine::InputSystem::OnScreen::OnScreenControl_OnScreenDeviceInfo AddControl(::UnityEngine::InputSystem::OnScreen::OnScreenControl* control)
 		{
 			return ((::UnityEngine::InputSystem::OnScreen::OnScreenControl_OnScreenDeviceInfo(*)(::PVOID, ::UnityEngine::InputSystem::OnScreen::OnScreenControl*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_ONSCREEN_ONSCREENCONTROL_ONSCREENDEVICEINFO_ADDCONTROL_OFFSET))(this, control);
 		}
+		*/
 
+		/*
 		::UnityEngine::InputSystem::OnScreen::OnScreenControl_OnScreenDeviceInfo RemoveControl(::UnityEngine::InputSystem::OnScreen::OnScreenControl* control)
 		{
 			return ((::UnityEngine::InputSystem::OnScreen::OnScreenControl_OnScreenDeviceInfo(*)(::PVOID, ::UnityEngine::InputSystem::OnScreen::OnScreenControl*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_ONSCREEN_ONSCREENCONTROL_ONSCREENDEVICEINFO_REMOVECONTROL_OFFSET))(this, control);
 		}
+		*/
 
 		::System::Void Destroy()
 		{

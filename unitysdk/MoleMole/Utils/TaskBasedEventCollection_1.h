@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole::Utils { class ITypeErasedCompletionSource; }
@@ -10,7 +8,7 @@ namespace System::Threading { class CancellationTokenSource; }
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int TaskBasedEventCollection_1_TypeDefinitionIndex = 45046;
+	inline static constexpr unsigned int TaskBasedEventCollection_1_TypeDefinitionIndex = 60410;
 
 	template <typename T>
 	class TaskBasedEventCollection_1 : public ::System::Object

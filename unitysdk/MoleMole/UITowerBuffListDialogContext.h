@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UITOWERBUFFLISTDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x162A0F70)
+#define MOLEMOLE_UITOWERBUFFLISTDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C9E220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerBuffListDialogContext_TypeDefinitionIndex = 74635;
+	inline static constexpr unsigned int UITowerBuffListDialogContext_TypeDefinitionIndex = 43990;
 
 	class UITowerBuffListDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* lockEquipList; // 0x28
+		::System::String* titleKey; // 0x28
 		::System::Collections::Generic::List_1<::System::Int32>* totalEquipList; // 0x30
-		::System::Collections::Generic::List_1<::System::Int32>* equipList; // 0x38
-		::System::String* titleKey; // 0x40
+		::System::Collections::Generic::List_1<::System::Int32>* lockEquipList; // 0x38
+		::System::Collections::Generic::List_1<::System::Int32>* equipList; // 0x40
 		::System::Int32 enhanceType; // 0x48
 		::System::Int32 questid; // 0x4C
 		::System::Int32 totalSelectCount; // 0x50

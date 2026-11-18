@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace PipelineCamera::CameraSequence { class ICameraSequenceSegment; }
-
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int ICameraSequenceSegmentOwner_TypeDefinitionIndex = 38590;
+	inline static constexpr unsigned int ICameraSequenceSegmentOwner_TypeDefinitionIndex = 36589;
 
 	class ICameraSequenceSegmentOwner
 	{

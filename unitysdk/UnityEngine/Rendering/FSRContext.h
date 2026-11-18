@@ -4,13 +4,14 @@
 #include "unitysdk/UnityEngine/Rendering/FSRConstants.h"
 #include "unitysdk/UnityEngine/Rendering/FSRFGQualityMode.h"
 #include "unitysdk/UnityEngine/Rendering/FSRQualityMode.h"
+#include "unitysdk/UnityEngine/Rendering/FrameGenOffMode.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FSRContext_TypeDefinitionIndex = 6152;
+	inline static constexpr unsigned int FSRContext_TypeDefinitionIndex = 6162;
 
-	struct alignas(8) FSRContext
+	struct alignas(4) FSRContext
 	{
 		::System::Int32 w; // 0x10
 		::System::Int32 h; // 0x14
@@ -26,7 +27,9 @@ namespace UnityEngine::Rendering
 		::System::Boolean useHudlessColor; // 0x30
 		::System::Boolean useOffScreenUI; // 0x31
 		::System::Boolean useReactiveMask; // 0x32
-		::UnityEngine::Rendering::FSRConstants constants; // 0x34
+		::System::Byte _padding0[0x1];
+		::UnityEngine::Rendering::FrameGenOffMode frameGenOffMode; // 0x34
+		::UnityEngine::Rendering::FSRConstants constants; // 0x38
 		::UnityEngine::Rendering::RenderTargetIdentifier colorIn; // 0x1E0
 		::UnityEngine::Rendering::RenderTargetIdentifier colorOut; // 0x208
 		::UnityEngine::Rendering::RenderTargetIdentifier depth; // 0x230

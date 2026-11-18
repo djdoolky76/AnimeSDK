@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MiHoYo::SDK { class AccountModel; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS112_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF4640)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS112_0__GETCOOKIETOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1CAF4650)
+
+namespace MiHoYo::SDK::Win
+{
+	inline static constexpr unsigned int LoginManager___c__DisplayClass112_0_TypeDefinitionIndex = 20761;
+
+	class LoginManager___c__DisplayClass112_0 : public ::System::Object
+	{
+	public:
+		::MiHoYo::SDK::AccountModel* account; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS112_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _GetCookieToken_b__0(::System::String* nativeResponse)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS112_0__GETCOOKIETOKEN_B__0_OFFSET))(this, nativeResponse);
+		}
+	};
+}

@@ -5,11 +5,12 @@
 
 namespace DG::Tweening::Plugins::Options
 {
-	inline static constexpr unsigned int StringOptions_TypeDefinitionIndex = 28567;
+	inline static constexpr unsigned int StringOptions_TypeDefinitionIndex = 28006;
 
 	struct alignas(8) StringOptions
 	{
 		::System::Boolean richTextEnabled; // 0x10
+		::System::Byte _padding0[0x3];
 		::DG::Tweening::ScrambleMode scrambleMode; // 0x14
 		::Il2CppArray<::System::Char>* scrambledChars; // 0x18
 		::System::Int32 startValueStrippedLength; // 0x20

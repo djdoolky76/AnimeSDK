@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Filter_FilterMode_TypeDefinitionIndex = 30990;
+	inline static constexpr unsigned int Filter_FilterMode_TypeDefinitionIndex = 30268;
 
 	enum class Filter_FilterMode : ::System::Int32
 	{

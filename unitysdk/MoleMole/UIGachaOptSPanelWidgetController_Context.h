@@ -5,11 +5,11 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIGACHAOPTSPANELWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D90D50)
+#define MOLEMOLE_UIGACHAOPTSPANELWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17839320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaOptSPanelWidgetController_Context_TypeDefinitionIndex = 66998;
+	inline static constexpr unsigned int UIGachaOptSPanelWidgetController_Context_TypeDefinitionIndex = 46280;
 
 	class UIGachaOptSPanelWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

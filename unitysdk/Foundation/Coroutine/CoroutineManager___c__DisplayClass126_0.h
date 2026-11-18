@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Coroutine/CoroutineHandle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/Coroutine/CoroutineHandle.h"
 
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace UnityEngine { class AsyncOperation; }
 
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS126_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7813D0)
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS126_0__WAITUNTILDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1F7813E0)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS126_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9C76B0)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS126_0__WAITUNTILDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1F9C76C0)
 
 namespace Foundation::Coroutine
 {
-	inline static constexpr unsigned int CoroutineManager___c__DisplayClass126_0_TypeDefinitionIndex = 8043;
+	inline static constexpr unsigned int CoroutineManager___c__DisplayClass126_0_TypeDefinitionIndex = 8549;
 
 	class CoroutineManager___c__DisplayClass126_0 : public ::System::Object
 	{

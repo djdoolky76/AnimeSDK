@@ -5,12 +5,12 @@
 namespace MoleMole { class UIBangbooMicroWebRoleRowWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBANGBOOMICROWEBROLEROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19701A30)
-#define MOLEMOLE_UIBANGBOOMICROWEBROLEROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__PLAYUNLOCKANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x19701A40)
+#define MOLEMOLE_UIBANGBOOMICROWEBROLEROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19FA4830)
+#define MOLEMOLE_UIBANGBOOMICROWEBROLEROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__PLAYUNLOCKANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x19FA4840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooMicroWebRoleRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 50476;
+	inline static constexpr unsigned int UIBangbooMicroWebRoleRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 64894;
 
 	class UIBangbooMicroWebRoleRowWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{

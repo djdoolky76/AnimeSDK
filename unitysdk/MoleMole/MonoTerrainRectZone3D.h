@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/MonoTerrainSubZone3D.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_MONOTERRAINRECTZONE3D_METHOD_7_C3FCFEB83374757C_OFFSET UNITYSDK_OFFSET(0x11D59440)
-#define MOLEMOLE_MONOTERRAINRECTZONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x11D594D0)
+#define MOLEMOLE_MONOTERRAINRECTZONE3D_MDAEOKBFACK_OFFSET UNITYSDK_OFFSET(0x11946DC0)
+#define MOLEMOLE_MONOTERRAINRECTZONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x11946E50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTerrainRectZone3D_TypeDefinitionIndex = 49700;
+	inline static constexpr unsigned int MonoTerrainRectZone3D_TypeDefinitionIndex = 40643;
 
 	class MonoTerrainRectZone3D : public ::MoleMole::MonoTerrainSubZone3D
 	{
@@ -22,9 +22,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINRECTZONE3D__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_7_C3FCFEB83374757C(::UnityEngine::Vector3 a1)
+		::System::Boolean MDAEOKBFACK(::UnityEngine::Vector3 CKPGOKHECCH)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINRECTZONE3D_METHOD_7_C3FCFEB83374757C_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINRECTZONE3D_MDAEOKBFACK_OFFSET))(this, CKPGOKHECCH);
 		}
 	};
 }

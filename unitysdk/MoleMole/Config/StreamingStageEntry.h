@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/StageEntry.h"
 
-class Class_1_8C28E085C991E9A7;
+class MBAOHJLIJHD;
 namespace MoleMole { class MonoStageEnv; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x1B804EF0)
-#define MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY_GET_CUSTOMDATA_OFFSET UNITYSDK_OFFSET(0x1B804EE0)
-#define MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY_GET_STAGESCENEPATH_OFFSET UNITYSDK_OFFSET(0x1B804ED0)
-#define MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY_LOADSTAGEENV_OFFSET UNITYSDK_OFFSET(0x1B804FA0)
-#define MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B804F90)
-#define MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY___BASE_LOADSTAGEENV_OFFSET UNITYSDK_OFFSET(0x1B805460)
+#define MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x192B9F40)
+#define MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY_GET_CUSTOMDATA_OFFSET UNITYSDK_OFFSET(0x192B9F30)
+#define MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY_GET_STAGESCENEPATH_OFFSET UNITYSDK_OFFSET(0x192B9F20)
+#define MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY_LOADSTAGEENV_OFFSET UNITYSDK_OFFSET(0x192B9FF0)
+#define MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x192B9FE0)
+#define MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY___BASE_LOADSTAGEENV_OFFSET UNITYSDK_OFFSET(0x192BA4B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int StreamingStageEntry_TypeDefinitionIndex = 66907;
+	inline static constexpr unsigned int StreamingStageEntry_TypeDefinitionIndex = 52934;
 
 	class StreamingStageEntry : public ::MoleMole::Config::StageEntry
 	{
 	public:
-		::Class_1_8C28E085C991E9A7* _sceneData; // 0x80
-		::System::String* _sceneName; // 0x88
+		::System::String* _sceneName; // 0x80
+		::MBAOHJLIJHD* _sceneData; // 0x88
 
 		::System::Void _ctor()
 		{
@@ -39,9 +39,9 @@ namespace MoleMole::Config
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY_GET_CUSTOMDATA_OFFSET))(this);
 		}
 
-		static ::MoleMole::Config::StreamingStageEntry* Allocate(::System::String* sceneName, ::Class_1_8C28E085C991E9A7* streamingSceneData)
+		static ::MoleMole::Config::StreamingStageEntry* Allocate(::System::String* sceneName, ::MBAOHJLIJHD* streamingSceneData)
 		{
-			return ((::MoleMole::Config::StreamingStageEntry*(*)(::System::String*, ::Class_1_8C28E085C991E9A7*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY_ALLOCATE_OFFSET))(sceneName, streamingSceneData);
+			return ((::MoleMole::Config::StreamingStageEntry*(*)(::System::String*, ::MBAOHJLIJHD*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_STREAMINGSTAGEENTRY_ALLOCATE_OFFSET))(sceneName, streamingSceneData);
 		}
 
 		::MoleMole::MonoStageEnv* LoadStageEnv()

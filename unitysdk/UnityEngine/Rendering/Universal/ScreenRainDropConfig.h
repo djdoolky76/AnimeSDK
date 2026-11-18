@@ -5,16 +5,17 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCREENRAINDROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC73120)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCREENRAINDROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E885B0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScreenRainDropConfig_TypeDefinitionIndex = 27491;
+	inline static constexpr unsigned int ScreenRainDropConfig_TypeDefinitionIndex = 26799;
 
 	class ScreenRainDropConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean EnableScreenRainDrop; // 0x10
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Texture2D* RainDropTexture; // 0x18
 		::UnityEngine::AnimationCurve* AnimCurve; // 0x20
 		::UnityEngine::Texture2D* RainDropAnimTexture; // 0x28

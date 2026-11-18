@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int ActionAttribute_ActionEnum_TypeDefinitionIndex = 28918;
+	inline static constexpr unsigned int ActionAttribute_ActionEnum_TypeDefinitionIndex = 28357;
 
 	enum class ActionAttribute_ActionEnum : ::System::Int32
 	{

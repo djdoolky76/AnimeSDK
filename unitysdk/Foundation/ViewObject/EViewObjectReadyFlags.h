@@ -3,12 +3,12 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int EViewObjectReadyFlags_TypeDefinitionIndex = 46270;
+	inline static constexpr unsigned int EViewObjectReadyFlags_TypeDefinitionIndex = 85322;
 
 	enum class EViewObjectReadyFlags : ::System::Int32
 	{
-		None = 0,
-		EntityLoadFinish = 1,
 		GraphLoadFinish = 2,
+		EntityLoadFinish = 1,
+		None = 0,
 	};
 }

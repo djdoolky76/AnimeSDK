@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class ALIEALDFGKE;
+class OAEFGCLEHHO;
+
+#define IEDHKGPALKM_CHMIKALHGEK_BGEAGEJKBHJ_OFFSET UNITYSDK_OFFSET(0x1A39B060)
+#define IEDHKGPALKM_CHMIKALHGEK_CKFDAIBPNMM_OFFSET UNITYSDK_OFFSET(0x1A39B000)
+#define IEDHKGPALKM_CHMIKALHGEK_EPLPLCFBEEF_OFFSET UNITYSDK_OFFSET(0x1A39B070)
+#define IEDHKGPALKM_CHMIKALHGEK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A39AFF0)
+
+inline static constexpr unsigned int IEDHKGPALKM_CHMIKALHGEK_TypeDefinitionIndex = 89865;
+
+class IEDHKGPALKM_CHMIKALHGEK : public ::System::Object
+{
+public:
+	::ALIEALDFGKE* IGAAKDOIPNN; // 0x10
+	::System::Boolean DOBFFIICAII; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IEDHKGPALKM_CHMIKALHGEK__CTOR_OFFSET))(this);
+	}
+
+	::System::Void CKFDAIBPNMM(::OAEFGCLEHHO* JCHFKGGDDFB)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + IEDHKGPALKM_CHMIKALHGEK_CKFDAIBPNMM_OFFSET))(this, JCHFKGGDDFB);
+	}
+
+	::System::Boolean BGEAGEJKBHJ()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + IEDHKGPALKM_CHMIKALHGEK_BGEAGEJKBHJ_OFFSET))(this);
+	}
+
+	::System::Void EPLPLCFBEEF(::OAEFGCLEHHO* PIIPCLCCOIG)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + IEDHKGPALKM_CHMIKALHGEK_EPLPLCFBEEF_OFFSET))(this, PIIPCLCCOIG);
+	}
+};

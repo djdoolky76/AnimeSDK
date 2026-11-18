@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Plane.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/Plane.h"
 
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class MaterialPropertyBlock; }
@@ -14,14 +14,14 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture3D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOG_NATIVESRP_CHECKVISIABLE_OFFSET UNITYSDK_OFFSET(0x1EB67190)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOG_NATIVESRP_DRAWLOCALVOLUMETRICFOG_OFFSET UNITYSDK_OFFSET(0x1EB66CA0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOG_NATIVESRP_GETBOUNDS_OFFSET UNITYSDK_OFFSET(0x1EB673D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOG_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB67420)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOG_NATIVESRP_CHECKVISIABLE_OFFSET UNITYSDK_OFFSET(0x1F02AE80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOG_NATIVESRP_DRAWLOCALVOLUMETRICFOG_OFFSET UNITYSDK_OFFSET(0x1F02A990)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOG_NATIVESRP_GETBOUNDS_OFFSET UNITYSDK_OFFSET(0x1F02B0C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOG_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F02B110)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int VolumetricFog_NativeSRP_TypeDefinitionIndex = 6010;
+	inline static constexpr unsigned int VolumetricFog_NativeSRP_TypeDefinitionIndex = 6018;
 
 	class VolumetricFog_NativeSRP : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,6 +33,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Single m_StartFadeOutDistance; // 0x30
 		::System::Single m_MaxVisiableDistance; // 0x34
 		::System::Boolean m_EnableDistanceCulling; // 0x38
+		::System::Byte _padding0[0x3];
 		::System::Single m_Param_IntensityTowardLight; // 0x3C
 		::System::Single m_Param_DustIntensity; // 0x40
 		::System::Single m_Param_MaxIntensity; // 0x44
@@ -40,15 +41,18 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::Color m_Param_Color; // 0x4C
 		::UnityEngine::Vector4 densityAndDistortionTilling; // 0x5C
 		::UnityEngine::Vector4 panDirectionAndSpeed; // 0x6C
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Texture3D* distortionTexture; // 0x80
 		::UnityEngine::Texture3D* densityTexture; // 0x88
 		::Il2CppArray<::UnityEngine::Vector3>* boundExtensions; // 0x90
 		::Il2CppArray<::UnityEngine::Vector3>* boundCenters; // 0x98
 		::Il2CppArray<::UnityEngine::Bounds>* bounds; // 0xA0
 		::System::Boolean isInEditorMode; // 0xA8
+		::System::Byte _padding2[0x3];
 		::System::Int32 proxyType; // 0xAC
 		::UnityEngine::Matrix4x4 proxyMatrix; // 0xB0
 		::System::Boolean isVisiable; // 0xF0
+		::System::Byte _padding3[0x3];
 		::System::Single fadeValue; // 0xF4
 
 		::System::Void _ctor()

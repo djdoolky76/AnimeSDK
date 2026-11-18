@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_E64C24AE0799EB7C.h"
+#include "unitysdk/HKIPDKIIDOD.h"
 #include "unitysdk/MoleMole/SystemSettingEntryBase.h"
 
-#define MOLEMOLE_SMALLTITLESETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET UNITYSDK_OFFSET(0x13860830)
-#define MOLEMOLE_SMALLTITLESETTINGENTRY_GET__ISHIDEVERSIONCODE_OFFSET UNITYSDK_OFFSET(0x13860820)
-#define MOLEMOLE_SMALLTITLESETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x13860840)
+#define MOLEMOLE_SMALLTITLESETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET UNITYSDK_OFFSET(0x13A07040)
+#define MOLEMOLE_SMALLTITLESETTINGENTRY_GET__ISHIDEVERSIONCODE_OFFSET UNITYSDK_OFFSET(0x13A07030)
+#define MOLEMOLE_SMALLTITLESETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x13A07050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SmallTitleSettingEntry_TypeDefinitionIndex = 74123;
+	inline static constexpr unsigned int SmallTitleSettingEntry_TypeDefinitionIndex = 88429;
 
 	class SmallTitleSettingEntry : public ::MoleMole::SystemSettingEntryBase
 	{
@@ -24,9 +24,9 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SMALLTITLESETTINGENTRY_GET__ISHIDEVERSIONCODE_OFFSET))(this);
 		}
 
-		::Enum_3_E64C24AE0799EB7C get_SettingWidgetType()
+		::HKIPDKIIDOD get_SettingWidgetType()
 		{
-			return ((::Enum_3_E64C24AE0799EB7C(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SMALLTITLESETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET))(this);
+			return ((::HKIPDKIIDOD(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SMALLTITLESETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET))(this);
 		}
 	};
 }

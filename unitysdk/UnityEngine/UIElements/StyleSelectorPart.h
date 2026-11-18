@@ -6,18 +6,19 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_STYLESELECTORPART_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x32EEE0)
-#define UNITYENGINE_UIELEMENTS_STYLESELECTORPART_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x259D70)
-#define UNITYENGINE_UIELEMENTS_STYLESELECTORPART_TOSTRING_OFFSET UNITYSDK_OFFSET(0x97FBA0)
+#define UNITYENGINE_UIELEMENTS_STYLESELECTORPART_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x363D60)
+#define UNITYENGINE_UIELEMENTS_STYLESELECTORPART_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x282350)
+#define UNITYENGINE_UIELEMENTS_STYLESELECTORPART_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8BBFE0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleSelectorPart_TypeDefinitionIndex = 28201;
+	inline static constexpr unsigned int StyleSelectorPart_TypeDefinitionIndex = 27619;
 
 	struct alignas(8) StyleSelectorPart
 	{
 		::System::String* m_Value; // 0x10
 		::UnityEngine::UIElements::StyleSelectorType m_Type; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Object* tempData; // 0x20
 
 		::System::String* get_value()

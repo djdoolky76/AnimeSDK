@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 
-#define MOLEMOLE_UIACTIVITYRETURNGIFTV3POPWINDOWCONTROLLER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDD500)
-#define MOLEMOLE_UIACTIVITYRETURNGIFTV3POPWINDOWCONTROLLER___C__DISPLAYCLASS1_0__REFRESHREWARDSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x18BDD510)
+#define MOLEMOLE_UIACTIVITYRETURNGIFTV3POPWINDOWCONTROLLER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1885DD40)
+#define MOLEMOLE_UIACTIVITYRETURNGIFTV3POPWINDOWCONTROLLER___C__DISPLAYCLASS1_0__REFRESHREWARDSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x1885DD50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityReturnGiftV3PopWindowController___c__DisplayClass1_0_TypeDefinitionIndex = 56588;
+	inline static constexpr unsigned int UIActivityReturnGiftV3PopWindowController___c__DisplayClass1_0_TypeDefinitionIndex = 62779;
 
 	class UIActivityReturnGiftV3PopWindowController___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::Class_1_0D6706375CDAAE8C* item; // 0x10
+		::HGAJKHIMKJP* item; // 0x10
 
 		::System::Void _ctor()
 		{

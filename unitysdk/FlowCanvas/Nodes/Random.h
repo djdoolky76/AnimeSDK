@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Func_5; }
@@ -9,22 +9,22 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define FLOWCANVAS_NODES_RANDOM_GET_PORTCOUNT_OFFSET UNITYSDK_OFFSET(0x1EB7EAF0)
-#define FLOWCANVAS_NODES_RANDOM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EB7EB10)
-#define FLOWCANVAS_NODES_RANDOM_SET_PORTCOUNT_OFFSET UNITYSDK_OFFSET(0x1EB7EB00)
-#define FLOWCANVAS_NODES_RANDOM_STARTCOROUTINEWRAP_OFFSET UNITYSDK_OFFSET(0x1EB7ECF0)
-#define FLOWCANVAS_NODES_RANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7ED30)
+#define FLOWCANVAS_NODES_RANDOM_GET_PORTCOUNT_OFFSET UNITYSDK_OFFSET(0x1EF4E880)
+#define FLOWCANVAS_NODES_RANDOM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EF4E8A0)
+#define FLOWCANVAS_NODES_RANDOM_SET_PORTCOUNT_OFFSET UNITYSDK_OFFSET(0x1EF4E890)
+#define FLOWCANVAS_NODES_RANDOM_STARTCOROUTINEWRAP_OFFSET UNITYSDK_OFFSET(0x1EF4EA80)
+#define FLOWCANVAS_NODES_RANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF4EAC0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Random_TypeDefinitionIndex = 31400;
+	inline static constexpr unsigned int Random_TypeDefinitionIndex = 29269;
 
 	class Random : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		static ::System::Func_5<::FlowCanvas::Nodes::Random*, ::FlowCanvas::Flow, ::System::Collections::Generic::List_1<::FlowCanvas::FlowOutput*>*, ::System::Int32, ::System::Boolean>** StaticGet_OnCall()
 		{
-			return (::System::Func_5<::FlowCanvas::Nodes::Random*, ::FlowCanvas::Flow, ::System::Collections::Generic::List_1<::FlowCanvas::FlowOutput*>*, ::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Random_TypeDefinitionIndex)->GetStaticField(0x259A0);
+			return (::System::Func_5<::FlowCanvas::Nodes::Random*, ::FlowCanvas::Flow, ::System::Collections::Generic::List_1<::FlowCanvas::FlowOutput*>*, ::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Random_TypeDefinitionIndex)->GetStaticField(0x27170);
 		}
 		::UnityEngine::Coroutine* coroutine; // 0xA8
 		::System::Int32 _portCount; // 0xB0

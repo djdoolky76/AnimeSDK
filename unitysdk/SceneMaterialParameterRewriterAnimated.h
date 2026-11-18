@@ -6,23 +6,24 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 
 class SceneMaterialParameterRewriterAnimated_MaterialAnimationOverrideElement;
-class SceneMaterialParameterRewriterAnimated_TargetElement;
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SCENEMATERIALPARAMETERREWRITERANIMATED_APPLY_OFFSET UNITYSDK_OFFSET(0x1C410960)
-#define SCENEMATERIALPARAMETERREWRITERANIMATED_CLEARCONTENT_OFFSET UNITYSDK_OFFSET(0x1C411830)
-#define SCENEMATERIALPARAMETERREWRITERANIMATED_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C4117E0)
-#define SCENEMATERIALPARAMETERREWRITERANIMATED_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C410910)
-#define SCENEMATERIALPARAMETERREWRITERANIMATED_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C4119A0)
-#define SCENEMATERIALPARAMETERREWRITERANIMATED__CTOR_OFFSET UNITYSDK_OFFSET(0x1C411A00)
+#define SCENEMATERIALPARAMETERREWRITERANIMATED_APPLY_OFFSET UNITYSDK_OFFSET(0x1C836C00)
+#define SCENEMATERIALPARAMETERREWRITERANIMATED_CLEARCONTENT_OFFSET UNITYSDK_OFFSET(0x1C837AD0)
+#define SCENEMATERIALPARAMETERREWRITERANIMATED_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C837A80)
+#define SCENEMATERIALPARAMETERREWRITERANIMATED_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C836BB0)
+#define SCENEMATERIALPARAMETERREWRITERANIMATED_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C837C40)
+#define SCENEMATERIALPARAMETERREWRITERANIMATED__CTOR_OFFSET UNITYSDK_OFFSET(0x1C837CA0)
 
-inline static constexpr unsigned int SceneMaterialParameterRewriterAnimated_TypeDefinitionIndex = 27343;
+inline static constexpr unsigned int SceneMaterialParameterRewriterAnimated_TypeDefinitionIndex = 26645;
 
 class SceneMaterialParameterRewriterAnimated : public ::UnityEngine::MonoBehaviour
 {
 public:
-	::Il2CppArray<::SceneMaterialParameterRewriterAnimated_TargetElement*>* renderList0; // 0x18
+	::Il2CppArray<::System::Object*>* renderList0; // 0x18
 	::SceneMaterialParameterRewriterAnimated_MaterialAnimationOverrideElement_Type type00; // 0x20
+	::System::Byte _padding0[0x4];
 	::System::String* propertyName00; // 0x28
 	::UnityEngine::Color colorValue00; // 0x30
 	::UnityEngine::Vector4 vectorValue00; // 0x40
@@ -37,8 +38,10 @@ public:
 	::UnityEngine::Color colorValue02; // 0x90
 	::UnityEngine::Vector4 vectorValue02; // 0xA0
 	::System::Single floatValue02; // 0xB0
-	::Il2CppArray<::SceneMaterialParameterRewriterAnimated_TargetElement*>* renderList1; // 0xB8
+	::System::Byte _padding1[0x4];
+	::Il2CppArray<::System::Object*>* renderList1; // 0xB8
 	::SceneMaterialParameterRewriterAnimated_MaterialAnimationOverrideElement_Type type10; // 0xC0
+	::System::Byte _padding2[0x4];
 	::System::String* propertyName10; // 0xC8
 	::UnityEngine::Color colorValue10; // 0xD0
 	::UnityEngine::Vector4 vectorValue10; // 0xE0
@@ -53,8 +56,10 @@ public:
 	::UnityEngine::Color colorValue12; // 0x130
 	::UnityEngine::Vector4 vectorValue12; // 0x140
 	::System::Single floatValue12; // 0x150
-	::Il2CppArray<::SceneMaterialParameterRewriterAnimated_TargetElement*>* renderList2; // 0x158
+	::System::Byte _padding3[0x4];
+	::Il2CppArray<::System::Object*>* renderList2; // 0x158
 	::SceneMaterialParameterRewriterAnimated_MaterialAnimationOverrideElement_Type type20; // 0x160
+	::System::Byte _padding4[0x4];
 	::System::String* propertyName20; // 0x168
 	::UnityEngine::Color colorValue20; // 0x170
 	::UnityEngine::Vector4 vectorValue20; // 0x180
@@ -69,7 +74,8 @@ public:
 	::UnityEngine::Color colorValue22; // 0x1D0
 	::UnityEngine::Vector4 vectorValue22; // 0x1E0
 	::System::Single floatValue22; // 0x1F0
-	::Il2CppArray<::SceneMaterialParameterRewriterAnimated_MaterialAnimationOverrideElement*>* cachedMaterials; // 0x1F8
+	::System::Byte _padding5[0x4];
+	::Il2CppArray<::System::Object*>* cachedMaterials; // 0x1F8
 	::SceneMaterialParameterRewriterAnimated_MaterialAnimationOverrideElement* material00; // 0x200
 	::SceneMaterialParameterRewriterAnimated_MaterialAnimationOverrideElement* material01; // 0x208
 	::SceneMaterialParameterRewriterAnimated_MaterialAnimationOverrideElement* material02; // 0x210

@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/InputSystem/InputBindingCompositeContext.h"
-#include "unitysdk/UnityEngine/InputSystem/InputBindingComposite_1.h"
 
-#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_BUTTONWITHONEMODIFIER_EVALUATEMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1F377C00)
-#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_BUTTONWITHONEMODIFIER_READVALUE_OFFSET UNITYSDK_OFFSET(0x1F377B70)
-#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_BUTTONWITHONEMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F377C90)
+#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_BUTTONWITHONEMODIFIER_EVALUATEMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x1F788F80)
+#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_BUTTONWITHONEMODIFIER_READVALUE_OFFSET UNITYSDK_OFFSET(0x1F788EF0)
+#define UNITYENGINE_INPUTSYSTEM_COMPOSITES_BUTTONWITHONEMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F789010)
 
 namespace UnityEngine::InputSystem::Composites
 {
-	inline static constexpr unsigned int ButtonWithOneModifier_TypeDefinitionIndex = 32713;
+	inline static constexpr unsigned int ButtonWithOneModifier_TypeDefinitionIndex = 32162;
 
-	class ButtonWithOneModifier : public ::UnityEngine::InputSystem::InputBindingComposite_1<::System::Single>
+	class ButtonWithOneModifier
 	{
 	public:
-		::System::Int32 modifier; // 0x10
-		::System::Int32 button; // 0x14
+		::System::Int32 button; // 0x10
+		::System::Int32 modifier; // 0x14
 
 		::System::Void _ctor()
 		{

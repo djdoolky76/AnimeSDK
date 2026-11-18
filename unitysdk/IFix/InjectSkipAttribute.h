@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define IFIX_INJECTSKIPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6CB90)
+#define IFIX_INJECTSKIPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E432F50)
 
 namespace IFix
 {
-	inline static constexpr unsigned int InjectSkipAttribute_TypeDefinitionIndex = 93596;
+	inline static constexpr unsigned int InjectSkipAttribute_TypeDefinitionIndex = 6922;
 
 	class InjectSkipAttribute : public ::System::Attribute
 	{

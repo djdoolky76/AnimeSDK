@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGCURVEDATAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A94A2F0)
+#define MOLEMOLE_CONFIGCURVEDATAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8BAAD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigCurveDataInfo_TypeDefinitionIndex = 55629;
+	inline static constexpr unsigned int ConfigCurveDataInfo_TypeDefinitionIndex = 74395;
 
 	class ConfigCurveDataInfo : public ::System::Object
 	{

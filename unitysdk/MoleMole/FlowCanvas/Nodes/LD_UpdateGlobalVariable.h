@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATEGLOBALVARIABLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DBA8B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATEGLOBALVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DBAB50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATEGLOBALVARIABLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B40CD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_UPDATEGLOBALVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B40F70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_UpdateGlobalVariable_TypeDefinitionIndex = 42335;
+	inline static constexpr unsigned int LD_UpdateGlobalVariable_TypeDefinitionIndex = 81722;
 
-	class LD_UpdateGlobalVariable : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::String*, ::System::Int32>
+	class LD_UpdateGlobalVariable
 	{
 	public:
 		::System::Void _ctor()

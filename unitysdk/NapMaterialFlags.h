@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NapMaterialFlags_TypeDefinitionIndex = 27529;
+inline static constexpr unsigned int NapMaterialFlags_TypeDefinitionIndex = 26649;
 
 enum class NapMaterialFlags : ::System::UInt32
 {
-	IsCharacterStandard = 0x10,
-	HasMatCapArray = 0x100,
-	IsInstancing = 0x20,
-	IsFaceShader = 0x8,
-	SupportPerObjectShadow = 0x1,
-	IsRampPropertiesDirty = 0x40,
-	SupportNapCB = 0x2,
-	IsAvatarParticle = 0x200,
-	LodNeedSwitchShader = 0x400,
-	IsUiShader = 0x80,
-	SupportCustomLightAxial = 0x800,
-	IsCharacterShader = 0x4,
+	IsRampPropertiesDirty = 64,
+	HasMatCapArray = 256,
+	IsFaceShader = 8,
+	LodNeedSwitchShader = 1024,
+	SupportPerObjectShadow = 1,
+	IsInstancing = 32,
+	IsAvatarParticle = 512,
+	SupportNapCB = 2,
+	SupportCustomLightAxial = 2048,
+	IsCharacterStandard = 16,
+	IsUiShader = 128,
+	IsCharacterShader = 4,
 };

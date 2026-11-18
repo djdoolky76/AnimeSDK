@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_9F1BE78E0D1155F7;
+class JDIFHHEMPHF;
 
-#define MOLEMOLE_UIPUSHFACECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F56F40)
+#define MOLEMOLE_UIPUSHFACECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x168DCBD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPushFaceContext_TypeDefinitionIndex = 66642;
+	inline static constexpr unsigned int UIPushFaceContext_TypeDefinitionIndex = 60918;
 
 	class UIPushFaceContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_9F1BE78E0D1155F7* pushFaceHandler; // 0x28
+		::JDIFHHEMPHF* pushFaceHandler; // 0x28
 
 		::System::Void _ctor()
 		{

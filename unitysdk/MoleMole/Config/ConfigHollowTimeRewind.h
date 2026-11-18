@@ -7,11 +7,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWTIMEREWIND__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54E8F0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWTIMEREWIND__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2E760)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowTimeRewind_TypeDefinitionIndex = 76613;
+	inline static constexpr unsigned int ConfigHollowTimeRewind_TypeDefinitionIndex = 56833;
 
 	class ConfigHollowTimeRewind : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -21,6 +21,7 @@ namespace MoleMole::Config
 		::System::String* switchCameraStretchKey; // 0x60
 		::MoleMole::HollowChessboard::ColorModifyInfo pauseColorModifyInfoData; // 0x68
 		::System::Nullable_1<::MoleMole::HollowChessboard::ColorModifyBlendData> pauseBlendData; // 0x98
+		::System::Byte _padding0[0x38];
 		::System::String* enterPausePlayerSheetAnimKey; // 0xD8
 		::Il2CppArray<::System::String*>* overridePausePathTexture; // 0xE0
 		::Il2CppArray<::System::String*>* overridePauseFinishTexture; // 0xE8

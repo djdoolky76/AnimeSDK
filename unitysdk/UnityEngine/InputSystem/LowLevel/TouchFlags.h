@@ -3,15 +3,15 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int TouchFlags_TypeDefinitionIndex = 32513;
+	inline static constexpr unsigned int TouchFlags_TypeDefinitionIndex = 31962;
 
 	enum class TouchFlags : ::System::Byte
 	{
-		IndirectTouch = 0x1,
-		PrimaryTouch = 0x8,
-		TapPress = 0x10,
-		TapRelease = 0x20,
-		OrphanedPrimaryTouch = 0x40,
-		BeganInSameFrame = 0x80,
+		IndirectTouch = 1,
+		PrimaryTouch = 8,
+		TapPress = 16,
+		TapRelease = 32,
+		OrphanedPrimaryTouch = 64,
+		BeganInSameFrame = 128,
 	};
 }

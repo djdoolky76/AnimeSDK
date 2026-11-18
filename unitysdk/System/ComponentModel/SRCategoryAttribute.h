@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_SRCATEGORYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F4AA0)
+#define SYSTEM_COMPONENTMODEL_SRCATEGORYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D87CA10)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int SRCategoryAttribute_TypeDefinitionIndex = 3028;
+	inline static constexpr unsigned int SRCategoryAttribute_TypeDefinitionIndex = 3027;
 
 	class SRCategoryAttribute : public ::System::ComponentModel::CategoryAttribute
 	{

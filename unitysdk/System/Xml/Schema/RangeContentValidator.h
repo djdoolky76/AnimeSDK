@@ -12,25 +12,25 @@ namespace System::Xml::Schema { class SymbolsDictionary; }
 namespace System::Xml::Schema { class ValidationState; }
 namespace System::Xml::Schema { class XmlSchemaSet; }
 
-#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR_COMPLETEVALIDATION_OFFSET UNITYSDK_OFFSET(0x1F14AF20)
-#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR_EXPECTEDELEMENTS_OFFSET UNITYSDK_OFFSET(0x1F14AF40)
-#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR_EXPECTEDPARTICLES_OFFSET UNITYSDK_OFFSET(0x1F14B380)
-#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR_INITVALIDATION_OFFSET UNITYSDK_OFFSET(0x1F149EC0)
-#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR_VALIDATEELEMENT_OFFSET UNITYSDK_OFFSET(0x1F14A050)
-#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F149DF0)
+#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR_COMPLETEVALIDATION_OFFSET UNITYSDK_OFFSET(0x1F51E9C0)
+#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR_EXPECTEDELEMENTS_OFFSET UNITYSDK_OFFSET(0x1F51E9E0)
+#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR_EXPECTEDPARTICLES_OFFSET UNITYSDK_OFFSET(0x1F51EE20)
+#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR_INITVALIDATION_OFFSET UNITYSDK_OFFSET(0x1F51D960)
+#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR_VALIDATEELEMENT_OFFSET UNITYSDK_OFFSET(0x1F51DAF0)
+#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F51D890)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int RangeContentValidator_TypeDefinitionIndex = 1979;
+	inline static constexpr unsigned int RangeContentValidator_TypeDefinitionIndex = 1978;
 
 	class RangeContentValidator : public ::System::Xml::Schema::ContentValidator
 	{
 	public:
-		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x18
-		::System::Xml::Schema::Positions* positions; // 0x20
-		::System::Xml::Schema::BitSet* positionsWithRangeTerminals; // 0x28
-		::System::Xml::Schema::SymbolsDictionary* symbols; // 0x30
-		::System::Xml::Schema::BitSet* firstpos; // 0x38
+		::System::Xml::Schema::Positions* positions; // 0x18
+		::System::Xml::Schema::BitSet* positionsWithRangeTerminals; // 0x20
+		::System::Xml::Schema::BitSet* firstpos; // 0x28
+		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x30
+		::System::Xml::Schema::SymbolsDictionary* symbols; // 0x38
 		::System::Int32 endMarkerPos; // 0x40
 		::System::Int32 minMaxNodesCount; // 0x44
 

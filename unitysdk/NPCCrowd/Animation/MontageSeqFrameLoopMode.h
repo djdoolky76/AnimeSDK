@@ -3,11 +3,11 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageSeqFrameLoopMode_TypeDefinitionIndex = 68989;
+	inline static constexpr unsigned int MontageSeqFrameLoopMode_TypeDefinitionIndex = 86641;
 
 	enum class MontageSeqFrameLoopMode : ::System::Byte
 	{
-		Once = 0x1,
-		Loop = 0x0,
+		Once = 1,
+		Loop = 0,
 	};
 }

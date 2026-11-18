@@ -5,20 +5,21 @@
 namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 
-#define MOLEMOLE_LEVEL_BANGBOOFINDOBJCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13845F70)
+#define MOLEMOLE_LEVEL_BANGBOOFINDOBJCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x139ED690)
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int BangbooFindObjConfig_TypeDefinitionIndex = 79192;
+	inline static constexpr unsigned int BangbooFindObjConfig_TypeDefinitionIndex = 68729;
 
 	class BangbooFindObjConfig : public ::System::Object
 	{
 	public:
 		::System::String* matPath; // 0x10
 		::UnityEngine::Gradient* outlineColorGradient; // 0x18
-		::System::Single outlineColorIntensity; // 0x20
+		::System::Single outlineAnimLifetime; // 0x20
 		::System::Boolean needGradientData; // 0x24
-		::System::Single outlineAnimLifetime; // 0x28
+		::System::Byte _padding0[0x3];
+		::System::Single outlineColorIntensity; // 0x28
 
 		::System::Void _ctor()
 		{

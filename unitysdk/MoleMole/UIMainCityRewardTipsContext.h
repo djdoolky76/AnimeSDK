@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 
-#define MOLEMOLE_UIMAINCITYREWARDTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17DEABA0)
+#define MOLEMOLE_UIMAINCITYREWARDTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x186C2D00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityRewardTipsContext_TypeDefinitionIndex = 72146;
+	inline static constexpr unsigned int UIMainCityRewardTipsContext_TypeDefinitionIndex = 52965;
 
 	class UIMainCityRewardTipsContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_0D6706375CDAAE8C* itemData; // 0x28
+		::HGAJKHIMKJP* itemData; // 0x28
 
 		::System::Void _ctor()
 		{

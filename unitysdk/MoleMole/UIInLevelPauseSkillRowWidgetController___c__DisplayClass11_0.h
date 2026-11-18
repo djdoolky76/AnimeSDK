@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_1824EF69C8E376A3;
+class BPHGNMNLLHF;
 namespace MoleMole { class UIInLevelPauseSkillRowWidgetController; }
 
-#define MOLEMOLE_UIINLEVELPAUSESKILLROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182B1460)
-#define MOLEMOLE_UIINLEVELPAUSESKILLROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__REFRESHINFO_B__2_OFFSET UNITYSDK_OFFSET(0x182B1470)
-#define MOLEMOLE_UIINLEVELPAUSESKILLROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__REFRESHINFO_B__3_OFFSET UNITYSDK_OFFSET(0x182B14C0)
+#define MOLEMOLE_UIINLEVELPAUSESKILLROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2B2D80)
+#define MOLEMOLE_UIINLEVELPAUSESKILLROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__REFRESHINFO_B__2_OFFSET UNITYSDK_OFFSET(0x1A2B2D90)
+#define MOLEMOLE_UIINLEVELPAUSESKILLROWWIDGETCONTROLLER___C__DISPLAYCLASS11_0__REFRESHINFO_B__3_OFFSET UNITYSDK_OFFSET(0x1A2B2DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPauseSkillRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 42035;
+	inline static constexpr unsigned int UIInLevelPauseSkillRowWidgetController___c__DisplayClass11_0_TypeDefinitionIndex = 91612;
 
 	class UIInLevelPauseSkillRowWidgetController___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIInLevelPauseSkillRowWidgetController* __4__this; // 0x10
-		::Class_2_1824EF69C8E376A3* avatarItem; // 0x18
+		::BPHGNMNLLHF* avatarItem; // 0x10
+		::MoleMole::UIInLevelPauseSkillRowWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

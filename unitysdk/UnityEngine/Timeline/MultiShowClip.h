@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Timeline/ClipType.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_TIMELINE_MULTISHOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1EF76C30)
-#define UNITYENGINE_TIMELINE_MULTISHOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1EF76C10)
-#define UNITYENGINE_TIMELINE_MULTISHOWCLIP_GET_CLIPTYPE_OFFSET UNITYSDK_OFFSET(0x1EF76C20)
-#define UNITYENGINE_TIMELINE_MULTISHOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF76C80)
+#define UNITYENGINE_TIMELINE_MULTISHOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F1BCC90)
+#define UNITYENGINE_TIMELINE_MULTISHOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F1BCC70)
+#define UNITYENGINE_TIMELINE_MULTISHOWCLIP_GET_CLIPTYPE_OFFSET UNITYSDK_OFFSET(0x1F1BCC80)
+#define UNITYENGINE_TIMELINE_MULTISHOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1BCCE0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int MultiShowClip_TypeDefinitionIndex = 33053;
+	inline static constexpr unsigned int MultiShowClip_TypeDefinitionIndex = 32512;
 
 	class MultiShowClip : public ::UnityEngine::Playables::PlayableAsset
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_UIHOLLOWCHESSPIECEINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19FEE050)
+#define MOLEMOLE_UIHOLLOWCHESSPIECEINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A292FA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowChessPieceInspector_TypeDefinitionIndex = 90698;
+	inline static constexpr unsigned int UIHollowChessPieceInspector_TypeDefinitionIndex = 78207;
 
 	class UIHollowChessPieceInspector : public ::UnityEngine::MonoBehaviour
 	{

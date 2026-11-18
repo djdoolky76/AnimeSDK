@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_00AE5965E4B9C06A_Class_1_9BE993166B508A2A;
+class MGJLJHECMFL_LDHINONOMIB;
 namespace MoleMole { class UIMoreOptionPopWindowController; }
 
-#define MOLEMOLE_UIMOREOPTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15167F70)
-#define MOLEMOLE_UIMOREOPTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS25_0__INITINLEVELCOOPBLOCKBTN_B__0_OFFSET UNITYSDK_OFFSET(0x15167F80)
+#define MOLEMOLE_UIMOREOPTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14CA7FD0)
+#define MOLEMOLE_UIMOREOPTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS25_0__INITINLEVELCOOPBLOCKBTN_B__0_OFFSET UNITYSDK_OFFSET(0x14CA7FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMoreOptionPopWindowController___c__DisplayClass25_0_TypeDefinitionIndex = 76304;
+	inline static constexpr unsigned int UIMoreOptionPopWindowController___c__DisplayClass25_0_TypeDefinitionIndex = 70631;
 
 	class UIMoreOptionPopWindowController___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::Class_2_00AE5965E4B9C06A_Class_1_9BE993166B508A2A* runTimeData; // 0x10
+		::MGJLJHECMFL_LDHINONOMIB* runTimeData; // 0x10
 		::MoleMole::UIMoreOptionPopWindowController* __4__this; // 0x18
 		::System::UInt32 teamIdx; // 0x20
 

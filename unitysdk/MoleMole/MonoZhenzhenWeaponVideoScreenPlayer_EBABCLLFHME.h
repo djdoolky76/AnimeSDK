@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class TextureFrameScreenPlayData;
+namespace MoleMole { class IVideoPlayer; }
+namespace MoleMole { class ScreenPlayer; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Transform; }
+
+#define MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_BBOMJDBNHIC_OFFSET UNITYSDK_OFFSET(0x139FC5C0)
+#define MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_DLDGBMIMOKH_OFFSET UNITYSDK_OFFSET(0x139FC030)
+#define MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_GKMACGJEEEG_OFFSET UNITYSDK_OFFSET(0x139FCA90)
+#define MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_KHIPCGCODNH_OFFSET UNITYSDK_OFFSET(0x139FC780)
+#define MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_LAADIJONDNL_OFFSET UNITYSDK_OFFSET(0x139FBC10)
+#define MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_LJMIPGJJELP_OFFSET UNITYSDK_OFFSET(0x139FCA20)
+#define MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_PGHAJOMNDDJ_OFFSET UNITYSDK_OFFSET(0x139FC990)
+#define MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME__CTOR_OFFSET UNITYSDK_OFFSET(0x139FBC00)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int MonoZhenzhenWeaponVideoScreenPlayer_EBABCLLFHME_TypeDefinitionIndex = 40688;
+
+	class MonoZhenzhenWeaponVideoScreenPlayer_EBABCLLFHME : public ::System::Object
+	{
+	public:
+		::MoleMole::ScreenPlayer* KDICDGJEFNL; // 0x10
+		::System::String* INHMLEPCHPE; // 0x18
+		::UnityEngine::Transform* JGCLDAJMAAK; // 0x20
+		::TextureFrameScreenPlayData* NOJIDEOODPL; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* GMFNCKAFNMP; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME__CTOR_OFFSET))(this);
+		}
+
+		::System::Void LAADIJONDNL(::UnityEngine::Transform* HIICLDDAEEG)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_LAADIJONDNL_OFFSET))(this, HIICLDDAEEG);
+		}
+
+		::System::Void BBOMJDBNHIC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_BBOMJDBNHIC_OFFSET))(this);
+		}
+
+		::System::Void KHIPCGCODNH()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_KHIPCGCODNH_OFFSET))(this);
+		}
+
+		::System::Void PGHAJOMNDDJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_PGHAJOMNDDJ_OFFSET))(this);
+		}
+
+		::System::Void LJMIPGJJELP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_LJMIPGJJELP_OFFSET))(this);
+		}
+
+		::System::Void DLDGBMIMOKH(::UnityEngine::Transform* HBAIENEBGMH, ::UnityEngine::Transform* HIICLDDAEEG)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_DLDGBMIMOKH_OFFSET))(this, HBAIENEBGMH, HIICLDDAEEG);
+		}
+
+		::System::Void GKMACGJEEEG(::MoleMole::IVideoPlayer* ECKMPOAABAL)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::IVideoPlayer*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOZHENZHENWEAPONVIDEOSCREENPLAYER_EBABCLLFHME_GKMACGJEEEG_OFFSET))(this, ECKMPOAABAL);
+		}
+	};
+}

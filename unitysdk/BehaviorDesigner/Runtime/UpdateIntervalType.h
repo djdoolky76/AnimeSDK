@@ -3,7 +3,7 @@
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int UpdateIntervalType_TypeDefinitionIndex = 33870;
+	inline static constexpr unsigned int UpdateIntervalType_TypeDefinitionIndex = 33416;
 
 	enum class UpdateIntervalType : ::System::Int32
 	{

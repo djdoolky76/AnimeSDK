@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_4BD503641116BB32.h"
+#include "unitysdk/EEGBAJIIIBH.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHANGEMASKNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x134F6DC0)
-#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHANGEMASKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x134F6E80)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHANGEMASKNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B9142F0)
+#define MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHANGEMASKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9143B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardChangeMaskNode_TypeDefinitionIndex = 45142;
+	inline static constexpr unsigned int ConfigChessboardChangeMaskNode_TypeDefinitionIndex = 68490;
 
 	class ConfigChessboardChangeMaskNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::Enum_3_4BD503641116BB32 EventMaskType; // 0x18
+		::EEGBAJIIIBH EventMaskType; // 0x18
 		::System::Boolean Enable; // 0x1C
 
 		::System::Void _ctor()
@@ -23,9 +23,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHANGEMASKNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHANGEMASKNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHESSBOARDCHANGEMASKNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYFORWARDWITHSELFTOTARGETANGLEFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x1B7EA460)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFORWARDWITHSELFTOTARGETANGLEFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EAA30)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFORWARDWITHSELFTOTARGETANGLEFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x1929C4A0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFORWARDWITHSELFTOTARGETANGLEFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1929CA70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityForwardWithSelfToTargetAngleFilter_TypeDefinitionIndex = 55416;
+	inline static constexpr unsigned int ConfigEntityForwardWithSelfToTargetAngleFilter_TypeDefinitionIndex = 56611;
 
 	class ConfigEntityForwardWithSelfToTargetAngleFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{

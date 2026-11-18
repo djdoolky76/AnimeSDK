@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_FAILEDTOLOADSCRIPTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E948270)
+#define UNITYENGINE_FAILEDTOLOADSCRIPTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA0FF0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FailedToLoadScriptObject_TypeDefinitionIndex = 5341;
+	inline static constexpr unsigned int FailedToLoadScriptObject_TypeDefinitionIndex = 5343;
 
 	class FailedToLoadScriptObject : public ::UnityEngine::Object
 	{

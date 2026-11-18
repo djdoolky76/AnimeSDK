@@ -3,7 +3,7 @@
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRNode_TypeDefinitionIndex = 28237;
+	inline static constexpr unsigned int XRNode_TypeDefinitionIndex = 27655;
 
 	enum class XRNode : ::System::Int32
 	{

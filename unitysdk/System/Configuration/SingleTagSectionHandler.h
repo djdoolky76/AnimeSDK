@@ -4,12 +4,12 @@
 
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_CONFIGURATION_SINGLETAGSECTIONHANDLER_CREATE_OFFSET UNITYSDK_OFFSET(0x1C87D1B0)
-#define SYSTEM_CONFIGURATION_SINGLETAGSECTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C87D170)
+#define SYSTEM_CONFIGURATION_SINGLETAGSECTIONHANDLER_CREATE_OFFSET UNITYSDK_OFFSET(0x1CFBD980)
+#define SYSTEM_CONFIGURATION_SINGLETAGSECTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFBD940)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int SingleTagSectionHandler_TypeDefinitionIndex = 4230;
+	inline static constexpr unsigned int SingleTagSectionHandler_TypeDefinitionIndex = 4229;
 
 	class SingleTagSectionHandler : public ::System::Object
 	{

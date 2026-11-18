@@ -6,20 +6,20 @@
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_UIBLURBASEIMAGE_METHOD_9_11FD5E7B5A13A46A_OFFSET UNITYSDK_OFFSET(0x1802DFF0)
-#define MOLEMOLE_UIBLURBASEIMAGE_METHOD_9_8E61DC61C3E4B23C_OFFSET UNITYSDK_OFFSET(0x1802E190)
-#define MOLEMOLE_UIBLURBASEIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1802DC80)
-#define MOLEMOLE_UIBLURBASEIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1802DF40)
-#define MOLEMOLE_UIBLURBASEIMAGE___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1802DFE0)
+#define MOLEMOLE_UIBLURBASEIMAGE_BBOMJDBNHIC_OFFSET UNITYSDK_OFFSET(0x19192D20)
+#define MOLEMOLE_UIBLURBASEIMAGE_IFHNMAGGFAE_OFFSET UNITYSDK_OFFSET(0x19192D10)
+#define MOLEMOLE_UIBLURBASEIMAGE_NFICKOJPHFP_OFFSET UNITYSDK_OFFSET(0x19192670)
+#define MOLEMOLE_UIBLURBASEIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19192310)
+#define MOLEMOLE_UIBLURBASEIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x191925D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBlurBaseImage_TypeDefinitionIndex = 85869;
+	inline static constexpr unsigned int UIBlurBaseImage_TypeDefinitionIndex = 51756;
 
 	class UIBlurBaseImage : public ::UnityEngine::UI::Image
 	{
 	public:
-		::Foundation::AssetRequestHandle Field_9_1; // 0x140
+		::Foundation::AssetRequestHandle NFLADMFEAOD; // 0x140
 		::UnityEngine::Material* _material; // 0x160
 		::System::Boolean _NeedUnloadMat; // 0x168
 
@@ -33,19 +33,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBLURBASEIMAGE_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void __base_OnDestroy()
+		::System::Void NFICKOJPHFP(::System::String* DPMDHOFOMIE)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBLURBASEIMAGE___BASE_ONDESTROY_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBLURBASEIMAGE_NFICKOJPHFP_OFFSET))(this, DPMDHOFOMIE);
 		}
 
-		::System::Void Method_9_11FD5E7B5A13A46A(::System::String* a1)
+		::System::Void IFHNMAGGFAE()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBLURBASEIMAGE_METHOD_9_11FD5E7B5A13A46A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBLURBASEIMAGE_IFHNMAGGFAE_OFFSET))(this);
 		}
 
-		::System::Void Method_9_8E61DC61C3E4B23C(::System::String* a1)
+		::System::Void BBOMJDBNHIC(::System::String* DPMDHOFOMIE)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBLURBASEIMAGE_METHOD_9_8E61DC61C3E4B23C_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBLURBASEIMAGE_BBOMJDBNHIC_OFFSET))(this, DPMDHOFOMIE);
 		}
 	};
 }

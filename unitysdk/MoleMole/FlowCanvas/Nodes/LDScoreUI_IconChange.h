@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_3.h"
 #include "unitysdk/MoleMole/BubbleType.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCOREUI_ICONCHANGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19BE2120)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSCOREUI_ICONCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE2280)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCOREUI_ICONCHANGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A08DB00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSCOREUI_ICONCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A08DC60)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDScoreUI_IconChange_TypeDefinitionIndex = 58202;
+	inline static constexpr unsigned int LDScoreUI_IconChange_TypeDefinitionIndex = 82286;
 
-	class LDScoreUI_IconChange : public ::FlowCanvas::Nodes::CallableActionNode_3<::MoleMole::BubbleType, ::System::String*, ::System::Boolean>
+	class LDScoreUI_IconChange
 	{
 	public:
 		::System::Void _ctor()

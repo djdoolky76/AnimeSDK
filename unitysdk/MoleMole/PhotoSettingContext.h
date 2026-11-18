@@ -3,41 +3,41 @@
 #include "unitysdk/MoleMole/InputActionEvent.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_B7A012A804BEA677;
+class EJJPHOIGHED;
 namespace MoleMole { class UIStickerShowWidgetController; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_PHOTOSETTINGCONTEXT_GET_ISSHOWFRAME_OFFSET UNITYSDK_OFFSET(0x16888AF0)
-#define MOLEMOLE_PHOTOSETTINGCONTEXT_GET_ISSHOWSETTINGSCOPEDFRONT_OFFSET UNITYSDK_OFFSET(0x16888AD0)
-#define MOLEMOLE_PHOTOSETTINGCONTEXT_GET_ISSHOWSTICKER_OFFSET UNITYSDK_OFFSET(0x16888B10)
-#define MOLEMOLE_PHOTOSETTINGCONTEXT_GET_ISSHOWVOLUME_OFFSET UNITYSDK_OFFSET(0x16888AB0)
-#define MOLEMOLE_PHOTOSETTINGCONTEXT_GET_RESETSETTINGTABINDEX_OFFSET UNITYSDK_OFFSET(0x16888B30)
-#define MOLEMOLE_PHOTOSETTINGCONTEXT_SET_ISSHOWFRAME_OFFSET UNITYSDK_OFFSET(0x16888B00)
-#define MOLEMOLE_PHOTOSETTINGCONTEXT_SET_ISSHOWSETTINGSCOPEDFRONT_OFFSET UNITYSDK_OFFSET(0x16888AE0)
-#define MOLEMOLE_PHOTOSETTINGCONTEXT_SET_ISSHOWSTICKER_OFFSET UNITYSDK_OFFSET(0x16888B20)
-#define MOLEMOLE_PHOTOSETTINGCONTEXT_SET_ISSHOWVOLUME_OFFSET UNITYSDK_OFFSET(0x16888AC0)
-#define MOLEMOLE_PHOTOSETTINGCONTEXT_SET_RESETSETTINGTABINDEX_OFFSET UNITYSDK_OFFSET(0x16888B40)
-#define MOLEMOLE_PHOTOSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16888B50)
+#define MOLEMOLE_PHOTOSETTINGCONTEXT_GET_ISSHOWFRAME_OFFSET UNITYSDK_OFFSET(0x10D552B0)
+#define MOLEMOLE_PHOTOSETTINGCONTEXT_GET_ISSHOWSETTINGSCOPEDFRONT_OFFSET UNITYSDK_OFFSET(0x10D55290)
+#define MOLEMOLE_PHOTOSETTINGCONTEXT_GET_ISSHOWSTICKER_OFFSET UNITYSDK_OFFSET(0x10D552D0)
+#define MOLEMOLE_PHOTOSETTINGCONTEXT_GET_ISSHOWVOLUME_OFFSET UNITYSDK_OFFSET(0x10D55270)
+#define MOLEMOLE_PHOTOSETTINGCONTEXT_GET_RESETSETTINGTABINDEX_OFFSET UNITYSDK_OFFSET(0x10D552F0)
+#define MOLEMOLE_PHOTOSETTINGCONTEXT_SET_ISSHOWFRAME_OFFSET UNITYSDK_OFFSET(0x10D552C0)
+#define MOLEMOLE_PHOTOSETTINGCONTEXT_SET_ISSHOWSETTINGSCOPEDFRONT_OFFSET UNITYSDK_OFFSET(0x10D552A0)
+#define MOLEMOLE_PHOTOSETTINGCONTEXT_SET_ISSHOWSTICKER_OFFSET UNITYSDK_OFFSET(0x10D552E0)
+#define MOLEMOLE_PHOTOSETTINGCONTEXT_SET_ISSHOWVOLUME_OFFSET UNITYSDK_OFFSET(0x10D55280)
+#define MOLEMOLE_PHOTOSETTINGCONTEXT_SET_RESETSETTINGTABINDEX_OFFSET UNITYSDK_OFFSET(0x10D55300)
+#define MOLEMOLE_PHOTOSETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10D55310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PhotoSettingContext_TypeDefinitionIndex = 72962;
+	inline static constexpr unsigned int PhotoSettingContext_TypeDefinitionIndex = 74119;
 
 	class PhotoSettingContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Func_2<::MoleMole::InputActionEvent, ::System::Boolean>* OnInputActiveHandle; // 0x28
+		::EJJPHOIGHED* SpecialGestureData; // 0x28
 		::System::Func_1<::UnityEngine::RectTransform*>* GetStickerRoot; // 0x30
-		::System::Func_1<::System::Collections::Generic::IList_1<::MoleMole::UIStickerShowWidgetController*>*>* GetActiveStickerWidgetCtrlList; // 0x38
-		::Class_1_B7A012A804BEA677* SpecialGestureData; // 0x40
-		::System::Boolean _IsShowSticker_k__BackingField; // 0x48
-		::System::Boolean _IsShowVolume_k__BackingField; // 0x49
-		::System::Boolean _IsShowSettingScopedFront_k__BackingField; // 0x4A
-		::System::Boolean _ResetSettingTabIndex_k__BackingField; // 0x4B
-		::System::Boolean _IsShowFrame_k__BackingField; // 0x4C
+		::System::Func_2<::MoleMole::InputActionEvent, ::System::Boolean>* OnInputActiveHandle; // 0x38
+		::System::Func_1<::System::Collections::Generic::IList_1<::MoleMole::UIStickerShowWidgetController*>*>* GetActiveStickerWidgetCtrlList; // 0x40
+		::System::Boolean _IsShowVolume_k__BackingField; // 0x48
+		::System::Boolean _IsShowSticker_k__BackingField; // 0x49
+		::System::Boolean _ResetSettingTabIndex_k__BackingField; // 0x4A
+		::System::Boolean _IsShowFrame_k__BackingField; // 0x4B
+		::System::Boolean _IsShowSettingScopedFront_k__BackingField; // 0x4C
 
 		::System::Void _ctor()
 		{

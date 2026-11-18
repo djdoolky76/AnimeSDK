@@ -4,11 +4,11 @@
 
 namespace System::Threading::Tasks { class ParallelLoopStateFlags32; }
 
-#define SYSTEM_THREADING_TASKS_PARALLELLOOPSTATE32__CTOR_OFFSET UNITYSDK_OFFSET(0x1D81EEE0)
+#define SYSTEM_THREADING_TASKS_PARALLELLOOPSTATE32__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD26640)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int ParallelLoopState32_TypeDefinitionIndex = 891;
+	inline static constexpr unsigned int ParallelLoopState32_TypeDefinitionIndex = 890;
 
 	class ParallelLoopState32 : public ::System::Threading::Tasks::ParallelLoopState
 	{

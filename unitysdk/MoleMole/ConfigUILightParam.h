@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ConfigUILightParam_EAttenuationType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/LightType.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/AddLightMode.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/UniversalAdditionalLightData_LightUsage.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/LightType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
 namespace UnityEngine::NAPRenderPipeline0 { class ColorParameter; }
 
-#define MOLEMOLE_CONFIGUILIGHTPARAM_GET_CHARTOONNORMAL_OFFSET UNITYSDK_OFFSET(0x19BB9E60)
-#define MOLEMOLE_CONFIGUILIGHTPARAM_SET_CHARTOONNORMAL_OFFSET UNITYSDK_OFFSET(0x19BB9E70)
-#define MOLEMOLE_CONFIGUILIGHTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB9EF0)
+#define MOLEMOLE_CONFIGUILIGHTPARAM_GET_CHARTOONNORMAL_OFFSET UNITYSDK_OFFSET(0x1A05FAF0)
+#define MOLEMOLE_CONFIGUILIGHTPARAM_SET_CHARTOONNORMAL_OFFSET UNITYSDK_OFFSET(0x1A05FB00)
+#define MOLEMOLE_CONFIGUILIGHTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05FB80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUILightParam_TypeDefinitionIndex = 74907;
+	inline static constexpr unsigned int ConfigUILightParam_TypeDefinitionIndex = 40230;
 
 	class ConfigUILightParam : public ::System::Object
 	{
@@ -38,6 +38,9 @@ namespace MoleMole
 		::System::Single _charToonNormal; // 0x70
 		::UnityEngine::Rendering::Universal::UniversalAdditionalLightData_LightUsage LightUsage; // 0x74
 		::UnityEngine::NAPRenderPipeline0::ColorParameter* Ambient; // 0x78
+		::System::Single SceneDiffuseIntensity; // 0x80
+		::System::Single SceneSpecularIntensity; // 0x84
+		::System::Single SceneSpecularHighlightAdjust; // 0x88
 
 		::System::Void _ctor()
 		{

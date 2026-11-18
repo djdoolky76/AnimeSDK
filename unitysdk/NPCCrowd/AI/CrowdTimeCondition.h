@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 #include "unitysdk/NPCCrowd/AI/CrowdConditionBase.h"
 #include "unitysdk/NPCCrowd/AI/DayOfWeekFlag.h"
 #include "unitysdk/NPCCrowd/AI/TimePeriodTypeFlag.h"
+#include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 
-#define NPCCROWD_AI_CROWDTIMECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x114D5B10)
-#define NPCCROWD_AI_CROWDTIMECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x114D5B00)
+#define NPCCROWD_AI_CROWDTIMECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0xE1B0D30)
+#define NPCCROWD_AI_CROWDTIMECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xE1B0D20)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int CrowdTimeCondition_TypeDefinitionIndex = 50853;
+	inline static constexpr unsigned int CrowdTimeCondition_TypeDefinitionIndex = 72096;
 
 	class CrowdTimeCondition : public ::NPCCrowd::AI::CrowdConditionBase
 	{

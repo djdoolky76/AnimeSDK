@@ -6,12 +6,12 @@ namespace System { class Object; }
 namespace System::Net { class TimerThread_Callback; }
 namespace System::Net { class TimerThread_Timer; }
 
-#define SYSTEM_NET_TIMERTHREAD_INFINITETIMERQUEUE_CREATETIMER_OFFSET UNITYSDK_OFFSET(0x1C715E90)
-#define SYSTEM_NET_TIMERTHREAD_INFINITETIMERQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C715E80)
+#define SYSTEM_NET_TIMERTHREAD_INFINITETIMERQUEUE_CREATETIMER_OFFSET UNITYSDK_OFFSET(0x1CBF5A70)
+#define SYSTEM_NET_TIMERTHREAD_INFINITETIMERQUEUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF5A60)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TimerThread_InfiniteTimerQueue_TypeDefinitionIndex = 3400;
+	inline static constexpr unsigned int TimerThread_InfiniteTimerQueue_TypeDefinitionIndex = 3399;
 
 	class TimerThread_InfiniteTimerQueue : public ::System::Net::TimerThread_Queue
 	{

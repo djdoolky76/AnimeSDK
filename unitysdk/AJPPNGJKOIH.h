@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FFLOIDFACPA.h"
+#include "unitysdk/FFLOIDFACPA_LIBMALGPMEE.h"
+
+class OMDAPGKMILG;
+
+#define AJPPNGJKOIH_FOCDKCOPFAG_OFFSET UNITYSDK_OFFSET(0x144E3DD0)
+#define AJPPNGJKOIH_JENAOJCIFFN_OFFSET UNITYSDK_OFFSET(0x144E3CF0)
+#define AJPPNGJKOIH_LMDDEHOLBIP_OFFSET UNITYSDK_OFFSET(0x144E4110)
+#define AJPPNGJKOIH__CTOR_OFFSET UNITYSDK_OFFSET(0x144E3D40)
+
+inline static constexpr unsigned int AJPPNGJKOIH_TypeDefinitionIndex = 76315;
+
+class AJPPNGJKOIH : public ::FFLOIDFACPA
+{
+public:
+	::System::Single CMHDGLMOCAO; // 0x18
+
+	::System::Void _ctor(::System::Int32 LEHABHCOMGH)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AJPPNGJKOIH__CTOR_OFFSET))(this, LEHABHCOMGH);
+	}
+
+	::FFLOIDFACPA_LIBMALGPMEE JENAOJCIFFN()
+	{
+		return ((::FFLOIDFACPA_LIBMALGPMEE(*)(::PVOID))((::PBYTE)hIl2Cpp + AJPPNGJKOIH_JENAOJCIFFN_OFFSET))(this);
+	}
+
+	::System::Boolean FOCDKCOPFAG(::OMDAPGKMILG* LJBPECKCCEA)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::OMDAPGKMILG*))((::PBYTE)hIl2Cpp + AJPPNGJKOIH_FOCDKCOPFAG_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::FFLOIDFACPA_LIBMALGPMEE LMDDEHOLBIP()
+	{
+		return ((::FFLOIDFACPA_LIBMALGPMEE(*)(::PVOID))((::PBYTE)hIl2Cpp + AJPPNGJKOIH_LMDDEHOLBIP_OFFSET))(this);
+	}
+};

@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIItemIconBtnSmallWidgetController; }
 
-#define MOLEMOLE_UIITEMICONBTNSMALLWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1912F8F0)
-#define MOLEMOLE_UIITEMICONBTNSMALLWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1912F900)
+#define MOLEMOLE_UIITEMICONBTNSMALLWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186AFB20)
+#define MOLEMOLE_UIITEMICONBTNSMALLWIDGETCONTROLLER___C__DISPLAYCLASS16_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x186AFB30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIItemIconBtnSmallWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 60185;
+	inline static constexpr unsigned int UIItemIconBtnSmallWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 87032;
 
 	class UIItemIconBtnSmallWidgetController___c__DisplayClass16_0 : public ::System::Object
 	{

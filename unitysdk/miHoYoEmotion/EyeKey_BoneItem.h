@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MIHOYOEMOTION_EYEKEY_BONEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D046260)
+#define MIHOYOEMOTION_EYEKEY_BONEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D599CD0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int EyeKey_BoneItem_TypeDefinitionIndex = 40074;
+	inline static constexpr unsigned int EyeKey_BoneItem_TypeDefinitionIndex = 38063;
 
 	class EyeKey_BoneItem : public ::System::Object
 	{

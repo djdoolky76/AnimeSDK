@@ -4,7 +4,7 @@
 
 namespace UnityEngine { class Material; }
 
-inline static constexpr unsigned int NapMaterial___c__DisplayClass50_0_TypeDefinitionIndex = 26805;
+inline static constexpr unsigned int NapMaterial___c__DisplayClass50_0_TypeDefinitionIndex = 27374;
 
 struct alignas(8) NapMaterial___c__DisplayClass50_0
 {

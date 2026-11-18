@@ -4,17 +4,18 @@
 
 class NapRenderEntity;
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_MONORENDERENTITYDEBUGGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1E66AF10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_MONORENDERENTITYDEBUGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E66B1B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MONORENDERENTITYDEBUGGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1E8EEA00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_MONORENDERENTITYDEBUGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8EEC90)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int MonoRenderEntityDebugger_TypeDefinitionIndex = 27740;
+	inline static constexpr unsigned int MonoRenderEntityDebugger_TypeDefinitionIndex = 26579;
 
 	class MonoRenderEntityDebugger : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Int32 index; // 0x18
+		::System::Byte _padding0[0x4];
 		::NapRenderEntity* napRenderEntity; // 0x20
 
 		::System::Void _ctor()

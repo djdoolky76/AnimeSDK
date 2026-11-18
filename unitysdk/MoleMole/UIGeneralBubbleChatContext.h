@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_UIGENERALBUBBLECHATCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D97630)
+#define MOLEMOLE_UIGENERALBUBBLECHATCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x178412A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralBubbleChatContext_TypeDefinitionIndex = 43778;
+	inline static constexpr unsigned int UIGeneralBubbleChatContext_TypeDefinitionIndex = 69320;
 
 	class UIGeneralBubbleChatContext : public ::MoleMole::UIControllerContextBase
 	{

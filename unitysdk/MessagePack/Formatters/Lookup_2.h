@@ -2,20 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Lookup_2_TypeDefinitionIndex = 30362;
+	inline static constexpr unsigned int Lookup_2_TypeDefinitionIndex = 30158;
 
-	template <typename TKey, typename TElement>
+	template <typename T1, typename T2>
 	class Lookup_2 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<TKey, ::System::Linq::IGrouping_2<TKey, TElement>*>* groupings; // 0x0
+		::System::Collections::Generic::Dictionary_2<T1, ::System::Linq::IGrouping_2<T1, T2>*>* groupings; // 0x0
 	};
 }

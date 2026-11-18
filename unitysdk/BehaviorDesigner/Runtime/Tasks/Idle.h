@@ -3,13 +3,13 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_IDLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC8A4E0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_IDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8A530)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_IDLE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC8A5C0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_IDLE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F089CB0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_IDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F089D00)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_IDLE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F089D90)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int Idle_TypeDefinitionIndex = 33972;
+	inline static constexpr unsigned int Idle_TypeDefinitionIndex = 33518;
 
 	class Idle : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{

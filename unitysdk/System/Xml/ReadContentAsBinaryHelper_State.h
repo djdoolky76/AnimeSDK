@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int ReadContentAsBinaryHelper_State_TypeDefinitionIndex = 1696;
+	inline static constexpr unsigned int ReadContentAsBinaryHelper_State_TypeDefinitionIndex = 1695;
 
 	enum class ReadContentAsBinaryHelper_State : ::System::Int32
 	{

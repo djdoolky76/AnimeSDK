@@ -2,17 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Xml::Schema { class BitSet; }
-namespace System::Xml::Schema { class InteriorNode; }
-namespace System::Xml::Schema { class Positions; }
-namespace System::Xml::Schema { class SymbolsDictionary; }
-
-#define SYSTEM_XML_SCHEMA_SYNTAXTREENODE_GET_ISRANGENODE_OFFSET UNITYSDK_OFFSET(0x1E61BFD0)
-#define SYSTEM_XML_SCHEMA_SYNTAXTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E61BFE0)
+#define SYSTEM_XML_SCHEMA_SYNTAXTREENODE_GET_ISRANGENODE_OFFSET UNITYSDK_OFFSET(0x1E8995E0)
+#define SYSTEM_XML_SCHEMA_SYNTAXTREENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8995F0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int SyntaxTreeNode_TypeDefinitionIndex = 1963;
+	inline static constexpr unsigned int SyntaxTreeNode_TypeDefinitionIndex = 1962;
 
 	class SyntaxTreeNode : public ::System::Object
 	{

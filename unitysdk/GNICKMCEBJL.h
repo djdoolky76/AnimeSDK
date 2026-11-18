@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IPCLFJBIBEK.h"
+#include "unitysdk/LKCBNIMIJED.h"
+#include "unitysdk/System/Object.h"
+
+#define GNICKMCEBJL_FGOGAEJNAJB_OFFSET UNITYSDK_OFFSET(0x1FBB50F0)
+#define GNICKMCEBJL_HHEKNNNMOGP_OFFSET UNITYSDK_OFFSET(0x1FBB5110)
+#define GNICKMCEBJL_HKELPCLHLEC_OFFSET UNITYSDK_OFFSET(0x1FBB5130)
+#define GNICKMCEBJL_IPEGAGJGCPA_OFFSET UNITYSDK_OFFSET(0x1FBB5120)
+#define GNICKMCEBJL_IPHFDIKBFGD_OFFSET UNITYSDK_OFFSET(0x1FBB50B0)
+#define GNICKMCEBJL_OGOELCKAMBL_OFFSET UNITYSDK_OFFSET(0x1FBB5100)
+#define GNICKMCEBJL_OMPBMNCONPM_OFFSET UNITYSDK_OFFSET(0x1FBB5140)
+#define GNICKMCEBJL__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBB50A0)
+
+inline static constexpr unsigned int GNICKMCEBJL_TypeDefinitionIndex = 28787;
+
+class GNICKMCEBJL : public ::System::Object
+{
+public:
+	::LKCBNIMIJED _MBNIMBHGJMI_k__BackingField; // 0x10
+	::System::UInt16 _ELKOJDHJOML_k__BackingField; // 0x12
+	::System::UInt16 _GOIFKJFJLBP_k__BackingField; // 0x14
+
+	::System::Void _ctor(::LKCBNIMIJED OBNIAHNMHPF, ::System::UInt16 AGPDLLJOMDK, ::System::UInt16 KGKLOKLIKEB)
+	{
+		return ((::System::Void(*)(::PVOID, ::LKCBNIMIJED, ::System::UInt16, ::System::UInt16))((::PBYTE)hIl2Cpp + GNICKMCEBJL__CTOR_OFFSET))(this, OBNIAHNMHPF, AGPDLLJOMDK, KGKLOKLIKEB);
+	}
+
+	::IPCLFJBIBEK IPHFDIKBFGD()
+	{
+		return ((::IPCLFJBIBEK(*)(::PVOID))((::PBYTE)hIl2Cpp + GNICKMCEBJL_IPHFDIKBFGD_OFFSET))(this);
+	}
+
+	::System::Void FGOGAEJNAJB(::LKCBNIMIJED EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LKCBNIMIJED))((::PBYTE)hIl2Cpp + GNICKMCEBJL_FGOGAEJNAJB_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::UInt16 OGOELCKAMBL()
+	{
+		return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + GNICKMCEBJL_OGOELCKAMBL_OFFSET))(this);
+	}
+
+	::System::Void HHEKNNNMOGP(::System::UInt16 EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + GNICKMCEBJL_HHEKNNNMOGP_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::UInt16 IPEGAGJGCPA()
+	{
+		return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + GNICKMCEBJL_IPEGAGJGCPA_OFFSET))(this);
+	}
+
+	::LKCBNIMIJED HKELPCLHLEC()
+	{
+		return ((::LKCBNIMIJED(*)(::PVOID))((::PBYTE)hIl2Cpp + GNICKMCEBJL_HKELPCLHLEC_OFFSET))(this);
+	}
+
+	::System::Void OMPBMNCONPM(::System::UInt16 EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt16))((::PBYTE)hIl2Cpp + GNICKMCEBJL_OMPBMNCONPM_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

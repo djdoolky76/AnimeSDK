@@ -5,14 +5,14 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDSIMPLE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E754A00)
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDSIMPLE_GETINTERNEDSTRING_OFFSET UNITYSDK_OFFSET(0x1E754BF0)
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDSIMPLE_GET_CACHEDSTRINGCOUNT_OFFSET UNITYSDK_OFFSET(0x1E754910)
-#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E754EA0)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDSIMPLE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EA2BE20)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDSIMPLE_GETINTERNEDSTRING_OFFSET UNITYSDK_OFFSET(0x1EA2C010)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDSIMPLE_GET_CACHEDSTRINGCOUNT_OFFSET UNITYSDK_OFFSET(0x1EA2BD30)
+#define FOUNDATION_NAPSTRINGINTERNCACHEBACKENDSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA2C2C0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NapStringInternCacheBackendSimple_TypeDefinitionIndex = 8218;
+	inline static constexpr unsigned int NapStringInternCacheBackendSimple_TypeDefinitionIndex = 8118;
 
 	class NapStringInternCacheBackendSimple : public ::System::Object
 	{
@@ -36,9 +36,9 @@ namespace Foundation
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + FOUNDATION_NAPSTRINGINTERNCACHEBACKENDSIMPLE_CLEAR_OFFSET))(this, freeMemory);
 		}
 
-		::System::String* GetInternedString(::System::UInt64 hash, ::System::Char* chars, ::System::Int32 charCount)
+		::System::String* GetInternedString(::System::UInt64 hash, ::PVOID chars, ::System::Int32 charCount)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::UInt64, ::System::Char*, ::System::Int32))((::PBYTE)hIl2Cpp + FOUNDATION_NAPSTRINGINTERNCACHEBACKENDSIMPLE_GETINTERNEDSTRING_OFFSET))(this, hash, chars, charCount);
+			return ((::System::String*(*)(::PVOID, ::System::UInt64, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FOUNDATION_NAPSTRINGINTERNCACHEBACKENDSIMPLE_GETINTERNEDSTRING_OFFSET))(this, hash, chars, charCount);
 		}
 	};
 }

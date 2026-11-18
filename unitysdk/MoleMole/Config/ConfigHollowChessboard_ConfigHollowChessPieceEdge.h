@@ -6,7 +6,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_ConfigHollowChessPieceEdge_TypeDefinitionIndex = 59233;
+	inline static constexpr unsigned int ConfigHollowChessboard_ConfigHollowChessPieceEdge_TypeDefinitionIndex = 46348;
 
 	struct alignas(4) ConfigHollowChessboard_ConfigHollowChessPieceEdge
 	{

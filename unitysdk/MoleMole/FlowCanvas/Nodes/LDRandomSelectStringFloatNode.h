@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/Nodes/LDRandomSelectBase_2.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRANDOMSELECTSTRINGFLOATNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1A3000)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRANDOMSELECTSTRINGFLOATNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A3120)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRANDOMSELECTSTRINGFLOATNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4B4E70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRANDOMSELECTSTRINGFLOATNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B4F90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRandomSelectStringFloatNode_TypeDefinitionIndex = 71464;
+	inline static constexpr unsigned int LDRandomSelectStringFloatNode_TypeDefinitionIndex = 54355;
 
-	class LDRandomSelectStringFloatNode : public ::MoleMole::FlowCanvas::Nodes::LDRandomSelectBase_2<::System::String*, ::System::Single>
+	class LDRandomSelectStringFloatNode
 	{
 	public:
 		::System::Void _ctor()

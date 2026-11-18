@@ -7,18 +7,19 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define AGENTLINKMOVER_CURVE_OFFSET UNITYSDK_OFFSET(0x16B0CB70)
-#define AGENTLINKMOVER_NORMALSPEED_OFFSET UNITYSDK_OFFSET(0x16B0CA40)
-#define AGENTLINKMOVER_PARABOLA_OFFSET UNITYSDK_OFFSET(0x16B0CAC0)
-#define AGENTLINKMOVER_START_OFFSET UNITYSDK_OFFSET(0x16B0C9C0)
-#define AGENTLINKMOVER__CTOR_OFFSET UNITYSDK_OFFSET(0x16B0CC10)
+#define AGENTLINKMOVER_CURVE_OFFSET UNITYSDK_OFFSET(0x14C28800)
+#define AGENTLINKMOVER_NORMALSPEED_OFFSET UNITYSDK_OFFSET(0x14C286D0)
+#define AGENTLINKMOVER_PARABOLA_OFFSET UNITYSDK_OFFSET(0x14C28750)
+#define AGENTLINKMOVER_START_OFFSET UNITYSDK_OFFSET(0x14C28650)
+#define AGENTLINKMOVER__CTOR_OFFSET UNITYSDK_OFFSET(0x14C288A0)
 
-inline static constexpr unsigned int AgentLinkMover_TypeDefinitionIndex = 79922;
+inline static constexpr unsigned int AgentLinkMover_TypeDefinitionIndex = 79475;
 
 class AgentLinkMover : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::OffMeshLinkMoveMethod m_Method; // 0x18
+	::System::Byte _padding0[0x4];
 	::UnityEngine::AnimationCurve* m_Curve; // 0x20
 
 	::System::Void _ctor()

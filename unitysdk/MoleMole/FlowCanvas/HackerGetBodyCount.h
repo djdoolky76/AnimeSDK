@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardPureFunctionNode_2.h"
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGETBODYCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B5292D0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGETBODYCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B529380)
+#define MOLEMOLE_FLOWCANVAS_HACKERGETBODYCOUNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x142F3EB0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGETBODYCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x142F3F60)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGetBodyCount_TypeDefinitionIndex = 76929;
+	inline static constexpr unsigned int HackerGetBodyCount_TypeDefinitionIndex = 62943;
 
-	class HackerGetBodyCount : public ::MoleMole::FlowCanvas::ChessboardPureFunctionNode_2<::System::Int32, ::MoleMole::ChessEntity*>
+	class HackerGetBodyCount
 	{
 	public:
 		::System::Void _ctor()

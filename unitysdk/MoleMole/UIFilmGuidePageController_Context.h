@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIFILMGUIDEPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D868D0)
+#define MOLEMOLE_UIFILMGUIDEPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19694760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFilmGuidePageController_Context_TypeDefinitionIndex = 42931;
+	inline static constexpr unsigned int UIFilmGuidePageController_Context_TypeDefinitionIndex = 67597;
 
 	class UIFilmGuidePageController_Context : public ::MoleMole::UIControllerContextBase
 	{

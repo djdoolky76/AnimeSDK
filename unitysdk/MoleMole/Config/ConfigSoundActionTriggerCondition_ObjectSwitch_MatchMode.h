@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_ObjectSwitch_MatchMode_TypeDefinitionIndex = 78058;
+	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_ObjectSwitch_MatchMode_TypeDefinitionIndex = 43313;
 
 	enum class ConfigSoundActionTriggerCondition_ObjectSwitch_MatchMode : ::System::Int32
 	{

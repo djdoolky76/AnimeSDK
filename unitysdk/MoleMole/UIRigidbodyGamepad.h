@@ -1,46 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/InputActionEvent.h"
 #include "unitysdk/MoleMole/InputLogicEventType.h"
 #include "unitysdk/MoleMole/MonoGamepadModule.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/MoleMole/InputActionEvent.h"
 
 namespace MoleMole { class UIRigidbody; }
 
-#define MOLEMOLE_UIRIGIDBODYGAMEPAD_GET_UIRIGIDBODY_OFFSET UNITYSDK_OFFSET(0x151069E0)
-#define MOLEMOLE_UIRIGIDBODYGAMEPAD_METHOD_6_07280B24DFAC0CA9_OFFSET UNITYSDK_OFFSET(0x15106BB0)
-#define MOLEMOLE_UIRIGIDBODYGAMEPAD_METHOD_6_18982EFD3B740683_OFFSET UNITYSDK_OFFSET(0x15106F50)
-#define MOLEMOLE_UIRIGIDBODYGAMEPAD_METHOD_6_5DB69D87501DF7A9_OFFSET UNITYSDK_OFFSET(0x15106D90)
-#define MOLEMOLE_UIRIGIDBODYGAMEPAD_METHOD_6_A205E8B23947BF16_OFFSET UNITYSDK_OFFSET(0x15107110)
-#define MOLEMOLE_UIRIGIDBODYGAMEPAD_METHOD_6_D87A7D8243E04FD7_OFFSET UNITYSDK_OFFSET(0x15107DF0)
-#define MOLEMOLE_UIRIGIDBODYGAMEPAD__CTOR_OFFSET UNITYSDK_OFFSET(0x15107FF0)
-#define MOLEMOLE_UIRIGIDBODYGAMEPAD___BASE_ONINPUTACTION_OFFSET UNITYSDK_OFFSET(0x151080D0)
-#define MOLEMOLE_UIRIGIDBODYGAMEPAD___BASE_ONMODULEDESTROY_OFFSET UNITYSDK_OFFSET(0x15108180)
-#define MOLEMOLE_UIRIGIDBODYGAMEPAD___BASE_ONMODULEFOCUS_OFFSET UNITYSDK_OFFSET(0x15108210)
-#define MOLEMOLE_UIRIGIDBODYGAMEPAD___BASE_ONMODULELATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15108220)
-#define MOLEMOLE_UIRIGIDBODYGAMEPAD___BASE_ONMODULELOSTFOCUS_OFFSET UNITYSDK_OFFSET(0x151082D0)
+#define MOLEMOLE_UIRIGIDBODYGAMEPAD_DIHCGHDHPJP_OFFSET UNITYSDK_OFFSET(0x14803B20)
+#define MOLEMOLE_UIRIGIDBODYGAMEPAD_FNNGPEIIPNC_OFFSET UNITYSDK_OFFSET(0x148035B0)
+#define MOLEMOLE_UIRIGIDBODYGAMEPAD_GCMIFBNEFCJ_OFFSET UNITYSDK_OFFSET(0x14804BA0)
+#define MOLEMOLE_UIRIGIDBODYGAMEPAD_GET_UIRIGIDBODY_OFFSET UNITYSDK_OFFSET(0x148033E0)
+#define MOLEMOLE_UIRIGIDBODYGAMEPAD_HCIFAAODNFK_OFFSET UNITYSDK_OFFSET(0x14803960)
+#define MOLEMOLE_UIRIGIDBODYGAMEPAD_HEDKEJGHLJK_OFFSET UNITYSDK_OFFSET(0x14804AF0)
+#define MOLEMOLE_UIRIGIDBODYGAMEPAD_IDDBBFMNJMP_OFFSET UNITYSDK_OFFSET(0x14803790)
+#define MOLEMOLE_UIRIGIDBODYGAMEPAD_KMKNDCPHIHC_OFFSET UNITYSDK_OFFSET(0x14804AE0)
+#define MOLEMOLE_UIRIGIDBODYGAMEPAD_LJCOLAGLNCC_OFFSET UNITYSDK_OFFSET(0x14804C50)
+#define MOLEMOLE_UIRIGIDBODYGAMEPAD_LLBDDDHHBGN_OFFSET UNITYSDK_OFFSET(0x14804CE0)
+#define MOLEMOLE_UIRIGIDBODYGAMEPAD_MBCEBFOBHAM_OFFSET UNITYSDK_OFFSET(0x14804800)
+#define MOLEMOLE_UIRIGIDBODYGAMEPAD__CTOR_OFFSET UNITYSDK_OFFSET(0x14804A00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRigidbodyGamepad_TypeDefinitionIndex = 74422;
+	inline static constexpr unsigned int UIRigidbodyGamepad_TypeDefinitionIndex = 50784;
 
 	class UIRigidbodyGamepad : public ::MoleMole::MonoGamepadModule
 	{
 	public:
-		::MoleMole::UIRigidbody* Field_6_2; // 0xE8
-		::MoleMole::InputLogicEventType ClickEvent; // 0xF0
-		::MoleMole::InputLogicEventType DragEvent; // 0xF4
-		::System::Single DragSpeed; // 0xF8
-		::System::Boolean ScreenAdpter; // 0xFC
-		::System::Single DragMaxRadius; // 0x100
-		::System::Boolean EnableGyroGravity; // 0x104
-		::UnityEngine::Vector2 Field_6_11; // 0x108
-		::UnityEngine::Vector2 Field_6_10; // 0x110
-		::System::Nullable_1<::System::Int32> Field_6_9; // 0x118
-		::System::Boolean Field_6_8; // 0x120
-		::Il2CppArray<::UnityEngine::Vector3>* Field_6_15; // 0x128
+		::MoleMole::UIRigidbody* EJOIEAIMHMB; // 0xF0
+		::MoleMole::InputLogicEventType ClickEvent; // 0xF8
+		::MoleMole::InputLogicEventType DragEvent; // 0xFC
+		::System::Single DragSpeed; // 0x100
+		::System::Boolean ScreenAdpter; // 0x104
+		::System::Byte _padding0[0x3];
+		::System::Single DragMaxRadius; // 0x108
+		::System::Boolean EnableGyroGravity; // 0x10C
+		::System::Byte _padding1[0x3];
+		::UnityEngine::Vector2 JCEGAIAIMMB; // 0x110
+		::UnityEngine::Vector2 BELEHOINMFC; // 0x118
+		::System::Nullable_1<::System::Int32> BECCLNOBJNC; // 0x120
+		::System::Boolean MIENEHBEAPF; // 0x128
+		::System::Byte _padding2[0x7];
+		::Il2CppArray<::UnityEngine::Vector3>* MLBJNGDKAPN; // 0x130
 
 		::System::Void _ctor()
 		{
@@ -52,54 +55,54 @@ namespace MoleMole
 			return ((::MoleMole::UIRigidbody*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_GET_UIRIGIDBODY_OFFSET))(this);
 		}
 
-		::System::Void Method_6_07280B24DFAC0CA9()
+		::System::Void FNNGPEIIPNC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_METHOD_6_07280B24DFAC0CA9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_FNNGPEIIPNC_OFFSET))(this);
 		}
 
-		::System::Void Method_6_5DB69D87501DF7A9(::System::Boolean a1, ::System::Boolean a2)
+		::System::Void IDDBBFMNJMP(::System::Boolean MNDGBAGHIBF, ::System::Boolean GHGCCMKDIPO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_METHOD_6_5DB69D87501DF7A9_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_IDDBBFMNJMP_OFFSET))(this, MNDGBAGHIBF, GHGCCMKDIPO);
 		}
 
-		::System::Void Method_6_18982EFD3B740683()
+		::System::Void HCIFAAODNFK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_METHOD_6_18982EFD3B740683_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_HCIFAAODNFK_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_A205E8B23947BF16(::MoleMole::InputActionEvent a1)
+		::System::Boolean DIHCGHDHPJP(::MoleMole::InputActionEvent PKBLAMDICKB)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_METHOD_6_A205E8B23947BF16_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_DIHCGHDHPJP_OFFSET))(this, PKBLAMDICKB);
 		}
 
-		::System::Void Method_6_D87A7D8243E04FD7()
+		::System::Void MBCEBFOBHAM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_METHOD_6_D87A7D8243E04FD7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_MBCEBFOBHAM_OFFSET))(this);
 		}
 
-		::System::Boolean __base_OnInputAction(::MoleMole::InputActionEvent a1)
+		::System::Void KMKNDCPHIHC()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD___BASE_ONINPUTACTION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_KMKNDCPHIHC_OFFSET))(this);
 		}
 
-		::System::Void __base_OnModuleDestroy()
+		::System::Boolean HEDKEJGHLJK(::MoleMole::InputActionEvent MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD___BASE_ONMODULEDESTROY_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::InputActionEvent))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_HEDKEJGHLJK_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void __base_OnModuleFocus()
+		::System::Void GCMIFBNEFCJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD___BASE_ONMODULEFOCUS_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_GCMIFBNEFCJ_OFFSET))(this);
 		}
 
-		::System::Void __base_OnModuleLateUpdate()
+		::System::Void LJCOLAGLNCC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD___BASE_ONMODULELATEUPDATE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_LJCOLAGLNCC_OFFSET))(this);
 		}
 
-		::System::Void __base_OnModuleLostFocus(::System::Boolean a1, ::System::Boolean a2)
+		::System::Void LLBDDDHHBGN(::System::Boolean MIALFKCCCPI, ::System::Boolean KMGKAIDEIBA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD___BASE_ONMODULELOSTFOCUS_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRIGIDBODYGAMEPAD_LLBDDDHHBGN_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 	};
 }

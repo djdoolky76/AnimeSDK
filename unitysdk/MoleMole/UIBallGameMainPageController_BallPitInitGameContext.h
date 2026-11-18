@@ -1,22 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
-#include "unitysdk/Struct_2_FD590E733B7F1723.h"
+#include "unitysdk/PLNDEDKMFEE.h"
 
-#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER_BALLPITINITGAMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBDCC20)
+#define MOLEMOLE_UIBALLGAMEMAINPAGECONTROLLER_BALLPITINITGAMECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5F4C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameMainPageController_BallPitInitGameContext_TypeDefinitionIndex = 93363;
+	inline static constexpr unsigned int UIBallGameMainPageController_BallPitInitGameContext_TypeDefinitionIndex = 95143;
 
 	class UIBallGameMainPageController_BallPitInitGameContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Struct_2_FD590E733B7F1723 stateData; // 0x28
-		::System::Int32 LevelID; // 0x48
-		::System::Int32 AvatarID; // 0x4C
-		::System::Boolean isContinue; // 0x50
-		::System::Boolean hasRoleData; // 0x51
+		::PLNDEDKMFEE stateData; // 0x28
+		::System::Int32 AvatarID; // 0x48
+		::System::Boolean hasRoleData; // 0x4C
+		::System::Boolean isContinue; // 0x4D
+		::System::Byte _padding0[0x2];
+		::System::Int32 LevelID; // 0x50
 
 		::System::Void _ctor()
 		{

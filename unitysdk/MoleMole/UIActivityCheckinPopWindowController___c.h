@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_AE02BC8285203464_18;
+class AOJKLCGGPAK;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIACTIVITYCHECKINPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x192787F0)
-#define MOLEMOLE_UIACTIVITYCHECKINPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19278830)
-#define MOLEMOLE_UIACTIVITYCHECKINPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__8_0_OFFSET UNITYSDK_OFFSET(0x19278840)
+#define MOLEMOLE_UIACTIVITYCHECKINPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14BF3DE0)
+#define MOLEMOLE_UIACTIVITYCHECKINPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14BF3E20)
+#define MOLEMOLE_UIACTIVITYCHECKINPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__8_0_OFFSET UNITYSDK_OFFSET(0x14BF3E30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCheckinPopWindowController___c_TypeDefinitionIndex = 42495;
+	inline static constexpr unsigned int UIActivityCheckinPopWindowController___c_TypeDefinitionIndex = 40936;
 
 	class UIActivityCheckinPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIActivityCheckinPopWindowController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityCheckinPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityCheckinPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x48F40);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIActivityCheckinPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x46E10);
 		}
-		static ::System::Func_2<::Class_3_AE02BC8285203464_18*, ::System::Boolean>** StaticGet___9__8_0()
+		static ::System::Func_2<::AOJKLCGGPAK*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::Class_3_AE02BC8285203464_18*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityCheckinPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x48F48);
+			return (::System::Func_2<::AOJKLCGGPAK*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityCheckinPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x46E18);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYCHECKINPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RefreshView_b__8_0(::Class_3_AE02BC8285203464_18* x)
+		::System::Boolean _RefreshView_b__8_0(::AOJKLCGGPAK* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_3_AE02BC8285203464_18*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYCHECKINPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__8_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::AOJKLCGGPAK*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYCHECKINPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__8_0_OFFSET))(this, x);
 		}
 	};
 }

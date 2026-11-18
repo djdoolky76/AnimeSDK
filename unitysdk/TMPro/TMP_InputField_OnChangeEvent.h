@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace System { class String; }
-
-#define TMPRO_TMP_INPUTFIELD_ONCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC59480)
+#define TMPRO_TMP_INPUTFIELD_ONCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x2005C020)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_InputField_OnChangeEvent_TypeDefinitionIndex = 39824;
+	inline static constexpr unsigned int TMP_InputField_OnChangeEvent_TypeDefinitionIndex = 37824;
 
-	class TMP_InputField_OnChangeEvent : public ::UnityEngine::Events::UnityEvent_1<::System::String*>
+	class TMP_InputField_OnChangeEvent
 	{
 	public:
 		::System::Void _ctor()

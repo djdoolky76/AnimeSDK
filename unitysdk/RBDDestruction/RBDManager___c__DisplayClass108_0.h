@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RBDDestruction/RBDManager_SingleBuildingInfo.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/RBDDestruction/RBDManager_SingleBuildingInfo.h"
 
 namespace RBDDestruction { class RBDManager; }
 
-#define RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS108_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78BB70)
-#define RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS108_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0x1E78BB80)
+#define RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS108_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3CD00)
+#define RBDDESTRUCTION_RBDMANAGER___C__DISPLAYCLASS108_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0x1EA3CD10)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int RBDManager___c__DisplayClass108_0_TypeDefinitionIndex = 27068;
+	inline static constexpr unsigned int RBDManager___c__DisplayClass108_0_TypeDefinitionIndex = 26552;
 
 	class RBDManager___c__DisplayClass108_0 : public ::System::Object
 	{

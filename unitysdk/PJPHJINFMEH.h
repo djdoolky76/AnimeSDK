@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GPJMHAAEIKO.h"
+#include "unitysdk/NCJLKIIGPIC.h"
+#include "unitysdk/System/Object.h"
+
+namespace Foundation { class IEntity; }
+
+#define PJPHJINFMEH_BBPCBEEHALC_OFFSET UNITYSDK_OFFSET(0x1EDF8DF0)
+#define PJPHJINFMEH_BLPBBBFLJMA_OFFSET UNITYSDK_OFFSET(0x1EDFD0A0)
+#define PJPHJINFMEH_DAEBJFCICDA_OFFSET UNITYSDK_OFFSET(0x1EDFD080)
+#define PJPHJINFMEH_DOJILHIHJND_OFFSET UNITYSDK_OFFSET(0x1EDFD0B0)
+#define PJPHJINFMEH_IBNCFMCGHFC_OFFSET UNITYSDK_OFFSET(0x1EDFD0C0)
+#define PJPHJINFMEH_LKGCMAIAPGE_OFFSET UNITYSDK_OFFSET(0x1EDFD090)
+#define PJPHJINFMEH_MPLCKDNDEHC_OFFSET UNITYSDK_OFFSET(0x1EDFD070)
+#define PJPHJINFMEH__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFD060)
+
+inline static constexpr unsigned int PJPHJINFMEH_TypeDefinitionIndex = 18745;
+
+class PJPHJINFMEH : public ::System::Object
+{
+public:
+	::Foundation::IEntity* _FAHNOENJLOK_k__BackingField; // 0x10
+	::GPJMHAAEIKO _NGEJGMOFAPI_k__BackingField; // 0x18
+	::NCJLKIIGPIC _OLDJDPOGPDM_k__BackingField; // 0x1C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PJPHJINFMEH__CTOR_OFFSET))(this);
+	}
+
+	static ::PJPHJINFMEH* BBPCBEEHALC(::Foundation::IEntity* KECKGDFIALJ, ::NCJLKIIGPIC CGNGIBNMDHP, ::GPJMHAAEIKO CBHKCCOFHKA)
+	{
+		return ((::PJPHJINFMEH*(*)(::Foundation::IEntity*, ::NCJLKIIGPIC, ::GPJMHAAEIKO))((::PBYTE)hIl2Cpp + PJPHJINFMEH_BBPCBEEHALC_OFFSET))(KECKGDFIALJ, CGNGIBNMDHP, CBHKCCOFHKA);
+	}
+
+	::System::Void MPLCKDNDEHC(::Foundation::IEntity* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::Foundation::IEntity*))((::PBYTE)hIl2Cpp + PJPHJINFMEH_MPLCKDNDEHC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::NCJLKIIGPIC DAEBJFCICDA()
+	{
+		return ((::NCJLKIIGPIC(*)(::PVOID))((::PBYTE)hIl2Cpp + PJPHJINFMEH_DAEBJFCICDA_OFFSET))(this);
+	}
+
+	::System::Void LKGCMAIAPGE(::NCJLKIIGPIC EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::NCJLKIIGPIC))((::PBYTE)hIl2Cpp + PJPHJINFMEH_LKGCMAIAPGE_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void BLPBBBFLJMA(::GPJMHAAEIKO EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GPJMHAAEIKO))((::PBYTE)hIl2Cpp + PJPHJINFMEH_BLPBBBFLJMA_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::GPJMHAAEIKO DOJILHIHJND()
+	{
+		return ((::GPJMHAAEIKO(*)(::PVOID))((::PBYTE)hIl2Cpp + PJPHJINFMEH_DOJILHIHJND_OFFSET))(this);
+	}
+
+	::Foundation::IEntity* IBNCFMCGHFC()
+	{
+		return ((::Foundation::IEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + PJPHJINFMEH_IBNCFMCGHFC_OFFSET))(this);
+	}
+};

@@ -1,23 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/ChessStateMachine/GridChangeHeightAction_RuntimeData.h"
-#include "unitysdk/MoleMole/ChessStateMachine/StateMachineGeometryEntityAction_1.h"
 #include "unitysdk/MoleMole/HollowChessboard/GeometryHeightType.h"
 
-class Class_3_5A46B9360F369125;
-class Class_5_8A5B236F53009830;
+class CMJKDHNDLBM;
+class JMIGPHLOLAJ;
 
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION_DOCHANGESTRUCTANIM_OFFSET UNITYSDK_OFFSET(0x12A2DC90)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION_NEEDCHANGESTRUCTBETWEENRISE_OFFSET UNITYSDK_OFFSET(0x12A2DC30)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION_RUN_OFFSET UNITYSDK_OFFSET(0x12A2DB30)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x12A2E220)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION__DOCHANGESTRUCTANIM_B__3_0_OFFSET UNITYSDK_OFFSET(0x12A2E240)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION_DOCHANGESTRUCTANIM_OFFSET UNITYSDK_OFFSET(0x19275410)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION_NEEDCHANGESTRUCTBETWEENRISE_OFFSET UNITYSDK_OFFSET(0x192753B0)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION_RUN_OFFSET UNITYSDK_OFFSET(0x192752B0)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19275910)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION__DOCHANGESTRUCTANIM_B__3_0_OFFSET UNITYSDK_OFFSET(0x19275930)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int GridChangeHeightAction_TypeDefinitionIndex = 53967;
+	inline static constexpr unsigned int GridChangeHeightAction_TypeDefinitionIndex = 69286;
 
-	class GridChangeHeightAction : public ::MoleMole::ChessStateMachine::StateMachineGeometryEntityAction_1<::MoleMole::ChessStateMachine::GridChangeHeightAction_RuntimeData>
+	class GridChangeHeightAction
 	{
 	public:
 		::MoleMole::HollowChessboard::GeometryHeightType TargetHeightType; // 0x38
@@ -27,19 +25,19 @@ namespace MoleMole::ChessStateMachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Run(::Class_3_5A46B9360F369125* context)
+		::System::Void Run(::CMJKDHNDLBM* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_5A46B9360F369125*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION_RUN_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::CMJKDHNDLBM*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION_RUN_OFFSET))(this, context);
 		}
 
-		::System::Void DoChangeStructAnim(::Class_5_8A5B236F53009830* comp)
+		::System::Void DoChangeStructAnim(::JMIGPHLOLAJ* comp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_5_8A5B236F53009830*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION_DOCHANGESTRUCTANIM_OFFSET))(this, comp);
+			return ((::System::Void(*)(::PVOID, ::JMIGPHLOLAJ*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION_DOCHANGESTRUCTANIM_OFFSET))(this, comp);
 		}
 
-		::System::Boolean NeedChangeStructBetweenRise(::Class_5_8A5B236F53009830* comp)
+		::System::Boolean NeedChangeStructBetweenRise(::JMIGPHLOLAJ* comp)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_5_8A5B236F53009830*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION_NEEDCHANGESTRUCTBETWEENRISE_OFFSET))(this, comp);
+			return ((::System::Boolean(*)(::PVOID, ::JMIGPHLOLAJ*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDCHANGEHEIGHTACTION_NEEDCHANGESTRUCTBETWEENRISE_OFFSET))(this, comp);
 		}
 
 		::System::Void _DoChangeStructAnim_b__3_0()

@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GeneralTopTipShow.h"
 
-class Class_2_48DFB0E953D00A02;
+class AJNEAMAGNAN;
 
-#define MOLEMOLE_UIRABTRAINEXPGAINTOPTIP_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1517F920)
-#define MOLEMOLE_UIRABTRAINEXPGAINTOPTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1517F900)
-#define MOLEMOLE_UIRABTRAINEXPGAINTOPTIP___BASE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1517FD40)
+#define MOLEMOLE_UIRABTRAINEXPGAINTOPTIP_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x14CC0CA0)
+#define MOLEMOLE_UIRABTRAINEXPGAINTOPTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x14CC0C80)
+#define MOLEMOLE_UIRABTRAINEXPGAINTOPTIP___BASE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x14CC10C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABTrainExpGainTopTip_TypeDefinitionIndex = 44474;
+	inline static constexpr unsigned int UIRABTrainExpGainTopTip_TypeDefinitionIndex = 75710;
 
 	class UIRABTrainExpGainTopTip : public ::MoleMole::GeneralTopTipShow
 	{
 	public:
-		::Class_2_48DFB0E953D00A02* _context; // 0x30
+		::AJNEAMAGNAN* _context; // 0x30
 
-		::System::Void _ctor(::Class_2_48DFB0E953D00A02* context)
+		::System::Void _ctor(::AJNEAMAGNAN* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_48DFB0E953D00A02*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABTRAINEXPGAINTOPTIP__CTOR_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::AJNEAMAGNAN*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABTRAINEXPGAINTOPTIP__CTOR_OFFSET))(this, context);
 		}
 
 		::System::Void OnProcess()

@@ -7,13 +7,14 @@ namespace Mono
 {
 	inline static constexpr unsigned int MonoAssemblyName_TypeDefinitionIndex = 22;
 
-	struct alignas(8) MonoAssemblyName
+	struct alignas(4) MonoAssemblyName
 	{
 		::System::IntPtr name; // 0x10
 		::System::IntPtr culture; // 0x18
 		::System::IntPtr hash_value; // 0x20
 		::System::IntPtr public_key; // 0x28
 		::Mono::MonoAssemblyName__public_key_token_e__FixedBuffer public_key_token; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::UInt32 hash_alg; // 0x44
 		::System::UInt32 hash_len; // 0x48
 		::System::UInt32 flags; // 0x4C

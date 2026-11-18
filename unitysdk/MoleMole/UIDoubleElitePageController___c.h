@@ -2,78 +2,78 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1685EC66FBD28897;
-class Class_1_EF12842DE36D4E46_Class_1_69FADA46CC266916;
-class Class_2_208CC9941471731A_477;
+class FOLOGHLENFB;
+class KOIDMLPJGML;
+class PABFKMAGGMB_PLDCCCJEPEC;
 namespace MoleMole { class UILineupSelectPageController; }
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__BINDCLICKS_B__23_2_OFFSET UNITYSDK_OFFSET(0x186A68C0)
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__BINDCLICKS_B__23_3_OFFSET UNITYSDK_OFFSET(0x186A6940)
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__BINDCLICKS_B__23_4_OFFSET UNITYSDK_OFFSET(0x186A6800)
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x186A5ED0)
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x186A5F10)
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONCLICKFORMATIONREAL_B__30_2_OFFSET UNITYSDK_OFFSET(0x186A69A0)
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__18_4_OFFSET UNITYSDK_OFFSET(0x186A5F20)
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__18_6_OFFSET UNITYSDK_OFFSET(0x186A6590)
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__18_7_OFFSET UNITYSDK_OFFSET(0x186A65E0)
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__18_8_OFFSET UNITYSDK_OFFSET(0x186A6610)
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__REFRESHSWEEPPOPWINDOW_B__51_1_OFFSET UNITYSDK_OFFSET(0x186A6A00)
-#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__REFRESHSWEEPPOPWINDOW_B__51_2_OFFSET UNITYSDK_OFFSET(0x186A6A90)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__BINDCLICKS_B__29_2_OFFSET UNITYSDK_OFFSET(0x184ADF30)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__BINDCLICKS_B__29_3_OFFSET UNITYSDK_OFFSET(0x184ADFB0)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__BINDCLICKS_B__29_4_OFFSET UNITYSDK_OFFSET(0x184ADE70)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x184AD550)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x184AD590)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONCLICKFORMATIONREAL_B__36_2_OFFSET UNITYSDK_OFFSET(0x184AE010)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__19_4_OFFSET UNITYSDK_OFFSET(0x184AD5A0)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__19_6_OFFSET UNITYSDK_OFFSET(0x184ADC00)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__19_7_OFFSET UNITYSDK_OFFSET(0x184ADC50)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__19_8_OFFSET UNITYSDK_OFFSET(0x184ADC80)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__REFRESHSWEEPPOPWINDOW_B__57_1_OFFSET UNITYSDK_OFFSET(0x184AE070)
+#define MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__REFRESHSWEEPPOPWINDOW_B__57_2_OFFSET UNITYSDK_OFFSET(0x184AE100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDoubleElitePageController___c_TypeDefinitionIndex = 59305;
+	inline static constexpr unsigned int UIDoubleElitePageController___c_TypeDefinitionIndex = 55848;
 
 	class UIDoubleElitePageController___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__23_3()
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__29_2()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x4FF60);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x42070);
 		}
-		static ::System::Action** StaticGet___9__51_1()
+		static ::System::Action_1<::MoleMole::UILineupSelectPageController*>** StaticGet___9__36_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x4FF68);
+			return (::System::Action_1<::MoleMole::UILineupSelectPageController*>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x42078);
 		}
-		static ::System::Func_2<::Class_2_208CC9941471731A_477*, ::System::Boolean>** StaticGet___9__18_7()
+		static ::System::Func_2<::KOIDMLPJGML*, ::FOLOGHLENFB*>** StaticGet___9__19_6()
 		{
-			return (::System::Func_2<::Class_2_208CC9941471731A_477*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x4FF70);
+			return (::System::Func_2<::KOIDMLPJGML*, ::FOLOGHLENFB*>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x42080);
 		}
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__23_2()
+		static ::System::Action** StaticGet___9__57_1()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x4FF78);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x42088);
 		}
-		static ::System::Action_1<::MoleMole::UILineupSelectPageController*>** StaticGet___9__30_2()
+		static ::System::Action** StaticGet___9__29_4()
 		{
-			return (::System::Action_1<::MoleMole::UILineupSelectPageController*>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x4FF80);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x42090);
 		}
-		static ::System::Action** StaticGet___9__51_2()
+		static ::System::Func_2<::FOLOGHLENFB*, ::System::Boolean>** StaticGet___9__19_8()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x4FF88);
+			return (::System::Func_2<::FOLOGHLENFB*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x42098);
 		}
-		static ::System::Func_2<::Class_1_EF12842DE36D4E46_Class_1_69FADA46CC266916*, ::System::Int32>** StaticGet___9__18_4()
+		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__19_4()
 		{
-			return (::System::Func_2<::Class_1_EF12842DE36D4E46_Class_1_69FADA46CC266916*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x4FF90);
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x420A0);
 		}
-		static ::System::Action** StaticGet___9__23_4()
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__29_3()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x4FF98);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x420A8);
 		}
-		static ::System::Func_2<::Class_2_208CC9941471731A_477*, ::System::Boolean>** StaticGet___9__18_8()
+		static ::System::Func_2<::FOLOGHLENFB*, ::System::Boolean>** StaticGet___9__19_7()
 		{
-			return (::System::Func_2<::Class_2_208CC9941471731A_477*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x4FFA0);
+			return (::System::Func_2<::FOLOGHLENFB*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x420B0);
 		}
-		static ::System::Func_2<::Class_1_1685EC66FBD28897*, ::Class_2_208CC9941471731A_477*>** StaticGet___9__18_6()
+		static ::System::Action** StaticGet___9__57_2()
 		{
-			return (::System::Func_2<::Class_1_1685EC66FBD28897*, ::Class_2_208CC9941471731A_477*>**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x4FFA8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x420B8);
 		}
-		static ::MoleMole::UIDoubleElitePageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIDoubleElitePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x4FFB0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIDoubleElitePageController___c_TypeDefinitionIndex)->GetStaticField(0x420C0);
 		}
 
 		static ::System::Void _cctor()
@@ -86,54 +86,54 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _OnUIOpen_b__18_4(::Class_1_EF12842DE36D4E46_Class_1_69FADA46CC266916* chapterInfo)
+		::System::Int32 _OnUIOpen_b__19_4(::PABFKMAGGMB_PLDCCCJEPEC* chapterInfo)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_EF12842DE36D4E46_Class_1_69FADA46CC266916*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__18_4_OFFSET))(this, chapterInfo);
+			return ((::System::Int32(*)(::PVOID, ::PABFKMAGGMB_PLDCCCJEPEC*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__19_4_OFFSET))(this, chapterInfo);
 		}
 
-		::Class_2_208CC9941471731A_477* _OnUIOpen_b__18_6(::Class_1_1685EC66FBD28897* itemData)
+		::FOLOGHLENFB* _OnUIOpen_b__19_6(::KOIDMLPJGML* itemData)
 		{
-			return ((::Class_2_208CC9941471731A_477*(*)(::PVOID, ::Class_1_1685EC66FBD28897*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__18_6_OFFSET))(this, itemData);
+			return ((::FOLOGHLENFB*(*)(::PVOID, ::KOIDMLPJGML*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__19_6_OFFSET))(this, itemData);
 		}
 
-		::System::Boolean _OnUIOpen_b__18_7(::Class_2_208CC9941471731A_477* itemTemplate)
+		::System::Boolean _OnUIOpen_b__19_7(::FOLOGHLENFB* itemTemplate)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_477*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__18_7_OFFSET))(this, itemTemplate);
+			return ((::System::Boolean(*)(::PVOID, ::FOLOGHLENFB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__19_7_OFFSET))(this, itemTemplate);
 		}
 
-		::System::Boolean _OnUIOpen_b__18_8(::Class_2_208CC9941471731A_477* itemTemplate)
+		::System::Boolean _OnUIOpen_b__19_8(::FOLOGHLENFB* itemTemplate)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_208CC9941471731A_477*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__18_8_OFFSET))(this, itemTemplate);
+			return ((::System::Boolean(*)(::PVOID, ::FOLOGHLENFB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONUIOPEN_B__19_8_OFFSET))(this, itemTemplate);
 		}
 
-		::System::Void _BindClicks_b__23_4()
+		::System::Void _BindClicks_b__29_4()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__BINDCLICKS_B__23_4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__BINDCLICKS_B__29_4_OFFSET))(this);
 		}
 
-		::System::Void _BindClicks_b__23_2()
+		::System::Void _BindClicks_b__29_2()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__BINDCLICKS_B__23_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__BINDCLICKS_B__29_2_OFFSET))(this);
 		}
 
-		::System::Void _BindClicks_b__23_3()
+		::System::Void _BindClicks_b__29_3()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__BINDCLICKS_B__23_3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__BINDCLICKS_B__29_3_OFFSET))(this);
 		}
 
-		::System::Void _OnClickFormationReal_b__30_2(::MoleMole::UILineupSelectPageController* controller)
+		::System::Void _OnClickFormationReal_b__36_2(::MoleMole::UILineupSelectPageController* controller)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::UILineupSelectPageController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONCLICKFORMATIONREAL_B__30_2_OFFSET))(this, controller);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UILineupSelectPageController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__ONCLICKFORMATIONREAL_B__36_2_OFFSET))(this, controller);
 		}
 
-		::System::Void _RefreshSweepPopWindow_b__51_1()
+		::System::Void _RefreshSweepPopWindow_b__57_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__REFRESHSWEEPPOPWINDOW_B__51_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__REFRESHSWEEPPOPWINDOW_B__57_1_OFFSET))(this);
 		}
 
-		::System::Void _RefreshSweepPopWindow_b__51_2()
+		::System::Void _RefreshSweepPopWindow_b__57_2()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__REFRESHSWEEPPOPWINDOW_B__51_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDOUBLEELITEPAGECONTROLLER___C__REFRESHSWEEPPOPWINDOW_B__57_2_OFFSET))(this);
 		}
 	};
 }

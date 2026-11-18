@@ -9,13 +9,14 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehicleVisualConfig_TypeDefinitionIndex = 50730;
+	inline static constexpr unsigned int VehicleVisualConfig_TypeDefinitionIndex = 57365;
 
 	struct alignas(8) VehicleVisualConfig
 	{
 		::System::Single preInputTime; // 0x10
 		::System::Single wheelieChance; // 0x14
 		::System::Single steerAnimationChangeRatio; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* steerAnimationMappingCurve; // 0x20
 		::Il2CppArray<::System::String*>* vehicleDodgeStates; // 0x28
 		::Il2CppArray<::System::String*>* vehicleHitStates; // 0x30
@@ -35,6 +36,7 @@ namespace MoleMole::Vehicle
 		::System::String* RTPCLeftWall; // 0xA8
 		::System::String* RTPCRightWall; // 0xB0
 		::System::Single SoundObjectTriggerDistance; // 0xB8
+		::System::Byte _padding1[0x4];
 		::System::String* LargePassBySound; // 0xC0
 		::System::String* SmallPassBySound; // 0xC8
 	};

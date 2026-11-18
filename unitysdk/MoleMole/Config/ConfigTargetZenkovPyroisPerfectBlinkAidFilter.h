@@ -4,12 +4,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_CONFIG_CONFIGTARGETZENKOVPYROISPERFECTBLINKAIDFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x14876350)
-#define MOLEMOLE_CONFIG_CONFIGTARGETZENKOVPYROISPERFECTBLINKAIDFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x148764F0)
+#define MOLEMOLE_CONFIG_CONFIGTARGETZENKOVPYROISPERFECTBLINKAIDFILTER_VALUEPASS_OFFSET UNITYSDK_OFFSET(0x11EA2630)
+#define MOLEMOLE_CONFIG_CONFIGTARGETZENKOVPYROISPERFECTBLINKAIDFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11EA27D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTargetZenkovPyroisPerfectBlinkAidFilter_TypeDefinitionIndex = 48460;
+	inline static constexpr unsigned int ConfigTargetZenkovPyroisPerfectBlinkAidFilter_TypeDefinitionIndex = 52646;
 
 	class ConfigTargetZenkovPyroisPerfectBlinkAidFilter : public ::MoleMole::Config::ConfigEntityFilter
 	{

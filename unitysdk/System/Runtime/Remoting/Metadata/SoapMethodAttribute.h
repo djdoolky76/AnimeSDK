@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE_GET_USEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D196D90)
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE_GET_XMLNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1D196DA0)
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE_SETREFLECTIONOBJECT_OFFSET UNITYSDK_OFFSET(0x1D196DB0)
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D196D80)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE_GET_USEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D7747A0)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE_GET_XMLNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1D7747B0)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE_SETREFLECTIONOBJECT_OFFSET UNITYSDK_OFFSET(0x1D7747C0)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPMETHODATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D774790)
 
 namespace System::Runtime::Remoting::Metadata
 {
-	inline static constexpr unsigned int SoapMethodAttribute_TypeDefinitionIndex = 1320;
+	inline static constexpr unsigned int SoapMethodAttribute_TypeDefinitionIndex = 1319;
 
 	class SoapMethodAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute
 	{
 	public:
-		::System::String* _responseNamespace; // 0x28
-		::System::String* _soapAction; // 0x30
-		::System::String* _returnElement; // 0x38
-		::System::String* _namespace; // 0x40
-		::System::String* _responseElement; // 0x48
+		::System::String* _returnElement; // 0x28
+		::System::String* _responseNamespace; // 0x30
+		::System::String* _namespace; // 0x38
+		::System::String* _responseElement; // 0x40
+		::System::String* _soapAction; // 0x48
 		::System::Boolean _useAttribute; // 0x50
 
 		::System::Void _ctor()

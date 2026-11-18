@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class ZenkovClockPagesRuntimeManager_ClockPageMaterialMapping; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_ZENKOVCLOCKPAGESRUNTIMEMANAGER_CLOCKPAGEBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB03250)
+#define MOLEMOLE_ZENKOVCLOCKPAGESRUNTIMEMANAGER_CLOCKPAGEBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC0B70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ZenkovClockPagesRuntimeManager_ClockPageBinding_TypeDefinitionIndex = 27361;
+	inline static constexpr unsigned int ZenkovClockPagesRuntimeManager_ClockPageBinding_TypeDefinitionIndex = 26598;
 
 	class ZenkovClockPagesRuntimeManager_ClockPageBinding : public ::System::Object
 	{
@@ -21,11 +20,14 @@ namespace MoleMole
 		::UnityEngine::Renderer* targetRenderer; // 0x18
 		::UnityEngine::Animator* playbackAnimator; // 0x20
 		::System::Int32 materialIndex; // 0x28
-		::System::Collections::Generic::List_1<::MoleMole::ZenkovClockPagesRuntimeManager_ClockPageMaterialMapping*>* materialPageMappings; // 0x30
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* materialPageMappings; // 0x30
 		::System::Boolean materialPageMappingsInitialized; // 0x38
+		::System::Byte _padding1[0x3];
 		::System::Int32 horizontalOffset; // 0x3C
 		::System::Int32 verticalOffset; // 0x40
 		::System::Boolean enableAutoPlayback; // 0x44
+		::System::Byte _padding2[0x3];
 		::System::Int32 playRowCount; // 0x48
 		::System::Single playTimeMultiplier; // 0x4C
 		::System::Single idleSeconds; // 0x50

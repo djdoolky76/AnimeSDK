@@ -5,10 +5,10 @@
 namespace MoleMole { class ConfigRhythmMoveBeatMap; }
 namespace System { class Action; }
 
-#define CONFIGRHYTHMMOVEBEATMAPDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A47320)
-#define CONFIGRHYTHMMOVEBEATMAPDATA___C__DISPLAYCLASS2_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x17A47330)
+#define CONFIGRHYTHMMOVEBEATMAPDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x147BAE50)
+#define CONFIGRHYTHMMOVEBEATMAPDATA___C__DISPLAYCLASS2_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x147BAE60)
 
-inline static constexpr unsigned int ConfigRhythmMoveBeatMapData___c__DisplayClass2_0_TypeDefinitionIndex = 74768;
+inline static constexpr unsigned int ConfigRhythmMoveBeatMapData___c__DisplayClass2_0_TypeDefinitionIndex = 72556;
 
 class ConfigRhythmMoveBeatMapData___c__DisplayClass2_0 : public ::System::Object
 {

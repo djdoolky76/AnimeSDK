@@ -7,19 +7,23 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPROCESSORS_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x60A080)
+#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPROCESSORS_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x6089B0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilitySmoothOrientationProcessors_ExecuteJob_TypeDefinitionIndex = 55479;
+	inline static constexpr unsigned int NPCAbilitySmoothOrientationProcessors_ExecuteJob_TypeDefinitionIndex = 70660;
 
 	struct alignas(8) NPCAbilitySmoothOrientationProcessors_ExecuteJob
 	{
 		::System::Single deltaTime; // 0x10
+		::System::Byte _padding0[0x4];
 		::Unity::Collections::NativeArray_1<::System::Boolean> runtime_bIsUsing; // 0x18
+		::System::Byte _padding1[0x8];
 		::NPCCrowd::Ability::NPCAbilitySmoothOrientationProcessors_OrientationParameters orientationParams; // 0x28
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMoveTargetFragment> runtime_moveTarget; // 0x48
+		::System::Byte _padding2[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> runtime_transform; // 0x58
+		::System::Byte _padding3[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCAbilityMovementFragment> runtime_movement; // 0x68
 
 		::System::Void Execute(::System::Int32 idx)

@@ -8,11 +8,11 @@ namespace MoleMole { class UrbanMapIconSize; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUINEWMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0047F0)
+#define MOLEMOLE_CONFIGUINEWMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7817F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUINewMap_TypeDefinitionIndex = 46902;
+	inline static constexpr unsigned int ConfigUINewMap_TypeDefinitionIndex = 61867;
 
 	class ConfigUINewMap : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -23,6 +23,7 @@ namespace MoleMole
 		::System::Single MobileScaleSpeed; // 0x68
 		::System::Single PCScaleSpeed; // 0x6C
 		::System::Single ConsoleScaleSpeed; // 0x70
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::UrbanMapIconSize*>* IconSizes; // 0x78
 		::Foundation::AssetPath MiniMapLocalPlayerIconPath; // 0x80
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Foundation::AssetPath>* MultiPlayerIconPaths; // 0x90

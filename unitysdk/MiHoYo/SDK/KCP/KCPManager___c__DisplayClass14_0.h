@@ -7,21 +7,21 @@ namespace MiHoYo::SDK::KCP { class KCPManager; }
 namespace System { class String; }
 namespace System::Threading { class WaitCallback; }
 
-#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS14_0__CONNECT_B__0_OFFSET UNITYSDK_OFFSET(0x1D842490)
-#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS14_0__CONNECT_B__1_OFFSET UNITYSDK_OFFSET(0x1D842510)
-#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8410E0)
+#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS14_0__CONNECT_B__0_OFFSET UNITYSDK_OFFSET(0x1EF42540)
+#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS14_0__CONNECT_B__1_OFFSET UNITYSDK_OFFSET(0x1EF425C0)
+#define MIHOYO_SDK_KCP_KCPMANAGER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF41190)
 
 namespace MiHoYo::SDK::KCP
 {
-	inline static constexpr unsigned int KCPManager___c__DisplayClass14_0_TypeDefinitionIndex = 37724;
+	inline static constexpr unsigned int KCPManager___c__DisplayClass14_0_TypeDefinitionIndex = 35722;
 
 	class KCPManager___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::SecurityTunnel_AuthInfo authInfo; // 0x10
 		::MiHoYo::SDK::KCP::KCPManager* __4__this; // 0x50
-		::System::Threading::WaitCallback* __9__1; // 0x58
-		::System::String* strHost; // 0x60
+		::System::String* strHost; // 0x58
+		::System::Threading::WaitCallback* __9__1; // 0x60
 		::System::UInt16 nPort; // 0x68
 
 		::System::Void _ctor()

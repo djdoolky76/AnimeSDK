@@ -5,34 +5,33 @@
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
-namespace System::Net { class TrackingValidationObjectDictionary_ValidateAndParseValue; }
 
-#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_ADD_OFFSET UNITYSDK_OFFSET(0x1DECB5B0)
-#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DECB5C0)
-#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_GET_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x1DECB230)
-#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1DECB590)
-#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_INTERNALGET_OFFSET UNITYSDK_OFFSET(0x1DECB250)
-#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_INTERNALSET_OFFSET UNITYSDK_OFFSET(0x1DECB3E0)
-#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_PERSISTVALUE_OFFSET UNITYSDK_OFFSET(0x1DECADF0)
-#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_REMOVE_OFFSET UNITYSDK_OFFSET(0x1DECB6C0)
-#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_SET_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x1DECB240)
-#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1DECB5A0)
-#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DECAD50)
+#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_ADD_OFFSET UNITYSDK_OFFSET(0x1E34A8B0)
+#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E34A8C0)
+#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_GET_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x1E34A530)
+#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E34A890)
+#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_INTERNALGET_OFFSET UNITYSDK_OFFSET(0x1E34A550)
+#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_INTERNALSET_OFFSET UNITYSDK_OFFSET(0x1E34A6E0)
+#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_PERSISTVALUE_OFFSET UNITYSDK_OFFSET(0x1E34A0F0)
+#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_REMOVE_OFFSET UNITYSDK_OFFSET(0x1E34A9C0)
+#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_SET_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x1E34A540)
+#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E34A8A0)
+#define SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E34A050)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TrackingValidationObjectDictionary_TypeDefinitionIndex = 3439;
+	inline static constexpr unsigned int TrackingValidationObjectDictionary_TypeDefinitionIndex = 3438;
 
 	class TrackingValidationObjectDictionary : public ::System::Collections::Specialized::StringDictionary
 	{
 	public:
-		::System::Collections::Generic::IDictionary_2<::System::String*, ::System::Object*>* internalObjects; // 0x18
-		::System::Collections::Generic::IDictionary_2<::System::String*, ::System::Net::TrackingValidationObjectDictionary_ValidateAndParseValue*>* validators; // 0x20
+		::System::Collections::Generic::IDictionary_2<::System::String*, ::System::Object*>* validators; // 0x18
+		::System::Collections::Generic::IDictionary_2<::System::String*, ::System::Object*>* internalObjects; // 0x20
 		::System::Boolean _IsChanged_k__BackingField; // 0x28
 
-		::System::Void _ctor(::System::Collections::Generic::IDictionary_2<::System::String*, ::System::Net::TrackingValidationObjectDictionary_ValidateAndParseValue*>* validators)
+		::System::Void _ctor(::System::Collections::Generic::IDictionary_2<::System::String*, ::System::Object*>* validators)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::Net::TrackingValidationObjectDictionary_ValidateAndParseValue*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY__CTOR_OFFSET))(this, validators);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_TRACKINGVALIDATIONOBJECTDICTIONARY__CTOR_OFFSET))(this, validators);
 		}
 
 		::System::Void PersistValue(::System::String* key, ::System::String* value, ::System::Boolean addValue)

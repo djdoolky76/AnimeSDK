@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardEventNode_1.h"
 
-namespace MoleMole::DefenseScene { class DefenseSceneTrapChessEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_TRAPTIMEOUT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x19DA8090)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_TRAPTIMEOUT__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DA8140)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_TRAPTIMEOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DA80F0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_TRAPTIMEOUT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x12B2F080)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_TRAPTIMEOUT__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B2F130)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_TRAPTIMEOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2F0E0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoard_TrapTimeOut_TypeDefinitionIndex = 53894;
+	inline static constexpr unsigned int ChessBoard_TrapTimeOut_TypeDefinitionIndex = 72087;
 
-	class ChessBoard_TrapTimeOut : public ::MoleMole::FlowCanvas::ChessboardEventNode_1<::MoleMole::DefenseScene::DefenseSceneTrapChessEntity*>
+	class ChessBoard_TrapTimeOut
 	{
 	public:
 		static ::System::String** StaticGet_StaticEventName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ChessBoard_TrapTimeOut_TypeDefinitionIndex)->GetStaticField(0x39ED0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ChessBoard_TrapTimeOut_TypeDefinitionIndex)->GetStaticField(0x3BE30);
 		}
 
 		::System::Void _ctor()

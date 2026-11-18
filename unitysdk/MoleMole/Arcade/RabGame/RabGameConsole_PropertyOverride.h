@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_ARCADE_RABGAME_RABGAMECONSOLE_PROPERTYOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F83D3F0)
+#define MOLEMOLE_ARCADE_RABGAME_RABGAMECONSOLE_PROPERTYOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF730D0)
 
 namespace MoleMole::Arcade::RabGame
 {
-	inline static constexpr unsigned int RabGameConsole_PropertyOverride_TypeDefinitionIndex = 93448;
+	inline static constexpr unsigned int RabGameConsole_PropertyOverride_TypeDefinitionIndex = 95000;
 
 	class RabGameConsole_PropertyOverride : public ::System::Object
 	{

@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_410;
+class CEDHMCAELMM;
 namespace MoleMole { class IVideoPlayer; }
 namespace MoleMole::ChessStateMachine { class ShowNoneInteractAnimAction; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_SHOWNONEINTERACTANIMACTION___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x177C0CC0)
-#define MOLEMOLE_CHESSSTATEMACHINE_SHOWNONEINTERACTANIMACTION___C__DISPLAYCLASS0_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x177C0CD0)
+#define MOLEMOLE_CHESSSTATEMACHINE_SHOWNONEINTERACTANIMACTION___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x174E8350)
+#define MOLEMOLE_CHESSSTATEMACHINE_SHOWNONEINTERACTANIMACTION___C__DISPLAYCLASS0_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x174E8360)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ShowNoneInteractAnimAction___c__DisplayClass0_0_TypeDefinitionIndex = 82251;
+	inline static constexpr unsigned int ShowNoneInteractAnimAction___c__DisplayClass0_0_TypeDefinitionIndex = 50366;
 
 	class ShowNoneInteractAnimAction___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_410* config; // 0x10
-		::MoleMole::ChessStateMachine::ShowNoneInteractAnimAction* __4__this; // 0x18
+		::MoleMole::ChessStateMachine::ShowNoneInteractAnimAction* __4__this; // 0x10
+		::CEDHMCAELMM* config; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,13 +5,14 @@
 namespace MoleMole { class UIAbyssBackstageRelicInfoPopWindowController; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define MOLEMOLE_UIABYSSBACKSTAGERELICINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F7410)
-#define MOLEMOLE_UIABYSSBACKSTAGERELICINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_1__INITTAB_B__1_OFFSET UNITYSDK_OFFSET(0x1A5F7420)
+#define MOLEMOLE_UIABYSSBACKSTAGERELICINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19D034A0)
+#define MOLEMOLE_UIABYSSBACKSTAGERELICINFOPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_1__INITTAB_B__1_OFFSET UNITYSDK_OFFSET(0x19D034B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssBackstageRelicInfoPopWindowController___c__DisplayClass7_1_TypeDefinitionIndex = 63367;
+	inline static constexpr unsigned int UIAbyssBackstageRelicInfoPopWindowController___c__DisplayClass7_1_TypeDefinitionIndex = 86710;
 
+	template <typename T>
 	class UIAbyssBackstageRelicInfoPopWindowController___c__DisplayClass7_1 : public ::System::Object
 	{
 	public:

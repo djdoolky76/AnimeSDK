@@ -2,21 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_B9416AD3CF7CE7E5;
+class DCFKHKBLIMA;
 
-#define MOLEMOLE_UIRABBUFFREFRESHBUFFWIDGETCONTROLLER_CONTEXT_CHECKANIMEQUAL_OFFSET UNITYSDK_OFFSET(0x150F6C90)
-#define MOLEMOLE_UIRABBUFFREFRESHBUFFWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x150F6CF0)
+#define MOLEMOLE_UIRABBUFFREFRESHBUFFWIDGETCONTROLLER_CONTEXT_CHECKANIMEQUAL_OFFSET UNITYSDK_OFFSET(0x147F34E0)
+#define MOLEMOLE_UIRABBUFFREFRESHBUFFWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x147F3540)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABBuffRefreshBuffWidgetController_Context_TypeDefinitionIndex = 67382;
+	inline static constexpr unsigned int UIRABBuffRefreshBuffWidgetController_Context_TypeDefinitionIndex = 92591;
 
 	class UIRABBuffRefreshBuffWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_B9416AD3CF7CE7E5* BuddyData; // 0x28
+		::DCFKHKBLIMA* BuddyData; // 0x28
 		::System::Boolean IsNew; // 0x30
 		::System::Boolean NewOrOldFactor; // 0x31
+		::System::Byte _padding0[0x2];
 		::System::Int32 FactorId; // 0x34
 
 		::System::Void _ctor()

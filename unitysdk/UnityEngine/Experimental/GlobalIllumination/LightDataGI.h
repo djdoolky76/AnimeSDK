@@ -7,17 +7,22 @@
 #include "unitysdk/UnityEngine/Experimental/GlobalIllumination/LinearColor.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Experimental/GlobalIllumination/DirectionalLight.h"
+#include "unitysdk/UnityEngine/Experimental/GlobalIllumination/DiscLight.h"
+#include "unitysdk/UnityEngine/Experimental/GlobalIllumination/PointLight.h"
+#include "unitysdk/UnityEngine/Experimental/GlobalIllumination/RectangleLight.h"
+#include "unitysdk/UnityEngine/Experimental/GlobalIllumination/SpotLight.h"
 
-#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INITNOBAKE_OFFSET UNITYSDK_OFFSET(0xA54110)
-#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_1_OFFSET UNITYSDK_OFFSET(0xA53F50)
-#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_2_OFFSET UNITYSDK_OFFSET(0xA53FC0)
-#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_3_OFFSET UNITYSDK_OFFSET(0xA54030)
-#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_4_OFFSET UNITYSDK_OFFSET(0xA540A0)
-#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_OFFSET UNITYSDK_OFFSET(0xA53E80)
+#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INITNOBAKE_OFFSET UNITYSDK_OFFSET(0x934AC0)
+#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_1_OFFSET UNITYSDK_OFFSET(0x934900)
+#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_2_OFFSET UNITYSDK_OFFSET(0x934970)
+#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_3_OFFSET UNITYSDK_OFFSET(0x9349E0)
+#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_4_OFFSET UNITYSDK_OFFSET(0x934A50)
+#define UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_OFFSET UNITYSDK_OFFSET(0x934830)
 
 namespace UnityEngine::Experimental::GlobalIllumination
 {
-	inline static constexpr unsigned int LightDataGI_TypeDefinitionIndex = 6321;
+	inline static constexpr unsigned int LightDataGI_TypeDefinitionIndex = 6336;
 
 	struct alignas(4) LightDataGI
 	{
@@ -36,40 +41,30 @@ namespace UnityEngine::Experimental::GlobalIllumination
 		::System::Byte shadow; // 0x66
 		::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff; // 0x67
 
-		/*
 		::System::Void Init(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight& light)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::GlobalIllumination::DirectionalLight&))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_OFFSET))(this, light);
 		}
-		*/
 
-		/*
 		::System::Void Init_1(::UnityEngine::Experimental::GlobalIllumination::PointLight& light)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::GlobalIllumination::PointLight&))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_1_OFFSET))(this, light);
 		}
-		*/
 
-		/*
 		::System::Void Init_2(::UnityEngine::Experimental::GlobalIllumination::SpotLight& light)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::GlobalIllumination::SpotLight&))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_2_OFFSET))(this, light);
 		}
-		*/
 
-		/*
 		::System::Void Init_3(::UnityEngine::Experimental::GlobalIllumination::RectangleLight& light)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::GlobalIllumination::RectangleLight&))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_3_OFFSET))(this, light);
 		}
-		*/
 
-		/*
 		::System::Void Init_4(::UnityEngine::Experimental::GlobalIllumination::DiscLight& light)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::GlobalIllumination::DiscLight&))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_GLOBALILLUMINATION_LIGHTDATAGI_INIT_4_OFFSET))(this, light);
 		}
-		*/
 
 		::System::Void InitNoBake(::System::Int32 lightInstanceID)
 		{

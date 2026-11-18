@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_DELAYTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x157AC330)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_DELAYTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x157AC2D0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_DELAYTASK_TICK_OFFSET UNITYSDK_OFFSET(0x157AC3E0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_DELAYTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x157AB610)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_DELAYTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x10DB61B0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_DELAYTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x10DB6150)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_DELAYTASK_TICK_OFFSET UNITYSDK_OFFSET(0x10DB6260)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_DELAYTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x10DB53D0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_DelayTask_TypeDefinitionIndex = 78496;
+	inline static constexpr unsigned int VirtualProxy_DelayTask_TypeDefinitionIndex = 68515;
 
 	class VirtualProxy_DelayTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{

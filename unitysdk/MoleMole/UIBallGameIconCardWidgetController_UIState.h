@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F5ACAAB9AA1EB49.h"
+#include "unitysdk/JJEJBPGJPJN.h"
 
-template <typename T> class Class_0_16E4307DCC419505_159;
+template <typename T> class LJHFMILANJA_1;
 
-#define MOLEMOLE_UIBALLGAMEICONCARDWIDGETCONTROLLER_UISTATE_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1F36AA70)
-#define MOLEMOLE_UIBALLGAMEICONCARDWIDGETCONTROLLER_UISTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F36AB10)
+#define MOLEMOLE_UIBALLGAMEICONCARDWIDGETCONTROLLER_UISTATE_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1F126740)
+#define MOLEMOLE_UIBALLGAMEICONCARDWIDGETCONTROLLER_UISTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1267E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameIconCardWidgetController_UIState_TypeDefinitionIndex = 93471;
+	inline static constexpr unsigned int UIBallGameIconCardWidgetController_UIState_TypeDefinitionIndex = 95020;
 
-	class UIBallGameIconCardWidgetController_UIState : public ::Class_1_5F5ACAAB9AA1EB49
+	class UIBallGameIconCardWidgetController_UIState : public ::JJEJBPGJPJN
 	{
 	public:
-		::Class_0_16E4307DCC419505_159<::System::Single>* ExpPercent; // 0x80
-		::Class_0_16E4307DCC419505_159<::System::Int32>* Level; // 0x88
+		::LJHFMILANJA_1<::System::Int32>* Level; // 0x88
+		::LJHFMILANJA_1<::System::Single>* ExpPercent; // 0x90
 
 		::System::Void _ctor()
 		{

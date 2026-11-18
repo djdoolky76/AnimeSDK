@@ -3,16 +3,16 @@
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int GameplayTagQueryExpressionType_TypeDefinitionIndex = 15994;
+	inline static constexpr unsigned int GameplayTagQueryExpressionType_TypeDefinitionIndex = 11594;
 
 	enum class GameplayTagQueryExpressionType : ::System::Int32
 	{
 		AnyExprMatch = 4,
-		NoExprMatch = 6,
-		Undefined = 0,
 		NoTagsMatch = 3,
+		AllExprMatch = 5,
 		AnyTagsMatch = 1,
 		AllTagsMatch = 2,
-		AllExprMatch = 5,
+		Undefined = 0,
+		NoExprMatch = 6,
 	};
 }

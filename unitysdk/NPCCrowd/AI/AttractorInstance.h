@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/AI/AttractorDefinition.h"
 #include "unitysdk/NPCCrowd/AI/AttractorTemplateRefItem.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/NPCCrowd/AI/AttractorDefinition.h"
 
 namespace NPCCrowd::AI { class AttractorTemplate; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NPCCROWD_AI_ATTRACTORINSTANCE_GETREALDEFINITION_OFFSET UNITYSDK_OFFSET(0xE555DD0)
-#define NPCCROWD_AI_ATTRACTORINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xE555FD0)
+#define NPCCROWD_AI_ATTRACTORINSTANCE_GETREALDEFINITION_OFFSET UNITYSDK_OFFSET(0x106904D0)
+#define NPCCROWD_AI_ATTRACTORINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x106906D0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorInstance_TypeDefinitionIndex = 56302;
+	inline static constexpr unsigned int AttractorInstance_TypeDefinitionIndex = 47681;
 
 	class AttractorInstance : public ::System::Object
 	{

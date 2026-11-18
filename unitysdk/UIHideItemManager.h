@@ -4,7 +4,7 @@
 #include "unitysdk/MonoUIHideItem_ShowStatus.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_B20F2CFBAA024FE3;
+class GOAJFEFIODL;
 class MonoUIHideItem;
 namespace MoleMole::Config { class AnimatorZoneHideUI; }
 namespace System { class Action; }
@@ -13,35 +13,35 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UIHIDEITEMMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BC41EE0)
-#define UIHIDEITEMMANAGER_HANDLESETUPUIANIMLENGTHMAX_OFFSET UNITYSDK_OFFSET(0x1BC42E40)
-#define UIHIDEITEMMANAGER_HANDLESETUPUIFINISHCB_OFFSET UNITYSDK_OFFSET(0x1BC42EE0)
-#define UIHIDEITEMMANAGER_INTERRUPTSETUPUIBYTYPE_OFFSET UNITYSDK_OFFSET(0x1BC449A0)
-#define UIHIDEITEMMANAGER_INTERRUPTSETUPUI_OFFSET UNITYSDK_OFFSET(0x1BC44600)
-#define UIHIDEITEMMANAGER_ISITEMSHOW_OFFSET UNITYSDK_OFFSET(0x1BC44D90)
-#define UIHIDEITEMMANAGER_POP_OFFSET UNITYSDK_OFFSET(0x1BC423D0)
-#define UIHIDEITEMMANAGER_PUSH_OFFSET UNITYSDK_OFFSET(0x1BC42070)
-#define UIHIDEITEMMANAGER_RESETHIDEITEMS_OFFSET UNITYSDK_OFFSET(0x1BC44EC0)
-#define UIHIDEITEMMANAGER_SETUPUIBYACTION_OFFSET UNITYSDK_OFFSET(0x1BC43700)
-#define UIHIDEITEMMANAGER_SETUPUIBYZONE_OFFSET UNITYSDK_OFFSET(0x1BC44500)
-#define UIHIDEITEMMANAGER_SETUPUI_1_OFFSET UNITYSDK_OFFSET(0x1BC42FB0)
-#define UIHIDEITEMMANAGER_SETUPUI_2_OFFSET UNITYSDK_OFFSET(0x1BC43790)
-#define UIHIDEITEMMANAGER_SETUPUI_OFFSET UNITYSDK_OFFSET(0x1BC42600)
-#define UIHIDEITEMMANAGER_TRYGETHIDEITEM_OFFSET UNITYSDK_OFFSET(0x1BC45300)
-#define UIHIDEITEMMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC41FE0)
+#define UIHIDEITEMMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1C1F3300)
+#define UIHIDEITEMMANAGER_HANDLESETUPUIANIMLENGTHMAX_OFFSET UNITYSDK_OFFSET(0x1C1F4260)
+#define UIHIDEITEMMANAGER_HANDLESETUPUIFINISHCB_OFFSET UNITYSDK_OFFSET(0x1C1F4300)
+#define UIHIDEITEMMANAGER_INTERRUPTSETUPUIBYTYPE_OFFSET UNITYSDK_OFFSET(0x1C1F5DE0)
+#define UIHIDEITEMMANAGER_INTERRUPTSETUPUI_OFFSET UNITYSDK_OFFSET(0x1C1F5A30)
+#define UIHIDEITEMMANAGER_ISITEMSHOW_OFFSET UNITYSDK_OFFSET(0x1C1F61D0)
+#define UIHIDEITEMMANAGER_POP_OFFSET UNITYSDK_OFFSET(0x1C1F37F0)
+#define UIHIDEITEMMANAGER_PUSH_OFFSET UNITYSDK_OFFSET(0x1C1F3490)
+#define UIHIDEITEMMANAGER_RESETHIDEITEMS_OFFSET UNITYSDK_OFFSET(0x1C1F6300)
+#define UIHIDEITEMMANAGER_SETUPUIBYACTION_OFFSET UNITYSDK_OFFSET(0x1C1F4B20)
+#define UIHIDEITEMMANAGER_SETUPUIBYZONE_OFFSET UNITYSDK_OFFSET(0x1C1F5930)
+#define UIHIDEITEMMANAGER_SETUPUI_1_OFFSET UNITYSDK_OFFSET(0x1C1F43D0)
+#define UIHIDEITEMMANAGER_SETUPUI_2_OFFSET UNITYSDK_OFFSET(0x1C1F4BC0)
+#define UIHIDEITEMMANAGER_SETUPUI_OFFSET UNITYSDK_OFFSET(0x1C1F3A20)
+#define UIHIDEITEMMANAGER_TRYGETHIDEITEM_OFFSET UNITYSDK_OFFSET(0x1C1F6740)
+#define UIHIDEITEMMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1F3400)
 
-inline static constexpr unsigned int UIHideItemManager_TypeDefinitionIndex = 87541;
+inline static constexpr unsigned int UIHideItemManager_TypeDefinitionIndex = 70397;
 
 class UIHideItemManager : public ::System::Object
 {
 public:
 	static ::UIHideItemManager** StaticGet__instance()
 	{
-		return (::UIHideItemManager**)Il2CppClass::FromTypeDefinitionIndex(UIHideItemManager_TypeDefinitionIndex)->GetStaticField(0x43800);
+		return (::UIHideItemManager**)Il2CppClass::FromTypeDefinitionIndex(UIHideItemManager_TypeDefinitionIndex)->GetStaticField(0x494A0);
 	}
 	// static const ::System::String* HIDE_UI_ZONE_SETUP_TAG; // 0x0
-	::System::Collections::Generic::HashSet_1<::System::String*>* _handledTags; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MonoUIHideItem*>*>* _itemDic; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MonoUIHideItem*>*>* _itemDic; // 0x10
+	::System::Collections::Generic::HashSet_1<::System::String*>* _handledTags; // 0x18
 	::System::Int32 _hideUIZoneRuntimeID; // 0x20
 
 	::System::Void _ctor()
@@ -84,9 +84,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::MonoUIHideItem_HandleSource, ::System::String*, ::MonoUIHideItem_ShowStatus, ::System::Boolean, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + UIHIDEITEMMANAGER_SETUPUI_1_OFFSET))(this, handleSource, setupTag, showStatus, ignoreAnimation, uiTags, priority, setupFinishCB);
 	}
 
-	::System::Void SetupUIByAction(::Class_3_B20F2CFBAA024FE3* setupUIAction, ::System::Action* setupFinishCB)
+	::System::Void SetupUIByAction(::GOAJFEFIODL* setupUIAction, ::System::Action* setupFinishCB)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_B20F2CFBAA024FE3*, ::System::Action*))((::PBYTE)hIl2Cpp + UIHIDEITEMMANAGER_SETUPUIBYACTION_OFFSET))(this, setupUIAction, setupFinishCB);
+		return ((::System::Void(*)(::PVOID, ::GOAJFEFIODL*, ::System::Action*))((::PBYTE)hIl2Cpp + UIHIDEITEMMANAGER_SETUPUIBYACTION_OFFSET))(this, setupUIAction, setupFinishCB);
 	}
 
 	::System::Void SetupUI_2(::MonoUIHideItem_HandleSource handleSource, ::System::String* setupTag, ::System::Int32 priority, ::System::Collections::Generic::List_1<::System::String*>* showTags, ::System::Collections::Generic::List_1<::System::String*>* hideTags, ::System::Collections::Generic::List_1<::System::String*>* highlightTags, ::System::Boolean ignoreAnimation, ::System::Action* setupFinishCB)

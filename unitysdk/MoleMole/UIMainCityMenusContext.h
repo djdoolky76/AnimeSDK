@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_A8FC943A2182F177.h"
+#include "unitysdk/FPEFHBKEOGL.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1651B930)
-#define MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1651B990)
-#define MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1651B8D0)
+#define MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x14C91FC0)
+#define MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x14C92020)
+#define MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14C91F60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMenusContext_TypeDefinitionIndex = 46669;
+	inline static constexpr unsigned int UIMainCityMenusContext_TypeDefinitionIndex = 67598;
 
 	class UIMainCityMenusContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Int32>* teleportList; // 0x28
-		::System::Int32 curSelectId; // 0x30
-		::Enum_3_A8FC943A2182F177 type; // 0x34
+		::FPEFHBKEOGL type; // 0x30
+		::System::Int32 curSelectId; // 0x34
 
-		::System::Void _ctor(::Enum_3_A8FC943A2182F177 type)
+		::System::Void _ctor(::FPEFHBKEOGL type)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_A8FC943A2182F177))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_OFFSET))(this, type);
+			return ((::System::Void(*)(::PVOID, ::FPEFHBKEOGL))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_OFFSET))(this, type);
 		}
 
-		::System::Void _ctor_1(::Enum_3_A8FC943A2182F177 type, ::System::Int32 selectId)
+		::System::Void _ctor_1(::FPEFHBKEOGL type, ::System::Int32 selectId)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_A8FC943A2182F177, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_1_OFFSET))(this, type, selectId);
+			return ((::System::Void(*)(::PVOID, ::FPEFHBKEOGL, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYMENUSCONTEXT__CTOR_1_OFFSET))(this, type, selectId);
 		}
 
 		::System::Void _ctor_2(::System::Collections::Generic::List_1<::System::Int32>* teleportList)

@@ -7,11 +7,12 @@ namespace System { class String; }
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_RankingItemConfig_TypeDefinitionIndex = 86302;
+	inline static constexpr unsigned int LevelConfig_RankingItemConfig_TypeDefinitionIndex = 40483;
 
 	struct alignas(8) LevelConfig_RankingItemConfig
 	{
 		::MoleMole::Level::LevelConfig_RankingItemConfigShowType showType; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Int32>* applyType; // 0x18
 		::System::String* textID1; // 0x20
 		::System::String* textID2; // 0x28

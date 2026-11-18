@@ -5,10 +5,10 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int NativeListView_1_Enumerator_TypeDefinitionIndex = 28291;
+	inline static constexpr unsigned int NativeListView_1_Enumerator_TypeDefinitionIndex = 27708;
 
 	template <typename T>
-	struct NativeListView_1_Enumerator
+	struct alignas(8) NativeListView_1_Enumerator
 	{
 		::UnrealTypes::NativeListView_1<T> _listView; // 0x0
 		::System::Int32 _index; // 0x0

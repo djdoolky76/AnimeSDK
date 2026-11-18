@@ -1,38 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/UISafeAreaHandler_Enum_3_D5D7F86936BE5D0C.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/MoleMole/UISafeAreaHandler_OFHBMCHLDDC.h"
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
+#include "unitysdk/System/ValueTuple_4.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
 namespace UnityEngine { class Canvas; }
 
-#define MOLEMOLE_UISAFEAREAHANDLER_GETSAFEAREARECT_OFFSET UNITYSDK_OFFSET(0x1510FB10)
-#define MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_0CEE9868CF9CA474_OFFSET UNITYSDK_OFFSET(0x15110560)
-#define MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_32ACF43E680D75A6_OFFSET UNITYSDK_OFFSET(0x1510FF70)
-#define MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_36971FC3F16E2CEB_OFFSET UNITYSDK_OFFSET(0x15110720)
-#define MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_4B72F72501001F72_OFFSET UNITYSDK_OFFSET(0x151114F0)
-#define MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0x15110710)
-#define MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x151106D0)
-#define MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x15110550)
-#define MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_FC924E2ADB89532B_OFFSET UNITYSDK_OFFSET(0x15110680)
-#define MOLEMOLE_UISAFEAREAHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1510F820)
-#define MOLEMOLE_UISAFEAREAHANDLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1510F680)
-#define MOLEMOLE_UISAFEAREAHANDLER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1510F970)
-#define MOLEMOLE_UISAFEAREAHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15110470)
-#define MOLEMOLE_UISAFEAREAHANDLER___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x151104C0)
+#define MOLEMOLE_UISAFEAREAHANDLER_AEHDIIDKIOK_OFFSET UNITYSDK_OFFSET(0x1480C9F0)
+#define MOLEMOLE_UISAFEAREAHANDLER_BJNOGPOCMNJ_1_OFFSET UNITYSDK_OFFSET(0x1480E4A0)
+#define MOLEMOLE_UISAFEAREAHANDLER_BJNOGPOCMNJ_OFFSET UNITYSDK_OFFSET(0x1480E870)
+#define MOLEMOLE_UISAFEAREAHANDLER_BMOGOLBNPCF_OFFSET UNITYSDK_OFFSET(0x1480E750)
+#define MOLEMOLE_UISAFEAREAHANDLER_DJFLFBMCHLH_OFFSET UNITYSDK_OFFSET(0x1480E860)
+#define MOLEMOLE_UISAFEAREAHANDLER_FFGLPEBPCBE_OFFSET UNITYSDK_OFFSET(0x1480E2E0)
+#define MOLEMOLE_UISAFEAREAHANDLER_GETSAFEAREARECT_OFFSET UNITYSDK_OFFSET(0x1480C590)
+#define MOLEMOLE_UISAFEAREAHANDLER_GGPCOLFPHPN_OFFSET UNITYSDK_OFFSET(0x1480D190)
+#define MOLEMOLE_UISAFEAREAHANDLER_INLEAIPJAHP_OFFSET UNITYSDK_OFFSET(0x1480E0E0)
+#define MOLEMOLE_UISAFEAREAHANDLER_KDOIBCBFBAG_OFFSET UNITYSDK_OFFSET(0x1480E7D0)
+#define MOLEMOLE_UISAFEAREAHANDLER_LLHBHJNDOFD_OFFSET UNITYSDK_OFFSET(0x1480E760)
+#define MOLEMOLE_UISAFEAREAHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1480C270)
+#define MOLEMOLE_UISAFEAREAHANDLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1480C0D0)
+#define MOLEMOLE_UISAFEAREAHANDLER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1480C3C0)
+#define MOLEMOLE_UISAFEAREAHANDLER_PIOOPLAPDPK_OFFSET UNITYSDK_OFFSET(0x1480E8E0)
+#define MOLEMOLE_UISAFEAREAHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1480D140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISafeAreaHandler_TypeDefinitionIndex = 73330;
+	inline static constexpr unsigned int UISafeAreaHandler_TypeDefinitionIndex = 90337;
 
 	class UISafeAreaHandler : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
-		::MoleMole::UISafeAreaHandler_Enum_3_D5D7F86936BE5D0C extraPaddingType; // 0x18
-		::UnityEngine::Canvas* Field_6_0; // 0x20
-		::System::Boolean Field_6_7; // 0x28
-		::System::Boolean Field_6_6; // 0x29
+		::MoleMole::UISafeAreaHandler_OFHBMCHLDDC extraPaddingType; // 0x18
+		::System::Byte _padding0[0x4];
+		::UnityEngine::Canvas* LHHCBJMINFM; // 0x20
+		::System::Boolean JJJFLPOLELO; // 0x28
+		::System::Boolean MELPIBODJAL; // 0x29
+		::System::Boolean _ADPHDBHIELK_k__BackingField; // 0x2A
 
 		::System::Void _ctor()
 		{
@@ -54,54 +58,64 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_ONUPDATE_OFFSET))(this);
 		}
 
-		static ::UnityEngine::Rect GetSafeAreaRect(::MoleMole::UISafeAreaHandler_Enum_3_D5D7F86936BE5D0C a1, ::UnityEngine::Canvas* a2)
+		static ::UnityEngine::Rect GetSafeAreaRect(::MoleMole::UISafeAreaHandler_OFHBMCHLDDC DJHHDNDDGFL, ::UnityEngine::Canvas* FAKJDBJMJCH)
 		{
-			return ((::UnityEngine::Rect(*)(::MoleMole::UISafeAreaHandler_Enum_3_D5D7F86936BE5D0C, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_GETSAFEAREARECT_OFFSET))(a1, a2);
+			return ((::UnityEngine::Rect(*)(::MoleMole::UISafeAreaHandler_OFHBMCHLDDC, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_GETSAFEAREARECT_OFFSET))(DJHHDNDDGFL, FAKJDBJMJCH);
 		}
 
-		::System::Void __base_OnEnable()
+		::System::Void GGPCOLFPHPN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER___BASE_ONENABLE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_GGPCOLFPHPN_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_F0088C88851A7DFB()
+		static ::UnityEngine::Rect AEHDIIDKIOK(::MoleMole::UISafeAreaHandler* AOKHOHCJNFJ, ::MoleMole::UISafeAreaHandler_OFHBMCHLDDC DJHHDNDDGFL)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_F0088C88851A7DFB_OFFSET))(this);
+			return ((::UnityEngine::Rect(*)(::MoleMole::UISafeAreaHandler*, ::MoleMole::UISafeAreaHandler_OFHBMCHLDDC))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_AEHDIIDKIOK_OFFSET))(AOKHOHCJNFJ, DJHHDNDDGFL);
 		}
 
-		static ::UnityEngine::Rect Method_6_32ACF43E680D75A6(::MoleMole::UISafeAreaHandler* a1, ::MoleMole::UISafeAreaHandler_Enum_3_D5D7F86936BE5D0C a2)
+		::System::Void BMOGOLBNPCF(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::UnityEngine::Rect(*)(::MoleMole::UISafeAreaHandler*, ::MoleMole::UISafeAreaHandler_Enum_3_D5D7F86936BE5D0C))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_32ACF43E680D75A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_BMOGOLBNPCF_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		static ::System::ValueTuple_2<::System::Single, ::System::Single> Method_6_0CEE9868CF9CA474(::MoleMole::UISafeAreaHandler_Enum_3_D5D7F86936BE5D0C a1)
+		static ::UnityEngine::Rect LLHBHJNDOFD(::MoleMole::UISafeAreaHandler_OFHBMCHLDDC DJHHDNDDGFL)
 		{
-			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::MoleMole::UISafeAreaHandler_Enum_3_D5D7F86936BE5D0C))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_0CEE9868CF9CA474_OFFSET))(a1);
+			return ((::UnityEngine::Rect(*)(::MoleMole::UISafeAreaHandler_OFHBMCHLDDC))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_LLHBHJNDOFD_OFFSET))(DJHHDNDDGFL);
 		}
 
-		::System::ValueTuple_2<::System::Single, ::System::Single> Method_6_FC924E2ADB89532B()
+		::System::Void KDOIBCBFBAG()
 		{
-			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_FC924E2ADB89532B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_KDOIBCBFBAG_OFFSET))(this);
 		}
 
-		::System::Void Method_6_CA373AA1C7054598()
+		::System::Boolean DJFLFBMCHLH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_DJFLFBMCHLH_OFFSET))(this);
 		}
 
-		::System::Void Method_6_C74E50CBD41F0264(::System::Boolean a1)
+		::System::ValueTuple_4<::System::Single, ::System::Single, ::System::Single, ::System::Single> BJNOGPOCMNJ()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_C74E50CBD41F0264_OFFSET))(this, a1);
+			return ((::System::ValueTuple_4<::System::Single, ::System::Single, ::System::Single, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_BJNOGPOCMNJ_OFFSET))(this);
 		}
 
-		::System::Void Method_6_36971FC3F16E2CEB()
+		static ::System::ValueTuple_4<::System::Single, ::System::Single, ::System::Single, ::System::Single> BJNOGPOCMNJ_1(::MoleMole::UISafeAreaHandler_OFHBMCHLDDC DJHHDNDDGFL)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_36971FC3F16E2CEB_OFFSET))(this);
+			return ((::System::ValueTuple_4<::System::Single, ::System::Single, ::System::Single, ::System::Single>(*)(::MoleMole::UISafeAreaHandler_OFHBMCHLDDC))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_BJNOGPOCMNJ_1_OFFSET))(DJHHDNDDGFL);
 		}
 
-		::UnityEngine::Canvas* Method_6_4B72F72501001F72()
+		::UnityEngine::Canvas* INLEAIPJAHP()
 		{
-			return ((::UnityEngine::Canvas*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_METHOD_6_4B72F72501001F72_OFFSET))(this);
+			return ((::UnityEngine::Canvas*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_INLEAIPJAHP_OFFSET))(this);
+		}
+
+		::System::Void PIOOPLAPDPK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_PIOOPLAPDPK_OFFSET))(this);
+		}
+
+		static ::System::Boolean FFGLPEBPCBE(::UnityEngine::Rect HIAEJKLMKEC, ::System::Int32 NGIAEEBHCOC, ::System::Int32 EHEGJCCCJCA)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Rect, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UISAFEAREAHANDLER_FFGLPEBPCBE_OFFSET))(HIAEJKLMKEC, NGIAEEBHCOC, EHEGJCCCJCA);
 		}
 	};
 }

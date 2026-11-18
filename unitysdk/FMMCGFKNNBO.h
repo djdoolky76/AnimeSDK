@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IEJHOJBLOHI.h"
+
+class KBDGKAJPALP;
+class KGAOLBNHBLC;
+class OFLPOCHHHLC;
+class PMLCKJBHLLB;
+namespace System { template <typename T> class Action_1; }
+
+#define FMMCGFKNNBO_CMFOMGGDPPA_OFFSET UNITYSDK_OFFSET(0x1D69D260)
+#define FMMCGFKNNBO_HNDGJKPNIHA_OFFSET UNITYSDK_OFFSET(0x1D69CE90)
+#define FMMCGFKNNBO_IFHNMAGGFAE_OFFSET UNITYSDK_OFFSET(0x1D69D1D0)
+#define FMMCGFKNNBO_KHGPLGMDOFC_OFFSET UNITYSDK_OFFSET(0x1D69CBD0)
+#define FMMCGFKNNBO_MDCGCGDJNCC_OFFSET UNITYSDK_OFFSET(0x1D69D020)
+#define FMMCGFKNNBO_MNEFKNFOABP_OFFSET UNITYSDK_OFFSET(0x1D69CF90)
+#define FMMCGFKNNBO_OKJCHFGIKBH_OFFSET UNITYSDK_OFFSET(0x1D69CDE0)
+#define FMMCGFKNNBO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69CF10)
+
+inline static constexpr unsigned int FMMCGFKNNBO_TypeDefinitionIndex = 94041;
+
+class FMMCGFKNNBO : public ::IEJHOJBLOHI
+{
+public:
+	::KBDGKAJPALP* NAEFJGAOJCB; // 0x28
+	::System::Action_1<::KGAOLBNHBLC*>* KOFFCLDAHMO; // 0x30
+	::PMLCKJBHLLB* DAAAEJDBNFI; // 0x38
+	::System::Single KJHHMLJPDJO; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FMMCGFKNNBO__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KHGPLGMDOFC(::OFLPOCHHHLC* GEEHGDABNJF)
+	{
+		return ((::System::Void(*)(::PVOID, ::OFLPOCHHHLC*))((::PBYTE)hIl2Cpp + FMMCGFKNNBO_KHGPLGMDOFC_OFFSET))(this, GEEHGDABNJF);
+	}
+
+	::System::Void OKJCHFGIKBH(::System::Single PMNLNNGEIFM)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + FMMCGFKNNBO_OKJCHFGIKBH_OFFSET))(this, PMNLNNGEIFM);
+	}
+
+	::System::Void HNDGJKPNIHA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FMMCGFKNNBO_HNDGJKPNIHA_OFFSET))(this);
+	}
+
+	::System::Void MNEFKNFOABP(::OFLPOCHHHLC* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::OFLPOCHHHLC*))((::PBYTE)hIl2Cpp + FMMCGFKNNBO_MNEFKNFOABP_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void MDCGCGDJNCC(::KGAOLBNHBLC* CFEALPHACKN)
+	{
+		return ((::System::Void(*)(::PVOID, ::KGAOLBNHBLC*))((::PBYTE)hIl2Cpp + FMMCGFKNNBO_MDCGCGDJNCC_OFFSET))(this, CFEALPHACKN);
+	}
+
+	::System::Void IFHNMAGGFAE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FMMCGFKNNBO_IFHNMAGGFAE_OFFSET))(this);
+	}
+
+	::System::Void CMFOMGGDPPA(::System::Single MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + FMMCGFKNNBO_CMFOMGGDPPA_OFFSET))(this, MIALFKCCCPI);
+	}
+};

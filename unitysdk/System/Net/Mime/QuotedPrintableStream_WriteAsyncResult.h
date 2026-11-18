@@ -7,16 +7,16 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net::Mime { class QuotedPrintableStream; }
 
-#define SYSTEM_NET_MIME_QUOTEDPRINTABLESTREAM_WRITEASYNCRESULT_COMPLETEWRITE_OFFSET UNITYSDK_OFFSET(0x1D40DED0)
-#define SYSTEM_NET_MIME_QUOTEDPRINTABLESTREAM_WRITEASYNCRESULT_END_OFFSET UNITYSDK_OFFSET(0x1D40DFC0)
-#define SYSTEM_NET_MIME_QUOTEDPRINTABLESTREAM_WRITEASYNCRESULT_ONWRITE_OFFSET UNITYSDK_OFFSET(0x1D40E030)
-#define SYSTEM_NET_MIME_QUOTEDPRINTABLESTREAM_WRITEASYNCRESULT_WRITE_OFFSET UNITYSDK_OFFSET(0x1D40E330)
-#define SYSTEM_NET_MIME_QUOTEDPRINTABLESTREAM_WRITEASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D40E7A0)
-#define SYSTEM_NET_MIME_QUOTEDPRINTABLESTREAM_WRITEASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D40DE30)
+#define SYSTEM_NET_MIME_QUOTEDPRINTABLESTREAM_WRITEASYNCRESULT_COMPLETEWRITE_OFFSET UNITYSDK_OFFSET(0x1D895E70)
+#define SYSTEM_NET_MIME_QUOTEDPRINTABLESTREAM_WRITEASYNCRESULT_END_OFFSET UNITYSDK_OFFSET(0x1D895F60)
+#define SYSTEM_NET_MIME_QUOTEDPRINTABLESTREAM_WRITEASYNCRESULT_ONWRITE_OFFSET UNITYSDK_OFFSET(0x1D895FD0)
+#define SYSTEM_NET_MIME_QUOTEDPRINTABLESTREAM_WRITEASYNCRESULT_WRITE_OFFSET UNITYSDK_OFFSET(0x1D8962D0)
+#define SYSTEM_NET_MIME_QUOTEDPRINTABLESTREAM_WRITEASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D896740)
+#define SYSTEM_NET_MIME_QUOTEDPRINTABLESTREAM_WRITEASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D895DD0)
 
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int QuotedPrintableStream_WriteAsyncResult_TypeDefinitionIndex = 3632;
+	inline static constexpr unsigned int QuotedPrintableStream_WriteAsyncResult_TypeDefinitionIndex = 3631;
 
 	class QuotedPrintableStream_WriteAsyncResult : public ::System::Net::LazyAsyncResult
 	{
@@ -25,11 +25,11 @@ namespace System::Net::Mime
 		{
 			return (::System::AsyncCallback**)Il2CppClass::FromTypeDefinitionIndex(QuotedPrintableStream_WriteAsyncResult_TypeDefinitionIndex)->GetStaticField(0x2EC0);
 		}
-		::System::Net::Mime::QuotedPrintableStream* parent; // 0x48
-		::Il2CppArray<::System::Byte>* buffer; // 0x50
-		::System::Int32 offset; // 0x58
+		::Il2CppArray<::System::Byte>* buffer; // 0x48
+		::System::Net::Mime::QuotedPrintableStream* parent; // 0x50
+		::System::Int32 count; // 0x58
 		::System::Int32 written; // 0x5C
-		::System::Int32 count; // 0x60
+		::System::Int32 offset; // 0x60
 
 		::System::Void _ctor(::System::Net::Mime::QuotedPrintableStream* parent, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 count, ::System::AsyncCallback* callback, ::System::Object* state)
 		{

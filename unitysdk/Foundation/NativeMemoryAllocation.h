@@ -1,21 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/NativeMemoryView_1.h"
+#include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define FOUNDATION_NATIVEMEMORYALLOCATION_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0xABFAF0)
-#define FOUNDATION_NATIVEMEMORYALLOCATION_MAKEVIEW_OFFSET UNITYSDK_OFFSET(0xABFB10)
-#define FOUNDATION_NATIVEMEMORYALLOCATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9DBE10)
-#define FOUNDATION_NATIVEMEMORYALLOCATION__CTOR_OFFSET UNITYSDK_OFFSET(0xA91720)
+#define FOUNDATION_NATIVEMEMORYALLOCATION_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x9A65E0)
+#define FOUNDATION_NATIVEMEMORYALLOCATION_MAKEVIEW_1_OFFSET UNITYSDK_OFFSET(0x9A6600)
+#define FOUNDATION_NATIVEMEMORYALLOCATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDE1750)
+#define FOUNDATION_NATIVEMEMORYALLOCATION__CTOR_OFFSET UNITYSDK_OFFSET(0x978370)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeMemoryAllocation_TypeDefinitionIndex = 8853;
+	inline static constexpr unsigned int NativeMemoryAllocation_TypeDefinitionIndex = 8952;
 
-	struct alignas(8) NativeMemoryAllocation
+	struct alignas(4) NativeMemoryAllocation
 	{
 		static ::Foundation::NativeMemoryAllocation* StaticGet_Null()
 		{
-			return (::Foundation::NativeMemoryAllocation*)Il2CppClass::FromTypeDefinitionIndex(NativeMemoryAllocation_TypeDefinitionIndex)->GetStaticField(0x3CD0);
+			return (::Foundation::NativeMemoryAllocation*)Il2CppClass::FromTypeDefinitionIndex(NativeMemoryAllocation_TypeDefinitionIndex)->GetStaticField(0x3C90);
 		}
 		::System::UInt64 RequestId; // 0x10
 		::System::Int64 _typeHash; // 0x18
@@ -37,11 +39,9 @@ namespace Foundation
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_NATIVEMEMORYALLOCATION_GET_ISNULL_OFFSET))(this);
 		}
 
-		/*
-		::Foundation::NativeMemoryView_1<::System::Byte> MakeView(::Unity::Collections::NativeArray_1<::System::Byte> storage, ::System::Int32 startOffset)
+		::Foundation::NativeMemoryView_1<::System::Byte> MakeView_1(::Unity::Collections::NativeArray_1<::System::Byte> storage, ::System::Int32 startOffset)
 		{
-			return ((::Foundation::NativeMemoryView_1<::System::Byte>(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Byte>, ::System::Int32))((::PBYTE)hIl2Cpp + FOUNDATION_NATIVEMEMORYALLOCATION_MAKEVIEW_OFFSET))(this, storage, startOffset);
+			return ((::Foundation::NativeMemoryView_1<::System::Byte>(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Byte>, ::System::Int32))((::PBYTE)hIl2Cpp + FOUNDATION_NATIVEMEMORYALLOCATION_MAKEVIEW_1_OFFSET))(this, storage, startOffset);
 		}
-		*/
 	};
 }

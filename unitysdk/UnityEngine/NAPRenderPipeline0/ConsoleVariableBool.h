@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/ConsoleVariableT_1.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_CONSOLEVARIABLEBOOL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E3178C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CONSOLEVARIABLEBOOL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E317900)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CONSOLEVARIABLEBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3178A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CONSOLEVARIABLEBOOL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E5427D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CONSOLEVARIABLEBOOL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E542810)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CONSOLEVARIABLEBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5427B0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ConsoleVariableBool_TypeDefinitionIndex = 5692;
+	inline static constexpr unsigned int ConsoleVariableBool_TypeDefinitionIndex = 5696;
 
-	class ConsoleVariableBool : public ::UnityEngine::NAPRenderPipeline0::ConsoleVariableT_1<::System::Boolean>
+	class ConsoleVariableBool
 	{
 	public:
 		::System::Void _ctor(::System::String* name, ::System::Boolean defaultValue)

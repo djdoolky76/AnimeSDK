@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkCurveInterpolation_TypeDefinitionIndex = 33593;
+inline static constexpr unsigned int AkCurveInterpolation_TypeDefinitionIndex = 33139;
 
 enum class AkCurveInterpolation : ::System::Int32
 {

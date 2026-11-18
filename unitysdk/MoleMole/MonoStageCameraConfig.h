@@ -5,13 +5,13 @@
 namespace Cinemachine { class CinemachineBlenderSettings; }
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define MOLEMOLE_MONOSTAGECAMERACONFIG_GET_CHILDCAMERAS_OFFSET UNITYSDK_OFFSET(0x136DFDF0)
-#define MOLEMOLE_MONOSTAGECAMERACONFIG_METHOD_5_25EC451C0EA68F53_OFFSET UNITYSDK_OFFSET(0x136DFE10)
-#define MOLEMOLE_MONOSTAGECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x136E0160)
+#define MOLEMOLE_MONOSTAGECAMERACONFIG_GET_CHILDCAMERAS_OFFSET UNITYSDK_OFFSET(0x135C0260)
+#define MOLEMOLE_MONOSTAGECAMERACONFIG_PIBDPEDJFNO_OFFSET UNITYSDK_OFFSET(0x135C0280)
+#define MOLEMOLE_MONOSTAGECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x135C05D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoStageCameraConfig_TypeDefinitionIndex = 78255;
+	inline static constexpr unsigned int MonoStageCameraConfig_TypeDefinitionIndex = 81417;
 
 	class MonoStageCameraConfig : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,9 +30,9 @@ namespace MoleMole
 			return ((::Il2CppArray<::Cinemachine::CinemachineVirtualCameraBase*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTAGECAMERACONFIG_GET_CHILDCAMERAS_OFFSET))(this);
 		}
 
-		::System::Void Method_5_25EC451C0EA68F53()
+		::System::Void PIBDPEDJFNO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTAGECAMERACONFIG_METHOD_5_25EC451C0EA68F53_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTAGECAMERACONFIG_PIBDPEDJFNO_OFFSET))(this);
 		}
 	};
 }

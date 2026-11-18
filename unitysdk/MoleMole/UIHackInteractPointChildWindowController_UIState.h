@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHackInteractPointChildWindowController_UIState_TypeDefinitionIndex = 50748;
+	inline static constexpr unsigned int UIHackInteractPointChildWindowController_UIState_TypeDefinitionIndex = 65464;
 
 	enum class UIHackInteractPointChildWindowController_UIState : ::System::Int32
 	{

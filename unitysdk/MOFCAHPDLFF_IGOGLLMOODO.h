@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MBDDPHPODAN.h"
+#include "unitysdk/System/Object.h"
+
+class MOFCAHPDLFF_BADKNPNCFOD;
+namespace DG::Tweening { class Sequence; }
+
+#define MOFCAHPDLFF_IGOGLLMOODO_FAJPNKFBJKC_OFFSET UNITYSDK_OFFSET(0x18B5C950)
+#define MOFCAHPDLFF_IGOGLLMOODO_FDEOOJGNFCM_OFFSET UNITYSDK_OFFSET(0x18B5C960)
+#define MOFCAHPDLFF_IGOGLLMOODO_LNIPCEADGPI_OFFSET UNITYSDK_OFFSET(0x18B5C890)
+#define MOFCAHPDLFF_IGOGLLMOODO_MKDDPFBONLO_OFFSET UNITYSDK_OFFSET(0x18B5C8A0)
+#define MOFCAHPDLFF_IGOGLLMOODO_MNMDJHCOMJL_OFFSET UNITYSDK_OFFSET(0x18B5C940)
+#define MOFCAHPDLFF_IGOGLLMOODO_OGPKFHOBIIM_OFFSET UNITYSDK_OFFSET(0x18B5C930)
+#define MOFCAHPDLFF_IGOGLLMOODO__CTOR_OFFSET UNITYSDK_OFFSET(0x18B5C880)
+
+inline static constexpr unsigned int MOFCAHPDLFF_IGOGLLMOODO_TypeDefinitionIndex = 68519;
+
+class MOFCAHPDLFF_IGOGLLMOODO : public ::System::Object
+{
+public:
+	::DG::Tweening::Sequence* BDAJIGIOAMM; // 0x10
+	::MOFCAHPDLFF_BADKNPNCFOD* EEMOEMFLABI; // 0x18
+	::System::Single IMLLDOHDCNC; // 0x20
+	::MBDDPHPODAN PPELJIHKBBD; // 0x24
+	::System::Boolean FFBJMJFONAN; // 0x34
+	::System::Boolean LPMJCKMPFOB; // 0x35
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOFCAHPDLFF_IGOGLLMOODO__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean LNIPCEADGPI()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOFCAHPDLFF_IGOGLLMOODO_LNIPCEADGPI_OFFSET))(this);
+	}
+
+	::System::Void MKDDPFBONLO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOFCAHPDLFF_IGOGLLMOODO_MKDDPFBONLO_OFFSET))(this);
+	}
+
+	::System::Single OGPKFHOBIIM()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOFCAHPDLFF_IGOGLLMOODO_OGPKFHOBIIM_OFFSET))(this);
+	}
+
+	::System::Void MNMDJHCOMJL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOFCAHPDLFF_IGOGLLMOODO_MNMDJHCOMJL_OFFSET))(this);
+	}
+
+	::System::Boolean FAJPNKFBJKC()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOFCAHPDLFF_IGOGLLMOODO_FAJPNKFBJKC_OFFSET))(this);
+	}
+
+	::System::Void FDEOOJGNFCM(::System::Single FOOBONOEPGD)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOFCAHPDLFF_IGOGLLMOODO_FDEOOJGNFCM_OFFSET))(this, FOOBONOEPGD);
+	}
+};

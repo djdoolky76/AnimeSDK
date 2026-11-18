@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_FORCEBYTEBLOCKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB91760)
-#define MESSAGEPACK_FORMATTERS_FORCEBYTEBLOCKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB91750)
-#define MESSAGEPACK_FORMATTERS_FORCEBYTEBLOCKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB91770)
-#define MESSAGEPACK_FORMATTERS_FORCEBYTEBLOCKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB91740)
+#define MESSAGEPACK_FORMATTERS_FORCEBYTEBLOCKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF611A0)
+#define MESSAGEPACK_FORMATTERS_FORCEBYTEBLOCKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF61190)
+#define MESSAGEPACK_FORMATTERS_FORCEBYTEBLOCKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF611B0)
+#define MESSAGEPACK_FORMATTERS_FORCEBYTEBLOCKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF61180)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ForceByteBlockFormatter_TypeDefinitionIndex = 30203;
+	inline static constexpr unsigned int ForceByteBlockFormatter_TypeDefinitionIndex = 30106;
 
 	class ForceByteBlockFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::ForceByteBlockFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::ForceByteBlockFormatter**)Il2CppClass::FromTypeDefinitionIndex(ForceByteBlockFormatter_TypeDefinitionIndex)->GetStaticField(0x26160);
+			return (::MessagePack::Formatters::ForceByteBlockFormatter**)Il2CppClass::FromTypeDefinitionIndex(ForceByteBlockFormatter_TypeDefinitionIndex)->GetStaticField(0x27360);
 		}
 
 		::System::Void _ctor()

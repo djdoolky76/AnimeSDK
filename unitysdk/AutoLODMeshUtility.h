@@ -4,10 +4,10 @@
 
 namespace UnityEngine { class Mesh; }
 
-#define AUTOLODMESHUTILITY_SMOOTH2FLATSHADING_OFFSET UNITYSDK_OFFSET(0x123CE3D0)
-#define AUTOLODMESHUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x123CEB50)
+#define AUTOLODMESHUTILITY_SMOOTH2FLATSHADING_OFFSET UNITYSDK_OFFSET(0x1102C6F0)
+#define AUTOLODMESHUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1102CE70)
 
-inline static constexpr unsigned int AutoLODMeshUtility_TypeDefinitionIndex = 95389;
+inline static constexpr unsigned int AutoLODMeshUtility_TypeDefinitionIndex = 96721;
 
 class AutoLODMeshUtility : public ::System::Object
 {

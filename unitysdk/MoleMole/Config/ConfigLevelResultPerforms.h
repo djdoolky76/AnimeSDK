@@ -1,44 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
-#include "unitysdk/MoleMole/Config/ConfigLevelResultPerforms_ConfigLevelResultPerformEffect.h"
 #include "unitysdk/MoleMole/Config/ConfigLevelResultPerforms_LevelFailedCameraSequenceConfig.h"
-#include "unitysdk/MoleMole/Config/ConfigLevelResultPerforms_LoseEffectAnimatorButtonTrigger.h"
-#include "unitysdk/MoleMole/Config/ConfigLevelResultPerforms_RatingFogEffect.h"
-#include "unitysdk/MoleMole/Config/ConfigLevelResultPerforms_RatingScreenEffect.h"
-#include "unitysdk/MoleMole/ELocalPlayType.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/LDLevelEndNode_LevelEndPerformType.h"
 #include "unitysdk/MoleMole/Level/RatingType.h"
+#include "unitysdk/MoleMole/ELocalPlayType.h"
 #include "unitysdk/MoleMole/MonoEffectPluginAttachToCamera_AspectWH.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_04E07F842ECC3B8E;
+class CCLBHPFHKCL;
 namespace MoleMole::Config { class ConfigLevelResultPerform; }
 namespace MoleMole::ExitPerform { class ExitPerformEventConfig; }
 namespace MoleMole::Utils::CameraSequence { class CameraSequence_VideoItem_ComposeObject; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_DEBUGLEVELEND_OFFSET UNITYSDK_OFFSET(0xF13C7C0)
-#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_DUMP_OFFSET UNITYSDK_OFFSET(0xF13BEC0)
-#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_GETRATINGEFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0xF13C670)
-#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_GET_OPENLEVELRESULTPERFORM_OFFSET UNITYSDK_OFFSET(0xF13BEB0)
-#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_GET_PLAYTYPEMAP_OFFSET UNITYSDK_OFFSET(0xF13C120)
-#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS__CTOR_OFFSET UNITYSDK_OFFSET(0xF13C870)
-#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS__DEBUGLEVELEND_B__59_0_OFFSET UNITYSDK_OFFSET(0xF13C9A0)
-#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS__OPENWINDOW_OFFSET UNITYSDK_OFFSET(0xF13C780)
+#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_DEBUGLEVELEND_OFFSET UNITYSDK_OFFSET(0xFFD6150)
+#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_DUMP_OFFSET UNITYSDK_OFFSET(0xFFD5850)
+#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_GETRATINGEFFECTPREFAB_OFFSET UNITYSDK_OFFSET(0xFFD6000)
+#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_GET_OPENLEVELRESULTPERFORM_OFFSET UNITYSDK_OFFSET(0xFFD5840)
+#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_GET_PLAYTYPEMAP_OFFSET UNITYSDK_OFFSET(0xFFD5AB0)
+#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS__CTOR_OFFSET UNITYSDK_OFFSET(0xFFD6200)
+#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS__DEBUGLEVELEND_B__59_0_OFFSET UNITYSDK_OFFSET(0xFFD6330)
+#define MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS__OPENWINDOW_OFFSET UNITYSDK_OFFSET(0xFFD6110)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLevelResultPerforms_TypeDefinitionIndex = 73015;
+	inline static constexpr unsigned int ConfigLevelResultPerforms_TypeDefinitionIndex = 56350;
 
 	class ConfigLevelResultPerforms : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>** StaticGet__PlayTypeMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLevelResultPerforms_TypeDefinitionIndex)->GetStaticField(0x517C0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLevelResultPerforms_TypeDefinitionIndex)->GetStaticField(0x4E8A0);
 		}
 		// static const ::System::String* TEXT_EFFECT_KEY; // 0x0
 		// static const ::System::String* TEXT_EFFECT_ADAPT_KEY; // 0x0
@@ -62,24 +59,28 @@ namespace MoleMole::Config
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::System::String*>* ratingEffectPrefabs; // 0x78
 		::System::String* AttachCameraName; // 0x80
 		::System::Boolean IsOpenRotate; // 0x88
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 RatingTypeEffectOffset; // 0x8C
 		::UnityEngine::Vector3 RatingTypeEffectScale; // 0x98
 		::MoleMole::MonoEffectPluginAttachToCamera_AspectWH RatingTypeEffectBaseAspect; // 0xA4
 		::System::Single RatingTypeEffectFov; // 0xB0
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::System::String*>* RatingMonsterTypeEffect; // 0xB8
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::System::String*>*>* CustomRatingMonsterTypeEffect; // 0xC0
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingScreenEffect>*>* RatingScreenEffects; // 0xC8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingScreenEffect>*>*>* CustomRatingScreenEffects; // 0xD0
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingFogEffect>*>* RatingFogEffects; // 0xD8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingFogEffect>*>*>* CustomRatingFogEffects; // 0xE0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingScreenEffect>*>* ExtraRatingScreenEffects; // 0xE8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingFogEffect>*>* ExtraFogEffects; // 0xF0
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::Il2CppArray<::System::Object*>*>* RatingScreenEffects; // 0xC8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::Il2CppArray<::System::Object*>*>*>* CustomRatingScreenEffects; // 0xD0
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::Il2CppArray<::System::Object*>*>* RatingFogEffects; // 0xD8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::MoleMole::Level::RatingType, ::Il2CppArray<::System::Object*>*>*>* CustomRatingFogEffects; // 0xE0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Object*>*>* ExtraRatingScreenEffects; // 0xE8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Object*>*>* ExtraFogEffects; // 0xF0
 		::System::Single effectColorDuration; // 0xF8
 		::System::Boolean effectColorDebug; // 0xFC
+		::System::Byte _padding2[0x3];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Utils::CameraSequence::CameraSequence_VideoItem_ComposeObject*>* warmupVideos; // 0x100
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Utils::CameraSequence::CameraSequence_VideoItem_ComposeObject*>* playVideos; // 0x108
 		::System::String* BuddyGlitchVideoPath; // 0x110
 		::System::Single uiDelayOpenAfterStartVideo; // 0x118
+		::System::Byte _padding3[0x4];
 		::MoleMole::ExitPerform::ExitPerformEventConfig* performEventConfig; // 0x120
 		::System::String* endAbilityName; // 0x128
 		::System::Single nonBattleLevelEndIdleDuration; // 0x130
@@ -87,25 +88,29 @@ namespace MoleMole::Config
 		::System::Int32 ScoreKTag; // 0x138
 		::System::Int32 createType; // 0x13C
 		::System::Boolean forceRating; // 0x140
+		::System::Byte _padding4[0x3];
 		::MoleMole::Level::RatingType debugRatingType; // 0x144
 		::MoleMole::FlowCanvas::Nodes::LDLevelEndNode_LevelEndPerformType performType; // 0x148
 		::System::Boolean OpenDebugPerform; // 0x14C
+		::System::Byte _padding5[0x3];
 		::MoleMole::ELocalPlayType DebugPlayType; // 0x150
 		::System::Boolean ForceClose4Curtain; // 0x154
+		::System::Byte _padding6[0x3];
 		::System::Single WipeOutCountDownTime; // 0x158
 		::System::Single WipeOutCountDownStartTime; // 0x15C
 		::System::String* WipeOutCountDownEffect; // 0x160
 		::System::Single WipeOutCountDownEffectDestroyTime; // 0x168
+		::System::Byte _padding7[0x4];
 		::System::String* WipeOutDitherKey; // 0x170
 		::System::String* WipeOutTimeSlowCurveKey; // 0x178
 		::System::Single ReviveDelayTime; // 0x180
 		::System::Single AutoGiveUpDelayTime; // 0x184
-		::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingScreenEffect>* WipeOutScreenEffects; // 0x188
-		::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingFogEffect>* WipeOutFogEffects; // 0x190
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigLevelResultPerforms_ConfigLevelResultPerformEffect>* WipeOutEffects; // 0x198
-		::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingScreenEffect>* ReviveScreenEffects; // 0x1A0
-		::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingFogEffect>* ReviveFogEffects; // 0x1A8
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigLevelResultPerforms_ConfigLevelResultPerformEffect>* ReviveEffects; // 0x1B0
+		::Il2CppArray<::System::Object*>* WipeOutScreenEffects; // 0x188
+		::Il2CppArray<::System::Object*>* WipeOutFogEffects; // 0x190
+		::System::Collections::Generic::List_1<::System::Object*>* WipeOutEffects; // 0x198
+		::Il2CppArray<::System::Object*>* ReviveScreenEffects; // 0x1A0
+		::Il2CppArray<::System::Object*>* ReviveFogEffects; // 0x1A8
+		::System::Collections::Generic::List_1<::System::Object*>* ReviveEffects; // 0x1B0
 		::System::Single audioStartTime; // 0x1B8
 		::System::Int32 countDownAudioId; // 0x1BC
 		::System::String* countDownRtpcKey; // 0x1C0
@@ -118,23 +123,26 @@ namespace MoleMole::Config
 		::System::Boolean IsOpenBlackCurtainAfterFadeOutGame; // 0x200
 		::System::Boolean IsExitLostCameraWhenRetreat; // 0x201
 		::System::Boolean IsExitLostCameraWhenRestart; // 0x202
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigLevelResultPerforms_LoseEffectAnimatorButtonTrigger>* buttonTriggers; // 0x208
+		::System::Byte _padding8[0x5];
+		::System::Collections::Generic::List_1<::System::Object*>* buttonTriggers; // 0x208
 		::System::Single MpReviveFadeOutTime; // 0x210
 		::System::Single MpReviveBlackScreenTime; // 0x214
 		::System::Single MpReviveFadeInTime; // 0x218
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigLevelResultPerforms_ConfigLevelResultPerformEffect>* MpReviveEffects; // 0x220
-		::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingScreenEffect>* MpReviveScreenEffects; // 0x228
+		::System::Byte _padding9[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* MpReviveEffects; // 0x220
+		::Il2CppArray<::System::Object*>* MpReviveScreenEffects; // 0x228
 		::Il2CppArray<::System::String*>* MpReviveMaterials; // 0x230
 		::System::String* MPfailedStartSoundActionKey; // 0x238
 		::System::String* MPfailedEndSoundActionKey; // 0x240
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigLevelResultPerforms_ConfigLevelResultPerformEffect>* MpDeathEffects; // 0x248
+		::System::Collections::Generic::List_1<::System::Object*>* MpDeathEffects; // 0x248
 		::System::String* MpReplayUIEffect; // 0x250
 		::System::Single MpReplayUIDelay; // 0x258
+		::System::Byte _padding10[0x4];
 		::System::String* MpReplayUIReviveTrigger; // 0x260
 		::System::String* MpReplayUIExitTrigger; // 0x268
-		::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingScreenEffect>* MpDeathScreenEffects; // 0x270
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigLevelResultPerforms_ConfigLevelResultPerformEffect>* MpLevelWipeOutEffects; // 0x278
-		::Il2CppArray<::MoleMole::Config::ConfigLevelResultPerforms_RatingScreenEffect>* MpLevelResultScreenEffects; // 0x280
+		::Il2CppArray<::System::Object*>* MpDeathScreenEffects; // 0x270
+		::System::Collections::Generic::List_1<::System::Object*>* MpLevelWipeOutEffects; // 0x278
+		::Il2CppArray<::System::Object*>* MpLevelResultScreenEffects; // 0x280
 		::System::Single WipeOutEnterDuration; // 0x288
 		::System::Single WipeOutOpenLevelResultDelay; // 0x28C
 
@@ -173,9 +181,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS_DEBUGLEVELEND_OFFSET))(this);
 		}
 
-		::System::Void _DebugLevelEnd_b__59_0(::Class_2_04E07F842ECC3B8E* evt)
+		::System::Void _DebugLevelEnd_b__59_0(::CCLBHPFHKCL* evt)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_04E07F842ECC3B8E*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS__DEBUGLEVELEND_B__59_0_OFFSET))(this, evt);
+			return ((::System::Void(*)(::PVOID, ::CCLBHPFHKCL*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLEVELRESULTPERFORMS__DEBUGLEVELEND_B__59_0_OFFSET))(this, evt);
 		}
 	};
 }

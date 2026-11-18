@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIABInLevelPlayerInfoWidgetController; }
-namespace MoleMole { class UIABStandbyPhaseWidgetController___c__DisplayClass47_0; }
 
-#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS47_1__CTOR_OFFSET UNITYSDK_OFFSET(0x199A3C00)
-#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS47_1__TOGGLEPLAYERINFO_B__0_OFFSET UNITYSDK_OFFSET(0x199A3C10)
+#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS47_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14BDF250)
+#define MOLEMOLE_UIABSTANDBYPHASEWIDGETCONTROLLER___C__DISPLAYCLASS47_1__TOGGLEPLAYERINFO_B__0_OFFSET UNITYSDK_OFFSET(0x14BDF260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABStandbyPhaseWidgetController___c__DisplayClass47_1_TypeDefinitionIndex = 45250;
+	inline static constexpr unsigned int UIABStandbyPhaseWidgetController___c__DisplayClass47_1_TypeDefinitionIndex = 50749;
 
+	template <typename T>
 	class UIABStandbyPhaseWidgetController___c__DisplayClass47_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIABStandbyPhaseWidgetController___c__DisplayClass47_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::Int32 idx; // 0x18
 
 		::System::Void _ctor()

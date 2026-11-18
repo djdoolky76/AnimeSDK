@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define PVSOCCLUDERSKIPSIGN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C7380)
+#define PVSOCCLUDERSKIPSIGN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D63B820)
 
-inline static constexpr unsigned int PVSOccluderSkipSign_TypeDefinitionIndex = 72872;
+inline static constexpr unsigned int PVSOccluderSkipSign_TypeDefinitionIndex = 90547;
 
 class PVSOccluderSkipSign : public ::UnityEngine::MonoBehaviour
 {

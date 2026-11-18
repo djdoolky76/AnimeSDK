@@ -6,15 +6,15 @@
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define MAP3DTRACKMATERIALCONFIG_APPLYMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x12A10B20)
-#define MAP3DTRACKMATERIALCONFIG_ENSURERENDERERANDBLOCK_OFFSET UNITYSDK_OFFSET(0x12A106E0)
-#define MAP3DTRACKMATERIALCONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x12A10690)
-#define MAP3DTRACKMATERIALCONFIG_SETFADEDISTANCECONFIG_OFFSET UNITYSDK_OFFSET(0x12A109E0)
-#define MAP3DTRACKMATERIALCONFIG_SETTRACKFADEPOINTS_OFFSET UNITYSDK_OFFSET(0x12A108D0)
-#define MAP3DTRACKMATERIALCONFIG_UPDATE_OFFSET UNITYSDK_OFFSET(0x12A10ED0)
-#define MAP3DTRACKMATERIALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12A10F20)
+#define MAP3DTRACKMATERIALCONFIG_APPLYMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1303FA80)
+#define MAP3DTRACKMATERIALCONFIG_ENSURERENDERERANDBLOCK_OFFSET UNITYSDK_OFFSET(0x1303F640)
+#define MAP3DTRACKMATERIALCONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1303F5F0)
+#define MAP3DTRACKMATERIALCONFIG_SETFADEDISTANCECONFIG_OFFSET UNITYSDK_OFFSET(0x1303F940)
+#define MAP3DTRACKMATERIALCONFIG_SETTRACKFADEPOINTS_OFFSET UNITYSDK_OFFSET(0x1303F830)
+#define MAP3DTRACKMATERIALCONFIG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1303FE30)
+#define MAP3DTRACKMATERIALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1303FE80)
 
-inline static constexpr unsigned int Map3DTrackMaterialConfig_TypeDefinitionIndex = 52602;
+inline static constexpr unsigned int Map3DTrackMaterialConfig_TypeDefinitionIndex = 44343;
 
 class Map3DTrackMaterialConfig : public ::UnityEngine::MonoBehaviour
 {
@@ -25,13 +25,18 @@ public:
 	::System::Boolean useStartFade; // 0x3C
 	::System::Boolean useMiddleFade; // 0x3D
 	::System::Boolean useEndFade; // 0x3E
+	::System::Byte _padding0[0x1];
 	::System::Single slideFadeDistance; // 0x40
 	::System::Boolean overrideStartFadeDistance; // 0x44
+	::System::Byte _padding1[0x3];
 	::System::Single startFadeDistance; // 0x48
 	::System::Boolean overrideMiddleFadeDistance; // 0x4C
+	::System::Byte _padding2[0x3];
 	::System::Single middleFadeDistance; // 0x50
 	::System::Boolean overrideEndFadeDistance; // 0x54
+	::System::Byte _padding3[0x3];
 	::System::Single endFadeDistance; // 0x58
+	::System::Byte _padding4[0x4];
 	::UnityEngine::MeshRenderer* meshRenderer; // 0x60
 	::UnityEngine::MaterialPropertyBlock* mpb; // 0x68
 	::System::Int32 _TrackStartPosition; // 0x70

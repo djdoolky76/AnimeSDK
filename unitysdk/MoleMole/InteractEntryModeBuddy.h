@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/InteractEntryMode.h"
 
-class Class_1_816D4E2238E8C24A;
+class IJLOBIGIEDO;
 namespace MoleMole { class AniamtorParamsSetting; }
 namespace MoleMole::Config { class InteractEntry; }
 namespace System { class String; }
 
-#define MOLEMOLE_INTERACTENTRYMODEBUDDY_CHECKACTIONCONTENT_OFFSET UNITYSDK_OFFSET(0x19B2BD70)
-#define MOLEMOLE_INTERACTENTRYMODEBUDDY_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x19B2BCE0)
-#define MOLEMOLE_INTERACTENTRYMODEBUDDY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19B2BE10)
-#define MOLEMOLE_INTERACTENTRYMODEBUDDY__CTOR_OFFSET UNITYSDK_OFFSET(0x19B2BE90)
-#define MOLEMOLE_INTERACTENTRYMODEBUDDY___BASE_CHECKACTIONCONTENT_OFFSET UNITYSDK_OFFSET(0x19B2BEA0)
-#define MOLEMOLE_INTERACTENTRYMODEBUDDY___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19B2BF30)
+#define MOLEMOLE_INTERACTENTRYMODEBUDDY_CHECKACTIONCONTENT_OFFSET UNITYSDK_OFFSET(0x1A90A8C0)
+#define MOLEMOLE_INTERACTENTRYMODEBUDDY_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1A90A830)
+#define MOLEMOLE_INTERACTENTRYMODEBUDDY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A90A960)
+#define MOLEMOLE_INTERACTENTRYMODEBUDDY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A90A9E0)
+#define MOLEMOLE_INTERACTENTRYMODEBUDDY___BASE_CHECKACTIONCONTENT_OFFSET UNITYSDK_OFFSET(0x1A90A9F0)
+#define MOLEMOLE_INTERACTENTRYMODEBUDDY___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A90AA80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InteractEntryModeBuddy_TypeDefinitionIndex = 85583;
+	inline static constexpr unsigned int InteractEntryModeBuddy_TypeDefinitionIndex = 56288;
 
 	class InteractEntryModeBuddy : public ::MoleMole::Config::InteractEntryMode
 	{
 	public:
 		::MoleMole::AniamtorParamsSetting* BuddyAniamtorSetting; // 0x20
-		::MoleMole::AniamtorParamsSetting* InteractAniamtorSetting; // 0x28
-		::System::String* PosAttachPoint; // 0x30
+		::System::String* PosAttachPoint; // 0x28
+		::MoleMole::AniamtorParamsSetting* InteractAniamtorSetting; // 0x30
 		::System::Boolean MuteLocalInput; // 0x38
 
 		::System::Void _ctor()
@@ -31,9 +31,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_INTERACTENTRYMODEBUDDY__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_816D4E2238E8C24A* CreateInstance(::MoleMole::Config::InteractEntry* entry)
+		::IJLOBIGIEDO* CreateInstance(::MoleMole::Config::InteractEntry* entry)
 		{
-			return ((::Class_1_816D4E2238E8C24A*(*)(::PVOID, ::MoleMole::Config::InteractEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_INTERACTENTRYMODEBUDDY_CREATEINSTANCE_OFFSET))(this, entry);
+			return ((::IJLOBIGIEDO*(*)(::PVOID, ::MoleMole::Config::InteractEntry*))((::PBYTE)hIl2Cpp + MOLEMOLE_INTERACTENTRYMODEBUDDY_CREATEINSTANCE_OFFSET))(this, entry);
 		}
 
 		::System::Void CheckActionContent()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOUIOVERLORDFEASTMISSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x144F83B0)
+#define MOLEMOLE_MONOUIOVERLORDFEASTMISSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10444C70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIOverlordFeastMissionConfig_TypeDefinitionIndex = 52222;
+	inline static constexpr unsigned int MonoUIOverlordFeastMissionConfig_TypeDefinitionIndex = 48509;
 
 	class MonoUIOverlordFeastMissionConfig : public ::UnityEngine::MonoBehaviour
 	{

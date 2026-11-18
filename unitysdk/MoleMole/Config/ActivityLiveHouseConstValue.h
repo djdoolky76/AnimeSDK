@@ -6,16 +6,17 @@
 namespace MoleMole { class ActivityLivehouseRhythmBeatmapConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ACTIVITYLIVEHOUSECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x134E8690)
+#define MOLEMOLE_CONFIG_ACTIVITYLIVEHOUSECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A55CC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ActivityLiveHouseConstValue_TypeDefinitionIndex = 89610;
+	inline static constexpr unsigned int ActivityLiveHouseConstValue_TypeDefinitionIndex = 72656;
 
 	class ActivityLiveHouseConstValue : public ::System::Object
 	{
 	public:
 		::System::Int32 GeneralLevelID_TutorialLevel; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* Normal_Left_TriggerSound; // 0x18
 		::System::String* Normal_Right_TriggerSound; // 0x20
 		::MoleMole::MusicGame::FLiveHouseLongPressSoundData Hold_Left_SoundData; // 0x28
@@ -33,8 +34,10 @@ namespace MoleMole::Config
 		::System::String* EmptyClickSound; // 0xB8
 		::System::String* SkillHealSound; // 0xC0
 		::System::Int32 StageSpineCount; // 0xC8
+		::System::Byte _padding1[0x4];
 		::System::String* StageSoloEffectName; // 0xD0
 		::System::Single ClickEffectAnimLength; // 0xD8
+		::System::Byte _padding2[0x4];
 		::System::String* PerformGaussianBlurKey; // 0xE0
 		::System::String* PerformVREffectKey; // 0xE8
 		::System::String* EndNormalTextureSheetKey; // 0xF0

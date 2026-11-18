@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
@@ -9,24 +9,24 @@ namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace System { class Object; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1A09E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B1A0860)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A0BE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B1A0C20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE__REGISTERPORTS_B__7_1_OFFSET UNITYSDK_OFFSET(0x1B1A0C50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4B2830)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B4B26B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B2A30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0x1B4B2A70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDOBJECTNULLCHECKNODE__REGISTERPORTS_B__7_1_OFFSET UNITYSDK_OFFSET(0x1B4B2AA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDObjectNullCheckNode_TypeDefinitionIndex = 88737;
+	inline static constexpr unsigned int LDObjectNullCheckNode_TypeDefinitionIndex = 74502;
 
 	class LDObjectNullCheckNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* trueOutput; // 0xA8
-		::FlowCanvas::ValueOutput_1<::System::Boolean>* resultOutput; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Object*>* valueInput; // 0xB8
-		::FlowCanvas::FlowOutput* output; // 0xC0
-		::FlowCanvas::FlowOutput* falseOutput; // 0xC8
+		::FlowCanvas::ValueOutput_1<::System::Boolean>* resultOutput; // 0xA8
+		::FlowCanvas::FlowOutput* output; // 0xB0
+		::FlowCanvas::FlowOutput* falseOutput; // 0xB8
+		::FlowCanvas::FlowOutput* trueOutput; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Object*>* valueInput; // 0xC8
 		::FlowCanvas::FlowInput* input; // 0xD0
 		::System::Boolean result; // 0xD8
 

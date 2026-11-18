@@ -2,25 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
-#include "unitysdk/UnityEngine/Plane.h"
 #include "unitysdk/UnityEngine/Rendering/BatchCullingFlags.h"
 #include "unitysdk/UnityEngine/Rendering/BatchCullingProjectionType.h"
 #include "unitysdk/UnityEngine/Rendering/BatchCullingViewType.h"
 #include "unitysdk/UnityEngine/Rendering/BatchPackedCullingViewID.h"
 #include "unitysdk/UnityEngine/Rendering/CullingSplit.h"
 #include "unitysdk/UnityEngine/Rendering/LODParameters.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Plane.h"
 
-#define UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xA1C180)
+#define UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x90CE50)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchCullingContext_TypeDefinitionIndex = 6224;
+	inline static constexpr unsigned int BatchCullingContext_TypeDefinitionIndex = 6239;
 
 	struct alignas(8) BatchCullingContext
 	{
 		::Unity::Collections::NativeArray_1<::UnityEngine::Plane> cullingPlanes; // 0x10
+		::System::Byte _padding0[0x8];
 		::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::CullingSplit> cullingSplits; // 0x20
+		::System::Byte _padding1[0x8];
 		::UnityEngine::Rendering::LODParameters lodParameters; // 0x30
 		::UnityEngine::Matrix4x4 localToWorldMatrix; // 0x4C
 		::UnityEngine::Rendering::BatchCullingViewType viewType; // 0x8C
@@ -28,8 +30,10 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Rendering::BatchCullingFlags cullingFlags; // 0x94
 		::UnityEngine::Rendering::BatchPackedCullingViewID viewID; // 0x98
 		::System::UInt32 cullingLayerMask; // 0xA0
+		::System::Byte _padding2[0x4];
 		::System::UInt64 sceneCullingMask; // 0xA8
 		::System::Byte isOrthographic; // 0xB0
+		::System::Byte _padding3[0x3];
 		::System::Int32 receiverPlaneOffset; // 0xB4
 		::System::Int32 receiverPlaneCount; // 0xB8
 

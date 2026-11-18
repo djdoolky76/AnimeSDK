@@ -12,31 +12,33 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructOpsTraitsBase; }
 
-#define STATETREECORE_STATETREEEXECUTIONSTATE_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0xAD3160)
-#define STATETREECORE_STATETREEEXECUTIONSTATE_COPYCREATE_OFFSET UNITYSDK_OFFSET(0xAD2E20)
-#define STATETREECORE_STATETREEEXECUTIONSTATE_CREATE_OFFSET UNITYSDK_OFFSET(0x1FC35810)
-#define STATETREECORE_STATETREEEXECUTIONSTATE_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0xAD2E00)
-#define STATETREECORE_STATETREEEXECUTIONSTATE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD3400)
-#define STATETREECORE_STATETREEEXECUTIONSTATE_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0x3CADC0)
-#define STATETREECORE_STATETREEEXECUTIONSTATE_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0xAD3430)
-#define STATETREECORE_STATETREEEXECUTIONSTATE_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0xAD32C0)
-#define STATETREECORE_STATETREEEXECUTIONSTATE_MOVECREATE_OFFSET UNITYSDK_OFFSET(0xAD3030)
-#define STATETREECORE_STATETREEEXECUTIONSTATE_RESET_OFFSET UNITYSDK_OFFSET(0xAD3370)
-#define STATETREECORE_STATETREEEXECUTIONSTATE_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREEEXECUTIONSTATE__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0xAD3160)
-#define STATETREECORE_STATETREEEXECUTIONSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC35FF0)
+#define STATETREECORE_STATETREEEXECUTIONSTATE_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x9B8DE0)
+#define STATETREECORE_STATETREEEXECUTIONSTATE_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x9B8A90)
+#define STATETREECORE_STATETREEEXECUTIONSTATE_CREATE_OFFSET UNITYSDK_OFFSET(0x20038610)
+#define STATETREECORE_STATETREEEXECUTIONSTATE_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0x9B8A70)
+#define STATETREECORE_STATETREEEXECUTIONSTATE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9B9090)
+#define STATETREECORE_STATETREEEXECUTIONSTATE_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0x3B9490)
+#define STATETREECORE_STATETREEEXECUTIONSTATE_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0x9B90C0)
+#define STATETREECORE_STATETREEEXECUTIONSTATE_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0x9B8F50)
+#define STATETREECORE_STATETREEEXECUTIONSTATE_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x9B8CB0)
+#define STATETREECORE_STATETREEEXECUTIONSTATE_RESET_OFFSET UNITYSDK_OFFSET(0x9B9000)
+#define STATETREECORE_STATETREEEXECUTIONSTATE_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREEEXECUTIONSTATE__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x9B8DE0)
+#define STATETREECORE_STATETREEEXECUTIONSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x20038E10)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeExecutionState_TypeDefinitionIndex = 31559;
+	inline static constexpr unsigned int StateTreeExecutionState_TypeDefinitionIndex = 30996;
 
 	struct alignas(8) StateTreeExecutionState
 	{
 		static ::UnrealTypes::StructOpsTraitsBase** StaticGet_StaticStructOpsTraits()
 		{
-			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(StateTreeExecutionState_TypeDefinitionIndex)->GetStaticField(0x26E90);
+			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(StateTreeExecutionState_TypeDefinitionIndex)->GetStaticField(0x27F40);
 		}
 		::UnrealTypes::NativeStructList_1<::StateTreeCore::StateTreeExecutionFrame> ActiveFrames; // 0x10
+		::System::Byte _padding0[0x10];
 		::UnrealTypes::NativeStructList_1<::StateTreeCore::StateTreeTransitionDelayedState> DelayedTransitions; // 0x28
+		::System::Byte _padding1[0x10];
 		::System::UInt16 EnterStateFailedFrameIndex; // 0x40
 		::System::UInt16 EnterStateFailedTaskIndex; // 0x42
 		::StateTreeCore::StateTreeRunStatus LastTickStatus; // 0x44
@@ -57,35 +59,47 @@ namespace StateTreeCore
 			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEXECUTIONSTATE_GET_STATICSTRUCT_OFFSET))(this);
 		}
 
+		/*
 		static ::StateTreeCore::StateTreeExecutionState Create(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreeExecutionState(*)(::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEXECUTIONSTATE_CREATE_OFFSET))(allocator);
 		}
+		*/
 
+		/*
 		::StateTreeCore::StateTreeExecutionState DefaultCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreeExecutionState(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEXECUTIONSTATE_DEFAULTCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::StateTreeCore::StateTreeExecutionState CopyCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreeExecutionState(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEXECUTIONSTATE_COPYCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::StateTreeCore::StateTreeExecutionState MoveCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreeExecutionState(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEXECUTIONSTATE_MOVECREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::System::Void CopyAssign(::StateTreeCore::StateTreeExecutionState& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTreeExecutionState&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEXECUTIONSTATE_COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		::System::Void MoveAssign(::StateTreeCore::StateTreeExecutionState& temp)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTreeExecutionState&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEXECUTIONSTATE_MOVEASSIGN_OFFSET))(this, temp);
 		}
+		*/
 
 		::System::Void Reset()
 		{
@@ -102,9 +116,11 @@ namespace StateTreeCore
 			return ((::UnrealTypes::StructOpsTraitsBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEXECUTIONSTATE_GET_STRUCTOPSTRAITS_OFFSET))(this);
 		}
 
+		/*
 		::System::Void UnrealTypes_IStruct_StateTreeCore_StateTreeExecutionState__CopyAssign(::StateTreeCore::StateTreeExecutionState& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTreeExecutionState&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEXECUTIONSTATE_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREEEXECUTIONSTATE__COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 	};
 }

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPOPLEVELPERFORMCAMERAFOCUSTARGET_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A85040)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPOPLEVELPERFORMCAMERAFOCUSTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x13A850D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPOPLEVELPERFORMCAMERAFOCUSTARGET_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465F870)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPOPLEVELPERFORMCAMERAFOCUSTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1465F900)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPopLevelPerformCameraFocusTarget_TypeDefinitionIndex = 42071;
+	inline static constexpr unsigned int LDPopLevelPerformCameraFocusTarget_TypeDefinitionIndex = 91808;
 
-	class LDPopLevelPerformCameraFocusTarget : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::String*>
+	class LDPopLevelPerformCameraFocusTarget
 	{
 	public:
 		::System::Void _ctor()

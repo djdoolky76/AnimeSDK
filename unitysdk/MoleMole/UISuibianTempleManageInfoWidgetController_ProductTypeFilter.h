@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_EF2EC4D8F28BA1A6;
+class OAOFCEFPEHP;
 
-#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER_PRODUCTTYPEFILTER_PREDICATE_OFFSET UNITYSDK_OFFSET(0x160F00A0)
-#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER_PRODUCTTYPEFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x160F0280)
+#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER_PRODUCTTYPEFILTER_PREDICATE_OFFSET UNITYSDK_OFFSET(0x167D9390)
+#define MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER_PRODUCTTYPEFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x167D9570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleManageInfoWidgetController_ProductTypeFilter_TypeDefinitionIndex = 40584;
+	inline static constexpr unsigned int UISuibianTempleManageInfoWidgetController_ProductTypeFilter_TypeDefinitionIndex = 59417;
 
 	class UISuibianTempleManageInfoWidgetController_ProductTypeFilter : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER_PRODUCTTYPEFILTER__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Predicate(::Class_2_EF2EC4D8F28BA1A6* product)
+		::System::Boolean Predicate(::OAOFCEFPEHP* product)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_EF2EC4D8F28BA1A6*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER_PRODUCTTYPEFILTER_PREDICATE_OFFSET))(this, product);
+			return ((::System::Boolean(*)(::PVOID, ::OAOFCEFPEHP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLEMANAGEINFOWIDGETCONTROLLER_PRODUCTTYPEFILTER_PREDICATE_OFFSET))(this, product);
 		}
 	};
 }

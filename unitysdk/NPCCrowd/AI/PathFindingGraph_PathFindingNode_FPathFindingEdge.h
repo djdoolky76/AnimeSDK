@@ -6,19 +6,21 @@
 
 namespace NPCCrowd::AI { class PathFindingGraph_PathFindingNode; }
 
-#define NPCCROWD_AI_PATHFINDINGGRAPH_PATHFINDINGNODE_FPATHFINDINGEDGE_CLEARPATHFINDINGCACHE_OFFSET UNITYSDK_OFFSET(0x69CA50)
-#define NPCCROWD_AI_PATHFINDINGGRAPH_PATHFINDINGNODE_FPATHFINDINGEDGE_ISENABLED_OFFSET UNITYSDK_OFFSET(0x69CA00)
+#define NPCCROWD_AI_PATHFINDINGGRAPH_PATHFINDINGNODE_FPATHFINDINGEDGE_CLEARPATHFINDINGCACHE_OFFSET UNITYSDK_OFFSET(0x680700)
+#define NPCCROWD_AI_PATHFINDINGGRAPH_PATHFINDINGNODE_FPATHFINDINGEDGE_ISENABLED_OFFSET UNITYSDK_OFFSET(0x6806B0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathFindingGraph_PathFindingNode_FPathFindingEdge_TypeDefinitionIndex = 43142;
+	inline static constexpr unsigned int PathFindingGraph_PathFindingNode_FPathFindingEdge_TypeDefinitionIndex = 82361;
 
 	struct alignas(8) PathFindingGraph_PathFindingNode_FPathFindingEdge
 	{
 		::System::Boolean Enabled; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Int32 PathGraphNodeIndex; // 0x14
 		::NPCCrowd::AI::PathGraphNodeConfig_NodeType PathGraphNodeType; // 0x18
 		::System::Boolean PathGraphNodeSplineForward; // 0x1C
+		::System::Byte _padding1[0x3];
 		::NPCCrowd::AI::PathFindingGraph_PathFindingNode* TargetNode; // 0x20
 		::System::Single Cost; // 0x28
 		::NPCCrowd::AI::PathFindingGraph_PathFindingNode_FPathFindingEdge_FPathFindingEdgeCache EdgeCache; // 0x2C

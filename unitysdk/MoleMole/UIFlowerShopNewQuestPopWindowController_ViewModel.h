@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F5ACAAB9AA1EB49.h"
+#include "unitysdk/JJEJBPGJPJN.h"
 
-class Class_0_16E4307DCC419505_135;
+class KOGPMKOGCLC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
-template <typename T> class Class_0_16E4307DCC419505_152;
+template <typename T> class KLIOMMIOFDC_1;
 
-#define MOLEMOLE_UIFLOWERSHOPNEWQUESTPOPWINDOWCONTROLLER_VIEWMODEL_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x185821E0)
-#define MOLEMOLE_UIFLOWERSHOPNEWQUESTPOPWINDOWCONTROLLER_VIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x185821D0)
+#define MOLEMOLE_UIFLOWERSHOPNEWQUESTPOPWINDOWCONTROLLER_VIEWMODEL_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x18023AC0)
+#define MOLEMOLE_UIFLOWERSHOPNEWQUESTPOPWINDOWCONTROLLER_VIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18023AB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerShopNewQuestPopWindowController_ViewModel_TypeDefinitionIndex = 57251;
+	inline static constexpr unsigned int UIFlowerShopNewQuestPopWindowController_ViewModel_TypeDefinitionIndex = 80493;
 
-	class UIFlowerShopNewQuestPopWindowController_ViewModel : public ::Class_1_5F5ACAAB9AA1EB49
+	class UIFlowerShopNewQuestPopWindowController_ViewModel : public ::JJEJBPGJPJN
 	{
 	public:
-		::Class_0_16E4307DCC419505_152<::System::Collections::Generic::List_1<::System::Int32>*>* CustomQuestIDs; // 0x80
+		::KLIOMMIOFDC_1<::System::Collections::Generic::List_1<::System::Int32>*>* CustomQuestIDs; // 0x88
 
-		::System::Void _ctor(::Class_0_16E4307DCC419505_135* autoDisposePool)
+		::System::Void _ctor(::KOGPMKOGCLC* autoDisposePool)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_135*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFLOWERSHOPNEWQUESTPOPWINDOWCONTROLLER_VIEWMODEL__CTOR_OFFSET))(this, autoDisposePool);
+			return ((::System::Void(*)(::PVOID, ::KOGPMKOGCLC*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFLOWERSHOPNEWQUESTPOPWINDOWCONTROLLER_VIEWMODEL__CTOR_OFFSET))(this, autoDisposePool);
 		}
 
 		::System::Void OnCreateProperty()

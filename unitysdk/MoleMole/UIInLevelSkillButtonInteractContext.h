@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIINLEVELSKILLBUTTONINTERACTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x184AD400)
+#define MOLEMOLE_UIINLEVELSKILLBUTTONINTERACTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF1910)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelSkillButtonInteractContext_TypeDefinitionIndex = 84311;
+	inline static constexpr unsigned int UIInLevelSkillButtonInteractContext_TypeDefinitionIndex = 72961;
 
 	class UIInLevelSkillButtonInteractContext : public ::MoleMole::UIControllerContextBase
 	{

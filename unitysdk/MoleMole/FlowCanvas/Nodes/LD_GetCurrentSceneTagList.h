@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTSCENETAGLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x107D6770)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTSCENETAGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x107D68B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTSCENETAGLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1430A690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCURRENTSCENETAGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1430A7D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetCurrentSceneTagList_TypeDefinitionIndex = 70027;
+	inline static constexpr unsigned int LD_GetCurrentSceneTagList_TypeDefinitionIndex = 67070;
 
-	class LD_GetCurrentSceneTagList : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Collections::Generic::List_1<::System::String*>*, ::System::Boolean>
+	class LD_GetCurrentSceneTagList
 	{
 	public:
 		::System::Void _ctor()

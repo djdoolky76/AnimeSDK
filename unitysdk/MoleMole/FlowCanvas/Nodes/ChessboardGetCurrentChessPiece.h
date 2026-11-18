@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardPureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCURRENTCHESSPIECE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B05810)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCURRENTCHESSPIECE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B059B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCURRENTCHESSPIECE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8E2820)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCURRENTCHESSPIECE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E29C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardGetCurrentChessPiece_TypeDefinitionIndex = 87558;
+	inline static constexpr unsigned int ChessboardGetCurrentChessPiece_TypeDefinitionIndex = 74633;
 
-	class ChessboardGetCurrentChessPiece : public ::MoleMole::FlowCanvas::ChessboardPureFunctionNode_1<::System::Int32>
+	class ChessboardGetCurrentChessPiece
 	{
 	public:
 		::System::Void _ctor()

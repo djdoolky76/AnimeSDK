@@ -5,24 +5,24 @@
 namespace MoleMole { class UISummerTideTreasureInLevelItemWidgetController_Data; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIINLEVELPAUSESUMMERTIDETREASUREWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x189E5730)
-#define MOLEMOLE_UIINLEVELPAUSESUMMERTIDETREASUREWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x189E5770)
-#define MOLEMOLE_UIINLEVELPAUSESUMMERTIDETREASUREWIDGETCONTROLLER___C__REFRESHSCROLLVIEW_B__17_0_OFFSET UNITYSDK_OFFSET(0x189E5780)
+#define MOLEMOLE_UIINLEVELPAUSESUMMERTIDETREASUREWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x196D77A0)
+#define MOLEMOLE_UIINLEVELPAUSESUMMERTIDETREASUREWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x196D77E0)
+#define MOLEMOLE_UIINLEVELPAUSESUMMERTIDETREASUREWIDGETCONTROLLER___C__REFRESHSCROLLVIEW_B__17_0_OFFSET UNITYSDK_OFFSET(0x196D77F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPauseSummerTideTreasureWidgetController___c_TypeDefinitionIndex = 57881;
+	inline static constexpr unsigned int UIInLevelPauseSummerTideTreasureWidgetController___c_TypeDefinitionIndex = 84175;
 
 	class UIInLevelPauseSummerTideTreasureWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIInLevelPauseSummerTideTreasureWidgetController___c** StaticGet___9()
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__17_0()
 		{
-			return (::MoleMole::UIInLevelPauseSummerTideTreasureWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelPauseSummerTideTreasureWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A570);
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelPauseSummerTideTreasureWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C370);
 		}
-		static ::System::Comparison_1<::MoleMole::UISummerTideTreasureInLevelItemWidgetController_Data*>** StaticGet___9__17_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::MoleMole::UISummerTideTreasureInLevelItemWidgetController_Data*>**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelPauseSummerTideTreasureWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A578);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIInLevelPauseSummerTideTreasureWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C378);
 		}
 
 		static ::System::Void _cctor()

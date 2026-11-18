@@ -1,8 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Accessories/NPCAccessoryAnimatorManager_SampleData.h"
-#include "unitysdk/NPCCrowd/Accessories/NPCAccessoryAnimatorManager_SamplePoseJob.h"
-#include "unitysdk/NPCCrowd/Animation/NPCAnimationLib_AnimationId.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
@@ -14,32 +11,33 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Avatar; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_ADD_OFFSET UNITYSDK_OFFSET(0xD889F90)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_BUILDSAMPLEPOSEJOB_OFFSET UNITYSDK_OFFSET(0xD88A3E0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_CLEARJOBDATA_OFFSET UNITYSDK_OFFSET(0xD88A700)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_CONSUMEJOBDATA_OFFSET UNITYSDK_OFFSET(0xD88A7A0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_DISPATCHSAMPLEPOSEJOB_OFFSET UNITYSDK_OFFSET(0xD88A060)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_GENERATESAMPLEDATA_OFFSET UNITYSDK_OFFSET(0xD88A9B0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_GETROOTINDEX_OFFSET UNITYSDK_OFFSET(0xD8897F0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xD889C30)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_NEW_OFFSET UNITYSDK_OFFSET(0xD889C60)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_REMOVE_OFFSET UNITYSDK_OFFSET(0xD889FF0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD889060)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_ADD_OFFSET UNITYSDK_OFFSET(0xED5FAE0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_BUILDSAMPLEPOSEJOB_OFFSET UNITYSDK_OFFSET(0xED5FF30)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_CLEARJOBDATA_OFFSET UNITYSDK_OFFSET(0xED60260)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_CONSUMEJOBDATA_OFFSET UNITYSDK_OFFSET(0xED602F0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_DISPATCHSAMPLEPOSEJOB_OFFSET UNITYSDK_OFFSET(0xED5FBB0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_GENERATESAMPLEDATA_OFFSET UNITYSDK_OFFSET(0xED60500)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_GETROOTINDEX_OFFSET UNITYSDK_OFFSET(0xED5F340)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xED5F780)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_NEW_OFFSET UNITYSDK_OFFSET(0xED5F7B0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_REMOVE_OFFSET UNITYSDK_OFFSET(0xED5FB40)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xED5EBB0)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAnimatorManager_AvatarLookupItem_TypeDefinitionIndex = 87994;
+	inline static constexpr unsigned int NPCAccessoryAnimatorManager_AvatarLookupItem_TypeDefinitionIndex = 72635;
 
 	class NPCAccessoryAnimatorManager_AvatarLookupItem : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::NPCAnimationLib_AnimationId>* _lookupTable; // 0x10
-		::UnityEngine::Avatar* _avatar; // 0x18
-		::Il2CppArray<::System::Int32>* _rootIndex; // 0x20
-		::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessory*>* _addedAccessories; // 0x28
-		::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessory*>* _accessories; // 0x30
-		::System::Int32 _rootBoneIndex; // 0x38
-		::System::Nullable_1<::NPCCrowd::Accessories::NPCAccessoryAnimatorManager_SamplePoseJob> _job; // 0x40
+		::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessory*>* _addedAccessories; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* _lookupTable; // 0x18
+		::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessory*>* _accessories; // 0x20
+		::Il2CppArray<::System::Int32>* _rootIndex; // 0x28
+		::UnityEngine::Avatar* _avatar; // 0x30
+		::System::Nullable_1<::System::Object*> _job; // 0x38
+		::System::Byte _padding0[0x40];
+		::System::Int32 _rootBoneIndex; // 0x80
 
 		::System::Void _ctor(::NPCCrowd::Animation::NPCAnimationLib* lib, ::UnityEngine::Avatar* avatar, ::NPCCrowd::Accessories::NPCAccessoryAnimationAssetsSO* animation)
 		{
@@ -86,14 +84,14 @@ namespace NPCCrowd::Accessories
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_CONSUMEJOBDATA_OFFSET))(this);
 		}
 
-		::System::Nullable_1<::NPCCrowd::Accessories::NPCAccessoryAnimatorManager_SamplePoseJob> BuildSamplePoseJob(::NPCCrowd::Animation::NPCAnimationLib* animationLib, ::UnityEngine::Avatar* avatar, ::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessory*>* accessories)
+		::System::Nullable_1<::System::Object*> BuildSamplePoseJob(::NPCCrowd::Animation::NPCAnimationLib* animationLib, ::UnityEngine::Avatar* avatar, ::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessory*>* accessories)
 		{
-			return ((::System::Nullable_1<::NPCCrowd::Accessories::NPCAccessoryAnimatorManager_SamplePoseJob>(*)(::PVOID, ::NPCCrowd::Animation::NPCAnimationLib*, ::UnityEngine::Avatar*, ::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessory*>*))((::PBYTE)hIl2Cpp + NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_BUILDSAMPLEPOSEJOB_OFFSET))(this, animationLib, avatar, accessories);
+			return ((::System::Nullable_1<::System::Object*>(*)(::PVOID, ::NPCCrowd::Animation::NPCAnimationLib*, ::UnityEngine::Avatar*, ::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessory*>*))((::PBYTE)hIl2Cpp + NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_BUILDSAMPLEPOSEJOB_OFFSET))(this, animationLib, avatar, accessories);
 		}
 
-		::System::Nullable_1<::NPCCrowd::Accessories::NPCAccessoryAnimatorManager_SampleData> GenerateSampleData(::NPCCrowd::Accessories::NPCAccessory* accessory)
+		::System::Nullable_1<::System::Object*> GenerateSampleData(::NPCCrowd::Accessories::NPCAccessory* accessory)
 		{
-			return ((::System::Nullable_1<::NPCCrowd::Accessories::NPCAccessoryAnimatorManager_SampleData>(*)(::PVOID, ::NPCCrowd::Accessories::NPCAccessory*))((::PBYTE)hIl2Cpp + NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_GENERATESAMPLEDATA_OFFSET))(this, accessory);
+			return ((::System::Nullable_1<::System::Object*>(*)(::PVOID, ::NPCCrowd::Accessories::NPCAccessory*))((::PBYTE)hIl2Cpp + NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATORMANAGER_AVATARLOOKUPITEM_GENERATESAMPLEDATA_OFFSET))(this, accessory);
 		}
 	};
 }

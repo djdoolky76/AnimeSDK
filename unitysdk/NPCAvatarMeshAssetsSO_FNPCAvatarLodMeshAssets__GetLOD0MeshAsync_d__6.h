@@ -1,25 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder_1.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1_Awaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/ValueType.h"
 
 class NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets;
+namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine { class Mesh; }
 
-#define NPCAVATARMESHASSETSSO_FNPCAVATARLODMESHASSETS__GETLOD0MESHASYNC_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x731700)
-#define NPCAVATARMESHASSETSSO_FNPCAVATARLODMESHASSETS__GETLOD0MESHASYNC_D__6_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define NPCAVATARMESHASSETSSO_FNPCAVATARLODMESHASSETS__GETLOD0MESHASYNC_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x596090)
+#define NPCAVATARMESHASSETSSO_FNPCAVATARLODMESHASSETS__GETLOD0MESHASYNC_D__6_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets__GetLOD0MeshAsync_d__6_TypeDefinitionIndex = 55890;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets__GetLOD0MeshAsync_d__6_TypeDefinitionIndex = 48087;
 
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 struct alignas(8) NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets__GetLOD0MeshAsync_d__6
 {
-	::System::Threading::CancellationToken cancellationToken; // 0x10
-	::NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets* __4__this; // 0x18
-	::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::UnityEngine::Mesh*> __u__1; // 0x20
-	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::UnityEngine::Mesh*> __t__builder; // 0x38
+	::System::Object* __u__1; // 0x10
+	::System::Byte _padding0[0x10];
+	::System::Threading::CancellationToken cancellationToken; // 0x28
+	::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::UnityEngine::Mesh*> __t__builder; // 0x30
+	::System::Byte _padding1[0x10];
+	::NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets* __4__this; // 0x48
 	::System::Int32 __1__state; // 0x50
 
 	::System::Void MoveNext()

@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERLEVELFROMCARDLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x19BDCC50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERLEVELFROMCARDLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19BDD1F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERLEVELFROMCARDLIST__GETMONSTERLEVEL_OFFSET UNITYSDK_OFFSET(0x19BDCDE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERLEVELFROMCARDLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A087640)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERLEVELFROMCARDLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A087BE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETMONSTERLEVELFROMCARDLIST__GETMONSTERLEVEL_OFFSET UNITYSDK_OFFSET(0x1A0877D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetMonsterLevelFromCardList_TypeDefinitionIndex = 50898;
+	inline static constexpr unsigned int LDGetMonsterLevelFromCardList_TypeDefinitionIndex = 70546;
 
-	class LDGetMonsterLevelFromCardList : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Collections::Generic::List_1<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Int32>*>
+	class LDGetMonsterLevelFromCardList
 	{
 	public:
 		::System::Void _ctor()

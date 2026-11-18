@@ -2,18 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_5_4B10204F20C4D73A_1;
+class BDNDEKNMBOH;
+class LPGNKALPGAF;
 
-#define MOLEMOLE_UIZENKOVRESULTPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14DA6680)
+#define MOLEMOLE_UIZENKOVRESULTPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x170D8F50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovResultPopWindowController_Context_TypeDefinitionIndex = 64194;
+	inline static constexpr unsigned int UIZenkovResultPopWindowController_Context_TypeDefinitionIndex = 40679;
 
 	class UIZenkovResultPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_5_4B10204F20C4D73A_1* GameContext; // 0x28
+		::LPGNKALPGAF* DirectNotify; // 0x28
+		::BDNDEKNMBOH* GameContext; // 0x30
 
 		::System::Void _ctor()
 		{

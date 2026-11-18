@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FluffyUnderware/DevTools/DTVersionedMonoBehaviour.h"
 
-namespace FluffyUnderware::Curvy { class CurvyConnection; }
-namespace FluffyUnderware::Curvy { class CurvySplineSegment; }
-namespace FluffyUnderware::Curvy::Controllers { class SplineController; }
-
-#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CONNECTEDCONTROLPOINTSSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA5D8F0)
+#define FLUFFYUNDERWARE_CURVY_CONTROLLERS_CONNECTEDCONTROLPOINTSSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE6DFB0)
 
 namespace FluffyUnderware::Curvy::Controllers
 {
-	inline static constexpr unsigned int ConnectedControlPointsSelector_TypeDefinitionIndex = 39477;
+	inline static constexpr unsigned int ConnectedControlPointsSelector_TypeDefinitionIndex = 37448;
 
 	class ConnectedControlPointsSelector : public ::FluffyUnderware::DevTools::DTVersionedMonoBehaviour
 	{

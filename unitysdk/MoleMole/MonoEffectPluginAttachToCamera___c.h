@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/MonoEffectPluginAttachToCamera_AspectOffset.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/MoleMole/MonoEffectPluginAttachToCamera_AspectOffset.h"
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINATTACHTOCAMERA___C_METHOD_1_41F2B3FE3FB78FC7_OFFSET UNITYSDK_OFFSET(0x1686E4B0)
-#define MOLEMOLE_MONOEFFECTPLUGINATTACHTOCAMERA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1686E460)
-#define MOLEMOLE_MONOEFFECTPLUGINATTACHTOCAMERA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1686E4A0)
+#define MOLEMOLE_MONOEFFECTPLUGINATTACHTOCAMERA___C_KEHKCEEBFHN_OFFSET UNITYSDK_OFFSET(0x10D399C0)
+#define MOLEMOLE_MONOEFFECTPLUGINATTACHTOCAMERA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10D39970)
+#define MOLEMOLE_MONOEFFECTPLUGINATTACHTOCAMERA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10D399B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginAttachToCamera___c_TypeDefinitionIndex = 56269;
+	inline static constexpr unsigned int MonoEffectPluginAttachToCamera___c_TypeDefinitionIndex = 60953;
 
 	class MonoEffectPluginAttachToCamera___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::MoleMole::MonoEffectPluginAttachToCamera_AspectOffset>** StaticGet___9__28_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::MoleMole::MonoEffectPluginAttachToCamera_AspectOffset>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAttachToCamera___c_TypeDefinitionIndex)->GetStaticField(0x367F0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAttachToCamera___c_TypeDefinitionIndex)->GetStaticField(0x38960);
 		}
-		static ::MoleMole::MonoEffectPluginAttachToCamera___c** StaticGet___9()
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__28_0()
 		{
-			return (::MoleMole::MonoEffectPluginAttachToCamera___c**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAttachToCamera___c_TypeDefinitionIndex)->GetStaticField(0x367F8);
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAttachToCamera___c_TypeDefinitionIndex)->GetStaticField(0x38968);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINATTACHTOCAMERA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 Method_1_41F2B3FE3FB78FC7(::MoleMole::MonoEffectPluginAttachToCamera_AspectOffset a1, ::MoleMole::MonoEffectPluginAttachToCamera_AspectOffset a2)
+		::System::Int32 KEHKCEEBFHN(::MoleMole::MonoEffectPluginAttachToCamera_AspectOffset DPGFPHIMDEL, ::MoleMole::MonoEffectPluginAttachToCamera_AspectOffset DLJPLHKELCO)
 		{
-			return ((::System::Int32(*)(::PVOID, ::MoleMole::MonoEffectPluginAttachToCamera_AspectOffset, ::MoleMole::MonoEffectPluginAttachToCamera_AspectOffset))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINATTACHTOCAMERA___C_METHOD_1_41F2B3FE3FB78FC7_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::MoleMole::MonoEffectPluginAttachToCamera_AspectOffset, ::MoleMole::MonoEffectPluginAttachToCamera_AspectOffset))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINATTACHTOCAMERA___C_KEHKCEEBFHN_OFFSET))(this, DPGFPHIMDEL, DLJPLHKELCO);
 		}
 	};
 }

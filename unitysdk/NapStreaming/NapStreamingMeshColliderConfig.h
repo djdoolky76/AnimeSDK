@@ -6,26 +6,26 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAPSTREAMING_NAPSTREAMINGMESHCOLLIDERCONFIG_CONTAINSSCENEPATH_OFFSET UNITYSDK_OFFSET(0xE95D760)
-#define NAPSTREAMING_NAPSTREAMINGMESHCOLLIDERCONFIG_SETSCENEPATHGENERATED_OFFSET UNITYSDK_OFFSET(0xE95D800)
-#define NAPSTREAMING_NAPSTREAMINGMESHCOLLIDERCONFIG_SHOULDSKIPBAKEDSCENEPROPLOAD_OFFSET UNITYSDK_OFFSET(0xE95D960)
-#define NAPSTREAMING_NAPSTREAMINGMESHCOLLIDERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0xE95DE40)
-#define NAPSTREAMING_NAPSTREAMINGMESHCOLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE95DD60)
+#define NAPSTREAMING_NAPSTREAMINGMESHCOLLIDERCONFIG_CONTAINSSCENEPATH_OFFSET UNITYSDK_OFFSET(0x1004CFB0)
+#define NAPSTREAMING_NAPSTREAMINGMESHCOLLIDERCONFIG_SETSCENEPATHGENERATED_OFFSET UNITYSDK_OFFSET(0x1004D050)
+#define NAPSTREAMING_NAPSTREAMINGMESHCOLLIDERCONFIG_SHOULDSKIPBAKEDSCENEPROPLOAD_OFFSET UNITYSDK_OFFSET(0x1004D180)
+#define NAPSTREAMING_NAPSTREAMINGMESHCOLLIDERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1004D660)
+#define NAPSTREAMING_NAPSTREAMINGMESHCOLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1004D580)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingMeshColliderConfig_TypeDefinitionIndex = 84307;
+	inline static constexpr unsigned int NapStreamingMeshColliderConfig_TypeDefinitionIndex = 90406;
 
 	class NapStreamingMeshColliderConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::Foundation::AssetRequestHandle* StaticGet_s_RuntimeConfigHandle()
 		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingMeshColliderConfig_TypeDefinitionIndex)->GetStaticField(0x3AE70);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NapStreamingMeshColliderConfig_TypeDefinitionIndex)->GetStaticField(0x3CCB0);
 		}
 		static ::NapStreaming::NapStreamingMeshColliderConfig** StaticGet_s_RuntimeConfig()
 		{
-			return (::NapStreaming::NapStreamingMeshColliderConfig**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingMeshColliderConfig_TypeDefinitionIndex)->GetStaticField(0x3AE90);
+			return (::NapStreaming::NapStreamingMeshColliderConfig**)Il2CppClass::FromTypeDefinitionIndex(NapStreamingMeshColliderConfig_TypeDefinitionIndex)->GetStaticField(0x3CCD0);
 		}
 		// static const ::System::String* AssetPath; // 0x0
 		::System::Collections::Generic::List_1<::System::String*>* meshColliderStreamingScenePaths; // 0x18

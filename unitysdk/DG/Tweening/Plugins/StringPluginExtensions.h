@@ -4,36 +4,36 @@
 
 namespace System::Text { class StringBuilder; }
 
-#define DG_TWEENING_PLUGINS_STRINGPLUGINEXTENSIONS_APPENDSCRAMBLEDCHARS_OFFSET UNITYSDK_OFFSET(0x1FC64AC0)
-#define DG_TWEENING_PLUGINS_STRINGPLUGINEXTENSIONS_SCRAMBLECHARS_OFFSET UNITYSDK_OFFSET(0x1FC64A10)
-#define DG_TWEENING_PLUGINS_STRINGPLUGINEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC64740)
+#define DG_TWEENING_PLUGINS_STRINGPLUGINEXTENSIONS_APPENDSCRAMBLEDCHARS_OFFSET UNITYSDK_OFFSET(0x20067570)
+#define DG_TWEENING_PLUGINS_STRINGPLUGINEXTENSIONS_SCRAMBLECHARS_OFFSET UNITYSDK_OFFSET(0x200674C0)
+#define DG_TWEENING_PLUGINS_STRINGPLUGINEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x200671F0)
 
 namespace DG::Tweening::Plugins
 {
-	inline static constexpr unsigned int StringPluginExtensions_TypeDefinitionIndex = 28555;
+	inline static constexpr unsigned int StringPluginExtensions_TypeDefinitionIndex = 27994;
 
 	class StringPluginExtensions : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Char>** StaticGet_ScrambledCharsUppercase()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(StringPluginExtensions_TypeDefinitionIndex)->GetStaticField(0x24240);
-		}
 		static ::Il2CppArray<::System::Char>** StaticGet_ScrambledCharsLowercase()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(StringPluginExtensions_TypeDefinitionIndex)->GetStaticField(0x24248);
-		}
-		static ::Il2CppArray<::System::Char>** StaticGet_ScrambledCharsNumerals()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(StringPluginExtensions_TypeDefinitionIndex)->GetStaticField(0x24250);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(StringPluginExtensions_TypeDefinitionIndex)->GetStaticField(0x25300);
 		}
 		static ::Il2CppArray<::System::Char>** StaticGet_ScrambledCharsAll()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(StringPluginExtensions_TypeDefinitionIndex)->GetStaticField(0x24258);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(StringPluginExtensions_TypeDefinitionIndex)->GetStaticField(0x25308);
+		}
+		static ::Il2CppArray<::System::Char>** StaticGet_ScrambledCharsNumerals()
+		{
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(StringPluginExtensions_TypeDefinitionIndex)->GetStaticField(0x25310);
+		}
+		static ::Il2CppArray<::System::Char>** StaticGet_ScrambledCharsUppercase()
+		{
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(StringPluginExtensions_TypeDefinitionIndex)->GetStaticField(0x25318);
 		}
 		static ::System::Int32* StaticGet__lastRndSeed()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StringPluginExtensions_TypeDefinitionIndex)->GetStaticField(0x78A0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StringPluginExtensions_TypeDefinitionIndex)->GetStaticField(0x7C90);
 		}
 
 		static ::System::Void _cctor()

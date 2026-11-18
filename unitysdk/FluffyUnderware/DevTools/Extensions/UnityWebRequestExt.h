@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_UNITYWEBREQUESTEXT_ISERROR_OFFSET UNITYSDK_OFFSET(0x1EA54E80)
+#define FLUFFYUNDERWARE_DEVTOOLS_EXTENSIONS_UNITYWEBREQUESTEXT_ISERROR_OFFSET UNITYSDK_OFFSET(0x1ED5DB00)
 
 namespace FluffyUnderware::DevTools::Extensions
 {
-	inline static constexpr unsigned int UnityWebRequestExt_TypeDefinitionIndex = 28999;
+	inline static constexpr unsigned int UnityWebRequestExt_TypeDefinitionIndex = 28438;
 
 	class UnityWebRequestExt : public ::System::Object
 	{

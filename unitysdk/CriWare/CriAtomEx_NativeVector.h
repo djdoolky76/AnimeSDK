@@ -1,12 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-#define CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA9CFB0)
+#define CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x9121C0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_NativeVector_TypeDefinitionIndex = 34913;
+	inline static constexpr unsigned int CriAtomEx_NativeVector_TypeDefinitionIndex = 34462;
 
 	struct alignas(4) CriAtomEx_NativeVector
 	{
@@ -14,11 +15,9 @@ namespace CriWare
 		::System::Single y; // 0x14
 		::System::Single z; // 0x18
 
-		/*
 		::System::Void _ctor(::UnityEngine::Vector3 vector)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_NATIVEVECTOR__CTOR_OFFSET))(this, vector);
 		}
-		*/
 	};
 }

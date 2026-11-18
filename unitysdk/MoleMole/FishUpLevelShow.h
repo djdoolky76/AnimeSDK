@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-class Class_1_61B3BCD70D19C820;
+class HJFOMLOOGBE;
 
-#define MOLEMOLE_FISHUPLEVELSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x19238BD0)
-#define MOLEMOLE_FISHUPLEVELSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x19238C60)
-#define MOLEMOLE_FISHUPLEVELSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x19238BE0)
+#define MOLEMOLE_FISHUPLEVELSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x11903A00)
+#define MOLEMOLE_FISHUPLEVELSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x11903A90)
+#define MOLEMOLE_FISHUPLEVELSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x11903A10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FishUpLevelShow_TypeDefinitionIndex = 71575;
+	inline static constexpr unsigned int FishUpLevelShow_TypeDefinitionIndex = 65953;
 
 	class FishUpLevelShow : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::System::Void _ctor(::Class_1_61B3BCD70D19C820* context)
+		::System::Void _ctor(::HJFOMLOOGBE* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_61B3BCD70D19C820*))((::PBYTE)hIl2Cpp + MOLEMOLE_FISHUPLEVELSHOW__CTOR_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::HJFOMLOOGBE*))((::PBYTE)hIl2Cpp + MOLEMOLE_FISHUPLEVELSHOW__CTOR_OFFSET))(this, context);
 		}
 
 		::System::Int32 get_Priority()

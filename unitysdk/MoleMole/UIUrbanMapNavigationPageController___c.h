@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_CC89A8F7C61A475D;
+class HFOKFECCJIL;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x191692A0)
-#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x191692E0)
-#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__GETCHILDAREALIST_B__25_0_OFFSET UNITYSDK_OFFSET(0x191692F0)
+#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x185E5500)
+#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x185E5540)
+#define MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__GETCHILDAREALIST_B__25_0_OFFSET UNITYSDK_OFFSET(0x185E5550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapNavigationPageController___c_TypeDefinitionIndex = 71783;
+	inline static constexpr unsigned int UIUrbanMapNavigationPageController___c_TypeDefinitionIndex = 77565;
 
 	class UIUrbanMapNavigationPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIUrbanMapNavigationPageController___c** StaticGet___9()
+		static ::System::Comparison_1<::HFOKFECCJIL*>** StaticGet___9__25_0()
 		{
-			return (::MoleMole::UIUrbanMapNavigationPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIUrbanMapNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x37080);
+			return (::System::Comparison_1<::HFOKFECCJIL*>**)Il2CppClass::FromTypeDefinitionIndex(UIUrbanMapNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x391F0);
 		}
-		static ::System::Comparison_1<::Class_1_CC89A8F7C61A475D*>** StaticGet___9__25_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_1_CC89A8F7C61A475D*>**)Il2CppClass::FromTypeDefinitionIndex(UIUrbanMapNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x37088);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIUrbanMapNavigationPageController___c_TypeDefinitionIndex)->GetStaticField(0x391F8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetChildAreaList_b__25_0(::Class_1_CC89A8F7C61A475D* l, ::Class_1_CC89A8F7C61A475D* r)
+		::System::Int32 _GetChildAreaList_b__25_0(::HFOKFECCJIL* l, ::HFOKFECCJIL* r)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_CC89A8F7C61A475D*, ::Class_1_CC89A8F7C61A475D*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__GETCHILDAREALIST_B__25_0_OFFSET))(this, l, r);
+			return ((::System::Int32(*)(::PVOID, ::HFOKFECCJIL*, ::HFOKFECCJIL*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIURBANMAPNAVIGATIONPAGECONTROLLER___C__GETCHILDAREALIST_B__25_0_OFFSET))(this, l, r);
 		}
 	};
 }

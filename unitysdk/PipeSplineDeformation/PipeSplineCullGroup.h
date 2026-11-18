@@ -5,7 +5,7 @@
 
 namespace PipeSplineDeformation
 {
-	inline static constexpr unsigned int PipeSplineCullGroup_TypeDefinitionIndex = 27934;
+	inline static constexpr unsigned int PipeSplineCullGroup_TypeDefinitionIndex = 26329;
 
 	struct alignas(4) PipeSplineCullGroup
 	{

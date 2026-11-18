@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class IANDOOLAALI_DLAAJNDJPLO;
+class MHGOHALCIPJ;
+class OAEFGCLEHHO;
+namespace System { template <typename T> class Action_1; }
+
+#define EKPFDNANCLC_KENMFDBOFPO_CLHBOEFLHDC_OFFSET UNITYSDK_OFFSET(0x154BBC40)
+#define EKPFDNANCLC_KENMFDBOFPO_JDABKGEGPED_OFFSET UNITYSDK_OFFSET(0x154BBA40)
+#define EKPFDNANCLC_KENMFDBOFPO_LCJHOMOKOOF_OFFSET UNITYSDK_OFFSET(0x154BB9D0)
+#define EKPFDNANCLC_KENMFDBOFPO__CTOR_OFFSET UNITYSDK_OFFSET(0x154BB9C0)
+
+inline static constexpr unsigned int EKPFDNANCLC_KENMFDBOFPO_TypeDefinitionIndex = 73129;
+
+class EKPFDNANCLC_KENMFDBOFPO : public ::System::Object
+{
+public:
+	::System::Action_1<::MHGOHALCIPJ*>* LKAOOKDANPK; // 0x10
+	::IANDOOLAALI_DLAAJNDJPLO* KAKAEMACNPB; // 0x18
+	::System::Int32 EJANOMALBNM; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKPFDNANCLC_KENMFDBOFPO__CTOR_OFFSET))(this);
+	}
+
+	::System::Void LCJHOMOKOOF(::OAEFGCLEHHO* GLAOEHCGCFO)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + EKPFDNANCLC_KENMFDBOFPO_LCJHOMOKOOF_OFFSET))(this, GLAOEHCGCFO);
+	}
+
+	::System::Void JDABKGEGPED()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKPFDNANCLC_KENMFDBOFPO_JDABKGEGPED_OFFSET))(this);
+	}
+
+	::System::Void CLHBOEFLHDC(::OAEFGCLEHHO* GLAOEHCGCFO)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + EKPFDNANCLC_KENMFDBOFPO_CLHBOEFLHDC_OFFSET))(this, GLAOEHCGCFO);
+	}
+};

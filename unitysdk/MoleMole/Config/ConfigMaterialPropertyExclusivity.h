@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-namespace MoleMole::Config { class ConfigMaterialPropertyExclusivity_MaterialPropertyExclusivityGroup; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYEXCLUSIVITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1170ACD0)
+#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYEXCLUSIVITY__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC7D90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMaterialPropertyExclusivity_TypeDefinitionIndex = 46925;
+	inline static constexpr unsigned int ConfigMaterialPropertyExclusivity_TypeDefinitionIndex = 88527;
 
 	class ConfigMaterialPropertyExclusivity : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::System::String*>* ShaderBlacklist; // 0x58
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigMaterialPropertyExclusivity_MaterialPropertyExclusivityGroup*>* Groups; // 0x60
+		::System::Collections::Generic::List_1<::System::Object*>* Groups; // 0x60
 
 		::System::Void _ctor()
 		{

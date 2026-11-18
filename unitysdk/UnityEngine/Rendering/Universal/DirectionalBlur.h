@@ -8,13 +8,13 @@ namespace UnityEngine::NAPRenderPipeline0 { class Vector2Parameter; }
 namespace UnityEngine::Rendering::Universal { class DownSampleParameter; }
 namespace UnityEngine::Rendering::Universal { class SampleDistanceModeParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_DIRECTIONALBLUR_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1D300EE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_DIRECTIONALBLUR_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1D300FA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_DIRECTIONALBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D300FE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DIRECTIONALBLUR_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1D448DC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DIRECTIONALBLUR_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1D448E80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DIRECTIONALBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D448EC0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DirectionalBlur_TypeDefinitionIndex = 27483;
+	inline static constexpr unsigned int DirectionalBlur_TypeDefinitionIndex = 27186;
 
 	class DirectionalBlur : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

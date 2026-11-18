@@ -1,0 +1,223 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FlatBuffers/Table.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace FlatBuffers { class ByteBuffer; }
+namespace System { class String; }
+
+#define DHEMBKBAALG_BFDJJEFHKCD_OFFSET UNITYSDK_OFFSET(0x7649A0)
+#define DHEMBKBAALG_BGHAAFBFIDL_OFFSET UNITYSDK_OFFSET(0x78A660)
+#define DHEMBKBAALG_BHGNCCMLJKB_OFFSET UNITYSDK_OFFSET(0x754A40)
+#define DHEMBKBAALG_BLFKNELJFFB_OFFSET UNITYSDK_OFFSET(0x755E40)
+#define DHEMBKBAALG_BMPIJJMPPLM_OFFSET UNITYSDK_OFFSET(0x7557F0)
+#define DHEMBKBAALG_BOHGCLIJJEF_OFFSET UNITYSDK_OFFSET(0x7553C0)
+#define DHEMBKBAALG_CBOODEIPLPA_OFFSET UNITYSDK_OFFSET(0x755440)
+#define DHEMBKBAALG_CGEPGGKJAIA_OFFSET UNITYSDK_OFFSET(0x763D90)
+#define DHEMBKBAALG_COKNGLDGGNN_OFFSET UNITYSDK_OFFSET(0x760780)
+#define DHEMBKBAALG_DCOGOBGLCOB_OFFSET UNITYSDK_OFFSET(0x78ABF0)
+#define DHEMBKBAALG_DHDIOCOGIDP_OFFSET UNITYSDK_OFFSET(0x754F90)
+#define DHEMBKBAALG_EPNALCJPMBE_OFFSET UNITYSDK_OFFSET(0x7631F0)
+#define DHEMBKBAALG_FGHEBPGADNJ_OFFSET UNITYSDK_OFFSET(0x762A90)
+#define DHEMBKBAALG_GET_BYTEBUFFER_OFFSET UNITYSDK_OFFSET(0x2E38E0)
+#define DHEMBKBAALG_GKBAJJACIEA_OFFSET UNITYSDK_OFFSET(0x755840)
+#define DHEMBKBAALG_HDGMAPDKKPJ_OFFSET UNITYSDK_OFFSET(0x755DF0)
+#define DHEMBKBAALG_HJMCPMFGMEG_OFFSET UNITYSDK_OFFSET(0x760820)
+#define DHEMBKBAALG_HOPJDJAPEMM_OFFSET UNITYSDK_OFFSET(0x779D20)
+#define DHEMBKBAALG_IHHPCPLJMFN_OFFSET UNITYSDK_OFFSET(0x7607D0)
+#define DHEMBKBAALG_JNEBBEIGKKL_OFFSET UNITYSDK_OFFSET(0x762EC0)
+#define DHEMBKBAALG_KNIMMFIMJPL_OFFSET UNITYSDK_OFFSET(0x757A30)
+#define DHEMBKBAALG_LCJDHNNNCPE_OFFSET UNITYSDK_OFFSET(0x757330)
+#define DHEMBKBAALG_LLKANOADKLF_OFFSET UNITYSDK_OFFSET(0x762D20)
+#define DHEMBKBAALG_MKEPADBEAAH_OFFSET UNITYSDK_OFFSET(0x76FDA0)
+#define DHEMBKBAALG_MKGMAGIKFOJ_OFFSET UNITYSDK_OFFSET(0x755370)
+#define DHEMBKBAALG_NKCNGLADFNA_OFFSET UNITYSDK_OFFSET(0x754C80)
+#define DHEMBKBAALG_NNKBCOABJLB_OFFSET UNITYSDK_OFFSET(0x757690)
+#define DHEMBKBAALG_OAKBBAANKCP_OFFSET UNITYSDK_OFFSET(0x1A18D820)
+#define DHEMBKBAALG_OEBELJGDNCE_OFFSET UNITYSDK_OFFSET(0x757290)
+#define DHEMBKBAALG_OOJKIDGLCAJ_OFFSET UNITYSDK_OFFSET(0x7606B0)
+#define DHEMBKBAALG_PBFIFAHAHPN_OFFSET UNITYSDK_OFFSET(0x763920)
+#define DHEMBKBAALG_PEPFINHGIAL_OFFSET UNITYSDK_OFFSET(0x761980)
+#define DHEMBKBAALG_PKGEGHPPFJB_OFFSET UNITYSDK_OFFSET(0x7AD1C0)
+#define DHEMBKBAALG___INIT_OFFSET UNITYSDK_OFFSET(0x754910)
+
+inline static constexpr unsigned int DHEMBKBAALG_TypeDefinitionIndex = 14011;
+
+struct alignas(4) DHEMBKBAALG
+{
+	::FlatBuffers::Table KHCKCFFKIGG; // 0x10
+
+	::FlatBuffers::ByteBuffer* get_ByteBuffer()
+	{
+		return ((::FlatBuffers::ByteBuffer*(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_GET_BYTEBUFFER_OFFSET))(this);
+	}
+
+	::System::Void __init(::System::Int32 FLPJIBCILFC, ::FlatBuffers::ByteBuffer* GBOBNIDOGCP)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + DHEMBKBAALG___INIT_OFFSET))(this, FLPJIBCILFC, GBOBNIDOGCP);
+	}
+
+	::System::Int32 MKGMAGIKFOJ()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_MKGMAGIKFOJ_OFFSET))(this);
+	}
+
+	::System::Int32 COKNGLDGGNN()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_COKNGLDGGNN_OFFSET))(this);
+	}
+
+	::System::Int32 BGHAAFBFIDL()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_BGHAAFBFIDL_OFFSET))(this);
+	}
+
+	::System::Int32 HJMCPMFGMEG()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_HJMCPMFGMEG_OFFSET))(this);
+	}
+
+	::System::Int32 HDGMAPDKKPJ()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_HDGMAPDKKPJ_OFFSET))(this);
+	}
+
+	::System::Int32 LLKANOADKLF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_LLKANOADKLF_OFFSET))(this);
+	}
+
+	::System::Int32 IHHPCPLJMFN()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_IHHPCPLJMFN_OFFSET))(this);
+	}
+
+	::System::Boolean BOHGCLIJJEF(::System::Int32 HPMEONKHFGG, ::System::Int32& EGEGIMGMJHN)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + DHEMBKBAALG_BOHGCLIJJEF_OFFSET))(this, HPMEONKHFGG, EGEGIMGMJHN);
+	}
+
+	::System::String* NNKBCOABJLB()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_NNKBCOABJLB_OFFSET))(this);
+	}
+
+	::System::Boolean CGEPGGKJAIA(::System::Int32 HPMEONKHFGG, ::System::Int32& EGEGIMGMJHN)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + DHEMBKBAALG_CGEPGGKJAIA_OFFSET))(this, HPMEONKHFGG, EGEGIMGMJHN);
+	}
+
+	/*
+	::DHEMBKBAALG BHGNCCMLJKB(::System::Int32 FLPJIBCILFC, ::FlatBuffers::ByteBuffer* GBOBNIDOGCP)
+	{
+		return ((::DHEMBKBAALG(*)(::PVOID, ::System::Int32, ::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + DHEMBKBAALG_BHGNCCMLJKB_OFFSET))(this, FLPJIBCILFC, GBOBNIDOGCP);
+	}
+	*/
+
+	::System::Int32 BFDJJEFHKCD()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_BFDJJEFHKCD_OFFSET))(this);
+	}
+
+	::System::Int32 CBOODEIPLPA()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_CBOODEIPLPA_OFFSET))(this);
+	}
+
+	::System::String* HOPJDJAPEMM()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_HOPJDJAPEMM_OFFSET))(this);
+	}
+
+	::System::Boolean MKEPADBEAAH(::System::Int32 HPMEONKHFGG, ::System::Int32& EGEGIMGMJHN)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + DHEMBKBAALG_MKEPADBEAAH_OFFSET))(this, HPMEONKHFGG, EGEGIMGMJHN);
+	}
+
+	::System::Int32 EPNALCJPMBE()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_EPNALCJPMBE_OFFSET))(this);
+	}
+
+	/*
+	static ::DHEMBKBAALG OAKBBAANKCP(::System::Int32 PFJFICMOJKP, ::System::Int32 MCOHLHMKLIP, ::FlatBuffers::ByteBuffer* DHEOPJNHFJP, ::System::Int32& ABHBKFJKINO)
+	{
+		return ((::DHEMBKBAALG(*)(::System::Int32, ::System::Int32, ::FlatBuffers::ByteBuffer*, ::System::Int32&))((::PBYTE)hIl2Cpp + DHEMBKBAALG_OAKBBAANKCP_OFFSET))(PFJFICMOJKP, MCOHLHMKLIP, DHEOPJNHFJP, ABHBKFJKINO);
+	}
+	*/
+
+	::System::String* OEBELJGDNCE()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_OEBELJGDNCE_OFFSET))(this);
+	}
+
+	::System::Int32 PEPFINHGIAL()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_PEPFINHGIAL_OFFSET))(this);
+	}
+
+	::System::Int32 DHDIOCOGIDP()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_DHDIOCOGIDP_OFFSET))(this);
+	}
+
+	::System::Int32 JNEBBEIGKKL()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_JNEBBEIGKKL_OFFSET))(this);
+	}
+
+	::System::String* FGHEBPGADNJ()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_FGHEBPGADNJ_OFFSET))(this);
+	}
+
+	::System::Int32 BMPIJJMPPLM()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_BMPIJJMPPLM_OFFSET))(this);
+	}
+
+	::System::String* PKGEGHPPFJB()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_PKGEGHPPFJB_OFFSET))(this);
+	}
+
+	::System::Int32 GKBAJJACIEA()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_GKBAJJACIEA_OFFSET))(this);
+	}
+
+	::System::Int32 LCJDHNNNCPE()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_LCJDHNNNCPE_OFFSET))(this);
+	}
+
+	::System::String* OOJKIDGLCAJ()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_OOJKIDGLCAJ_OFFSET))(this);
+	}
+
+	::System::Int32 DCOGOBGLCOB()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_DCOGOBGLCOB_OFFSET))(this);
+	}
+
+	::System::Int32 BLFKNELJFFB()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_BLFKNELJFFB_OFFSET))(this);
+	}
+
+	::System::Int32 NKCNGLADFNA()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_NKCNGLADFNA_OFFSET))(this);
+	}
+
+	::System::Int32 KNIMMFIMJPL()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DHEMBKBAALG_KNIMMFIMJPL_OFFSET))(this);
+	}
+
+	::System::Boolean PBFIFAHAHPN(::System::Int32 HPMEONKHFGG, ::System::Int32& EGEGIMGMJHN)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + DHEMBKBAALG_PBFIFAHAHPN_OFFSET))(this, HPMEONKHFGG, EGEGIMGMJHN);
+	}
+};

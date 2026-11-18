@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RootMotion/FinalIK/OffsetModifier.h"
 
-namespace RootMotion::FinalIK { class Amplifier_Body; }
+namespace System { class Object; }
 
-#define ROOTMOTION_FINALIK_AMPLIFIER_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1F3C7CF0)
-#define ROOTMOTION_FINALIK_AMPLIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C7E90)
+#define ROOTMOTION_FINALIK_AMPLIFIER_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1F7DC4E0)
+#define ROOTMOTION_FINALIK_AMPLIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7DC680)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Amplifier_TypeDefinitionIndex = 38911;
+	inline static constexpr unsigned int Amplifier_TypeDefinitionIndex = 36988;
 
 	class Amplifier : public ::RootMotion::FinalIK::OffsetModifier
 	{
 	public:
-		::Il2CppArray<::RootMotion::FinalIK::Amplifier_Body*>* bodies; // 0x30
+		::Il2CppArray<::System::Object*>* bodies; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -10,16 +10,17 @@ namespace MoleMole { class SummerEventWeaponSkillParamBase; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SUMMERWEAPONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x138610A0)
+#define MOLEMOLE_SUMMERWEAPONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13A078B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerWeaponConfig_TypeDefinitionIndex = 42991;
+	inline static constexpr unsigned int SummerWeaponConfig_TypeDefinitionIndex = 59722;
 
 	class SummerWeaponConfig : public ::System::Object
 	{
 	public:
 		::System::Int32 magazineCapacity; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* bulletConfigKey; // 0x18
 		::System::String* ChargeSkillValueKey; // 0x20
 		::System::String* ChargeSkillMaxValueKey; // 0x28
@@ -34,6 +35,7 @@ namespace MoleMole
 		::System::String* crossHairResetEvent; // 0x70
 		::Foundation::AssetPath weaponIconPath; // 0x78
 		::System::Boolean noBulletWeapon; // 0x88
+		::System::Byte _padding1[0x3];
 		::MoleMole::AimAssistCrossHairMoveRatioParam AssistRatio; // 0x8C
 		::System::Single reloadTime; // 0x9C
 		::System::Single backstageReloadTime; // 0xA0

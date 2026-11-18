@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/AnimationStateData_AnimationPair.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Spine/AnimationStateData_AnimationPair.h"
 
-#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR__EQUALS_OFFSET UNITYSDK_OFFSET(0x1FB6A100)
-#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR__GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1FB6A120)
-#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB6A170)
-#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB6A160)
+#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR__EQUALS_OFFSET UNITYSDK_OFFSET(0x1FF5F980)
+#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR__GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1FF5F9A0)
+#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF5F9F0)
+#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIRCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF5F9E0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AnimationStateData_AnimationPairComparer_TypeDefinitionIndex = 33480;
+	inline static constexpr unsigned int AnimationStateData_AnimationPairComparer_TypeDefinitionIndex = 32956;
 
 	class AnimationStateData_AnimationPairComparer : public ::System::Object
 	{
 	public:
 		static ::Spine::AnimationStateData_AnimationPairComparer** StaticGet_Instance()
 		{
-			return (::Spine::AnimationStateData_AnimationPairComparer**)Il2CppClass::FromTypeDefinitionIndex(AnimationStateData_AnimationPairComparer_TypeDefinitionIndex)->GetStaticField(0x289A0);
+			return (::Spine::AnimationStateData_AnimationPairComparer**)Il2CppClass::FromTypeDefinitionIndex(AnimationStateData_AnimationPairComparer_TypeDefinitionIndex)->GetStaticField(0x29BD0);
 		}
 
 		::System::Void _ctor()

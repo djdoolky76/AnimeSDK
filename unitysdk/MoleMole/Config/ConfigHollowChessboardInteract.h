@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class ConfigHollowLongpressInteractList; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x134FE9E0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B921440)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboardInteract_TypeDefinitionIndex = 62525;
+	inline static constexpr unsigned int ConfigHollowChessboardInteract_TypeDefinitionIndex = 40661;
 
 	class ConfigHollowChessboardInteract : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -16,6 +16,7 @@ namespace MoleMole::Config
 		::System::Single MoveRspTime; // 0x58
 		::System::Single InteractRspTime; // 0x5C
 		::System::Single InteractDelay; // 0x60
+		::System::Byte _padding0[0x4];
 		::MoleMole::Config::ConfigHollowLongpressInteractList* InteractList; // 0x68
 
 		::System::Void _ctor()

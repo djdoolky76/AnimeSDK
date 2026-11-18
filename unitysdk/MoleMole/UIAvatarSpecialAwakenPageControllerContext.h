@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_1824EF69C8E376A3;
+class BPHGNMNLLHF;
 
-#define MOLEMOLE_UIAVATARSPECIALAWAKENPAGECONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19776360)
+#define MOLEMOLE_UIAVATARSPECIALAWAKENPAGECONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0EEFF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarSpecialAwakenPageControllerContext_TypeDefinitionIndex = 50040;
+	inline static constexpr unsigned int UIAvatarSpecialAwakenPageControllerContext_TypeDefinitionIndex = 90105;
 
 	class UIAvatarSpecialAwakenPageControllerContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_1824EF69C8E376A3* AvatarData; // 0x28
+		::BPHGNMNLLHF* AvatarData; // 0x28
 		::System::Boolean CanOperateAwake; // 0x30
 
 		::System::Void _ctor()

@@ -8,35 +8,35 @@ namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 namespace UnrealTypes { class StructPropertyParams; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETACTORPOSITIONTASKINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E506B10)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETACTORPOSITIONTASKINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E506750)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETACTORPOSITIONTASKINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E19F890)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETACTORPOSITIONTASKINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E19F480)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData_TypeDefinitionIndex = 77422;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData_TypeDefinitionIndex = 54593;
 
 	class RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData : public ::System::Object
 	{
 	public:
 		static ::UnrealTypes::ObjectPropertyParams** StaticGet_Property_Actor()
 		{
-			return (::UnrealTypes::ObjectPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4B3F0);
-		}
-		static ::UnrealTypes::StructParams** StaticGet_StructParams()
-		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4B3F8);
-		}
-		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
-		{
-			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4B400);
+			return (::UnrealTypes::ObjectPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4F0E0);
 		}
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4B408);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4F0E8);
+		}
+		static ::UnrealTypes::StructParams** StaticGet_StructParams()
+		{
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4F0F0);
+		}
+		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
+		{
+			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4F0F8);
 		}
 		static ::UnrealTypes::StructPropertyParams** StaticGet_Property_Position()
 		{
-			return (::UnrealTypes::StructPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4B410);
+			return (::UnrealTypes::StructPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetActorPositionTaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x4F100);
 		}
 
 		static ::System::Void _cctor()

@@ -4,14 +4,14 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ARA_ARATRAIL_POINT_CATMULLROM_OFFSET UNITYSDK_OFFSET(0x1F63EC40)
-#define ARA_ARATRAIL_POINT_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1F642350)
-#define ARA_ARATRAIL_POINT_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1F6423C0)
-#define ARA_ARATRAIL_POINT__CTOR_OFFSET UNITYSDK_OFFSET(0xAAA5A0)
+#define ARA_ARATRAIL_POINT_CATMULLROM_OFFSET UNITYSDK_OFFSET(0x1F9F5680)
+#define ARA_ARATRAIL_POINT_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1F9F8D90)
+#define ARA_ARATRAIL_POINT_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1F9F8E00)
+#define ARA_ARATRAIL_POINT__CTOR_OFFSET UNITYSDK_OFFSET(0x9913D0)
 
 namespace Ara
 {
-	inline static constexpr unsigned int AraTrail_Point_TypeDefinitionIndex = 33563;
+	inline static constexpr unsigned int AraTrail_Point_TypeDefinitionIndex = 33109;
 
 	struct alignas(4) AraTrail_Point
 	{
@@ -35,14 +35,18 @@ namespace Ara
 			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_POINT_CATMULLROM_OFFSET))(p0, p1, p2, p3, t);
 		}
 
+		/*
 		static ::Ara::AraTrail_Point op_Addition(::Ara::AraTrail_Point p1, ::Ara::AraTrail_Point p2)
 		{
 			return ((::Ara::AraTrail_Point(*)(::Ara::AraTrail_Point, ::Ara::AraTrail_Point))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_POINT_OP_ADDITION_OFFSET))(p1, p2);
 		}
+		*/
 
+		/*
 		static ::Ara::AraTrail_Point op_Subtraction(::Ara::AraTrail_Point p1, ::Ara::AraTrail_Point p2)
 		{
 			return ((::Ara::AraTrail_Point(*)(::Ara::AraTrail_Point, ::Ara::AraTrail_Point))((::PBYTE)hIl2Cpp + ARA_ARATRAIL_POINT_OP_SUBTRACTION_OFFSET))(p1, p2);
 		}
+		*/
 	};
 }

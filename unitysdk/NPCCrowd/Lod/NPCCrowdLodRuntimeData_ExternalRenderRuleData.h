@@ -6,7 +6,7 @@
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdLodRuntimeData_ExternalRenderRuleData_TypeDefinitionIndex = 65047;
+	inline static constexpr unsigned int NPCCrowdLodRuntimeData_ExternalRenderRuleData_TypeDefinitionIndex = 85537;
 
 	struct alignas(4) NPCCrowdLodRuntimeData_ExternalRenderRuleData
 	{

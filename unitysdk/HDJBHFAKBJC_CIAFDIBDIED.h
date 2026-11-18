@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/HDJBHFAKBJC_PHDFIPKJGMC.h"
+
+class HDJBHFAKBJC_MJNNDOPDJFM;
+
+#define HDJBHFAKBJC_CIAFDIBDIED_COMPARE_OFFSET UNITYSDK_OFFSET(0x14A04060)
+#define HDJBHFAKBJC_CIAFDIBDIED__CCTOR_OFFSET UNITYSDK_OFFSET(0x14A04110)
+#define HDJBHFAKBJC_CIAFDIBDIED__CTOR_OFFSET UNITYSDK_OFFSET(0x14A040D0)
+
+inline static constexpr unsigned int HDJBHFAKBJC_CIAFDIBDIED_TypeDefinitionIndex = 76672;
+
+class HDJBHFAKBJC_CIAFDIBDIED : public ::System::Object
+{
+public:
+	static ::HDJBHFAKBJC_CIAFDIBDIED** StaticGet_DDGNFJDLOKA()
+	{
+		return (::HDJBHFAKBJC_CIAFDIBDIED**)Il2CppClass::FromTypeDefinitionIndex(HDJBHFAKBJC_CIAFDIBDIED_TypeDefinitionIndex)->GetStaticField(0x31EE0);
+	}
+	::HDJBHFAKBJC_MJNNDOPDJFM* JFGMKCELIBO; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDJBHFAKBJC_CIAFDIBDIED__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HDJBHFAKBJC_CIAFDIBDIED__CCTOR_OFFSET))();
+	}
+
+	::System::Int32 Compare(::HDJBHFAKBJC_PHDFIPKJGMC HAAEBCOBKFF, ::HDJBHFAKBJC_PHDFIPKJGMC BFMMEICFNCD)
+	{
+		return ((::System::Int32(*)(::PVOID, ::HDJBHFAKBJC_PHDFIPKJGMC, ::HDJBHFAKBJC_PHDFIPKJGMC))((::PBYTE)hIl2Cpp + HDJBHFAKBJC_CIAFDIBDIED_COMPARE_OFFSET))(this, HAAEBCOBKFF, BFMMEICFNCD);
+	}
+};

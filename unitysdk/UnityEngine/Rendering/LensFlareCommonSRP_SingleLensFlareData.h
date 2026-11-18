@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/SRPLensFlareBlendMode.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LensFlareCommonSRP_SingleLensFlareData_TypeDefinitionIndex = 26962;
+	inline static constexpr unsigned int LensFlareCommonSRP_SingleLensFlareData_TypeDefinitionIndex = 26385;
 
 	struct alignas(8) LensFlareCommonSRP_SingleLensFlareData
 	{

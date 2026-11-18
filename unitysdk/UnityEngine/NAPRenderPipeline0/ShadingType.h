@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ShadingType_TypeDefinitionIndex = 5903;
+	inline static constexpr unsigned int ShadingType_TypeDefinitionIndex = 5909;
 
 	enum class ShadingType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int DHKeyGeneration_TypeDefinitionIndex = 2451;
+	inline static constexpr unsigned int DHKeyGeneration_TypeDefinitionIndex = 2450;
 
 	enum class DHKeyGeneration : ::System::Int32
 	{

@@ -5,17 +5,18 @@
 namespace MiHoYo::SDK::Win { class SafeMobileBind; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__COUNTDOWN_D__34_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D790970)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__COUNTDOWN_D__34_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D790B40)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__COUNTDOWN_D__34_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D790BA0)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__COUNTDOWN_D__34_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D790B50)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__COUNTDOWN_D__34_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D790960)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__COUNTDOWN_D__34__CTOR_OFFSET UNITYSDK_OFFSET(0x1D790950)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__COUNTDOWN_D__34_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DEE5470)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__COUNTDOWN_D__34_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DEE5640)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__COUNTDOWN_D__34_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DEE56A0)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__COUNTDOWN_D__34_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1DEE5650)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__COUNTDOWN_D__34_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DEE5460)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND__COUNTDOWN_D__34__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE5450)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SafeMobileBind__CountDown_d__34_TypeDefinitionIndex = 21616;
+	inline static constexpr unsigned int SafeMobileBind__CountDown_d__34_TypeDefinitionIndex = 20816;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34>
 	class SafeMobileBind__CountDown_d__34 : public ::System::Object
 	{
 	public:
@@ -23,8 +24,8 @@ namespace MiHoYo::SDK::Win
 		::System::String* _countDownTimeUnit_5__2; // 0x18
 		::MiHoYo::SDK::Win::SafeMobileBind* __4__this; // 0x20
 		::System::Int32 __1__state; // 0x28
-		::System::Single time; // 0x2C
-		::System::Single _startTime_5__1; // 0x30
+		::System::Single _startTime_5__1; // 0x2C
+		::System::Single time; // 0x30
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_912CABDA75E684D1.h"
+#include "unitysdk/GMKJPFMGGHJ.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIZENKOVCONTROLCENTERPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10F13290)
+#define MOLEMOLE_UIZENKOVCONTROLCENTERPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13B3EF50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovControlCenterPageController_Context_TypeDefinitionIndex = 79402;
+	inline static constexpr unsigned int UIZenkovControlCenterPageController_Context_TypeDefinitionIndex = 84536;
 
 	class UIZenkovControlCenterPageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_912CABDA75E684D1 InitBuildingType; // 0x28
+		::GMKJPFMGGHJ InitBuildingType; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace System { class Uri; }
 namespace System::Xml::Schema { class XmlSchema; }
 
-#define SYSTEM_XML_SCHEMA_CHAMELEONKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D0754E0)
-#define SYSTEM_XML_SCHEMA_CHAMELEONKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D075410)
-#define SYSTEM_XML_SCHEMA_CHAMELEONKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0753C0)
+#define SYSTEM_XML_SCHEMA_CHAMELEONKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D5F0920)
+#define SYSTEM_XML_SCHEMA_CHAMELEONKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D5F0850)
+#define SYSTEM_XML_SCHEMA_CHAMELEONKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F0800)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int ChameleonKey_TypeDefinitionIndex = 1949;
+	inline static constexpr unsigned int ChameleonKey_TypeDefinitionIndex = 1948;
 
 	class ChameleonKey : public ::System::Object
 	{
 	public:
-		::System::String* targetNS; // 0x10
-		::System::Xml::Schema::XmlSchema* originalSchema; // 0x18
-		::System::Uri* chameleonLocation; // 0x20
+		::System::Uri* chameleonLocation; // 0x10
+		::System::String* targetNS; // 0x18
+		::System::Xml::Schema::XmlSchema* originalSchema; // 0x20
 		::System::Int32 hashCode; // 0x28
 
 		::System::Void _ctor(::System::String* ns, ::System::Xml::Schema::XmlSchema* originalSchema)

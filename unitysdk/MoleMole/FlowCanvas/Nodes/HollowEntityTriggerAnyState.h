@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_2.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYTRIGGERANYSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B199940)
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYTRIGGERANYSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B199B10)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYTRIGGERANYSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4AB790)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYTRIGGERANYSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AB960)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int HollowEntityTriggerAnyState_TypeDefinitionIndex = 90922;
+	inline static constexpr unsigned int HollowEntityTriggerAnyState_TypeDefinitionIndex = 65475;
 
-	class HollowEntityTriggerAnyState : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::System::UInt32, ::System::String*>
+	class HollowEntityTriggerAnyState
 	{
 	public:
 		::System::Void _ctor()

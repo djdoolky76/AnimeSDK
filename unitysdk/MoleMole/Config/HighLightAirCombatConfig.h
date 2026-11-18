@@ -9,11 +9,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_HIGHLIGHTAIRCOMBATCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACE420)
+#define MOLEMOLE_CONFIG_HIGHLIGHTAIRCOMBATCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xFFE7BB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HighLightAirCombatConfig_TypeDefinitionIndex = 77782;
+	inline static constexpr unsigned int HighLightAirCombatConfig_TypeDefinitionIndex = 72998;
 
 	class HighLightAirCombatConfig : public ::System::Object
 	{
@@ -23,6 +23,7 @@ namespace MoleMole::Config
 		::System::Collections::Generic::List_1<::System::String*>* cameraAnimators; // 0x20
 		::System::String* avatarFollow; // 0x28
 		::System::Int32 avatarID; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::String* bossFollow; // 0x38
 		::System::Int32 bossTemplateID; // 0x40
 		::System::Int32 bossLevel; // 0x44

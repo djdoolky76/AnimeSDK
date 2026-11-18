@@ -2,47 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/FName.h"
 #include "unitysdk/PipelineCamera/CameraSequence/AlphaGeneratorPolicy.h"
+#include "unitysdk/PipelineCamera/SerializableHashString.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
-#include "unitysdk/PipelineCamera/SerializableHashString.h"
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EBC5390)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_FETCH_DAMPING_OFFSET UNITYSDK_OFFSET(0x1EBC5530)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_FETCH_INITIALSPEED_OFFSET UNITYSDK_OFFSET(0x1EBC55E0)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_FETCH_STIFFNESS_OFFSET UNITYSDK_OFFSET(0x1EBC5690)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_GETDATA_OFFSET UNITYSDK_OFFSET(0x1EBC4880)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1EBC52E0)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_SETPATH_OFFSET UNITYSDK_OFFSET(0x1EBC52F0)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBC5760)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC5740)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EBC5810)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1EBC5900)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1F2F2760)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_FETCH_DAMPING_OFFSET UNITYSDK_OFFSET(0x1F2F2900)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_FETCH_INITIALSPEED_OFFSET UNITYSDK_OFFSET(0x1F2F29B0)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_FETCH_STIFFNESS_OFFSET UNITYSDK_OFFSET(0x1F2F2A60)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_GETDATA_OFFSET UNITYSDK_OFFSET(0x1F2F1C50)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1F2F26B0)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING_SETPATH_OFFSET UNITYSDK_OFFSET(0x1F2F26C0)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2F2B30)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F2B10)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1F2F2BE0)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SPRING___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1F2F2CD0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int AlphaGeneratorPolicy_Spring_TypeDefinitionIndex = 38548;
+	inline static constexpr unsigned int AlphaGeneratorPolicy_Spring_TypeDefinitionIndex = 36547;
 
 	class AlphaGeneratorPolicy_Spring : public ::PipelineCamera::CameraSequence::AlphaGeneratorPolicy
 	{
 	public:
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_damping()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x8CF0);
-		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_stiffness()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x8CF8);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x91B0);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_initialSpeed()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x8D00);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x91B8);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_damping()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Spring_TypeDefinitionIndex)->GetStaticField(0x91C0);
 		}
 		::System::Single damping; // 0x40
 		::System::Single initialSpeed; // 0x44
 		::System::Single stiffness; // 0x48
 		::System::Boolean useCache; // 0x4C
+		::System::Byte _padding0[0x3];
 		::PipelineCamera::SerializableHashString cacheId; // 0x50
 		::PipelineCamera::CameraSequence::AlphaGeneratorPolicy* alphaPolicy; // 0x60
 		::System::Boolean makeContextDependent; // 0x68

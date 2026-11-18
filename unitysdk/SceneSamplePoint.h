@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define SCENESAMPLEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x13456230)
+#define SCENESAMPLEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1FF6D0)
 
-inline static constexpr unsigned int SceneSamplePoint_TypeDefinitionIndex = 47508;
+inline static constexpr unsigned int SceneSamplePoint_TypeDefinitionIndex = 40474;
 
 class SceneSamplePoint : public ::UnityEngine::MonoBehaviour
 {

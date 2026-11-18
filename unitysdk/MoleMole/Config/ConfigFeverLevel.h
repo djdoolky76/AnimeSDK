@@ -4,29 +4,29 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGFEVERLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x11470490)
+#define MOLEMOLE_CONFIG_CONFIGFEVERLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x131E39D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigFeverLevel_TypeDefinitionIndex = 72223;
+	inline static constexpr unsigned int ConfigFeverLevel_TypeDefinitionIndex = 72862;
 
 	class ConfigFeverLevel : public ::System::Object
 	{
 	public:
-		::System::String* EffTextImgMaterial; // 0x10
-		::System::String* EffBg1Material; // 0x18
+		::System::String* FillBGEFTexture; // 0x10
+		::System::String* EffTextImgMaterial; // 0x18
 		::System::String* TextImgTexture; // 0x20
 		::System::String* EffTextImgTexture; // 0x28
-		::System::String* FillBGTexture; // 0x30
-		::System::String* EffPlayerProgress01Material; // 0x38
-		::System::String* EffBg2Material; // 0x40
-		::System::String* EffPlayerProgress01Texture; // 0x48
-		::System::String* FillBGEFTexture; // 0x50
-		::System::Single FeverRatioWhenAdd; // 0x58
-		::System::Single DownLevelLockTime; // 0x5C
-		::System::Single FeverReduceNumPerSecond; // 0x60
-		::System::Single MaxFeverCurLevel; // 0x64
-		::System::Single FeverReduceCDTime; // 0x68
+		::System::String* EffPlayerProgress01Material; // 0x30
+		::System::String* EffBg2Material; // 0x38
+		::System::String* EffPlayerProgress01Texture; // 0x40
+		::System::String* FillBGTexture; // 0x48
+		::System::String* EffBg1Material; // 0x50
+		::System::Single FeverReduceCDTime; // 0x58
+		::System::Single MaxFeverCurLevel; // 0x5C
+		::System::Single DownLevelLockTime; // 0x60
+		::System::Single FeverReduceNumPerSecond; // 0x64
+		::System::Single FeverRatioWhenAdd; // 0x68
 		::System::Single FeverRatioWhenReduce; // 0x6C
 
 		::System::Void _ctor()

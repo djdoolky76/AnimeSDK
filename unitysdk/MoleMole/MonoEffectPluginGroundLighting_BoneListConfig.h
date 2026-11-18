@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_BONELISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x118E7450)
+#define MOLEMOLE_MONOEFFECTPLUGINGROUNDLIGHTING_BONELISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x162675D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginGroundLighting_BoneListConfig_TypeDefinitionIndex = 83285;
+	inline static constexpr unsigned int MonoEffectPluginGroundLighting_BoneListConfig_TypeDefinitionIndex = 42516;
 
 	class MonoEffectPluginGroundLighting_BoneListConfig : public ::System::Object
 	{

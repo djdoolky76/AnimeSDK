@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Protocol::Ntlm
 {
-	inline static constexpr unsigned int NtlmAuthLevel_TypeDefinitionIndex = 2418;
+	inline static constexpr unsigned int NtlmAuthLevel_TypeDefinitionIndex = 2417;
 
 	enum class NtlmAuthLevel : ::System::Int32
 	{

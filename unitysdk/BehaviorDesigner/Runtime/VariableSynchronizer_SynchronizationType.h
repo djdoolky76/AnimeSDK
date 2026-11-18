@@ -3,7 +3,7 @@
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int VariableSynchronizer_SynchronizationType_TypeDefinitionIndex = 33906;
+	inline static constexpr unsigned int VariableSynchronizer_SynchronizationType_TypeDefinitionIndex = 33452;
 
 	enum class VariableSynchronizer_SynchronizationType : ::System::Int32
 	{

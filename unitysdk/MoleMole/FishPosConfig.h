@@ -6,12 +6,12 @@
 
 namespace MoleMole { class FishFreeCameraConfig; }
 
-#define MOLEMOLE_FISHPOSCONFIG_METHOD_1_F5972DD1C3F4267B_OFFSET UNITYSDK_OFFSET(0x1B1944B0)
-#define MOLEMOLE_FISHPOSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1944A0)
+#define MOLEMOLE_FISHPOSCONFIG_KHEHAJGMOAM_OFFSET UNITYSDK_OFFSET(0x1B4A6370)
+#define MOLEMOLE_FISHPOSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A6360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FishPosConfig_TypeDefinitionIndex = 63532;
+	inline static constexpr unsigned int FishPosConfig_TypeDefinitionIndex = 73033;
 
 	class FishPosConfig : public ::System::Object
 	{
@@ -26,6 +26,7 @@ namespace MoleMole
 		::System::Single FishHeight; // 0x38
 		::System::Single FishEffectHeightOffset; // 0x3C
 		::System::Single BossFishEffectHeightOffset; // 0x40
+		::System::Byte _padding0[0x4];
 		::MoleMole::FishFreeCameraConfig* WaitFishFree; // 0x48
 
 		::System::Void _ctor()
@@ -33,9 +34,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FISHPOSCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::Single Method_1_F5972DD1C3F4267B(::System::Boolean a1)
+		::System::Single KHEHAJGMOAM(::System::Boolean GKEABJGOLPD)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FISHPOSCONFIG_METHOD_1_F5972DD1C3F4267B_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FISHPOSCONFIG_KHEHAJGMOAM_OFFSET))(this, GKEABJGOLPD);
 		}
 	};
 }

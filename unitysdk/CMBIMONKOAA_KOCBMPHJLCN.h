@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PBLLGLOBOBI.h"
+#include "unitysdk/System/Object.h"
+
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define CMBIMONKOAA_KOCBMPHJLCN_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x159E4930)
+#define CMBIMONKOAA_KOCBMPHJLCN_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MOLEMOLE_UI_SOCIALCIRCLE_JOINTYPEINFO__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x159E4CC0)
+#define CMBIMONKOAA_KOCBMPHJLCN_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_MOLEMOLE_UI_SOCIALCIRCLE_JOINTYPEINFO__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x159E4C10)
+#define CMBIMONKOAA_KOCBMPHJLCN_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x159E4D30)
+#define CMBIMONKOAA_KOCBMPHJLCN_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x159E4C70)
+#define CMBIMONKOAA_KOCBMPHJLCN_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x159E4C20)
+#define CMBIMONKOAA_KOCBMPHJLCN_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159E4920)
+#define CMBIMONKOAA_KOCBMPHJLCN__CTOR_OFFSET UNITYSDK_OFFSET(0x159E4900)
+
+inline static constexpr unsigned int CMBIMONKOAA_KOCBMPHJLCN_TypeDefinitionIndex = 89148;
+
+class CMBIMONKOAA_KOCBMPHJLCN : public ::System::Object
+{
+public:
+	::PBLLGLOBOBI IDBEJJEKGDI; // 0x10
+	::System::Int32 FPDDAGHMOJB; // 0x20
+	::System::Int32 MDPILDGFNHN; // 0x24
+
+	::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CMBIMONKOAA_KOCBMPHJLCN__CTOR_OFFSET))(this, MDPILDGFNHN);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMBIMONKOAA_KOCBMPHJLCN_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CMBIMONKOAA_KOCBMPHJLCN_MOVENEXT_OFFSET))(this);
+	}
+
+	::PBLLGLOBOBI System_Collections_Generic_IEnumerator_MoleMole_UI_SocialCircle_JoinTypeInfo__get_Current()
+	{
+		return ((::PBLLGLOBOBI(*)(::PVOID))((::PBYTE)hIl2Cpp + CMBIMONKOAA_KOCBMPHJLCN_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_MOLEMOLE_UI_SOCIALCIRCLE_JOINTYPEINFO__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CMBIMONKOAA_KOCBMPHJLCN_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CMBIMONKOAA_KOCBMPHJLCN_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IEnumerator_1<::PBLLGLOBOBI>* System_Collections_Generic_IEnumerable_MoleMole_UI_SocialCircle_JoinTypeInfo__GetEnumerator()
+	{
+		return ((::System::Collections::Generic::IEnumerator_1<::PBLLGLOBOBI>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CMBIMONKOAA_KOCBMPHJLCN_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MOLEMOLE_UI_SOCIALCIRCLE_JOINTYPEINFO__GETENUMERATOR_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+	{
+		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + CMBIMONKOAA_KOCBMPHJLCN_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+	}
+};

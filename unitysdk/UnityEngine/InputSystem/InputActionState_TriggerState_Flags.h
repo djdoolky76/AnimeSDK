@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionState_TriggerState_Flags_TypeDefinitionIndex = 32187;
+	inline static constexpr unsigned int InputActionState_TriggerState_Flags_TypeDefinitionIndex = 31636;
 
 	enum class InputActionState_TriggerState_Flags : ::System::Int32
 	{

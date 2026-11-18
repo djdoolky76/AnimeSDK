@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_205B03D40B9BD873.h"
+#include "unitysdk/FAKODLEPJOA.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_BANGBOOMICROWEBEVENTDIALOGPOPWINDOWSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x12EE0FC0)
-#define MOLEMOLE_BANGBOOMICROWEBEVENTDIALOGPOPWINDOWSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x12EE0F80)
+#define MOLEMOLE_BANGBOOMICROWEBEVENTDIALOGPOPWINDOWSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x12756410)
+#define MOLEMOLE_BANGBOOMICROWEBEVENTDIALOGPOPWINDOWSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x127563D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BangbooMicroWebEventDialogPopWindowShowObj_TypeDefinitionIndex = 83021;
+	inline static constexpr unsigned int BangbooMicroWebEventDialogPopWindowShowObj_TypeDefinitionIndex = 89637;
 
 	class BangbooMicroWebEventDialogPopWindowShowObj : public ::MoleMole::DisplayMessageBase
 	{
 	public:
 		::System::Int32 _id; // 0x28
 
-		::System::Void _ctor(::System::Int32 id, ::Enum_3_205B03D40B9BD873 showPage)
+		::System::Void _ctor(::System::Int32 id, ::FAKODLEPJOA showPage)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Enum_3_205B03D40B9BD873))((::PBYTE)hIl2Cpp + MOLEMOLE_BANGBOOMICROWEBEVENTDIALOGPOPWINDOWSHOWOBJ__CTOR_OFFSET))(this, id, showPage);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::FAKODLEPJOA))((::PBYTE)hIl2Cpp + MOLEMOLE_BANGBOOMICROWEBEVENTDIALOGPOPWINDOWSHOWOBJ__CTOR_OFFSET))(this, id, showPage);
 		}
 
 		::System::Void OnProcess()

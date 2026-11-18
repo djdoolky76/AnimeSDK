@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int TreeAccessMethod_TypeDefinitionIndex = 39324;
+	inline static constexpr unsigned int TreeAccessMethod_TypeDefinitionIndex = 37324;
 
 	enum class TreeAccessMethod : ::System::Int32
 	{

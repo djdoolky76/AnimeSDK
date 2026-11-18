@@ -3,13 +3,13 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int EMontageFallbackSource_TypeDefinitionIndex = 42575;
+	inline static constexpr unsigned int EMontageFallbackSource_TypeDefinitionIndex = 92376;
 
 	enum class EMontageFallbackSource : ::System::Int32
 	{
-		TraitAction = 20,
 		ExplicitRuntime = 40,
-		TraitMontage = 30,
 		DefaultState = 10,
+		TraitAction = 20,
+		TraitMontage = 30,
 	};
 }

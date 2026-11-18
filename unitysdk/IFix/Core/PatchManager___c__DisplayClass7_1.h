@@ -6,19 +6,20 @@ namespace IFix::Core { class WrappersManager; }
 namespace System { class Type; }
 namespace System::Reflection { class FieldInfo; }
 
-#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1E083340)
-#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS7_1__LOAD_B__1_OFFSET UNITYSDK_OFFSET(0x1E083DA0)
+#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1E419800)
+#define IFIX_CORE_PATCHMANAGER___C__DISPLAYCLASS7_1__LOAD_B__1_OFFSET UNITYSDK_OFFSET(0x1E41A250)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager___c__DisplayClass7_1_TypeDefinitionIndex = 6925;
+	inline static constexpr unsigned int PatchManager___c__DisplayClass7_1_TypeDefinitionIndex = 6932;
 
+	template <typename T>
 	class PatchManager___c__DisplayClass7_1 : public ::System::Object
 	{
 	public:
 		::System::Type* IFixPatched; // 0x10
-		::IFix::Core::WrappersManager* wrapperManager; // 0x18
-		::System::Reflection::FieldInfo* patchedIDs; // 0x20
+		::System::Reflection::FieldInfo* patchedIDs; // 0x18
+		::IFix::Core::WrappersManager* wrapperManager; // 0x20
 		::System::Int32 maxPos; // 0x28
 
 		::System::Void _ctor()

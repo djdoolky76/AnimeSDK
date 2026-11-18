@@ -5,22 +5,23 @@
 namespace System::Text::RegularExpressions { class Match; }
 namespace System::Text::RegularExpressions { class MatchCollection; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C717F60)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C717F10)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C717FD0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C717EB0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CBF7B30)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1CBF7AE0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1CBF7BA0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF7A80)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int MatchEnumerator_TypeDefinitionIndex = 2742;
+	inline static constexpr unsigned int MatchEnumerator_TypeDefinitionIndex = 2741;
 
 	class MatchEnumerator : public ::System::Object
 	{
 	public:
-		::System::Text::RegularExpressions::Match* _match; // 0x10
-		::System::Text::RegularExpressions::MatchCollection* _matchcoll; // 0x18
-		::System::Int32 _curindex; // 0x20
-		::System::Boolean _done; // 0x24
+		::System::Text::RegularExpressions::MatchCollection* _matchcoll; // 0x10
+		::System::Text::RegularExpressions::Match* _match; // 0x18
+		::System::Boolean _done; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::Int32 _curindex; // 0x24
 
 		::System::Void _ctor(::System::Text::RegularExpressions::MatchCollection* matchcoll)
 		{

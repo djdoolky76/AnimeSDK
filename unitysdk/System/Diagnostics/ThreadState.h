@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int ThreadState_TypeDefinitionIndex = 2802;
+	inline static constexpr unsigned int ThreadState_TypeDefinitionIndex = 2801;
 
 	enum class ThreadState : ::System::Int32
 	{

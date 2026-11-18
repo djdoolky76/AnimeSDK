@@ -8,10 +8,10 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeVector_1_TypeDefinitionIndex = 8677;
+	inline static constexpr unsigned int NativeVector_1_TypeDefinitionIndex = 9112;
 
 	template <typename T>
-	struct NativeVector_1
+	struct alignas(8) NativeVector_1
 	{
 		::Foundation::Container::NativeVectorData_3<::Foundation::Container::EmptyUserData, T, ::Foundation::Native::RawPointer> _data; // 0x0
 		::Unity::Collections::Allocator m_AllocatorLabel; // 0x0

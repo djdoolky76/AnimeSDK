@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdConditionBase.h"
+#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
@@ -11,15 +11,15 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x106426A0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x106427C0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_LINK_OFFSET UNITYSDK_OFFSET(0x10642750)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x10642820)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x10642890)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0xE1C30E0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xE1C3200)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_LINK_OFFSET UNITYSDK_OFFSET(0xE1C3190)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0xE1C3260)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORCANDIDATECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xE1C32D0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_AttractorCandidateCondition_TypeDefinitionIndex = 87878;
+	inline static constexpr unsigned int VirtualProxy_AttractorCandidateCondition_TypeDefinitionIndex = 61837;
 
 	class VirtualProxy_AttractorCandidateCondition : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdConditionBase
 	{

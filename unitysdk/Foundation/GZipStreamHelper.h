@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_GZIPSTREAMHELPER_COMPRESS_OFFSET UNITYSDK_OFFSET(0x1F663580)
-#define FOUNDATION_GZIPSTREAMHELPER_DECOMPRESS_OFFSET UNITYSDK_OFFSET(0x1F663290)
+#define FOUNDATION_GZIPSTREAMHELPER_COMPRESS_OFFSET UNITYSDK_OFFSET(0x1F3DDE10)
+#define FOUNDATION_GZIPSTREAMHELPER_DECOMPRESS_OFFSET UNITYSDK_OFFSET(0x1F3DDB20)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int GZipStreamHelper_TypeDefinitionIndex = 8246;
+	inline static constexpr unsigned int GZipStreamHelper_TypeDefinitionIndex = 7860;
 
 	class GZipStreamHelper : public ::System::Object
 	{

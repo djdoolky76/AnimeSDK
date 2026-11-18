@@ -1,15 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
-#define CINEMACHINE_CONFINEROVEN_ASPECTSTRETCHER_GET_ASPECT_OFFSET UNITYSDK_OFFSET(0x324CC0)
-#define CINEMACHINE_CONFINEROVEN_ASPECTSTRETCHER_STRETCH_OFFSET UNITYSDK_OFFSET(0xAB5720)
-#define CINEMACHINE_CONFINEROVEN_ASPECTSTRETCHER_UNSTRETCH_OFFSET UNITYSDK_OFFSET(0xAB5750)
-#define CINEMACHINE_CONFINEROVEN_ASPECTSTRETCHER__CTOR_OFFSET UNITYSDK_OFFSET(0xAB5700)
+#define CINEMACHINE_CONFINEROVEN_ASPECTSTRETCHER_GET_ASPECT_OFFSET UNITYSDK_OFFSET(0x358A70)
+#define CINEMACHINE_CONFINEROVEN_ASPECTSTRETCHER_STRETCH_OFFSET UNITYSDK_OFFSET(0x99BA70)
+#define CINEMACHINE_CONFINEROVEN_ASPECTSTRETCHER_UNSTRETCH_OFFSET UNITYSDK_OFFSET(0x99BAA0)
+#define CINEMACHINE_CONFINEROVEN_ASPECTSTRETCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x99BA50)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int ConfinerOven_AspectStretcher_TypeDefinitionIndex = 34770;
+	inline static constexpr unsigned int ConfinerOven_AspectStretcher_TypeDefinitionIndex = 34316;
 
 	struct alignas(4) ConfinerOven_AspectStretcher
 	{
@@ -27,18 +28,14 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CONFINEROVEN_ASPECTSTRETCHER_GET_ASPECT_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::Vector2 Stretch(::UnityEngine::Vector2 p)
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CINEMACHINE_CONFINEROVEN_ASPECTSTRETCHER_STRETCH_OFFSET))(this, p);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector2 Unstretch(::UnityEngine::Vector2 p)
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CINEMACHINE_CONFINEROVEN_ASPECTSTRETCHER_UNSTRETCH_OFFSET))(this, p);
 		}
-		*/
 	};
 }

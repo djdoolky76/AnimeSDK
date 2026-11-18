@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_9A16BB53176B1EDB;
+class JNAHOHABAIC;
 
-#define MOLEMOLE_UIJOURNEYWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x189B1470)
+#define MOLEMOLE_UIJOURNEYWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x190320A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIJourneyWidgetContext_TypeDefinitionIndex = 80741;
+	inline static constexpr unsigned int UIJourneyWidgetContext_TypeDefinitionIndex = 90079;
 
 	class UIJourneyWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_9A16BB53176B1EDB* treeNode; // 0x28
+		::JNAHOHABAIC* treeNode; // 0x28
 
 		::System::Void _ctor()
 		{

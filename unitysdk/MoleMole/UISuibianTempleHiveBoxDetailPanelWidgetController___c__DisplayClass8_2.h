@@ -5,13 +5,14 @@
 
 namespace MoleMole { class UISuibianTempleHiveBoxDetailPanelWidgetController; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXDETAILPANELWIDGETCONTROLLER___C__DISPLAYCLASS8_2__BUILDVIEWMODELDATABINDING_B__11_OFFSET UNITYSDK_OFFSET(0x10EDAC40)
-#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXDETAILPANELWIDGETCONTROLLER___C__DISPLAYCLASS8_2__CTOR_OFFSET UNITYSDK_OFFSET(0x10EDAC30)
+#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXDETAILPANELWIDGETCONTROLLER___C__DISPLAYCLASS8_2__BUILDVIEWMODELDATABINDING_B__11_OFFSET UNITYSDK_OFFSET(0x13B05B90)
+#define MOLEMOLE_UISUIBIANTEMPLEHIVEBOXDETAILPANELWIDGETCONTROLLER___C__DISPLAYCLASS8_2__CTOR_OFFSET UNITYSDK_OFFSET(0x13B05B80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleHiveBoxDetailPanelWidgetController___c__DisplayClass8_2_TypeDefinitionIndex = 83133;
+	inline static constexpr unsigned int UISuibianTempleHiveBoxDetailPanelWidgetController___c__DisplayClass8_2_TypeDefinitionIndex = 79728;
 
+	template <typename T1, typename T2>
 	class UISuibianTempleHiveBoxDetailPanelWidgetController___c__DisplayClass8_2 : public ::System::Object
 	{
 	public:

@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int BinaryArrayTypeEnum_TypeDefinitionIndex = 1204;
+	inline static constexpr unsigned int BinaryArrayTypeEnum_TypeDefinitionIndex = 1203;
 
 	enum class BinaryArrayTypeEnum : ::System::Int32
 	{

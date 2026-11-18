@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IEKAMJMDCJG.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BJBHINKJBDM.h"
+#include "unitysdk/DCBBMOHJDOJ.h"
+#include "unitysdk/IKOBMGNNNNK.h"
+#include "unitysdk/MoleMole/Config/ConfigInteractionFanCylinder.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+#define MIELIBPNPGE_ACLHCBONOEC_OFFSET UNITYSDK_OFFSET(0x11A04880)
+#define MIELIBPNPGE_BBFALONAGNP_1_OFFSET UNITYSDK_OFFSET(0x11A043D0)
+#define MIELIBPNPGE_BBFALONAGNP_OFFSET UNITYSDK_OFFSET(0x11A042A0)
+#define MIELIBPNPGE_DHPFJFBNHFI_OFFSET UNITYSDK_OFFSET(0x11A04430)
+#define MIELIBPNPGE_ECCIHMOJKAD_OFFSET UNITYSDK_OFFSET(0x11A04250)
+#define MIELIBPNPGE_LAMLEOEMIFK_OFFSET UNITYSDK_OFFSET(0x11A04730)
+#define MIELIBPNPGE_NBDBCNHDEJJ_OFFSET UNITYSDK_OFFSET(0x11A04520)
+#define MIELIBPNPGE_NFLGLAKEKDF_OFFSET UNITYSDK_OFFSET(0x11A04980)
+
+inline static constexpr unsigned int MIELIBPNPGE_TypeDefinitionIndex = 56869;
+
+class MIELIBPNPGE : public ::System::Object
+{
+public:
+	// static const ::System::Single OHPFNGBGGFB; // 0x0
+
+	static ::System::Boolean ECCIHMOJKAD(::DCBBMOHJDOJ& NKCAFCIGECI, ::DCBBMOHJDOJ& LIAANNIHHMK)
+	{
+		return ((::System::Boolean(*)(::DCBBMOHJDOJ&, ::DCBBMOHJDOJ&))((::PBYTE)hIl2Cpp + MIELIBPNPGE_ECCIHMOJKAD_OFFSET))(NKCAFCIGECI, LIAANNIHHMK);
+	}
+
+	static ::System::Boolean BBFALONAGNP(::UnityEngine::Vector3& EGEGIMGMJHN)
+	{
+		return ((::System::Boolean(*)(::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + MIELIBPNPGE_BBFALONAGNP_OFFSET))(EGEGIMGMJHN);
+	}
+
+	static ::System::Boolean BBFALONAGNP_1(::System::Single EGEGIMGMJHN)
+	{
+		return ((::System::Boolean(*)(::System::Single))((::PBYTE)hIl2Cpp + MIELIBPNPGE_BBFALONAGNP_1_OFFSET))(EGEGIMGMJHN);
+	}
+
+	static ::System::Boolean DHPFJFBNHFI(::BJBHINKJBDM& ECCGHEFMJDA, ::IEKAMJMDCJG& FBCHENDDHHK)
+	{
+		return ((::System::Boolean(*)(::BJBHINKJBDM&, ::IEKAMJMDCJG&))((::PBYTE)hIl2Cpp + MIELIBPNPGE_DHPFJFBNHFI_OFFSET))(ECCGHEFMJDA, FBCHENDDHHK);
+	}
+
+	static ::System::Boolean LAMLEOEMIFK(::BJBHINKJBDM& ECCGHEFMJDA, ::DCBBMOHJDOJ& LIAANNIHHMK, ::System::Boolean& MOCODKOCJFH, ::IEKAMJMDCJG& FBCHENDDHHK)
+	{
+		return ((::System::Boolean(*)(::BJBHINKJBDM&, ::DCBBMOHJDOJ&, ::System::Boolean&, ::IEKAMJMDCJG&))((::PBYTE)hIl2Cpp + MIELIBPNPGE_LAMLEOEMIFK_OFFSET))(ECCGHEFMJDA, LIAANNIHHMK, MOCODKOCJFH, FBCHENDDHHK);
+	}
+
+	static ::System::Boolean ACLHCBONOEC(::IKOBMGNNNNK& HKNNDBGONAL, ::DCBBMOHJDOJ& LIAANNIHHMK)
+	{
+		return ((::System::Boolean(*)(::IKOBMGNNNNK&, ::DCBBMOHJDOJ&))((::PBYTE)hIl2Cpp + MIELIBPNPGE_ACLHCBONOEC_OFFSET))(HKNNDBGONAL, LIAANNIHHMK);
+	}
+
+	static ::System::Boolean NFLGLAKEKDF(::MoleMole::Config::ConfigInteractionFanCylinder& HODAIDNDKHD, ::IEKAMJMDCJG& FBCHENDDHHK)
+	{
+		return ((::System::Boolean(*)(::MoleMole::Config::ConfigInteractionFanCylinder&, ::IEKAMJMDCJG&))((::PBYTE)hIl2Cpp + MIELIBPNPGE_NFLGLAKEKDF_OFFSET))(HODAIDNDKHD, FBCHENDDHHK);
+	}
+
+	static ::System::Boolean NBDBCNHDEJJ(::IKOBMGNNNNK& MDLENCJJGKK, ::IEKAMJMDCJG& FBCHENDDHHK)
+	{
+		return ((::System::Boolean(*)(::IKOBMGNNNNK&, ::IEKAMJMDCJG&))((::PBYTE)hIl2Cpp + MIELIBPNPGE_NBDBCNHDEJJ_OFFSET))(MDLENCJJGKK, FBCHENDDHHK);
+	}
+};

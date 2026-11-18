@@ -6,9 +6,9 @@ class EffectWallPosConfig;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define TRAFFICLIGHTWALLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3EF170)
+#define TRAFFICLIGHTWALLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA05E30)
 
-inline static constexpr unsigned int TrafficLightWallConfig_TypeDefinitionIndex = 68139;
+inline static constexpr unsigned int TrafficLightWallConfig_TypeDefinitionIndex = 52818;
 
 class TrafficLightWallConfig : public ::System::Object
 {

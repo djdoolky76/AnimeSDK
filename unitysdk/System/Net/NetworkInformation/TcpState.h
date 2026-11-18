@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int TcpState_TypeDefinitionIndex = 3745;
+	inline static constexpr unsigned int TcpState_TypeDefinitionIndex = 3744;
 
 	enum class TcpState : ::System::Int32
 	{

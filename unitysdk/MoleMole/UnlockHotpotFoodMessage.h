@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_UNLOCKHOTPOTFOODMESSAGE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x114982F0)
-#define MOLEMOLE_UNLOCKHOTPOTFOODMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x114982E0)
+#define MOLEMOLE_UNLOCKHOTPOTFOODMESSAGE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x13C0AAA0)
+#define MOLEMOLE_UNLOCKHOTPOTFOODMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x13C0AA90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UnlockHotpotFoodMessage_TypeDefinitionIndex = 40333;
+	inline static constexpr unsigned int UnlockHotpotFoodMessage_TypeDefinitionIndex = 70795;
 
 	class UnlockHotpotFoodMessage : public ::MoleMole::DisplayMessageBase
 	{

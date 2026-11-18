@@ -4,26 +4,27 @@
 
 namespace System { class String; }
 
-#define HISTORIEDSTATS_ADD_OFFSET UNITYSDK_OFFSET(0x1565FD70)
-#define HISTORIEDSTATS_GET_MAX_OFFSET UNITYSDK_OFFSET(0x1565FF20)
-#define HISTORIEDSTATS_GET_MEAN_OFFSET UNITYSDK_OFFSET(0x1565FF00)
-#define HISTORIEDSTATS_GET_MIN_OFFSET UNITYSDK_OFFSET(0x1565FF40)
-#define HISTORIEDSTATS_RECALCIFDIRTY_OFFSET UNITYSDK_OFFSET(0x1565FE10)
-#define HISTORIEDSTATS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1565FF60)
-#define HISTORIEDSTATS__CTOR_OFFSET UNITYSDK_OFFSET(0x1565FD10)
-#define HISTORIEDSTATS___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15660070)
+#define HISTORIEDSTATS_ADD_OFFSET UNITYSDK_OFFSET(0x1012AA00)
+#define HISTORIEDSTATS_GET_MAX_OFFSET UNITYSDK_OFFSET(0x1012ABA0)
+#define HISTORIEDSTATS_GET_MEAN_OFFSET UNITYSDK_OFFSET(0x1012AB80)
+#define HISTORIEDSTATS_GET_MIN_OFFSET UNITYSDK_OFFSET(0x1012ABC0)
+#define HISTORIEDSTATS_RECALCIFDIRTY_OFFSET UNITYSDK_OFFSET(0x1012AAA0)
+#define HISTORIEDSTATS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1012ABE0)
+#define HISTORIEDSTATS__CTOR_OFFSET UNITYSDK_OFFSET(0x1012A9A0)
+#define HISTORIEDSTATS___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1012ACF0)
 
-inline static constexpr unsigned int HistoriedStats_TypeDefinitionIndex = 49994;
+inline static constexpr unsigned int HistoriedStats_TypeDefinitionIndex = 38854;
 
 class HistoriedStats : public ::System::Object
 {
 public:
 	::Il2CppArray<::System::Single>* m_History; // 0x10
-	::System::Single m_InvLength; // 0x18
-	::System::Single m_Max; // 0x1C
+	::System::Boolean m_Ready; // 0x18
+	::System::Byte _padding0[0x3];
+	::System::Single m_InvLength; // 0x1C
 	::System::Single m_Min; // 0x20
 	::System::Int32 m_LastIndex; // 0x24
-	::System::Boolean m_Ready; // 0x28
+	::System::Single m_Max; // 0x28
 	::System::Single m_Mean; // 0x2C
 
 	::System::Void _ctor(::System::UInt32 historyLength)

@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/BaseHollowCameraPredicate.h"
-#include "unitysdk/Struct_2_31FD36EFA5418B17.h"
+#include "unitysdk/IFNOIBOIGFM.h"
 
 namespace MoleMole::Config { class IHollowCameraPredicate; }
 
-#define MOLEMOLE_CONFIG_HOLLOWCAMERAPREDICATEOR_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1350DD40)
-#define MOLEMOLE_CONFIG_HOLLOWCAMERAPREDICATEOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1350DED0)
+#define MOLEMOLE_CONFIG_HOLLOWCAMERAPREDICATEOR_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B9335A0)
+#define MOLEMOLE_CONFIG_HOLLOWCAMERAPREDICATEOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B933730)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowCameraPredicateOr_TypeDefinitionIndex = 83766;
+	inline static constexpr unsigned int HollowCameraPredicateOr_TypeDefinitionIndex = 48505;
 
 	class HollowCameraPredicateOr : public ::MoleMole::Config::BaseHollowCameraPredicate
 	{
@@ -22,9 +22,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOLLOWCAMERAPREDICATEOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Evaluate(::Struct_2_31FD36EFA5418B17& info)
+		::System::Boolean Evaluate(::IFNOIBOIGFM& info)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Struct_2_31FD36EFA5418B17&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOLLOWCAMERAPREDICATEOR_EVALUATE_OFFSET))(this, info);
+			return ((::System::Boolean(*)(::PVOID, ::IFNOIBOIGFM&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HOLLOWCAMERAPREDICATEOR_EVALUATE_OFFSET))(this, info);
 		}
 	};
 }

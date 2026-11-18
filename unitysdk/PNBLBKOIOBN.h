@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GGOGEJEONBA.h"
+#include "unitysdk/PJIOEHPHKEH.h"
+
+#define PNBLBKOIOBN_ABBKJEFHPDI_OFFSET UNITYSDK_OFFSET(0x1D1F5790)
+#define PNBLBKOIOBN_NDNNHNNEEMH_OFFSET UNITYSDK_OFFSET(0x1D1F5810)
+#define PNBLBKOIOBN_OBIMIBMFMAK_OFFSET UNITYSDK_OFFSET(0x1D1F57C0)
+#define PNBLBKOIOBN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F57A0)
+
+inline static constexpr unsigned int PNBLBKOIOBN_TypeDefinitionIndex = 77323;
+
+class PNBLBKOIOBN : public ::GGOGEJEONBA
+{
+public:
+	::PJIOEHPHKEH _KIPNAMCILNE_k__BackingField; // 0x18
+
+	::System::Void _ctor(::PJIOEHPHKEH GHKODLADNAA)
+	{
+		return ((::System::Void(*)(::PVOID, ::PJIOEHPHKEH))((::PBYTE)hIl2Cpp + PNBLBKOIOBN__CTOR_OFFSET))(this, GHKODLADNAA);
+	}
+
+	::PJIOEHPHKEH ABBKJEFHPDI()
+	{
+		return ((::PJIOEHPHKEH(*)(::PVOID))((::PBYTE)hIl2Cpp + PNBLBKOIOBN_ABBKJEFHPDI_OFFSET))(this);
+	}
+
+	::System::Void OBIMIBMFMAK(::PJIOEHPHKEH GHKODLADNAA)
+	{
+		return ((::System::Void(*)(::PVOID, ::PJIOEHPHKEH))((::PBYTE)hIl2Cpp + PNBLBKOIOBN_OBIMIBMFMAK_OFFSET))(this, GHKODLADNAA);
+	}
+
+	::System::Void NDNNHNNEEMH(::PJIOEHPHKEH EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::PJIOEHPHKEH))((::PBYTE)hIl2Cpp + PNBLBKOIOBN_NDNNHNNEEMH_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

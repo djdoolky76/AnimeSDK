@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/AnimatorEvent.h"
+#include "unitysdk/ONNJLBKOEDN_IINOJMFDFJA.h"
+
+class NLNIIPDCABP;
+namespace MoleMole::Battle { class Entity; }
+namespace MoleMole::Config { class AnimatorEventEntry; }
+namespace System { class String; }
+
+#define OGONFCFNHEB_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0xE14EAE0)
+#define OGONFCFNHEB_FMHAMBGPKBD_OFFSET UNITYSDK_OFFSET(0xE14E700)
+#define OGONFCFNHEB_GKGODFLGGCL_OFFSET UNITYSDK_OFFSET(0xE14E960)
+#define OGONFCFNHEB_HPFIJKDELAG_OFFSET UNITYSDK_OFFSET(0xE14E8D0)
+#define OGONFCFNHEB_KFEDENLCCKN_OFFSET UNITYSDK_OFFSET(0xE14EA40)
+#define OGONFCFNHEB_LBOMMOLFGFA_OFFSET UNITYSDK_OFFSET(0xE14E7D0)
+#define OGONFCFNHEB_LEMPLMPEPNG_OFFSET UNITYSDK_OFFSET(0xE14E180)
+#define OGONFCFNHEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE14E0F0)
+#define OGONFCFNHEB__CTOR_OFFSET UNITYSDK_OFFSET(0xE14E8C0)
+
+inline static constexpr unsigned int OGONFCFNHEB_TypeDefinitionIndex = 60465;
+
+class OGONFCFNHEB : public ::MoleMole::Config::AnimatorEvent
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OGONFCFNHEB__CTOR_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + OGONFCFNHEB_TOSTRING_OFFSET))(this);
+	}
+
+	::System::Void LEMPLMPEPNG(::MoleMole::Battle::Entity* KECKGDFIALJ, ::NLNIIPDCABP* FNFNDIBMPDE, ::System::Single KDEHMPGOCEP, ::System::Single PADJNMGMGHO, ::System::Single KGIGMHCDOCF, ::ONNJLBKOEDN_IINOJMFDFJA FCHEPGPLFJG)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::NLNIIPDCABP*, ::System::Single, ::System::Single, ::System::Single, ::ONNJLBKOEDN_IINOJMFDFJA))((::PBYTE)hIl2Cpp + OGONFCFNHEB_LEMPLMPEPNG_OFFSET))(this, KECKGDFIALJ, FNFNDIBMPDE, KDEHMPGOCEP, PADJNMGMGHO, KGIGMHCDOCF, FCHEPGPLFJG);
+	}
+
+	::MoleMole::Config::AnimatorEventEntry* FMHAMBGPKBD()
+	{
+		return ((::MoleMole::Config::AnimatorEventEntry*(*)(::PVOID))((::PBYTE)hIl2Cpp + OGONFCFNHEB_FMHAMBGPKBD_OFFSET))(this);
+	}
+
+	::System::Void LBOMMOLFGFA(::MoleMole::Config::AnimatorEventEntry* AAIJGGIEOGK, ::System::String* NLIIIFNFKLK, ::System::String* IDKCFBPCECO)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEntry*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + OGONFCFNHEB_LBOMMOLFGFA_OFFSET))(this, AAIJGGIEOGK, NLIIIFNFKLK, IDKCFBPCECO);
+	}
+
+	::MoleMole::Config::AnimatorEventEntry* HPFIJKDELAG()
+	{
+		return ((::MoleMole::Config::AnimatorEventEntry*(*)(::PVOID))((::PBYTE)hIl2Cpp + OGONFCFNHEB_HPFIJKDELAG_OFFSET))(this);
+	}
+
+	::System::Void GKGODFLGGCL(::MoleMole::Battle::Entity* MIALFKCCCPI, ::NLNIIPDCABP* KMGKAIDEIBA, ::System::Single FDHMCIFPNCK, ::System::Single MPBJAGIKPJM, ::System::Single DDMDINPGCFI, ::ONNJLBKOEDN_IINOJMFDFJA CEIDLKIHMLC)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::NLNIIPDCABP*, ::System::Single, ::System::Single, ::System::Single, ::ONNJLBKOEDN_IINOJMFDFJA))((::PBYTE)hIl2Cpp + OGONFCFNHEB_GKGODFLGGCL_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM, DDMDINPGCFI, CEIDLKIHMLC);
+	}
+
+	::System::Void KFEDENLCCKN(::MoleMole::Config::AnimatorEventEntry* MIALFKCCCPI, ::System::String* KMGKAIDEIBA, ::System::String* FDHMCIFPNCK)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::AnimatorEventEntry*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + OGONFCFNHEB_KFEDENLCCKN_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
+	}
+
+	::System::String* DPIHOJBBGLA()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + OGONFCFNHEB_DPIHOJBBGLA_OFFSET))(this);
+	}
+};

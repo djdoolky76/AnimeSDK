@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 #include "unitysdk/MoleMole/FlowCanvas/HackerGameNpcDamageType.h"
 
 namespace MoleMole { class ChessEntity; }
 namespace MoleMole { class HackerGameBaseDamage; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCGETDAMAGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A7FA80)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCGETDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A7FB40)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCGETDAMAGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465A290)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCGETDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1465A350)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameNpcGetDamage_TypeDefinitionIndex = 83478;
+	inline static constexpr unsigned int HackerGameNpcGetDamage_TypeDefinitionIndex = 80146;
 
-	class HackerGameNpcGetDamage : public ::FlowCanvas::Nodes::PureFunctionNode_3<::MoleMole::HackerGameBaseDamage*, ::MoleMole::ChessEntity*, ::MoleMole::FlowCanvas::HackerGameNpcDamageType>
+	class HackerGameNpcGetDamage
 	{
 	public:
 		::System::Void _ctor()

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONLOOKATIKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x11291A20)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONLOOKATIKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x11FB12C0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCPUAnimationLookAtIKParam_TypeDefinitionIndex = 56335;
+	inline static constexpr unsigned int NPCCPUAnimationLookAtIKParam_TypeDefinitionIndex = 87009;
 
 	class NPCCPUAnimationLookAtIKParam : public ::System::Object
 	{
@@ -20,6 +20,7 @@ namespace NPCCrowd::Animation
 		::System::Single clampWeightHead; // 0x20
 		::System::Single clampWeightEyes; // 0x24
 		::System::Int32 clampSmoothing; // 0x28
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* spineWeightCurve; // 0x30
 
 		::System::Void _ctor()

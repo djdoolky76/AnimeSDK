@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/HID/HID_GenericDesktop.h"
-#include "unitysdk/UnityEngine/InputSystem/HID/HID_HIDCollectionDescriptor.h"
-#include "unitysdk/UnityEngine/InputSystem/HID/HID_HIDElementDescriptor.h"
 #include "unitysdk/UnityEngine/InputSystem/HID/HID_HIDReportType.h"
 #include "unitysdk/UnityEngine/InputSystem/HID/HID_UsagePage.h"
+#include "unitysdk/UnityEngine/InputSystem/HID/HID_HIDDeviceDescriptor.h"
 
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_ADDELEMENT_1_OFFSET UNITYSDK_OFFSET(0xA65C70)
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_ADDELEMENT_OFFSET UNITYSDK_OFFSET(0xA65C40)
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_FINISH_OFFSET UNITYSDK_OFFSET(0xA65D10)
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_STARTREPORT_OFFSET UNITYSDK_OFFSET(0xA65BF0)
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_WITHLOGICALMINMAX_OFFSET UNITYSDK_OFFSET(0xA65CF0)
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_WITHPHYSICALMINMAX_OFFSET UNITYSDK_OFFSET(0xA65CD0)
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA65BD0)
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0xA65BB0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_ADDELEMENT_1_OFFSET UNITYSDK_OFFSET(0x946050)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_ADDELEMENT_OFFSET UNITYSDK_OFFSET(0x946020)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_FINISH_OFFSET UNITYSDK_OFFSET(0x9460F0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_STARTREPORT_OFFSET UNITYSDK_OFFSET(0x945FD0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_WITHLOGICALMINMAX_OFFSET UNITYSDK_OFFSET(0x9460D0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_WITHPHYSICALMINMAX_OFFSET UNITYSDK_OFFSET(0x9460B0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x945FB0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x945F90)
 
 namespace UnityEngine::InputSystem::HID
 {
-	inline static constexpr unsigned int HID_HIDDeviceDescriptorBuilder_TypeDefinitionIndex = 32415;
+	inline static constexpr unsigned int HID_HIDDeviceDescriptorBuilder_TypeDefinitionIndex = 31864;
 
 	struct alignas(8) HID_HIDDeviceDescriptorBuilder
 	{
@@ -29,8 +29,9 @@ namespace UnityEngine::InputSystem::HID
 		::System::Int32 m_CurrentReportId; // 0x18
 		::UnityEngine::InputSystem::HID::HID_HIDReportType m_CurrentReportType; // 0x1C
 		::System::Int32 m_CurrentReportOffsetInBits; // 0x20
-		::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>* m_Elements; // 0x28
-		::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::HID_HIDCollectionDescriptor>* m_Collections; // 0x30
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* m_Elements; // 0x28
+		::System::Collections::Generic::List_1<::System::Object*>* m_Collections; // 0x30
 		::System::Int32 m_InputReportSize; // 0x38
 		::System::Int32 m_OutputReportSize; // 0x3C
 		::System::Int32 m_FeatureReportSize; // 0x40
@@ -45,36 +46,44 @@ namespace UnityEngine::InputSystem::HID
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::HID::HID_GenericDesktop))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER__CTOR_1_OFFSET))(this, usage);
 		}
 
+		/*
 		::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder StartReport(::UnityEngine::InputSystem::HID::HID_HIDReportType reportType, ::System::Int32 reportId)
 		{
 			return ((::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder(*)(::PVOID, ::UnityEngine::InputSystem::HID::HID_HIDReportType, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_STARTREPORT_OFFSET))(this, reportType, reportId);
 		}
+		*/
 
+		/*
 		::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder AddElement(::UnityEngine::InputSystem::HID::HID_UsagePage usagePage, ::System::Int32 usage, ::System::Int32 sizeInBits)
 		{
 			return ((::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder(*)(::PVOID, ::UnityEngine::InputSystem::HID::HID_UsagePage, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_ADDELEMENT_OFFSET))(this, usagePage, usage, sizeInBits);
 		}
+		*/
 
+		/*
 		::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder AddElement_1(::UnityEngine::InputSystem::HID::HID_GenericDesktop usage, ::System::Int32 sizeInBits)
 		{
 			return ((::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder(*)(::PVOID, ::UnityEngine::InputSystem::HID::HID_GenericDesktop, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_ADDELEMENT_1_OFFSET))(this, usage, sizeInBits);
 		}
+		*/
 
+		/*
 		::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder WithPhysicalMinMax(::System::Int32 min, ::System::Int32 max)
 		{
 			return ((::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_WITHPHYSICALMINMAX_OFFSET))(this, min, max);
 		}
+		*/
 
+		/*
 		::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder WithLogicalMinMax(::System::Int32 min, ::System::Int32 max)
 		{
 			return ((::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_WITHLOGICALMINMAX_OFFSET))(this, min, max);
 		}
+		*/
 
-		/*
 		::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor Finish()
 		{
 			return ((::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_HID_HID_HIDDEVICEDESCRIPTORBUILDER_FINISH_OFFSET))(this);
 		}
-		*/
 	};
 }

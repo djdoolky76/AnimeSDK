@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoMaskSlider_AnimStyle_TypeDefinitionIndex = 77206;
+	inline static constexpr unsigned int MonoMaskSlider_AnimStyle_TypeDefinitionIndex = 62472;
 
 	enum class MonoMaskSlider_AnimStyle : ::System::Int32
 	{
-		FullSpreadThenLoop = 0,
 		CustomControl = 1,
+		FullSpreadThenLoop = 0,
 	};
 }

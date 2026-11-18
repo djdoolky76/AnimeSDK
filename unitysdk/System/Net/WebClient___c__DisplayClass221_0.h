@@ -8,12 +8,12 @@ namespace System::Net { class OpenReadCompletedEventHandler; }
 namespace System::Net { class WebClient; }
 namespace System::Threading::Tasks { template <typename T> class TaskCompletionSource_1; }
 
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS221_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8953A0)
-#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS221_0__OPENREADTASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1C8972A0)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS221_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD5B80)
+#define SYSTEM_NET_WEBCLIENT___C__DISPLAYCLASS221_0__OPENREADTASKASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1CFD7A80)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebClient___c__DisplayClass221_0_TypeDefinitionIndex = 3448;
+	inline static constexpr unsigned int WebClient___c__DisplayClass221_0_TypeDefinitionIndex = 3447;
 
 	class WebClient___c__DisplayClass221_0 : public ::System::Object
 	{

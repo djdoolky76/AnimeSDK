@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELQUERYPARAMS_TOJSONWITHREQUESTID_OFFSET UNITYSDK_OFFSET(0x1C7D3A50)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELQUERYPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1C7D3A40)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELQUERYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D3A60)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELQUERYPARAMS_TOJSONWITHREQUESTID_OFFSET UNITYSDK_OFFSET(0x1CAE1E90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELQUERYPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1CAE1E80)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELQUERYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAE1EA0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelQueryParams_TypeDefinitionIndex = 20697;
+	inline static constexpr unsigned int HoYoChannelQueryParams_TypeDefinitionIndex = 19895;
 
 	class HoYoChannelQueryParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{
 	public:
-		::System::String* key; // 0x18
+		::System::String* key; // 0x20
 
 		::System::Void _ctor()
 		{

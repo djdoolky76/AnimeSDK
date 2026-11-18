@@ -8,14 +8,16 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int FootPrintConfigData_TypeDefinitionIndex = 26888;
+	inline static constexpr unsigned int FootPrintConfigData_TypeDefinitionIndex = 27170;
 
 	struct alignas(8) FootPrintConfigData
 	{
 		::System::Single offset; // 0x10
 		::System::Boolean isLocalOffset; // 0x14
+		::System::Byte _padding0[0x3];
 		::System::Single size; // 0x18
 		::System::Boolean enableSpecialConfig; // 0x1C
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector4 scaleOffset; // 0x20
 		::UnityEngine::Vector2 extraOffset; // 0x30
 		::UnityEngine::Material* material; // 0x38

@@ -3,18 +3,18 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIZenkovRoulettBtnWidgetController_Context_EMode.h"
 
-class Class_0_16E4307DCC419505_427;
+class MNGHPGONOEL;
 
-#define MOLEMOLE_UIZENKOVROULETTBTNWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10AF8640)
+#define MOLEMOLE_UIZENKOVROULETTBTNWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1671CD50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovRoulettBtnWidgetController_Context_TypeDefinitionIndex = 56571;
+	inline static constexpr unsigned int UIZenkovRoulettBtnWidgetController_Context_TypeDefinitionIndex = 56623;
 
 	class UIZenkovRoulettBtnWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_0_16E4307DCC419505_427* Data; // 0x28
+		::MNGHPGONOEL* Data; // 0x28
 		::MoleMole::UIZenkovRoulettBtnWidgetController_Context_EMode Mode; // 0x30
 
 		::System::Void _ctor()

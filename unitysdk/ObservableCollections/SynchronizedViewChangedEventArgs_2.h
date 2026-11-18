@@ -5,16 +5,16 @@
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int SynchronizedViewChangedEventArgs_2_TypeDefinitionIndex = 28800;
+	inline static constexpr unsigned int SynchronizedViewChangedEventArgs_2_TypeDefinitionIndex = 28249;
 
-	template <typename T, typename TView>
-	struct SynchronizedViewChangedEventArgs_2
+	template <typename T1, typename T2>
+	struct alignas(8) SynchronizedViewChangedEventArgs_2
 	{
 		::System::Collections::Specialized::NotifyCollectionChangedAction Action; // 0x0
-		T NewValue; // 0x0
-		T OldValue; // 0x0
-		TView NewView; // 0x0
-		TView OldView; // 0x0
+		T1 NewValue; // 0x0
+		T1 OldValue; // 0x0
+		T2 NewView; // 0x0
+		T2 OldView; // 0x0
 		::System::Int32 NewViewIndex; // 0x0
 		::System::Int32 OldViewIndex; // 0x0
 	};

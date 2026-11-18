@@ -6,11 +6,12 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ComponentMaskFilter_ComplexMask_TypeDefinitionIndex = 38046;
+	inline static constexpr unsigned int ComponentMaskFilter_ComplexMask_TypeDefinitionIndex = 35980;
 
-	struct alignas(8) ComponentMaskFilter_ComplexMask
+	struct alignas(4) ComponentMaskFilter_ComplexMask
 	{
 		::Nap::NapECS::ComponentAccessFilterMode Mode; // 0x10
+		::System::Byte _padding0[0x4];
 		::Nap::NapECS::ComponentMask Mask; // 0x18
 	};
 }

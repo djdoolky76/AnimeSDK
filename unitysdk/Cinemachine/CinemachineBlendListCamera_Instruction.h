@@ -7,12 +7,13 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBlendListCamera_Instruction_TypeDefinitionIndex = 34642;
+	inline static constexpr unsigned int CinemachineBlendListCamera_Instruction_TypeDefinitionIndex = 34188;
 
 	struct alignas(8) CinemachineBlendListCamera_Instruction
 	{
 		::Cinemachine::CinemachineVirtualCameraBase* m_VirtualCamera; // 0x10
 		::System::Single m_Hold; // 0x18
+		::System::Byte _padding0[0x4];
 		::Cinemachine::CinemachineBlendDefinition m_Blend; // 0x20
 	};
 }

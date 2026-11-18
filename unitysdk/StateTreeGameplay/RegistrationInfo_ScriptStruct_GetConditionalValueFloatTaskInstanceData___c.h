@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETCONDITIONALVALUEFLOATTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC67510)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETCONDITIONALVALUEFLOATTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC67550)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETCONDITIONALVALUEFLOATTASKINSTANCEDATA___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1EC67560)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETCONDITIONALVALUEFLOATTASKINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBC4EB0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETCONDITIONALVALUEFLOATTASKINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC4EF0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_GETCONDITIONALVALUEFLOATTASKINSTANCEDATA___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1EBC4F00)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData___c_TypeDefinitionIndex = 58466;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData___c_TypeDefinitionIndex = 83035;
 
 	class RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData___c : public ::System::Object
 	{
 	public:
-		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x479B0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_GetConditionalValueFloatTaskInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x47A20);
 		}
 
 		static ::System::Void _cctor()

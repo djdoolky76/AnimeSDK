@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace NodeCanvas::Framework::Internal { class BlackboardSource; }
 
-#define MESSAGEPACK_FORMATTERS_BLACKBOARDSOURCE_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E724F70)
-#define MESSAGEPACK_FORMATTERS_BLACKBOARDSOURCE_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E724E00)
-#define MESSAGEPACK_FORMATTERS_BLACKBOARDSOURCE_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7250E0)
+#define MESSAGEPACK_FORMATTERS_BLACKBOARDSOURCE_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E9CA280)
+#define MESSAGEPACK_FORMATTERS_BLACKBOARDSOURCE_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E9CA110)
+#define MESSAGEPACK_FORMATTERS_BLACKBOARDSOURCE_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9CA3F0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int BlackboardSource_Formatter_TypeDefinitionIndex = 31074;
+	inline static constexpr unsigned int BlackboardSource_Formatter_TypeDefinitionIndex = 29507;
 
 	class BlackboardSource_Formatter : public ::System::Object
 	{

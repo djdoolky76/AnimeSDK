@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/ObjectModel/Collection_1.h"
 
 namespace System { class String; }
 namespace System::Net::Mail { class MailAddress; }
 
-#define SYSTEM_NET_MAIL_MAILADDRESSCOLLECTION_ADD_OFFSET UNITYSDK_OFFSET(0x1C880ED0)
-#define SYSTEM_NET_MAIL_MAILADDRESSCOLLECTION_INSERTITEM_OFFSET UNITYSDK_OFFSET(0x1C880FF0)
-#define SYSTEM_NET_MAIL_MAILADDRESSCOLLECTION_SETITEM_OFFSET UNITYSDK_OFFSET(0x1C881070)
-#define SYSTEM_NET_MAIL_MAILADDRESSCOLLECTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C8810F0)
-#define SYSTEM_NET_MAIL_MAILADDRESSCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C881380)
+#define SYSTEM_NET_MAIL_MAILADDRESSCOLLECTION_ADD_OFFSET UNITYSDK_OFFSET(0x1CFC1690)
+#define SYSTEM_NET_MAIL_MAILADDRESSCOLLECTION_INSERTITEM_OFFSET UNITYSDK_OFFSET(0x1CFC17B0)
+#define SYSTEM_NET_MAIL_MAILADDRESSCOLLECTION_SETITEM_OFFSET UNITYSDK_OFFSET(0x1CFC1830)
+#define SYSTEM_NET_MAIL_MAILADDRESSCOLLECTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CFC18B0)
+#define SYSTEM_NET_MAIL_MAILADDRESSCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC1B40)
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int MailAddressCollection_TypeDefinitionIndex = 3588;
+	inline static constexpr unsigned int MailAddressCollection_TypeDefinitionIndex = 3587;
 
-	class MailAddressCollection : public ::System::Collections::ObjectModel::Collection_1<::System::Net::Mail::MailAddress*>
+	class MailAddressCollection
 	{
 	public:
 		::System::Void _ctor()

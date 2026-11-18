@@ -3,18 +3,21 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/MoleMole/ZNet/MouseOrbit_AKPILIPLHHJ.h"
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_ZNET_MOUSEORBIT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x112EAC60)
-#define MOLEMOLE_ZNET_MOUSEORBIT_METHOD_5_B2E1F4B7BD95D0F7_OFFSET UNITYSDK_OFFSET(0x112EB210)
-#define MOLEMOLE_ZNET_MOUSEORBIT_METHOD_5_B7F8E0B4AF22DEA3_OFFSET UNITYSDK_OFFSET(0x112EB2E0)
-#define MOLEMOLE_ZNET_MOUSEORBIT_START_OFFSET UNITYSDK_OFFSET(0x112EA950)
-#define MOLEMOLE_ZNET_MOUSEORBIT__CTOR_OFFSET UNITYSDK_OFFSET(0x112EB710)
+#define MOLEMOLE_ZNET_MOUSEORBIT_CAPTUREORBITSTATE_OFFSET UNITYSDK_OFFSET(0x1058F860)
+#define MOLEMOLE_ZNET_MOUSEORBIT_DAFLHFGODJM_OFFSET UNITYSDK_OFFSET(0x10590340)
+#define MOLEMOLE_ZNET_MOUSEORBIT_HIINMKGPMFE_OFFSET UNITYSDK_OFFSET(0x1058F960)
+#define MOLEMOLE_ZNET_MOUSEORBIT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1058FD90)
+#define MOLEMOLE_ZNET_MOUSEORBIT_RESTOREORBITSTATE_OFFSET UNITYSDK_OFFSET(0x1058F8E0)
+#define MOLEMOLE_ZNET_MOUSEORBIT_START_OFFSET UNITYSDK_OFFSET(0x1058F550)
+#define MOLEMOLE_ZNET_MOUSEORBIT__CTOR_OFFSET UNITYSDK_OFFSET(0x10590410)
 
 namespace MoleMole::ZNet
 {
-	inline static constexpr unsigned int MouseOrbit_TypeDefinitionIndex = 41448;
+	inline static constexpr unsigned int MouseOrbit_TypeDefinitionIndex = 69737;
 
 	class MouseOrbit : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,10 +28,10 @@ namespace MoleMole::ZNet
 		::System::Single ySpeed; // 0x28
 		::System::Single yMinLimit; // 0x2C
 		::System::Single yMaxLimit; // 0x30
-		::System::Single Field_5_5; // 0x34
-		::System::Single Field_5_4; // 0x38
-		::UnityEngine::Vector3 Field_5_11; // 0x3C
-		::UnityEngine::Quaternion Field_5_10; // 0x48
+		::System::Single HAAEBCOBKFF; // 0x34
+		::System::Single BFMMEICFNCD; // 0x38
+		::UnityEngine::Vector3 CEOFPLEPPEG; // 0x3C
+		::UnityEngine::Quaternion GDCMEKLODPA; // 0x48
 
 		::System::Void _ctor()
 		{
@@ -40,19 +43,29 @@ namespace MoleMole::ZNet
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_MOUSEORBIT_START_OFFSET))(this);
 		}
 
+		::MoleMole::ZNet::MouseOrbit_AKPILIPLHHJ CaptureOrbitState()
+		{
+			return ((::MoleMole::ZNet::MouseOrbit_AKPILIPLHHJ(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_MOUSEORBIT_CAPTUREORBITSTATE_OFFSET))(this);
+		}
+
+		::System::Void RestoreOrbitState(::MoleMole::ZNet::MouseOrbit_AKPILIPLHHJ JKBLDFBGBPK)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::ZNet::MouseOrbit_AKPILIPLHHJ))((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_MOUSEORBIT_RESTOREORBITSTATE_OFFSET))(this, JKBLDFBGBPK);
+		}
+
 		::System::Void LateUpdate()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_MOUSEORBIT_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B7F8E0B4AF22DEA3()
+		static ::System::Single DAFLHFGODJM(::System::Single ELHMOANKHFM, ::System::Single GDBANLBHNJK, ::System::Single DNFNKBNBJHM)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_MOUSEORBIT_METHOD_5_B7F8E0B4AF22DEA3_OFFSET))(this);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_MOUSEORBIT_DAFLHFGODJM_OFFSET))(ELHMOANKHFM, GDBANLBHNJK, DNFNKBNBJHM);
 		}
 
-		static ::System::Single Method_5_B2E1F4B7BD95D0F7(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		::System::Void HIINMKGPMFE()
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_MOUSEORBIT_METHOD_5_B2E1F4B7BD95D0F7_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ZNET_MOUSEORBIT_HIINMKGPMFE_OFFSET))(this);
 		}
 	};
 }

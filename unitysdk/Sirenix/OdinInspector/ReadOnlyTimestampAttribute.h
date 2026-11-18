@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_READONLYTIMESTAMPATTRIBUTE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1D5AD580)
-#define SIRENIX_ODININSPECTOR_READONLYTIMESTAMPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AD590)
+#define SIRENIX_ODININSPECTOR_READONLYTIMESTAMPATTRIBUTE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1D757650)
+#define SIRENIX_ODININSPECTOR_READONLYTIMESTAMPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D757660)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ReadOnlyTimestampAttribute_TypeDefinitionIndex = 8090;
+	inline static constexpr unsigned int ReadOnlyTimestampAttribute_TypeDefinitionIndex = 8415;
 
 	class ReadOnlyTimestampAttribute : public ::Sirenix::OdinInspector::ShowInInspectorAttribute
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int DtdProcessing_TypeDefinitionIndex = 1681;
+	inline static constexpr unsigned int DtdProcessing_TypeDefinitionIndex = 1680;
 
 	enum class DtdProcessing : ::System::Int32
 	{

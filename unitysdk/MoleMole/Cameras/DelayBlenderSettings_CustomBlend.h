@@ -6,9 +6,9 @@
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int DelayBlenderSettings_CustomBlend_TypeDefinitionIndex = 69007;
+	inline static constexpr unsigned int DelayBlenderSettings_CustomBlend_TypeDefinitionIndex = 56219;
 
-	struct alignas(8) DelayBlenderSettings_CustomBlend
+	struct alignas(4) DelayBlenderSettings_CustomBlend
 	{
 		::MoleMole::Config::CameraDelayMoveMode m_From; // 0x10
 		::MoleMole::Config::CameraDelayMoveMode m_To; // 0x14

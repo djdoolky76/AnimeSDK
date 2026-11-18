@@ -3,14 +3,14 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int NPCSinglePlayableAnimLayer_TypeDefinitionIndex = 69556;
+	inline static constexpr unsigned int NPCSinglePlayableAnimLayer_TypeDefinitionIndex = 55239;
 
 	enum class NPCSinglePlayableAnimLayer : ::System::Int32
 	{
-		BlendShape = 2,
-		Base = 0,
 		UpperBody = 1,
-		Eyes = 3,
+		Base = 0,
+		BlendShape = 2,
 		Count = 4,
+		Eyes = 3,
 	};
 }

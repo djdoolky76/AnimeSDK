@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace NodeCanvas::StateMachines { class FSM; }
-namespace NodeCanvas::StateMachines { class FSMOwner; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_SWITCHFSM_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1DB37380)
-#define NODECANVAS_TASKS_ACTIONS_SWITCHFSM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1DB373F0)
-#define NODECANVAS_TASKS_ACTIONS_SWITCHFSM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB37520)
+#define NODECANVAS_TASKS_ACTIONS_SWITCHFSM_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1DEAA210)
+#define NODECANVAS_TASKS_ACTIONS_SWITCHFSM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1DEAA280)
+#define NODECANVAS_TASKS_ACTIONS_SWITCHFSM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAA3B0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SwitchFSM_TypeDefinitionIndex = 30274;
+	inline static constexpr unsigned int SwitchFSM_TypeDefinitionIndex = 30036;
 
-	class SwitchFSM : public ::NodeCanvas::Framework::ActionTask_1<::NodeCanvas::StateMachines::FSMOwner*>
+	class SwitchFSM
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::StateMachines::FSM*>* fsm; // 0x60

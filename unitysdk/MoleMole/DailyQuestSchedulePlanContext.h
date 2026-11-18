@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_7C378C8BB7097B16;
+class LHFKDABLFJN;
 
-#define MOLEMOLE_DAILYQUESTSCHEDULEPLANCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A94EB30)
+#define MOLEMOLE_DAILYQUESTSCHEDULEPLANCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C6270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int DailyQuestSchedulePlanContext_TypeDefinitionIndex = 52832;
+	inline static constexpr unsigned int DailyQuestSchedulePlanContext_TypeDefinitionIndex = 50400;
 
 	class DailyQuestSchedulePlanContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_7C378C8BB7097B16* Quest; // 0x28
+		::LHFKDABLFJN* Quest; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class IABDNEPGONN;
+class IABDNEPGONN_LKHFKKJLAGA;
+class LNAIJNGBMPO;
+
+#define HHDIKPCLDAH_HDPFBLOILMJ_OFFSET UNITYSDK_OFFSET(0x17E49680)
+
+inline static constexpr unsigned int HHDIKPCLDAH_TypeDefinitionIndex = 44262;
+
+struct alignas(4) HHDIKPCLDAH
+{
+	static ::IABDNEPGONN_LKHFKKJLAGA* HDPFBLOILMJ(::IABDNEPGONN* DHFMNIHHFNF, ::LNAIJNGBMPO*& KANJODNFFOI)
+	{
+		return ((::IABDNEPGONN_LKHFKKJLAGA*(*)(::IABDNEPGONN*, ::LNAIJNGBMPO*&))((::PBYTE)hIl2Cpp + HHDIKPCLDAH_HDPFBLOILMJ_OFFSET))(DHFMNIHHFNF, KANJODNFFOI);
+	}
+};

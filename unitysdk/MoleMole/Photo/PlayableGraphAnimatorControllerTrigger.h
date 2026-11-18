@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Photo/PlayableGraphAnimatorControllerSingleParameter.h"
-#include "unitysdk/Struct_2_3220F690C6BCA251.h"
+#include "unitysdk/GLMBIOOIKHO.h"
 #include "unitysdk/UnityEngine/Animations/AnimatorControllerPlayable.h"
 
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERTRIGGER_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x13ACEE50)
-#define MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x13ACEF00)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERTRIGGER_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x146A7AB0)
+#define MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x146A7B60)
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int PlayableGraphAnimatorControllerTrigger_TypeDefinitionIndex = 42645;
+	inline static constexpr unsigned int PlayableGraphAnimatorControllerTrigger_TypeDefinitionIndex = 90805;
 
 	class PlayableGraphAnimatorControllerTrigger : public ::MoleMole::Photo::PlayableGraphAnimatorControllerSingleParameter
 	{
@@ -19,9 +19,9 @@ namespace MoleMole::Photo
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERTRIGGER__CTOR_OFFSET))(this);
 		}
 
-		::Struct_2_3220F690C6BCA251 Instantiate(::UnityEngine::Animations::AnimatorControllerPlayable controller)
+		::GLMBIOOIKHO Instantiate(::UnityEngine::Animations::AnimatorControllerPlayable controller)
 		{
-			return ((::Struct_2_3220F690C6BCA251(*)(::PVOID, ::UnityEngine::Animations::AnimatorControllerPlayable))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERTRIGGER_INSTANTIATE_OFFSET))(this, controller);
+			return ((::GLMBIOOIKHO(*)(::PVOID, ::UnityEngine::Animations::AnimatorControllerPlayable))((::PBYTE)hIl2Cpp + MOLEMOLE_PHOTO_PLAYABLEGRAPHANIMATORCONTROLLERTRIGGER_INSTANTIATE_OFFSET))(this, controller);
 		}
 	};
 }

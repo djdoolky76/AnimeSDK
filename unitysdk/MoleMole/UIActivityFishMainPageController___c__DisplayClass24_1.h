@@ -2,21 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
-class Class_3_1699D6295DC3F818_1;
+class HGAJKHIMKJP;
+class PLDJFGCHMKK;
 
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS24_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1893C860)
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS24_1__REFRESHFINALREWARD_B__2_OFFSET UNITYSDK_OFFSET(0x1893C870)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS24_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17E985C0)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__DISPLAYCLASS24_1__REFRESHFINALREWARD_B__2_OFFSET UNITYSDK_OFFSET(0x17E985D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityFishMainPageController___c__DisplayClass24_1_TypeDefinitionIndex = 61346;
+	inline static constexpr unsigned int UIActivityFishMainPageController___c__DisplayClass24_1_TypeDefinitionIndex = 46847;
 
+	template <typename T>
 	class UIActivityFishMainPageController___c__DisplayClass24_1 : public ::System::Object
 	{
 	public:
-		::Class_1_0D6706375CDAAE8C* item; // 0x10
-		::Class_3_1699D6295DC3F818_1* reward; // 0x18
+		::PLDJFGCHMKK* reward; // 0x10
+		::HGAJKHIMKJP* item; // 0x18
 
 		::System::Void _ctor()
 		{

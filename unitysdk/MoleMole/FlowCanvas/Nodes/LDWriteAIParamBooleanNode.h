@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_4.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWRITEAIPARAMBOOLEANNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A8BB80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWRITEAIPARAMBOOLEANNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A8BDC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWRITEAIPARAMBOOLEANNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x14666420)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWRITEAIPARAMBOOLEANNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x14666660)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWriteAIParamBooleanNode_TypeDefinitionIndex = 45758;
+	inline static constexpr unsigned int LDWriteAIParamBooleanNode_TypeDefinitionIndex = 79646;
 
-	class LDWriteAIParamBooleanNode : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::String*, ::System::Boolean>
+	class LDWriteAIParamBooleanNode
 	{
 	public:
 		::System::Void _ctor()

@@ -7,27 +7,27 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define MOLEMOLE_IMGTEXTSKILLPARSER_METHOD_6_81BFB84A5077EF23_OFFSET UNITYSDK_OFFSET(0x13844DA0)
-#define MOLEMOLE_IMGTEXTSKILLPARSER_METHOD_6_FDA1EA0B9E0923F3_OFFSET UNITYSDK_OFFSET(0x13845560)
-#define MOLEMOLE_IMGTEXTSKILLPARSER_SETLEVEL_OFFSET UNITYSDK_OFFSET(0x13844D50)
-#define MOLEMOLE_IMGTEXTSKILLPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13845680)
-#define MOLEMOLE_IMGTEXTSKILLPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x13845620)
-#define MOLEMOLE_IMGTEXTSKILLPARSER___BASE_GETPARSEDTEXT_OFFSET UNITYSDK_OFFSET(0x13845790)
+#define MOLEMOLE_IMGTEXTSKILLPARSER_DKGJGCMFEJK_OFFSET UNITYSDK_OFFSET(0x139EC5B0)
+#define MOLEMOLE_IMGTEXTSKILLPARSER_LEMBBKGNBCD_OFFSET UNITYSDK_OFFSET(0x139EC7E0)
+#define MOLEMOLE_IMGTEXTSKILLPARSER_NALHONEIFEO_OFFSET UNITYSDK_OFFSET(0x139EBDF0)
+#define MOLEMOLE_IMGTEXTSKILLPARSER_SETLEVEL_OFFSET UNITYSDK_OFFSET(0x139EBDA0)
+#define MOLEMOLE_IMGTEXTSKILLPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x139EC6D0)
+#define MOLEMOLE_IMGTEXTSKILLPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x139EC670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ImgTextSkillParser_TypeDefinitionIndex = 79548;
+	inline static constexpr unsigned int ImgTextSkillParser_TypeDefinitionIndex = 45399;
 
 	class ImgTextSkillParser : public ::MoleMole::ImgTextParserBase
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::String*>>** StaticGet_Field_6_1()
+		static ::System::Text::RegularExpressions::Regex** StaticGet_ACCICEJIPGB()
 		{
-			return (::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(ImgTextSkillParser_TypeDefinitionIndex)->GetStaticField(0x3F940);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ImgTextSkillParser_TypeDefinitionIndex)->GetStaticField(0x44C30);
 		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_Field_6_2()
+		static ::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::String*>>** StaticGet_ACDKKCINLON()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ImgTextSkillParser_TypeDefinitionIndex)->GetStaticField(0x3F948);
+			return (::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(ImgTextSkillParser_TypeDefinitionIndex)->GetStaticField(0x44C38);
 		}
 		::System::Int32 m_skillLevel; // 0x40
 
@@ -41,24 +41,24 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTSKILLPARSER__CCTOR_OFFSET))();
 		}
 
-		::System::Void SetLevel(::System::Int32 a1)
+		::System::Void SetLevel(::System::Int32 MOBNMDEDJIP)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTSKILLPARSER_SETLEVEL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTSKILLPARSER_SETLEVEL_OFFSET))(this, MOBNMDEDJIP);
 		}
 
-		::System::String* Method_6_81BFB84A5077EF23(::System::String* a1)
+		::System::String* NALHONEIFEO(::System::String* FCCLIEJAKLI)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTSKILLPARSER_METHOD_6_81BFB84A5077EF23_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTSKILLPARSER_NALHONEIFEO_OFFSET))(this, FCCLIEJAKLI);
 		}
 
-		::System::String* __base_GetParsedText(::System::String* a1)
+		::System::String* LEMBBKGNBCD(::System::String* MIALFKCCCPI)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTSKILLPARSER___BASE_GETPARSEDTEXT_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTSKILLPARSER_LEMBBKGNBCD_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::String* Method_6_FDA1EA0B9E0923F3(::System::Int32 a1, ::System::Int32 a2)
+		::System::String* DKGJGCMFEJK(::System::Int32 AMHFLBPBKLL, ::System::Int32 AELKMGGGEJP)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTSKILLPARSER_METHOD_6_FDA1EA0B9E0923F3_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_IMGTEXTSKILLPARSER_DKGJGCMFEJK_OFFSET))(this, AMHFLBPBKLL, AELKMGGGEJP);
 		}
 	};
 }

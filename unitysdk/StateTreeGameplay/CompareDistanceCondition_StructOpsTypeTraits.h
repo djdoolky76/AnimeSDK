@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define STATETREEGAMEPLAY_COMPAREDISTANCECONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1D33CDE0)
-#define STATETREEGAMEPLAY_COMPAREDISTANCECONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D33CDF0)
+#define STATETREEGAMEPLAY_COMPAREDISTANCECONDITION_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1D9E3320)
+#define STATETREEGAMEPLAY_COMPAREDISTANCECONDITION_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E3330)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int CompareDistanceCondition_StructOpsTypeTraits_TypeDefinitionIndex = 42510;
+	inline static constexpr unsigned int CompareDistanceCondition_StructOpsTypeTraits_TypeDefinitionIndex = 59954;
 
 	class CompareDistanceCondition_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

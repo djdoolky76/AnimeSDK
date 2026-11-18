@@ -3,16 +3,16 @@
 
 namespace MoleMole::DisplayCase
 {
-	inline static constexpr unsigned int EDisplayItemSubType_TypeDefinitionIndex = 77474;
+	inline static constexpr unsigned int EDisplayItemSubType_TypeDefinitionIndex = 49811;
 
 	enum class EDisplayItemSubType : ::System::Int32
 	{
-		None = 0,
-		Weapon = 2,
-		Panel = 50,
-		Story = 1,
-		Fashioned = 4,
 		Limited = 3,
+		Weapon = 2,
 		Others = 99,
+		Story = 1,
+		Panel = 50,
+		None = 0,
+		Fashioned = 4,
 	};
 }

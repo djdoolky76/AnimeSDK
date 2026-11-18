@@ -5,24 +5,24 @@
 namespace MoleMole { class UIGeneralTipsWidgetController; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define MOLEMOLE_UIGENERALLOGINTIPSDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D9B720)
-#define MOLEMOLE_UIGENERALLOGINTIPSDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17D9B760)
-#define MOLEMOLE_UIGENERALLOGINTIPSDIALOGPOPWINDOWCONTROLLER___C__ONSHOWLOGINTIPS_B__16_0_OFFSET UNITYSDK_OFFSET(0x17D9B770)
+#define MOLEMOLE_UIGENERALLOGINTIPSDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17845360)
+#define MOLEMOLE_UIGENERALLOGINTIPSDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x178453A0)
+#define MOLEMOLE_UIGENERALLOGINTIPSDIALOGPOPWINDOWCONTROLLER___C__ONSHOWLOGINTIPS_B__16_0_OFFSET UNITYSDK_OFFSET(0x178453B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralLoginTipsDialogPopWindowController___c_TypeDefinitionIndex = 56841;
+	inline static constexpr unsigned int UIGeneralLoginTipsDialogPopWindowController___c_TypeDefinitionIndex = 48743;
 
 	class UIGeneralLoginTipsDialogPopWindowController___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::MoleMole::UIGeneralTipsWidgetController*>** StaticGet___9__16_0()
 		{
-			return (::System::Predicate_1<::MoleMole::UIGeneralTipsWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralLoginTipsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4EB10);
+			return (::System::Predicate_1<::MoleMole::UIGeneralTipsWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralLoginTipsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4F9D0);
 		}
-		static ::MoleMole::UIGeneralLoginTipsDialogPopWindowController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIGeneralLoginTipsDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralLoginTipsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4EB18);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralLoginTipsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4F9D8);
 		}
 
 		static ::System::Void _cctor()

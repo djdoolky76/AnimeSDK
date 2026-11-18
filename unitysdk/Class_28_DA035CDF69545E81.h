@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int Class_28_DA035CDF69545E81_TypeDefinitionIndex = 92436;
+
+enum class Class_28_DA035CDF69545E81 : ::System::Int32
+{
+	Value = 16,
+	Value = 13,
+	Value = 24,
+	Value = 17,
+	Value = 32,
+	Value = 9,
+	Value = 29,
+	Value = 30,
+	Value = 200,
+	Value = 11,
+	Value = 12,
+	Value = 28,
+	Value = 22,
+	Value = 3,
+	Value = 26,
+	Value = 103,
+	Value = 100,
+	Value = 23,
+	Value = 21,
+	Value = 0,
+	Value = 104,
+	Value = 2,
+	Value = 31,
+	Value = 25,
+	Value = 10,
+	Value = 27,
+	Value = 4,
+	Value = 20,
+	Value = 1,
+	Value = 101,
+	Value = 18,
+	Value = 19,
+	Value = 15,
+	Value = 7,
+	Value = 6,
+	Value = 8,
+	Value = 14,
+	Value = 102,
+	Value = 5,
+};

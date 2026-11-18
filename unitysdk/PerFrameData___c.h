@@ -5,22 +5,22 @@
 class ParticlesData;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PERFRAMEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2F88D0)
-#define PERFRAMEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F8910)
-#define PERFRAMEDATA___C__GET_PARTICLESCOUNT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D2F8920)
+#define PERFRAMEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4407A0)
+#define PERFRAMEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4407E0)
+#define PERFRAMEDATA___C__GET_PARTICLESCOUNT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D4407F0)
 
-inline static constexpr unsigned int PerFrameData___c_TypeDefinitionIndex = 26809;
+inline static constexpr unsigned int PerFrameData___c_TypeDefinitionIndex = 27286;
 
 class PerFrameData___c : public ::System::Object
 {
 public:
-	static ::PerFrameData___c** StaticGet___9()
-	{
-		return (::PerFrameData___c**)Il2CppClass::FromTypeDefinitionIndex(PerFrameData___c_TypeDefinitionIndex)->GetStaticField(0x23A60);
-	}
 	static ::System::Func_2<::ParticlesData*, ::System::Int32>** StaticGet___9__2_0()
 	{
-		return (::System::Func_2<::ParticlesData*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PerFrameData___c_TypeDefinitionIndex)->GetStaticField(0x23A68);
+		return (::System::Func_2<::ParticlesData*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(PerFrameData___c_TypeDefinitionIndex)->GetStaticField(0x24A40);
+	}
+	static ::System::Object** StaticGet___9()
+	{
+		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(PerFrameData___c_TypeDefinitionIndex)->GetStaticField(0x24A48);
 	}
 
 	static ::System::Void _cctor()

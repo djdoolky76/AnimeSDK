@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaInference_InferenceOption_TypeDefinitionIndex = 2067;
+	inline static constexpr unsigned int XmlSchemaInference_InferenceOption_TypeDefinitionIndex = 2066;
 
 	enum class XmlSchemaInference_InferenceOption : ::System::Int32
 	{

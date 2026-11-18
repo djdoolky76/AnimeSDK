@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_3C4EC276A982A2CD;
-namespace MoleMole { class UIFishingContestQuestPageController___c__DisplayClass19_0; }
+class NKGCCNENFEP;
 
-#define MOLEMOLE_UIFISHINGCONTESTQUESTPAGECONTROLLER___C__DISPLAYCLASS19_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB37E0)
-#define MOLEMOLE_UIFISHINGCONTESTQUESTPAGECONTROLLER___C__DISPLAYCLASS19_1__ONGOTOTASKBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x19AB37F0)
+#define MOLEMOLE_UIFISHINGCONTESTQUESTPAGECONTROLLER___C__DISPLAYCLASS19_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFF94A0)
+#define MOLEMOLE_UIFISHINGCONTESTQUESTPAGECONTROLLER___C__DISPLAYCLASS19_1__ONGOTOTASKBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x1AFF94B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishingContestQuestPageController___c__DisplayClass19_1_TypeDefinitionIndex = 46617;
+	inline static constexpr unsigned int UIFishingContestQuestPageController___c__DisplayClass19_1_TypeDefinitionIndex = 47994;
 
+	template <typename T>
 	class UIFishingContestQuestPageController___c__DisplayClass19_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIFishingContestQuestPageController___c__DisplayClass19_0* CS___8__locals1; // 0x10
-		::Class_2_3C4EC276A982A2CD* model; // 0x18
+		::NKGCCNENFEP* model; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

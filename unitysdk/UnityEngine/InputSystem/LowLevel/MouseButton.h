@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int MouseButton_TypeDefinitionIndex = 32505;
+	inline static constexpr unsigned int MouseButton_TypeDefinitionIndex = 31954;
 
 	enum class MouseButton : ::System::Int32
 	{

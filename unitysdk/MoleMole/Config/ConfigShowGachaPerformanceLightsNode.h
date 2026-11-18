@@ -4,15 +4,15 @@
 #include "unitysdk/MoleMole/Config/ConfigShowGachaPerformanceLightsNode_GachaPerformanceLightType.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHOWGACHAPERFORMANCELIGHTSNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1437F860)
-#define MOLEMOLE_CONFIG_CONFIGSHOWGACHAPERFORMANCELIGHTSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1437F8D0)
+#define MOLEMOLE_CONFIG_CONFIGSHOWGACHAPERFORMANCELIGHTSNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B8A4B70)
+#define MOLEMOLE_CONFIG_CONFIGSHOWGACHAPERFORMANCELIGHTSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A4BE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShowGachaPerformanceLightsNode_TypeDefinitionIndex = 58861;
+	inline static constexpr unsigned int ConfigShowGachaPerformanceLightsNode_TypeDefinitionIndex = 76605;
 
 	class ConfigShowGachaPerformanceLightsNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
@@ -26,9 +26,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSHOWGACHAPERFORMANCELIGHTSNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSHOWGACHAPERFORMANCELIGHTSNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSHOWGACHAPERFORMANCELIGHTSNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

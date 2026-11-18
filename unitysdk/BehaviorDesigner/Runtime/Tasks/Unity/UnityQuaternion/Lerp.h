@@ -6,23 +6,23 @@
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedQuaternion; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_LERP_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F76B8E0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_LERP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F76B6C0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_LERP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76B950)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_LERP___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F76B9E0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_LERP___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F76BA70)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_LERP_ONRESET_OFFSET UNITYSDK_OFFSET(0x1FB7BB20)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_LERP_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1FB7B900)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_LERP__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7BB90)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_LERP___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1FB7BC20)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYQUATERNION_LERP___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1FB7BCB0)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityQuaternion
 {
-	inline static constexpr unsigned int Lerp_TypeDefinitionIndex = 34221;
+	inline static constexpr unsigned int Lerp_TypeDefinitionIndex = 33767;
 
 	class Lerp : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedQuaternion* toQuaternion; // 0x58
-		::BehaviorDesigner::Runtime::SharedQuaternion* fromQuaternion; // 0x60
+		::BehaviorDesigner::Runtime::SharedQuaternion* fromQuaternion; // 0x58
+		::BehaviorDesigner::Runtime::SharedQuaternion* storeResult; // 0x60
 		::BehaviorDesigner::Runtime::SharedFloat* amount; // 0x68
-		::BehaviorDesigner::Runtime::SharedQuaternion* storeResult; // 0x70
+		::BehaviorDesigner::Runtime::SharedQuaternion* toQuaternion; // 0x70
 
 		::System::Void _ctor()
 		{

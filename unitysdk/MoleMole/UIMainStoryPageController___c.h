@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_1EF6707C62AC94B6_1;
+class EFLEGHEHLHB;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x183AF0B0)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183AF0F0)
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__ONUIINIT_B__5_5_OFFSET UNITYSDK_OFFSET(0x183AF100)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188148A0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x188148E0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__ONUIINIT_B__5_5_OFFSET UNITYSDK_OFFSET(0x188148F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c_TypeDefinitionIndex = 84556;
+	inline static constexpr unsigned int UIMainStoryPageController___c_TypeDefinitionIndex = 60177;
 
 	class UIMainStoryPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_2_1EF6707C62AC94B6_1*, ::System::Int32>** StaticGet___9__5_5()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_2_1EF6707C62AC94B6_1*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMainStoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x472A0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIMainStoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x4C4C0);
 		}
-		static ::MoleMole::UIMainStoryPageController___c** StaticGet___9()
+		static ::System::Func_2<::EFLEGHEHLHB*, ::System::Int32>** StaticGet___9__5_5()
 		{
-			return (::MoleMole::UIMainStoryPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainStoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x472A8);
+			return (::System::Func_2<::EFLEGHEHLHB*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMainStoryPageController___c_TypeDefinitionIndex)->GetStaticField(0x4C4C8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _OnUIInit_b__5_5(::Class_2_1EF6707C62AC94B6_1* x)
+		::System::Int32 _OnUIInit_b__5_5(::EFLEGHEHLHB* x)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_1EF6707C62AC94B6_1*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__ONUIINIT_B__5_5_OFFSET))(this, x);
+			return ((::System::Int32(*)(::PVOID, ::EFLEGHEHLHB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__ONUIINIT_B__5_5_OFFSET))(this, x);
 		}
 	};
 }

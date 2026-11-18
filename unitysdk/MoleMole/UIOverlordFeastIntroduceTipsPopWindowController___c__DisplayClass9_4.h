@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIOverlordFeastIntroduceTipsPopWindowController___c__DisplayClass9_0; }
-
-#define MOLEMOLE_UIOVERLORDFEASTINTRODUCETIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_4__CTOR_OFFSET UNITYSDK_OFFSET(0x18681150)
-#define MOLEMOLE_UIOVERLORDFEASTINTRODUCETIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_4__REFRESHVIEW_B__8_OFFSET UNITYSDK_OFFSET(0x18681160)
+#define MOLEMOLE_UIOVERLORDFEASTINTRODUCETIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_4__CTOR_OFFSET UNITYSDK_OFFSET(0x147E8930)
+#define MOLEMOLE_UIOVERLORDFEASTINTRODUCETIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_4__REFRESHVIEW_B__8_OFFSET UNITYSDK_OFFSET(0x147E8940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastIntroduceTipsPopWindowController___c__DisplayClass9_4_TypeDefinitionIndex = 46446;
+	inline static constexpr unsigned int UIOverlordFeastIntroduceTipsPopWindowController___c__DisplayClass9_4_TypeDefinitionIndex = 57649;
 
+	template <typename T1, typename T2, typename T3, typename T4>
 	class UIOverlordFeastIntroduceTipsPopWindowController___c__DisplayClass9_4 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIOverlordFeastIntroduceTipsPopWindowController___c__DisplayClass9_0* CS___8__locals4; // 0x10
+		::System::Object* CS___8__locals4; // 0x10
 		::System::Int32 devID; // 0x18
 
 		::System::Void _ctor()

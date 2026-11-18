@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDABYSSS2GETCURRAREASUDDENEVENTIDLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B830B40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDABYSSS2GETCURRAREASUDDENEVENTIDLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B830E90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDABYSSS2GETCURRAREASUDDENEVENTIDLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x180D6FF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDABYSSS2GETCURRAREASUDDENEVENTIDLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x180D7340)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDAbyssS2GetCurrAreaSuddenEventIDList_TypeDefinitionIndex = 70729;
+	inline static constexpr unsigned int LDAbyssS2GetCurrAreaSuddenEventIDList_TypeDefinitionIndex = 51407;
 
-	class LDAbyssS2GetCurrAreaSuddenEventIDList : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Collections::Generic::List_1<::System::Int32>*>
+	class LDAbyssS2GetCurrAreaSuddenEventIDList
 	{
 	public:
 		::System::Void _ctor()

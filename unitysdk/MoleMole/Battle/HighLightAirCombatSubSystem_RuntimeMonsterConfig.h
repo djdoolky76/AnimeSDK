@@ -5,18 +5,18 @@
 namespace MoleMole::Config { class HighLightAirCombatMonster; }
 namespace System { class String; }
 
-#define MOLEMOLE_BATTLE_HIGHLIGHTAIRCOMBATSUBSYSTEM_RUNTIMEMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x116CA1E0)
+#define MOLEMOLE_BATTLE_HIGHLIGHTAIRCOMBATSUBSYSTEM_RUNTIMEMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xFA88B20)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int HighLightAirCombatSubSystem_RuntimeMonsterConfig_TypeDefinitionIndex = 68743;
+	inline static constexpr unsigned int HighLightAirCombatSubSystem_RuntimeMonsterConfig_TypeDefinitionIndex = 83429;
 
 	class HighLightAirCombatSubSystem_RuntimeMonsterConfig : public ::System::Object
 	{
 	public:
 		::System::String* rootName; // 0x10
-		::MoleMole::Config::HighLightAirCombatMonster* config; // 0x18
-		::System::String* groupName; // 0x20
+		::System::String* groupName; // 0x18
+		::MoleMole::Config::HighLightAirCombatMonster* config; // 0x20
 
 		::System::Void _ctor()
 		{

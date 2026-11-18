@@ -5,12 +5,12 @@
 
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 
-#define MOLEMOLE_CAMERAS_PHOTOCAMERACONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B5362D0)
-#define MOLEMOLE_CAMERAS_PHOTOCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B536280)
+#define MOLEMOLE_CAMERAS_PHOTOCAMERACONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C5AF110)
+#define MOLEMOLE_CAMERAS_PHOTOCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AF0C0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int PhotoCameraConfig_TypeDefinitionIndex = 84738;
+	inline static constexpr unsigned int PhotoCameraConfig_TypeDefinitionIndex = 44222;
 
 	class PhotoCameraConfig : public ::System::Object
 	{
@@ -27,6 +27,7 @@ namespace MoleMole::Cameras
 		::System::Single aspectRatio; // 0x34
 		::MoleMole::Cameras::PhotoCameraDefaultSetting defaultSetting; // 0x38
 		::System::Boolean useBlend; // 0x58
+		::System::Byte _padding0[0x7];
 		::MoleMole::Cameras::CameraTrackBlending* blendIn; // 0x60
 		::MoleMole::Cameras::CameraTrackBlending* blendOut; // 0x68
 
@@ -35,9 +36,9 @@ namespace MoleMole::Cameras
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_PHOTOCAMERACONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Single a9, ::System::Single a10, ::MoleMole::Cameras::PhotoCameraDefaultSetting a11)
+		::System::Void _ctor_1(::System::Single KJHPKFCFAMP, ::System::Single BAFOIENGGLP, ::System::Single BHPHKIKEJJM, ::System::Single LCPLGJDNHHB, ::System::Single DDILKDCIEGJ, ::System::Single AOBEINLCOAO, ::System::Single NDNOBNMGBNA, ::System::Single OPIAIKKEEJH, ::System::Single FNLGFLNJFBP, ::System::Single EGCKEINKEPM, ::MoleMole::Cameras::PhotoCameraDefaultSetting LJAEJBHNBFE)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::MoleMole::Cameras::PhotoCameraDefaultSetting))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_PHOTOCAMERACONFIG__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::MoleMole::Cameras::PhotoCameraDefaultSetting))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_PHOTOCAMERACONFIG__CTOR_1_OFFSET))(this, KJHPKFCFAMP, BAFOIENGGLP, BHPHKIKEJJM, LCPLGJDNHHB, DDILKDCIEGJ, AOBEINLCOAO, NDNOBNMGBNA, OPIAIKKEEJH, FNLGFLNJFBP, EGCKEINKEPM, LJAEJBHNBFE);
 		}
 	};
 }

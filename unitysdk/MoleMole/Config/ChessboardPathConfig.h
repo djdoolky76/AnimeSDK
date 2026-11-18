@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CHESSBOARDPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1485BF70)
+#define MOLEMOLE_CONFIG_CHESSBOARDPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11E86D00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessboardPathConfig_TypeDefinitionIndex = 79931;
+	inline static constexpr unsigned int ChessboardPathConfig_TypeDefinitionIndex = 61940;
 
 	class ChessboardPathConfig : public ::System::Object
 	{

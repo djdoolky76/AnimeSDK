@@ -5,22 +5,22 @@
 namespace MoleMole { class UIHollowShopWidgetChildWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x199DBA80)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__INITSHOP_B__0_OFFSET UNITYSDK_OFFSET(0x199DBA90)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__INITSHOP_B__1_OFFSET UNITYSDK_OFFSET(0x199DBD10)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__INITSHOP_B__2_OFFSET UNITYSDK_OFFSET(0x199DBD30)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E72DC0)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__INITSHOP_B__0_OFFSET UNITYSDK_OFFSET(0x18E72DD0)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__INITSHOP_B__1_OFFSET UNITYSDK_OFFSET(0x18E73050)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS30_0__INITSHOP_B__2_OFFSET UNITYSDK_OFFSET(0x18E73070)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass30_0_TypeDefinitionIndex = 65871;
+	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass30_0_TypeDefinitionIndex = 61297;
 
 	class UIHollowShopWidgetChildWindowController___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
-		::System::Action* gotoShopAction; // 0x18
+		::MoleMole::UIHollowShopWidgetChildWindowController* __4__this; // 0x10
+		::System::Action* __9__2; // 0x18
 		::System::Action* __9__1; // 0x20
-		::MoleMole::UIHollowShopWidgetChildWindowController* __4__this; // 0x28
+		::System::Action* gotoShopAction; // 0x28
 
 		::System::Void _ctor()
 		{

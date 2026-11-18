@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace System::Net
 {
-	inline static constexpr unsigned int WebRequestMethods_Ftp_TypeDefinitionIndex = 3356;
+	inline static constexpr unsigned int WebRequestMethods_Ftp_TypeDefinitionIndex = 3355;
 
 	class WebRequestMethods_Ftp : public ::System::Object
 	{

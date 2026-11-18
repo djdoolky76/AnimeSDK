@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sirenix/Utilities/GlobalConfigAttribute.h"
 
-#define SIRENIX_UTILITIES_SIRENIXGLOBALCONFIGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F263E30)
+#define SIRENIX_UTILITIES_SIRENIXGLOBALCONFIGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F662D20)
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int SirenixGlobalConfigAttribute_TypeDefinitionIndex = 6516;
+	inline static constexpr unsigned int SirenixGlobalConfigAttribute_TypeDefinitionIndex = 6522;
 
 	class SirenixGlobalConfigAttribute : public ::Sirenix::Utilities::GlobalConfigAttribute
 	{

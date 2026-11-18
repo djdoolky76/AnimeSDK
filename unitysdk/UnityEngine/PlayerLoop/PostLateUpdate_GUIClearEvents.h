@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_GUIClearEvents_TypeDefinitionIndex = 5657;
+	inline static constexpr unsigned int PostLateUpdate_GUIClearEvents_TypeDefinitionIndex = 5661;
 
-	struct alignas(1) PostLateUpdate_GUIClearEvents
+	struct alignas(4) PostLateUpdate_GUIClearEvents
 	{
 	};
 }

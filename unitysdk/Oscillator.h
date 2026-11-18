@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define OSCILLATOR_START_OFFSET UNITYSDK_OFFSET(0x1214E310)
-#define OSCILLATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1214E3A0)
-#define OSCILLATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1214E4F0)
+#define OSCILLATOR_START_OFFSET UNITYSDK_OFFSET(0x16F98D70)
+#define OSCILLATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x16F98E00)
+#define OSCILLATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16F98F50)
 
-inline static constexpr unsigned int Oscillator_TypeDefinitionIndex = 79181;
+inline static constexpr unsigned int Oscillator_TypeDefinitionIndex = 89287;
 
 class Oscillator : public ::UnityEngine::MonoBehaviour
 {

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/FontStyle.h"
 #include "unitysdk/UnityEngine/HorizontalWrapMode.h"
-#include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/TextAnchor.h"
 #include "unitysdk/UnityEngine/TextGenerationError.h"
 #include "unitysdk/UnityEngine/TextGenerationSettings.h"
 #include "unitysdk/UnityEngine/UICharInfo.h"
 #include "unitysdk/UnityEngine/UILineInfo.h"
 #include "unitysdk/UnityEngine/UIVertex.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/VerticalWrapMode.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Rect.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
@@ -22,76 +22,77 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Font; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_TEXTGENERATOR_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1FAAFC80)
-#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FAB0570)
-#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1FAB0560)
-#define UNITYENGINE_TEXTGENERATOR_GETLINESARRAY_OFFSET UNITYSDK_OFFSET(0x1FAB1980)
-#define UNITYENGINE_TEXTGENERATOR_GETLINESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FAB0590)
-#define UNITYENGINE_TEXTGENERATOR_GETLINES_OFFSET UNITYSDK_OFFSET(0x1FAB0580)
-#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1FAB0950)
-#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_OFFSET UNITYSDK_OFFSET(0x1FAB05C0)
-#define UNITYENGINE_TEXTGENERATOR_GETVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FAB05B0)
-#define UNITYENGINE_TEXTGENERATOR_GETVERTICES_OFFSET UNITYSDK_OFFSET(0x1FAB05A0)
-#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNTVISIBLE_OFFSET UNITYSDK_OFFSET(0x1FAAFEF0)
-#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNT_OFFSET UNITYSDK_OFFSET(0x1FAAFF10)
-#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERS_OFFSET UNITYSDK_OFFSET(0x1FAB18B0)
-#define UNITYENGINE_TEXTGENERATOR_GET_FONTSIZEUSEDFORBESTFIT_OFFSET UNITYSDK_OFFSET(0x1FAB1950)
-#define UNITYENGINE_TEXTGENERATOR_GET_LINECOUNT_OFFSET UNITYSDK_OFFSET(0x1FAB1940)
-#define UNITYENGINE_TEXTGENERATOR_GET_LINES_OFFSET UNITYSDK_OFFSET(0x1FAB18F0)
-#define UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1FAB1930)
-#define UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_OFFSET UNITYSDK_OFFSET(0x1FAB0910)
-#define UNITYENGINE_TEXTGENERATOR_GET_VERTS_OFFSET UNITYSDK_OFFSET(0x1FAB1870)
-#define UNITYENGINE_TEXTGENERATOR_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1FAAFC70)
-#define UNITYENGINE_TEXTGENERATOR_INTERNAL_DESTROY_OFFSET UNITYSDK_OFFSET(0x1FAAFEE0)
-#define UNITYENGINE_TEXTGENERATOR_INVALIDATE_OFFSET UNITYSDK_OFFSET(0x1FAB0550)
-#define UNITYENGINE_TEXTGENERATOR_POPULATEALWAYS_OFFSET UNITYSDK_OFFSET(0x1FAB0FA0)
-#define UNITYENGINE_TEXTGENERATOR_POPULATEWITHERRORS_OFFSET UNITYSDK_OFFSET(0x1FAB0B40)
-#define UNITYENGINE_TEXTGENERATOR_POPULATEWITHERROR_OFFSET UNITYSDK_OFFSET(0x1FAB0E90)
-#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1FAB15B0)
-#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1FAB1970)
-#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1FAB1960)
-#define UNITYENGINE_TEXTGENERATOR_POPULATE_OFFSET UNITYSDK_OFFSET(0x1FAB07B0)
-#define UNITYENGINE_TEXTGENERATOR_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1FAAFE70)
-#define UNITYENGINE_TEXTGENERATOR_VALIDATEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1FAAFF20)
-#define UNITYENGINE_TEXTGENERATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAB1990)
-#define UNITYENGINE_TEXTGENERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FAAF8F0)
-#define UNITYENGINE_TEXTGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAAF8E0)
+#define UNITYENGINE_TEXTGENERATOR_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1FEC6480)
+#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FEC6D70)
+#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1FEC6D60)
+#define UNITYENGINE_TEXTGENERATOR_GETLINESARRAY_OFFSET UNITYSDK_OFFSET(0x1FEC8180)
+#define UNITYENGINE_TEXTGENERATOR_GETLINESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FEC6D90)
+#define UNITYENGINE_TEXTGENERATOR_GETLINES_OFFSET UNITYSDK_OFFSET(0x1FEC6D80)
+#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1FEC7150)
+#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_OFFSET UNITYSDK_OFFSET(0x1FEC6DC0)
+#define UNITYENGINE_TEXTGENERATOR_GETVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FEC6DB0)
+#define UNITYENGINE_TEXTGENERATOR_GETVERTICES_OFFSET UNITYSDK_OFFSET(0x1FEC6DA0)
+#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNTVISIBLE_OFFSET UNITYSDK_OFFSET(0x1FEC66F0)
+#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNT_OFFSET UNITYSDK_OFFSET(0x1FEC6710)
+#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERS_OFFSET UNITYSDK_OFFSET(0x1FEC80B0)
+#define UNITYENGINE_TEXTGENERATOR_GET_FONTSIZEUSEDFORBESTFIT_OFFSET UNITYSDK_OFFSET(0x1FEC8150)
+#define UNITYENGINE_TEXTGENERATOR_GET_LINECOUNT_OFFSET UNITYSDK_OFFSET(0x1FEC8140)
+#define UNITYENGINE_TEXTGENERATOR_GET_LINES_OFFSET UNITYSDK_OFFSET(0x1FEC80F0)
+#define UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1FEC8130)
+#define UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_OFFSET UNITYSDK_OFFSET(0x1FEC7110)
+#define UNITYENGINE_TEXTGENERATOR_GET_VERTS_OFFSET UNITYSDK_OFFSET(0x1FEC8070)
+#define UNITYENGINE_TEXTGENERATOR_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1FEC6470)
+#define UNITYENGINE_TEXTGENERATOR_INTERNAL_DESTROY_OFFSET UNITYSDK_OFFSET(0x1FEC66E0)
+#define UNITYENGINE_TEXTGENERATOR_INVALIDATE_OFFSET UNITYSDK_OFFSET(0x1FEC6D50)
+#define UNITYENGINE_TEXTGENERATOR_POPULATEALWAYS_OFFSET UNITYSDK_OFFSET(0x1FEC77A0)
+#define UNITYENGINE_TEXTGENERATOR_POPULATEWITHERRORS_OFFSET UNITYSDK_OFFSET(0x1FEC7340)
+#define UNITYENGINE_TEXTGENERATOR_POPULATEWITHERROR_OFFSET UNITYSDK_OFFSET(0x1FEC7690)
+#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1FEC7DB0)
+#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1FEC8170)
+#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1FEC8160)
+#define UNITYENGINE_TEXTGENERATOR_POPULATE_OFFSET UNITYSDK_OFFSET(0x1FEC6FB0)
+#define UNITYENGINE_TEXTGENERATOR_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1FEC6670)
+#define UNITYENGINE_TEXTGENERATOR_VALIDATEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1FEC6720)
+#define UNITYENGINE_TEXTGENERATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FEC8190)
+#define UNITYENGINE_TEXTGENERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FEC60F0)
+#define UNITYENGINE_TEXTGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FEC60E0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextGenerator_TypeDefinitionIndex = 6366;
+	inline static constexpr unsigned int TextGenerator_TypeDefinitionIndex = 6372;
 
 	class TextGenerator : public ::System::Object
 	{
 	public:
 		static ::System::Func_1<::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*>** StaticGet_s_UILineInfoListAllocFromPool()
 		{
-			return (::System::Func_1<::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*>**)Il2CppClass::FromTypeDefinitionIndex(TextGenerator_TypeDefinitionIndex)->GetStaticField(0x5850);
-		}
-		static ::System::Func_1<::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*>** StaticGet_s_UICharInfoListAllocFromPool()
-		{
-			return (::System::Func_1<::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*>**)Il2CppClass::FromTypeDefinitionIndex(TextGenerator_TypeDefinitionIndex)->GetStaticField(0x5858);
-		}
-		static ::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*>** StaticGet_s_UIVertexListReleaseToPool()
-		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*>**)Il2CppClass::FromTypeDefinitionIndex(TextGenerator_TypeDefinitionIndex)->GetStaticField(0x5860);
-		}
-		static ::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*>** StaticGet_s_UILineInfoListReleaseToPool()
-		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*>**)Il2CppClass::FromTypeDefinitionIndex(TextGenerator_TypeDefinitionIndex)->GetStaticField(0x5868);
+			return (::System::Func_1<::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*>**)Il2CppClass::FromTypeDefinitionIndex(TextGenerator_TypeDefinitionIndex)->GetStaticField(0x5750);
 		}
 		static ::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*>** StaticGet_s_UICharInfoListReleaseToPool()
 		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*>**)Il2CppClass::FromTypeDefinitionIndex(TextGenerator_TypeDefinitionIndex)->GetStaticField(0x5870);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*>**)Il2CppClass::FromTypeDefinitionIndex(TextGenerator_TypeDefinitionIndex)->GetStaticField(0x5758);
+		}
+		static ::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*>** StaticGet_s_UIVertexListReleaseToPool()
+		{
+			return (::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*>**)Il2CppClass::FromTypeDefinitionIndex(TextGenerator_TypeDefinitionIndex)->GetStaticField(0x5760);
 		}
 		static ::System::Func_1<::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*>** StaticGet_s_UIVertexListAllocFromPool()
 		{
-			return (::System::Func_1<::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*>**)Il2CppClass::FromTypeDefinitionIndex(TextGenerator_TypeDefinitionIndex)->GetStaticField(0x5878);
+			return (::System::Func_1<::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*>**)Il2CppClass::FromTypeDefinitionIndex(TextGenerator_TypeDefinitionIndex)->GetStaticField(0x5768);
+		}
+		static ::System::Func_1<::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*>** StaticGet_s_UICharInfoListAllocFromPool()
+		{
+			return (::System::Func_1<::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*>**)Il2CppClass::FromTypeDefinitionIndex(TextGenerator_TypeDefinitionIndex)->GetStaticField(0x5770);
+		}
+		static ::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*>** StaticGet_s_UILineInfoListReleaseToPool()
+		{
+			return (::System::Action_1<::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*>**)Il2CppClass::FromTypeDefinitionIndex(TextGenerator_TypeDefinitionIndex)->GetStaticField(0x5778);
 		}
 		::System::IntPtr m_Ptr; // 0x10
 		::System::String* m_LastString; // 0x18
 		::UnityEngine::TextGenerationSettings m_LastSettings; // 0x20
 		::System::Boolean m_HasGenerated; // 0x80
+		::System::Byte _padding0[0x3];
 		::UnityEngine::TextGenerationError m_LastValid; // 0x84
 		::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* m_Verts; // 0x88
 		::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>* m_Characters; // 0x90

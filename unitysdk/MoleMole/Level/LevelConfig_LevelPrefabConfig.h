@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int LevelConfig_LevelPrefabConfig_TypeDefinitionIndex = 86297;
+	inline static constexpr unsigned int LevelConfig_LevelPrefabConfig_TypeDefinitionIndex = 40482;
 
 	struct alignas(8) LevelConfig_LevelPrefabConfig
 	{

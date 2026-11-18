@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_ISMERGEAREA_INVOKE_OFFSET UNITYSDK_OFFSET(0x144D0970)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_ISMERGEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x144D0AE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_ISMERGEAREA_INVOKE_OFFSET UNITYSDK_OFFSET(0x10419380)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_ISMERGEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x104194F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_IsMergeArea_TypeDefinitionIndex = 56125;
+	inline static constexpr unsigned int LD_AbyssS2_IsMergeArea_TypeDefinitionIndex = 52446;
 
-	class LD_AbyssS2_IsMergeArea : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Boolean>
+	class LD_AbyssS2_IsMergeArea
 	{
 	public:
 		::System::Void _ctor()

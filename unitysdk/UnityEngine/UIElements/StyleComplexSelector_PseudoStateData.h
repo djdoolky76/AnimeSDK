@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/UIElements/PseudoStates.h"
 
-#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR_PSEUDOSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x42AAF0)
+#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR_PSEUDOSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x3944E0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleComplexSelector_PseudoStateData_TypeDefinitionIndex = 28195;
+	inline static constexpr unsigned int StyleComplexSelector_PseudoStateData_TypeDefinitionIndex = 27613;
 
 	struct alignas(4) StyleComplexSelector_PseudoStateData
 	{

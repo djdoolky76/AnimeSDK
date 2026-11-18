@@ -4,12 +4,12 @@
 
 namespace DigitalOpus::MB::Core { class SerializableSourceBlendShape2Combined; }
 
-#define DIGITALOPUS_MB_CORE_MB_BLENDSHAPE2COMBINEDMAP_GETMAP_OFFSET UNITYSDK_OFFSET(0x1F797640)
-#define DIGITALOPUS_MB_CORE_MB_BLENDSHAPE2COMBINEDMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F797690)
+#define DIGITALOPUS_MB_CORE_MB_BLENDSHAPE2COMBINEDMAP_GETMAP_OFFSET UNITYSDK_OFFSET(0x1FB9C660)
+#define DIGITALOPUS_MB_CORE_MB_BLENDSHAPE2COMBINEDMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB9C6B0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_BlendShape2CombinedMap_TypeDefinitionIndex = 94590;
+	inline static constexpr unsigned int MB_BlendShape2CombinedMap_TypeDefinitionIndex = 96277;
 
 	class MB_BlendShape2CombinedMap : public ::UnityEngine::MonoBehaviour
 	{

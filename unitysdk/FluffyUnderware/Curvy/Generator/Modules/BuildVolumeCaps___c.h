@@ -5,24 +5,24 @@
 namespace FluffyUnderware::Curvy::Generator { class CGVolume; }
 namespace System { template <typename T> class Action_1; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDVOLUMECAPS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9B4AE0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDVOLUMECAPS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9B4B20)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDVOLUMECAPS___C__REFRESH_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E9B4B30)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDVOLUMECAPS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECC2870)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDVOLUMECAPS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC28B0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_BUILDVOLUMECAPS___C__REFRESH_B__43_0_OFFSET UNITYSDK_OFFSET(0x1ECC28C0)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int BuildVolumeCaps___c_TypeDefinitionIndex = 39592;
+	inline static constexpr unsigned int BuildVolumeCaps___c_TypeDefinitionIndex = 37607;
 
 	class BuildVolumeCaps___c : public ::System::Object
 	{
 	public:
-		static ::FluffyUnderware::Curvy::Generator::Modules::BuildVolumeCaps___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::FluffyUnderware::Curvy::Generator::Modules::BuildVolumeCaps___c**)Il2CppClass::FromTypeDefinitionIndex(BuildVolumeCaps___c_TypeDefinitionIndex)->GetStaticField(0x2AC60);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(BuildVolumeCaps___c_TypeDefinitionIndex)->GetStaticField(0x2BFC0);
 		}
 		static ::System::Action_1<::FluffyUnderware::Curvy::Generator::CGVolume*>** StaticGet___9__43_0()
 		{
-			return (::System::Action_1<::FluffyUnderware::Curvy::Generator::CGVolume*>**)Il2CppClass::FromTypeDefinitionIndex(BuildVolumeCaps___c_TypeDefinitionIndex)->GetStaticField(0x2AC68);
+			return (::System::Action_1<::FluffyUnderware::Curvy::Generator::CGVolume*>**)Il2CppClass::FromTypeDefinitionIndex(BuildVolumeCaps___c_TypeDefinitionIndex)->GetStaticField(0x2BFC8);
 		}
 
 		static ::System::Void _cctor()

@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_INTEGERGREATERTHAN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF895B0)
-#define FLOWCANVAS_NODES_INTEGERGREATERTHAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF895C0)
+#define FLOWCANVAS_NODES_INTEGERGREATERTHAN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F2F8850)
+#define FLOWCANVAS_NODES_INTEGERGREATERTHAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F8860)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IntegerGreaterThan_TypeDefinitionIndex = 29811;
+	inline static constexpr unsigned int IntegerGreaterThan_TypeDefinitionIndex = 29627;
 
-	class IntegerGreaterThan : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Boolean, ::System::Int32, ::System::Int32>
+	class IntegerGreaterThan
 	{
 	public:
 		::System::Void _ctor()

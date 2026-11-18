@@ -5,16 +5,17 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERCREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16853160)
+#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERCREATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D1DEF0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MonsterCreateData_TypeDefinitionIndex = 85558;
+	inline static constexpr unsigned int MonsterCreateData_TypeDefinitionIndex = 86451;
 
 	class MonsterCreateData : public ::MoleMole::FlowCanvas::Nodes::MonsterCreateDataBase
 	{
 	public:
 		::System::Single CreatePossibility; // 0x48
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterCreateDataAnimatorParam>* InitAnimatorParams; // 0x50
 
 		::System::Void _ctor()

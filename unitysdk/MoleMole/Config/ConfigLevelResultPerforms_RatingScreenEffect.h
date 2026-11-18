@@ -7,11 +7,12 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLevelResultPerforms_RatingScreenEffect_TypeDefinitionIndex = 73017;
+	inline static constexpr unsigned int ConfigLevelResultPerforms_RatingScreenEffect_TypeDefinitionIndex = 56354;
 
 	struct alignas(8) ConfigLevelResultPerforms_RatingScreenEffect
 	{
 		::MoleMole::Config::ScreenEffectType ScreenEffectType; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::String*>* ScreenEffectKeys; // 0x18
 	};
 }

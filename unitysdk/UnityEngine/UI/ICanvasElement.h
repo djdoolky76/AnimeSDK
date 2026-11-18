@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/UI/CanvasUpdate.h"
-
-namespace UnityEngine { class Transform; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ICanvasElement_TypeDefinitionIndex = 19190;
+	inline static constexpr unsigned int ICanvasElement_TypeDefinitionIndex = 18344;
 
 	class ICanvasElement
 	{

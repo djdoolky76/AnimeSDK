@@ -1,40 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlexBuffers/FlxMap.h"
-#include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/MoleMole/Config/Wwise_SwitchGroup_Atkelem.h"
 #include "unitysdk/MoleMole/Config/Wwise_SwitchGroup_Atkweapon.h"
 #include "unitysdk/MoleMole/Config/Wwise_SwitchGroup_Imactlevel.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 namespace MoleMole::Config { class ConfigEntityAttackEffectItem; }
 namespace MoleMole::Config { class ConfigSoundActionGeneral; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B54AD00)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1B54A0A0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B54AD60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B54A120)
-#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54B180)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA2A9C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1BA29D50)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA2AA20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1BA29DD0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2AE40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAttackEffect_TypeDefinitionIndex = 82239;
+	inline static constexpr unsigned int ConfigEntityAttackEffect_TypeDefinitionIndex = 85137;
 
 	class ConfigEntityAttackEffect : public ::System::Object
 	{
 	public:
-		::System::String* GamepadRumbleKey; // 0x10
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityAttackEffectItem*>* CounterAttackEffects; // 0x18
-		::MoleMole::Config::ConfigSoundActionGeneral* soundAction; // 0x20
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityAttackEffectItem*>* CounterAttackEffects; // 0x10
+		::MoleMole::Config::ConfigSoundActionGeneral* soundActionMp; // 0x18
+		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityAttackEffectItem*>* AttackEffects; // 0x20
 		::System::String* AudioPatternMp; // 0x28
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigEntityAttackEffectItem*>* AttackEffects; // 0x30
-		::MoleMole::Config::ConfigSoundActionGeneral* soundActionMp; // 0x38
-		::System::String* AudioPattern; // 0x40
-		::MoleMole::Config::Wwise_SwitchGroup_Imactlevel ImactLevel; // 0x48
-		::MoleMole::Config::Wwise_SwitchGroup_Atkelem AtkElem; // 0x4C
+		::System::String* GamepadRumbleKey; // 0x30
+		::System::String* AudioPattern; // 0x38
+		::MoleMole::Config::ConfigSoundActionGeneral* soundAction; // 0x40
+		::MoleMole::Config::Wwise_SwitchGroup_Atkelem AtkElem; // 0x48
+		::MoleMole::Config::Wwise_SwitchGroup_Imactlevel ImactLevel; // 0x4C
 		::MoleMole::Config::Wwise_SwitchGroup_Atkweapon AtkWeapon; // 0x50
 
 		::System::Void _ctor()
@@ -52,14 +52,14 @@ namespace MoleMole::Config
 			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_INTERNALFROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYATTACKEFFECT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 	};
 }

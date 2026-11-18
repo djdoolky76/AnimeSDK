@@ -5,20 +5,20 @@
 class AkCallbackManager_BankCallback;
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE_CREATE_OFFSET UNITYSDK_OFFSET(0x1FBDE180)
-#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE_RECYCLE_OFFSET UNITYSDK_OFFSET(0x1FBDE0F0)
-#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBDDED0)
-#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FBDE010)
-#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBDE0E0)
+#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE_CREATE_OFFSET UNITYSDK_OFFSET(0x1FFE1920)
+#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE_RECYCLE_OFFSET UNITYSDK_OFFSET(0x1FFE1890)
+#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFE1670)
+#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FFE17B0)
+#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFE1880)
 
-inline static constexpr unsigned int AkCallbackManager_BankCallbackPackage_TypeDefinitionIndex = 33688;
+inline static constexpr unsigned int AkCallbackManager_BankCallbackPackage_TypeDefinitionIndex = 33234;
 
 class AkCallbackManager_BankCallbackPackage : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Stack_1<::AkCallbackManager_BankCallbackPackage*>** StaticGet_m_Pool()
+	static ::System::Collections::Generic::Stack_1<::System::Object*>** StaticGet_m_Pool()
 	{
-		return (::System::Collections::Generic::Stack_1<::AkCallbackManager_BankCallbackPackage*>**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_BankCallbackPackage_TypeDefinitionIndex)->GetStaticField(0x28A90);
+		return (::System::Collections::Generic::Stack_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_BankCallbackPackage_TypeDefinitionIndex)->GetStaticField(0x29CD0);
 	}
 	// static const ::System::Int32 POOL_SIZE = 0x1000; // 0x0
 	::System::Object* m_Cookie; // 0x10

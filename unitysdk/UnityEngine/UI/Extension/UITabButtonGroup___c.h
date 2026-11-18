@@ -7,34 +7,34 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__ADDLOCKTAB_B__40_1_OFFSET UNITYSDK_OFFSET(0x1EC68DA0)
-#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__ADDLOCKTAB_B__40_3_OFFSET UNITYSDK_OFFSET(0x1EC68DB0)
-#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC68D50)
-#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC68D90)
-#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__GETORDEREDENABLEDTABS_B__69_1_OFFSET UNITYSDK_OFFSET(0x1EC68DC0)
+#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__ADDLOCKTAB_B__49_1_OFFSET UNITYSDK_OFFSET(0x1EBC69C0)
+#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__ADDLOCKTAB_B__49_3_OFFSET UNITYSDK_OFFSET(0x1EBC69D0)
+#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBC6970)
+#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC69B0)
+#define UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__GETORDEREDENABLEDTABS_B__78_1_OFFSET UNITYSDK_OFFSET(0x1EBC69E0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITabButtonGroup___c_TypeDefinitionIndex = 50418;
+	inline static constexpr unsigned int UITabButtonGroup___c_TypeDefinitionIndex = 57566;
 
 	class UITabButtonGroup___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__40_3()
+		static ::System::Func_2<::UnityEngine::UI::Extension::UITabButton*, ::System::Boolean>** StaticGet___9__78_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UITabButtonGroup___c_TypeDefinitionIndex)->GetStaticField(0x47A20);
+			return (::System::Func_2<::UnityEngine::UI::Extension::UITabButton*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UITabButtonGroup___c_TypeDefinitionIndex)->GetStaticField(0x47A70);
 		}
-		static ::System::Func_2<::UnityEngine::UI::Extension::UITabButton*, ::System::Boolean>** StaticGet___9__69_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::UnityEngine::UI::Extension::UITabButton*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UITabButtonGroup___c_TypeDefinitionIndex)->GetStaticField(0x47A28);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UITabButtonGroup___c_TypeDefinitionIndex)->GetStaticField(0x47A78);
 		}
-		static ::UnityEngine::UI::Extension::UITabButtonGroup___c** StaticGet___9()
+		static ::System::Action_1<::System::Int32>** StaticGet___9__49_1()
 		{
-			return (::UnityEngine::UI::Extension::UITabButtonGroup___c**)Il2CppClass::FromTypeDefinitionIndex(UITabButtonGroup___c_TypeDefinitionIndex)->GetStaticField(0x47A30);
+			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UITabButtonGroup___c_TypeDefinitionIndex)->GetStaticField(0x47A80);
 		}
-		static ::System::Action_1<::System::Int32>** StaticGet___9__40_1()
+		static ::System::Action** StaticGet___9__49_3()
 		{
-			return (::System::Action_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UITabButtonGroup___c_TypeDefinitionIndex)->GetStaticField(0x47A38);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UITabButtonGroup___c_TypeDefinitionIndex)->GetStaticField(0x47A88);
 		}
 
 		static ::System::Void _cctor()
@@ -47,19 +47,19 @@ namespace UnityEngine::UI::Extension
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _AddLockTab_b__40_1(::System::Int32 _)
+		::System::Void _AddLockTab_b__49_1(::System::Int32 _)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__ADDLOCKTAB_B__40_1_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__ADDLOCKTAB_B__49_1_OFFSET))(this, _);
 		}
 
-		::System::Void _AddLockTab_b__40_3()
+		::System::Void _AddLockTab_b__49_3()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__ADDLOCKTAB_B__40_3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__ADDLOCKTAB_B__49_3_OFFSET))(this);
 		}
 
-		::System::Boolean _GetOrderedEnabledTabs_b__69_1(::UnityEngine::UI::Extension::UITabButton* x)
+		::System::Boolean _GetOrderedEnabledTabs_b__78_1(::UnityEngine::UI::Extension::UITabButton* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::Extension::UITabButton*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__GETORDEREDENABLEDTABS_B__69_1_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::Extension::UITabButton*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UITABBUTTONGROUP___C__GETORDEREDENABLEDTABS_B__78_1_OFFSET))(this, x);
 		}
 	};
 }

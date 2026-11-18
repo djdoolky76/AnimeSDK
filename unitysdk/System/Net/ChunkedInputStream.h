@@ -9,26 +9,26 @@ namespace System::IO { class Stream; }
 namespace System::Net { class HttpListenerContext; }
 namespace System::Net { class MonoChunkStream; }
 
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1DB83B10)
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_CLOSE_OFFSET UNITYSDK_OFFSET(0x1DB843B0)
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1DB83DC0)
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_GET_DECODER_OFFSET UNITYSDK_OFFSET(0x1DB83AC0)
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_ONREAD_OFFSET UNITYSDK_OFFSET(0x1DB84060)
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1DB83AE0)
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_SET_DECODER_OFFSET UNITYSDK_OFFSET(0x1DB83AD0)
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB83990)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1DF2B8D0)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_CLOSE_OFFSET UNITYSDK_OFFSET(0x1DF2C170)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1DF2BB80)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_GET_DECODER_OFFSET UNITYSDK_OFFSET(0x1DF2B880)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_ONREAD_OFFSET UNITYSDK_OFFSET(0x1DF2BE20)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1DF2B8A0)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_SET_DECODER_OFFSET UNITYSDK_OFFSET(0x1DF2B890)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF2B750)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ChunkedInputStream_TypeDefinitionIndex = 3494;
+	inline static constexpr unsigned int ChunkedInputStream_TypeDefinitionIndex = 3493;
 
 	class ChunkedInputStream : public ::System::Net::RequestStream
 	{
 	public:
-		::System::Net::MonoChunkStream* decoder; // 0x50
-		::System::Net::HttpListenerContext* context; // 0x58
-		::System::Boolean no_more_data; // 0x60
-		::System::Boolean disposed; // 0x61
+		::System::Net::HttpListenerContext* context; // 0x50
+		::System::Net::MonoChunkStream* decoder; // 0x58
+		::System::Boolean disposed; // 0x60
+		::System::Boolean no_more_data; // 0x61
 
 		::System::Void _ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::Il2CppArray<::System::Byte>* buffer, ::System::Int32 offset, ::System::Int32 length)
 		{

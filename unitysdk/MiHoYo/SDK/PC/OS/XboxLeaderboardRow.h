@@ -4,16 +4,17 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXLEADERBOARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEACDA0)
+#define MIHOYO_SDK_PC_OS_XBOXLEADERBOARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4AF4D0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxLeaderboardRow_TypeDefinitionIndex = 20775;
+	inline static constexpr unsigned int XboxLeaderboardRow_TypeDefinitionIndex = 19979;
 
 	class XboxLeaderboardRow : public ::System::Object
 	{
 	public:
 		::System::Int32 rank; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* xuid; // 0x18
 		::System::String* gamertag; // 0x20
 		::System::Double percentile; // 0x28

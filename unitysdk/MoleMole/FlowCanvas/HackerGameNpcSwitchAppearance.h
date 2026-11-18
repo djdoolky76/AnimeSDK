@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_5.h"
 
 namespace MoleMole { class ChessEntity; }
 namespace MoleMole { class ChessEntityCollection; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCSWITCHAPPEARANCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B598110)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCSWITCHAPPEARANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5985E0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCSWITCHAPPEARANCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13563C20)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCSWITCHAPPEARANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x135640F0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameNpcSwitchAppearance_TypeDefinitionIndex = 72775;
+	inline static constexpr unsigned int HackerGameNpcSwitchAppearance_TypeDefinitionIndex = 45056;
 
-	class HackerGameNpcSwitchAppearance : public ::FlowCanvas::Nodes::CallableActionNode_5<::MoleMole::ChessEntity*, ::MoleMole::ChessEntityCollection*, ::System::Int32, ::System::String*, ::System::String*>
+	class HackerGameNpcSwitchAppearance
 	{
 	public:
 		::System::Void _ctor()

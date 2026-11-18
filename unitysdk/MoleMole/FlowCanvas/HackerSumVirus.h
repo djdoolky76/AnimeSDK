@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableFunctionNode_2.h"
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERSUMVIRUS_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DAA1D0)
-#define MOLEMOLE_FLOWCANVAS_HACKERSUMVIRUS__CTOR_OFFSET UNITYSDK_OFFSET(0x19DAA290)
+#define MOLEMOLE_FLOWCANVAS_HACKERSUMVIRUS_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B311C0)
+#define MOLEMOLE_FLOWCANVAS_HACKERSUMVIRUS__CTOR_OFFSET UNITYSDK_OFFSET(0x12B31280)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerSumVirus_TypeDefinitionIndex = 70580;
+	inline static constexpr unsigned int HackerSumVirus_TypeDefinitionIndex = 57437;
 
-	class HackerSumVirus : public ::MoleMole::FlowCanvas::ChessboardCallableFunctionNode_2<::System::Int32, ::MoleMole::ChessEntity*>
+	class HackerSumVirus
 	{
 	public:
 		::System::Int32 _count; // 0x40

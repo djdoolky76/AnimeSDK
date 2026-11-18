@@ -1,28 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/InputSystem/LowLevel/ActionEvent.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/InputActionTrace_ActionEventPtr.h"
 
 namespace System { class Object; }
 namespace UnityEngine::InputSystem::Utilities { class InputActionTrace; }
 
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x296F30)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA66890)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xA66820)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xA66880)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA668E0)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA667E0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x946C70)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x946C00)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x946C60)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x946CC0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x946BC0)
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int InputActionTrace_Enumerator_TypeDefinitionIndex = 32654;
+	inline static constexpr unsigned int InputActionTrace_Enumerator_TypeDefinitionIndex = 32103;
 
 	struct alignas(8) InputActionTrace_Enumerator
 	{
 		::UnityEngine::InputSystem::Utilities::InputActionTrace* m_Trace; // 0x10
-		::UnityEngine::InputSystem::LowLevel::ActionEvent* m_Buffer; // 0x18
+		::PVOID m_Buffer; // 0x18
 		::System::Int32 m_EventCount; // 0x20
-		::UnityEngine::InputSystem::LowLevel::ActionEvent* m_CurrentEvent; // 0x28
+		::System::Byte _padding0[0x4];
+		::PVOID m_CurrentEvent; // 0x28
 		::System::Int32 m_CurrentIndex; // 0x30
 
 		::System::Void _ctor(::UnityEngine::InputSystem::Utilities::InputActionTrace* trace)
@@ -45,12 +46,10 @@ namespace UnityEngine::InputSystem::Utilities
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR_DISPOSE_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::InputSystem::Utilities::InputActionTrace_ActionEventPtr get_Current()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::InputActionTrace_ActionEventPtr(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_INPUTACTIONTRACE_ENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
-		*/
 
 		::System::Object* System_Collections_IEnumerator_get_Current()
 		{

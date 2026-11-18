@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Geometry/SmoothBezierSurface_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace Foundation::Geometry { template <typename T> class IBezierControlPointPolicy_1; }
 
-#define FOUNDATION_GEOMETRY_SMOOTHBEZIERSURFACEDIRECTION3D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1DDA35A0)
-#define FOUNDATION_GEOMETRY_SMOOTHBEZIERSURFACEDIRECTION3D_GET_POLICY_OFFSET UNITYSDK_OFFSET(0x1DDA3540)
-#define FOUNDATION_GEOMETRY_SMOOTHBEZIERSURFACEDIRECTION3D__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDA37E0)
+#define FOUNDATION_GEOMETRY_SMOOTHBEZIERSURFACEDIRECTION3D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1E222120)
+#define FOUNDATION_GEOMETRY_SMOOTHBEZIERSURFACEDIRECTION3D_GET_POLICY_OFFSET UNITYSDK_OFFSET(0x1E2220C0)
+#define FOUNDATION_GEOMETRY_SMOOTHBEZIERSURFACEDIRECTION3D__CTOR_OFFSET UNITYSDK_OFFSET(0x1E222360)
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int SmoothBezierSurfaceDirection3D_TypeDefinitionIndex = 8736;
+	inline static constexpr unsigned int SmoothBezierSurfaceDirection3D_TypeDefinitionIndex = 8992;
 
-	class SmoothBezierSurfaceDirection3D : public ::Foundation::Geometry::SmoothBezierSurface_1<::UnityEngine::Vector3>
+	class SmoothBezierSurfaceDirection3D
 	{
 	public:
 		::System::Void _ctor()

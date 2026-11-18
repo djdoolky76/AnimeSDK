@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_GLOBALPADDINGDATA_METHOD_1_E06B7E07D5241CFE_1_OFFSET UNITYSDK_OFFSET(0x13A92680)
-#define MOLEMOLE_GLOBALPADDINGDATA_METHOD_1_E06B7E07D5241CFE_2_OFFSET UNITYSDK_OFFSET(0x13A92720)
-#define MOLEMOLE_GLOBALPADDINGDATA_METHOD_1_E06B7E07D5241CFE_3_OFFSET UNITYSDK_OFFSET(0x13A927D0)
-#define MOLEMOLE_GLOBALPADDINGDATA_METHOD_1_E06B7E07D5241CFE_OFFSET UNITYSDK_OFFSET(0x13A925E0)
-#define MOLEMOLE_GLOBALPADDINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13A925D0)
+#define MOLEMOLE_GLOBALPADDINGDATA_IOABIBMDCDI_OFFSET UNITYSDK_OFFSET(0x1466D4F0)
+#define MOLEMOLE_GLOBALPADDINGDATA_JFPJBMODONJ_OFFSET UNITYSDK_OFFSET(0x1466D640)
+#define MOLEMOLE_GLOBALPADDINGDATA_JGBPMAAPOGP_OFFSET UNITYSDK_OFFSET(0x1466D590)
+#define MOLEMOLE_GLOBALPADDINGDATA_JKMOJJDGJKF_OFFSET UNITYSDK_OFFSET(0x1466D6F0)
+#define MOLEMOLE_GLOBALPADDINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1466D4E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GlobalPaddingData_TypeDefinitionIndex = 59948;
+	inline static constexpr unsigned int GlobalPaddingData_TypeDefinitionIndex = 72677;
 
 	class GlobalPaddingData : public ::System::Object
 	{
@@ -25,24 +25,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GLOBALPADDINGDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Single Method_1_E06B7E07D5241CFE(::System::Int32 a1, ::System::Int32 a2)
+		::System::Single IOABIBMDCDI(::System::Int32 NGIAEEBHCOC, ::System::Int32 EHEGJCCCJCA)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_GLOBALPADDINGDATA_METHOD_1_E06B7E07D5241CFE_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_GLOBALPADDINGDATA_IOABIBMDCDI_OFFSET))(this, NGIAEEBHCOC, EHEGJCCCJCA);
 		}
 
-		::System::Single Method_1_E06B7E07D5241CFE_1(::System::Int32 a1, ::System::Int32 a2)
+		::System::Single JGBPMAAPOGP(::System::Int32 NGIAEEBHCOC, ::System::Int32 EHEGJCCCJCA)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_GLOBALPADDINGDATA_METHOD_1_E06B7E07D5241CFE_1_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_GLOBALPADDINGDATA_JGBPMAAPOGP_OFFSET))(this, NGIAEEBHCOC, EHEGJCCCJCA);
 		}
 
-		::System::Single Method_1_E06B7E07D5241CFE_2(::System::Int32 a1, ::System::Int32 a2)
+		::System::Single JFPJBMODONJ(::System::Int32 NGIAEEBHCOC, ::System::Int32 EHEGJCCCJCA)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_GLOBALPADDINGDATA_METHOD_1_E06B7E07D5241CFE_2_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_GLOBALPADDINGDATA_JFPJBMODONJ_OFFSET))(this, NGIAEEBHCOC, EHEGJCCCJCA);
 		}
 
-		::System::Single Method_1_E06B7E07D5241CFE_3(::System::Int32 a1, ::System::Int32 a2)
+		::System::Single JKMOJJDGJKF(::System::Int32 NGIAEEBHCOC, ::System::Int32 EHEGJCCCJCA)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_GLOBALPADDINGDATA_METHOD_1_E06B7E07D5241CFE_3_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_GLOBALPADDINGDATA_JKMOJJDGJKF_OFFSET))(this, NGIAEEBHCOC, EHEGJCCCJCA);
 		}
 	};
 }

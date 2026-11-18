@@ -5,19 +5,19 @@
 namespace MoleMole { class UIBossChallengeInfoWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1604BF60)
-#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__RECONFIRMSELECTIONCHANGEDONLINEUPCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x1604BF70)
-#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__RECONFIRMSELECTIONCHANGEDONLINEUPCLOSE_B__1_OFFSET UNITYSDK_OFFSET(0x1604BFC0)
+#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15977E20)
+#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__RECONFIRMSELECTIONCHANGEDONLINEUPCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x15977E30)
+#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS41_0__RECONFIRMSELECTIONCHANGEDONLINEUPCLOSE_B__1_OFFSET UNITYSDK_OFFSET(0x15977E80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossChallengeInfoWidgetController___c__DisplayClass41_0_TypeDefinitionIndex = 80236;
+	inline static constexpr unsigned int UIBossChallengeInfoWidgetController___c__DisplayClass41_0_TypeDefinitionIndex = 48204;
 
 	class UIBossChallengeInfoWidgetController___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onFinished; // 0x10
-		::MoleMole::UIBossChallengeInfoWidgetController* __4__this; // 0x18
+		::MoleMole::UIBossChallengeInfoWidgetController* __4__this; // 0x10
+		::System::Action* onFinished; // 0x18
 
 		::System::Void _ctor()
 		{

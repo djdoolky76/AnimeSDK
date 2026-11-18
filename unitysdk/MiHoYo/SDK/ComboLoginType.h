@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ComboLoginType_TypeDefinitionIndex = 20207;
+	inline static constexpr unsigned int ComboLoginType_TypeDefinitionIndex = 19353;
 
 	enum class ComboLoginType : ::System::Int32
 	{

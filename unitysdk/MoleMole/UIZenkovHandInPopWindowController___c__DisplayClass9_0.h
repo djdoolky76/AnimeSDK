@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_175;
+class IFOHGNLIAKH;
 namespace MoleMole { class UIZenkovHandInPopWindowController; }
 
-#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__APPLYZENKOVITEMINFOTOWISHLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1165CAE0)
-#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1165CAD0)
+#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__APPLYZENKOVITEMINFOTOWISHLIST_B__0_OFFSET UNITYSDK_OFFSET(0x14E4AB60)
+#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14E4AB50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovHandInPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 58004;
+	inline static constexpr unsigned int UIZenkovHandInPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 67769;
 
 	class UIZenkovHandInPopWindowController___c__DisplayClass9_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ApplyZenkovItemInfoToWishList_b__0(::Class_0_16E4307DCC419505_175* ctrl)
+		::System::Void _ApplyZenkovItemInfoToWishList_b__0(::IFOHGNLIAKH* ctrl)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_175*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__APPLYZENKOVITEMINFOTOWISHLIST_B__0_OFFSET))(this, ctrl);
+			return ((::System::Void(*)(::PVOID, ::IFOHGNLIAKH*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__APPLYZENKOVITEMINFOTOWISHLIST_B__0_OFFSET))(this, ctrl);
 		}
 	};
 }

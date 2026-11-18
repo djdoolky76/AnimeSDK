@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-#define MOLEMOLE_GETITEMSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1924F2C0)
-#define MOLEMOLE_GETITEMSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1924F310)
-#define MOLEMOLE_GETITEMSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1924F2D0)
+#define MOLEMOLE_GETITEMSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1191D100)
+#define MOLEMOLE_GETITEMSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1191D150)
+#define MOLEMOLE_GETITEMSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1191D110)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GetItemShow_TypeDefinitionIndex = 67733;
+	inline static constexpr unsigned int GetItemShow_TypeDefinitionIndex = 91771;
 
 	class GetItemShow : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::System::Int32 itemID; // 0x28
-		::System::Int32 count; // 0x2C
+		::System::Int32 count; // 0x28
+		::System::Int32 itemID; // 0x2C
 
 		::System::Void _ctor(::System::Int32 id, ::System::Int32 count)
 		{

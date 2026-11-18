@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int FNPCAccessoryAttachSlotInfo_TypeDefinitionIndex = 68546;
+	inline static constexpr unsigned int FNPCAccessoryAttachSlotInfo_TypeDefinitionIndex = 38258;
 
 	struct alignas(8) FNPCAccessoryAttachSlotInfo
 	{
@@ -16,9 +16,11 @@ namespace NPCCrowd::Accessories
 		::System::Int32 SceneObjectID; // 0x14
 		::System::String* SeqFrameKey; // 0x18
 		::System::Boolean OverrideDefaultSlotOffset; // 0x20
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 OffsetPosition; // 0x24
 		::UnityEngine::Quaternion OffsetRotation; // 0x30
 		::UnityEngine::Vector3 OffsetScale; // 0x40
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::System::Int32>* AnimIDList; // 0x50
 	};
 }

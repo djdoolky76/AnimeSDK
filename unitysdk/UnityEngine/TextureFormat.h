@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextureFormat_TypeDefinitionIndex = 5239;
+	inline static constexpr unsigned int TextureFormat_TypeDefinitionIndex = 5241;
 
 	enum class TextureFormat : ::System::Int32
 	{

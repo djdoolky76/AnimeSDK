@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_1A07023AFF917E15.h"
+#include "unitysdk/HNGFDKLCIBE.h"
 #include "unitysdk/MoleMole/NapLevel_MonoSceneAnimationHandler.h"
 
 class ObjectsAnimationByCameraWithKey;
@@ -8,14 +8,14 @@ namespace MoleMole { class SceneObjectCaptureMono; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OBJECTSANIMATIONMANAGER_FINDTARGETBYKEY_OFFSET UNITYSDK_OFFSET(0x1214D030)
-#define OBJECTSANIMATIONMANAGER_ONSCENEANIMATIONINTERRUPT_OFFSET UNITYSDK_OFFSET(0x1214D730)
-#define OBJECTSANIMATIONMANAGER_ONSCENEANIMATIONPLAY_OFFSET UNITYSDK_OFFSET(0x1214CDD0)
-#define OBJECTSANIMATIONMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1214D8B0)
-#define OBJECTSANIMATIONMANAGER___BASE_ONSCENEANIMATIONINTERRUPT_OFFSET UNITYSDK_OFFSET(0x1214D990)
-#define OBJECTSANIMATIONMANAGER___BASE_ONSCENEANIMATIONPLAY_OFFSET UNITYSDK_OFFSET(0x1214DA20)
+#define OBJECTSANIMATIONMANAGER_FINDTARGETBYKEY_OFFSET UNITYSDK_OFFSET(0x16F97A90)
+#define OBJECTSANIMATIONMANAGER_ONSCENEANIMATIONINTERRUPT_OFFSET UNITYSDK_OFFSET(0x16F98190)
+#define OBJECTSANIMATIONMANAGER_ONSCENEANIMATIONPLAY_OFFSET UNITYSDK_OFFSET(0x16F97830)
+#define OBJECTSANIMATIONMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16F98310)
+#define OBJECTSANIMATIONMANAGER___BASE_ONSCENEANIMATIONINTERRUPT_OFFSET UNITYSDK_OFFSET(0x16F983F0)
+#define OBJECTSANIMATIONMANAGER___BASE_ONSCENEANIMATIONPLAY_OFFSET UNITYSDK_OFFSET(0x16F98480)
 
-inline static constexpr unsigned int ObjectsAnimationManager_TypeDefinitionIndex = 84611;
+inline static constexpr unsigned int ObjectsAnimationManager_TypeDefinitionIndex = 90411;
 
 class ObjectsAnimationManager : public ::MoleMole::NapLevel_MonoSceneAnimationHandler
 {
@@ -28,14 +28,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONMANAGER__CTOR_OFFSET))(this);
 	}
 
-	::Enum_3_1A07023AFF917E15 OnSceneAnimationPlay(::System::String* sceneDynamicKey, ::System::Int32 animationStartFrame, ::System::Int32 animationStopFrame, ::System::Boolean isLoop, ::System::Boolean isResume)
+	::HNGFDKLCIBE OnSceneAnimationPlay(::System::String* sceneDynamicKey, ::System::Int32 animationStartFrame, ::System::Int32 animationStopFrame, ::System::Boolean isLoop, ::System::Boolean isResume)
 	{
-		return ((::Enum_3_1A07023AFF917E15(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONMANAGER_ONSCENEANIMATIONPLAY_OFFSET))(this, sceneDynamicKey, animationStartFrame, animationStopFrame, isLoop, isResume);
+		return ((::HNGFDKLCIBE(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONMANAGER_ONSCENEANIMATIONPLAY_OFFSET))(this, sceneDynamicKey, animationStartFrame, animationStopFrame, isLoop, isResume);
 	}
 
-	::Enum_3_1A07023AFF917E15 OnSceneAnimationInterrupt(::System::String* sceneDynamicKey)
+	::HNGFDKLCIBE OnSceneAnimationInterrupt(::System::String* sceneDynamicKey)
 	{
-		return ((::Enum_3_1A07023AFF917E15(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONMANAGER_ONSCENEANIMATIONINTERRUPT_OFFSET))(this, sceneDynamicKey);
+		return ((::HNGFDKLCIBE(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONMANAGER_ONSCENEANIMATIONINTERRUPT_OFFSET))(this, sceneDynamicKey);
 	}
 
 	::ObjectsAnimationByCameraWithKey* FindTargetByKey(::System::String* key)
@@ -43,13 +43,13 @@ public:
 		return ((::ObjectsAnimationByCameraWithKey*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONMANAGER_FINDTARGETBYKEY_OFFSET))(this, key);
 	}
 
-	::Enum_3_1A07023AFF917E15 __base_OnSceneAnimationInterrupt(::System::String* P0)
+	::HNGFDKLCIBE __base_OnSceneAnimationInterrupt(::System::String* P0)
 	{
-		return ((::Enum_3_1A07023AFF917E15(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONMANAGER___BASE_ONSCENEANIMATIONINTERRUPT_OFFSET))(this, P0);
+		return ((::HNGFDKLCIBE(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONMANAGER___BASE_ONSCENEANIMATIONINTERRUPT_OFFSET))(this, P0);
 	}
 
-	::Enum_3_1A07023AFF917E15 __base_OnSceneAnimationPlay(::System::String* P0, ::System::Int32 P1, ::System::Int32 P2, ::System::Boolean P3, ::System::Boolean P4)
+	::HNGFDKLCIBE __base_OnSceneAnimationPlay(::System::String* P0, ::System::Int32 P1, ::System::Int32 P2, ::System::Boolean P3, ::System::Boolean P4)
 	{
-		return ((::Enum_3_1A07023AFF917E15(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONMANAGER___BASE_ONSCENEANIMATIONPLAY_OFFSET))(this, P0, P1, P2, P3, P4);
+		return ((::HNGFDKLCIBE(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + OBJECTSANIMATIONMANAGER___BASE_ONSCENEANIMATIONPLAY_OFFSET))(this, P0, P1, P2, P3, P4);
 	}
 };

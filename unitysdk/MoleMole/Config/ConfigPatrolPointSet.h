@@ -1,35 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_08354969BD933C92.h"
-#include "unitysdk/FlexBuffers/FlxMap.h"
-#include "unitysdk/FlexBuffers/FlxValue.h"
+#include "unitysdk/HEKAJBHGPBN.h"
 #include "unitysdk/MoleMole/Config/ConfigPatrolPoint.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
 
-class Class_0_16E4307DCC419505_198;
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
+class OHDHAGLCAEB;
 namespace MoleMole::Config { class ConfigStreamGamePatrolReachedAction; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x177DF6F0)
-#define MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177E0AE0)
-#define MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_FROMFLX_OFFSET UNITYSDK_OFFSET(0x177DFE10)
-#define MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_METHOD_1_0BD393E566CD3D4A_OFFSET UNITYSDK_OFFSET(0x177DFE90)
-#define MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_METHOD_1_2D08867FA34F8CAE_OFFSET UNITYSDK_OFFSET(0x177E0B40)
-#define MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET__CTOR_OFFSET UNITYSDK_OFFSET(0x177E0FE0)
+#define MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A766450)
+#define MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A767840)
+#define MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1A766B70)
+#define MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_IAEALJJMOKA_OFFSET UNITYSDK_OFFSET(0x1A7678A0)
+#define MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_PDHKICNJNGG_OFFSET UNITYSDK_OFFSET(0x1A766BF0)
+#define MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A767D40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPatrolPointSet_TypeDefinitionIndex = 51761;
+	inline static constexpr unsigned int ConfigPatrolPointSet_TypeDefinitionIndex = 88548;
 
 	class ConfigPatrolPointSet : public ::System::Object
 	{
 	public:
 		::System::String* SetId; // 0x10
-		::Enum_3_08354969BD933C92 PatrolMode; // 0x18
+		::HEKAJBHGPBN PatrolMode; // 0x18
 		::System::Boolean UseNavMesh; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::Single TurnSpeed; // 0x20
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigPatrolPoint>* Points; // 0x28
 		::MoleMole::Config::ConfigStreamGamePatrolReachedAction* DefaultOnPointReached; // 0x30
 		::MoleMole::Config::ConfigStreamGamePatrolReachedAction* OnCycleEndReached; // 0x38
@@ -39,29 +41,29 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ExposeMember(::Class_0_16E4307DCC419505_198* a1, ::System::String* a2)
+		::System::Void ExposeMember(::OHDHAGLCAEB* NLKHAICJJAL, ::System::String* GLBEOLEENIJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_EXPOSEMEMBER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_EXPOSEMEMBER_OFFSET))(this, NLKHAICJJAL, GLBEOLEENIJ);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_FROMFLX_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean FromBinary(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_FROMBINARY_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 
-		::System::Boolean Method_1_2D08867FA34F8CAE(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean PDHKICNJNGG(::FlexBuffers::FlxMap HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_METHOD_1_2D08867FA34F8CAE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_PDHKICNJNGG_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean Method_1_0BD393E566CD3D4A(::FlexBuffers::FlxMap a1)
+		::System::Boolean IAEALJJMOKA(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_METHOD_1_0BD393E566CD3D4A_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGPATROLPOINTSET_IAEALJJMOKA_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 	};
 }

@@ -3,10 +3,10 @@
 #include "unitysdk/LeavesData_int2.h"
 #include "unitysdk/System/ValueType.h"
 
-#define LEAVESDATA_INT2X5_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xA0D0C0)
-#define LEAVESDATA_INT2X5__CTOR_OFFSET UNITYSDK_OFFSET(0x3D1A00)
+#define LEAVESDATA_INT2X5_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x8F8EF0)
+#define LEAVESDATA_INT2X5__CTOR_OFFSET UNITYSDK_OFFSET(0x5E02B0)
 
-inline static constexpr unsigned int LeavesData_int2x5_TypeDefinitionIndex = 27033;
+inline static constexpr unsigned int LeavesData_int2x5_TypeDefinitionIndex = 27002;
 
 struct alignas(4) LeavesData_int2x5
 {

@@ -10,25 +10,25 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Reflection { class ConstructorInfo; }
 
-#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE_CALL_OFFSET UNITYSDK_OFFSET(0x1DB25980)
-#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1DB23E60)
-#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE_REGISTERINPUT_OFFSET UNITYSDK_OFFSET(0x1DB25DE0)
-#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE_REGISTEROUTPUT_OFFSET UNITYSDK_OFFSET(0x1DB25D00)
-#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1DB26090)
-#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB23E50)
+#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE_CALL_OFFSET UNITYSDK_OFFSET(0x1DE98820)
+#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1DE96CE0)
+#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE_REGISTERINPUT_OFFSET UNITYSDK_OFFSET(0x1DE98C80)
+#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE_REGISTEROUTPUT_OFFSET UNITYSDK_OFFSET(0x1DE98BA0)
+#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1DE98F30)
+#define FLOWCANVAS_NODES_PUREREFLECTIONCONSTRUCTORNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE96CD0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PureReflectionConstructorNode_TypeDefinitionIndex = 31284;
+	inline static constexpr unsigned int PureReflectionConstructorNode_TypeDefinitionIndex = 30884;
 
 	class PureReflectionConstructorNode : public ::FlowCanvas::Nodes::BaseReflectedConstructorNode
 	{
 	public:
-		::Il2CppArray<::FlowCanvas::ValueInput*>* arrayInputs; // 0x98
-		::System::Type* arrayParamsType; // 0xA0
-		::System::Object* resultObject; // 0xA8
-		::Il2CppArray<::System::Object*>* callParams; // 0xB0
-		::Il2CppArray<::FlowCanvas::ValueInput*>* inputs; // 0xB8
+		::System::Type* arrayParamsType; // 0x98
+		::Il2CppArray<::System::Object*>* callParams; // 0xA0
+		::Il2CppArray<::FlowCanvas::ValueInput*>* arrayInputs; // 0xA8
+		::Il2CppArray<::FlowCanvas::ValueInput*>* inputs; // 0xB0
+		::System::Object* resultObject; // 0xB8
 		::System::Int32 arrayParamsInput; // 0xC0
 
 		::System::Void _ctor()

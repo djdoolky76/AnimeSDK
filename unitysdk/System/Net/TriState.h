@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TriState_TypeDefinitionIndex = 3324;
+	inline static constexpr unsigned int TriState_TypeDefinitionIndex = 3323;
 
 	enum class TriState : ::System::Int32
 	{

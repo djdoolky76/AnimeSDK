@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int ITaskAssignable_1_TypeDefinitionIndex = 30772;
+	inline static constexpr unsigned int ITaskAssignable_1_TypeDefinitionIndex = 29909;
 
 	template <typename T>
 	class ITaskAssignable_1

@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/SceneMark/SceneMarkData_1.h"
 
 namespace UnityEngine::AI { class NavMeshLink; }
 
-#define MOLEMOLE_SCENEMARK_NAVMESHLINKMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x190A8400)
+#define MOLEMOLE_SCENEMARK_NAVMESHLINKMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x181101F0)
 
 namespace MoleMole::SceneMark
 {
-	inline static constexpr unsigned int NavmeshLinkMark_TypeDefinitionIndex = 44232;
+	inline static constexpr unsigned int NavmeshLinkMark_TypeDefinitionIndex = 91847;
 
-	class NavmeshLinkMark : public ::MoleMole::SceneMark::SceneMarkData_1<::MoleMole::SceneMark::NavmeshLinkMark*>
+	class NavmeshLinkMark
 	{
 	public:
 		::UnityEngine::AI::NavMeshLink* ComponentRef; // 0x18

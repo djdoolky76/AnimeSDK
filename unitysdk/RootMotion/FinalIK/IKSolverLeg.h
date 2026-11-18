@@ -6,31 +6,33 @@
 
 namespace RootMotion::FinalIK { class IKSolverVR_Leg; }
 namespace RootMotion::FinalIK { class IKSolver_Point; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_IKSOLVERLEG_FIXTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x1F885BA0)
-#define ROOTMOTION_FINALIK_IKSOLVERLEG_GETPOINTS_OFFSET UNITYSDK_OFFSET(0x1F8854B0)
-#define ROOTMOTION_FINALIK_IKSOLVERLEG_GETPOINT_OFFSET UNITYSDK_OFFSET(0x1F885780)
-#define ROOTMOTION_FINALIK_IKSOLVERLEG_ISVALID_OFFSET UNITYSDK_OFFSET(0x1F884B00)
-#define ROOTMOTION_FINALIK_IKSOLVERLEG_ONINITIATE_OFFSET UNITYSDK_OFFSET(0x1F885C20)
-#define ROOTMOTION_FINALIK_IKSOLVERLEG_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F886430)
-#define ROOTMOTION_FINALIK_IKSOLVERLEG_READ_OFFSET UNITYSDK_OFFSET(0x1F885CD0)
-#define ROOTMOTION_FINALIK_IKSOLVERLEG_SETCHAIN_OFFSET UNITYSDK_OFFSET(0x1F885420)
-#define ROOTMOTION_FINALIK_IKSOLVERLEG_SOLVE_OFFSET UNITYSDK_OFFSET(0x1F886460)
-#define ROOTMOTION_FINALIK_IKSOLVERLEG_STOREDEFAULTLOCALSTATE_OFFSET UNITYSDK_OFFSET(0x1F885950)
-#define ROOTMOTION_FINALIK_IKSOLVERLEG_WRITE_OFFSET UNITYSDK_OFFSET(0x1F886570)
-#define ROOTMOTION_FINALIK_IKSOLVERLEG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F886830)
+#define ROOTMOTION_FINALIK_IKSOLVERLEG_FIXTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x1FCA0BD0)
+#define ROOTMOTION_FINALIK_IKSOLVERLEG_GETPOINTS_OFFSET UNITYSDK_OFFSET(0x1FCA04E0)
+#define ROOTMOTION_FINALIK_IKSOLVERLEG_GETPOINT_OFFSET UNITYSDK_OFFSET(0x1FCA07B0)
+#define ROOTMOTION_FINALIK_IKSOLVERLEG_ISVALID_OFFSET UNITYSDK_OFFSET(0x1FC9FB30)
+#define ROOTMOTION_FINALIK_IKSOLVERLEG_ONINITIATE_OFFSET UNITYSDK_OFFSET(0x1FCA0C50)
+#define ROOTMOTION_FINALIK_IKSOLVERLEG_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1FCA1460)
+#define ROOTMOTION_FINALIK_IKSOLVERLEG_READ_OFFSET UNITYSDK_OFFSET(0x1FCA0D00)
+#define ROOTMOTION_FINALIK_IKSOLVERLEG_SETCHAIN_OFFSET UNITYSDK_OFFSET(0x1FCA0450)
+#define ROOTMOTION_FINALIK_IKSOLVERLEG_SOLVE_OFFSET UNITYSDK_OFFSET(0x1FCA1490)
+#define ROOTMOTION_FINALIK_IKSOLVERLEG_STOREDEFAULTLOCALSTATE_OFFSET UNITYSDK_OFFSET(0x1FCA0980)
+#define ROOTMOTION_FINALIK_IKSOLVERLEG_WRITE_OFFSET UNITYSDK_OFFSET(0x1FCA15A0)
+#define ROOTMOTION_FINALIK_IKSOLVERLEG__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCA1860)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolverLeg_TypeDefinitionIndex = 38881;
+	inline static constexpr unsigned int IKSolverLeg_TypeDefinitionIndex = 37001;
 
 	class IKSolverLeg : public ::RootMotion::FinalIK::IKSolver
 	{
 	public:
 		::System::Single IKRotationWeight; // 0x60
 		::UnityEngine::Quaternion IKRotation; // 0x64
+		::System::Byte _padding0[0x4];
 		::RootMotion::FinalIK::IKSolver_Point* pelvis; // 0x78
 		::RootMotion::FinalIK::IKSolver_Point* thigh; // 0x80
 		::RootMotion::FinalIK::IKSolver_Point* calf; // 0x88
@@ -38,6 +40,7 @@ namespace RootMotion::FinalIK
 		::RootMotion::FinalIK::IKSolver_Point* toe; // 0x98
 		::RootMotion::FinalIK::IKSolverVR_Leg* leg; // 0xA0
 		::UnityEngine::Vector3 heelOffset; // 0xA8
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::UnityEngine::Vector3>* positions; // 0xB8
 		::Il2CppArray<::UnityEngine::Quaternion>* rotations; // 0xC0
 
@@ -56,9 +59,9 @@ namespace RootMotion::FinalIK
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERLEG_SETCHAIN_OFFSET))(this, pelvis, thigh, calf, foot, toe, root);
 		}
 
-		::Il2CppArray<::RootMotion::FinalIK::IKSolver_Point*>* GetPoints()
+		::Il2CppArray<::System::Object*>* GetPoints()
 		{
-			return ((::Il2CppArray<::RootMotion::FinalIK::IKSolver_Point*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERLEG_GETPOINTS_OFFSET))(this);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_IKSOLVERLEG_GETPOINTS_OFFSET))(this);
 		}
 
 		::RootMotion::FinalIK::IKSolver_Point* GetPoint(::UnityEngine::Transform* transform)

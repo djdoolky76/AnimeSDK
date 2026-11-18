@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_DONOTDRAWASREFERENCEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76FEE0)
+#define SIRENIX_ODININSPECTOR_DONOTDRAWASREFERENCEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB80100)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int DoNotDrawAsReferenceAttribute_TypeDefinitionIndex = 7290;
+	inline static constexpr unsigned int DoNotDrawAsReferenceAttribute_TypeDefinitionIndex = 7297;
 
 	class DoNotDrawAsReferenceAttribute : public ::System::Attribute
 	{

@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/FlowNode.h"
 #include "unitysdk/MoleMole/StatusEffectType.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B82B830)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT_START_OFFSET UNITYSDK_OFFSET(0x1B82B970)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B82BC70)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x1B82BCB0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x180D1BE0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT_START_OFFSET UNITYSDK_OFFSET(0x180D1D20)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x180D2020)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYSETEFFECT__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x180D2060)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameEntitySetEffect_TypeDefinitionIndex = 61578;
+	inline static constexpr unsigned int HackerGameEntitySetEffect_TypeDefinitionIndex = 62800;
 
 	class HackerGameEntitySetEffect : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::StatusEffectType>* effectType; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* value; // 0xB0
-		::FlowCanvas::FlowInput* start; // 0xB8
-		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntity*>* chessEntity; // 0xC0
-		::FlowCanvas::FlowOutput* output; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* value; // 0xA8
+		::FlowCanvas::FlowInput* start; // 0xB0
+		::FlowCanvas::FlowOutput* output; // 0xB8
+		::FlowCanvas::ValueInput_1<::MoleMole::StatusEffectType>* effectType; // 0xC0
+		::FlowCanvas::ValueInput_1<::MoleMole::ChessEntity*>* chessEntity; // 0xC8
 
 		::System::Void _ctor()
 		{

@@ -13,25 +13,26 @@ namespace System::Data { class DataRow; }
 namespace System::Data { class DataRowView; }
 namespace System::Data { class IFilter; }
 
-#define SYSTEM_DATA_RELATEDVIEW_ADDNEW_OFFSET UNITYSDK_OFFSET(0x1EF16B90)
-#define SYSTEM_DATA_RELATEDVIEW_GETFILTER_OFFSET UNITYSDK_OFFSET(0x1EF16B80)
-#define SYSTEM_DATA_RELATEDVIEW_GETPARENTVALUES_OFFSET UNITYSDK_OFFSET(0x1EF16700)
-#define SYSTEM_DATA_RELATEDVIEW_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF16840)
-#define SYSTEM_DATA_RELATEDVIEW_SETINDEX_OFFSET UNITYSDK_OFFSET(0x1EF16D10)
-#define SYSTEM_DATA_RELATEDVIEW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EF165E0)
-#define SYSTEM_DATA_RELATEDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF164A0)
+#define SYSTEM_DATA_RELATEDVIEW_ADDNEW_OFFSET UNITYSDK_OFFSET(0x1F298070)
+#define SYSTEM_DATA_RELATEDVIEW_GETFILTER_OFFSET UNITYSDK_OFFSET(0x1F298060)
+#define SYSTEM_DATA_RELATEDVIEW_GETPARENTVALUES_OFFSET UNITYSDK_OFFSET(0x1F297BE0)
+#define SYSTEM_DATA_RELATEDVIEW_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F297D20)
+#define SYSTEM_DATA_RELATEDVIEW_SETINDEX_OFFSET UNITYSDK_OFFSET(0x1F2981F0)
+#define SYSTEM_DATA_RELATEDVIEW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F297AC0)
+#define SYSTEM_DATA_RELATEDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1F297980)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int RelatedView_TypeDefinitionIndex = 39332;
+	inline static constexpr unsigned int RelatedView_TypeDefinitionIndex = 37332;
 
 	class RelatedView : public ::System::Data::DataView
 	{
 	public:
-		::System::Data::DataRowView* _parentRowView; // 0xC0
-		::System::Data::DataKey _childKey; // 0xC8
-		::Il2CppArray<::System::Object*>* _filterValues; // 0xD0
-		::System::Nullable_1<::System::Data::DataKey> _parentKey; // 0xD8
+		::System::Nullable_1<::System::Data::DataKey> _parentKey; // 0xC0
+		::System::Byte _padding0[0x8];
+		::System::Data::DataRowView* _parentRowView; // 0xD0
+		::Il2CppArray<::System::Object*>* _filterValues; // 0xD8
+		::System::Data::DataKey _childKey; // 0xE0
 
 		::System::Void _ctor(::Il2CppArray<::System::Data::DataColumn*>* columns, ::Il2CppArray<::System::Object*>* values)
 		{

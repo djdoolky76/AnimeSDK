@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define PATHCREATION_GLOBALDISPLAYSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB3CD0)
+#define PATHCREATION_GLOBALDISPLAYSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F235CF0)
 
 namespace PathCreation
 {
-	inline static constexpr unsigned int GlobalDisplaySettings_TypeDefinitionIndex = 38106;
+	inline static constexpr unsigned int GlobalDisplaySettings_TypeDefinitionIndex = 36108;
 
 	class GlobalDisplaySettings : public ::UnityEngine::ScriptableObject
 	{
@@ -18,6 +18,7 @@ namespace PathCreation
 		::System::Boolean visibleBehindObjects; // 0x20
 		::System::Boolean visibleWhenNotSelected; // 0x21
 		::System::Boolean hideAutoControls; // 0x22
+		::System::Byte _padding0[0x1];
 		::PathCreation::GlobalDisplaySettings_HandleType anchorShape; // 0x24
 		::PathCreation::GlobalDisplaySettings_HandleType controlShape; // 0x28
 		::UnityEngine::Color anchor; // 0x2C

@@ -4,11 +4,11 @@
 
 namespace CriWare::CriTimeline::Atom { class CriAtomClipBase; }
 
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIPPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAC5B00)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIPPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9ACC60)
 
 namespace CriWare::CriTimeline::Atom
 {
-	inline static constexpr unsigned int CriAtomClipPlayConfig_TypeDefinitionIndex = 35038;
+	inline static constexpr unsigned int CriAtomClipPlayConfig_TypeDefinitionIndex = 34587;
 
 	struct alignas(8) CriAtomClipPlayConfig
 	{

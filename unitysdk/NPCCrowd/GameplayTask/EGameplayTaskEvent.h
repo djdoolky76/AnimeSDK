@@ -3,11 +3,11 @@
 
 namespace NPCCrowd::GameplayTask
 {
-	inline static constexpr unsigned int EGameplayTaskEvent_TypeDefinitionIndex = 58874;
+	inline static constexpr unsigned int EGameplayTaskEvent_TypeDefinitionIndex = 75232;
 
 	enum class EGameplayTaskEvent : ::System::Int32
 	{
-		Remove = 1,
 		Add = 0,
+		Remove = 1,
 	};
 }

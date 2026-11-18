@@ -3,13 +3,13 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowQuestScale_TypeDefinitionIndex = 14915;
+	inline static constexpr unsigned int EHollowQuestScale_TypeDefinitionIndex = 13582;
 
 	enum class EHollowQuestScale : ::System::Int16
 	{
 		Large = 2,
-		Mini = 0,
 		EnumCount = 3,
+		Mini = 0,
 		Medium = 1,
 	};
 }

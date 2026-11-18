@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIDURATIONMEASUREMENTSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x296F30)
-#define CRIWARE_CRIDURATIONMEASUREMENTSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define CRIWARE_CRIDURATIONMEASUREMENTSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
+#define CRIWARE_CRIDURATIONMEASUREMENTSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriDurationMeasurementScope_TypeDefinitionIndex = 34987;
+	inline static constexpr unsigned int CriDurationMeasurementScope_TypeDefinitionIndex = 34536;
 
-	struct alignas(1) CriDurationMeasurementScope
+	struct alignas(4) CriDurationMeasurementScope
 	{
 		::System::Void _ctor(::System::String* name)
 		{

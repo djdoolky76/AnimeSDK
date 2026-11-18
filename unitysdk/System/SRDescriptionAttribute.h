@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SRDESCRIPTIONATTRIBUTE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1D415D40)
-#define SYSTEM_SRDESCRIPTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D415CE0)
+#define SYSTEM_SRDESCRIPTIONATTRIBUTE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1D89D7A0)
+#define SYSTEM_SRDESCRIPTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D89D740)
 
 namespace System
 {
-	inline static constexpr unsigned int SRDescriptionAttribute_TypeDefinitionIndex = 2703;
+	inline static constexpr unsigned int SRDescriptionAttribute_TypeDefinitionIndex = 2702;
 
 	class SRDescriptionAttribute : public ::System::ComponentModel::DescriptionAttribute
 	{

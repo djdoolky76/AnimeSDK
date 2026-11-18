@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityMoveAvoidanceProcessors_ObstacleFlags_TypeDefinitionIndex = 59522;
+	inline static constexpr unsigned int NPCAbilityMoveAvoidanceProcessors_ObstacleFlags_TypeDefinitionIndex = 92855;
 
 	enum class NPCAbilityMoveAvoidanceProcessors_ObstacleFlags : ::System::Byte
 	{
-		CanAvoid = 0x1,
-		None = 0x0,
-		IsMoving = 0x2,
+		IsMoving = 2,
+		None = 0,
+		CanAvoid = 1,
 	};
 }

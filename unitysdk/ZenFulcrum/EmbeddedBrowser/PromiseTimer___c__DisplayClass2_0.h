@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/TimeData.h"
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBC3360)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS2_0__WAITFOR_B__0_OFFSET UNITYSDK_OFFSET(0x1FBC3370)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFAEAF0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS2_0__WAITFOR_B__0_OFFSET UNITYSDK_OFFSET(0x1FFAEB00)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PromiseTimer___c__DisplayClass2_0_TypeDefinitionIndex = 33353;
+	inline static constexpr unsigned int PromiseTimer___c__DisplayClass2_0_TypeDefinitionIndex = 32813;
 
 	class PromiseTimer___c__DisplayClass2_0 : public ::System::Object
 	{

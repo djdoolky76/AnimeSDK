@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_2.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCAMERASTRETCHV2_INVOKE_OFFSET UNITYSDK_OFFSET(0x1382C970)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCAMERASTRETCHV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1382CCD0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCAMERASTRETCHV2_INVOKE_OFFSET UNITYSDK_OFFSET(0x139D1C40)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCAMERASTRETCHV2__CTOR_OFFSET UNITYSDK_OFFSET(0x139D1FA0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardCameraStretchV2_TypeDefinitionIndex = 59946;
+	inline static constexpr unsigned int ChessboardCameraStretchV2_TypeDefinitionIndex = 91752;
 
-	class ChessboardCameraStretchV2 : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::System::String*, ::MoleMole::HollowChessboard::HollowCell>
+	class ChessboardCameraStretchV2
 	{
 	public:
 		::System::Void _ctor()

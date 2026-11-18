@@ -6,12 +6,12 @@ namespace System { class IOSelectorJob; }
 namespace System::Net::Sockets { class Socket; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS298_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E28EC60)
-#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS298_0__QUEUEIOSELECTORJOB_B__0_OFFSET UNITYSDK_OFFSET(0x1E28EC70)
+#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS298_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E50ACA0)
+#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS298_0__QUEUEIOSELECTORJOB_B__0_OFFSET UNITYSDK_OFFSET(0x1E50ACB0)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int Socket___c__DisplayClass298_0_TypeDefinitionIndex = 3660;
+	inline static constexpr unsigned int Socket___c__DisplayClass298_0_TypeDefinitionIndex = 3659;
 
 	class Socket___c__DisplayClass298_0 : public ::System::Object
 	{

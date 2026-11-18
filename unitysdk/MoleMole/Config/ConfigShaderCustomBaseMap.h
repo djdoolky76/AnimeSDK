@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMBASEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC8280)
+#define MOLEMOLE_CONFIG_CONFIGSHADERCUSTOMBASEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xFFE1DB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShaderCustomBaseMap_TypeDefinitionIndex = 81149;
+	inline static constexpr unsigned int ConfigShaderCustomBaseMap_TypeDefinitionIndex = 80816;
 
 	class ConfigShaderCustomBaseMap : public ::Foundation::MihoyoSerializedScriptableObject
 	{

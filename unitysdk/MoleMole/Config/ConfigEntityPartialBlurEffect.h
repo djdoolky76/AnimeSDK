@@ -6,30 +6,30 @@
 namespace MoleMole::Config { class ScreenEffectBool; }
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYPARTIALBLUREFFECT_GETCANBEDISABLEDBYGLOBALCONFIG_OFFSET UNITYSDK_OFFSET(0x1625CB30)
-#define MOLEMOLE_CONFIG_CONFIGENTITYPARTIALBLUREFFECT_GETDOWNSCALEFACTOR_OFFSET UNITYSDK_OFFSET(0x1625C930)
-#define MOLEMOLE_CONFIG_CONFIGENTITYPARTIALBLUREFFECT_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x1625C9B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYPARTIALBLUREFFECT_GETSAMPLECOUNTMAIN_OFFSET UNITYSDK_OFFSET(0x1625CA30)
-#define MOLEMOLE_CONFIG_CONFIGENTITYPARTIALBLUREFFECT_GETSTANDARDDEVIATION_OFFSET UNITYSDK_OFFSET(0x1625CAB0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYPARTIALBLUREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1625CBB0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYPARTIALBLUREFFECT_GETCANBEDISABLEDBYGLOBALCONFIG_OFFSET UNITYSDK_OFFSET(0x19B17280)
+#define MOLEMOLE_CONFIG_CONFIGENTITYPARTIALBLUREFFECT_GETDOWNSCALEFACTOR_OFFSET UNITYSDK_OFFSET(0x19B17080)
+#define MOLEMOLE_CONFIG_CONFIGENTITYPARTIALBLUREFFECT_GETRADIUS_OFFSET UNITYSDK_OFFSET(0x19B17100)
+#define MOLEMOLE_CONFIG_CONFIGENTITYPARTIALBLUREFFECT_GETSAMPLECOUNTMAIN_OFFSET UNITYSDK_OFFSET(0x19B17180)
+#define MOLEMOLE_CONFIG_CONFIGENTITYPARTIALBLUREFFECT_GETSTANDARDDEVIATION_OFFSET UNITYSDK_OFFSET(0x19B17200)
+#define MOLEMOLE_CONFIG_CONFIGENTITYPARTIALBLUREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B17300)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityPartialBlurEffect_TypeDefinitionIndex = 78407;
+	inline static constexpr unsigned int ConfigEntityPartialBlurEffect_TypeDefinitionIndex = 44322;
 
 	class ConfigEntityPartialBlurEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectFloat* sampleCountMain; // 0x40
-		::MoleMole::Config::ScreenEffectBool* canBeDisabledByGlobalConfig; // 0x48
-		::MoleMole::Config::ScreenEffectFloat* standardDeviation; // 0x50
-		::MoleMole::Config::ScreenEffectFloat* radius; // 0x58
-		::MoleMole::Config::ScreenEffectFloat* downScaleFactor; // 0x60
-		::MoleMole::Config::ScreenEffectFieldHandleType sampleCountMainHandleType; // 0x68
-		::MoleMole::Config::ScreenEffectFieldHandleType downScaleFactorHandleType; // 0x6C
+		::MoleMole::Config::ScreenEffectFloat* radius; // 0x40
+		::MoleMole::Config::ScreenEffectFloat* downScaleFactor; // 0x48
+		::MoleMole::Config::ScreenEffectBool* canBeDisabledByGlobalConfig; // 0x50
+		::MoleMole::Config::ScreenEffectFloat* sampleCountMain; // 0x58
+		::MoleMole::Config::ScreenEffectFloat* standardDeviation; // 0x60
+		::MoleMole::Config::ScreenEffectFieldHandleType downScaleFactorHandleType; // 0x68
+		::MoleMole::Config::ScreenEffectFieldHandleType radiusHandleType; // 0x6C
 		::MoleMole::Config::ScreenEffectFieldHandleType canBeDisabledByGlobalConfigHandleType; // 0x70
-		::MoleMole::Config::ScreenEffectFieldHandleType standardDeviationHandleType; // 0x74
-		::MoleMole::Config::ScreenEffectFieldHandleType radiusHandleType; // 0x78
+		::MoleMole::Config::ScreenEffectFieldHandleType sampleCountMainHandleType; // 0x74
+		::MoleMole::Config::ScreenEffectFieldHandleType standardDeviationHandleType; // 0x78
 
 		::System::Void _ctor()
 		{

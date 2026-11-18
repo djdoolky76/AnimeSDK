@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DATA_SQLTYPES_SQLTYPEEXCEPTION_SQLTYPEEXCEPTIONSERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1CD8BC20)
-#define SYSTEM_DATA_SQLTYPES_SQLTYPEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CD8BB10)
-#define SYSTEM_DATA_SQLTYPES_SQLTYPEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1CD8B9B0)
-#define SYSTEM_DATA_SQLTYPES_SQLTYPEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1CD8BBA0)
-#define SYSTEM_DATA_SQLTYPES_SQLTYPEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD8BA40)
+#define SYSTEM_DATA_SQLTYPES_SQLTYPEEXCEPTION_SQLTYPEEXCEPTIONSERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1D30A1E0)
+#define SYSTEM_DATA_SQLTYPES_SQLTYPEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D30A0D0)
+#define SYSTEM_DATA_SQLTYPES_SQLTYPEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D309F70)
+#define SYSTEM_DATA_SQLTYPES_SQLTYPEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1D30A160)
+#define SYSTEM_DATA_SQLTYPES_SQLTYPEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D30A000)
 
 namespace System::Data::SqlTypes
 {
-	inline static constexpr unsigned int SqlTypeException_TypeDefinitionIndex = 39389;
+	inline static constexpr unsigned int SqlTypeException_TypeDefinitionIndex = 37389;
 
 	class SqlTypeException : public ::System::SystemException
 	{

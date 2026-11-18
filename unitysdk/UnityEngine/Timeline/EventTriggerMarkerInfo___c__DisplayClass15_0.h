@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__DISPLAYCLASS15_0__CONTAINKEY_B__0_OFFSET UNITYSDK_OFFSET(0x1F243BC0)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F243BB0)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__DISPLAYCLASS15_0__CONTAINKEY_B__0_OFFSET UNITYSDK_OFFSET(0x1F5F9F50)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F9F40)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int EventTriggerMarkerInfo___c__DisplayClass15_0_TypeDefinitionIndex = 32949;
+	inline static constexpr unsigned int EventTriggerMarkerInfo___c__DisplayClass15_0_TypeDefinitionIndex = 32404;
 
 	class EventTriggerMarkerInfo___c__DisplayClass15_0 : public ::System::Object
 	{

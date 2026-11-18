@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace System::Xml::Schema { class XmlSchemaInfo; }
 
-#define SYSTEM_XML_ATTRIBUTEPSVIINFO_RESET_OFFSET UNITYSDK_OFFSET(0x1F146720)
-#define SYSTEM_XML_ATTRIBUTEPSVIINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1466C0)
+#define SYSTEM_XML_ATTRIBUTEPSVIINFO_RESET_OFFSET UNITYSDK_OFFSET(0x1F51A1C0)
+#define SYSTEM_XML_ATTRIBUTEPSVIINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F51A160)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int AttributePSVIInfo_TypeDefinitionIndex = 1746;
+	inline static constexpr unsigned int AttributePSVIInfo_TypeDefinitionIndex = 1745;
 
 	class AttributePSVIInfo : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaInfo* attributeSchemaInfo; // 0x10
-		::System::Object* typedAttributeValue; // 0x18
-		::System::String* namespaceUri; // 0x20
-		::System::String* localName; // 0x28
+		::System::String* localName; // 0x10
+		::System::Xml::Schema::XmlSchemaInfo* attributeSchemaInfo; // 0x18
+		::System::Object* typedAttributeValue; // 0x20
+		::System::String* namespaceUri; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CHARACTERAIMMODECONSTANT_METHOD_1_C5F9823D509784CD_OFFSET UNITYSDK_OFFSET(0x1BD4F790)
-#define MOLEMOLE_CONFIG_CHARACTERAIMMODECONSTANT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD4F760)
+#define MOLEMOLE_CONFIG_CHARACTERAIMMODECONSTANT_OCFPFMMNCFD_OFFSET UNITYSDK_OFFSET(0x190953F0)
+#define MOLEMOLE_CONFIG_CHARACTERAIMMODECONSTANT__CTOR_OFFSET UNITYSDK_OFFSET(0x190953C0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CharacterAimModeConstant_TypeDefinitionIndex = 84667;
+	inline static constexpr unsigned int CharacterAimModeConstant_TypeDefinitionIndex = 68463;
 
 	class CharacterAimModeConstant : public ::System::Object
 	{
@@ -19,6 +19,7 @@ namespace MoleMole::Config
 		::System::Single aimAssistColliderRadiusLossy; // 0x18
 		::System::Single aimAssistColliderAxisLossy; // 0x1C
 		::System::Single autoAimReachedProtectionTime; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* autoAimInputRecoverCurve; // 0x28
 		::System::Single autoAimTargetMaxSpeed; // 0x30
 		::System::Single autoAimDegreeLimit; // 0x34
@@ -29,9 +30,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CHARACTERAIMMODECONSTANT__CTOR_OFFSET))(this);
 		}
 
-		::System::Single Method_1_C5F9823D509784CD(::System::Single a1)
+		::System::Single OCFPFMMNCFD(::System::Single DCCHONJFGGE)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CHARACTERAIMMODECONSTANT_METHOD_1_C5F9823D509784CD_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CHARACTERAIMMODECONSTANT_OCFPFMMNCFD_OFFSET))(this, DCCHONJFGGE);
 		}
 	};
 }

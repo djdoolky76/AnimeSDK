@@ -3,7 +3,7 @@
 
 namespace System::IO::Compression
 {
-	inline static constexpr unsigned int CompressionLevel_TypeDefinitionIndex = 3240;
+	inline static constexpr unsigned int CompressionLevel_TypeDefinitionIndex = 3239;
 
 	enum class CompressionLevel : ::System::Int32
 	{

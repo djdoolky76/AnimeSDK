@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SMapGroupMemberStateExConfigRecruse_TypeDefinitionIndex = 50076;
+	inline static constexpr unsigned int SMapGroupMemberStateExConfigRecruse_TypeDefinitionIndex = 49965;
 
 	struct alignas(8) SMapGroupMemberStateExConfigRecruse
 	{
@@ -17,6 +17,7 @@ namespace MoleMole
 		::System::String* StateName; // 0x18
 		::System::Int32 StateValue; // 0x20
 		::System::Boolean Inverse; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::Collections::Generic::List_1<::MoleMole::SMapGroupMemberStateExConfig>* ExConfigs; // 0x28
 	};
 }

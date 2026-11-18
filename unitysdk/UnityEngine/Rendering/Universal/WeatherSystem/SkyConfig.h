@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/LazyLoadReference_1.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1E674C70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E674F40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1E8F8790)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F8A60)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SkyConfig_TypeDefinitionIndex = 27113;
+	inline static constexpr unsigned int SkyConfig_TypeDefinitionIndex = 26523;
 
-	class SkyConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SkyConfig*>
+	class SkyConfig
 	{
 	public:
 		::UnityEngine::Gradient* skyVerticalGradient; // 0x18

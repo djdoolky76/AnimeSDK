@@ -3,7 +3,7 @@
 
 namespace Ara
 {
-	inline static constexpr unsigned int AraTrail_TrailSorting_TypeDefinitionIndex = 33559;
+	inline static constexpr unsigned int AraTrail_TrailSorting_TypeDefinitionIndex = 33105;
 
 	enum class AraTrail_TrailSorting : ::System::Int32
 	{

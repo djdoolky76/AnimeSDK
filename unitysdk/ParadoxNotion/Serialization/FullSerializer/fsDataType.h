@@ -3,16 +3,16 @@
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int fsDataType_TypeDefinitionIndex = 30879;
+	inline static constexpr unsigned int fsDataType_TypeDefinitionIndex = 30318;
 
 	enum class fsDataType : ::System::Int32
 	{
-		Null = 6,
-		String = 5,
 		Boolean = 4,
-		Object = 1,
-		Int64 = 3,
+		String = 5,
 		Double = 2,
 		Array = 0,
+		Object = 1,
+		Null = 6,
+		Int64 = 3,
 	};
 }

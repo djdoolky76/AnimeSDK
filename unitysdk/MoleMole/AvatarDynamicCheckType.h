@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AvatarDynamicCheckType_TypeDefinitionIndex = 59077;
+	inline static constexpr unsigned int AvatarDynamicCheckType_TypeDefinitionIndex = 66503;
 
 	enum class AvatarDynamicCheckType : ::System::Int32
 	{
+		TeamAvatar = 2,
 		LocalAvatar = 1,
 		None = 0,
 		AllAvatar = 3,
-		TeamAvatar = 2,
 	};
 }

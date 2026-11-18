@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Runtime::Remoting::Messaging { class IMethodReturnMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_METHODRETURNDICTIONARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C329B40)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_METHODRETURNDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C329A30)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_METHODRETURNDICTIONARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8A10C0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_METHODRETURNDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A0FB0)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int MethodReturnDictionary_TypeDefinitionIndex = 1359;
+	inline static constexpr unsigned int MethodReturnDictionary_TypeDefinitionIndex = 1358;
 
 	class MethodReturnDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary
 	{

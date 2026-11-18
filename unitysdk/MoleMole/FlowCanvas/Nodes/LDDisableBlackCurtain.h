@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDISABLEBLACKCURTAIN_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B0B9A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDISABLEBLACKCURTAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19B0BAE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDISABLEBLACKCURTAIN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8E89C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDISABLEBLACKCURTAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E8B00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDDisableBlackCurtain_TypeDefinitionIndex = 50942;
+	inline static constexpr unsigned int LDDisableBlackCurtain_TypeDefinitionIndex = 47203;
 
-	class LDDisableBlackCurtain : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::System::Single, ::UnityEngine::AnimationCurve*>
+	class LDDisableBlackCurtain
 	{
 	public:
 		::System::Void _ctor()

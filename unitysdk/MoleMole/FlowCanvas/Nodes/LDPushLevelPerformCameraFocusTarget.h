@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_6.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHLEVELPERFORMCAMERAFOCUSTARGET_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DB4F10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHLEVELPERFORMCAMERAFOCUSTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB50A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHLEVELPERFORMCAMERAFOCUSTARGET_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B3B300)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPUSHLEVELPERFORMCAMERAFOCUSTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3B490)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPushLevelPerformCameraFocusTarget_TypeDefinitionIndex = 54449;
+	inline static constexpr unsigned int LDPushLevelPerformCameraFocusTarget_TypeDefinitionIndex = 47524;
 
-	class LDPushLevelPerformCameraFocusTarget : public ::FlowCanvas::Nodes::CallableActionNode_6<::System::String*, ::MoleMole::Battle::Entity*, ::System::String*, ::UnityEngine::Vector3, ::System::Single, ::System::Single>
+	class LDPushLevelPerformCameraFocusTarget
 	{
 	public:
 		::System::Void _ctor()

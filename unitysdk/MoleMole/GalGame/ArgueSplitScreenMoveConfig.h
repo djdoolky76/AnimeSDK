@@ -4,11 +4,11 @@
 #include "unitysdk/MoleMole/GalGame/DoubleScreenShiftState.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_GALGAME_ARGUESPLITSCREENMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190832F0)
+#define MOLEMOLE_GALGAME_ARGUESPLITSCREENMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x180E9DE0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int ArgueSplitScreenMoveConfig_TypeDefinitionIndex = 70870;
+	inline static constexpr unsigned int ArgueSplitScreenMoveConfig_TypeDefinitionIndex = 45571;
 
 	class ArgueSplitScreenMoveConfig : public ::System::Object
 	{

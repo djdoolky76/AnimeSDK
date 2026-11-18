@@ -1,42 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ColorHSV.h"
-#include "unitysdk/MoleMole/ColorHSV_Struct_2_1C0D1D514F9A1CCA.h"
+#include "unitysdk/MoleMole/ColorHSV_CBPFINCLIAK.h"
 #include "unitysdk/MoleMole/UIColorTweakerTarget.h"
-#include "unitysdk/MoleMole/UIColorTweakerTargetGroup_Struct_2_B6CC7A1324E97FE4.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/MoleMole/UIColorTweakerTargetGroup_LJNCPHFGCCH.h"
 #include "unitysdk/UnityEngine/Color.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_GET_LEADERCOLOR_OFFSET UNITYSDK_OFFSET(0x18562EE0)
-#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x18563E20)
-#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_METHOD_1_7A0A609FED879DF6_OFFSET UNITYSDK_OFFSET(0x18563060)
-#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_METHOD_1_7F29568EA964E563_OFFSET UNITYSDK_OFFSET(0x18563E80)
-#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_METHOD_1_B0F2C48B9F11EEB1_OFFSET UNITYSDK_OFFSET(0x18563C00)
-#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_METHOD_1_D4E0886303081325_OFFSET UNITYSDK_OFFSET(0x18563110)
-#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_METHOD_1_EE60F812A0098D6C_OFFSET UNITYSDK_OFFSET(0x185637F0)
-#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_SET_LEADERCOLOR_OFFSET UNITYSDK_OFFSET(0x18562F10)
-#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x18562FF0)
-#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18562FE0)
+#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_BAPJGCCPDKP_OFFSET UNITYSDK_OFFSET(0x18005510)
+#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_BEBLJFMMEGA_OFFSET UNITYSDK_OFFSET(0x180048E0)
+#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_BNEJCNLGJCP_OFFSET UNITYSDK_OFFSET(0x18005180)
+#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_CJEEBCBFFBN_OFFSET UNITYSDK_OFFSET(0x18005730)
+#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_GET_LEADERCOLOR_OFFSET UNITYSDK_OFFSET(0x18004760)
+#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_JMDEKPONKMF_OFFSET UNITYSDK_OFFSET(0x18004CE0)
+#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_PLCJNBHECGC_OFFSET UNITYSDK_OFFSET(0x18005120)
+#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP_SET_LEADERCOLOR_OFFSET UNITYSDK_OFFSET(0x18004790)
+#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x18004870)
+#define MOLEMOLE_UICOLORTWEAKERTARGETGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18004860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIColorTweakerTargetGroup_TypeDefinitionIndex = 88567;
+	inline static constexpr unsigned int UIColorTweakerTargetGroup_TypeDefinitionIndex = 74883;
 
 	class UIColorTweakerTargetGroup : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::MoleMole::UIColorTweakerTargetGroup_Struct_2_B6CC7A1324E97FE4>** StaticGet__cache()
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet__cache()
 		{
-			return (::System::Collections::Generic::List_1<::MoleMole::UIColorTweakerTargetGroup_Struct_2_B6CC7A1324E97FE4>**)Il2CppClass::FromTypeDefinitionIndex(UIColorTweakerTargetGroup_TypeDefinitionIndex)->GetStaticField(0x429C0);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UIColorTweakerTargetGroup_TypeDefinitionIndex)->GetStaticField(0x48940);
 		}
 		::System::String* key; // 0x10
 		::Il2CppArray<::MoleMole::UIColorTweakerTarget>* targets; // 0x18
 		::MoleMole::ColorHSV _defaultColor; // 0x20
-		::MoleMole::ColorHSV_Struct_2_1C0D1D514F9A1CCA _targetOffset; // 0x2C
-		::Il2CppArray<::MoleMole::UIColorTweakerTargetGroup_Struct_2_B6CC7A1324E97FE4>* _runtimeTargets; // 0x38
+		::MoleMole::ColorHSV_CBPFINCLIAK _targetOffset; // 0x2C
+		::Il2CppArray<::System::Object*>* _runtimeTargets; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -53,39 +53,39 @@ namespace MoleMole
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_GET_LEADERCOLOR_OFFSET))(this);
 		}
 
-		::System::Void set_LeaderColor(::UnityEngine::Color a1)
+		::System::Void set_LeaderColor(::UnityEngine::Color EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_SET_LEADERCOLOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_SET_LEADERCOLOR_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		static ::System::Boolean Method_1_7A0A609FED879DF6(::UnityEngine::Color& a1, ::UnityEngine::Color& a2)
+		static ::MoleMole::UIColorTweakerTargetGroup_LJNCPHFGCCH BEBLJFMMEGA(::MoleMole::UIColorTweakerTarget& HODAIDNDKHD)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Color&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_METHOD_1_7A0A609FED879DF6_OFFSET))(a1, a2);
+			return ((::MoleMole::UIColorTweakerTargetGroup_LJNCPHFGCCH(*)(::MoleMole::UIColorTweakerTarget&))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_BEBLJFMMEGA_OFFSET))(HODAIDNDKHD);
 		}
 
-		::System::Void Method_1_D4E0886303081325(::System::Boolean a1)
+		::System::Void JMDEKPONKMF()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_METHOD_1_D4E0886303081325_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_JMDEKPONKMF_OFFSET))(this);
 		}
 
-		static ::MoleMole::UIColorTweakerTargetGroup_Struct_2_B6CC7A1324E97FE4 Method_1_EE60F812A0098D6C(::MoleMole::UIColorTweakerTarget& a1)
+		::System::Void PLCJNBHECGC()
 		{
-			return ((::MoleMole::UIColorTweakerTargetGroup_Struct_2_B6CC7A1324E97FE4(*)(::MoleMole::UIColorTweakerTarget&))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_METHOD_1_EE60F812A0098D6C_OFFSET))(a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_PLCJNBHECGC_OFFSET))(this);
 		}
 
-		::System::Void Method_1_B0F2C48B9F11EEB1(::MoleMole::ColorHSV& a1)
+		::System::Void BAPJGCCPDKP(::MoleMole::ColorHSV& HODAIDNDKHD)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::ColorHSV&))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_METHOD_1_B0F2C48B9F11EEB1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::ColorHSV&))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_BAPJGCCPDKP_OFFSET))(this, HODAIDNDKHD);
 		}
 
-		::System::Void Method_1_4343F372F34C05BF()
+		::System::Void BNEJCNLGJCP(::System::Boolean JBJFINAFFKO)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_BNEJCNLGJCP_OFFSET))(this, JBJFINAFFKO);
 		}
 
-		::System::Void Method_1_7F29568EA964E563()
+		static ::System::Boolean CJEEBCBFFBN(::UnityEngine::Color& EJCBEJMGFAJ, ::UnityEngine::Color& EBFCACIEKBC)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_METHOD_1_7F29568EA964E563_OFFSET))(this);
+			return ((::System::Boolean(*)(::UnityEngine::Color&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOLORTWEAKERTARGETGROUP_CJEEBCBFFBN_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
 	};
 }

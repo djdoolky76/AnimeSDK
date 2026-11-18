@@ -4,11 +4,11 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UISUMMERTIDETREASURECUSTOMERROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x151AECB0)
+#define MOLEMOLE_UISUMMERTIDETREASURECUSTOMERROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1135F100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerTideTreasureCustomerRowWidgetController_Data_TypeDefinitionIndex = 84784;
+	inline static constexpr unsigned int UISummerTideTreasureCustomerRowWidgetController_Data_TypeDefinitionIndex = 84517;
 
 	class UISummerTideTreasureCustomerRowWidgetController_Data : public ::System::Object
 	{

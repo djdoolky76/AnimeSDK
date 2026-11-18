@@ -5,18 +5,18 @@
 namespace MoleMole { class UIOverlordFeastTodoListPageController; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define MOLEMOLE_UIOVERLORDFEASTTODOLISTPAGECONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D23150)
-#define MOLEMOLE_UIOVERLORDFEASTTODOLISTPAGECONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x17D24550)
+#define MOLEMOLE_UIOVERLORDFEASTTODOLISTPAGECONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19062000)
+#define MOLEMOLE_UIOVERLORDFEASTTODOLISTPAGECONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x19062F80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastTodoListPageController___c__DisplayClass10_0_TypeDefinitionIndex = 79094;
+	inline static constexpr unsigned int UIOverlordFeastTodoListPageController___c__DisplayClass10_0_TypeDefinitionIndex = 84445;
 
 	class UIOverlordFeastTodoListPageController___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIOverlordFeastTodoListPageController* __4__this; // 0x10
-		::UnityEngine::UI::Extension::UITabButton* tab; // 0x18
+		::UnityEngine::UI::Extension::UITabButton* tab; // 0x10
+		::MoleMole::UIOverlordFeastTodoListPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

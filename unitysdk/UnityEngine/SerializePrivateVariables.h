@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_SERIALIZEPRIVATEVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA1BC20)
+#define UNITYENGINE_SERIALIZEPRIVATEVARIABLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9C410)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SerializePrivateVariables_TypeDefinitionIndex = 5379;
+	inline static constexpr unsigned int SerializePrivateVariables_TypeDefinitionIndex = 5382;
 
 	class SerializePrivateVariables : public ::System::Attribute
 	{

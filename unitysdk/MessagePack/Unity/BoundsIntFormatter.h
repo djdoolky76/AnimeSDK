@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/BoundsInt.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_BOUNDSINTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7B34B0)
-#define MESSAGEPACK_UNITY_BOUNDSINTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7B3280)
-#define MESSAGEPACK_UNITY_BOUNDSINTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B38C0)
+#define MESSAGEPACK_UNITY_BOUNDSINTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA64570)
+#define MESSAGEPACK_UNITY_BOUNDSINTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA64340)
+#define MESSAGEPACK_UNITY_BOUNDSINTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA64980)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int BoundsIntFormatter_TypeDefinitionIndex = 31038;
+	inline static constexpr unsigned int BoundsIntFormatter_TypeDefinitionIndex = 30244;
 
 	class BoundsIntFormatter : public ::System::Object
 	{

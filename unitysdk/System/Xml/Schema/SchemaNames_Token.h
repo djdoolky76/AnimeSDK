@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int SchemaNames_Token_TypeDefinitionIndex = 2089;
+	inline static constexpr unsigned int SchemaNames_Token_TypeDefinitionIndex = 2088;
 
 	enum class SchemaNames_Token : ::System::Int32
 	{

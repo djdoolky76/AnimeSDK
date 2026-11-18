@@ -6,11 +6,11 @@ namespace MoleMole::Timeline { class SerializeKeyframe; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TIMELINE_ATTRKEYFRAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x11D73F30)
+#define MOLEMOLE_TIMELINE_ATTRKEYFRAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x18968B60)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int AttrKeyFrames_TypeDefinitionIndex = 69588;
+	inline static constexpr unsigned int AttrKeyFrames_TypeDefinitionIndex = 40851;
 
 	class AttrKeyFrames : public ::System::Object
 	{

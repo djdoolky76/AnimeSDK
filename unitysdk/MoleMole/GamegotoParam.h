@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GAMEGOTOPARAM_METHOD_1_0AF278B86D0A237C_OFFSET UNITYSDK_OFFSET(0x17905550)
-#define MOLEMOLE_GAMEGOTOPARAM_METHOD_1_4A0CFEBE0C9DF506_OFFSET UNITYSDK_OFFSET(0x17905230)
-#define MOLEMOLE_GAMEGOTOPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17905220)
+#define MOLEMOLE_GAMEGOTOPARAM_EJGCJJLJPCJ_OFFSET UNITYSDK_OFFSET(0x14AEB6A0)
+#define MOLEMOLE_GAMEGOTOPARAM_MIBGCLBFJKE_OFFSET UNITYSDK_OFFSET(0x14AEB540)
+#define MOLEMOLE_GAMEGOTOPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x14AEB530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GamegotoParam_TypeDefinitionIndex = 80609;
+	inline static constexpr unsigned int GamegotoParam_TypeDefinitionIndex = 61540;
 
 	class GamegotoParam : public ::System::Object
 	{
@@ -19,6 +19,7 @@ namespace MoleMole
 		// static const ::System::String* JumpConfigValue; // 0x0
 		// static const ::System::String* JumpTipsKey; // 0x0
 		::System::Int32 openType; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* arg; // 0x18
 		::System::Int64 startTime; // 0x20
 		::System::Int64 endTime; // 0x28
@@ -29,14 +30,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEGOTOPARAM__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_4A0CFEBE0C9DF506(::System::String* a1)
+		static ::MoleMole::GamegotoParam* MIBGCLBFJKE(::System::String* BHDNBGLCNOM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEGOTOPARAM_METHOD_1_4A0CFEBE0C9DF506_OFFSET))(this, a1);
+			return ((::MoleMole::GamegotoParam*(*)(::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEGOTOPARAM_MIBGCLBFJKE_OFFSET))(BHDNBGLCNOM);
 		}
 
-		static ::MoleMole::GamegotoParam* Method_1_0AF278B86D0A237C(::System::String* a1)
+		::System::Void EJGCJJLJPCJ(::System::String* PCDADGKIPML)
 		{
-			return ((::MoleMole::GamegotoParam*(*)(::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEGOTOPARAM_METHOD_1_0AF278B86D0A237C_OFFSET))(a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_GAMEGOTOPARAM_EJGCJJLJPCJ_OFFSET))(this, PCDADGKIPML);
 		}
 	};
 }

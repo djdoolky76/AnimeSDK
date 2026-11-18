@@ -4,7 +4,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SingletonThreadSafe_1_TypeDefinitionIndex = 7835;
+	inline static constexpr unsigned int SingletonThreadSafe_1_TypeDefinitionIndex = 7857;
 
 	template <typename T>
 	class SingletonThreadSafe_1 : public ::System::Object

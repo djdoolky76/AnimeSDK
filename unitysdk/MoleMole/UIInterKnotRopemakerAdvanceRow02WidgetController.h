@@ -1,0 +1,115 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AOJCBOPABKB.h"
+#include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
+
+class IBCGIAKBPMO;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIInterKnotRopemakerAdvanceInfoWidgetController; }
+namespace MoleMole { class UIRopeMakerWidgetController_PromotionModuleGroup; }
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_AMOKCNDKKFJ_OFFSET UNITYSDK_OFFSET(0x17952250)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_BDAELMGHGNO_OFFSET UNITYSDK_OFFSET(0x17952060)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_CLDHDOFHHBN_OFFSET UNITYSDK_OFFSET(0x17951F50)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_KHBEFAHKHAO_OFFSET UNITYSDK_OFFSET(0x17951A30)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x17951180)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x17951210)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x179515F0)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x17951020)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_PDKCHDBODJB_OFFSET UNITYSDK_OFFSET(0x17951300)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17951720)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x179517E0)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x17951870)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x17951910)
+#define MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x179519A0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIInterKnotRopemakerAdvanceRow02WidgetController_TypeDefinitionIndex = 83123;
+
+	class UIInterKnotRopemakerAdvanceRow02WidgetController : public ::MoleMole::ScrollViewItemWidgetController
+	{
+	public:
+		// static const ::System::Int32 FLIMPHGBHDD = 0x3; // 0x0
+		// static const ::System::Int32 HBNFFBGBFIK = 0x5; // 0x0
+		::IBCGIAKBPMO* _view; // 0x2F8
+		::MoleMole::UIRopeMakerWidgetController_PromotionModuleGroup* BAKBGFKHIDD; // 0x300
+		::AOJCBOPABKB OIFOPKHKNLD; // 0x308
+		::System::Int32 FJNOOOJCGNI; // 0x30C
+		::System::Collections::Generic::List_1<::System::Int32>* ALLHLAIGICM; // 0x310
+		::System::Collections::Generic::List_1<::MoleMole::UIInterKnotRopemakerAdvanceInfoWidgetController*>* CBKPGNCCOBH; // 0x318
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void KHBEFAHKHAO(::System::Collections::Generic::IReadOnlyList_1<::System::Int32>* IMHMAGBACLA)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_KHBEFAHKHAO_OFFSET))(this, IMHMAGBACLA);
+		}
+
+		::System::Void CLDHDOFHHBN(::System::Int32 JHFKDGBCOBA)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_CLDHDOFHHBN_OFFSET))(this, JHFKDGBCOBA);
+		}
+
+		::System::Void BDAELMGHGNO()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_BDAELMGHGNO_OFFSET))(this);
+		}
+
+		::System::Void PDKCHDBODJB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_PDKCHDBODJB_OFFSET))(this);
+		}
+
+		::System::Void AMOKCNDKKFJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTROPEMAKERADVANCEROW02WIDGETCONTROLLER_AMOKCNDKKFJ_OFFSET))(this);
+		}
+	};
+}

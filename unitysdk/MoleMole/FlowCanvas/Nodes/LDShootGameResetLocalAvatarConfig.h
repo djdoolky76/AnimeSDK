@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAMERESETLOCALAVATARCONFIG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1B1A4420)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAMERESETLOCALAVATARCONFIG_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B1A4360)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAMERESETLOCALAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A4870)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAMERESETLOCALAVATARCONFIG_PROCESS_OFFSET UNITYSDK_OFFSET(0x1B4B62D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAMERESETLOCALAVATARCONFIG_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B4B6210)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOOTGAMERESETLOCALAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B6720)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShootGameResetLocalAvatarConfig_TypeDefinitionIndex = 50584;
+	inline static constexpr unsigned int LDShootGameResetLocalAvatarConfig_TypeDefinitionIndex = 71634;
 
 	class LDShootGameResetLocalAvatarConfig : public ::FlowCanvas::Nodes::FlowControlNode
 	{

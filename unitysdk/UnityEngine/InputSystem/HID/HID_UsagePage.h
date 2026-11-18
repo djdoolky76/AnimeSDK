@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::HID
 {
-	inline static constexpr unsigned int HID_UsagePage_TypeDefinitionIndex = 32416;
+	inline static constexpr unsigned int HID_UsagePage_TypeDefinitionIndex = 31865;
 
 	enum class HID_UsagePage : ::System::Int32
 	{

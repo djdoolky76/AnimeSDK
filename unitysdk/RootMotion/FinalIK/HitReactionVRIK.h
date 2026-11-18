@@ -3,25 +3,24 @@
 #include "unitysdk/RootMotion/FinalIK/OffsetModifierVRIK.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RootMotion::FinalIK { class HitReactionVRIK_PositionOffset; }
-namespace RootMotion::FinalIK { class HitReactionVRIK_RotationOffset; }
+namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Collider; }
 
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_HIT_OFFSET UNITYSDK_OFFSET(0x1FA5A900)
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1FA5A650)
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA5AD10)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_HIT_OFFSET UNITYSDK_OFFSET(0x1FE6AFC0)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1FE6AD10)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE6B3D0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int HitReactionVRIK_TypeDefinitionIndex = 38887;
+	inline static constexpr unsigned int HitReactionVRIK_TypeDefinitionIndex = 36844;
 
 	class HitReactionVRIK : public ::RootMotion::FinalIK::OffsetModifierVRIK
 	{
 	public:
 		::Il2CppArray<::UnityEngine::AnimationCurve*>* offsetCurves; // 0x30
-		::Il2CppArray<::RootMotion::FinalIK::HitReactionVRIK_PositionOffset*>* positionOffsets; // 0x38
-		::Il2CppArray<::RootMotion::FinalIK::HitReactionVRIK_RotationOffset*>* rotationOffsets; // 0x40
+		::Il2CppArray<::System::Object*>* positionOffsets; // 0x38
+		::Il2CppArray<::System::Object*>* rotationOffsets; // 0x40
 
 		::System::Void _ctor()
 		{

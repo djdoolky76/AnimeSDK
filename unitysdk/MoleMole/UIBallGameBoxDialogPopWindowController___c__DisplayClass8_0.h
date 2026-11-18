@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIGeneralToggleWidgetController; }
 
-#define MOLEMOLE_UIBALLGAMEBOXDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19307070)
-#define MOLEMOLE_UIBALLGAMEBOXDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_B__1_OFFSET UNITYSDK_OFFSET(0x19307080)
+#define MOLEMOLE_UIBALLGAMEBOXDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19BBBCC0)
+#define MOLEMOLE_UIBALLGAMEBOXDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS8_0__ONUIINIT_B__1_OFFSET UNITYSDK_OFFSET(0x19BBBCD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameBoxDialogPopWindowController___c__DisplayClass8_0_TypeDefinitionIndex = 64270;
+	inline static constexpr unsigned int UIBallGameBoxDialogPopWindowController___c__DisplayClass8_0_TypeDefinitionIndex = 63685;
 
 	class UIBallGameBoxDialogPopWindowController___c__DisplayClass8_0 : public ::System::Object
 	{

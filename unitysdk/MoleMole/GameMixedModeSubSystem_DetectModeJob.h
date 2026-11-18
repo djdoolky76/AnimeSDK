@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_GAMEMIXEDMODESUBSYSTEM_DETECTMODEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x6B8190)
+#define MOLEMOLE_GAMEMIXEDMODESUBSYSTEM_DETECTMODEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x727040)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GameMixedModeSubSystem_DetectModeJob_TypeDefinitionIndex = 71853;
+	inline static constexpr unsigned int GameMixedModeSubSystem_DetectModeJob_TypeDefinitionIndex = 47552;
 
 	struct alignas(4) GameMixedModeSubSystem_DetectModeJob
 	{

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIInLevelRamielCrosshairChildWindowController; }
 namespace MoleMole::Battle { class HighLightAirCombatSubSystem; }
 
-#define MOLEMOLE_BATTLE_HIGHLIGHTAIRCOMBATSUBSYSTEM___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x114490A0)
-#define MOLEMOLE_BATTLE_HIGHLIGHTAIRCOMBATSUBSYSTEM___C__DISPLAYCLASS20_0__SETCROSSHAIRVISIBLE_B__0_OFFSET UNITYSDK_OFFSET(0x114490B0)
+#define MOLEMOLE_BATTLE_HIGHLIGHTAIRCOMBATSUBSYSTEM___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x131BA630)
+#define MOLEMOLE_BATTLE_HIGHLIGHTAIRCOMBATSUBSYSTEM___C__DISPLAYCLASS20_0__SETCROSSHAIRVISIBLE_B__0_OFFSET UNITYSDK_OFFSET(0x131BA640)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int HighLightAirCombatSubSystem___c__DisplayClass20_0_TypeDefinitionIndex = 68744;
+	inline static constexpr unsigned int HighLightAirCombatSubSystem___c__DisplayClass20_0_TypeDefinitionIndex = 83430;
 
 	class HighLightAirCombatSubSystem___c__DisplayClass20_0 : public ::System::Object
 	{

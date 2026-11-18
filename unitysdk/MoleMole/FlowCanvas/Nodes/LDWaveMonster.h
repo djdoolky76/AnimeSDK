@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/Battle/MonsterAlertInitParams.h"
 #include "unitysdk/MoleMole/Config/CampType.h"
 #include "unitysdk/MoleMole/Config/EntityType.h"
-#include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/LDWaveMonster_InputOutputOption.h"
-#include "unitysdk/MoleMole/FlowCanvas/Nodes/LDWaveMonster___c__DisplayClass76_0.h"
-#include "unitysdk/MoleMole/FlowCanvas/Nodes/LDWaveMonster___c__DisplayClass76_1.h"
-#include "unitysdk/MoleMole/FlowCanvas/Nodes/MonsterCreateDataAnimatorParam.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/MonsterIDType.h"
-#include "unitysdk/MoleMole/GameplayTag.h"
-#include "unitysdk/Struct_2_3217798F52249A87.h"
-#include "unitysdk/Struct_2_820267F94C5D0AA4.h"
+#include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/UnityEngine/RigidbodyConstraints.h"
+#include "unitysdk/FlowCanvas/Flow.h"
+#include "unitysdk/IDIHDEEBADA.h"
+#include "unitysdk/JKAJAFJEPEL.h"
+#include "unitysdk/MoleMole/FlowCanvas/Nodes/LDWaveMonster___c__DisplayClass76_0.h"
+#include "unitysdk/MoleMole/FlowCanvas/Nodes/MonsterCreateDataAnimatorParam.h"
+#include "unitysdk/MoleMole/GameplayTag.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_C93CC3D2C2AC4067;
+class GEIHCPAOKKK;
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
@@ -27,118 +26,119 @@ namespace MoleMole::FlowCanvas::Nodes { class EntitySaveDataMap; }
 namespace MoleMole::FlowCanvas::Nodes { class MonsterCreateData; }
 namespace MoleMole::FlowCanvas::Nodes { class MonsterCreateDataBase; }
 namespace NodeCanvas::Framework { class Graph; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ACTIVEPRELOADMONSTER_OFFSET UNITYSDK_OFFSET(0x1B1A93C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ADDENTITYTOMAP_OFFSET UNITYSDK_OFFSET(0x1B1A9440)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_BEGIN_OFFSET UNITYSDK_OFFSET(0x1B1A8600)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_BREAK_OFFSET UNITYSDK_OFFSET(0x1B1A8D40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_CHECKWARPMONSTERNAME_OFFSET UNITYSDK_OFFSET(0x1B1A9ED0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_COLLECTPRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x1B1A7080)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_CREATEMONSTER_1_OFFSET UNITYSDK_OFFSET(0x1B1AA6E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_CREATEMONSTER_OFFSET UNITYSDK_OFFSET(0x1B1AC070)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_DOPRELOAD_OFFSET UNITYSDK_OFFSET(0x1B1A7C60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_DORESTART_OFFSET UNITYSDK_OFFSET(0x1B1A8FC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_FIREFINISHEVENT_OFFSET UNITYSDK_OFFSET(0x1B1A9070)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_FORCEBREAK_OFFSET UNITYSDK_OFFSET(0x1B1A8DF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GETCAMPTYPE_OFFSET UNITYSDK_OFFSET(0x1B1AA3B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GETCREATELISTCOUNT_OFFSET UNITYSDK_OFFSET(0x1B1A82B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GETCREATELISTDATABYINDEX_OFFSET UNITYSDK_OFFSET(0x1B1A8490)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GETCURRENTMONSTERIDTYPE_OFFSET UNITYSDK_OFFSET(0x1B1AD9F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GETENTITYTYPE_OFFSET UNITYSDK_OFFSET(0x1B1A72D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GET_MUTEAI_OFFSET UNITYSDK_OFFSET(0x1B1A5190)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GET_MUTEHUD_OFFSET UNITYSDK_OFFSET(0x1B1A5250)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_INTERNALCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B1A9990)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ISPRELOADDONE_OFFSET UNITYSDK_OFFSET(0x1B1A8260)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ISSERVERCARE_OFFSET UNITYSDK_OFFSET(0x1B1A58C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ISSHOWELE_OFFSET UNITYSDK_OFFSET(0x1B1A5870)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ISTRAPMONSTER_OFFSET UNITYSDK_OFFSET(0x1B1ABFE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_MULTIPLAYERINTERNALCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B1A98E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1B1AE3A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0x1B1ADB00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONHOSTCHANGED_OFFSET UNITYSDK_OFFSET(0x1B1A88F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONPOSTGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1B1AE110)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B1ADD20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_POSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x1B1ACEB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_PRELOADMONSTERASSETS_OFFSET UNITYSDK_OFFSET(0x1B1A74D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B1A5310)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_RESETDATA_OFFSET UNITYSDK_OFFSET(0x1B1A5760)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_RESTART_OFFSET UNITYSDK_OFFSET(0x1B1A9280)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_RUNNINGRIGIDBODYORIGINALCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1B1A5900)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_SETMONSTERENTITYACTIVE_OFFSET UNITYSDK_OFFSET(0x1B1A5F70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_SINGLEINTERNALCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B1A9830)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_TRYCREATEMONSTER_OFFSET UNITYSDK_OFFSET(0x1B1A9C60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_UPDATERUNNINGRIGIDBODYCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1B1A5AE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__CHECKCOULDCREATEMONSTER_OFFSET UNITYSDK_OFFSET(0x1B1AD870)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__CREATEMONSTER_G____CREATEMONSTER_76_0_OFFSET UNITYSDK_OFFSET(0x1B1AC260)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AE3F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_0_OFFSET UNITYSDK_OFFSET(0x1B1AE500)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_1_OFFSET UNITYSDK_OFFSET(0x1B1AE540)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_2_OFFSET UNITYSDK_OFFSET(0x1B1AE610)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_3_OFFSET UNITYSDK_OFFSET(0x1B1AE640)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_4_OFFSET UNITYSDK_OFFSET(0x1B1AE650)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_5_OFFSET UNITYSDK_OFFSET(0x1B1AE660)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER___BASE_DOPRELOAD_OFFSET UNITYSDK_OFFSET(0x1B1AE670)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER___BASE_ISPRELOADDONE_OFFSET UNITYSDK_OFFSET(0x1B1AE680)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER___BASE_ISSERVERCARE_OFFSET UNITYSDK_OFFSET(0x1B1AE690)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER___BASE_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1B1AE6A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER___BASE_ONPOSTGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1B1AE6B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B1AE6C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ACTIVEPRELOADMONSTER_OFFSET UNITYSDK_OFFSET(0x1B4BB270)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ADDENTITYTOMAP_OFFSET UNITYSDK_OFFSET(0x1B4BB2F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_BEGIN_OFFSET UNITYSDK_OFFSET(0x1B4BA4A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_BREAK_OFFSET UNITYSDK_OFFSET(0x1B4BABF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_CHECKWARPMONSTERNAME_OFFSET UNITYSDK_OFFSET(0x1B4BBD90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_COLLECTPRELOADASSETS_OFFSET UNITYSDK_OFFSET(0x1B4B8F20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_CREATEMONSTER_1_OFFSET UNITYSDK_OFFSET(0x1B4BC5A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_CREATEMONSTER_OFFSET UNITYSDK_OFFSET(0x1B4BDF80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_DOPRELOAD_OFFSET UNITYSDK_OFFSET(0x1B4B9B00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_DORESTART_OFFSET UNITYSDK_OFFSET(0x1B4BAE70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_FIREFINISHEVENT_OFFSET UNITYSDK_OFFSET(0x1B4BAF20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_FORCEBREAK_OFFSET UNITYSDK_OFFSET(0x1B4BACA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GETCAMPTYPE_OFFSET UNITYSDK_OFFSET(0x1B4BC270)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GETCREATELISTCOUNT_OFFSET UNITYSDK_OFFSET(0x1B4BA150)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GETCREATELISTDATABYINDEX_OFFSET UNITYSDK_OFFSET(0x1B4BA330)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GETCURRENTMONSTERIDTYPE_OFFSET UNITYSDK_OFFSET(0x1B4BF920)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GETENTITYTYPE_OFFSET UNITYSDK_OFFSET(0x1B4B9170)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GET_MUTEAI_OFFSET UNITYSDK_OFFSET(0x1B4B7030)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GET_MUTEHUD_OFFSET UNITYSDK_OFFSET(0x1B4B70F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_INTERNALCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B4BB850)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ISPRELOADDONE_OFFSET UNITYSDK_OFFSET(0x1B4BA100)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ISSERVERCARE_OFFSET UNITYSDK_OFFSET(0x1B4B7750)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ISSHOWELE_OFFSET UNITYSDK_OFFSET(0x1B4B7700)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ISTRAPMONSTER_OFFSET UNITYSDK_OFFSET(0x1B4BDEF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_MULTIPLAYERINTERNALCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B4BB7A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1B4C02E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0x1B4BFA30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONHOSTCHANGED_OFFSET UNITYSDK_OFFSET(0x1B4BA790)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONPOSTGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1B4C0050)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONRESET_OFFSET UNITYSDK_OFFSET(0x1B4BFC50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_POSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x1B4BEDD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_PRELOADMONSTERASSETS_OFFSET UNITYSDK_OFFSET(0x1B4B9370)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B4B71B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_RESETDATA_OFFSET UNITYSDK_OFFSET(0x1B4B7600)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_RESTART_OFFSET UNITYSDK_OFFSET(0x1B4BB130)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_RUNNINGRIGIDBODYORIGINALCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1B4B7790)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_SETMONSTERENTITYACTIVE_OFFSET UNITYSDK_OFFSET(0x1B4B7E10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_SINGLEINTERNALCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B4BB6F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_TRYCREATEMONSTER_OFFSET UNITYSDK_OFFSET(0x1B4BBB20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_UPDATERUNNINGRIGIDBODYCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1B4B7970)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__CHECKCOULDCREATEMONSTER_OFFSET UNITYSDK_OFFSET(0x1B4BF7A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__CREATEMONSTER_G____CREATEMONSTER_76_0_OFFSET UNITYSDK_OFFSET(0x1B4BE170)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C0330)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_0_OFFSET UNITYSDK_OFFSET(0x1B4C0440)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_1_OFFSET UNITYSDK_OFFSET(0x1B4C0480)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_2_OFFSET UNITYSDK_OFFSET(0x1B4C0550)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_3_OFFSET UNITYSDK_OFFSET(0x1B4C0580)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_4_OFFSET UNITYSDK_OFFSET(0x1B4C0590)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_5_OFFSET UNITYSDK_OFFSET(0x1B4C05A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER___BASE_DOPRELOAD_OFFSET UNITYSDK_OFFSET(0x14AE2CE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER___BASE_ISPRELOADDONE_OFFSET UNITYSDK_OFFSET(0x14AE2CF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER___BASE_ISSERVERCARE_OFFSET UNITYSDK_OFFSET(0x14AE2D00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER___BASE_ONCREATE_OFFSET UNITYSDK_OFFSET(0x14AE2D10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER___BASE_ONPOSTGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x14AE2D20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x14AE2D30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWaveMonster_TypeDefinitionIndex = 83841;
+	inline static constexpr unsigned int LDWaveMonster_TypeDefinitionIndex = 47380;
 
 	class LDWaveMonster : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::Config::CampType>* campInput; // 0xA8
-		::System::Collections::Generic::List_1<::MoleMole::EntityHandle>* preloadEntityList; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Boolean>* muteHudInput; // 0xB8
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::MonsterAlertInitParams>* monsterAlertInitParamsInput; // 0xC0
-		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*>* entityListOutput; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* overrideCamp; // 0xA8
+		::FlowCanvas::FlowInput* breakInput; // 0xB0
+		::UnityEngine::Coroutine* coroutine; // 0xB8
+		::System::String* createMonsterName; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* towardsPlayerInput; // 0xC8
 		::MoleMole::Battle::Entity* createEntity; // 0xD0
-		::FlowCanvas::FlowInput* restartInput; // 0xD8
-		::FlowCanvas::ValueOutput_1<::System::Int32>* indexOutput; // 0xE0
-		::FlowCanvas::ValueInput_1<::System::String*>* currentSectionName; // 0xE8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* towardsPlayerInput; // 0xF0
-		::FlowCanvas::FlowOutput* finishOutput; // 0xF8
-		::FlowCanvas::FlowInput* breakInput; // 0x100
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* createMonsterNameDic; // 0x108
-		::UnityEngine::Coroutine* coroutine; // 0x110
-		::FlowCanvas::FlowOutput* doOutput; // 0x118
-		::System::String* createMonsterName; // 0x120
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isServerSync; // 0x128
-		::FlowCanvas::FlowInput* input; // 0x130
-		::System::String* errorMsg; // 0x138
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isServerSync; // 0xD8
+		::FlowCanvas::ValueInput_1<::MoleMole::Config::CampType>* campInput; // 0xE0
+		::FlowCanvas::FlowInput* input; // 0xE8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* muteHudInput; // 0xF0
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::EntitySaveDataMap*>* saveMapInput; // 0xF8
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::MonsterIDType>* monsterIDInput; // 0x100
+		::FlowCanvas::ValueInput_1<::UnityEngine::RigidbodyConstraints>* RunningOverrideRbConstraints; // 0x108
+		::FlowCanvas::FlowInput* restartInput; // 0x110
+		::FlowCanvas::ValueOutput_1<::System::Int32>* indexOutput; // 0x118
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterCreateData*>*>* createInput; // 0x120
+		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* createList; // 0x128
+		::FlowCanvas::ValueInput_1<::System::String*>* currentSectionName; // 0x130
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::MonsterAlertInitParams>* monsterAlertInitParamsInput; // 0x138
 		::FlowCanvas::FlowOutput* output; // 0x140
-		::System::String* currMonsterName; // 0x148
-		::FlowCanvas::ValueInput_1<::UnityEngine::RigidbodyConstraints>* RunningOverrideRbConstraints; // 0x150
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::EntitySaveDataMap*>* saveMapInput; // 0x158
-		::FlowCanvas::ValueInput_1<::System::Boolean>* overrideCamp; // 0x160
-		::FlowCanvas::ValueInput_1<::System::Boolean>* muteAiInput; // 0x168
-		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* entityOutput; // 0x170
-		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* createList; // 0x178
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::MonsterIDType>* monsterIDInput; // 0x180
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterCreateData*>*>* createInput; // 0x188
-		::System::Boolean isAddToSaveMap; // 0x190
-		::System::Boolean waittingRestart; // 0x191
-		::System::Single waitDuration; // 0x194
-		::System::Boolean inPreload; // 0x198
-		::System::Boolean highPreloadPriority; // 0x199
-		::System::Boolean waittingCreate; // 0x19A
-		::System::Boolean isTrapCreateNode; // 0x19B
-		::System::Single startTime; // 0x19C
-		::System::Boolean isMonsterCreateNode; // 0x1A0
-		::System::Boolean waitBreak; // 0x1A1
-		::System::Boolean isStart; // 0x1A2
-		::System::Boolean needPreload; // 0x1A3
-		::System::Single waitDelta; // 0x1A4
-		::System::Int32 createIndex; // 0x1A8
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* createMonsterNameDic; // 0x148
+		::FlowCanvas::FlowOutput* doOutput; // 0x150
+		::System::Collections::Generic::List_1<::MoleMole::EntityHandle>* preloadEntityList; // 0x158
+		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* entityOutput; // 0x160
+		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*>* entityListOutput; // 0x168
+		::System::String* errorMsg; // 0x170
+		::FlowCanvas::ValueInput_1<::System::Boolean>* muteAiInput; // 0x178
+		::FlowCanvas::FlowOutput* finishOutput; // 0x180
+		::System::String* currMonsterName; // 0x188
+		::System::Single waitDelta; // 0x190
+		::System::Boolean waitBreak; // 0x194
+		::System::Boolean waittingCreate; // 0x195
+		::System::Boolean isMonsterCreateNode; // 0x196
+		::System::Boolean waittingRestart; // 0x197
+		::System::Single startTime; // 0x198
+		::System::Boolean isAddToSaveMap; // 0x19C
+		::System::Boolean needPreload; // 0x19D
+		::System::Boolean highPreloadPriority; // 0x19E
+		::System::Boolean isTrapCreateNode; // 0x19F
+		::System::Int32 createIndex; // 0x1A0
+		::System::Single waitDuration; // 0x1A4
+		::System::Boolean isStart; // 0x1A8
+		::System::Boolean inPreload; // 0x1A9
 
 		::System::Void _ctor()
 		{
@@ -170,14 +170,14 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ISSERVERCARE_OFFSET))(this);
 		}
 
-		::UnityEngine::RigidbodyConstraints RunningRigidbodyOriginalConstraints(::Class_3_C93CC3D2C2AC4067* modelComponent)
+		::UnityEngine::RigidbodyConstraints RunningRigidbodyOriginalConstraints(::GEIHCPAOKKK* modelComponent)
 		{
-			return ((::UnityEngine::RigidbodyConstraints(*)(::PVOID, ::Class_3_C93CC3D2C2AC4067*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_RUNNINGRIGIDBODYORIGINALCONSTRAINTS_OFFSET))(this, modelComponent);
+			return ((::UnityEngine::RigidbodyConstraints(*)(::PVOID, ::GEIHCPAOKKK*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_RUNNINGRIGIDBODYORIGINALCONSTRAINTS_OFFSET))(this, modelComponent);
 		}
 
-		::System::Void UpdateRunningRigidbodyConstraints(::Class_3_C93CC3D2C2AC4067* modelComponent)
+		::System::Void UpdateRunningRigidbodyConstraints(::GEIHCPAOKKK* modelComponent)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_C93CC3D2C2AC4067*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_UPDATERUNNINGRIGIDBODYCONSTRAINTS_OFFSET))(this, modelComponent);
+			return ((::System::Void(*)(::PVOID, ::GEIHCPAOKKK*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_UPDATERUNNINGRIGIDBODYCONSTRAINTS_OFFSET))(this, modelComponent);
 		}
 
 		::System::Void SetMonsterEntityActive(::MoleMole::Battle::Entity* monster, ::System::Boolean active)
@@ -295,9 +295,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::MoleMole::GameplayTag>*, ::MoleMole::Config::CampType, ::System::Boolean, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::MonsterCreateDataAnimatorParam>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_CREATEMONSTER_OFFSET))(this, monsterId, spawnPointName, spawnPointOffset, tags, camp, towardsPlayer, monsterAIID, forceBaseID, isPreload, initAnimatorParams, initAbilityList, monsterMappingID);
 		}
 
-		::System::Void CreateMonster_1(::Struct_2_820267F94C5D0AA4 config, ::Struct_2_3217798F52249A87 postReadyConfig, ::System::Boolean isPreload)
+		::System::Void CreateMonster_1(::JKAJAFJEPEL config, ::IDIHDEEBADA postReadyConfig, ::System::Boolean isPreload)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_820267F94C5D0AA4, ::Struct_2_3217798F52249A87, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_CREATEMONSTER_1_OFFSET))(this, config, postReadyConfig, isPreload);
+			return ((::System::Void(*)(::PVOID, ::JKAJAFJEPEL, ::IDIHDEEBADA, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_CREATEMONSTER_1_OFFSET))(this, config, postReadyConfig, isPreload);
 		}
 
 		::System::Boolean _CheckCouldCreateMonster(::System::UInt32 monsterID, ::System::UInt32 createIndex)
@@ -310,9 +310,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::MoleMole::FlowCanvas::Nodes::MonsterIDType(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_GETCURRENTMONSTERIDTYPE_OFFSET))(this);
 		}
 
-		::System::Void PostEntityReady(::MoleMole::Battle::Entity* entity, ::Struct_2_3217798F52249A87 postReadyConfig)
+		::System::Void PostEntityReady(::MoleMole::Battle::Entity* entity, ::IDIHDEEBADA postReadyConfig)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Struct_2_3217798F52249A87))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_POSTENTITYREADY_OFFSET))(this, entity, postReadyConfig);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::IDIHDEEBADA))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_POSTENTITYREADY_OFFSET))(this, entity, postReadyConfig);
 		}
 
 		::System::Void AddEntityToMap(::MoleMole::Battle::Entity* entity, ::System::String* monsterName)
@@ -320,9 +320,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ADDENTITYTOMAP_OFFSET))(this, entity, monsterName);
 		}
 
-		::System::Void OnEntityReady(::MoleMole::Battle::Entity* entity, ::Struct_2_3217798F52249A87 postReadyConfig)
+		::System::Void OnEntityReady(::MoleMole::Battle::Entity* entity, ::IDIHDEEBADA postReadyConfig)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Struct_2_3217798F52249A87))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONENTITYREADY_OFFSET))(this, entity, postReadyConfig);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::IDIHDEEBADA))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER_ONENTITYREADY_OFFSET))(this, entity, postReadyConfig);
 		}
 
 		::System::String* CheckWarpMonsterName(::System::String* configName, ::System::Int32 createIndex, ::System::String* postfix)
@@ -380,9 +380,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__REGISTERPORTS_B__47_5_OFFSET))(this);
 		}
 
-		::MoleMole::Battle::Entity* _CreateMonster_g____CreateMonster_76_0(::MoleMole::FlowCanvas::Nodes::LDWaveMonster___c__DisplayClass76_0& a1, ::MoleMole::FlowCanvas::Nodes::LDWaveMonster___c__DisplayClass76_1& a2)
+		::MoleMole::Battle::Entity* _CreateMonster_g____CreateMonster_76_0(::MoleMole::FlowCanvas::Nodes::LDWaveMonster___c__DisplayClass76_0& param_0, ::System::Object*& param_1)
 		{
-			return ((::MoleMole::Battle::Entity*(*)(::PVOID, ::MoleMole::FlowCanvas::Nodes::LDWaveMonster___c__DisplayClass76_0&, ::MoleMole::FlowCanvas::Nodes::LDWaveMonster___c__DisplayClass76_1&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__CREATEMONSTER_G____CREATEMONSTER_76_0_OFFSET))(this, a1, a2);
+			return ((::MoleMole::Battle::Entity*(*)(::PVOID, ::MoleMole::FlowCanvas::Nodes::LDWaveMonster___c__DisplayClass76_0&, ::System::Object*&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDWAVEMONSTER__CREATEMONSTER_G____CREATEMONSTER_76_0_OFFSET))(this, param_0, param_1);
 		}
 
 		::System::Void __base_DoPreload()

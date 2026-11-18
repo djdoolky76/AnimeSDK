@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
-namespace NodeCanvas::DialogueTrees { class IDialogueActor; }
 namespace NodeCanvas::DialogueTrees { class Statement; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NODECANVAS_TASKS_ACTIONS_SAYRANDOM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB9B920)
-#define NODECANVAS_TASKS_ACTIONS_SAYRANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9BB50)
+#define NODECANVAS_TASKS_ACTIONS_SAYRANDOM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF6B380)
+#define NODECANVAS_TASKS_ACTIONS_SAYRANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6B5B0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SayRandom_TypeDefinitionIndex = 31443;
+	inline static constexpr unsigned int SayRandom_TypeDefinitionIndex = 29488;
 
-	class SayRandom : public ::NodeCanvas::Framework::ActionTask_1<::NodeCanvas::DialogueTrees::IDialogueActor*>
+	class SayRandom
 	{
 	public:
 		::System::Collections::Generic::List_1<::NodeCanvas::DialogueTrees::Statement*>* statements; // 0x60

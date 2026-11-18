@@ -1,24 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYVFXCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C5EC5A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5EC7A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYVFXCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CA7F930)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SKYVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7FB30)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SkyVFXConfig_TypeDefinitionIndex = 26772;
+	inline static constexpr unsigned int SkyVFXConfig_TypeDefinitionIndex = 26650;
 
-	class SkyVFXConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SkyVFXConfig*>
+	class SkyVFXConfig
 	{
 	public:
 		::System::Single SkyCoverMoveSpeed; // 0x18
 		::UnityEngine::Color SkyCoverColor; // 0x1C
 		::System::Boolean useAnimatedSkyCover; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::Single skyCoverAnimationDeltaTime; // 0x30
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* skyCoverAlphaAnimation; // 0x38
 
 		::System::Void _ctor()

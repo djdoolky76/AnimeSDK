@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_PREFERBINARYSERIALIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2A660)
+#define UNITYENGINE_PREFERBINARYSERIALIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F190F10)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PreferBinarySerialization_TypeDefinitionIndex = 5382;
+	inline static constexpr unsigned int PreferBinarySerialization_TypeDefinitionIndex = 5385;
 
 	class PreferBinarySerialization : public ::System::Attribute
 	{

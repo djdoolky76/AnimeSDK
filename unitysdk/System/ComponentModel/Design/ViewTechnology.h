@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int ViewTechnology_TypeDefinitionIndex = 3096;
+	inline static constexpr unsigned int ViewTechnology_TypeDefinitionIndex = 3095;
 
 	enum class ViewTechnology : ::System::Int32
 	{

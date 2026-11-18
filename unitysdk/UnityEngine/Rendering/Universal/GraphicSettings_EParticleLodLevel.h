@@ -3,13 +3,13 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GraphicSettings_EParticleLodLevel_TypeDefinitionIndex = 26977;
+	inline static constexpr unsigned int GraphicSettings_EParticleLodLevel_TypeDefinitionIndex = 27008;
 
 	enum class GraphicSettings_EParticleLodLevel : ::System::Int32
 	{
-		Lod0 = 0,
 		Lod1 = 1,
 		Lod3 = 3,
+		Lod0 = 0,
 		Lod2 = 2,
 	};
 }

@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AMLegIKParamsData.h"
 
-inline static constexpr unsigned int IUpdatableLegIK_TypeDefinitionIndex = 47817;
+inline static constexpr unsigned int IUpdatableLegIK_TypeDefinitionIndex = 49840;
 
 class IUpdatableLegIK
 {

@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/MinimalBaseFormatter_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-namespace Sirenix::Serialization { class IDataReader; }
-namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System::Reflection { class PropertyInfo; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ColorBlockFormatter_1_TypeDefinitionIndex = 7580;
+	inline static constexpr unsigned int ColorBlockFormatter_1_TypeDefinitionIndex = 7592;
 
 	template <typename T>
-	class ColorBlockFormatter_1 : public ::Sirenix::Serialization::MinimalBaseFormatter_1<T>
+	class ColorBlockFormatter_1
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_FloatSerializer()

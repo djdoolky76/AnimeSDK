@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AvatarMaskBodyPart_TypeDefinitionIndex = 6645;
+	inline static constexpr unsigned int AvatarMaskBodyPart_TypeDefinitionIndex = 6652;
 
 	enum class AvatarMaskBodyPart : ::System::Int32
 	{

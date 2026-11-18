@@ -3,26 +3,34 @@
 #include "unitysdk/Foundation/Function/Sinusoidal.h"
 #include "unitysdk/Foundation/Function/WithConstant_1.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/Unreal/Unsafe/Interval.h"
+#include "unitysdk/Foundation/Unreal/Interval_1.h"
+#include "unitysdk/PipelineCamera/Data/LookAtInCore_ByRotationY_HorizontalAlignedLengthFunction___c__DisplayClass9_0.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_CALCULATEYAWRADIAN_OFFSET UNITYSDK_OFFSET(0x9D1B70)
-#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_CONSTANT_OFFSET UNITYSDK_OFFSET(0x9D16D0)
-#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_DERIVATIVE_OFFSET UNITYSDK_OFFSET(0x9D1780)
-#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETCLOSESTINDECREASINGINTERVAL_OFFSET UNITYSDK_OFFSET(0x9D19C0)
-#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETCLOSESTININCREASINGINTERVAL_OFFSET UNITYSDK_OFFSET(0x9D1810)
-#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETCLOSEST_OFFSET UNITYSDK_OFFSET(0x9D17C0)
-#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETMONOTONICALLYINTERVAL_OFFSET UNITYSDK_OFFSET(0x9D17A0)
-#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_RESOLVE_OFFSET UNITYSDK_OFFSET(0x9D1770)
-#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9D1660)
-#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION__GETCLOSEST_G__UPDATERESULT_9_0_OFFSET UNITYSDK_OFFSET(0x1DCD5450)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_CALCULATEYAWRADIAN_OFFSET UNITYSDK_OFFSET(0x8DCC00)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_CONSTANT_OFFSET UNITYSDK_OFFSET(0x8DC760)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_DERIVATIVE_OFFSET UNITYSDK_OFFSET(0x8DC810)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETCLOSESTINDECREASINGINTERVAL_OFFSET UNITYSDK_OFFSET(0x8DCA50)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETCLOSESTININCREASINGINTERVAL_OFFSET UNITYSDK_OFFSET(0x8DC8A0)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETCLOSEST_OFFSET UNITYSDK_OFFSET(0x8DC850)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETMONOTONICALLYINTERVAL_OFFSET UNITYSDK_OFFSET(0x8DC830)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_RESOLVE_OFFSET UNITYSDK_OFFSET(0x8DC800)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x8DC6F0)
+#define PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION__GETCLOSEST_G__UPDATERESULT_9_0_OFFSET UNITYSDK_OFFSET(0x1E001CB0)
 
 namespace PipelineCamera::Data
 {
-	inline static constexpr unsigned int LookAtInCore_ByRotationY_HorizontalAlignedLengthFunction_TypeDefinitionIndex = 38439;
+	inline static constexpr unsigned int LookAtInCore_ByRotationY_HorizontalAlignedLengthFunction_TypeDefinitionIndex = 36438;
 
 	struct alignas(8) LookAtInCore_ByRotationY_HorizontalAlignedLengthFunction
 	{
 		::Foundation::Function::WithConstant_1<::Foundation::Function::Sinusoidal> _right; // 0x10
+		::System::Byte _padding0[0x28];
 		::Foundation::Function::WithConstant_1<::Foundation::Function::Sinusoidal> _forward; // 0x40
+		::System::Byte _padding1[0x28];
 		::System::Single _radius; // 0x70
 		::System::Single _mainScreenOffsetXRatio; // 0x74
 
@@ -46,46 +54,34 @@ namespace PipelineCamera::Data
 			return ((::Foundation::Function::WithConstant_1<::Foundation::Function::Sinusoidal>(*)(::PVOID))((::PBYTE)hIl2Cpp + PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_DERIVATIVE_OFFSET))(this);
 		}
 
-		/*
 		::System::ValueTuple_2<::Foundation::Unreal::Unsafe::Interval, ::Foundation::Unreal::Unsafe::Interval> GetMonotonicallyInterval()
 		{
 			return ((::System::ValueTuple_2<::Foundation::Unreal::Unsafe::Interval, ::Foundation::Unreal::Unsafe::Interval>(*)(::PVOID))((::PBYTE)hIl2Cpp + PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETMONOTONICALLYINTERVAL_OFFSET))(this);
 		}
-		*/
 
-		/*
-		::System::UInt32 GetClosest(::System::ReadOnlySpan_1<::Foundation::Unreal::Unsafe::Interval> yawRadianRanges, ::System::Single hintValue, ::System::Span_1<::System::Single> yawRadian, ::System::Single& alignedLength)
+		::System::UInt32 GetClosest(::System::ReadOnlySpan_1_F48FB86071006F3E<::Foundation::Unreal::Unsafe::Interval> yawRadianRanges, ::System::Single hintValue, ::System::Span_1_9011FAD97750D224<::System::Single> yawRadian, ::System::Single& alignedLength)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::ReadOnlySpan_1<::Foundation::Unreal::Unsafe::Interval>, ::System::Single, ::System::Span_1<::System::Single>, ::System::Single&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETCLOSEST_OFFSET))(this, yawRadianRanges, hintValue, yawRadian, alignedLength);
+			return ((::System::UInt32(*)(::PVOID, ::System::ReadOnlySpan_1_F48FB86071006F3E<::Foundation::Unreal::Unsafe::Interval>, ::System::Single, ::System::Span_1_9011FAD97750D224<::System::Single>, ::System::Single&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETCLOSEST_OFFSET))(this, yawRadianRanges, hintValue, yawRadian, alignedLength);
 		}
-		*/
 
-		/*
 		::System::Void GetClosestInIncreasingInterval(::Foundation::Unreal::Interval_1<::System::Single> interval, ::System::Single hintValue, ::System::Single& yawRadian, ::System::Single& alignedLength)
 		{
 			return ((::System::Void(*)(::PVOID, ::Foundation::Unreal::Interval_1<::System::Single>, ::System::Single, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETCLOSESTININCREASINGINTERVAL_OFFSET))(this, interval, hintValue, yawRadian, alignedLength);
 		}
-		*/
 
-		/*
 		::System::Void GetClosestInDecreasingInterval(::Foundation::Unreal::Interval_1<::System::Single> interval, ::System::Single hintValue, ::System::Single& yawRadian, ::System::Single& alignedLength)
 		{
 			return ((::System::Void(*)(::PVOID, ::Foundation::Unreal::Interval_1<::System::Single>, ::System::Single, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_GETCLOSESTINDECREASINGINTERVAL_OFFSET))(this, interval, hintValue, yawRadian, alignedLength);
 		}
-		*/
 
-		/*
 		::System::Single CalculateYawRadian(::Foundation::Unreal::Interval_1<::System::Single> interval, ::System::Single value)
 		{
 			return ((::System::Single(*)(::PVOID, ::Foundation::Unreal::Interval_1<::System::Single>, ::System::Single))((::PBYTE)hIl2Cpp + PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION_CALCULATEYAWRADIAN_OFFSET))(this, interval, value);
 		}
-		*/
 
-		/*
-		static ::System::Void _GetClosest_g__UpdateResult_9_0(::System::Span_1<::System::Single> yaw, ::System::Single newYaw, ::System::Single newLength, ::System::Single& currentLength, ::PipelineCamera::Data::LookAtInCore_ByRotationY_HorizontalAlignedLengthFunction___c__DisplayClass9_0& a5)
+		static ::System::Void _GetClosest_g__UpdateResult_9_0(::System::Span_1_9011FAD97750D224<::System::Single> yaw, ::System::Single newYaw, ::System::Single newLength, ::System::Single& currentLength, ::PipelineCamera::Data::LookAtInCore_ByRotationY_HorizontalAlignedLengthFunction___c__DisplayClass9_0& param_4)
 		{
-			return ((::System::Void(*)(::System::Span_1<::System::Single>, ::System::Single, ::System::Single, ::System::Single&, ::PipelineCamera::Data::LookAtInCore_ByRotationY_HorizontalAlignedLengthFunction___c__DisplayClass9_0&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION__GETCLOSEST_G__UPDATERESULT_9_0_OFFSET))(yaw, newYaw, newLength, currentLength, a5);
+			return ((::System::Void(*)(::System::Span_1_9011FAD97750D224<::System::Single>, ::System::Single, ::System::Single, ::System::Single&, ::PipelineCamera::Data::LookAtInCore_ByRotationY_HorizontalAlignedLengthFunction___c__DisplayClass9_0&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_DATA_LOOKATINCORE_BYROTATIONY_HORIZONTALALIGNEDLENGTHFUNCTION__GETCLOSEST_G__UPDATERESULT_9_0_OFFSET))(yaw, newYaw, newLength, currentLength, param_4);
 		}
-		*/
 	};
 }

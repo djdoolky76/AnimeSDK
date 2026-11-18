@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 
 namespace MoleMole::FlowCanvas::Nodes { template <typename T> class LDDGenericDataSource_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSORTDAILYCARDDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B13040)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSORTDAILYCARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B13100)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSORTDAILYCARDDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8F0070)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSORTDAILYCARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F0130)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSortDailyCardData_TypeDefinitionIndex = 73305;
+	inline static constexpr unsigned int LDSortDailyCardData_TypeDefinitionIndex = 77901;
 
-	class LDSortDailyCardData : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::MoleMole::FlowCanvas::Nodes::LDDGenericDataSource_1<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Int32>*>
+	class LDSortDailyCardData
 	{
 	public:
 		::System::Void _ctor()

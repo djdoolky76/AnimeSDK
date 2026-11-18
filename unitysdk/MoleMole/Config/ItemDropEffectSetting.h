@@ -8,11 +8,11 @@ namespace MoleMole::Config { class ConfigPosRot; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_ITEMDROPEFFECTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x172BD030)
+#define MOLEMOLE_CONFIG_ITEMDROPEFFECTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16428FC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ItemDropEffectSetting_TypeDefinitionIndex = 62713;
+	inline static constexpr unsigned int ItemDropEffectSetting_TypeDefinitionIndex = 39163;
 
 	class ItemDropEffectSetting : public ::System::Object
 	{
@@ -35,10 +35,12 @@ namespace MoleMole::Config
 		::System::Single MotionGroundCheckHeight; // 0x68
 		::System::Single MotionGroundCheckTime; // 0x6C
 		::System::Boolean MotionSwitchOpen; // 0x70
+		::System::Byte _padding0[0x3];
 		::System::Single Bounciness; // 0x74
 		::System::Single BounceStopVelocityThreshold; // 0x78
 		::System::Single PickUpItemInitPower; // 0x7C
 		::System::Single DropItemFlySpeed; // 0x80
+		::System::Byte _padding1[0x4];
 		::System::String* TargetColliderName; // 0x88
 		::UnityEngine::Vector2 MaxDistanceRegion; // 0x90
 		::UnityEngine::Vector2 MaxSteerLerpRegion; // 0x98
@@ -54,12 +56,15 @@ namespace MoleMole::Config
 		::System::Single PickUpRotateSpeed; // 0xCC
 		::System::Boolean SkipIdleSate; // 0xD0
 		::System::Boolean ReplaceGravity; // 0xD1
+		::System::Byte _padding2[0x2];
 		::UnityEngine::Vector3 ReplaceGravityValue; // 0xD4
 		::UnityEngine::Vector2 ClampForFreeMotion; // 0xE0
 		::UnityEngine::Vector2 MaxSpeedToPick; // 0xE8
 		::System::Boolean UseDropItemFlyAcceleratedCurve; // 0xF0
+		::System::Byte _padding3[0x7];
 		::UnityEngine::AnimationCurve* DropItemFlyAcceleratedCurve; // 0xF8
 		::System::Boolean OverridePickUpDirSpeed; // 0x100
+		::System::Byte _padding4[0x7];
 		::UnityEngine::AnimationCurve* PickUpDirSpeedCurve; // 0x108
 		::System::Single PickUpDirSpeed; // 0x110
 

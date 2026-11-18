@@ -4,19 +4,20 @@
 #include "unitysdk/NPCCrowd/Ability/EMontagePriorityLayer.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_AIACTIONPLAYMONTAGECONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x6326C0)
-#define NPCCROWD_AI_AIACTIONPLAYMONTAGECONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x632710)
+#define NPCCROWD_AI_AIACTIONPLAYMONTAGECONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x67CF50)
+#define NPCCROWD_AI_AIACTIONPLAYMONTAGECONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x67CFA0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionPlayMontageConfig_TypeDefinitionIndex = 80694;
+	inline static constexpr unsigned int AIActionPlayMontageConfig_TypeDefinitionIndex = 42259;
 
-	struct alignas(8) AIActionPlayMontageConfig
+	struct alignas(4) AIActionPlayMontageConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 		::System::Int32 montageKey; // 0x18
 		::NPCCrowd::Ability::EMontagePriorityLayer montageLayer; // 0x1C
 		::System::Boolean controlDuration; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single duration; // 0x24
 		::System::Boolean isLoop; // 0x28
 

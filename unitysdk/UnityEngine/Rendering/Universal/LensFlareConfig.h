@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LENSFLARECONFIG_ISVALID_OFFSET UNITYSDK_OFFSET(0x1CB17360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LENSFLARECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB173D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LENSFLARECONFIG_ISVALID_OFFSET UNITYSDK_OFFSET(0x1CED8710)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LENSFLARECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED8780)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LensFlareConfig_TypeDefinitionIndex = 27132;
+	inline static constexpr unsigned int LensFlareConfig_TypeDefinitionIndex = 26761;
 
 	class LensFlareConfig : public ::System::Object
 	{

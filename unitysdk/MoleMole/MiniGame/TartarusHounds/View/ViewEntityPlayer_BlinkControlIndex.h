@@ -3,18 +3,18 @@
 
 namespace MoleMole::MiniGame::TartarusHounds::View
 {
-	inline static constexpr unsigned int ViewEntityPlayer_BlinkControlIndex_TypeDefinitionIndex = 66954;
+	inline static constexpr unsigned int ViewEntityPlayer_BlinkControlIndex_TypeDefinitionIndex = 54166;
 
 	enum class ViewEntityPlayer_BlinkControlIndex : ::System::Int32
 	{
-		Wool = 1,
 		InvincibleLoop = 7,
+		ImmuneSpecialHurt = 4,
+		Struggle = 3,
+		Wool = 1,
 		AddLife = 5,
 		InvincibleOut = 8,
-		LowHP = 2,
-		Struggle = 3,
 		None = 0,
-		ImmuneSpecialHurt = 4,
 		DyingRespawn = 6,
+		LowHP = 2,
 	};
 }

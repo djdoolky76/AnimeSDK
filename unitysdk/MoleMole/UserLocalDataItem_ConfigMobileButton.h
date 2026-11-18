@@ -4,12 +4,12 @@
 #include "unitysdk/MoleMole/ConfigUICommon_Input_PositionType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_USERLOCALDATAITEM_CONFIGMOBILEBUTTON_METHOD_1_D5D789CEDB33DF97_OFFSET UNITYSDK_OFFSET(0x14DA7970)
-#define MOLEMOLE_USERLOCALDATAITEM_CONFIGMOBILEBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x14DA7960)
+#define MOLEMOLE_USERLOCALDATAITEM_CONFIGMOBILEBUTTON_DGNAAPGKIPL_OFFSET UNITYSDK_OFFSET(0x170DCA80)
+#define MOLEMOLE_USERLOCALDATAITEM_CONFIGMOBILEBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x170DCA70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UserLocalDataItem_ConfigMobileButton_TypeDefinitionIndex = 70345;
+	inline static constexpr unsigned int UserLocalDataItem_ConfigMobileButton_TypeDefinitionIndex = 89796;
 
 	class UserLocalDataItem_ConfigMobileButton : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_USERLOCALDATAITEM_CONFIGMOBILEBUTTON__CTOR_OFFSET))(this);
 		}
 
-		::MoleMole::UserLocalDataItem_ConfigMobileButton* Method_1_D5D789CEDB33DF97()
+		::MoleMole::UserLocalDataItem_ConfigMobileButton* DGNAAPGKIPL()
 		{
-			return ((::MoleMole::UserLocalDataItem_ConfigMobileButton*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_USERLOCALDATAITEM_CONFIGMOBILEBUTTON_METHOD_1_D5D789CEDB33DF97_OFFSET))(this);
+			return ((::MoleMole::UserLocalDataItem_ConfigMobileButton*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_USERLOCALDATAITEM_CONFIGMOBILEBUTTON_DGNAAPGKIPL_OFFSET))(this);
 		}
 	};
 }

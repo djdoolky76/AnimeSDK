@@ -3,14 +3,14 @@
 #include "unitysdk/NPCCrowd/AI/BaseActionConfig.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_AIACTIONDELAYDESTROYCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x731800)
-#define NPCCROWD_AI_AIACTIONDELAYDESTROYCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x731850)
+#define NPCCROWD_AI_AIACTIONDELAYDESTROYCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x5961B0)
+#define NPCCROWD_AI_AIACTIONDELAYDESTROYCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x596200)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionDelayDestroyConfig_TypeDefinitionIndex = 82105;
+	inline static constexpr unsigned int AIActionDelayDestroyConfig_TypeDefinitionIndex = 77246;
 
-	struct alignas(8) AIActionDelayDestroyConfig
+	struct alignas(4) AIActionDelayDestroyConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 		::System::Single delay; // 0x18

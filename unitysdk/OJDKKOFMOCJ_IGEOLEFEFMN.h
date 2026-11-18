@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+inline static constexpr unsigned int OJDKKOFMOCJ_IGEOLEFEFMN_TypeDefinitionIndex = 77238;
+
+struct alignas(4) OJDKKOFMOCJ_IGEOLEFEFMN
+{
+	::System::Boolean DECIDLELLCP; // 0x10
+	::System::Byte _padding0[0x3];
+	::System::Single BDEDDEGJFKL; // 0x14
+	::System::Boolean LPICEFCOFAE; // 0x18
+	::System::Boolean FGFCDNDOFKC; // 0x19
+	::System::Byte _padding1[0x2];
+	::System::Single CJPBOGMJNOE; // 0x1C
+	::System::Boolean BOLNBGKAOMA; // 0x20
+	::System::Boolean PJCLLKJHKKO; // 0x21
+};

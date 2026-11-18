@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ScoreUIAnimationType_TypeDefinitionIndex = 87442;
+	inline static constexpr unsigned int ScoreUIAnimationType_TypeDefinitionIndex = 79036;
 
 	enum class ScoreUIAnimationType : ::System::Int32
 	{

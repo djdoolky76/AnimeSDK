@@ -5,12 +5,12 @@
 
 namespace UnityEngine::UI { class Graphic; }
 
-#define MOLEMOLE_MONOUICOLORCOLLECTION_TRIGGERIMAGEGREYCOLOR_OFFSET UNITYSDK_OFFSET(0x11D59540)
-#define MOLEMOLE_MONOUICOLORCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x11D596D0)
+#define MOLEMOLE_MONOUICOLORCOLLECTION_TRIGGERIMAGEGREYCOLOR_OFFSET UNITYSDK_OFFSET(0x11946EC0)
+#define MOLEMOLE_MONOUICOLORCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x11947050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIColorCollection_TypeDefinitionIndex = 62055;
+	inline static constexpr unsigned int MonoUIColorCollection_TypeDefinitionIndex = 80785;
 
 	class MonoUIColorCollection : public ::UnityEngine::MonoBehaviour
 	{

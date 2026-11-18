@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DG/Tweening/SpiralMode.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace DG::Tweening { class Tweener; }
 namespace UnityEngine { class Rigidbody; }
 namespace UnityEngine { class Transform; }
 
-#define DG_TWEENING_SHORTCUTEXTENSIONSPRO_DOSPIRAL_1_OFFSET UNITYSDK_OFFSET(0x1FB8CC60)
-#define DG_TWEENING_SHORTCUTEXTENSIONSPRO_DOSPIRAL_OFFSET UNITYSDK_OFFSET(0x1FB8C8B0)
+#define DG_TWEENING_SHORTCUTEXTENSIONSPRO_DOSPIRAL_1_OFFSET UNITYSDK_OFFSET(0x1FF8E4B0)
+#define DG_TWEENING_SHORTCUTEXTENSIONSPRO_DOSPIRAL_OFFSET UNITYSDK_OFFSET(0x1FF8E100)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int ShortcutExtensionsPro_TypeDefinitionIndex = 35134;
+	inline static constexpr unsigned int ShortcutExtensionsPro_TypeDefinitionIndex = 34683;
 
 	class ShortcutExtensionsPro : public ::System::Object
 	{

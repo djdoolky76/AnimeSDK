@@ -5,10 +5,10 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ReadOnlyNativeMemoryRefEnumerator_1_TypeDefinitionIndex = 8500;
+	inline static constexpr unsigned int ReadOnlyNativeMemoryRefEnumerator_1_TypeDefinitionIndex = 8708;
 
 	template <typename T>
-	struct ReadOnlyNativeMemoryRefEnumerator_1
+	struct alignas(8) ReadOnlyNativeMemoryRefEnumerator_1
 	{
 		::Foundation::NativeMemoryView_1<T> _view; // 0x0
 		::System::Int32 _index; // 0x0

@@ -1,0 +1,176 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OCIKBEJKPCB.h"
+
+class DEDDPKGLKHI_OBJJGPCGHJK;
+class HGFPBHGPFFM;
+class MNGABMGMPEA;
+namespace MoleMole { class UIBaseController; }
+namespace MoleMole { class UIRewardTipsWidgetController; }
+namespace System { class EventArgs; }
+namespace UnityEngine { class Transform; }
+
+#define AJEJMDEKBCE_ACFAACMNLEE_OFFSET UNITYSDK_OFFSET(0x16FF28A0)
+#define AJEJMDEKBCE_AFGPFLKDCIF_OFFSET UNITYSDK_OFFSET(0x16FF1E20)
+#define AJEJMDEKBCE_ANIMPLMDKOF_OFFSET UNITYSDK_OFFSET(0x16FF2810)
+#define AJEJMDEKBCE_BCELJLFNDEI_OFFSET UNITYSDK_OFFSET(0x16FF2440)
+#define AJEJMDEKBCE_BOKDKNCNLJB_OFFSET UNITYSDK_OFFSET(0x16FF23E0)
+#define AJEJMDEKBCE_CEIADPPLKDA_OFFSET UNITYSDK_OFFSET(0x16FF21B0)
+#define AJEJMDEKBCE_CLMAFLEMDGK_OFFSET UNITYSDK_OFFSET(0x16FF25F0)
+#define AJEJMDEKBCE_CMFOMGGDPPA_OFFSET UNITYSDK_OFFSET(0x16FF24D0)
+#define AJEJMDEKBCE_DIOOIKGBJCF_OFFSET UNITYSDK_OFFSET(0x16FF2780)
+#define AJEJMDEKBCE_EFKEPOMDCHP_OFFSET UNITYSDK_OFFSET(0x16FF22E0)
+#define AJEJMDEKBCE_FKONAEJBKML_OFFSET UNITYSDK_OFFSET(0x16FF2240)
+#define AJEJMDEKBCE_GIKEBHPHJLP_OFFSET UNITYSDK_OFFSET(0x16FF2570)
+#define AJEJMDEKBCE_HIABONACIDH_OFFSET UNITYSDK_OFFSET(0x16FF2160)
+#define AJEJMDEKBCE_IFPGNBOGHBP_OFFSET UNITYSDK_OFFSET(0x16FF2020)
+#define AJEJMDEKBCE_JGLFNBBHMEF_OFFSET UNITYSDK_OFFSET(0x16FF22F0)
+#define AJEJMDEKBCE_JMAACLDJJMN_OFFSET UNITYSDK_OFFSET(0x16FF1E60)
+#define AJEJMDEKBCE_JMDEKPONKMF_OFFSET UNITYSDK_OFFSET(0x16FF1D80)
+#define AJEJMDEKBCE_KCBENEBBOGP_OFFSET UNITYSDK_OFFSET(0x16FF1DE0)
+#define AJEJMDEKBCE_KJHFBOCBADC_OFFSET UNITYSDK_OFFSET(0x16FF1D00)
+#define AJEJMDEKBCE_LHJDDKHCHCE_OFFSET UNITYSDK_OFFSET(0x16FF2380)
+#define AJEJMDEKBCE_LNJOOFKCJNN_OFFSET UNITYSDK_OFFSET(0x16FF2080)
+#define AJEJMDEKBCE_MCFILHLNBPK_OFFSET UNITYSDK_OFFSET(0x16FF2930)
+#define AJEJMDEKBCE_NOMFBGINKGG_OFFSET UNITYSDK_OFFSET(0x16FF22D0)
+#define AJEJMDEKBCE_OKJCHFGIKBH_OFFSET UNITYSDK_OFFSET(0x16FF2120)
+#define AJEJMDEKBCE_OOLCMLLACCB_OFFSET UNITYSDK_OFFSET(0x16FF2560)
+#define AJEJMDEKBCE__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF21A0)
+
+inline static constexpr unsigned int AJEJMDEKBCE_TypeDefinitionIndex = 84374;
+
+class AJEJMDEKBCE : public ::OCIKBEJKPCB
+{
+public:
+	::MNGABMGMPEA* _MGGJBKFDMML_k__BackingField; // 0x90
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KJHFBOCBADC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_KJHFBOCBADC_OFFSET))(this);
+	}
+
+	::System::Void JMDEKPONKMF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_JMDEKPONKMF_OFFSET))(this);
+	}
+
+	::System::Void KCBENEBBOGP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_KCBENEBBOGP_OFFSET))(this);
+	}
+
+	::System::Void AFGPFLKDCIF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_AFGPFLKDCIF_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* JMAACLDJJMN()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_JMAACLDJJMN_OFFSET))(this);
+	}
+
+	::System::Void IFPGNBOGHBP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_IFPGNBOGHBP_OFFSET))(this);
+	}
+
+	::System::Void LNJOOFKCJNN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_LNJOOFKCJNN_OFFSET))(this);
+	}
+
+	::System::Void OKJCHFGIKBH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_OKJCHFGIKBH_OFFSET))(this);
+	}
+
+	::System::Void HIABONACIDH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_HIABONACIDH_OFFSET))(this);
+	}
+
+	::UnityEngine::Transform* CEIADPPLKDA()
+	{
+		return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_CEIADPPLKDA_OFFSET))(this);
+	}
+
+	::System::Void FKONAEJBKML()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_FKONAEJBKML_OFFSET))(this);
+	}
+
+	::System::Void NOMFBGINKGG(::MNGABMGMPEA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MNGABMGMPEA*))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_NOMFBGINKGG_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::MNGABMGMPEA* EFKEPOMDCHP()
+	{
+		return ((::MNGABMGMPEA*(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_EFKEPOMDCHP_OFFSET))(this);
+	}
+
+	::System::Void JGLFNBBHMEF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_JGLFNBBHMEF_OFFSET))(this);
+	}
+
+	::MoleMole::UIBaseController* LHJDDKHCHCE()
+	{
+		return ((::MoleMole::UIBaseController*(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_LHJDDKHCHCE_OFFSET))(this);
+	}
+
+	::System::Void BCELJLFNDEI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_BCELJLFNDEI_OFFSET))(this);
+	}
+
+	::System::Void CMFOMGGDPPA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_CMFOMGGDPPA_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* OOLCMLLACCB()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_OOLCMLLACCB_OFFSET))(this);
+	}
+
+	::System::Void GIKEBHPHJLP(::System::EventArgs* KOIBHLHLMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_GIKEBHPHJLP_OFFSET))(this, KOIBHLHLMFC);
+	}
+
+	::System::Void CLMAFLEMDGK(::DEDDPKGLKHI_OBJJGPCGHJK* BHDNBGLCNOM)
+	{
+		return ((::System::Void(*)(::PVOID, ::DEDDPKGLKHI_OBJJGPCGHJK*))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_CLMAFLEMDGK_OFFSET))(this, BHDNBGLCNOM);
+	}
+
+	::System::Void DIOOIKGBJCF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_DIOOIKGBJCF_OFFSET))(this);
+	}
+
+	::System::Void ANIMPLMDKOF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_ANIMPLMDKOF_OFFSET))(this);
+	}
+
+	::MoleMole::UIRewardTipsWidgetController* BOKDKNCNLJB()
+	{
+		return ((::MoleMole::UIRewardTipsWidgetController*(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_BOKDKNCNLJB_OFFSET))(this);
+	}
+
+	::System::Void ACFAACMNLEE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_ACFAACMNLEE_OFFSET))(this);
+	}
+
+	::System::Void MCFILHLNBPK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJEJMDEKBCE_MCFILHLNBPK_OFFSET))(this);
+	}
+};

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MOLEMOLE_UIURBANMAPROLECARROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x162AD3B0)
+#define MOLEMOLE_UIURBANMAPROLECARROWWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19CAA610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapRoleCarRowWidgetContext_TypeDefinitionIndex = 45582;
+	inline static constexpr unsigned int UIUrbanMapRoleCarRowWidgetContext_TypeDefinitionIndex = 82242;
 
 	class UIUrbanMapRoleCarRowWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

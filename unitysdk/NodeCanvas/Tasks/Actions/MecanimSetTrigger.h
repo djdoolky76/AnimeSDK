@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
-namespace UnityEngine { class Animator; }
 
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETTRIGGER_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EBC15A0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETTRIGGER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EBC1680)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC17B0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETTRIGGER_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EF93E60)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETTRIGGER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF93F40)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF94070)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int MecanimSetTrigger_TypeDefinitionIndex = 29734;
+	inline static constexpr unsigned int MecanimSetTrigger_TypeDefinitionIndex = 30336;
 
-	class MecanimSetTrigger : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Animator*>
+	class MecanimSetTrigger
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::String*>* parameter; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* parameterHashID; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* parameterHashID; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::String*>* parameter; // 0x68
 
 		::System::Void _ctor()
 		{

@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { class GraphUserObject; }
 namespace NodeCanvas::Framework { class IGraphElement; }
 namespace NodeCanvas::Framework::Internal { class GraphSource; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define MESSAGEPACK_FORMATTERS_GRAPHSOURCE_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E8BA890)
-#define MESSAGEPACK_FORMATTERS_GRAPHSOURCE_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E8B9EA0)
-#define MESSAGEPACK_FORMATTERS_GRAPHSOURCE_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8BB5E0)
-#define MESSAGEPACK_FORMATTERS_GRAPHSOURCE_FORMATTER__GETVALUE_OFFSET UNITYSDK_OFFSET(0x1E8B9C20)
-#define MESSAGEPACK_FORMATTERS_GRAPHSOURCE_FORMATTER__WRITEOBJMETA_OFFSET UNITYSDK_OFFSET(0x1E8B9CC0)
+#define MESSAGEPACK_FORMATTERS_GRAPHSOURCE_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB80150)
+#define MESSAGEPACK_FORMATTERS_GRAPHSOURCE_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB7F760)
+#define MESSAGEPACK_FORMATTERS_GRAPHSOURCE_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB80EA0)
+#define MESSAGEPACK_FORMATTERS_GRAPHSOURCE_FORMATTER__GETVALUE_OFFSET UNITYSDK_OFFSET(0x1EB7F4E0)
+#define MESSAGEPACK_FORMATTERS_GRAPHSOURCE_FORMATTER__WRITEOBJMETA_OFFSET UNITYSDK_OFFSET(0x1EB7F580)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GraphSource_Formatter_TypeDefinitionIndex = 30040;
+	inline static constexpr unsigned int GraphSource_Formatter_TypeDefinitionIndex = 29910;
 
 	class GraphSource_Formatter : public ::System::Object
 	{

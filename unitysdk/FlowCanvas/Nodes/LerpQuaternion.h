@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_5.h"
 #include "unitysdk/ParadoxNotion/Animation/EaseType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define FLOWCANVAS_NODES_LERPQUATERNION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DB24E80)
-#define FLOWCANVAS_NODES_LERPQUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB24F50)
+#define FLOWCANVAS_NODES_LERPQUATERNION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DE97D20)
+#define FLOWCANVAS_NODES_LERPQUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE97DF0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LerpQuaternion_TypeDefinitionIndex = 31187;
+	inline static constexpr unsigned int LerpQuaternion_TypeDefinitionIndex = 30380;
 
-	class LerpQuaternion : public ::FlowCanvas::Nodes::PureFunctionNode_5<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Single, ::ParadoxNotion::Animation::EaseType>
+	class LerpQuaternion
 	{
 	public:
 		::System::Void _ctor()

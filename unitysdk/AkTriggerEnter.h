@@ -5,10 +5,10 @@
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define AKTRIGGERENTER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1FAFBA00)
-#define AKTRIGGERENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAFBBC0)
+#define AKTRIGGERENTER_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1FF076F0)
+#define AKTRIGGERENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF078B0)
 
-inline static constexpr unsigned int AkTriggerEnter_TypeDefinitionIndex = 33823;
+inline static constexpr unsigned int AkTriggerEnter_TypeDefinitionIndex = 33369;
 
 class AkTriggerEnter : public ::AkTriggerBase
 {

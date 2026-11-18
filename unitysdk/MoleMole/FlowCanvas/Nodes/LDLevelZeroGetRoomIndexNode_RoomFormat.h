@@ -3,7 +3,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLevelZeroGetRoomIndexNode_RoomFormat_TypeDefinitionIndex = 84733;
+	inline static constexpr unsigned int LDLevelZeroGetRoomIndexNode_RoomFormat_TypeDefinitionIndex = 55508;
 
 	enum class LDLevelZeroGetRoomIndexNode_RoomFormat : ::System::Int32
 	{

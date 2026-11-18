@@ -5,16 +5,17 @@
 namespace MoleMole { class MonsterMappingEntry; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONSTERMAPPINGCONFIG_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x129D64A0)
+#define MOLEMOLE_MONSTERMAPPINGCONFIG_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1249A6C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonsterMappingConfig_KeyValueInfo_TypeDefinitionIndex = 70472;
+	inline static constexpr unsigned int MonsterMappingConfig_KeyValueInfo_TypeDefinitionIndex = 45594;
 
 	class MonsterMappingConfig_KeyValueInfo : public ::System::Object
 	{
 	public:
 		::System::Int32 keyInst; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::MonsterMappingEntry*>* valueInst; // 0x18
 
 		::System::Void _ctor(::System::Int32 _keyInst, ::System::Collections::Generic::List_1<::MoleMole::MonsterMappingEntry*>* _valueInst)

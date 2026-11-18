@@ -4,22 +4,22 @@
 
 namespace MoleMole { class UISuibianTempleBuddyLevelupController; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYLEVELUPCONTROLLER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16767240)
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYLEVELUPCONTROLLER___C__DISPLAYCLASS29_0__ONCLICKBTN2_G__TRYOPENLEVELUPTIPS_0_OFFSET UNITYSDK_OFFSET(0x16767250)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYLEVELUPCONTROLLER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164AF4C0)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYLEVELUPCONTROLLER___C__DISPLAYCLASS29_0__ONCLICKBTN2_G__TRYOPENLEVELUPTIPS_0_OFFSET UNITYSDK_OFFSET(0x164AF4D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleBuddyLevelupController___c__DisplayClass29_0_TypeDefinitionIndex = 65050;
+	inline static constexpr unsigned int UISuibianTempleBuddyLevelupController___c__DisplayClass29_0_TypeDefinitionIndex = 42708;
 
 	class UISuibianTempleBuddyLevelupController___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UISuibianTempleBuddyLevelupController* __4__this; // 0x10
-		::System::Int32 cachedDurability; // 0x18
-		::System::Int32 tarLv; // 0x1C
-		::System::Int32 cachedExpedition; // 0x20
-		::System::Int32 cachedSimulation; // 0x24
-		::System::Int32 prvLevel; // 0x28
+		::System::Int32 prvLevel; // 0x18
+		::System::Int32 cachedExpedition; // 0x1C
+		::System::Int32 cachedSimulation; // 0x20
+		::System::Int32 cachedDurability; // 0x24
+		::System::Int32 tarLv; // 0x28
 
 		::System::Void _ctor()
 		{

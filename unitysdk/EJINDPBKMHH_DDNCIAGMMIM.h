@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class FBHPDPBIGPK;
+class IDGDIFDMIDP;
+
+#define EJINDPBKMHH_DDNCIAGMMIM_DBGJAAFDFII_OFFSET UNITYSDK_OFFSET(0x17241A00)
+#define EJINDPBKMHH_DDNCIAGMMIM_LNGFFAFICPG_OFFSET UNITYSDK_OFFSET(0x17241810)
+#define EJINDPBKMHH_DDNCIAGMMIM__CTOR_OFFSET UNITYSDK_OFFSET(0x17241800)
+
+inline static constexpr unsigned int EJINDPBKMHH_DDNCIAGMMIM_TypeDefinitionIndex = 46498;
+
+class EJINDPBKMHH_DDNCIAGMMIM : public ::System::Object
+{
+public:
+	::System::Int32 JLDEKLHKHBB; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EJINDPBKMHH_DDNCIAGMMIM__CTOR_OFFSET))(this);
+	}
+
+	::System::Void LNGFFAFICPG(::IDGDIFDMIDP* AJAAEBEOIJM)
+	{
+		return ((::System::Void(*)(::PVOID, ::IDGDIFDMIDP*))((::PBYTE)hIl2Cpp + EJINDPBKMHH_DDNCIAGMMIM_LNGFFAFICPG_OFFSET))(this, AJAAEBEOIJM);
+	}
+
+	::System::Void DBGJAAFDFII(::FBHPDPBIGPK* PMLAACAFPDO)
+	{
+		return ((::System::Void(*)(::PVOID, ::FBHPDPBIGPK*))((::PBYTE)hIl2Cpp + EJINDPBKMHH_DDNCIAGMMIM_DBGJAAFDFII_OFFSET))(this, PMLAACAFPDO);
+	}
+};

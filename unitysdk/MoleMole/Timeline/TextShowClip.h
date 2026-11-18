@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/TextAnchor.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/TextAnchor.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class TextShowBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_TEXTSHOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18DEC620)
-#define MOLEMOLE_TIMELINE_TEXTSHOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x18DEC610)
-#define MOLEMOLE_TIMELINE_TEXTSHOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18DEC840)
+#define MOLEMOLE_TIMELINE_TEXTSHOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1A0FD480)
+#define MOLEMOLE_TIMELINE_TEXTSHOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1A0FD470)
+#define MOLEMOLE_TIMELINE_TEXTSHOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0FD6B0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TextShowClip_TypeDefinitionIndex = 88693;
+	inline static constexpr unsigned int TextShowClip_TypeDefinitionIndex = 90284;
 
 	class TextShowClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -41,9 +41,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTSHOWCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* AMNIHACKELI)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTSHOWCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTSHOWCLIP_CREATEPLAYABLE_OFFSET))(this, MHPNGBGGMMN, AMNIHACKELI);
 		}
 	};
 }

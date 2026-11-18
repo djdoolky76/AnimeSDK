@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_5F152DBF108B0858.h"
-#include "unitysdk/Enum_3_DFCB42601400F441_2.h"
+#include "unitysdk/BDEHNBMOHMG.h"
+#include "unitysdk/EFIFKJHLKCF.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_57F7F2BF8C55D6B6;
-class Class_2_D02DABCF41CDA271;
-class Class_2_E23E4CB2769CC93F;
+class GBINEPNHKKO;
+class IDGDIFDMIDP;
+class JGBMOOJHMBF;
 namespace MoleMole { class UIBaseController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIPERSONALINFOEDITPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15173B50)
+#define MOLEMOLE_UIPERSONALINFOEDITPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14CB2EF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPersonalInfoEditPopWindowController_Context_TypeDefinitionIndex = 64312;
+	inline static constexpr unsigned int UIPersonalInfoEditPopWindowController_Context_TypeDefinitionIndex = 60651;
 
 	class UIPersonalInfoEditPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_D02DABCF41CDA271* CircleMemberData; // 0x28
-		::System::Collections::Generic::List_1<::System::Int32>* btnIDList; // 0x30
-		::Class_1_57F7F2BF8C55D6B6* playerSysInfo; // 0x38
-		::System::Collections::Generic::List_1<::Enum_3_DFCB42601400F441_2>* extraReportTypes; // 0x40
-		::MoleMole::UIBaseController* openController; // 0x48
-		::Class_2_E23E4CB2769CC93F* CircleData; // 0x50
+		::JGBMOOJHMBF* playerSysInfo; // 0x28
+		::MoleMole::UIBaseController* openController; // 0x30
+		::GBINEPNHKKO* CircleMemberData; // 0x38
+		::System::Collections::Generic::List_1<::BDEHNBMOHMG>* extraReportTypes; // 0x40
+		::System::Collections::Generic::List_1<::System::Int32>* btnIDList; // 0x48
+		::IDGDIFDMIDP* CircleData; // 0x50
 		::UnityEngine::Events::UnityAction* overrideReportBtnAction; // 0x58
-		::System::Boolean isMyEditWindow; // 0x60
-		::System::Boolean isRealPlayer; // 0x61
-		::System::Boolean isAccountCancelled; // 0x62
-		::System::Boolean isShowingBirthday; // 0x63
-		::Enum_3_5F152DBF108B0858 IdentityType; // 0x64
-		::System::Int32 moduleID; // 0x68
+		::EFIFKJHLKCF IdentityType; // 0x60
+		::System::Int32 moduleID; // 0x64
+		::System::Boolean isAccountCancelled; // 0x68
+		::System::Boolean isShowingBirthday; // 0x69
+		::System::Boolean isMyEditWindow; // 0x6A
+		::System::Boolean isRealPlayer; // 0x6B
 
 		::System::Void _ctor()
 		{

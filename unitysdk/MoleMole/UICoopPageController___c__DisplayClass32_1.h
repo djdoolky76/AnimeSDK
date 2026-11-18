@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_B890BA8430A32496_Class_2_B57A8ED4EE569CA0;
-namespace MoleMole { class UICoopPageController___c__DisplayClass32_0; }
+class EKOMAFPIPMA_MKHNHHPDENB;
 
-#define MOLEMOLE_UICOOPPAGECONTROLLER___C__DISPLAYCLASS32_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18AA8BE0)
-#define MOLEMOLE_UICOOPPAGECONTROLLER___C__DISPLAYCLASS32_1__ONCLICKTASK_B__0_OFFSET UNITYSDK_OFFSET(0x18AA8BF0)
+#define MOLEMOLE_UICOOPPAGECONTROLLER___C__DISPLAYCLASS32_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18078090)
+#define MOLEMOLE_UICOOPPAGECONTROLLER___C__DISPLAYCLASS32_1__ONCLICKTASK_B__0_OFFSET UNITYSDK_OFFSET(0x180780A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopPageController___c__DisplayClass32_1_TypeDefinitionIndex = 88149;
+	inline static constexpr unsigned int UICoopPageController___c__DisplayClass32_1_TypeDefinitionIndex = 48003;
 
+	template <typename T>
 	class UICoopPageController___c__DisplayClass32_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UICoopPageController___c__DisplayClass32_0* CS___8__locals1; // 0x10
-		::Class_1_B890BA8430A32496_Class_2_B57A8ED4EE569CA0* extParam; // 0x18
+		::EKOMAFPIPMA_MKHNHHPDENB* extParam; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

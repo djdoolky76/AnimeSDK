@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/LiftGammaGain_NativeSRP.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LIFTGAMMAGAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E79E0A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LIFTGAMMAGAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA4F110)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LiftGammaGain_TypeDefinitionIndex = 26964;
+	inline static constexpr unsigned int LiftGammaGain_TypeDefinitionIndex = 27336;
 
 	class LiftGammaGain : public ::UnityEngine::NAPRenderPipeline0::LiftGammaGain_NativeSRP
 	{

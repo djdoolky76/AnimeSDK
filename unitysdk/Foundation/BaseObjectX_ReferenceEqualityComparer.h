@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_BASEOBJECTX_REFERENCEEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E9BAF10)
-#define FOUNDATION_BASEOBJECTX_REFERENCEEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E9BAF70)
-#define FOUNDATION_BASEOBJECTX_REFERENCEEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9BAFD0)
-#define FOUNDATION_BASEOBJECTX_REFERENCEEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9BAFC0)
+#define FOUNDATION_BASEOBJECTX_REFERENCEEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EA773A0)
+#define FOUNDATION_BASEOBJECTX_REFERENCEEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EA77400)
+#define FOUNDATION_BASEOBJECTX_REFERENCEEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA77460)
+#define FOUNDATION_BASEOBJECTX_REFERENCEEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA77450)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BaseObjectX_ReferenceEqualityComparer_TypeDefinitionIndex = 8444;
+	inline static constexpr unsigned int BaseObjectX_ReferenceEqualityComparer_TypeDefinitionIndex = 7874;
 
 	class BaseObjectX_ReferenceEqualityComparer : public ::System::Object
 	{
 	public:
 		static ::Foundation::BaseObjectX_ReferenceEqualityComparer** StaticGet_Instance()
 		{
-			return (::Foundation::BaseObjectX_ReferenceEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(BaseObjectX_ReferenceEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x66F0);
+			return (::Foundation::BaseObjectX_ReferenceEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(BaseObjectX_ReferenceEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x6630);
 		}
 
 		::System::Void _ctor()

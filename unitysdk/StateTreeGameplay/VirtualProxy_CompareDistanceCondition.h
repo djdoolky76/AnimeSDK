@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeGameplay/VirtualProxy_StateTreeCommonConditionBase.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREDISTANCECONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x1E5091B0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREDISTANCECONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1E509230)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREDISTANCECONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1E509290)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREDISTANCECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E509300)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREDISTANCECONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x1E1A2050)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREDISTANCECONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1E1A20D0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREDISTANCECONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1E1A2130)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_COMPAREDISTANCECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1A21A0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualProxy_CompareDistanceCondition_TypeDefinitionIndex = 62033;
+	inline static constexpr unsigned int VirtualProxy_CompareDistanceCondition_TypeDefinitionIndex = 63758;
 
 	class VirtualProxy_CompareDistanceCondition : public ::StateTreeGameplay::VirtualProxy_StateTreeCommonConditionBase
 	{

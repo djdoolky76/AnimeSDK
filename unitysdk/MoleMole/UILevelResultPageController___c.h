@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/UILevelResultPageController_RewardItemMeta.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/MoleMole/UILevelResultPageController_RewardItemMeta.h"
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C981A0)
-#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C981E0)
-#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER___C__REFRESHCHESSBOARDVIEW_B__24_0_OFFSET UNITYSDK_OFFSET(0x19C981F0)
+#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19611440)
+#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19611480)
+#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER___C__REFRESHCHESSBOARDVIEW_B__24_0_OFFSET UNITYSDK_OFFSET(0x19611490)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultPageController___c_TypeDefinitionIndex = 69276;
+	inline static constexpr unsigned int UILevelResultPageController___c_TypeDefinitionIndex = 89108;
 
 	class UILevelResultPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UILevelResultPageController___c** StaticGet___9()
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__24_0()
 		{
-			return (::MoleMole::UILevelResultPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x36DF0);
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x38F40);
 		}
-		static ::System::Comparison_1<::MoleMole::UILevelResultPageController_RewardItemMeta>** StaticGet___9__24_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::MoleMole::UILevelResultPageController_RewardItemMeta>**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x36DF8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UILevelResultPageController___c_TypeDefinitionIndex)->GetStaticField(0x38F48);
 		}
 
 		static ::System::Void _cctor()

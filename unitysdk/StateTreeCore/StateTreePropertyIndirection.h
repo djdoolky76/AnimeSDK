@@ -10,28 +10,28 @@ namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class Struct; }
 namespace UnrealTypes { class StructOpsTraitsBase; }
 
-#define STATETREECORE_STATETREEPROPERTYINDIRECTION_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0xAD2110)
-#define STATETREECORE_STATETREEPROPERTYINDIRECTION_COPYCREATE_OFFSET UNITYSDK_OFFSET(0xAD20E0)
-#define STATETREECORE_STATETREEPROPERTYINDIRECTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1FC27010)
-#define STATETREECORE_STATETREEPROPERTYINDIRECTION_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0xAD2040)
-#define STATETREECORE_STATETREEPROPERTYINDIRECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x296F30)
-#define STATETREECORE_STATETREEPROPERTYINDIRECTION_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0xAD1FE0)
-#define STATETREECORE_STATETREEPROPERTYINDIRECTION_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0xAD21D0)
-#define STATETREECORE_STATETREEPROPERTYINDIRECTION_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0xAD2110)
-#define STATETREECORE_STATETREEPROPERTYINDIRECTION_MOVECREATE_OFFSET UNITYSDK_OFFSET(0xAD20E0)
-#define STATETREECORE_STATETREEPROPERTYINDIRECTION_RESET_OFFSET UNITYSDK_OFFSET(0xAD2140)
-#define STATETREECORE_STATETREEPROPERTYINDIRECTION_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREEPROPERTYINDIRECTION__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0xAD2110)
-#define STATETREECORE_STATETREEPROPERTYINDIRECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC272C0)
+#define STATETREECORE_STATETREEPROPERTYINDIRECTION_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x9B84B0)
+#define STATETREECORE_STATETREEPROPERTYINDIRECTION_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x9B8480)
+#define STATETREECORE_STATETREEPROPERTYINDIRECTION_CREATE_OFFSET UNITYSDK_OFFSET(0x2001E3A0)
+#define STATETREECORE_STATETREEPROPERTYINDIRECTION_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0x9B83E0)
+#define STATETREECORE_STATETREEPROPERTYINDIRECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
+#define STATETREECORE_STATETREEPROPERTYINDIRECTION_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0x9B8380)
+#define STATETREECORE_STATETREEPROPERTYINDIRECTION_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0x9B8570)
+#define STATETREECORE_STATETREEPROPERTYINDIRECTION_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0x9B84B0)
+#define STATETREECORE_STATETREEPROPERTYINDIRECTION_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x9B8480)
+#define STATETREECORE_STATETREEPROPERTYINDIRECTION_RESET_OFFSET UNITYSDK_OFFSET(0x9B84E0)
+#define STATETREECORE_STATETREEPROPERTYINDIRECTION_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREEPROPERTYINDIRECTION__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x9B84B0)
+#define STATETREECORE_STATETREEPROPERTYINDIRECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x2001E650)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreePropertyIndirection_TypeDefinitionIndex = 31612;
+	inline static constexpr unsigned int StateTreePropertyIndirection_TypeDefinitionIndex = 31049;
 
-	struct alignas(4) StateTreePropertyIndirection
+	struct alignas(8) StateTreePropertyIndirection
 	{
 		static ::UnrealTypes::StructOpsTraitsBase** StaticGet_StaticStructOpsTraits()
 		{
-			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(StateTreePropertyIndirection_TypeDefinitionIndex)->GetStaticField(0x26D50);
+			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(StateTreePropertyIndirection_TypeDefinitionIndex)->GetStaticField(0x27DB0);
 		}
 		// static const ::System::UInt32 PersistentTypeHash = 0x7ED6C241; // 0x0
 		::System::UInt16 ArrayIndex; // 0x10
@@ -51,35 +51,47 @@ namespace StateTreeCore
 			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYINDIRECTION_GET_STATICSTRUCT_OFFSET))(this);
 		}
 
+		/*
 		static ::StateTreeCore::StateTreePropertyIndirection Create()
 		{
 			return ((::StateTreeCore::StateTreePropertyIndirection(*)())((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYINDIRECTION_CREATE_OFFSET))();
 		}
+		*/
 
+		/*
 		::StateTreeCore::StateTreePropertyIndirection DefaultCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreePropertyIndirection(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYINDIRECTION_DEFAULTCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::StateTreeCore::StateTreePropertyIndirection CopyCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreePropertyIndirection(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYINDIRECTION_COPYCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::StateTreeCore::StateTreePropertyIndirection MoveCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreePropertyIndirection(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYINDIRECTION_MOVECREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::System::Void CopyAssign(::StateTreeCore::StateTreePropertyIndirection& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTreePropertyIndirection&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYINDIRECTION_COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		::System::Void MoveAssign(::StateTreeCore::StateTreePropertyIndirection& temp)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTreePropertyIndirection&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYINDIRECTION_MOVEASSIGN_OFFSET))(this, temp);
 		}
+		*/
 
 		::System::Void Reset()
 		{
@@ -96,9 +108,11 @@ namespace StateTreeCore
 			return ((::UnrealTypes::StructOpsTraitsBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYINDIRECTION_GET_STRUCTOPSTRAITS_OFFSET))(this);
 		}
 
+		/*
 		::System::Void UnrealTypes_IStruct_StateTreeCore_StateTreePropertyIndirection__CopyAssign(::StateTreeCore::StateTreePropertyIndirection& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTreePropertyIndirection&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEPROPERTYINDIRECTION_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREEPROPERTYINDIRECTION__COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 	};
 }

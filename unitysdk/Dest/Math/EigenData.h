@@ -4,28 +4,28 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DEST_MATH_EIGENDATA_GETEIGENVALUE_OFFSET UNITYSDK_OFFSET(0x1F273E30)
-#define DEST_MATH_EIGENDATA_GETEIGENVECTOR2_OFFSET UNITYSDK_OFFSET(0x1F273E70)
-#define DEST_MATH_EIGENDATA_GETEIGENVECTOR3_OFFSET UNITYSDK_OFFSET(0x1F275230)
-#define DEST_MATH_EIGENDATA_GETEIGENVECTOR_1_OFFSET UNITYSDK_OFFSET(0x1F277750)
-#define DEST_MATH_EIGENDATA_GETEIGENVECTOR_OFFSET UNITYSDK_OFFSET(0x1F277660)
-#define DEST_MATH_EIGENDATA_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1F277620)
-#define DEST_MATH_EIGENDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F277630)
+#define DEST_MATH_EIGENDATA_GETEIGENVALUE_OFFSET UNITYSDK_OFFSET(0x1F682550)
+#define DEST_MATH_EIGENDATA_GETEIGENVECTOR2_OFFSET UNITYSDK_OFFSET(0x1F682590)
+#define DEST_MATH_EIGENDATA_GETEIGENVECTOR3_OFFSET UNITYSDK_OFFSET(0x1F683950)
+#define DEST_MATH_EIGENDATA_GETEIGENVECTOR_1_OFFSET UNITYSDK_OFFSET(0x1F685E70)
+#define DEST_MATH_EIGENDATA_GETEIGENVECTOR_OFFSET UNITYSDK_OFFSET(0x1F685D80)
+#define DEST_MATH_EIGENDATA_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1F685D40)
+#define DEST_MATH_EIGENDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F685D50)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int EigenData_TypeDefinitionIndex = 35410;
+	inline static constexpr unsigned int EigenData_TypeDefinitionIndex = 34983;
 
 	class EigenData : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* _diagonal; // 0x10
-		::Il2CppArray<::System::Single>* _matrix; // 0x18
+		::System::Object* _matrix; // 0x10
+		::Il2CppArray<::System::Single>* _diagonal; // 0x18
 		::System::Int32 _size; // 0x20
 
-		::System::Void _ctor(::Il2CppArray<::System::Single>* diagonal, ::Il2CppArray<::System::Single>* matrix)
+		::System::Void _ctor(::Il2CppArray<::System::Single>* diagonal, ::System::Object* matrix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + DEST_MATH_EIGENDATA__CTOR_OFFSET))(this, diagonal, matrix);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*, ::System::Object*))((::PBYTE)hIl2Cpp + DEST_MATH_EIGENDATA__CTOR_OFFSET))(this, diagonal, matrix);
 		}
 
 		::System::Int32 get_Size()

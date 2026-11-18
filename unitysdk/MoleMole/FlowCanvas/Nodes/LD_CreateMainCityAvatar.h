@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
@@ -11,31 +11,31 @@ namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_BEGIN_OFFSET UNITYSDK_OFFSET(0x144D2A90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0x144D3C50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x144D2890)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_TRYADDAVATARGUIDEITEM_OFFSET UNITYSDK_OFFSET(0x144D4350)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x144D4430)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x144D4470)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x144D44B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_BEGIN_OFFSET UNITYSDK_OFFSET(0x1041B4A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_ONENTITYREADY_OFFSET UNITYSDK_OFFSET(0x1041C660)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1041B2A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR_TRYADDAVATARGUIDEITEM_OFFSET UNITYSDK_OFFSET(0x1041CD60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1041CE40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR__REGISTERPORTS_B__11_0_OFFSET UNITYSDK_OFFSET(0x1041CE80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEMAINCITYAVATAR__REGISTERPORTS_B__11_1_OFFSET UNITYSDK_OFFSET(0x1041CEC0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_CreateMainCityAvatar_TypeDefinitionIndex = 67321;
+	inline static constexpr unsigned int LD_CreateMainCityAvatar_TypeDefinitionIndex = 47764;
 
 	class LD_CreateMainCityAvatar : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Int32>* MainCityAvatarId; // 0xA8
+		::MoleMole::Battle::Entity* createEntity; // 0xA8
 		::FlowCanvas::ValueInput_1<::System::String*>* BornPosSpawnPoint; // 0xB0
 		::FlowCanvas::FlowOutput* output; // 0xB8
-		::MoleMole::Battle::Entity* createEntity; // 0xC0
-		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* BornPosByEntity; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::String*>* OverrideAIPath; // 0xD0
-		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* Offset; // 0xD8
-		::FlowCanvas::FlowOutput* finishOutput; // 0xE0
-		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* entityOutput; // 0xE8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* _notShowAvatarGuideItem; // 0xF0
+		::FlowCanvas::ValueInput_1<::MoleMole::EntityHandle>* BornPosByEntity; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Int32>* MainCityAvatarId; // 0xC8
+		::FlowCanvas::FlowOutput* finishOutput; // 0xD0
+		::FlowCanvas::ValueInput_1<::System::String*>* OverrideAIPath; // 0xD8
+		::FlowCanvas::ValueInput_1<::UnityEngine::Vector3>* Offset; // 0xE0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* _notShowAvatarGuideItem; // 0xE8
+		::FlowCanvas::ValueOutput_1<::MoleMole::Battle::Entity*>* entityOutput; // 0xF0
 		::System::UInt32 uFightID; // 0xF8
 
 		::System::Void _ctor()

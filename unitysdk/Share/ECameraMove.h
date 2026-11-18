@@ -3,14 +3,14 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ECameraMove_TypeDefinitionIndex = 16828;
+	inline static constexpr unsigned int ECameraMove_TypeDefinitionIndex = 13604;
 
 	enum class ECameraMove : ::System::Int16
 	{
 		Back = 4,
+		CustomBound = 3,
 		TriggerPosition = 0,
 		Player = 1,
-		CustomBound = 3,
 		EnumCount = 5,
 		Center = 2,
 	};

@@ -1,0 +1,106 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JMLJAMHBGBN.h"
+#include "unitysdk/JMLJAMHBGBN_PGDLJPFDIAE.h"
+
+class AEINDKLBMFN;
+class BHLPCIOCEAI;
+class OCCHEBFLDEG;
+namespace MoleMole { class UIFashionStoreGameKeyOnTrailWidgetController; }
+namespace MoleMole { class UIFashionStoreGamePageController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define DDIKANHHJOF_AMMELIOADAM_OFFSET UNITYSDK_OFFSET(0x12BADAD0)
+#define DDIKANHHJOF_BAJIIBGJLGG_OFFSET UNITYSDK_OFFSET(0x12BADBE0)
+#define DDIKANHHJOF_BJANDJKKNCD_OFFSET UNITYSDK_OFFSET(0x12BAD9A0)
+#define DDIKANHHJOF_BKJPMPBEHDO_OFFSET UNITYSDK_OFFSET(0x12BADE30)
+#define DDIKANHHJOF_CMFOIAAGPFL_OFFSET UNITYSDK_OFFSET(0x12BADD10)
+#define DDIKANHHJOF_DCJMFMAHBLD_OFFSET UNITYSDK_OFFSET(0x12BAD780)
+#define DDIKANHHJOF_DOJELHJAIMN_OFFSET UNITYSDK_OFFSET(0x12BAD730)
+#define DDIKANHHJOF_HFJDPNNENGO_OFFSET UNITYSDK_OFFSET(0x12BADC80)
+#define DDIKANHHJOF_JOAMBCEKNDI_OFFSET UNITYSDK_OFFSET(0x12BADB90)
+#define DDIKANHHJOF_OIBKFFAGPNH_OFFSET UNITYSDK_OFFSET(0x12BAD920)
+#define DDIKANHHJOF_PICNNAJDGAA_OFFSET UNITYSDK_OFFSET(0x12BADE40)
+#define DDIKANHHJOF_PLPONJAKNEB_OFFSET UNITYSDK_OFFSET(0x12BADA00)
+#define DDIKANHHJOF_PMAOHINGDEG_OFFSET UNITYSDK_OFFSET(0x12BADDA0)
+#define DDIKANHHJOF__CTOR_OFFSET UNITYSDK_OFFSET(0x12BAD710)
+
+inline static constexpr unsigned int DDIKANHHJOF_TypeDefinitionIndex = 69402;
+
+class DDIKANHHJOF : public ::JMLJAMHBGBN
+{
+public:
+	::BHLPCIOCEAI* DOCFGJEGBMI; // 0x48
+	::System::Boolean ADPIKJAKKDM; // 0x50
+	::System::Boolean FFCJIPDBKDJ; // 0x51
+
+	::System::Void _ctor(::MoleMole::UIFashionStoreGamePageController* JOLDOMEIKEF, ::OCCHEBFLDEG* MNBAALEHLAJ, ::AEINDKLBMFN* LCKBJKPAPKA, ::System::Collections::Generic::List_1<::MoleMole::UIFashionStoreGameKeyOnTrailWidgetController*>* NGNAAGACEPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIFashionStoreGamePageController*, ::OCCHEBFLDEG*, ::AEINDKLBMFN*, ::System::Collections::Generic::List_1<::MoleMole::UIFashionStoreGameKeyOnTrailWidgetController*>*))((::PBYTE)hIl2Cpp + DDIKANHHJOF__CTOR_OFFSET))(this, JOLDOMEIKEF, MNBAALEHLAJ, LCKBJKPAPKA, NGNAAGACEPI);
+	}
+
+	::JMLJAMHBGBN_PGDLJPFDIAE DOJELHJAIMN()
+	{
+		return ((::JMLJAMHBGBN_PGDLJPFDIAE(*)(::PVOID))((::PBYTE)hIl2Cpp + DDIKANHHJOF_DOJELHJAIMN_OFFSET))(this);
+	}
+
+	::System::Void DCJMFMAHBLD(::JMLJAMHBGBN* CMFJKNACHMO)
+	{
+		return ((::System::Void(*)(::PVOID, ::JMLJAMHBGBN*))((::PBYTE)hIl2Cpp + DDIKANHHJOF_DCJMFMAHBLD_OFFSET))(this, CMFJKNACHMO);
+	}
+
+	::System::Void OIBKFFAGPNH(::JMLJAMHBGBN* DEGJBKMLCHP)
+	{
+		return ((::System::Void(*)(::PVOID, ::JMLJAMHBGBN*))((::PBYTE)hIl2Cpp + DDIKANHHJOF_OIBKFFAGPNH_OFFSET))(this, DEGJBKMLCHP);
+	}
+
+	::System::Void BJANDJKKNCD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DDIKANHHJOF_BJANDJKKNCD_OFFSET))(this);
+	}
+
+	::JMLJAMHBGBN* PLPONJAKNEB()
+	{
+		return ((::JMLJAMHBGBN*(*)(::PVOID))((::PBYTE)hIl2Cpp + DDIKANHHJOF_PLPONJAKNEB_OFFSET))(this);
+	}
+
+	::System::Void AMMELIOADAM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DDIKANHHJOF_AMMELIOADAM_OFFSET))(this);
+	}
+
+	::System::Void BAJIIBGJLGG(::JMLJAMHBGBN* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::JMLJAMHBGBN*))((::PBYTE)hIl2Cpp + DDIKANHHJOF_BAJIIBGJLGG_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::JMLJAMHBGBN_PGDLJPFDIAE HFJDPNNENGO()
+	{
+		return ((::JMLJAMHBGBN_PGDLJPFDIAE(*)(::PVOID))((::PBYTE)hIl2Cpp + DDIKANHHJOF_HFJDPNNENGO_OFFSET))(this);
+	}
+
+	::System::Boolean JOAMBCEKNDI()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + DDIKANHHJOF_JOAMBCEKNDI_OFFSET))(this);
+	}
+
+	::System::Void CMFOIAAGPFL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DDIKANHHJOF_CMFOIAAGPFL_OFFSET))(this);
+	}
+
+	::System::Void PMAOHINGDEG(::JMLJAMHBGBN* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::JMLJAMHBGBN*))((::PBYTE)hIl2Cpp + DDIKANHHJOF_PMAOHINGDEG_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::JMLJAMHBGBN* BKJPMPBEHDO()
+	{
+		return ((::JMLJAMHBGBN*(*)(::PVOID))((::PBYTE)hIl2Cpp + DDIKANHHJOF_BKJPMPBEHDO_OFFSET))(this);
+	}
+
+	::System::Void PICNNAJDGAA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DDIKANHHJOF_PICNNAJDGAA_OFFSET))(this);
+	}
+};

@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/ConfigSubSystemSettingBase.h"
 #include "unitysdk/MoleMole/ESystemSettingType.h"
 
-#define MOLEMOLE_CONFIG_CONFIGRHYTHMACTIVITYSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x148702C0)
-#define MOLEMOLE_CONFIG_CONFIGRHYTHMACTIVITYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x148702D0)
+#define MOLEMOLE_CONFIG_CONFIGRHYTHMACTIVITYSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x11E9C4E0)
+#define MOLEMOLE_CONFIG_CONFIGRHYTHMACTIVITYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x11E9C4F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigRhythmActivitySetting_TypeDefinitionIndex = 49108;
+	inline static constexpr unsigned int ConfigRhythmActivitySetting_TypeDefinitionIndex = 46190;
 
 	class ConfigRhythmActivitySetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{

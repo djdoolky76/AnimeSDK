@@ -2,15 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class IFormatProvider; }
-namespace System { class Type; }
-
-#define SYSTEM_DATA_AUTOINCREMENTVALUE_CLONE_OFFSET UNITYSDK_OFFSET(0x1F5B1D90)
-#define SYSTEM_DATA_AUTOINCREMENTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5B1F70)
+#define SYSTEM_DATA_AUTOINCREMENTVALUE_CLONE_OFFSET UNITYSDK_OFFSET(0x1F988D00)
+#define SYSTEM_DATA_AUTOINCREMENTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F988EE0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int AutoIncrementValue_TypeDefinitionIndex = 39226;
+	inline static constexpr unsigned int AutoIncrementValue_TypeDefinitionIndex = 37226;
 
 	class AutoIncrementValue : public ::System::Object
 	{

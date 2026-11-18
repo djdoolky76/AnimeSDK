@@ -1,0 +1,72 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PBJOCICFNGK.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+
+class GCIMMDDIFBJ;
+class IOOIHHOJOPI;
+namespace System { class Object; }
+template <typename T> class LJHFMILANJA_1;
+
+#define BHPBIOLOKME_BEGMNCEOIEA_OFFSET UNITYSDK_OFFSET(0x113E96F0)
+#define BHPBIOLOKME_EJMLADDEHAE_OFFSET UNITYSDK_OFFSET(0x113E9580)
+#define BHPBIOLOKME_GFBJLHMNBAD_OFFSET UNITYSDK_OFFSET(0x113E96E0)
+#define BHPBIOLOKME_HMNMJJCDPAI_OFFSET UNITYSDK_OFFSET(0x113E9790)
+#define BHPBIOLOKME_LKNBCFOKJLO_OFFSET UNITYSDK_OFFSET(0x113E98E0)
+#define BHPBIOLOKME_MOKINDNACHI_OFFSET UNITYSDK_OFFSET(0x113E95D0)
+#define BHPBIOLOKME_NPKBDILPMHJ_OFFSET UNITYSDK_OFFSET(0x113E9700)
+#define BHPBIOLOKME_PILPKINFMBA_OFFSET UNITYSDK_OFFSET(0x113E9650)
+#define BHPBIOLOKME__CTOR_OFFSET UNITYSDK_OFFSET(0x113E9690)
+
+inline static constexpr unsigned int BHPBIOLOKME_TypeDefinitionIndex = 48859;
+
+class BHPBIOLOKME : public ::PBJOCICFNGK
+{
+public:
+	::LJHFMILANJA_1<::System::Object*>* _NFMCJBAAGIF_k__BackingField; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHPBIOLOKME__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EJMLADDEHAE(::LIBOIKJGAIH& EIEOJFEPMAB, ::IOOIHHOJOPI* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::IOOIHHOJOPI*))((::PBYTE)hIl2Cpp + BHPBIOLOKME_EJMLADDEHAE_OFFSET))(this, EIEOJFEPMAB, IOKOLJDCKPN);
+	}
+
+	::System::Void MOKINDNACHI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHPBIOLOKME_MOKINDNACHI_OFFSET))(this);
+	}
+
+	::System::Void PILPKINFMBA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHPBIOLOKME_PILPKINFMBA_OFFSET))(this);
+	}
+
+	::LJHFMILANJA_1<::System::Object*>* GFBJLHMNBAD()
+	{
+		return ((::LJHFMILANJA_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BHPBIOLOKME_GFBJLHMNBAD_OFFSET))(this);
+	}
+
+	::System::Void BEGMNCEOIEA(::LJHFMILANJA_1<::System::Object*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::System::Object*>*))((::PBYTE)hIl2Cpp + BHPBIOLOKME_BEGMNCEOIEA_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void NPKBDILPMHJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHPBIOLOKME_NPKBDILPMHJ_OFFSET))(this);
+	}
+
+	::GCIMMDDIFBJ* HMNMJJCDPAI()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + BHPBIOLOKME_HMNMJJCDPAI_OFFSET))(this);
+	}
+
+	::System::Void LKNBCFOKJLO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BHPBIOLOKME_LKNBCFOKJLO_OFFSET))(this);
+	}
+};

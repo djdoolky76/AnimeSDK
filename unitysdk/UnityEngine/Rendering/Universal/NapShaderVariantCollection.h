@@ -4,17 +4,16 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/ShaderVariantCollection_ShaderVariant.h"
 
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Shader; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPSHADERVARIANTCOLLECTION_ADDSHADERVARIANT_OFFSET UNITYSDK_OFFSET(0x1DDFCC70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPSHADERVARIANTCOLLECTION_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1DDFCB70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPSHADERVARIANTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFCDC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPSHADERVARIANTCOLLECTION_ADDSHADERVARIANT_OFFSET UNITYSDK_OFFSET(0x1E15E900)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPSHADERVARIANTCOLLECTION_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1E15E800)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPSHADERVARIANTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E15EA50)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapShaderVariantCollection_TypeDefinitionIndex = 27657;
+	inline static constexpr unsigned int NapShaderVariantCollection_TypeDefinitionIndex = 26869;
 
 	class NapShaderVariantCollection : public ::UnityEngine::ScriptableObject
 	{

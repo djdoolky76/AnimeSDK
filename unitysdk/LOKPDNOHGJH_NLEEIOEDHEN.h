@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BBLDKBFLHJG;
+class GPGILDCPHPK;
+class LHLDPHDJLNL;
+class LOKPDNOHGJH_NINHPIIDGCN;
+class PEOIIIGPCBA;
+class PNJDGHBEMLK;
+
+#define LOKPDNOHGJH_NLEEIOEDHEN_APOALAGBNDG_OFFSET UNITYSDK_OFFSET(0x15E10770)
+#define LOKPDNOHGJH_NLEEIOEDHEN__CTOR_OFFSET UNITYSDK_OFFSET(0x15E10760)
+
+inline static constexpr unsigned int LOKPDNOHGJH_NLEEIOEDHEN_TypeDefinitionIndex = 46428;
+
+class LOKPDNOHGJH_NLEEIOEDHEN : public ::System::Object
+{
+public:
+	::BBLDKBFLHJG* NLKGIPLGJDL; // 0x10
+	::LOKPDNOHGJH_NINHPIIDGCN* FGBNBFHOKAA; // 0x18
+	::GPGILDCPHPK* ODJFIHKCCFP; // 0x20
+	::PEOIIIGPCBA* GPAPJPLDCDJ; // 0x28
+	::LHLDPHDJLNL* EIFFKEJBIOP; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOKPDNOHGJH_NLEEIOEDHEN__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean APOALAGBNDG(::PNJDGHBEMLK* CDKCJAKODPN)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::PNJDGHBEMLK*))((::PBYTE)hIl2Cpp + LOKPDNOHGJH_NLEEIOEDHEN_APOALAGBNDG_OFFSET))(this, CDKCJAKODPN);
+	}
+};

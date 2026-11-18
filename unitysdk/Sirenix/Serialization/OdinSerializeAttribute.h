@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_SERIALIZATION_ODINSERIALIZEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8C9AF0)
+#define SIRENIX_SERIALIZATION_ODINSERIALIZEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCD3460)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int OdinSerializeAttribute_TypeDefinitionIndex = 7521;
+	inline static constexpr unsigned int OdinSerializeAttribute_TypeDefinitionIndex = 7529;
 
 	class OdinSerializeAttribute : public ::System::Attribute
 	{

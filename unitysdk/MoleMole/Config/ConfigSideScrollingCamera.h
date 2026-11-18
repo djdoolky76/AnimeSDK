@@ -5,11 +5,11 @@
 
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 
-#define MOLEMOLE_CONFIG_CONFIGSIDESCROLLINGCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C462550)
+#define MOLEMOLE_CONFIG_CONFIGSIDESCROLLINGCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D7290)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSideScrollingCamera_TypeDefinitionIndex = 66329;
+	inline static constexpr unsigned int ConfigSideScrollingCamera_TypeDefinitionIndex = 84097;
 
 	class ConfigSideScrollingCamera : public ::System::Object
 	{
@@ -31,11 +31,14 @@ namespace MoleMole::Config
 		::System::Single DampingYLerpRate; // 0x50
 		::System::Single DampingZ; // 0x54
 		::System::Boolean EnableShake; // 0x58
+		::System::Byte _padding0[0x3];
 		::System::Single ShakeScale; // 0x5C
 		::System::Boolean EnableZoom; // 0x60
 		::System::Boolean EnablePipelineOverrideZoom; // 0x61
+		::System::Byte _padding1[0x2];
 		::System::Single ZoomScale; // 0x64
 		::System::Boolean EnableStretch; // 0x68
+		::System::Byte _padding2[0x3];
 		::System::Single StretchScale; // 0x6C
 		::MoleMole::Cameras::CameraTrackBlending* DefaultBlendIn; // 0x70
 		::MoleMole::Cameras::CameraTrackBlending* DefaultBlendOut; // 0x78

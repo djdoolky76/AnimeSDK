@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12E6E390)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12852D30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovLotteryGamePageController_Context_TypeDefinitionIndex = 66022;
+	inline static constexpr unsigned int UIZenkovLotteryGamePageController_Context_TypeDefinitionIndex = 57272;
 
 	class UIZenkovLotteryGamePageController_Context : public ::MoleMole::UIControllerContextBase
 	{

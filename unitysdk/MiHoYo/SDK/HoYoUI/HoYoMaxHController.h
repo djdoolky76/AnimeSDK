@@ -6,19 +6,20 @@ namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class LayoutElement; }
 
-#define MIHOYO_SDK_HOYOUI_HOYOMAXHCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D954710)
-#define MIHOYO_SDK_HOYOUI_HOYOMAXHCONTROLLER_REFRESHLAYOUTNEXTFRAME_OFFSET UNITYSDK_OFFSET(0x1D954860)
-#define MIHOYO_SDK_HOYOUI_HOYOMAXHCONTROLLER_REFRESHLAYOUT_OFFSET UNITYSDK_OFFSET(0x1D9548B0)
-#define MIHOYO_SDK_HOYOUI_HOYOMAXHCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D954B90)
+#define MIHOYO_SDK_HOYOUI_HOYOMAXHCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EE8A7F0)
+#define MIHOYO_SDK_HOYOUI_HOYOMAXHCONTROLLER_REFRESHLAYOUTNEXTFRAME_OFFSET UNITYSDK_OFFSET(0x1EE8A940)
+#define MIHOYO_SDK_HOYOUI_HOYOMAXHCONTROLLER_REFRESHLAYOUT_OFFSET UNITYSDK_OFFSET(0x1EE8A990)
+#define MIHOYO_SDK_HOYOUI_HOYOMAXHCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8AC70)
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int HoYoMaxHController_TypeDefinitionIndex = 37740;
+	inline static constexpr unsigned int HoYoMaxHController_TypeDefinitionIndex = 35738;
 
 	class HoYoMaxHController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single maxHeight; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::RectTransform* textContentRect; // 0x20
 		::UnityEngine::UI::LayoutElement* layoutElement; // 0x28
 

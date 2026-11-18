@@ -6,27 +6,29 @@ namespace MoleMole { class UIBubbleTips; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_VOPERFORMSUBSYSTEM_VOTIPINFO_MARK_OFFSET UNITYSDK_OFFSET(0x70C100)
-#define MOLEMOLE_VOPERFORMSUBSYSTEM_VOTIPINFO_ONFINISH_OFFSET UNITYSDK_OFFSET(0x70C110)
-#define MOLEMOLE_VOPERFORMSUBSYSTEM_VOTIPINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x10F17D20)
-#define MOLEMOLE_VOPERFORMSUBSYSTEM_VOTIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x70C050)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_VOTIPINFO_MARK_OFFSET UNITYSDK_OFFSET(0x71A610)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_VOTIPINFO_ONFINISH_OFFSET UNITYSDK_OFFSET(0x71A620)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_VOTIPINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x13B46920)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_VOTIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x71A560)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VOPerformSubSystem_VoTipInfo_TypeDefinitionIndex = 60220;
+	inline static constexpr unsigned int VOPerformSubSystem_VoTipInfo_TypeDefinitionIndex = 76200;
 
 	struct alignas(8) VOPerformSubSystem_VoTipInfo
 	{
 		static ::System::Int32* StaticGet_ID_Gen()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VOPerformSubSystem_VoTipInfo_TypeDefinitionIndex)->GetStaticField(0x126C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VOPerformSubSystem_VoTipInfo_TypeDefinitionIndex)->GetStaticField(0x13600);
 		}
 		::System::Int32 tipID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* tipTag; // 0x18
 		::System::String* tipParam; // 0x20
 		::System::Collections::Generic::List_1<::System::String*>* tipParamList; // 0x28
 		::MoleMole::UIBubbleTips* TipShowObj; // 0x30
 		::System::Boolean showWhenMiddleTip; // 0x38
+		::System::Byte _padding1[0x3];
 		::System::Int32 tipUID; // 0x3C
 		::System::Boolean IsFinished; // 0x40
 

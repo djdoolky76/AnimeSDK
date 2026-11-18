@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_INTERKNOTPOSTHEIGHTDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x13845960)
+#define MOLEMOLE_INTERKNOTPOSTHEIGHTDIC__CTOR_OFFSET UNITYSDK_OFFSET(0x139ECD60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int InterknotPostHeightDic_TypeDefinitionIndex = 70749;
+	inline static constexpr unsigned int InterknotPostHeightDic_TypeDefinitionIndex = 78285;
 
 	class InterknotPostHeightDic : public ::System::Object
 	{

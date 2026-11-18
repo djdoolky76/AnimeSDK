@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVirusWidgetController_PageState_TypeDefinitionIndex = 69817;
+	inline static constexpr unsigned int UIVirusWidgetController_PageState_TypeDefinitionIndex = 63316;
 
 	enum class UIVirusWidgetController_PageState : ::System::Int32
 	{

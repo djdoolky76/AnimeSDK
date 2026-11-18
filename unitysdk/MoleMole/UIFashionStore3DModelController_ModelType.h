@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStore3DModelController_ModelType_TypeDefinitionIndex = 53889;
+	inline static constexpr unsigned int UIFashionStore3DModelController_ModelType_TypeDefinitionIndex = 78220;
 
 	enum class UIFashionStore3DModelController_ModelType : ::System::Int32
 	{

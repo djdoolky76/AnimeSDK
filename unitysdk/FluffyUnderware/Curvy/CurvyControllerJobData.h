@@ -5,20 +5,21 @@
 
 namespace FluffyUnderware::Curvy::Controllers { class CurvyControllerUnityUpdater; }
 
-#define FLUFFYUNDERWARE_CURVY_CURVYCONTROLLERJOBDATA_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x1F2804E0)
-#define FLUFFYUNDERWARE_CURVY_CURVYCONTROLLERJOBDATA_FREE_OFFSET UNITYSDK_OFFSET(0x1F280550)
-#define FLUFFYUNDERWARE_CURVY_CURVYCONTROLLERJOBDATA_RESET_OFFSET UNITYSDK_OFFSET(0x1F280620)
-#define FLUFFYUNDERWARE_CURVY_CURVYCONTROLLERJOBDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F280650)
+#define FLUFFYUNDERWARE_CURVY_CURVYCONTROLLERJOBDATA_ALLOCATE_OFFSET UNITYSDK_OFFSET(0x1F69A800)
+#define FLUFFYUNDERWARE_CURVY_CURVYCONTROLLERJOBDATA_FREE_OFFSET UNITYSDK_OFFSET(0x1F69A870)
+#define FLUFFYUNDERWARE_CURVY_CURVYCONTROLLERJOBDATA_RESET_OFFSET UNITYSDK_OFFSET(0x1F69A940)
+#define FLUFFYUNDERWARE_CURVY_CURVYCONTROLLERJOBDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F69A970)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyControllerJobData_TypeDefinitionIndex = 39701;
+	inline static constexpr unsigned int CurvyControllerJobData_TypeDefinitionIndex = 37648;
 
 	class CurvyControllerJobData : public ::System::Object
 	{
 	public:
 		::FluffyUnderware::Curvy::Controllers::CurvyControllerUnityUpdater* curvyController; // 0x10
 		::System::Boolean culled; // 0x18
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 position; // 0x1C
 
 		::System::Void _ctor()

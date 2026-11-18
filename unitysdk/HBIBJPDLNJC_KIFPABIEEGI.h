@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+template <typename T> class JIOLFCAGOFH_1;
+
+#define HBIBJPDLNJC_KIFPABIEEGI_DDFIBCLEJFN_OFFSET UNITYSDK_OFFSET(0x146DFB80)
+#define HBIBJPDLNJC_KIFPABIEEGI_EHKCGNMAPMN_OFFSET UNITYSDK_OFFSET(0x146DF5F0)
+#define HBIBJPDLNJC_KIFPABIEEGI_FEDFLMDHEGD_OFFSET UNITYSDK_OFFSET(0x146DFFB0)
+#define HBIBJPDLNJC_KIFPABIEEGI_GAIPMMPKDAK_OFFSET UNITYSDK_OFFSET(0x146DF920)
+#define HBIBJPDLNJC_KIFPABIEEGI_IJBNJNILKBD_OFFSET UNITYSDK_OFFSET(0x146DF6E0)
+#define HBIBJPDLNJC_KIFPABIEEGI_MILJNFIHGDK_OFFSET UNITYSDK_OFFSET(0x146DFDF0)
+#define HBIBJPDLNJC_KIFPABIEEGI_PNDPGODDDIP_OFFSET UNITYSDK_OFFSET(0x146E00A0)
+#define HBIBJPDLNJC_KIFPABIEEGI__CTOR_OFFSET UNITYSDK_OFFSET(0x146DF5E0)
+
+inline static constexpr unsigned int HBIBJPDLNJC_KIFPABIEEGI_TypeDefinitionIndex = 87526;
+
+class HBIBJPDLNJC_KIFPABIEEGI : public ::System::Object
+{
+public:
+	::JIOLFCAGOFH_1<::System::Object*>* LJBPECKCCEA; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HBIBJPDLNJC_KIFPABIEEGI__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean EHKCGNMAPMN()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HBIBJPDLNJC_KIFPABIEEGI_EHKCGNMAPMN_OFFSET))(this);
+	}
+
+	::System::Void IJBNJNILKBD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HBIBJPDLNJC_KIFPABIEEGI_IJBNJNILKBD_OFFSET))(this);
+	}
+
+	::System::Boolean GAIPMMPKDAK()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HBIBJPDLNJC_KIFPABIEEGI_GAIPMMPKDAK_OFFSET))(this);
+	}
+
+	::System::String* DDFIBCLEJFN()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HBIBJPDLNJC_KIFPABIEEGI_DDFIBCLEJFN_OFFSET))(this);
+	}
+
+	::System::Boolean MILJNFIHGDK()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HBIBJPDLNJC_KIFPABIEEGI_MILJNFIHGDK_OFFSET))(this);
+	}
+
+	::System::Boolean FEDFLMDHEGD()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HBIBJPDLNJC_KIFPABIEEGI_FEDFLMDHEGD_OFFSET))(this);
+	}
+
+	::System::Boolean PNDPGODDDIP()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HBIBJPDLNJC_KIFPABIEEGI_PNDPGODDDIP_OFFSET))(this);
+	}
+};

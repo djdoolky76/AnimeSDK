@@ -2,18 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet { template <typename T> class Dict_1_LessOrEqual; }
-namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet { template <typename T> class Dict_1_Node; }
-
 namespace UnityEngine::Experimental::Rendering::Universal::LibTessDotNet
 {
-	inline static constexpr unsigned int Dict_1_TypeDefinitionIndex = 26896;
+	inline static constexpr unsigned int Dict_1_TypeDefinitionIndex = 26764;
 
-	template <typename TValue>
+	template <typename T>
 	class Dict_1 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Experimental::Rendering::Universal::LibTessDotNet::Dict_1_LessOrEqual<TValue>* _leq; // 0x0
-		::UnityEngine::Experimental::Rendering::Universal::LibTessDotNet::Dict_1_Node<TValue>* _head; // 0x0
+		::System::Object* _leq; // 0x0
+		::System::Object* _head; // 0x0
 	};
 }

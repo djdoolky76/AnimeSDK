@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_CAE10C54ABAE6FAF.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
+#include "unitysdk/OOHBEPCMHMC.h"
 
-class Class_2_1824EF69C8E376A3;
+class BPHGNMNLLHF;
 
-#define MOLEMOLE_UIROLEINFODETAILSCOREDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1675C770)
+#define MOLEMOLE_UIROLEINFODETAILSCOREDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x164A10F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleInfoDetailScoreDialogContext_TypeDefinitionIndex = 75475;
+	inline static constexpr unsigned int UIRoleInfoDetailScoreDialogContext_TypeDefinitionIndex = 66284;
 
 	class UIRoleInfoDetailScoreDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_1824EF69C8E376A3* avatarItemData; // 0x28
-		::Enum_3_CAE10C54ABAE6FAF levelScore; // 0x30
-		::Enum_3_CAE10C54ABAE6FAF equipScore; // 0x34
-		::Enum_3_CAE10C54ABAE6FAF skillScore; // 0x38
-		::Enum_3_CAE10C54ABAE6FAF weaponScore; // 0x3C
-		::System::Int32 index; // 0x40
-		::Enum_3_CAE10C54ABAE6FAF totalScore; // 0x44
+		::BPHGNMNLLHF* avatarItemData; // 0x28
+		::OOHBEPCMHMC equipScore; // 0x30
+		::OOHBEPCMHMC weaponScore; // 0x34
+		::System::Int32 index; // 0x38
+		::OOHBEPCMHMC levelScore; // 0x3C
+		::OOHBEPCMHMC skillScore; // 0x40
+		::OOHBEPCMHMC totalScore; // 0x44
 
 		::System::Void _ctor()
 		{

@@ -7,11 +7,11 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_CONFIG_CAMERACHANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16257170)
+#define MOLEMOLE_CONFIG_CAMERACHANGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B113B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CameraChangeAttribute_TypeDefinitionIndex = 47228;
+	inline static constexpr unsigned int CameraChangeAttribute_TypeDefinitionIndex = 91199;
 
 	class CameraChangeAttribute : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace MoleMole::Config
 		::UnityEngine::AnimationCurve* curve; // 0x10
 		::UnityEngine::GameObject* target_go; // 0x18
 		::UnityEngine::Vector3 target_pos; // 0x20
-		::MoleMole::Config::CameraTargetType TargetType; // 0x2C
-		::UnityEngine::Vector3 offset; // 0x30
+		::UnityEngine::Vector3 offset; // 0x2C
+		::MoleMole::Config::CameraTargetType TargetType; // 0x38
 
 		::System::Void _ctor()
 		{

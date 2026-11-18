@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESVOLUMESETTINGS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1FC6EFA0)
-#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESVOLUMESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6F0B0)
+#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESVOLUMESETTINGS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x200727C0)
+#define LIGHTINGTOOLS_LIGHTPROBESVOLUMES_LIGHTPROBESVOLUMESETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x200728D0)
 
 namespace LightingTools::LightProbesVolumes
 {
-	inline static constexpr unsigned int LightProbesVolumeSettings_TypeDefinitionIndex = 94448;
+	inline static constexpr unsigned int LightProbesVolumeSettings_TypeDefinitionIndex = 96135;
 
 	class LightProbesVolumeSettings : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,6 +24,7 @@ namespace LightingTools::LightProbesVolumes
 		::System::Boolean fillVolume; // 0x30
 		::System::Boolean followFloor; // 0x31
 		::System::Boolean discardInsideGeometry; // 0x32
+		::System::Byte _padding0[0x1];
 		::LightingTools::LightProbesVolumes::DiscardMode discardMode; // 0x34
 		::System::Int32 discardConstraint; // 0x38
 		::System::Boolean drawDebug; // 0x3C
@@ -31,6 +32,7 @@ namespace LightingTools::LightProbesVolumes
 		::System::Boolean ignoreUpDirection; // 0x3E
 		::System::Boolean discardConfilictProbes; // 0x3F
 		::System::Boolean _LastBlocker; // 0x40
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector3 _LastCenter; // 0x44
 		::UnityEngine::Vector3 _LastSize; // 0x50
 

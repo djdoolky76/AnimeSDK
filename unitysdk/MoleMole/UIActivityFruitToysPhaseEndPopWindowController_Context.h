@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIACTIVITYFRUITTOYSPHASEENDPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B24D540)
+#define MOLEMOLE_UIACTIVITYFRUITTOYSPHASEENDPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1914F360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityFruitToysPhaseEndPopWindowController_Context_TypeDefinitionIndex = 88581;
+	inline static constexpr unsigned int UIActivityFruitToysPhaseEndPopWindowController_Context_TypeDefinitionIndex = 70295;
 
 	class UIActivityFruitToysPhaseEndPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::String* OverrideFadeInAnim; // 0x28
-		::System::String* OverrideFadeOutAnim; // 0x30
+		::System::String* OverrideFadeOutAnim; // 0x28
+		::System::String* OverrideFadeInAnim; // 0x30
 		::System::Int32 PopConfigID; // 0x38
 		::System::Boolean PlayCompleteAnim; // 0x3C
 

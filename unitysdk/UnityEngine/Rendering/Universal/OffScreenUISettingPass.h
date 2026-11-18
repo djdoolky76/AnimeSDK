@@ -1,33 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace UnityEngine { class Camera; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C9B27F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C9B2FD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9B26B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C9B30E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CF93E70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CF946C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS_GETDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1CF93CF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1CF93CA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF93B50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CF94880)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OffScreenUISettingPass_TypeDefinitionIndex = 27058;
+	inline static constexpr unsigned int OffScreenUISettingPass_TypeDefinitionIndex = 26186;
 
 	class OffScreenUISettingPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_Sampler; // 0xA8
+		::System::Boolean m_IsLastUIStageCamera; // 0xB0
 
 		::System::Void _ctor(::System::String* profilerTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventConfig)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS__CTOR_OFFSET))(this, profilerTag, renderPassEventConfig);
+		}
+
+		::System::Void Setup(::System::Boolean isLastUIStageCamera)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS_SETUP_OFFSET))(this, isLastUIStageCamera);
+		}
+
+		static ::UnityEngine::RenderTextureDescriptor GetDescriptor(::UnityEngine::Camera* uiCamera)
+		{
+			return ((::UnityEngine::RenderTextureDescriptor(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_OFFSCREENUISETTINGPASS_GETDESCRIPTOR_OFFSET))(uiCamera);
 		}
 
 		::System::Void Execute(::UnityEngine::Rendering::ScriptableRenderContext& context, ::UnityEngine::NAPRenderPipeline0::RenderingData& renderingData, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData& postCullRenderingData)

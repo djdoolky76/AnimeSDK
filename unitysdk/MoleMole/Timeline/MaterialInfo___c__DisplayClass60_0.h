@@ -6,13 +6,13 @@ namespace MoleMole::Timeline { class ColorRecorderUnit; }
 namespace MoleMole::Timeline { class FloatRecorderUnit; }
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB1FF60)
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__DISPLAYCLASS60_0__RECORDERALTER_B__0_OFFSET UNITYSDK_OFFSET(0x1FB1FFF0)
-#define MOLEMOLE_TIMELINE_MATERIALINFO___C__DISPLAYCLASS60_0__RECORDERALTER_B__1_OFFSET UNITYSDK_OFFSET(0x1FB1FF70)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1A8D0)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__DISPLAYCLASS60_0__RECORDERALTER_B__0_OFFSET UNITYSDK_OFFSET(0x1FF1A960)
+#define MOLEMOLE_TIMELINE_MATERIALINFO___C__DISPLAYCLASS60_0__RECORDERALTER_B__1_OFFSET UNITYSDK_OFFSET(0x1FF1A8E0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialInfo___c__DisplayClass60_0_TypeDefinitionIndex = 32810;
+	inline static constexpr unsigned int MaterialInfo___c__DisplayClass60_0_TypeDefinitionIndex = 32261;
 
 	class MaterialInfo___c__DisplayClass60_0 : public ::System::Object
 	{

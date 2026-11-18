@@ -2,13 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int LinqExtensions__AppendIf_d__23_1_TypeDefinitionIndex = 6468;
+	inline static constexpr unsigned int LinqExtensions__AppendIf_d__23_1_TypeDefinitionIndex = 6474;
 
 	template <typename T>
 	class LinqExtensions__AppendIf_d__23_1 : public ::System::Object

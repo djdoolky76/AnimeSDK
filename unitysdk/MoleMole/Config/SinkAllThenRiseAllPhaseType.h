@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SinkAllThenRiseAllPhaseType_TypeDefinitionIndex = 51996;
+	inline static constexpr unsigned int SinkAllThenRiseAllPhaseType_TypeDefinitionIndex = 48916;
 
 	enum class SinkAllThenRiseAllPhaseType : ::System::Int32
 	{

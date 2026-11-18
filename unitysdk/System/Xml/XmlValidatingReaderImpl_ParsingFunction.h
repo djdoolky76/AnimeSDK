@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlValidatingReaderImpl_ParsingFunction_TypeDefinitionIndex = 1739;
+	inline static constexpr unsigned int XmlValidatingReaderImpl_ParsingFunction_TypeDefinitionIndex = 1738;
 
 	enum class XmlValidatingReaderImpl_ParsingFunction : ::System::Int32
 	{

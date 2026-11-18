@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JJEJBPGJPJN.h"
+
+class AGGNDECIKIM;
+template <typename T> class LJHFMILANJA_1;
+
+#define GLOOBOKNIMI_DJALKGHNHMK_OFFSET UNITYSDK_OFFSET(0x1814E6E0)
+#define GLOOBOKNIMI_EKIFPEICBMK_OFFSET UNITYSDK_OFFSET(0x1814E7E0)
+#define GLOOBOKNIMI_LPFMNKEFPMM_OFFSET UNITYSDK_OFFSET(0x1814E7F0)
+#define GLOOBOKNIMI_MJIEEJGIGMJ_OFFSET UNITYSDK_OFFSET(0x1814E590)
+#define GLOOBOKNIMI_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1814E3E0)
+#define GLOOBOKNIMI_PENDMLPCMKB_OFFSET UNITYSDK_OFFSET(0x1814E6D0)
+#define GLOOBOKNIMI_POPALILKCGI_OFFSET UNITYSDK_OFFSET(0x1814E5A0)
+#define GLOOBOKNIMI__CTOR_OFFSET UNITYSDK_OFFSET(0x1814E580)
+
+inline static constexpr unsigned int GLOOBOKNIMI_TypeDefinitionIndex = 42599;
+
+class GLOOBOKNIMI : public ::JJEJBPGJPJN
+{
+public:
+	::LJHFMILANJA_1<::AGGNDECIKIM*>* _NIIOHJPLBJF_k__BackingField; // 0x88
+	::LJHFMILANJA_1<::System::Int32>* _CPMAOIBBFPE_k__BackingField; // 0x90
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GLOOBOKNIMI__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnCreateProperty()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GLOOBOKNIMI_ONCREATEPROPERTY_OFFSET))(this);
+	}
+
+	::System::Void MJIEEJGIGMJ(::LJHFMILANJA_1<::System::Int32>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::System::Int32>*))((::PBYTE)hIl2Cpp + GLOOBOKNIMI_MJIEEJGIGMJ_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void POPALILKCGI(::System::Int32 HFMHOELKCAJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GLOOBOKNIMI_POPALILKCGI_OFFSET))(this, HFMHOELKCAJ);
+	}
+
+	::LJHFMILANJA_1<::AGGNDECIKIM*>* PENDMLPCMKB()
+	{
+		return ((::LJHFMILANJA_1<::AGGNDECIKIM*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GLOOBOKNIMI_PENDMLPCMKB_OFFSET))(this);
+	}
+
+	::System::Int32 DJALKGHNHMK()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GLOOBOKNIMI_DJALKGHNHMK_OFFSET))(this);
+	}
+
+	::System::Void EKIFPEICBMK(::LJHFMILANJA_1<::AGGNDECIKIM*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::AGGNDECIKIM*>*))((::PBYTE)hIl2Cpp + GLOOBOKNIMI_EKIFPEICBMK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LJHFMILANJA_1<::System::Int32>* LPFMNKEFPMM()
+	{
+		return ((::LJHFMILANJA_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GLOOBOKNIMI_LPFMNKEFPMM_OFFSET))(this);
+	}
+};

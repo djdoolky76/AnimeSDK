@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/MinimalBaseFormatter_1.h"
 
 namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace System { class Version; }
 
-#define SIRENIX_SERIALIZATION_VERSIONFORMATTER_GETUNINITIALIZEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1F459C90)
-#define SIRENIX_SERIALIZATION_VERSIONFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1F459CA0)
-#define SIRENIX_SERIALIZATION_VERSIONFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1F459FF0)
-#define SIRENIX_SERIALIZATION_VERSIONFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F45A2E0)
+#define SIRENIX_SERIALIZATION_VERSIONFORMATTER_GETUNINITIALIZEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1F84DD60)
+#define SIRENIX_SERIALIZATION_VERSIONFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1F84DD70)
+#define SIRENIX_SERIALIZATION_VERSIONFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1F84E0C0)
+#define SIRENIX_SERIALIZATION_VERSIONFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F84E3B0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int VersionFormatter_TypeDefinitionIndex = 7494;
+	inline static constexpr unsigned int VersionFormatter_TypeDefinitionIndex = 7502;
 
-	class VersionFormatter : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::System::Version*>
+	class VersionFormatter
 	{
 	public:
 		::System::Void _ctor()

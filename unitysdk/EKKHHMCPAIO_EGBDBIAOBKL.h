@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BMBMBLDFBID.h"
+#include "unitysdk/System/Object.h"
+
+class EKKHHMCPAIO_CLFEIMGFNDL;
+
+#define EKKHHMCPAIO_EGBDBIAOBKL_BEFORERECYCLE_OFFSET UNITYSDK_OFFSET(0x169A8440)
+#define EKKHHMCPAIO_EGBDBIAOBKL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x169A8250)
+#define EKKHHMCPAIO_EGBDBIAOBKL_EMCPPBMEKKK_OFFSET UNITYSDK_OFFSET(0x169A82A0)
+#define EKKHHMCPAIO_EGBDBIAOBKL_GDCIDGEDFHC_OFFSET UNITYSDK_OFFSET(0x169A84F0)
+#define EKKHHMCPAIO_EGBDBIAOBKL__CTOR_OFFSET UNITYSDK_OFFSET(0x169A8490)
+
+inline static constexpr unsigned int EKKHHMCPAIO_EGBDBIAOBKL_TypeDefinitionIndex = 45040;
+
+class EKKHHMCPAIO_EGBDBIAOBKL : public ::System::Object
+{
+public:
+	::EKKHHMCPAIO_CLFEIMGFNDL* BPPLHNOOJNE; // 0x10
+	::BMBMBLDFBID PGCNEEPFLKK; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKKHHMCPAIO_EGBDBIAOBKL__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKKHHMCPAIO_EGBDBIAOBKL_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void BeforeRecycle()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKKHHMCPAIO_EGBDBIAOBKL_BEFORERECYCLE_OFFSET))(this);
+	}
+
+	::EKKHHMCPAIO_CLFEIMGFNDL* GDCIDGEDFHC()
+	{
+		return ((::EKKHHMCPAIO_CLFEIMGFNDL*(*)(::PVOID))((::PBYTE)hIl2Cpp + EKKHHMCPAIO_EGBDBIAOBKL_GDCIDGEDFHC_OFFSET))(this);
+	}
+
+	::System::Void EMCPPBMEKKK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKKHHMCPAIO_EGBDBIAOBKL_EMCPPBMEKKK_OFFSET))(this);
+	}
+};

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class FixedTimeStepBehavior; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_FIXEDTIMESTEPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F8B17D0)
-#define MOLEMOLE_TIMELINE_FIXEDTIMESTEPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F8B17C0)
-#define MOLEMOLE_TIMELINE_FIXEDTIMESTEPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8B18A0)
+#define MOLEMOLE_TIMELINE_FIXEDTIMESTEPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FCBB130)
+#define MOLEMOLE_TIMELINE_FIXEDTIMESTEPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FCBB120)
+#define MOLEMOLE_TIMELINE_FIXEDTIMESTEPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCBB210)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int FixedTimeStepClip_TypeDefinitionIndex = 32787;
+	inline static constexpr unsigned int FixedTimeStepClip_TypeDefinitionIndex = 32238;
 
 	class FixedTimeStepClip : public ::UnityEngine::Playables::PlayableAsset
 	{

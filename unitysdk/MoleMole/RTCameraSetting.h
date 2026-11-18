@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/CameraSetting.h"
 
-#define MOLEMOLE_RTCAMERASETTING_METHOD_2_66C34EBC49CE3FFF_OFFSET UNITYSDK_OFFSET(0x1809BC60)
-#define MOLEMOLE_RTCAMERASETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1809BC50)
+#define MOLEMOLE_RTCAMERASETTING_DDGNFJDLOKA_OFFSET UNITYSDK_OFFSET(0x198D0DF0)
+#define MOLEMOLE_RTCAMERASETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x198D0DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RTCameraSetting_TypeDefinitionIndex = 82932;
+	inline static constexpr unsigned int RTCameraSetting_TypeDefinitionIndex = 59494;
 
 	class RTCameraSetting : public ::MoleMole::CameraSetting
 	{
@@ -17,9 +17,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_RTCAMERASETTING__CTOR_OFFSET))(this);
 		}
 
-		static ::MoleMole::RTCameraSetting* Method_2_66C34EBC49CE3FFF()
+		static ::MoleMole::RTCameraSetting* DDGNFJDLOKA()
 		{
-			return ((::MoleMole::RTCameraSetting*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_RTCAMERASETTING_METHOD_2_66C34EBC49CE3FFF_OFFSET))();
+			return ((::MoleMole::RTCameraSetting*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_RTCAMERASETTING_DDGNFJDLOKA_OFFSET))();
 		}
 	};
 }

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_F4CDE062CC14CF12.h"
+#include "unitysdk/HNPEOAGLPDM.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UICINEMAPREPV2PAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1869A830)
+#define MOLEMOLE_UICINEMAPREPV2PAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x184A12C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaPrepV2PageContext_TypeDefinitionIndex = 78071;
+	inline static constexpr unsigned int UICinemaPrepV2PageContext_TypeDefinitionIndex = 76416;
 
 	class UICinemaPrepV2PageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_F4CDE062CC14CF12 cinemaJumpState; // 0x28
+		::HNPEOAGLPDM cinemaJumpState; // 0x28
 
 		::System::Void _ctor()
 		{

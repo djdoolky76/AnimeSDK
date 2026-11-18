@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/RenderGraphModule/TextureSizeMode.h"
-#include "unitysdk/UnityEngine/FilterMode.h"
+#include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/DepthBits.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/MSAASamples.h"
-#include "unitysdk/UnityEngine/RenderTextureMemoryless.h"
 #include "unitysdk/UnityEngine/Rendering/TextureDimension.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/FilterMode.h"
+#include "unitysdk/UnityEngine/RenderTextureMemoryless.h"
 #include "unitysdk/UnityEngine/TextureWrapMode.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace System { class String; }
 namespace UnityEngine::NAPRenderPipeline0 { class ScaleFunc; }
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9678D0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC_INITDEFAULTVALUES_OFFSET UNITYSDK_OFFSET(0x9677D0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC__CTOR_1_OFFSET UNITYSDK_OFFSET(0x967830)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC__CTOR_2_OFFSET UNITYSDK_OFFSET(0x967880)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC__CTOR_3_OFFSET UNITYSDK_OFFSET(0x799460)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC__CTOR_OFFSET UNITYSDK_OFFSET(0x9677E0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9678E0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8AC960)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC_INITDEFAULTVALUES_OFFSET UNITYSDK_OFFSET(0x8AC860)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC__CTOR_1_OFFSET UNITYSDK_OFFSET(0x8AC8C0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC__CTOR_2_OFFSET UNITYSDK_OFFSET(0x8AC910)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC__CTOR_3_OFFSET UNITYSDK_OFFSET(0x4729F0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC__CTOR_OFFSET UNITYSDK_OFFSET(0x8AC870)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8AC970)
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int TextureDesc_TypeDefinitionIndex = 18658;
+	inline static constexpr unsigned int TextureDesc_TypeDefinitionIndex = 17809;
 
 	struct alignas(8) TextureDesc
 	{
@@ -47,12 +47,15 @@ namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 		::System::Int32 anisoLevel; // 0x48
 		::System::Single mipMapBias; // 0x4C
 		::System::Boolean enableMSAA; // 0x50
+		::System::Byte _padding0[0x3];
 		::UnityEngine::NAPRenderPipeline0::MSAASamples msaaSamples; // 0x54
 		::System::Boolean bindTextureMS; // 0x58
 		::System::Boolean useDynamicScale; // 0x59
+		::System::Byte _padding1[0x2];
 		::UnityEngine::RenderTextureMemoryless memoryless; // 0x5C
 		::System::String* name; // 0x60
 		::System::Boolean clearBuffer; // 0x68
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Color clearColor; // 0x6C
 
 		::System::Void _ctor(::System::Int32 width, ::System::Int32 height, ::System::Boolean dynamicResolution, ::System::Boolean xrReady)
@@ -70,10 +73,12 @@ namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::NAPRenderPipeline0::ScaleFunc*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC__CTOR_2_OFFSET))(this, func, dynamicResolution, xrReady);
 		}
 
+		/*
 		::System::Void _ctor_3(::UnityEngine::Experimental::Rendering::RenderGraphModule::TextureDesc input)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::Rendering::RenderGraphModule::TextureDesc))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_TEXTUREDESC__CTOR_3_OFFSET))(this, input);
 		}
+		*/
 
 		::System::Void InitDefaultValues(::System::Boolean dynamicResolution, ::System::Boolean xrReady)
 		{

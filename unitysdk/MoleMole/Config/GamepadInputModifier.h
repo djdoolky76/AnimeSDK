@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_GAMEPADINPUTMODIFIER_MAKEDEFAULT_OFFSET UNITYSDK_OFFSET(0x11711D80)
+#define MOLEMOLE_CONFIG_GAMEPADINPUTMODIFIER_MAKEDEFAULT_OFFSET UNITYSDK_OFFSET(0xFACDE90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int GamepadInputModifier_TypeDefinitionIndex = 62100;
+	inline static constexpr unsigned int GamepadInputModifier_TypeDefinitionIndex = 72281;
 
 	struct alignas(8) GamepadInputModifier
 	{
@@ -20,9 +20,11 @@ namespace MoleMole::Config
 		::System::Single speed; // 0x24
 		::System::Single accTime; // 0x28
 
+		/*
 		static ::MoleMole::Config::GamepadInputModifier MakeDefault()
 		{
 			return ((::MoleMole::Config::GamepadInputModifier(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_GAMEPADINPUTMODIFIER_MAKEDEFAULT_OFFSET))();
 		}
+		*/
 	};
 }

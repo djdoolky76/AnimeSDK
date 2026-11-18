@@ -3,11 +3,11 @@
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int GamePlayLogicKind_TypeDefinitionIndex = 62369;
+	inline static constexpr unsigned int GamePlayLogicKind_TypeDefinitionIndex = 54402;
 
 	enum class GamePlayLogicKind : ::System::Int32
 	{
-		BangBooTowerDefense = 1,
 		None = 0,
+		BangBooTowerDefense = 1,
 	};
 }

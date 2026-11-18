@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDEACE0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_SECURITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E26B9E0)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int SecurityElement_SecurityAttribute_TypeDefinitionIndex = 946;
+	inline static constexpr unsigned int SecurityElement_SecurityAttribute_TypeDefinitionIndex = 945;
 
 	class SecurityElement_SecurityAttribute : public ::System::Object
 	{

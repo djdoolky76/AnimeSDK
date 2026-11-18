@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/RectInt.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_RECTINTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7B3920)
-#define MESSAGEPACK_UNITY_RECTINTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7B38D0)
-#define MESSAGEPACK_UNITY_RECTINTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B3B20)
+#define MESSAGEPACK_UNITY_RECTINTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA649E0)
+#define MESSAGEPACK_UNITY_RECTINTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA64990)
+#define MESSAGEPACK_UNITY_RECTINTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA64BE0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int RectIntFormatter_TypeDefinitionIndex = 31383;
+	inline static constexpr unsigned int RectIntFormatter_TypeDefinitionIndex = 30302;
 
 	class RectIntFormatter : public ::System::Object
 	{

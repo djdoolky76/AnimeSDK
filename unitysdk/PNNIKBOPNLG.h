@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/LEDNAEAGLBE.h"
+#include "unitysdk/DBCHHJMEIOB.h"
+
+class DLPBHONHLDF;
+class KGBFLHNJHHN;
+namespace System { class Object; }
+
+#define PNNIKBOPNLG_CCHKNJGFHJN_OFFSET UNITYSDK_OFFSET(0x1FA55EC0)
+#define PNNIKBOPNLG_EQUALS_OFFSET UNITYSDK_OFFSET(0x1FA55DD0)
+#define PNNIKBOPNLG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1FA55EB0)
+#define PNNIKBOPNLG_OCFLMJBNMMJ_OFFSET UNITYSDK_OFFSET(0x1FA55FC0)
+#define PNNIKBOPNLG_PADHEHLKBDO_1_OFFSET UNITYSDK_OFFSET(0x1FA55F40)
+#define PNNIKBOPNLG_PADHEHLKBDO_OFFSET UNITYSDK_OFFSET(0x1FA55E80)
+#define PNNIKBOPNLG__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA55DC0)
+
+inline static constexpr unsigned int PNNIKBOPNLG_TypeDefinitionIndex = 9512;
+
+class PNNIKBOPNLG : public ::LEDNAEAGLBE
+{
+public:
+	::System::Void _ctor(::DBCHHJMEIOB LJBPECKCCEA, ::KGBFLHNJHHN* NKMKJFCBBCK)
+	{
+		return ((::System::Void(*)(::PVOID, ::DBCHHJMEIOB, ::KGBFLHNJHHN*))((::PBYTE)hIl2Cpp + PNNIKBOPNLG__CTOR_OFFSET))(this, LJBPECKCCEA, NKMKJFCBBCK);
+	}
+
+	::System::Boolean Equals(::System::Object* EIFONLCJOPG)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + PNNIKBOPNLG_EQUALS_OFFSET))(this, EIFONLCJOPG);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PNNIKBOPNLG_GETHASHCODE_OFFSET))(this);
+	}
+
+	::System::Boolean CCHKNJGFHJN(::DLPBHONHLDF* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::DLPBHONHLDF*))((::PBYTE)hIl2Cpp + PNNIKBOPNLG_CCHKNJGFHJN_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Int32 OCFLMJBNMMJ()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PNNIKBOPNLG_OCFLMJBNMMJ_OFFSET))(this);
+	}
+
+	::System::Boolean PADHEHLKBDO(::PNNIKBOPNLG* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::PNNIKBOPNLG*))((::PBYTE)hIl2Cpp + PNNIKBOPNLG_PADHEHLKBDO_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Boolean PADHEHLKBDO_1(::DLPBHONHLDF* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::DLPBHONHLDF*))((::PBYTE)hIl2Cpp + PNNIKBOPNLG_PADHEHLKBDO_1_OFFSET))(this, LIBPKNHDIGP);
+	}
+};

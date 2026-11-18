@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/BaseFormatter_1.h"
 
 namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
@@ -8,22 +7,22 @@ namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 namespace System { class Object; }
 namespace System::Collections { class ArrayList; }
 
-#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER_DESERIALIZEIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1FB17580)
-#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER_GETUNINITIALIZEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1FB17570)
-#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER_SERIALIZEIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1FB180A0)
-#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB18530)
-#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB184D0)
+#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER_DESERIALIZEIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1FF1E150)
+#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER_GETUNINITIALIZEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1FF1E140)
+#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER_SERIALIZEIMPLEMENTATION_OFFSET UNITYSDK_OFFSET(0x1FF1EC70)
+#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF1F100)
+#define SIRENIX_SERIALIZATION_ARRAYLISTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1F0A0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ArrayListFormatter_TypeDefinitionIndex = 7449;
+	inline static constexpr unsigned int ArrayListFormatter_TypeDefinitionIndex = 7456;
 
-	class ArrayListFormatter : public ::Sirenix::Serialization::BaseFormatter_1<::System::Collections::ArrayList*>
+	class ArrayListFormatter
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Object*>** StaticGet_ObjectSerializer()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ArrayListFormatter_TypeDefinitionIndex)->GetStaticField(0x6380);
+			return (::Sirenix::Serialization::Serializer_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ArrayListFormatter_TypeDefinitionIndex)->GetStaticField(0x6280);
 		}
 
 		::System::Void _ctor()

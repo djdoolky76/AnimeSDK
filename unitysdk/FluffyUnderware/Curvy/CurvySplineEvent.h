@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FluffyUnderware/DevTools/UnityEventEx_1.h"
 
-namespace FluffyUnderware::Curvy { class CurvySplineEventArgs; }
-
-#define FLUFFYUNDERWARE_CURVY_CURVYSPLINEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F33D950)
+#define FLUFFYUNDERWARE_CURVY_CURVYSPLINEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F764160)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvySplineEvent_TypeDefinitionIndex = 39495;
+	inline static constexpr unsigned int CurvySplineEvent_TypeDefinitionIndex = 37620;
 
-	class CurvySplineEvent : public ::FluffyUnderware::DevTools::UnityEventEx_1<::FluffyUnderware::Curvy::CurvySplineEventArgs*>
+	class CurvySplineEvent
 	{
 	public:
 		::System::Void _ctor()

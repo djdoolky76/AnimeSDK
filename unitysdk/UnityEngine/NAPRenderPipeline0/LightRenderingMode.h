@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LightRenderingMode_TypeDefinitionIndex = 5890;
+	inline static constexpr unsigned int LightRenderingMode_TypeDefinitionIndex = 5896;
 
 	enum class LightRenderingMode : ::System::Int32
 	{

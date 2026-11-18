@@ -7,18 +7,19 @@ namespace BehaviorDesigner::Runtime::Tasks { class Task; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BEHAVIORDESIGNER_RUNTIME_IDTOTASKWRAPPER_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xA3EBA0)
-#define BEHAVIORDESIGNER_RUNTIME_IDTOTASKWRAPPER_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xA3EBB0)
-#define BEHAVIORDESIGNER_RUNTIME_IDTOTASKWRAPPER__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA3EB90)
-#define BEHAVIORDESIGNER_RUNTIME_IDTOTASKWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0xA3EB80)
+#define BEHAVIORDESIGNER_RUNTIME_IDTOTASKWRAPPER_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x91CB50)
+#define BEHAVIORDESIGNER_RUNTIME_IDTOTASKWRAPPER_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x91CB60)
+#define BEHAVIORDESIGNER_RUNTIME_IDTOTASKWRAPPER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x91CB40)
+#define BEHAVIORDESIGNER_RUNTIME_IDTOTASKWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x91CB30)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int IDToTaskWrapper_TypeDefinitionIndex = 33894;
+	inline static constexpr unsigned int IDToTaskWrapper_TypeDefinitionIndex = 33440;
 
 	struct alignas(8) IDToTaskWrapper
 	{
 		::BehaviorDesigner::Runtime::IDToTaskWrapper_ContentType _contentType; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::BehaviorDesigner::Runtime::Tasks::Task*>* _taskList; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::BehaviorDesigner::Runtime::Tasks::Task*>* _taskDictionary; // 0x18
 

@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OBICJCMGMIC.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/MKBLJBDJHFE.h"
+
+class FDOKNLPCNHO;
+
+#define EFJMDEIBFHI_AEGDAAMGMFF_OFFSET UNITYSDK_OFFSET(0xFDDC270)
+#define EFJMDEIBFHI_APMFLFFLBDL_OFFSET UNITYSDK_OFFSET(0xFDDC160)
+#define EFJMDEIBFHI_CPADBNPLOJK_OFFSET UNITYSDK_OFFSET(0xFDDC260)
+#define EFJMDEIBFHI_KHGDOCFIOGA_OFFSET UNITYSDK_OFFSET(0xFDDBF30)
+#define EFJMDEIBFHI_NGKOPBCHFOP_OFFSET UNITYSDK_OFFSET(0xFDDC240)
+#define EFJMDEIBFHI_NJCHPDHCGFJ_OFFSET UNITYSDK_OFFSET(0xFDDBE70)
+#define EFJMDEIBFHI__CTOR_OFFSET UNITYSDK_OFFSET(0xFDDBE60)
+
+inline static constexpr unsigned int EFJMDEIBFHI_TypeDefinitionIndex = 82255;
+
+class EFJMDEIBFHI : public ::System::Object
+{
+public:
+	::OBICJCMGMIC _EFACDDGIHAC_k__BackingField; // 0x10
+
+	::System::Void _ctor(::OBICJCMGMIC HNOPAJLDCFB)
+	{
+		return ((::System::Void(*)(::PVOID, ::OBICJCMGMIC))((::PBYTE)hIl2Cpp + EFJMDEIBFHI__CTOR_OFFSET))(this, HNOPAJLDCFB);
+	}
+
+	::Cysharp::Threading::Tasks::UniTask_1<::MKBLJBDJHFE> NJCHPDHCGFJ(::FDOKNLPCNHO* BPGPPMDMKEK)
+	{
+		return ((::Cysharp::Threading::Tasks::UniTask_1<::MKBLJBDJHFE>(*)(::PVOID, ::FDOKNLPCNHO*))((::PBYTE)hIl2Cpp + EFJMDEIBFHI_NJCHPDHCGFJ_OFFSET))(this, BPGPPMDMKEK);
+	}
+
+	static ::MKBLJBDJHFE KHGDOCFIOGA(::OBICJCMGMIC EPBHBCMCMOK)
+	{
+		return ((::MKBLJBDJHFE(*)(::OBICJCMGMIC))((::PBYTE)hIl2Cpp + EFJMDEIBFHI_KHGDOCFIOGA_OFFSET))(EPBHBCMCMOK);
+	}
+
+	static ::Cysharp::Threading::Tasks::UniTask_1<::MKBLJBDJHFE> APMFLFFLBDL(::OBICJCMGMIC EPBHBCMCMOK)
+	{
+		return ((::Cysharp::Threading::Tasks::UniTask_1<::MKBLJBDJHFE>(*)(::OBICJCMGMIC))((::PBYTE)hIl2Cpp + EFJMDEIBFHI_APMFLFFLBDL_OFFSET))(EPBHBCMCMOK);
+	}
+
+	::OBICJCMGMIC NGKOPBCHFOP()
+	{
+		return ((::OBICJCMGMIC(*)(::PVOID))((::PBYTE)hIl2Cpp + EFJMDEIBFHI_NGKOPBCHFOP_OFFSET))(this);
+	}
+
+	::System::Void CPADBNPLOJK(::OBICJCMGMIC EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::OBICJCMGMIC))((::PBYTE)hIl2Cpp + EFJMDEIBFHI_CPADBNPLOJK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::Cysharp::Threading::Tasks::UniTask_1<::MKBLJBDJHFE> AEGDAAMGMFF(::FDOKNLPCNHO* BPGPPMDMKEK)
+	{
+		return ((::Cysharp::Threading::Tasks::UniTask_1<::MKBLJBDJHFE>(*)(::PVOID, ::FDOKNLPCNHO*))((::PBYTE)hIl2Cpp + EFJMDEIBFHI_AEGDAAMGMFF_OFFSET))(this, BPGPPMDMKEK);
+	}
+};

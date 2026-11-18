@@ -5,15 +5,15 @@
 namespace MoleMole::EffectSimulate { class Vector2KeyframeCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_EFFECTSIMULATE_ESUISIZE_METHOD_4_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x1B595D50)
-#define MOLEMOLE_EFFECTSIMULATE_ESUISIZE_METHOD_4_49AA86D9F19FB057_OFFSET UNITYSDK_OFFSET(0x1B595A30)
-#define MOLEMOLE_EFFECTSIMULATE_ESUISIZE_METHOD_4_990C94EC15D6CE86_OFFSET UNITYSDK_OFFSET(0x1B595D40)
-#define MOLEMOLE_EFFECTSIMULATE_ESUISIZE_METHOD_4_B179D9338896C46D_OFFSET UNITYSDK_OFFSET(0x1B595790)
-#define MOLEMOLE_EFFECTSIMULATE_ESUISIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B595BF0)
+#define MOLEMOLE_EFFECTSIMULATE_ESUISIZE_ALJEEEAPCBH_OFFSET UNITYSDK_OFFSET(0x1BA77B40)
+#define MOLEMOLE_EFFECTSIMULATE_ESUISIZE_LLLIDJKOBEC_OFFSET UNITYSDK_OFFSET(0x1BA77E50)
+#define MOLEMOLE_EFFECTSIMULATE_ESUISIZE_MLOKIDFFEPH_OFFSET UNITYSDK_OFFSET(0x1BA77EF0)
+#define MOLEMOLE_EFFECTSIMULATE_ESUISIZE_PKOOKCIHDHF_OFFSET UNITYSDK_OFFSET(0x1BA77850)
+#define MOLEMOLE_EFFECTSIMULATE_ESUISIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA77D00)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESUISize_TypeDefinitionIndex = 87285;
+	inline static constexpr unsigned int ESUISize_TypeDefinitionIndex = 76614;
 
 	class ESUISize : public ::MoleMole::EffectSimulate::ESUIBehavior
 	{
@@ -25,24 +25,24 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUISIZE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_4_B179D9338896C46D(::UnityEngine::GameObject* a1)
+		::System::Void PKOOKCIHDHF(::UnityEngine::GameObject* NJOAJLDJCCJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUISIZE_METHOD_4_B179D9338896C46D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUISIZE_PKOOKCIHDHF_OFFSET))(this, NJOAJLDJCCJ);
 		}
 
-		::System::Void Method_4_49AA86D9F19FB057(::System::Single a1)
+		::System::Void ALJEEEAPCBH(::System::Single HIIOCANBKAM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUISIZE_METHOD_4_49AA86D9F19FB057_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUISIZE_ALJEEEAPCBH_OFFSET))(this, HIIOCANBKAM);
 		}
 
-		::System::Void Method_4_990C94EC15D6CE86(::UnityEngine::GameObject* a1)
+		::System::Void LLLIDJKOBEC(::System::Single MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUISIZE_METHOD_4_990C94EC15D6CE86_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUISIZE_LLLIDJKOBEC_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void Method_4_2685B6183E614529(::System::Single a1)
+		::System::Void MLOKIDFFEPH(::UnityEngine::GameObject* MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUISIZE_METHOD_4_2685B6183E614529_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUISIZE_MLOKIDFFEPH_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

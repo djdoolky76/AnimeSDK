@@ -6,12 +6,12 @@ namespace System { class Type; }
 namespace System::Collections { class Hashtable; }
 namespace System::Runtime::Serialization { class SerializationEvents; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE_GETSERIALIZATIONEVENTSFORTYPE_OFFSET UNITYSDK_OFFSET(0x1CCBD5B0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCBD8D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE_GETSERIALIZATIONEVENTSFORTYPE_OFFSET UNITYSDK_OFFSET(0x1D1BE7D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SERIALIZATIONEVENTSCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1BEAF0)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SerializationEventsCache_TypeDefinitionIndex = 1166;
+	inline static constexpr unsigned int SerializationEventsCache_TypeDefinitionIndex = 1165;
 
 	class SerializationEventsCache : public ::System::Object
 	{

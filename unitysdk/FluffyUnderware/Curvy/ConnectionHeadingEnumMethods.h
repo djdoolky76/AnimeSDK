@@ -5,11 +5,11 @@
 
 namespace FluffyUnderware::Curvy { class CurvySplineSegment; }
 
-#define FLUFFYUNDERWARE_CURVY_CONNECTIONHEADINGENUMMETHODS_RESOLVEAUTO_OFFSET UNITYSDK_OFFSET(0x1EFA6710)
+#define FLUFFYUNDERWARE_CURVY_CONNECTIONHEADINGENUMMETHODS_RESOLVEAUTO_OFFSET UNITYSDK_OFFSET(0x1F313C90)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int ConnectionHeadingEnumMethods_TypeDefinitionIndex = 39458;
+	inline static constexpr unsigned int ConnectionHeadingEnumMethods_TypeDefinitionIndex = 37481;
 
 	class ConnectionHeadingEnumMethods : public ::System::Object
 	{

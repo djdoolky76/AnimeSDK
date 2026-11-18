@@ -7,19 +7,19 @@ namespace System { class IAsyncResult; }
 namespace System { class String; }
 namespace System::Net::Sockets { class UdpClient; }
 
-#define SYSTEM_NET_SOCKETS_UDPCLIENT___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C715E20)
-#define SYSTEM_NET_SOCKETS_UDPCLIENT___C__DISPLAYCLASS63_0__SENDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1C715E30)
+#define SYSTEM_NET_SOCKETS_UDPCLIENT___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF5A00)
+#define SYSTEM_NET_SOCKETS_UDPCLIENT___C__DISPLAYCLASS63_0__SENDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1CBF5A10)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int UdpClient___c__DisplayClass63_0_TypeDefinitionIndex = 3676;
+	inline static constexpr unsigned int UdpClient___c__DisplayClass63_0_TypeDefinitionIndex = 3675;
 
 	class UdpClient___c__DisplayClass63_0 : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Byte>* datagram; // 0x10
-		::System::Net::Sockets::UdpClient* __4__this; // 0x18
-		::System::String* hostname; // 0x20
+		::System::String* hostname; // 0x18
+		::System::Net::Sockets::UdpClient* __4__this; // 0x20
 		::System::Int32 bytes; // 0x28
 		::System::Int32 port; // 0x2C
 

@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_IDGENERATOR_IMPL_GENERATE_OFFSET UNITYSDK_OFFSET(0xAB17C0)
-#define FOUNDATION_IDGENERATOR_IMPL__CTOR_OFFSET UNITYSDK_OFFSET(0xA82800)
+#define FOUNDATION_IDGENERATOR_IMPL_GENERATE_OFFSET UNITYSDK_OFFSET(0x997D10)
+#define FOUNDATION_IDGENERATOR_IMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x93E140)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IDGenerator_Impl_TypeDefinitionIndex = 8499;
+	inline static constexpr unsigned int IDGenerator_Impl_TypeDefinitionIndex = 9036;
 
-	struct alignas(8) IDGenerator_Impl
+	struct alignas(4) IDGenerator_Impl
 	{
 		::System::UInt64 _lowerBitsGenerator; // 0x10
 		::System::UInt64 _highBits; // 0x18

@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigRichtapResource_RichTapResourceType_TypeDefinitionIndex = 46051;
+	inline static constexpr unsigned int ConfigRichtapResource_RichTapResourceType_TypeDefinitionIndex = 91334;
 
 	enum class ConfigRichtapResource_RichTapResourceType : ::System::Int32
 	{
 		Other = 2,
-		Cutscene = 1,
 		Combat = 0,
+		Cutscene = 1,
 	};
 }

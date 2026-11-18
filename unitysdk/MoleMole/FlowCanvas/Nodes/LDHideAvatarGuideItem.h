@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEAVATARGUIDEITEM_INVOKE_OFFSET UNITYSDK_OFFSET(0x13690F30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEAVATARGUIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x13691170)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEAVATARGUIDEITEM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1356A740)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDEAVATARGUIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1356A980)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDHideAvatarGuideItem_TypeDefinitionIndex = 60679;
+	inline static constexpr unsigned int LDHideAvatarGuideItem_TypeDefinitionIndex = 82270;
 
-	class LDHideAvatarGuideItem : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::String*>
+	class LDHideAvatarGuideItem
 	{
 	public:
 		::System::Void _ctor()

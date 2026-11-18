@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_TIMELINE_MATERIALAVATARSHADERUTIL___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F98DC10)
-#define MOLEMOLE_TIMELINE_MATERIALAVATARSHADERUTIL___C__DISPLAYCLASS66_0__MATERIALCHANGED_G__ADDKEYWORDSENABLEANDRECORDERINITSKIPKEYSET_1_OFFSET UNITYSDK_OFFSET(0x1F98DD60)
-#define MOLEMOLE_TIMELINE_MATERIALAVATARSHADERUTIL___C__DISPLAYCLASS66_0__MATERIALCHANGED_G__ADDKEYWORDSENABLEANDRECORDERINIT_2_OFFSET UNITYSDK_OFFSET(0x1F98DE70)
-#define MOLEMOLE_TIMELINE_MATERIALAVATARSHADERUTIL___C__DISPLAYCLASS66_0__MATERIALCHANGED_G__ADDSHADERENABLEANDRECORDERINIT_0_OFFSET UNITYSDK_OFFSET(0x1F98DC20)
+#define MOLEMOLE_TIMELINE_MATERIALAVATARSHADERUTIL___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD776C0)
+#define MOLEMOLE_TIMELINE_MATERIALAVATARSHADERUTIL___C__DISPLAYCLASS66_0__MATERIALCHANGED_G__ADDKEYWORDSENABLEANDRECORDERINITSKIPKEYSET_1_OFFSET UNITYSDK_OFFSET(0x1FD77820)
+#define MOLEMOLE_TIMELINE_MATERIALAVATARSHADERUTIL___C__DISPLAYCLASS66_0__MATERIALCHANGED_G__ADDKEYWORDSENABLEANDRECORDERINIT_2_OFFSET UNITYSDK_OFFSET(0x1FD77930)
+#define MOLEMOLE_TIMELINE_MATERIALAVATARSHADERUTIL___C__DISPLAYCLASS66_0__MATERIALCHANGED_G__ADDSHADERENABLEANDRECORDERINIT_0_OFFSET UNITYSDK_OFFSET(0x1FD776D0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MaterialAvatarShaderUtil___c__DisplayClass66_0_TypeDefinitionIndex = 32795;
+	inline static constexpr unsigned int MaterialAvatarShaderUtil___c__DisplayClass66_0_TypeDefinitionIndex = 32246;
 
 	class MaterialAvatarShaderUtil___c__DisplayClass66_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* avatar_shader_pass; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* avatar_keywords_enable; // 0x18
-		::UnityEngine::Material* material; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* avatar_keywords_enable; // 0x10
+		::UnityEngine::Material* material; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* avatar_shader_pass; // 0x20
 
 		::System::Void _ctor()
 		{

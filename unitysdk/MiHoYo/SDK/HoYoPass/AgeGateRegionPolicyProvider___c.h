@@ -6,39 +6,49 @@ namespace MiHoYo::SDK::HoYoPass { class AgeGateRegionPolicy; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7674F0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D767530)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0x1D767540)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__3_1_OFFSET UNITYSDK_OFFSET(0x1D7676C0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__3_2_OFFSET UNITYSDK_OFFSET(0x1D767630)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__3_3_OFFSET UNITYSDK_OFFSET(0x1D7677B0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEBF2F0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEBF330)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1DEBF340)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_1_OFFSET UNITYSDK_OFFSET(0x1DEBF4C0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_2_OFFSET UNITYSDK_OFFSET(0x1DEBF680)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_3_OFFSET UNITYSDK_OFFSET(0x1DEBF430)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_4_OFFSET UNITYSDK_OFFSET(0x1DEBF5B0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_5_OFFSET UNITYSDK_OFFSET(0x1DEBF770)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateRegionPolicyProvider___c_TypeDefinitionIndex = 20382;
+	inline static constexpr unsigned int AgeGateRegionPolicyProvider___c_TypeDefinitionIndex = 19530;
 
 	class AgeGateRegionPolicyProvider___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::System::String*>** StaticGet___9__3_2()
+		static ::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>** StaticGet___9__7_2()
 		{
-			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider___c_TypeDefinitionIndex)->GetStaticField(0xAE50);
+			return (::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider___c_TypeDefinitionIndex)->GetStaticField(0xADC0);
 		}
-		static ::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>** StaticGet___9__3_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider___c_TypeDefinitionIndex)->GetStaticField(0xAE58);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider___c_TypeDefinitionIndex)->GetStaticField(0xADC8);
 		}
-		static ::System::Func_1<::System::String*>** StaticGet___9__3_3()
+		static ::System::Func_1<::System::String*>** StaticGet___9__7_4()
 		{
-			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider___c_TypeDefinitionIndex)->GetStaticField(0xAE60);
+			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider___c_TypeDefinitionIndex)->GetStaticField(0xADD0);
 		}
-		static ::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>** StaticGet___9__3_1()
+		static ::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>** StaticGet___9__7_0()
 		{
-			return (::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider___c_TypeDefinitionIndex)->GetStaticField(0xAE68);
+			return (::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider___c_TypeDefinitionIndex)->GetStaticField(0xADD8);
 		}
-		static ::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider___c** StaticGet___9()
+		static ::System::Func_1<::System::String*>** StaticGet___9__7_3()
 		{
-			return (::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider___c**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider___c_TypeDefinitionIndex)->GetStaticField(0xAE70);
+			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider___c_TypeDefinitionIndex)->GetStaticField(0xADE0);
+		}
+		static ::System::Func_1<::System::String*>** StaticGet___9__7_5()
+		{
+			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider___c_TypeDefinitionIndex)->GetStaticField(0xADE8);
+		}
+		static ::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>** StaticGet___9__7_1()
+		{
+			return (::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider___c_TypeDefinitionIndex)->GetStaticField(0xADF0);
 		}
 
 		static ::System::Void _cctor()
@@ -51,24 +61,34 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C__CTOR_OFFSET))(this);
 		}
 
-		::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy* __ctor_b__3_0()
+		::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy* __ctor_b__7_0()
 		{
-			return ((::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__3_0_OFFSET))(this);
+			return ((::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_0_OFFSET))(this);
 		}
 
-		::System::String* __ctor_b__3_2()
+		::System::String* __ctor_b__7_3()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__3_2_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_3_OFFSET))(this);
 		}
 
-		::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy* __ctor_b__3_1()
+		::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy* __ctor_b__7_1()
 		{
-			return ((::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__3_1_OFFSET))(this);
+			return ((::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_1_OFFSET))(this);
 		}
 
-		::System::String* __ctor_b__3_3()
+		::System::String* __ctor_b__7_4()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__3_3_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_4_OFFSET))(this);
+		}
+
+		::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy* __ctor_b__7_2()
+		{
+			return ((::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_2_OFFSET))(this);
+		}
+
+		::System::String* __ctor_b__7_5()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER___C___CTOR_B__7_5_OFFSET))(this);
 		}
 	};
 }

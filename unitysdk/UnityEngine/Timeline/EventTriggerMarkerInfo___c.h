@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Timeline { class ComicEventBase; }
 
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F243AF0)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F243B30)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__EXISTKEYEVENT_B__6_0_OFFSET UNITYSDK_OFFSET(0x1F243B40)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5F9E80)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F9EC0)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERMARKERINFO___C__EXISTKEYEVENT_B__6_0_OFFSET UNITYSDK_OFFSET(0x1F5F9ED0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int EventTriggerMarkerInfo___c_TypeDefinitionIndex = 32946;
+	inline static constexpr unsigned int EventTriggerMarkerInfo___c_TypeDefinitionIndex = 32401;
 
 	class EventTriggerMarkerInfo___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Timeline::EventTriggerMarkerInfo___c** StaticGet___9()
-		{
-			return (::UnityEngine::Timeline::EventTriggerMarkerInfo___c**)Il2CppClass::FromTypeDefinitionIndex(EventTriggerMarkerInfo___c_TypeDefinitionIndex)->GetStaticField(0x27F40);
-		}
 		static ::System::Func_2<::UnityEngine::Timeline::ComicEventBase*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::UnityEngine::Timeline::ComicEventBase*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EventTriggerMarkerInfo___c_TypeDefinitionIndex)->GetStaticField(0x27F48);
+			return (::System::Func_2<::UnityEngine::Timeline::ComicEventBase*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EventTriggerMarkerInfo___c_TypeDefinitionIndex)->GetStaticField(0x29030);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(EventTriggerMarkerInfo___c_TypeDefinitionIndex)->GetStaticField(0x29038);
 		}
 
 		static ::System::Void _cctor()

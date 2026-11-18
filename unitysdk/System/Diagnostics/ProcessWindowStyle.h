@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int ProcessWindowStyle_TypeDefinitionIndex = 2799;
+	inline static constexpr unsigned int ProcessWindowStyle_TypeDefinitionIndex = 2798;
 
 	enum class ProcessWindowStyle : ::System::Int32
 	{

@@ -1,26 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PVSManager_PVSLevelData.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define PVSMANAGER_STARTWITHLEVEL_OFFSET UNITYSDK_OFFSET(0x1FC66440)
-#define PVSMANAGER_START_OFFSET UNITYSDK_OFFSET(0x1FC66330)
-#define PVSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC66810)
+#define PVSMANAGER_STARTWITHLEVEL_OFFSET UNITYSDK_OFFSET(0x200694E0)
+#define PVSMANAGER_START_OFFSET UNITYSDK_OFFSET(0x200693D0)
+#define PVSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x200698B0)
 
-inline static constexpr unsigned int PVSManager_TypeDefinitionIndex = 38099;
+inline static constexpr unsigned int PVSManager_TypeDefinitionIndex = 36101;
 
 class PVSManager : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* totalObjects; // 0x18
 	::System::Single perCellSize; // 0x20
+	::System::Byte _padding0[0x4];
 	::System::Collections::Generic::List_1<::System::Int32>* invisibleIndexes; // 0x28
-	::System::Collections::Generic::List_1<::PVSManager_PVSLevelData>* levelDatas; // 0x30
+	::System::Collections::Generic::List_1<::System::Object*>* levelDatas; // 0x30
 	::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Vector2Int>* _levelDataDict; // 0x38
 
 	::System::Void _ctor()

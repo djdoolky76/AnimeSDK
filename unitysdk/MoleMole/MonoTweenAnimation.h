@@ -1,23 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_91F5B5FCD8262EE8_Enum_3_A626A12B886B3470.h"
+#include "unitysdk/APNCODNOFLH_IOLGAFLHBCM.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 
 namespace MoleMole::SceneMark { class StageTweenAnimData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_MONOTWEENANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x14A15760)
+#define MOLEMOLE_MONOTWEENANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1310CDF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTweenAnimation_TypeDefinitionIndex = 83026;
+	inline static constexpr unsigned int MonoTweenAnimation_TypeDefinitionIndex = 63886;
 
 	class MonoTweenAnimation : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::SceneMark::StageTweenAnimData*>* AnimDataMap; // 0x58
-		::Class_1_91F5B5FCD8262EE8_Enum_3_A626A12B886B3470 TimeScaleMode; // 0x60
+		::APNCODNOFLH_IOLGAFLHBCM TimeScaleMode; // 0x60
+		::System::Byte _padding0[0x4];
 		::System::String* AutoPlayTween; // 0x68
 
 		::System::Void _ctor()

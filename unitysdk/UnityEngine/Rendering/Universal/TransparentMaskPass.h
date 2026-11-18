@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
@@ -12,32 +12,32 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E672220)
-#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E673190)
-#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS_GET_MAT_OFFSET UNITYSDK_OFFSET(0x1E672030)
-#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1E6721D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E673270)
-#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E672090)
-#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E6732D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E8F5D40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E8F6CB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS_GET_MAT_OFFSET UNITYSDK_OFFSET(0x1E8F5B50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1E8F5CF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8F6D90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F5BB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_TRANSPARENTMASKPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E8F6DF0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int TransparentMaskPass_TypeDefinitionIndex = 27120;
+	inline static constexpr unsigned int TransparentMaskPass_TypeDefinitionIndex = 27052;
 
 	class TransparentMaskPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::System::Int32* StaticGet__OffScreenParticlesRT()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentMaskPass_TypeDefinitionIndex)->GetStaticField(0x7050);
-		}
 		static ::System::Int32* StaticGet__GBuffer3SizeAndInvSize()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentMaskPass_TypeDefinitionIndex)->GetStaticField(0x7054);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentMaskPass_TypeDefinitionIndex)->GetStaticField(0x70C0);
 		}
 		static ::System::Int32* StaticGet__CameraNormalTexture()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentMaskPass_TypeDefinitionIndex)->GetStaticField(0x7058);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentMaskPass_TypeDefinitionIndex)->GetStaticField(0x70C4);
+		}
+		static ::System::Int32* StaticGet__OffScreenParticlesRT()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TransparentMaskPass_TypeDefinitionIndex)->GetStaticField(0x70C8);
 		}
 		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_Sampler; // 0xA8
 		::System::Boolean m_UseOffScreenParticles; // 0xB0

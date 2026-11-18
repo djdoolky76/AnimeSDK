@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_6EC930B690591576_Class_1_EA06DA1092863621;
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_UIOPERATIONYUMPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D20A30)
+#define MOLEMOLE_UIOPERATIONYUMPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1905FCD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOperationYumPageController_Context_TypeDefinitionIndex = 40286;
+	inline static constexpr unsigned int UIOperationYumPageController_Context_TypeDefinitionIndex = 89409;
 
 	class UIOperationYumPageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_2_6EC930B690591576_Class_1_EA06DA1092863621*>* NpcNameSettings; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* NpcNameSettings; // 0x28
 
 		::System::Void _ctor()
 		{

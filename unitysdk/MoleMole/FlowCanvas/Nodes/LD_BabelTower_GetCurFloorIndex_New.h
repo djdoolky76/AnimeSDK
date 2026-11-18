@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETCURFLOORINDEX_NEW_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A05C800)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETCURFLOORINDEX_NEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05C920)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETCURFLOORINDEX_NEW_INVOKE_OFFSET UNITYSDK_OFFSET(0x13EDC290)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWER_GETCURFLOORINDEX_NEW__CTOR_OFFSET UNITYSDK_OFFSET(0x13EDC3C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_BabelTower_GetCurFloorIndex_New_TypeDefinitionIndex = 76280;
+	inline static constexpr unsigned int LD_BabelTower_GetCurFloorIndex_New_TypeDefinitionIndex = 45152;
 
-	class LD_BabelTower_GetCurFloorIndex_New : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::UInt32>
+	class LD_BabelTower_GetCurFloorIndex_New
 	{
 	public:
 		::System::Void _ctor()

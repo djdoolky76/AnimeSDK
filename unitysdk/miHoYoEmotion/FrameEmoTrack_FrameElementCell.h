@@ -7,14 +7,14 @@ namespace UnityEngine { class Texture2D; }
 namespace miHoYoEmotion { class FrameShapeElement; }
 namespace miHoYoEmotion { class FrameShapeManager_FrameShapeRuntime; }
 
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMEELEMENTCELL_ADDFRAME_OFFSET UNITYSDK_OFFSET(0x980BF0)
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMEELEMENTCELL_APPLY_OFFSET UNITYSDK_OFFSET(0x980CF0)
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMEELEMENTCELL_CLEARFRAME_OFFSET UNITYSDK_OFFSET(0x980B10)
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMEELEMENTCELL_UPDATE_OFFSET UNITYSDK_OFFSET(0x980C00)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMEELEMENTCELL_ADDFRAME_OFFSET UNITYSDK_OFFSET(0x8BA8B0)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMEELEMENTCELL_APPLY_OFFSET UNITYSDK_OFFSET(0x8BA9B0)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMEELEMENTCELL_CLEARFRAME_OFFSET UNITYSDK_OFFSET(0x8BA7D0)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMEELEMENTCELL_UPDATE_OFFSET UNITYSDK_OFFSET(0x8BA8C0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int FrameEmoTrack_FrameElementCell_TypeDefinitionIndex = 39992;
+	inline static constexpr unsigned int FrameEmoTrack_FrameElementCell_TypeDefinitionIndex = 38010;
 
 	struct alignas(8) FrameEmoTrack_FrameElementCell
 	{
@@ -22,6 +22,7 @@ namespace miHoYoEmotion
 		::miHoYoEmotion::FrameShapeManager_FrameShapeRuntime* shapeRuntime; // 0x18
 		::System::Int32 _frameCnt; // 0x20
 		::System::Boolean _frameChanged; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::Single _frameTime; // 0x28
 		::System::Single _timeCnt; // 0x2C
 		::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>* _frames; // 0x30

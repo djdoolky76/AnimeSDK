@@ -2,43 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1861D740)
-#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1861D780)
-#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONSHOW_B__13_2_OFFSET UNITYSDK_OFFSET(0x1861D790)
-#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONSHOW_B__13_3_OFFSET UNITYSDK_OFFSET(0x1861D7A0)
-#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONUIINIT_B__20_0_OFFSET UNITYSDK_OFFSET(0x1861D7B0)
-#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONUIINIT_B__20_1_OFFSET UNITYSDK_OFFSET(0x1861D7E0)
+#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A67F40)
+#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19A67F80)
+#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONSHOW_B__13_2_OFFSET UNITYSDK_OFFSET(0x19A67F90)
+#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONSHOW_B__13_3_OFFSET UNITYSDK_OFFSET(0x19A67FA0)
+#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONUIINIT_B__20_0_OFFSET UNITYSDK_OFFSET(0x19A67FB0)
+#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONUIINIT_B__20_1_OFFSET UNITYSDK_OFFSET(0x19A67FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelLongFightResultChessboardTypePageController___c_TypeDefinitionIndex = 44262;
+	inline static constexpr unsigned int UILevelLongFightResultChessboardTypePageController___c_TypeDefinitionIndex = 78830;
 
 	class UILevelLongFightResultChessboardTypePageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Boolean>** StaticGet___9__20_0()
+		static ::System::Func_2<::HGAJKHIMKJP*, ::System::Boolean>** StaticGet___9__20_1()
 		{
-			return (::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UILevelLongFightResultChessboardTypePageController___c_TypeDefinitionIndex)->GetStaticField(0x471D0);
+			return (::System::Func_2<::HGAJKHIMKJP*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UILevelLongFightResultChessboardTypePageController___c_TypeDefinitionIndex)->GetStaticField(0x4C460);
+		}
+		static ::System::Func_2<::HGAJKHIMKJP*, ::System::Boolean>** StaticGet___9__20_0()
+		{
+			return (::System::Func_2<::HGAJKHIMKJP*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UILevelLongFightResultChessboardTypePageController___c_TypeDefinitionIndex)->GetStaticField(0x4C468);
 		}
 		static ::System::Action** StaticGet___9__13_3()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILevelLongFightResultChessboardTypePageController___c_TypeDefinitionIndex)->GetStaticField(0x471D8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILevelLongFightResultChessboardTypePageController___c_TypeDefinitionIndex)->GetStaticField(0x4C470);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UILevelLongFightResultChessboardTypePageController___c_TypeDefinitionIndex)->GetStaticField(0x4C478);
 		}
 		static ::System::Action** StaticGet___9__13_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILevelLongFightResultChessboardTypePageController___c_TypeDefinitionIndex)->GetStaticField(0x471E0);
-		}
-		static ::MoleMole::UILevelLongFightResultChessboardTypePageController___c** StaticGet___9()
-		{
-			return (::MoleMole::UILevelLongFightResultChessboardTypePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UILevelLongFightResultChessboardTypePageController___c_TypeDefinitionIndex)->GetStaticField(0x471E8);
-		}
-		static ::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Boolean>** StaticGet___9__20_1()
-		{
-			return (::System::Func_2<::Class_1_0D6706375CDAAE8C*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UILevelLongFightResultChessboardTypePageController___c_TypeDefinitionIndex)->GetStaticField(0x471F0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILevelLongFightResultChessboardTypePageController___c_TypeDefinitionIndex)->GetStaticField(0x4C480);
 		}
 
 		static ::System::Void _cctor()
@@ -61,14 +61,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONSHOW_B__13_3_OFFSET))(this);
 		}
 
-		::System::Boolean _OnUIInit_b__20_0(::Class_1_0D6706375CDAAE8C* item)
+		::System::Boolean _OnUIInit_b__20_0(::HGAJKHIMKJP* item)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_0D6706375CDAAE8C*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONUIINIT_B__20_0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::HGAJKHIMKJP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONUIINIT_B__20_0_OFFSET))(this, item);
 		}
 
-		::System::Boolean _OnUIInit_b__20_1(::Class_1_0D6706375CDAAE8C* item)
+		::System::Boolean _OnUIInit_b__20_1(::HGAJKHIMKJP* item)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_0D6706375CDAAE8C*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONUIINIT_B__20_1_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::HGAJKHIMKJP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__ONUIINIT_B__20_1_OFFSET))(this, item);
 		}
 	};
 }

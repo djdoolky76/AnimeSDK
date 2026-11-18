@@ -4,13 +4,13 @@
 
 namespace MoleMole::Timeline::AutoGenerateComps { class CompTimelineBaseConfig; }
 
-#define MOLEMOLE_TIMELINE_AUTOGENERATECOMPS_COMPCONTROLBEHAVIOR_GET_COMPTIMELINECONFIG_OFFSET UNITYSDK_OFFSET(0x180A1880)
-#define MOLEMOLE_TIMELINE_AUTOGENERATECOMPS_COMPCONTROLBEHAVIOR_METHOD_2_7A391CCE1142AE06_OFFSET UNITYSDK_OFFSET(0x180A1890)
-#define MOLEMOLE_TIMELINE_AUTOGENERATECOMPS_COMPCONTROLBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x180A18D0)
+#define MOLEMOLE_TIMELINE_AUTOGENERATECOMPS_COMPCONTROLBEHAVIOR_GET_COMPTIMELINECONFIG_OFFSET UNITYSDK_OFFSET(0x198D54F0)
+#define MOLEMOLE_TIMELINE_AUTOGENERATECOMPS_COMPCONTROLBEHAVIOR_NMBJIKEJKCK_OFFSET UNITYSDK_OFFSET(0x198D5500)
+#define MOLEMOLE_TIMELINE_AUTOGENERATECOMPS_COMPCONTROLBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x198D5540)
 
 namespace MoleMole::Timeline::AutoGenerateComps
 {
-	inline static constexpr unsigned int CompControlBehavior_TypeDefinitionIndex = 83036;
+	inline static constexpr unsigned int CompControlBehavior_TypeDefinitionIndex = 44326;
 
 	class CompControlBehavior : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -27,9 +27,9 @@ namespace MoleMole::Timeline::AutoGenerateComps
 			return ((::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_AUTOGENERATECOMPS_COMPCONTROLBEHAVIOR_GET_COMPTIMELINECONFIG_OFFSET))(this);
 		}
 
-		::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* Method_2_7A391CCE1142AE06()
+		::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* NMBJIKEJKCK()
 		{
-			return ((::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_AUTOGENERATECOMPS_COMPCONTROLBEHAVIOR_METHOD_2_7A391CCE1142AE06_OFFSET))(this);
+			return ((::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_AUTOGENERATECOMPS_COMPCONTROLBEHAVIOR_NMBJIKEJKCK_OFFSET))(this);
 		}
 	};
 }

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_36;
-namespace MoleMole { class UIPlayerSkinSwitchWidgetController___c__DisplayClass36_0; }
+class OAEFGCLEHHO;
 
-#define MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS36_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16A72A70)
-#define MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS36_1__ONCLICKPREVIEWORSWITCHSKIN_B__0_OFFSET UNITYSDK_OFFSET(0x16A72AB0)
-#define MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS36_1__ONCLICKPREVIEWORSWITCHSKIN_B__1_OFFSET UNITYSDK_OFFSET(0x16A72A80)
+#define MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS36_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1676CDF0)
+#define MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS36_1__ONCLICKPREVIEWORSWITCHSKIN_B__0_OFFSET UNITYSDK_OFFSET(0x1676CE30)
+#define MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS36_1__ONCLICKPREVIEWORSWITCHSKIN_B__1_OFFSET UNITYSDK_OFFSET(0x1676CE00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerSkinSwitchWidgetController___c__DisplayClass36_1_TypeDefinitionIndex = 42655;
+	inline static constexpr unsigned int UIPlayerSkinSwitchWidgetController___c__DisplayClass36_1_TypeDefinitionIndex = 61256;
 
+	template <typename T>
 	class UIPlayerSkinSwitchWidgetController___c__DisplayClass36_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIPlayerSkinSwitchWidgetController___c__DisplayClass36_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::Int32 avatarID; // 0x18
 
 		::System::Void _ctor()
@@ -29,9 +29,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS36_1__ONCLICKPREVIEWORSWITCHSKIN_B__1_OFFSET))(this);
 		}
 
-		::System::Void _OnClickPreviewOrSwitchSkin_b__0(::Class_0_16E4307DCC419505_36* rsp)
+		::System::Void _OnClickPreviewOrSwitchSkin_b__0(::OAEFGCLEHHO* rsp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_36*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS36_1__ONCLICKPREVIEWORSWITCHSKIN_B__0_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS36_1__ONCLICKPREVIEWORSWITCHSKIN_B__0_OFFSET))(this, rsp);
 		}
 	};
 }

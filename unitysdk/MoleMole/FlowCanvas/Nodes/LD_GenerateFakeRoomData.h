@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GENERATEFAKEROOMDATA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1383CB80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GENERATEFAKEROOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1383CC70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GENERATEFAKEROOMDATA__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1383CCB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GENERATEFAKEROOMDATA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x139E30C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GENERATEFAKEROOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x139E31B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GENERATEFAKEROOMDATA__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x139E31F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GenerateFakeRoomData_TypeDefinitionIndex = 90332;
+	inline static constexpr unsigned int LD_GenerateFakeRoomData_TypeDefinitionIndex = 58879;
 
 	class LD_GenerateFakeRoomData : public ::FlowCanvas::Nodes::FlowControlNode
 	{

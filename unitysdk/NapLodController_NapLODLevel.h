@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NapLodController_NapLODLevel_TypeDefinitionIndex = 48204;
+inline static constexpr unsigned int NapLodController_NapLODLevel_TypeDefinitionIndex = 82347;
 
 enum class NapLodController_NapLODLevel : ::System::Int32
 {

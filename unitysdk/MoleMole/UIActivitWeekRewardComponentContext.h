@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_B2D270DFAE7C21C4;
+class JNCBGOANMMK;
 
-#define MOLEMOLE_UIACTIVITWEEKREWARDCOMPONENTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x180C4E10)
+#define MOLEMOLE_UIACTIVITWEEKREWARDCOMPONENTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x198FBC10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivitWeekRewardComponentContext_TypeDefinitionIndex = 82489;
+	inline static constexpr unsigned int UIActivitWeekRewardComponentContext_TypeDefinitionIndex = 70408;
 
 	class UIActivitWeekRewardComponentContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_B2D270DFAE7C21C4* proxy; // 0x28
+		::JNCBGOANMMK* proxy; // 0x28
 
 		::System::Void _ctor()
 		{

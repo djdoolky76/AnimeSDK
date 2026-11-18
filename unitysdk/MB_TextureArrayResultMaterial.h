@@ -4,9 +4,9 @@
 
 class MB_AtlasesAndRects;
 
-#define MB_TEXTUREARRAYRESULTMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F79B7C0)
+#define MB_TEXTUREARRAYRESULTMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBA07F0)
 
-inline static constexpr unsigned int MB_TextureArrayResultMaterial_TypeDefinitionIndex = 94452;
+inline static constexpr unsigned int MB_TextureArrayResultMaterial_TypeDefinitionIndex = 96139;
 
 class MB_TextureArrayResultMaterial : public ::System::Object
 {

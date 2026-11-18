@@ -1,47 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_FA887B12EB8EFCE2.h"
+#include "unitysdk/LGBIMGEFJCE.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_D66755A4450D1F25;
+class MOELDGPPDPM;
 namespace MoleMole { class MonoRenderHandler; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER_METHOD_2_6881D6F4F5133271_OFFSET UNITYSDK_OFFSET(0x8A5D00)
-#define MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER_METHOD_2_C446CE6A5E1982BC_OFFSET UNITYSDK_OFFSET(0x8A5D10)
-#define MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x8A5D60)
-#define MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x8A5C70)
+#define MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER_JFPIGHKJHPO_OFFSET UNITYSDK_OFFSET(0x7468A0)
+#define MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER_MFLAMFHHBEP_OFFSET UNITYSDK_OFFSET(0x746850)
+#define MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER_NMBJIKEJKCK_OFFSET UNITYSDK_OFFSET(0x746840)
+#define MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x7467B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int StaticKeywordFloatMaterialModifier_TypeDefinitionIndex = 53744;
+	inline static constexpr unsigned int StaticKeywordFloatMaterialModifier_TypeDefinitionIndex = 68802;
 
 	struct alignas(8) StaticKeywordFloatMaterialModifier
 	{
 		::System::String* propertyKey; // 0x10
 		::System::Boolean enable; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single value; // 0x1C
 		::Il2CppArray<::System::String*>* keywords; // 0x20
 
-		::System::Void _ctor(::System::String* a1, ::Il2CppArray<::System::String*>* a2)
+		::System::Void _ctor(::System::String* BGJOPBCCMOC, ::Il2CppArray<::System::String*>* NGEJBPHKICI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER__CTOR_OFFSET))(this, BGJOPBCCMOC, NGEJBPHKICI);
 		}
 
-		::Class_1_D66755A4450D1F25* Method_2_6881D6F4F5133271(::Enum_3_FA887B12EB8EFCE2 a1, ::MoleMole::MonoRenderHandler* a2)
+		::MOELDGPPDPM* NMBJIKEJKCK(::LGBIMGEFJCE MDLHJONGOPK, ::MoleMole::MonoRenderHandler* AOKHOHCJNFJ)
 		{
-			return ((::Class_1_D66755A4450D1F25*(*)(::PVOID, ::Enum_3_FA887B12EB8EFCE2, ::MoleMole::MonoRenderHandler*))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER_METHOD_2_6881D6F4F5133271_OFFSET))(this, a1, a2);
+			return ((::MOELDGPPDPM*(*)(::PVOID, ::LGBIMGEFJCE, ::MoleMole::MonoRenderHandler*))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER_NMBJIKEJKCK_OFFSET))(this, MDLHJONGOPK, AOKHOHCJNFJ);
 		}
 
-		::System::Collections::Generic::List_1<::System::String*>* Method_2_C446CE6A5E1982BC()
+		::System::String* MFLAMFHHBEP()
 		{
-			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER_METHOD_2_C446CE6A5E1982BC_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER_MFLAMFHHBEP_OFFSET))(this);
 		}
 
-		::System::String* Method_2_DA1BF2C227DC3D86()
+		::System::Collections::Generic::List_1<::System::String*>* JFPIGHKJHPO()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER_METHOD_2_DA1BF2C227DC3D86_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICKEYWORDFLOATMATERIALMODIFIER_JFPIGHKJHPO_OFFSET))(this);
 		}
 	};
 }

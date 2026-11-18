@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/TipShowObj.h"
 
-class Class_2_208CC9941471731A_497;
+class ILGMDCBGNNP;
 
-#define MOLEMOLE_UIYOROZUYATIPS_GET_LOOPBROADCAST_OFFSET UNITYSDK_OFFSET(0x12E53510)
-#define MOLEMOLE_UIYOROZUYATIPS_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x12E53610)
-#define MOLEMOLE_UIYOROZUYATIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x12E53590)
+#define MOLEMOLE_UIYOROZUYATIPS_GET_LOOPBROADCAST_OFFSET UNITYSDK_OFFSET(0x164EE5F0)
+#define MOLEMOLE_UIYOROZUYATIPS_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x164EE6F0)
+#define MOLEMOLE_UIYOROZUYATIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x164EE670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaTips_TypeDefinitionIndex = 84381;
+	inline static constexpr unsigned int UIYorozuyaTips_TypeDefinitionIndex = 39333;
 
 	class UIYorozuyaTips : public ::MoleMole::TipShowObj
 	{
 	public:
-		::Class_2_208CC9941471731A_497* template_; // 0x30
+		::ILGMDCBGNNP* template_; // 0x30
 		::System::Int32 fairyID; // 0x38
 
 		::System::Void _ctor(::System::Int32 fairyID)

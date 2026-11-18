@@ -7,7 +7,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PerObjectShadowResolveData_TypeDefinitionIndex = 5931;
+	inline static constexpr unsigned int PerObjectShadowResolveData_TypeDefinitionIndex = 5937;
 
 	struct alignas(4) PerObjectShadowResolveData
 	{

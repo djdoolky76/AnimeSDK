@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int MotionBlurMode_TypeDefinitionIndex = 5862;
+	inline static constexpr unsigned int MotionBlurMode_TypeDefinitionIndex = 5868;
 
 	enum class MotionBlurMode : ::System::Int32
 	{

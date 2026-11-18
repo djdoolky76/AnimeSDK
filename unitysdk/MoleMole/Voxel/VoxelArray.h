@@ -6,18 +6,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_VOXEL_VOXELARRAY_GET_SHOWRAWSIZE_OFFSET UNITYSDK_OFFSET(0x1353A990)
-#define MOLEMOLE_VOXEL_VOXELARRAY_METHOD_1_43BEA4B0DA412159_OFFSET UNITYSDK_OFFSET(0x1353AC50)
-#define MOLEMOLE_VOXEL_VOXELARRAY_METHOD_1_629D11C4E3F941D7_OFFSET UNITYSDK_OFFSET(0x1353AA90)
-#define MOLEMOLE_VOXEL_VOXELARRAY_METHOD_1_8509CB331B7A4FB3_OFFSET UNITYSDK_OFFSET(0x1353AB90)
-#define MOLEMOLE_VOXEL_VOXELARRAY_METHOD_1_94BEB98E66845310_OFFSET UNITYSDK_OFFSET(0x1353AD60)
-#define MOLEMOLE_VOXEL_VOXELARRAY_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1353AC10)
-#define MOLEMOLE_VOXEL_VOXELARRAY_SET_SHOWRAWSIZE_OFFSET UNITYSDK_OFFSET(0x1353A9F0)
-#define MOLEMOLE_VOXEL_VOXELARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1353AA00)
+#define MOLEMOLE_VOXEL_VOXELARRAY_BFPFHEOGGEK_OFFSET UNITYSDK_OFFSET(0xEB384F0)
+#define MOLEMOLE_VOXEL_VOXELARRAY_BMKAEIPPLEJ_OFFSET UNITYSDK_OFFSET(0xEB38260)
+#define MOLEMOLE_VOXEL_VOXELARRAY_DLNIAHNJGEA_OFFSET UNITYSDK_OFFSET(0xEB38600)
+#define MOLEMOLE_VOXEL_VOXELARRAY_EBOPFMOBHMF_OFFSET UNITYSDK_OFFSET(0xEB38360)
+#define MOLEMOLE_VOXEL_VOXELARRAY_EIMBLGGBOGD_OFFSET UNITYSDK_OFFSET(0xEB383E0)
+#define MOLEMOLE_VOXEL_VOXELARRAY_GET_SHOWRAWSIZE_OFFSET UNITYSDK_OFFSET(0xEB38160)
+#define MOLEMOLE_VOXEL_VOXELARRAY_SET_SHOWRAWSIZE_OFFSET UNITYSDK_OFFSET(0xEB381C0)
+#define MOLEMOLE_VOXEL_VOXELARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0xEB381D0)
 
 namespace MoleMole::Voxel
 {
-	inline static constexpr unsigned int VoxelArray_TypeDefinitionIndex = 51646;
+	inline static constexpr unsigned int VoxelArray_TypeDefinitionIndex = 88031;
 
 	class VoxelArray : public ::System::Object
 	{
@@ -33,6 +33,7 @@ namespace MoleMole::Voxel
 		::System::Int32 bottomIndex; // 0x48
 		::System::Int32 topIndex; // 0x4C
 		::System::Int16 preData; // 0x50
+		::System::Byte _padding0[0x2];
 		::System::Int32 colIndex; // 0x54
 
 		::System::Void _ctor()
@@ -45,34 +46,34 @@ namespace MoleMole::Voxel
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_GET_SHOWRAWSIZE_OFFSET))(this);
 		}
 
-		::System::Void set_ShowRawSize(::System::Int32 a1)
+		::System::Void set_ShowRawSize(::System::Int32 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_SET_SHOWRAWSIZE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_SET_SHOWRAWSIZE_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Byte Method_1_629D11C4E3F941D7(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
+		::System::Byte BMKAEIPPLEJ(::System::Int32 HBJOLKHGGDD, ::System::Int32 HPMEONKHFGG, ::System::Int32 IJKOLMELBBC)
 		{
-			return ((::System::Byte(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_METHOD_1_629D11C4E3F941D7_OFFSET))(this, a1, a2, a3);
+			return ((::System::Byte(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_BMKAEIPPLEJ_OFFSET))(this, HBJOLKHGGDD, HPMEONKHFGG, IJKOLMELBBC);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598()
+		static ::System::Int32 EBOPFMOBHMF(::System::Int32 HBJOLKHGGDD, ::System::Int32 HPMEONKHFGG, ::System::Int32 IJKOLMELBBC, ::UnityEngine::Vector3Int OIOANNLOMDP)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3Int))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_EBOPFMOBHMF_OFFSET))(HBJOLKHGGDD, HPMEONKHFGG, IJKOLMELBBC, OIOANNLOMDP);
 		}
 
-		::System::Void Method_1_43BEA4B0DA412159(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Byte a4)
+		::System::Void EIMBLGGBOGD(::System::Int32 HBJOLKHGGDD, ::System::Int32 HPMEONKHFGG, ::System::Int32 IJKOLMELBBC, ::System::Byte LJBPECKCCEA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_METHOD_1_43BEA4B0DA412159_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_EIMBLGGBOGD_OFFSET))(this, HBJOLKHGGDD, HPMEONKHFGG, IJKOLMELBBC, LJBPECKCCEA);
 		}
 
-		::System::Void Method_1_94BEB98E66845310(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Byte a4)
+		::System::Void BFPFHEOGGEK(::System::Int32 HBJOLKHGGDD, ::System::Int32 HPMEONKHFGG, ::System::Int32 IJKOLMELBBC, ::System::Byte BPEGDPLGFPO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_METHOD_1_94BEB98E66845310_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_BFPFHEOGGEK_OFFSET))(this, HBJOLKHGGDD, HPMEONKHFGG, IJKOLMELBBC, BPEGDPLGFPO);
 		}
 
-		static ::System::Int32 Method_1_8509CB331B7A4FB3(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Vector3Int a4)
+		::System::Void DLNIAHNJGEA()
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::UnityEngine::Vector3Int))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_METHOD_1_8509CB331B7A4FB3_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_VOXEL_VOXELARRAY_DLNIAHNJGEA_OFFSET))(this);
 		}
 	};
 }

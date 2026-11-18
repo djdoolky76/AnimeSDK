@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_1.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_DEFAULTSHAKEATTENUATIONPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E913860)
+#define PIPELINECAMERA_CAMERASEQUENCE_DEFAULTSHAKEATTENUATIONPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC32290)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int DefaultShakeAttenuationPolicy_TypeDefinitionIndex = 38641;
+	inline static constexpr unsigned int DefaultShakeAttenuationPolicy_TypeDefinitionIndex = 36641;
 
-	class DefaultShakeAttenuationPolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_1<::System::Single>
+	class DefaultShakeAttenuationPolicy
 	{
 	public:
 		::System::Void _ctor()

@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UISummerPopularityLevelUpPopWindowController___c__DisplayClass14_0; }
-
-#define MOLEMOLE_UISUMMERPOPULARITYLEVELUPPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10EF0850)
-#define MOLEMOLE_UISUMMERPOPULARITYLEVELUPPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_1__REFRESHLEVELTXTVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x10EF0860)
-#define MOLEMOLE_UISUMMERPOPULARITYLEVELUPPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_1__REFRESHLEVELTXTVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x10EF0910)
+#define MOLEMOLE_UISUMMERPOPULARITYLEVELUPPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13B1B7C0)
+#define MOLEMOLE_UISUMMERPOPULARITYLEVELUPPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_1__REFRESHLEVELTXTVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x13B1B7D0)
+#define MOLEMOLE_UISUMMERPOPULARITYLEVELUPPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_1__REFRESHLEVELTXTVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x13B1B880)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerPopularityLevelUpPopWindowController___c__DisplayClass14_1_TypeDefinitionIndex = 80397;
+	inline static constexpr unsigned int UISummerPopularityLevelUpPopWindowController___c__DisplayClass14_1_TypeDefinitionIndex = 92222;
 
+	template <typename T>
 	class UISummerPopularityLevelUpPopWindowController___c__DisplayClass14_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UISummerPopularityLevelUpPopWindowController___c__DisplayClass14_0* CS___8__locals1; // 0x10
-		::System::Single realExpProgressDuration; // 0x18
-		::System::Single remainExpRatio; // 0x1C
-		::System::Single timer; // 0x20
-		::System::Single prvExpRatio; // 0x24
+		::System::Object* CS___8__locals1; // 0x10
+		::System::Single timer; // 0x18
+		::System::Single realExpProgressDuration; // 0x1C
+		::System::Single prvExpRatio; // 0x20
+		::System::Single remainExpRatio; // 0x24
 
 		::System::Void _ctor()
 		{

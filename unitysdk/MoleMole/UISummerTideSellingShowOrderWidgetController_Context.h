@@ -3,11 +3,11 @@
 #include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISUMMERTIDESELLINGSHOWORDERWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1889F1E0)
+#define MOLEMOLE_UISUMMERTIDESELLINGSHOWORDERWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1828DCF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerTideSellingShowOrderWidgetController_Context_TypeDefinitionIndex = 61218;
+	inline static constexpr unsigned int UISummerTideSellingShowOrderWidgetController_Context_TypeDefinitionIndex = 68265;
 
 	class UISummerTideSellingShowOrderWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int IUITextLineExtraHeightWriter_TypeDefinitionIndex = 46797;
+	inline static constexpr unsigned int IUITextLineExtraHeightWriter_TypeDefinitionIndex = 81647;
 
 	class IUITextLineExtraHeightWriter
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define GPUBOIDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FD110)
+#define GPUBOIDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C823170)
 
-inline static constexpr unsigned int GpuBoidSettings_TypeDefinitionIndex = 27219;
+inline static constexpr unsigned int GpuBoidSettings_TypeDefinitionIndex = 27069;
 
 class GpuBoidSettings : public ::UnityEngine::ScriptableObject
 {
@@ -26,6 +26,7 @@ public:
 	::System::Single softBoundsStrength; // 0x5C
 	::System::Single hardBoundsStrength; // 0x60
 	::System::Boolean revertSpeed; // 0x64
+	::System::Byte _padding0[0x3];
 	::System::Single ZConstraint; // 0x68
 	::System::Single PoiMoveSpeed; // 0x6C
 	::System::Single PoiZConstraint; // 0x70

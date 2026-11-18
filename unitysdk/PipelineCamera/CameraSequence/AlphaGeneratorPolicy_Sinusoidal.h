@@ -2,48 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/FName.h"
 #include "unitysdk/PipelineCamera/CameraSequence/AlphaGeneratorPolicy.h"
+#include "unitysdk/PipelineCamera/SerializableHashString.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
-#include "unitysdk/PipelineCamera/SerializableHashString.h"
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1F32A220)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_FETCH_BIAS_OFFSET UNITYSDK_OFFSET(0x1F32A520)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_FETCH_PERIOD_OFFSET UNITYSDK_OFFSET(0x1F32A3C0)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_FETCH_PHASE_OFFSET UNITYSDK_OFFSET(0x1F32A470)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_GETDATA_OFFSET UNITYSDK_OFFSET(0x1F329AC0)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1F32A170)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_SETPATH_OFFSET UNITYSDK_OFFSET(0x1F32A180)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F32A5E0)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F32A5D0)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1F32A690)
-#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1F32A780)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1F7462E0)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_FETCH_BIAS_OFFSET UNITYSDK_OFFSET(0x1F7465E0)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_FETCH_PERIOD_OFFSET UNITYSDK_OFFSET(0x1F746480)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_FETCH_PHASE_OFFSET UNITYSDK_OFFSET(0x1F746530)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_GETDATA_OFFSET UNITYSDK_OFFSET(0x1F745B80)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1F746230)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL_SETPATH_OFFSET UNITYSDK_OFFSET(0x1F746240)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7466A0)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F746690)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1F746750)
+#define PIPELINECAMERA_CAMERASEQUENCE_ALPHAGENERATORPOLICY_SINUSOIDAL___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1F746840)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int AlphaGeneratorPolicy_Sinusoidal_TypeDefinitionIndex = 38546;
+	inline static constexpr unsigned int AlphaGeneratorPolicy_Sinusoidal_TypeDefinitionIndex = 36545;
 
 	class AlphaGeneratorPolicy_Sinusoidal : public ::PipelineCamera::CameraSequence::AlphaGeneratorPolicy
 	{
 	public:
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_phase()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Sinusoidal_TypeDefinitionIndex)->GetStaticField(0x8E50);
-		}
-		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_bias()
-		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Sinusoidal_TypeDefinitionIndex)->GetStaticField(0x8E58);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Sinusoidal_TypeDefinitionIndex)->GetStaticField(0x92E0);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_period()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Sinusoidal_TypeDefinitionIndex)->GetStaticField(0x8E60);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Sinusoidal_TypeDefinitionIndex)->GetStaticField(0x92E8);
+		}
+		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_bias()
+		{
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AlphaGeneratorPolicy_Sinusoidal_TypeDefinitionIndex)->GetStaticField(0x92F0);
 		}
 		::System::Single period; // 0x40
 		::System::Single phase; // 0x44
 		::System::Single bias; // 0x48
+		::System::Byte _padding0[0x4];
 		::PipelineCamera::CameraSequence::AlphaGeneratorPolicy* alphaPolicy; // 0x50
 		::System::Boolean useCache; // 0x58
+		::System::Byte _padding1[0x7];
 		::PipelineCamera::SerializableHashString cacheId; // 0x60
 		::System::Boolean makeContextDependent; // 0x70
 

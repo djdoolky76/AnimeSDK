@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/DistanceDistortionBlendMode.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_DISTANCEDISTORTIONBLENDMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF1960)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DISTANCEDISTORTIONBLENDMODEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D282370)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DistanceDistortionBlendModeParameter_TypeDefinitionIndex = 27409;
+	inline static constexpr unsigned int DistanceDistortionBlendModeParameter_TypeDefinitionIndex = 26890;
 
-	class DistanceDistortionBlendModeParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::DistanceDistortionBlendMode>
+	class DistanceDistortionBlendModeParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Rendering::Universal::DistanceDistortionBlendMode value, ::System::Boolean overrideState)

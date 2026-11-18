@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GGFIENDHNMB_AHEEHNMFNDN.h"
+#include "unitysdk/ICEEIPPJFPL.h"
+#include "unitysdk/DNBEFJHNFPM.h"
+
+class KGBFLHNJHHN;
+
+#define GGFIENDHNMB_CLJKGNCCJCG_OFFSET UNITYSDK_OFFSET(0x1B115ED0)
+#define GGFIENDHNMB_EEKBPICAJID_OFFSET UNITYSDK_OFFSET(0x1B115FC0)
+#define GGFIENDHNMB_FPEDNOGLAEF_OFFSET UNITYSDK_OFFSET(0x1B115F70)
+#define GGFIENDHNMB_HHMJJNIKBMC_OFFSET UNITYSDK_OFFSET(0x1B115F20)
+#define GGFIENDHNMB_IFKIIENAEPE_OFFSET UNITYSDK_OFFSET(0x1B116060)
+#define GGFIENDHNMB_OFGGCDNFCOD_OFFSET UNITYSDK_OFFSET(0x1B116010)
+#define GGFIENDHNMB_OLBAJPMAEHG_OFFSET UNITYSDK_OFFSET(0x1B1160B0)
+#define GGFIENDHNMB__CTOR_OFFSET UNITYSDK_OFFSET(0x1B115EC0)
+
+inline static constexpr unsigned int GGFIENDHNMB_TypeDefinitionIndex = 9218;
+
+class GGFIENDHNMB : public ::ICEEIPPJFPL
+{
+public:
+	::System::Void _ctor(::DNBEFJHNFPM LJBPECKCCEA, ::KGBFLHNJHHN* NKMKJFCBBCK)
+	{
+		return ((::System::Void(*)(::PVOID, ::DNBEFJHNFPM, ::KGBFLHNJHHN*))((::PBYTE)hIl2Cpp + GGFIENDHNMB__CTOR_OFFSET))(this, LJBPECKCCEA, NKMKJFCBBCK);
+	}
+
+	::System::Boolean CLJKGNCCJCG()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GGFIENDHNMB_CLJKGNCCJCG_OFFSET))(this);
+	}
+
+	::System::Boolean HHMJJNIKBMC()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GGFIENDHNMB_HHMJJNIKBMC_OFFSET))(this);
+	}
+
+	::System::Boolean FPEDNOGLAEF()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GGFIENDHNMB_FPEDNOGLAEF_OFFSET))(this);
+	}
+
+	::System::Boolean EEKBPICAJID()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GGFIENDHNMB_EEKBPICAJID_OFFSET))(this);
+	}
+
+	::System::Boolean OFGGCDNFCOD()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GGFIENDHNMB_OFGGCDNFCOD_OFFSET))(this);
+	}
+
+	::GGFIENDHNMB_AHEEHNMFNDN IFKIIENAEPE()
+	{
+		return ((::GGFIENDHNMB_AHEEHNMFNDN(*)(::PVOID))((::PBYTE)hIl2Cpp + GGFIENDHNMB_IFKIIENAEPE_OFFSET))(this);
+	}
+
+	::System::Boolean OLBAJPMAEHG()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GGFIENDHNMB_OLBAJPMAEHG_OFFSET))(this);
+	}
+};

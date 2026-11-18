@@ -1,25 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Unreal/FName.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9> class Func_9; }
-namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8> class Func_8; }
-namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7> class Func_7; }
-namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Func_6; }
-namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Func_5; }
-namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
-namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
-namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEENVIRONMENT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E889A30)
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEENVIRONMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E889AD0)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEENVIRONMENT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EB4E010)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCEENVIRONMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB4E0B0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceEnvironment_TypeDefinitionIndex = 38607;
+	inline static constexpr unsigned int CameraSequenceEnvironment_TypeDefinitionIndex = 36607;
 
 	class CameraSequenceEnvironment : public ::System::Object
 	{

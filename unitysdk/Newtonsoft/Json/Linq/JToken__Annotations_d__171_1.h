@@ -3,12 +3,10 @@
 #include "unitysdk/System/Object.h"
 
 namespace Newtonsoft::Json::Linq { class JToken; }
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JToken__Annotations_d__171_1_TypeDefinitionIndex = 7193;
+	inline static constexpr unsigned int JToken__Annotations_d__171_1_TypeDefinitionIndex = 7200;
 
 	template <typename T>
 	class JToken__Annotations_d__171_1 : public ::System::Object

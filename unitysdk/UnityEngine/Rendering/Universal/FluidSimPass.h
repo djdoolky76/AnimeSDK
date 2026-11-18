@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
-#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/ForwardRenderer_ReadonlyRenderState.h"
+#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDSIMPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DDF80E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDSIMPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1DDF8040)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDSIMPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF7FD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDSIMPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E159D60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDSIMPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1E159CC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLUIDSIMPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E159C50)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FluidSimPass_TypeDefinitionIndex = 27178;
+	inline static constexpr unsigned int FluidSimPass_TypeDefinitionIndex = 27247;
 
 	class FluidSimPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

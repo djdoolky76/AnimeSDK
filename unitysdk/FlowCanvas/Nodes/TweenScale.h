@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/LatentActionNode_5.h"
 #include "unitysdk/ParadoxNotion/Animation/EaseType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Transform; }
 
-#define FLOWCANVAS_NODES_TWEENSCALE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EA95080)
-#define FLOWCANVAS_NODES_TWEENSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA95110)
+#define FLOWCANVAS_NODES_TWEENSCALE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EDC60C0)
+#define FLOWCANVAS_NODES_TWEENSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC6150)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TweenScale_TypeDefinitionIndex = 31305;
+	inline static constexpr unsigned int TweenScale_TypeDefinitionIndex = 29869;
 
-	class TweenScale : public ::FlowCanvas::Nodes::LatentActionNode_5<::UnityEngine::Transform*, ::UnityEngine::Vector3, ::System::Single, ::ParadoxNotion::Animation::EaseType, ::System::Boolean>
+	class TweenScale
 	{
 	public:
 		::System::Void _ctor()

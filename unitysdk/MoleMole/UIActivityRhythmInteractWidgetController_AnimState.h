@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIACTIVITYRHYTHMINTERACTWIDGETCONTROLLER_ANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F69E0)
+#define MOLEMOLE_UIACTIVITYRHYTHMINTERACTWIDGETCONTROLLER_ANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A31D740)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityRhythmInteractWidgetController_AnimState_TypeDefinitionIndex = 54404;
+	inline static constexpr unsigned int UIActivityRhythmInteractWidgetController_AnimState_TypeDefinitionIndex = 90889;
 
 	class UIActivityRhythmInteractWidgetController_AnimState : public ::System::Object
 	{
 	public:
 		::System::String* clipName; // 0x10
-		::System::Boolean isPlayingWhenPause; // 0x18
-		::System::Single animSpeed; // 0x1C
+		::System::Single animSpeed; // 0x18
+		::System::Boolean isPlayingWhenPause; // 0x1C
 
 		::System::Void _ctor()
 		{

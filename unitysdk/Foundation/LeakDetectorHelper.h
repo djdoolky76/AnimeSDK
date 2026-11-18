@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_LEAKDETECTORHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F696D30)
-#define FOUNDATION_LEAKDETECTORHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F696D20)
+#define FOUNDATION_LEAKDETECTORHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3A5ED0)
+#define FOUNDATION_LEAKDETECTORHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A5EC0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LeakDetectorHelper_TypeDefinitionIndex = 8420;
+	inline static constexpr unsigned int LeakDetectorHelper_TypeDefinitionIndex = 8019;
 
 	class LeakDetectorHelper : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_EnableLeakDetector()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LeakDetectorHelper_TypeDefinitionIndex)->GetStaticField(0x13580);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LeakDetectorHelper_TypeDefinitionIndex)->GetStaticField(0x142B0);
 		}
 
 		::System::Void _ctor()

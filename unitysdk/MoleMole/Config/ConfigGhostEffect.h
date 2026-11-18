@@ -8,20 +8,20 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x14863960)
+#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E905A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGhostEffect_TypeDefinitionIndex = 76591;
+	inline static constexpr unsigned int ConfigGhostEffect_TypeDefinitionIndex = 69526;
 
 	class ConfigGhostEffect : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::NapGradient*>* MaterialColorProperties; // 0x10
-		::UnityEngine::Material* GhostMaterial; // 0x18
-		::System::String* LODPrefabPath; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>*>* MaterialVectorProperties; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>* MaterialFloatProperties; // 0x30
+		::UnityEngine::Material* GhostMaterial; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::NapGradient*>* MaterialColorProperties; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>*>* MaterialVectorProperties; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>* MaterialFloatProperties; // 0x28
+		::System::String* LODPrefabPath; // 0x30
 		::System::Boolean IsFreeFromDeviceControl; // 0x38
 
 		::System::Void _ctor()

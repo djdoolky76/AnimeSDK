@@ -1,39 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/CubemapFace.h"
 #include "unitysdk/UnityEngine/Rendering/BuiltinRenderTextureType.h"
+#include "unitysdk/UnityEngine/CubemapFace.h"
+#include "unitysdk/UnityEngine/RenderBuffer.h"
 
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA5CD50)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0xA5CD10)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA5CCF0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_GETNAMEID_OFFSET UNITYSDK_OFFSET(0x424ED0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1EB5BCC0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1EB57EC0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x1EB5B940)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1EB56E10)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1EB5BD00)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA5CCE0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA5CC10)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_2_OFFSET UNITYSDK_OFFSET(0xA5CC40)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_3_OFFSET UNITYSDK_OFFSET(0xA5CC70)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_4_OFFSET UNITYSDK_OFFSET(0xA5CCA0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_5_OFFSET UNITYSDK_OFFSET(0xA5CCB0)
-#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xA5CBE0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x93DDE0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0x93DDA0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x93DD80)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_GETNAMEID_OFFSET UNITYSDK_OFFSET(0x3CE9E0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1EEFFD50)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1EEFBF50)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_2_OFFSET UNITYSDK_OFFSET(0x1EEFF9D0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1EEFAEF0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1EEFFD90)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x93DD70)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x93DCA0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x93DCD0)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x93DD00)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_4_OFFSET UNITYSDK_OFFSET(0x93DD30)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_5_OFFSET UNITYSDK_OFFSET(0x93DD40)
+#define UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x93DC70)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderTargetIdentifier_TypeDefinitionIndex = 6185;
+	inline static constexpr unsigned int RenderTargetIdentifier_TypeDefinitionIndex = 6194;
 
-	struct alignas(8) RenderTargetIdentifier
+	struct alignas(4) RenderTargetIdentifier
 	{
 		::UnityEngine::Rendering::BuiltinRenderTextureType m_Type; // 0x10
 		::System::Int32 m_NameID; // 0x14
 		::System::Int32 m_InstanceID; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::IntPtr m_BufferPointer; // 0x20
 		::System::Int32 m_MipLevel; // 0x28
 		::UnityEngine::CubemapFace m_CubeFace; // 0x2C
@@ -54,37 +56,43 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_2_OFFSET))(this, nameID, mipLevel, cubeFace, depthSlice);
 		}
 
+		/*
 		::System::Void _ctor_3(::UnityEngine::Rendering::RenderTargetIdentifier renderTargetIdentifier, ::System::Int32 mipLevel, ::UnityEngine::CubemapFace cubeFace, ::System::Int32 depthSlice)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_3_OFFSET))(this, renderTargetIdentifier, mipLevel, cubeFace, depthSlice);
 		}
+		*/
 
 		::System::Void _ctor_4(::UnityEngine::Texture* tex)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_4_OFFSET))(this, tex);
 		}
 
-		/*
 		::System::Void _ctor_5(::UnityEngine::RenderBuffer buf, ::System::Int32 mipLevel, ::UnityEngine::CubemapFace cubeFace, ::System::Int32 depthSlice)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::RenderBuffer, ::System::Int32, ::UnityEngine::CubemapFace, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER__CTOR_5_OFFSET))(this, buf, mipLevel, cubeFace, depthSlice);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit(::UnityEngine::Rendering::BuiltinRenderTextureType type)
 		{
 			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::UnityEngine::Rendering::BuiltinRenderTextureType))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_OFFSET))(type);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit_1(::System::Int32 nameID)
 		{
 			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_1_OFFSET))(nameID);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit_2(::UnityEngine::Texture* tex)
 		{
 			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_IMPLICIT_2_OFFSET))(tex);
 		}
+		*/
 
 		::System::String* ToString()
 		{
@@ -96,25 +104,31 @@ namespace UnityEngine::Rendering
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_GETHASHCODE_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::RenderTargetIdentifier rhs)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::RenderTargetIdentifier))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_OFFSET))(this, rhs);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_EQUALS_1_OFFSET))(this, obj);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::Rendering::RenderTargetIdentifier lhs, ::UnityEngine::Rendering::RenderTargetIdentifier rhs)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_EQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::UnityEngine::Rendering::RenderTargetIdentifier lhs, ::UnityEngine::Rendering::RenderTargetIdentifier rhs)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERTARGETIDENTIFIER_OP_INEQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
 		::System::Int32 GetNameID()
 		{

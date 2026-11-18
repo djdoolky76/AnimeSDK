@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_NETCONFIG_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E28B8C0)
-#define SYSTEM_NET_NETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E28B8B0)
+#define SYSTEM_NET_NETCONFIG_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E507900)
+#define SYSTEM_NET_NETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5078F0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int NetConfig_TypeDefinitionIndex = 3549;
+	inline static constexpr unsigned int NetConfig_TypeDefinitionIndex = 3548;
 
 	class NetConfig : public ::System::Object
 	{

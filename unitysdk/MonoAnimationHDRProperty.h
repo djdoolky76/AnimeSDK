@@ -8,22 +8,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define MONOANIMATIONHDRPROPERTY_APPLY_OFFSET UNITYSDK_OFFSET(0x11A2DD50)
-#define MONOANIMATIONHDRPROPERTY_FETCHALLRENDERERS_OFFSET UNITYSDK_OFFSET(0x11A2D430)
-#define MONOANIMATIONHDRPROPERTY_INIT_OFFSET UNITYSDK_OFFSET(0x11A2D610)
-#define MONOANIMATIONHDRPROPERTY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x11A2DD00)
-#define MONOANIMATIONHDRPROPERTY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11A2D5C0)
-#define MONOANIMATIONHDRPROPERTY_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x11A2ED10)
-#define MONOANIMATIONHDRPROPERTY_SHOWRENDERERS_OFFSET UNITYSDK_OFFSET(0x11A2D570)
-#define MONOANIMATIONHDRPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x11A2ED60)
+#define MONOANIMATIONHDRPROPERTY_APPLY_OFFSET UNITYSDK_OFFSET(0x18F80800)
+#define MONOANIMATIONHDRPROPERTY_FETCHALLRENDERERS_OFFSET UNITYSDK_OFFSET(0x18F7FEE0)
+#define MONOANIMATIONHDRPROPERTY_INIT_OFFSET UNITYSDK_OFFSET(0x18F800C0)
+#define MONOANIMATIONHDRPROPERTY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x18F807B0)
+#define MONOANIMATIONHDRPROPERTY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18F80070)
+#define MONOANIMATIONHDRPROPERTY_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x18F817C0)
+#define MONOANIMATIONHDRPROPERTY_SHOWRENDERERS_OFFSET UNITYSDK_OFFSET(0x18F80020)
+#define MONOANIMATIONHDRPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x18F81810)
 
-inline static constexpr unsigned int MonoAnimationHDRProperty_TypeDefinitionIndex = 40984;
+inline static constexpr unsigned int MonoAnimationHDRProperty_TypeDefinitionIndex = 84482;
 
 class MonoAnimationHDRProperty : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* _renderers; // 0x18
 	::MonoAnimationHDRProperty_PropertyWriteMode mode; // 0x20
+	::System::Byte _padding0[0x4];
 	::MonoAnimationHDRProperty_HDRProperty* property0; // 0x28
 	::MonoAnimationHDRProperty_HDRProperty* property1; // 0x30
 	::MonoAnimationHDRProperty_HDRProperty* property2; // 0x38
@@ -35,6 +36,7 @@ public:
 	::MonoAnimationHDRProperty_HDRProperty* property8; // 0x68
 	::MonoAnimationHDRProperty_HDRProperty* property9; // 0x70
 	::System::Boolean _initialized; // 0x78
+	::System::Byte _padding1[0x7];
 	::System::Collections::Generic::List_1<::UnityEngine::Material*>* _materials; // 0x80
 
 	::System::Void _ctor()

@@ -1,83 +1,87 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Onager/FXMesh/FXMeshSettings_ChannelInfo.h"
-#include "unitysdk/Onager/FXMesh/FXMeshSettings_PolarCoords.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/Onager/FXMesh/FXMeshSettings_PolarCoords.h"
 
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Mesh; }
 
-#define ONAGER_FXMESH_FXMESHSETTINGS_ADDQUAD_OFFSET UNITYSDK_OFFSET(0x1F96A3B0)
-#define ONAGER_FXMESH_FXMESHSETTINGS_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1F96B090)
-#define ONAGER_FXMESH_FXMESHSETTINGS_GETANGLE_OFFSET UNITYSDK_OFFSET(0x1F96ABB0)
-#define ONAGER_FXMESH_FXMESHSETTINGS_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x1F96ACB0)
-#define ONAGER_FXMESH_FXMESHSETTINGS_GETHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F96AC80)
-#define ONAGER_FXMESH_FXMESHSETTINGS_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1F96AC30)
-#define ONAGER_FXMESH_FXMESHSETTINGS_GETMESH_OFFSET UNITYSDK_OFFSET(0x1F969590)
-#define ONAGER_FXMESH_FXMESHSETTINGS_GETNEXTLOOP_OFFSET UNITYSDK_OFFSET(0x1F96B060)
-#define ONAGER_FXMESH_FXMESHSETTINGS_GETUV_OFFSET UNITYSDK_OFFSET(0x1F96AE90)
-#define ONAGER_FXMESH_FXMESHSETTINGS_INSERTUNIQUEVERTEX_OFFSET UNITYSDK_OFFSET(0x1F96A640)
-#define ONAGER_FXMESH_FXMESHSETTINGS_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F96B080)
-#define ONAGER_FXMESH_FXMESHSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F96B360)
-#define ONAGER_FXMESH_FXMESHSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F96B290)
+#define ONAGER_FXMESH_FXMESHSETTINGS_ADDQUAD_OFFSET UNITYSDK_OFFSET(0x1FD69420)
+#define ONAGER_FXMESH_FXMESHSETTINGS_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1FD6A100)
+#define ONAGER_FXMESH_FXMESHSETTINGS_GETANGLE_OFFSET UNITYSDK_OFFSET(0x1FD69C20)
+#define ONAGER_FXMESH_FXMESHSETTINGS_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x1FD69D20)
+#define ONAGER_FXMESH_FXMESHSETTINGS_GETHEIGHT_OFFSET UNITYSDK_OFFSET(0x1FD69CF0)
+#define ONAGER_FXMESH_FXMESHSETTINGS_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1FD69CA0)
+#define ONAGER_FXMESH_FXMESHSETTINGS_GETMESH_OFFSET UNITYSDK_OFFSET(0x1FD68600)
+#define ONAGER_FXMESH_FXMESHSETTINGS_GETNEXTLOOP_OFFSET UNITYSDK_OFFSET(0x1FD6A0D0)
+#define ONAGER_FXMESH_FXMESHSETTINGS_GETUV_OFFSET UNITYSDK_OFFSET(0x1FD69F00)
+#define ONAGER_FXMESH_FXMESHSETTINGS_INSERTUNIQUEVERTEX_OFFSET UNITYSDK_OFFSET(0x1FD696B0)
+#define ONAGER_FXMESH_FXMESHSETTINGS_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1FD6A0F0)
+#define ONAGER_FXMESH_FXMESHSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD6A3D0)
+#define ONAGER_FXMESH_FXMESHSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD6A300)
 
 namespace Onager::FXMesh
 {
-	inline static constexpr unsigned int FXMeshSettings_TypeDefinitionIndex = 38713;
+	inline static constexpr unsigned int FXMeshSettings_TypeDefinitionIndex = 36713;
 
 	class FXMeshSettings : public ::UnityEngine::ScriptableObject
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector4>** StaticGet_uv1()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2A6C0);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Color>** StaticGet_colors()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2A6C8);
-		}
-		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_triangles()
-		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2A6D0);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector4>** StaticGet_uv0()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2A6D8);
-		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_vertices()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2A6E0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2BA20);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Vector4>** StaticGet_uv1()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2BA28);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector4>** StaticGet_uv3()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2A6E8);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2BA30);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::Onager::FXMesh::FXMeshSettings*, ::UnityEngine::Mesh*>** StaticGet_GeneratedMeshes()
+		static ::System::Collections::Generic::List_1<::UnityEngine::Vector4>** StaticGet_uv0()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::Onager::FXMesh::FXMeshSettings*, ::UnityEngine::Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2A6F0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2BA38);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector4>** StaticGet_uv2()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2A6F8);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2BA40);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::Onager::FXMesh::FXMeshSettings_PolarCoords, ::System::Int32>** StaticGet_vertexLUT()
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>** StaticGet_vertexLUT()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::Onager::FXMesh::FXMeshSettings_PolarCoords, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2A700);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2BA48);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Color>** StaticGet_colors()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2BA50);
+		}
+		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_triangles()
+		{
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2BA58);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::Onager::FXMesh::FXMeshSettings*, ::UnityEngine::Mesh*>** StaticGet_GeneratedMeshes()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::Onager::FXMesh::FXMeshSettings*, ::UnityEngine::Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(FXMeshSettings_TypeDefinitionIndex)->GetStaticField(0x2BA60);
 		}
 		::System::Single startRadius; // 0x18
 		::System::Single endRadius; // 0x1C
 		::System::Single maxAngle; // 0x20
 		::System::Int32 loops; // 0x24
 		::System::Int32 rings; // 0x28
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* ringProfile; // 0x30
 		::System::Single height; // 0x38
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* heightProfile; // 0x40
 		::System::Boolean computeNormals; // 0x48
+		::System::Byte _padding2[0x3];
 		::System::Single twist; // 0x4C
 		::UnityEngine::AnimationCurve* twistProfile; // 0x50
 		::Onager::FXMesh::FXMeshSettings_ChannelInfo Color; // 0x58

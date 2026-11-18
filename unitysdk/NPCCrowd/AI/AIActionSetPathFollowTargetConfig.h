@@ -3,14 +3,14 @@
 #include "unitysdk/NPCCrowd/AI/BaseActionConfig.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_AIACTIONSETPATHFOLLOWTARGETCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x669990)
-#define NPCCROWD_AI_AIACTIONSETPATHFOLLOWTARGETCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x6699E0)
+#define NPCCROWD_AI_AIACTIONSETPATHFOLLOWTARGETCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x5A4810)
+#define NPCCROWD_AI_AIACTIONSETPATHFOLLOWTARGETCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x5A4860)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionSetPathFollowTargetConfig_TypeDefinitionIndex = 70425;
+	inline static constexpr unsigned int AIActionSetPathFollowTargetConfig_TypeDefinitionIndex = 76641;
 
-	struct alignas(8) AIActionSetPathFollowTargetConfig
+	struct alignas(4) AIActionSetPathFollowTargetConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 		::System::Int32 targetFeaturePoint; // 0x18

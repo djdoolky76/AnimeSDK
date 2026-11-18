@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIOVERLORDFEASTGUESTEVALUATEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1756A7F0)
+#define MOLEMOLE_UIOVERLORDFEASTGUESTEVALUATEWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18FDD3A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIOverlordFeastGuestEvaluateWidgetContext_TypeDefinitionIndex = 58206;
+	inline static constexpr unsigned int UIOverlordFeastGuestEvaluateWidgetContext_TypeDefinitionIndex = 75384;
 
 	class UIOverlordFeastGuestEvaluateWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Int32 score; // 0x28
-		::System::Int32 reward; // 0x2C
-		::System::Int32 guestID; // 0x30
+		::System::Int32 guestID; // 0x28
+		::System::Int32 score; // 0x2C
+		::System::Int32 reward; // 0x30
 
 		::System::Void _ctor()
 		{

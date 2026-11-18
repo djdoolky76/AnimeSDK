@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/LGHCIFIPDKP.h"
+
+class AFMMAIKKACF;
+class FBAMLABJMKF;
+class IDMBPBKDNAL;
+
+#define HOCDOMEAIOB_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0x14D3A4B0)
+#define HOCDOMEAIOB_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0x14D3A510)
+#define HOCDOMEAIOB__CTOR_OFFSET UNITYSDK_OFFSET(0x14D3A500)
+
+inline static constexpr unsigned int HOCDOMEAIOB_TypeDefinitionIndex = 48587;
+
+class HOCDOMEAIOB : public ::LGHCIFIPDKP
+{
+public:
+	::AFMMAIKKACF* DAAAEJDBNFI; // 0x20
+	::IDMBPBKDNAL* BOHBDHAPLDN; // 0x28
+	::FBAMLABJMKF* GFFCBBDKCGC; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOCDOMEAIOB__CTOR_OFFSET))(this);
+	}
+
+	::System::Void GLEJMKLOMBP(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + HOCDOMEAIOB_GLEJMKLOMBP_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void LIDIODHDJAF(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + HOCDOMEAIOB_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+};

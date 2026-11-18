@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraDebugDrawTriangles2D_Triangle.h"
-#include "unitysdk/PipelineCamera/CameraDebugDrawTriangles2D_TriangleStrip.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Color.h"
@@ -11,33 +9,33 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ADDTRIANGLESTRIP_OFFSET UNITYSDK_OFFSET(0x1E90F5A0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ADDTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1E90F4C0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E90F6E0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_DRAW_OFFSET UNITYSDK_OFFSET(0x1E90F7C0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ENSURE_OFFSET UNITYSDK_OFFSET(0x1E90F2B0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9101A0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__DRAW_G__DRAWTRIANGLESTRIP_8_1_OFFSET UNITYSDK_OFFSET(0x1E90FD20)
-#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__DRAW_G__DRAWTRIANGLE_8_0_OFFSET UNITYSDK_OFFSET(0x1E90F950)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ADDTRIANGLESTRIP_OFFSET UNITYSDK_OFFSET(0x1EC2DFD0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ADDTRIANGLE_OFFSET UNITYSDK_OFFSET(0x1EC2DEF0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EC2E110)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_DRAW_OFFSET UNITYSDK_OFFSET(0x1EC2E1F0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ENSURE_OFFSET UNITYSDK_OFFSET(0x1EC2DCE0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC2EBD0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__DRAW_G__DRAWTRIANGLESTRIP_8_1_OFFSET UNITYSDK_OFFSET(0x1EC2E750)
+#define PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__DRAW_G__DRAWTRIANGLE_8_0_OFFSET UNITYSDK_OFFSET(0x1EC2E380)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraDebugDrawTriangles2D_TypeDefinitionIndex = 38278;
+	inline static constexpr unsigned int CameraDebugDrawTriangles2D_TypeDefinitionIndex = 36280;
 
 	class CameraDebugDrawTriangles2D : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Color, ::System::ValueTuple_2<::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawTriangles2D_Triangle>*, ::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawTriangles2D_TriangleStrip>*>>* _items; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _additionalPoints; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _additionalPoints; // 0x10
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Color, ::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Collections::Generic::List_1<::System::Object*>*>>* _items; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple_2<::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawTriangles2D_Triangle>*, ::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawTriangles2D_TriangleStrip>*> Ensure(::UnityEngine::Color& color)
+		::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Collections::Generic::List_1<::System::Object*>*> Ensure(::UnityEngine::Color& color)
 		{
-			return ((::System::ValueTuple_2<::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawTriangles2D_Triangle>*, ::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawTriangles2D_TriangleStrip>*>(*)(::PVOID, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ENSURE_OFFSET))(this, color);
+			return ((::System::ValueTuple_2<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Collections::Generic::List_1<::System::Object*>*>(*)(::PVOID, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_ENSURE_OFFSET))(this, color);
 		}
 
 		::System::Void AddTriangle(::UnityEngine::Vector2& pointA, ::UnityEngine::Vector2& pointB, ::UnityEngine::Vector2& pointC, ::UnityEngine::Color color, ::System::Single depth)
@@ -60,14 +58,14 @@ namespace PipelineCamera
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D_DRAW_OFFSET))(this);
 		}
 
-		static ::System::Void _Draw_g__DrawTriangle_8_0(::System::Collections::Generic::IEnumerable_1<::PipelineCamera::CameraDebugDrawTriangles2D_Triangle>* items)
+		static ::System::Void _Draw_g__DrawTriangle_8_0(::System::Collections::Generic::IEnumerable_1<::System::Object*>* items)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::PipelineCamera::CameraDebugDrawTriangles2D_Triangle>*))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__DRAW_G__DRAWTRIANGLE_8_0_OFFSET))(items);
+			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::System::Object*>*))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__DRAW_G__DRAWTRIANGLE_8_0_OFFSET))(items);
 		}
 
-		::System::Void _Draw_g__DrawTriangleStrip_8_1(::System::Collections::Generic::IEnumerable_1<::PipelineCamera::CameraDebugDrawTriangles2D_TriangleStrip>* items)
+		::System::Void _Draw_g__DrawTriangleStrip_8_1(::System::Collections::Generic::IEnumerable_1<::System::Object*>* items)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::PipelineCamera::CameraDebugDrawTriangles2D_TriangleStrip>*))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__DRAW_G__DRAWTRIANGLESTRIP_8_1_OFFSET))(this, items);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERADEBUGDRAWTRIANGLES2D__DRAW_G__DRAWTRIANGLESTRIP_8_1_OFFSET))(this, items);
 		}
 	};
 }

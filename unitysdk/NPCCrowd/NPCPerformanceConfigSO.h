@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ENPCAvatarGender.h"
-#include "unitysdk/MoleMole/PerformanceSettingProfile_ENPCOmitLevel.h"
 #include "unitysdk/NPCCrowd/EDynamicUnloadPriority.h"
 #include "unitysdk/NPCCrowd/NPCPerformanceTierSettings.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedScriptableObject.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_NPCPERFORMANCECONFIGSO_GET_CULLPRIORITYSLIDERLABEL_OFFSET UNITYSDK_OFFSET(0xD8AB6C0)
-#define NPCCROWD_NPCPERFORMANCECONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0xD8AB700)
+#define NPCCROWD_NPCPERFORMANCECONFIGSO_GET_CULLPRIORITYSLIDERLABEL_OFFSET UNITYSDK_OFFSET(0x15FB5170)
+#define NPCCROWD_NPCPERFORMANCECONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0x15FB51B0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCPerformanceConfigSO_TypeDefinitionIndex = 54253;
+	inline static constexpr unsigned int NPCPerformanceConfigSO_TypeDefinitionIndex = 65136;
 
 	class NPCPerformanceConfigSO : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::MoleMole::PerformanceSettingProfile_ENPCOmitLevel, ::NPCCrowd::NPCPerformanceTierSettings>* omitLevel2Settings; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::NPCCrowd::NPCPerformanceTierSettings>* omitLevel2Settings; // 0x58
 		::System::Boolean bEnableSystem; // 0x60
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::System::Int32>* enableFloorIDs; // 0x68
 		::NPCCrowd::EDynamicUnloadPriority protectedThreshold; // 0x70
 		::System::Int32 crowdCullPerFrame; // 0x74
@@ -34,9 +35,11 @@ namespace NPCCrowd
 		::System::Single minServerNPCCullDistance; // 0x90
 		::System::Single minCrowdCullDistance; // 0x94
 		::System::Boolean bEnablePerformanceLinking; // 0x98
+		::System::Byte _padding1[0x3];
 		::System::Single performanceCheckRadius; // 0x9C
 		::System::Single minDensityFactor; // 0xA0
 		::System::Boolean enableSoftCullMode; // 0xA4
+		::System::Byte _padding2[0x3];
 		::System::Int32 crowdCullPriorityPct; // 0xA8
 		::System::Single serverNPCScoreWeight; // 0xAC
 		::System::Single crowdNPCScoreWeight; // 0xB0

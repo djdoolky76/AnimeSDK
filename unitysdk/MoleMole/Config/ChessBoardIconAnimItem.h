@@ -7,22 +7,25 @@
 namespace System { class String; }
 namespace System::Collections { class IEnumerable; }
 
-#define MOLEMOLE_CONFIG_CHESSBOARDICONANIMITEM_GETSWITCHLISTVALUEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x116F87A0)
-#define MOLEMOLE_CONFIG_CHESSBOARDICONANIMITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x116F8B30)
+#define MOLEMOLE_CONFIG_CHESSBOARDICONANIMITEM_GETSWITCHLISTVALUEDROPDOWN_OFFSET UNITYSDK_OFFSET(0xFAB6910)
+#define MOLEMOLE_CONFIG_CHESSBOARDICONANIMITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xFAB6B80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessBoardIconAnimItem_TypeDefinitionIndex = 51851;
+	inline static constexpr unsigned int ChessBoardIconAnimItem_TypeDefinitionIndex = 91146;
 
 	class ChessBoardIconAnimItem : public ::System::Object
 	{
 	public:
 		::System::Boolean UseVideo; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::String* AnimKey; // 0x18
 		::System::String* VideoPath; // 0x20
 		::System::Boolean NeedSwitch; // 0x28
+		::System::Byte _padding1[0x7];
 		::System::String* SwitchKey; // 0x30
 		::System::Boolean NeedSwitchOut; // 0x38
+		::System::Byte _padding2[0x7];
 		::System::String* SwitchOutKey; // 0x40
 		::System::Int32 ScreenIndex; // 0x48
 		::MoleMole::Vector2Int RelativePos; // 0x4C

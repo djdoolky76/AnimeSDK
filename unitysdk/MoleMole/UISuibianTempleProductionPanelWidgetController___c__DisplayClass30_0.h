@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_5F814DBCD2974AFB_3;
+class JAKDNKECEHC;
 namespace MoleMole { class UISuibianTempleProductionPanelWidgetController; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175B9FE0)
-#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER___C__DISPLAYCLASS30_0__INITPRODUCTIONDESK_B__0_OFFSET UNITYSDK_OFFSET(0x175B9FF0)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185B5340)
+#define MOLEMOLE_UISUIBIANTEMPLEPRODUCTIONPANELWIDGETCONTROLLER___C__DISPLAYCLASS30_0__INITPRODUCTIONDESK_B__0_OFFSET UNITYSDK_OFFSET(0x185B5350)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleProductionPanelWidgetController___c__DisplayClass30_0_TypeDefinitionIndex = 90729;
+	inline static constexpr unsigned int UISuibianTempleProductionPanelWidgetController___c__DisplayClass30_0_TypeDefinitionIndex = 92251;
 
 	class UISuibianTempleProductionPanelWidgetController___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UISuibianTempleProductionPanelWidgetController* __4__this; // 0x10
-		::Class_3_5F814DBCD2974AFB_3* worker; // 0x18
+		::JAKDNKECEHC* worker; // 0x10
+		::MoleMole::UISuibianTempleProductionPanelWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

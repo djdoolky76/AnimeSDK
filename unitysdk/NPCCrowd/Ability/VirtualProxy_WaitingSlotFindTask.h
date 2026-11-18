@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
@@ -11,14 +11,14 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTFINDTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x12D0CE90)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTFINDTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x12D0CD90)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTFINDTASK_LINK_OFFSET UNITYSDK_OFFSET(0x12D0CB40)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTFINDTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x12D0D020)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTFINDTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1378D760)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTFINDTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1378D660)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTFINDTASK_LINK_OFFSET UNITYSDK_OFFSET(0x1378D410)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_WAITINGSLOTFINDTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1378D8F0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_WaitingSlotFindTask_TypeDefinitionIndex = 44317;
+	inline static constexpr unsigned int VirtualProxy_WaitingSlotFindTask_TypeDefinitionIndex = 82903;
 
 	class VirtualProxy_WaitingSlotFindTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{

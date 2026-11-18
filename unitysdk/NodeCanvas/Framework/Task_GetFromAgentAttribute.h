@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define NODECANVAS_FRAMEWORK_TASK_GETFROMAGENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5429F0)
+#define NODECANVAS_FRAMEWORK_TASK_GETFROMAGENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B6A70)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Task_GetFromAgentAttribute_TypeDefinitionIndex = 30402;
+	inline static constexpr unsigned int Task_GetFromAgentAttribute_TypeDefinitionIndex = 29321;
 
 	class Task_GetFromAgentAttribute : public ::System::Attribute
 	{

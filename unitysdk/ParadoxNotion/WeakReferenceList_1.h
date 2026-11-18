@@ -2,13 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace ParadoxNotion { template <typename T> class WeakReferenceList_1; }
 namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int WeakReferenceList_1_TypeDefinitionIndex = 30321;
+	inline static constexpr unsigned int WeakReferenceList_1_TypeDefinitionIndex = 30475;
 
 	template <typename T>
 	class WeakReferenceList_1 : public ::System::Object

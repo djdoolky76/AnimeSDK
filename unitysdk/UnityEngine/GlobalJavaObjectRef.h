@@ -2,19 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_GLOBALJAVAOBJECTREF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F2B7AA0)
-#define UNITYENGINE_GLOBALJAVAOBJECTREF_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F2BB6C0)
-#define UNITYENGINE_GLOBALJAVAOBJECTREF_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F2B7840)
-#define UNITYENGINE_GLOBALJAVAOBJECTREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B6F80)
+#define UNITYENGINE_GLOBALJAVAOBJECTREF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F6D1E20)
+#define UNITYENGINE_GLOBALJAVAOBJECTREF_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F6D5A30)
+#define UNITYENGINE_GLOBALJAVAOBJECTREF_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F6D1BC0)
+#define UNITYENGINE_GLOBALJAVAOBJECTREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6D1300)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GlobalJavaObjectRef_TypeDefinitionIndex = 39933;
+	inline static constexpr unsigned int GlobalJavaObjectRef_TypeDefinitionIndex = 37933;
 
 	class GlobalJavaObjectRef : public ::System::Object
 	{
 	public:
 		::System::Boolean m_disposed; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::IntPtr m_jobject; // 0x18
 
 		::System::Void _ctor(::System::IntPtr jobject)

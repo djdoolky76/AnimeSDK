@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UILevelResultPageController_MissionRowType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER_MISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x184BB750)
+#define MOLEMOLE_UILEVELRESULTPAGECONTROLLER_MISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18CFFDA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultPageController_MissionRow_TypeDefinitionIndex = 69277;
+	inline static constexpr unsigned int UILevelResultPageController_MissionRow_TypeDefinitionIndex = 89105;
 
 	class UILevelResultPageController_MissionRow : public ::System::Object
 	{

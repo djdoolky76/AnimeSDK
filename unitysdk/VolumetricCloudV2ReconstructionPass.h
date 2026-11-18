@@ -1,58 +1,57 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering::Universal::Internal { class CpuIntParams; }
 namespace UnityEngine::Rendering::Universal::Internal { class CpuVector4Params; }
 
-#define VOLUMETRICCLOUDV2RECONSTRUCTIONPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CF1A7D0)
-#define VOLUMETRICCLOUDV2RECONSTRUCTIONPASS_GETTEXTURESAFEUVCOORDBOUND_OFFSET UNITYSDK_OFFSET(0x1CF1A720)
-#define VOLUMETRICCLOUDV2RECONSTRUCTIONPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF1C120)
-#define VOLUMETRICCLOUDV2RECONSTRUCTIONPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF1A220)
+#define VOLUMETRICCLOUDV2RECONSTRUCTIONPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D2ACE00)
+#define VOLUMETRICCLOUDV2RECONSTRUCTIONPASS_GETTEXTURESAFEUVCOORDBOUND_OFFSET UNITYSDK_OFFSET(0x1D2ACD50)
+#define VOLUMETRICCLOUDV2RECONSTRUCTIONPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2AE750)
+#define VOLUMETRICCLOUDV2RECONSTRUCTIONPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AC850)
 
-inline static constexpr unsigned int VolumetricCloudV2ReconstructionPass_TypeDefinitionIndex = 27733;
+inline static constexpr unsigned int VolumetricCloudV2ReconstructionPass_TypeDefinitionIndex = 27359;
 
 class VolumetricCloudV2ReconstructionPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 {
 public:
-	static ::System::Int32* StaticGet_HistoryColorRT_ID()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2ReconstructionPass_TypeDefinitionIndex)->GetStaticField(0x6220);
-	}
 	static ::System::Int32* StaticGet_HistoryDepthRT_ID()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2ReconstructionPass_TypeDefinitionIndex)->GetStaticField(0x6224);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2ReconstructionPass_TypeDefinitionIndex)->GetStaticField(0x6260);
+	}
+	static ::System::Int32* StaticGet_HistoryColorRT_ID()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudV2ReconstructionPass_TypeDefinitionIndex)->GetStaticField(0x6264);
 	}
 	// static const ::System::Int32 kReconstructionPassIndex = 0x2; // 0x0
 	// static const ::System::String* kReconstructionQuarterKeyword; // 0x0
-	::UnityEngine::NAPRenderPipeline0::ProfilingSampler* profileSampler; // 0xA8
-	::UnityEngine::Rendering::Universal::Internal::CpuIntParams* CurrentTracingPixelOffsetY; // 0xB0
-	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* PreviousFrameVolumetricTextureValidUvRect; // 0xB8
-	::Il2CppArray<::System::Int32>* orderDithering4x4; // 0xC0
-	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* TracingVolumetricTextureValidCoordRect; // 0xC8
-	::UnityEngine::Rendering::Universal::Internal::CpuIntParams* CurrentTracingPixelOffsetX; // 0xD0
-	::UnityEngine::Material* material; // 0xD8
-	::Il2CppArray<::System::Int32>* orderDithering2x2; // 0xE0
-	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* TracingVolumetricTextureValidUvRect; // 0xE8
-	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* DstVolumetricTextureSizeAndInvSize; // 0xF0
-	::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* _mrt2_reconstruction; // 0xF8
-	::System::Int32 HistoryColorRT; // 0x100
-	::System::Int32 VolumetricCloudDepthRT; // 0x104
-	::UnityEngine::Rendering::RenderTargetIdentifier _HistoryColorRT; // 0x108
-	::System::Int32 VolumetricCloudRT; // 0x130
-	::System::Int32 HistoryDepthRT; // 0x134
-	::UnityEngine::Rendering::RenderTargetIdentifier _HistoryDepthRT; // 0x138
-	::UnityEngine::Rendering::RenderTargetIdentifier _DstColorRT; // 0x160
-	::UnityEngine::Rendering::RenderTargetIdentifier _DstDepthRT; // 0x188
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* DstVolumetricTextureSizeAndInvSize; // 0xA8
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* TracingVolumetricTextureValidUvRect; // 0xB0
+	::UnityEngine::NAPRenderPipeline0::ProfilingSampler* profileSampler; // 0xB8
+	::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* _mrt2_reconstruction; // 0xC0
+	::UnityEngine::Rendering::Universal::Internal::CpuIntParams* CurrentTracingPixelOffsetY; // 0xC8
+	::UnityEngine::Material* material; // 0xD0
+	::Il2CppArray<::System::Int32>* orderDithering2x2; // 0xD8
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* PreviousFrameVolumetricTextureValidUvRect; // 0xE0
+	::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* TracingVolumetricTextureValidCoordRect; // 0xE8
+	::Il2CppArray<::System::Int32>* orderDithering4x4; // 0xF0
+	::UnityEngine::Rendering::Universal::Internal::CpuIntParams* CurrentTracingPixelOffsetX; // 0xF8
+	::UnityEngine::Rendering::RenderTargetIdentifier _DstColorRT; // 0x100
+	::System::Int32 VolumetricCloudDepthRT; // 0x128
+	::System::Int32 HistoryDepthRT; // 0x12C
+	::UnityEngine::Rendering::RenderTargetIdentifier _DstDepthRT; // 0x130
+	::UnityEngine::Rendering::RenderTargetIdentifier _HistoryColorRT; // 0x158
+	::System::Int32 VolumetricCloudRT; // 0x180
+	::System::Int32 HistoryColorRT; // 0x184
+	::UnityEngine::Rendering::RenderTargetIdentifier _HistoryDepthRT; // 0x188
 
 	::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent evt, ::UnityEngine::Material* cloudMaterial)
 	{

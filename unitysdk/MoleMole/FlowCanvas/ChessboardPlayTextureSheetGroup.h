@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableFunctionNode_3.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 
 namespace MoleMole::HollowChessboard { class HollowEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B953EB0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1B953C60)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B954420)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1B9544B0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP_INVOKE_OFFSET UNITYSDK_OFFSET(0x103FEF80)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x103FED30)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x103FF4F0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEETGROUP___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x103FF580)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardPlayTextureSheetGroup_TypeDefinitionIndex = 53916;
+	inline static constexpr unsigned int ChessboardPlayTextureSheetGroup_TypeDefinitionIndex = 51980;
 
-	class ChessboardPlayTextureSheetGroup : public ::MoleMole::FlowCanvas::ChessboardCallableFunctionNode_3<::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntity*>*, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowCell>*, ::System::String*>
+	class ChessboardPlayTextureSheetGroup
 	{
 	public:
 		::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::HollowEntity*>* _cachedPerformEntities; // 0x40

@@ -3,14 +3,13 @@
 #include "unitysdk/System/Object.h"
 
 namespace Newtonsoft::Json::Linq { class JToken; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_PATHFILTER_GETTOKENINDEX_OFFSET UNITYSDK_OFFSET(0x1F2D78B0)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_PATHFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2D7B50)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_PATHFILTER_GETTOKENINDEX_OFFSET UNITYSDK_OFFSET(0x1F6F4C50)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_PATHFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6F4EF0)
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
-	inline static constexpr unsigned int PathFilter_TypeDefinitionIndex = 7214;
+	inline static constexpr unsigned int PathFilter_TypeDefinitionIndex = 7221;
 
 	class PathFilter : public ::System::Object
 	{

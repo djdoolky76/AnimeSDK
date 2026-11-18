@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_A5FC45CC23522FB5;
+class GGGIGHDJDHK;
 namespace MoleMole { class UIInterKnotMissionWidgetController; }
 
-#define MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19856170)
-#define MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS46_0__INITMISSION_B__1_OFFSET UNITYSDK_OFFSET(0x19856180)
+#define MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F84C90)
+#define MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS46_0__INITMISSION_B__1_OFFSET UNITYSDK_OFFSET(0x17F84CA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotMissionWidgetController___c__DisplayClass46_0_TypeDefinitionIndex = 91287;
+	inline static constexpr unsigned int UIInterKnotMissionWidgetController___c__DisplayClass46_0_TypeDefinitionIndex = 84574;
 
 	class UIInterKnotMissionWidgetController___c__DisplayClass46_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS46_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _InitMission_b__1(::Class_1_A5FC45CC23522FB5* a)
+		::System::Boolean _InitMission_b__1(::GGGIGHDJDHK* a)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_A5FC45CC23522FB5*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS46_0__INITMISSION_B__1_OFFSET))(this, a);
+			return ((::System::Boolean(*)(::PVOID, ::GGGIGHDJDHK*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS46_0__INITMISSION_B__1_OFFSET))(this, a);
 		}
 	};
 }

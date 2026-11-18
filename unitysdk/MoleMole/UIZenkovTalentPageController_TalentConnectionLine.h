@@ -8,25 +8,26 @@ class ZzzUiCurveGraphic_CurveSegment;
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER_TALENTCONNECTIONLINE_RECREATECURVE_OFFSET UNITYSDK_OFFSET(0x15B18440)
-#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER_TALENTCONNECTIONLINE_SETOPEN_OFFSET UNITYSDK_OFFSET(0x15B185C0)
-#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER_TALENTCONNECTIONLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B18400)
-#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER_TALENTCONNECTIONLINE__SETOPEN_B__9_0_OFFSET UNITYSDK_OFFSET(0x15B18750)
+#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER_TALENTCONNECTIONLINE_RECREATECURVE_OFFSET UNITYSDK_OFFSET(0x12C13CD0)
+#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER_TALENTCONNECTIONLINE_SETOPEN_OFFSET UNITYSDK_OFFSET(0x12C13E50)
+#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER_TALENTCONNECTIONLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C13C90)
+#define MOLEMOLE_UIZENKOVTALENTPAGECONTROLLER_TALENTCONNECTIONLINE__SETOPEN_B__9_0_OFFSET UNITYSDK_OFFSET(0x12C13FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovTalentPageController_TalentConnectionLine_TypeDefinitionIndex = 84329;
+	inline static constexpr unsigned int UIZenkovTalentPageController_TalentConnectionLine_TypeDefinitionIndex = 43039;
 
 	class UIZenkovTalentPageController_TalentConnectionLine : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* _to; // 0x10
-		::ZzzUiCurveGraphic_CurveSegment* _segment; // 0x18
-		::UnityEngine::RectTransform* _root; // 0x20
-		::ZzzUiCurveGraphic* _drawer; // 0x28
+		::UnityEngine::RectTransform* _root; // 0x18
+		::ZzzUiCurveGraphic* _drawer; // 0x20
+		::ZzzUiCurveGraphic_CurveSegment* _segment; // 0x28
 		::UnityEngine::Transform* _from; // 0x30
-		::System::Boolean _isOpen; // 0x38
-		::System::Single _smoothness; // 0x3C
+		::System::Single _smoothness; // 0x38
+		::System::Boolean _isOpen; // 0x3C
+		::System::Byte _padding0[0x3];
 		::ZzzUiCurveGraphic_CurveType _curveType; // 0x40
 
 		::System::Void _ctor(::UnityEngine::Transform* from, ::UnityEngine::Transform* to, ::UnityEngine::RectTransform* root, ::ZzzUiCurveGraphic* drawer, ::System::Boolean isOpen, ::ZzzUiCurveGraphic_CurveType curveType, ::System::Single smoothness)

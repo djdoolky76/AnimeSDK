@@ -1,74 +1,79 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueTuple_2.h"
-#include "unitysdk/UnityEngine/Color32.h"
-#include "unitysdk/UnityEngine/Rect.h"
-#include "unitysdk/UnityEngine/UI/Extension/NAP_CharacterInfo.h"
 #include "unitysdk/UnityEngine/UI/Extension/UITextFeatureBase.h"
 #include "unitysdk/UnityEngine/UI/Extension/UITextFeatureRuntimeSwitchMask.h"
-#include "unitysdk/UnityEngine/UI/Extension/UnderlineFeature_LineSegment.h"
 #include "unitysdk/UnityEngine/UI/Extension/UnderlineYMode.h"
+#include "unitysdk/UnityEngine/Color32.h"
+#include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/UIVertex.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/UI/Extension/NAP_CharacterInfo.h"
+#include "unitysdk/UnityEngine/UI/Extension/UnderlineFeature_LineSegment.h"
+#include "unitysdk/UnityEngine/UI/Extension/UnderlineRenderParams.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class VertexHelper; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_ADDUNDERLINEQUAD_OFFSET UNITYSDK_OFFSET(0x1A68ED70)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_COLLECTCOLORSEGMENTS_OFFSET UNITYSDK_OFFSET(0x1A690300)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_COLLECTRANGELINEBOXES_OFFSET UNITYSDK_OFFSET(0x1A68EC60)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_COLOREQUAL_OFFSET UNITYSDK_OFFSET(0x1A6909C0)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_COMPUTESEGMENTBASEY_OFFSET UNITYSDK_OFFSET(0x1A690740)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_DRAWALL_OFFSET UNITYSDK_OFFSET(0x1A68D800)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_ENSURETEXCOORD3CHANNEL_OFFSET UNITYSDK_OFFSET(0x1A68E120)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_FILTERRANGES_OFFSET UNITYSDK_OFFSET(0x1A68D600)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_GETGIUNDERLINEY_OFFSET UNITYSDK_OFFSET(0x1A68DD00)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_GETONESCREENPIXELINLOCAL_OFFSET UNITYSDK_OFFSET(0x1A68E2C0)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_GETREQUIREDRICHTAGS_OFFSET UNITYSDK_OFFSET(0x1A68D4D0)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_GETUNDERLINEUV_OFFSET UNITYSDK_OFFSET(0x1A68DDC0)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_GET_RUNTIMESWITCHMASK_OFFSET UNITYSDK_OFFSET(0x1A68DCF0)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_INITQUADTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1A68E340)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_SPLITINTOLINES_OFFSET UNITYSDK_OFFSET(0x1A68FF70)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTFEATUREDATABUILDER_REBUILDFEATUREDATA_OFFSET UNITYSDK_OFFSET(0x1A68D550)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTMESHMODIFIER_ONRENDERMESH_OFFSET UNITYSDK_OFFSET(0x1A68D770)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A690AC0)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A690A10)
-#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE___BASE_GETREQUIREDRICHTAGS_OFFSET UNITYSDK_OFFSET(0x1A690B40)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_ADDUNDERLINEQUAD_OFFSET UNITYSDK_OFFSET(0x1C68B200)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_COLLECTCOLORSEGMENTS_OFFSET UNITYSDK_OFFSET(0x1C68CB50)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_COLLECTRANGELINEBOXES_OFFSET UNITYSDK_OFFSET(0x1C68B0F0)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_COLOREQUAL_OFFSET UNITYSDK_OFFSET(0x1C68D210)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_COMPUTESEGMENTBASEY_OFFSET UNITYSDK_OFFSET(0x1C68CF90)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_DRAWALL_OFFSET UNITYSDK_OFFSET(0x1C689DE0)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_ENSURETEXCOORD3CHANNEL_OFFSET UNITYSDK_OFFSET(0x1C68A590)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_FILTERRANGES_OFFSET UNITYSDK_OFFSET(0x1C689C00)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_GETGIUNDERLINEY_OFFSET UNITYSDK_OFFSET(0x1C68A170)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_GETREQUIREDRICHTAGS_OFFSET UNITYSDK_OFFSET(0x1C689AD0)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_GETUNDERLINEUV_OFFSET UNITYSDK_OFFSET(0x1C68A230)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_GET_RUNTIMESWITCHMASK_OFFSET UNITYSDK_OFFSET(0x1C68A160)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_INITQUADTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1C68A7D0)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_RESOLVERENDERPARAMS_1_OFFSET UNITYSDK_OFFSET(0x1C68C400)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_RESOLVERENDERPARAMS_OFFSET UNITYSDK_OFFSET(0x1C68A730)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_SPLITINTOLINES_OFFSET UNITYSDK_OFFSET(0x1C68C7C0)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTFEATUREDATABUILDER_REBUILDFEATUREDATA_OFFSET UNITYSDK_OFFSET(0x1C689B50)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_UNITYENGINE_UI_EXTENSION_IUITEXTMESHMODIFIER_ONRENDERMESH_OFFSET UNITYSDK_OFFSET(0x1C689D50)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C68D310)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C68D260)
+#define UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE___BASE_GETREQUIREDRICHTAGS_OFFSET UNITYSDK_OFFSET(0x1C68D390)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UnderlineFeature_TypeDefinitionIndex = 75317;
+	inline static constexpr unsigned int UnderlineFeature_TypeDefinitionIndex = 64285;
 
 	class UnderlineFeature : public ::UnityEngine::UI::Extension::UITextFeatureBase
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::UIVertex>** StaticGet__featherQuad()
 		{
-			return (::Il2CppArray<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(UnderlineFeature_TypeDefinitionIndex)->GetStaticField(0x34150);
+			return (::Il2CppArray<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(UnderlineFeature_TypeDefinitionIndex)->GetStaticField(0x364D0);
 		}
 		static ::Il2CppArray<::UnityEngine::UIVertex>** StaticGet__quad()
 		{
-			return (::Il2CppArray<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(UnderlineFeature_TypeDefinitionIndex)->GetStaticField(0x34158);
-		}
-		static ::UnityEngine::Vector4* StaticGet_kDecorationStyleParams()
-		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UnderlineFeature_TypeDefinitionIndex)->GetStaticField(0xC190);
-		}
-		static ::System::Boolean* StaticGet__quadTemplateInited()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UnderlineFeature_TypeDefinitionIndex)->GetStaticField(0xC1A0);
+			return (::Il2CppArray<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(UnderlineFeature_TypeDefinitionIndex)->GetStaticField(0x364D8);
 		}
 		static ::UnityEngine::UI::Extension::UnderlineYMode* StaticGet_underlineYMode()
 		{
-			return (::UnityEngine::UI::Extension::UnderlineYMode*)Il2CppClass::FromTypeDefinitionIndex(UnderlineFeature_TypeDefinitionIndex)->GetStaticField(0xC1A4);
+			return (::UnityEngine::UI::Extension::UnderlineYMode*)Il2CppClass::FromTypeDefinitionIndex(UnderlineFeature_TypeDefinitionIndex)->GetStaticField(0xC200);
 		}
-		::System::Collections::Generic::List_1<::UnityEngine::UI::Extension::UnderlineFeature_LineSegment>* _lineSegments; // 0x20
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* _quadRanges; // 0x28
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Rect, ::UnityEngine::Color32>>* _lineBoxes; // 0x30
-		::System::Single _cachedUlOffsetLocal; // 0x38
+		static ::System::Boolean* StaticGet__quadTemplateInited()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UnderlineFeature_TypeDefinitionIndex)->GetStaticField(0xC204);
+		}
+		static ::UnityEngine::Vector4* StaticGet_kDecorationStyleParams()
+		{
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UnderlineFeature_TypeDefinitionIndex)->GetStaticField(0xC208);
+		}
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Rect, ::UnityEngine::Color32>>* _lineBoxes; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* _lineSegments; // 0x28
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>* _quadRanges; // 0x30
+		::System::Single _cachedHeightDelta; // 0x38
 		::System::Boolean _texCoord3Ensured; // 0x3C
-		::System::Single _cachedHeightDelta; // 0x40
+		::System::Byte _padding0[0x3];
+		::System::Single _cachedUlOffsetLocal; // 0x40
 
 		::System::Void _ctor()
 		{
@@ -115,6 +120,16 @@ namespace UnityEngine::UI::Extension
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_DRAWALL_OFFSET))(this, toFill);
 		}
 
+		static ::UnityEngine::UI::Extension::UnderlineRenderParams ResolveRenderParams(::UnityEngine::UI::Extension::UILocalizationText* host)
+		{
+			return ((::UnityEngine::UI::Extension::UnderlineRenderParams(*)(::UnityEngine::UI::Extension::UILocalizationText*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_RESOLVERENDERPARAMS_OFFSET))(host);
+		}
+
+		static ::UnityEngine::UI::Extension::UnderlineRenderParams ResolveRenderParams_1(::UnityEngine::UI::Extension::UILocalizationText* host, ::System::Single& oneScreenPixelLocal)
+		{
+			return ((::UnityEngine::UI::Extension::UnderlineRenderParams(*)(::UnityEngine::UI::Extension::UILocalizationText*, ::System::Single&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_RESOLVERENDERPARAMS_1_OFFSET))(host, oneScreenPixelLocal);
+		}
+
 		::System::Void CollectRangeLineBoxes(::System::Int32 giStart, ::System::Int32 giEnd, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Rect, ::UnityEngine::Color32>>* outBoxes)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Rect, ::UnityEngine::Color32>>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_COLLECTRANGELINEBOXES_OFFSET))(this, giStart, giEnd, outBoxes);
@@ -153,11 +168,6 @@ namespace UnityEngine::UI::Extension
 		::System::Void EnsureTexCoord3Channel()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_ENSURETEXCOORD3CHANNEL_OFFSET))(this);
-		}
-
-		::System::Single GetOneScreenPixelInLocal()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_UNDERLINEFEATURE_GETONESCREENPIXELINLOCAL_OFFSET))(this);
 		}
 
 		::System::Boolean GetUnderlineUV(::UnityEngine::Vector2& uvCenter)

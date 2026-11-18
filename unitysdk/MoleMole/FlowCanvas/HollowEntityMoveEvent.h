@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardEventNode_1.h"
-#include "unitysdk/MoleMole/FlowCanvas/HollowEntityMoveEvent_Param.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_HOLLOWENTITYMOVEEVENT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x1B529410)
-#define MOLEMOLE_FLOWCANVAS_HOLLOWENTITYMOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B529470)
+#define MOLEMOLE_FLOWCANVAS_HOLLOWENTITYMOVEEVENT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x142F3FF0)
+#define MOLEMOLE_FLOWCANVAS_HOLLOWENTITYMOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x142F4050)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HollowEntityMoveEvent_TypeDefinitionIndex = 75750;
+	inline static constexpr unsigned int HollowEntityMoveEvent_TypeDefinitionIndex = 67403;
 
-	class HollowEntityMoveEvent : public ::MoleMole::FlowCanvas::ChessboardEventNode_1<::MoleMole::FlowCanvas::HollowEntityMoveEvent_Param>
+	class HollowEntityMoveEvent
 	{
 	public:
 		::System::Void _ctor()

@@ -5,12 +5,12 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeHashSetView_3_Element_TypeDefinitionIndex = 8661;
+	inline static constexpr unsigned int NativeHashSetView_3_Element_TypeDefinitionIndex = 9105;
 
-	template <typename TUserData, typename T, typename TKeyFunc>
-	struct NativeHashSetView_3_Element
+	template <typename T1, typename T2, typename T3>
+	struct alignas(8) NativeHashSetView_3_Element
 	{
-		T Item; // 0x0
+		T1 Item; // 0x0
 		::Foundation::Container::NativeHashSetElementId Next; // 0x0
 		::System::Int32 BucketIndex; // 0x0
 	};

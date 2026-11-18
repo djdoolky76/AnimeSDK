@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PROPBGLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x11D64E50)
+#define MOLEMOLE_PROPBGLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18953320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PropBgLevel_TypeDefinitionIndex = 41304;
+	inline static constexpr unsigned int PropBgLevel_TypeDefinitionIndex = 60237;
 
 	class PropBgLevel : public ::System::Object
 	{

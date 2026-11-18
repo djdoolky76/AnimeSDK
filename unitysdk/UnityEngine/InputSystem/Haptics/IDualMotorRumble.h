@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::Haptics
 {
-	inline static constexpr unsigned int IDualMotorRumble_TypeDefinitionIndex = 32462;
+	inline static constexpr unsigned int IDualMotorRumble_TypeDefinitionIndex = 31911;
 
 	class IDualMotorRumble
 	{

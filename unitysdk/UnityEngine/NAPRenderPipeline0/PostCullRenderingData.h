@@ -9,13 +9,14 @@ namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class DynamicA
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PostCullRenderingData_TypeDefinitionIndex = 5954;
+	inline static constexpr unsigned int PostCullRenderingData_TypeDefinitionIndex = 5960;
 
 	struct alignas(8) PostCullRenderingData
 	{
 		::UnityEngine::Rendering::CullingResults cullResults; // 0x10
 		::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Int32>* visibleLightPreData; // 0x20
 		::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> visibleLights; // 0x28
+		::System::Byte _padding0[0x8];
 		::System::Int32 mainLightIndex; // 0x38
 		::System::Int32 additionalLightsCount; // 0x3C
 	};

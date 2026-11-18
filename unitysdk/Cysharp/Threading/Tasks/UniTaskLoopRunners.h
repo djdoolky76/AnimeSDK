@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskLoopRunners_TypeDefinitionIndex = 31812;
+	inline static constexpr unsigned int UniTaskLoopRunners_TypeDefinitionIndex = 31252;
 
 	class UniTaskLoopRunners : public ::System::Object
 	{

@@ -3,13 +3,13 @@
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int AttributeSetType_TypeDefinitionIndex = 68781;
+	inline static constexpr unsigned int AttributeSetType_TypeDefinitionIndex = 78028;
 
 	enum class AttributeSetType : ::System::Int32
 	{
-		AtMost = 2,
+		Value = 0,
 		AtLeast = 1,
 		Clamp = 3,
-		Value = 0,
+		AtMost = 2,
 	};
 }

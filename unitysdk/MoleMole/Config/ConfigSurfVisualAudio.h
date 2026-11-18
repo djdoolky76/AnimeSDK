@@ -8,7 +8,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfVisualAudio_TypeDefinitionIndex = 43219;
+	inline static constexpr unsigned int ConfigSurfVisualAudio_TypeDefinitionIndex = 77997;
 
 	struct alignas(8) ConfigSurfVisualAudio
 	{
@@ -19,6 +19,7 @@ namespace MoleMole::Config
 		::UnityEngine::AnimationCurve* AnimLayerOverrideAngularCurve; // 0x28
 		::UnityEngine::AnimationCurve* AnimLayerOverrideCurve; // 0x30
 		::System::Single AnimLayerOverrideMinInDrift; // 0x38
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::MoleMole::Config::SurfAttachedEffect>* NormalEffects; // 0x40
 		::Il2CppArray<::MoleMole::Config::SurfAttachedEffect>* BrakeEffects; // 0x48
 		::Il2CppArray<::MoleMole::Config::SurfAttachedEffect>* LeftDriftEffects; // 0x50

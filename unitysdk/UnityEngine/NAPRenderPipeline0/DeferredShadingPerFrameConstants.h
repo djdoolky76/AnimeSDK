@@ -4,7 +4,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DeferredShadingPerFrameConstants_TypeDefinitionIndex = 5944;
+	inline static constexpr unsigned int DeferredShadingPerFrameConstants_TypeDefinitionIndex = 5950;
 
 	struct alignas(4) DeferredShadingPerFrameConstants
 	{

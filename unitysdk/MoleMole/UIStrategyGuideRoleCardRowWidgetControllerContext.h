@@ -6,11 +6,11 @@
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F7D430)
+#define MOLEMOLE_UISTRATEGYGUIDEROLECARDROWWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16908AC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStrategyGuideRoleCardRowWidgetControllerContext_TypeDefinitionIndex = 53283;
+	inline static constexpr unsigned int UIStrategyGuideRoleCardRowWidgetControllerContext_TypeDefinitionIndex = 54967;
 
 	class UIStrategyGuideRoleCardRowWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -5,12 +5,12 @@
 namespace MoleMole { class UIRABAutoBattleBase3DModelController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIRABAUTOBATTLEBASE3DMODELCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A16EA0)
-#define MOLEMOLE_UIRABAUTOBATTLEBASE3DMODELCONTROLLER___C__DISPLAYCLASS6_0__PLAYSWITCHANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x17A16EB0)
+#define MOLEMOLE_UIRABAUTOBATTLEBASE3DMODELCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17996AD0)
+#define MOLEMOLE_UIRABAUTOBATTLEBASE3DMODELCONTROLLER___C__DISPLAYCLASS6_0__PLAYSWITCHANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x17996AE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABAutoBattleBase3DModelController___c__DisplayClass6_0_TypeDefinitionIndex = 86931;
+	inline static constexpr unsigned int UIRABAutoBattleBase3DModelController___c__DisplayClass6_0_TypeDefinitionIndex = 60596;
 
 	class UIRABAutoBattleBase3DModelController___c__DisplayClass6_0 : public ::System::Object
 	{

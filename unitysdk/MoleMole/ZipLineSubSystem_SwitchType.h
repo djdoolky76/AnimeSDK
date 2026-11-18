@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ZipLineSubSystem_SwitchType_TypeDefinitionIndex = 63894;
+	inline static constexpr unsigned int ZipLineSubSystem_SwitchType_TypeDefinitionIndex = 92013;
 
 	enum class ZipLineSubSystem_SwitchType : ::System::Int32
 	{
 		None = 0,
-		TeamAvatar = 1,
 		OtherAvatar = 3,
 		PlusOneAvatar = 2,
+		TeamAvatar = 1,
 	};
 }

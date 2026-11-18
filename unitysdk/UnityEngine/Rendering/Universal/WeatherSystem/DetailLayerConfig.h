@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/DetailLayerConfig_DetailBlendModeType.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_DETAILLAYERCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D60E8A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_DETAILLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D60EB90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_DETAILLAYERCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D8DC7E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_DETAILLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DCAD0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int DetailLayerConfig_TypeDefinitionIndex = 27125;
+	inline static constexpr unsigned int DetailLayerConfig_TypeDefinitionIndex = 26908;
 
-	class DetailLayerConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::DetailLayerConfig*>
+	class DetailLayerConfig
 	{
 	public:
 		::UnityEngine::Texture2D* DetailMask; // 0x18

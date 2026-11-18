@@ -6,19 +6,24 @@
 #include "unitysdk/Unity/Collections/NativeHashMap_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_ABILITY_CROWDSPLINESNAPSHOT_ISVALIDFORSAMPLING_OFFSET UNITYSDK_OFFSET(0x5EC860)
+#define NPCCROWD_ABILITY_CROWDSPLINESNAPSHOT_ISVALIDFORSAMPLING_OFFSET UNITYSDK_OFFSET(0x633FB0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int CrowdSplineSnapshot_TypeDefinitionIndex = 86586;
+	inline static constexpr unsigned int CrowdSplineSnapshot_TypeDefinitionIndex = 78263;
 
 	struct alignas(8) CrowdSplineSnapshot
 	{
 		::System::Boolean HasActiveSplineFollow; // 0x10
+		::System::Byte _padding0[0x7];
 		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Positions; // 0x18
+		::System::Byte _padding1[0x8];
 		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Tangents; // 0x28
+		::System::Byte _padding2[0x8];
 		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Normals; // 0x38
+		::System::Byte _padding3[0x8];
 		::Unity::Collections::NativeArray_1<::System::Single> Distances; // 0x48
+		::System::Byte _padding4[0x8];
 		::Unity::Collections::NativeHashMap_2<::System::Int32, ::NPCCrowd::Ability::CrowdSplineBakeRange> Ranges; // 0x58
 
 		::System::Boolean IsValidForSampling()

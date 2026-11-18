@@ -9,14 +9,14 @@ namespace System::Security::Cryptography { class AsymmetricAlgorithm; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9A4D50)
-#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9A4D90)
-#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1F9A4DA0)
-#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM___C___CTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0x1F9A4DE0)
+#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDAB870)
+#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDAB8B0)
+#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1FDAB8C0)
+#define MONO_SECURITY_PROTOCOL_TLS_HTTPSCLIENTSTREAM___C___CTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0x1FDAB900)
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int HttpsClientStream___c_TypeDefinitionIndex = 2361;
+	inline static constexpr unsigned int HttpsClientStream___c_TypeDefinitionIndex = 2360;
 
 	class HttpsClientStream___c : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace Mono::Security::Protocol::Tls
 		{
 			return (::Mono::Security::Protocol::Tls::CertificateSelectionCallback**)Il2CppClass::FromTypeDefinitionIndex(HttpsClientStream___c_TypeDefinitionIndex)->GetStaticField(0x23F0);
 		}
-		static ::Mono::Security::Protocol::Tls::HttpsClientStream___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Mono::Security::Protocol::Tls::HttpsClientStream___c**)Il2CppClass::FromTypeDefinitionIndex(HttpsClientStream___c_TypeDefinitionIndex)->GetStaticField(0x23F8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(HttpsClientStream___c_TypeDefinitionIndex)->GetStaticField(0x23F8);
 		}
 		static ::Mono::Security::Protocol::Tls::PrivateKeySelectionCallback** StaticGet___9__2_1()
 		{

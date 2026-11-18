@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_SERIALIZATIONCACHE_SET_ENABLELAZYCREATE_OFFSET UNITYSDK_OFFSET(0x1E956120)
+#define UNITYENGINE_SERIALIZATIONCACHE_SET_ENABLELAZYCREATE_OFFSET UNITYSDK_OFFSET(0x1ECAEB30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SerializationCache_TypeDefinitionIndex = 5385;
+	inline static constexpr unsigned int SerializationCache_TypeDefinitionIndex = 5388;
 
 	class SerializationCache : public ::System::Object
 	{

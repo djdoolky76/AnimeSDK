@@ -1,128 +1,120 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Unreal/Interval_1.h"
-#include "unitysdk/Foundation/Unreal/Unsafe/Interval.h"
-#include "unitysdk/PipelineCamera/AsCameraDataType_2.h"
-#include "unitysdk/PipelineCamera/AsCoreCameraDataType_2.h"
-#include "unitysdk/PipelineCamera/FinalCameraData.h"
-#include "unitysdk/PipelineCamera/InterpCurve_1.h"
 #include "unitysdk/PipelineCamera/Method_AdvanceTimeResult.h"
 #include "unitysdk/PipelineCamera/Method_CameraLogCategory.h"
-#include "unitysdk/PipelineCamera/Method_LoopInterval.h"
-#include "unitysdk/PipelineCamera/ScopedDelegateHandle_1.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-#include "unitysdk/System/Span_1.h"
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/Foundation/Unreal/Unsafe/Interval.h"
+#include "unitysdk/Foundation/Unreal/Interval_1.h"
+#include "unitysdk/PipelineCamera/FinalCameraData.h"
+#include "unitysdk/PipelineCamera/InterpCurve_1.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace PipelineCamera { class TimeBasedAlphaGenerator; }
-namespace PipelineCamera { template <typename T1, typename T2> class CameraContext_2; }
-namespace PipelineCamera { template <typename T> class IMathOperation_1; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define PIPELINECAMERA_METHOD_ADVANCETIME_OFFSET UNITYSDK_OFFSET(0x1DCDE300)
-#define PIPELINECAMERA_METHOD_AVERAGE_1_OFFSET UNITYSDK_OFFSET(0x1DCDE9E0)
-#define PIPELINECAMERA_METHOD_AVERAGE_OFFSET UNITYSDK_OFFSET(0x1DCDE990)
-#define PIPELINECAMERA_METHOD_CALCULATECOSANGLE_OFFSET UNITYSDK_OFFSET(0x1DCDFDE0)
-#define PIPELINECAMERA_METHOD_CLAMPRELATIVEANGLEXZ_OFFSET UNITYSDK_OFFSET(0x1DCDA330)
-#define PIPELINECAMERA_METHOD_DOWNWARDALIGNMENT_1_OFFSET UNITYSDK_OFFSET(0x1DCDE890)
-#define PIPELINECAMERA_METHOD_DOWNWARDALIGNMENT_OFFSET UNITYSDK_OFFSET(0x1DCDE840)
-#define PIPELINECAMERA_METHOD_EULERDISTANCE_OFFSET UNITYSDK_OFFSET(0x1DCD9180)
-#define PIPELINECAMERA_METHOD_FASTATAN_OFFSET UNITYSDK_OFFSET(0x1DCDE770)
-#define PIPELINECAMERA_METHOD_FASTNEGEXP_OFFSET UNITYSDK_OFFSET(0x1DCDE6F0)
-#define PIPELINECAMERA_METHOD_GETDESIREDRADIUSBYENTITYSHAPE_OFFSET UNITYSDK_OFFSET(0x1DCDA770)
-#define PIPELINECAMERA_METHOD_GETNEXTLARGESTPOWERTWO_OFFSET UNITYSDK_OFFSET(0x1DCDEAC0)
-#define PIPELINECAMERA_METHOD_GETNUMBITSET_OFFSET UNITYSDK_OFFSET(0x1DCDEB20)
-#define PIPELINECAMERA_METHOD_HALFFIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x1DCD9AA0)
-#define PIPELINECAMERA_METHOD_INTERPCONSTANTTO_1_OFFSET UNITYSDK_OFFSET(0x1DCDFB90)
-#define PIPELINECAMERA_METHOD_INTERPCONSTANTTO_2_OFFSET UNITYSDK_OFFSET(0x1DCE0170)
-#define PIPELINECAMERA_METHOD_INTERPCONSTANTTO_3_OFFSET UNITYSDK_OFFSET(0x1DCE03D0)
-#define PIPELINECAMERA_METHOD_INTERPCONSTANTTO_OFFSET UNITYSDK_OFFSET(0x1DCDEEE0)
-#define PIPELINECAMERA_METHOD_INTERPTO_1_OFFSET UNITYSDK_OFFSET(0x1DCDF990)
-#define PIPELINECAMERA_METHOD_INTERPTO_2_OFFSET UNITYSDK_OFFSET(0x1DCE0040)
-#define PIPELINECAMERA_METHOD_INTERPTO_3_OFFSET UNITYSDK_OFFSET(0x1DCE02E0)
-#define PIPELINECAMERA_METHOD_INTERPTO_OFFSET UNITYSDK_OFFSET(0x1DCDEE10)
-#define PIPELINECAMERA_METHOD_INTERSECTIONOFANGLE_OFFSET UNITYSDK_OFFSET(0x1DCDA820)
-#define PIPELINECAMERA_METHOD_INTERSECTIONOFPERIODIC_OFFSET UNITYSDK_OFFSET(0x1DCDC750)
-#define PIPELINECAMERA_METHOD_INTERSECTIONOFRADIAN_OFFSET UNITYSDK_OFFSET(0x1DCDC590)
-#define PIPELINECAMERA_METHOD_LERPPERCHANNEL_OFFSET UNITYSDK_OFFSET(0x1DCDFF60)
-#define PIPELINECAMERA_METHOD_MINMAX_1_OFFSET UNITYSDK_OFFSET(0x1DCDF5B0)
-#define PIPELINECAMERA_METHOD_MINMAX_OFFSET UNITYSDK_OFFSET(0x1DCDF530)
-#define PIPELINECAMERA_METHOD_OFFSETTOSCREENOFFSET_OFFSET UNITYSDK_OFFSET(0x1DCD9FF0)
-#define PIPELINECAMERA_METHOD_OFFSETTOUNIFORMSCREENOFFSET_OFFSET UNITYSDK_OFFSET(0x1DCDA180)
-#define PIPELINECAMERA_METHOD_PRINT_OFFSET UNITYSDK_OFFSET(0x1DCD9360)
-#define PIPELINECAMERA_METHOD_RELATIVEALPHA_OFFSET UNITYSDK_OFFSET(0x1DCDEBC0)
-#define PIPELINECAMERA_METHOD_REVERSE_OFFSET UNITYSDK_OFFSET(0x1DCDEA40)
-#define PIPELINECAMERA_METHOD_SAMPLECIRCLE_OFFSET UNITYSDK_OFFSET(0x1DCDA4D0)
-#define PIPELINECAMERA_METHOD_SAMPLEDEFAULTRESOLVERCURVE_OFFSET UNITYSDK_OFFSET(0x1DCDA560)
-#define PIPELINECAMERA_METHOD_SCREENALIGNEDOFFSET_OFFSET UNITYSDK_OFFSET(0x1DCD9640)
-#define PIPELINECAMERA_METHOD_SCREENOFFSETTOOFFSET_OFFSET UNITYSDK_OFFSET(0x1DCD9BD0)
-#define PIPELINECAMERA_METHOD_SCREENOFFSET_OFFSET UNITYSDK_OFFSET(0x1DCD98E0)
-#define PIPELINECAMERA_METHOD_SINCOSDEGREE_OFFSET UNITYSDK_OFFSET(0x1DCDED80)
-#define PIPELINECAMERA_METHOD_SINCOS_OFFSET UNITYSDK_OFFSET(0x1DCDED00)
-#define PIPELINECAMERA_METHOD_SINRANGE_OFFSET UNITYSDK_OFFSET(0x1DCDF6C0)
-#define PIPELINECAMERA_METHOD_SOLVEQUADRATICEQUATION_OFFSET UNITYSDK_OFFSET(0x1DCD94A0)
-#define PIPELINECAMERA_METHOD_SQRTSQUARESUM_1_OFFSET UNITYSDK_OFFSET(0x1DCDF270)
-#define PIPELINECAMERA_METHOD_SQRTSQUARESUM_2_OFFSET UNITYSDK_OFFSET(0x1DCDF3C0)
-#define PIPELINECAMERA_METHOD_SQRTSQUARESUM_OFFSET UNITYSDK_OFFSET(0x1DCDF150)
-#define PIPELINECAMERA_METHOD_SQUARESUM_1_OFFSET UNITYSDK_OFFSET(0x1DCDF020)
-#define PIPELINECAMERA_METHOD_SQUARESUM_2_OFFSET UNITYSDK_OFFSET(0x1DCDF0B0)
-#define PIPELINECAMERA_METHOD_SQUARESUM_OFFSET UNITYSDK_OFFSET(0x1DCDEFB0)
-#define PIPELINECAMERA_METHOD_TANGENTHALFFIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x1DCD9A10)
-#define PIPELINECAMERA_METHOD_TOLOOPINTERVAL_OFFSET UNITYSDK_OFFSET(0x1DCDE450)
-#define PIPELINECAMERA_METHOD_UNIFORMSCREENOFFSETTOOFFSET_OFFSET UNITYSDK_OFFSET(0x1DCD9D30)
-#define PIPELINECAMERA_METHOD_UNIFORMSCREENOFFSETTOSCREENOFFSET_OFFSET UNITYSDK_OFFSET(0x1DCD9E50)
-#define PIPELINECAMERA_METHOD_UPWARDALIGNMENT_1_OFFSET UNITYSDK_OFFSET(0x1DCDE930)
-#define PIPELINECAMERA_METHOD_UPWARDALIGNMENT_OFFSET UNITYSDK_OFFSET(0x1DCDE8E0)
-#define PIPELINECAMERA_METHOD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCE0510)
-#define PIPELINECAMERA_METHOD__SAMPLECIRCLE_G__GETSINCOSENUMERABLE_38_1_OFFSET UNITYSDK_OFFSET(0x1DCE05E0)
+#define PIPELINECAMERA_METHOD_ADVANCETIME_OFFSET UNITYSDK_OFFSET(0x1E00AB50)
+#define PIPELINECAMERA_METHOD_AVERAGE_1_OFFSET UNITYSDK_OFFSET(0x1E00B230)
+#define PIPELINECAMERA_METHOD_AVERAGE_OFFSET UNITYSDK_OFFSET(0x1E00B1E0)
+#define PIPELINECAMERA_METHOD_CALCULATECOSANGLE_OFFSET UNITYSDK_OFFSET(0x1E00C630)
+#define PIPELINECAMERA_METHOD_CLAMPRELATIVEANGLEXZ_OFFSET UNITYSDK_OFFSET(0x1E006B70)
+#define PIPELINECAMERA_METHOD_DOWNWARDALIGNMENT_1_OFFSET UNITYSDK_OFFSET(0x1E00B0E0)
+#define PIPELINECAMERA_METHOD_DOWNWARDALIGNMENT_OFFSET UNITYSDK_OFFSET(0x1E00B090)
+#define PIPELINECAMERA_METHOD_EULERDISTANCE_OFFSET UNITYSDK_OFFSET(0x1E0059E0)
+#define PIPELINECAMERA_METHOD_FASTATAN_OFFSET UNITYSDK_OFFSET(0x1E00AFC0)
+#define PIPELINECAMERA_METHOD_FASTNEGEXP_OFFSET UNITYSDK_OFFSET(0x1E00AF40)
+#define PIPELINECAMERA_METHOD_GETDESIREDRADIUSBYENTITYSHAPE_OFFSET UNITYSDK_OFFSET(0x1E006FC0)
+#define PIPELINECAMERA_METHOD_GETNEXTLARGESTPOWERTWO_OFFSET UNITYSDK_OFFSET(0x1E00B310)
+#define PIPELINECAMERA_METHOD_GETNUMBITSET_OFFSET UNITYSDK_OFFSET(0x1E00B370)
+#define PIPELINECAMERA_METHOD_HALFFIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x1E006300)
+#define PIPELINECAMERA_METHOD_INTERPCONSTANTTO_1_OFFSET UNITYSDK_OFFSET(0x1E00C3E0)
+#define PIPELINECAMERA_METHOD_INTERPCONSTANTTO_2_OFFSET UNITYSDK_OFFSET(0x1E00C9C0)
+#define PIPELINECAMERA_METHOD_INTERPCONSTANTTO_3_OFFSET UNITYSDK_OFFSET(0x1E00CC20)
+#define PIPELINECAMERA_METHOD_INTERPCONSTANTTO_OFFSET UNITYSDK_OFFSET(0x1E00B730)
+#define PIPELINECAMERA_METHOD_INTERPTO_1_OFFSET UNITYSDK_OFFSET(0x1E00C1E0)
+#define PIPELINECAMERA_METHOD_INTERPTO_2_OFFSET UNITYSDK_OFFSET(0x1E00C890)
+#define PIPELINECAMERA_METHOD_INTERPTO_3_OFFSET UNITYSDK_OFFSET(0x1E00CB30)
+#define PIPELINECAMERA_METHOD_INTERPTO_OFFSET UNITYSDK_OFFSET(0x1E00B660)
+#define PIPELINECAMERA_METHOD_INTERSECTIONOFANGLE_OFFSET UNITYSDK_OFFSET(0x1E007070)
+#define PIPELINECAMERA_METHOD_INTERSECTIONOFPERIODIC_OFFSET UNITYSDK_OFFSET(0x1E008FA0)
+#define PIPELINECAMERA_METHOD_INTERSECTIONOFRADIAN_OFFSET UNITYSDK_OFFSET(0x1E008DE0)
+#define PIPELINECAMERA_METHOD_LERPPERCHANNEL_OFFSET UNITYSDK_OFFSET(0x1E00C7B0)
+#define PIPELINECAMERA_METHOD_MINMAX_1_OFFSET UNITYSDK_OFFSET(0x1E00BE00)
+#define PIPELINECAMERA_METHOD_MINMAX_OFFSET UNITYSDK_OFFSET(0x1E00BD80)
+#define PIPELINECAMERA_METHOD_OFFSETTOSCREENOFFSET_OFFSET UNITYSDK_OFFSET(0x1E006850)
+#define PIPELINECAMERA_METHOD_OFFSETTOUNIFORMSCREENOFFSET_OFFSET UNITYSDK_OFFSET(0x1E0069E0)
+#define PIPELINECAMERA_METHOD_PRINT_OFFSET UNITYSDK_OFFSET(0x1E005BC0)
+#define PIPELINECAMERA_METHOD_RELATIVEALPHA_OFFSET UNITYSDK_OFFSET(0x1E00B410)
+#define PIPELINECAMERA_METHOD_REVERSE_OFFSET UNITYSDK_OFFSET(0x1E00B290)
+#define PIPELINECAMERA_METHOD_SAMPLECIRCLE_OFFSET UNITYSDK_OFFSET(0x1E006D10)
+#define PIPELINECAMERA_METHOD_SAMPLEDEFAULTRESOLVERCURVE_OFFSET UNITYSDK_OFFSET(0x1E006DA0)
+#define PIPELINECAMERA_METHOD_SCREENALIGNEDOFFSET_OFFSET UNITYSDK_OFFSET(0x1E005EA0)
+#define PIPELINECAMERA_METHOD_SCREENOFFSETTOOFFSET_OFFSET UNITYSDK_OFFSET(0x1E006430)
+#define PIPELINECAMERA_METHOD_SCREENOFFSET_OFFSET UNITYSDK_OFFSET(0x1E006140)
+#define PIPELINECAMERA_METHOD_SINCOSDEGREE_OFFSET UNITYSDK_OFFSET(0x1E00B5D0)
+#define PIPELINECAMERA_METHOD_SINCOS_OFFSET UNITYSDK_OFFSET(0x1E00B550)
+#define PIPELINECAMERA_METHOD_SINRANGE_OFFSET UNITYSDK_OFFSET(0x1E00BF10)
+#define PIPELINECAMERA_METHOD_SOLVEQUADRATICEQUATION_OFFSET UNITYSDK_OFFSET(0x1E005D00)
+#define PIPELINECAMERA_METHOD_SQRTSQUARESUM_1_OFFSET UNITYSDK_OFFSET(0x1E00BAC0)
+#define PIPELINECAMERA_METHOD_SQRTSQUARESUM_2_OFFSET UNITYSDK_OFFSET(0x1E00BC10)
+#define PIPELINECAMERA_METHOD_SQRTSQUARESUM_OFFSET UNITYSDK_OFFSET(0x1E00B9A0)
+#define PIPELINECAMERA_METHOD_SQUARESUM_1_OFFSET UNITYSDK_OFFSET(0x1E00B870)
+#define PIPELINECAMERA_METHOD_SQUARESUM_2_OFFSET UNITYSDK_OFFSET(0x1E00B900)
+#define PIPELINECAMERA_METHOD_SQUARESUM_OFFSET UNITYSDK_OFFSET(0x1E00B800)
+#define PIPELINECAMERA_METHOD_TANGENTHALFFIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x1E006270)
+#define PIPELINECAMERA_METHOD_TOLOOPINTERVAL_OFFSET UNITYSDK_OFFSET(0x1E00ACA0)
+#define PIPELINECAMERA_METHOD_UNIFORMSCREENOFFSETTOOFFSET_OFFSET UNITYSDK_OFFSET(0x1E006590)
+#define PIPELINECAMERA_METHOD_UNIFORMSCREENOFFSETTOSCREENOFFSET_OFFSET UNITYSDK_OFFSET(0x1E0066B0)
+#define PIPELINECAMERA_METHOD_UPWARDALIGNMENT_1_OFFSET UNITYSDK_OFFSET(0x1E00B180)
+#define PIPELINECAMERA_METHOD_UPWARDALIGNMENT_OFFSET UNITYSDK_OFFSET(0x1E00B130)
+#define PIPELINECAMERA_METHOD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E00CD60)
+#define PIPELINECAMERA_METHOD__SAMPLECIRCLE_G__GETSINCOSENUMERABLE_38_1_OFFSET UNITYSDK_OFFSET(0x1E00CE50)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int Method_TypeDefinitionIndex = 38148;
+	inline static constexpr unsigned int Method_TypeDefinitionIndex = 36150;
 
 	class Method : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_ValidCircleSegments()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x2A4E0);
-		}
-		static ::System::Action_5<::PipelineCamera::Method_CameraLogCategory, ::System::Boolean, ::System::String*, ::UnityEngine::Color, ::System::Single>** StaticGet_PrintOnDelegate()
-		{
-			return (::System::Action_5<::PipelineCamera::Method_CameraLogCategory, ::System::Boolean, ::System::String*, ::UnityEngine::Color, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x2A4E8);
-		}
 		static ::Il2CppArray<::System::ValueTuple_2<::System::Single, ::System::Single>>** StaticGet__sinCosIntegralAngle()
 		{
-			return (::Il2CppArray<::System::ValueTuple_2<::System::Single, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x2A4F0);
+			return (::Il2CppArray<::System::ValueTuple_2<::System::Single, ::System::Single>>**)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x2B850);
 		}
-		static ::System::Double* StaticGet_Log2D()
+		static ::Il2CppArray<::System::Int32>** StaticGet_ValidCircleSegments()
 		{
-			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x8B20);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x2B858);
+		}
+		static ::System::Action_5<::System::Object*, ::System::Boolean, ::System::String*, ::UnityEngine::Color, ::System::Single>** StaticGet_PrintOnDelegate()
+		{
+			return (::System::Action_5<::System::Object*, ::System::Boolean, ::System::String*, ::UnityEngine::Color, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x2B860);
 		}
 		static ::System::Int32* StaticGet_SizeofChar()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x8B28);
-		}
-		static ::System::Int32* StaticGet_SizeOfInt64()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x8B2C);
-		}
-		static ::System::Single* StaticGet_Log2F()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x8B30);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x8FD0);
 		}
 		static ::System::Int32* StaticGet_SizeOfInt32()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x8B34);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x8FD4);
+		}
+		static ::System::Double* StaticGet_Log2D()
+		{
+			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x8FD8);
+		}
+		static ::System::Int32* StaticGet_SizeOfInt64()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x8FE0);
+		}
+		static ::System::Single* StaticGet_Log2F()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Method_TypeDefinitionIndex)->GetStaticField(0x8FE4);
 		}
 		// static const ::System::String* OnScreenLoggerCondition; // 0x0
 		// static const ::System::Single HalfPIf; // 0x0
@@ -223,19 +215,19 @@ namespace PipelineCamera
 			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + PIPELINECAMERA_METHOD_GETDESIREDRADIUSBYENTITYSHAPE_OFFSET))(pitch, height, ratio, unit);
 		}
 
-		static ::System::Span_1<::Foundation::Unreal::Unsafe::Interval> IntersectionOfAngle(::Foundation::Unreal::Unsafe::Interval rangeA, ::Foundation::Unreal::Unsafe::Interval rangeB, ::System::Span_1<::Foundation::Unreal::Unsafe::Interval> output)
+		static ::System::Span_1_9011FAD97750D224<::Foundation::Unreal::Unsafe::Interval> IntersectionOfAngle(::Foundation::Unreal::Unsafe::Interval rangeA, ::Foundation::Unreal::Unsafe::Interval rangeB, ::System::Span_1_9011FAD97750D224<::Foundation::Unreal::Unsafe::Interval> output)
 		{
-			return ((::System::Span_1<::Foundation::Unreal::Unsafe::Interval>(*)(::Foundation::Unreal::Unsafe::Interval, ::Foundation::Unreal::Unsafe::Interval, ::System::Span_1<::Foundation::Unreal::Unsafe::Interval>))((::PBYTE)hIl2Cpp + PIPELINECAMERA_METHOD_INTERSECTIONOFANGLE_OFFSET))(rangeA, rangeB, output);
+			return ((::System::Span_1_9011FAD97750D224<::Foundation::Unreal::Unsafe::Interval>(*)(::Foundation::Unreal::Unsafe::Interval, ::Foundation::Unreal::Unsafe::Interval, ::System::Span_1_9011FAD97750D224<::Foundation::Unreal::Unsafe::Interval>))((::PBYTE)hIl2Cpp + PIPELINECAMERA_METHOD_INTERSECTIONOFANGLE_OFFSET))(rangeA, rangeB, output);
 		}
 
-		static ::System::Span_1<::Foundation::Unreal::Unsafe::Interval> IntersectionOfRadian(::Foundation::Unreal::Unsafe::Interval rangeA, ::Foundation::Unreal::Unsafe::Interval rangeB, ::System::Span_1<::Foundation::Unreal::Unsafe::Interval> output)
+		static ::System::Span_1_9011FAD97750D224<::Foundation::Unreal::Unsafe::Interval> IntersectionOfRadian(::Foundation::Unreal::Unsafe::Interval rangeA, ::Foundation::Unreal::Unsafe::Interval rangeB, ::System::Span_1_9011FAD97750D224<::Foundation::Unreal::Unsafe::Interval> output)
 		{
-			return ((::System::Span_1<::Foundation::Unreal::Unsafe::Interval>(*)(::Foundation::Unreal::Unsafe::Interval, ::Foundation::Unreal::Unsafe::Interval, ::System::Span_1<::Foundation::Unreal::Unsafe::Interval>))((::PBYTE)hIl2Cpp + PIPELINECAMERA_METHOD_INTERSECTIONOFRADIAN_OFFSET))(rangeA, rangeB, output);
+			return ((::System::Span_1_9011FAD97750D224<::Foundation::Unreal::Unsafe::Interval>(*)(::Foundation::Unreal::Unsafe::Interval, ::Foundation::Unreal::Unsafe::Interval, ::System::Span_1_9011FAD97750D224<::Foundation::Unreal::Unsafe::Interval>))((::PBYTE)hIl2Cpp + PIPELINECAMERA_METHOD_INTERSECTIONOFRADIAN_OFFSET))(rangeA, rangeB, output);
 		}
 
-		static ::System::Int32 IntersectionOfPeriodic(::Foundation::Unreal::Unsafe::Interval rangeA, ::Foundation::Unreal::Unsafe::Interval rangeB, ::System::Single period, ::System::Span_1<::Foundation::Unreal::Unsafe::Interval> output)
+		static ::System::Int32 IntersectionOfPeriodic(::Foundation::Unreal::Unsafe::Interval rangeA, ::Foundation::Unreal::Unsafe::Interval rangeB, ::System::Single period, ::System::Span_1_9011FAD97750D224<::Foundation::Unreal::Unsafe::Interval> output)
 		{
-			return ((::System::Int32(*)(::Foundation::Unreal::Unsafe::Interval, ::Foundation::Unreal::Unsafe::Interval, ::System::Single, ::System::Span_1<::Foundation::Unreal::Unsafe::Interval>))((::PBYTE)hIl2Cpp + PIPELINECAMERA_METHOD_INTERSECTIONOFPERIODIC_OFFSET))(rangeA, rangeB, period, output);
+			return ((::System::Int32(*)(::Foundation::Unreal::Unsafe::Interval, ::Foundation::Unreal::Unsafe::Interval, ::System::Single, ::System::Span_1_9011FAD97750D224<::Foundation::Unreal::Unsafe::Interval>))((::PBYTE)hIl2Cpp + PIPELINECAMERA_METHOD_INTERSECTIONOFPERIODIC_OFFSET))(rangeA, rangeB, period, output);
 		}
 
 		static ::PipelineCamera::Method_AdvanceTimeResult AdvanceTime(::System::Boolean isLooping, ::System::Single& deltaTime, ::System::Single& time, ::System::Single length)
@@ -243,9 +235,9 @@ namespace PipelineCamera
 			return ((::PipelineCamera::Method_AdvanceTimeResult(*)(::System::Boolean, ::System::Single&, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + PIPELINECAMERA_METHOD_ADVANCETIME_OFFSET))(isLooping, deltaTime, time, length);
 		}
 
-		static ::System::Int32 ToLoopInterval(::Foundation::Unreal::Interval_1<::System::Single>& interval, ::System::Span_1<::PipelineCamera::Method_LoopInterval> loopInterval, ::System::Single period)
+		static ::System::Int32 ToLoopInterval(::Foundation::Unreal::Interval_1<::System::Single>& interval, ::System::Span_1_9011FAD97750D224<::System::Object*> loopInterval, ::System::Single period)
 		{
-			return ((::System::Int32(*)(::Foundation::Unreal::Interval_1<::System::Single>&, ::System::Span_1<::PipelineCamera::Method_LoopInterval>, ::System::Single))((::PBYTE)hIl2Cpp + PIPELINECAMERA_METHOD_TOLOOPINTERVAL_OFFSET))(interval, loopInterval, period);
+			return ((::System::Int32(*)(::Foundation::Unreal::Interval_1<::System::Single>&, ::System::Span_1_9011FAD97750D224<::System::Object*>, ::System::Single))((::PBYTE)hIl2Cpp + PIPELINECAMERA_METHOD_TOLOOPINTERVAL_OFFSET))(interval, loopInterval, period);
 		}
 
 		static ::System::Single FastNegExp(::System::Single value)

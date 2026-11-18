@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedScriptableObject.h"
 
-namespace MoleMole::Utils { class INapCameraSequenceDataTableEntry; }
-namespace System { class String; }
-namespace System { class Type; }
-
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCEDATATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B267A0)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCEDATATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x13EB2290)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int NapCameraSequenceDataTable_TypeDefinitionIndex = 77101;
+	inline static constexpr unsigned int NapCameraSequenceDataTable_TypeDefinitionIndex = 55343;
 
 	class NapCameraSequenceDataTable : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

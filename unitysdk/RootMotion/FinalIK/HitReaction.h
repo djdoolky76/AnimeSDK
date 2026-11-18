@@ -3,24 +3,23 @@
 #include "unitysdk/RootMotion/FinalIK/OffsetModifier.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RootMotion::FinalIK { class HitReaction_HitPointBone; }
-namespace RootMotion::FinalIK { class HitReaction_HitPointEffector; }
+namespace System { class Object; }
 namespace UnityEngine { class Collider; }
 
-#define ROOTMOTION_FINALIK_HITREACTION_GET_INPROGRESS_OFFSET UNITYSDK_OFFSET(0x1FAC8DF0)
-#define ROOTMOTION_FINALIK_HITREACTION_HIT_OFFSET UNITYSDK_OFFSET(0x1FAC9150)
-#define ROOTMOTION_FINALIK_HITREACTION_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1FAC8EA0)
-#define ROOTMOTION_FINALIK_HITREACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAC9540)
+#define ROOTMOTION_FINALIK_HITREACTION_GET_INPROGRESS_OFFSET UNITYSDK_OFFSET(0x1FED6290)
+#define ROOTMOTION_FINALIK_HITREACTION_HIT_OFFSET UNITYSDK_OFFSET(0x1FED65F0)
+#define ROOTMOTION_FINALIK_HITREACTION_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1FED6340)
+#define ROOTMOTION_FINALIK_HITREACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1FED69E0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int HitReaction_TypeDefinitionIndex = 38835;
+	inline static constexpr unsigned int HitReaction_TypeDefinitionIndex = 36810;
 
 	class HitReaction : public ::RootMotion::FinalIK::OffsetModifier
 	{
 	public:
-		::Il2CppArray<::RootMotion::FinalIK::HitReaction_HitPointEffector*>* effectorHitPoints; // 0x30
-		::Il2CppArray<::RootMotion::FinalIK::HitReaction_HitPointBone*>* boneHitPoints; // 0x38
+		::Il2CppArray<::System::Object*>* effectorHitPoints; // 0x30
+		::Il2CppArray<::System::Object*>* boneHitPoints; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -7,11 +7,12 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CloudConfigParamForDraw_TypeDefinitionIndex = 5942;
+	inline static constexpr unsigned int CloudConfigParamForDraw_TypeDefinitionIndex = 5948;
 
 	struct alignas(8) CloudConfigParamForDraw
 	{
 		::System::Int32 highCloudCount; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Material* cloudMaterial; // 0x18
 		::System::Int32 cloudMaterialID; // 0x20
 		::UnityEngine::Vector4 _CloudMoveParam; // 0x24

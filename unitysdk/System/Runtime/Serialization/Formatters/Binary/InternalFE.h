@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/Binary/InternalSerializerTypeE.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/FormatterAssemblyStyle.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/FormatterTypeStyle.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/TypeFilterLevel.h"
+#include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_INTERNALFE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D691660)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_INTERNALFE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5E9D0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int InternalFE_TypeDefinitionIndex = 1234;
+	inline static constexpr unsigned int InternalFE_TypeDefinitionIndex = 1233;
 
 	class InternalFE : public ::System::Object
 	{
 	public:
-		::System::Runtime::Serialization::Formatters::FormatterTypeStyle FEtypeFormat; // 0x10
-		::System::Runtime::Serialization::Formatters::TypeFilterLevel FEsecurityLevel; // 0x14
+		::System::Runtime::Serialization::Formatters::TypeFilterLevel FEsecurityLevel; // 0x10
+		::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum; // 0x14
 		::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle FEassemblyFormat; // 0x18
-		::System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum; // 0x1C
+		::System::Runtime::Serialization::Formatters::FormatterTypeStyle FEtypeFormat; // 0x1C
 
 		::System::Void _ctor()
 		{

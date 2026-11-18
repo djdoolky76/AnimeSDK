@@ -5,11 +5,11 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeArrayView_2_TypeDefinitionIndex = 8868;
+	inline static constexpr unsigned int NativeArrayView_2_TypeDefinitionIndex = 8724;
 
-	template <typename TUserData, typename T>
-	struct NativeArrayView_2
+	template <typename T1, typename T2>
+	struct alignas(8) NativeArrayView_2
 	{
-		::Foundation::Container::NativeFlatStorageView_2<TUserData, T> _view; // 0x0
+		::Foundation::Container::NativeFlatStorageView_2<T1, T2> _view; // 0x0
 	};
 }

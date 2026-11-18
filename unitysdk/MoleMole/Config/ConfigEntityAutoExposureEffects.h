@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityAutoExposureEffect; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x134F9AE0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B91CA80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAutoExposureEffects_TypeDefinitionIndex = 68589;
+	inline static constexpr unsigned int ConfigEntityAutoExposureEffects_TypeDefinitionIndex = 69192;
 
 	class ConfigEntityAutoExposureEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

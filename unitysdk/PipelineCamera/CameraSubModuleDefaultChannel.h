@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraSubModuleDefaultChannel_TypeDefinitionIndex = 38305;
+	inline static constexpr unsigned int CameraSubModuleDefaultChannel_TypeDefinitionIndex = 36307;
 
 	enum class CameraSubModuleDefaultChannel : ::System::Int32
 	{

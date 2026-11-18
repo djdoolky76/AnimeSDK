@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINEEDITORRESOURCES_COLLIDERPREVIEWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A1B70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALRENDERPIPELINEEDITORRESOURCES_COLLIDERPREVIEWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA52BE0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UniversalRenderPipelineEditorResources_ColliderPreviewConfig_TypeDefinitionIndex = 27475;
+	inline static constexpr unsigned int UniversalRenderPipelineEditorResources_ColliderPreviewConfig_TypeDefinitionIndex = 26943;
 
 	class UniversalRenderPipelineEditorResources_ColliderPreviewConfig : public ::System::Object
 	{
@@ -27,6 +27,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Boolean autoRefreshColliderProps; // 0xA3
 		::System::Boolean showNavMesh; // 0xA4
 		::System::Boolean hideCollider; // 0xA5
+		::System::Boolean hideTriggerCollider; // 0xA6
 
 		::System::Void _ctor()
 		{

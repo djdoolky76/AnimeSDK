@@ -2,19 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_7D1C8BC7CF6694EC;
+class NGJDBCPPIGM;
 
-#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1E770600)
-#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_1__SENDEVENT_B__1_OFFSET UNITYSDK_OFFSET(0x1E7734D0)
+#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED94DA0)
+#define MOLEMOLE_UIBALLGAMEOPTIONSDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS16_1__SENDEVENT_B__1_OFFSET UNITYSDK_OFFSET(0x1ED95F20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameOptionsDialogPopWindowController___c__DisplayClass16_1_TypeDefinitionIndex = 93221;
+	inline static constexpr unsigned int UIBallGameOptionsDialogPopWindowController___c__DisplayClass16_1_TypeDefinitionIndex = 94921;
 
+	template <typename T>
 	class UIBallGameOptionsDialogPopWindowController___c__DisplayClass16_1 : public ::System::Object
 	{
 	public:
-		::Class_3_7D1C8BC7CF6694EC* upgradeBullet; // 0x10
+		::NGJDBCPPIGM* upgradeBullet; // 0x10
 
 		::System::Void _ctor()
 		{

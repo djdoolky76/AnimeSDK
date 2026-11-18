@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 
-#define MOLEMOLE_UICAMPIDLETREE__CTOR_OFFSET UNITYSDK_OFFSET(0x19327C50)
+#define MOLEMOLE_UICAMPIDLETREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1738DDF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICampIdleTree_TypeDefinitionIndex = 56284;
+	inline static constexpr unsigned int UICampIdleTree_TypeDefinitionIndex = 56856;
 
 	class UICampIdleTree : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

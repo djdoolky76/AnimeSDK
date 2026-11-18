@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/LDDHJLCEFOJ.h"
+
+class ACNLKLCDALA;
+class CAPAFILOMGC;
+class GEIHCPAOKKK;
+
+#define JFCEDPPLENA_BBOMJDBNHIC_OFFSET UNITYSDK_OFFSET(0x14FAC020)
+#define JFCEDPPLENA_PLPONJAKNEB_OFFSET UNITYSDK_OFFSET(0x14FABBB0)
+#define JFCEDPPLENA__CTOR_OFFSET UNITYSDK_OFFSET(0x14FAC010)
+
+inline static constexpr unsigned int JFCEDPPLENA_TypeDefinitionIndex = 59677;
+
+class JFCEDPPLENA : public ::LDDHJLCEFOJ
+{
+public:
+	::ACNLKLCDALA* HMKPMMCDECM; // 0x28
+	::GEIHCPAOKKK* HPDFPPAHNGL; // 0x30
+	::CAPAFILOMGC* LCIOJOKGJOJ; // 0x38
+	::System::Single CLPMCFLIDMO; // 0x40
+	::System::Single LPEFECLJHJN; // 0x44
+	::System::Single DJBCIGEGOLL; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JFCEDPPLENA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void PLPONJAKNEB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JFCEDPPLENA_PLPONJAKNEB_OFFSET))(this);
+	}
+
+	::System::Void BBOMJDBNHIC(::CAPAFILOMGC* JPMBBNEMEDD, ::GEIHCPAOKKK* MNIEFFFEKEH, ::ACNLKLCDALA* PAHAKIECKMN)
+	{
+		return ((::System::Void(*)(::PVOID, ::CAPAFILOMGC*, ::GEIHCPAOKKK*, ::ACNLKLCDALA*))((::PBYTE)hIl2Cpp + JFCEDPPLENA_BBOMJDBNHIC_OFFSET))(this, JPMBBNEMEDD, MNIEFFFEKEH, PAHAKIECKMN);
+	}
+};

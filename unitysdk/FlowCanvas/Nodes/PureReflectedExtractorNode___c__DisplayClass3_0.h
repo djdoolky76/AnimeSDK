@@ -5,18 +5,18 @@
 namespace FlowCanvas::Nodes { class PureReflectedExtractorNode; }
 namespace System::Reflection { class FieldInfo; }
 
-#define FLOWCANVAS_NODES_PUREREFLECTEDEXTRACTORNODE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB5490)
-#define FLOWCANVAS_NODES_PUREREFLECTEDEXTRACTORNODE___C__DISPLAYCLASS3_0__GETPORTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0x1EBB54A0)
+#define FLOWCANVAS_NODES_PUREREFLECTEDEXTRACTORNODE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF87D60)
+#define FLOWCANVAS_NODES_PUREREFLECTEDEXTRACTORNODE___C__DISPLAYCLASS3_0__GETPORTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0x1EF87D70)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PureReflectedExtractorNode___c__DisplayClass3_0_TypeDefinitionIndex = 31077;
+	inline static constexpr unsigned int PureReflectedExtractorNode___c__DisplayClass3_0_TypeDefinitionIndex = 29450;
 
 	class PureReflectedExtractorNode___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::Reflection::FieldInfo* info; // 0x10
-		::FlowCanvas::Nodes::PureReflectedExtractorNode* __4__this; // 0x18
+		::FlowCanvas::Nodes::PureReflectedExtractorNode* __4__this; // 0x10
+		::System::Reflection::FieldInfo* info; // 0x18
 
 		::System::Void _ctor()
 		{

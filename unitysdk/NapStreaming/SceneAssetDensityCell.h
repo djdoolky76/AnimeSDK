@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NapStreaming/SceneAssetDensityCell_SceneAssetDensityCellSerializedData.h"
 #include "unitysdk/NapStreaming/SceneAssetDensityOverReason.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
+#include "unitysdk/NapStreaming/SceneAssetDensityCell_SceneAssetDensityCellSerializedData.h"
 #include "unitysdk/UnityEngine/Color.h"
 
 namespace System { class String; }
@@ -13,44 +13,44 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 
-#define NAPSTREAMING_SCENEASSETDENSITYCELL_ADDMATERIALS_OFFSET UNITYSDK_OFFSET(0x12D43FE0)
-#define NAPSTREAMING_SCENEASSETDENSITYCELL_CHECKBUDGET_OFFSET UNITYSDK_OFFSET(0x12D44190)
-#define NAPSTREAMING_SCENEASSETDENSITYCELL_CLEAR_OFFSET UNITYSDK_OFFSET(0x12D44030)
-#define NAPSTREAMING_SCENEASSETDENSITYCELL_GETMAX_OFFSET UNITYSDK_OFFSET(0x12D43B80)
-#define NAPSTREAMING_SCENEASSETDENSITYCELL_GETOVERREASONCOLOR_OFFSET UNITYSDK_OFFSET(0x12D448D0)
-#define NAPSTREAMING_SCENEASSETDENSITYCELL_GETOVERREASONSTR_OFFSET UNITYSDK_OFFSET(0x12D44280)
-#define NAPSTREAMING_SCENEASSETDENSITYCELL_GETSERIALIZEDDATA_OFFSET UNITYSDK_OFFSET(0x12D44940)
-#define NAPSTREAMING_SCENEASSETDENSITYCELL_ISVALID_OFFSET UNITYSDK_OFFSET(0x12D44130)
-#define NAPSTREAMING_SCENEASSETDENSITYCELL_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x12D43A00)
-#define NAPSTREAMING_SCENEASSETDENSITYCELL_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x12D43AC0)
-#define NAPSTREAMING_SCENEASSETDENSITYCELL_STOPADDANDCALC_OFFSET UNITYSDK_OFFSET(0x12D43C90)
-#define NAPSTREAMING_SCENEASSETDENSITYCELL__CCTOR_OFFSET UNITYSDK_OFFSET(0x12D44BA0)
-#define NAPSTREAMING_SCENEASSETDENSITYCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x12D44A20)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL_ADDMATERIALS_OFFSET UNITYSDK_OFFSET(0x14F4B410)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL_CHECKBUDGET_OFFSET UNITYSDK_OFFSET(0x14F4B5B0)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL_CLEAR_OFFSET UNITYSDK_OFFSET(0x14F4B460)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL_GETMAX_OFFSET UNITYSDK_OFFSET(0x14F4AFD0)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL_GETOVERREASONCOLOR_OFFSET UNITYSDK_OFFSET(0x14F4BCF0)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL_GETOVERREASONSTR_OFFSET UNITYSDK_OFFSET(0x14F4B6A0)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL_GETSERIALIZEDDATA_OFFSET UNITYSDK_OFFSET(0x14F4BD60)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL_ISVALID_OFFSET UNITYSDK_OFFSET(0x14F4B550)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x14F4AE70)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x14F4AF10)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL_STOPADDANDCALC_OFFSET UNITYSDK_OFFSET(0x14F4B0C0)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F4BFD0)
+#define NAPSTREAMING_SCENEASSETDENSITYCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x14F4BE50)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int SceneAssetDensityCell_TypeDefinitionIndex = 76019;
+	inline static constexpr unsigned int SceneAssetDensityCell_TypeDefinitionIndex = 52313;
 
 	class SceneAssetDensityCell : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_s_overReasonInfos()
 		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SceneAssetDensityCell_TypeDefinitionIndex)->GetStaticField(0x43370);
+			return (::System::Collections::Generic::List_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SceneAssetDensityCell_TypeDefinitionIndex)->GetStaticField(0x49150);
 		}
-		::System::Collections::Generic::HashSet_1<::UnityEngine::Texture*>* textures; // 0x10
-		::System::Collections::Generic::HashSet_1<::UnityEngine::Material*>* materials; // 0x18
-		::System::Int32 skinnedMeshCount; // 0x20
-		::System::Int32 animationClipCount; // 0x24
-		::System::Int32 materialCount; // 0x28
+		::System::Collections::Generic::HashSet_1<::UnityEngine::Material*>* materials; // 0x10
+		::System::Collections::Generic::HashSet_1<::UnityEngine::Texture*>* textures; // 0x18
+		::System::Int32 animationClipCount; // 0x20
+		::System::Int32 skinnedMeshCount; // 0x24
+		::System::Int32 textureCount; // 0x28
 		::System::Int32 lightCount; // 0x2C
-		::System::Int32 rendererCount; // 0x30
-		::System::Int32 textureCount; // 0x34
+		::System::Int32 particleCount; // 0x30
+		::System::Int32 materialCount; // 0x34
 		::System::Int32 objectCount; // 0x38
-		::UnityEngine::Bounds bounds; // 0x3C
-		::System::Int32 particleCount; // 0x54
-		::System::Int32 vertexCount; // 0x58
-		::System::Double texturePixelCount; // 0x60
+		::System::Int32 vertexCount; // 0x3C
+		::System::Double texturePixelCount; // 0x40
+		::System::Int32 rendererCount; // 0x48
+		::UnityEngine::Bounds bounds; // 0x4C
 
 		::System::Void _ctor()
 		{

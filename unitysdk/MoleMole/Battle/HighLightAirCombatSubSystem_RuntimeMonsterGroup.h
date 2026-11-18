@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Threading { class CancellationTokenSource; }
 
-#define MOLEMOLE_BATTLE_HIGHLIGHTAIRCOMBATSUBSYSTEM_RUNTIMEMONSTERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x116CA1F0)
+#define MOLEMOLE_BATTLE_HIGHLIGHTAIRCOMBATSUBSYSTEM_RUNTIMEMONSTERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xFA88B30)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int HighLightAirCombatSubSystem_RuntimeMonsterGroup_TypeDefinitionIndex = 68746;
+	inline static constexpr unsigned int HighLightAirCombatSubSystem_RuntimeMonsterGroup_TypeDefinitionIndex = 83431;
 
 	class HighLightAirCombatSubSystem_RuntimeMonsterGroup : public ::System::Object
 	{

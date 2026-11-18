@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DBF2701137F18AA6.h"
+#include "unitysdk/MIKOMFIBMBN.h"
 #include "unitysdk/MoleMole/UIBossChallengeHistoryRowBaseWidgetController.h"
-#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/LIBOIKJGAIH.h"
 
 namespace MoleMole { class UIControlReference; }
 
-#define MOLEMOLE_UIBOSSCHALLENGEHISTORYHARDROWWIDGETCONTROLLER_CREATEROWVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x18E48B60)
-#define MOLEMOLE_UIBOSSCHALLENGEHISTORYHARDROWWIDGETCONTROLLER_GET_BINDERCTRLKEY_OFFSET UNITYSDK_OFFSET(0x18E48B50)
-#define MOLEMOLE_UIBOSSCHALLENGEHISTORYHARDROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18E48BF0)
+#define MOLEMOLE_UIBOSSCHALLENGEHISTORYHARDROWWIDGETCONTROLLER_CREATEROWVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x17FFA100)
+#define MOLEMOLE_UIBOSSCHALLENGEHISTORYHARDROWWIDGETCONTROLLER_GET_BINDERCTRLKEY_OFFSET UNITYSDK_OFFSET(0x17FFA0F0)
+#define MOLEMOLE_UIBOSSCHALLENGEHISTORYHARDROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17FFA190)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossChallengeHistoryHardRowWidgetController_TypeDefinitionIndex = 56309;
+	inline static constexpr unsigned int UIBossChallengeHistoryHardRowWidgetController_TypeDefinitionIndex = 49536;
 
 	class UIBossChallengeHistoryHardRowWidgetController : public ::MoleMole::UIBossChallengeHistoryRowBaseWidgetController
 	{
@@ -22,14 +22,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEHISTORYHARDROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_DBF2701137F18AA6 get_BinderCtrlKey()
+		::MIKOMFIBMBN get_BinderCtrlKey()
 		{
-			return ((::Enum_3_DBF2701137F18AA6(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEHISTORYHARDROWWIDGETCONTROLLER_GET_BINDERCTRLKEY_OFFSET))(this);
+			return ((::MIKOMFIBMBN(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEHISTORYHARDROWWIDGETCONTROLLER_GET_BINDERCTRLKEY_OFFSET))(this);
 		}
 
-		::System::Void CreateRowViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		::System::Void CreateRowViewModel(::LIBOIKJGAIH& binderInfo, ::MoleMole::UIControlReference* controlReference)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEHISTORYHARDROWWIDGETCONTROLLER_CREATEROWVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEHISTORYHARDROWWIDGETCONTROLLER_CREATEROWVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
 		}
 	};
 }

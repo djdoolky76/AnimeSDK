@@ -4,28 +4,28 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_LOCALLOGUTIL_LOG_OFFSET UNITYSDK_OFFSET(0x1EF80C80)
-#define FOUNDATION_LOCALLOGUTIL_OPENLOGFILEANDFLODER_OFFSET UNITYSDK_OFFSET(0x1EF80E30)
-#define FOUNDATION_LOCALLOGUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF80F00)
+#define FOUNDATION_LOCALLOGUTIL_LOG_OFFSET UNITYSDK_OFFSET(0x1EF0ADC0)
+#define FOUNDATION_LOCALLOGUTIL_OPENLOGFILEANDFLODER_OFFSET UNITYSDK_OFFSET(0x1EF0AF70)
+#define FOUNDATION_LOCALLOGUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF0B040)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LocalLogUtil_TypeDefinitionIndex = 8068;
+	inline static constexpr unsigned int LocalLogUtil_TypeDefinitionIndex = 8451;
 
 	class LocalLogUtil : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_SavePath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(LocalLogUtil_TypeDefinitionIndex)->GetStaticField(0x7420);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(LocalLogUtil_TypeDefinitionIndex)->GetStaticField(0x7170);
 		}
 		static ::System::Boolean* StaticGet_wirteLog()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LocalLogUtil_TypeDefinitionIndex)->GetStaticField(0x3AA0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LocalLogUtil_TypeDefinitionIndex)->GetStaticField(0x3820);
 		}
 		static ::System::Boolean* StaticGet_Enable()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LocalLogUtil_TypeDefinitionIndex)->GetStaticField(0x3AA1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LocalLogUtil_TypeDefinitionIndex)->GetStaticField(0x3821);
 		}
 
 		static ::System::Void _cctor()

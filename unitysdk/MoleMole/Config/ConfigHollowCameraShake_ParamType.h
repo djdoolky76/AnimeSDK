@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowCameraShake_ParamType_TypeDefinitionIndex = 43563;
+	inline static constexpr unsigned int ConfigHollowCameraShake_ParamType_TypeDefinitionIndex = 76644;
 
 	enum class ConfigHollowCameraShake_ParamType : ::System::Int32
 	{
-		Manual = 1,
 		AutoGen = 0,
+		Manual = 1,
 	};
 }

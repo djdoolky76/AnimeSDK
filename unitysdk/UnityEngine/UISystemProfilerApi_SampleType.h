@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UISystemProfilerApi_SampleType_TypeDefinitionIndex = 18816;
+	inline static constexpr unsigned int UISystemProfilerApi_SampleType_TypeDefinitionIndex = 17967;
 
 	enum class UISystemProfilerApi_SampleType : ::System::Int32
 	{

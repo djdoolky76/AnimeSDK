@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIBangkovBagPageController_LocalBangkovItemInfo.h"
+#include "unitysdk/System/Object.h"
+
+class EHOFCIGBFBA_CDJADIIKNJF;
+class FAKLNMJEGOJ;
+class FMHDMLBDIJC;
+class IFOHGNLIAKH;
+
+#define EHOFCIGBFBA_ENJDMPLBLMK_CILEIIOEKEJ_OFFSET UNITYSDK_OFFSET(0x10F336D0)
+#define EHOFCIGBFBA_ENJDMPLBLMK_JNDCOEHLOOM_OFFSET UNITYSDK_OFFSET(0x10F33CC0)
+#define EHOFCIGBFBA_ENJDMPLBLMK_LICNFMLICMC_OFFSET UNITYSDK_OFFSET(0x10F33D20)
+#define EHOFCIGBFBA_ENJDMPLBLMK_POKCEPIDBEE_OFFSET UNITYSDK_OFFSET(0x10F33B40)
+#define EHOFCIGBFBA_ENJDMPLBLMK__CTOR_OFFSET UNITYSDK_OFFSET(0x10F336C0)
+
+inline static constexpr unsigned int EHOFCIGBFBA_ENJDMPLBLMK_TypeDefinitionIndex = 52219;
+
+class EHOFCIGBFBA_ENJDMPLBLMK : public ::System::Object
+{
+public:
+	::EHOFCIGBFBA_CDJADIIKNJF* FGBNBFHOKAA; // 0x10
+	::FAKLNMJEGOJ* BGFIDJKBBFO; // 0x18
+	::MoleMole::UIBangkovBagPageController_LocalBangkovItemInfo LCMCAPGFJLO; // 0x20
+	::FMHDMLBDIJC* BLFMEHNGIPN; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EHOFCIGBFBA_ENJDMPLBLMK__CTOR_OFFSET))(this);
+	}
+
+	::System::Void CILEIIOEKEJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EHOFCIGBFBA_ENJDMPLBLMK_CILEIIOEKEJ_OFFSET))(this);
+	}
+
+	::System::Void POKCEPIDBEE(::IFOHGNLIAKH* JOLDOMEIKEF)
+	{
+		return ((::System::Void(*)(::PVOID, ::IFOHGNLIAKH*))((::PBYTE)hIl2Cpp + EHOFCIGBFBA_ENJDMPLBLMK_POKCEPIDBEE_OFFSET))(this, JOLDOMEIKEF);
+	}
+
+	::System::Object* JNDCOEHLOOM()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + EHOFCIGBFBA_ENJDMPLBLMK_JNDCOEHLOOM_OFFSET))(this);
+	}
+
+	::System::Boolean LICNFMLICMC()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EHOFCIGBFBA_ENJDMPLBLMK_LICNFMLICMC_OFFSET))(this);
+	}
+};

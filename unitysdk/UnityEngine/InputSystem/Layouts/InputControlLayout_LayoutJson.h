@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine::InputSystem::Layouts { class InputControlLayout; }
-namespace UnityEngine::InputSystem::Layouts { class InputControlLayout_ControlItemJson; }
 
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON_FROMLAYOUT_OFFSET UNITYSDK_OFFSET(0x1E0E0070)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON_TOLAYOUT_OFFSET UNITYSDK_OFFSET(0xA01810)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON_FROMLAYOUT_OFFSET UNITYSDK_OFFSET(0x1E44C5D0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON_TOLAYOUT_OFFSET UNITYSDK_OFFSET(0x8FE880)
 
 namespace UnityEngine::InputSystem::Layouts
 {
-	inline static constexpr unsigned int InputControlLayout_LayoutJson_TypeDefinitionIndex = 32604;
+	inline static constexpr unsigned int InputControlLayout_LayoutJson_TypeDefinitionIndex = 32053;
 
 	struct alignas(8) InputControlLayout_LayoutJson
 	{
@@ -28,16 +28,19 @@ namespace UnityEngine::InputSystem::Layouts
 		::System::String* variant; // 0x60
 		::System::Boolean isGenericTypeOfDevice; // 0x68
 		::System::Boolean hideInUI; // 0x69
-		::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*>* controls; // 0x70
+		::System::Byte _padding0[0x6];
+		::Il2CppArray<::System::Object*>* controls; // 0x70
 
 		::UnityEngine::InputSystem::Layouts::InputControlLayout* ToLayout()
 		{
 			return ((::UnityEngine::InputSystem::Layouts::InputControlLayout*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON_TOLAYOUT_OFFSET))(this);
 		}
 
+		/*
 		static ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson FromLayout(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout)
 		{
 			return ((::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson(*)(::UnityEngine::InputSystem::Layouts::InputControlLayout*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_LAYOUTJSON_FROMLAYOUT_OFFSET))(layout);
 		}
+		*/
 	};
 }

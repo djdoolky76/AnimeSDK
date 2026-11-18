@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilitySteeringFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FTransformFragment.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCABILITYFIRSTPROCESSORS_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0xE558DE0)
-#define NPCCROWD_ABILITY_NPCABILITYFIRSTPROCESSORS_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE558CD0)
-#define NPCCROWD_ABILITY_NPCABILITYFIRSTPROCESSORS__CTOR_OFFSET UNITYSDK_OFFSET(0xE558FE0)
+#define NPCCROWD_ABILITY_NPCABILITYFIRSTPROCESSORS_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x106934F0)
+#define NPCCROWD_ABILITY_NPCABILITYFIRSTPROCESSORS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x106933E0)
+#define NPCCROWD_ABILITY_NPCABILITYFIRSTPROCESSORS__CTOR_OFFSET UNITYSDK_OFFSET(0x106936F0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityFirstProcessors_TypeDefinitionIndex = 75354;
+	inline static constexpr unsigned int NPCAbilityFirstProcessors_TypeDefinitionIndex = 50453;
 
 	class NPCAbilityFirstProcessors : public ::System::Object
 	{

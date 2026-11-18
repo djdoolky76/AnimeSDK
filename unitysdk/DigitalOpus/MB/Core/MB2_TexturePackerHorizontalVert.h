@@ -1,25 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/DigitalOpus/MB/Core/AtlasPadding.h"
 #include "unitysdk/DigitalOpus/MB/Core/MB2_TexturePacker.h"
 #include "unitysdk/DigitalOpus/MB/Core/MB2_TexturePackerHorizontalVert_TexturePackingOrientation.h"
+#include "unitysdk/DigitalOpus/MB/Core/AtlasPadding.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace DigitalOpus::MB::Core { class AtlasPackingResult; }
 namespace DigitalOpus::MB::Core { class MB2_TexturePacker_Image; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT_GETRECTS_1_OFFSET UNITYSDK_OFFSET(0x1F702710)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT_GETRECTS_OFFSET UNITYSDK_OFFSET(0x1F702610)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT_POPLARGESTTHATFITS_OFFSET UNITYSDK_OFFSET(0x1F705410)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F705520)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT__GETRECTSMULTIATLASHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1F703570)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT__GETRECTSMULTIATLASVERTICAL_OFFSET UNITYSDK_OFFSET(0x1F702A70)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT__GETRECTSSINGLEATLAS_OFFSET UNITYSDK_OFFSET(0x1F704050)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT_GETRECTS_1_OFFSET UNITYSDK_OFFSET(0x1FAF6320)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT_GETRECTS_OFFSET UNITYSDK_OFFSET(0x1FAF6220)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT_POPLARGESTTHATFITS_OFFSET UNITYSDK_OFFSET(0x1FAF9050)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAF9160)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT__GETRECTSMULTIATLASHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1FAF71A0)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT__GETRECTSMULTIATLASVERTICAL_OFFSET UNITYSDK_OFFSET(0x1FAF6680)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT__GETRECTSSINGLEATLAS_OFFSET UNITYSDK_OFFSET(0x1FAF7C90)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB2_TexturePackerHorizontalVert_TypeDefinitionIndex = 94619;
+	inline static constexpr unsigned int MB2_TexturePackerHorizontalVert_TypeDefinitionIndex = 96306;
 
 	class MB2_TexturePackerHorizontalVert : public ::DigitalOpus::MB::Core::MB2_TexturePacker
 	{
@@ -57,9 +58,9 @@ namespace DigitalOpus::MB::Core
 			return ((::Il2CppArray<::DigitalOpus::MB::Core::AtlasPackingResult*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::AtlasPadding>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT__GETRECTSMULTIATLASHORIZONTAL_OFFSET))(this, imgWidthHeights, paddings, maxDimensionPassedX, maxDimensionPassedY, minImageSizeX, minImageSizeY, masterImageSizeX, masterImageSizeY);
 		}
 
-		::DigitalOpus::MB::Core::MB2_TexturePacker_Image* PopLargestThatFits(::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB2_TexturePacker_Image*>* images, ::System::Int32 spaceRemaining, ::System::Int32 maxDim, ::System::Boolean emptyAtlas)
+		::DigitalOpus::MB::Core::MB2_TexturePacker_Image* PopLargestThatFits(::System::Collections::Generic::List_1<::System::Object*>* images, ::System::Int32 spaceRemaining, ::System::Int32 maxDim, ::System::Boolean emptyAtlas)
 		{
-			return ((::DigitalOpus::MB::Core::MB2_TexturePacker_Image*(*)(::PVOID, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB2_TexturePacker_Image*>*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT_POPLARGESTTHATFITS_OFFSET))(this, images, spaceRemaining, maxDim, emptyAtlas);
+			return ((::DigitalOpus::MB::Core::MB2_TexturePacker_Image*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERHORIZONTALVERT_POPLARGESTTHATFITS_OFFSET))(this, images, spaceRemaining, maxDim, emptyAtlas);
 		}
 	};
 }

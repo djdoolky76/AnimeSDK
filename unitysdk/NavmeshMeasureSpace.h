@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NAVMESHMEASURESPACE_DRAWCIRCLE_OFFSET UNITYSDK_OFFSET(0x1FB7DF40)
-#define NAVMESHMEASURESPACE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FB7E120)
-#define NAVMESHMEASURESPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7E360)
+#define NAVMESHMEASURESPACE_DRAWCIRCLE_OFFSET UNITYSDK_OFFSET(0x1FF7EB90)
+#define NAVMESHMEASURESPACE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FF7ED70)
+#define NAVMESHMEASURESPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF7EFB0)
 
-inline static constexpr unsigned int NavmeshMeasureSpace_TypeDefinitionIndex = 94991;
+inline static constexpr unsigned int NavmeshMeasureSpace_TypeDefinitionIndex = 96679;
 
 class NavmeshMeasureSpace : public ::UnityEngine::MonoBehaviour
 {

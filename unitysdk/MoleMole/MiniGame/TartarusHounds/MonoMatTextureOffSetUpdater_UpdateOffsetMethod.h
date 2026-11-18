@@ -3,7 +3,7 @@
 
 namespace MoleMole::MiniGame::TartarusHounds
 {
-	inline static constexpr unsigned int MonoMatTextureOffSetUpdater_UpdateOffsetMethod_TypeDefinitionIndex = 60156;
+	inline static constexpr unsigned int MonoMatTextureOffSetUpdater_UpdateOffsetMethod_TypeDefinitionIndex = 89219;
 
 	enum class MonoMatTextureOffSetUpdater_UpdateOffsetMethod : ::System::Int32
 	{

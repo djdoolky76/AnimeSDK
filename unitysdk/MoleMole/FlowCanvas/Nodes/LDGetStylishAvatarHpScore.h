@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHAVATARHPSCORE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B832C50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHAVATARHPSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B832D90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHAVATARHPSCORE_INVOKE_OFFSET UNITYSDK_OFFSET(0x180D9150)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSTYLISHAVATARHPSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x180D9290)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetStylishAvatarHpScore_TypeDefinitionIndex = 58655;
+	inline static constexpr unsigned int LDGetStylishAvatarHpScore_TypeDefinitionIndex = 87619;
 
-	class LDGetStylishAvatarHpScore : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
+	class LDGetStylishAvatarHpScore
 	{
 	public:
 		::System::Void _ctor()

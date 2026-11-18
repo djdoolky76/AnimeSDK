@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define CYSHARP_THREADING_TASKS_ASYNCUNIT_EQUALS_OFFSET UNITYSDK_OFFSET(0x4ED2C0)
-#define CYSHARP_THREADING_TASKS_ASYNCUNIT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3CADC0)
-#define CYSHARP_THREADING_TASKS_ASYNCUNIT_TOSTRING_OFFSET UNITYSDK_OFFSET(0xAD10A0)
+#define CYSHARP_THREADING_TASKS_ASYNCUNIT_EQUALS_OFFSET UNITYSDK_OFFSET(0x48C0E0)
+#define CYSHARP_THREADING_TASKS_ASYNCUNIT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3B9490)
+#define CYSHARP_THREADING_TASKS_ASYNCUNIT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9B7700)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int AsyncUnit_TypeDefinitionIndex = 31798;
+	inline static constexpr unsigned int AsyncUnit_TypeDefinitionIndex = 31236;
 
-	struct alignas(1) AsyncUnit
+	struct alignas(4) AsyncUnit
 	{
 		static ::Cysharp::Threading::Tasks::AsyncUnit* StaticGet_Default()
 		{
-			return (::Cysharp::Threading::Tasks::AsyncUnit*)Il2CppClass::FromTypeDefinitionIndex(AsyncUnit_TypeDefinitionIndex)->GetStaticField(0x7BA0);
+			return (::Cysharp::Threading::Tasks::AsyncUnit*)Il2CppClass::FromTypeDefinitionIndex(AsyncUnit_TypeDefinitionIndex)->GetStaticField(0x7FA0);
 		}
 
 		::System::Int32 GetHashCode()
@@ -24,10 +24,12 @@ namespace Cysharp::Threading::Tasks
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNIT_GETHASHCODE_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::Cysharp::Threading::Tasks::AsyncUnit other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Cysharp::Threading::Tasks::AsyncUnit))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_ASYNCUNIT_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::String* ToString()
 		{

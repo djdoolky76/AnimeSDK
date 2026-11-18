@@ -3,7 +3,7 @@
 
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int TransferEncoding_TypeDefinitionIndex = 3634;
+	inline static constexpr unsigned int TransferEncoding_TypeDefinitionIndex = 3633;
 
 	enum class TransferEncoding : ::System::Int32
 	{

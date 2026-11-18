@@ -2,17 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-#define MOLEMOLE_HOLLOWENTITYLAYERMASKCONFIG_RESETSIZE_OFFSET UNITYSDK_OFFSET(0x16859030)
-#define MOLEMOLE_HOLLOWENTITYLAYERMASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168592E0)
+namespace System { class Object; }
+
+#define MOLEMOLE_HOLLOWENTITYLAYERMASKCONFIG_RESETSIZE_OFFSET UNITYSDK_OFFSET(0x10D23FC0)
+#define MOLEMOLE_HOLLOWENTITYLAYERMASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10D24270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HollowEntityLayerMaskConfig_TypeDefinitionIndex = 41798;
+	inline static constexpr unsigned int HollowEntityLayerMaskConfig_TypeDefinitionIndex = 54613;
 
 	class HollowEntityLayerMaskConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
-		::Il2CppArray<::System::Boolean>* layerCollisionMatrix; // 0x58
+		::System::Object* layerCollisionMatrix; // 0x58
 
 		::System::Void _ctor()
 		{

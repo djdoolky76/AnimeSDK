@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaQuestRow02WidgetController_SelectState_TypeDefinitionIndex = 82294;
+	inline static constexpr unsigned int UIYorozuyaQuestRow02WidgetController_SelectState_TypeDefinitionIndex = 80607;
 
 	enum class UIYorozuyaQuestRow02WidgetController_SelectState : ::System::Int32
 	{

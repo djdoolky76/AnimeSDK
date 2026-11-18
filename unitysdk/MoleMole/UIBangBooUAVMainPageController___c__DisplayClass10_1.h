@@ -2,13 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIBANGBOOUAVMAINPAGECONTROLLER___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19A796B0)
-#define MOLEMOLE_UIBANGBOOUAVMAINPAGECONTROLLER___C__DISPLAYCLASS10_1__REFRESHLOCK_B__1_OFFSET UNITYSDK_OFFSET(0x19A796C0)
+#define MOLEMOLE_UIBANGBOOUAVMAINPAGECONTROLLER___C__DISPLAYCLASS10_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3494E0)
+#define MOLEMOLE_UIBANGBOOUAVMAINPAGECONTROLLER___C__DISPLAYCLASS10_1__REFRESHLOCK_B__1_OFFSET UNITYSDK_OFFSET(0x1A3494F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooUAVMainPageController___c__DisplayClass10_1_TypeDefinitionIndex = 76837;
+	inline static constexpr unsigned int UIBangBooUAVMainPageController___c__DisplayClass10_1_TypeDefinitionIndex = 62305;
 
+	template <typename T>
 	class UIBangBooUAVMainPageController___c__DisplayClass10_1 : public ::System::Object
 	{
 	public:

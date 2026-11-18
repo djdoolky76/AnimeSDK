@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/miHoYoEmotion/FrameEmoTrack_FrameElementCell.h"
 #include "unitysdk/miHoYoEmotion/FrameShapeElement_TYPE.h"
+#include "unitysdk/miHoYoEmotion/FrameEmoTrack_FrameElementCell.h"
 
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace miHoYoEmotion { class FrameShapeElement; }
 namespace miHoYoEmotion { class FrameShapeManager_FrameShapeRuntime; }
 
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_ADDELEMENT_OFFSET UNITYSDK_OFFSET(0x980AC0)
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_ADDINDEX_OFFSET UNITYSDK_OFFSET(0x980990)
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_APPLY_OFFSET UNITYSDK_OFFSET(0x980AE0)
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_CLEARCELL_OFFSET UNITYSDK_OFFSET(0x980A70)
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_GETELEMENTCELL_OFFSET UNITYSDK_OFFSET(0x980A50)
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_GETINDEX_OFFSET UNITYSDK_OFFSET(0x9809A0)
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_GET_ELEMENTCELLS_OFFSET UNITYSDK_OFFSET(0x31CCF0)
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_GET_ELEMENTCNT_OFFSET UNITYSDK_OFFSET(0x9809B0)
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_SETELEMENTCELL_OFFSET UNITYSDK_OFFSET(0x980A80)
-#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_UPDATE_OFFSET UNITYSDK_OFFSET(0x980AD0)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_ADDELEMENT_OFFSET UNITYSDK_OFFSET(0x8BA780)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_ADDINDEX_OFFSET UNITYSDK_OFFSET(0x8BA650)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_APPLY_OFFSET UNITYSDK_OFFSET(0x8BA7A0)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_CLEARCELL_OFFSET UNITYSDK_OFFSET(0x8BA730)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_GETELEMENTCELL_OFFSET UNITYSDK_OFFSET(0x8BA710)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_GETINDEX_OFFSET UNITYSDK_OFFSET(0x8BA660)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_GET_ELEMENTCELLS_OFFSET UNITYSDK_OFFSET(0x2E38E0)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_GET_ELEMENTCNT_OFFSET UNITYSDK_OFFSET(0x8BA670)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_SETELEMENTCELL_OFFSET UNITYSDK_OFFSET(0x8BA740)
+#define MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_UPDATE_OFFSET UNITYSDK_OFFSET(0x8BA790)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int FrameEmoTrack_FrameCell_TypeDefinitionIndex = 39993;
+	inline static constexpr unsigned int FrameEmoTrack_FrameCell_TypeDefinitionIndex = 38011;
 
 	struct alignas(8) FrameEmoTrack_FrameCell
 	{
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* _indexDic; // 0x10
-		::System::Collections::Generic::List_1<::miHoYoEmotion::FrameEmoTrack_FrameElementCell>* _elementCells; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* _elementCells; // 0x18
 
 		::System::Void AddIndex(::miHoYoEmotion::FrameShapeElement_TYPE type, ::System::Int32 index)
 		{
@@ -39,9 +40,9 @@ namespace miHoYoEmotion
 			return ((::System::Int32(*)(::PVOID, ::miHoYoEmotion::FrameShapeElement_TYPE))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_GETINDEX_OFFSET))(this, type);
 		}
 
-		::System::Collections::Generic::List_1<::miHoYoEmotion::FrameEmoTrack_FrameElementCell>* get_elementCells()
+		::System::Collections::Generic::List_1<::System::Object*>* get_elementCells()
 		{
-			return ((::System::Collections::Generic::List_1<::miHoYoEmotion::FrameEmoTrack_FrameElementCell>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_GET_ELEMENTCELLS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_FRAMEEMOTRACK_FRAMECELL_GET_ELEMENTCELLS_OFFSET))(this);
 		}
 
 		::System::Int32 get_elementCnt()

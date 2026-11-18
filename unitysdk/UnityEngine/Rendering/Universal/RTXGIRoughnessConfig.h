@@ -5,12 +5,12 @@
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurveParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGIROUGHNESSCONFIG_MARKTEXTURECURVEASDIRTY_OFFSET UNITYSDK_OFFSET(0x1E66F8F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGIROUGHNESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E66FA60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGIROUGHNESSCONFIG_MARKTEXTURECURVEASDIRTY_OFFSET UNITYSDK_OFFSET(0x1E8F33E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXGIROUGHNESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F3550)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RTXGIRoughnessConfig_TypeDefinitionIndex = 27650;
+	inline static constexpr unsigned int RTXGIRoughnessConfig_TypeDefinitionIndex = 26644;
 
 	class RTXGIRoughnessConfig : public ::System::Object
 	{
@@ -20,6 +20,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single roughnessgain; // 0x18
 		::System::Single roughnessOffset; // 0x1C
 		::System::Single roughnessMultiply; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::NAPRenderPipeline0::TextureCurveParameter* master; // 0x28
 		::UnityEngine::NAPRenderPipeline0::TextureCurveParameter* red; // 0x30
 		::UnityEngine::NAPRenderPipeline0::TextureCurveParameter* green; // 0x38

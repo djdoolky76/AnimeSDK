@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define UNITYENGINE_TIMELINE_BUBBLETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1F710860)
-#define UNITYENGINE_TIMELINE_BUBBLETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7108B0)
+#define UNITYENGINE_TIMELINE_BUBBLETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1FB045C0)
+#define UNITYENGINE_TIMELINE_BUBBLETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB04610)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int BubbleTrack_TypeDefinitionIndex = 32936;
+	inline static constexpr unsigned int BubbleTrack_TypeDefinitionIndex = 32391;
 
 	class BubbleTrack : public ::UnityEngine::Timeline::MarkerTrack
 	{

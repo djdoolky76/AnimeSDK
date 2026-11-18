@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/ReferenceVolumeParameter_1.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurve; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_TEXTURECURVEPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EA63920)
-#define UNITYENGINE_NAPRENDERPIPELINE0_TEXTURECURVEPARAMETER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1EA638A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_TEXTURECURVEPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EA63930)
-#define UNITYENGINE_NAPRENDERPIPELINE0_TEXTURECURVEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA63800)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TEXTURECURVEPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EDA0160)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TEXTURECURVEPARAMETER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1EDA00E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TEXTURECURVEPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EDA0170)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TEXTURECURVEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDA0040)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int TextureCurveParameter_TypeDefinitionIndex = 6083;
+	inline static constexpr unsigned int TextureCurveParameter_TypeDefinitionIndex = 6091;
 
-	class TextureCurveParameter : public ::UnityEngine::NAPRenderPipeline0::ReferenceVolumeParameter_1<::UnityEngine::NAPRenderPipeline0::TextureCurve*>
+	class TextureCurveParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::TextureCurve* value, ::System::Boolean overrideState)

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/PerformType.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
-class Class_1_5CFE684023F165BE;
-class Class_1_F98F6D057426F2FB_5;
+class FPKIFHKCBEK;
+class LCEGCOJEFFO;
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
@@ -14,54 +14,54 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE_OLD_PLAY_OFFSET UNITYSDK_OFFSET(0x19B10A50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE_PLAYPERFORM_OFFSET UNITYSDK_OFFSET(0x19B0FEB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19B0F960)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE_TRYCALLLASTTIMELINEEND_OFFSET UNITYSDK_OFFSET(0x19B0FE20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B11520)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__GETPERFORMIDLIST_OFFSET UNITYSDK_OFFSET(0x19B10840)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__HANDLEINPUTONFINISH_OFFSET UNITYSDK_OFFSET(0x19B0FD80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__PLAYPERFORM_B__29_0_OFFSET UNITYSDK_OFFSET(0x19B11680)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__PLAYPERFORM_B__29_1_OFFSET UNITYSDK_OFFSET(0x19B11690)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__PLAYPERFORM_B__29_2_OFFSET UNITYSDK_OFFSET(0x19B116B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__PLAYPERFORM_B__29_3_OFFSET UNITYSDK_OFFSET(0x19B11750)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__REGISTERPORTS_B__25_0_OFFSET UNITYSDK_OFFSET(0x19B115F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__REGISTERPORTS_B__25_1_OFFSET UNITYSDK_OFFSET(0x19B11660)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__REGISTERPORTS_B__25_2_OFFSET UNITYSDK_OFFSET(0x19B11670)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__TRYCALLFINISH_OFFSET UNITYSDK_OFFSET(0x19B0FCD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE_OLD_PLAY_OFFSET UNITYSDK_OFFSET(0x1A8EDA90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE_PLAYPERFORM_OFFSET UNITYSDK_OFFSET(0x1A8ECEE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A8EC990)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE_TRYCALLLASTTIMELINEEND_OFFSET UNITYSDK_OFFSET(0x1A8ECE50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8EE560)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__GETPERFORMIDLIST_OFFSET UNITYSDK_OFFSET(0x1A8ED880)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__HANDLEINPUTONFINISH_OFFSET UNITYSDK_OFFSET(0x1A8ECDB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__PLAYPERFORM_B__29_0_OFFSET UNITYSDK_OFFSET(0x1A8EE6C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__PLAYPERFORM_B__29_1_OFFSET UNITYSDK_OFFSET(0x1A8EE6D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__PLAYPERFORM_B__29_2_OFFSET UNITYSDK_OFFSET(0x1A8EE6F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__PLAYPERFORM_B__29_3_OFFSET UNITYSDK_OFFSET(0x1A8EE790)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__REGISTERPORTS_B__25_0_OFFSET UNITYSDK_OFFSET(0x1A8EE630)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__REGISTERPORTS_B__25_1_OFFSET UNITYSDK_OFFSET(0x1A8EE6A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__REGISTERPORTS_B__25_2_OFFSET UNITYSDK_OFFSET(0x1A8EE6B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__TRYCALLFINISH_OFFSET UNITYSDK_OFFSET(0x1A8ECD00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPerformNode_TypeDefinitionIndex = 91016;
+	inline static constexpr unsigned int LDPerformNode_TypeDefinitionIndex = 85760;
 
 	class LDPerformNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		// static const ::System::String* TAG_LD_PerformPlay; // 0x0
 		// static const ::System::Int32 TAG_LD_PerformPlay_Priority = 0x63; // 0x0
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::PerformType>* inputPerform; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* storyEntity; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Single>* EndChatCameraDelaySeconds; // 0xB8
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* performOutPut; // 0xC0
-		::FlowCanvas::FlowOutput* _flowEndChatCameraIn; // 0xC8
-		::FlowCanvas::FlowOutput* finish; // 0xD0
-		::FlowCanvas::FlowOutput* _onLastTimelineEnd; // 0xD8
-		::FlowCanvas::ValueInput_1<::System::Int32>* inputPerformId; // 0xE0
-		::FlowCanvas::FlowOutput* output; // 0xE8
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::Int32>*>* inputPerformIdList; // 0xF0
-		::FlowCanvas::FlowOutput* _flowEndChatCameraOut; // 0xF8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* storyIK; // 0x100
-		::FlowCanvas::ValueInput_1<::System::Boolean>* forceBlackFadeIn; // 0x108
-		::FlowCanvas::ValueInput_1<::System::Boolean>* useChatSequence; // 0x110
-		::FlowCanvas::FlowOutput* _flowStartChatCameraOut; // 0x118
-		::FlowCanvas::ValueInput_1<::System::Boolean>* EndChatCameraWithoutBlend; // 0x120
-		::System::Collections::Generic::List_1<::Class_1_F98F6D057426F2FB_5*>* infos; // 0x128
-		::FlowCanvas::ValueOutput_1<::System::Boolean>* hasVideo; // 0x130
-		::FlowCanvas::ValueInput_1<::System::Boolean>* StartChatCameraWithoutBlend; // 0x138
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsChatCameraStay; // 0x140
-		::FlowCanvas::ValueInput_1<::System::String*>* storyModule; // 0x148
-		::System::Boolean _isLevelBeginPerform; // 0x150
-		::System::Boolean _hasVideo; // 0x151
+		::FlowCanvas::ValueInput_1<::System::Boolean>* storyIK; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::PerformType>* inputPerform; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* forceBlackFadeIn; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Boolean>* EndChatCameraWithoutBlend; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* StartChatCameraWithoutBlend; // 0xC8
+		::FlowCanvas::FlowOutput* _flowEndChatCameraIn; // 0xD0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsChatCameraStay; // 0xD8
+		::FlowCanvas::FlowOutput* output; // 0xE0
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::Int32>*>* inputPerformIdList; // 0xE8
+		::FlowCanvas::FlowOutput* _flowEndChatCameraOut; // 0xF0
+		::FlowCanvas::ValueInput_1<::System::Int32>* inputPerformId; // 0xF8
+		::FlowCanvas::FlowOutput* finish; // 0x100
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* performOutPut; // 0x108
+		::System::Collections::Generic::List_1<::LCEGCOJEFFO*>* infos; // 0x110
+		::FlowCanvas::ValueOutput_1<::System::Boolean>* hasVideo; // 0x118
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* storyEntity; // 0x120
+		::FlowCanvas::ValueInput_1<::System::String*>* storyModule; // 0x128
+		::FlowCanvas::FlowOutput* _flowStartChatCameraOut; // 0x130
+		::FlowCanvas::FlowOutput* _onLastTimelineEnd; // 0x138
+		::FlowCanvas::ValueInput_1<::System::Single>* EndChatCameraDelaySeconds; // 0x140
+		::FlowCanvas::ValueInput_1<::System::Boolean>* useChatSequence; // 0x148
+		::System::Boolean _hasVideo; // 0x150
+		::System::Boolean _isLevelBeginPerform; // 0x151
 
 		::System::Void _ctor()
 		{
@@ -123,9 +123,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__PLAYPERFORM_B__29_0_OFFSET))(this);
 		}
 
-		::System::Void _PlayPerform_b__29_1(::Class_1_5CFE684023F165BE* galSyncData)
+		::System::Void _PlayPerform_b__29_1(::FPKIFHKCBEK* galSyncData)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_5CFE684023F165BE*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__PLAYPERFORM_B__29_1_OFFSET))(this, galSyncData);
+			return ((::System::Void(*)(::PVOID, ::FPKIFHKCBEK*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDPERFORMNODE__PLAYPERFORM_B__29_1_OFFSET))(this, galSyncData);
 		}
 
 		::System::Void _PlayPerform_b__29_2(::System::Boolean inValue)

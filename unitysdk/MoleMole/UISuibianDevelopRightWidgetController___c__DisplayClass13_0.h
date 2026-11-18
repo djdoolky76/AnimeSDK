@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_EDC2AF1268851C10.h"
+#include "unitysdk/EDFMOBLBPGH.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UISuibianDevelopRightWidgetController; }
 
-#define MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16AC4A80)
-#define MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS13_0__ONCREATEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x16AC4A90)
-#define MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS13_0__ONCREATEVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x16AC4AC0)
+#define MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188C5630)
+#define MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS13_0__ONCREATEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x188C5640)
+#define MOLEMOLE_UISUIBIANDEVELOPRIGHTWIDGETCONTROLLER___C__DISPLAYCLASS13_0__ONCREATEVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x188C5670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianDevelopRightWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 76773;
+	inline static constexpr unsigned int UISuibianDevelopRightWidgetController___c__DisplayClass13_0_TypeDefinitionIndex = 54646;
 
 	class UISuibianDevelopRightWidgetController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UISuibianDevelopRightWidgetController* __4__this; // 0x10
-		::Enum_3_EDC2AF1268851C10 productType; // 0x18
+		::EDFMOBLBPGH productType; // 0x18
 
 		::System::Void _ctor()
 		{

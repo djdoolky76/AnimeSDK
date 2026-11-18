@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONFIGURLMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CABC880)
+#define MIHOYO_SDK_CONFIGURLMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC58D80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigUrlModel_TypeDefinitionIndex = 20004;
+	inline static constexpr unsigned int ConfigUrlModel_TypeDefinitionIndex = 19150;
 
 	class ConfigUrlModel : public ::System::Object
 	{
@@ -206,21 +206,22 @@ namespace MiHoYo::SDK
 		::System::String* accountPlatcreateCrossLoginToken; // 0x600
 		::System::String* sdkPassportDomainOS; // 0x608
 		::System::String* createActionTicketByToken; // 0x610
-		::System::String* sdkPassportWebDomainOS; // 0x618
-		::System::String* ageGateLoadTicket; // 0x620
-		::System::String* ageGateUpdateTicket; // 0x628
-		::System::String* ageGateResendEmail; // 0x630
-		::System::String* ageGateRequestParentConsent; // 0x638
-		::System::String* ageGatePreOrderValidation; // 0x640
-		::System::String* mmtUrlV2; // 0x648
-		::System::String* bindEmailOS; // 0x650
-		::System::String* createActionTicketBySTokenOS; // 0x658
-		::System::String* channelBindingWebPageUrlOS; // 0x660
-		::System::String* passportGetConfig; // 0x668
-		::System::String* getVoiceToken; // 0x670
-		::System::String* enterRoom; // 0x678
-		::System::String* checkDeviceLimit; // 0x680
-		::System::String* bindDevice; // 0x688
+		::System::String* discordPresenceData; // 0x618
+		::System::String* sdkPassportWebDomainOS; // 0x620
+		::System::String* ageGateLoadTicket; // 0x628
+		::System::String* ageGateUpdateTicket; // 0x630
+		::System::String* ageGateResendEmail; // 0x638
+		::System::String* ageGateRequestParentConsent; // 0x640
+		::System::String* ageGatePreOrderValidation; // 0x648
+		::System::String* mmtUrlV2; // 0x650
+		::System::String* bindEmailOS; // 0x658
+		::System::String* createActionTicketBySTokenOS; // 0x660
+		::System::String* channelBindingWebPageUrlOS; // 0x668
+		::System::String* passportGetConfig; // 0x670
+		::System::String* getVoiceToken; // 0x678
+		::System::String* enterRoom; // 0x680
+		::System::String* checkDeviceLimit; // 0x688
+		::System::String* bindDevice; // 0x690
 
 		::System::Void _ctor()
 		{

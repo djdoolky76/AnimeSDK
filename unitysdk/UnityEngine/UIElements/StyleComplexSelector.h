@@ -1,34 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/UIElements/StyleComplexSelector_PseudoStateData.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::UIElements { class StyleRule; }
 namespace UnityEngine::UIElements { class StyleSelector; }
 
-#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR_CACHEPSEUDOSTATEMASKS_OFFSET UNITYSDK_OFFSET(0x1D006D40)
-#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR_GET_SELECTORS_OFFSET UNITYSDK_OFFSET(0x1D006D30)
-#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR_SET_RULE_OFFSET UNITYSDK_OFFSET(0x1D006D20)
-#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D0074E0)
-#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D007690)
+#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR_CACHEPSEUDOSTATEMASKS_OFFSET UNITYSDK_OFFSET(0x1D5BBED0)
+#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR_GET_SELECTORS_OFFSET UNITYSDK_OFFSET(0x1D5BBEC0)
+#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR_SET_RULE_OFFSET UNITYSDK_OFFSET(0x1D5BBEB0)
+#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D5BC680)
+#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BC830)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleComplexSelector_TypeDefinitionIndex = 28194;
+	inline static constexpr unsigned int StyleComplexSelector_TypeDefinitionIndex = 27612;
 
 	class StyleComplexSelector : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData>** StaticGet_s_PseudoStates()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_s_PseudoStates()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData>**)Il2CppClass::FromTypeDefinitionIndex(StyleComplexSelector_TypeDefinitionIndex)->GetStaticField(0x23D20);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StyleComplexSelector_TypeDefinitionIndex)->GetStaticField(0x24D10);
 		}
 		::System::Int32 m_Specificity; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::UIElements::StyleRule* _rule_k__BackingField; // 0x18
 		::Il2CppArray<::UnityEngine::UIElements::StyleSelector*>* m_Selectors; // 0x20
 		::System::Int32 ruleIndex; // 0x28
+		::System::Byte _padding1[0x4];
 		::UnityEngine::UIElements::StyleComplexSelector* nextInTable; // 0x30
 		::System::Int32 orderInStyleSheet; // 0x38
 

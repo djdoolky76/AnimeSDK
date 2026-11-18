@@ -1,60 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/Unity/SkeletonRenderer.h"
-#include "unitysdk/Spine/Unity/UpdateTiming.h"
+#include "unitysdk/Spine/Unity/SkeletonAnimationBase.h"
 
-namespace Spine::Unity { class ISkeletonAnimationDelegate; }
 namespace Spine::Unity { class SkeletonMecanim_MecanimTranslator; }
-namespace Spine::Unity { class UpdateBonesDelegate; }
+namespace UnityEngine { class Animator; }
 
-#define SPINE_UNITY_SKELETONMECANIM_ADD_BEFOREAPPLY_OFFSET UNITYSDK_OFFSET(0x1C182F20)
-#define SPINE_UNITY_SKELETONMECANIM_ADD_ONANIMATIONREBUILD_OFFSET UNITYSDK_OFFSET(0x1C182E20)
-#define SPINE_UNITY_SKELETONMECANIM_ADD_UPDATECOMPLETE_OFFSET UNITYSDK_OFFSET(0x1C183220)
-#define SPINE_UNITY_SKELETONMECANIM_ADD_UPDATELOCAL_OFFSET UNITYSDK_OFFSET(0x1C183020)
-#define SPINE_UNITY_SKELETONMECANIM_ADD_UPDATEWORLD_OFFSET UNITYSDK_OFFSET(0x1C183120)
-#define SPINE_UNITY_SKELETONMECANIM_ADD__BEFOREAPPLY_OFFSET UNITYSDK_OFFSET(0x1C182A20)
-#define SPINE_UNITY_SKELETONMECANIM_ADD__ONANIMATIONREBUILD_OFFSET UNITYSDK_OFFSET(0x1C182920)
-#define SPINE_UNITY_SKELETONMECANIM_ADD__UPDATECOMPLETE_OFFSET UNITYSDK_OFFSET(0x1C182D20)
-#define SPINE_UNITY_SKELETONMECANIM_ADD__UPDATELOCAL_OFFSET UNITYSDK_OFFSET(0x1C182B20)
-#define SPINE_UNITY_SKELETONMECANIM_ADD__UPDATEWORLD_OFFSET UNITYSDK_OFFSET(0x1C182C20)
-#define SPINE_UNITY_SKELETONMECANIM_APPLYANIMATION_OFFSET UNITYSDK_OFFSET(0x1C183B00)
-#define SPINE_UNITY_SKELETONMECANIM_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1C183AB0)
-#define SPINE_UNITY_SKELETONMECANIM_GET_TRANSLATOR_OFFSET UNITYSDK_OFFSET(0x1C182910)
-#define SPINE_UNITY_SKELETONMECANIM_GET_UPDATETIMING_OFFSET UNITYSDK_OFFSET(0x1C183320)
-#define SPINE_UNITY_SKELETONMECANIM_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C183340)
-#define SPINE_UNITY_SKELETONMECANIM_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1C185AB0)
-#define SPINE_UNITY_SKELETONMECANIM_ONBECAMEVISIBLE_OFFSET UNITYSDK_OFFSET(0x1C185C60)
-#define SPINE_UNITY_SKELETONMECANIM_REMOVE_BEFOREAPPLY_OFFSET UNITYSDK_OFFSET(0x1C182FA0)
-#define SPINE_UNITY_SKELETONMECANIM_REMOVE_ONANIMATIONREBUILD_OFFSET UNITYSDK_OFFSET(0x1C182EA0)
-#define SPINE_UNITY_SKELETONMECANIM_REMOVE_UPDATECOMPLETE_OFFSET UNITYSDK_OFFSET(0x1C1832A0)
-#define SPINE_UNITY_SKELETONMECANIM_REMOVE_UPDATELOCAL_OFFSET UNITYSDK_OFFSET(0x1C1830A0)
-#define SPINE_UNITY_SKELETONMECANIM_REMOVE_UPDATEWORLD_OFFSET UNITYSDK_OFFSET(0x1C1831A0)
-#define SPINE_UNITY_SKELETONMECANIM_REMOVE__BEFOREAPPLY_OFFSET UNITYSDK_OFFSET(0x1C182AA0)
-#define SPINE_UNITY_SKELETONMECANIM_REMOVE__ONANIMATIONREBUILD_OFFSET UNITYSDK_OFFSET(0x1C1829A0)
-#define SPINE_UNITY_SKELETONMECANIM_REMOVE__UPDATECOMPLETE_OFFSET UNITYSDK_OFFSET(0x1C182DA0)
-#define SPINE_UNITY_SKELETONMECANIM_REMOVE__UPDATELOCAL_OFFSET UNITYSDK_OFFSET(0x1C182BA0)
-#define SPINE_UNITY_SKELETONMECANIM_REMOVE__UPDATEWORLD_OFFSET UNITYSDK_OFFSET(0x1C182CA0)
-#define SPINE_UNITY_SKELETONMECANIM_SET_UPDATETIMING_OFFSET UNITYSDK_OFFSET(0x1C183330)
-#define SPINE_UNITY_SKELETONMECANIM_UPDATEANIMATION_OFFSET UNITYSDK_OFFSET(0x1C183A90)
-#define SPINE_UNITY_SKELETONMECANIM_UPDATE_1_OFFSET UNITYSDK_OFFSET(0x1C183AE0)
-#define SPINE_UNITY_SKELETONMECANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C183A60)
-#define SPINE_UNITY_SKELETONMECANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C185CA0)
+#define SPINE_UNITY_SKELETONMECANIM_APPLYSTATETOSKELETON_OFFSET UNITYSDK_OFFSET(0x1FAB0CB0)
+#define SPINE_UNITY_SKELETONMECANIM_GET_ANIMATORCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1FAB06C0)
+#define SPINE_UNITY_SKELETONMECANIM_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1FAB0750)
+#define SPINE_UNITY_SKELETONMECANIM_GET_TRANSLATOR_OFFSET UNITYSDK_OFFSET(0x1FAB06B0)
+#define SPINE_UNITY_SKELETONMECANIM_INITIALIZEANIMATIONCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1FAB0950)
+#define SPINE_UNITY_SKELETONMECANIM_MAINTHREADBEFOREUPDATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FAB0C80)
+#define SPINE_UNITY_SKELETONMECANIM_UPDATEANIMATIONSTATUS_OFFSET UNITYSDK_OFFSET(0x1FAB0C40)
+#define SPINE_UNITY_SKELETONMECANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAB0DA0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonMecanim_TypeDefinitionIndex = 40125;
+	inline static constexpr unsigned int SkeletonMecanim_TypeDefinitionIndex = 38139;
 
-	class SkeletonMecanim : public ::Spine::Unity::SkeletonRenderer
+	class SkeletonMecanim : public ::Spine::Unity::SkeletonAnimationBase
 	{
 	public:
-		::Spine::Unity::SkeletonMecanim_MecanimTranslator* translator; // 0xE0
-		::System::Boolean wasUpdatedAfterInit; // 0xE8
-		::Spine::Unity::ISkeletonAnimationDelegate* _OnAnimationRebuild; // 0xF0
-		::Spine::Unity::UpdateBonesDelegate* _BeforeApply; // 0xF8
-		::Spine::Unity::UpdateBonesDelegate* _UpdateLocal; // 0x100
-		::Spine::Unity::UpdateBonesDelegate* _UpdateWorld; // 0x108
-		::Spine::Unity::UpdateBonesDelegate* _UpdateComplete; // 0x110
-		::Spine::Unity::UpdateTiming updateTiming; // 0x118
+		::Spine::Unity::SkeletonMecanim_MecanimTranslator* translator; // 0x50
 
 		::System::Void _ctor()
 		{
@@ -66,154 +33,34 @@ namespace Spine::Unity
 			return ((::Spine::Unity::SkeletonMecanim_MecanimTranslator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_GET_TRANSLATOR_OFFSET))(this);
 		}
 
-		::System::Void add__OnAnimationRebuild(::Spine::Unity::ISkeletonAnimationDelegate* value)
+		::UnityEngine::Animator* get_AnimatorComponent()
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonAnimationDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_ADD__ONANIMATIONREBUILD_OFFSET))(this, value);
+			return ((::UnityEngine::Animator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_GET_ANIMATORCOMPONENT_OFFSET))(this);
 		}
 
-		::System::Void remove__OnAnimationRebuild(::Spine::Unity::ISkeletonAnimationDelegate* value)
+		::System::Boolean get_IsValid()
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonAnimationDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_REMOVE__ONANIMATIONREBUILD_OFFSET))(this, value);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_GET_ISVALID_OFFSET))(this);
 		}
 
-		::System::Void add__BeforeApply(::Spine::Unity::UpdateBonesDelegate* value)
+		::System::Void InitializeAnimationComponent()
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_ADD__BEFOREAPPLY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_INITIALIZEANIMATIONCOMPONENT_OFFSET))(this);
 		}
 
-		::System::Void remove__BeforeApply(::Spine::Unity::UpdateBonesDelegate* value)
+		::System::Void UpdateAnimationStatus(::System::Single deltaTime)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_REMOVE__BEFOREAPPLY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_UPDATEANIMATIONSTATUS_OFFSET))(this, deltaTime);
 		}
 
-		::System::Void add__UpdateLocal(::Spine::Unity::UpdateBonesDelegate* value)
+		::System::Void MainThreadBeforeUpdateInternal()
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_ADD__UPDATELOCAL_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_MAINTHREADBEFOREUPDATEINTERNAL_OFFSET))(this);
 		}
 
-		::System::Void remove__UpdateLocal(::Spine::Unity::UpdateBonesDelegate* value)
+		::System::Void ApplyStateToSkeleton(::System::Boolean calledFromMainThread)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_REMOVE__UPDATELOCAL_OFFSET))(this, value);
-		}
-
-		::System::Void add__UpdateWorld(::Spine::Unity::UpdateBonesDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_ADD__UPDATEWORLD_OFFSET))(this, value);
-		}
-
-		::System::Void remove__UpdateWorld(::Spine::Unity::UpdateBonesDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_REMOVE__UPDATEWORLD_OFFSET))(this, value);
-		}
-
-		::System::Void add__UpdateComplete(::Spine::Unity::UpdateBonesDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_ADD__UPDATECOMPLETE_OFFSET))(this, value);
-		}
-
-		::System::Void remove__UpdateComplete(::Spine::Unity::UpdateBonesDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_REMOVE__UPDATECOMPLETE_OFFSET))(this, value);
-		}
-
-		::System::Void add_OnAnimationRebuild(::Spine::Unity::ISkeletonAnimationDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonAnimationDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_ADD_ONANIMATIONREBUILD_OFFSET))(this, value);
-		}
-
-		::System::Void remove_OnAnimationRebuild(::Spine::Unity::ISkeletonAnimationDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonAnimationDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_REMOVE_ONANIMATIONREBUILD_OFFSET))(this, value);
-		}
-
-		::System::Void add_BeforeApply(::Spine::Unity::UpdateBonesDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_ADD_BEFOREAPPLY_OFFSET))(this, value);
-		}
-
-		::System::Void remove_BeforeApply(::Spine::Unity::UpdateBonesDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_REMOVE_BEFOREAPPLY_OFFSET))(this, value);
-		}
-
-		::System::Void add_UpdateLocal(::Spine::Unity::UpdateBonesDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_ADD_UPDATELOCAL_OFFSET))(this, value);
-		}
-
-		::System::Void remove_UpdateLocal(::Spine::Unity::UpdateBonesDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_REMOVE_UPDATELOCAL_OFFSET))(this, value);
-		}
-
-		::System::Void add_UpdateWorld(::Spine::Unity::UpdateBonesDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_ADD_UPDATEWORLD_OFFSET))(this, value);
-		}
-
-		::System::Void remove_UpdateWorld(::Spine::Unity::UpdateBonesDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_REMOVE_UPDATEWORLD_OFFSET))(this, value);
-		}
-
-		::System::Void add_UpdateComplete(::Spine::Unity::UpdateBonesDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_ADD_UPDATECOMPLETE_OFFSET))(this, value);
-		}
-
-		::System::Void remove_UpdateComplete(::Spine::Unity::UpdateBonesDelegate* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateBonesDelegate*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_REMOVE_UPDATECOMPLETE_OFFSET))(this, value);
-		}
-
-		::Spine::Unity::UpdateTiming get_UpdateTiming()
-		{
-			return ((::Spine::Unity::UpdateTiming(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_GET_UPDATETIMING_OFFSET))(this);
-		}
-
-		::System::Void set_UpdateTiming(::Spine::Unity::UpdateTiming value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::UpdateTiming))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_SET_UPDATETIMING_OFFSET))(this, value);
-		}
-
-		::System::Void Initialize(::System::Boolean overwrite, ::System::Boolean quiet)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_INITIALIZE_OFFSET))(this, overwrite, quiet);
-		}
-
-		::System::Void Update()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_UPDATE_OFFSET))(this);
-		}
-
-		::System::Void FixedUpdate()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_FIXEDUPDATE_OFFSET))(this);
-		}
-
-		::System::Void Update_1(::System::Single deltaTime)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_UPDATE_1_OFFSET))(this, deltaTime);
-		}
-
-		::System::Void UpdateAnimation()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_UPDATEANIMATION_OFFSET))(this);
-		}
-
-		::System::Void ApplyAnimation()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_APPLYANIMATION_OFFSET))(this);
-		}
-
-		::System::Void LateUpdate()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_LATEUPDATE_OFFSET))(this);
-		}
-
-		::System::Void OnBecameVisible()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_ONBECAMEVISIBLE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONMECANIM_APPLYSTATETOSKELETON_OFFSET))(this, calledFromMainThread);
 		}
 	};
 }

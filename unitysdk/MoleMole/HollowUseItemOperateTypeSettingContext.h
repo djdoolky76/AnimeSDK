@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/HollowUseItemOperateType.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_HOLLOWUSEITEMOPERATETYPESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13A94950)
+#define MOLEMOLE_HOLLOWUSEITEMOPERATETYPESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14670E20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HollowUseItemOperateTypeSettingContext_TypeDefinitionIndex = 42276;
+	inline static constexpr unsigned int HollowUseItemOperateTypeSettingContext_TypeDefinitionIndex = 56207;
 
 	class HollowUseItemOperateTypeSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

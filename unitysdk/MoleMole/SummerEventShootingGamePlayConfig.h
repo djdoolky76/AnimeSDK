@@ -9,11 +9,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14A23290)
+#define MOLEMOLE_SUMMEREVENTSHOOTINGGAMEPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1311C180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerEventShootingGamePlayConfig_TypeDefinitionIndex = 71956;
+	inline static constexpr unsigned int SummerEventShootingGamePlayConfig_TypeDefinitionIndex = 48070;
 
 	class SummerEventShootingGamePlayConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -27,6 +27,7 @@ namespace MoleMole
 		::System::Single IKRotateToTargetPointUpdateAngleDelta; // 0x80
 		::UnityEngine::LayerMask HitLayers; // 0x84
 		::UnityEngine::LayerMask AimAssisColliderLayers; // 0x88
+		::System::Byte _padding0[0x4];
 		::System::String* AimAssisColliderTag; // 0x90
 		::System::Single MouseBaseMoveRatio; // 0x98
 		::System::Single KeyboardBaseMoveRatio; // 0x9C

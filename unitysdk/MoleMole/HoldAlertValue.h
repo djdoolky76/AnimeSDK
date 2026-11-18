@@ -3,28 +3,28 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_4_C2BA23F5AA27FA67;
+class FLNIDONOPNI;
 namespace BehaviorDesigner::Runtime { class SharedBool; }
 namespace MoleMole { class SharedGameEntity; }
 
-#define MOLEMOLE_HOLDALERTVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1737C990)
-#define MOLEMOLE_HOLDALERTVALUE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1737C7A0)
-#define MOLEMOLE_HOLDALERTVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1737C8E0)
-#define MOLEMOLE_HOLDALERTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1737C9E0)
-#define MOLEMOLE_HOLDALERTVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1737CA70)
-#define MOLEMOLE_HOLDALERTVALUE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1737CB00)
-#define MOLEMOLE_HOLDALERTVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1737CB90)
+#define MOLEMOLE_HOLDALERTVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x13EE9A90)
+#define MOLEMOLE_HOLDALERTVALUE_ONSTART_OFFSET UNITYSDK_OFFSET(0x13EE9890)
+#define MOLEMOLE_HOLDALERTVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13EE99E0)
+#define MOLEMOLE_HOLDALERTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x13EE9AE0)
+#define MOLEMOLE_HOLDALERTVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x13EE9B70)
+#define MOLEMOLE_HOLDALERTVALUE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x13EE9C00)
+#define MOLEMOLE_HOLDALERTVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13EE9C90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HoldAlertValue_TypeDefinitionIndex = 63135;
+	inline static constexpr unsigned int HoldAlertValue_TypeDefinitionIndex = 57922;
 
 	class HoldAlertValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedBool* IsHold; // 0x58
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
-		::Class_4_C2BA23F5AA27FA67* _enterBattleComponent; // 0x68
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
+		::FLNIDONOPNI* _enterBattleComponent; // 0x60
+		::BehaviorDesigner::Runtime::SharedBool* IsHold; // 0x68
 
 		::System::Void _ctor()
 		{

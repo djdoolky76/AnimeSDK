@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LightRenderMode_TypeDefinitionIndex = 5219;
+	inline static constexpr unsigned int LightRenderMode_TypeDefinitionIndex = 5221;
 
 	enum class LightRenderMode : ::System::Int32
 	{

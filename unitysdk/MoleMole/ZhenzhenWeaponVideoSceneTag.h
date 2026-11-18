@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ZhenzhenWeaponVideoSceneTag_TypeDefinitionIndex = 85480;
+	inline static constexpr unsigned int ZhenzhenWeaponVideoSceneTag_TypeDefinitionIndex = 54453;
 
 	enum class ZhenzhenWeaponVideoSceneTag : ::System::Int32
 	{
-		Gacha = 1,
 		Default = 0,
+		Gacha = 1,
 	};
 }

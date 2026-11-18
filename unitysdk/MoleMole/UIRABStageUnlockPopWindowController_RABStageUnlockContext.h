@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIRABSTAGEUNLOCKPOPWINDOWCONTROLLER_RABSTAGEUNLOCKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x160C4120)
+#define MOLEMOLE_UIRABSTAGEUNLOCKPOPWINDOWCONTROLLER_RABSTAGEUNLOCKCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x167AC7A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABStageUnlockPopWindowController_RABStageUnlockContext_TypeDefinitionIndex = 65714;
+	inline static constexpr unsigned int UIRABStageUnlockPopWindowController_RABStageUnlockContext_TypeDefinitionIndex = 46212;
 
 	class UIRABStageUnlockPopWindowController_RABStageUnlockContext : public ::MoleMole::UIControllerContextBase
 	{

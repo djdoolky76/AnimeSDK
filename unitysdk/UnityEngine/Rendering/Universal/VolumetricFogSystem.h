@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/VolumetricFogBlitOrder.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class VolumetricFogSystem_Base; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_GETVOLUMETRICFOGBLITORDER_OFFSET UNITYSDK_OFFSET(0x1CCA7290)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CCA7340)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA73A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_GETVOLUMETRICFOGBLITORDER_OFFSET UNITYSDK_OFFSET(0x1D1A8250)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D1A8300)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A8360)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VolumetricFogSystem_TypeDefinitionIndex = 27254;
+	inline static constexpr unsigned int VolumetricFogSystem_TypeDefinitionIndex = 26621;
 
 	class VolumetricFogSystem : public ::System::Object
 	{

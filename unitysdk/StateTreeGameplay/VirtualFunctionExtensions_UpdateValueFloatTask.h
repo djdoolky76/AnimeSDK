@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/StateTreeGameplay/UpdateValueFloatTask.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
+#include "unitysdk/StateTreeGameplay/UpdateValueFloatTask.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_UPDATEVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1F1CB220)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_UPDATEVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1F1CB350)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_UPDATEVALUEFLOATTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x1F1CB3F0)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_UPDATEVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1F1CB2C0)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_UPDATEVALUEFLOATTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1F1CB490)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_UPDATEVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1D2044D0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_UPDATEVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1D204600)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_UPDATEVALUEFLOATTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x1D2046A0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_UPDATEVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1D204570)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_UPDATEVALUEFLOATTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1D204740)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_UpdateValueFloatTask_TypeDefinitionIndex = 76372;
+	inline static constexpr unsigned int VirtualFunctionExtensions_UpdateValueFloatTask_TypeDefinitionIndex = 82711;
 
 	class VirtualFunctionExtensions_UpdateValueFloatTask : public ::System::Object
 	{

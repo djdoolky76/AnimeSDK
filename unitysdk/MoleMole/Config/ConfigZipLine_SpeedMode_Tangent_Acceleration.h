@@ -5,17 +5,18 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE_SPEEDMODE_TANGENT_ACCELERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B919950)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE_SPEEDMODE_TANGENT_ACCELERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x192512E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_SpeedMode_Tangent_Acceleration_TypeDefinitionIndex = 53001;
+	inline static constexpr unsigned int ConfigZipLine_SpeedMode_Tangent_Acceleration_TypeDefinitionIndex = 54271;
 
 	class ConfigZipLine_SpeedMode_Tangent_Acceleration : public ::System::Object
 	{
 	public:
 		::System::Single BaseSpeed; // 0x10
 		::UnityEngine::Vector2 pitchRange_Acceleration; // 0x14
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* pitch2Acceleration; // 0x20
 		::UnityEngine::Vector2 accelerationRange; // 0x28
 

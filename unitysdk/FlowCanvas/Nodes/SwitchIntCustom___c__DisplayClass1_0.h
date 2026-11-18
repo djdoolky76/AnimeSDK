@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas::Nodes { class SwitchIntCustom; }
 
-#define FLOWCANVAS_NODES_SWITCHINTCUSTOM___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCB670)
-#define FLOWCANVAS_NODES_SWITCHINTCUSTOM___C__DISPLAYCLASS1_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1DFCB680)
+#define FLOWCANVAS_NODES_SWITCHINTCUSTOM___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F4740)
+#define FLOWCANVAS_NODES_SWITCHINTCUSTOM___C__DISPLAYCLASS1_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E3F4750)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchIntCustom___c__DisplayClass1_0_TypeDefinitionIndex = 31152;
+	inline static constexpr unsigned int SwitchIntCustom___c__DisplayClass1_0_TypeDefinitionIndex = 29905;
 
 	class SwitchIntCustom___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::FlowOutput* defaultCase; // 0x10
-		::FlowCanvas::Nodes::SwitchIntCustom* __4__this; // 0x18
-		::FlowCanvas::ValueInput_1<::System::Int32>* selector; // 0x20
-		::Il2CppArray<::FlowCanvas::FlowOutput*>* cases; // 0x28
+		::Il2CppArray<::FlowCanvas::FlowOutput*>* cases; // 0x10
+		::FlowCanvas::FlowOutput* defaultCase; // 0x18
+		::FlowCanvas::Nodes::SwitchIntCustom* __4__this; // 0x20
+		::FlowCanvas::ValueInput_1<::System::Int32>* selector; // 0x28
 
 		::System::Void _ctor()
 		{

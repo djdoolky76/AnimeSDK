@@ -8,22 +8,22 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x114713C0)
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x11471C70)
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x114715C0)
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT__CCTOR_OFFSET UNITYSDK_OFFSET(0x11471E60)
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT__CTOR_OFFSET UNITYSDK_OFFSET(0x11471D80)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x131E55E0)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x131E5FF0)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x131E5940)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT__CCTOR_OFFSET UNITYSDK_OFFSET(0x131E61E0)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT__CTOR_OFFSET UNITYSDK_OFFSET(0x131E6100)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHighLightAirCombat_TypeDefinitionIndex = 66515;
+	inline static constexpr unsigned int ConfigHighLightAirCombat_TypeDefinitionIndex = 60828;
 
 	class ConfigHighLightAirCombat : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::HighLightAirCombatConfig*>** StaticGet__dicRuntimeHighLightAirCombatConfigs()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::HighLightAirCombatConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHighLightAirCombat_TypeDefinitionIndex)->GetStaticField(0x46B10);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::HighLightAirCombatConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHighLightAirCombat_TypeDefinitionIndex)->GetStaticField(0x41A40);
 		}
 		// static const ::System::String* DEFAULT_KEY; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::HighLightAirCombatConfig*>* DicHighLightAirCombatConfigs; // 0x58

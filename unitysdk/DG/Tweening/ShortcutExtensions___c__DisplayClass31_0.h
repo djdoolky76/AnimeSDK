@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Rigidbody; }
 
-#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBC0270)
-#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS31_0__DOMOVEZ_B__0_OFFSET UNITYSDK_OFFSET(0x1FBC0280)
+#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFC48A0)
+#define DG_TWEENING_SHORTCUTEXTENSIONS___C__DISPLAYCLASS31_0__DOMOVEZ_B__0_OFFSET UNITYSDK_OFFSET(0x1FFC48B0)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int ShortcutExtensions___c__DisplayClass31_0_TypeDefinitionIndex = 28486;
+	inline static constexpr unsigned int ShortcutExtensions___c__DisplayClass31_0_TypeDefinitionIndex = 27925;
 
 	class ShortcutExtensions___c__DisplayClass31_0 : public ::System::Object
 	{

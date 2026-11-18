@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigConditionPredicateNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 
-#define MOLEMOLE_CONFIG_CONFIGSTOPGACHAPERFORMANCETIMELINENODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x135087F0)
-#define MOLEMOLE_CONFIG_CONFIGSTOPGACHAPERFORMANCETIMELINENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13508860)
+#define MOLEMOLE_CONFIG_CONFIGSTOPGACHAPERFORMANCETIMELINENODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B92CBD0)
+#define MOLEMOLE_CONFIG_CONFIGSTOPGACHAPERFORMANCETIMELINENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92CC40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigStopGachaPerformanceTimelineNode_TypeDefinitionIndex = 82269;
+	inline static constexpr unsigned int ConfigStopGachaPerformanceTimelineNode_TypeDefinitionIndex = 82243;
 
 	class ConfigStopGachaPerformanceTimelineNode : public ::MoleMole::Config::ConfigConditionPredicateNode
 	{
@@ -19,9 +19,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSTOPGACHAPERFORMANCETIMELINENODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSTOPGACHAPERFORMANCETIMELINENODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSTOPGACHAPERFORMANCETIMELINENODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_81D34D116310A358;
+class GNKKDGGFNBO;
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIFRIENDINVITEROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x186BAC50)
+#define MOLEMOLE_UIFRIENDINVITEROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x184C4080)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendInviteRowWidgetController_Context_TypeDefinitionIndex = 71562;
+	inline static constexpr unsigned int UIFriendInviteRowWidgetController_Context_TypeDefinitionIndex = 62810;
 
 	class UIFriendInviteRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action* ConfirmAction; // 0x28
-		::System::Action_1<::System::Action*>* OnConfirm; // 0x30
-		::System::Action_1<::Class_1_81D34D116310A358*>* OnReject; // 0x38
-		::Class_1_81D34D116310A358* request; // 0x40
+		::System::Action_1<::GNKKDGGFNBO*>* OnReject; // 0x28
+		::GNKKDGGFNBO* request; // 0x30
+		::System::Action_1<::System::Action*>* OnConfirm; // 0x38
+		::System::Action* ConfirmAction; // 0x40
 
 		::System::Void _ctor()
 		{

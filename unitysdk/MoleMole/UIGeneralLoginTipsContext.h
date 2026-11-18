@@ -4,11 +4,11 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_UIGENERALLOGINTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E84D10)
+#define MOLEMOLE_UIGENERALLOGINTIPSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x166BF360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralLoginTipsContext_TypeDefinitionIndex = 53828;
+	inline static constexpr unsigned int UIGeneralLoginTipsContext_TypeDefinitionIndex = 63159;
 
 	class UIGeneralLoginTipsContext : public ::MoleMole::UIControllerContextBase
 	{

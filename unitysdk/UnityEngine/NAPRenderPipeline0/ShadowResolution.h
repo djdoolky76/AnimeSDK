@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ShadowResolution_TypeDefinitionIndex = 5886;
+	inline static constexpr unsigned int ShadowResolution_TypeDefinitionIndex = 5892;
 
 	enum class ShadowResolution : ::System::Int32
 	{

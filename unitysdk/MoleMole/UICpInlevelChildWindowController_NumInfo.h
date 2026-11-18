@@ -9,7 +9,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpInlevelChildWindowController_NumInfo_TypeDefinitionIndex = 94869;
+	inline static constexpr unsigned int UICpInlevelChildWindowController_NumInfo_TypeDefinitionIndex = 96390;
 
 	struct alignas(8) UICpInlevelChildWindowController_NumInfo
 	{
@@ -17,10 +17,12 @@ namespace MoleMole
 		::System::Single duration; // 0x18
 		::UnityEngine::Vector3 pos; // 0x1C
 		::MoleMole::UICpInlevelChildWindowController_TipEnum tipType; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::String* fadeOutAnim; // 0x30
 		::System::Single fadeOutBeginTime; // 0x38
 		::System::Boolean inFadeOutAnim; // 0x3C
 		::System::Boolean isPropTip; // 0x3D
+		::System::Byte _padding1[0x2];
 		::System::UInt32 entityId; // 0x40
 		::UnityEngine::Vector3 fixedPosOffset; // 0x44
 	};

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NapMaterialPropertyFlags_TypeDefinitionIndex = 26818;
+inline static constexpr unsigned int NapMaterialPropertyFlags_TypeDefinitionIndex = 26279;
 
 enum class NapMaterialPropertyFlags : ::System::UInt32
 {
-	IsRampDependencyProperty = 0x1,
+	IsRampDependencyProperty = 1,
 };

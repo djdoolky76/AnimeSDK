@@ -1,32 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
+#include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/ExposedReference_1.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 
 class AkRTPCPlayableBehaviour;
 namespace AK::Wwise { class RTPC; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define AKRTPCPLAYABLE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FAFAD90)
-#define AKRTPCPLAYABLE_GET_OWNINGCLIP_OFFSET UNITYSDK_OFFSET(0x1FAFAD60)
-#define AKRTPCPLAYABLE_GET_PARAMETER_OFFSET UNITYSDK_OFFSET(0x1FAFAD40)
-#define AKRTPCPLAYABLE_SET_OWNINGCLIP_OFFSET UNITYSDK_OFFSET(0x1FAFAD70)
-#define AKRTPCPLAYABLE_SET_PARAMETER_OFFSET UNITYSDK_OFFSET(0x1FAFAD50)
-#define AKRTPCPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FAFAD80)
-#define AKRTPCPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAFAF90)
+#define AKRTPCPLAYABLE_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FF06A80)
+#define AKRTPCPLAYABLE_GET_OWNINGCLIP_OFFSET UNITYSDK_OFFSET(0x1FF06A50)
+#define AKRTPCPLAYABLE_GET_PARAMETER_OFFSET UNITYSDK_OFFSET(0x1FF06A30)
+#define AKRTPCPLAYABLE_SET_OWNINGCLIP_OFFSET UNITYSDK_OFFSET(0x1FF06A60)
+#define AKRTPCPLAYABLE_SET_PARAMETER_OFFSET UNITYSDK_OFFSET(0x1FF06A40)
+#define AKRTPCPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FF06A70)
+#define AKRTPCPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF06C80)
 
-inline static constexpr unsigned int AkRTPCPlayable_TypeDefinitionIndex = 33798;
+inline static constexpr unsigned int AkRTPCPlayable_TypeDefinitionIndex = 33344;
 
 class AkRTPCPlayable : public ::UnityEngine::Playables::PlayableAsset
 {
 public:
 	::System::Boolean overrideTrackObject; // 0x18
+	::System::Byte _padding0[0x7];
 	::UnityEngine::ExposedReference_1<::UnityEngine::GameObject*> RTPCObject; // 0x20
+	::System::Byte _padding1[0x8];
 	::System::Boolean setRTPCGlobally; // 0x30
+	::System::Byte _padding2[0x7];
 	::AkRTPCPlayableBehaviour* template_; // 0x38
 	::AK::Wwise::RTPC* _Parameter_k__BackingField; // 0x40
 	::UnityEngine::Timeline::TimelineClip* _OwningClip_k__BackingField; // 0x48

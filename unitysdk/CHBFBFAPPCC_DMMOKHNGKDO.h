@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
+
+#define CHBFBFAPPCC_DMMOKHNGKDO_CHFJOGNFEKM_OFFSET UNITYSDK_OFFSET(0x731030)
+#define CHBFBFAPPCC_DMMOKHNGKDO_COKNIICCODC_OFFSET UNITYSDK_OFFSET(0x14550EB0)
+#define CHBFBFAPPCC_DMMOKHNGKDO_EIHIJLPDCDJ_OFFSET UNITYSDK_OFFSET(0x731130)
+#define CHBFBFAPPCC_DMMOKHNGKDO_HBPLINHBFFK_OFFSET UNITYSDK_OFFSET(0x730FB0)
+#define CHBFBFAPPCC_DMMOKHNGKDO_JELKLDKLBGC_OFFSET UNITYSDK_OFFSET(0x7310C0)
+#define CHBFBFAPPCC_DMMOKHNGKDO_LKINHJCLEHF_OFFSET UNITYSDK_OFFSET(0x730FC0)
+
+inline static constexpr unsigned int CHBFBFAPPCC_DMMOKHNGKDO_TypeDefinitionIndex = 41657;
+
+struct alignas(8) CHBFBFAPPCC_DMMOKHNGKDO
+{
+	::System::Boolean FNFDBMJKDAP; // 0x10
+	::System::Boolean FEEMIHCJCKJ; // 0x11
+	::System::Byte _padding0[0x2];
+	::System::Int32 KCGAEAKJJOC; // 0x14
+	::System::Int32 LAGANLOECDA; // 0x18
+	::System::Int32 BBEDPKIIPED; // 0x1C
+	::System::Action_4<::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32>* PELEMCAPBHO; // 0x20
+
+	::System::Void HBPLINHBFFK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CHBFBFAPPCC_DMMOKHNGKDO_HBPLINHBFFK_OFFSET))(this);
+	}
+
+	/*
+	::CHBFBFAPPCC_DMMOKHNGKDO LKINHJCLEHF(::System::Boolean MFCEAABLMJE)
+	{
+		return ((::CHBFBFAPPCC_DMMOKHNGKDO(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CHBFBFAPPCC_DMMOKHNGKDO_LKINHJCLEHF_OFFSET))(this, MFCEAABLMJE);
+	}
+	*/
+
+	/*
+	::CHBFBFAPPCC_DMMOKHNGKDO CHFJOGNFEKM(::System::Boolean FLKKAKBAMHH, ::System::Int32 IEACJOMFECJ, ::System::Int32 JDCFMOGICFB)
+	{
+		return ((::CHBFBFAPPCC_DMMOKHNGKDO(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CHBFBFAPPCC_DMMOKHNGKDO_CHFJOGNFEKM_OFFSET))(this, FLKKAKBAMHH, IEACJOMFECJ, JDCFMOGICFB);
+	}
+	*/
+
+	/*
+	::CHBFBFAPPCC_DMMOKHNGKDO JELKLDKLBGC(::System::Int32 OGDNGAMKFDG)
+	{
+		return ((::CHBFBFAPPCC_DMMOKHNGKDO(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CHBFBFAPPCC_DMMOKHNGKDO_JELKLDKLBGC_OFFSET))(this, OGDNGAMKFDG);
+	}
+	*/
+
+	/*
+	::CHBFBFAPPCC_DMMOKHNGKDO EIHIJLPDCDJ(::System::Action_4<::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32>* ADMCFPJHEDG)
+	{
+		return ((::CHBFBFAPPCC_DMMOKHNGKDO(*)(::PVOID, ::System::Action_4<::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + CHBFBFAPPCC_DMMOKHNGKDO_EIHIJLPDCDJ_OFFSET))(this, ADMCFPJHEDG);
+	}
+	*/
+
+	/*
+	static ::CHBFBFAPPCC_DMMOKHNGKDO COKNIICCODC()
+	{
+		return ((::CHBFBFAPPCC_DMMOKHNGKDO(*)())((::PBYTE)hIl2Cpp + CHBFBFAPPCC_DMMOKHNGKDO_COKNIICCODC_OFFSET))();
+	}
+	*/
+};

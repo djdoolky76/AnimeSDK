@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910.h"
 #include "unitysdk/MoleMole/Config/AnimatorEvent.h"
+#include "unitysdk/ONNJLBKOEDN_IINOJMFDFJA.h"
 
-class Class_3_F33F9DC5F4112336;
+class NLNIIPDCABP;
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_METHOD_2_0589B5E7626E6766_1_OFFSET UNITYSDK_OFFSET(0x12A41E30)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_METHOD_2_0589B5E7626E6766_OFFSET UNITYSDK_OFFSET(0x12A41D90)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_METHOD_2_128774387667156B_OFFSET UNITYSDK_OFFSET(0x12A41F10)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12A41C50)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTNOOP__CTOR_OFFSET UNITYSDK_OFFSET(0x12A41E20)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x19289560)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_GKGODFLGGCL_OFFSET UNITYSDK_OFFSET(0x19289480)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_LEMPLMPEPNG_OFFSET UNITYSDK_OFFSET(0x192893E0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x192892A0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTNOOP__CTOR_OFFSET UNITYSDK_OFFSET(0x19289470)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventNoOp_TypeDefinitionIndex = 64619;
+	inline static constexpr unsigned int AnimatorEventNoOp_TypeDefinitionIndex = 68945;
 
 	class AnimatorEventNoOp : public ::MoleMole::Config::AnimatorEvent
 	{
@@ -30,19 +30,19 @@ namespace MoleMole::Config
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void Method_2_0589B5E7626E6766(::MoleMole::Battle::Entity* a1, ::Class_3_F33F9DC5F4112336* a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910 a6)
+		::System::Void LEMPLMPEPNG(::MoleMole::Battle::Entity* KECKGDFIALJ, ::NLNIIPDCABP* FNFNDIBMPDE, ::System::Single KDEHMPGOCEP, ::System::Single PADJNMGMGHO, ::System::Single KGIGMHCDOCF, ::ONNJLBKOEDN_IINOJMFDFJA FCHEPGPLFJG)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_3_F33F9DC5F4112336*, ::System::Single, ::System::Single, ::System::Single, ::Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_METHOD_2_0589B5E7626E6766_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::NLNIIPDCABP*, ::System::Single, ::System::Single, ::System::Single, ::ONNJLBKOEDN_IINOJMFDFJA))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_LEMPLMPEPNG_OFFSET))(this, KECKGDFIALJ, FNFNDIBMPDE, KDEHMPGOCEP, PADJNMGMGHO, KGIGMHCDOCF, FCHEPGPLFJG);
 		}
 
-		::System::Void Method_2_0589B5E7626E6766_1(::MoleMole::Battle::Entity* a1, ::Class_3_F33F9DC5F4112336* a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910 a6)
+		::System::Void GKGODFLGGCL(::MoleMole::Battle::Entity* MIALFKCCCPI, ::NLNIIPDCABP* KMGKAIDEIBA, ::System::Single FDHMCIFPNCK, ::System::Single MPBJAGIKPJM, ::System::Single DDMDINPGCFI, ::ONNJLBKOEDN_IINOJMFDFJA CEIDLKIHMLC)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_3_F33F9DC5F4112336*, ::System::Single, ::System::Single, ::System::Single, ::Class_3_0EDAAFBA6A7CF537_Enum_3_40FECCC0C2FAB910))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_METHOD_2_0589B5E7626E6766_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::NLNIIPDCABP*, ::System::Single, ::System::Single, ::System::Single, ::ONNJLBKOEDN_IINOJMFDFJA))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_GKGODFLGGCL_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM, DDMDINPGCFI, CEIDLKIHMLC);
 		}
 
-		::System::String* Method_2_128774387667156B()
+		::System::String* DPIHOJBBGLA()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_METHOD_2_128774387667156B_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATOREVENTNOOP_DPIHOJBBGLA_OFFSET))(this);
 		}
 	};
 }

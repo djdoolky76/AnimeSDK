@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_EXTENSIONOFNATIVECLASSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6006A0)
+#define UNITYENGINE_EXTENSIONOFNATIVECLASSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E849120)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ExtensionOfNativeClassAttribute_TypeDefinitionIndex = 5340;
+	inline static constexpr unsigned int ExtensionOfNativeClassAttribute_TypeDefinitionIndex = 5342;
 
 	class ExtensionOfNativeClassAttribute : public ::System::Attribute
 	{

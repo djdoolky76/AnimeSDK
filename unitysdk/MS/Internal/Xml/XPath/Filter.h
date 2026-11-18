@@ -4,13 +4,13 @@
 #include "unitysdk/MS/Internal/Xml/XPath/AstNode_AstType.h"
 #include "unitysdk/System/Xml/XPath/XPathResultType.h"
 
-#define MS_INTERNAL_XML_XPATH_FILTER_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1F146680)
-#define MS_INTERNAL_XML_XPATH_FILTER_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F146670)
-#define MS_INTERNAL_XML_XPATH_FILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F146660)
+#define MS_INTERNAL_XML_XPATH_FILTER_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1F51A120)
+#define MS_INTERNAL_XML_XPATH_FILTER_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F51A110)
+#define MS_INTERNAL_XML_XPATH_FILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F51A100)
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int Filter_TypeDefinitionIndex = 1641;
+	inline static constexpr unsigned int Filter_TypeDefinitionIndex = 1640;
 
 	class Filter : public ::MS::Internal::Xml::XPath::AstNode
 	{

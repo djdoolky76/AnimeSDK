@@ -4,13 +4,13 @@
 
 namespace System::Collections { class Stack; }
 
-#define SYSTEM_NET_INTERLOCKEDSTACK_POP_OFFSET UNITYSDK_OFFSET(0x1E7E4E40)
-#define SYSTEM_NET_INTERLOCKEDSTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x1E7E4D00)
-#define SYSTEM_NET_INTERLOCKEDSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E4C80)
+#define SYSTEM_NET_INTERLOCKEDSTACK_POP_OFFSET UNITYSDK_OFFSET(0x1EA97ED0)
+#define SYSTEM_NET_INTERLOCKEDSTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x1EA97D90)
+#define SYSTEM_NET_INTERLOCKEDSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA97D10)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int InterlockedStack_TypeDefinitionIndex = 3411;
+	inline static constexpr unsigned int InterlockedStack_TypeDefinitionIndex = 3410;
 
 	class InterlockedStack : public ::System::Object
 	{

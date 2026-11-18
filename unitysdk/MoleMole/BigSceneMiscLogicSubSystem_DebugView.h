@@ -8,15 +8,15 @@ namespace MoleMole { class BigSceneMiscLogicSubSystem_BigSceneCommonSkill; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW_GET__ACTIVATEDSKILL_OFFSET UNITYSDK_OFFSET(0x1279E8E0)
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW_GET__RUNTIMETAGS_OFFSET UNITYSDK_OFFSET(0x1279E8A0)
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW_GET__SKILLS_OFFSET UNITYSDK_OFFSET(0x1279E8C0)
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW_GET__STATICTAGS_OFFSET UNITYSDK_OFFSET(0x1279E760)
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1279E900)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW_GET__ACTIVATEDSKILL_OFFSET UNITYSDK_OFFSET(0x1C5AD540)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW_GET__RUNTIMETAGS_OFFSET UNITYSDK_OFFSET(0x1C5AD500)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW_GET__SKILLS_OFFSET UNITYSDK_OFFSET(0x1C5AD520)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW_GET__STATICTAGS_OFFSET UNITYSDK_OFFSET(0x1C5AD3C0)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AD560)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BigSceneMiscLogicSubSystem_DebugView_TypeDefinitionIndex = 51412;
+	inline static constexpr unsigned int BigSceneMiscLogicSubSystem_DebugView_TypeDefinitionIndex = 39722;
 
 	class BigSceneMiscLogicSubSystem_DebugView : public ::System::Object
 	{
@@ -39,9 +39,9 @@ namespace MoleMole
 			return ((::System::Collections::Generic::IList_1<::Foundation::Unreal::FGameplayTag>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW_GET__RUNTIMETAGS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IList_1<::MoleMole::BigSceneMiscLogicSubSystem_BigSceneCommonSkill*>* get__skills()
+		::System::Collections::Generic::IList_1<::System::Object*>* get__skills()
 		{
-			return ((::System::Collections::Generic::IList_1<::MoleMole::BigSceneMiscLogicSubSystem_BigSceneCommonSkill*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW_GET__SKILLS_OFFSET))(this);
+			return ((::System::Collections::Generic::IList_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_DEBUGVIEW_GET__SKILLS_OFFSET))(this);
 		}
 
 		::MoleMole::BigSceneMiscLogicSubSystem_BigSceneCommonSkill* get__activatedSkill()

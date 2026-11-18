@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/DG/Tweening/Plugins/Options/QuaternionOptions.h"
 #include "unitysdk/DG/Tweening/Plugins/Options/Vector3ArrayOptions.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace DG::Tweening::Core { template <typename T1, typename T2, typename T3> class TweenerCore_3; }
 
-#define DG_TWEENING_PLUGINS_CORE_SPECIALPLUGINSUTILS_SETCAMERASHAKEPOSITION_OFFSET UNITYSDK_OFFSET(0x1F6A19C0)
-#define DG_TWEENING_PLUGINS_CORE_SPECIALPLUGINSUTILS_SETLOOKAT_OFFSET UNITYSDK_OFFSET(0x1F6A1610)
-#define DG_TWEENING_PLUGINS_CORE_SPECIALPLUGINSUTILS_SETPUNCH_OFFSET UNITYSDK_OFFSET(0x1F6A1830)
-#define DG_TWEENING_PLUGINS_CORE_SPECIALPLUGINSUTILS_SETSHAKE_OFFSET UNITYSDK_OFFSET(0x1F6A1990)
+#define DG_TWEENING_PLUGINS_CORE_SPECIALPLUGINSUTILS_SETCAMERASHAKEPOSITION_OFFSET UNITYSDK_OFFSET(0x1FA92E20)
+#define DG_TWEENING_PLUGINS_CORE_SPECIALPLUGINSUTILS_SETLOOKAT_OFFSET UNITYSDK_OFFSET(0x1FA92A60)
+#define DG_TWEENING_PLUGINS_CORE_SPECIALPLUGINSUTILS_SETPUNCH_OFFSET UNITYSDK_OFFSET(0x1FA92C90)
+#define DG_TWEENING_PLUGINS_CORE_SPECIALPLUGINSUTILS_SETSHAKE_OFFSET UNITYSDK_OFFSET(0x1FA92DF0)
 
 namespace DG::Tweening::Plugins::Core
 {
-	inline static constexpr unsigned int SpecialPluginsUtils_TypeDefinitionIndex = 28570;
+	inline static constexpr unsigned int SpecialPluginsUtils_TypeDefinitionIndex = 28009;
 
 	class SpecialPluginsUtils : public ::System::Object
 	{

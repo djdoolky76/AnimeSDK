@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/Internal/MatLodBaseData.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MATOUTLINELODDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DD8E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_MATOUTLINELODDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C986780)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int MatOutlineLodData_TypeDefinitionIndex = 27086;
+	inline static constexpr unsigned int MatOutlineLodData_TypeDefinitionIndex = 26327;
 
 	class MatOutlineLodData : public ::UnityEngine::Rendering::Universal::Internal::MatLodBaseData
 	{

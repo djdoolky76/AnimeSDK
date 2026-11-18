@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/System/Object.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 
-#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x134FCCF0)
-#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x134FC690)
-#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x134FCD50)
-#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x134FC710)
-#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x134FD090)
+#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B91F920)
+#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1B91F2C0)
+#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B91F980)
+#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B91F340)
+#define MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B91FCC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHitInhalationEffect_TypeDefinitionIndex = 87075;
+	inline static constexpr unsigned int ConfigHitInhalationEffect_TypeDefinitionIndex = 84938;
 
 	class ConfigHitInhalationEffect : public ::System::Object
 	{
 	public:
-		::System::Single TargetHeight; // 0x10
-		::System::Boolean ApplyAttackerFaceDir; // 0x14
-		::System::Boolean UseInhalation; // 0x15
-		::System::Single MaxInhalationDistance; // 0x18
+		::System::Single MaxInhalationDistance; // 0x10
+		::System::Single TargetHeight; // 0x14
+		::System::Boolean UseInhalation; // 0x18
+		::System::Boolean ApplyAttackerFaceDir; // 0x19
 
 		::System::Void _ctor()
 		{
@@ -39,14 +39,14 @@ namespace MoleMole::Config
 			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_INTERNALFROMFLX_OFFSET))(this, node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHITINHALATIONEFFECT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 	};
 }

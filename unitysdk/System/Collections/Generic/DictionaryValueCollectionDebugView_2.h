@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int DictionaryValueCollectionDebugView_2_TypeDefinitionIndex = 3951;
+	inline static constexpr unsigned int DictionaryValueCollectionDebugView_2_TypeDefinitionIndex = 3950;
 
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class DictionaryValueCollectionDebugView_2 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::ICollection_1<TValue>* _collection; // 0x0
+		::System::Collections::Generic::ICollection_1<T1>* _collection; // 0x0
 	};
 }

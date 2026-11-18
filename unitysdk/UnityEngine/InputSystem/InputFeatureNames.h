@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputFeatureNames_TypeDefinitionIndex = 32301;
+	inline static constexpr unsigned int InputFeatureNames_TypeDefinitionIndex = 31750;
 
 	class InputFeatureNames : public ::System::Object
 	{

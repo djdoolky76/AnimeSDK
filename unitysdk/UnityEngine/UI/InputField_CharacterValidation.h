@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int InputField_CharacterValidation_TypeDefinitionIndex = 19225;
+	inline static constexpr unsigned int InputField_CharacterValidation_TypeDefinitionIndex = 18379;
 
 	enum class InputField_CharacterValidation : ::System::Int32
 	{

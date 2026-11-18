@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/StateTreeGameplay/VirtualProxy_StateTreeCommonTaskBase.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1E509310)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1E5093F0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1E509390)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVALUEFLOATTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E509460)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1E1A21B0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1E1A2290)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1E1A2230)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVALUEFLOATTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1A2300)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualProxy_RandomValueFloatTask_TypeDefinitionIndex = 85894;
+	inline static constexpr unsigned int VirtualProxy_RandomValueFloatTask_TypeDefinitionIndex = 40731;
 
 	class VirtualProxy_RandomValueFloatTask : public ::StateTreeGameplay::VirtualProxy_StateTreeCommonTaskBase
 	{

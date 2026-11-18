@@ -6,26 +6,26 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld { class PayManagerCXHandheld; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD4000)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1CFD4010)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__2_OFFSET UNITYSDK_OFFSET(0x1CFD4230)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5061E0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1D5061F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__2_OFFSET UNITYSDK_OFFSET(0x1D506400)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int PayManagerCXHandheld___c__DisplayClass18_0_TypeDefinitionIndex = 20862;
+	inline static constexpr unsigned int PayManagerCXHandheld___c__DisplayClass18_0_TypeDefinitionIndex = 20066;
 
 	class PayManagerCXHandheld___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::System::String* game; // 0x10
-		::System::String* gameToken; // 0x18
-		::System::String* aid; // 0x20
-		::System::String* collectionsId; // 0x28
-		::System::String* uid; // 0x30
-		::System::String* region; // 0x38
-		::System::String* device; // 0x40
-		::System::Action_1<::System::String*>* __9__2; // 0x48
-		::MiHoYo::SDK::PC::OS::CXHandheld::PayManagerCXHandheld* __4__this; // 0x50
+		::System::Action_1<::System::String*>* __9__2; // 0x10
+		::System::String* device; // 0x18
+		::MiHoYo::SDK::PC::OS::CXHandheld::PayManagerCXHandheld* __4__this; // 0x20
+		::System::String* aid; // 0x28
+		::System::String* collectionsId; // 0x30
+		::System::String* gameToken; // 0x38
+		::System::String* region; // 0x40
+		::System::String* game; // 0x48
+		::System::String* uid; // 0x50
 
 		::System::Void _ctor()
 		{

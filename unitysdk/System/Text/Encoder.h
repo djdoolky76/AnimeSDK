@@ -6,13 +6,13 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Text { class EncoderFallback; }
 namespace System::Text { class EncoderFallbackBuffer; }
 
-#define SYSTEM_TEXT_ENCODER_GETBYTECOUNT_OFFSET UNITYSDK_OFFSET(0x1DF45780)
-#define SYSTEM_TEXT_ENCODER_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1DF458D0)
-#define SYSTEM_TEXT_ENCODER_GET_FALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1DF45650)
-#define SYSTEM_TEXT_ENCODER_GET_INTERNALHASFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1DF456A0)
-#define SYSTEM_TEXT_ENCODER_RESET_OFFSET UNITYSDK_OFFSET(0x1DF456B0)
-#define SYSTEM_TEXT_ENCODER_SERIALIZEENCODER_OFFSET UNITYSDK_OFFSET(0x1DF455A0)
-#define SYSTEM_TEXT_ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF45640)
+#define SYSTEM_TEXT_ENCODER_GETBYTECOUNT_1_OFFSET UNITYSDK_OFFSET(0x1E3A5600)
+#define SYSTEM_TEXT_ENCODER_GETBYTES_1_OFFSET UNITYSDK_OFFSET(0x1E3A5750)
+#define SYSTEM_TEXT_ENCODER_GET_FALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1E3A54D0)
+#define SYSTEM_TEXT_ENCODER_GET_INTERNALHASFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1E3A5520)
+#define SYSTEM_TEXT_ENCODER_RESET_OFFSET UNITYSDK_OFFSET(0x1E3A5530)
+#define SYSTEM_TEXT_ENCODER_SERIALIZEENCODER_OFFSET UNITYSDK_OFFSET(0x1E3A5420)
+#define SYSTEM_TEXT_ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3A54C0)
 
 namespace System::Text
 {
@@ -21,8 +21,8 @@ namespace System::Text
 	class Encoder : public ::System::Object
 	{
 	public:
-		::System::Text::EncoderFallbackBuffer* m_fallbackBuffer; // 0x10
-		::System::Text::EncoderFallback* m_fallback; // 0x18
+		::System::Text::EncoderFallback* m_fallback; // 0x10
+		::System::Text::EncoderFallbackBuffer* m_fallbackBuffer; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -49,14 +49,14 @@ namespace System::Text
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_RESET_OFFSET))(this);
 		}
 
-		::System::Int32 GetByteCount(::System::Char* chars, ::System::Int32 count, ::System::Boolean flush)
+		::System::Int32 GetByteCount_1(::PVOID chars, ::System::Int32 count, ::System::Boolean flush)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Char*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_GETBYTECOUNT_OFFSET))(this, chars, count, flush);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_GETBYTECOUNT_1_OFFSET))(this, chars, count, flush);
 		}
 
-		::System::Int32 GetBytes(::System::Char* chars, ::System::Int32 charCount, ::System::Byte* bytes, ::System::Int32 byteCount, ::System::Boolean flush)
+		::System::Int32 GetBytes_1(::PVOID chars, ::System::Int32 charCount, ::PVOID bytes, ::System::Int32 byteCount, ::System::Boolean flush)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Char*, ::System::Int32, ::System::Byte*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_GETBYTES_OFFSET))(this, chars, charCount, bytes, byteCount, flush);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32, ::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_GETBYTES_1_OFFSET))(this, chars, charCount, bytes, byteCount, flush);
 		}
 	};
 }

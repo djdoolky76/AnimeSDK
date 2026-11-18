@@ -3,13 +3,11 @@
 #include "unitysdk/MoleMole/HollowChessboard/HollowConstant_RenderPriority.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCONSTANT_GETRENDERPRIORITY_OFFSET UNITYSDK_OFFSET(0x16858BA0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCONSTANT_GETRENDERPRIORITY_OFFSET UNITYSDK_OFFSET(0x10D23A70)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowConstant_TypeDefinitionIndex = 76176;
+	inline static constexpr unsigned int HollowConstant_TypeDefinitionIndex = 44603;
 
 	class HollowConstant : public ::System::Object
 	{

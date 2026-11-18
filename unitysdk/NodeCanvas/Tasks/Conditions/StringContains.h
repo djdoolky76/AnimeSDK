@@ -5,19 +5,19 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_CONDITIONS_STRINGCONTAINS_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EB7A280)
-#define NODECANVAS_TASKS_CONDITIONS_STRINGCONTAINS_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EB7A2F0)
-#define NODECANVAS_TASKS_CONDITIONS_STRINGCONTAINS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7A390)
+#define NODECANVAS_TASKS_CONDITIONS_STRINGCONTAINS_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EF22EB0)
+#define NODECANVAS_TASKS_CONDITIONS_STRINGCONTAINS_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EF22F20)
+#define NODECANVAS_TASKS_CONDITIONS_STRINGCONTAINS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF22FC0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int StringContains_TypeDefinitionIndex = 31347;
+	inline static constexpr unsigned int StringContains_TypeDefinitionIndex = 29698;
 
 	class StringContains : public ::NodeCanvas::Framework::ConditionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::String*>* targetString; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::String*>* checkString; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::String*>* checkString; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::String*>* targetString; // 0x68
 
 		::System::Void _ctor()
 		{

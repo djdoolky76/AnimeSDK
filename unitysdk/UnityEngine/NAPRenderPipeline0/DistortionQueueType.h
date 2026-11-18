@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DistortionQueueType_TypeDefinitionIndex = 6103;
+	inline static constexpr unsigned int DistortionQueueType_TypeDefinitionIndex = 6111;
 
 	enum class DistortionQueueType : ::System::Int32
 	{

@@ -7,11 +7,11 @@
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SKYCLOUDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D310F80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SKYCLOUDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4592B0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SkyCloudConfig_TypeDefinitionIndex = 26981;
+	inline static constexpr unsigned int SkyCloudConfig_TypeDefinitionIndex = 26937;
 
 	class SkyCloudConfig : public ::System::Object
 	{
@@ -34,10 +34,12 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single cloudMoveSpeed; // 0x68
 		::System::Boolean lowCloudTextureIsCubeMap; // 0x6C
 		::System::Boolean lowCloudFillDome; // 0x6D
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Texture* lowCloudTexture; // 0x70
 		::UnityEngine::Texture* highCloudTexture; // 0x78
 		::UnityEngine::Texture* cloudDistortMap; // 0x80
 		::System::Boolean lowEarthEnabled; // 0x88
+		::System::Byte _padding1[0x7];
 		::UnityEngine::Texture* lowEarthTexture; // 0x90
 		::System::Single lowEarthAlpha; // 0x98
 		::System::Single lowEarthUvScale; // 0x9C

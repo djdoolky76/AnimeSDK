@@ -4,12 +4,12 @@
 
 namespace System { class IOAsyncResult; }
 
-#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS254_0__BEGINSENDTOCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1D6C0480)
-#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS254_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BECF0)
+#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS254_0__BEGINSENDTOCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1DBBA610)
+#define SYSTEM_NET_SOCKETS_SOCKET___C__DISPLAYCLASS254_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DBB8E90)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int Socket___c__DisplayClass254_0_TypeDefinitionIndex = 3658;
+	inline static constexpr unsigned int Socket___c__DisplayClass254_0_TypeDefinitionIndex = 3657;
 
 	class Socket___c__DisplayClass254_0 : public ::System::Object
 	{

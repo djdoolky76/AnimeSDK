@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/LyraSector/LyraSectorCoord.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
+#include "unitysdk/LyraSector/LyraSectorCoord.h"
 
 namespace LyraSector { class CoordToLyraCompressedAssetData; }
 namespace LyraSector { class LyraPackedAssetSectorData; }
 
-#define LYRASECTOR_LYRAPACKEDASSET_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1CC67550)
-#define LYRASECTOR_LYRAPACKEDASSET_GETCOORDTOLYRACOMPRESSEDASSETDATA_OFFSET UNITYSDK_OFFSET(0x1CC674F0)
-#define LYRASECTOR_LYRAPACKEDASSET_GETLYRAPACKEDASSETSECTORDATAWITHOUTCHECK_OFFSET UNITYSDK_OFFSET(0x1CC67630)
-#define LYRASECTOR_LYRAPACKEDASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC673D0)
+#define LYRASECTOR_LYRAPACKEDASSET_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1D168580)
+#define LYRASECTOR_LYRAPACKEDASSET_GETCOORDTOLYRACOMPRESSEDASSETDATA_OFFSET UNITYSDK_OFFSET(0x1D168520)
+#define LYRASECTOR_LYRAPACKEDASSET_GETLYRAPACKEDASSETSECTORDATAWITHOUTCHECK_OFFSET UNITYSDK_OFFSET(0x1D168660)
+#define LYRASECTOR_LYRAPACKEDASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D168400)
 
 namespace LyraSector
 {
-	inline static constexpr unsigned int LyraPackedAsset_TypeDefinitionIndex = 26803;
+	inline static constexpr unsigned int LyraPackedAsset_TypeDefinitionIndex = 26287;
 
 	class LyraPackedAsset : public ::UnityEngine::ScriptableObject
 	{

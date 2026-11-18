@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7B49759BB8053593.h"
-#include "unitysdk/MoleMole/DataStructures/Lists/EasySerializeDictionaryEntry_2.h"
 
-namespace MoleMole { class ConfigWeakPanel_CWeakPanelColor; }
-
-#define MOLEMOLE_CONFIGWEAKPANEL_CWEAKPANELCOLORDICENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD80D20)
+#define MOLEMOLE_CONFIGWEAKPANEL_CWEAKPANELCOLORDICENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x190C6140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigWeakPanel_CWeakPanelColorDicEntry_TypeDefinitionIndex = 77981;
+	inline static constexpr unsigned int ConfigWeakPanel_CWeakPanelColorDicEntry_TypeDefinitionIndex = 85872;
 
-	class ConfigWeakPanel_CWeakPanelColorDicEntry : public ::MoleMole::DataStructures::Lists::EasySerializeDictionaryEntry_2<::Enum_3_7B49759BB8053593, ::MoleMole::ConfigWeakPanel_CWeakPanelColor*>
+	class ConfigWeakPanel_CWeakPanelColorDicEntry
 	{
 	public:
 		::System::Void _ctor()

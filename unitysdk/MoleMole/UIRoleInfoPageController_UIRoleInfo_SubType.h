@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleInfoPageController_UIRoleInfo_SubType_TypeDefinitionIndex = 72188;
+	inline static constexpr unsigned int UIRoleInfoPageController_UIRoleInfo_SubType_TypeDefinitionIndex = 52899;
 
 	enum class UIRoleInfoPageController_UIRoleInfo_SubType : ::System::Int32
 	{
-		BASIC = 0,
 		EQUIP = 2,
-		COUNT = 3,
 		SKILL = 1,
+		BASIC = 0,
+		COUNT = 3,
 		NONE = -1,
 	};
 }

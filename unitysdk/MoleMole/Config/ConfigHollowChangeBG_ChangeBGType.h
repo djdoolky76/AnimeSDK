@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChangeBG_ChangeBGType_TypeDefinitionIndex = 49416;
+	inline static constexpr unsigned int ConfigHollowChangeBG_ChangeBGType_TypeDefinitionIndex = 79286;
 
 	enum class ConfigHollowChangeBG_ChangeBGType : ::System::Int32
 	{
-		VideoToDefaultBg = 1,
 		DefaultToVideoBg = 0,
+		VideoToDefaultBg = 1,
 	};
 }

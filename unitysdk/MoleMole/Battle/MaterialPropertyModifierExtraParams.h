@@ -3,38 +3,43 @@
 #include "unitysdk/MoleMole/Config/MaterialPropertyModifierExtraParamsType.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_20D7905B25F5F2FF;
+class HACAMEGIBJA;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_CREATEFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x11449590)
-#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_EQUALS_OFFSET UNITYSDK_OFFSET(0x7303B0)
-#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x7304C0)
-#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x11449150)
-#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x11449240)
-#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x7304D0)
-#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x730540)
+#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_CREATEFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x131BAB20)
+#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_EQUALS_OFFSET UNITYSDK_OFFSET(0x6FF560)
+#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x6FF670)
+#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x131BA6E0)
+#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x131BA7D0)
+#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x6FF680)
+#define MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x6FF6F0)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int MaterialPropertyModifierExtraParams_TypeDefinitionIndex = 69642;
+	inline static constexpr unsigned int MaterialPropertyModifierExtraParams_TypeDefinitionIndex = 38963;
 
 	struct alignas(8) MaterialPropertyModifierExtraParams
 	{
 		::MoleMole::Config::MaterialPropertyModifierExtraParamsType ParamsType; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* FollowAttachPoint; // 0x18
 		::System::String* EffectName; // 0x20
 		::System::String* EffectChildPath; // 0x28
 
+		/*
 		static ::System::Boolean op_Equality(::MoleMole::Battle::MaterialPropertyModifierExtraParams lhs, ::MoleMole::Battle::MaterialPropertyModifierExtraParams rhs)
 		{
 			return ((::System::Boolean(*)(::MoleMole::Battle::MaterialPropertyModifierExtraParams, ::MoleMole::Battle::MaterialPropertyModifierExtraParams))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_OP_EQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::MoleMole::Battle::MaterialPropertyModifierExtraParams lhs, ::MoleMole::Battle::MaterialPropertyModifierExtraParams rhs)
 		{
 			return ((::System::Boolean(*)(::MoleMole::Battle::MaterialPropertyModifierExtraParams, ::MoleMole::Battle::MaterialPropertyModifierExtraParams))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_OP_INEQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* obj)
 		{
@@ -46,10 +51,12 @@ namespace MoleMole::Battle
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::MoleMole::Battle::MaterialPropertyModifierExtraParams CreateFromConfig(::Class_1_20D7905B25F5F2FF* config)
+		/*
+		static ::MoleMole::Battle::MaterialPropertyModifierExtraParams CreateFromConfig(::HACAMEGIBJA* config)
 		{
-			return ((::MoleMole::Battle::MaterialPropertyModifierExtraParams(*)(::Class_1_20D7905B25F5F2FF*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_CREATEFROMCONFIG_OFFSET))(config);
+			return ((::MoleMole::Battle::MaterialPropertyModifierExtraParams(*)(::HACAMEGIBJA*))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_MATERIALPROPERTYMODIFIEREXTRAPARAMS_CREATEFROMCONFIG_OFFSET))(config);
 		}
+		*/
 
 		::System::Boolean __base_Equals(::System::Object* P0)
 		{

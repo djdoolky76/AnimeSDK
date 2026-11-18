@@ -3,7 +3,7 @@
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int EndShapeType_TypeDefinitionIndex = 79702;
+	inline static constexpr unsigned int EndShapeType_TypeDefinitionIndex = 78900;
 
 	enum class EndShapeType : ::System::Int32
 	{

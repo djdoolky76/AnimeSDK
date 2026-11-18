@@ -3,7 +3,7 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int IResetable_TypeDefinitionIndex = 38044;
+	inline static constexpr unsigned int IResetable_TypeDefinitionIndex = 35956;
 
 	class IResetable
 	{

@@ -1,24 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationTickData.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
+#include "unitysdk/UnityEngine/NapTransformData.h"
 
-namespace NPCCrowd::Animation { class AnimationSubManager_AvatarArchetypeData; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x7561B0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_EXTRACTROOTMOTION_OFFSET UNITYSDK_OFFSET(0x1193F7C0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_FETCHTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1193F600)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_TRYRESOLVEDISPATCHINDEX_OFFSET UNITYSDK_OFFSET(0x1193ED60)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x633290)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_EXTRACTROOTMOTION_OFFSET UNITYSDK_OFFSET(0x105F1110)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_FETCHTRANSFORM_OFFSET UNITYSDK_OFFSET(0x105F0F50)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_TRYRESOLVEDISPATCHINDEX_OFFSET UNITYSDK_OFFSET(0x105F06B0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_SampleRootMotionProcessor_ParallelJob_TypeDefinitionIndex = 88339;
+	inline static constexpr unsigned int AnimationSubManager_SampleRootMotionProcessor_ParallelJob_TypeDefinitionIndex = 81212;
 
-	struct alignas(1) AnimationSubManager_SampleRootMotionProcessor_ParallelJob
+	struct alignas(4) AnimationSubManager_SampleRootMotionProcessor_ParallelJob
 	{
-		static ::System::Collections::Generic::List_1<::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData*>** StaticGet_s_sources()
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_s_sources()
 		{
-			return (::System::Collections::Generic::List_1<::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_SampleRootMotionProcessor_ParallelJob_TypeDefinitionIndex)->GetStaticField(0x45660);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_SampleRootMotionProcessor_ParallelJob_TypeDefinitionIndex)->GetStaticField(0x4B0D0);
 		}
 		// static const ::System::Int32 RootMotionParamCount = 0x7; // 0x0
 
@@ -32,18 +36,14 @@ namespace NPCCrowd::Animation
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_EXECUTE_OFFSET))(this, chunkIndex);
 		}
 
-		/*
-		static ::UnityEngine::NapTransformData FetchTransform(::System::Single* ptr)
+		static ::UnityEngine::NapTransformData FetchTransform(::PVOID ptr)
 		{
-			return ((::UnityEngine::NapTransformData(*)(::System::Single*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_FETCHTRANSFORM_OFFSET))(ptr);
+			return ((::UnityEngine::NapTransformData(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_FETCHTRANSFORM_OFFSET))(ptr);
 		}
-		*/
 
-		/*
-		static ::System::Void ExtractRootMotion(::System::Int32 avatarId, ::System::Int32 boneCount, ::System::ReadOnlySpan_1<::NPCCrowd::Animation::CPUStateMachine::AnimationTickData> data, ::System::Span_1<::UnityEngine::NapTransformData> result, ::System::ReadOnlySpan_1<::System::UInt32> entityIds)
+		static ::System::Void ExtractRootMotion(::System::Int32 avatarId, ::System::Int32 boneCount, ::System::ReadOnlySpan_1_F48FB86071006F3E<::NPCCrowd::Animation::CPUStateMachine::AnimationTickData> data, ::System::Span_1_9011FAD97750D224<::UnityEngine::NapTransformData> result, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::UInt32> entityIds)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::ReadOnlySpan_1<::NPCCrowd::Animation::CPUStateMachine::AnimationTickData>, ::System::Span_1<::UnityEngine::NapTransformData>, ::System::ReadOnlySpan_1<::System::UInt32>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_EXTRACTROOTMOTION_OFFSET))(avatarId, boneCount, data, result, entityIds);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::ReadOnlySpan_1_F48FB86071006F3E<::NPCCrowd::Animation::CPUStateMachine::AnimationTickData>, ::System::Span_1_9011FAD97750D224<::UnityEngine::NapTransformData>, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::UInt32>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_PARALLELJOB_EXTRACTROOTMOTION_OFFSET))(avatarId, boneCount, data, result, entityIds);
 		}
-		*/
 	};
 }

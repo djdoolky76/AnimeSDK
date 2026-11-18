@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace Mono::Security::Cryptography { class RSAManaged; }
+namespace Mono::Security::Cryptography { class RSAManaged_90255A423B470C9A; }
 namespace System { class String; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_GET_CERTIFICATERSA_OFFSET UNITYSDK_OFFSET(0x1F4CE390)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_GET_CERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1F4CE1F0)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_GET_CLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1F4CE210)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_GET_TARGETHOST_OFFSET UNITYSDK_OFFSET(0x1F4CE1D0)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_SET_CERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1F4CE200)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_SET_CLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1F4CE220)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_SET_TARGETHOST_OFFSET UNITYSDK_OFFSET(0x1F4CE1E0)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_UPDATECERTIFICATERSA_OFFSET UNITYSDK_OFFSET(0x1F4CE230)
-#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4CE3A0)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_GET_CERTIFICATERSA_OFFSET UNITYSDK_OFFSET(0x1F8B2690)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_GET_CERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1F8B24F0)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_GET_CLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1F8B2510)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_GET_TARGETHOST_OFFSET UNITYSDK_OFFSET(0x1F8B24D0)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_SET_CERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1F8B2500)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_SET_CLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1F8B2520)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_SET_TARGETHOST_OFFSET UNITYSDK_OFFSET(0x1F8B24E0)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_UPDATECERTIFICATERSA_OFFSET UNITYSDK_OFFSET(0x1F8B2530)
+#define MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8B26A0)
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int TlsClientSettings_TypeDefinitionIndex = 2386;
+	inline static constexpr unsigned int TlsClientSettings_TypeDefinitionIndex = 2385;
 
 	class TlsClientSettings : public ::System::Object
 	{
 	public:
-		::System::Security::Cryptography::X509Certificates::X509Certificate* clientCertificate; // 0x10
-		::Mono::Security::Cryptography::RSAManaged* certificateRSA; // 0x18
-		::System::String* targetHost; // 0x20
-		::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates; // 0x28
+		::System::String* targetHost; // 0x10
+		::Mono::Security::Cryptography::RSAManaged_90255A423B470C9A* certificateRSA; // 0x18
+		::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates; // 0x20
+		::System::Security::Cryptography::X509Certificates::X509Certificate* clientCertificate; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -64,9 +64,9 @@ namespace Mono::Security::Protocol::Tls
 			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::X509Certificates::X509Certificate*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_SET_CLIENTCERTIFICATE_OFFSET))(this, value);
 		}
 
-		::Mono::Security::Cryptography::RSAManaged* get_CertificateRSA()
+		::Mono::Security::Cryptography::RSAManaged_90255A423B470C9A* get_CertificateRSA()
 		{
-			return ((::Mono::Security::Cryptography::RSAManaged*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_GET_CERTIFICATERSA_OFFSET))(this);
+			return ((::Mono::Security::Cryptography::RSAManaged_90255A423B470C9A*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_TLS_TLSCLIENTSETTINGS_GET_CERTIFICATERSA_OFFSET))(this);
 		}
 
 		::System::Void UpdateCertificateRSA()

@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int EAIActionTagHandlerSource_TypeDefinitionIndex = 90976;
+	inline static constexpr unsigned int EAIActionTagHandlerSource_TypeDefinitionIndex = 54639;
 
 	enum class EAIActionTagHandlerSource : ::System::Byte
 	{
-		TagAction = 0x2,
-		PathMask = 0x1,
-		Unknown = 0x0,
+		PathMask = 1,
+		TagAction = 2,
+		Unknown = 0,
 	};
 }

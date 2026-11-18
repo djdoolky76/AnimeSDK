@@ -5,12 +5,12 @@
 namespace MoleMole { class UICoopEquipmentSelectPopWindowController; }
 namespace MoleMole { class UIGeneralRoleCardRowWidgetController_Context; }
 
-#define MOLEMOLE_UICOOPEQUIPMENTSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA4400)
-#define MOLEMOLE_UICOOPEQUIPMENTSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS65_0__SETROLELIST_B__0_OFFSET UNITYSDK_OFFSET(0x19AA4410)
+#define MOLEMOLE_UICOOPEQUIPMENTSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS65_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3748B0)
+#define MOLEMOLE_UICOOPEQUIPMENTSELECTPOPWINDOWCONTROLLER___C__DISPLAYCLASS65_0__SETROLELIST_B__0_OFFSET UNITYSDK_OFFSET(0x1A3748C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopEquipmentSelectPopWindowController___c__DisplayClass65_0_TypeDefinitionIndex = 82682;
+	inline static constexpr unsigned int UICoopEquipmentSelectPopWindowController___c__DisplayClass65_0_TypeDefinitionIndex = 53955;
 
 	class UICoopEquipmentSelectPopWindowController___c__DisplayClass65_0 : public ::System::Object
 	{

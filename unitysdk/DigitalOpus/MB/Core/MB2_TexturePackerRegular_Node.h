@@ -7,21 +7,21 @@ namespace DigitalOpus::MB::Core { class MB2_TexturePackerRegular_ProbeResult; }
 namespace DigitalOpus::MB::Core { class MB2_TexturePacker_Image; }
 namespace DigitalOpus::MB::Core { class MB2_TexturePacker_PixRect; }
 
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_NODE_INSERT_OFFSET UNITYSDK_OFFSET(0x1F42D330)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_NODE_ISLEAF_OFFSET UNITYSDK_OFFSET(0x1F42D2D0)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_NODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F42D280)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_NODE_INSERT_OFFSET UNITYSDK_OFFSET(0x1F828D20)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_NODE_ISLEAF_OFFSET UNITYSDK_OFFSET(0x1F828CC0)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKERREGULAR_NODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F828C70)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB2_TexturePackerRegular_Node_TypeDefinitionIndex = 94618;
+	inline static constexpr unsigned int MB2_TexturePackerRegular_Node_TypeDefinitionIndex = 96305;
 
 	class MB2_TexturePackerRegular_Node : public ::System::Object
 	{
 	public:
-		::DigitalOpus::MB::Core::MB2_TexturePacker_Image* img; // 0x10
-		::DigitalOpus::MB::Core::MB2_TexturePacker_PixRect* r; // 0x18
-		::Il2CppArray<::DigitalOpus::MB::Core::MB2_TexturePackerRegular_Node*>* child; // 0x20
-		::DigitalOpus::MB::Core::MB2_TexturePackerRegular_ProbeResult* bestRoot; // 0x28
+		::DigitalOpus::MB::Core::MB2_TexturePackerRegular_ProbeResult* bestRoot; // 0x10
+		::DigitalOpus::MB::Core::MB2_TexturePacker_Image* img; // 0x18
+		::DigitalOpus::MB::Core::MB2_TexturePacker_PixRect* r; // 0x20
+		::Il2CppArray<::System::Object*>* child; // 0x28
 		::DigitalOpus::MB::Core::MB2_TexturePacker_NodeType isFullAtlas; // 0x30
 
 		::System::Void _ctor(::DigitalOpus::MB::Core::MB2_TexturePacker_NodeType rootType)

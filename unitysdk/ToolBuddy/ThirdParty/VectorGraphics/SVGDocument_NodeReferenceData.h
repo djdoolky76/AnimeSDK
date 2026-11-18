@@ -8,7 +8,7 @@ namespace ToolBuddy::ThirdParty::VectorGraphics { class SceneNode; }
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDocument_NodeReferenceData_TypeDefinitionIndex = 31751;
+	inline static constexpr unsigned int SVGDocument_NodeReferenceData_TypeDefinitionIndex = 31189;
 
 	struct alignas(8) SVGDocument_NodeReferenceData
 	{

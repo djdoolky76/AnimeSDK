@@ -4,22 +4,23 @@
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1EB4BF60)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_GET_ID_OFFSET UNITYSDK_OFFSET(0xA5B990)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA5B9D0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0xA5BA10)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EB4BCF0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_SET_ID_OFFSET UNITYSDK_OFFSET(0xA5B9C0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_SET_NAME_OFFSET UNITYSDK_OFFSET(0xA5BA00)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1EEDCAD0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_GET_ID_OFFSET UNITYSDK_OFFSET(0x93CA20)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_GET_NAME_OFFSET UNITYSDK_OFFSET(0x93CA60)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x93CAA0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EEDC860)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_SET_ID_OFFSET UNITYSDK_OFFSET(0x93CA50)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_SET_NAME_OFFSET UNITYSDK_OFFSET(0x93CA90)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int QueryPairedUserAccountCommand_TypeDefinitionIndex = 32480;
+	inline static constexpr unsigned int QueryPairedUserAccountCommand_TypeDefinitionIndex = 31929;
 
-	struct alignas(8) QueryPairedUserAccountCommand
+	struct alignas(4) QueryPairedUserAccountCommand
 	{
 		// static const ::System::Int32 kMaxNameLength = 0x100; // 0x0
 		// static const ::System::Int32 kMaxIdLength = 0x100; // 0x0
@@ -29,12 +30,10 @@ namespace UnityEngine::InputSystem::LowLevel
 		::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer nameBuffer; // 0x20
 		::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer idBuffer; // 0x220
 
-		/*
 		static ::UnityEngine::InputSystem::Utilities::FourCC get_Type()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_GET_TYPE_OFFSET))();
 		}
-		*/
 
 		::System::String* get_id()
 		{
@@ -56,16 +55,16 @@ namespace UnityEngine::InputSystem::LowLevel
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_SET_NAME_OFFSET))(this, value);
 		}
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand Create()
 		{
 			return ((::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYPAIREDUSERACCOUNTCOMMAND_CREATE_OFFSET))();
 		}
+		*/
 	};
 }

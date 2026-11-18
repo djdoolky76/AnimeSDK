@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVESWITCHSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x118B3860)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVESWITCHSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x118B39F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVESWITCHSTATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16232A00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCURVEMOVESWITCHSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16232B90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCurveMoveSwitchState_TypeDefinitionIndex = 63264;
+	inline static constexpr unsigned int LDCurveMoveSwitchState_TypeDefinitionIndex = 85464;
 
-	class LDCurveMoveSwitchState : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::Battle::Entity*, ::System::Boolean>
+	class LDCurveMoveSwitchState
 	{
 	public:
 		::System::Void _ctor()

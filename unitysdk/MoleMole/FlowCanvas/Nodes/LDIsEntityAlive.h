@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDISENTITYALIVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A83B10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDISENTITYALIVE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13A839E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDISENTITYALIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A83E60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDISENTITYALIVE__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x13A83EA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDISENTITYALIVE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465E340)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDISENTITYALIVE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1465E210)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDISENTITYALIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1465E690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDISENTITYALIVE__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1465E6D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDIsEntityAlive_TypeDefinitionIndex = 67439;
+	inline static constexpr unsigned int LDIsEntityAlive_TypeDefinitionIndex = 84003;
 
 	class LDIsEntityAlive : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::FlowInput* input; // 0xA8
-		::FlowCanvas::FlowOutput* falseOutput; // 0xB0
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* inputValue; // 0xB8
-		::FlowCanvas::FlowOutput* output; // 0xC0
-		::FlowCanvas::FlowOutput* trueOutput; // 0xC8
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* inputValue; // 0xB0
+		::FlowCanvas::FlowOutput* output; // 0xB8
+		::FlowCanvas::FlowOutput* trueOutput; // 0xC0
+		::FlowCanvas::FlowOutput* falseOutput; // 0xC8
 
 		::System::Void _ctor()
 		{

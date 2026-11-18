@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_ANIMCURVEPARAM_ISVALID_OFFSET UNITYSDK_OFFSET(0x116E2060)
-#define MOLEMOLE_CONFIG_ANIMCURVEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x116E20C0)
+#define MOLEMOLE_CONFIG_ANIMCURVEPARAM_ISVALID_OFFSET UNITYSDK_OFFSET(0xFAA1EE0)
+#define MOLEMOLE_CONFIG_ANIMCURVEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xFAA1F40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimCurveParam_TypeDefinitionIndex = 84981;
+	inline static constexpr unsigned int AnimCurveParam_TypeDefinitionIndex = 92027;
 
 	class AnimCurveParam : public ::System::Object
 	{

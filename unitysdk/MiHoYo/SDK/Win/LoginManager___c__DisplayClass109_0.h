@@ -1,31 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/Alert_AlertResult.h"
+#include "unitysdk/MiHoYo/SDK/ReportType.h"
 #include "unitysdk/System/Object.h"
 
+namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class LoginManager; }
 namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F0020)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0__SETAGEGATEFAILCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1D1F0030)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D86A730)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0__SHOWLOGINSTATEINVALID_B__0_OFFSET UNITYSDK_OFFSET(0x1D86A740)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0__SHOWLOGINSTATEINVALID_B__1_OFFSET UNITYSDK_OFFSET(0x1D86A9C0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass109_0_TypeDefinitionIndex = 21561;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass109_0_TypeDefinitionIndex = 20759;
 
 	class LoginManager___c__DisplayClass109_0 : public ::System::Object
 	{
 	public:
-		::System::Action* customCallback; // 0x10
-		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x18
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* OnLogout; // 0x10
+		::System::Action* callback; // 0x18
+		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x20
+		::MiHoYo::SDK::ReportType type; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SetAgeGateFailCallback_b__0()
+		::System::Void _ShowLoginStateInvalid_b__0(::MiHoYo::SDK::CallbackModel_1<::System::String*>* response)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0__SETAGEGATEFAILCALLBACK_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::CallbackModel_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0__SHOWLOGINSTATEINVALID_B__0_OFFSET))(this, response);
+		}
+
+		::System::Void _ShowLoginStateInvalid_b__1(::MiHoYo::SDK::Alert_AlertResult result)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0__SHOWLOGINSTATEINVALID_B__1_OFFSET))(this, result);
 		}
 	};
 }

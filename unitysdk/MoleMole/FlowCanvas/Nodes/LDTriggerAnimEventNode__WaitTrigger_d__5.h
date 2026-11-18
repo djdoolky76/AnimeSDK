@@ -9,28 +9,29 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTRIGGERANIMEVENTNODE__WAITTRIGGER_D__5_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19BE4E10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTRIGGERANIMEVENTNODE__WAITTRIGGER_D__5_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19BE4F80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTRIGGERANIMEVENTNODE__WAITTRIGGER_D__5_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19BE4FE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTRIGGERANIMEVENTNODE__WAITTRIGGER_D__5_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19BE4F90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTRIGGERANIMEVENTNODE__WAITTRIGGER_D__5_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19BE4E00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTRIGGERANIMEVENTNODE__WAITTRIGGER_D__5__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE4DF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTRIGGERANIMEVENTNODE__WAITTRIGGER_D__5_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1A0907F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTRIGGERANIMEVENTNODE__WAITTRIGGER_D__5_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A090960)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTRIGGERANIMEVENTNODE__WAITTRIGGER_D__5_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1A0909C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTRIGGERANIMEVENTNODE__WAITTRIGGER_D__5_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1A090970)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTRIGGERANIMEVENTNODE__WAITTRIGGER_D__5_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A0907E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTRIGGERANIMEVENTNODE__WAITTRIGGER_D__5__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0907D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTriggerAnimEventNode__WaitTrigger_d__5_TypeDefinitionIndex = 44858;
+	inline static constexpr unsigned int LDTriggerAnimEventNode__WaitTrigger_d__5_TypeDefinitionIndex = 57430;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class LDTriggerAnimEventNode__WaitTrigger_d__5 : public ::System::Object
 	{
 	public:
-		::MoleMole::FlowCanvas::Nodes::LDTriggerAnimEventNode* __4__this; // 0x10
-		::System::Object* __2__current; // 0x18
-		::MoleMole::Battle::Entity* entity; // 0x20
-		::MoleMole::FlowCanvas::Nodes::EntitySaveDataMap* enitytMap; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* FloatParam; // 0x30
-		::System::Collections::Generic::List_1<::System::String*>* TriggerParam; // 0x38
+		::System::Object* __2__current; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* FloatParam; // 0x18
+		::MoleMole::FlowCanvas::Nodes::EntitySaveDataMap* enitytMap; // 0x20
+		::MoleMole::Battle::Entity* entity; // 0x28
+		::System::Collections::Generic::List_1<::System::String*>* TriggerParam; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* IntParam; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* BoolParam; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* IntParam; // 0x48
+		::MoleMole::FlowCanvas::Nodes::LDTriggerAnimEventNode* __4__this; // 0x48
 		::System::Single delay; // 0x50
 		::System::Int32 __1__state; // 0x54
 

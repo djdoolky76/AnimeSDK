@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CURINTERACTIONNPCID_INVOKE_OFFSET UNITYSDK_OFFSET(0x107D59A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CURINTERACTIONNPCID__CTOR_OFFSET UNITYSDK_OFFSET(0x107D5A30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CURINTERACTIONNPCID_INVOKE_OFFSET UNITYSDK_OFFSET(0x143098B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_CURINTERACTIONNPCID__CTOR_OFFSET UNITYSDK_OFFSET(0x14309940)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_CurInteractionNpcId_TypeDefinitionIndex = 65827;
+	inline static constexpr unsigned int LD_AbyssS2_CurInteractionNpcId_TypeDefinitionIndex = 56208;
 
-	class LD_AbyssS2_CurInteractionNpcId : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Int32>
+	class LD_AbyssS2_CurInteractionNpcId
 	{
 	public:
 		::System::Void _ctor()

@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas::Macros { class CustomMacroEnumWrap; }
-namespace FlowCanvas::Nodes { class SwitchMacroLocalEnum___c__DisplayClass1_0; }
 
-#define FLOWCANVAS_NODES_SWITCHMACROLOCALENUM___C__DISPLAYCLASS1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22B350)
-#define FLOWCANVAS_NODES_SWITCHMACROLOCALENUM___C__DISPLAYCLASS1_1__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E22B410)
+#define FLOWCANVAS_NODES_SWITCHMACROLOCALENUM___C__DISPLAYCLASS1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBACBA0)
+#define FLOWCANVAS_NODES_SWITCHMACROLOCALENUM___C__DISPLAYCLASS1_1__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EBACC60)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchMacroLocalEnum___c__DisplayClass1_1_TypeDefinitionIndex = 31333;
+	inline static constexpr unsigned int SwitchMacroLocalEnum___c__DisplayClass1_1_TypeDefinitionIndex = 30789;
 
+	template <typename T>
 	class SwitchMacroLocalEnum___c__DisplayClass1_1 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::FlowCanvas::Macros::CustomMacroEnumWrap*>* selector; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::Il2CppArray<::FlowCanvas::FlowOutput*>* cases; // 0x18
-		::FlowCanvas::Nodes::SwitchMacroLocalEnum___c__DisplayClass1_0* CS___8__locals1; // 0x20
+		::FlowCanvas::ValueInput_1<::FlowCanvas::Macros::CustomMacroEnumWrap*>* selector; // 0x20
 		::FlowCanvas::FlowOutput* defaultCase; // 0x28
 
 		::System::Void _ctor()

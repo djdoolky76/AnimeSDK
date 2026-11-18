@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace UnityEngine { class Component; }
-
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int ICGResourceCollection_TypeDefinitionIndex = 39583;
+	inline static constexpr unsigned int ICGResourceCollection_TypeDefinitionIndex = 37569;
 
 	class ICGResourceCollection
 	{

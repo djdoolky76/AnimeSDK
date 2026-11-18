@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Ability/FTransformFragment.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/NPCCrowd/Ability/FTransformFragment.h"
 #include "unitysdk/Unity/Collections/NativeList_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCABILITYAPPLYMOVEPLATFORMPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD883470)
-#define NPCCROWD_ABILITY_NPCABILITYAPPLYMOVEPLATFORMPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD883680)
+#define NPCCROWD_ABILITY_NPCABILITYAPPLYMOVEPLATFORMPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xED58D70)
+#define NPCCROWD_ABILITY_NPCABILITYAPPLYMOVEPLATFORMPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xED58F80)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityApplyMovePlatformProcessor_TypeDefinitionIndex = 89005;
+	inline static constexpr unsigned int NPCAbilityApplyMovePlatformProcessor_TypeDefinitionIndex = 57417;
 
 	class NPCAbilityApplyMovePlatformProcessor : public ::System::Object
 	{

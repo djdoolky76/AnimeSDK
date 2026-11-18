@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS133_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13001F10)
-#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS133_0__TRYSHOWPROFRESSIONLACKWEAPONTIP_B__3_OFFSET UNITYSDK_OFFSET(0x13001F20)
+#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS133_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15D4CBE0)
+#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS133_0__TRYSHOWPROFRESSIONLACKWEAPONTIP_B__3_OFFSET UNITYSDK_OFFSET(0x15D4CBF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass133_0_TypeDefinitionIndex = 52775;
+	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass133_0_TypeDefinitionIndex = 40808;
 
 	class UIRoleEquipReplaceWidgetController___c__DisplayClass133_0 : public ::System::Object
 	{

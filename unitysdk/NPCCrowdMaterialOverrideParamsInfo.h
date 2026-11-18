@@ -1,21 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Color32.h"
 
-#define NPCCROWDMATERIALOVERRIDEPARAMSINFO_GETSHADERPROPERTYFROMINDEX_OFFSET UNITYSDK_OFFSET(0x9548EA0)
-#define NPCCROWDMATERIALOVERRIDEPARAMSINFO_PRECOMPUTECOLOR_OFFSET UNITYSDK_OFFSET(0x9548DB0)
-#define NPCCROWDMATERIALOVERRIDEPARAMSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x95495B0)
+#define NPCCROWDMATERIALOVERRIDEPARAMSINFO_GETRAWSHADERPROPERTYFROMINDEX_OFFSET UNITYSDK_OFFSET(0xE128EA0)
+#define NPCCROWDMATERIALOVERRIDEPARAMSINFO_GETSHADERPROPERTYFROMINDEX_OFFSET UNITYSDK_OFFSET(0xE128790)
+#define NPCCROWDMATERIALOVERRIDEPARAMSINFO_PRECOMPUTECOLOR_OFFSET UNITYSDK_OFFSET(0xE1286A0)
+#define NPCCROWDMATERIALOVERRIDEPARAMSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE128FE0)
 
-inline static constexpr unsigned int NPCCrowdMaterialOverrideParamsInfo_TypeDefinitionIndex = 82880;
+inline static constexpr unsigned int NPCCrowdMaterialOverrideParamsInfo_TypeDefinitionIndex = 48018;
 
 class NPCCrowdMaterialOverrideParamsInfo : public ::System::Object
 {
 public:
 	// static const ::System::UInt16 overridePropertiesNumber = 0xA; // 0x0
 	::System::Int32 id; // 0x10
+	::System::Byte _padding0[0x4];
 	::Il2CppArray<::System::Boolean>* overrideColorArray; // 0x18
 	::UnityEngine::Color32 rColor; // 0x20
 	::UnityEngine::Color32 gColor; // 0x24
@@ -41,5 +43,10 @@ public:
 	::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32> GetShaderPropertyFromIndex(::System::Int32 index)
 	{
 		return ((::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWDMATERIALOVERRIDEPARAMSINFO_GETSHADERPROPERTYFROMINDEX_OFFSET))(this, index);
+	}
+
+	::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32> GetRawShaderPropertyFromIndex(::System::Int32 index)
+	{
+		return ((::System::ValueTuple_2<::System::Int32, ::UnityEngine::Color32>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWDMATERIALOVERRIDEPARAMSINFO_GETRAWSHADERPROPERTYFROMINDEX_OFFSET))(this, index);
 	}
 };

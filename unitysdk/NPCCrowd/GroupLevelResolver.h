@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_GROUPLEVELRESOLVER_GETASSOCIATEDMEMBERS_OFFSET UNITYSDK_OFFSET(0x1066BB90)
-#define NPCCROWD_GROUPLEVELRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1066C250)
+#define NPCCROWD_GROUPLEVELRESOLVER_GETASSOCIATEDMEMBERS_OFFSET UNITYSDK_OFFSET(0xF1532E0)
+#define NPCCROWD_GROUPLEVELRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0xF1539A0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int GroupLevelResolver_TypeDefinitionIndex = 90503;
+	inline static constexpr unsigned int GroupLevelResolver_TypeDefinitionIndex = 58440;
 
 	class GroupLevelResolver : public ::System::Object
 	{

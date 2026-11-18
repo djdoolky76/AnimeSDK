@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define MICROSOFT_WIN32_TIMERELAPSEDEVENTARGS_GET_TIMERID_OFFSET UNITYSDK_OFFSET(0x1E7DACF0)
-#define MICROSOFT_WIN32_TIMERELAPSEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DACB0)
+#define MICROSOFT_WIN32_TIMERELAPSEDEVENTARGS_GET_TIMERID_OFFSET UNITYSDK_OFFSET(0x1EA8DDD0)
+#define MICROSOFT_WIN32_TIMERELAPSEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA8DD90)
 
 namespace Microsoft::Win32
 {
-	inline static constexpr unsigned int TimerElapsedEventArgs_TypeDefinitionIndex = 4306;
+	inline static constexpr unsigned int TimerElapsedEventArgs_TypeDefinitionIndex = 4305;
 
 	class TimerElapsedEventArgs : public ::System::EventArgs
 	{

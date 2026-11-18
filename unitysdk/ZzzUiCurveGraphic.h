@@ -1,112 +1,118 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/UI/MaskableGraphic.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 #include "unitysdk/ZzzUiCurveGraphic_CurveType.h"
 
 class ZzzUiCurveGraphic_CurveSegment;
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define ZZZUICURVEGRAPHIC_ADDTOLIST_1_OFFSET UNITYSDK_OFFSET(0x1A692E10)
-#define ZZZUICURVEGRAPHIC_ADDTOLIST_2_OFFSET UNITYSDK_OFFSET(0x1A692F20)
-#define ZZZUICURVEGRAPHIC_ADDTOLIST_OFFSET UNITYSDK_OFFSET(0x1A692D70)
-#define ZZZUICURVEGRAPHIC_APPLYSPHEREMASK_OFFSET UNITYSDK_OFFSET(0x1A691720)
-#define ZZZUICURVEGRAPHIC_APPLYTOPOSRADIUSLIST_OFFSET UNITYSDK_OFFSET(0x1A691680)
-#define ZZZUICURVEGRAPHIC_CALCULATEBEZIERPOINT_OFFSET UNITYSDK_OFFSET(0x1A694400)
-#define ZZZUICURVEGRAPHIC_CLEARCURVESANIMATEDTAG_1_OFFSET UNITYSDK_OFFSET(0x1A6929A0)
-#define ZZZUICURVEGRAPHIC_CLEARCURVESANIMATEDTAG_OFFSET UNITYSDK_OFFSET(0x1A692850)
-#define ZZZUICURVEGRAPHIC_CLEARCURVESOPENTAG_OFFSET UNITYSDK_OFFSET(0x1A692AF0)
-#define ZZZUICURVEGRAPHIC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A692CD0)
-#define ZZZUICURVEGRAPHIC_COMPUTECURVES_OFFSET UNITYSDK_OFFSET(0x1A691A00)
-#define ZZZUICURVEGRAPHIC_CURVEFILLANIMATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x1A691570)
-#define ZZZUICURVEGRAPHIC_CURVEFILLANIMATIONPLAY_OFFSET UNITYSDK_OFFSET(0x1A691520)
-#define ZZZUICURVEGRAPHIC_CURVEFILLANIMATIONRESET_OFFSET UNITYSDK_OFFSET(0x1A6914D0)
-#define ZZZUICURVEGRAPHIC_CURVEFILLANIMATIONSTOP_OFFSET UNITYSDK_OFFSET(0x1A6915C0)
-#define ZZZUICURVEGRAPHIC_DRAWBEZIERCURVELIST_OFFSET UNITYSDK_OFFSET(0x1A693250)
-#define ZZZUICURVEGRAPHIC_DRAWBEZIERCURVE_OFFSET UNITYSDK_OFFSET(0x1A693440)
-#define ZZZUICURVEGRAPHIC_ENABLEUIVERTEXCOLORCALC_OFFSET UNITYSDK_OFFSET(0x1A690E00)
-#define ZZZUICURVEGRAPHIC_GETAPPROXPOINT_OFFSET UNITYSDK_OFFSET(0x1A6925F0)
-#define ZZZUICURVEGRAPHIC_LINETOOSHORT_OFFSET UNITYSDK_OFFSET(0x1A692C40)
-#define ZZZUICURVEGRAPHIC_ONMATERIALCHANGED_OFFSET UNITYSDK_OFFSET(0x1A690E60)
-#define ZZZUICURVEGRAPHIC_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1A693170)
-#define ZZZUICURVEGRAPHIC_REFRESHMESH_OFFSET UNITYSDK_OFFSET(0x1A691910)
-#define ZZZUICURVEGRAPHIC_REMOVESAMECURVE_OFFSET UNITYSDK_OFFSET(0x1A6922D0)
-#define ZZZUICURVEGRAPHIC_SPLITTOMIXEDCURVES_OFFSET UNITYSDK_OFFSET(0x1A691BA0)
-#define ZZZUICURVEGRAPHIC_START_OFFSET UNITYSDK_OFFSET(0x1A690BD0)
-#define ZZZUICURVEGRAPHIC_UPDATECURVEANIMATION_OFFSET UNITYSDK_OFFSET(0x1A691140)
-#define ZZZUICURVEGRAPHIC_UPDATEMASKPOSRADIUS_OFFSET UNITYSDK_OFFSET(0x1A6912B0)
-#define ZZZUICURVEGRAPHIC_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A6910E0)
-#define ZZZUICURVEGRAPHIC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A694720)
-#define ZZZUICURVEGRAPHIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A694530)
-#define ZZZUICURVEGRAPHIC___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1A6947F0)
-#define ZZZUICURVEGRAPHIC___BASE_START_OFFSET UNITYSDK_OFFSET(0x1A694800)
+#define ZZZUICURVEGRAPHIC_ADDTOLIST_1_OFFSET UNITYSDK_OFFSET(0x1C68F660)
+#define ZZZUICURVEGRAPHIC_ADDTOLIST_2_OFFSET UNITYSDK_OFFSET(0x1C68F770)
+#define ZZZUICURVEGRAPHIC_ADDTOLIST_OFFSET UNITYSDK_OFFSET(0x1C68F5C0)
+#define ZZZUICURVEGRAPHIC_APPLYSPHEREMASK_OFFSET UNITYSDK_OFFSET(0x1C68DF70)
+#define ZZZUICURVEGRAPHIC_APPLYTOPOSRADIUSLIST_OFFSET UNITYSDK_OFFSET(0x1C68DED0)
+#define ZZZUICURVEGRAPHIC_CALCULATEBEZIERPOINT_OFFSET UNITYSDK_OFFSET(0x1C690C50)
+#define ZZZUICURVEGRAPHIC_CLEARCURVESANIMATEDTAG_1_OFFSET UNITYSDK_OFFSET(0x1C68F1F0)
+#define ZZZUICURVEGRAPHIC_CLEARCURVESANIMATEDTAG_OFFSET UNITYSDK_OFFSET(0x1C68F0A0)
+#define ZZZUICURVEGRAPHIC_CLEARCURVESOPENTAG_OFFSET UNITYSDK_OFFSET(0x1C68F340)
+#define ZZZUICURVEGRAPHIC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C68F520)
+#define ZZZUICURVEGRAPHIC_COMPUTECURVES_OFFSET UNITYSDK_OFFSET(0x1C68E250)
+#define ZZZUICURVEGRAPHIC_CURVEFILLANIMATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x1C68DDC0)
+#define ZZZUICURVEGRAPHIC_CURVEFILLANIMATIONPLAY_OFFSET UNITYSDK_OFFSET(0x1C68DD70)
+#define ZZZUICURVEGRAPHIC_CURVEFILLANIMATIONRESET_OFFSET UNITYSDK_OFFSET(0x1C68DD20)
+#define ZZZUICURVEGRAPHIC_CURVEFILLANIMATIONSTOP_OFFSET UNITYSDK_OFFSET(0x1C68DE10)
+#define ZZZUICURVEGRAPHIC_DRAWBEZIERCURVELIST_OFFSET UNITYSDK_OFFSET(0x1C68FAA0)
+#define ZZZUICURVEGRAPHIC_DRAWBEZIERCURVE_OFFSET UNITYSDK_OFFSET(0x1C68FC90)
+#define ZZZUICURVEGRAPHIC_ENABLEUIVERTEXCOLORCALC_OFFSET UNITYSDK_OFFSET(0x1C68D650)
+#define ZZZUICURVEGRAPHIC_GETAPPROXPOINT_OFFSET UNITYSDK_OFFSET(0x1C68EE40)
+#define ZZZUICURVEGRAPHIC_LINETOOSHORT_OFFSET UNITYSDK_OFFSET(0x1C68F490)
+#define ZZZUICURVEGRAPHIC_ONMATERIALCHANGED_OFFSET UNITYSDK_OFFSET(0x1C68D6B0)
+#define ZZZUICURVEGRAPHIC_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1C68F9C0)
+#define ZZZUICURVEGRAPHIC_REFRESHMESH_OFFSET UNITYSDK_OFFSET(0x1C68E160)
+#define ZZZUICURVEGRAPHIC_REMOVESAMECURVE_OFFSET UNITYSDK_OFFSET(0x1C68EB20)
+#define ZZZUICURVEGRAPHIC_SPLITTOMIXEDCURVES_OFFSET UNITYSDK_OFFSET(0x1C68E3F0)
+#define ZZZUICURVEGRAPHIC_START_OFFSET UNITYSDK_OFFSET(0x1C68D420)
+#define ZZZUICURVEGRAPHIC_UPDATECURVEANIMATION_OFFSET UNITYSDK_OFFSET(0x1C68D990)
+#define ZZZUICURVEGRAPHIC_UPDATEMASKPOSRADIUS_OFFSET UNITYSDK_OFFSET(0x1C68DB00)
+#define ZZZUICURVEGRAPHIC_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C68D930)
+#define ZZZUICURVEGRAPHIC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C690F70)
+#define ZZZUICURVEGRAPHIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C690D80)
+#define ZZZUICURVEGRAPHIC___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1C691040)
+#define ZZZUICURVEGRAPHIC___BASE_START_OFFSET UNITYSDK_OFFSET(0x1C691050)
 
-inline static constexpr unsigned int ZzzUiCurveGraphic_TypeDefinitionIndex = 45744;
+inline static constexpr unsigned int ZzzUiCurveGraphic_TypeDefinitionIndex = 69270;
 
 class ZzzUiCurveGraphic : public ::UnityEngine::UI::MaskableGraphic
 {
 public:
-	static ::System::Int32* StaticGet_AnimationProgress()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC1B0);
-	}
-	static ::System::Int32* StaticGet_IconPosArraySize()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC1B4);
-	}
-	static ::System::Int32* StaticGet_CurveCloseShadowColor()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC1B8);
-	}
 	static ::System::Int32* StaticGet_CurveCloseColor()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC1BC);
-	}
-	static ::System::Int32* StaticGet_CurveOpenShadowColor()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC1C0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC220);
 	}
 	static ::System::Int32* StaticGet_WorldScaleUV()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC1C4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC224);
+	}
+	static ::System::Int32* StaticGet_CurveCloseShadowColor()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC228);
+	}
+	static ::System::Int32* StaticGet_IconPosArraySize()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC22C);
 	}
 	static ::System::Int32* StaticGet_CurveOpenColor()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC1C8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC230);
+	}
+	static ::System::Int32* StaticGet_CurveOpenShadowColor()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC234);
+	}
+	static ::System::Int32* StaticGet_AnimationProgress()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC238);
 	}
 	static ::System::Int32* StaticGet_IconPosRadiusArray()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC1CC);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ZzzUiCurveGraphic_TypeDefinitionIndex)->GetStaticField(0xC23C);
 	}
 	::System::Boolean overrideCurveType; // 0xF8
+	::System::Byte _padding0[0x3];
 	::ZzzUiCurveGraphic_CurveType curveType; // 0xFC
 	::System::Single curveSmoothness; // 0x100
 	::System::Single lineWidth; // 0x104
 	::System::Int32 segments; // 0x108
 	::System::Boolean useMask; // 0x10C
 	::System::Boolean realWorldUV; // 0x10D
+	::System::Byte _padding1[0x2];
 	::System::Single realWorldUVScale; // 0x110
 	::System::Boolean mixCurve; // 0x114
 	::System::Boolean fixMixCurveJoint; // 0x115
 	::System::Boolean removeSameCurve; // 0x116
+	::System::Byte _padding2[0x1];
 	::UnityEngine::Color curveOpenColor; // 0x118
 	::UnityEngine::Color curveCloseColor; // 0x128
 	::System::Boolean renderCurveCloseShadow; // 0x138
+	::System::Byte _padding3[0x3];
 	::UnityEngine::Color curveOpenShadowColor; // 0x13C
 	::UnityEngine::Color curveCloseShadowColor; // 0x14C
 	::UnityEngine::Vector2 curveCloseShadowOffset; // 0x15C
 	::System::Single animationTotalTime; // 0x164
 	::UnityEngine::AnimationCurve* CurveFillAnimationCurve; // 0x168
-	::System::Collections::Generic::List_1<::ZzzUiCurveGraphic_CurveSegment*>* curves; // 0x170
-	::System::Collections::Generic::List_1<::ZzzUiCurveGraphic_CurveSegment*>* _mixedCurves; // 0x178
+	::System::Collections::Generic::List_1<::System::Object*>* curves; // 0x170
+	::System::Collections::Generic::List_1<::System::Object*>* _mixedCurves; // 0x178
 	::System::Single _animationTime; // 0x180
 	::System::Boolean _animationOver; // 0x184
+	::System::Byte _padding4[0x3];
 	::System::Collections::Generic::List_1<::UnityEngine::Vector4>* PosRadiusList; // 0x188
 	::System::Collections::Generic::List_1<::UnityEngine::Vector4>* transformedPosRadiusList; // 0x190
 
@@ -185,9 +191,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZZZUICURVEGRAPHIC_REFRESHMESH_OFFSET))(this);
 	}
 
-	::System::Void RemoveSameCurve(::System::Collections::Generic::List_1<::ZzzUiCurveGraphic_CurveSegment*>* crvs, ::System::Single epsilon)
+	::System::Void RemoveSameCurve(::System::Collections::Generic::List_1<::System::Object*>* crvs, ::System::Single epsilon)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::ZzzUiCurveGraphic_CurveSegment*>*, ::System::Single))((::PBYTE)hIl2Cpp + ZZZUICURVEGRAPHIC_REMOVESAMECURVE_OFFSET))(this, crvs, epsilon);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Single))((::PBYTE)hIl2Cpp + ZZZUICURVEGRAPHIC_REMOVESAMECURVE_OFFSET))(this, crvs, epsilon);
 	}
 
 	::System::String* GetApproxPoint(::UnityEngine::Vector2 point, ::System::Single epsilon)
@@ -195,14 +201,14 @@ public:
 		return ((::System::String*(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + ZZZUICURVEGRAPHIC_GETAPPROXPOINT_OFFSET))(this, point, epsilon);
 	}
 
-	::System::Void ComputeCurves(::System::Collections::Generic::List_1<::ZzzUiCurveGraphic_CurveSegment*>* crvs, ::System::Boolean removeSameCurve)
+	::System::Void ComputeCurves(::System::Collections::Generic::List_1<::System::Object*>* crvs, ::System::Boolean removeSameCurve)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::ZzzUiCurveGraphic_CurveSegment*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZZZUICURVEGRAPHIC_COMPUTECURVES_OFFSET))(this, crvs, removeSameCurve);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZZZUICURVEGRAPHIC_COMPUTECURVES_OFFSET))(this, crvs, removeSameCurve);
 	}
 
-	::System::Void ClearCurvesAnimatedTag(::System::Collections::Generic::List_1<::ZzzUiCurveGraphic_CurveSegment*>* crvs)
+	::System::Void ClearCurvesAnimatedTag(::System::Collections::Generic::List_1<::System::Object*>* crvs)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::ZzzUiCurveGraphic_CurveSegment*>*))((::PBYTE)hIl2Cpp + ZZZUICURVEGRAPHIC_CLEARCURVESANIMATEDTAG_OFFSET))(this, crvs);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + ZZZUICURVEGRAPHIC_CLEARCURVESANIMATEDTAG_OFFSET))(this, crvs);
 	}
 
 	::System::Void ClearCurvesAnimatedTag_1()
@@ -250,9 +256,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + ZZZUICURVEGRAPHIC_ONPOPULATEMESH_OFFSET))(this, vh);
 	}
 
-	::System::Void DrawBezierCurveList(::UnityEngine::UI::VertexHelper* vh, ::System::Collections::Generic::List_1<::ZzzUiCurveGraphic_CurveSegment*>* curves, ::System::Int32 curveSegments, ::UnityEngine::Vector2 shadowOffset, ::System::Boolean isShadowPass)
+	::System::Void DrawBezierCurveList(::UnityEngine::UI::VertexHelper* vh, ::System::Collections::Generic::List_1<::System::Object*>* curves, ::System::Int32 curveSegments, ::UnityEngine::Vector2 shadowOffset, ::System::Boolean isShadowPass)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::System::Collections::Generic::List_1<::ZzzUiCurveGraphic_CurveSegment*>*, ::System::Int32, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + ZZZUICURVEGRAPHIC_DRAWBEZIERCURVELIST_OFFSET))(this, vh, curves, curveSegments, shadowOffset, isShadowPass);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32, ::UnityEngine::Vector2, ::System::Boolean))((::PBYTE)hIl2Cpp + ZZZUICURVEGRAPHIC_DRAWBEZIERCURVELIST_OFFSET))(this, vh, curves, curveSegments, shadowOffset, isShadowPass);
 	}
 
 	::System::Void DrawBezierCurve(::UnityEngine::UI::VertexHelper* vh, ::ZzzUiCurveGraphic_CurveSegment* curve, ::System::Int32 curveSegments, ::UnityEngine::Vector2 shadowOffset, ::System::Boolean isShadowPass)

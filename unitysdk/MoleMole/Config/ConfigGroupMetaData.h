@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/System/Object.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 
-#define MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BD5CFB0)
-#define MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1BD5CD90)
-#define MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_METHOD_1_0BD393E566CD3D4A_OFFSET UNITYSDK_OFFSET(0x1BD5CE10)
-#define MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_METHOD_1_F4FDF6DDB7D0ADBB_OFFSET UNITYSDK_OFFSET(0x1BD5D010)
-#define MOLEMOLE_CONFIG_CONFIGGROUPMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5D240)
+#define MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190A1D00)
+#define MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x190A1AE0)
+#define MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_IAEALJJMOKA_OFFSET UNITYSDK_OFFSET(0x190A1D60)
+#define MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_PDHKICNJNGG_OFFSET UNITYSDK_OFFSET(0x190A1B60)
+#define MOLEMOLE_CONFIG_CONFIGGROUPMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x190A1F90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGroupMetaData_TypeDefinitionIndex = 70534;
+	inline static constexpr unsigned int ConfigGroupMetaData_TypeDefinitionIndex = 72717;
 
 	class ConfigGroupMetaData : public ::System::Object
 	{
@@ -26,24 +26,24 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGROUPMETADATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_FROMFLX_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean FromBinary(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_FROMBINARY_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 
-		::System::Boolean Method_1_F4FDF6DDB7D0ADBB(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean PDHKICNJNGG(::FlexBuffers::FlxMap HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_METHOD_1_F4FDF6DDB7D0ADBB_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_PDHKICNJNGG_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean Method_1_0BD393E566CD3D4A(::FlexBuffers::FlxMap a1)
+		::System::Boolean IAEALJJMOKA(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_METHOD_1_0BD393E566CD3D4A_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGROUPMETADATA_IAEALJJMOKA_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 	};
 }

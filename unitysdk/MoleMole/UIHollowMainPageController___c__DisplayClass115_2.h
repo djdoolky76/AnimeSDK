@@ -4,13 +4,14 @@
 
 namespace MoleMole { class UIVideoWidgetController; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17DBB890)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_2__SHOWSTARTPERFORMANCE_B__4_OFFSET UNITYSDK_OFFSET(0x17DBB8A0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17865310)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_2__SHOWSTARTPERFORMANCE_B__4_OFFSET UNITYSDK_OFFSET(0x17865320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass115_2_TypeDefinitionIndex = 73673;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass115_2_TypeDefinitionIndex = 84633;
 
+	template <typename T1, typename T2>
 	class UIHollowMainPageController___c__DisplayClass115_2 : public ::System::Object
 	{
 	public:

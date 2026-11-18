@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Reflection/Module.h"
 
-#define SYSTEM_REFLECTION_RUNTIMEMODULE_METHOD_2_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x1DF396D0)
+#define SYSTEM_REFLECTION_RUNTIMEMODULE_METHOD_0_OFFSET UNITYSDK_OFFSET(0x1E399560)
 
 namespace System::Reflection
 {
@@ -11,9 +11,9 @@ namespace System::Reflection
 	class RuntimeModule : public ::System::Reflection::Module
 	{
 	public:
-		::System::Void Method_2_F8C7231308CD2C82()
+		::System::Void Method_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEMODULE_METHOD_2_F8C7231308CD2C82_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEMODULE_METHOD_0_OFFSET))(this);
 		}
 	};
 }

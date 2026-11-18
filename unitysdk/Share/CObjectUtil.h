@@ -3,15 +3,13 @@
 #include "unitysdk/System/Object.h"
 
 namespace Share { class CRandom; }
-namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SHARE_COBJECTUTIL_SHUFFLEINDEXS_OFFSET UNITYSDK_OFFSET(0x1BBC42A0)
+#define SHARE_COBJECTUTIL_SHUFFLEINDEXS_OFFSET UNITYSDK_OFFSET(0x1D0097C0)
 
 namespace Share
 {
-	inline static constexpr unsigned int CObjectUtil_TypeDefinitionIndex = 11266;
+	inline static constexpr unsigned int CObjectUtil_TypeDefinitionIndex = 11985;
 
 	class CObjectUtil : public ::System::Object
 	{

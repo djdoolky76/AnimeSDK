@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetRequestHandle.h"
-#include "unitysdk/Foundation/Unreal/FGameplayTag.h"
 #include "unitysdk/Foundation/Unreal/FGameplayTagContainer.h"
+#include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/NPCCrowd/AI/EventStimulusConfig.h"
 #include "unitysdk/NPCCrowd/AI/ReactionConfig.h"
 #include "unitysdk/NPCCrowd/AI/ReactionConfigWrapper.h"
 #include "unitysdk/NPCCrowd/AI/ReactionRegisterObjectType.h"
-#include "unitysdk/NPCCrowd/AI/RegisterItem.h"
 #include "unitysdk/NPCCrowd/AI/StimulusConfig.h"
-#include "unitysdk/NPCCrowd/AI/StimulusItem.h"
 #include "unitysdk/NPCCrowd/NPCCrowdModuleManagerBase.h"
+#include "unitysdk/Foundation/Unreal/FGameplayTag.h"
+#include "unitysdk/NPCCrowd/AI/RegisterItem.h"
+#include "unitysdk/NPCCrowd/AI/StimulusItem.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_F346500DFC680A13;
-class Class_3_CCAF4B6A77932E66;
-class Class_3_CD04D3296DF4C842_1;
-class Class_3_F2DAD7F45F518868;
+class COCJHGGDBCA;
+class DOCIGCANGFO;
+class NCCGOIBPBGE;
+class OJGOIAPCKBN;
 namespace NPCCrowd::AI { class ReactionCallbackDelegate; }
 namespace NPCCrowd::AI { class ReactionConditionDelegate; }
 namespace NPCCrowd::AI { class ReactionConfigAssetSO; }
@@ -24,80 +24,80 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_BANALLREACTION_1_OFFSET UNITYSDK_OFFSET(0xF761F30)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_BANALLREACTION_OFFSET UNITYSDK_OFFSET(0xF761E70)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_CHECKBANTAG_OFFSET UNITYSDK_OFFSET(0xF762CA0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_CHECKCONDITION_OFFSET UNITYSDK_OFFSET(0xF762330)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_CHECKDELAYREACTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0xF7610C0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_CHECKRANGE_OFFSET UNITYSDK_OFFSET(0xF762D40)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_CHECKTAG_OFFSET UNITYSDK_OFFSET(0xF762D90)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_CHECKTIME_OFFSET UNITYSDK_OFFSET(0xF762F90)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_FORCEDOREACTION_OFFSET UNITYSDK_OFFSET(0xF761060)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_GETBANREACTIONTAG_OFFSET UNITYSDK_OFFSET(0xF75DAA0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_GETIKBANREACTIONTAG_OFFSET UNITYSDK_OFFSET(0xF75DCF0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_GETREACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0xF761420)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_GETSTIMULUSCONFIG_OFFSET UNITYSDK_OFFSET(0xF761500)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_GET_OFFSET UNITYSDK_OFFSET(0xF75D680)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_HANDLEEVENTCONFIGSTIMULUSDISABLE_OFFSET UNITYSDK_OFFSET(0xF760930)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_HANDLEEVENTCONFIGSTIMULUSENABLE_OFFSET UNITYSDK_OFFSET(0xF75F800)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xF75F170)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF761DA0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_ONCROWDENTITYADD_OFFSET UNITYSDK_OFFSET(0xF75F230)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_ONENTITYREMOVED_OFFSET UNITYSDK_OFFSET(0xF7600B0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xF75DFF0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0xF75D970)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_PREUPDATE_OFFSET UNITYSDK_OFFSET(0xF761CA0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_REACTIONCALLBACKFUNC_OFFSET UNITYSDK_OFFSET(0xF760CC0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_REGISTERREACTION_OFFSET UNITYSDK_OFFSET(0xF75F440)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_REPLACEREACTION_OFFSET UNITYSDK_OFFSET(0xF760D20)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xF75D880)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_UNBANALLREACTION_1_OFFSET UNITYSDK_OFFSET(0xF762190)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_UNBANALLREACTION_OFFSET UNITYSDK_OFFSET(0xF7620D0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_UNREGISTERREACTION_OFFSET UNITYSDK_OFFSET(0xF760560)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_UPDATEACTIONSTATE_OFFSET UNITYSDK_OFFSET(0xF7615C0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF7633F0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xF762FB0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0xF763430)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF7634C0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___BASE_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xF763560)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___BASE_PREUPDATE_OFFSET UNITYSDK_OFFSET(0xF7635F0)
-#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___BASE_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xF763690)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_BANALLREACTION_1_OFFSET UNITYSDK_OFFSET(0xFD1B530)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_BANALLREACTION_OFFSET UNITYSDK_OFFSET(0xFD1B470)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_CHECKBANTAG_OFFSET UNITYSDK_OFFSET(0xFD1C2A0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_CHECKCONDITION_OFFSET UNITYSDK_OFFSET(0xFD1B930)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_CHECKDELAYREACTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0xFD1A6C0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_CHECKRANGE_OFFSET UNITYSDK_OFFSET(0xFD1C340)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_CHECKTAG_OFFSET UNITYSDK_OFFSET(0xFD1C390)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_CHECKTIME_OFFSET UNITYSDK_OFFSET(0xFD1C590)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_FORCEDOREACTION_OFFSET UNITYSDK_OFFSET(0xFD1A660)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_GETBANREACTIONTAG_OFFSET UNITYSDK_OFFSET(0xFD170B0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_GETIKBANREACTIONTAG_OFFSET UNITYSDK_OFFSET(0xFD17300)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_GETREACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0xFD1AA20)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_GETSTIMULUSCONFIG_OFFSET UNITYSDK_OFFSET(0xFD1AB00)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_GET_OFFSET UNITYSDK_OFFSET(0xFD16C80)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_HANDLEEVENTCONFIGSTIMULUSDISABLE_OFFSET UNITYSDK_OFFSET(0xFD19F30)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_HANDLEEVENTCONFIGSTIMULUSENABLE_OFFSET UNITYSDK_OFFSET(0xFD18E00)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xFD18780)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xFD1B3A0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_ONCROWDENTITYADD_OFFSET UNITYSDK_OFFSET(0xFD18830)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_ONENTITYREMOVED_OFFSET UNITYSDK_OFFSET(0xFD196B0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xFD17600)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_PRELOADASSETS_OFFSET UNITYSDK_OFFSET(0xFD16F70)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_PREUPDATE_OFFSET UNITYSDK_OFFSET(0xFD1B2A0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_REACTIONCALLBACKFUNC_OFFSET UNITYSDK_OFFSET(0xFD1A2C0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_REGISTERREACTION_OFFSET UNITYSDK_OFFSET(0xFD18A40)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_REPLACEREACTION_OFFSET UNITYSDK_OFFSET(0xFD1A320)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xFD16E80)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_UNBANALLREACTION_1_OFFSET UNITYSDK_OFFSET(0xFD1B790)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_UNBANALLREACTION_OFFSET UNITYSDK_OFFSET(0xFD1B6D0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_UNREGISTERREACTION_OFFSET UNITYSDK_OFFSET(0xFD19B60)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER_UPDATEACTIONSTATE_OFFSET UNITYSDK_OFFSET(0xFD1ABC0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xFD1C9F0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xFD1C5B0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___BASE_INIT_OFFSET UNITYSDK_OFFSET(0xFD1CA30)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xFD1CAC0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___BASE_ONPRELOADFINISHED_OFFSET UNITYSDK_OFFSET(0xFD1CB60)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___BASE_PREUPDATE_OFFSET UNITYSDK_OFFSET(0xFD1CBF0)
+#define NPCCROWD_AI_NPCCROWDREACTIONMANAGER___BASE_SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xFD1CC90)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCCrowdReactionManager_TypeDefinitionIndex = 46386;
+	inline static constexpr unsigned int NPCCrowdReactionManager_TypeDefinitionIndex = 74402;
 
 	class NPCCrowdReactionManager : public ::NPCCrowd::NPCCrowdModuleManagerBase
 	{
 	public:
-		static ::Foundation::Unreal::FGameplayTagContainer* StaticGet_BanTags()
-		{
-			return (::Foundation::Unreal::FGameplayTagContainer*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdReactionManager_TypeDefinitionIndex)->GetStaticField(0x4B100);
-		}
-		static ::NPCCrowd::AI::ReactionConfigAssetSO** StaticGet_ReactionConfigSO()
-		{
-			return (::NPCCrowd::AI::ReactionConfigAssetSO**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdReactionManager_TypeDefinitionIndex)->GetStaticField(0x4B170);
-		}
 		static ::Foundation::AssetRequestHandle* StaticGet_AssetRequest()
 		{
-			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdReactionManager_TypeDefinitionIndex)->GetStaticField(0x4B178);
+			return (::Foundation::AssetRequestHandle*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdReactionManager_TypeDefinitionIndex)->GetStaticField(0x522C0);
 		}
 		static ::System::String** StaticGet_TEMPLATE_ASSET_SO()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdReactionManager_TypeDefinitionIndex)->GetStaticField(0x4B198);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdReactionManager_TypeDefinitionIndex)->GetStaticField(0x522E0);
 		}
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::AI::ReactionConfigWrapper>* entityID2ReactionHandlers; // 0x18
+		static ::Foundation::Unreal::FGameplayTagContainer* StaticGet_BanTags()
+		{
+			return (::Foundation::Unreal::FGameplayTagContainer*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdReactionManager_TypeDefinitionIndex)->GetStaticField(0x522E8);
+		}
+		static ::NPCCrowd::AI::ReactionConfigAssetSO** StaticGet_ReactionConfigSO()
+		{
+			return (::NPCCrowd::AI::ReactionConfigAssetSO**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdReactionManager_TypeDefinitionIndex)->GetStaticField(0x52358);
+		}
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::AI::StimulusConfig>* StimulusConfigs; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::AI::ReactionConfig>* ReactionConfigs; // 0x20
-		::NPCCrowd::AI::ReactionConditionDelegate* ReactionCondition; // 0x28
-		::NPCCrowd::AI::ReactionCallbackDelegate* ReactionCallback; // 0x30
-		::System::Collections::Generic::List_1<::System::UInt32>* caches; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* entityID2ReactionID; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::AI::StimulusConfig>* StimulusConfigs; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_3_CD04D3296DF4C842_1*>* entityID2OnInteract; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Int32>*>* entityID2DistanceHandlers; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::AI::EventStimulusConfig>* EventStimulusConfigs; // 0x60
-		::System::Int32 dayOfWeek; // 0x68
-		::System::Int32 dayPeriod; // 0x6C
+		::NPCCrowd::AI::ReactionCallbackDelegate* ReactionCallback; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* entityID2ReactionID; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NCCGOIBPBGE*>* entityID2OnInteract; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::Int32>*>* entityID2DistanceHandlers; // 0x40
+		::NPCCrowd::AI::ReactionConditionDelegate* ReactionCondition; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::AI::ReactionConfigWrapper>* entityID2ReactionHandlers; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::NPCCrowd::AI::EventStimulusConfig>* EventStimulusConfigs; // 0x58
+		::System::Collections::Generic::List_1<::System::UInt32>* caches; // 0x60
+		::System::Int32 dayPeriod; // 0x68
+		::System::Int32 dayOfWeek; // 0x6C
 
 		::System::Void _ctor()
 		{
@@ -144,24 +144,24 @@ namespace NPCCrowd::AI
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_INIT_OFFSET))(this);
 		}
 
-		::System::Void OnCrowdEntityAdd(::Class_3_F2DAD7F45F518868* cmp)
+		::System::Void OnCrowdEntityAdd(::COCJHGGDBCA* cmp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_ONCROWDENTITYADD_OFFSET))(this, cmp);
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_ONCROWDENTITYADD_OFFSET))(this, cmp);
 		}
 
-		::System::Void HandleEventConfigStimulusEnable(::Class_3_F2DAD7F45F518868* cmp, ::Class_2_F346500DFC680A13* npcSubTemplate)
+		::System::Void HandleEventConfigStimulusEnable(::COCJHGGDBCA* cmp, ::OJGOIAPCKBN* npcSubTemplate)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F2DAD7F45F518868*, ::Class_2_F346500DFC680A13*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_HANDLEEVENTCONFIGSTIMULUSENABLE_OFFSET))(this, cmp, npcSubTemplate);
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*, ::OJGOIAPCKBN*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_HANDLEEVENTCONFIGSTIMULUSENABLE_OFFSET))(this, cmp, npcSubTemplate);
 		}
 
-		::System::Void OnEntityRemoved(::Class_3_F2DAD7F45F518868* cmp)
+		::System::Void OnEntityRemoved(::COCJHGGDBCA* cmp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_ONENTITYREMOVED_OFFSET))(this, cmp);
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_ONENTITYREMOVED_OFFSET))(this, cmp);
 		}
 
-		::System::Void HandleEventConfigStimulusDisable(::Class_3_F2DAD7F45F518868* cmp)
+		::System::Void HandleEventConfigStimulusDisable(::COCJHGGDBCA* cmp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_HANDLEEVENTCONFIGSTIMULUSDISABLE_OFFSET))(this, cmp);
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_HANDLEEVENTCONFIGSTIMULUSDISABLE_OFFSET))(this, cmp);
 		}
 
 		::System::Void ReactionCallbackFunc(::System::Int32 entityID, ::System::UInt32 reactionID)
@@ -224,9 +224,9 @@ namespace NPCCrowd::AI
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Foundation::Unreal::FGameplayTag))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_BANALLREACTION_OFFSET))(this, entityID, tag);
 		}
 
-		::System::Void BanAllReaction_1(::Class_3_CCAF4B6A77932E66* tagComponent, ::Foundation::Unreal::FGameplayTag tag)
+		::System::Void BanAllReaction_1(::DOCIGCANGFO* tagComponent, ::Foundation::Unreal::FGameplayTag tag)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_CCAF4B6A77932E66*, ::Foundation::Unreal::FGameplayTag))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_BANALLREACTION_1_OFFSET))(this, tagComponent, tag);
+			return ((::System::Void(*)(::PVOID, ::DOCIGCANGFO*, ::Foundation::Unreal::FGameplayTag))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_BANALLREACTION_1_OFFSET))(this, tagComponent, tag);
 		}
 
 		::System::Void UnBanAllReaction(::System::UInt32 entityID, ::Foundation::Unreal::FGameplayTag tag)
@@ -234,9 +234,9 @@ namespace NPCCrowd::AI
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Foundation::Unreal::FGameplayTag))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_UNBANALLREACTION_OFFSET))(this, entityID, tag);
 		}
 
-		::System::Void UnBanAllReaction_1(::Class_3_CCAF4B6A77932E66* tagComponent, ::Foundation::Unreal::FGameplayTag tag)
+		::System::Void UnBanAllReaction_1(::DOCIGCANGFO* tagComponent, ::Foundation::Unreal::FGameplayTag tag)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_CCAF4B6A77932E66*, ::Foundation::Unreal::FGameplayTag))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_UNBANALLREACTION_1_OFFSET))(this, tagComponent, tag);
+			return ((::System::Void(*)(::PVOID, ::DOCIGCANGFO*, ::Foundation::Unreal::FGameplayTag))((::PBYTE)hIl2Cpp + NPCCROWD_AI_NPCCROWDREACTIONMANAGER_UNBANALLREACTION_1_OFFSET))(this, tagComponent, tag);
 		}
 
 		static ::System::Boolean CheckCondition(::NPCCrowd::AI::StimulusItem stimulus, ::NPCCrowd::AI::RegisterItem registerItem)

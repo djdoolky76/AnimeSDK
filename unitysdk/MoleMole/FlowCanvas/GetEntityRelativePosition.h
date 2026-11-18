@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
-#include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 #include "unitysdk/Share/GridDir.h"
+#include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_GETENTITYRELATIVEPOSITION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A999420)
-#define MOLEMOLE_FLOWCANVAS_GETENTITYRELATIVEPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A999580)
+#define MOLEMOLE_FLOWCANVAS_GETENTITYRELATIVEPOSITION_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D091A0)
+#define MOLEMOLE_FLOWCANVAS_GETENTITYRELATIVEPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x10D09300)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int GetEntityRelativePosition_TypeDefinitionIndex = 58052;
+	inline static constexpr unsigned int GetEntityRelativePosition_TypeDefinitionIndex = 69420;
 
-	class GetEntityRelativePosition : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::MoleMole::HollowChessboard::HollowCell, ::MoleMole::ChessEntity*, ::Share::GridDir>
+	class GetEntityRelativePosition
 	{
 	public:
 		::System::Void _ctor()

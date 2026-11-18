@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define NAP_NAPECS_ECSSYSTEMATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C847490)
-#define NAP_NAPECS_ECSSYSTEMATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C8474E0)
-#define NAP_NAPECS_ECSSYSTEMATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C847450)
+#define NAP_NAPECS_ECSSYSTEMATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CE0EB40)
+#define NAP_NAPECS_ECSSYSTEMATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1CE0EB90)
+#define NAP_NAPECS_ECSSYSTEMATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0EB00)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsSystemAttribute_TypeDefinitionIndex = 37961;
+	inline static constexpr unsigned int EcsSystemAttribute_TypeDefinitionIndex = 35922;
 
 	class EcsSystemAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* Scope; // 0x10
-		::System::Type* RunAfter; // 0x18
+		::System::Type* RunAfter; // 0x10
+		::System::String* Scope; // 0x18
 		::System::Boolean EnableSingleplayer; // 0x20
 		::System::Boolean Enable; // 0x21
 		::System::Boolean EnableMultiplayer; // 0x22

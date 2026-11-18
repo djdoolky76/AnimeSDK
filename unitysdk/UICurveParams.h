@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define UICURVEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC41EA0)
+#define UICURVEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1F32C0)
 
-inline static constexpr unsigned int UICurveParams_TypeDefinitionIndex = 43909;
+inline static constexpr unsigned int UICurveParams_TypeDefinitionIndex = 62297;
 
 class UICurveParams : public ::System::Object
 {

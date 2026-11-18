@@ -6,11 +6,11 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Security::Claims { class Claim; }
 namespace System::Security::Claims { class ClaimsIdentity; }
 
-#define SYSTEM_SECURITY_CLAIMS_DYNAMICROLECLAIMPROVIDER_ADDDYNAMICROLECLAIMS_OFFSET UNITYSDK_OFFSET(0x1E7EBDC0)
+#define SYSTEM_SECURITY_CLAIMS_DYNAMICROLECLAIMPROVIDER_ADDDYNAMICROLECLAIMS_OFFSET UNITYSDK_OFFSET(0x1EA9EE30)
 
 namespace System::Security::Claims
 {
-	inline static constexpr unsigned int DynamicRoleClaimProvider_TypeDefinitionIndex = 4108;
+	inline static constexpr unsigned int DynamicRoleClaimProvider_TypeDefinitionIndex = 4107;
 
 	class DynamicRoleClaimProvider : public ::System::Object
 	{

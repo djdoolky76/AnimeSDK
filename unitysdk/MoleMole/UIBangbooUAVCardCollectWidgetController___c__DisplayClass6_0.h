@@ -5,18 +5,18 @@
 namespace MoleMole { class UIBangbooUAVCardCollectWidgetController; }
 namespace MoleMole { class UIGeneralToggleWidgetController; }
 
-#define MOLEMOLE_UIBANGBOOUAVCARDCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16D52870)
-#define MOLEMOLE_UIBANGBOOUAVCARDCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x16D52880)
+#define MOLEMOLE_UIBANGBOOUAVCARDCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17ECD660)
+#define MOLEMOLE_UIBANGBOOUAVCARDCOLLECTWIDGETCONTROLLER___C__DISPLAYCLASS6_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x17ECD670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooUAVCardCollectWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 56136;
+	inline static constexpr unsigned int UIBangbooUAVCardCollectWidgetController___c__DisplayClass6_0_TypeDefinitionIndex = 69679;
 
 	class UIBangbooUAVCardCollectWidgetController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBangbooUAVCardCollectWidgetController* __4__this; // 0x10
-		::MoleMole::UIGeneralToggleWidgetController* toggle; // 0x18
+		::MoleMole::UIGeneralToggleWidgetController* toggle; // 0x10
+		::MoleMole::UIBangbooUAVCardCollectWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

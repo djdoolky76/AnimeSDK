@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_BATTLE_PBDCULLPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x12EE15A0)
+#define MOLEMOLE_BATTLE_PBDCULLPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x12756A00)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int PBDCullProxy_TypeDefinitionIndex = 58840;
+	inline static constexpr unsigned int PBDCullProxy_TypeDefinitionIndex = 55996;
 
 	class PBDCullProxy : public ::UnityEngine::MonoBehaviour
 	{

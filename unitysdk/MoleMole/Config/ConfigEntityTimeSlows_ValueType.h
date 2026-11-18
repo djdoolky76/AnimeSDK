@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityTimeSlows_ValueType_TypeDefinitionIndex = 60078;
+	inline static constexpr unsigned int ConfigEntityTimeSlows_ValueType_TypeDefinitionIndex = 63636;
 
 	enum class ConfigEntityTimeSlows_ValueType : ::System::Int32
 	{

@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GeneralTopTipShow.h"
 
-class Class_2_544292CE70D394DF;
+class NLCBIAFHPFB;
 
-#define MOLEMOLE_ANTIQUELEVELUPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x150D9240)
-#define MOLEMOLE_ANTIQUELEVELUPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x150D9220)
-#define MOLEMOLE_ANTIQUELEVELUPSHOW___BASE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x150D94D0)
+#define MOLEMOLE_ANTIQUELEVELUPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x19217D40)
+#define MOLEMOLE_ANTIQUELEVELUPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x19217D20)
+#define MOLEMOLE_ANTIQUELEVELUPSHOW___BASE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x19217FD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AntiqueLevelUpShow_TypeDefinitionIndex = 74003;
+	inline static constexpr unsigned int AntiqueLevelUpShow_TypeDefinitionIndex = 45397;
 
 	class AntiqueLevelUpShow : public ::MoleMole::GeneralTopTipShow
 	{
 	public:
-		::Class_2_544292CE70D394DF* _context; // 0x30
+		::NLCBIAFHPFB* _context; // 0x30
 
-		::System::Void _ctor(::Class_2_544292CE70D394DF* context)
+		::System::Void _ctor(::NLCBIAFHPFB* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_544292CE70D394DF*))((::PBYTE)hIl2Cpp + MOLEMOLE_ANTIQUELEVELUPSHOW__CTOR_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::NLCBIAFHPFB*))((::PBYTE)hIl2Cpp + MOLEMOLE_ANTIQUELEVELUPSHOW__CTOR_OFFSET))(this, context);
 		}
 
 		::System::Void OnProcess()

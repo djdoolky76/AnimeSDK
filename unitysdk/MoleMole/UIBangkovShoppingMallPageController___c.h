@@ -2,51 +2,51 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_36;
-class Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C_1;
-class Class_1_F9DEAB2783027603;
+class BDDCKGJPAPN;
+class IANDOOLAALI_DLAAJNDJPLO;
+class OAEFGCLEHHO;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18527F40)
-#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__CLEARBANGKOVTABBADGE_B__40_0_OFFSET UNITYSDK_OFFSET(0x18528200)
-#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18527F80)
-#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__INITVIEW_B__23_3_OFFSET UNITYSDK_OFFSET(0x185281F0)
-#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__INITVIEW_B__23_5_OFFSET UNITYSDK_OFFSET(0x18527FA0)
-#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__INITVIEW_B__23_6_OFFSET UNITYSDK_OFFSET(0x185281E0)
-#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__SETCURGOODSLIST_B__20_0_OFFSET UNITYSDK_OFFSET(0x18527F90)
+#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A248DC0)
+#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__CLEARBANGKOVTABBADGE_B__40_0_OFFSET UNITYSDK_OFFSET(0x1A249080)
+#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A248E00)
+#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__INITVIEW_B__23_3_OFFSET UNITYSDK_OFFSET(0x1A249070)
+#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__INITVIEW_B__23_5_OFFSET UNITYSDK_OFFSET(0x1A248E20)
+#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__INITVIEW_B__23_6_OFFSET UNITYSDK_OFFSET(0x1A249060)
+#define MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__SETCURGOODSLIST_B__20_0_OFFSET UNITYSDK_OFFSET(0x1A248E10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovShoppingMallPageController___c_TypeDefinitionIndex = 48651;
+	inline static constexpr unsigned int UIBangkovShoppingMallPageController___c_TypeDefinitionIndex = 72814;
 
 	class UIBangkovShoppingMallPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_F9DEAB2783027603*, ::System::Boolean>** StaticGet___9__20_0()
+		static ::System::Action** StaticGet___9__23_6()
 		{
-			return (::System::Func_2<::Class_1_F9DEAB2783027603*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovShoppingMallPageController___c_TypeDefinitionIndex)->GetStaticField(0x36B00);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovShoppingMallPageController___c_TypeDefinitionIndex)->GetStaticField(0x38C90);
 		}
 		static ::System::Action** StaticGet___9__23_5()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovShoppingMallPageController___c_TypeDefinitionIndex)->GetStaticField(0x36B08);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovShoppingMallPageController___c_TypeDefinitionIndex)->GetStaticField(0x38C98);
 		}
-		static ::MoleMole::UIBangkovShoppingMallPageController___c** StaticGet___9()
+		static ::System::Func_2<::BDDCKGJPAPN*, ::System::Boolean>** StaticGet___9__20_0()
 		{
-			return (::MoleMole::UIBangkovShoppingMallPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovShoppingMallPageController___c_TypeDefinitionIndex)->GetStaticField(0x36B10);
+			return (::System::Func_2<::BDDCKGJPAPN*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovShoppingMallPageController___c_TypeDefinitionIndex)->GetStaticField(0x38CA0);
 		}
-		static ::Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C_1** StaticGet___9__40_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C_1**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovShoppingMallPageController___c_TypeDefinitionIndex)->GetStaticField(0x36B18);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovShoppingMallPageController___c_TypeDefinitionIndex)->GetStaticField(0x38CA8);
+		}
+		static ::IANDOOLAALI_DLAAJNDJPLO** StaticGet___9__40_0()
+		{
+			return (::IANDOOLAALI_DLAAJNDJPLO**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovShoppingMallPageController___c_TypeDefinitionIndex)->GetStaticField(0x38CB0);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__23_3()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovShoppingMallPageController___c_TypeDefinitionIndex)->GetStaticField(0x36B20);
-		}
-		static ::System::Action** StaticGet___9__23_6()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovShoppingMallPageController___c_TypeDefinitionIndex)->GetStaticField(0x36B28);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIBangkovShoppingMallPageController___c_TypeDefinitionIndex)->GetStaticField(0x38CB8);
 		}
 
 		static ::System::Void _cctor()
@@ -59,9 +59,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _SetCurGoodsList_b__20_0(::Class_1_F9DEAB2783027603* x)
+		::System::Boolean _SetCurGoodsList_b__20_0(::BDDCKGJPAPN* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F9DEAB2783027603*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__SETCURGOODSLIST_B__20_0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::BDDCKGJPAPN*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__SETCURGOODSLIST_B__20_0_OFFSET))(this, x);
 		}
 
 		::System::Void _InitView_b__23_5()
@@ -79,9 +79,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__INITVIEW_B__23_3_OFFSET))(this);
 		}
 
-		::System::Void _ClearBangkovTabBadge_b__40_0(::Class_0_16E4307DCC419505_36* _)
+		::System::Void _ClearBangkovTabBadge_b__40_0(::OAEFGCLEHHO* _)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_36*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__CLEARBANGKOVTABBADGE_B__40_0_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGKOVSHOPPINGMALLPAGECONTROLLER___C__CLEARBANGKOVTABBADGE_B__40_0_OFFSET))(this, _);
 		}
 	};
 }

@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_79204BBCEA1240BB_Enum_3_BA2FF5C66FF53326.h"
-#include "unitysdk/MoleMole/ProfIndicator_Enum_3_CC1DD23322D5CC3A.h"
+#include "unitysdk/JJJKGBHEOPE_LNPJHHHEAOD.h"
+#include "unitysdk/MoleMole/ProfIndicator_IEAFNIKFOIN.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_1AF9C4B0B019563B;
+class KKKFBHELCFC;
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -13,75 +14,78 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_PROFINDICATOR_AWAKE_OFFSET UNITYSDK_OFFSET(0x11D61230)
-#define MOLEMOLE_PROFINDICATOR_CHECKGENERALUI_OFFSET UNITYSDK_OFFSET(0x11D620B0)
-#define MOLEMOLE_PROFINDICATOR_METHOD_5_017C915772AE00E9_OFFSET UNITYSDK_OFFSET(0x11D647B0)
-#define MOLEMOLE_PROFINDICATOR_METHOD_5_071850D2764E9D4C_OFFSET UNITYSDK_OFFSET(0x11D63AF0)
-#define MOLEMOLE_PROFINDICATOR_METHOD_5_19844080C13BA28F_OFFSET UNITYSDK_OFFSET(0x11D63490)
-#define MOLEMOLE_PROFINDICATOR_METHOD_5_22F3F5F8518606BB_OFFSET UNITYSDK_OFFSET(0x11D63880)
-#define MOLEMOLE_PROFINDICATOR_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x11D646E0)
-#define MOLEMOLE_PROFINDICATOR_METHOD_5_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x11D62490)
-#define MOLEMOLE_PROFINDICATOR_METHOD_5_8DC652D916C182B2_OFFSET UNITYSDK_OFFSET(0x11D64810)
-#define MOLEMOLE_PROFINDICATOR_METHOD_5_DCD9FE8382DA243A_OFFSET UNITYSDK_OFFSET(0x11D63800)
-#define MOLEMOLE_PROFINDICATOR_METHOD_5_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x11D62DF0)
-#define MOLEMOLE_PROFINDICATOR_METHOD_5_F79D5EC57FBF426E_OFFSET UNITYSDK_OFFSET(0x11D62C90)
-#define MOLEMOLE_PROFINDICATOR_ONANIMATIONCLIPBTNCLICK_OFFSET UNITYSDK_OFFSET(0x11D62FB0)
-#define MOLEMOLE_PROFINDICATOR_ONMATERIALBTNCLICK_OFFSET UNITYSDK_OFFSET(0x11D63000)
-#define MOLEMOLE_PROFINDICATOR_ONMESHBTNCLICK_OFFSET UNITYSDK_OFFSET(0x11D62F60)
-#define MOLEMOLE_PROFINDICATOR_ONRENDERTEXTUREBTNCLICK_OFFSET UNITYSDK_OFFSET(0x11D62F10)
-#define MOLEMOLE_PROFINDICATOR_ONSTREAMASBCLICK_OFFSET UNITYSDK_OFFSET(0x11D63050)
-#define MOLEMOLE_PROFINDICATOR_ONTEXTUREBTNCLICK_OFFSET UNITYSDK_OFFSET(0x11D62DA0)
-#define MOLEMOLE_PROFINDICATOR_ONTOTALBTNCLICK_OFFSET UNITYSDK_OFFSET(0x11D62D40)
-#define MOLEMOLE_PROFINDICATOR_ONUPLOADBTNCLICK_OFFSET UNITYSDK_OFFSET(0x11D63270)
-#define MOLEMOLE_PROFINDICATOR_RECORDMEMORY_OFFSET UNITYSDK_OFFSET(0x11D62730)
-#define MOLEMOLE_PROFINDICATOR_RESETMAXMEMORY_OFFSET UNITYSDK_OFFSET(0x11D630A0)
-#define MOLEMOLE_PROFINDICATOR_START_OFFSET UNITYSDK_OFFSET(0x11D62420)
-#define MOLEMOLE_PROFINDICATOR_TRACKCURMEM_OFFSET UNITYSDK_OFFSET(0x11D631F0)
-#define MOLEMOLE_PROFINDICATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x11D625E0)
-#define MOLEMOLE_PROFINDICATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x11D63450)
-#define MOLEMOLE_PROFINDICATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x11D632B0)
+#define MOLEMOLE_PROFINDICATOR_ADAFKGGLJAN_OFFSET UNITYSDK_OFFSET(0x18950960)
+#define MOLEMOLE_PROFINDICATOR_AEDDPFJFDMH_OFFSET UNITYSDK_OFFSET(0x18951BD0)
+#define MOLEMOLE_PROFINDICATOR_AWAKE_OFFSET UNITYSDK_OFFSET(0x1894F700)
+#define MOLEMOLE_PROFINDICATOR_BAJDIMJIDEB_OFFSET UNITYSDK_OFFSET(0x18952CE0)
+#define MOLEMOLE_PROFINDICATOR_BOEOOJFDCIH_OFFSET UNITYSDK_OFFSET(0x18952C80)
+#define MOLEMOLE_PROFINDICATOR_CDKFKCEAGPO_OFFSET UNITYSDK_OFFSET(0x18951960)
+#define MOLEMOLE_PROFINDICATOR_CHECKGENERALUI_OFFSET UNITYSDK_OFFSET(0x18950580)
+#define MOLEMOLE_PROFINDICATOR_IEEAILLFPCG_OFFSET UNITYSDK_OFFSET(0x189512C0)
+#define MOLEMOLE_PROFINDICATOR_JOOHFAFHABK_OFFSET UNITYSDK_OFFSET(0x18951CA0)
+#define MOLEMOLE_PROFINDICATOR_KHJHJNFKACF_OFFSET UNITYSDK_OFFSET(0x18952010)
+#define MOLEMOLE_PROFINDICATOR_MPBFIBODIDL_OFFSET UNITYSDK_OFFSET(0x18952C00)
+#define MOLEMOLE_PROFINDICATOR_ONANIMATIONCLIPBTNCLICK_OFFSET UNITYSDK_OFFSET(0x18951480)
+#define MOLEMOLE_PROFINDICATOR_ONMATERIALBTNCLICK_OFFSET UNITYSDK_OFFSET(0x189514D0)
+#define MOLEMOLE_PROFINDICATOR_ONMESHBTNCLICK_OFFSET UNITYSDK_OFFSET(0x18951430)
+#define MOLEMOLE_PROFINDICATOR_ONRENDERTEXTUREBTNCLICK_OFFSET UNITYSDK_OFFSET(0x189513E0)
+#define MOLEMOLE_PROFINDICATOR_ONSTREAMASBCLICK_OFFSET UNITYSDK_OFFSET(0x18951520)
+#define MOLEMOLE_PROFINDICATOR_ONTEXTUREBTNCLICK_OFFSET UNITYSDK_OFFSET(0x18951270)
+#define MOLEMOLE_PROFINDICATOR_ONTOTALBTNCLICK_OFFSET UNITYSDK_OFFSET(0x18951210)
+#define MOLEMOLE_PROFINDICATOR_ONUPLOADBTNCLICK_OFFSET UNITYSDK_OFFSET(0x18951740)
+#define MOLEMOLE_PROFINDICATOR_PDKCHDBODJB_OFFSET UNITYSDK_OFFSET(0x18951160)
+#define MOLEMOLE_PROFINDICATOR_RECORDMEMORY_OFFSET UNITYSDK_OFFSET(0x18950C00)
+#define MOLEMOLE_PROFINDICATOR_RESETMAXMEMORY_OFFSET UNITYSDK_OFFSET(0x18951570)
+#define MOLEMOLE_PROFINDICATOR_START_OFFSET UNITYSDK_OFFSET(0x189508F0)
+#define MOLEMOLE_PROFINDICATOR_TRACKCURMEM_OFFSET UNITYSDK_OFFSET(0x189516C0)
+#define MOLEMOLE_PROFINDICATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x18950AB0)
+#define MOLEMOLE_PROFINDICATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x18951920)
+#define MOLEMOLE_PROFINDICATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18951780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ProfIndicator_TypeDefinitionIndex = 41853;
+	inline static constexpr unsigned int ProfIndicator_TypeDefinitionIndex = 46217;
 
 	class ProfIndicator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_Field_5_34()
+		static ::System::String** StaticGet_HAJGMNLMJCO()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProfIndicator_TypeDefinitionIndex)->GetStaticField(0x4FE30);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProfIndicator_TypeDefinitionIndex)->GetStaticField(0x517A0);
 		}
-		::MoleMole::ProfIndicator_Enum_3_CC1DD23322D5CC3A Field_5_0; // 0x18
-		::UnityEngine::Transform* Field_5_7; // 0x20
-		::UnityEngine::Transform* Field_5_6; // 0x28
-		::UnityEngine::Transform* Field_5_5; // 0x30
-		::UnityEngine::Transform* Field_5_4; // 0x38
+		::MoleMole::ProfIndicator_IEAFNIKFOIN EJHGOKAMACC; // 0x18
+		::System::Byte _padding0[0x4];
+		::UnityEngine::Transform* DAKLDIFJHGP; // 0x20
+		::UnityEngine::Transform* BJNBPLEKDPA; // 0x28
+		::UnityEngine::Transform* BONFEGHGIAM; // 0x30
+		::UnityEngine::Transform* OAMIIEGCANE; // 0x38
 		::System::Single _refreshInterval; // 0x40
-		::System::Single Field_5_10; // 0x44
+		::System::Single HFHHKPPFCHP; // 0x44
 		::UnityEngine::Transform* _assetItemUIPrefab; // 0x48
 		::System::Int32 _assetItemUINum; // 0x50
-		::System::UInt32 Field_5_15; // 0x54
-		::System::Collections::Generic::Dictionary_2<::Class_1_79204BBCEA1240BB_Enum_3_BA2FF5C66FF53326, ::Class_1_1AF9C4B0B019563B*>* Field_5_14; // 0x58
-		::Class_1_79204BBCEA1240BB_Enum_3_BA2FF5C66FF53326 Field_5_13; // 0x60
-		::UnityEngine::UI::ScrollRect* Field_5_12; // 0x68
-		::UnityEngine::UI::Text* Field_5_19; // 0x70
-		::UnityEngine::UI::Text* Field_5_18; // 0x78
-		::UnityEngine::UI::Text* Field_5_17; // 0x80
-		::UnityEngine::UI::Text* Field_5_16; // 0x88
-		::UnityEngine::UI::Text* Field_5_23; // 0x90
-		::UnityEngine::UI::Text* Field_5_22; // 0x98
-		::UnityEngine::UI::Text* Field_5_21; // 0xA0
-		::UnityEngine::UI::Text* Field_5_20; // 0xA8
-		::UnityEngine::UI::Text* Field_5_27; // 0xB0
-		::UnityEngine::UI::Text* Field_5_26; // 0xB8
-		::UnityEngine::UI::Text* Field_5_25; // 0xC0
+		::System::UInt32 KBFALPHPEFL; // 0x54
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::KKKFBHELCFC*>* NBGEILFKDHP; // 0x58
+		::JJJKGBHEOPE_LNPJHHHEAOD LPKMPKIAHCB; // 0x60
+		::System::Byte _padding1[0x4];
+		::UnityEngine::UI::ScrollRect* GIFAINPFBDG; // 0x68
+		::UnityEngine::UI::Text* FGIIDJPKHJM; // 0x70
+		::UnityEngine::UI::Text* GDFBMJABMIN; // 0x78
+		::UnityEngine::UI::Text* GAPDFALAFHD; // 0x80
+		::UnityEngine::UI::Text* BAPADEHKKOC; // 0x88
+		::UnityEngine::UI::Text* FOOAIDICFBL; // 0x90
+		::UnityEngine::UI::Text* JAFBFLCCBBN; // 0x98
+		::UnityEngine::UI::Text* AGGLOHCLJMA; // 0xA0
+		::UnityEngine::UI::Text* DGGPCOCIAHG; // 0xA8
+		::UnityEngine::UI::Text* JDGKIPNNGOP; // 0xB0
+		::UnityEngine::UI::Text* IJFEPKFPFCG; // 0xB8
+		::UnityEngine::UI::Text* MCBHKBMEOKG; // 0xC0
 		::System::Collections::Generic::List_1<::System::Int32>* memoryMaxInfoList; // 0xC8
-		::System::Collections::Generic::List_1<::UnityEngine::UI::Text*>* Field_5_31; // 0xD0
+		::System::Collections::Generic::List_1<::UnityEngine::UI::Text*>* CFJGIFECABG; // 0xD0
 		::System::Collections::Generic::List_1<::System::String*>* memToRecordList; // 0xD8
-		::System::Boolean Field_5_29; // 0xE0
-		::System::Single Field_5_28; // 0xE4
-		::System::Single Field_5_35; // 0xE8
+		::System::Boolean EFNLLONAKCF; // 0xE0
+		::System::Byte _padding2[0x3];
+		::System::Single NMCHBLPBLKH; // 0xE4
+		::System::Single JPGJPHJPMKI; // 0xE8
 
 		::System::Void _ctor()
 		{
@@ -153,9 +157,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_RESETMAXMEMORY_OFFSET))(this);
 		}
 
-		::System::Void TrackCurMem(::System::Boolean a1)
+		::System::Void TrackCurMem(::System::Boolean HPINBCPMHJE)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_TRACKCURMEM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_TRACKCURMEM_OFFSET))(this, HPINBCPMHJE);
 		}
 
 		::System::Void onUploadBtnClick()
@@ -168,54 +172,54 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_CHECKGENERALUI_OFFSET))(this);
 		}
 
-		::System::Void Method_5_19844080C13BA28F()
+		::System::Void CDKFKCEAGPO(::System::Int32 ABHBKFJKINO)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_METHOD_5_19844080C13BA28F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_CDKFKCEAGPO_OFFSET))(this, ABHBKFJKINO);
 		}
 
-		::System::Void Method_5_E3DE31A03057E055()
+		::System::Void AEDDPFJFDMH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_METHOD_5_E3DE31A03057E055_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_AEDDPFJFDMH_OFFSET))(this);
 		}
 
-		::System::Void Method_5_071850D2764E9D4C()
+		::System::Void MPBFIBODIDL(::UnityEngine::GameObject* EIFONLCJOPG, ::System::Boolean FBILHHBPEHD)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_METHOD_5_071850D2764E9D4C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_MPBFIBODIDL_OFFSET))(this, EIFONLCJOPG, FBILHHBPEHD);
 		}
 
-		::System::Void Method_5_F79D5EC57FBF426E()
+		::System::Void PDKCHDBODJB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_METHOD_5_F79D5EC57FBF426E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_PDKCHDBODJB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_22F3F5F8518606BB(::System::Int32 a1)
+		::System::Void IEEAILLFPCG()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_METHOD_5_22F3F5F8518606BB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_IEEAILLFPCG_OFFSET))(this);
 		}
 
-		::System::Void Method_5_8DC652D916C182B2()
+		::System::Void BAJDIMJIDEB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_METHOD_5_8DC652D916C182B2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_BAJDIMJIDEB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_017C915772AE00E9()
+		::System::Void KHJHJNFKACF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_METHOD_5_017C915772AE00E9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_KHJHJNFKACF_OFFSET))(this);
 		}
 
-		::System::Void Method_5_DCD9FE8382DA243A(::UnityEngine::GameObject* a1, ::System::Boolean a2)
+		::System::Void ADAFKGGLJAN()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_METHOD_5_DCD9FE8382DA243A_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_ADAFKGGLJAN_OFFSET))(this);
 		}
 
-		::System::Void Method_5_41A074549EF25F63()
+		::System::Void BOEOOJFDCIH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_METHOD_5_41A074549EF25F63_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_BOEOOJFDCIH_OFFSET))(this);
 		}
 
-		::System::Void Method_5_33ACA6CB2ABC73F7()
+		::System::Void JOOHFAFHABK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_METHOD_5_33ACA6CB2ABC73F7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_PROFINDICATOR_JOOHFAFHABK_OFFSET))(this);
 		}
 	};
 }

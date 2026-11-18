@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FCPEGLOOKGH.h"
+#include "unitysdk/IBENDELLLAO.h"
+#include "unitysdk/MPONGHENLLE.h"
+
+#define DLOICFALMNK_COKNIICCODC_1_OFFSET UNITYSDK_OFFSET(0x1208C860)
+#define DLOICFALMNK_COKNIICCODC_OFFSET UNITYSDK_OFFSET(0x1208C6E0)
+#define DLOICFALMNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1208C5C0)
+
+inline static constexpr unsigned int DLOICFALMNK_TypeDefinitionIndex = 73931;
+
+class DLOICFALMNK : public ::IBENDELLLAO
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DLOICFALMNK__CTOR_OFFSET))(this);
+	}
+
+	static ::DLOICFALMNK* COKNIICCODC(::FCPEGLOOKGH BJNBJFONFJI, ::MPONGHENLLE NJOFINCEIFA)
+	{
+		return ((::DLOICFALMNK*(*)(::FCPEGLOOKGH, ::MPONGHENLLE))((::PBYTE)hIl2Cpp + DLOICFALMNK_COKNIICCODC_OFFSET))(BJNBJFONFJI, NJOFINCEIFA);
+	}
+
+	static ::DLOICFALMNK* COKNIICCODC_1()
+	{
+		return ((::DLOICFALMNK*(*)())((::PBYTE)hIl2Cpp + DLOICFALMNK_COKNIICCODC_1_OFFSET))();
+	}
+};

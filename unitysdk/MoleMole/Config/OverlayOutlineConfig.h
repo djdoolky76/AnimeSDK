@@ -2,48 +2,58 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
-namespace MoleMole::Config { class OverlayOutlineConfig_AnimParams; }
-namespace MoleMole::Config { class OverlayOutlineConfig_AnimParamsEntry; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_GET_ANIMPARAMSDICT_OFFSET UNITYSDK_OFFSET(0x1A4BD350)
-#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1A4BD670)
-#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_SETANIMPARAMSDIRTY_OFFSET UNITYSDK_OFFSET(0x1A4BD620)
-#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4BD6C0)
+#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_GET_ANIMPARAMSDICT_OFFSET UNITYSDK_OFFSET(0x16544420)
+#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x16544740)
+#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_SETANIMPARAMSDIRTY_OFFSET UNITYSDK_OFFSET(0x165446F0)
+#define MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16544790)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int OverlayOutlineConfig_TypeDefinitionIndex = 54296;
+	inline static constexpr unsigned int OverlayOutlineConfig_TypeDefinitionIndex = 38856;
 
 	class OverlayOutlineConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
-		::System::String* OverlayMaterialPath; // 0x58
-		::System::Boolean OccludedByDepth; // 0x60
-		::System::Boolean OutlinePerObject; // 0x61
-		::System::Boolean OccludedByDepthPerObject; // 0x62
-		::System::Boolean OccludedByCharacters; // 0x63
-		::System::Boolean ForceVisible; // 0x64
-		::System::Boolean UseLODGroup; // 0x65
-		::System::Single OutlineColorIntensity; // 0x68
-		::System::Single OutlineThickness; // 0x6C
-		::System::Boolean DrawOverlayBeforeOpaquePostProcess; // 0x70
-		::System::Boolean EnableFade; // 0x71
-		::System::Single FadeTime; // 0x74
-		::System::Collections::Generic::List_1<::MoleMole::Config::OverlayOutlineConfig_AnimParamsEntry*>* AnimParamsList; // 0x78
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::OverlayOutlineConfig_AnimParams*>* _animParamsDictCache; // 0x80
-		::System::Boolean _animParamsDictDirty; // 0x88
+		::System::Boolean overrideInitConfig; // 0x58
+		::System::Boolean enableOutline; // 0x59
+		::System::Boolean enableOverlay; // 0x5A
+		::System::Byte _padding0[0x5];
+		::System::String* OverlayMaterialPath; // 0x60
+		::System::Boolean OccludedByDepth; // 0x68
+		::System::Boolean OutlinePerObject; // 0x69
+		::System::Boolean OccludedByDepthPerObject; // 0x6A
+		::System::Boolean OccludedByCharacters; // 0x6B
+		::System::Boolean ForceVisible; // 0x6C
+		::System::Boolean IsBattleOutline; // 0x6D
+		::System::Byte _padding1[0x2];
+		::System::Single OutlineFadeInTime; // 0x70
+		::System::Single OutlineFadeOutTime; // 0x74
+		::System::Boolean UseLODGroup; // 0x78
+		::System::Byte _padding2[0x3];
+		::System::Single OutlineColorIntensity; // 0x7C
+		::System::Single OutlineThickness; // 0x80
+		::System::Boolean DrawOverlayBeforeOpaquePostProcess; // 0x84
+		::System::Boolean EnableFade; // 0x85
+		::System::Byte _padding3[0x2];
+		::System::Single FadeTime; // 0x88
+		::System::Byte _padding4[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* AnimParamsList; // 0x90
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _animParamsDictCache; // 0x98
+		::System::Boolean _animParamsDictDirty; // 0xA0
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::OverlayOutlineConfig_AnimParams*>* get_AnimParamsDict()
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* get_AnimParamsDict()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::OverlayOutlineConfig_AnimParams*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_GET_ANIMPARAMSDICT_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_OVERLAYOUTLINECONFIG_GET_ANIMPARAMSDICT_OFFSET))(this);
 		}
 
 		::System::Void SetAnimParamsDirty()

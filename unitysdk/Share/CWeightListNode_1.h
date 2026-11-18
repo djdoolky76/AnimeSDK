@@ -3,12 +3,11 @@
 #include "unitysdk/System/Object.h"
 
 namespace Share { template <typename T> class CWeightListLevel_1; }
-namespace Share { template <typename T> class CWeightListNode_1; }
 namespace Share { template <typename T> class CWeightList_1; }
 
 namespace Share
 {
-	inline static constexpr unsigned int CWeightListNode_1_TypeDefinitionIndex = 16240;
+	inline static constexpr unsigned int CWeightListNode_1_TypeDefinitionIndex = 10554;
 
 	template <typename T>
 	class CWeightListNode_1 : public ::System::Object

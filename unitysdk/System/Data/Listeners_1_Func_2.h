@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace System { class AsyncCallback; }
-namespace System { class IAsyncResult; }
-namespace System { class Object; }
-
 namespace System::Data
 {
-	inline static constexpr unsigned int Listeners_1_Func_2_TypeDefinitionIndex = 39345;
+	inline static constexpr unsigned int Listeners_1_Func_2_TypeDefinitionIndex = 37345;
 
-	template <typename TElem, typename T1, typename TResult>
+	template <typename T1, typename T2>
 	class Listeners_1_Func_2 : public ::System::MulticastDelegate
 	{
 	public:

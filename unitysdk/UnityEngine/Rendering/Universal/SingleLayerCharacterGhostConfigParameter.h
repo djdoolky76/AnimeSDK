@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/StructVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/SingleLayerCharacterGhostConfig.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SINGLELAYERCHARACTERGHOSTCONFIGPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CF09170)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SINGLELAYERCHARACTERGHOSTCONFIGPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CF09190)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SINGLELAYERCHARACTERGHOSTCONFIGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF09130)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SINGLELAYERCHARACTERGHOSTCONFIGPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D29B690)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SINGLELAYERCHARACTERGHOSTCONFIGPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D29B6B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SINGLELAYERCHARACTERGHOSTCONFIGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D29B650)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SingleLayerCharacterGhostConfigParameter_TypeDefinitionIndex = 27645;
+	inline static constexpr unsigned int SingleLayerCharacterGhostConfigParameter_TypeDefinitionIndex = 27078;
 
-	class SingleLayerCharacterGhostConfigParameter : public ::UnityEngine::NAPRenderPipeline0::StructVolumeParameter_1<::UnityEngine::Rendering::Universal::SingleLayerCharacterGhostConfig>
+	class SingleLayerCharacterGhostConfigParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Rendering::Universal::SingleLayerCharacterGhostConfig value, ::System::Boolean overrideState)

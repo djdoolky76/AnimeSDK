@@ -7,11 +7,12 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigLevelSound_WwiseWeatherConfig_TypeDefinitionIndex = 56159;
+	inline static constexpr unsigned int ConfigLevelSound_WwiseWeatherConfig_TypeDefinitionIndex = 84184;
 
 	struct alignas(8) ConfigLevelSound_WwiseWeatherConfig
 	{
 		::MoleMole::Config::TimePeriodType timeType; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* weatherState; // 0x18
 	};
 }

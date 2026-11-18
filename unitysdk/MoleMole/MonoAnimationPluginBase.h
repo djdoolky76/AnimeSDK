@@ -4,38 +4,38 @@
 
 namespace UnityEngine { class Animation; }
 
-#define MOLEMOLE_MONOANIMATIONPLUGINBASE_METHOD_5_8652DE0774915A40_OFFSET UNITYSDK_OFFSET(0x1686C7E0)
-#define MOLEMOLE_MONOANIMATIONPLUGINBASE_METHOD_5_A47A1AF85D5655BE_OFFSET UNITYSDK_OFFSET(0x1686C620)
-#define MOLEMOLE_MONOANIMATIONPLUGINBASE_METHOD_5_F6C10DB4374245F7_OFFSET UNITYSDK_OFFSET(0x1686C610)
-#define MOLEMOLE_MONOANIMATIONPLUGINBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1686C5C0)
+#define MOLEMOLE_MONOANIMATIONPLUGINBASE_BAODLFKJJPL_OFFSET UNITYSDK_OFFSET(0x10D37290)
+#define MOLEMOLE_MONOANIMATIONPLUGINBASE_GJFFHHJCEPH_OFFSET UNITYSDK_OFFSET(0x10D372A0)
+#define MOLEMOLE_MONOANIMATIONPLUGINBASE_ILPLLKOCKKB_OFFSET UNITYSDK_OFFSET(0x10D372B0)
+#define MOLEMOLE_MONOANIMATIONPLUGINBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D37240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoAnimationPluginBase_TypeDefinitionIndex = 49593;
+	inline static constexpr unsigned int MonoAnimationPluginBase_TypeDefinitionIndex = 88365;
 
 	class MonoAnimationPluginBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::UnityEngine::Animation* Field_5_0; // 0x18
+		::UnityEngine::Animation* _JBBOBBECHDB_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOANIMATIONPLUGINBASE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_F6C10DB4374245F7(::UnityEngine::Animation* a1)
+		::System::Void BAODLFKJJPL(::UnityEngine::Animation* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animation*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOANIMATIONPLUGINBASE_METHOD_5_F6C10DB4374245F7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animation*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOANIMATIONPLUGINBASE_BAODLFKJJPL_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::UnityEngine::Animation* Method_5_A47A1AF85D5655BE()
+		::UnityEngine::Animation* GJFFHHJCEPH()
 		{
-			return ((::UnityEngine::Animation*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOANIMATIONPLUGINBASE_METHOD_5_A47A1AF85D5655BE_OFFSET))(this);
+			return ((::UnityEngine::Animation*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOANIMATIONPLUGINBASE_GJFFHHJCEPH_OFFSET))(this);
 		}
 
-		::UnityEngine::Animation* Method_5_8652DE0774915A40()
+		::UnityEngine::Animation* ILPLLKOCKKB()
 		{
-			return ((::UnityEngine::Animation*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOANIMATIONPLUGINBASE_METHOD_5_8652DE0774915A40_OFFSET))(this);
+			return ((::UnityEngine::Animation*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOANIMATIONPLUGINBASE_ILPLLKOCKKB_OFFSET))(this);
 		}
 	};
 }

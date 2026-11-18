@@ -4,16 +4,16 @@
 
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define SCROLLVIEWINITDATAMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB913D0)
+#define SCROLLVIEWINITDATAMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x1374CBB0)
 
-inline static constexpr unsigned int ScrollViewInitDataMeta_TypeDefinitionIndex = 82182;
+inline static constexpr unsigned int ScrollViewInitDataMeta_TypeDefinitionIndex = 89244;
 
 class ScrollViewInitDataMeta : public ::System::Object
 {
 public:
 	::System::Func_3<::System::Object*, ::System::Object*, ::System::Boolean>* CustomDataIEqualityComparer; // 0x10
-	::System::Boolean AutoKeepSelectedItemPosition; // 0x18
-	::System::Boolean EnableDiffRefresh; // 0x19
+	::System::Boolean EnableDiffRefresh; // 0x18
+	::System::Boolean AutoKeepSelectedItemPosition; // 0x19
 	::System::Boolean SelectItemAfterInitData; // 0x1A
 
 	::System::Void _ctor()

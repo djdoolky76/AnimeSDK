@@ -7,24 +7,24 @@ namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEWAITUNTIL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B528F00)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEWAITUNTIL_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x1B5290B0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEWAITUNTIL_START_OFFSET UNITYSDK_OFFSET(0x1B528FF0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEWAITUNTIL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B529100)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEWAITUNTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B529260)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEWAITUNTIL__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1B5292A0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEWAITUNTIL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x142F3AE0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEWAITUNTIL_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x142F3C90)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEWAITUNTIL_START_OFFSET UNITYSDK_OFFSET(0x142F3BD0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEWAITUNTIL_UPDATE_OFFSET UNITYSDK_OFFSET(0x142F3CE0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEWAITUNTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x142F3E40)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEWAITUNTIL__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x142F3E80)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameWaitUntil_TypeDefinitionIndex = 41386;
+	inline static constexpr unsigned int HackerGameWaitUntil_TypeDefinitionIndex = 89894;
 
 	class HackerGameWaitUntil : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::FlowInput* _start; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* _condition; // 0xB0
-		::FlowCanvas::Flow _flow; // 0xB8
-		::FlowCanvas::FlowOutput* _invokeFinish; // 0xE0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* _condition; // 0xA8
+		::FlowCanvas::FlowOutput* _invokeFinish; // 0xB0
+		::FlowCanvas::FlowInput* _start; // 0xB8
+		::FlowCanvas::Flow _flow; // 0xC0
 		::System::Boolean _isActive; // 0xE8
 
 		::System::Void _ctor()

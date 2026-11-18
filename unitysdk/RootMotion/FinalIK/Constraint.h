@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_CONSTRAINT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1F3ACE20)
-#define ROOTMOTION_FINALIK_CONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3ACF30)
+#define ROOTMOTION_FINALIK_CONSTRAINT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1F7B6AC0)
+#define ROOTMOTION_FINALIK_CONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B6BD0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Constraint_TypeDefinitionIndex = 38849;
+	inline static constexpr unsigned int Constraint_TypeDefinitionIndex = 36986;
 
 	class Constraint : public ::System::Object
 	{

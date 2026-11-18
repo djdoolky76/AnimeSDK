@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class LinkZoneTeamExQTEAvatarSlotInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_LINKZONETEAMEXQTEAVATARUISHOWINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EA620)
+#define MOLEMOLE_CONFIG_LINKZONETEAMEXQTEAVATARUISHOWINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x127945A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LinkZoneTeamExQTEAvatarUIShowInfo_TypeDefinitionIndex = 58192;
+	inline static constexpr unsigned int LinkZoneTeamExQTEAvatarUIShowInfo_TypeDefinitionIndex = 83820;
 
 	class LinkZoneTeamExQTEAvatarUIShowInfo : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int DetailLayerConfig_DetailBlendModeType_TypeDefinitionIndex = 27126;
+	inline static constexpr unsigned int DetailLayerConfig_DetailBlendModeType_TypeDefinitionIndex = 26909;
 
 	enum class DetailLayerConfig_DetailBlendModeType : ::System::Int32
 	{
-		Blend = 1,
 		Overlay = 0,
+		Blend = 1,
 	};
 }

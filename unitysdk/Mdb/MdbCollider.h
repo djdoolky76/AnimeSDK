@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
 
-#define MDB_MDBCOLLIDER_COPYPARAMETERS_OFFSET UNITYSDK_OFFSET(0x12420EC0)
-#define MDB_MDBCOLLIDER_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x12420F30)
-#define MDB_MDBCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x12420FA0)
+#define MDB_MDBCOLLIDER_COPYPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1107F6F0)
+#define MDB_MDBCOLLIDER_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x1107F760)
+#define MDB_MDBCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1107F7D0)
 
 namespace Mdb
 {
-	inline static constexpr unsigned int MdbCollider_TypeDefinitionIndex = 95421;
+	inline static constexpr unsigned int MdbCollider_TypeDefinitionIndex = 96785;
 
 	class MdbCollider : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Vector3 norm; // 0x18
 		::System::Boolean isGlobal; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::String* boneName; // 0x28
 
 		::System::Void _ctor()

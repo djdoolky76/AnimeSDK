@@ -2,12 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-namespace FluffyUnderware::DevTools { class IDTSingleton; }
 namespace System { class Object; }
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int DTSingleton_1_TypeDefinitionIndex = 28990;
+	inline static constexpr unsigned int DTSingleton_1_TypeDefinitionIndex = 28429;
 
 	template <typename T>
 	class DTSingleton_1 : public ::UnityEngine::MonoBehaviour

@@ -1,18 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Net/NetworkInformation/DuplicateAddressDetectionState.h"
 #include "unitysdk/System/Net/NetworkInformation/IPAddressInformation.h"
-#include "unitysdk/System/Net/NetworkInformation/PrefixOrigin.h"
-#include "unitysdk/System/Net/NetworkInformation/SuffixOrigin.h"
 
-namespace System::Net { class IPAddress; }
-
-#define SYSTEM_NET_NETWORKINFORMATION_UNICASTIPADDRESSINFORMATION_GET_PREFIXLENGTH_OFFSET UNITYSDK_OFFSET(0x1C881F70)
-#define SYSTEM_NET_NETWORKINFORMATION_UNICASTIPADDRESSINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C881FC0)
+#define SYSTEM_NET_NETWORKINFORMATION_UNICASTIPADDRESSINFORMATION_GET_PREFIXLENGTH_OFFSET UNITYSDK_OFFSET(0x1CFC2730)
+#define SYSTEM_NET_NETWORKINFORMATION_UNICASTIPADDRESSINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC2780)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int UnicastIPAddressInformation_TypeDefinitionIndex = 3748;
+	inline static constexpr unsigned int UnicastIPAddressInformation_TypeDefinitionIndex = 3747;
 
 	class UnicastIPAddressInformation : public ::System::Net::NetworkInformation::IPAddressInformation
 	{

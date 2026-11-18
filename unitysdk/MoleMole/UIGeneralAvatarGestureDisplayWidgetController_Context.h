@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIGENERALAVATARGESTUREDISPLAYWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1859F150)
+#define MOLEMOLE_UIGENERALAVATARGESTUREDISPLAYWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x180411E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralAvatarGestureDisplayWidgetController_Context_TypeDefinitionIndex = 90276;
+	inline static constexpr unsigned int UIGeneralAvatarGestureDisplayWidgetController_Context_TypeDefinitionIndex = 89901;
 
 	class UIGeneralAvatarGestureDisplayWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

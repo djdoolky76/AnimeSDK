@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraDebugDrawPoints3D_Point.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS3D_ADDPOINT_OFFSET UNITYSDK_OFFSET(0x1F233060)
-#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS3D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F233130)
-#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS3D_DRAW_OFFSET UNITYSDK_OFFSET(0x1F2331A0)
-#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS3D__CTOR_OFFSET UNITYSDK_OFFSET(0x1F233500)
+#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS3D_ADDPOINT_OFFSET UNITYSDK_OFFSET(0x1F643360)
+#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS3D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F643430)
+#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS3D_DRAW_OFFSET UNITYSDK_OFFSET(0x1F6434A0)
+#define PIPELINECAMERA_CAMERADEBUGDRAWPOINTS3D__CTOR_OFFSET UNITYSDK_OFFSET(0x1F643800)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraDebugDrawPoints3D_TypeDefinitionIndex = 38288;
+	inline static constexpr unsigned int CameraDebugDrawPoints3D_TypeDefinitionIndex = 36290;
 
 	class CameraDebugDrawPoints3D : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::PipelineCamera::CameraDebugDrawPoints3D_Point>* _items; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* _items; // 0x10
 
 		::System::Void _ctor()
 		{

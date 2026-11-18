@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDFLOAT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F9DD150)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9DD230)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDFLOAT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1FDE2A90)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDE2B70)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedFloat_TypeDefinitionIndex = 33915;
+	inline static constexpr unsigned int SharedFloat_TypeDefinitionIndex = 33461;
 
-	class SharedFloat : public ::BehaviorDesigner::Runtime::SharedVariable_1<::System::Single>
+	class SharedFloat
 	{
 	public:
 		::System::Void _ctor()

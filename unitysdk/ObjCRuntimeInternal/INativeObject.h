@@ -3,7 +3,7 @@
 
 namespace ObjCRuntimeInternal
 {
-	inline static constexpr unsigned int INativeObject_TypeDefinitionIndex = 2650;
+	inline static constexpr unsigned int INativeObject_TypeDefinitionIndex = 2649;
 
 	class INativeObject
 	{

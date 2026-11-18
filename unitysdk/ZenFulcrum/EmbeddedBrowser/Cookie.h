@@ -9,35 +9,37 @@ namespace System::Text::RegularExpressions { class Regex; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NativeCookie; }
 namespace ZenFulcrum::EmbeddedBrowser { class CookieManager; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE_COPY_1_OFFSET UNITYSDK_OFFSET(0x1FABC3E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE_COPY_OFFSET UNITYSDK_OFFSET(0x1FABC090)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE_DELETE_OFFSET UNITYSDK_OFFSET(0x1FABC240)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE_INIT_OFFSET UNITYSDK_OFFSET(0x1FABBF90)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FABC2F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FABC5C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FABC000)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FABBFA0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE_COPY_1_OFFSET UNITYSDK_OFFSET(0x1FEC9890)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE_COPY_OFFSET UNITYSDK_OFFSET(0x1FEC9540)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE_DELETE_OFFSET UNITYSDK_OFFSET(0x1FEC96F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE_INIT_OFFSET UNITYSDK_OFFSET(0x1FEC9440)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FEC97A0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FEC9A70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FEC94B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FEC9450)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Cookie_TypeDefinitionIndex = 33303;
+	inline static constexpr unsigned int Cookie_TypeDefinitionIndex = 32763;
 
 	class Cookie : public ::System::Object
 	{
 	public:
 		static ::System::Text::RegularExpressions::Regex** StaticGet_dateRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(Cookie_TypeDefinitionIndex)->GetStaticField(0x28900);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(Cookie_TypeDefinitionIndex)->GetStaticField(0x29970);
 		}
-		::System::String* name; // 0x10
-		::ZenFulcrum::EmbeddedBrowser::BrowserNative_NativeCookie* original; // 0x18
-		::System::String* path; // 0x20
-		::System::String* value; // 0x28
-		::ZenFulcrum::EmbeddedBrowser::CookieManager* cookies; // 0x30
-		::System::String* domain; // 0x38
-		::System::Nullable_1<::System::DateTime> expires; // 0x40
-		::System::Boolean httpOnly; // 0x50
-		::System::Boolean secure; // 0x51
+		::System::String* value; // 0x10
+		::System::String* path; // 0x18
+		::System::String* domain; // 0x20
+		::System::String* name; // 0x28
+		::ZenFulcrum::EmbeddedBrowser::BrowserNative_NativeCookie* original; // 0x30
+		::ZenFulcrum::EmbeddedBrowser::CookieManager* cookies; // 0x38
+		::System::Boolean httpOnly; // 0x40
+		::System::Boolean secure; // 0x41
+		::System::Byte _padding0[0x6];
+		::System::Nullable_1<::System::DateTime> expires; // 0x48
+		::System::Byte _padding1[0x8];
 		::System::DateTime lastAccess; // 0x58
 		::System::DateTime creation; // 0x60
 

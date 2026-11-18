@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
-class Class_2_1824EF69C8E376A3;
+class BPHGNMNLLHF;
+class HGAJKHIMKJP;
 
-#define MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E84DB0)
-#define MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS39_0__JUMPTOAVATARPREVIEWPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x19E84DC0)
+#define MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x166BF400)
+#define MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS39_0__JUMPTOAVATARPREVIEWPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x166BF410)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralMissionCompletePopWindowController___c__DisplayClass39_0_TypeDefinitionIndex = 79469;
+	inline static constexpr unsigned int UIGeneralMissionCompletePopWindowController___c__DisplayClass39_0_TypeDefinitionIndex = 85822;
 
 	class UIGeneralMissionCompletePopWindowController___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:
-		::Class_1_0D6706375CDAAE8C* showItem; // 0x10
+		::HGAJKHIMKJP* showItem; // 0x10
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS39_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _JumpToAvatarPreviewPage_b__0(::Class_2_1824EF69C8E376A3* x)
+		::System::Boolean _JumpToAvatarPreviewPage_b__0(::BPHGNMNLLHF* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_1824EF69C8E376A3*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS39_0__JUMPTOAVATARPREVIEWPAGE_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::BPHGNMNLLHF*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALMISSIONCOMPLETEPOPWINDOWCONTROLLER___C__DISPLAYCLASS39_0__JUMPTOAVATARPREVIEWPAGE_B__0_OFFSET))(this, x);
 		}
 	};
 }

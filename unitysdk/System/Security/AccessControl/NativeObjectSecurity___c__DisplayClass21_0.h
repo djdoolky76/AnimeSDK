@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/AccessControl/SecurityInfos.h"
+#include "unitysdk/System/Object.h"
 
 namespace System::Runtime::InteropServices { class SafeHandle; }
 namespace System::Security::AccessControl { class NativeObjectSecurity; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDEA120)
-#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS21_0__INTERNALSET_B__0_OFFSET UNITYSDK_OFFSET(0x1DDEA130)
+#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E26AE20)
+#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS21_0__INTERNALSET_B__0_OFFSET UNITYSDK_OFFSET(0x1E26AE30)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int NativeObjectSecurity___c__DisplayClass21_0_TypeDefinitionIndex = 993;
+	inline static constexpr unsigned int NativeObjectSecurity___c__DisplayClass21_0_TypeDefinitionIndex = 992;
 
 	class NativeObjectSecurity___c__DisplayClass21_0 : public ::System::Object
 	{

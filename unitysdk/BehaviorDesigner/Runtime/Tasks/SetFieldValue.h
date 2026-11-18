@@ -7,22 +7,22 @@ namespace BehaviorDesigner::Runtime { class SharedGameObject; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace BehaviorDesigner::Runtime { class SharedVariable; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SETFIELDVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EC8C260)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SETFIELDVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC8BDE0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SETFIELDVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8C2B0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SETFIELDVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EC8C340)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_SETFIELDVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC8C3D0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SETFIELDVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F08BA40)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SETFIELDVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F08B5C0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SETFIELDVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F08BA90)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SETFIELDVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F08BB20)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_SETFIELDVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F08BBB0)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int SetFieldValue_TypeDefinitionIndex = 33978;
+	inline static constexpr unsigned int SetFieldValue_TypeDefinitionIndex = 33524;
 
 	class SetFieldValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedString* componentName; // 0x58
+		::BehaviorDesigner::Runtime::SharedString* fieldName; // 0x58
 		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x60
-		::BehaviorDesigner::Runtime::SharedString* fieldName; // 0x68
+		::BehaviorDesigner::Runtime::SharedString* componentName; // 0x68
 		::BehaviorDesigner::Runtime::SharedVariable* fieldValue; // 0x70
 
 		::System::Void _ctor()

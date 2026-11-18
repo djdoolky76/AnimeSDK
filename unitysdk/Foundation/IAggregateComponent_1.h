@@ -1,14 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace Foundation { template <typename T> class AggregateObject_1; }
-namespace Foundation { template <typename T> class IAggregateObjectEventContext_1; }
-
 namespace Foundation
 {
-	inline static constexpr unsigned int IAggregateComponent_1_TypeDefinitionIndex = 8792;
+	inline static constexpr unsigned int IAggregateComponent_1_TypeDefinitionIndex = 8729;
 
-	template <typename TEvent>
+	template <typename T>
 	class IAggregateComponent_1
 	{
 	public:

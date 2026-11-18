@@ -5,12 +5,12 @@
 namespace MoleMole { class InputAnimBlocker; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOINPUTANIMBLOCKER_ISINPUTBLOCKED_OFFSET UNITYSDK_OFFSET(0x129C0120)
-#define MOLEMOLE_MONOINPUTANIMBLOCKER__CTOR_OFFSET UNITYSDK_OFFSET(0x129C0540)
+#define MOLEMOLE_MONOINPUTANIMBLOCKER_ISINPUTBLOCKED_OFFSET UNITYSDK_OFFSET(0x12483620)
+#define MOLEMOLE_MONOINPUTANIMBLOCKER__CTOR_OFFSET UNITYSDK_OFFSET(0x12483A40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoInputAnimBlocker_TypeDefinitionIndex = 73940;
+	inline static constexpr unsigned int MonoInputAnimBlocker_TypeDefinitionIndex = 38989;
 
 	class MonoInputAnimBlocker : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

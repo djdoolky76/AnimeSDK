@@ -5,17 +5,18 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_BATTLE_MONOSLOPESECTIONMARKER_GET_VALID_OFFSET UNITYSDK_OFFSET(0x134C8EA0)
-#define MOLEMOLE_BATTLE_MONOSLOPESECTIONMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x134C9040)
+#define MOLEMOLE_BATTLE_MONOSLOPESECTIONMARKER_GET_VALID_OFFSET UNITYSDK_OFFSET(0x11A372D0)
+#define MOLEMOLE_BATTLE_MONOSLOPESECTIONMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x11A37470)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int MonoSlopeSectionMarker_TypeDefinitionIndex = 42388;
+	inline static constexpr unsigned int MonoSlopeSectionMarker_TypeDefinitionIndex = 89786;
 
 	class MonoSlopeSectionMarker : public ::System::Object
 	{
 	public:
 		::MoleMole::Interaction::AxisSign walkablePlane; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::GameObject* slopeMarkerGo; // 0x18
 		::System::Single slopeNormalHeightOffset; // 0x20
 

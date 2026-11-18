@@ -4,24 +4,24 @@
 
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOCLOTHPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12FFB2A0)
-#define MOLEMOLE_UIRIDUSGOTBOOCLOTHPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12FFB2E0)
-#define MOLEMOLE_UIRIDUSGOTBOOCLOTHPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__10_0_OFFSET UNITYSDK_OFFSET(0x12FFB2F0)
+#define MOLEMOLE_UIRIDUSGOTBOOCLOTHPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D469D0)
+#define MOLEMOLE_UIRIDUSGOTBOOCLOTHPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15D46A10)
+#define MOLEMOLE_UIRIDUSGOTBOOCLOTHPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__10_0_OFFSET UNITYSDK_OFFSET(0x15D46A20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooClothPopWindowController___c_TypeDefinitionIndex = 87914;
+	inline static constexpr unsigned int UIRidusGotBooClothPopWindowController___c_TypeDefinitionIndex = 59871;
 
 	class UIRidusGotBooClothPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIRidusGotBooClothPopWindowController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIRidusGotBooClothPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooClothPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x49270);
-		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__10_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooClothPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x49278);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooClothPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x42310);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIRidusGotBooClothPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x42318);
 		}
 
 		static ::System::Void _cctor()

@@ -5,11 +5,11 @@
 namespace Spine::Unity { class AnimationReferenceAsset; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA89AF0)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE7C810)
 
 namespace Spine::Unity::Playables
 {
-	inline static constexpr unsigned int SpineAnimationStateBehaviour_TypeDefinitionIndex = 95347;
+	inline static constexpr unsigned int SpineAnimationStateBehaviour_TypeDefinitionIndex = 96706;
 
 	class SpineAnimationStateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -24,6 +24,7 @@ namespace Spine::Unity::Playables
 		::System::Boolean holdPrevious; // 0x28
 		::System::Boolean dontPauseWithDirector; // 0x29
 		::System::Boolean dontEndWithClip; // 0x2A
+		::System::Byte _padding0[0x1];
 		::System::Single endMixOutDuration; // 0x2C
 		::System::Single attachmentThreshold; // 0x30
 		::System::Single eventThreshold; // 0x34

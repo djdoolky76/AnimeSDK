@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_5_F60EFCE4D76BF533;
+class AHNHEANMAML;
 
-#define MOLEMOLE_UIHOLLOWCHESSBOARD3DMODELCONTROLLER___C__DISPLAYCLASS192_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BFD4C0)
+#define MOLEMOLE_UIHOLLOWCHESSBOARD3DMODELCONTROLLER___C__DISPLAYCLASS192_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17C34140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowChessboard3DModelController___c__DisplayClass192_0_TypeDefinitionIndex = 63270;
+	inline static constexpr unsigned int UIHollowChessboard3DModelController___c__DisplayClass192_0_TypeDefinitionIndex = 43483;
 
 	class UIHollowChessboard3DModelController___c__DisplayClass192_0 : public ::System::Object
 	{
 	public:
-		::Class_5_F60EFCE4D76BF533* playerData; // 0x10
+		::AHNHEANMAML* playerData; // 0x10
 
 		::System::Void _ctor()
 		{

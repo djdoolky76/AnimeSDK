@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/StraightPathFlags.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Experimental/AI/PathQueryStatus.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Collections/NativeSlice_1.h"
 #include "unitysdk/UnityEngine/Experimental/AI/NavMeshLocation.h"
 #include "unitysdk/UnityEngine/Experimental/AI/NavMeshQuery.h"
-#include "unitysdk/UnityEngine/Experimental/AI/PathQueryStatus.h"
 #include "unitysdk/UnityEngine/Experimental/AI/PolygonId.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::AI { class NavMeshPath; }
 
-#define PATHUTILS_FINDCURRENTPOLYGONPATHINDEX_OFFSET UNITYSDK_OFFSET(0x1D338910)
-#define PATHUTILS_FINDNEARESTPOINTSBYPATH_OFFSET UNITYSDK_OFFSET(0x1D338AB0)
-#define PATHUTILS_FINDSTRAIGHTPATH_OFFSET UNITYSDK_OFFSET(0x1D337150)
-#define PATHUTILS_PERP2D_OFFSET UNITYSDK_OFFSET(0x1D336B00)
-#define PATHUTILS_RETRACEPORTALS_OFFSET UNITYSDK_OFFSET(0x1D336BF0)
-#define PATHUTILS_SWAP_OFFSET UNITYSDK_OFFSET(0x1D336B80)
-#define PATHUTILS_TRYCALCULATEPATHLENGTH_OFFSET UNITYSDK_OFFSET(0x1D338FA0)
-#define PATHUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D339360)
-#define PATHUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D339350)
+#define PATHUTILS_FINDCURRENTPOLYGONPATHINDEX_OFFSET UNITYSDK_OFFSET(0x1D9DEE50)
+#define PATHUTILS_FINDNEARESTPOINTSBYPATH_OFFSET UNITYSDK_OFFSET(0x1D9DEFF0)
+#define PATHUTILS_FINDSTRAIGHTPATH_OFFSET UNITYSDK_OFFSET(0x1D9DD690)
+#define PATHUTILS_PERP2D_OFFSET UNITYSDK_OFFSET(0x1D9DD040)
+#define PATHUTILS_RETRACEPORTALS_OFFSET UNITYSDK_OFFSET(0x1D9DD130)
+#define PATHUTILS_SWAP_OFFSET UNITYSDK_OFFSET(0x1D9DD0C0)
+#define PATHUTILS_TRYCALCULATEPATHLENGTH_OFFSET UNITYSDK_OFFSET(0x1D9DF4E0)
+#define PATHUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9DF8A0)
+#define PATHUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9DF890)
 
-inline static constexpr unsigned int PathUtils_TypeDefinitionIndex = 83939;
+inline static constexpr unsigned int PathUtils_TypeDefinitionIndex = 39054;
 
 class PathUtils : public ::System::Object
 {
 public:
 	static ::UnityEngine::AI::NavMeshPath** StaticGet_CommNavMeshPath()
 	{
-		return (::UnityEngine::AI::NavMeshPath**)Il2CppClass::FromTypeDefinitionIndex(PathUtils_TypeDefinitionIndex)->GetStaticField(0x4C9E0);
+		return (::UnityEngine::AI::NavMeshPath**)Il2CppClass::FromTypeDefinitionIndex(PathUtils_TypeDefinitionIndex)->GetStaticField(0x4DEE0);
 	}
 
 	::System::Void _ctor()

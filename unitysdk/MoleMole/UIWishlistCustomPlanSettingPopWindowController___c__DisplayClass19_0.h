@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_F7CAAD54879BD084;
+class DMCCPINHAGM;
 namespace MoleMole { class UIWishlistCustomPlanSettingPopWindowController; }
 
-#define MOLEMOLE_UIWISHLISTCUSTOMPLANSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11A134D0)
-#define MOLEMOLE_UIWISHLISTCUSTOMPLANSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__REFRESHAVATARTYPEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x11A134E0)
+#define MOLEMOLE_UIWISHLISTCUSTOMPLANSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1564AB00)
+#define MOLEMOLE_UIWISHLISTCUSTOMPLANSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_0__REFRESHAVATARTYPEVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1564AB10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistCustomPlanSettingPopWindowController___c__DisplayClass19_0_TypeDefinitionIndex = 60359;
+	inline static constexpr unsigned int UIWishlistCustomPlanSettingPopWindowController___c__DisplayClass19_0_TypeDefinitionIndex = 79213;
 
 	class UIWishlistCustomPlanSettingPopWindowController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIWishlistCustomPlanSettingPopWindowController* __4__this; // 0x10
-		::Class_2_F7CAAD54879BD084* weaponData; // 0x18
+		::DMCCPINHAGM* weaponData; // 0x10
+		::MoleMole::UIWishlistCustomPlanSettingPopWindowController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

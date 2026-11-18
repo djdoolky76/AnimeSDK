@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 
 namespace UnityEngine { class Behaviour; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDBEHAVIOUR_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1F5D16A0)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D1760)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDBEHAVIOUR_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1F9954F0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9955B0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedBehaviour_TypeDefinitionIndex = 33911;
+	inline static constexpr unsigned int SharedBehaviour_TypeDefinitionIndex = 33457;
 
-	class SharedBehaviour : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::Behaviour*>
+	class SharedBehaviour
 	{
 	public:
 		::System::Void _ctor()

@@ -2,24 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_D6F9B792012303A1;
+class FJMFECAAPHD;
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x174512F0)
+#define MOLEMOLE_UIMAINSTORYPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x193A6430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageContext_TypeDefinitionIndex = 50651;
+	inline static constexpr unsigned int UIMainStoryPageContext_TypeDefinitionIndex = 45933;
 
 	class UIMainStoryPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_D6F9B792012303A1* PageTaskCompletionSource; // 0x28
-		::System::Int32 FromLevelEnd; // 0x30
+		::FJMFECAAPHD* PageTaskCompletionSource; // 0x28
+		::System::Int32 EndOvaContextID; // 0x30
 		::System::Int32 FromEndPerform; // 0x34
-		::System::Int32 BattleMission; // 0x38
-		::System::Int32 ArchiveFileID; // 0x3C
-		::System::Int32 EndOvaContextID; // 0x40
-		::System::Boolean IsAfkOva; // 0x44
+		::System::Int32 FromLevelEnd; // 0x38
+		::System::Boolean IsAfkOva; // 0x3C
+		::System::Byte _padding0[0x3];
+		::System::Int32 ArchiveFileID; // 0x40
+		::System::Int32 BattleMission; // 0x44
 
 		::System::Void _ctor()
 		{

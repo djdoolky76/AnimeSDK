@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOGLOBALTEXTURECONFIGPLUGIN_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D6D1920)
-#define MONOGLOBALTEXTURECONFIGPLUGIN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D6D1AE0)
-#define MONOGLOBALTEXTURECONFIGPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6D1C60)
-#define MONOGLOBALTEXTURECONFIGPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D1C00)
+#define MONOGLOBALTEXTURECONFIGPLUGIN_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D6EED90)
+#define MONOGLOBALTEXTURECONFIGPLUGIN_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D6EEF50)
+#define MONOGLOBALTEXTURECONFIGPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6EF0D0)
+#define MONOGLOBALTEXTURECONFIGPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EF070)
 
-inline static constexpr unsigned int MonoGlobalTextureConfigPlugin_TypeDefinitionIndex = 27495;
+inline static constexpr unsigned int MonoGlobalTextureConfigPlugin_TypeDefinitionIndex = 26993;
 
 class MonoGlobalTextureConfigPlugin : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Int32* StaticGet_s_MaxAnisotropicSamplingLevel()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoGlobalTextureConfigPlugin_TypeDefinitionIndex)->GetStaticField(0x6E20);
-	}
 	static ::System::Boolean* StaticGet_s_DisableDecalHeightMap()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoGlobalTextureConfigPlugin_TypeDefinitionIndex)->GetStaticField(0x6E24);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoGlobalTextureConfigPlugin_TypeDefinitionIndex)->GetStaticField(0x6E30);
+	}
+	static ::System::Int32* StaticGet_s_MaxAnisotropicSamplingLevel()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoGlobalTextureConfigPlugin_TypeDefinitionIndex)->GetStaticField(0x6E34);
 	}
 	::System::Int32 OldAnisotropicSamplingLevel; // 0x18
 	::System::Boolean disableDecalHeightMap; // 0x1C

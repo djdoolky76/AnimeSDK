@@ -3,19 +3,19 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackType_TypeDefinitionIndex = 30907;
+	inline static constexpr unsigned int MessagePackType_TypeDefinitionIndex = 29581;
 
 	enum class MessagePackType : ::System::Byte
 	{
-		Nil = 0x2,
-		Boolean = 0x3,
-		Array = 0x7,
-		Extension = 0x9,
-		Binary = 0x6,
-		Float = 0x4,
-		Map = 0x8,
-		String = 0x5,
-		Unknown = 0x0,
-		Integer = 0x1,
+		Binary = 6,
+		Float = 4,
+		Integer = 1,
+		Nil = 2,
+		String = 5,
+		Boolean = 3,
+		Array = 7,
+		Map = 8,
+		Unknown = 0,
+		Extension = 9,
 	};
 }

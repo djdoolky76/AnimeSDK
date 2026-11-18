@@ -3,18 +3,19 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace MoleMole { class MainCitySidebarPrefabIconConfig; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MAINCITYSIDEBARPREFABCONFIG_GET_DEFAULTICONWIDGETPREFAB_OFFSET UNITYSDK_OFFSET(0x1790A260)
-#define MOLEMOLE_MAINCITYSIDEBARPREFABCONFIG_GET_GATHERPREFAB_OFFSET UNITYSDK_OFFSET(0x1790A220)
-#define MOLEMOLE_MAINCITYSIDEBARPREFABCONFIG_GET_PARENTFOLDER_OFFSET UNITYSDK_OFFSET(0x1790A1A0)
-#define MOLEMOLE_MAINCITYSIDEBARPREFABCONFIG_GET_TITLEPREFAB_OFFSET UNITYSDK_OFFSET(0x1790A1E0)
-#define MOLEMOLE_MAINCITYSIDEBARPREFABCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1790A2A0)
+#define MOLEMOLE_MAINCITYSIDEBARPREFABCONFIG_GET_DEFAULTICONWIDGETPREFAB_OFFSET UNITYSDK_OFFSET(0x14AF1A60)
+#define MOLEMOLE_MAINCITYSIDEBARPREFABCONFIG_GET_GATHERPREFAB_OFFSET UNITYSDK_OFFSET(0x14AF1A20)
+#define MOLEMOLE_MAINCITYSIDEBARPREFABCONFIG_GET_PARENTFOLDER_OFFSET UNITYSDK_OFFSET(0x14AF19A0)
+#define MOLEMOLE_MAINCITYSIDEBARPREFABCONFIG_GET_TITLEPREFAB_OFFSET UNITYSDK_OFFSET(0x14AF19E0)
+#define MOLEMOLE_MAINCITYSIDEBARPREFABCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14AF1AA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MainCitySidebarPrefabConfig_TypeDefinitionIndex = 59341;
+	inline static constexpr unsigned int MainCitySidebarPrefabConfig_TypeDefinitionIndex = 51157;
 
 	class MainCitySidebarPrefabConfig : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,6 +25,8 @@ namespace MoleMole
 		::System::String* _gatherPrefab; // 0x28
 		::System::String* _defaultIconWidgetPrefab; // 0x30
 		::System::Collections::Generic::List_1<::MoleMole::MainCitySidebarPrefabIconConfig*>* SpecialIconPrefabs; // 0x38
+		::System::String* PlayAnimationInfoTag; // 0x40
+		::System::Collections::Generic::List_1<::System::Object*>* PlayAnimationInfos; // 0x48
 
 		::System::Void _ctor()
 		{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_PRECOMPILEDTYPEDESERIALIZATIONCONFIG_SETPRECOMPILEDTYPEDESERIALIZATIONENABLED_OFFSET UNITYSDK_OFFSET(0x1F9DCFE0)
-#define BEHAVIORDESIGNER_RUNTIME_PRECOMPILEDTYPEDESERIALIZATIONCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9DD020)
+#define BEHAVIORDESIGNER_RUNTIME_PRECOMPILEDTYPEDESERIALIZATIONCONFIG_SETPRECOMPILEDTYPEDESERIALIZATIONENABLED_OFFSET UNITYSDK_OFFSET(0x1FDE2920)
+#define BEHAVIORDESIGNER_RUNTIME_PRECOMPILEDTYPEDESERIALIZATIONCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDE2960)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int PrecompiledTypeDeserializationConfig_TypeDefinitionIndex = 33893;
+	inline static constexpr unsigned int PrecompiledTypeDeserializationConfig_TypeDefinitionIndex = 33439;
 
 	class PrecompiledTypeDeserializationConfig : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_Enabled()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PrecompiledTypeDeserializationConfig_TypeDefinitionIndex)->GetStaticField(0x8230);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PrecompiledTypeDeserializationConfig_TypeDefinitionIndex)->GetStaticField(0x8660);
 		}
 
 		static ::System::Void _cctor()

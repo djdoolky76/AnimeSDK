@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIHANDBOOKROLELISTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18981760)
+#define MOLEMOLE_UIHANDBOOKROLELISTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16EF49C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookRoleListContext_TypeDefinitionIndex = 84875;
+	inline static constexpr unsigned int UIHandBookRoleListContext_TypeDefinitionIndex = 52003;
 
 	class UIHandBookRoleListContext : public ::MoleMole::UIControllerContextBase
 	{

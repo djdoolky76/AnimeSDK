@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_HACKERGAMEMULTIDAMAGE_APPLY_OFFSET UNITYSDK_OFFSET(0x19255450)
-#define MOLEMOLE_HACKERGAMEMULTIDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x192555F0)
+#define MOLEMOLE_HACKERGAMEMULTIDAMAGE_APPLY_OFFSET UNITYSDK_OFFSET(0x11922830)
+#define MOLEMOLE_HACKERGAMEMULTIDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x119229D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HackerGameMultiDamage_TypeDefinitionIndex = 80124;
+	inline static constexpr unsigned int HackerGameMultiDamage_TypeDefinitionIndex = 84151;
 
 	class HackerGameMultiDamage : public ::MoleMole::HackerGameBaseDamage
 	{

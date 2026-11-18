@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIFISHINGCONTESTTIPSPOPWINDOWCONTROLLER_STARINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x187F1740)
+#define MOLEMOLE_UIFISHINGCONTESTTIPSPOPWINDOWCONTROLLER_STARINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18357E40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishingContestTipsPopWindowController_StarInfo_TypeDefinitionIndex = 60294;
+	inline static constexpr unsigned int UIFishingContestTipsPopWindowController_StarInfo_TypeDefinitionIndex = 90170;
 
 	class UIFishingContestTipsPopWindowController_StarInfo : public ::System::Object
 	{
 	public:
-		::System::Boolean UnlockAnim; // 0x10
-		::System::Boolean IsLock; // 0x11
-		::System::Boolean IsSpecial; // 0x12
+		::System::Boolean IsSpecial; // 0x10
+		::System::Boolean UnlockAnim; // 0x11
+		::System::Boolean IsLock; // 0x12
 
 		::System::Void _ctor()
 		{

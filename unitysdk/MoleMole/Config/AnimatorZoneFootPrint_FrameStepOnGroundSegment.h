@@ -5,11 +5,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneFootPrint_FrameStepOnGroundSegment_TypeDefinitionIndex = 90784;
+	inline static constexpr unsigned int AnimatorZoneFootPrint_FrameStepOnGroundSegment_TypeDefinitionIndex = 84503;
 
 	struct alignas(4) AnimatorZoneFootPrint_FrameStepOnGroundSegment
 	{
 		::System::Boolean IsSliding; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Int32 StartFrame; // 0x14
 		::System::Int32 EndFrame; // 0x18
 		::UnityEngine::Vector3 GroundPositionL; // 0x1C

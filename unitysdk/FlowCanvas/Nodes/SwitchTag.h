@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define FLOWCANVAS_NODES_SWITCHTAG_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EA94130)
-#define FLOWCANVAS_NODES_SWITCHTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA94340)
+#define FLOWCANVAS_NODES_SWITCHTAG_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EDC51B0)
+#define FLOWCANVAS_NODES_SWITCHTAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC53C0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchTag_TypeDefinitionIndex = 31413;
+	inline static constexpr unsigned int SwitchTag_TypeDefinitionIndex = 30411;
 
 	class SwitchTag : public ::FlowCanvas::Nodes::FlowControlNode
 	{

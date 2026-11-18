@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/VolumetricFogQuality.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
-#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
+#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::NAPRenderPipeline0 { class FXFog_NativeSRP; }
@@ -16,15 +16,15 @@ namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::NAPRenderPipeline0 { class VolumetricFogPass_HistoryBuffer; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E8AE9D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E8AF2F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_SETLOCALRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1E8ADD30)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1E8AE960)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8ADC10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB67290)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EB67BB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_SETLOCALRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1EB665F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1EB67220)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB664D0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int VolumetricFogPass_TypeDefinitionIndex = 5844;
+	inline static constexpr unsigned int VolumetricFogPass_TypeDefinitionIndex = 5850;
 
 	class VolumetricFogPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

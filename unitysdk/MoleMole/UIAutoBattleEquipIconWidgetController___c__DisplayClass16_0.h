@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_940A1D9EF1C28B1E;
+class BAMCLBBFMBD;
 namespace MoleMole { class UIAutoBattleEquipIconWidgetController; }
 
-#define MOLEMOLE_UIAUTOBATTLEEQUIPICONWIDGETCONTROLLER___C__DISPLAYCLASS16_0__BINDITEMDATA_B__0_OFFSET UNITYSDK_OFFSET(0x18BEC130)
-#define MOLEMOLE_UIAUTOBATTLEEQUIPICONWIDGETCONTROLLER___C__DISPLAYCLASS16_0__BINDITEMDATA_B__1_OFFSET UNITYSDK_OFFSET(0x18BEC240)
-#define MOLEMOLE_UIAUTOBATTLEEQUIPICONWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18BEC120)
+#define MOLEMOLE_UIAUTOBATTLEEQUIPICONWIDGETCONTROLLER___C__DISPLAYCLASS16_0__BINDITEMDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1886CA30)
+#define MOLEMOLE_UIAUTOBATTLEEQUIPICONWIDGETCONTROLLER___C__DISPLAYCLASS16_0__BINDITEMDATA_B__1_OFFSET UNITYSDK_OFFSET(0x1886CB40)
+#define MOLEMOLE_UIAUTOBATTLEEQUIPICONWIDGETCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1886CA20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAutoBattleEquipIconWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 79627;
+	inline static constexpr unsigned int UIAutoBattleEquipIconWidgetController___c__DisplayClass16_0_TypeDefinitionIndex = 42591;
 
 	class UIAutoBattleEquipIconWidgetController___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIAutoBattleEquipIconWidgetController* __4__this; // 0x10
-		::Class_2_940A1D9EF1C28B1E* itemData; // 0x18
+		::BAMCLBBFMBD* itemData; // 0x18
 
 		::System::Void _ctor()
 		{

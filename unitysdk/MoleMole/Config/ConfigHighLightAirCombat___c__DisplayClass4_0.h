@@ -6,18 +6,18 @@ namespace MoleMole::Config { class ConfigHighLightAirCombat; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5D2B0)
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT___C__DISPLAYCLASS4_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x1BD5D2C0)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x190A2000)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT___C__DISPLAYCLASS4_0__RELOADFROMFILE_B__0_OFFSET UNITYSDK_OFFSET(0x190A2010)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHighLightAirCombat___c__DisplayClass4_0_TypeDefinitionIndex = 66516;
+	inline static constexpr unsigned int ConfigHighLightAirCombat___c__DisplayClass4_0_TypeDefinitionIndex = 60829;
 
 	class ConfigHighLightAirCombat___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MoleMole::Config::ConfigHighLightAirCombat*>* __9__0; // 0x10
-		::System::Action* complete; // 0x18
+		::System::Action* complete; // 0x10
+		::System::Action_1<::MoleMole::Config::ConfigHighLightAirCombat*>* __9__0; // 0x18
 		::System::Int32 inLoadingRef; // 0x20
 
 		::System::Void _ctor()

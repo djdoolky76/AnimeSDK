@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class FGCOIBFFCHB;
+class NHBKOAFICNL;
+namespace UnityEngine { class Material; }
+
+#define AFLCIIJEDCI_COKNIICCODC_OFFSET UNITYSDK_OFFSET(0x154EF690)
+#define AFLCIIJEDCI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x154EF540)
+#define AFLCIIJEDCI_HMHAGPNCCGA_OFFSET UNITYSDK_OFFSET(0x154EF730)
+#define AFLCIIJEDCI_IJEMJIIIAEF_OFFSET UNITYSDK_OFFSET(0x154EF790)
+#define AFLCIIJEDCI_NDKAHGINCNM_OFFSET UNITYSDK_OFFSET(0x154EF630)
+#define AFLCIIJEDCI_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x154EF5C0)
+#define AFLCIIJEDCI__CTOR_OFFSET UNITYSDK_OFFSET(0x154EF440)
+
+inline static constexpr unsigned int AFLCIIJEDCI_TypeDefinitionIndex = 75858;
+
+class AFLCIIJEDCI : public ::System::Object
+{
+public:
+	::NHBKOAFICNL* BOGJNJMDHKO; // 0x10
+	::NHBKOAFICNL* PGNFHLIDOJL; // 0x18
+	::NHBKOAFICNL* IFOIKJJJEJB; // 0x20
+
+	::System::Void _ctor(::FGCOIBFFCHB* AGHNEGFHKMC, ::FGCOIBFFCHB* FOHJKAJFFIK, ::FGCOIBFFCHB* NEOJINJHJII)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*, ::FGCOIBFFCHB*, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + AFLCIIJEDCI__CTOR_OFFSET))(this, AGHNEGFHKMC, FOHJKAJFFIK, NEOJINJHJII);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AFLCIIJEDCI_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void NPOLNFDBOOD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AFLCIIJEDCI_NPOLNFDBOOD_OFFSET))(this);
+	}
+
+	::UnityEngine::Material* NDKAHGINCNM()
+	{
+		return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + AFLCIIJEDCI_NDKAHGINCNM_OFFSET))(this);
+	}
+
+	static ::AFLCIIJEDCI* COKNIICCODC(::FGCOIBFFCHB* AGHNEGFHKMC, ::FGCOIBFFCHB* FOHJKAJFFIK, ::FGCOIBFFCHB* NEOJINJHJII)
+	{
+		return ((::AFLCIIJEDCI*(*)(::FGCOIBFFCHB*, ::FGCOIBFFCHB*, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + AFLCIIJEDCI_COKNIICCODC_OFFSET))(AGHNEGFHKMC, FOHJKAJFFIK, NEOJINJHJII);
+	}
+
+	::UnityEngine::Material* HMHAGPNCCGA()
+	{
+		return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + AFLCIIJEDCI_HMHAGPNCCGA_OFFSET))(this);
+	}
+
+	::UnityEngine::Material* IJEMJIIIAEF()
+	{
+		return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + AFLCIIJEDCI_IJEMJIIIAEF_OFFSET))(this);
+	}
+};

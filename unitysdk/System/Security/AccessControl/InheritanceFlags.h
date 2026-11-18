@@ -3,7 +3,7 @@
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int InheritanceFlags_TypeDefinitionIndex = 985;
+	inline static constexpr unsigned int InheritanceFlags_TypeDefinitionIndex = 984;
 
 	enum class InheritanceFlags : ::System::Int32
 	{

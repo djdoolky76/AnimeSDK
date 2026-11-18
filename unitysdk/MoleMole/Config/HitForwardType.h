@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HitForwardType_TypeDefinitionIndex = 64512;
+	inline static constexpr unsigned int HitForwardType_TypeDefinitionIndex = 68136;
 
 	enum class HitForwardType : ::System::Int32
 	{
-		Pull = 1,
 		Push = 0,
+		Pull = 1,
 	};
 }

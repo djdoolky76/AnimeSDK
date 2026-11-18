@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/HIHNKMMCLEB.h"
+#include "unitysdk/NJNGHAOBGCA.h"
+
+class CLNGHONFNHE;
+
+#define JHINNBDGKBP_HFAPCDMGCCB_OFFSET UNITYSDK_OFFSET(0x8D0F80)
+#define JHINNBDGKBP_KHABHIGBPIN_OFFSET UNITYSDK_OFFSET(0x8D0F70)
+
+inline static constexpr unsigned int JHINNBDGKBP_TypeDefinitionIndex = 93346;
+
+struct alignas(4) JHINNBDGKBP
+{
+	// static const ::System::Single LPKMDGPOEFJ; // 0x0
+
+	::System::Boolean KHABHIGBPIN(::CLNGHONFNHE* BMEPJBGGDFN, ::NJNGHAOBGCA& HBMGHPEPBNC, ::HIHNKMMCLEB& HNOPAJLDCFB)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::CLNGHONFNHE*, ::NJNGHAOBGCA&, ::HIHNKMMCLEB&))((::PBYTE)hIl2Cpp + JHINNBDGKBP_KHABHIGBPIN_OFFSET))(this, BMEPJBGGDFN, HBMGHPEPBNC, HNOPAJLDCFB);
+	}
+
+	::System::Boolean HFAPCDMGCCB(::CLNGHONFNHE* BMEPJBGGDFN, ::NJNGHAOBGCA& HBMGHPEPBNC, ::HIHNKMMCLEB& HNOPAJLDCFB)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::CLNGHONFNHE*, ::NJNGHAOBGCA&, ::HIHNKMMCLEB&))((::PBYTE)hIl2Cpp + JHINNBDGKBP_HFAPCDMGCCB_OFFSET))(this, BMEPJBGGDFN, HBMGHPEPBNC, HNOPAJLDCFB);
+	}
+};

@@ -16,32 +16,40 @@
 namespace NPCCrowd::AI { class AttractorRuntime; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_ATTRACTORRUNTIMEDATA_ADDATTRACTOR_OFFSET UNITYSDK_OFFSET(0xD87DB40)
-#define NPCCROWD_AI_ATTRACTORRUNTIMEDATA_INIT_OFFSET UNITYSDK_OFFSET(0xD87D7D0)
-#define NPCCROWD_AI_ATTRACTORRUNTIMEDATA_ONATTRACTORENABLED_OFFSET UNITYSDK_OFFSET(0xD87E4C0)
-#define NPCCROWD_AI_ATTRACTORRUNTIMEDATA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD87E530)
-#define NPCCROWD_AI_ATTRACTORRUNTIMEDATA_SWITCHANDREMOVEATTRACTOR_OFFSET UNITYSDK_OFFSET(0xD87DFA0)
-#define NPCCROWD_AI_ATTRACTORRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD87E900)
+#define NPCCROWD_AI_ATTRACTORRUNTIMEDATA_ADDATTRACTOR_OFFSET UNITYSDK_OFFSET(0xED53750)
+#define NPCCROWD_AI_ATTRACTORRUNTIMEDATA_INIT_OFFSET UNITYSDK_OFFSET(0xED533F0)
+#define NPCCROWD_AI_ATTRACTORRUNTIMEDATA_ONATTRACTORENABLED_OFFSET UNITYSDK_OFFSET(0xED540E0)
+#define NPCCROWD_AI_ATTRACTORRUNTIMEDATA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xED54150)
+#define NPCCROWD_AI_ATTRACTORRUNTIMEDATA_SWITCHANDREMOVEATTRACTOR_OFFSET UNITYSDK_OFFSET(0xED53BB0)
+#define NPCCROWD_AI_ATTRACTORRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xED54510)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorRuntimeData_TypeDefinitionIndex = 57375;
+	inline static constexpr unsigned int AttractorRuntimeData_TypeDefinitionIndex = 74595;
 
 	class AttractorRuntimeData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::NPCCrowd::AI::AttractorRuntime*>* handles; // 0x10
-		::Unity::Collections::NativeArray_1<::System::Boolean> bIsUsing; // 0x18
-		::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData> NativeData; // 0x28
-		::Foundation::Container::HierarchicalHashGrid2D_2<::NPCCrowd::Ability::NavigationObstacleItem, ::NPCCrowd::Ability::NavigationObstacleItemEqualsFunc> ObstacleGrid; // 0x48
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavigationObstacleGridCellLocationFragment> ObstacleLocation; // 0x98
-		::Unity::Collections::NativeArray_1<::System::Int32> attractorHandler; // 0xA8
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> transform; // 0xB8
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> queryBox; // 0xC8
-		::Unity::Collections::NativeArray_1<::NPCCrowd::AI::FConflictData> conflictedArea; // 0xD8
-		::Unity::Collections::NativeArray_1<::NPCCrowd::AI::FAttractorBase> attractorBase; // 0xE8
-		::System::Int32 Count; // 0xF8
-		::System::Int32 capcity; // 0xFC
+		::Unity::Collections::NativeArray_1<::System::Int32> attractorHandler; // 0x18
+		::System::Byte _padding0[0x8];
+		::Unity::Collections::NativeArray_1<::NPCCrowd::AI::FAttractorBase> attractorBase; // 0x28
+		::System::Byte _padding1[0x8];
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> transform; // 0x38
+		::System::Byte _padding2[0x8];
+		::Unity::Collections::NativeArray_1<::NPCCrowd::AI::FConflictData> conflictedArea; // 0x48
+		::System::Byte _padding3[0x8];
+		::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData> NativeData; // 0x58
+		::System::Byte _padding4[0x18];
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> queryBox; // 0x78
+		::System::Byte _padding5[0x8];
+		::System::Int32 Count; // 0x88
+		::System::Int32 capcity; // 0x8C
+		::Foundation::Container::HierarchicalHashGrid2D_2<::NPCCrowd::Ability::NavigationObstacleItem, ::NPCCrowd::Ability::NavigationObstacleItemEqualsFunc> ObstacleGrid; // 0x90
+		::System::Byte _padding6[0x48];
+		::Unity::Collections::NativeArray_1<::System::Boolean> bIsUsing; // 0xE0
+		::System::Byte _padding7[0x8];
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCNavigationObstacleGridCellLocationFragment> ObstacleLocation; // 0xF0
 
 		::System::Void _ctor()
 		{

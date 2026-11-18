@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define LITJSON_EXTENSIONS_EXTENSIONS___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A65C0)
-#define LITJSON_EXTENSIONS_EXTENSIONS___C__DISPLAYCLASS4_0__HASIMPLEMENTEDRAWGENERIC_G__ISTHERAWGENERICTYPE_0_OFFSET UNITYSDK_OFFSET(0x1B8A65D0)
+#define LITJSON_EXTENSIONS_EXTENSIONS___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18AE59A0)
+#define LITJSON_EXTENSIONS_EXTENSIONS___C__DISPLAYCLASS4_0__HASIMPLEMENTEDRAWGENERIC_G__ISTHERAWGENERICTYPE_0_OFFSET UNITYSDK_OFFSET(0x18AE59B0)
 
 namespace LitJson::Extensions
 {
-	inline static constexpr unsigned int Extensions___c__DisplayClass4_0_TypeDefinitionIndex = 7976;
+	inline static constexpr unsigned int Extensions___c__DisplayClass4_0_TypeDefinitionIndex = 8090;
 
 	class Extensions___c__DisplayClass4_0 : public ::System::Object
 	{

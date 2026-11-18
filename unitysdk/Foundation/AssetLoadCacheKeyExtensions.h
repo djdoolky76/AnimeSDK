@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/Foundation/AssetLoadCacheKey.h"
 #include "unitysdk/Foundation/AssetPath.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
 namespace Foundation { class IAssetRequest; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define FOUNDATION_ASSETLOADCACHEKEYEXTENSIONS_TOLOADCACHEKEY_1_OFFSET UNITYSDK_OFFSET(0x1F09DDA0)
-#define FOUNDATION_ASSETLOADCACHEKEYEXTENSIONS_TOLOADCACHEKEY_2_OFFSET UNITYSDK_OFFSET(0x1F09DE40)
-#define FOUNDATION_ASSETLOADCACHEKEYEXTENSIONS_TOLOADCACHEKEY_OFFSET UNITYSDK_OFFSET(0x1F09DD10)
+#define FOUNDATION_ASSETLOADCACHEKEYEXTENSIONS_TOLOADCACHEKEY_1_OFFSET UNITYSDK_OFFSET(0x1F2CEE80)
+#define FOUNDATION_ASSETLOADCACHEKEYEXTENSIONS_TOLOADCACHEKEY_2_OFFSET UNITYSDK_OFFSET(0x1F2CEF00)
+#define FOUNDATION_ASSETLOADCACHEKEYEXTENSIONS_TOLOADCACHEKEY_OFFSET UNITYSDK_OFFSET(0x1F2CEDF0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AssetLoadCacheKeyExtensions_TypeDefinitionIndex = 7812;
+	inline static constexpr unsigned int AssetLoadCacheKeyExtensions_TypeDefinitionIndex = 8688;
 
 	class AssetLoadCacheKeyExtensions : public ::System::Object
 	{

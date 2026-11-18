@@ -4,10 +4,10 @@
 
 namespace UnityEngine::InputSystem::DualShock::LowLevel
 {
-	inline static constexpr unsigned int DualShockHIDOutputReport__unknown1_e__FixedBuffer_TypeDefinitionIndex = 32459;
+	inline static constexpr unsigned int DualShockHIDOutputReport__unknown1_e__FixedBuffer_TypeDefinitionIndex = 31908;
 
-	struct alignas(1) DualShockHIDOutputReport__unknown1_e__FixedBuffer
+	struct alignas(4) DualShockHIDOutputReport__unknown1_e__FixedBuffer
 	{
-		::System::Byte data[2]; // 0x0
+		::System::Byte FixedElementField; // 0x10
 	};
 }

@@ -1,36 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/miHoYoEmotion/BlendShapeData.h"
 
 namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace miHoYoEmotion { class BaseShape; }
 namespace miHoYoEmotion { class ElementManager; }
 namespace miHoYoEmotion { class EmoTrack_EmoVoidHandler; }
 namespace miHoYoEmotion { class SequenceBakeData_BakeData; }
 
-#define MIHOYOEMOTION_EMOTRACK_APPENDSHAPE_OFFSET UNITYSDK_OFFSET(0x1D041450)
-#define MIHOYOEMOTION_EMOTRACK_APPLY_OFFSET UNITYSDK_OFFSET(0x1D027BA0)
-#define MIHOYOEMOTION_EMOTRACK_CALLFINISHHANDLER_OFFSET UNITYSDK_OFFSET(0x1D032C90)
-#define MIHOYOEMOTION_EMOTRACK_CLEARSHAPEONLY_OFFSET UNITYSDK_OFFSET(0x1D02CCA0)
-#define MIHOYOEMOTION_EMOTRACK_CLEARSHAPE_OFFSET UNITYSDK_OFFSET(0x1D02C970)
-#define MIHOYOEMOTION_EMOTRACK_ENABLESHAPE_OFFSET UNITYSDK_OFFSET(0x1D0336C0)
-#define MIHOYOEMOTION_EMOTRACK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1D0337D0)
-#define MIHOYOEMOTION_EMOTRACK_GETCURSHAPE_OFFSET UNITYSDK_OFFSET(0x1D024BB0)
-#define MIHOYOEMOTION_EMOTRACK_INIT_OFFSET UNITYSDK_OFFSET(0x1D027030)
-#define MIHOYOEMOTION_EMOTRACK_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x1D0414B0)
-#define MIHOYOEMOTION_EMOTRACK_ISPLAYING_OFFSET UNITYSDK_OFFSET(0x1D033960)
-#define MIHOYOEMOTION_EMOTRACK_PLAYBAKEDSEQUENCE_OFFSET UNITYSDK_OFFSET(0x1D033A30)
-#define MIHOYOEMOTION_EMOTRACK_PLAYDEFAULT_OFFSET UNITYSDK_OFFSET(0x1D0286C0)
-#define MIHOYOEMOTION_EMOTRACK_REGISTERFINISHHANDLER_OFFSET UNITYSDK_OFFSET(0x1D041290)
-#define MIHOYOEMOTION_EMOTRACK_SETCURSHAPE_OFFSET UNITYSDK_OFFSET(0x1D0413F0)
-#define MIHOYOEMOTION_EMOTRACK_STOPSEQUENCE_OFFSET UNITYSDK_OFFSET(0x1D032250)
-#define MIHOYOEMOTION_EMOTRACK_UNREGISTERFINISHHANDLER_OFFSET UNITYSDK_OFFSET(0x1D041340)
-#define MIHOYOEMOTION_EMOTRACK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D027D20)
-#define MIHOYOEMOTION_EMOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D027A80)
+#define MIHOYOEMOTION_EMOTRACK_APPENDSHAPE_OFFSET UNITYSDK_OFFSET(0x1D594EC0)
+#define MIHOYOEMOTION_EMOTRACK_APPLY_OFFSET UNITYSDK_OFFSET(0x1D57B0A0)
+#define MIHOYOEMOTION_EMOTRACK_CALLFINISHHANDLER_OFFSET UNITYSDK_OFFSET(0x1D586240)
+#define MIHOYOEMOTION_EMOTRACK_CLEARSHAPEONLY_OFFSET UNITYSDK_OFFSET(0x1D5801A0)
+#define MIHOYOEMOTION_EMOTRACK_CLEARSHAPE_OFFSET UNITYSDK_OFFSET(0x1D57FE70)
+#define MIHOYOEMOTION_EMOTRACK_ENABLESHAPE_OFFSET UNITYSDK_OFFSET(0x1D586C70)
+#define MIHOYOEMOTION_EMOTRACK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1D586D80)
+#define MIHOYOEMOTION_EMOTRACK_GETCURSHAPE_OFFSET UNITYSDK_OFFSET(0x1D578100)
+#define MIHOYOEMOTION_EMOTRACK_INIT_OFFSET UNITYSDK_OFFSET(0x1D57A530)
+#define MIHOYOEMOTION_EMOTRACK_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x1D594F20)
+#define MIHOYOEMOTION_EMOTRACK_ISPLAYING_OFFSET UNITYSDK_OFFSET(0x1D586F10)
+#define MIHOYOEMOTION_EMOTRACK_PLAYBAKEDSEQUENCE_OFFSET UNITYSDK_OFFSET(0x1D586FF0)
+#define MIHOYOEMOTION_EMOTRACK_PLAYDEFAULT_OFFSET UNITYSDK_OFFSET(0x1D57BBC0)
+#define MIHOYOEMOTION_EMOTRACK_REGISTERFINISHHANDLER_OFFSET UNITYSDK_OFFSET(0x1D594D00)
+#define MIHOYOEMOTION_EMOTRACK_SETCURSHAPE_OFFSET UNITYSDK_OFFSET(0x1D594E60)
+#define MIHOYOEMOTION_EMOTRACK_STOPSEQUENCE_OFFSET UNITYSDK_OFFSET(0x1D585800)
+#define MIHOYOEMOTION_EMOTRACK_UNREGISTERFINISHHANDLER_OFFSET UNITYSDK_OFFSET(0x1D594DB0)
+#define MIHOYOEMOTION_EMOTRACK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D57B220)
+#define MIHOYOEMOTION_EMOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D57AF80)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int EmoTrack_TypeDefinitionIndex = 39989;
+	inline static constexpr unsigned int EmoTrack_TypeDefinitionIndex = 38015;
 
 	class EmoTrack : public ::System::Object
 	{
@@ -44,20 +46,20 @@ namespace miHoYoEmotion
 		// static const ::System::Int32 TRACK_BLINK = 0x1; // 0x0
 		// static const ::System::Int32 TRACK_PHONEME = 0x2; // 0x0
 		// static const ::System::Int32 TRACK_EYE_CTRL = 0x3; // 0x0
-		::miHoYoEmotion::ElementManager* _manager; // 0x10
-		::miHoYoEmotion::BaseShape* _preShape; // 0x18
-		::miHoYoEmotion::EmoTrack_EmoVoidHandler* _finishHandler; // 0x20
+		::miHoYoEmotion::BaseShape* _curShape; // 0x10
+		::miHoYoEmotion::ElementManager* _manager; // 0x18
+		::System::String* currFacial; // 0x20
 		::System::String* _curTag; // 0x28
-		::System::String* currPose; // 0x30
-		::System::String* currFacial; // 0x38
-		::miHoYoEmotion::BaseShape* _curShape; // 0x40
+		::miHoYoEmotion::BaseShape* _preShape; // 0x30
+		::System::String* currPose; // 0x38
+		::miHoYoEmotion::EmoTrack_EmoVoidHandler* _finishHandler; // 0x40
 		::System::Single _timeLength; // 0x48
-		::System::Single _timeCnt; // 0x4C
-		::System::Single stopTime; // 0x50
-		::System::Boolean isInterrupted; // 0x54
-		::System::Boolean _isTobeFinished; // 0x55
-		::System::Boolean isStopped; // 0x56
-		::System::Boolean isPaused; // 0x57
+		::System::Single stopTime; // 0x4C
+		::System::Single _timeCnt; // 0x50
+		::System::Boolean isPaused; // 0x54
+		::System::Boolean isInterrupted; // 0x55
+		::System::Boolean _isTobeFinished; // 0x56
+		::System::Boolean isStopped; // 0x57
 
 		::System::Void _ctor()
 		{
@@ -139,9 +141,9 @@ namespace miHoYoEmotion
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_EMOTRACK_CLEARSHAPEONLY_OFFSET))(this);
 		}
 
-		::System::Void PlayBakedSequence(::miHoYoEmotion::SequenceBakeData_BakeData* bakeData)
+		::System::Void PlayBakedSequence(::miHoYoEmotion::SequenceBakeData_BakeData* bakeData, ::System::Collections::Generic::List_1<::miHoYoEmotion::BlendShapeData>* stopShapeDatas)
 		{
-			return ((::System::Void(*)(::PVOID, ::miHoYoEmotion::SequenceBakeData_BakeData*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_EMOTRACK_PLAYBAKEDSEQUENCE_OFFSET))(this, bakeData);
+			return ((::System::Void(*)(::PVOID, ::miHoYoEmotion::SequenceBakeData_BakeData*, ::System::Collections::Generic::List_1<::miHoYoEmotion::BlendShapeData>*))((::PBYTE)hIl2Cpp + MIHOYOEMOTION_EMOTRACK_PLAYBAKEDSEQUENCE_OFFSET))(this, bakeData, stopShapeDatas);
 		}
 
 		::System::Void StopSequence()

@@ -8,7 +8,7 @@ namespace System::Net { class EndPoint; }
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SocketReceiveMessageFromResult_TypeDefinitionIndex = 3688;
+	inline static constexpr unsigned int SocketReceiveMessageFromResult_TypeDefinitionIndex = 3687;
 
 	struct alignas(8) SocketReceiveMessageFromResult
 	{

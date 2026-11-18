@@ -1,23 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/DataStructures/HashSet_1_ElementCount.h"
-#include "unitysdk/Foundation/DataStructures/HashSet_1_Enumerator.h"
-#include "unitysdk/Foundation/DataStructures/HashSet_1_Slot.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
-namespace Foundation::DataStructures { template <typename T> class HashSet_1; }
-namespace System { class String; }
-namespace System { template <typename T> class Predicate_1; }
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace Foundation::DataStructures
 {
-	inline static constexpr unsigned int HashSet_1_TypeDefinitionIndex = 8071;
+	inline static constexpr unsigned int HashSet_1_TypeDefinitionIndex = 8589;
 
 	template <typename T>
 	class HashSet_1 : public ::System::Object
@@ -31,7 +21,7 @@ namespace Foundation::DataStructures
 		// static const ::System::String* ComparerName; // 0x0
 		// static const ::System::String* VersionName; // 0x0
 		::Il2CppArray<::System::Int32>* m_buckets; // 0x0
-		::Il2CppArray<::Foundation::DataStructures::HashSet_1_Slot<T>>* m_slots; // 0x0
+		::Il2CppArray<::System::Object*>* m_slots; // 0x0
 		::System::Int32 m_count; // 0x0
 		::System::Int32 m_lastIndex; // 0x0
 		::System::Int32 m_freeList; // 0x0

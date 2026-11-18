@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define SIRENIX_SERIALIZATION_UTILITIES_UNSAFE_UNSAFEUTILITIES_MEMORYCOPY_1_OFFSET UNITYSDK_OFFSET(0x1FC2BD40)
-#define SIRENIX_SERIALIZATION_UTILITIES_UNSAFE_UNSAFEUTILITIES_MEMORYCOPY_OFFSET UNITYSDK_OFFSET(0x1FC2BC90)
-#define SIRENIX_SERIALIZATION_UTILITIES_UNSAFE_UNSAFEUTILITIES_STRINGFROMBYTES_OFFSET UNITYSDK_OFFSET(0x1FC2B1E0)
-#define SIRENIX_SERIALIZATION_UTILITIES_UNSAFE_UNSAFEUTILITIES_STRINGTOBYTES_OFFSET UNITYSDK_OFFSET(0x1FC2B770)
+#define SIRENIX_SERIALIZATION_UTILITIES_UNSAFE_UNSAFEUTILITIES_MEMORYCOPY_1_OFFSET UNITYSDK_OFFSET(0x200341D0)
+#define SIRENIX_SERIALIZATION_UTILITIES_UNSAFE_UNSAFEUTILITIES_MEMORYCOPY_OFFSET UNITYSDK_OFFSET(0x20034120)
+#define SIRENIX_SERIALIZATION_UTILITIES_UNSAFE_UNSAFEUTILITIES_STRINGFROMBYTES_OFFSET UNITYSDK_OFFSET(0x20033670)
+#define SIRENIX_SERIALIZATION_UTILITIES_UNSAFE_UNSAFEUTILITIES_STRINGTOBYTES_OFFSET UNITYSDK_OFFSET(0x20033C00)
 
 namespace Sirenix::Serialization::Utilities::Unsafe
 {
-	inline static constexpr unsigned int UnsafeUtilities_TypeDefinitionIndex = 7666;
+	inline static constexpr unsigned int UnsafeUtilities_TypeDefinitionIndex = 7678;
 
 	class UnsafeUtilities : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace Sirenix::Serialization::Utilities::Unsafe
 			return ((::System::Int32(*)(::Il2CppArray<::System::Byte>*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SIRENIX_SERIALIZATION_UTILITIES_UNSAFE_UNSAFEUTILITIES_STRINGTOBYTES_OFFSET))(buffer, value, needs16BitSupport);
 		}
 
-		static ::System::Void MemoryCopy(::System::Void* from, ::System::Void* to, ::System::Int32 bytes)
+		static ::System::Void MemoryCopy(::PVOID from, ::PVOID to, ::System::Int32 bytes)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::Void*, ::System::Int32))((::PBYTE)hIl2Cpp + SIRENIX_SERIALIZATION_UTILITIES_UNSAFE_UNSAFEUTILITIES_MEMORYCOPY_OFFSET))(from, to, bytes);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SIRENIX_SERIALIZATION_UTILITIES_UNSAFE_UNSAFEUTILITIES_MEMORYCOPY_OFFSET))(from, to, bytes);
 		}
 
 		static ::System::Void MemoryCopy_1(::System::Object* from, ::System::Object* to, ::System::Int32 byteCount, ::System::Int32 fromByteOffset, ::System::Int32 toByteOffset)

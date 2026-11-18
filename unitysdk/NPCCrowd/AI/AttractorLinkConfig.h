@@ -5,16 +5,17 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_ATTRACTORLINKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x157A6E30)
+#define NPCCROWD_AI_ATTRACTORLINKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10DB0D10)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorLinkConfig_TypeDefinitionIndex = 79081;
+	inline static constexpr unsigned int AttractorLinkConfig_TypeDefinitionIndex = 56334;
 
 	class AttractorLinkConfig : public ::System::Object
 	{
 	public:
 		::System::Int32 rootInstanceID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::NPCCrowd::AI::AttractorLink>* attractorLinks; // 0x18
 		::Il2CppArray<::System::Int32>* linkInstances; // 0x20
 

@@ -3,14 +3,14 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EMailState_TypeDefinitionIndex = 10744;
+	inline static constexpr unsigned int EMailState_TypeDefinitionIndex = 17525;
 
 	enum class EMailState : ::System::Byte
 	{
-		Removed = 0x4,
-		Awarded = 0x3,
-		New = 0x0,
-		Read = 0x2,
-		Old = 0x1,
+		Read = 2,
+		New = 0,
+		Removed = 4,
+		Awarded = 3,
+		Old = 1,
 	};
 }

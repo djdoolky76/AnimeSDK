@@ -6,10 +6,10 @@
 
 class IPerObjectShadowEntity;
 
-#define PEROBJECTSHADOWENTITYEXTENSION_SETBAKEDBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C4CBA90)
-#define PEROBJECTSHADOWENTITYEXTENSION_SETCULLRESULT_OFFSET UNITYSDK_OFFSET(0x1C4CB850)
+#define PEROBJECTSHADOWENTITYEXTENSION_SETBAKEDBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C974810)
+#define PEROBJECTSHADOWENTITYEXTENSION_SETCULLRESULT_OFFSET UNITYSDK_OFFSET(0x1C9745D0)
 
-inline static constexpr unsigned int PerObjectShadowEntityExtension_TypeDefinitionIndex = 27049;
+inline static constexpr unsigned int PerObjectShadowEntityExtension_TypeDefinitionIndex = 27015;
 
 class PerObjectShadowEntityExtension : public ::System::Object
 {

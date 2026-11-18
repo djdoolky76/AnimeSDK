@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/CameraData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Plane.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/CameraData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableCullingParameters.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
@@ -13,23 +13,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1BC54450)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1BC543A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1BC54400)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS_SETUPCULLINGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1BC54350)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1BC54300)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC54280)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1BC54490)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS_CLEANUP_OFFSET UNITYSDK_OFFSET(0x16E4C050)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16E4BFA0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x16E4C000)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS_SETUPCULLINGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x16E4BF50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x16E4BF00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x16E4BE80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SUNSHADOWCACHEPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x16E4C090)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SunShadowCachePass_TypeDefinitionIndex = 27455;
+	inline static constexpr unsigned int SunShadowCachePass_TypeDefinitionIndex = 26807;
 
 	class SunShadowCachePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		::Il2CppArray<::UnityEngine::Plane>* m_TempPlanes; // 0xA8
 		::System::Int32 m_NameSunShadowCache; // 0xB0
+		::System::Byte _padding0[0x4];
 		::System::UInt64 m_TempCustomDirCullParamsPtr; // 0xB8
 
 		::System::Void _ctor(::System::String* profileTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventConfig)

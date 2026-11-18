@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
-namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define NODECANVAS_TASKS_ACTIONS_FLEE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EB9A130)
-#define NODECANVAS_TASKS_ACTIONS_FLEE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB9A1A0)
-#define NODECANVAS_TASKS_ACTIONS_FLEE_ONPAUSE_OFFSET UNITYSDK_OFFSET(0x1EB9A9B0)
-#define NODECANVAS_TASKS_ACTIONS_FLEE_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1EB9A9C0)
-#define NODECANVAS_TASKS_ACTIONS_FLEE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EB9A4D0)
-#define NODECANVAS_TASKS_ACTIONS_FLEE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9AA50)
+#define NODECANVAS_TASKS_ACTIONS_FLEE_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EF69B90)
+#define NODECANVAS_TASKS_ACTIONS_FLEE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF69C00)
+#define NODECANVAS_TASKS_ACTIONS_FLEE_ONPAUSE_OFFSET UNITYSDK_OFFSET(0x1EF6A410)
+#define NODECANVAS_TASKS_ACTIONS_FLEE_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1EF6A420)
+#define NODECANVAS_TASKS_ACTIONS_FLEE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EF69F30)
+#define NODECANVAS_TASKS_ACTIONS_FLEE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6A4B0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int Flee_TypeDefinitionIndex = 30503;
+	inline static constexpr unsigned int Flee_TypeDefinitionIndex = 30396;
 
-	class Flee : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::AI::NavMeshAgent*>
+	class Flee
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* speed; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* target; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* lookAhead; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* speed; // 0x68
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* fledDistance; // 0x70
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* lookAhead; // 0x78
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* target; // 0x78
 
 		::System::Void _ctor()
 		{

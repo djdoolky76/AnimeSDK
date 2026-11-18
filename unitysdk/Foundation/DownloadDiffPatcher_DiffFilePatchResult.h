@@ -4,11 +4,11 @@
 
 namespace Foundation { class ExceptionInfo; }
 
-#define FOUNDATION_DOWNLOADDIFFPATCHER_DIFFFILEPATCHRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x12719FB0)
+#define FOUNDATION_DOWNLOADDIFFPATCHER_DIFFFILEPATCHRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x11D945C0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int DownloadDiffPatcher_DiffFilePatchResult_TypeDefinitionIndex = 52897;
+	inline static constexpr unsigned int DownloadDiffPatcher_DiffFilePatchResult_TypeDefinitionIndex = 62274;
 
 	class DownloadDiffPatcher_DiffFilePatchResult : public ::System::Object
 	{

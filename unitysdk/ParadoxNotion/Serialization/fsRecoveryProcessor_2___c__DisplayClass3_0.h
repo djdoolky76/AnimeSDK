@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
 namespace ParadoxNotion::Serialization::FullSerializer { class fsData; }
@@ -9,9 +8,9 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace ParadoxNotion::Serialization
 {
-	inline static constexpr unsigned int fsRecoveryProcessor_2___c__DisplayClass3_0_TypeDefinitionIndex = 31182;
+	inline static constexpr unsigned int fsRecoveryProcessor_2___c__DisplayClass3_0_TypeDefinitionIndex = 30074;
 
-	template <typename TCanProcess, typename TMissing>
+	template <typename T1, typename T2>
 	class fsRecoveryProcessor_2___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

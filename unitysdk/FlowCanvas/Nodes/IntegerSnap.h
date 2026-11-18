@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_INTEGERSNAP_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E7A5C50)
-#define FLOWCANVAS_NODES_INTEGERSNAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A5D10)
+#define FLOWCANVAS_NODES_INTEGERSNAP_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EA56CC0)
+#define FLOWCANVAS_NODES_INTEGERSNAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA56D80)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IntegerSnap_TypeDefinitionIndex = 31260;
+	inline static constexpr unsigned int IntegerSnap_TypeDefinitionIndex = 29844;
 
-	class IntegerSnap : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Int32, ::System::Int32, ::System::Int32>
+	class IntegerSnap
 	{
 	public:
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int CaretPosition_TypeDefinitionIndex = 39893;
+	inline static constexpr unsigned int CaretPosition_TypeDefinitionIndex = 37893;
 
 	enum class CaretPosition : ::System::Int32
 	{

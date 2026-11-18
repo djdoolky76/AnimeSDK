@@ -7,14 +7,14 @@
 
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C___ONCLICKSENDTIME_B__32_5_D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x87E5B0)
-#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C___ONCLICKSENDTIME_B__32_5_D_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C___ONCLICKSENDTIME_B__32_5_D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7CAA20)
+#define MOLEMOLE_UIMAINCITYSWITCHROLETIMEPANELWIDGETCONTROLLER___C___ONCLICKSENDTIME_B__32_5_D_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCitySwitchRoleTimePanelWidgetController___c___OnClickSendTime_b__32_5_d_TypeDefinitionIndex = 55667;
+	inline static constexpr unsigned int UIMainCitySwitchRoleTimePanelWidgetController___c___OnClickSendTime_b__32_5_d_TypeDefinitionIndex = 72107;
 
-	struct alignas(8) UIMainCitySwitchRoleTimePanelWidgetController___c___OnClickSendTime_b__32_5_d
+	struct alignas(4) UIMainCitySwitchRoleTimePanelWidgetController___c___OnClickSendTime_b__32_5_d
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
 		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20

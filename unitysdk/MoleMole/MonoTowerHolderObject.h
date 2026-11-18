@@ -1,30 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/MonoSceneObjectBase.h"
-#include "unitysdk/MoleMole/MonoTowerHolderObject_Enum_3_A194B73A82D9E1B3.h"
+#include "unitysdk/MoleMole/MonoTowerHolderObject_GMEBFGMDANA.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOTOWERHOLDEROBJECT_GETALL_OFFSET UNITYSDK_OFFSET(0x13AC54C0)
-#define MOLEMOLE_MONOTOWERHOLDEROBJECT_HASTAG_OFFSET UNITYSDK_OFFSET(0x13AC56A0)
-#define MOLEMOLE_MONOTOWERHOLDEROBJECT_ISALLOWED_OFFSET UNITYSDK_OFFSET(0x13AC5600)
-#define MOLEMOLE_MONOTOWERHOLDEROBJECT_METHOD_7_BB5BE9EEA0111E72_OFFSET UNITYSDK_OFFSET(0x13AC58D0)
-#define MOLEMOLE_MONOTOWERHOLDEROBJECT_POPTAG_OFFSET UNITYSDK_OFFSET(0x13AC5780)
-#define MOLEMOLE_MONOTOWERHOLDEROBJECT_PUSHTAG_OFFSET UNITYSDK_OFFSET(0x13AC5700)
-#define MOLEMOLE_MONOTOWERHOLDEROBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x13AC57E0)
+#define MOLEMOLE_MONOTOWERHOLDEROBJECT_GETALL_OFFSET UNITYSDK_OFFSET(0x1469D7B0)
+#define MOLEMOLE_MONOTOWERHOLDEROBJECT_HASTAG_OFFSET UNITYSDK_OFFSET(0x1469D990)
+#define MOLEMOLE_MONOTOWERHOLDEROBJECT_ISALLOWED_OFFSET UNITYSDK_OFFSET(0x1469D8F0)
+#define MOLEMOLE_MONOTOWERHOLDEROBJECT_JMJKGOPDMDI_OFFSET UNITYSDK_OFFSET(0x1469DBC0)
+#define MOLEMOLE_MONOTOWERHOLDEROBJECT_POPTAG_OFFSET UNITYSDK_OFFSET(0x1469DA70)
+#define MOLEMOLE_MONOTOWERHOLDEROBJECT_PUSHTAG_OFFSET UNITYSDK_OFFSET(0x1469D9F0)
+#define MOLEMOLE_MONOTOWERHOLDEROBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1469DAD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTowerHolderObject_TypeDefinitionIndex = 76927;
+	inline static constexpr unsigned int MonoTowerHolderObject_TypeDefinitionIndex = 44850;
 
 	class MonoTowerHolderObject : public ::MoleMole::MonoSceneObjectBase
 	{
 	public:
-		::MoleMole::MonoTowerHolderObject_Enum_3_A194B73A82D9E1B3 TowerRangeType; // 0x28
-		::System::String* AddTowerAbility; // 0x30
-		::System::Boolean isOccupied; // 0x38
-		::System::Collections::Generic::List_1<::System::UInt32>* disableTags; // 0x40
+		::MoleMole::MonoTowerHolderObject_GMEBFGMDANA TowerRangeType; // 0x38
+		::System::Byte _padding0[0x4];
+		::System::String* AddTowerAbility; // 0x40
+		::System::Boolean isOccupied; // 0x48
+		::System::Byte _padding1[0x7];
+		::System::Collections::Generic::List_1<::System::UInt32>* disableTags; // 0x50
 
 		::System::Void _ctor()
 		{
@@ -36,9 +38,9 @@ namespace MoleMole
 			return ((::Il2CppArray<::MoleMole::MonoTowerHolderObject*>*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTOWERHOLDEROBJECT_GETALL_OFFSET))();
 		}
 
-		::System::Boolean IsAllowed(::MoleMole::MonoTowerHolderObject_Enum_3_A194B73A82D9E1B3 a1)
+		::System::Boolean IsAllowed(::MoleMole::MonoTowerHolderObject_GMEBFGMDANA NEAOFNHMFOA)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoTowerHolderObject_Enum_3_A194B73A82D9E1B3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTOWERHOLDEROBJECT_ISALLOWED_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoTowerHolderObject_GMEBFGMDANA))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTOWERHOLDEROBJECT_ISALLOWED_OFFSET))(this, NEAOFNHMFOA);
 		}
 
 		::System::Boolean HasTag()
@@ -46,19 +48,19 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTOWERHOLDEROBJECT_HASTAG_OFFSET))(this);
 		}
 
-		::System::Void PushTag(::System::UInt32 a1)
+		::System::Void PushTag(::System::UInt32 AELLPLBJELA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTOWERHOLDEROBJECT_PUSHTAG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTOWERHOLDEROBJECT_PUSHTAG_OFFSET))(this, AELLPLBJELA);
 		}
 
-		::System::Void PopTag(::System::UInt32 a1)
+		::System::Void PopTag(::System::UInt32 AELLPLBJELA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTOWERHOLDEROBJECT_POPTAG_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTOWERHOLDEROBJECT_POPTAG_OFFSET))(this, AELLPLBJELA);
 		}
 
-		static ::System::Boolean Method_7_BB5BE9EEA0111E72(::MoleMole::MonoTowerHolderObject* a1)
+		static ::System::Boolean JMJKGOPDMDI(::MoleMole::MonoTowerHolderObject* OMPHGGCEIBD)
 		{
-			return ((::System::Boolean(*)(::MoleMole::MonoTowerHolderObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTOWERHOLDEROBJECT_METHOD_7_BB5BE9EEA0111E72_OFFSET))(a1);
+			return ((::System::Boolean(*)(::MoleMole::MonoTowerHolderObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTOWERHOLDEROBJECT_JMJKGOPDMDI_OFFSET))(OMPHGGCEIBD);
 		}
 	};
 }

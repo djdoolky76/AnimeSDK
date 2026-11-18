@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIVHSStoreDialogV2PopWindowController; }
 
-#define MOLEMOLE_UIVHSSTOREDIALOGV2POPWINDOWCONTROLLER_DEFAULTLOGIC__CTOR_OFFSET UNITYSDK_OFFSET(0x15EC77D0)
+#define MOLEMOLE_UIVHSSTOREDIALOGV2POPWINDOWCONTROLLER_DEFAULTLOGIC__CTOR_OFFSET UNITYSDK_OFFSET(0x14E24A00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreDialogV2PopWindowController_DefaultLogic_TypeDefinitionIndex = 55343;
+	inline static constexpr unsigned int UIVHSStoreDialogV2PopWindowController_DefaultLogic_TypeDefinitionIndex = 55714;
 
 	class UIVHSStoreDialogV2PopWindowController_DefaultLogic : public ::MoleMole::UIVHSStoreDialogV2PopWindowController_Logic
 	{

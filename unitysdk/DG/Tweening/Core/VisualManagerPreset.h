@@ -3,7 +3,7 @@
 
 namespace DG::Tweening::Core
 {
-	inline static constexpr unsigned int VisualManagerPreset_TypeDefinitionIndex = 35145;
+	inline static constexpr unsigned int VisualManagerPreset_TypeDefinitionIndex = 34694;
 
 	enum class VisualManagerPreset : ::System::Int32
 	{

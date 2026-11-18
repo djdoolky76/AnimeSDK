@@ -8,14 +8,14 @@
 namespace MoleMole { class SharedGameEntity; }
 namespace System { class String; }
 
-#define MOLEMOLE_COMPARETAG_DOCOMPARE_OFFSET UNITYSDK_OFFSET(0x12EEDE70)
-#define MOLEMOLE_COMPARETAG_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12EED9A0)
-#define MOLEMOLE_COMPARETAG__CTOR_OFFSET UNITYSDK_OFFSET(0x12EEDFE0)
-#define MOLEMOLE_COMPARETAG___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12EEE070)
+#define MOLEMOLE_COMPARETAG_DOCOMPARE_OFFSET UNITYSDK_OFFSET(0x127625B0)
+#define MOLEMOLE_COMPARETAG_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x127620E0)
+#define MOLEMOLE_COMPARETAG__CTOR_OFFSET UNITYSDK_OFFSET(0x12762720)
+#define MOLEMOLE_COMPARETAG___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x127627B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CompareTag_TypeDefinitionIndex = 76640;
+	inline static constexpr unsigned int CompareTag_TypeDefinitionIndex = 91510;
 
 	class CompareTag : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
@@ -23,8 +23,8 @@ namespace MoleMole
 		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x50
 		::System::String* TargetTagName; // 0x58
 		::System::Single TargetValue; // 0x60
-		::MoleMole::AITargetType TargetType; // 0x64
-		::MoleMole::AICompareType CompareType; // 0x68
+		::MoleMole::AICompareType CompareType; // 0x64
+		::MoleMole::AITargetType TargetType; // 0x68
 
 		::System::Void _ctor()
 		{

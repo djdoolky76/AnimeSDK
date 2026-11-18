@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUIGACHAPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x14882740)
+#define MOLEMOLE_CONFIGUIGACHAPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4565B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIGachaPage_TypeDefinitionIndex = 91013;
+	inline static constexpr unsigned int ConfigUIGachaPage_TypeDefinitionIndex = 41984;
 
 	class ConfigUIGachaPage : public ::Foundation::MihoyoSerializedScriptableObject
 	{

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNodeBase.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowNode; }
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOOTINGPLAYFINISH_ONREGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13A8E800)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOOTINGPLAYFINISH_START_OFFSET UNITYSDK_OFFSET(0x13A8E8D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOOTINGPLAYFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x13A8EAA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOOTINGPLAYFINISH_ONREGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x14669080)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOOTINGPLAYFINISH_START_OFFSET UNITYSDK_OFFSET(0x14669150)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SHOOTINGPLAYFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x14669320)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ShootingPlayFinish_TypeDefinitionIndex = 42123;
+	inline static constexpr unsigned int LD_ShootingPlayFinish_TypeDefinitionIndex = 79755;
 
 	class LD_ShootingPlayFinish : public ::FlowCanvas::Nodes::CallableActionNodeBase
 	{

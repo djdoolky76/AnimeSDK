@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MHMFINLCNFN.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+
+class LGAFMFNMCOG;
+template <typename T> class KCMIFNGABDC_1;
+
+#define MBBGBNHGPFD_ALHHNOIENBA_OFFSET UNITYSDK_OFFSET(0x14DD88D0)
+#define MBBGBNHGPFD_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0x14DD8860)
+#define MBBGBNHGPFD_FEDNEKFMGNF_OFFSET UNITYSDK_OFFSET(0x14DD8780)
+#define MBBGBNHGPFD_GDEOPIBNOIN_OFFSET UNITYSDK_OFFSET(0x14DD8B80)
+#define MBBGBNHGPFD_JFBDALLPLBA_OFFSET UNITYSDK_OFFSET(0x14DD8AF0)
+#define MBBGBNHGPFD_MLAAFFHCOJE_OFFSET UNITYSDK_OFFSET(0x14DD8630)
+#define MBBGBNHGPFD__CTOR_OFFSET UNITYSDK_OFFSET(0x14DD8A00)
+
+inline static constexpr unsigned int MBBGBNHGPFD_TypeDefinitionIndex = 48129;
+
+class MBBGBNHGPFD : public ::MHMFINLCNFN
+{
+public:
+	::KCMIFNGABDC_1<::System::Int32>* GAGHLBKMEDP; // 0x28
+	::KCMIFNGABDC_1<::System::Int32>* NNKCMOHKBBC; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MBBGBNHGPFD__CTOR_OFFSET))(this);
+	}
+
+	::System::Void MLAAFFHCOJE(::LGAFMFNMCOG* ONBDAIKININ)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + MBBGBNHGPFD_MLAAFFHCOJE_OFFSET))(this, ONBDAIKININ);
+	}
+
+	::System::Void FEDNEKFMGNF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MBBGBNHGPFD_FEDNEKFMGNF_OFFSET))(this);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + MBBGBNHGPFD_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF);
+	}
+
+	::System::Void JFBDALLPLBA(::LGAFMFNMCOG* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + MBBGBNHGPFD_JFBDALLPLBA_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void ALHHNOIENBA(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + MBBGBNHGPFD_ALHHNOIENBA_OFFSET))(this, BKBGPKNGNMF);
+	}
+
+	::System::Void GDEOPIBNOIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MBBGBNHGPFD_GDEOPIBNOIN_OFFSET))(this);
+	}
+};

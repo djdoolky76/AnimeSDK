@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_029BEC9C30EBC3F1.h"
+#include "unitysdk/LPLBFDLNDII.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET___C_METHOD_1_61789973E8A2EC44_OFFSET UNITYSDK_OFFSET(0x1170ABC0)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1170AB70)
-#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1170ABB0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET___C_OKKDMHALGBM_OFFSET UNITYSDK_OFFSET(0xFAC7C80)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFAC7C30)
+#define MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC7C70)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLockNearTarget___c_TypeDefinitionIndex = 88923;
+	inline static constexpr unsigned int ConfigLockNearTarget___c_TypeDefinitionIndex = 65941;
 
 	class ConfigLockNearTarget___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Struct_2_029BEC9C30EBC3F1>** StaticGet___9__35_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Struct_2_029BEC9C30EBC3F1>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLockNearTarget___c_TypeDefinitionIndex)->GetStaticField(0x3F650);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ConfigLockNearTarget___c_TypeDefinitionIndex)->GetStaticField(0x44AA0);
 		}
-		static ::MoleMole::Config::ConfigLockNearTarget___c** StaticGet___9()
+		static ::System::Comparison_1<::LPLBFDLNDII>** StaticGet___9__35_0()
 		{
-			return (::MoleMole::Config::ConfigLockNearTarget___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigLockNearTarget___c_TypeDefinitionIndex)->GetStaticField(0x3F658);
+			return (::System::Comparison_1<::LPLBFDLNDII>**)Il2CppClass::FromTypeDefinitionIndex(ConfigLockNearTarget___c_TypeDefinitionIndex)->GetStaticField(0x44AA8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 Method_1_61789973E8A2EC44(::Struct_2_029BEC9C30EBC3F1 a1, ::Struct_2_029BEC9C30EBC3F1 a2)
+		::System::Int32 OKKDMHALGBM(::LPLBFDLNDII HAAEBCOBKFF, ::LPLBFDLNDII BFMMEICFNCD)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Struct_2_029BEC9C30EBC3F1, ::Struct_2_029BEC9C30EBC3F1))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET___C_METHOD_1_61789973E8A2EC44_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::LPLBFDLNDII, ::LPLBFDLNDII))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKNEARTARGET___C_OKKDMHALGBM_OFFSET))(this, HAAEBCOBKFF, BFMMEICFNCD);
 		}
 	};
 }

@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/COJCEEHGOFM_KHHBEGIABOH.h"
+#include "unitysdk/System/Object.h"
+
+class HFCJJLJCCIG_JPLCFOHALOO;
+class ILKICKDDECB;
+namespace UnityEngine { class Animation; }
+
+#define HFCJJLJCCIG_AAMJIHMFIEG_OFFSET UNITYSDK_OFFSET(0x14A08270)
+#define HFCJJLJCCIG_AGNCJPFAJOF_OFFSET UNITYSDK_OFFSET(0x14A07F40)
+#define HFCJJLJCCIG_BJANDJKKNCD_OFFSET UNITYSDK_OFFSET(0x14A084A0)
+#define HFCJJLJCCIG_DHPFMHPLNJN_OFFSET UNITYSDK_OFFSET(0x14A07C90)
+#define HFCJJLJCCIG_MKBHLAPAMLH_OFFSET UNITYSDK_OFFSET(0x14A07FC0)
+#define HFCJJLJCCIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14A07AA0)
+
+inline static constexpr unsigned int HFCJJLJCCIG_TypeDefinitionIndex = 86335;
+
+class HFCJJLJCCIG : public ::System::Object
+{
+public:
+	::HFCJJLJCCIG_JPLCFOHALOO* EBJPFKJMAEI; // 0x10
+	::UnityEngine::Animation* EEFOCCNFJCO; // 0x18
+	::ILKICKDDECB* JAMCKPINLDJ; // 0x20
+	::COJCEEHGOFM_KHHBEGIABOH JEBKPOCIGKO; // 0x28
+
+	::System::Void _ctor(::UnityEngine::Animation* AOKJEGNBALI, ::HFCJJLJCCIG_JPLCFOHALOO* LBMFKBIKIGO)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animation*, ::HFCJJLJCCIG_JPLCFOHALOO*))((::PBYTE)hIl2Cpp + HFCJJLJCCIG__CTOR_OFFSET))(this, AOKJEGNBALI, LBMFKBIKIGO);
+	}
+
+	::System::Single DHPFMHPLNJN(::COJCEEHGOFM_KHHBEGIABOH ECMJCBIFBHE)
+	{
+		return ((::System::Single(*)(::PVOID, ::COJCEEHGOFM_KHHBEGIABOH))((::PBYTE)hIl2Cpp + HFCJJLJCCIG_DHPFMHPLNJN_OFFSET))(this, ECMJCBIFBHE);
+	}
+
+	::System::Void AGNCJPFAJOF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HFCJJLJCCIG_AGNCJPFAJOF_OFFSET))(this);
+	}
+
+	::System::Void MKBHLAPAMLH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HFCJJLJCCIG_MKBHLAPAMLH_OFFSET))(this);
+	}
+
+	::System::Void AAMJIHMFIEG(::COJCEEHGOFM_KHHBEGIABOH ECMJCBIFBHE)
+	{
+		return ((::System::Void(*)(::PVOID, ::COJCEEHGOFM_KHHBEGIABOH))((::PBYTE)hIl2Cpp + HFCJJLJCCIG_AAMJIHMFIEG_OFFSET))(this, ECMJCBIFBHE);
+	}
+
+	::System::Void BJANDJKKNCD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HFCJJLJCCIG_BJANDJKKNCD_OFFSET))(this);
+	}
+};

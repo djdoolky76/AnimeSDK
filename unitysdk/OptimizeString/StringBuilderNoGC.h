@@ -7,40 +7,41 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace System::Text { class StringBuilder; }
 
-#define OPTIMIZESTRING_STRINGBUILDERNOGC_COPYTOCACHESTRING_OFFSET UNITYSDK_OFFSET(0x1FC49CD0)
-#define OPTIMIZESTRING_STRINGBUILDERNOGC_INITPOOL_OFFSET UNITYSDK_OFFSET(0x1FC498A0)
-#define OPTIMIZESTRING_STRINGBUILDERNOGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1FC4A070)
-#define OPTIMIZESTRING_STRINGBUILDERNOGC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC496D0)
-#define OPTIMIZESTRING_STRINGBUILDERNOGC__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FC49BA0)
-#define OPTIMIZESTRING_STRINGBUILDERNOGC__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC49A70)
+#define OPTIMIZESTRING_STRINGBUILDERNOGC_COPYTOCACHESTRING_OFFSET UNITYSDK_OFFSET(0x2004EAA0)
+#define OPTIMIZESTRING_STRINGBUILDERNOGC_INITPOOL_OFFSET UNITYSDK_OFFSET(0x2004E670)
+#define OPTIMIZESTRING_STRINGBUILDERNOGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2004EE50)
+#define OPTIMIZESTRING_STRINGBUILDERNOGC__CCTOR_OFFSET UNITYSDK_OFFSET(0x2004E4A0)
+#define OPTIMIZESTRING_STRINGBUILDERNOGC__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2004E970)
+#define OPTIMIZESTRING_STRINGBUILDERNOGC__CTOR_OFFSET UNITYSDK_OFFSET(0x2004E840)
 
 namespace OptimizeString
 {
-	inline static constexpr unsigned int StringBuilderNoGC_TypeDefinitionIndex = 7257;
+	inline static constexpr unsigned int StringBuilderNoGC_TypeDefinitionIndex = 7264;
 
 	class StringBuilderNoGC : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>** StaticGet_s_CachedShortStringDic()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StringBuilderNoGC_TypeDefinitionIndex)->GetStaticField(0x6100);
-		}
 		static ::System::Collections::Generic::Stack_1<::OptimizeString::StringBuilderNoGC*>** StaticGet_s_pool()
 		{
-			return (::System::Collections::Generic::Stack_1<::OptimizeString::StringBuilderNoGC*>**)Il2CppClass::FromTypeDefinitionIndex(StringBuilderNoGC_TypeDefinitionIndex)->GetStaticField(0x6108);
+			return (::System::Collections::Generic::Stack_1<::OptimizeString::StringBuilderNoGC*>**)Il2CppClass::FromTypeDefinitionIndex(StringBuilderNoGC_TypeDefinitionIndex)->GetStaticField(0x6000);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>** StaticGet_s_CachedShortStringDic()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StringBuilderNoGC_TypeDefinitionIndex)->GetStaticField(0x6008);
 		}
 		static ::System::Boolean* StaticGet_s_UseShortCache()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StringBuilderNoGC_TypeDefinitionIndex)->GetStaticField(0x32D0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StringBuilderNoGC_TypeDefinitionIndex)->GetStaticField(0x3250);
 		}
-		::System::Text::StringBuilder* m_stringBuilder; // 0x10
-		::System::String* m_cacheString; // 0x18
+		::System::String* m_cacheString; // 0x10
+		::System::Text::StringBuilder* m_stringBuilder; // 0x18
 		::System::String* m_immutableString; // 0x20
 		::System::String* forToString; // 0x28
-		::System::Int32 m_capacity; // 0x30
-		::System::Boolean m_isDirty; // 0x34
-		::System::Boolean m_EnableShortCache; // 0x35
-		::System::Boolean useShortCache; // 0x36
+		::System::Boolean useShortCache; // 0x30
+		::System::Boolean m_isDirty; // 0x31
+		::System::Boolean m_EnableShortCache; // 0x32
+		::System::Byte _padding0[0x1];
+		::System::Int32 m_capacity; // 0x34
 
 		static ::System::Void _cctor()
 		{

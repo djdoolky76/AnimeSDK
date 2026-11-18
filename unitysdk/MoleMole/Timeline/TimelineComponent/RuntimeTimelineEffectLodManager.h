@@ -6,19 +6,20 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEEFFECTLODMANAGER_COLLECTPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0x1973E1B0)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEEFFECTLODMANAGER_START_OFFSET UNITYSDK_OFFSET(0x1973E960)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEEFFECTLODMANAGER_UPDATELOD_OFFSET UNITYSDK_OFFSET(0x1973E6C0)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEEFFECTLODMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1973E9B0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEEFFECTLODMANAGER_COLLECTPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0x1A0B5C70)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEEFFECTLODMANAGER_START_OFFSET UNITYSDK_OFFSET(0x1A0B63F0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEEFFECTLODMANAGER_UPDATELOD_OFFSET UNITYSDK_OFFSET(0x1A0B6190)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_RUNTIMETIMELINEEFFECTLODMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B6440)
 
 namespace MoleMole::Timeline::TimelineComponent
 {
-	inline static constexpr unsigned int RuntimeTimelineEffectLodManager_TypeDefinitionIndex = 66264;
+	inline static constexpr unsigned int RuntimeTimelineEffectLodManager_TypeDefinitionIndex = 73486;
 
 	class RuntimeTimelineEffectLodManager : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
 	public:
 		::System::Boolean IsTestLoadType; // 0x58
+		::System::Byte _padding0[0x3];
 		::MoleMole::Config::EffectLODType testShowLodType; // 0x5C
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::ParticleSystem*, ::MoleMole::Config::EffectLODType>* effectLodManagers; // 0x60
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::ParticleSystem*, ::MoleMole::Config::EffectLODType>* emptyEffectLodManagers; // 0x68

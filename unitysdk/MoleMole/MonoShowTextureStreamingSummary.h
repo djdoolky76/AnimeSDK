@@ -5,15 +5,15 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_HUMANREADABLESIZE_OFFSET UNITYSDK_OFFSET(0x179186A0)
-#define MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_METHOD_5_EBF44BC910948FDA_OFFSET UNITYSDK_OFFSET(0x17918930)
-#define MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_ONGUI_OFFSET UNITYSDK_OFFSET(0x17918790)
-#define MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_START_OFFSET UNITYSDK_OFFSET(0x17918650)
-#define MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY__CTOR_OFFSET UNITYSDK_OFFSET(0x17918A30)
+#define MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_HPLPPEKLNMD_OFFSET UNITYSDK_OFFSET(0x14B03630)
+#define MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_HUMANREADABLESIZE_OFFSET UNITYSDK_OFFSET(0x14B033A0)
+#define MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_ONGUI_OFFSET UNITYSDK_OFFSET(0x14B03490)
+#define MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_START_OFFSET UNITYSDK_OFFSET(0x14B03350)
+#define MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY__CTOR_OFFSET UNITYSDK_OFFSET(0x14B03730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoShowTextureStreamingSummary_TypeDefinitionIndex = 86779;
+	inline static constexpr unsigned int MonoShowTextureStreamingSummary_TypeDefinitionIndex = 63704;
 
 	class MonoShowTextureStreamingSummary : public ::UnityEngine::MonoBehaviour
 	{
@@ -22,8 +22,8 @@ namespace MoleMole
 		::System::Single Y; // 0x1C
 		::System::Int32 MemoryBudgetPercentThreshold; // 0x20
 		::System::Int32 TextureStreamingPercentThreshold; // 0x24
-		::System::UInt64 Field_5_6; // 0x28
-		::UnityEngine::Rect Field_5_5; // 0x30
+		::System::UInt64 CAFEBDJJBKA; // 0x28
+		::UnityEngine::Rect EDDPLMOFEKI; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_START_OFFSET))(this);
 		}
 
-		::System::String* HumanReadableSize(::System::UInt64 a1)
+		::System::String* HumanReadableSize(::System::UInt64 BEPMDFENBMH)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_HUMANREADABLESIZE_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_HUMANREADABLESIZE_OFFSET))(this, BEPMDFENBMH);
 		}
 
 		::System::Void OnGUI()
@@ -45,9 +45,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_ONGUI_OFFSET))(this);
 		}
 
-		::System::Void Method_5_EBF44BC910948FDA(::System::String* a1)
+		::System::Void HPLPPEKLNMD(::System::String* FCCLIEJAKLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_METHOD_5_EBF44BC910948FDA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSHOWTEXTURESTREAMINGSUMMARY_HPLPPEKLNMD_OFFSET))(this, FCCLIEJAKLI);
 		}
 	};
 }

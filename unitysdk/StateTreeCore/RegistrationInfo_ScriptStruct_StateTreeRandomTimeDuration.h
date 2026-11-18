@@ -7,35 +7,35 @@ namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 namespace UnrealTypes { class UInt16PropertyParams; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREERANDOMTIMEDURATION_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F6D3740)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREERANDOMTIMEDURATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6D33D0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREERANDOMTIMEDURATION_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FA845B0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREERANDOMTIMEDURATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA84200)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration_TypeDefinitionIndex = 31713;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration_TypeDefinitionIndex = 31151;
 
 	class RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration : public ::System::Object
 	{
 	public:
 		static ::UnrealTypes::UInt16PropertyParams** StaticGet_Property_duration()
 		{
-			return (::UnrealTypes::UInt16PropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration_TypeDefinitionIndex)->GetStaticField(0x26BB0);
-		}
-		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
-		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration_TypeDefinitionIndex)->GetStaticField(0x26BB8);
+			return (::UnrealTypes::UInt16PropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration_TypeDefinitionIndex)->GetStaticField(0x27ED0);
 		}
 		static ::UnrealTypes::UInt16PropertyParams** StaticGet_Property_randomVariance()
 		{
-			return (::UnrealTypes::UInt16PropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration_TypeDefinitionIndex)->GetStaticField(0x26BC0);
+			return (::UnrealTypes::UInt16PropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration_TypeDefinitionIndex)->GetStaticField(0x27ED8);
 		}
-		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
+		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration_TypeDefinitionIndex)->GetStaticField(0x26BC8);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration_TypeDefinitionIndex)->GetStaticField(0x27EE0);
 		}
 		static ::UnrealTypes::StructParams** StaticGet_StructParams()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration_TypeDefinitionIndex)->GetStaticField(0x26BD0);
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration_TypeDefinitionIndex)->GetStaticField(0x27EE8);
+		}
+		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
+		{
+			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeRandomTimeDuration_TypeDefinitionIndex)->GetStaticField(0x27EF0);
 		}
 
 		static ::System::Void _cctor()

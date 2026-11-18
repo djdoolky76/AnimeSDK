@@ -3,12 +3,12 @@
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryManager_AccessoryRenderState_TypeDefinitionIndex = 82938;
+	inline static constexpr unsigned int NPCAccessoryManager_AccessoryRenderState_TypeDefinitionIndex = 52991;
 
 	enum class NPCAccessoryManager_AccessoryRenderState : ::System::Byte
 	{
-		Simple = 0x2,
-		Hidden = 0x0,
-		Color = 0x1,
+		Hidden = 0,
+		Simple = 2,
+		Color = 1,
 	};
 }

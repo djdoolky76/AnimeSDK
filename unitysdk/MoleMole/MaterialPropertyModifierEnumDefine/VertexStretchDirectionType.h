@@ -3,13 +3,13 @@
 
 namespace MoleMole::MaterialPropertyModifierEnumDefine
 {
-	inline static constexpr unsigned int VertexStretchDirectionType_TypeDefinitionIndex = 90911;
+	inline static constexpr unsigned int VertexStretchDirectionType_TypeDefinitionIndex = 64246;
 
 	enum class VertexStretchDirectionType : ::System::Byte
 	{
-		Uniform = 0x0,
-		Center = 0x1,
-		Local = 0x3,
-		Point = 0x2,
+		Center = 1,
+		Local = 3,
+		Point = 2,
+		Uniform = 0,
 	};
 }

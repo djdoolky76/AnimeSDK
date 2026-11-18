@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NapCapsuleAoNodeBinding_TypeDefinitionIndex = 5959;
+	inline static constexpr unsigned int NapCapsuleAoNodeBinding_TypeDefinitionIndex = 5965;
 
 	struct alignas(8) NapCapsuleAoNodeBinding
 	{

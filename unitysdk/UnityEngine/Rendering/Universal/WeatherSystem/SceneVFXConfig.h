@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEVFXCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CF19090)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF195D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEVFXCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D2AB6C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEVFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2ABC00)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SceneVFXConfig_TypeDefinitionIndex = 27370;
+	inline static constexpr unsigned int SceneVFXConfig_TypeDefinitionIndex = 26142;
 
-	class SceneVFXConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SceneVFXConfig*>
+	class SceneVFXConfig
 	{
 	public:
 		::UnityEngine::Color sceneEtherColor; // 0x18
@@ -46,6 +45,7 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::UnityEngine::Vector4 vfxShadowYiTai; // 0xF4
 		::System::Boolean vfxShadowEnableDebugOnly; // 0x104
 		::System::Boolean vfxShadowLightingEnableDebugOnly; // 0x105
+		::System::Byte _padding0[0x2];
 		::System::Single vfxShadowLightingIntensityDebugOnly; // 0x108
 
 		::System::Void _ctor()

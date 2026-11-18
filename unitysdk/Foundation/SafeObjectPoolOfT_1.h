@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/SafeObjectHandle_1.h"
 #include "unitysdk/System/Object.h"
 
 namespace Foundation { template <typename T> class SafeObjectPoolInstance_1; }
-namespace Foundation { template <typename T> class SafeObject_1; }
 namespace System { template <typename T> class Func_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SafeObjectPoolOfT_1_TypeDefinitionIndex = 8177;
+	inline static constexpr unsigned int SafeObjectPoolOfT_1_TypeDefinitionIndex = 8440;
 
 	template <typename T>
 	class SafeObjectPoolOfT_1 : public ::System::Object

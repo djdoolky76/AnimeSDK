@@ -7,25 +7,25 @@ namespace MoleMole::Timeline::OverrideAnimation { class AnimationClipInfo_Unload
 namespace System { class String; }
 namespace UnityEngine { class AnimationClip; }
 
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_ANIMATIONCLIPINFO_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1FB20200)
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_ANIMATIONCLIPINFO_LOADASSETSYNC_OFFSET UNITYSDK_OFFSET(0x1FB20210)
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_ANIMATIONCLIPINFO_UNLOAD_OFFSET UNITYSDK_OFFSET(0x1FB20390)
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_ANIMATIONCLIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB203C0)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_ANIMATIONCLIPINFO_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1FF1AB80)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_ANIMATIONCLIPINFO_LOADASSETSYNC_OFFSET UNITYSDK_OFFSET(0x1FF1AB90)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_ANIMATIONCLIPINFO_UNLOAD_OFFSET UNITYSDK_OFFSET(0x1FF1AD10)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_ANIMATIONCLIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1AD40)
 
 namespace MoleMole::Timeline::OverrideAnimation
 {
-	inline static constexpr unsigned int AnimationClipInfo_TypeDefinitionIndex = 32861;
+	inline static constexpr unsigned int AnimationClipInfo_TypeDefinitionIndex = 32313;
 
 	class AnimationClipInfo : public ::System::Object
 	{
 	public:
-		static ::MoleMole::Timeline::OverrideAnimation::AnimationClipInfo_LoadAssetSyncAction** StaticGet_LoadAssetSyncD()
-		{
-			return (::MoleMole::Timeline::OverrideAnimation::AnimationClipInfo_LoadAssetSyncAction**)Il2CppClass::FromTypeDefinitionIndex(AnimationClipInfo_TypeDefinitionIndex)->GetStaticField(0x28490);
-		}
 		static ::MoleMole::Timeline::OverrideAnimation::AnimationClipInfo_UnloadAction** StaticGet_UnloadD()
 		{
-			return (::MoleMole::Timeline::OverrideAnimation::AnimationClipInfo_UnloadAction**)Il2CppClass::FromTypeDefinitionIndex(AnimationClipInfo_TypeDefinitionIndex)->GetStaticField(0x28498);
+			return (::MoleMole::Timeline::OverrideAnimation::AnimationClipInfo_UnloadAction**)Il2CppClass::FromTypeDefinitionIndex(AnimationClipInfo_TypeDefinitionIndex)->GetStaticField(0x29530);
+		}
+		static ::MoleMole::Timeline::OverrideAnimation::AnimationClipInfo_LoadAssetSyncAction** StaticGet_LoadAssetSyncD()
+		{
+			return (::MoleMole::Timeline::OverrideAnimation::AnimationClipInfo_LoadAssetSyncAction**)Il2CppClass::FromTypeDefinitionIndex(AnimationClipInfo_TypeDefinitionIndex)->GetStaticField(0x29538);
 		}
 		::System::String* animationClipPath; // 0x10
 		::UnityEngine::AnimationClip* _assetRef; // 0x18

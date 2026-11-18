@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 
 namespace MoleMole::Cameras { class BangbooAdjustmentCameraConfig; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERBANGBOOADJUSTMENTCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B8322C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERBANGBOOADJUSTMENTCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B832490)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERBANGBOOADJUSTMENTCAMERA_INVOKE_OFFSET UNITYSDK_OFFSET(0x180D8790)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENTERBANGBOOADJUSTMENTCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x180D8960)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnterBangbooAdjustmentCamera_TypeDefinitionIndex = 77297;
+	inline static constexpr unsigned int LDEnterBangbooAdjustmentCamera_TypeDefinitionIndex = 88698;
 
-	class LDEnterBangbooAdjustmentCamera : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Boolean, ::MoleMole::Cameras::BangbooAdjustmentCameraConfig*>
+	class LDEnterBangbooAdjustmentCamera
 	{
 	public:
 		::System::Void _ctor()

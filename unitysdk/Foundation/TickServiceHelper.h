@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/Foundation/TickContext.h"
 #include "unitysdk/Foundation/TickTime.h"
-#include "unitysdk/System/Object.h"
 
-#define FOUNDATION_TICKSERVICEHELPER_GETTIMEHASH_OFFSET UNITYSDK_OFFSET(0x1F468020)
-#define FOUNDATION_TICKSERVICEHELPER_PASS_OFFSET UNITYSDK_OFFSET(0x1F468030)
+#define FOUNDATION_TICKSERVICEHELPER_GETTIMEHASH_OFFSET UNITYSDK_OFFSET(0x1F865240)
+#define FOUNDATION_TICKSERVICEHELPER_PASS_OFFSET UNITYSDK_OFFSET(0x1F865250)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickServiceHelper_TypeDefinitionIndex = 8890;
+	inline static constexpr unsigned int TickServiceHelper_TypeDefinitionIndex = 9095;
 
 	class TickServiceHelper : public ::System::Object
 	{

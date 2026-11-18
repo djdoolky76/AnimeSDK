@@ -5,26 +5,27 @@
 #include "unitysdk/Cysharp/Threading/Tasks/YieldAwaitable_Awaiter.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_08CADB6A2017E035;
+class DCGCEBBEPNA;
 namespace MoleMole::FlowCanvas::Nodes { class LDStarRandomPositionByAnchorTask; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONBYANCHORTASK__CORORANDOMPOSITION_D__23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7F9160)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONBYANCHORTASK__CORORANDOMPOSITION_D__23_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONBYANCHORTASK__CORORANDOMPOSITION_D__23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x62BBF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSTARRANDOMPOSITIONBYANCHORTASK__CORORANDOMPOSITION_D__23_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDStarRandomPositionByAnchorTask__CoroRandomPosition_d__23_TypeDefinitionIndex = 40341;
+	inline static constexpr unsigned int LDStarRandomPositionByAnchorTask__CoroRandomPosition_d__23_TypeDefinitionIndex = 38539;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23>
 	struct alignas(8) LDStarRandomPositionByAnchorTask__CoroRandomPosition_d__23
 	{
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::Class_1_08CADB6A2017E035* _task_5__2; // 0x20
-		::MoleMole::FlowCanvas::Nodes::LDStarRandomPositionByAnchorTask* __4__this; // 0x28
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x30
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x10
+		::MoleMole::FlowCanvas::Nodes::LDStarRandomPositionByAnchorTask* __4__this; // 0x20
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x28
+		::DCGCEBBEPNA* _task_5__2; // 0x38
 		::System::Int32 _i_5__3; // 0x40
-		::System::Int32 __1__state; // 0x44
-		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__1; // 0x48
+		::Cysharp::Threading::Tasks::YieldAwaitable_Awaiter __u__1; // 0x44
+		::System::Int32 __1__state; // 0x48
 
 		::System::Void MoveNext()
 		{

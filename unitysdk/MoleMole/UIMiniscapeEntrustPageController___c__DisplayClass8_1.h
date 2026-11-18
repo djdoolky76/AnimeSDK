@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIMiniscapeEntrustBtnWidgetController; }
-namespace MoleMole { class UIMiniscapeEntrustPageController___c__DisplayClass8_0; }
 
-#define MOLEMOLE_UIMINISCAPEENTRUSTPAGECONTROLLER___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18336BD0)
-#define MOLEMOLE_UIMINISCAPEENTRUSTPAGECONTROLLER___C__DISPLAYCLASS8_1__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x18336BE0)
+#define MOLEMOLE_UIMINISCAPEENTRUSTPAGECONTROLLER___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x183F81B0)
+#define MOLEMOLE_UIMINISCAPEENTRUSTPAGECONTROLLER___C__DISPLAYCLASS8_1__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x183F81C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniscapeEntrustPageController___c__DisplayClass8_1_TypeDefinitionIndex = 85457;
+	inline static constexpr unsigned int UIMiniscapeEntrustPageController___c__DisplayClass8_1_TypeDefinitionIndex = 40173;
 
+	template <typename T>
 	class UIMiniscapeEntrustPageController___c__DisplayClass8_1 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIMiniscapeEntrustBtnWidgetController* taskWidget; // 0x10
-		::MoleMole::UIMiniscapeEntrustPageController___c__DisplayClass8_0* CS___8__locals1; // 0x18
+		::System::Object* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

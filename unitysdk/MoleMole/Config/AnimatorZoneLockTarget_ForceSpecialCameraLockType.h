@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneLockTarget_ForceSpecialCameraLockType_TypeDefinitionIndex = 72638;
+	inline static constexpr unsigned int AnimatorZoneLockTarget_ForceSpecialCameraLockType_TypeDefinitionIndex = 88940;
 
 	enum class AnimatorZoneLockTarget_ForceSpecialCameraLockType : ::System::Int32
 	{

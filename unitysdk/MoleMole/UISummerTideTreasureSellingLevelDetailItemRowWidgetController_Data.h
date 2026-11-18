@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UISUMMERTIDETREASURESELLINGLEVELDETAILITEMROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15131A70)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGLEVELDETAILITEMROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14830B30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerTideTreasureSellingLevelDetailItemRowWidgetController_Data_TypeDefinitionIndex = 69509;
+	inline static constexpr unsigned int UISummerTideTreasureSellingLevelDetailItemRowWidgetController_Data_TypeDefinitionIndex = 55801;
 
 	class UISummerTideTreasureSellingLevelDetailItemRowWidgetController_Data : public ::System::Object
 	{

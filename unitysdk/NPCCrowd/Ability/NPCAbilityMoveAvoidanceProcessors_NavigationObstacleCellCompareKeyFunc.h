@@ -5,54 +5,53 @@
 #include "unitysdk/NPCCrowd/Ability/NPCEntityNativeData.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Foundation/Container/CellLocation.h"
+#include "unitysdk/Foundation/Container/HierarchicalHashGrid2D_2.h"
+#include "unitysdk/NPCCrowd/Ability/NavigationObstacleItem.h"
+#include "unitysdk/NPCCrowd/Ability/NavigationObstacleItemEqualsFunc.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 
-#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC_COMPARE_OFFSET UNITYSDK_OFFSET(0x667E40)
-#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC_FOUNDATION_CONTAINER_IHIERARCHICALHASHGRIDCOMPAREKEYFUNC_NPCCROWD_ABILITY_NAVIGATIONOBSTACLEITEM__GETKEY_OFFSET UNITYSDK_OFFSET(0x667EA0)
-#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC_GETCELLKEY_OFFSET UNITYSDK_OFFSET(0x667C50)
-#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC_GETKEY_OFFSET UNITYSDK_OFFSET(0x667D40)
-#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x667AE0)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC_COMPARE_OFFSET UNITYSDK_OFFSET(0x600660)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC_FOUNDATION_CONTAINER_IHIERARCHICALHASHGRIDCOMPAREKEYFUNC_NPCCROWD_ABILITY_NAVIGATIONOBSTACLEITEM__GETKEY_OFFSET UNITYSDK_OFFSET(0x6006C0)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC_GETCELLKEY_OFFSET UNITYSDK_OFFSET(0x600520)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC_GETKEY_OFFSET UNITYSDK_OFFSET(0x600560)
+#define NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x6003B0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityMoveAvoidanceProcessors_NavigationObstacleCellCompareKeyFunc_TypeDefinitionIndex = 59520;
+	inline static constexpr unsigned int NPCAbilityMoveAvoidanceProcessors_NavigationObstacleCellCompareKeyFunc_TypeDefinitionIndex = 92858;
 
 	struct alignas(8) NPCAbilityMoveAvoidanceProcessors_NavigationObstacleCellCompareKeyFunc
 	{
 		::UnityEngine::Vector3 _center; // 0x10
+		::System::Byte _padding0[0x4];
 		::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData> _data; // 0x20
+		::System::Byte _padding1[0x18];
 		::NPCCrowd::Ability::NPCAbilityMoveAvoidanceProcessors_NavigationObstacleCellCompareKeyFunc___cellSize_e__FixedBuffer _cellSize; // 0x40
 
-		/*
 		::System::Void _ctor(::UnityEngine::Bounds bounds, ::Foundation::Container::HierarchicalHashGrid2D_2<::NPCCrowd::Ability::NavigationObstacleItem, ::NPCCrowd::Ability::NavigationObstacleItemEqualsFunc> grid, ::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData> data)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bounds, ::Foundation::Container::HierarchicalHashGrid2D_2<::NPCCrowd::Ability::NavigationObstacleItem, ::NPCCrowd::Ability::NavigationObstacleItemEqualsFunc>, ::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData>))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC__CTOR_OFFSET))(this, bounds, grid, data);
 		}
-		*/
 
-		/*
 		::System::Double GetCellKey(::Foundation::Container::CellLocation cell)
 		{
 			return ((::System::Double(*)(::PVOID, ::Foundation::Container::CellLocation))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC_GETCELLKEY_OFFSET))(this, cell);
 		}
-		*/
 
-		/*
 		::System::Double GetKey(::NPCCrowd::Ability::NavigationObstacleItem& item)
 		{
 			return ((::System::Double(*)(::PVOID, ::NPCCrowd::Ability::NavigationObstacleItem&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC_GETKEY_OFFSET))(this, item);
 		}
-		*/
 
 		::System::Int32 Compare(::System::Double x, ::System::Double y)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC_COMPARE_OFFSET))(this, x, y);
 		}
 
-		/*
 		::System::Double Foundation_Container_IHierarchicalHashGridCompareKeyFunc_NPCCrowd_Ability_NavigationObstacleItem__GetKey(::NPCCrowd::Ability::NavigationObstacleItem& item)
 		{
 			return ((::System::Double(*)(::PVOID, ::NPCCrowd::Ability::NavigationObstacleItem&))((::PBYTE)hIl2Cpp + NPCCROWD_ABILITY_NPCABILITYMOVEAVOIDANCEPROCESSORS_NAVIGATIONOBSTACLECELLCOMPAREKEYFUNC_FOUNDATION_CONTAINER_IHIERARCHICALHASHGRIDCOMPAREKEYFUNC_NPCCROWD_ABILITY_NAVIGATIONOBSTACLEITEM__GETKEY_OFFSET))(this, item);
 		}
-		*/
 	};
 }

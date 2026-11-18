@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EMaterialModifierPerformanceLevel_TypeDefinitionIndex = 60792;
+	inline static constexpr unsigned int EMaterialModifierPerformanceLevel_TypeDefinitionIndex = 83274;
 
 	enum class EMaterialModifierPerformanceLevel : ::System::Int32
 	{
-		Low = 0,
 		Medium = 1,
+		Low = 0,
 		High = 2,
 		VeryHigh = 3,
 	};

@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphSplineNodeRuntime_BlockState_EBlockType_TypeDefinitionIndex = 84111;
+	inline static constexpr unsigned int PathGraphSplineNodeRuntime_BlockState_EBlockType_TypeDefinitionIndex = 58301;
 
 	enum class PathGraphSplineNodeRuntime_BlockState_EBlockType : ::System::Int32
 	{

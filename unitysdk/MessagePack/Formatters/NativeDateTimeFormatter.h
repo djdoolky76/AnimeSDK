@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 #include "unitysdk/System/DateTime.h"
-#include "unitysdk/System/Object.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DB29CD0)
-#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DB29C70)
-#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB29D00)
-#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB29CF0)
+#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DE9CB70)
+#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DE9CB10)
+#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE9CBA0)
+#define MESSAGEPACK_FORMATTERS_NATIVEDATETIMEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE9CB90)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NativeDateTimeFormatter_TypeDefinitionIndex = 30227;
+	inline static constexpr unsigned int NativeDateTimeFormatter_TypeDefinitionIndex = 29186;
 
 	class NativeDateTimeFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::NativeDateTimeFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::NativeDateTimeFormatter**)Il2CppClass::FromTypeDefinitionIndex(NativeDateTimeFormatter_TypeDefinitionIndex)->GetStaticField(0x26100);
+			return (::MessagePack::Formatters::NativeDateTimeFormatter**)Il2CppClass::FromTypeDefinitionIndex(NativeDateTimeFormatter_TypeDefinitionIndex)->GetStaticField(0x27300);
 		}
 
 		::System::Void _ctor()

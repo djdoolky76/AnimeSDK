@@ -4,39 +4,39 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIABYSSTOTALREWARDROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1926D8C0)
-#define MOLEMOLE_UIABYSSTOTALREWARDROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1926D900)
-#define MOLEMOLE_UIABYSSTOTALREWARDROWWIDGETCONTROLLER___C__DOJUMP_B__11_1_OFFSET UNITYSDK_OFFSET(0x1926D910)
-#define MOLEMOLE_UIABYSSTOTALREWARDROWWIDGETCONTROLLER___C__DOJUMP_B__11_2_OFFSET UNITYSDK_OFFSET(0x1926D970)
-#define MOLEMOLE_UIABYSSTOTALREWARDROWWIDGETCONTROLLER___C__DOJUMP_B__11_3_OFFSET UNITYSDK_OFFSET(0x1926DA20)
-#define MOLEMOLE_UIABYSSTOTALREWARDROWWIDGETCONTROLLER___C__DOJUMP_B__11_4_OFFSET UNITYSDK_OFFSET(0x1926DB20)
+#define MOLEMOLE_UIABYSSTOTALREWARDROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14BE8C70)
+#define MOLEMOLE_UIABYSSTOTALREWARDROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14BE8CB0)
+#define MOLEMOLE_UIABYSSTOTALREWARDROWWIDGETCONTROLLER___C__DOJUMP_B__11_1_OFFSET UNITYSDK_OFFSET(0x14BE8CC0)
+#define MOLEMOLE_UIABYSSTOTALREWARDROWWIDGETCONTROLLER___C__DOJUMP_B__11_2_OFFSET UNITYSDK_OFFSET(0x14BE8D20)
+#define MOLEMOLE_UIABYSSTOTALREWARDROWWIDGETCONTROLLER___C__DOJUMP_B__11_3_OFFSET UNITYSDK_OFFSET(0x14BE8DD0)
+#define MOLEMOLE_UIABYSSTOTALREWARDROWWIDGETCONTROLLER___C__DOJUMP_B__11_4_OFFSET UNITYSDK_OFFSET(0x14BE8ED0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssTotalRewardRowWidgetController___c_TypeDefinitionIndex = 78392;
+	inline static constexpr unsigned int UIAbyssTotalRewardRowWidgetController___c_TypeDefinitionIndex = 56340;
 
 	class UIAbyssTotalRewardRowWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__11_2()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssTotalRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x368F0);
-		}
-		static ::MoleMole::UIAbyssTotalRewardRowWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIAbyssTotalRewardRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssTotalRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x368F8);
-		}
 		static ::System::Action** StaticGet___9__11_3()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssTotalRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36900);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssTotalRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38A90);
 		}
 		static ::System::Action** StaticGet___9__11_4()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssTotalRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36908);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssTotalRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38A98);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssTotalRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38AA0);
 		}
 		static ::System::Action** StaticGet___9__11_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssTotalRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36910);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssTotalRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38AA8);
+		}
+		static ::System::Action** StaticGet___9__11_2()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssTotalRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38AB0);
 		}
 
 		static ::System::Void _cctor()

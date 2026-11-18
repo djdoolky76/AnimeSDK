@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Ability/DelayTask.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DELAYTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x10298A30)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DELAYTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x102989A0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DELAYTASK_TICK_OFFSET UNITYSDK_OFFSET(0x10298B00)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DELAYTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x115B6950)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DELAYTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x115B68C0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_DELAYTASK_TICK_OFFSET UNITYSDK_OFFSET(0x115B6A20)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_DelayTask_TypeDefinitionIndex = 45272;
+	inline static constexpr unsigned int VirtualFunctionExtensions_DelayTask_TypeDefinitionIndex = 71617;
 
 	class VirtualFunctionExtensions_DelayTask : public ::System::Object
 	{

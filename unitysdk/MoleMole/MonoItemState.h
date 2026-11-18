@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOITEMSTATE_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1909AC40)
-#define MOLEMOLE_MONOITEMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1909ADC0)
+#define MOLEMOLE_MONOITEMSTATE_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x18102820)
+#define MOLEMOLE_MONOITEMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x181029A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoItemState_TypeDefinitionIndex = 61411;
+	inline static constexpr unsigned int MonoItemState_TypeDefinitionIndex = 87136;
 
 	class MonoItemState : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,9 +24,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOITEMSTATE__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Transform* GetTransform(::System::String* a1)
+		::UnityEngine::Transform* GetTransform(::System::String* MCOHLHMKLIP)
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOITEMSTATE_GETTRANSFORM_OFFSET))(this, a1);
+			return ((::UnityEngine::Transform*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOITEMSTATE_GETTRANSFORM_OFFSET))(this, MCOHLHMKLIP);
 		}
 	};
 }

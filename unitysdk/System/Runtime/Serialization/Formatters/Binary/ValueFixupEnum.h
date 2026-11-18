@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ValueFixupEnum_TypeDefinitionIndex = 1214;
+	inline static constexpr unsigned int ValueFixupEnum_TypeDefinitionIndex = 1213;
 
 	enum class ValueFixupEnum : ::System::Int32
 	{

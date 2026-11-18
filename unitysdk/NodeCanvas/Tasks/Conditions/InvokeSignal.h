@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
 namespace NodeCanvas::Framework { class SignalDefinition; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
@@ -8,23 +7,22 @@ namespace NodeCanvas::Framework::Internal { class BBObjectParameter; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_CONDITIONS_INVOKESIGNAL_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EB79AD0)
-#define NODECANVAS_TASKS_CONDITIONS_INVOKESIGNAL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB79BD0)
-#define NODECANVAS_TASKS_CONDITIONS_INVOKESIGNAL_ONINIT_OFFSET UNITYSDK_OFFSET(0x1EB79AF0)
-#define NODECANVAS_TASKS_CONDITIONS_INVOKESIGNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB79E30)
+#define NODECANVAS_TASKS_CONDITIONS_INVOKESIGNAL_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EF22700)
+#define NODECANVAS_TASKS_CONDITIONS_INVOKESIGNAL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF22800)
+#define NODECANVAS_TASKS_CONDITIONS_INVOKESIGNAL_ONINIT_OFFSET UNITYSDK_OFFSET(0x1EF22720)
+#define NODECANVAS_TASKS_CONDITIONS_INVOKESIGNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF22A60)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int InvokeSignal_TypeDefinitionIndex = 30646;
+	inline static constexpr unsigned int InvokeSignal_TypeDefinitionIndex = 29664;
 
-	class InvokeSignal : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Transform*>
+	class InvokeSignal
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::Framework::SignalDefinition*>* signalDefinition; // 0x60
+		::Il2CppArray<::System::Object*>* args; // 0x60
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::NodeCanvas::Framework::Internal::BBObjectParameter*>* argumentsMap; // 0x68
-		::Il2CppArray<::System::Object*>* args; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::Framework::SignalDefinition*>* signalDefinition; // 0x70
 		::System::Boolean global; // 0x78
 
 		::System::Void _ctor()

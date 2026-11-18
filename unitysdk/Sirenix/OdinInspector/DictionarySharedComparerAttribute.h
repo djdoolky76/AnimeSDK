@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_DICTIONARYSHAREDCOMPARERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76FDF0)
+#define SIRENIX_ODININSPECTOR_DICTIONARYSHAREDCOMPARERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB80010)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int DictionarySharedComparerAttribute_TypeDefinitionIndex = 7279;
+	inline static constexpr unsigned int DictionarySharedComparerAttribute_TypeDefinitionIndex = 7286;
 
 	class DictionarySharedComparerAttribute : public ::System::Attribute
 	{

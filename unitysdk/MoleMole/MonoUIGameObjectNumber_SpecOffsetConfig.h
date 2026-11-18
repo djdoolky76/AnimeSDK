@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIGameObjectNumber_SpecOffsetConfig_TypeDefinitionIndex = 89106;
+	inline static constexpr unsigned int MonoUIGameObjectNumber_SpecOffsetConfig_TypeDefinitionIndex = 86279;
 
 	struct alignas(4) MonoUIGameObjectNumber_SpecOffsetConfig
 	{

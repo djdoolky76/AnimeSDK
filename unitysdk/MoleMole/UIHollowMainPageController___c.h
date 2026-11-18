@@ -2,64 +2,64 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace MoleMole { class UIHollowMainPageController_CardChangeInfo; }
 namespace System { class Action; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__CARDCHANGEANIMREADY_B__381_0_OFFSET UNITYSDK_OFFSET(0x183673C0)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18366E00)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18366E40)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__ENTERHOLLOWAFTERBATTLENORMAL_B__53_1_OFFSET UNITYSDK_OFFSET(0x18366E50)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__INITCARDSLOT_B__343_0_OFFSET UNITYSDK_OFFSET(0x183672C0)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__ONHOLLOWAVATARCHANGED_B__136_0_OFFSET UNITYSDK_OFFSET(0x183672A0)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__OPENTASKINFO_B__386_0_OFFSET UNITYSDK_OFFSET(0x18367530)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__PREPAREENTERBATTLE_B__120_2_OFFSET UNITYSDK_OFFSET(0x18367040)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__PREPAREENTERBATTLE_B__120_3_OFFSET UNITYSDK_OFFSET(0x18366F20)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__REGISTERNOTYFEVENTS_B__179_19_OFFSET UNITYSDK_OFFSET(0x183672B0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__CARDCHANGEANIMREADY_B__381_0_OFFSET UNITYSDK_OFFSET(0x187CB600)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x187CB040)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x187CB080)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__ENTERHOLLOWAFTERBATTLENORMAL_B__53_1_OFFSET UNITYSDK_OFFSET(0x187CB090)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__INITCARDSLOT_B__343_0_OFFSET UNITYSDK_OFFSET(0x187CB500)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__ONHOLLOWAVATARCHANGED_B__136_0_OFFSET UNITYSDK_OFFSET(0x187CB4E0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__OPENTASKINFO_B__386_0_OFFSET UNITYSDK_OFFSET(0x187CB750)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__PREPAREENTERBATTLE_B__120_2_OFFSET UNITYSDK_OFFSET(0x187CB280)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__PREPAREENTERBATTLE_B__120_3_OFFSET UNITYSDK_OFFSET(0x187CB160)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__REGISTERNOTYFEVENTS_B__179_19_OFFSET UNITYSDK_OFFSET(0x187CB4F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c_TypeDefinitionIndex = 73683;
+	inline static constexpr unsigned int UIHollowMainPageController___c_TypeDefinitionIndex = 84619;
 
 	class UIHollowMainPageController___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::System::UInt32>** StaticGet___9__136_0()
 		{
-			return (::System::Comparison_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x49110);
-		}
-		static ::System::Action** StaticGet___9__179_19()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x49118);
-		}
-		static ::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>** StaticGet___9__343_0()
-		{
-			return (::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x49120);
-		}
-		static ::System::Action** StaticGet___9__120_3()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x49128);
-		}
-		static ::System::Comparison_1<::MoleMole::UIHollowMainPageController_CardChangeInfo*>** StaticGet___9__381_0()
-		{
-			return (::System::Comparison_1<::MoleMole::UIHollowMainPageController_CardChangeInfo*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x49130);
-		}
-		static ::System::Action** StaticGet___9__386_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x49138);
+			return (::System::Comparison_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47050);
 		}
 		static ::System::Action** StaticGet___9__53_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x49140);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47058);
 		}
-		static ::MoleMole::UIHollowMainPageController___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__179_19()
 		{
-			return (::MoleMole::UIHollowMainPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x49148);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47060);
+		}
+		static ::System::Comparison_1<::HGAJKHIMKJP*>** StaticGet___9__343_0()
+		{
+			return (::System::Comparison_1<::HGAJKHIMKJP*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47068);
+		}
+		static ::System::Action** StaticGet___9__386_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47070);
 		}
 		static ::System::Action** StaticGet___9__120_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x49150);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47078);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47080);
+		}
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__381_0()
+		{
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47088);
+		}
+		static ::System::Action** StaticGet___9__120_3()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x47090);
 		}
 
 		static ::System::Void _cctor()
@@ -97,9 +97,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__REGISTERNOTYFEVENTS_B__179_19_OFFSET))(this);
 		}
 
-		::System::Int32 _InitCardSlot_b__343_0(::Class_1_0D6706375CDAAE8C* a, ::Class_1_0D6706375CDAAE8C* b)
+		::System::Int32 _InitCardSlot_b__343_0(::HGAJKHIMKJP* a, ::HGAJKHIMKJP* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_0D6706375CDAAE8C*, ::Class_1_0D6706375CDAAE8C*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__INITCARDSLOT_B__343_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::HGAJKHIMKJP*, ::HGAJKHIMKJP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__INITCARDSLOT_B__343_0_OFFSET))(this, a, b);
 		}
 
 		::System::Int32 _CardChangeAnimReady_b__381_0(::MoleMole::UIHollowMainPageController_CardChangeInfo* a, ::MoleMole::UIHollowMainPageController_CardChangeInfo* b)

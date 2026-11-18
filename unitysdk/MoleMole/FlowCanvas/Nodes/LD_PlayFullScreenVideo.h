@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
@@ -9,26 +9,26 @@ namespace MoleMole { class MultipleVideoPlayerManager; }
 namespace MoleMole { class UIFullScreenVideoV2PopInNormalWindowController; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16850B00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__CTOR_OFFSET UNITYSDK_OFFSET(0x16850C80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x16850CC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x16851470)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_2_OFFSET UNITYSDK_OFFSET(0x16851220)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_3_OFFSET UNITYSDK_OFFSET(0x168512E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x10D1B890)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__CTOR_OFFSET UNITYSDK_OFFSET(0x10D1BA10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x10D1BA50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x10D1C200)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_2_OFFSET UNITYSDK_OFFSET(0x10D1BFB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_PLAYFULLSCREENVIDEO__REGISTERPORTS_B__6_3_OFFSET UNITYSDK_OFFSET(0x10D1C070)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_PlayFullScreenVideo_TypeDefinitionIndex = 67698;
+	inline static constexpr unsigned int LD_PlayFullScreenVideo_TypeDefinitionIndex = 60369;
 
 	class LD_PlayFullScreenVideo : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _out; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::String*>* _videoPath; // 0xB0
-		::FlowCanvas::FlowOutput* _finish; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* _loop; // 0xC0
+		::FlowCanvas::FlowOutput* _stopOut; // 0xA8
+		::FlowCanvas::FlowOutput* _finish; // 0xB0
+		::FlowCanvas::FlowOutput* _out; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::String*>* _videoPath; // 0xC0
 		::MoleMole::UIFullScreenVideoV2PopInNormalWindowController* _ctrler; // 0xC8
-		::FlowCanvas::FlowOutput* _stopOut; // 0xD0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* _loop; // 0xD0
 
 		::System::Void _ctor()
 		{

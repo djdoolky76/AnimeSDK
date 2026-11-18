@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMoveTargetFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMovementActionHandle.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMovementFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FTransformFragment.h"
 #include "unitysdk/NPCCrowd/Ability/NPCAbilitySmoothOrientationProcessors_OrientationParameters.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -13,14 +13,14 @@
 namespace NPCCrowd::Ability { class NPCAbilityParameters; }
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPROCESSORS_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x1063FC40)
-#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPROCESSORS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1063EE90)
-#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPROCESSORS_INITPROCESSOR_OFFSET UNITYSDK_OFFSET(0x1063EC30)
-#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPROCESSORS__CTOR_OFFSET UNITYSDK_OFFSET(0x1063FF40)
+#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPROCESSORS_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0xE1BF400)
+#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPROCESSORS_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE1BE650)
+#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPROCESSORS_INITPROCESSOR_OFFSET UNITYSDK_OFFSET(0xE1BE3F0)
+#define NPCCROWD_ABILITY_NPCABILITYSMOOTHORIENTATIONPROCESSORS__CTOR_OFFSET UNITYSDK_OFFSET(0xE1BF700)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilitySmoothOrientationProcessors_TypeDefinitionIndex = 55477;
+	inline static constexpr unsigned int NPCAbilitySmoothOrientationProcessors_TypeDefinitionIndex = 70659;
 
 	class NPCAbilitySmoothOrientationProcessors : public ::System::Object
 	{

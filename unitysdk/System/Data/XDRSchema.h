@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Data/XMLSchema.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections { class ArrayList; }
@@ -10,46 +11,46 @@ namespace System::Data { class DataTable; }
 namespace System::Data { class XDRSchema_NameType; }
 namespace System::Xml { class XmlElement; }
 
-#define SYSTEM_DATA_XDRSCHEMA_FINDNAMETYPE_OFFSET UNITYSDK_OFFSET(0x1EACDF50)
-#define SYSTEM_DATA_XDRSCHEMA_FINDTYPENODE_OFFSET UNITYSDK_OFFSET(0x1EACCA30)
-#define SYSTEM_DATA_XDRSCHEMA_GETINSTANCENAME_OFFSET UNITYSDK_OFFSET(0x1EACE1B0)
-#define SYSTEM_DATA_XDRSCHEMA_GETMINMAX_1_OFFSET UNITYSDK_OFFSET(0x1EACEF80)
-#define SYSTEM_DATA_XDRSCHEMA_GETMINMAX_OFFSET UNITYSDK_OFFSET(0x1EACD490)
-#define SYSTEM_DATA_XDRSCHEMA_HANDLECOLUMN_OFFSET UNITYSDK_OFFSET(0x1EACE380)
-#define SYSTEM_DATA_XDRSCHEMA_HANDLETABLE_OFFSET UNITYSDK_OFFSET(0x1EACC8C0)
-#define SYSTEM_DATA_XDRSCHEMA_HANDLETYPENODE_OFFSET UNITYSDK_OFFSET(0x1EACF2A0)
-#define SYSTEM_DATA_XDRSCHEMA_INSTANTIATESIMPLETABLE_OFFSET UNITYSDK_OFFSET(0x1EACD4B0)
-#define SYSTEM_DATA_XDRSCHEMA_INSTANTIATETABLE_OFFSET UNITYSDK_OFFSET(0x1EACD750)
-#define SYSTEM_DATA_XDRSCHEMA_ISTEXTONLYCONTENT_OFFSET UNITYSDK_OFFSET(0x1EACD060)
-#define SYSTEM_DATA_XDRSCHEMA_ISXDRFIELD_OFFSET UNITYSDK_OFFSET(0x1EACD1F0)
-#define SYSTEM_DATA_XDRSCHEMA_LOADSCHEMA_OFFSET UNITYSDK_OFFSET(0x1EACC6A0)
-#define SYSTEM_DATA_XDRSCHEMA_PARSEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1EACE040)
-#define SYSTEM_DATA_XDRSCHEMA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EACF5A0)
-#define SYSTEM_DATA_XDRSCHEMA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EACC670)
+#define SYSTEM_DATA_XDRSCHEMA_FINDNAMETYPE_OFFSET UNITYSDK_OFFSET(0x1EE22200)
+#define SYSTEM_DATA_XDRSCHEMA_FINDTYPENODE_OFFSET UNITYSDK_OFFSET(0x1EE20CE0)
+#define SYSTEM_DATA_XDRSCHEMA_GETINSTANCENAME_OFFSET UNITYSDK_OFFSET(0x1EE22460)
+#define SYSTEM_DATA_XDRSCHEMA_GETMINMAX_1_OFFSET UNITYSDK_OFFSET(0x1EE23230)
+#define SYSTEM_DATA_XDRSCHEMA_GETMINMAX_OFFSET UNITYSDK_OFFSET(0x1EE21740)
+#define SYSTEM_DATA_XDRSCHEMA_HANDLECOLUMN_OFFSET UNITYSDK_OFFSET(0x1EE22630)
+#define SYSTEM_DATA_XDRSCHEMA_HANDLETABLE_OFFSET UNITYSDK_OFFSET(0x1EE20B70)
+#define SYSTEM_DATA_XDRSCHEMA_HANDLETYPENODE_OFFSET UNITYSDK_OFFSET(0x1EE23550)
+#define SYSTEM_DATA_XDRSCHEMA_INSTANTIATESIMPLETABLE_OFFSET UNITYSDK_OFFSET(0x1EE21760)
+#define SYSTEM_DATA_XDRSCHEMA_INSTANTIATETABLE_OFFSET UNITYSDK_OFFSET(0x1EE21A00)
+#define SYSTEM_DATA_XDRSCHEMA_ISTEXTONLYCONTENT_OFFSET UNITYSDK_OFFSET(0x1EE21310)
+#define SYSTEM_DATA_XDRSCHEMA_ISXDRFIELD_OFFSET UNITYSDK_OFFSET(0x1EE214A0)
+#define SYSTEM_DATA_XDRSCHEMA_LOADSCHEMA_OFFSET UNITYSDK_OFFSET(0x1EE20950)
+#define SYSTEM_DATA_XDRSCHEMA_PARSEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1EE222F0)
+#define SYSTEM_DATA_XDRSCHEMA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE23850)
+#define SYSTEM_DATA_XDRSCHEMA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE20920)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int XDRSchema_TypeDefinitionIndex = 39348;
+	inline static constexpr unsigned int XDRSchema_TypeDefinitionIndex = 37348;
 
 	class XDRSchema : public ::System::Data::XMLSchema
 	{
 	public:
-		static ::Il2CppArray<::System::Data::XDRSchema_NameType*>** StaticGet_s_mapNameTypeXdr()
-		{
-			return (::Il2CppArray<::System::Data::XDRSchema_NameType*>**)Il2CppClass::FromTypeDefinitionIndex(XDRSchema_TypeDefinitionIndex)->GetStaticField(0x2AB60);
-		}
 		static ::Il2CppArray<::System::Char>** StaticGet_s_colonArray()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(XDRSchema_TypeDefinitionIndex)->GetStaticField(0x2AB68);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(XDRSchema_TypeDefinitionIndex)->GetStaticField(0x2BEC0);
+		}
+		static ::Il2CppArray<::System::Object*>** StaticGet_s_mapNameTypeXdr()
+		{
+			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(XDRSchema_TypeDefinitionIndex)->GetStaticField(0x2BEC8);
 		}
 		static ::System::Data::XDRSchema_NameType** StaticGet_s_enumerationNameType()
 		{
-			return (::System::Data::XDRSchema_NameType**)Il2CppClass::FromTypeDefinitionIndex(XDRSchema_TypeDefinitionIndex)->GetStaticField(0x2AB70);
+			return (::System::Data::XDRSchema_NameType**)Il2CppClass::FromTypeDefinitionIndex(XDRSchema_TypeDefinitionIndex)->GetStaticField(0x2BED0);
 		}
-		::System::String* _schemaUri; // 0x10
-		::System::Data::DataSet* _ds; // 0x18
-		::System::Xml::XmlElement* _schemaRoot; // 0x20
-		::System::String* _schemaName; // 0x28
+		::System::String* _schemaName; // 0x10
+		::System::Xml::XmlElement* _schemaRoot; // 0x18
+		::System::String* _schemaUri; // 0x20
+		::System::Data::DataSet* _ds; // 0x28
 
 		::System::Void _ctor(::System::Data::DataSet* ds, ::System::Boolean fInline)
 		{

@@ -1,14 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Security/Interface/TlsProtocolCode.h"
-#include "unitysdk/Mono/Security/Interface/TlsProtocols.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/Authentication/SslProtocols.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/Object.h"
 
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 namespace Mono::Security::Interface { class ICertificateValidator2; }
-namespace Mono::Security::Interface { class MonoTlsConnectionInfo; }
 namespace Mono::Security::Interface { class MonoTlsProvider; }
 namespace Mono::Security::Interface { class MonoTlsSettings; }
 namespace System { class String; }
@@ -16,41 +13,42 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_DEBUG_OFFSET UNITYSDK_OFFSET(0x1DD0BF40)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1DD0C260)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DD0C1B0)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1DD0C270)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GETPROTOCOLVERSIONS_OFFSET UNITYSDK_OFFSET(0x1DD0BFB0)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_ASKFORCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1DD0BF80)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_CLIENTCERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1DD0BFA0)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_ENABLEDPROTOCOLS_OFFSET UNITYSDK_OFFSET(0x1DD0BF90)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_ISSERVER_OFFSET UNITYSDK_OFFSET(0x1DD0BF50)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_LOCALSERVERCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1DD0BFF0)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_PARENT_OFFSET UNITYSDK_OFFSET(0x1DD0BEF0)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_PROVIDER_OFFSET UNITYSDK_OFFSET(0x1DD0BF20)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_SERVERNAME_OFFSET UNITYSDK_OFFSET(0x1DD0BF70)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1DD0BF00)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_TARGETHOST_OFFSET UNITYSDK_OFFSET(0x1DD0BF60)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_SELECTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1DD0C0A0)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_VALIDATECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1DD0C050)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT_VALIDATECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1DD0C000)
-#define MONO_NET_SECURITY_MOBILETLSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD0BD80)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_DEBUG_OFFSET UNITYSDK_OFFSET(0x1E0ACC90)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1E0ACFB0)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E0ACF00)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1E0ACFC0)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GETPROTOCOLVERSIONS_OFFSET UNITYSDK_OFFSET(0x1E0ACD00)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_ASKFORCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1E0ACCD0)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_CLIENTCERTIFICATES_OFFSET UNITYSDK_OFFSET(0x1E0ACCF0)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_ENABLEDPROTOCOLS_OFFSET UNITYSDK_OFFSET(0x1E0ACCE0)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_ISSERVER_OFFSET UNITYSDK_OFFSET(0x1E0ACCA0)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_LOCALSERVERCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1E0ACD40)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_PARENT_OFFSET UNITYSDK_OFFSET(0x1E0ACC40)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_PROVIDER_OFFSET UNITYSDK_OFFSET(0x1E0ACC70)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_SERVERNAME_OFFSET UNITYSDK_OFFSET(0x1E0ACCC0)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1E0ACC50)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_GET_TARGETHOST_OFFSET UNITYSDK_OFFSET(0x1E0ACCB0)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_SELECTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1E0ACDF0)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_VALIDATECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1E0ACDA0)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT_VALIDATECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1E0ACD50)
+#define MONO_NET_SECURITY_MOBILETLSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0ACAD0)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int MobileTlsContext_TypeDefinitionIndex = 2628;
+	inline static constexpr unsigned int MobileTlsContext_TypeDefinitionIndex = 2627;
 
 	class MobileTlsContext : public ::System::Object
 	{
 	public:
-		::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate; // 0x10
-		::System::String* serverName; // 0x18
-		::System::String* targetHost; // 0x20
-		::Mono::Security::Interface::ICertificateValidator2* certificateValidator; // 0x28
-		::Mono::Net::Security::MobileAuthenticatedStream* parent; // 0x30
-		::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates; // 0x38
-		::System::Boolean askForClientCert; // 0x40
-		::System::Boolean serverMode; // 0x41
+		::System::String* serverName; // 0x10
+		::Mono::Net::Security::MobileAuthenticatedStream* parent; // 0x18
+		::Mono::Security::Interface::ICertificateValidator2* certificateValidator; // 0x20
+		::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate; // 0x28
+		::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates; // 0x30
+		::System::String* targetHost; // 0x38
+		::System::Boolean serverMode; // 0x40
+		::System::Boolean askForClientCert; // 0x41
+		::System::Byte _padding0[0x2];
 		::System::Security::Authentication::SslProtocols enabledProtocols; // 0x44
 
 		::System::Void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::System::Boolean serverMode, ::System::String* targetHost, ::System::Security::Authentication::SslProtocols enabledProtocols, ::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, ::System::Boolean askForClientCert)

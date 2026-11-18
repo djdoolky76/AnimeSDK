@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ScreenEffectFieldHandleType.h"
-#include "unitysdk/MoleMole/EffectSimulate/ESPostProcessBehavior_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
@@ -13,24 +12,23 @@ namespace MoleMole::EffectSimulate { class FloatKeyframeCurve; }
 namespace MoleMole::EffectSimulate { class Vector2KeyframeCurve; }
 namespace MoleMole::EffectSimulate { class Vector4KeyframeCurve; }
 namespace UnityEngine { class Texture; }
-namespace UnityEngine::Rendering::Universal { class Glitch; }
 
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x162957E0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_18D3B6D22EDDAC41_OFFSET UNITYSDK_OFFSET(0x149B9B40)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_25CD86BF8626C8D9_OFFSET UNITYSDK_OFFSET(0x149B88D0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_33AEB8F024CE4DC0_1_OFFSET UNITYSDK_OFFSET(0x149C6F70)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_33AEB8F024CE4DC0_OFFSET UNITYSDK_OFFSET(0x149C4A70)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0x149B5DF0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_670D67F229C8EE0C_OFFSET UNITYSDK_OFFSET(0x149B64A0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x149B5DE0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_9E93A3CD963FC72F_OFFSET UNITYSDK_OFFSET(0x149C1C30)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x149C9470)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_AAOGMJFNGIB_OFFSET UNITYSDK_OFFSET(0x19B4D4D0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_AFPCLLAALBH_OFFSET UNITYSDK_OFFSET(0x19B58C60)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_AJIPNBANCOC_OFFSET UNITYSDK_OFFSET(0x19B4CE20)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_ALJEEEAPCBH_OFFSET UNITYSDK_OFFSET(0x19B50B70)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_BAHGDCGIEKL_OFFSET UNITYSDK_OFFSET(0x19B4F900)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_IEFBPLNILIE_OFFSET UNITYSDK_OFFSET(0x19B4CE10)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_NNEGPFCPCAB_OFFSET UNITYSDK_OFFSET(0x19B4C100)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_ONPGLGIFOJJ_OFFSET UNITYSDK_OFFSET(0x19B5DFA0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_PEDOJDBBGPC_OFFSET UNITYSDK_OFFSET(0x19B5BAA0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x19B604A0)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESPostProcessGlitch_TypeDefinitionIndex = 60795;
+	inline static constexpr unsigned int ESPostProcessGlitch_TypeDefinitionIndex = 56927;
 
-	class ESPostProcessGlitch : public ::MoleMole::EffectSimulate::ESPostProcessBehavior_1<::UnityEngine::Rendering::Universal::Glitch*>
+	class ESPostProcessGlitch
 	{
 	public:
 		::MoleMole::Config::ConfigEntityGlitchEffects* m_stAsset; // 0xB0
@@ -46,11 +44,14 @@ namespace MoleMole::EffectSimulate
 		::System::Single _VolDefault_lineBrightness; // 0xDC
 		::UnityEngine::Texture* _VolDefault_texture; // 0xE0
 		::System::Boolean _VolDefault_mask; // 0xE8
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector4 _VolDefault_maskTexTillingOffset; // 0xEC
 		::System::Boolean _VolDefault_randomOpacity; // 0xFC
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector4 _VolDefault_randomOpacityTillingOffset; // 0x100
 		::UnityEngine::Vector2 _VolDefault_randomOpacitySpeed; // 0x110
 		::System::Boolean _VolDefault_characterDistortionMaskOn; // 0x118
+		::System::Byte _padding2[0x3];
 		::System::Single _VolDefault_glitchIntensity; // 0x11C
 		::UnityEngine::Texture* _VolDefault_glitchNoiseTex; // 0x120
 		::System::Single _VolDefault_glitchNoiseTexSpeed; // 0x128
@@ -65,64 +66,91 @@ namespace MoleMole::EffectSimulate
 		::System::Single _VolDefault_glitchTex2Range; // 0x15C
 		::UnityEngine::Color _VolDefault_overrideMap3DColor; // 0x160
 		::System::Boolean _VolPreVal_glitchAngle_overrideState; // 0x170
+		::System::Byte _padding3[0x3];
 		::System::Single _VolPreVal_glitchAngle; // 0x174
 		::System::Boolean _VolPreVal_rShift_overrideState; // 0x178
+		::System::Byte _padding4[0x3];
 		::System::Single _VolPreVal_rShift; // 0x17C
 		::System::Boolean _VolPreVal_gShift_overrideState; // 0x180
+		::System::Byte _padding5[0x3];
 		::System::Single _VolPreVal_gShift; // 0x184
 		::System::Boolean _VolPreVal_bShift_overrideState; // 0x188
+		::System::Byte _padding6[0x3];
 		::System::Single _VolPreVal_bShift; // 0x18C
 		::System::Boolean _VolPreVal_noiseScale_overrideState; // 0x190
+		::System::Byte _padding7[0x3];
 		::System::Single _VolPreVal_noiseScale; // 0x194
 		::System::Boolean _VolPreVal_noiseDistortion_overrideState; // 0x198
+		::System::Byte _padding8[0x3];
 		::System::Single _VolPreVal_noiseDistortion; // 0x19C
 		::System::Boolean _VolPreVal_distortionThreshold_overrideState; // 0x1A0
+		::System::Byte _padding9[0x3];
 		::System::Single _VolPreVal_distortionThreshold; // 0x1A4
 		::System::Boolean _VolPreVal_lineThresholdMin_overrideState; // 0x1A8
+		::System::Byte _padding10[0x3];
 		::System::Single _VolPreVal_lineThresholdMin; // 0x1AC
 		::System::Boolean _VolPreVal_lineThresholdMax_overrideState; // 0x1B0
+		::System::Byte _padding11[0x3];
 		::System::Single _VolPreVal_lineThresholdMax; // 0x1B4
 		::System::Boolean _VolPreVal_lineBrightness_overrideState; // 0x1B8
+		::System::Byte _padding12[0x3];
 		::System::Single _VolPreVal_lineBrightness; // 0x1BC
 		::System::Boolean _VolPreVal_texture_overrideState; // 0x1C0
+		::System::Byte _padding13[0x7];
 		::UnityEngine::Texture* _VolPreVal_texture; // 0x1C8
 		::System::Boolean _VolPreVal_mask_overrideState; // 0x1D0
 		::System::Boolean _VolPreVal_mask; // 0x1D1
 		::System::Boolean _VolPreVal_maskTexTillingOffset_overrideState; // 0x1D2
+		::System::Byte _padding14[0x1];
 		::UnityEngine::Vector4 _VolPreVal_maskTexTillingOffset; // 0x1D4
 		::System::Boolean _VolPreVal_randomOpacity_overrideState; // 0x1E4
 		::System::Boolean _VolPreVal_randomOpacity; // 0x1E5
 		::System::Boolean _VolPreVal_randomOpacityTillingOffset_overrideState; // 0x1E6
+		::System::Byte _padding15[0x1];
 		::UnityEngine::Vector4 _VolPreVal_randomOpacityTillingOffset; // 0x1E8
 		::System::Boolean _VolPreVal_randomOpacitySpeed_overrideState; // 0x1F8
+		::System::Byte _padding16[0x3];
 		::UnityEngine::Vector2 _VolPreVal_randomOpacitySpeed; // 0x1FC
 		::System::Boolean _VolPreVal_characterDistortionMaskOn_overrideState; // 0x204
 		::System::Boolean _VolPreVal_characterDistortionMaskOn; // 0x205
 		::System::Boolean _VolPreVal_glitchIntensity_overrideState; // 0x206
+		::System::Byte _padding17[0x1];
 		::System::Single _VolPreVal_glitchIntensity; // 0x208
 		::System::Boolean _VolPreVal_glitchNoiseTex_overrideState; // 0x20C
+		::System::Byte _padding18[0x3];
 		::UnityEngine::Texture* _VolPreVal_glitchNoiseTex; // 0x210
 		::System::Boolean _VolPreVal_glitchNoiseTexSpeed_overrideState; // 0x218
+		::System::Byte _padding19[0x3];
 		::System::Single _VolPreVal_glitchNoiseTexSpeed; // 0x21C
 		::System::Boolean _VolPreVal_glitchRand_overrideState; // 0x220
+		::System::Byte _padding20[0x3];
 		::System::Single _VolPreVal_glitchRand; // 0x224
 		::System::Boolean _VolPreVal_glitchTex1_overrideState; // 0x228
+		::System::Byte _padding21[0x7];
 		::UnityEngine::Texture* _VolPreVal_glitchTex1; // 0x230
 		::System::Boolean _VolPreVal_glitchTex1ScaleOffset_overrideState; // 0x238
+		::System::Byte _padding22[0x3];
 		::UnityEngine::Vector2 _VolPreVal_glitchTex1ScaleOffset; // 0x23C
 		::System::Boolean _VolPreVal_glitchTex1Amount_overrideState; // 0x244
+		::System::Byte _padding23[0x3];
 		::System::Single _VolPreVal_glitchTex1Amount; // 0x248
 		::System::Boolean _VolPreVal_glitchTex1Range_overrideState; // 0x24C
+		::System::Byte _padding24[0x3];
 		::System::Single _VolPreVal_glitchTex1Range; // 0x250
 		::System::Boolean _VolPreVal_glitchTex2_overrideState; // 0x254
+		::System::Byte _padding25[0x3];
 		::UnityEngine::Texture* _VolPreVal_glitchTex2; // 0x258
 		::System::Boolean _VolPreVal_glitchTex2ScaleOffset_overrideState; // 0x260
+		::System::Byte _padding26[0x3];
 		::UnityEngine::Vector2 _VolPreVal_glitchTex2ScaleOffset; // 0x264
 		::System::Boolean _VolPreVal_glitchTex2Amount_overrideState; // 0x26C
+		::System::Byte _padding27[0x3];
 		::System::Single _VolPreVal_glitchTex2Amount; // 0x270
 		::System::Boolean _VolPreVal_glitchTex2Range_overrideState; // 0x274
+		::System::Byte _padding28[0x3];
 		::System::Single _VolPreVal_glitchTex2Range; // 0x278
 		::System::Boolean _VolPreVal_overrideMap3DColor_overrideState; // 0x27C
+		::System::Byte _padding29[0x3];
 		::UnityEngine::Color _VolPreVal_overrideMap3DColor; // 0x280
 		::System::Single _TimelineCurveFirstVal_glitchAngle; // 0x290
 		::System::Single _TimelineCurveLastVal_glitchAngle; // 0x294
@@ -146,10 +174,12 @@ namespace MoleMole::EffectSimulate
 		::System::Single _TimelineCurveLastVal_lineBrightness; // 0x2DC
 		::System::Boolean _TimelineCurveFirstVal_mask; // 0x2E0
 		::System::Boolean _TimelineCurveLastVal_mask; // 0x2E1
+		::System::Byte _padding30[0x2];
 		::UnityEngine::Vector4 _TimelineCurveFirstVal_maskTexTillingOffset; // 0x2E4
 		::UnityEngine::Vector4 _TimelineCurveLastVal_maskTexTillingOffset; // 0x2F4
 		::System::Boolean _TimelineCurveFirstVal_randomOpacity; // 0x304
 		::System::Boolean _TimelineCurveLastVal_randomOpacity; // 0x305
+		::System::Byte _padding31[0x2];
 		::UnityEngine::Vector4 _TimelineCurveFirstVal_randomOpacityTillingOffset; // 0x308
 		::UnityEngine::Vector4 _TimelineCurveLastVal_randomOpacityTillingOffset; // 0x318
 		::UnityEngine::Vector2 _TimelineCurveFirstVal_randomOpacitySpeed; // 0x328
@@ -176,163 +206,218 @@ namespace MoleMole::EffectSimulate
 		::UnityEngine::Color _TimelineCurveLastVal_overrideMap3DColor; // 0x3A0
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchAngle_FieldHandleType; // 0x3B0
 		::System::Boolean ESPP_glitchAngle_UseIt; // 0x3B4
+		::System::Byte _padding32[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glitchAngle; // 0x3B8
 		::System::Boolean ESPP_glitchAngle_EnableFade; // 0x3C0
 		::System::Boolean ESPP_glitchAngle_EnableOverrideDefaultValue; // 0x3C1
+		::System::Byte _padding33[0x2];
 		::System::Single ESPP_glitchAngle_OverrideDefaultValue; // 0x3C4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_rShift_FieldHandleType; // 0x3C8
 		::System::Boolean ESPP_rShift_UseIt; // 0x3CC
+		::System::Byte _padding34[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_rShift; // 0x3D0
 		::System::Boolean ESPP_rShift_EnableFade; // 0x3D8
 		::System::Boolean ESPP_rShift_EnableOverrideDefaultValue; // 0x3D9
+		::System::Byte _padding35[0x2];
 		::System::Single ESPP_rShift_OverrideDefaultValue; // 0x3DC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_gShift_FieldHandleType; // 0x3E0
 		::System::Boolean ESPP_gShift_UseIt; // 0x3E4
+		::System::Byte _padding36[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_gShift; // 0x3E8
 		::System::Boolean ESPP_gShift_EnableFade; // 0x3F0
 		::System::Boolean ESPP_gShift_EnableOverrideDefaultValue; // 0x3F1
+		::System::Byte _padding37[0x2];
 		::System::Single ESPP_gShift_OverrideDefaultValue; // 0x3F4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_bShift_FieldHandleType; // 0x3F8
 		::System::Boolean ESPP_bShift_UseIt; // 0x3FC
+		::System::Byte _padding38[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_bShift; // 0x400
 		::System::Boolean ESPP_bShift_EnableFade; // 0x408
 		::System::Boolean ESPP_bShift_EnableOverrideDefaultValue; // 0x409
+		::System::Byte _padding39[0x2];
 		::System::Single ESPP_bShift_OverrideDefaultValue; // 0x40C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_noiseScale_FieldHandleType; // 0x410
 		::System::Boolean ESPP_noiseScale_UseIt; // 0x414
+		::System::Byte _padding40[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_noiseScale; // 0x418
 		::System::Boolean ESPP_noiseScale_EnableFade; // 0x420
 		::System::Boolean ESPP_noiseScale_EnableOverrideDefaultValue; // 0x421
+		::System::Byte _padding41[0x2];
 		::System::Single ESPP_noiseScale_OverrideDefaultValue; // 0x424
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_noiseDistortion_FieldHandleType; // 0x428
 		::System::Boolean ESPP_noiseDistortion_UseIt; // 0x42C
+		::System::Byte _padding42[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_noiseDistortion; // 0x430
 		::System::Boolean ESPP_noiseDistortion_EnableFade; // 0x438
 		::System::Boolean ESPP_noiseDistortion_EnableOverrideDefaultValue; // 0x439
+		::System::Byte _padding43[0x2];
 		::System::Single ESPP_noiseDistortion_OverrideDefaultValue; // 0x43C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_distortionThreshold_FieldHandleType; // 0x440
 		::System::Boolean ESPP_distortionThreshold_UseIt; // 0x444
+		::System::Byte _padding44[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_distortionThreshold; // 0x448
 		::System::Boolean ESPP_distortionThreshold_EnableFade; // 0x450
 		::System::Boolean ESPP_distortionThreshold_EnableOverrideDefaultValue; // 0x451
+		::System::Byte _padding45[0x2];
 		::System::Single ESPP_distortionThreshold_OverrideDefaultValue; // 0x454
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_lineThresholdMin_FieldHandleType; // 0x458
 		::System::Boolean ESPP_lineThresholdMin_UseIt; // 0x45C
+		::System::Byte _padding46[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_lineThresholdMin; // 0x460
 		::System::Boolean ESPP_lineThresholdMin_EnableFade; // 0x468
 		::System::Boolean ESPP_lineThresholdMin_EnableOverrideDefaultValue; // 0x469
+		::System::Byte _padding47[0x2];
 		::System::Single ESPP_lineThresholdMin_OverrideDefaultValue; // 0x46C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_lineThresholdMax_FieldHandleType; // 0x470
 		::System::Boolean ESPP_lineThresholdMax_UseIt; // 0x474
+		::System::Byte _padding48[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_lineThresholdMax; // 0x478
 		::System::Boolean ESPP_lineThresholdMax_EnableFade; // 0x480
 		::System::Boolean ESPP_lineThresholdMax_EnableOverrideDefaultValue; // 0x481
+		::System::Byte _padding49[0x2];
 		::System::Single ESPP_lineThresholdMax_OverrideDefaultValue; // 0x484
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_lineBrightness_FieldHandleType; // 0x488
 		::System::Boolean ESPP_lineBrightness_UseIt; // 0x48C
+		::System::Byte _padding50[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_lineBrightness; // 0x490
 		::System::Boolean ESPP_lineBrightness_EnableFade; // 0x498
 		::System::Boolean ESPP_lineBrightness_EnableOverrideDefaultValue; // 0x499
+		::System::Byte _padding51[0x2];
 		::System::Single ESPP_lineBrightness_OverrideDefaultValue; // 0x49C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_texture_FieldHandleType; // 0x4A0
+		::System::Byte _padding52[0x4];
 		::UnityEngine::Texture* ESPP_texture; // 0x4A8
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_mask_FieldHandleType; // 0x4B0
 		::System::Boolean ESPP_mask_UseIt; // 0x4B4
+		::System::Byte _padding53[0x3];
 		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_mask; // 0x4B8
 		::System::Boolean ESPP_mask_EnableFade; // 0x4C0
 		::System::Boolean ESPP_mask_EnableOverrideDefaultValue; // 0x4C1
 		::System::Boolean ESPP_mask_OverrideDefaultValue; // 0x4C2
+		::System::Byte _padding54[0x1];
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_maskTexTillingOffset_FieldHandleType; // 0x4C4
 		::System::Boolean ESPP_maskTexTillingOffset_UseIt; // 0x4C8
+		::System::Byte _padding55[0x7];
 		::MoleMole::EffectSimulate::Vector4KeyframeCurve* ESPP_maskTexTillingOffset; // 0x4D0
 		::System::Boolean ESPP_maskTexTillingOffset_EnableFade; // 0x4D8
 		::System::Boolean ESPP_maskTexTillingOffset_EnableOverrideDefaultValue; // 0x4D9
+		::System::Byte _padding56[0x2];
 		::UnityEngine::Vector4 ESPP_maskTexTillingOffset_OverrideDefaultValue; // 0x4DC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_randomOpacity_FieldHandleType; // 0x4EC
 		::System::Boolean ESPP_randomOpacity_UseIt; // 0x4F0
+		::System::Byte _padding57[0x7];
 		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_randomOpacity; // 0x4F8
 		::System::Boolean ESPP_randomOpacity_EnableFade; // 0x500
 		::System::Boolean ESPP_randomOpacity_EnableOverrideDefaultValue; // 0x501
 		::System::Boolean ESPP_randomOpacity_OverrideDefaultValue; // 0x502
+		::System::Byte _padding58[0x1];
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_randomOpacityTillingOffset_FieldHandleType; // 0x504
 		::System::Boolean ESPP_randomOpacityTillingOffset_UseIt; // 0x508
+		::System::Byte _padding59[0x7];
 		::MoleMole::EffectSimulate::Vector4KeyframeCurve* ESPP_randomOpacityTillingOffset; // 0x510
 		::System::Boolean ESPP_randomOpacityTillingOffset_EnableFade; // 0x518
 		::System::Boolean ESPP_randomOpacityTillingOffset_EnableOverrideDefaultValue; // 0x519
+		::System::Byte _padding60[0x2];
 		::UnityEngine::Vector4 ESPP_randomOpacityTillingOffset_OverrideDefaultValue; // 0x51C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_randomOpacitySpeed_FieldHandleType; // 0x52C
 		::System::Boolean ESPP_randomOpacitySpeed_UseIt; // 0x530
+		::System::Byte _padding61[0x7];
 		::MoleMole::EffectSimulate::Vector2KeyframeCurve* ESPP_randomOpacitySpeed; // 0x538
 		::System::Boolean ESPP_randomOpacitySpeed_EnableFade; // 0x540
 		::System::Boolean ESPP_randomOpacitySpeed_EnableOverrideDefaultValue; // 0x541
+		::System::Byte _padding62[0x2];
 		::UnityEngine::Vector2 ESPP_randomOpacitySpeed_OverrideDefaultValue; // 0x544
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_characterDistortionMaskOn_FieldHandleType; // 0x54C
 		::System::Boolean ESPP_characterDistortionMaskOn; // 0x550
+		::System::Byte _padding63[0x3];
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchIntensity_FieldHandleType; // 0x554
 		::System::Boolean ESPP_glitchIntensity_UseIt; // 0x558
+		::System::Byte _padding64[0x7];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glitchIntensity; // 0x560
 		::System::Boolean ESPP_glitchIntensity_EnableFade; // 0x568
 		::System::Boolean ESPP_glitchIntensity_EnableOverrideDefaultValue; // 0x569
+		::System::Byte _padding65[0x2];
 		::System::Single ESPP_glitchIntensity_OverrideDefaultValue; // 0x56C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchNoiseTex_FieldHandleType; // 0x570
+		::System::Byte _padding66[0x4];
 		::UnityEngine::Texture* ESPP_glitchNoiseTex; // 0x578
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchNoiseTexSpeed_FieldHandleType; // 0x580
 		::System::Boolean ESPP_glitchNoiseTexSpeed_UseIt; // 0x584
+		::System::Byte _padding67[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glitchNoiseTexSpeed; // 0x588
 		::System::Boolean ESPP_glitchNoiseTexSpeed_EnableFade; // 0x590
 		::System::Boolean ESPP_glitchNoiseTexSpeed_EnableOverrideDefaultValue; // 0x591
+		::System::Byte _padding68[0x2];
 		::System::Single ESPP_glitchNoiseTexSpeed_OverrideDefaultValue; // 0x594
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchRand_FieldHandleType; // 0x598
 		::System::Boolean ESPP_glitchRand_UseIt; // 0x59C
+		::System::Byte _padding69[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glitchRand; // 0x5A0
 		::System::Boolean ESPP_glitchRand_EnableFade; // 0x5A8
 		::System::Boolean ESPP_glitchRand_EnableOverrideDefaultValue; // 0x5A9
+		::System::Byte _padding70[0x2];
 		::System::Single ESPP_glitchRand_OverrideDefaultValue; // 0x5AC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchTex1_FieldHandleType; // 0x5B0
+		::System::Byte _padding71[0x4];
 		::UnityEngine::Texture* ESPP_glitchTex1; // 0x5B8
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchTex1ScaleOffset_FieldHandleType; // 0x5C0
 		::System::Boolean ESPP_glitchTex1ScaleOffset_UseIt; // 0x5C4
+		::System::Byte _padding72[0x3];
 		::MoleMole::EffectSimulate::Vector2KeyframeCurve* ESPP_glitchTex1ScaleOffset; // 0x5C8
 		::System::Boolean ESPP_glitchTex1ScaleOffset_EnableFade; // 0x5D0
 		::System::Boolean ESPP_glitchTex1ScaleOffset_EnableOverrideDefaultValue; // 0x5D1
+		::System::Byte _padding73[0x2];
 		::UnityEngine::Vector2 ESPP_glitchTex1ScaleOffset_OverrideDefaultValue; // 0x5D4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchTex1Amount_FieldHandleType; // 0x5DC
 		::System::Boolean ESPP_glitchTex1Amount_UseIt; // 0x5E0
+		::System::Byte _padding74[0x7];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glitchTex1Amount; // 0x5E8
 		::System::Boolean ESPP_glitchTex1Amount_EnableFade; // 0x5F0
 		::System::Boolean ESPP_glitchTex1Amount_EnableOverrideDefaultValue; // 0x5F1
+		::System::Byte _padding75[0x2];
 		::System::Single ESPP_glitchTex1Amount_OverrideDefaultValue; // 0x5F4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchTex1Range_FieldHandleType; // 0x5F8
 		::System::Boolean ESPP_glitchTex1Range_UseIt; // 0x5FC
+		::System::Byte _padding76[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glitchTex1Range; // 0x600
 		::System::Boolean ESPP_glitchTex1Range_EnableFade; // 0x608
 		::System::Boolean ESPP_glitchTex1Range_EnableOverrideDefaultValue; // 0x609
+		::System::Byte _padding77[0x2];
 		::System::Single ESPP_glitchTex1Range_OverrideDefaultValue; // 0x60C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchTex2_FieldHandleType; // 0x610
+		::System::Byte _padding78[0x4];
 		::UnityEngine::Texture* ESPP_glitchTex2; // 0x618
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchTex2ScaleOffset_FieldHandleType; // 0x620
 		::System::Boolean ESPP_glitchTex2ScaleOffset_UseIt; // 0x624
+		::System::Byte _padding79[0x3];
 		::MoleMole::EffectSimulate::Vector2KeyframeCurve* ESPP_glitchTex2ScaleOffset; // 0x628
 		::System::Boolean ESPP_glitchTex2ScaleOffset_EnableFade; // 0x630
 		::System::Boolean ESPP_glitchTex2ScaleOffset_EnableOverrideDefaultValue; // 0x631
+		::System::Byte _padding80[0x2];
 		::UnityEngine::Vector2 ESPP_glitchTex2ScaleOffset_OverrideDefaultValue; // 0x634
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchTex2Amount_FieldHandleType; // 0x63C
 		::System::Boolean ESPP_glitchTex2Amount_UseIt; // 0x640
+		::System::Byte _padding81[0x7];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glitchTex2Amount; // 0x648
 		::System::Boolean ESPP_glitchTex2Amount_EnableFade; // 0x650
 		::System::Boolean ESPP_glitchTex2Amount_EnableOverrideDefaultValue; // 0x651
+		::System::Byte _padding82[0x2];
 		::System::Single ESPP_glitchTex2Amount_OverrideDefaultValue; // 0x654
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glitchTex2Range_FieldHandleType; // 0x658
 		::System::Boolean ESPP_glitchTex2Range_UseIt; // 0x65C
+		::System::Byte _padding83[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glitchTex2Range; // 0x660
 		::System::Boolean ESPP_glitchTex2Range_EnableFade; // 0x668
 		::System::Boolean ESPP_glitchTex2Range_EnableOverrideDefaultValue; // 0x669
+		::System::Byte _padding84[0x2];
 		::System::Single ESPP_glitchTex2Range_OverrideDefaultValue; // 0x66C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_overrideMap3DColor_FieldHandleType; // 0x670
 		::System::Boolean ESPP_overrideMap3DColor_UseIt; // 0x674
+		::System::Byte _padding85[0x3];
 		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_overrideMap3DColor; // 0x678
 		::System::Boolean ESPP_overrideMap3DColor_EnableFade; // 0x680
 		::System::Boolean ESPP_overrideMap3DColor_EnableOverrideDefaultValue; // 0x681
+		::System::Byte _padding86[0x2];
 		::UnityEngine::Color ESPP_overrideMap3DColor_OverrideDefaultValue; // 0x684
 
 		::System::Void _ctor()
@@ -340,49 +425,49 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_06330CD58CB602B6()
+		::System::Void NNEGPFCPCAB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_06330CD58CB602B6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_NNEGPFCPCAB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_832295EC279E5994()
+		::System::Void IEFBPLNILIE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_IEFBPLNILIE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_497833CF065C1894()
+		::System::Void AJIPNBANCOC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_497833CF065C1894_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_AJIPNBANCOC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_670D67F229C8EE0C()
+		::System::Void AAOGMJFNGIB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_670D67F229C8EE0C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_AAOGMJFNGIB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_25CD86BF8626C8D9(::System::Single a1)
+		::System::Void BAHGDCGIEKL(::System::Single PBKKBBHOCLC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_25CD86BF8626C8D9_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_BAHGDCGIEKL_OFFSET))(this, PBKKBBHOCLC);
 		}
 
-		::System::Void Method_5_18D3B6D22EDDAC41(::System::Single a1)
+		::System::Void ALJEEEAPCBH(::System::Single HIIOCANBKAM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_18D3B6D22EDDAC41_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_ALJEEEAPCBH_OFFSET))(this, HIIOCANBKAM);
 		}
 
-		::System::Void Method_5_9E93A3CD963FC72F(::System::Single a1)
+		::System::Void AFPCLLAALBH(::System::Single FDLDIDFMCIG)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_9E93A3CD963FC72F_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_AFPCLLAALBH_OFFSET))(this, FDLDIDFMCIG);
 		}
 
-		::System::Void Method_5_33AEB8F024CE4DC0(::System::Single a1)
+		::System::Void PEDOJDBBGPC(::System::Single AHAFNGEDPLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_33AEB8F024CE4DC0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_PEDOJDBBGPC_OFFSET))(this, AHAFNGEDPLI);
 		}
 
-		::System::Void Method_5_33AEB8F024CE4DC0_1(::System::Single a1)
+		::System::Void ONPGLGIFOJJ(::System::Single AHAFNGEDPLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_METHOD_5_33AEB8F024CE4DC0_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSGLITCH_ONPGLGIFOJJ_OFFSET))(this, AHAFNGEDPLI);
 		}
 	};
 }

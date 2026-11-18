@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_126;
+class DONFCCJNHMI;
 namespace MoleMole { class UICoopClueLevelThemeTabWidgetController_DataProxy; }
 
-#define MOLEMOLE_UICOOPCLUELEVELTHEMETABWIDGETCONTROLLER_DATAPROXY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1869D6D0)
-#define MOLEMOLE_UICOOPCLUELEVELTHEMETABWIDGETCONTROLLER_DATAPROXY___C__DISPLAYCLASS3_0__ONCREATEPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x1869D6E0)
-#define MOLEMOLE_UICOOPCLUELEVELTHEMETABWIDGETCONTROLLER_DATAPROXY___C__DISPLAYCLASS3_0__ONCREATEPROPERTY_B__1_OFFSET UNITYSDK_OFFSET(0x1869D830)
+#define MOLEMOLE_UICOOPCLUELEVELTHEMETABWIDGETCONTROLLER_DATAPROXY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184A41A0)
+#define MOLEMOLE_UICOOPCLUELEVELTHEMETABWIDGETCONTROLLER_DATAPROXY___C__DISPLAYCLASS3_0__ONCREATEPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x184A41B0)
+#define MOLEMOLE_UICOOPCLUELEVELTHEMETABWIDGETCONTROLLER_DATAPROXY___C__DISPLAYCLASS3_0__ONCREATEPROPERTY_B__1_OFFSET UNITYSDK_OFFSET(0x184A4300)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopClueLevelThemeTabWidgetController_DataProxy___c__DisplayClass3_0_TypeDefinitionIndex = 81322;
+	inline static constexpr unsigned int UICoopClueLevelThemeTabWidgetController_DataProxy___c__DisplayClass3_0_TypeDefinitionIndex = 74514;
 
 	class UICoopClueLevelThemeTabWidgetController_DataProxy___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UICoopClueLevelThemeTabWidgetController_DataProxy* __4__this; // 0x10
-		::Class_2_208CC9941471731A_126* constValueConfig; // 0x18
+		::DONFCCJNHMI* constValueConfig; // 0x18
 
 		::System::Void _ctor()
 		{

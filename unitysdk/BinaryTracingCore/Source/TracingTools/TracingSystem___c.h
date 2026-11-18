@@ -5,24 +5,24 @@
 namespace BinaryTracingFramework::Serialize { class ISerializableObject; }
 namespace System { template <typename T> class Action_1; }
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_TRACINGSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F653B90)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_TRACINGSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F653BD0)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_TRACINGSYSTEM___C__PUSHCURBLOCK_B__19_0_OFFSET UNITYSDK_OFFSET(0x1F653BE0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_TRACINGSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA363A0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_TRACINGSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA363E0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_TRACINGSYSTEM___C__PUSHCURBLOCK_B__19_0_OFFSET UNITYSDK_OFFSET(0x1FA363F0)
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int TracingSystem___c_TypeDefinitionIndex = 34601;
+	inline static constexpr unsigned int TracingSystem___c_TypeDefinitionIndex = 34147;
 
 	class TracingSystem___c : public ::System::Object
 	{
 	public:
-		static ::BinaryTracingCore::Source::TracingTools::TracingSystem___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::BinaryTracingCore::Source::TracingTools::TracingSystem___c**)Il2CppClass::FromTypeDefinitionIndex(TracingSystem___c_TypeDefinitionIndex)->GetStaticField(0x28EF0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TracingSystem___c_TypeDefinitionIndex)->GetStaticField(0x2A130);
 		}
 		static ::System::Action_1<::BinaryTracingFramework::Serialize::ISerializableObject*>** StaticGet___9__19_0()
 		{
-			return (::System::Action_1<::BinaryTracingFramework::Serialize::ISerializableObject*>**)Il2CppClass::FromTypeDefinitionIndex(TracingSystem___c_TypeDefinitionIndex)->GetStaticField(0x28EF8);
+			return (::System::Action_1<::BinaryTracingFramework::Serialize::ISerializableObject*>**)Il2CppClass::FromTypeDefinitionIndex(TracingSystem___c_TypeDefinitionIndex)->GetStaticField(0x2A138);
 		}
 
 		static ::System::Void _cctor()

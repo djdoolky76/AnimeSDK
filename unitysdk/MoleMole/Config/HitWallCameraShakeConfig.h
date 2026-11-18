@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/System/Object.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B7FDB80)
-#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1B7FDDB0)
-#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B7FDBE0)
-#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B7FDE30)
-#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FE160)
+#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x192B1620)
+#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_FROMFLX_OFFSET UNITYSDK_OFFSET(0x192B1850)
+#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x192B1680)
+#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x192B18D0)
+#define MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192B1C00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HitWallCameraShakeConfig_TypeDefinitionIndex = 74207;
+	inline static constexpr unsigned int HitWallCameraShakeConfig_TypeDefinitionIndex = 69070;
 
 	class HitWallCameraShakeConfig : public ::System::Object
 	{
@@ -28,14 +28,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HITWALLCAMERASHAKECONFIG_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)

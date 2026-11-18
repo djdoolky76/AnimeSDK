@@ -4,17 +4,18 @@
 
 namespace MiHoYo::SDK { class AccountPlatABTestInfo; }
 
-#define MIHOYO_SDK_ACCOUNTPLATCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF1C660)
+#define MIHOYO_SDK_ACCOUNTPLATCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D320860)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatConfig_TypeDefinitionIndex = 20013;
+	inline static constexpr unsigned int AccountPlatConfig_TypeDefinitionIndex = 19159;
 
 	class AccountPlatConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean default_account_platform; // 0x10
 		::System::Boolean default_new_user_center; // 0x11
+		::System::Byte _padding0[0x6];
 		::MiHoYo::SDK::AccountPlatABTestInfo* abtest; // 0x18
 
 		::System::Void _ctor()

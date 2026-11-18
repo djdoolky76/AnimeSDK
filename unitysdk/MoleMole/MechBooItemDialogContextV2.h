@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/MechBooItemDialogContext.h"
 
-class Class_2_134E5210FBBAC6E5;
+class ADEJAGFCBHK;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV2_GETPARTBUILDLIST_OFFSET UNITYSDK_OFFSET(0x13A957D0)
-#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV2_OVERRIDETABTITLE_OFFSET UNITYSDK_OFFSET(0x13A958F0)
-#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV2__CTOR_OFFSET UNITYSDK_OFFSET(0x13A95A30)
+#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV2_GETPARTBUILDLIST_OFFSET UNITYSDK_OFFSET(0x14672480)
+#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV2_OVERRIDETABTITLE_OFFSET UNITYSDK_OFFSET(0x146725A0)
+#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV2__CTOR_OFFSET UNITYSDK_OFFSET(0x146726E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MechBooItemDialogContextV2_TypeDefinitionIndex = 58850;
+	inline static constexpr unsigned int MechBooItemDialogContextV2_TypeDefinitionIndex = 88338;
 
 	class MechBooItemDialogContextV2 : public ::MoleMole::MechBooItemDialogContext
 	{
@@ -26,9 +26,9 @@ namespace MoleMole
 			return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV2_GETPARTBUILDLIST_OFFSET))(this, tabId);
 		}
 
-		::System::Void OverrideTabTitle(::System::Int32 tabId, ::Class_2_134E5210FBBAC6E5* tab)
+		::System::Void OverrideTabTitle(::System::Int32 tabId, ::ADEJAGFCBHK* tab)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Class_2_134E5210FBBAC6E5*))((::PBYTE)hIl2Cpp + MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV2_OVERRIDETABTITLE_OFFSET))(this, tabId, tab);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::ADEJAGFCBHK*))((::PBYTE)hIl2Cpp + MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV2_OVERRIDETABTITLE_OFFSET))(this, tabId, tab);
 		}
 	};
 }

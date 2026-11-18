@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIInLevel_BattleInfo_WithProgress_WidgetController.h"
 
-#define MOLEMOLE_UIINLEVEL_PUREBATTLE_BATTLEINFO_WITHPROGRESS_WIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1830E770)
+#define MOLEMOLE_UIINLEVEL_PUREBATTLE_BATTLEINFO_WITHPROGRESS_WIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x183CF2C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevel_PureBattle_BattleInfo_WithProgress_WidgetController_TypeDefinitionIndex = 71550;
+	inline static constexpr unsigned int UIInLevel_PureBattle_BattleInfo_WithProgress_WidgetController_TypeDefinitionIndex = 43024;
 
 	class UIInLevel_PureBattle_BattleInfo_WithProgress_WidgetController : public ::MoleMole::UIInLevel_BattleInfo_WithProgress_WidgetController
 	{

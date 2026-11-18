@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
-#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
+#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ComputeBuffer; }
@@ -15,36 +15,35 @@ namespace UnityEngine::Rendering::Universal::Internal { class CpuFloatParams; }
 namespace UnityEngine::Rendering::Universal::Internal { class CpuVector4Params; }
 namespace UnityEngine::Rendering::Universal::Internal { class ICpuParams; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CEE2870)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CEE5960)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEE5A10)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE2460)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CEE5A80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D272FA0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D276370)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D276420)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D272BE0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PEROBJECTSHADOWPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D276490)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PerObjectShadowPass_TypeDefinitionIndex = 27527;
+	inline static constexpr unsigned int PerObjectShadowPass_TypeDefinitionIndex = 27304;
 
 	class PerObjectShadowPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::UnityEngine::ComputeBuffer** StaticGet_dummyUAV()
 		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x22CB0);
+			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x23C90);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector4>** StaticGet_dummyUAVData()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x22CB8);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowPass_TypeDefinitionIndex)->GetStaticField(0x23C98);
 		}
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* profilingSampler; // 0xA8
-		::UnityEngine::Rendering::Universal::Internal::CpuFloatParams* PerObjectShadowDepthBias; // 0xB0
-		::UnityEngine::Rendering::Universal::Internal::CpuFloatParams* PerObjectShadowOptimizeBias; // 0xB8
-		::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* PerObjectShadowPassOffsetWS; // 0xC0
-		::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* ShadowPartsIDs; // 0xC8
-		::UnityEngine::Rendering::Universal::Internal::CpuFloatParams* PerObjectShadowTargetIndex; // 0xD0
-		::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* PerObjectShadowAtlasSize; // 0xD8
-		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::ICpuParams*>* m_CpuParamsList; // 0xE0
-		::UnityEngine::Rendering::Universal::Internal::CpuFloatParams* PerObjectShadowFade; // 0xE8
+		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::Internal::ICpuParams*>* m_CpuParamsList; // 0xA8
+		::UnityEngine::Rendering::Universal::Internal::CpuFloatParams* PerObjectShadowTargetIndex; // 0xB0
+		::UnityEngine::Rendering::Universal::Internal::CpuFloatParams* PerObjectShadowDepthBias; // 0xB8
+		::UnityEngine::Rendering::Universal::Internal::CpuFloatParams* PerObjectShadowOptimizeBias; // 0xC0
+		::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* PerObjectShadowAtlasSize; // 0xC8
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* profilingSampler; // 0xD0
+		::UnityEngine::Rendering::Universal::Internal::CpuFloatParams* PerObjectShadowFade; // 0xD8
+		::UnityEngine::Rendering::Universal::Internal::CpuVector4Params* PerObjectShadowPassOffsetWS; // 0xE0
 
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent renderPassEvent)
 		{

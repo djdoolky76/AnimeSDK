@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F1A16F0)
-#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1F1A1870)
-#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1A1940)
+#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F595D10)
+#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1F595E90)
+#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F595F60)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int SceneMaterialRecorderTrack_TypeDefinitionIndex = 32831;
+	inline static constexpr unsigned int SceneMaterialRecorderTrack_TypeDefinitionIndex = 32282;
 
 	class SceneMaterialRecorderTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

@@ -3,17 +3,18 @@
 #include "unitysdk/CriWare/CriAtomEx_Randomize3dCalcType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_CLEARCALCPARAMS_OFFSET UNITYSDK_OFFSET(0xAB6200)
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GET_CALCULATIONTYPE_OFFSET UNITYSDK_OFFSET(0x424ED0)
-#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB6170)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_CLEARCALCPARAMS_OFFSET UNITYSDK_OFFSET(0x99C970)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG_GET_CALCULATIONTYPE_OFFSET UNITYSDK_OFFSET(0x3CE9E0)
+#define CRIWARE_CRIATOMEX_RANDOMIZE3DCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x99C8E0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_Randomize3dConfig_TypeDefinitionIndex = 34911;
+	inline static constexpr unsigned int CriAtomEx_Randomize3dConfig_TypeDefinitionIndex = 34460;
 
 	struct alignas(8) CriAtomEx_Randomize3dConfig
 	{
 		::System::Boolean followsOriginalSource; // 0x10
+		::System::Byte _padding0[0x3];
 		::CriWare::CriAtomEx_Randomize3dCalcType calculationType; // 0x14
 		::Il2CppArray<::System::Single>* calculationParameters; // 0x18
 

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MaterialPropertyBlockPreview_MPBPreviewItemType_TypeDefinitionIndex = 27555;
+inline static constexpr unsigned int MaterialPropertyBlockPreview_MPBPreviewItemType_TypeDefinitionIndex = 26271;
 
 enum class MaterialPropertyBlockPreview_MPBPreviewItemType : ::System::Int32
 {

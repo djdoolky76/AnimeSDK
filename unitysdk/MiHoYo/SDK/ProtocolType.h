@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolType_TypeDefinitionIndex = 20218;
+	inline static constexpr unsigned int ProtocolType_TypeDefinitionIndex = 19364;
 
 	enum class ProtocolType : ::System::Int32
 	{

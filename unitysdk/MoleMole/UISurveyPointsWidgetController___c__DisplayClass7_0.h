@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1AF3C5BF111F3525;
-class Class_1_E398E2F4402CE967;
+class DKNANPCGMLK;
+class GMBDKAPICHA;
 namespace MoleMole { class UISurveyPointsWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19152D50)
-#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__4_OFFSET UNITYSDK_OFFSET(0x19152D60)
-#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__6_OFFSET UNITYSDK_OFFSET(0x191531D0)
-#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_G__ONPROGRESS_0_OFFSET UNITYSDK_OFFSET(0x19152FB0)
+#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185CECC0)
+#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__4_OFFSET UNITYSDK_OFFSET(0x185CECD0)
+#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__6_OFFSET UNITYSDK_OFFSET(0x185CF140)
+#define MOLEMOLE_UISURVEYPOINTSWIDGETCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_G__ONPROGRESS_0_OFFSET UNITYSDK_OFFSET(0x185CEF20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISurveyPointsWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 76741;
+	inline static constexpr unsigned int UISurveyPointsWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 77133;
 
 	class UISurveyPointsWidgetController___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UISurveyPointsWidgetController* __4__this; // 0x10
-		::Class_1_E398E2F4402CE967* data; // 0x18
-		::System::Action* __9__6; // 0x20
-		::Class_1_1AF3C5BF111F3525* viewdata; // 0x28
+		::DKNANPCGMLK* viewdata; // 0x10
+		::System::Action* __9__6; // 0x18
+		::MoleMole::UISurveyPointsWidgetController* __4__this; // 0x20
+		::GMBDKAPICHA* data; // 0x28
 		::System::Single timer; // 0x30
 		::System::Int32 newLevel; // 0x34
 

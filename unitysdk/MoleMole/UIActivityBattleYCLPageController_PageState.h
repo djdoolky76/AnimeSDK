@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBattleYCLPageController_PageState_TypeDefinitionIndex = 65931;
+	inline static constexpr unsigned int UIActivityBattleYCLPageController_PageState_TypeDefinitionIndex = 59298;
 
 	enum class UIActivityBattleYCLPageController_PageState : ::System::Int32
 	{
+		LevelList = 1,
 		LevelInfo = 2,
 		None = 0,
-		LevelList = 1,
 	};
 }

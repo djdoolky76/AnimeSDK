@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EKOMAFPIPMA_DLEMODNFGIJ.h"
+#include "unitysdk/NFGCINKPCNE.h"
+#include "unitysdk/System/Object.h"
+
+class EKOMAFPIPMA_DKCFBCFGADG;
+
+#define EKOMAFPIPMA_KPNJMFDDFJB__CTOR_1_OFFSET UNITYSDK_OFFSET(0x158B99A0)
+#define EKOMAFPIPMA_KPNJMFDDFJB__CTOR_OFFSET UNITYSDK_OFFSET(0x158B9870)
+
+inline static constexpr unsigned int EKOMAFPIPMA_KPNJMFDDFJB_TypeDefinitionIndex = 62759;
+
+class EKOMAFPIPMA_KPNJMFDDFJB : public ::System::Object
+{
+public:
+	::EKOMAFPIPMA_DKCFBCFGADG* BGPBINIJKCK; // 0x10
+	::System::Int32 JNHBBKLLFNH; // 0x18
+	::NFGCINKPCNE DMJBFBDLKIN; // 0x1C
+	::EKOMAFPIPMA_DLEMODNFGIJ KCAAHHAOKLC; // 0x20
+
+	::System::Void _ctor(::System::Int32 CLACNEMIOBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + EKOMAFPIPMA_KPNJMFDDFJB__CTOR_OFFSET))(this, CLACNEMIOBA);
+	}
+
+	::System::Void _ctor_1(::EKOMAFPIPMA_DLEMODNFGIJ KCAAHHAOKLC, ::EKOMAFPIPMA_DKCFBCFGADG* BGPBINIJKCK)
+	{
+		return ((::System::Void(*)(::PVOID, ::EKOMAFPIPMA_DLEMODNFGIJ, ::EKOMAFPIPMA_DKCFBCFGADG*))((::PBYTE)hIl2Cpp + EKOMAFPIPMA_KPNJMFDDFJB__CTOR_1_OFFSET))(this, KCAAHHAOKLC, BGPBINIJKCK);
+	}
+};

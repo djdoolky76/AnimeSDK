@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
-#include "unitysdk/MoleMole/ConfigUICoopTeam3D_CameraConfigEnum.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace MoleMole { class ConfigUICoopTeam3D_AvatarConfig; }
 namespace MoleMole { class ConfigUICoopTeam3D_CameraConfig; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_GETPOSITIONBYAVARTARIDANDSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1B9353F0)
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_GETSCENECAMERACONFIGBYAVARTARID_OFFSET UNITYSDK_OFFSET(0x1B9355A0)
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_GETYROTATIONBYAVARTARIDANDSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1B935290)
-#define MOLEMOLE_CONFIGUICOOPTEAM3D__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9356F0)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_GETPOSITIONBYAVARTARIDANDSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x103E3F10)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_GETSCENECAMERACONFIGBYAVARTARID_OFFSET UNITYSDK_OFFSET(0x103E40C0)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_GETYROTATIONBYAVARTARIDANDSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x103E3DB0)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D__CTOR_OFFSET UNITYSDK_OFFSET(0x103E4210)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICoopTeam3D_TypeDefinitionIndex = 47594;
+	inline static constexpr unsigned int ConfigUICoopTeam3D_TypeDefinitionIndex = 54374;
 
 	class ConfigUICoopTeam3D : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::MoleMole::ConfigUICoopTeam3D_CameraConfigEnum, ::MoleMole::ConfigUICoopTeam3D_CameraConfig*>* CameraConfigs; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigUICoopTeam3D_AvatarConfig*>* AvatarConfigs; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* CameraConfigs; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* AvatarConfigs; // 0x60
 
 		::System::Void _ctor()
 		{

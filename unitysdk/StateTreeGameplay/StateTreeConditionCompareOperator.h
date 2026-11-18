@@ -3,15 +3,15 @@
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int StateTreeConditionCompareOperator_TypeDefinitionIndex = 84737;
+	inline static constexpr unsigned int StateTreeConditionCompareOperator_TypeDefinitionIndex = 51401;
 
 	enum class StateTreeConditionCompareOperator : ::System::Byte
 	{
-		Less = 0x0,
-		Greater = 0x5,
-		NotEqual = 0x3,
-		LessOrEqual = 0x1,
-		GreaterOrEqual = 0x4,
-		Equal = 0x2,
+		LessOrEqual = 1,
+		Equal = 2,
+		GreaterOrEqual = 4,
+		NotEqual = 3,
+		Less = 0,
+		Greater = 5,
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageTickData_TypeDefinitionIndex = 49923;
+	inline static constexpr unsigned int MontageTickData_TypeDefinitionIndex = 82821;
 
 	struct alignas(4) MontageTickData
 	{
@@ -16,6 +16,7 @@ namespace NPCCrowd::Animation
 		::System::Single layerLength; // 0x24
 		::System::Single layerPlaySpeed; // 0x28
 		::System::Boolean layerIsLoop; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::Int32 sourceMontageKey; // 0x30
 		::System::Int32 sourcePriorityLayer; // 0x34
 	};

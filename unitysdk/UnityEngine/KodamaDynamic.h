@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Component.h"
 
-#define UNITYENGINE_KODAMADYNAMIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5E980)
+#define UNITYENGINE_KODAMADYNAMIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED9B1C0)
 
 namespace UnityEngine
 {

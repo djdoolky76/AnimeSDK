@@ -3,13 +3,11 @@
 #include "unitysdk/System/Object.h"
 
 namespace Dest::Math { class Rand; }
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ShuffleBag_1_TypeDefinitionIndex = 35467;
+	inline static constexpr unsigned int ShuffleBag_1_TypeDefinitionIndex = 35040;
 
 	template <typename T>
 	class ShuffleBag_1 : public ::System::Object

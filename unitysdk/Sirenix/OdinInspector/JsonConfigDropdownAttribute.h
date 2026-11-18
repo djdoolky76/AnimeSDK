@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_JSONCONFIGDROPDOWNATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F69A800)
+#define SIRENIX_ODININSPECTOR_JSONCONFIGDROPDOWNATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3AC100)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int JsonConfigDropdownAttribute_TypeDefinitionIndex = 7900;
+	inline static constexpr unsigned int JsonConfigDropdownAttribute_TypeDefinitionIndex = 7863;
 
 	class JsonConfigDropdownAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* JsonConfigName; // 0x10
-		::System::String* FunctionName; // 0x18
-		::System::String* FieldName; // 0x20
+		::System::String* FieldName; // 0x18
+		::System::String* FunctionName; // 0x20
 
 		::System::Void _ctor(::System::String* JsonConfigName, ::System::String* DescFieldName, ::System::String* DescCustomGetter)
 		{

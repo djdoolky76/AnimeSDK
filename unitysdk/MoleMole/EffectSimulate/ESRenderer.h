@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/EffectSimulate/IEffectSimulate.h"
 
-#define MOLEMOLE_EFFECTSIMULATE_ESRENDERER_METHOD_2_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0x1BDAC100)
-#define MOLEMOLE_EFFECTSIMULATE_ESRENDERER_METHOD_2_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1BDAC0A0)
-#define MOLEMOLE_EFFECTSIMULATE_ESRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDAC0E0)
+#define MOLEMOLE_EFFECTSIMULATE_ESRENDERER_ENLHJJEFIAJ_OFFSET UNITYSDK_OFFSET(0x1243FDD0)
+#define MOLEMOLE_EFFECTSIMULATE_ESRENDERER_KDCHBGOMCMG_OFFSET UNITYSDK_OFFSET(0x1243FE30)
+#define MOLEMOLE_EFFECTSIMULATE_ESRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1243FE10)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESRenderer_TypeDefinitionIndex = 54194;
+	inline static constexpr unsigned int ESRenderer_TypeDefinitionIndex = 47634;
 
 	class ESRenderer : public ::MoleMole::EffectSimulate::IEffectSimulate
 	{
@@ -18,14 +18,14 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESRENDERER__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_391A84BCD9F51317()
+		::System::Boolean ENLHJJEFIAJ()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESRENDERER_METHOD_2_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESRENDERER_ENLHJJEFIAJ_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_391A84BCD9F51317_1()
+		::System::Boolean KDCHBGOMCMG()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESRENDERER_METHOD_2_391A84BCD9F51317_1_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESRENDERER_KDCHBGOMCMG_OFFSET))(this);
 		}
 	};
 }

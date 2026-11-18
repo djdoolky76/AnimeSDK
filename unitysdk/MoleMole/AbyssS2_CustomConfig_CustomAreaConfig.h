@@ -5,22 +5,25 @@
 namespace MoleMole::Project::Config { class AbyssS2AreaConfigTemplateExt; }
 namespace Sirenix::OdinInspector { template <typename T> class ValueDropdownList_1; }
 
-#define MOLEMOLE_ABYSSS2_CUSTOMCONFIG_CUSTOMAREACONFIG_GETALLAREACONFIG_OFFSET UNITYSDK_OFFSET(0x856C20)
-#define MOLEMOLE_ABYSSS2_CUSTOMCONFIG_CUSTOMAREACONFIG_GETALLSCENE_OFFSET UNITYSDK_OFFSET(0x16C0A5B0)
-#define MOLEMOLE_ABYSSS2_CUSTOMCONFIG_CUSTOMAREACONFIG_REFRESH_OFFSET UNITYSDK_OFFSET(0x856C10)
+#define MOLEMOLE_ABYSSS2_CUSTOMCONFIG_CUSTOMAREACONFIG_GETALLAREACONFIG_OFFSET UNITYSDK_OFFSET(0x7D3DC0)
+#define MOLEMOLE_ABYSSS2_CUSTOMCONFIG_CUSTOMAREACONFIG_GETALLSCENE_OFFSET UNITYSDK_OFFSET(0x18B62080)
+#define MOLEMOLE_ABYSSS2_CUSTOMCONFIG_CUSTOMAREACONFIG_REFRESH_OFFSET UNITYSDK_OFFSET(0x7D3DB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_CustomConfig_CustomAreaConfig_TypeDefinitionIndex = 87606;
+	inline static constexpr unsigned int AbyssS2_CustomConfig_CustomAreaConfig_TypeDefinitionIndex = 93063;
 
 	struct alignas(8) AbyssS2_CustomConfig_CustomAreaConfig
 	{
 		::System::Int32 AreaID; // 0x10
 		::System::Boolean isSpecifyAreaIndex; // 0x14
+		::System::Byte _padding0[0x3];
 		::System::Int32 areaConfigIndex; // 0x18
+		::System::Byte _padding1[0x4];
 		::MoleMole::Project::Config::AbyssS2AreaConfigTemplateExt* finalAreaConfig; // 0x20
 		::Il2CppArray<::System::Int32>* suddenEventList; // 0x28
 		::System::Boolean isSpecifyScene; // 0x30
+		::System::Byte _padding2[0x3];
 		::System::Int32 sceneIndex; // 0x34
 		::System::Int32 totalCount; // 0x38
 

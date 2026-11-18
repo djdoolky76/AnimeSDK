@@ -4,10 +4,10 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeFlatStorage_4_TypeDefinitionIndex = 8642;
+	inline static constexpr unsigned int NativeFlatStorage_4_TypeDefinitionIndex = 9039;
 
-	template <typename TUserData, typename T1, typename T2, typename TPointer>
-	struct NativeFlatStorage_4
+	template <typename T1, typename T2, typename T3, typename T4>
+	struct alignas(8) NativeFlatStorage_4
 	{
 		static ::System::Int64* StaticGet_ElementOffset()
 		{
@@ -21,6 +21,6 @@ namespace Foundation::Container
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NativeFlatStorage_4_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		TPointer _pointer; // 0x0
+		T1 _pointer; // 0x0
 	};
 }

@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIMonoController.h"
 
-class Class_2_208CC9941471731A_1187;
+class MCDDIIPEIPP;
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_UIVIDEOINFOPROPERTYSINGLEITEMWIDGET_SETDATA_OFFSET UNITYSDK_OFFSET(0x140DB410)
-#define MOLEMOLE_UIVIDEOINFOPROPERTYSINGLEITEMWIDGET__CTOR_OFFSET UNITYSDK_OFFSET(0x140DB690)
+#define MOLEMOLE_UIVIDEOINFOPROPERTYSINGLEITEMWIDGET_SETDATA_OFFSET UNITYSDK_OFFSET(0x17196CD0)
+#define MOLEMOLE_UIVIDEOINFOPROPERTYSINGLEITEMWIDGET__CTOR_OFFSET UNITYSDK_OFFSET(0x17196F50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoInfoPropertySingleItemWidget_TypeDefinitionIndex = 73929;
+	inline static constexpr unsigned int UIVideoInfoPropertySingleItemWidget_TypeDefinitionIndex = 57217;
 
 	class UIVideoInfoPropertySingleItemWidget : public ::MoleMole::UIMonoController
 	{
 	public:
-		::Class_2_208CC9941471731A_1187* m_cfg; // 0x80
+		::MCDDIIPEIPP* m_cfg; // 0x80
 		::UnityEngine::UI::Image* m_icon; // 0x88
 		::UnityEngine::GameObject* m_bg; // 0x90
 		::UnityEngine::GameObject* m_empty; // 0x98
@@ -28,9 +28,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIDEOINFOPROPERTYSINGLEITEMWIDGET__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetData(::Class_2_208CC9941471731A_1187* cfg)
+		::System::Void SetData(::MCDDIIPEIPP* cfg)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_1187*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIDEOINFOPROPERTYSINGLEITEMWIDGET_SETDATA_OFFSET))(this, cfg);
+			return ((::System::Void(*)(::PVOID, ::MCDDIIPEIPP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIVIDEOINFOPROPERTYSINGLEITEMWIDGET_SETDATA_OFFSET))(this, cfg);
 		}
 	};
 }

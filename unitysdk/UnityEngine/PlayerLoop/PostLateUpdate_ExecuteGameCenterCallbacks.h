@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ExecuteGameCenterCallbacks_TypeDefinitionIndex = 5663;
+	inline static constexpr unsigned int PostLateUpdate_ExecuteGameCenterCallbacks_TypeDefinitionIndex = 5667;
 
-	struct alignas(1) PostLateUpdate_ExecuteGameCenterCallbacks
+	struct alignas(4) PostLateUpdate_ExecuteGameCenterCallbacks
 	{
 	};
 }

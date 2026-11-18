@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int DtdParser_Token_TypeDefinitionIndex = 1801;
+	inline static constexpr unsigned int DtdParser_Token_TypeDefinitionIndex = 1800;
 
 	enum class DtdParser_Token : ::System::Int32
 	{

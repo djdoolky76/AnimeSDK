@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_SHOWLAYERRESULT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x149E5A30)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_SHOWLAYERRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x149E5B10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_SHOWLAYERRESULT__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x149E5B50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_SHOWLAYERRESULT__REGISTERPORTS_B__2_1_OFFSET UNITYSDK_OFFSET(0x149E5D30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_SHOWLAYERRESULT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x130D5B00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_SHOWLAYERRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x130D5BE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_SHOWLAYERRESULT__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x130D5C20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_SHOWLAYERRESULT__REGISTERPORTS_B__2_1_OFFSET UNITYSDK_OFFSET(0x130D5E00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_ShowLayerResult_TypeDefinitionIndex = 77328;
+	inline static constexpr unsigned int LD_AbyssS2_ShowLayerResult_TypeDefinitionIndex = 78673;
 
 	class LD_AbyssS2_ShowLayerResult : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _output; // 0xA8
-		::FlowCanvas::FlowOutput* _finish; // 0xB0
+		::FlowCanvas::FlowOutput* _finish; // 0xA8
+		::FlowCanvas::FlowOutput* _output; // 0xB0
 
 		::System::Void _ctor()
 		{

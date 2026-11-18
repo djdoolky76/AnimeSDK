@@ -1,39 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 
 class HueAndSaturationGroup;
 class MonoHollowResultPageConfig;
 class MonoHollowResultPageConfig_BlinkConfigInfo;
 class NumberBlinkConfig;
-namespace MoleMole { class UIHollowChessPieceResult3DModelController; }
 namespace MoleMole { class UIHollowChessboardResult3DModelController_RandomNumberSwitcher; }
 
-#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER_DONUMBERBLINKASYNC_OFFSET UNITYSDK_OFFSET(0x19F10070)
-#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER_GETBLINKMATRIXCONFIG_OFFSET UNITYSDK_OFFSET(0x19F10A20)
-#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER_NUMBERBLINK_OFFSET UNITYSDK_OFFSET(0x19F10140)
-#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER_SHOWNUMBER_OFFSET UNITYSDK_OFFSET(0x19F103F0)
-#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER_SWITCHANDSHOWNUMBER_OFFSET UNITYSDK_OFFSET(0x19F10240)
-#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F0FF80)
+#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER_DONUMBERBLINKASYNC_OFFSET UNITYSDK_OFFSET(0x1A400A00)
+#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER_GETBLINKMATRIXCONFIG_OFFSET UNITYSDK_OFFSET(0x1A4013B0)
+#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER_NUMBERBLINK_OFFSET UNITYSDK_OFFSET(0x1A400AD0)
+#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER_SHOWNUMBER_OFFSET UNITYSDK_OFFSET(0x1A400D80)
+#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER_SWITCHANDSHOWNUMBER_OFFSET UNITYSDK_OFFSET(0x1A400BD0)
+#define MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A400910)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowChessboardResult3DModelController_NumberBlinker_TypeDefinitionIndex = 49223;
+	inline static constexpr unsigned int UIHollowChessboardResult3DModelController_NumberBlinker_TypeDefinitionIndex = 72983;
 
 	class UIHollowChessboardResult3DModelController_NumberBlinker : public ::System::Object
 	{
 	public:
-		::MonoHollowResultPageConfig* _config; // 0x10
-		::MoleMole::UIHollowChessboardResult3DModelController_RandomNumberSwitcher* _numberSwitcher; // 0x18
-		::Il2CppArray<::MoleMole::UIHollowChessPieceResult3DModelController*>* _chessPieceCtrlGrid; // 0x20
+		::MoleMole::UIHollowChessboardResult3DModelController_RandomNumberSwitcher* _numberSwitcher; // 0x10
+		::MonoHollowResultPageConfig* _config; // 0x18
+		::System::Object* _chessPieceCtrlGrid; // 0x20
 		::System::Int32 _configCol; // 0x28
 		::System::Int32 _configRow; // 0x2C
 
-		::System::Void _ctor(::MonoHollowResultPageConfig* config, ::System::Int32 configRow, ::System::Int32 configCol, ::Il2CppArray<::MoleMole::UIHollowChessPieceResult3DModelController*>* chessPieceCtrlGrid)
+		::System::Void _ctor(::MonoHollowResultPageConfig* config, ::System::Int32 configRow, ::System::Int32 configCol, ::System::Object* chessPieceCtrlGrid)
 		{
-			return ((::System::Void(*)(::PVOID, ::MonoHollowResultPageConfig*, ::System::Int32, ::System::Int32, ::Il2CppArray<::MoleMole::UIHollowChessPieceResult3DModelController*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER__CTOR_OFFSET))(this, config, configRow, configCol, chessPieceCtrlGrid);
+			return ((::System::Void(*)(::PVOID, ::MonoHollowResultPageConfig*, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWCHESSBOARDRESULT3DMODELCONTROLLER_NUMBERBLINKER__CTOR_OFFSET))(this, config, configRow, configCol, chessPieceCtrlGrid);
 		}
 
 		::Cysharp::Threading::Tasks::UniTask DoNumberBlinkAsync(::System::Int32 leftNumber, ::System::Int32 rightNumber, ::System::Threading::CancellationToken cancellationToken)

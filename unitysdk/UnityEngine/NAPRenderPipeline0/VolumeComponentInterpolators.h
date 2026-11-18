@@ -4,19 +4,19 @@
 
 namespace UnityEngine::NAPRenderPipeline0 { class VolumeDataInterpolatorFunc; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMECOMPONENTINTERPOLATORS_REGISTERINTERPOLATORFUNCTION_OFFSET UNITYSDK_OFFSET(0x1EA5EC50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMECOMPONENTINTERPOLATORS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA63A00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMECOMPONENTINTERPOLATORS_REGISTERINTERPOLATORFUNCTION_OFFSET UNITYSDK_OFFSET(0x1ED9B490)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMECOMPONENTINTERPOLATORS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDA0240)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int VolumeComponentInterpolators_TypeDefinitionIndex = 6069;
+	inline static constexpr unsigned int VolumeComponentInterpolators_TypeDefinitionIndex = 6077;
 
 	class VolumeComponentInterpolators : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::NAPRenderPipeline0::VolumeDataInterpolatorFunc*>** StaticGet_ComponentInterpolators()
 		{
-			return (::Il2CppArray<::UnityEngine::NAPRenderPipeline0::VolumeDataInterpolatorFunc*>**)Il2CppClass::FromTypeDefinitionIndex(VolumeComponentInterpolators_TypeDefinitionIndex)->GetStaticField(0x4F00);
+			return (::Il2CppArray<::UnityEngine::NAPRenderPipeline0::VolumeDataInterpolatorFunc*>**)Il2CppClass::FromTypeDefinitionIndex(VolumeComponentInterpolators_TypeDefinitionIndex)->GetStaticField(0x4E20);
 		}
 
 		static ::System::Void _cctor()

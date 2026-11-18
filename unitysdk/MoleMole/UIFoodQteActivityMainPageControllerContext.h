@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIFOODQTEACTIVITYMAINPAGECONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x172E06C0)
+#define MOLEMOLE_UIFOODQTEACTIVITYMAINPAGECONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x173BC120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFoodQteActivityMainPageControllerContext_TypeDefinitionIndex = 57921;
+	inline static constexpr unsigned int UIFoodQteActivityMainPageControllerContext_TypeDefinitionIndex = 81056;
 
 	class UIFoodQteActivityMainPageControllerContext : public ::MoleMole::UIControllerContextBase
 	{

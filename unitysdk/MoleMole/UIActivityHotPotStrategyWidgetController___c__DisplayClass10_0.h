@@ -5,12 +5,12 @@
 namespace MoleMole { class UIActivityHotPotStrategyWidgetController; }
 namespace MoleMole { class UIActivityHotPotStrategyWidgetController_Data; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTSTRATEGYWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x192DC380)
-#define MOLEMOLE_UIACTIVITYHOTPOTSTRATEGYWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x192DC390)
+#define MOLEMOLE_UIACTIVITYHOTPOTSTRATEGYWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B92630)
+#define MOLEMOLE_UIACTIVITYHOTPOTSTRATEGYWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x19B92640)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotStrategyWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 45118;
+	inline static constexpr unsigned int UIActivityHotPotStrategyWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 78812;
 
 	class UIActivityHotPotStrategyWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{

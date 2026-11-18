@@ -5,35 +5,36 @@
 #include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_28F0414D4F296993;
-class Class_1_66C4D81440373C6E;
+class BFLPANDDGHG;
+class IFLPGOKHDJI;
 namespace System { class String; }
 
-#define FOUNDATION_VIEWOBJECT_STRUCTURES_FENTITYHPCHANGEACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x113EE3D0)
-#define FOUNDATION_VIEWOBJECT_STRUCTURES_FENTITYHPCHANGEACTION_GET_ISTRIGGERED_OFFSET UNITYSDK_OFFSET(0x113EDFB0)
-#define FOUNDATION_VIEWOBJECT_STRUCTURES_FENTITYHPCHANGEACTION_ONFIGHTER_PROPERTYVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x113EDFC0)
-#define FOUNDATION_VIEWOBJECT_STRUCTURES_FENTITYHPCHANGEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x113EDE50)
+#define FOUNDATION_VIEWOBJECT_STRUCTURES_FENTITYHPCHANGEACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB7BDF0)
+#define FOUNDATION_VIEWOBJECT_STRUCTURES_FENTITYHPCHANGEACTION_GET_ISTRIGGERED_OFFSET UNITYSDK_OFFSET(0xBB7B9E0)
+#define FOUNDATION_VIEWOBJECT_STRUCTURES_FENTITYHPCHANGEACTION_ONFIGHTER_PROPERTYVALUECHANGED_OFFSET UNITYSDK_OFFSET(0xBB7B9F0)
+#define FOUNDATION_VIEWOBJECT_STRUCTURES_FENTITYHPCHANGEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xBB7B880)
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FEntityHPChangeAction_TypeDefinitionIndex = 82361;
+	inline static constexpr unsigned int FEntityHPChangeAction_TypeDefinitionIndex = 82422;
 
 	class FEntityHPChangeAction : public ::System::Object
 	{
 	public:
 		// static const ::System::Single MinHpNotifyDeltaRatio; // 0x0
-		::System::String* Name; // 0x10
-		::Class_1_28F0414D4F296993* Graph; // 0x18
-		::MoleMole::EntityHandle EntityHandle; // 0x20
-		::Foundation::ViewObject::ViewObjectHandle GroupHandle; // 0x30
-		::Class_1_66C4D81440373C6E* _fighter; // 0x40
-		::System::Int32 ListenType; // 0x48
+		::MoleMole::EntityHandle EntityHandle; // 0x10
+		::BFLPANDDGHG* _fighter; // 0x20
+		::Foundation::ViewObject::ViewObjectHandle GroupHandle; // 0x28
+		::System::String* Name; // 0x38
+		::IFLPGOKHDJI* Graph; // 0x40
+		::System::Boolean _triggered; // 0x48
+		::System::Byte _padding0[0x3];
 		::System::Single ListenValue; // 0x4C
-		::System::Boolean _triggered; // 0x50
+		::System::Int32 ListenType; // 0x50
 
-		::System::Void _ctor(::System::String* name, ::MoleMole::EntityHandle entityHandle, ::System::Int32 listenType, ::System::Single listenValue, ::Class_1_28F0414D4F296993* graph, ::Foundation::ViewObject::ViewObjectHandle groupHandle)
+		::System::Void _ctor(::System::String* name, ::MoleMole::EntityHandle entityHandle, ::System::Int32 listenType, ::System::Single listenValue, ::IFLPGOKHDJI* graph, ::Foundation::ViewObject::ViewObjectHandle groupHandle)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MoleMole::EntityHandle, ::System::Int32, ::System::Single, ::Class_1_28F0414D4F296993*, ::Foundation::ViewObject::ViewObjectHandle))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_STRUCTURES_FENTITYHPCHANGEACTION__CTOR_OFFSET))(this, name, entityHandle, listenType, listenValue, graph, groupHandle);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MoleMole::EntityHandle, ::System::Int32, ::System::Single, ::IFLPGOKHDJI*, ::Foundation::ViewObject::ViewObjectHandle))((::PBYTE)hIl2Cpp + FOUNDATION_VIEWOBJECT_STRUCTURES_FENTITYHPCHANGEACTION__CTOR_OFFSET))(this, name, entityHandle, listenType, listenValue, graph, groupHandle);
 		}
 
 		::System::Boolean get_IsTriggered()

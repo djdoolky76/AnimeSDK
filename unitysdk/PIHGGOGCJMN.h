@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/KAJELNMMPIP.h"
+
+class AGNBAGNKPJM;
+class AJAMLAJJNHA;
+class EKDEHCOJMPA;
+class KIKDCJJPLPI;
+
+#define PIHGGOGCJMN_EKDELIKJGLI_OFFSET UNITYSDK_OFFSET(0x178D5890)
+#define PIHGGOGCJMN_GJAJBMGHLAL_OFFSET UNITYSDK_OFFSET(0x178D5900)
+#define PIHGGOGCJMN_IBELDKINIOF_OFFSET UNITYSDK_OFFSET(0x178D5420)
+#define PIHGGOGCJMN_LDOFEAICPNB_OFFSET UNITYSDK_OFFSET(0x178D5820)
+#define PIHGGOGCJMN_OFINMOFKGFI_OFFSET UNITYSDK_OFFSET(0x178D5790)
+#define PIHGGOGCJMN__CTOR_OFFSET UNITYSDK_OFFSET(0x178D5350)
+
+inline static constexpr unsigned int PIHGGOGCJMN_TypeDefinitionIndex = 89941;
+
+class PIHGGOGCJMN : public ::KAJELNMMPIP
+{
+public:
+	::AGNBAGNKPJM* DCOCKHCNDFN; // 0x48
+	::EKDEHCOJMPA* HMMNBNEMNPM; // 0x50
+	::KIKDCJJPLPI* DNGKPOEGNDC; // 0x58
+
+	::System::Void _ctor(::AJAMLAJJNHA* KAINLJMNCHE)
+	{
+		return ((::System::Void(*)(::PVOID, ::AJAMLAJJNHA*))((::PBYTE)hIl2Cpp + PIHGGOGCJMN__CTOR_OFFSET))(this, KAINLJMNCHE);
+	}
+
+	::System::Void IBELDKINIOF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIHGGOGCJMN_IBELDKINIOF_OFFSET))(this);
+	}
+
+	::System::Void OFINMOFKGFI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIHGGOGCJMN_OFINMOFKGFI_OFFSET))(this);
+	}
+
+	::System::Void LDOFEAICPNB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIHGGOGCJMN_LDOFEAICPNB_OFFSET))(this);
+	}
+
+	::System::Void EKDELIKJGLI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIHGGOGCJMN_EKDELIKJGLI_OFFSET))(this);
+	}
+
+	::System::Void GJAJBMGHLAL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIHGGOGCJMN_GJAJBMGHLAL_OFFSET))(this);
+	}
+};

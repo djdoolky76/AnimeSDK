@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlexBuffers/FlxMap.h"
-#include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 
-#define MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19212BB0)
-#define MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x192122A0)
-#define MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_METHOD_1_5B0202969299569F_OFFSET UNITYSDK_OFFSET(0x19212320)
-#define MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_METHOD_1_814709AC4932320E_OFFSET UNITYSDK_OFFSET(0x19212C10)
-#define MOLEMOLE_CONFIG_TRIGGERCREATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19213040)
+#define MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x118E6300)
+#define MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x118E59F0)
+#define MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_IAEALJJMOKA_OFFSET UNITYSDK_OFFSET(0x118E6360)
+#define MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_PDHKICNJNGG_OFFSET UNITYSDK_OFFSET(0x118E5A70)
+#define MOLEMOLE_CONFIG_TRIGGERCREATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x118E6790)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int TriggerCreationData_TypeDefinitionIndex = 51691;
+	inline static constexpr unsigned int TriggerCreationData_TypeDefinitionIndex = 70220;
 
 	class TriggerCreationData : public ::System::Object
 	{
@@ -32,24 +32,24 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TRIGGERCREATIONDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_FROMFLX_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean FromBinary(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_FROMBINARY_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 
-		::System::Boolean Method_1_5B0202969299569F(::FlexBuffers::FlxMap a1)
+		::System::Boolean PDHKICNJNGG(::FlexBuffers::FlxMap HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_METHOD_1_5B0202969299569F_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_PDHKICNJNGG_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean Method_1_814709AC4932320E(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean IAEALJJMOKA(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_METHOD_1_814709AC4932320E_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_TRIGGERCREATIONDATA_IAEALJJMOKA_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 	};
 }

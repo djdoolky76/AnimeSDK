@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/AccessControl/SecurityInfos.h"
+#include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 namespace System::Security::AccessControl { class NativeObjectSecurity; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDEA000)
-#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS20_0__INTERNALGET_B__0_OFFSET UNITYSDK_OFFSET(0x1DDEA010)
+#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E26AD00)
+#define SYSTEM_SECURITY_ACCESSCONTROL_NATIVEOBJECTSECURITY___C__DISPLAYCLASS20_0__INTERNALGET_B__0_OFFSET UNITYSDK_OFFSET(0x1E26AD10)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int NativeObjectSecurity___c__DisplayClass20_0_TypeDefinitionIndex = 992;
+	inline static constexpr unsigned int NativeObjectSecurity___c__DisplayClass20_0_TypeDefinitionIndex = 991;
 
 	class NativeObjectSecurity___c__DisplayClass20_0 : public ::System::Object
 	{

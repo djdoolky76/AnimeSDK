@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define SIRENIX_SERIALIZATION_SERIALIZATIONDATA_GET_CONTAINSDATA_OFFSET UNITYSDK_OFFSET(0xACB6E0)
-#define SIRENIX_SERIALIZATION_SERIALIZATIONDATA_GET_HASEDITORDATA_OFFSET UNITYSDK_OFFSET(0xACB6D0)
-#define SIRENIX_SERIALIZATION_SERIALIZATIONDATA_RESET_OFFSET UNITYSDK_OFFSET(0xACB710)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONDATA_GET_CONTAINSDATA_OFFSET UNITYSDK_OFFSET(0x9B1CD0)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONDATA_GET_HASEDITORDATA_OFFSET UNITYSDK_OFFSET(0x9B1CC0)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONDATA_RESET_OFFSET UNITYSDK_OFFSET(0x9B1D00)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int SerializationData_TypeDefinitionIndex = 7611;
+	inline static constexpr unsigned int SerializationData_TypeDefinitionIndex = 7623;
 
 	struct alignas(8) SerializationData
 	{
@@ -22,6 +22,7 @@ namespace Sirenix::Serialization
 		// static const ::System::String* PrefabModificationsFieldName; // 0x0
 		// static const ::System::String* PrefabFieldName; // 0x0
 		::Sirenix::Serialization::DataFormat SerializedFormat; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Byte>* SerializedBytes; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::Object*>* ReferencedUnityObjects; // 0x20
 		::System::String* SerializedBytesString; // 0x28

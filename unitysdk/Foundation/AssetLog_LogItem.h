@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_ASSETLOG_LOGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF79430)
+#define FOUNDATION_ASSETLOG_LOGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF03550)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AssetLog_LogItem_TypeDefinitionIndex = 8448;
+	inline static constexpr unsigned int AssetLog_LogItem_TypeDefinitionIndex = 8398;
 
 	class AssetLog_LogItem : public ::System::Object
 	{
 	public:
-		::System::String* CallStack; // 0x10
-		::System::String* TypeInfo; // 0x18
-		::System::String* TimeInfo; // 0x20
-		::System::String* Path; // 0x28
+		::System::String* Path; // 0x10
+		::System::String* CallStack; // 0x18
+		::System::String* TypeInfo; // 0x20
+		::System::String* TimeInfo; // 0x28
 		::System::String* RefAsset; // 0x30
 		::System::Int32 RefCount; // 0x38
 

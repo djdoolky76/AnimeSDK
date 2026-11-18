@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_REMOVEPARTNERAVATARBYID_INVOKE_OFFSET UNITYSDK_OFFSET(0x136A0910)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_REMOVEPARTNERAVATARBYID__CTOR_OFFSET UNITYSDK_OFFSET(0x136A0A30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_REMOVEPARTNERAVATARBYID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1357A540)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_REMOVEPARTNERAVATARBYID__CTOR_OFFSET UNITYSDK_OFFSET(0x1357A670)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_RemovePartnerAvatarByID_TypeDefinitionIndex = 53091;
+	inline static constexpr unsigned int LD_RemovePartnerAvatarByID_TypeDefinitionIndex = 79739;
 
-	class LD_RemovePartnerAvatarByID : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Int32>
+	class LD_RemovePartnerAvatarByID
 	{
 	public:
 		::System::Void _ctor()

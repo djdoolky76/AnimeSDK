@@ -1,27 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_219B2CD5FA4A8100.h"
+#include "unitysdk/HCKAMCEHGII.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace MoleMole { class TextMeshStyle; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class TextMesh; }
 
-#define MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x14A141A0)
-#define MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_METHOD_5_AE0B725AB77F7E6F_OFFSET UNITYSDK_OFFSET(0x14A142A0)
-#define MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x14A146D0)
+#define MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1310B830)
+#define MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_LNPIPLAIMMD_OFFSET UNITYSDK_OFFSET(0x1310B930)
+#define MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1310BD60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTextMeshLanguageStyle_TypeDefinitionIndex = 89596;
+	inline static constexpr unsigned int MonoTextMeshLanguageStyle_TypeDefinitionIndex = 45805;
 
 	class MonoTextMeshLanguageStyle : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Enum_3_219B2CD5FA4A8100 languageFontStyle; // 0x18
+		::HCKAMCEHGII languageFontStyle; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::TextMeshStyle*>* TextMeshStyles; // 0x20
-		::UnityEngine::TextMesh* Field_5_7; // 0x28
-		::System::Int32 Field_5_6; // 0x30
+		::UnityEngine::TextMesh* JMLBHDGOKIF; // 0x28
+		::System::Int32 LLGHJAPKHHN; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -33,9 +34,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_AE0B725AB77F7E6F()
+		::System::Void LNPIPLAIMMD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_METHOD_5_AE0B725AB77F7E6F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEXTMESHLANGUAGESTYLE_LNPIPLAIMMD_OFFSET))(this);
 		}
 	};
 }

@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FLIADFGHKOF_DOPENALGGDI.h"
+#include "unitysdk/System/ValueType.h"
+
+#define FLIADFGHKOF_BPANKDCMADP_JPPEEOLOGGP_1_OFFSET UNITYSDK_OFFSET(0x11D82000)
+#define FLIADFGHKOF_BPANKDCMADP_JPPEEOLOGGP_OFFSET UNITYSDK_OFFSET(0x11D81F90)
+#define FLIADFGHKOF_BPANKDCMADP__CCTOR_OFFSET UNITYSDK_OFFSET(0x11D81F70)
+
+inline static constexpr unsigned int FLIADFGHKOF_BPANKDCMADP_TypeDefinitionIndex = 51428;
+
+struct alignas(8) FLIADFGHKOF_BPANKDCMADP
+{
+	static ::FLIADFGHKOF_BPANKDCMADP* StaticGet_CGICCOBHACH()
+	{
+		return (::FLIADFGHKOF_BPANKDCMADP*)Il2CppClass::FromTypeDefinitionIndex(FLIADFGHKOF_BPANKDCMADP_TypeDefinitionIndex)->GetStaticField(0x3AD00);
+	}
+	::FLIADFGHKOF_DOPENALGGDI NOOLOILNGPL; // 0x10
+	::System::Byte _padding0[0x4];
+	::System::UInt64 EBCCPPJHLND; // 0x18
+	::Il2CppArray<::System::Byte>* HFKIDEMMMBN; // 0x20
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FLIADFGHKOF_BPANKDCMADP__CCTOR_OFFSET))();
+	}
+
+	/*
+	static ::FLIADFGHKOF_BPANKDCMADP JPPEEOLOGGP(::Il2CppArray<::System::Byte>* MCOHLHMKLIP)
+	{
+		return ((::FLIADFGHKOF_BPANKDCMADP(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + FLIADFGHKOF_BPANKDCMADP_JPPEEOLOGGP_OFFSET))(MCOHLHMKLIP);
+	}
+	*/
+
+	/*
+	static ::FLIADFGHKOF_BPANKDCMADP JPPEEOLOGGP_1(::System::UInt64 MCOHLHMKLIP)
+	{
+		return ((::FLIADFGHKOF_BPANKDCMADP(*)(::System::UInt64))((::PBYTE)hIl2Cpp + FLIADFGHKOF_BPANKDCMADP_JPPEEOLOGGP_1_OFFSET))(MCOHLHMKLIP);
+	}
+	*/
+};

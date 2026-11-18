@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int CameraMotionBlurCBuffer_TypeDefinitionIndex = 27155;
+	inline static constexpr unsigned int CameraMotionBlurCBuffer_TypeDefinitionIndex = 26725;
 
 	struct alignas(4) CameraMotionBlurCBuffer
 	{

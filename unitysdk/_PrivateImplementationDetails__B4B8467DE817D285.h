@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/_PrivateImplementationDetails__B4B8467DE817D285___StaticArrayInitTypeSize_120.h"
+#include "unitysdk/_PrivateImplementationDetails__B4B8467DE817D285___StaticArrayInitTypeSize_20.h"
+#include "unitysdk/_PrivateImplementationDetails__B4B8467DE817D285___StaticArrayInitTypeSize_50.h"
+
+inline static constexpr unsigned int _PrivateImplementationDetails__B4B8467DE817D285_TypeDefinitionIndex = 28049;
+
+class _PrivateImplementationDetails__B4B8467DE817D285 : public ::System::Object
+{
+public:
+	static ::_PrivateImplementationDetails__B4B8467DE817D285___StaticArrayInitTypeSize_50* StaticGet__6F98278EFCD257898AD01BE39D1D0AEFB78FC551()
+	{
+		return (::_PrivateImplementationDetails__B4B8467DE817D285___StaticArrayInitTypeSize_50*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__B4B8467DE817D285_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__B4B8467DE817D285___StaticArrayInitTypeSize_20* StaticGet__8C4C6C4E493EC2BEEF5F6F6A9C4472C13BED42E8()
+	{
+		return (::_PrivateImplementationDetails__B4B8467DE817D285___StaticArrayInitTypeSize_20*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__B4B8467DE817D285_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__B4B8467DE817D285___StaticArrayInitTypeSize_120* StaticGet__9DC5F4D0A1418B4EC71B22D21E93D134922FA735()
+	{
+		return (::_PrivateImplementationDetails__B4B8467DE817D285___StaticArrayInitTypeSize_120*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__B4B8467DE817D285_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::_PrivateImplementationDetails__B4B8467DE817D285___StaticArrayInitTypeSize_50* StaticGet_FD0BD55CDDDFD0B323012A45F83437763AF58952()
+	{
+		return (::_PrivateImplementationDetails__B4B8467DE817D285___StaticArrayInitTypeSize_50*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__B4B8467DE817D285_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+};

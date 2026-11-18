@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MHMFINLCNFN.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+
+class CPABOPKIGAL;
+class LGAFMFNMCOG;
+template <typename T> class KCMIFNGABDC_1;
+
+#define KPFMNFNKMLG_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0x17735010)
+#define KPFMNFNKMLG_FEDNEKFMGNF_OFFSET UNITYSDK_OFFSET(0x17734D40)
+#define KPFMNFNKMLG_GDEOPIBNOIN_OFFSET UNITYSDK_OFFSET(0x17735A70)
+#define KPFMNFNKMLG_JFBDALLPLBA_OFFSET UNITYSDK_OFFSET(0x17735A80)
+#define KPFMNFNKMLG_MLAAFFHCOJE_OFFSET UNITYSDK_OFFSET(0x17734BF0)
+#define KPFMNFNKMLG__CTOR_OFFSET UNITYSDK_OFFSET(0x17735770)
+
+inline static constexpr unsigned int KPFMNFNKMLG_TypeDefinitionIndex = 51338;
+
+class KPFMNFNKMLG : public ::MHMFINLCNFN
+{
+public:
+	::CPABOPKIGAL* CJNEMGNJIEI; // 0x28
+	::CPABOPKIGAL* PKKLIFFIMMB; // 0x30
+	::CPABOPKIGAL* BOHNBOELHDG; // 0x38
+	::KCMIFNGABDC_1<::System::Int32>* LFPCKGNFIME; // 0x40
+	::KCMIFNGABDC_1<::System::Int32>* FHGFOACNDPF; // 0x48
+	::KCMIFNGABDC_1<::System::Boolean>* FMDCCMLPJDM; // 0x50
+	::CPABOPKIGAL* AJCPNCIMKGC; // 0x58
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPFMNFNKMLG__CTOR_OFFSET))(this);
+	}
+
+	::System::Void MLAAFFHCOJE(::LGAFMFNMCOG* ONBDAIKININ)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + KPFMNFNKMLG_MLAAFFHCOJE_OFFSET))(this, ONBDAIKININ);
+	}
+
+	::System::Void FEDNEKFMGNF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPFMNFNKMLG_FEDNEKFMGNF_OFFSET))(this);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + KPFMNFNKMLG_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF);
+	}
+
+	::System::Void GDEOPIBNOIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPFMNFNKMLG_GDEOPIBNOIN_OFFSET))(this);
+	}
+
+	::System::Void JFBDALLPLBA(::LGAFMFNMCOG* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGAFMFNMCOG*))((::PBYTE)hIl2Cpp + KPFMNFNKMLG_JFBDALLPLBA_OFFSET))(this, MIALFKCCCPI);
+	}
+};

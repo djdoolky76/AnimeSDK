@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONOINTERACTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x12E87410)
+#define MONOINTERACTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x12877480)
 
-inline static constexpr unsigned int MonoInteractParam_TypeDefinitionIndex = 67987;
+inline static constexpr unsigned int MonoInteractParam_TypeDefinitionIndex = 40313;
 
 class MonoInteractParam : public ::UnityEngine::MonoBehaviour
 {

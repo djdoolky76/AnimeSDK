@@ -7,23 +7,23 @@ namespace BehaviorDesigner::Runtime { class SharedGameObject; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace BehaviorDesigner::Runtime { class SharedVariable; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F82C000)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F82BAB0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F82C050)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F82C0E0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F82C170)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1FC38D50)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1FC38800)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC38DA0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1FC38E30)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_COMPAREPROPERTYVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1FC38EC0)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int ComparePropertyValue_TypeDefinitionIndex = 34000;
+	inline static constexpr unsigned int ComparePropertyValue_TypeDefinitionIndex = 33546;
 
 	class ComparePropertyValue : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedVariable* compareValue; // 0x50
-		::BehaviorDesigner::Runtime::SharedString* componentName; // 0x58
-		::BehaviorDesigner::Runtime::SharedString* propertyName; // 0x60
-		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x68
+		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x50
+		::BehaviorDesigner::Runtime::SharedVariable* compareValue; // 0x58
+		::BehaviorDesigner::Runtime::SharedString* componentName; // 0x60
+		::BehaviorDesigner::Runtime::SharedString* propertyName; // 0x68
 
 		::System::Void _ctor()
 		{

@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace ParadoxNotion::Serialization { class SerializedMethodInfo; }
 
-#define MESSAGEPACK_FORMATTERS_GRAPH_SERIALIZEDMETHODINFO_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DAD8B90)
-#define MESSAGEPACK_FORMATTERS_GRAPH_SERIALIZEDMETHODINFO_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DAD8B40)
-#define MESSAGEPACK_FORMATTERS_GRAPH_SERIALIZEDMETHODINFO_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD8CB0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_SERIALIZEDMETHODINFO_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D476C60)
+#define MESSAGEPACK_FORMATTERS_GRAPH_SERIALIZEDMETHODINFO_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D476C10)
+#define MESSAGEPACK_FORMATTERS_GRAPH_SERIALIZEDMETHODINFO_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D476D80)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Graph_SerializedMethodInfo_Formatter_TypeDefinitionIndex = 30693;
+	inline static constexpr unsigned int Graph_SerializedMethodInfo_Formatter_TypeDefinitionIndex = 29447;
 
 	class Graph_SerializedMethodInfo_Formatter : public ::System::Object
 	{

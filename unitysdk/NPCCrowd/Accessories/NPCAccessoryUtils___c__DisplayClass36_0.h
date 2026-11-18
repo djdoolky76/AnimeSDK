@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FNpcAvatarGenericParams_AccessoryInfo.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FNpcAvatarGenericParams_AccessoryInfo.h"
 
 namespace NPCCrowd::Accessories { class NpcAccessoryItem; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYUTILS___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13DE8A00)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYUTILS___C__DISPLAYCLASS36_0__GENERATEACCESSORYINFO_B__0_OFFSET UNITYSDK_OFFSET(0x13DE8A10)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYUTILS___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE0C5550)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYUTILS___C__DISPLAYCLASS36_0__GENERATEACCESSORYINFO_B__0_OFFSET UNITYSDK_OFFSET(0xE0C5560)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryUtils___c__DisplayClass36_0_TypeDefinitionIndex = 72020;
+	inline static constexpr unsigned int NPCAccessoryUtils___c__DisplayClass36_0_TypeDefinitionIndex = 51504;
 
 	class NPCAccessoryUtils___c__DisplayClass36_0 : public ::System::Object
 	{

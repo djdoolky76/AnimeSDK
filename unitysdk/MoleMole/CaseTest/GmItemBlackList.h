@@ -5,12 +5,12 @@
 namespace MoleMole::CaseTest { class BlackItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CASETEST_GMITEMBLACKLIST_REFRESHBLACKITEMLIST_OFFSET UNITYSDK_OFFSET(0x12CA8610)
-#define MOLEMOLE_CASETEST_GMITEMBLACKLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x12CA8650)
+#define MOLEMOLE_CASETEST_GMITEMBLACKLIST_REFRESHBLACKITEMLIST_OFFSET UNITYSDK_OFFSET(0x19086CE0)
+#define MOLEMOLE_CASETEST_GMITEMBLACKLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19086D20)
 
 namespace MoleMole::CaseTest
 {
-	inline static constexpr unsigned int GmItemBlackList_TypeDefinitionIndex = 81292;
+	inline static constexpr unsigned int GmItemBlackList_TypeDefinitionIndex = 50718;
 
 	class GmItemBlackList : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D35B5D4865AF7021;
+class OPMPJAJDJID;
 
-#define MOLEMOLE_UITOWERDEFENSEMAINPAGECONTROLLER___C__DISPLAYCLASS74_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188A1430)
-#define MOLEMOLE_UITOWERDEFENSEMAINPAGECONTROLLER___C__DISPLAYCLASS74_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x188A1440)
+#define MOLEMOLE_UITOWERDEFENSEMAINPAGECONTROLLER___C__DISPLAYCLASS74_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1828FF50)
+#define MOLEMOLE_UITOWERDEFENSEMAINPAGECONTROLLER___C__DISPLAYCLASS74_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1828FF60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerDefenseMainPageController___c__DisplayClass74_0_TypeDefinitionIndex = 51882;
+	inline static constexpr unsigned int UITowerDefenseMainPageController___c__DisplayClass74_0_TypeDefinitionIndex = 70754;
 
 	class UITowerDefenseMainPageController___c__DisplayClass74_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITOWERDEFENSEMAINPAGECONTROLLER___C__DISPLAYCLASS74_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _Update_b__0(::Class_1_D35B5D4865AF7021* bullet)
+		::System::Boolean _Update_b__0(::OPMPJAJDJID* bullet)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_D35B5D4865AF7021*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITOWERDEFENSEMAINPAGECONTROLLER___C__DISPLAYCLASS74_0__UPDATE_B__0_OFFSET))(this, bullet);
+			return ((::System::Boolean(*)(::PVOID, ::OPMPJAJDJID*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITOWERDEFENSEMAINPAGECONTROLLER___C__DISPLAYCLASS74_0__UPDATE_B__0_OFFSET))(this, bullet);
 		}
 	};
 }

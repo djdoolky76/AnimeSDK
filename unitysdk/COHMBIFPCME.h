@@ -1,0 +1,94 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IOOIHHOJOPI.h"
+
+class FGCOIBFFCHB;
+class GCIMMDDIFBJ;
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+namespace MoleMole { class UIControlCollection; }
+namespace MoleMole { class UIGeneralButtonController; }
+
+#define COHMBIFPCME_EFKGNFCEENK_OFFSET UNITYSDK_OFFSET(0x16885960)
+#define COHMBIFPCME_ENJENAJGHFI_OFFSET UNITYSDK_OFFSET(0x16885C60)
+#define COHMBIFPCME_HMIPPEIFHEJ_OFFSET UNITYSDK_OFFSET(0x16885C00)
+#define COHMBIFPCME_HPPMGGEPPHL_OFFSET UNITYSDK_OFFSET(0x16885C20)
+#define COHMBIFPCME_IFOEBPFPPAF_OFFSET UNITYSDK_OFFSET(0x16885C10)
+#define COHMBIFPCME_IGBPPBLBHPF_OFFSET UNITYSDK_OFFSET(0x16885C50)
+#define COHMBIFPCME_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x168858C0)
+#define COHMBIFPCME_MNPJGPGLIFO_OFFSET UNITYSDK_OFFSET(0x16885C30)
+#define COHMBIFPCME_ODBDPEEPINO_OFFSET UNITYSDK_OFFSET(0x16885C40)
+#define COHMBIFPCME_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x168856E0)
+#define COHMBIFPCME_OOKLIMNOHIK_OFFSET UNITYSDK_OFFSET(0x16885C70)
+#define COHMBIFPCME__CTOR_OFFSET UNITYSDK_OFFSET(0x16885B70)
+
+inline static constexpr unsigned int COHMBIFPCME_TypeDefinitionIndex = 62296;
+
+class COHMBIFPCME : public ::IOOIHHOJOPI
+{
+public:
+	::MoleMole::UIGeneralButtonController* _IPFIKAKEONM_k__BackingField; // 0x28
+	::LGINJIKKBJA* _APKOBACNDOI_k__BackingField; // 0x30
+	::FGCOIBFFCHB* _EOMOJEGEGKM_k__BackingField; // 0x38
+	::GCIMMDDIFBJ* _KDEAFKIIKPH_k__BackingField; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COHMBIFPCME__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + COHMBIFPCME_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::GCIMMDDIFBJ* HMIPPEIFHEJ()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + COHMBIFPCME_HMIPPEIFHEJ_OFFSET))(this);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COHMBIFPCME_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::System::Void EFKGNFCEENK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COHMBIFPCME_EFKGNFCEENK_OFFSET))(this);
+	}
+
+	::MoleMole::UIGeneralButtonController* IFOEBPFPPAF()
+	{
+		return ((::MoleMole::UIGeneralButtonController*(*)(::PVOID))((::PBYTE)hIl2Cpp + COHMBIFPCME_IFOEBPFPPAF_OFFSET))(this);
+	}
+
+	::LGINJIKKBJA* HPPMGGEPPHL()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + COHMBIFPCME_HPPMGGEPPHL_OFFSET))(this);
+	}
+
+	::System::Void MNPJGPGLIFO(::MoleMole::UIGeneralButtonController* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralButtonController*))((::PBYTE)hIl2Cpp + COHMBIFPCME_MNPJGPGLIFO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void ODBDPEEPINO(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + COHMBIFPCME_ODBDPEEPINO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void IGBPPBLBHPF(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + COHMBIFPCME_IGBPPBLBHPF_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::FGCOIBFFCHB* ENJENAJGHFI()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + COHMBIFPCME_ENJENAJGHFI_OFFSET))(this);
+	}
+
+	::System::Void OOKLIMNOHIK(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + COHMBIFPCME_OOKLIMNOHIK_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

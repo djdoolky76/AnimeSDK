@@ -1,0 +1,122 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIBMJLOJLKD.h"
+
+class FILNFMCNCFE;
+class GCIMMDDIFBJ;
+class HNLACBJDCGI;
+namespace MoleMole { class MonoEventTrigger; }
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine::UI { class LayoutElement; }
+namespace UnityEngine::UI { class ScrollRect; }
+
+#define GLKKHMBPBFN_OICEDMLMLIJ_DGAHGMBBNBJ_OFFSET UNITYSDK_OFFSET(0x10FE92A0)
+#define GLKKHMBPBFN_OICEDMLMLIJ_DLOFHGOCDJH_OFFSET UNITYSDK_OFFSET(0x10FE93C0)
+#define GLKKHMBPBFN_OICEDMLMLIJ_DPGJJJEHKHC_OFFSET UNITYSDK_OFFSET(0x10FE92E0)
+#define GLKKHMBPBFN_OICEDMLMLIJ_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x10FE9310)
+#define GLKKHMBPBFN_OICEDMLMLIJ_HDPEBEKHNLG_OFFSET UNITYSDK_OFFSET(0x10FE9300)
+#define GLKKHMBPBFN_OICEDMLMLIJ_ICFIOPLOOPB_OFFSET UNITYSDK_OFFSET(0x10FE92C0)
+#define GLKKHMBPBFN_OICEDMLMLIJ_IIECLLGAFBP_OFFSET UNITYSDK_OFFSET(0x10FE9280)
+#define GLKKHMBPBFN_OICEDMLMLIJ_IKAKGOGJKFH_OFFSET UNITYSDK_OFFSET(0x10FE93B0)
+#define GLKKHMBPBFN_OICEDMLMLIJ_JGDLCPIOKED_OFFSET UNITYSDK_OFFSET(0x10FE92F0)
+#define GLKKHMBPBFN_OICEDMLMLIJ_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x10FE91B0)
+#define GLKKHMBPBFN_OICEDMLMLIJ_KNJIKMMJGOK_OFFSET UNITYSDK_OFFSET(0x10FE93D0)
+#define GLKKHMBPBFN_OICEDMLMLIJ_LJFFHFAMIHJ_OFFSET UNITYSDK_OFFSET(0x10FE92B0)
+#define GLKKHMBPBFN_OICEDMLMLIJ_NBCFMMIBLMC_OFFSET UNITYSDK_OFFSET(0x10FE92D0)
+#define GLKKHMBPBFN_OICEDMLMLIJ_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x10FE8FD0)
+#define GLKKHMBPBFN_OICEDMLMLIJ_OMDDKKBEJCL_OFFSET UNITYSDK_OFFSET(0x10FE9290)
+#define GLKKHMBPBFN_OICEDMLMLIJ__CTOR_OFFSET UNITYSDK_OFFSET(0x10FE9270)
+
+inline static constexpr unsigned int GLKKHMBPBFN_OICEDMLMLIJ_TypeDefinitionIndex = 80994;
+
+class GLKKHMBPBFN_OICEDMLMLIJ : public ::GIBMJLOJLKD
+{
+public:
+	::FILNFMCNCFE* _MGLIAEMIBDK_k__BackingField; // 0x18
+	::UnityEngine::RectTransform* _MCDNGJLLMHO_k__BackingField; // 0x20
+	::GCIMMDDIFBJ* _IHHILBMPLPC_k__BackingField; // 0x28
+	::MoleMole::MonoEventTrigger* _LAEOJAPFFDC_k__BackingField; // 0x30
+	::UnityEngine::UI::ScrollRect* _KLAKHAHJCDI_k__BackingField; // 0x38
+	::UnityEngine::UI::LayoutElement* _GBKGEMJMPIO_k__BackingField; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::MoleMole::MonoEventTrigger* IIECLLGAFBP()
+	{
+		return ((::MoleMole::MonoEventTrigger*(*)(::PVOID))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_IIECLLGAFBP_OFFSET))(this);
+	}
+
+	::UnityEngine::UI::LayoutElement* OMDDKKBEJCL()
+	{
+		return ((::UnityEngine::UI::LayoutElement*(*)(::PVOID))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_OMDDKKBEJCL_OFFSET))(this);
+	}
+
+	::System::Void DGAHGMBBNBJ(::UnityEngine::UI::LayoutElement* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::LayoutElement*))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_DGAHGMBBNBJ_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::RectTransform* LJFFHFAMIHJ()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_LJFFHFAMIHJ_OFFSET))(this);
+	}
+
+	::GCIMMDDIFBJ* ICFIOPLOOPB()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_ICFIOPLOOPB_OFFSET))(this);
+	}
+
+	::FILNFMCNCFE* NBCFMMIBLMC()
+	{
+		return ((::FILNFMCNCFE*(*)(::PVOID))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_NBCFMMIBLMC_OFFSET))(this);
+	}
+
+	::System::Void DPGJJJEHKHC(::UnityEngine::UI::ScrollRect* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::ScrollRect*))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_DPGJJJEHKHC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void JGDLCPIOKED(::UnityEngine::RectTransform* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_JGDLCPIOKED_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void HDPEBEKHNLG(::FILNFMCNCFE* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FILNFMCNCFE*))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_HDPEBEKHNLG_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void ECNOGHHOPPF(::HNLACBJDCGI* MIALFKCCCPI, ::MoleMole::UIControlCollection* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+
+	::UnityEngine::UI::ScrollRect* IKAKGOGJKFH()
+	{
+		return ((::UnityEngine::UI::ScrollRect*(*)(::PVOID))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_IKAKGOGJKFH_OFFSET))(this);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::System::Void DLOFHGOCDJH(::MoleMole::MonoEventTrigger* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoEventTrigger*))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_DLOFHGOCDJH_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void KNJIKMMJGOK(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + GLKKHMBPBFN_OICEDMLMLIJ_KNJIKMMJGOK_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

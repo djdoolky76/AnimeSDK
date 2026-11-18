@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_SETANTIVIRUSRATENUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x149D3AC0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_SETANTIVIRUSRATENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x149D3BB0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_SETANTIVIRUSRATENUM_INVOKE_OFFSET UNITYSDK_OFFSET(0x130C3720)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARD_SETANTIVIRUSRATENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x130C3810)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessBoard_SetAntivirusRateNum_TypeDefinitionIndex = 85736;
+	inline static constexpr unsigned int ChessBoard_SetAntivirusRateNum_TypeDefinitionIndex = 59020;
 
-	class ChessBoard_SetAntivirusRateNum : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::System::Int32>
+	class ChessBoard_SetAntivirusRateNum
 	{
 	public:
 		::System::Void _ctor()

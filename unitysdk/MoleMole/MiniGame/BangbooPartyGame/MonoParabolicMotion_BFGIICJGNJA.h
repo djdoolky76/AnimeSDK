@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace MoleMole::MiniGame::BangbooPartyGame { class MonoParabolicMotion; }
+namespace MoleMole::MiniGame::BangbooPartyGame { class MonoParabolicMotion_POJHOFCDLLO; }
+
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOPARABOLICMOTION_BFGIICJGNJA_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x180F6220)
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOPARABOLICMOTION_BFGIICJGNJA_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x180F68F0)
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOPARABOLICMOTION_BFGIICJGNJA_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x180F6950)
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOPARABOLICMOTION_BFGIICJGNJA_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x180F6900)
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOPARABOLICMOTION_BFGIICJGNJA_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x180F6210)
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOPARABOLICMOTION_BFGIICJGNJA__CTOR_OFFSET UNITYSDK_OFFSET(0x180F6200)
+
+namespace MoleMole::MiniGame::BangbooPartyGame
+{
+	inline static constexpr unsigned int MonoParabolicMotion_BFGIICJGNJA_TypeDefinitionIndex = 82796;
+
+	class MonoParabolicMotion_BFGIICJGNJA : public ::System::Object
+	{
+	public:
+		::MoleMole::MiniGame::BangbooPartyGame::MonoParabolicMotion_POJHOFCDLLO* JKIACNIPNPD; // 0x10
+		::MoleMole::MiniGame::BangbooPartyGame::MonoParabolicMotion_POJHOFCDLLO* MMMNMEOMCEL; // 0x18
+		::System::Object* IDBEJJEKGDI; // 0x20
+		::MoleMole::MiniGame::BangbooPartyGame::MonoParabolicMotion* KLHPEBKNIFB; // 0x28
+		::System::Single EJEINJNDBJO; // 0x30
+		::UnityEngine::Vector3 JJOFDGMGHEK; // 0x34
+		::System::Single DCMJALCOBFE; // 0x40
+		::System::Single CJIIIEEEBPD; // 0x44
+		::System::Int32 MDPILDGFNHN; // 0x48
+		::UnityEngine::Vector3 KMNAHMDEDNM; // 0x4C
+		::UnityEngine::Vector3 EBEPGJOIGNM; // 0x58
+		::UnityEngine::Vector3 JLIOFIPICPD; // 0x64
+		::UnityEngine::Vector3 HHDCEICBLAB; // 0x70
+
+		::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOPARABOLICMOTION_BFGIICJGNJA__CTOR_OFFSET))(this, MDPILDGFNHN);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOPARABOLICMOTION_BFGIICJGNJA_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOPARABOLICMOTION_BFGIICJGNJA_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOPARABOLICMOTION_BFGIICJGNJA_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOPARABOLICMOTION_BFGIICJGNJA_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOPARABOLICMOTION_BFGIICJGNJA_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+	};
+}

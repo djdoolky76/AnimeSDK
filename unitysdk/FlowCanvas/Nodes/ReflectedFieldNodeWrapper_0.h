@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define FLOWCANVAS_NODES_REFLECTEDFIELDNODEWRAPPER_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7ED80)
+#define FLOWCANVAS_NODES_REFLECTEDFIELDNODEWRAPPER_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF4EB10)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ReflectedFieldNodeWrapper_0_TypeDefinitionIndex = 30222;
+	inline static constexpr unsigned int ReflectedFieldNodeWrapper_0_TypeDefinitionIndex = 29692;
 
 	class ReflectedFieldNodeWrapper_0 : public ::System::Object
 	{

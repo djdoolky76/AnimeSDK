@@ -5,29 +5,29 @@
 namespace FluffyUnderware::Curvy { class CurvySplineSegment; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define FLUFFYUNDERWARE_CURVY_CURVYCONNECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA5D9D0)
-#define FLUFFYUNDERWARE_CURVY_CURVYCONNECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA5DA10)
-#define FLUFFYUNDERWARE_CURVY_CURVYCONNECTION___C__ONSCENELOADED_B__31_0_OFFSET UNITYSDK_OFFSET(0x1FA5DA30)
-#define FLUFFYUNDERWARE_CURVY_CURVYCONNECTION___C__REMOVENULLCPS_B__25_0_OFFSET UNITYSDK_OFFSET(0x1FA5DA20)
+#define FLUFFYUNDERWARE_CURVY_CURVYCONNECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE6E090)
+#define FLUFFYUNDERWARE_CURVY_CURVYCONNECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE6E0D0)
+#define FLUFFYUNDERWARE_CURVY_CURVYCONNECTION___C__ONSCENELOADED_B__31_0_OFFSET UNITYSDK_OFFSET(0x1FE6E0F0)
+#define FLUFFYUNDERWARE_CURVY_CURVYCONNECTION___C__REMOVENULLCPS_B__25_0_OFFSET UNITYSDK_OFFSET(0x1FE6E0E0)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyConnection___c_TypeDefinitionIndex = 39488;
+	inline static constexpr unsigned int CurvyConnection___c_TypeDefinitionIndex = 37690;
 
 	class CurvyConnection___c : public ::System::Object
 	{
 	public:
-		static ::FluffyUnderware::Curvy::CurvyConnection___c** StaticGet___9()
-		{
-			return (::FluffyUnderware::Curvy::CurvyConnection___c**)Il2CppClass::FromTypeDefinitionIndex(CurvyConnection___c_TypeDefinitionIndex)->GetStaticField(0x2AE30);
-		}
 		static ::System::Predicate_1<::FluffyUnderware::Curvy::CurvySplineSegment*>** StaticGet___9__25_0()
 		{
-			return (::System::Predicate_1<::FluffyUnderware::Curvy::CurvySplineSegment*>**)Il2CppClass::FromTypeDefinitionIndex(CurvyConnection___c_TypeDefinitionIndex)->GetStaticField(0x2AE38);
+			return (::System::Predicate_1<::FluffyUnderware::Curvy::CurvySplineSegment*>**)Il2CppClass::FromTypeDefinitionIndex(CurvyConnection___c_TypeDefinitionIndex)->GetStaticField(0x2C190);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(CurvyConnection___c_TypeDefinitionIndex)->GetStaticField(0x2C198);
 		}
 		static ::System::Predicate_1<::FluffyUnderware::Curvy::CurvySplineSegment*>** StaticGet___9__31_0()
 		{
-			return (::System::Predicate_1<::FluffyUnderware::Curvy::CurvySplineSegment*>**)Il2CppClass::FromTypeDefinitionIndex(CurvyConnection___c_TypeDefinitionIndex)->GetStaticField(0x2AE40);
+			return (::System::Predicate_1<::FluffyUnderware::Curvy::CurvySplineSegment*>**)Il2CppClass::FromTypeDefinitionIndex(CurvyConnection___c_TypeDefinitionIndex)->GetStaticField(0x2C1A0);
 		}
 
 		static ::System::Void _cctor()

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class MainLightShadowCasterPassNativeState; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_MAINLIGHTSHADOWCASTERPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E8ABA20)
-#define UNITYENGINE_NAPRENDERPIPELINE0_MAINLIGHTSHADOWCASTERPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1E8ABA50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_MAINLIGHTSHADOWCASTERPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AB9A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MAINLIGHTSHADOWCASTERPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB642E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MAINLIGHTSHADOWCASTERPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1EB64310)
+#define UNITYENGINE_NAPRENDERPIPELINE0_MAINLIGHTSHADOWCASTERPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB64260)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int MainLightShadowCasterPass_NativeImpl_TypeDefinitionIndex = 5728;
+	inline static constexpr unsigned int MainLightShadowCasterPass_NativeImpl_TypeDefinitionIndex = 5733;
 
 	class MainLightShadowCasterPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

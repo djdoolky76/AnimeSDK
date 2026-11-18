@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_13.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
+#include "unitysdk/OFDKEANKAIL.h"
 
-#define MOLEMOLE_UIBANGKOVWISHLISTMAINWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16D54140)
+#define MOLEMOLE_UIBANGKOVWISHLISTMAINWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17ECEB00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovWishlistMainWidgetController_Context_TypeDefinitionIndex = 67531;
+	inline static constexpr unsigned int UIBangkovWishlistMainWidgetController_Context_TypeDefinitionIndex = 88012;
 
 	class UIBangkovWishlistMainWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::UInt32 SrcId; // 0x28
 		::System::UInt32 SrcType; // 0x2C
-		::Enum_3_ED790DAC948A65A9_13 PlayType; // 0x30
+		::OFDKEANKAIL PlayType; // 0x30
 
 		::System::Void _ctor()
 		{

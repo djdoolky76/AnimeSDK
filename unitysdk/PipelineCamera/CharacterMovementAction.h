@@ -3,7 +3,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CharacterMovementAction_TypeDefinitionIndex = 38176;
+	inline static constexpr unsigned int CharacterMovementAction_TypeDefinitionIndex = 36178;
 
 	enum class CharacterMovementAction : ::System::Int32
 	{

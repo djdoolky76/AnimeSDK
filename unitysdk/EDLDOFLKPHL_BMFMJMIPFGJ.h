@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class OAEFGCLEHHO;
+class OBKNEEOLOPB;
+
+#define EDLDOFLKPHL_BMFMJMIPFGJ_FAIPJDLEGAL_OFFSET UNITYSDK_OFFSET(0x148CD890)
+#define EDLDOFLKPHL_BMFMJMIPFGJ_IICEENFDMLO_OFFSET UNITYSDK_OFFSET(0x148CD870)
+#define EDLDOFLKPHL_BMFMJMIPFGJ__CTOR_OFFSET UNITYSDK_OFFSET(0x148CD860)
+
+inline static constexpr unsigned int EDLDOFLKPHL_BMFMJMIPFGJ_TypeDefinitionIndex = 61498;
+
+class EDLDOFLKPHL_BMFMJMIPFGJ : public ::System::Object
+{
+public:
+	::OBKNEEOLOPB* EKHAPLAFMCB; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDLDOFLKPHL_BMFMJMIPFGJ__CTOR_OFFSET))(this);
+	}
+
+	::System::Void IICEENFDMLO(::OAEFGCLEHHO* PIIPCLCCOIG)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + EDLDOFLKPHL_BMFMJMIPFGJ_IICEENFDMLO_OFFSET))(this, PIIPCLCCOIG);
+	}
+
+	::System::Void FAIPJDLEGAL(::OAEFGCLEHHO* DJCNCELJPOM)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + EDLDOFLKPHL_BMFMJMIPFGJ_FAIPJDLEGAL_OFFSET))(this, DJCNCELJPOM);
+	}
+};

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
-#include "unitysdk/UnityEngine/FilterMode.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/DepthBits.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/MSAASamples.h"
-#include "unitysdk/UnityEngine/RenderTextureMemoryless.h"
 #include "unitysdk/UnityEngine/Rendering/TextureDimension.h"
+#include "unitysdk/UnityEngine/FilterMode.h"
+#include "unitysdk/UnityEngine/RenderTextureMemoryless.h"
 #include "unitysdk/UnityEngine/TextureWrapMode.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
@@ -15,25 +15,25 @@ namespace UnityEngine { class Texture; }
 namespace UnityEngine::NAPRenderPipeline0 { class RTHandle; }
 namespace UnityEngine::NAPRenderPipeline0 { class RTHandleSystem; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_ALLOC_1_OFFSET UNITYSDK_OFFSET(0x1EB57200)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_ALLOC_2_OFFSET UNITYSDK_OFFSET(0x1EB57390)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_ALLOC_OFFSET UNITYSDK_OFFSET(0x1EB57060)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EB56FE0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB574D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_RELEASE_OFFSET UNITYSDK_OFFSET(0x1EB57570)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_SETHARDWAREDYNAMICRESOLUTIONSTATE_OFFSET UNITYSDK_OFFSET(0x1EB575F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB57670)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_ALLOC_1_OFFSET UNITYSDK_OFFSET(0x1EEFB2E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_ALLOC_2_OFFSET UNITYSDK_OFFSET(0x1EEFB470)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_ALLOC_OFFSET UNITYSDK_OFFSET(0x1EEFB140)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EEFB0C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EEFB5B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_RELEASE_OFFSET UNITYSDK_OFFSET(0x1EEFB650)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES_SETHARDWAREDYNAMICRESOLUTIONSTATE_OFFSET UNITYSDK_OFFSET(0x1EEFB6D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RTHANDLES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEFB750)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RTHandles_TypeDefinitionIndex = 6021;
+	inline static constexpr unsigned int RTHandles_TypeDefinitionIndex = 6029;
 
 	class RTHandles : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::RTHandleSystem** StaticGet_s_DefaultInstance()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::RTHandleSystem**)Il2CppClass::FromTypeDefinitionIndex(RTHandles_TypeDefinitionIndex)->GetStaticField(0x54C0);
+			return (::UnityEngine::NAPRenderPipeline0::RTHandleSystem**)Il2CppClass::FromTypeDefinitionIndex(RTHandles_TypeDefinitionIndex)->GetStaticField(0x53C0);
 		}
 
 		static ::System::Void _cctor()

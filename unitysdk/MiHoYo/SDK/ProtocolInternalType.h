@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolInternalType_TypeDefinitionIndex = 19693;
+	inline static constexpr unsigned int ProtocolInternalType_TypeDefinitionIndex = 18848;
 
 	class ProtocolInternalType : public ::System::Object
 	{

@@ -7,23 +7,23 @@ namespace System { class Action; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE443E0)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS80_0__MOVERIGHTAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0x1AE443F0)
-#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS80_0__MOVERIGHTAVATAR_B__1_OFFSET UNITYSDK_OFFSET(0x1AE44550)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C6F570)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS80_0__MOVERIGHTAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0x19C6F580)
+#define MOLEMOLE_UIHOLLOWMAINBOTTOMWIDGETCONTROLLER___C__DISPLAYCLASS80_0__MOVERIGHTAVATAR_B__1_OFFSET UNITYSDK_OFFSET(0x19C6F6E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass80_0_TypeDefinitionIndex = 83681;
+	inline static constexpr unsigned int UIHollowMainBottomWidgetController___c__DisplayClass80_0_TypeDefinitionIndex = 43696;
 
 	class UIHollowMainBottomWidgetController___c__DisplayClass80_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::UnityEngine::Transform* currentTran; // 0x18
-		::UnityEngine::Animation* currentAnim; // 0x20
-		::MoleMole::UIHollowMainBottomWidgetController* __4__this; // 0x28
-		::System::Int32 addSlot; // 0x30
-		::System::Int32 currentSlot; // 0x34
+		::MoleMole::UIHollowMainBottomWidgetController* __4__this; // 0x10
+		::UnityEngine::Animation* currentAnim; // 0x18
+		::System::Action* __9__1; // 0x20
+		::UnityEngine::Transform* currentTran; // 0x28
+		::System::Int32 currentSlot; // 0x30
+		::System::Int32 addSlot; // 0x34
 
 		::System::Void _ctor()
 		{

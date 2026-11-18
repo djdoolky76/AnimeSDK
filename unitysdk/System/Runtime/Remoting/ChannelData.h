@@ -6,26 +6,26 @@ namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1CCB8140)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CLIENTPROVIDERS_OFFSET UNITYSDK_OFFSET(0x1CCB7FE0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1CCB8090)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_SERVERPROVIDERS_OFFSET UNITYSDK_OFFSET(0x1CCB7F30)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB8F80)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1D1B9360)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CLIENTPROVIDERS_OFFSET UNITYSDK_OFFSET(0x1D1B9200)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1D1B92B0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_SERVERPROVIDERS_OFFSET UNITYSDK_OFFSET(0x1D1B9150)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BA1A0)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int ChannelData_TypeDefinitionIndex = 1250;
+	inline static constexpr unsigned int ChannelData_TypeDefinitionIndex = 1249;
 
 	class ChannelData : public ::System::Object
 	{
 	public:
 		::System::String* Ref; // 0x10
-		::System::Collections::Hashtable* _customProperties; // 0x18
-		::System::String* Type; // 0x20
-		::System::Collections::ArrayList* _clientProviders; // 0x28
-		::System::Collections::ArrayList* _serverProviders; // 0x30
-		::System::String* DelayLoadAsClientChannel; // 0x38
-		::System::String* Id; // 0x40
+		::System::String* DelayLoadAsClientChannel; // 0x18
+		::System::Collections::ArrayList* _serverProviders; // 0x20
+		::System::Collections::Hashtable* _customProperties; // 0x28
+		::System::String* Type; // 0x30
+		::System::String* Id; // 0x38
+		::System::Collections::ArrayList* _clientProviders; // 0x40
 
 		::System::Void _ctor()
 		{

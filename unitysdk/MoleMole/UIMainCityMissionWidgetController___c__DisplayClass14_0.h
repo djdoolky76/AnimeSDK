@@ -7,23 +7,23 @@ namespace DG::Tweening { class TweenCallback; }
 namespace MoleMole { class UIMainCityMissionWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C9FF90)
-#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS14_0__UPDATEMISSIONCONTENTFADEINANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x19C9FFA0)
-#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS14_0__UPDATEMISSIONCONTENTFADEINANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x19CA0060)
+#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x196191C0)
+#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS14_0__UPDATEMISSIONCONTENTFADEINANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x196191D0)
+#define MOLEMOLE_UIMAINCITYMISSIONWIDGETCONTROLLER___C__DISPLAYCLASS14_0__UPDATEMISSIONCONTENTFADEINANIMATION_B__1_OFFSET UNITYSDK_OFFSET(0x19619290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMissionWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 88616;
+	inline static constexpr unsigned int UIMainCityMissionWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 65732;
 
 	class UIMainCityMissionWidgetController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::DG::Tweening::TweenCallback* __9__1; // 0x18
-		::MoleMole::UIMainCityMissionWidgetController* __4__this; // 0x20
-		::System::Single length; // 0x28
-		::System::Boolean resetLayout; // 0x2C
-		::UnityEngine::Vector2 finalSize; // 0x30
+		::DG::Tweening::TweenCallback* __9__1; // 0x10
+		::MoleMole::UIMainCityMissionWidgetController* __4__this; // 0x18
+		::System::Action* callback; // 0x20
+		::UnityEngine::Vector2 finalSize; // 0x28
+		::System::Single length; // 0x30
+		::System::Boolean resetLayout; // 0x34
 
 		::System::Void _ctor()
 		{

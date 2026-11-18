@@ -3,14 +3,15 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
 #include "unitysdk/UnityEngine/InputSystem/XR/Haptics/SendBufferedHapticCommand__buffer_e__FixedBuffer.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
-#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDBUFFEREDHAPTICCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1F37DFD0)
-#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDBUFFEREDHAPTICCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0xAA0FA0)
-#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDBUFFEREDHAPTICCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F37DFB0)
+#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDBUFFEREDHAPTICCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1F78F320)
+#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDBUFFEREDHAPTICCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x987260)
+#define UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDBUFFEREDHAPTICCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F78F300)
 
 namespace UnityEngine::InputSystem::XR::Haptics
 {
-	inline static constexpr unsigned int SendBufferedHapticCommand_TypeDefinitionIndex = 32357;
+	inline static constexpr unsigned int SendBufferedHapticCommand_TypeDefinitionIndex = 31806;
 
 	struct alignas(4) SendBufferedHapticCommand
 	{
@@ -21,23 +22,21 @@ namespace UnityEngine::InputSystem::XR::Haptics
 		::System::Int32 bufferSize; // 0x1C
 		::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand__buffer_e__FixedBuffer buffer; // 0x20
 
-		/*
 		static ::UnityEngine::InputSystem::Utilities::FourCC get_Type()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDBUFFEREDHAPTICCOMMAND_GET_TYPE_OFFSET))();
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDBUFFEREDHAPTICCOMMAND_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand Create(::Il2CppArray<::System::Byte>* rumbleBuffer)
 		{
 			return ((::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_HAPTICS_SENDBUFFEREDHAPTICCOMMAND_CREATE_OFFSET))(rumbleBuffer);
 		}
+		*/
 	};
 }

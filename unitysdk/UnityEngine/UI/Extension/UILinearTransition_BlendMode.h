@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UILinearTransition_BlendMode_TypeDefinitionIndex = 65694;
+	inline static constexpr unsigned int UILinearTransition_BlendMode_TypeDefinitionIndex = 77279;
 
 	enum class UILinearTransition_BlendMode : ::System::Int32
 	{

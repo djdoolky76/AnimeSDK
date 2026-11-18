@@ -6,12 +6,12 @@
 namespace NPCCrowd::Animation { class GPUIBone; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_GPUISKINNEDMESHDATA_GETARRAYINDEXOFBONE_OFFSET UNITYSDK_OFFSET(0xD88F6B0)
-#define NPCCROWD_ANIMATION_GPUISKINNEDMESHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD88F750)
+#define NPCCROWD_ANIMATION_GPUISKINNEDMESHDATA_GETARRAYINDEXOFBONE_OFFSET UNITYSDK_OFFSET(0xED66D20)
+#define NPCCROWD_ANIMATION_GPUISKINNEDMESHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xED66DC0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int GPUISkinnedMeshData_TypeDefinitionIndex = 65058;
+	inline static constexpr unsigned int GPUISkinnedMeshData_TypeDefinitionIndex = 53392;
 
 	class GPUISkinnedMeshData : public ::System::Object
 	{
@@ -20,6 +20,7 @@ namespace NPCCrowd::Animation
 		::Il2CppArray<::System::Int32>* boneIndexes; // 0x18
 		::System::Int32 rootBoneIndex; // 0x20
 		::System::Boolean hasBindPoseOffset; // 0x24
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Matrix4x4 bindPoseOffset; // 0x28
 		::System::Boolean isOptional; // 0x68
 		::System::Boolean isOptionalPrototypeGenerated; // 0x69

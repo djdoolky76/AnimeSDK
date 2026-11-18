@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Newtonsoft/Json/Utilities/StringReference.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Newtonsoft/Json/Utilities/StringReference.h"
 
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_ENDSWITH_OFFSET UNITYSDK_OFFSET(0x1F556C10)
-#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1F556A90)
-#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1F556AD0)
+#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_ENDSWITH_OFFSET UNITYSDK_OFFSET(0x1F939D70)
+#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1F939BF0)
+#define NEWTONSOFT_JSON_UTILITIES_STRINGREFERENCEEXTENSIONS_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1F939C30)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int StringReferenceExtensions_TypeDefinitionIndex = 7089;
+	inline static constexpr unsigned int StringReferenceExtensions_TypeDefinitionIndex = 7096;
 
 	class StringReferenceExtensions : public ::System::Object
 	{

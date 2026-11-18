@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ToolboxItemFilterType_TypeDefinitionIndex = 2986;
+	inline static constexpr unsigned int ToolboxItemFilterType_TypeDefinitionIndex = 2985;
 
 	enum class ToolboxItemFilterType : ::System::Int32
 	{

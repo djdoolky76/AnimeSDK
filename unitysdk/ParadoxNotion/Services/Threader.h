@@ -3,34 +3,27 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { class Action; }
-namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
-namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
-namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
-namespace System { template <typename T1, typename T2> class Action_2; }
-namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System { template <typename T> class Action_1; }
-namespace System { template <typename T> class Func_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Threading { class Thread; }
 
-#define PARADOXNOTION_SERVICES_THREADER_BEGIN_OFFSET UNITYSDK_OFFSET(0x1D073AE0)
-#define PARADOXNOTION_SERVICES_THREADER_GET_APPLICATIONISPLAYING_OFFSET UNITYSDK_OFFSET(0x1D0737D0)
-#define PARADOXNOTION_SERVICES_THREADER_GET_ISMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1D073890)
-#define PARADOXNOTION_SERVICES_THREADER_SET_APPLICATIONISPLAYING_OFFSET UNITYSDK_OFFSET(0x1D073830)
-#define PARADOXNOTION_SERVICES_THREADER_STARTACTION_OFFSET UNITYSDK_OFFSET(0x1D073950)
-#define PARADOXNOTION_SERVICES_THREADER_THREADMONITOR_OFFSET UNITYSDK_OFFSET(0x1D073C20)
-#define PARADOXNOTION_SERVICES_THREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D073770)
+#define PARADOXNOTION_SERVICES_THREADER_BEGIN_OFFSET UNITYSDK_OFFSET(0x1D5EDE40)
+#define PARADOXNOTION_SERVICES_THREADER_GET_APPLICATIONISPLAYING_OFFSET UNITYSDK_OFFSET(0x1D5EDB40)
+#define PARADOXNOTION_SERVICES_THREADER_GET_ISMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1D5EDC00)
+#define PARADOXNOTION_SERVICES_THREADER_SET_APPLICATIONISPLAYING_OFFSET UNITYSDK_OFFSET(0x1D5EDBA0)
+#define PARADOXNOTION_SERVICES_THREADER_STARTACTION_OFFSET UNITYSDK_OFFSET(0x1D5EDCC0)
+#define PARADOXNOTION_SERVICES_THREADER_THREADMONITOR_OFFSET UNITYSDK_OFFSET(0x1D5EDF80)
+#define PARADOXNOTION_SERVICES_THREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5EDAE0)
 
 namespace ParadoxNotion::Services
 {
-	inline static constexpr unsigned int Threader_TypeDefinitionIndex = 30275;
+	inline static constexpr unsigned int Threader_TypeDefinitionIndex = 29284;
 
 	class Threader : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet__applicationIsPlaying_k__BackingField()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Threader_TypeDefinitionIndex)->GetStaticField(0x7A30);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Threader_TypeDefinitionIndex)->GetStaticField(0x7E30);
 		}
 
 		static ::System::Void _cctor()

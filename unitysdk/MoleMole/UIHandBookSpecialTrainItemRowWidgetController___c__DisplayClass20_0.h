@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1882B300)
-#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__DISPLAYCLASS20_0__REFRESHEQUIPDOUBLEELITE_B__0_OFFSET UNITYSDK_OFFSET(0x1882B310)
+#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18391A40)
+#define MOLEMOLE_UIHANDBOOKSPECIALTRAINITEMROWWIDGETCONTROLLER___C__DISPLAYCLASS20_0__REFRESHEQUIPDOUBLEELITE_B__0_OFFSET UNITYSDK_OFFSET(0x18391A50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookSpecialTrainItemRowWidgetController___c__DisplayClass20_0_TypeDefinitionIndex = 87458;
+	inline static constexpr unsigned int UIHandBookSpecialTrainItemRowWidgetController___c__DisplayClass20_0_TypeDefinitionIndex = 66567;
 
 	class UIHandBookSpecialTrainItemRowWidgetController___c__DisplayClass20_0 : public ::System::Object
 	{

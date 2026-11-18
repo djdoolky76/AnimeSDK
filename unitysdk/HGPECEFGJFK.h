@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IEJHOJBLOHI.h"
+
+class CPIMPLCKPMB;
+class EOGCDNPHKDI;
+class JKHNCKENNKN;
+class OFLPOCHHHLC;
+class PNHPELCKOHH;
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+
+#define HGPECEFGJFK_ENBPLDFDGLI_OFFSET UNITYSDK_OFFSET(0x132D3BE0)
+#define HGPECEFGJFK_INEGOEGIOKM_OFFSET UNITYSDK_OFFSET(0x132D3B40)
+#define HGPECEFGJFK_KHGPLGMDOFC_OFFSET UNITYSDK_OFFSET(0x132D3740)
+#define HGPECEFGJFK_MNEFKNFOABP_OFFSET UNITYSDK_OFFSET(0x132D3AB0)
+#define HGPECEFGJFK_OJFBBOMGIEN_OFFSET UNITYSDK_OFFSET(0x132D3980)
+#define HGPECEFGJFK__CTOR_OFFSET UNITYSDK_OFFSET(0x132D3A30)
+
+inline static constexpr unsigned int HGPECEFGJFK_TypeDefinitionIndex = 94892;
+
+class HGPECEFGJFK : public ::IEJHOJBLOHI
+{
+public:
+	::PNHPELCKOHH* GEEHGDABNJF; // 0x28
+	::System::Action_3<::CPIMPLCKPMB*, ::EOGCDNPHKDI*, ::JKHNCKENNKN*>* LCHHKALKCGP; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HGPECEFGJFK__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KHGPLGMDOFC(::OFLPOCHHHLC* GEEHGDABNJF)
+	{
+		return ((::System::Void(*)(::PVOID, ::OFLPOCHHHLC*))((::PBYTE)hIl2Cpp + HGPECEFGJFK_KHGPLGMDOFC_OFFSET))(this, GEEHGDABNJF);
+	}
+
+	::System::Void OJFBBOMGIEN(::System::Single PMNLNNGEIFM)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + HGPECEFGJFK_OJFBBOMGIEN_OFFSET))(this, PMNLNNGEIFM);
+	}
+
+	::System::Void MNEFKNFOABP(::OFLPOCHHHLC* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::OFLPOCHHHLC*))((::PBYTE)hIl2Cpp + HGPECEFGJFK_MNEFKNFOABP_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void INEGOEGIOKM(::System::Single MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + HGPECEFGJFK_INEGOEGIOKM_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void ENBPLDFDGLI(::CPIMPLCKPMB* APKGEBPIMCL, ::EOGCDNPHKDI* GKODDNGEIDN, ::JKHNCKENNKN* KOJMOIJNJDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::CPIMPLCKPMB*, ::EOGCDNPHKDI*, ::JKHNCKENNKN*))((::PBYTE)hIl2Cpp + HGPECEFGJFK_ENBPLDFDGLI_OFFSET))(this, APKGEBPIMCL, GKODDNGEIDN, KOJMOIJNJDG);
+	}
+};

@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/InputSystem/InputControl_1.h"
 
-#define UNITYENGINE_INPUTSYSTEM_CONTROLS_INTEGERCONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET UNITYSDK_OFFSET(0x1EC32A90)
-#define UNITYENGINE_INPUTSYSTEM_CONTROLS_INTEGERCONTROL_WRITEVALUEINTOSTATE_OFFSET UNITYSDK_OFFSET(0x1EC32AA0)
-#define UNITYENGINE_INPUTSYSTEM_CONTROLS_INTEGERCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC32A20)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_INTEGERCONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET UNITYSDK_OFFSET(0x1EFE5C40)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_INTEGERCONTROL_WRITEVALUEINTOSTATE_OFFSET UNITYSDK_OFFSET(0x1EFE5C50)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_INTEGERCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE5BD0)
 
 namespace UnityEngine::InputSystem::Controls
 {
-	inline static constexpr unsigned int IntegerControl_TypeDefinitionIndex = 32636;
+	inline static constexpr unsigned int IntegerControl_TypeDefinitionIndex = 32085;
 
-	class IntegerControl : public ::UnityEngine::InputSystem::InputControl_1<::System::Int32>
+	class IntegerControl
 	{
 	public:
 		::System::Void _ctor()
@@ -18,14 +17,14 @@ namespace UnityEngine::InputSystem::Controls
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_INTEGERCONTROL__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 ReadUnprocessedValueFromState(::System::Void* statePtr)
+		::System::Int32 ReadUnprocessedValueFromState(::PVOID statePtr)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Void*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_INTEGERCONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET))(this, statePtr);
+			return ((::System::Int32(*)(::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_INTEGERCONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET))(this, statePtr);
 		}
 
-		::System::Void WriteValueIntoState(::System::Int32 value, ::System::Void* statePtr)
+		::System::Void WriteValueIntoState(::System::Int32 value, ::PVOID statePtr)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Void*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_INTEGERCONTROL_WRITEVALUEINTOSTATE_OFFSET))(this, value, statePtr);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_INTEGERCONTROL_WRITEVALUEINTOSTATE_OFFSET))(this, value, statePtr);
 		}
 	};
 }

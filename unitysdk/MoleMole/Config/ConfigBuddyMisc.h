@@ -10,11 +10,11 @@ namespace MoleMole::Config { class ConfigAvatarGround; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGBUDDYMISC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4A7730)
+#define MOLEMOLE_CONFIG_CONFIGBUDDYMISC__CTOR_OFFSET UNITYSDK_OFFSET(0x1652E480)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigBuddyMisc_TypeDefinitionIndex = 57714;
+	inline static constexpr unsigned int ConfigBuddyMisc_TypeDefinitionIndex = 53801;
 
 	class ConfigBuddyMisc : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -30,6 +30,7 @@ namespace MoleMole::Config
 		::System::Single CheckFallSphereRadius; // 0x88
 		::System::Single CheckFallHeight; // 0x8C
 		::System::Single CheckFallDuration; // 0x90
+		::System::Byte _padding0[0x4];
 		::MoleMole::Battle::AnimatorParamControl* FallAnimatorParam; // 0x98
 		::MoleMole::Battle::AnimatorParamControl* GroundAnimatorParam; // 0xA0
 		::MoleMole::Battle::AnimatorParamControl* SlipAnimatorParam; // 0xA8

@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/TypeLoadException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_TYPEACCESSEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CD65230)
-#define SYSTEM_TYPEACCESSEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1CD652C0)
-#define SYSTEM_TYPEACCESSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD65170)
+#define SYSTEM_TYPEACCESSEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D2E37A0)
+#define SYSTEM_TYPEACCESSEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D2E3830)
+#define SYSTEM_TYPEACCESSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E36E0)
 
 namespace System
 {

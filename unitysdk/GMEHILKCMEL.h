@@ -1,0 +1,95 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class DCNGDMKEFIB;
+class DCOKCACOPJM_LBKNDBKHFID;
+class FGCOIBFFCHB;
+class IOGNOJICGBC_INABIDNEJCN;
+class OCPGFALALPD_BEDAALJJKEP;
+class PopText;
+namespace MoleMole { class UIGeneralButtonController; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+
+#define GMEHILKCMEL_DLJECPGNHJJ_OFFSET UNITYSDK_OFFSET(0x15B2C1A0)
+#define GMEHILKCMEL_FAAFMPDBCAM_OFFSET UNITYSDK_OFFSET(0x15B2C2D0)
+#define GMEHILKCMEL_GBJGIJONEFG_1_OFFSET UNITYSDK_OFFSET(0x15B2C040)
+#define GMEHILKCMEL_GBJGIJONEFG_2_OFFSET UNITYSDK_OFFSET(0x15B2BFB0)
+#define GMEHILKCMEL_GBJGIJONEFG_OFFSET UNITYSDK_OFFSET(0x15B2C0F0)
+#define GMEHILKCMEL_JPPEEOLOGGP_1_OFFSET UNITYSDK_OFFSET(0x15B2C2E0)
+#define GMEHILKCMEL_JPPEEOLOGGP_2_OFFSET UNITYSDK_OFFSET(0x15B2C360)
+#define GMEHILKCMEL_JPPEEOLOGGP_OFFSET UNITYSDK_OFFSET(0x15B2C240)
+#define GMEHILKCMEL_NBEICDBDCKD_OFFSET UNITYSDK_OFFSET(0x15B2C2C0)
+#define GMEHILKCMEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15B2BD80)
+
+inline static constexpr unsigned int GMEHILKCMEL_TypeDefinitionIndex = 88251;
+
+class GMEHILKCMEL : public ::System::Object
+{
+public:
+	::MoleMole::UIGeneralButtonController* PMBLECALCKB; // 0x10
+	::UnityEngine::UI::Extension::UILocalizationText* JDJKPGMLGDN; // 0x18
+	::UnityEngine::GameObject* MCAAOMJBEJD; // 0x20
+	::MoleMole::UIGeneralButtonController* PLAMJEBHINP; // 0x28
+	::UnityEngine::UI::Extension::UILocalizationText* EPMEILNJMFF; // 0x30
+	::MoleMole::UIGeneralButtonController* OLPGKOEJIBN; // 0x38
+	::MoleMole::UIGeneralButtonController* HEBLCLJPNOA; // 0x40
+	::UnityEngine::GameObject* KFNPMAMDCKL; // 0x48
+	::UnityEngine::GameObject* PIFJKHGOENP; // 0x50
+	::DCNGDMKEFIB* _AEANKPFAPHM_k__BackingField; // 0x58
+	::PopText* BCFEHMPBOOI; // 0x60
+	::System::Action_2<::System::Boolean, ::System::Boolean>* MMEPEPKBDLG; // 0x68
+	::FGCOIBFFCHB* GBINLDBJAJA; // 0x70
+
+	::System::Void _ctor(::DCNGDMKEFIB* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::DCNGDMKEFIB*))((::PBYTE)hIl2Cpp + GMEHILKCMEL__CTOR_OFFSET))(this, IOKOLJDCKPN);
+	}
+
+	::System::Void GBJGIJONEFG(::OCPGFALALPD_BEDAALJJKEP* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::OCPGFALALPD_BEDAALJJKEP*))((::PBYTE)hIl2Cpp + GMEHILKCMEL_GBJGIJONEFG_OFFSET))(this, IOKOLJDCKPN);
+	}
+
+	::System::Void DLJECPGNHJJ(::System::Boolean FIPHFGHNNBE, ::System::Boolean HHBFNJMGNGD)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + GMEHILKCMEL_DLJECPGNHJJ_OFFSET))(this, FIPHFGHNNBE, HHBFNJMGNGD);
+	}
+
+	::System::Void GBJGIJONEFG_1(::DCOKCACOPJM_LBKNDBKHFID* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::DCOKCACOPJM_LBKNDBKHFID*))((::PBYTE)hIl2Cpp + GMEHILKCMEL_GBJGIJONEFG_1_OFFSET))(this, IOKOLJDCKPN);
+	}
+
+	::System::Void GBJGIJONEFG_2(::IOGNOJICGBC_INABIDNEJCN* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::IOGNOJICGBC_INABIDNEJCN*))((::PBYTE)hIl2Cpp + GMEHILKCMEL_GBJGIJONEFG_2_OFFSET))(this, IOKOLJDCKPN);
+	}
+
+	static ::GMEHILKCMEL* JPPEEOLOGGP(::IOGNOJICGBC_INABIDNEJCN* IOKOLJDCKPN)
+	{
+		return ((::GMEHILKCMEL*(*)(::IOGNOJICGBC_INABIDNEJCN*))((::PBYTE)hIl2Cpp + GMEHILKCMEL_JPPEEOLOGGP_OFFSET))(IOKOLJDCKPN);
+	}
+
+	::System::Void NBEICDBDCKD(::DCNGDMKEFIB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::DCNGDMKEFIB*))((::PBYTE)hIl2Cpp + GMEHILKCMEL_NBEICDBDCKD_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::DCNGDMKEFIB* FAAFMPDBCAM()
+	{
+		return ((::DCNGDMKEFIB*(*)(::PVOID))((::PBYTE)hIl2Cpp + GMEHILKCMEL_FAAFMPDBCAM_OFFSET))(this);
+	}
+
+	static ::GMEHILKCMEL* JPPEEOLOGGP_1(::OCPGFALALPD_BEDAALJJKEP* IOKOLJDCKPN)
+	{
+		return ((::GMEHILKCMEL*(*)(::OCPGFALALPD_BEDAALJJKEP*))((::PBYTE)hIl2Cpp + GMEHILKCMEL_JPPEEOLOGGP_1_OFFSET))(IOKOLJDCKPN);
+	}
+
+	static ::GMEHILKCMEL* JPPEEOLOGGP_2(::DCOKCACOPJM_LBKNDBKHFID* IOKOLJDCKPN)
+	{
+		return ((::GMEHILKCMEL*(*)(::DCOKCACOPJM_LBKNDBKHFID*))((::PBYTE)hIl2Cpp + GMEHILKCMEL_JPPEEOLOGGP_2_OFFSET))(IOKOLJDCKPN);
+	}
+};

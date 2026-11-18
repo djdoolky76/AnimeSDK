@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDSETBATTLEINFOTARGET_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A8AE50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDSETBATTLEINFOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x13A8B000)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDSETBATTLEINFOTARGET_INVOKE_OFFSET UNITYSDK_OFFSET(0x146656E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDSETBATTLEINFOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x14665890)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedSetBattleInfoTarget_TypeDefinitionIndex = 54497;
+	inline static constexpr unsigned int LDTurnBasedSetBattleInfoTarget_TypeDefinitionIndex = 64951;
 
-	class LDTurnBasedSetBattleInfoTarget : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::String*, ::Il2CppArray<::System::Object*>*>
+	class LDTurnBasedSetBattleInfoTarget
 	{
 	public:
 		::System::Void _ctor()

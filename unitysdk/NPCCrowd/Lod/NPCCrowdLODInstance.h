@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
-#include "unitysdk/NPCCrowd/Lod/ConditionData.h"
 #include "unitysdk/NPCCrowd/Lod/CrowdLODDistanceSetting.h"
 #include "unitysdk/NPCCrowd/Lod/LODItem.h"
+#include "unitysdk/NPCCrowd/Lod/NPCCrowdLodNativeChannel.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
+#include "unitysdk/NPCCrowd/Lod/ConditionData.h"
 
 namespace NPCCrowd::Lod { class INPCCrowdDistanceCheckInterface; }
 namespace NPCCrowd::Lod { class NPCCrowdDistanceManager_NpcCrowdDistanceCheck; }
@@ -14,47 +15,53 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_ADDLODPARAMS_1_OFFSET UNITYSDK_OFFSET(0xD89F6D0)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_ADDLODPARAMS_OFFSET UNITYSDK_OFFSET(0xD89F5E0)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_DELAYUNREGISTERLODREFPOINT_OFFSET UNITYSDK_OFFSET(0xD8A1CA0)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_DICTFROMPOOL_OFFSET UNITYSDK_OFFSET(0xD8A0C10)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_DICTTOPOOL_OFFSET UNITYSDK_OFFSET(0xD8A1BA0)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_DISTANCECALLBACK_OFFSET UNITYSDK_OFFSET(0xD8A1F80)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_GETLODINDEX_OFFSET UNITYSDK_OFFSET(0xD8A2400)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_GETPARAMSETTING_OFFSET UNITYSDK_OFFSET(0xD8A0760)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_REFRESHLODPARAMS_1_OFFSET UNITYSDK_OFFSET(0xD89FF70)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_REFRESHLODPARAMS_OFFSET UNITYSDK_OFFSET(0xD89F7C0)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_REFRESHREGISTRY_OFFSET UNITYSDK_OFFSET(0xD89FC30)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_REGISTERDISTANCEPAIR_OFFSET UNITYSDK_OFFSET(0xD8A0D00)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_REGISTERLODITEM_OFFSET UNITYSDK_OFFSET(0xD8A09A0)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_REGISTERLODREFPOINT_OFFSET UNITYSDK_OFFSET(0xD8A15C0)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_SETLODITEMPARAMKEY_OFFSET UNITYSDK_OFFSET(0xD8A1230)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_SETLODPARAMENABLE_OFFSET UNITYSDK_OFFSET(0xD89F760)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_UNREGISTERLODITEM_OFFSET UNITYSDK_OFFSET(0xD8A18A0)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_UNREGISTERLODREFPOINT_OFFSET UNITYSDK_OFFSET(0xD8A1D20)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_UPDATELODITEMBIAS_OFFSET UNITYSDK_OFFSET(0xD8A03E0)
-#define NPCCROWD_LOD_NPCCROWDLODINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xD89F2C0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_ADDLODPARAMS_1_OFFSET UNITYSDK_OFFSET(0x15FA2D00)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_ADDLODPARAMS_OFFSET UNITYSDK_OFFSET(0x15FA2C10)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_DELAYUNREGISTERLODREFPOINT_OFFSET UNITYSDK_OFFSET(0x15FA56F0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_DICTFROMPOOL_OFFSET UNITYSDK_OFFSET(0x15FA4290)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_DICTTOPOOL_OFFSET UNITYSDK_OFFSET(0x15FA55F0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_DISTANCECALLBACK_OFFSET UNITYSDK_OFFSET(0x15FA59C0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_GETLODINDEX_1_OFFSET UNITYSDK_OFFSET(0x15FA60A0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_GETLODINDEX_OFFSET UNITYSDK_OFFSET(0x15FA5F30)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_GETPARAMSETTING_OFFSET UNITYSDK_OFFSET(0x15FA3DB0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_REFRESHLODPARAMS_1_OFFSET UNITYSDK_OFFSET(0x15FA35A0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_REFRESHLODPARAMS_OFFSET UNITYSDK_OFFSET(0x15FA2DF0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_REFRESHREGISTRY_OFFSET UNITYSDK_OFFSET(0x15FA3260)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_REGISTERDISTANCEPAIR_OFFSET UNITYSDK_OFFSET(0x15FA4380)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_REGISTERLODITEM_OFFSET UNITYSDK_OFFSET(0x15FA3FF0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_REGISTERLODREFPOINT_OFFSET UNITYSDK_OFFSET(0x15FA5000)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_SETLODITEMPARAMKEY_OFFSET UNITYSDK_OFFSET(0x15FA4C60)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_SETLODPARAMENABLE_OFFSET UNITYSDK_OFFSET(0x15FA2D90)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_SHOULDWRITENATIVEDISTANCELODINDEX_OFFSET UNITYSDK_OFFSET(0x15FA5EB0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_TRYGETLODINDEX_OFFSET UNITYSDK_OFFSET(0x15FA6110)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_UNREGISTERLODITEM_OFFSET UNITYSDK_OFFSET(0x15FA52F0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_UNREGISTERLODREFPOINT_OFFSET UNITYSDK_OFFSET(0x15FA5760)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_UPDATELODITEMBIAS_OFFSET UNITYSDK_OFFSET(0x15FA3A20)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_UPDATENATIVELODINDEX_OFFSET UNITYSDK_OFFSET(0x15FA48B0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE_WRITENATIVEDISTANCELODINDEX_OFFSET UNITYSDK_OFFSET(0x15FA4AD0)
+#define NPCCROWD_LOD_NPCCROWDLODINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x15FA28F0)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdLODInstance_TypeDefinitionIndex = 58063;
+	inline static constexpr unsigned int NPCCrowdLODInstance_TypeDefinitionIndex = 80423;
 
 	class NPCCrowdLODInstance : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 InvalidParamKey = 0xFFFFFFFF; // 0x0
-		::System::Collections::Generic::HashSet_1<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*>* lodRefPoints; // 0x10
-		::System::Collections::Generic::Stack_1<::System::Collections::Generic::Dictionary_2<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::Int32>*>* dictPool; // 0x18
+		// static const ::System::Int32 InvalidParamKey = -0x1; // 0x0
+		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::NPCCrowd::Lod::LODItem>* lodItems; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Lod::CrowdLODDistanceSetting>* lodParams; // 0x18
 		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::Int32>>*>* entity2Handlers; // 0x20
-		::System::Collections::Generic::Stack_1<::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::Int32>>*>* listCache; // 0x28
-		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::NPCCrowd::Lod::LODItem>* lodItems; // 0x30
+		::System::Collections::Generic::HashSet_1<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*>* lodRefPoints; // 0x28
+		::System::Collections::Generic::Stack_1<::System::Collections::Generic::Dictionary_2<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::Int32>*>* dictPool; // 0x30
 		::NPCCrowd::Lod::NPCCrowdDistanceManager_NpcCrowdDistanceCheck* callback; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Lod::CrowdLODDistanceSetting>* lodParams; // 0x40
-		::System::Int32 curValidParam; // 0x48
+		::System::Collections::Generic::Stack_1<::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::Int32>>*>* listCache; // 0x40
+		::NPCCrowd::Lod::NPCCrowdLodNativeChannel nativeChannel; // 0x48
+		::System::Int32 curValidParam; // 0x4C
 
-		::System::Void _ctor()
+		::System::Void _ctor(::NPCCrowd::Lod::NPCCrowdLodNativeChannel nativeChannel)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Lod::NPCCrowdLodNativeChannel))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE__CTOR_OFFSET))(this, nativeChannel);
 		}
 
 		::System::Void AddLODParams(::Il2CppArray<::System::Single>* lodDis, ::System::Single lodBias, ::System::Int32 key)
@@ -97,9 +104,14 @@ namespace NPCCrowd::Lod
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::NPCCrowd::Lod::LODItem, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE_REFRESHREGISTRY_OFFSET))(this, registry, item, softArea);
 		}
 
-		::System::Void RegisterLODItem(::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface* i, ::System::Single bias, ::System::Int32 paramKey)
+		::System::Void RegisterLODItem(::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface* i, ::System::Single bias, ::System::Int32 paramKey, ::System::Int32 nativeLodIndex)
 		{
-			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE_REGISTERLODITEM_OFFSET))(this, i, bias, paramKey);
+			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::Single, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE_REGISTERLODITEM_OFFSET))(this, i, bias, paramKey, nativeLodIndex);
+		}
+
+		::System::Void UpdateNativeLodIndex(::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface* i, ::System::Int32 nativeLodIndex)
+		{
+			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE_UPDATENATIVELODINDEX_OFFSET))(this, i, nativeLodIndex);
 		}
 
 		::System::Void SetLODItemParamKey(::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface* i, ::System::Int32 paramKey)
@@ -137,9 +149,29 @@ namespace NPCCrowd::Lod
 			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Lod::ConditionData, ::System::Boolean, ::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE_DISTANCECALLBACK_OFFSET))(this, conditionData, greater, p1, p2);
 		}
 
-		::System::Int32 GetLODIndex(::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface* i)
+		::System::Void WriteNativeDistanceLodIndex(::NPCCrowd::Lod::LODItem item)
 		{
-			return ((::System::Int32(*)(::PVOID, ::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE_GETLODINDEX_OFFSET))(this, i);
+			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Lod::LODItem))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE_WRITENATIVEDISTANCELODINDEX_OFFSET))(this, item);
+		}
+
+		static ::System::Boolean ShouldWriteNativeDistanceLodIndex()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE_SHOULDWRITENATIVEDISTANCELODINDEX_OFFSET))();
+		}
+
+		static ::System::Int32 GetLODIndex(::NPCCrowd::Lod::LODItem item)
+		{
+			return ((::System::Int32(*)(::NPCCrowd::Lod::LODItem))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE_GETLODINDEX_OFFSET))(item);
+		}
+
+		::System::Int32 GetLODIndex_1(::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface* i)
+		{
+			return ((::System::Int32(*)(::PVOID, ::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE_GETLODINDEX_1_OFFSET))(this, i);
+		}
+
+		::System::Boolean TryGetLODIndex(::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface* i, ::System::Int32& lodIndex)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::Int32&))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDLODINSTANCE_TRYGETLODINDEX_OFFSET))(this, i, lodIndex);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::NPCCrowd::Lod::INPCCrowdDistanceCheckInterface*, ::System::Int32>* DictFromPool()

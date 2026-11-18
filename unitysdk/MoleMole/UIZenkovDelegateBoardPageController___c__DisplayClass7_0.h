@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIZenkovDelegateBoardPageController; }
 
-#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10F132E0)
-#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__DISPLAYCLASS7_0__REFRESHHANDIN_B__0_OFFSET UNITYSDK_OFFSET(0x10F132F0)
+#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13B3EFA0)
+#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__DISPLAYCLASS7_0__REFRESHHANDIN_B__0_OFFSET UNITYSDK_OFFSET(0x13B3EFB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovDelegateBoardPageController___c__DisplayClass7_0_TypeDefinitionIndex = 88485;
+	inline static constexpr unsigned int UIZenkovDelegateBoardPageController___c__DisplayClass7_0_TypeDefinitionIndex = 51367;
 
 	class UIZenkovDelegateBoardPageController___c__DisplayClass7_0 : public ::System::Object
 	{

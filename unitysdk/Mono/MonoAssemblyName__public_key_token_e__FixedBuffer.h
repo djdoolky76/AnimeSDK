@@ -6,8 +6,8 @@ namespace Mono
 {
 	inline static constexpr unsigned int MonoAssemblyName__public_key_token_e__FixedBuffer_TypeDefinitionIndex = 23;
 
-	struct alignas(1) MonoAssemblyName__public_key_token_e__FixedBuffer
+	struct alignas(4) MonoAssemblyName__public_key_token_e__FixedBuffer
 	{
-		::System::Byte data[17]; // 0x0
+		::System::Byte FixedElementField; // 0x10
 	};
 }

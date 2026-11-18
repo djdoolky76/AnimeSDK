@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CASETEST_TEXTURESHEETCOLLECTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A491BF0)
+#define MOLEMOLE_CASETEST_TEXTURESHEETCOLLECTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x16513B00)
 
 namespace MoleMole::CaseTest
 {
-	inline static constexpr unsigned int TextureSheetCollectProxy_TypeDefinitionIndex = 90449;
+	inline static constexpr unsigned int TextureSheetCollectProxy_TypeDefinitionIndex = 86095;
 
 	class TextureSheetCollectProxy : public ::System::Object
 	{

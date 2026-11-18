@@ -7,18 +7,19 @@
 namespace MoleMole { class UIRidusGotBooPageController; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__ENTERFEVER_D__16_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x86B540)
-#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__ENTERFEVER_D__16_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__ENTERFEVER_D__16_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x7D8AC0)
+#define MOLEMOLE_UIRIDUSGOTBOOPAGECONTROLLER__ENTERFEVER_D__16_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController__EnterFever_d__16_TypeDefinitionIndex = 91564;
+	inline static constexpr unsigned int UIRidusGotBooPageController__EnterFever_d__16_TypeDefinitionIndex = 45884;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16>
 	struct alignas(8) UIRidusGotBooPageController__EnterFever_d__16
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
-		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x30
+		::MoleMole::UIRidusGotBooPageController* __4__this; // 0x20
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x28
 		::System::Int32 __1__state; // 0x38
 
 		::System::Void MoveNext()

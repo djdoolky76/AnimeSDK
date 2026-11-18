@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D4F8C41AAD377B89;
-class Class_2_C55CF0E7625BD6F4;
+class HHLMDHFGAJJ;
+class MGCPJNAGCHA;
 
-#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179F2C50)
-#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__SORTMONSTERCARD_G__SORTEDFUNC_0_OFFSET UNITYSDK_OFFSET(0x179F2C60)
+#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1796D180)
+#define MOLEMOLE_UIMONSTERCARDSELECTIONPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__SORTMONSTERCARD_G__SORTEDFUNC_0_OFFSET UNITYSDK_OFFSET(0x1796D190)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardSelectionPopWindowController___c__DisplayClass55_0_TypeDefinitionIndex = 51990;
+	inline static constexpr unsigned int UIMonsterCardSelectionPopWindowController___c__DisplayClass55_0_TypeDefinitionIndex = 86926;
 
 	class UIMonsterCardSelectionPopWindowController___c__DisplayClass55_0 : public ::System::Object
 	{
 	public:
-		::Class_2_C55CF0E7625BD6F4* cardModel; // 0x10
-		::Class_1_D4F8C41AAD377B89* build; // 0x18
+		::MGCPJNAGCHA* build; // 0x10
+		::HHLMDHFGAJJ* cardModel; // 0x18
 
 		::System::Void _ctor()
 		{

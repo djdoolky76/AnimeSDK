@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LDDNNIJEIDG_TypeDefinitionIndex = 23212;
+
+enum class LDDNNIJEIDG : ::System::Int32
+{
+	JOAOPOOJCPD = 1014,
+	IPCGFPHPNCG = 0,
+	LCFIKOFEJHG = 1003,
+	HDMEOBFMBEB = 1036,
+	FBPBPOAIANM = 1012,
+	GOJGCCALHHG = 1004,
+	FAGINCPMGGA = 1035,
+	GDOBHAFOEOJ = 1007,
+	BPNHDAHBPHJ = 1037,
+	GMEALGCIHCD = 1006,
+	CKNKAKJIBDP = 1002,
+	IIGNPLCCAID = 1013,
+	JKPKIKOCCBC = 1001,
+};

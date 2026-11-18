@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoUITableScrollV2_BaseScrollLogic_BoundsType_TypeDefinitionIndex = 74979;
+inline static constexpr unsigned int MonoUITableScrollV2_BaseScrollLogic_BoundsType_TypeDefinitionIndex = 40142;
 
 enum class MonoUITableScrollV2_BaseScrollLogic_BoundsType : ::System::Int32
 {

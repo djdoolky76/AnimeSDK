@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas::Nodes { class LDWhileNext; }
 
-#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F286A0)
-#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x17F286B0)
-#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS7_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x17F28840)
+#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x142C02D0)
+#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x142C02E0)
+#define FLOWCANVAS_NODES_LDWHILENEXT___C__DISPLAYCLASS7_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x142C0470)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDWhileNext___c__DisplayClass7_0_TypeDefinitionIndex = 71778;
+	inline static constexpr unsigned int LDWhileNext___c__DisplayClass7_0_TypeDefinitionIndex = 54654;
 
 	class LDWhileNext___c__DisplayClass7_0 : public ::System::Object
 	{

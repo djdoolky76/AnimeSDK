@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define PERFTEYVAT_NETWORKCLIENTPROFILER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8FB80)
+#define PERFTEYVAT_NETWORKCLIENTPROFILER__CTOR_OFFSET UNITYSDK_OFFSET(0x1374BFE0)
 
 namespace PerfTeyvat
 {
-	inline static constexpr unsigned int NetworkClientProfiler_TypeDefinitionIndex = 54159;
+	inline static constexpr unsigned int NetworkClientProfiler_TypeDefinitionIndex = 81968;
 
 	class NetworkClientProfiler : public ::UnityEngine::MonoBehaviour
 	{

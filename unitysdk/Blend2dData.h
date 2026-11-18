@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/OneBoneLayer.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 namespace SimpleJSON { class JSONNode; }
 
-#define BLEND2DDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x139920C0)
-#define BLEND2DDATA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x13990150)
-#define BLEND2DDATA_FROMJSON_OFFSET UNITYSDK_OFFSET(0x139901F0)
-#define BLEND2DDATA_TOBINARY_OFFSET UNITYSDK_OFFSET(0x13992150)
-#define BLEND2DDATA_TOJSON_OFFSET UNITYSDK_OFFSET(0x13992040)
-#define BLEND2DDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x139921E0)
+#define BLEND2DDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18DBDBB0)
+#define BLEND2DDATA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x18DBBC40)
+#define BLEND2DDATA_FROMJSON_OFFSET UNITYSDK_OFFSET(0x18DBBCE0)
+#define BLEND2DDATA_TOBINARY_OFFSET UNITYSDK_OFFSET(0x18DBDC40)
+#define BLEND2DDATA_TOJSON_OFFSET UNITYSDK_OFFSET(0x18DBDB30)
+#define BLEND2DDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18DBDCD0)
 
-inline static constexpr unsigned int Blend2dData_TypeDefinitionIndex = 82026;
+inline static constexpr unsigned int Blend2dData_TypeDefinitionIndex = 50379;
 
 class Blend2dData : public ::System::Object
 {
@@ -41,13 +41,13 @@ public:
 		return ((::SimpleJSON::JSONNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + BLEND2DDATA_TOJSON_OFFSET))(this);
 	}
 
-	::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+	::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + BLEND2DDATA_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+		return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + BLEND2DDATA_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 	}
 
-	::System::Boolean ToBinary(::Class_1_236FD73ABC492E3F* byteArray)
+	::System::Boolean ToBinary(::FKNIEPCILLG* byteArray)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*))((::PBYTE)hIl2Cpp + BLEND2DDATA_TOBINARY_OFFSET))(this, byteArray);
+		return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*))((::PBYTE)hIl2Cpp + BLEND2DDATA_TOBINARY_OFFSET))(this, byteArray);
 	}
 };

@@ -4,12 +4,13 @@
 
 namespace MoleMole { class UIVHSStoreDialogDropDownBoxRowPopWindowController; }
 
-#define MOLEMOLE_UIVHSSTOREDIALOGDROPDOWNBOXROWPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_2__CTOR_OFFSET UNITYSDK_OFFSET(0x151B9540)
+#define MOLEMOLE_UIVHSSTOREDIALOGDROPDOWNBOXROWPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_2__CTOR_OFFSET UNITYSDK_OFFSET(0x113694D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreDialogDropDownBoxRowPopWindowController___c__DisplayClass9_2_TypeDefinitionIndex = 80854;
+	inline static constexpr unsigned int UIVHSStoreDialogDropDownBoxRowPopWindowController___c__DisplayClass9_2_TypeDefinitionIndex = 43570;
 
+	template <typename T1, typename T2>
 	class UIVHSStoreDialogDropDownBoxRowPopWindowController___c__DisplayClass9_2 : public ::System::Object
 	{
 	public:

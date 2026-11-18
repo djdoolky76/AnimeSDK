@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7E2480)
-#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E7E2510)
-#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1E7E25A0)
-#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E23C0)
+#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EA95520)
+#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EA955B0)
+#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1EA95640)
+#define SYSTEM_IO_INVALIDDATAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA95460)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int InvalidDataException_TypeDefinitionIndex = 3229;
+	inline static constexpr unsigned int InvalidDataException_TypeDefinitionIndex = 3228;
 
 	class InvalidDataException : public ::System::SystemException
 	{
 	public:
-		// static const ::System::Int32 Result = 0x80131503; // 0x0
+		// static const ::System::Int32 Result = -0x7FECEAFD; // 0x0
 
 		::System::Void _ctor()
 		{

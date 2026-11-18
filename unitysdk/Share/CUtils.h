@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/DateTimeOffset.h"
-#include "unitysdk/System/Object.h"
 
-#define SHARE_CUTILS_TOMILLITIMESTAMP_1_OFFSET UNITYSDK_OFFSET(0x1EA801C0)
-#define SHARE_CUTILS_TOMILLITIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1EA80060)
-#define SHARE_CUTILS_TOTIMESTAMP_1_OFFSET UNITYSDK_OFFSET(0x1EA80210)
-#define SHARE_CUTILS_TOTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1EA80110)
+#define SHARE_CUTILS_TOMILLITIMESTAMP_1_OFFSET UNITYSDK_OFFSET(0x1BF97FB0)
+#define SHARE_CUTILS_TOMILLITIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1BF97E50)
+#define SHARE_CUTILS_TOTIMESTAMP_1_OFFSET UNITYSDK_OFFSET(0x1BF98000)
+#define SHARE_CUTILS_TOTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x1BF97F00)
 
 namespace Share
 {
-	inline static constexpr unsigned int CUtils_TypeDefinitionIndex = 18259;
+	inline static constexpr unsigned int CUtils_TypeDefinitionIndex = 15014;
 
 	class CUtils : public ::System::Object
 	{

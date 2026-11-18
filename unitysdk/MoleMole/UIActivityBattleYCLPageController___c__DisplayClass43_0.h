@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_4_01F9221F8B6A9296_Enum_3_4845697BF1CAFCFF.h"
+#include "unitysdk/ADDEBPHFFIF_IOIGKKONACG.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIActivityBattleYCLPageController; }
 
-#define MOLEMOLE_UIACTIVITYBATTLEYCLPAGECONTROLLER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19751670)
-#define MOLEMOLE_UIACTIVITYBATTLEYCLPAGECONTROLLER___C__DISPLAYCLASS43_0__REFRESHTABANIM_B__0_OFFSET UNITYSDK_OFFSET(0x19751680)
+#define MOLEMOLE_UIACTIVITYBATTLEYCLPAGECONTROLLER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C8FC0)
+#define MOLEMOLE_UIACTIVITYBATTLEYCLPAGECONTROLLER___C__DISPLAYCLASS43_0__REFRESHTABANIM_B__0_OFFSET UNITYSDK_OFFSET(0x1A0C8FD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBattleYCLPageController___c__DisplayClass43_0_TypeDefinitionIndex = 65932;
+	inline static constexpr unsigned int UIActivityBattleYCLPageController___c__DisplayClass43_0_TypeDefinitionIndex = 59296;
 
 	class UIActivityBattleYCLPageController___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIActivityBattleYCLPageController* __4__this; // 0x10
-		::Class_4_01F9221F8B6A9296_Enum_3_4845697BF1CAFCFF newSubType; // 0x18
+		::ADDEBPHFFIF_IOIGKKONACG newSubType; // 0x18
 
 		::System::Void _ctor()
 		{

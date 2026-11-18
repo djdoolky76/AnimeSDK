@@ -5,18 +5,18 @@
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 
-#define NODECANVAS_TASKS_ACTIONS_NORMALIZEVECTOR_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E543240)
-#define NODECANVAS_TASKS_ACTIONS_NORMALIZEVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E543350)
+#define NODECANVAS_TASKS_ACTIONS_NORMALIZEVECTOR_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E7B72C0)
+#define NODECANVAS_TASKS_ACTIONS_NORMALIZEVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B73D0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int NormalizeVector_TypeDefinitionIndex = 29840;
+	inline static constexpr unsigned int NormalizeVector_TypeDefinitionIndex = 30248;
 
 	class NormalizeVector : public ::NodeCanvas::Framework::ActionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* targetVector; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* multiply; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* multiply; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* targetVector; // 0x68
 
 		::System::Void _ctor()
 		{

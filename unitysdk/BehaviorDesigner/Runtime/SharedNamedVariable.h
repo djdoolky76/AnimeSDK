@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 
 namespace BehaviorDesigner::Runtime { class NamedVariable; }
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDNAMEDVARIABLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E466C80)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDNAMEDVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E466BF0)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDNAMEDVARIABLE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E6B0B50)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDNAMEDVARIABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B0AC0)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedNamedVariable_TypeDefinitionIndex = 33924;
+	inline static constexpr unsigned int SharedNamedVariable_TypeDefinitionIndex = 33470;
 
-	class SharedNamedVariable : public ::BehaviorDesigner::Runtime::SharedVariable_1<::BehaviorDesigner::Runtime::NamedVariable*>
+	class SharedNamedVariable
 	{
 	public:
 		::System::Void _ctor()

@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BigSceneDungeonSubsystem_ZenkovHighQualityDisplayData_TypeDefinitionIndex = 44147;
+	inline static constexpr unsigned int BigSceneDungeonSubsystem_ZenkovHighQualityDisplayData_TypeDefinitionIndex = 71861;
 
 	struct alignas(8) BigSceneDungeonSubsystem_ZenkovHighQualityDisplayData
 	{

@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_E23E4CB2769CC93F;
+class IDGDIFDMIDP;
 
-#define MOLEMOLE_UISOCIALCIRCLETABROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15E908D0)
+#define MOLEMOLE_UISOCIALCIRCLETABROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17DA7180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleTabRowWidgetController_Data_TypeDefinitionIndex = 70364;
+	inline static constexpr unsigned int UISocialCircleTabRowWidgetController_Data_TypeDefinitionIndex = 55698;
 
 	class UISocialCircleTabRowWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_2_E23E4CB2769CC93F* SocialCircleDataExt; // 0x10
+		::IDGDIFDMIDP* SocialCircleDataExt; // 0x10
+		::System::Boolean DisableInteractionWhenEmpty; // 0x18
 
 		::System::Void _ctor()
 		{

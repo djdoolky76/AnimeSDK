@@ -6,7 +6,7 @@ namespace System
 {
 	inline static constexpr unsigned int TimeZoneInfo_SYSTEMTIME_TypeDefinitionIndex = 334;
 
-	struct alignas(2) TimeZoneInfo_SYSTEMTIME
+	struct alignas(4) TimeZoneInfo_SYSTEMTIME
 	{
 		::System::UInt16 wYear; // 0x10
 		::System::UInt16 wMonth; // 0x12

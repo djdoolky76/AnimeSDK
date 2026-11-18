@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BJCPKMHPHNI_OLKIFIEEHGG;
+namespace System { class Action; }
+
+#define BJCPKMHPHNI_OLKIFIEEHGG_FJHHLBJIHLI_DKDEFJPLGJB_OFFSET UNITYSDK_OFFSET(0x18682670)
+#define BJCPKMHPHNI_OLKIFIEEHGG_FJHHLBJIHLI_FLFGOAFFKNG_OFFSET UNITYSDK_OFFSET(0x18682630)
+#define BJCPKMHPHNI_OLKIFIEEHGG_FJHHLBJIHLI__CTOR_OFFSET UNITYSDK_OFFSET(0x18682620)
+
+inline static constexpr unsigned int BJCPKMHPHNI_OLKIFIEEHGG_FJHHLBJIHLI_TypeDefinitionIndex = 44269;
+
+class BJCPKMHPHNI_OLKIFIEEHGG_FJHHLBJIHLI : public ::System::Object
+{
+public:
+	::System::Action* EJGDHCIBCJH; // 0x10
+	::BJCPKMHPHNI_OLKIFIEEHGG* KLHPEBKNIFB; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BJCPKMHPHNI_OLKIFIEEHGG_FJHHLBJIHLI__CTOR_OFFSET))(this);
+	}
+
+	::System::Void FLFGOAFFKNG(::System::UInt32 GFOPLDDFDIA)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BJCPKMHPHNI_OLKIFIEEHGG_FJHHLBJIHLI_FLFGOAFFKNG_OFFSET))(this, GFOPLDDFDIA);
+	}
+
+	::System::Void DKDEFJPLGJB(::System::UInt32 GFOPLDDFDIA, ::System::UInt32 OGCCFFDGKII)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + BJCPKMHPHNI_OLKIFIEEHGG_FJHHLBJIHLI_DKDEFJPLGJB_OFFSET))(this, GFOPLDDFDIA, OGCCFFDGKII);
+	}
+};

@@ -16,11 +16,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x172AED10)
+#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x164190D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShootingGround_TypeDefinitionIndex = 66407;
+	inline static constexpr unsigned int ConfigShootingGround_TypeDefinitionIndex = 61965;
 
 	class ConfigShootingGround : public ::System::Object
 	{
@@ -28,6 +28,7 @@ namespace MoleMole::Config
 		::System::Single MaxShootDistance; // 0x10
 		::UnityEngine::LayerMask BlockLayers; // 0x14
 		::UnityEngine::LayerMask TargetLayers; // 0x18
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::MoleMole::Config::ConfigShootingGroundBulletType*>* BulletTypes; // 0x20
 		::MoleMole::Config::ConfigShootingGroundControl* MouseControlConfig; // 0x28
 		::MoleMole::Config::ConfigShootingGroundControl* TouchControlConfig; // 0x30
@@ -40,6 +41,7 @@ namespace MoleMole::Config
 		::System::Single OutlineColorIntensity; // 0x68
 		::System::Single OutlineAnimLifetime; // 0x6C
 		::System::Single OutlineThickness; // 0x70
+		::System::Byte _padding1[0x4];
 		::System::String* OutlineTag; // 0x78
 		::Il2CppArray<::UnityEngine::Material*>* ScoreMaterialByRank; // 0x80
 		::System::Collections::Generic::List_1<::System::String*>* EnterFreeShootSoundActionKeys; // 0x88

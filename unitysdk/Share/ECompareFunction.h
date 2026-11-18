@@ -3,16 +3,16 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int ECompareFunction_TypeDefinitionIndex = 14543;
+	inline static constexpr unsigned int ECompareFunction_TypeDefinitionIndex = 16428;
 
 	enum class ECompareFunction : ::System::Int16
 	{
-		GreaterEqual = 1,
-		NotEqual = 6,
-		Greater = 0,
-		Less = 3,
 		LessEqual = 4,
 		EnumCount = 7,
+		Less = 3,
+		NotEqual = 6,
+		GreaterEqual = 1,
 		Equal = 2,
+		Greater = 0,
 	};
 }

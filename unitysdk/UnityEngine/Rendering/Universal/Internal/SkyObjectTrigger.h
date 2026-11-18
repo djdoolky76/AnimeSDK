@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SKYOBJECTTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB172E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_SKYOBJECTTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED8690)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int SkyObjectTrigger_TypeDefinitionIndex = 27188;
+	inline static constexpr unsigned int SkyObjectTrigger_TypeDefinitionIndex = 26877;
 
 	class SkyObjectTrigger : public ::UnityEngine::MonoBehaviour
 	{

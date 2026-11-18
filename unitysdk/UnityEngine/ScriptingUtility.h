@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_SCRIPTINGUTILITY_ISMANAGEDCODEWORKING_OFFSET UNITYSDK_OFFSET(0x1EA66A40)
-#define UNITYENGINE_SCRIPTINGUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA66A50)
+#define UNITYENGINE_SCRIPTINGUTILITY_ISMANAGEDCODEWORKING_OFFSET UNITYSDK_OFFSET(0x1EDA3280)
+#define UNITYENGINE_SCRIPTINGUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDA3290)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ScriptingUtility_TypeDefinitionIndex = 5358;
+	inline static constexpr unsigned int ScriptingUtility_TypeDefinitionIndex = 5361;
 
 	class ScriptingUtility : public ::System::Object
 	{

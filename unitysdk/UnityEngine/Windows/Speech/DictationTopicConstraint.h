@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int DictationTopicConstraint_TypeDefinitionIndex = 5462;
+	inline static constexpr unsigned int DictationTopicConstraint_TypeDefinitionIndex = 5465;
 
 	enum class DictationTopicConstraint : ::System::Int32
 	{

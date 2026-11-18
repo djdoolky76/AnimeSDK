@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define OBJECTSANIMATIONBYCAMERA_TRANSFORMAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18C17A90)
+#define OBJECTSANIMATIONBYCAMERA_TRANSFORMAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7D5780)
 
-inline static constexpr unsigned int ObjectsAnimationByCamera_TransformAudioConfig_TypeDefinitionIndex = 75781;
+inline static constexpr unsigned int ObjectsAnimationByCamera_TransformAudioConfig_TypeDefinitionIndex = 38917;
 
 class ObjectsAnimationByCamera_TransformAudioConfig : public ::System::Object
 {

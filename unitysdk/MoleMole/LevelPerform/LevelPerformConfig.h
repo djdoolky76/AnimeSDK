@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 #include "unitysdk/MoleMole/InLevelMultiChatConfig.h"
-#include "unitysdk/MoleMole/LevelPerform/LevelPerformConfig_InLevelCameraSequenceConfig.h"
 
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 namespace MoleMole::LevelPerform { class LevelSettlementConfig; }
@@ -10,26 +9,27 @@ namespace MoleMole::Utils { class NapCameraSequence; }
 namespace PipelineCamera::CameraSequence { class CoreDataBindingResolver; }
 namespace PipelineCamera::CameraSequence { class CoreDataCollection; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1925B330)
-#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x1925B590)
-#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x1925B350)
-#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1925B340)
-#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1925B680)
+#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x11909E50)
+#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x11926A80)
+#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x11926840)
+#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x11926830)
+#define MOLEMOLE_LEVELPERFORM_LEVELPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11926B70)
 
 namespace MoleMole::LevelPerform
 {
-	inline static constexpr unsigned int LevelPerformConfig_TypeDefinitionIndex = 58452;
+	inline static constexpr unsigned int LevelPerformConfig_TypeDefinitionIndex = 44995;
 
 	class LevelPerformConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
-		static ::MoleMole::LevelPerform::LevelPerformConfig** StaticGet__Instance_k__BackingField()
+		static ::MoleMole::LevelPerform::LevelPerformConfig** StaticGet__instance()
 		{
-			return (::MoleMole::LevelPerform::LevelPerformConfig**)Il2CppClass::FromTypeDefinitionIndex(LevelPerformConfig_TypeDefinitionIndex)->GetStaticField(0x382B0);
+			return (::MoleMole::LevelPerform::LevelPerformConfig**)Il2CppClass::FromTypeDefinitionIndex(LevelPerformConfig_TypeDefinitionIndex)->GetStaticField(0x3A110);
 		}
 		// static const ::System::String* Path; // 0x0
 		// static const ::System::String* NapCameraSequenceCategory; // 0x0
@@ -39,6 +39,7 @@ namespace MoleMole::LevelPerform
 		::PipelineCamera::CameraSequence::CoreDataCollection* chatSequence; // 0x70
 		::PipelineCamera::CameraSequence::CoreDataCollection* multiChatSequence; // 0x78
 		::MoleMole::InLevelMultiChatConfig multiChatSequenceConfig; // 0x80
+		::System::Byte _padding0[0x4];
 		::MoleMole::Cameras::CameraTrackBlending* blendIn; // 0x90
 		::MoleMole::Cameras::CameraTrackBlending* blendOut; // 0x98
 		::PipelineCamera::CameraSequence::CoreDataCollection* levelFailedSequence; // 0xA0
@@ -48,7 +49,7 @@ namespace MoleMole::LevelPerform
 		::PipelineCamera::CameraSequence::CoreDataCollection* inLevelMultiChatSequence; // 0xC0
 		::PipelineCamera::CameraSequence::CoreDataBindingResolver* inLevelMultiChatSequenceBinding; // 0xC8
 		::MoleMole::Utils::NapCameraSequence* inLevelUIGame; // 0xD0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::LevelPerform::LevelPerformConfig_InLevelCameraSequenceConfig>* InLevelCameraSequence; // 0xD8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* InLevelCameraSequence; // 0xD8
 
 		::System::Void _ctor()
 		{

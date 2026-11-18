@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1685EC66FBD28897;
-namespace MoleMole { class UIDoubleEliteSweepRewardListRowController___c__DisplayClass5_0; }
+class KOIDMLPJGML;
 namespace MoleMole { class UIItemIconBtnWidgetController; }
 
-#define MOLEMOLE_UIDOUBLEELITESWEEPREWARDLISTROWCONTROLLER___C__DISPLAYCLASS5_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18AADDE0)
-#define MOLEMOLE_UIDOUBLEELITESWEEPREWARDLISTROWCONTROLLER___C__DISPLAYCLASS5_1__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x18AADDF0)
+#define MOLEMOLE_UIDOUBLEELITESWEEPREWARDLISTROWCONTROLLER___C__DISPLAYCLASS5_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1807D330)
+#define MOLEMOLE_UIDOUBLEELITESWEEPREWARDLISTROWCONTROLLER___C__DISPLAYCLASS5_1__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1807D340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDoubleEliteSweepRewardListRowController___c__DisplayClass5_1_TypeDefinitionIndex = 64026;
+	inline static constexpr unsigned int UIDoubleEliteSweepRewardListRowController___c__DisplayClass5_1_TypeDefinitionIndex = 87846;
 
+	template <typename T>
 	class UIDoubleEliteSweepRewardListRowController___c__DisplayClass5_1 : public ::System::Object
 	{
 	public:
-		::Class_1_1685EC66FBD28897* viewData; // 0x10
-		::MoleMole::UIDoubleEliteSweepRewardListRowController___c__DisplayClass5_0* CS___8__locals1; // 0x18
-		::MoleMole::UIItemIconBtnWidgetController* itemController; // 0x20
+		::KOIDMLPJGML* viewData; // 0x10
+		::MoleMole::UIItemIconBtnWidgetController* itemController; // 0x18
+		::System::Object* CS___8__locals1; // 0x20
 
 		::System::Void _ctor()
 		{

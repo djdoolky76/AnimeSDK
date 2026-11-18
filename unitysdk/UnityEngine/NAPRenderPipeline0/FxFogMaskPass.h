@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Rendering/FilteringSettings.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_FXFOGMASKPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EBE0EE0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_FXFOGMASKPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EBE1400)
-#define UNITYENGINE_NAPRENDERPIPELINE0_FXFOGMASKPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBE0E00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_FXFOGMASKPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF72470)
+#define UNITYENGINE_NAPRENDERPIPELINE0_FXFOGMASKPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EF72990)
+#define UNITYENGINE_NAPRENDERPIPELINE0_FXFOGMASKPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF72390)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int FxFogMaskPass_TypeDefinitionIndex = 5833;
+	inline static constexpr unsigned int FxFogMaskPass_TypeDefinitionIndex = 5839;
 
 	class FxFogMaskPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

@@ -3,21 +3,21 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_2_1A39E1B51756BF41;
+class FGCOIBFFCHB;
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class Image; }
 
-#define MATANIMATION_AWAKE_OFFSET UNITYSDK_OFFSET(0x12A11220)
-#define MATANIMATION_GET_TARGETMATERIAL_OFFSET UNITYSDK_OFFSET(0x12A11070)
-#define MATANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x12A113B0)
-#define MATANIMATION_RECOVERMATPROPERTY_OFFSET UNITYSDK_OFFSET(0x12A11450)
-#define MATANIMATION_SETMAT_OFFSET UNITYSDK_OFFSET(0x12A114F0)
-#define MATANIMATION_STARTANIMATION_OFFSET UNITYSDK_OFFSET(0x12A11280)
-#define MATANIMATION_STOPANIMATION_OFFSET UNITYSDK_OFFSET(0x12A11590)
-#define MATANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x12A115E0)
+#define MATANIMATION_AWAKE_OFFSET UNITYSDK_OFFSET(0x13040180)
+#define MATANIMATION_GET_TARGETMATERIAL_OFFSET UNITYSDK_OFFSET(0x1303FFD0)
+#define MATANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13040310)
+#define MATANIMATION_RECOVERMATPROPERTY_OFFSET UNITYSDK_OFFSET(0x130403B0)
+#define MATANIMATION_SETMAT_OFFSET UNITYSDK_OFFSET(0x13040450)
+#define MATANIMATION_STARTANIMATION_OFFSET UNITYSDK_OFFSET(0x130401E0)
+#define MATANIMATION_STOPANIMATION_OFFSET UNITYSDK_OFFSET(0x130404F0)
+#define MATANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x13040540)
 
-inline static constexpr unsigned int MatAnimation_TypeDefinitionIndex = 73962;
+inline static constexpr unsigned int MatAnimation_TypeDefinitionIndex = 59738;
 
 class MatAnimation : public ::UnityEngine::MonoBehaviour
 {
@@ -25,16 +25,19 @@ public:
 	::UnityEngine::Color clampA; // 0x18
 	::UnityEngine::Color clampB; // 0x28
 	::System::Boolean startDoing; // 0x38
+	::System::Byte _padding0[0x3];
 	::System::Single duration; // 0x3C
 	::System::Single timeCount; // 0x40
 	::UnityEngine::Color cacheClampA; // 0x44
 	::UnityEngine::Color cacheClampB; // 0x54
+	::System::Byte _padding1[0x4];
 	::UnityEngine::UI::Image* target; // 0x68
-	::Class_2_1A39E1B51756BF41* uiControlImage; // 0x70
+	::FGCOIBFFCHB* uiControlImage; // 0x70
 	::System::Int32 RampColorAShaderParamID; // 0x78
 	::System::Int32 RampColorBShaderParamID; // 0x7C
 	::System::Boolean doLast; // 0x80
 	::System::Boolean playAni; // 0x81
+	::System::Byte _padding2[0x6];
 	::System::String* ColorA; // 0x88
 	::System::String* ColorB; // 0x90
 

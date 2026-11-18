@@ -8,34 +8,34 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDLAYOUTBUILDER___C__BUILD_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F378620)
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDLAYOUTBUILDER___C__BUILD_B__4_1_OFFSET UNITYSDK_OFFSET(0x1F378630)
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDLAYOUTBUILDER___C__BUILD_B__4_2_OFFSET UNITYSDK_OFFSET(0x1F378640)
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDLAYOUTBUILDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3785D0)
-#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDLAYOUTBUILDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F378610)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDLAYOUTBUILDER___C__BUILD_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F7899A0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDLAYOUTBUILDER___C__BUILD_B__4_1_OFFSET UNITYSDK_OFFSET(0x1F7899B0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDLAYOUTBUILDER___C__BUILD_B__4_2_OFFSET UNITYSDK_OFFSET(0x1F7899C0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDLAYOUTBUILDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F789950)
+#define UNITYENGINE_INPUTSYSTEM_HID_HID_HIDLAYOUTBUILDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F789990)
 
 namespace UnityEngine::InputSystem::HID
 {
-	inline static constexpr unsigned int HID_HIDLayoutBuilder___c_TypeDefinitionIndex = 32408;
+	inline static constexpr unsigned int HID_HIDLayoutBuilder___c_TypeDefinitionIndex = 31857;
 
 	class HID_HIDLayoutBuilder___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::InputSystem::HID::HID_HIDLayoutBuilder___c** StaticGet___9()
+		static ::System::Predicate_1<::System::Object*>** StaticGet___9__4_1()
 		{
-			return (::UnityEngine::InputSystem::HID::HID_HIDLayoutBuilder___c**)Il2CppClass::FromTypeDefinitionIndex(HID_HIDLayoutBuilder___c_TypeDefinitionIndex)->GetStaticField(0x279A0);
+			return (::System::Predicate_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(HID_HIDLayoutBuilder___c_TypeDefinitionIndex)->GetStaticField(0x28A80);
 		}
-		static ::System::Predicate_1<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>** StaticGet___9__4_0()
+		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__4_2()
 		{
-			return (::System::Predicate_1<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>**)Il2CppClass::FromTypeDefinitionIndex(HID_HIDLayoutBuilder___c_TypeDefinitionIndex)->GetStaticField(0x279A8);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HID_HIDLayoutBuilder___c_TypeDefinitionIndex)->GetStaticField(0x28A88);
 		}
-		static ::System::Func_2<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::System::String*>** StaticGet___9__4_2()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HID_HIDLayoutBuilder___c_TypeDefinitionIndex)->GetStaticField(0x279B0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(HID_HIDLayoutBuilder___c_TypeDefinitionIndex)->GetStaticField(0x28A90);
 		}
-		static ::System::Predicate_1<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>** StaticGet___9__4_1()
+		static ::System::Predicate_1<::System::Object*>** StaticGet___9__4_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>**)Il2CppClass::FromTypeDefinitionIndex(HID_HIDLayoutBuilder___c_TypeDefinitionIndex)->GetStaticField(0x279B8);
+			return (::System::Predicate_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(HID_HIDLayoutBuilder___c_TypeDefinitionIndex)->GetStaticField(0x28A98);
 		}
 
 		static ::System::Void _cctor()

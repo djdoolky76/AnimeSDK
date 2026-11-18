@@ -3,12 +3,11 @@
 #include "unitysdk/NodeCanvas/Framework/ActionTask.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int RemoveElementFromList_1_TypeDefinitionIndex = 31314;
+	inline static constexpr unsigned int RemoveElementFromList_1_TypeDefinitionIndex = 30874;
 
 	template <typename T>
 	class RemoveElementFromList_1 : public ::NodeCanvas::Framework::ActionTask

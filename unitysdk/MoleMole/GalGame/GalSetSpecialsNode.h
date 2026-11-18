@@ -5,11 +5,11 @@
 namespace MoleMole { class SpecialKeyValue; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GALGAME_GALSETSPECIALSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x118C6800)
+#define MOLEMOLE_GALGAME_GALSETSPECIALSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16245F20)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalSetSpecialsNode_TypeDefinitionIndex = 86924;
+	inline static constexpr unsigned int GalSetSpecialsNode_TypeDefinitionIndex = 49418;
 
 	class GalSetSpecialsNode : public ::MoleMole::GalGame::GalPlayableNodeBase
 	{

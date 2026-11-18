@@ -4,31 +4,30 @@
 #include "unitysdk/Sirenix/OdinInspector/SerializedScriptableObject.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_GET_LODTYPESHOWER_OFFSET UNITYSDK_OFFSET(0x19DA5BA0)
-#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_GET_USEJOBOPT_OFFSET UNITYSDK_OFFSET(0x19DA5C90)
-#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_SET_LODTYPESHOWER_OFFSET UNITYSDK_OFFSET(0x19DA5BB0)
-#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_SET_USEJOBOPT_OFFSET UNITYSDK_OFFSET(0x19DA5CF0)
-#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DA5EF0)
-#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19DA5D50)
+#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_GET_LODTYPESHOWER_OFFSET UNITYSDK_OFFSET(0x12B2C890)
+#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_GET_USEJOBOPT_OFFSET UNITYSDK_OFFSET(0x12B2C980)
+#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_SET_LODTYPESHOWER_OFFSET UNITYSDK_OFFSET(0x12B2C8A0)
+#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA_SET_USEJOBOPT_OFFSET UNITYSDK_OFFSET(0x12B2C9E0)
+#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B2CBE0)
+#define MOLEMOLE_EFFECTSIMULATE_FXEDITORCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2CA40)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int FxEditorConfigData_TypeDefinitionIndex = 62423;
+	inline static constexpr unsigned int FxEditorConfigData_TypeDefinitionIndex = 71925;
 
 	class FxEditorConfigData : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet_MUST_MONO_EFFECT_TYPE()
-		{
-			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(FxEditorConfigData_TypeDefinitionIndex)->GetStaticField(0x4C1D0);
-		}
 		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet_SPECIAL_MONO_EFFECT_TYPE()
 		{
-			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(FxEditorConfigData_TypeDefinitionIndex)->GetStaticField(0x4C1D8);
+			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(FxEditorConfigData_TypeDefinitionIndex)->GetStaticField(0x4D7E0);
+		}
+		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet_MUST_MONO_EFFECT_TYPE()
+		{
+			return (::System::Collections::Generic::List_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(FxEditorConfigData_TypeDefinitionIndex)->GetStaticField(0x4D7E8);
 		}
 		// static const ::System::String* TEXTURE_ROOT_PATH; // 0x0
 		// static const ::System::String* ITEM_UNLOCK_EXPEND_PATH; // 0x0
@@ -40,10 +39,12 @@ namespace MoleMole::EffectSimulate
 		// static const ::System::String* ANIMATION_GROUP_NAME; // 0x0
 		// static const ::System::String* TIMELINE_CONTROLLER_GROUP_NAME; // 0x0
 		::System::Boolean debugMode; // 0x58
+		::System::Byte _padding0[0x3];
 		::MoleMole::Config::EffectLODType lodType; // 0x5C
 		::System::Single previewMinFrame; // 0x60
 		::System::Boolean simulateFrameLockWhenPlay; // 0x64
 		::System::Boolean previewUseFrame; // 0x65
+		::System::Byte _padding1[0x2];
 		::System::Single listTitleLineHeight; // 0x68
 		::UnityEngine::Color listTitleLineFontColor; // 0x6C
 		::UnityEngine::Color listTitleLineBackgroundColor; // 0x7C

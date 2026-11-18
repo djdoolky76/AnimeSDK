@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define FLOWCANVAS_NODES_ORMERGE_CHECK_OFFSET UNITYSDK_OFFSET(0x1DAD7790)
-#define FLOWCANVAS_NODES_ORMERGE_GET_PORTCOUNT_OFFSET UNITYSDK_OFFSET(0x1DAD7680)
-#define FLOWCANVAS_NODES_ORMERGE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1DAD76A0)
-#define FLOWCANVAS_NODES_ORMERGE_SET_PORTCOUNT_OFFSET UNITYSDK_OFFSET(0x1DAD7690)
-#define FLOWCANVAS_NODES_ORMERGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD7800)
+#define FLOWCANVAS_NODES_ORMERGE_CHECK_OFFSET UNITYSDK_OFFSET(0x1D475870)
+#define FLOWCANVAS_NODES_ORMERGE_GET_PORTCOUNT_OFFSET UNITYSDK_OFFSET(0x1D475760)
+#define FLOWCANVAS_NODES_ORMERGE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1D475780)
+#define FLOWCANVAS_NODES_ORMERGE_SET_PORTCOUNT_OFFSET UNITYSDK_OFFSET(0x1D475770)
+#define FLOWCANVAS_NODES_ORMERGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4758E0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ORMerge_TypeDefinitionIndex = 31362;
+	inline static constexpr unsigned int ORMerge_TypeDefinitionIndex = 30306;
 
 	class ORMerge : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::FlowOutput* fOut; // 0xA8
-		::System::Int32 _portCount; // 0xB0
-		::System::Int32 lastFrameCall; // 0xB4
+		::System::Int32 lastFrameCall; // 0xB0
+		::System::Int32 _portCount; // 0xB4
 
 		::System::Void _ctor()
 		{

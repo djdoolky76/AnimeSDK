@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define PARADOXNOTION_DESIGN_ICONATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DB3BB80)
-#define PARADOXNOTION_DESIGN_ICONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3BB70)
+#define PARADOXNOTION_DESIGN_ICONATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DEAE9F0)
+#define PARADOXNOTION_DESIGN_ICONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAE9E0)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int IconAttribute_TypeDefinitionIndex = 29978;
+	inline static constexpr unsigned int IconAttribute_TypeDefinitionIndex = 30278;
 
 	class IconAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* runtimeIconTypeCallback; // 0x10
-		::System::String* iconName; // 0x18
-		::System::Type* fromType; // 0x20
+		::System::String* iconName; // 0x10
+		::System::Type* fromType; // 0x18
+		::System::String* runtimeIconTypeCallback; // 0x20
 		::System::Boolean fixedColor; // 0x28
 
 		::System::Void _ctor(::System::String* iconName, ::System::Boolean fixedColor, ::System::String* runtimeIconTypeCallback)

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
@@ -12,36 +12,39 @@ namespace UnityEngine::NAPRenderPipeline0 { class IVisualEnvironmentE; }
 namespace UnityEngine::NAPRenderPipeline0 { class IWeatherConfig; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1EB581F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB588D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB59A60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB58080)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1EEFC280)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EEFC960)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEFDAF0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEFC110)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SkyLutPass_TypeDefinitionIndex = 5847;
+	inline static constexpr unsigned int SkyLutPass_TypeDefinitionIndex = 5853;
 
 	class SkyLutPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::System::Boolean* StaticGet_s_ForceUpdate()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkyLutPass_TypeDefinitionIndex)->GetStaticField(0x2DA0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkyLutPass_TypeDefinitionIndex)->GetStaticField(0x2D20);
 		}
 		::System::String* k_ProfilerTag; // 0xA8
 		::UnityEngine::NAPRenderPipeline0::IWeatherConfig* m_WeatherConfig; // 0xB0
 		::UnityEngine::NAPRenderPipeline0::IWeatherConfig* m_LeftW; // 0xB8
 		::UnityEngine::NAPRenderPipeline0::IWeatherConfig* m_RightW; // 0xC0
 		::System::Boolean m_IsDynamicTime; // 0xC8
+		::System::Byte _padding0[0x7];
 		::UnityEngine::NAPRenderPipeline0::IWeatherConfig* m_PreLeftW; // 0xD0
 		::UnityEngine::NAPRenderPipeline0::IWeatherConfig* m_PreRightW; // 0xD8
 		::UnityEngine::NAPRenderPipeline0::IWeatherConfig* m_PreWeatherConfig; // 0xE0
 		::UnityEngine::NAPRenderPipeline0::IVisualEnvironmentE* m_PreVisualEnvironmentE; // 0xE8
 		::System::Boolean m_SkyLutNeedChange; // 0xF0
 		::System::Boolean m_SkyAngleLutNeedChange; // 0xF1
+		::System::Byte _padding1[0x2];
 		::System::Single m_OldMainLightDir; // 0xF4
 		::System::Boolean m_SkyAngleLutIsReady; // 0xF8
 		::System::Boolean m_SkyLutIsReady; // 0xF9
+		::System::Byte _padding2[0x6];
 		::Il2CppArray<::System::Int32>* oldHashes; // 0x100
 		::Il2CppArray<::System::Int32>* newHashes; // 0x108
 

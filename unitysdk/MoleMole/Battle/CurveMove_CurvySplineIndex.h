@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x7C37E0)
-#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_7458A09AF41B5037_1_OFFSET UNITYSDK_OFFSET(0x12EE1470)
-#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_7458A09AF41B5037_OFFSET UNITYSDK_OFFSET(0x12EE12C0)
-#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_A43044913126BD48_1_OFFSET UNITYSDK_OFFSET(0x12EE1270)
-#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_A43044913126BD48_2_OFFSET UNITYSDK_OFFSET(0x12EE1300)
-#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_A43044913126BD48_3_OFFSET UNITYSDK_OFFSET(0x12EE1350)
-#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_A43044913126BD48_4_OFFSET UNITYSDK_OFFSET(0x12EE1420)
-#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_A43044913126BD48_5_OFFSET UNITYSDK_OFFSET(0x12EE14B0)
-#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_A43044913126BD48_OFFSET UNITYSDK_OFFSET(0x12EE1220)
-#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x7C37D0)
+#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_ANOCBOGBGIB_OFFSET UNITYSDK_OFFSET(0x127566C0)
+#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_CKCFGGBHNNF_OFFSET UNITYSDK_OFFSET(0x12756760)
+#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x6E8B50)
+#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_HINIAKPGJAJ_OFFSET UNITYSDK_OFFSET(0x12756710)
+#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_HLLCKLIOIMN_OFFSET UNITYSDK_OFFSET(0x12756830)
+#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_INCFIJKMIGG_OFFSET UNITYSDK_OFFSET(0x12756880)
+#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_JCIODAGLLGB_OFFSET UNITYSDK_OFFSET(0x127568D0)
+#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_JPPEEOLOGGP_OFFSET UNITYSDK_OFFSET(0x12756680)
+#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_NOGJIJMACNO_OFFSET UNITYSDK_OFFSET(0x12756910)
+#define MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_TOSTRING_OFFSET UNITYSDK_OFFSET(0x6E8B40)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int CurveMove_CurvySplineIndex_TypeDefinitionIndex = 71223;
+	inline static constexpr unsigned int CurveMove_CurvySplineIndex_TypeDefinitionIndex = 44260;
 
 	struct alignas(4) CurveMove_CurvySplineIndex
 	{
@@ -28,49 +28,65 @@ namespace MoleMole::Battle
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_TOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Boolean Method_2_A43044913126BD48(::MoleMole::Battle::CurveMove_CurvySplineIndex a1, ::MoleMole::Battle::CurveMove_CurvySplineIndex a2)
+		/*
+		static ::MoleMole::Battle::CurveMove_CurvySplineIndex JPPEEOLOGGP(::System::Int32 EGEGIMGMJHN)
 		{
-			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex, ::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_A43044913126BD48_OFFSET))(a1, a2);
+			return ((::MoleMole::Battle::CurveMove_CurvySplineIndex(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_JPPEEOLOGGP_OFFSET))(EGEGIMGMJHN);
+		}
+		*/
+
+		/*
+		static ::System::Boolean ANOCBOGBGIB(::MoleMole::Battle::CurveMove_CurvySplineIndex EJCBEJMGFAJ, ::MoleMole::Battle::CurveMove_CurvySplineIndex EBFCACIEKBC)
+		{
+			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex, ::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_ANOCBOGBGIB_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
+		}
+		*/
+
+		/*
+		static ::System::Boolean HINIAKPGJAJ(::MoleMole::Battle::CurveMove_CurvySplineIndex EJCBEJMGFAJ, ::MoleMole::Battle::CurveMove_CurvySplineIndex EBFCACIEKBC)
+		{
+			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex, ::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_HINIAKPGJAJ_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
+		}
+		*/
+
+		/*
+		static ::System::Boolean CKCFGGBHNNF(::MoleMole::Battle::CurveMove_CurvySplineIndex EJCBEJMGFAJ, ::MoleMole::Battle::CurveMove_CurvySplineIndex EBFCACIEKBC)
+		{
+			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex, ::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_CKCFGGBHNNF_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
+		}
+		*/
+
+		::System::String* DPIHOJBBGLA()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_DPIHOJBBGLA_OFFSET))(this);
 		}
 
-		static ::System::Boolean Method_2_A43044913126BD48_1(::MoleMole::Battle::CurveMove_CurvySplineIndex a1, ::MoleMole::Battle::CurveMove_CurvySplineIndex a2)
+		/*
+		static ::System::Boolean HLLCKLIOIMN(::MoleMole::Battle::CurveMove_CurvySplineIndex EJCBEJMGFAJ, ::MoleMole::Battle::CurveMove_CurvySplineIndex EBFCACIEKBC)
 		{
-			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex, ::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_A43044913126BD48_1_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex, ::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_HLLCKLIOIMN_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
+		*/
 
-		static ::System::Int32 Method_2_7458A09AF41B5037(::MoleMole::Battle::CurveMove_CurvySplineIndex a1)
+		/*
+		static ::System::Boolean INCFIJKMIGG(::MoleMole::Battle::CurveMove_CurvySplineIndex EJCBEJMGFAJ, ::MoleMole::Battle::CurveMove_CurvySplineIndex EBFCACIEKBC)
 		{
-			return ((::System::Int32(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_7458A09AF41B5037_OFFSET))(a1);
+			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex, ::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_INCFIJKMIGG_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
+		*/
 
-		static ::System::Boolean Method_2_A43044913126BD48_2(::MoleMole::Battle::CurveMove_CurvySplineIndex a1, ::MoleMole::Battle::CurveMove_CurvySplineIndex a2)
+		/*
+		static ::System::Int32 JCIODAGLLGB(::MoleMole::Battle::CurveMove_CurvySplineIndex EGEGIMGMJHN)
 		{
-			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex, ::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_A43044913126BD48_2_OFFSET))(a1, a2);
+			return ((::System::Int32(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_JCIODAGLLGB_OFFSET))(EGEGIMGMJHN);
 		}
+		*/
 
-		static ::System::Boolean Method_2_A43044913126BD48_3(::MoleMole::Battle::CurveMove_CurvySplineIndex a1, ::MoleMole::Battle::CurveMove_CurvySplineIndex a2)
+		/*
+		static ::System::Boolean NOGJIJMACNO(::MoleMole::Battle::CurveMove_CurvySplineIndex EJCBEJMGFAJ, ::MoleMole::Battle::CurveMove_CurvySplineIndex EBFCACIEKBC)
 		{
-			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex, ::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_A43044913126BD48_3_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex, ::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_NOGJIJMACNO_OFFSET))(EJCBEJMGFAJ, EBFCACIEKBC);
 		}
-
-		::System::String* Method_2_35EA095E1AFDD9C8()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_35EA095E1AFDD9C8_OFFSET))(this);
-		}
-
-		static ::System::Boolean Method_2_A43044913126BD48_4(::MoleMole::Battle::CurveMove_CurvySplineIndex a1, ::MoleMole::Battle::CurveMove_CurvySplineIndex a2)
-		{
-			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex, ::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_A43044913126BD48_4_OFFSET))(a1, a2);
-		}
-
-		static ::MoleMole::Battle::CurveMove_CurvySplineIndex Method_2_7458A09AF41B5037_1(::System::Int32 a1)
-		{
-			return ((::MoleMole::Battle::CurveMove_CurvySplineIndex(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_7458A09AF41B5037_1_OFFSET))(a1);
-		}
-
-		static ::System::Boolean Method_2_A43044913126BD48_5(::MoleMole::Battle::CurveMove_CurvySplineIndex a1, ::MoleMole::Battle::CurveMove_CurvySplineIndex a2)
-		{
-			return ((::System::Boolean(*)(::MoleMole::Battle::CurveMove_CurvySplineIndex, ::MoleMole::Battle::CurveMove_CurvySplineIndex))((::PBYTE)hIl2Cpp + MOLEMOLE_BATTLE_CURVEMOVE_CURVYSPLINEINDEX_METHOD_2_A43044913126BD48_5_OFFSET))(a1, a2);
-		}
+		*/
 	};
 }

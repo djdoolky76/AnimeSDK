@@ -8,11 +8,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Light; }
 namespace UnityEngine::Rendering { class Volume; }
 
-#define SCENEWEATHERLOGICEXTENSION_APPLYLIGHTPARAM_OFFSET UNITYSDK_OFFSET(0x13456B20)
-#define SCENEWEATHERLOGICEXTENSION_SETLIGHTDATAFORSTORE_OFFSET UNITYSDK_OFFSET(0x13456280)
-#define SCENEWEATHERLOGICEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x13457100)
+#define SCENEWEATHERLOGICEXTENSION_APPLYLIGHTPARAM_OFFSET UNITYSDK_OFFSET(0x1D1FFFC0)
+#define SCENEWEATHERLOGICEXTENSION_SETLIGHTDATAFORSTORE_OFFSET UNITYSDK_OFFSET(0x1D1FF720)
+#define SCENEWEATHERLOGICEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D200590)
 
-inline static constexpr unsigned int SceneWeatherLogicExtension_TypeDefinitionIndex = 71189;
+inline static constexpr unsigned int SceneWeatherLogicExtension_TypeDefinitionIndex = 46209;
 
 class SceneWeatherLogicExtension : public ::System::Object
 {

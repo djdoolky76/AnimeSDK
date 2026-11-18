@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineConfiner2D_ShapeCache.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/Cinemachine/CinemachineExtension.h"
+#include "unitysdk/Cinemachine/CameraState.h"
 
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 namespace UnityEngine { class Collider2D; }
 
-#define CINEMACHINE_CINEMACHINECONFINER2D_CALCULATEHALFFRUSTUMHEIGHT_OFFSET UNITYSDK_OFFSET(0x1FA75AF0)
-#define CINEMACHINE_CINEMACHINECONFINER2D_INVALIDATECACHE_OFFSET UNITYSDK_OFFSET(0x1FA75290)
-#define CINEMACHINE_CINEMACHINECONFINER2D_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1FA75B50)
-#define CINEMACHINE_CINEMACHINECONFINER2D_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1FA75370)
-#define CINEMACHINE_CINEMACHINECONFINER2D_RESET_OFFSET UNITYSDK_OFFSET(0x1FA75B70)
-#define CINEMACHINE_CINEMACHINECONFINER2D_VALIDATECACHE_OFFSET UNITYSDK_OFFSET(0x1FA75330)
-#define CINEMACHINE_CINEMACHINECONFINER2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA75B80)
+#define CINEMACHINE_CINEMACHINECONFINER2D_CALCULATEHALFFRUSTUMHEIGHT_OFFSET UNITYSDK_OFFSET(0x1FE8EBD0)
+#define CINEMACHINE_CINEMACHINECONFINER2D_INVALIDATECACHE_OFFSET UNITYSDK_OFFSET(0x1FE8E370)
+#define CINEMACHINE_CINEMACHINECONFINER2D_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1FE8EC30)
+#define CINEMACHINE_CINEMACHINECONFINER2D_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1FE8E450)
+#define CINEMACHINE_CINEMACHINECONFINER2D_RESET_OFFSET UNITYSDK_OFFSET(0x1FE8EC50)
+#define CINEMACHINE_CINEMACHINECONFINER2D_VALIDATECACHE_OFFSET UNITYSDK_OFFSET(0x1FE8E410)
+#define CINEMACHINE_CINEMACHINECONFINER2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE8EC60)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineConfiner2D_TypeDefinitionIndex = 34659;
+	inline static constexpr unsigned int CinemachineConfiner2D_TypeDefinitionIndex = 34205;
 
 	class CinemachineConfiner2D : public ::Cinemachine::CinemachineExtension
 	{
@@ -28,6 +28,7 @@ namespace Cinemachine
 		::System::Single m_Damping; // 0x30
 		::System::Single m_MaxWindowSize; // 0x34
 		::System::Single m_MaxComputationTimePerFrameInSeconds; // 0x38
+		::System::Byte _padding0[0x4];
 		::Cinemachine::CinemachineConfiner2D_ShapeCache m_shapeCache; // 0x40
 
 		::System::Void _ctor()

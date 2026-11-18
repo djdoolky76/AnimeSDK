@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/List_1_Enumerator.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/VectorUtils_SceneNodeWorldTransform.h"
 
@@ -9,34 +8,36 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class SceneNode; }
 
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DAA7710)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS_SCENENODEWORLDTRANSFORM__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DAA7F90)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS_SCENENODEWORLDTRANSFORM__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DAA7EC0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DAA8050)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DAA7F30)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1DAA7EE0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DAA74B0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA5960)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1DAA7700)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x1DAA7620)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DE94860)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS_SCENENODEWORLDTRANSFORM__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DE950D0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS_SCENENODEWORLDTRANSFORM__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DE95000)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DE95190)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DE95070)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1DE95020)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DE94600)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE92AB0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1DE94850)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x1DE94770)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int VectorUtils__WorldTransformedSceneNodes_d__70_TypeDefinitionIndex = 31774;
+	inline static constexpr unsigned int VectorUtils__WorldTransformedSceneNodes_d__70_TypeDefinitionIndex = 31212;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36, typename T37, typename T38, typename T39, typename T40, typename T41, typename T42, typename T43, typename T44, typename T45, typename T46, typename T47, typename T48, typename T49, typename T50, typename T51, typename T52, typename T53, typename T54, typename T55, typename T56, typename T57, typename T58, typename T59, typename T60, typename T61, typename T62, typename T63, typename T64, typename T65, typename T66, typename T67, typename T68, typename T69, typename T70>
 	class VectorUtils__WorldTransformedSceneNodes_d__70 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::System::Single>* nodeOpacities; // 0x10
-		::ToolBuddy::ThirdParty::VectorGraphics::VectorUtils_SceneNodeWorldTransform __3__parent; // 0x18
-		::ToolBuddy::ThirdParty::VectorGraphics::VectorUtils_SceneNodeWorldTransform __2__current; // 0x48
-		::ToolBuddy::ThirdParty::VectorGraphics::VectorUtils_SceneNodeWorldTransform _childWorldTransform_5__2; // 0x78
-		::ToolBuddy::ThirdParty::VectorGraphics::SceneNode* child; // 0xA8
-		::ToolBuddy::ThirdParty::VectorGraphics::VectorUtils_SceneNodeWorldTransform parent; // 0xB0
-		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::System::Single>* __3__nodeOpacities; // 0xE0
-		::ToolBuddy::ThirdParty::VectorGraphics::SceneNode* __3__child; // 0xE8
-		::System::Collections::Generic::List_1_Enumerator<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*> __7__wrap2; // 0xF0
-		::System::Collections::Generic::IEnumerator_1<::ToolBuddy::ThirdParty::VectorGraphics::VectorUtils_SceneNodeWorldTransform>* __7__wrap3; // 0x108
+		::ToolBuddy::ThirdParty::VectorGraphics::VectorUtils_SceneNodeWorldTransform __2__current; // 0x10
+		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::System::Single>* nodeOpacities; // 0x40
+		::System::Object* __7__wrap2; // 0x48
+		::System::Byte _padding0[0x10];
+		::ToolBuddy::ThirdParty::VectorGraphics::VectorUtils_SceneNodeWorldTransform __3__parent; // 0x60
+		::ToolBuddy::ThirdParty::VectorGraphics::SceneNode* __3__child; // 0x90
+		::ToolBuddy::ThirdParty::VectorGraphics::VectorUtils_SceneNodeWorldTransform parent; // 0x98
+		::ToolBuddy::ThirdParty::VectorGraphics::SceneNode* child; // 0xC8
+		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::System::Single>* __3__nodeOpacities; // 0xD0
+		::ToolBuddy::ThirdParty::VectorGraphics::VectorUtils_SceneNodeWorldTransform _childWorldTransform_5__2; // 0xD8
+		::System::Collections::Generic::IEnumerator_1<::System::Object*>* __7__wrap3; // 0x108
 		::System::Int32 __1__state; // 0x110
 		::System::Int32 __l__initialThreadId; // 0x114
 
@@ -80,9 +81,9 @@ namespace ToolBuddy::ThirdParty::VectorGraphics
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::ToolBuddy::ThirdParty::VectorGraphics::VectorUtils_SceneNodeWorldTransform>* System_Collections_Generic_IEnumerable_ToolBuddy_ThirdParty_VectorGraphics_VectorUtils_SceneNodeWorldTransform__GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::Object*>* System_Collections_Generic_IEnumerable_ToolBuddy_ThirdParty_VectorGraphics_VectorUtils_SceneNodeWorldTransform__GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::ToolBuddy::ThirdParty::VectorGraphics::VectorUtils_SceneNodeWorldTransform>*(*)(::PVOID))((::PBYTE)hIl2Cpp + TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS_SCENENODEWORLDTRANSFORM__GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS__WORLDTRANSFORMEDSCENENODES_D__70_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_VECTORUTILS_SCENENODEWORLDTRANSFORM__GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()

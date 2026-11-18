@@ -5,12 +5,12 @@
 namespace MoleMole { class UILoginPageController; }
 namespace MoleMole { class UIResourceLoadWidgetContext; }
 
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18323B30)
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS54_0__OPENRESOURCELOAD_B__0_OFFSET UNITYSDK_OFFSET(0x18323B40)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183E5130)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS54_0__OPENRESOURCELOAD_B__0_OFFSET UNITYSDK_OFFSET(0x183E5140)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILoginPageController___c__DisplayClass54_0_TypeDefinitionIndex = 46278;
+	inline static constexpr unsigned int UILoginPageController___c__DisplayClass54_0_TypeDefinitionIndex = 39125;
 
 	class UILoginPageController___c__DisplayClass54_0 : public ::System::Object
 	{

@@ -1,58 +1,58 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285.h"
+#include "unitysdk/MoleMole/MonoBangBooAutoBattleSlot_JNMCOIBPBAK.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_04601D8A6B642FD1_OFFSET UNITYSDK_OFFSET(0x19090930)
-#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_5E9BF0D762EDB373_1_OFFSET UNITYSDK_OFFSET(0x19090CE0)
-#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_5E9BF0D762EDB373_OFFSET UNITYSDK_OFFSET(0x19090BB0)
-#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_682AFDF77F8D993C_1_OFFSET UNITYSDK_OFFSET(0x190907F0)
-#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_682AFDF77F8D993C_2_OFFSET UNITYSDK_OFFSET(0x19090890)
-#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_682AFDF77F8D993C_3_OFFSET UNITYSDK_OFFSET(0x19090B20)
-#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_682AFDF77F8D993C_OFFSET UNITYSDK_OFFSET(0x19090750)
-#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19090700)
-#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19090740)
+#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_BNIKOPHGIJB_OFFSET UNITYSDK_OFFSET(0x180F81E0)
+#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_FOAJPEIJJFO_OFFSET UNITYSDK_OFFSET(0x180F7F50)
+#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_GCDGMBHGBNP_OFFSET UNITYSDK_OFFSET(0x180F83B0)
+#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_HFOPKGOAHIM_OFFSET UNITYSDK_OFFSET(0x180F8310)
+#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_IKMDHLMHICD_OFFSET UNITYSDK_OFFSET(0x180F8580)
+#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_OIMKBDJHEHL_OFFSET UNITYSDK_OFFSET(0x180F8450)
+#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_PJPCBCHGLNE_OFFSET UNITYSDK_OFFSET(0x180F7FF0)
+#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x180F7F00)
+#define MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x180F7F40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex = 56222;
+	inline static constexpr unsigned int MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex = 44142;
 
 	class MonoBangBooAutoBattleSlot___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>** StaticGet___9__18_5()
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__18_3()
 		{
-			return (::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3CC20);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3EAC0);
 		}
-		static ::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>** StaticGet___9__18_2()
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__18_5()
 		{
-			return (::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3CC28);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3EAC8);
 		}
-		static ::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>** StaticGet___9__18_6()
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__18_1()
 		{
-			return (::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3CC30);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3EAD0);
 		}
-		static ::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>** StaticGet___9__18_0()
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__18_6()
 		{
-			return (::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3CC38);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3EAD8);
 		}
-		static ::MoleMole::MonoBangBooAutoBattleSlot___c** StaticGet___9()
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__18_4()
 		{
-			return (::MoleMole::MonoBangBooAutoBattleSlot___c**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3CC40);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3EAE0);
 		}
-		static ::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>** StaticGet___9__18_4()
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__18_0()
 		{
-			return (::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3CC48);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3EAE8);
 		}
-		static ::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>** StaticGet___9__18_3()
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__18_2()
 		{
-			return (::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3CC50);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3EAF0);
 		}
-		static ::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>** StaticGet___9__18_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3CC58);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(MonoBangBooAutoBattleSlot___c_TypeDefinitionIndex)->GetStaticField(0x3EAF8);
 		}
 
 		static ::System::Void _cctor()
@@ -65,39 +65,39 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_682AFDF77F8D993C(::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285 a1)
+		::System::Boolean FOAJPEIJJFO(::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK FCPCLIJNDLA)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_682AFDF77F8D993C_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_FOAJPEIJJFO_OFFSET))(this, FCPCLIJNDLA);
 		}
 
-		::System::Boolean Method_1_682AFDF77F8D993C_1(::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285 a1)
+		::System::Boolean PJPCBCHGLNE(::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK FCPCLIJNDLA)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_682AFDF77F8D993C_1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_PJPCBCHGLNE_OFFSET))(this, FCPCLIJNDLA);
 		}
 
-		::System::Boolean Method_1_682AFDF77F8D993C_2(::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285 a1)
+		::System::Boolean BNIKOPHGIJB(::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK FCPCLIJNDLA)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_682AFDF77F8D993C_2_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_BNIKOPHGIJB_OFFSET))(this, FCPCLIJNDLA);
 		}
 
-		::System::Boolean Method_1_04601D8A6B642FD1(::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285 a1)
+		::System::Boolean HFOPKGOAHIM(::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK FCPCLIJNDLA)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_04601D8A6B642FD1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_HFOPKGOAHIM_OFFSET))(this, FCPCLIJNDLA);
 		}
 
-		::System::Boolean Method_1_682AFDF77F8D993C_3(::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285 a1)
+		::System::Boolean GCDGMBHGBNP(::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK FCPCLIJNDLA)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_682AFDF77F8D993C_3_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_GCDGMBHGBNP_OFFSET))(this, FCPCLIJNDLA);
 		}
 
-		::System::Boolean Method_1_5E9BF0D762EDB373(::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285 a1)
+		::System::Boolean OIMKBDJHEHL(::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK FCPCLIJNDLA)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_5E9BF0D762EDB373_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_OIMKBDJHEHL_OFFSET))(this, FCPCLIJNDLA);
 		}
 
-		::System::Boolean Method_1_5E9BF0D762EDB373_1(::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285 a1)
+		::System::Boolean IKMDHLMHICD(::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK FCPCLIJNDLA)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_Enum_3_1468EE9C811FF285))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_METHOD_1_5E9BF0D762EDB373_1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::MonoBangBooAutoBattleSlot_JNMCOIBPBAK))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBANGBOOAUTOBATTLESLOT___C_IKMDHLMHICD_OFFSET))(this, FCPCLIJNDLA);
 		}
 	};
 }

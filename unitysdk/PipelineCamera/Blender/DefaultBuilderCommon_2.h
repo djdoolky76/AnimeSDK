@@ -9,16 +9,16 @@ namespace System { class String; }
 
 namespace PipelineCamera::Blender
 {
-	inline static constexpr unsigned int DefaultBuilderCommon_2_TypeDefinitionIndex = 38649;
+	inline static constexpr unsigned int DefaultBuilderCommon_2_TypeDefinitionIndex = 36649;
 
-	template <typename TReserveKey, typename TPriority>
-	struct DefaultBuilderCommon_2
+	template <typename T1, typename T2>
+	struct alignas(8) DefaultBuilderCommon_2
 	{
 		::System::String* DebugName; // 0x0
 		::PipelineCamera::WorldBasicCameraDataDeltaFlag DeltaFlag; // 0x0
 		::System::Single Duration; // 0x0
 		::PipelineCamera::ICameraTimestamp* Timestamp; // 0x0
-		::System::Nullable_1<TReserveKey> ReverseKey; // 0x0
-		TPriority Priority; // 0x0
+		::System::Nullable_1<T1> ReverseKey; // 0x0
+		T2 Priority; // 0x0
 	};
 }

@@ -3,14 +3,14 @@
 #include "unitysdk/MoleMole/Config/ConfigConditionPredicateNode.h"
 #include "unitysdk/MoleMole/Config/ConfigGachaPerformanceSendCmdWithoutParamsNode_GachaPerformanceCmdType.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESENDCMDWITHOUTPARAMSNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x11709B80)
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESENDCMDWITHOUTPARAMSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x11709BF0)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESENDCMDWITHOUTPARAMSNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xFAC65A0)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESENDCMDWITHOUTPARAMSNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC6610)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformanceSendCmdWithoutParamsNode_TypeDefinitionIndex = 70237;
+	inline static constexpr unsigned int ConfigGachaPerformanceSendCmdWithoutParamsNode_TypeDefinitionIndex = 67690;
 
 	class ConfigGachaPerformanceSendCmdWithoutParamsNode : public ::MoleMole::Config::ConfigConditionPredicateNode
 	{
@@ -22,9 +22,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESENDCMDWITHOUTPARAMSNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESENDCMDWITHOUTPARAMSNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCESENDCMDWITHOUTPARAMSNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

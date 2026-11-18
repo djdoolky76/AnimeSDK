@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define PARADOXNOTION_DESIGN_EXECUTIONPRIORITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8C900)
+#define PARADOXNOTION_DESIGN_EXECUTIONPRIORITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF5C3D0)
 
 namespace ParadoxNotion::Design
 {
-	inline static constexpr unsigned int ExecutionPriorityAttribute_TypeDefinitionIndex = 30051;
+	inline static constexpr unsigned int ExecutionPriorityAttribute_TypeDefinitionIndex = 29912;
 
 	class ExecutionPriorityAttribute : public ::System::Attribute
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_RENDERING_GENERATEINTKEYWORDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C993050)
+#define UNITYENGINE_RENDERING_GENERATEINTKEYWORDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF73D20)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int GenerateIntKeywords_TypeDefinitionIndex = 26795;
+	inline static constexpr unsigned int GenerateIntKeywords_TypeDefinitionIndex = 26872;
 
 	class GenerateIntKeywords : public ::System::Attribute
 	{

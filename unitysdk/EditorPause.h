@@ -3,11 +3,11 @@
 #include "unitysdk/EditorUpdateScript.h"
 #include "unitysdk/UnityEngine/KeyCode.h"
 
-#define EDITORPAUSE_EDITORUPDATE_OFFSET UNITYSDK_OFFSET(0x1FB7B530)
-#define EDITORPAUSE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FB7B540)
-#define EDITORPAUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7B550)
+#define EDITORPAUSE_EDITORUPDATE_OFFSET UNITYSDK_OFFSET(0x1FF7C180)
+#define EDITORPAUSE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FF7C190)
+#define EDITORPAUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF7C1A0)
 
-inline static constexpr unsigned int EditorPause_TypeDefinitionIndex = 94988;
+inline static constexpr unsigned int EditorPause_TypeDefinitionIndex = 96678;
 
 class EditorPause : public ::EditorUpdateScript
 {

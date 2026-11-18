@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/SceneMark/DynamicObject/MonoDynamicObjectLayer.h"
 
-#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONOSCENEDYNAMICOBJECTLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1688BD00)
+#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_MONOSCENEDYNAMICOBJECTLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x10D592D0)
 
 namespace MoleMole::SceneMark::DynamicObject
 {
-	inline static constexpr unsigned int MonoSceneDynamicObjectLayer_TypeDefinitionIndex = 85681;
+	inline static constexpr unsigned int MonoSceneDynamicObjectLayer_TypeDefinitionIndex = 71505;
 
 	class MonoSceneDynamicObjectLayer : public ::MoleMole::SceneMark::DynamicObject::MonoDynamicObjectLayer
 	{

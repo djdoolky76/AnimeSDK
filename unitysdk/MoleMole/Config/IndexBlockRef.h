@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/System/Object.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_INDEXBLOCKREF_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B564590)
-#define MOLEMOLE_CONFIG_INDEXBLOCKREF_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1B5641F0)
-#define MOLEMOLE_CONFIG_INDEXBLOCKREF_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x1B564850)
-#define MOLEMOLE_CONFIG_INDEXBLOCKREF_METHOD_1_1D8C60247E81BA7F_OFFSET UNITYSDK_OFFSET(0x1B5645F0)
-#define MOLEMOLE_CONFIG_INDEXBLOCKREF_METHOD_1_3DC6B5AAFA39829C_OFFSET UNITYSDK_OFFSET(0x1B564270)
-#define MOLEMOLE_CONFIG_INDEXBLOCKREF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B563EB0)
-#define MOLEMOLE_CONFIG_INDEXBLOCKREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1B564840)
+#define MOLEMOLE_CONFIG_INDEXBLOCKREF_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x1BA48260)
+#define MOLEMOLE_CONFIG_INDEXBLOCKREF_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA47FA0)
+#define MOLEMOLE_CONFIG_INDEXBLOCKREF_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1BA47C00)
+#define MOLEMOLE_CONFIG_INDEXBLOCKREF_IAEALJJMOKA_OFFSET UNITYSDK_OFFSET(0x1BA48000)
+#define MOLEMOLE_CONFIG_INDEXBLOCKREF_PDHKICNJNGG_OFFSET UNITYSDK_OFFSET(0x1BA47C80)
+#define MOLEMOLE_CONFIG_INDEXBLOCKREF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BA478C0)
+#define MOLEMOLE_CONFIG_INDEXBLOCKREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA48250)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int IndexBlockRef_TypeDefinitionIndex = 75993;
+	inline static constexpr unsigned int IndexBlockRef_TypeDefinitionIndex = 79114;
 
 	class IndexBlockRef : public ::System::Object
 	{
@@ -35,29 +35,29 @@ namespace MoleMole::Config
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INDEXBLOCKREF_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INDEXBLOCKREF_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INDEXBLOCKREF_FROMFLX_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean FromBinary(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INDEXBLOCKREF_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INDEXBLOCKREF_FROMBINARY_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 
-		::System::Boolean Method_1_3DC6B5AAFA39829C(::FlexBuffers::FlxMap a1)
+		::System::Boolean IAEALJJMOKA(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INDEXBLOCKREF_METHOD_1_3DC6B5AAFA39829C_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INDEXBLOCKREF_IAEALJJMOKA_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 
-		::System::Boolean Method_1_1D8C60247E81BA7F(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::String* DPIHOJBBGLA()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INDEXBLOCKREF_METHOD_1_1D8C60247E81BA7F_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INDEXBLOCKREF_DPIHOJBBGLA_OFFSET))(this);
 		}
 
-		::System::String* Method_1_128774387667156B()
+		::System::Boolean PDHKICNJNGG(::FlexBuffers::FlxMap HHIJHDFHPOI)
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INDEXBLOCKREF_METHOD_1_128774387667156B_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_INDEXBLOCKREF_PDHKICNJNGG_OFFSET))(this, HHIJHDFHPOI);
 		}
 	};
 }

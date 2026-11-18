@@ -7,18 +7,20 @@
 
 namespace NapStreaming { class NapStreamingData_StreamingGridData; }
 
-#define NAPSTREAMING_STREAMINGGRIDJOBDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x7C0E20)
+#define NAPSTREAMING_STREAMINGGRIDJOBDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x74C860)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int StreamingGridJobData_TypeDefinitionIndex = 91410;
+	inline static constexpr unsigned int StreamingGridJobData_TypeDefinitionIndex = 81509;
 
 	struct alignas(4) StreamingGridJobData
 	{
 		::System::Boolean hasHlod; // 0x10
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 center; // 0x14
 		::NapStreaming::StreamingLayer layer; // 0x20
 		::System::Boolean isMobileOff; // 0x24
+		::System::Byte _padding1[0x3];
 		::System::Single boundHalfSize; // 0x28
 		::System::Int32 hlodReleseFrame; // 0x2C
 		::System::Int32 originReleaseFrame; // 0x30

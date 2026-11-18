@@ -9,11 +9,11 @@ namespace MoleMole::Config { class ConfigEntityRadialBlur; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLURS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EC340)
+#define MOLEMOLE_CONFIG_CONFIGENTITYRADIALBLURS__CTOR_OFFSET UNITYSDK_OFFSET(0x1929E350)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityRadialBlurs_TypeDefinitionIndex = 68488;
+	inline static constexpr unsigned int ConfigEntityRadialBlurs_TypeDefinitionIndex = 65916;
 
 	class ConfigEntityRadialBlurs : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -25,10 +25,12 @@ namespace MoleMole::Config
 		::UnityEngine::Vector2 DefaultCircleRange; // 0x68
 		::System::Boolean DefaultForceActiveOverlayDistortion; // 0x70
 		::System::Boolean DefaultUseBloomMode; // 0x71
+		::System::Byte _padding0[0x2];
 		::System::Single DefaultGlareIntensity; // 0x74
 		::System::Single DefaultGlareThreshold; // 0x78
 		::System::Single DefaultGlareCenterFadeRange; // 0x7C
 		::System::Single DefaultGlareFadeShapeRatio; // 0x80
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityRadialBlur*>* RadialBlurs; // 0x88
 		::System::Single DefaultRangeRatio; // 0x90
 

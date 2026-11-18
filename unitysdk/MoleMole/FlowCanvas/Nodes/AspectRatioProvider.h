@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/FName.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_1.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1A9996F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_GETDATA_OFFSET UNITYSDK_OFFSET(0x1A999890)
-#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1A9999F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_METHOD_3_3621B53786EE26C8_OFFSET UNITYSDK_OFFSET(0x1A999900)
-#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_METHOD_3_439B588EB4881570_OFFSET UNITYSDK_OFFSET(0x1A999C10)
-#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_METHOD_3_5A60CCF7370A1875_OFFSET UNITYSDK_OFFSET(0x1A999B20)
-#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_METHOD_3_83ED25F6A8C66D20_OFFSET UNITYSDK_OFFSET(0x1A999A70)
-#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_SETPATH_OFFSET UNITYSDK_OFFSET(0x1A999650)
-#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A999A10)
-#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A999A00)
+#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x10D09470)
+#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_DBGONPGOBOH_OFFSET UNITYSDK_OFFSET(0x10D09930)
+#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_FAJBAMPHKNA_OFFSET UNITYSDK_OFFSET(0x10D097F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_GETDATA_OFFSET UNITYSDK_OFFSET(0x10D09610)
+#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x10D09770)
+#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_NPGHONGBGPK_OFFSET UNITYSDK_OFFSET(0x10D09880)
+#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_PPKPKMABEBM_OFFSET UNITYSDK_OFFSET(0x10D09680)
+#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_SETPATH_OFFSET UNITYSDK_OFFSET(0x10D093D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x10D09790)
+#define MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x10D09780)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int AspectRatioProvider_TypeDefinitionIndex = 74318;
+	inline static constexpr unsigned int AspectRatioProvider_TypeDefinitionIndex = 58041;
 
-	class AspectRatioProvider : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_1<::System::Single>
+	class AspectRatioProvider
 	{
 	public:
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_AspectRatio()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AspectRatioProvider_TypeDefinitionIndex)->GetStaticField(0xCA50);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(AspectRatioProvider_TypeDefinitionIndex)->GetStaticField(0xCC30);
 		}
 		::System::Boolean useFixedAspectRatio; // 0x40
+		::System::Byte _padding0[0x3];
 		::System::Single fixedAspectRatio; // 0x44
 		::System::Single AspectRatio; // 0x48
 
@@ -43,19 +43,19 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER__CCTOR_OFFSET))();
 		}
 
-		::System::Void SetPath(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& a1)
+		::System::Void SetPath(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& CJBJONJDOLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_SETPATH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_SETPATH_OFFSET))(this, CJBJONJDOLI);
 		}
 
-		::System::Void CollectVariable(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector a1)
+		::System::Void CollectVariable(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector KFJNBMIFJNC)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_COLLECTVARIABLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_COLLECTVARIABLE_OFFSET))(this, KFJNBMIFJNC);
 		}
 
-		::System::Single GetData(::System::Single a1, ::PipelineCamera::CameraSequence::CameraSequenceContext*& a2)
+		::System::Single GetData(::System::Single FNIOPKPHDEH, ::PipelineCamera::CameraSequence::CameraSequenceContext*& AAOCANGHBDG)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::PipelineCamera::CameraSequence::CameraSequenceContext*&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_GETDATA_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::PipelineCamera::CameraSequence::CameraSequenceContext*&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_GETDATA_OFFSET))(this, FNIOPKPHDEH, AAOCANGHBDG);
 		}
 
 		::System::Boolean get_IsContextDependent()
@@ -63,24 +63,24 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_GET_ISCONTEXTDEPENDENT_OFFSET))(this);
 		}
 
-		::System::Single Method_3_3621B53786EE26C8(::PipelineCamera::CameraSequence::CameraSequenceContext*& a1)
+		::System::Void FAJBAMPHKNA(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& MIALFKCCCPI)
 		{
-			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_METHOD_3_3621B53786EE26C8_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_FAJBAMPHKNA_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Single Method_3_83ED25F6A8C66D20(::PipelineCamera::CameraSequence::CameraSequenceContext* a1)
+		::System::Single NPGHONGBGPK(::PipelineCamera::CameraSequence::CameraSequenceContext* AAOCANGHBDG)
 		{
-			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_METHOD_3_83ED25F6A8C66D20_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_NPGHONGBGPK_OFFSET))(this, AAOCANGHBDG);
 		}
 
-		::System::Void Method_3_5A60CCF7370A1875(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector a1)
+		::System::Single PPKPKMABEBM(::PipelineCamera::CameraSequence::CameraSequenceContext*& AAOCANGHBDG)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_METHOD_3_5A60CCF7370A1875_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceContext*&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_PPKPKMABEBM_OFFSET))(this, AAOCANGHBDG);
 		}
 
-		::System::Void Method_3_439B588EB4881570(::PipelineCamera::CameraSequence::CameraSequenceMemberPath& a1)
+		::System::Void DBGONPGOBOH(::PipelineCamera::CameraSequence::CameraSequenceVariableCollector MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceMemberPath&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_METHOD_3_439B588EB4881570_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::CameraSequence::CameraSequenceVariableCollector))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_ASPECTRATIOPROVIDER_DBGONPGOBOH_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

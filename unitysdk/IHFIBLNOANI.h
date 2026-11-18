@@ -1,0 +1,91 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define IHFIBLNOANI_BFLOIPCGFMA_OFFSET UNITYSDK_OFFSET(0x15C0F510)
+#define IHFIBLNOANI_BNAGBEIADHC_OFFSET UNITYSDK_OFFSET(0x15C0F5B0)
+#define IHFIBLNOANI_CHNFEDBKAPP_OFFSET UNITYSDK_OFFSET(0x15C0F3C0)
+#define IHFIBLNOANI_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x15C0F130)
+#define IHFIBLNOANI_EQUALS_OFFSET UNITYSDK_OFFSET(0x15C0ED60)
+#define IHFIBLNOANI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15C0F210)
+#define IHFIBLNOANI_HLPHPBAODIF_OFFSET UNITYSDK_OFFSET(0x15C0F5A0)
+#define IHFIBLNOANI_INCFIJKMIGG_OFFSET UNITYSDK_OFFSET(0x15C0EDB0)
+#define IHFIBLNOANI_JGBGPJACDOG_OFFSET UNITYSDK_OFFSET(0x15C0F470)
+#define IHFIBLNOANI_LOOIPKMKKDJ_OFFSET UNITYSDK_OFFSET(0x15C0F480)
+#define IHFIBLNOANI_NOGJIJMACNO_OFFSET UNITYSDK_OFFSET(0x15C0F360)
+#define IHFIBLNOANI_PCNCGDOOBGL_OFFSET UNITYSDK_OFFSET(0x15C0F590)
+#define IHFIBLNOANI__CTOR_OFFSET UNITYSDK_OFFSET(0x15C0ED00)
+
+inline static constexpr unsigned int IHFIBLNOANI_TypeDefinitionIndex = 51373;
+
+class IHFIBLNOANI : public ::System::Object
+{
+public:
+	::Il2CppArray<::System::UInt64>* LPEJNIFPBKO; // 0x10
+	::System::Int32 _KJNLDLFEHIL_k__BackingField; // 0x18
+
+	::System::Void _ctor(::System::Int32 HDIPDODGANB)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IHFIBLNOANI__CTOR_OFFSET))(this, HDIPDODGANB);
+	}
+
+	::System::Boolean Equals(::IHFIBLNOANI* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::IHFIBLNOANI*))((::PBYTE)hIl2Cpp + IHFIBLNOANI_EQUALS_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Boolean Equals_1(::System::Object* EIFONLCJOPG)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IHFIBLNOANI_EQUALS_1_OFFSET))(this, EIFONLCJOPG);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + IHFIBLNOANI_GETHASHCODE_OFFSET))(this);
+	}
+
+	static ::System::Boolean NOGJIJMACNO(::IHFIBLNOANI* KILPCOMOCMD, ::IHFIBLNOANI* BBCODANAFGI)
+	{
+		return ((::System::Boolean(*)(::IHFIBLNOANI*, ::IHFIBLNOANI*))((::PBYTE)hIl2Cpp + IHFIBLNOANI_NOGJIJMACNO_OFFSET))(KILPCOMOCMD, BBCODANAFGI);
+	}
+
+	::IHFIBLNOANI* CHNFEDBKAPP()
+	{
+		return ((::IHFIBLNOANI*(*)(::PVOID))((::PBYTE)hIl2Cpp + IHFIBLNOANI_CHNFEDBKAPP_OFFSET))(this);
+	}
+
+	::System::Boolean JGBGPJACDOG(::System::Object* MIALFKCCCPI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + IHFIBLNOANI_JGBGPJACDOG_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void LOOIPKMKKDJ(::System::Int32 ABHBKFJKINO)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IHFIBLNOANI_LOOIPKMKKDJ_OFFSET))(this, ABHBKFJKINO);
+	}
+
+	::System::Boolean BFLOIPCGFMA(::System::Int32 ABHBKFJKINO)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IHFIBLNOANI_BFLOIPCGFMA_OFFSET))(this, ABHBKFJKINO);
+	}
+
+	::System::Int32 PCNCGDOOBGL()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + IHFIBLNOANI_PCNCGDOOBGL_OFFSET))(this);
+	}
+
+	::System::Int32 HLPHPBAODIF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + IHFIBLNOANI_HLPHPBAODIF_OFFSET))(this);
+	}
+
+	static ::System::Boolean INCFIJKMIGG(::IHFIBLNOANI* KILPCOMOCMD, ::IHFIBLNOANI* BBCODANAFGI)
+	{
+		return ((::System::Boolean(*)(::IHFIBLNOANI*, ::IHFIBLNOANI*))((::PBYTE)hIl2Cpp + IHFIBLNOANI_INCFIJKMIGG_OFFSET))(KILPCOMOCMD, BBCODANAFGI);
+	}
+
+	::IHFIBLNOANI* BNAGBEIADHC()
+	{
+		return ((::IHFIBLNOANI*(*)(::PVOID))((::PBYTE)hIl2Cpp + IHFIBLNOANI_BNAGBEIADHC_OFFSET))(this);
+	}
+};

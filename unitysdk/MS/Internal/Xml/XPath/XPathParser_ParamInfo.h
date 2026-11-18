@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MS/Internal/Xml/XPath/Function_FunctionType.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/XPath/XPathResultType.h"
+#include "unitysdk/System/Object.h"
 
-#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARAMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE5B910)
+#define MS_INTERNAL_XML_XPATH_XPATHPARSER_PARAMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3028C0)
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int XPathParser_ParamInfo_TypeDefinitionIndex = 1651;
+	inline static constexpr unsigned int XPathParser_ParamInfo_TypeDefinitionIndex = 1650;
 
 	class XPathParser_ParamInfo : public ::System::Object
 	{

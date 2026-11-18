@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Dynamic/Utils/ListProvider_1.h"
 
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class IArgumentProvider; }
 
-#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x1E588F10)
-#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER_GET_ELEMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E588E30)
-#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER_GET_FIRST_OFFSET UNITYSDK_OFFSET(0x1E588E20)
-#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E588E00)
+#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x1E7FD230)
+#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER_GET_ELEMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E7FD150)
+#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER_GET_FIRST_OFFSET UNITYSDK_OFFSET(0x1E7FD140)
+#define SYSTEM_DYNAMIC_UTILS_LISTARGUMENTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FD120)
 
 namespace System::Dynamic::Utils
 {
 	inline static constexpr unsigned int ListArgumentProvider_TypeDefinitionIndex = 5019;
 
-	class ListArgumentProvider : public ::System::Dynamic::Utils::ListProvider_1<::System::Linq::Expressions::Expression*>
+	class ListArgumentProvider
 	{
 	public:
 		::System::Linq::Expressions::IArgumentProvider* _provider; // 0x10

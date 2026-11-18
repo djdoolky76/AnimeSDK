@@ -4,16 +4,17 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELASYNCPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEA5CB0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELASYNCPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A83F0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelAsyncParams_TypeDefinitionIndex = 20680;
+	inline static constexpr unsigned int HoYoChannelAsyncParams_TypeDefinitionIndex = 19876;
 
 	class HoYoChannelAsyncParams : public ::System::Object
 	{
 	public:
 		::System::String* requestId; // 0x10
+		::System::String* aux; // 0x18
 
 		::System::Void _ctor()
 		{

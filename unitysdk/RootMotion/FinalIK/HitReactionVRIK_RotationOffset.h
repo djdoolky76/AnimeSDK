@@ -3,26 +3,27 @@
 #include "unitysdk/RootMotion/FinalIK/HitReactionVRIK_Offset.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RootMotion::FinalIK { class HitReactionVRIK_RotationOffset_RotationOffsetLink; }
 namespace RootMotion::FinalIK { class VRIK; }
+namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Rigidbody; }
 
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ROTATIONOFFSET_CROSSFADESTART_OFFSET UNITYSDK_OFFSET(0x1F8AD840)
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ROTATIONOFFSET_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1F8AD730)
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ROTATIONOFFSET_HIT_OFFSET UNITYSDK_OFFSET(0x1F8AD2D0)
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ROTATIONOFFSET_ONAPPLY_OFFSET UNITYSDK_OFFSET(0x1F8AD8B0)
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ROTATIONOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8ADE60)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ROTATIONOFFSET_CROSSFADESTART_OFFSET UNITYSDK_OFFSET(0x1FC4AEA0)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ROTATIONOFFSET_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1FC4AD90)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ROTATIONOFFSET_HIT_OFFSET UNITYSDK_OFFSET(0x1FC4A930)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ROTATIONOFFSET_ONAPPLY_OFFSET UNITYSDK_OFFSET(0x1FC4AF10)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_ROTATIONOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC4B4C0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int HitReactionVRIK_RotationOffset_TypeDefinitionIndex = 38888;
+	inline static constexpr unsigned int HitReactionVRIK_RotationOffset_TypeDefinitionIndex = 36847;
 
 	class HitReactionVRIK_RotationOffset : public ::RootMotion::FinalIK::HitReactionVRIK_Offset
 	{
 	public:
 		::System::Int32 curveIndex; // 0x48
-		::Il2CppArray<::RootMotion::FinalIK::HitReactionVRIK_RotationOffset_RotationOffsetLink*>* offsetLinks; // 0x50
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::System::Object*>* offsetLinks; // 0x50
 		::UnityEngine::Rigidbody* rigidbody; // 0x58
 		::UnityEngine::Vector3 comAxis; // 0x60
 

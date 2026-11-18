@@ -2,10 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 class GpuBoidSettings;
+namespace UnityEngine { class Camera; }
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class GameObject; }
@@ -15,131 +16,133 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define GPUBOIDMANAGER_BOIDCALCNEWPOSITIONSCOMPUTE_OFFSET UNITYSDK_OFFSET(0x1D6CC6A0)
-#define GPUBOIDMANAGER_BOIDINITPOSITIONSCOMPUTE_OFFSET UNITYSDK_OFFSET(0x1D6CC470)
-#define GPUBOIDMANAGER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1D6CBFA0)
-#define GPUBOIDMANAGER_CREATEBOIDBUFFER_OFFSET UNITYSDK_OFFSET(0x1D6CBC80)
-#define GPUBOIDMANAGER_CREATEDEBUGGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1D6CC0E0)
-#define GPUBOIDMANAGER_DRAWBOIDBUFFER_OFFSET UNITYSDK_OFFSET(0x1D6CCF40)
-#define GPUBOIDMANAGER_GET_BOUNDSFORCULLING_OFFSET UNITYSDK_OFFSET(0x1D6CC0A0)
-#define GPUBOIDMANAGER_GET_ISVISIABLE_OFFSET UNITYSDK_OFFSET(0x1D6CCE70)
-#define GPUBOIDMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1D6CB610)
-#define GPUBOIDMANAGER_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1D6CC200)
-#define GPUBOIDMANAGER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1D6CCE90)
-#define GPUBOIDMANAGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D6CBE10)
-#define GPUBOIDMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D6CB2D0)
-#define GPUBOIDMANAGER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1D6CC000)
-#define GPUBOIDMANAGER_SET_BOUNDSFORCULLING_OFFSET UNITYSDK_OFFSET(0x1D6CC0C0)
-#define GPUBOIDMANAGER_SET_ISVISIABLE_OFFSET UNITYSDK_OFFSET(0x1D6CCE80)
-#define GPUBOIDMANAGER_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1D6CB670)
-#define GPUBOIDMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D6CC050)
-#define GPUBOIDMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6CD230)
-#define GPUBOIDMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CD160)
+#define GPUBOIDMANAGER_BOIDCALCNEWPOSITIONSCOMPUTE_OFFSET UNITYSDK_OFFSET(0x1D6E99C0)
+#define GPUBOIDMANAGER_BOIDINITPOSITIONSCOMPUTE_OFFSET UNITYSDK_OFFSET(0x1D6E9790)
+#define GPUBOIDMANAGER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1D6E92C0)
+#define GPUBOIDMANAGER_CREATEBOIDBUFFER_OFFSET UNITYSDK_OFFSET(0x1D6E8FA0)
+#define GPUBOIDMANAGER_CREATEDEBUGGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1D6E9400)
+#define GPUBOIDMANAGER_DRAWBOIDBUFFER_OFFSET UNITYSDK_OFFSET(0x1D6EA3F0)
+#define GPUBOIDMANAGER_GET_BOUNDSFORCULLING_OFFSET UNITYSDK_OFFSET(0x1D6E93C0)
+#define GPUBOIDMANAGER_GET_ISVISIABLE_OFFSET UNITYSDK_OFFSET(0x1D6EA190)
+#define GPUBOIDMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1D6E8930)
+#define GPUBOIDMANAGER_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1D6E9520)
+#define GPUBOIDMANAGER_ISINCULLINGMASK_OFFSET UNITYSDK_OFFSET(0x1D6EA260)
+#define GPUBOIDMANAGER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1D6EA1B0)
+#define GPUBOIDMANAGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D6E9130)
+#define GPUBOIDMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D6E85F0)
+#define GPUBOIDMANAGER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1D6E9320)
+#define GPUBOIDMANAGER_SET_BOUNDSFORCULLING_OFFSET UNITYSDK_OFFSET(0x1D6E93E0)
+#define GPUBOIDMANAGER_SET_ISVISIABLE_OFFSET UNITYSDK_OFFSET(0x1D6EA1A0)
+#define GPUBOIDMANAGER_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1D6E8990)
+#define GPUBOIDMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1D6E9370)
+#define GPUBOIDMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6EA6E0)
+#define GPUBOIDMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EA610)
 
-inline static constexpr unsigned int GpuBoidManager_TypeDefinitionIndex = 27467;
+inline static constexpr unsigned int GpuBoidManager_TypeDefinitionIndex = 26671;
 
 class GpuBoidManager : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Int32* StaticGet__HardBounds()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DC0);
-	}
-	static ::System::Boolean* StaticGet_s_DebugBoidValid()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DC4);
-	}
-	static ::System::Int32* StaticGet__InvMass()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DC8);
-	}
-	static ::System::Int32* StaticGet__TestBoidConstant2()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DCC);
-	}
 	static ::System::Int32* StaticGet__BoidInstanceBuffer()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DD0);
 	}
-	static ::System::Int32* StaticGet__NumBoids()
+	static ::System::Int32* StaticGet__SoftAndHardBoundsStrength()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DD4);
 	}
-	static ::System::Int32* StaticGet__LeaderInfluenceDistSq()
+	static ::System::Int32* StaticGet__AlignmentStrength()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DD8);
 	}
-	static ::System::Int32* StaticGet__SqrPerceptionRange()
+	static ::System::Int32* StaticGet__LeaderInfluenceDistSq()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DDC);
 	}
-	static ::System::Int32* StaticGet__SeparationStrength()
+	static ::System::Int32* StaticGet__Boids()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DE0);
 	}
-	static ::System::Int32* StaticGet__TestBoidConstant()
+	static ::System::Int32* StaticGet__ZConstraint()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DE4);
 	}
-	static ::System::Int32* StaticGet__MaxSpeed()
+	static ::System::Int32* StaticGet__InstanceMeshScale()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DE8);
 	}
-	static ::System::Int32* StaticGet__LeaderPosAndStrength()
+	static ::System::Int32* StaticGet__CohesionStrength()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DEC);
 	}
-	static ::System::Int32* StaticGet__InstanceMeshScale()
+	static ::System::Boolean* StaticGet_s_DebugBoidValid()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DF0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DF0);
 	}
-	static ::System::Int32* StaticGet__DeltaTime()
+	static ::System::Int32* StaticGet__MaxSpeed()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DF4);
 	}
-	static ::System::Int32* StaticGet__FlockObjectToWorld()
+	static ::System::Int32* StaticGet__TestBoidConstant2()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DF8);
 	}
-	static ::System::Int32* StaticGet__BoidRadiusAndSq()
+	static ::System::Int32* StaticGet__DeltaTime()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6DFC);
 	}
-	static ::System::Int32* StaticGet__SeparationDistanceSq()
+	static ::System::Int32* StaticGet__InvMass()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6E00);
 	}
-	static ::System::Int32* StaticGet__SoftAndHardBoundsStrength()
+	static ::System::Int32* StaticGet__RevertSpeed()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6E04);
 	}
-	static ::System::Int32* StaticGet__ZConstraint()
+	static ::System::Int32* StaticGet__MaxAccel()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6E08);
 	}
-	static ::System::Int32* StaticGet__AlignmentStrength()
+	static ::System::Int32* StaticGet__SqrPerceptionRange()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6E0C);
 	}
-	static ::System::Int32* StaticGet__Boids()
+	static ::System::Int32* StaticGet__HardBounds()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6E10);
 	}
-	static ::System::Int32* StaticGet__RevertSpeed()
+	static ::System::Int32* StaticGet__LeaderPosAndStrength()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6E14);
 	}
-	static ::System::Int32* StaticGet__MaxAccel()
+	static ::System::Int32* StaticGet__TestBoidConstant()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6E18);
 	}
-	static ::System::Int32* StaticGet__CohesionStrength()
+	static ::System::Int32* StaticGet__BoidRadiusAndSq()
 	{
 		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6E1C);
+	}
+	static ::System::Int32* StaticGet__SeparationStrength()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6E20);
+	}
+	static ::System::Int32* StaticGet__FlockObjectToWorld()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6E24);
+	}
+	static ::System::Int32* StaticGet__NumBoids()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6E28);
+	}
+	static ::System::Int32* StaticGet__SeparationDistanceSq()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GpuBoidManager_TypeDefinitionIndex)->GetStaticField(0x6E2C);
 	}
 	// static const ::System::Int32 BLOCK_SIZE_X = 0x100; // 0x0
 	// static const ::System::Int32 MAX_INSTANCE_COUNT = 0x100; // 0x0
 	::System::Int32 instanceCount; // 0x18
+	::System::Byte _padding0[0x4];
 	::UnityEngine::Mesh* mesh; // 0x20
 	::UnityEngine::Material* material; // 0x28
 	::System::Single boidMeshScale; // 0x30
@@ -157,12 +160,15 @@ public:
 	::System::Single hardBoundsStrength; // 0x68
 	::System::Single ZConstraint; // 0x6C
 	::System::Boolean revertSpeed; // 0x70
+	::System::Byte _padding1[0x3];
 	::System::Single PoiStrength; // 0x74
 	::System::Single PoiInfluenceDistance; // 0x78
+	::System::Byte _padding2[0x4];
 	::UnityEngine::Transform* PoiTransform; // 0x80
 	::System::Single PoiMaxRadius; // 0x88
 	::System::Single PoiMoveSpeed; // 0x8C
 	::System::Single PoiZConstraint; // 0x90
+	::System::Byte _padding3[0x4];
 	::GpuBoidSettings* overrideSettings; // 0x98
 	::UnityEngine::Bounds infinityBounds; // 0xA0
 	::UnityEngine::Bounds _boundsForCulling_k__BackingField; // 0xB8
@@ -170,6 +176,7 @@ public:
 	::UnityEngine::ComputeBuffer* boidBuffer; // 0xD8
 	::System::Boolean resetInNextUpdate; // 0xE0
 	::System::Boolean _IsVisiable_k__BackingField; // 0xE1
+	::System::Byte _padding4[0x6];
 	::UnityEngine::MaterialPropertyBlock* m_LocalMpb; // 0xE8
 
 	::System::Void _ctor()
@@ -265,6 +272,11 @@ public:
 	::System::Boolean IsValid()
 	{
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GPUBOIDMANAGER_ISVALID_OFFSET))(this);
+	}
+
+	::System::Boolean IsInCullingMask(::UnityEngine::Camera* camera)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + GPUBOIDMANAGER_ISINCULLINGMASK_OFFSET))(this, camera);
 	}
 
 	::System::Void DrawBoidBuffer(::UnityEngine::Rendering::ScriptableRenderContext& context, ::UnityEngine::Rendering::CommandBuffer* cmd)

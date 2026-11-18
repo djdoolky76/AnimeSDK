@@ -6,19 +6,19 @@
 namespace DG::Tweening { class TweenCallback; }
 namespace MoleMole { class UIGeneralLoginTopTipsPopWindowController; }
 
-#define MOLEMOLE_UIGENERALLOGINTOPTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185A4E50)
-#define MOLEMOLE_UIGENERALLOGINTOPTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__ONSTARTCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x185A4E60)
-#define MOLEMOLE_UIGENERALLOGINTOPTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__ONSTARTCLOSE_B__1_OFFSET UNITYSDK_OFFSET(0x185A4F30)
+#define MOLEMOLE_UIGENERALLOGINTOPTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180467C0)
+#define MOLEMOLE_UIGENERALLOGINTOPTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__ONSTARTCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0x180467D0)
+#define MOLEMOLE_UIGENERALLOGINTOPTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS9_0__ONSTARTCLOSE_B__1_OFFSET UNITYSDK_OFFSET(0x180468A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralLoginTopTipsPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 44644;
+	inline static constexpr unsigned int UIGeneralLoginTopTipsPopWindowController___c__DisplayClass9_0_TypeDefinitionIndex = 49178;
 
 	class UIGeneralLoginTopTipsPopWindowController___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIGeneralLoginTopTipsPopWindowController* __4__this; // 0x10
-		::DG::Tweening::TweenCallback* __9__1; // 0x18
+		::DG::Tweening::TweenCallback* __9__1; // 0x10
+		::MoleMole::UIGeneralLoginTopTipsPopWindowController* __4__this; // 0x18
 		::UnityEngine::Vector2 finalSize; // 0x20
 		::System::Single length; // 0x28
 

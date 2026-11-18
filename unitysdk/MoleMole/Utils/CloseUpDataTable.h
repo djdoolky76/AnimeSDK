@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Utils/NapDictionaryBasedDataTable_1.h"
 
-namespace MoleMole::Utils { class CloseUpDataTableEntry; }
-
-#define MOLEMOLE_UTILS_CLOSEUPDATATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x14106620)
+#define MOLEMOLE_UTILS_CLOSEUPDATATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x120A76B0)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int CloseUpDataTable_TypeDefinitionIndex = 83150;
+	inline static constexpr unsigned int CloseUpDataTable_TypeDefinitionIndex = 74718;
 
-	class CloseUpDataTable : public ::MoleMole::Utils::NapDictionaryBasedDataTable_1<::MoleMole::Utils::CloseUpDataTableEntry*>
+	class CloseUpDataTable
 	{
 	public:
 		::System::Void _ctor()

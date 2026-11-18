@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_1A39E1B51756BF41;
-class Class_2_B4378B46E0020E85;
-class Class_2_FDFE69FE7B72463B;
+class FGCOIBFFCHB;
+class GCIMMDDIFBJ;
+class LGINJIKKBJA;
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIMONSTERFANTASYROLEITEMWIDGETCONTROLLER_VIEWCONTENT_VIEWDETAILS__CTOR_OFFSET UNITYSDK_OFFSET(0x15F3EC60)
+#define MOLEMOLE_UIMONSTERFANTASYROLEITEMWIDGETCONTROLLER_VIEWCONTENT_VIEWDETAILS__CTOR_OFFSET UNITYSDK_OFFSET(0x168C40A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyRoleItemWidgetController_ViewContent_ViewDetails_TypeDefinitionIndex = 45816;
+	inline static constexpr unsigned int UIMonsterFantasyRoleItemWidgetController_ViewContent_ViewDetails_TypeDefinitionIndex = 92628;
 
 	class UIMonsterFantasyRoleItemWidgetController_ViewContent_ViewDetails : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* ExtraGo; // 0x10
-		::Class_2_1A39E1B51756BF41* HpImg; // 0x18
-		::Class_2_B4378B46E0020E85* Btn; // 0x20
-		::Class_2_1A39E1B51756BF41* LongPressFillImg; // 0x28
-		::Class_2_1A39E1B51756BF41* Img; // 0x30
-		::Class_2_1A39E1B51756BF41* TagLeftImg; // 0x38
-		::Class_2_1A39E1B51756BF41* TagImg; // 0x40
-		::UnityEngine::GameObject* LongPressGo; // 0x48
-		::UnityEngine::GameObject* DisableGo; // 0x50
-		::UnityEngine::GameObject* TagGo; // 0x58
-		::UnityEngine::GameObject* PlayerTagGo; // 0x60
-		::Class_2_1A39E1B51756BF41* TagRightImg; // 0x68
-		::UnityEngine::GameObject* Go; // 0x70
-		::UnityEngine::GameObject* EnemyTagGo; // 0x78
-		::Class_2_FDFE69FE7B72463B* HpAddLight; // 0x80
+		::FGCOIBFFCHB* LongPressFillImg; // 0x10
+		::UnityEngine::GameObject* PlayerTagGo; // 0x18
+		::FGCOIBFFCHB* HpImg; // 0x20
+		::UnityEngine::GameObject* TagGo; // 0x28
+		::FGCOIBFFCHB* TagRightImg; // 0x30
+		::FGCOIBFFCHB* TagLeftImg; // 0x38
+		::UnityEngine::GameObject* ExtraGo; // 0x40
+		::GCIMMDDIFBJ* HpAddLight; // 0x48
+		::FGCOIBFFCHB* Img; // 0x50
+		::UnityEngine::GameObject* DisableGo; // 0x58
+		::UnityEngine::GameObject* EnemyTagGo; // 0x60
+		::FGCOIBFFCHB* TagImg; // 0x68
+		::UnityEngine::GameObject* LongPressGo; // 0x70
+		::UnityEngine::GameObject* Go; // 0x78
+		::LGINJIKKBJA* Btn; // 0x80
 
 		::System::Void _ctor()
 		{

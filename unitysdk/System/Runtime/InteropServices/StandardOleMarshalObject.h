@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MarshalByRefObject.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_STANDARDOLEMARSHALOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD24D0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_STANDARDOLEMARSHALOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF13200)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int StandardOleMarshalObject_TypeDefinitionIndex = 4069;
+	inline static constexpr unsigned int StandardOleMarshalObject_TypeDefinitionIndex = 4068;
 
 	class StandardOleMarshalObject : public ::System::MarshalByRefObject
 	{

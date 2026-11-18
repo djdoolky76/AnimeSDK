@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ALPKMOKNBML.h"
+#include "unitysdk/KOONKMPDKMM_PPIPOPDHBFG.h"
+
+#define KOONKMPDKMM_AJNLHLCGPBE_OFFSET UNITYSDK_OFFSET(0x1682F800)
+#define KOONKMPDKMM_BBAGPGDLCLO_OFFSET UNITYSDK_OFFSET(0x1682F7C0)
+#define KOONKMPDKMM_BKJPMPBEHDO_OFFSET UNITYSDK_OFFSET(0x1682F9A0)
+#define KOONKMPDKMM_JPGIAJIKDOM_OFFSET UNITYSDK_OFFSET(0x1682F880)
+#define KOONKMPDKMM_OJBBHOOGMPL_OFFSET UNITYSDK_OFFSET(0x1682F840)
+#define KOONKMPDKMM_PLPONJAKNEB_OFFSET UNITYSDK_OFFSET(0x1682F8C0)
+#define KOONKMPDKMM__CTOR_OFFSET UNITYSDK_OFFSET(0x1682F660)
+
+inline static constexpr unsigned int KOONKMPDKMM_TypeDefinitionIndex = 38688;
+
+class KOONKMPDKMM : public ::ALPKMOKNBML
+{
+public:
+	::System::Void _ctor(::ALPKMOKNBML* PCGFOPBDPIJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::ALPKMOKNBML*))((::PBYTE)hIl2Cpp + KOONKMPDKMM__CTOR_OFFSET))(this, PCGFOPBDPIJ);
+	}
+
+	::KOONKMPDKMM_PPIPOPDHBFG BBAGPGDLCLO()
+	{
+		return ((::KOONKMPDKMM_PPIPOPDHBFG(*)(::PVOID))((::PBYTE)hIl2Cpp + KOONKMPDKMM_BBAGPGDLCLO_OFFSET))(this);
+	}
+
+	::System::Int32 AJNLHLCGPBE()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + KOONKMPDKMM_AJNLHLCGPBE_OFFSET))(this);
+	}
+
+	::System::Single OJBBHOOGMPL()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + KOONKMPDKMM_OJBBHOOGMPL_OFFSET))(this);
+	}
+
+	::System::Int32 JPGIAJIKDOM()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + KOONKMPDKMM_JPGIAJIKDOM_OFFSET))(this);
+	}
+
+	::System::Void PLPONJAKNEB(::System::Single PMNLNNGEIFM)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + KOONKMPDKMM_PLPONJAKNEB_OFFSET))(this, PMNLNNGEIFM);
+	}
+
+	::System::Void BKJPMPBEHDO(::System::Single MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + KOONKMPDKMM_BKJPMPBEHDO_OFFSET))(this, MIALFKCCCPI);
+	}
+};

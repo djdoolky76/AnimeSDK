@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/System/Object.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 namespace Foundation::ViewObject::Donjon { class DonjonFloorObjectBuildContext; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGDECORBASE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5486A0)
-#define MOLEMOLE_CONFIG_CONFIGDECORBASE_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1B548480)
-#define MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_0BD393E566CD3D4A_OFFSET UNITYSDK_OFFSET(0x1B548500)
-#define MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_17C19F1FFDE0D888_OFFSET UNITYSDK_OFFSET(0x1B548AA0)
-#define MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_2C463ED601F44ECA_OFFSET UNITYSDK_OFFSET(0x1B5488F0)
-#define MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_81438D3AF9EEE8D8_OFFSET UNITYSDK_OFFSET(0x1B548370)
-#define MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_939448457A24CB1A_OFFSET UNITYSDK_OFFSET(0x1B548950)
-#define MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_A042C46DE73C3043_OFFSET UNITYSDK_OFFSET(0x1B548360)
-#define MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_A42B0141BE94FABE_OFFSET UNITYSDK_OFFSET(0x1B548700)
-#define MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x1B548470)
-#define MOLEMOLE_CONFIG_CONFIGDECORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B548940)
+#define MOLEMOLE_CONFIG_CONFIGDECORBASE_APMCKICIGDA_OFFSET UNITYSDK_OFFSET(0x1BA282A0)
+#define MOLEMOLE_CONFIG_CONFIGDECORBASE_DGNAAPGKIPL_OFFSET UNITYSDK_OFFSET(0x1BA27D20)
+#define MOLEMOLE_CONFIG_CONFIGDECORBASE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA28050)
+#define MOLEMOLE_CONFIG_CONFIGDECORBASE_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1BA27E30)
+#define MOLEMOLE_CONFIG_CONFIGDECORBASE_GCPLFHBJMLD_OFFSET UNITYSDK_OFFSET(0x1BA28300)
+#define MOLEMOLE_CONFIG_CONFIGDECORBASE_GIJLLGEPMIA_OFFSET UNITYSDK_OFFSET(0x1BA27E20)
+#define MOLEMOLE_CONFIG_CONFIGDECORBASE_HGOAEJAJNPK_OFFSET UNITYSDK_OFFSET(0x1BA28450)
+#define MOLEMOLE_CONFIG_CONFIGDECORBASE_IAEALJJMOKA_OFFSET UNITYSDK_OFFSET(0x1BA280B0)
+#define MOLEMOLE_CONFIG_CONFIGDECORBASE_LODDGCEMGJO_OFFSET UNITYSDK_OFFSET(0x1BA27D10)
+#define MOLEMOLE_CONFIG_CONFIGDECORBASE_PDHKICNJNGG_OFFSET UNITYSDK_OFFSET(0x1BA27EB0)
+#define MOLEMOLE_CONFIG_CONFIGDECORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA282F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDecorBase_TypeDefinitionIndex = 87520;
+	inline static constexpr unsigned int ConfigDecorBase_TypeDefinitionIndex = 70050;
 
 	class ConfigDecorBase : public ::System::Object
 	{
@@ -34,54 +34,54 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_A042C46DE73C3043(::System::Action_1<::System::Object*>* a1)
+		::System::Void LODDGCEMGJO(::System::Action_1<::System::Object*>* EJGDHCIBCJH)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_A042C46DE73C3043_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_LODDGCEMGJO_OFFSET))(this, EJGDHCIBCJH);
 		}
 
-		::MoleMole::Config::ConfigDecorBase* Method_1_81438D3AF9EEE8D8()
+		::MoleMole::Config::ConfigDecorBase* DGNAAPGKIPL()
 		{
-			return ((::MoleMole::Config::ConfigDecorBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_81438D3AF9EEE8D8_OFFSET))(this);
+			return ((::MoleMole::Config::ConfigDecorBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_DGNAAPGKIPL_OFFSET))(this);
 		}
 
-		::System::Int32 Method_1_C74CF020AA42ED85()
+		::System::Int32 GIJLLGEPMIA()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_C74CF020AA42ED85_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_GIJLLGEPMIA_OFFSET))(this);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_FROMFLX_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean FromBinary(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_FROMBINARY_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 
-		::System::Boolean Method_1_2C463ED601F44ECA(::Foundation::ViewObject::Donjon::DonjonFloorObjectBuildContext* a1)
+		::System::Boolean APMCKICIGDA(::Foundation::ViewObject::Donjon::DonjonFloorObjectBuildContext* HGDMBHDKFPK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::Donjon::DonjonFloorObjectBuildContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_2C463ED601F44ECA_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::Donjon::DonjonFloorObjectBuildContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_APMCKICIGDA_OFFSET))(this, HGDMBHDKFPK);
 		}
 
-		::System::Boolean Method_1_0BD393E566CD3D4A(::FlexBuffers::FlxMap a1)
+		static ::MoleMole::Config::ConfigDecorBase* GCPLFHBJMLD(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_0BD393E566CD3D4A_OFFSET))(this, a1);
+			return ((::MoleMole::Config::ConfigDecorBase*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_GCPLFHBJMLD_OFFSET))(EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 
-		static ::MoleMole::Config::ConfigDecorBase* Method_1_939448457A24CB1A(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		static ::MoleMole::Config::ConfigDecorBase* HGOAEJAJNPK(::FlexBuffers::FlxValue HHIJHDFHPOI)
 		{
-			return ((::MoleMole::Config::ConfigDecorBase*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_939448457A24CB1A_OFFSET))(a1, a2);
+			return ((::MoleMole::Config::ConfigDecorBase*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_HGOAEJAJNPK_OFFSET))(HHIJHDFHPOI);
 		}
 
-		static ::MoleMole::Config::ConfigDecorBase* Method_1_17C19F1FFDE0D888(::FlexBuffers::FlxValue a1)
+		::System::Boolean PDHKICNJNGG(::FlexBuffers::FlxMap HHIJHDFHPOI)
 		{
-			return ((::MoleMole::Config::ConfigDecorBase*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_17C19F1FFDE0D888_OFFSET))(a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_PDHKICNJNGG_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean Method_1_A42B0141BE94FABE(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean IAEALJJMOKA(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_METHOD_1_A42B0141BE94FABE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGDECORBASE_IAEALJJMOKA_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 	};
 }

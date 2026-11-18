@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1601DED0)
-#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1601DF10)
-#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__INITSORT_B__4_0_OFFSET UNITYSDK_OFFSET(0x1601DF20)
+#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15949310)
+#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15949350)
+#define MOLEMOLE_UIBACKENDRELICCOLLECTWIDGETCONTROLLER___C__INITSORT_B__4_0_OFFSET UNITYSDK_OFFSET(0x15949360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBackendRelicCollectWidgetController___c_TypeDefinitionIndex = 86480;
+	inline static constexpr unsigned int UIBackendRelicCollectWidgetController___c_TypeDefinitionIndex = 59301;
 
 	class UIBackendRelicCollectWidgetController___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIBackendRelicCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44D90);
+		}
 		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIBackendRelicCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FBB0);
-		}
-		static ::MoleMole::UIBackendRelicCollectWidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIBackendRelicCollectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBackendRelicCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FBB8);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIBackendRelicCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x44D98);
 		}
 
 		static ::System::Void _cctor()

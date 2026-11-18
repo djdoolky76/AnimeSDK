@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VirtualJoystickMoveType_TypeDefinitionIndex = 86154;
+	inline static constexpr unsigned int VirtualJoystickMoveType_TypeDefinitionIndex = 66650;
 
 	enum class VirtualJoystickMoveType : ::System::Int32
 	{

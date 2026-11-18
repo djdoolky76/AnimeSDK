@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RenderTextureMemoryless_TypeDefinitionIndex = 5246;
+	inline static constexpr unsigned int RenderTextureMemoryless_TypeDefinitionIndex = 5248;
 
 	enum class RenderTextureMemoryless : ::System::Int32
 	{

@@ -4,18 +4,18 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIZENKOVMEDALWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B21950)
+#define MOLEMOLE_UIZENKOVMEDALWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13EAC840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovMedalWidgetController_Context_TypeDefinitionIndex = 70862;
+	inline static constexpr unsigned int UIZenkovMedalWidgetController_Context_TypeDefinitionIndex = 51515;
 
 	class UIZenkovMedalWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Action* CloseCallback; // 0x28
-		::System::Int32 FromMedal; // 0x30
-		::System::Int32 ToMedal; // 0x34
+		::System::Int32 ToMedal; // 0x30
+		::System::Int32 FromMedal; // 0x34
 
 		::System::Void _ctor()
 		{

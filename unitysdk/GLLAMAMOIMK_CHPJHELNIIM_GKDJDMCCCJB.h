@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class NBBHMCEBKPH;
+
+#define GLLAMAMOIMK_CHPJHELNIIM_GKDJDMCCCJB_CGHOOKLJEAG_OFFSET UNITYSDK_OFFSET(0x179FABF0)
+#define GLLAMAMOIMK_CHPJHELNIIM_GKDJDMCCCJB__CTOR_OFFSET UNITYSDK_OFFSET(0x179FABE0)
+
+inline static constexpr unsigned int GLLAMAMOIMK_CHPJHELNIIM_GKDJDMCCCJB_TypeDefinitionIndex = 85018;
+
+class GLLAMAMOIMK_CHPJHELNIIM_GKDJDMCCCJB : public ::System::Object
+{
+public:
+	::NBBHMCEBKPH* LCDKDFHDILB; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GLLAMAMOIMK_CHPJHELNIIM_GKDJDMCCCJB__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean CGHOOKLJEAG(::NBBHMCEBKPH* EEDDICPIOCN)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::NBBHMCEBKPH*))((::PBYTE)hIl2Cpp + GLLAMAMOIMK_CHPJHELNIIM_GKDJDMCCCJB_CGHOOKLJEAG_OFFSET))(this, EEDDICPIOCN);
+	}
+};

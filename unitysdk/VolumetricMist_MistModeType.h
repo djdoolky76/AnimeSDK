@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int VolumetricMist_MistModeType_TypeDefinitionIndex = 27340;
+inline static constexpr unsigned int VolumetricMist_MistModeType_TypeDefinitionIndex = 26948;
 
 enum class VolumetricMist_MistModeType : ::System::Int32
 {
 	AroundSurface = 2,
-	WithNoise = 1,
 	Simple = 0,
+	WithNoise = 1,
 };

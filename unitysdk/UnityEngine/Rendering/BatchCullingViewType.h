@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchCullingViewType_TypeDefinitionIndex = 6215;
+	inline static constexpr unsigned int BatchCullingViewType_TypeDefinitionIndex = 6230;
 
 	enum class BatchCullingViewType : ::System::Int32
 	{

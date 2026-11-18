@@ -5,22 +5,22 @@
 
 namespace BehaviorDesigner::Runtime { class SharedInt; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_RANDOMINT_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E469640)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_RANDOMINT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E469410)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_RANDOMINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4696C0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_RANDOMINT___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E469750)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_RANDOMINT___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E4697E0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_RANDOMINT_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E6B3530)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_RANDOMINT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E6B3300)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_RANDOMINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B35B0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_RANDOMINT___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E6B3640)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_MATH_RANDOMINT___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E6B36D0)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::Math
 {
-	inline static constexpr unsigned int RandomInt_TypeDefinitionIndex = 34310;
+	inline static constexpr unsigned int RandomInt_TypeDefinitionIndex = 33856;
 
 	class RandomInt : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedInt* storeResult; // 0x58
-		::BehaviorDesigner::Runtime::SharedInt* min; // 0x60
-		::BehaviorDesigner::Runtime::SharedInt* max; // 0x68
+		::BehaviorDesigner::Runtime::SharedInt* max; // 0x58
+		::BehaviorDesigner::Runtime::SharedInt* storeResult; // 0x60
+		::BehaviorDesigner::Runtime::SharedInt* min; // 0x68
 		::System::Boolean inclusive; // 0x70
 
 		::System::Void _ctor()

@@ -6,23 +6,23 @@ namespace MoleMole { class UIAbyssRewardTimeLinePopWindowController; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_UIABYSSREWARDTIMELINEPOPWINDOWCONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173C88D0)
-#define MOLEMOLE_UIABYSSREWARDTIMELINEPOPWINDOWCONTROLLER___C__DISPLAYCLASS37_0__PLAYANIMCURVE_B__0_OFFSET UNITYSDK_OFFSET(0x173C88E0)
+#define MOLEMOLE_UIABYSSREWARDTIMELINEPOPWINDOWCONTROLLER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13F320B0)
+#define MOLEMOLE_UIABYSSREWARDTIMELINEPOPWINDOWCONTROLLER___C__DISPLAYCLASS37_0__PLAYANIMCURVE_B__0_OFFSET UNITYSDK_OFFSET(0x13F320C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssRewardTimeLinePopWindowController___c__DisplayClass37_0_TypeDefinitionIndex = 70658;
+	inline static constexpr unsigned int UIAbyssRewardTimeLinePopWindowController___c__DisplayClass37_0_TypeDefinitionIndex = 52613;
 
 	class UIAbyssRewardTimeLinePopWindowController___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::AnimationCurve* curve; // 0x10
-		::System::Action_1<::System::Single>* action; // 0x18
-		::MoleMole::UIAbyssRewardTimeLinePopWindowController* __4__this; // 0x20
+		::System::Action_1<::System::Single>* action; // 0x10
+		::MoleMole::UIAbyssRewardTimeLinePopWindowController* __4__this; // 0x18
+		::UnityEngine::AnimationCurve* curve; // 0x20
 		::System::Single end; // 0x28
-		::System::Single animTime; // 0x2C
-		::System::Single start; // 0x30
-		::System::Single index; // 0x34
+		::System::Single start; // 0x2C
+		::System::Single index; // 0x30
+		::System::Single animTime; // 0x34
 
 		::System::Void _ctor()
 		{

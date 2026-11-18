@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_181;
+class HGIDAMPAOGK;
 namespace MoleMole { class UIMechBooPrepFreedomWidgetController; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI::Extension { class UITimeWidget; }
 
-#define MOLEMOLE_UIMECHBOOPREPFREEDOMWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF75E0)
-#define MOLEMOLE_UIMECHBOOPREPFREEDOMWIDGETCONTROLLER___C__DISPLAYCLASS5_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x17DF75F0)
-#define MOLEMOLE_UIMECHBOOPREPFREEDOMWIDGETCONTROLLER___C__DISPLAYCLASS5_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x17DF7620)
+#define MOLEMOLE_UIMECHBOOPREPFREEDOMWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186CF670)
+#define MOLEMOLE_UIMECHBOOPREPFREEDOMWIDGETCONTROLLER___C__DISPLAYCLASS5_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x186CF680)
+#define MOLEMOLE_UIMECHBOOPREPFREEDOMWIDGETCONTROLLER___C__DISPLAYCLASS5_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x186CF6B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMechBooPrepFreedomWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 59969;
+	inline static constexpr unsigned int UIMechBooPrepFreedomWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 79742;
 
 	class UIMechBooPrepFreedomWidgetController___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_181* levelInfo; // 0x10
+		::HGIDAMPAOGK* levelInfo; // 0x10
 		::MoleMole::UIMechBooPrepFreedomWidgetController* __4__this; // 0x18
-		::System::Action_1<::Class_0_16E4307DCC419505_181*>* onClickScriptBtn; // 0x20
+		::System::Action_1<::HGIDAMPAOGK*>* onClickScriptBtn; // 0x20
 
 		::System::Void _ctor()
 		{

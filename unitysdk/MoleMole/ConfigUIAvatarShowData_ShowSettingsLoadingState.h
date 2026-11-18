@@ -5,11 +5,11 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUIAVATARSHOWDATA_SHOWSETTINGSLOADINGSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6CF00)
+#define MOLEMOLE_CONFIGUIAVATARSHOWDATA_SHOWSETTINGSLOADINGSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B949C00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAvatarShowData_ShowSettingsLoadingState_TypeDefinitionIndex = 56953;
+	inline static constexpr unsigned int ConfigUIAvatarShowData_ShowSettingsLoadingState_TypeDefinitionIndex = 75155;
 
 	class ConfigUIAvatarShowData_ShowSettingsLoadingState : public ::System::Object
 	{

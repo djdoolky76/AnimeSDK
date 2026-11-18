@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NapSceneEffectLodProxy_SceneEffectLodConfig_PSModuleMask_TypeDefinitionIndex = 27396;
+inline static constexpr unsigned int NapSceneEffectLodProxy_SceneEffectLodConfig_PSModuleMask_TypeDefinitionIndex = 27308;
 
 enum class NapSceneEffectLodProxy_SceneEffectLodConfig_PSModuleMask : ::System::Int32
 {
-	Emission = 8,
-	RotationOverLifeTime = 32,
-	Noise = 1,
-	TextureSheet = 128,
-	Light = 64,
 	Shape = 16,
+	Emission = 8,
+	Light = 64,
 	SizeOverLifeTime = 2,
+	Noise = 1,
+	RotationOverLifeTime = 32,
+	TextureSheet = 128,
 	ColorOverLifeTime = 4,
 };

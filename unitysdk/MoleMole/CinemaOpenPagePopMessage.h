@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-class Class_1_D7AB5C0D818FEEEA;
+class JBEKOJKMNJN;
 
-#define MOLEMOLE_CINEMAOPENPAGEPOPMESSAGE_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x12A31370)
-#define MOLEMOLE_CINEMAOPENPAGEPOPMESSAGE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x12A31390)
-#define MOLEMOLE_CINEMAOPENPAGEPOPMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x12A31380)
+#define MOLEMOLE_CINEMAOPENPAGEPOPMESSAGE_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x192789A0)
+#define MOLEMOLE_CINEMAOPENPAGEPOPMESSAGE_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x192789C0)
+#define MOLEMOLE_CINEMAOPENPAGEPOPMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x192789B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CinemaOpenPagePopMessage_TypeDefinitionIndex = 42574;
+	inline static constexpr unsigned int CinemaOpenPagePopMessage_TypeDefinitionIndex = 59283;
 
 	class CinemaOpenPagePopMessage : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::Class_1_D7AB5C0D818FEEEA* processHandler; // 0x28
+		::JBEKOJKMNJN* processHandler; // 0x28
 
 		::System::Void _ctor()
 		{

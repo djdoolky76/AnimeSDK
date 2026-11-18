@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UISUMMERTIDETREASUREROLEROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x151AECD0)
+#define MOLEMOLE_UISUMMERTIDETREASUREROLEROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1135F120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerTideTreasureRoleRowWidgetController_Data_TypeDefinitionIndex = 51123;
+	inline static constexpr unsigned int UISummerTideTreasureRoleRowWidgetController_Data_TypeDefinitionIndex = 83699;
 
 	class UISummerTideTreasureRoleRowWidgetController_Data : public ::System::Object
 	{

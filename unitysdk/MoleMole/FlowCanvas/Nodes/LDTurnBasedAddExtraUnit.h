@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_3.h"
 
 namespace MoleMole { class TurnBattleUnitBase; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDADDEXTRAUNIT_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B13BC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDADDEXTRAUNIT_ISAPPENDTARGET_OFFSET UNITYSDK_OFFSET(0x19B140F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDADDEXTRAUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B14210)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDADDEXTRAUNIT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8F0C00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDADDEXTRAUNIT_ISAPPENDTARGET_OFFSET UNITYSDK_OFFSET(0x1A8F1130)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDADDEXTRAUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F1250)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedAddExtraUnit_TypeDefinitionIndex = 51305;
+	inline static constexpr unsigned int LDTurnBasedAddExtraUnit_TypeDefinitionIndex = 76896;
 
-	class LDTurnBasedAddExtraUnit : public ::FlowCanvas::Nodes::CallableActionNode_3<::MoleMole::Battle::Entity*, ::System::Int32, ::System::Boolean>
+	class LDTurnBasedAddExtraUnit
 	{
 	public:
 		::System::Void _ctor()

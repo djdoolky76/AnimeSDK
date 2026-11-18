@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_MONOUICURVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11902F40)
+#define MOLEMOLE_MONOUICURVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A70F700)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUICurveData_TypeDefinitionIndex = 61930;
+	inline static constexpr unsigned int MonoUICurveData_TypeDefinitionIndex = 75617;
 
 	class MonoUICurveData : public ::System::Object
 	{

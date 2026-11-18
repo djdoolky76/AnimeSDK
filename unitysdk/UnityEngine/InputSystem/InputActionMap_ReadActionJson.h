@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/InputSystem/InputActionMap_BindingJson.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputAction; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_READACTIONJSON_TOACTION_OFFSET UNITYSDK_OFFSET(0xA95D90)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_READACTIONJSON_TOACTION_OFFSET UNITYSDK_OFFSET(0x97C950)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionMap_ReadActionJson_TypeDefinitionIndex = 32160;
+	inline static constexpr unsigned int InputActionMap_ReadActionJson_TypeDefinitionIndex = 31609;
 
 	struct alignas(8) InputActionMap_ReadActionJson
 	{
@@ -23,7 +23,8 @@ namespace UnityEngine::InputSystem
 		::System::String* interactions; // 0x40
 		::System::Boolean passThrough; // 0x48
 		::System::Boolean initialStateCheck; // 0x49
-		::Il2CppArray<::UnityEngine::InputSystem::InputActionMap_BindingJson>* bindings; // 0x50
+		::System::Byte _padding0[0x6];
+		::Il2CppArray<::System::Object*>* bindings; // 0x50
 
 		::UnityEngine::InputSystem::InputAction* ToAction(::System::String* actionName)
 		{

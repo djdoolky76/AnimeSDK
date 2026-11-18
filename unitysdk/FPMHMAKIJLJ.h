@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FlatBuffers/Table.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace FlatBuffers { class ByteBuffer; }
+namespace System { class String; }
+
+#define FPMHMAKIJLJ_ANOOECGILCH_OFFSET UNITYSDK_OFFSET(0x754C80)
+#define FPMHMAKIJLJ_BHGNCCMLJKB_OFFSET UNITYSDK_OFFSET(0x754A40)
+#define FPMHMAKIJLJ_CJBMHNCHNHO_OFFSET UNITYSDK_OFFSET(0x7550C0)
+#define FPMHMAKIJLJ_EOANKJGDHEO_OFFSET UNITYSDK_OFFSET(0x754F10)
+#define FPMHMAKIJLJ_GET_BYTEBUFFER_OFFSET UNITYSDK_OFFSET(0x2E38E0)
+#define FPMHMAKIJLJ_OAKBBAANKCP_OFFSET UNITYSDK_OFFSET(0x17463340)
+#define FPMHMAKIJLJ___INIT_OFFSET UNITYSDK_OFFSET(0x754910)
+
+inline static constexpr unsigned int FPMHMAKIJLJ_TypeDefinitionIndex = 13745;
+
+struct alignas(4) FPMHMAKIJLJ
+{
+	::FlatBuffers::Table KHCKCFFKIGG; // 0x10
+
+	::FlatBuffers::ByteBuffer* get_ByteBuffer()
+	{
+		return ((::FlatBuffers::ByteBuffer*(*)(::PVOID))((::PBYTE)hIl2Cpp + FPMHMAKIJLJ_GET_BYTEBUFFER_OFFSET))(this);
+	}
+
+	::System::Void __init(::System::Int32 FLPJIBCILFC, ::FlatBuffers::ByteBuffer* GBOBNIDOGCP)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + FPMHMAKIJLJ___INIT_OFFSET))(this, FLPJIBCILFC, GBOBNIDOGCP);
+	}
+
+	/*
+	static ::FPMHMAKIJLJ OAKBBAANKCP(::System::Int32 PFJFICMOJKP, ::System::Int32 MCOHLHMKLIP, ::FlatBuffers::ByteBuffer* DHEOPJNHFJP, ::System::Int32& ABHBKFJKINO)
+	{
+		return ((::FPMHMAKIJLJ(*)(::System::Int32, ::System::Int32, ::FlatBuffers::ByteBuffer*, ::System::Int32&))((::PBYTE)hIl2Cpp + FPMHMAKIJLJ_OAKBBAANKCP_OFFSET))(PFJFICMOJKP, MCOHLHMKLIP, DHEOPJNHFJP, ABHBKFJKINO);
+	}
+	*/
+
+	::System::Int32 ANOOECGILCH()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + FPMHMAKIJLJ_ANOOECGILCH_OFFSET))(this);
+	}
+
+	::System::String* CJBMHNCHNHO()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + FPMHMAKIJLJ_CJBMHNCHNHO_OFFSET))(this);
+	}
+
+	/*
+	::FPMHMAKIJLJ BHGNCCMLJKB(::System::Int32 FLPJIBCILFC, ::FlatBuffers::ByteBuffer* GBOBNIDOGCP)
+	{
+		return ((::FPMHMAKIJLJ(*)(::PVOID, ::System::Int32, ::FlatBuffers::ByteBuffer*))((::PBYTE)hIl2Cpp + FPMHMAKIJLJ_BHGNCCMLJKB_OFFSET))(this, FLPJIBCILFC, GBOBNIDOGCP);
+	}
+	*/
+
+	::System::String* EOANKJGDHEO()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + FPMHMAKIJLJ_EOANKJGDHEO_OFFSET))(this);
+	}
+};

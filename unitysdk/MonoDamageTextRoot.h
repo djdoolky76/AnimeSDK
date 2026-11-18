@@ -7,10 +7,10 @@ namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define MONODAMAGETEXTROOT_START_OFFSET UNITYSDK_OFFSET(0x15B21760)
-#define MONODAMAGETEXTROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B218A0)
+#define MONODAMAGETEXTROOT_START_OFFSET UNITYSDK_OFFSET(0x12C1DF20)
+#define MONODAMAGETEXTROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x12C1E060)
 
-inline static constexpr unsigned int MonoDamageTextRoot_TypeDefinitionIndex = 49062;
+inline static constexpr unsigned int MonoDamageTextRoot_TypeDefinitionIndex = 45340;
 
 class MonoDamageTextRoot : public ::UnityEngine::MonoBehaviour
 {
@@ -29,8 +29,10 @@ public:
 	::System::Single fadeoutTime; // 0x60
 	::System::Single faceIndex; // 0x64
 	::System::Boolean isFlash; // 0x68
+	::System::Byte _padding0[0x3];
 	::System::Single effectColorIndex; // 0x6C
 	::System::Boolean isCombineText; // 0x70
+	::System::Byte _padding1[0x3];
 	::System::Single ComebineTextShowTime; // 0x74
 
 	::System::Void _ctor()

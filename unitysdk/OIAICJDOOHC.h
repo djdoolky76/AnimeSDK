@@ -1,0 +1,123 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/DJFEAPLNLNA.h"
+#include "unitysdk/KIJHKJDBBGJ.h"
+#include "unitysdk/MoleMole/MiniUIGame/SimpleParkour/ETrackType.h"
+#include "unitysdk/System/Nullable_1.h"
+
+class AJJOBDLJOPM;
+class DLNNAPHNJLM;
+class GFLEJMCHOBC;
+class JBLLJEIKGBB;
+class PAFFKGCGNBD;
+
+#define OIAICJDOOHC_AHAJOICAADK_OFFSET UNITYSDK_OFFSET(0x10074350)
+#define OIAICJDOOHC_CJLIFJNDNGN_OFFSET UNITYSDK_OFFSET(0x10074330)
+#define OIAICJDOOHC_DDPIAKMDFHO_OFFSET UNITYSDK_OFFSET(0x100740E0)
+#define OIAICJDOOHC_DJNEAGOCAJM_OFFSET UNITYSDK_OFFSET(0x10074360)
+#define OIAICJDOOHC_EPEJAMLKIAI_OFFSET UNITYSDK_OFFSET(0x10073BB0)
+#define OIAICJDOOHC_GDAGBLNHMFD_OFFSET UNITYSDK_OFFSET(0x10074260)
+#define OIAICJDOOHC_HDGCDBPMCNL_OFFSET UNITYSDK_OFFSET(0x10073EB0)
+#define OIAICJDOOHC_KAAEDMANJHP_OFFSET UNITYSDK_OFFSET(0x10074340)
+#define OIAICJDOOHC_KGGIFCHOOOK_OFFSET UNITYSDK_OFFSET(0x10073C80)
+#define OIAICJDOOHC_KLFBDIBAALC_OFFSET UNITYSDK_OFFSET(0x10073DA0)
+#define OIAICJDOOHC_LGPCPOKHEFB_OFFSET UNITYSDK_OFFSET(0x10073B50)
+#define OIAICJDOOHC_LIPPDJBPLKE_OFFSET UNITYSDK_OFFSET(0x10074170)
+#define OIAICJDOOHC_NIJEMEEHOIO_OFFSET UNITYSDK_OFFSET(0x10074370)
+#define OIAICJDOOHC_NMOLCIDHDBK_OFFSET UNITYSDK_OFFSET(0x100741C0)
+#define OIAICJDOOHC_OMLMLKFGODN_OFFSET UNITYSDK_OFFSET(0x10073FA0)
+#define OIAICJDOOHC_PDLLNENDMNH_OFFSET UNITYSDK_OFFSET(0x10074320)
+#define OIAICJDOOHC__CTOR_OFFSET UNITYSDK_OFFSET(0x10073B10)
+
+inline static constexpr unsigned int OIAICJDOOHC_TypeDefinitionIndex = 46898;
+
+class OIAICJDOOHC : public ::KIJHKJDBBGJ
+{
+public:
+	::JBLLJEIKGBB* CDIPMDAELOG; // 0x40
+
+	::System::Void _ctor(::GFLEJMCHOBC* DFMKILICPFB, ::System::Single ONEFBCAPDPP, ::JBLLJEIKGBB* JNLBPMKIFNK)
+	{
+		return ((::System::Void(*)(::PVOID, ::GFLEJMCHOBC*, ::System::Single, ::JBLLJEIKGBB*))((::PBYTE)hIl2Cpp + OIAICJDOOHC__CTOR_OFFSET))(this, DFMKILICPFB, ONEFBCAPDPP, JNLBPMKIFNK);
+	}
+
+	::AJJOBDLJOPM* LGPCPOKHEFB(::PAFFKGCGNBD* LEHKNMPECHE)
+	{
+		return ((::AJJOBDLJOPM*(*)(::PVOID, ::PAFFKGCGNBD*))((::PBYTE)hIl2Cpp + OIAICJDOOHC_LGPCPOKHEFB_OFFSET))(this, LEHKNMPECHE);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> EPEJAMLKIAI(::System::Single ANODOLODNLJ, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType PPPNLFFEPHO, ::PAFFKGCGNBD* LEHKNMPECHE, ::System::Boolean GDECGONPELC)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::PAFFKGCGNBD*, ::System::Boolean))((::PBYTE)hIl2Cpp + OIAICJDOOHC_EPEJAMLKIAI_OFFSET))(this, ANODOLODNLJ, PPPNLFFEPHO, LEHKNMPECHE, GDECGONPELC);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> KGGIFCHOOOK(::System::Single ANODOLODNLJ, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType PPPNLFFEPHO, ::PAFFKGCGNBD* LEHKNMPECHE, ::System::Boolean GDECGONPELC)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::PAFFKGCGNBD*, ::System::Boolean))((::PBYTE)hIl2Cpp + OIAICJDOOHC_KGGIFCHOOOK_OFFSET))(this, ANODOLODNLJ, PPPNLFFEPHO, LEHKNMPECHE, GDECGONPELC);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> KLFBDIBAALC(::System::Single ANODOLODNLJ, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType PPPNLFFEPHO, ::AJJOBDLJOPM* BLOLHKKFHBP, ::System::Boolean GDECGONPELC)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::AJJOBDLJOPM*, ::System::Boolean))((::PBYTE)hIl2Cpp + OIAICJDOOHC_KLFBDIBAALC_OFFSET))(this, ANODOLODNLJ, PPPNLFFEPHO, BLOLHKKFHBP, GDECGONPELC);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> HDGCDBPMCNL(::System::Single ANODOLODNLJ, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType HGHBBJENLLL, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType GHNLJHOCPKA, ::PAFFKGCGNBD* LEHKNMPECHE, ::System::Boolean GDECGONPELC)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::PAFFKGCGNBD*, ::System::Boolean))((::PBYTE)hIl2Cpp + OIAICJDOOHC_HDGCDBPMCNL_OFFSET))(this, ANODOLODNLJ, HGHBBJENLLL, GHNLJHOCPKA, LEHKNMPECHE, GDECGONPELC);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> OMLMLKFGODN(::System::Single ANODOLODNLJ, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType PPPNLFFEPHO, ::AJJOBDLJOPM* BLOLHKKFHBP, ::System::Boolean GDECGONPELC)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::AJJOBDLJOPM*, ::System::Boolean))((::PBYTE)hIl2Cpp + OIAICJDOOHC_OMLMLKFGODN_OFFSET))(this, ANODOLODNLJ, PPPNLFFEPHO, BLOLHKKFHBP, GDECGONPELC);
+	}
+
+	::System::Single DDPIAKMDFHO(::DJFEAPLNLNA IGAAKDOIPNN, ::AJJOBDLJOPM* BLOLHKKFHBP)
+	{
+		return ((::System::Single(*)(::PVOID, ::DJFEAPLNLNA, ::AJJOBDLJOPM*))((::PBYTE)hIl2Cpp + OIAICJDOOHC_DDPIAKMDFHO_OFFSET))(this, IGAAKDOIPNN, BLOLHKKFHBP);
+	}
+
+	::System::Void LIPPDJBPLKE(::DLNNAPHNJLM* LHPFMGBDFPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::DLNNAPHNJLM*))((::PBYTE)hIl2Cpp + OIAICJDOOHC_LIPPDJBPLKE_OFFSET))(this, LHPFMGBDFPN);
+	}
+
+	::AJJOBDLJOPM* NMOLCIDHDBK(::PAFFKGCGNBD* MIALFKCCCPI)
+	{
+		return ((::AJJOBDLJOPM*(*)(::PVOID, ::PAFFKGCGNBD*))((::PBYTE)hIl2Cpp + OIAICJDOOHC_NMOLCIDHDBK_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> GDAGBLNHMFD(::System::Single MIALFKCCCPI, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType KMGKAIDEIBA, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType FDHMCIFPNCK, ::PAFFKGCGNBD* MPBJAGIKPJM, ::System::Boolean DDMDINPGCFI)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::PAFFKGCGNBD*, ::System::Boolean))((::PBYTE)hIl2Cpp + OIAICJDOOHC_GDAGBLNHMFD_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM, DDMDINPGCFI);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> PDLLNENDMNH(::System::Single MIALFKCCCPI, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType KMGKAIDEIBA, ::PAFFKGCGNBD* FDHMCIFPNCK, ::System::Boolean MPBJAGIKPJM)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::PAFFKGCGNBD*, ::System::Boolean))((::PBYTE)hIl2Cpp + OIAICJDOOHC_PDLLNENDMNH_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> CJLIFJNDNGN(::System::Single MIALFKCCCPI, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType KMGKAIDEIBA, ::AJJOBDLJOPM* FDHMCIFPNCK, ::System::Boolean MPBJAGIKPJM)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::AJJOBDLJOPM*, ::System::Boolean))((::PBYTE)hIl2Cpp + OIAICJDOOHC_CJLIFJNDNGN_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM);
+	}
+
+	::System::Single KAAEDMANJHP(::DJFEAPLNLNA MIALFKCCCPI, ::AJJOBDLJOPM* KMGKAIDEIBA)
+	{
+		return ((::System::Single(*)(::PVOID, ::DJFEAPLNLNA, ::AJJOBDLJOPM*))((::PBYTE)hIl2Cpp + OIAICJDOOHC_KAAEDMANJHP_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> AHAJOICAADK(::System::Single MIALFKCCCPI, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType KMGKAIDEIBA, ::AJJOBDLJOPM* FDHMCIFPNCK, ::System::Boolean MPBJAGIKPJM)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::AJJOBDLJOPM*, ::System::Boolean))((::PBYTE)hIl2Cpp + OIAICJDOOHC_AHAJOICAADK_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM);
+	}
+
+	::System::Void DJNEAGOCAJM(::DLNNAPHNJLM* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::DLNNAPHNJLM*))((::PBYTE)hIl2Cpp + OIAICJDOOHC_DJNEAGOCAJM_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> NIJEMEEHOIO(::System::Single MIALFKCCCPI, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType KMGKAIDEIBA, ::PAFFKGCGNBD* FDHMCIFPNCK, ::System::Boolean MPBJAGIKPJM)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::PAFFKGCGNBD*, ::System::Boolean))((::PBYTE)hIl2Cpp + OIAICJDOOHC_NIJEMEEHOIO_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM);
+	}
+};

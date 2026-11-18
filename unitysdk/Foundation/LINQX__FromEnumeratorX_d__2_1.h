@@ -2,12 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LINQX__FromEnumeratorX_d__2_1_TypeDefinitionIndex = 8106;
+	inline static constexpr unsigned int LINQX__FromEnumeratorX_d__2_1_TypeDefinitionIndex = 8327;
 
 	template <typename T>
 	class LINQX__FromEnumeratorX_d__2_1 : public ::System::Object

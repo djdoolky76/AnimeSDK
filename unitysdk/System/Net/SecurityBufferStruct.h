@@ -3,13 +3,13 @@
 #include "unitysdk/System/Net/BufferType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_NET_SECURITYBUFFERSTRUCT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D626600)
+#define SYSTEM_NET_SECURITYBUFFERSTRUCT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAEAFE0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int SecurityBufferStruct_TypeDefinitionIndex = 3308;
+	inline static constexpr unsigned int SecurityBufferStruct_TypeDefinitionIndex = 3307;
 
-	struct alignas(8) SecurityBufferStruct
+	struct alignas(4) SecurityBufferStruct
 	{
 		static ::System::Int32* StaticGet_Size()
 		{

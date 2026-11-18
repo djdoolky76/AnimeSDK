@@ -7,12 +7,13 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace LitJson
 {
-	inline static constexpr unsigned int PropertyMetadata_TypeDefinitionIndex = 8083;
+	inline static constexpr unsigned int PropertyMetadata_TypeDefinitionIndex = 7867;
 
 	struct alignas(8) PropertyMetadata
 	{
 		::System::Reflection::MemberInfo* Info; // 0x10
 		::System::Boolean IsField; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::Type* Type; // 0x20
 	};
 }

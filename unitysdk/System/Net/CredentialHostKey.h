@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_CREDENTIALHOSTKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C880280)
-#define SYSTEM_NET_CREDENTIALHOSTKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C880100)
-#define SYSTEM_NET_CREDENTIALHOSTKEY_MATCH_OFFSET UNITYSDK_OFFSET(0x1C8800A0)
-#define SYSTEM_NET_CREDENTIALHOSTKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C880320)
-#define SYSTEM_NET_CREDENTIALHOSTKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C880090)
+#define SYSTEM_NET_CREDENTIALHOSTKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CFC0A40)
+#define SYSTEM_NET_CREDENTIALHOSTKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CFC08C0)
+#define SYSTEM_NET_CREDENTIALHOSTKEY_MATCH_OFFSET UNITYSDK_OFFSET(0x1CFC0860)
+#define SYSTEM_NET_CREDENTIALHOSTKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CFC0AE0)
+#define SYSTEM_NET_CREDENTIALHOSTKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC0850)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CredentialHostKey_TypeDefinitionIndex = 3268;
+	inline static constexpr unsigned int CredentialHostKey_TypeDefinitionIndex = 3267;
 
 	class CredentialHostKey : public ::System::Object
 	{
@@ -20,8 +20,9 @@ namespace System::Net
 		::System::String* AuthenticationType; // 0x10
 		::System::String* Host; // 0x18
 		::System::Boolean m_ComputedHashCode; // 0x20
-		::System::Int32 Port; // 0x24
-		::System::Int32 m_HashCode; // 0x28
+		::System::Byte _padding0[0x3];
+		::System::Int32 m_HashCode; // 0x24
+		::System::Int32 Port; // 0x28
 
 		::System::Void _ctor(::System::String* host, ::System::Int32 port, ::System::String* authenticationType)
 		{

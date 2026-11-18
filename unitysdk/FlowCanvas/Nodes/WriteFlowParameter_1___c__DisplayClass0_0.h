@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
 
 namespace FlowCanvas { class FlowOutput; }
@@ -9,7 +8,7 @@ namespace System { class String; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int WriteFlowParameter_1___c__DisplayClass0_0_TypeDefinitionIndex = 29902;
+	inline static constexpr unsigned int WriteFlowParameter_1___c__DisplayClass0_0_TypeDefinitionIndex = 29163;
 
 	template <typename T>
 	class WriteFlowParameter_1___c__DisplayClass0_0 : public ::System::Object

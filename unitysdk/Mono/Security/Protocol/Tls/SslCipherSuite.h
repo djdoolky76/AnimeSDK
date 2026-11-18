@@ -8,24 +8,24 @@
 
 namespace System { class String; }
 
-#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTECLIENTRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1F93AF00)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTEKEYS_OFFSET UNITYSDK_OFFSET(0x1F93B720)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTEMASTERSECRET_OFFSET UNITYSDK_OFFSET(0x1F93B2A0)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTESERVERRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1F93ABB0)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_PRF_OFFSET UNITYSDK_OFFSET(0x1F93B3C0)
-#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F93AA00)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTECLIENTRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1FD39FA0)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTEKEYS_OFFSET UNITYSDK_OFFSET(0x1FD3A7C0)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTEMASTERSECRET_OFFSET UNITYSDK_OFFSET(0x1FD3A340)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_COMPUTESERVERRECORDMAC_OFFSET UNITYSDK_OFFSET(0x1FD39C50)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE_PRF_OFFSET UNITYSDK_OFFSET(0x1FD3A460)
+#define MONO_SECURITY_PROTOCOL_TLS_SSLCIPHERSUITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD39AA0)
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int SslCipherSuite_TypeDefinitionIndex = 2372;
+	inline static constexpr unsigned int SslCipherSuite_TypeDefinitionIndex = 2371;
 
 	class SslCipherSuite : public ::Mono::Security::Protocol::Tls::CipherSuite
 	{
 	public:
 		// static const ::System::Int32 MacHeaderLength = 0xB; // 0x0
-		::Il2CppArray<::System::Byte>* header; // 0x70
-		::Il2CppArray<::System::Byte>* pad1; // 0x78
-		::Il2CppArray<::System::Byte>* pad2; // 0x80
+		::Il2CppArray<::System::Byte>* pad2; // 0x70
+		::Il2CppArray<::System::Byte>* header; // 0x78
+		::Il2CppArray<::System::Byte>* pad1; // 0x80
 
 		::System::Void _ctor(::System::Int16 code, ::System::String* name, ::Mono::Security::Protocol::Tls::CipherAlgorithmType cipherAlgorithmType, ::Mono::Security::Protocol::Tls::HashAlgorithmType hashAlgorithmType, ::Mono::Security::Protocol::Tls::ExchangeAlgorithmType exchangeAlgorithmType, ::System::Boolean exportable, ::System::Boolean blockMode, ::System::Byte keyMaterialSize, ::System::Byte expandedKeyMaterialSize, ::System::Int16 effectiveKeyBytes, ::System::Byte ivSize, ::System::Byte blockSize)
 		{

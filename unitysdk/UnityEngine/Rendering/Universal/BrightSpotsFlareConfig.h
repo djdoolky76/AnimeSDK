@@ -6,22 +6,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_BRIGHTSPOTSFLARECONFIG_GETCONFIGFORCAMERA_OFFSET UNITYSDK_OFFSET(0x1BC54790)
-#define UNITYENGINE_RENDERING_UNIVERSAL_BRIGHTSPOTSFLARECONFIG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BC546E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_BRIGHTSPOTSFLARECONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BC544A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_BRIGHTSPOTSFLARECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC54B60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_BRIGHTSPOTSFLARECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC54B00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_BRIGHTSPOTSFLARECONFIG_GETCONFIGFORCAMERA_OFFSET UNITYSDK_OFFSET(0x16E4C390)
+#define UNITYENGINE_RENDERING_UNIVERSAL_BRIGHTSPOTSFLARECONFIG_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16E4C2E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_BRIGHTSPOTSFLARECONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16E4C0A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_BRIGHTSPOTSFLARECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E4C760)
+#define UNITYENGINE_RENDERING_UNIVERSAL_BRIGHTSPOTSFLARECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E4C700)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int BrightSpotsFlareConfig_TypeDefinitionIndex = 27944;
+	inline static constexpr unsigned int BrightSpotsFlareConfig_TypeDefinitionIndex = 26663;
 
 	class BrightSpotsFlareConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::BrightSpotsFlareConfig*>** StaticGet_activeConfigs()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::BrightSpotsFlareConfig*>**)Il2CppClass::FromTypeDefinitionIndex(BrightSpotsFlareConfig_TypeDefinitionIndex)->GetStaticField(0x210A0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::BrightSpotsFlareConfig*>**)Il2CppClass::FromTypeDefinitionIndex(BrightSpotsFlareConfig_TypeDefinitionIndex)->GetStaticField(0x21D70);
 		}
 		::UnityEngine::Texture2D* flareTexture; // 0x18
 		::System::Single luminanceThreshold; // 0x20

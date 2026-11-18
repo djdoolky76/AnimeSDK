@@ -5,24 +5,24 @@
 namespace System { class EventArgs; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CAMERAHACKSUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x172733C0)
-#define MOLEMOLE_CAMERAHACKSUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17273400)
-#define MOLEMOLE_CAMERAHACKSUBSYSTEM___C__REGISTERUIEVENTNOTIFYTYPE_B__17_0_OFFSET UNITYSDK_OFFSET(0x17273410)
+#define MOLEMOLE_CAMERAHACKSUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x163E1ED0)
+#define MOLEMOLE_CAMERAHACKSUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x163E1F10)
+#define MOLEMOLE_CAMERAHACKSUBSYSTEM___C__REGISTERUIEVENTNOTIFYTYPE_B__17_0_OFFSET UNITYSDK_OFFSET(0x163E1F20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraHackSubsystem___c_TypeDefinitionIndex = 46312;
+	inline static constexpr unsigned int CameraHackSubsystem___c_TypeDefinitionIndex = 41787;
 
 	class CameraHackSubsystem___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(CameraHackSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x449F0);
+		}
 		static ::System::Action_1<::System::EventArgs*>** StaticGet___9__17_0()
 		{
-			return (::System::Action_1<::System::EventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(CameraHackSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x3F300);
-		}
-		static ::MoleMole::CameraHackSubsystem___c** StaticGet___9()
-		{
-			return (::MoleMole::CameraHackSubsystem___c**)Il2CppClass::FromTypeDefinitionIndex(CameraHackSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x3F308);
+			return (::System::Action_1<::System::EventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(CameraHackSubsystem___c_TypeDefinitionIndex)->GetStaticField(0x449F8);
 		}
 
 		static ::System::Void _cctor()

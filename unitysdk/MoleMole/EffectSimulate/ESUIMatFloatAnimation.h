@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/EffectSimulate/ESUIMatAnimBehavior_2.h"
-#include "unitysdk/MoleMole/EffectSimulate/ESUIMatFloatAnimation_Struct_2_9C1A4F1511EE364E.h"
+#include "unitysdk/MoleMole/EffectSimulate/ESUIMatFloatAnimation_NDJHKIAGJMC.h"
 
 namespace MoleMole::EffectSimulate { class FloatCurve; }
 namespace System { class String; }
@@ -9,23 +8,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_GET_XKEYFRAME_OFFSET UNITYSDK_OFFSET(0x19DA4FC0)
-#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x19DA5120)
-#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_4B15CC64E4FCF143_OFFSET UNITYSDK_OFFSET(0x19DA4E80)
-#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_72CB68C3957E4FFD_OFFSET UNITYSDK_OFFSET(0x19DA4DE0)
-#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_96926F33B42654CB_OFFSET UNITYSDK_OFFSET(0x19DA4DF0)
-#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_C446CE6A5E1982BC_OFFSET UNITYSDK_OFFSET(0x19DA4F80)
-#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_DE3E1E5A94EC3E38_OFFSET UNITYSDK_OFFSET(0x19DA4F10)
-#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_FB4B868BEA22A20E_OFFSET UNITYSDK_OFFSET(0x19DA4BE0)
-#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_FF5188F77C143723_OFFSET UNITYSDK_OFFSET(0x19DA4A50)
-#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_SET_XKEYFRAME_OFFSET UNITYSDK_OFFSET(0x19DA5000)
-#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19DA5090)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_DLDPKDBONAJ_OFFSET UNITYSDK_OFFSET(0x12B2B740)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_FOFNJCIGEFM_OFFSET UNITYSDK_OFFSET(0x12B2BC70)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_GET_XKEYFRAME_OFFSET UNITYSDK_OFFSET(0x12B2BCB0)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_HGKONHBBDNP_OFFSET UNITYSDK_OFFSET(0x12B2BAE0)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_IIKHBHEDFIF_OFFSET UNITYSDK_OFFSET(0x12B2B8D0)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_IKFFPJCBECD_OFFSET UNITYSDK_OFFSET(0x12B2BE10)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_KGHBBDNMFDE_OFFSET UNITYSDK_OFFSET(0x12B2BC00)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_LGFOHFFGAHD_OFFSET UNITYSDK_OFFSET(0x12B2BAD0)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_MEKOCMKPLKD_OFFSET UNITYSDK_OFFSET(0x12B2BB70)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_SET_XKEYFRAME_OFFSET UNITYSDK_OFFSET(0x12B2BCF0)
+#define MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x12B2BD80)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESUIMatFloatAnimation_TypeDefinitionIndex = 42599;
+	inline static constexpr unsigned int ESUIMatFloatAnimation_TypeDefinitionIndex = 77257;
 
-	class ESUIMatFloatAnimation : public ::MoleMole::EffectSimulate::ESUIMatAnimBehavior_2<::MoleMole::EffectSimulate::FloatCurve*, ::System::Single>
+	class ESUIMatFloatAnimation
 	{
 	public:
 		::System::Single xBaseVal; // 0xA0
@@ -35,29 +34,29 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION__CTOR_OFFSET))(this);
 		}
 
-		::System::Single Method_5_FF5188F77C143723()
+		::System::Single DLDPKDBONAJ()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_FF5188F77C143723_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_DLDPKDBONAJ_OFFSET))(this);
 		}
 
-		::System::String* Method_5_FB4B868BEA22A20E(::MoleMole::EffectSimulate::FloatCurve* a1, ::System::Single a2, ::System::Single a3, ::System::Int32 a4)
+		::System::String* IIKHBHEDFIF(::MoleMole::EffectSimulate::FloatCurve* GIMHHMOMJBI, ::System::Single AHAFNGEDPLI, ::System::Single GEGOALONGBI, ::System::Int32 GEJCKFFFKCL)
 		{
-			return ((::System::String*(*)(::PVOID, ::MoleMole::EffectSimulate::FloatCurve*, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_FB4B868BEA22A20E_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::String*(*)(::PVOID, ::MoleMole::EffectSimulate::FloatCurve*, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_IIKHBHEDFIF_OFFSET))(this, GIMHHMOMJBI, AHAFNGEDPLI, GEGOALONGBI, GEJCKFFFKCL);
 		}
 
-		::System::Void Method_5_4B15CC64E4FCF143(::UnityEngine::Material* a1, ::System::Single a2)
+		::System::Void MEKOCMKPLKD(::UnityEngine::Material* KNNDDLMOKCG, ::System::Single GEGOALONGBI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_4B15CC64E4FCF143_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_MEKOCMKPLKD_OFFSET))(this, KNNDDLMOKCG, GEGOALONGBI);
 		}
 
-		::System::Single Method_5_DE3E1E5A94EC3E38(::UnityEngine::Material* a1)
+		::System::Single KGHBBDNMFDE(::UnityEngine::Material* KNNDDLMOKCG)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_DE3E1E5A94EC3E38_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_KGHBBDNMFDE_OFFSET))(this, KNNDDLMOKCG);
 		}
 
-		::System::Collections::Generic::List_1<::System::String*>* Method_5_C446CE6A5E1982BC()
+		::System::Collections::Generic::List_1<::System::String*>* FOFNJCIGEFM()
 		{
-			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_C446CE6A5E1982BC_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_FOFNJCIGEFM_OFFSET))(this);
 		}
 
 		::System::Single get_xKeyFrame()
@@ -65,24 +64,24 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_GET_XKEYFRAME_OFFSET))(this);
 		}
 
-		::System::Void set_xKeyFrame(::System::Single a1)
+		::System::Void set_xKeyFrame(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_SET_XKEYFRAME_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_SET_XKEYFRAME_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		static ::System::Single Method_5_72CB68C3957E4FFD(::System::Single a1, ::MoleMole::EffectSimulate::ESUIMatFloatAnimation_Struct_2_9C1A4F1511EE364E& a2)
+		::System::Boolean IKFFPJCBECD()
 		{
-			return ((::System::Single(*)(::System::Single, ::MoleMole::EffectSimulate::ESUIMatFloatAnimation_Struct_2_9C1A4F1511EE364E&))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_72CB68C3957E4FFD_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_IKFFPJCBECD_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_391A84BCD9F51317()
+		static ::System::Void HGKONHBBDNP(::UnityEngine::AnimationCurve* PAAFCGCBADL, ::System::Single MPAMOGGNEEM, ::MoleMole::EffectSimulate::ESUIMatFloatAnimation_NDJHKIAGJMC& param_2)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Void(*)(::UnityEngine::AnimationCurve*, ::System::Single, ::MoleMole::EffectSimulate::ESUIMatFloatAnimation_NDJHKIAGJMC&))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_HGKONHBBDNP_OFFSET))(PAAFCGCBADL, MPAMOGGNEEM, param_2);
 		}
 
-		static ::System::Void Method_5_96926F33B42654CB(::UnityEngine::AnimationCurve* a1, ::System::Single a2, ::MoleMole::EffectSimulate::ESUIMatFloatAnimation_Struct_2_9C1A4F1511EE364E& a3)
+		static ::System::Single LGFOHFFGAHD(::System::Single EHPJNLMOPAL, ::MoleMole::EffectSimulate::ESUIMatFloatAnimation_NDJHKIAGJMC& param_1)
 		{
-			return ((::System::Void(*)(::UnityEngine::AnimationCurve*, ::System::Single, ::MoleMole::EffectSimulate::ESUIMatFloatAnimation_Struct_2_9C1A4F1511EE364E&))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_METHOD_5_96926F33B42654CB_OFFSET))(a1, a2, a3);
+			return ((::System::Single(*)(::System::Single, ::MoleMole::EffectSimulate::ESUIMatFloatAnimation_NDJHKIAGJMC&))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESUIMATFLOATANIMATION_LGFOHFFGAHD_OFFSET))(EHPJNLMOPAL, param_1);
 		}
 	};
 }

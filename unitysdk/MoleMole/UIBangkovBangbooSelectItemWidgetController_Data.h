@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_724;
-template <typename T> class Class_0_16E4307DCC419505_164;
-template <typename T> class Class_0_16E4307DCC41950C_14;
+class EBHJDFFGMIH;
+template <typename T> class JIOLFCAGOFH_1;
+template <typename T> class LGFJMNEABJP_1;
 
-#define MOLEMOLE_UIBANGKOVBANGBOOSELECTITEMWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1930FD10)
+#define MOLEMOLE_UIBANGKOVBANGBOOSELECTITEMWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC4830)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovBangbooSelectItemWidgetController_Data_TypeDefinitionIndex = 44949;
+	inline static constexpr unsigned int UIBangkovBangbooSelectItemWidgetController_Data_TypeDefinitionIndex = 67589;
 
 	class UIBangkovBangbooSelectItemWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_164<::System::Int32>* FocusedIndex; // 0x10
-		::Class_0_16E4307DCC41950C_14<::System::Int32>* SelectedIndex; // 0x18
-		::Class_2_208CC9941471731A_724* Config; // 0x20
+		::JIOLFCAGOFH_1<::System::Int32>* FocusedIndex; // 0x10
+		::LGFJMNEABJP_1<::System::Int32>* SelectedIndex; // 0x18
+		::EBHJDFFGMIH* Config; // 0x20
 		::System::Boolean IsLocked; // 0x28
 
 		::System::Void _ctor()

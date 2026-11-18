@@ -4,26 +4,26 @@
 
 namespace MoleMole { class UIMainStoryPageController; }
 namespace MoleMole { class UITape3DModelController; }
-namespace MoleMole { class UITapesGroup3DModelController___c__DisplayClass39_0; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1677F9D0)
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__2_OFFSET UNITYSDK_OFFSET(0x1677FB10)
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__3_OFFSET UNITYSDK_OFFSET(0x1677FDA0)
-#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__4_OFFSET UNITYSDK_OFFSET(0x1677FF70)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__CTOR_OFFSET UNITYSDK_OFFSET(0x164C7C80)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__2_OFFSET UNITYSDK_OFFSET(0x164C7DC0)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__3_OFFSET UNITYSDK_OFFSET(0x164C8050)
+#define MOLEMOLE_UITAPESGROUP3DMODELCONTROLLER___C__DISPLAYCLASS39_1__STARTPERFORMANCE_B__4_OFFSET UNITYSDK_OFFSET(0x164C8220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITapesGroup3DModelController___c__DisplayClass39_1_TypeDefinitionIndex = 60822;
+	inline static constexpr unsigned int UITapesGroup3DModelController___c__DisplayClass39_1_TypeDefinitionIndex = 84910;
 
+	template <typename T>
 	class UITapesGroup3DModelController___c__DisplayClass39_1 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__4; // 0x10
-		::MoleMole::UITape3DModelController* initCenterTape; // 0x18
-		::MoleMole::UIMainStoryPageController* mainStoryPage; // 0x20
-		::MoleMole::UITapesGroup3DModelController___c__DisplayClass39_0* CS___8__locals1; // 0x28
-		::System::Action* __9__3; // 0x30
+		::MoleMole::UITape3DModelController* initCenterTape; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
+		::System::Action* __9__3; // 0x20
+		::System::Action* __9__4; // 0x28
+		::MoleMole::UIMainStoryPageController* mainStoryPage; // 0x30
 
 		::System::Void _ctor()
 		{

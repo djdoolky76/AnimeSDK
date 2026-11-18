@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/DPKOIBEFPAO.h"
+
+class BIOEANJKLPH;
+class CBKOHMOCLBM;
+class FFKPPHAHHFJ;
+class HDPIBAEIAFB;
+namespace System { class String; }
+
+#define JOLHDLLPELF_CJGLDAPJCLB_OFFSET UNITYSDK_OFFSET(0x18A28C80)
+#define JOLHDLLPELF_KNDMMHPDPIB_OFFSET UNITYSDK_OFFSET(0x18A28BF0)
+#define JOLHDLLPELF_PBJDHAOHFEF_OFFSET UNITYSDK_OFFSET(0x18A28B90)
+#define JOLHDLLPELF__CTOR_OFFSET UNITYSDK_OFFSET(0x18A28AF0)
+
+inline static constexpr unsigned int JOLHDLLPELF_TypeDefinitionIndex = 57317;
+
+class JOLHDLLPELF : public ::System::Object
+{
+public:
+	::FFKPPHAHHFJ* EKNLMANHGMJ; // 0x10
+	::HDPIBAEIAFB* HAHLFNJKOPO; // 0x18
+
+	::System::Void _ctor(::FFKPPHAHHFJ* IBBNCBLMBNN, ::CBKOHMOCLBM* FAIPFCNDLDE)
+	{
+		return ((::System::Void(*)(::PVOID, ::FFKPPHAHHFJ*, ::CBKOHMOCLBM*))((::PBYTE)hIl2Cpp + JOLHDLLPELF__CTOR_OFFSET))(this, IBBNCBLMBNN, FAIPFCNDLDE);
+	}
+
+	::BIOEANJKLPH* PBJDHAOHFEF(::System::String* LKJGIIABCPD)
+	{
+		return ((::BIOEANJKLPH*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JOLHDLLPELF_PBJDHAOHFEF_OFFSET))(this, LKJGIIABCPD);
+	}
+
+	::DPKOIBEFPAO KNDMMHPDPIB(::BIOEANJKLPH* CMGOALOFDKK)
+	{
+		return ((::DPKOIBEFPAO(*)(::PVOID, ::BIOEANJKLPH*))((::PBYTE)hIl2Cpp + JOLHDLLPELF_KNDMMHPDPIB_OFFSET))(this, CMGOALOFDKK);
+	}
+
+	::DPKOIBEFPAO CJGLDAPJCLB(::System::String* LKJGIIABCPD)
+	{
+		return ((::DPKOIBEFPAO(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JOLHDLLPELF_CJGLDAPJCLB_OFFSET))(this, LKJGIIABCPD);
+	}
+};

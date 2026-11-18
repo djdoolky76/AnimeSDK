@@ -3,14 +3,14 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ParallelFileVerifier_Step_TypeDefinitionIndex = 51580;
+	inline static constexpr unsigned int ParallelFileVerifier_Step_TypeDefinitionIndex = 50671;
 
 	enum class ParallelFileVerifier_Step : ::System::Int32
 	{
-		CheckResult = 3,
 		FileHash = 2,
-		Init = 0,
 		Pre = 1,
 		Finish = 4,
+		Init = 0,
+		CheckResult = 3,
 	};
 }

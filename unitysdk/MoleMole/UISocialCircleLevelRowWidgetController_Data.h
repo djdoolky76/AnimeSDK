@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_12DF9283A269F1BB_6;
+class GLOOBOKNIMI;
 
-#define MOLEMOLE_UISOCIALCIRCLELEVELROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x130112C0)
+#define MOLEMOLE_UISOCIALCIRCLELEVELROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15D63FC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleLevelRowWidgetController_Data_TypeDefinitionIndex = 79667;
+	inline static constexpr unsigned int UISocialCircleLevelRowWidgetController_Data_TypeDefinitionIndex = 53287;
 
 	class UISocialCircleLevelRowWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_2_12DF9283A269F1BB_6* Template; // 0x10
+		::GLOOBOKNIMI* Template; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -5,15 +5,15 @@
 namespace Spine { class Bone; }
 namespace Spine { class BoneData; }
 
-#define SPINE_BONEMATRIX_CALCULATESETUPWORLD_OFFSET UNITYSDK_OFFSET(0x1C153600)
-#define SPINE_BONEMATRIX_GETINHERITEDINTERNAL_OFFSET UNITYSDK_OFFSET(0x1C1536B0)
-#define SPINE_BONEMATRIX_TRANSFORMMATRIX_OFFSET UNITYSDK_OFFSET(0x9004D0)
-#define SPINE_BONEMATRIX__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9004C0)
-#define SPINE_BONEMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x9004B0)
+#define SPINE_BONEMATRIX_CALCULATESETUPWORLD_OFFSET UNITYSDK_OFFSET(0x1FB5E4C0)
+#define SPINE_BONEMATRIX_GETINHERITEDINTERNAL_OFFSET UNITYSDK_OFFSET(0x1FB5E570)
+#define SPINE_BONEMATRIX_TRANSFORMMATRIX_OFFSET UNITYSDK_OFFSET(0x997CB0)
+#define SPINE_BONEMATRIX__CTOR_1_OFFSET UNITYSDK_OFFSET(0x997CA0)
+#define SPINE_BONEMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x997C90)
 
 namespace Spine
 {
-	inline static constexpr unsigned int BoneMatrix_TypeDefinitionIndex = 40081;
+	inline static constexpr unsigned int BoneMatrix_TypeDefinitionIndex = 38089;
 
 	struct alignas(4) BoneMatrix
 	{
@@ -34,19 +34,25 @@ namespace Spine
 			return ((::System::Void(*)(::PVOID, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_BONEMATRIX__CTOR_1_OFFSET))(this, bone);
 		}
 
+		/*
 		static ::Spine::BoneMatrix CalculateSetupWorld(::Spine::BoneData* boneData)
 		{
 			return ((::Spine::BoneMatrix(*)(::Spine::BoneData*))((::PBYTE)hIl2Cpp + SPINE_BONEMATRIX_CALCULATESETUPWORLD_OFFSET))(boneData);
 		}
+		*/
 
+		/*
 		static ::Spine::BoneMatrix GetInheritedInternal(::Spine::BoneData* boneData, ::Spine::BoneMatrix parentMatrix)
 		{
 			return ((::Spine::BoneMatrix(*)(::Spine::BoneData*, ::Spine::BoneMatrix))((::PBYTE)hIl2Cpp + SPINE_BONEMATRIX_GETINHERITEDINTERNAL_OFFSET))(boneData, parentMatrix);
 		}
+		*/
 
+		/*
 		::Spine::BoneMatrix TransformMatrix(::Spine::BoneMatrix local)
 		{
 			return ((::Spine::BoneMatrix(*)(::PVOID, ::Spine::BoneMatrix))((::PBYTE)hIl2Cpp + SPINE_BONEMATRIX_TRANSFORMMATRIX_OFFSET))(this, local);
 		}
+		*/
 	};
 }

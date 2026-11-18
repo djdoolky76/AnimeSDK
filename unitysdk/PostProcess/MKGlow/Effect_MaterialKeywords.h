@@ -3,24 +3,24 @@
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int Effect_MaterialKeywords_TypeDefinitionIndex = 27229;
+	inline static constexpr unsigned int Effect_MaterialKeywords_TypeDefinitionIndex = 26491;
 
 	enum class Effect_MaterialKeywords : ::System::Int32
 	{
-		RenderPriorityBalanced = 13,
-		DebugRawGlare = 5,
-		LensFlare = 2,
-		LensSurface = 1,
-		DebugComposite = 9,
-		DebugBloom = 6,
-		RenderPriorityQuality = 11,
 		DebugLensFlare = 7,
-		Natural = 12,
-		HQAntiFlickerFilter = 14,
-		DebugRawBloom = 3,
-		DebugGlare = 8,
-		LegacyBlit = 10,
+		RenderPriorityBalanced = 13,
 		DebugRawLensFlare = 4,
+		LensSurface = 1,
+		RenderPriorityQuality = 11,
+		LegacyBlit = 10,
+		HQAntiFlickerFilter = 14,
+		DebugRawGlare = 5,
+		DebugRawBloom = 3,
+		DebugBloom = 6,
 		Bloom = 0,
+		Natural = 12,
+		LensFlare = 2,
+		DebugGlare = 8,
+		DebugComposite = 9,
 	};
 }

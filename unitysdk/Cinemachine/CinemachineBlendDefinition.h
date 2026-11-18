@@ -5,20 +5,20 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define CINEMACHINE_CINEMACHINEBLENDDEFINITION_CREATESTANDARDCURVES_OFFSET UNITYSDK_OFFSET(0xAC6130)
-#define CINEMACHINE_CINEMACHINEBLENDDEFINITION_GET_BLENDCURVE_OFFSET UNITYSDK_OFFSET(0xAC6140)
-#define CINEMACHINE_CINEMACHINEBLENDDEFINITION_GET_BLENDTIME_OFFSET UNITYSDK_OFFSET(0xAC6100)
-#define CINEMACHINE_CINEMACHINEBLENDDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0xAC6110)
+#define CINEMACHINE_CINEMACHINEBLENDDEFINITION_CREATESTANDARDCURVES_OFFSET UNITYSDK_OFFSET(0x9ACFA0)
+#define CINEMACHINE_CINEMACHINEBLENDDEFINITION_GET_BLENDCURVE_OFFSET UNITYSDK_OFFSET(0x9ACFB0)
+#define CINEMACHINE_CINEMACHINEBLENDDEFINITION_GET_BLENDTIME_OFFSET UNITYSDK_OFFSET(0x9ACF70)
+#define CINEMACHINE_CINEMACHINEBLENDDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0x9ACF80)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBlendDefinition_TypeDefinitionIndex = 34731;
+	inline static constexpr unsigned int CinemachineBlendDefinition_TypeDefinitionIndex = 34277;
 
 	struct alignas(8) CinemachineBlendDefinition
 	{
 		static ::Il2CppArray<::UnityEngine::AnimationCurve*>** StaticGet_sStandardCurves()
 		{
-			return (::Il2CppArray<::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineBlendDefinition_TypeDefinitionIndex)->GetStaticField(0x28FC0);
+			return (::Il2CppArray<::UnityEngine::AnimationCurve*>**)Il2CppClass::FromTypeDefinitionIndex(CinemachineBlendDefinition_TypeDefinitionIndex)->GetStaticField(0x2A200);
 		}
 		::Cinemachine::CinemachineBlendDefinition_Style m_Style; // 0x10
 		::System::Single m_Time; // 0x14

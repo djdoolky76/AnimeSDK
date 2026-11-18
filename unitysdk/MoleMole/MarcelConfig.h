@@ -9,11 +9,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_MARCELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF7600)
+#define MOLEMOLE_MARCELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x162D2860)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MarcelConfig_TypeDefinitionIndex = 58047;
+	inline static constexpr unsigned int MarcelConfig_TypeDefinitionIndex = 69138;
 
 	class MarcelConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -21,6 +21,7 @@ namespace MoleMole
 		::System::Collections::Generic::Dictionary_2<::MoleMole::MarcelShape, ::MoleMole::MarcelShapeConfig>* Map; // 0x58
 		::System::UInt32 disappearDuration; // 0x60
 		::UnityEngine::Color triggeredColor; // 0x64
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* blockShakingCurve; // 0x78
 		::System::Collections::Generic::List_1<::System::Int32>* emojiList; // 0x80
 		::System::Single emojiDisplayTime; // 0x88

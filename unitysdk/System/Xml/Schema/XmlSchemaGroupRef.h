@@ -6,12 +6,12 @@ namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaGroup; }
 namespace System::Xml::Schema { class XmlSchemaGroupBase; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUPREF_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1DE6A2C0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUPREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE6A360)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUPREF_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1E311290)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUPREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1E311330)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaGroupRef_TypeDefinitionIndex = 2160;
+	inline static constexpr unsigned int XmlSchemaGroupRef_TypeDefinitionIndex = 2159;
 
 	class XmlSchemaGroupRef : public ::System::Xml::Schema::XmlSchemaParticle
 	{

@@ -11,11 +11,11 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class CharacterController; }
 
-#define PIPELINECAMERA_DEMO_MOVEMENT_DEMOLOCOMOTIONCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9E7280)
+#define PIPELINECAMERA_DEMO_MOVEMENT_DEMOLOCOMOTIONCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDECBD0)
 
 namespace PipelineCamera::Demo::Movement
 {
-	inline static constexpr unsigned int DemoLocomotionController_TypeDefinitionIndex = 38421;
+	inline static constexpr unsigned int DemoLocomotionController_TypeDefinitionIndex = 36423;
 
 	class DemoLocomotionController : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,6 +35,7 @@ namespace PipelineCamera::Demo::Movement
 		::PipelineCamera::Demo::Movement::DemoMovementMode _movementMode; // 0x50
 		::UnityEngine::Vector3 _movementInput; // 0x54
 		::UnityEngine::Vector3 _movementVelocity; // 0x60
+		::System::Byte _padding0[0x4];
 		::System::Action_2<::PipelineCamera::Demo::Movement::DemoMovementDirection, ::PipelineCamera::Demo::Movement::DemoMovementDirection>* OnMovementDirectionChangedEvent; // 0x70
 		::System::Action* OnControllerMoveEvent; // 0x78
 		::System::Action* OnActionTriggered; // 0x80

@@ -1,24 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationScheduler_ExecuteContext.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationScheduler_Operation.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationScheduler_ExecuteContext.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_OPERATIONBUFFER_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1064A520)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_OPERATIONBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1064A510)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_OPERATIONBUFFER_SUBMIT_OFFSET UNITYSDK_OFFSET(0xE1CAB50)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_OPERATIONBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0xE1CAB40)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_OperationBuffer_TypeDefinitionIndex = 88360;
+	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_OperationBuffer_TypeDefinitionIndex = 81198;
 
 	class AnimationSubManager_AnimationScheduler_OperationBuffer : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Operation>* _operations; // 0x10
+		::Il2CppArray<::System::Object*>* _operations; // 0x10
 
-		::System::Void _ctor(::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Operation>* operations)
+		::System::Void _ctor(::Il2CppArray<::System::Object*>* operations)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Operation>*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_OPERATIONBUFFER__CTOR_OFFSET))(this, operations);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_OPERATIONBUFFER__CTOR_OFFSET))(this, operations);
 		}
 
 		::System::Void Submit(::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_ExecuteContext context)

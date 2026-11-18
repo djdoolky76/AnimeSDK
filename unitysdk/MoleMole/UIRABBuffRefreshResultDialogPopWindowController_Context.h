@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_B9416AD3CF7CE7E5;
+class DCFKHKBLIMA;
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1517D920)
-#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1517D860)
-#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1517DA10)
-#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1517DA60)
+#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x14CBECA0)
+#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT_EQUALS_OFFSET UNITYSDK_OFFSET(0x14CBEBE0)
+#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14CBED90)
+#define MOLEMOLE_UIRABBUFFREFRESHRESULTDIALOGPOPWINDOWCONTROLLER_CONTEXT___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x14CBEDE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABBuffRefreshResultDialogPopWindowController_Context_TypeDefinitionIndex = 46501;
+	inline static constexpr unsigned int UIRABBuffRefreshResultDialogPopWindowController_Context_TypeDefinitionIndex = 76124;
 
 	class UIRABBuffRefreshResultDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_B9416AD3CF7CE7E5* BuddyData; // 0x28
-		::System::Action* OnConfirm; // 0x30
+		::System::Action* OnConfirm; // 0x28
+		::DCFKHKBLIMA* BuddyData; // 0x30
 		::System::Int32 OldFactorId; // 0x38
-		::System::Int32 FactorIndex; // 0x3C
+		::System::Int32 ItemId; // 0x3C
 		::System::Int32 NewFactorId; // 0x40
-		::System::Int32 ItemId; // 0x44
+		::System::Int32 FactorIndex; // 0x44
 		::System::Int32 FactorType; // 0x48
 
 		::System::Void _ctor()

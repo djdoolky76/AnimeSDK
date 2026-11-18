@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/HollowInteractEffectImpBase.h"
 
-class Class_1_32D1736C0D56C181;
+class PJGJHHPJEKD;
 
-#define MOLEMOLE_CONFIG_SENDMOVEEVENT_ONINTERACTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1A946900)
-#define MOLEMOLE_CONFIG_SENDMOVEEVENT_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1A9468B0)
-#define MOLEMOLE_CONFIG_SENDMOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A946980)
+#define MOLEMOLE_CONFIG_SENDMOVEEVENT_ONINTERACTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B8B6BA0)
+#define MOLEMOLE_CONFIG_SENDMOVEEVENT_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1B8B6B50)
+#define MOLEMOLE_CONFIG_SENDMOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B6C20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SendMoveEvent_TypeDefinitionIndex = 88548;
+	inline static constexpr unsigned int SendMoveEvent_TypeDefinitionIndex = 75126;
 
 	class SendMoveEvent : public ::MoleMole::Config::HollowInteractEffectImpBase
 	{
@@ -22,14 +22,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SENDMOVEEVENT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void OnStop(::Class_1_32D1736C0D56C181* context)
+		::System::Void OnStop(::PJGJHHPJEKD* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_32D1736C0D56C181*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SENDMOVEEVENT_ONSTOP_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::PJGJHHPJEKD*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SENDMOVEEVENT_ONSTOP_OFFSET))(this, context);
 		}
 
-		::System::Void OnInteractInternal(::Class_1_32D1736C0D56C181* context)
+		::System::Void OnInteractInternal(::PJGJHHPJEKD* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_32D1736C0D56C181*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SENDMOVEEVENT_ONINTERACTINTERNAL_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::PJGJHHPJEKD*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_SENDMOVEEVENT_ONINTERACTINTERNAL_OFFSET))(this, context);
 		}
 	};
 }

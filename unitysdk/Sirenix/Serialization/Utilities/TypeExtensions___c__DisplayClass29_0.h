@@ -4,12 +4,12 @@
 
 namespace System::Reflection { class MethodInfo; }
 
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F459B90)
-#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS___C__DISPLAYCLASS29_0__GETCASTMETHODDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0x1F459BA0)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F84DC60)
+#define SIRENIX_SERIALIZATION_UTILITIES_TYPEEXTENSIONS___C__DISPLAYCLASS29_0__GETCASTMETHODDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0x1F84DC70)
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int TypeExtensions___c__DisplayClass29_0_TypeDefinitionIndex = 7629;
+	inline static constexpr unsigned int TypeExtensions___c__DisplayClass29_0_TypeDefinitionIndex = 7641;
 
 	class TypeExtensions___c__DisplayClass29_0 : public ::System::Object
 	{

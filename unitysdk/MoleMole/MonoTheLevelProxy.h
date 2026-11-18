@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOTHELEVELPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x129D5740)
+#define MOLEMOLE_MONOTHELEVELPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x12499950)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTheLevelProxy_TypeDefinitionIndex = 47826;
+	inline static constexpr unsigned int MonoTheLevelProxy_TypeDefinitionIndex = 60469;
 
 	class MonoTheLevelProxy : public ::UnityEngine::MonoBehaviour
 	{

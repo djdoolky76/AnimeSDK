@@ -1,23 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/BaseCameraController_2.h"
-#include "unitysdk/PipelineCamera/CameraExternalValueCollection.h"
-#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
-#include "unitysdk/System/ValueTuple_2.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace PipelineCamera { class ICameraCommand; }
 namespace PipelineCamera { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10> class CameraController_10; }
 namespace PipelineCamera { template <typename T1, typename T2> class CameraContext_2; }
-namespace PipelineCamera { template <typename T> class ICameraPipelineBuilder_1; }
-namespace System { class Object; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraController_10_TypeDefinitionIndex = 38161;
+	inline static constexpr unsigned int CameraController_10_TypeDefinitionIndex = 36163;
 
-	template <typename TPlayerController, typename TPostPipeline, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
-	class CameraController_10 : public ::PipelineCamera::BaseCameraController_2<TPlayerController, TPostPipeline>
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10>
+	class CameraController_10
 	{
 	public:
 		T1 _pipeline1; // 0x0
@@ -28,6 +20,6 @@ namespace PipelineCamera
 		T6 _pipeline6; // 0x0
 		T7 _pipeline7; // 0x0
 		T8 _pipeline8; // 0x0
-		::PipelineCamera::CameraContext_2<::PipelineCamera::CameraController_10<TPlayerController, TPostPipeline, T1, T2, T3, T4, T5, T6, T7, T8>*, TPlayerController>* _cameraContext; // 0x0
+		::PipelineCamera::CameraContext_2<::PipelineCamera::CameraController_10<T9, T10, T10, T10, T10, T10, T10, T10, T10, T10>*, T9>* _cameraContext; // 0x0
 	};
 }

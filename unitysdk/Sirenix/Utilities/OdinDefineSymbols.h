@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SIRENIX_UTILITIES_ODINDEFINESYMBOLS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F260610)
+#define SIRENIX_UTILITIES_ODINDEFINESYMBOLS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F65F4E0)
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int OdinDefineSymbols_TypeDefinitionIndex = 6507;
+	inline static constexpr unsigned int OdinDefineSymbols_TypeDefinitionIndex = 6513;
 
 	class OdinDefineSymbols : public ::System::Object
 	{
 	public:
-		// static const ::System::Boolean SIRENIX_INTERNAL; // 0x0
-		// static const ::System::Boolean ODIN_ASSET_STORE; // 0x0
-		// static const ::System::Boolean ODIN_TRIAL; // 0x0
-		// static const ::System::Boolean ODIN_EDUCATIONAL; // 0x0
-		// static const ::System::Boolean ODIN_GAMEJAM; // 0x0
+		// static const ::System::Boolean SIRENIX_INTERNAL = 0x0; // 0x0
+		// static const ::System::Boolean ODIN_ASSET_STORE = 0x0; // 0x0
+		// static const ::System::Boolean ODIN_TRIAL = 0x0; // 0x0
+		// static const ::System::Boolean ODIN_EDUCATIONAL = 0x0; // 0x0
+		// static const ::System::Boolean ODIN_GAMEJAM = 0x0; // 0x0
 
 		::System::Void _ctor()
 		{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Port.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowHandler; }
 namespace FlowCanvas { class FlowNode; }
@@ -9,22 +9,22 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define FLOWCANVAS_FLOWINPUT_GET_POINTER_OFFSET UNITYSDK_OFFSET(0x1E226C10)
-#define FLOWCANVAS_FLOWINPUT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E226C30)
-#define FLOWCANVAS_FLOWINPUT_RECORDCALLINFO_OFFSET UNITYSDK_OFFSET(0x1E226C60)
-#define FLOWCANVAS_FLOWINPUT_SET_POINTER_OFFSET UNITYSDK_OFFSET(0x1E226C20)
-#define FLOWCANVAS_FLOWINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E226B10)
+#define FLOWCANVAS_FLOWINPUT_GET_POINTER_OFFSET UNITYSDK_OFFSET(0x1EBA84C0)
+#define FLOWCANVAS_FLOWINPUT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EBA84E0)
+#define FLOWCANVAS_FLOWINPUT_RECORDCALLINFO_OFFSET UNITYSDK_OFFSET(0x1EBA8510)
+#define FLOWCANVAS_FLOWINPUT_SET_POINTER_OFFSET UNITYSDK_OFFSET(0x1EBA84D0)
+#define FLOWCANVAS_FLOWINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBA83C0)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowInput_TypeDefinitionIndex = 30566;
+	inline static constexpr unsigned int FlowInput_TypeDefinitionIndex = 30417;
 
 	class FlowInput : public ::FlowCanvas::Port
 	{
 	public:
 		static ::System::Action_2<::FlowCanvas::FlowInput*, ::FlowCanvas::FlowNode*>** StaticGet_OnCall()
 		{
-			return (::System::Action_2<::FlowCanvas::FlowInput*, ::FlowCanvas::FlowNode*>**)Il2CppClass::FromTypeDefinitionIndex(FlowInput_TypeDefinitionIndex)->GetStaticField(0x250C0);
+			return (::System::Action_2<::FlowCanvas::FlowInput*, ::FlowCanvas::FlowNode*>**)Il2CppClass::FromTypeDefinitionIndex(FlowInput_TypeDefinitionIndex)->GetStaticField(0x26190);
 		}
 		::FlowCanvas::FlowHandler* _pointer_k__BackingField; // 0x38
 

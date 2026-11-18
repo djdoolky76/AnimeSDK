@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_1.h"
 #include "unitysdk/MoleMole/Vector2Int.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_5_DCFF91E03A93C03C;
+class FBAMLABJMKF;
 namespace MoleMole::FlowCanvas { class ChessboardChangeBg_ParaInfo; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_CHANGEPIECECENTER_OFFSET UNITYSDK_OFFSET(0x1B525FF0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B525970)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B526700)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_CHANGEPIECECENTER_OFFSET UNITYSDK_OFFSET(0x142F0BE0)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_INVOKE_OFFSET UNITYSDK_OFFSET(0x142F0550)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG__CTOR_OFFSET UNITYSDK_OFFSET(0x142F12F0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardChangeBg_TypeDefinitionIndex = 81686;
+	inline static constexpr unsigned int ChessboardChangeBg_TypeDefinitionIndex = 88763;
 
-	class ChessboardChangeBg : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_1<::MoleMole::FlowCanvas::ChessboardChangeBg_ParaInfo*>
+	class ChessboardChangeBg
 	{
 	public:
 		::System::Void _ctor()
@@ -29,9 +28,9 @@ namespace MoleMole::FlowCanvas
 			return ((::System::Void(*)(::PVOID, ::MoleMole::FlowCanvas::ChessboardChangeBg_ParaInfo*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_INVOKE_OFFSET))(this, a);
 		}
 
-		::System::Nullable_1<::UnityEngine::Vector3> ChangePieceCenter(::MoleMole::FlowCanvas::ChessboardChangeBg_ParaInfo* a, ::Class_5_DCFF91E03A93C03C* chessboard, ::System::Nullable_1<::MoleMole::Vector2Int>& colrol)
+		::System::Nullable_1<::UnityEngine::Vector3> ChangePieceCenter(::MoleMole::FlowCanvas::ChessboardChangeBg_ParaInfo* a, ::FBAMLABJMKF* chessboard, ::System::Nullable_1<::MoleMole::Vector2Int>& colrol)
 		{
-			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID, ::MoleMole::FlowCanvas::ChessboardChangeBg_ParaInfo*, ::Class_5_DCFF91E03A93C03C*, ::System::Nullable_1<::MoleMole::Vector2Int>&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_CHANGEPIECECENTER_OFFSET))(this, a, chessboard, colrol);
+			return ((::System::Nullable_1<::UnityEngine::Vector3>(*)(::PVOID, ::MoleMole::FlowCanvas::ChessboardChangeBg_ParaInfo*, ::FBAMLABJMKF*, ::System::Nullable_1<::MoleMole::Vector2Int>&))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_CHESSBOARDCHANGEBG_CHANGEPIECECENTER_OFFSET))(this, a, chessboard, colrol);
 		}
 	};
 }

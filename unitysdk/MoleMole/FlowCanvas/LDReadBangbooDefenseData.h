@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
 
 namespace MoleMole::FlatBuffers::Config { class BangbooDefenseDataTemplate; }
 
-#define MOLEMOLE_FLOWCANVAS_LDREADBANGBOODEFENSEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A7FF80)
-#define MOLEMOLE_FLOWCANVAS_LDREADBANGBOODEFENSEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13A800D0)
+#define MOLEMOLE_FLOWCANVAS_LDREADBANGBOODEFENSEDATA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465A790)
+#define MOLEMOLE_FLOWCANVAS_LDREADBANGBOODEFENSEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1465A8E0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int LDReadBangbooDefenseData_TypeDefinitionIndex = 80522;
+	inline static constexpr unsigned int LDReadBangbooDefenseData_TypeDefinitionIndex = 80580;
 
-	class LDReadBangbooDefenseData : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::MoleMole::FlatBuffers::Config::BangbooDefenseDataTemplate*, ::System::Int32, ::System::Boolean>
+	class LDReadBangbooDefenseData
 	{
 	public:
 		::System::Void _ctor()

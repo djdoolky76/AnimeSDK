@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERALOCKTARGETDATAS_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12EFC520)
+#define MOLEMOLE_CONFIG_CONFIGCAMERALOCKTARGETDATAS_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1276F920)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraLockTargetDatas_KeyValueInfo_TypeDefinitionIndex = 79378;
+	inline static constexpr unsigned int ConfigCameraLockTargetDatas_KeyValueInfo_TypeDefinitionIndex = 89744;
 
 	class ConfigCameraLockTargetDatas_KeyValueInfo : public ::System::Object
 	{

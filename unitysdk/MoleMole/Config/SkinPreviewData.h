@@ -5,16 +5,17 @@
 namespace MoleMole::Config { class SkinPreviewDataOfAvatar; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_SKINPREVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1920FEB0)
+#define MOLEMOLE_CONFIG_SKINPREVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x118E3580)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SkinPreviewData_TypeDefinitionIndex = 88442;
+	inline static constexpr unsigned int SkinPreviewData_TypeDefinitionIndex = 48272;
 
 	class SkinPreviewData : public ::System::Object
 	{
 	public:
 		::System::Int32 AvatarID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* Tips; // 0x18
 		::MoleMole::Config::SkinPreviewDataOfAvatar* Config; // 0x20
 

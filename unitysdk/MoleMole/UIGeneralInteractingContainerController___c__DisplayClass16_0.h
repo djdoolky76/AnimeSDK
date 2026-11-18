@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIGENERALINTERACTINGCONTAINERCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D99E40)
-#define MOLEMOLE_UIGENERALINTERACTINGCONTAINERCONTROLLER___C__DISPLAYCLASS16_0__DOINTERACT_B__0_OFFSET UNITYSDK_OFFSET(0x17D99E50)
+#define MOLEMOLE_UIGENERALINTERACTINGCONTAINERCONTROLLER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17843A80)
+#define MOLEMOLE_UIGENERALINTERACTINGCONTAINERCONTROLLER___C__DISPLAYCLASS16_0__DOINTERACT_B__0_OFFSET UNITYSDK_OFFSET(0x17843A90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralInteractingContainerController___c__DisplayClass16_0_TypeDefinitionIndex = 90826;
+	inline static constexpr unsigned int UIGeneralInteractingContainerController___c__DisplayClass16_0_TypeDefinitionIndex = 60323;
 
 	class UIGeneralInteractingContainerController___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::System::Int32 interactID; // 0x10
-		::System::Int32 npcTag; // 0x14
+		::System::Int32 npcTag; // 0x10
+		::System::Int32 interactID; // 0x14
 
 		::System::Void _ctor()
 		{

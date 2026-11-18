@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/NapCameraSequenceHandle.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
@@ -12,32 +12,32 @@ namespace MoleMole::Utils { class INapCameraSequenceDataTableEntry; }
 namespace MoleMole::Utils { class NapCameraSequence; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE_DO_OFFSET UNITYSDK_OFFSET(0x12992CC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12992A60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x129934F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE__REGISTERPORTS_B__12_0_OFFSET UNITYSDK_OFFSET(0x12993530)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE__REGISTERPORTS_B__12_1_OFFSET UNITYSDK_OFFSET(0x12993DB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE__REGISTERPORTS_B__12_2_OFFSET UNITYSDK_OFFSET(0x12993DC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE_DO_OFFSET UNITYSDK_OFFSET(0x12451ED0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12451C70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x12452700)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE__REGISTERPORTS_B__12_0_OFFSET UNITYSDK_OFFSET(0x12452740)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE__REGISTERPORTS_B__12_1_OFFSET UNITYSDK_OFFSET(0x12452FC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE__REGISTERPORTS_B__12_2_OFFSET UNITYSDK_OFFSET(0x12452FD0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPlayNapCameraSequence_TypeDefinitionIndex = 65339;
+	inline static constexpr unsigned int LDPlayNapCameraSequence_TypeDefinitionIndex = 59609;
 
 	class LDPlayNapCameraSequence : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::System::String* _failureMessage; // 0xA8
-		::MoleMole::FlowCanvas::Nodes::NapCameraSequenceHandle _handle; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Single>* _timeOut; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Single>* _playRate; // 0xA8
+		::FlowCanvas::FlowInput* _in; // 0xB0
+		::FlowCanvas::FlowOutput* _onFailed; // 0xB8
+		::FlowCanvas::ValueInput_1<::MoleMole::Utils::NapCameraSequence*>* _sequence; // 0xC0
 		::FlowCanvas::ValueInput_1<::MoleMole::Utils::INapCameraSequenceDataTableEntry*>* _config; // 0xC8
-		::FlowCanvas::FlowOutput* _onStop; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::String*>* _section; // 0xD8
-		::FlowCanvas::FlowInput* _in; // 0xE0
-		::FlowCanvas::ValueInput_1<::System::Single>* _playRate; // 0xE8
-		::FlowCanvas::FlowOutput* _onFailed; // 0xF0
+		::FlowCanvas::ValueInput_1<::System::Single>* _timeOut; // 0xD0
+		::System::String* _failureMessage; // 0xD8
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _instigator; // 0xE0
+		::MoleMole::FlowCanvas::Nodes::NapCameraSequenceHandle _handle; // 0xE8
 		::FlowCanvas::FlowOutput* _out; // 0xF8
-		::FlowCanvas::ValueInput_1<::MoleMole::Utils::NapCameraSequence*>* _sequence; // 0x100
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _instigator; // 0x108
+		::FlowCanvas::ValueInput_1<::System::String*>* _section; // 0x100
+		::FlowCanvas::FlowOutput* _onStop; // 0x108
 
 		::System::Void _ctor()
 		{

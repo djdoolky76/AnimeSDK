@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_281;
-class Class_3_AE02BC8285203464_20;
+class CCLLIEJENHM;
+class FKOGJPBGILO;
 namespace MoleMole { class UIRoleBreakThroughController; }
 
-#define MOLEMOLE_UIROLEBREAKTHROUGHCONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F6B480)
-#define MOLEMOLE_UIROLEBREAKTHROUGHCONTROLLER___C__DISPLAYCLASS36_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x15F6B490)
+#define MOLEMOLE_UIROLEBREAKTHROUGHCONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x168F11C0)
+#define MOLEMOLE_UIROLEBREAKTHROUGHCONTROLLER___C__DISPLAYCLASS36_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x168F11D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleBreakThroughController___c__DisplayClass36_0_TypeDefinitionIndex = 55406;
+	inline static constexpr unsigned int UIRoleBreakThroughController___c__DisplayClass36_0_TypeDefinitionIndex = 52844;
 
 	class UIRoleBreakThroughController___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_281* advCurLvTempalte; // 0x10
+		::FKOGJPBGILO* advCurLvTempalte; // 0x10
 		::MoleMole::UIRoleBreakThroughController* __4__this; // 0x18
-		::Class_3_AE02BC8285203464_20* serverInfo; // 0x20
-		::Class_2_208CC9941471731A_281* advNextLvTemplate; // 0x28
+		::CCLLIEJENHM* serverInfo; // 0x20
+		::FKOGJPBGILO* advNextLvTemplate; // 0x28
 
 		::System::Void _ctor()
 		{

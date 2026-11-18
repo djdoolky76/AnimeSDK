@@ -1,0 +1,72 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HJFKHEKOPBD.h"
+#include "unitysdk/NAHHDPKCHBI_FKPDNFMJJON.h"
+
+class ANAPNFPOMNG;
+
+#define NAHHDPKCHBI_ANEOCOIFDDJ_OFFSET UNITYSDK_OFFSET(0x12C31680)
+#define NAHHDPKCHBI_BAEOMKCHECF_OFFSET UNITYSDK_OFFSET(0x12C31310)
+#define NAHHDPKCHBI_BENKILMNHMH_OFFSET UNITYSDK_OFFSET(0x12C31710)
+#define NAHHDPKCHBI_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x12C31830)
+#define NAHHDPKCHBI_FCMNHLDLJCI_OFFSET UNITYSDK_OFFSET(0x12C315B0)
+#define NAHHDPKCHBI_IFACMGGOOOC_OFFSET UNITYSDK_OFFSET(0x12C31570)
+#define NAHHDPKCHBI_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x12C311D0)
+#define NAHHDPKCHBI_OMEIBIPJGDH_OFFSET UNITYSDK_OFFSET(0x12C317A0)
+#define NAHHDPKCHBI__CTOR_OFFSET UNITYSDK_OFFSET(0x12C31670)
+
+inline static constexpr unsigned int NAHHDPKCHBI_TypeDefinitionIndex = 88039;
+
+class NAHHDPKCHBI : public ::HJFKHEKOPBD
+{
+public:
+	// static const ::System::String* FKNMCNANNJI; // 0x0
+	::System::Int32 EILPMGKKACC; // 0x60
+	::NAHHDPKCHBI_FKPDNFMJJON NNNPLPPOCCA; // 0x64
+	::System::Int32 MDBBGAKAHLH; // 0x68
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAHHDPKCHBI__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAHHDPKCHBI_OJENCMOGDKL_OFFSET))(this);
+	}
+
+	::System::Void BAEOMKCHECF(::ANAPNFPOMNG* DACKALLJNNF)
+	{
+		return ((::System::Void(*)(::PVOID, ::ANAPNFPOMNG*))((::PBYTE)hIl2Cpp + NAHHDPKCHBI_BAEOMKCHECF_OFFSET))(this, DACKALLJNNF);
+	}
+
+	::System::Void IFACMGGOOOC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAHHDPKCHBI_IFACMGGOOOC_OFFSET))(this);
+	}
+
+	::System::Void FCMNHLDLJCI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAHHDPKCHBI_FCMNHLDLJCI_OFFSET))(this);
+	}
+
+	::System::Void ANEOCOIFDDJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAHHDPKCHBI_ANEOCOIFDDJ_OFFSET))(this);
+	}
+
+	::System::Void BENKILMNHMH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAHHDPKCHBI_BENKILMNHMH_OFFSET))(this);
+	}
+
+	::System::Void OMEIBIPJGDH(::ANAPNFPOMNG* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::ANAPNFPOMNG*))((::PBYTE)hIl2Cpp + NAHHDPKCHBI_OMEIBIPJGDH_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void ECNOGHHOPPF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAHHDPKCHBI_ECNOGHHOPPF_OFFSET))(this);
+	}
+};

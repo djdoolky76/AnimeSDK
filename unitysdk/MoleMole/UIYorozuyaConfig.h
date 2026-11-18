@@ -7,15 +7,16 @@
 
 namespace MoleMole { class UIYorozuyaConfig_RowTypeColor; }
 namespace MoleMole::Cameras { class VNoiseSettings; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_UIYOROZUYACONFIG_GETCOLORCONFIGBYTYPE_OFFSET UNITYSDK_OFFSET(0x11C297C0)
-#define MOLEMOLE_UIYOROZUYACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11C298D0)
+#define MOLEMOLE_UIYOROZUYACONFIG_GETCOLORCONFIGBYTYPE_OFFSET UNITYSDK_OFFSET(0x11389350)
+#define MOLEMOLE_UIYOROZUYACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11389460)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaConfig_TypeDefinitionIndex = 69074;
+	inline static constexpr unsigned int UIYorozuyaConfig_TypeDefinitionIndex = 70209;
 
 	class UIYorozuyaConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
@@ -27,23 +28,28 @@ namespace MoleMole
 		::UnityEngine::Vector3 BornRot; // 0x68
 		::UnityEngine::Vector3 FinalRot; // 0x74
 		::System::Single BornRotateTime; // 0x80
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* BornRotAnimCurve; // 0x88
 		::UnityEngine::Vector2 BornRandomTime; // 0x90
 		::System::Single TriggerRotateTime; // 0x98
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* TriggerRotateCurve; // 0xA0
 		::System::Single TriggerRotateNoiseDelayTime; // 0xA8
+		::System::Byte _padding2[0x4];
 		::MoleMole::Cameras::VNoiseSettings* TriggerRotateNoiseProfile; // 0xB0
 		::System::Single TriggerRotateNoiseAmplitudeGain; // 0xB8
 		::System::Single TriggerRotateNoiseFrequencyGain; // 0xBC
-		::System::Collections::Generic::Dictionary_2<::MoleMole::UIYorozuyaConfig_QuestType, ::MoleMole::UIYorozuyaConfig_RowTypeColor*>* RowColorDic; // 0xC0
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* RowColorDic; // 0xC0
 		::System::Single TipsDelayShowTime; // 0xC8
 		::System::Single ClickDelay; // 0xCC
 		::UnityEngine::Vector2 glareScale; // 0xD0
 		::System::Single breathLoopTimer; // 0xD8
+		::System::Byte _padding3[0x4];
 		::UnityEngine::AnimationCurve* breathLoopCurve; // 0xE0
 		::System::Single TweenDuration; // 0xE8
 		::System::Int32 Posx_1; // 0xEC
 		::System::Int32 Posx_2; // 0xF0
+		::System::Byte _padding4[0x4];
 		::UnityEngine::AnimationCurve* TweenCurve; // 0xF8
 
 		::System::Void _ctor()

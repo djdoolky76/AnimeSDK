@@ -8,33 +8,33 @@ namespace MoleMole::Config { class ScreenEffectBool; }
 namespace MoleMole::Config { class ScreenEffectFloat; }
 namespace MoleMole::Config { class ScreenEffectVector2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT_GETEXPOSURECOMPENSATION_OFFSET UNITYSDK_OFFSET(0x14860580)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT_GETFILTERING_OFFSET UNITYSDK_OFFSET(0x14860480)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT_GETLUMINANCERANGE_OFFSET UNITYSDK_OFFSET(0x14860500)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT_GETPROGRESSIVEEYEADAPTATION_OFFSET UNITYSDK_OFFSET(0x14860600)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT_GETSPEEDDOWN_OFFSET UNITYSDK_OFFSET(0x14860700)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT_GETSPEEDUP_OFFSET UNITYSDK_OFFSET(0x14860680)
-#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x14860780)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT_GETEXPOSURECOMPENSATION_OFFSET UNITYSDK_OFFSET(0x11E8D540)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT_GETFILTERING_OFFSET UNITYSDK_OFFSET(0x11E8D440)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT_GETLUMINANCERANGE_OFFSET UNITYSDK_OFFSET(0x11E8D4C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT_GETPROGRESSIVEEYEADAPTATION_OFFSET UNITYSDK_OFFSET(0x11E8D5C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT_GETSPEEDDOWN_OFFSET UNITYSDK_OFFSET(0x11E8D6C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT_GETSPEEDUP_OFFSET UNITYSDK_OFFSET(0x11E8D640)
+#define MOLEMOLE_CONFIG_CONFIGENTITYAUTOEXPOSUREEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E8D740)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityAutoExposureEffect_TypeDefinitionIndex = 56583;
+	inline static constexpr unsigned int ConfigEntityAutoExposureEffect_TypeDefinitionIndex = 39686;
 
 	class ConfigEntityAutoExposureEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectVector2* Filtering; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* SpeedDown; // 0x48
-		::MoleMole::Config::ScreenEffectBool* ProgressiveEyeAdaptation; // 0x50
+		::MoleMole::Config::ScreenEffectFloat* SpeedUp; // 0x40
+		::MoleMole::Config::ScreenEffectVector2* LuminanceRange; // 0x48
+		::MoleMole::Config::ScreenEffectVector2* Filtering; // 0x50
 		::MoleMole::Config::ScreenEffectFloat* ExposureCompensation; // 0x58
-		::MoleMole::Config::ScreenEffectFloat* SpeedUp; // 0x60
-		::MoleMole::Config::ScreenEffectVector2* LuminanceRange; // 0x68
-		::MoleMole::Config::ScreenEffectFieldHandleType FilteringHandleType; // 0x70
-		::MoleMole::Config::ScreenEffectFieldHandleType SpeedUpHandleType; // 0x74
-		::MoleMole::Config::ScreenEffectFieldHandleType ProgressiveEyeAdaptationHandleType; // 0x78
-		::MoleMole::Config::ScreenEffectFieldHandleType SpeedDownHandleType; // 0x7C
-		::MoleMole::Config::ScreenEffectFieldHandleType LuminanceRangeHandleType; // 0x80
-		::MoleMole::Config::ScreenEffectFieldHandleType ExposureCompensationHandleType; // 0x84
+		::MoleMole::Config::ScreenEffectBool* ProgressiveEyeAdaptation; // 0x60
+		::MoleMole::Config::ScreenEffectFloat* SpeedDown; // 0x68
+		::MoleMole::Config::ScreenEffectFieldHandleType LuminanceRangeHandleType; // 0x70
+		::MoleMole::Config::ScreenEffectFieldHandleType FilteringHandleType; // 0x74
+		::MoleMole::Config::ScreenEffectFieldHandleType SpeedDownHandleType; // 0x78
+		::MoleMole::Config::ScreenEffectFieldHandleType SpeedUpHandleType; // 0x7C
+		::MoleMole::Config::ScreenEffectFieldHandleType ExposureCompensationHandleType; // 0x80
+		::MoleMole::Config::ScreenEffectFieldHandleType ProgressiveEyeAdaptationHandleType; // 0x84
 
 		::System::Void _ctor()
 		{

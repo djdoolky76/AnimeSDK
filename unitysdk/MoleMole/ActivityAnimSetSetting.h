@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ActivitBGAnimationSequence; }
 
-#define MOLEMOLE_ACTIVITYANIMSETSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x17790BC0)
+#define MOLEMOLE_ACTIVITYANIMSETSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x174B9BC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityAnimSetSetting_TypeDefinitionIndex = 74802;
+	inline static constexpr unsigned int ActivityAnimSetSetting_TypeDefinitionIndex = 56002;
 
 	class ActivityAnimSetSetting : public ::System::Object
 	{

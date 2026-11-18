@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_912E0458D58825D3_Class_1_E23FBD37533CCEFB.h"
+#include "unitysdk/GJDLKFAMLAC_PAANKEAOJEI.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER_PAIREDTAGGENERATOR_ADD_OFFSET UNITYSDK_OFFSET(0x1DEAA220)
-#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER_PAIREDTAGGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAA2C0)
+#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER_PAIREDTAGGENERATOR_ADD_OFFSET UNITYSDK_OFFSET(0x1C2E9E00)
+#define UNITYENGINE_UI_EXTENSION_UITEXTTAGREPLACER_PAIREDTAGGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E9EA0)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITextTagReplacer_PairedTagGenerator_TypeDefinitionIndex = 47861;
+	inline static constexpr unsigned int UITextTagReplacer_PairedTagGenerator_TypeDefinitionIndex = 45817;
 
-	class UITextTagReplacer_PairedTagGenerator : public ::Class_1_912E0458D58825D3_Class_1_E23FBD37533CCEFB
+	class UITextTagReplacer_PairedTagGenerator : public ::GJDLKFAMLAC_PAANKEAOJEI
 	{
 	public:
 		::System::Void _ctor()

@@ -9,23 +9,23 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKMOUSEPICK_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EA9F7C0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKMOUSEPICK_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EA9F910)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKMOUSEPICK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9FC10)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKMOUSEPICK_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EDD0830)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKMOUSEPICK_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EDD0980)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKMOUSEPICK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD0C80)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckMousePick_TypeDefinitionIndex = 31341;
+	inline static constexpr unsigned int CheckMousePick_TypeDefinitionIndex = 30535;
 
 	class CheckMousePick : public ::NodeCanvas::Framework::ConditionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* savePosAs; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveDistanceAs; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveGoAs; // 0x70
-		::System::Int32 layer; // 0x78
-		::ParadoxNotion::ButtonKeys buttonKey; // 0x7C
-		::UnityEngine::RaycastHit hit; // 0x80
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveGoAs; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* savePosAs; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveDistanceAs; // 0x70
+		::ParadoxNotion::ButtonKeys buttonKey; // 0x78
+		::UnityEngine::RaycastHit hit; // 0x7C
+		::System::Int32 layer; // 0xB0
 
 		::System::Void _ctor()
 		{

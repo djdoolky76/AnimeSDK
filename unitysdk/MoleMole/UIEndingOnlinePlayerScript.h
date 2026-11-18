@@ -6,14 +6,14 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI::Extension { class UILocalizationText; }
 
-#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FC60670)
-#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_PLAYRESULTANIM_OFFSET UNITYSDK_OFFSET(0x1FC60760)
-#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1FC606E0)
-#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC608D0)
+#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_AWAKE_OFFSET UNITYSDK_OFFSET(0x2006D1A0)
+#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_PLAYRESULTANIM_OFFSET UNITYSDK_OFFSET(0x2006D290)
+#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_SETVALUE_OFFSET UNITYSDK_OFFSET(0x2006D210)
+#define MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x2006D400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIEndingOnlinePlayerScript_TypeDefinitionIndex = 94889;
+	inline static constexpr unsigned int UIEndingOnlinePlayerScript_TypeDefinitionIndex = 96650;
 
 	class UIEndingOnlinePlayerScript : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,7 +23,7 @@ namespace MoleMole
 		::UnityEngine::UI::Extension::UILocalizationText* score; // 0x28
 		::System::String* winAnim; // 0x30
 		::System::String* loseAnim; // 0x38
-		::System::Boolean Field_5_6; // 0x40
+		::System::Boolean IGAAKDOIPNN; // 0x40
 
 		::System::Void _ctor()
 		{
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void SetValue(::System::Boolean a1, ::System::Int32 a2)
+		::System::Void SetValue(::System::Boolean IGAAKDOIPNN, ::System::Int32 CKELOFDFEEM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_SETVALUE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIENDINGONLINEPLAYERSCRIPT_SETVALUE_OFFSET))(this, IGAAKDOIPNN, CKELOFDFEEM);
 		}
 
 		::System::Void PlayResultAnim()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIBPREWARDSELECTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18017080)
+#define MOLEMOLE_UIBPREWARDSELECTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1917B6D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBPRewardSelectContext_TypeDefinitionIndex = 81938;
+	inline static constexpr unsigned int UIBPRewardSelectContext_TypeDefinitionIndex = 42003;
 
 	class UIBPRewardSelectContext : public ::MoleMole::UIControllerContextBase
 	{

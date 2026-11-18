@@ -4,30 +4,31 @@
 
 namespace Dest::Math { class Query3; }
 
-#define DEST_MATH_CONVEXHULL3_TRIANGLE_ATTACHTO_OFFSET UNITYSDK_OFFSET(0x1EE90EB0)
-#define DEST_MATH_CONVEXHULL3_TRIANGLE_DETACHFROM_OFFSET UNITYSDK_OFFSET(0x1EE91D10)
-#define DEST_MATH_CONVEXHULL3_TRIANGLE_GETADJ_OFFSET UNITYSDK_OFFSET(0x1EE91CE0)
-#define DEST_MATH_CONVEXHULL3_TRIANGLE_GETSIGN_OFFSET UNITYSDK_OFFSET(0x1EE91C60)
-#define DEST_MATH_CONVEXHULL3_TRIANGLE_GETV_OFFSET UNITYSDK_OFFSET(0x1EE91DA0)
-#define DEST_MATH_CONVEXHULL3_TRIANGLE_SETADJ_OFFSET UNITYSDK_OFFSET(0x1EE91DC0)
-#define DEST_MATH_CONVEXHULL3_TRIANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE90E90)
+#define DEST_MATH_CONVEXHULL3_TRIANGLE_ATTACHTO_OFFSET UNITYSDK_OFFSET(0x1F212E90)
+#define DEST_MATH_CONVEXHULL3_TRIANGLE_DETACHFROM_OFFSET UNITYSDK_OFFSET(0x1F213CF0)
+#define DEST_MATH_CONVEXHULL3_TRIANGLE_GETADJ_OFFSET UNITYSDK_OFFSET(0x1F213CC0)
+#define DEST_MATH_CONVEXHULL3_TRIANGLE_GETSIGN_OFFSET UNITYSDK_OFFSET(0x1F213C40)
+#define DEST_MATH_CONVEXHULL3_TRIANGLE_GETV_OFFSET UNITYSDK_OFFSET(0x1F213D80)
+#define DEST_MATH_CONVEXHULL3_TRIANGLE_SETADJ_OFFSET UNITYSDK_OFFSET(0x1F213DA0)
+#define DEST_MATH_CONVEXHULL3_TRIANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F212E70)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ConvexHull3_Triangle_TypeDefinitionIndex = 35332;
+	inline static constexpr unsigned int ConvexHull3_Triangle_TypeDefinitionIndex = 34905;
 
 	class ConvexHull3_Triangle : public ::System::Object
 	{
 	public:
-		::Dest::Math::ConvexHull3_Triangle* Adj0; // 0x10
-		::Dest::Math::ConvexHull3_Triangle* Adj1; // 0x18
-		::Dest::Math::ConvexHull3_Triangle* Adj2; // 0x20
+		::Dest::Math::ConvexHull3_Triangle* Adj1; // 0x10
+		::Dest::Math::ConvexHull3_Triangle* Adj2; // 0x18
+		::Dest::Math::ConvexHull3_Triangle* Adj0; // 0x20
 		::System::Boolean OnStack; // 0x28
-		::System::Int32 V2; // 0x2C
+		::System::Byte _padding0[0x3];
+		::System::Int32 Time; // 0x2C
 		::System::Int32 Sign; // 0x30
-		::System::Int32 V1; // 0x34
-		::System::Int32 V0; // 0x38
-		::System::Int32 Time; // 0x3C
+		::System::Int32 V0; // 0x34
+		::System::Int32 V2; // 0x38
+		::System::Int32 V1; // 0x3C
 
 		::System::Void _ctor(::System::Int32 v0, ::System::Int32 v1, ::System::Int32 v2)
 		{

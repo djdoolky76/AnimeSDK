@@ -8,12 +8,12 @@ namespace System::Net::Security { class RemoteCertValidationCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD0C360)
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS2_0__INTERNALTOMONO_B__0_OFFSET UNITYSDK_OFFSET(0x1DD0C370)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0AD0B0)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS2_0__INTERNALTOMONO_B__0_OFFSET UNITYSDK_OFFSET(0x1E0AD0C0)
 
 namespace Mono::Net::Security::Private
 {
-	inline static constexpr unsigned int CallbackHelpers___c__DisplayClass2_0_TypeDefinitionIndex = 2636;
+	inline static constexpr unsigned int CallbackHelpers___c__DisplayClass2_0_TypeDefinitionIndex = 2635;
 
 	class CallbackHelpers___c__DisplayClass2_0 : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class GUILayoutOption; }
 
-#define SIRENIX_ODININSPECTOR_BOXGROUPNAPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F4C2DD0)
-#define SIRENIX_ODININSPECTOR_BOXGROUPNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C27E0)
+#define SIRENIX_ODININSPECTOR_BOXGROUPNAPATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F381EA0)
+#define SIRENIX_ODININSPECTOR_BOXGROUPNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3818B0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int BoxGroupNapAttribute_TypeDefinitionIndex = 8440;
+	inline static constexpr unsigned int BoxGroupNapAttribute_TypeDefinitionIndex = 8273;
 
 	class BoxGroupNapAttribute : public ::Sirenix::OdinInspector::BoxGroupAttribute
 	{

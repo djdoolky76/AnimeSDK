@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BHPFNOKDDOG.h"
+#include "unitysdk/System/ValueType.h"
+
+class AEMCAOEICDG;
+class ALMMGOFACDF;
+
+#define NOKHEOLGDNG_BCFFOEKOEGD_OFFSET UNITYSDK_OFFSET(0xE5A1FB0)
+#define NOKHEOLGDNG_HIBLOGNCMCK_OFFSET UNITYSDK_OFFSET(0xE5A23C0)
+#define NOKHEOLGDNG_JDDJANELKJM_OFFSET UNITYSDK_OFFSET(0xE5A1F20)
+#define NOKHEOLGDNG_NLDGABOKNFA_OFFSET UNITYSDK_OFFSET(0xE5A1A50)
+#define NOKHEOLGDNG__CCTOR_OFFSET UNITYSDK_OFFSET(0xE5A19B0)
+
+inline static constexpr unsigned int NOKHEOLGDNG_TypeDefinitionIndex = 77127;
+
+struct alignas(8) NOKHEOLGDNG
+{
+	// static const ::System::Int32 IPAPPCOIEIF = 0xEA; // 0x0
+	::System::Double EFMEHDBDFCM; // 0x10
+	::System::Single CFJOFJNBDGP; // 0x18
+	::System::Single LFMPBHKPDAG; // 0x1C
+	::System::Single MMNNLOMMNGL; // 0x20
+	::System::Single HKLCEELPJGJ; // 0x24
+	::System::Single LLBEKEFONPC; // 0x28
+	::System::Single CEPKCMJLFEA; // 0x2C
+	::BHPFNOKDDOG DHHAALKCBCG; // 0x30
+	::System::Boolean EIEHLPHBJOE; // 0x34
+	::System::Boolean NGCDDCHPAEN; // 0x35
+	::System::Byte _padding0[0x2];
+	::System::UInt32 PACBIKENNIJ; // 0x38
+	::System::Single JDOJPJOEKNH; // 0x3C
+	::ALMMGOFACDF* LLHIOKHDOON; // 0x40
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NOKHEOLGDNG__CCTOR_OFFSET))();
+	}
+
+	static ::System::Single NLDGABOKNFA(::BHPFNOKDDOG OBNIAHNMHPF, ::System::Boolean PLIHMHNHGBP, ::ALMMGOFACDF* DIJKPMKJJFG)
+	{
+		return ((::System::Single(*)(::BHPFNOKDDOG, ::System::Boolean, ::ALMMGOFACDF*))((::PBYTE)hIl2Cpp + NOKHEOLGDNG_NLDGABOKNFA_OFFSET))(OBNIAHNMHPF, PLIHMHNHGBP, DIJKPMKJJFG);
+	}
+
+	static ::System::Double BCFFOEKOEGD(::BHPFNOKDDOG OBNIAHNMHPF, ::System::Boolean PLIHMHNHGBP, ::ALMMGOFACDF* DIJKPMKJJFG)
+	{
+		return ((::System::Double(*)(::BHPFNOKDDOG, ::System::Boolean, ::ALMMGOFACDF*))((::PBYTE)hIl2Cpp + NOKHEOLGDNG_BCFFOEKOEGD_OFFSET))(OBNIAHNMHPF, PLIHMHNHGBP, DIJKPMKJJFG);
+	}
+
+	static ::BHPFNOKDDOG HIBLOGNCMCK(::AEMCAOEICDG* OHPJHPEOFLD, ::ALMMGOFACDF* DIJKPMKJJFG)
+	{
+		return ((::BHPFNOKDDOG(*)(::AEMCAOEICDG*, ::ALMMGOFACDF*))((::PBYTE)hIl2Cpp + NOKHEOLGDNG_HIBLOGNCMCK_OFFSET))(OHPJHPEOFLD, DIJKPMKJJFG);
+	}
+
+	static ::BHPFNOKDDOG JDDJANELKJM(::BHPFNOKDDOG OBNIAHNMHPF, ::System::Boolean PLIHMHNHGBP)
+	{
+		return ((::BHPFNOKDDOG(*)(::BHPFNOKDDOG, ::System::Boolean))((::PBYTE)hIl2Cpp + NOKHEOLGDNG_JDDJANELKJM_OFFSET))(OBNIAHNMHPF, PLIHMHNHGBP);
+	}
+};

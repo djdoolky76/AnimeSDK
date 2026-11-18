@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace MoleMole { class UIComposeItemPopWindowController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UICOMPOSEITEMPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16060090)
-#define MOLEMOLE_UICOMPOSEITEMPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__SENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x160600A0)
-#define MOLEMOLE_UICOMPOSEITEMPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__SENDDATA_B__1_OFFSET UNITYSDK_OFFSET(0x16060280)
-#define MOLEMOLE_UICOMPOSEITEMPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__SENDDATA_B__2_OFFSET UNITYSDK_OFFSET(0x16060460)
+#define MOLEMOLE_UICOMPOSEITEMPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1598CBA0)
+#define MOLEMOLE_UICOMPOSEITEMPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__SENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1598CBB0)
+#define MOLEMOLE_UICOMPOSEITEMPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__SENDDATA_B__1_OFFSET UNITYSDK_OFFSET(0x1598CD90)
+#define MOLEMOLE_UICOMPOSEITEMPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__SENDDATA_B__2_OFFSET UNITYSDK_OFFSET(0x1598CF70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIComposeItemPopWindowController___c__DisplayClass55_0_TypeDefinitionIndex = 41285;
+	inline static constexpr unsigned int UIComposeItemPopWindowController___c__DisplayClass55_0_TypeDefinitionIndex = 49885;
 
 	class UIComposeItemPopWindowController___c__DisplayClass55_0 : public ::System::Object
 	{
@@ -36,9 +36,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMPOSEITEMPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__SENDDATA_B__1_OFFSET))(this);
 		}
 
-		::System::Void _SendData_b__2(::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* itemDataList)
+		::System::Void _SendData_b__2(::System::Collections::Generic::List_1<::HGAJKHIMKJP*>* itemDataList)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMPOSEITEMPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__SENDDATA_B__2_OFFSET))(this, itemDataList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::HGAJKHIMKJP*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOMPOSEITEMPOPWINDOWCONTROLLER___C__DISPLAYCLASS55_0__SENDDATA_B__2_OFFSET))(this, itemDataList);
 		}
 	};
 }

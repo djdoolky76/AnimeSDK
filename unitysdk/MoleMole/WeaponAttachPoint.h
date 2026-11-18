@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_WEAPONATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x174C2D00)
+#define MOLEMOLE_WEAPONATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C3F370)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int WeaponAttachPoint_TypeDefinitionIndex = 87159;
+	inline static constexpr unsigned int WeaponAttachPoint_TypeDefinitionIndex = 77707;
 
 	class WeaponAttachPoint : public ::System::Object
 	{

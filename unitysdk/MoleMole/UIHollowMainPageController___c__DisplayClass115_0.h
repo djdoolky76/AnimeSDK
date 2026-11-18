@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_5_A6F8D19602712D95;
+class PNJDGHBEMLK;
 namespace MoleMole { class UIHollowMainPageController; }
 namespace MoleMole::Config { class ConfigChessboardPlayStartPerform; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17DBAD70)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x17DBAD80)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__2_OFFSET UNITYSDK_OFFSET(0x17DBB000)
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__3_OFFSET UNITYSDK_OFFSET(0x17DBAFB0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178647E0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x178647F0)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__2_OFFSET UNITYSDK_OFFSET(0x17864A70)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER___C__DISPLAYCLASS115_0__SHOWSTARTPERFORMANCE_B__3_OFFSET UNITYSDK_OFFSET(0x17864A20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass115_0_TypeDefinitionIndex = 73693;
+	inline static constexpr unsigned int UIHollowMainPageController___c__DisplayClass115_0_TypeDefinitionIndex = 84637;
 
 	class UIHollowMainPageController___c__DisplayClass115_0 : public ::System::Object
 	{
 	public:
-		::System::Action* endCB; // 0x10
-		::MoleMole::UIHollowMainPageController* __4__this; // 0x18
-		::MoleMole::Config::ConfigChessboardPlayStartPerform* config; // 0x20
-		::System::Action* __9__3; // 0x28
-		::Class_5_A6F8D19602712D95* pieceCtrl; // 0x30
+		::MoleMole::Config::ConfigChessboardPlayStartPerform* config; // 0x10
+		::System::Action* endCB; // 0x18
+		::System::Action* __9__3; // 0x20
+		::PNJDGHBEMLK* pieceCtrl; // 0x28
+		::MoleMole::UIHollowMainPageController* __4__this; // 0x30
 
 		::System::Void _ctor()
 		{

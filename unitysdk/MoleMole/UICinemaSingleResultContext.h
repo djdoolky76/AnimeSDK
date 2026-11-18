@@ -1,31 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_E2714210413A69CA.h"
+#include "unitysdk/BGHFICOEKBH.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_0E3D561C72111316;
+class AIPAFAGLLGH;
 
-#define MOLEMOLE_UICINEMASINGLERESULTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18543360)
+#define MOLEMOLE_UICINEMASINGLERESULTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17564A90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICinemaSingleResultContext_TypeDefinitionIndex = 75844;
+	inline static constexpr unsigned int UICinemaSingleResultContext_TypeDefinitionIndex = 57978;
 
 	class UICinemaSingleResultContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_0E3D561C72111316* singlePlayController; // 0x28
+		::AIPAFAGLLGH* singlePlayController; // 0x28
 		::System::Int32 multiClickBubbleCount; // 0x30
-		::System::Int32 historyMaxCount; // 0x34
-		::System::Int32 levelID; // 0x38
-		::System::Boolean hasMultiClickBubble; // 0x3C
-		::System::Boolean hasClearAllBubble; // 0x3D
-		::System::Int32 currMaxCount; // 0x40
-		::System::Int32 normalBubbleCount; // 0x44
-		::Enum_3_E2714210413A69CA currLevel; // 0x48
-		::System::Int32 historyMaxScore; // 0x4C
+		::System::Int32 currMaxCount; // 0x34
+		::BGHFICOEKBH currLevel; // 0x38
+		::System::Int32 clearAllBubbleCount; // 0x3C
+		::System::Int32 historyMaxCount; // 0x40
+		::System::Int32 historyMaxScore; // 0x44
+		::System::Int32 normalBubbleCount; // 0x48
+		::System::Boolean hasClearAllBubble; // 0x4C
+		::System::Boolean hasMultiClickBubble; // 0x4D
+		::System::Byte _padding0[0x2];
 		::System::Int32 currScore; // 0x50
-		::System::Int32 clearAllBubbleCount; // 0x54
+		::System::Int32 levelID; // 0x54
 
 		::System::Void _ctor()
 		{

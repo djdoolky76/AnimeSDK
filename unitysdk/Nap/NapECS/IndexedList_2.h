@@ -6,14 +6,14 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int IndexedList_2_TypeDefinitionIndex = 37992;
+	inline static constexpr unsigned int IndexedList_2_TypeDefinitionIndex = 36003;
 
-	template <typename K, typename T>
+	template <typename T1, typename T2>
 	class IndexedList_2 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<T>* m_List; // 0x0
+		::Il2CppArray<T1>* m_List; // 0x0
 		::System::Int32 m_ArrayCount; // 0x0
-		::System::Collections::Generic::Dictionary_2<K, ::System::Int32>* m_Dictionary; // 0x0
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Int32>* m_Dictionary; // 0x0
 	};
 }

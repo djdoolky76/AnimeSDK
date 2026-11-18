@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Utils/ValueOrCurve1_1.h"
 
-#define MOLEMOLE_UTILS_VALUEORCURVEFLOAT_SAMPLECURVE_OFFSET UNITYSDK_OFFSET(0x15B20450)
-#define MOLEMOLE_UTILS_VALUEORCURVEFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B204D0)
+#define MOLEMOLE_UTILS_VALUEORCURVEFLOAT_SAMPLECURVE_OFFSET UNITYSDK_OFFSET(0x12C1CAF0)
+#define MOLEMOLE_UTILS_VALUEORCURVEFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x12C1CB70)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int ValueOrCurveFloat_TypeDefinitionIndex = 59011;
+	inline static constexpr unsigned int ValueOrCurveFloat_TypeDefinitionIndex = 86999;
 
-	class ValueOrCurveFloat : public ::MoleMole::Utils::ValueOrCurve1_1<::System::Single>
+	class ValueOrCurveFloat
 	{
 	public:
 		::System::Void _ctor()

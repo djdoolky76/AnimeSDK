@@ -3,7 +3,7 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int SynchronizationContextProperties_TypeDefinitionIndex = 827;
+	inline static constexpr unsigned int SynchronizationContextProperties_TypeDefinitionIndex = 826;
 
 	enum class SynchronizationContextProperties : ::System::Int32
 	{

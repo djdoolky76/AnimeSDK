@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/TextureFormat.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering::Universal::WeatherSystem { class ScenePostProcessingConfig_ColorCurves; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEPOSTPROCESSINGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C458AE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEPOSTPROCESSINGCONFIG_GETTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x1C458A70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEPOSTPROCESSINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4590A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEPOSTPROCESSINGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C880770)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEPOSTPROCESSINGCONFIG_GETTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x1C880700)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENEPOSTPROCESSINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C880D30)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int ScenePostProcessingConfig_TypeDefinitionIndex = 26956;
+	inline static constexpr unsigned int ScenePostProcessingConfig_TypeDefinitionIndex = 26232;
 
-	class ScenePostProcessingConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::ScenePostProcessingConfig*>
+	class ScenePostProcessingConfig
 	{
 	public:
 		::System::Boolean overrideVolumeConfig; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single ChannelMixer_redOutRedIn; // 0x1C
 		::System::Single ChannelMixer_redOutGreenIn; // 0x20
 		::System::Single ChannelMixer_redOutBlueIn; // 0x24
@@ -34,6 +34,7 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::System::Single ColorAdjustments_hueShift; // 0x54
 		::System::Single ColorAdjustments_saturation; // 0x58
 		::System::Boolean WhiteBalance_active; // 0x5C
+		::System::Byte _padding1[0x3];
 		::System::Single WhiteBalance_temperature; // 0x60
 		::System::Single WhiteBalance_tint; // 0x64
 		::UnityEngine::Vector4 LiftGammaGain_lift; // 0x68
@@ -49,6 +50,7 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::UnityEngine::Color SplitTonings_shadows; // 0xD8
 		::UnityEngine::Color splitToning_highlights; // 0xE8
 		::System::Single splitToning_balance; // 0xF8
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Rendering::Universal::WeatherSystem::ScenePostProcessingConfig_ColorCurves* ColorCurve; // 0x100
 		::UnityEngine::Texture* lerpResult_Master; // 0x108
 		::UnityEngine::Texture* lerpResult_Red; // 0x110

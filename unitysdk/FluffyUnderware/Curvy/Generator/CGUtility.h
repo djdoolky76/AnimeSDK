@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FluffyUnderware/Curvy/Generator/ControlPointOption.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FluffyUnderware/Curvy/Generator/ControlPointOption.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace FluffyUnderware::Curvy { class CurvySpline; }
 namespace FluffyUnderware::Curvy::Generator { class CGDataRequestMetaCGOptions; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGUTILITY_CALCULATEUV2_1_OFFSET UNITYSDK_OFFSET(0x1F343420)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGUTILITY_CALCULATEUV2_OFFSET UNITYSDK_OFFSET(0x1F3433C0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGUTILITY_GETCONTROLPOINTSWITHOPTIONS_OFFSET UNITYSDK_OFFSET(0x1F343560)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGUTILITY_CALCULATEUV2_1_OFFSET UNITYSDK_OFFSET(0x1F769C40)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGUTILITY_CALCULATEUV2_OFFSET UNITYSDK_OFFSET(0x1F769BE0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGUTILITY_GETCONTROLPOINTSWITHOPTIONS_OFFSET UNITYSDK_OFFSET(0x1F769D80)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGUtility_TypeDefinitionIndex = 39703;
+	inline static constexpr unsigned int CGUtility_TypeDefinitionIndex = 37465;
 
 	class CGUtility : public ::System::Object
 	{

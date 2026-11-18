@@ -3,17 +3,17 @@
 
 namespace LitJson
 {
-	inline static constexpr unsigned int JsonType_TypeDefinitionIndex = 8140;
+	inline static constexpr unsigned int JsonType_TypeDefinitionIndex = 8455;
 
 	enum class JsonType : ::System::Int32
 	{
-		Long = 5,
 		Int = 4,
-		Object = 1,
-		Boolean = 7,
 		Double = 6,
-		String = 3,
 		None = 0,
+		Long = 5,
+		String = 3,
+		Boolean = 7,
 		Array = 2,
+		Object = 1,
 	};
 }

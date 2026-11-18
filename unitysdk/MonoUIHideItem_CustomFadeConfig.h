@@ -6,14 +6,14 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MONOUIHIDEITEM_CUSTOMFADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11A2FBF0)
+#define MONOUIHIDEITEM_CUSTOMFADECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18F81DB0)
 
-inline static constexpr unsigned int MonoUIHideItem_CustomFadeConfig_TypeDefinitionIndex = 83755;
+inline static constexpr unsigned int MonoUIHideItem_CustomFadeConfig_TypeDefinitionIndex = 55497;
 
 class MonoUIHideItem_CustomFadeConfig : public ::System::Object
 {
 public:
-	::System::Func_2<::MonoUIHideItem_CustomFadeConfig*, ::System::Boolean>* CheckWorkalbe; // 0x10
+	::System::Func_2<::System::Object*, ::System::Boolean>* CheckWorkalbe; // 0x10
 	::MonoUIHideItem_ShowStatus applyStatus; // 0x18
 	::System::Int32 applyCount; // 0x1C
 	::System::String* animName; // 0x20

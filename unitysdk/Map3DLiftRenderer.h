@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Map3DLiftRenderer_ELiftType.h"
-#include "unitysdk/Map3DLiftRenderer_LiftParams.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define MAP3DLIFTRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1433E1E0)
-#define MAP3DLIFTRENDERER_SETUPLIFTEFFECT_OFFSET UNITYSDK_OFFSET(0x1433E9A0)
-#define MAP3DLIFTRENDERER_SWITCHLINETYPE_OFFSET UNITYSDK_OFFSET(0x1433F2C0)
-#define MAP3DLIFTRENDERER_UPDATECURRENTDISTANCE_OFFSET UNITYSDK_OFFSET(0x1433F590)
-#define MAP3DLIFTRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1433F640)
-#define MAP3DLIFTRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1433FDF0)
-#define MAP3DLIFTRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1433FC00)
+#define MAP3DLIFTRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x121841D0)
+#define MAP3DLIFTRENDERER_SETUPLIFTEFFECT_OFFSET UNITYSDK_OFFSET(0x12184990)
+#define MAP3DLIFTRENDERER_SWITCHLINETYPE_OFFSET UNITYSDK_OFFSET(0x121852B0)
+#define MAP3DLIFTRENDERER_UPDATECURRENTDISTANCE_OFFSET UNITYSDK_OFFSET(0x12185580)
+#define MAP3DLIFTRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x12185630)
+#define MAP3DLIFTRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12185DE0)
+#define MAP3DLIFTRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x12185BF0)
 
-inline static constexpr unsigned int Map3DLiftRenderer_TypeDefinitionIndex = 48888;
+inline static constexpr unsigned int Map3DLiftRenderer_TypeDefinitionIndex = 83979;
 
 class Map3DLiftRenderer : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 {
 public:
 	static ::System::Single* StaticGet_percent()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Map3DLiftRenderer_TypeDefinitionIndex)->GetStaticField(0xC9C0);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Map3DLiftRenderer_TypeDefinitionIndex)->GetStaticField(0xCB60);
 	}
 	::UnityEngine::Material* sphereMaterial; // 0x58
 	::System::Single radius; // 0x60
@@ -35,7 +35,8 @@ public:
 	::UnityEngine::GameObject* linkObjectA; // 0x78
 	::UnityEngine::GameObject* linkObjectB; // 0x80
 	::Map3DLiftRenderer_ELiftType liftType; // 0x88
-	::System::Collections::Generic::Dictionary_2<::Map3DLiftRenderer_ELiftType, ::Map3DLiftRenderer_LiftParams>* liftParams; // 0x90
+	::System::Byte _padding0[0x4];
+	::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* liftParams; // 0x90
 	::UnityEngine::MeshRenderer* bottomMR; // 0x98
 	::UnityEngine::MeshRenderer* topMR; // 0xA0
 	::UnityEngine::MeshRenderer* linkMRA; // 0xA8
@@ -43,6 +44,7 @@ public:
 	::System::Single sphereRealRadius; // 0xB8
 	::System::Single lineRealRadius; // 0xBC
 	::System::Boolean isSetup; // 0xC0
+	::System::Byte _padding1[0x3];
 	::System::Int32 _DistancePercent; // 0xC4
 	::System::Int32 ForceLayerIndex; // 0xC8
 

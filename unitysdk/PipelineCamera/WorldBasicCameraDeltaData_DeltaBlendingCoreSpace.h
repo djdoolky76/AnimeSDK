@@ -4,15 +4,17 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
+#include "unitysdk/PipelineCamera/WorldBasicCameraDeltaData_DeltaBlendingCoreSpace___c__DisplayClass6_0.h"
 
-#define PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTABLENDINGCORESPACE_INVOKE_OFFSET UNITYSDK_OFFSET(0xAC0890)
-#define PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTABLENDINGCORESPACE__INVOKE_G__APPLY_6_0_OFFSET UNITYSDK_OFFSET(0x1F9E9590)
-#define PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTABLENDINGCORESPACE__INVOKE_G__UPDATEASCURRENT_6_1_OFFSET UNITYSDK_OFFSET(0x1F9E9180)
-#define PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTABLENDINGCORESPACE__INVOKE_G__UPDATEASSOURCE_6_2_OFFSET UNITYSDK_OFFSET(0x1F9E8C60)
+#define PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTABLENDINGCORESPACE_INVOKE_OFFSET UNITYSDK_OFFSET(0x9A7380)
+#define PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTABLENDINGCORESPACE__INVOKE_G__APPLY_6_0_OFFSET UNITYSDK_OFFSET(0x1FDEEEE0)
+#define PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTABLENDINGCORESPACE__INVOKE_G__UPDATEASCURRENT_6_1_OFFSET UNITYSDK_OFFSET(0x1FDEEAD0)
+#define PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTABLENDINGCORESPACE__INVOKE_G__UPDATEASSOURCE_6_2_OFFSET UNITYSDK_OFFSET(0x1FDEE5B0)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int WorldBasicCameraDeltaData_DeltaBlendingCoreSpace_TypeDefinitionIndex = 38266;
+	inline static constexpr unsigned int WorldBasicCameraDeltaData_DeltaBlendingCoreSpace_TypeDefinitionIndex = 36268;
 
 	struct alignas(4) WorldBasicCameraDeltaData_DeltaBlendingCoreSpace
 	{
@@ -23,12 +25,10 @@ namespace PipelineCamera
 		::System::Single _deltaFieldOfView; // 0x34
 		::System::Single _alpha; // 0x38
 
-		/*
 		::PipelineCamera::WorldBasicCameraData Invoke(::System::Single fadedAlpha, ::PipelineCamera::WorldBasicCameraData& cameraData, ::PipelineCamera::WorldBasicCameraDataDeltaFlag flag)
 		{
 			return ((::PipelineCamera::WorldBasicCameraData(*)(::PVOID, ::System::Single, ::PipelineCamera::WorldBasicCameraData&, ::PipelineCamera::WorldBasicCameraDataDeltaFlag))((::PBYTE)hIl2Cpp + PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTABLENDINGCORESPACE_INVOKE_OFFSET))(this, fadedAlpha, cameraData, flag);
 		}
-		*/
 
 		/*
 		static ::PipelineCamera::WorldBasicCameraData _Invoke_g__Apply_6_0(::PipelineCamera::WorldBasicCameraDeltaData_DeltaBlendingCoreSpace& delta, ::PipelineCamera::WorldBasicCameraData& input, ::System::Boolean rotateByShortestPath)
@@ -45,9 +45,9 @@ namespace PipelineCamera
 		*/
 
 		/*
-		static ::PipelineCamera::WorldBasicCameraData _Invoke_g__UpdateAsSource_6_2(::PipelineCamera::WorldBasicCameraDeltaData_DeltaBlendingCoreSpace& self, ::System::Single newFadedAlpha, ::PipelineCamera::WorldBasicCameraData& input, ::PipelineCamera::WorldBasicCameraDataDeltaFlag deltaFlag, ::PipelineCamera::WorldBasicCameraDeltaData_DeltaBlendingCoreSpace___c__DisplayClass6_0& a5)
+		static ::PipelineCamera::WorldBasicCameraData _Invoke_g__UpdateAsSource_6_2(::PipelineCamera::WorldBasicCameraDeltaData_DeltaBlendingCoreSpace& self, ::System::Single newFadedAlpha, ::PipelineCamera::WorldBasicCameraData& input, ::PipelineCamera::WorldBasicCameraDataDeltaFlag deltaFlag, ::PipelineCamera::WorldBasicCameraDeltaData_DeltaBlendingCoreSpace___c__DisplayClass6_0& param_4)
 		{
-			return ((::PipelineCamera::WorldBasicCameraData(*)(::PipelineCamera::WorldBasicCameraDeltaData_DeltaBlendingCoreSpace&, ::System::Single, ::PipelineCamera::WorldBasicCameraData&, ::PipelineCamera::WorldBasicCameraDataDeltaFlag, ::PipelineCamera::WorldBasicCameraDeltaData_DeltaBlendingCoreSpace___c__DisplayClass6_0&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTABLENDINGCORESPACE__INVOKE_G__UPDATEASSOURCE_6_2_OFFSET))(self, newFadedAlpha, input, deltaFlag, a5);
+			return ((::PipelineCamera::WorldBasicCameraData(*)(::PipelineCamera::WorldBasicCameraDeltaData_DeltaBlendingCoreSpace&, ::System::Single, ::PipelineCamera::WorldBasicCameraData&, ::PipelineCamera::WorldBasicCameraDataDeltaFlag, ::PipelineCamera::WorldBasicCameraDeltaData_DeltaBlendingCoreSpace___c__DisplayClass6_0&))((::PBYTE)hIl2Cpp + PIPELINECAMERA_WORLDBASICCAMERADELTADATA_DELTABLENDINGCORESPACE__INVOKE_G__UPDATEASSOURCE_6_2_OFFSET))(self, newFadedAlpha, input, deltaFlag, param_4);
 		}
 		*/
 	};

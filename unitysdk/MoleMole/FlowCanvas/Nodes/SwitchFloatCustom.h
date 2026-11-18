@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_D7B028BA5CC069E1.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/LOGDECKDOMP.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM_BETWEENPROCESS_OFFSET UNITYSDK_OFFSET(0x107DCF10)
-#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM_EQUALPROCESS_OFFSET UNITYSDK_OFFSET(0x107DCAD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM_GREATEREQUALBREAKPROCESS_OFFSET UNITYSDK_OFFSET(0x107DD280)
-#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM_GREATEREQUALPROCESS_OFFSET UNITYSDK_OFFSET(0x107DCCF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x107DC840)
-#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM__CTOR_OFFSET UNITYSDK_OFFSET(0x107DD480)
-#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x107DD520)
+#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM_BETWEENPROCESS_OFFSET UNITYSDK_OFFSET(0x14311280)
+#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM_EQUALPROCESS_OFFSET UNITYSDK_OFFSET(0x14310E40)
+#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM_GREATEREQUALBREAKPROCESS_OFFSET UNITYSDK_OFFSET(0x143115F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM_GREATEREQUALPROCESS_OFFSET UNITYSDK_OFFSET(0x14311060)
+#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x14310BC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM__CTOR_OFFSET UNITYSDK_OFFSET(0x143117F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_SWITCHFLOATCUSTOM__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x14311890)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchFloatCustom_TypeDefinitionIndex = 65111;
+	inline static constexpr unsigned int SwitchFloatCustom_TypeDefinitionIndex = 86773;
 
 	class SwitchFloatCustom : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* defaultCase; // 0xA8
-		::FlowCanvas::ValueInput_1<::Enum_3_D7B028BA5CC069E1>* compareType; // 0xB0
+		::Il2CppArray<::FlowCanvas::FlowOutput*>* cases; // 0xA8
+		::FlowCanvas::ValueInput_1<::LOGDECKDOMP>* compareType; // 0xB0
 		::FlowCanvas::ValueInput_1<::System::Single>* selector; // 0xB8
-		::Il2CppArray<::FlowCanvas::FlowOutput*>* cases; // 0xC0
-		::System::Collections::Generic::List_1<::System::Single>* floatCases; // 0xC8
+		::System::Collections::Generic::List_1<::System::Single>* floatCases; // 0xC0
+		::FlowCanvas::FlowOutput* defaultCase; // 0xC8
 
 		::System::Void _ctor()
 		{

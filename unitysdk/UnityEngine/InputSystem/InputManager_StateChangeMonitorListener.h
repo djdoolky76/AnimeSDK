@@ -7,7 +7,7 @@ namespace UnityEngine::InputSystem::LowLevel { class IInputStateChangeMonitor; }
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputManager_StateChangeMonitorListener_TypeDefinitionIndex = 32305;
+	inline static constexpr unsigned int InputManager_StateChangeMonitorListener_TypeDefinitionIndex = 31754;
 
 	struct alignas(8) InputManager_StateChangeMonitorListener
 	{

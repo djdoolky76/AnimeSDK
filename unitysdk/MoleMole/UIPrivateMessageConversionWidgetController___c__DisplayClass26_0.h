@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_794BA983EDDBCFDE_Class_1_6142B71DCEBDB866;
+class MLJGMELKNCC_LKHJFCFGKEK;
 namespace MoleMole { class UIPrivateMessageConversionWidgetController; }
 
-#define MOLEMOLE_UIPRIVATEMESSAGECONVERSIONWIDGETCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12FE64D0)
-#define MOLEMOLE_UIPRIVATEMESSAGECONVERSIONWIDGETCONTROLLER___C__DISPLAYCLASS26_0__UPDATENPCVIEW_G__SHOWNEXT_0_OFFSET UNITYSDK_OFFSET(0x12FE64E0)
+#define MOLEMOLE_UIPRIVATEMESSAGECONVERSIONWIDGETCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15D315C0)
+#define MOLEMOLE_UIPRIVATEMESSAGECONVERSIONWIDGETCONTROLLER___C__DISPLAYCLASS26_0__UPDATENPCVIEW_G__SHOWNEXT_0_OFFSET UNITYSDK_OFFSET(0x15D315D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPrivateMessageConversionWidgetController___c__DisplayClass26_0_TypeDefinitionIndex = 70675;
+	inline static constexpr unsigned int UIPrivateMessageConversionWidgetController___c__DisplayClass26_0_TypeDefinitionIndex = 57254;
 
 	class UIPrivateMessageConversionWidgetController___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIPrivateMessageConversionWidgetController* __4__this; // 0x10
-		::Class_1_794BA983EDDBCFDE_Class_1_6142B71DCEBDB866* singleMessage; // 0x18
+		::MLJGMELKNCC_LKHJFCFGKEK* singleMessage; // 0x10
+		::MoleMole::UIPrivateMessageConversionWidgetController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

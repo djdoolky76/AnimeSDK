@@ -6,28 +6,30 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOATTACHMENTCENTERDITHER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x149F6930)
-#define MOLEMOLE_MONOATTACHMENTCENTERDITHER_METHOD_5_0869E1192F8E01DF_OFFSET UNITYSDK_OFFSET(0x149F69B0)
-#define MOLEMOLE_MONOATTACHMENTCENTERDITHER_METHOD_5_39FD7185C859CEAD_OFFSET UNITYSDK_OFFSET(0x149F6A70)
-#define MOLEMOLE_MONOATTACHMENTCENTERDITHER_METHOD_5_735EE20B25F86BF4_OFFSET UNITYSDK_OFFSET(0x149F7120)
-#define MOLEMOLE_MONOATTACHMENTCENTERDITHER_METHOD_5_8F7825DAFFB9B517_OFFSET UNITYSDK_OFFSET(0x149F6F30)
-#define MOLEMOLE_MONOATTACHMENTCENTERDITHER__CTOR_OFFSET UNITYSDK_OFFSET(0x149F6A20)
+#define MOLEMOLE_MONOATTACHMENTCENTERDITHER_GJDJLHHDJKE_OFFSET UNITYSDK_OFFSET(0x130E67C0)
+#define MOLEMOLE_MONOATTACHMENTCENTERDITHER_ICNPIJMLDAM_OFFSET UNITYSDK_OFFSET(0x130E6C80)
+#define MOLEMOLE_MONOATTACHMENTCENTERDITHER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x130E6680)
+#define MOLEMOLE_MONOATTACHMENTCENTERDITHER_LGBDDJOMNHO_OFFSET UNITYSDK_OFFSET(0x130E6700)
+#define MOLEMOLE_MONOATTACHMENTCENTERDITHER_OFKFGNJBCHK_OFFSET UNITYSDK_OFFSET(0x130E7060)
+#define MOLEMOLE_MONOATTACHMENTCENTERDITHER__CTOR_OFFSET UNITYSDK_OFFSET(0x130E6770)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoAttachmentCenterDither_TypeDefinitionIndex = 83441;
+	inline static constexpr unsigned int MonoAttachmentCenterDither_TypeDefinitionIndex = 57498;
 
 	class MonoAttachmentCenterDither : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Boolean Field_5_0; // 0x18
+		::System::Boolean NOPPOLBOOKD; // 0x18
 		::System::Boolean IsOpen; // 0x19
+		::System::Byte _padding0[0x6];
 		::UnityEngine::Transform* CenterTrans; // 0x20
 		::System::Single Range; // 0x28
 		::System::Single Fade; // 0x2C
 		::System::Single CenterMinAlpha; // 0x30
-		::System::Boolean Field_5_10; // 0x34
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_5_9; // 0x38
+		::System::Boolean CEDAJOHPGJP; // 0x34
+		::System::Byte _padding1[0x3];
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* HBPDGLGOGPP; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -39,24 +41,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOATTACHMENTCENTERDITHER_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_39FD7185C859CEAD()
+		::System::Void GJDJLHHDJKE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOATTACHMENTCENTERDITHER_METHOD_5_39FD7185C859CEAD_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOATTACHMENTCENTERDITHER_GJDJLHHDJKE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_8F7825DAFFB9B517()
+		::System::Void LGBDDJOMNHO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOATTACHMENTCENTERDITHER_METHOD_5_8F7825DAFFB9B517_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOATTACHMENTCENTERDITHER_LGBDDJOMNHO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_735EE20B25F86BF4()
+		::System::Void OFKFGNJBCHK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOATTACHMENTCENTERDITHER_METHOD_5_735EE20B25F86BF4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOATTACHMENTCENTERDITHER_OFKFGNJBCHK_OFFSET))(this);
 		}
 
-		::System::Void Method_5_0869E1192F8E01DF()
+		::System::Void ICNPIJMLDAM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOATTACHMENTCENTERDITHER_METHOD_5_0869E1192F8E01DF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOATTACHMENTCENTERDITHER_ICNPIJMLDAM_OFFSET))(this);
 		}
 	};
 }

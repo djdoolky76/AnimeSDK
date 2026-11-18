@@ -3,17 +3,18 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/QueryUserIdCommand__idBuffer_e__FixedBuffer.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYUSERIDCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1D7B5B40)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYUSERIDCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x9A7170)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYUSERIDCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1D7B5AF0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYUSERIDCOMMAND_READID_OFFSET UNITYSDK_OFFSET(0x9A7140)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYUSERIDCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1DC6C3F0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYUSERIDCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x8D3A20)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYUSERIDCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1DC6C3A0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYUSERIDCOMMAND_READID_OFFSET UNITYSDK_OFFSET(0x8D39F0)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int QueryUserIdCommand_TypeDefinitionIndex = 32485;
+	inline static constexpr unsigned int QueryUserIdCommand_TypeDefinitionIndex = 31934;
 
 	struct alignas(4) QueryUserIdCommand
 	{
@@ -22,28 +23,26 @@ namespace UnityEngine::InputSystem::LowLevel
 		::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand; // 0x10
 		::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer idBuffer; // 0x18
 
-		/*
 		static ::UnityEngine::InputSystem::Utilities::FourCC get_Type()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYUSERIDCOMMAND_GET_TYPE_OFFSET))();
 		}
-		*/
 
 		::System::String* ReadId()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYUSERIDCOMMAND_READID_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYUSERIDCOMMAND_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand Create()
 		{
 			return ((::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYUSERIDCOMMAND_CREATE_OFFSET))();
 		}
+		*/
 	};
 }

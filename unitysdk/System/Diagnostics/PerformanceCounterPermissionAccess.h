@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int PerformanceCounterPermissionAccess_TypeDefinitionIndex = 4184;
+	inline static constexpr unsigned int PerformanceCounterPermissionAccess_TypeDefinitionIndex = 4183;
 
 	enum class PerformanceCounterPermissionAccess : ::System::Int32
 	{

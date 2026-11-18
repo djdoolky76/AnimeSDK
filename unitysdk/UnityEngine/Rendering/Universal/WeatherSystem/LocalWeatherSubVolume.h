@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem { class LocalWeatherVolume; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERSUBVOLUME_CHECKCAMERAINSUBVOLUME_OFFSET UNITYSDK_OFFSET(0x1C457AE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERSUBVOLUME_GETNOSHEARLOCALTOWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x1C4578F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERSUBVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1C457C80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERSUBVOLUME_CHECKCAMERAINSUBVOLUME_OFFSET UNITYSDK_OFFSET(0x1C87F770)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERSUBVOLUME_GETNOSHEARLOCALTOWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x1C87F580)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERSUBVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1C87F910)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int LocalWeatherSubVolume_TypeDefinitionIndex = 27879;
+	inline static constexpr unsigned int LocalWeatherSubVolume_TypeDefinitionIndex = 26196;
 
 	class LocalWeatherSubVolume : public ::UnityEngine::MonoBehaviour
 	{

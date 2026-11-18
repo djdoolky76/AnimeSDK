@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/AI/AIActionProcessor_JobData.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAIBlackboardFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMoveTargetFragment.h"
@@ -9,19 +10,18 @@
 #include "unitysdk/NPCCrowd/Ability/FNPCMontageDataFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCNavmeshFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FTransformFragment.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_AI_AIACTIONPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x11270FE0)
-#define NPCCROWD_AI_AIACTIONPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x11270610)
-#define NPCCROWD_AI_AIACTIONPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x11271290)
+#define NPCCROWD_AI_AIACTIONPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x11F90A20)
+#define NPCCROWD_AI_AIACTIONPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x11F90050)
+#define NPCCROWD_AI_AIACTIONPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x11F90CD0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionProcessor_TypeDefinitionIndex = 65999;
+	inline static constexpr unsigned int AIActionProcessor_TypeDefinitionIndex = 38372;
 
 	class AIActionProcessor : public ::System::Object
 	{

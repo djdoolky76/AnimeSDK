@@ -1,51 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_6A96CF8852C977C2.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_0_16E4307DCC419505_364;
-namespace MoleMole { class UITwoDMapElement_UIController; }
-namespace MoleMole { class UIWindowController; }
-namespace System { class String; }
+class CEOBNFILPCM;
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
-namespace UnityEngine { class Transform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI::Extension { class UIImgEventTrigger_ScrollCallback; }
 
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_GETICONSIZE_OFFSET UNITYSDK_OFFSET(0x15140C10)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_FORCEACTIVE_OFFSET UNITYSDK_OFFSET(0x15140BA0)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_GETFORCEACTIVE_OFFSET UNITYSDK_OFFSET(0x15140B90)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x15140CA0)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_ONDRAG_OFFSET UNITYSDK_OFFSET(0x15140CC0)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x15140CE0)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_ONSCROLL_OFFSET UNITYSDK_OFFSET(0x15140C80)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_ONUPDATEELEMENTSIZE_OFFSET UNITYSDK_OFFSET(0x15140C60)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_SET_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x15140CB0)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_SET_ONDRAG_OFFSET UNITYSDK_OFFSET(0x15140CD0)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_SET_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x15140CF0)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_SET_ONSCROLL_OFFSET UNITYSDK_OFFSET(0x15140C90)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA_SET_ONUPDATEELEMENTSIZE_OFFSET UNITYSDK_OFFSET(0x15140C70)
-#define MOLEMOLE_UITWODMAPELEMENT_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15140BB0)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_GETICONSIZE_OFFSET UNITYSDK_OFFSET(0x13E76430)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_FORCEACTIVE_OFFSET UNITYSDK_OFFSET(0x13E763C0)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_GETFORCEACTIVE_OFFSET UNITYSDK_OFFSET(0x13E763B0)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x13E764C0)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_ONDRAG_OFFSET UNITYSDK_OFFSET(0x13E764E0)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x13E76500)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_ONSCROLL_OFFSET UNITYSDK_OFFSET(0x13E764A0)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_GET_ONUPDATEELEMENTSIZE_OFFSET UNITYSDK_OFFSET(0x13E76480)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_SET_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x13E764D0)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_SET_ONDRAG_OFFSET UNITYSDK_OFFSET(0x13E764F0)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_SET_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x13E76510)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_SET_ONSCROLL_OFFSET UNITYSDK_OFFSET(0x13E764B0)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA_SET_ONUPDATEELEMENTSIZE_OFFSET UNITYSDK_OFFSET(0x13E76490)
+#define MOLEMOLE_UITWODMAPELEMENT_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13E763D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITwoDMapElement_Data_TypeDefinitionIndex = 90372;
+	inline static constexpr unsigned int UITwoDMapElement_Data_TypeDefinitionIndex = 92690;
 
 	class UITwoDMapElement_Data : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* _OnEndDrag_k__BackingField; // 0x28
-		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* _OnDrag_k__BackingField; // 0x30
-		::Class_0_16E4307DCC419505_364* _posProvider; // 0x38
-		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* _OnBeginDrag_k__BackingField; // 0x40
-		::UnityEngine::UI::Extension::UIImgEventTrigger_ScrollCallback* _OnScroll_k__BackingField; // 0x48
-		::System::Action_2<::MoleMole::UITwoDMapElement_Data*, ::UnityEngine::Vector2>* _OnUpdateElementSize_k__BackingField; // 0x50
+		::System::Action_2<::MoleMole::UITwoDMapElement_Data*, ::UnityEngine::Vector2>* _OnUpdateElementSize_k__BackingField; // 0x28
+		::CEOBNFILPCM* _posProvider; // 0x30
+		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* _OnBeginDrag_k__BackingField; // 0x38
+		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* _OnDrag_k__BackingField; // 0x40
+		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* _OnEndDrag_k__BackingField; // 0x48
+		::UnityEngine::UI::Extension::UIImgEventTrigger_ScrollCallback* _OnScroll_k__BackingField; // 0x50
 
-		::System::Void _ctor(::Class_0_16E4307DCC419505_364* posProvider)
+		::System::Void _ctor(::CEOBNFILPCM* posProvider)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_364*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITWODMAPELEMENT_DATA__CTOR_OFFSET))(this, posProvider);
+			return ((::System::Void(*)(::PVOID, ::CEOBNFILPCM*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITWODMAPELEMENT_DATA__CTOR_OFFSET))(this, posProvider);
 		}
 
 		::System::Boolean get_GetForceActive()

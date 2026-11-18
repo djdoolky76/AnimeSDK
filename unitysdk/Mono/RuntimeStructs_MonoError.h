@@ -6,10 +6,11 @@ namespace Mono
 {
 	inline static constexpr unsigned int RuntimeStructs_MonoError_TypeDefinitionIndex = 21;
 
-	struct alignas(8) RuntimeStructs_MonoError
+	struct alignas(4) RuntimeStructs_MonoError
 	{
 		::System::UInt16 error_code; // 0x10
 		::System::UInt16 hidden_0; // 0x12
+		::System::Byte _padding0[0x4];
 		::System::IntPtr hidden_1; // 0x18
 		::System::IntPtr hidden_2; // 0x20
 		::System::IntPtr hidden_3; // 0x28

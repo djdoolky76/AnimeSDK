@@ -1,19 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Unity/Linq/GameObjectExtensions_ChildrenEnumerable_Enumerator.h"
 
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITY_LINQ_GAMEOBJECTEXTENSIONS_CHILDRENENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xADDE30)
-#define UNITY_LINQ_GAMEOBJECTEXTENSIONS_CHILDRENENUMERABLE_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_UNITYENGINE_GAMEOBJECT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xADDE50)
-#define UNITY_LINQ_GAMEOBJECTEXTENSIONS_CHILDRENENUMERABLE_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xADDEA0)
-#define UNITY_LINQ_GAMEOBJECTEXTENSIONS_CHILDRENENUMERABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x33DF30)
+#define UNITY_LINQ_GAMEOBJECTEXTENSIONS_CHILDRENENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x9C40D0)
+#define UNITY_LINQ_GAMEOBJECTEXTENSIONS_CHILDRENENUMERABLE_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_UNITYENGINE_GAMEOBJECT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x9C40F0)
+#define UNITY_LINQ_GAMEOBJECTEXTENSIONS_CHILDRENENUMERABLE_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x9C4140)
+#define UNITY_LINQ_GAMEOBJECTEXTENSIONS_CHILDRENENUMERABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x36F120)
 
 namespace Unity::Linq
 {
-	inline static constexpr unsigned int GameObjectExtensions_ChildrenEnumerable_TypeDefinitionIndex = 35307;
+	inline static constexpr unsigned int GameObjectExtensions_ChildrenEnumerable_TypeDefinitionIndex = 34880;
 
 	struct alignas(8) GameObjectExtensions_ChildrenEnumerable
 	{
@@ -25,12 +26,10 @@ namespace Unity::Linq
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITY_LINQ_GAMEOBJECTEXTENSIONS_CHILDRENENUMERABLE__CTOR_OFFSET))(this, origin, withSelf);
 		}
 
-		/*
 		::Unity::Linq::GameObjectExtensions_ChildrenEnumerable_Enumerator GetEnumerator()
 		{
 			return ((::Unity::Linq::GameObjectExtensions_ChildrenEnumerable_Enumerator(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_LINQ_GAMEOBJECTEXTENSIONS_CHILDRENENUMERABLE_GETENUMERATOR_OFFSET))(this);
 		}
-		*/
 
 		::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>* System_Collections_Generic_IEnumerable_UnityEngine_GameObject__GetEnumerator()
 		{

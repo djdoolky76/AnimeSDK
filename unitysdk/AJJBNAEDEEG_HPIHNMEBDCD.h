@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ABGMNCCINDG.h"
+#include "unitysdk/HOCDHMEPPEG.h"
+#include "unitysdk/System/Object.h"
+
+class AJJBNAEDEEG;
+
+#define AJJBNAEDEEG_HPIHNMEBDCD_AAHMACBDCPN_OFFSET UNITYSDK_OFFSET(0x12D000D0)
+#define AJJBNAEDEEG_HPIHNMEBDCD_HOFIFAEOLBM_OFFSET UNITYSDK_OFFSET(0x12D00170)
+#define AJJBNAEDEEG_HPIHNMEBDCD_LIDNPLMPHAL_OFFSET UNITYSDK_OFFSET(0x12D00210)
+#define AJJBNAEDEEG_HPIHNMEBDCD__CTOR_OFFSET UNITYSDK_OFFSET(0x12D000C0)
+
+inline static constexpr unsigned int AJJBNAEDEEG_HPIHNMEBDCD_TypeDefinitionIndex = 75204;
+
+class AJJBNAEDEEG_HPIHNMEBDCD : public ::System::Object
+{
+public:
+	::AJJBNAEDEEG* KLHPEBKNIFB; // 0x10
+	::HOCDHMEPPEG BEAHCJFKECL; // 0x18
+	::HOCDHMEPPEG JIEPBPKJKPH; // 0x48
+	::ABGMNCCINDG PCHJFGPHEBG; // 0x78
+	::HOCDHMEPPEG OLINEAIGMII; // 0xA0
+	::System::Int32 CMKDKFAGDDD; // 0xD0
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJJBNAEDEEG_HPIHNMEBDCD__CTOR_OFFSET))(this);
+	}
+
+	::System::Void AAHMACBDCPN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJJBNAEDEEG_HPIHNMEBDCD_AAHMACBDCPN_OFFSET))(this);
+	}
+
+	::System::Void HOFIFAEOLBM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJJBNAEDEEG_HPIHNMEBDCD_HOFIFAEOLBM_OFFSET))(this);
+	}
+
+	::System::Void LIDNPLMPHAL(::System::Int32 NJBALIKDOCA)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AJJBNAEDEEG_HPIHNMEBDCD_LIDNPLMPHAL_OFFSET))(this, NJBALIKDOCA);
+	}
+};

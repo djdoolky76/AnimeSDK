@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRouletteWidgetControllerBase_DebugInfo_TypeDefinitionIndex = 72947;
+	inline static constexpr unsigned int UIRouletteWidgetControllerBase_DebugInfo_TypeDefinitionIndex = 66090;
 
 	struct alignas(4) UIRouletteWidgetControllerBase_DebugInfo
 	{

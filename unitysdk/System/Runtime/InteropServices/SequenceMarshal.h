@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_SEQUENCEMARSHAL_TRYGETSTRING_OFFSET UNITYSDK_OFFSET(0x1F089030)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_SEQUENCEMARSHAL_TRYGETSTRING_OFFSET UNITYSDK_OFFSET(0x1F420E00)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int SequenceMarshal_TypeDefinitionIndex = 6573;
+	inline static constexpr unsigned int SequenceMarshal_TypeDefinitionIndex = 6579;
 
 	class SequenceMarshal : public ::System::Object
 	{

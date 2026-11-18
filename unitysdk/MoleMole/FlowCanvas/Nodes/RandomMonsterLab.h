@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/Nodes/GetSetDataStructBaset_2.h"
 
 namespace MoleMole::FlowCanvas::Nodes { class RandomGroupInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_RANDOMMONSTERLAB_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1A060B90)
-#define MOLEMOLE_FLOWCANVAS_NODES_RANDOMMONSTERLAB_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1A060C80)
-#define MOLEMOLE_FLOWCANVAS_NODES_RANDOMMONSTERLAB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A060D60)
+#define MOLEMOLE_FLOWCANVAS_NODES_RANDOMMONSTERLAB_GETVALUE_OFFSET UNITYSDK_OFFSET(0x13EE0640)
+#define MOLEMOLE_FLOWCANVAS_NODES_RANDOMMONSTERLAB_SETVALUE_OFFSET UNITYSDK_OFFSET(0x13EE0730)
+#define MOLEMOLE_FLOWCANVAS_NODES_RANDOMMONSTERLAB__CTOR_OFFSET UNITYSDK_OFFSET(0x13EE0810)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int RandomMonsterLab_TypeDefinitionIndex = 70834;
+	inline static constexpr unsigned int RandomMonsterLab_TypeDefinitionIndex = 53391;
 
-	class RandomMonsterLab : public ::MoleMole::FlowCanvas::Nodes::GetSetDataStructBaset_2<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::RandomGroupInfo*>*, ::System::String*>
+	class RandomMonsterLab
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::RandomGroupInfo*>*>* root; // 0x10

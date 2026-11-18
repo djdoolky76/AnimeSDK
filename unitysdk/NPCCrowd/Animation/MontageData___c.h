@@ -7,39 +7,39 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_MONTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF6129E0)
-#define NPCCROWD_ANIMATION_MONTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF612A20)
-#define NPCCROWD_ANIMATION_MONTAGEDATA___C__GETLENGTH_B__3_1_OFFSET UNITYSDK_OFFSET(0xF612A30)
-#define NPCCROWD_ANIMATION_MONTAGEDATA___C__GETLENGTH_B__3_2_OFFSET UNITYSDK_OFFSET(0xF612B90)
-#define NPCCROWD_ANIMATION_MONTAGEDATA___C__GETLENGTH_B__3_3_OFFSET UNITYSDK_OFFSET(0xF612B30)
-#define NPCCROWD_ANIMATION_MONTAGEDATA___C__GETLENGTH_B__3_4_OFFSET UNITYSDK_OFFSET(0xF612C90)
+#define NPCCROWD_ANIMATION_MONTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F45AA0)
+#define NPCCROWD_ANIMATION_MONTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15F45AE0)
+#define NPCCROWD_ANIMATION_MONTAGEDATA___C__GETLENGTH_B__3_1_OFFSET UNITYSDK_OFFSET(0x15F45AF0)
+#define NPCCROWD_ANIMATION_MONTAGEDATA___C__GETLENGTH_B__3_2_OFFSET UNITYSDK_OFFSET(0x15F45C50)
+#define NPCCROWD_ANIMATION_MONTAGEDATA___C__GETLENGTH_B__3_3_OFFSET UNITYSDK_OFFSET(0x15F45BF0)
+#define NPCCROWD_ANIMATION_MONTAGEDATA___C__GETLENGTH_B__3_4_OFFSET UNITYSDK_OFFSET(0x15F45D50)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageData___c_TypeDefinitionIndex = 48737;
+	inline static constexpr unsigned int MontageData___c_TypeDefinitionIndex = 52952;
 
 	class MontageData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageRawData>*, ::System::Single>** StaticGet___9__3_1()
+		static ::System::Func_2<::NPCCrowd::Animation::MontageRawData, ::System::Single>** StaticGet___9__3_3()
 		{
-			return (::System::Func_2<::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageRawData>*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MontageData___c_TypeDefinitionIndex)->GetStaticField(0x33A30);
-		}
-		static ::NPCCrowd::Animation::MontageData___c** StaticGet___9()
-		{
-			return (::NPCCrowd::Animation::MontageData___c**)Il2CppClass::FromTypeDefinitionIndex(MontageData___c_TypeDefinitionIndex)->GetStaticField(0x33A38);
-		}
-		static ::System::Func_2<::NPCCrowd::Animation::MontageSeqFrameRawData, ::System::Single>** StaticGet___9__3_4()
-		{
-			return (::System::Func_2<::NPCCrowd::Animation::MontageSeqFrameRawData, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MontageData___c_TypeDefinitionIndex)->GetStaticField(0x33A40);
+			return (::System::Func_2<::NPCCrowd::Animation::MontageRawData, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MontageData___c_TypeDefinitionIndex)->GetStaticField(0x35D90);
 		}
 		static ::System::Func_2<::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageSeqFrameRawData>*, ::System::Single>** StaticGet___9__3_2()
 		{
-			return (::System::Func_2<::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageSeqFrameRawData>*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MontageData___c_TypeDefinitionIndex)->GetStaticField(0x33A48);
+			return (::System::Func_2<::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageSeqFrameRawData>*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MontageData___c_TypeDefinitionIndex)->GetStaticField(0x35D98);
 		}
-		static ::System::Func_2<::NPCCrowd::Animation::MontageRawData, ::System::Single>** StaticGet___9__3_3()
+		static ::System::Func_2<::NPCCrowd::Animation::MontageSeqFrameRawData, ::System::Single>** StaticGet___9__3_4()
 		{
-			return (::System::Func_2<::NPCCrowd::Animation::MontageRawData, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MontageData___c_TypeDefinitionIndex)->GetStaticField(0x33A50);
+			return (::System::Func_2<::NPCCrowd::Animation::MontageSeqFrameRawData, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MontageData___c_TypeDefinitionIndex)->GetStaticField(0x35DA0);
+		}
+		static ::System::Func_2<::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageRawData>*, ::System::Single>** StaticGet___9__3_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::List_1<::NPCCrowd::Animation::MontageRawData>*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(MontageData___c_TypeDefinitionIndex)->GetStaticField(0x35DA8);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(MontageData___c_TypeDefinitionIndex)->GetStaticField(0x35DB0);
 		}
 
 		static ::System::Void _cctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_DELAYENTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D990160)
+#define SIRENIX_ODININSPECTOR_DELAYENTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB37890)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int DelayEnterAttribute_TypeDefinitionIndex = 8202;
+	inline static constexpr unsigned int DelayEnterAttribute_TypeDefinitionIndex = 7897;
 
 	class DelayEnterAttribute : public ::System::Attribute
 	{

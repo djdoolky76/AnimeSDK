@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_CC95A650FCE7BB57.h"
+#include "unitysdk/IJAKAMBLNJH.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_7E6A3ED5019D7E79;
+class AGAEFOGEGAB;
 
-#define MOLEMOLE_UIBALLGAMEROLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x197EB0A0)
+#define MOLEMOLE_UIBALLGAMEROLECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1983EE40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameRoleContext_TypeDefinitionIndex = 55181;
+	inline static constexpr unsigned int UIBallGameRoleContext_TypeDefinitionIndex = 56724;
 
 	class UIBallGameRoleContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_7E6A3ED5019D7E79* levelData; // 0x28
-		::System::Boolean isFromArchive; // 0x30
-		::Enum_3_CC95A650FCE7BB57 levelType; // 0x34
+		::AGAEFOGEGAB* levelData; // 0x28
+		::IJAKAMBLNJH levelType; // 0x30
+		::System::Boolean isFromArchive; // 0x34
 
 		::System::Void _ctor()
 		{

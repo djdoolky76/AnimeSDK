@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Unity/Collections/NativeSlice_1.h"
 #include "unitysdk/UnityEngine/Behaviour.h"
-#include "unitysdk/UnityEngine/NapAnimator_GenericCurveID.h"
+#include "unitysdk/Unity/Collections/NativeSlice_1.h"
 
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Avatar; }
 
-#define UNITYENGINE_NAPANIMATOR_ADDANIMATIONCLIP_OFFSET UNITYSDK_OFFSET(0x1FC5E3C0)
-#define UNITYENGINE_NAPANIMATOR_BATCHSAMPLECURVETHREADSAFE_OFFSET UNITYSDK_OFFSET(0x1FC5E440)
-#define UNITYENGINE_NAPANIMATOR_BATCHSAMPLENAPANIMATIONTHREADSAFE_OFFSET UNITYSDK_OFFSET(0x1FC5E430)
-#define UNITYENGINE_NAPANIMATOR_GETBONEPARENTINDICES_1_OFFSET UNITYSDK_OFFSET(0x1FC5E400)
-#define UNITYENGINE_NAPANIMATOR_GETBONEPARENTINDICES_OFFSET UNITYSDK_OFFSET(0x1FC5E3E0)
-#define UNITYENGINE_NAPANIMATOR_GETBONESNUM_OFFSET UNITYSDK_OFFSET(0x1FC5E3D0)
-#define UNITYENGINE_NAPANIMATOR_GETGENERICCURVEIDS_OFFSET UNITYSDK_OFFSET(0x1FC5E420)
-#define UNITYENGINE_NAPANIMATOR_GETGENERICCURVENUM_OFFSET UNITYSDK_OFFSET(0x1FC5E410)
-#define UNITYENGINE_NAPANIMATOR_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0x1FC5E3A0)
-#define UNITYENGINE_NAPANIMATOR_SET_AVATAR_OFFSET UNITYSDK_OFFSET(0x1FC5E3B0)
-#define UNITYENGINE_NAPANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC5E450)
+#define UNITYENGINE_NAPANIMATOR_ADDANIMATIONCLIP_OFFSET UNITYSDK_OFFSET(0x20060C00)
+#define UNITYENGINE_NAPANIMATOR_BATCHSAMPLECURVETHREADSAFE_OFFSET UNITYSDK_OFFSET(0x20060C80)
+#define UNITYENGINE_NAPANIMATOR_BATCHSAMPLENAPANIMATIONTHREADSAFE_OFFSET UNITYSDK_OFFSET(0x20060C70)
+#define UNITYENGINE_NAPANIMATOR_GETBONEPARENTINDICES_1_OFFSET UNITYSDK_OFFSET(0x20060C40)
+#define UNITYENGINE_NAPANIMATOR_GETBONEPARENTINDICES_OFFSET UNITYSDK_OFFSET(0x20060C20)
+#define UNITYENGINE_NAPANIMATOR_GETBONESNUM_OFFSET UNITYSDK_OFFSET(0x20060C10)
+#define UNITYENGINE_NAPANIMATOR_GETGENERICCURVEIDS_OFFSET UNITYSDK_OFFSET(0x20060C60)
+#define UNITYENGINE_NAPANIMATOR_GETGENERICCURVENUM_OFFSET UNITYSDK_OFFSET(0x20060C50)
+#define UNITYENGINE_NAPANIMATOR_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0x20060BE0)
+#define UNITYENGINE_NAPANIMATOR_SET_AVATAR_OFFSET UNITYSDK_OFFSET(0x20060BF0)
+#define UNITYENGINE_NAPANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x20060C90)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NapAnimator_TypeDefinitionIndex = 6654;
+	inline static constexpr unsigned int NapAnimator_TypeDefinitionIndex = 6661;
 
 	class NapAnimator : public ::UnityEngine::Behaviour
 	{
@@ -56,9 +55,9 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID, ::Unity::Collections::NativeSlice_1<::System::Int32>))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPANIMATOR_GETBONEPARENTINDICES_OFFSET))(this, outParentIndices);
 		}
 
-		::System::Boolean GetBoneParentIndices_1(::System::Void* outParentIndicesPtr, ::System::Int32 outParentIndicesLen)
+		::System::Boolean GetBoneParentIndices_1(::PVOID outParentIndicesPtr, ::System::Int32 outParentIndicesLen)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Void*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPANIMATOR_GETBONEPARENTINDICES_1_OFFSET))(this, outParentIndicesPtr, outParentIndicesLen);
+			return ((::System::Boolean(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPANIMATOR_GETBONEPARENTINDICES_1_OFFSET))(this, outParentIndicesPtr, outParentIndicesLen);
 		}
 
 		::System::Int32 GetGenericCurveNum()
@@ -66,9 +65,9 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPANIMATOR_GETGENERICCURVENUM_OFFSET))(this);
 		}
 
-		::System::Void GetGenericCurveIDs(::UnityEngine::NapAnimator_GenericCurveID* outCurvesIDs, ::System::Int32 len)
+		::System::Void GetGenericCurveIDs(::PVOID outCurvesIDs, ::System::Int32 len)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::NapAnimator_GenericCurveID*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPANIMATOR_GETGENERICCURVEIDS_OFFSET))(this, outCurvesIDs, len);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPANIMATOR_GETGENERICCURVEIDS_OFFSET))(this, outCurvesIDs, len);
 		}
 
 		static ::System::Void BatchSampleNapAnimationThreadSafe(::System::Int32 NapAnimatorInstanceID, ::System::IntPtr jobRequests, ::System::Int32 size)

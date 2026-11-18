@@ -5,22 +5,23 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CHESSBOARDSWITCHEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1485C070)
+#define MOLEMOLE_CONFIG_CHESSBOARDSWITCHEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E86E00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ChessboardSwitchEffect_TypeDefinitionIndex = 61540;
+	inline static constexpr unsigned int ChessboardSwitchEffect_TypeDefinitionIndex = 69252;
 
 	class ChessboardSwitchEffect : public ::System::Object
 	{
 	public:
 		::System::String* EffectPath; // 0x10
 		::System::String* TextureSheetKey; // 0x18
-		::MoleMole::ScreenSwitchType HollowScreenSwitchType; // 0x20
+		::System::Boolean UseDefaultEffectPath; // 0x20
+		::System::Boolean IsSkip; // 0x21
+		::System::Boolean IsTextureSheet; // 0x22
+		::System::Byte _padding0[0x1];
 		::System::Int32 AudioID; // 0x24
-		::System::Boolean IsTextureSheet; // 0x28
-		::System::Boolean IsSkip; // 0x29
-		::System::Boolean UseDefaultEffectPath; // 0x2A
+		::MoleMole::ScreenSwitchType HollowScreenSwitchType; // 0x28
 
 		::System::Void _ctor()
 		{

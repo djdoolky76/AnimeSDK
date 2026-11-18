@@ -9,21 +9,21 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::ObjectModel { template <typename T1, typename T2> class ReadOnlyDictionary_2; }
 
-#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1E53B630)
-#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER_CREATE_2_OFFSET UNITYSDK_OFFSET(0x1E53B6A0)
-#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER_CREATE_OFFSET UNITYSDK_OFFSET(0x1E53B540)
-#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E53B710)
+#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1E7AF680)
+#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER_CREATE_2_OFFSET UNITYSDK_OFFSET(0x1E7AF6F0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER_CREATE_OFFSET UNITYSDK_OFFSET(0x1E7AF590)
+#define MESSAGEPACK_FORMATTERS_GRAPH_COMPOSITERESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7AF760)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Graph_CompositeResolver_TypeDefinitionIndex = 30517;
+	inline static constexpr unsigned int Graph_CompositeResolver_TypeDefinitionIndex = 29670;
 
 	class Graph_CompositeResolver : public ::System::Object
 	{
 	public:
 		static ::System::Collections::ObjectModel::ReadOnlyDictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>** StaticGet_EmptyFormattersByType()
 		{
-			return (::System::Collections::ObjectModel::ReadOnlyDictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(Graph_CompositeResolver_TypeDefinitionIndex)->GetStaticField(0x261C0);
+			return (::System::Collections::ObjectModel::ReadOnlyDictionary_2<::System::Type*, ::MessagePack::Formatters::IMessagePackFormatter*>**)Il2CppClass::FromTypeDefinitionIndex(Graph_CompositeResolver_TypeDefinitionIndex)->GetStaticField(0x26DF0);
 		}
 
 		static ::System::Void _cctor()

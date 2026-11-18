@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_4.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 
-class Class_2_208CC9941471731A_477;
+class FOLOGHLENFB;
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLACEITEMNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19243990)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLACEITEMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19243DB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLACEITEMNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1190F5E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLACEITEMNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1190FA00)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPlaceItemNode_TypeDefinitionIndex = 74362;
+	inline static constexpr unsigned int LDPlaceItemNode_TypeDefinitionIndex = 82595;
 
-	class LDPlaceItemNode : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::System::Int32, ::System::String*, ::System::Int32>
+	class LDPlaceItemNode
 	{
 	public:
-		::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::Class_2_208CC9941471731A_477*, ::System::Int32>>* itemList; // 0x40
+		::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::FOLOGHLENFB*, ::System::Int32>>* itemList; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CAMERAMOVETIME__CTOR_OFFSET UNITYSDK_OFFSET(0xF132330)
+#define MOLEMOLE_CONFIG_CAMERAMOVETIME__CTOR_OFFSET UNITYSDK_OFFSET(0xFFCAD10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CameraMoveTime_TypeDefinitionIndex = 51609;
+	inline static constexpr unsigned int CameraMoveTime_TypeDefinitionIndex = 63964;
 
 	class CameraMoveTime : public ::System::Object
 	{
 	public:
-		::System::String* formKey; // 0x10
-		::System::String* toKey; // 0x18
+		::System::String* toKey; // 0x10
+		::System::String* formKey; // 0x18
 		::System::Single time; // 0x20
 
 		::System::Void _ctor()

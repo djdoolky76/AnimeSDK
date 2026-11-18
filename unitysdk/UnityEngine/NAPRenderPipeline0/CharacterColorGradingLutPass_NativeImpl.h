@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/CharacterColorGradingParams.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class CharacterColorGradingLutPassNativeState; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORGRADINGLUTPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E8A97C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORGRADINGLUTPASS_NATIVEIMPL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E8A9700)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORGRADINGLUTPASS_NATIVEIMPL_SETUPAFTERVOLUMEUPDATE_OFFSET UNITYSDK_OFFSET(0x1E8A97F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORGRADINGLUTPASS_NATIVEIMPL_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E8A9710)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORGRADINGLUTPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A9720)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORGRADINGLUTPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB61F10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORGRADINGLUTPASS_NATIVEIMPL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1EB61E50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORGRADINGLUTPASS_NATIVEIMPL_SETUPAFTERVOLUMEUPDATE_OFFSET UNITYSDK_OFFSET(0x1EB61F40)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORGRADINGLUTPASS_NATIVEIMPL_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1EB61E60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORGRADINGLUTPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB61E70)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CharacterColorGradingLutPass_NativeImpl_TypeDefinitionIndex = 5726;
+	inline static constexpr unsigned int CharacterColorGradingLutPass_NativeImpl_TypeDefinitionIndex = 5731;
 
 	class CharacterColorGradingLutPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::CharacterColorGradingLutPass_NativeImpl** StaticGet__instance_k__BackingField()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::CharacterColorGradingLutPass_NativeImpl**)Il2CppClass::FromTypeDefinitionIndex(CharacterColorGradingLutPass_NativeImpl_TypeDefinitionIndex)->GetStaticField(0x53D0);
+			return (::UnityEngine::NAPRenderPipeline0::CharacterColorGradingLutPass_NativeImpl**)Il2CppClass::FromTypeDefinitionIndex(CharacterColorGradingLutPass_NativeImpl_TypeDefinitionIndex)->GetStaticField(0x52D0);
 		}
 		::UnityEngine::NAPRenderPipeline0::CharacterColorGradingLutPassNativeState* m_NativeState; // 0xA8
 		::UnityEngine::NAPRenderPipeline0::CharacterColorGradingParams m_CharacterColorGradingParams; // 0xB0

@@ -5,13 +5,13 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SceneObjDitherData_TypeDefinitionIndex = 76874;
+	inline static constexpr unsigned int SceneObjDitherData_TypeDefinitionIndex = 68323;
 
 	struct alignas(4) SceneObjDitherData
 	{
 		static ::MoleMole::Config::SceneObjDitherData* StaticGet_Default()
 		{
-			return (::MoleMole::Config::SceneObjDitherData*)Il2CppClass::FromTypeDefinitionIndex(SceneObjDitherData_TypeDefinitionIndex)->GetStaticField(0xA6C0);
+			return (::MoleMole::Config::SceneObjDitherData*)Il2CppClass::FromTypeDefinitionIndex(SceneObjDitherData_TypeDefinitionIndex)->GetStaticField(0x103B0);
 		}
 		::System::Single SceneObjDitherMin; // 0x10
 		::System::Single fadeInTime; // 0x14

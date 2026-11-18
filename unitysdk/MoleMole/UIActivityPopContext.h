@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_4865323EE33E9248;
+class FPBOLBNCDIP;
 
-#define MOLEMOLE_UIACTIVITYPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD9390)
+#define MOLEMOLE_UIACTIVITYPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18859D30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityPopContext_TypeDefinitionIndex = 72029;
+	inline static constexpr unsigned int UIActivityPopContext_TypeDefinitionIndex = 46672;
 
 	class UIActivityPopContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_4865323EE33E9248* popData; // 0x28
+		::FPBOLBNCDIP* popData; // 0x28
 
 		::System::Void _ctor()
 		{

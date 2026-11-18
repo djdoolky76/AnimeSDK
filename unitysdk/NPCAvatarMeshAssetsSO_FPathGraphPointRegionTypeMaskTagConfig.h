@@ -5,14 +5,15 @@
 
 namespace Foundation::Unreal { class SerializableGameplayTag; }
 
-#define NPCAVATARMESHASSETSSO_FPATHGRAPHPOINTREGIONTYPEMASKTAGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9513720)
+#define NPCAVATARMESHASSETSSO_FPATHGRAPHPOINTREGIONTYPEMASKTAGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13178B40)
 
-inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FPathGraphPointRegionTypeMaskTagConfig_TypeDefinitionIndex = 55885;
+inline static constexpr unsigned int NPCAvatarMeshAssetsSO_FPathGraphPointRegionTypeMaskTagConfig_TypeDefinitionIndex = 48078;
 
 class NPCAvatarMeshAssetsSO_FPathGraphPointRegionTypeMaskTagConfig : public ::System::Object
 {
 public:
 	::NPCCrowd::AI::PathGraphSplineConfig_PathGraphPointRegionTypeMask maskFlag; // 0x10
+	::System::Byte _padding0[0x4];
 	::Foundation::Unreal::SerializableGameplayTag* gameplayTag; // 0x18
 
 	::System::Void _ctor()

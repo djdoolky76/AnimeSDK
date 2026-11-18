@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/GMFAKIPCDED.h"
 #include "unitysdk/MoleMole/UIWindowController.h"
 
-class Class_2_44E81328D83FEA12;
+class PMEDIBJHJOB;
 
-#define MOLEMOLE_UIINTERKNOTOVERNIGHTPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x189AC7A0)
-#define MOLEMOLE_UIINTERKNOTOVERNIGHTPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x189AC7B0)
+#define MOLEMOLE_UIINTERKNOTOVERNIGHTPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x1902D590)
+#define MOLEMOLE_UIINTERKNOTOVERNIGHTPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1902D5A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotOverNightPopWindowController_TypeDefinitionIndex = 51531;
+	inline static constexpr unsigned int UIInterKnotOverNightPopWindowController_TypeDefinitionIndex = 69829;
 
 	class UIInterKnotOverNightPopWindowController : public ::MoleMole::UIWindowController
 	{
 	public:
-		::Class_2_44E81328D83FEA12* _view; // 0x318
+		::PMEDIBJHJOB* _view; // 0x320
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTOVERNIGHTPOPWINDOWCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_3EDF246633A325B0 get_windowType()
+		::GMFAKIPCDED get_windowType()
 		{
-			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTOVERNIGHTPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+			return ((::GMFAKIPCDED(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINTERKNOTOVERNIGHTPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
 		}
 	};
 }

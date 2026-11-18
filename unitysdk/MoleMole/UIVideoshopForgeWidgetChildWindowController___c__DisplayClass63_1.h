@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIVideoshopForgeWidgetChildWindowController___c__DisplayClass63_0; }
-
-#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS63_1__CTOR_OFFSET UNITYSDK_OFFSET(0x11A0D950)
-#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS63_1__SEND_B__1_OFFSET UNITYSDK_OFFSET(0x11A0D960)
+#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS63_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15645010)
+#define MOLEMOLE_UIVIDEOSHOPFORGEWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS63_1__SEND_B__1_OFFSET UNITYSDK_OFFSET(0x15645020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVideoshopForgeWidgetChildWindowController___c__DisplayClass63_1_TypeDefinitionIndex = 80834;
+	inline static constexpr unsigned int UIVideoshopForgeWidgetChildWindowController___c__DisplayClass63_1_TypeDefinitionIndex = 66886;
 
+	template <typename T>
 	class UIVideoshopForgeWidgetChildWindowController___c__DisplayClass63_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIVideoshopForgeWidgetChildWindowController___c__DisplayClass63_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::Boolean isCompose; // 0x18
 
 		::System::Void _ctor()

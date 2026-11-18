@@ -3,25 +3,26 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace RootMotion::FinalIK { class FullBodyBipedIK; }
-namespace RootMotion::FinalIK { class OffsetModifier_OffsetLimits; }
+namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
 
-#define ROOTMOTION_FINALIK_OFFSETMODIFIER_APPLYLIMITS_OFFSET UNITYSDK_OFFSET(0x1F6F1C10)
-#define ROOTMOTION_FINALIK_OFFSETMODIFIER_GET_DELTATIME_OFFSET UNITYSDK_OFFSET(0x1F6F1940)
-#define ROOTMOTION_FINALIK_OFFSETMODIFIER_INITIATE_OFFSET UNITYSDK_OFFSET(0x1F6F1A20)
-#define ROOTMOTION_FINALIK_OFFSETMODIFIER_MODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1F6F1A70)
-#define ROOTMOTION_FINALIK_OFFSETMODIFIER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F6F1D20)
-#define ROOTMOTION_FINALIK_OFFSETMODIFIER_START_OFFSET UNITYSDK_OFFSET(0x1F6F1960)
-#define ROOTMOTION_FINALIK_OFFSETMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6F1EE0)
+#define ROOTMOTION_FINALIK_OFFSETMODIFIER_APPLYLIMITS_OFFSET UNITYSDK_OFFSET(0x1FAEA3D0)
+#define ROOTMOTION_FINALIK_OFFSETMODIFIER_GET_DELTATIME_OFFSET UNITYSDK_OFFSET(0x1FAEA100)
+#define ROOTMOTION_FINALIK_OFFSETMODIFIER_INITIATE_OFFSET UNITYSDK_OFFSET(0x1FAEA1E0)
+#define ROOTMOTION_FINALIK_OFFSETMODIFIER_MODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1FAEA230)
+#define ROOTMOTION_FINALIK_OFFSETMODIFIER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FAEA4E0)
+#define ROOTMOTION_FINALIK_OFFSETMODIFIER_START_OFFSET UNITYSDK_OFFSET(0x1FAEA120)
+#define ROOTMOTION_FINALIK_OFFSETMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAEA6A0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int OffsetModifier_TypeDefinitionIndex = 38877;
+	inline static constexpr unsigned int OffsetModifier_TypeDefinitionIndex = 36948;
 
 	class OffsetModifier : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single weight; // 0x18
+		::System::Byte _padding0[0x4];
 		::RootMotion::FinalIK::FullBodyBipedIK* ik; // 0x20
 		::System::Single lastTime; // 0x28
 
@@ -50,9 +51,9 @@ namespace RootMotion::FinalIK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_OFFSETMODIFIER_MODIFYOFFSET_OFFSET))(this);
 		}
 
-		::System::Void ApplyLimits(::Il2CppArray<::RootMotion::FinalIK::OffsetModifier_OffsetLimits*>* limits)
+		::System::Void ApplyLimits(::Il2CppArray<::System::Object*>* limits)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RootMotion::FinalIK::OffsetModifier_OffsetLimits*>*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_OFFSETMODIFIER_APPLYLIMITS_OFFSET))(this, limits);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + ROOTMOTION_FINALIK_OFFSETMODIFIER_APPLYLIMITS_OFFSET))(this, limits);
 		}
 
 		::System::Void OnDestroy()

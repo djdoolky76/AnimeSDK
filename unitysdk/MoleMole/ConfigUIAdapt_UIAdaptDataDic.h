@@ -1,18 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/DataStructures/Lists/EasySerializeDictionary_3.h"
 
-namespace MoleMole { class ConfigUIAdapt_UIAdaptDataDicEntry; }
-namespace MoleMole { class UIAdaptData; }
-namespace System { class String; }
-
-#define MOLEMOLE_CONFIGUIADAPT_UIADAPTDATADIC__CTOR_OFFSET UNITYSDK_OFFSET(0x14881850)
+#define MOLEMOLE_CONFIGUIADAPT_UIADAPTDATADIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B455240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIAdapt_UIAdaptDataDic_TypeDefinitionIndex = 58383;
+	inline static constexpr unsigned int ConfigUIAdapt_UIAdaptDataDic_TypeDefinitionIndex = 70674;
 
-	class ConfigUIAdapt_UIAdaptDataDic : public ::MoleMole::DataStructures::Lists::EasySerializeDictionary_3<::System::String*, ::MoleMole::UIAdaptData*, ::MoleMole::ConfigUIAdapt_UIAdaptDataDicEntry*>
+	class ConfigUIAdapt_UIAdaptDataDic
 	{
 	public:
 		::System::Void _ctor()

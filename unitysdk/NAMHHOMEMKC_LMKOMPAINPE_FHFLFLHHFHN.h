@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class DJAIIONPIPF;
+class NAMHHOMEMKC_LMKOMPAINPE;
+
+#define NAMHHOMEMKC_LMKOMPAINPE_FHFLFLHHFHN_OLLNPJCGECN_OFFSET UNITYSDK_OFFSET(0x113AC9E0)
+#define NAMHHOMEMKC_LMKOMPAINPE_FHFLFLHHFHN__CTOR_OFFSET UNITYSDK_OFFSET(0x113AC9D0)
+
+inline static constexpr unsigned int NAMHHOMEMKC_LMKOMPAINPE_FHFLFLHHFHN_TypeDefinitionIndex = 52388;
+
+class NAMHHOMEMKC_LMKOMPAINPE_FHFLFLHHFHN : public ::System::Object
+{
+public:
+	::DJAIIONPIPF* DNOHELNGGLJ; // 0x10
+	::NAMHHOMEMKC_LMKOMPAINPE* KLHPEBKNIFB; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAMHHOMEMKC_LMKOMPAINPE_FHFLFLHHFHN__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OLLNPJCGECN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAMHHOMEMKC_LMKOMPAINPE_FHFLFLHHFHN_OLLNPJCGECN_OFFSET))(this);
+	}
+};

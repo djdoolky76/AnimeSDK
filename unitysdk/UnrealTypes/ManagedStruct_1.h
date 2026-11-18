@@ -6,7 +6,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ManagedStruct_1_TypeDefinitionIndex = 28281;
+	inline static constexpr unsigned int ManagedStruct_1_TypeDefinitionIndex = 27698;
 
 	template <typename T>
 	class ManagedStruct_1 : public ::System::Object

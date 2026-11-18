@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_7.h"
 #include "unitysdk/MoleMole/Config/BaseProperty.h"
 #include "unitysdk/MoleMole/Config/PropertyModifyFunction.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEATTRIBUTENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A80F50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEATTRIBUTENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A811D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEATTRIBUTENODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465B760)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEATTRIBUTENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1465B9E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDChangeAttributeNode_TypeDefinitionIndex = 91277;
+	inline static constexpr unsigned int LDChangeAttributeNode_TypeDefinitionIndex = 74341;
 
-	class LDChangeAttributeNode : public ::FlowCanvas::Nodes::CallableFunctionNode_7<::System::Boolean, ::MoleMole::Battle::Entity*, ::MoleMole::Config::BaseProperty, ::System::String*, ::MoleMole::Config::PropertyModifyFunction, ::System::Single, ::System::Single>
+	class LDChangeAttributeNode
 	{
 	public:
 		::System::Void _ctor()

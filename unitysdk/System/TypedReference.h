@@ -6,34 +6,38 @@
 namespace System { class Object; }
 namespace System::Reflection { class FieldInfo; }
 
-#define SYSTEM_TYPEDREFERENCE_EQUALS_OFFSET UNITYSDK_OFFSET(0x9DB050)
-#define SYSTEM_TYPEDREFERENCE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9DAFF0)
-#define SYSTEM_TYPEDREFERENCE_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x9DB0B0)
-#define SYSTEM_TYPEDREFERENCE_INTERNALTOOBJECT_OFFSET UNITYSDK_OFFSET(0x1DDF2680)
-#define SYSTEM_TYPEDREFERENCE_MAKETYPEDREFERENCEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1DDF2520)
-#define SYSTEM_TYPEDREFERENCE_MAKETYPEDREFERENCE_OFFSET UNITYSDK_OFFSET(0x1DDF2030)
-#define SYSTEM_TYPEDREFERENCE_SETTYPEDREFERENCE_OFFSET UNITYSDK_OFFSET(0x1DDF2720)
-#define SYSTEM_TYPEDREFERENCE_TOOBJECT_OFFSET UNITYSDK_OFFSET(0x1DDF2600)
+#define SYSTEM_TYPEDREFERENCE_EQUALS_OFFSET UNITYSDK_OFFSET(0x8EBB00)
+#define SYSTEM_TYPEDREFERENCE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8EBAA0)
+#define SYSTEM_TYPEDREFERENCE_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x8EBB60)
+#define SYSTEM_TYPEDREFERENCE_INTERNALTOOBJECT_OFFSET UNITYSDK_OFFSET(0x1E2733B0)
+#define SYSTEM_TYPEDREFERENCE_MAKETYPEDREFERENCEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E273250)
+#define SYSTEM_TYPEDREFERENCE_MAKETYPEDREFERENCE_OFFSET UNITYSDK_OFFSET(0x1E272D60)
+#define SYSTEM_TYPEDREFERENCE_SETTYPEDREFERENCE_OFFSET UNITYSDK_OFFSET(0x1E273450)
+#define SYSTEM_TYPEDREFERENCE_TOOBJECT_OFFSET UNITYSDK_OFFSET(0x1E273330)
 
 namespace System
 {
 	inline static constexpr unsigned int TypedReference_TypeDefinitionIndex = 341;
 
-	struct alignas(8) TypedReference
+	struct alignas(4) TypedReference
 	{
 		::System::RuntimeTypeHandle type; // 0x10
 		::System::IntPtr Value; // 0x18
 		::System::IntPtr Type; // 0x20
 
+		/*
 		static ::System::TypedReference MakeTypedReference(::System::Object* target, ::Il2CppArray<::System::Reflection::FieldInfo*>* flds)
 		{
 			return ((::System::TypedReference(*)(::System::Object*, ::Il2CppArray<::System::Reflection::FieldInfo*>*))((::PBYTE)hIl2Cpp + SYSTEM_TYPEDREFERENCE_MAKETYPEDREFERENCE_OFFSET))(target, flds);
 		}
+		*/
 
+		/*
 		static ::System::TypedReference MakeTypedReferenceInternal(::System::Object* target, ::Il2CppArray<::System::Reflection::FieldInfo*>* fields)
 		{
 			return ((::System::TypedReference(*)(::System::Object*, ::Il2CppArray<::System::Reflection::FieldInfo*>*))((::PBYTE)hIl2Cpp + SYSTEM_TYPEDREFERENCE_MAKETYPEDREFERENCEINTERNAL_OFFSET))(target, fields);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{
@@ -45,14 +49,16 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TYPEDREFERENCE_EQUALS_OFFSET))(this, o);
 		}
 
+		/*
 		static ::System::Object* ToObject(::System::TypedReference value)
 		{
 			return ((::System::Object*(*)(::System::TypedReference))((::PBYTE)hIl2Cpp + SYSTEM_TYPEDREFERENCE_TOOBJECT_OFFSET))(value);
 		}
+		*/
 
-		static ::System::Object* InternalToObject(::System::Void* value)
+		static ::System::Object* InternalToObject(::PVOID value)
 		{
-			return ((::System::Object*(*)(::System::Void*))((::PBYTE)hIl2Cpp + SYSTEM_TYPEDREFERENCE_INTERNALTOOBJECT_OFFSET))(value);
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TYPEDREFERENCE_INTERNALTOOBJECT_OFFSET))(value);
 		}
 
 		::System::Boolean get_IsNull()
@@ -60,9 +66,11 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TYPEDREFERENCE_GET_ISNULL_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Void SetTypedReference(::System::TypedReference target, ::System::Object* value)
 		{
 			return ((::System::Void(*)(::System::TypedReference, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TYPEDREFERENCE_SETTYPEDREFERENCE_OFFSET))(target, value);
 		}
+		*/
 	};
 }

@@ -1,52 +1,56 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_FE72B9AC849E8D70.h"
 #include "unitysdk/FluffyUnderware/Curvy/CurvyMetadataBase_Point.h"
+#include "unitysdk/GLJJDEDOIPK.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace FluffyUnderware::Curvy { class CurvySplineEventArgs; }
 namespace FluffyUnderware::Curvy { class NearestSplinePointHelper; }
 namespace MoleMole::DataStructures::Common { class Comment; }
+namespace MoleMole::DataStructures::Common { class OptionalColor; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_AWAKE_OFFSET UNITYSDK_OFFSET(0x190B5410)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_FORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x190B5800)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_GETUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x190B53D0)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_GET_TAG_OFFSET UNITYSDK_OFFSET(0x190B53C0)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0x190B5700)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_METHOD_7_4E8DF6F8A37B229A_OFFSET UNITYSDK_OFFSET(0x190B6160)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_METHOD_7_7A8DAE462BFF8B7E_OFFSET UNITYSDK_OFFSET(0x190B6000)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_METHOD_7_7AD45F2239746CAB_OFFSET UNITYSDK_OFFSET(0x190B6140)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_METHOD_7_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x190B5AC0)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x190B5C90)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x190B58F0)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x190B5620)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x190B5540)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x190B5460)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x190B5E60)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x190B5FB0)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA___BASE_GETUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x190B5FC0)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x190B5FD0)
-#define MOLEMOLE_SPLINE_NAPPOINTMETA___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x190B5FE0)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_AWAKE_OFFSET UNITYSDK_OFFSET(0x1811CDE0)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_BDAFMAGPDFO_OFFSET UNITYSDK_OFFSET(0x1811D990)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_FOBLMNKCOCH_OFFSET UNITYSDK_OFFSET(0x1811DB40)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_FORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x1811D1D0)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_GETUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x1811CDA0)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_GET_TAG_OFFSET UNITYSDK_OFFSET(0x1811CD90)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_GPGLNOBDBGJ_OFFSET UNITYSDK_OFFSET(0x1811DB30)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_HNMBFGLJIHI_OFFSET UNITYSDK_OFFSET(0x1811DAF0)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_IGFOAGPMEME_OFFSET UNITYSDK_OFFSET(0x1811D4A0)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_ILHIIDBCNEC_OFFSET UNITYSDK_OFFSET(0x1811DB50)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_JLFHAHNPMBI_OFFSET UNITYSDK_OFFSET(0x1811DB10)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_KDOIBCBFBAG_OFFSET UNITYSDK_OFFSET(0x1811DAD0)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0x1811D0D0)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1811D670)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1811D2D0)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1811CFF0)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1811CF10)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1811CE30)
+#define MOLEMOLE_SPLINE_NAPPOINTMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x1811D840)
 
 namespace MoleMole::Spline
 {
-	inline static constexpr unsigned int NAPPointMeta_TypeDefinitionIndex = 76103;
+	inline static constexpr unsigned int NAPPointMeta_TypeDefinitionIndex = 39801;
 
 	class NAPPointMeta : public ::FluffyUnderware::Curvy::CurvyMetadataBase_Point
 	{
 	public:
 		::System::String* _tag; // 0x50
 		::System::Boolean _hasSerialized; // 0x58
-		::Enum_3_FE72B9AC849E8D70 Direction; // 0x5C
+		::System::Byte _padding0[0x3];
+		::GLJJDEDOIPK Direction; // 0x5C
 		::System::String* UniqueName; // 0x60
 		::MoleMole::DataStructures::Common::Comment* Comment; // 0x68
-		::FluffyUnderware::Curvy::NearestSplinePointHelper* Field_7_6; // 0x70
-		::System::Boolean Field_7_5; // 0x78
-		::UnityEngine::Vector3 Field_7_4; // 0x7C
-		::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* Field_7_11; // 0x88
+		::MoleMole::DataStructures::Common::OptionalColor* DebugColor; // 0x70
+		::FluffyUnderware::Curvy::NearestSplinePointHelper* CBGILOMMPNA; // 0x78
+		::System::Boolean NKLAAACCLKN; // 0x80
+		::System::Byte _padding1[0x3];
+		::UnityEngine::Vector3 EMBHMNGEKMD; // 0x84
+		::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* EINBIADHHMP; // 0x90
 
 		::System::Void _ctor()
 		{
@@ -103,44 +107,44 @@ namespace MoleMole::Spline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void __base_Awake()
+		::System::Void IGFOAGPMEME()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA___BASE_AWAKE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_IGFOAGPMEME_OFFSET))(this);
 		}
 
-		::System::String* __base_GetUniqueName()
+		::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* BDAFMAGPDFO()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA___BASE_GETUNIQUENAME_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_BDAFMAGPDFO_OFFSET))(this);
 		}
 
-		::System::Void __base_OnDisable()
+		::System::Void KDOIBCBFBAG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA___BASE_ONDISABLE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_KDOIBCBFBAG_OFFSET))(this);
 		}
 
-		::System::Void __base_OnEnable()
+		::System::Void HNMBFGLJIHI(::FluffyUnderware::Curvy::CurvySplineEventArgs* PIIPCLCCOIG)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA___BASE_ONENABLE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::FluffyUnderware::Curvy::CurvySplineEventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_HNMBFGLJIHI_OFFSET))(this, PIIPCLCCOIG);
 		}
 
-		::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* Method_7_7A8DAE462BFF8B7E()
+		::System::Void JLFHAHNPMBI(::UnityEngine::Vector3 OHOGDOMNHNK)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_METHOD_7_7A8DAE462BFF8B7E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_JLFHAHNPMBI_OFFSET))(this, OHOGDOMNHNK);
 		}
 
-		::System::Void Method_7_7AD45F2239746CAB(::FluffyUnderware::Curvy::CurvySplineEventArgs* a1)
+		::System::Void GPGLNOBDBGJ()
 		{
-			return ((::System::Void(*)(::PVOID, ::FluffyUnderware::Curvy::CurvySplineEventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_METHOD_7_7AD45F2239746CAB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_GPGLNOBDBGJ_OFFSET))(this);
 		}
 
-		::System::Void Method_7_E3DE31A03057E055()
+		::System::String* FOBLMNKCOCH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_METHOD_7_E3DE31A03057E055_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_FOBLMNKCOCH_OFFSET))(this);
 		}
 
-		::System::Void Method_7_4E8DF6F8A37B229A(::UnityEngine::Vector3 a1)
+		::System::Void ILHIIDBCNEC()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_METHOD_7_4E8DF6F8A37B229A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPPOINTMETA_ILHIIDBCNEC_OFFSET))(this);
 		}
 	};
 }

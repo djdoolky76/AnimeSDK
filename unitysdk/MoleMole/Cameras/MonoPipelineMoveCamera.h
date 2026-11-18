@@ -7,17 +7,17 @@ namespace Cinemachine { class CinemachineBrain; }
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace MoleMole::Cameras { class NapActionVirtualStateDrivenCamera; }
 namespace MoleMole::Cameras { class NapTimelineVirtualCamera; }
-namespace MoleMole::Cameras { class NapVirtual3DActionCamera_1; }
 namespace MoleMole::Cameras { class NapVirtualCutSceneCamera; }
 namespace MoleMole::Cameras { class NapVirtualPipelineCamera; }
+namespace MoleMole::Cameras { template <typename T> class NapVirtual3DActionCamera_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_CAMERAS_MONOPIPELINEMOVECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xF128330)
+#define MOLEMOLE_CAMERAS_MONOPIPELINEMOVECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xFFBFDC0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int MonoPipelineMoveCamera_TypeDefinitionIndex = 76320;
+	inline static constexpr unsigned int MonoPipelineMoveCamera_TypeDefinitionIndex = 54753;
 
 	class MonoPipelineMoveCamera : public ::UnityEngine::MonoBehaviour
 	{

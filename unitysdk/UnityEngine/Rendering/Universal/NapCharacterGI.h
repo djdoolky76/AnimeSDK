@@ -1,35 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/RangeInt.h"
 #include "unitysdk/UnityEngine/Rect.h"
-#include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/RangeInt.h"
+#include "unitysdk/UnityEngine/Vector2Int.h"
 
 namespace UnityEngine::Rendering::Universal { class NapCharacterGIBakeSettings; }
 namespace UnityEngine::Rendering::Universal { class NapCharacterGIWeather; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGI_GETLAYERRANGE_1_OFFSET UNITYSDK_OFFSET(0x1E7A0AC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGI_GETLAYERRANGE_OFFSET UNITYSDK_OFFSET(0x1E7A0990)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGI_INDEX2DTOINDEX_OFFSET UNITYSDK_OFFSET(0x1E7A0BE0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGI_INDEXTOINDEX2D_OFFSET UNITYSDK_OFFSET(0x1E7A0B80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGI_RECALCULATEBASICPARAMS_OFFSET UNITYSDK_OFFSET(0x1E7A0890)
-#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGI__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A0C40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGI_GETLAYERRANGE_1_OFFSET UNITYSDK_OFFSET(0x1EA51B20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGI_GETLAYERRANGE_OFFSET UNITYSDK_OFFSET(0x1EA519F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGI_INDEX2DTOINDEX_OFFSET UNITYSDK_OFFSET(0x1EA51C40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGI_INDEXTOINDEX2D_OFFSET UNITYSDK_OFFSET(0x1EA51BE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGI_RECALCULATEBASICPARAMS_OFFSET UNITYSDK_OFFSET(0x1EA518F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_NAPCHARACTERGI__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA51CA0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCharacterGI_TypeDefinitionIndex = 27735;
+	inline static constexpr unsigned int NapCharacterGI_TypeDefinitionIndex = 27035;
 
 	class NapCharacterGI : public ::System::Object
 	{
 	public:
 		::System::Boolean enabled; // 0x10
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Rendering::Universal::NapCharacterGIBakeSettings* settings; // 0x18
 		::UnityEngine::Rect rect; // 0x20
 		::UnityEngine::Rect rectForCulling; // 0x30
 		::System::Int32 rowSize; // 0x40
 		::System::Int32 colSize; // 0x44
 		::System::Int32 tileCount; // 0x48
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::System::Int32>* tileDataOffsets; // 0x50
 		::Il2CppArray<::UnityEngine::Vector3>* positions; // 0x58
 		::Il2CppArray<::UnityEngine::Rendering::Universal::NapCharacterGIWeather*>* weathers; // 0x60

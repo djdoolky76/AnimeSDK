@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/MyLoggerSwitcher_MyLoggerSwitcherItem.h"
-#include "unitysdk/Foundation/Singleton_1.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_MYLOGGERSWITCHER_CHECKISENABLE_OFFSET UNITYSDK_OFFSET(0x1E1919B0)
-#define FOUNDATION_MYLOGGERSWITCHER_GET_SAVEFILENAME_OFFSET UNITYSDK_OFFSET(0x1E191D70)
-#define FOUNDATION_MYLOGGERSWITCHER_LOAD_OFFSET UNITYSDK_OFFSET(0x1E191810)
-#define FOUNDATION_MYLOGGERSWITCHER_SAVE_OFFSET UNITYSDK_OFFSET(0x1E191BA0)
-#define FOUNDATION_MYLOGGERSWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1917F0)
+#define FOUNDATION_MYLOGGERSWITCHER_CHECKISENABLE_OFFSET UNITYSDK_OFFSET(0x1E0A0F40)
+#define FOUNDATION_MYLOGGERSWITCHER_GET_SAVEFILENAME_OFFSET UNITYSDK_OFFSET(0x1E0A1300)
+#define FOUNDATION_MYLOGGERSWITCHER_LOAD_OFFSET UNITYSDK_OFFSET(0x1E0A0DA0)
+#define FOUNDATION_MYLOGGERSWITCHER_SAVE_OFFSET UNITYSDK_OFFSET(0x1E0A1130)
+#define FOUNDATION_MYLOGGERSWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0A0D80)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MyLoggerSwitcher_TypeDefinitionIndex = 8466;
+	inline static constexpr unsigned int MyLoggerSwitcher_TypeDefinitionIndex = 8280;
 
-	class MyLoggerSwitcher : public ::Foundation::Singleton_1<::Foundation::MyLoggerSwitcher*>
+	class MyLoggerSwitcher
 	{
 	public:
-		::System::Collections::Generic::List_1<::Foundation::MyLoggerSwitcher_MyLoggerSwitcherItem>* _logSwitcher; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* _logSwitcher; // 0x10
 
 		::System::Void _ctor()
 		{

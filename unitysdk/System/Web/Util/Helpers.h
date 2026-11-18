@@ -4,12 +4,12 @@
 
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_WEB_UTIL_HELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D63D240)
-#define SYSTEM_WEB_UTIL_HELPERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D63D230)
+#define SYSTEM_WEB_UTIL_HELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB01930)
+#define SYSTEM_WEB_UTIL_HELPERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB01920)
 
 namespace System::Web::Util
 {
-	inline static constexpr unsigned int Helpers_TypeDefinitionIndex = 3119;
+	inline static constexpr unsigned int Helpers_TypeDefinitionIndex = 3118;
 
 	class Helpers : public ::System::Object
 	{

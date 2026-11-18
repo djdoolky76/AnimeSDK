@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Timeline/Comic/DataSplitter/DataSplitterBase_1.h"
 
-namespace MoleMole::Comic { class AudioContent; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-
-#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_AUDIOCONTENTLISTSPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A64C0)
+#define UNITYENGINE_TIMELINE_COMIC_DATASPLITTER_AUDIOCONTENTLISTSPLITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6E22B0)
 
 namespace UnityEngine::Timeline::Comic::DataSplitter
 {
-	inline static constexpr unsigned int AudioContentListSplitter_TypeDefinitionIndex = 33094;
+	inline static constexpr unsigned int AudioContentListSplitter_TypeDefinitionIndex = 32553;
 
-	class AudioContentListSplitter : public ::UnityEngine::Timeline::Comic::DataSplitter::DataSplitterBase_1<::System::Collections::Generic::List_1<::MoleMole::Comic::AudioContent*>*>
+	class AudioContentListSplitter
 	{
 	public:
 		::System::Void _ctor()

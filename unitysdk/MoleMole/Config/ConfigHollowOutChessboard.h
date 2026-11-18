@@ -6,11 +6,11 @@
 namespace MoleMole::Config { class ConfigHollowChessboard_Flash; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x14376CB0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWOUTCHESSBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x121C1E40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowOutChessboard_TypeDefinitionIndex = 46294;
+	inline static constexpr unsigned int ConfigHollowOutChessboard_TypeDefinitionIndex = 76446;
 
 	class ConfigHollowOutChessboard : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -27,9 +27,11 @@ namespace MoleMole::Config
 		::System::Single ElevatorTargetDitherAlpha; // 0x88
 		::System::Single ElevatorTargetDitherAlpha2; // 0x8C
 		::System::Single ElevatorTargetOpacity; // 0x90
+		::System::Byte _padding0[0x4];
 		::System::String* ElevatorTargetTVEffectPath; // 0x98
 		::MoleMole::Config::ConfigHollowChessboard_Flash* FlashOutInfo; // 0xA0
 		::System::Single ElevatorSummonDelayAfterFlash; // 0xA8
+		::System::Byte _padding1[0x4];
 		::MoleMole::Config::ConfigHollowChessboard_Flash* FlashInInfo; // 0xB0
 		::System::String* ElevatorFadeInModelAnim; // 0xB8
 		::System::String* BackgroundMatPath; // 0xC0

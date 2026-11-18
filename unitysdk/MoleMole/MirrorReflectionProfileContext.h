@@ -3,18 +3,18 @@
 #include "unitysdk/MoleMole/GraphicSettingProfileContextBase.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/MirrorReflectionQuality.h"
 
-#define MOLEMOLE_MIRRORREFLECTIONPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DCE380)
+#define MOLEMOLE_MIRRORREFLECTIONPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12B54FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MirrorReflectionProfileContext_TypeDefinitionIndex = 58765;
+	inline static constexpr unsigned int MirrorReflectionProfileContext_TypeDefinitionIndex = 71921;
 
 	class MirrorReflectionProfileContext : public ::MoleMole::GraphicSettingProfileContextBase
 	{
 	public:
-		::System::Int32 SSRDownScale; // 0x18
-		::UnityEngine::NAPRenderPipeline0::MirrorReflectionQuality MirrorReflectionSetting; // 0x1C
-		::System::Single SSRMinSmoothness; // 0x20
+		::UnityEngine::NAPRenderPipeline0::MirrorReflectionQuality MirrorReflectionSetting; // 0x18
+		::System::Single SSRMinSmoothness; // 0x1C
+		::System::Int32 SSRDownScale; // 0x20
 
 		::System::Void _ctor()
 		{

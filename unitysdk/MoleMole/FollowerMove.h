@@ -8,24 +8,24 @@
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FOLLOWERMOVE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x19BEAAD0)
-#define MOLEMOLE_FOLLOWERMOVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19BEAC20)
-#define MOLEMOLE_FOLLOWERMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEAC70)
-#define MOLEMOLE_FOLLOWERMOVE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x19BEAD30)
-#define MOLEMOLE_FOLLOWERMOVE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19BEADC0)
+#define MOLEMOLE_FOLLOWERMOVE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x162C79A0)
+#define MOLEMOLE_FOLLOWERMOVE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x162C7AF0)
+#define MOLEMOLE_FOLLOWERMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x162C7B40)
+#define MOLEMOLE_FOLLOWERMOVE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x162C7C00)
+#define MOLEMOLE_FOLLOWERMOVE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x162C7C90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FollowerMove_TypeDefinitionIndex = 55510;
+	inline static constexpr unsigned int FollowerMove_TypeDefinitionIndex = 87391;
 
 	class FollowerMove : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x58
-		::MoleMole::Battle::Entity* _ownerEntity; // 0x60
+		::MoleMole::Battle::Entity* _ownerEntity; // 0x58
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
 		::MoleMole::FollowerMove_FORWARD_TYPE ForwardType; // 0x68
-		::System::Single forwardLerpRatio; // 0x6C
-		::System::Single aimHeightOffset; // 0x70
+		::System::Single aimHeightOffset; // 0x6C
+		::System::Single forwardLerpRatio; // 0x70
 		::UnityEngine::Vector3 PosOffset; // 0x74
 		::System::Single posLerpRatio; // 0x80
 

@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ViewObject/Donjon/DonjonFloorComponent_1.h"
 
 namespace MoleMole::Config { class FloorStreamingLayerLoadEntry; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15419610)
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x15419D00)
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15419D50)
-#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15419D70)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x156DFF20)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x156E0610)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x156E0660)
+#define FOUNDATION_VIEWOBJECT_DONJON_FLOORSTREAMINGLAYERLOADCOMPONENT___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x156E0680)
 
 namespace Foundation::ViewObject::Donjon
 {
-	inline static constexpr unsigned int FloorStreamingLayerLoadComponent_TypeDefinitionIndex = 68016;
+	inline static constexpr unsigned int FloorStreamingLayerLoadComponent_TypeDefinitionIndex = 45917;
 
-	class FloorStreamingLayerLoadComponent : public ::Foundation::ViewObject::Donjon::DonjonFloorComponent_1<::Foundation::ViewObject::Donjon::FloorStreamingLayerLoadComponent*>
+	class FloorStreamingLayerLoadComponent
 	{
 	public:
 		::System::Collections::Generic::IReadOnlyList_1<::MoleMole::Config::FloorStreamingLayerLoadEntry*>* LoadList; // 0x20

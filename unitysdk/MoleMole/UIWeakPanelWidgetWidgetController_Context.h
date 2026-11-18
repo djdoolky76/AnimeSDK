@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIWEAKPANELWIDGETWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14D85C50)
+#define MOLEMOLE_UIWEAKPANELWIDGETWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x170B1390)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWeakPanelWidgetWidgetController_Context_TypeDefinitionIndex = 77823;
+	inline static constexpr unsigned int UIWeakPanelWidgetWidgetController_Context_TypeDefinitionIndex = 40501;
 
 	class UIWeakPanelWidgetWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

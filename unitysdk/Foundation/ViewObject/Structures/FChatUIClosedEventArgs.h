@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation::ViewObject::Structures
 {
-	inline static constexpr unsigned int FChatUIClosedEventArgs_TypeDefinitionIndex = 45901;
+	inline static constexpr unsigned int FChatUIClosedEventArgs_TypeDefinitionIndex = 61480;
 
 	struct alignas(8) FChatUIClosedEventArgs
 	{

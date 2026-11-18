@@ -2,12 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/ParameterVariableNode.h"
 
-namespace NodeCanvas::Framework { class BBParameter; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GetVariable_1_TypeDefinitionIndex = 30641;
+	inline static constexpr unsigned int GetVariable_1_TypeDefinitionIndex = 29729;
 
 	template <typename T>
 	class GetVariable_1 : public ::FlowCanvas::Nodes::ParameterVariableNode

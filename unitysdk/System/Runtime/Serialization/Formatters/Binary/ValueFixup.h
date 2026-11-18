@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/Binary/ValueFixupEnum.h"
+#include "unitysdk/System/Object.h"
 
 namespace System { class Array; }
 namespace System { class String; }
@@ -9,13 +9,13 @@ namespace System::Reflection { class MemberInfo; }
 namespace System::Runtime::Serialization::Formatters::Binary { class ParseRecord; }
 namespace System::Runtime::Serialization::Formatters::Binary { class ReadObjectInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP_FIXUP_OFFSET UNITYSDK_OFFSET(0x1D8C7060)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D8C81C0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C80A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP_FIXUP_OFFSET UNITYSDK_OFFSET(0x1DDA34E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DDA4620)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDA4500)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ValueFixup_TypeDefinitionIndex = 1233;
+	inline static constexpr unsigned int ValueFixup_TypeDefinitionIndex = 1232;
 
 	class ValueFixup : public ::System::Object
 	{
@@ -24,12 +24,12 @@ namespace System::Runtime::Serialization::Formatters::Binary
 		{
 			return (::System::Reflection::MemberInfo**)Il2CppClass::FromTypeDefinitionIndex(ValueFixup_TypeDefinitionIndex)->GetStaticField(0xD60);
 		}
-		::System::Object* memberObject; // 0x10
-		::Il2CppArray<::System::Int32>* indexMap; // 0x18
-		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo; // 0x20
-		::System::Object* header; // 0x28
-		::System::Array* arrayObj; // 0x30
-		::System::String* memberName; // 0x38
+		::System::Array* arrayObj; // 0x10
+		::System::Object* memberObject; // 0x18
+		::Il2CppArray<::System::Int32>* indexMap; // 0x20
+		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo; // 0x28
+		::System::String* memberName; // 0x30
+		::System::Object* header; // 0x38
 		::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum valueFixupEnum; // 0x40
 
 		::System::Void _ctor(::System::Array* arrayObj, ::Il2CppArray<::System::Int32>* indexMap)

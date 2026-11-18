@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeGameplay/CompareValueFloatCondition.h"
-#include "unitysdk/System/Object.h"
-#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_COMPAREVALUEFLOATCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x1C13E770)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_COMPAREVALUEFLOATCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1C13E840)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_COMPAREVALUEFLOATCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1C13E8C0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_COMPAREVALUEFLOATCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x1CB630E0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_COMPAREVALUEFLOATCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1CB631B0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_COMPAREVALUEFLOATCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1CB63230)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_CompareValueFloatCondition_TypeDefinitionIndex = 59965;
+	inline static constexpr unsigned int VirtualFunctionExtensions_CompareValueFloatCondition_TypeDefinitionIndex = 76072;
 
 	class VirtualFunctionExtensions_CompareValueFloatCondition : public ::System::Object
 	{

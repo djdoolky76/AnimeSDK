@@ -1,82 +1,88 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/LoopStyle.h"
-#include "unitysdk/MoleMole/MonoUITimerCounter_RandomConfig.h"
-#include "unitysdk/MoleMole/MonoUITimerCounter_RollConfig.h"
 #include "unitysdk/MoleMole/MonoUITimerCounter_TimePartType.h"
 #include "unitysdk/MoleMole/MonoUITimerCounter_TimePointStyle.h"
 #include "unitysdk/MoleMole/MonoUITimerCounter_TimeRandomType.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 #include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/MoleMole/MonoUITimerCounter_RandomConfig.h"
+#include "unitysdk/MoleMole/MonoUITimerCounter_RollConfig.h"
 
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_MONOUITIMERCOUNTER_APPLYCOLORTODIGITIMAGES_OFFSET UNITYSDK_OFFSET(0x1791F8C0)
-#define MOLEMOLE_MONOUITIMERCOUNTER_BACKUPDIGITIMAGECOLORS_OFFSET UNITYSDK_OFFSET(0x1791F6B0)
-#define MOLEMOLE_MONOUITIMERCOUNTER_GET_OPENSECONDRANDOM_OFFSET UNITYSDK_OFFSET(0x1791DE00)
-#define MOLEMOLE_MONOUITIMERCOUNTER_GET_TIMESHOWINGTYPE_OFFSET UNITYSDK_OFFSET(0x1791DDE0)
-#define MOLEMOLE_MONOUITIMERCOUNTER_OVERRIDETIMEDIGITIMAGESCOLOR_OFFSET UNITYSDK_OFFSET(0x1791F480)
-#define MOLEMOLE_MONOUITIMERCOUNTER_RESTORETIMEDIGITIMAGESCOLOR_OFFSET UNITYSDK_OFFSET(0x1791FA30)
-#define MOLEMOLE_MONOUITIMERCOUNTER_SETCOUNTSECONDS_OFFSET UNITYSDK_OFFSET(0x1791DE20)
-#define MOLEMOLE_MONOUITIMERCOUNTER_SET_OPENSECONDRANDOM_OFFSET UNITYSDK_OFFSET(0x1791DE10)
-#define MOLEMOLE_MONOUITIMERCOUNTER_SET_TIMESHOWINGTYPE_OFFSET UNITYSDK_OFFSET(0x1791DDF0)
-#define MOLEMOLE_MONOUITIMERCOUNTER_STARTNORMALRANDOM_OFFSET UNITYSDK_OFFSET(0x1791E900)
-#define MOLEMOLE_MONOUITIMERCOUNTER_STARTROLLTOTARGET_OFFSET UNITYSDK_OFFSET(0x1791F1B0)
-#define MOLEMOLE_MONOUITIMERCOUNTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1791E600)
-#define MOLEMOLE_MONOUITIMERCOUNTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1791FCA0)
-#define MOLEMOLE_MONOUITIMERCOUNTER__FULLANYRANDOM_OFFSET UNITYSDK_OFFSET(0x1791E950)
-#define MOLEMOLE_MONOUITIMERCOUNTER__GETCURVEDURATION_OFFSET UNITYSDK_OFFSET(0x1791F100)
-#define MOLEMOLE_MONOUITIMERCOUNTER__GETTIMEPARTINTERVAL_OFFSET UNITYSDK_OFFSET(0x1791F000)
-#define MOLEMOLE_MONOUITIMERCOUNTER__SETBYTIMEPART_OFFSET UNITYSDK_OFFSET(0x1791E1C0)
-#define MOLEMOLE_MONOUITIMERCOUNTER__TIMEPARTRANDOM_OFFSET UNITYSDK_OFFSET(0x1791EA50)
-#define MOLEMOLE_MONOUITIMERCOUNTER__TRYRANDOM_OFFSET UNITYSDK_OFFSET(0x1791E6B0)
-#define MOLEMOLE_MONOUITIMERCOUNTER__TRYROLLTOTARGET_OFFSET UNITYSDK_OFFSET(0x1791E720)
-#define MOLEMOLE_MONOUITIMERCOUNTER___FULLANYRANDOM_G____GETCURVALUE_36_0_OFFSET UNITYSDK_OFFSET(0x1791FE30)
-#define MOLEMOLE_MONOUITIMERCOUNTER___FULLANYRANDOM_G____GETRANDOMINTERVAL_36_1_OFFSET UNITYSDK_OFFSET(0x1791EEF0)
-#define MOLEMOLE_MONOUITIMERCOUNTER___FULLANYRANDOM_G____RANDOMSET_36_2_OFFSET UNITYSDK_OFFSET(0x1791EE70)
-#define MOLEMOLE_MONOUITIMERCOUNTER___TIMEPARTRANDOM_G___RANDOMPART_40_0_OFFSET UNITYSDK_OFFSET(0x1791EF10)
-#define MOLEMOLE_MONOUITIMERCOUNTER___TRYROLLTOTARGET_G___ROOLPART_49_0_OFFSET UNITYSDK_OFFSET(0x1791F240)
+#define MOLEMOLE_MONOUITIMERCOUNTER_APPLYCOLORTODIGITIMAGES_OFFSET UNITYSDK_OFFSET(0x14B0A2F0)
+#define MOLEMOLE_MONOUITIMERCOUNTER_BACKUPDIGITIMAGECOLORS_OFFSET UNITYSDK_OFFSET(0x14B0A0E0)
+#define MOLEMOLE_MONOUITIMERCOUNTER_GET_OPENSECONDRANDOM_OFFSET UNITYSDK_OFFSET(0x14B08830)
+#define MOLEMOLE_MONOUITIMERCOUNTER_GET_TIMESHOWINGTYPE_OFFSET UNITYSDK_OFFSET(0x14B08810)
+#define MOLEMOLE_MONOUITIMERCOUNTER_OVERRIDETIMEDIGITIMAGESCOLOR_OFFSET UNITYSDK_OFFSET(0x14B09EB0)
+#define MOLEMOLE_MONOUITIMERCOUNTER_RESTORETIMEDIGITIMAGESCOLOR_OFFSET UNITYSDK_OFFSET(0x14B0A460)
+#define MOLEMOLE_MONOUITIMERCOUNTER_SETCOUNTSECONDS_OFFSET UNITYSDK_OFFSET(0x14B08850)
+#define MOLEMOLE_MONOUITIMERCOUNTER_SET_OPENSECONDRANDOM_OFFSET UNITYSDK_OFFSET(0x14B08840)
+#define MOLEMOLE_MONOUITIMERCOUNTER_SET_TIMESHOWINGTYPE_OFFSET UNITYSDK_OFFSET(0x14B08820)
+#define MOLEMOLE_MONOUITIMERCOUNTER_STARTNORMALRANDOM_OFFSET UNITYSDK_OFFSET(0x14B09330)
+#define MOLEMOLE_MONOUITIMERCOUNTER_STARTROLLTOTARGET_OFFSET UNITYSDK_OFFSET(0x14B09BE0)
+#define MOLEMOLE_MONOUITIMERCOUNTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x14B09030)
+#define MOLEMOLE_MONOUITIMERCOUNTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14B0A6D0)
+#define MOLEMOLE_MONOUITIMERCOUNTER__FULLANYRANDOM_OFFSET UNITYSDK_OFFSET(0x14B09380)
+#define MOLEMOLE_MONOUITIMERCOUNTER__GETCURVEDURATION_OFFSET UNITYSDK_OFFSET(0x14B09B30)
+#define MOLEMOLE_MONOUITIMERCOUNTER__GETTIMEPARTINTERVAL_OFFSET UNITYSDK_OFFSET(0x14B09A30)
+#define MOLEMOLE_MONOUITIMERCOUNTER__SETBYTIMEPART_OFFSET UNITYSDK_OFFSET(0x14B08BF0)
+#define MOLEMOLE_MONOUITIMERCOUNTER__TIMEPARTRANDOM_OFFSET UNITYSDK_OFFSET(0x14B09480)
+#define MOLEMOLE_MONOUITIMERCOUNTER__TRYRANDOM_OFFSET UNITYSDK_OFFSET(0x14B090E0)
+#define MOLEMOLE_MONOUITIMERCOUNTER__TRYROLLTOTARGET_OFFSET UNITYSDK_OFFSET(0x14B09150)
+#define MOLEMOLE_MONOUITIMERCOUNTER___FULLANYRANDOM_G____GETCURVALUE_36_0_OFFSET UNITYSDK_OFFSET(0x14B0A860)
+#define MOLEMOLE_MONOUITIMERCOUNTER___FULLANYRANDOM_G____GETRANDOMINTERVAL_36_1_OFFSET UNITYSDK_OFFSET(0x14B09920)
+#define MOLEMOLE_MONOUITIMERCOUNTER___FULLANYRANDOM_G____RANDOMSET_36_2_OFFSET UNITYSDK_OFFSET(0x14B098A0)
+#define MOLEMOLE_MONOUITIMERCOUNTER___TIMEPARTRANDOM_G___RANDOMPART_40_0_OFFSET UNITYSDK_OFFSET(0x14B09940)
+#define MOLEMOLE_MONOUITIMERCOUNTER___TRYROLLTOTARGET_G___ROOLPART_49_0_OFFSET UNITYSDK_OFFSET(0x14B09C70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUITimerCounter_TypeDefinitionIndex = 79329;
+	inline static constexpr unsigned int MonoUITimerCounter_TypeDefinitionIndex = 60706;
 
 	class MonoUITimerCounter : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
 	public:
-		// static const ::MoleMole::MonoUITimerCounter_TimePartType Urgent_NoHour; // 0x0
+		// static const ::MoleMole::MonoUITimerCounter_TimePartType Urgent_NoHour = 0x7FFFFCFF; // 0x0
 		::System::Collections::Generic::List_1<::UnityEngine::Sprite*>* imageNums; // 0x58
-		::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::UnityEngine::UI::Image*>* timePartImages; // 0x60
-		::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::UnityEngine::UI::Image*>* addonTimePartImages; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::UI::Image*>* timePartImages; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::UI::Image*>* addonTimePartImages; // 0x68
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* extraImages; // 0x70
 		::MoleMole::MonoUITimerCounter_TimePartType _timeShowingType_k__BackingField; // 0x78
 		::MoleMole::MonoUITimerCounter_TimePointStyle timePointStyle; // 0x7C
 		::System::Single countSeconds; // 0x80
 		::System::Boolean _openSecondRandom_k__BackingField; // 0x84
+		::System::Byte _padding0[0x3];
 		::MoleMole::MonoUITimerCounter_TimeRandomType randomType; // 0x88
 		::System::Single randomInterval; // 0x8C
 		::UnityEngine::AnimationCurve* randomIntervalCurve; // 0x90
 		::System::Int32 min; // 0x98
 		::System::Int32 max; // 0x9C
 		::MoleMole::LoopStyle randomLoopStyle; // 0xA0
-		::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::MoleMole::MonoUITimerCounter_RandomConfig>* timePartRandoms; // 0xA8
+		::System::Byte _padding1[0x4];
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* timePartRandoms; // 0xA8
 		::System::Single _dt; // 0xB0
 		::System::Int32 _dtFlag; // 0xB4
 		::System::Single _trigDt; // 0xB8
-		::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::System::Single>* _runningTimePartTriggerDelta; // 0xC0
+		::System::Byte _padding2[0x4];
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Single>* _runningTimePartTriggerDelta; // 0xC0
 		::System::Int32 _lastRandomSeconds; // 0xC8
 		::System::Single _timeSinceRandom; // 0xCC
 		::System::Boolean openSecondRoll; // 0xD0
-		::System::Collections::Generic::Dictionary_2<::MoleMole::MonoUITimerCounter_TimePartType, ::MoleMole::MonoUITimerCounter_RollConfig>* timePartRollConfigs; // 0xD8
+		::System::Byte _padding3[0x7];
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* timePartRollConfigs; // 0xD8
 		::System::Action* rollDoneCb; // 0xE0
 		::System::Int32 _rollTargetSeconds; // 0xE8
 		::System::Int32 _beforeRollTargetSeconds; // 0xEC
 		::System::Single _rollDt; // 0xF0
+		::System::Byte _padding4[0x4];
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::UI::Image*, ::UnityEngine::Color>* _timeDigitImageColorBackup; // 0xF8
 		::System::Boolean _timeDigitColorOverrideActive; // 0x100
 

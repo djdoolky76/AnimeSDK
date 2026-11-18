@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/FlowScriptBase.h"
 
-#define FLOWCANVAS_FLOWSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB3C00)
+#define FLOWCANVAS_FLOWSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF864E0)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowScript_TypeDefinitionIndex = 30041;
+	inline static constexpr unsigned int FlowScript_TypeDefinitionIndex = 29770;
 
 	class FlowScript : public ::FlowCanvas::FlowScriptBase
 	{

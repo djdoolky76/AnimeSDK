@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaObjectTable_EnumeratorType_TypeDefinitionIndex = 2174;
+	inline static constexpr unsigned int XmlSchemaObjectTable_EnumeratorType_TypeDefinitionIndex = 2173;
 
 	enum class XmlSchemaObjectTable_EnumeratorType : ::System::Int32
 	{

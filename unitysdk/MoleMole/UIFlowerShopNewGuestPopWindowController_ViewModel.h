@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F5ACAAB9AA1EB49.h"
+#include "unitysdk/JJEJBPGJPJN.h"
 
-class Class_0_16E4307DCC419505_135;
-template <typename T> class Class_0_16E4307DCC419505_152;
-template <typename T> class Class_0_16E4307DCC419505_164;
+class KOGPMKOGCLC;
+template <typename T> class JIOLFCAGOFH_1;
+template <typename T> class KLIOMMIOFDC_1;
 
-#define MOLEMOLE_UIFLOWERSHOPNEWGUESTPOPWINDOWCONTROLLER_VIEWMODEL_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x19385A90)
-#define MOLEMOLE_UIFLOWERSHOPNEWGUESTPOPWINDOWCONTROLLER_VIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19385A80)
-#define MOLEMOLE_UIFLOWERSHOPNEWGUESTPOPWINDOWCONTROLLER_VIEWMODEL__ONCREATEPROPERTY_B__4_0_OFFSET UNITYSDK_OFFSET(0x19385C20)
+#define MOLEMOLE_UIFLOWERSHOPNEWGUESTPOPWINDOWCONTROLLER_VIEWMODEL_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x16ECEEF0)
+#define MOLEMOLE_UIFLOWERSHOPNEWGUESTPOPWINDOWCONTROLLER_VIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x16ECEEE0)
+#define MOLEMOLE_UIFLOWERSHOPNEWGUESTPOPWINDOWCONTROLLER_VIEWMODEL__ONCREATEPROPERTY_B__4_0_OFFSET UNITYSDK_OFFSET(0x16ECF080)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerShopNewGuestPopWindowController_ViewModel_TypeDefinitionIndex = 62739;
+	inline static constexpr unsigned int UIFlowerShopNewGuestPopWindowController_ViewModel_TypeDefinitionIndex = 77984;
 
-	class UIFlowerShopNewGuestPopWindowController_ViewModel : public ::Class_1_5F5ACAAB9AA1EB49
+	class UIFlowerShopNewGuestPopWindowController_ViewModel : public ::JJEJBPGJPJN
 	{
 	public:
-		::Class_0_16E4307DCC419505_164<::System::Boolean>* ShowAccess; // 0x80
-		::Class_0_16E4307DCC419505_152<::System::Int32>* PopID; // 0x88
-		::Class_0_16E4307DCC419505_152<::System::Int32>* AccessID; // 0x90
+		::KLIOMMIOFDC_1<::System::Int32>* AccessID; // 0x88
+		::JIOLFCAGOFH_1<::System::Boolean>* ShowAccess; // 0x90
+		::KLIOMMIOFDC_1<::System::Int32>* PopID; // 0x98
 
-		::System::Void _ctor(::Class_0_16E4307DCC419505_135* autoDisposePool)
+		::System::Void _ctor(::KOGPMKOGCLC* autoDisposePool)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_135*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFLOWERSHOPNEWGUESTPOPWINDOWCONTROLLER_VIEWMODEL__CTOR_OFFSET))(this, autoDisposePool);
+			return ((::System::Void(*)(::PVOID, ::KOGPMKOGCLC*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFLOWERSHOPNEWGUESTPOPWINDOWCONTROLLER_VIEWMODEL__CTOR_OFFSET))(this, autoDisposePool);
 		}
 
 		::System::Void OnCreateProperty()

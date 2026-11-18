@@ -3,21 +3,21 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SimulatingPlatform_TypeDefinitionIndex = 27424;
+	inline static constexpr unsigned int SimulatingPlatform_TypeDefinitionIndex = 26324;
 
 	enum class SimulatingPlatform : ::System::UInt32
 	{
-		None = 0x0,
-		ConsolePlatform = 0x28,
-		Any = 0xFFFFFFFF,
-		LowEndPlatform = 0x16,
-		IsMobile = 0x6,
-		PC = 0x1,
-		HighEndPlatform = 0x29,
-		Android = 0x4,
-		Switch = 0x10,
-		XBOX = 0x20,
-		PS5 = 0x8,
-		IOS = 0x2,
+		IsMobile = 6,
+		LowEndPlatform = 22,
+		Any = 4294967295,
+		HighEndPlatform = 41,
+		IOS = 2,
+		Android = 4,
+		ConsolePlatform = 40,
+		None = 0,
+		Switch = 16,
+		PC = 1,
+		PS5 = 8,
+		XBOX = 32,
 	};
 }

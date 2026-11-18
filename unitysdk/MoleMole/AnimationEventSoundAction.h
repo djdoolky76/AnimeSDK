@@ -7,17 +7,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_AUTOCREATECUSTOMSOUNDEMITTER_OFFSET UNITYSDK_OFFSET(0x116C6340)
-#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_GET_SOUNDACTIONSOURCEHINT_OFFSET UNITYSDK_OFFSET(0x116C68B0)
-#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_GET_SOUNDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x116C66B0)
-#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_SOUNDOTHER_OFFSET UNITYSDK_OFFSET(0x116C69F0)
-#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_SOUNDPLAY_OFFSET UNITYSDK_OFFSET(0x116C6910)
-#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_SOUNDSTOP_OFFSET UNITYSDK_OFFSET(0x116C6980)
-#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x116C6B00)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_AUTOCREATECUSTOMSOUNDEMITTER_OFFSET UNITYSDK_OFFSET(0xFA848A0)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_GET_SOUNDACTIONSOURCEHINT_OFFSET UNITYSDK_OFFSET(0xFA853A0)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_GET_SOUNDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xFA84C10)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xFA85180)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_SOUNDOTHER_OFFSET UNITYSDK_OFFSET(0xFA854E0)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_SOUNDPLAY_OFFSET UNITYSDK_OFFSET(0xFA85400)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION_SOUNDSTOP_OFFSET UNITYSDK_OFFSET(0xFA85470)
+#define MOLEMOLE_ANIMATIONEVENTSOUNDACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xFA85600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AnimationEventSoundAction_TypeDefinitionIndex = 68773;
+	inline static constexpr unsigned int AnimationEventSoundAction_TypeDefinitionIndex = 54242;
 
 	class AnimationEventSoundAction : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
@@ -27,10 +28,13 @@ namespace MoleMole
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigSoundActionGeneral*>* soundActionOthers; // 0x68
 		::System::Boolean useDefaultGameObject; // 0x70
 		::System::Boolean useSelf; // 0x71
+		::System::Byte _padding0[0x6];
 		::UnityEngine::GameObject* target; // 0x78
 		::System::Boolean mutePlay; // 0x80
 		::System::Boolean muteStop; // 0x81
 		::System::Boolean muteOthers; // 0x82
+		::System::Byte _padding1[0x5];
+		::UnityEngine::GameObject* _soundEmitter; // 0x88
 
 		::System::Void _ctor()
 		{
@@ -45,6 +49,11 @@ namespace MoleMole
 		::UnityEngine::GameObject* get_soundGameObject()
 		{
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ANIMATIONEVENTSOUNDACTION_GET_SOUNDGAMEOBJECT_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ANIMATIONEVENTSOUNDACTION_ONDESTROY_OFFSET))(this);
 		}
 
 		::System::String* get_soundActionSourceHint()

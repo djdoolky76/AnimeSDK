@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_025FF4981524A424_318;
-class Class_3_C3F0E3B5AB5977AE_52;
+class DOMOGMKENJC;
+class EFNEBEIKKLM;
 namespace MoleMole { class UIZenkovLotteryGamePageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12B20B40)
-#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___C__DISPLAYCLASS67_0__SENDREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x12B20B50)
-#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___C__DISPLAYCLASS67_0__SENDREQUEST_B__2_OFFSET UNITYSDK_OFFSET(0x12B21830)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13EABA40)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___C__DISPLAYCLASS67_0__SENDREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x13EABA50)
+#define MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___C__DISPLAYCLASS67_0__SENDREQUEST_B__2_OFFSET UNITYSDK_OFFSET(0x13EAC720)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovLotteryGamePageController___c__DisplayClass67_0_TypeDefinitionIndex = 66020;
+	inline static constexpr unsigned int UIZenkovLotteryGamePageController___c__DisplayClass67_0_TypeDefinitionIndex = 57266;
 
 	class UIZenkovLotteryGamePageController___c__DisplayClass67_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIZenkovLotteryGamePageController* __4__this; // 0x10
-		::System::Action* __9__2; // 0x18
-		::Class_3_C3F0E3B5AB5977AE_52* nextResult; // 0x20
+		::DOMOGMKENJC* nextResult; // 0x18
+		::System::Action* __9__2; // 0x20
 		::System::UInt32 nextResultItemId; // 0x28
 
 		::System::Void _ctor()
@@ -28,9 +28,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___C__DISPLAYCLASS67_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SendRequest_b__0(::Class_3_025FF4981524A424_318* rsp)
+		::System::Void _SendRequest_b__0(::EFNEBEIKKLM* rsp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_025FF4981524A424_318*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___C__DISPLAYCLASS67_0__SENDREQUEST_B__0_OFFSET))(this, rsp);
+			return ((::System::Void(*)(::PVOID, ::EFNEBEIKKLM*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVLOTTERYGAMEPAGECONTROLLER___C__DISPLAYCLASS67_0__SENDREQUEST_B__0_OFFSET))(this, rsp);
 		}
 
 		::System::Void _SendRequest_b__2()

@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/FlowNode.h"
 #include "unitysdk/MoleMole/HackerGameDamageData.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCTAKEDAMAGE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19DA9DF0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCTAKEDAMAGE_START_OFFSET UNITYSDK_OFFSET(0x19DA9EE0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCTAKEDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DAA0B0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCTAKEDAMAGE__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x19DAA0F0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCTAKEDAMAGE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12B30DE0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCTAKEDAMAGE_START_OFFSET UNITYSDK_OFFSET(0x12B30ED0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCTAKEDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B310A0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMENPCTAKEDAMAGE__REGISTERPORTS_B__0_0_OFFSET UNITYSDK_OFFSET(0x12B310E0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameNpcTakeDamage_TypeDefinitionIndex = 74624;
+	inline static constexpr unsigned int HackerGameNpcTakeDamage_TypeDefinitionIndex = 82109;
 
 	class HackerGameNpcTakeDamage : public ::FlowCanvas::FlowNode
 	{
 	public:
-		::FlowCanvas::FlowInput* start; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::HackerGameDamageData>* damageData; // 0xB0
-		::FlowCanvas::FlowOutput* output; // 0xB8
+		::FlowCanvas::ValueInput_1<::MoleMole::HackerGameDamageData>* damageData; // 0xA8
+		::FlowCanvas::FlowOutput* output; // 0xB0
+		::FlowCanvas::FlowInput* start; // 0xB8
 
 		::System::Void _ctor()
 		{

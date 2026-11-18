@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class GDNMHPMOKGF;
+
+#define GDNMHPMOKGF_ILAIMPEKFGP_HBPLINHBFFK_OFFSET UNITYSDK_OFFSET(0xBB86AD0)
+#define GDNMHPMOKGF_ILAIMPEKFGP_JINCFIGEAKM_OFFSET UNITYSDK_OFFSET(0xBB86A30)
+#define GDNMHPMOKGF_ILAIMPEKFGP_PLPONJAKNEB_OFFSET UNITYSDK_OFFSET(0xBB86A80)
+#define GDNMHPMOKGF_ILAIMPEKFGP__CTOR_OFFSET UNITYSDK_OFFSET(0xBB86B10)
+
+inline static constexpr unsigned int GDNMHPMOKGF_ILAIMPEKFGP_TypeDefinitionIndex = 67615;
+
+class GDNMHPMOKGF_ILAIMPEKFGP : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDNMHPMOKGF_ILAIMPEKFGP__CTOR_OFFSET))(this);
+	}
+
+	::System::Void JINCFIGEAKM(::GDNMHPMOKGF* AMNIHACKELI)
+	{
+		return ((::System::Void(*)(::PVOID, ::GDNMHPMOKGF*))((::PBYTE)hIl2Cpp + GDNMHPMOKGF_ILAIMPEKFGP_JINCFIGEAKM_OFFSET))(this, AMNIHACKELI);
+	}
+
+	::System::Void PLPONJAKNEB(::GDNMHPMOKGF* AMNIHACKELI)
+	{
+		return ((::System::Void(*)(::PVOID, ::GDNMHPMOKGF*))((::PBYTE)hIl2Cpp + GDNMHPMOKGF_ILAIMPEKFGP_PLPONJAKNEB_OFFSET))(this, AMNIHACKELI);
+	}
+
+	::System::Void HBPLINHBFFK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDNMHPMOKGF_ILAIMPEKFGP_HBPLINHBFFK_OFFSET))(this);
+	}
+};

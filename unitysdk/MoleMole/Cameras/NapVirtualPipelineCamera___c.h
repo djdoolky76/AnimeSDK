@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C_METHOD_1_8047E14E3FC3F341_OFFSET UNITYSDK_OFFSET(0x17274600)
-#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x172745B0)
-#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x172745F0)
+#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C_MAFBNNJCHLJ_OFFSET UNITYSDK_OFFSET(0x163E3E20)
+#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x163E3DD0)
+#define MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x163E3E10)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int NapVirtualPipelineCamera___c_TypeDefinitionIndex = 69716;
+	inline static constexpr unsigned int NapVirtualPipelineCamera___c_TypeDefinitionIndex = 47284;
 
 	class NapVirtualPipelineCamera___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::Cameras::NapVirtualPipelineCamera___c** StaticGet___9()
-		{
-			return (::MoleMole::Cameras::NapVirtualPipelineCamera___c**)Il2CppClass::FromTypeDefinitionIndex(NapVirtualPipelineCamera___c_TypeDefinitionIndex)->GetStaticField(0x31E40);
-		}
 		static ::System::Func_2<::UnityEngine::RaycastHit, ::System::Boolean>** StaticGet___9__38_0()
 		{
-			return (::System::Func_2<::UnityEngine::RaycastHit, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(NapVirtualPipelineCamera___c_TypeDefinitionIndex)->GetStaticField(0x31E48);
+			return (::System::Func_2<::UnityEngine::RaycastHit, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(NapVirtualPipelineCamera___c_TypeDefinitionIndex)->GetStaticField(0x343B0);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NapVirtualPipelineCamera___c_TypeDefinitionIndex)->GetStaticField(0x343B8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole::Cameras
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_8047E14E3FC3F341(::UnityEngine::RaycastHit a1)
+		::System::Boolean MAFBNNJCHLJ(::UnityEngine::RaycastHit OFLHPPDJLNL)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::RaycastHit))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C_METHOD_1_8047E14E3FC3F341_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::RaycastHit))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_NAPVIRTUALPIPELINECAMERA___C_MAFBNNJCHLJ_OFFSET))(this, OFLHPPDJLNL);
 		}
 	};
 }

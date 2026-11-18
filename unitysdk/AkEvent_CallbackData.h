@@ -7,10 +7,10 @@ namespace AK::Wwise { class CallbackFlags; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define AKEVENT_CALLBACKDATA_CALLFUNCTION_OFFSET UNITYSDK_OFFSET(0x1FC45C80)
-#define AKEVENT_CALLBACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC45E00)
+#define AKEVENT_CALLBACKDATA_CALLFUNCTION_OFFSET UNITYSDK_OFFSET(0x2004AA40)
+#define AKEVENT_CALLBACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x2004ABC0)
 
-inline static constexpr unsigned int AkEvent_CallbackData_TypeDefinitionIndex = 33781;
+inline static constexpr unsigned int AkEvent_CallbackData_TypeDefinitionIndex = 33327;
 
 class AkEvent_CallbackData : public ::System::Object
 {

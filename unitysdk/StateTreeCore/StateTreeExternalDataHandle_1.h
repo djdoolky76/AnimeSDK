@@ -5,10 +5,10 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeExternalDataHandle_1_TypeDefinitionIndex = 31543;
+	inline static constexpr unsigned int StateTreeExternalDataHandle_1_TypeDefinitionIndex = 30980;
 
 	template <typename T>
-	struct StateTreeExternalDataHandle_1
+	struct alignas(4) StateTreeExternalDataHandle_1
 	{
 		::StateTreeCore::StateTreeExternalDataHandle ExternalDataHandle; // 0x0
 	};

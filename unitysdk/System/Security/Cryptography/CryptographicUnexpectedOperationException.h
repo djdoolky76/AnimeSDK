@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/Security/Cryptography/CryptographicException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICUNEXPECTEDOPERATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DCFD3B0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICUNEXPECTEDOPERATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DCFFAD0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICUNEXPECTEDOPERATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCFFA10)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICUNEXPECTEDOPERATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E0EFD00)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICUNEXPECTEDOPERATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E0F2420)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICUNEXPECTEDOPERATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0F2360)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int CryptographicUnexpectedOperationException_TypeDefinitionIndex = 1047;
+	inline static constexpr unsigned int CryptographicUnexpectedOperationException_TypeDefinitionIndex = 1046;
 
 	class CryptographicUnexpectedOperationException : public ::System::Security::Cryptography::CryptographicException
 	{

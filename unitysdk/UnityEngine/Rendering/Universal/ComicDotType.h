@@ -3,17 +3,17 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ComicDotType_TypeDefinitionIndex = 27835;
+	inline static constexpr unsigned int ComicDotType_TypeDefinitionIndex = 26994;
 
 	enum class ComicDotType : ::System::Int32
 	{
+		Line = 1,
+		Quad = 4,
+		Custom = 7,
+		Dot = 2,
+		None = 0,
 		Triangle = 3,
 		Octagon = 6,
-		Dot = 2,
 		Star = 5,
-		Custom = 7,
-		Quad = 4,
-		None = 0,
-		Line = 1,
 	};
 }

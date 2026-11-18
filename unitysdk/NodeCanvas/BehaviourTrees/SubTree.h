@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/BehaviourTrees/BTNodeNested_1.h"
 #include "unitysdk/NodeCanvas/Framework/Status.h"
 
 namespace NodeCanvas::BehaviourTrees { class BehaviourTree; }
@@ -9,18 +8,18 @@ namespace NodeCanvas::Framework { class IBlackboard; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace UnityEngine { class Component; }
 
-#define NODECANVAS_BEHAVIOURTREES_SUBTREE_GET_SUBGRAPHPARAMETER_OFFSET UNITYSDK_OFFSET(0x1EA9AEA0)
-#define NODECANVAS_BEHAVIOURTREES_SUBTREE_GET_SUBGRAPH_OFFSET UNITYSDK_OFFSET(0x1EA9ADE0)
-#define NODECANVAS_BEHAVIOURTREES_SUBTREE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA9AEB0)
-#define NODECANVAS_BEHAVIOURTREES_SUBTREE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EA9B160)
-#define NODECANVAS_BEHAVIOURTREES_SUBTREE_SET_SUBGRAPH_OFFSET UNITYSDK_OFFSET(0x1EA9AE40)
-#define NODECANVAS_BEHAVIOURTREES_SUBTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9B2B0)
+#define NODECANVAS_BEHAVIOURTREES_SUBTREE_GET_SUBGRAPHPARAMETER_OFFSET UNITYSDK_OFFSET(0x1EDCBF10)
+#define NODECANVAS_BEHAVIOURTREES_SUBTREE_GET_SUBGRAPH_OFFSET UNITYSDK_OFFSET(0x1EDCBE50)
+#define NODECANVAS_BEHAVIOURTREES_SUBTREE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EDCBF20)
+#define NODECANVAS_BEHAVIOURTREES_SUBTREE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EDCC1D0)
+#define NODECANVAS_BEHAVIOURTREES_SUBTREE_SET_SUBGRAPH_OFFSET UNITYSDK_OFFSET(0x1EDCBEB0)
+#define NODECANVAS_BEHAVIOURTREES_SUBTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDCC330)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int SubTree_TypeDefinitionIndex = 30054;
+	inline static constexpr unsigned int SubTree_TypeDefinitionIndex = 30404;
 
-	class SubTree : public ::NodeCanvas::BehaviourTrees::BTNodeNested_1<::NodeCanvas::BehaviourTrees::BehaviourTree*>
+	class SubTree
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::BehaviourTrees::BehaviourTree*>* _subTree; // 0x90

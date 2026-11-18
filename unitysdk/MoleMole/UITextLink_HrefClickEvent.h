@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace System { class String; }
-
-#define MOLEMOLE_UITEXTLINK_HREFCLICKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F90BB0)
+#define MOLEMOLE_UITEXTLINK_HREFCLICKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x12BF2EF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITextLink_HrefClickEvent_TypeDefinitionIndex = 55456;
+	inline static constexpr unsigned int UITextLink_HrefClickEvent_TypeDefinitionIndex = 74692;
 
-	class UITextLink_HrefClickEvent : public ::UnityEngine::Events::UnityEvent_1<::System::String*>
+	class UITextLink_HrefClickEvent
 	{
 	public:
 		::System::Void _ctor()

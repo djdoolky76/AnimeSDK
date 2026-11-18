@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOOPSUBDIVISIONDATAHOLDER_APPLYSETTINGS_OFFSET UNITYSDK_OFFSET(0x1D30F240)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOOPSUBDIVISIONDATAHOLDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D30F1F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOOPSUBDIVISIONDATAHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D30F4B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOOPSUBDIVISIONDATAHOLDER_APPLYSETTINGS_OFFSET UNITYSDK_OFFSET(0x1D457130)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOOPSUBDIVISIONDATAHOLDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D4570E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOOPSUBDIVISIONDATAHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4573A0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LoopSubdivisionDataHolder_TypeDefinitionIndex = 27586;
+	inline static constexpr unsigned int LoopSubdivisionDataHolder_TypeDefinitionIndex = 27184;
 
 	class LoopSubdivisionDataHolder : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,6 +20,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Boolean enableFrontFaceCulling; // 0x1C
 		::System::Boolean enableDistanceCulling; // 0x1D
 		::System::Boolean enableVertexLengthCulling; // 0x1E
+		::System::Byte _padding0[0x1];
 		::System::Single frontFaceCullingStart; // 0x20
 		::System::Single frontFaceCullingEnd; // 0x24
 		::System::Single frontFaceCullingTolerance; // 0x28

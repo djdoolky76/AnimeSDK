@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ValueVariationType_TypeDefinitionIndex = 41372;
+	inline static constexpr unsigned int ValueVariationType_TypeDefinitionIndex = 56618;
 
 	enum class ValueVariationType : ::System::Int32
 	{

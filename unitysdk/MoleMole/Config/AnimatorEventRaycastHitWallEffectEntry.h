@@ -6,12 +6,12 @@ namespace MoleMole::Config { class AnimatorEvent; }
 namespace MoleMole::Config { class HitWallCameraShakeConfig; }
 namespace MoleMole::Config { class RaycastHitWallEffectConfig; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTRAYCASTHITWALLEFFECTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x12EEF500)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTRAYCASTHITWALLEFFECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12EEF580)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTRAYCASTHITWALLEFFECTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x12763C10)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTRAYCASTHITWALLEFFECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12763C90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventRaycastHitWallEffectEntry_TypeDefinitionIndex = 72829;
+	inline static constexpr unsigned int AnimatorEventRaycastHitWallEffectEntry_TypeDefinitionIndex = 47549;
 
 	class AnimatorEventRaycastHitWallEffectEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

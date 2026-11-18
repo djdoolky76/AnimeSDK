@@ -1,16 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlexBuffers/FlxMap.h"
-#include "unitysdk/MoleMole/ConfigNewbie_TargetPath_ExtraType.h"
 #include "unitysdk/System/Object.h"
 
-namespace SimpleJSON { class JSONClass; }
-
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x19FFB330)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A776EE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_HighLightExtra_TypeDefinitionIndex = 78134;
+	inline static constexpr unsigned int ConfigNewbie_HighLightExtra_TypeDefinitionIndex = 55934;
 
 	class ConfigNewbie_HighLightExtra : public ::System::Object
 	{

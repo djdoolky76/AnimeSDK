@@ -6,18 +6,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_VESEQUENCEINFO_GETALLVEKEY_OFFSET UNITYSDK_OFFSET(0x19FF7B00)
-#define MOLEMOLE_CONFIG_VESEQUENCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF7B80)
+#define MOLEMOLE_CONFIG_VESEQUENCEINFO_GETALLVEKEY_OFFSET UNITYSDK_OFFSET(0x1A772590)
+#define MOLEMOLE_CONFIG_VESEQUENCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A772610)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int VESequenceInfo_TypeDefinitionIndex = 91319;
+	inline static constexpr unsigned int VESequenceInfo_TypeDefinitionIndex = 39206;
 
 	class VESequenceInfo : public ::System::Object
 	{
 	public:
-		::System::String* ChangeVEEffectPath; // 0x10
-		::System::Collections::Generic::List_1<::System::String*>* VEPool; // 0x18
+		::System::Collections::Generic::List_1<::System::String*>* VEPool; // 0x10
+		::System::String* ChangeVEEffectPath; // 0x18
 		::System::Single RandomStarTime; // 0x20
 
 		::System::Void _ctor()

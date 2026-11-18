@@ -4,13 +4,12 @@
 
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LINQX__DoWhileX_d__6_1_TypeDefinitionIndex = 8112;
+	inline static constexpr unsigned int LINQX__DoWhileX_d__6_1_TypeDefinitionIndex = 8325;
 
 	template <typename T>
 	class LINQX__DoWhileX_d__6_1 : public ::System::Object

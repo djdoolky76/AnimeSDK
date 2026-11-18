@@ -3,13 +3,11 @@
 #include "unitysdk/FlowCanvas/Nodes/ParameterVariableNode.h"
 #include "unitysdk/ParadoxNotion/OperationMethod.h"
 
-namespace NodeCanvas::Framework { class BBParameter; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
-namespace System { class String; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SetVariable_1_TypeDefinitionIndex = 31257;
+	inline static constexpr unsigned int SetVariable_1_TypeDefinitionIndex = 30922;
 
 	template <typename T>
 	class SetVariable_1 : public ::FlowCanvas::Nodes::ParameterVariableNode

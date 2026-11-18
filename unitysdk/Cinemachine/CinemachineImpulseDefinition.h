@@ -10,24 +10,26 @@
 namespace Cinemachine { class CinemachineImpulseManager_ImpulseEvent; }
 namespace Cinemachine { class SignalSourceAsset; }
 
-#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_CREATEANDRETURNEVENT_OFFSET UNITYSDK_OFFSET(0x1FBF9A10)
-#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_CREATEEVENT_OFFSET UNITYSDK_OFFSET(0x1FBF99D0)
-#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1FBF9990)
-#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBF9E40)
+#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_CREATEANDRETURNEVENT_OFFSET UNITYSDK_OFFSET(0x1FFFB400)
+#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_CREATEEVENT_OFFSET UNITYSDK_OFFSET(0x1FFFB3C0)
+#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1FFFB380)
+#define CINEMACHINE_CINEMACHINEIMPULSEDEFINITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFFB830)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineImpulseDefinition_TypeDefinitionIndex = 34811;
+	inline static constexpr unsigned int CinemachineImpulseDefinition_TypeDefinitionIndex = 34357;
 
 	class CinemachineImpulseDefinition : public ::System::Object
 	{
 	public:
 		::System::Int32 m_ImpulseChannel; // 0x10
+		::System::Byte _padding0[0x4];
 		::Cinemachine::SignalSourceAsset* m_RawSignal; // 0x18
 		::System::Single m_AmplitudeGain; // 0x20
 		::System::Single m_FrequencyGain; // 0x24
 		::Cinemachine::CinemachineImpulseDefinition_RepeatMode m_RepeatMode; // 0x28
 		::System::Boolean m_Randomize; // 0x2C
+		::System::Byte _padding1[0x3];
 		::Cinemachine::CinemachineImpulseManager_EnvelopeDefinition m_TimeEnvelope; // 0x30
 		::System::Single m_ImpactRadius; // 0x50
 		::Cinemachine::CinemachineImpulseManager_ImpulseEvent_DirectionMode m_DirectionMode; // 0x54

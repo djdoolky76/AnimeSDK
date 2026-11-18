@@ -2,17 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NodeCanvas/Framework/Variable.h"
 
-namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Type; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
-namespace System::Reflection { class MemberInfo; }
-namespace UnityEngine { class GameObject; }
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Variable_1_TypeDefinitionIndex = 30484;
+	inline static constexpr unsigned int Variable_1_TypeDefinitionIndex = 29834;
 
 	template <typename T>
 	class Variable_1 : public ::NodeCanvas::Framework::Variable

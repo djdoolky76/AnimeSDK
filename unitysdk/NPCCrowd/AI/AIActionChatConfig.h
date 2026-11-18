@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_AI_AIACTIONCHATCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x462B80)
-#define NPCCROWD_AI_AIACTIONCHATCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x462BD0)
+#define NPCCROWD_AI_AIACTIONCHATCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x6FE4C0)
+#define NPCCROWD_AI_AIACTIONCHATCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x6FE510)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionChatConfig_TypeDefinitionIndex = 64821;
+	inline static constexpr unsigned int AIActionChatConfig_TypeDefinitionIndex = 72469;
 
 	struct alignas(8) AIActionChatConfig
 	{

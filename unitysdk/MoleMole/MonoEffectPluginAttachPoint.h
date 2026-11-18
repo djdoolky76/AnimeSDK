@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/MonoEffectPluginBase.h"
 
-namespace MoleMole { class MonoEffectPluginAttachPoint_AttachInfo; }
 namespace MoleMole::Battle { class Entity; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINATTACHPOINT_GETATTACHPOINTBYENTITY_OFFSET UNITYSDK_OFFSET(0x10803B10)
-#define MOLEMOLE_MONOEFFECTPLUGINATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x10803EB0)
+#define MOLEMOLE_MONOEFFECTPLUGINATTACHPOINT_GETATTACHPOINTBYENTITY_OFFSET UNITYSDK_OFFSET(0x15ABBEA0)
+#define MOLEMOLE_MONOEFFECTPLUGINATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x15ABC240)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginAttachPoint_TypeDefinitionIndex = 52430;
+	inline static constexpr unsigned int MonoEffectPluginAttachPoint_TypeDefinitionIndex = 91245;
 
 	class MonoEffectPluginAttachPoint : public ::MoleMole::MonoEffectPluginBase
 	{
 	public:
 		::System::String* AttachPoint; // 0x18
-		::System::Collections::Generic::List_1<::MoleMole::MonoEffectPluginAttachPoint_AttachInfo*>* AttachOverrideInfoMap; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* AttachOverrideInfoMap; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINATTACHPOINT__CTOR_OFFSET))(this);
 		}
 
-		::System::String* GetAttachPointByEntity(::MoleMole::Battle::Entity* a1)
+		::System::String* GetAttachPointByEntity(::MoleMole::Battle::Entity* HOLFNDIMGJJ)
 		{
-			return ((::System::String*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINATTACHPOINT_GETATTACHPOINTBYENTITY_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTPLUGINATTACHPOINT_GETATTACHPOINTBYENTITY_OFFSET))(this, HOLFNDIMGJJ);
 		}
 	};
 }

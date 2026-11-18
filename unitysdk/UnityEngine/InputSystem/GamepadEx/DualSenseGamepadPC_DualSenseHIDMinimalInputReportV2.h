@@ -1,24 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/InputSystem/DualShock/LowLevel/DualSenseHIDInputReport.h"
+#include "unitysdk/UnityEngine/InputSystem/GamepadEx/LowLevel/DualSenseHIDInputReportV2.h"
 
-#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2_TOHIDINPUTREPORT_OFFSET UNITYSDK_OFFSET(0xA92350)
-#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2_TOHIDINPUTREPORT_OLD_OFFSET UNITYSDK_OFFSET(0xA92440)
-#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F163E40)
+#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2_TOHIDINPUTREPORT_OFFSET UNITYSDK_OFFSET(0x978FA0)
+#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2_TOHIDINPUTREPORT_OLD_OFFSET UNITYSDK_OFFSET(0x979090)
+#define UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F53CD40)
 
 namespace UnityEngine::InputSystem::GamepadEx
 {
-	inline static constexpr unsigned int DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2_TypeDefinitionIndex = 39734;
+	inline static constexpr unsigned int DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2_TypeDefinitionIndex = 37734;
 
-	struct alignas(1) DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2
+	struct alignas(4) DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2
 	{
-		static ::System::Int32* StaticGet_ExpectedSize1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2_TypeDefinitionIndex)->GetStaticField(0x94F0);
-		}
 		static ::System::Int32* StaticGet_ExpectedSize2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2_TypeDefinitionIndex)->GetStaticField(0x94F4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2_TypeDefinitionIndex)->GetStaticField(0x9990);
+		}
+		static ::System::Int32* StaticGet_ExpectedSize1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DualSenseGamepadPC_DualSenseHIDMinimalInputReportV2_TypeDefinitionIndex)->GetStaticField(0x9994);
 		}
 		::System::Byte reportId; // 0x10
 		::System::Byte leftStickX; // 0x11
@@ -36,18 +38,14 @@ namespace UnityEngine::InputSystem::GamepadEx
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2__CCTOR_OFFSET))();
 		}
 
-		/*
 		::UnityEngine::InputSystem::GamepadEx::LowLevel::DualSenseHIDInputReportV2 ToHIDInputReport()
 		{
 			return ((::UnityEngine::InputSystem::GamepadEx::LowLevel::DualSenseHIDInputReportV2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2_TOHIDINPUTREPORT_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::DualShock::LowLevel::DualSenseHIDInputReport ToHIDInputReport_Old()
 		{
 			return ((::UnityEngine::InputSystem::DualShock::LowLevel::DualSenseHIDInputReport(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_GAMEPADEX_DUALSENSEGAMEPADPC_DUALSENSEHIDMINIMALINPUTREPORTV2_TOHIDINPUTREPORT_OLD_OFFSET))(this);
 		}
-		*/
 	};
 }

@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/StateTreeGameplay/VirtualProxy_StateTreeCommonTaskBase.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALPROXY_UPDATEVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1E509470)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_UPDATEVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1E509550)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_UPDATEVALUEFLOATTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x1E5095C0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_UPDATEVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1E5094F0)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_UPDATEVALUEFLOATTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1E509630)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_UPDATEVALUEFLOATTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5096B0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_UPDATEVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1E1A2310)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_UPDATEVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1E1A23F0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_UPDATEVALUEFLOATTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x1E1A2460)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_UPDATEVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1E1A2390)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_UPDATEVALUEFLOATTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1E1A24D0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_UPDATEVALUEFLOATTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1A2550)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualProxy_UpdateValueFloatTask_TypeDefinitionIndex = 81464;
+	inline static constexpr unsigned int VirtualProxy_UpdateValueFloatTask_TypeDefinitionIndex = 53078;
 
 	class VirtualProxy_UpdateValueFloatTask : public ::StateTreeGameplay::VirtualProxy_StateTreeCommonTaskBase
 	{

@@ -3,15 +3,13 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
-namespace System { class Type; }
-namespace System::ComponentModel { class ITypeDescriptorContext; }
 
-#define SYSTEM_COMPONENTMODEL_INSTANCECREATIONEDITOR_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1E972E10)
-#define SYSTEM_COMPONENTMODEL_INSTANCECREATIONEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E972E50)
+#define SYSTEM_COMPONENTMODEL_INSTANCECREATIONEDITOR_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1EC4AB90)
+#define SYSTEM_COMPONENTMODEL_INSTANCECREATIONEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4ABD0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int InstanceCreationEditor_TypeDefinitionIndex = 2916;
+	inline static constexpr unsigned int InstanceCreationEditor_TypeDefinitionIndex = 2915;
 
 	class InstanceCreationEditor : public ::System::Object
 	{

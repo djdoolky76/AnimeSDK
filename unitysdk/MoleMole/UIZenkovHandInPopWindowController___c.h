@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x140FED90)
-#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x140FEDD0)
-#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__ONCLICKADDWISHLISTBTN_B__14_1_OFFSET UNITYSDK_OFFSET(0x140FEDE0)
-#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__ONCLICKADDWISHLISTBTN_B__14_3_OFFSET UNITYSDK_OFFSET(0x140FEDF0)
+#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x171C08E0)
+#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x171C0920)
+#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__ONCLICKADDWISHLISTBTN_B__14_1_OFFSET UNITYSDK_OFFSET(0x171C0930)
+#define MOLEMOLE_UIZENKOVHANDINPOPWINDOWCONTROLLER___C__ONCLICKADDWISHLISTBTN_B__14_3_OFFSET UNITYSDK_OFFSET(0x171C0940)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovHandInPopWindowController___c_TypeDefinitionIndex = 58006;
+	inline static constexpr unsigned int UIZenkovHandInPopWindowController___c_TypeDefinitionIndex = 67767;
 
 	class UIZenkovHandInPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIZenkovHandInPopWindowController___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__14_3()
 		{
-			return (::MoleMole::UIZenkovHandInPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4AF70);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FBD0);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FBD8);
 		}
 		static ::System::Action** StaticGet___9__14_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4AF78);
-		}
-		static ::System::Action** StaticGet___9__14_3()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4AF80);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovHandInPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FBE0);
 		}
 
 		static ::System::Void _cctor()

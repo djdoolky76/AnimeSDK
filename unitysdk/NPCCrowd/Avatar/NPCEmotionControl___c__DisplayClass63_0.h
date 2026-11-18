@@ -6,12 +6,12 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define NPCCROWD_AVATAR_NPCEMOTIONCONTROL___C__DISPLAYCLASS63_0__CREATEEMOTIONEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x112A2EA0)
-#define NPCCROWD_AVATAR_NPCEMOTIONCONTROL___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x112A2E90)
+#define NPCCROWD_AVATAR_NPCEMOTIONCONTROL___C__DISPLAYCLASS63_0__CREATEEMOTIONEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x11FC2CC0)
+#define NPCCROWD_AVATAR_NPCEMOTIONCONTROL___C__DISPLAYCLASS63_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11FC2CB0)
 
 namespace NPCCrowd::Avatar
 {
-	inline static constexpr unsigned int NPCEmotionControl___c__DisplayClass63_0_TypeDefinitionIndex = 91143;
+	inline static constexpr unsigned int NPCEmotionControl___c__DisplayClass63_0_TypeDefinitionIndex = 78677;
 
 	class NPCEmotionControl___c__DisplayClass63_0 : public ::System::Object
 	{

@@ -1,0 +1,93 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIBMJLOJLKD.h"
+
+class FGCOIBFFCHB;
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+
+#define BGFAOKAKJKE_FGBLNHKNOCI_BODKNAJOJME_OFFSET UNITYSDK_OFFSET(0x143DB9A0)
+#define BGFAOKAKJKE_FGBLNHKNOCI_CEKBNKLBCOH_OFFSET UNITYSDK_OFFSET(0x143DB9C0)
+#define BGFAOKAKJKE_FGBLNHKNOCI_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x143DB9E0)
+#define BGFAOKAKJKE_FGBLNHKNOCI_ENJENAJGHFI_OFFSET UNITYSDK_OFFSET(0x143DBA90)
+#define BGFAOKAKJKE_FGBLNHKNOCI_JBLMHFIPPFK_OFFSET UNITYSDK_OFFSET(0x143DB9B0)
+#define BGFAOKAKJKE_FGBLNHKNOCI_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x143DB8E0)
+#define BGFAOKAKJKE_FGBLNHKNOCI_LACAMCPAIEL_OFFSET UNITYSDK_OFFSET(0x143DBA80)
+#define BGFAOKAKJKE_FGBLNHKNOCI_NAILHKMABOD_OFFSET UNITYSDK_OFFSET(0x143DB990)
+#define BGFAOKAKJKE_FGBLNHKNOCI_ODBDPEEPINO_OFFSET UNITYSDK_OFFSET(0x143DB9D0)
+#define BGFAOKAKJKE_FGBLNHKNOCI_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x143DB730)
+#define BGFAOKAKJKE_FGBLNHKNOCI_OLPKCAMEHGD_OFFSET UNITYSDK_OFFSET(0x143DBAA0)
+#define BGFAOKAKJKE_FGBLNHKNOCI__CTOR_OFFSET UNITYSDK_OFFSET(0x143DB980)
+
+inline static constexpr unsigned int BGFAOKAKJKE_FGBLNHKNOCI_TypeDefinitionIndex = 46875;
+
+class BGFAOKAKJKE_FGBLNHKNOCI : public ::GIBMJLOJLKD
+{
+public:
+	::UnityEngine::UI::Extension::UILocalizationText* _NJIHNPDPEOK_k__BackingField; // 0x18
+	::FGCOIBFFCHB* _EOMOJEGEGKM_k__BackingField; // 0x20
+	::UnityEngine::UI::Extension::UILocalizationText* _GJBBOIGMNAK_k__BackingField; // 0x28
+	::LGINJIKKBJA* _IBFGFFIGOAK_k__BackingField; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BGFAOKAKJKE_FGBLNHKNOCI__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + BGFAOKAKJKE_FGBLNHKNOCI_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::LGINJIKKBJA* NAILHKMABOD()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + BGFAOKAKJKE_FGBLNHKNOCI_NAILHKMABOD_OFFSET))(this);
+	}
+
+	::System::Void BODKNAJOJME(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + BGFAOKAKJKE_FGBLNHKNOCI_BODKNAJOJME_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void JBLMHFIPPFK(::UnityEngine::UI::Extension::UILocalizationText* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*))((::PBYTE)hIl2Cpp + BGFAOKAKJKE_FGBLNHKNOCI_JBLMHFIPPFK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void CEKBNKLBCOH(::UnityEngine::UI::Extension::UILocalizationText* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*))((::PBYTE)hIl2Cpp + BGFAOKAKJKE_FGBLNHKNOCI_CEKBNKLBCOH_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void ODBDPEEPINO(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + BGFAOKAKJKE_FGBLNHKNOCI_ODBDPEEPINO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BGFAOKAKJKE_FGBLNHKNOCI_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::System::Void ECNOGHHOPPF(::HNLACBJDCGI* MIALFKCCCPI, ::MoleMole::UIControlCollection* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + BGFAOKAKJKE_FGBLNHKNOCI_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+
+	::UnityEngine::UI::Extension::UILocalizationText* LACAMCPAIEL()
+	{
+		return ((::UnityEngine::UI::Extension::UILocalizationText*(*)(::PVOID))((::PBYTE)hIl2Cpp + BGFAOKAKJKE_FGBLNHKNOCI_LACAMCPAIEL_OFFSET))(this);
+	}
+
+	::FGCOIBFFCHB* ENJENAJGHFI()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + BGFAOKAKJKE_FGBLNHKNOCI_ENJENAJGHFI_OFFSET))(this);
+	}
+
+	::UnityEngine::UI::Extension::UILocalizationText* OLPKCAMEHGD()
+	{
+		return ((::UnityEngine::UI::Extension::UILocalizationText*(*)(::PVOID))((::PBYTE)hIl2Cpp + BGFAOKAKJKE_FGBLNHKNOCI_OLPKCAMEHGD_OFFSET))(this);
+	}
+};

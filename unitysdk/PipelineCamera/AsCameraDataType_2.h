@@ -4,12 +4,12 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int AsCameraDataType_2_TypeDefinitionIndex = 38227;
+	inline static constexpr unsigned int AsCameraDataType_2_TypeDefinitionIndex = 36229;
 
-	template <typename TNullable, typename T>
-	struct AsCameraDataType_2
+	template <typename T1, typename T2>
+	struct alignas(8) AsCameraDataType_2
 	{
-		TNullable _value; // 0x0
-		T _fallback; // 0x0
+		T1 _value; // 0x0
+		T2 _fallback; // 0x0
 	};
 }

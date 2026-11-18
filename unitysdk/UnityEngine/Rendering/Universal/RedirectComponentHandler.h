@@ -2,14 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class Type; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_REDIRECTCOMPONENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E265550)
+#define UNITYENGINE_RENDERING_UNIVERSAL_REDIRECTCOMPONENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E382D90)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RedirectComponentHandler_TypeDefinitionIndex = 27131;
+	inline static constexpr unsigned int RedirectComponentHandler_TypeDefinitionIndex = 27016;
 
 	class RedirectComponentHandler : public ::System::Object
 	{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace MoleMole { class UIHollowRewardBagDialogPopWindowController; }
 
-#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1899B2D0)
-#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_0__OPENEQUIPDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1899B2E0)
+#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16F0E1C0)
+#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_0__OPENEQUIPDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0x16F0E1D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowRewardBagDialogPopWindowController___c__DisplayClass18_0_TypeDefinitionIndex = 76827;
+	inline static constexpr unsigned int UIHollowRewardBagDialogPopWindowController___c__DisplayClass18_0_TypeDefinitionIndex = 90147;
 
 	class UIHollowRewardBagDialogPopWindowController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIHollowRewardBagDialogPopWindowController* __4__this; // 0x10
-		::Class_1_0D6706375CDAAE8C* itemData; // 0x18
+		::HGAJKHIMKJP* itemData; // 0x18
 
 		::System::Void _ctor()
 		{

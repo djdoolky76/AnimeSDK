@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIStrategyGuideRecommendTypeSuitRowWidgetController___c__DisplayClass5_0; }
-
-#define MOLEMOLE_UISTRATEGYGUIDERECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS5_2__CTOR_OFFSET UNITYSDK_OFFSET(0x175A9A00)
-#define MOLEMOLE_UISTRATEGYGUIDERECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS5_2__REFRESH_B__1_OFFSET UNITYSDK_OFFSET(0x175A9A10)
+#define MOLEMOLE_UISTRATEGYGUIDERECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS5_2__CTOR_OFFSET UNITYSDK_OFFSET(0x185A4D60)
+#define MOLEMOLE_UISTRATEGYGUIDERECOMMENDTYPESUITROWWIDGETCONTROLLER___C__DISPLAYCLASS5_2__REFRESH_B__1_OFFSET UNITYSDK_OFFSET(0x185A4D70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStrategyGuideRecommendTypeSuitRowWidgetController___c__DisplayClass5_2_TypeDefinitionIndex = 68377;
+	inline static constexpr unsigned int UIStrategyGuideRecommendTypeSuitRowWidgetController___c__DisplayClass5_2_TypeDefinitionIndex = 53727;
 
+	template <typename T1, typename T2>
 	class UIStrategyGuideRecommendTypeSuitRowWidgetController___c__DisplayClass5_2 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIStrategyGuideRecommendTypeSuitRowWidgetController___c__DisplayClass5_0* CS___8__locals2; // 0x10
+		::System::Object* CS___8__locals2; // 0x10
 		::System::Int32 equipItemID; // 0x18
 
 		::System::Void _ctor()

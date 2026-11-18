@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::UI::OS { class IAgeGateGeneralErrorDialog; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8FBD50)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FBD90)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__HANDLEAGEGATEFROMERRORCODE_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C8FBDA0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF2AEC0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF2AF00)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_AGEGATEMANAGER___C__HANDLEAGEGATEFROMERRORCODE_B__8_0_OFFSET UNITYSDK_OFFSET(0x1CF2AF10)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int AgeGateManager___c_TypeDefinitionIndex = 20816;
+	inline static constexpr unsigned int AgeGateManager___c_TypeDefinitionIndex = 20020;
 
 	class AgeGateManager___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::PC::OS::CXHandheld::AgeGateManager___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::PC::OS::CXHandheld::AgeGateManager___c**)Il2CppClass::FromTypeDefinitionIndex(AgeGateManager___c_TypeDefinitionIndex)->GetStaticField(0xB5A0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(AgeGateManager___c_TypeDefinitionIndex)->GetStaticField(0xB560);
 		}
 		static ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>** StaticGet___9__8_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateManager___c_TypeDefinitionIndex)->GetStaticField(0xB5A8);
+			return (::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateManager___c_TypeDefinitionIndex)->GetStaticField(0xB568);
 		}
 
 		static ::System::Void _cctor()

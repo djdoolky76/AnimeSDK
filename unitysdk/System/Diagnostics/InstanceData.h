@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Diagnostics/CounterSample.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Diagnostics/CounterSample.h"
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_INSTANCEDATA_GET_INSTANCENAME_OFFSET UNITYSDK_OFFSET(0x1D46CE70)
-#define SYSTEM_DIAGNOSTICS_INSTANCEDATA_GET_RAWVALUE_OFFSET UNITYSDK_OFFSET(0x1D46CEB0)
-#define SYSTEM_DIAGNOSTICS_INSTANCEDATA_GET_SAMPLE_OFFSET UNITYSDK_OFFSET(0x1D46CEF0)
-#define SYSTEM_DIAGNOSTICS_INSTANCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D46CE30)
+#define SYSTEM_DIAGNOSTICS_INSTANCEDATA_GET_INSTANCENAME_OFFSET UNITYSDK_OFFSET(0x1D927FE0)
+#define SYSTEM_DIAGNOSTICS_INSTANCEDATA_GET_RAWVALUE_OFFSET UNITYSDK_OFFSET(0x1D928020)
+#define SYSTEM_DIAGNOSTICS_INSTANCEDATA_GET_SAMPLE_OFFSET UNITYSDK_OFFSET(0x1D928060)
+#define SYSTEM_DIAGNOSTICS_INSTANCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D927FA0)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int InstanceData_TypeDefinitionIndex = 4176;
+	inline static constexpr unsigned int InstanceData_TypeDefinitionIndex = 4175;
 
 	class InstanceData : public ::System::Object
 	{

@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace FlowCanvas { class FlowNode; }
-
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IExternalImplementedNode_TypeDefinitionIndex = 31473;
+	inline static constexpr unsigned int IExternalImplementedNode_TypeDefinitionIndex = 29712;
 
 	class IExternalImplementedNode
 	{

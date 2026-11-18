@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SQLite3_ColType_TypeDefinitionIndex = 5397;
+	inline static constexpr unsigned int SQLite3_ColType_TypeDefinitionIndex = 5400;
 
 	enum class SQLite3_ColType : ::System::Int32
 	{

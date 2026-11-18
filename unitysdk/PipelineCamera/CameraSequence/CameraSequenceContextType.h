@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/SubClassOf_1.h"
 
-namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
-
-#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCECONTEXTTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1B3510)
+#define PIPELINECAMERA_CAMERASEQUENCE_CAMERASEQUENCECONTEXTTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4FE340)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceContextType_TypeDefinitionIndex = 38601;
+	inline static constexpr unsigned int CameraSequenceContextType_TypeDefinitionIndex = 36600;
 
-	class CameraSequenceContextType : public ::PipelineCamera::SubClassOf_1<::PipelineCamera::CameraSequence::CameraSequenceContext*>
+	class CameraSequenceContextType
 	{
 	public:
 		::System::Void _ctor()

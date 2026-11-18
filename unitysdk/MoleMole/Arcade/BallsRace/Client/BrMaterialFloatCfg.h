@@ -4,7 +4,7 @@
 
 namespace MoleMole::Arcade::BallsRace::Client
 {
-	inline static constexpr unsigned int BrMaterialFloatCfg_TypeDefinitionIndex = 93264;
+	inline static constexpr unsigned int BrMaterialFloatCfg_TypeDefinitionIndex = 95066;
 
 	struct alignas(4) BrMaterialFloatCfg
 	{

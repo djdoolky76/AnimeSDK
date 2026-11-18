@@ -3,11 +3,11 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GrassType_TypeDefinitionIndex = 27237;
+	inline static constexpr unsigned int GrassType_TypeDefinitionIndex = 26397;
 
 	enum class GrassType : ::System::Int32
 	{
-		BillboardGrass = 1,
 		MeshGrass = 0,
+		BillboardGrass = 1,
 	};
 }

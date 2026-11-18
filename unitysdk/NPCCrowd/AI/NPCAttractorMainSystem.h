@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_40CD888D5D4FCB5B.h"
+#include "unitysdk/OAOOLPCNHKA.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::AI { class AttractorBaseProcessor; }
@@ -12,51 +12,52 @@ namespace NPCCrowd::AI { class IAttractorProcessor; }
 namespace Nap::NapECS { class EcsFilter; }
 namespace Nap::NapECS { class EcsWorld; }
 
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xF5FA590)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_DISPATCHJOB_OFFSET UNITYSDK_OFFSET(0xF5FAC40)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_DISPATCH_OFFSET UNITYSDK_OFFSET(0xF5FB0B0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_END_OFFSET UNITYSDK_OFFSET(0xF5FB040)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_GET_OFFSET UNITYSDK_OFFSET(0xF5FA2B0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF5FA5E0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF5FAFD0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_START_OFFSET UNITYSDK_OFFSET(0xF5FA330)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xF5FA460)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_WAIT_OFFSET UNITYSDK_OFFSET(0xF5FA530)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xF5FB1E0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xF5FA1C0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xF5FB200)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF5FB290)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF5FB320)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_START_OFFSET UNITYSDK_OFFSET(0xF5FB3B0)
-#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xF5FB440)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xE77E9F0)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_DISPATCHJOB_OFFSET UNITYSDK_OFFSET(0xE77F0A0)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_DISPATCH_OFFSET UNITYSDK_OFFSET(0xE77F510)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_END_OFFSET UNITYSDK_OFFSET(0xE77F4A0)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_GET_OFFSET UNITYSDK_OFFSET(0xE77E710)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE77EA40)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE77F430)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_START_OFFSET UNITYSDK_OFFSET(0xE77E790)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xE77E8C0)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM_WAIT_OFFSET UNITYSDK_OFFSET(0xE77E990)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xE77F640)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xE77E620)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xE77F660)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE77F6F0)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE77F780)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_START_OFFSET UNITYSDK_OFFSET(0xE77F810)
+#define NPCCROWD_AI_NPCATTRACTORMAINSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xE77F8A0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCAttractorMainSystem_TypeDefinitionIndex = 74912;
+	inline static constexpr unsigned int NPCAttractorMainSystem_TypeDefinitionIndex = 39870;
 
-	class NPCAttractorMainSystem : public ::Class_2_40CD888D5D4FCB5B
+	class NPCAttractorMainSystem : public ::OAOOLPCNHKA
 	{
 	public:
 		static ::NPCCrowd::AI::NPCAttractorMainSystem** StaticGet__self()
 		{
-			return (::NPCCrowd::AI::NPCAttractorMainSystem**)Il2CppClass::FromTypeDefinitionIndex(NPCAttractorMainSystem_TypeDefinitionIndex)->GetStaticField(0x3D7B0);
+			return (::NPCCrowd::AI::NPCAttractorMainSystem**)Il2CppClass::FromTypeDefinitionIndex(NPCAttractorMainSystem_TypeDefinitionIndex)->GetStaticField(0x3F6E0);
 		}
 		static ::System::Boolean* StaticGet_PauseAttractorFlag()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAttractorMainSystem_TypeDefinitionIndex)->GetStaticField(0xE600);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCAttractorMainSystem_TypeDefinitionIndex)->GetStaticField(0xEA90);
 		}
 		static ::System::Int32* StaticGet_MaxAttractorNum()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NPCAttractorMainSystem_TypeDefinitionIndex)->GetStaticField(0xE604);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NPCAttractorMainSystem_TypeDefinitionIndex)->GetStaticField(0xEA94);
 		}
 		::NPCCrowd::AI::AttractorConflictQueryProcessor* conflictQueryProcessor; // 0x20
-		::NPCCrowd::AI::AttractorQueryEntityProcessor* queryProcessor; // 0x28
-		::NPCCrowd::AI::AttractorRuntimeData* runtimeData; // 0x30
-		::NPCCrowd::AI::AttractorBaseProcessor* baseProcessor; // 0x38
-		::NPCCrowd::AI::AttractorManager* attractorManager; // 0x40
-		::Nap::NapECS::EcsWorld* ecsWorld; // 0x48
-		::Nap::NapECS::EcsFilter* filter; // 0x50
+		::NPCCrowd::AI::AttractorRuntimeData* runtimeData; // 0x28
+		::Nap::NapECS::EcsWorld* ecsWorld; // 0x30
+		::Nap::NapECS::EcsFilter* filter; // 0x38
+		::NPCCrowd::AI::AttractorBaseProcessor* baseProcessor; // 0x40
+		::NPCCrowd::AI::AttractorManager* attractorManager; // 0x48
+		::NPCCrowd::AI::AttractorQueryEntityProcessor* queryProcessor; // 0x50
 		::System::Boolean conflictQuerying; // 0x58
+		::System::Byte _padding0[0x7];
 		::Unity::Jobs::JobHandle _jobHandle; // 0x60
 
 		::System::Void _ctor()

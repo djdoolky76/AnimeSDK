@@ -5,11 +5,11 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSBILLBOARDMERGEDMESHMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3013D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSBILLBOARDMERGEDMESHMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4492B0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassBillboardMergedMeshMarker_TypeDefinitionIndex = 27981;
+	inline static constexpr unsigned int GPUGrassBillboardMergedMeshMarker_TypeDefinitionIndex = 26181;
 
 	class GPUGrassBillboardMergedMeshMarker : public ::UnityEngine::MonoBehaviour
 	{

@@ -3,7 +3,7 @@
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int ColorSpaceConversionType_TypeDefinitionIndex = 35050;
+	inline static constexpr unsigned int ColorSpaceConversionType_TypeDefinitionIndex = 34599;
 
 	enum class ColorSpaceConversionType : ::System::Int32
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIMINIUIGAMELEVELSELECTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17AFA410)
-#define MOLEMOLE_UIMINIUIGAMELEVELSELECTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS15_0__INITACTIVITY_B__0_OFFSET UNITYSDK_OFFSET(0x17AFA420)
+#define MOLEMOLE_UIMINIUIGAMELEVELSELECTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17629A90)
+#define MOLEMOLE_UIMINIUIGAMELEVELSELECTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS15_0__INITACTIVITY_B__0_OFFSET UNITYSDK_OFFSET(0x17629AA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniUIGameLevelSelectChildWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 77567;
+	inline static constexpr unsigned int UIMiniUIGameLevelSelectChildWindowController___c__DisplayClass15_0_TypeDefinitionIndex = 45788;
 
 	class UIMiniUIGameLevelSelectChildWindowController___c__DisplayClass15_0 : public ::System::Object
 	{

@@ -5,16 +5,17 @@
 
 class ParticlesData;
 
-#define PERFRAMEDATA_GET_PARTICLESCOUNT_OFFSET UNITYSDK_OFFSET(0x11091060)
-#define PERFRAMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x110911D0)
+#define PERFRAMEDATA_GET_PARTICLESCOUNT_OFFSET UNITYSDK_OFFSET(0x108B7D90)
+#define PERFRAMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x108B7F00)
 
-inline static constexpr unsigned int PerFrameData_TypeDefinitionIndex = 26808;
+inline static constexpr unsigned int PerFrameData_TypeDefinitionIndex = 27285;
 
 class PerFrameData : public ::System::Object
 {
 public:
 	::Il2CppArray<::ParticlesData*>* particleGroups; // 0x10
 	::System::Boolean hasFrameBounds; // 0x18
+	::System::Byte _padding0[0x3];
 	::UnityEngine::Bounds frameBounds; // 0x1C
 
 	::System::Void _ctor()

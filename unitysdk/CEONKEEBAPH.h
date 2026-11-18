@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CENDGBANCMA.h"
+#include "unitysdk/System/Object.h"
+
+class CFMGIKJLMBJ;
+class FCANCDJBJNG;
+class IKNGGHOCDBF;
+
+#define CEONKEEBAPH_BFCMDODHACD_OFFSET UNITYSDK_OFFSET(0x1153A1A0)
+#define CEONKEEBAPH_JHHKHOKEONP_OFFSET UNITYSDK_OFFSET(0x1153A270)
+#define CEONKEEBAPH_LHJCBDGDHFP_OFFSET UNITYSDK_OFFSET(0x1153A220)
+#define CEONKEEBAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1153A2B0)
+
+inline static constexpr unsigned int CEONKEEBAPH_TypeDefinitionIndex = 66619;
+
+class CEONKEEBAPH : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CEONKEEBAPH__CTOR_OFFSET))(this);
+	}
+
+	::CENDGBANCMA BFCMDODHACD(::System::UInt32 DAIOBDPPJIO, ::IKNGGHOCDBF* APLFIKBEFNP, ::FCANCDJBJNG* AIBJGMNPFKB, ::CFMGIKJLMBJ*& GOHPINDANII)
+	{
+		return ((::CENDGBANCMA(*)(::PVOID, ::System::UInt32, ::IKNGGHOCDBF*, ::FCANCDJBJNG*, ::CFMGIKJLMBJ*&))((::PBYTE)hIl2Cpp + CEONKEEBAPH_BFCMDODHACD_OFFSET))(this, DAIOBDPPJIO, APLFIKBEFNP, AIBJGMNPFKB, GOHPINDANII);
+	}
+
+	::System::Void LHJCBDGDHFP(::System::UInt32 DAIOBDPPJIO, ::IKNGGHOCDBF* APLFIKBEFNP)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::IKNGGHOCDBF*))((::PBYTE)hIl2Cpp + CEONKEEBAPH_LHJCBDGDHFP_OFFSET))(this, DAIOBDPPJIO, APLFIKBEFNP);
+	}
+
+	::System::Boolean JHHKHOKEONP()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CEONKEEBAPH_JHHKHOKEONP_OFFSET))(this);
+	}
+};

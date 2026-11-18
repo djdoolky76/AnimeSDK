@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int HelpKeywordType_TypeDefinitionIndex = 3060;
+	inline static constexpr unsigned int HelpKeywordType_TypeDefinitionIndex = 3059;
 
 	enum class HelpKeywordType : ::System::Int32
 	{

@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Nap/NapECS/SingletonDisposable_1.h"
 
 namespace Nap::NapECS { class EcsWorld; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NAP_NAPECS_ECSWORLDMANAGER_CREATEWORLD_OFFSET UNITYSDK_OFFSET(0x1C8596A0)
-#define NAP_NAPECS_ECSWORLDMANAGER_DESTROYWORLD_OFFSET UNITYSDK_OFFSET(0x1C859710)
-#define NAP_NAPECS_ECSWORLDMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C8595F0)
-#define NAP_NAPECS_ECSWORLDMANAGER_NAP_NAPECS_ICREATABLE_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1C859520)
-#define NAP_NAPECS_ECSWORLDMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C859830)
+#define NAP_NAPECS_ECSWORLDMANAGER_CREATEWORLD_OFFSET UNITYSDK_OFFSET(0x1CE20D30)
+#define NAP_NAPECS_ECSWORLDMANAGER_DESTROYWORLD_OFFSET UNITYSDK_OFFSET(0x1CE20DA0)
+#define NAP_NAPECS_ECSWORLDMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CE20C80)
+#define NAP_NAPECS_ECSWORLDMANAGER_NAP_NAPECS_ICREATABLE_ONCREATE_OFFSET UNITYSDK_OFFSET(0x1CE20BB0)
+#define NAP_NAPECS_ECSWORLDMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE20EC0)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsWorldManager_TypeDefinitionIndex = 38040;
+	inline static constexpr unsigned int EcsWorldManager_TypeDefinitionIndex = 36004;
 
-	class EcsWorldManager : public ::Nap::NapECS::SingletonDisposable_1<::Nap::NapECS::EcsWorldManager*>
+	class EcsWorldManager
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Nap::NapECS::EcsWorld*>* worldDict; // 0x10

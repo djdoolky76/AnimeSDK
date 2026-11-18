@@ -9,15 +9,15 @@ namespace System::Reflection { class Module; }
 namespace System::Reflection { class RuntimeModule; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_45DB550DE2BB43E0_OFFSET UNITYSDK_OFFSET(0x1D68D9A0)
-#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_4944A8256F09EC34_1_OFFSET UNITYSDK_OFFSET(0x1D68DDB0)
-#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_4944A8256F09EC34_OFFSET UNITYSDK_OFFSET(0x1D68DB10)
-#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_658233F71CDC01ED_1_OFFSET UNITYSDK_OFFSET(0x1D68DAA0)
-#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_658233F71CDC01ED_OFFSET UNITYSDK_OFFSET(0x1D68DA30)
-#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1D68DDC0)
-#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_DC4D0E49726141FD_OFFSET UNITYSDK_OFFSET(0x1D68DC70)
-#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_E0730323297BCBC5_OFFSET UNITYSDK_OFFSET(0x1D68D910)
-#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_F76FEDFA1A270FE3_OFFSET UNITYSDK_OFFSET(0x1D68DB20)
+#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_0_OFFSET UNITYSDK_OFFSET(0x1DB5B130)
+#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_1_1_OFFSET UNITYSDK_OFFSET(0x1DB5AC80)
+#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_2_2_OFFSET UNITYSDK_OFFSET(0x1DB5ADA0)
+#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_3_OFFSET UNITYSDK_OFFSET(0x1DB5AE10)
+#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_4_4_OFFSET UNITYSDK_OFFSET(0x1DB5AD10)
+#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_5_5_OFFSET UNITYSDK_OFFSET(0x1DB5AE80)
+#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_6_6_OFFSET UNITYSDK_OFFSET(0x1DB5AE90)
+#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_7_7_OFFSET UNITYSDK_OFFSET(0x1DB5AFE0)
+#define SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_8_8_OFFSET UNITYSDK_OFFSET(0x1DB5B120)
 
 namespace System::Reflection
 {
@@ -26,49 +26,49 @@ namespace System::Reflection
 	class RuntimePropertyInfo : public ::System::Reflection::PropertyInfo
 	{
 	public:
-		::System::Void Method_3_832295EC279E5994()
+		::System::Void Method_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_0_OFFSET))(this);
 		}
 
-		::System::Reflection::Module* Method_3_E0730323297BCBC5()
+		::System::Reflection::Module* Method_1_1()
 		{
-			return ((::System::Reflection::Module*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_E0730323297BCBC5_OFFSET))(this);
+			return ((::System::Reflection::Module*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_1_1_OFFSET))(this);
 		}
 
-		::System::RuntimeType* Method_3_658233F71CDC01ED()
+		::System::RuntimeType* Method_2_2()
 		{
-			return ((::System::RuntimeType*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_658233F71CDC01ED_OFFSET))(this);
+			return ((::System::RuntimeType*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_2_2_OFFSET))(this);
 		}
 
-		::System::RuntimeType* Method_3_658233F71CDC01ED_1()
+		::System::RuntimeType* Method_3_3()
 		{
-			return ((::System::RuntimeType*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_658233F71CDC01ED_1_OFFSET))(this);
+			return ((::System::RuntimeType*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_3_OFFSET))(this);
 		}
 
-		::System::Reflection::RuntimeModule* Method_3_45DB550DE2BB43E0()
+		::System::Reflection::RuntimeModule* Method_4_4()
 		{
-			return ((::System::Reflection::RuntimeModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_45DB550DE2BB43E0_OFFSET))(this);
+			return ((::System::Reflection::RuntimeModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_4_4_OFFSET))(this);
 		}
 
-		::System::String* Method_3_4944A8256F09EC34()
+		::System::String* Method_5_5()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_4944A8256F09EC34_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_5_5_OFFSET))(this);
 		}
 
-		::System::String* Method_3_F76FEDFA1A270FE3(::System::Boolean serialization)
+		::System::String* Method_6_6(::System::Boolean serialization)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_F76FEDFA1A270FE3_OFFSET))(this, serialization);
+			return ((::System::String*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_6_6_OFFSET))(this, serialization);
 		}
 
-		::System::Void Method_3_DC4D0E49726141FD(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void Method_7_7(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_DC4D0E49726141FD_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_7_7_OFFSET))(this, info, context);
 		}
 
-		::System::String* Method_3_4944A8256F09EC34_1()
+		::System::String* Method_8_8()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_3_4944A8256F09EC34_1_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEPROPERTYINFO_METHOD_8_8_OFFSET))(this);
 		}
 	};
 }

@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_1.h"
-#include "unitysdk/PipelineCamera/FinalCameraData.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1569D0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDINFINALPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F52EED0)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FixedInFinalPolicy_TypeDefinitionIndex = 38566;
+	inline static constexpr unsigned int FixedInFinalPolicy_TypeDefinitionIndex = 36565;
 
-	class FixedInFinalPolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_1<::PipelineCamera::FinalCameraData>
+	class FixedInFinalPolicy
 	{
 	public:
 		::System::Void _ctor()

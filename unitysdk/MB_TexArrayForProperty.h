@@ -5,9 +5,9 @@
 class MB_TextureArrayReference;
 namespace System { class String; }
 
-#define MB_TEXARRAYFORPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE3AA40)
+#define MB_TEXARRAYFORPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1DDA60)
 
-inline static constexpr unsigned int MB_TexArrayForProperty_TypeDefinitionIndex = 94457;
+inline static constexpr unsigned int MB_TexArrayForProperty_TypeDefinitionIndex = 96144;
 
 class MB_TexArrayForProperty : public ::System::Object
 {

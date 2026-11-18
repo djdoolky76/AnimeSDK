@@ -5,12 +5,12 @@
 namespace MoleMole { class UIHollowAchievementDialogOpenCardWidgetController; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define MOLEMOLE_UIHOLLOWACHIEVEMENTDIALOGOPENCARDWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189870F0)
-#define MOLEMOLE_UIHOLLOWACHIEVEMENTDIALOGOPENCARDWIDGETCONTROLLER___C__DISPLAYCLASS10_0__INITTABLIST_B__0_OFFSET UNITYSDK_OFFSET(0x18987100)
+#define MOLEMOLE_UIHOLLOWACHIEVEMENTDIALOGOPENCARDWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16EFA380)
+#define MOLEMOLE_UIHOLLOWACHIEVEMENTDIALOGOPENCARDWIDGETCONTROLLER___C__DISPLAYCLASS10_0__INITTABLIST_B__0_OFFSET UNITYSDK_OFFSET(0x16EFA390)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowAchievementDialogOpenCardWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 68748;
+	inline static constexpr unsigned int UIHollowAchievementDialogOpenCardWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 59520;
 
 	class UIHollowAchievementDialogOpenCardWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{

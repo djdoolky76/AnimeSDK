@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 
 namespace MoleMole { class AbyssS2_DefaultRng; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2CREATECUSTOMRNG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1AE960)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2CREATECUSTOMRNG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AEA20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2CREATECUSTOMRNG_INVOKE_OFFSET UNITYSDK_OFFSET(0x14AE2FE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2CREATECUSTOMRNG__CTOR_OFFSET UNITYSDK_OFFSET(0x14AE30A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2CreateCustomRNG_TypeDefinitionIndex = 43706;
+	inline static constexpr unsigned int LD_AbyssS2CreateCustomRNG_TypeDefinitionIndex = 56480;
 
-	class LD_AbyssS2CreateCustomRNG : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::MoleMole::AbyssS2_DefaultRng*, ::System::Int32>
+	class LD_AbyssS2CreateCustomRNG
 	{
 	public:
 		::System::Void _ctor()

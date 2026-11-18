@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1912FE90)
-#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__DISPLAYCLASS40_0__INITCARD_B__0_OFFSET UNITYSDK_OFFSET(0x1912FEA0)
+#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186B0360)
+#define MOLEMOLE_UILEVELLONGFIGHTRESULTCHESSBOARDTYPEPAGECONTROLLER___C__DISPLAYCLASS40_0__INITCARD_B__0_OFFSET UNITYSDK_OFFSET(0x186B0370)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelLongFightResultChessboardTypePageController___c__DisplayClass40_0_TypeDefinitionIndex = 44258;
+	inline static constexpr unsigned int UILevelLongFightResultChessboardTypePageController___c__DisplayClass40_0_TypeDefinitionIndex = 78835;
 
 	class UILevelLongFightResultChessboardTypePageController___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* cardList; // 0x10
+		::System::Collections::Generic::List_1<::HGAJKHIMKJP*>* cardList; // 0x10
 
 		::System::Void _ctor()
 		{

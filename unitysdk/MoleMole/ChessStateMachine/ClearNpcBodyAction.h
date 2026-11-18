@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ChessStateMachine/TextureSheetVEBase.h"
 
-class Class_1_43BD383C98B4C0C5_31;
+class PINBHKFHPAL;
 
-#define MOLEMOLE_CHESSSTATEMACHINE_CLEARNPCBODYACTION_RUN_OFFSET UNITYSDK_OFFSET(0x162420C0)
-#define MOLEMOLE_CHESSSTATEMACHINE_CLEARNPCBODYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16242170)
-#define MOLEMOLE_CHESSSTATEMACHINE_CLEARNPCBODYACTION___BASE_RUN_OFFSET UNITYSDK_OFFSET(0x16242180)
+#define MOLEMOLE_CHESSSTATEMACHINE_CLEARNPCBODYACTION_RUN_OFFSET UNITYSDK_OFFSET(0x1079EF20)
+#define MOLEMOLE_CHESSSTATEMACHINE_CLEARNPCBODYACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1079EFD0)
+#define MOLEMOLE_CHESSSTATEMACHINE_CLEARNPCBODYACTION___BASE_RUN_OFFSET UNITYSDK_OFFSET(0x1079EFE0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ClearNpcBodyAction_TypeDefinitionIndex = 58690;
+	inline static constexpr unsigned int ClearNpcBodyAction_TypeDefinitionIndex = 89208;
 
 	class ClearNpcBodyAction : public ::MoleMole::ChessStateMachine::TextureSheetVEBase
 	{
@@ -22,14 +22,14 @@ namespace MoleMole::ChessStateMachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_CLEARNPCBODYACTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Run(::Class_1_43BD383C98B4C0C5_31* context)
+		::System::Void Run(::PINBHKFHPAL* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_31*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_CLEARNPCBODYACTION_RUN_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::PINBHKFHPAL*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_CLEARNPCBODYACTION_RUN_OFFSET))(this, context);
 		}
 
-		::System::Void __base_Run(::Class_1_43BD383C98B4C0C5_31* P0)
+		::System::Void __base_Run(::PINBHKFHPAL* P0)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_31*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_CLEARNPCBODYACTION___BASE_RUN_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::PINBHKFHPAL*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_CLEARNPCBODYACTION___BASE_RUN_OFFSET))(this, P0);
 		}
 	};
 }

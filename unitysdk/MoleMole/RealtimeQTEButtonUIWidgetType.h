@@ -3,15 +3,16 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RealtimeQTEButtonUIWidgetType_TypeDefinitionIndex = 76540;
+	inline static constexpr unsigned int RealtimeQTEButtonUIWidgetType_TypeDefinitionIndex = 54336;
 
 	enum class RealtimeQTEButtonUIWidgetType : ::System::Int32
 	{
-		SwitchTeamInFight = 4,
-		CoopLinkZoneUlt = 2,
 		DefaultV2 = 1,
-		ZenkovPyroisExecute = 5,
 		CoopRelayAttack = 3,
+		Wrestle = 6,
+		CoopLinkZoneUlt = 2,
+		SwitchTeamInFight = 4,
 		Default = 0,
+		ZenkovPyroisExecute = 5,
 	};
 }

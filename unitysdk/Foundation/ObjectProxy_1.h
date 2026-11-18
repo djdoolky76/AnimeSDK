@@ -3,11 +3,9 @@
 #include "unitysdk/Foundation/ObjectHandle.h"
 #include "unitysdk/System/Object.h"
 
-namespace Foundation { class IObject; }
-
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectProxy_1_TypeDefinitionIndex = 8802;
+	inline static constexpr unsigned int ObjectProxy_1_TypeDefinitionIndex = 9082;
 
 	template <typename T>
 	class ObjectProxy_1 : public ::System::Object

@@ -1,47 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x8D9090)
-#define MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x8D9000)
-#define MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_METHOD_2_D4DA1493472613E6_OFFSET UNITYSDK_OFFSET(0x8D90F0)
-#define MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_METHOD_2_E4D020DE71A7D4FC_OFFSET UNITYSDK_OFFSET(0x8D9120)
+#define MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x7D9900)
+#define MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_FROMFLX_OFFSET UNITYSDK_OFFSET(0x7D9870)
+#define MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_IAEALJJMOKA_OFFSET UNITYSDK_OFFSET(0x7D9960)
+#define MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_PDHKICNJNGG_OFFSET UNITYSDK_OFFSET(0x7D9970)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int RuntimeSetMemberData_TypeDefinitionIndex = 52824;
+	inline static constexpr unsigned int RuntimeSetMemberData_TypeDefinitionIndex = 74755;
 
 	struct alignas(8) RuntimeSetMemberData
 	{
 		::System::String* nameId; // 0x10
 		::System::Collections::Generic::List_1<::System::Boolean>* activeStates; // 0x18
 
-		/*
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_FROMFLX_OFFSET))(this, a1);
-		}
-		*/
-
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_FROMFLX_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		/*
-		::System::Boolean Method_2_D4DA1493472613E6(::FlexBuffers::FlxMap a1)
+		::System::Boolean FromBinary(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_METHOD_2_D4DA1493472613E6_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_FROMBINARY_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
-		*/
 
-		::System::Boolean Method_2_E4D020DE71A7D4FC(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean IAEALJJMOKA(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_METHOD_2_E4D020DE71A7D4FC_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_IAEALJJMOKA_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
+		}
+
+		::System::Boolean PDHKICNJNGG(::FlexBuffers::FlxMap HHIJHDFHPOI)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_RUNTIMESETMEMBERDATA_PDHKICNJNGG_OFFSET))(this, HHIJHDFHPOI);
 		}
 	};
 }

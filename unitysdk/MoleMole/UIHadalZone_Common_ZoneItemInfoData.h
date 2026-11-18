@@ -2,23 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_3_6E9568744155E92F;
+class JIGCAHMLJAH;
 
-#define MOLEMOLE_UIHADALZONE_COMMON_ZONEITEMINFODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x172FAA30)
+#define MOLEMOLE_UIHADALZONE_COMMON_ZONEITEMINFODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x173D72B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHadalZone_Common_ZoneItemInfoData_TypeDefinitionIndex = 43792;
+	inline static constexpr unsigned int UIHadalZone_Common_ZoneItemInfoData_TypeDefinitionIndex = 50973;
 
 	class UIHadalZone_Common_ZoneItemInfoData : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_6E9568744155E92F* entranceData; // 0x28
-		::System::Int32 entranceID; // 0x30
-		::System::Int32 curZoneID; // 0x34
-		::System::Boolean isSelected; // 0x38
-		::System::Boolean isValid; // 0x39
-		::System::Boolean isLockButCanClick; // 0x3A
+		::JIGCAHMLJAH* entranceData; // 0x28
+		::System::Boolean isSelected; // 0x30
+		::System::Boolean isValid; // 0x31
+		::System::Boolean isLockButCanClick; // 0x32
+		::System::Byte _padding0[0x1];
+		::System::Int32 entranceID; // 0x34
+		::System::Int32 curZoneID; // 0x38
 
 		::System::Void _ctor()
 		{

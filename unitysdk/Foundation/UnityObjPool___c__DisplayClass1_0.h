@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/AssetRequestHandle.h"
 
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define FOUNDATION_UNITYOBJPOOL___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12719FC0)
-#define FOUNDATION_UNITYOBJPOOL___C__DISPLAYCLASS1_0__INSTANTIATEWITHOUTPOOLASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x12719FD0)
+#define FOUNDATION_UNITYOBJPOOL___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11D945D0)
+#define FOUNDATION_UNITYOBJPOOL___C__DISPLAYCLASS1_0__INSTANTIATEWITHOUTPOOLASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x11D945E0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int UnityObjPool___c__DisplayClass1_0_TypeDefinitionIndex = 84354;
+	inline static constexpr unsigned int UnityObjPool___c__DisplayClass1_0_TypeDefinitionIndex = 68375;
 
 	class UnityObjPool___c__DisplayClass1_0 : public ::System::Object
 	{

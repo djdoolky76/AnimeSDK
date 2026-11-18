@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 #include "unitysdk/MoleMole/Config/BaseProperty.h"
 
-class Class_2_F5737224A0253470;
+class OBKNEEOLOPB;
 namespace MoleMole::FlowCanvas { class ModifyPropItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_GETCONFIGMAXVAL_OFFSET UNITYSDK_OFFSET(0x1B198910)
-#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B198750)
-#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_MODIFYPROP_OFFSET UNITYSDK_OFFSET(0x1B1988C0)
-#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_PREPROCESS_OFFSET UNITYSDK_OFFSET(0x1B198A00)
-#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_PROCESSHPDESC_OFFSET UNITYSDK_OFFSET(0x1B1989B0)
-#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_PROCESSTEAMSTAMINA_OFFSET UNITYSDK_OFFSET(0x1B198960)
-#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B198A50)
+#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_GETCONFIGMAXVAL_OFFSET UNITYSDK_OFFSET(0x1B4AA760)
+#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4AA5A0)
+#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_MODIFYPROP_OFFSET UNITYSDK_OFFSET(0x1B4AA710)
+#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_PREPROCESS_OFFSET UNITYSDK_OFFSET(0x1B4AA850)
+#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_PROCESSHPDESC_OFFSET UNITYSDK_OFFSET(0x1B4AA800)
+#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_PROCESSTEAMSTAMINA_OFFSET UNITYSDK_OFFSET(0x1B4AA7B0)
+#define MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AA8A0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ModifyPropNode_TypeDefinitionIndex = 79337;
+	inline static constexpr unsigned int ModifyPropNode_TypeDefinitionIndex = 87713;
 
-	class ModifyPropNode : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::ModifyPropItem*>*>
+	class ModifyPropNode
 	{
 	public:
 		::System::Void _ctor()
@@ -42,9 +41,9 @@ namespace MoleMole::FlowCanvas
 			return ((::System::Single(*)(::PVOID, ::System::Int32, ::MoleMole::Config::BaseProperty))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_GETCONFIGMAXVAL_OFFSET))(this, avatarTID, prop);
 		}
 
-		::System::Void ProcessTeamStamina(::MoleMole::FlowCanvas::ModifyPropItem* property, ::Class_2_F5737224A0253470* model)
+		::System::Void ProcessTeamStamina(::MoleMole::FlowCanvas::ModifyPropItem* property, ::OBKNEEOLOPB* model)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::FlowCanvas::ModifyPropItem*, ::Class_2_F5737224A0253470*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_PROCESSTEAMSTAMINA_OFFSET))(this, property, model);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::FlowCanvas::ModifyPropItem*, ::OBKNEEOLOPB*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_PROCESSTEAMSTAMINA_OFFSET))(this, property, model);
 		}
 
 		::System::Void ProcessHPDesc(::MoleMole::FlowCanvas::ModifyPropItem* property)
@@ -52,9 +51,9 @@ namespace MoleMole::FlowCanvas
 			return ((::System::Void(*)(::PVOID, ::MoleMole::FlowCanvas::ModifyPropItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_PROCESSHPDESC_OFFSET))(this, property);
 		}
 
-		::System::Boolean PreProcess(::MoleMole::FlowCanvas::ModifyPropItem* property, ::Class_2_F5737224A0253470* model)
+		::System::Boolean PreProcess(::MoleMole::FlowCanvas::ModifyPropItem* property, ::OBKNEEOLOPB* model)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::FlowCanvas::ModifyPropItem*, ::Class_2_F5737224A0253470*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_PREPROCESS_OFFSET))(this, property, model);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::FlowCanvas::ModifyPropItem*, ::OBKNEEOLOPB*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_MODIFYPROPNODE_PREPROCESS_OFFSET))(this, property, model);
 		}
 	};
 }

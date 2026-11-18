@@ -8,33 +8,33 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define ETHEREYEBREAKMATERIAL_CLOSEVISION_OFFSET UNITYSDK_OFFSET(0x147EB3E0)
-#define ETHEREYEBREAKMATERIAL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x147EB630)
-#define ETHEREYEBREAKMATERIAL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x147EAF80)
-#define ETHEREYEBREAKMATERIAL_OPENVISION_OFFSET UNITYSDK_OFFSET(0x147EB940)
-#define ETHEREYEBREAKMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x147EBC40)
-#define ETHEREYEBREAKMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x147EBB60)
+#define ETHEREYEBREAKMATERIAL_CLOSEVISION_OFFSET UNITYSDK_OFFSET(0x158C7280)
+#define ETHEREYEBREAKMATERIAL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x158C74D0)
+#define ETHEREYEBREAKMATERIAL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x158C6E70)
+#define ETHEREYEBREAKMATERIAL_OPENVISION_OFFSET UNITYSDK_OFFSET(0x158C77E0)
+#define ETHEREYEBREAKMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x158C7AE0)
+#define ETHEREYEBREAKMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x158C7A00)
 
-inline static constexpr unsigned int EtherEyeBreakMaterial_TypeDefinitionIndex = 71167;
+inline static constexpr unsigned int EtherEyeBreakMaterial_TypeDefinitionIndex = 72196;
 
 class EtherEyeBreakMaterial : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_pathMats()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(EtherEyeBreakMaterial_TypeDefinitionIndex)->GetStaticField(0x2F350);
+		return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(EtherEyeBreakMaterial_TypeDefinitionIndex)->GetStaticField(0x31880);
 	}
 	static ::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>** StaticGet_matHandles()
 	{
-		return (::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>**)Il2CppClass::FromTypeDefinitionIndex(EtherEyeBreakMaterial_TypeDefinitionIndex)->GetStaticField(0x2F358);
+		return (::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>**)Il2CppClass::FromTypeDefinitionIndex(EtherEyeBreakMaterial_TypeDefinitionIndex)->GetStaticField(0x31888);
 	}
 	static ::System::Int32* StaticGet_pathCount()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EtherEyeBreakMaterial_TypeDefinitionIndex)->GetStaticField(0xA340);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EtherEyeBreakMaterial_TypeDefinitionIndex)->GetStaticField(0xA7A0);
 	}
 	static ::System::Boolean* StaticGet_pathMatLoaded()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EtherEyeBreakMaterial_TypeDefinitionIndex)->GetStaticField(0xA344);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EtherEyeBreakMaterial_TypeDefinitionIndex)->GetStaticField(0xA7A4);
 	}
 	// static const ::System::String* configPath; // 0x0
 	::System::Int32 _AlphaSphereFadeOut; // 0x18

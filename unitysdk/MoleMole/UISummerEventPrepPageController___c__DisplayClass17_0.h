@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_CFC1DA8C3898E356;
+class AGFBDEFDLAM;
 namespace MoleMole { class UISummerEventPrepPageController; }
 
-#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x119F4F80)
-#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS17_0__ONUIINIT_B__0_OFFSET UNITYSDK_OFFSET(0x119F4F90)
-#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS17_0__ONUIINIT_B__1_OFFSET UNITYSDK_OFFSET(0x119F4FD0)
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1562ACF0)
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS17_0__ONUIINIT_B__0_OFFSET UNITYSDK_OFFSET(0x1562AD00)
+#define MOLEMOLE_UISUMMEREVENTPREPPAGECONTROLLER___C__DISPLAYCLASS17_0__ONUIINIT_B__1_OFFSET UNITYSDK_OFFSET(0x1562AD40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerEventPrepPageController___c__DisplayClass17_0_TypeDefinitionIndex = 67943;
+	inline static constexpr unsigned int UISummerEventPrepPageController___c__DisplayClass17_0_TypeDefinitionIndex = 39407;
 
 	class UISummerEventPrepPageController___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::Class_2_CFC1DA8C3898E356* compBtnData; // 0x10
-		::Class_2_CFC1DA8C3898E356* compBtnDataSkin; // 0x18
-		::MoleMole::UISummerEventPrepPageController* __4__this; // 0x20
+		::AGFBDEFDLAM* compBtnData; // 0x10
+		::MoleMole::UISummerEventPrepPageController* __4__this; // 0x18
+		::AGFBDEFDLAM* compBtnDataSkin; // 0x20
 
 		::System::Void _ctor()
 		{

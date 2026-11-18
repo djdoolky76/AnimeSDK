@@ -3,19 +3,19 @@
 #include "unitysdk/MoleMole/HollowChessboard/RenderDataHandle.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_2_5DF25B7A40A1031E;
+class BOFJAODPMNI;
 namespace System { class String; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_TEXTURESHEETCONFIGACTIONNEW_RUNTIMEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x8659D0)
+#define MOLEMOLE_CHESSSTATEMACHINE_TEXTURESHEETCONFIGACTIONNEW_RUNTIMEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x784FF0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int TextureSheetConfigActionNew_RuntimeData_TypeDefinitionIndex = 64650;
+	inline static constexpr unsigned int TextureSheetConfigActionNew_RuntimeData_TypeDefinitionIndex = 71998;
 
 	struct alignas(8) TextureSheetConfigActionNew_RuntimeData
 	{
 		::MoleMole::HollowChessboard::RenderDataHandle animHandle; // 0x10
-		::Class_2_5DF25B7A40A1031E* _actionContext; // 0x20
+		::BOFJAODPMNI* _actionContext; // 0x20
 		::System::String* finalTextureSheetKey; // 0x28
 
 		::System::Void Reset()

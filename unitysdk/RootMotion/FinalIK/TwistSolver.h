@@ -6,14 +6,14 @@
 
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_TWISTSOLVER_FIXTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x1F138DD0)
-#define ROOTMOTION_FINALIK_TWISTSOLVER_INITIATE_OFFSET UNITYSDK_OFFSET(0x1F138100)
-#define ROOTMOTION_FINALIK_TWISTSOLVER_RELAX_OFFSET UNITYSDK_OFFSET(0x1F138EB0)
-#define ROOTMOTION_FINALIK_TWISTSOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F138070)
+#define ROOTMOTION_FINALIK_TWISTSOLVER_FIXTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x1F50C880)
+#define ROOTMOTION_FINALIK_TWISTSOLVER_INITIATE_OFFSET UNITYSDK_OFFSET(0x1F50BBB0)
+#define ROOTMOTION_FINALIK_TWISTSOLVER_RELAX_OFFSET UNITYSDK_OFFSET(0x1F50C960)
+#define ROOTMOTION_FINALIK_TWISTSOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F50BB20)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int TwistSolver_TypeDefinitionIndex = 38851;
+	inline static constexpr unsigned int TwistSolver_TypeDefinitionIndex = 36816;
 
 	class TwistSolver : public ::System::Object
 	{
@@ -28,9 +28,12 @@ namespace RootMotion::FinalIK
 		::UnityEngine::Vector3 axis; // 0x40
 		::UnityEngine::Vector3 axisRelativeToParentDefault; // 0x4C
 		::UnityEngine::Vector3 axisRelativeToChildDefault; // 0x58
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::Quaternion>* childRotations; // 0x68
 		::System::Boolean inititated; // 0x70
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Quaternion defaultLocalRotation; // 0x74
+		::System::Byte _padding2[0x4];
 		::Il2CppArray<::UnityEngine::Quaternion>* defaultChildLocalRotations; // 0x88
 
 		::System::Void _ctor()

@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 #include "unitysdk/NPCCrowd/AI/CrowdConditionBase.h"
+#include "unitysdk/NPCCrowd/AI/ConditionContext.h"
 
-#define NPCCROWD_AI_FALSECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0xD87E920)
-#define NPCCROWD_AI_FALSECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xD87E910)
+#define NPCCROWD_AI_FALSECONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0xED54530)
+#define NPCCROWD_AI_FALSECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xED54520)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int FalseCondition_TypeDefinitionIndex = 86332;
+	inline static constexpr unsigned int FalseCondition_TypeDefinitionIndex = 46144;
 
 	class FalseCondition : public ::NPCCrowd::AI::CrowdConditionBase
 	{

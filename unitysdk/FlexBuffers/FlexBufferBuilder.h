@@ -6,13 +6,13 @@ namespace FlexBuffers { class IFlexBufferMapBuilder; }
 namespace FlexBuffers { class IFlexBufferVectorBuilder; }
 namespace System { template <typename T> class Action_1; }
 
-#define FLEXBUFFERS_FLEXBUFFERBUILDER_MAP_OFFSET UNITYSDK_OFFSET(0x1E9D98C0)
-#define FLEXBUFFERS_FLEXBUFFERBUILDER_VECTOR_OFFSET UNITYSDK_OFFSET(0x1E9D9980)
-#define FLEXBUFFERS_FLEXBUFFERBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D9A40)
+#define FLEXBUFFERS_FLEXBUFFERBUILDER_MAP_OFFSET UNITYSDK_OFFSET(0x1ECCE560)
+#define FLEXBUFFERS_FLEXBUFFERBUILDER_VECTOR_OFFSET UNITYSDK_OFFSET(0x1ECCE620)
+#define FLEXBUFFERS_FLEXBUFFERBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECCE6E0)
 
 namespace FlexBuffers
 {
-	inline static constexpr unsigned int FlexBufferBuilder_TypeDefinitionIndex = 6746;
+	inline static constexpr unsigned int FlexBufferBuilder_TypeDefinitionIndex = 6753;
 
 	class FlexBufferBuilder : public ::System::Object
 	{

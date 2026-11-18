@@ -8,16 +8,16 @@
 namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 
-#define MS_INTERNAL_XML_XPATH_FUNCTION_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1DE39660)
-#define MS_INTERNAL_XML_XPATH_FUNCTION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1DE39650)
-#define MS_INTERNAL_XML_XPATH_FUNCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE39700)
-#define MS_INTERNAL_XML_XPATH_FUNCTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DE39520)
-#define MS_INTERNAL_XML_XPATH_FUNCTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DE39590)
-#define MS_INTERNAL_XML_XPATH_FUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE394C0)
+#define MS_INTERNAL_XML_XPATH_FUNCTION_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1E2B9200)
+#define MS_INTERNAL_XML_XPATH_FUNCTION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E2B91F0)
+#define MS_INTERNAL_XML_XPATH_FUNCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2B92A0)
+#define MS_INTERNAL_XML_XPATH_FUNCTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E2B90C0)
+#define MS_INTERNAL_XML_XPATH_FUNCTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E2B9130)
+#define MS_INTERNAL_XML_XPATH_FUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2B9060)
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int Function_TypeDefinitionIndex = 1642;
+	inline static constexpr unsigned int Function_TypeDefinitionIndex = 1641;
 
 	class Function : public ::MS::Internal::Xml::XPath::AstNode
 	{
@@ -27,8 +27,8 @@ namespace MS::Internal::Xml::XPath
 			return (::Il2CppArray<::System::Xml::XPath::XPathResultType>**)Il2CppClass::FromTypeDefinitionIndex(Function_TypeDefinitionIndex)->GetStaticField(0x1F50);
 		}
 		::System::String* prefix; // 0x10
-		::System::Collections::ArrayList* argumentList; // 0x18
-		::System::String* name; // 0x20
+		::System::String* name; // 0x18
+		::System::Collections::ArrayList* argumentList; // 0x20
 		::MS::Internal::Xml::XPath::Function_FunctionType functionType; // 0x28
 
 		::System::Void _ctor(::MS::Internal::Xml::XPath::Function_FunctionType ftype, ::System::Collections::ArrayList* argumentList)

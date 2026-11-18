@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIShoppingMallV2PageController_BgAnimationState_TypeDefinitionIndex = 76940;
+	inline static constexpr unsigned int UIShoppingMallV2PageController_BgAnimationState_TypeDefinitionIndex = 77171;
 
 	enum class UIShoppingMallV2PageController_BgAnimationState : ::System::Int32
 	{

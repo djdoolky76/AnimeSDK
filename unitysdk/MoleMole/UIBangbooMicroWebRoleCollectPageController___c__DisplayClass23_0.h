@@ -5,12 +5,12 @@
 namespace MoleMole { class UIBangbooMicroWebRoleCollectPageController; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__DISPLAYCLASS23_0__BUILDROLEROWWIDGETSFROMPARENT_B__0_OFFSET UNITYSDK_OFFSET(0x192A5660)
-#define MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x192A5650)
+#define MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__DISPLAYCLASS23_0__BUILDROLEROWWIDGETSFROMPARENT_B__0_OFFSET UNITYSDK_OFFSET(0x188F6270)
+#define MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188F6260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooMicroWebRoleCollectPageController___c__DisplayClass23_0_TypeDefinitionIndex = 46691;
+	inline static constexpr unsigned int UIBangbooMicroWebRoleCollectPageController___c__DisplayClass23_0_TypeDefinitionIndex = 85720;
 
 	class UIBangbooMicroWebRoleCollectPageController___c__DisplayClass23_0 : public ::System::Object
 	{

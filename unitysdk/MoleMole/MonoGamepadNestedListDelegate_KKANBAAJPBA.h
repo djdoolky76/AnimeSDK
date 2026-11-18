@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/MonoGamepadNestedListDelegate_KKANBAAJPBA_PGBADEKHMGK.h"
+#include "unitysdk/MoleMole/MonoGamepadNestedListDelegate_LMLPOHFKKOK.h"
+#include "unitysdk/System/Nullable_1.h"
+
+#define MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_KKANBAAJPBA_APLEMEFFIEH_OFFSET UNITYSDK_OFFSET(0x10434460)
+#define MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_KKANBAAJPBA_FELNPAGHBHJ_OFFSET UNITYSDK_OFFSET(0x10434500)
+#define MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_KKANBAAJPBA_OIAHLKHEBEP_OFFSET UNITYSDK_OFFSET(0x10434220)
+#define MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_KKANBAAJPBA_OKMFOMJGLNG_OFFSET UNITYSDK_OFFSET(0x104343C0)
+#define MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_KKANBAAJPBA__CTOR_OFFSET UNITYSDK_OFFSET(0x104344F0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int MonoGamepadNestedListDelegate_KKANBAAJPBA_TypeDefinitionIndex = 45019;
+
+	class MonoGamepadNestedListDelegate_KKANBAAJPBA : public ::MoleMole::MonoGamepadNestedListDelegate_LMLPOHFKKOK
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_KKANBAAJPBA__CTOR_OFFSET))(this);
+		}
+
+		::System::Nullable_1<::System::Boolean> OIAHLKHEBEP()
+		{
+			return ((::System::Nullable_1<::System::Boolean>(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_KKANBAAJPBA_OIAHLKHEBEP_OFFSET))(this);
+		}
+
+		::System::Void OKMFOMJGLNG()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_KKANBAAJPBA_OKMFOMJGLNG_OFFSET))(this);
+		}
+
+		::System::Void APLEMEFFIEH(::MoleMole::MonoGamepadNestedListDelegate_KKANBAAJPBA_PGBADEKHMGK EGEGIMGMJHN)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadNestedListDelegate_KKANBAAJPBA_PGBADEKHMGK))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_KKANBAAJPBA_APLEMEFFIEH_OFFSET))(this, EGEGIMGMJHN);
+		}
+
+		::MoleMole::MonoGamepadNestedListDelegate_KKANBAAJPBA_PGBADEKHMGK FELNPAGHBHJ()
+		{
+			return ((::MoleMole::MonoGamepadNestedListDelegate_KKANBAAJPBA_PGBADEKHMGK(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADNESTEDLISTDELEGATE_KKANBAAJPBA_FELNPAGHBHJ_OFFSET))(this);
+		}
+	};
+}

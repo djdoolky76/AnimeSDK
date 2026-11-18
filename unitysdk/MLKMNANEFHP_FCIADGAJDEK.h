@@ -1,0 +1,71 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class EventArgs; }
+namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
+
+#define MLKMNANEFHP_FCIADGAJDEK_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x74A0C0)
+#define MLKMNANEFHP_FCIADGAJDEK_EQUALS_OFFSET UNITYSDK_OFFSET(0x74A040)
+#define MLKMNANEFHP_FCIADGAJDEK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x74A0D0)
+#define MLKMNANEFHP_FCIADGAJDEK_HLPHPBAODIF_OFFSET UNITYSDK_OFFSET(0x74A190)
+#define MLKMNANEFHP_FCIADGAJDEK_INCFIJKMIGG_OFFSET UNITYSDK_OFFSET(0x14DF1B60)
+#define MLKMNANEFHP_FCIADGAJDEK_JGBGPJACDOG_OFFSET UNITYSDK_OFFSET(0x74A120)
+#define MLKMNANEFHP_FCIADGAJDEK_NOGJIJMACNO_OFFSET UNITYSDK_OFFSET(0x14DF1AE0)
+#define MLKMNANEFHP_FCIADGAJDEK__CTOR_OFFSET UNITYSDK_OFFSET(0x3F28E0)
+
+inline static constexpr unsigned int MLKMNANEFHP_FCIADGAJDEK_TypeDefinitionIndex = 83100;
+
+struct alignas(8) MLKMNANEFHP_FCIADGAJDEK
+{
+	::System::Int32 GEPABHJBIAH; // 0x10
+	::System::Byte _padding0[0x4];
+	::System::Action_1<::System::EventArgs*>* PHHDHIBOCKA; // 0x18
+
+	::System::Void _ctor(::System::Int32 GEPABHJBIAH, ::System::Action_1<::System::EventArgs*>* PHHDHIBOCKA)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action_1<::System::EventArgs*>*))((::PBYTE)hIl2Cpp + MLKMNANEFHP_FCIADGAJDEK__CTOR_OFFSET))(this, GEPABHJBIAH, PHHDHIBOCKA);
+	}
+
+	/*
+	::System::Boolean Equals(::MLKMNANEFHP_FCIADGAJDEK LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::MLKMNANEFHP_FCIADGAJDEK))((::PBYTE)hIl2Cpp + MLKMNANEFHP_FCIADGAJDEK_EQUALS_OFFSET))(this, LIBPKNHDIGP);
+	}
+	*/
+
+	::System::Boolean Equals_1(::System::Object* EIFONLCJOPG)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MLKMNANEFHP_FCIADGAJDEK_EQUALS_1_OFFSET))(this, EIFONLCJOPG);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MLKMNANEFHP_FCIADGAJDEK_GETHASHCODE_OFFSET))(this);
+	}
+
+	::System::Boolean JGBGPJACDOG(::System::Object* MIALFKCCCPI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MLKMNANEFHP_FCIADGAJDEK_JGBGPJACDOG_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	/*
+	static ::System::Boolean NOGJIJMACNO(::MLKMNANEFHP_FCIADGAJDEK KILPCOMOCMD, ::MLKMNANEFHP_FCIADGAJDEK BBCODANAFGI)
+	{
+		return ((::System::Boolean(*)(::MLKMNANEFHP_FCIADGAJDEK, ::MLKMNANEFHP_FCIADGAJDEK))((::PBYTE)hIl2Cpp + MLKMNANEFHP_FCIADGAJDEK_NOGJIJMACNO_OFFSET))(KILPCOMOCMD, BBCODANAFGI);
+	}
+	*/
+
+	::System::Int32 HLPHPBAODIF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MLKMNANEFHP_FCIADGAJDEK_HLPHPBAODIF_OFFSET))(this);
+	}
+
+	/*
+	static ::System::Boolean INCFIJKMIGG(::MLKMNANEFHP_FCIADGAJDEK KILPCOMOCMD, ::MLKMNANEFHP_FCIADGAJDEK BBCODANAFGI)
+	{
+		return ((::System::Boolean(*)(::MLKMNANEFHP_FCIADGAJDEK, ::MLKMNANEFHP_FCIADGAJDEK))((::PBYTE)hIl2Cpp + MLKMNANEFHP_FCIADGAJDEK_INCFIJKMIGG_OFFSET))(KILPCOMOCMD, BBCODANAFGI);
+	}
+	*/
+};

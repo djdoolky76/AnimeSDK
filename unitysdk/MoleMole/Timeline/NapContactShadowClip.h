@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class NapContactShadowBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_NAPCONTACTSHADOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B20C480)
-#define MOLEMOLE_TIMELINE_NAPCONTACTSHADOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B20C470)
-#define MOLEMOLE_TIMELINE_NAPCONTACTSHADOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B20C660)
+#define MOLEMOLE_TIMELINE_NAPCONTACTSHADOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1C0D3800)
+#define MOLEMOLE_TIMELINE_NAPCONTACTSHADOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1C0D37F0)
+#define MOLEMOLE_TIMELINE_NAPCONTACTSHADOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D39E0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int NapContactShadowClip_TypeDefinitionIndex = 45350;
+	inline static constexpr unsigned int NapContactShadowClip_TypeDefinitionIndex = 58601;
 
 	class NapContactShadowClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -31,9 +31,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_NAPCONTACTSHADOWCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* AMNIHACKELI)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_NAPCONTACTSHADOWCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_NAPCONTACTSHADOWCLIP_CREATEPLAYABLE_OFFSET))(this, MHPNGBGGMMN, AMNIHACKELI);
 		}
 	};
 }

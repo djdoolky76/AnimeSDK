@@ -4,12 +4,12 @@
 
 namespace System::Net::Configuration { class SmtpSection; }
 
-#define SYSTEM_NET_CONFIGURATION_MAILSETTINGSSECTIONGROUP_GET_SMTP_OFFSET UNITYSDK_OFFSET(0x1CC16030)
-#define SYSTEM_NET_CONFIGURATION_MAILSETTINGSSECTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC15FF0)
+#define SYSTEM_NET_CONFIGURATION_MAILSETTINGSSECTIONGROUP_GET_SMTP_OFFSET UNITYSDK_OFFSET(0x1D10AF90)
+#define SYSTEM_NET_CONFIGURATION_MAILSETTINGSSECTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10AF50)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int MailSettingsSectionGroup_TypeDefinitionIndex = 4134;
+	inline static constexpr unsigned int MailSettingsSectionGroup_TypeDefinitionIndex = 4133;
 
 	class MailSettingsSectionGroup : public ::System::Configuration::ConfigurationSectionGroup
 	{

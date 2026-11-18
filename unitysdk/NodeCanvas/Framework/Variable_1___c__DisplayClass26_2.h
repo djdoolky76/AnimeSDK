@@ -4,12 +4,12 @@
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Variable_1___c__DisplayClass26_2_TypeDefinitionIndex = 30486;
+	inline static constexpr unsigned int Variable_1___c__DisplayClass26_2_TypeDefinitionIndex = 29836;
 
-	template <typename T>
+	template <typename T1, typename T2>
 	class Variable_1___c__DisplayClass26_2 : public ::System::Object
 	{
 	public:
-		T value; // 0x0
+		T1 value; // 0x0
 	};
 }

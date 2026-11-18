@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/Unity/MeshGeneratorBuffers.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/Spine/Unity/MeshGeneratorBuffers.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_MESHGENERATORDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C16FEF0)
-#define SPINE_UNITY_MESHGENERATORDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C16FF60)
-#define SPINE_UNITY_MESHGENERATORDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C16FA20)
-#define SPINE_UNITY_MESHGENERATORDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C16FA00)
+#define SPINE_UNITY_MESHGENERATORDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x2001D2C0)
+#define SPINE_UNITY_MESHGENERATORDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x2001D330)
+#define SPINE_UNITY_MESHGENERATORDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x2001CDF0)
+#define SPINE_UNITY_MESHGENERATORDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x2001CDE0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int MeshGeneratorDelegate_TypeDefinitionIndex = 40169;
+	inline static constexpr unsigned int MeshGeneratorDelegate_TypeDefinitionIndex = 38189;
 
 	class MeshGeneratorDelegate : public ::System::MulticastDelegate
 	{

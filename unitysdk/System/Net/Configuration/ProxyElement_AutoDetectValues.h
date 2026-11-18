@@ -3,7 +3,7 @@
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int ProxyElement_AutoDetectValues_TypeDefinitionIndex = 4125;
+	inline static constexpr unsigned int ProxyElement_AutoDetectValues_TypeDefinitionIndex = 4124;
 
 	enum class ProxyElement_AutoDetectValues : ::System::Int32
 	{

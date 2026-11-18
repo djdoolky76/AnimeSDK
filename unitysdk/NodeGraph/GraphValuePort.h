@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NodeGraph/GraphPortType.h"
 #include "unitysdk/NodeGraph/IGraphPort.h"
-#include "unitysdk/Struct_2_A47ACAABA9AAFE92.h"
 
 namespace NodeGraph { class GraphNodeBase; }
 namespace System { class String; }
 
-#define NODEGRAPH_GRAPHVALUEPORT_GET_PORTTYPE_OFFSET UNITYSDK_OFFSET(0x17CCB880)
-#define NODEGRAPH_GRAPHVALUEPORT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17CCB8A0)
-#define NODEGRAPH_GRAPHVALUEPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x17CCB890)
-#define NODEGRAPH_GRAPHVALUEPORT___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17CCB990)
+#define NODEGRAPH_GRAPHVALUEPORT_GET_PORTTYPE_OFFSET UNITYSDK_OFFSET(0x15FB9C40)
+#define NODEGRAPH_GRAPHVALUEPORT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15FB9C60)
+#define NODEGRAPH_GRAPHVALUEPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x15FB9C50)
+#define NODEGRAPH_GRAPHVALUEPORT___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15FB9D50)
 
 namespace NodeGraph
 {
-	inline static constexpr unsigned int GraphValuePort_TypeDefinitionIndex = 68855;
+	inline static constexpr unsigned int GraphValuePort_TypeDefinitionIndex = 51543;
 
 	class GraphValuePort : public ::NodeGraph::IGraphPort
 	{

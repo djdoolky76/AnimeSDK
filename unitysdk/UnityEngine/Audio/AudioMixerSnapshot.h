@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Audio { class AudioMixer; }
 
-#define UNITYENGINE_AUDIO_AUDIOMIXERSNAPSHOT_GET_AUDIOMIXER_OFFSET UNITYSDK_OFFSET(0x1F997920)
-#define UNITYENGINE_AUDIO_AUDIOMIXERSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F997FB0)
+#define UNITYENGINE_AUDIO_AUDIOMIXERSNAPSHOT_GET_AUDIOMIXER_OFFSET UNITYSDK_OFFSET(0x1FD9CE20)
+#define UNITYENGINE_AUDIO_AUDIOMIXERSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD9D4B0)
 
 namespace UnityEngine::Audio
 {
-	inline static constexpr unsigned int AudioMixerSnapshot_TypeDefinitionIndex = 18770;
+	inline static constexpr unsigned int AudioMixerSnapshot_TypeDefinitionIndex = 17921;
 
 	class AudioMixerSnapshot : public ::UnityEngine::Object
 	{

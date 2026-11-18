@@ -5,9 +5,9 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AggregateObjectCache_ComponentData_TypeDefinitionIndex = 8764;
+	inline static constexpr unsigned int AggregateObjectCache_ComponentData_TypeDefinitionIndex = 8735;
 
-	struct alignas(8) AggregateObjectCache_ComponentData
+	struct alignas(4) AggregateObjectCache_ComponentData
 	{
 		::System::Int64 TypeHash; // 0x10
 		::Foundation::AggregateComponentAssignableInterface Interfaces; // 0x18

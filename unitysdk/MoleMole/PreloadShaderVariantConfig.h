@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_PRELOADSHADERVARIANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173A1670)
+#define MOLEMOLE_PRELOADSHADERVARIANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13F0F120)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PreloadShaderVariantConfig_TypeDefinitionIndex = 72688;
+	inline static constexpr unsigned int PreloadShaderVariantConfig_TypeDefinitionIndex = 49349;
 
 	class PreloadShaderVariantConfig : public ::System::Object
 	{

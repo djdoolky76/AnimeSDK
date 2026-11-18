@@ -6,36 +6,35 @@ namespace System { class Attribute; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Reflection { class ICustomAttributeProvider; }
 
-#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_CREATENICENAME_OFFSET UNITYSDK_OFFSET(0x1F262640)
-#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_GETATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1F262FA0)
-#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1F262E80)
-#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_GETCACHEDNICENAME_OFFSET UNITYSDK_OFFSET(0x1F262350)
-#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_GETNICENAME_OFFSET UNITYSDK_OFFSET(0x1F262270)
-#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_INHERITSFROM_OFFSET UNITYSDK_OFFSET(0x1F262AE0)
-#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_TYPENAMEGAUNTLET_OFFSET UNITYSDK_OFFSET(0x1F262D70)
-#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F263060)
+#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_CREATENICENAME_OFFSET UNITYSDK_OFFSET(0x1F661510)
+#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_GETATTRIBUTES_2_OFFSET UNITYSDK_OFFSET(0x1F661D50)
+#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_GETATTRIBUTES_3_OFFSET UNITYSDK_OFFSET(0x1F661E70)
+#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_GETCACHEDNICENAME_OFFSET UNITYSDK_OFFSET(0x1F661220)
+#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_GETNICENAME_OFFSET UNITYSDK_OFFSET(0x1F661140)
+#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_INHERITSFROM_OFFSET UNITYSDK_OFFSET(0x1F6619B0)
+#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_TYPENAMEGAUNTLET_OFFSET UNITYSDK_OFFSET(0x1F661C40)
+#define SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F661F30)
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int RuntimeTypeExtensions_TypeDefinitionIndex = 6480;
+	inline static constexpr unsigned int RuntimeTypeExtensions_TypeDefinitionIndex = 6486;
 
 	class RuntimeTypeExtensions : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet_CachedNiceNames_LOCK()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTypeExtensions_TypeDefinitionIndex)->GetStaticField(0x5920);
+		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_TypeNameAlternatives()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTypeExtensions_TypeDefinitionIndex)->GetStaticField(0x5A20);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTypeExtensions_TypeDefinitionIndex)->GetStaticField(0x5928);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>** StaticGet_CachedNiceNames()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTypeExtensions_TypeDefinitionIndex)->GetStaticField(0x5A28);
-		}
-		static ::System::Object** StaticGet_CachedNiceNames_LOCK()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTypeExtensions_TypeDefinitionIndex)->GetStaticField(0x5A30);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeTypeExtensions_TypeDefinitionIndex)->GetStaticField(0x5930);
 		}
 
 		static ::System::Void _cctor()
@@ -68,14 +67,14 @@ namespace Sirenix::Utilities
 			return ((::System::Boolean(*)(::System::Type*, ::System::Type*))((::PBYTE)hIl2Cpp + SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_INHERITSFROM_OFFSET))(type, baseType);
 		}
 
-		static ::Il2CppArray<::System::Attribute*>* GetAttributes(::System::Reflection::ICustomAttributeProvider* member)
+		static ::Il2CppArray<::System::Attribute*>* GetAttributes_2(::System::Reflection::ICustomAttributeProvider* member)
 		{
-			return ((::Il2CppArray<::System::Attribute*>*(*)(::System::Reflection::ICustomAttributeProvider*))((::PBYTE)hIl2Cpp + SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_GETATTRIBUTES_OFFSET))(member);
+			return ((::Il2CppArray<::System::Attribute*>*(*)(::System::Reflection::ICustomAttributeProvider*))((::PBYTE)hIl2Cpp + SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_GETATTRIBUTES_2_OFFSET))(member);
 		}
 
-		static ::Il2CppArray<::System::Attribute*>* GetAttributes_1(::System::Reflection::ICustomAttributeProvider* member, ::System::Boolean inherit)
+		static ::Il2CppArray<::System::Attribute*>* GetAttributes_3(::System::Reflection::ICustomAttributeProvider* member, ::System::Boolean inherit)
 		{
-			return ((::Il2CppArray<::System::Attribute*>*(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Boolean))((::PBYTE)hIl2Cpp + SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_GETATTRIBUTES_1_OFFSET))(member, inherit);
+			return ((::Il2CppArray<::System::Attribute*>*(*)(::System::Reflection::ICustomAttributeProvider*, ::System::Boolean))((::PBYTE)hIl2Cpp + SIRENIX_UTILITIES_RUNTIMETYPEEXTENSIONS_GETATTRIBUTES_3_OFFSET))(member, inherit);
 		}
 	};
 }

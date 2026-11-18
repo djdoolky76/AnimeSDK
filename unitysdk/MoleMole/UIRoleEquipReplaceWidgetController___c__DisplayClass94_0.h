@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_3B1E761D184CCDAF;
+class BHBOJCCMJBE;
 namespace MoleMole { class UIRoleEquipReplaceWidgetController; }
 
-#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS94_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18461780)
-#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS94_0__ONCLICKEQUIPREPLACEBTN_B__0_OFFSET UNITYSDK_OFFSET(0x18461790)
+#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS94_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18EE9CB0)
+#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS94_0__ONCLICKEQUIPREPLACEBTN_B__0_OFFSET UNITYSDK_OFFSET(0x18EE9CC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass94_0_TypeDefinitionIndex = 52776;
+	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass94_0_TypeDefinitionIndex = 40815;
 
 	class UIRoleEquipReplaceWidgetController___c__DisplayClass94_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIRoleEquipReplaceWidgetController* __4__this; // 0x10
-		::Class_2_3B1E761D184CCDAF* realItemData; // 0x18
+		::BHBOJCCMJBE* realItemData; // 0x18
 
 		::System::Void _ctor()
 		{

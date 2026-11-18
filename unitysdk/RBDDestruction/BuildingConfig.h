@@ -8,15 +8,15 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RBDDESTRUCTION_BUILDINGCONFIG_ACTIVATE_OFFSET UNITYSDK_OFFSET(0x1C4CF8C0)
-#define RBDDESTRUCTION_BUILDINGCONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C4CF370)
-#define RBDDESTRUCTION_BUILDINGCONFIG_RESET_OFFSET UNITYSDK_OFFSET(0x1C4CF900)
-#define RBDDESTRUCTION_BUILDINGCONFIG_SWITCH_OFFSET UNITYSDK_OFFSET(0x1C4CF730)
-#define RBDDESTRUCTION_BUILDINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4CFA80)
+#define RBDDESTRUCTION_BUILDINGCONFIG_ACTIVATE_OFFSET UNITYSDK_OFFSET(0x1C978640)
+#define RBDDESTRUCTION_BUILDINGCONFIG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C9780F0)
+#define RBDDESTRUCTION_BUILDINGCONFIG_RESET_OFFSET UNITYSDK_OFFSET(0x1C978680)
+#define RBDDESTRUCTION_BUILDINGCONFIG_SWITCH_OFFSET UNITYSDK_OFFSET(0x1C9784B0)
+#define RBDDESTRUCTION_BUILDINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C978800)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int BuildingConfig_TypeDefinitionIndex = 27718;
+	inline static constexpr unsigned int BuildingConfig_TypeDefinitionIndex = 26605;
 
 	class BuildingConfig : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,6 +26,7 @@ namespace RBDDestruction
 		::System::Int32 collectionID; // 0x24
 		::System::Boolean isActive; // 0x28
 		::System::Boolean isDestroyed; // 0x29
+		::System::Byte _padding0[0x6];
 		::UnityEngine::BoxCollider* buildingCollider; // 0x30
 		::UnityEngine::MeshRenderer* mr; // 0x38
 		::UnityEngine::MeshFilter* mf; // 0x40

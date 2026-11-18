@@ -3,7 +3,7 @@
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int ICacheNotificationReceiver_TypeDefinitionIndex = 7654;
+	inline static constexpr unsigned int ICacheNotificationReceiver_TypeDefinitionIndex = 7666;
 
 	class ICacheNotificationReceiver
 	{

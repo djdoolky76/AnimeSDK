@@ -3,27 +3,27 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int PropertyBagPropertyType_TypeDefinitionIndex = 28400;
+	inline static constexpr unsigned int PropertyBagPropertyType_TypeDefinitionIndex = 27837;
 
 	enum class PropertyBagPropertyType : ::System::Byte
 	{
-		None = 0x0,
-		Bool = 0x1,
-		Byte = 0x2,
-		Int32 = 0x3,
-		Int64 = 0x4,
-		Float = 0x5,
-		Double = 0x6,
-		Name = 0x7,
-		String = 0x8,
-		Text = 0x9,
-		Enum = 0xA,
-		Struct = 0xB,
-		Object = 0xC,
-		SoftObject = 0xD,
-		Class = 0xE,
-		SoftClass = 0xF,
-		UInt32 = 0x10,
-		UInt64 = 0x11,
+		None = 0,
+		Bool = 1,
+		Byte = 2,
+		Int32 = 3,
+		Int64 = 4,
+		Float = 5,
+		Double = 6,
+		Name = 7,
+		String = 8,
+		Text = 9,
+		Enum = 10,
+		Struct = 11,
+		Object = 12,
+		SoftObject = 13,
+		Class = 14,
+		SoftClass = 15,
+		UInt32 = 16,
+		UInt64 = 17,
 	};
 }

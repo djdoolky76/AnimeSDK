@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/AI/NavMeshHit.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/AI/NavMeshHit.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::AI { class NavMeshAgent; }
 namespace UnityEngine::AI { class NavMeshPath; }
 
-#define NAVMESHSHOWGOLDENPATH_RAYCASTSPHERE_OFFSET UNITYSDK_OFFSET(0x1FB7F3C0)
-#define NAVMESHSHOWGOLDENPATH_START_OFFSET UNITYSDK_OFFSET(0x1FB7E840)
-#define NAVMESHSHOWGOLDENPATH_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FB7E8D0)
-#define NAVMESHSHOWGOLDENPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7F9A0)
+#define NAVMESHSHOWGOLDENPATH_RAYCASTSPHERE_OFFSET UNITYSDK_OFFSET(0x1FF80010)
+#define NAVMESHSHOWGOLDENPATH_START_OFFSET UNITYSDK_OFFSET(0x1FF7F490)
+#define NAVMESHSHOWGOLDENPATH_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FF7F520)
+#define NAVMESHSHOWGOLDENPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF805F0)
 
-inline static constexpr unsigned int NavmeshShowGoldenPath_TypeDefinitionIndex = 94985;
+inline static constexpr unsigned int NavmeshShowGoldenPath_TypeDefinitionIndex = 96672;
 
 class NavmeshShowGoldenPath : public ::UnityEngine::MonoBehaviour
 {

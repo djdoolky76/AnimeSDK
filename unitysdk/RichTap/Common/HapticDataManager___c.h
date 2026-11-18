@@ -5,24 +5,24 @@
 namespace RichTap::Common { class HapticDataModel; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RICHTAP_COMMON_HAPTICDATAMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F227D50)
-#define RICHTAP_COMMON_HAPTICDATAMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F227D90)
-#define RICHTAP_COMMON_HAPTICDATAMANAGER___C__DECIDEREALPLAYBACK_B__5_0_OFFSET UNITYSDK_OFFSET(0x1F227DA0)
+#define RICHTAP_COMMON_HAPTICDATAMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F61B8E0)
+#define RICHTAP_COMMON_HAPTICDATAMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F61B920)
+#define RICHTAP_COMMON_HAPTICDATAMANAGER___C__DECIDEREALPLAYBACK_B__5_0_OFFSET UNITYSDK_OFFSET(0x1F61B930)
 
 namespace RichTap::Common
 {
-	inline static constexpr unsigned int HapticDataManager___c_TypeDefinitionIndex = 38763;
+	inline static constexpr unsigned int HapticDataManager___c_TypeDefinitionIndex = 36763;
 
 	class HapticDataManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RichTap::Common::HapticDataModel*>** StaticGet___9__5_0()
 		{
-			return (::System::Comparison_1<::RichTap::Common::HapticDataModel*>**)Il2CppClass::FromTypeDefinitionIndex(HapticDataManager___c_TypeDefinitionIndex)->GetStaticField(0x2A740);
+			return (::System::Comparison_1<::RichTap::Common::HapticDataModel*>**)Il2CppClass::FromTypeDefinitionIndex(HapticDataManager___c_TypeDefinitionIndex)->GetStaticField(0x2BAA0);
 		}
-		static ::RichTap::Common::HapticDataManager___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RichTap::Common::HapticDataManager___c**)Il2CppClass::FromTypeDefinitionIndex(HapticDataManager___c_TypeDefinitionIndex)->GetStaticField(0x2A748);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(HapticDataManager___c_TypeDefinitionIndex)->GetStaticField(0x2BAA8);
 		}
 
 		static ::System::Void _cctor()

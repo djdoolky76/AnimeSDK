@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BubbleProgressColorType.h"
+#include "unitysdk/CCONENNDJNF.h"
 #include "unitysdk/DG/Tweening/Ease.h"
-#include "unitysdk/Enum_3_6F714FF477D2D093.h"
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 #include "unitysdk/MoleMole/Config/DamageElementType.h"
@@ -52,12 +52,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 
-#define MOLEMOLE_CONFIGUICOMMON_INITINTERKNOTPOSTHEIGHT_OFFSET UNITYSDK_OFFSET(0x19BB7CF0)
-#define MOLEMOLE_CONFIGUICOMMON__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB8560)
+#define MOLEMOLE_CONFIGUICOMMON_INITINTERKNOTPOSTHEIGHT_OFFSET UNITYSDK_OFFSET(0x1A05CC40)
+#define MOLEMOLE_CONFIGUICOMMON__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05D4B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICommon_TypeDefinitionIndex = 42210;
+	inline static constexpr unsigned int ConfigUICommon_TypeDefinitionIndex = 50403;
 
 	class ConfigUICommon : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -79,10 +79,12 @@ namespace MoleMole
 		::System::Single LoadingFadeInTime; // 0xC0
 		::System::Single LoadingFadeOutTime; // 0xC4
 		::System::Single EventClickTime; // 0xC8
+		::System::Byte _padding0[0x4];
 		::System::String* QuestColor; // 0xD0
 		::System::Int32 MaxDelta; // 0xD8
 		::System::Single MinDelta; // 0xDC
 		::System::Single AnimTime; // 0xE0
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* BiggerCurve; // 0xE8
 		::UnityEngine::AnimationCurve* SmallerCurve; // 0xF0
 		::UnityEngine::Color DefaultColor; // 0xF8
@@ -91,6 +93,7 @@ namespace MoleMole
 		::System::Single perfectSwitchLine; // 0x118
 		::UnityEngine::Color grayRampColorA; // 0x11C
 		::UnityEngine::Color grayRampColorB; // 0x12C
+		::System::Byte _padding2[0x4];
 		::MoleMole::RoleHudSpColorConfig* firstStageSpColorConfig; // 0x140
 		::MoleMole::RoleHudSpColorConfig* secondStageSpColorConfig; // 0x148
 		::MoleMole::RoleHudSpColorConfig* fullStageSpColorConfig; // 0x150
@@ -105,6 +108,7 @@ namespace MoleMole
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::UIVirtualCameraConfigs*>* virtualCameraConfig; // 0x1B8
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::ConfigGeneralIconBadgeColor*>* generalIconColorConfig; // 0x1C0
 		::System::Single MinLoadingTime; // 0x1C8
+		::System::Byte _padding3[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* RamenPerformDict; // 0x1D0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* CafePerformDict; // 0x1D8
 		::System::String* CoffeeBindingTrackName; // 0x1E0
@@ -124,6 +128,7 @@ namespace MoleMole
 		::System::Single GamepadSliderPressSpeedUpReachMaxSpeedTime; // 0x22C
 		::UnityEngine::AnimationCurve* GamepadSliderPressSpeedUpAnimationCurve; // 0x230
 		::System::Single GamepadSliderPressSpeedUpResetTimerMaxTime; // 0x238
+		::System::Byte _padding4[0x4];
 		::System::Collections::Generic::Dictionary_2<::MoleMole::InputLogicEventType, ::System::Int32>* MainCityLogicInputAccessDict; // 0x240
 		::System::String* ManualQTEOffVideoPath; // 0x248
 		::System::String* ManualQTEOnVideoPath; // 0x250
@@ -141,8 +146,10 @@ namespace MoleMole
 		::System::String* IneffectiveResistDamageFontMaterialPath; // 0x2A8
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::DamageElementType, ::System::String*>* DamageElementTypeFontMaterialPath; // 0x2B0
 		::System::Boolean DamageTextFollowDampingEnabled; // 0x2B8
+		::System::Byte _padding5[0x3];
 		::System::Single DamageTextFollowDampingSpeed; // 0x2BC
-		::Enum_3_6F714FF477D2D093 DamageTextTargetFollow; // 0x2C0
+		::CCONENNDJNF DamageTextTargetFollow; // 0x2C0
+		::System::Byte _padding6[0x4];
 		::UnityEngine::AnimationCurve* DamageTextScreenSpaceYOffsetCurve; // 0x2C8
 		::System::Single DamageTextCharWidthOffset; // 0x2D0
 		::System::Single DamageTextNormalScale; // 0x2D4
@@ -169,12 +176,14 @@ namespace MoleMole
 		::System::Single SpecialDamageTextV3ScaleRatio; // 0x338
 		::System::Single SpecialDamageTextV3ShowTime; // 0x33C
 		::System::Single SpecialDamageTextV3Length; // 0x340
+		::System::Byte _padding7[0x4];
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::Foundation::AssetPath>* SpecialDamageV3TextPathDictEN; // 0x348
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::Foundation::AssetPath>* SpecialDamageV3TextPathDictSC; // 0x350
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::Foundation::AssetPath>* SpecialDamageV3TextPathDictTC; // 0x358
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::Foundation::AssetPath>* SpecialDamageV3TextPathDictJP; // 0x360
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::Foundation::AssetPath>* SpecialDamageV3TextPathDictKR; // 0x368
 		::System::Single SpecialDamageTextV2ScaleRatio; // 0x370
+		::System::Byte _padding8[0x4];
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::System::Single>* SpecialDamageV2EffectAnimTimeDict; // 0x378
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::System::Single>* SpecialDamageV2TextLengthDict; // 0x380
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::SpecialDamageTextType, ::MoleMole::ConfigSpecialDamageText>* DamageTextSpecialDamageConfigDict; // 0x388
@@ -192,10 +201,12 @@ namespace MoleMole
 		::System::Single stickTapesPlusSpeedTime; // 0x3F0
 		::System::Single stickPressInteval; // 0x3F4
 		::System::Single stickPressPercent; // 0x3F8
+		::System::Byte _padding9[0x4];
 		::UnityEngine::AnimationCurve* gamepadTapesSinglePressDragSpeedCurve; // 0x400
 		::System::Single gamepadTapesSinglePressDragMaxSpeed; // 0x408
 		::System::Single gamepadTapesSinglePressDragMinSpeed; // 0x40C
 		::System::Single FairyMinInterval; // 0x410
+		::System::Byte _padding10[0x4];
 		::System::Collections::Generic::Dictionary_2<::BubbleProgressColorType, ::BubbleProgressColor*>* FairyColors; // 0x418
 		::System::Single buttonClickColdDown; // 0x420
 		::System::Single ArcadeFarPosTextureSheetLoopTime; // 0x424
@@ -210,6 +221,7 @@ namespace MoleMole
 		::UnityEngine::Color ArcadeRankTwoTextColor; // 0x45C
 		::UnityEngine::Color ArcadeRankThreeTextColor; // 0x46C
 		::UnityEngine::Color ArcadeRankHundredTextColor; // 0x47C
+		::System::Byte _padding11[0x4];
 		::UnityEngine::AnimationCurve* ArcadeSpinningTableRotateMapCurve; // 0x490
 		::System::Single ArcadeSpinningTableRotateFrequency; // 0x498
 		::System::Single ArcadeSpinningTableRotateHalfLife; // 0x49C
@@ -218,10 +230,12 @@ namespace MoleMole
 		::UnityEngine::Color ArcadeActivityItemNoCenterTextColor; // 0x4B4
 		::System::Int32 ArcadeActivityCenterItemCanvasOrder; // 0x4C4
 		::System::Single ArcadeActivityListItemMinScale; // 0x4C8
+		::System::Byte _padding12[0x4];
 		::UnityEngine::AnimationCurve* ArcadeActivityListItemScaleCurve; // 0x4D0
 		::System::Single ArcadeActivityListScaleRange; // 0x4D8
 		::System::Boolean ArcadeActivityListWheelDebug; // 0x4DC
 		::System::Boolean ArcadeActivityListWheelIsRhombus; // 0x4DD
+		::System::Byte _padding13[0x2];
 		::System::Single ArcadeActivityListItemNumOnWheel; // 0x4E0
 		::System::Single ArcadeActivityListWheelDistanceToCamera; // 0x4E4
 		::UnityEngine::Vector2 ArcadeActivityListWheelRhombusSize; // 0x4E8
@@ -241,6 +255,7 @@ namespace MoleMole
 		::UnityEngine::Vector3 buddyTVRotation; // 0x54C
 		::UnityEngine::Vector3 buddyTVPosition; // 0x558
 		::System::Boolean isOpenEditor; // 0x564
+		::System::Byte _padding14[0x3];
 		::MoleMole::BuddyCameraConfig* BuddyBornCameraConfig; // 0x568
 		::System::Single buddySwitchTime; // 0x570
 		::System::Single buddySwitchTime_Out; // 0x574
@@ -252,11 +267,14 @@ namespace MoleMole
 		::System::Single BuddyBagItemLongPressTime; // 0x594
 		::System::Single HollowLayerProgressAnimDurtaion; // 0x598
 		::System::Boolean IsHollowLayerProgressCustomAnim; // 0x59C
+		::System::Byte _padding15[0x3];
 		::DG::Tweening::Ease HollowLayerProgressTweenEase; // 0x5A0
+		::System::Byte _padding16[0x4];
 		::UnityEngine::AnimationCurve* HollowLayerProgressCustomCurve; // 0x5A8
 		::System::Single RoleLevelupProgressAnimDurtaion; // 0x5B0
 		::System::Single RoleLevelupProgressMinAnimDurtaion; // 0x5B4
 		::System::Boolean IsRoleLevelupProgressCustomAnim; // 0x5B8
+		::System::Byte _padding17[0x3];
 		::DG::Tweening::Ease RoleLevelupProgressTweenEase; // 0x5BC
 		::UnityEngine::AnimationCurve* RoleLevelupProgressCustomCurve; // 0x5C0
 		::System::Single GeneralSmallTipsLifeTime; // 0x5C8
@@ -264,12 +282,14 @@ namespace MoleMole
 		::System::Single FeverShowRatio; // 0x5D0
 		::System::Single FeverShowLerpNum; // 0x5D4
 		::System::Single FeverShowMinAddNum; // 0x5D8
+		::System::Byte _padding18[0x4];
 		::System::String* FeverPtsMaterialPath; // 0x5E0
 		::System::String* FeverOperationMaterialPath; // 0x5E8
 		::System::Collections::Generic::List_1<::MoleMole::FeverV3MaterialParam*>* FeverV3MaterialParams; // 0x5F0
 		::System::String* PerfectSwitchMaterialPath; // 0x5F8
 		::System::String* PerfectSwitchEmptyMaterialPath; // 0x600
 		::System::Single InLevelVirtualJoystickFadeOutDelayTime; // 0x608
+		::System::Byte _padding19[0x4];
 		::System::String* WeaponVideoScreenPrefabPath; // 0x610
 		::System::String* WeaponEmptyStartFrameTextureKey; // 0x618
 		::System::String* WeaponEmptyLoopFrameTextureKey; // 0x620
@@ -322,6 +342,7 @@ namespace MoleMole
 		::System::Int32 MalePhoneDelay; // 0x768
 		::System::Int32 FemalePhoneDelay; // 0x76C
 		::System::Single RewardShowInterval; // 0x770
+		::System::Byte _padding20[0x4];
 		::UnityEngine::AnimationCurve* RewardShowTextureSheetCurve; // 0x778
 		::UnityEngine::AnimationCurve* RewardDisappearMotionCurve; // 0x780
 		::System::Single RewardDisappearFirstTime; // 0x788
@@ -330,6 +351,7 @@ namespace MoleMole
 		::System::Single RewardDisappearGapTime; // 0x794
 		::UnityEngine::Vector2 RewardTipsWidgetRect; // 0x798
 		::System::Single RewardTipsWidgetGap; // 0x7A0
+		::System::Byte _padding21[0x4];
 		::UnityEngine::AnimationCurve* RewardAccelerateCurve; // 0x7A8
 		::MoleMole::ConfigMobileSetting* ConfigMobileSetting; // 0x7B0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::I18nImageCollection>* I18NImageCollections; // 0x7B8

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOMINIMAPDRAGAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x14A11470)
+#define MOLEMOLE_MONOMINIMAPDRAGAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x131081F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoMiniMapDragArea_TypeDefinitionIndex = 55187;
+	inline static constexpr unsigned int MonoMiniMapDragArea_TypeDefinitionIndex = 42125;
 
 	class MonoMiniMapDragArea : public ::UnityEngine::MonoBehaviour
 	{

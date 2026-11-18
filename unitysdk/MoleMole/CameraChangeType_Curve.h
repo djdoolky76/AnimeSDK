@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERACHANGETYPE_CURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xF11E490)
+#define MOLEMOLE_CAMERACHANGETYPE_CURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xFFB5DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraChangeType_Curve_TypeDefinitionIndex = 42514;
+	inline static constexpr unsigned int CameraChangeType_Curve_TypeDefinitionIndex = 87627;
 
 	class CameraChangeType_Curve : public ::MoleMole::CameraChangeType
 	{

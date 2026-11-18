@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define STATETREEGAMEPLAY_RANDOMVECTOR3INCIRCLETASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1E352100)
-#define STATETREEGAMEPLAY_RANDOMVECTOR3INCIRCLETASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E352110)
+#define STATETREEGAMEPLAY_RANDOMVECTOR3INCIRCLETASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1C6BE4C0)
+#define STATETREEGAMEPLAY_RANDOMVECTOR3INCIRCLETASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6BE4D0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RandomVector3InCircleTask_StructOpsTypeTraits_TypeDefinitionIndex = 84776;
+	inline static constexpr unsigned int RandomVector3InCircleTask_StructOpsTypeTraits_TypeDefinitionIndex = 64666;
 
 	class RandomVector3InCircleTask_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

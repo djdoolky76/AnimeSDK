@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIRABDEPOSITORYELEMENTTEXTTAGROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16A7E490)
+#define MOLEMOLE_UIRABDEPOSITORYELEMENTTEXTTAGROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x167787B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABDepositoryElementTextTagRowWidgetController_Data_TypeDefinitionIndex = 84727;
+	inline static constexpr unsigned int UIRABDepositoryElementTextTagRowWidgetController_Data_TypeDefinitionIndex = 81467;
 
 	class UIRABDepositoryElementTextTagRowWidgetController_Data : public ::MoleMole::UIControllerContextBase
 	{

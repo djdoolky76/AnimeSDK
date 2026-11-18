@@ -3,13 +3,12 @@
 #include "unitysdk/Foundation/Coroutine/CoroutineHandle.h"
 #include "unitysdk/MoleMole/MonoInLevelBase.h"
 
-class Class_1_8289F2785D9AA990;
-class Class_2_1C93660C39236995;
+class AGJFDPBLDDF;
+class LNFCIBHFJHI;
 namespace DG::Tweening { class TweenCallback; }
 namespace DG::Tweening { class Tweener; }
 namespace MoleMole::Battle { class Entity; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
@@ -17,58 +16,59 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_MONOBUFFICON_ENABLENUMBERTEXT_OFFSET UNITYSDK_OFFSET(0x192686B0)
-#define MOLEMOLE_MONOBUFFICON_GETISMORE_OFFSET UNITYSDK_OFFSET(0x19269890)
-#define MOLEMOLE_MONOBUFFICON_GET_BUFFID_OFFSET UNITYSDK_OFFSET(0x192673E0)
-#define MOLEMOLE_MONOBUFFICON_GET_BUFFNUMBER_OFFSET UNITYSDK_OFFSET(0x192673F0)
-#define MOLEMOLE_MONOBUFFICON_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x19269840)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_0FD0EC313FAAB75A_OFFSET UNITYSDK_OFFSET(0x19269610)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_10054BB010E03EDD_OFFSET UNITYSDK_OFFSET(0x19269070)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_1293CB739F1151A1_OFFSET UNITYSDK_OFFSET(0x1926AD00)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_147A527305B2FF1B_OFFSET UNITYSDK_OFFSET(0x19268B00)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_2C1C2A8E63DB0F10_OFFSET UNITYSDK_OFFSET(0x1926AC50)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_394F35BBA0EE596A_OFFSET UNITYSDK_OFFSET(0x19268820)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_3CCA0B8A31B650A8_OFFSET UNITYSDK_OFFSET(0x1926A2E0)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_5F08B426ADF31FF5_OFFSET UNITYSDK_OFFSET(0x192682A0)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_63626CD59AEEC164_OFFSET UNITYSDK_OFFSET(0x19269B40)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_79B136329E63E31A_OFFSET UNITYSDK_OFFSET(0x1926A840)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1926AC30)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x1926ABD0)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_C114A1F8E08B6F92_1_OFFSET UNITYSDK_OFFSET(0x1926ACF0)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_C114A1F8E08B6F92_OFFSET UNITYSDK_OFFSET(0x1926AC40)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_D0ACB47B641DF879_OFFSET UNITYSDK_OFFSET(0x1926A110)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_D240830C442C70A4_OFFSET UNITYSDK_OFFSET(0x11D479F0)
-#define MOLEMOLE_MONOBUFFICON_METHOD_6_FC5102551AF3CB1A_OFFSET UNITYSDK_OFFSET(0x1926A050)
-#define MOLEMOLE_MONOBUFFICON_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1926A6D0)
-#define MOLEMOLE_MONOBUFFICON_ONREMOVE_OFFSET UNITYSDK_OFFSET(0x19269230)
-#define MOLEMOLE_MONOBUFFICON_REFRESHNUMBER_OFFSET UNITYSDK_OFFSET(0x1926A5D0)
-#define MOLEMOLE_MONOBUFFICON_REPLACEBUFFIMMEDIATE_OFFSET UNITYSDK_OFFSET(0x19269A80)
-#define MOLEMOLE_MONOBUFFICON_RESETNUMBER_OFFSET UNITYSDK_OFFSET(0x1926A620)
-#define MOLEMOLE_MONOBUFFICON_SETCUSTOMNUM_OFFSET UNITYSDK_OFFSET(0x1926A670)
-#define MOLEMOLE_MONOBUFFICON_SETUPMORESTATE_OFFSET UNITYSDK_OFFSET(0x19268F60)
-#define MOLEMOLE_MONOBUFFICON_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x19267400)
-#define MOLEMOLE_MONOBUFFICON_SWITCHTOBUFF_OFFSET UNITYSDK_OFFSET(0x192698D0)
-#define MOLEMOLE_MONOBUFFICON_TICK_OFFSET UNITYSDK_OFFSET(0x19269CA0)
-#define MOLEMOLE_MONOBUFFICON__CCTOR_OFFSET UNITYSDK_OFFSET(0x1926A810)
-#define MOLEMOLE_MONOBUFFICON__CTOR_OFFSET UNITYSDK_OFFSET(0x1926A730)
-#define MOLEMOLE_MONOBUFFICON___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1926A830)
+#define MOLEMOLE_MONOBUFFICON_BGAGMONKDDP_OFFSET UNITYSDK_OFFSET(0x11935C60)
+#define MOLEMOLE_MONOBUFFICON_BHPIKOHACDC_OFFSET UNITYSDK_OFFSET(0x11935630)
+#define MOLEMOLE_MONOBUFFICON_DDIKMPOJGOI_OFFSET UNITYSDK_OFFSET(0x11935C50)
+#define MOLEMOLE_MONOBUFFICON_DJICBAKLCFO_OFFSET UNITYSDK_OFFSET(0x11933D30)
+#define MOLEMOLE_MONOBUFFICON_ENABLENUMBERTEXT_OFFSET UNITYSDK_OFFSET(0x119338E0)
+#define MOLEMOLE_MONOBUFFICON_GAFLFGPOIME_OFFSET UNITYSDK_OFFSET(0x11935C40)
+#define MOLEMOLE_MONOBUFFICON_GETISMORE_OFFSET UNITYSDK_OFFSET(0x11934BE0)
+#define MOLEMOLE_MONOBUFFICON_GET_BUFFID_OFFSET UNITYSDK_OFFSET(0x11932610)
+#define MOLEMOLE_MONOBUFFICON_GET_BUFFNUMBER_OFFSET UNITYSDK_OFFSET(0x11932620)
+#define MOLEMOLE_MONOBUFFICON_HMAHLGFKHJA_OFFSET UNITYSDK_OFFSET(0x119342A0)
+#define MOLEMOLE_MONOBUFFICON_ICFNIIHCNKN_OFFSET UNITYSDK_OFFSET(0x11935C70)
+#define MOLEMOLE_MONOBUFFICON_IDJDKBFAPBJ_OFFSET UNITYSDK_OFFSET(0x11934960)
+#define MOLEMOLE_MONOBUFFICON_IFHNMAGGFAE_OFFSET UNITYSDK_OFFSET(0x11935D70)
+#define MOLEMOLE_MONOBUFFICON_INTERRUPT_OFFSET UNITYSDK_OFFSET(0x11934B90)
+#define MOLEMOLE_MONOBUFFICON_JFEDGNBOJOC_OFFSET UNITYSDK_OFFSET(0x11935460)
+#define MOLEMOLE_MONOBUFFICON_JMNLIHHOHDA_OFFSET UNITYSDK_OFFSET(0x11935D80)
+#define MOLEMOLE_MONOBUFFICON_LNDNBLCELPL_OFFSET UNITYSDK_OFFSET(0x11934840)
+#define MOLEMOLE_MONOBUFFICON_MGPFPPPKEPH_OFFSET UNITYSDK_OFFSET(0x11933A50)
+#define MOLEMOLE_MONOBUFFICON_MMAHBPMKJPF_OFFSET UNITYSDK_OFFSET(0x11934E90)
+#define MOLEMOLE_MONOBUFFICON_MMIGOOBLNHE_OFFSET UNITYSDK_OFFSET(0x11935CD0)
+#define MOLEMOLE_MONOBUFFICON_NBBIIONIMFP_OFFSET UNITYSDK_OFFSET(0x119353A0)
+#define MOLEMOLE_MONOBUFFICON_OHPIKMLGBCK_OFFSET UNITYSDK_OFFSET(0x11936110)
+#define MOLEMOLE_MONOBUFFICON_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x11935A20)
+#define MOLEMOLE_MONOBUFFICON_ONREMOVE_OFFSET UNITYSDK_OFFSET(0x11934460)
+#define MOLEMOLE_MONOBUFFICON_PELHKMIAGII_OFFSET UNITYSDK_OFFSET(0x119334D0)
+#define MOLEMOLE_MONOBUFFICON_PKOKCBMAHDK_OFFSET UNITYSDK_OFFSET(0x11935AD0)
+#define MOLEMOLE_MONOBUFFICON_REFRESHNUMBER_OFFSET UNITYSDK_OFFSET(0x11935920)
+#define MOLEMOLE_MONOBUFFICON_REPLACEBUFFIMMEDIATE_OFFSET UNITYSDK_OFFSET(0x11934DD0)
+#define MOLEMOLE_MONOBUFFICON_RESETNUMBER_OFFSET UNITYSDK_OFFSET(0x11935970)
+#define MOLEMOLE_MONOBUFFICON_SETCUSTOMNUM_OFFSET UNITYSDK_OFFSET(0x119359C0)
+#define MOLEMOLE_MONOBUFFICON_SETUPMORESTATE_OFFSET UNITYSDK_OFFSET(0x11934190)
+#define MOLEMOLE_MONOBUFFICON_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x11932630)
+#define MOLEMOLE_MONOBUFFICON_SWITCHTOBUFF_OFFSET UNITYSDK_OFFSET(0x11934C20)
+#define MOLEMOLE_MONOBUFFICON_TICK_OFFSET UNITYSDK_OFFSET(0x11934FF0)
+#define MOLEMOLE_MONOBUFFICON__CCTOR_OFFSET UNITYSDK_OFFSET(0x11935C20)
+#define MOLEMOLE_MONOBUFFICON__CTOR_OFFSET UNITYSDK_OFFSET(0x11935B40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoBuffIcon_TypeDefinitionIndex = 41973;
+	inline static constexpr unsigned int MonoBuffIcon_TypeDefinitionIndex = 65085;
 
 	class MonoBuffIcon : public ::MoleMole::MonoInLevelBase
 	{
 	public:
 		static ::System::Int32* StaticGet_MULTIPLE_ROW_BUFF_ICON_MAX()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoBuffIcon_TypeDefinitionIndex)->GetStaticField(0x9FE0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoBuffIcon_TypeDefinitionIndex)->GetStaticField(0xB310);
 		}
 		static ::System::Int32* StaticGet_BUFF_ICON_MAX()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoBuffIcon_TypeDefinitionIndex)->GetStaticField(0x9FE4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoBuffIcon_TypeDefinitionIndex)->GetStaticField(0xB314);
 		}
-		// static const ::System::Single Field_6_12; // 0x0
+		// static const ::System::Single OCPABBGIAGF; // 0x0
 		// static const ::System::String* BUFF_ICON_PATH; // 0x0
 		// static const ::System::String* BUFF_ICON_PREFEX_PATH; // 0x0
 		// static const ::System::String* FADE_OUT_ANI; // 0x0
@@ -76,37 +76,43 @@ namespace MoleMole
 		// static const ::System::String* QUEUE_FADE_OUT_ANI; // 0x0
 		// static const ::System::String* FADE_IN_ANI; // 0x0
 		// static const ::System::String* REPLACE_ANI; // 0x0
-		::System::Int32 Field_6_1; // 0x20
-		::UnityEngine::UI::Image* Field_6_0; // 0x28
-		::UnityEngine::GameObject* Field_6_7; // 0x30
-		::UnityEngine::UI::Image* Field_6_6; // 0x38
-		::UnityEngine::Animation* Field_6_5; // 0x40
-		::UnityEngine::Transform* Field_6_4; // 0x48
-		::UnityEngine::Transform* Field_6_11; // 0x50
-		::UnityEngine::GameObject* Field_6_10; // 0x58
-		::UnityEngine::Transform* Field_6_9; // 0x60
-		::UnityEngine::Transform* Field_6_8; // 0x68
+		::System::Int32 _EIMOCHDEPEK_k__BackingField; // 0x20
+		::System::Byte _padding0[0x4];
+		::UnityEngine::UI::Image* DLBLLEJEJID; // 0x28
+		::UnityEngine::GameObject* EBEBDGFCFOP; // 0x30
+		::UnityEngine::UI::Image* AHALOOJPCFO; // 0x38
+		::UnityEngine::Animation* FDMDJIDCEDF; // 0x40
+		::UnityEngine::Transform* HLBMOHMJAIB; // 0x48
+		::UnityEngine::Transform* AIAPPCNGODK; // 0x50
+		::UnityEngine::GameObject* KPOJNHJDCMD; // 0x58
+		::UnityEngine::Transform* JLNBHMLGLND; // 0x60
+		::UnityEngine::Transform* MFDDJKIKHAC; // 0x68
 		::System::Boolean enableNumberText; // 0x70
 		::System::Boolean enableTimeDurationShow; // 0x71
-		::System::Boolean Field_6_13; // 0x72
-		::System::Boolean Field_6_19; // 0x73
-		::System::Single Field_6_18; // 0x74
-		::System::Single Field_6_17; // 0x78
-		::UnityEngine::Animation* Field_6_16; // 0x80
-		::DG::Tweening::Tweener* Field_6_23; // 0x88
-		::DG::Tweening::TweenCallback* Field_6_22; // 0x90
+		::System::Boolean FNDBKEMCEGG; // 0x72
+		::System::Boolean CECPGHHBDAN; // 0x73
+		::System::Single KMOALLAOALN; // 0x74
+		::System::Single IMBGJIMAFCD; // 0x78
+		::System::Byte _padding1[0x4];
+		::UnityEngine::Animation* MOMGIAEEMCK; // 0x80
+		::DG::Tweening::Tweener* ODMPOMEAHHF; // 0x88
+		::DG::Tweening::TweenCallback* NCJMFBHADHG; // 0x90
 		::System::Int32 removeIndex; // 0x98
-		::System::Int32 Field_6_20; // 0x9C
-		::UnityEngine::UI::Text* Field_6_27; // 0xA0
-		::System::UInt32 Field_6_33; // 0xA8
-		::Class_1_8289F2785D9AA990* Field_6_32; // 0xB0
-		::System::Int32 Field_6_39; // 0xB8
-		::System::Collections::Generic::List_1<::Class_2_1C93660C39236995*>* Field_6_38; // 0xC0
-		::UnityEngine::Animation* Field_6_37; // 0xC8
-		::Foundation::Coroutine::CoroutineHandle Field_6_36; // 0xD0
-		::System::Action* Field_6_43; // 0xD8
-		::System::Int32 Field_6_42; // 0xE0
-		::System::Action* Field_6_41; // 0xE8
+		::System::Int32 _MCDLCMEGNPL_k__BackingField; // 0x9C
+		::UnityEngine::UI::Text* FOIPENHFOHC; // 0xA0
+		::System::UInt32 AKNGEGPIHOF; // 0xA8
+		::System::Byte _padding2[0x4];
+		::AGJFDPBLDDF* GAKFFIKAGFM; // 0xB0
+		::System::Int32 OMDJHDKCHGE; // 0xB8
+		::System::Byte _padding3[0x4];
+		::System::Collections::Generic::List_1<::LNFCIBHFJHI*>* ODDGMOOJCOO; // 0xC0
+		::UnityEngine::Animation* PBNDACOLCJK; // 0xC8
+		::Foundation::Coroutine::CoroutineHandle ENBPBOACPHP; // 0xD0
+		::System::Byte _padding4[0x4];
+		::System::Action* ICOKPCIJEEL; // 0xD8
+		::System::Int32 NGAKEHDBFOI; // 0xE0
+		::System::Byte _padding5[0x4];
+		::System::Action* BPCMCEMKGKC; // 0xE8
 
 		::System::Void _ctor()
 		{
@@ -128,14 +134,14 @@ namespace MoleMole
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_GET_BUFFNUMBER_OFFSET))(this);
 		}
 
-		::System::Void SetupView(::System::Int32 a1, ::MoleMole::Battle::Entity* a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Action* a7)
+		::System::Void SetupView(::System::Int32 BOBBHFPEPHC, ::MoleMole::Battle::Entity* AMNIHACKELI, ::System::Int32 OFLGOIKMBCB, ::System::Boolean CGBIIKAGCEL, ::System::Boolean CEDNGGGGDNP, ::System::Boolean CDFBKOOEMHO, ::System::Action* HNDGJKPNIHA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::MoleMole::Battle::Entity*, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_SETUPVIEW_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::MoleMole::Battle::Entity*, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_SETUPVIEW_OFFSET))(this, BOBBHFPEPHC, AMNIHACKELI, OFLGOIKMBCB, CGBIIKAGCEL, CEDNGGGGDNP, CDFBKOOEMHO, HNDGJKPNIHA);
 		}
 
-		::System::Void OnRemove(::System::Action* a1, ::System::Boolean a2)
+		::System::Void OnRemove(::System::Action* DOBFFIICAII, ::System::Boolean JOBHFEMGBDG)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_ONREMOVE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_ONREMOVE_OFFSET))(this, DOBFFIICAII, JOBHFEMGBDG);
 		}
 
 		::System::Void Interrupt()
@@ -143,9 +149,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_INTERRUPT_OFFSET))(this);
 		}
 
-		::System::Void SetupMoreState(::System::Boolean a1)
+		::System::Void SetupMoreState(::System::Boolean CGBIIKAGCEL)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_SETUPMORESTATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_SETUPMORESTATE_OFFSET))(this, CGBIIKAGCEL);
 		}
 
 		::System::Boolean GetIsMore()
@@ -153,14 +159,14 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_GETISMORE_OFFSET))(this);
 		}
 
-		::System::Boolean SwitchToBuff(::System::Int32 a1)
+		::System::Boolean SwitchToBuff(::System::Int32 BOBBHFPEPHC)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_SWITCHTOBUFF_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_SWITCHTOBUFF_OFFSET))(this, BOBBHFPEPHC);
 		}
 
-		::System::Void ReplaceBuffImmediate(::MoleMole::Battle::Entity* a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Action* a4)
+		::System::Void ReplaceBuffImmediate(::MoleMole::Battle::Entity* AMNIHACKELI, ::System::Int32 BOBBHFPEPHC, ::System::Boolean JCGLFJPFNIE, ::System::Action* HNDGJKPNIHA)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Int32, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_REPLACEBUFFIMMEDIATE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Int32, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_REPLACEBUFFIMMEDIATE_OFFSET))(this, AMNIHACKELI, BOBBHFPEPHC, JCGLFJPFNIE, HNDGJKPNIHA);
 		}
 
 		::System::Void Tick()
@@ -168,9 +174,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_TICK_OFFSET))(this);
 		}
 
-		::System::Void EnableNumberText(::System::Boolean a1)
+		::System::Void EnableNumberText(::System::Boolean FBILHHBPEHD)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_ENABLENUMBERTEXT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_ENABLENUMBERTEXT_OFFSET))(this, FBILHHBPEHD);
 		}
 
 		::System::Void RefreshNumber()
@@ -183,9 +189,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_RESETNUMBER_OFFSET))(this);
 		}
 
-		::System::Void SetCustomNum(::System::Int32 a1)
+		::System::Void SetCustomNum(::System::Int32 OBKBDAPONOJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_SETCUSTOMNUM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_SETCUSTOMNUM_OFFSET))(this, OBKBDAPONOJ);
 		}
 
 		::System::Void OnDestroy()
@@ -193,94 +199,99 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void __base_OnDestroy()
+		::System::Void GAFLFGPOIME()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON___BASE_ONDESTROY_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_GAFLFGPOIME_OFFSET))(this);
 		}
 
-		::System::Void Method_6_63626CD59AEEC164()
+		::System::Void PKOKCBMAHDK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_63626CD59AEEC164_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_PKOKCBMAHDK_OFFSET))(this);
 		}
 
-		::System::Void Method_6_10054BB010E03EDD()
+		::System::Void DDIKMPOJGOI(::System::Int32 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_10054BB010E03EDD_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_DDIKMPOJGOI_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Void Method_6_832295EC279E5994()
+		::System::Void BGAGMONKDDP(::System::Int32 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_BGAGMONKDDP_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Void Method_6_5F08B426ADF31FF5()
+		::System::Void IDJDKBFAPBJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_5F08B426ADF31FF5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_IDJDKBFAPBJ_OFFSET))(this);
 		}
 
-		::System::Void Method_6_C114A1F8E08B6F92(::System::Int32 a1)
+		::System::Void MGPFPPPKEPH()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_C114A1F8E08B6F92_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_MGPFPPPKEPH_OFFSET))(this);
 		}
 
-		::System::Void Method_6_2C1C2A8E63DB0F10(::Class_2_1C93660C39236995* a1)
+		::System::Void PELHKMIAGII()
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_1C93660C39236995*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_2C1C2A8E63DB0F10_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_PELHKMIAGII_OFFSET))(this);
 		}
 
-		::System::Void Method_6_3CCA0B8A31B650A8()
+		::System::Single NBBIIONIMFP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_3CCA0B8A31B650A8_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_NBBIIONIMFP_OFFSET))(this);
 		}
 
-		::System::Void Method_6_C114A1F8E08B6F92_1(::System::Int32 a1)
+		::System::Boolean LNDNBLCELPL()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_C114A1F8E08B6F92_1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_LNDNBLCELPL_OFFSET))(this);
 		}
 
-		::System::Void Method_6_394F35BBA0EE596A()
+		::System::Void DJICBAKLCFO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_394F35BBA0EE596A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_DJICBAKLCFO_OFFSET))(this);
 		}
 
-		::System::Single Method_6_FC5102551AF3CB1A()
+		::System::Int32 ICFNIIHCNKN()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_FC5102551AF3CB1A_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_ICFNIIHCNKN_OFFSET))(this);
 		}
 
-		::System::Void Method_6_1293CB739F1151A1()
+		::System::Void MMIGOOBLNHE(::LNFCIBHFJHI* HBKKHMJJAJA)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_1293CB739F1151A1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::LNFCIBHFJHI*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_MMIGOOBLNHE_OFFSET))(this, HBKKHMJJAJA);
 		}
 
-		::System::Boolean Method_6_79B136329E63E31A()
+		::System::Void IFHNMAGGFAE()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_79B136329E63E31A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_IFHNMAGGFAE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_0FD0EC313FAAB75A()
+		::System::Void HMAHLGFKHJA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_0FD0EC313FAAB75A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_HMAHLGFKHJA_OFFSET))(this);
 		}
 
-		::System::Void Method_6_D0ACB47B641DF879()
+		::System::Void JFEDGNBOJOC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_D0ACB47B641DF879_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_JFEDGNBOJOC_OFFSET))(this);
 		}
 
-		::System::Int32 Method_6_95780ED94B90ED36()
+		::System::Boolean JMNLIHHOHDA()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_95780ED94B90ED36_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_JMNLIHHOHDA_OFFSET))(this);
 		}
 
-		::System::Void Method_6_147A527305B2FF1B()
+		::System::Void MMAHBPMKJPF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_147A527305B2FF1B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_MMAHBPMKJPF_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_D240830C442C70A4()
+		::System::Void BHPIKOHACDC()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_METHOD_6_D240830C442C70A4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_BHPIKOHACDC_OFFSET))(this);
+		}
+
+		::System::Void OHPIKMLGBCK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUFFICON_OHPIKMLGBCK_OFFSET))(this);
 		}
 	};
 }

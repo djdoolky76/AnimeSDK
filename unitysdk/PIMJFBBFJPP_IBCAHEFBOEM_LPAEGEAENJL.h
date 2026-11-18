@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Foundation/Unreal/FTransform3D.h"
+#include "unitysdk/System/Object.h"
+
+class PIMJFBBFJPP_IBCAHEFBOEM;
+
+#define PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x14B9E730)
+#define PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14B9ECC0)
+#define PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14B9ED20)
+#define PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x14B9ECD0)
+#define PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14B9E720)
+#define PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL__CTOR_OFFSET UNITYSDK_OFFSET(0x14B9E710)
+
+inline static constexpr unsigned int PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL_TypeDefinitionIndex = 58945;
+
+class PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL : public ::System::Object
+{
+public:
+	::System::Object* IDBEJJEKGDI; // 0x10
+	::PIMJFBBFJPP_IBCAHEFBOEM* KLHPEBKNIFB; // 0x18
+	::System::Single GBFANNLCHMO; // 0x20
+	::System::Single FBGNAPBDLCA; // 0x24
+	::Foundation::Unreal::FTransform3D HBAIENEBGMH; // 0x28
+	::Foundation::Unreal::FTransform3D DPFOMFKALEP; // 0x50
+	::System::Single DCCPKBIHGCK; // 0x78
+	::System::Boolean OEOPLHGBEEE; // 0x7C
+	::System::Byte _padding0[0x3];
+	::System::Single DIEHHNCKDPI; // 0x80
+	::System::Int32 MDPILDGFNHN; // 0x84
+
+	::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL__CTOR_OFFSET))(this, MDPILDGFNHN);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + PIMJFBBFJPP_IBCAHEFBOEM_LPAEGEAENJL_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

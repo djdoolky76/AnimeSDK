@@ -1,0 +1,105 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class AFMMAIKKACF;
+class ALGKMLLALFG;
+class EECEBDJKOBI;
+class EHGPNGPADCB;
+namespace MoleMole { class UIHollowCardOptionsDialogPopWindowController; }
+namespace MoleMole { class UIHollowEventWidgetChildWindowController; }
+namespace System { class Action; }
+
+#define JILDDEDJNHP_ABDLEONNPAJ_OFFSET UNITYSDK_OFFSET(0x14A80A10)
+#define JILDDEDJNHP_BAJIIBGJLGG_OFFSET UNITYSDK_OFFSET(0x14A80D50)
+#define JILDDEDJNHP_CPLAGCDNDGN_OFFSET UNITYSDK_OFFSET(0x14A7FC70)
+#define JILDDEDJNHP_DCJMFMAHBLD_OFFSET UNITYSDK_OFFSET(0x14A7FAE0)
+#define JILDDEDJNHP_EJIMIACMMMD_OFFSET UNITYSDK_OFFSET(0x14A80BF0)
+#define JILDDEDJNHP_FAFPOKONOEH_OFFSET UNITYSDK_OFFSET(0x14A80910)
+#define JILDDEDJNHP_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0x14A7F9A0)
+#define JILDDEDJNHP_GMLAMCKLHMB_OFFSET UNITYSDK_OFFSET(0x14A80B60)
+#define JILDDEDJNHP_GOAPMEILMMC_OFFSET UNITYSDK_OFFSET(0x14A80C00)
+#define JILDDEDJNHP_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0x14A80880)
+#define JILDDEDJNHP_MMFLLDJHILA_OFFSET UNITYSDK_OFFSET(0x14A80480)
+#define JILDDEDJNHP_OIBKFFAGPNH_OFFSET UNITYSDK_OFFSET(0x14A806E0)
+#define JILDDEDJNHP__CTOR_OFFSET UNITYSDK_OFFSET(0x14A7F910)
+
+inline static constexpr unsigned int JILDDEDJNHP_TypeDefinitionIndex = 43185;
+
+class JILDDEDJNHP
+{
+public:
+	::MoleMole::UIHollowEventWidgetChildWindowController* MIMMJPHJHKE; // 0x30
+	::ALGKMLLALFG* LMLPPLMKLFL; // 0x38
+	::MoleMole::UIHollowCardOptionsDialogPopWindowController* PPPBMMOOBHM; // 0x40
+	::EECEBDJKOBI* CKMCJLLLAEO; // 0x48
+	::AFMMAIKKACF* AAOCANGHBDG; // 0x50
+	::System::Boolean MAHGHDHHMPK; // 0x58
+	::System::Boolean GIPAACKFGBO; // 0x59
+	::System::Boolean IKHNJJJKNGJ; // 0x5A
+	::System::Boolean PKMDLJDCAFK; // 0x5B
+
+	::System::Void _ctor(::EHGPNGPADCB* EHJLNOADMFL)
+	{
+		return ((::System::Void(*)(::PVOID, ::EHGPNGPADCB*))((::PBYTE)hIl2Cpp + JILDDEDJNHP__CTOR_OFFSET))(this, EHJLNOADMFL);
+	}
+
+	::System::Void GLEJMKLOMBP(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + JILDDEDJNHP_GLEJMKLOMBP_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void MMFLLDJHILA(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + JILDDEDJNHP_MMFLLDJHILA_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void OIBKFFAGPNH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JILDDEDJNHP_OIBKFFAGPNH_OFFSET))(this);
+	}
+
+	::System::Void LIDIODHDJAF(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + JILDDEDJNHP_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void FAFPOKONOEH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JILDDEDJNHP_FAFPOKONOEH_OFFSET))(this);
+	}
+
+	::System::Void ABDLEONNPAJ(::System::Action* EJGDHCIBCJH)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + JILDDEDJNHP_ABDLEONNPAJ_OFFSET))(this, EJGDHCIBCJH);
+	}
+
+	::System::Void GMLAMCKLHMB(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + JILDDEDJNHP_GMLAMCKLHMB_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void EJIMIACMMMD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JILDDEDJNHP_EJIMIACMMMD_OFFSET))(this);
+	}
+
+	::System::Void DCJMFMAHBLD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JILDDEDJNHP_DCJMFMAHBLD_OFFSET))(this);
+	}
+
+	::System::Void GOAPMEILMMC(::System::Int32 AOCAJDGGKPE, ::System::Int32 KKGGACLGGPN, ::System::Action* EJGDHCIBCJH)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + JILDDEDJNHP_GOAPMEILMMC_OFFSET))(this, AOCAJDGGKPE, KKGGACLGGPN, EJGDHCIBCJH);
+	}
+
+	::System::Void CPLAGCDNDGN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JILDDEDJNHP_CPLAGCDNDGN_OFFSET))(this);
+	}
+
+	::System::Void BAJIIBGJLGG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JILDDEDJNHP_BAJIIBGJLGG_OFFSET))(this);
+	}
+};

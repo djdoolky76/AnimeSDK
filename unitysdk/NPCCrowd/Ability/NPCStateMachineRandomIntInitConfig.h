@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_ABILITY_NPCSTATEMACHINERANDOMINTINITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10296950)
+#define NPCCROWD_ABILITY_NPCSTATEMACHINERANDOMINTINITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x115B4830)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCStateMachineRandomIntInitConfig_TypeDefinitionIndex = 89802;
+	inline static constexpr unsigned int NPCStateMachineRandomIntInitConfig_TypeDefinitionIndex = 54027;
 
 	class NPCStateMachineRandomIntInitConfig : public ::System::Object
 	{

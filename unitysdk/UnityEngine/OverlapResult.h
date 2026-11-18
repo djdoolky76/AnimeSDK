@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_OVERLAPRESULT_GET_COLLIDERTAG_OFFSET UNITYSDK_OFFSET(0x424ED0)
-#define UNITYENGINE_OVERLAPRESULT_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x325570)
+#define UNITYENGINE_OVERLAPRESULT_GET_COLLIDERTAG_OFFSET UNITYSDK_OFFSET(0x3CE9E0)
+#define UNITYENGINE_OVERLAPRESULT_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x359320)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int OverlapResult_TypeDefinitionIndex = 7787;
+	inline static constexpr unsigned int OverlapResult_TypeDefinitionIndex = 7802;
 
 	struct alignas(4) OverlapResult
 	{

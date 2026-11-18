@@ -3,7 +3,7 @@
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int X509ChainStatusFlags_TypeDefinitionIndex = 2301;
+	inline static constexpr unsigned int X509ChainStatusFlags_TypeDefinitionIndex = 2300;
 
 	enum class X509ChainStatusFlags : ::System::Int32
 	{

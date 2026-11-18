@@ -4,11 +4,11 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int HierarchicalHashGrid2DView_2_CellItemLessComparer_1_TypeDefinitionIndex = 8513;
+	inline static constexpr unsigned int HierarchicalHashGrid2DView_2_CellItemLessComparer_1_TypeDefinitionIndex = 9045;
 
-	template <typename T, typename TEqualsFunc, typename TComparer>
-	struct HierarchicalHashGrid2DView_2_CellItemLessComparer_1
+	template <typename T1, typename T2>
+	struct alignas(8) HierarchicalHashGrid2DView_2_CellItemLessComparer_1
 	{
-		TComparer _comparer; // 0x0
+		T1 _comparer; // 0x0
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11A057D0)
+#define MOLEMOLE_UIURBANMAPWINDWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1563CE50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapWindWidgetController_Context_TypeDefinitionIndex = 90604;
+	inline static constexpr unsigned int UIUrbanMapWindWidgetController_Context_TypeDefinitionIndex = 57962;
 
 	class UIUrbanMapWindWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

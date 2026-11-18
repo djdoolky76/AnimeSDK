@@ -9,13 +9,15 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ColorModifyBlendData_TypeDefinitionIndex = 45664;
+	inline static constexpr unsigned int ColorModifyBlendData_TypeDefinitionIndex = 78750;
 
 	struct alignas(8) ColorModifyBlendData
 	{
 		::System::Single Duration; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* BlendAnimationCurve; // 0x18
 		::System::Nullable_1<::UnityEngine::Color> BeginColor; // 0x20
+		::System::Byte _padding1[0xC];
 		::System::Nullable_1<::UnityEngine::Vector4> BeginSccInfo; // 0x34
 	};
 }

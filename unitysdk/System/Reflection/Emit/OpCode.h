@@ -5,20 +5,17 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_EMIT_OPCODE_EQUALS_OFFSET UNITYSDK_OFFSET(0x9089A0)
-#define SYSTEM_REFLECTION_EMIT_OPCODE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x908910)
-#define SYSTEM_REFLECTION_EMIT_OPCODE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x908A00)
-#define SYSTEM_REFLECTION_EMIT_OPCODE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x908A10)
-#define SYSTEM_REFLECTION_EMIT_OPCODE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1C31E8E0)
-#define SYSTEM_REFLECTION_EMIT_OPCODE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1C31E8F0)
-#define SYSTEM_REFLECTION_EMIT_OPCODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x908A00)
-#define SYSTEM_REFLECTION_EMIT_OPCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x9088E0)
+#define SYSTEM_REFLECTION_EMIT_OPCODE_EQUALS_OFFSET UNITYSDK_OFFSET(0x84AD70)
+#define SYSTEM_REFLECTION_EMIT_OPCODE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x84ACE0)
+#define SYSTEM_REFLECTION_EMIT_OPCODE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x84ADD0)
+#define SYSTEM_REFLECTION_EMIT_OPCODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x84ADD0)
+#define SYSTEM_REFLECTION_EMIT_OPCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x84ACB0)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int OpCode_TypeDefinitionIndex = 621;
+	inline static constexpr unsigned int OpCode_TypeDefinitionIndex = 620;
 
-	struct alignas(1) OpCode
+	struct alignas(4) OpCode
 	{
 		::System::Byte op1; // 0x10
 		::System::Byte op2; // 0x11
@@ -52,21 +49,6 @@ namespace System::Reflection::Emit
 		::System::String* get_Name()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODE_GET_NAME_OFFSET))(this);
-		}
-
-		::System::Int16 get_Value()
-		{
-			return ((::System::Int16(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODE_GET_VALUE_OFFSET))(this);
-		}
-
-		static ::System::Boolean op_Equality(::System::Reflection::Emit::OpCode a, ::System::Reflection::Emit::OpCode b)
-		{
-			return ((::System::Boolean(*)(::System::Reflection::Emit::OpCode, ::System::Reflection::Emit::OpCode))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODE_OP_EQUALITY_OFFSET))(a, b);
-		}
-
-		static ::System::Boolean op_Inequality(::System::Reflection::Emit::OpCode a, ::System::Reflection::Emit::OpCode b)
-		{
-			return ((::System::Boolean(*)(::System::Reflection::Emit::OpCode, ::System::Reflection::Emit::OpCode))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODE_OP_INEQUALITY_OFFSET))(a, b);
 		}
 	};
 }

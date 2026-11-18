@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_STRINGEXTENSIONS_SUBSTRINGTRIM_1_OFFSET UNITYSDK_OFFSET(0x1DD324F0)
-#define SYSTEM_STRINGEXTENSIONS_SUBSTRINGTRIM_OFFSET UNITYSDK_OFFSET(0x1DD324D0)
+#define SYSTEM_STRINGEXTENSIONS_SUBSTRINGTRIM_1_OFFSET UNITYSDK_OFFSET(0x1E0D31F0)
+#define SYSTEM_STRINGEXTENSIONS_SUBSTRINGTRIM_OFFSET UNITYSDK_OFFSET(0x1E0D31D0)
 
 namespace System
 {
-	inline static constexpr unsigned int StringExtensions_TypeDefinitionIndex = 2655;
+	inline static constexpr unsigned int StringExtensions_TypeDefinitionIndex = 2654;
 
 	class StringExtensions : public ::System::Object
 	{

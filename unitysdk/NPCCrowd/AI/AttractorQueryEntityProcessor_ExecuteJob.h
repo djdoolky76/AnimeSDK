@@ -14,23 +14,29 @@
 namespace NPCCrowd::AI { class AttractorRuntime; }
 namespace NPCCrowd::AI { class AttractorRuntimeData; }
 
-#define NPCCROWD_AI_ATTRACTORQUERYENTITYPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5A06C0)
-#define NPCCROWD_AI_ATTRACTORQUERYENTITYPROCESSOR_EXECUTEJOB_FINDCLOSESTENTITYBYTAG_OFFSET UNITYSDK_OFFSET(0x5A06D0)
-#define NPCCROWD_AI_ATTRACTORQUERYENTITYPROCESSOR_EXECUTEJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x5A06B0)
+#define NPCCROWD_AI_ATTRACTORQUERYENTITYPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x5C5620)
+#define NPCCROWD_AI_ATTRACTORQUERYENTITYPROCESSOR_EXECUTEJOB_FINDCLOSESTENTITYBYTAG_OFFSET UNITYSDK_OFFSET(0x5C5630)
+#define NPCCROWD_AI_ATTRACTORQUERYENTITYPROCESSOR_EXECUTEJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x5C5610)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorQueryEntityProcessor_ExecuteJob_TypeDefinitionIndex = 77283;
+	inline static constexpr unsigned int AttractorQueryEntityProcessor_ExecuteJob_TypeDefinitionIndex = 66537;
 
 	struct alignas(8) AttractorQueryEntityProcessor_ExecuteJob
 	{
 		// static const ::System::Single AttractorCD; // 0x0
 		::Unity::Collections::NativeArray_1<::System::Boolean> _isUsing; // 0x10
+		::System::Byte _padding0[0x8];
 		::Foundation::Container::HierarchicalHashGrid2D_2<::NPCCrowd::Ability::NavigationObstacleItem, ::NPCCrowd::Ability::NavigationObstacleItemEqualsFunc> _obstacleGrid; // 0x20
+		::System::Byte _padding1[0x48];
 		::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData> _data; // 0x70
+		::System::Byte _padding2[0x18];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> _transformFragments; // 0x90
+		::System::Byte _padding3[0x8];
 		::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _queryBoxFragments; // 0xA0
+		::System::Byte _padding4[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::AI::FAttractorBase> attractorBase; // 0xB0
+		::System::Byte _padding5[0x8];
 		::System::Single deltaTime; // 0xC0
 
 		::System::Void _ctor(::NPCCrowd::AI::AttractorRuntimeData* runtimeData, ::System::Single deltaTime)

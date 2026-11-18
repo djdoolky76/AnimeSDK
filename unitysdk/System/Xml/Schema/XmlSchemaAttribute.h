@@ -11,33 +11,33 @@ namespace System::Xml::Schema { class XmlSchemaDatatype; }
 namespace System::Xml::Schema { class XmlSchemaObject; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_CLONE_OFFSET UNITYSDK_OFFSET(0x1D564060)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1D564010)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D564040)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SETQUALIFIEDNAME_OFFSET UNITYSDK_OFFSET(0x1D564030)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D564050)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1D563ED0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_SCHEMATYPENAME_OFFSET UNITYSDK_OFFSET(0x1D563F70)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5641C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_CLONE_OFFSET UNITYSDK_OFFSET(0x1DA5EF90)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1DA5EF40)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_GET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1DA5EF70)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SETQUALIFIEDNAME_OFFSET UNITYSDK_OFFSET(0x1DA5EF60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_NAMEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1DA5EF80)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_REFNAME_OFFSET UNITYSDK_OFFSET(0x1DA5EE00)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE_SET_SCHEMATYPENAME_OFFSET UNITYSDK_OFFSET(0x1DA5EEA0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5F0E0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaAttribute_TypeDefinitionIndex = 2120;
+	inline static constexpr unsigned int XmlSchemaAttribute_TypeDefinitionIndex = 2119;
 
 	class XmlSchemaAttribute : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{
 	public:
-		::System::String* fixedValue; // 0x50
-		::System::Xml::XmlQualifiedName* typeName; // 0x58
+		::System::Xml::XmlQualifiedName* refName; // 0x50
+		::System::Xml::Schema::XmlSchemaSimpleType* attributeType; // 0x58
 		::System::Xml::XmlQualifiedName* qualifiedName; // 0x60
-		::System::Xml::Schema::XmlSchemaSimpleType* type; // 0x68
-		::System::Xml::Schema::XmlSchemaSimpleType* attributeType; // 0x70
-		::System::Xml::Schema::SchemaAttDef* attDef; // 0x78
-		::System::String* name; // 0x80
-		::System::Xml::XmlQualifiedName* refName; // 0x88
-		::System::String* defaultValue; // 0x90
-		::System::Xml::Schema::XmlSchemaUse use; // 0x98
-		::System::Xml::Schema::XmlSchemaForm form; // 0x9C
+		::System::String* name; // 0x68
+		::System::String* fixedValue; // 0x70
+		::System::Xml::XmlQualifiedName* typeName; // 0x78
+		::System::String* defaultValue; // 0x80
+		::System::Xml::Schema::SchemaAttDef* attDef; // 0x88
+		::System::Xml::Schema::XmlSchemaSimpleType* type; // 0x90
+		::System::Xml::Schema::XmlSchemaForm form; // 0x98
+		::System::Xml::Schema::XmlSchemaUse use; // 0x9C
 
 		::System::Void _ctor()
 		{

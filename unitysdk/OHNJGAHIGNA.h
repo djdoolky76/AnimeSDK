@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PBJOCICFNGK.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+
+class GCIMMDDIFBJ;
+class IOOIHHOJOPI;
+class LEGNKEBDEHL;
+namespace System { class String; }
+template <typename T> class DBMAHDDGMHM_1;
+
+#define OHNJGAHIGNA_DKIBBNCFENG_OFFSET UNITYSDK_OFFSET(0x172CB120)
+#define OHNJGAHIGNA_EJMLADDEHAE_OFFSET UNITYSDK_OFFSET(0x172CAB80)
+#define OHNJGAHIGNA_FDGNAGIJNIF_OFFSET UNITYSDK_OFFSET(0x172CAEA0)
+#define OHNJGAHIGNA_FNKFPOGMBLB_OFFSET UNITYSDK_OFFSET(0x172CAFC0)
+#define OHNJGAHIGNA_ICFIOPLOOPB_OFFSET UNITYSDK_OFFSET(0x172CB040)
+#define OHNJGAHIGNA_KDGMEFEJMGJ_OFFSET UNITYSDK_OFFSET(0x172CAF30)
+#define OHNJGAHIGNA__CTOR_OFFSET UNITYSDK_OFFSET(0x172CAE50)
+
+inline static constexpr unsigned int OHNJGAHIGNA_TypeDefinitionIndex = 41004;
+
+class OHNJGAHIGNA : public ::PBJOCICFNGK
+{
+public:
+	::DBMAHDDGMHM_1<::LEGNKEBDEHL*>* FPINJPKPHAE; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OHNJGAHIGNA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EJMLADDEHAE(::LIBOIKJGAIH& EIEOJFEPMAB, ::IOOIHHOJOPI* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::IOOIHHOJOPI*))((::PBYTE)hIl2Cpp + OHNJGAHIGNA_EJMLADDEHAE_OFFSET))(this, EIEOJFEPMAB, IOKOLJDCKPN);
+	}
+
+	::System::String* FDGNAGIJNIF()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + OHNJGAHIGNA_FDGNAGIJNIF_OFFSET))(this);
+	}
+
+	::System::Void KDGMEFEJMGJ(::LEGNKEBDEHL* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::LEGNKEBDEHL*))((::PBYTE)hIl2Cpp + OHNJGAHIGNA_KDGMEFEJMGJ_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Int32 FNKFPOGMBLB()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + OHNJGAHIGNA_FNKFPOGMBLB_OFFSET))(this);
+	}
+
+	::GCIMMDDIFBJ* ICFIOPLOOPB()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + OHNJGAHIGNA_ICFIOPLOOPB_OFFSET))(this);
+	}
+
+	::System::Void DKIBBNCFENG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OHNJGAHIGNA_DKIBBNCFENG_OFFSET))(this);
+	}
+};

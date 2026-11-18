@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class AmplifyOcclusionPassNativeState; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_AMPLIFYOCCLUSIONPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EE1E830)
-#define UNITYENGINE_NAPRENDERPIPELINE0_AMPLIFYOCCLUSIONPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EE1E860)
-#define UNITYENGINE_NAPRENDERPIPELINE0_AMPLIFYOCCLUSIONPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1EE1E800)
-#define UNITYENGINE_NAPRENDERPIPELINE0_AMPLIFYOCCLUSIONPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE1E780)
+#define UNITYENGINE_NAPRENDERPIPELINE0_AMPLIFYOCCLUSIONPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F184F90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_AMPLIFYOCCLUSIONPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1F184FC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_AMPLIFYOCCLUSIONPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1F184F60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_AMPLIFYOCCLUSIONPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F184EE0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int AmplifyOcclusionPass_NativeImpl_TypeDefinitionIndex = 5730;
+	inline static constexpr unsigned int AmplifyOcclusionPass_NativeImpl_TypeDefinitionIndex = 5735;
 
 	class AmplifyOcclusionPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

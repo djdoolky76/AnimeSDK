@@ -2,37 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_REQUESTSYNCCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1F12F580)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_REQUESTSYNCCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0xA916A0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_REQUESTSYNCCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F12F560)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_REQUESTSYNCCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1F4EC200)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_REQUESTSYNCCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x977450)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_REQUESTSYNCCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F4EC1E0)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int RequestSyncCommand_TypeDefinitionIndex = 32488;
+	inline static constexpr unsigned int RequestSyncCommand_TypeDefinitionIndex = 31937;
 
 	struct alignas(4) RequestSyncCommand
 	{
 		// static const ::System::Int32 kSize = 0x8; // 0x0
 		::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand; // 0x10
 
-		/*
 		static ::UnityEngine::InputSystem::Utilities::FourCC get_Type()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_REQUESTSYNCCOMMAND_GET_TYPE_OFFSET))();
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_REQUESTSYNCCOMMAND_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::LowLevel::RequestSyncCommand Create()
 		{
 			return ((::UnityEngine::InputSystem::LowLevel::RequestSyncCommand(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_REQUESTSYNCCOMMAND_CREATE_OFFSET))();
 		}
+		*/
 	};
 }

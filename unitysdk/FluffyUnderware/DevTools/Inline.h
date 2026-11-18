@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FluffyUnderware/DevTools/DTAttribute.h"
 
-#define FLUFFYUNDERWARE_DEVTOOLS_INLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA55DC0)
+#define FLUFFYUNDERWARE_DEVTOOLS_INLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5EA40)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int Inline_TypeDefinitionIndex = 28929;
+	inline static constexpr unsigned int Inline_TypeDefinitionIndex = 28368;
 
 	class Inline : public ::FluffyUnderware::DevTools::DTAttribute
 	{

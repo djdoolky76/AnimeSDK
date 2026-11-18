@@ -1,20 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0D4B4448C1FD8536.h"
+#include "unitysdk/CLJHJMDBICA.h"
 #include "unitysdk/System/Object.h"
 
 namespace UnityEngine { class Material; }
 
-#define CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMEFILTERMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x19F84B90)
+#define CODE_LOGIC_UI_UGUIEXTENSIONS_GALGAMEMATERIALMODIFIER_GALGAMEFILTERMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x123F5670)
 
 namespace Code::Logic::UI::UGUIExtensions::GalGameMaterialModifier
 {
-	inline static constexpr unsigned int GalGameFilterMaterial_TypeDefinitionIndex = 52321;
+	inline static constexpr unsigned int GalGameFilterMaterial_TypeDefinitionIndex = 74900;
 
 	class GalGameFilterMaterial : public ::System::Object
 	{
 	public:
-		::Enum_3_0D4B4448C1FD8536 filterType; // 0x10
+		::CLJHJMDBICA filterType; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Material* material; // 0x18
 
 		::System::Void _ctor()

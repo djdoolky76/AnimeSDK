@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Timeline/ArrowDir.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace System { class String; }
@@ -9,13 +9,13 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_TIMELINE_COMICBUBBLEPROXY_SHOWARROW_OFFSET UNITYSDK_OFFSET(0x1F9B6BF0)
-#define UNITYENGINE_TIMELINE_COMICBUBBLEPROXY_SHOWTEX_OFFSET UNITYSDK_OFFSET(0x1F9B6C50)
-#define UNITYENGINE_TIMELINE_COMICBUBBLEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9B6CF0)
+#define UNITYENGINE_TIMELINE_COMICBUBBLEPROXY_SHOWARROW_OFFSET UNITYSDK_OFFSET(0x1FD98580)
+#define UNITYENGINE_TIMELINE_COMICBUBBLEPROXY_SHOWTEX_OFFSET UNITYSDK_OFFSET(0x1FD985E0)
+#define UNITYENGINE_TIMELINE_COMICBUBBLEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD98680)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ComicBubbleProxy_TypeDefinitionIndex = 32939;
+	inline static constexpr unsigned int ComicBubbleProxy_TypeDefinitionIndex = 32394;
 
 	class ComicBubbleProxy : public ::UnityEngine::MonoBehaviour
 	{

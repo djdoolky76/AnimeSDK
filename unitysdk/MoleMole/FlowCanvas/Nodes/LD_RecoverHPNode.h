@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_6.h"
 #include "unitysdk/MoleMole/Config/PropertyModifyFunction.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECOVERHPNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x149E7F10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECOVERHPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x149E81F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECOVERHPNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x130D7FF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_RECOVERHPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x130D82D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_RecoverHPNode_TypeDefinitionIndex = 53923;
+	inline static constexpr unsigned int LD_RecoverHPNode_TypeDefinitionIndex = 71282;
 
-	class LD_RecoverHPNode : public ::FlowCanvas::Nodes::CallableFunctionNode_6<::System::Boolean, ::MoleMole::Battle::Entity*, ::MoleMole::Config::PropertyModifyFunction, ::System::Single, ::System::Single, ::System::Boolean>
+	class LD_RecoverHPNode
 	{
 	public:
 		::System::Void _ctor()

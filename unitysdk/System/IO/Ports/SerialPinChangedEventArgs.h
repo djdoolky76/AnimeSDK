@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/EventArgs.h"
 #include "unitysdk/System/IO/Ports/SerialPinChange.h"
+#include "unitysdk/System/EventArgs.h"
 
-#define SYSTEM_IO_PORTS_SERIALPINCHANGEDEVENTARGS_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1D6A4920)
-#define SYSTEM_IO_PORTS_SERIALPINCHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A48E0)
+#define SYSTEM_IO_PORTS_SERIALPINCHANGEDEVENTARGS_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1DB9EB30)
+#define SYSTEM_IO_PORTS_SERIALPINCHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB9EAF0)
 
 namespace System::IO::Ports
 {
-	inline static constexpr unsigned int SerialPinChangedEventArgs_TypeDefinitionIndex = 4161;
+	inline static constexpr unsigned int SerialPinChangedEventArgs_TypeDefinitionIndex = 4160;
 
 	class SerialPinChangedEventArgs : public ::System::EventArgs
 	{

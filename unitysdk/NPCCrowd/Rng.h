@@ -1,16 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/NPCCrowd/Rng_RngSequence.h"
 
-#define NPCCROWD_RNG_GETSEQUENCE_1_OFFSET UNITYSDK_OFFSET(0xF616440)
-#define NPCCROWD_RNG_GETSEQUENCE_OFFSET UNITYSDK_OFFSET(0x6536B0)
-#define NPCCROWD_RNG_SHUFFLE_OFFSET UNITYSDK_OFFSET(0x6536A0)
-#define NPCCROWD_RNG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x653650)
-#define NPCCROWD_RNG__CTOR_OFFSET UNITYSDK_OFFSET(0x3253A0)
+#define NPCCROWD_RNG_GETSEQUENCE_1_OFFSET UNITYSDK_OFFSET(0x15F49440)
+#define NPCCROWD_RNG_GETSEQUENCE_OFFSET UNITYSDK_OFFSET(0x776D60)
+#define NPCCROWD_RNG_SHUFFLE_OFFSET UNITYSDK_OFFSET(0x776D50)
+#define NPCCROWD_RNG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x776D00)
+#define NPCCROWD_RNG__CTOR_OFFSET UNITYSDK_OFFSET(0x359150)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int Rng_TypeDefinitionIndex = 40925;
+	inline static constexpr unsigned int Rng_TypeDefinitionIndex = 56396;
 
 	struct alignas(4) Rng
 	{
@@ -26,23 +27,21 @@ namespace NPCCrowd
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_RNG__CTOR_1_OFFSET))(this, seed);
 		}
 
+		/*
 		::NPCCrowd::Rng Shuffle()
 		{
 			return ((::NPCCrowd::Rng(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_RNG_SHUFFLE_OFFSET))(this);
 		}
+		*/
 
-		/*
 		::NPCCrowd::Rng_RngSequence GetSequence(::System::Int32 index)
 		{
 			return ((::NPCCrowd::Rng_RngSequence(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_RNG_GETSEQUENCE_OFFSET))(this, index);
 		}
-		*/
 
-		/*
 		static ::NPCCrowd::Rng_RngSequence GetSequence_1(::System::Int32 seed, ::System::Int32 index)
 		{
 			return ((::NPCCrowd::Rng_RngSequence(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_RNG_GETSEQUENCE_1_OFFSET))(seed, index);
 		}
-		*/
 	};
 }

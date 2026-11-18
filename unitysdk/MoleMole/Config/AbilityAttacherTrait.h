@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/Foundation/ViewObject/EntityBuildContext.h"
-#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-class Class_0_16E4307DCC419505_198;
-class Class_1_236FD73ABC492E3F;
-class Class_1_663AFC2250EC21C9;
-class Class_1_BE29B49AC03370B6;
+class EKHEOJOFLLA;
+class FKNIEPCILLG;
+class OHDHAGLCAEB;
+class OMGJIDKKHHO;
 namespace MoleMole::Config { class ConfigAbilityFragment; }
 namespace MoleMole::Config { class ConfigAbilityFragmentParam; }
 namespace System { class Object; }
@@ -17,28 +17,28 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x16249470)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x16247E70)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x16247F70)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x16247E10)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16248950)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x16248280)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x16248D90)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x16247F60)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_INSERT_OFFSET UNITYSDK_OFFSET(0x16249330)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x162489B0)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x16248300)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x16248DE0)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16248C00)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x16248810)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x162494F0)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT__SETUPABILITY_OFFSET UNITYSDK_OFFSET(0x16248E50)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x16249510)
-#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x16249520)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x19B04D30)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x19B03730)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x19B03830)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x19B036D0)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B04210)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x19B03B40)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x19B04650)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x19B03820)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_INSERT_OFFSET UNITYSDK_OFFSET(0x19B04BF0)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B04270)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x19B03BC0)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x19B046A0)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B044C0)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x19B040D0)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B04DC0)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT__SETUPABILITY_OFFSET UNITYSDK_OFFSET(0x19B04710)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x19B04DE0)
+#define MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x19B04DF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AbilityAttacherTrait_TypeDefinitionIndex = 88547;
+	inline static constexpr unsigned int AbilityAttacherTrait_TypeDefinitionIndex = 43394;
 
 	class AbilityAttacherTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -65,9 +65,9 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void ExposeMember(::Class_0_16E4307DCC419505_198* processor, ::System::String* prefix)
+		::System::Void ExposeMember(::OHDHAGLCAEB* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
@@ -85,24 +85,24 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::AbilityAttacherTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::AbilityAttacherTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		static ::MoleMole::Config::AbilityAttacherTrait* ParseFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::AbilityAttacherTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+			return ((::MoleMole::Config::AbilityAttacherTrait*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Boolean GenerateComponent(::Class_1_BE29B49AC03370B6* buildContext)
+		::System::Boolean GenerateComponent(::EKHEOJOFLLA* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
+			return ((::System::Boolean(*)(::PVOID, ::EKHEOJOFLLA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
 		::System::Void OnPostEntityReady(::MoleMole::EntityHandle entityHandle)
@@ -110,9 +110,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_ONPOSTENTITYREADY_OFFSET))(this, entityHandle);
 		}
 
-		static ::System::Void Insert(::Class_1_663AFC2250EC21C9* map, ::MoleMole::Config::ConfigAbilityFragmentParam* param)
+		static ::System::Void Insert(::OMGJIDKKHHO* map, ::MoleMole::Config::ConfigAbilityFragmentParam* param)
 		{
-			return ((::System::Void(*)(::Class_1_663AFC2250EC21C9*, ::MoleMole::Config::ConfigAbilityFragmentParam*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_INSERT_OFFSET))(map, param);
+			return ((::System::Void(*)(::OMGJIDKKHHO*, ::MoleMole::Config::ConfigAbilityFragmentParam*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_INSERT_OFFSET))(map, param);
 		}
 
 		::System::Void _SetupAbility(::MoleMole::EntityHandle entityHandle)
@@ -125,14 +125,14 @@ namespace MoleMole::Config
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT_BUILDENTITYCOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_198* P0, ::System::String* P1)
+		::System::Void __base_ExposeMember(::OHDHAGLCAEB* P0, ::System::String* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 
-		::System::Boolean __base_GenerateComponent(::Class_1_BE29B49AC03370B6* P0)
+		::System::Boolean __base_GenerateComponent(::EKHEOJOFLLA* P0)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::EKHEOJOFLLA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ABILITYATTACHERTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

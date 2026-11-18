@@ -7,20 +7,22 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDBULLETTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1437F850)
+#define MOLEMOLE_CONFIG_CONFIGSHOOTINGGROUNDBULLETTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A4B60)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigShootingGroundBulletType_TypeDefinitionIndex = 63980;
+	inline static constexpr unsigned int ConfigShootingGroundBulletType_TypeDefinitionIndex = 87964;
 
 	class ConfigShootingGroundBulletType : public ::System::Object
 	{
 	public:
 		::MoleMole::ShootingGroundSubsystem_BulletMode Mode; // 0x10
 		::System::Boolean IsPenetrate; // 0x14
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Color DebugColor; // 0x18
 		::Il2CppArray<::System::String*>* HitEffectPatterns; // 0x28
 		::System::Single Recoil; // 0x30
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* RecoilToRadXBaseCurve; // 0x38
 		::UnityEngine::AnimationCurve* RecoilToRadYBaseCurve; // 0x40
 		::UnityEngine::AnimationCurve* RecoilToRadXRandomCurve; // 0x48
@@ -28,6 +30,7 @@ namespace MoleMole::Config
 		::UnityEngine::AnimationCurve* RecoilToRadXMaxCurve; // 0x58
 		::UnityEngine::AnimationCurve* RecoilToRadYMaxCurve; // 0x60
 		::System::Single Spread; // 0x68
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* SpreadToRadXCurve; // 0x70
 		::UnityEngine::AnimationCurve* SpreadToRadYCurve; // 0x78
 

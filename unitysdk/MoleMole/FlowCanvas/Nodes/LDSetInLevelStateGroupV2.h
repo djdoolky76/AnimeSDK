@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
-namespace MoleMole::FlowCanvas::Nodes { class LDSetInLevelStateGroupV2_StateGroupKeyValue; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETINLEVELSTATEGROUPV2_BEGIN_OFFSET UNITYSDK_OFFSET(0x13693F10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETINLEVELSTATEGROUPV2_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13693E20)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETINLEVELSTATEGROUPV2__CTOR_OFFSET UNITYSDK_OFFSET(0x13694200)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETINLEVELSTATEGROUPV2_BEGIN_OFFSET UNITYSDK_OFFSET(0x1356DA70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETINLEVELSTATEGROUPV2_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1356D980)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETINLEVELSTATEGROUPV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1356DD70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetInLevelStateGroupV2_TypeDefinitionIndex = 75464;
+	inline static constexpr unsigned int LDSetInLevelStateGroupV2_TypeDefinitionIndex = 54680;
 
 	class LDSetInLevelStateGroupV2 : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LDSetInLevelStateGroupV2_StateGroupKeyValue*>*>* StateGroupSettings; // 0xA8
-		::FlowCanvas::FlowInput* input; // 0xB0
+		::FlowCanvas::FlowInput* input; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Collections::Generic::List_1<::System::Object*>*>* StateGroupSettings; // 0xB0
 		::FlowCanvas::FlowOutput* output; // 0xB8
 
 		::System::Void _ctor()

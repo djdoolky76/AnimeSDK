@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_29E929C5F33E3F8C.h"
-#include "unitysdk/Struct_2_4C8453486C91E3A1_26.h"
+#include "unitysdk/DIGHDPGCGEH.h"
+#include "unitysdk/NMEBLNJMHGI.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CPAOEAREAPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF85D0)
+#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CPAOEAREAPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED40340)
 
 namespace MoleMole::Arcade::CompanionProject
 {
-	inline static constexpr unsigned int CpAoeAreaParam_TypeDefinitionIndex = 92978;
+	inline static constexpr unsigned int CpAoeAreaParam_TypeDefinitionIndex = 94424;
 
 	class CpAoeAreaParam : public ::System::Object
 	{
 	public:
-		::Enum_3_29E929C5F33E3F8C areaType; // 0x10
+		::DIGHDPGCGEH areaType; // 0x10
 		::System::Single areaParam1; // 0x14
-		::Struct_2_4C8453486C91E3A1_26 param1Param; // 0x18
+		::NMEBLNJMHGI param1Param; // 0x18
 		::System::Single areaParam2; // 0x20
-		::Struct_2_4C8453486C91E3A1_26 param2Param; // 0x24
+		::NMEBLNJMHGI param2Param; // 0x24
 
 		::System::Void _ctor()
 		{

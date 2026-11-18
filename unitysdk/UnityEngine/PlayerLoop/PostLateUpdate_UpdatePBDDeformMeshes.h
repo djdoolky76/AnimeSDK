@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_UpdatePBDDeformMeshes_TypeDefinitionIndex = 5640;
+	inline static constexpr unsigned int PostLateUpdate_UpdatePBDDeformMeshes_TypeDefinitionIndex = 5644;
 
-	struct alignas(1) PostLateUpdate_UpdatePBDDeformMeshes
+	struct alignas(4) PostLateUpdate_UpdatePBDDeformMeshes
 	{
 	};
 }

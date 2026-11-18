@@ -4,30 +4,30 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C6F69C0)
-#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C6F6A20)
-#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE_GET_ISDATAOBJECT_OFFSET UNITYSDK_OFFSET(0x1C6F69B0)
-#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C6F6A30)
-#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6F6AF0)
-#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C6F69A0)
-#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F6990)
+#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CBD65A0)
+#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CBD6600)
+#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE_GET_ISDATAOBJECT_OFFSET UNITYSDK_OFFSET(0x1CBD6590)
+#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1CBD6610)
+#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBD66D0)
+#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CBD6580)
+#define SYSTEM_COMPONENTMODEL_DATAOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBD6570)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int DataObjectAttribute_TypeDefinitionIndex = 2850;
+	inline static constexpr unsigned int DataObjectAttribute_TypeDefinitionIndex = 2849;
 
 	class DataObjectAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::DataObjectAttribute** StaticGet_DataObject()
+		static ::System::ComponentModel::DataObjectAttribute** StaticGet_Default()
 		{
 			return (::System::ComponentModel::DataObjectAttribute**)Il2CppClass::FromTypeDefinitionIndex(DataObjectAttribute_TypeDefinitionIndex)->GetStaticField(0x2B50);
 		}
-		static ::System::ComponentModel::DataObjectAttribute** StaticGet_Default()
+		static ::System::ComponentModel::DataObjectAttribute** StaticGet_NonDataObject()
 		{
 			return (::System::ComponentModel::DataObjectAttribute**)Il2CppClass::FromTypeDefinitionIndex(DataObjectAttribute_TypeDefinitionIndex)->GetStaticField(0x2B58);
 		}
-		static ::System::ComponentModel::DataObjectAttribute** StaticGet_NonDataObject()
+		static ::System::ComponentModel::DataObjectAttribute** StaticGet_DataObject()
 		{
 			return (::System::ComponentModel::DataObjectAttribute**)Il2CppClass::FromTypeDefinitionIndex(DataObjectAttribute_TypeDefinitionIndex)->GetStaticField(0x2B60);
 		}

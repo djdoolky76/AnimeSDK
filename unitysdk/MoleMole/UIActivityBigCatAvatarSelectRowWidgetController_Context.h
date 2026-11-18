@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 
-#define MOLEMOLE_UIACTIVITYBIGCATAVATARSELECTROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13873420)
+#define MOLEMOLE_UIACTIVITYBIGCATAVATARSELECTROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13A1A200)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBigCatAvatarSelectRowWidgetController_Context_TypeDefinitionIndex = 90905;
+	inline static constexpr unsigned int UIActivityBigCatAvatarSelectRowWidgetController_Context_TypeDefinitionIndex = 74279;
 
 	class UIActivityBigCatAvatarSelectRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_0D6706375CDAAE8C* itemData; // 0x28
+		::HGAJKHIMKJP* itemData; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/ScriptableRendererFeature.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 
 namespace UnityEngine::Experimental::Rendering::Universal { class RenderObjectsPass; }
 namespace UnityEngine::Experimental::Rendering::Universal { class RenderObjects_RenderObjectsSettings; }
 namespace UnityEngine::Rendering::Universal { class ScriptableRenderer; }
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTS_ADDRENDERPASSES_OFFSET UNITYSDK_OFFSET(0x1E78C820)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTS_CREATE_OFFSET UNITYSDK_OFFSET(0x1E78C5A0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78C900)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTS_ADDRENDERPASSES_OFFSET UNITYSDK_OFFSET(0x1EA3D9B0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTS_CREATE_OFFSET UNITYSDK_OFFSET(0x1EA3D730)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_UNIVERSAL_RENDEROBJECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3DA90)
 
 namespace UnityEngine::Experimental::Rendering::Universal
 {
-	inline static constexpr unsigned int RenderObjects_TypeDefinitionIndex = 27190;
+	inline static constexpr unsigned int RenderObjects_TypeDefinitionIndex = 26217;
 
 	class RenderObjects : public ::UnityEngine::Rendering::Universal::ScriptableRendererFeature
 	{

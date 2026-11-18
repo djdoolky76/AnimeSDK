@@ -7,15 +7,15 @@ namespace MoleMole::FlowCanvas::Nodes { template <typename T1, typename T2> clas
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CustomSetVariableNode_2_TypeDefinitionIndex = 48383;
+	inline static constexpr unsigned int CustomSetVariableNode_2_TypeDefinitionIndex = 82434;
 
-	template <typename Tdata, typename Tkey>
+	template <typename T1, typename T2>
 	class CustomSetVariableNode_2 : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<Tdata>* dataInput; // 0x0
-		::FlowCanvas::ValueInput_1<Tkey>* keyInput; // 0x0
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::GetSetDataStructBaset_2<Tdata, Tkey>*>* dataSourceInput; // 0x0
+		::FlowCanvas::ValueInput_1<T1>* dataInput; // 0x0
+		::FlowCanvas::ValueInput_1<T2>* keyInput; // 0x0
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::GetSetDataStructBaset_2<T1, T2>*>* dataSourceInput; // 0x0
 		::System::Boolean success; // 0x0
 	};
 }

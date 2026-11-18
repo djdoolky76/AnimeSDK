@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Rendering/FilteringSettings.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
-namespace System { class String; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define DRAWAFTERSKYBOXPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1BC4D420)
-#define DRAWAFTERSKYBOXPASS_SETCHARACTERTRANSPARENTALPHABLEND_OFFSET UNITYSDK_OFFSET(0x1BC4CFB0)
-#define DRAWAFTERSKYBOXPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC4D290)
+#define DRAWAFTERSKYBOXPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16E45030)
+#define DRAWAFTERSKYBOXPASS_SETCHARACTERTRANSPARENTALPHABLEND_OFFSET UNITYSDK_OFFSET(0x16E44BC0)
+#define DRAWAFTERSKYBOXPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x16E44EA0)
 
-inline static constexpr unsigned int DrawAfterSkyboxPass_TypeDefinitionIndex = 27894;
+inline static constexpr unsigned int DrawAfterSkyboxPass_TypeDefinitionIndex = 27176;
 
 class DrawAfterSkyboxPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 {

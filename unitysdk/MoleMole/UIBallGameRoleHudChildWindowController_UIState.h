@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F5ACAAB9AA1EB49.h"
+#include "unitysdk/JJEJBPGJPJN.h"
 
-template <typename T> class Class_0_16E4307DCC419505_159;
+template <typename T> class LJHFMILANJA_1;
 
-#define MOLEMOLE_UIBALLGAMEROLEHUDCHILDWINDOWCONTROLLER_UISTATE_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1FC0A020)
-#define MOLEMOLE_UIBALLGAMEROLEHUDCHILDWINDOWCONTROLLER_UISTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC0A140)
+#define MOLEMOLE_UIBALLGAMEROLEHUDCHILDWINDOWCONTROLLER_UISTATE_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1FB88A00)
+#define MOLEMOLE_UIBALLGAMEROLEHUDCHILDWINDOWCONTROLLER_UISTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB88B20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameRoleHudChildWindowController_UIState_TypeDefinitionIndex = 93427;
+	inline static constexpr unsigned int UIBallGameRoleHudChildWindowController_UIState_TypeDefinitionIndex = 94936;
 
-	class UIBallGameRoleHudChildWindowController_UIState : public ::Class_1_5F5ACAAB9AA1EB49
+	class UIBallGameRoleHudChildWindowController_UIState : public ::JJEJBPGJPJN
 	{
 	public:
-		::Class_0_16E4307DCC419505_159<::System::Single>* CurSp; // 0x80
-		::Class_0_16E4307DCC419505_159<::System::Single>* TargetSp; // 0x88
-		::Class_0_16E4307DCC419505_159<::System::Single>* ArrowPosition; // 0x90
-		::Class_0_16E4307DCC419505_159<::System::Single>* CurHp; // 0x98
-		::Class_0_16E4307DCC419505_159<::System::Single>* MaxHp; // 0xA0
-		::Class_0_16E4307DCC419505_159<::System::Single>* MaxSp; // 0xA8
+		::LJHFMILANJA_1<::System::Single>* MaxHp; // 0x88
+		::LJHFMILANJA_1<::System::Single>* CurSp; // 0x90
+		::LJHFMILANJA_1<::System::Single>* ArrowPosition; // 0x98
+		::LJHFMILANJA_1<::System::Single>* MaxSp; // 0xA0
+		::LJHFMILANJA_1<::System::Single>* CurHp; // 0xA8
+		::LJHFMILANJA_1<::System::Single>* TargetSp; // 0xB0
 
 		::System::Void _ctor()
 		{

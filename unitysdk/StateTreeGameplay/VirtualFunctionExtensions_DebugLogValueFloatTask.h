@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/StateTreeGameplay/DebugLogValueFloatTask.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
+#include "unitysdk/StateTreeGameplay/DebugLogValueFloatTask.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x18B49A30)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x18B49B60)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEFLOATTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x18B49C00)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x18B49AD0)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEFLOATTASK_TICK_OFFSET UNITYSDK_OFFSET(0x18B49CA0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x194CA490)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x194CA5C0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEFLOATTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x194CA660)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x194CA530)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DEBUGLOGVALUEFLOATTASK_TICK_OFFSET UNITYSDK_OFFSET(0x194CA700)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_DebugLogValueFloatTask_TypeDefinitionIndex = 70612;
+	inline static constexpr unsigned int VirtualFunctionExtensions_DebugLogValueFloatTask_TypeDefinitionIndex = 38448;
 
 	class VirtualFunctionExtensions_DebugLogValueFloatTask : public ::System::Object
 	{

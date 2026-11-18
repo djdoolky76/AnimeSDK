@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PBJOCICFNGK.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+
+class BOMMMMAFLJG;
+class IOOIHHOJOPI;
+
+#define NLCBILGLJMD_EJMLADDEHAE_OFFSET UNITYSDK_OFFSET(0x11F873B0)
+#define NLCBILGLJMD_LCCCMHKKIFG_OFFSET UNITYSDK_OFFSET(0x11F87520)
+#define NLCBILGLJMD_NPKBDILPMHJ_OFFSET UNITYSDK_OFFSET(0x11F87490)
+#define NLCBILGLJMD_PILPKINFMBA_OFFSET UNITYSDK_OFFSET(0x11F87400)
+#define NLCBILGLJMD__CTOR_OFFSET UNITYSDK_OFFSET(0x11F87440)
+
+inline static constexpr unsigned int NLCBILGLJMD_TypeDefinitionIndex = 54850;
+
+class NLCBILGLJMD : public ::PBJOCICFNGK
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLCBILGLJMD__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EJMLADDEHAE(::LIBOIKJGAIH& EIEOJFEPMAB, ::IOOIHHOJOPI* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::IOOIHHOJOPI*))((::PBYTE)hIl2Cpp + NLCBILGLJMD_EJMLADDEHAE_OFFSET))(this, EIEOJFEPMAB, IOKOLJDCKPN);
+	}
+
+	::System::Void PILPKINFMBA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLCBILGLJMD_PILPKINFMBA_OFFSET))(this);
+	}
+
+	::System::Void NPKBDILPMHJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLCBILGLJMD_NPKBDILPMHJ_OFFSET))(this);
+	}
+
+	::BOMMMMAFLJG* LCCCMHKKIFG()
+	{
+		return ((::BOMMMMAFLJG*(*)(::PVOID))((::PBYTE)hIl2Cpp + NLCBILGLJMD_LCCCMHKKIFG_OFFSET))(this);
+	}
+};

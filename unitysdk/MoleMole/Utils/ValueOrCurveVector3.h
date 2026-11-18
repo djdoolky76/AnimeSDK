@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Utils/ValueOrCurve3_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_UTILS_VALUEORCURVEVECTOR3_SAMPLECURVE_OFFSET UNITYSDK_OFFSET(0x14DA83A0)
-#define MOLEMOLE_UTILS_VALUEORCURVEVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x14DA84A0)
+#define MOLEMOLE_UTILS_VALUEORCURVEVECTOR3_SAMPLECURVE_OFFSET UNITYSDK_OFFSET(0x170DD560)
+#define MOLEMOLE_UTILS_VALUEORCURVEVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x170DD660)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int ValueOrCurveVector3_TypeDefinitionIndex = 70045;
+	inline static constexpr unsigned int ValueOrCurveVector3_TypeDefinitionIndex = 67024;
 
-	class ValueOrCurveVector3 : public ::MoleMole::Utils::ValueOrCurve3_1<::UnityEngine::Vector3>
+	class ValueOrCurveVector3
 	{
 	public:
 		::System::Void _ctor()

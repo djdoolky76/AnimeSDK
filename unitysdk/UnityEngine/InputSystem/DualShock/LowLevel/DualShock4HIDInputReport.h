@@ -1,14 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCK4HIDINPUTREPORT_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0xA37A10)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCK4HIDINPUTREPORT_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x919000)
 
 namespace UnityEngine::InputSystem::DualShock::LowLevel
 {
-	inline static constexpr unsigned int DualShock4HIDInputReport_TypeDefinitionIndex = 32454;
+	inline static constexpr unsigned int DualShock4HIDInputReport_TypeDefinitionIndex = 31903;
 
-	struct alignas(1) DualShock4HIDInputReport
+	struct alignas(4) DualShock4HIDInputReport
 	{
 		::System::Byte reportId; // 0x10
 		::System::Byte leftStickX; // 0x11
@@ -20,13 +21,12 @@ namespace UnityEngine::InputSystem::DualShock::LowLevel
 		::System::Byte buttons3; // 0x17
 		::System::Byte leftTrigger; // 0x18
 		::System::Byte rightTrigger; // 0x19
+		::System::Byte _padding0[0x14];
 		::System::Byte batteryLevel; // 0x2E
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_format()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCK4HIDINPUTREPORT_GET_FORMAT_OFFSET))(this);
 		}
-		*/
 	};
 }

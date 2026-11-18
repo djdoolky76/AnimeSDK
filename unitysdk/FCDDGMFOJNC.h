@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/LHJLEHEKHCB_PNNPOLBKDGM.h"
+#include "unitysdk/System/Object.h"
+
+class OFLPOCHHHLC;
+namespace System { class String; }
+
+#define FCDDGMFOJNC_NJOJMPDLFFH_OFFSET UNITYSDK_OFFSET(0x1F545020)
+#define FCDDGMFOJNC_PHCPAKMBBOD_OFFSET UNITYSDK_OFFSET(0x1F544F90)
+
+inline static constexpr unsigned int FCDDGMFOJNC_TypeDefinitionIndex = 28841;
+
+class FCDDGMFOJNC : public ::System::Object
+{
+public:
+	static ::System::Void PHCPAKMBBOD(::OFLPOCHHHLC* GEEHGDABNJF, ::LHJLEHEKHCB_PNNPOLBKDGM OBNIAHNMHPF)
+	{
+		return ((::System::Void(*)(::OFLPOCHHHLC*, ::LHJLEHEKHCB_PNNPOLBKDGM))((::PBYTE)hIl2Cpp + FCDDGMFOJNC_PHCPAKMBBOD_OFFSET))(GEEHGDABNJF, OBNIAHNMHPF);
+	}
+
+	static ::System::Void NJOJMPDLFFH(::OFLPOCHHHLC* GEEHGDABNJF, ::LHJLEHEKHCB_PNNPOLBKDGM OBNIAHNMHPF, ::System::String* HIAIKHDFCLN)
+	{
+		return ((::System::Void(*)(::OFLPOCHHHLC*, ::LHJLEHEKHCB_PNNPOLBKDGM, ::System::String*))((::PBYTE)hIl2Cpp + FCDDGMFOJNC_NJOJMPDLFFH_OFFSET))(GEEHGDABNJF, OBNIAHNMHPF, HIAIKHDFCLN);
+	}
+};

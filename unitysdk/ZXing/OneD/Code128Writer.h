@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/ZXing/BarcodeFormat.h"
-#include "unitysdk/ZXing/EncodeHintType.h"
 #include "unitysdk/ZXing/OneD/Code128Writer_CType.h"
 #include "unitysdk/ZXing/OneD/OneDimensionalCodeWriter.h"
+#include "unitysdk/ZXing/BarcodeFormat.h"
+#include "unitysdk/ZXing/EncodeHintType.h"
 
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_CODE128WRITER_CHOOSECODE_OFFSET UNITYSDK_OFFSET(0x1BE8ADA0)
-#define ZXING_ONED_CODE128WRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1BE8A5F0)
-#define ZXING_ONED_CODE128WRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1BE89F80)
-#define ZXING_ONED_CODE128WRITER_FINDCTYPE_OFFSET UNITYSDK_OFFSET(0x1BE8B170)
-#define ZXING_ONED_CODE128WRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE82450)
+#define ZXING_ONED_CODE128WRITER_CHOOSECODE_OFFSET UNITYSDK_OFFSET(0x1C318A20)
+#define ZXING_ONED_CODE128WRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1C318270)
+#define ZXING_ONED_CODE128WRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1C317C00)
+#define ZXING_ONED_CODE128WRITER_FINDCTYPE_OFFSET UNITYSDK_OFFSET(0x1C318DF0)
+#define ZXING_ONED_CODE128WRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3100D0)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int Code128Writer_TypeDefinitionIndex = 19522;
+	inline static constexpr unsigned int Code128Writer_TypeDefinitionIndex = 18676;
 
 	class Code128Writer : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{

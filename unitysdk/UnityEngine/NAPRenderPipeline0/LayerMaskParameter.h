@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/StructVolumeParameter_1.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_LAYERMASKPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E480E10)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LAYERMASKPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E480E20)
-#define UNITYENGINE_NAPRENDERPIPELINE0_LAYERMASKPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E480DF0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LAYERMASKPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E648540)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LAYERMASKPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E648550)
+#define UNITYENGINE_NAPRENDERPIPELINE0_LAYERMASKPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E648520)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int LayerMaskParameter_TypeDefinitionIndex = 6052;
+	inline static constexpr unsigned int LayerMaskParameter_TypeDefinitionIndex = 6060;
 
-	class LayerMaskParameter : public ::UnityEngine::NAPRenderPipeline0::StructVolumeParameter_1<::UnityEngine::LayerMask>
+	class LayerMaskParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::LayerMask value, ::System::Boolean overrideState)

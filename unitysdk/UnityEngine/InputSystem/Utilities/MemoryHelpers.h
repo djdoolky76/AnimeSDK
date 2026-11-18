@@ -3,35 +3,35 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/InputSystem/Utilities/MemoryHelpers_BitRegion.h"
 
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_ALIGNNATURAL_OFFSET UNITYSDK_OFFSET(0x1EC4DA10)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EC4CF70)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_COMPUTEFOLLOWINGBYTEOFFSET_OFFSET UNITYSDK_OFFSET(0x1EC4D120)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMCMPBITREGION_OFFSET UNITYSDK_OFFSET(0x1EC4CFE0)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMCPYBITREGION_OFFSET UNITYSDK_OFFSET(0x1EC4D180)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMCPYMASKED_OFFSET UNITYSDK_OFFSET(0x1EC4D330)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMSET_OFFSET UNITYSDK_OFFSET(0x1EC4D250)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READEXCESSKMULTIPLEBITSASINT_OFFSET UNITYSDK_OFFSET(0x1EC4D700)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READMULTIPLEBITSASNORMALIZEDUINT_OFFSET UNITYSDK_OFFSET(0x1EC4D750)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READMULTIPLEBITSASUINT_OFFSET UNITYSDK_OFFSET(0x1EC4D410)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READSINGLEBIT_OFFSET UNITYSDK_OFFSET(0x1EC4CFC0)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READTWOSCOMPLEMENTMULTIPLEBITSASINT_OFFSET UNITYSDK_OFFSET(0x1EC4D6E0)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_SETBITSINBUFFER_OFFSET UNITYSDK_OFFSET(0x1EC4D810)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITEINTASEXCESSKMULTIPLEBITS_OFFSET UNITYSDK_OFFSET(0x1EC4D730)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITEINTASTWOSCOMPLEMENTMULTIPLEBITS_OFFSET UNITYSDK_OFFSET(0x1EC4D6F0)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITENORMALIZEDUINTASMULTIPLEBITS_OFFSET UNITYSDK_OFFSET(0x1EC4D7B0)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITESINGLEBIT_OFFSET UNITYSDK_OFFSET(0x1EC4D140)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITEUINTASMULTIPLEBITS_OFFSET UNITYSDK_OFFSET(0x1EC4D560)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_ALIGNNATURAL_OFFSET UNITYSDK_OFFSET(0x1F008A80)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_COMPARE_OFFSET UNITYSDK_OFFSET(0x1F007FE0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_COMPUTEFOLLOWINGBYTEOFFSET_OFFSET UNITYSDK_OFFSET(0x1F008190)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMCMPBITREGION_OFFSET UNITYSDK_OFFSET(0x1F008050)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMCPYBITREGION_OFFSET UNITYSDK_OFFSET(0x1F0081F0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMCPYMASKED_OFFSET UNITYSDK_OFFSET(0x1F0083A0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMSET_OFFSET UNITYSDK_OFFSET(0x1F0082C0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READEXCESSKMULTIPLEBITSASINT_OFFSET UNITYSDK_OFFSET(0x1F008770)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READMULTIPLEBITSASNORMALIZEDUINT_OFFSET UNITYSDK_OFFSET(0x1F0087C0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READMULTIPLEBITSASUINT_OFFSET UNITYSDK_OFFSET(0x1F008480)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READSINGLEBIT_OFFSET UNITYSDK_OFFSET(0x1F008030)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READTWOSCOMPLEMENTMULTIPLEBITSASINT_OFFSET UNITYSDK_OFFSET(0x1F008750)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_SETBITSINBUFFER_OFFSET UNITYSDK_OFFSET(0x1F008880)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITEINTASEXCESSKMULTIPLEBITS_OFFSET UNITYSDK_OFFSET(0x1F0087A0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITEINTASTWOSCOMPLEMENTMULTIPLEBITS_OFFSET UNITYSDK_OFFSET(0x1F008760)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITENORMALIZEDUINTASMULTIPLEBITS_OFFSET UNITYSDK_OFFSET(0x1F008820)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITESINGLEBIT_OFFSET UNITYSDK_OFFSET(0x1F0081B0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITEUINTASMULTIPLEBITS_OFFSET UNITYSDK_OFFSET(0x1F0085D0)
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int MemoryHelpers_TypeDefinitionIndex = 32676;
+	inline static constexpr unsigned int MemoryHelpers_TypeDefinitionIndex = 32125;
 
 	class MemoryHelpers : public ::System::Object
 	{
 	public:
-		static ::System::Boolean Compare(::System::Void* ptr1, ::System::Void* ptr2, ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion region)
+		static ::System::Boolean Compare(::PVOID ptr1, ::PVOID ptr2, ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion region)
 		{
-			return ((::System::Boolean(*)(::System::Void*, ::System::Void*, ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_COMPARE_OFFSET))(ptr1, ptr2, region);
+			return ((::System::Boolean(*)(::PVOID, ::PVOID, ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_COMPARE_OFFSET))(ptr1, ptr2, region);
 		}
 
 		static ::System::UInt32 ComputeFollowingByteOffset(::System::UInt32 byteOffset, ::System::UInt32 sizeInBits)
@@ -39,79 +39,79 @@ namespace UnityEngine::InputSystem::Utilities
 			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_COMPUTEFOLLOWINGBYTEOFFSET_OFFSET))(byteOffset, sizeInBits);
 		}
 
-		static ::System::Void WriteSingleBit(::System::Void* ptr, ::System::UInt32 bitOffset, ::System::Boolean value)
+		static ::System::Void WriteSingleBit(::PVOID ptr, ::System::UInt32 bitOffset, ::System::Boolean value)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITESINGLEBIT_OFFSET))(ptr, bitOffset, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITESINGLEBIT_OFFSET))(ptr, bitOffset, value);
 		}
 
-		static ::System::Boolean ReadSingleBit(::System::Void* ptr, ::System::UInt32 bitOffset)
+		static ::System::Boolean ReadSingleBit(::PVOID ptr, ::System::UInt32 bitOffset)
 		{
-			return ((::System::Boolean(*)(::System::Void*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READSINGLEBIT_OFFSET))(ptr, bitOffset);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READSINGLEBIT_OFFSET))(ptr, bitOffset);
 		}
 
-		static ::System::Void MemCpyBitRegion(::System::Void* destination, ::System::Void* source, ::System::UInt32 bitOffset, ::System::UInt32 bitCount)
+		static ::System::Void MemCpyBitRegion(::PVOID destination, ::PVOID source, ::System::UInt32 bitOffset, ::System::UInt32 bitCount)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::Void*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMCPYBITREGION_OFFSET))(destination, source, bitOffset, bitCount);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMCPYBITREGION_OFFSET))(destination, source, bitOffset, bitCount);
 		}
 
-		static ::System::Boolean MemCmpBitRegion(::System::Void* ptr1, ::System::Void* ptr2, ::System::UInt32 bitOffset, ::System::UInt32 bitCount, ::System::Void* mask)
+		static ::System::Boolean MemCmpBitRegion(::PVOID ptr1, ::PVOID ptr2, ::System::UInt32 bitOffset, ::System::UInt32 bitCount, ::PVOID mask)
 		{
-			return ((::System::Boolean(*)(::System::Void*, ::System::Void*, ::System::UInt32, ::System::UInt32, ::System::Void*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMCMPBITREGION_OFFSET))(ptr1, ptr2, bitOffset, bitCount, mask);
+			return ((::System::Boolean(*)(::PVOID, ::PVOID, ::System::UInt32, ::System::UInt32, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMCMPBITREGION_OFFSET))(ptr1, ptr2, bitOffset, bitCount, mask);
 		}
 
-		static ::System::Void MemSet(::System::Void* destination, ::System::Int32 numBytes, ::System::Byte value)
+		static ::System::Void MemSet(::PVOID destination, ::System::Int32 numBytes, ::System::Byte value)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMSET_OFFSET))(destination, numBytes, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMSET_OFFSET))(destination, numBytes, value);
 		}
 
-		static ::System::Void MemCpyMasked(::System::Void* destination, ::System::Void* source, ::System::Int32 numBytes, ::System::Void* mask)
+		static ::System::Void MemCpyMasked(::PVOID destination, ::PVOID source, ::System::Int32 numBytes, ::PVOID mask)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::Void*, ::System::Int32, ::System::Void*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMCPYMASKED_OFFSET))(destination, source, numBytes, mask);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_MEMCPYMASKED_OFFSET))(destination, source, numBytes, mask);
 		}
 
-		static ::System::UInt32 ReadMultipleBitsAsUInt(::System::Void* ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount)
+		static ::System::UInt32 ReadMultipleBitsAsUInt(::PVOID ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount)
 		{
-			return ((::System::UInt32(*)(::System::Void*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READMULTIPLEBITSASUINT_OFFSET))(ptr, bitOffset, bitCount);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READMULTIPLEBITSASUINT_OFFSET))(ptr, bitOffset, bitCount);
 		}
 
-		static ::System::Void WriteUIntAsMultipleBits(::System::Void* ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount, ::System::UInt32 value)
+		static ::System::Void WriteUIntAsMultipleBits(::PVOID ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount, ::System::UInt32 value)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITEUINTASMULTIPLEBITS_OFFSET))(ptr, bitOffset, bitCount, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITEUINTASMULTIPLEBITS_OFFSET))(ptr, bitOffset, bitCount, value);
 		}
 
-		static ::System::Int32 ReadTwosComplementMultipleBitsAsInt(::System::Void* ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount)
+		static ::System::Int32 ReadTwosComplementMultipleBitsAsInt(::PVOID ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount)
 		{
-			return ((::System::Int32(*)(::System::Void*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READTWOSCOMPLEMENTMULTIPLEBITSASINT_OFFSET))(ptr, bitOffset, bitCount);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READTWOSCOMPLEMENTMULTIPLEBITSASINT_OFFSET))(ptr, bitOffset, bitCount);
 		}
 
-		static ::System::Void WriteIntAsTwosComplementMultipleBits(::System::Void* ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount, ::System::Int32 value)
+		static ::System::Void WriteIntAsTwosComplementMultipleBits(::PVOID ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount, ::System::Int32 value)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITEINTASTWOSCOMPLEMENTMULTIPLEBITS_OFFSET))(ptr, bitOffset, bitCount, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITEINTASTWOSCOMPLEMENTMULTIPLEBITS_OFFSET))(ptr, bitOffset, bitCount, value);
 		}
 
-		static ::System::Int32 ReadExcessKMultipleBitsAsInt(::System::Void* ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount)
+		static ::System::Int32 ReadExcessKMultipleBitsAsInt(::PVOID ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount)
 		{
-			return ((::System::Int32(*)(::System::Void*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READEXCESSKMULTIPLEBITSASINT_OFFSET))(ptr, bitOffset, bitCount);
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READEXCESSKMULTIPLEBITSASINT_OFFSET))(ptr, bitOffset, bitCount);
 		}
 
-		static ::System::Void WriteIntAsExcessKMultipleBits(::System::Void* ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount, ::System::Int32 value)
+		static ::System::Void WriteIntAsExcessKMultipleBits(::PVOID ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount, ::System::Int32 value)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITEINTASEXCESSKMULTIPLEBITS_OFFSET))(ptr, bitOffset, bitCount, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITEINTASEXCESSKMULTIPLEBITS_OFFSET))(ptr, bitOffset, bitCount, value);
 		}
 
-		static ::System::Single ReadMultipleBitsAsNormalizedUInt(::System::Void* ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount)
+		static ::System::Single ReadMultipleBitsAsNormalizedUInt(::PVOID ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount)
 		{
-			return ((::System::Single(*)(::System::Void*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READMULTIPLEBITSASNORMALIZEDUINT_OFFSET))(ptr, bitOffset, bitCount);
+			return ((::System::Single(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_READMULTIPLEBITSASNORMALIZEDUINT_OFFSET))(ptr, bitOffset, bitCount);
 		}
 
-		static ::System::Void WriteNormalizedUIntAsMultipleBits(::System::Void* ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount, ::System::Single value)
+		static ::System::Void WriteNormalizedUIntAsMultipleBits(::PVOID ptr, ::System::UInt32 bitOffset, ::System::UInt32 bitCount, ::System::Single value)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::UInt32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITENORMALIZEDUINTASMULTIPLEBITS_OFFSET))(ptr, bitOffset, bitCount, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_WRITENORMALIZEDUINTASMULTIPLEBITS_OFFSET))(ptr, bitOffset, bitCount, value);
 		}
 
-		static ::System::Void SetBitsInBuffer(::System::Void* buffer, ::System::Int32 byteOffset, ::System::Int32 bitOffset, ::System::Int32 sizeInBits, ::System::Boolean value)
+		static ::System::Void SetBitsInBuffer(::PVOID buffer, ::System::Int32 byteOffset, ::System::Int32 bitOffset, ::System::Int32 sizeInBits, ::System::Boolean value)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_SETBITSINBUFFER_OFFSET))(buffer, byteOffset, bitOffset, sizeInBits, value);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_SETBITSINBUFFER_OFFSET))(buffer, byteOffset, bitOffset, sizeInBits, value);
 		}
 
 		static ::System::UInt32 AlignNatural(::System::UInt32 offset, ::System::UInt32 sizeInBytes)

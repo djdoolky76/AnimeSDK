@@ -3,7 +3,7 @@
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int RouterEventNode_1_TargetMode_TypeDefinitionIndex = 30543;
+	inline static constexpr unsigned int RouterEventNode_1_TargetMode_TypeDefinitionIndex = 29663;
 
 	enum class RouterEventNode_1_TargetMode : ::System::Int32
 	{

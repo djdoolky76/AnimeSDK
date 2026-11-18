@@ -12,23 +12,24 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FLOWCANVAS_FLOW_BEGINBREAKBLOCK_OFFSET UNITYSDK_OFFSET(0x7BA870)
-#define FLOWCANVAS_FLOW_BREAK_OFFSET UNITYSDK_OFFSET(0xA41CA0)
-#define FLOWCANVAS_FLOW_CALL_OFFSET UNITYSDK_OFFSET(0xA41C30)
-#define FLOWCANVAS_FLOW_ENDBREAKBLOCK_OFFSET UNITYSDK_OFFSET(0xA41C90)
-#define FLOWCANVAS_FLOW_GET_NEW_OFFSET UNITYSDK_OFFSET(0x1E8B49E0)
-#define FLOWCANVAS_FLOW_GET_TICKS_OFFSET UNITYSDK_OFFSET(0x325570)
-#define FLOWCANVAS_FLOW_RETURN_OFFSET UNITYSDK_OFFSET(0xA41C80)
-#define FLOWCANVAS_FLOW_SETRETURNDATA_OFFSET UNITYSDK_OFFSET(0xA41C70)
-#define FLOWCANVAS_FLOW_SET_TICKS_OFFSET UNITYSDK_OFFSET(0x3253A0)
+#define FLOWCANVAS_FLOW_BEGINBREAKBLOCK_OFFSET UNITYSDK_OFFSET(0x6ADB00)
+#define FLOWCANVAS_FLOW_BREAK_OFFSET UNITYSDK_OFFSET(0x91F130)
+#define FLOWCANVAS_FLOW_CALL_OFFSET UNITYSDK_OFFSET(0x91F0C0)
+#define FLOWCANVAS_FLOW_ENDBREAKBLOCK_OFFSET UNITYSDK_OFFSET(0x91F120)
+#define FLOWCANVAS_FLOW_GET_NEW_OFFSET UNITYSDK_OFFSET(0x1EB7A300)
+#define FLOWCANVAS_FLOW_GET_TICKS_OFFSET UNITYSDK_OFFSET(0x359320)
+#define FLOWCANVAS_FLOW_RETURN_OFFSET UNITYSDK_OFFSET(0x91F110)
+#define FLOWCANVAS_FLOW_SETRETURNDATA_OFFSET UNITYSDK_OFFSET(0x91F100)
+#define FLOWCANVAS_FLOW_SET_TICKS_OFFSET UNITYSDK_OFFSET(0x359150)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int Flow_TypeDefinitionIndex = 31086;
+	inline static constexpr unsigned int Flow_TypeDefinitionIndex = 30388;
 
 	struct alignas(8) Flow
 	{
 		::System::Int32 _ticks_k__BackingField; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* parameters; // 0x18
 		::FlowCanvas::Flow_ReturnData returnData; // 0x20
 		::FlowCanvas::FlowBreak* breakCall; // 0x30
@@ -43,10 +44,12 @@ namespace FlowCanvas
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FLOWCANVAS_FLOW_SET_TICKS_OFFSET))(this, value);
 		}
 
+		/*
 		static ::FlowCanvas::Flow get_New()
 		{
 			return ((::FlowCanvas::Flow(*)())((::PBYTE)hIl2Cpp + FLOWCANVAS_FLOW_GET_NEW_OFFSET))();
 		}
+		*/
 
 		::System::Void Call(::FlowCanvas::FlowOutput* port)
 		{

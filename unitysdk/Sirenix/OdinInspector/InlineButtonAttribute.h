@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_INLINEBUTTONATTRIBUTE_GET_MEMBERMETHOD_OFFSET UNITYSDK_OFFSET(0x1F7708C0)
-#define SIRENIX_ODININSPECTOR_INLINEBUTTONATTRIBUTE_SET_MEMBERMETHOD_OFFSET UNITYSDK_OFFSET(0x1F7708D0)
-#define SIRENIX_ODININSPECTOR_INLINEBUTTONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7708E0)
+#define SIRENIX_ODININSPECTOR_INLINEBUTTONATTRIBUTE_GET_MEMBERMETHOD_OFFSET UNITYSDK_OFFSET(0x1FB80B00)
+#define SIRENIX_ODININSPECTOR_INLINEBUTTONATTRIBUTE_SET_MEMBERMETHOD_OFFSET UNITYSDK_OFFSET(0x1FB80B10)
+#define SIRENIX_ODININSPECTOR_INLINEBUTTONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB80B20)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int InlineButtonAttribute_TypeDefinitionIndex = 7324;
+	inline static constexpr unsigned int InlineButtonAttribute_TypeDefinitionIndex = 7331;
 
 	class InlineButtonAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* Label; // 0x10
-		::System::String* Action; // 0x18
+		::System::String* Action; // 0x10
+		::System::String* Label; // 0x18
 
 		::System::Void _ctor(::System::String* action, ::System::String* label)
 		{

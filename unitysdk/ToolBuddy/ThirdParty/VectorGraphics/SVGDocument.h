@@ -1,24 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/BezierContour.h"
 #include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/Inheritance.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/Matrix2D.h"
 #include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/PathCorner.h"
 #include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/PathEnding.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/PathProperties.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGDocument_ClipData.h"
 #include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGDocument_DimType.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGDocument_MaskData.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGDocument_NodeGlobalSceneState.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGDocument_NodeReferenceData.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGDocument_NodeWithParent.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGDocument_PatternData.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGDocument_PostponedClip.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGDocument_PostponedStopData.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGDocument_ViewBoxInfo.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/BezierContour.h"
+#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/Matrix2D.h"
+#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/PathProperties.h"
+#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGDocument_NodeReferenceData.h"
+#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGDocument_ViewBoxInfo.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -29,12 +22,8 @@ namespace System::Xml { class XmlReader; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class GradientFill; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class IFill; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class SVGDictionary; }
-namespace ToolBuddy::ThirdParty::VectorGraphics { class SVGDocument_ElemHandler; }
-namespace ToolBuddy::ThirdParty::VectorGraphics { class SVGDocument_GradientExData; }
-namespace ToolBuddy::ThirdParty::VectorGraphics { class SVGDocument_Handlers; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class SVGPostponedFills; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class SVGStyleResolver; }
-namespace ToolBuddy::ThirdParty::VectorGraphics { class SVGStyleResolver_StyleLayer; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class Scene; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class SceneNode; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class Shape; }
@@ -43,111 +32,112 @@ namespace ToolBuddy::ThirdParty::VectorGraphics { class XmlReaderIterator; }
 namespace ToolBuddy::ThirdParty::VectorGraphics { class XmlReaderIterator_Node; }
 namespace UnityEngine { class Texture2D; }
 
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ADDTOSVGDICTIONARYIFPOSSIBLE_OFFSET UNITYSDK_OFFSET(0x1DA8BE70)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ADJUSTFILLS_OFFSET UNITYSDK_OFFSET(0x1DA9A060)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ADJUSTGRADIENTFILL_OFFSET UNITYSDK_OFFSET(0x1DA9AE40)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ADJUSTPATTERNFILL_OFFSET UNITYSDK_OFFSET(0x1DA9B8A0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_APPLYCLIPPER_OFFSET UNITYSDK_OFFSET(0x1DA93E80)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_APPLYVIEWBOX_OFFSET UNITYSDK_OFFSET(0x1DA8E750)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ATTRIBFLOATVAL_OFFSET UNITYSDK_OFFSET(0x1DA95D30)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ATTRIBLENGTHVAL_1_OFFSET UNITYSDK_OFFSET(0x1DA8BB80)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ATTRIBLENGTHVAL_2_OFFSET UNITYSDK_OFFSET(0x1DA90DF0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ATTRIBLENGTHVAL_OFFSET UNITYSDK_OFFSET(0x1DA98EC0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CIRCLE_OFFSET UNITYSDK_OFFSET(0x1DA8AD20)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLIPPATH_OFFSET UNITYSDK_OFFSET(0x1DA938C0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLONECONTOUR_OFFSET UNITYSDK_OFFSET(0x1DA98770)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLONEFILL_OFFSET UNITYSDK_OFFSET(0x1DA98850)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLONEGRADIENTFILL_OFFSET UNITYSDK_OFFSET(0x1DA90D60)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLONEPATHPROPS_OFFSET UNITYSDK_OFFSET(0x1DA98B40)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLONESCENENODE_OFFSET UNITYSDK_OFFSET(0x1DA97EC0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLONESHAPE_OFFSET UNITYSDK_OFFSET(0x1DA98510)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_DECODETEXTUREDATA_OFFSET UNITYSDK_OFFSET(0x1DA8DC60)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_DEFS_OFFSET UNITYSDK_OFFSET(0x1DA8C230)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ELLIPSE_OFFSET UNITYSDK_OFFSET(0x1DA8C5E0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_GET_NODEIDS_OFFSET UNITYSDK_OFFSET(0x1DA899E0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_GET_NODEOPACITIES_OFFSET UNITYSDK_OFFSET(0x1DA899D0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_GET_STOCKBLACKNONZEROFILLNAME_OFFSET UNITYSDK_OFFSET(0x1DA878F0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_GET_STOCKBLACKODDEVENFILLNAME_OFFSET UNITYSDK_OFFSET(0x1DA878B0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_G_OFFSET UNITYSDK_OFFSET(0x1DA8CD10)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_IMAGE_OFFSET UNITYSDK_OFFSET(0x1DA8CFE0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_IMPORT_OFFSET UNITYSDK_OFFSET(0x1DA88F00)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_LINEARGRADIENT_OFFSET UNITYSDK_OFFSET(0x1DA902C0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_LINE_OFFSET UNITYSDK_OFFSET(0x1DA8FC00)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_MASK_OFFSET UNITYSDK_OFFSET(0x1DA94790)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSECHILDREN_OFFSET UNITYSDK_OFFSET(0x1DA899F0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSECLIPANDMASK_OFFSET UNITYSDK_OFFSET(0x1DA8BE40)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSECLIP_OFFSET UNITYSDK_OFFSET(0x1DA98F40)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSEID_OFFSET UNITYSDK_OFFSET(0x1DA8B380)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSEMASK_OFFSET UNITYSDK_OFFSET(0x1DA99270)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSEOPACITY_OFFSET UNITYSDK_OFFSET(0x1DA8B530)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSESTROKEATTRIBUTESET_OFFSET UNITYSDK_OFFSET(0x1DA8B5F0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSEVIEWBOXASPECTRATIO_OFFSET UNITYSDK_OFFSET(0x1DA8E080)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSEVIEWBOX_OFFSET UNITYSDK_OFFSET(0x1DA95E30)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSEVIEWPORT_OFFSET UNITYSDK_OFFSET(0x1DA8DF50)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PATH_OFFSET UNITYSDK_OFFSET(0x1DA91530)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PATTERN_OFFSET UNITYSDK_OFFSET(0x1DA940B0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_POLYGON_OFFSET UNITYSDK_OFFSET(0x1DA91A80)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_POLYLINE_OFFSET UNITYSDK_OFFSET(0x1DA92520)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_POSTPROCESS_OFFSET UNITYSDK_OFFSET(0x1DA89870)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_RADIALGRADIENT_OFFSET UNITYSDK_OFFSET(0x1DA92F90)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_RECT_OFFSET UNITYSDK_OFFSET(0x1DA94C80)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_REMOVEINVISIBLENODES_OFFSET UNITYSDK_OFFSET(0x1DA89880)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_RESOLVEREFERENCEDNODE_OFFSET UNITYSDK_OFFSET(0x1DA8EA40)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_SHOULDDECLARESUPPORTEDCHILDREN_OFFSET UNITYSDK_OFFSET(0x1DA8BF40)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_STOP_OFFSET UNITYSDK_OFFSET(0x1DA954D0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_STYLE_OFFSET UNITYSDK_OFFSET(0x1DA96E70)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_SUPPORTELEMS_OFFSET UNITYSDK_OFFSET(0x1DA8BFD0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_SVG_OFFSET UNITYSDK_OFFSET(0x1DA891A0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_SYMBOL_OFFSET UNITYSDK_OFFSET(0x1DA96130)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_USE_OFFSET UNITYSDK_OFFSET(0x1DA96890)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA9D2A0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA87A70)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ADDTOSVGDICTIONARYIFPOSSIBLE_OFFSET UNITYSDK_OFFSET(0x1DE78F30)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ADJUSTFILLS_OFFSET UNITYSDK_OFFSET(0x1DE871A0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ADJUSTGRADIENTFILL_OFFSET UNITYSDK_OFFSET(0x1DE87F80)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ADJUSTPATTERNFILL_OFFSET UNITYSDK_OFFSET(0x1DE889D0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_APPLYCLIPPER_OFFSET UNITYSDK_OFFSET(0x1DE80FB0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_APPLYVIEWBOX_OFFSET UNITYSDK_OFFSET(0x1DE7B830)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ATTRIBFLOATVAL_OFFSET UNITYSDK_OFFSET(0x1DE82E80)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ATTRIBLENGTHVAL_1_OFFSET UNITYSDK_OFFSET(0x1DE78C40)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ATTRIBLENGTHVAL_2_OFFSET UNITYSDK_OFFSET(0x1DE7DEF0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ATTRIBLENGTHVAL_OFFSET UNITYSDK_OFFSET(0x1DE86000)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CIRCLE_OFFSET UNITYSDK_OFFSET(0x1DE77DC0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLIPPATH_OFFSET UNITYSDK_OFFSET(0x1DE809F0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLONECONTOUR_OFFSET UNITYSDK_OFFSET(0x1DE858C0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLONEFILL_OFFSET UNITYSDK_OFFSET(0x1DE859A0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLONEGRADIENTFILL_OFFSET UNITYSDK_OFFSET(0x1DE7DE60)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLONEPATHPROPS_OFFSET UNITYSDK_OFFSET(0x1DE85C80)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLONESCENENODE_OFFSET UNITYSDK_OFFSET(0x1DE85010)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_CLONESHAPE_OFFSET UNITYSDK_OFFSET(0x1DE85660)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_DECODETEXTUREDATA_OFFSET UNITYSDK_OFFSET(0x1DE7AD40)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_DEFS_OFFSET UNITYSDK_OFFSET(0x1DE79300)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_ELLIPSE_OFFSET UNITYSDK_OFFSET(0x1DE796B0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_GET_NODEIDS_OFFSET UNITYSDK_OFFSET(0x1DE76A70)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_GET_NODEOPACITIES_OFFSET UNITYSDK_OFFSET(0x1DE76A60)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_GET_STOCKBLACKNONZEROFILLNAME_OFFSET UNITYSDK_OFFSET(0x1DE749A0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_GET_STOCKBLACKODDEVENFILLNAME_OFFSET UNITYSDK_OFFSET(0x1DE74960)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_G_OFFSET UNITYSDK_OFFSET(0x1DE79DE0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_IMAGE_OFFSET UNITYSDK_OFFSET(0x1DE7A0B0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_IMPORT_OFFSET UNITYSDK_OFFSET(0x1DE75F90)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_LINEARGRADIENT_OFFSET UNITYSDK_OFFSET(0x1DE7D3C0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_LINE_OFFSET UNITYSDK_OFFSET(0x1DE7CD00)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_MASK_OFFSET UNITYSDK_OFFSET(0x1DE818C0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSECHILDREN_OFFSET UNITYSDK_OFFSET(0x1DE76A80)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSECLIPANDMASK_OFFSET UNITYSDK_OFFSET(0x1DE78F00)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSECLIP_OFFSET UNITYSDK_OFFSET(0x1DE86080)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSEID_OFFSET UNITYSDK_OFFSET(0x1DE78430)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSEMASK_OFFSET UNITYSDK_OFFSET(0x1DE863B0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSEOPACITY_OFFSET UNITYSDK_OFFSET(0x1DE785E0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSESTROKEATTRIBUTESET_OFFSET UNITYSDK_OFFSET(0x1DE786A0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSEVIEWBOXASPECTRATIO_OFFSET UNITYSDK_OFFSET(0x1DE7B160)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSEVIEWBOX_OFFSET UNITYSDK_OFFSET(0x1DE82F80)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PARSEVIEWPORT_OFFSET UNITYSDK_OFFSET(0x1DE7B030)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PATH_OFFSET UNITYSDK_OFFSET(0x1DE7E630)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_PATTERN_OFFSET UNITYSDK_OFFSET(0x1DE811E0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_POLYGON_OFFSET UNITYSDK_OFFSET(0x1DE7EB90)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_POLYLINE_OFFSET UNITYSDK_OFFSET(0x1DE7F640)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_POSTPROCESS_OFFSET UNITYSDK_OFFSET(0x1DE76900)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_RADIALGRADIENT_OFFSET UNITYSDK_OFFSET(0x1DE800C0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_RECT_OFFSET UNITYSDK_OFFSET(0x1DE81DC0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_REMOVEINVISIBLENODES_OFFSET UNITYSDK_OFFSET(0x1DE76910)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_RESOLVEREFERENCEDNODE_OFFSET UNITYSDK_OFFSET(0x1DE7BB20)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_SHOULDDECLARESUPPORTEDCHILDREN_OFFSET UNITYSDK_OFFSET(0x1DE79000)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_STOP_OFFSET UNITYSDK_OFFSET(0x1DE82620)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_STYLE_OFFSET UNITYSDK_OFFSET(0x1DE83FD0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_SUPPORTELEMS_OFFSET UNITYSDK_OFFSET(0x1DE79090)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_SVG_OFFSET UNITYSDK_OFFSET(0x1DE76230)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_SYMBOL_OFFSET UNITYSDK_OFFSET(0x1DE83280)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_USE_OFFSET UNITYSDK_OFFSET(0x1DE839E0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE8A3D0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE74B20)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDocument_TypeDefinitionIndex = 31735;
+	inline static constexpr unsigned int SVGDocument_TypeDefinitionIndex = 31173;
 
 	class SVGDocument : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Char>** StaticGet_whiteSpaceNumberChars()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SVGDocument_TypeDefinitionIndex)->GetStaticField(0x26FB0);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SVGDocument_TypeDefinitionIndex)->GetStaticField(0x28080);
 		}
-		::System::String* currentGradientLink; // 0x10
-		::System::Collections::Generic::HashSet_1<::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_ElemHandler*>* elemsToAddToHierarchy; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_Handlers*>* subTags; // 0x20
-		::ToolBuddy::ThirdParty::VectorGraphics::SVGDictionary* svgObjects; // 0x28
-		::System::Collections::Generic::Stack_1<::UnityEngine::Vector2>* currentViewBoxSize; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_PostponedStopData>*>* postponedStopData; // 0x38
-		::Il2CppArray<::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_ElemHandler*>* allElems; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_NodeReferenceData>*>* postponedSymbolData; // 0x48
-		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_ClipData>* clipData; // 0x50
-		::ToolBuddy::ThirdParty::VectorGraphics::SVGPostponedFills* postponedFills; // 0x58
-		::ToolBuddy::ThirdParty::VectorGraphics::SVGStyleResolver* styles; // 0x60
-		::ToolBuddy::ThirdParty::VectorGraphics::Scene* scene; // 0x68
-		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_NodeGlobalSceneState>* nodeGlobalSceneState; // 0x70
-		::ToolBuddy::ThirdParty::VectorGraphics::XmlReaderIterator* docReader; // 0x78
-		::System::Collections::Generic::Stack_1<::UnityEngine::Vector2>* currentContainerSize; // 0x80
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_PostponedClip>*>* postponedClip; // 0x88
-		::System::Collections::Generic::Stack_1<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*>* currentSceneNode; // 0x90
-		::System::String* currentGradientId; // 0x98
-		::System::Collections::Generic::List_1<::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_NodeWithParent>* invisibleNodes; // 0xA0
-		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::System::Single>* nodeOpacity; // 0xA8
-		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::GradientFill*, ::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_GradientExData*>* gradientExInfo; // 0xB0
-		::ToolBuddy::ThirdParty::VectorGraphics::GradientFill* currentGradientFill; // 0xB8
-		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_ViewBoxInfo>* symbolViewBoxes; // 0xC0
-		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_MaskData>* maskData; // 0xC8
-		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::ToolBuddy::ThirdParty::VectorGraphics::SVGStyleResolver_StyleLayer*>* nodeStyleLayers; // 0xD0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*>* nodeIDs; // 0xD8
-		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_PatternData>* patternData; // 0xE0
-		::System::Int32 windowWidth; // 0xE8
-		::UnityEngine::Rect sceneViewport; // 0xEC
-		::UnityEngine::Vector2 scenePos; // 0xFC
-		::System::Boolean applyRootViewBox; // 0x104
-		::System::Int32 windowHeight; // 0x108
-		::System::Single dpiScale; // 0x10C
-		::UnityEngine::Vector2 sceneSize; // 0x110
+		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::GradientFill*, ::System::Object*>* gradientExInfo; // 0x10
+		::ToolBuddy::ThirdParty::VectorGraphics::XmlReaderIterator* docReader; // 0x18
+		::System::String* currentGradientId; // 0x20
+		::ToolBuddy::ThirdParty::VectorGraphics::GradientFill* currentGradientFill; // 0x28
+		::System::Collections::Generic::HashSet_1<::System::Object*>* elemsToAddToHierarchy; // 0x30
+		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::System::Object*>* nodeGlobalSceneState; // 0x38
+		::ToolBuddy::ThirdParty::VectorGraphics::SVGDictionary* svgObjects; // 0x40
+		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::System::Single>* nodeOpacity; // 0x48
+		::System::Collections::Generic::List_1<::System::Object*>* invisibleNodes; // 0x50
+		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::System::Object*>* maskData; // 0x58
+		::System::Collections::Generic::Stack_1<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*>* currentSceneNode; // 0x60
+		::System::Collections::Generic::Stack_1<::UnityEngine::Vector2>* currentViewBoxSize; // 0x68
+		::System::Collections::Generic::Stack_1<::UnityEngine::Vector2>* currentContainerSize; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*>* nodeIDs; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Object*>*>* postponedStopData; // 0x80
+		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::System::Object*>* nodeStyleLayers; // 0x88
+		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::System::Object*>* clipData; // 0x90
+		::ToolBuddy::ThirdParty::VectorGraphics::SVGStyleResolver* styles; // 0x98
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Object*>*>* postponedClip; // 0xA0
+		::ToolBuddy::ThirdParty::VectorGraphics::SVGPostponedFills* postponedFills; // 0xA8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* subTags; // 0xB0
+		::Il2CppArray<::System::Object*>* allElems; // 0xB8
+		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::System::Object*>* symbolViewBoxes; // 0xC0
+		::System::Collections::Generic::Dictionary_2<::ToolBuddy::ThirdParty::VectorGraphics::SceneNode*, ::System::Object*>* patternData; // 0xC8
+		::System::String* currentGradientLink; // 0xD0
+		::ToolBuddy::ThirdParty::VectorGraphics::Scene* scene; // 0xD8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Object*>*>* postponedSymbolData; // 0xE0
+		::UnityEngine::Vector2 sceneSize; // 0xE8
+		::UnityEngine::Vector2 scenePos; // 0xF0
+		::System::Int32 windowHeight; // 0xF8
+		::System::Boolean applyRootViewBox; // 0xFC
+		::System::Byte _padding0[0x3];
+		::System::Single dpiScale; // 0x100
+		::UnityEngine::Rect sceneViewport; // 0x104
+		::System::Int32 windowWidth; // 0x114
 
 		::System::Void _ctor(::System::Xml::XmlReader* docReader, ::System::Single dpi, ::ToolBuddy::ThirdParty::VectorGraphics::Scene* scene, ::System::Int32 windowWidth, ::System::Int32 windowHeight, ::System::Boolean applyRootViewBox)
 		{
@@ -439,9 +429,9 @@ namespace ToolBuddy::ThirdParty::VectorGraphics
 			return ((::System::Boolean(*)(::PVOID, ::ToolBuddy::ThirdParty::VectorGraphics::XmlReaderIterator_Node*))((::PBYTE)hIl2Cpp + TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_SHOULDDECLARESUPPORTEDCHILDREN_OFFSET))(this, node);
 		}
 
-		::System::Void SupportElems(::ToolBuddy::ThirdParty::VectorGraphics::XmlReaderIterator_Node* node, ::Il2CppArray<::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_ElemHandler*>* handlers)
+		::System::Void SupportElems(::ToolBuddy::ThirdParty::VectorGraphics::XmlReaderIterator_Node* node, ::Il2CppArray<::System::Object*>* handlers)
 		{
-			return ((::System::Void(*)(::PVOID, ::ToolBuddy::ThirdParty::VectorGraphics::XmlReaderIterator_Node*, ::Il2CppArray<::ToolBuddy::ThirdParty::VectorGraphics::SVGDocument_ElemHandler*>*))((::PBYTE)hIl2Cpp + TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_SUPPORTELEMS_OFFSET))(this, node, handlers);
+			return ((::System::Void(*)(::PVOID, ::ToolBuddy::ThirdParty::VectorGraphics::XmlReaderIterator_Node*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDOCUMENT_SUPPORTELEMS_OFFSET))(this, node, handlers);
 		}
 	};
 }

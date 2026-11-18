@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIBuddyDIYComponentWidgetController; }
 
-#define MOLEMOLE_UIBANGBOODIYWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19A7C420)
-#define MOLEMOLE_UIBANGBOODIYWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS28_0__ONBUDDYCOMPONENTDELETE_B__0_OFFSET UNITYSDK_OFFSET(0x19A7C430)
+#define MOLEMOLE_UIBANGBOODIYWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A34C250)
+#define MOLEMOLE_UIBANGBOODIYWIDGETWIDGETCONTROLLER___C__DISPLAYCLASS28_0__ONBUDDYCOMPONENTDELETE_B__0_OFFSET UNITYSDK_OFFSET(0x1A34C260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooDIYWidgetWidgetController___c__DisplayClass28_0_TypeDefinitionIndex = 71417;
+	inline static constexpr unsigned int UIBangbooDIYWidgetWidgetController___c__DisplayClass28_0_TypeDefinitionIndex = 89263;
 
 	class UIBangbooDIYWidgetWidgetController___c__DisplayClass28_0 : public ::System::Object
 	{

@@ -1,31 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 
-class Class_0_16E4307DCC419505_198;
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
+class OHDHAGLCAEB;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_REWARDTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1B802580)
-#define MOLEMOLE_CONFIG_REWARDTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B802680)
-#define MOLEMOLE_CONFIG_REWARDTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B802570)
-#define MOLEMOLE_CONFIG_REWARDTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8038B0)
-#define MOLEMOLE_CONFIG_REWARDTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1B802C70)
-#define MOLEMOLE_CONFIG_REWARDTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1B802670)
-#define MOLEMOLE_CONFIG_REWARDTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B803910)
-#define MOLEMOLE_CONFIG_REWARDTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B802CF0)
-#define MOLEMOLE_CONFIG_REWARDTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B804110)
-#define MOLEMOLE_CONFIG_REWARDTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B803770)
-#define MOLEMOLE_CONFIG_REWARDTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8042A0)
-#define MOLEMOLE_CONFIG_REWARDTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B8042B0)
+#define MOLEMOLE_CONFIG_REWARDTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x192B75C0)
+#define MOLEMOLE_CONFIG_REWARDTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x192B76C0)
+#define MOLEMOLE_CONFIG_REWARDTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x192B75B0)
+#define MOLEMOLE_CONFIG_REWARDTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x192B8900)
+#define MOLEMOLE_CONFIG_REWARDTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x192B7CC0)
+#define MOLEMOLE_CONFIG_REWARDTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x192B76B0)
+#define MOLEMOLE_CONFIG_REWARDTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x192B8960)
+#define MOLEMOLE_CONFIG_REWARDTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x192B7D40)
+#define MOLEMOLE_CONFIG_REWARDTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x192B9160)
+#define MOLEMOLE_CONFIG_REWARDTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x192B87C0)
+#define MOLEMOLE_CONFIG_REWARDTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x192B92F0)
+#define MOLEMOLE_CONFIG_REWARDTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x192B9300)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int RewardTrait_TypeDefinitionIndex = 40980;
+	inline static constexpr unsigned int RewardTrait_TypeDefinitionIndex = 69037;
 
 	class RewardTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -33,9 +33,11 @@ namespace MoleMole::Config
 		::System::Int32 RewardType; // 0x18
 		::System::Int32 RewardID; // 0x1C
 		::System::Boolean IsRefreshAfterOnceReward; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Int32 RewardShowType; // 0x24
 		::System::Int32 RewardTimeType; // 0x28
 		::System::Boolean IsShowModel; // 0x2C
+		::System::Byte _padding1[0x3];
 		::System::Int32 CollectionType; // 0x30
 
 		::System::Void _ctor()
@@ -58,9 +60,9 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REWARDTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void ExposeMember(::Class_0_16E4307DCC419505_198* processor, ::System::String* prefix)
+		::System::Void ExposeMember(::OHDHAGLCAEB* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REWARDTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REWARDTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
@@ -78,24 +80,24 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::RewardTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REWARDTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REWARDTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REWARDTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REWARDTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REWARDTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::RewardTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		static ::MoleMole::Config::RewardTrait* ParseFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::RewardTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REWARDTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+			return ((::MoleMole::Config::RewardTrait*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REWARDTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_198* P0, ::System::String* P1)
+		::System::Void __base_ExposeMember(::OHDHAGLCAEB* P0, ::System::String* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REWARDTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_REWARDTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 	};
 }

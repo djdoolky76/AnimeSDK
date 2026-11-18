@@ -4,12 +4,12 @@
 
 namespace System::Xml { class XmlResolver; }
 
-#define SYSTEM_XML_XMLCONFIGURATION_XMLREADERSECTION_CREATEDEFAULTRESOLVER_OFFSET UNITYSDK_OFFSET(0x1E379380)
-#define SYSTEM_XML_XMLCONFIGURATION_XMLREADERSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3793C0)
+#define SYSTEM_XML_XMLCONFIGURATION_XMLREADERSECTION_CREATEDEFAULTRESOLVER_OFFSET UNITYSDK_OFFSET(0x1E5D1250)
+#define SYSTEM_XML_XMLCONFIGURATION_XMLREADERSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D1290)
 
 namespace System::Xml::XmlConfiguration
 {
-	inline static constexpr unsigned int XmlReaderSection_TypeDefinitionIndex = 2236;
+	inline static constexpr unsigned int XmlReaderSection_TypeDefinitionIndex = 2235;
 
 	class XmlReaderSection : public ::System::Object
 	{

@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Net { class NetworkCredential; }
 
-#define SYSTEM_NET_MAIL_CCREDENTIALSBYHOST_GETCREDENTIAL_OFFSET UNITYSDK_OFFSET(0x1D8945A0)
-#define SYSTEM_NET_MAIL_CCREDENTIALSBYHOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D894590)
+#define SYSTEM_NET_MAIL_CCREDENTIALSBYHOST_GETCREDENTIAL_OFFSET UNITYSDK_OFFSET(0x1DD41EC0)
+#define SYSTEM_NET_MAIL_CCREDENTIALSBYHOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD41EB0)
 
 namespace System::Net::Mail
 {
-	inline static constexpr unsigned int CCredentialsByHost_TypeDefinitionIndex = 3600;
+	inline static constexpr unsigned int CCredentialsByHost_TypeDefinitionIndex = 3599;
 
 	class CCredentialsByHost : public ::System::Object
 	{
 	public:
-		::System::String* password; // 0x10
-		::System::String* userName; // 0x18
+		::System::String* userName; // 0x10
+		::System::String* password; // 0x18
 
 		::System::Void _ctor(::System::String* userName, ::System::String* password)
 		{

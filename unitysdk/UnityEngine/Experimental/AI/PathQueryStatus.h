@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::AI
 {
-	inline static constexpr unsigned int PathQueryStatus_TypeDefinitionIndex = 28017;
+	inline static constexpr unsigned int PathQueryStatus_TypeDefinitionIndex = 27435;
 
 	enum class PathQueryStatus : ::System::Int32
 	{

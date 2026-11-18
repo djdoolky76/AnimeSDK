@@ -8,12 +8,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYITEM_GET_ISMIX_OFFSET UNITYSDK_OFFSET(0xF0D5F40)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xF0D5F90)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYITEM_GET_ISMIX_OFFSET UNITYSDK_OFFSET(0x114C03B0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x114C0400)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NpcAccessoryItem_TypeDefinitionIndex = 62288;
+	inline static constexpr unsigned int NpcAccessoryItem_TypeDefinitionIndex = 68480;
 
 	class NpcAccessoryItem : public ::System::Object
 	{
@@ -24,10 +24,12 @@ namespace NPCCrowd::Accessories
 		::System::String* defaultSeqFrameKey; // 0x20
 		::System::Int32 defaultObjectId; // 0x28
 		::System::Boolean overrideSlotDefaultOffset; // 0x2C
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 offsetPosition; // 0x30
 		::UnityEngine::Quaternion offsetRotation; // 0x3C
 		::UnityEngine::Vector3 offsetScale; // 0x4C
 		::System::Boolean bOverrideMaterials; // 0x58
+		::System::Byte _padding1[0x7];
 		::Il2CppArray<::Foundation::AssetPath>* overrideMaterialAssetPaths; // 0x60
 		::System::Collections::Generic::List_1<::System::Int32>* npcAnimationList; // 0x68
 

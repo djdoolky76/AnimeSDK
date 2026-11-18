@@ -1,14 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/InputSystem/InputBinding.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_BINDINGOVERRIDEJSON_FROMBINDING_OFFSET UNITYSDK_OFFSET(0x1F3DBA10)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_BINDINGOVERRIDEJSON_FROMBINDING_OFFSET UNITYSDK_OFFSET(0x1F7F01B0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionMap_BindingOverrideJson_TypeDefinitionIndex = 32158;
+	inline static constexpr unsigned int InputActionMap_BindingOverrideJson_TypeDefinitionIndex = 31607;
 
 	struct alignas(8) InputActionMap_BindingOverrideJson
 	{

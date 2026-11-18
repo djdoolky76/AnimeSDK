@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_ITEM_S__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD9090)
+#define DIGITALOPUS_MB_CORE_MB3_AGGLOMERATIVECLUSTERING_ITEM_S__CTOR_OFFSET UNITYSDK_OFFSET(0x1F077E30)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_AgglomerativeClustering_item_s_TypeDefinitionIndex = 94549;
+	inline static constexpr unsigned int MB3_AgglomerativeClustering_item_s_TypeDefinitionIndex = 96236;
 
 	class MB3_AgglomerativeClustering_item_s : public ::System::Object
 	{

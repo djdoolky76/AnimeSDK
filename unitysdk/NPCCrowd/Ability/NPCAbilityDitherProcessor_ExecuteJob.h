@@ -12,20 +12,25 @@
 namespace NPCCrowd::Ability { class NPCAbilityDitherParameters; }
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x754C80)
-#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTEJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x754C70)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x631C60)
+#define NPCCROWD_ABILITY_NPCABILITYDITHERPROCESSOR_EXECUTEJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x631C50)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityDitherProcessor_ExecuteJob_TypeDefinitionIndex = 81400;
+	inline static constexpr unsigned int NPCAbilityDitherProcessor_ExecuteJob_TypeDefinitionIndex = 53691;
 
 	struct alignas(8) NPCAbilityDitherProcessor_ExecuteJob
 	{
 		::Unity::Collections::NativeArray_1<::System::Boolean> _isUsing; // 0x10
+		::System::Byte _padding0[0x8];
 		::Foundation::Container::HierarchicalHashGrid2D_2<::NPCCrowd::Ability::NavigationObstacleItem, ::NPCCrowd::Ability::NavigationObstacleItemEqualsFunc> _obstacleGrid; // 0x20
+		::System::Byte _padding1[0x48];
 		::Foundation::Container::NativeHashSet_2<::NPCCrowd::Ability::NPCEntityNativeData, ::NPCCrowd::Ability::NPCEntityNativeData> _data; // 0x70
+		::System::Byte _padding2[0x18];
 		::Unity::Collections::NativeArray_1<::System::UInt32> _entityIdFragments; // 0x90
+		::System::Byte _padding3[0x8];
 		::System::Single _ditherRadius; // 0xA0
+		::System::Byte _padding4[0x4];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FNPCDitherStateFragment> _ditherStateFragments; // 0xA8
 
 		::System::Void _ctor(::NPCCrowd::Ability::NPCAbilityRuntimeData* runtimeData, ::NPCCrowd::Ability::NPCAbilityDitherParameters* parameters)

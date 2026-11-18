@@ -5,7 +5,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VehicleSplineNode_TypeDefinitionIndex = 89537;
+	inline static constexpr unsigned int VehicleSplineNode_TypeDefinitionIndex = 44080;
 
 	struct alignas(4) VehicleSplineNode
 	{

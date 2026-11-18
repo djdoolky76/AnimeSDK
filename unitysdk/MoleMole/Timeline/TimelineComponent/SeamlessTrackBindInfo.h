@@ -9,14 +9,14 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSTRACKBINDINFO_GETSYNCENTITYTAGID_OFFSET UNITYSDK_OFFSET(0x173BD4D0)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSTRACKBINDINFO_GET_REFERENCENAME_OFFSET UNITYSDK_OFFSET(0x173BD470)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSTRACKBINDINFO_REBIND_OFFSET UNITYSDK_OFFSET(0x173BD860)
-#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSTRACKBINDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x173BDED0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSTRACKBINDINFO_GETSYNCENTITYTAGID_OFFSET UNITYSDK_OFFSET(0x13F29110)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSTRACKBINDINFO_GET_REFERENCENAME_OFFSET UNITYSDK_OFFSET(0x13F290B0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSTRACKBINDINFO_REBIND_OFFSET UNITYSDK_OFFSET(0x13F294A0)
+#define MOLEMOLE_TIMELINE_TIMELINECOMPONENT_SEAMLESSTRACKBINDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x13F29B10)
 
 namespace MoleMole::Timeline::TimelineComponent
 {
-	inline static constexpr unsigned int SeamlessTrackBindInfo_TypeDefinitionIndex = 53683;
+	inline static constexpr unsigned int SeamlessTrackBindInfo_TypeDefinitionIndex = 88575;
 
 	class SeamlessTrackBindInfo : public ::System::Object
 	{
@@ -24,9 +24,11 @@ namespace MoleMole::Timeline::TimelineComponent
 		::MoleMole::Config::EntityType EntityType; // 0x10
 		::System::Int32 unitId; // 0x14
 		::System::Int32 index; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* relativePath; // 0x20
 		::System::String* overrideTagStr; // 0x28
 		::TimelineBindingType BindingType; // 0x30
+		::System::Byte _padding1[0x4];
 		::System::String* trackGuid; // 0x38
 
 		::System::Void _ctor(::MoleMole::CGRuntimeUnit* runtimeUnit, ::System::String* relativePath, ::System::String* _trackGuid)

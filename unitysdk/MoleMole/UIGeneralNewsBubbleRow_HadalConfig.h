@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_UIGENERALNEWSBUBBLEROW_HADALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172F2560)
+#define MOLEMOLE_UIGENERALNEWSBUBBLEROW_HADALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173CEA60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralNewsBubbleRow_HadalConfig_TypeDefinitionIndex = 48398;
+	inline static constexpr unsigned int UIGeneralNewsBubbleRow_HadalConfig_TypeDefinitionIndex = 49096;
 
 	class UIGeneralNewsBubbleRow_HadalConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

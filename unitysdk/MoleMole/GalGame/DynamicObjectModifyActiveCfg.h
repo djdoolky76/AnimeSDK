@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_GALGAME_DYNAMICOBJECTMODIFYACTIVECFG__CTOR_OFFSET UNITYSDK_OFFSET(0x13A8F9F0)
+#define MOLEMOLE_GALGAME_DYNAMICOBJECTMODIFYACTIVECFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1466A270)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int DynamicObjectModifyActiveCfg_TypeDefinitionIndex = 60120;
+	inline static constexpr unsigned int DynamicObjectModifyActiveCfg_TypeDefinitionIndex = 39344;
 
 	class DynamicObjectModifyActiveCfg : public ::System::Object
 	{

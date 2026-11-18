@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/ExtractorNode_5.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine { class GameObject; }
 
-#define FLOWCANVAS_NODES_EXTRACTRAYCASTHIT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D0562C0)
-#define FLOWCANVAS_NODES_EXTRACTRAYCASTHIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D056590)
+#define FLOWCANVAS_NODES_EXTRACTRAYCASTHIT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D5D06B0)
+#define FLOWCANVAS_NODES_EXTRACTRAYCASTHIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D0980)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractRaycastHit_TypeDefinitionIndex = 30163;
+	inline static constexpr unsigned int ExtractRaycastHit_TypeDefinitionIndex = 29209;
 
-	class ExtractRaycastHit : public ::FlowCanvas::Nodes::ExtractorNode_5<::UnityEngine::RaycastHit, ::UnityEngine::GameObject*, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3>
+	class ExtractRaycastHit
 	{
 	public:
 		::System::Void _ctor()

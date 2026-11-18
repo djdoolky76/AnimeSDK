@@ -5,11 +5,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class TrailRenderer; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINLASERBLOCKTRAILRENDERERS__CTOR_OFFSET UNITYSDK_OFFSET(0x129B2330)
+#define MOLEMOLE_MONOEFFECTPLUGINLASERBLOCKTRAILRENDERERS__CTOR_OFFSET UNITYSDK_OFFSET(0x124741B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginLaserBlockTrailRenderers_TypeDefinitionIndex = 65536;
+	inline static constexpr unsigned int MonoEffectPluginLaserBlockTrailRenderers_TypeDefinitionIndex = 70169;
 
 	class MonoEffectPluginLaserBlockTrailRenderers : public ::MoleMole::MonoEffectPluginBase
 	{

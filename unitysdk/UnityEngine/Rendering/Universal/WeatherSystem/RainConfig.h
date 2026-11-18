@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_RAINCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C457F50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_RAINCONFIG_GENERATERAINANIMTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C457D20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_RAINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C458980)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_RAINCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C87FBE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_RAINCONFIG_GENERATERAINANIMTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C87F9B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_RAINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C880610)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int RainConfig_TypeDefinitionIndex = 27175;
+	inline static constexpr unsigned int RainConfig_TypeDefinitionIndex = 26798;
 
-	class RainConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::RainConfig*>
+	class RainConfig
 	{
 	public:
 		::UnityEngine::Texture* rainDropTexture; // 0x18
@@ -33,6 +32,7 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::System::Single rainDropOuterCircleRadius; // 0x5C
 		::System::Single rainDropInnerCircleRadius; // 0x60
 		::System::Boolean EnableScreenRainDrop; // 0x64
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Texture2D* ScreenRainDropTexture; // 0x68
 		::UnityEngine::AnimationCurve* ScreenRainDropAnimCurve; // 0x70
 		::UnityEngine::Texture2D* ScreenRainDropAnimTexture; // 0x78
@@ -44,6 +44,7 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::System::Single rainFlowTilling; // 0x98
 		::System::Single rainFlowSpeed; // 0x9C
 		::System::Single rainFlowIntensity; // 0xA0
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Texture* rainTexture2; // 0xA8
 		::System::Single rippleTextureTilling; // 0xB0
 		::System::Single rippleSpeed; // 0xB4

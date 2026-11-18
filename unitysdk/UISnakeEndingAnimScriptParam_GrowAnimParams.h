@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define UISNAKEENDINGANIMSCRIPTPARAM_GROWANIMPARAMS_CALVALUEBYEVALUATECURVE_OFFSET UNITYSDK_OFFSET(0x1EF05A30)
-#define UISNAKEENDINGANIMSCRIPTPARAM_GROWANIMPARAMS_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1EF05AA0)
-#define UISNAKEENDINGANIMSCRIPTPARAM_GROWANIMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF05B10)
+#define UISNAKEENDINGANIMSCRIPTPARAM_GROWANIMPARAMS_CALVALUEBYEVALUATECURVE_OFFSET UNITYSDK_OFFSET(0x1EFC19B0)
+#define UISNAKEENDINGANIMSCRIPTPARAM_GROWANIMPARAMS_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1EFC1A20)
+#define UISNAKEENDINGANIMSCRIPTPARAM_GROWANIMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC1A90)
 
-inline static constexpr unsigned int UISnakeEndingAnimScriptParam_GrowAnimParams_TypeDefinitionIndex = 94977;
+inline static constexpr unsigned int UISnakeEndingAnimScriptParam_GrowAnimParams_TypeDefinitionIndex = 96568;
 
 class UISnakeEndingAnimScriptParam_GrowAnimParams : public ::System::Object
 {
@@ -16,6 +16,7 @@ public:
 	::System::Single normalHeight; // 0x10
 	::System::Single maxHeight; // 0x14
 	::System::Single duration; // 0x18
+	::System::Byte _padding0[0x4];
 	::UnityEngine::AnimationCurve* curve; // 0x20
 
 	::System::Void _ctor()

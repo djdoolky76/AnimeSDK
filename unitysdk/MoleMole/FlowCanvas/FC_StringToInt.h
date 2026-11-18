@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardPureFunctionNode_2.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_FC_STRINGTOINT_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B04710)
-#define MOLEMOLE_FLOWCANVAS_FC_STRINGTOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B047C0)
+#define MOLEMOLE_FLOWCANVAS_FC_STRINGTOINT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8E1710)
+#define MOLEMOLE_FLOWCANVAS_FC_STRINGTOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E17C0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int FC_StringToInt_TypeDefinitionIndex = 43271;
+	inline static constexpr unsigned int FC_StringToInt_TypeDefinitionIndex = 85661;
 
-	class FC_StringToInt : public ::MoleMole::FlowCanvas::ChessboardPureFunctionNode_2<::System::Int32, ::System::String*>
+	class FC_StringToInt
 	{
 	public:
 		::System::Void _ctor()

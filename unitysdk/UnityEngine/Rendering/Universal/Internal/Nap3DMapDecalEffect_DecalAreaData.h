@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/Internal/Nap3DMapDecalEffect_DecalShapeType.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT_DECALAREADATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1CB146D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT_DECALAREADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB147A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT_DECALAREADATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1CED5990)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAP3DMAPDECALEFFECT_DECALAREADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED5A60)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int Nap3DMapDecalEffect_DecalAreaData_TypeDefinitionIndex = 27168;
+	inline static constexpr unsigned int Nap3DMapDecalEffect_DecalAreaData_TypeDefinitionIndex = 27283;
 
 	class Nap3DMapDecalEffect_DecalAreaData : public ::System::Object
 	{
@@ -20,6 +20,7 @@ namespace UnityEngine::Rendering::Universal::Internal
 		::UnityEngine::Color FillColor; // 0x10
 		::UnityEngine::Color LineColor; // 0x20
 		::System::Single OverallOpacity; // 0x30
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* FadeInOpacityCurve; // 0x38
 		::System::Single FadeInDuration; // 0x40
 		::UnityEngine::Rendering::Universal::Internal::Nap3DMapDecalEffect_DecalShapeType DecalShape; // 0x44

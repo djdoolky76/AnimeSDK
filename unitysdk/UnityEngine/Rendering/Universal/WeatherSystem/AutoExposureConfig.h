@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_AUTOEXPOSURECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CCA74B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_AUTOEXPOSURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA7740)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_AUTOEXPOSURECONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D1A86F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_AUTOEXPOSURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A8980)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int AutoExposureConfig_TypeDefinitionIndex = 27621;
+	inline static constexpr unsigned int AutoExposureConfig_TypeDefinitionIndex = 27118;
 
-	class AutoExposureConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::AutoExposureConfig*>
+	class AutoExposureConfig
 	{
 	public:
 		::System::Single CharacterAutoExposureIntensity; // 0x18
@@ -18,6 +17,7 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::UnityEngine::Vector2 AutoExposureLuminanceRange; // 0x24
 		::System::Single AutoExposureCompensation; // 0x2C
 		::System::Boolean AutoExposureProgressiveEyeAdaptation; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::Single AutoExposureSpeedUp; // 0x34
 		::System::Single AutoExposureSpeedDown; // 0x38
 		::System::Single FallbackConstantExposureCompensation; // 0x3C

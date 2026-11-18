@@ -5,7 +5,7 @@
 
 namespace RVO
 {
-	inline static constexpr unsigned int Line_TypeDefinitionIndex = 38727;
+	inline static constexpr unsigned int Line_TypeDefinitionIndex = 36727;
 
 	struct alignas(4) Line
 	{

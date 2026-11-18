@@ -3,12 +3,12 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int ELightTriggerAnimationType_TypeDefinitionIndex = 27195;
+	inline static constexpr unsigned int ELightTriggerAnimationType_TypeDefinitionIndex = 27329;
 
 	enum class ELightTriggerAnimationType : ::System::Int32
 	{
-		LinearAnimation = 2,
-		NoneAnimation = 1,
 		SparkAnimation = 0,
+		NoneAnimation = 1,
+		LinearAnimation = 2,
 	};
 }

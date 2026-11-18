@@ -3,16 +3,16 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define FOUNDATION_GEOMETRY_CIRCLE2D_CONTAINS_OFFSET UNITYSDK_OFFSET(0xACD320)
-#define FOUNDATION_GEOMETRY_CIRCLE2D_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1FBE2AE0)
-#define FOUNDATION_GEOMETRY_CIRCLE2D_CREATE_2_OFFSET UNITYSDK_OFFSET(0x1FBE2B70)
-#define FOUNDATION_GEOMETRY_CIRCLE2D_CREATE_OFFSET UNITYSDK_OFFSET(0x1FBE2AD0)
-#define FOUNDATION_GEOMETRY_CIRCLE2D_GET_ISDEGENERATE_OFFSET UNITYSDK_OFFSET(0xACD2F0)
-#define FOUNDATION_GEOMETRY_CIRCLE2D__CTOR_OFFSET UNITYSDK_OFFSET(0x424FB0)
+#define FOUNDATION_GEOMETRY_CIRCLE2D_CONTAINS_OFFSET UNITYSDK_OFFSET(0x9B3870)
+#define FOUNDATION_GEOMETRY_CIRCLE2D_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1FFE4B00)
+#define FOUNDATION_GEOMETRY_CIRCLE2D_CREATE_2_OFFSET UNITYSDK_OFFSET(0x1FFE4B90)
+#define FOUNDATION_GEOMETRY_CIRCLE2D_CREATE_OFFSET UNITYSDK_OFFSET(0x1FFE4AF0)
+#define FOUNDATION_GEOMETRY_CIRCLE2D_GET_ISDEGENERATE_OFFSET UNITYSDK_OFFSET(0x9B3840)
+#define FOUNDATION_GEOMETRY_CIRCLE2D__CTOR_OFFSET UNITYSDK_OFFSET(0x3A07D0)
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int Circle2D_TypeDefinitionIndex = 8820;
+	inline static constexpr unsigned int Circle2D_TypeDefinitionIndex = 8903;
 
 	struct alignas(4) Circle2D
 	{
@@ -34,19 +34,25 @@ namespace Foundation::Geometry
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CIRCLE2D_CONTAINS_OFFSET))(this, point, tolerance);
 		}
 
+		/*
 		static ::Foundation::Geometry::Circle2D Create(::UnityEngine::Vector2 point)
 		{
 			return ((::Foundation::Geometry::Circle2D(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CIRCLE2D_CREATE_OFFSET))(point);
 		}
+		*/
 
+		/*
 		static ::Foundation::Geometry::Circle2D Create_1(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b)
 		{
 			return ((::Foundation::Geometry::Circle2D(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CIRCLE2D_CREATE_1_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::Foundation::Geometry::Circle2D Create_2(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, ::UnityEngine::Vector2 c)
 		{
 			return ((::Foundation::Geometry::Circle2D(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_CIRCLE2D_CREATE_2_OFFSET))(a, b, c);
 		}
+		*/
 	};
 }

@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDECHARACTERRAMPCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C51B690)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDECHARACTERRAMPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C51B750)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDECHARACTERRAMPCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C9C8B50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OVERRIDECHARACTERRAMPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C8C10)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OverrideCharacterRampConfig_TypeDefinitionIndex = 27687;
+	inline static constexpr unsigned int OverrideCharacterRampConfig_TypeDefinitionIndex = 26521;
 
-	class OverrideCharacterRampConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::OverrideCharacterRampConfig*>
+	class OverrideCharacterRampConfig
 	{
 	public:
 		::UnityEngine::Color skinFrontTint; // 0x18

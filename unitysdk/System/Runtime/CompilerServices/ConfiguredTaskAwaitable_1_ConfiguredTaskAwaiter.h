@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace System { class Action; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TypeDefinitionIndex = 1395;
+	inline static constexpr unsigned int ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TypeDefinitionIndex = 1394;
 
-	template <typename TResult>
-	struct ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter
+	template <typename T>
+	struct alignas(8) ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter
 	{
-		::System::Threading::Tasks::Task_1<TResult>* m_task; // 0x0
+		::System::Threading::Tasks::Task_1<T>* m_task; // 0x0
 		::System::Boolean m_continueOnCapturedContext; // 0x0
 	};
 }

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTREADER_TYPENASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C32A8D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTREADER_TYPENASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A1E30)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ObjectReader_TypeNAssembly_TypeDefinitionIndex = 1224;
+	inline static constexpr unsigned int ObjectReader_TypeNAssembly_TypeDefinitionIndex = 1223;
 
 	class ObjectReader_TypeNAssembly : public ::System::Object
 	{

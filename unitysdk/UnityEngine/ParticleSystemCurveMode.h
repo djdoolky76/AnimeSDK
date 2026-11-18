@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemCurveMode_TypeDefinitionIndex = 7745;
+	inline static constexpr unsigned int ParticleSystemCurveMode_TypeDefinitionIndex = 7757;
 
 	enum class ParticleSystemCurveMode : ::System::Int32
 	{

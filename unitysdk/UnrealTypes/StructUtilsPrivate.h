@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Unreal/FName.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnrealTypes/PropertyBagResult.h"
+#include "unitysdk/Foundation/Unreal/FName.h"
 #include "unitysdk/UnrealTypes/FGuid.h"
 #include "unitysdk/UnrealTypes/FPropertyBagPropertyDesc.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
-#include "unitysdk/UnrealTypes/PropertyBagResult.h"
 #include "unitysdk/UnrealTypes/ReadOnlyNativeListView_1.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
@@ -19,32 +19,32 @@ namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class Struct; }
 namespace UnrealTypes { template <typename T> class ManagedStructList_1; }
 
-#define UNREALTYPES_STRUCTUTILSPRIVATE_CALCPROPERTYDESCARRAYHASH_OFFSET UNITYSDK_OFFSET(0x1E3911C0)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_CALCPROPERTYDESCHASH_OFFSET UNITYSDK_OFFSET(0x1E3955F0)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_CANCASTTO_OFFSET UNITYSDK_OFFSET(0x1E38EB30)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_COPYMATCHINGVALUESBYID_1_OFFSET UNITYSDK_OFFSET(0x1E386640)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_COPYMATCHINGVALUESBYID_OFFSET UNITYSDK_OFFSET(0x1E395BE0)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_CREATEPROPERTYFROMDESC_OFFSET UNITYSDK_OFFSET(0x1E3914B0)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_GETOBJECTHASH_OFFSET UNITYSDK_OFFSET(0x1E3953F0)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASDOUBLE_OFFSET UNITYSDK_OFFSET(0x1E3894A0)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASENUM_OFFSET UNITYSDK_OFFSET(0x1E389A80)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASINT64_OFFSET UNITYSDK_OFFSET(0x1E388BA0)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASNAME_OFFSET UNITYSDK_OFFSET(0x1E389900)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASOBJECT_OFFSET UNITYSDK_OFFSET(0x1E389F10)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASSTRUCT_OFFSET UNITYSDK_OFFSET(0x1E389C90)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASUINT64_OFFSET UNITYSDK_OFFSET(0x1E389010)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_REMOVEPROPERTYBYNAME_OFFSET UNITYSDK_OFFSET(0x1E3913D0)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMDOUBLE_OFFSET UNITYSDK_OFFSET(0x1E3873F0)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMENUM_OFFSET UNITYSDK_OFFSET(0x1E387A10)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMINT64_OFFSET UNITYSDK_OFFSET(0x1E386B40)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMNAME_OFFSET UNITYSDK_OFFSET(0x1E3878B0)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMOBJECT_OFFSET UNITYSDK_OFFSET(0x1E387D90)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMSTRUCT_OFFSET UNITYSDK_OFFSET(0x1E387BA0)
-#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMUINT64_OFFSET UNITYSDK_OFFSET(0x1E386ED0)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_CALCPROPERTYDESCARRAYHASH_OFFSET UNITYSDK_OFFSET(0x1E2B1BE0)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_CALCPROPERTYDESCHASH_OFFSET UNITYSDK_OFFSET(0x1E2B76B0)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_CANCASTTO_OFFSET UNITYSDK_OFFSET(0x1E2ABCC0)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_COPYMATCHINGVALUESBYID_1_OFFSET UNITYSDK_OFFSET(0x1E2A2E10)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_COPYMATCHINGVALUESBYID_OFFSET UNITYSDK_OFFSET(0x1E2B7D60)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_CREATEPROPERTYFROMDESC_OFFSET UNITYSDK_OFFSET(0x1E2B1D50)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_GETOBJECTHASH_OFFSET UNITYSDK_OFFSET(0x1E2B74B0)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASDOUBLE_OFFSET UNITYSDK_OFFSET(0x1E2A6210)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASENUM_OFFSET UNITYSDK_OFFSET(0x1E2A6890)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASINT64_OFFSET UNITYSDK_OFFSET(0x1E2A5780)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASNAME_OFFSET UNITYSDK_OFFSET(0x1E2A6700)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASOBJECT_OFFSET UNITYSDK_OFFSET(0x1E2A6D40)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASSTRUCT_OFFSET UNITYSDK_OFFSET(0x1E2A6AC0)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASUINT64_OFFSET UNITYSDK_OFFSET(0x1E2A5CC0)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_REMOVEPROPERTYBYNAME_OFFSET UNITYSDK_OFFSET(0x1E2B1C70)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMDOUBLE_OFFSET UNITYSDK_OFFSET(0x1E2A3DC0)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMENUM_OFFSET UNITYSDK_OFFSET(0x1E2A44B0)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMINT64_OFFSET UNITYSDK_OFFSET(0x1E2A3310)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMNAME_OFFSET UNITYSDK_OFFSET(0x1E2A4340)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMOBJECT_OFFSET UNITYSDK_OFFSET(0x1E2A4870)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMSTRUCT_OFFSET UNITYSDK_OFFSET(0x1E2A4670)
+#define UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMUINT64_OFFSET UNITYSDK_OFFSET(0x1E2A37A0)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int StructUtilsPrivate_TypeDefinitionIndex = 28416;
+	inline static constexpr unsigned int StructUtilsPrivate_TypeDefinitionIndex = 27853;
 
 	class StructUtilsPrivate : public ::System::Object
 	{
@@ -74,74 +74,74 @@ namespace UnrealTypes
 			return ((::UnrealTypes::Property*(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::UnrealTypes::IFieldVariant*))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_CREATEPROPERTYFROMDESC_OFFSET))(desc, propertyScope);
 		}
 
-		static ::UnrealTypes::PropertyBagResult GetPropertyAsInt64(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::System::Void* address, ::System::Int64& outValue)
+		static ::UnrealTypes::PropertyBagResult GetPropertyAsInt64(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::PVOID address, ::System::Int64& outValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::System::Void*, ::System::Int64&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASINT64_OFFSET))(desc, address, outValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::PVOID, ::System::Int64&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASINT64_OFFSET))(desc, address, outValue);
 		}
 
-		static ::UnrealTypes::PropertyBagResult GetPropertyAsUInt64(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::System::Void* address, ::System::UInt64& outValue)
+		static ::UnrealTypes::PropertyBagResult GetPropertyAsUInt64(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::PVOID address, ::System::UInt64& outValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::System::Void*, ::System::UInt64&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASUINT64_OFFSET))(desc, address, outValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::PVOID, ::System::UInt64&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASUINT64_OFFSET))(desc, address, outValue);
 		}
 
-		static ::UnrealTypes::PropertyBagResult GetPropertyAsDouble(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::System::Void* address, ::System::Double& outValue)
+		static ::UnrealTypes::PropertyBagResult GetPropertyAsDouble(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::PVOID address, ::System::Double& outValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::System::Void*, ::System::Double&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASDOUBLE_OFFSET))(desc, address, outValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::PVOID, ::System::Double&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASDOUBLE_OFFSET))(desc, address, outValue);
 		}
 
-		static ::UnrealTypes::PropertyBagResult GetPropertyAsName(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::System::Void* address, ::Foundation::Unreal::FName& outValue)
+		static ::UnrealTypes::PropertyBagResult GetPropertyAsName(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::PVOID address, ::Foundation::Unreal::FName& outValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::System::Void*, ::Foundation::Unreal::FName&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASNAME_OFFSET))(desc, address, outValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::PVOID, ::Foundation::Unreal::FName&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASNAME_OFFSET))(desc, address, outValue);
 		}
 
-		static ::UnrealTypes::PropertyBagResult GetPropertyAsEnum(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::UnrealTypes::Enum* requestedEnum, ::System::Void* address, ::System::UInt64& outValue)
+		static ::UnrealTypes::PropertyBagResult GetPropertyAsEnum(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::UnrealTypes::Enum* requestedEnum, ::PVOID address, ::System::UInt64& outValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::UnrealTypes::Enum*, ::System::Void*, ::System::UInt64&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASENUM_OFFSET))(desc, requestedEnum, address, outValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::UnrealTypes::Enum*, ::PVOID, ::System::UInt64&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASENUM_OFFSET))(desc, requestedEnum, address, outValue);
 		}
 
-		static ::UnrealTypes::PropertyBagResult GetPropertyAsStruct(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::UnrealTypes::ScriptStruct* requestedStruct, ::System::Void* address, ::UnrealTypes::FStructView& outValue)
+		static ::UnrealTypes::PropertyBagResult GetPropertyAsStruct(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::UnrealTypes::ScriptStruct* requestedStruct, ::PVOID address, ::UnrealTypes::FStructView& outValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::UnrealTypes::ScriptStruct*, ::System::Void*, ::UnrealTypes::FStructView&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASSTRUCT_OFFSET))(desc, requestedStruct, address, outValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::UnrealTypes::ScriptStruct*, ::PVOID, ::UnrealTypes::FStructView&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASSTRUCT_OFFSET))(desc, requestedStruct, address, outValue);
 		}
 
-		static ::UnrealTypes::PropertyBagResult GetPropertyAsObject(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::UnrealTypes::Class* requestedClass, ::System::Void* address, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>& outValue)
+		static ::UnrealTypes::PropertyBagResult GetPropertyAsObject(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::UnrealTypes::Class* requestedClass, ::PVOID address, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>& outValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::UnrealTypes::Class*, ::System::Void*, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASOBJECT_OFFSET))(desc, requestedClass, address, outValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::UnrealTypes::Class*, ::PVOID, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>&))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_GETPROPERTYASOBJECT_OFFSET))(desc, requestedClass, address, outValue);
 		}
 
-		static ::UnrealTypes::PropertyBagResult SetPropertyFromInt64(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::System::Void* address, ::System::Int64 inValue)
+		static ::UnrealTypes::PropertyBagResult SetPropertyFromInt64(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::PVOID address, ::System::Int64 inValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::System::Void*, ::System::Int64))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMINT64_OFFSET))(desc, address, inValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMINT64_OFFSET))(desc, address, inValue);
 		}
 
-		static ::UnrealTypes::PropertyBagResult SetPropertyFromUInt64(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::System::Void* address, ::System::UInt64 inValue)
+		static ::UnrealTypes::PropertyBagResult SetPropertyFromUInt64(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::PVOID address, ::System::UInt64 inValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::System::Void*, ::System::UInt64))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMUINT64_OFFSET))(desc, address, inValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMUINT64_OFFSET))(desc, address, inValue);
 		}
 
-		static ::UnrealTypes::PropertyBagResult SetPropertyFromDouble(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::System::Void* address, ::System::Double inValue)
+		static ::UnrealTypes::PropertyBagResult SetPropertyFromDouble(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::PVOID address, ::System::Double inValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::System::Void*, ::System::Double))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMDOUBLE_OFFSET))(desc, address, inValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMDOUBLE_OFFSET))(desc, address, inValue);
 		}
 
-		static ::UnrealTypes::PropertyBagResult SetPropertyFromName(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::System::Void* address, ::Foundation::Unreal::FName inValue)
+		static ::UnrealTypes::PropertyBagResult SetPropertyFromName(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::PVOID address, ::Foundation::Unreal::FName inValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::System::Void*, ::Foundation::Unreal::FName))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMNAME_OFFSET))(desc, address, inValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::PVOID, ::Foundation::Unreal::FName))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMNAME_OFFSET))(desc, address, inValue);
 		}
 
-		static ::UnrealTypes::PropertyBagResult SetPropertyFromEnum(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::System::Void* address, ::System::UInt64 inValue, ::UnrealTypes::Enum* enum_)
+		static ::UnrealTypes::PropertyBagResult SetPropertyFromEnum(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::PVOID address, ::System::UInt64 inValue, ::UnrealTypes::Enum* enum_)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::System::Void*, ::System::UInt64, ::UnrealTypes::Enum*))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMENUM_OFFSET))(desc, address, inValue, enum_);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::PVOID, ::System::UInt64, ::UnrealTypes::Enum*))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMENUM_OFFSET))(desc, address, inValue, enum_);
 		}
 
-		static ::UnrealTypes::PropertyBagResult SetPropertyFromStruct(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::System::Void* address, ::UnrealTypes::FReadOnlyStructView inValue)
+		static ::UnrealTypes::PropertyBagResult SetPropertyFromStruct(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::PVOID address, ::UnrealTypes::FReadOnlyStructView inValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::System::Void*, ::UnrealTypes::FReadOnlyStructView))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMSTRUCT_OFFSET))(desc, address, inValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::PVOID, ::UnrealTypes::FReadOnlyStructView))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMSTRUCT_OFFSET))(desc, address, inValue);
 		}
 
-		static ::UnrealTypes::PropertyBagResult SetPropertyFromObject(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::System::Void* address, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*> inValue)
+		static ::UnrealTypes::PropertyBagResult SetPropertyFromObject(::UnrealTypes::FPropertyBagPropertyDesc& desc, ::PVOID address, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*> inValue)
 		{
-			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::System::Void*, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMOBJECT_OFFSET))(desc, address, inValue);
+			return ((::UnrealTypes::PropertyBagResult(*)(::UnrealTypes::FPropertyBagPropertyDesc&, ::PVOID, ::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>))((::PBYTE)hIl2Cpp + UNREALTYPES_STRUCTUTILSPRIVATE_SETPROPERTYFROMOBJECT_OFFSET))(desc, address, inValue);
 		}
 
 		static ::System::Void CopyMatchingValuesByID(::UnrealTypes::FReadOnlyStructView& source, ::UnrealTypes::FStructView& target, ::System::Boolean hasOverrides, ::UnrealTypes::ReadOnlyNativeListView_1<::UnrealTypes::FGuid> overrides)

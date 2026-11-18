@@ -3,15 +3,15 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDisplayCaseEditWidgetController_EErrorType_TypeDefinitionIndex = 56115;
+	inline static constexpr unsigned int UIDisplayCaseEditWidgetController_EErrorType_TypeDefinitionIndex = 81320;
 
 	enum class UIDisplayCaseEditWidgetController_EErrorType : ::System::Int32
 	{
-		Overlap = 3,
-		Overflow = 2,
 		CannotSettle = 4,
-		None = 0,
-		CannotBag = 5,
+		Overlap = 3,
 		OutRange = 1,
+		CannotBag = 5,
+		Overflow = 2,
+		None = 0,
 	};
 }

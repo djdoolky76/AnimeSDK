@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class KOPLGEFDECB;
+
+#define KOPLGEFDECB_IEJHDHEJIEO_HBPLINHBFFK_OFFSET UNITYSDK_OFFSET(0x1682FD40)
+#define KOPLGEFDECB_IEJHDHEJIEO_JINCFIGEAKM_OFFSET UNITYSDK_OFFSET(0x1682FC90)
+#define KOPLGEFDECB_IEJHDHEJIEO_PLPONJAKNEB_OFFSET UNITYSDK_OFFSET(0x1682FCF0)
+#define KOPLGEFDECB_IEJHDHEJIEO__CTOR_OFFSET UNITYSDK_OFFSET(0x1682FD80)
+
+inline static constexpr unsigned int KOPLGEFDECB_IEJHDHEJIEO_TypeDefinitionIndex = 80622;
+
+class KOPLGEFDECB_IEJHDHEJIEO : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KOPLGEFDECB_IEJHDHEJIEO__CTOR_OFFSET))(this);
+	}
+
+	::System::Void JINCFIGEAKM(::KOPLGEFDECB* AMNIHACKELI)
+	{
+		return ((::System::Void(*)(::PVOID, ::KOPLGEFDECB*))((::PBYTE)hIl2Cpp + KOPLGEFDECB_IEJHDHEJIEO_JINCFIGEAKM_OFFSET))(this, AMNIHACKELI);
+	}
+
+	::System::Void PLPONJAKNEB(::KOPLGEFDECB* AMNIHACKELI)
+	{
+		return ((::System::Void(*)(::PVOID, ::KOPLGEFDECB*))((::PBYTE)hIl2Cpp + KOPLGEFDECB_IEJHDHEJIEO_PLPONJAKNEB_OFFSET))(this, AMNIHACKELI);
+	}
+
+	::System::Void HBPLINHBFFK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KOPLGEFDECB_IEJHDHEJIEO_HBPLINHBFFK_OFFSET))(this);
+	}
+};

@@ -7,22 +7,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define MOLEMOLE_SPLINE_NAPSPLINEMETA_AWAKE_OFFSET UNITYSDK_OFFSET(0x145073A0)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETA_GET_TAG_OFFSET UNITYSDK_OFFSET(0x14507390)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETA_METHOD_7_7A8DAE462BFF8B7E_OFFSET UNITYSDK_OFFSET(0x145074E0)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x145073F0)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETA___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x145074D0)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETA_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C0BF020)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETA_GET_TAG_OFFSET UNITYSDK_OFFSET(0x1C0BF010)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETA_GPGLNOBDBGJ_OFFSET UNITYSDK_OFFSET(0x1C0BF150)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETA_PJGHAMCBIFK_OFFSET UNITYSDK_OFFSET(0x1C0BF160)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0BF070)
 
 namespace MoleMole::Spline
 {
-	inline static constexpr unsigned int NAPSplineMeta_TypeDefinitionIndex = 40842;
+	inline static constexpr unsigned int NAPSplineMeta_TypeDefinitionIndex = 71467;
 
 	class NAPSplineMeta : public ::FluffyUnderware::Curvy::CurvyMetadataBase_Spline
 	{
 	public:
 		::System::String* _tag; // 0x38
 		::MoleMole::DataStructures::Common::Comment* Comment; // 0x40
-		::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* Field_7_0; // 0x48
+		::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* GPBDEFADHDI; // 0x48
 
 		::System::Void _ctor()
 		{
@@ -39,14 +39,14 @@ namespace MoleMole::Spline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETA_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void __base_Awake()
+		::System::Void GPGLNOBDBGJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETA___BASE_AWAKE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETA_GPGLNOBDBGJ_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* Method_7_7A8DAE462BFF8B7E()
+		::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* PJGHAMCBIFK()
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETA_METHOD_7_7A8DAE462BFF8B7E_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETA_PJGHAMCBIFK_OFFSET))(this);
 		}
 	};
 }

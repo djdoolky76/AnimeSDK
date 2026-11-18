@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Dynamic/Utils/ListProvider_1.h"
 
 namespace System::Linq::Expressions { class IParameterProvider; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_DYNAMIC_UTILS_LISTPARAMETERPROVIDER_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x1F0757A0)
-#define SYSTEM_DYNAMIC_UTILS_LISTPARAMETERPROVIDER_GET_ELEMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1F0756C0)
-#define SYSTEM_DYNAMIC_UTILS_LISTPARAMETERPROVIDER_GET_FIRST_OFFSET UNITYSDK_OFFSET(0x1F0756B0)
-#define SYSTEM_DYNAMIC_UTILS_LISTPARAMETERPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F075690)
+#define SYSTEM_DYNAMIC_UTILS_LISTPARAMETERPROVIDER_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x1F40D590)
+#define SYSTEM_DYNAMIC_UTILS_LISTPARAMETERPROVIDER_GET_ELEMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1F40D4B0)
+#define SYSTEM_DYNAMIC_UTILS_LISTPARAMETERPROVIDER_GET_FIRST_OFFSET UNITYSDK_OFFSET(0x1F40D4A0)
+#define SYSTEM_DYNAMIC_UTILS_LISTPARAMETERPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F40D480)
 
 namespace System::Dynamic::Utils
 {
 	inline static constexpr unsigned int ListParameterProvider_TypeDefinitionIndex = 5020;
 
-	class ListParameterProvider : public ::System::Dynamic::Utils::ListProvider_1<::System::Linq::Expressions::ParameterExpression*>
+	class ListParameterProvider
 	{
 	public:
 		::System::Linq::Expressions::IParameterProvider* _provider; // 0x10

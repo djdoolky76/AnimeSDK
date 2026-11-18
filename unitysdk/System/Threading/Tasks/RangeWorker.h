@@ -3,21 +3,22 @@
 #include "unitysdk/System/Threading/Tasks/IndexRange.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_THREADING_TASKS_RANGEWORKER_FINDNEWWORK32_OFFSET UNITYSDK_OFFSET(0x9B1460)
-#define SYSTEM_THREADING_TASKS_RANGEWORKER_FINDNEWWORK_OFFSET UNITYSDK_OFFSET(0x9B1450)
-#define SYSTEM_THREADING_TASKS_RANGEWORKER__CTOR_OFFSET UNITYSDK_OFFSET(0x9B1420)
+#define SYSTEM_THREADING_TASKS_RANGEWORKER_FINDNEWWORK32_OFFSET UNITYSDK_OFFSET(0x8D6520)
+#define SYSTEM_THREADING_TASKS_RANGEWORKER_FINDNEWWORK_OFFSET UNITYSDK_OFFSET(0x8D6510)
+#define SYSTEM_THREADING_TASKS_RANGEWORKER__CTOR_OFFSET UNITYSDK_OFFSET(0x8D64E0)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int RangeWorker_TypeDefinitionIndex = 896;
+	inline static constexpr unsigned int RangeWorker_TypeDefinitionIndex = 895;
 
 	struct alignas(8) RangeWorker
 	{
 		::Il2CppArray<::System::Threading::Tasks::IndexRange>* m_indexRanges; // 0x10
-		::System::Int64 m_nStep; // 0x18
-		::System::Boolean _use32BitCurrentIndex; // 0x20
-		::System::Int32 m_nCurrentIndexRange; // 0x24
-		::System::Int64 m_nIncrementValue; // 0x28
+		::System::Int64 m_nIncrementValue; // 0x18
+		::System::Int64 m_nStep; // 0x20
+		::System::Int32 m_nCurrentIndexRange; // 0x28
+		::System::Boolean _use32BitCurrentIndex; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::Int64 m_nMaxIncrementValue; // 0x30
 
 		::System::Void _ctor(::Il2CppArray<::System::Threading::Tasks::IndexRange>* ranges, ::System::Int32 nInitialRange, ::System::Int64 nStep, ::System::Boolean use32BitCurrentIndex)

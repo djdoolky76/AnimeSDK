@@ -5,20 +5,22 @@
 namespace MiHoYo::SDK { class MiHoYoSDKReportModel_UploadContent; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKREPORTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D280080)
+#define MIHOYO_SDK_MIHOYOSDKREPORTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA5C660)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKReportModel_TypeDefinitionIndex = 37401;
+	inline static constexpr unsigned int MiHoYoSDKReportModel_TypeDefinitionIndex = 35379;
 
 	class MiHoYoSDKReportModel : public ::System::Object
 	{
 	public:
 		::System::Int32 applicationId; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* applicationName; // 0x18
 		::System::String* msgId; // 0x20
 		::System::String* eventTime; // 0x28
 		::System::Int32 eventId; // 0x30
+		::System::Byte _padding1[0x4];
 		::System::String* eventName; // 0x38
 		::MiHoYo::SDK::MiHoYoSDKReportModel_UploadContent* uploadContent; // 0x40
 

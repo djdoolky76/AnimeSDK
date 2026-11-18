@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_CFC1DA8C3898E356;
+class AGFBDEFDLAM;
 namespace MoleMole { class UIMonsterFantasyEventPrepPageController; }
 
-#define MOLEMOLE_UIMONSTERFANTASYEVENTPREPPAGECONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183C90D0)
-#define MOLEMOLE_UIMONSTERFANTASYEVENTPREPPAGECONTROLLER___C__DISPLAYCLASS6_0__ONUIINIT_B__0_OFFSET UNITYSDK_OFFSET(0x183C90E0)
-#define MOLEMOLE_UIMONSTERFANTASYEVENTPREPPAGECONTROLLER___C__DISPLAYCLASS6_0__ONUIINIT_B__1_OFFSET UNITYSDK_OFFSET(0x183C9150)
+#define MOLEMOLE_UIMONSTERFANTASYEVENTPREPPAGECONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x168BEBF0)
+#define MOLEMOLE_UIMONSTERFANTASYEVENTPREPPAGECONTROLLER___C__DISPLAYCLASS6_0__ONUIINIT_B__0_OFFSET UNITYSDK_OFFSET(0x168BEC00)
+#define MOLEMOLE_UIMONSTERFANTASYEVENTPREPPAGECONTROLLER___C__DISPLAYCLASS6_0__ONUIINIT_B__1_OFFSET UNITYSDK_OFFSET(0x168BEC70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyEventPrepPageController___c__DisplayClass6_0_TypeDefinitionIndex = 91126;
+	inline static constexpr unsigned int UIMonsterFantasyEventPrepPageController___c__DisplayClass6_0_TypeDefinitionIndex = 87089;
 
 	class UIMonsterFantasyEventPrepPageController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMonsterFantasyEventPrepPageController* __4__this; // 0x10
-		::Class_2_CFC1DA8C3898E356* compBtnDataSkin; // 0x18
-		::Class_2_CFC1DA8C3898E356* compBtnData; // 0x20
+		::AGFBDEFDLAM* compBtnDataSkin; // 0x10
+		::MoleMole::UIMonsterFantasyEventPrepPageController* __4__this; // 0x18
+		::AGFBDEFDLAM* compBtnData; // 0x20
 
 		::System::Void _ctor()
 		{

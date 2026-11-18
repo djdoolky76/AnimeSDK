@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_LABELATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EA56250)
-#define FLUFFYUNDERWARE_DEVTOOLS_LABELATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA56210)
+#define FLUFFYUNDERWARE_DEVTOOLS_LABELATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED5EED0)
+#define FLUFFYUNDERWARE_DEVTOOLS_LABELATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5EE90)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int LabelAttribute_TypeDefinitionIndex = 28958;
+	inline static constexpr unsigned int LabelAttribute_TypeDefinitionIndex = 28397;
 
 	class LabelAttribute : public ::FluffyUnderware::DevTools::DTPropertyAttribute
 	{

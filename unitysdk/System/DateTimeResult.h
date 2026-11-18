@@ -10,10 +10,10 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Globalization { class Calendar; }
 
-#define SYSTEM_DATETIMERESULT_INIT_OFFSET UNITYSDK_OFFSET(0x975BD0)
-#define SYSTEM_DATETIMERESULT_SETDATE_OFFSET UNITYSDK_OFFSET(0x586780)
-#define SYSTEM_DATETIMERESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x975C10)
-#define SYSTEM_DATETIMERESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x975C00)
+#define SYSTEM_DATETIMERESULT_INIT_OFFSET UNITYSDK_OFFSET(0x8B04C0)
+#define SYSTEM_DATETIMERESULT_SETDATE_OFFSET UNITYSDK_OFFSET(0x3D9940)
+#define SYSTEM_DATETIMERESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x8B0500)
+#define SYSTEM_DATETIMERESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x8B04F0)
 
 namespace System
 {
@@ -34,6 +34,7 @@ namespace System
 		::System::Globalization::Calendar* calendar; // 0x40
 		::System::DateTime parsedDate; // 0x48
 		::System::ParseFailureKind failure; // 0x50
+		::System::Byte _padding0[0x4];
 		::System::String* failureMessageID; // 0x58
 		::System::Object* failureMessageFormatArgument; // 0x60
 		::System::String* failureArgumentName; // 0x68

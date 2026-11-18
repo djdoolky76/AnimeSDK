@@ -5,21 +5,21 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NUMERICS_QUATERNION_CREATEFROMAXISANGLE_OFFSET UNITYSDK_OFFSET(0x1E994300)
-#define SYSTEM_NUMERICS_QUATERNION_CREATEFROMYAWPITCHROLL_OFFSET UNITYSDK_OFFSET(0x1E994380)
-#define SYSTEM_NUMERICS_QUATERNION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA46730)
-#define SYSTEM_NUMERICS_QUATERNION_EQUALS_OFFSET UNITYSDK_OFFSET(0xA0F500)
-#define SYSTEM_NUMERICS_QUATERNION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA467D0)
-#define SYSTEM_NUMERICS_QUATERNION_GET_IDENTITY_OFFSET UNITYSDK_OFFSET(0x1E994270)
-#define SYSTEM_NUMERICS_QUATERNION_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x1E9942B0)
-#define SYSTEM_NUMERICS_QUATERNION_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1E994640)
-#define SYSTEM_NUMERICS_QUATERNION_SLERP_OFFSET UNITYSDK_OFFSET(0x1E9944B0)
-#define SYSTEM_NUMERICS_QUATERNION_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA467C0)
-#define SYSTEM_NUMERICS_QUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x5E7E90)
+#define SYSTEM_NUMERICS_QUATERNION_CREATEFROMAXISANGLE_OFFSET UNITYSDK_OFFSET(0x1EC6C070)
+#define SYSTEM_NUMERICS_QUATERNION_CREATEFROMYAWPITCHROLL_OFFSET UNITYSDK_OFFSET(0x1EC6C0F0)
+#define SYSTEM_NUMERICS_QUATERNION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x923750)
+#define SYSTEM_NUMERICS_QUATERNION_EQUALS_OFFSET UNITYSDK_OFFSET(0x903430)
+#define SYSTEM_NUMERICS_QUATERNION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9237F0)
+#define SYSTEM_NUMERICS_QUATERNION_GET_IDENTITY_OFFSET UNITYSDK_OFFSET(0x1EC6BFE0)
+#define SYSTEM_NUMERICS_QUATERNION_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x1EC6C020)
+#define SYSTEM_NUMERICS_QUATERNION_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1EC6C3B0)
+#define SYSTEM_NUMERICS_QUATERNION_SLERP_OFFSET UNITYSDK_OFFSET(0x1EC6C220)
+#define SYSTEM_NUMERICS_QUATERNION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9237E0)
+#define SYSTEM_NUMERICS_QUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x759E10)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Quaternion_TypeDefinitionIndex = 6382;
+	inline static constexpr unsigned int Quaternion_TypeDefinitionIndex = 6388;
 
 	struct alignas(4) Quaternion
 	{
@@ -33,15 +33,19 @@ namespace System::Numerics
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION__CTOR_OFFSET))(this, x, y, z, w);
 		}
 
+		/*
 		static ::System::Numerics::Quaternion get_Identity()
 		{
 			return ((::System::Numerics::Quaternion(*)())((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_GET_IDENTITY_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::System::Numerics::Quaternion Normalize(::System::Numerics::Quaternion value)
 		{
 			return ((::System::Numerics::Quaternion(*)(::System::Numerics::Quaternion))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_NORMALIZE_OFFSET))(value);
 		}
+		*/
 
 		/*
 		static ::System::Numerics::Quaternion CreateFromAxisAngle(::System::Numerics::Vector3 axis, ::System::Single angle)
@@ -50,25 +54,33 @@ namespace System::Numerics
 		}
 		*/
 
+		/*
 		static ::System::Numerics::Quaternion CreateFromYawPitchRoll(::System::Single yaw, ::System::Single pitch, ::System::Single roll)
 		{
 			return ((::System::Numerics::Quaternion(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_CREATEFROMYAWPITCHROLL_OFFSET))(yaw, pitch, roll);
 		}
+		*/
 
+		/*
 		static ::System::Numerics::Quaternion Slerp(::System::Numerics::Quaternion quaternion1, ::System::Numerics::Quaternion quaternion2, ::System::Single amount)
 		{
 			return ((::System::Numerics::Quaternion(*)(::System::Numerics::Quaternion, ::System::Numerics::Quaternion, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_SLERP_OFFSET))(quaternion1, quaternion2, amount);
 		}
+		*/
 
+		/*
 		static ::System::Numerics::Quaternion op_Multiply(::System::Numerics::Quaternion value1, ::System::Numerics::Quaternion value2)
 		{
 			return ((::System::Numerics::Quaternion(*)(::System::Numerics::Quaternion, ::System::Numerics::Quaternion))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_OP_MULTIPLY_OFFSET))(value1, value2);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::System::Numerics::Quaternion other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Numerics::Quaternion))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{

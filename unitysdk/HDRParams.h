@@ -2,24 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define HDRPARAMS_START_OFFSET UNITYSDK_OFFSET(0x12BABB20)
-#define HDRPARAMS_UPDATE_OFFSET UNITYSDK_OFFSET(0x12BABB70)
-#define HDRPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x12BABBC0)
-#define HDRPARAMS__SETPARAM_OFFSET UNITYSDK_OFFSET(0x12BABA10)
+#define HDRPARAMS_START_OFFSET UNITYSDK_OFFSET(0x14941530)
+#define HDRPARAMS_UPDATE_OFFSET UNITYSDK_OFFSET(0x14941580)
+#define HDRPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x149415D0)
+#define HDRPARAMS__SETPARAM_OFFSET UNITYSDK_OFFSET(0x14941420)
 
-inline static constexpr unsigned int HDRParams_TypeDefinitionIndex = 48136;
+inline static constexpr unsigned int HDRParams_TypeDefinitionIndex = 88311;
 
 class HDRParams : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::Single colorGamutExpand; // 0x18
 	::System::Boolean useRGBA16F; // 0x1C
+	::System::Byte _padding0[0x3];
 	::System::Single scenePaperWhite; // 0x20
 	::System::Single uiPaperWhite; // 0x24
 	::System::Single maxLuminosity; // 0x28
 	::System::Boolean enableHueShift; // 0x2C
 	::System::Boolean enableSceneHDR; // 0x2D
 	::System::Boolean enableAvatarHDR; // 0x2E
+	::System::Byte _padding1[0x1];
 	::System::Single HueShiftLerpThreshold; // 0x30
 	::System::Single HueShiftLerpRange; // 0x34
 

@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-#include "unitysdk/System/TimeSpan.h"
 #include "unitysdk/UniLabs/Time/TimeUnit.h"
+#include "unitysdk/System/TimeSpan.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNILABS_TIME_TIMEUNITEXTENSIONS_WITHUNITVALUEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FBBA290)
-#define UNILABS_TIME_TIMEUNITEXTENSIONS_WITHUNITVALUEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FBBA340)
-#define UNILABS_TIME_TIMEUNITEXTENSIONS_WITHUNITVALUEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FBB9F40)
-#define UNILABS_TIME_TIMEUNITEXTENSIONS_WITHUNITVALUEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBB9F20)
+#define UNILABS_TIME_TIMEUNITEXTENSIONS_WITHUNITVALUEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FFBCDD0)
+#define UNILABS_TIME_TIMEUNITEXTENSIONS_WITHUNITVALUEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FFBCE80)
+#define UNILABS_TIME_TIMEUNITEXTENSIONS_WITHUNITVALUEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FFBCA80)
+#define UNILABS_TIME_TIMEUNITEXTENSIONS_WITHUNITVALUEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFBCA70)
 
 namespace UniLabs::Time
 {
-	inline static constexpr unsigned int TimeUnitExtensions_WithUnitValueDelegate_TypeDefinitionIndex = 95332;
+	inline static constexpr unsigned int TimeUnitExtensions_WithUnitValueDelegate_TypeDefinitionIndex = 96691;
 
 	class TimeUnitExtensions_WithUnitValueDelegate : public ::System::MulticastDelegate
 	{

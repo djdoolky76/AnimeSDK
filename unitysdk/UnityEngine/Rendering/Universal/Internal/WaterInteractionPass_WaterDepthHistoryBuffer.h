@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 #include "unitysdk/UnityEngine/RenderTextureFormat.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 
 namespace UnityEngine { class RenderTexture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_WATERDEPTHHISTORYBUFFER_COPYPINGPONG_OFFSET UNITYSDK_OFFSET(0x1E262890)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_WATERDEPTHHISTORYBUFFER_PINGPONG_OFFSET UNITYSDK_OFFSET(0x1E262AB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_WATERDEPTHHISTORYBUFFER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1E261FD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_WATERDEPTHHISTORYBUFFER_RELOCATEIFNEEDED_1_OFFSET UNITYSDK_OFFSET(0x1E2640E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_WATERDEPTHHISTORYBUFFER_RELOCATEIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1E262CD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_WATERDEPTHHISTORYBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E261DF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_WATERDEPTHHISTORYBUFFER_COPYPINGPONG_OFFSET UNITYSDK_OFFSET(0x1E3800D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_WATERDEPTHHISTORYBUFFER_PINGPONG_OFFSET UNITYSDK_OFFSET(0x1E3802F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_WATERDEPTHHISTORYBUFFER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1E37F810)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_WATERDEPTHHISTORYBUFFER_RELOCATEIFNEEDED_1_OFFSET UNITYSDK_OFFSET(0x1E381920)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_WATERDEPTHHISTORYBUFFER_RELOCATEIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1E380510)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_WATERINTERACTIONPASS_WATERDEPTHHISTORYBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E37F630)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int WaterInteractionPass_WaterDepthHistoryBuffer_TypeDefinitionIndex = 26815;
+	inline static constexpr unsigned int WaterInteractionPass_WaterDepthHistoryBuffer_TypeDefinitionIndex = 26635;
 
 	class WaterInteractionPass_WaterDepthHistoryBuffer : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::RenderTexture*>* activeHeightMap; // 0x10
-		::UnityEngine::RenderTexture* WaterHeightMap3; // 0x18
-		::UnityEngine::RenderTexture* tempHeightMap; // 0x20
-		::UnityEngine::RenderTexture* WaterInteractionObjectDepthTexture; // 0x28
+		::UnityEngine::RenderTexture* WaterInteractionObjectDepthTexture; // 0x10
+		::UnityEngine::RenderTexture* WaterHeightMap1; // 0x18
+		::UnityEngine::RenderTexture* WaterHeightMap3; // 0x20
+		::UnityEngine::RenderTexture* tempHeightMap; // 0x28
 		::UnityEngine::RenderTexture* WaterHeightMap2; // 0x30
-		::UnityEngine::RenderTexture* DynamicDepthTexture; // 0x38
-		::UnityEngine::RenderTexture* WaterHeightMap1; // 0x40
-		::UnityEngine::RenderTexture* WaterHeightMap0; // 0x48
-		::UnityEngine::RenderTexture* StaticDepthTexture; // 0x50
+		::UnityEngine::RenderTexture* StaticDepthTexture; // 0x38
+		::UnityEngine::RenderTexture* WaterHeightMap0; // 0x40
+		::UnityEngine::RenderTexture* DynamicDepthTexture; // 0x48
+		::Il2CppArray<::UnityEngine::RenderTexture*>* activeHeightMap; // 0x50
 
 		::System::Void _ctor()
 		{

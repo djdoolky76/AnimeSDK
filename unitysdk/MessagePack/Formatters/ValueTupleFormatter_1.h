@@ -1,17 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
-#include "unitysdk/MessagePack/MessagePackWriter.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_1.h"
-
-namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ValueTupleFormatter_1_TypeDefinitionIndex = 31458;
+	inline static constexpr unsigned int ValueTupleFormatter_1_TypeDefinitionIndex = 30185;
 
-	template <typename T1>
+	template <typename T>
 	class ValueTupleFormatter_1 : public ::System::Object
 	{
 	public:

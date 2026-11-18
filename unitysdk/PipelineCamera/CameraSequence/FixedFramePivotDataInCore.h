@@ -1,44 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/FName.h"
+#include "unitysdk/PipelineCamera/CameraSequence/FramePivotInCore_DataProvider.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
 #include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceVariableCollector.h"
 #include "unitysdk/PipelineCamera/CameraSequence/FramePivotDataInCore.h"
-#include "unitysdk/PipelineCamera/CameraSequence/FramePivotInCore_DataProvider.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EC2AE50)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_FETCH_FIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x1EC2AFF0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_FETCH_OFFSET_OFFSET UNITYSDK_OFFSET(0x1EC2B150)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_FETCH_RADIUS_OFFSET UNITYSDK_OFFSET(0x1EC2B0A0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1EC2B200)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1EC2B4F0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1EC2ADB0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC2B520)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC2B500)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B5D0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1EC2B6C0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EFF6DF0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_FETCH_FIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x1EFF6F90)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_FETCH_OFFSET_OFFSET UNITYSDK_OFFSET(0x1EFF70F0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_FETCH_RADIUS_OFFSET UNITYSDK_OFFSET(0x1EFF7040)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1EFF71A0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_GET_ISCONTEXTDEPENDENT_OFFSET UNITYSDK_OFFSET(0x1EFF7490)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1EFF6D50)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFF74C0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF74A0)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE___BASE_COLLECTVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EFF7570)
+#define PIPELINECAMERA_CAMERASEQUENCE_FIXEDFRAMEPIVOTDATAINCORE___BASE_SETPATH_OFFSET UNITYSDK_OFFSET(0x1EFF7660)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FixedFramePivotDataInCore_TypeDefinitionIndex = 38632;
+	inline static constexpr unsigned int FixedFramePivotDataInCore_TypeDefinitionIndex = 36632;
 
 	class FixedFramePivotDataInCore : public ::PipelineCamera::CameraSequence::FramePivotInCore_DataProvider
 	{
 	public:
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_offset()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedFramePivotDataInCore_TypeDefinitionIndex)->GetStaticField(0x8E00);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedFramePivotDataInCore_TypeDefinitionIndex)->GetStaticField(0x9290);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_fieldOfView()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedFramePivotDataInCore_TypeDefinitionIndex)->GetStaticField(0x8E08);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedFramePivotDataInCore_TypeDefinitionIndex)->GetStaticField(0x9298);
 		}
 		static ::Foundation::Unreal::FName* StaticGet___some_prefix_to_avoid_conflict_radius()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedFramePivotDataInCore_TypeDefinitionIndex)->GetStaticField(0x8E10);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(FixedFramePivotDataInCore_TypeDefinitionIndex)->GetStaticField(0x92A0);
 		}
 		::System::Single fieldOfView; // 0x40
 		::System::Single radius; // 0x44

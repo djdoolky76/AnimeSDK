@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_ABYSSS2_RUNTIMENCONFIGMETA_ISVALID_OFFSET UNITYSDK_OFFSET(0x84A5A0)
+#define MOLEMOLE_ABYSSS2_RUNTIMENCONFIGMETA_ISVALID_OFFSET UNITYSDK_OFFSET(0x785A80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_RuntimenConfigMeta_TypeDefinitionIndex = 87607;
+	inline static constexpr unsigned int AbyssS2_RuntimenConfigMeta_TypeDefinitionIndex = 93056;
 
 	struct alignas(4) AbyssS2_RuntimenConfigMeta
 	{

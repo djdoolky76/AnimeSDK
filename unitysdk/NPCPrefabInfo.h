@@ -11,10 +11,10 @@ namespace NPCCrowd::Accessories { class NPCSlotAccessoryInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCPREFABINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x13DF6590)
-#define NPCPREFABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x13DF62A0)
+#define NPCPREFABINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0xE0DA0E0)
+#define NPCPREFABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE0D9DF0)
 
-inline static constexpr unsigned int NPCPrefabInfo_TypeDefinitionIndex = 89605;
+inline static constexpr unsigned int NPCPrefabInfo_TypeDefinitionIndex = 86013;
 
 class NPCPrefabInfo : public ::System::Object
 {
@@ -23,6 +23,7 @@ public:
 	::ENPCAvatarGender Gender; // 0x18
 	::ENPCAvatarSize Size; // 0x1C
 	::System::Int32 Id; // 0x20
+	::System::Byte _padding0[0x4];
 	::System::String* Note; // 0x28
 	::System::Collections::Generic::List_1<::System::Int32>* logicTags; // 0x30
 	::Foundation::Unreal::SerializableGameplayTagContainer* gameplayTags; // 0x38

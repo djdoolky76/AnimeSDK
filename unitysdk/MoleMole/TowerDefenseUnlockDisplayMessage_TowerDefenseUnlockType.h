@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TowerDefenseUnlockDisplayMessage_TowerDefenseUnlockType_TypeDefinitionIndex = 70284;
+	inline static constexpr unsigned int TowerDefenseUnlockDisplayMessage_TowerDefenseUnlockType_TypeDefinitionIndex = 44258;
 
 	enum class TowerDefenseUnlockDisplayMessage_TowerDefenseUnlockType : ::System::Int32
 	{
-		Buddy = 0,
 		Enhance = 1,
+		Buddy = 0,
 	};
 }

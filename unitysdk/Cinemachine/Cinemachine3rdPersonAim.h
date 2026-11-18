@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/Cinemachine/CinemachineExtension.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
+#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace Cinemachine { class CinemachineBrain; }
@@ -12,24 +12,26 @@ namespace Cinemachine { class ICinemachineCamera; }
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_DRAWRETICLE_OFFSET UNITYSDK_OFFSET(0x1F943DA0)
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_GETLOOKATPOINT_OFFSET UNITYSDK_OFFSET(0x1F944470)
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x1F943C50)
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F943C00)
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1F944BB0)
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_RESET_OFFSET UNITYSDK_OFFSET(0x1F943C20)
-#define CINEMACHINE_CINEMACHINE3RDPERSONAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1F944C90)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_DRAWRETICLE_OFFSET UNITYSDK_OFFSET(0x1FD42E10)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_GETLOOKATPOINT_OFFSET UNITYSDK_OFFSET(0x1FD434E0)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x1FD42CC0)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1FD42C70)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1FD43C20)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_RESET_OFFSET UNITYSDK_OFFSET(0x1FD42C90)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD43D00)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int Cinemachine3rdPersonAim_TypeDefinitionIndex = 34640;
+	inline static constexpr unsigned int Cinemachine3rdPersonAim_TypeDefinitionIndex = 34186;
 
 	class Cinemachine3rdPersonAim : public ::Cinemachine::CinemachineExtension
 	{
 	public:
 		::UnityEngine::LayerMask AimCollisionFilter; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::String* IgnoreTag; // 0x30
 		::System::Single AimDistance; // 0x38
+		::System::Byte _padding1[0x4];
 		::UnityEngine::RectTransform* AimTargetReticle; // 0x40
 
 		::System::Void _ctor()

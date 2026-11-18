@@ -4,10 +4,10 @@
 
 namespace NPCCrowd::Jobs
 {
-	inline static constexpr unsigned int IChunkJobParallelForExtensions_ParallelForJobStruct_1_TypeDefinitionIndex = 8508;
+	inline static constexpr unsigned int IChunkJobParallelForExtensions_ParallelForJobStruct_1_TypeDefinitionIndex = 9006;
 
 	template <typename T>
-	struct IChunkJobParallelForExtensions_ParallelForJobStruct_1
+	struct alignas(4) IChunkJobParallelForExtensions_ParallelForJobStruct_1
 	{
 		static ::System::IntPtr* StaticGet_jobReflectionData()
 		{

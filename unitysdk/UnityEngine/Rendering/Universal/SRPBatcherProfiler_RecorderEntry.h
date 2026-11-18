@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine::Profiling { class Recorder; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_RECORDERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E670DE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SRPBATCHERPROFILER_RECORDERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F48D0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int SRPBatcherProfiler_RecorderEntry_TypeDefinitionIndex = 27757;
+	inline static constexpr unsigned int SRPBatcherProfiler_RecorderEntry_TypeDefinitionIndex = 26632;
 
 	class SRPBatcherProfiler_RecorderEntry : public ::System::Object
 	{

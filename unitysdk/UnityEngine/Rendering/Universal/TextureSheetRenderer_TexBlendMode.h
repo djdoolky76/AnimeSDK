@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int TextureSheetRenderer_TexBlendMode_TypeDefinitionIndex = 27354;
+	inline static constexpr unsigned int TextureSheetRenderer_TexBlendMode_TypeDefinitionIndex = 27031;
 
 	enum class TextureSheetRenderer_TexBlendMode : ::System::Int32
 	{

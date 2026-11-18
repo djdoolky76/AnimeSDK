@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int FanCollisionWithHeightDetect_FanFollowAtkDirType_TypeDefinitionIndex = 90129;
+	inline static constexpr unsigned int FanCollisionWithHeightDetect_FanFollowAtkDirType_TypeDefinitionIndex = 63584;
 
 	enum class FanCollisionWithHeightDetect_FanFollowAtkDirType : ::System::Int32
 	{
-		FollowAtk = 1,
 		NormalFan = 0,
+		FollowAtk = 1,
 		ReverseFollowAtk = 2,
 	};
 }

@@ -1,20 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/InputSystem/Key.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/QueryKeyNameCommand__nameBuffer_e__FixedBuffer.h"
+#include "unitysdk/UnityEngine/InputSystem/Key.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYKEYNAMECOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1F16BDE0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYKEYNAMECOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0xA93A80)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYKEYNAMECOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F16BD90)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYKEYNAMECOMMAND_READKEYNAME_OFFSET UNITYSDK_OFFSET(0xA93A50)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYKEYNAMECOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1F571390)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYKEYNAMECOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x97B080)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYKEYNAMECOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1F571340)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYKEYNAMECOMMAND_READKEYNAME_OFFSET UNITYSDK_OFFSET(0x97B050)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int QueryKeyNameCommand_TypeDefinitionIndex = 32476;
+	inline static constexpr unsigned int QueryKeyNameCommand_TypeDefinitionIndex = 31925;
 
 	struct alignas(4) QueryKeyNameCommand
 	{
@@ -24,28 +25,26 @@ namespace UnityEngine::InputSystem::LowLevel
 		::System::Int32 scanOrKeyCode; // 0x18
 		::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand__nameBuffer_e__FixedBuffer nameBuffer; // 0x1C
 
-		/*
 		static ::UnityEngine::InputSystem::Utilities::FourCC get_Type()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYKEYNAMECOMMAND_GET_TYPE_OFFSET))();
 		}
-		*/
 
 		::System::String* ReadKeyName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYKEYNAMECOMMAND_READKEYNAME_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYKEYNAMECOMMAND_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand Create(::UnityEngine::InputSystem::Key key)
 		{
 			return ((::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand(*)(::UnityEngine::InputSystem::Key))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_QUERYKEYNAMECOMMAND_CREATE_OFFSET))(key);
 		}
+		*/
 	};
 }

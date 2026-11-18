@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int TypeDescriptor_IUnimplemented_TypeDefinitionIndex = 3001;
+	inline static constexpr unsigned int TypeDescriptor_IUnimplemented_TypeDefinitionIndex = 3000;
 
 	class TypeDescriptor_IUnimplemented
 	{

@@ -12,29 +12,29 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_BEHAVIOURTREES_GUARD_AGENTGUARDS_OFFSET UNITYSDK_OFFSET(0x1E72B360)
-#define NODECANVAS_BEHAVIOURTREES_GUARD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E72BCC0)
-#define NODECANVAS_BEHAVIOURTREES_GUARD_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1E72B400)
-#define NODECANVAS_BEHAVIOURTREES_GUARD_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1E72B7D0)
-#define NODECANVAS_BEHAVIOURTREES_GUARD_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E72C1B0)
-#define NODECANVAS_BEHAVIOURTREES_GUARD_SETGUARDS_OFFSET UNITYSDK_OFFSET(0x1E72B420)
-#define NODECANVAS_BEHAVIOURTREES_GUARD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E72C1D0)
-#define NODECANVAS_BEHAVIOURTREES_GUARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1E72C1C0)
+#define NODECANVAS_BEHAVIOURTREES_GUARD_AGENTGUARDS_OFFSET UNITYSDK_OFFSET(0x1E9D0650)
+#define NODECANVAS_BEHAVIOURTREES_GUARD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E9D0FB0)
+#define NODECANVAS_BEHAVIOURTREES_GUARD_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1E9D06F0)
+#define NODECANVAS_BEHAVIOURTREES_GUARD_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1E9D0AC0)
+#define NODECANVAS_BEHAVIOURTREES_GUARD_ONRESET_OFFSET UNITYSDK_OFFSET(0x1E9D14A0)
+#define NODECANVAS_BEHAVIOURTREES_GUARD_SETGUARDS_OFFSET UNITYSDK_OFFSET(0x1E9D0710)
+#define NODECANVAS_BEHAVIOURTREES_GUARD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9D14C0)
+#define NODECANVAS_BEHAVIOURTREES_GUARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D14B0)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Guard_TypeDefinitionIndex = 29798;
+	inline static constexpr unsigned int Guard_TypeDefinitionIndex = 29267;
 
 	class Guard : public ::NodeCanvas::BehaviourTrees::BTDecorator
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::NodeCanvas::BehaviourTrees::Guard*>*>** StaticGet_guards()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::NodeCanvas::BehaviourTrees::Guard*>*>**)Il2CppClass::FromTypeDefinitionIndex(Guard_TypeDefinitionIndex)->GetStaticField(0x260D0);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::NodeCanvas::BehaviourTrees::Guard*>*>**)Il2CppClass::FromTypeDefinitionIndex(Guard_TypeDefinitionIndex)->GetStaticField(0x27160);
 		}
 		::NodeCanvas::Framework::BBParameter_1<::System::String*>* token; // 0x78
-		::System::Boolean isGuarding; // 0x80
-		::NodeCanvas::BehaviourTrees::Guard_GuardMode ifGuarded; // 0x84
+		::NodeCanvas::BehaviourTrees::Guard_GuardMode ifGuarded; // 0x80
+		::System::Boolean isGuarding; // 0x84
 
 		::System::Void _ctor()
 		{

@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIBMJLOJLKD.h"
+
+class GCIMMDDIFBJ;
+class HNLACBJDCGI;
+namespace MoleMole { class UIAutoBattleEquipIconWidgetController; }
+namespace MoleMole { class UIControlCollection; }
+template <typename T> class MEKABAIJMNM_1;
+
+#define HNHEIGGAFND_NEAPIBFOGHH_CJBFCLMFDOM_OFFSET UNITYSDK_OFFSET(0x16CFF5A0)
+#define HNHEIGGAFND_NEAPIBFOGHH_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x16CFF500)
+#define HNHEIGGAFND_NEAPIBFOGHH_HMKLNMNDEMA_OFFSET UNITYSDK_OFFSET(0x16CFF5C0)
+#define HNHEIGGAFND_NEAPIBFOGHH_IIKDJHLGGIL_OFFSET UNITYSDK_OFFSET(0x16CFF5D0)
+#define HNHEIGGAFND_NEAPIBFOGHH_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x16CFF470)
+#define HNHEIGGAFND_NEAPIBFOGHH_MLNBHGAAHAK_OFFSET UNITYSDK_OFFSET(0x16CFF5B0)
+#define HNHEIGGAFND_NEAPIBFOGHH_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x16CFF2F0)
+#define HNHEIGGAFND_NEAPIBFOGHH__CTOR_OFFSET UNITYSDK_OFFSET(0x16CFF4F0)
+
+inline static constexpr unsigned int HNHEIGGAFND_NEAPIBFOGHH_TypeDefinitionIndex = 84040;
+
+class HNHEIGGAFND_NEAPIBFOGHH : public ::GIBMJLOJLKD
+{
+public:
+	::MEKABAIJMNM_1<::MoleMole::UIAutoBattleEquipIconWidgetController*>* _OGMKLNGKKNN_k__BackingField; // 0x18
+	::GCIMMDDIFBJ* _DEJNOJBAFDE_k__BackingField; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HNHEIGGAFND_NEAPIBFOGHH__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + HNHEIGGAFND_NEAPIBFOGHH_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::System::Void ECNOGHHOPPF(::HNLACBJDCGI* MIALFKCCCPI, ::MoleMole::UIControlCollection* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + HNHEIGGAFND_NEAPIBFOGHH_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+
+	::GCIMMDDIFBJ* CJBFCLMFDOM()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + HNHEIGGAFND_NEAPIBFOGHH_CJBFCLMFDOM_OFFSET))(this);
+	}
+
+	::MEKABAIJMNM_1<::MoleMole::UIAutoBattleEquipIconWidgetController*>* MLNBHGAAHAK()
+	{
+		return ((::MEKABAIJMNM_1<::MoleMole::UIAutoBattleEquipIconWidgetController*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HNHEIGGAFND_NEAPIBFOGHH_MLNBHGAAHAK_OFFSET))(this);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HNHEIGGAFND_NEAPIBFOGHH_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::System::Void HMKLNMNDEMA(::MEKABAIJMNM_1<::MoleMole::UIAutoBattleEquipIconWidgetController*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MEKABAIJMNM_1<::MoleMole::UIAutoBattleEquipIconWidgetController*>*))((::PBYTE)hIl2Cpp + HNHEIGGAFND_NEAPIBFOGHH_HMKLNMNDEMA_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void IIKDJHLGGIL(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + HNHEIGGAFND_NEAPIBFOGHH_IIKDJHLGGIL_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

@@ -4,7 +4,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigViewObjectMisc_ZKReward_TypeDefinitionIndex = 91057;
+	inline static constexpr unsigned int ConfigViewObjectMisc_ZKReward_TypeDefinitionIndex = 52551;
 
 	struct alignas(4) ConfigViewObjectMisc_ZKReward
 	{

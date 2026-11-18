@@ -5,19 +5,19 @@
 namespace MoleMole { class UIABInLevelCampInfoWidgetController; }
 namespace MoleMole { class UIABInLevelGeneralWidgetController; }
 
-#define MOLEMOLE_UIABINLEVELGENERALWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19747510)
-#define MOLEMOLE_UIABINLEVELGENERALWIDGETCONTROLLER___C__DISPLAYCLASS21_0__TOGGLECAMPINFO_B__1_OFFSET UNITYSDK_OFFSET(0x19747520)
+#define MOLEMOLE_UIABINLEVELGENERALWIDGETCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BEED0)
+#define MOLEMOLE_UIABINLEVELGENERALWIDGETCONTROLLER___C__DISPLAYCLASS21_0__TOGGLECAMPINFO_B__1_OFFSET UNITYSDK_OFFSET(0x1A0BEEE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIABInLevelGeneralWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 68008;
+	inline static constexpr unsigned int UIABInLevelGeneralWidgetController___c__DisplayClass21_0_TypeDefinitionIndex = 86032;
 
 	class UIABInLevelGeneralWidgetController___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIABInLevelGeneralWidgetController* __4__this; // 0x10
-		::System::Boolean isAdd; // 0x18
-		::System::Int32 campId; // 0x1C
+		::System::Int32 campId; // 0x18
+		::System::Boolean isAdd; // 0x1C
 
 		::System::Void _ctor()
 		{

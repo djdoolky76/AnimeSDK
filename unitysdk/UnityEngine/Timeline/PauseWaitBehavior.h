@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 namespace UnityEngine::Timeline { class PauseWaitInfo; }
 
-#define UNITYENGINE_TIMELINE_PAUSEWAITBEHAVIOR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1F3AC7F0)
-#define UNITYENGINE_TIMELINE_PAUSEWAITBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3AC9B0)
+#define UNITYENGINE_TIMELINE_PAUSEWAITBEHAVIOR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1F6E85F0)
+#define UNITYENGINE_TIMELINE_PAUSEWAITBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6E87B0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int PauseWaitBehavior_TypeDefinitionIndex = 32969;
+	inline static constexpr unsigned int PauseWaitBehavior_TypeDefinitionIndex = 32424;
 
 	class PauseWaitBehavior : public ::UnityEngine::Playables::PlayableBehaviour
 	{

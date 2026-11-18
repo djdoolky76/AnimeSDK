@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_197;
+class EIOKLKEJAME;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1B4DA0E0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x1B4DA0A0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG_METHOD_1_9F141027EF20D345_OFFSET UNITYSDK_OFFSET(0x1B4DA360)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4DA410)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12783640)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG_GCHDLMPKEKM_OFFSET UNITYSDK_OFFSET(0x127838C0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x12783600)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG__CTOR_OFFSET UNITYSDK_OFFSET(0x12783970)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_SceneTag_TypeDefinitionIndex = 56640;
+	inline static constexpr unsigned int ConfigSoundActionTriggerCondition_SceneTag_TypeDefinitionIndex = 82456;
 
 	class ConfigSoundActionTriggerCondition_SceneTag : public ::System::Object
 	{
@@ -31,14 +31,14 @@ namespace MoleMole::Config
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG_GET_INSPECTORLABEL_OFFSET))(this);
 		}
 
-		::System::Boolean Evaluate(::Class_0_16E4307DCC419505_197* a1)
+		::System::Boolean Evaluate(::EIOKLKEJAME* AAOCANGHBDG)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_197*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG_EVALUATE_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::EIOKLKEJAME*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG_EVALUATE_OFFSET))(this, AAOCANGHBDG);
 		}
 
-		static ::System::Boolean Method_1_9F141027EF20D345(::System::Collections::Generic::HashSet_1<::System::String*>* a1, ::System::Collections::Generic::HashSet_1<::System::String*>* a2, ::System::String* a3)
+		static ::System::Boolean GCHDLMPKEKM(::System::Collections::Generic::HashSet_1<::System::String*>* AFLNCCHFFNI, ::System::Collections::Generic::HashSet_1<::System::String*>* LDDDCANBLBD, ::System::String* IMLLDOHDCNC)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::HashSet_1<::System::String*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG_METHOD_1_9F141027EF20D345_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Collections::Generic::HashSet_1<::System::String*>*, ::System::Collections::Generic::HashSet_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTIONTRIGGERCONDITION_SCENETAG_GCHDLMPKEKM_OFFSET))(AFLNCCHFFNI, LDDDCANBLBD, IMLLDOHDCNC);
 		}
 	};
 }

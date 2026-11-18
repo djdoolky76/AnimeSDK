@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int MarkFeature_MarkSegment_TypeDefinitionIndex = 90138;
+	inline static constexpr unsigned int MarkFeature_MarkSegment_TypeDefinitionIndex = 70591;
 
 	struct alignas(4) MarkFeature_MarkSegment
 	{

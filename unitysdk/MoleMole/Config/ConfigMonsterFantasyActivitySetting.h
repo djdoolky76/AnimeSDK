@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/ConfigSubSystemSettingBase.h"
 #include "unitysdk/MoleMole/ESystemSettingType.h"
 
-#define MOLEMOLE_CONFIG_CONFIGMONSTERFANTASYACTIVITYSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x16C46FD0)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERFANTASYACTIVITYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16C46FE0)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERFANTASYACTIVITYSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x1A032770)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERFANTASYACTIVITYSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A032780)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMonsterFantasyActivitySetting_TypeDefinitionIndex = 90705;
+	inline static constexpr unsigned int ConfigMonsterFantasyActivitySetting_TypeDefinitionIndex = 76767;
 
 	class ConfigMonsterFantasyActivitySetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{

@@ -3,23 +3,23 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EQuestStatisticsType_TypeDefinitionIndex = 9400;
+	inline static constexpr unsigned int EQuestStatisticsType_TypeDefinitionIndex = 10104;
 
 	enum class EQuestStatisticsType : ::System::Byte
 	{
-		KilledEnemyCount = 0x4,
-		EnumEnd = 0x64,
-		FinishedEventTypeCount = 0x9,
-		TotalCoinUse = 0xE,
-		BangBooDreamLayer = 0x63,
-		ArrivedLevel = 0x1,
-		CostTime = 0x3,
-		RebornTimes = 0x8,
-		ArcanaCount = 0x5,
-		StaminaOverLevelTimes = 0x7,
-		FinishedEventIDCount = 0xA,
-		EventCount = 0x2,
-		TarotCardCount = 0x6,
-		EnumBegin = 0x1,
+		CostTime = 3,
+		ArrivedLevel = 1,
+		RebornTimes = 8,
+		TotalCoinUse = 14,
+		EventCount = 2,
+		FinishedEventTypeCount = 9,
+		FinishedEventIDCount = 10,
+		EnumBegin = 1,
+		ArcanaCount = 5,
+		StaminaOverLevelTimes = 7,
+		BangBooDreamLayer = 99,
+		TarotCardCount = 6,
+		EnumEnd = 100,
+		KilledEnemyCount = 4,
 	};
 }

@@ -2,54 +2,54 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
-class Class_3_1699D6295DC3F818_1;
+class HGAJKHIMKJP;
+class PLDJFGCHMKK;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x196E3B20)
-#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x196E3B60)
-#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__ONUIINIT_B__11_1_OFFSET UNITYSDK_OFFSET(0x196E3B70)
-#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__ONUIINIT_B__11_2_OFFSET UNITYSDK_OFFSET(0x196E3BF0)
-#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__ONUIINIT_B__11_3_OFFSET UNITYSDK_OFFSET(0x196E3C70)
-#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__REFRESHAVATARREWARD_B__27_2_OFFSET UNITYSDK_OFFSET(0x196E3EB0)
-#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__REFRESHWEAPONREWARD_B__26_2_OFFSET UNITYSDK_OFFSET(0x196E3DD0)
-#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__REFRESHWEAPONREWARD_B__26_3_OFFSET UNITYSDK_OFFSET(0x196E3DE0)
+#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F85E00)
+#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19F85E40)
+#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__ONUIINIT_B__11_1_OFFSET UNITYSDK_OFFSET(0x19F85E50)
+#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__ONUIINIT_B__11_2_OFFSET UNITYSDK_OFFSET(0x19F85ED0)
+#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__ONUIINIT_B__11_3_OFFSET UNITYSDK_OFFSET(0x19F85F50)
+#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__REFRESHAVATARREWARD_B__27_2_OFFSET UNITYSDK_OFFSET(0x19F86190)
+#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__REFRESHWEAPONREWARD_B__26_2_OFFSET UNITYSDK_OFFSET(0x19F860B0)
+#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__REFRESHWEAPONREWARD_B__26_3_OFFSET UNITYSDK_OFFSET(0x19F860C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBigCatMainPageController___c_TypeDefinitionIndex = 82392;
+	inline static constexpr unsigned int UIActivityBigCatMainPageController___c_TypeDefinitionIndex = 67319;
 
 	class UIActivityBigCatMainPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_3_1699D6295DC3F818_1*, ::Class_1_0D6706375CDAAE8C*>** StaticGet___9__27_2()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_3_1699D6295DC3F818_1*, ::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x36940);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x38AE0);
 		}
-		static ::System::Func_2<::System::Int32, ::System::UInt32>** StaticGet___9__26_2()
+		static ::System::Func_2<::PLDJFGCHMKK*, ::HGAJKHIMKJP*>** StaticGet___9__26_3()
 		{
-			return (::System::Func_2<::System::Int32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x36948);
-		}
-		static ::System::Func_2<::Class_3_1699D6295DC3F818_1*, ::Class_1_0D6706375CDAAE8C*>** StaticGet___9__26_3()
-		{
-			return (::System::Func_2<::Class_3_1699D6295DC3F818_1*, ::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x36950);
-		}
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_1()
-		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x36958);
-		}
-		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_2()
-		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x36960);
+			return (::System::Func_2<::PLDJFGCHMKK*, ::HGAJKHIMKJP*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x38AE8);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_3()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x36968);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x38AF0);
 		}
-		static ::MoleMole::UIActivityBigCatMainPageController___c** StaticGet___9()
+		static ::System::Func_2<::System::Int32, ::System::UInt32>** StaticGet___9__26_2()
 		{
-			return (::MoleMole::UIActivityBigCatMainPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x36970);
+			return (::System::Func_2<::System::Int32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x38AF8);
+		}
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_1()
+		{
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x38B00);
+		}
+		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_2()
+		{
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x38B08);
+		}
+		static ::System::Func_2<::PLDJFGCHMKK*, ::HGAJKHIMKJP*>** StaticGet___9__27_2()
+		{
+			return (::System::Func_2<::PLDJFGCHMKK*, ::HGAJKHIMKJP*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityBigCatMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x38B10);
 		}
 
 		static ::System::Void _cctor()
@@ -82,14 +82,14 @@ namespace MoleMole
 			return ((::System::UInt32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__REFRESHWEAPONREWARD_B__26_2_OFFSET))(this, x);
 		}
 
-		::Class_1_0D6706375CDAAE8C* _RefreshWeaponReward_b__26_3(::Class_3_1699D6295DC3F818_1* item)
+		::HGAJKHIMKJP* _RefreshWeaponReward_b__26_3(::PLDJFGCHMKK* item)
 		{
-			return ((::Class_1_0D6706375CDAAE8C*(*)(::PVOID, ::Class_3_1699D6295DC3F818_1*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__REFRESHWEAPONREWARD_B__26_3_OFFSET))(this, item);
+			return ((::HGAJKHIMKJP*(*)(::PVOID, ::PLDJFGCHMKK*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__REFRESHWEAPONREWARD_B__26_3_OFFSET))(this, item);
 		}
 
-		::Class_1_0D6706375CDAAE8C* _RefreshAvatarReward_b__27_2(::Class_3_1699D6295DC3F818_1* item)
+		::HGAJKHIMKJP* _RefreshAvatarReward_b__27_2(::PLDJFGCHMKK* item)
 		{
-			return ((::Class_1_0D6706375CDAAE8C*(*)(::PVOID, ::Class_3_1699D6295DC3F818_1*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__REFRESHAVATARREWARD_B__27_2_OFFSET))(this, item);
+			return ((::HGAJKHIMKJP*(*)(::PVOID, ::PLDJFGCHMKK*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__REFRESHAVATARREWARD_B__27_2_OFFSET))(this, item);
 		}
 	};
 }

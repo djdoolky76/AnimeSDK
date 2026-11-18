@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define FOUNDATION_NAPSTRINGJOINSTYLE_GET_BRACKET_OFFSET UNITYSDK_OFFSET(0x1D9729F0)
-#define FOUNDATION_NAPSTRINGJOINSTYLE_GET_COMMA_OFFSET UNITYSDK_OFFSET(0x1D9729B0)
-#define FOUNDATION_NAPSTRINGJOINSTYLE_GET_NOSEPARATOR_OFFSET UNITYSDK_OFFSET(0x1D972A40)
-#define FOUNDATION_NAPSTRINGJOINSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x4DBD40)
+#define FOUNDATION_NAPSTRINGJOINSTYLE_GET_BRACKET_OFFSET UNITYSDK_OFFSET(0x1DB1A640)
+#define FOUNDATION_NAPSTRINGJOINSTYLE_GET_COMMA_OFFSET UNITYSDK_OFFSET(0x1DB1A600)
+#define FOUNDATION_NAPSTRINGJOINSTYLE_GET_NOSEPARATOR_OFFSET UNITYSDK_OFFSET(0x1DB1A690)
+#define FOUNDATION_NAPSTRINGJOINSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x3DDCF0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NapStringJoinStyle_TypeDefinitionIndex = 8139;
+	inline static constexpr unsigned int NapStringJoinStyle_TypeDefinitionIndex = 8446;
 
 	struct alignas(8) NapStringJoinStyle
 	{
@@ -24,19 +24,25 @@ namespace Foundation
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + FOUNDATION_NAPSTRINGJOINSTYLE__CTOR_OFFSET))(this, separator, prefix, suffix);
 		}
 
+		/*
 		static ::Foundation::NapStringJoinStyle get_Comma()
 		{
 			return ((::Foundation::NapStringJoinStyle(*)())((::PBYTE)hIl2Cpp + FOUNDATION_NAPSTRINGJOINSTYLE_GET_COMMA_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::Foundation::NapStringJoinStyle get_Bracket()
 		{
 			return ((::Foundation::NapStringJoinStyle(*)())((::PBYTE)hIl2Cpp + FOUNDATION_NAPSTRINGJOINSTYLE_GET_BRACKET_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::Foundation::NapStringJoinStyle get_NoSeparator()
 		{
 			return ((::Foundation::NapStringJoinStyle(*)())((::PBYTE)hIl2Cpp + FOUNDATION_NAPSTRINGJOINSTYLE_GET_NOSEPARATOR_OFFSET))();
 		}
+		*/
 	};
 }

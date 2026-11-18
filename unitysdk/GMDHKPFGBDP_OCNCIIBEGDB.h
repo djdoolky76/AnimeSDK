@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AHNHEANMAML;
+class EBEAAFHPBJG;
+class GMDHKPFGBDP;
+class GMDHKPFGBDP_OHCAOKJNFFD;
+class LLAKLLFJAAD;
+class MBJCLLBMALO;
+class OBKNEEOLOPB;
+class OFABBAJJIBL;
+namespace MoleMole::Config { class ConfigHollowChessboard; }
+
+#define GMDHKPFGBDP_OCNCIIBEGDB_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x10F08E70)
+#define GMDHKPFGBDP_OCNCIIBEGDB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x10F09450)
+#define GMDHKPFGBDP_OCNCIIBEGDB_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x10F094B0)
+#define GMDHKPFGBDP_OCNCIIBEGDB_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x10F09460)
+#define GMDHKPFGBDP_OCNCIIBEGDB_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10F08E60)
+#define GMDHKPFGBDP_OCNCIIBEGDB__CTOR_OFFSET UNITYSDK_OFFSET(0x10F08E50)
+
+inline static constexpr unsigned int GMDHKPFGBDP_OCNCIIBEGDB_TypeDefinitionIndex = 67928;
+
+class GMDHKPFGBDP_OCNCIIBEGDB : public ::System::Object
+{
+public:
+	::EBEAAFHPBJG* DKELJKPOHOC; // 0x10
+	::AHNHEANMAML* DMHKCLNEMHJ; // 0x18
+	::OBKNEEOLOPB* NJOEKLMFMLN; // 0x20
+	::MBJCLLBMALO* EFEBFFCEJEF; // 0x28
+	::GMDHKPFGBDP* KLHPEBKNIFB; // 0x30
+	::OFABBAJJIBL* IFILJGKPBGI; // 0x38
+	::MoleMole::Config::ConfigHollowChessboard* DNKHJOINLOC; // 0x40
+	::GMDHKPFGBDP_OHCAOKJNFFD* PGDOJBDJBOL; // 0x48
+	::LLAKLLFJAAD* IGCMCCAPHCI; // 0x50
+	::System::Single EAMDKJBHCCL; // 0x58
+	::System::Int32 MDPILDGFNHN; // 0x5C
+	::System::Single BAAGCJCFPFA; // 0x60
+	::System::Single IDBEJJEKGDI; // 0x64
+
+	::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GMDHKPFGBDP_OCNCIIBEGDB__CTOR_OFFSET))(this, MDPILDGFNHN);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GMDHKPFGBDP_OCNCIIBEGDB_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GMDHKPFGBDP_OCNCIIBEGDB_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Single System_Collections_Generic_IEnumerator_System_Single__get_Current()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + GMDHKPFGBDP_OCNCIIBEGDB_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GMDHKPFGBDP_OCNCIIBEGDB_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + GMDHKPFGBDP_OCNCIIBEGDB_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

@@ -4,12 +4,12 @@
 
 namespace ClipperLib { class IntersectNode; }
 
-#define CLIPPERLIB_MYINTERSECTNODESORT_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E3D7E30)
-#define CLIPPERLIB_MYINTERSECTNODESORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C54E0)
+#define CLIPPERLIB_MYINTERSECTNODESORT_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E61B070)
+#define CLIPPERLIB_MYINTERSECTNODESORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E608660)
 
 namespace ClipperLib
 {
-	inline static constexpr unsigned int MyIntersectNodeSort_TypeDefinitionIndex = 33417;
+	inline static constexpr unsigned int MyIntersectNodeSort_TypeDefinitionIndex = 32877;
 
 	class MyIntersectNodeSort : public ::System::Object
 	{

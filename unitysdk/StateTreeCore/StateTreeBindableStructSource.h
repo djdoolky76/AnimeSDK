@@ -3,16 +3,16 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeBindableStructSource_TypeDefinitionIndex = 31600;
+	inline static constexpr unsigned int StateTreeBindableStructSource_TypeDefinitionIndex = 31037;
 
 	enum class StateTreeBindableStructSource : ::System::Byte
 	{
-		Context = 0x0,
-		Parameter = 0x1,
-		Evaluator = 0x2,
-		GlobalTask = 0x3,
-		State = 0x4,
-		Task = 0x5,
-		Condition = 0x6,
+		Context = 0,
+		Parameter = 1,
+		Evaluator = 2,
+		GlobalTask = 3,
+		State = 4,
+		Task = 5,
+		Condition = 6,
 	};
 }

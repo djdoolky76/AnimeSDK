@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Dest/Math/Box3.h"
+#include "unitysdk/Dest/Math/Sphere3.h"
+#include "unitysdk/System/Object.h"
+
+class BAEDBIJINGO;
+namespace MoleMole { class SceneSoundObjDataItem; }
+
+#define MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_APPLYSYNCTOWWISE_OFFSET UNITYSDK_OFFSET(0x1044E180)
+#define MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_COKNIICCODC_OFFSET UNITYSDK_OFFSET(0x1044F4A0)
+#define MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_COMPUTESYNC_OFFSET UNITYSDK_OFFSET(0x1044D990)
+#define MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_INIT_OFFSET UNITYSDK_OFFSET(0x1044E5F0)
+#define MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_ONSYNC_OFFSET UNITYSDK_OFFSET(0x1044F280)
+#define MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_POLISH_OFFSET UNITYSDK_OFFSET(0x1044F300)
+#define MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_RECYCLE_OFFSET UNITYSDK_OFFSET(0x1044F380)
+#define MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1044F490)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int SceneSoundObjDataItem_FAADMNNFFIN_TypeDefinitionIndex = 75636;
+
+	class SceneSoundObjDataItem_FAADMNNFFIN : public ::System::Object
+	{
+	public:
+		::MoleMole::SceneSoundObjDataItem* DAAAEJDBNFI; // 0x10
+		::Dest::Math::Sphere3 AGGBEPDLDCO; // 0x18
+		::Dest::Math::Box3 CLFMJAFMONP; // 0x28
+		::System::Boolean CDGNEIOFAPJ; // 0x64
+		::System::Byte _padding0[0x3];
+		::System::UInt32 GFOPLDDFDIA; // 0x68
+		::Dest::Math::Sphere3 EEGLICAJOMA; // 0x6C
+		::Dest::Math::Box3 AAKNPMAONCK; // 0x7C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN__CTOR_OFFSET))(this);
+		}
+
+		::System::Void ComputeSync(::BAEDBIJINGO* MAHAOAIGPEH, ::System::Single PMNLNNGEIFM)
+		{
+			return ((::System::Void(*)(::PVOID, ::BAEDBIJINGO*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_COMPUTESYNC_OFFSET))(this, MAHAOAIGPEH, PMNLNNGEIFM);
+		}
+
+		::System::Void ApplySyncToWwise(::BAEDBIJINGO* MAHAOAIGPEH)
+		{
+			return ((::System::Void(*)(::PVOID, ::BAEDBIJINGO*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_APPLYSYNCTOWWISE_OFFSET))(this, MAHAOAIGPEH);
+		}
+
+		::System::Void Init(::BAEDBIJINGO* MAHAOAIGPEH)
+		{
+			return ((::System::Void(*)(::PVOID, ::BAEDBIJINGO*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_INIT_OFFSET))(this, MAHAOAIGPEH);
+		}
+
+		::System::Void OnSync(::BAEDBIJINGO* MAHAOAIGPEH, ::System::Single PMNLNNGEIFM)
+		{
+			return ((::System::Void(*)(::PVOID, ::BAEDBIJINGO*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_ONSYNC_OFFSET))(this, MAHAOAIGPEH, PMNLNNGEIFM);
+		}
+
+		::System::Void Polish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_POLISH_OFFSET))(this);
+		}
+
+		::System::Void Recycle()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_RECYCLE_OFFSET))(this);
+		}
+
+		static ::MoleMole::SceneSoundObjDataItem_FAADMNNFFIN* COKNIICCODC(::MoleMole::SceneSoundObjDataItem* AAOCANGHBDG)
+		{
+			return ((::MoleMole::SceneSoundObjDataItem_FAADMNNFFIN*(*)(::MoleMole::SceneSoundObjDataItem*))((::PBYTE)hIl2Cpp + MOLEMOLE_SCENESOUNDOBJDATAITEM_FAADMNNFFIN_COKNIICCODC_OFFSET))(AAOCANGHBDG);
+		}
+	};
+}

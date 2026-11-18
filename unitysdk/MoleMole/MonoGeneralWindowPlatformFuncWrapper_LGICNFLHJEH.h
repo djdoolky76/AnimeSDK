@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class MKFNBHDICNJ;
+
+#define MOLEMOLE_MONOGENERALWINDOWPLATFORMFUNCWRAPPER_LGICNFLHJEH_CEKJDBNEDDA_OFFSET UNITYSDK_OFFSET(0x1193B010)
+#define MOLEMOLE_MONOGENERALWINDOWPLATFORMFUNCWRAPPER_LGICNFLHJEH_DIDNHOAIEPF_OFFSET UNITYSDK_OFFSET(0x1193AFB0)
+#define MOLEMOLE_MONOGENERALWINDOWPLATFORMFUNCWRAPPER_LGICNFLHJEH__CTOR_OFFSET UNITYSDK_OFFSET(0x1193AFA0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int MonoGeneralWindowPlatformFuncWrapper_LGICNFLHJEH_TypeDefinitionIndex = 93120;
+
+	class MonoGeneralWindowPlatformFuncWrapper_LGICNFLHJEH : public ::System::Object
+	{
+	public:
+		::MKFNBHDICNJ* LHPFMGBDFPN; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALWINDOWPLATFORMFUNCWRAPPER_LGICNFLHJEH__CTOR_OFFSET))(this);
+		}
+
+		::System::Void DIDNHOAIEPF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALWINDOWPLATFORMFUNCWRAPPER_LGICNFLHJEH_DIDNHOAIEPF_OFFSET))(this);
+		}
+
+		::System::Void CEKJDBNEDDA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGENERALWINDOWPLATFORMFUNCWRAPPER_LGICNFLHJEH_CEKJDBNEDDA_OFFSET))(this);
+		}
+	};
+}

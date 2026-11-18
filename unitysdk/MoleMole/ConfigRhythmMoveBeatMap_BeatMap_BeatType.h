@@ -3,15 +3,15 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigRhythmMoveBeatMap_BeatMap_BeatType_TypeDefinitionIndex = 65973;
+	inline static constexpr unsigned int ConfigRhythmMoveBeatMap_BeatMap_BeatType_TypeDefinitionIndex = 84369;
 
 	enum class ConfigRhythmMoveBeatMap_BeatMap_BeatType : ::System::Int32
 	{
-		FromRight = 3,
-		FromDown = 1,
-		FromLeft = 2,
 		Tetris = 5,
-		Show = 4,
+		FromLeft = 2,
 		FromUp = 0,
+		FromRight = 3,
+		Show = 4,
+		FromDown = 1,
 	};
 }

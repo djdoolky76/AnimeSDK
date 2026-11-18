@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/ChessStateMachine/GridVisibleAction_RuntimeData.h"
-#include "unitysdk/MoleMole/ChessStateMachine/StateMachineGeometryEntityAction_1.h"
 
-class Class_3_5A46B9360F369125;
+class CMJKDHNDLBM;
 
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDVISIBLEACTION_RUN_OFFSET UNITYSDK_OFFSET(0x14847A00)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDVISIBLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x14847E20)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDVISIBLEACTION_RUN_OFFSET UNITYSDK_OFFSET(0x11E6F860)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDVISIBLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x11E6FC80)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int GridVisibleAction_TypeDefinitionIndex = 50291;
+	inline static constexpr unsigned int GridVisibleAction_TypeDefinitionIndex = 52823;
 
-	class GridVisibleAction : public ::MoleMole::ChessStateMachine::StateMachineGeometryEntityAction_1<::MoleMole::ChessStateMachine::GridVisibleAction_RuntimeData>
+	class GridVisibleAction
 	{
 	public:
 		::System::Void _ctor()
@@ -20,9 +18,9 @@ namespace MoleMole::ChessStateMachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDVISIBLEACTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Run(::Class_3_5A46B9360F369125* context)
+		::System::Void Run(::CMJKDHNDLBM* context)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_5A46B9360F369125*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDVISIBLEACTION_RUN_OFFSET))(this, context);
+			return ((::System::Void(*)(::PVOID, ::CMJKDHNDLBM*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDVISIBLEACTION_RUN_OFFSET))(this, context);
 		}
 	};
 }

@@ -8,12 +8,13 @@ namespace UnityEngine { class Shader; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ShaderVariantCollection_ShaderVariant_TypeDefinitionIndex = 5393;
+	inline static constexpr unsigned int ShaderVariantCollection_ShaderVariant_TypeDefinitionIndex = 5396;
 
 	struct alignas(8) ShaderVariantCollection_ShaderVariant
 	{
 		::UnityEngine::Shader* shader; // 0x10
 		::UnityEngine::Rendering::PassType passType; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* pipeline; // 0x20
 		::Il2CppArray<::System::String*>* keywords; // 0x28
 	};

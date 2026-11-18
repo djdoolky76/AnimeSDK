@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
-#include "unitysdk/Cysharp/Threading/Tasks/Triggers/AsyncTriggerBase_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAWAKETRIGGER_AWAKEASYNC_OFFSET UNITYSDK_OFFSET(0x1FC28CC0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAWAKETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC28E30)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAWAKETRIGGER_AWAKEASYNC_OFFSET UNITYSDK_OFFSET(0x20030FF0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAWAKETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x20031160)
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncAwakeTrigger_TypeDefinitionIndex = 31932;
+	inline static constexpr unsigned int AsyncAwakeTrigger_TypeDefinitionIndex = 31381;
 
-	class AsyncAwakeTrigger : public ::Cysharp::Threading::Tasks::Triggers::AsyncTriggerBase_1<::Cysharp::Threading::Tasks::AsyncUnit>
+	class AsyncAwakeTrigger
 	{
 	public:
 		::System::Void _ctor()

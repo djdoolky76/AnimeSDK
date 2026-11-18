@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class MultiGameObjectPosBehavior; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSPLAYABLEASSET_ADDREFERENCES_OFFSET UNITYSDK_OFFSET(0x1FB339F0)
-#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FB33810)
-#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FB33800)
-#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSPLAYABLEASSET_GET_REFERENCES_OFFSET UNITYSDK_OFFSET(0x1FB337C0)
-#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSPLAYABLEASSET_SET_REFERENCES_OFFSET UNITYSDK_OFFSET(0x1FB337E0)
-#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB33EE0)
+#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSPLAYABLEASSET_ADDREFERENCES_OFFSET UNITYSDK_OFFSET(0x1FF31D70)
+#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FF31B90)
+#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FF31B80)
+#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSPLAYABLEASSET_GET_REFERENCES_OFFSET UNITYSDK_OFFSET(0x1FF31B40)
+#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSPLAYABLEASSET_SET_REFERENCES_OFFSET UNITYSDK_OFFSET(0x1FF31B60)
+#define MOLEMOLE_TIMELINE_MULTIGAMEOBJECTPOSPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF32260)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MultiGameObjectPosPlayableAsset_TypeDefinitionIndex = 32857;
+	inline static constexpr unsigned int MultiGameObjectPosPlayableAsset_TypeDefinitionIndex = 32308;
 
 	class MultiGameObjectPosPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

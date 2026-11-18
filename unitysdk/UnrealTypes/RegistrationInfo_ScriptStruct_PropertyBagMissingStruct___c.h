@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_PROPERTYBAGMISSINGSTRUCT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E394A30)
-#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_PROPERTYBAGMISSINGSTRUCT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E394A70)
-#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_PROPERTYBAGMISSINGSTRUCT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1E394A80)
+#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_PROPERTYBAGMISSINGSTRUCT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2B6730)
+#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_PROPERTYBAGMISSINGSTRUCT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2B6770)
+#define UNREALTYPES_REGISTRATIONINFO_SCRIPTSTRUCT_PROPERTYBAGMISSINGSTRUCT___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1E2B6780)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PropertyBagMissingStruct___c_TypeDefinitionIndex = 28427;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PropertyBagMissingStruct___c_TypeDefinitionIndex = 27864;
 
 	class RegistrationInfo_ScriptStruct_PropertyBagMissingStruct___c : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::RegistrationInfo_ScriptStruct_PropertyBagMissingStruct___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::UnrealTypes::RegistrationInfo_ScriptStruct_PropertyBagMissingStruct___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PropertyBagMissingStruct___c_TypeDefinitionIndex)->GetStaticField(0x241D0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PropertyBagMissingStruct___c_TypeDefinitionIndex)->GetStaticField(0x25290);
 		}
 
 		static ::System::Void _cctor()

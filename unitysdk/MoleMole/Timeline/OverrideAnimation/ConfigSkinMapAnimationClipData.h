@@ -9,26 +9,26 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
 
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_CONFIGSKINMAPANIMATIONCLIPDATA_GETANIMATIONCLIP_1_OFFSET UNITYSDK_OFFSET(0x1F70F7E0)
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_CONFIGSKINMAPANIMATIONCLIPDATA_GETANIMATIONCLIP_OFFSET UNITYSDK_OFFSET(0x1F70F0D0)
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_CONFIGSKINMAPANIMATIONCLIPDATA_GETUNITANIMATIONCLIPS_OFFSET UNITYSDK_OFFSET(0x1F70F480)
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_CONFIGSKINMAPANIMATIONCLIPDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F70FB80)
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_CONFIGSKINMAPANIMATIONCLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F70FB70)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_CONFIGSKINMAPANIMATIONCLIPDATA_GETANIMATIONCLIP_1_OFFSET UNITYSDK_OFFSET(0x1FB03530)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_CONFIGSKINMAPANIMATIONCLIPDATA_GETANIMATIONCLIP_OFFSET UNITYSDK_OFFSET(0x1FB02E10)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_CONFIGSKINMAPANIMATIONCLIPDATA_GETUNITANIMATIONCLIPS_OFFSET UNITYSDK_OFFSET(0x1FB031C0)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_CONFIGSKINMAPANIMATIONCLIPDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB038D0)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_CONFIGSKINMAPANIMATIONCLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB038C0)
 
 namespace MoleMole::Timeline::OverrideAnimation
 {
-	inline static constexpr unsigned int ConfigSkinMapAnimationClipData_TypeDefinitionIndex = 32859;
+	inline static constexpr unsigned int ConfigSkinMapAnimationClipData_TypeDefinitionIndex = 32311;
 
 	class ConfigSkinMapAnimationClipData : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Timeline::OverrideAnimation::AnimationClipInfo*>*>*>** StaticGet_m_AnimationClips()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Timeline::OverrideAnimation::AnimationClipInfo*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSkinMapAnimationClipData_TypeDefinitionIndex)->GetStaticField(0x27E10);
-		}
 		static ::MoleMole::Timeline::OverrideAnimation::ConfigSkinMapAnimationClipData_GetSkinIDAction** StaticGet_GetSkinId()
 		{
-			return (::MoleMole::Timeline::OverrideAnimation::ConfigSkinMapAnimationClipData_GetSkinIDAction**)Il2CppClass::FromTypeDefinitionIndex(ConfigSkinMapAnimationClipData_TypeDefinitionIndex)->GetStaticField(0x27E18);
+			return (::MoleMole::Timeline::OverrideAnimation::ConfigSkinMapAnimationClipData_GetSkinIDAction**)Il2CppClass::FromTypeDefinitionIndex(ConfigSkinMapAnimationClipData_TypeDefinitionIndex)->GetStaticField(0x28EF0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Timeline::OverrideAnimation::AnimationClipInfo*>*>*>** StaticGet_m_AnimationClips()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Timeline::OverrideAnimation::AnimationClipInfo*>*>*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigSkinMapAnimationClipData_TypeDefinitionIndex)->GetStaticField(0x28EF8);
 		}
 
 		::System::Void _ctor()

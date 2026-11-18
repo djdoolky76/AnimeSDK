@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 
-inline static constexpr unsigned int WeatherConfig_CapturedWeatherData_TypeDefinitionIndex = 27751;
+inline static constexpr unsigned int WeatherConfig_CapturedWeatherData_TypeDefinitionIndex = 26170;
 
 struct alignas(8) WeatherConfig_CapturedWeatherData
 {

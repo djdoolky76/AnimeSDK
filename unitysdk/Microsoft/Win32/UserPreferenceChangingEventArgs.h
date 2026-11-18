@@ -3,12 +3,12 @@
 #include "unitysdk/Microsoft/Win32/UserPreferenceCategory.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define MICROSOFT_WIN32_USERPREFERENCECHANGINGEVENTARGS_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1DEAC9F0)
-#define MICROSOFT_WIN32_USERPREFERENCECHANGINGEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAC9B0)
+#define MICROSOFT_WIN32_USERPREFERENCECHANGINGEVENTARGS_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1E32BD30)
+#define MICROSOFT_WIN32_USERPREFERENCECHANGINGEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E32BCF0)
 
 namespace Microsoft::Win32
 {
-	inline static constexpr unsigned int UserPreferenceChangingEventArgs_TypeDefinitionIndex = 4311;
+	inline static constexpr unsigned int UserPreferenceChangingEventArgs_TypeDefinitionIndex = 4310;
 
 	class UserPreferenceChangingEventArgs : public ::System::EventArgs
 	{

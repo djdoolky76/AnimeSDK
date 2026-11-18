@@ -3,7 +3,7 @@
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int AudioCodecType_TypeDefinitionIndex = 35049;
+	inline static constexpr unsigned int AudioCodecType_TypeDefinitionIndex = 34598;
 
 	enum class AudioCodecType : ::System::Int32
 	{

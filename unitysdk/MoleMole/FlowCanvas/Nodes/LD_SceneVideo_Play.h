@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_5.h"
 #include "unitysdk/MoleMole/Config/TextureSheetInterruptType.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SCENEVIDEO_PLAY_INVOKE_OFFSET UNITYSDK_OFFSET(0x149E8210)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SCENEVIDEO_PLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x149E84A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SCENEVIDEO_PLAY_INVOKE_OFFSET UNITYSDK_OFFSET(0x130D82F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SCENEVIDEO_PLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x130D8580)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SceneVideo_Play_TypeDefinitionIndex = 85885;
+	inline static constexpr unsigned int LD_SceneVideo_Play_TypeDefinitionIndex = 49481;
 
-	class LD_SceneVideo_Play : public ::FlowCanvas::Nodes::CallableActionNode_5<::MoleMole::EntityHandle, ::System::String*, ::System::String*, ::System::Boolean, ::MoleMole::Config::TextureSheetInterruptType>
+	class LD_SceneVideo_Play
 	{
 	public:
 		::System::Void _ctor()

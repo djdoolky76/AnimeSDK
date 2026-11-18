@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOMINIMAPWORLDSPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x10812E40)
+#define MOLEMOLE_MONOMINIMAPWORLDSPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x15AC4060)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoMiniMapWorldSpace_TypeDefinitionIndex = 49263;
+	inline static constexpr unsigned int MonoMiniMapWorldSpace_TypeDefinitionIndex = 68105;
 
 	class MonoMiniMapWorldSpace : public ::UnityEngine::MonoBehaviour
 	{

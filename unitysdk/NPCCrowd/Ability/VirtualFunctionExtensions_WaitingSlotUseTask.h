@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Ability/WaitingSlotUseTask.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTUSETASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x157AC030)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTUSETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x157ABFA0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTUSETASK_LINK_OFFSET UNITYSDK_OFFSET(0x157ABF30)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTUSETASK_TICK_OFFSET UNITYSDK_OFFSET(0x157AC0D0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTUSETASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0x10DB5EB0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTUSETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x10DB5E20)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTUSETASK_LINK_OFFSET UNITYSDK_OFFSET(0x10DB5DB0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_WAITINGSLOTUSETASK_TICK_OFFSET UNITYSDK_OFFSET(0x10DB5F50)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_WaitingSlotUseTask_TypeDefinitionIndex = 59004;
+	inline static constexpr unsigned int VirtualFunctionExtensions_WaitingSlotUseTask_TypeDefinitionIndex = 48111;
 
 	class VirtualFunctionExtensions_WaitingSlotUseTask : public ::System::Object
 	{

@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LanguageKeyboardLayoutType_TypeDefinitionIndex = 85467;
+	inline static constexpr unsigned int LanguageKeyboardLayoutType_TypeDefinitionIndex = 39697;
 
 	enum class LanguageKeyboardLayoutType : ::System::Int32
 	{
-		None = 0,
+		FrenchLayout = 3,
 		DeutschLayout = 2,
 		CommonLayout = 1,
-		FrenchLayout = 3,
+		None = 0,
 	};
 }

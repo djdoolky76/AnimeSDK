@@ -5,12 +5,12 @@
 namespace FluffyUnderware::Curvy::Generator { class CGModuleLink; }
 namespace FluffyUnderware::Curvy::Generator { class CGModuleSlot; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__DISPLAYCLASS106_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB2500)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__DISPLAYCLASS106_0__GETLINKS_B__0_OFFSET UNITYSDK_OFFSET(0x1EFB3640)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__DISPLAYCLASS106_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F31FA90)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE___C__DISPLAYCLASS106_0__GETLINKS_B__0_OFFSET UNITYSDK_OFFSET(0x1F320BD0)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGModule___c__DisplayClass106_0_TypeDefinitionIndex = 39718;
+	inline static constexpr unsigned int CGModule___c__DisplayClass106_0_TypeDefinitionIndex = 37611;
 
 	class CGModule___c__DisplayClass106_0 : public ::System::Object
 	{

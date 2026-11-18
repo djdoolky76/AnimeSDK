@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_5.h"
-#include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 #include "unitysdk/MoleMole/HollowPieceBlendMode.h"
+#include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEET_INVOKE_OFFSET UNITYSDK_OFFSET(0x12986F20)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEET__CTOR_OFFSET UNITYSDK_OFFSET(0x12987170)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEET_INVOKE_OFFSET UNITYSDK_OFFSET(0x12446170)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDPLAYTEXTURESHEET__CTOR_OFFSET UNITYSDK_OFFSET(0x124463C0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardPlayTextureSheet_TypeDefinitionIndex = 78732;
+	inline static constexpr unsigned int ChessboardPlayTextureSheet_TypeDefinitionIndex = 82297;
 
-	class ChessboardPlayTextureSheet : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_5<::MoleMole::HollowChessboard::HollowCell, ::System::String*, ::System::Int32, ::System::Int32, ::MoleMole::HollowPieceBlendMode>
+	class ChessboardPlayTextureSheet
 	{
 	public:
 		::System::Void _ctor()

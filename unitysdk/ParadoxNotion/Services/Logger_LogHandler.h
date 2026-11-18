@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/ParadoxNotion/Services/Logger_Message.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/ParadoxNotion/Services/Logger_Message.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define PARADOXNOTION_SERVICES_LOGGER_LOGHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E8C8EE0)
-#define PARADOXNOTION_SERVICES_LOGGER_LOGHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E8C8F50)
-#define PARADOXNOTION_SERVICES_LOGGER_LOGHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E8C8A80)
-#define PARADOXNOTION_SERVICES_LOGGER_LOGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C8A60)
+#define PARADOXNOTION_SERVICES_LOGGER_LOGHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EB8E7D0)
+#define PARADOXNOTION_SERVICES_LOGGER_LOGHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EB8E840)
+#define PARADOXNOTION_SERVICES_LOGGER_LOGHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EB8E370)
+#define PARADOXNOTION_SERVICES_LOGGER_LOGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8E360)
 
 namespace ParadoxNotion::Services
 {
-	inline static constexpr unsigned int Logger_LogHandler_TypeDefinitionIndex = 29779;
+	inline static constexpr unsigned int Logger_LogHandler_TypeDefinitionIndex = 29206;
 
 	class Logger_LogHandler : public ::System::MulticastDelegate
 	{

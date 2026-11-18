@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIBangkovBagPageController_LocalBangkovItemInfo.h"
+#include "unitysdk/System/Object.h"
+
+class ADAJKAICKFC;
+class FAKLNMJEGOJ;
+class FMHDMLBDIJC;
+class IFOHGNLIAKH;
+
+#define ADAJKAICKFC_EBBFHDPICFO_FBDIBOBKMHC_OFFSET UNITYSDK_OFFSET(0x16467370)
+#define ADAJKAICKFC_EBBFHDPICFO_FOFFPAPOKEB_OFFSET UNITYSDK_OFFSET(0x16466F00)
+#define ADAJKAICKFC_EBBFHDPICFO_HBPMEOFBGJJ_OFFSET UNITYSDK_OFFSET(0x16467270)
+#define ADAJKAICKFC_EBBFHDPICFO_IDLHJKFGKAE_OFFSET UNITYSDK_OFFSET(0x164673D0)
+#define ADAJKAICKFC_EBBFHDPICFO_KGNCEHFKPHP_OFFSET UNITYSDK_OFFSET(0x16467260)
+#define ADAJKAICKFC_EBBFHDPICFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16466EF0)
+
+inline static constexpr unsigned int ADAJKAICKFC_EBBFHDPICFO_TypeDefinitionIndex = 72383;
+
+class ADAJKAICKFC_EBBFHDPICFO : public ::System::Object
+{
+public:
+	::MoleMole::UIBangkovBagPageController_LocalBangkovItemInfo LCMCAPGFJLO; // 0x10
+	::ADAJKAICKFC* KLHPEBKNIFB; // 0x28
+	::FMHDMLBDIJC* BLFMEHNGIPN; // 0x30
+	::FAKLNMJEGOJ* BGFIDJKBBFO; // 0x38
+	::System::Int32 MOGCGNJCNBM; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ADAJKAICKFC_EBBFHDPICFO__CTOR_OFFSET))(this);
+	}
+
+	::System::Void FOFFPAPOKEB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ADAJKAICKFC_EBBFHDPICFO_FOFFPAPOKEB_OFFSET))(this);
+	}
+
+	::System::Boolean KGNCEHFKPHP()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ADAJKAICKFC_EBBFHDPICFO_KGNCEHFKPHP_OFFSET))(this);
+	}
+
+	::System::Single HBPMEOFBGJJ()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ADAJKAICKFC_EBBFHDPICFO_HBPMEOFBGJJ_OFFSET))(this);
+	}
+
+	::System::Object* FBDIBOBKMHC()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + ADAJKAICKFC_EBBFHDPICFO_FBDIBOBKMHC_OFFSET))(this);
+	}
+
+	::System::Void IDLHJKFGKAE(::IFOHGNLIAKH* JOLDOMEIKEF)
+	{
+		return ((::System::Void(*)(::PVOID, ::IFOHGNLIAKH*))((::PBYTE)hIl2Cpp + ADAJKAICKFC_EBBFHDPICFO_IDLHJKFGKAE_OFFSET))(this, JOLDOMEIKEF);
+	}
+};

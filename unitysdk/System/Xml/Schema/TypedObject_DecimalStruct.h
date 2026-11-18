@@ -3,12 +3,12 @@
 #include "unitysdk/System/Decimal.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_DECIMALSTRUCT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DC4E940)
-#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_DECIMALSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC4E900)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_DECIMALSTRUCT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFCF7E0)
+#define SYSTEM_XML_SCHEMA_TYPEDOBJECT_DECIMALSTRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCF7A0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int TypedObject_DecimalStruct_TypeDefinitionIndex = 1957;
+	inline static constexpr unsigned int TypedObject_DecimalStruct_TypeDefinitionIndex = 1956;
 
 	class TypedObject_DecimalStruct : public ::System::Object
 	{

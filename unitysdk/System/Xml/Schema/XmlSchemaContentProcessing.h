@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaContentProcessing_TypeDefinitionIndex = 2134;
+	inline static constexpr unsigned int XmlSchemaContentProcessing_TypeDefinitionIndex = 2133;
 
 	enum class XmlSchemaContentProcessing : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int TransparentDynamicShadingRateSetting_TypeDefinitionIndex = 5898;
+	inline static constexpr unsigned int TransparentDynamicShadingRateSetting_TypeDefinitionIndex = 5904;
 
 	enum class TransparentDynamicShadingRateSetting : ::System::Int32
 	{

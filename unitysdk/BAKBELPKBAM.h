@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/DBFMDGAHHCE_PAFLPNIBHGL.h"
+#include "unitysdk/ENGKPGFGGLM.h"
+
+namespace System { class String; }
+
+#define BAKBELPKBAM_CNHBDOMKKDE_OFFSET UNITYSDK_OFFSET(0x169D9F70)
+#define BAKBELPKBAM_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x169D9FC0)
+#define BAKBELPKBAM_FIGPAOKNJLN_OFFSET UNITYSDK_OFFSET(0x169DA010)
+#define BAKBELPKBAM_GCDIGLPEOGH_OFFSET UNITYSDK_OFFSET(0x169D9EE0)
+#define BAKBELPKBAM_KFAGIPMCJOC_OFFSET UNITYSDK_OFFSET(0x169DA000)
+#define BAKBELPKBAM_NBDJANHLFAD_OFFSET UNITYSDK_OFFSET(0x169DA0A0)
+#define BAKBELPKBAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x169D9D50)
+#define BAKBELPKBAM__CCTOR_OFFSET UNITYSDK_OFFSET(0x169D9E60)
+#define BAKBELPKBAM__CTOR_OFFSET UNITYSDK_OFFSET(0x169D9ED0)
+
+inline static constexpr unsigned int BAKBELPKBAM_TypeDefinitionIndex = 52718;
+
+class BAKBELPKBAM : public ::ENGKPGFGGLM
+{
+public:
+	// static const ::System::UInt16 GBKNNOFLGDJ = 0x4C; // 0x0
+	::DBFMDGAHHCE_PAFLPNIBHGL _DKMIDGPMIPI_k__BackingField; // 0x20
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BAKBELPKBAM__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BAKBELPKBAM__CTOR_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BAKBELPKBAM_TOSTRING_OFFSET))(this);
+	}
+
+	::System::Void GCDIGLPEOGH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BAKBELPKBAM_GCDIGLPEOGH_OFFSET))(this);
+	}
+
+	::System::Void CNHBDOMKKDE(::DBFMDGAHHCE_PAFLPNIBHGL JIMDEADMCEM)
+	{
+		return ((::System::Void(*)(::PVOID, ::DBFMDGAHHCE_PAFLPNIBHGL))((::PBYTE)hIl2Cpp + BAKBELPKBAM_CNHBDOMKKDE_OFFSET))(this, JIMDEADMCEM);
+	}
+
+	::System::String* DPIHOJBBGLA()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BAKBELPKBAM_DPIHOJBBGLA_OFFSET))(this);
+	}
+
+	::System::Void KFAGIPMCJOC(::DBFMDGAHHCE_PAFLPNIBHGL EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::DBFMDGAHHCE_PAFLPNIBHGL))((::PBYTE)hIl2Cpp + BAKBELPKBAM_KFAGIPMCJOC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void FIGPAOKNJLN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BAKBELPKBAM_FIGPAOKNJLN_OFFSET))(this);
+	}
+
+	::DBFMDGAHHCE_PAFLPNIBHGL NBDJANHLFAD()
+	{
+		return ((::DBFMDGAHHCE_PAFLPNIBHGL(*)(::PVOID))((::PBYTE)hIl2Cpp + BAKBELPKBAM_NBDJANHLFAD_OFFSET))(this);
+	}
+};

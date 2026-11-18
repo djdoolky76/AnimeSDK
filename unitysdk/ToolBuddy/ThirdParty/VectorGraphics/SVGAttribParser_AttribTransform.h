@@ -3,7 +3,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGAttribParser_AttribTransform_TypeDefinitionIndex = 31762;
+	inline static constexpr unsigned int SVGAttribParser_AttribTransform_TypeDefinitionIndex = 31200;
 
 	enum class SVGAttribParser_AttribTransform : ::System::Int32
 	{

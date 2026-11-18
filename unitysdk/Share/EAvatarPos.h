@@ -3,15 +3,15 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EAvatarPos_TypeDefinitionIndex = 16769;
+	inline static constexpr unsigned int EAvatarPos_TypeDefinitionIndex = 11525;
 
 	enum class EAvatarPos : ::System::Int16
 	{
-		TeamCharacter2 = 3,
-		Random = 1,
-		All = 0,
+		EnumCount = 5,
 		TeamCharacter3 = 4,
 		TeamCharacter1 = 2,
-		EnumCount = 5,
+		Random = 1,
+		TeamCharacter2 = 3,
+		All = 0,
 	};
 }

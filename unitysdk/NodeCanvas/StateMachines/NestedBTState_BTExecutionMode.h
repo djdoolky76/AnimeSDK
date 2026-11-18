@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::StateMachines
 {
-	inline static constexpr unsigned int NestedBTState_BTExecutionMode_TypeDefinitionIndex = 30137;
+	inline static constexpr unsigned int NestedBTState_BTExecutionMode_TypeDefinitionIndex = 30286;
 
 	enum class NestedBTState_BTExecutionMode : ::System::Int32
 	{

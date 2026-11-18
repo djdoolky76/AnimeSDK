@@ -7,13 +7,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int DelegateExtensions___c__DisplayClass1_0_2_TypeDefinitionIndex = 6443;
+	inline static constexpr unsigned int DelegateExtensions___c__DisplayClass1_0_2_TypeDefinitionIndex = 6449;
 
-	template <typename T, typename TResult>
+	template <typename T1, typename T2>
 	class DelegateExtensions___c__DisplayClass1_0_2 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<T, TResult>* dic; // 0x0
-		::System::Func_2<T, TResult>* func; // 0x0
+		::System::Collections::Generic::Dictionary_2<T1, T2>* dic; // 0x0
+		::System::Func_2<T1, T2>* func; // 0x0
 	};
 }

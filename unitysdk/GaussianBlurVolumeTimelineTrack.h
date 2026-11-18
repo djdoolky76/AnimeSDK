@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace UnityEngine { class GameObject; }
 
-#define GAUSSIANBLURVOLUMETIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x178D0E90)
-#define GAUSSIANBLURVOLUMETIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x178D18E0)
-#define GAUSSIANBLURVOLUMETIMELINETRACK___BASE_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x178D1940)
+#define GAUSSIANBLURVOLUMETIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x13D78960)
+#define GAUSSIANBLURVOLUMETIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x13D793B0)
+#define GAUSSIANBLURVOLUMETIMELINETRACK___BASE_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x13D79410)
 
-inline static constexpr unsigned int GaussianBlurVolumeTimelineTrack_TypeDefinitionIndex = 85018;
+inline static constexpr unsigned int GaussianBlurVolumeTimelineTrack_TypeDefinitionIndex = 59979;
 
 class GaussianBlurVolumeTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 {

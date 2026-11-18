@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_EXPHEIGHTFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5B0610)
+#define UNITYENGINE_RENDERING_UNIVERSAL_EXPHEIGHTFOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA41FE0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ExpHeightFogConfig_TypeDefinitionIndex = 27557;
+	inline static constexpr unsigned int ExpHeightFogConfig_TypeDefinitionIndex = 27128;
 
 	class ExpHeightFogConfig : public ::System::Object
 	{
@@ -22,6 +22,7 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::Vector2 fogHeightRange; // 0x4C
 		::System::Single fogStartDistance; // 0x54
 		::System::Boolean useMirrorFog; // 0x58
+		::System::Byte _padding0[0x3];
 		::System::Single maxSkyFogDistance; // 0x5C
 
 		::System::Void _ctor()

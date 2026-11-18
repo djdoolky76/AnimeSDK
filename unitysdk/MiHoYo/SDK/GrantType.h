@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GrantType_TypeDefinitionIndex = 20194;
+	inline static constexpr unsigned int GrantType_TypeDefinitionIndex = 19340;
 
 	enum class GrantType : ::System::Int32
 	{

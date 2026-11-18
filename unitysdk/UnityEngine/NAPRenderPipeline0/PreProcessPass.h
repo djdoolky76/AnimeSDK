@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PREPROCESSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E605EC0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PREPROCESSPASS_GETDYNAMICSCREENSIZE_OFFSET UNITYSDK_OFFSET(0x1E605E20)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PREPROCESSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E605DC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PREPROCESSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E84E980)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PREPROCESSPASS_GETDYNAMICSCREENSIZE_OFFSET UNITYSDK_OFFSET(0x1E84E8E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PREPROCESSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E84E880)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PreProcessPass_TypeDefinitionIndex = 5812;
+	inline static constexpr unsigned int PreProcessPass_TypeDefinitionIndex = 5818;
 
 	class PreProcessPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

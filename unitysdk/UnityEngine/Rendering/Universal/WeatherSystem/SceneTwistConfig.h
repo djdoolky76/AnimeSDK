@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENETWISTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C459190)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENETWISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4595C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENETWISTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C880E20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_SCENETWISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C881250)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int SceneTwistConfig_TypeDefinitionIndex = 26762;
+	inline static constexpr unsigned int SceneTwistConfig_TypeDefinitionIndex = 26519;
 
-	class SceneTwistConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::SceneTwistConfig*>
+	class SceneTwistConfig
 	{
 	public:
 		::System::Boolean mainCameraAsPivot; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::GameObject* worldTwistPivot; // 0x20
 		::System::Single worldTwistBendSize; // 0x28
 		::System::Single worldTwistRotationSpeed; // 0x2C
@@ -30,6 +30,7 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::UnityEngine::Vector2 worldTwistNoise2Speed; // 0x54
 		::System::Single worldTwistNoise2Intensity; // 0x5C
 		::System::Boolean worldTwistEnableCustomDirection; // 0x60
+		::System::Byte _padding1[0x3];
 		::System::Single worldTwistCustomDirection; // 0x64
 
 		::System::Void _ctor()

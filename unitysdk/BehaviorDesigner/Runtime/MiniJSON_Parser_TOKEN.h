@@ -3,7 +3,7 @@
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int MiniJSON_Parser_TOKEN_TypeDefinitionIndex = 33886;
+	inline static constexpr unsigned int MiniJSON_Parser_TOKEN_TypeDefinitionIndex = 33432;
 
 	enum class MiniJSON_Parser_TOKEN : ::System::Int32
 	{
@@ -17,7 +17,7 @@ namespace BehaviorDesigner::Runtime
 		STRING = 7,
 		NUMBER = 8,
 		INFINITY = 9,
-		Value_10 = 10,
+		NEGINFINITY = 10,
 		TRUE = 11,
 		FALSE = 12,
 		NULL = 13,

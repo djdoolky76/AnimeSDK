@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIShoppingMallCasperPageController_Const_TypeDefinitionIndex = 50601;
+	inline static constexpr unsigned int UIShoppingMallCasperPageController_Const_TypeDefinitionIndex = 60508;
 
 	class UIShoppingMallCasperPageController_Const : public ::System::Object
 	{

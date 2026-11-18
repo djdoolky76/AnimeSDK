@@ -4,7 +4,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigViewObjectMisc_DynamicDrop_TypeDefinitionIndex = 67057;
+	inline static constexpr unsigned int ConfigViewObjectMisc_DynamicDrop_TypeDefinitionIndex = 57288;
 
 	struct alignas(4) ConfigViewObjectMisc_DynamicDrop
 	{

@@ -1,27 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
-#include "unitysdk/System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace Mono::Net::Security { class AsyncProtocolRequest; }
+namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MONO_NET_SECURITY_ASYNCPROTOCOLREQUEST__INNERREAD_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x9BD760)
-#define MONO_NET_SECURITY_ASYNCPROTOCOLREQUEST__INNERREAD_D__25_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x7DEF30)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLREQUEST__INNERREAD_D__25_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8D7960)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLREQUEST__INNERREAD_D__25_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x4B0120)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int AsyncProtocolRequest__InnerRead_d__25_TypeDefinitionIndex = 2612;
+	inline static constexpr unsigned int AsyncProtocolRequest__InnerRead_d__25_TypeDefinitionIndex = 2611;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25>
 	struct alignas(8) AsyncProtocolRequest__InnerRead_d__25
 	{
-		::System::Threading::CancellationToken cancellationToken; // 0x10
-		::Mono::Net::Security::AsyncProtocolRequest* __4__this; // 0x18
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Int32> __u__1; // 0x20
+		::System::Object* __u__1; // 0x10
+		::System::Byte _padding0[0x8];
+		::Mono::Net::Security::AsyncProtocolRequest* __4__this; // 0x20
+		::System::Threading::CancellationToken cancellationToken; // 0x28
 		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::Int32>> __t__builder; // 0x30
+		::System::Byte _padding1[0x10];
 		::System::Int32 __1__state; // 0x48
 		::System::Int32 _requestedSize_5__1; // 0x4C
 		::System::Nullable_1<::System::Int32> _totalRead_5__2; // 0x50

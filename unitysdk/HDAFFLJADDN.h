@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/DPINADAJFCO.h"
+#include "unitysdk/System/Object.h"
+
+class CIHPLPPJFFN;
+class FOLOGHLENFB;
+class GEIHCPAOKKK;
+class IKPGGBKPPFK;
+namespace MoleMole::Battle { class Entity; }
+namespace System { class String; }
+
+#define HDAFFLJADDN_GPIFOCOGFLF_OFFSET UNITYSDK_OFFSET(0x16CE45B0)
+#define HDAFFLJADDN_HNOCALJEKAH_OFFSET UNITYSDK_OFFSET(0x16CE4B40)
+#define HDAFFLJADDN_NJKLIKLBONN_OFFSET UNITYSDK_OFFSET(0x16CE52C0)
+#define HDAFFLJADDN_PILEMPMKCLC_OFFSET UNITYSDK_OFFSET(0x16CE50B0)
+
+inline static constexpr unsigned int HDAFFLJADDN_TypeDefinitionIndex = 65393;
+
+class HDAFFLJADDN : public ::System::Object
+{
+public:
+	static ::System::Void GPIFOCOGFLF(::MoleMole::Battle::Entity* KECKGDFIALJ, ::System::Boolean EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::MoleMole::Battle::Entity*, ::System::Boolean))((::PBYTE)hIl2Cpp + HDAFFLJADDN_GPIFOCOGFLF_OFFSET))(KECKGDFIALJ, EGEGIMGMJHN);
+	}
+
+	static ::System::Void HNOCALJEKAH(::GEIHCPAOKKK* OHPJHPEOFLD, ::IKPGGBKPPFK* POBADKEDFOE, ::CIHPLPPJFFN* NDLAFDNEOIB)
+	{
+		return ((::System::Void(*)(::GEIHCPAOKKK*, ::IKPGGBKPPFK*, ::CIHPLPPJFFN*))((::PBYTE)hIl2Cpp + HDAFFLJADDN_HNOCALJEKAH_OFFSET))(OHPJHPEOFLD, POBADKEDFOE, NDLAFDNEOIB);
+	}
+
+	static ::System::String* PILEMPMKCLC(::IKPGGBKPPFK* POBADKEDFOE, ::System::Int32 OIKFFGKDHME, ::FOLOGHLENFB* CIOIFPFELFM, ::DPINADAJFCO CFMBGCMCNMM)
+	{
+		return ((::System::String*(*)(::IKPGGBKPPFK*, ::System::Int32, ::FOLOGHLENFB*, ::DPINADAJFCO))((::PBYTE)hIl2Cpp + HDAFFLJADDN_PILEMPMKCLC_OFFSET))(POBADKEDFOE, OIKFFGKDHME, CIOIFPFELFM, CFMBGCMCNMM);
+	}
+
+	static ::System::Boolean NJKLIKLBONN(::IKPGGBKPPFK* POBADKEDFOE)
+	{
+		return ((::System::Boolean(*)(::IKPGGBKPPFK*))((::PBYTE)hIl2Cpp + HDAFFLJADDN_NJKLIKLBONN_OFFSET))(POBADKEDFOE);
+	}
+};

@@ -4,12 +4,12 @@
 
 namespace System::ComponentModel { class ComponentCollection; }
 
-#define SYSTEM_COMPONENTMODEL_CONTAINERFILTERSERVICE_FILTERCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1DAB0DE0)
-#define SYSTEM_COMPONENTMODEL_CONTAINERFILTERSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB0DD0)
+#define SYSTEM_COMPONENTMODEL_CONTAINERFILTERSERVICE_FILTERCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1DEF1BD0)
+#define SYSTEM_COMPONENTMODEL_CONTAINERFILTERSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF1BC0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ContainerFilterService_TypeDefinitionIndex = 2844;
+	inline static constexpr unsigned int ContainerFilterService_TypeDefinitionIndex = 2843;
 
 	class ContainerFilterService : public ::System::Object
 	{

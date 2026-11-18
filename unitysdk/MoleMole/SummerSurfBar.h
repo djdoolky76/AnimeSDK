@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/GMFAKIPCDED.h"
 #include "unitysdk/MoleMole/UIWindowController.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-namespace MoleMole { class MonoChaserConfig; }
 namespace MoleMole { class UIControllerContextBase; }
 namespace UnityEngine { class CanvasGroup; }
-namespace UnityEngine { class Material; }
 
-#define MOLEMOLE_SUMMERSURFBAR_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x14507620)
-#define MOLEMOLE_SUMMERSURFBAR_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x145078B0)
-#define MOLEMOLE_SUMMERSURFBAR_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x14507630)
-#define MOLEMOLE_SUMMERSURFBAR_SETPERCENT_OFFSET UNITYSDK_OFFSET(0x145077E0)
-#define MOLEMOLE_SUMMERSURFBAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x14507E00)
-#define MOLEMOLE_SUMMERSURFBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x14507DF0)
-#define MOLEMOLE_SUMMERSURFBAR___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x14507E40)
+#define MOLEMOLE_SUMMERSURFBAR_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x1C0BF2A0)
+#define MOLEMOLE_SUMMERSURFBAR_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1C0BF530)
+#define MOLEMOLE_SUMMERSURFBAR_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1C0BF2B0)
+#define MOLEMOLE_SUMMERSURFBAR_SETPERCENT_OFFSET UNITYSDK_OFFSET(0x1C0BF460)
+#define MOLEMOLE_SUMMERSURFBAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0BFA90)
+#define MOLEMOLE_SUMMERSURFBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0BFA80)
+#define MOLEMOLE_SUMMERSURFBAR___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x1C0BFAD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerSurfBar_TypeDefinitionIndex = 62305;
+	inline static constexpr unsigned int SummerSurfBar_TypeDefinitionIndex = 88207;
 
 	class SummerSurfBar : public ::MoleMole::UIWindowController
 	{
 	public:
-		static ::System::Int32* StaticGet_WaveHeight()
+		static ::System::Int32* StaticGet_LAPCLNOGIML()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SummerSurfBar_TypeDefinitionIndex)->GetStaticField(0xDC40);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SummerSurfBar_TypeDefinitionIndex)->GetStaticField(0xDCB0);
 		}
-		::UnityEngine::Vector2 _lastPosition; // 0x318
-		::UnityEngine::CanvasGroup* _canvasGroup; // 0x320
-		::System::UInt32 _entity; // 0x328
-		::System::Single _value; // 0x32C
+		::UnityEngine::Vector2 KIJEOOMELGM; // 0x320
+		::UnityEngine::CanvasGroup* HAEHJMCNKJB; // 0x328
+		::System::UInt32 LEOKEOFNDLH; // 0x330
+		::System::Single HHGILNNMNAK; // 0x334
 
 		::System::Void _ctor()
 		{
@@ -43,9 +41,9 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_SUMMERSURFBAR__CCTOR_OFFSET))();
 		}
 
-		::Enum_3_3EDF246633A325B0 get_windowType()
+		::GMFAKIPCDED get_windowType()
 		{
-			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SUMMERSURFBAR_GET_WINDOWTYPE_OFFSET))(this);
+			return ((::GMFAKIPCDED(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SUMMERSURFBAR_GET_WINDOWTYPE_OFFSET))(this);
 		}
 
 		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* baseContext)

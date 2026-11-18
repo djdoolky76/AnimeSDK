@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class FXFog_NativeSRP; }
 namespace UnityEngine::NAPRenderPipeline0 { class VolumetricFogPassNativeState; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB5B160)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EB5B190)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1EB5B0E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5B060)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EEFF1F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EEFF220)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1EEFF170)
+#define UNITYENGINE_NAPRENDERPIPELINE0_VOLUMETRICFOGPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEFF0F0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int VolumetricFogPass_NativeImpl_TypeDefinitionIndex = 5774;
+	inline static constexpr unsigned int VolumetricFogPass_NativeImpl_TypeDefinitionIndex = 5779;
 
 	class VolumetricFogPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

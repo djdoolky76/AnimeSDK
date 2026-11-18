@@ -10,6 +10,6 @@ namespace Unity::Collections
 	class ValueSparseHashMap8_4_1 : public ::System::Object
 	{
 	public:
-		::System::Void* m_Map; // 0x0
+		::PVOID m_Map; // 0x0
 	};
 }

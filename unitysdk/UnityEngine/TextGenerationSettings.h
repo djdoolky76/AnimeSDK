@@ -10,13 +10,13 @@
 
 namespace UnityEngine { class Font; }
 
-#define UNITYENGINE_TEXTGENERATIONSETTINGS_COMPARECOLORS_OFFSET UNITYSDK_OFFSET(0xAC6FF0)
-#define UNITYENGINE_TEXTGENERATIONSETTINGS_COMPAREVECTOR2_OFFSET UNITYSDK_OFFSET(0xAC70D0)
-#define UNITYENGINE_TEXTGENERATIONSETTINGS_EQUALS_OFFSET UNITYSDK_OFFSET(0xAC7160)
+#define UNITYENGINE_TEXTGENERATIONSETTINGS_COMPARECOLORS_OFFSET UNITYSDK_OFFSET(0x9ADD20)
+#define UNITYENGINE_TEXTGENERATIONSETTINGS_COMPAREVECTOR2_OFFSET UNITYSDK_OFFSET(0x9ADE00)
+#define UNITYENGINE_TEXTGENERATIONSETTINGS_EQUALS_OFFSET UNITYSDK_OFFSET(0x9ADE90)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextGenerationSettings_TypeDefinitionIndex = 6365;
+	inline static constexpr unsigned int TextGenerationSettings_TypeDefinitionIndex = 6371;
 
 	struct alignas(8) TextGenerationSettings
 	{
@@ -25,14 +25,17 @@ namespace UnityEngine
 		::System::Int32 fontSize; // 0x28
 		::System::Single lineSpacing; // 0x2C
 		::System::Boolean richText; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::Single scaleFactor; // 0x34
 		::UnityEngine::FontStyle fontStyle; // 0x38
 		::UnityEngine::TextAnchor textAnchor; // 0x3C
 		::System::Boolean alignByGeometry; // 0x40
 		::System::Boolean resizeTextForBestFit; // 0x41
+		::System::Byte _padding1[0x2];
 		::System::Int32 resizeTextMinSize; // 0x44
 		::System::Int32 resizeTextMaxSize; // 0x48
 		::System::Boolean updateBounds; // 0x4C
+		::System::Byte _padding2[0x3];
 		::UnityEngine::VerticalWrapMode verticalOverflow; // 0x50
 		::UnityEngine::HorizontalWrapMode horizontalOverflow; // 0x54
 		::UnityEngine::Vector2 generationExtents; // 0x58
@@ -49,9 +52,11 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATIONSETTINGS_COMPAREVECTOR2_OFFSET))(this, left, right);
 		}
 
+		/*
 		::System::Boolean Equals(::UnityEngine::TextGenerationSettings other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::TextGenerationSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATIONSETTINGS_EQUALS_OFFSET))(this, other);
 		}
+		*/
 	};
 }

@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BFMBHMKJCCM;
+class DENBPLEJLAJ;
+class GIDKAJGGEKN;
+class MFCCIJKCFMH;
+
+#define LMBJGMCAMCN_ABIDGBOENPD_OFFSET UNITYSDK_OFFSET(0x151A7DA0)
+#define LMBJGMCAMCN_KPIGIBHKGMF_OFFSET UNITYSDK_OFFSET(0x151A7DC0)
+#define LMBJGMCAMCN_OBCBEMHPKLA_OFFSET UNITYSDK_OFFSET(0x151A7DB0)
+#define LMBJGMCAMCN__CTOR_OFFSET UNITYSDK_OFFSET(0x151A7DD0)
+
+inline static constexpr unsigned int LMBJGMCAMCN_TypeDefinitionIndex = 42154;
+
+class LMBJGMCAMCN : public ::System::Object
+{
+public:
+	::BFMBHMKJCCM* _NLMGCJJODBK_k__BackingField; // 0x10
+	::GIDKAJGGEKN* _NKOGCDBJPIC_k__BackingField; // 0x18
+	::MFCCIJKCFMH* _EBHEJCPKMGG_k__BackingField; // 0x20
+
+	::System::Void _ctor(::DENBPLEJLAJ* MHEPAPJILHF)
+	{
+		return ((::System::Void(*)(::PVOID, ::DENBPLEJLAJ*))((::PBYTE)hIl2Cpp + LMBJGMCAMCN__CTOR_OFFSET))(this, MHEPAPJILHF);
+	}
+
+	::GIDKAJGGEKN* ABIDGBOENPD()
+	{
+		return ((::GIDKAJGGEKN*(*)(::PVOID))((::PBYTE)hIl2Cpp + LMBJGMCAMCN_ABIDGBOENPD_OFFSET))(this);
+	}
+
+	::BFMBHMKJCCM* OBCBEMHPKLA()
+	{
+		return ((::BFMBHMKJCCM*(*)(::PVOID))((::PBYTE)hIl2Cpp + LMBJGMCAMCN_OBCBEMHPKLA_OFFSET))(this);
+	}
+
+	::MFCCIJKCFMH* KPIGIBHKGMF()
+	{
+		return ((::MFCCIJKCFMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + LMBJGMCAMCN_KPIGIBHKGMF_OFFSET))(this);
+	}
+};

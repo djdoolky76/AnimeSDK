@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_MONOUIADAPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x136E03E0)
+#define MOLEMOLE_MONOUIADAPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x135C06D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIAdaptor_TypeDefinitionIndex = 43016;
+	inline static constexpr unsigned int MonoUIAdaptor_TypeDefinitionIndex = 88098;
 
 	class MonoUIAdaptor : public ::System::Object
 	{

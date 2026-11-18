@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/EffectSimulate/ESLoopable_2.h"
 
 namespace MoleMole::EffectSimulate { class NESUIDataCache; }
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class CanvasRenderer; }
-namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESUIMatAnimBehavior_2_TypeDefinitionIndex = 66643;
+	inline static constexpr unsigned int ESUIMatAnimBehavior_2_TypeDefinitionIndex = 78734;
 
-	template <typename EvaluateCurveType, typename ValType>
-	class ESUIMatAnimBehavior_2 : public ::MoleMole::EffectSimulate::ESLoopable_2<EvaluateCurveType, ValType>
+	template <typename T1, typename T2>
+	class ESUIMatAnimBehavior_2
 	{
 	public:
 		::UnityEngine::CanvasRenderer* m_stCanvasRenderer; // 0x0

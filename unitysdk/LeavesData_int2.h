@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define LEAVESDATA_INT2__CTOR_OFFSET UNITYSDK_OFFSET(0x312BA0)
+#define LEAVESDATA_INT2__CTOR_OFFSET UNITYSDK_OFFSET(0x2E4140)
 
-inline static constexpr unsigned int LeavesData_int2_TypeDefinitionIndex = 27032;
+inline static constexpr unsigned int LeavesData_int2_TypeDefinitionIndex = 27001;
 
 struct alignas(4) LeavesData_int2
 {

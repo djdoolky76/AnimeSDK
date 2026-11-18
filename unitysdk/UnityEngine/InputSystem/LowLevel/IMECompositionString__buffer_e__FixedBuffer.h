@@ -4,10 +4,10 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int IMECompositionString__buffer_e__FixedBuffer_TypeDefinitionIndex = 32529;
+	inline static constexpr unsigned int IMECompositionString__buffer_e__FixedBuffer_TypeDefinitionIndex = 31978;
 
-	struct alignas(2) IMECompositionString__buffer_e__FixedBuffer
+	struct alignas(4) IMECompositionString__buffer_e__FixedBuffer
 	{
-		::System::Char data[64]; // 0x0
+		::System::Char FixedElementField; // 0x10
 	};
 }

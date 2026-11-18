@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class TonemappingBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_TONEMAPPINGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18DED2C0)
-#define MOLEMOLE_TIMELINE_TONEMAPPINGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x18DED2B0)
-#define MOLEMOLE_TIMELINE_TONEMAPPINGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18DED4A0)
+#define MOLEMOLE_TIMELINE_TONEMAPPINGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1A0FE130)
+#define MOLEMOLE_TIMELINE_TONEMAPPINGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1A0FE120)
+#define MOLEMOLE_TIMELINE_TONEMAPPINGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0FE310)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TonemappingClip_TypeDefinitionIndex = 63132;
+	inline static constexpr unsigned int TonemappingClip_TypeDefinitionIndex = 80375;
 
 	class TonemappingClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -31,9 +31,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TONEMAPPINGCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* AMNIHACKELI)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TONEMAPPINGCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TONEMAPPINGCLIP_CREATEPLAYABLE_OFFSET))(this, MHPNGBGGMMN, AMNIHACKELI);
 		}
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int ViewObjectUtils_ViewObjectComponentHelper_1_TypeDefinitionIndex = 78290;
+	inline static constexpr unsigned int ViewObjectUtils_ViewObjectComponentHelper_1_TypeDefinitionIndex = 63196;
 
 	template <typename T>
 	class ViewObjectUtils_ViewObjectComponentHelper_1 : public ::System::Object
@@ -13,6 +13,10 @@ namespace Foundation::ViewObject
 		static ::System::UInt32* StaticGet__Id_k__BackingField()
 		{
 			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ViewObjectUtils_ViewObjectComponentHelper_1_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::System::Boolean* StaticGet_IsEntityBuilder()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ViewObjectUtils_ViewObjectComponentHelper_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 	};
 }

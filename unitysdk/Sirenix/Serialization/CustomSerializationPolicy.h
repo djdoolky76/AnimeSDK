@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SIRENIX_SERIALIZATION_CUSTOMSERIALIZATIONPOLICY_GET_ALLOWNONSERIALIZABLETYPES_OFFSET UNITYSDK_OFFSET(0x1E8DEE10)
-#define SIRENIX_SERIALIZATION_CUSTOMSERIALIZATIONPOLICY_GET_ID_OFFSET UNITYSDK_OFFSET(0x1E8DEE00)
-#define SIRENIX_SERIALIZATION_CUSTOMSERIALIZATIONPOLICY_SHOULDSERIALIZEMEMBER_OFFSET UNITYSDK_OFFSET(0x1E8DEE20)
-#define SIRENIX_SERIALIZATION_CUSTOMSERIALIZATIONPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DED50)
+#define SIRENIX_SERIALIZATION_CUSTOMSERIALIZATIONPOLICY_GET_ALLOWNONSERIALIZABLETYPES_OFFSET UNITYSDK_OFFSET(0x1EBC9450)
+#define SIRENIX_SERIALIZATION_CUSTOMSERIALIZATIONPOLICY_GET_ID_OFFSET UNITYSDK_OFFSET(0x1EBC9440)
+#define SIRENIX_SERIALIZATION_CUSTOMSERIALIZATIONPOLICY_SHOULDSERIALIZEMEMBER_OFFSET UNITYSDK_OFFSET(0x1EBC9460)
+#define SIRENIX_SERIALIZATION_CUSTOMSERIALIZATIONPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC9390)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int CustomSerializationPolicy_TypeDefinitionIndex = 7502;
+	inline static constexpr unsigned int CustomSerializationPolicy_TypeDefinitionIndex = 7510;
 
 	class CustomSerializationPolicy : public ::System::Object
 	{
 	public:
-		::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>* shouldSerializeFunc; // 0x10
-		::System::String* id; // 0x18
+		::System::String* id; // 0x10
+		::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>* shouldSerializeFunc; // 0x18
 		::System::Boolean allowNonSerializableTypes; // 0x20
 
 		::System::Void _ctor(::System::String* id, ::System::Boolean allowNonSerializableTypes, ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Boolean>* shouldSerializeFunc)

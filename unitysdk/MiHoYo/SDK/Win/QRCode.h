@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Color32.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define MIHOYO_SDK_WIN_QRCODE_CREATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1DA27C20)
-#define MIHOYO_SDK_WIN_QRCODE_ENCODE_OFFSET UNITYSDK_OFFSET(0x1DA27A50)
-#define MIHOYO_SDK_WIN_QRCODE_GENERATEQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1DA27490)
-#define MIHOYO_SDK_WIN_QRCODE_START_OFFSET UNITYSDK_OFFSET(0x1DA272C0)
-#define MIHOYO_SDK_WIN_QRCODE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DA27430)
-#define MIHOYO_SDK_WIN_QRCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA27D30)
+#define MIHOYO_SDK_WIN_QRCODE_CREATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1DC454A0)
+#define MIHOYO_SDK_WIN_QRCODE_ENCODE_OFFSET UNITYSDK_OFFSET(0x1DC452E0)
+#define MIHOYO_SDK_WIN_QRCODE_GENERATEQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1DC44D20)
+#define MIHOYO_SDK_WIN_QRCODE_START_OFFSET UNITYSDK_OFFSET(0x1DC44B50)
+#define MIHOYO_SDK_WIN_QRCODE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DC44CC0)
+#define MIHOYO_SDK_WIN_QRCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC455B0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int QRCode_TypeDefinitionIndex = 21640;
+	inline static constexpr unsigned int QRCode_TypeDefinitionIndex = 20840;
 
 	class QRCode : public ::UnityEngine::MonoBehaviour
 	{

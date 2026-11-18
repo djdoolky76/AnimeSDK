@@ -9,12 +9,12 @@ namespace System { template <typename T> class IObservable_1; }
 namespace System { template <typename T> class IObserver_1; }
 namespace UnityEngine::InputSystem { class InputDevice; }
 
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1EB0C9C0)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0C9B0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1EE77F90)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_FORDEVICEEVENTOBSERVABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE77F80)
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int ForDeviceEventObservable_TypeDefinitionIndex = 32684;
+	inline static constexpr unsigned int ForDeviceEventObservable_TypeDefinitionIndex = 32133;
 
 	class ForDeviceEventObservable : public ::System::Object
 	{

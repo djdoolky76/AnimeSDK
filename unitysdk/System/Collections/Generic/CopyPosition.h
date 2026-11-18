@@ -4,16 +4,16 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_GET_COLUMN_OFFSET UNITYSDK_OFFSET(0x424ED0)
-#define SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_GET_DEBUGGERDISPLAY_OFFSET UNITYSDK_OFFSET(0x90FD00)
-#define SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_GET_ROW_OFFSET UNITYSDK_OFFSET(0x325570)
-#define SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_GET_START_OFFSET UNITYSDK_OFFSET(0x1C6F3D70)
-#define SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x90FCD0)
-#define SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x312BA0)
+#define SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_GET_COLUMN_OFFSET UNITYSDK_OFFSET(0x3CE9E0)
+#define SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_GET_DEBUGGERDISPLAY_OFFSET UNITYSDK_OFFSET(0x85AC40)
+#define SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_GET_ROW_OFFSET UNITYSDK_OFFSET(0x359320)
+#define SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_GET_START_OFFSET UNITYSDK_OFFSET(0x1CBD3950)
+#define SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x85AC10)
+#define SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x2E4140)
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int CopyPosition_TypeDefinitionIndex = 3944;
+	inline static constexpr unsigned int CopyPosition_TypeDefinitionIndex = 3943;
 
 	struct alignas(4) CopyPosition
 	{
@@ -25,10 +25,12 @@ namespace System::Collections::Generic
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION__CTOR_OFFSET))(this, row, column);
 		}
 
+		/*
 		static ::System::Collections::Generic::CopyPosition get_Start()
 		{
 			return ((::System::Collections::Generic::CopyPosition(*)())((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_GET_START_OFFSET))();
 		}
+		*/
 
 		::System::Int32 get_Row()
 		{
@@ -40,10 +42,12 @@ namespace System::Collections::Generic
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_GET_COLUMN_OFFSET))(this);
 		}
 
+		/*
 		::System::Collections::Generic::CopyPosition Normalize(::System::Int32 endColumn)
 		{
 			return ((::System::Collections::Generic::CopyPosition(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_COPYPOSITION_NORMALIZE_OFFSET))(this, endColumn);
 		}
+		*/
 
 		::System::String* get_DebuggerDisplay()
 		{

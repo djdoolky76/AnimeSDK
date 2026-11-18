@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/JSONDeserialization_TaskField.h"
+#include "unitysdk/UnityEngine/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
-#include "unitysdk/UnityEngine/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
@@ -26,52 +25,52 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_DESERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F1DE3F0)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_DESERIALIZESHAREDVARIABLE_OFFSET UNITYSDK_OFFSET(0x1F1DD670)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_DESERIALIZETASK_OFFSET UNITYSDK_OFFSET(0x1F1DC6E0)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_DESERIALIZEVARIABLES_OFFSET UNITYSDK_OFFSET(0x1F1DC2E0)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_GET_TASKIDS_OFFSET UNITYSDK_OFFSET(0x1F1DAA90)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_INDEXTOUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0x1F1E0910)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_LOAD_1_OFFSET UNITYSDK_OFFSET(0x1F1DD200)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_LOAD_OFFSET UNITYSDK_OFFSET(0x1F1DAB50)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_SET_TASKIDS_OFFSET UNITYSDK_OFFSET(0x1F1DAAF0)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOCOLOR_OFFSET UNITYSDK_OFFSET(0x1F1E2780)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOMATRIX4X4_OFFSET UNITYSDK_OFFSET(0x1F1E2130)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOQUATERNION_OFFSET UNITYSDK_OFFSET(0x1F1E1ED0)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTORECT_OFFSET UNITYSDK_OFFSET(0x1F1E29F0)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOVECTOR2INT_OFFSET UNITYSDK_OFFSET(0x1F1E16A0)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOVECTOR2_OFFSET UNITYSDK_OFFSET(0x1F1E14F0)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOVECTOR3INT_OFFSET UNITYSDK_OFFSET(0x1F1E1A60)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOVECTOR3_OFFSET UNITYSDK_OFFSET(0x1F1E1840)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOVECTOR4_OFFSET UNITYSDK_OFFSET(0x1F1E1C60)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_VALUETOANIMATIONCURVE_OFFSET UNITYSDK_OFFSET(0x1F1E2D30)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_VALUETOLAYERMASK_OFFSET UNITYSDK_OFFSET(0x1F1E2CF0)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_VALUETOOBJECT_OFFSET UNITYSDK_OFFSET(0x1F1E0AA0)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1E3550)
-#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1E3500)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_DESERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F5D9D10)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_DESERIALIZESHAREDVARIABLE_OFFSET UNITYSDK_OFFSET(0x1F5D8F80)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_DESERIALIZETASK_OFFSET UNITYSDK_OFFSET(0x1F5D8000)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_DESERIALIZEVARIABLES_OFFSET UNITYSDK_OFFSET(0x1F5D7C00)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_GET_TASKIDS_OFFSET UNITYSDK_OFFSET(0x1F5D63D0)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_INDEXTOUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0x1F5DC240)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_LOAD_1_OFFSET UNITYSDK_OFFSET(0x1F5D8B30)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_LOAD_OFFSET UNITYSDK_OFFSET(0x1F5D6490)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_SET_TASKIDS_OFFSET UNITYSDK_OFFSET(0x1F5D6430)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOCOLOR_OFFSET UNITYSDK_OFFSET(0x1F5DE0B0)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOMATRIX4X4_OFFSET UNITYSDK_OFFSET(0x1F5DDA60)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOQUATERNION_OFFSET UNITYSDK_OFFSET(0x1F5DD800)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTORECT_OFFSET UNITYSDK_OFFSET(0x1F5DE320)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOVECTOR2INT_OFFSET UNITYSDK_OFFSET(0x1F5DCFD0)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOVECTOR2_OFFSET UNITYSDK_OFFSET(0x1F5DCE20)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOVECTOR3INT_OFFSET UNITYSDK_OFFSET(0x1F5DD390)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOVECTOR3_OFFSET UNITYSDK_OFFSET(0x1F5DD170)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_STRINGTOVECTOR4_OFFSET UNITYSDK_OFFSET(0x1F5DD590)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_VALUETOANIMATIONCURVE_OFFSET UNITYSDK_OFFSET(0x1F5DE660)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_VALUETOLAYERMASK_OFFSET UNITYSDK_OFFSET(0x1F5DE620)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_VALUETOOBJECT_OFFSET UNITYSDK_OFFSET(0x1F5DC3D0)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5DEE80)
+#define BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DEE30)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int JSONDeserialization_TypeDefinitionIndex = 33881;
+	inline static constexpr unsigned int JSONDeserialization_TypeDefinitionIndex = 33427;
 
 	class JSONDeserialization : public ::UnityEngine::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>** StaticGet_serializationCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(JSONDeserialization_TypeDefinitionIndex)->GetStaticField(0x28C60);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(JSONDeserialization_TypeDefinitionIndex)->GetStaticField(0x29EA0);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::BehaviorDesigner::Runtime::JSONDeserialization_TaskField, ::System::Collections::Generic::List_1<::System::Int32>*>** StaticGet_taskIDs()
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::List_1<::System::Int32>*>** StaticGet_taskIDs()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::BehaviorDesigner::Runtime::JSONDeserialization_TaskField, ::System::Collections::Generic::List_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(JSONDeserialization_TypeDefinitionIndex)->GetStaticField(0x28C68);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::List_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(JSONDeserialization_TypeDefinitionIndex)->GetStaticField(0x29EA8);
 		}
 		static ::BehaviorDesigner::Runtime::GlobalVariables** StaticGet_globalVariables()
 		{
-			return (::BehaviorDesigner::Runtime::GlobalVariables**)Il2CppClass::FromTypeDefinitionIndex(JSONDeserialization_TypeDefinitionIndex)->GetStaticField(0x28C70);
+			return (::BehaviorDesigner::Runtime::GlobalVariables**)Il2CppClass::FromTypeDefinitionIndex(JSONDeserialization_TypeDefinitionIndex)->GetStaticField(0x29EB0);
 		}
 		static ::System::Boolean* StaticGet_updatedSerialization()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(JSONDeserialization_TypeDefinitionIndex)->GetStaticField(0x81E0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(JSONDeserialization_TypeDefinitionIndex)->GetStaticField(0x8610);
 		}
 
 		::System::Void _ctor()
@@ -84,14 +83,14 @@ namespace BehaviorDesigner::Runtime
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION__CCTOR_OFFSET))();
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::BehaviorDesigner::Runtime::JSONDeserialization_TaskField, ::System::Collections::Generic::List_1<::System::Int32>*>* get_TaskIDs()
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::List_1<::System::Int32>*>* get_TaskIDs()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::BehaviorDesigner::Runtime::JSONDeserialization_TaskField, ::System::Collections::Generic::List_1<::System::Int32>*>*(*)())((::PBYTE)hIl2Cpp + BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_GET_TASKIDS_OFFSET))();
+			return ((::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::List_1<::System::Int32>*>*(*)())((::PBYTE)hIl2Cpp + BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_GET_TASKIDS_OFFSET))();
 		}
 
-		static ::System::Void set_TaskIDs(::System::Collections::Generic::Dictionary_2<::BehaviorDesigner::Runtime::JSONDeserialization_TaskField, ::System::Collections::Generic::List_1<::System::Int32>*>* value)
+		static ::System::Void set_TaskIDs(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::List_1<::System::Int32>*>* value)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::BehaviorDesigner::Runtime::JSONDeserialization_TaskField, ::System::Collections::Generic::List_1<::System::Int32>*>*))((::PBYTE)hIl2Cpp + BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_SET_TASKIDS_OFFSET))(value);
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::List_1<::System::Int32>*>*))((::PBYTE)hIl2Cpp + BEHAVIORDESIGNER_RUNTIME_JSONDESERIALIZATION_SET_TASKIDS_OFFSET))(value);
 		}
 
 		static ::System::Void Load(::BehaviorDesigner::Runtime::TaskSerializationData* taskData, ::BehaviorDesigner::Runtime::BehaviorSource* behaviorSource, ::System::Boolean loadTasks)

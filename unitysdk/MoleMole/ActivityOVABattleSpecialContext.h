@@ -3,21 +3,22 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_C95A10C506447F87;
+class NHJBOMLNMIH;
 
-#define MOLEMOLE_ACTIVITYOVABATTLESPECIALCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x150D8490)
+#define MOLEMOLE_ACTIVITYOVABATTLESPECIALCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19216F80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityOVABattleSpecialContext_TypeDefinitionIndex = 63031;
+	inline static constexpr unsigned int ActivityOVABattleSpecialContext_TypeDefinitionIndex = 87000;
 
 	class ActivityOVABattleSpecialContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_C95A10C506447F87* entryData; // 0x28
-		::Foundation::AssetPath BackGroundPic; // 0x30
-		::System::Int32 selectLevel; // 0x40
-		::System::Boolean selectHard; // 0x44
+		::Foundation::AssetPath BackGroundPic; // 0x28
+		::NHJBOMLNMIH* entryData; // 0x38
+		::System::Boolean selectHard; // 0x40
+		::System::Byte _padding0[0x3];
+		::System::Int32 selectLevel; // 0x44
 
 		::System::Void _ctor()
 		{

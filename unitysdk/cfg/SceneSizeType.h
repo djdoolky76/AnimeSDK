@@ -3,13 +3,13 @@
 
 namespace cfg
 {
-	inline static constexpr unsigned int SceneSizeType_TypeDefinitionIndex = 15410;
+	inline static constexpr unsigned int SceneSizeType_TypeDefinitionIndex = 11875;
 
 	enum class SceneSizeType : ::System::Int32
 	{
 		Small = 2,
-		Large = 4,
-		Xsmall = 1,
 		Middle = 3,
+		Xsmall = 1,
+		Large = 4,
 	};
 }

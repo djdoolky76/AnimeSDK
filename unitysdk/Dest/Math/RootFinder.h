@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/Dest/Math/BrentsRoot.h"
 #include "unitysdk/Dest/Math/CubicRoots.h"
 #include "unitysdk/Dest/Math/QuadraticRoots.h"
 #include "unitysdk/Dest/Math/QuarticRoots.h"
-#include "unitysdk/System/Object.h"
 
 namespace Dest::Math { class Polynomial; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DEST_MATH_ROOTFINDER_BRENTSMETHOD_OFFSET UNITYSDK_OFFSET(0x1F2B0B60)
-#define DEST_MATH_ROOTFINDER_CUBIC_OFFSET UNITYSDK_OFFSET(0x1F2B11A0)
-#define DEST_MATH_ROOTFINDER_LINEAR_OFFSET UNITYSDK_OFFSET(0x1F2B0FC0)
-#define DEST_MATH_ROOTFINDER_POLYNOMIALBOUND_OFFSET UNITYSDK_OFFSET(0x1F2B1BE0)
-#define DEST_MATH_ROOTFINDER_POLYNOMIAL_1_OFFSET UNITYSDK_OFFSET(0x1F2B1DC0)
-#define DEST_MATH_ROOTFINDER_POLYNOMIAL_OFFSET UNITYSDK_OFFSET(0x1F2B1CC0)
-#define DEST_MATH_ROOTFINDER_QUADRATIC_OFFSET UNITYSDK_OFFSET(0x1F2B1000)
-#define DEST_MATH_ROOTFINDER_QUARTIC_OFFSET UNITYSDK_OFFSET(0x1F2B16D0)
-#define DEST_MATH_ROOTFINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2B1F70)
+#define DEST_MATH_ROOTFINDER_BRENTSMETHOD_OFFSET UNITYSDK_OFFSET(0x1F6CAEE0)
+#define DEST_MATH_ROOTFINDER_CUBIC_OFFSET UNITYSDK_OFFSET(0x1F6CB520)
+#define DEST_MATH_ROOTFINDER_LINEAR_OFFSET UNITYSDK_OFFSET(0x1F6CB340)
+#define DEST_MATH_ROOTFINDER_POLYNOMIALBOUND_OFFSET UNITYSDK_OFFSET(0x1F6CBF60)
+#define DEST_MATH_ROOTFINDER_POLYNOMIAL_1_OFFSET UNITYSDK_OFFSET(0x1F6CC140)
+#define DEST_MATH_ROOTFINDER_POLYNOMIAL_OFFSET UNITYSDK_OFFSET(0x1F6CC040)
+#define DEST_MATH_ROOTFINDER_QUADRATIC_OFFSET UNITYSDK_OFFSET(0x1F6CB380)
+#define DEST_MATH_ROOTFINDER_QUARTIC_OFFSET UNITYSDK_OFFSET(0x1F6CBA50)
+#define DEST_MATH_ROOTFINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6CC2F0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int RootFinder_TypeDefinitionIndex = 35408;
+	inline static constexpr unsigned int RootFinder_TypeDefinitionIndex = 34981;
 
 	class RootFinder : public ::System::Object
 	{
 	public:
 		static ::System::Single* StaticGet_sqrt3()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RootFinder_TypeDefinitionIndex)->GetStaticField(0x8670);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RootFinder_TypeDefinitionIndex)->GetStaticField(0x8B20);
 		}
 		// static const ::System::Single third; // 0x0
 		// static const ::System::Single twentySeventh; // 0x0

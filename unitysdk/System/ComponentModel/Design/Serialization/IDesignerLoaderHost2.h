@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel::Design::Serialization
 {
-	inline static constexpr unsigned int IDesignerLoaderHost2_TypeDefinitionIndex = 3103;
+	inline static constexpr unsigned int IDesignerLoaderHost2_TypeDefinitionIndex = 3102;
 
 	class IDesignerLoaderHost2
 	{

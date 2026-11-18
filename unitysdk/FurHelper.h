@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FurHelper_RenderMode.h"
+#include "unitysdk/UnityEngine/Rendering/SphericalHarmonicsL2.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Rendering/SphericalHarmonicsL2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
@@ -13,29 +13,29 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define FURHELPER_GENERATEINSTANCEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CB01220)
-#define FURHELPER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CAFF150)
-#define FURHELPER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CAFF100)
-#define FURHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CAFE9B0)
-#define FURHELPER_ONINIT_OFFSET UNITYSDK_OFFSET(0x1CAFECD0)
-#define FURHELPER_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1CAFF1E0)
-#define FURHELPER_PREPAREBINDCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1CB00BC0)
-#define FURHELPER_REBUILDMATPROP_OFFSET UNITYSDK_OFFSET(0x1CAFFE70)
-#define FURHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB01610)
-#define FURHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB01560)
+#define FURHELPER_GENERATEINSTANCEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CEBEB70)
+#define FURHELPER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CEBC800)
+#define FURHELPER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CEBC7B0)
+#define FURHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CEBC060)
+#define FURHELPER_ONINIT_OFFSET UNITYSDK_OFFSET(0x1CEBC380)
+#define FURHELPER_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1CEBC890)
+#define FURHELPER_PREPAREBINDCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1CEBE510)
+#define FURHELPER_REBUILDMATPROP_OFFSET UNITYSDK_OFFSET(0x1CEBD610)
+#define FURHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEBEF80)
+#define FURHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEBEEB0)
 
-inline static constexpr unsigned int FurHelper_TypeDefinitionIndex = 27703;
+inline static constexpr unsigned int FurHelper_TypeDefinitionIndex = 26965;
 
 class FurHelper : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_FurHelperUpdateMaterial()
-	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FurHelper_TypeDefinitionIndex)->GetStaticField(0x23860);
-	}
 	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_FurHelperOnWillRenderObject()
 	{
-		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FurHelper_TypeDefinitionIndex)->GetStaticField(0x23868);
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FurHelper_TypeDefinitionIndex)->GetStaticField(0x248B0);
+	}
+	static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_FurHelperUpdateMaterial()
+	{
+		return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(FurHelper_TypeDefinitionIndex)->GetStaticField(0x248B8);
 	}
 	::FurHelper_RenderMode furMaterialRenderMode; // 0x18
 	::System::UInt32 furMaterialIndex; // 0x1C
@@ -48,22 +48,29 @@ public:
 	::System::Single furDetailDistance; // 0x2C
 	::UnityEngine::Renderer* m_FurRenderer; // 0x30
 	::System::Boolean m_IsMeshRenderer; // 0x38
+	::System::Byte _padding0[0x7];
 	::UnityEngine::MeshFilter* m_MeshFilter; // 0x40
 	::UnityEngine::MaterialPropertyBlock* m_FurMatPropBlock; // 0x48
 	::System::Boolean m_NeedRebuildMatProp; // 0x50
 	::System::Boolean m_NeedReComputeProbe; // 0x51
+	::System::Byte _padding1[0x2];
 	::System::Int32 m_CachedLayersNum; // 0x54
 	::System::Boolean m_CachedFurAdditionalLightsOff; // 0x58
 	::System::Boolean m_IsValidFurRenderer; // 0x59
+	::System::Byte _padding2[0x6];
 	::Il2CppArray<::UnityEngine::Vector4>* m_CachedLightMapScaleOffsetData; // 0x60
 	::Il2CppArray<::UnityEngine::Rendering::SphericalHarmonicsL2>* m_CachedProbesData; // 0x68
 	::Il2CppArray<::System::Single>* m_CachedFurSteps; // 0x70
 	::UnityEngine::Vector3 m_CachedPosition; // 0x78
+	::System::Byte _padding3[0x4];
 	::UnityEngine::Material* m_InstancedFurMaterial; // 0x88
 	::UnityEngine::Matrix4x4 m_CachedLocalToWorldMatrix; // 0x90
 	::System::Boolean m_CachedIsOddScale; // 0xD0
 	::System::Boolean m_CachedDitherSwitchOn; // 0xD1
 	::System::Boolean m_CachedLightMapOn; // 0xD2
+	::System::Byte _padding4[0x1];
+	::System::Int32 m_CachedLightmapIndex; // 0xD4
+	::UnityEngine::Vector4 m_CachedLightmapScaleOffset; // 0xD8
 
 	::System::Void _ctor()
 	{

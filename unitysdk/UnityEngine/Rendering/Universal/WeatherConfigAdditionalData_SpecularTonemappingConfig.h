@@ -7,16 +7,17 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_SPECULARTONEMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E265A30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_SPECULARTONEMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E383270)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WeatherConfigAdditionalData_SpecularTonemappingConfig_TypeDefinitionIndex = 27785;
+	inline static constexpr unsigned int WeatherConfigAdditionalData_SpecularTonemappingConfig_TypeDefinitionIndex = 26590;
 
 	class WeatherConfigAdditionalData_SpecularTonemappingConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean enableSpecularTonemapping; // 0x10
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Texture2D* specularTonemappingLut; // 0x18
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* specularToneCurve_master; // 0x20
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* specularToneCurve_red; // 0x28

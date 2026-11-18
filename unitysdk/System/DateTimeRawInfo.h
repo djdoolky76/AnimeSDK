@@ -3,9 +3,9 @@
 #include "unitysdk/System/DateTimeParse_TM.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_DATETIMERAWINFO_ADDNUMBER_OFFSET UNITYSDK_OFFSET(0x983600)
-#define SYSTEM_DATETIMERAWINFO_GETNUMBER_OFFSET UNITYSDK_OFFSET(0x345070)
-#define SYSTEM_DATETIMERAWINFO_INIT_OFFSET UNITYSDK_OFFSET(0x9835D0)
+#define SYSTEM_DATETIMERAWINFO_ADDNUMBER_OFFSET UNITYSDK_OFFSET(0x8C00D0)
+#define SYSTEM_DATETIMERAWINFO_GETNUMBER_OFFSET UNITYSDK_OFFSET(0x385050)
+#define SYSTEM_DATETIMERAWINFO_INIT_OFFSET UNITYSDK_OFFSET(0x8C00A0)
 
 namespace System
 {
@@ -13,7 +13,7 @@ namespace System
 
 	struct alignas(8) DateTimeRawInfo
 	{
-		::System::Int32* num; // 0x10
+		::PVOID num; // 0x10
 		::System::Int32 numCount; // 0x18
 		::System::Int32 month; // 0x1C
 		::System::Int32 year; // 0x20
@@ -24,9 +24,9 @@ namespace System
 		::System::Boolean hasSameDateAndTimeSeparators; // 0x38
 		::System::Boolean timeZone; // 0x39
 
-		::System::Void Init(::System::Int32* numberBuffer)
+		::System::Void Init(::PVOID numberBuffer)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32*))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERAWINFO_INIT_OFFSET))(this, numberBuffer);
+			return ((::System::Void(*)(::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DATETIMERAWINFO_INIT_OFFSET))(this, numberBuffer);
 		}
 
 		::System::Void AddNumber(::System::Int32 value)

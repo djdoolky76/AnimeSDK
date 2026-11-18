@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/GGOJIPIFDHO.h"
+#include "unitysdk/GGOJIPIFDHO_HALBMICGENH.h"
+#include "unitysdk/GGOJIPIFDHO_LOLAIKLHEMF.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace UnityEngine { class Collider; }
+namespace UnityEngine { class Transform; }
+
+#define GGOJIPIFDHO_BJNKGHCBIJM_AHECPNPJEKM_OFFSET UNITYSDK_OFFSET(0xBB8F1A0)
+#define GGOJIPIFDHO_BJNKGHCBIJM_AMEGHCHMIOD_OFFSET UNITYSDK_OFFSET(0xBB8E740)
+#define GGOJIPIFDHO_BJNKGHCBIJM_FHCPFFMMEOC_OFFSET UNITYSDK_OFFSET(0xBB8EA40)
+#define GGOJIPIFDHO_BJNKGHCBIJM_GOCLDCDPGCG_OFFSET UNITYSDK_OFFSET(0xBB8E8D0)
+#define GGOJIPIFDHO_BJNKGHCBIJM_IDKCCOCCOII_OFFSET UNITYSDK_OFFSET(0xBB8ED90)
+#define GGOJIPIFDHO_BJNKGHCBIJM_MFPMAPKGAIN_OFFSET UNITYSDK_OFFSET(0xBB8ED70)
+#define GGOJIPIFDHO_BJNKGHCBIJM__CTOR_OFFSET UNITYSDK_OFFSET(0xBB8F190)
+
+inline static constexpr unsigned int GGOJIPIFDHO_BJNKGHCBIJM_TypeDefinitionIndex = 83235;
+
+class GGOJIPIFDHO_BJNKGHCBIJM : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_BJNKGHCBIJM__CTOR_OFFSET))(this);
+	}
+
+	::System::Void AMEGHCHMIOD(::GGOJIPIFDHO& PHMKLMLBNCA, ::UnityEngine::Collider* EHHHMFKHNAI)
+	{
+		return ((::System::Void(*)(::PVOID, ::GGOJIPIFDHO&, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_BJNKGHCBIJM_AMEGHCHMIOD_OFFSET))(this, PHMKLMLBNCA, EHHHMFKHNAI);
+	}
+
+	::UnityEngine::Vector3 GOCLDCDPGCG(::UnityEngine::Collider* EHHHMFKHNAI)
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_BJNKGHCBIJM_GOCLDCDPGCG_OFFSET))(this, EHHHMFKHNAI);
+	}
+
+	::System::Single FHCPFFMMEOC(::UnityEngine::Collider* EHHHMFKHNAI, ::GGOJIPIFDHO_HALBMICGENH& AAOCANGHBDG, ::GGOJIPIFDHO_LOLAIKLHEMF& OBIPHBKODPP)
+	{
+		return ((::System::Single(*)(::PVOID, ::UnityEngine::Collider*, ::GGOJIPIFDHO_HALBMICGENH&, ::GGOJIPIFDHO_LOLAIKLHEMF&))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_BJNKGHCBIJM_FHCPFFMMEOC_OFFSET))(this, EHHHMFKHNAI, AAOCANGHBDG, OBIPHBKODPP);
+	}
+
+	::System::Single AHECPNPJEKM(::UnityEngine::Collider* EHHHMFKHNAI, ::GGOJIPIFDHO_HALBMICGENH& AAOCANGHBDG, ::GGOJIPIFDHO_LOLAIKLHEMF& OBIPHBKODPP)
+	{
+		return ((::System::Single(*)(::PVOID, ::UnityEngine::Collider*, ::GGOJIPIFDHO_HALBMICGENH&, ::GGOJIPIFDHO_LOLAIKLHEMF&))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_BJNKGHCBIJM_AHECPNPJEKM_OFFSET))(this, EHHHMFKHNAI, AAOCANGHBDG, OBIPHBKODPP);
+	}
+
+	static ::System::Void MFPMAPKGAIN(::System::Single& EGEGIMGMJHN, ::System::Single DNFNKBNBJHM, ::GGOJIPIFDHO_HALBMICGENH& HBMGHPEPBNC)
+	{
+		return ((::System::Void(*)(::System::Single&, ::System::Single, ::GGOJIPIFDHO_HALBMICGENH&))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_BJNKGHCBIJM_MFPMAPKGAIN_OFFSET))(EGEGIMGMJHN, DNFNKBNBJHM, HBMGHPEPBNC);
+	}
+
+	::System::Void IDKCCOCCOII(::UnityEngine::Transform* GKBJOPJKCLB, ::UnityEngine::Vector3& HAAEBCOBKFF, ::UnityEngine::Vector3& BFMMEICFNCD, ::UnityEngine::Vector3& GNHOCNHLCCA)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + GGOJIPIFDHO_BJNKGHCBIJM_IDKCCOCCOII_OFFSET))(this, GKBJOPJKCLB, HAAEBCOBKFF, BFMMEICFNCD, GNHOCNHLCCA);
+	}
+};

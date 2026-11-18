@@ -6,13 +6,13 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SQLITE_CREATETABLESRESULT_GET_RESULTS_OFFSET UNITYSDK_OFFSET(0x1E9FA5C0)
-#define SQLITE_CREATETABLESRESULT_SET_RESULTS_OFFSET UNITYSDK_OFFSET(0x1E9FA5D0)
-#define SQLITE_CREATETABLESRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FA5E0)
+#define SQLITE_CREATETABLESRESULT_GET_RESULTS_OFFSET UNITYSDK_OFFSET(0x1ECEF250)
+#define SQLITE_CREATETABLESRESULT_SET_RESULTS_OFFSET UNITYSDK_OFFSET(0x1ECEF260)
+#define SQLITE_CREATETABLESRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECEF270)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int CreateTablesResult_TypeDefinitionIndex = 39078;
+	inline static constexpr unsigned int CreateTablesResult_TypeDefinitionIndex = 37078;
 
 	class CreateTablesResult : public ::System::Object
 	{

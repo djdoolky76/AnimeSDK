@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::StateMachines
 {
-	inline static constexpr unsigned int NestedFSMState_FSMExitMode_TypeDefinitionIndex = 30815;
+	inline static constexpr unsigned int NestedFSMState_FSMExitMode_TypeDefinitionIndex = 30579;
 
 	enum class NestedFSMState_FSMExitMode : ::System::Int32
 	{

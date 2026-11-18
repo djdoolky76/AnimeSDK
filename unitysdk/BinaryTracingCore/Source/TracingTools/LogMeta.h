@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BinaryTracingCore/Source/TracingTools/LogMetaType.h"
 #include "unitysdk/BinaryTracingCore/Source/TracingTools/LogProperty.h"
-#include "unitysdk/BinaryTracingFramework/Serialize/BaseSerializeableObject_1.h"
 #include "unitysdk/System/Guid.h"
 
 namespace BinaryTracingFramework::Serialize { class BaseArchive; }
@@ -11,24 +10,24 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA_GET_METATYPE_OFFSET UNITYSDK_OFFSET(0x1F651290)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA_GET_PROPERTIESVIEW_OFFSET UNITYSDK_OFFSET(0x1F651230)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA_MATCH_OFFSET UNITYSDK_OFFSET(0x1F6513E0)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F651730)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA_SET_METATYPE_OFFSET UNITYSDK_OFFSET(0x1F6512A0)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F6512B0)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F651340)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F650F00)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA_GET_METATYPE_OFFSET UNITYSDK_OFFSET(0x1FA33A90)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA_GET_PROPERTIESVIEW_OFFSET UNITYSDK_OFFSET(0x1FA33A30)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA_MATCH_OFFSET UNITYSDK_OFFSET(0x1FA33BE0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1FA33F30)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA_SET_METATYPE_OFFSET UNITYSDK_OFFSET(0x1FA33AA0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FA33AB0)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1FA33B40)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGMETA__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA33700)
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int LogMeta_TypeDefinitionIndex = 34594;
+	inline static constexpr unsigned int LogMeta_TypeDefinitionIndex = 34140;
 
-	class LogMeta : public ::BinaryTracingFramework::Serialize::BaseSerializeableObject_1<::BinaryTracingCore::Source::TracingTools::LogMeta*>
+	class LogMeta
 	{
 	public:
-		::System::Collections::Generic::List_1<::BinaryTracingCore::Source::TracingTools::LogProperty>* Properties; // 0x10
-		::System::String* ArcheTypeName; // 0x18
+		::System::String* ArcheTypeName; // 0x10
+		::System::Collections::Generic::List_1<::BinaryTracingCore::Source::TracingTools::LogProperty>* Properties; // 0x18
 		::System::Int32 metaType; // 0x20
 		::System::Guid ArcheTypeGuid; // 0x24
 

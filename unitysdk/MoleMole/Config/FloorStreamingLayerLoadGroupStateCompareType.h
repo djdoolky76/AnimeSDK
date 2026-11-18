@@ -3,15 +3,15 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int FloorStreamingLayerLoadGroupStateCompareType_TypeDefinitionIndex = 74840;
+	inline static constexpr unsigned int FloorStreamingLayerLoadGroupStateCompareType_TypeDefinitionIndex = 56386;
 
 	enum class FloorStreamingLayerLoadGroupStateCompareType : ::System::Int32
 	{
 		NEQ = 1,
-		GTE = 3,
-		EQ = 0,
-		GT = 2,
-		LT = 4,
 		LTE = 5,
+		LT = 4,
+		GT = 2,
+		EQ = 0,
+		GTE = 3,
 	};
 }

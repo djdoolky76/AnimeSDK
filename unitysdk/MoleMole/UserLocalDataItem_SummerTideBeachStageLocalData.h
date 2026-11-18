@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UserLocalDataItem_SummerTideBeachStageLocalData_TypeDefinitionIndex = 70354;
+	inline static constexpr unsigned int UserLocalDataItem_SummerTideBeachStageLocalData_TypeDefinitionIndex = 89798;
 
 	struct alignas(4) UserLocalDataItem_SummerTideBeachStageLocalData
 	{

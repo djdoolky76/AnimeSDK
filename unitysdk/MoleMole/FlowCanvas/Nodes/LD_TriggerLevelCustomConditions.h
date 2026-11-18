@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_TRIGGERLEVELCUSTOMCONDITIONS_INVOKE_OFFSET UNITYSDK_OFFSET(0x129A03B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_TRIGGERLEVELCUSTOMCONDITIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x129A0400)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_TRIGGERLEVELCUSTOMCONDITIONS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1245F5E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_TRIGGERLEVELCUSTOMCONDITIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1245F670)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_TriggerLevelCustomConditions_TypeDefinitionIndex = 69335;
+	inline static constexpr unsigned int LD_TriggerLevelCustomConditions_TypeDefinitionIndex = 83350;
 
-	class LD_TriggerLevelCustomConditions : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Int32>
+	class LD_TriggerLevelCustomConditions
 	{
 	public:
 		::System::Void _ctor()

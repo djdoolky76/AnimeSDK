@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_7B8672D4F89E3D96;
-class Class_1_8F791B6D1CAFC248;
+class KLOGCCEEFIA;
+class OJDOCJLOJGG;
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MONOINTERACTINFO_GET_INTERACTSINFO_OFFSET UNITYSDK_OFFSET(0x11C30000)
-#define MONOINTERACTINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x11C2FF70)
-#define MONOINTERACTINFO_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x11C2FFF0)
-#define MONOINTERACTINFO_GET_SHAPE_OFFSET UNITYSDK_OFFSET(0x11C2FFD0)
-#define MONOINTERACTINFO_SETINTERACTCONFIG_OFFSET UNITYSDK_OFFSET(0x11C30010)
-#define MONOINTERACTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11C304F0)
+#define MONOINTERACTINFO_GET_INTERACTSINFO_OFFSET UNITYSDK_OFFSET(0x11396110)
+#define MONOINTERACTINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x11396080)
+#define MONOINTERACTINFO_GET_SCALE_OFFSET UNITYSDK_OFFSET(0x11396100)
+#define MONOINTERACTINFO_GET_SHAPE_OFFSET UNITYSDK_OFFSET(0x113960E0)
+#define MONOINTERACTINFO_SETINTERACTCONFIG_OFFSET UNITYSDK_OFFSET(0x11396120)
+#define MONOINTERACTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11396600)
 
-inline static constexpr unsigned int MonoInteractInfo_TypeDefinitionIndex = 53943;
+inline static constexpr unsigned int MonoInteractInfo_TypeDefinitionIndex = 87668;
 
 class MonoInteractInfo : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::String* _scale; // 0x18
-	::Class_1_7B8672D4F89E3D96* _interactConfig; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_8F791B6D1CAFC248*>* _interactsInfo; // 0x28
+	::OJDOCJLOJGG* _interactConfig; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::KLOGCCEEFIA*>* _interactsInfo; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -44,13 +44,13 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOINTERACTINFO_GET_SCALE_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_8F791B6D1CAFC248*>* get_InteractsInfo()
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::KLOGCCEEFIA*>* get_InteractsInfo()
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_8F791B6D1CAFC248*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOINTERACTINFO_GET_INTERACTSINFO_OFFSET))(this);
+		return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::KLOGCCEEFIA*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOINTERACTINFO_GET_INTERACTSINFO_OFFSET))(this);
 	}
 
-	::System::Void SetInteractConfig(::MoleMole::Battle::Entity* owner, ::Class_1_7B8672D4F89E3D96* interactConfig)
+	::System::Void SetInteractConfig(::MoleMole::Battle::Entity* owner, ::OJDOCJLOJGG* interactConfig)
 	{
-		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::Class_1_7B8672D4F89E3D96*))((::PBYTE)hIl2Cpp + MONOINTERACTINFO_SETINTERACTCONFIG_OFFSET))(this, owner, interactConfig);
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*, ::OJDOCJLOJGG*))((::PBYTE)hIl2Cpp + MONOINTERACTINFO_SETINTERACTCONFIG_OFFSET))(this, owner, interactConfig);
 	}
 };

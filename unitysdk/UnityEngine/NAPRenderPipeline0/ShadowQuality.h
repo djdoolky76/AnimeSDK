@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ShadowQuality_TypeDefinitionIndex = 5880;
+	inline static constexpr unsigned int ShadowQuality_TypeDefinitionIndex = 5886;
 
 	enum class ShadowQuality : ::System::Int32
 	{

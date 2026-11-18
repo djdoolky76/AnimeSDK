@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_36;
-class Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C_1;
+class IANDOOLAALI_DLAAJNDJPLO;
+class OAEFGCLEHHO;
 
-#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18863440)
-#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18863480)
-#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__ONSELECTAVATAR_B__33_0_OFFSET UNITYSDK_OFFSET(0x18863490)
+#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x182451A0)
+#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x182451E0)
+#define MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__ONSELECTAVATAR_B__33_0_OFFSET UNITYSDK_OFFSET(0x182451F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuickEditPopWindowController___c_TypeDefinitionIndex = 70117;
+	inline static constexpr unsigned int UIQuickEditPopWindowController___c_TypeDefinitionIndex = 83763;
 
 	class UIQuickEditPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C_1** StaticGet___9__33_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C_1**)Il2CppClass::FromTypeDefinitionIndex(UIQuickEditPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x331A0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIQuickEditPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x35600);
 		}
-		static ::MoleMole::UIQuickEditPopWindowController___c** StaticGet___9()
+		static ::IANDOOLAALI_DLAAJNDJPLO** StaticGet___9__33_0()
 		{
-			return (::MoleMole::UIQuickEditPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIQuickEditPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x331A8);
+			return (::IANDOOLAALI_DLAAJNDJPLO**)Il2CppClass::FromTypeDefinitionIndex(UIQuickEditPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x35608);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnSelectAvatar_b__33_0(::Class_0_16E4307DCC419505_36* e)
+		::System::Void _OnSelectAvatar_b__33_0(::OAEFGCLEHHO* e)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_36*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__ONSELECTAVATAR_B__33_0_OFFSET))(this, e);
+			return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIQUICKEDITPOPWINDOWCONTROLLER___C__ONSELECTAVATAR_B__33_0_OFFSET))(this, e);
 		}
 	};
 }

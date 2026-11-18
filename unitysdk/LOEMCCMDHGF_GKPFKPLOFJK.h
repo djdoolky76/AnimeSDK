@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class CKOLCOGDGEO;
+class FEGNLFMDNPB;
+class LOEMCCMDHGF;
+
+#define LOEMCCMDHGF_GKPFKPLOFJK_EPFEFOPDPMO_OFFSET UNITYSDK_OFFSET(0x14D3E8F0)
+#define LOEMCCMDHGF_GKPFKPLOFJK_NFGKLKBLAAN_OFFSET UNITYSDK_OFFSET(0x14D3EB10)
+#define LOEMCCMDHGF_GKPFKPLOFJK_OPLIJKKDNFC_OFFSET UNITYSDK_OFFSET(0x14D3EA00)
+#define LOEMCCMDHGF_GKPFKPLOFJK__CTOR_OFFSET UNITYSDK_OFFSET(0x14D3E8E0)
+
+inline static constexpr unsigned int LOEMCCMDHGF_GKPFKPLOFJK_TypeDefinitionIndex = 48028;
+
+class LOEMCCMDHGF_GKPFKPLOFJK : public ::System::Object
+{
+public:
+	::LOEMCCMDHGF* KLHPEBKNIFB; // 0x10
+	::System::UInt32 DKBGLBIECBN; // 0x18
+	::System::UInt32 JOPKCFMMFBL; // 0x1C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOEMCCMDHGF_GKPFKPLOFJK__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EPFEFOPDPMO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOEMCCMDHGF_GKPFKPLOFJK_EPFEFOPDPMO_OFFSET))(this);
+	}
+
+	::System::Void OPLIJKKDNFC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOEMCCMDHGF_GKPFKPLOFJK_OPLIJKKDNFC_OFFSET))(this);
+	}
+
+	::System::Void NFGKLKBLAAN(::FEGNLFMDNPB* PIIPCLCCOIG, ::CKOLCOGDGEO* IGAAKDOIPNN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FEGNLFMDNPB*, ::CKOLCOGDGEO*))((::PBYTE)hIl2Cpp + LOEMCCMDHGF_GKPFKPLOFJK_NFGKLKBLAAN_OFFSET))(this, PIIPCLCCOIG, IGAAKDOIPNN);
+	}
+};

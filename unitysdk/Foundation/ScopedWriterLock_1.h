@@ -4,10 +4,10 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ScopedWriterLock_1_TypeDefinitionIndex = 8742;
+	inline static constexpr unsigned int ScopedWriterLock_1_TypeDefinitionIndex = 8795;
 
 	template <typename T>
-	struct ScopedWriterLock_1
+	struct alignas(8) ScopedWriterLock_1
 	{
 		T _lock; // 0x0
 	};

@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_B08A65FEB7150D0E;
-class Class_2_208CC9941471731A_1150;
+class ILFCBBADGKM;
+class OMIOAJGHCAM;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1930D980)
-#define MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1930D9C0)
-#define MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__REBUILDROLEDATALIST_B__25_0_OFFSET UNITYSDK_OFFSET(0x1930D9D0)
-#define MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__REFRESHREWARDPOINTS_B__41_0_OFFSET UNITYSDK_OFFSET(0x1930DA30)
+#define MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BC24A0)
+#define MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC24E0)
+#define MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__REBUILDROLEDATALIST_B__25_0_OFFSET UNITYSDK_OFFSET(0x19BC24F0)
+#define MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__REFRESHREWARDPOINTS_B__41_0_OFFSET UNITYSDK_OFFSET(0x19BC2550)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooMicroWebRoleCollectPageController___c_TypeDefinitionIndex = 46696;
+	inline static constexpr unsigned int UIBangbooMicroWebRoleCollectPageController___c_TypeDefinitionIndex = 85719;
 
 	class UIBangbooMicroWebRoleCollectPageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIBangbooMicroWebRoleCollectPageController___c** StaticGet___9()
+		static ::System::Comparison_1<::OMIOAJGHCAM*>** StaticGet___9__41_0()
 		{
-			return (::MoleMole::UIBangbooMicroWebRoleCollectPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBangbooMicroWebRoleCollectPageController___c_TypeDefinitionIndex)->GetStaticField(0x48FE0);
+			return (::System::Comparison_1<::OMIOAJGHCAM*>**)Il2CppClass::FromTypeDefinitionIndex(UIBangbooMicroWebRoleCollectPageController___c_TypeDefinitionIndex)->GetStaticField(0x46EE0);
 		}
-		static ::System::Comparison_1<::Class_2_208CC9941471731A_1150*>** StaticGet___9__41_0()
+		static ::System::Comparison_1<::ILFCBBADGKM*>** StaticGet___9__25_0()
 		{
-			return (::System::Comparison_1<::Class_2_208CC9941471731A_1150*>**)Il2CppClass::FromTypeDefinitionIndex(UIBangbooMicroWebRoleCollectPageController___c_TypeDefinitionIndex)->GetStaticField(0x48FE8);
+			return (::System::Comparison_1<::ILFCBBADGKM*>**)Il2CppClass::FromTypeDefinitionIndex(UIBangbooMicroWebRoleCollectPageController___c_TypeDefinitionIndex)->GetStaticField(0x46EE8);
 		}
-		static ::System::Comparison_1<::Class_1_B08A65FEB7150D0E*>** StaticGet___9__25_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_1_B08A65FEB7150D0E*>**)Il2CppClass::FromTypeDefinitionIndex(UIBangbooMicroWebRoleCollectPageController___c_TypeDefinitionIndex)->GetStaticField(0x48FF0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIBangbooMicroWebRoleCollectPageController___c_TypeDefinitionIndex)->GetStaticField(0x46EF0);
 		}
 
 		static ::System::Void _cctor()
@@ -41,14 +41,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _RebuildRoleDataList_b__25_0(::Class_1_B08A65FEB7150D0E* a, ::Class_1_B08A65FEB7150D0E* b)
+		::System::Int32 _RebuildRoleDataList_b__25_0(::ILFCBBADGKM* a, ::ILFCBBADGKM* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_B08A65FEB7150D0E*, ::Class_1_B08A65FEB7150D0E*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__REBUILDROLEDATALIST_B__25_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::ILFCBBADGKM*, ::ILFCBBADGKM*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__REBUILDROLEDATALIST_B__25_0_OFFSET))(this, a, b);
 		}
 
-		::System::Int32 _RefreshRewardPoints_b__41_0(::Class_2_208CC9941471731A_1150* a, ::Class_2_208CC9941471731A_1150* b)
+		::System::Int32 _RefreshRewardPoints_b__41_0(::OMIOAJGHCAM* a, ::OMIOAJGHCAM* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_1150*, ::Class_2_208CC9941471731A_1150*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__REFRESHREWARDPOINTS_B__41_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::OMIOAJGHCAM*, ::OMIOAJGHCAM*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMICROWEBROLECOLLECTPAGECONTROLLER___C__REFRESHREWARDPOINTS_B__41_0_OFFSET))(this, a, b);
 		}
 	};
 }

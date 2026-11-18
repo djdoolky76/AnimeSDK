@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define EASYPBD_EASYPBDROPE_ATTACHMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C59FC30)
+#define EASYPBD_EASYPBDROPE_ATTACHMENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA31610)
 
 namespace EasyPBD
 {
-	inline static constexpr unsigned int EasyPBDRope_AttachmentData_TypeDefinitionIndex = 27268;
+	inline static constexpr unsigned int EasyPBDRope_AttachmentData_TypeDefinitionIndex = 27240;
 
 	class EasyPBDRope_AttachmentData : public ::System::Object
 	{

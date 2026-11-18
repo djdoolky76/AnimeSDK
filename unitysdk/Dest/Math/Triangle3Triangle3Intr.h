@@ -4,18 +4,19 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DEST_MATH_TRIANGLE3TRIANGLE3INTR_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xA93E10)
-#define DEST_MATH_TRIANGLE3TRIANGLE3INTR_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xA93E80)
+#define DEST_MATH_TRIANGLE3TRIANGLE3INTR_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x97B410)
+#define DEST_MATH_TRIANGLE3TRIANGLE3INTR_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x97B480)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Triangle3Triangle3Intr_TypeDefinitionIndex = 35392;
+	inline static constexpr unsigned int Triangle3Triangle3Intr_TypeDefinitionIndex = 34965;
 
 	struct alignas(4) Triangle3Triangle3Intr
 	{
 		::Dest::Math::IntersectionTypes IntersectionType; // 0x10
 		::Dest::Math::IntersectionTypes CoplanarIntersectionType; // 0x14
 		::System::Boolean Touching; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Int32 Quantity; // 0x1C
 		::UnityEngine::Vector3 Point0; // 0x20
 		::UnityEngine::Vector3 Point1; // 0x2C

@@ -5,19 +5,19 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define NODECANVAS_TASKS_ACTIONS_SAMPLECURVE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF92960)
-#define NODECANVAS_TASKS_ACTIONS_SAMPLECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF92A40)
+#define NODECANVAS_TASKS_ACTIONS_SAMPLECURVE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1F301C00)
+#define NODECANVAS_TASKS_ACTIONS_SAMPLECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F301CE0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SampleCurve_TypeDefinitionIndex = 30545;
+	inline static constexpr unsigned int SampleCurve_TypeDefinitionIndex = 30440;
 
 	class SampleCurve : public ::NodeCanvas::Framework::ActionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::AnimationCurve*>* curve; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveAs; // 0x60
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* sampleAt; // 0x68
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* saveAs; // 0x70
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::AnimationCurve*>* curve; // 0x70
 
 		::System::Void _ctor()
 		{

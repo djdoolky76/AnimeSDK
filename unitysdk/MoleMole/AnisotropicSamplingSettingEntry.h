@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7FA27888FA17A22A.h"
+#include "unitysdk/HPBIMDNDPLK.h"
 #include "unitysdk/MoleMole/GraphicEnumSettingEntryBase.h"
 #include "unitysdk/MoleMole/GraphicSettingProfileType.h"
 
-#define MOLEMOLE_ANISOTROPICSAMPLINGSETTINGENTRY_GET_PROFILETYPE_OFFSET UNITYSDK_OFFSET(0x1482F940)
-#define MOLEMOLE_ANISOTROPICSAMPLINGSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1482F930)
-#define MOLEMOLE_ANISOTROPICSAMPLINGSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1482F950)
+#define MOLEMOLE_ANISOTROPICSAMPLINGSETTINGENTRY_GET_PROFILETYPE_OFFSET UNITYSDK_OFFSET(0x11E573A0)
+#define MOLEMOLE_ANISOTROPICSAMPLINGSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x11E57390)
+#define MOLEMOLE_ANISOTROPICSAMPLINGSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x11E573B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AnisotropicSamplingSettingEntry_TypeDefinitionIndex = 74199;
+	inline static constexpr unsigned int AnisotropicSamplingSettingEntry_TypeDefinitionIndex = 50015;
 
 	class AnisotropicSamplingSettingEntry : public ::MoleMole::GraphicEnumSettingEntryBase
 	{
@@ -20,9 +20,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ANISOTROPICSAMPLINGSETTINGENTRY__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_7FA27888FA17A22A get_SettingContentType()
+		::HPBIMDNDPLK get_SettingContentType()
 		{
-			return ((::Enum_3_7FA27888FA17A22A(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ANISOTROPICSAMPLINGSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET))(this);
+			return ((::HPBIMDNDPLK(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ANISOTROPICSAMPLINGSETTINGENTRY_GET_SETTINGCONTENTTYPE_OFFSET))(this);
 		}
 
 		::MoleMole::GraphicSettingProfileType get_ProfileType()

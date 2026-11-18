@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/FlowNode.h"
 
-namespace NodeCanvas::Framework { class BBParameter; }
 namespace NodeCanvas::Framework { class Graph; }
 namespace NodeCanvas::Framework::Internal { class BBMappingParameter; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -10,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowNodeNested_1_TypeDefinitionIndex = 30669;
+	inline static constexpr unsigned int FlowNodeNested_1_TypeDefinitionIndex = 30335;
 
 	template <typename T>
 	class FlowNodeNested_1 : public ::FlowCanvas::FlowNode

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Xml/Schema/Datatype_token.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_LANGUAGE_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E4E5AC0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_LANGUAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E5AD0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_LANGUAGE_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E779AF0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_LANGUAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E779B00)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_language_TypeDefinitionIndex = 2022;
+	inline static constexpr unsigned int Datatype_language_TypeDefinitionIndex = 2021;
 
 	class Datatype_language : public ::System::Xml::Schema::Datatype_token
 	{

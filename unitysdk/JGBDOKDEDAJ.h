@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class LAFDIPFCABH;
+class LGGAGALOPPO;
+
+#define JGBDOKDEDAJ_CADMAMFIOIE_OFFSET UNITYSDK_OFFSET(0x3581C0)
+#define JGBDOKDEDAJ_FHLJBKHEPFE_OFFSET UNITYSDK_OFFSET(0x7D2380)
+#define JGBDOKDEDAJ_NGFKBKCFPLK_OFFSET UNITYSDK_OFFSET(0x359B10)
+#define JGBDOKDEDAJ_OEADPGAMJAP_OFFSET UNITYSDK_OFFSET(0x7D23D0)
+#define JGBDOKDEDAJ__CTOR_OFFSET UNITYSDK_OFFSET(0x7D2370)
+
+inline static constexpr unsigned int JGBDOKDEDAJ_TypeDefinitionIndex = 39215;
+
+struct alignas(8) JGBDOKDEDAJ
+{
+	::LAFDIPFCABH* NJFBJMCAEIN; // 0x10
+	::Il2CppArray<::LGGAGALOPPO*>* HABJDICDDKF; // 0x18
+	::System::Int32 _LOPPOOPINOI_k__BackingField; // 0x20
+	::System::UInt32 _AIAHFFHDECE_k__BackingField; // 0x24
+
+	::System::Void _ctor(::LAFDIPFCABH* LPBAHMACJPA, ::Il2CppArray<::LGGAGALOPPO*>* LGMOJPKDACO, ::System::Int32 JHFKDGBCOBA, ::System::UInt32 CMJLFAIMHLE)
+	{
+		return ((::System::Void(*)(::PVOID, ::LAFDIPFCABH*, ::Il2CppArray<::LGGAGALOPPO*>*, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + JGBDOKDEDAJ__CTOR_OFFSET))(this, LPBAHMACJPA, LGMOJPKDACO, JHFKDGBCOBA, CMJLFAIMHLE);
+	}
+
+	::System::Boolean FHLJBKHEPFE(::LAFDIPFCABH* LPBAHMACJPA)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::LAFDIPFCABH*))((::PBYTE)hIl2Cpp + JGBDOKDEDAJ_FHLJBKHEPFE_OFFSET))(this, LPBAHMACJPA);
+	}
+
+	::System::Int32 NGFKBKCFPLK()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + JGBDOKDEDAJ_NGFKBKCFPLK_OFFSET))(this);
+	}
+
+	::System::UInt32 CADMAMFIOIE()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JGBDOKDEDAJ_CADMAMFIOIE_OFFSET))(this);
+	}
+
+	::LGGAGALOPPO* OEADPGAMJAP(::System::Int32 ABHBKFJKINO)
+	{
+		return ((::LGGAGALOPPO*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + JGBDOKDEDAJ_OEADPGAMJAP_OFFSET))(this, ABHBKFJKINO);
+	}
+};

@@ -5,15 +5,12 @@
 
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
-namespace System { template <typename T1, typename T2> class Action_2; }
-namespace System { template <typename T> class Action_1; }
 
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_DELEGATEHELPERS_INVOKECALLBACKSSAFE_OFFSET UNITYSDK_OFFSET(0x1E7852C0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_DELEGATEHELPERS_INVOKECALLBACKSSAFE_OFFSET UNITYSDK_OFFSET(0x1EA07790)
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int DelegateHelpers_TypeDefinitionIndex = 32663;
+	inline static constexpr unsigned int DelegateHelpers_TypeDefinitionIndex = 32112;
 
 	class DelegateHelpers : public ::System::Object
 	{

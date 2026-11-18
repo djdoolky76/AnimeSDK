@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define NPCCROWD_ABILITY_STATETREECROWDCONDITIONBASE_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xF8607A0)
-#define NPCCROWD_ABILITY_STATETREECROWDCONDITIONBASE_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xF8607B0)
+#define NPCCROWD_ABILITY_STATETREECROWDCONDITIONBASE_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0xEE856B0)
+#define NPCCROWD_ABILITY_STATETREECROWDCONDITIONBASE_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0xEE856C0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int StateTreeCrowdConditionBase_StructOpsTypeTraits_TypeDefinitionIndex = 43892;
+	inline static constexpr unsigned int StateTreeCrowdConditionBase_StructOpsTypeTraits_TypeDefinitionIndex = 43508;
 
 	class StateTreeCrowdConditionBase_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

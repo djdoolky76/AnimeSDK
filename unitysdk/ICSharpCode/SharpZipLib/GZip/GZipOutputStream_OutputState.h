@@ -3,7 +3,7 @@
 
 namespace ICSharpCode::SharpZipLib::GZip
 {
-	inline static constexpr unsigned int GZipOutputStream_OutputState_TypeDefinitionIndex = 6811;
+	inline static constexpr unsigned int GZipOutputStream_OutputState_TypeDefinitionIndex = 6818;
 
 	enum class GZipOutputStream_OutputState : ::System::Int32
 	{

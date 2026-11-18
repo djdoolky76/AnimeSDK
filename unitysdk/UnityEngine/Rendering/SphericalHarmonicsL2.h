@@ -1,25 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_ADDAMBIENTLIGHT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EBEB3C0)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_ADDAMBIENTLIGHT_OFFSET UNITYSDK_OFFSET(0xA64800)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_ADDDIRECTIONALLIGHTINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EBEB420)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_ADDDIRECTIONALLIGHTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EBEB410)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_ADDDIRECTIONALLIGHT_OFFSET UNITYSDK_OFFSET(0xA64830)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA64950)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_OFFSET UNITYSDK_OFFSET(0xA648A0)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA64890)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xA64880)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1EBEBD60)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1EBEBB00)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1EBEBCF0)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_ADDAMBIENTLIGHT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EF7C9E0)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_ADDAMBIENTLIGHT_OFFSET UNITYSDK_OFFSET(0x93FAD0)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_ADDDIRECTIONALLIGHTINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EF7CA40)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_ADDDIRECTIONALLIGHTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EF7CA30)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_ADDDIRECTIONALLIGHT_OFFSET UNITYSDK_OFFSET(0x93FB00)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x93FC20)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_OFFSET UNITYSDK_OFFSET(0x93FB70)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x93FB60)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x93FB50)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1EF7D380)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1EF7D120)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1EF7D310)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SphericalHarmonicsL2_TypeDefinitionIndex = 6208;
+	inline static constexpr unsigned int SphericalHarmonicsL2_TypeDefinitionIndex = 6223;
 
 	struct alignas(4) SphericalHarmonicsL2
 	{
@@ -51,19 +53,15 @@ namespace UnityEngine::Rendering
 		::System::Single shb7; // 0x74
 		::System::Single shb8; // 0x78
 
-		/*
 		::System::Void AddAmbientLight(::UnityEngine::Color color)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_ADDAMBIENTLIGHT_OFFSET))(this, color);
 		}
-		*/
 
-		/*
 		::System::Void AddDirectionalLight(::UnityEngine::Vector3 direction, ::UnityEngine::Color color, ::System::Single intensity)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_ADDDIRECTIONALLIGHT_OFFSET))(this, direction, color, intensity);
 		}
-		*/
 
 		/*
 		static ::System::Void AddDirectionalLightInternal(::UnityEngine::Rendering::SphericalHarmonicsL2& sh, ::UnityEngine::Vector3 direction, ::UnityEngine::Color color)
@@ -87,25 +85,33 @@ namespace UnityEngine::Rendering
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_OFFSET))(this, other);
 		}
 
+		/*
 		::System::Boolean Equals_1(::UnityEngine::Rendering::SphericalHarmonicsL2 other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::SphericalHarmonicsL2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_1_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Rendering::SphericalHarmonicsL2 op_Multiply(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::System::Single rhs)
 		{
 			return ((::UnityEngine::Rendering::SphericalHarmonicsL2(*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_MULTIPLY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Rendering::SphericalHarmonicsL2 op_Addition(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs)
 		{
 			return ((::UnityEngine::Rendering::SphericalHarmonicsL2(*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::UnityEngine::Rendering::SphericalHarmonicsL2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_ADDITION_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::UnityEngine::Rendering::SphericalHarmonicsL2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_EQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
 		/*
 		static ::System::Void AddAmbientLight_Injected(::UnityEngine::Rendering::SphericalHarmonicsL2& _unity_self, ::UnityEngine::Color& color)

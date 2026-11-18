@@ -4,24 +4,24 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_NAPGRADIENTDRAWERSETTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0AB4B0)
+#define SIRENIX_ODININSPECTOR_NAPGRADIENTDRAWERSETTINGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2DCC60)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int NapGradientDrawerSettingAttribute_TypeDefinitionIndex = 8266;
+	inline static constexpr unsigned int NapGradientDrawerSettingAttribute_TypeDefinitionIndex = 8145;
 
 	class NapGradientDrawerSettingAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* NeedSplitRegionGetter; // 0x10
-		::System::String* AftText; // 0x18
-		::System::String* TimeAxisMaxValGetter; // 0x20
-		::System::String* BefText; // 0x28
-		::System::String* TimeAxisCurTimeAtGetter; // 0x30
-		::System::String* TimeAxisMinValGetter; // 0x38
-		::System::String* InnerText; // 0x40
-		::System::Single TimeAxisMinVal; // 0x48
-		::System::Single TimeAxisMaxVal; // 0x4C
+		::System::String* TimeAxisMaxValGetter; // 0x18
+		::System::String* AftText; // 0x20
+		::System::String* TimeAxisMinValGetter; // 0x28
+		::System::String* BefText; // 0x30
+		::System::String* InnerText; // 0x38
+		::System::String* TimeAxisCurTimeAtGetter; // 0x40
+		::System::Single TimeAxisMaxVal; // 0x48
+		::System::Single TimeAxisMinVal; // 0x4C
 
 		::System::Void _ctor()
 		{

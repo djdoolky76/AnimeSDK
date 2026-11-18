@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_EMIT_OPCODENAMES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD492B0)
+#define SYSTEM_REFLECTION_EMIT_OPCODENAMES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2C7880)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int OpCodeNames_TypeDefinitionIndex = 622;
+	inline static constexpr unsigned int OpCodeNames_TypeDefinitionIndex = 621;
 
 	class OpCodeNames : public ::System::Object
 	{

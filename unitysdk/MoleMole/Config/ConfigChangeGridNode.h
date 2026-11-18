@@ -5,22 +5,22 @@
 #include "unitysdk/MoleMole/Config/DiffusionChangeGridConfig.h"
 #include "unitysdk/MoleMole/Config/SinkAllThenRiseAllPhaseType.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 
-#define MOLEMOLE_CONFIG_CONFIGCHANGEGRIDNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B7E4270)
-#define MOLEMOLE_CONFIG_CONFIGCHANGEGRIDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E4370)
+#define MOLEMOLE_CONFIG_CONFIGCHANGEGRIDNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x19296EC0)
+#define MOLEMOLE_CONFIG_CONFIGCHANGEGRIDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19296FC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChangeGridNode_TypeDefinitionIndex = 83786;
+	inline static constexpr unsigned int ConfigChangeGridNode_TypeDefinitionIndex = 81479;
 
 	class ConfigChangeGridNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::MoleMole::Config::SinkAllThenRiseAllPhaseType SinkAllThenRiseAllPhase; // 0x18
-		::System::Single ChangeGridDelay; // 0x1C
+		::MoleMole::Config::DiffusionChangeGridConfig SinkDiffusionConfig; // 0x18
+		::MoleMole::Config::SinkAllThenRiseAllPhaseType SinkAllThenRiseAllPhase; // 0x1C
 		::MoleMole::Config::DiffusionChangeGridConfig RiseDiffusionConfig; // 0x20
-		::MoleMole::Config::DiffusionChangeGridConfig SinkDiffusionConfig; // 0x24
+		::System::Single ChangeGridDelay; // 0x24
 		::MoleMole::Config::ChessboardChangeGridType changeGridType; // 0x28
 
 		::System::Void _ctor()
@@ -28,9 +28,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHANGEGRIDNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHANGEGRIDNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCHANGEGRIDNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

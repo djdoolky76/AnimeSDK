@@ -8,28 +8,29 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MOLEMOLE_COLORDATA_GET_TWEAKCOLOR0_OFFSET UNITYSDK_OFFSET(0x17278160)
-#define MOLEMOLE_COLORDATA_GET_TWEAKCOLOR1_OFFSET UNITYSDK_OFFSET(0x17278250)
-#define MOLEMOLE_COLORDATA_GET_TWEAKCOLOR2_OFFSET UNITYSDK_OFFSET(0x172782D0)
-#define MOLEMOLE_COLORDATA_ISMATCH_OFFSET UNITYSDK_OFFSET(0x172783A0)
-#define MOLEMOLE_COLORDATA_METHOD_1_56B774DFD857D6B7_OFFSET UNITYSDK_OFFSET(0x172781D0)
-#define MOLEMOLE_COLORDATA_METHOD_1_B3B4D0DB7D9B7A2C_OFFSET UNITYSDK_OFFSET(0x172783F0)
-#define MOLEMOLE_COLORDATA_METHOD_1_C4D4393255477B34_OFFSET UNITYSDK_OFFSET(0x17278610)
-#define MOLEMOLE_COLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17278350)
+#define MOLEMOLE_COLORDATA_AMKCMHEKOKE_OFFSET UNITYSDK_OFFSET(0x163E8FE0)
+#define MOLEMOLE_COLORDATA_CLCKGCKPEIH_1_OFFSET UNITYSDK_OFFSET(0x163E8BA0)
+#define MOLEMOLE_COLORDATA_CLCKGCKPEIH_OFFSET UNITYSDK_OFFSET(0x163E8DC0)
+#define MOLEMOLE_COLORDATA_GET_TWEAKCOLOR0_OFFSET UNITYSDK_OFFSET(0x163E8B30)
+#define MOLEMOLE_COLORDATA_GET_TWEAKCOLOR1_OFFSET UNITYSDK_OFFSET(0x163E8C20)
+#define MOLEMOLE_COLORDATA_GET_TWEAKCOLOR2_OFFSET UNITYSDK_OFFSET(0x163E8CA0)
+#define MOLEMOLE_COLORDATA_ISMATCH_OFFSET UNITYSDK_OFFSET(0x163E8D70)
+#define MOLEMOLE_COLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x163E8D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ColorData_TypeDefinitionIndex = 60194;
+	inline static constexpr unsigned int ColorData_TypeDefinitionIndex = 66085;
 
 	class ColorData : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::RoleTweakColorData*>** StaticGet_tweakColorConfigs()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::RoleTweakColorData*>**)Il2CppClass::FromTypeDefinitionIndex(ColorData_TypeDefinitionIndex)->GetStaticField(0x3F350);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::RoleTweakColorData*>**)Il2CppClass::FromTypeDefinitionIndex(ColorData_TypeDefinitionIndex)->GetStaticField(0x44A30);
 		}
 		::System::Int32 avatarId; // 0x10
 		::UnityEngine::Color unlockColor; // 0x14
+		::System::Byte _padding0[0x4];
 		::System::String* bgPath; // 0x28
 		::UnityEngine::Color coreLevelColor; // 0x30
 		::UnityEngine::Color coreBgColor; // 0x40
@@ -55,24 +56,24 @@ namespace MoleMole
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORDATA_GET_TWEAKCOLOR2_OFFSET))(this);
 		}
 
-		::System::Boolean IsMatch(::System::String* a1)
+		::System::Boolean IsMatch(::System::String* LFPLEJICDJL)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORDATA_ISMATCH_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORDATA_ISMATCH_OFFSET))(this, LFPLEJICDJL);
 		}
 
-		::System::Boolean Method_1_B3B4D0DB7D9B7A2C(::System::Int32 a1, ::UnityEngine::Color& a2)
+		::System::Boolean CLCKGCKPEIH(::System::Int32 EOGLMAEPALE, ::UnityEngine::Color& JBBFCGAMDHI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORDATA_METHOD_1_B3B4D0DB7D9B7A2C_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORDATA_CLCKGCKPEIH_OFFSET))(this, EOGLMAEPALE, JBBFCGAMDHI);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::System::String*>* Method_1_C4D4393255477B34()
+		::UnityEngine::Color CLCKGCKPEIH_1(::System::Int32 EOGLMAEPALE)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORDATA_METHOD_1_C4D4393255477B34_OFFSET))(this);
+			return ((::UnityEngine::Color(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORDATA_CLCKGCKPEIH_1_OFFSET))(this, EOGLMAEPALE);
 		}
 
-		::UnityEngine::Color Method_1_56B774DFD857D6B7(::System::Int32 a1)
+		::System::Collections::Generic::IEnumerable_1<::System::String*>* AMKCMHEKOKE()
 		{
-			return ((::UnityEngine::Color(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORDATA_METHOD_1_56B774DFD857D6B7_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_COLORDATA_AMKCMHEKOKE_OFFSET))(this);
 		}
 	};
 }

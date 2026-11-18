@@ -5,9 +5,9 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AggregateComponentAssignableInterfaceCache_2_TypeDefinitionIndex = 8722;
+	inline static constexpr unsigned int AggregateComponentAssignableInterfaceCache_2_TypeDefinitionIndex = 8743;
 
-	template <typename TEvent, typename T>
+	template <typename T1, typename T2>
 	class AggregateComponentAssignableInterfaceCache_2 : public ::System::Object
 	{
 	public:

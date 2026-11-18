@@ -7,11 +7,12 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaTvResultGroupEffects_TypeDefinitionIndex = 60486;
+	inline static constexpr unsigned int ConfigGachaTvResultGroupEffects_TypeDefinitionIndex = 42066;
 
 	struct alignas(8) ConfigGachaTvResultGroupEffects
 	{
 		::MoleMole::Config::ConfigGachaPerformMisc_ItemRarity Rarity; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* TvRarityEffect; // 0x18
 		::System::String* TvRarityEffect2; // 0x20
 		::System::String* TvAvatarRarityEffect; // 0x28

@@ -4,8 +4,8 @@
 
 namespace System::Reflection { class Module; }
 
-#define SYSTEM_REFLECTION_ASSEMBLY_UNMANAGEDMEMORYSTREAMFORMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DF38560)
-#define SYSTEM_REFLECTION_ASSEMBLY_UNMANAGEDMEMORYSTREAMFORMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF384D0)
+#define SYSTEM_REFLECTION_ASSEMBLY_UNMANAGEDMEMORYSTREAMFORMODULE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E3984E0)
+#define SYSTEM_REFLECTION_ASSEMBLY_UNMANAGEDMEMORYSTREAMFORMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E398450)
 
 namespace System::Reflection
 {
@@ -16,9 +16,9 @@ namespace System::Reflection
 	public:
 		::System::Reflection::Module* module; // 0x68
 
-		::System::Void _ctor(::System::Byte* pointer, ::System::Int64 length, ::System::Reflection::Module* module)
+		::System::Void _ctor(::PVOID pointer, ::System::Int64 length, ::System::Reflection::Module* module)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte*, ::System::Int64, ::System::Reflection::Module*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLY_UNMANAGEDMEMORYSTREAMFORMODULE__CTOR_OFFSET))(this, pointer, length, module);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int64, ::System::Reflection::Module*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLY_UNMANAGEDMEMORYSTREAMFORMODULE__CTOR_OFFSET))(this, pointer, length, module);
 		}
 
 		::System::Void Dispose(::System::Boolean disposing)

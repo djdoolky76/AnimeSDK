@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_F14353CDB5299CE3.h"
+#include "unitysdk/CKCCCBDOLDL.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIARCADECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1600AC30)
+#define MOLEMOLE_UIARCADECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15935FD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadeContext_TypeDefinitionIndex = 86147;
+	inline static constexpr unsigned int UIArcadeContext_TypeDefinitionIndex = 85401;
 
 	class UIArcadeContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_F14353CDB5299CE3 JumpType; // 0x28
+		::CKCCCBDOLDL JumpType; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AIKGHHJKNCE;
+class DGDNKBFMHME;
+namespace MoleMole { class IVideoPlayer; }
+namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine { class Texture; }
+
+#define AIKGHHJKNCE_JMPBJKGILAN_AFOHFKEEPFJ_OFFSET UNITYSDK_OFFSET(0x12661930)
+#define AIKGHHJKNCE_JMPBJKGILAN_HPKPCHAPCDB_OFFSET UNITYSDK_OFFSET(0x12661A30)
+#define AIKGHHJKNCE_JMPBJKGILAN_IHHLMOIJOJF_OFFSET UNITYSDK_OFFSET(0x126618C0)
+#define AIKGHHJKNCE_JMPBJKGILAN_JMEAKAKJGGA_OFFSET UNITYSDK_OFFSET(0x126619E0)
+#define AIKGHHJKNCE_JMPBJKGILAN_LCMGAKAOPOC_OFFSET UNITYSDK_OFFSET(0x12661A20)
+#define AIKGHHJKNCE_JMPBJKGILAN_MCMLMEKCIAP_OFFSET UNITYSDK_OFFSET(0x126619A0)
+#define AIKGHHJKNCE_JMPBJKGILAN_MEAJGCGEAND_OFFSET UNITYSDK_OFFSET(0x12661A90)
+#define AIKGHHJKNCE_JMPBJKGILAN_NALEOGDBOAJ_OFFSET UNITYSDK_OFFSET(0x12661920)
+#define AIKGHHJKNCE_JMPBJKGILAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1265FF20)
+
+inline static constexpr unsigned int AIKGHHJKNCE_JMPBJKGILAN_TypeDefinitionIndex = 58241;
+
+class AIKGHHJKNCE_JMPBJKGILAN : public ::System::Object
+{
+public:
+	::AIKGHHJKNCE* KLHPEBKNIFB; // 0x10
+	::System::Action_1<::MoleMole::IVideoPlayer*>* JNCGLPCKKFL; // 0x18
+	::System::Action* AJFPKBOMMIA; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AIKGHHJKNCE_JMPBJKGILAN__CTOR_OFFSET))(this);
+	}
+
+	::System::Void IHHLMOIJOJF(::DGDNKBFMHME* HFMHOELKCAJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::DGDNKBFMHME*))((::PBYTE)hIl2Cpp + AIKGHHJKNCE_JMPBJKGILAN_IHHLMOIJOJF_OFFSET))(this, HFMHOELKCAJ);
+	}
+
+	::System::Void NALEOGDBOAJ(::DGDNKBFMHME* HFMHOELKCAJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::DGDNKBFMHME*))((::PBYTE)hIl2Cpp + AIKGHHJKNCE_JMPBJKGILAN_NALEOGDBOAJ_OFFSET))(this, HFMHOELKCAJ);
+	}
+
+	::System::Void AFOHFKEEPFJ(::UnityEngine::Texture* IMLLDOHDCNC, ::System::Int32 HBJOLKHGGDD)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*, ::System::Int32))((::PBYTE)hIl2Cpp + AIKGHHJKNCE_JMPBJKGILAN_AFOHFKEEPFJ_OFFSET))(this, IMLLDOHDCNC, HBJOLKHGGDD);
+	}
+
+	::System::Void MCMLMEKCIAP(::UnityEngine::Texture* IMLLDOHDCNC, ::System::Int32 HBJOLKHGGDD)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*, ::System::Int32))((::PBYTE)hIl2Cpp + AIKGHHJKNCE_JMPBJKGILAN_MCMLMEKCIAP_OFFSET))(this, IMLLDOHDCNC, HBJOLKHGGDD);
+	}
+
+	::System::Void JMEAKAKJGGA(::UnityEngine::Texture* IMLLDOHDCNC, ::System::Int32 HBJOLKHGGDD)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*, ::System::Int32))((::PBYTE)hIl2Cpp + AIKGHHJKNCE_JMPBJKGILAN_JMEAKAKJGGA_OFFSET))(this, IMLLDOHDCNC, HBJOLKHGGDD);
+	}
+
+	::System::Void LCMGAKAOPOC(::DGDNKBFMHME* HFMHOELKCAJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::DGDNKBFMHME*))((::PBYTE)hIl2Cpp + AIKGHHJKNCE_JMPBJKGILAN_LCMGAKAOPOC_OFFSET))(this, HFMHOELKCAJ);
+	}
+
+	::System::Void HPKPCHAPCDB(::DGDNKBFMHME* HFMHOELKCAJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::DGDNKBFMHME*))((::PBYTE)hIl2Cpp + AIKGHHJKNCE_JMPBJKGILAN_HPKPCHAPCDB_OFFSET))(this, HFMHOELKCAJ);
+	}
+
+	::System::Void MEAJGCGEAND(::UnityEngine::Texture* IMLLDOHDCNC, ::System::Int32 HBJOLKHGGDD)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*, ::System::Int32))((::PBYTE)hIl2Cpp + AIKGHHJKNCE_JMPBJKGILAN_MEAJGCGEAND_OFFSET))(this, IMLLDOHDCNC, HBJOLKHGGDD);
+	}
+};

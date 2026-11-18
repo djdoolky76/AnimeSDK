@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerAccessoryPageController_ERightStickMove_TypeDefinitionIndex = 51552;
+	inline static constexpr unsigned int UIPlayerAccessoryPageController_ERightStickMove_TypeDefinitionIndex = 43405;
 
 	enum class UIPlayerAccessoryPageController_ERightStickMove : ::System::Int32
 	{
-		None = 0,
 		Rotation = 2,
+		None = 0,
 		Text = 1,
 	};
 }

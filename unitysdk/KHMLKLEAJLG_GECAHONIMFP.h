@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class KHMLKLEAJLG;
+class KHMLKLEAJLG_HOKGEICCIHM;
+class PFEOJDIJIBM;
+namespace MoleMole::Battle { class Entity; }
+
+#define KHMLKLEAJLG_GECAHONIMFP_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1299A600)
+#define KHMLKLEAJLG_GECAHONIMFP_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1299AD60)
+#define KHMLKLEAJLG_GECAHONIMFP_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1299ADC0)
+#define KHMLKLEAJLG_GECAHONIMFP_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1299AD70)
+#define KHMLKLEAJLG_GECAHONIMFP_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1299A5F0)
+#define KHMLKLEAJLG_GECAHONIMFP__CTOR_OFFSET UNITYSDK_OFFSET(0x1299A5E0)
+
+inline static constexpr unsigned int KHMLKLEAJLG_GECAHONIMFP_TypeDefinitionIndex = 66303;
+
+class KHMLKLEAJLG_GECAHONIMFP : public ::System::Object
+{
+public:
+	::MoleMole::Battle::Entity* PMLGDELCDKD; // 0x10
+	::PFEOJDIJIBM* DACDAPIGBCB; // 0x18
+	::KHMLKLEAJLG* KLHPEBKNIFB; // 0x20
+	::KHMLKLEAJLG_HOKGEICCIHM* IHKBJOMKPCC; // 0x28
+	::System::Int32 BNLHPGHLKDK; // 0x30
+	::System::Single IDBEJJEKGDI; // 0x34
+	::System::Int32 MDPILDGFNHN; // 0x38
+
+	::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + KHMLKLEAJLG_GECAHONIMFP__CTOR_OFFSET))(this, MDPILDGFNHN);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KHMLKLEAJLG_GECAHONIMFP_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + KHMLKLEAJLG_GECAHONIMFP_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Single System_Collections_Generic_IEnumerator_System_Single__get_Current()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + KHMLKLEAJLG_GECAHONIMFP_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KHMLKLEAJLG_GECAHONIMFP_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + KHMLKLEAJLG_GECAHONIMFP_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

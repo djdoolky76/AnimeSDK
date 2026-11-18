@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class ALGJPEBEBEG_BHCAOJNAJAC;
+class DJAIIONPIPF;
+
+#define ALGJPEBEBEG_BHCAOJNAJAC_MCLJNOBNJLK_OLLNPJCGECN_OFFSET UNITYSDK_OFFSET(0x144F7CA0)
+#define ALGJPEBEBEG_BHCAOJNAJAC_MCLJNOBNJLK__CTOR_OFFSET UNITYSDK_OFFSET(0x144F7C90)
+
+inline static constexpr unsigned int ALGJPEBEBEG_BHCAOJNAJAC_MCLJNOBNJLK_TypeDefinitionIndex = 93144;
+
+class ALGJPEBEBEG_BHCAOJNAJAC_MCLJNOBNJLK : public ::System::Object
+{
+public:
+	::DJAIIONPIPF* DNOHELNGGLJ; // 0x10
+	::ALGJPEBEBEG_BHCAOJNAJAC* KLHPEBKNIFB; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ALGJPEBEBEG_BHCAOJNAJAC_MCLJNOBNJLK__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OLLNPJCGECN(::System::Boolean CGFLLPOCDJM)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ALGJPEBEBEG_BHCAOJNAJAC_MCLJNOBNJLK_OLLNPJCGECN_OFFSET))(this, CGFLLPOCDJM);
+	}
+};

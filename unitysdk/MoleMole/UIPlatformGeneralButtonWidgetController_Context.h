@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIPLATFORMGENERALBUTTONWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F51BB0)
+#define MOLEMOLE_UIPLATFORMGENERALBUTTONWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x168D78A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlatformGeneralButtonWidgetController_Context_TypeDefinitionIndex = 83779;
+	inline static constexpr unsigned int UIPlatformGeneralButtonWidgetController_Context_TypeDefinitionIndex = 39827;
 
 	class UIPlatformGeneralButtonWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define MOLEMOLE_UIGENERALTEXTITEMDETAILPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x185AA7E0)
-#define MOLEMOLE_UIGENERALTEXTITEMDETAILPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x185AA820)
-#define MOLEMOLE_UIGENERALTEXTITEMDETAILPOPWINDOWCONTROLLER___C__PROCESSTEXTITEMDETAIL_B__8_0_OFFSET UNITYSDK_OFFSET(0x185AA830)
+#define MOLEMOLE_UIGENERALTEXTITEMDETAILPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1804C520)
+#define MOLEMOLE_UIGENERALTEXTITEMDETAILPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1804C560)
+#define MOLEMOLE_UIGENERALTEXTITEMDETAILPOPWINDOWCONTROLLER___C__PROCESSTEXTITEMDETAIL_B__8_0_OFFSET UNITYSDK_OFFSET(0x1804C570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTextItemDetailPopWindowController___c_TypeDefinitionIndex = 88704;
+	inline static constexpr unsigned int UIGeneralTextItemDetailPopWindowController___c_TypeDefinitionIndex = 84408;
 
 	class UIGeneralTextItemDetailPopWindowController___c : public ::System::Object
 	{
 	public:
 		static ::System::Converter_2<::System::String*, ::System::String*>** StaticGet___9__8_0()
 		{
-			return (::System::Converter_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralTextItemDetailPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CFC0);
+			return (::System::Converter_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralTextItemDetailPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3EEA0);
 		}
-		static ::MoleMole::UIGeneralTextItemDetailPopWindowController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIGeneralTextItemDetailPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralTextItemDetailPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3CFC8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralTextItemDetailPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3EEA8);
 		}
 
 		static ::System::Void _cctor()

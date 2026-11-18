@@ -6,11 +6,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define MB2_UPDATESKINNEDMESHBOUNDSFROMBOUNDS_START_OFFSET UNITYSDK_OFFSET(0x1EEAA850)
-#define MB2_UPDATESKINNEDMESHBOUNDSFROMBOUNDS_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EEAADC0)
-#define MB2_UPDATESKINNEDMESHBOUNDSFROMBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAAF10)
+#define MB2_UPDATESKINNEDMESHBOUNDSFROMBOUNDS_START_OFFSET UNITYSDK_OFFSET(0x1F22C870)
+#define MB2_UPDATESKINNEDMESHBOUNDSFROMBOUNDS_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F22CDE0)
+#define MB2_UPDATESKINNEDMESHBOUNDSFROMBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F22CF30)
 
-inline static constexpr unsigned int MB2_UpdateSkinnedMeshBoundsFromBounds_TypeDefinitionIndex = 94467;
+inline static constexpr unsigned int MB2_UpdateSkinnedMeshBoundsFromBounds_TypeDefinitionIndex = 96154;
 
 class MB2_UpdateSkinnedMeshBoundsFromBounds : public ::UnityEngine::MonoBehaviour
 {

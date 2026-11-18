@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIVOLUMEOPENTYPE_SELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED17C0)
+#define MOLEMOLE_UIVOLUMEOPENTYPE_SELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x14E30920)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVolumeOpenType_Select_TypeDefinitionIndex = 63575;
+	inline static constexpr unsigned int UIVolumeOpenType_Select_TypeDefinitionIndex = 89530;
 
 	class UIVolumeOpenType_Select : public ::MoleMole::UIAvatarShowType
 	{

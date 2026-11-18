@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/ESystemSettingType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIHOLLOWINFODIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x190EC8D0)
-#define MOLEMOLE_UIHOLLOWINFODIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS34_0__ONRESETBTNCLICKED_B__0_OFFSET UNITYSDK_OFFSET(0x190EC8E0)
+#define MOLEMOLE_UIHOLLOWINFODIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176A0090)
+#define MOLEMOLE_UIHOLLOWINFODIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS34_0__ONRESETBTNCLICKED_B__0_OFFSET UNITYSDK_OFFSET(0x176A00A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowInfoDialogPopWindowController___c__DisplayClass34_0_TypeDefinitionIndex = 75519;
+	inline static constexpr unsigned int UIHollowInfoDialogPopWindowController___c__DisplayClass34_0_TypeDefinitionIndex = 50318;
 
 	class UIHollowInfoDialogPopWindowController___c__DisplayClass34_0 : public ::System::Object
 	{

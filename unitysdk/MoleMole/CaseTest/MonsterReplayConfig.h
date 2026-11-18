@@ -6,12 +6,12 @@ namespace MoleMole::CaseTest { class SkillDef; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG_GETALLSKILLSETTING_OFFSET UNITYSDK_OFFSET(0x16240BB0)
-#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16240F90)
+#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG_GETALLSKILLSETTING_OFFSET UNITYSDK_OFFSET(0x1079DA10)
+#define MOLEMOLE_CASETEST_MONSTERREPLAYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1079DDF0)
 
 namespace MoleMole::CaseTest
 {
-	inline static constexpr unsigned int MonsterReplayConfig_TypeDefinitionIndex = 66431;
+	inline static constexpr unsigned int MonsterReplayConfig_TypeDefinitionIndex = 92390;
 
 	class MonsterReplayConfig : public ::System::Object
 	{
@@ -21,8 +21,10 @@ namespace MoleMole::CaseTest
 		::System::Int32 battleID; // 0x18
 		::System::Boolean DisableAI; // 0x1C
 		::System::Boolean UseDefaultMonster; // 0x1D
+		::System::Byte _padding0[0x2];
 		::System::String* AbilityStr; // 0x20
 		::System::Single WaitTime; // 0x28
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::CaseTest::SkillDef*>* SkillSetting; // 0x30
 
 		::System::Void _ctor()

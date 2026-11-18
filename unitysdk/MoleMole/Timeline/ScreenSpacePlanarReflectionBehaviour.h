@@ -1,71 +1,81 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Timeline/PostProcessBehaviourBase.h"
-#include "unitysdk/MoleMole/Timeline/ScreenSpacePlanarReflectionBehaviour_Struct_2_52AD02145F5FCE36_34.h"
+#include "unitysdk/MoleMole/Timeline/ScreenSpacePlanarReflectionBehaviour_JDDOPMKLDMA.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/Internal/PostLight_RenderLayerMask.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/Internal/PostLight_RenderLayerMask.h"
 
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine::Rendering::Universal { class ScreenSpacePlanarReflection; }
 
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x180A8AD0)
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_METHOD_4_146BFCE7108816B9_OFFSET UNITYSDK_OFFSET(0x180A93F0)
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x180AACA0)
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_METHOD_4_5F5CE5755714D1CF_OFFSET UNITYSDK_OFFSET(0x180A8EA0)
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0x180AACD0)
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0x180AACC0)
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0x180AACB0)
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x180A9290)
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x180AA4F0)
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x180AA770)
-#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x180AAC50)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_CFKEGAJFCBC_OFFSET UNITYSDK_OFFSET(0x198E03A0)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x198DFFD0)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_GHDJIEJFFKG_OFFSET UNITYSDK_OFFSET(0x198E21C0)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_KBDIIEDMPHD_OFFSET UNITYSDK_OFFSET(0x198E21D0)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_ODLBLHOKABA_OFFSET UNITYSDK_OFFSET(0x198E08F0)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_OGPBBOPCBKO_OFFSET UNITYSDK_OFFSET(0x198E21B0)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x198E0790)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_PDEDKHJDBDD_OFFSET UNITYSDK_OFFSET(0x198E21A0)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x198E19F0)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x198E1C70)
+#define MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x198E2150)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ScreenSpacePlanarReflectionBehaviour_TypeDefinitionIndex = 83522;
+	inline static constexpr unsigned int ScreenSpacePlanarReflectionBehaviour_TypeDefinitionIndex = 66333;
 
 	class ScreenSpacePlanarReflectionBehaviour : public ::MoleMole::Timeline::PostProcessBehaviourBase
 	{
 	public:
-		::MoleMole::Timeline::ScreenSpacePlanarReflectionBehaviour_Struct_2_52AD02145F5FCE36_34 _methodParm; // 0x18
+		::MoleMole::Timeline::ScreenSpacePlanarReflectionBehaviour_JDDOPMKLDMA _methodParm; // 0x18
 		::System::Boolean enabled; // 0x70
 		::System::Boolean active_mirrorReflectionOverride; // 0x71
 		::System::Boolean use_mirrorReflectionOverride; // 0x72
 		::System::Boolean mirrorReflectionOverride; // 0x73
 		::System::Boolean active_planarReflectionBlurAmount; // 0x74
 		::System::Boolean use_planarReflectionBlurAmount; // 0x75
+		::System::Byte _padding0[0x2];
 		::System::Single planarReflectionBlurAmount; // 0x78
 		::System::Boolean active_planarReflectionLodSteps; // 0x7C
 		::System::Boolean use_planarReflectionLodSteps; // 0x7D
+		::System::Byte _padding1[0x2];
 		::System::Single planarReflectionLodSteps; // 0x80
 		::System::Boolean active_planarReflectionMinSmoothness; // 0x84
 		::System::Boolean use_planarReflectionMinSmoothness; // 0x85
+		::System::Byte _padding2[0x2];
 		::System::Single planarReflectionMinSmoothness; // 0x88
 		::System::Boolean active_planarReflectionSmoothnessFadeStart; // 0x8C
 		::System::Boolean use_planarReflectionSmoothnessFadeStart; // 0x8D
+		::System::Byte _padding3[0x2];
 		::System::Single planarReflectionSmoothnessFadeStart; // 0x90
 		::System::Boolean active_Enabled; // 0x94
 		::System::Boolean use_Enabled; // 0x95
 		::System::Boolean Enabled; // 0x96
 		::System::Boolean active_FadeDistance; // 0x97
 		::System::Boolean use_FadeDistance; // 0x98
+		::System::Byte _padding4[0x3];
 		::System::Single FadeDistance; // 0x9C
 		::System::Boolean active_StretchScale; // 0xA0
 		::System::Boolean use_StretchScale; // 0xA1
+		::System::Byte _padding5[0x2];
 		::System::Single StretchScale; // 0xA4
 		::System::Boolean active_ScreenStretchThreshold; // 0xA8
 		::System::Boolean use_ScreenStretchThreshold; // 0xA9
+		::System::Byte _padding6[0x2];
 		::System::Single ScreenStretchThreshold; // 0xAC
 		::System::Boolean active_planarReflectionCameraDisabledLayerMask; // 0xB0
 		::System::Boolean use_planarReflectionCameraDisabledLayerMask; // 0xB1
+		::System::Byte _padding7[0x2];
 		::UnityEngine::LayerMask planarReflectionCameraDisabledLayerMask; // 0xB4
 		::System::Boolean active_planarReflectionCameraDisabledLayerMaskForSpecialSceneAndDevice; // 0xB8
 		::System::Boolean use_planarReflectionCameraDisabledLayerMaskForSpecialSceneAndDevice; // 0xB9
+		::System::Byte _padding8[0x2];
 		::UnityEngine::LayerMask planarReflectionCameraDisabledLayerMaskForSpecialSceneAndDevice; // 0xBC
 		::System::Boolean active_planarReflectionCameraDisabledRenderLayerMask; // 0xC0
 		::System::Boolean use_planarReflectionCameraDisabledRenderLayerMask; // 0xC1
+		::System::Byte _padding9[0x2];
 		::UnityEngine::Rendering::Universal::Internal::PostLight_RenderLayerMask planarReflectionCameraDisabledRenderLayerMask; // 0xC4
 		::UnityEngine::Rendering::Universal::ScreenSpacePlanarReflection* _ScreenSpacePlanarReflection; // 0xC8
 
@@ -74,54 +84,54 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void CopyValueFromComp(::System::Object* a1)
+		::System::Void CopyValueFromComp(::System::Object* NEEMKJBIIBC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET))(this, NEEMKJBIIBC);
 		}
 
-		::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
+		::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable HKOFGPMIFHB)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET))(this, HKOFGPMIFHB);
 		}
 
-		::System::Void ProcessFrame(::System::Object* a1)
+		::System::Void ProcessFrame(::System::Object* NEEMKJBIIBC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_PROCESSFRAME_OFFSET))(this, NEEMKJBIIBC);
 		}
 
-		::System::Void SetValue(::System::String* a1, ::System::Single a2)
+		::System::Void SetValue(::System::String* KEKLFCCONCL, ::System::Single EEKENHBPKGO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_SETVALUE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_SETVALUE_OFFSET))(this, KEKLFCCONCL, EEKENHBPKGO);
 		}
 
-		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+		::System::Void PDEDKHJDBDD(::UnityEngine::Playables::Playable MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_PDEDKHJDBDD_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::UnityEngine::Rendering::Universal::ScreenSpacePlanarReflection* Method_4_5F5CE5755714D1CF(::System::Object* a1)
+		::System::Void ODLBLHOKABA()
 		{
-			return ((::UnityEngine::Rendering::Universal::ScreenSpacePlanarReflection*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_METHOD_4_5F5CE5755714D1CF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_ODLBLHOKABA_OFFSET))(this);
 		}
 
-		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
+		::System::Void OGPBBOPCBKO(::System::String* MIALFKCCCPI, ::System::Single KMGKAIDEIBA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_OGPBBOPCBKO_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 
-		::System::Void Method_4_B072873681D4192B_1(::System::Object* a1)
+		::System::Void GHDJIEJFFKG(::System::Object* MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_GHDJIEJFFKG_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void Method_4_63F7844DC2D57F6C(::System::String* a1, ::System::Single a2)
+		::System::Void KBDIIEDMPHD(::System::Object* MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_KBDIIEDMPHD_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void Method_4_146BFCE7108816B9()
+		::UnityEngine::Rendering::Universal::ScreenSpacePlanarReflection* CFKEGAJFCBC(::System::Object* NEEMKJBIIBC)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_METHOD_4_146BFCE7108816B9_OFFSET))(this);
+			return ((::UnityEngine::Rendering::Universal::ScreenSpacePlanarReflection*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SCREENSPACEPLANARREFLECTIONBEHAVIOUR_CFKEGAJFCBC_OFFSET))(this, NEEMKJBIIBC);
 		}
 	};
 }

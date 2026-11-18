@@ -2,25 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class ConfigTimelineCamera_CameraCurveItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGTIMELINECAMERA_CAMERACURVEGROUP_GETCURVEDICT_OFFSET UNITYSDK_OFFSET(0x1B5770F0)
-#define MOLEMOLE_CONFIGTIMELINECAMERA_CAMERACURVEGROUP_GETCURVE_OFFSET UNITYSDK_OFFSET(0x1B577330)
-#define MOLEMOLE_CONFIGTIMELINECAMERA_CAMERACURVEGROUP_SETCURVE_OFFSET UNITYSDK_OFFSET(0x1B577420)
-#define MOLEMOLE_CONFIGTIMELINECAMERA_CAMERACURVEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B577570)
+#define MOLEMOLE_CONFIGTIMELINECAMERA_CAMERACURVEGROUP_GETCURVEDICT_OFFSET UNITYSDK_OFFSET(0x1BA5B6F0)
+#define MOLEMOLE_CONFIGTIMELINECAMERA_CAMERACURVEGROUP_GETCURVE_OFFSET UNITYSDK_OFFSET(0x1BA5B930)
+#define MOLEMOLE_CONFIGTIMELINECAMERA_CAMERACURVEGROUP_SETCURVE_OFFSET UNITYSDK_OFFSET(0x1BA5BA20)
+#define MOLEMOLE_CONFIGTIMELINECAMERA_CAMERACURVEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA5BB70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigTimelineCamera_CameraCurveGroup_TypeDefinitionIndex = 68776;
+	inline static constexpr unsigned int ConfigTimelineCamera_CameraCurveGroup_TypeDefinitionIndex = 53650;
 
 	class ConfigTimelineCamera_CameraCurveGroup : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::ConfigTimelineCamera_CameraCurveItem*>* CurveList; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* CurveList; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationCurve*>* _curveDict; // 0x18
 
 		::System::Void _ctor()

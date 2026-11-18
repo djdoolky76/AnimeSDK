@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGLEVELWEATHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C47C8F0)
+#define MOLEMOLE_CONFIGLEVELWEATHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F65F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigLevelWeather_TypeDefinitionIndex = 72281;
+	inline static constexpr unsigned int ConfigLevelWeather_TypeDefinitionIndex = 41915;
 
 	class ConfigLevelWeather : public ::Foundation::MihoyoSerializedScriptableObject
 	{

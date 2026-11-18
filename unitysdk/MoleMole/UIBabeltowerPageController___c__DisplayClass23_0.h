@@ -4,19 +4,19 @@
 
 namespace MoleMole { class UIBabeltowerPageController; }
 
-#define MOLEMOLE_UIBABELTOWERPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19299DF0)
-#define MOLEMOLE_UIBABELTOWERPAGECONTROLLER___C__DISPLAYCLASS23_0__REFRESHFLOORCHANGEANIM_B__0_OFFSET UNITYSDK_OFFSET(0x19299E00)
+#define MOLEMOLE_UIBABELTOWERPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188EAAA0)
+#define MOLEMOLE_UIBABELTOWERPAGECONTROLLER___C__DISPLAYCLASS23_0__REFRESHFLOORCHANGEANIM_B__0_OFFSET UNITYSDK_OFFSET(0x188EAAB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerPageController___c__DisplayClass23_0_TypeDefinitionIndex = 88661;
+	inline static constexpr unsigned int UIBabeltowerPageController___c__DisplayClass23_0_TypeDefinitionIndex = 87200;
 
 	class UIBabeltowerPageController___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIBabeltowerPageController* __4__this; // 0x10
-		::System::Int32 currentReachFloor; // 0x18
-		::System::Int32 reachFloor; // 0x1C
+		::System::Int32 reachFloor; // 0x18
+		::System::Int32 currentReachFloor; // 0x1C
 
 		::System::Void _ctor()
 		{

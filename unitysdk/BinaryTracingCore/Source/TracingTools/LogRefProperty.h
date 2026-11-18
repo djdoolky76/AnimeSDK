@@ -1,15 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/Guid.h"
 
 namespace BinaryTracingFramework::Serialize { class BaseArchive; }
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGREFPROPERTY_GETTYPEGUID_OFFSET UNITYSDK_OFFSET(0xAAACB0)
-#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGREFPROPERTY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xAAAC60)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGREFPROPERTY_GETTYPEGUID_OFFSET UNITYSDK_OFFSET(0x991D80)
+#define BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGREFPROPERTY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x991D30)
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int LogRefProperty_TypeDefinitionIndex = 34589;
+	inline static constexpr unsigned int LogRefProperty_TypeDefinitionIndex = 34135;
 
 	struct alignas(4) LogRefProperty
 	{
@@ -21,11 +22,9 @@ namespace BinaryTracingCore::Source::TracingTools
 			return ((::System::Void(*)(::PVOID, ::BinaryTracingFramework::Serialize::BaseArchive*))((::PBYTE)hIl2Cpp + BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGREFPROPERTY_SERIALIZE_OFFSET))(this, archive);
 		}
 
-		/*
 		::System::Guid GetTypeGuid()
 		{
 			return ((::System::Guid(*)(::PVOID))((::PBYTE)hIl2Cpp + BINARYTRACINGCORE_SOURCE_TRACINGTOOLS_LOGREFPROPERTY_GETTYPEGUID_OFFSET))(this);
 		}
-		*/
 	};
 }

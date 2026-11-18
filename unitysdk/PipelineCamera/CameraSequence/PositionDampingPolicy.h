@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceRuntimeDataProvider_3.h"
 #include "unitysdk/PipelineCamera/PositionDampingAxis.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define PIPELINECAMERA_CAMERASEQUENCE_POSITIONDAMPINGPOLICY_PROCESS_OFFSET UNITYSDK_OFFSET(0x1EC2DBA0)
-#define PIPELINECAMERA_CAMERASEQUENCE_POSITIONDAMPINGPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC2DC70)
+#define PIPELINECAMERA_CAMERASEQUENCE_POSITIONDAMPINGPOLICY_PROCESS_OFFSET UNITYSDK_OFFSET(0x1EFF9B40)
+#define PIPELINECAMERA_CAMERASEQUENCE_POSITIONDAMPINGPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF9C10)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int PositionDampingPolicy_TypeDefinitionIndex = 38577;
+	inline static constexpr unsigned int PositionDampingPolicy_TypeDefinitionIndex = 36576;
 
-	class PositionDampingPolicy : public ::PipelineCamera::CameraSequence::CameraSequenceRuntimeDataProvider_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3>
+	class PositionDampingPolicy
 	{
 	public:
 		::PipelineCamera::PositionDampingAxis dampingAxis; // 0x40

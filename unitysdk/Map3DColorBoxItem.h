@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MAP3DCOLORBOXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x116C5C20)
+#define MAP3DCOLORBOXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xFA84120)
 
-inline static constexpr unsigned int Map3DColorBoxItem_TypeDefinitionIndex = 66855;
+inline static constexpr unsigned int Map3DColorBoxItem_TypeDefinitionIndex = 43630;
 
 class Map3DColorBoxItem : public ::System::Object
 {

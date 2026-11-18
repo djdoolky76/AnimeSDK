@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/SpinLock.h"
+#include "unitysdk/System/Object.h"
 
 namespace Cysharp::Threading::Tasks::Internal { template <typename T> class ArrayPool_1; }
 namespace Cysharp::Threading::Tasks::Internal { template <typename T> class MinimumQueue_1; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int ArrayPool_1_TypeDefinitionIndex = 32090;
+	inline static constexpr unsigned int ArrayPool_1_TypeDefinitionIndex = 31539;
 
 	template <typename T>
 	class ArrayPool_1 : public ::System::Object

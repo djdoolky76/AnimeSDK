@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
-namespace NodeCanvas::Framework { class GraphOwner; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_SENDEVENT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D06DA70)
-#define NODECANVAS_TASKS_ACTIONS_SENDEVENT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1D06DD90)
-#define NODECANVAS_TASKS_ACTIONS_SENDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D06DEB0)
+#define NODECANVAS_TASKS_ACTIONS_SENDEVENT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1D5E7DE0)
+#define NODECANVAS_TASKS_ACTIONS_SENDEVENT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1D5E8100)
+#define NODECANVAS_TASKS_ACTIONS_SENDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E8220)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SendEvent_TypeDefinitionIndex = 30680;
+	inline static constexpr unsigned int SendEvent_TypeDefinitionIndex = 29724;
 
-	class SendEvent : public ::NodeCanvas::Framework::ActionTask_1<::NodeCanvas::Framework::GraphOwner*>
+	class SendEvent
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::String*>* eventName; // 0x60

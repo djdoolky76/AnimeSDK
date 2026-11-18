@@ -5,13 +5,13 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CONTROLITEMJSON_FROMCONTROLITEMS_OFFSET UNITYSDK_OFFSET(0x1D7B3FA0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CONTROLITEMJSON_TOLAYOUT_OFFSET UNITYSDK_OFFSET(0x1D7B37D0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CONTROLITEMJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B37C0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CONTROLITEMJSON_FROMCONTROLITEMS_OFFSET UNITYSDK_OFFSET(0x1DC6A850)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CONTROLITEMJSON_TOLAYOUT_OFFSET UNITYSDK_OFFSET(0x1DC6A080)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CONTROLITEMJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6A070)
 
 namespace UnityEngine::InputSystem::Layouts
 {
-	inline static constexpr unsigned int InputControlLayout_ControlItemJson_TypeDefinitionIndex = 32606;
+	inline static constexpr unsigned int InputControlLayout_ControlItemJson_TypeDefinitionIndex = 32055;
 
 	class InputControlLayout_ControlItemJson : public ::System::Object
 	{
@@ -25,8 +25,10 @@ namespace UnityEngine::InputSystem::Layouts
 		::System::UInt32 offset; // 0x40
 		::System::UInt32 bit; // 0x44
 		::System::UInt32 sizeInBits; // 0x48
+		::System::Byte _padding0[0x4];
 		::System::String* format; // 0x50
 		::System::Int32 arraySize; // 0x58
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::System::String*>* usages; // 0x60
 		::Il2CppArray<::System::String*>* aliases; // 0x68
 		::System::String* parameters; // 0x70
@@ -36,6 +38,7 @@ namespace UnityEngine::InputSystem::Layouts
 		::System::Boolean noisy; // 0x90
 		::System::Boolean dontReset; // 0x91
 		::System::Boolean synthetic; // 0x92
+		::System::Byte _padding2[0x5];
 		::System::String* defaultState; // 0x98
 		::System::String* minValue; // 0xA0
 		::System::String* maxValue; // 0xA8
@@ -50,9 +53,9 @@ namespace UnityEngine::InputSystem::Layouts
 			return ((::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CONTROLITEMJSON_TOLAYOUT_OFFSET))(this);
 		}
 
-		static ::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*>* FromControlItems(::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* items)
+		static ::Il2CppArray<::System::Object*>* FromControlItems(::Il2CppArray<::System::Object*>* items)
 		{
-			return ((::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*>*(*)(::Il2CppArray<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CONTROLITEMJSON_FROMCONTROLITEMS_OFFSET))(items);
+			return ((::Il2CppArray<::System::Object*>*(*)(::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CONTROLITEMJSON_FROMCONTROLITEMS_OFFSET))(items);
 		}
 	};
 }

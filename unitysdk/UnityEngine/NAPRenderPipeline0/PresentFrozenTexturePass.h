@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PRESENTFROZENTEXTUREPASS_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1F349460)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PRESENTFROZENTEXTUREPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F3494E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PRESENTFROZENTEXTUREPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F349400)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PRESENTFROZENTEXTUREPASS_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1F76FCA0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PRESENTFROZENTEXTUREPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F76FD20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PRESENTFROZENTEXTUREPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76FC40)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PresentFrozenTexturePass_TypeDefinitionIndex = 5838;
+	inline static constexpr unsigned int PresentFrozenTexturePass_TypeDefinitionIndex = 5844;
 
 	class PresentFrozenTexturePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

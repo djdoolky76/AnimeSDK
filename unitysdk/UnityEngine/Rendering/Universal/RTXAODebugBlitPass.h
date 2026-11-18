@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderTargetHandle.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
@@ -13,20 +13,20 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C5D7310)
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C5D7430)
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1C5D72C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D6FB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CA6A540)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CA6A660)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1CA6A4F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_RTXAODEBUGBLITPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6A1E0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int RTXAODebugBlitPass_TypeDefinitionIndex = 27290;
+	inline static constexpr unsigned int RTXAODebugBlitPass_TypeDefinitionIndex = 26505;
 
 	class RTXAODebugBlitPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		::UnityEngine::Material* m_debugBlitMaterial; // 0xA8
-		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_profilingSampler; // 0xB0
+		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_profilingSampler; // 0xA8
+		::UnityEngine::Material* m_debugBlitMaterial; // 0xB0
 		::UnityEngine::NAPRenderPipeline0::RenderTargetHandle m_colorRTHandle; // 0xB8
 
 		::System::Void _ctor(::System::String* profilerTag, ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::NAPRenderPipeline0::RenderPassEvent>* renderPassEventConfig, ::UnityEngine::Shader* debugBlitShader)

@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETZEROLEVELTYPE_INVOKE_OFFSET UNITYSDK_OFFSET(0x19BE6850)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETZEROLEVELTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE6A30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETZEROLEVELTYPE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A092210)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETZEROLEVELTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0923F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetZeroLevelType_TypeDefinitionIndex = 76119;
+	inline static constexpr unsigned int LD_GetZeroLevelType_TypeDefinitionIndex = 84489;
 
-	class LD_GetZeroLevelType : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Int32>
+	class LD_GetZeroLevelType
 	{
 	public:
 		::System::Void _ctor()

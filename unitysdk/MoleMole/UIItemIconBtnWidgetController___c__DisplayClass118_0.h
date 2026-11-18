@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_175;
+class IFOHGNLIAKH;
 namespace MoleMole { class UIItemIconBtnWidgetController; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS118_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16506000)
-#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS118_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1650E8F0)
-#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS118_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x1650E9F0)
+#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS118_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C85790)
+#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS118_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x14C857A0)
+#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS118_0__REFRESHVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x14C858A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIItemIconBtnWidgetController___c__DisplayClass118_0_TypeDefinitionIndex = 53259;
+	inline static constexpr unsigned int UIItemIconBtnWidgetController___c__DisplayClass118_0_TypeDefinitionIndex = 55112;
 
 	class UIItemIconBtnWidgetController___c__DisplayClass118_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::Class_0_16E4307DCC419505_175*>* customTipHandleWithController; // 0x10
-		::System::Action* customDoubleClickAction; // 0x18
-		::MoleMole::UIItemIconBtnWidgetController* __4__this; // 0x20
-		::System::Action* customTipHandle; // 0x28
-		::System::Boolean isShowTip; // 0x30
-		::System::Boolean jumpControl; // 0x31
-		::System::Boolean disableJump; // 0x32
-		::System::Int32 itemID; // 0x34
+		::System::Action* customDoubleClickAction; // 0x10
+		::MoleMole::UIItemIconBtnWidgetController* __4__this; // 0x18
+		::System::Action* customTipHandle; // 0x20
+		::System::Action_1<::IFOHGNLIAKH*>* customTipHandleWithController; // 0x28
+		::System::Int32 itemID; // 0x30
+		::System::Boolean jumpControl; // 0x34
+		::System::Boolean disableJump; // 0x35
+		::System::Boolean isShowTip; // 0x36
 
 		::System::Void _ctor()
 		{

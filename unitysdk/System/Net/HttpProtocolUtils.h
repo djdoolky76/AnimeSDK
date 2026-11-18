@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/DateTime.h"
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTPPROTOCOLUTILS_DATE2STRING_OFFSET UNITYSDK_OFFSET(0x1DEC1380)
-#define SYSTEM_NET_HTTPPROTOCOLUTILS_STRING2DATE_OFFSET UNITYSDK_OFFSET(0x1DEC1300)
-#define SYSTEM_NET_HTTPPROTOCOLUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC12F0)
+#define SYSTEM_NET_HTTPPROTOCOLUTILS_DATE2STRING_OFFSET UNITYSDK_OFFSET(0x1E3406B0)
+#define SYSTEM_NET_HTTPPROTOCOLUTILS_STRING2DATE_OFFSET UNITYSDK_OFFSET(0x1E340630)
+#define SYSTEM_NET_HTTPPROTOCOLUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E340620)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpProtocolUtils_TypeDefinitionIndex = 3323;
+	inline static constexpr unsigned int HttpProtocolUtils_TypeDefinitionIndex = 3322;
 
 	class HttpProtocolUtils : public ::System::Object
 	{

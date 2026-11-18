@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_4.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::FlowCanvas::Nodes { class ConfigPosRotWithReferTarget; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDADDEFFECTNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B52CAC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDADDEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52CD10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDADDEFFECTNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x142F7690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDADDEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x142F78E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDAddEffectNode_TypeDefinitionIndex = 41969;
+	inline static constexpr unsigned int LDAddEffectNode_TypeDefinitionIndex = 47193;
 
-	class LDAddEffectNode : public ::FlowCanvas::Nodes::CallableFunctionNode_4<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::String*, ::MoleMole::FlowCanvas::Nodes::ConfigPosRotWithReferTarget*>
+	class LDAddEffectNode
 	{
 	public:
 		::System::Void _ctor()

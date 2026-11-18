@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/InputSystem/InputControl_1.h"
 #include "unitysdk/UnityEngine/InputSystem/XR/Bone.h"
 
 namespace UnityEngine::InputSystem::Controls { class IntegerControl; }
 namespace UnityEngine::InputSystem::Controls { class QuaternionControl; }
 namespace UnityEngine::InputSystem::Controls { class Vector3Control; }
 
-#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x1F1F74C0)
-#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_GET_PARENTBONEINDEX_OFFSET UNITYSDK_OFFSET(0x1F1F7460)
-#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1F1F7480)
-#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x1F1F74A0)
-#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET UNITYSDK_OFFSET(0x1F1F7550)
-#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_SET_PARENTBONEINDEX_OFFSET UNITYSDK_OFFSET(0x1F1F7470)
-#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1F1F7490)
-#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x1F1F74B0)
-#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_WRITEVALUEINTOSTATE_OFFSET UNITYSDK_OFFSET(0x1F1F76B0)
-#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1F77F0)
+#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x1F5F2E00)
+#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_GET_PARENTBONEINDEX_OFFSET UNITYSDK_OFFSET(0x1F5F2DA0)
+#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1F5F2DC0)
+#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x1F5F2DE0)
+#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET UNITYSDK_OFFSET(0x1F5F2E90)
+#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_SET_PARENTBONEINDEX_OFFSET UNITYSDK_OFFSET(0x1F5F2DB0)
+#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1F5F2DD0)
+#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0x1F5F2DF0)
+#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_WRITEVALUEINTOSTATE_OFFSET UNITYSDK_OFFSET(0x1F5F2FF0)
+#define UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F3130)
 
 namespace UnityEngine::InputSystem::XR
 {
-	inline static constexpr unsigned int BoneControl_TypeDefinitionIndex = 32349;
+	inline static constexpr unsigned int BoneControl_TypeDefinitionIndex = 31798;
 
-	class BoneControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::XR::Bone>
+	class BoneControl
 	{
 	public:
 		::UnityEngine::InputSystem::Controls::IntegerControl* _parentBoneIndex_k__BackingField; // 0xF0
-		::UnityEngine::InputSystem::Controls::QuaternionControl* _rotation_k__BackingField; // 0xF8
-		::UnityEngine::InputSystem::Controls::Vector3Control* _position_k__BackingField; // 0x100
+		::UnityEngine::InputSystem::Controls::Vector3Control* _position_k__BackingField; // 0xF8
+		::UnityEngine::InputSystem::Controls::QuaternionControl* _rotation_k__BackingField; // 0x100
 
 		::System::Void _ctor()
 		{
@@ -69,14 +68,14 @@ namespace UnityEngine::InputSystem::XR
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_FINISHSETUP_OFFSET))(this);
 		}
 
-		::UnityEngine::InputSystem::XR::Bone ReadUnprocessedValueFromState(::System::Void* statePtr)
+		::UnityEngine::InputSystem::XR::Bone ReadUnprocessedValueFromState(::PVOID statePtr)
 		{
-			return ((::UnityEngine::InputSystem::XR::Bone(*)(::PVOID, ::System::Void*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET))(this, statePtr);
+			return ((::UnityEngine::InputSystem::XR::Bone(*)(::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET))(this, statePtr);
 		}
 
-		::System::Void WriteValueIntoState(::UnityEngine::InputSystem::XR::Bone value, ::System::Void* statePtr)
+		::System::Void WriteValueIntoState(::UnityEngine::InputSystem::XR::Bone value, ::PVOID statePtr)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::XR::Bone, ::System::Void*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_WRITEVALUEINTOSTATE_OFFSET))(this, value, statePtr);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::XR::Bone, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_XR_BONECONTROL_WRITEVALUEINTOSTATE_OFFSET))(this, value, statePtr);
 		}
 	};
 }

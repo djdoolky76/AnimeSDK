@@ -7,7 +7,7 @@ namespace ToolBuddy::ThirdParty::VectorGraphics { class SceneNode; }
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int VectorUtils_SceneNodeWorldTransform_TypeDefinitionIndex = 31771;
+	inline static constexpr unsigned int VectorUtils_SceneNodeWorldTransform_TypeDefinitionIndex = 31209;
 
 	struct alignas(8) VectorUtils_SceneNodeWorldTransform
 	{

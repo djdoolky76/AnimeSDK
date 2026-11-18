@@ -5,11 +5,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER_UIBOSSCHALLENGEINFOWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1936ABA0)
+#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER_UIBOSSCHALLENGEINFOWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16EB1030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossChallengeInfoWidgetController_UIBossChallengeInfoWidgetControllerContext_TypeDefinitionIndex = 80234;
+	inline static constexpr unsigned int UIBossChallengeInfoWidgetController_UIBossChallengeInfoWidgetControllerContext_TypeDefinitionIndex = 48203;
 
 	class UIBossChallengeInfoWidgetController_UIBossChallengeInfoWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{

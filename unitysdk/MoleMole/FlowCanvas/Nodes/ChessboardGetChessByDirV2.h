@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardPureFunctionNode_4.h"
-#include "unitysdk/MoleMole/Vector2Int.h"
 #include "unitysdk/Share/GridDir.h"
+#include "unitysdk/MoleMole/Vector2Int.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCHESSBYDIRV2_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A040FC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCHESSBYDIRV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0412E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCHESSBYDIRV2_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A7BB7C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDGETCHESSBYDIRV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7BBAE0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardGetChessByDirV2_TypeDefinitionIndex = 68911;
+	inline static constexpr unsigned int ChessboardGetChessByDirV2_TypeDefinitionIndex = 56968;
 
-	class ChessboardGetChessByDirV2 : public ::MoleMole::FlowCanvas::ChessboardPureFunctionNode_4<::MoleMole::Vector2Int, ::MoleMole::Vector2Int, ::Share::GridDir, ::System::Int32>
+	class ChessboardGetChessByDirV2
 	{
 	public:
 		::System::Void _ctor()

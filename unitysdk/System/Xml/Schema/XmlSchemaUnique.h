@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaIdentityConstraint.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAUNIQUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F254690)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAUNIQUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F653550)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaUnique_TypeDefinitionIndex = 2163;
+	inline static constexpr unsigned int XmlSchemaUnique_TypeDefinitionIndex = 2162;
 
 	class XmlSchemaUnique : public ::System::Xml::Schema::XmlSchemaIdentityConstraint
 	{

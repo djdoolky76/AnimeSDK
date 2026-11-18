@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FurHelper_ObjectInfos.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FurHelper_ObjectInfos.h"
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FURHELPERMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB10520)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FURHELPERMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB10560)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FURHELPERMANAGER___C__DRAWFURLAYERS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1CB10570)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FURHELPERMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CED17E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FURHELPERMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED1820)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FURHELPERMANAGER___C__DRAWFURLAYERS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1CED1830)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FurHelperManager___c_TypeDefinitionIndex = 27419;
+	inline static constexpr unsigned int FurHelperManager___c_TypeDefinitionIndex = 26298;
 
 	class FurHelperManager___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::Universal::FurHelperManager___c** StaticGet___9()
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__17_0()
 		{
-			return (::UnityEngine::Rendering::Universal::FurHelperManager___c**)Il2CppClass::FromTypeDefinitionIndex(FurHelperManager___c_TypeDefinitionIndex)->GetStaticField(0x22B00);
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(FurHelperManager___c_TypeDefinitionIndex)->GetStaticField(0x23AE0);
 		}
-		static ::System::Comparison_1<::FurHelper_ObjectInfos>** StaticGet___9__17_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::FurHelper_ObjectInfos>**)Il2CppClass::FromTypeDefinitionIndex(FurHelperManager___c_TypeDefinitionIndex)->GetStaticField(0x22B08);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(FurHelperManager___c_TypeDefinitionIndex)->GetStaticField(0x23AE8);
 		}
 
 		static ::System::Void _cctor()

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_DYNAMICOBJECTCOLLECTOR_GAMEOBJECTKEYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19987E80)
+#define MOLEMOLE_SCENEMARK_DYNAMICOBJECT_DYNAMICOBJECTCOLLECTOR_GAMEOBJECTKEYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x14BC1700)
 
 namespace MoleMole::SceneMark::DynamicObject
 {
-	inline static constexpr unsigned int DynamicObjectCollector_GameObjectKeyValue_TypeDefinitionIndex = 90857;
+	inline static constexpr unsigned int DynamicObjectCollector_GameObjectKeyValue_TypeDefinitionIndex = 45745;
 
 	class DynamicObjectCollector_GameObjectKeyValue : public ::System::Object
 	{

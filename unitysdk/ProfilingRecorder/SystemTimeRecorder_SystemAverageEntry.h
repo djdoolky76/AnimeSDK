@@ -4,17 +4,18 @@
 
 namespace System { class String; }
 
-#define PROFILINGRECORDER_SYSTEMTIMERECORDER_SYSTEMAVERAGEENTRY_TOJSON_OFFSET UNITYSDK_OFFSET(0x95C1E0)
+#define PROFILINGRECORDER_SYSTEMTIMERECORDER_SYSTEMAVERAGEENTRY_TOJSON_OFFSET UNITYSDK_OFFSET(0x8609A0)
 
 namespace ProfilingRecorder
 {
-	inline static constexpr unsigned int SystemTimeRecorder_SystemAverageEntry_TypeDefinitionIndex = 38011;
+	inline static constexpr unsigned int SystemTimeRecorder_SystemAverageEntry_TypeDefinitionIndex = 36010;
 
 	struct alignas(8) SystemTimeRecorder_SystemAverageEntry
 	{
 		::System::String* SystemName; // 0x10
 		::System::Double TotalElapsedMs; // 0x18
 		::System::Int32 CallCount; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::Double AverageMs; // 0x28
 
 		::System::String* ToJson()

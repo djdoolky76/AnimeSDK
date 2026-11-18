@@ -5,24 +5,24 @@
 namespace Dest::Math { class ConvexHull1_SortedVertex; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define DEST_MATH_CONVEXHULL1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA48560)
-#define DEST_MATH_CONVEXHULL1___C__CREATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1FA485B0)
-#define DEST_MATH_CONVEXHULL1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA485A0)
+#define DEST_MATH_CONVEXHULL1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE582D0)
+#define DEST_MATH_CONVEXHULL1___C__CREATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1FE58320)
+#define DEST_MATH_CONVEXHULL1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE58310)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ConvexHull1___c_TypeDefinitionIndex = 35328;
+	inline static constexpr unsigned int ConvexHull1___c_TypeDefinitionIndex = 34901;
 
 	class ConvexHull1___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Dest::Math::ConvexHull1_SortedVertex*>** StaticGet___9__1_0()
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::Dest::Math::ConvexHull1_SortedVertex*>**)Il2CppClass::FromTypeDefinitionIndex(ConvexHull1___c_TypeDefinitionIndex)->GetStaticField(0x294A0);
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ConvexHull1___c_TypeDefinitionIndex)->GetStaticField(0x2A740);
 		}
-		static ::Dest::Math::ConvexHull1___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Dest::Math::ConvexHull1___c**)Il2CppClass::FromTypeDefinitionIndex(ConvexHull1___c_TypeDefinitionIndex)->GetStaticField(0x294A8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ConvexHull1___c_TypeDefinitionIndex)->GetStaticField(0x2A748);
 		}
 
 		static ::System::Void _cctor()

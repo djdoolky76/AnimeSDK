@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class HOOBBGEOCBP;
+class IPNLEPGBFCP;
+class LPEHAJFOEBA;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+template <typename T> class IFHBGHKGILG_1;
+
+#define PBHJCFJGFEK_APBMFCMBFMK_OFFSET UNITYSDK_OFFSET(0x178AFCE0)
+#define PBHJCFJGFEK_EALAOHJLMFK_OFFSET UNITYSDK_OFFSET(0x178AFA00)
+#define PBHJCFJGFEK_JCMEOGPEIBI_OFFSET UNITYSDK_OFFSET(0x178AFF40)
+#define PBHJCFJGFEK_LBKOKMLKIAJ_OFFSET UNITYSDK_OFFSET(0x178AF7D0)
+#define PBHJCFJGFEK_OCBBHIECBHF_OFFSET UNITYSDK_OFFSET(0x178AF470)
+#define PBHJCFJGFEK_OHFHFOHMBJH_OFFSET UNITYSDK_OFFSET(0x178AF790)
+#define PBHJCFJGFEK_PHOADBJGFBE_OFFSET UNITYSDK_OFFSET(0x178AF380)
+#define PBHJCFJGFEK__CTOR_OFFSET UNITYSDK_OFFSET(0x178AF280)
+
+inline static constexpr unsigned int PBHJCFJGFEK_TypeDefinitionIndex = 63626;
+
+class PBHJCFJGFEK
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::LPEHAJFOEBA*>* OPLBLMMOJNL; // 0x28
+
+	::System::Void _ctor(::HOOBBGEOCBP* JFPDJGAMELP, ::IFHBGHKGILG_1<::IPNLEPGBFCP*>* EEOKNNHLGCN)
+	{
+		return ((::System::Void(*)(::PVOID, ::HOOBBGEOCBP*, ::IFHBGHKGILG_1<::IPNLEPGBFCP*>*))((::PBYTE)hIl2Cpp + PBHJCFJGFEK__CTOR_OFFSET))(this, JFPDJGAMELP, EEOKNNHLGCN);
+	}
+
+	::System::Void PHOADBJGFBE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBHJCFJGFEK_PHOADBJGFBE_OFFSET))(this);
+	}
+
+	::LPEHAJFOEBA* OCBBHIECBHF(::System::UInt32 KAMBGDCNCIF)
+	{
+		return ((::LPEHAJFOEBA*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PBHJCFJGFEK_OCBBHIECBHF_OFFSET))(this, KAMBGDCNCIF);
+	}
+
+	::System::Void OHFHFOHMBJH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PBHJCFJGFEK_OHFHFOHMBJH_OFFSET))(this);
+	}
+
+	::System::Int32 LBKOKMLKIAJ()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PBHJCFJGFEK_LBKOKMLKIAJ_OFFSET))(this);
+	}
+
+	::System::Int32 EALAOHJLMFK()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PBHJCFJGFEK_EALAOHJLMFK_OFFSET))(this);
+	}
+
+	::IPNLEPGBFCP* APBMFCMBFMK(::System::Int32 MFNNCFLOMGI)
+	{
+		return ((::IPNLEPGBFCP*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + PBHJCFJGFEK_APBMFCMBFMK_OFFSET))(this, MFNNCFLOMGI);
+	}
+
+	::IPNLEPGBFCP* JCMEOGPEIBI(::System::UInt32 KAMBGDCNCIF)
+	{
+		return ((::IPNLEPGBFCP*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PBHJCFJGFEK_JCMEOGPEIBI_OFFSET))(this, KAMBGDCNCIF);
+	}
+};

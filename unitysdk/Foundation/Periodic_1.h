@@ -6,10 +6,10 @@ namespace Foundation { template <typename T> class IPeriodicPolicy_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Periodic_1_TypeDefinitionIndex = 8737;
+	inline static constexpr unsigned int Periodic_1_TypeDefinitionIndex = 8716;
 
 	template <typename T>
-	struct Periodic_1
+	struct alignas(8) Periodic_1
 	{
 		T _value; // 0x0
 		T _period; // 0x0

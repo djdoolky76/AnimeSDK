@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralHoldInteractInfoChildWindowController_TargetDisplayStyle_TypeDefinitionIndex = 63722;
+	inline static constexpr unsigned int UIGeneralHoldInteractInfoChildWindowController_TargetDisplayStyle_TypeDefinitionIndex = 42276;
 
 	enum class UIGeneralHoldInteractInfoChildWindowController_TargetDisplayStyle : ::System::Int32
 	{
+		Default = 0,
 		ZenkovDoor = 2,
 		SceneTransform = 1,
-		Default = 0,
 	};
 }

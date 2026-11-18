@@ -2,31 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationProcessPhase.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_Dispatchable.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_InertializationProcessor_LegacyJob.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_InertializationProcessor_ParallelJob.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Animation { class AnimationSubManager; }
 namespace NPCCrowd::Animation { class AnimationSubManager_AvatarArchetypeData; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_CREATEJOB_OFFSET UNITYSDK_OFFSET(0xE938AE0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0xE938010)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0xE937E60)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0xE937ED0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0xE937EC0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0xE937EE0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE938F20)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_CREATEJOB_OFFSET UNITYSDK_OFFSET(0x10027BB0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0x100270E0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0x10026EE0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0x10026FA0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0x10026F90)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0x10026FB0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_RESETSTATICSTATE_OFFSET UNITYSDK_OFFSET(0x10026F40)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x10027FF0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_InertializationProcessor_TypeDefinitionIndex = 88255;
+	inline static constexpr unsigned int AnimationSubManager_InertializationProcessor_TypeDefinitionIndex = 81226;
 
 	class AnimationSubManager_InertializationProcessor : public ::NPCCrowd::Animation::AnimationSubManager_Dispatchable
 	{
 	public:
-		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_InertializationProcessor_LegacyJob>* _buffer; // 0x10
+		::Il2CppArray<::System::Object*>* _buffer; // 0x10
 		::NPCCrowd::Animation::AnimationSubManager_InertializationProcessor_ParallelJob _parallelJob; // 0x18
 
 		::System::Void _ctor()
@@ -37,6 +38,11 @@ namespace NPCCrowd::Animation
 		::System::String* get_DebugName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_GET_DEBUGNAME_OFFSET))(this);
+		}
+
+		static ::System::Void ResetStaticState()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_RESETSTATICSTATE_OFFSET))();
 		}
 
 		::NPCCrowd::Animation::AnimationSubManager_AnimationProcessPhase get_MinPhase()
@@ -59,9 +65,9 @@ namespace NPCCrowd::Animation
 			return ((::Unity::Jobs::JobHandle(*)(::PVOID, ::NPCCrowd::Animation::AnimationSubManager*, ::Unity::Jobs::JobHandle))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_DISPATCH_OFFSET))(this, manager, dependsOn);
 		}
 
-		static ::System::Nullable_1<::NPCCrowd::Animation::AnimationSubManager_InertializationProcessor_LegacyJob> CreateJob(::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData* avatar, ::System::Single deltaTime, ::System::Int32 frameCount)
+		static ::System::Nullable_1<::System::Object*> CreateJob(::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData* avatar, ::System::Single deltaTime, ::System::Int32 frameCount)
 		{
-			return ((::System::Nullable_1<::NPCCrowd::Animation::AnimationSubManager_InertializationProcessor_LegacyJob>(*)(::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_CREATEJOB_OFFSET))(avatar, deltaTime, frameCount);
+			return ((::System::Nullable_1<::System::Object*>(*)(::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_INERTIALIZATIONPROCESSOR_CREATEJOB_OFFSET))(avatar, deltaTime, frameCount);
 		}
 	};
 }

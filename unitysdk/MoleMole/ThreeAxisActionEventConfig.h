@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_9A6C0545772F4974.h"
+#include "unitysdk/KDJLPLIMPNI.h"
 #include "unitysdk/MoleMole/BaseInputActionEventConfig.h"
 #include "unitysdk/MoleMole/LogicAxis3DInputType.h"
 
-#define MOLEMOLE_THREEAXISACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x173A9E90)
-#define MOLEMOLE_THREEAXISACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173A9EA0)
+#define MOLEMOLE_THREEAXISACTIONEVENTCONFIG_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x13F15A30)
+#define MOLEMOLE_THREEAXISACTIONEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13F15A40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ThreeAxisActionEventConfig_TypeDefinitionIndex = 53827;
+	inline static constexpr unsigned int ThreeAxisActionEventConfig_TypeDefinitionIndex = 65069;
 
 	class ThreeAxisActionEventConfig : public ::MoleMole::BaseInputActionEventConfig
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_THREEAXISACTIONEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_9A6C0545772F4974 get_dataType()
+		::KDJLPLIMPNI get_dataType()
 		{
-			return ((::Enum_3_9A6C0545772F4974(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_THREEAXISACTIONEVENTCONFIG_GET_DATATYPE_OFFSET))(this);
+			return ((::KDJLPLIMPNI(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_THREEAXISACTIONEVENTCONFIG_GET_DATATYPE_OFFSET))(this);
 		}
 	};
 }

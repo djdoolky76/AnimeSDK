@@ -5,12 +5,13 @@
 
 namespace DG::Tweening::Plugins::Options
 {
-	inline static constexpr unsigned int Vector3ArrayOptions_TypeDefinitionIndex = 28562;
+	inline static constexpr unsigned int Vector3ArrayOptions_TypeDefinitionIndex = 28001;
 
 	struct alignas(8) Vector3ArrayOptions
 	{
 		::DG::Tweening::AxisConstraint axisConstraint; // 0x10
 		::System::Boolean snapping; // 0x14
+		::System::Byte _padding0[0x3];
 		::Il2CppArray<::System::Single>* durations; // 0x18
 	};
 }

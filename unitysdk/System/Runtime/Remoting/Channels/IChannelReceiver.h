@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class Object; }
-
 namespace System::Runtime::Remoting::Channels
 {
-	inline static constexpr unsigned int IChannelReceiver_TypeDefinitionIndex = 1303;
+	inline static constexpr unsigned int IChannelReceiver_TypeDefinitionIndex = 1302;
 
 	class IChannelReceiver
 	{

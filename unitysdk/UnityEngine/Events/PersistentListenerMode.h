@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Events
 {
-	inline static constexpr unsigned int PersistentListenerMode_TypeDefinitionIndex = 5484;
+	inline static constexpr unsigned int PersistentListenerMode_TypeDefinitionIndex = 5487;
 
 	enum class PersistentListenerMode : ::System::Int32
 	{

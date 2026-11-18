@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWENABLEREFRESHPLAYERON_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1170A170)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWENABLEREFRESHPLAYERON__CTOR_OFFSET UNITYSDK_OFFSET(0x1170A230)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWENABLEREFRESHPLAYERON_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xFAC7230)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWENABLEREFRESHPLAYERON__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC72F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowEnableRefreshPlayerOn_TypeDefinitionIndex = 42143;
+	inline static constexpr unsigned int ConfigHollowEnableRefreshPlayerOn_TypeDefinitionIndex = 40542;
 
 	class ConfigHollowEnableRefreshPlayerOn : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
@@ -21,9 +21,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWENABLEREFRESHPLAYERON__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWENABLEREFRESHPLAYERON_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGHOLLOWENABLEREFRESHPLAYERON_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIAvatarShowType.h"
 
-#define MOLEMOLE_UIAVATAROPENTYPE_SELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1601A1A0)
+#define MOLEMOLE_UIAVATAROPENTYPE_SELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x159455E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarOpenType_Select_TypeDefinitionIndex = 44127;
+	inline static constexpr unsigned int UIAvatarOpenType_Select_TypeDefinitionIndex = 63917;
 
 	class UIAvatarOpenType_Select : public ::MoleMole::UIAvatarShowType
 	{

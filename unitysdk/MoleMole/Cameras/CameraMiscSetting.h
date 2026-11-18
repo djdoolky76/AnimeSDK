@@ -5,13 +5,13 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERAS_CAMERAMISCSETTING_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x150DCAC0)
-#define MOLEMOLE_CAMERAS_CAMERAMISCSETTING_LERP_OFFSET UNITYSDK_OFFSET(0x150DC940)
-#define MOLEMOLE_CAMERAS_CAMERAMISCSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x150DCAB0)
+#define MOLEMOLE_CAMERAS_CAMERAMISCSETTING_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x1921C840)
+#define MOLEMOLE_CAMERAS_CAMERAMISCSETTING_LERP_OFFSET UNITYSDK_OFFSET(0x1921C6C0)
+#define MOLEMOLE_CAMERAS_CAMERAMISCSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1921C830)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int CameraMiscSetting_TypeDefinitionIndex = 62204;
+	inline static constexpr unsigned int CameraMiscSetting_TypeDefinitionIndex = 92880;
 
 	class CameraMiscSetting : public ::System::Object
 	{
@@ -19,6 +19,7 @@ namespace MoleMole::Cameras
 		::UnityEngine::Vector3 followOffset; // 0x10
 		::UnityEngine::Vector3 lookAtOffset; // 0x1C
 		::System::Single fieldOfView; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::String* debugKey; // 0x30
 
 		::System::Void _ctor()

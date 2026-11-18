@@ -4,10 +4,10 @@
 
 namespace Foundation::Function
 {
-	inline static constexpr unsigned int FixedPolynomial___coefficients_e__FixedBuffer_TypeDefinitionIndex = 8787;
+	inline static constexpr unsigned int FixedPolynomial___coefficients_e__FixedBuffer_TypeDefinitionIndex = 8967;
 
 	struct alignas(4) FixedPolynomial___coefficients_e__FixedBuffer
 	{
-		::System::Single data[8]; // 0x0
+		::System::Single FixedElementField; // 0x10
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_PRESERVESIGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB7F10)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_PRESERVESIGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B9130)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int PreserveSigAttribute_TypeDefinitionIndex = 1419;
+	inline static constexpr unsigned int PreserveSigAttribute_TypeDefinitionIndex = 1418;
 
 	class PreserveSigAttribute : public ::System::Attribute
 	{

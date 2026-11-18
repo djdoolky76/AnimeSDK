@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SUMMERTIDETREASURESTARTOCEANWAVE_DO_OFFSET UNITYSDK_OFFSET(0x19082190)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SUMMERTIDETREASURESTARTOCEANWAVE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x190820D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SUMMERTIDETREASURESTARTOCEANWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x190822A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SUMMERTIDETREASURESTARTOCEANWAVE_DO_OFFSET UNITYSDK_OFFSET(0x180E8C80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SUMMERTIDETREASURESTARTOCEANWAVE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x180E8BC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SUMMERTIDETREASURESTARTOCEANWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x180E8D90)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SummerTideTreasureStartOceanWave_TypeDefinitionIndex = 53937;
+	inline static constexpr unsigned int LD_SummerTideTreasureStartOceanWave_TypeDefinitionIndex = 84537;
 
 	class LD_SummerTideTreasureStartOceanWave : public ::FlowCanvas::Nodes::FlowControlNode
 	{

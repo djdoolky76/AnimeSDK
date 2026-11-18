@@ -6,19 +6,19 @@ namespace MoleMole::FlowCanvas::Nodes { class LDPlayNapCameraSequence; }
 namespace MoleMole::Utils { class INapCameraSequenceDataTableEntry; }
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x129934E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE___C__DISPLAYCLASS13_0__DO_B__0_OFFSET UNITYSDK_OFFSET(0x12993DD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE___C__DISPLAYCLASS13_0__DO_B__1_OFFSET UNITYSDK_OFFSET(0x12993E20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x124526F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE___C__DISPLAYCLASS13_0__DO_B__0_OFFSET UNITYSDK_OFFSET(0x12452FE0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDPLAYNAPCAMERASEQUENCE___C__DISPLAYCLASS13_0__DO_B__1_OFFSET UNITYSDK_OFFSET(0x12453030)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPlayNapCameraSequence___c__DisplayClass13_0_TypeDefinitionIndex = 65340;
+	inline static constexpr unsigned int LDPlayNapCameraSequence___c__DisplayClass13_0_TypeDefinitionIndex = 59610;
 
 	class LDPlayNapCameraSequence___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::FlowCanvas::Nodes::LDPlayNapCameraSequence* __4__this; // 0x10
-		::MoleMole::Utils::INapCameraSequenceDataTableEntry* config; // 0x18
+		::MoleMole::Utils::INapCameraSequenceDataTableEntry* config; // 0x10
+		::MoleMole::FlowCanvas::Nodes::LDPlayNapCameraSequence* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

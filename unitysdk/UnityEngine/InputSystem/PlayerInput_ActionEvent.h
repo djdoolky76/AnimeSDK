@@ -1,23 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Guid.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
-#include "unitysdk/UnityEngine/InputSystem/InputAction_CallbackContext.h"
 
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputAction; }
 
-#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_ACTIONEVENT_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x1F810B20)
-#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_ACTIONEVENT_GET_ACTIONNAME_OFFSET UNITYSDK_OFFSET(0x1F810B30)
-#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_ACTIONEVENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F810B50)
-#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_ACTIONEVENT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F810E30)
-#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_ACTIONEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F810B40)
+#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_ACTIONEVENT_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0x1FC216A0)
+#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_ACTIONEVENT_GET_ACTIONNAME_OFFSET UNITYSDK_OFFSET(0x1FC216B0)
+#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_ACTIONEVENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FC216D0)
+#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_ACTIONEVENT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1FC219B0)
+#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUT_ACTIONEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC216C0)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int PlayerInput_ActionEvent_TypeDefinitionIndex = 32322;
+	inline static constexpr unsigned int PlayerInput_ActionEvent_TypeDefinitionIndex = 31771;
 
-	class PlayerInput_ActionEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::InputAction_CallbackContext>
+	class PlayerInput_ActionEvent
 	{
 	public:
 		::System::String* m_ActionId; // 0x30

@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIWidgetController.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+
+class BBLEFJPJLHJ;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+
+#define MOLEMOLE_UIZKFRIENDMARKETSTOREINFOWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET UNITYSDK_OFFSET(0xE53C8B0)
+#define MOLEMOLE_UIZKFRIENDMARKETSTOREINFOWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xE53C650)
+#define MOLEMOLE_UIZKFRIENDMARKETSTOREINFOWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0xE53C6F0)
+#define MOLEMOLE_UIZKFRIENDMARKETSTOREINFOWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xE53C920)
+#define MOLEMOLE_UIZKFRIENDMARKETSTOREINFOWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xE53C980)
+#define MOLEMOLE_UIZKFRIENDMARKETSTOREINFOWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0xE53CA20)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIZKFriendMarketStoreInfoWidgetController_TypeDefinitionIndex = 86363;
+
+	class UIZKFriendMarketStoreInfoWidgetController : public ::MoleMole::UIWidgetController
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZKFRIENDMARKETSTOREINFOWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnCreateViewModel(::LIBOIKJGAIH& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZKFRIENDMARKETSTOREINFOWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+		}
+
+		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZKFRIENDMARKETSTOREINFOWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
+		}
+
+		::System::Void __base_OnCreateViewModel(::LIBOIKJGAIH& P0, ::MoleMole::UIControlReference* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZKFRIENDMARKETSTOREINFOWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZKFRIENDMARKETSTOREINFOWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::BBLEFJPJLHJ* OGMPOGIHBIK()
+		{
+			return ((::BBLEFJPJLHJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZKFRIENDMARKETSTOREINFOWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET))(this);
+		}
+	};
+}

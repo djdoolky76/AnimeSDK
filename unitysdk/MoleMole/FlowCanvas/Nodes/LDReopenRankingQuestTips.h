@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREOPENRANKINGQUESTTIPS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19BE1440)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREOPENRANKINGQUESTTIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE1510)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREOPENRANKINGQUESTTIPS__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x19BE1550)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREOPENRANKINGQUESTTIPS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A08BE30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREOPENRANKINGQUESTTIPS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A08BEF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREOPENRANKINGQUESTTIPS__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x1A08BF30)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDReopenRankingQuestTips_TypeDefinitionIndex = 74520;
+	inline static constexpr unsigned int LDReopenRankingQuestTips_TypeDefinitionIndex = 87487;
 
 	class LDReopenRankingQuestTips : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowInput* inFlow; // 0xA8
-		::FlowCanvas::FlowOutput* outFlow; // 0xB0
+		::FlowCanvas::FlowOutput* outFlow; // 0xA8
+		::FlowCanvas::FlowInput* inFlow; // 0xB0
 
 		::System::Void _ctor()
 		{

@@ -5,19 +5,19 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIGENERALSORTCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17DA9E20)
+#define MOLEMOLE_UIGENERALSORTCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x178532F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralSortControllerContext_TypeDefinitionIndex = 47124;
+	inline static constexpr unsigned int UIGeneralSortControllerContext_TypeDefinitionIndex = 73652;
 
 	class UIGeneralSortControllerContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action* onClosed; // 0x28
-		::System::Action* onOpen; // 0x30
-		::System::Action_1<::System::Int32>* onDeleteClick; // 0x38
-		::System::Action* onChanged; // 0x40
+		::System::Action_1<::System::Int32>* onDeleteClick; // 0x28
+		::System::Action* onClosed; // 0x30
+		::System::Action* onChanged; // 0x38
+		::System::Action* onOpen; // 0x40
 		::System::Boolean showForceSetOwn; // 0x48
 
 		::System::Void _ctor()

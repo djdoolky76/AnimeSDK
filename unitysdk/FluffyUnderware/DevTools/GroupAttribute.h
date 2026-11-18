@@ -4,25 +4,25 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_GROUPATTRIBUTE_GET_PATHISABSOLUTE_OFFSET UNITYSDK_OFFSET(0x1EA55D40)
-#define FLUFFYUNDERWARE_DEVTOOLS_GROUPATTRIBUTE_GET_PATH_OFFSET UNITYSDK_OFFSET(0x1EA55C90)
-#define FLUFFYUNDERWARE_DEVTOOLS_GROUPATTRIBUTE_SET_PATHISABSOLUTE_OFFSET UNITYSDK_OFFSET(0x1EA55D50)
-#define FLUFFYUNDERWARE_DEVTOOLS_GROUPATTRIBUTE_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1EA55CA0)
-#define FLUFFYUNDERWARE_DEVTOOLS_GROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA494C0)
+#define FLUFFYUNDERWARE_DEVTOOLS_GROUPATTRIBUTE_GET_PATHISABSOLUTE_OFFSET UNITYSDK_OFFSET(0x1ED5E9C0)
+#define FLUFFYUNDERWARE_DEVTOOLS_GROUPATTRIBUTE_GET_PATH_OFFSET UNITYSDK_OFFSET(0x1ED5E910)
+#define FLUFFYUNDERWARE_DEVTOOLS_GROUPATTRIBUTE_SET_PATHISABSOLUTE_OFFSET UNITYSDK_OFFSET(0x1ED5E9D0)
+#define FLUFFYUNDERWARE_DEVTOOLS_GROUPATTRIBUTE_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1ED5E920)
+#define FLUFFYUNDERWARE_DEVTOOLS_GROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED52140)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int GroupAttribute_TypeDefinitionIndex = 28916;
+	inline static constexpr unsigned int GroupAttribute_TypeDefinitionIndex = 28355;
 
 	class GroupAttribute : public ::FluffyUnderware::DevTools::DTAttribute
 	{
 	public:
 		::System::String* mPath; // 0x20
-		::System::String* Tooltip; // 0x28
+		::System::String* Label; // 0x28
 		::System::String* HelpURL; // 0x30
-		::System::String* Label; // 0x38
-		::System::Boolean _PathIsAbsolute_k__BackingField; // 0x40
-		::System::Boolean Invisible; // 0x41
+		::System::String* Tooltip; // 0x38
+		::System::Boolean Invisible; // 0x40
+		::System::Boolean _PathIsAbsolute_k__BackingField; // 0x41
 		::System::Boolean Expanded; // 0x42
 
 		::System::Void _ctor(::System::String* pathAndName)

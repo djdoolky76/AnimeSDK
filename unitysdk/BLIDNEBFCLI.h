@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BNPHNIKEBAL;
+class HNJPHGAJKBC;
+
+#define BLIDNEBFCLI_BNFDOJPKBMO_OFFSET UNITYSDK_OFFSET(0x1F79F3F0)
+#define BLIDNEBFCLI_GDMGMMGOPCI_OFFSET UNITYSDK_OFFSET(0x1F79F3E0)
+#define BLIDNEBFCLI_GLCACAPEKCN_OFFSET UNITYSDK_OFFSET(0x1F79F3D0)
+#define BLIDNEBFCLI_IGLOHAFPPJB_OFFSET UNITYSDK_OFFSET(0x1F79F3C0)
+#define BLIDNEBFCLI_JJEKFJPIENK_OFFSET UNITYSDK_OFFSET(0x1F79F420)
+#define BLIDNEBFCLI_NCNOMFOCLBH_OFFSET UNITYSDK_OFFSET(0x1F79F410)
+#define BLIDNEBFCLI_NGFKBKCFPLK_OFFSET UNITYSDK_OFFSET(0x1F79F400)
+#define BLIDNEBFCLI_PGHAJOMNDDJ_OFFSET UNITYSDK_OFFSET(0x1F79F430)
+#define BLIDNEBFCLI__CTOR_OFFSET UNITYSDK_OFFSET(0x1F79F3A0)
+
+inline static constexpr unsigned int BLIDNEBFCLI_TypeDefinitionIndex = 28953;
+
+class BLIDNEBFCLI : public ::System::Object
+{
+public:
+	::BNPHNIKEBAL* _KHEOGAHDPCM_k__BackingField; // 0x10
+	::HNJPHGAJKBC* _AADLEAOFFCK_k__BackingField; // 0x18
+	::System::UInt32 _LOPPOOPINOI_k__BackingField; // 0x20
+	::System::Boolean _IEDHMANDGNO_k__BackingField; // 0x24
+	::System::Byte _padding0[0x3];
+	::System::UInt32 _CLOAPKDOJAA_k__BackingField; // 0x28
+
+	::System::Void _ctor(::HNJPHGAJKBC* FMGOPIADCOE, ::BNPHNIKEBAL* GADDFIDBBGC, ::System::UInt32 MNIAIGNGJOJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNJPHGAJKBC*, ::BNPHNIKEBAL*, ::System::UInt32))((::PBYTE)hIl2Cpp + BLIDNEBFCLI__CTOR_OFFSET))(this, FMGOPIADCOE, GADDFIDBBGC, MNIAIGNGJOJ);
+	}
+
+	::System::Void IGLOHAFPPJB(::System::Boolean EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + BLIDNEBFCLI_IGLOHAFPPJB_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::HNJPHGAJKBC* GLCACAPEKCN()
+	{
+		return ((::HNJPHGAJKBC*(*)(::PVOID))((::PBYTE)hIl2Cpp + BLIDNEBFCLI_GLCACAPEKCN_OFFSET))(this);
+	}
+
+	::System::Void GDMGMMGOPCI(::System::UInt32 EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BLIDNEBFCLI_GDMGMMGOPCI_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Boolean BNFDOJPKBMO()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BLIDNEBFCLI_BNFDOJPKBMO_OFFSET))(this);
+	}
+
+	::System::UInt32 NGFKBKCFPLK()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + BLIDNEBFCLI_NGFKBKCFPLK_OFFSET))(this);
+	}
+
+	::System::UInt32 NCNOMFOCLBH()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + BLIDNEBFCLI_NCNOMFOCLBH_OFFSET))(this);
+	}
+
+	::BNPHNIKEBAL* JJEKFJPIENK()
+	{
+		return ((::BNPHNIKEBAL*(*)(::PVOID))((::PBYTE)hIl2Cpp + BLIDNEBFCLI_JJEKFJPIENK_OFFSET))(this);
+	}
+
+	::System::Void PGHAJOMNDDJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BLIDNEBFCLI_PGHAJOMNDDJ_OFFSET))(this);
+	}
+};

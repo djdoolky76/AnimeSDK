@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTDELETECARDPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11DA5E40)
-#define MOLEMOLE_UIACTIVITYHOTPOTDELETECARDPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11DA5E80)
-#define MOLEMOLE_UIACTIVITYHOTPOTDELETECARDPOPWINDOWCONTROLLER___C__ONCONFIRMBTNCLICK_B__17_0_OFFSET UNITYSDK_OFFSET(0x11DA5E90)
+#define MOLEMOLE_UIACTIVITYHOTPOTDELETECARDPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1899DE10)
+#define MOLEMOLE_UIACTIVITYHOTPOTDELETECARDPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1899DE50)
+#define MOLEMOLE_UIACTIVITYHOTPOTDELETECARDPOPWINDOWCONTROLLER___C__ONCONFIRMBTNCLICK_B__17_0_OFFSET UNITYSDK_OFFSET(0x1899DE60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotDeleteCardPopWindowController___c_TypeDefinitionIndex = 60271;
+	inline static constexpr unsigned int UIActivityHotPotDeleteCardPopWindowController___c_TypeDefinitionIndex = 86172;
 
 	class UIActivityHotPotDeleteCardPopWindowController___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::System::Int32>** StaticGet___9__17_0()
 		{
-			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotDeleteCardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FEA0);
+			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotDeleteCardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4EA30);
 		}
-		static ::MoleMole::UIActivityHotPotDeleteCardPopWindowController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityHotPotDeleteCardPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotDeleteCardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4FEA8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotPotDeleteCardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4EA38);
 		}
 
 		static ::System::Void _cctor()

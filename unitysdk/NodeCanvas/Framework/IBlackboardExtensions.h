@@ -4,29 +4,28 @@
 
 namespace NodeCanvas::Framework { class IBlackboard; }
 namespace NodeCanvas::Framework { class Variable; }
-namespace NodeCanvas::Framework { template <typename T> class Variable_1; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class Component; }
 
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_ADDVARIABLE_1_OFFSET UNITYSDK_OFFSET(0x1EB94330)
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_ADDVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EB95FB0)
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_GETALLPARENTS_OFFSET UNITYSDK_OFFSET(0x1EB95E50)
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_GETROOT_OFFSET UNITYSDK_OFFSET(0x1EB95CE0)
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_GETVARIABLEBYID_OFFSET UNITYSDK_OFFSET(0x1EB93670)
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_GETVARIABLES_OFFSET UNITYSDK_OFFSET(0x1EB96910)
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_GETVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EB93AB0)
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_INITIALIZEPROPERTIESBINDING_OFFSET UNITYSDK_OFFSET(0x1EB96660)
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_ISPARTOF_OFFSET UNITYSDK_OFFSET(0x1EB95EB0)
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_OVERWRITEFROM_OFFSET UNITYSDK_OFFSET(0x1EB96970)
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_OVERWRITEVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EB970A0)
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_REMOVEVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EB960D0)
-#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_SETVARIABLEVALUE_OFFSET UNITYSDK_OFFSET(0x1EB96390)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_ADDVARIABLE_2_OFFSET UNITYSDK_OFFSET(0x1EF65A00)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_ADDVARIABLE_3_OFFSET UNITYSDK_OFFSET(0x1EF63D70)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_GETALLPARENTS_OFFSET UNITYSDK_OFFSET(0x1EF658A0)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_GETROOT_OFFSET UNITYSDK_OFFSET(0x1EF65730)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_GETVARIABLEBYID_OFFSET UNITYSDK_OFFSET(0x1EF630B0)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_GETVARIABLES_OFFSET UNITYSDK_OFFSET(0x1EF66370)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_GETVARIABLE_1_OFFSET UNITYSDK_OFFSET(0x1EF634F0)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_INITIALIZEPROPERTIESBINDING_OFFSET UNITYSDK_OFFSET(0x1EF660B0)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_ISPARTOF_OFFSET UNITYSDK_OFFSET(0x1EF65900)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_OVERWRITEFROM_OFFSET UNITYSDK_OFFSET(0x1EF663D0)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_OVERWRITEVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EF66B00)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_REMOVEVARIABLE_OFFSET UNITYSDK_OFFSET(0x1EF65B20)
+#define NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_SETVARIABLEVALUE_OFFSET UNITYSDK_OFFSET(0x1EF65DE0)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int IBlackboardExtensions_TypeDefinitionIndex = 30887;
+	inline static constexpr unsigned int IBlackboardExtensions_TypeDefinitionIndex = 30239;
 
 	class IBlackboardExtensions : public ::System::Object
 	{
@@ -46,14 +45,14 @@ namespace NodeCanvas::Framework
 			return ((::System::Boolean(*)(::NodeCanvas::Framework::IBlackboard*, ::NodeCanvas::Framework::IBlackboard*))((::PBYTE)hIl2Cpp + NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_ISPARTOF_OFFSET))(blackboard, target);
 		}
 
-		static ::NodeCanvas::Framework::Variable* AddVariable(::NodeCanvas::Framework::IBlackboard* blackboard, ::System::String* varName, ::System::Object* value)
+		static ::NodeCanvas::Framework::Variable* AddVariable_2(::NodeCanvas::Framework::IBlackboard* blackboard, ::System::String* varName, ::System::Object* value)
 		{
-			return ((::NodeCanvas::Framework::Variable*(*)(::NodeCanvas::Framework::IBlackboard*, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_ADDVARIABLE_OFFSET))(blackboard, varName, value);
+			return ((::NodeCanvas::Framework::Variable*(*)(::NodeCanvas::Framework::IBlackboard*, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_ADDVARIABLE_2_OFFSET))(blackboard, varName, value);
 		}
 
-		static ::NodeCanvas::Framework::Variable* AddVariable_1(::NodeCanvas::Framework::IBlackboard* blackboard, ::System::String* varName, ::System::Type* type)
+		static ::NodeCanvas::Framework::Variable* AddVariable_3(::NodeCanvas::Framework::IBlackboard* blackboard, ::System::String* varName, ::System::Type* type)
 		{
-			return ((::NodeCanvas::Framework::Variable*(*)(::NodeCanvas::Framework::IBlackboard*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_ADDVARIABLE_1_OFFSET))(blackboard, varName, type);
+			return ((::NodeCanvas::Framework::Variable*(*)(::NodeCanvas::Framework::IBlackboard*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_ADDVARIABLE_3_OFFSET))(blackboard, varName, type);
 		}
 
 		static ::NodeCanvas::Framework::Variable* RemoveVariable(::NodeCanvas::Framework::IBlackboard* blackboard, ::System::String* varName)
@@ -71,9 +70,9 @@ namespace NodeCanvas::Framework
 			return ((::System::Void(*)(::NodeCanvas::Framework::IBlackboard*, ::UnityEngine::Component*, ::System::Boolean))((::PBYTE)hIl2Cpp + NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_INITIALIZEPROPERTIESBINDING_OFFSET))(blackboard, target, callSetter);
 		}
 
-		static ::NodeCanvas::Framework::Variable* GetVariable(::NodeCanvas::Framework::IBlackboard* blackboard, ::System::String* varName, ::System::Type* ofType)
+		static ::NodeCanvas::Framework::Variable* GetVariable_1(::NodeCanvas::Framework::IBlackboard* blackboard, ::System::String* varName, ::System::Type* ofType)
 		{
-			return ((::NodeCanvas::Framework::Variable*(*)(::NodeCanvas::Framework::IBlackboard*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_GETVARIABLE_OFFSET))(blackboard, varName, ofType);
+			return ((::NodeCanvas::Framework::Variable*(*)(::NodeCanvas::Framework::IBlackboard*, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + NODECANVAS_FRAMEWORK_IBLACKBOARDEXTENSIONS_GETVARIABLE_1_OFFSET))(blackboard, varName, ofType);
 		}
 
 		static ::NodeCanvas::Framework::Variable* GetVariableByID(::NodeCanvas::Framework::IBlackboard* blackboard, ::System::String* ID)

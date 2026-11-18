@@ -5,30 +5,30 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Rendering::Universal::Internal { class DecalSystem_CullResult_Set; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DDF8C50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1DDF8F60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DDF8E70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1DDF8AD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT_GET_REQUESTS_OFFSET UNITYSDK_OFFSET(0x1DDF8AC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF9020)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E15A8E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1E15ABF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E15AB00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E15A750)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT_GET_REQUESTS_OFFSET UNITYSDK_OFFSET(0x1E15A740)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E15ACB0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DecalSystem_CullResult_TypeDefinitionIndex = 26882;
+	inline static constexpr unsigned int DecalSystem_CullResult_TypeDefinitionIndex = 27141;
 
 	class DecalSystem_CullResult : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Rendering::Universal::Internal::DecalSystem_CullResult_Set*>* m_Requests; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* m_Requests; // 0x10
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Rendering::Universal::Internal::DecalSystem_CullResult_Set*>* get_requests()
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* get_requests()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Rendering::Universal::Internal::DecalSystem_CullResult_Set*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT_GET_REQUESTS_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALSYSTEM_CULLRESULT_GET_REQUESTS_OFFSET))(this);
 		}
 
 		::UnityEngine::Rendering::Universal::Internal::DecalSystem_CullResult_Set* get_Item(::System::Int32 index)

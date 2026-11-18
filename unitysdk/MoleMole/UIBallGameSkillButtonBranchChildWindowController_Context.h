@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_3_6F28FFD006F2B451;
+class KBDGKAJPALP;
 
-#define MOLEMOLE_UIBALLGAMESKILLBUTTONBRANCHCHILDWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6F91E0)
+#define MOLEMOLE_UIBALLGAMESKILLBUTTONBRANCHCHILDWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F90BAF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBallGameSkillButtonBranchChildWindowController_Context_TypeDefinitionIndex = 93245;
+	inline static constexpr unsigned int UIBallGameSkillButtonBranchChildWindowController_Context_TypeDefinitionIndex = 95135;
 
 	class UIBallGameSkillButtonBranchChildWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_6F28FFD006F2B451* world; // 0x28
+		::KBDGKAJPALP* world; // 0x28
 
 		::System::Void _ctor()
 		{

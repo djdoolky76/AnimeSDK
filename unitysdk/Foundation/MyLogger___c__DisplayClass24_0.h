@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F01E270)
-#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS24_0__DRAWPOINT_B__0_OFFSET UNITYSDK_OFFSET(0x1F01E280)
+#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4DB940)
+#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS24_0__DRAWPOINT_B__0_OFFSET UNITYSDK_OFFSET(0x1F4DB950)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MyLogger___c__DisplayClass24_0_TypeDefinitionIndex = 8383;
+	inline static constexpr unsigned int MyLogger___c__DisplayClass24_0_TypeDefinitionIndex = 8157;
 
 	class MyLogger___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::System::Single scale; // 0x10
-		::UnityEngine::Color color; // 0x14
-		::UnityEngine::Vector3 position; // 0x24
+		::UnityEngine::Color color; // 0x10
+		::UnityEngine::Vector3 position; // 0x20
+		::System::Single scale; // 0x2C
 
 		::System::Void _ctor()
 		{

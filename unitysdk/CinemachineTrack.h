@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace UnityEngine { class GameObject; }
 
-#define CINEMACHINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1FBFA4D0)
-#define CINEMACHINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBFA7F0)
+#define CINEMACHINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1FFFBEC0)
+#define CINEMACHINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFFC1E0)
 
-inline static constexpr unsigned int CinemachineTrack_TypeDefinitionIndex = 34639;
+inline static constexpr unsigned int CinemachineTrack_TypeDefinitionIndex = 34185;
 
 class CinemachineTrack : public ::UnityEngine::Timeline::TrackAsset
 {

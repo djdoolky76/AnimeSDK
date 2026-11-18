@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseFlowNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSWITCHFLOWNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x19AC9970)
-#define MOLEMOLE_CONFIG_CONFIGSWITCHFLOWNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC9A60)
+#define MOLEMOLE_CONFIG_CONFIGSWITCHFLOWNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0xFFE38C0)
+#define MOLEMOLE_CONFIG_CONFIGSWITCHFLOWNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xFFE39B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSwitchFlowNode_TypeDefinitionIndex = 84810;
+	inline static constexpr unsigned int ConfigSwitchFlowNode_TypeDefinitionIndex = 72447;
 
 	class ConfigSwitchFlowNode : public ::MoleMole::Config::ConfigUIBaseFlowNode
 	{
@@ -23,9 +23,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSWITCHFLOWNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSWITCHFLOWNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSWITCHFLOWNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

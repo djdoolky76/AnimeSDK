@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Unreal/FName.h"
 #include "unitysdk/PipelineCamera/CameraCommandType.h"
 #include "unitysdk/System/Object.h"
 
 namespace PipelineCamera { class ICameraDataBlenderBuilder; }
-namespace PipelineCamera { template <typename T> class CameraSubModuleContainer_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_ADD_OFFSET UNITYSDK_OFFSET(0x1EC11880)
-#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_PIPELINECAMERA_ICAMERACOMMAND_GET_COMMANDTYPE_OFFSET UNITYSDK_OFFSET(0x1EC116E0)
-#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_PIPELINECAMERA_ICAMERACOMMAND_GET_PIPELINE_OFFSET UNITYSDK_OFFSET(0x1EC11730)
-#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC11770)
+#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_ADD_2_OFFSET UNITYSDK_OFFSET(0x1EFCCA70)
+#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_PIPELINECAMERA_ICAMERACOMMAND_GET_COMMANDTYPE_OFFSET UNITYSDK_OFFSET(0x1EFCC8D0)
+#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_PIPELINECAMERA_ICAMERACOMMAND_GET_PIPELINE_OFFSET UNITYSDK_OFFSET(0x1EFCC920)
+#define PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFCC960)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraCommandUnSpawnSubModules_TypeDefinitionIndex = 38141;
+	inline static constexpr unsigned int CameraCommandUnSpawnSubModules_TypeDefinitionIndex = 36143;
 
 	class CameraCommandUnSpawnSubModules : public ::System::Object
 	{
@@ -41,9 +38,9 @@ namespace PipelineCamera
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_PIPELINECAMERA_ICAMERACOMMAND_GET_PIPELINE_OFFSET))(this);
 		}
 
-		::System::Void Add(::PipelineCamera::ICameraDataBlenderBuilder* blendOut)
+		::System::Void Add_2(::PipelineCamera::ICameraDataBlenderBuilder* blendOut)
 		{
-			return ((::System::Void(*)(::PVOID, ::PipelineCamera::ICameraDataBlenderBuilder*))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_ADD_OFFSET))(this, blendOut);
+			return ((::System::Void(*)(::PVOID, ::PipelineCamera::ICameraDataBlenderBuilder*))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CAMERACOMMANDUNSPAWNSUBMODULES_ADD_2_OFFSET))(this, blendOut);
 		}
 	};
 }

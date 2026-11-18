@@ -3,16 +3,15 @@
 #include "unitysdk/MoleMole/SerializedScriptableObjectBase.h"
 
 namespace MoleMole::Config { class HotPotFoodAssetConfig; }
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOTPOTFOODASSETS_GETCONFIGBYID_OFFSET UNITYSDK_OFFSET(0x177DE7A0)
-#define MOLEMOLE_CONFIG_CONFIGHOTPOTFOODASSETS_LOADELITEFOODMAP_OFFSET UNITYSDK_OFFSET(0x177DE8C0)
-#define MOLEMOLE_CONFIG_CONFIGHOTPOTFOODASSETS__CTOR_OFFSET UNITYSDK_OFFSET(0x177DED90)
+#define MOLEMOLE_CONFIG_CONFIGHOTPOTFOODASSETS_GETCONFIGBYID_OFFSET UNITYSDK_OFFSET(0x1A7651F0)
+#define MOLEMOLE_CONFIG_CONFIGHOTPOTFOODASSETS_LOADELITEFOODMAP_OFFSET UNITYSDK_OFFSET(0x1A765310)
+#define MOLEMOLE_CONFIG_CONFIGHOTPOTFOODASSETS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7657E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHotPotFoodAssets_TypeDefinitionIndex = 56404;
+	inline static constexpr unsigned int ConfigHotPotFoodAssets_TypeDefinitionIndex = 73953;
 
 	class ConfigHotPotFoodAssets : public ::MoleMole::SerializedScriptableObjectBase
 	{

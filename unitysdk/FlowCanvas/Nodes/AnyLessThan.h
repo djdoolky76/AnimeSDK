@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
 namespace System { class IComparable; }
 
-#define FLOWCANVAS_NODES_ANYLESSTHAN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E228B10)
-#define FLOWCANVAS_NODES_ANYLESSTHAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E228BF0)
+#define FLOWCANVAS_NODES_ANYLESSTHAN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EBAA3B0)
+#define FLOWCANVAS_NODES_ANYLESSTHAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBAA490)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int AnyLessThan_TypeDefinitionIndex = 30580;
+	inline static constexpr unsigned int AnyLessThan_TypeDefinitionIndex = 30877;
 
-	class AnyLessThan : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Boolean, ::System::IComparable*, ::System::IComparable*>
+	class AnyLessThan
 	{
 	public:
 		::System::Void _ctor()

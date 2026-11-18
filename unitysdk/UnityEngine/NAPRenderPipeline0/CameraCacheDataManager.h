@@ -8,22 +8,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::NAPRenderPipeline0 { class CameraCacheData; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERACACHEDATAMANAGER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1EA87850)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERACACHEDATAMANAGER_GETCACHCEDATA_OFFSET UNITYSDK_OFFSET(0x1EA87A50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERACACHEDATAMANAGER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA87640)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERACACHEDATAMANAGER_TRIMINVALIDDATA_OFFSET UNITYSDK_OFFSET(0x1EA87BE0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERACACHEDATAMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA87770)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERACACHEDATAMANAGER_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1ED7FC50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERACACHEDATAMANAGER_GETCACHCEDATA_OFFSET UNITYSDK_OFFSET(0x1ED7FE50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERACACHEDATAMANAGER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ED7FA40)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERACACHEDATAMANAGER_TRIMINVALIDDATA_OFFSET UNITYSDK_OFFSET(0x1ED7FFE0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CAMERACACHEDATAMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED7FB70)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CameraCacheDataManager_TypeDefinitionIndex = 6020;
+	inline static constexpr unsigned int CameraCacheDataManager_TypeDefinitionIndex = 6028;
 
 	class CameraCacheDataManager : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::CameraCacheDataManager** StaticGet_Instance()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::CameraCacheDataManager**)Il2CppClass::FromTypeDefinitionIndex(CameraCacheDataManager_TypeDefinitionIndex)->GetStaticField(0x4EF0);
+			return (::UnityEngine::NAPRenderPipeline0::CameraCacheDataManager**)Il2CppClass::FromTypeDefinitionIndex(CameraCacheDataManager_TypeDefinitionIndex)->GetStaticField(0x4E10);
 		}
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::UnityEngine::NAPRenderPipeline0::CameraCacheData*>* m_CacheData; // 0x10
 		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Camera*, ::UnityEngine::NAPRenderPipeline0::CameraCacheData*>>* tmpToDelete; // 0x18

@@ -6,21 +6,21 @@ namespace CriWare { class CriWareDecrypter_CallbackFromNativeDelegate; }
 namespace CriWare { class CriWareDecrypter_Config; }
 namespace System { class String; }
 
-#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVE_OFFSET UNITYSDK_OFFSET(0x1FA83DE0)
-#define CRIWARE_CRIWAREDECRYPTER_CRIWARE40E4163A_OFFSET UNITYSDK_OFFSET(0x1FA83D40)
-#define CRIWARE_CRIWAREDECRYPTER_INITIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1FA83A40)
-#define CRIWARE_CRIWAREDECRYPTER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FA83A10)
+#define CRIWARE_CRIWAREDECRYPTER_CALLBACKFROMNATIVE_OFFSET UNITYSDK_OFFSET(0x1FE9CEF0)
+#define CRIWARE_CRIWAREDECRYPTER_CRIWARE40E4163A_OFFSET UNITYSDK_OFFSET(0x1FE9CE50)
+#define CRIWARE_CRIWAREDECRYPTER_INITIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1FE9CB50)
+#define CRIWARE_CRIWAREDECRYPTER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FE9CB20)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWareDecrypter_TypeDefinitionIndex = 34989;
+	inline static constexpr unsigned int CriWareDecrypter_TypeDefinitionIndex = 34538;
 
 	class CriWareDecrypter : public ::System::Object
 	{
 	public:
 		static ::System::UInt64* StaticGet_temporalStorage()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(CriWareDecrypter_TypeDefinitionIndex)->GetStaticField(0x8410);
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(CriWareDecrypter_TypeDefinitionIndex)->GetStaticField(0x88B0);
 		}
 
 		static ::System::Boolean Initialize(::CriWare::CriWareDecrypter_Config* config)

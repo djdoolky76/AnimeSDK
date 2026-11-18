@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int VATAnimationPlayer_AnimationStage_TypeDefinitionIndex = 80225;
+inline static constexpr unsigned int VATAnimationPlayer_AnimationStage_TypeDefinitionIndex = 87366;
 
 struct alignas(4) VATAnimationPlayer_AnimationStage
 {

@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossChallengePageController_RoomInfoData_TypeDefinitionIndex = 49469;
+	inline static constexpr unsigned int UIBossChallengePageController_RoomInfoData_TypeDefinitionIndex = 83254;
 
 	struct alignas(4) UIBossChallengePageController_RoomInfoData
 	{

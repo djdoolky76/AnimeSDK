@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYFILMGUIDEBTNWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11DA2AF0)
-#define MOLEMOLE_UIACTIVITYFILMGUIDEBTNWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11DA2B30)
-#define MOLEMOLE_UIACTIVITYFILMGUIDEBTNWIDGETCONTROLLER___C__ONBTNCLICK_B__7_0_OFFSET UNITYSDK_OFFSET(0x11DA2B40)
+#define MOLEMOLE_UIACTIVITYFILMGUIDEBTNWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1899AAD0)
+#define MOLEMOLE_UIACTIVITYFILMGUIDEBTNWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1899AB10)
+#define MOLEMOLE_UIACTIVITYFILMGUIDEBTNWIDGETCONTROLLER___C__ONBTNCLICK_B__7_0_OFFSET UNITYSDK_OFFSET(0x1899AB20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityFilmGuideBtnWidgetController___c_TypeDefinitionIndex = 66165;
+	inline static constexpr unsigned int UIActivityFilmGuideBtnWidgetController___c_TypeDefinitionIndex = 40013;
 
 	class UIActivityFilmGuideBtnWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIActivityFilmGuideBtnWidgetController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityFilmGuideBtnWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFilmGuideBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4FE90);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFilmGuideBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41E60);
 		}
 		static ::System::Action** StaticGet___9__7_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFilmGuideBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4FE98);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFilmGuideBtnWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x41E68);
 		}
 
 		static ::System::Void _cctor()

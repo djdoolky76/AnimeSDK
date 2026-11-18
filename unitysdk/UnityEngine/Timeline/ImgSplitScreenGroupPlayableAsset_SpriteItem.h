@@ -5,20 +5,20 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Sprite; }
-namespace UnityEngine::Timeline { class ImgSplitScreenGroupPlayableAsset_SubSpriteItem; }
 
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_SPRITEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB34570)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPPLAYABLEASSET_SPRITEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF328F0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImgSplitScreenGroupPlayableAsset_SpriteItem_TypeDefinitionIndex = 32980;
+	inline static constexpr unsigned int ImgSplitScreenGroupPlayableAsset_SpriteItem_TypeDefinitionIndex = 32435;
 
 	class ImgSplitScreenGroupPlayableAsset_SpriteItem : public ::System::Object
 	{
 	public:
 		::UnityEngine::Sprite* sprite; // 0x10
 		::MoleMole::ComicImgPart partType; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset_SubSpriteItem*>* subSpriteItems; // 0x20
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* subSpriteItems; // 0x20
 		::UnityEngine::Sprite* femaleSprite; // 0x28
 
 		::System::Void _ctor()

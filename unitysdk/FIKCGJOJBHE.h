@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EKLMJGLFFED.h"
+#include "unitysdk/System/Object.h"
+
+#define FIKCGJOJBHE_HCDJEFKEBPM_OFFSET UNITYSDK_OFFSET(0x116B4FA0)
+#define FIKCGJOJBHE_IJECAAFGJCC_OFFSET UNITYSDK_OFFSET(0x116B5030)
+#define FIKCGJOJBHE_KCKLHOBGFGJ_OFFSET UNITYSDK_OFFSET(0x116B4FD0)
+#define FIKCGJOJBHE_KEAAOKLPNIK_OFFSET UNITYSDK_OFFSET(0x116B5010)
+#define FIKCGJOJBHE__CTOR_OFFSET UNITYSDK_OFFSET(0x116B5000)
+
+inline static constexpr unsigned int FIKCGJOJBHE_TypeDefinitionIndex = 58465;
+
+class FIKCGJOJBHE : public ::System::Object
+{
+public:
+	::EKLMJGLFFED _GAAIDCKLNFM_k__BackingField; // 0x10
+	::EKLMJGLFFED _CDHDBPLOALH_k__BackingField; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKCGJOJBHE__CTOR_OFFSET))(this);
+	}
+
+	::EKLMJGLFFED HCDJEFKEBPM()
+	{
+		return ((::EKLMJGLFFED(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKCGJOJBHE_HCDJEFKEBPM_OFFSET))(this);
+	}
+
+	::EKLMJGLFFED KCKLHOBGFGJ()
+	{
+		return ((::EKLMJGLFFED(*)(::PVOID))((::PBYTE)hIl2Cpp + FIKCGJOJBHE_KCKLHOBGFGJ_OFFSET))(this);
+	}
+
+	::System::Void KEAAOKLPNIK(::EKLMJGLFFED EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::EKLMJGLFFED))((::PBYTE)hIl2Cpp + FIKCGJOJBHE_KEAAOKLPNIK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void IJECAAFGJCC(::EKLMJGLFFED EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::EKLMJGLFFED))((::PBYTE)hIl2Cpp + FIKCGJOJBHE_IJECAAFGJCC_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

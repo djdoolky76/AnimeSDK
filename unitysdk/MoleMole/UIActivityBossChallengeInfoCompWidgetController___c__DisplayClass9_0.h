@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIActivityBossChallengeInfoCompWidgetController; }
 
-#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC31F0)
+#define MOLEMOLE_UIACTIVITYBOSSCHALLENGEINFOCOMPWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188436D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBossChallengeInfoCompWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 73773;
+	inline static constexpr unsigned int UIActivityBossChallengeInfoCompWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 48447;
 
 	class UIActivityBossChallengeInfoCompWidgetController___c__DisplayClass9_0 : public ::System::Object
 	{

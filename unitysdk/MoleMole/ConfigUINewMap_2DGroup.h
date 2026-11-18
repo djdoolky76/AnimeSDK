@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_6A96CF8852C977C2.h"
+#include "unitysdk/JLEKMHHGMEM.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIGUINEWMAP_2DGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9358B0)
+#define MOLEMOLE_CONFIGUINEWMAP_2DGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x103E43D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUINewMap_2DGroup_TypeDefinitionIndex = 58692;
+	inline static constexpr unsigned int ConfigUINewMap_2DGroup_TypeDefinitionIndex = 84827;
 
 	class ConfigUINewMap_2DGroup : public ::System::Object
 	{
@@ -21,7 +21,7 @@ namespace MoleMole
 		::System::Single UIStartScale; // 0x20
 		::System::Single UIEndScale; // 0x24
 		::UnityEngine::AnimationCurve* UIIconScaleCurve; // 0x28
-		::System::Collections::Generic::List_1<::Enum_3_6A96CF8852C977C2>* ActiveUIIcon; // 0x30
+		::System::Collections::Generic::List_1<::JLEKMHHGMEM>* ActiveUIIcon; // 0x30
 
 		::System::Void _ctor()
 		{

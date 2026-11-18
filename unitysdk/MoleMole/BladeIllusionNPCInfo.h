@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BladeIllusionNPCInfo_TypeDefinitionIndex = 82304;
+	inline static constexpr unsigned int BladeIllusionNPCInfo_TypeDefinitionIndex = 74983;
 
 	struct alignas(8) BladeIllusionNPCInfo
 	{

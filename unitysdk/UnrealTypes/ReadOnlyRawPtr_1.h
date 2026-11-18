@@ -4,11 +4,11 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ReadOnlyRawPtr_1_TypeDefinitionIndex = 28295;
+	inline static constexpr unsigned int ReadOnlyRawPtr_1_TypeDefinitionIndex = 27712;
 
 	template <typename T>
-	struct ReadOnlyRawPtr_1
+	struct alignas(8) ReadOnlyRawPtr_1
 	{
-		::System::Void* _ptr; // 0x0
+		::PVOID _ptr; // 0x0
 	};
 }

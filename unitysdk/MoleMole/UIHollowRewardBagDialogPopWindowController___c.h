@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19EB5B70)
-#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB5BB0)
-#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__14_0_OFFSET UNITYSDK_OFFSET(0x19EB5BC0)
+#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C7D7D0)
+#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7D810)
+#define MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__14_0_OFFSET UNITYSDK_OFFSET(0x18C7D820)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowRewardBagDialogPopWindowController___c_TypeDefinitionIndex = 76823;
+	inline static constexpr unsigned int UIHollowRewardBagDialogPopWindowController___c_TypeDefinitionIndex = 90143;
 
 	class UIHollowRewardBagDialogPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIHollowRewardBagDialogPopWindowController___c** StaticGet___9()
+		static ::System::Comparison_1<::HGAJKHIMKJP*>** StaticGet___9__14_0()
 		{
-			return (::MoleMole::UIHollowRewardBagDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowRewardBagDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32EC0);
+			return (::System::Comparison_1<::HGAJKHIMKJP*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowRewardBagDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x353D0);
 		}
-		static ::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>** StaticGet___9__14_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_1_0D6706375CDAAE8C*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowRewardBagDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32EC8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIHollowRewardBagDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x353D8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _RefreshView_b__14_0(::Class_1_0D6706375CDAAE8C* cardA, ::Class_1_0D6706375CDAAE8C* cardB)
+		::System::Int32 _RefreshView_b__14_0(::HGAJKHIMKJP* cardA, ::HGAJKHIMKJP* cardB)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_0D6706375CDAAE8C*, ::Class_1_0D6706375CDAAE8C*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__14_0_OFFSET))(this, cardA, cardB);
+			return ((::System::Int32(*)(::PVOID, ::HGAJKHIMKJP*, ::HGAJKHIMKJP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWREWARDBAGDIALOGPOPWINDOWCONTROLLER___C__REFRESHVIEW_B__14_0_OFFSET))(this, cardA, cardB);
 		}
 	};
 }

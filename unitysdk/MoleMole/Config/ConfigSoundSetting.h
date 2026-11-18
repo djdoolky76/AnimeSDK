@@ -8,17 +8,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x1B4DCB70)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4DCB80)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x12787EF0)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x12787F00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundSetting_TypeDefinitionIndex = 68191;
+	inline static constexpr unsigned int ConfigSoundSetting_TypeDefinitionIndex = 68168;
 
 	class ConfigSoundSetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{
 	public:
 		::System::Int32 MobileRumbleBattleDefaultVolume; // 0x60
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* MobileRumbleDefaultVolumeDict; // 0x68
 		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int32>>* MobileRumbleVolumeDeviceRegexIOSDict; // 0x70
 		::System::Collections::Generic::List_1<::System::String*>* MuteCellphoneRumbleIOSRegexList; // 0x78

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_3_9D33A2E94B3E53DC;
-template <typename T> class Class_1_27F786FF2A30778C;
+class FANBKJPNEDB;
+template <typename T> class DFDEIDBBGHG_1;
 
-#define MOLEMOLE_UISUMMERFISHREWARDDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1629F110)
+#define MOLEMOLE_UISUMMERFISHREWARDDIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C9C480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishRewardDialogContext_TypeDefinitionIndex = 43968;
+	inline static constexpr unsigned int UISummerFishRewardDialogContext_TypeDefinitionIndex = 41913;
 
 	class UISummerFishRewardDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_27F786FF2A30778C<::Class_3_9D33A2E94B3E53DC*>* FishList; // 0x28
+		::DFDEIDBBGHG_1<::FANBKJPNEDB*>* FishList; // 0x28
 		::System::Int64 LastGotTime; // 0x30
 
 		::System::Void _ctor()

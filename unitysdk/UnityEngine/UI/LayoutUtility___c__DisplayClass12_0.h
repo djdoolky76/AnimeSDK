@@ -9,11 +9,12 @@ namespace UnityEngine::UI { class ILayoutLimiter; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int LayoutUtility___c__DisplayClass12_0_TypeDefinitionIndex = 19264;
+	inline static constexpr unsigned int LayoutUtility___c__DisplayClass12_0_TypeDefinitionIndex = 18418;
 
 	struct alignas(8) LayoutUtility___c__DisplayClass12_0
 	{
 		::System::Int32 maxPriorityForLimiter; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Func_2<::UnityEngine::UI::ILayoutLimiter*, ::System::Single>* propertyMinLimiter; // 0x18
 		::System::Func_2<::UnityEngine::UI::ILayoutLimiter*, ::System::Single>* propertyMaxLimiter; // 0x20
 		::System::Nullable_1<::System::Single> minLimiter; // 0x28
@@ -21,6 +22,7 @@ namespace UnityEngine::UI
 		::UnityEngine::UI::ILayoutLimiter* sourceMinLimiter; // 0x38
 		::UnityEngine::UI::ILayoutLimiter* sourceMaxLimiter; // 0x40
 		::System::Int32 maxPriority; // 0x48
+		::System::Byte _padding1[0x4];
 		::System::Func_2<::UnityEngine::UI::ILayoutElement*, ::System::Single>* property; // 0x50
 		::System::Single min; // 0x58
 	};

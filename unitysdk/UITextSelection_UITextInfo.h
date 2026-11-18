@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define UITEXTSELECTION_UITEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1CC110)
+#define UITEXTSELECTION_UITEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2053C0)
 
-inline static constexpr unsigned int UITextSelection_UITextInfo_TypeDefinitionIndex = 64235;
+inline static constexpr unsigned int UITextSelection_UITextInfo_TypeDefinitionIndex = 38304;
 
 class UITextSelection_UITextInfo : public ::System::Object
 {

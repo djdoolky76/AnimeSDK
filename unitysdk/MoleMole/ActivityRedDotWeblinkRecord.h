@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/BaseRedDotRecord.h"
 
-#define MOLEMOLE_ACTIVITYREDDOTWEBLINKRECORD_GET_RECORDVERSION_OFFSET UNITYSDK_OFFSET(0x150D84F0)
-#define MOLEMOLE_ACTIVITYREDDOTWEBLINKRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x150D8500)
+#define MOLEMOLE_ACTIVITYREDDOTWEBLINKRECORD_GET_RECORDVERSION_OFFSET UNITYSDK_OFFSET(0x19216FE0)
+#define MOLEMOLE_ACTIVITYREDDOTWEBLINKRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x19216FF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityRedDotWeblinkRecord_TypeDefinitionIndex = 52134;
+	inline static constexpr unsigned int ActivityRedDotWeblinkRecord_TypeDefinitionIndex = 41582;
 
 	class ActivityRedDotWeblinkRecord : public ::MoleMole::BaseRedDotRecord
 	{

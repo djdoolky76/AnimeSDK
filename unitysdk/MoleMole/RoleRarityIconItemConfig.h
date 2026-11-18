@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_ROLERARITYICONITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191B29B0)
+#define MOLEMOLE_ROLERARITYICONITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x162ED7D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RoleRarityIconItemConfig_TypeDefinitionIndex = 41817;
+	inline static constexpr unsigned int RoleRarityIconItemConfig_TypeDefinitionIndex = 47940;
 
 	class RoleRarityIconItemConfig : public ::System::Object
 	{

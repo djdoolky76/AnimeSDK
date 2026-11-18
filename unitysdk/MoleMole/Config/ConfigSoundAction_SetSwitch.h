@@ -2,24 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigSoundActionGeneral.h"
 
-class Class_0_16E4307DCC419505_197;
+class EIOKLKEJAME;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_EXECUTE_OFFSET UNITYSDK_OFFSET(0x143819E0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x143819A0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_ISMATCH_OFFSET UNITYSDK_OFFSET(0x14381BC0)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x14381D00)
-#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x14381D40)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1B8A9260)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_GET_CANDEFEREXECUTION_OFFSET UNITYSDK_OFFSET(0x1B8A9250)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_GET_INSPECTORLABEL_OFFSET UNITYSDK_OFFSET(0x1B8A9210)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1B8A9450)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A9590)
+#define MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH___BASE_ISMATCH_OFFSET UNITYSDK_OFFSET(0x1B8A95D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSoundAction_SetSwitch_TypeDefinitionIndex = 88986;
+	inline static constexpr unsigned int ConfigSoundAction_SetSwitch_TypeDefinitionIndex = 79707;
 
 	class ConfigSoundAction_SetSwitch : public ::MoleMole::Config::ConfigSoundActionGeneral
 	{
 	public:
-		::System::String* switchValue; // 0x20
-		::System::String* switchGroup; // 0x28
+		::System::String* switchGroup; // 0x20
+		::System::String* switchValue; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -31,9 +32,14 @@ namespace MoleMole::Config
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_GET_INSPECTORLABEL_OFFSET))(this);
 		}
 
-		::System::Void Execute(::Class_0_16E4307DCC419505_197* context)
+		::System::Boolean get_CanDeferExecution()
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_197*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_EXECUTE_OFFSET))(this, context);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_GET_CANDEFEREXECUTION_OFFSET))(this);
+		}
+
+		::System::Void Execute(::EIOKLKEJAME* context)
+		{
+			return ((::System::Void(*)(::PVOID, ::EIOKLKEJAME*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGSOUNDACTION_SETSWITCH_EXECUTE_OFFSET))(this, context);
 		}
 
 		::System::Boolean IsMatch(::System::String* pattern)

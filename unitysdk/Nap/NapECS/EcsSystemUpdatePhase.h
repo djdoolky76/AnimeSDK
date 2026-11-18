@@ -3,24 +3,24 @@
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsSystemUpdatePhase_TypeDefinitionIndex = 37927;
+	inline static constexpr unsigned int EcsSystemUpdatePhase_TypeDefinitionIndex = 36039;
 
 	enum class EcsSystemUpdatePhase : ::System::Byte
 	{
-		AnimIKPostUpdate = 0xB,
-		WaitForFixedUpdateAgain = 0x9,
-		Update = 0x1,
-		PostLateUpdate = 0x4,
-		PostParticleSystemUpdate = 0xC,
-		LateUpdate = 0x2,
-		LateUpdateAgain = 0x3,
-		Max = 0xE,
-		AfterAnimatorFixedUpdate = 0x7,
-		EndOfFixedUpdate = 0xA,
-		FixedUpdateAgain = 0x6,
-		WaitForFixedUpdate = 0x8,
-		FixedUpdate = 0x5,
-		None = 0x0,
-		PostSimulationUpdate = 0xD,
+		AnimIKPostUpdate = 11,
+		WaitForFixedUpdateAgain = 9,
+		WaitForFixedUpdate = 8,
+		LateUpdateAgain = 3,
+		PostSimulationUpdate = 13,
+		Max = 14,
+		PostLateUpdate = 4,
+		None = 0,
+		FixedUpdateAgain = 6,
+		EndOfFixedUpdate = 10,
+		Update = 1,
+		AfterAnimatorFixedUpdate = 7,
+		LateUpdate = 2,
+		PostParticleSystemUpdate = 12,
+		FixedUpdate = 5,
 	};
 }

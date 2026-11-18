@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_3BB4FDB082E23A99;
+class BKGKJNHLCKC;
 namespace MoleMole { class UIBangbooModGaragePageController; }
 
-#define MOLEMOLE_UIBANGBOOMODGARAGEPAGECONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19701AC0)
-#define MOLEMOLE_UIBANGBOOMODGARAGEPAGECONTROLLER___C__DISPLAYCLASS17_0__SENDFAVORITECSREQ_B__0_OFFSET UNITYSDK_OFFSET(0x19701AD0)
+#define MOLEMOLE_UIBANGBOOMODGARAGEPAGECONTROLLER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19FA48C0)
+#define MOLEMOLE_UIBANGBOOMODGARAGEPAGECONTROLLER___C__DISPLAYCLASS17_0__SENDFAVORITECSREQ_B__0_OFFSET UNITYSDK_OFFSET(0x19FA48D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooModGaragePageController___c__DisplayClass17_0_TypeDefinitionIndex = 52313;
+	inline static constexpr unsigned int UIBangbooModGaragePageController___c__DisplayClass17_0_TypeDefinitionIndex = 90044;
 
 	class UIBangbooModGaragePageController___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIBangbooModGaragePageController* __4__this; // 0x10
-		::Class_2_3BB4FDB082E23A99* buddyData; // 0x18
+		::BKGKJNHLCKC* buddyData; // 0x18
 
 		::System::Void _ctor()
 		{

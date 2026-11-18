@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_3_EA02B975BED3466B;
+class AGJFJGEMIPB;
 namespace System { class String; }
 
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_LEVELDATAACCESSOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x7309D0)
-#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_LEVELDATAACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x324D50)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_LEVELDATAACCESSOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x71E860)
+#define MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_LEVELDATAACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x358B00)
 
 namespace MoleMole::Utils::CameraSequence
 {
-	inline static constexpr unsigned int PlayTimeSlowUtils_LevelDataAccessor_TypeDefinitionIndex = 58637;
+	inline static constexpr unsigned int PlayTimeSlowUtils_LevelDataAccessor_TypeDefinitionIndex = 92809;
 
 	struct alignas(8) PlayTimeSlowUtils_LevelDataAccessor
 	{
@@ -21,9 +21,9 @@ namespace MoleMole::Utils::CameraSequence
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_LEVELDATAACCESSOR__CTOR_OFFSET))(this, fallback);
 		}
 
-		::System::Void Invoke(::Class_3_EA02B975BED3466B* levelDataComponent)
+		::System::Void Invoke(::AGJFJGEMIPB* levelDataComponent)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_EA02B975BED3466B*))((::PBYTE)hIl2Cpp + MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_LEVELDATAACCESSOR_INVOKE_OFFSET))(this, levelDataComponent);
+			return ((::System::Void(*)(::PVOID, ::AGJFJGEMIPB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UTILS_CAMERASEQUENCE_PLAYTIMESLOWUTILS_LEVELDATAACCESSOR_INVOKE_OFFSET))(this, levelDataComponent);
 		}
 	};
 }

@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/EnumVolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/BlendModes.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_BLENDMODESPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC7A2F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_BLENDMODESPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D17B380)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int BlendModesParameter_TypeDefinitionIndex = 26765;
+	inline static constexpr unsigned int BlendModesParameter_TypeDefinitionIndex = 26331;
 
-	class BlendModesParameter : public ::UnityEngine::NAPRenderPipeline0::EnumVolumeParameter_1<::UnityEngine::Rendering::Universal::BlendModes>
+	class BlendModesParameter
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Rendering::Universal::BlendModes value, ::System::Boolean overrideState)

@@ -4,11 +4,11 @@
 
 namespace MoleMole { class ActivityWidgetContext; }
 
-#define MOLEMOLE_UIACTIVITYANNIVERSARYWIDGETCONTROLLER_UIACTIVITYANNIVERSARYWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E4690)
+#define MOLEMOLE_UIACTIVITYANNIVERSARYWIDGETCONTROLLER_UIACTIVITYANNIVERSARYWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A756A80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityAnniversaryWidgetController_UIActivityAnniversaryWidgetContext_TypeDefinitionIndex = 49231;
+	inline static constexpr unsigned int UIActivityAnniversaryWidgetController_UIActivityAnniversaryWidgetContext_TypeDefinitionIndex = 57757;
 
 	class UIActivityAnniversaryWidgetController_UIActivityAnniversaryWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

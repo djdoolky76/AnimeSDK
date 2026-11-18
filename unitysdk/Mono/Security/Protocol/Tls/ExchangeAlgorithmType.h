@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int ExchangeAlgorithmType_TypeDefinitionIndex = 2357;
+	inline static constexpr unsigned int ExchangeAlgorithmType_TypeDefinitionIndex = 2356;
 
 	enum class ExchangeAlgorithmType : ::System::Int32
 	{

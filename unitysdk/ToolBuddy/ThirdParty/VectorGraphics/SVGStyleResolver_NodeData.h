@@ -8,7 +8,7 @@ namespace ToolBuddy::ThirdParty::VectorGraphics { class XmlReaderIterator_Node; 
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGStyleResolver_NodeData_TypeDefinitionIndex = 31756;
+	inline static constexpr unsigned int SVGStyleResolver_NodeData_TypeDefinitionIndex = 31194;
 
 	struct alignas(8) SVGStyleResolver_NodeData
 	{

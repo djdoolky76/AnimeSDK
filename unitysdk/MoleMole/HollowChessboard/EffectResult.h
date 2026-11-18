@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTRESULT_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x752A50)
-#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x118D9D60)
+#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTRESULT_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x77C2A0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_EFFECTRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1625A840)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int EffectResult_TypeDefinitionIndex = 81901;
+	inline static constexpr unsigned int EffectResult_TypeDefinitionIndex = 41010;
 
 	struct alignas(8) EffectResult
 	{
 		static ::MoleMole::HollowChessboard::EffectResult* StaticGet_Empty()
 		{
-			return (::MoleMole::HollowChessboard::EffectResult*)Il2CppClass::FromTypeDefinitionIndex(EffectResult_TypeDefinitionIndex)->GetStaticField(0x3C1D0);
+			return (::MoleMole::HollowChessboard::EffectResult*)Il2CppClass::FromTypeDefinitionIndex(EffectResult_TypeDefinitionIndex)->GetStaticField(0x3EA70);
 		}
 		::System::String* effectPath; // 0x10
 		::MoleMole::HollowChessboard::SpecialEffectRoleType RoleType; // 0x18

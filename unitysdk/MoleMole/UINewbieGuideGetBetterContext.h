@@ -2,16 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UINEWBIEGUIDEGETBETTERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1987A830)
+namespace System { class String; }
+
+#define MOLEMOLE_UINEWBIEGUIDEGETBETTERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D53DF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINewbieGuideGetBetterContext_TypeDefinitionIndex = 62687;
+	inline static constexpr unsigned int UINewbieGuideGetBetterContext_TypeDefinitionIndex = 60661;
 
 	class UINewbieGuideGetBetterContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Int32 selectTab; // 0x28
+		::System::String* overrideTitleTextKey; // 0x28
+		::System::Boolean hideTab; // 0x30
+		::System::Byte _padding0[0x3];
+		::System::Int32 selectTab; // 0x34
 
 		::System::Void _ctor()
 		{

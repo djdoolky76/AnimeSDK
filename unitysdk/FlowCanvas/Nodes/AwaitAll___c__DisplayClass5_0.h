@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas::Nodes { class AwaitAll; }
 
-#define FLOWCANVAS_NODES_AWAITALL___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF89170)
-#define FLOWCANVAS_NODES_AWAITALL___C__DISPLAYCLASS5_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EF89180)
+#define FLOWCANVAS_NODES_AWAITALL___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F8420)
+#define FLOWCANVAS_NODES_AWAITALL___C__DISPLAYCLASS5_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1F2F8430)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int AwaitAll___c__DisplayClass5_0_TypeDefinitionIndex = 30914;
+	inline static constexpr unsigned int AwaitAll___c__DisplayClass5_0_TypeDefinitionIndex = 30385;
 
 	class AwaitAll___c__DisplayClass5_0 : public ::System::Object
 	{

@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 namespace MoleMole { class SceneObjectStateWidget; }
 namespace MoleMole::Timeline { class TextureSheet_TV_WallClip; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x180AB180)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_2C95AFAD0256302F_OFFSET UNITYSDK_OFFSET(0x180AB060)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_324AEE341AAA7A1B_1_OFFSET UNITYSDK_OFFSET(0x180AB3C0)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x180AB050)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0x180AB220)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_67F9C05362EADEEE_OFFSET UNITYSDK_OFFSET(0x180AB290)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_E5E342154D4EA5F5_OFFSET UNITYSDK_OFFSET(0x180AB3B0)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x180AAF00)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x180AAF50)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x180AACE0)
-#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x180AB040)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_BBOMJDBNHIC_OFFSET UNITYSDK_OFFSET(0x198E27A0)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_GHDJIEJFFKG_OFFSET UNITYSDK_OFFSET(0x198E2870)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_INEKBCHAPNC_OFFSET UNITYSDK_OFFSET(0x198E2730)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_MOONNIIOGKP_OFFSET UNITYSDK_OFFSET(0x198E2550)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x198E2400)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x198E2450)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_PDEDKHJDBDD_OFFSET UNITYSDK_OFFSET(0x198E2680)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_PGHAJOMNDDJ_OFFSET UNITYSDK_OFFSET(0x198E2690)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_PLPONJAKNEB_OFFSET UNITYSDK_OFFSET(0x198E2560)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x198E21E0)
+#define MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x198E2540)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TextureSheet_TV_WallBehaviour_TypeDefinitionIndex = 63047;
+	inline static constexpr unsigned int TextureSheet_TV_WallBehaviour_TypeDefinitionIndex = 46594;
 
 	class TextureSheet_TV_WallBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -41,54 +41,54 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
+		::System::Void ProcessFrame(::UnityEngine::Playables::Playable HKOFGPMIFHB, ::UnityEngine::Playables::FrameData HMMMOCJAEOA, ::System::Object* NEEMKJBIIBC)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_PROCESSFRAME_OFFSET))(this, HKOFGPMIFHB, HMMMOCJAEOA, NEEMKJBIIBC);
 		}
 
-		::System::Void OnGraphStart(::UnityEngine::Playables::Playable a1)
+		::System::Void OnGraphStart(::UnityEngine::Playables::Playable HKOFGPMIFHB)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_ONGRAPHSTART_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_ONGRAPHSTART_OFFSET))(this, HKOFGPMIFHB);
 		}
 
-		::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
+		::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable HKOFGPMIFHB)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET))(this, HKOFGPMIFHB);
 		}
 
-		::System::Void Method_2_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+		::System::Void MOONNIIOGKP(::UnityEngine::Playables::Playable MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_324AEE341AAA7A1B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_MOONNIIOGKP_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void Method_2_2C95AFAD0256302F()
+		::System::Void PLPONJAKNEB(::System::Double PMNLNNGEIFM)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_2C95AFAD0256302F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_PLPONJAKNEB_OFFSET))(this, PMNLNNGEIFM);
 		}
 
-		::System::Void Method_2_151E25A63D14DDB0()
+		::System::Void PDEDKHJDBDD(::UnityEngine::Playables::Playable MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_151E25A63D14DDB0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_PDEDKHJDBDD_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Boolean Method_2_4DA6D4A624E42CAB()
+		::System::Void PGHAJOMNDDJ()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_4DA6D4A624E42CAB_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_PGHAJOMNDDJ_OFFSET))(this);
 		}
 
-		::System::Void Method_2_67F9C05362EADEEE(::System::Double a1)
+		::System::Boolean INEKBCHAPNC()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_67F9C05362EADEEE_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_INEKBCHAPNC_OFFSET))(this);
 		}
 
-		::System::Void Method_2_E5E342154D4EA5F5(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
+		::System::Void BBOMJDBNHIC()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_E5E342154D4EA5F5_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_BBOMJDBNHIC_OFFSET))(this);
 		}
 
-		::System::Void Method_2_324AEE341AAA7A1B_1(::UnityEngine::Playables::Playable a1)
+		::System::Void GHDJIEJFFKG(::UnityEngine::Playables::Playable MIALFKCCCPI, ::UnityEngine::Playables::FrameData KMGKAIDEIBA, ::System::Object* FDHMCIFPNCK)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_METHOD_2_324AEE341AAA7A1B_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_TEXTURESHEET_TV_WALLBEHAVIOUR_GHDJIEJFFKG_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
 		}
 	};
 }

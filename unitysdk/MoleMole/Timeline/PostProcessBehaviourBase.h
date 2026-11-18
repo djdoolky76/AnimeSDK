@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Timeline/TimeLinePlayableBehaviour.h"
 
-#define MOLEMOLE_TIMELINE_POSTPROCESSBEHAVIOURBASE_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x190BFEA0)
-#define MOLEMOLE_TIMELINE_POSTPROCESSBEHAVIOURBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x190BC2E0)
+#define MOLEMOLE_TIMELINE_POSTPROCESSBEHAVIOURBASE_MNMIKPNKPOI_OFFSET UNITYSDK_OFFSET(0x19B6AC60)
+#define MOLEMOLE_TIMELINE_POSTPROCESSBEHAVIOURBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B6AC50)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int PostProcessBehaviourBase_TypeDefinitionIndex = 88400;
+	inline static constexpr unsigned int PostProcessBehaviourBase_TypeDefinitionIndex = 61135;
 
 	class PostProcessBehaviourBase : public ::MoleMole::Timeline::TimeLinePlayableBehaviour
 	{
@@ -17,9 +17,9 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_POSTPROCESSBEHAVIOURBASE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_CA373AA1C7054598()
+		::System::Void MNMIKPNKPOI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_POSTPROCESSBEHAVIOURBASE_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_POSTPROCESSBEHAVIOURBASE_MNMIKPNKPOI_OFFSET))(this);
 		}
 	};
 }

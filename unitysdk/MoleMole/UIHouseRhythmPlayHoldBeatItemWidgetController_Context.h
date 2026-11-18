@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/BICEDFLOFGB.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
-#include "unitysdk/Struct_2_C083CD90F49A30D6.h"
 
-class Class_4_EDAF922741458586;
+class ALAGDAJALHD;
 
-#define MOLEMOLE_UIHOUSERHYTHMPLAYHOLDBEATITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1899C780)
+#define MOLEMOLE_UIHOUSERHYTHMPLAYHOLDBEATITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16F0F680)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHouseRhythmPlayHoldBeatItemWidgetController_Context_TypeDefinitionIndex = 50737;
+	inline static constexpr unsigned int UIHouseRhythmPlayHoldBeatItemWidgetController_Context_TypeDefinitionIndex = 72799;
 
 	class UIHouseRhythmPlayHoldBeatItemWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_4_EDAF922741458586* BeatHold; // 0x28
-		::Struct_2_C083CD90F49A30D6 HoldTrigger; // 0x30
+		::ALAGDAJALHD* BeatHold; // 0x28
+		::BICEDFLOFGB HoldTrigger; // 0x30
 
 		::System::Void _ctor()
 		{

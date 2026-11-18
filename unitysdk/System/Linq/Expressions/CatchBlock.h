@@ -7,14 +7,14 @@ namespace System { class Type; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1F7C0FF0)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_FILTER_OFFSET UNITYSDK_OFFSET(0x1F7C1000)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_TEST_OFFSET UNITYSDK_OFFSET(0x1F7C0FE0)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_VARIABLE_OFFSET UNITYSDK_OFFSET(0x1F7C0FD0)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F7C1010)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F7C1020)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F7C10B0)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7C0FB0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1FBD23E0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_FILTER_OFFSET UNITYSDK_OFFSET(0x1FBD23F0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_TEST_OFFSET UNITYSDK_OFFSET(0x1FBD23D0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_VARIABLE_OFFSET UNITYSDK_OFFSET(0x1FBD23C0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1FBD2400)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FBD2410)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FBD24A0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBD23A0)
 
 namespace System::Linq::Expressions
 {
@@ -24,9 +24,9 @@ namespace System::Linq::Expressions
 	{
 	public:
 		::System::Linq::Expressions::Expression* _Body_k__BackingField; // 0x10
-		::System::Type* _Test_k__BackingField; // 0x18
-		::System::Linq::Expressions::Expression* _Filter_k__BackingField; // 0x20
-		::System::Linq::Expressions::ParameterExpression* _Variable_k__BackingField; // 0x28
+		::System::Linq::Expressions::Expression* _Filter_k__BackingField; // 0x18
+		::System::Linq::Expressions::ParameterExpression* _Variable_k__BackingField; // 0x20
+		::System::Type* _Test_k__BackingField; // 0x28
 
 		::System::Void _ctor(::System::Type* test, ::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* filter)
 		{

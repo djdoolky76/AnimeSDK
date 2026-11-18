@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NAPSTREAMING_NAPSTREAMINGOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x954CA10)
+#define NAPSTREAMING_NAPSTREAMINGOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE12BFC0)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingOverrideConfig_TypeDefinitionIndex = 90353;
+	inline static constexpr unsigned int NapStreamingOverrideConfig_TypeDefinitionIndex = 85656;
 
 	class NapStreamingOverrideConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

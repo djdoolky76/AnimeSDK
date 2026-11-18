@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BLCIDFMMHIL;
+
+#define FCKONOCOBIH_COKNIICCODC_OFFSET UNITYSDK_OFFSET(0x1713A660)
+#define FCKONOCOBIH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1713A610)
+#define FCKONOCOBIH_DOIKNBLCHPD_OFFSET UNITYSDK_OFFSET(0x1713A6D0)
+#define FCKONOCOBIH_NIIHMPMKICM_OFFSET UNITYSDK_OFFSET(0x1713A3B0)
+#define FCKONOCOBIH__CTOR_OFFSET UNITYSDK_OFFSET(0x1713A650)
+
+inline static constexpr unsigned int FCKONOCOBIH_TypeDefinitionIndex = 51187;
+
+class FCKONOCOBIH : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FCKONOCOBIH__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 NIIHMPMKICM(::BLCIDFMMHIL*& BNIGJBDBMCO, ::BLCIDFMMHIL*& JNOLMCINHNJ)
+	{
+		return ((::System::Int32(*)(::PVOID, ::BLCIDFMMHIL*&, ::BLCIDFMMHIL*&))((::PBYTE)hIl2Cpp + FCKONOCOBIH_NIIHMPMKICM_OFFSET))(this, BNIGJBDBMCO, JNOLMCINHNJ);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FCKONOCOBIH_DISPOSE_OFFSET))(this);
+	}
+
+	static ::FCKONOCOBIH* COKNIICCODC()
+	{
+		return ((::FCKONOCOBIH*(*)())((::PBYTE)hIl2Cpp + FCKONOCOBIH_COKNIICCODC_OFFSET))();
+	}
+
+	::System::Int32 DOIKNBLCHPD(::BLCIDFMMHIL*& BNIGJBDBMCO, ::BLCIDFMMHIL*& JNOLMCINHNJ)
+	{
+		return ((::System::Int32(*)(::PVOID, ::BLCIDFMMHIL*&, ::BLCIDFMMHIL*&))((::PBYTE)hIl2Cpp + FCKONOCOBIH_DOIKNBLCHPD_OFFSET))(this, BNIGJBDBMCO, JNOLMCINHNJ);
+	}
+};

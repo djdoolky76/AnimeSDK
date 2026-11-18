@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGMISC_INTERACTROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xF13CAC0)
+#define MOLEMOLE_CONFIG_CONFIGMISC_INTERACTROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xFFD6450)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMisc_InteractRotate_TypeDefinitionIndex = 48036;
+	inline static constexpr unsigned int ConfigMisc_InteractRotate_TypeDefinitionIndex = 92045;
 
 	class ConfigMisc_InteractRotate : public ::System::Object
 	{

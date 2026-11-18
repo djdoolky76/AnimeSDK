@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/Cinemachine/CinemachineExtension.h"
+#include "unitysdk/Cinemachine/CameraState.h"
 
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define CINEMACHINERECOMPOSER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F39C520)
-#define CINEMACHINERECOMPOSER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1F39C5A0)
-#define CINEMACHINERECOMPOSER_PREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1F39C580)
-#define CINEMACHINERECOMPOSER_RESET_OFFSET UNITYSDK_OFFSET(0x1F39C500)
-#define CINEMACHINERECOMPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F39CA10)
+#define CINEMACHINERECOMPOSER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F7B6570)
+#define CINEMACHINERECOMPOSER_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1F7B65F0)
+#define CINEMACHINERECOMPOSER_PREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1F7B65D0)
+#define CINEMACHINERECOMPOSER_RESET_OFFSET UNITYSDK_OFFSET(0x1F7B6550)
+#define CINEMACHINERECOMPOSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B6A60)
 
-inline static constexpr unsigned int CinemachineRecomposer_TypeDefinitionIndex = 34633;
+inline static constexpr unsigned int CinemachineRecomposer_TypeDefinitionIndex = 34179;
 
 class CinemachineRecomposer : public ::Cinemachine::CinemachineExtension
 {

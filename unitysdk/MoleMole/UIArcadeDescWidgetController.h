@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIGeneralShopDescWidgetController.h"
 
-class Class_2_208CC9941471731A_986;
+class BDNPNPOIKIA;
 
-#define MOLEMOLE_UIARCADEDESCWIDGETCONTROLLER_SETBYTEMPLATE_OFFSET UNITYSDK_OFFSET(0x18E28260)
-#define MOLEMOLE_UIARCADEDESCWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18E28420)
+#define MOLEMOLE_UIARCADEDESCWIDGETCONTROLLER_SETBYTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1A139430)
+#define MOLEMOLE_UIARCADEDESCWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1395E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadeDescWidgetController_TypeDefinitionIndex = 40601;
+	inline static constexpr unsigned int UIArcadeDescWidgetController_TypeDefinitionIndex = 50805;
 
 	class UIArcadeDescWidgetController : public ::MoleMole::UIGeneralShopDescWidgetController
 	{
@@ -19,9 +19,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIARCADEDESCWIDGETCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetByTemplate(::Class_2_208CC9941471731A_986* template_)
+		::System::Void SetByTemplate(::BDNPNPOIKIA* template_)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_208CC9941471731A_986*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIARCADEDESCWIDGETCONTROLLER_SETBYTEMPLATE_OFFSET))(this, template_);
+			return ((::System::Void(*)(::PVOID, ::BDNPNPOIKIA*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIARCADEDESCWIDGETCONTROLLER_SETBYTEMPLATE_OFFSET))(this, template_);
 		}
 	};
 }

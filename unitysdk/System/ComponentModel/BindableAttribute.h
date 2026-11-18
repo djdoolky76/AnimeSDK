@@ -1,44 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/ComponentModel/BindableSupport.h"
 #include "unitysdk/System/ComponentModel/BindingDirection.h"
+#include "unitysdk/System/Attribute.h"
 
 namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D882520)
-#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D882580)
-#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE_GET_BINDABLE_OFFSET UNITYSDK_OFFSET(0x1D882500)
-#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x1D882510)
-#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D882590)
-#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D882650)
-#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D8824B0)
-#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D8824C0)
-#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1D8824E0)
-#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8824A0)
+#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DD2FE60)
+#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DD2FEC0)
+#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE_GET_BINDABLE_OFFSET UNITYSDK_OFFSET(0x1DD2FE40)
+#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x1DD2FE50)
+#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1DD2FED0)
+#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD2FF90)
+#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD2FDF0)
+#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DD2FE00)
+#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1DD2FE20)
+#define SYSTEM_COMPONENTMODEL_BINDABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD2FDE0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int BindableAttribute_TypeDefinitionIndex = 2821;
+	inline static constexpr unsigned int BindableAttribute_TypeDefinitionIndex = 2820;
 
 	class BindableAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::BindableAttribute** StaticGet_Yes()
+		static ::System::ComponentModel::BindableAttribute** StaticGet_Default()
 		{
 			return (::System::ComponentModel::BindableAttribute**)Il2CppClass::FromTypeDefinitionIndex(BindableAttribute_TypeDefinitionIndex)->GetStaticField(0x28D0);
 		}
-		static ::System::ComponentModel::BindableAttribute** StaticGet_Default()
+		static ::System::ComponentModel::BindableAttribute** StaticGet_No()
 		{
 			return (::System::ComponentModel::BindableAttribute**)Il2CppClass::FromTypeDefinitionIndex(BindableAttribute_TypeDefinitionIndex)->GetStaticField(0x28D8);
 		}
-		static ::System::ComponentModel::BindableAttribute** StaticGet_No()
+		static ::System::ComponentModel::BindableAttribute** StaticGet_Yes()
 		{
 			return (::System::ComponentModel::BindableAttribute**)Il2CppClass::FromTypeDefinitionIndex(BindableAttribute_TypeDefinitionIndex)->GetStaticField(0x28E0);
 		}
-		::System::Boolean isDefault; // 0x10
-		::System::Boolean bindable; // 0x11
-		::System::ComponentModel::BindingDirection direction; // 0x14
+		::System::ComponentModel::BindingDirection direction; // 0x10
+		::System::Boolean bindable; // 0x14
+		::System::Boolean isDefault; // 0x15
 
 		::System::Void _ctor(::System::Boolean bindable)
 		{

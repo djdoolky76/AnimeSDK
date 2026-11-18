@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
@@ -11,15 +11,15 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE_COPYCHARACTERCOLORPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CEE1AE0)
-#define UNITYENGINE_NAPRENDERPIPELINE_COPYCHARACTERCOLORPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CEE22E0)
-#define UNITYENGINE_NAPRENDERPIPELINE_COPYCHARACTERCOLORPASS_RELEASETEMPBUFFER_OFFSET UNITYSDK_OFFSET(0x1CEE2370)
-#define UNITYENGINE_NAPRENDERPIPELINE_COPYCHARACTERCOLORPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE19A0)
-#define UNITYENGINE_NAPRENDERPIPELINE_COPYCHARACTERCOLORPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CEE2450)
+#define UNITYENGINE_NAPRENDERPIPELINE_COPYCHARACTERCOLORPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D272260)
+#define UNITYENGINE_NAPRENDERPIPELINE_COPYCHARACTERCOLORPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D272A60)
+#define UNITYENGINE_NAPRENDERPIPELINE_COPYCHARACTERCOLORPASS_RELEASETEMPBUFFER_OFFSET UNITYSDK_OFFSET(0x1D272AF0)
+#define UNITYENGINE_NAPRENDERPIPELINE_COPYCHARACTERCOLORPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D272120)
+#define UNITYENGINE_NAPRENDERPIPELINE_COPYCHARACTERCOLORPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D272BD0)
 
 namespace UnityEngine::NAPRenderPipeline
 {
-	inline static constexpr unsigned int CopyCharacterColorPass_TypeDefinitionIndex = 27843;
+	inline static constexpr unsigned int CopyCharacterColorPass_TypeDefinitionIndex = 27068;
 
 	class CopyCharacterColorPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

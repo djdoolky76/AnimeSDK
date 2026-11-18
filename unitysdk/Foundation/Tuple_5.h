@@ -2,17 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace System { class Object; }
-namespace System { class String; }
-namespace System::Collections { class IComparer; }
-namespace System::Collections { class IEqualityComparer; }
-
 namespace Foundation
 {
-	inline static constexpr unsigned int Tuple_5_TypeDefinitionIndex = 8358;
+	inline static constexpr unsigned int Tuple_5_TypeDefinitionIndex = 8370;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
-	struct Tuple_5
+	struct alignas(8) Tuple_5
 	{
 		T1 item1; // 0x0
 		T2 item2; // 0x0

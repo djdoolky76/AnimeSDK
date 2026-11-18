@@ -5,18 +5,19 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYDEMOTRIALBGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1387D8A0)
+#define MOLEMOLE_UIACTIVITYDEMOTRIALBGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13A25C20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityDemoTrialBGContext_TypeDefinitionIndex = 70271;
+	inline static constexpr unsigned int UIActivityDemoTrialBGContext_TypeDefinitionIndex = 48691;
 
 	class UIActivityDemoTrialBGContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Action* previewCallback; // 0x28
-		::System::Collections::Generic::List_1<::System::Int32>* previewRoleList; // 0x30
+		::System::Collections::Generic::List_1<::System::Int32>* previewRoleList; // 0x28
+		::System::Action* previewCallback; // 0x30
 		::System::Boolean active; // 0x38
+		::System::Byte _padding0[0x3];
 		::System::Int32 trialRoleID; // 0x3C
 
 		::System::Void _ctor()

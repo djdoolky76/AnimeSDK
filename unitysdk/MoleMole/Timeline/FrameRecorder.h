@@ -13,28 +13,28 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define MOLEMOLE_TIMELINE_FRAMERECORDER_CLEARDATA_OFFSET UNITYSDK_OFFSET(0x1F95F1A0)
-#define MOLEMOLE_TIMELINE_FRAMERECORDER_GETMATERIALKEY_OFFSET UNITYSDK_OFFSET(0x1F9615A0)
-#define MOLEMOLE_TIMELINE_FRAMERECORDER_RECORDERFRAMEINFO_OFFSET UNITYSDK_OFFSET(0x1F95F2E0)
-#define MOLEMOLE_TIMELINE_FRAMERECORDER_RECORDERFRAME_OFFSET UNITYSDK_OFFSET(0x1F95F2A0)
-#define MOLEMOLE_TIMELINE_FRAMERECORDER_SETINSTANCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F960360)
-#define MOLEMOLE_TIMELINE_FRAMERECORDER_SETMATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1F95FC10)
-#define MOLEMOLE_TIMELINE_FRAMERECORDER_UPDATEINSTANCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F9602A0)
-#define MOLEMOLE_TIMELINE_FRAMERECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F961660)
+#define MOLEMOLE_TIMELINE_FRAMERECORDER_CLEARDATA_OFFSET UNITYSDK_OFFSET(0x1FD5E210)
+#define MOLEMOLE_TIMELINE_FRAMERECORDER_GETMATERIALKEY_OFFSET UNITYSDK_OFFSET(0x1FD60610)
+#define MOLEMOLE_TIMELINE_FRAMERECORDER_RECORDERFRAMEINFO_OFFSET UNITYSDK_OFFSET(0x1FD5E350)
+#define MOLEMOLE_TIMELINE_FRAMERECORDER_RECORDERFRAME_OFFSET UNITYSDK_OFFSET(0x1FD5E310)
+#define MOLEMOLE_TIMELINE_FRAMERECORDER_SETINSTANCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1FD5F3D0)
+#define MOLEMOLE_TIMELINE_FRAMERECORDER_SETMATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x1FD5EC80)
+#define MOLEMOLE_TIMELINE_FRAMERECORDER_UPDATEINSTANCEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1FD5F310)
+#define MOLEMOLE_TIMELINE_FRAMERECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD606D0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int FrameRecorder_TypeDefinitionIndex = 32790;
+	inline static constexpr unsigned int FrameRecorder_TypeDefinitionIndex = 32241;
 
 	class FrameRecorder : public ::System::Object
 	{
 	public:
 		// static const ::System::String* MaterialFrameKey; // 0x0
-		::System::Collections::Generic::List_1<::MoleMole::Timeline::TextureRecorderUnit*>* recorderUnitTs; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* propertyIDs; // 0x18
-		::System::Collections::Generic::List_1<::MoleMole::Timeline::Vector4RecorderUnit*>* recorderUnitV4s; // 0x20
-		::System::Collections::Generic::List_1<::MoleMole::Timeline::FloatRecorderUnit*>* recorderUnitFs; // 0x28
-		::System::Collections::Generic::List_1<::MoleMole::Timeline::ColorRecorderUnit*>* recorderUnitCs; // 0x30
+		::System::Collections::Generic::List_1<::MoleMole::Timeline::ColorRecorderUnit*>* recorderUnitCs; // 0x10
+		::System::Collections::Generic::List_1<::MoleMole::Timeline::TextureRecorderUnit*>* recorderUnitTs; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* propertyIDs; // 0x20
+		::System::Collections::Generic::List_1<::MoleMole::Timeline::Vector4RecorderUnit*>* recorderUnitV4s; // 0x28
+		::System::Collections::Generic::List_1<::MoleMole::Timeline::FloatRecorderUnit*>* recorderUnitFs; // 0x30
 		::System::Double frameTime; // 0x38
 
 		::System::Void _ctor()

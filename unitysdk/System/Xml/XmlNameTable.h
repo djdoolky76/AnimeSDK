@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define SYSTEM_XML_XMLNAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F10E770)
+#define SYSTEM_XML_XMLNAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4D0190)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlNameTable_TypeDefinitionIndex = 1832;
+	inline static constexpr unsigned int XmlNameTable_TypeDefinitionIndex = 1831;
 
 	class XmlNameTable : public ::System::Object
 	{

@@ -6,7 +6,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int EntityLocateInfo_TypeDefinitionIndex = 38174;
+	inline static constexpr unsigned int EntityLocateInfo_TypeDefinitionIndex = 36176;
 
 	struct alignas(4) EntityLocateInfo
 	{

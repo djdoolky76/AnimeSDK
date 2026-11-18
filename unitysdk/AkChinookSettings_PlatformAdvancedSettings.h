@@ -5,17 +5,18 @@
 class AkPlatformInitSettings;
 class AkUnityPlatformSpecificSettings;
 
-#define AKCHINOOKSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_1_OFFSET UNITYSDK_OFFSET(0x1FAF2B00)
-#define AKCHINOOKSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1FAF2AF0)
-#define AKCHINOOKSETTINGS_PLATFORMADVANCEDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAF2B10)
+#define AKCHINOOKSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_1_OFFSET UNITYSDK_OFFSET(0x1FEFE7F0)
+#define AKCHINOOKSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1FEFE7E0)
+#define AKCHINOOKSETTINGS_PLATFORMADVANCEDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FEFE800)
 
-inline static constexpr unsigned int AkChinookSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 33672;
+inline static constexpr unsigned int AkChinookSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 33218;
 
 class AkChinookSettings_PlatformAdvancedSettings : public ::AkCommonAdvancedSettings
 {
 public:
 	::System::UInt16 MaximumNumberOfXMAVoices; // 0x58
 	::System::Boolean UseHardwareCodecLowLatencyMode; // 0x5A
+	::System::Byte _padding0[0x1];
 	::System::UInt32 APUHeapCachedSize; // 0x5C
 	::System::UInt32 APUHeapNonCachedSize; // 0x60
 

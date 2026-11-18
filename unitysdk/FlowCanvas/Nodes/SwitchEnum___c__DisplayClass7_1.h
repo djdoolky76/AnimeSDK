@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
-namespace FlowCanvas::Nodes { class SwitchEnum___c__DisplayClass7_0; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FLOWCANVAS_NODES_SWITCHENUM___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7F420)
-#define FLOWCANVAS_NODES_SWITCHENUM___C__DISPLAYCLASS7_1__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EB7F430)
+#define FLOWCANVAS_NODES_SWITCHENUM___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF4F1B0)
+#define FLOWCANVAS_NODES_SWITCHENUM___C__DISPLAYCLASS7_1__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EF4F1C0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchEnum___c__DisplayClass7_1_TypeDefinitionIndex = 29764;
+	inline static constexpr unsigned int SwitchEnum___c__DisplayClass7_1_TypeDefinitionIndex = 29657;
 
+	template <typename T>
 	class SwitchEnum___c__DisplayClass7_1 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::Nodes::SwitchEnum___c__DisplayClass7_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::FlowCanvas::FlowOutput*>* cases; // 0x18
 
 		::System::Void _ctor()

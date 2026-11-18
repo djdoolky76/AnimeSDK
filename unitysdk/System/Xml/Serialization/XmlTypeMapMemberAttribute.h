@@ -6,18 +6,18 @@
 namespace System { class String; }
 namespace System::Xml::Serialization { class XmlTypeMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D576F30)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA72010)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlTypeMapMemberAttribute_TypeDefinitionIndex = 1925;
+	inline static constexpr unsigned int XmlTypeMapMemberAttribute_TypeDefinitionIndex = 1924;
 
 	class XmlTypeMapMemberAttribute : public ::System::Xml::Serialization::XmlTypeMapMember
 	{
 	public:
 		::System::String* _namespace; // 0x50
-		::System::String* _attributeName; // 0x58
-		::System::Xml::Serialization::XmlTypeMapping* _mappedType; // 0x60
+		::System::Xml::Serialization::XmlTypeMapping* _mappedType; // 0x58
+		::System::String* _attributeName; // 0x60
 		::System::Xml::Schema::XmlSchemaForm _form; // 0x68
 
 		::System::Void _ctor()

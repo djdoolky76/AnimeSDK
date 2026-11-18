@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SGF_SEVENT_DELEGATEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8A6630)
-#define SGF_SEVENT_DELEGATEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A6670)
-#define SGF_SEVENT_DELEGATEINFO___C__GETFRIENDLYTYPENAME_B__42_0_OFFSET UNITYSDK_OFFSET(0x1B8A6680)
+#define SGF_SEVENT_DELEGATEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AE5F60)
+#define SGF_SEVENT_DELEGATEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18AE5FA0)
+#define SGF_SEVENT_DELEGATEINFO___C__GETFRIENDLYTYPENAME_B__42_0_OFFSET UNITYSDK_OFFSET(0x18AE5FB0)
 
 namespace SGF::SEvent
 {
-	inline static constexpr unsigned int DelegateInfo___c_TypeDefinitionIndex = 8290;
+	inline static constexpr unsigned int DelegateInfo___c_TypeDefinitionIndex = 8104;
 
 	class DelegateInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Type*, ::System::String*>** StaticGet___9__42_0()
 		{
-			return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DelegateInfo___c_TypeDefinitionIndex)->GetStaticField(0x7070);
+			return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DelegateInfo___c_TypeDefinitionIndex)->GetStaticField(0x71C0);
 		}
-		static ::SGF::SEvent::DelegateInfo___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::SGF::SEvent::DelegateInfo___c**)Il2CppClass::FromTypeDefinitionIndex(DelegateInfo___c_TypeDefinitionIndex)->GetStaticField(0x7078);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(DelegateInfo___c_TypeDefinitionIndex)->GetStaticField(0x71C8);
 		}
 
 		static ::System::Void _cctor()

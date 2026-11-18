@@ -6,19 +6,20 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define MONOUIWIGGLE_FRAC_OFFSET UNITYSDK_OFFSET(0x112F8AC0)
-#define MONOUIWIGGLE_RAND_OFFSET UNITYSDK_OFFSET(0x112F8B20)
-#define MONOUIWIGGLE_START_OFFSET UNITYSDK_OFFSET(0x112F8970)
-#define MONOUIWIGGLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x112F8BE0)
-#define MONOUIWIGGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x112F8D00)
+#define MONOUIWIGGLE_FRAC_OFFSET UNITYSDK_OFFSET(0x1059EB40)
+#define MONOUIWIGGLE_RAND_OFFSET UNITYSDK_OFFSET(0x1059EBA0)
+#define MONOUIWIGGLE_START_OFFSET UNITYSDK_OFFSET(0x1059E9F0)
+#define MONOUIWIGGLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1059EC60)
+#define MONOUIWIGGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1059ED80)
 
-inline static constexpr unsigned int MonoUIWiggle_TypeDefinitionIndex = 43200;
+inline static constexpr unsigned int MonoUIWiggle_TypeDefinitionIndex = 54096;
 
 class MonoUIWiggle : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::UnityEngine::Vector2 wiggleAmount; // 0x18
 	::System::Single wiggleSpeed; // 0x20
+	::System::Byte _padding0[0x4];
 	::UnityEngine::RectTransform* rectTransform; // 0x28
 	::UnityEngine::Vector3 originalPosition; // 0x30
 

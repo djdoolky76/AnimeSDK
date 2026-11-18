@@ -3,7 +3,7 @@
 
 namespace System::Data::Common
 {
-	inline static constexpr unsigned int StorageType_TypeDefinitionIndex = 39400;
+	inline static constexpr unsigned int StorageType_TypeDefinitionIndex = 37400;
 
 	enum class StorageType : ::System::Int32
 	{

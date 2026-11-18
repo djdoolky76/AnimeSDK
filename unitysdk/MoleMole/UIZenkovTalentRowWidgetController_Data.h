@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIZENKOVTALENTROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x112E3890)
+#define MOLEMOLE_UIZENKOVTALENTROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10588260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovTalentRowWidgetController_Data_TypeDefinitionIndex = 42636;
+	inline static constexpr unsigned int UIZenkovTalentRowWidgetController_Data_TypeDefinitionIndex = 42290;
 
 	class UIZenkovTalentRowWidgetController_Data : public ::System::Object
 	{

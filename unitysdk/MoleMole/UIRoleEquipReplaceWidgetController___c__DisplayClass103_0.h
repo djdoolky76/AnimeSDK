@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIRoleEquipReplaceWidgetController; }
 
-#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS103_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175972C0)
-#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS103_0__ONCUSTOMIZEDBTNCLICKHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0x175972D0)
+#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS103_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1900EFC0)
+#define MOLEMOLE_UIROLEEQUIPREPLACEWIDGETCONTROLLER___C__DISPLAYCLASS103_0__ONCUSTOMIZEDBTNCLICKHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0x1900EFD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass103_0_TypeDefinitionIndex = 52782;
+	inline static constexpr unsigned int UIRoleEquipReplaceWidgetController___c__DisplayClass103_0_TypeDefinitionIndex = 40809;
 
 	class UIRoleEquipReplaceWidgetController___c__DisplayClass103_0 : public ::System::Object
 	{

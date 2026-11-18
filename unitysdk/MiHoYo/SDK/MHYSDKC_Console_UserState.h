@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Console_UserState_TypeDefinitionIndex = 37195;
+	inline static constexpr unsigned int MHYSDKC_Console_UserState_TypeDefinitionIndex = 35181;
 
 	enum class MHYSDKC_Console_UserState : ::System::Int32
 	{

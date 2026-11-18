@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SubChannelType_TypeDefinitionIndex = 20196;
+	inline static constexpr unsigned int SubChannelType_TypeDefinitionIndex = 19342;
 
 	enum class SubChannelType : ::System::Int32
 	{

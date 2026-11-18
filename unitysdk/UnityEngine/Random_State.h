@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Random_State_TypeDefinitionIndex = 5317;
+	inline static constexpr unsigned int Random_State_TypeDefinitionIndex = 5319;
 
 	struct alignas(4) Random_State
 	{

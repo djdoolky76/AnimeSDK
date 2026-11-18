@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/EventArgs.h"
 #include "unitysdk/System/IO/Ports/SerialData.h"
+#include "unitysdk/System/EventArgs.h"
 
-#define SYSTEM_IO_PORTS_SERIALDATARECEIVEDEVENTARGS_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1C701BF0)
-#define SYSTEM_IO_PORTS_SERIALDATARECEIVEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C701BB0)
+#define SYSTEM_IO_PORTS_SERIALDATARECEIVEDEVENTARGS_GET_EVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1CBE17E0)
+#define SYSTEM_IO_PORTS_SERIALDATARECEIVEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE17A0)
 
 namespace System::IO::Ports
 {
-	inline static constexpr unsigned int SerialDataReceivedEventArgs_TypeDefinitionIndex = 4155;
+	inline static constexpr unsigned int SerialDataReceivedEventArgs_TypeDefinitionIndex = 4154;
 
 	class SerialDataReceivedEventArgs : public ::System::EventArgs
 	{

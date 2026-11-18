@@ -4,11 +4,11 @@
 
 namespace MoleMole::Config { class UISystemCameraLibrary; }
 
-#define MOLEMOLE_CONFIG_BUDDYDIYPAGECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xF131FA0)
+#define MOLEMOLE_CONFIG_BUDDYDIYPAGECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xFFCA980)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BuddyDiyPageCamera_TypeDefinitionIndex = 47706;
+	inline static constexpr unsigned int BuddyDiyPageCamera_TypeDefinitionIndex = 43336;
 
 	class BuddyDiyPageCamera : public ::MoleMole::Config::ConfigPageCameraBase
 	{

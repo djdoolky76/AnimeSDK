@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
 namespace Share { class CChangedPropertyInfo; }
@@ -8,16 +7,12 @@ namespace Share { class CToChangeInfoOfProperty; }
 namespace Share { template <typename T> class IPropertyOperatorHelper_1; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T> class Action_1; }
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
-template <typename T> class Class_0_16E4307DCC41950C;
 
 namespace Share
 {
-	inline static constexpr unsigned int CPropertyOperator_1_TypeDefinitionIndex = 16867;
+	inline static constexpr unsigned int CPropertyOperator_1_TypeDefinitionIndex = 16341;
 
 	template <typename T>
 	class CPropertyOperator_1 : public ::System::Object

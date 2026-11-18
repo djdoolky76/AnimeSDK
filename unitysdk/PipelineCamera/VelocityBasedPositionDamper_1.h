@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Variable_1.h"
-#include "unitysdk/PipelineCamera/PositionDampingAxis.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace System { template <typename T> class Func_1; }
-
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int VelocityBasedPositionDamper_1_TypeDefinitionIndex = 38329;
+	inline static constexpr unsigned int VelocityBasedPositionDamper_1_TypeDefinitionIndex = 36331;
 
 	template <typename T>
-	struct VelocityBasedPositionDamper_1
+	struct alignas(8) VelocityBasedPositionDamper_1
 	{
 		::System::Nullable_1<::UnityEngine::Vector3> _currentPosition; // 0x0
 		::System::Nullable_1<::UnityEngine::Vector3> _currentVelocity; // 0x0

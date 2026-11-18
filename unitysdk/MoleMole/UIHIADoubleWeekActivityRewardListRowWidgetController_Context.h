@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_3_9F8B7B204F0D8E1D_7;
+class IOJPIAIFGKO;
 
-#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYREWARDLISTROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x188200D0)
+#define MOLEMOLE_UIHIADOUBLEWEEKACTIVITYREWARDLISTROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x183868A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHIADoubleWeekActivityRewardListRowWidgetController_Context_TypeDefinitionIndex = 59457;
+	inline static constexpr unsigned int UIHIADoubleWeekActivityRewardListRowWidgetController_Context_TypeDefinitionIndex = 42920;
 
 	class UIHIADoubleWeekActivityRewardListRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_9F8B7B204F0D8E1D_7* reward; // 0x28
+		::IOJPIAIFGKO* reward; // 0x28
 
 		::System::Void _ctor()
 		{

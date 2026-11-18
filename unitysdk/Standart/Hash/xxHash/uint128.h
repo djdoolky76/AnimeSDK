@@ -4,9 +4,9 @@
 
 namespace Standart::Hash::xxHash
 {
-	inline static constexpr unsigned int uint128_TypeDefinitionIndex = 8464;
+	inline static constexpr unsigned int uint128_TypeDefinitionIndex = 8059;
 
-	struct alignas(8) uint128
+	struct alignas(4) uint128
 	{
 		::System::UInt64 low64; // 0x10
 		::System::UInt64 high64; // 0x18

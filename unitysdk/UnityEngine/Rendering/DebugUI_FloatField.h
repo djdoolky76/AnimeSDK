@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/DebugUI_Field_1.h"
 
 namespace System { template <typename T> class Func_1; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_FLOATFIELD_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1CA780D0)
-#define UNITYENGINE_RENDERING_DEBUGUI_FLOATFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA78180)
-#define UNITYENGINE_RENDERING_DEBUGUI_FLOATFIELD___BASE_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1CA781A0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FLOATFIELD_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1D079810)
+#define UNITYENGINE_RENDERING_DEBUGUI_FLOATFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0798C0)
+#define UNITYENGINE_RENDERING_DEBUGUI_FLOATFIELD___BASE_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1D0798E0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_FloatField_TypeDefinitionIndex = 18691;
+	inline static constexpr unsigned int DebugUI_FloatField_TypeDefinitionIndex = 17842;
 
-	class DebugUI_FloatField : public ::UnityEngine::Rendering::DebugUI_Field_1<::System::Single>
+	class DebugUI_FloatField
 	{
 	public:
 		::System::Func_1<::System::Single>* min; // 0x50
 		::System::Func_1<::System::Single>* max; // 0x58
-		::System::Int32 decimals; // 0x60
-		::System::Single incStep; // 0x64
-		::System::Single incStepMult; // 0x68
+		::System::Single incStep; // 0x60
+		::System::Single incStepMult; // 0x64
+		::System::Int32 decimals; // 0x68
 
 		::System::Void _ctor()
 		{

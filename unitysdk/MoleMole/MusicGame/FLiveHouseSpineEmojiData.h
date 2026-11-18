@@ -4,20 +4,21 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_MUSICGAME_FLIVEHOUSESPINEEMOJIDATA_ISNULLOREMPTY_OFFSET UNITYSDK_OFFSET(0x868910)
-#define MOLEMOLE_MUSICGAME_FLIVEHOUSESPINEEMOJIDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1739D0F0)
+#define MOLEMOLE_MUSICGAME_FLIVEHOUSESPINEEMOJIDATA_ISNULLOREMPTY_OFFSET UNITYSDK_OFFSET(0x724070)
+#define MOLEMOLE_MUSICGAME_FLIVEHOUSESPINEEMOJIDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x13F094F0)
 
 namespace MoleMole::MusicGame
 {
-	inline static constexpr unsigned int FLiveHouseSpineEmojiData_TypeDefinitionIndex = 42087;
+	inline static constexpr unsigned int FLiveHouseSpineEmojiData_TypeDefinitionIndex = 55120;
 
 	struct alignas(8) FLiveHouseSpineEmojiData
 	{
 		static ::MoleMole::MusicGame::FLiveHouseSpineEmojiData* StaticGet_Empty()
 		{
-			return (::MoleMole::MusicGame::FLiveHouseSpineEmojiData*)Il2CppClass::FromTypeDefinitionIndex(FLiveHouseSpineEmojiData_TypeDefinitionIndex)->GetStaticField(0x535A0);
+			return (::MoleMole::MusicGame::FLiveHouseSpineEmojiData*)Il2CppClass::FromTypeDefinitionIndex(FLiveHouseSpineEmojiData_TypeDefinitionIndex)->GetStaticField(0x53140);
 		}
 		::System::Single duration; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* skinName; // 0x18
 
 		static ::System::Void _cctor()

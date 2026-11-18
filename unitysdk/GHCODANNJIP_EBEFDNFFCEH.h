@@ -1,0 +1,90 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HFOPGPPNOOM.h"
+#include "unitysdk/KGGHACLFONG.h"
+#include "unitysdk/MoleMole/HollowChessboard/RenderDataHandle.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/HFFLAMAFFLH.h"
+
+class ACNGIGJDGIO;
+class APOLLOBLGOE;
+class CNBBKIKPFKA;
+class DJAIIONPIPF;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define GHCODANNJIP_EBEFDNFFCEH_CHOOBIIHAIA_OFFSET UNITYSDK_OFFSET(0x10EF25B0)
+#define GHCODANNJIP_EBEFDNFFCEH_CLMJOFIDANF_OFFSET UNITYSDK_OFFSET(0x10EF2500)
+#define GHCODANNJIP_EBEFDNFFCEH_CNHBDOMKKDE_OFFSET UNITYSDK_OFFSET(0x10EF2550)
+#define GHCODANNJIP_EBEFDNFFCEH_EDEFLFIKNFK_OFFSET UNITYSDK_OFFSET(0x10EF2170)
+#define GHCODANNJIP_EBEFDNFFCEH_FEAJAHFIGMN_OFFSET UNITYSDK_OFFSET(0x10EF25C0)
+#define GHCODANNJIP_EBEFDNFFCEH_HOADCMABAIM_OFFSET UNITYSDK_OFFSET(0x10EF1EA0)
+#define GHCODANNJIP_EBEFDNFFCEH_JDBFBPKAJFD_OFFSET UNITYSDK_OFFSET(0x10EF1F20)
+#define GHCODANNJIP_EBEFDNFFCEH_KLDMODBMCDG_OFFSET UNITYSDK_OFFSET(0x10EF1E90)
+#define GHCODANNJIP_EBEFDNFFCEH_OKLLFEIJKHN_OFFSET UNITYSDK_OFFSET(0x10EF2470)
+#define GHCODANNJIP_EBEFDNFFCEH_PGHAJOMNDDJ_OFFSET UNITYSDK_OFFSET(0x10EF1F30)
+#define GHCODANNJIP_EBEFDNFFCEH__CTOR_OFFSET UNITYSDK_OFFSET(0x10EF1E80)
+
+inline static constexpr unsigned int GHCODANNJIP_EBEFDNFFCEH_TypeDefinitionIndex = 70793;
+
+class GHCODANNJIP_EBEFDNFFCEH : public ::System::Object
+{
+public:
+	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::RenderDataHandle>* _IFHMJKFKMEB_k__BackingField; // 0x10
+	::APOLLOBLGOE* _DAHMDJCNKMF_k__BackingField; // 0x18
+	::KGGHACLFONG BBCEFEECMGI; // 0x20
+
+	::System::Void _ctor(::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::RenderDataHandle>* KIKBIAABIID)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::RenderDataHandle>*))((::PBYTE)hIl2Cpp + GHCODANNJIP_EBEFDNFFCEH__CTOR_OFFSET))(this, KIKBIAABIID);
+	}
+
+	::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::RenderDataHandle>* KLDMODBMCDG()
+	{
+		return ((::System::Collections::Generic::List_1<::MoleMole::HollowChessboard::RenderDataHandle>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GHCODANNJIP_EBEFDNFFCEH_KLDMODBMCDG_OFFSET))(this);
+	}
+
+	::System::Boolean HOADCMABAIM()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GHCODANNJIP_EBEFDNFFCEH_HOADCMABAIM_OFFSET))(this);
+	}
+
+	::HFOPGPPNOOM JDBFBPKAJFD()
+	{
+		return ((::HFOPGPPNOOM(*)(::PVOID))((::PBYTE)hIl2Cpp + GHCODANNJIP_EBEFDNFFCEH_JDBFBPKAJFD_OFFSET))(this);
+	}
+
+	::System::Void PGHAJOMNDDJ(::HFFLAMAFFLH& AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::HFFLAMAFFLH&))((::PBYTE)hIl2Cpp + GHCODANNJIP_EBEFDNFFCEH_PGHAJOMNDDJ_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void EDEFLFIKNFK(::HFFLAMAFFLH& AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::HFFLAMAFFLH&))((::PBYTE)hIl2Cpp + GHCODANNJIP_EBEFDNFFCEH_EDEFLFIKNFK_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void OKLLFEIJKHN(::DJAIIONPIPF* DNOHELNGGLJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::DJAIIONPIPF*))((::PBYTE)hIl2Cpp + GHCODANNJIP_EBEFDNFFCEH_OKLLFEIJKHN_OFFSET))(this, DNOHELNGGLJ);
+	}
+
+	::System::Void CLMJOFIDANF(::CNBBKIKPFKA* DNOHELNGGLJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::CNBBKIKPFKA*))((::PBYTE)hIl2Cpp + GHCODANNJIP_EBEFDNFFCEH_CLMJOFIDANF_OFFSET))(this, DNOHELNGGLJ);
+	}
+
+	::System::Void CNHBDOMKKDE(::ACNGIGJDGIO* AAIJGGIEOGK)
+	{
+		return ((::System::Void(*)(::PVOID, ::ACNGIGJDGIO*))((::PBYTE)hIl2Cpp + GHCODANNJIP_EBEFDNFFCEH_CNHBDOMKKDE_OFFSET))(this, AAIJGGIEOGK);
+	}
+
+	::APOLLOBLGOE* CHOOBIIHAIA()
+	{
+		return ((::APOLLOBLGOE*(*)(::PVOID))((::PBYTE)hIl2Cpp + GHCODANNJIP_EBEFDNFFCEH_CHOOBIIHAIA_OFFSET))(this);
+	}
+
+	::System::Void FEAJAHFIGMN(::APOLLOBLGOE* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::APOLLOBLGOE*))((::PBYTE)hIl2Cpp + GHCODANNJIP_EBEFDNFFCEH_FEAJAHFIGMN_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

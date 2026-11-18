@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int NodeMapEntry_TypeDefinitionIndex = 53570;
+	inline static constexpr unsigned int NodeMapEntry_TypeDefinitionIndex = 68620;
 
 	struct alignas(8) NodeMapEntry
 	{

@@ -6,21 +6,21 @@ namespace NPCCrowd::AI { class PathGraphFeaturePointComponentRuntime; }
 namespace NPCCrowd::AI { class PathGraphFeaturePointV2Config; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTRUNTIME_CLEAR_OFFSET UNITYSDK_OFFSET(0x11921400)
-#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTRUNTIME_INITCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x119210D0)
-#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTRUNTIME_INIT_OFFSET UNITYSDK_OFFSET(0x11921080)
-#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTRUNTIME_UPDATE_OFFSET UNITYSDK_OFFSET(0x11921590)
-#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x11921700)
+#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTRUNTIME_CLEAR_OFFSET UNITYSDK_OFFSET(0x105D3440)
+#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTRUNTIME_INITCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x105D3110)
+#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTRUNTIME_INIT_OFFSET UNITYSDK_OFFSET(0x105D30C0)
+#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTRUNTIME_UPDATE_OFFSET UNITYSDK_OFFSET(0x105D35D0)
+#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x105D3740)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphFeaturePointRuntime_TypeDefinitionIndex = 74661;
+	inline static constexpr unsigned int PathGraphFeaturePointRuntime_TypeDefinitionIndex = 91980;
 
 	class PathGraphFeaturePointRuntime : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointComponentRuntime*>* _components; // 0x10
-		::NPCCrowd::AI::PathGraphFeaturePointV2Config* Config; // 0x18
+		::NPCCrowd::AI::PathGraphFeaturePointV2Config* Config; // 0x10
+		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphFeaturePointComponentRuntime*>* _components; // 0x18
 
 		::System::Void _ctor()
 		{

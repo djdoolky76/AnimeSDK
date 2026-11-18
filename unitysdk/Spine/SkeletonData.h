@@ -5,87 +5,79 @@
 namespace Spine { class Animation; }
 namespace Spine { class BoneData; }
 namespace Spine { class EventData; }
-namespace Spine { class IkConstraintData; }
-namespace Spine { class PathConstraintData; }
+namespace Spine { class IConstraintData; }
 namespace Spine { class Skin; }
 namespace Spine { class SlotData; }
-namespace Spine { class TransformConstraintData; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 
-#define SPINE_SKELETONDATA_FINDANIMATION_OFFSET UNITYSDK_OFFSET(0x1FB6B5F0)
-#define SPINE_SKELETONDATA_FINDBONE_OFFSET UNITYSDK_OFFSET(0x1FB6B0D0)
-#define SPINE_SKELETONDATA_FINDEVENT_OFFSET UNITYSDK_OFFSET(0x1FB6B470)
-#define SPINE_SKELETONDATA_FINDIKCONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1FB6B700)
-#define SPINE_SKELETONDATA_FINDPATHCONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1FB6B920)
-#define SPINE_SKELETONDATA_FINDSKIN_OFFSET UNITYSDK_OFFSET(0x1FB6B2F0)
-#define SPINE_SKELETONDATA_FINDSLOT_OFFSET UNITYSDK_OFFSET(0x1FB6B1E0)
-#define SPINE_SKELETONDATA_FINDTRANSFORMCONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1FB6B810)
-#define SPINE_SKELETONDATA_GET_ANIMATIONS_OFFSET UNITYSDK_OFFSET(0x1FB6AF30)
-#define SPINE_SKELETONDATA_GET_AUDIOPATH_OFFSET UNITYSDK_OFFSET(0x1FB6B090)
-#define SPINE_SKELETONDATA_GET_BONES_OFFSET UNITYSDK_OFFSET(0x1FB6AEB0)
-#define SPINE_SKELETONDATA_GET_DEFAULTSKIN_OFFSET UNITYSDK_OFFSET(0x1FB6AEF0)
-#define SPINE_SKELETONDATA_GET_EVENTS_OFFSET UNITYSDK_OFFSET(0x1FB6AF10)
-#define SPINE_SKELETONDATA_GET_FPS_OFFSET UNITYSDK_OFFSET(0x1FB6B0B0)
-#define SPINE_SKELETONDATA_GET_HASH_OFFSET UNITYSDK_OFFSET(0x1FB6B050)
-#define SPINE_SKELETONDATA_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1FB6B010)
-#define SPINE_SKELETONDATA_GET_IKCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1FB6AF50)
-#define SPINE_SKELETONDATA_GET_IMAGESPATH_OFFSET UNITYSDK_OFFSET(0x1FB6B070)
-#define SPINE_SKELETONDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1FB6AE90)
-#define SPINE_SKELETONDATA_GET_PATHCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1FB6AF90)
-#define SPINE_SKELETONDATA_GET_SKINS_OFFSET UNITYSDK_OFFSET(0x1FB6AED0)
-#define SPINE_SKELETONDATA_GET_SLOTS_OFFSET UNITYSDK_OFFSET(0x1FB6AEC0)
-#define SPINE_SKELETONDATA_GET_TRANSFORMCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1FB6AF70)
-#define SPINE_SKELETONDATA_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1FB6B030)
-#define SPINE_SKELETONDATA_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1FB6AFF0)
-#define SPINE_SKELETONDATA_GET_X_OFFSET UNITYSDK_OFFSET(0x1FB6AFB0)
-#define SPINE_SKELETONDATA_GET_Y_OFFSET UNITYSDK_OFFSET(0x1FB6AFD0)
-#define SPINE_SKELETONDATA_SET_ANIMATIONS_OFFSET UNITYSDK_OFFSET(0x1FB6AF40)
-#define SPINE_SKELETONDATA_SET_AUDIOPATH_OFFSET UNITYSDK_OFFSET(0x1FB6B0A0)
-#define SPINE_SKELETONDATA_SET_DEFAULTSKIN_OFFSET UNITYSDK_OFFSET(0x1FB6AF00)
-#define SPINE_SKELETONDATA_SET_EVENTS_OFFSET UNITYSDK_OFFSET(0x1FB6AF20)
-#define SPINE_SKELETONDATA_SET_FPS_OFFSET UNITYSDK_OFFSET(0x1FB6B0C0)
-#define SPINE_SKELETONDATA_SET_HASH_OFFSET UNITYSDK_OFFSET(0x1FB6B060)
-#define SPINE_SKELETONDATA_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1FB6B020)
-#define SPINE_SKELETONDATA_SET_IKCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1FB6AF60)
-#define SPINE_SKELETONDATA_SET_IMAGESPATH_OFFSET UNITYSDK_OFFSET(0x1FB6B080)
-#define SPINE_SKELETONDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1FB6AEA0)
-#define SPINE_SKELETONDATA_SET_PATHCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1FB6AFA0)
-#define SPINE_SKELETONDATA_SET_SKINS_OFFSET UNITYSDK_OFFSET(0x1FB6AEE0)
-#define SPINE_SKELETONDATA_SET_TRANSFORMCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1FB6AF80)
-#define SPINE_SKELETONDATA_SET_VERSION_OFFSET UNITYSDK_OFFSET(0x1FB6B040)
-#define SPINE_SKELETONDATA_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1FB6B000)
-#define SPINE_SKELETONDATA_SET_X_OFFSET UNITYSDK_OFFSET(0x1FB6AFC0)
-#define SPINE_SKELETONDATA_SET_Y_OFFSET UNITYSDK_OFFSET(0x1FB6AFE0)
-#define SPINE_SKELETONDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1FB6BA70)
-#define SPINE_SKELETONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB6BAC0)
+#define SPINE_SKELETONDATA_FINDANIMATION_OFFSET UNITYSDK_OFFSET(0x1FF615A0)
+#define SPINE_SKELETONDATA_FINDBONE_OFFSET UNITYSDK_OFFSET(0x1FF60F30)
+#define SPINE_SKELETONDATA_FINDEVENT_OFFSET UNITYSDK_OFFSET(0x1FF612D0)
+#define SPINE_SKELETONDATA_FINDSKIN_OFFSET UNITYSDK_OFFSET(0x1FF61150)
+#define SPINE_SKELETONDATA_FINDSLIDERANIMATIONS_OFFSET UNITYSDK_OFFSET(0x1FF61450)
+#define SPINE_SKELETONDATA_FINDSLOT_OFFSET UNITYSDK_OFFSET(0x1FF61040)
+#define SPINE_SKELETONDATA_GET_ANIMATIONS_OFFSET UNITYSDK_OFFSET(0x1FF60DC0)
+#define SPINE_SKELETONDATA_GET_AUDIOPATH_OFFSET UNITYSDK_OFFSET(0x1FF60EF0)
+#define SPINE_SKELETONDATA_GET_BONES_OFFSET UNITYSDK_OFFSET(0x1FF60D40)
+#define SPINE_SKELETONDATA_GET_CONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1FF60DE0)
+#define SPINE_SKELETONDATA_GET_DEFAULTSKIN_OFFSET UNITYSDK_OFFSET(0x1FF60D80)
+#define SPINE_SKELETONDATA_GET_EVENTS_OFFSET UNITYSDK_OFFSET(0x1FF60DA0)
+#define SPINE_SKELETONDATA_GET_FPS_OFFSET UNITYSDK_OFFSET(0x1FF60F10)
+#define SPINE_SKELETONDATA_GET_HASH_OFFSET UNITYSDK_OFFSET(0x1FF60EB0)
+#define SPINE_SKELETONDATA_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1FF60E50)
+#define SPINE_SKELETONDATA_GET_IMAGESPATH_OFFSET UNITYSDK_OFFSET(0x1FF60ED0)
+#define SPINE_SKELETONDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1FF60D20)
+#define SPINE_SKELETONDATA_GET_REFERENCESCALE_OFFSET UNITYSDK_OFFSET(0x1FF60E70)
+#define SPINE_SKELETONDATA_GET_SKINS_OFFSET UNITYSDK_OFFSET(0x1FF60D60)
+#define SPINE_SKELETONDATA_GET_SLOTS_OFFSET UNITYSDK_OFFSET(0x1FF60D50)
+#define SPINE_SKELETONDATA_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1FF60E90)
+#define SPINE_SKELETONDATA_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1FF60E30)
+#define SPINE_SKELETONDATA_GET_X_OFFSET UNITYSDK_OFFSET(0x1FF60DF0)
+#define SPINE_SKELETONDATA_GET_Y_OFFSET UNITYSDK_OFFSET(0x1FF60E10)
+#define SPINE_SKELETONDATA_SET_ANIMATIONS_OFFSET UNITYSDK_OFFSET(0x1FF60DD0)
+#define SPINE_SKELETONDATA_SET_AUDIOPATH_OFFSET UNITYSDK_OFFSET(0x1FF60F00)
+#define SPINE_SKELETONDATA_SET_DEFAULTSKIN_OFFSET UNITYSDK_OFFSET(0x1FF60D90)
+#define SPINE_SKELETONDATA_SET_EVENTS_OFFSET UNITYSDK_OFFSET(0x1FF60DB0)
+#define SPINE_SKELETONDATA_SET_FPS_OFFSET UNITYSDK_OFFSET(0x1FF60F20)
+#define SPINE_SKELETONDATA_SET_HASH_OFFSET UNITYSDK_OFFSET(0x1FF60EC0)
+#define SPINE_SKELETONDATA_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1FF60E60)
+#define SPINE_SKELETONDATA_SET_IMAGESPATH_OFFSET UNITYSDK_OFFSET(0x1FF60EE0)
+#define SPINE_SKELETONDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1FF60D30)
+#define SPINE_SKELETONDATA_SET_REFERENCESCALE_OFFSET UNITYSDK_OFFSET(0x1FF60E80)
+#define SPINE_SKELETONDATA_SET_SKINS_OFFSET UNITYSDK_OFFSET(0x1FF60D70)
+#define SPINE_SKELETONDATA_SET_VERSION_OFFSET UNITYSDK_OFFSET(0x1FF60EA0)
+#define SPINE_SKELETONDATA_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1FF60E40)
+#define SPINE_SKELETONDATA_SET_X_OFFSET UNITYSDK_OFFSET(0x1FF60E00)
+#define SPINE_SKELETONDATA_SET_Y_OFFSET UNITYSDK_OFFSET(0x1FF60E20)
+#define SPINE_SKELETONDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1FF616B0)
+#define SPINE_SKELETONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF61700)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SkeletonData_TypeDefinitionIndex = 33532;
+	inline static constexpr unsigned int SkeletonData_TypeDefinitionIndex = 33058;
 
 	class SkeletonData : public ::System::Object
 	{
 	public:
-		::System::String* audioPath; // 0x10
-		::System::String* name; // 0x18
-		::Spine::ExposedList_1<::Spine::Animation*>* animations; // 0x20
-		::System::String* version; // 0x28
-		::System::String* imagesPath; // 0x30
-		::System::String* hash; // 0x38
-		::Spine::ExposedList_1<::Spine::IkConstraintData*>* ikConstraints; // 0x40
+		::Spine::ExposedList_1<::Spine::IConstraintData*>* constraints; // 0x10
+		::Spine::ExposedList_1<::Spine::Animation*>* animations; // 0x18
+		::System::String* audioPath; // 0x20
+		::System::String* name; // 0x28
+		::Spine::ExposedList_1<::Spine::Skin*>* skins; // 0x30
+		::System::String* imagesPath; // 0x38
+		::System::String* version; // 0x40
 		::Spine::ExposedList_1<::Spine::SlotData*>* slots; // 0x48
-		::Spine::ExposedList_1<::Spine::TransformConstraintData*>* transformConstraints; // 0x50
-		::Spine::ExposedList_1<::Spine::EventData*>* events; // 0x58
-		::Spine::ExposedList_1<::Spine::BoneData*>* bones; // 0x60
-		::Spine::ExposedList_1<::Spine::Skin*>* skins; // 0x68
-		::Spine::Skin* defaultSkin; // 0x70
-		::Spine::ExposedList_1<::Spine::PathConstraintData*>* pathConstraints; // 0x78
-		::System::Single y; // 0x80
-		::System::Single fps; // 0x84
-		::System::Single x; // 0x88
-		::System::Single height; // 0x8C
-		::System::Single width; // 0x90
+		::Spine::ExposedList_1<::Spine::BoneData*>* bones; // 0x50
+		::System::String* hash; // 0x58
+		::Spine::ExposedList_1<::Spine::EventData*>* events; // 0x60
+		::Spine::Skin* defaultSkin; // 0x68
+		::System::Single height; // 0x70
+		::System::Single width; // 0x74
+		::System::Single y; // 0x78
+		::System::Single fps; // 0x7C
+		::System::Single referenceScale; // 0x80
+		::System::Single x; // 0x84
 
 		::System::Void _ctor()
 		{
@@ -152,34 +144,9 @@ namespace Spine
 			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Animation*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_SET_ANIMATIONS_OFFSET))(this, value);
 		}
 
-		::Spine::ExposedList_1<::Spine::IkConstraintData*>* get_IkConstraints()
+		::Spine::ExposedList_1<::Spine::IConstraintData*>* get_Constraints()
 		{
-			return ((::Spine::ExposedList_1<::Spine::IkConstraintData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_GET_IKCONSTRAINTS_OFFSET))(this);
-		}
-
-		::System::Void set_IkConstraints(::Spine::ExposedList_1<::Spine::IkConstraintData*>* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::IkConstraintData*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_SET_IKCONSTRAINTS_OFFSET))(this, value);
-		}
-
-		::Spine::ExposedList_1<::Spine::TransformConstraintData*>* get_TransformConstraints()
-		{
-			return ((::Spine::ExposedList_1<::Spine::TransformConstraintData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_GET_TRANSFORMCONSTRAINTS_OFFSET))(this);
-		}
-
-		::System::Void set_TransformConstraints(::Spine::ExposedList_1<::Spine::TransformConstraintData*>* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::TransformConstraintData*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_SET_TRANSFORMCONSTRAINTS_OFFSET))(this, value);
-		}
-
-		::Spine::ExposedList_1<::Spine::PathConstraintData*>* get_PathConstraints()
-		{
-			return ((::Spine::ExposedList_1<::Spine::PathConstraintData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_GET_PATHCONSTRAINTS_OFFSET))(this);
-		}
-
-		::System::Void set_PathConstraints(::Spine::ExposedList_1<::Spine::PathConstraintData*>* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::ExposedList_1<::Spine::PathConstraintData*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_SET_PATHCONSTRAINTS_OFFSET))(this, value);
+			return ((::Spine::ExposedList_1<::Spine::IConstraintData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_GET_CONSTRAINTS_OFFSET))(this);
 		}
 
 		::System::Single get_X()
@@ -220,6 +187,16 @@ namespace Spine
 		::System::Void set_Height(::System::Single value)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_SET_HEIGHT_OFFSET))(this, value);
+		}
+
+		::System::Single get_ReferenceScale()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_GET_REFERENCESCALE_OFFSET))(this);
+		}
+
+		::System::Void set_ReferenceScale(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_SET_REFERENCESCALE_OFFSET))(this, value);
 		}
 
 		::System::String* get_Version()
@@ -292,24 +269,14 @@ namespace Spine
 			return ((::Spine::EventData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_FINDEVENT_OFFSET))(this, eventDataName);
 		}
 
+		::Spine::ExposedList_1<::Spine::Animation*>* FindSliderAnimations(::Spine::ExposedList_1<::Spine::Animation*>* animations)
+		{
+			return ((::Spine::ExposedList_1<::Spine::Animation*>*(*)(::PVOID, ::Spine::ExposedList_1<::Spine::Animation*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_FINDSLIDERANIMATIONS_OFFSET))(this, animations);
+		}
+
 		::Spine::Animation* FindAnimation(::System::String* animationName)
 		{
 			return ((::Spine::Animation*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_FINDANIMATION_OFFSET))(this, animationName);
-		}
-
-		::Spine::IkConstraintData* FindIkConstraint(::System::String* constraintName)
-		{
-			return ((::Spine::IkConstraintData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_FINDIKCONSTRAINT_OFFSET))(this, constraintName);
-		}
-
-		::Spine::TransformConstraintData* FindTransformConstraint(::System::String* constraintName)
-		{
-			return ((::Spine::TransformConstraintData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_FINDTRANSFORMCONSTRAINT_OFFSET))(this, constraintName);
-		}
-
-		::Spine::PathConstraintData* FindPathConstraint(::System::String* constraintName)
-		{
-			return ((::Spine::PathConstraintData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKELETONDATA_FINDPATHCONSTRAINT_OFFSET))(this, constraintName);
 		}
 
 		::System::String* ToString()

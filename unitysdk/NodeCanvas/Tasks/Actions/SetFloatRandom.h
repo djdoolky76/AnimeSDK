@@ -5,19 +5,19 @@
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
-#define NODECANVAS_TASKS_ACTIONS_SETFLOATRANDOM_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E72F560)
-#define NODECANVAS_TASKS_ACTIONS_SETFLOATRANDOM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E72F920)
-#define NODECANVAS_TASKS_ACTIONS_SETFLOATRANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E72F9D0)
+#define NODECANVAS_TASKS_ACTIONS_SETFLOATRANDOM_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E9D4860)
+#define NODECANVAS_TASKS_ACTIONS_SETFLOATRANDOM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E9D4C20)
+#define NODECANVAS_TASKS_ACTIONS_SETFLOATRANDOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D4CD0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SetFloatRandom_TypeDefinitionIndex = 31261;
+	inline static constexpr unsigned int SetFloatRandom_TypeDefinitionIndex = 29687;
 
 	class SetFloatRandom : public ::NodeCanvas::Framework::ActionTask
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* minValue; // 0x60
-		::NodeCanvas::Framework::BBParameter_1<::System::Single>* floatVariable; // 0x68
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* floatVariable; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::System::Single>* minValue; // 0x68
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* maxValue; // 0x70
 
 		::System::Void _ctor()

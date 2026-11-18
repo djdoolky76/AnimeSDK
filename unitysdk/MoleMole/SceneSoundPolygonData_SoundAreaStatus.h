@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneSoundPolygonData_SoundAreaStatus_TypeDefinitionIndex = 68586;
+	inline static constexpr unsigned int SceneSoundPolygonData_SoundAreaStatus_TypeDefinitionIndex = 62403;
 
 	enum class SceneSoundPolygonData_SoundAreaStatus : ::System::Int32
 	{
-		Active = 2,
 		UnRegister = 0,
+		Active = 2,
 		UnActive = 1,
 	};
 }

@@ -4,10 +4,10 @@
 
 namespace BinaryTracingFramework::Foundation
 {
-	inline static constexpr unsigned int GuidUtils_GuidWarp__buffer_e__FixedBuffer_TypeDefinitionIndex = 34627;
+	inline static constexpr unsigned int GuidUtils_GuidWarp__buffer_e__FixedBuffer_TypeDefinitionIndex = 34173;
 
-	struct alignas(8) GuidUtils_GuidWarp__buffer_e__FixedBuffer
+	struct alignas(4) GuidUtils_GuidWarp__buffer_e__FixedBuffer
 	{
-		::System::Int64 data[2]; // 0x0
+		::System::Int64 FixedElementField; // 0x10
 	};
 }

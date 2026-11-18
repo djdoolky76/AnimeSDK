@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/EventSystems/PhysicsRaycaster.h"
-#include "unitysdk/UnityEngine/EventSystems/RaycastResult.h"
 #include "unitysdk/UnityEngine/RaycastHit2D.h"
+#include "unitysdk/UnityEngine/EventSystems/RaycastResult.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICS2DRAYCASTER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x1F8903D0)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICS2DRAYCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F890370)
-#define UNITYENGINE_EVENTSYSTEMS_PHYSICS2DRAYCASTER___BASE_RAYCAST_OFFSET UNITYSDK_OFFSET(0x1F891020)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICS2DRAYCASTER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x1FCAB410)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICS2DRAYCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCAB3B0)
+#define UNITYENGINE_EVENTSYSTEMS_PHYSICS2DRAYCASTER___BASE_RAYCAST_OFFSET UNITYSDK_OFFSET(0x1FCAC060)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int Physics2DRaycaster_TypeDefinitionIndex = 19404;
+	inline static constexpr unsigned int Physics2DRaycaster_TypeDefinitionIndex = 18558;
 
 	class Physics2DRaycaster : public ::UnityEngine::EventSystems::PhysicsRaycaster
 	{

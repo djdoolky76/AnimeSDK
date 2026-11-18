@@ -5,9 +5,9 @@
 class NPCEmotionClipConfig;
 class NPCEmotionEffectConfig;
 
-#define NPCEMOTIONCONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0x9549700)
+#define NPCEMOTIONCONFIGSO__CTOR_OFFSET UNITYSDK_OFFSET(0xE129130)
 
-inline static constexpr unsigned int NPCEmotionConfigSO_TypeDefinitionIndex = 72484;
+inline static constexpr unsigned int NPCEmotionConfigSO_TypeDefinitionIndex = 92545;
 
 class NPCEmotionConfigSO : public ::UnityEngine::ScriptableObject
 {

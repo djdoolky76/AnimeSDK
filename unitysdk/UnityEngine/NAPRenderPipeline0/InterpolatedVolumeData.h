@@ -6,18 +6,18 @@
 
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISCAUSTICACTIVE_OFFSET UNITYSDK_OFFSET(0x1E94C950)
-#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISDISTORTIONACTIVE_OFFSET UNITYSDK_OFFSET(0x1E94C930)
-#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISGAUSSIANBLURACTIVE_OFFSET UNITYSDK_OFFSET(0x1E94C890)
-#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISLUTOVERRIDEACTIVE_OFFSET UNITYSDK_OFFSET(0x1E94C820)
-#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISNAPBLOOMACTIVEFORHDR_OFFSET UNITYSDK_OFFSET(0x1E94C900)
-#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISNAPBLOOMACTIVE_OFFSET UNITYSDK_OFFSET(0x1E94C8D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISNAPBLOOMSECONDARYGLAREACTIVE_OFFSET UNITYSDK_OFFSET(0x1E94C8B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E94C960)
+#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISCAUSTICACTIVE_OFFSET UNITYSDK_OFFSET(0x1ECA56D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISDISTORTIONACTIVE_OFFSET UNITYSDK_OFFSET(0x1ECA56B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISGAUSSIANBLURACTIVE_OFFSET UNITYSDK_OFFSET(0x1ECA5610)
+#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISLUTOVERRIDEACTIVE_OFFSET UNITYSDK_OFFSET(0x1ECA55A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISNAPBLOOMACTIVEFORHDR_OFFSET UNITYSDK_OFFSET(0x1ECA5680)
+#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISNAPBLOOMACTIVE_OFFSET UNITYSDK_OFFSET(0x1ECA5650)
+#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA_ISNAPBLOOMSECONDARYGLAREACTIVE_OFFSET UNITYSDK_OFFSET(0x1ECA5630)
+#define UNITYENGINE_NAPRENDERPIPELINE0_INTERPOLATEDVOLUMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA56E0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int InterpolatedVolumeData_TypeDefinitionIndex = 6044;
+	inline static constexpr unsigned int InterpolatedVolumeData_TypeDefinitionIndex = 6052;
 
 	class InterpolatedVolumeData : public ::System::Object
 	{
@@ -51,9 +51,11 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Single ColorAdjustments_saturation; // 0xC8
 		::System::Single ColorAdjustments_desaturate; // 0xCC
 		::System::Boolean ColorAdjustments_applyLutToSkybox; // 0xD0
+		::System::Byte _padding0[0x3];
 		::System::Single ColorAdjustments_skySaturation; // 0xD4
 		::System::Single ColorAdjustments_skyContrast; // 0xD8
 		::System::Boolean ColorAdjustments_keepVolumetricFogInFrontOfTransparent; // 0xDC
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector4 ShadowsMidtonesHighlights_shadows; // 0xE0
 		::UnityEngine::Vector4 ShadowsMidtonesHighlights_midtones; // 0xF0
 		::UnityEngine::Vector4 ShadowsMidtonesHighlights_highlights; // 0x100
@@ -79,6 +81,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Single FXColorCorrection_gamma; // 0x174
 		::System::Boolean FXColorCorrection_lutInvert; // 0x178
 		::System::Boolean FXColorCorrection_lutToneColors; // 0x179
+		::System::Byte _padding2[0x2];
 		::UnityEngine::Vector4 FXColorCorrection_lutToneA; // 0x17C
 		::UnityEngine::Vector4 FXColorCorrection_lutToneB; // 0x18C
 		::System::Single FXColorCorrection_lutMiddlePoint; // 0x19C
@@ -86,22 +89,27 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Single FXColorCorrection_desaturate; // 0x1A4
 		::System::Boolean FXColorCorrection_invert; // 0x1A8
 		::System::Boolean FXColorCorrection_toneColors; // 0x1A9
+		::System::Byte _padding3[0x2];
 		::UnityEngine::Vector4 FXColorCorrection_toneA; // 0x1AC
 		::UnityEngine::Vector4 FXColorCorrection_toneB; // 0x1BC
 		::System::Single FXColorCorrection_middlePoint; // 0x1CC
 		::System::Single FXColorCorrection_softness; // 0x1D0
 		::System::Boolean FXColorCorrection_fxFogMaskPassOn; // 0x1D4
+		::System::Byte _padding4[0x3];
 		::System::Single FXColorCorrection_fxColorSaturation; // 0x1D8
 		::System::Single FXColorCorrection_giIntensity; // 0x1DC
 		::System::Single FXColorCorrection_emissionIntensity; // 0x1E0
 		::System::Single FXColorCorrection_scenePostExposure; // 0x1E4
 		::System::Boolean FXColorCorrection_overrideSceneKodamaGIParams; // 0x1E8
+		::System::Byte _padding5[0x3];
 		::System::Single FXColorCorrection_kodamaDynamicGIIntensity; // 0x1EC
 		::System::Single FXColorCorrection_blurAmount; // 0x1F0
 		::System::Boolean FXColorCorrection_justControlParticleLight; // 0x1F4
+		::System::Byte _padding6[0x3];
 		::System::Single FXColorCorrection_localLightMultiplyIntensity; // 0x1F8
 		::System::Single FXColorCorrection_localLightThreadHold; // 0x1FC
 		::System::Boolean CharacterColorCorrection_enable; // 0x200
+		::System::Byte _padding7[0x3];
 		::UnityEngine::Vector4 CharacterColorCorrection_ambient; // 0x204
 		::UnityEngine::Vector4 CharacterColorCorrection_shallowTint; // 0x214
 		::UnityEngine::Vector4 CharacterColorCorrection_shallowFadeTint; // 0x224
@@ -118,6 +126,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::Vector4 CharacterColorCorrection_ambientGradient; // 0x2D4
 		::System::Boolean CharacterColorCorrection_useShadowTintAsOutline; // 0x2E4
 		::System::Boolean CharacterColorCorrection_revertSaturation; // 0x2E5
+		::System::Byte _padding8[0x2];
 		::UnityEngine::Vector4 CharacterColorCorrection_outlineTint; // 0x2E8
 		::System::Single CharacterColorCorrection_toeStrength; // 0x2F8
 		::System::Single CharacterColorCorrection_toeLength; // 0x2FC
@@ -131,6 +140,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::Vector4 CharacterColorCorrection_lift; // 0x31C
 		::UnityEngine::Vector4 CharacterColorCorrection_gamma; // 0x32C
 		::UnityEngine::Vector4 CharacterColorCorrection_gain; // 0x33C
+		::System::Byte _padding9[0x4];
 		::UnityEngine::Texture* CharacterColorCorrection_master; // 0x350
 		::UnityEngine::Texture* CharacterColorCorrection_red; // 0x358
 		::UnityEngine::Texture* CharacterColorCorrection_green; // 0x360
@@ -150,6 +160,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Boolean AmplifyOcclusion_downSample; // 0x3BC
 		::System::Boolean AmplifyOcclusion_cacheAware; // 0x3BD
 		::System::Boolean AmplifyOcclusion_blurEnabled; // 0x3BE
+		::System::Byte _padding10[0x1];
 		::System::Int32 AmplifyOcclusion_blurRadius; // 0x3C0
 		::System::Int32 AmplifyOcclusion_blurPasses; // 0x3C4
 		::System::Single AmplifyOcclusion_blurSharpness; // 0x3C8
@@ -158,13 +169,16 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::Vector3 Distortion_rgbShift; // 0x3D4
 		::System::Single Distortion_separateRGBIntensity; // 0x3E0
 		::System::Boolean Distortion_forceActive; // 0x3E4
+		::System::Byte _padding11[0x3];
 		::System::UInt32 Distortion_effectRenderQueue; // 0x3E8
 		::System::Int32 GaussianBlur_downSample; // 0x3EC
 		::System::Single GaussianBlur_radius; // 0x3F0
+		::System::Byte _padding12[0x4];
 		::UnityEngine::Texture* GaussianBlur_mask; // 0x3F8
 		::System::Single GaussianBlur_maskTiling; // 0x400
 		::System::Single GaussianBlur_maskRotation; // 0x404
 		::System::Boolean GaussianBlur_maskDebug; // 0x408
+		::System::Byte _padding13[0x3];
 		::System::Single NapBloom_glareThreshold; // 0x40C
 		::System::Single NapBloom_glareThresholdForHDR; // 0x410
 		::System::Single NapBloom_glareScaler; // 0x414
@@ -182,6 +196,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Single NapBloom_dirtIntensity; // 0x460
 		::System::Boolean NapBloom_HasExtraDownsample; // 0x464
 		::System::Boolean NapBloom_enableSpriteFlare; // 0x465
+		::System::Byte _padding14[0x2];
 		::System::Single NapBloom_flareThreshold; // 0x468
 		::System::Single NapBloom_areaThreshold; // 0x46C
 		::System::Single NapBloom_saturate; // 0x470
@@ -189,6 +204,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Single NapBloom_sizeClamp; // 0x478
 		::System::Single NapBloom_intensityClamp; // 0x47C
 		::System::Int32 NapBloom_iterationNum; // 0x480
+		::System::Byte _padding15[0x4];
 		::System::Object* NapBloom_flareProfile; // 0x488
 		::System::Int32 PartialBlur_downScaleFactor; // 0x490
 		::System::Single PartialBlur_radius; // 0x494
@@ -197,11 +213,13 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Single PartialBlur_standardDeviation; // 0x4A0
 		::System::Boolean NapCapsuleAOLighting_useMainLightDirection; // 0x4A4
 		::System::Boolean NapCapsuleAOLighting_isPointLight; // 0x4A5
+		::System::Byte _padding16[0x2];
 		::UnityEngine::Vector3 NapCapsuleAOLighting_lightVector; // 0x4A8
 		::System::Single NapCapsuleAOLighting_lightRange; // 0x4B4
 		::System::Single NapCapsuleAOLighting_lightAngle; // 0x4B8
 		::System::Single NapCapsuleAOLighting_shadowStrength; // 0x4BC
 		::System::Boolean NapContactShadow_enabled; // 0x4C0
+		::System::Byte _padding17[0x3];
 		::System::Int32 NapContactShadow_sampleCount; // 0x4C4
 		::System::Single NapContactShadow_worldSpaceLength; // 0x4C8
 		::System::UInt32 MotionBlur_mode; // 0x4CC
@@ -211,13 +229,16 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Single MotionBlur_intensity; // 0x4DC
 		::System::Single MotionBlur_clamp; // 0x4E0
 		::System::Boolean ScreenSpaceReflection_enabled; // 0x4E4
+		::System::Byte _padding18[0x3];
 		::System::Single ScreenSpaceReflection_intensity; // 0x4E8
 		::System::Single ScreenSpaceReflection_depthBufferThickness; // 0x4EC
 		::System::Single ScreenSpaceReflection_screenFadeDistance; // 0x4F0
 		::System::UInt32 ScreenSpaceReflection_quality; // 0x4F4
 		::System::Boolean ScreenSpaceReflection_overrideGlobalPlanarReflectionConfig; // 0x4F8
+		::System::Byte _padding19[0x3];
 		::System::Single ScreenSpaceReflection_planarReflectionBlurAmount; // 0x4FC
 		::System::Boolean Caustics_Use_Caustics; // 0x500
+		::System::Byte _padding20[0x3];
 		::System::Single Caustics_Brightness; // 0x504
 		::System::Single Caustics_Speed; // 0x508
 		::System::Single Caustics_Range; // 0x50C
@@ -231,11 +252,13 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::Texture* Caustics_Tex; // 0x538
 		::System::Boolean FXColorCorrection_scenePostExposureOverridden; // 0x540
 		::System::Boolean CapsuleAO_enableCapsuleAO; // 0x541
+		::System::Byte _padding21[0x2];
 		::System::Single CapsuleAO_ambientIntensity; // 0x544
 		::System::Single CapsuleAO_shadowIntensity; // 0x548
 		::System::Single CapsuleAO_shadowSharpness; // 0x54C
 		::System::Single CapsuleAO_luminanceBlend; // 0x550
 		::System::Boolean RTX_enabled; // 0x554
+		::System::Byte _padding22[0x3];
 		::System::Single RTX_boost; // 0x558
 		::System::Single RTX_specularBoost; // 0x55C
 		::System::Single RTX_skyDiffuseScale; // 0x560
@@ -269,6 +292,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Single RTX_diffuseColorValue; // 0x5D0
 		::System::Single RTX_diffuseColorSaturate; // 0x5D4
 		::UnityEngine::Vector3 RTX_diffuseColorDiffThreshold; // 0x5D8
+		::System::Byte _padding23[0x4];
 		::UnityEngine::Texture* RTX_lut; // 0x5E8
 		::UnityEngine::Texture* RTX_roughnessLut; // 0x5F0
 		::UnityEngine::Texture* RTX_multiBounceAlbedoLut; // 0x5F8

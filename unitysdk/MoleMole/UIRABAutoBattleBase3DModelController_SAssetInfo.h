@@ -8,7 +8,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABAutoBattleBase3DModelController_SAssetInfo_TypeDefinitionIndex = 86933;
+	inline static constexpr unsigned int UIRABAutoBattleBase3DModelController_SAssetInfo_TypeDefinitionIndex = 60597;
 
 	struct alignas(8) UIRABAutoBattleBase3DModelController_SAssetInfo
 	{

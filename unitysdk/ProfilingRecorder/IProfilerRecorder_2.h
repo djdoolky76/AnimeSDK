@@ -3,9 +3,9 @@
 
 namespace ProfilingRecorder
 {
-	inline static constexpr unsigned int IProfilerRecorder_2_TypeDefinitionIndex = 37991;
+	inline static constexpr unsigned int IProfilerRecorder_2_TypeDefinitionIndex = 35952;
 
-	template <typename TSnapshot, typename TDelta>
+	template <typename T1, typename T2>
 	class IProfilerRecorder_2
 	{
 	public:

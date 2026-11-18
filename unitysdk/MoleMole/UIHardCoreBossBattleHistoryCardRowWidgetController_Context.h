@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_0C451C94475DA3D1;
-class Class_2_AD1085F76E7418A3;
+class IGPKLGJGBCI;
+class IIBINLMOGLF;
 
-#define MOLEMOLE_UIHARDCOREBOSSBATTLEHISTORYCARDROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3290C0)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLEHISTORYCARDROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19777730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHardCoreBossBattleHistoryCardRowWidgetController_Context_TypeDefinitionIndex = 45160;
+	inline static constexpr unsigned int UIHardCoreBossBattleHistoryCardRowWidgetController_Context_TypeDefinitionIndex = 61156;
 
 	class UIHardCoreBossBattleHistoryCardRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_AD1085F76E7418A3* LevelData; // 0x28
-		::Class_2_0C451C94475DA3D1* SeasonData; // 0x30
+		::IGPKLGJGBCI* LevelData; // 0x28
+		::IIBINLMOGLF* SeasonData; // 0x30
 
 		::System::Void _ctor()
 		{

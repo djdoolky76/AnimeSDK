@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYREMIELLECAMERACONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x197D5870)
+#define MOLEMOLE_UIACTIVITYREMIELLECAMERACONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19828950)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityRemielleCameraContext_TypeDefinitionIndex = 68357;
+	inline static constexpr unsigned int UIActivityRemielleCameraContext_TypeDefinitionIndex = 84030;
 
 	class UIActivityRemielleCameraContext : public ::MoleMole::UIControllerContextBase
 	{

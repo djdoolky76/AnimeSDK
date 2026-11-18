@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Reflection::Emit { class ILGenerator; }
 
-#define SYSTEM_REFLECTION_EMIT_LOCALBUILDER_GET_LOCALINDEX_OFFSET UNITYSDK_OFFSET(0x1D196550)
-#define SYSTEM_REFLECTION_EMIT_LOCALBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D196560)
+#define SYSTEM_REFLECTION_EMIT_LOCALBUILDER_GET_LOCALINDEX_OFFSET UNITYSDK_OFFSET(0x1D773F60)
+#define SYSTEM_REFLECTION_EMIT_LOCALBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D773F70)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int LocalBuilder_TypeDefinitionIndex = 618;
+	inline static constexpr unsigned int LocalBuilder_TypeDefinitionIndex = 617;
 
 	class LocalBuilder : public ::System::Reflection::LocalVariableInfo
 	{

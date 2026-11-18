@@ -3,21 +3,24 @@
 #include "unitysdk/System/Object.h"
 
 namespace UnrealTypes { class ICppStructOps; }
+namespace UnrealTypes { class ScriptStruct; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC02FB0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC02FF0)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C___CCTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1FC03000)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFF6F20)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFF6F60)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C___CCTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x1FFF6F70)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C___CCTOR_B__5_1_OFFSET UNITYSDK_OFFSET(0x1FFF6FD0)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C___CCTOR_B__5_2_OFFSET UNITYSDK_OFFSET(0x1FFF7030)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreePropertyRefPath___c_TypeDefinitionIndex = 31648;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreePropertyRefPath___c_TypeDefinitionIndex = 31085;
 
 	class RegistrationInfo_ScriptStruct_StateTreePropertyRefPath___c : public ::System::Object
 	{
 	public:
-		static ::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreePropertyRefPath___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreePropertyRefPath___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreePropertyRefPath___c_TypeDefinitionIndex)->GetStaticField(0x26A90);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreePropertyRefPath___c_TypeDefinitionIndex)->GetStaticField(0x27B50);
 		}
 
 		static ::System::Void _cctor()
@@ -30,9 +33,19 @@ namespace StateTreeCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C__CTOR_OFFSET))(this);
 		}
 
-		::UnrealTypes::ICppStructOps* __cctor_b__5_0()
+		::UnrealTypes::ScriptStruct* __cctor_b__5_0()
 		{
-			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C___CCTOR_B__5_0_OFFSET))(this);
+			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C___CCTOR_B__5_0_OFFSET))(this);
+		}
+
+		::UnrealTypes::ScriptStruct* __cctor_b__5_1()
+		{
+			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C___CCTOR_B__5_1_OFFSET))(this);
+		}
+
+		::UnrealTypes::ICppStructOps* __cctor_b__5_2()
+		{
+			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEPROPERTYREFPATH___C___CCTOR_B__5_2_OFFSET))(this);
 		}
 	};
 }

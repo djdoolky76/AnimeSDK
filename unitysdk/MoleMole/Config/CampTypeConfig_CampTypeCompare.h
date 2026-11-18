@@ -3,14 +3,14 @@
 #include "unitysdk/MoleMole/Config/CampType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CONFIG_CAMPTYPECONFIG_CAMPTYPECOMPARE_EQUALS_OFFSET UNITYSDK_OFFSET(0x7CED20)
-#define MOLEMOLE_CONFIG_CAMPTYPECONFIG_CAMPTYPECOMPARE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x7CED80)
+#define MOLEMOLE_CONFIG_CAMPTYPECONFIG_CAMPTYPECOMPARE_EQUALS_OFFSET UNITYSDK_OFFSET(0x6AD5D0)
+#define MOLEMOLE_CONFIG_CAMPTYPECONFIG_CAMPTYPECOMPARE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x6AD630)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CampTypeConfig_CampTypeCompare_TypeDefinitionIndex = 47256;
+	inline static constexpr unsigned int CampTypeConfig_CampTypeCompare_TypeDefinitionIndex = 55035;
 
-	struct alignas(1) CampTypeConfig_CampTypeCompare
+	struct alignas(4) CampTypeConfig_CampTypeCompare
 	{
 		::System::Boolean Equals(::MoleMole::Config::CampType a, ::MoleMole::Config::CampType b)
 		{

@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityGhostLocationFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMoveTargetFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilityMovementFragment.h"
@@ -7,19 +8,18 @@
 #include "unitysdk/NPCCrowd/Ability/FNPCAbilitySteeringFragment.h"
 #include "unitysdk/NPCCrowd/Ability/FTransformFragment.h"
 #include "unitysdk/NPCCrowd/Ability/NPCAbilitySteerToMoveTargetProcessor_RuntimeParameters.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_ABILITY_NPCABILITYSTEERTOMOVETARGETPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0xF0CEB60)
-#define NPCCROWD_ABILITY_NPCABILITYSTEERTOMOVETARGETPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF0CCE50)
-#define NPCCROWD_ABILITY_NPCABILITYSTEERTOMOVETARGETPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xF0CEF50)
+#define NPCCROWD_ABILITY_NPCABILITYSTEERTOMOVETARGETPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x114B8470)
+#define NPCCROWD_ABILITY_NPCABILITYSTEERTOMOVETARGETPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x114B6760)
+#define NPCCROWD_ABILITY_NPCABILITYSTEERTOMOVETARGETPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x114B8860)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilitySteerToMoveTargetProcessor_TypeDefinitionIndex = 43211;
+	inline static constexpr unsigned int NPCAbilitySteerToMoveTargetProcessor_TypeDefinitionIndex = 61466;
 
 	class NPCAbilitySteerToMoveTargetProcessor : public ::System::Object
 	{

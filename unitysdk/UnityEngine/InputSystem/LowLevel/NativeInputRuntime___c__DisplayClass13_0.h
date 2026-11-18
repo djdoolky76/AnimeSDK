@@ -6,12 +6,12 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_NATIVEINPUTRUNTIME___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E784AB0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_NATIVEINPUTRUNTIME___C__DISPLAYCLASS13_0__SET_ONSHOULDRUNUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1E784AC0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_NATIVEINPUTRUNTIME___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA06F90)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_NATIVEINPUTRUNTIME___C__DISPLAYCLASS13_0__SET_ONSHOULDRUNUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1EA06FA0)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int NativeInputRuntime___c__DisplayClass13_0_TypeDefinitionIndex = 32560;
+	inline static constexpr unsigned int NativeInputRuntime___c__DisplayClass13_0_TypeDefinitionIndex = 32009;
 
 	class NativeInputRuntime___c__DisplayClass13_0 : public ::System::Object
 	{

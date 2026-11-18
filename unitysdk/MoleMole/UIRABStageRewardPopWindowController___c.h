@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_62;
+class HMGNIIFFJBP;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1799C7D0)
-#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1799C810)
-#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__GETSORTEDQUESTLIST_B__47_0_OFFSET UNITYSDK_OFFSET(0x1799C870)
-#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__INITSTAGEDATA_B__42_0_OFFSET UNITYSDK_OFFSET(0x1799C820)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17BC0A30)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17BC0A70)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__GETSORTEDQUESTLIST_B__47_0_OFFSET UNITYSDK_OFFSET(0x17BC0AD0)
+#define MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__INITSTAGEDATA_B__42_0_OFFSET UNITYSDK_OFFSET(0x17BC0A80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABStageRewardPopWindowController___c_TypeDefinitionIndex = 77888;
+	inline static constexpr unsigned int UIRABStageRewardPopWindowController___c_TypeDefinitionIndex = 54561;
 
 	class UIRABStageRewardPopWindowController___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::System::Int32>** StaticGet___9__47_0()
 		{
-			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRABStageRewardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x40030);
+			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRABStageRewardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x451D0);
 		}
-		static ::MoleMole::UIRABStageRewardPopWindowController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIRABStageRewardPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRABStageRewardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x40038);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIRABStageRewardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x451D8);
 		}
-		static ::System::Comparison_1<::Class_2_208CC9941471731A_62*>** StaticGet___9__42_0()
+		static ::System::Comparison_1<::HMGNIIFFJBP*>** StaticGet___9__42_0()
 		{
-			return (::System::Comparison_1<::Class_2_208CC9941471731A_62*>**)Il2CppClass::FromTypeDefinitionIndex(UIRABStageRewardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x40040);
+			return (::System::Comparison_1<::HMGNIIFFJBP*>**)Il2CppClass::FromTypeDefinitionIndex(UIRABStageRewardPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x451E0);
 		}
 
 		static ::System::Void _cctor()
@@ -40,9 +40,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _InitStageData_b__42_0(::Class_2_208CC9941471731A_62* a, ::Class_2_208CC9941471731A_62* b)
+		::System::Int32 _InitStageData_b__42_0(::HMGNIIFFJBP* a, ::HMGNIIFFJBP* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_208CC9941471731A_62*, ::Class_2_208CC9941471731A_62*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__INITSTAGEDATA_B__42_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::HMGNIIFFJBP*, ::HMGNIIFFJBP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIRABSTAGEREWARDPOPWINDOWCONTROLLER___C__INITSTAGEDATA_B__42_0_OFFSET))(this, a, b);
 		}
 
 		::System::Int32 _GetSortedQuestList_b__47_0(::System::Int32 a, ::System::Int32 b)

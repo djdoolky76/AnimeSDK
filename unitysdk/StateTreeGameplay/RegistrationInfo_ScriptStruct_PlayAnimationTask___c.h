@@ -3,21 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 namespace UnrealTypes { class ICppStructOps; }
+namespace UnrealTypes { class ScriptStruct; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYANIMATIONTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB952D0)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYANIMATIONTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB95310)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYANIMATIONTASK___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1CB95320)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYANIMATIONTASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC39DC0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYANIMATIONTASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC39E00)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYANIMATIONTASK___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1EC39E10)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYANIMATIONTASK___C___CCTOR_B__4_1_OFFSET UNITYSDK_OFFSET(0x1EC39E70)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PlayAnimationTask___c_TypeDefinitionIndex = 47643;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_PlayAnimationTask___c_TypeDefinitionIndex = 65450;
 
 	class RegistrationInfo_ScriptStruct_PlayAnimationTask___c : public ::System::Object
 	{
 	public:
-		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_PlayAnimationTask___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_PlayAnimationTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PlayAnimationTask___c_TypeDefinitionIndex)->GetStaticField(0x3B300);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_PlayAnimationTask___c_TypeDefinitionIndex)->GetStaticField(0x3D180);
 		}
 
 		static ::System::Void _cctor()
@@ -30,9 +32,14 @@ namespace StateTreeGameplay
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYANIMATIONTASK___C__CTOR_OFFSET))(this);
 		}
 
-		::UnrealTypes::ICppStructOps* __cctor_b__4_0()
+		::UnrealTypes::ScriptStruct* __cctor_b__4_0()
 		{
-			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYANIMATIONTASK___C___CCTOR_B__4_0_OFFSET))(this);
+			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYANIMATIONTASK___C___CCTOR_B__4_0_OFFSET))(this);
+		}
+
+		::UnrealTypes::ICppStructOps* __cctor_b__4_1()
+		{
+			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_PLAYANIMATIONTASK___C___CCTOR_B__4_1_OFFSET))(this);
 		}
 	};
 }

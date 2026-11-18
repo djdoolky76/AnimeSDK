@@ -7,7 +7,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DecalData_TypeDefinitionIndex = 27792;
+	inline static constexpr unsigned int DecalData_TypeDefinitionIndex = 27379;
 
 	struct alignas(4) DecalData
 	{

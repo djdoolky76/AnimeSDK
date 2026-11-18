@@ -1,0 +1,118 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OCIKBEJKPCB.h"
+
+class HGFPBHGPFFM;
+class JBICNHFDLIB;
+namespace MoleMole { class UIZenkovRecovernProgressWidgetController; }
+
+#define GHNDDLLDGCE_ACFAACMNLEE_OFFSET UNITYSDK_OFFSET(0x149D82F0)
+#define GHNDDLLDGCE_ADPJEOKEDND_OFFSET UNITYSDK_OFFSET(0x149D8530)
+#define GHNDDLLDGCE_AFGPFLKDCIF_OFFSET UNITYSDK_OFFSET(0x149D82A0)
+#define GHNDDLLDGCE_ANIMPLMDKOF_OFFSET UNITYSDK_OFFSET(0x149D86F0)
+#define GHNDDLLDGCE_BCELJLFNDEI_OFFSET UNITYSDK_OFFSET(0x149D84A0)
+#define GHNDDLLDGCE_FNLKDODDHAI_OFFSET UNITYSDK_OFFSET(0x149D85F0)
+#define GHNDDLLDGCE_JGLFNBBHMEF_OFFSET UNITYSDK_OFFSET(0x149D8660)
+#define GHNDDLLDGCE_JMAACLDJJMN_OFFSET UNITYSDK_OFFSET(0x149D7EC0)
+#define GHNDDLLDGCE_JMDEKPONKMF_OFFSET UNITYSDK_OFFSET(0x149D7FF0)
+#define GHNDDLLDGCE_KCBENEBBOGP_OFFSET UNITYSDK_OFFSET(0x149D8250)
+#define GHNDDLLDGCE_KJHFBOCBADC_OFFSET UNITYSDK_OFFSET(0x149D7F70)
+#define GHNDDLLDGCE_LNJOOFKCJNN_OFFSET UNITYSDK_OFFSET(0x149D7E80)
+#define GHNDDLLDGCE_MCFILHLNBPK_OFFSET UNITYSDK_OFFSET(0x149D8780)
+#define GHNDDLLDGCE_NFHNPEIKFDL_OFFSET UNITYSDK_OFFSET(0x149D8060)
+#define GHNDDLLDGCE_OOLCMLLACCB_OFFSET UNITYSDK_OFFSET(0x149D8650)
+#define GHNDDLLDGCE_PBEFIMFFFJH_OFFSET UNITYSDK_OFFSET(0x149D8380)
+#define GHNDDLLDGCE__CTOR_OFFSET UNITYSDK_OFFSET(0x149D82E0)
+
+inline static constexpr unsigned int GHNDDLLDGCE_TypeDefinitionIndex = 61643;
+
+class GHNDDLLDGCE : public ::OCIKBEJKPCB
+{
+public:
+	::JBICNHFDLIB* CFMMEDHAHNM; // 0x90
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE__CTOR_OFFSET))(this);
+	}
+
+	::System::Void LNJOOFKCJNN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_LNJOOFKCJNN_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* JMAACLDJJMN()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_JMAACLDJJMN_OFFSET))(this);
+	}
+
+	::System::Void KJHFBOCBADC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_KJHFBOCBADC_OFFSET))(this);
+	}
+
+	::System::Void JMDEKPONKMF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_JMDEKPONKMF_OFFSET))(this);
+	}
+
+	::System::Void KCBENEBBOGP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_KCBENEBBOGP_OFFSET))(this);
+	}
+
+	::System::Void AFGPFLKDCIF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_AFGPFLKDCIF_OFFSET))(this);
+	}
+
+	::System::Void ACFAACMNLEE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_ACFAACMNLEE_OFFSET))(this);
+	}
+
+	static ::System::Boolean PBEFIMFFFJH()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + GHNDDLLDGCE_PBEFIMFFFJH_OFFSET))();
+	}
+
+	::System::Void BCELJLFNDEI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_BCELJLFNDEI_OFFSET))(this);
+	}
+
+	::System::Void ADPJEOKEDND(::System::Boolean FIPHFGHNNBE)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_ADPJEOKEDND_OFFSET))(this, FIPHFGHNNBE);
+	}
+
+	::System::Void NFHNPEIKFDL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_NFHNPEIKFDL_OFFSET))(this);
+	}
+
+	::MoleMole::UIZenkovRecovernProgressWidgetController* FNLKDODDHAI()
+	{
+		return ((::MoleMole::UIZenkovRecovernProgressWidgetController*(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_FNLKDODDHAI_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* OOLCMLLACCB()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_OOLCMLLACCB_OFFSET))(this);
+	}
+
+	::System::Void JGLFNBBHMEF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_JGLFNBBHMEF_OFFSET))(this);
+	}
+
+	::System::Void ANIMPLMDKOF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_ANIMPLMDKOF_OFFSET))(this);
+	}
+
+	::System::Void MCFILHLNBPK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHNDDLLDGCE_MCFILHLNBPK_OFFSET))(this);
+	}
+};

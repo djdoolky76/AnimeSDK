@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Animation/MontageTickData.h"
 #include "unitysdk/NPCCrowd/Animation/MontageTickLayerData.h"
-#include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_MONTAGETICKLAYERDATAEXTENSIONS_GETLAYERMONTAGEDATAREF_OFFSET UNITYSDK_OFFSET(0x11291930)
+#define NPCCROWD_ANIMATION_MONTAGETICKLAYERDATAEXTENSIONS_GETLAYERMONTAGEDATAREF_OFFSET UNITYSDK_OFFSET(0x11FB11D0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageTickLayerDataExtensions_TypeDefinitionIndex = 80054;
+	inline static constexpr unsigned int MontageTickLayerDataExtensions_TypeDefinitionIndex = 49091;
 
 	class MontageTickLayerDataExtensions : public ::System::Object
 	{

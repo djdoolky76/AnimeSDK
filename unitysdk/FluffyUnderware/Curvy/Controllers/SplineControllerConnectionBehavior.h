@@ -3,14 +3,14 @@
 
 namespace FluffyUnderware::Curvy::Controllers
 {
-	inline static constexpr unsigned int SplineControllerConnectionBehavior_TypeDefinitionIndex = 39542;
+	inline static constexpr unsigned int SplineControllerConnectionBehavior_TypeDefinitionIndex = 37632;
 
 	enum class SplineControllerConnectionBehavior : ::System::Int32
 	{
 		FollowUpOtherwiseRandom = 3,
-		FollowUpSpline = 1,
-		RandomSpline = 2,
-		Custom = 4,
 		CurrentSpline = 0,
+		Custom = 4,
+		RandomSpline = 2,
+		FollowUpSpline = 1,
 	};
 }

@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ConditionTask_1.h"
 #include "unitysdk/ParadoxNotion/CompareMethod.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
-namespace UnityEngine { class Animator; }
 
-#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKINT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E7B89E0)
-#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKINT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1E7B8C80)
-#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B8D50)
+#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKINT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EA69AB0)
+#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKINT_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EA69D50)
+#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA69E20)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int MecanimCheckInt_TypeDefinitionIndex = 30234;
+	inline static constexpr unsigned int MecanimCheckInt_TypeDefinitionIndex = 30604;
 
-	class MecanimCheckInt : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Animator*>
+	class MecanimCheckInt
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* value; // 0x60

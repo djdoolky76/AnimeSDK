@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXSOCIALUPDATEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C908E50)
+#define MIHOYO_SDK_PC_OS_XBOXSOCIALUPDATEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF38340)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxSocialUpdateExtension_TypeDefinitionIndex = 20762;
+	inline static constexpr unsigned int XboxSocialUpdateExtension_TypeDefinitionIndex = 19966;
 
 	class XboxSocialUpdateExtension : public ::System::Object
 	{

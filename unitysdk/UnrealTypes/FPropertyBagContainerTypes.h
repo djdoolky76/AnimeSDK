@@ -8,32 +8,34 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructOpsTraitsBase; }
 
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_ADD_OFFSET UNITYSDK_OFFSET(0xA15610)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x4BCD70)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x4BD090)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_CREATE_OFFSET UNITYSDK_OFFSET(0x1E38E580)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0xA15770)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_DISPOSE_OFFSET UNITYSDK_OFFSET(0x296F30)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_EQUALS_OFFSET UNITYSDK_OFFSET(0xA156B0)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GETTYPEHASH_OFFSET UNITYSDK_OFFSET(0x1E38E3A0)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xA15630)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GET_NUM_OFFSET UNITYSDK_OFFSET(0x41E970)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0xA15710)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0xA15780)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x4BD090)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E38E4B0)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_UNREALTYPES_ISTRUCT_UNREALTYPES_FPROPERTYBAGCONTAINERTYPES__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x4BCD70)
-#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E38E6D0)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_ADD_OFFSET UNITYSDK_OFFSET(0x8ED3E0)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_CLEAR_OFFSET UNITYSDK_OFFSET(0x8ED400)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x450B10)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x4132B0)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_CREATE_OFFSET UNITYSDK_OFFSET(0x1E2AB6F0)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0x8ED570)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_EQUALS_OFFSET UNITYSDK_OFFSET(0x8ED4B0)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GETTYPEHASH_OFFSET UNITYSDK_OFFSET(0x1E2AB510)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x8ED430)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GET_NUM_OFFSET UNITYSDK_OFFSET(0x459A40)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0x8ED510)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0x8ED590)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x4132B0)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E2AB620)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_RESET_OFFSET UNITYSDK_OFFSET(0x8ED580)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_UNREALTYPES_ISTRUCT_UNREALTYPES_FPROPERTYBAGCONTAINERTYPES__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x450B10)
+#define UNREALTYPES_FPROPERTYBAGCONTAINERTYPES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2AB850)
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int FPropertyBagContainerTypes_TypeDefinitionIndex = 28402;
+	inline static constexpr unsigned int FPropertyBagContainerTypes_TypeDefinitionIndex = 27839;
 
-	struct alignas(1) FPropertyBagContainerTypes
+	struct alignas(4) FPropertyBagContainerTypes
 	{
 		static ::UnrealTypes::StructOpsTraitsBase** StaticGet_StaticStructOpsTraits()
 		{
-			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(FPropertyBagContainerTypes_TypeDefinitionIndex)->GetStaticField(0x23FF0);
+			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(FPropertyBagContainerTypes_TypeDefinitionIndex)->GetStaticField(0x25020);
 		}
 		::UnrealTypes::FPropertyBagContainerTypes___types_e__FixedBuffer _types; // 0x10
 		::System::Byte _numContainers; // 0x12
@@ -53,54 +55,80 @@ namespace UnrealTypes
 			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::PropertyBagContainerType))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_ADD_OFFSET))(this, propertyBagContainerType);
 		}
 
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_CLEAR_OFFSET))(this);
+		}
+
 		::UnrealTypes::PropertyBagContainerType get_Item(::System::Int32 index)
 		{
 			return ((::UnrealTypes::PropertyBagContainerType(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GET_ITEM_OFFSET))(this, index);
 		}
 
+		/*
 		static ::System::UInt32 GetTypeHash(::UnrealTypes::FPropertyBagContainerTypes& value)
 		{
 			return ((::System::UInt32(*)(::UnrealTypes::FPropertyBagContainerTypes&))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GETTYPEHASH_OFFSET))(value);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::UnrealTypes::FPropertyBagContainerTypes other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnrealTypes::FPropertyBagContainerTypes))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::UnrealTypes::FPropertyBagContainerTypes& lhs, ::UnrealTypes::FPropertyBagContainerTypes& rhs)
 		{
 			return ((::System::Boolean(*)(::UnrealTypes::FPropertyBagContainerTypes&, ::UnrealTypes::FPropertyBagContainerTypes&))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_OP_INEQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
 		::UnrealTypes::ScriptStruct* get_StaticStruct()
 		{
 			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GET_STATICSTRUCT_OFFSET))(this);
 		}
 
+		/*
 		static ::UnrealTypes::FPropertyBagContainerTypes Create()
 		{
 			return ((::UnrealTypes::FPropertyBagContainerTypes(*)())((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_CREATE_OFFSET))();
 		}
+		*/
 
+		/*
 		::UnrealTypes::FPropertyBagContainerTypes DefaultCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::UnrealTypes::FPropertyBagContainerTypes(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_DEFAULTCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::UnrealTypes::FPropertyBagContainerTypes CopyCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::UnrealTypes::FPropertyBagContainerTypes(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_COPYCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::UnrealTypes::FPropertyBagContainerTypes MoveCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::UnrealTypes::FPropertyBagContainerTypes(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_MOVECREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::System::Void CopyAssign(::UnrealTypes::FPropertyBagContainerTypes& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnrealTypes::FPropertyBagContainerTypes&))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_COPYASSIGN_OFFSET))(this, other);
+		}
+		*/
+
+		::System::Void Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_RESET_OFFSET))(this);
 		}
 
 		::System::Void Dispose()
@@ -113,9 +141,11 @@ namespace UnrealTypes
 			return ((::UnrealTypes::StructOpsTraitsBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_GET_STRUCTOPSTRAITS_OFFSET))(this);
 		}
 
+		/*
 		::System::Void UnrealTypes_IStruct_UnrealTypes_FPropertyBagContainerTypes__CopyAssign(::UnrealTypes::FPropertyBagContainerTypes& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnrealTypes::FPropertyBagContainerTypes&))((::PBYTE)hIl2Cpp + UNREALTYPES_FPROPERTYBAGCONTAINERTYPES_UNREALTYPES_ISTRUCT_UNREALTYPES_FPROPERTYBAGCONTAINERTYPES__COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 	};
 }

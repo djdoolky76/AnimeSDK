@@ -5,10 +5,10 @@
 
 namespace NPCCrowd::Chunk
 {
-	inline static constexpr unsigned int ReadOnlyChunkView_1_TypeDefinitionIndex = 8696;
+	inline static constexpr unsigned int ReadOnlyChunkView_1_TypeDefinitionIndex = 8872;
 
 	template <typename T>
-	struct ReadOnlyChunkView_1
+	struct alignas(8) ReadOnlyChunkView_1
 	{
 		::Unity::Collections::NativeSlice_1<::System::Int32> _count; // 0x0
 		::Unity::Collections::NativeSlice_1<::System::IntPtr> _data; // 0x0

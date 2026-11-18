@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_265;
-class Class_2_208CC9941471731A_409;
+class CLGEOOJGIMO;
+class MFEKBBCCCFE;
 
-#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER_RIDUBOOOUTFITCONFIGTEMPLATEEXTWITHLEVELCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x198A2B20)
+#define MOLEMOLE_UIRIDUSGOTBOOCHANGECLOTHPAGECONTROLLER_RIDUBOOOUTFITCONFIGTEMPLATEEXTWITHLEVELCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x17D82050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController_RiduBooOutfitConfigTemplateExtWithLevelCfg_TypeDefinitionIndex = 86078;
+	inline static constexpr unsigned int UIRidusGotBooChangeClothPageController_RiduBooOutfitConfigTemplateExtWithLevelCfg_TypeDefinitionIndex = 62998;
 
 	class UIRidusGotBooChangeClothPageController_RiduBooOutfitConfigTemplateExtWithLevelCfg : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_265* ClothCfg; // 0x10
-		::Class_2_208CC9941471731A_409* LevelCfg; // 0x18
+		::CLGEOOJGIMO* ClothCfg; // 0x10
+		::MFEKBBCCCFE* LevelCfg; // 0x18
 		::System::Boolean ShowPrice; // 0x20
 
 		::System::Void _ctor()

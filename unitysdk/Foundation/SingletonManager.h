@@ -7,26 +7,26 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define FOUNDATION_SINGLETONMANAGER_ADDSINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x1F4BE390)
-#define FOUNDATION_SINGLETONMANAGER_GETSINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x1F4BE730)
-#define FOUNDATION_SINGLETONMANAGER_REMOVESINGLETONINSTANCE_1_OFFSET UNITYSDK_OFFSET(0x1F4BE690)
-#define FOUNDATION_SINGLETONMANAGER_REMOVESINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x1F4BE530)
-#define FOUNDATION_SINGLETONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4BE870)
+#define FOUNDATION_SINGLETONMANAGER_ADDSINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x1F37D170)
+#define FOUNDATION_SINGLETONMANAGER_GETSINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x1F37D510)
+#define FOUNDATION_SINGLETONMANAGER_REMOVESINGLETONINSTANCE_1_OFFSET UNITYSDK_OFFSET(0x1F37D470)
+#define FOUNDATION_SINGLETONMANAGER_REMOVESINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x1F37D310)
+#define FOUNDATION_SINGLETONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F37D650)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SingletonManager_TypeDefinitionIndex = 7946;
+	inline static constexpr unsigned int SingletonManager_TypeDefinitionIndex = 8437;
 
 	class SingletonManager : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet__staticSingetons()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SingletonManager_TypeDefinitionIndex)->GetStaticField(0x7320);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SingletonManager_TypeDefinitionIndex)->GetStaticField(0x74C0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>** StaticGet__singletons()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(SingletonManager_TypeDefinitionIndex)->GetStaticField(0x7328);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(SingletonManager_TypeDefinitionIndex)->GetStaticField(0x74C8);
 		}
 
 		static ::System::Void _cctor()

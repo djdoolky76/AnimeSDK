@@ -6,9 +6,9 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int EmitUtilities___c__DisplayClass7_0_1_TypeDefinitionIndex = 7650;
+	inline static constexpr unsigned int EmitUtilities___c__DisplayClass7_0_1_TypeDefinitionIndex = 7662;
 
-	template <typename InstanceType>
+	template <typename T>
 	class EmitUtilities___c__DisplayClass7_0_1 : public ::System::Object
 	{
 	public:

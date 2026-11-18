@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIBRANCHRELCICOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x180328C0)
-#define MOLEMOLE_UIBRANCHRELCICOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18032900)
-#define MOLEMOLE_UIBRANCHRELCICOLLECTWIDGETCONTROLLER___C__INITSORT_B__4_0_OFFSET UNITYSDK_OFFSET(0x18032910)
+#define MOLEMOLE_UIBRANCHRELCICOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19196F10)
+#define MOLEMOLE_UIBRANCHRELCICOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19196F50)
+#define MOLEMOLE_UIBRANCHRELCICOLLECTWIDGETCONTROLLER___C__INITSORT_B__4_0_OFFSET UNITYSDK_OFFSET(0x19196F60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBranchRelciCollectWidgetController___c_TypeDefinitionIndex = 80875;
+	inline static constexpr unsigned int UIBranchRelciCollectWidgetController___c_TypeDefinitionIndex = 51337;
 
 	class UIBranchRelciCollectWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIBranchRelciCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A2A0);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIBranchRelciCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C0B0);
 		}
-		static ::MoleMole::UIBranchRelciCollectWidgetController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIBranchRelciCollectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBranchRelciCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A2A8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIBranchRelciCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C0B8);
 		}
 
 		static ::System::Void _cctor()

@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem { class CharacterConfig_ToneMappingCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_CHARACTERCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CCA77A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_CHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA83A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_CHARACTERCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1D1A89E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_CHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A95E0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 27114;
+	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 27131;
 
-	class CharacterConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::CharacterConfig*>
+	class CharacterConfig
 	{
 	public:
 		::System::Single characterLightTonemapStart; // 0x18
@@ -21,6 +20,7 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::System::Single characterLightTonemapFaceAdd; // 0x20
 		::System::Single characterLightTonemapFaceEnd; // 0x24
 		::System::Boolean characterColorGradingEnabled; // 0x28
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Rendering::Universal::WeatherSystem::CharacterConfig_ToneMappingCurve* charaToneMappingCurve; // 0x30
 		::UnityEngine::Color mainLightColorForChara; // 0x38
 		::System::Single mainLightIntensityForChara; // 0x48
@@ -60,6 +60,7 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::UnityEngine::Color shadowFadeTintIndoor; // 0x220
 		::UnityEngine::Color ambientGradientIndoor; // 0x230
 		::System::Boolean useShadowTintAsOutlineIndoor; // 0x240
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Color outlineTintIndoor; // 0x244
 		::System::Single characterPostExposure; // 0x254
 		::System::Single contrast; // 0x258

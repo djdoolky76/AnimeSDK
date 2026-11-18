@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/Foundation/AssetRequestHandle.h"
-#include "unitysdk/System/Object.h"
 
-class Class_1_2AD981AB6ACE5E06_2;
-class Class_2_793F88ABAFAF0774;
-class Class_2_AE77556F8299A979;
-class Class_3_C5136A7A7911A5D4;
+class BOOAPJIDGLO;
+class CMLEOMMLODC;
+class DCKOIEAAEDL;
+class MLPGEJOFJBL;
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
@@ -15,45 +15,45 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_00266B9DD90A749A_OFFSET UNITYSDK_OFFSET(0x149EF080)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_1904F4E96364B9B6_OFFSET UNITYSDK_OFFSET(0x149EE340)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_1C5A49F5CE4EBFAC_OFFSET UNITYSDK_OFFSET(0x149EF810)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_222951B8BA7FC1B0_OFFSET UNITYSDK_OFFSET(0x149EF2C0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_3B119FE486105FA9_OFFSET UNITYSDK_OFFSET(0x149EED20)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_41F5D9C0F0A306F5_OFFSET UNITYSDK_OFFSET(0x149EF3F0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_44C6956149352354_OFFSET UNITYSDK_OFFSET(0x149EF780)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_6D018EEBA2C5321E_OFFSET UNITYSDK_OFFSET(0x149EF1B0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_7F2A7CA025DA2DFB_1_OFFSET UNITYSDK_OFFSET(0x149EEBF0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_7F2A7CA025DA2DFB_OFFSET UNITYSDK_OFFSET(0x149EE210)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_B7AAFBF75390B7E2_OFFSET UNITYSDK_OFFSET(0x149EEF70)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_RESET_OFFSET UNITYSDK_OFFSET(0x149EDD80)
-#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x149EE000)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_ANELNDIHOFN_OFFSET UNITYSDK_OFFSET(0x130DFFF0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_CPDFCDONECK_OFFSET UNITYSDK_OFFSET(0x130DF770)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_DGMLFELCAIO_OFFSET UNITYSDK_OFFSET(0x130DFEE0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_FBCCBMGGKFJ_OFFSET UNITYSDK_OFFSET(0x130DF9A0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_GCMAHCACHFD_OFFSET UNITYSDK_OFFSET(0x130DE540)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_GPANFOGIIEN_OFFSET UNITYSDK_OFFSET(0x130DF420)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_HCMHNNOPPNC_OFFSET UNITYSDK_OFFSET(0x130DF530)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_JPHOLHGCLIK_OFFSET UNITYSDK_OFFSET(0x130DE7E0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_KDAPPHIFMIC_OFFSET UNITYSDK_OFFSET(0x130DFC40)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_MNABKFFGLNN_OFFSET UNITYSDK_OFFSET(0x130DF090)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_PDGEKFAPEFB_OFFSET UNITYSDK_OFFSET(0x130DE2A0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_RESET_OFFSET UNITYSDK_OFFSET(0x130DDE10)
+#define MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x130DE090)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int HollowChessboardEntityConfigManager_TypeDefinitionIndex = 68264;
+	inline static constexpr unsigned int HollowChessboardEntityConfigManager_TypeDefinitionIndex = 68707;
 
 	class HollowChessboardEntityConfigManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_2_793F88ABAFAF0774*>** StaticGet_Field_1_6()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::MLPGEJOFJBL*>** StaticGet_ADBKEIHJHOI()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_2_793F88ABAFAF0774*>**)Il2CppClass::FromTypeDefinitionIndex(HollowChessboardEntityConfigManager_TypeDefinitionIndex)->GetStaticField(0x32730);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::MLPGEJOFJBL*>**)Il2CppClass::FromTypeDefinitionIndex(HollowChessboardEntityConfigManager_TypeDefinitionIndex)->GetStaticField(0x34A80);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_3_C5136A7A7911A5D4*>** StaticGet_Field_1_7()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::CMLEOMMLODC*>** StaticGet_NOGPMAGBBAM()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_3_C5136A7A7911A5D4*>**)Il2CppClass::FromTypeDefinitionIndex(HollowChessboardEntityConfigManager_TypeDefinitionIndex)->GetStaticField(0x32738);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::CMLEOMMLODC*>**)Il2CppClass::FromTypeDefinitionIndex(HollowChessboardEntityConfigManager_TypeDefinitionIndex)->GetStaticField(0x34A88);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_2_AE77556F8299A979*>** StaticGet_Field_1_5()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::DCKOIEAAEDL*>** StaticGet_FFEJEANEBJL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_2_AE77556F8299A979*>**)Il2CppClass::FromTypeDefinitionIndex(HollowChessboardEntityConfigManager_TypeDefinitionIndex)->GetStaticField(0x32740);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::DCKOIEAAEDL*>**)Il2CppClass::FromTypeDefinitionIndex(HollowChessboardEntityConfigManager_TypeDefinitionIndex)->GetStaticField(0x34A90);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_2AD981AB6ACE5E06_2*>** StaticGet_Field_1_0()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::BOOAPJIDGLO*>** StaticGet_HEBNCPHNFKM()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_2AD981AB6ACE5E06_2*>**)Il2CppClass::FromTypeDefinitionIndex(HollowChessboardEntityConfigManager_TypeDefinitionIndex)->GetStaticField(0x32748);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::BOOAPJIDGLO*>**)Il2CppClass::FromTypeDefinitionIndex(HollowChessboardEntityConfigManager_TypeDefinitionIndex)->GetStaticField(0x34A98);
 		}
-		// static const ::System::String* Field_1_2; // 0x0
-		// static const ::System::String* Field_1_1; // 0x0
+		// static const ::System::String* PLFAHADDDBM; // 0x0
+		// static const ::System::String* EBMPFOLPJAH; // 0x0
 
 		static ::System::Void _cctor()
 		{
@@ -65,59 +65,59 @@ namespace MoleMole::HollowChessboard
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_RESET_OFFSET))();
 		}
 
-		static ::Class_2_793F88ABAFAF0774* Method_1_7F2A7CA025DA2DFB(::System::Int32 a1)
+		static ::BOOAPJIDGLO* PDGEKFAPEFB(::System::Int32 NMFFKCDMAMC)
 		{
-			return ((::Class_2_793F88ABAFAF0774*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_7F2A7CA025DA2DFB_OFFSET))(a1);
+			return ((::BOOAPJIDGLO*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_PDGEKFAPEFB_OFFSET))(NMFFKCDMAMC);
 		}
 
-		static ::System::Boolean Method_1_1904F4E96364B9B6(::Foundation::AssetPath a1, ::Foundation::AssetRequestHandle& a2)
+		static ::CMLEOMMLODC* GCMAHCACHFD(::System::Int32 NMFFKCDMAMC)
 		{
-			return ((::System::Boolean(*)(::Foundation::AssetPath, ::Foundation::AssetRequestHandle&))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_1904F4E96364B9B6_OFFSET))(a1, a2);
+			return ((::CMLEOMMLODC*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_GCMAHCACHFD_OFFSET))(NMFFKCDMAMC);
 		}
 
-		static ::Class_2_AE77556F8299A979* Method_1_7F2A7CA025DA2DFB_1(::System::Int32 a1)
+		static ::System::Boolean JPHOLHGCLIK(::Foundation::AssetPath PJNJFACFJHP, ::Foundation::AssetRequestHandle& FCEIKAIDHPM)
 		{
-			return ((::Class_2_AE77556F8299A979*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_7F2A7CA025DA2DFB_1_OFFSET))(a1);
+			return ((::System::Boolean(*)(::Foundation::AssetPath, ::Foundation::AssetRequestHandle&))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_JPHOLHGCLIK_OFFSET))(PJNJFACFJHP, FCEIKAIDHPM);
 		}
 
-		static ::System::Void Method_1_3B119FE486105FA9(::System::Boolean a1, ::System::Action* a2)
+		static ::System::Void MNABKFFGLNN()
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_3B119FE486105FA9_OFFSET))(a1, a2);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_MNABKFFGLNN_OFFSET))();
 		}
 
-		static ::Class_3_C5136A7A7911A5D4* Method_1_00266B9DD90A749A(::System::Int32 a1)
+		static ::System::Collections::Generic::List_1<::BOOAPJIDGLO*>* HCMHNNOPPNC()
 		{
-			return ((::Class_3_C5136A7A7911A5D4*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_00266B9DD90A749A_OFFSET))(a1);
+			return ((::System::Collections::Generic::List_1<::BOOAPJIDGLO*>*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_HCMHNNOPPNC_OFFSET))();
 		}
 
-		static ::System::Void Method_1_6D018EEBA2C5321E(::System::Single a1, ::System::Action_1<::System::Single>* a2, ::System::Action_1<::System::String*>* a3, ::System::String* a4)
+		static ::System::Void CPDFCDONECK(::System::Boolean GHOLINNCJCE, ::System::Action* IBNICCGMILF)
 		{
-			return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_6D018EEBA2C5321E_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_CPDFCDONECK_OFFSET))(GHOLINNCJCE, IBNICCGMILF);
 		}
 
-		static ::Il2CppArray<::Foundation::AssetPath>* Method_1_B7AAFBF75390B7E2()
+		static ::MLPGEJOFJBL* FBCCBMGGKFJ(::System::Int32 NMFFKCDMAMC)
 		{
-			return ((::Il2CppArray<::Foundation::AssetPath>*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_B7AAFBF75390B7E2_OFFSET))();
+			return ((::MLPGEJOFJBL*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_FBCCBMGGKFJ_OFFSET))(NMFFKCDMAMC);
 		}
 
-		static ::Class_1_2AD981AB6ACE5E06_2* Method_1_222951B8BA7FC1B0(::System::Int32 a1)
+		static ::DCKOIEAAEDL* KDAPPHIFMIC(::System::Int32 NMFFKCDMAMC)
 		{
-			return ((::Class_1_2AD981AB6ACE5E06_2*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_222951B8BA7FC1B0_OFFSET))(a1);
+			return ((::DCKOIEAAEDL*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_KDAPPHIFMIC_OFFSET))(NMFFKCDMAMC);
 		}
 
-		static ::System::Void Method_1_41F5D9C0F0A306F5()
+		static ::System::Void DGMLFELCAIO(::System::Single HBFKHANEEND, ::System::Action_1<::System::Single>* JOLIEKHCGDJ, ::System::Action_1<::System::String*>* MGAKJHJAGJI, ::System::String* GDGGMIJHAJJ)
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_41F5D9C0F0A306F5_OFFSET))();
+			return ((::System::Void(*)(::System::Single, ::System::Action_1<::System::Single>*, ::System::Action_1<::System::String*>*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_DGMLFELCAIO_OFFSET))(HBFKHANEEND, JOLIEKHCGDJ, MGAKJHJAGJI, GDGGMIJHAJJ);
 		}
 
-		static ::System::Collections::IEnumerator* Method_1_44C6956149352354(::System::Single a1, ::System::Action_1<::System::Single>* a2)
+		static ::System::Collections::IEnumerator* ANELNDIHOFN(::System::Single HBFKHANEEND, ::System::Action_1<::System::Single>* JOLIEKHCGDJ)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_44C6956149352354_OFFSET))(a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_ANELNDIHOFN_OFFSET))(HBFKHANEEND, JOLIEKHCGDJ);
 		}
 
-		static ::System::Collections::Generic::List_1<::Class_2_AE77556F8299A979*>* Method_1_1C5A49F5CE4EBFAC()
+		static ::Il2CppArray<::Foundation::AssetPath>* GPANFOGIIEN()
 		{
-			return ((::System::Collections::Generic::List_1<::Class_2_AE77556F8299A979*>*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_METHOD_1_1C5A49F5CE4EBFAC_OFFSET))();
+			return ((::Il2CppArray<::Foundation::AssetPath>*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_HOLLOWCHESSBOARDENTITYCONFIGMANAGER_GPANFOGIIEN_OFFSET))();
 		}
 	};
 }

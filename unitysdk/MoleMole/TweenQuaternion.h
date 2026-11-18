@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Tween_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define MOLEMOLE_TWEENQUATERNION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x191C1D20)
-#define MOLEMOLE_TWEENQUATERNION_METHOD_7_CE8B195E1AAB80E3_OFFSET UNITYSDK_OFFSET(0x191C1DA0)
-#define MOLEMOLE_TWEENQUATERNION_METHOD_7_D3E17EE162EAD52F_OFFSET UNITYSDK_OFFSET(0x191C1E50)
-#define MOLEMOLE_TWEENQUATERNION_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x191C1D30)
-#define MOLEMOLE_TWEENQUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x191C1F50)
-#define MOLEMOLE_TWEENQUATERNION___BASE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x191C1F60)
+#define MOLEMOLE_TWEENQUATERNION_DFJPMOOOLHM_OFFSET UNITYSDK_OFFSET(0x162FD110)
+#define MOLEMOLE_TWEENQUATERNION_FKMOKFNLFOA_OFFSET UNITYSDK_OFFSET(0x162FD060)
+#define MOLEMOLE_TWEENQUATERNION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x162FCFE0)
+#define MOLEMOLE_TWEENQUATERNION_PECPJKGEJKM_OFFSET UNITYSDK_OFFSET(0x162FD220)
+#define MOLEMOLE_TWEENQUATERNION_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x162FCFF0)
+#define MOLEMOLE_TWEENQUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x162FD210)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TweenQuaternion_TypeDefinitionIndex = 64397;
+	inline static constexpr unsigned int TweenQuaternion_TypeDefinitionIndex = 39945;
 
-	class TweenQuaternion : public ::MoleMole::Tween_1<::UnityEngine::Quaternion>
+	class TweenQuaternion
 	{
 	public:
 		::System::Boolean isLocal; // 0xA8
-		::UnityEngine::Quaternion Field_7_1; // 0xAC
-		::UnityEngine::Quaternion Field_7_0; // 0xBC
+		::System::Byte _padding0[0x3];
+		::UnityEngine::Quaternion HHGILNNMNAK; // 0xAC
+		::UnityEngine::Quaternion IHEKJELGJKI; // 0xBC
 
 		::System::Void _ctor()
 		{
@@ -31,24 +31,24 @@ namespace MoleMole
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENQUATERNION_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_value(::UnityEngine::Quaternion a1)
+		::System::Void set_value(::UnityEngine::Quaternion EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENQUATERNION_SET_VALUE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENQUATERNION_SET_VALUE_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Void Method_7_D3E17EE162EAD52F(::System::Single a1, ::System::Boolean a2)
+		::System::Void DFJPMOOOLHM(::System::Single CKELPHPMECF, ::System::Boolean GNFAABJPKPN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENQUATERNION_METHOD_7_D3E17EE162EAD52F_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENQUATERNION_DFJPMOOOLHM_OFFSET))(this, CKELPHPMECF, GNFAABJPKPN);
 		}
 
-		::System::Void __base_set_value(::UnityEngine::Quaternion a1)
+		::System::Void FKMOKFNLFOA(::UnityEngine::Quaternion BFBELMDIAHI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENQUATERNION___BASE_SET_VALUE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENQUATERNION_FKMOKFNLFOA_OFFSET))(this, BFBELMDIAHI);
 		}
 
-		::System::Void Method_7_CE8B195E1AAB80E3(::UnityEngine::Quaternion a1)
+		::System::Void PECPJKGEJKM(::UnityEngine::Quaternion MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENQUATERNION_METHOD_7_CE8B195E1AAB80E3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENQUATERNION_PECPJKGEJKM_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

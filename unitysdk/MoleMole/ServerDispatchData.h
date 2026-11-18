@@ -6,11 +6,11 @@ namespace MoleMole { class RegionExtension; }
 namespace MoleMole { class ServerGateway; }
 namespace System { class String; }
 
-#define MOLEMOLE_SERVERDISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13AD0860)
+#define MOLEMOLE_SERVERDISPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x146AB730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ServerDispatchData_TypeDefinitionIndex = 47385;
+	inline static constexpr unsigned int ServerDispatchData_TypeDefinitionIndex = 83631;
 
 	class ServerDispatchData : public ::System::Object
 	{
@@ -19,6 +19,7 @@ namespace MoleMole
 		::System::String* cdn_check_url; // 0x18
 		::System::String* region_name; // 0x20
 		::System::Int32 retcode; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::String* title; // 0x30
 		::System::String* msg; // 0x38
 		::System::Object* ext; // 0x40

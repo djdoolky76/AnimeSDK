@@ -3,14 +3,14 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EUnlockMapType_TypeDefinitionIndex = 17556;
+	inline static constexpr unsigned int EUnlockMapType_TypeDefinitionIndex = 16799;
 
 	enum class EUnlockMapType : ::System::Int16
 	{
-		End = 2,
-		Dialog = 4,
 		Begin = 1,
+		Dialog = 4,
 		None = 0,
+		End = 2,
 		Fight = 3,
 	};
 }

@@ -3,16 +3,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_HOTTWISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9B54E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERCONFIGADDITIONALDATA_HOTTWISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF96CA0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int WeatherConfigAdditionalData_HotTwistConfig_TypeDefinitionIndex = 27784;
+	inline static constexpr unsigned int WeatherConfigAdditionalData_HotTwistConfig_TypeDefinitionIndex = 26586;
 
 	class WeatherConfigAdditionalData_HotTwistConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean enableHotTwist; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single hotTwistStrength; // 0x14
 		::System::Single hotTwistNoiseScale; // 0x18
 		::UnityEngine::Vector2 hotTwistSpeed; // 0x1C
@@ -21,6 +22,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single hotTwistDepthDistance; // 0x34
 		::System::Single hotTwistDepthFade; // 0x38
 		::System::Boolean hotTwistHeightMaskDebugView; // 0x3C
+		::System::Byte _padding1[0x3];
 		::System::Single hotTwistHeightMaskStrength; // 0x40
 		::System::Single hotTwistHeightMaskOffset; // 0x44
 		::System::Single hotTwistHeightMaskPower; // 0x48

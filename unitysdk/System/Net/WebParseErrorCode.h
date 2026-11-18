@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebParseErrorCode_TypeDefinitionIndex = 3369;
+	inline static constexpr unsigned int WebParseErrorCode_TypeDefinitionIndex = 3368;
 
 	enum class WebParseErrorCode : ::System::Int32
 	{

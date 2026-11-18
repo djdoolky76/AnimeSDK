@@ -1,21 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/Legacy/ReflectedMethodNode.h"
-#include "unitysdk/FlowCanvas/Nodes/ReflectedMethodRegistrationOptions.h"
 
-namespace FlowCanvas { class FlowNode; }
 namespace ParadoxNotion { template <typename T> class ActionCall_1; }
-namespace System::Reflection { class MethodInfo; }
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int ReflectedActionNode_1_TypeDefinitionIndex = 30111;
+	inline static constexpr unsigned int ReflectedActionNode_1_TypeDefinitionIndex = 30550;
 
-	template <typename T1>
+	template <typename T>
 	class ReflectedActionNode_1 : public ::FlowCanvas::Nodes::Legacy::ReflectedMethodNode
 	{
 	public:
-		::ParadoxNotion::ActionCall_1<T1>* call; // 0x0
-		T1 instance; // 0x0
+		::ParadoxNotion::ActionCall_1<T>* call; // 0x0
+		T instance; // 0x0
 	};
 }

@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_FLOATMODULO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF892D0)
-#define FLOWCANVAS_NODES_FLOATMODULO__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF892E0)
+#define FLOWCANVAS_NODES_FLOATMODULO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F2F8580)
+#define FLOWCANVAS_NODES_FLOATMODULO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F8590)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int FloatModulo_TypeDefinitionIndex = 30226;
+	inline static constexpr unsigned int FloatModulo_TypeDefinitionIndex = 30814;
 
-	class FloatModulo : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Single, ::System::Single, ::System::Single>
+	class FloatModulo
 	{
 	public:
 		::System::Void _ctor()

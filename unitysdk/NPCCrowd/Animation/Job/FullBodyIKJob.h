@@ -9,23 +9,27 @@
 #include "unitysdk/UnityEngine/AvatarIKGoal.h"
 #include "unitysdk/UnityEngine/AvatarIKHint.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Unity/Collections/NativeArray_1.h"
+#include "unitysdk/UnityEngine/Animations/AnimationStream.h"
 
-#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_GETEFFECTORHANDLE_OFFSET UNITYSDK_OFFSET(0x634320)
-#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_GETIKLIMBHANDLE_OFFSET UNITYSDK_OFFSET(0x634340)
-#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_PREPARESOLVEPULL_OFFSET UNITYSDK_OFFSET(0x6344A0)
-#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_PROCESSANIMATION_OFFSET UNITYSDK_OFFSET(0x6345C0)
-#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_PROCESSROOTMOTION_OFFSET UNITYSDK_OFFSET(0x634580)
-#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETBODYEFFECTOR_OFFSET UNITYSDK_OFFSET(0x634420)
-#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETEFFECTOR_OFFSET UNITYSDK_OFFSET(0x634360)
-#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETHINTEFFECTOR_OFFSET UNITYSDK_OFFSET(0x6343A0)
-#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETLOOKATEFFECTOR_OFFSET UNITYSDK_OFFSET(0x6343E0)
-#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETMAXIMUMEXTENSION_OFFSET UNITYSDK_OFFSET(0x634460)
-#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SOLVEPULL_OFFSET UNITYSDK_OFFSET(0x6344F0)
-#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SOLVE_OFFSET UNITYSDK_OFFSET(0x634540)
+namespace System { class Object; }
+
+#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_GETEFFECTORHANDLE_OFFSET UNITYSDK_OFFSET(0x67EBC0)
+#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_GETIKLIMBHANDLE_OFFSET UNITYSDK_OFFSET(0x67EBE0)
+#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_PREPARESOLVEPULL_OFFSET UNITYSDK_OFFSET(0x67ED40)
+#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_PROCESSANIMATION_OFFSET UNITYSDK_OFFSET(0x67EE60)
+#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_PROCESSROOTMOTION_OFFSET UNITYSDK_OFFSET(0x67EE20)
+#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETBODYEFFECTOR_OFFSET UNITYSDK_OFFSET(0x67ECC0)
+#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETEFFECTOR_OFFSET UNITYSDK_OFFSET(0x67EC00)
+#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETHINTEFFECTOR_OFFSET UNITYSDK_OFFSET(0x67EC40)
+#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETLOOKATEFFECTOR_OFFSET UNITYSDK_OFFSET(0x67EC80)
+#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETMAXIMUMEXTENSION_OFFSET UNITYSDK_OFFSET(0x67ED00)
+#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SOLVEPULL_OFFSET UNITYSDK_OFFSET(0x67ED90)
+#define NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SOLVE_OFFSET UNITYSDK_OFFSET(0x67EDE0)
 
 namespace NPCCrowd::Animation::Job
 {
-	inline static constexpr unsigned int FullBodyIKJob_TypeDefinitionIndex = 89928;
+	inline static constexpr unsigned int FullBodyIKJob_TypeDefinitionIndex = 88181;
 
 	struct alignas(4) FullBodyIKJob
 	{
@@ -57,74 +61,54 @@ namespace NPCCrowd::Animation::Job
 			return ((::NPCCrowd::Animation::Job::FullBodyIKJob_IKLimbHandle(*)(::PVOID, ::UnityEngine::AvatarIKGoal))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_GETIKLIMBHANDLE_OFFSET))(this, goal);
 		}
 
-		/*
 		::System::Void SetEffector(::UnityEngine::Animations::AnimationStream stream, ::UnityEngine::AvatarIKGoal goal, ::NPCCrowd::Animation::Job::FullBodyIKJob_EffectorHandle& handle)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationStream, ::UnityEngine::AvatarIKGoal, ::NPCCrowd::Animation::Job::FullBodyIKJob_EffectorHandle&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETEFFECTOR_OFFSET))(this, stream, goal, handle);
 		}
-		*/
 
-		/*
 		::System::Void SetHintEffector(::UnityEngine::Animations::AnimationStream stream, ::UnityEngine::AvatarIKHint goal, ::NPCCrowd::Animation::Job::FullBodyIKJob_HintEffectorHandle& handle)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationStream, ::UnityEngine::AvatarIKHint, ::NPCCrowd::Animation::Job::FullBodyIKJob_HintEffectorHandle&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETHINTEFFECTOR_OFFSET))(this, stream, goal, handle);
 		}
-		*/
 
-		/*
 		::System::Void SetLookAtEffector(::UnityEngine::Animations::AnimationStream stream, ::NPCCrowd::Animation::Job::FullBodyIKJob_LookEffectorHandle& handle)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationStream, ::NPCCrowd::Animation::Job::FullBodyIKJob_LookEffectorHandle&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETLOOKATEFFECTOR_OFFSET))(this, stream, handle);
 		}
-		*/
 
-		/*
 		::System::Void SetBodyEffector(::UnityEngine::Animations::AnimationStream stream, ::NPCCrowd::Animation::Job::FullBodyIKJob_BodyEffectorHandle& handle)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationStream, ::NPCCrowd::Animation::Job::FullBodyIKJob_BodyEffectorHandle&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETBODYEFFECTOR_OFFSET))(this, stream, handle);
 		}
-		*/
 
-		/*
 		::System::Void SetMaximumExtension(::UnityEngine::Animations::AnimationStream stream, ::NPCCrowd::Animation::Job::FullBodyIKJob_IKLimbHandle& handle)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationStream, ::NPCCrowd::Animation::Job::FullBodyIKJob_IKLimbHandle&))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SETMAXIMUMEXTENSION_OFFSET))(this, stream, handle);
 		}
-		*/
 
-		/*
-		::System::Void PrepareSolvePull(::UnityEngine::Animations::AnimationStream stream, ::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::Job::FullBodyIKJob_LimbPart> limbParts)
+		::System::Void PrepareSolvePull(::UnityEngine::Animations::AnimationStream stream, ::Unity::Collections::NativeArray_1<::System::Object*> limbParts)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationStream, ::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::Job::FullBodyIKJob_LimbPart>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_PREPARESOLVEPULL_OFFSET))(this, stream, limbParts);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationStream, ::Unity::Collections::NativeArray_1<::System::Object*>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_PREPARESOLVEPULL_OFFSET))(this, stream, limbParts);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector3 SolvePull(::UnityEngine::Animations::AnimationStream stream)
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SOLVEPULL_OFFSET))(this, stream);
 		}
-		*/
 
-		/*
 		::System::Void Solve(::UnityEngine::Animations::AnimationStream stream)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_SOLVE_OFFSET))(this, stream);
 		}
-		*/
 
-		/*
 		::System::Void ProcessRootMotion(::UnityEngine::Animations::AnimationStream stream)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_PROCESSROOTMOTION_OFFSET))(this, stream);
 		}
-		*/
 
-		/*
 		::System::Void ProcessAnimation(::UnityEngine::Animations::AnimationStream stream)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animations::AnimationStream))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_JOB_FULLBODYIKJOB_PROCESSANIMATION_OFFSET))(this, stream);
 		}
-		*/
 	};
 }

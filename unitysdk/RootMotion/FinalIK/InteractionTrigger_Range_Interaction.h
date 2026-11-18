@@ -5,11 +5,11 @@
 
 namespace RootMotion::FinalIK { class InteractionObject; }
 
-#define ROOTMOTION_FINALIK_INTERACTIONTRIGGER_RANGE_INTERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8B07B0)
+#define ROOTMOTION_FINALIK_INTERACTIONTRIGGER_RANGE_INTERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC4DE10)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int InteractionTrigger_Range_Interaction_TypeDefinitionIndex = 38990;
+	inline static constexpr unsigned int InteractionTrigger_Range_Interaction_TypeDefinitionIndex = 36893;
 
 	class InteractionTrigger_Range_Interaction : public ::System::Object
 	{

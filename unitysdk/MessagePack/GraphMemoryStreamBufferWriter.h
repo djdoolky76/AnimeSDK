@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Memory_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Span_1.h"
+#include "unitysdk/System/Memory_1_0C8BFCC1F832CC26.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 
 namespace System::IO { class MemoryStream; }
 
-#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_ADVANCE_OFFSET UNITYSDK_OFFSET(0x1E22D5D0)
-#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_ENSURECAPCITY_OFFSET UNITYSDK_OFFSET(0x1E22D680)
-#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_FLUSHANDGETARRAY_OFFSET UNITYSDK_OFFSET(0x1E22DA90)
-#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_GETMEMORY_OFFSET UNITYSDK_OFFSET(0x1E22D5E0)
-#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_GETRAWSPAN_OFFSET UNITYSDK_OFFSET(0x1E22D940)
-#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_GETSPAN_OFFSET UNITYSDK_OFFSET(0x1E22D7F0)
-#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_RESET_OFFSET UNITYSDK_OFFSET(0x1E22DA20)
-#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_TRYENLARGE_OFFSET UNITYSDK_OFFSET(0x1E22D930)
-#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22D520)
+#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_ADVANCE_OFFSET UNITYSDK_OFFSET(0x1EBAEDF0)
+#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_ENSURECAPCITY_OFFSET UNITYSDK_OFFSET(0x1EBAEEA0)
+#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_FLUSHANDGETARRAY_OFFSET UNITYSDK_OFFSET(0x1EBAF2B0)
+#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_GETMEMORY_OFFSET UNITYSDK_OFFSET(0x1EBAEE00)
+#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_GETRAWSPAN_OFFSET UNITYSDK_OFFSET(0x1EBAF160)
+#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_GETSPAN_OFFSET UNITYSDK_OFFSET(0x1EBAF010)
+#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_RESET_OFFSET UNITYSDK_OFFSET(0x1EBAF240)
+#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_TRYENLARGE_OFFSET UNITYSDK_OFFSET(0x1EBAF150)
+#define MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBAED40)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int GraphMemoryStreamBufferWriter_TypeDefinitionIndex = 30908;
+	inline static constexpr unsigned int GraphMemoryStreamBufferWriter_TypeDefinitionIndex = 29828;
 
 	class GraphMemoryStreamBufferWriter : public ::System::Object
 	{
@@ -26,8 +26,8 @@ namespace MessagePack
 		// static const ::System::Int32 BUFF_MAX_COUNT = 0x6400000; // 0x0
 		// static const ::System::Int32 default_extend = 0x1000; // 0x0
 		::System::IO::MemoryStream* _memoryStream; // 0x10
-		::System::Int32 Position; // 0x18
-		::System::Int32 _buffExtend; // 0x1C
+		::System::Int32 _buffExtend; // 0x18
+		::System::Int32 Position; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -39,14 +39,14 @@ namespace MessagePack
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_ADVANCE_OFFSET))(this, count);
 		}
 
-		::System::Memory_1<::System::Byte> GetMemory(::System::Int32 sizeHint)
+		::System::Memory_1_0C8BFCC1F832CC26<::System::Byte> GetMemory(::System::Int32 sizeHint)
 		{
-			return ((::System::Memory_1<::System::Byte>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_GETMEMORY_OFFSET))(this, sizeHint);
+			return ((::System::Memory_1_0C8BFCC1F832CC26<::System::Byte>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_GETMEMORY_OFFSET))(this, sizeHint);
 		}
 
-		::System::Span_1<::System::Byte> GetSpan(::System::Int32 sizeHint)
+		::System::Span_1_9011FAD97750D224<::System::Byte> GetSpan(::System::Int32 sizeHint)
 		{
-			return ((::System::Span_1<::System::Byte>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_GETSPAN_OFFSET))(this, sizeHint);
+			return ((::System::Span_1_9011FAD97750D224<::System::Byte>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_GETSPAN_OFFSET))(this, sizeHint);
 		}
 
 		::System::Void EnsureCapcity(::System::Int32 sizeHint)
@@ -59,9 +59,9 @@ namespace MessagePack
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_TRYENLARGE_OFFSET))(this, sizeHint);
 		}
 
-		::System::Span_1<::System::Byte> GetRawSpan()
+		::System::Span_1_9011FAD97750D224<::System::Byte> GetRawSpan()
 		{
-			return ((::System::Span_1<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_GETRAWSPAN_OFFSET))(this);
+			return ((::System::Span_1_9011FAD97750D224<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_GRAPHMEMORYSTREAMBUFFERWRITER_GETRAWSPAN_OFFSET))(this);
 		}
 
 		::System::Void Reset(::System::Int32 bufExtendSize)

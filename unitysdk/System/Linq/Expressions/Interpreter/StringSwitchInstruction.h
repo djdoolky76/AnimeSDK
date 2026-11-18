@@ -7,10 +7,10 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Runtime::CompilerServices { template <typename T> class StrongBox_1; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1E5A0080)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1E5A0040)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1E5A0090)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5A0030)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1E8143B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1E814370)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1E8143C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E814360)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -19,8 +19,8 @@ namespace System::Linq::Expressions::Interpreter
 	class StringSwitchInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _cases; // 0x10
-		::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* _nullCase; // 0x18
+		::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* _nullCase; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _cases; // 0x18
 
 		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* cases, ::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* nullCase)
 		{

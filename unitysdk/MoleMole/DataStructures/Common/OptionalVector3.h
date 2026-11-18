@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/DataStructures/Common/Optional_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_DATASTRUCTURES_COMMON_OPTIONALVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9BDD00)
+#define MOLEMOLE_DATASTRUCTURES_COMMON_OPTIONALVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDBD730)
 
 namespace MoleMole::DataStructures::Common
 {
-	inline static constexpr unsigned int OptionalVector3_TypeDefinitionIndex = 28621;
+	inline static constexpr unsigned int OptionalVector3_TypeDefinitionIndex = 28174;
 
-	class OptionalVector3 : public ::MoleMole::DataStructures::Common::Optional_1<::UnityEngine::Vector3>
+	class OptionalVector3
 	{
 	public:
-		::System::Void _ctor(::UnityEngine::Vector3 a1)
+		::System::Void _ctor(::UnityEngine::Vector3 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_DATASTRUCTURES_COMMON_OPTIONALVECTOR3__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_DATASTRUCTURES_COMMON_OPTIONALVECTOR3__CTOR_OFFSET))(this, EGEGIMGMJHN);
 		}
 	};
 }

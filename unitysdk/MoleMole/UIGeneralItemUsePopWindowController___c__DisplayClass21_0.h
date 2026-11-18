@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_36;
+class OAEFGCLEHHO;
 
-#define MOLEMOLE_UIGENERALITEMUSEPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D9B390)
-#define MOLEMOLE_UIGENERALITEMUSEPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__DOPOWERACTION_B__1_OFFSET UNITYSDK_OFFSET(0x17D9B3A0)
+#define MOLEMOLE_UIGENERALITEMUSEPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17844FD0)
+#define MOLEMOLE_UIGENERALITEMUSEPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__DOPOWERACTION_B__1_OFFSET UNITYSDK_OFFSET(0x17844FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralItemUsePopWindowController___c__DisplayClass21_0_TypeDefinitionIndex = 55116;
+	inline static constexpr unsigned int UIGeneralItemUsePopWindowController___c__DisplayClass21_0_TypeDefinitionIndex = 87285;
 
 	class UIGeneralItemUsePopWindowController___c__DisplayClass21_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALITEMUSEPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _DoPowerAction_b__1(::Class_0_16E4307DCC419505_36* msg)
+		::System::Void _DoPowerAction_b__1(::OAEFGCLEHHO* msg)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_36*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALITEMUSEPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__DOPOWERACTION_B__1_OFFSET))(this, msg);
+			return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALITEMUSEPOPWINDOWCONTROLLER___C__DISPLAYCLASS21_0__DOPOWERACTION_B__1_OFFSET))(this, msg);
 		}
 	};
 }

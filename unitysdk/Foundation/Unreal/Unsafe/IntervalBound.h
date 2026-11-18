@@ -2,22 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/IntervalBoundType.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/Unreal/IntervalBound_1.h"
 
-#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_EXCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1F79FC00)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_INCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1F79FBE0)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F79FD10)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F79FC20)
-#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F79FDF0)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_EXCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1FBA4C00)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_INCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1FBA4BE0)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1FBA4D10)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1FBA4C20)
+#define FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBA4DF0)
 
 namespace Foundation::Unreal::Unsafe
 {
-	inline static constexpr unsigned int IntervalBound_TypeDefinitionIndex = 8834;
+	inline static constexpr unsigned int IntervalBound_TypeDefinitionIndex = 8745;
 
 	struct alignas(4) IntervalBound
 	{
 		static ::Foundation::Unreal::Unsafe::IntervalBound* StaticGet_Open()
 		{
-			return (::Foundation::Unreal::Unsafe::IntervalBound*)Il2CppClass::FromTypeDefinitionIndex(IntervalBound_TypeDefinitionIndex)->GetStaticField(0x3C20);
+			return (::Foundation::Unreal::Unsafe::IntervalBound*)Il2CppClass::FromTypeDefinitionIndex(IntervalBound_TypeDefinitionIndex)->GetStaticField(0x3BE0);
 		}
 		::System::Single _value; // 0x10
 		::Foundation::Unreal::IntervalBoundType _type; // 0x14
@@ -27,15 +28,19 @@ namespace Foundation::Unreal::Unsafe
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND__CCTOR_OFFSET))();
 		}
 
+		/*
 		static ::Foundation::Unreal::Unsafe::IntervalBound Inclusive(::System::Single value)
 		{
 			return ((::Foundation::Unreal::Unsafe::IntervalBound(*)(::System::Single))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_INCLUSIVE_OFFSET))(value);
 		}
+		*/
 
+		/*
 		static ::Foundation::Unreal::Unsafe::IntervalBound Exclusive(::System::Single value)
 		{
 			return ((::Foundation::Unreal::Unsafe::IntervalBound(*)(::System::Single))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_UNSAFE_INTERVALBOUND_EXCLUSIVE_OFFSET))(value);
 		}
+		*/
 
 		/*
 		static ::Foundation::Unreal::IntervalBound_1<::System::Single> op_Implicit(::Foundation::Unreal::Unsafe::IntervalBound bound)

@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 
-#define MOLEMOLE_CONFIG_CONFIGCLEARATMOSPHERENODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1BD54520)
-#define MOLEMOLE_CONFIG_CONFIGCLEARATMOSPHERENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD545E0)
+#define MOLEMOLE_CONFIG_CONFIGCLEARATMOSPHERENODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1909A790)
+#define MOLEMOLE_CONFIG_CONFIGCLEARATMOSPHERENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1909A850)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigClearAtmosphereNode_TypeDefinitionIndex = 42687;
+	inline static constexpr unsigned int ConfigClearAtmosphereNode_TypeDefinitionIndex = 79624;
 
 	class ConfigClearAtmosphereNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
@@ -19,9 +19,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCLEARATMOSPHERENODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCLEARATMOSPHERENODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCLEARATMOSPHERENODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

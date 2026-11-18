@@ -4,9 +4,9 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int GetSetDataStructBaset_2_TypeDefinitionIndex = 81650;
+	inline static constexpr unsigned int GetSetDataStructBaset_2_TypeDefinitionIndex = 50257;
 
-	template <typename TResult, typename TKey>
+	template <typename T1, typename T2>
 	class GetSetDataStructBaset_2 : public ::System::Object
 	{
 	public:

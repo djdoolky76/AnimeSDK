@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FriendMoreOptionContext.h"
 
-class Class_2_D02DABCF41CDA271;
-class Class_2_E23E4CB2769CC93F;
+class GBINEPNHKKO;
+class IDGDIFDMIDP;
 
-#define MOLEMOLE_SOCIALCIRCLEMEMBERFRIENDMOREOPTIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10824C70)
+#define MOLEMOLE_SOCIALCIRCLEMEMBERFRIENDMOREOPTIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15AD7150)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SocialCircleMemberFriendMoreOptionContext_TypeDefinitionIndex = 67714;
+	inline static constexpr unsigned int SocialCircleMemberFriendMoreOptionContext_TypeDefinitionIndex = 74632;
 
 	class SocialCircleMemberFriendMoreOptionContext : public ::MoleMole::FriendMoreOptionContext
 	{
 	public:
-		::Class_2_E23E4CB2769CC93F* CircleData; // 0x48
-		::Class_2_D02DABCF41CDA271* CircleMemberData; // 0x50
+		::GBINEPNHKKO* CircleMemberData; // 0x48
+		::IDGDIFDMIDP* CircleData; // 0x50
 
 		::System::Void _ctor()
 		{

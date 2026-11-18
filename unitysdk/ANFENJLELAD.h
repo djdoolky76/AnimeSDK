@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define ANFENJLELAD_GJDNEMPEBIA_1_OFFSET UNITYSDK_OFFSET(0x1EF007A0)
+#define ANFENJLELAD_GJDNEMPEBIA_2_OFFSET UNITYSDK_OFFSET(0x1EF007C0)
+#define ANFENJLELAD_GJDNEMPEBIA_3_OFFSET UNITYSDK_OFFSET(0x1EF007F0)
+#define ANFENJLELAD_GJDNEMPEBIA_4_OFFSET UNITYSDK_OFFSET(0x1EF00830)
+#define ANFENJLELAD_GJDNEMPEBIA_5_OFFSET UNITYSDK_OFFSET(0x1EF00850)
+#define ANFENJLELAD_GJDNEMPEBIA_OFFSET UNITYSDK_OFFSET(0x1EF00790)
+#define ANFENJLELAD_OOIBCNIEFMO_OFFSET UNITYSDK_OFFSET(0x1EF006C0)
+
+inline static constexpr unsigned int ANFENJLELAD_TypeDefinitionIndex = 8434;
+
+class ANFENJLELAD : public ::System::Object
+{
+public:
+	static ::System::UInt32 OOIBCNIEFMO(::System::UInt64& GONODCOMIAA, ::System::UInt32 EGEGIMGMJHN)
+	{
+		return ((::System::UInt32(*)(::System::UInt64&, ::System::UInt32))((::PBYTE)hIl2Cpp + ANFENJLELAD_OOIBCNIEFMO_OFFSET))(GONODCOMIAA, EGEGIMGMJHN);
+	}
+
+	static ::System::Int32 GJDNEMPEBIA(::System::Int32 DLHCBGBPHDH)
+	{
+		return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + ANFENJLELAD_GJDNEMPEBIA_OFFSET))(DLHCBGBPHDH);
+	}
+
+	static ::System::Int32 GJDNEMPEBIA_1(::System::Int32 DLHCBGBPHDH, ::System::Int32 HCHDNCANONI, ::System::Int32 AGLIJMDLFIL, ::System::Int32 EDEOGDNCDGD)
+	{
+		return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ANFENJLELAD_GJDNEMPEBIA_1_OFFSET))(DLHCBGBPHDH, HCHDNCANONI, AGLIJMDLFIL, EDEOGDNCDGD);
+	}
+
+	static ::System::Int32 GJDNEMPEBIA_2(::System::Int32 DLHCBGBPHDH, ::System::Int32 HCHDNCANONI, ::System::Int32 AGLIJMDLFIL, ::System::Int32 EDEOGDNCDGD, ::System::Int32 NFKJNENPDOL)
+	{
+		return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ANFENJLELAD_GJDNEMPEBIA_2_OFFSET))(DLHCBGBPHDH, HCHDNCANONI, AGLIJMDLFIL, EDEOGDNCDGD, NFKJNENPDOL);
+	}
+
+	static ::System::Int32 GJDNEMPEBIA_3(::System::Int32 DLHCBGBPHDH, ::System::Int32 HCHDNCANONI, ::System::Int32 AGLIJMDLFIL, ::System::Int32 EDEOGDNCDGD, ::System::Int32 NFKJNENPDOL, ::System::Int32 EGFLDLOHGHJ)
+	{
+		return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ANFENJLELAD_GJDNEMPEBIA_3_OFFSET))(DLHCBGBPHDH, HCHDNCANONI, AGLIJMDLFIL, EDEOGDNCDGD, NFKJNENPDOL, EGFLDLOHGHJ);
+	}
+
+	static ::System::Int32 GJDNEMPEBIA_4(::System::Int32 DLHCBGBPHDH, ::System::Int32 HCHDNCANONI, ::System::Int32 AGLIJMDLFIL)
+	{
+		return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ANFENJLELAD_GJDNEMPEBIA_4_OFFSET))(DLHCBGBPHDH, HCHDNCANONI, AGLIJMDLFIL);
+	}
+
+	static ::System::Int32 GJDNEMPEBIA_5(::System::Int32 DLHCBGBPHDH, ::System::Int32 HCHDNCANONI)
+	{
+		return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ANFENJLELAD_GJDNEMPEBIA_5_OFFSET))(DLHCBGBPHDH, HCHDNCANONI);
+	}
+};

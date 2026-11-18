@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Ability/NPCAbilityObstacleFlushProcessor_ExecuteJob.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
+#include "unitysdk/NPCCrowd/Ability/NPCAbilityObstacleFlushProcessor_ExecuteJob.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ABILITY_NPCABILITYOBSTACLEFLUSHPROCESSOR_CLEAN_OFFSET UNITYSDK_OFFSET(0x157A9C50)
-#define NPCCROWD_ABILITY_NPCABILITYOBSTACLEFLUSHPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x157A9950)
-#define NPCCROWD_ABILITY_NPCABILITYOBSTACLEFLUSHPROCESSOR_PREPARE_OFFSET UNITYSDK_OFFSET(0x157A9B20)
-#define NPCCROWD_ABILITY_NPCABILITYOBSTACLEFLUSHPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x157A9C90)
+#define NPCCROWD_ABILITY_NPCABILITYOBSTACLEFLUSHPROCESSOR_CLEAN_OFFSET UNITYSDK_OFFSET(0x10DB38A0)
+#define NPCCROWD_ABILITY_NPCABILITYOBSTACLEFLUSHPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x10DB3590)
+#define NPCCROWD_ABILITY_NPCABILITYOBSTACLEFLUSHPROCESSOR_PREPARE_OFFSET UNITYSDK_OFFSET(0x10DB3770)
+#define NPCCROWD_ABILITY_NPCABILITYOBSTACLEFLUSHPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x10DB38E0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityObstacleFlushProcessor_TypeDefinitionIndex = 57223;
+	inline static constexpr unsigned int NPCAbilityObstacleFlushProcessor_TypeDefinitionIndex = 74723;
 
 	class NPCAbilityObstacleFlushProcessor : public ::System::Object
 	{

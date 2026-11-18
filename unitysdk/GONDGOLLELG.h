@@ -1,0 +1,92 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class FBAMLABJMKF;
+class NAAFMIMIPCF;
+
+#define GONDGOLLELG_ANKIHAHKNCK_OFFSET UNITYSDK_OFFSET(0x15F403B0)
+#define GONDGOLLELG_COKNIICCODC_OFFSET UNITYSDK_OFFSET(0x15F40320)
+#define GONDGOLLELG_ELPFAFFJNKI_OFFSET UNITYSDK_OFFSET(0x15F402E0)
+#define GONDGOLLELG_FHGEOMEMDGF_OFFSET UNITYSDK_OFFSET(0x15F40310)
+#define GONDGOLLELG_IFFKJGOMEEB_OFFSET UNITYSDK_OFFSET(0x15F402B0)
+#define GONDGOLLELG_JFKDLFBOAKO_OFFSET UNITYSDK_OFFSET(0x15F402C0)
+#define GONDGOLLELG_JMBJOLLDAFL_OFFSET UNITYSDK_OFFSET(0x15F402F0)
+#define GONDGOLLELG_MCAEFJKLPLH_OFFSET UNITYSDK_OFFSET(0x15F402D0)
+#define GONDGOLLELG_MIGIDIFMKIO_OFFSET UNITYSDK_OFFSET(0x15F403A0)
+#define GONDGOLLELG_OAODOABBAKO_OFFSET UNITYSDK_OFFSET(0x15F40390)
+#define GONDGOLLELG_OCBADALNCDC_OFFSET UNITYSDK_OFFSET(0x15F403C0)
+#define GONDGOLLELG__CTOR_OFFSET UNITYSDK_OFFSET(0x15F40300)
+
+inline static constexpr unsigned int GONDGOLLELG_TypeDefinitionIndex = 68023;
+
+class GONDGOLLELG : public ::System::Object
+{
+public:
+	::FBAMLABJMKF* _CGIFIJIMNEB_k__BackingField; // 0x10
+	::NAAFMIMIPCF* _EMFNGPCECMO_k__BackingField; // 0x18
+	::System::Boolean _GOPEGLCEOLL_k__BackingField; // 0x20
+	::System::Byte _padding0[0x3];
+	::System::Single _NKALEKCIFNH_k__BackingField; // 0x24
+	::System::Single _MJJOBCPINND_k__BackingField; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GONDGOLLELG__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean IFFKJGOMEEB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GONDGOLLELG_IFFKJGOMEEB_OFFSET))(this);
+	}
+
+	::System::Single JFKDLFBOAKO()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + GONDGOLLELG_JFKDLFBOAKO_OFFSET))(this);
+	}
+
+	::System::Single MCAEFJKLPLH()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + GONDGOLLELG_MCAEFJKLPLH_OFFSET))(this);
+	}
+
+	::NAAFMIMIPCF* ELPFAFFJNKI()
+	{
+		return ((::NAAFMIMIPCF*(*)(::PVOID))((::PBYTE)hIl2Cpp + GONDGOLLELG_ELPFAFFJNKI_OFFSET))(this);
+	}
+
+	::FBAMLABJMKF* JMBJOLLDAFL()
+	{
+		return ((::FBAMLABJMKF*(*)(::PVOID))((::PBYTE)hIl2Cpp + GONDGOLLELG_JMBJOLLDAFL_OFFSET))(this);
+	}
+
+	::System::Void FHGEOMEMDGF(::FBAMLABJMKF* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FBAMLABJMKF*))((::PBYTE)hIl2Cpp + GONDGOLLELG_FHGEOMEMDGF_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	static ::GONDGOLLELG* COKNIICCODC()
+	{
+		return ((::GONDGOLLELG*(*)())((::PBYTE)hIl2Cpp + GONDGOLLELG_COKNIICCODC_OFFSET))();
+	}
+
+	::System::Void OAODOABBAKO(::System::Single EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + GONDGOLLELG_OAODOABBAKO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void MIGIDIFMKIO(::NAAFMIMIPCF* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::NAAFMIMIPCF*))((::PBYTE)hIl2Cpp + GONDGOLLELG_MIGIDIFMKIO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void ANKIHAHKNCK(::System::Boolean EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + GONDGOLLELG_ANKIHAHKNCK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void OCBADALNCDC(::System::Single EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + GONDGOLLELG_OCBADALNCDC_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

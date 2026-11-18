@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTNINGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C5EC360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTNINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5EC530)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTNINGCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CA7F6F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LIGHTNINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7F8C0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int LightningConfig_TypeDefinitionIndex = 27352;
+	inline static constexpr unsigned int LightningConfig_TypeDefinitionIndex = 26527;
 
-	class LightningConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::LightningConfig*>
+	class LightningConfig
 	{
 	public:
 		::System::Boolean useAnimation; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single animationLifeTime; // 0x1C
 		::UnityEngine::AnimationCurve* mainLightIntensityCurve; // 0x20
 

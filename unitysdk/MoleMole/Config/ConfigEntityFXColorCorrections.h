@@ -7,11 +7,11 @@ namespace MoleMole::Config { class ConfigEntityFXColorCorrection; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYFXCOLORCORRECTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4AF0C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFXCOLORCORRECTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x16537C30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityFXColorCorrections_TypeDefinitionIndex = 78239;
+	inline static constexpr unsigned int ConfigEntityFXColorCorrections_TypeDefinitionIndex = 87001;
 
 	class ConfigEntityFXColorCorrections : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -23,6 +23,7 @@ namespace MoleMole::Config
 		::System::Single DefaultGamma; // 0x68
 		::System::Boolean DefaultLutInvert; // 0x6C
 		::System::Boolean DefaultLutToneColors; // 0x6D
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Color DefaultLutToneA; // 0x70
 		::UnityEngine::Color DefaultLutToneB; // 0x80
 		::System::Single DefaultLutMiddlePoint; // 0x90
@@ -30,11 +31,13 @@ namespace MoleMole::Config
 		::System::Single DefaultDesaturate; // 0x98
 		::System::Boolean DefaultInvert; // 0x9C
 		::System::Boolean DefaultToneColors; // 0x9D
+		::System::Byte _padding1[0x2];
 		::UnityEngine::Color DefaultToneA; // 0xA0
 		::UnityEngine::Color DefaultToneB; // 0xB0
 		::System::Single DefaultMiddlePoint; // 0xC0
 		::System::Single DefaultSoftness; // 0xC4
 		::System::Boolean DefaultFxFogMaskPassOn; // 0xC8
+		::System::Byte _padding2[0x3];
 		::System::Single DefaultFxColorSaturation; // 0xCC
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityFXColorCorrection*>* Effects; // 0xD0
 

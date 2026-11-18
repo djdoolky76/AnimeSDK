@@ -3,7 +3,7 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ErrorHandlingPolicy_TypeDefinitionIndex = 6544;
+	inline static constexpr unsigned int ErrorHandlingPolicy_TypeDefinitionIndex = 6550;
 
 	enum class ErrorHandlingPolicy : ::System::Int32
 	{

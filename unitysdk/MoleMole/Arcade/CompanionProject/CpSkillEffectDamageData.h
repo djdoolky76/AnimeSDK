@@ -1,23 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_170BA2BD424DB71A.h"
-#include "unitysdk/Enum_3_A966D4F4961B4B3C.h"
+#include "unitysdk/IAMFDNPIIKD.h"
+#include "unitysdk/JKJKJDDKFIE.h"
 #include "unitysdk/MoleMole/Arcade/CompanionProject/CpSkillEffectData.h"
 
 namespace MoleMole::Arcade::CompanionProject { class CpAoeAreaParam; }
 
-#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CPSKILLEFFECTDAMAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED30FD0)
+#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CPSKILLEFFECTDAMAGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E749CE0)
 
 namespace MoleMole::Arcade::CompanionProject
 {
-	inline static constexpr unsigned int CpSkillEffectDamageData_TypeDefinitionIndex = 92811;
+	inline static constexpr unsigned int CpSkillEffectDamageData_TypeDefinitionIndex = 94854;
 
 	class CpSkillEffectDamageData : public ::MoleMole::Arcade::CompanionProject::CpSkillEffectData
 	{
 	public:
-		::Enum_3_170BA2BD424DB71A selectTargetType; // 0x28
+		::IAMFDNPIIKD selectTargetType; // 0x28
+		::System::Byte _padding0[0x4];
 		::MoleMole::Arcade::CompanionProject::CpAoeAreaParam* aoeAreaParam; // 0x30
-		::Enum_3_A966D4F4961B4B3C cpDamageInternal; // 0x38
+		::JKJKJDDKFIE cpDamageInternal; // 0x38
 
 		::System::Void _ctor()
 		{

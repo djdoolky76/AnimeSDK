@@ -3,13 +3,13 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIButtonEx_ButtonState_TypeDefinitionIndex = 85042;
+	inline static constexpr unsigned int UIButtonEx_ButtonState_TypeDefinitionIndex = 48607;
 
 	enum class UIButtonEx_ButtonState : ::System::Int32
 	{
-		Disabled = 3,
-		Normal = 0,
 		Highlighted = 2,
 		Pressed = 1,
+		Disabled = 3,
+		Normal = 0,
 	};
 }

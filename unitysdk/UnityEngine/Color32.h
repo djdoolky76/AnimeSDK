@@ -1,17 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Color.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_COLOR32_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1EDD8A30)
-#define UNITYENGINE_COLOR32_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1EDD8670)
-#define UNITYENGINE_COLOR32_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA7F6B0)
-#define UNITYENGINE_COLOR32__CTOR_OFFSET UNITYSDK_OFFSET(0x881B70)
+#define UNITYENGINE_COLOR32_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F0CE0C0)
+#define UNITYENGINE_COLOR32_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F0CDD00)
+#define UNITYENGINE_COLOR32_TOSTRING_OFFSET UNITYSDK_OFFSET(0x95C9C0)
+#define UNITYENGINE_COLOR32__CTOR_OFFSET UNITYSDK_OFFSET(0x81D0A0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Color32_TypeDefinitionIndex = 5292;
+	inline static constexpr unsigned int Color32_TypeDefinitionIndex = 5294;
 
 	struct alignas(4) Color32
 	{

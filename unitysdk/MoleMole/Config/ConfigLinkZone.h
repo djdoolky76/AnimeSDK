@@ -10,16 +10,17 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGLINKZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x177DF1B0)
+#define MOLEMOLE_CONFIG_CONFIGLINKZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A765C00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLinkZone_TypeDefinitionIndex = 81048;
+	inline static constexpr unsigned int ConfigLinkZone_TypeDefinitionIndex = 86943;
 
 	class ConfigLinkZone : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		::System::Boolean AllowLinkZoneAvatarUltPerformZone; // 0x58
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::System::String*>* AllowLinkZoneAvatarUltPerformZoneTag; // 0x60
 		::System::Collections::Generic::List_1<::System::Int32>* QTERelayAttackSwitchInIndexList; // 0x68
 		::System::Collections::Generic::List_1<::System::Int32>* ExQTERelayAttackSwitchInIndexList; // 0x70
@@ -30,6 +31,7 @@ namespace MoleMole::Config
 		::System::String* RelayAttackQTEHintKey; // 0xB0
 		::System::String* LinkZoneUltQTEHintKey; // 0xB8
 		::System::Single LinkZoneSkillButtonLongPressThresholdTime; // 0xC0
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::LinkZoneTeamExQTEAvatarUIShowInfo*>* LinkZoneTeamExQTEAvatarInfoDict; // 0xC8
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::LinkZoneTeamExQTEAvatarUIShowInfo*>* LinkZoneTeamExQTESkinInfoDict; // 0xD0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* EnergyOperateTypeTextMapDict; // 0xD8

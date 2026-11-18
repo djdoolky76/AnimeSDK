@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_63CAB6C405C6C7B1_1.h"
+#include "unitysdk/DNJEIKIFEOB.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYRETURNCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x196F3780)
+#define MOLEMOLE_UIACTIVITYRETURNCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F96B00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityReturnContext_TypeDefinitionIndex = 69995;
+	inline static constexpr unsigned int UIActivityReturnContext_TypeDefinitionIndex = 81558;
 
 	class UIActivityReturnContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_63CAB6C405C6C7B1_1 selectType; // 0x28
+		::DNJEIKIFEOB selectType; // 0x28
 
 		::System::Void _ctor()
 		{

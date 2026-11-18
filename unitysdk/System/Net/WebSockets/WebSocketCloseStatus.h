@@ -3,7 +3,7 @@
 
 namespace System::Net::WebSockets
 {
-	inline static constexpr unsigned int WebSocketCloseStatus_TypeDefinitionIndex = 3899;
+	inline static constexpr unsigned int WebSocketCloseStatus_TypeDefinitionIndex = 3898;
 
 	enum class WebSocketCloseStatus : ::System::Int32
 	{

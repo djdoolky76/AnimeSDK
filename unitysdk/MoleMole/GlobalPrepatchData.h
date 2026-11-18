@@ -6,13 +6,13 @@ namespace Foundation { class VersionFileInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GLOBALPREPATCHDATA_GET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x16858000)
-#define MOLEMOLE_GLOBALPREPATCHDATA_SET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x16858010)
-#define MOLEMOLE_GLOBALPREPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16858020)
+#define MOLEMOLE_GLOBALPREPATCHDATA_GET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x10D23030)
+#define MOLEMOLE_GLOBALPREPATCHDATA_SET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x10D23040)
+#define MOLEMOLE_GLOBALPREPATCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10D23050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GlobalPrepatchData_TypeDefinitionIndex = 65674;
+	inline static constexpr unsigned int GlobalPrepatchData_TypeDefinitionIndex = 56952;
 
 	class GlobalPrepatchData : public ::System::Object
 	{
@@ -32,9 +32,9 @@ namespace MoleMole
 			return ((::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GLOBALPREPATCHDATA_GET_VERSIONS_LIST_OFFSET))(this);
 		}
 
-		::System::Void set_versions_list(::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>* a1)
+		::System::Void set_versions_list(::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_GLOBALPREPATCHDATA_SET_VERSIONS_LIST_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_GLOBALPREPATCHDATA_SET_VERSIONS_LIST_OFFSET))(this, EGEGIMGMJHN);
 		}
 	};
 }

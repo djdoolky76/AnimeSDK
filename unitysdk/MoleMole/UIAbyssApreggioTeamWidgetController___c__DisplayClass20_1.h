@@ -2,19 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_E081FCEC8F87505A;
+class ALDOKCCIFNB;
 
-#define MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__DISPLAYCLASS20_1__CTOR_OFFSET UNITYSDK_OFFSET(0x189282F0)
-#define MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__DISPLAYCLASS20_1__GOTOBEGINBATTLE_B__4_OFFSET UNITYSDK_OFFSET(0x189284D0)
+#define MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__DISPLAYCLASS20_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17E83DB0)
+#define MOLEMOLE_UIABYSSAPREGGIOTEAMWIDGETCONTROLLER___C__DISPLAYCLASS20_1__GOTOBEGINBATTLE_B__4_OFFSET UNITYSDK_OFFSET(0x17E83F90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssApreggioTeamWidgetController___c__DisplayClass20_1_TypeDefinitionIndex = 78905;
+	inline static constexpr unsigned int UIAbyssApreggioTeamWidgetController___c__DisplayClass20_1_TypeDefinitionIndex = 86948;
 
+	template <typename T>
 	class UIAbyssApreggioTeamWidgetController___c__DisplayClass20_1 : public ::System::Object
 	{
 	public:
-		::Class_1_E081FCEC8F87505A* data; // 0x10
+		::ALDOKCCIFNB* data; // 0x10
 
 		::System::Void _ctor()
 		{

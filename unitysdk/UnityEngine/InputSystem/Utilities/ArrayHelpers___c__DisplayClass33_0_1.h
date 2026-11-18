@@ -4,12 +4,12 @@
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int ArrayHelpers___c__DisplayClass33_0_1_TypeDefinitionIndex = 32656;
+	inline static constexpr unsigned int ArrayHelpers___c__DisplayClass33_0_1_TypeDefinitionIndex = 32105;
 
-	template <typename TValue>
+	template <typename T>
 	class ArrayHelpers___c__DisplayClass33_0_1 : public ::System::Object
 	{
 	public:
-		TValue secondValue; // 0x0
+		T secondValue; // 0x0
 	};
 }

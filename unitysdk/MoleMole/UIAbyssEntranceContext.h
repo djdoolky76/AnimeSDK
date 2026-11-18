@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIABYSSENTRANCECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x180B0120)
+#define MOLEMOLE_UIABYSSENTRANCECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x198E7130)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssEntranceContext_TypeDefinitionIndex = 84465;
+	inline static constexpr unsigned int UIAbyssEntranceContext_TypeDefinitionIndex = 54902;
 
 	class UIAbyssEntranceContext : public ::MoleMole::UIControllerContextBase
 	{

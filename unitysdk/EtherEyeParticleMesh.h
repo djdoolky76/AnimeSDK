@@ -3,11 +3,10 @@
 #include "unitysdk/Foundation/AssetRequestHandle.h"
 #include "unitysdk/MoleMole/Config/EtherEyesObjectSize.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/ParticleSystem_MinMaxCurve.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace MoleMole::Config { class EtherEyesInteractableVariationConfig; }
-namespace System { class String; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -15,15 +14,15 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Renderer; }
 
-#define ETHEREYEPARTICLEMESH_DEALMESHTRANSMIT_OFFSET UNITYSDK_OFFSET(0x14D377F0)
-#define ETHEREYEPARTICLEMESH_DEALSIZESETTINGSANDMESHTRANSMIT_OFFSET UNITYSDK_OFFSET(0x14D374D0)
-#define ETHEREYEPARTICLEMESH_DOCOLLECTPROPERPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0x14D36120)
-#define ETHEREYEPARTICLEMESH_FETCHCONFIG_OFFSET UNITYSDK_OFFSET(0x14D365B0)
-#define ETHEREYEPARTICLEMESH_ONENTITYDISABLE_OFFSET UNITYSDK_OFFSET(0x14D37920)
-#define ETHEREYEPARTICLEMESH_UPDATEPARTICLEMESHSOURCE_OFFSET UNITYSDK_OFFSET(0x14D36760)
-#define ETHEREYEPARTICLEMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x14D37DC0)
+#define ETHEREYEPARTICLEMESH_DEALMESHTRANSMIT_OFFSET UNITYSDK_OFFSET(0x1355EF70)
+#define ETHEREYEPARTICLEMESH_DEALSIZESETTINGSANDMESHTRANSMIT_OFFSET UNITYSDK_OFFSET(0x1355EC50)
+#define ETHEREYEPARTICLEMESH_DOCOLLECTPROPERPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0x1355D8E0)
+#define ETHEREYEPARTICLEMESH_FETCHCONFIG_OFFSET UNITYSDK_OFFSET(0x1355DD70)
+#define ETHEREYEPARTICLEMESH_ONENTITYDISABLE_OFFSET UNITYSDK_OFFSET(0x1355F0A0)
+#define ETHEREYEPARTICLEMESH_UPDATEPARTICLEMESHSOURCE_OFFSET UNITYSDK_OFFSET(0x1355DEE0)
+#define ETHEREYEPARTICLEMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1355F540)
 
-inline static constexpr unsigned int EtherEyeParticleMesh_TypeDefinitionIndex = 62117;
+inline static constexpr unsigned int EtherEyeParticleMesh_TypeDefinitionIndex = 61022;
 
 class EtherEyeParticleMesh : public ::UnityEngine::MonoBehaviour
 {
@@ -31,10 +30,11 @@ public:
 	// static const ::System::String* configPath; // 0x0
 	::UnityEngine::GameObject* testGO; // 0x18
 	::MoleMole::Config::EtherEyesObjectSize testObjectSize; // 0x20
+	::System::Byte _padding0[0x4];
 	::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* collectedParticleSystems; // 0x28
 	::UnityEngine::Mesh* sourceMesh; // 0x30
 	::System::Collections::Generic::Dictionary_2<::MoleMole::Config::EtherEyesObjectSize, ::MoleMole::Config::EtherEyesInteractableVariationConfig*>* particleConfigDict; // 0x38
-	::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem_MinMaxCurve>* originalSize; // 0x40
+	::System::Collections::Generic::List_1<::System::Object*>* originalSize; // 0x40
 	::System::Collections::Generic::List_1<::System::Single>* originalRate; // 0x48
 	::UnityEngine::Mesh* savedMesh; // 0x50
 	::Foundation::AssetRequestHandle RequestHandle; // 0x58

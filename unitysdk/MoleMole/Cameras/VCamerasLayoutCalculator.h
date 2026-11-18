@@ -6,13 +6,13 @@
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace MoleMole::Cameras { class VCamerasBaseLayout; }
 
-#define MOLEMOLE_CAMERAS_VCAMERASLAYOUTCALCULATOR_SETTLELAYOUT_1_OFFSET UNITYSDK_OFFSET(0x12EE3010)
-#define MOLEMOLE_CAMERAS_VCAMERASLAYOUTCALCULATOR_SETTLELAYOUT_OFFSET UNITYSDK_OFFSET(0x12EE2F70)
-#define MOLEMOLE_CAMERAS_VCAMERASLAYOUTCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x12EE3100)
+#define MOLEMOLE_CAMERAS_VCAMERASLAYOUTCALCULATOR_SETTLELAYOUT_1_OFFSET UNITYSDK_OFFSET(0x12758F40)
+#define MOLEMOLE_CAMERAS_VCAMERASLAYOUTCALCULATOR_SETTLELAYOUT_OFFSET UNITYSDK_OFFSET(0x12758EA0)
+#define MOLEMOLE_CAMERAS_VCAMERASLAYOUTCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x12759030)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int VCamerasLayoutCalculator_TypeDefinitionIndex = 54875;
+	inline static constexpr unsigned int VCamerasLayoutCalculator_TypeDefinitionIndex = 65009;
 
 	class VCamerasLayoutCalculator : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{

@@ -2,16 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SHOWWIDGETLISTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E828640)
+namespace MoleMole { class MonoGamepadCustomList; }
 
-inline static constexpr unsigned int ShowWidgetListData_TypeDefinitionIndex = 54573;
+#define SHOWWIDGETLISTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x119ADBB0)
+
+inline static constexpr unsigned int ShowWidgetListData_TypeDefinitionIndex = 53636;
 
 class ShowWidgetListData : public ::System::Object
 {
 public:
-	::System::Int32 ScrollToIndex; // 0x10
-	::System::Int32 MinCount; // 0x14
-	::System::Int32 SelectIndex; // 0x18
+	::MoleMole::MonoGamepadCustomList* GamepadList; // 0x10
+	::System::Int32 MinCount; // 0x18
+	::System::Int32 ScrollToIndex; // 0x1C
+	::System::Int32 SelectIndex; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONONPCLOOKIKPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x18081AC0)
+#define MOLEMOLE_MONONPCLOOKIKPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x12B72A90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoNpcLookIKParameter_TypeDefinitionIndex = 60577;
+	inline static constexpr unsigned int MonoNpcLookIKParameter_TypeDefinitionIndex = 92540;
 
 	class MonoNpcLookIKParameter : public ::UnityEngine::MonoBehaviour
 	{

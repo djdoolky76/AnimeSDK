@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_C4B3DE2B51336325;
+class CACLMPKMPHM;
 namespace MoleMole { class ConfigUIUrbanMap; }
 
-#define MOLEMOLE_UIURBANMAPHUDSINGLEIMAGEWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16786E20)
+#define MOLEMOLE_UIURBANMAPHUDSINGLEIMAGEWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x164CF170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapHUDSingleImageWidgetController_Context_TypeDefinitionIndex = 79862;
+	inline static constexpr unsigned int UIUrbanMapHUDSingleImageWidgetController_Context_TypeDefinitionIndex = 76250;
 
 	class UIUrbanMapHUDSingleImageWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_C4B3DE2B51336325* MapRadarStateItemData; // 0x28
+		::CACLMPKMPHM* MapRadarStateItemData; // 0x28
 		::MoleMole::ConfigUIUrbanMap* So; // 0x30
 		::System::Int32 MapAreaId; // 0x38
 

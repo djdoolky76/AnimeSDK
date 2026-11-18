@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define MOLEMOLE_CONFIG_CONFIGUIBASEFUNCTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C54910)
+#define MOLEMOLE_CONFIG_CONFIGUIBASEFUNCTIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A03F000)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIBaseFunctionNode_TypeDefinitionIndex = 75703;
+	inline static constexpr unsigned int ConfigUIBaseFunctionNode_TypeDefinitionIndex = 66766;
 
 	class ConfigUIBaseFunctionNode : public ::System::Object
 	{

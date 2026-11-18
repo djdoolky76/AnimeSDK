@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSDK_ErrorCode_TypeDefinitionIndex = 37594;
+	inline static constexpr unsigned int HoYoChannelSDK_ErrorCode_TypeDefinitionIndex = 35573;
 
 	enum class HoYoChannelSDK_ErrorCode : ::System::Int32
 	{
@@ -16,5 +16,6 @@ namespace MiHoYo::SDK
 		UPDATE_REQUIRED = -1004,
 		USER_NOT_SIGNED_IN = -2001,
 		USER_ACTION_REQUIRED = -2002,
+		PURCHASE_PROCESSING = 4005,
 	};
 }

@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardEventNode_1.h"
-#include "unitysdk/MoleMole/Vector2Int.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTRANSLATIONEVENT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x144B6EF0)
-#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTRANSLATIONEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x144B6F50)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTRANSLATIONEVENT_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x103FF850)
+#define MOLEMOLE_FLOWCANVAS_CHESSBOARDTRANSLATIONEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x103FF8B0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int ChessboardTranslationEvent_TypeDefinitionIndex = 45902;
+	inline static constexpr unsigned int ChessboardTranslationEvent_TypeDefinitionIndex = 86666;
 
-	class ChessboardTranslationEvent : public ::MoleMole::FlowCanvas::ChessboardEventNode_1<::MoleMole::Vector2Int>
+	class ChessboardTranslationEvent
 	{
 	public:
 		::System::Void _ctor()

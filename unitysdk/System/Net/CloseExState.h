@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CloseExState_TypeDefinitionIndex = 3375;
+	inline static constexpr unsigned int CloseExState_TypeDefinitionIndex = 3374;
 
 	enum class CloseExState : ::System::Int32
 	{

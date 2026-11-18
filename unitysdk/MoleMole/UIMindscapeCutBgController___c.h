@@ -5,24 +5,24 @@
 namespace MoleMole { class UIMindscapeLevelRowWidgetController; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIMINDSCAPECUTBGCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1866C160)
-#define MOLEMOLE_UIMINDSCAPECUTBGCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1866C1A0)
-#define MOLEMOLE_UIMINDSCAPECUTBGCONTROLLER___C__INITVIEW_B__29_0_OFFSET UNITYSDK_OFFSET(0x1866C1B0)
+#define MOLEMOLE_UIMINDSCAPECUTBGCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x147D39F0)
+#define MOLEMOLE_UIMINDSCAPECUTBGCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x147D3A30)
+#define MOLEMOLE_UIMINDSCAPECUTBGCONTROLLER___C__INITVIEW_B__29_0_OFFSET UNITYSDK_OFFSET(0x147D3A40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMindscapeCutBgController___c_TypeDefinitionIndex = 59871;
+	inline static constexpr unsigned int UIMindscapeCutBgController___c_TypeDefinitionIndex = 72896;
 
 	class UIMindscapeCutBgController___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::MoleMole::UIMindscapeLevelRowWidgetController*>** StaticGet___9__29_0()
 		{
-			return (::System::Comparison_1<::MoleMole::UIMindscapeLevelRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeCutBgController___c_TypeDefinitionIndex)->GetStaticField(0x472B0);
+			return (::System::Comparison_1<::MoleMole::UIMindscapeLevelRowWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeCutBgController___c_TypeDefinitionIndex)->GetStaticField(0x4C4D0);
 		}
-		static ::MoleMole::UIMindscapeCutBgController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIMindscapeCutBgController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeCutBgController___c_TypeDefinitionIndex)->GetStaticField(0x472B8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIMindscapeCutBgController___c_TypeDefinitionIndex)->GetStaticField(0x4C4D8);
 		}
 
 		static ::System::Void _cctor()

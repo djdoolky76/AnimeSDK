@@ -8,10 +8,10 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace PipelineCamera::SubModule
 {
-	inline static constexpr unsigned int CameraSequenceCollectionPlayerConfig_1_TypeDefinitionIndex = 38688;
+	inline static constexpr unsigned int CameraSequenceCollectionPlayerConfig_1_TypeDefinitionIndex = 36688;
 
 	template <typename T>
-	struct CameraSequenceCollectionPlayerConfig_1
+	struct alignas(8) CameraSequenceCollectionPlayerConfig_1
 	{
 		::System::Int32 _ActiveChannel_k__BackingField; // 0x0
 		::System::Int32 _Priority_k__BackingField; // 0x0

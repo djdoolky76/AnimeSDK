@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIBangkovBagPageController_LocalBangkovItemInfo.h"
+#include "unitysdk/System/Object.h"
+
+class DONGCBIGJJL;
+class FAKLNMJEGOJ;
+class FMHDMLBDIJC;
+class IFOHGNLIAKH;
+
+#define DONGCBIGJJL_BGAGKEHHFFP_COCDDLCHIMH_OFFSET UNITYSDK_OFFSET(0x1060FF10)
+#define DONGCBIGJJL_BGAGKEHHFFP_EDNBEMIANDC_OFFSET UNITYSDK_OFFSET(0x1060FE10)
+#define DONGCBIGJJL_BGAGKEHHFFP_FJBJJHHPLCB_OFFSET UNITYSDK_OFFSET(0x1060F6D0)
+#define DONGCBIGJJL_BGAGKEHHFFP_JIEFOBDLGBE_OFFSET UNITYSDK_OFFSET(0x1060F670)
+#define DONGCBIGJJL_BGAGKEHHFFP_PCGOEGNBKLO_OFFSET UNITYSDK_OFFSET(0x1060FC60)
+#define DONGCBIGJJL_BGAGKEHHFFP__CTOR_OFFSET UNITYSDK_OFFSET(0x1060F660)
+
+inline static constexpr unsigned int DONGCBIGJJL_BGAGKEHHFFP_TypeDefinitionIndex = 70496;
+
+class DONGCBIGJJL_BGAGKEHHFFP : public ::System::Object
+{
+public:
+	::FAKLNMJEGOJ* BGFIDJKBBFO; // 0x10
+	::DONGCBIGJJL* KLHPEBKNIFB; // 0x18
+	::FMHDMLBDIJC* COHFFGAPOLF; // 0x20
+	::MoleMole::UIBangkovBagPageController_LocalBangkovItemInfo NOGPCDJLEEL; // 0x28
+	::System::Int32 KCNOHOOPNAH; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DONGCBIGJJL_BGAGKEHHFFP__CTOR_OFFSET))(this);
+	}
+
+	::System::Object* JIEFOBDLGBE()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + DONGCBIGJJL_BGAGKEHHFFP_JIEFOBDLGBE_OFFSET))(this);
+	}
+
+	::System::Void FJBJJHHPLCB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DONGCBIGJJL_BGAGKEHHFFP_FJBJJHHPLCB_OFFSET))(this);
+	}
+
+	::System::Boolean PCGOEGNBKLO()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + DONGCBIGJJL_BGAGKEHHFFP_PCGOEGNBKLO_OFFSET))(this);
+	}
+
+	::System::Single EDNBEMIANDC()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + DONGCBIGJJL_BGAGKEHHFFP_EDNBEMIANDC_OFFSET))(this);
+	}
+
+	::System::Void COCDDLCHIMH(::IFOHGNLIAKH* JOLDOMEIKEF)
+	{
+		return ((::System::Void(*)(::PVOID, ::IFOHGNLIAKH*))((::PBYTE)hIl2Cpp + DONGCBIGJJL_BGAGKEHHFFP_COCDDLCHIMH_OFFSET))(this, JOLDOMEIKEF);
+	}
+};

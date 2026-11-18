@@ -6,7 +6,7 @@ class MonoGameObjectReference;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerTimeLinePageController___c__DisplayClass21_0_TypeDefinitionIndex = 62489;
+	inline static constexpr unsigned int UIFlowerTimeLinePageController___c__DisplayClass21_0_TypeDefinitionIndex = 72806;
 
 	struct alignas(8) UIFlowerTimeLinePageController___c__DisplayClass21_0
 	{

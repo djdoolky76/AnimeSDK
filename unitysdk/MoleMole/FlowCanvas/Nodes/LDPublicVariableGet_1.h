@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 
-class Class_3_5F8DAA47ACDB7251;
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDPublicVariableGet_1_TypeDefinitionIndex = 84635;
+	inline static constexpr unsigned int LDPublicVariableGet_1_TypeDefinitionIndex = 40796;
 
 	template <typename T>
 	class LDPublicVariableGet_1 : public ::FlowCanvas::Nodes::FlowControlNode

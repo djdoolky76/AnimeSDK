@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SQLITE_IGNOREATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FB1B0)
+#define SQLITE_IGNOREATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECEFE40)
 
 namespace SQLite
 {
-	inline static constexpr unsigned int IgnoreAttribute_TypeDefinitionIndex = 39045;
+	inline static constexpr unsigned int IgnoreAttribute_TypeDefinitionIndex = 37045;
 
 	class IgnoreAttribute : public ::System::Attribute
 	{

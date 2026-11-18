@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
+#include "unitysdk/UnityEngine/RaycastHit.h"
+#include "unitysdk/ZenFulcrum/EmbeddedBrowser/PointerUIBase.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Ray.h"
-#include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-#include "unitysdk/ZenFulcrum/EmbeddedBrowser/PointerUIBase.h"
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class MeshCollider; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FABDBE0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_GETCURRENTHITLOCATION_OFFSET UNITYSDK_OFFSET(0x1FABE240)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_MAPPOINTERTOBROWSER_OFFSET UNITYSDK_OFFSET(0x1FABDC80)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_MAPRAYTOBROWSER_OFFSET UNITYSDK_OFFSET(0x1FABDE20)
-#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1FABE570)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FECB090)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_GETCURRENTHITLOCATION_OFFSET UNITYSDK_OFFSET(0x1FECB6F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_MAPPOINTERTOBROWSER_OFFSET UNITYSDK_OFFSET(0x1FECB130)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH_MAPRAYTOBROWSER_OFFSET UNITYSDK_OFFSET(0x1FECB2D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_POINTERUIMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1FECBA20)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PointerUIMesh_TypeDefinitionIndex = 33302;
+	inline static constexpr unsigned int PointerUIMesh_TypeDefinitionIndex = 32762;
 
 	class PointerUIMesh : public ::ZenFulcrum::EmbeddedBrowser::PointerUIBase
 	{

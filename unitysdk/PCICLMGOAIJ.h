@@ -1,0 +1,169 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IHNCCABJGPA.h"
+#include "unitysdk/KOLFGAALPJM.h"
+#include "unitysdk/MFEIKFOLILJ.h"
+
+class EIMGMBNCJON;
+class KOHPAOOBMGD;
+class OMKHOPABFDJ;
+class PPPHCHDBPKE;
+namespace System { class Object; }
+namespace System { class String; }
+template <typename T> class DFDEIDBBGHG_1;
+template <typename T> class INKCDCHNIJD_1;
+
+#define PCICLMGOAIJ_AGNKHOHENBD_OFFSET UNITYSDK_OFFSET(0x1B84C7E0)
+#define PCICLMGOAIJ_BODOFCJDMIC_OFFSET UNITYSDK_OFFSET(0x1B84C5D0)
+#define PCICLMGOAIJ_CNEDMCLLNHA_OFFSET UNITYSDK_OFFSET(0x1B84C5B0)
+#define PCICLMGOAIJ_DEJBOKDOGCD_OFFSET UNITYSDK_OFFSET(0x1B84C660)
+#define PCICLMGOAIJ_DGNAAPGKIPL_OFFSET UNITYSDK_OFFSET(0x1B84C0B0)
+#define PCICLMGOAIJ_DKHALDDAFFC_OFFSET UNITYSDK_OFFSET(0x1B84BFF0)
+#define PCICLMGOAIJ_EFGBEHCBDNI_OFFSET UNITYSDK_OFFSET(0x1B84C5C0)
+#define PCICLMGOAIJ_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B84C2E0)
+#define PCICLMGOAIJ_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B84C260)
+#define PCICLMGOAIJ_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B84C320)
+#define PCICLMGOAIJ_GIALDDHFBLF_OFFSET UNITYSDK_OFFSET(0x1B84C1B0)
+#define PCICLMGOAIJ_HBDBJDANMLP_OFFSET UNITYSDK_OFFSET(0x1B84C000)
+#define PCICLMGOAIJ_JKELAOKCLJP_OFFSET UNITYSDK_OFFSET(0x1B84C4D0)
+#define PCICLMGOAIJ_LEHECPACPJD_OFFSET UNITYSDK_OFFSET(0x1B84C740)
+#define PCICLMGOAIJ_METHOD_22_OFFSET UNITYSDK_OFFSET(0x1B84C880)
+#define PCICLMGOAIJ_MNGHBPNCMPK_OFFSET UNITYSDK_OFFSET(0x1B84C4A0)
+#define PCICLMGOAIJ_NNMIABKFEOJ_1_OFFSET UNITYSDK_OFFSET(0x1B84C580)
+#define PCICLMGOAIJ_NNMIABKFEOJ_OFFSET UNITYSDK_OFFSET(0x1B84C550)
+#define PCICLMGOAIJ_NOHMBMKOPHM_OFFSET UNITYSDK_OFFSET(0x1B84C7D0)
+#define PCICLMGOAIJ_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x1B84C5E0)
+#define PCICLMGOAIJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B84C420)
+#define PCICLMGOAIJ__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B84C6A0)
+#define PCICLMGOAIJ__CTOR_OFFSET UNITYSDK_OFFSET(0x1B84C010)
+
+inline static constexpr unsigned int PCICLMGOAIJ_TypeDefinitionIndex = 25085;
+
+class PCICLMGOAIJ : public ::IHNCCABJGPA
+{
+public:
+	static ::KOHPAOOBMGD** StaticGet_ELKODHCMHMN()
+	{
+		return (::KOHPAOOBMGD**)Il2CppClass::FromTypeDefinitionIndex(PCICLMGOAIJ_TypeDefinitionIndex)->GetStaticField(0x180E0);
+	}
+	static ::INKCDCHNIJD_1<::System::UInt32>** StaticGet_PNIOKBMGICK()
+	{
+		return (::INKCDCHNIJD_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(PCICLMGOAIJ_TypeDefinitionIndex)->GetStaticField(0x180E8);
+	}
+	::DFDEIDBBGHG_1<::System::UInt32>* MMNIILFPGDN; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PCICLMGOAIJ__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PCICLMGOAIJ__CCTOR_OFFSET))();
+	}
+
+	::System::UInt16 DKHALDDAFFC()
+	{
+		return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_DKHALDDAFFC_OFFSET))(this);
+	}
+
+	::EIMGMBNCJON* HBDBJDANMLP()
+	{
+		return ((::EIMGMBNCJON*(*)(::PVOID))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_HBDBJDANMLP_OFFSET))(this);
+	}
+
+	::PCICLMGOAIJ* DGNAAPGKIPL()
+	{
+		return ((::PCICLMGOAIJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_DGNAAPGKIPL_OFFSET))(this);
+	}
+
+	::System::Boolean Equals(::System::Object* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_EQUALS_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Boolean Equals_1(::PCICLMGOAIJ* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::PCICLMGOAIJ*))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_EQUALS_1_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_GETHASHCODE_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_TOSTRING_OFFSET))(this);
+	}
+
+	::System::Void MNGHBPNCMPK(::OMKHOPABFDJ* AJMCCOEAIFE)
+	{
+		return ((::System::Void(*)(::PVOID, ::OMKHOPABFDJ*))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_MNGHBPNCMPK_OFFSET))(this, AJMCCOEAIFE);
+	}
+
+	::System::Int32 JKELAOKCLJP()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_JKELAOKCLJP_OFFSET))(this);
+	}
+
+	::System::Void NNMIABKFEOJ(::PCICLMGOAIJ* LIBPKNHDIGP)
+	{
+		return ((::System::Void(*)(::PVOID, ::PCICLMGOAIJ*))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_NNMIABKFEOJ_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Void NNMIABKFEOJ_1(::PPPHCHDBPKE* HLFFCMIFFIB)
+	{
+		return ((::System::Void(*)(::PVOID, ::PPPHCHDBPKE*))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_NNMIABKFEOJ_1_OFFSET))(this, HLFFCMIFFIB);
+	}
+
+	::System::Void CNEDMCLLNHA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_CNEDMCLLNHA_OFFSET))(this);
+	}
+
+	::System::Void EFGBEHCBDNI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_EFGBEHCBDNI_OFFSET))(this);
+	}
+
+	::System::Void BODOFCJDMIC(::System::Boolean EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_BODOFCJDMIC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void NPOLNFDBOOD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_NPOLNFDBOOD_OFFSET))(this);
+	}
+
+	::System::Void DEJBOKDOGCD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_DEJBOKDOGCD_OFFSET))(this);
+	}
+
+	::System::Void GIALDDHFBLF(::PCICLMGOAIJ* LIBPKNHDIGP)
+	{
+		return ((::System::Void(*)(::PVOID, ::PCICLMGOAIJ*))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_GIALDDHFBLF_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Void LEHECPACPJD(::KOLFGAALPJM& AJMCCOEAIFE)
+	{
+		return ((::System::Void(*)(::PVOID, ::KOLFGAALPJM&))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_LEHECPACPJD_OFFSET))(this, AJMCCOEAIFE);
+	}
+
+	::DFDEIDBBGHG_1<::System::UInt32>* NOHMBMKOPHM()
+	{
+		return ((::DFDEIDBBGHG_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_NOHMBMKOPHM_OFFSET))(this);
+	}
+
+	::System::Void AGNKHOHENBD(::MFEIKFOLILJ& HLFFCMIFFIB)
+	{
+		return ((::System::Void(*)(::PVOID, ::MFEIKFOLILJ&))((::PBYTE)hIl2Cpp + PCICLMGOAIJ_AGNKHOHENBD_OFFSET))(this, HLFFCMIFFIB);
+	}
+
+	static ::PCICLMGOAIJ* Method_22()
+	{
+		return ((::PCICLMGOAIJ*(*)())((::PBYTE)hIl2Cpp + PCICLMGOAIJ_METHOD_22_OFFSET))();
+	}
+};

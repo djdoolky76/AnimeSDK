@@ -7,28 +7,28 @@ namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class SchemaAttDef; }
 namespace System::Xml::Schema { class SchemaElementDecl; }
 
-#define SYSTEM_XML_SCHEMA_XDRBUILDER_DECLBASEINFO_RESET_OFFSET UNITYSDK_OFFSET(0x1D562170)
-#define SYSTEM_XML_SCHEMA_XDRBUILDER_DECLBASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5620D0)
+#define SYSTEM_XML_SCHEMA_XDRBUILDER_DECLBASEINFO_RESET_OFFSET UNITYSDK_OFFSET(0x1DA5D090)
+#define SYSTEM_XML_SCHEMA_XDRBUILDER_DECLBASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5CFE0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XdrBuilder_DeclBaseInfo_TypeDefinitionIndex = 2099;
+	inline static constexpr unsigned int XdrBuilder_DeclBaseInfo_TypeDefinitionIndex = 2098;
 
 	class XdrBuilder_DeclBaseInfo : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::XdrBuilder_DeclBaseInfo* _Next; // 0x10
-		::System::Object* _Revises; // 0x18
-		::System::Xml::Schema::SchemaAttDef* _Attdef; // 0x20
-		::System::Object* _Default; // 0x28
-		::System::Xml::XmlQualifiedName* _Name; // 0x30
-		::System::Xml::Schema::SchemaElementDecl* _ElementDecl; // 0x38
-		::System::String* _TypePrefix; // 0x40
+		::System::Xml::Schema::SchemaAttDef* _Attdef; // 0x10
+		::System::Xml::Schema::SchemaElementDecl* _ElementDecl; // 0x18
+		::System::Xml::XmlQualifiedName* _Name; // 0x20
+		::System::Xml::Schema::XdrBuilder_DeclBaseInfo* _Next; // 0x28
+		::System::Object* _Default; // 0x30
+		::System::String* _Prefix; // 0x38
+		::System::Object* _Revises; // 0x40
 		::System::Xml::XmlQualifiedName* _TypeName; // 0x48
-		::System::String* _Prefix; // 0x50
+		::System::String* _TypePrefix; // 0x50
 		::System::UInt32 _MaxOccurs; // 0x58
-		::System::Boolean _Checking; // 0x5C
-		::System::UInt32 _MinOccurs; // 0x60
+		::System::UInt32 _MinOccurs; // 0x5C
+		::System::Boolean _Checking; // 0x60
 
 		::System::Void _ctor()
 		{

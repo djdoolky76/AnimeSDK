@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
 
-#define SYSTEM_THREADING_TIMEOUT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D69B600)
+#define SYSTEM_THREADING_TIMEOUT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB689C0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int Timeout_TypeDefinitionIndex = 855;
+	inline static constexpr unsigned int Timeout_TypeDefinitionIndex = 854;
 
 	class Timeout : public ::System::Object
 	{

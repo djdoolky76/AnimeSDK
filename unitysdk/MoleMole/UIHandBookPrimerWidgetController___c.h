@@ -5,24 +5,24 @@
 namespace MoleMole { class UIHandBookPrimerWidgetController_TabItem; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIHANDBOOKPRIMERWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18ED5EB0)
-#define MOLEMOLE_UIHANDBOOKPRIMERWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18ED5EF0)
-#define MOLEMOLE_UIHANDBOOKPRIMERWIDGETCONTROLLER___C__INITTAB_B__12_0_OFFSET UNITYSDK_OFFSET(0x18ED5F00)
+#define MOLEMOLE_UIHANDBOOKPRIMERWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x199D7B50)
+#define MOLEMOLE_UIHANDBOOKPRIMERWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x199D7B90)
+#define MOLEMOLE_UIHANDBOOKPRIMERWIDGETCONTROLLER___C__INITTAB_B__12_0_OFFSET UNITYSDK_OFFSET(0x199D7BA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHandBookPrimerWidgetController___c_TypeDefinitionIndex = 40904;
+	inline static constexpr unsigned int UIHandBookPrimerWidgetController___c_TypeDefinitionIndex = 91321;
 
 	class UIHandBookPrimerWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::MoleMole::UIHandBookPrimerWidgetController_TabItem*>** StaticGet___9__12_0()
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__12_0()
 		{
-			return (::System::Comparison_1<::MoleMole::UIHandBookPrimerWidgetController_TabItem*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookPrimerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A470);
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookPrimerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C260);
 		}
-		static ::MoleMole::UIHandBookPrimerWidgetController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIHandBookPrimerWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookPrimerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3A478);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIHandBookPrimerWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3C268);
 		}
 
 		static ::System::Void _cctor()

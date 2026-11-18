@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CameraSequence/FramePivotDataInCore.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/PipelineCamera/CameraSequence/FramePivotDataInCore.h"
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceContext; }
 namespace PipelineCamera::CameraSequence { class FramePivotInCore_DataProvider; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EED19D0)
-#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EED1A10)
-#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE___C___CCTOR_B__21_0_OFFSET UNITYSDK_OFFSET(0x1EED1A20)
+#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F23F600)
+#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F23F640)
+#define PIPELINECAMERA_CAMERASEQUENCE_FRAMEPIVOTINCORE___C___CCTOR_B__21_0_OFFSET UNITYSDK_OFFSET(0x1F23F650)
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int FramePivotInCore___c_TypeDefinitionIndex = 38631;
+	inline static constexpr unsigned int FramePivotInCore___c_TypeDefinitionIndex = 36631;
 
 	class FramePivotInCore___c : public ::System::Object
 	{
 	public:
-		static ::PipelineCamera::CameraSequence::FramePivotInCore___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::PipelineCamera::CameraSequence::FramePivotInCore___c**)Il2CppClass::FromTypeDefinitionIndex(FramePivotInCore___c_TypeDefinitionIndex)->GetStaticField(0x2A630);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(FramePivotInCore___c_TypeDefinitionIndex)->GetStaticField(0x2B9A0);
 		}
 
 		static ::System::Void _cctor()

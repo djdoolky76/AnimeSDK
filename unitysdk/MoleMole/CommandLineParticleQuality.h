@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/CommandLineSettingBase_2.h"
 #include "unitysdk/MoleMole/EMaterialModifierPerformanceLevel.h"
 #include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/GraphicSettings_EDamageDecalQuality.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/GraphicSettings_EParticleLightLevel.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/GraphicSettings_EParticleLodLevel.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/GraphicSettings_EParticleResolutionLevel.h"
 
 namespace MoleMole { class ParticleQualityProfileContext; }
+namespace System { class Object; }
 
-#define MOLEMOLE_COMMANDLINEPARTICLEQUALITY_METHOD_2_811EE164562C9434_OFFSET UNITYSDK_OFFSET(0x16247170)
-#define MOLEMOLE_COMMANDLINEPARTICLEQUALITY_METHOD_2_927E546B2D95E0F1_OFFSET UNITYSDK_OFFSET(0x16246FE0)
-#define MOLEMOLE_COMMANDLINEPARTICLEQUALITY__CTOR_OFFSET UNITYSDK_OFFSET(0x16247130)
+#define MOLEMOLE_COMMANDLINEPARTICLEQUALITY_ALEKEEINDAO_OFFSET UNITYSDK_OFFSET(0x19B02890)
+#define MOLEMOLE_COMMANDLINEPARTICLEQUALITY_PMKOMFHNKOE_OFFSET UNITYSDK_OFFSET(0x19B02A20)
+#define MOLEMOLE_COMMANDLINEPARTICLEQUALITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19B029E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineParticleQuality_TypeDefinitionIndex = 46856;
+	inline static constexpr unsigned int CommandLineParticleQuality_TypeDefinitionIndex = 89779;
 
-	class CommandLineParticleQuality : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::ParticleQualityProfileContext*, ::MoleMole::CommandLineParticleQuality*>
+	class CommandLineParticleQuality
 	{
 	public:
-		::System::Nullable_1<::UnityEngine::Rendering::Universal::GraphicSettings_EParticleResolutionLevel> ParticleResolutionLevel; // 0x18
-		::System::Nullable_1<::UnityEngine::Rendering::Universal::GraphicSettings_EParticleLodLevel> ParticleLodLevel; // 0x20
-		::System::Nullable_1<::UnityEngine::Rendering::Universal::GraphicSettings_EParticleLightLevel> ParticleLightLevel; // 0x28
+		::System::Nullable_1<::System::Object*> ParticleResolutionLevel; // 0x18
+		::System::Nullable_1<::System::Object*> ParticleLodLevel; // 0x20
+		::System::Nullable_1<::System::Object*> ParticleLightLevel; // 0x28
 		::System::Nullable_1<::MoleMole::EMaterialModifierPerformanceLevel> MaterialModifierPerformanceLevel; // 0x30
 		::System::Nullable_1<::System::Boolean> DisableGhostEffect; // 0x38
 		::System::Nullable_1<::System::Boolean> DisableCutMarks; // 0x3A
-		::System::Nullable_1<::UnityEngine::Rendering::Universal::GraphicSettings_EDamageDecalQuality> DamageDecalQuality; // 0x3C
+		::System::Nullable_1<::System::Object*> DamageDecalQuality; // 0x3C
 		::System::Nullable_1<::System::Boolean> DisableDropItemBornIdleEffect; // 0x44
 		::System::Nullable_1<::System::Boolean> DisableAbilityActionEffect; // 0x46
 
@@ -36,14 +32,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPARTICLEQUALITY__CTOR_OFFSET))(this);
 		}
 
-		::MoleMole::CommandLineParticleQuality* Method_2_927E546B2D95E0F1(::MoleMole::ParticleQualityProfileContext* a1)
+		::MoleMole::CommandLineParticleQuality* ALEKEEINDAO(::MoleMole::ParticleQualityProfileContext* LJBPECKCCEA)
 		{
-			return ((::MoleMole::CommandLineParticleQuality*(*)(::PVOID, ::MoleMole::ParticleQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPARTICLEQUALITY_METHOD_2_927E546B2D95E0F1_OFFSET))(this, a1);
+			return ((::MoleMole::CommandLineParticleQuality*(*)(::PVOID, ::MoleMole::ParticleQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPARTICLEQUALITY_ALEKEEINDAO_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::MoleMole::ParticleQualityProfileContext* Method_2_811EE164562C9434(::MoleMole::ParticleQualityProfileContext* a1)
+		::MoleMole::ParticleQualityProfileContext* PMKOMFHNKOE(::MoleMole::ParticleQualityProfileContext* LJBPECKCCEA)
 		{
-			return ((::MoleMole::ParticleQualityProfileContext*(*)(::PVOID, ::MoleMole::ParticleQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPARTICLEQUALITY_METHOD_2_811EE164562C9434_OFFSET))(this, a1);
+			return ((::MoleMole::ParticleQualityProfileContext*(*)(::PVOID, ::MoleMole::ParticleQualityProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEPARTICLEQUALITY_PMKOMFHNKOE_OFFSET))(this, LJBPECKCCEA);
 		}
 	};
 }

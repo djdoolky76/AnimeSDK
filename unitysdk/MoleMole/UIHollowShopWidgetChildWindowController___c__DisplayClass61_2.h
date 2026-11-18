@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0FC29DF8FB514794.h"
+#include "unitysdk/GEOMFHNEOID.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIHollowShopWidgetChildWindowController___c__DisplayClass61_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::UI::Extension { class UIButtonBase; }
 namespace UnityEngine::UI::Extension { class UITabButton; }
 
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1961A770)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__0_OFFSET UNITYSDK_OFFSET(0x1961A780)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__1_OFFSET UNITYSDK_OFFSET(0x1961AA30)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__2_OFFSET UNITYSDK_OFFSET(0x1961AB60)
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__3_OFFSET UNITYSDK_OFFSET(0x1961A870)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18F2D380)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__0_OFFSET UNITYSDK_OFFSET(0x18F2D390)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__1_OFFSET UNITYSDK_OFFSET(0x18F2D640)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__2_OFFSET UNITYSDK_OFFSET(0x18F2D770)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_2__REALGOTOSHOP_B__3_OFFSET UNITYSDK_OFFSET(0x18F2D480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass61_2_TypeDefinitionIndex = 65869;
+	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass61_2_TypeDefinitionIndex = 61288;
 
+	template <typename T1, typename T2>
 	class UIHollowShopWidgetChildWindowController___c__DisplayClass61_2 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* tran; // 0x10
-		::UnityEngine::Events::UnityAction* __9__3; // 0x18
+		::UnityEngine::UI::Extension::UIButtonBase* realBtn; // 0x10
+		::UnityEngine::Transform* tran; // 0x18
 		::UnityEngine::Animation* anim; // 0x20
-		::MoleMole::UIHollowShopWidgetChildWindowController___c__DisplayClass61_1* CS___8__locals2; // 0x28
-		::UnityEngine::UI::Extension::UIButtonBase* realBtn; // 0x30
-		::UnityEngine::UI::Extension::UITabButton* btn; // 0x38
-		::Enum_3_0FC29DF8FB514794 currentPos; // 0x40
+		::UnityEngine::UI::Extension::UITabButton* btn; // 0x28
+		::UnityEngine::Events::UnityAction* __9__3; // 0x30
+		::System::Object* CS___8__locals2; // 0x38
+		::GEOMFHNEOID currentPos; // 0x40
 		::System::Int32 cardIndex; // 0x44
 
 		::System::Void _ctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIAVATARSKINSETPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF1F20)
+#define MOLEMOLE_UIAVATARSKINSETPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18872670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarSkinSetPageController_Context_TypeDefinitionIndex = 42139;
+	inline static constexpr unsigned int UIAvatarSkinSetPageController_Context_TypeDefinitionIndex = 48276;
 
 	class UIAvatarSkinSetPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

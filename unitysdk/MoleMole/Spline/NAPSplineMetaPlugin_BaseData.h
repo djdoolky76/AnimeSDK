@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
 #include "unitysdk/MoleMole/Spline/NAPSplineMetaPluginBase.h"
+#include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_GET_NAME_1_OFFSET UNITYSDK_OFFSET(0x173A73F0)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x173A73B0)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_GET_SPLINENAME_OFFSET UNITYSDK_OFFSET(0x173A7430)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_GET_TAGLIST_OFFSET UNITYSDK_OFFSET(0x173A7440)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_METHOD_8_7D201B4343E63821_OFFSET UNITYSDK_OFFSET(0x173A79D0)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_RECORDDATA_1_OFFSET UNITYSDK_OFFSET(0x173A7540)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_RECORDDATA_2_OFFSET UNITYSDK_OFFSET(0x173A7600)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_RECORDDATA_OFFSET UNITYSDK_OFFSET(0x173A7450)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_REMOVEDATA_1_OFFSET UNITYSDK_OFFSET(0x173A76F0)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_REMOVEDATA_2_OFFSET UNITYSDK_OFFSET(0x173A7850)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_REMOVEDATA_OFFSET UNITYSDK_OFFSET(0x173A7650)
-#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x173A78A0)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x13F12F50)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x13F12F90)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_GET_SPLINENAME_OFFSET UNITYSDK_OFFSET(0x13F12FD0)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_GET_TAGLIST_OFFSET UNITYSDK_OFFSET(0x13F12FE0)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_LOHDLDKDAML_OFFSET UNITYSDK_OFFSET(0x13F13570)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_RECORDDATA_1_OFFSET UNITYSDK_OFFSET(0x13F130E0)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_RECORDDATA_2_OFFSET UNITYSDK_OFFSET(0x13F131A0)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_RECORDDATA_OFFSET UNITYSDK_OFFSET(0x13F12FF0)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_REMOVEDATA_1_OFFSET UNITYSDK_OFFSET(0x13F13290)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_REMOVEDATA_2_OFFSET UNITYSDK_OFFSET(0x13F133F0)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_REMOVEDATA_OFFSET UNITYSDK_OFFSET(0x13F131F0)
+#define MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13F13440)
 
 namespace MoleMole::Spline
 {
-	inline static constexpr unsigned int NAPSplineMetaPlugin_BaseData_TypeDefinitionIndex = 54229;
+	inline static constexpr unsigned int NAPSplineMetaPlugin_BaseData_TypeDefinitionIndex = 85245;
 
 	class NAPSplineMetaPlugin_BaseData : public ::MoleMole::Spline::NAPSplineMetaPluginBase
 	{
 	public:
-		::System::String* Field_8_0; // 0x38
-		::System::Collections::Generic::List_1<::System::String*>* Field_8_7; // 0x40
-		::System::Collections::Generic::List_1<::System::String*>* Field_8_6; // 0x48
+		::System::String* _FHNJBJFCLKP_k__BackingField; // 0x38
+		::System::Collections::Generic::List_1<::System::String*>* OAFHDLOHFNG; // 0x40
+		::System::Collections::Generic::List_1<::System::String*>* AKDCNICFJGO; // 0x48
 
 		::System::Void _ctor()
 		{
@@ -41,9 +41,9 @@ namespace MoleMole::Spline
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_GET_NAME_OFFSET))();
 		}
 
-		::System::String* get_Name_1()
+		::System::String* get_Name()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_GET_NAME_1_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_GET_NAME_OFFSET))(this);
 		}
 
 		::System::String* get_SplineName()
@@ -56,39 +56,39 @@ namespace MoleMole::Spline
 			return ((::System::Collections::Generic::IReadOnlyList_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_GET_TAGLIST_OFFSET))(this);
 		}
 
-		::System::Void RecordData(::System::String* a1, ::System::String* a2)
+		::System::Void RecordData(::System::String* KCEIKDDANLF, ::System::String* AELLPLBJELA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_RECORDDATA_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_RECORDDATA_OFFSET))(this, KCEIKDDANLF, AELLPLBJELA);
 		}
 
-		::System::Void RecordData_1(::System::Collections::Generic::List_1<::System::String*>* a1)
+		::System::Void RecordData_1(::System::Collections::Generic::List_1<::System::String*>* NGFEFHPLMHK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_RECORDDATA_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_RECORDDATA_1_OFFSET))(this, NGFEFHPLMHK);
 		}
 
-		::System::Void RecordData_2(::Foundation::ViewObject::ViewObjectHandle a1)
+		::System::Void RecordData_2(::Foundation::ViewObject::ViewObjectHandle EAPIEMGDDMM)
 		{
-			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_RECORDDATA_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_RECORDDATA_2_OFFSET))(this, EAPIEMGDDMM);
 		}
 
-		::System::Void RemoveData(::System::String* a1)
+		::System::Void RemoveData(::System::String* AELLPLBJELA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_REMOVEDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_REMOVEDATA_OFFSET))(this, AELLPLBJELA);
 		}
 
-		::System::Void RemoveData_1(::System::Collections::Generic::List_1<::System::String*>* a1)
+		::System::Void RemoveData_1(::System::Collections::Generic::List_1<::System::String*>* NGFEFHPLMHK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_REMOVEDATA_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_REMOVEDATA_1_OFFSET))(this, NGFEFHPLMHK);
 		}
 
-		::System::Void RemoveData_2(::Foundation::ViewObject::ViewObjectHandle a1)
+		::System::Void RemoveData_2(::Foundation::ViewObject::ViewObjectHandle EAPIEMGDDMM)
 		{
-			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_REMOVEDATA_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_REMOVEDATA_2_OFFSET))(this, EAPIEMGDDMM);
 		}
 
-		::System::Void Method_8_7D201B4343E63821(::System::String* a1)
+		::System::Void LOHDLDKDAML(::System::String* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_METHOD_8_7D201B4343E63821_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SPLINE_NAPSPLINEMETAPLUGIN_BASEDATA_LOHDLDKDAML_OFFSET))(this, EGEGIMGMJHN);
 		}
 	};
 }

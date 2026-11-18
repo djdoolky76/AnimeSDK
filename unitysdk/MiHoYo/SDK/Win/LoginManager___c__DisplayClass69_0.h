@@ -7,13 +7,13 @@ namespace MiHoYo::SDK::Win { class LoginManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C964B10)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS69_0__SHOWACCOUNTLISTCONFIRMPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x1C96DFD0)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS69_0__SHOWACCOUNTLISTCONFIRMPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x1C96E0A0)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE6AD00)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS69_0__SHOWACCOUNTLISTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x1CE74D80)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS69_0__SHOWACCOUNTLISTCONFIRM_B__1_OFFSET UNITYSDK_OFFSET(0x1CE75090)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass69_0_TypeDefinitionIndex = 21547;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass69_0_TypeDefinitionIndex = 20745;
 
 	class LoginManager___c__DisplayClass69_0 : public ::System::Object
 	{
@@ -26,14 +26,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS69_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ShowAccountListConfirmPluginUI_b__0(::System::String* str, ::System::Action_1<::System::String*>* cancelCallback)
+		::System::Void _ShowAccountListConfirm_b__0(::System::Boolean option)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS69_0__SHOWACCOUNTLISTCONFIRMPLUGINUI_B__0_OFFSET))(this, str, cancelCallback);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS69_0__SHOWACCOUNTLISTCONFIRM_B__0_OFFSET))(this, option);
 		}
 
-		::System::Void _ShowAccountListConfirmPluginUI_b__1(::System::String* str, ::System::Action_1<::System::String*>* confirmCallback)
+		::System::Void _ShowAccountListConfirm_b__1()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS69_0__SHOWACCOUNTLISTCONFIRMPLUGINUI_B__1_OFFSET))(this, str, confirmCallback);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS69_0__SHOWACCOUNTLISTCONFIRM_B__1_OFFSET))(this);
 		}
 	};
 }

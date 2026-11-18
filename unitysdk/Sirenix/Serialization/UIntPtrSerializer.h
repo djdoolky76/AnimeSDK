@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/Serializer_1.h"
 
 namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace System { class String; }
 
-#define SIRENIX_SERIALIZATION_UINTPTRSERIALIZER_READVALUE_OFFSET UNITYSDK_OFFSET(0x1F8CAAC0)
-#define SIRENIX_SERIALIZATION_UINTPTRSERIALIZER_WRITEVALUE_OFFSET UNITYSDK_OFFSET(0x1F8CB100)
-#define SIRENIX_SERIALIZATION_UINTPTRSERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8CB210)
+#define SIRENIX_SERIALIZATION_UINTPTRSERIALIZER_READVALUE_OFFSET UNITYSDK_OFFSET(0x1FCD4430)
+#define SIRENIX_SERIALIZATION_UINTPTRSERIALIZER_WRITEVALUE_OFFSET UNITYSDK_OFFSET(0x1FCD4A70)
+#define SIRENIX_SERIALIZATION_UINTPTRSERIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCD4B80)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int UIntPtrSerializer_TypeDefinitionIndex = 7561;
+	inline static constexpr unsigned int UIntPtrSerializer_TypeDefinitionIndex = 7573;
 
-	class UIntPtrSerializer : public ::Sirenix::Serialization::Serializer_1<::System::UIntPtr>
+	class UIntPtrSerializer
 	{
 	public:
 		::System::Void _ctor()

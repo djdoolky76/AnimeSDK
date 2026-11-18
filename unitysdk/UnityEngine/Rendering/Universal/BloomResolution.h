@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int BloomResolution_TypeDefinitionIndex = 27950;
+	inline static constexpr unsigned int BloomResolution_TypeDefinitionIndex = 26643;
 
 	enum class BloomResolution : ::System::Int32
 	{

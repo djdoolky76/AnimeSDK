@@ -6,12 +6,12 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_FASHIONSTORECAMERAARGS_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B82B070)
-#define MOLEMOLE_FASHIONSTORECAMERAARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B82B0B0)
+#define MOLEMOLE_FASHIONSTORECAMERAARGS_AWAKE_OFFSET UNITYSDK_OFFSET(0x180D1420)
+#define MOLEMOLE_FASHIONSTORECAMERAARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x180D1460)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FashionStoreCameraArgs_TypeDefinitionIndex = 52820;
+	inline static constexpr unsigned int FashionStoreCameraArgs_TypeDefinitionIndex = 84279;
 
 	class FashionStoreCameraArgs : public ::UnityEngine::MonoBehaviour
 	{

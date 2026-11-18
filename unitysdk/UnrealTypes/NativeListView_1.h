@@ -4,12 +4,12 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int NativeListView_1_TypeDefinitionIndex = 28290;
+	inline static constexpr unsigned int NativeListView_1_TypeDefinitionIndex = 27707;
 
 	template <typename T>
-	struct NativeListView_1
+	struct alignas(8) NativeListView_1
 	{
-		::System::Void* _storage; // 0x0
+		::PVOID _storage; // 0x0
 		::System::Int32 _count; // 0x0
 	};
 }

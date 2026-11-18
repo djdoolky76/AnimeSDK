@@ -6,7 +6,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RTHandleProperties_TypeDefinitionIndex = 5945;
+	inline static constexpr unsigned int RTHandleProperties_TypeDefinitionIndex = 5951;
 
 	struct alignas(4) RTHandleProperties
 	{

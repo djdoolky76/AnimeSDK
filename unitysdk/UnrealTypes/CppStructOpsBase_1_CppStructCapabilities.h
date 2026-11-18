@@ -4,10 +4,10 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int CppStructOpsBase_1_CppStructCapabilities_TypeDefinitionIndex = 28319;
+	inline static constexpr unsigned int CppStructOpsBase_1_CppStructCapabilities_TypeDefinitionIndex = 27738;
 
 	template <typename T>
-	struct CppStructOpsBase_1_CppStructCapabilities
+	struct alignas(4) CppStructOpsBase_1_CppStructCapabilities
 	{
 		::System::Boolean IsPlainOldData; // 0x0
 		::System::Boolean ShouldClone; // 0x0

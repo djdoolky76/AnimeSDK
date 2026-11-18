@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class LoginManagerCXHandheld; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C3000)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D840390)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int LoginManagerCXHandheld___c__DisplayClass5_0_TypeDefinitionIndex = 20852;
+	inline static constexpr unsigned int LoginManagerCXHandheld___c__DisplayClass5_0_TypeDefinitionIndex = 20056;
 
 	class LoginManagerCXHandheld___c__DisplayClass5_0 : public ::System::Object
 	{

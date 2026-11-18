@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/Config/ConfigHollowCameraShake_ShakeAtom.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIGPERFORMUISHAKE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B81D130)
+#define MOLEMOLE_CONFIGPERFORMUISHAKE__CTOR_OFFSET UNITYSDK_OFFSET(0x180C9B40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigPerformUIShake_TypeDefinitionIndex = 45527;
+	inline static constexpr unsigned int ConfigPerformUIShake_TypeDefinitionIndex = 72712;
 
 	class ConfigPerformUIShake : public ::System::Object
 	{

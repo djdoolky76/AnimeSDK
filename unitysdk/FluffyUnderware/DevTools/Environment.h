@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FLUFFYUNDERWARE_DEVTOOLS_ENVIRONMENT_GET_ISTHREADINGSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1EA516D0)
+#define FLUFFYUNDERWARE_DEVTOOLS_ENVIRONMENT_GET_ISTHREADINGSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1ED5A350)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int Environment_TypeDefinitionIndex = 28946;
+	inline static constexpr unsigned int Environment_TypeDefinitionIndex = 28385;
 
 	class Environment : public ::System::Object
 	{

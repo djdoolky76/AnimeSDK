@@ -8,14 +8,14 @@ namespace MoleMole::FlowCanvas::Nodes { template <typename T1, typename T2> clas
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CustomGetVariableNode_2_TypeDefinitionIndex = 84186;
+	inline static constexpr unsigned int CustomGetVariableNode_2_TypeDefinitionIndex = 89280;
 
-	template <typename Tresult, typename Tkey>
+	template <typename T1, typename T2>
 	class CustomGetVariableNode_2 : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::GetSetDataStructBaset_2<Tresult, Tkey>*>* dataInput; // 0x0
-		::FlowCanvas::ValueInput_1<Tkey>* keyInput; // 0x0
-		::FlowCanvas::ValueOutput_1<Tresult>* vOutPut; // 0x0
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::GetSetDataStructBaset_2<T1, T2>*>* dataInput; // 0x0
+		::FlowCanvas::ValueInput_1<T2>* keyInput; // 0x0
+		::FlowCanvas::ValueOutput_1<T1>* vOutPut; // 0x0
 	};
 }

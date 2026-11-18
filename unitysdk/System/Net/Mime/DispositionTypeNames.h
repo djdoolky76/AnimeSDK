@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace System::Net::Mime
 {
-	inline static constexpr unsigned int DispositionTypeNames_TypeDefinitionIndex = 3612;
+	inline static constexpr unsigned int DispositionTypeNames_TypeDefinitionIndex = 3611;
 
 	class DispositionTypeNames : public ::System::Object
 	{

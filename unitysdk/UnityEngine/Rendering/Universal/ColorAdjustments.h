@@ -7,18 +7,18 @@ namespace UnityEngine::NAPRenderPipeline0 { class BoolParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class FloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_COLORADJUSTMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F19B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_COLORADJUSTMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BECE0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ColorAdjustments_TypeDefinitionIndex = 27454;
+	inline static constexpr unsigned int ColorAdjustments_TypeDefinitionIndex = 27112;
 
 	class ColorAdjustments : public ::UnityEngine::NAPRenderPipeline0::ColorAdjustments_NativeSRP
 	{
 	public:
 		static ::UnityEngine::Texture2D** StaticGet_FXLut()
 		{
-			return (::UnityEngine::Texture2D**)Il2CppClass::FromTypeDefinitionIndex(ColorAdjustments_TypeDefinitionIndex)->GetStaticField(0x53570);
+			return (::UnityEngine::Texture2D**)Il2CppClass::FromTypeDefinitionIndex(ColorAdjustments_TypeDefinitionIndex)->GetStaticField(0x530D0);
 		}
 		::UnityEngine::NAPRenderPipeline0::FloatParameter* sceneExposure; // 0x88
 		::UnityEngine::NAPRenderPipeline0::FloatParameter* characterExposure; // 0x90

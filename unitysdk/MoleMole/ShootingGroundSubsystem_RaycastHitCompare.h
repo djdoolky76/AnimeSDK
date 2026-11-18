@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 
-#define MOLEMOLE_SHOOTINGGROUNDSUBSYSTEM_RAYCASTHITCOMPARE_COMPARE_OFFSET UNITYSDK_OFFSET(0x129D9F60)
-#define MOLEMOLE_SHOOTINGGROUNDSUBSYSTEM_RAYCASTHITCOMPARE__CTOR_OFFSET UNITYSDK_OFFSET(0x129DA050)
+#define MOLEMOLE_SHOOTINGGROUNDSUBSYSTEM_RAYCASTHITCOMPARE_COMPARE_OFFSET UNITYSDK_OFFSET(0x1249E600)
+#define MOLEMOLE_SHOOTINGGROUNDSUBSYSTEM_RAYCASTHITCOMPARE__CTOR_OFFSET UNITYSDK_OFFSET(0x1249E6F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShootingGroundSubsystem_RaycastHitCompare_TypeDefinitionIndex = 78101;
+	inline static constexpr unsigned int ShootingGroundSubsystem_RaycastHitCompare_TypeDefinitionIndex = 71767;
 
 	class ShootingGroundSubsystem_RaycastHitCompare : public ::System::Object
 	{

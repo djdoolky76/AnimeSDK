@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class AFMMAIKKACF;
+class ALGKMLLALFG;
+class EHGPNGPADCB;
+class FEFGIOJJDPO;
+namespace MoleMole { class UIHollowMainPageController; }
+
+#define AAMCLAFFLOC_ABOHCAAFOLD_OFFSET UNITYSDK_OFFSET(0x1349CA50)
+#define AAMCLAFFLOC_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0x1349C6D0)
+#define AAMCLAFFLOC_KOAFFBFLDDA_OFFSET UNITYSDK_OFFSET(0x1349CE10)
+#define AAMCLAFFLOC_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0x1349CD80)
+#define AAMCLAFFLOC_LLEPKKEDCBJ_OFFSET UNITYSDK_OFFSET(0x1349CBB0)
+#define AAMCLAFFLOC__CTOR_OFFSET UNITYSDK_OFFSET(0x1349C640)
+
+inline static constexpr unsigned int AAMCLAFFLOC_TypeDefinitionIndex = 78482;
+
+class AAMCLAFFLOC
+{
+public:
+	::ALGKMLLALFG* BMPFILBMNKJ; // 0x30
+	::AFMMAIKKACF* AAOCANGHBDG; // 0x38
+	::MoleMole::UIHollowMainPageController* BNGABEMPOMH; // 0x40
+
+	::System::Void _ctor(::EHGPNGPADCB* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::EHGPNGPADCB*))((::PBYTE)hIl2Cpp + AAMCLAFFLOC__CTOR_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Void GLEJMKLOMBP(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + AAMCLAFFLOC_GLEJMKLOMBP_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void LIDIODHDJAF(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + AAMCLAFFLOC_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void LLEPKKEDCBJ(::FEFGIOJJDPO* HMMMOCJAEOA)
+	{
+		return ((::System::Void(*)(::PVOID, ::FEFGIOJJDPO*))((::PBYTE)hIl2Cpp + AAMCLAFFLOC_LLEPKKEDCBJ_OFFSET))(this, HMMMOCJAEOA);
+	}
+
+	::System::Void ABOHCAAFOLD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AAMCLAFFLOC_ABOHCAAFOLD_OFFSET))(this);
+	}
+
+	::System::Void KOAFFBFLDDA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AAMCLAFFLOC_KOAFFBFLDDA_OFFSET))(this);
+	}
+};

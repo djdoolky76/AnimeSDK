@@ -3,7 +3,7 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolverVR_Arm_ShoulderRotationMode_TypeDefinitionIndex = 38948;
+	inline static constexpr unsigned int IKSolverVR_Arm_ShoulderRotationMode_TypeDefinitionIndex = 37007;
 
 	enum class IKSolverVR_Arm_ShoulderRotationMode : ::System::Int32
 	{

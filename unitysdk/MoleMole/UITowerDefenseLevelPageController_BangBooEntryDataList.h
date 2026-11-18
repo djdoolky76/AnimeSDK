@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITowerDefenseLevelPageController_BangBooEntryDataList_TypeDefinitionIndex = 84615;
+	inline static constexpr unsigned int UITowerDefenseLevelPageController_BangBooEntryDataList_TypeDefinitionIndex = 45982;
 
 	struct alignas(4) UITowerDefenseLevelPageController_BangBooEntryDataList
 	{

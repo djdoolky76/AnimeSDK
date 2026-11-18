@@ -5,15 +5,15 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NativeVariable_1_TypeDefinitionIndex = 8594;
+	inline static constexpr unsigned int NativeVariable_1_TypeDefinitionIndex = 8782;
 
 	template <typename T>
-	struct NativeVariable_1
+	struct alignas(8) NativeVariable_1
 	{
-		::Foundation::NativeMemoryView_1<T> _handle; // 0x0
 		static ::Foundation::NativeVariable_1<T>* StaticGet_Null()
 		{
 			return (::Foundation::NativeVariable_1<T>*)Il2CppClass::FromTypeDefinitionIndex(NativeVariable_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
+		::Foundation::NativeMemoryView_1<T> _handle; // 0x0
 	};
 }

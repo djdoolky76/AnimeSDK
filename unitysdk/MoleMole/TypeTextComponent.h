@@ -2,56 +2,58 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-namespace MoleMole { class TypeTextComponent_Class_3_50D343C44D28BEFB_5; }
+namespace MoleMole { class TypeTextComponent_MPDLPMIBGHK; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Text { class StringBuilder; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_TYPETEXTCOMPONENT_AWAKE_OFFSET UNITYSDK_OFFSET(0x18DEDD70)
-#define MOLEMOLE_TYPETEXTCOMPONENT_ISSKIPPABLE_OFFSET UNITYSDK_OFFSET(0x18DEE8C0)
-#define MOLEMOLE_TYPETEXTCOMPONENT_METHOD_5_2980C679BFB3D87F_OFFSET UNITYSDK_OFFSET(0x18DEEB30)
-#define MOLEMOLE_TYPETEXTCOMPONENT_METHOD_5_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0x18DEDDC0)
-#define MOLEMOLE_TYPETEXTCOMPONENT_METHOD_5_EDA3BF517BF539B0_OFFSET UNITYSDK_OFFSET(0x18DEE230)
-#define MOLEMOLE_TYPETEXTCOMPONENT_SETONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x18DEE910)
-#define MOLEMOLE_TYPETEXTCOMPONENT_SETREALTEXT_OFFSET UNITYSDK_OFFSET(0x18DEDFF0)
-#define MOLEMOLE_TYPETEXTCOMPONENT_SETTEXT_OFFSET UNITYSDK_OFFSET(0x18DEE040)
-#define MOLEMOLE_TYPETEXTCOMPONENT_SKIPTYPETEXT_OFFSET UNITYSDK_OFFSET(0x18DEE6A0)
-#define MOLEMOLE_TYPETEXTCOMPONENT_TYPETEXT_OFFSET UNITYSDK_OFFSET(0x18DEE610)
-#define MOLEMOLE_TYPETEXTCOMPONENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x18DEDF90)
-#define MOLEMOLE_TYPETEXTCOMPONENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x18DEE9D0)
-#define MOLEMOLE_TYPETEXTCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18DEE960)
+#define MOLEMOLE_TYPETEXTCOMPONENT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1A0FEF80)
+#define MOLEMOLE_TYPETEXTCOMPONENT_BBOMJDBNHIC_OFFSET UNITYSDK_OFFSET(0x1A0FEFD0)
+#define MOLEMOLE_TYPETEXTCOMPONENT_GMNAMJKDPEF_OFFSET UNITYSDK_OFFSET(0x1A0FF440)
+#define MOLEMOLE_TYPETEXTCOMPONENT_ISSKIPPABLE_OFFSET UNITYSDK_OFFSET(0x1A0FFAD0)
+#define MOLEMOLE_TYPETEXTCOMPONENT_KNALGDKFNKO_OFFSET UNITYSDK_OFFSET(0x1A0FFD40)
+#define MOLEMOLE_TYPETEXTCOMPONENT_SETONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1A0FFB20)
+#define MOLEMOLE_TYPETEXTCOMPONENT_SETREALTEXT_OFFSET UNITYSDK_OFFSET(0x1A0FF200)
+#define MOLEMOLE_TYPETEXTCOMPONENT_SETTEXT_OFFSET UNITYSDK_OFFSET(0x1A0FF250)
+#define MOLEMOLE_TYPETEXTCOMPONENT_SKIPTYPETEXT_OFFSET UNITYSDK_OFFSET(0x1A0FF8B0)
+#define MOLEMOLE_TYPETEXTCOMPONENT_TYPETEXT_OFFSET UNITYSDK_OFFSET(0x1A0FF820)
+#define MOLEMOLE_TYPETEXTCOMPONENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A0FF1A0)
+#define MOLEMOLE_TYPETEXTCOMPONENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0FFBE0)
+#define MOLEMOLE_TYPETEXTCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0FFB70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TypeTextComponent_TypeDefinitionIndex = 72446;
+	inline static constexpr unsigned int TypeTextComponent_TypeDefinitionIndex = 91392;
 
 	class TypeTextComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_5()
+		static ::Il2CppArray<::System::String*>** StaticGet_KKFJOFHIDKO()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeTextComponent_TypeDefinitionIndex)->GetStaticField(0x42890);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeTextComponent_TypeDefinitionIndex)->GetStaticField(0x48850);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_Field_5_6()
+		static ::Il2CppArray<::System::String*>** StaticGet_ACJOOMHJBKL()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeTextComponent_TypeDefinitionIndex)->GetStaticField(0x42898);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeTextComponent_TypeDefinitionIndex)->GetStaticField(0x48858);
 		}
-		// static const ::System::String* Field_5_13; // 0x0
-		// static const ::System::String* Field_5_12; // 0x0
+		// static const ::System::String* GHKMCKFELCB; // 0x0
+		// static const ::System::String* EMBAABDJLNO; // 0x0
 		::System::Single _defaultSpeed; // 0x18
-		::UnityEngine::UI::Text* Field_5_2; // 0x20
-		::System::String* Field_5_1; // 0x28
-		::System::String* Field_5_0; // 0x30
-		::UnityEngine::Coroutine* Field_5_7; // 0x38
-		::MoleMole::TypeTextComponent_Class_3_50D343C44D28BEFB_5* Field_5_4; // 0x40
-		::System::Single Field_5_11; // 0x48
-		::System::Single Field_5_10; // 0x4C
-		::System::Text::StringBuilder* Field_5_9; // 0x50
-		::System::Boolean Field_5_8; // 0x58
-		::System::String* Field_5_15; // 0x60
-		::System::Int32 Field_5_14; // 0x68
+		::System::Byte _padding0[0x4];
+		::UnityEngine::UI::Text* GFKCABHFFEE; // 0x20
+		::System::String* GMGJKAMJMCE; // 0x28
+		::System::String* FNBBCAPLIKM; // 0x30
+		::UnityEngine::Coroutine* ODGLAEOBKFJ; // 0x38
+		::MoleMole::TypeTextComponent_MPDLPMIBGHK* KNFNPHEFDHM; // 0x40
+		::System::Single OABDJPFOHJP; // 0x48
+		::System::Single NFGGDNFPEIK; // 0x4C
+		::System::Text::StringBuilder* BIOMAMKFIAM; // 0x50
+		::System::Boolean KPEJCPCLHCF; // 0x58
+		::System::Byte _padding1[0x7];
+		::System::String* KNDONPHAAHM; // 0x60
+		::System::Int32 NBHLNDEOEMG; // 0x68
 
 		::System::Void _ctor()
 		{
@@ -73,14 +75,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void SetRealText(::System::String* a1)
+		::System::Void SetRealText(::System::String* FCCLIEJAKLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_SETREALTEXT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_SETREALTEXT_OFFSET))(this, FCCLIEJAKLI);
 		}
 
-		::System::Void SetText(::System::String* a1, ::System::Single a2, ::System::Boolean a3)
+		::System::Void SetText(::System::String* FCCLIEJAKLI, ::System::Single IAKPGBCAAKM, ::System::Boolean KPEJCPCLHCF)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_SETTEXT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_SETTEXT_OFFSET))(this, FCCLIEJAKLI, IAKPGBCAAKM, KPEJCPCLHCF);
 		}
 
 		::System::Void SkipTypeText()
@@ -88,9 +90,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_SKIPTYPETEXT_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* TypeText(::System::String* a1)
+		::System::Collections::IEnumerator* TypeText(::System::String* FCCLIEJAKLI)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_TYPETEXT_OFFSET))(this, a1);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_TYPETEXT_OFFSET))(this, FCCLIEJAKLI);
 		}
 
 		::System::Boolean IsSkippable()
@@ -98,24 +100,24 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_ISSKIPPABLE_OFFSET))(this);
 		}
 
-		::System::Void SetOnComplete(::MoleMole::TypeTextComponent_Class_3_50D343C44D28BEFB_5* a1)
+		::System::Void SetOnComplete(::MoleMole::TypeTextComponent_MPDLPMIBGHK* HKEBHFKHBCC)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::TypeTextComponent_Class_3_50D343C44D28BEFB_5*))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_SETONCOMPLETE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::TypeTextComponent_MPDLPMIBGHK*))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_SETONCOMPLETE_OFFSET))(this, HKEBHFKHBCC);
 		}
 
-		::System::Void Method_5_97D83E4CB3B11935()
+		::System::String* KNALGDKFNKO(::System::String* FCCLIEJAKLI)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_METHOD_5_97D83E4CB3B11935_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_KNALGDKFNKO_OFFSET))(this, FCCLIEJAKLI);
 		}
 
-		::System::String* Method_5_EDA3BF517BF539B0(::System::String* a1)
+		::System::Void BBOMJDBNHIC()
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_METHOD_5_EDA3BF517BF539B0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_BBOMJDBNHIC_OFFSET))(this);
 		}
 
-		::System::String* Method_5_2980C679BFB3D87F(::System::String* a1)
+		::System::String* GMNAMJKDPEF(::System::String* FCCLIEJAKLI)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_METHOD_5_2980C679BFB3D87F_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_TYPETEXTCOMPONENT_GMNAMJKDPEF_OFFSET))(this, FCCLIEJAKLI);
 		}
 	};
 }

@@ -1,0 +1,215 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+namespace System::Security::Cryptography { class CspParameters; }
+
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_CANSECURE_OFFSET UNITYSDK_OFFSET(0x1FFCE490)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_COPY_OFFSET UNITYSDK_OFFSET(0x1FFCC870)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_FROMXML_OFFSET UNITYSDK_OFFSET(0x1FFCD8F0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_CANCHANGE_OFFSET UNITYSDK_OFFSET(0x1FFCD6E0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_CONTAINERNAME_OFFSET UNITYSDK_OFFSET(0x1FFCCA60)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1FFCC910)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_KEYVALUE_OFFSET UNITYSDK_OFFSET(0x1FFCD6C0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_MACHINEPATH_OFFSET UNITYSDK_OFFSET(0x1FFCCC80)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x1FFCD6F0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_USEDEFAULTKEYCONTAINER_OFFSET UNITYSDK_OFFSET(0x1FFCE4E0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_USEMACHINEKEYSTORE_OFFSET UNITYSDK_OFFSET(0x1FFCCC60)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_USERPATH_OFFSET UNITYSDK_OFFSET(0x1FFCD1A0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_ISMACHINEPROTECTED_OFFSET UNITYSDK_OFFSET(0x1FFCE3A0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_ISUSERPROTECTED_OFFSET UNITYSDK_OFFSET(0x1FFCE300)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_LOAD_OFFSET UNITYSDK_OFFSET(0x1FFCD7A0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_PROTECTMACHINE_OFFSET UNITYSDK_OFFSET(0x1FFCE1A0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_PROTECTUSER_OFFSET UNITYSDK_OFFSET(0x1FFCE240)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_REMOVE_OFFSET UNITYSDK_OFFSET(0x1FFCE2E0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_SAVE_OFFSET UNITYSDK_OFFSET(0x1FFCDA60)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_SET_KEYVALUE_OFFSET UNITYSDK_OFFSET(0x1FFCD6D0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_TOXML_OFFSET UNITYSDK_OFFSET(0x1FFCDDF0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__CANSECURE_OFFSET UNITYSDK_OFFSET(0x1FFCE440)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFCE500)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FFCC760)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFCC750)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__ISMACHINEPROTECTED_OFFSET UNITYSDK_OFFSET(0x1FFCE480)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__ISUSERPROTECTED_OFFSET UNITYSDK_OFFSET(0x1FFCE470)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__PROTECTMACHINE_OFFSET UNITYSDK_OFFSET(0x1FFCE460)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__PROTECTUSER_OFFSET UNITYSDK_OFFSET(0x1FFCE450)
+
+namespace Mono::Security::Cryptography
+{
+	inline static constexpr unsigned int KeyPairPersistence_9BCB17C6F5B6BBFD_TypeDefinitionIndex = 2454;
+
+	class KeyPairPersistence_9BCB17C6F5B6BBFD : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet_lockobj()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(KeyPairPersistence_9BCB17C6F5B6BBFD_TypeDefinitionIndex)->GetStaticField(0x2440);
+		}
+		static ::System::String** StaticGet__userPath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(KeyPairPersistence_9BCB17C6F5B6BBFD_TypeDefinitionIndex)->GetStaticField(0x2448);
+		}
+		static ::System::String** StaticGet__machinePath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(KeyPairPersistence_9BCB17C6F5B6BBFD_TypeDefinitionIndex)->GetStaticField(0x2450);
+		}
+		static ::System::Boolean* StaticGet__userPathExists()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(KeyPairPersistence_9BCB17C6F5B6BBFD_TypeDefinitionIndex)->GetStaticField(0xF50);
+		}
+		static ::System::Boolean* StaticGet__machinePathExists()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(KeyPairPersistence_9BCB17C6F5B6BBFD_TypeDefinitionIndex)->GetStaticField(0xF51);
+		}
+		::System::String* _keyvalue; // 0x10
+		::System::String* _filename; // 0x18
+		::System::String* _container; // 0x20
+		::System::Security::Cryptography::CspParameters* _params; // 0x28
+
+		::System::Void _ctor(::System::Security::Cryptography::CspParameters* parameters)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::CspParameters*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__CTOR_OFFSET))(this, parameters);
+		}
+
+		::System::Void _ctor_1(::System::Security::Cryptography::CspParameters* parameters, ::System::String* keyPair)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::CspParameters*, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__CTOR_1_OFFSET))(this, parameters, keyPair);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__CCTOR_OFFSET))();
+		}
+
+		::System::String* get_Filename()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_FILENAME_OFFSET))(this);
+		}
+
+		::System::String* get_KeyValue()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_KEYVALUE_OFFSET))(this);
+		}
+
+		::System::Void set_KeyValue(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_SET_KEYVALUE_OFFSET))(this, value);
+		}
+
+		::System::Security::Cryptography::CspParameters* get_Parameters()
+		{
+			return ((::System::Security::Cryptography::CspParameters*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_PARAMETERS_OFFSET))(this);
+		}
+
+		::System::Boolean Load()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_LOAD_OFFSET))(this);
+		}
+
+		::System::Void Save()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_SAVE_OFFSET))(this);
+		}
+
+		::System::Void Remove()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_REMOVE_OFFSET))(this);
+		}
+
+		static ::System::String* get_UserPath()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_USERPATH_OFFSET))();
+		}
+
+		static ::System::String* get_MachinePath()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_MACHINEPATH_OFFSET))();
+		}
+
+		static ::System::Boolean _CanSecure(::System::String* root)
+		{
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__CANSECURE_OFFSET))(root);
+		}
+
+		static ::System::Boolean _ProtectUser(::System::String* path)
+		{
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__PROTECTUSER_OFFSET))(path);
+		}
+
+		static ::System::Boolean _ProtectMachine(::System::String* path)
+		{
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__PROTECTMACHINE_OFFSET))(path);
+		}
+
+		static ::System::Boolean _IsUserProtected(::System::String* path)
+		{
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__ISUSERPROTECTED_OFFSET))(path);
+		}
+
+		static ::System::Boolean _IsMachineProtected(::System::String* path)
+		{
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD__ISMACHINEPROTECTED_OFFSET))(path);
+		}
+
+		static ::System::Boolean CanSecure(::System::String* path)
+		{
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_CANSECURE_OFFSET))(path);
+		}
+
+		static ::System::Boolean ProtectUser(::System::String* path)
+		{
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_PROTECTUSER_OFFSET))(path);
+		}
+
+		static ::System::Boolean ProtectMachine(::System::String* path)
+		{
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_PROTECTMACHINE_OFFSET))(path);
+		}
+
+		static ::System::Boolean IsUserProtected(::System::String* path)
+		{
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_ISUSERPROTECTED_OFFSET))(path);
+		}
+
+		static ::System::Boolean IsMachineProtected(::System::String* path)
+		{
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_ISMACHINEPROTECTED_OFFSET))(path);
+		}
+
+		::System::Boolean get_CanChange()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_CANCHANGE_OFFSET))(this);
+		}
+
+		::System::Boolean get_UseDefaultKeyContainer()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_USEDEFAULTKEYCONTAINER_OFFSET))(this);
+		}
+
+		::System::Boolean get_UseMachineKeyStore()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_USEMACHINEKEYSTORE_OFFSET))(this);
+		}
+
+		::System::String* get_ContainerName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_GET_CONTAINERNAME_OFFSET))(this);
+		}
+
+		::System::Security::Cryptography::CspParameters* Copy(::System::Security::Cryptography::CspParameters* p)
+		{
+			return ((::System::Security::Cryptography::CspParameters*(*)(::PVOID, ::System::Security::Cryptography::CspParameters*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_COPY_OFFSET))(this, p);
+		}
+
+		::System::Void FromXml(::System::String* xml)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_FROMXML_OFFSET))(this, xml);
+		}
+
+		::System::String* ToXml()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYPAIRPERSISTENCE_9BCB17C6F5B6BBFD_TOXML_OFFSET))(this);
+		}
+	};
+}

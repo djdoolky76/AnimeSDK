@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Coroutine/CoroutineHandle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/Coroutine/CoroutineHandle.h"
 
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS129_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7815D0)
-#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS129_0___STARTWHENDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1F7815E0)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS129_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9C78B0)
+#define FOUNDATION_COROUTINE_COROUTINEMANAGER___C__DISPLAYCLASS129_0___STARTWHENDONE_B__0_OFFSET UNITYSDK_OFFSET(0x1F9C78C0)
 
 namespace Foundation::Coroutine
 {
-	inline static constexpr unsigned int CoroutineManager___c__DisplayClass129_0_TypeDefinitionIndex = 8051;
+	inline static constexpr unsigned int CoroutineManager___c__DisplayClass129_0_TypeDefinitionIndex = 8538;
 
 	class CoroutineManager___c__DisplayClass129_0 : public ::System::Object
 	{

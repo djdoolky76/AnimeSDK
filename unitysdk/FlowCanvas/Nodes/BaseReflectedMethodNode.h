@@ -1,36 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/ParamDef.h"
-#include "unitysdk/FlowCanvas/Nodes/ParametresDef.h"
 #include "unitysdk/FlowCanvas/Nodes/ReflectedMethodRegistrationOptions.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Nodes/ParametresDef.h"
 
-namespace FlowCanvas { class FlowNode; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class MethodInfo; }
 
-#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_ADD_ONGETAOTREFLECTEDMETHODNODE_OFFSET UNITYSDK_OFFSET(0x1E8B6400)
-#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_GETMETHODNODE_OFFSET UNITYSDK_OFFSET(0x1E8B6520)
-#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_INIT_OFFSET UNITYSDK_OFFSET(0x1E8B6740)
-#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_REMOVE_ONGETAOTREFLECTEDMETHODNODE_OFFSET UNITYSDK_OFFSET(0x1E8B6490)
-#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B6950)
+#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_ADD_ONGETAOTREFLECTEDMETHODNODE_OFFSET UNITYSDK_OFFSET(0x1EB7BD30)
+#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_GETMETHODNODE_OFFSET UNITYSDK_OFFSET(0x1EB7BE50)
+#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_INIT_OFFSET UNITYSDK_OFFSET(0x1EB7C070)
+#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE_REMOVE_ONGETAOTREFLECTEDMETHODNODE_OFFSET UNITYSDK_OFFSET(0x1EB7BDC0)
+#define FLOWCANVAS_NODES_BASEREFLECTEDMETHODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7C280)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int BaseReflectedMethodNode_TypeDefinitionIndex = 29767;
+	inline static constexpr unsigned int BaseReflectedMethodNode_TypeDefinitionIndex = 30047;
 
 	class BaseReflectedMethodNode : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Reflection::MethodInfo*, ::FlowCanvas::Nodes::BaseReflectedMethodNode*>** StaticGet_OnGetAotReflectedMethodNode()
 		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::FlowCanvas::Nodes::BaseReflectedMethodNode*>**)Il2CppClass::FromTypeDefinitionIndex(BaseReflectedMethodNode_TypeDefinitionIndex)->GetStaticField(0x25E70);
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::FlowCanvas::Nodes::BaseReflectedMethodNode*>**)Il2CppClass::FromTypeDefinitionIndex(BaseReflectedMethodNode_TypeDefinitionIndex)->GetStaticField(0x27240);
 		}
-		::System::Reflection::MethodInfo* methodInfo; // 0x10
-		::FlowCanvas::Nodes::ParamDef instanceDef; // 0x18
-		::System::Collections::Generic::List_1<::FlowCanvas::Nodes::ParamDef>* paramDefinitions; // 0x50
-		::FlowCanvas::Nodes::ParamDef resultDef; // 0x58
+		::FlowCanvas::Nodes::ParamDef resultDef; // 0x10
+		::System::Collections::Generic::List_1<::FlowCanvas::Nodes::ParamDef>* paramDefinitions; // 0x48
+		::System::Reflection::MethodInfo* methodInfo; // 0x50
+		::FlowCanvas::Nodes::ParamDef instanceDef; // 0x58
 		::FlowCanvas::Nodes::ReflectedMethodRegistrationOptions options; // 0x90
 
 		::System::Void _ctor()

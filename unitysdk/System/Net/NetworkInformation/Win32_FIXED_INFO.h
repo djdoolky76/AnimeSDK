@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_FIXED_INFO_TypeDefinitionIndex = 3835;
+	inline static constexpr unsigned int Win32_FIXED_INFO_TypeDefinitionIndex = 3834;
 
 	struct alignas(8) Win32_FIXED_INFO
 	{
@@ -20,6 +20,7 @@ namespace System::Net::NetworkInformation
 		::System::IntPtr CurrentDnsServer; // 0x20
 		::System::Net::NetworkInformation::Win32_IP_ADDR_STRING DnsServerList; // 0x28
 		::System::Net::NetworkInformation::NetBiosNodeType NodeType; // 0x48
+		::System::Byte _padding0[0x4];
 		::System::String* ScopeId; // 0x50
 		::System::UInt32 EnableRouting; // 0x58
 		::System::UInt32 EnableProxy; // 0x5C

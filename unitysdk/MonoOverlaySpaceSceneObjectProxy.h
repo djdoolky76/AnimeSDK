@@ -1,48 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MonoOverlaySpaceSceneObjectProxy_TargetState.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/StencilComFunc.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace UnityEngine { class MeshRenderer; }
 
-#define MONOOVERLAYSPACESCENEOBJECTPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C3FFEC0)
-#define MONOOVERLAYSPACESCENEOBJECTPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C3FFAD0)
-#define MONOOVERLAYSPACESCENEOBJECTPROXY_SETMATERIALS_OFFSET UNITYSDK_OFFSET(0x1C400100)
-#define MONOOVERLAYSPACESCENEOBJECTPROXY_SETTOTARGETSTATE_OFFSET UNITYSDK_OFFSET(0x1C3FFDC0)
-#define MONOOVERLAYSPACESCENEOBJECTPROXY_SETUNVISIBLEFROMMIRRORSPACE_OFFSET UNITYSDK_OFFSET(0x1C4000A0)
-#define MONOOVERLAYSPACESCENEOBJECTPROXY_SETVISIBLEFROMMIRRORSPACE_OFFSET UNITYSDK_OFFSET(0x1C400040)
-#define MONOOVERLAYSPACESCENEOBJECTPROXY_SETVISIBLENORMAL_OFFSET UNITYSDK_OFFSET(0x1C3FFFE0)
-#define MONOOVERLAYSPACESCENEOBJECTPROXY_TRYREBINDCHILDRENDERER_OFFSET UNITYSDK_OFFSET(0x1C3FFCD0)
-#define MONOOVERLAYSPACESCENEOBJECTPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C400790)
-#define MONOOVERLAYSPACESCENEOBJECTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C400740)
+#define MONOOVERLAYSPACESCENEOBJECTPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C825D10)
+#define MONOOVERLAYSPACESCENEOBJECTPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C825B40)
+#define MONOOVERLAYSPACESCENEOBJECTPROXY_SETMATERIALS_OFFSET UNITYSDK_OFFSET(0x1C826030)
+#define MONOOVERLAYSPACESCENEOBJECTPROXY_SETTOTARGETSTATE_OFFSET UNITYSDK_OFFSET(0x1C825C10)
+#define MONOOVERLAYSPACESCENEOBJECTPROXY_SETUNVISIBLEFROMMIRRORSPACE_OFFSET UNITYSDK_OFFSET(0x1C825EF0)
+#define MONOOVERLAYSPACESCENEOBJECTPROXY_SETVISIBLEFROMMIRRORSPACE_OFFSET UNITYSDK_OFFSET(0x1C825E90)
+#define MONOOVERLAYSPACESCENEOBJECTPROXY_SETVISIBLENORMAL_OFFSET UNITYSDK_OFFSET(0x1C825E30)
+#define MONOOVERLAYSPACESCENEOBJECTPROXY_TRYREBINDCHILDRENDERER_OFFSET UNITYSDK_OFFSET(0x1C825F50)
+#define MONOOVERLAYSPACESCENEOBJECTPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C826740)
+#define MONOOVERLAYSPACESCENEOBJECTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8266F0)
 
-inline static constexpr unsigned int MonoOverlaySpaceSceneObjectProxy_TypeDefinitionIndex = 27559;
+inline static constexpr unsigned int MonoOverlaySpaceSceneObjectProxy_TypeDefinitionIndex = 27042;
 
 class MonoOverlaySpaceSceneObjectProxy : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Int32* StaticGet__StencilCompFunc()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoOverlaySpaceSceneObjectProxy_TypeDefinitionIndex)->GetStaticField(0x7660);
-	}
-	static ::System::Int32* StaticGet__StencilWriteMask()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoOverlaySpaceSceneObjectProxy_TypeDefinitionIndex)->GetStaticField(0x7664);
-	}
 	static ::System::Int32* StaticGet__StencilReadMask()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoOverlaySpaceSceneObjectProxy_TypeDefinitionIndex)->GetStaticField(0x7668);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoOverlaySpaceSceneObjectProxy_TypeDefinitionIndex)->GetStaticField(0x76E0);
+	}
+	static ::System::Int32* StaticGet__StencilCompFunc()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoOverlaySpaceSceneObjectProxy_TypeDefinitionIndex)->GetStaticField(0x76E4);
 	}
 	static ::System::Int32* StaticGet_s_NeedClearStencil421Count()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoOverlaySpaceSceneObjectProxy_TypeDefinitionIndex)->GetStaticField(0x766C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoOverlaySpaceSceneObjectProxy_TypeDefinitionIndex)->GetStaticField(0x76E8);
 	}
 	static ::System::Int32* StaticGet__SceneStencil()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoOverlaySpaceSceneObjectProxy_TypeDefinitionIndex)->GetStaticField(0x7670);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoOverlaySpaceSceneObjectProxy_TypeDefinitionIndex)->GetStaticField(0x76EC);
+	}
+	static ::System::Int32* StaticGet__StencilWriteMask()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoOverlaySpaceSceneObjectProxy_TypeDefinitionIndex)->GetStaticField(0x76F0);
 	}
 	::MonoOverlaySpaceSceneObjectProxy_TargetState targetState; // 0x18
+	::System::Byte _padding0[0x4];
 	::Il2CppArray<::UnityEngine::MeshRenderer*>* m_ChildRenderers; // 0x20
 
 	::System::Void _ctor()

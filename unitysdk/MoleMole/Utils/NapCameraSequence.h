@@ -1,43 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_2BD1943B012482C0.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceCollection_5.h"
-#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
+#include "unitysdk/HLGHOFNBMLE.h"
 
 namespace MoleMole::Utils { class NapCameraSequenceDataTable; }
-namespace PipelineCamera::CameraSequence { class CoreDataCollectionAdditiveTrack; }
-namespace PipelineCamera::CameraSequence { class CoreDataCollectionSegment; }
-namespace PipelineCamera::CameraSequence { class CoreDataCollectionTrack; }
-namespace PipelineCamera::CameraSequence { class CoreDataComposite; }
 namespace System { class Type; }
 
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_GETCONTEXTTYPE_OFFSET UNITYSDK_OFFSET(0x12B26360)
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x12B26610)
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B266C0)
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x12B26660)
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE___BASE_GETCONTEXTTYPE_OFFSET UNITYSDK_OFFSET(0x12B26770)
-#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE___BASE_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x12B26780)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_GETCONTEXTTYPE_OFFSET UNITYSDK_OFFSET(0x13EB1E50)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x13EB2100)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x13EB21B0)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x13EB2150)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE___BASE_GETCONTEXTTYPE_OFFSET UNITYSDK_OFFSET(0x13EB2260)
+#define MOLEMOLE_UTILS_NAPCAMERASEQUENCE___BASE_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x13EB2270)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int NapCameraSequence_TypeDefinitionIndex = 53635;
+	inline static constexpr unsigned int NapCameraSequence_TypeDefinitionIndex = 72343;
 
-	class NapCameraSequence : public ::PipelineCamera::CameraSequence::CameraSequenceCollection_5<::PipelineCamera::CameraSequence::CoreDataComposite*, ::PipelineCamera::CameraSequence::CoreDataCollectionSegment*, ::PipelineCamera::CameraSequence::CoreDataCollectionTrack*, ::PipelineCamera::CameraSequence::CoreDataCollectionAdditiveTrack*, ::PipelineCamera::WorldBasicCameraData>
+	class NapCameraSequence
 	{
 	public:
-		static ::System::Type** StaticGet_ContextType()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(NapCameraSequence_TypeDefinitionIndex)->GetStaticField(0x47470);
-		}
 		static ::System::Type** StaticGet_GenericContextType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(NapCameraSequence_TypeDefinitionIndex)->GetStaticField(0x47478);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(NapCameraSequence_TypeDefinitionIndex)->GetStaticField(0x4C640);
 		}
 		static ::Il2CppArray<::System::Type*>** StaticGet__typeArgs()
 		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(NapCameraSequence_TypeDefinitionIndex)->GetStaticField(0x47480);
+			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(NapCameraSequence_TypeDefinitionIndex)->GetStaticField(0x4C648);
 		}
-		::Enum_3_2BD1943B012482C0 slotToPlay; // 0xA8
+		static ::System::Type** StaticGet_ContextType()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(NapCameraSequence_TypeDefinitionIndex)->GetStaticField(0x4C650);
+		}
+		::HLGHOFNBMLE slotToPlay; // 0xA8
+		::System::Byte _padding0[0x4];
 		::MoleMole::Utils::NapCameraSequenceDataTable* configTable; // 0xB0
 
 		::System::Void _ctor()

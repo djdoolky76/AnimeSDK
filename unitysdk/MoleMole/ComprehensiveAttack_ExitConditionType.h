@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComprehensiveAttack_ExitConditionType_TypeDefinitionIndex = 60327;
+	inline static constexpr unsigned int ComprehensiveAttack_ExitConditionType_TypeDefinitionIndex = 74997;
 
 	enum class ComprehensiveAttack_ExitConditionType : ::System::Int32
 	{

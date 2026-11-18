@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIWishlistCustomPlanSettingPopWindowController___c__DisplayClass19_0; }
-
-#define MOLEMOLE_UIWISHLISTCUSTOMPLANSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_1__CTOR_OFFSET UNITYSDK_OFFSET(0x140DEF70)
-#define MOLEMOLE_UIWISHLISTCUSTOMPLANSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_1__REFRESHAVATARTYPEVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x140DEF80)
+#define MOLEMOLE_UIWISHLISTCUSTOMPLANSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1719A830)
+#define MOLEMOLE_UIWISHLISTCUSTOMPLANSETTINGPOPWINDOWCONTROLLER___C__DISPLAYCLASS19_1__REFRESHAVATARTYPEVIEW_B__1_OFFSET UNITYSDK_OFFSET(0x1719A840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWishlistCustomPlanSettingPopWindowController___c__DisplayClass19_1_TypeDefinitionIndex = 60357;
+	inline static constexpr unsigned int UIWishlistCustomPlanSettingPopWindowController___c__DisplayClass19_1_TypeDefinitionIndex = 79211;
 
+	template <typename T>
 	class UIWishlistCustomPlanSettingPopWindowController___c__DisplayClass19_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIWishlistCustomPlanSettingPopWindowController___c__DisplayClass19_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::UInt32 maxLevel; // 0x18
 
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int GradientFillType_TypeDefinitionIndex = 31776;
+	inline static constexpr unsigned int GradientFillType_TypeDefinitionIndex = 31214;
 
 	enum class GradientFillType : ::System::Int32
 	{

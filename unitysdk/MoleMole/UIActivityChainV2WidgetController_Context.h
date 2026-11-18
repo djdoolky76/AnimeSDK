@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_F71F7FB55BBEB1D9;
+class MBHOGLGMFEM;
 
-#define MOLEMOLE_UIACTIVITYCHAINV2WIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x196E4FB0)
+#define MOLEMOLE_UIACTIVITYCHAINV2WIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F87290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityChainV2WidgetController_Context_TypeDefinitionIndex = 86408;
+	inline static constexpr unsigned int UIActivityChainV2WidgetController_Context_TypeDefinitionIndex = 75658;
 
 	class UIActivityChainV2WidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_F71F7FB55BBEB1D9* storeData; // 0x28
+		::MBHOGLGMFEM* storeData; // 0x28
 
 		::System::Void _ctor()
 		{

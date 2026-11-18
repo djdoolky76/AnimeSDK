@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CalendricalCalculationsHelper_CorrectionAlgorithm_TypeDefinitionIndex = 698;
+	inline static constexpr unsigned int CalendricalCalculationsHelper_CorrectionAlgorithm_TypeDefinitionIndex = 697;
 
 	enum class CalendricalCalculationsHelper_CorrectionAlgorithm : ::System::Int32
 	{

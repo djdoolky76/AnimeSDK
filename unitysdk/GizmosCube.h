@@ -7,16 +7,17 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define GIZMOSCUBE_START_OFFSET UNITYSDK_OFFSET(0xEC95B00)
-#define GIZMOSCUBE__CTOR_OFFSET UNITYSDK_OFFSET(0xEC95C70)
+#define GIZMOSCUBE_START_OFFSET UNITYSDK_OFFSET(0x17A31570)
+#define GIZMOSCUBE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A316E0)
 
-inline static constexpr unsigned int GizmosCube_TypeDefinitionIndex = 43828;
+inline static constexpr unsigned int GizmosCube_TypeDefinitionIndex = 71204;
 
 class GizmosCube : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::UnityEngine::Transform* m_Transform; // 0x18
 	::System::Int32 m_Id; // 0x20
+	::System::Byte _padding0[0x4];
 	::System::String* m_MyName; // 0x28
 	::System::Int32 m_Enable; // 0x30
 	::UnityEngine::Vector3 m_Size; // 0x34

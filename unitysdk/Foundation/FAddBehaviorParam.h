@@ -9,15 +9,17 @@ namespace Foundation { class ITimestamp; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FAddBehaviorParam_TypeDefinitionIndex = 8685;
+	inline static constexpr unsigned int FAddBehaviorParam_TypeDefinitionIndex = 9103;
 
 	struct alignas(8) FAddBehaviorParam
 	{
 		::Foundation::FBehaviorInstanceTime Time; // 0x10
 		::Foundation::FBehaviorInstanceCallback Callback; // 0x30
 		::System::Int32 Priority; // 0x50
+		::System::Byte _padding0[0x4];
 		::Foundation::ITimestamp* Timestamp; // 0x58
 		::Foundation::Variable_2<::System::Single, ::System::Double> BlendInAlpha; // 0x60
+		::System::Byte _padding1[0x10];
 		::Foundation::Variable_2<::System::Single, ::System::Double> BlendOutAlpha; // 0x78
 	};
 }

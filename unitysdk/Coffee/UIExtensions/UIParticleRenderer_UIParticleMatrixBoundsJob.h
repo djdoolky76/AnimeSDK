@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UIPARTICLEMATRIXBOUNDSJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0xA11220)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_UIPARTICLEMATRIXBOUNDSJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x8E4460)
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticleRenderer_UIParticleMatrixBoundsJob_TypeDefinitionIndex = 34867;
+	inline static constexpr unsigned int UIParticleRenderer_UIParticleMatrixBoundsJob_TypeDefinitionIndex = 34413;
 
-	struct alignas(1) UIParticleRenderer_UIParticleMatrixBoundsJob
+	struct alignas(4) UIParticleRenderer_UIParticleMatrixBoundsJob
 	{
 		::System::Void Execute(::System::Int32 index)
 		{

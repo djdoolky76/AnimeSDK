@@ -4,11 +4,11 @@
 
 namespace System::Runtime::Remoting { class ObjRef; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADOBJREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC01B50)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADOBJREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF82A30)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int CADObjRef_TypeDefinitionIndex = 1333;
+	inline static constexpr unsigned int CADObjRef_TypeDefinitionIndex = 1332;
 
 	class CADObjRef : public ::System::Object
 	{

@@ -5,21 +5,21 @@
 
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE_GET_CONTINIOUSVALIDATIONCHECK_OFFSET UNITYSDK_OFFSET(0x1F772CB0)
-#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE_SET_CONTINIOUSVALIDATIONCHECK_OFFSET UNITYSDK_OFFSET(0x1F772CC0)
-#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F772CF0)
-#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F772CD0)
+#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE_GET_CONTINIOUSVALIDATIONCHECK_OFFSET UNITYSDK_OFFSET(0x1FB82F30)
+#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE_SET_CONTINIOUSVALIDATIONCHECK_OFFSET UNITYSDK_OFFSET(0x1FB82F40)
+#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FB82F70)
+#define SIRENIX_ODININSPECTOR_VALIDATEINPUTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB82F50)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int ValidateInputAttribute_TypeDefinitionIndex = 7382;
+	inline static constexpr unsigned int ValidateInputAttribute_TypeDefinitionIndex = 7389;
 
 	class ValidateInputAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* DefaultMessage; // 0x10
+		::System::String* MemberName; // 0x10
 		::System::String* Condition; // 0x18
-		::System::String* MemberName; // 0x20
+		::System::String* DefaultMessage; // 0x20
 		::Sirenix::OdinInspector::InfoMessageType MessageType; // 0x28
 		::System::Boolean ContinuousValidationCheck; // 0x2C
 		::System::Boolean IncludeChildren; // 0x2D

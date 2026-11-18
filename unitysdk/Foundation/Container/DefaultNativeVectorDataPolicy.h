@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FOUNDATION_CONTAINER_DEFAULTNATIVEVECTORDATAPOLICY_CALCULATECAPACITYFORRESERVE_OFFSET UNITYSDK_OFFSET(0x1F465D70)
+#define FOUNDATION_CONTAINER_DEFAULTNATIVEVECTORDATAPOLICY_CALCULATECAPACITYFORRESERVE_OFFSET UNITYSDK_OFFSET(0x1F862F90)
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int DefaultNativeVectorDataPolicy_TypeDefinitionIndex = 8798;
+	inline static constexpr unsigned int DefaultNativeVectorDataPolicy_TypeDefinitionIndex = 8826;
 
 	class DefaultNativeVectorDataPolicy : public ::System::Object
 	{

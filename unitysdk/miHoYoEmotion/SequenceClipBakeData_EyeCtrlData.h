@@ -3,21 +3,21 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/miHoYoEmotion/SequenceBakeData_BakeData.h"
 
-#define MIHOYOEMOTION_SEQUENCECLIPBAKEDATA_EYECTRLDATA_LERP_OFFSET UNITYSDK_OFFSET(0x1D0274D0)
-#define MIHOYOEMOTION_SEQUENCECLIPBAKEDATA_EYECTRLDATA_RESETDATA_OFFSET UNITYSDK_OFFSET(0x1D027220)
-#define MIHOYOEMOTION_SEQUENCECLIPBAKEDATA_EYECTRLDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D04F6B0)
-#define MIHOYOEMOTION_SEQUENCECLIPBAKEDATA_EYECTRLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D027A20)
+#define MIHOYOEMOTION_SEQUENCECLIPBAKEDATA_EYECTRLDATA_LERP_OFFSET UNITYSDK_OFFSET(0x1D57A9D0)
+#define MIHOYOEMOTION_SEQUENCECLIPBAKEDATA_EYECTRLDATA_RESETDATA_OFFSET UNITYSDK_OFFSET(0x1D57A720)
+#define MIHOYOEMOTION_SEQUENCECLIPBAKEDATA_EYECTRLDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5A31B0)
+#define MIHOYOEMOTION_SEQUENCECLIPBAKEDATA_EYECTRLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D57AF20)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int SequenceClipBakeData_EyeCtrlData_TypeDefinitionIndex = 40032;
+	inline static constexpr unsigned int SequenceClipBakeData_EyeCtrlData_TypeDefinitionIndex = 38073;
 
 	class SequenceClipBakeData_EyeCtrlData : public ::miHoYoEmotion::SequenceBakeData_BakeData
 	{
 	public:
 		static ::miHoYoEmotion::SequenceClipBakeData_EyeCtrlData** StaticGet_dummyData()
 		{
-			return (::miHoYoEmotion::SequenceClipBakeData_EyeCtrlData**)Il2CppClass::FromTypeDefinitionIndex(SequenceClipBakeData_EyeCtrlData_TypeDefinitionIndex)->GetStaticField(0x2C840);
+			return (::miHoYoEmotion::SequenceClipBakeData_EyeCtrlData**)Il2CppClass::FromTypeDefinitionIndex(SequenceClipBakeData_EyeCtrlData_TypeDefinitionIndex)->GetStaticField(0x2DBA0);
 		}
 		::System::Single startTime; // 0x18
 		::UnityEngine::Vector3 leftEyeRot; // 0x1C
@@ -25,6 +25,7 @@ namespace miHoYoEmotion
 		::UnityEngine::Vector3 leftScale; // 0x34
 		::UnityEngine::Vector3 rightScale; // 0x40
 		::System::Boolean starEye; // 0x4C
+		::System::Byte _padding0[0x3];
 		::System::Single faceFlush; // 0x50
 
 		::System::Void _ctor()

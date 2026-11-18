@@ -10,9 +10,9 @@ namespace FluffyUnderware::Curvy::Generator::Modules { class ModifierTRSShape; }
 namespace FluffyUnderware::Curvy::Shapes { class CSRectangle; }
 namespace UnityEngine { class GameObject; }
 
-#define TRAMROADMESHGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18B49E70)
+#define TRAMROADMESHGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x194CA8D0)
 
-inline static constexpr unsigned int TramroadMeshGenerator_TypeDefinitionIndex = 55955;
+inline static constexpr unsigned int TramroadMeshGenerator_TypeDefinitionIndex = 58717;
 
 class TramroadMeshGenerator : public ::UnityEngine::MonoBehaviour
 {
@@ -21,6 +21,7 @@ public:
 	::System::Single height; // 0x20
 	::System::Single distance; // 0x24
 	::System::Int32 subdivision; // 0x28
+	::System::Byte _padding0[0x4];
 	::FluffyUnderware::Curvy::Generator::Modules::InputSplinePath* inputSplinePath; // 0x30
 	::FluffyUnderware::Curvy::Shapes::CSRectangle* rectangleShape; // 0x38
 	::FluffyUnderware::Curvy::Generator::Modules::ModifierPathRelativeTranslation* pathOffset1; // 0x40

@@ -1,50 +1,56 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Vector4.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/PunctualLightShadowCasterPass_ShadowAtlasDynamicUpdateRequest.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PunctualLightShadowCasterPass_ShadowAtlasStaticUpdateRequest.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
-#include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-#include "unitysdk/UnityEngine/Vector4.h"
 
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_CONVERTTOATLASMATRIX_OFFSET UNITYSDK_OFFSET(0x1EA626D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_EXECUTECACHED_OFFSET UNITYSDK_OFFSET(0x1EA60E90)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA5FE80)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_FINISHDYNAMICREQ_OFFSET UNITYSDK_OFFSET(0x1EA628E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_SETTILEVIEWPORT_OFFSET UNITYSDK_OFFSET(0x1EA62670)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_SETUPCACHED_OFFSET UNITYSDK_OFFSET(0x1EA60020)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5FD20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_CONVERTTOATLASMATRIX_OFFSET UNITYSDK_OFFSET(0x1ED9EF20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_EXECUTECACHED_OFFSET UNITYSDK_OFFSET(0x1ED9D6E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1ED9C6C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_FINISHDYNAMICREQ_OFFSET UNITYSDK_OFFSET(0x1ED9F130)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_SETTILEVIEWPORT_OFFSET UNITYSDK_OFFSET(0x1ED9EEC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_SETUPCACHED_OFFSET UNITYSDK_OFFSET(0x1ED9C860)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED9C560)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PunctualLightShadowCasterPass_TypeDefinitionIndex = 5813;
+	inline static constexpr unsigned int PunctualLightShadowCasterPass_TypeDefinitionIndex = 5819;
 
 	class PunctualLightShadowCasterPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		::System::Single m_LastReportErrorTime; // 0xA8
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Profiling::CustomSampler* m_Sampler; // 0xB0
 		::System::Boolean isPlanarReflectionCameraAndUseBoundCameraShadowMap_Punctual; // 0xB8
-		::Il2CppArray<::UnityEngine::NAPRenderPipeline0::PunctualLightShadowCasterPass_ShadowAtlasStaticUpdateRequest>* staticUpdateRequests; // 0xC0
+		::System::Byte _padding1[0x7];
+		::Il2CppArray<::System::Object*>* staticUpdateRequests; // 0xC0
 		::System::Int32 staticUpdateCnt; // 0xC8
-		::Il2CppArray<::UnityEngine::NAPRenderPipeline0::PunctualLightShadowCasterPass_ShadowAtlasDynamicUpdateRequest>* dynamicUpdateRequests; // 0xD0
+		::System::Byte _padding2[0x4];
+		::Il2CppArray<::System::Object*>* dynamicUpdateRequests; // 0xD0
 		::System::Int32 dynamicUpdateCnt; // 0xD8
+		::System::Byte _padding3[0x4];
 		::Il2CppArray<::UnityEngine::Vector4>* blitDepthTileParams; // 0xE0
 		::System::Int32 blitTileCnt; // 0xE8
+		::System::Byte _padding4[0x4];
 		::System::Collections::Generic::List_1<::System::UInt64>* emptyBlitKeys; // 0xF0
 		::System::Int32 cachedAtlasSize; // 0xF8
 		::System::Int32 cachedTileSize; // 0xFC
 		::System::Single cachedTexelSize; // 0x100
 		::System::Single cachedFilterSize; // 0x104
 		::System::Single cachedBorder; // 0x108
+		::System::Byte _padding5[0x4];
 		::Il2CppArray<::UnityEngine::Matrix4x4>* cachedWorldToShadow; // 0x110
 		::Il2CppArray<::UnityEngine::Vector4>* cachedTileData; // 0x118
 		::UnityEngine::Vector4 cachedShadowMapSize; // 0x120

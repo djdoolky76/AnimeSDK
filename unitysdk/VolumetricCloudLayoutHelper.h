@@ -8,21 +8,21 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Texture2D; }
 
-#define VOLUMETRICCLOUDLAYOUTHELPER_GET_HASSINGLECLOUD_OFFSET UNITYSDK_OFFSET(0x1BC747F0)
-#define VOLUMETRICCLOUDLAYOUTHELPER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BC751D0)
-#define VOLUMETRICCLOUDLAYOUTHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BC74870)
-#define VOLUMETRICCLOUDLAYOUTHELPER_UPDATEMPB_OFFSET UNITYSDK_OFFSET(0x1BC74B40)
-#define VOLUMETRICCLOUDLAYOUTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC75440)
-#define VOLUMETRICCLOUDLAYOUTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC75280)
+#define VOLUMETRICCLOUDLAYOUTHELPER_GET_HASSINGLECLOUD_OFFSET UNITYSDK_OFFSET(0x16E89C80)
+#define VOLUMETRICCLOUDLAYOUTHELPER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16E8A660)
+#define VOLUMETRICCLOUDLAYOUTHELPER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16E89D00)
+#define VOLUMETRICCLOUDLAYOUTHELPER_UPDATEMPB_OFFSET UNITYSDK_OFFSET(0x16E89FD0)
+#define VOLUMETRICCLOUDLAYOUTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E8A8D0)
+#define VOLUMETRICCLOUDLAYOUTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x16E8A710)
 
-inline static constexpr unsigned int VolumetricCloudLayoutHelper_TypeDefinitionIndex = 27845;
+inline static constexpr unsigned int VolumetricCloudLayoutHelper_TypeDefinitionIndex = 26140;
 
 class VolumetricCloudLayoutHelper : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Collections::Generic::List_1<::VolumetricCloudLayoutHelper*>** StaticGet_activeHelpers()
 	{
-		return (::System::Collections::Generic::List_1<::VolumetricCloudLayoutHelper*>**)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudLayoutHelper_TypeDefinitionIndex)->GetStaticField(0x21C10);
+		return (::System::Collections::Generic::List_1<::VolumetricCloudLayoutHelper*>**)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudLayoutHelper_TypeDefinitionIndex)->GetStaticField(0x22F50);
 	}
 	::UnityEngine::Texture2D* sdfTexture; // 0x18
 	::System::Single densityScale; // 0x20
@@ -34,6 +34,7 @@ public:
 	::System::Single lowerType; // 0x38
 	::System::Single upperType; // 0x3C
 	::System::Boolean isSingleCloud; // 0x40
+	::System::Byte _padding0[0x3];
 	::UnityEngine::Vector3 detailNoiseTiling; // 0x44
 	::UnityEngine::Vector3 detailNoiseFlowSpeed; // 0x50
 	::System::Int32 octaveCount; // 0x5C

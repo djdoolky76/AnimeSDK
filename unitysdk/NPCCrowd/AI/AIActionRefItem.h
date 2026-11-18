@@ -4,17 +4,18 @@
 
 namespace NPCCrowd::AI { class IAIActionConfig; }
 
-#define NPCCROWD_AI_AIACTIONREFITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x11920500)
+#define NPCCROWD_AI_AIACTIONREFITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x105D2540)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionRefItem_TypeDefinitionIndex = 78872;
+	inline static constexpr unsigned int AIActionRefItem_TypeDefinitionIndex = 45691;
 
 	class AIActionRefItem : public ::System::Object
 	{
 	public:
 		::System::Int32 actionID; // 0x10
 		::System::Boolean overrideParam; // 0x14
+		::System::Byte _padding0[0x3];
 		::NPCCrowd::AI::IAIActionConfig* overridedConfig; // 0x18
 
 		::System::Void _ctor()

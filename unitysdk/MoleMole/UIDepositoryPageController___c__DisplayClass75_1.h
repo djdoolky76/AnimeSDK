@@ -4,13 +4,14 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS75_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19716020)
-#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS75_1__ONSORTERMARKDELETECLICK_B__1_OFFSET UNITYSDK_OFFSET(0x19716030)
+#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS75_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB71D0)
+#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS75_1__ONSORTERMARKDELETECLICK_B__1_OFFSET UNITYSDK_OFFSET(0x19FB71E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDepositoryPageController___c__DisplayClass75_1_TypeDefinitionIndex = 41667;
+	inline static constexpr unsigned int UIDepositoryPageController___c__DisplayClass75_1_TypeDefinitionIndex = 63587;
 
+	template <typename T>
 	class UIDepositoryPageController___c__DisplayClass75_1 : public ::System::Object
 	{
 	public:

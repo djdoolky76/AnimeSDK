@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_2BF8C713045E78D9;
+class DHMNFJBEEDP;
 namespace System { template <typename T> class Action_1; }
-template <typename T> class Class_1_BBE667D4A3124D9B;
+template <typename T> class NMANHEHIJAL_1;
 
-#define MOLEMOLE_UIURBANMAPLEFTTASTLISTROW03CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D774C0)
+#define MOLEMOLE_UIURBANMAPLEFTTASTLISTROW03CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x166FE3C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapLeftTastListRow03Context_TypeDefinitionIndex = 72978;
+	inline static constexpr unsigned int UIUrbanMapLeftTastListRow03Context_TypeDefinitionIndex = 85595;
 
 	class UIUrbanMapLeftTastListRow03Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Action_1<::MoleMole::UIUrbanMapLeftTastListRow03Context*>* OnClick; // 0x28
-		::Class_1_BBE667D4A3124D9B<::Class_1_2BF8C713045E78D9*>* CollectDatas; // 0x30
+		::NMANHEHIJAL_1<::DHMNFJBEEDP*>* CollectDatas; // 0x30
 		::System::Int32 MapAreaId; // 0x38
 
 		::System::Void _ctor()

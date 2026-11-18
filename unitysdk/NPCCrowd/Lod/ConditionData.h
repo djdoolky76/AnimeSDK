@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_LOD_CONDITIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x465050)
+#define NPCCROWD_LOD_CONDITIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x594CB0)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int ConditionData_TypeDefinitionIndex = 51428;
+	inline static constexpr unsigned int ConditionData_TypeDefinitionIndex = 38843;
 
-	struct alignas(8) ConditionData
+	struct alignas(4) ConditionData
 	{
 		::System::Single distance; // 0x10
 		::System::Single softArea; // 0x14
 		::System::Int32 customIdx; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Double sqrtDistOuter; // 0x20
 		::System::Double sqrtDistInner; // 0x28
 		::System::Boolean callbackFlag; // 0x30

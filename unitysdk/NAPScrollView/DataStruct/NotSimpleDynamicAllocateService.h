@@ -1,0 +1,144 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NAPScrollView/DataStruct/ScrollViewItemAttachMode.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/NAPScrollView/DataStruct/NotSimpleDynamicAllocateService_RemovedBoundary.h"
+#include "unitysdk/System/Nullable_1.h"
+
+class MonoUITableScrollV2_BaseScrollLogic;
+namespace MoleMole { class ScrollViewItemWidgetController; }
+namespace NAPScrollView::DataStruct { class NotSimpleScrollViewAdapterServices; }
+namespace UnityEngine { class RectTransform; }
+
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_ALLOCATEGAMEOBJECTTOEND_OFFSET UNITYSDK_OFFSET(0xE55E330)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_ALLOCATEGAMEOBJECTTOSTART_OFFSET UNITYSDK_OFFSET(0xE55FE40)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_CHECKNEEDTOALLOCATEORRECYCLEITEMINNER_OFFSET UNITYSDK_OFFSET(0xE55C240)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_CHECKNEEDTOALLOCATEORRECYCLEITEM_OFFSET UNITYSDK_OFFSET(0xE55C180)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_CHECKVALID_OFFSET UNITYSDK_OFFSET(0xE55C610)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_CLEARDIRTY_OFFSET UNITYSDK_OFFSET(0xE55BF50)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_DYNAMICALLOCATEGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xE55CB60)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_ESTIMATEMAXCHECKTIMES_OFFSET UNITYSDK_OFFSET(0xE55C910)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_GET_DATACONTENT_OFFSET UNITYSDK_OFFSET(0xE55BE60)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_GET_LOGIC_OFFSET UNITYSDK_OFFSET(0xE55BE40)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_ISVALIDDATAINDEX_OFFSET UNITYSDK_OFFSET(0xE55F8C0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE55C040)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_MARKDIRTY_OFFSET UNITYSDK_OFFSET(0xE55BF90)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_MATHMOD_OFFSET UNITYSDK_OFFSET(0xE560AA0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_RESOLVEVISIBLEANCHORDATAINDEX_OFFSET UNITYSDK_OFFSET(0xE560B00)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_REUSEORREBUILDSCROLLITEMBYTEMPLATE_OFFSET UNITYSDK_OFFSET(0xE55FA00)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_ROUNDDATAINDEXIFNEEDED_OFFSET UNITYSDK_OFFSET(0xE55F6D0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_TRYALLOCATETOENDBRANCH_OFFSET UNITYSDK_OFFSET(0xE55CEB0)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_TRYALLOCATETOSTARTBRANCH_OFFSET UNITYSDK_OFFSET(0xE55D720)
+#define NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xE55BE30)
+
+namespace NAPScrollView::DataStruct
+{
+	inline static constexpr unsigned int NotSimpleDynamicAllocateService_TypeDefinitionIndex = 68184;
+
+	class NotSimpleDynamicAllocateService : public ::System::Object
+	{
+	public:
+		::NAPScrollView::DataStruct::NotSimpleScrollViewAdapterServices* _services; // 0x10
+		::System::Boolean _isDirty; // 0x18
+
+		::System::Void _ctor(::NAPScrollView::DataStruct::NotSimpleScrollViewAdapterServices* services)
+		{
+			return ((::System::Void(*)(::PVOID, ::NAPScrollView::DataStruct::NotSimpleScrollViewAdapterServices*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE__CTOR_OFFSET))(this, services);
+		}
+
+		::MonoUITableScrollV2_BaseScrollLogic* get_Logic()
+		{
+			return ((::MonoUITableScrollV2_BaseScrollLogic*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_GET_LOGIC_OFFSET))(this);
+		}
+
+		::UnityEngine::RectTransform* get_DataContent()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_GET_DATACONTENT_OFFSET))(this);
+		}
+
+		::System::Void ClearDirty()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_CLEARDIRTY_OFFSET))(this);
+		}
+
+		::System::Void MarkDirty()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_MARKDIRTY_OFFSET))(this);
+		}
+
+		::System::Void LateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_LATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Void CheckNeedToAllocateOrRecycleItem(::System::Nullable_1<::System::Single> moveDelta)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_CHECKNEEDTOALLOCATEORRECYCLEITEM_OFFSET))(this, moveDelta);
+		}
+
+		::System::Void CheckNeedToAllocateOrRecycleItemInner(::System::Nullable_1<::System::Single> moveDelta)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_CHECKNEEDTOALLOCATEORRECYCLEITEMINNER_OFFSET))(this, moveDelta);
+		}
+
+		::System::Boolean AllocateGameObjectToEnd(::System::Int32 startDataIndex)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_ALLOCATEGAMEOBJECTTOEND_OFFSET))(this, startDataIndex);
+		}
+
+		::System::Boolean AllocateGameObjectToStart(::System::Int32 startDataIndex)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_ALLOCATEGAMEOBJECTTOSTART_OFFSET))(this, startDataIndex);
+		}
+
+		::System::Void ReuseOrRebuildScrollItemByTemplate(::MoleMole::ScrollViewItemWidgetController* scrollItem, ::System::Int32 dataIndex, ::NAPScrollView::DataStruct::ScrollViewItemAttachMode attachMode)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::ScrollViewItemWidgetController*, ::System::Int32, ::NAPScrollView::DataStruct::ScrollViewItemAttachMode))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_REUSEORREBUILDSCROLLITEMBYTEMPLATE_OFFSET))(this, scrollItem, dataIndex, attachMode);
+		}
+
+		::System::Boolean DynamicAllocateGameObject(::System::Nullable_1<::System::Single> moveDelta, ::NAPScrollView::DataStruct::NotSimpleDynamicAllocateService_RemovedBoundary& boundary)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::System::Single>, ::NAPScrollView::DataStruct::NotSimpleDynamicAllocateService_RemovedBoundary&))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_DYNAMICALLOCATEGAMEOBJECT_OFFSET))(this, moveDelta, boundary);
+		}
+
+		::System::Boolean TryAllocateToStartBranch()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_TRYALLOCATETOSTARTBRANCH_OFFSET))(this);
+		}
+
+		::System::Boolean TryAllocateToEndBranch()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_TRYALLOCATETOENDBRANCH_OFFSET))(this);
+		}
+
+		::System::Int32 ResolveVisibleAnchorDataIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_RESOLVEVISIBLEANCHORDATAINDEX_OFFSET))(this);
+		}
+
+		::System::Int32 EstimateMaxCheckTimes(::System::Nullable_1<::System::Single> moveDelta)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_ESTIMATEMAXCHECKTIMES_OFFSET))(this, moveDelta);
+		}
+
+		::System::Int32 RoundDataIndexIfNeeded(::System::Int32 dataIndex)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_ROUNDDATAINDEXIFNEEDED_OFFSET))(this, dataIndex);
+		}
+
+		::System::Boolean IsValidDataIndex(::System::Int32 dataIndex)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_ISVALIDDATAINDEX_OFFSET))(this, dataIndex);
+		}
+
+		static ::System::Int32 MathMod(::System::Int32 a, ::System::Int32 m)
+		{
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_MATHMOD_OFFSET))(a, m);
+		}
+
+		::System::Boolean CheckValid()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_NOTSIMPLEDYNAMICALLOCATESERVICE_CHECKVALID_OFFSET))(this);
+		}
+	};
+}

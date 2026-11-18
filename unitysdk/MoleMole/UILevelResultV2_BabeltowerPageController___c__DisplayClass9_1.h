@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_08E43914789BE5F3;
-namespace MoleMole { class UILevelResultV2_BabeltowerPageController___c__DisplayClass9_0; }
+class GMMBMCIOBKM;
 
-#define MOLEMOLE_UILEVELRESULTV2_BABELTOWERPAGECONTROLLER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x182D1B80)
-#define MOLEMOLE_UILEVELRESULTV2_BABELTOWERPAGECONTROLLER___C__DISPLAYCLASS9_1__ONPOPSHOWED_B__2_OFFSET UNITYSDK_OFFSET(0x182D1F00)
+#define MOLEMOLE_UILEVELRESULTV2_BABELTOWERPAGECONTROLLER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x173F61A0)
+#define MOLEMOLE_UILEVELRESULTV2_BABELTOWERPAGECONTROLLER___C__DISPLAYCLASS9_1__ONPOPSHOWED_B__2_OFFSET UNITYSDK_OFFSET(0x173F6510)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILevelResultV2_BabeltowerPageController___c__DisplayClass9_1_TypeDefinitionIndex = 46189;
+	inline static constexpr unsigned int UILevelResultV2_BabeltowerPageController___c__DisplayClass9_1_TypeDefinitionIndex = 62724;
 
+	template <typename T>
 	class UILevelResultV2_BabeltowerPageController___c__DisplayClass9_1 : public ::System::Object
 	{
 	public:
-		::Class_2_08E43914789BE5F3* towerModel; // 0x10
-		::MoleMole::UILevelResultV2_BabeltowerPageController___c__DisplayClass9_0* CS___8__locals1; // 0x18
+		::GMMBMCIOBKM* towerModel; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

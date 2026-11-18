@@ -6,22 +6,22 @@
 namespace BehaviorDesigner::Runtime { class SharedBool; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_LOG_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EC8B890)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_LOG_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC8B5C0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_LOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8B920)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_LOG___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EC8B9B0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_LOG___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC8BA40)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_LOG_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F08B070)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_LOG_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F08ADA0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_LOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F08B100)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_LOG___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F08B190)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_LOG___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F08B220)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int Log_TypeDefinitionIndex = 33973;
+	inline static constexpr unsigned int Log_TypeDefinitionIndex = 33519;
 
 	class Log : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedBool* logError; // 0x58
-		::BehaviorDesigner::Runtime::SharedBool* logTime; // 0x60
-		::BehaviorDesigner::Runtime::SharedString* text; // 0x68
+		::BehaviorDesigner::Runtime::SharedBool* logTime; // 0x58
+		::BehaviorDesigner::Runtime::SharedString* text; // 0x60
+		::BehaviorDesigner::Runtime::SharedBool* logError; // 0x68
 
 		::System::Void _ctor()
 		{

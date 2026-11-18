@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ScreenEffectFieldHandleType.h"
-#include "unitysdk/MoleMole/EffectSimulate/ESPostProcessBehavior_1.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/NapBloomQuality.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/BloomResolution.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/HQBloomMode.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/PP_Quality.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace MoleMole::Config { class ConfigNapBlooms; }
@@ -16,24 +15,23 @@ namespace MoleMole::EffectSimulate { class FloatKeyframeCurve; }
 namespace MoleMole::EffectSimulate { class Vector4KeyframeCurve; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::NAPRenderPipeline0 { class FlareProfile_NativeSRP; }
-namespace UnityEngine::Rendering::Universal { class NapBloom; }
 
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x1A95E530)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_25CD86BF8626C8D9_OFFSET UNITYSDK_OFFSET(0x1A9650D0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_497833CF065C1894_OFFSET UNITYSDK_OFFSET(0x1A95F240)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1A95F230)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_8462E42B7CEE1998_1_OFFSET UNITYSDK_OFFSET(0x1A986EC0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_8462E42B7CEE1998_OFFSET UNITYSDK_OFFSET(0x1A9815E0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_ABD8624DE9A02803_OFFSET UNITYSDK_OFFSET(0x1A97AD80)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_D35B60AE823B8CC1_OFFSET UNITYSDK_OFFSET(0x1A95FFB0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_F5E918E05983DBD3_OFFSET UNITYSDK_OFFSET(0x1A968070)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A98C7A0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_AAOGMJFNGIB_OFFSET UNITYSDK_OFFSET(0x1B8DBBC0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_AFPCLLAALBH_OFFSET UNITYSDK_OFFSET(0x1B8F6990)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_AJIPNBANCOC_OFFSET UNITYSDK_OFFSET(0x1B8DAE50)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_ALJEEEAPCBH_OFFSET UNITYSDK_OFFSET(0x1B8E3C80)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_BAHGDCGIEKL_OFFSET UNITYSDK_OFFSET(0x1B8E0CE0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_IEFBPLNILIE_OFFSET UNITYSDK_OFFSET(0x1B8DAE40)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_NNEGPFCPCAB_OFFSET UNITYSDK_OFFSET(0x1B8D8DA0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_ONPGLGIFOJJ_OFFSET UNITYSDK_OFFSET(0x1B902AD0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_PEDOJDBBGPC_OFFSET UNITYSDK_OFFSET(0x1B8FD1F0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9083B0)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESPostProcessNapBloom_TypeDefinitionIndex = 41982;
+	inline static constexpr unsigned int ESPostProcessNapBloom_TypeDefinitionIndex = 57180;
 
-	class ESPostProcessNapBloom : public ::MoleMole::EffectSimulate::ESPostProcessBehavior_1<::UnityEngine::Rendering::Universal::NapBloom*>
+	class ESPostProcessNapBloom
 	{
 	public:
 		::MoleMole::Config::ConfigNapBlooms* m_stAsset; // 0xB0
@@ -66,6 +64,7 @@ namespace MoleMole::EffectSimulate
 		::System::Single _VolDefault_hqBloomTint2; // 0x120
 		::System::Single _VolDefault_hqBloomTint1; // 0x124
 		::System::Boolean _VolDefault_hqUEBloomEnableRTXSingleControl; // 0x128
+		::System::Byte _padding0[0x3];
 		::System::Single _VolDefault_hqUEBloomThresholdRTX; // 0x12C
 		::System::Single _VolDefault_hqUEBloomIntensityRTX; // 0x130
 		::System::Single _VolDefault_hqBloomSize6RTX; // 0x134
@@ -87,9 +86,11 @@ namespace MoleMole::EffectSimulate
 		::UnityEngine::Color _VolDefault_hQBloomTint; // 0x174
 		::UnityEngine::Rendering::Universal::BloomResolution _VolDefault_hqBloomResolution; // 0x184
 		::System::Boolean _VolDefault_useRealDownSample; // 0x188
+		::System::Byte _padding1[0x3];
 		::System::Single _VolDefault_blurRadius; // 0x18C
 		::System::Boolean _VolDefault_doBloomAfterTAA; // 0x190
 		::System::Boolean _VolDefault_useSourceLumaMask; // 0x191
+		::System::Byte _padding2[0x2];
 		::System::Single _VolDefault_glareThresholdForHDR; // 0x194
 		::System::Single _VolDefault_glareScalerForHDR; // 0x198
 		::UnityEngine::Vector4 _VolDefault_blurLevelWeights; // 0x19C
@@ -100,10 +101,12 @@ namespace MoleMole::EffectSimulate
 		::UnityEngine::NAPRenderPipeline0::NapBloomQuality _VolDefault_quality; // 0x1BC
 		::UnityEngine::Vector4 _VolDefault_blurLevelBufferHeights; // 0x1C0
 		::System::Int32 _VolDefault_secondaryBlurLevelBufferHeight; // 0x1D0
+		::System::Byte _padding3[0x4];
 		::UnityEngine::Texture* _VolDefault_dirtTexture; // 0x1D8
 		::System::Single _VolDefault_dirtIntensity; // 0x1E0
 		::System::Boolean _VolDefault_HasExtraDownsample; // 0x1E4
 		::System::Boolean _VolDefault_enableSpriteFlare; // 0x1E5
+		::System::Byte _padding4[0x2];
 		::System::Single _VolDefault_flareThreshold; // 0x1E8
 		::System::Single _VolDefault_areaThreshold; // 0x1EC
 		::System::Single _VolDefault_saturate; // 0x1F0
@@ -111,153 +114,221 @@ namespace MoleMole::EffectSimulate
 		::System::Single _VolDefault_sizeClamp; // 0x1F8
 		::System::Single _VolDefault_intensityClamp; // 0x1FC
 		::System::Int32 _VolDefault_iterationNum; // 0x200
+		::System::Byte _padding5[0x4];
 		::UnityEngine::NAPRenderPipeline0::FlareProfile_NativeSRP* _VolDefault_flareProfile; // 0x208
 		::System::Single _VolDefault_hqUEBloomIntensityCharFromScene; // 0x210
 		::System::Boolean _VolPreVal_glareScaler_overrideState; // 0x214
+		::System::Byte _padding6[0x3];
 		::System::Single _VolPreVal_glareScaler; // 0x218
 		::System::Boolean _VolPreVal_glareThreshold_overrideState; // 0x21C
+		::System::Byte _padding7[0x3];
 		::System::Single _VolPreVal_glareThreshold; // 0x220
 		::System::Boolean _VolPreVal_glareIntensity_overrideState; // 0x224
+		::System::Byte _padding8[0x3];
 		::System::Single _VolPreVal_glareIntensity; // 0x228
 		::System::Boolean _VolPreVal_xBlurIntensity_overrideState; // 0x22C
+		::System::Byte _padding9[0x3];
 		::System::Single _VolPreVal_xBlurIntensity; // 0x230
 		::System::Boolean _VolPreVal_yBlurIntensity_overrideState; // 0x234
+		::System::Byte _padding10[0x3];
 		::System::Single _VolPreVal_yBlurIntensity; // 0x238
 		::System::Boolean _VolPreVal_hqBloomMode_overrideState; // 0x23C
+		::System::Byte _padding11[0x3];
 		::UnityEngine::Rendering::Universal::HQBloomMode _VolPreVal_hqBloomMode; // 0x240
 		::System::Boolean _VolPreVal_hqUESampleQuality_overrideState; // 0x244
+		::System::Byte _padding12[0x3];
 		::UnityEngine::Rendering::Universal::PP_Quality _VolPreVal_hqUESampleQuality; // 0x248
 		::System::Boolean _VolPreVal_hqUEBloomThreshold_overrideState; // 0x24C
+		::System::Byte _padding13[0x3];
 		::System::Single _VolPreVal_hqUEBloomThreshold; // 0x250
 		::System::Boolean _VolPreVal_hqUEBloomThresholdChar_overrideState; // 0x254
+		::System::Byte _padding14[0x3];
 		::System::Single _VolPreVal_hqUEBloomThresholdChar; // 0x258
 		::System::Boolean _VolPreVal_hqUEBloomMaxThreshold_overrideState; // 0x25C
+		::System::Byte _padding15[0x3];
 		::System::Single _VolPreVal_hqUEBloomMaxThreshold; // 0x260
 		::System::Boolean _VolPreVal_hqUEBloomMaxThresholdChar_overrideState; // 0x264
+		::System::Byte _padding16[0x3];
 		::System::Single _VolPreVal_hqUEBloomMaxThresholdChar; // 0x268
 		::System::Boolean _VolPreVal_hqUEBloomIntensity_overrideState; // 0x26C
+		::System::Byte _padding17[0x3];
 		::System::Single _VolPreVal_hqUEBloomIntensity; // 0x270
 		::System::Boolean _VolPreVal_hqUEBloomIntensityChar_overrideState; // 0x274
+		::System::Byte _padding18[0x3];
 		::System::Single _VolPreVal_hqUEBloomIntensityChar; // 0x278
 		::System::Boolean _VolPreVal_hqBloomSize6_overrideState; // 0x27C
+		::System::Byte _padding19[0x3];
 		::System::Single _VolPreVal_hqBloomSize6; // 0x280
 		::System::Boolean _VolPreVal_hqBloomSize5_overrideState; // 0x284
+		::System::Byte _padding20[0x3];
 		::System::Single _VolPreVal_hqBloomSize5; // 0x288
 		::System::Boolean _VolPreVal_hqBloomSize4_overrideState; // 0x28C
+		::System::Byte _padding21[0x3];
 		::System::Single _VolPreVal_hqBloomSize4; // 0x290
 		::System::Boolean _VolPreVal_hqBloomSize3_overrideState; // 0x294
+		::System::Byte _padding22[0x3];
 		::System::Single _VolPreVal_hqBloomSize3; // 0x298
 		::System::Boolean _VolPreVal_hqBloomSize2_overrideState; // 0x29C
+		::System::Byte _padding23[0x3];
 		::System::Single _VolPreVal_hqBloomSize2; // 0x2A0
 		::System::Boolean _VolPreVal_hqBloomSize1_overrideState; // 0x2A4
+		::System::Byte _padding24[0x3];
 		::System::Single _VolPreVal_hqBloomSize1; // 0x2A8
 		::System::Boolean _VolPreVal_hqBloomTint6_overrideState; // 0x2AC
+		::System::Byte _padding25[0x3];
 		::System::Single _VolPreVal_hqBloomTint6; // 0x2B0
 		::System::Boolean _VolPreVal_hqBloomTint5_overrideState; // 0x2B4
+		::System::Byte _padding26[0x3];
 		::System::Single _VolPreVal_hqBloomTint5; // 0x2B8
 		::System::Boolean _VolPreVal_hqBloomTint4_overrideState; // 0x2BC
+		::System::Byte _padding27[0x3];
 		::System::Single _VolPreVal_hqBloomTint4; // 0x2C0
 		::System::Boolean _VolPreVal_hqBloomTint3_overrideState; // 0x2C4
+		::System::Byte _padding28[0x3];
 		::System::Single _VolPreVal_hqBloomTint3; // 0x2C8
 		::System::Boolean _VolPreVal_hqBloomTint2_overrideState; // 0x2CC
+		::System::Byte _padding29[0x3];
 		::System::Single _VolPreVal_hqBloomTint2; // 0x2D0
 		::System::Boolean _VolPreVal_hqBloomTint1_overrideState; // 0x2D4
+		::System::Byte _padding30[0x3];
 		::System::Single _VolPreVal_hqBloomTint1; // 0x2D8
 		::System::Boolean _VolPreVal_hqUEBloomEnableRTXSingleControl_overrideState; // 0x2DC
 		::System::Boolean _VolPreVal_hqUEBloomEnableRTXSingleControl; // 0x2DD
 		::System::Boolean _VolPreVal_hqUEBloomThresholdRTX_overrideState; // 0x2DE
+		::System::Byte _padding31[0x1];
 		::System::Single _VolPreVal_hqUEBloomThresholdRTX; // 0x2E0
 		::System::Boolean _VolPreVal_hqUEBloomIntensityRTX_overrideState; // 0x2E4
+		::System::Byte _padding32[0x3];
 		::System::Single _VolPreVal_hqUEBloomIntensityRTX; // 0x2E8
 		::System::Boolean _VolPreVal_hqBloomSize6RTX_overrideState; // 0x2EC
+		::System::Byte _padding33[0x3];
 		::System::Single _VolPreVal_hqBloomSize6RTX; // 0x2F0
 		::System::Boolean _VolPreVal_hqBloomSize5RTX_overrideState; // 0x2F4
+		::System::Byte _padding34[0x3];
 		::System::Single _VolPreVal_hqBloomSize5RTX; // 0x2F8
 		::System::Boolean _VolPreVal_hqBloomSize4RTX_overrideState; // 0x2FC
+		::System::Byte _padding35[0x3];
 		::System::Single _VolPreVal_hqBloomSize4RTX; // 0x300
 		::System::Boolean _VolPreVal_hqBloomSize3RTX_overrideState; // 0x304
+		::System::Byte _padding36[0x3];
 		::System::Single _VolPreVal_hqBloomSize3RTX; // 0x308
 		::System::Boolean _VolPreVal_hqBloomSize2RTX_overrideState; // 0x30C
+		::System::Byte _padding37[0x3];
 		::System::Single _VolPreVal_hqBloomSize2RTX; // 0x310
 		::System::Boolean _VolPreVal_hqBloomSize1RTX_overrideState; // 0x314
+		::System::Byte _padding38[0x3];
 		::System::Single _VolPreVal_hqBloomSize1RTX; // 0x318
 		::System::Boolean _VolPreVal_hqUEBloomMaxThresholdRTX_overrideState; // 0x31C
+		::System::Byte _padding39[0x3];
 		::System::Single _VolPreVal_hqUEBloomMaxThresholdRTX; // 0x320
 		::System::Boolean _VolPreVal_hqBloomTint6RTX_overrideState; // 0x324
+		::System::Byte _padding40[0x3];
 		::System::Single _VolPreVal_hqBloomTint6RTX; // 0x328
 		::System::Boolean _VolPreVal_hqBloomTint5RTX_overrideState; // 0x32C
+		::System::Byte _padding41[0x3];
 		::System::Single _VolPreVal_hqBloomTint5RTX; // 0x330
 		::System::Boolean _VolPreVal_hqBloomTint4RTX_overrideState; // 0x334
+		::System::Byte _padding42[0x3];
 		::System::Single _VolPreVal_hqBloomTint4RTX; // 0x338
 		::System::Boolean _VolPreVal_hqBloomTint3RTX_overrideState; // 0x33C
+		::System::Byte _padding43[0x3];
 		::System::Single _VolPreVal_hqBloomTint3RTX; // 0x340
 		::System::Boolean _VolPreVal_hqBloomTint2RTX_overrideState; // 0x344
+		::System::Byte _padding44[0x3];
 		::System::Single _VolPreVal_hqBloomTint2RTX; // 0x348
 		::System::Boolean _VolPreVal_hqBloomTint1RTX_overrideState; // 0x34C
+		::System::Byte _padding45[0x3];
 		::System::Single _VolPreVal_hqBloomTint1RTX; // 0x350
 		::System::Boolean _VolPreVal_hQBloomIntensity_overrideState; // 0x354
+		::System::Byte _padding46[0x3];
 		::System::Single _VolPreVal_hQBloomIntensity; // 0x358
 		::System::Boolean _VolPreVal_hQBloomThreshold_overrideState; // 0x35C
+		::System::Byte _padding47[0x3];
 		::System::Single _VolPreVal_hQBloomThreshold; // 0x360
 		::System::Boolean _VolPreVal_hQBloomScatter_overrideState; // 0x364
+		::System::Byte _padding48[0x3];
 		::System::Single _VolPreVal_hQBloomScatter; // 0x368
 		::System::Boolean _VolPreVal_hQBloomTint_overrideState; // 0x36C
+		::System::Byte _padding49[0x3];
 		::UnityEngine::Color _VolPreVal_hQBloomTint; // 0x370
 		::System::Boolean _VolPreVal_hqBloomResolution_overrideState; // 0x380
+		::System::Byte _padding50[0x3];
 		::UnityEngine::Rendering::Universal::BloomResolution _VolPreVal_hqBloomResolution; // 0x384
 		::System::Boolean _VolPreVal_useRealDownSample_overrideState; // 0x388
 		::System::Boolean _VolPreVal_useRealDownSample; // 0x389
 		::System::Boolean _VolPreVal_blurRadius_overrideState; // 0x38A
+		::System::Byte _padding51[0x1];
 		::System::Single _VolPreVal_blurRadius; // 0x38C
 		::System::Boolean _VolPreVal_doBloomAfterTAA_overrideState; // 0x390
 		::System::Boolean _VolPreVal_doBloomAfterTAA; // 0x391
 		::System::Boolean _VolPreVal_useSourceLumaMask_overrideState; // 0x392
 		::System::Boolean _VolPreVal_useSourceLumaMask; // 0x393
 		::System::Boolean _VolPreVal_glareThresholdForHDR_overrideState; // 0x394
+		::System::Byte _padding52[0x3];
 		::System::Single _VolPreVal_glareThresholdForHDR; // 0x398
 		::System::Boolean _VolPreVal_glareScalerForHDR_overrideState; // 0x39C
+		::System::Byte _padding53[0x3];
 		::System::Single _VolPreVal_glareScalerForHDR; // 0x3A0
 		::System::Boolean _VolPreVal_blurLevelWeights_overrideState; // 0x3A4
+		::System::Byte _padding54[0x3];
 		::UnityEngine::Vector4 _VolPreVal_blurLevelWeights; // 0x3A8
 		::System::Boolean _VolPreVal_secondaryGlareThreshold_overrideState; // 0x3B8
+		::System::Byte _padding55[0x3];
 		::System::Single _VolPreVal_secondaryGlareThreshold; // 0x3BC
 		::System::Boolean _VolPreVal_secondaryGlareContrast_overrideState; // 0x3C0
+		::System::Byte _padding56[0x3];
 		::System::Single _VolPreVal_secondaryGlareContrast; // 0x3C4
 		::System::Boolean _VolPreVal_secondaryGlareWeight_overrideState; // 0x3C8
+		::System::Byte _padding57[0x3];
 		::System::Single _VolPreVal_secondaryGlareWeight; // 0x3CC
 		::System::Boolean _VolPreVal_secondaryBlurRadius_overrideState; // 0x3D0
+		::System::Byte _padding58[0x3];
 		::System::Int32 _VolPreVal_secondaryBlurRadius; // 0x3D4
 		::System::Boolean _VolPreVal_quality_overrideState; // 0x3D8
+		::System::Byte _padding59[0x3];
 		::UnityEngine::NAPRenderPipeline0::NapBloomQuality _VolPreVal_quality; // 0x3DC
 		::System::Boolean _VolPreVal_blurLevelBufferHeights_overrideState; // 0x3E0
+		::System::Byte _padding60[0x3];
 		::UnityEngine::Vector4 _VolPreVal_blurLevelBufferHeights; // 0x3E4
 		::System::Boolean _VolPreVal_secondaryBlurLevelBufferHeight_overrideState; // 0x3F4
+		::System::Byte _padding61[0x3];
 		::System::Int32 _VolPreVal_secondaryBlurLevelBufferHeight; // 0x3F8
 		::System::Boolean _VolPreVal_dirtTexture_overrideState; // 0x3FC
+		::System::Byte _padding62[0x3];
 		::UnityEngine::Texture* _VolPreVal_dirtTexture; // 0x400
 		::System::Boolean _VolPreVal_dirtIntensity_overrideState; // 0x408
+		::System::Byte _padding63[0x3];
 		::System::Single _VolPreVal_dirtIntensity; // 0x40C
 		::System::Boolean _VolPreVal_HasExtraDownsample_overrideState; // 0x410
 		::System::Boolean _VolPreVal_HasExtraDownsample; // 0x411
 		::System::Boolean _VolPreVal_enableSpriteFlare_overrideState; // 0x412
 		::System::Boolean _VolPreVal_enableSpriteFlare; // 0x413
 		::System::Boolean _VolPreVal_flareThreshold_overrideState; // 0x414
+		::System::Byte _padding64[0x3];
 		::System::Single _VolPreVal_flareThreshold; // 0x418
 		::System::Boolean _VolPreVal_areaThreshold_overrideState; // 0x41C
+		::System::Byte _padding65[0x3];
 		::System::Single _VolPreVal_areaThreshold; // 0x420
 		::System::Boolean _VolPreVal_saturate_overrideState; // 0x424
+		::System::Byte _padding66[0x3];
 		::System::Single _VolPreVal_saturate; // 0x428
 		::System::Boolean _VolPreVal_randomize_overrideState; // 0x42C
+		::System::Byte _padding67[0x3];
 		::System::Single _VolPreVal_randomize; // 0x430
 		::System::Boolean _VolPreVal_sizeClamp_overrideState; // 0x434
+		::System::Byte _padding68[0x3];
 		::System::Single _VolPreVal_sizeClamp; // 0x438
 		::System::Boolean _VolPreVal_intensityClamp_overrideState; // 0x43C
+		::System::Byte _padding69[0x3];
 		::System::Single _VolPreVal_intensityClamp; // 0x440
 		::System::Boolean _VolPreVal_iterationNum_overrideState; // 0x444
+		::System::Byte _padding70[0x3];
 		::System::Int32 _VolPreVal_iterationNum; // 0x448
 		::System::Boolean _VolPreVal_flareProfile_overrideState; // 0x44C
+		::System::Byte _padding71[0x3];
 		::UnityEngine::NAPRenderPipeline0::FlareProfile_NativeSRP* _VolPreVal_flareProfile; // 0x450
 		::System::Boolean _VolPreVal_hqUEBloomIntensityCharFromScene_overrideState; // 0x458
+		::System::Byte _padding72[0x3];
 		::System::Single _VolPreVal_hqUEBloomIntensityCharFromScene; // 0x45C
 		::System::Single _TimelineCurveFirstVal_glareScaler; // 0x460
 		::System::Single _TimelineCurveLastVal_glareScaler; // 0x464
@@ -307,6 +378,7 @@ namespace MoleMole::EffectSimulate
 		::System::Single _TimelineCurveLastVal_hqBloomTint1; // 0x514
 		::System::Boolean _TimelineCurveFirstVal_hqUEBloomEnableRTXSingleControl; // 0x518
 		::System::Boolean _TimelineCurveLastVal_hqUEBloomEnableRTXSingleControl; // 0x519
+		::System::Byte _padding73[0x2];
 		::System::Single _TimelineCurveFirstVal_hqUEBloomThresholdRTX; // 0x51C
 		::System::Single _TimelineCurveLastVal_hqUEBloomThresholdRTX; // 0x520
 		::System::Single _TimelineCurveFirstVal_hqUEBloomIntensityRTX; // 0x524
@@ -347,6 +419,7 @@ namespace MoleMole::EffectSimulate
 		::UnityEngine::Color _TimelineCurveLastVal_hQBloomTint; // 0x5BC
 		::System::Boolean _TimelineCurveFirstVal_useRealDownSample; // 0x5CC
 		::System::Boolean _TimelineCurveLastVal_useRealDownSample; // 0x5CD
+		::System::Byte _padding74[0x2];
 		::System::Single _TimelineCurveFirstVal_blurRadius; // 0x5D0
 		::System::Single _TimelineCurveLastVal_blurRadius; // 0x5D4
 		::System::Boolean _TimelineCurveFirstVal_doBloomAfterTAA; // 0x5D8
@@ -395,33 +468,43 @@ namespace MoleMole::EffectSimulate
 		::System::Single _TimelineCurveLastVal_hqUEBloomIntensityCharFromScene; // 0x69C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glareScaler_FieldHandleType; // 0x6A0
 		::System::Boolean ESPP_glareScaler_UseIt; // 0x6A4
+		::System::Byte _padding75[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glareScaler; // 0x6A8
 		::System::Boolean ESPP_glareScaler_EnableFade; // 0x6B0
 		::System::Boolean ESPP_glareScaler_EnableOverrideDefaultValue; // 0x6B1
+		::System::Byte _padding76[0x2];
 		::System::Single ESPP_glareScaler_OverrideDefaultValue; // 0x6B4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glareThreshold_FieldHandleType; // 0x6B8
 		::System::Boolean ESPP_glareThreshold_UseIt; // 0x6BC
+		::System::Byte _padding77[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glareThreshold; // 0x6C0
 		::System::Boolean ESPP_glareThreshold_EnableFade; // 0x6C8
 		::System::Boolean ESPP_glareThreshold_EnableOverrideDefaultValue; // 0x6C9
+		::System::Byte _padding78[0x2];
 		::System::Single ESPP_glareThreshold_OverrideDefaultValue; // 0x6CC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glareIntensity_FieldHandleType; // 0x6D0
 		::System::Boolean ESPP_glareIntensity_UseIt; // 0x6D4
+		::System::Byte _padding79[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glareIntensity; // 0x6D8
 		::System::Boolean ESPP_glareIntensity_EnableFade; // 0x6E0
 		::System::Boolean ESPP_glareIntensity_EnableOverrideDefaultValue; // 0x6E1
+		::System::Byte _padding80[0x2];
 		::System::Single ESPP_glareIntensity_OverrideDefaultValue; // 0x6E4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_xBlurIntensity_FieldHandleType; // 0x6E8
 		::System::Boolean ESPP_xBlurIntensity_UseIt; // 0x6EC
+		::System::Byte _padding81[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_xBlurIntensity; // 0x6F0
 		::System::Boolean ESPP_xBlurIntensity_EnableFade; // 0x6F8
 		::System::Boolean ESPP_xBlurIntensity_EnableOverrideDefaultValue; // 0x6F9
+		::System::Byte _padding82[0x2];
 		::System::Single ESPP_xBlurIntensity_OverrideDefaultValue; // 0x6FC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_yBlurIntensity_FieldHandleType; // 0x700
 		::System::Boolean ESPP_yBlurIntensity_UseIt; // 0x704
+		::System::Byte _padding83[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_yBlurIntensity; // 0x708
 		::System::Boolean ESPP_yBlurIntensity_EnableFade; // 0x710
 		::System::Boolean ESPP_yBlurIntensity_EnableOverrideDefaultValue; // 0x711
+		::System::Byte _padding84[0x2];
 		::System::Single ESPP_yBlurIntensity_OverrideDefaultValue; // 0x714
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomMode_FieldHandleType; // 0x718
 		::UnityEngine::Rendering::Universal::HQBloomMode ESPP_hqBloomMode; // 0x71C
@@ -429,383 +512,509 @@ namespace MoleMole::EffectSimulate
 		::UnityEngine::Rendering::Universal::PP_Quality ESPP_hqUESampleQuality; // 0x724
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqUEBloomThreshold_FieldHandleType; // 0x728
 		::System::Boolean ESPP_hqUEBloomThreshold_UseIt; // 0x72C
+		::System::Byte _padding85[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqUEBloomThreshold; // 0x730
 		::System::Boolean ESPP_hqUEBloomThreshold_EnableFade; // 0x738
 		::System::Boolean ESPP_hqUEBloomThreshold_EnableOverrideDefaultValue; // 0x739
+		::System::Byte _padding86[0x2];
 		::System::Single ESPP_hqUEBloomThreshold_OverrideDefaultValue; // 0x73C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqUEBloomThresholdChar_FieldHandleType; // 0x740
 		::System::Boolean ESPP_hqUEBloomThresholdChar_UseIt; // 0x744
+		::System::Byte _padding87[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqUEBloomThresholdChar; // 0x748
 		::System::Boolean ESPP_hqUEBloomThresholdChar_EnableFade; // 0x750
 		::System::Boolean ESPP_hqUEBloomThresholdChar_EnableOverrideDefaultValue; // 0x751
+		::System::Byte _padding88[0x2];
 		::System::Single ESPP_hqUEBloomThresholdChar_OverrideDefaultValue; // 0x754
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqUEBloomMaxThreshold_FieldHandleType; // 0x758
 		::System::Boolean ESPP_hqUEBloomMaxThreshold_UseIt; // 0x75C
+		::System::Byte _padding89[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqUEBloomMaxThreshold; // 0x760
 		::System::Boolean ESPP_hqUEBloomMaxThreshold_EnableFade; // 0x768
 		::System::Boolean ESPP_hqUEBloomMaxThreshold_EnableOverrideDefaultValue; // 0x769
+		::System::Byte _padding90[0x2];
 		::System::Single ESPP_hqUEBloomMaxThreshold_OverrideDefaultValue; // 0x76C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqUEBloomMaxThresholdChar_FieldHandleType; // 0x770
 		::System::Boolean ESPP_hqUEBloomMaxThresholdChar_UseIt; // 0x774
+		::System::Byte _padding91[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqUEBloomMaxThresholdChar; // 0x778
 		::System::Boolean ESPP_hqUEBloomMaxThresholdChar_EnableFade; // 0x780
 		::System::Boolean ESPP_hqUEBloomMaxThresholdChar_EnableOverrideDefaultValue; // 0x781
+		::System::Byte _padding92[0x2];
 		::System::Single ESPP_hqUEBloomMaxThresholdChar_OverrideDefaultValue; // 0x784
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqUEBloomIntensity_FieldHandleType; // 0x788
 		::System::Boolean ESPP_hqUEBloomIntensity_UseIt; // 0x78C
+		::System::Byte _padding93[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqUEBloomIntensity; // 0x790
 		::System::Boolean ESPP_hqUEBloomIntensity_EnableFade; // 0x798
 		::System::Boolean ESPP_hqUEBloomIntensity_EnableOverrideDefaultValue; // 0x799
+		::System::Byte _padding94[0x2];
 		::System::Single ESPP_hqUEBloomIntensity_OverrideDefaultValue; // 0x79C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqUEBloomIntensityChar_FieldHandleType; // 0x7A0
 		::System::Boolean ESPP_hqUEBloomIntensityChar_UseIt; // 0x7A4
+		::System::Byte _padding95[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqUEBloomIntensityChar; // 0x7A8
 		::System::Boolean ESPP_hqUEBloomIntensityChar_EnableFade; // 0x7B0
 		::System::Boolean ESPP_hqUEBloomIntensityChar_EnableOverrideDefaultValue; // 0x7B1
+		::System::Byte _padding96[0x2];
 		::System::Single ESPP_hqUEBloomIntensityChar_OverrideDefaultValue; // 0x7B4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomSize6_FieldHandleType; // 0x7B8
 		::System::Boolean ESPP_hqBloomSize6_UseIt; // 0x7BC
+		::System::Byte _padding97[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomSize6; // 0x7C0
 		::System::Boolean ESPP_hqBloomSize6_EnableFade; // 0x7C8
 		::System::Boolean ESPP_hqBloomSize6_EnableOverrideDefaultValue; // 0x7C9
+		::System::Byte _padding98[0x2];
 		::System::Single ESPP_hqBloomSize6_OverrideDefaultValue; // 0x7CC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomSize5_FieldHandleType; // 0x7D0
 		::System::Boolean ESPP_hqBloomSize5_UseIt; // 0x7D4
+		::System::Byte _padding99[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomSize5; // 0x7D8
 		::System::Boolean ESPP_hqBloomSize5_EnableFade; // 0x7E0
 		::System::Boolean ESPP_hqBloomSize5_EnableOverrideDefaultValue; // 0x7E1
+		::System::Byte _padding100[0x2];
 		::System::Single ESPP_hqBloomSize5_OverrideDefaultValue; // 0x7E4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomSize4_FieldHandleType; // 0x7E8
 		::System::Boolean ESPP_hqBloomSize4_UseIt; // 0x7EC
+		::System::Byte _padding101[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomSize4; // 0x7F0
 		::System::Boolean ESPP_hqBloomSize4_EnableFade; // 0x7F8
 		::System::Boolean ESPP_hqBloomSize4_EnableOverrideDefaultValue; // 0x7F9
+		::System::Byte _padding102[0x2];
 		::System::Single ESPP_hqBloomSize4_OverrideDefaultValue; // 0x7FC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomSize3_FieldHandleType; // 0x800
 		::System::Boolean ESPP_hqBloomSize3_UseIt; // 0x804
+		::System::Byte _padding103[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomSize3; // 0x808
 		::System::Boolean ESPP_hqBloomSize3_EnableFade; // 0x810
 		::System::Boolean ESPP_hqBloomSize3_EnableOverrideDefaultValue; // 0x811
+		::System::Byte _padding104[0x2];
 		::System::Single ESPP_hqBloomSize3_OverrideDefaultValue; // 0x814
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomSize2_FieldHandleType; // 0x818
 		::System::Boolean ESPP_hqBloomSize2_UseIt; // 0x81C
+		::System::Byte _padding105[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomSize2; // 0x820
 		::System::Boolean ESPP_hqBloomSize2_EnableFade; // 0x828
 		::System::Boolean ESPP_hqBloomSize2_EnableOverrideDefaultValue; // 0x829
+		::System::Byte _padding106[0x2];
 		::System::Single ESPP_hqBloomSize2_OverrideDefaultValue; // 0x82C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomSize1_FieldHandleType; // 0x830
 		::System::Boolean ESPP_hqBloomSize1_UseIt; // 0x834
+		::System::Byte _padding107[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomSize1; // 0x838
 		::System::Boolean ESPP_hqBloomSize1_EnableFade; // 0x840
 		::System::Boolean ESPP_hqBloomSize1_EnableOverrideDefaultValue; // 0x841
+		::System::Byte _padding108[0x2];
 		::System::Single ESPP_hqBloomSize1_OverrideDefaultValue; // 0x844
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomTint6_FieldHandleType; // 0x848
 		::System::Boolean ESPP_hqBloomTint6_UseIt; // 0x84C
+		::System::Byte _padding109[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomTint6; // 0x850
 		::System::Boolean ESPP_hqBloomTint6_EnableFade; // 0x858
 		::System::Boolean ESPP_hqBloomTint6_EnableOverrideDefaultValue; // 0x859
+		::System::Byte _padding110[0x2];
 		::System::Single ESPP_hqBloomTint6_OverrideDefaultValue; // 0x85C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomTint5_FieldHandleType; // 0x860
 		::System::Boolean ESPP_hqBloomTint5_UseIt; // 0x864
+		::System::Byte _padding111[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomTint5; // 0x868
 		::System::Boolean ESPP_hqBloomTint5_EnableFade; // 0x870
 		::System::Boolean ESPP_hqBloomTint5_EnableOverrideDefaultValue; // 0x871
+		::System::Byte _padding112[0x2];
 		::System::Single ESPP_hqBloomTint5_OverrideDefaultValue; // 0x874
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomTint4_FieldHandleType; // 0x878
 		::System::Boolean ESPP_hqBloomTint4_UseIt; // 0x87C
+		::System::Byte _padding113[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomTint4; // 0x880
 		::System::Boolean ESPP_hqBloomTint4_EnableFade; // 0x888
 		::System::Boolean ESPP_hqBloomTint4_EnableOverrideDefaultValue; // 0x889
+		::System::Byte _padding114[0x2];
 		::System::Single ESPP_hqBloomTint4_OverrideDefaultValue; // 0x88C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomTint3_FieldHandleType; // 0x890
 		::System::Boolean ESPP_hqBloomTint3_UseIt; // 0x894
+		::System::Byte _padding115[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomTint3; // 0x898
 		::System::Boolean ESPP_hqBloomTint3_EnableFade; // 0x8A0
 		::System::Boolean ESPP_hqBloomTint3_EnableOverrideDefaultValue; // 0x8A1
+		::System::Byte _padding116[0x2];
 		::System::Single ESPP_hqBloomTint3_OverrideDefaultValue; // 0x8A4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomTint2_FieldHandleType; // 0x8A8
 		::System::Boolean ESPP_hqBloomTint2_UseIt; // 0x8AC
+		::System::Byte _padding117[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomTint2; // 0x8B0
 		::System::Boolean ESPP_hqBloomTint2_EnableFade; // 0x8B8
 		::System::Boolean ESPP_hqBloomTint2_EnableOverrideDefaultValue; // 0x8B9
+		::System::Byte _padding118[0x2];
 		::System::Single ESPP_hqBloomTint2_OverrideDefaultValue; // 0x8BC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomTint1_FieldHandleType; // 0x8C0
 		::System::Boolean ESPP_hqBloomTint1_UseIt; // 0x8C4
+		::System::Byte _padding119[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomTint1; // 0x8C8
 		::System::Boolean ESPP_hqBloomTint1_EnableFade; // 0x8D0
 		::System::Boolean ESPP_hqBloomTint1_EnableOverrideDefaultValue; // 0x8D1
+		::System::Byte _padding120[0x2];
 		::System::Single ESPP_hqBloomTint1_OverrideDefaultValue; // 0x8D4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqUEBloomEnableRTXSingleControl_FieldHandleType; // 0x8D8
 		::System::Boolean ESPP_hqUEBloomEnableRTXSingleControl_UseIt; // 0x8DC
+		::System::Byte _padding121[0x3];
 		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_hqUEBloomEnableRTXSingleControl; // 0x8E0
 		::System::Boolean ESPP_hqUEBloomEnableRTXSingleControl_EnableFade; // 0x8E8
 		::System::Boolean ESPP_hqUEBloomEnableRTXSingleControl_EnableOverrideDefaultValue; // 0x8E9
 		::System::Boolean ESPP_hqUEBloomEnableRTXSingleControl_OverrideDefaultValue; // 0x8EA
+		::System::Byte _padding122[0x1];
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqUEBloomThresholdRTX_FieldHandleType; // 0x8EC
 		::System::Boolean ESPP_hqUEBloomThresholdRTX_UseIt; // 0x8F0
+		::System::Byte _padding123[0x7];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqUEBloomThresholdRTX; // 0x8F8
 		::System::Boolean ESPP_hqUEBloomThresholdRTX_EnableFade; // 0x900
 		::System::Boolean ESPP_hqUEBloomThresholdRTX_EnableOverrideDefaultValue; // 0x901
+		::System::Byte _padding124[0x2];
 		::System::Single ESPP_hqUEBloomThresholdRTX_OverrideDefaultValue; // 0x904
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqUEBloomIntensityRTX_FieldHandleType; // 0x908
 		::System::Boolean ESPP_hqUEBloomIntensityRTX_UseIt; // 0x90C
+		::System::Byte _padding125[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqUEBloomIntensityRTX; // 0x910
 		::System::Boolean ESPP_hqUEBloomIntensityRTX_EnableFade; // 0x918
 		::System::Boolean ESPP_hqUEBloomIntensityRTX_EnableOverrideDefaultValue; // 0x919
+		::System::Byte _padding126[0x2];
 		::System::Single ESPP_hqUEBloomIntensityRTX_OverrideDefaultValue; // 0x91C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomSize6RTX_FieldHandleType; // 0x920
 		::System::Boolean ESPP_hqBloomSize6RTX_UseIt; // 0x924
+		::System::Byte _padding127[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomSize6RTX; // 0x928
 		::System::Boolean ESPP_hqBloomSize6RTX_EnableFade; // 0x930
 		::System::Boolean ESPP_hqBloomSize6RTX_EnableOverrideDefaultValue; // 0x931
+		::System::Byte _padding128[0x2];
 		::System::Single ESPP_hqBloomSize6RTX_OverrideDefaultValue; // 0x934
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomSize5RTX_FieldHandleType; // 0x938
 		::System::Boolean ESPP_hqBloomSize5RTX_UseIt; // 0x93C
+		::System::Byte _padding129[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomSize5RTX; // 0x940
 		::System::Boolean ESPP_hqBloomSize5RTX_EnableFade; // 0x948
 		::System::Boolean ESPP_hqBloomSize5RTX_EnableOverrideDefaultValue; // 0x949
+		::System::Byte _padding130[0x2];
 		::System::Single ESPP_hqBloomSize5RTX_OverrideDefaultValue; // 0x94C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomSize4RTX_FieldHandleType; // 0x950
 		::System::Boolean ESPP_hqBloomSize4RTX_UseIt; // 0x954
+		::System::Byte _padding131[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomSize4RTX; // 0x958
 		::System::Boolean ESPP_hqBloomSize4RTX_EnableFade; // 0x960
 		::System::Boolean ESPP_hqBloomSize4RTX_EnableOverrideDefaultValue; // 0x961
+		::System::Byte _padding132[0x2];
 		::System::Single ESPP_hqBloomSize4RTX_OverrideDefaultValue; // 0x964
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomSize3RTX_FieldHandleType; // 0x968
 		::System::Boolean ESPP_hqBloomSize3RTX_UseIt; // 0x96C
+		::System::Byte _padding133[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomSize3RTX; // 0x970
 		::System::Boolean ESPP_hqBloomSize3RTX_EnableFade; // 0x978
 		::System::Boolean ESPP_hqBloomSize3RTX_EnableOverrideDefaultValue; // 0x979
+		::System::Byte _padding134[0x2];
 		::System::Single ESPP_hqBloomSize3RTX_OverrideDefaultValue; // 0x97C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomSize2RTX_FieldHandleType; // 0x980
 		::System::Boolean ESPP_hqBloomSize2RTX_UseIt; // 0x984
+		::System::Byte _padding135[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomSize2RTX; // 0x988
 		::System::Boolean ESPP_hqBloomSize2RTX_EnableFade; // 0x990
 		::System::Boolean ESPP_hqBloomSize2RTX_EnableOverrideDefaultValue; // 0x991
+		::System::Byte _padding136[0x2];
 		::System::Single ESPP_hqBloomSize2RTX_OverrideDefaultValue; // 0x994
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomSize1RTX_FieldHandleType; // 0x998
 		::System::Boolean ESPP_hqBloomSize1RTX_UseIt; // 0x99C
+		::System::Byte _padding137[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomSize1RTX; // 0x9A0
 		::System::Boolean ESPP_hqBloomSize1RTX_EnableFade; // 0x9A8
 		::System::Boolean ESPP_hqBloomSize1RTX_EnableOverrideDefaultValue; // 0x9A9
+		::System::Byte _padding138[0x2];
 		::System::Single ESPP_hqBloomSize1RTX_OverrideDefaultValue; // 0x9AC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqUEBloomMaxThresholdRTX_FieldHandleType; // 0x9B0
 		::System::Boolean ESPP_hqUEBloomMaxThresholdRTX_UseIt; // 0x9B4
+		::System::Byte _padding139[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqUEBloomMaxThresholdRTX; // 0x9B8
 		::System::Boolean ESPP_hqUEBloomMaxThresholdRTX_EnableFade; // 0x9C0
 		::System::Boolean ESPP_hqUEBloomMaxThresholdRTX_EnableOverrideDefaultValue; // 0x9C1
+		::System::Byte _padding140[0x2];
 		::System::Single ESPP_hqUEBloomMaxThresholdRTX_OverrideDefaultValue; // 0x9C4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomTint6RTX_FieldHandleType; // 0x9C8
 		::System::Boolean ESPP_hqBloomTint6RTX_UseIt; // 0x9CC
+		::System::Byte _padding141[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomTint6RTX; // 0x9D0
 		::System::Boolean ESPP_hqBloomTint6RTX_EnableFade; // 0x9D8
 		::System::Boolean ESPP_hqBloomTint6RTX_EnableOverrideDefaultValue; // 0x9D9
+		::System::Byte _padding142[0x2];
 		::System::Single ESPP_hqBloomTint6RTX_OverrideDefaultValue; // 0x9DC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomTint5RTX_FieldHandleType; // 0x9E0
 		::System::Boolean ESPP_hqBloomTint5RTX_UseIt; // 0x9E4
+		::System::Byte _padding143[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomTint5RTX; // 0x9E8
 		::System::Boolean ESPP_hqBloomTint5RTX_EnableFade; // 0x9F0
 		::System::Boolean ESPP_hqBloomTint5RTX_EnableOverrideDefaultValue; // 0x9F1
+		::System::Byte _padding144[0x2];
 		::System::Single ESPP_hqBloomTint5RTX_OverrideDefaultValue; // 0x9F4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomTint4RTX_FieldHandleType; // 0x9F8
 		::System::Boolean ESPP_hqBloomTint4RTX_UseIt; // 0x9FC
+		::System::Byte _padding145[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomTint4RTX; // 0xA00
 		::System::Boolean ESPP_hqBloomTint4RTX_EnableFade; // 0xA08
 		::System::Boolean ESPP_hqBloomTint4RTX_EnableOverrideDefaultValue; // 0xA09
+		::System::Byte _padding146[0x2];
 		::System::Single ESPP_hqBloomTint4RTX_OverrideDefaultValue; // 0xA0C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomTint3RTX_FieldHandleType; // 0xA10
 		::System::Boolean ESPP_hqBloomTint3RTX_UseIt; // 0xA14
+		::System::Byte _padding147[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomTint3RTX; // 0xA18
 		::System::Boolean ESPP_hqBloomTint3RTX_EnableFade; // 0xA20
 		::System::Boolean ESPP_hqBloomTint3RTX_EnableOverrideDefaultValue; // 0xA21
+		::System::Byte _padding148[0x2];
 		::System::Single ESPP_hqBloomTint3RTX_OverrideDefaultValue; // 0xA24
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomTint2RTX_FieldHandleType; // 0xA28
 		::System::Boolean ESPP_hqBloomTint2RTX_UseIt; // 0xA2C
+		::System::Byte _padding149[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomTint2RTX; // 0xA30
 		::System::Boolean ESPP_hqBloomTint2RTX_EnableFade; // 0xA38
 		::System::Boolean ESPP_hqBloomTint2RTX_EnableOverrideDefaultValue; // 0xA39
+		::System::Byte _padding150[0x2];
 		::System::Single ESPP_hqBloomTint2RTX_OverrideDefaultValue; // 0xA3C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomTint1RTX_FieldHandleType; // 0xA40
 		::System::Boolean ESPP_hqBloomTint1RTX_UseIt; // 0xA44
+		::System::Byte _padding151[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqBloomTint1RTX; // 0xA48
 		::System::Boolean ESPP_hqBloomTint1RTX_EnableFade; // 0xA50
 		::System::Boolean ESPP_hqBloomTint1RTX_EnableOverrideDefaultValue; // 0xA51
+		::System::Byte _padding152[0x2];
 		::System::Single ESPP_hqBloomTint1RTX_OverrideDefaultValue; // 0xA54
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hQBloomIntensity_FieldHandleType; // 0xA58
 		::System::Boolean ESPP_hQBloomIntensity_UseIt; // 0xA5C
+		::System::Byte _padding153[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hQBloomIntensity; // 0xA60
 		::System::Boolean ESPP_hQBloomIntensity_EnableFade; // 0xA68
 		::System::Boolean ESPP_hQBloomIntensity_EnableOverrideDefaultValue; // 0xA69
+		::System::Byte _padding154[0x2];
 		::System::Single ESPP_hQBloomIntensity_OverrideDefaultValue; // 0xA6C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hQBloomThreshold_FieldHandleType; // 0xA70
 		::System::Boolean ESPP_hQBloomThreshold_UseIt; // 0xA74
+		::System::Byte _padding155[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hQBloomThreshold; // 0xA78
 		::System::Boolean ESPP_hQBloomThreshold_EnableFade; // 0xA80
 		::System::Boolean ESPP_hQBloomThreshold_EnableOverrideDefaultValue; // 0xA81
+		::System::Byte _padding156[0x2];
 		::System::Single ESPP_hQBloomThreshold_OverrideDefaultValue; // 0xA84
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hQBloomScatter_FieldHandleType; // 0xA88
 		::System::Boolean ESPP_hQBloomScatter_UseIt; // 0xA8C
+		::System::Byte _padding157[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hQBloomScatter; // 0xA90
 		::System::Boolean ESPP_hQBloomScatter_EnableFade; // 0xA98
 		::System::Boolean ESPP_hQBloomScatter_EnableOverrideDefaultValue; // 0xA99
+		::System::Byte _padding158[0x2];
 		::System::Single ESPP_hQBloomScatter_OverrideDefaultValue; // 0xA9C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hQBloomTint_FieldHandleType; // 0xAA0
 		::System::Boolean ESPP_hQBloomTint_UseIt; // 0xAA4
+		::System::Byte _padding159[0x3];
 		::MoleMole::EffectSimulate::ColorKeyframeCurve* ESPP_hQBloomTint; // 0xAA8
 		::System::Boolean ESPP_hQBloomTint_EnableFade; // 0xAB0
 		::System::Boolean ESPP_hQBloomTint_EnableOverrideDefaultValue; // 0xAB1
+		::System::Byte _padding160[0x2];
 		::UnityEngine::Color ESPP_hQBloomTint_OverrideDefaultValue; // 0xAB4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqBloomResolution_FieldHandleType; // 0xAC4
 		::UnityEngine::Rendering::Universal::BloomResolution ESPP_hqBloomResolution; // 0xAC8
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_useRealDownSample_FieldHandleType; // 0xACC
 		::System::Boolean ESPP_useRealDownSample_UseIt; // 0xAD0
+		::System::Byte _padding161[0x7];
 		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_useRealDownSample; // 0xAD8
 		::System::Boolean ESPP_useRealDownSample_EnableFade; // 0xAE0
 		::System::Boolean ESPP_useRealDownSample_EnableOverrideDefaultValue; // 0xAE1
 		::System::Boolean ESPP_useRealDownSample_OverrideDefaultValue; // 0xAE2
+		::System::Byte _padding162[0x1];
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_blurRadius_FieldHandleType; // 0xAE4
 		::System::Boolean ESPP_blurRadius_UseIt; // 0xAE8
+		::System::Byte _padding163[0x7];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_blurRadius; // 0xAF0
 		::System::Boolean ESPP_blurRadius_EnableFade; // 0xAF8
 		::System::Boolean ESPP_blurRadius_EnableOverrideDefaultValue; // 0xAF9
+		::System::Byte _padding164[0x2];
 		::System::Single ESPP_blurRadius_OverrideDefaultValue; // 0xAFC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_doBloomAfterTAA_FieldHandleType; // 0xB00
 		::System::Boolean ESPP_doBloomAfterTAA_UseIt; // 0xB04
+		::System::Byte _padding165[0x3];
 		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_doBloomAfterTAA; // 0xB08
 		::System::Boolean ESPP_doBloomAfterTAA_EnableFade; // 0xB10
 		::System::Boolean ESPP_doBloomAfterTAA_EnableOverrideDefaultValue; // 0xB11
 		::System::Boolean ESPP_doBloomAfterTAA_OverrideDefaultValue; // 0xB12
+		::System::Byte _padding166[0x1];
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_useSourceLumaMask_FieldHandleType; // 0xB14
 		::System::Boolean ESPP_useSourceLumaMask_UseIt; // 0xB18
+		::System::Byte _padding167[0x7];
 		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_useSourceLumaMask; // 0xB20
 		::System::Boolean ESPP_useSourceLumaMask_EnableFade; // 0xB28
 		::System::Boolean ESPP_useSourceLumaMask_EnableOverrideDefaultValue; // 0xB29
 		::System::Boolean ESPP_useSourceLumaMask_OverrideDefaultValue; // 0xB2A
+		::System::Byte _padding168[0x1];
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glareThresholdForHDR_FieldHandleType; // 0xB2C
 		::System::Boolean ESPP_glareThresholdForHDR_UseIt; // 0xB30
+		::System::Byte _padding169[0x7];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glareThresholdForHDR; // 0xB38
 		::System::Boolean ESPP_glareThresholdForHDR_EnableFade; // 0xB40
 		::System::Boolean ESPP_glareThresholdForHDR_EnableOverrideDefaultValue; // 0xB41
+		::System::Byte _padding170[0x2];
 		::System::Single ESPP_glareThresholdForHDR_OverrideDefaultValue; // 0xB44
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_glareScalerForHDR_FieldHandleType; // 0xB48
 		::System::Boolean ESPP_glareScalerForHDR_UseIt; // 0xB4C
+		::System::Byte _padding171[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_glareScalerForHDR; // 0xB50
 		::System::Boolean ESPP_glareScalerForHDR_EnableFade; // 0xB58
 		::System::Boolean ESPP_glareScalerForHDR_EnableOverrideDefaultValue; // 0xB59
+		::System::Byte _padding172[0x2];
 		::System::Single ESPP_glareScalerForHDR_OverrideDefaultValue; // 0xB5C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_blurLevelWeights_FieldHandleType; // 0xB60
 		::System::Boolean ESPP_blurLevelWeights_UseIt; // 0xB64
+		::System::Byte _padding173[0x3];
 		::MoleMole::EffectSimulate::Vector4KeyframeCurve* ESPP_blurLevelWeights; // 0xB68
 		::System::Boolean ESPP_blurLevelWeights_EnableFade; // 0xB70
 		::System::Boolean ESPP_blurLevelWeights_EnableOverrideDefaultValue; // 0xB71
+		::System::Byte _padding174[0x2];
 		::UnityEngine::Vector4 ESPP_blurLevelWeights_OverrideDefaultValue; // 0xB74
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_secondaryGlareThreshold_FieldHandleType; // 0xB84
 		::System::Boolean ESPP_secondaryGlareThreshold_UseIt; // 0xB88
+		::System::Byte _padding175[0x7];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_secondaryGlareThreshold; // 0xB90
 		::System::Boolean ESPP_secondaryGlareThreshold_EnableFade; // 0xB98
 		::System::Boolean ESPP_secondaryGlareThreshold_EnableOverrideDefaultValue; // 0xB99
+		::System::Byte _padding176[0x2];
 		::System::Single ESPP_secondaryGlareThreshold_OverrideDefaultValue; // 0xB9C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_secondaryGlareContrast_FieldHandleType; // 0xBA0
 		::System::Boolean ESPP_secondaryGlareContrast_UseIt; // 0xBA4
+		::System::Byte _padding177[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_secondaryGlareContrast; // 0xBA8
 		::System::Boolean ESPP_secondaryGlareContrast_EnableFade; // 0xBB0
 		::System::Boolean ESPP_secondaryGlareContrast_EnableOverrideDefaultValue; // 0xBB1
+		::System::Byte _padding178[0x2];
 		::System::Single ESPP_secondaryGlareContrast_OverrideDefaultValue; // 0xBB4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_secondaryGlareWeight_FieldHandleType; // 0xBB8
 		::System::Boolean ESPP_secondaryGlareWeight_UseIt; // 0xBBC
+		::System::Byte _padding179[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_secondaryGlareWeight; // 0xBC0
 		::System::Boolean ESPP_secondaryGlareWeight_EnableFade; // 0xBC8
 		::System::Boolean ESPP_secondaryGlareWeight_EnableOverrideDefaultValue; // 0xBC9
+		::System::Byte _padding180[0x2];
 		::System::Single ESPP_secondaryGlareWeight_OverrideDefaultValue; // 0xBCC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_secondaryBlurRadius_FieldHandleType; // 0xBD0
 		::System::Boolean ESPP_secondaryBlurRadius_UseIt; // 0xBD4
+		::System::Byte _padding181[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_secondaryBlurRadius; // 0xBD8
 		::System::Boolean ESPP_secondaryBlurRadius_EnableFade; // 0xBE0
 		::System::Boolean ESPP_secondaryBlurRadius_EnableOverrideDefaultValue; // 0xBE1
+		::System::Byte _padding182[0x2];
 		::System::Int32 ESPP_secondaryBlurRadius_OverrideDefaultValue; // 0xBE4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_quality_FieldHandleType; // 0xBE8
 		::UnityEngine::NAPRenderPipeline0::NapBloomQuality ESPP_quality; // 0xBEC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_blurLevelBufferHeights_FieldHandleType; // 0xBF0
 		::System::Boolean ESPP_blurLevelBufferHeights_UseIt; // 0xBF4
+		::System::Byte _padding183[0x3];
 		::MoleMole::EffectSimulate::Vector4KeyframeCurve* ESPP_blurLevelBufferHeights; // 0xBF8
 		::System::Boolean ESPP_blurLevelBufferHeights_EnableFade; // 0xC00
 		::System::Boolean ESPP_blurLevelBufferHeights_EnableOverrideDefaultValue; // 0xC01
+		::System::Byte _padding184[0x2];
 		::UnityEngine::Vector4 ESPP_blurLevelBufferHeights_OverrideDefaultValue; // 0xC04
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_secondaryBlurLevelBufferHeight_FieldHandleType; // 0xC14
 		::System::Boolean ESPP_secondaryBlurLevelBufferHeight_UseIt; // 0xC18
+		::System::Byte _padding185[0x7];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_secondaryBlurLevelBufferHeight; // 0xC20
 		::System::Boolean ESPP_secondaryBlurLevelBufferHeight_EnableFade; // 0xC28
 		::System::Boolean ESPP_secondaryBlurLevelBufferHeight_EnableOverrideDefaultValue; // 0xC29
+		::System::Byte _padding186[0x2];
 		::System::Int32 ESPP_secondaryBlurLevelBufferHeight_OverrideDefaultValue; // 0xC2C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_dirtTexture_FieldHandleType; // 0xC30
+		::System::Byte _padding187[0x4];
 		::UnityEngine::Texture* ESPP_dirtTexture; // 0xC38
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_dirtIntensity_FieldHandleType; // 0xC40
 		::System::Boolean ESPP_dirtIntensity_UseIt; // 0xC44
+		::System::Byte _padding188[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_dirtIntensity; // 0xC48
 		::System::Boolean ESPP_dirtIntensity_EnableFade; // 0xC50
 		::System::Boolean ESPP_dirtIntensity_EnableOverrideDefaultValue; // 0xC51
+		::System::Byte _padding189[0x2];
 		::System::Single ESPP_dirtIntensity_OverrideDefaultValue; // 0xC54
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_HasExtraDownsample_FieldHandleType; // 0xC58
 		::System::Boolean ESPP_HasExtraDownsample_UseIt; // 0xC5C
+		::System::Byte _padding190[0x3];
 		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_HasExtraDownsample; // 0xC60
 		::System::Boolean ESPP_HasExtraDownsample_EnableFade; // 0xC68
 		::System::Boolean ESPP_HasExtraDownsample_EnableOverrideDefaultValue; // 0xC69
 		::System::Boolean ESPP_HasExtraDownsample_OverrideDefaultValue; // 0xC6A
+		::System::Byte _padding191[0x1];
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_enableSpriteFlare_FieldHandleType; // 0xC6C
 		::System::Boolean ESPP_enableSpriteFlare_UseIt; // 0xC70
+		::System::Byte _padding192[0x7];
 		::MoleMole::EffectSimulate::BoolKeyframeCurve* ESPP_enableSpriteFlare; // 0xC78
 		::System::Boolean ESPP_enableSpriteFlare_EnableFade; // 0xC80
 		::System::Boolean ESPP_enableSpriteFlare_EnableOverrideDefaultValue; // 0xC81
 		::System::Boolean ESPP_enableSpriteFlare_OverrideDefaultValue; // 0xC82
+		::System::Byte _padding193[0x1];
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_flareThreshold_FieldHandleType; // 0xC84
 		::System::Boolean ESPP_flareThreshold_UseIt; // 0xC88
+		::System::Byte _padding194[0x7];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_flareThreshold; // 0xC90
 		::System::Boolean ESPP_flareThreshold_EnableFade; // 0xC98
 		::System::Boolean ESPP_flareThreshold_EnableOverrideDefaultValue; // 0xC99
+		::System::Byte _padding195[0x2];
 		::System::Single ESPP_flareThreshold_OverrideDefaultValue; // 0xC9C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_areaThreshold_FieldHandleType; // 0xCA0
 		::System::Boolean ESPP_areaThreshold_UseIt; // 0xCA4
+		::System::Byte _padding196[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_areaThreshold; // 0xCA8
 		::System::Boolean ESPP_areaThreshold_EnableFade; // 0xCB0
 		::System::Boolean ESPP_areaThreshold_EnableOverrideDefaultValue; // 0xCB1
+		::System::Byte _padding197[0x2];
 		::System::Single ESPP_areaThreshold_OverrideDefaultValue; // 0xCB4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_saturate_FieldHandleType; // 0xCB8
 		::System::Boolean ESPP_saturate_UseIt; // 0xCBC
+		::System::Byte _padding198[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_saturate; // 0xCC0
 		::System::Boolean ESPP_saturate_EnableFade; // 0xCC8
 		::System::Boolean ESPP_saturate_EnableOverrideDefaultValue; // 0xCC9
+		::System::Byte _padding199[0x2];
 		::System::Single ESPP_saturate_OverrideDefaultValue; // 0xCCC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_randomize_FieldHandleType; // 0xCD0
 		::System::Boolean ESPP_randomize_UseIt; // 0xCD4
+		::System::Byte _padding200[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_randomize; // 0xCD8
 		::System::Boolean ESPP_randomize_EnableFade; // 0xCE0
 		::System::Boolean ESPP_randomize_EnableOverrideDefaultValue; // 0xCE1
+		::System::Byte _padding201[0x2];
 		::System::Single ESPP_randomize_OverrideDefaultValue; // 0xCE4
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_sizeClamp_FieldHandleType; // 0xCE8
 		::System::Boolean ESPP_sizeClamp_UseIt; // 0xCEC
+		::System::Byte _padding202[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_sizeClamp; // 0xCF0
 		::System::Boolean ESPP_sizeClamp_EnableFade; // 0xCF8
 		::System::Boolean ESPP_sizeClamp_EnableOverrideDefaultValue; // 0xCF9
+		::System::Byte _padding203[0x2];
 		::System::Single ESPP_sizeClamp_OverrideDefaultValue; // 0xCFC
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_intensityClamp_FieldHandleType; // 0xD00
 		::System::Boolean ESPP_intensityClamp_UseIt; // 0xD04
+		::System::Byte _padding204[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_intensityClamp; // 0xD08
 		::System::Boolean ESPP_intensityClamp_EnableFade; // 0xD10
 		::System::Boolean ESPP_intensityClamp_EnableOverrideDefaultValue; // 0xD11
+		::System::Byte _padding205[0x2];
 		::System::Single ESPP_intensityClamp_OverrideDefaultValue; // 0xD14
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_iterationNum_FieldHandleType; // 0xD18
 		::System::Boolean ESPP_iterationNum_UseIt; // 0xD1C
+		::System::Byte _padding206[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_iterationNum; // 0xD20
 		::System::Boolean ESPP_iterationNum_EnableFade; // 0xD28
 		::System::Boolean ESPP_iterationNum_EnableOverrideDefaultValue; // 0xD29
+		::System::Byte _padding207[0x2];
 		::System::Int32 ESPP_iterationNum_OverrideDefaultValue; // 0xD2C
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_flareProfile_FieldHandleType; // 0xD30
+		::System::Byte _padding208[0x4];
 		::UnityEngine::NAPRenderPipeline0::FlareProfile_NativeSRP* ESPP_flareProfile; // 0xD38
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hqUEBloomIntensityCharFromScene_FieldHandleType; // 0xD40
 		::System::Boolean ESPP_hqUEBloomIntensityCharFromScene_UseIt; // 0xD44
+		::System::Byte _padding209[0x3];
 		::MoleMole::EffectSimulate::FloatKeyframeCurve* ESPP_hqUEBloomIntensityCharFromScene; // 0xD48
 		::System::Boolean ESPP_hqUEBloomIntensityCharFromScene_EnableFade; // 0xD50
 		::System::Boolean ESPP_hqUEBloomIntensityCharFromScene_EnableOverrideDefaultValue; // 0xD51
+		::System::Byte _padding210[0x2];
 		::System::Single ESPP_hqUEBloomIntensityCharFromScene_OverrideDefaultValue; // 0xD54
 
 		::System::Void _ctor()
@@ -813,49 +1022,49 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_06330CD58CB602B6()
+		::System::Void NNEGPFCPCAB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_06330CD58CB602B6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_NNEGPFCPCAB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_832295EC279E5994()
+		::System::Void IEFBPLNILIE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_IEFBPLNILIE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_497833CF065C1894()
+		::System::Void AJIPNBANCOC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_497833CF065C1894_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_AJIPNBANCOC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_D35B60AE823B8CC1()
+		::System::Void AAOGMJFNGIB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_D35B60AE823B8CC1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_AAOGMJFNGIB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_25CD86BF8626C8D9(::System::Single a1)
+		::System::Void BAHGDCGIEKL(::System::Single PBKKBBHOCLC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_25CD86BF8626C8D9_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_BAHGDCGIEKL_OFFSET))(this, PBKKBBHOCLC);
 		}
 
-		::System::Void Method_5_F5E918E05983DBD3(::System::Single a1)
+		::System::Void ALJEEEAPCBH(::System::Single HIIOCANBKAM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_F5E918E05983DBD3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_ALJEEEAPCBH_OFFSET))(this, HIIOCANBKAM);
 		}
 
-		::System::Void Method_5_ABD8624DE9A02803(::System::Single a1)
+		::System::Void AFPCLLAALBH(::System::Single FDLDIDFMCIG)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_ABD8624DE9A02803_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_AFPCLLAALBH_OFFSET))(this, FDLDIDFMCIG);
 		}
 
-		::System::Void Method_5_8462E42B7CEE1998(::System::Single a1)
+		::System::Void PEDOJDBBGPC(::System::Single AHAFNGEDPLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_8462E42B7CEE1998_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_PEDOJDBBGPC_OFFSET))(this, AHAFNGEDPLI);
 		}
 
-		::System::Void Method_5_8462E42B7CEE1998_1(::System::Single a1)
+		::System::Void ONPGLGIFOJJ(::System::Single AHAFNGEDPLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_METHOD_5_8462E42B7CEE1998_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSNAPBLOOM_ONPGLGIFOJJ_OFFSET))(this, AHAFNGEDPLI);
 		}
 	};
 }

@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/miHoYoEmotion/SerializableDictionary_2.h"
 
-namespace miHoYoEmotion { class PhonemeShapeListWrapper; }
-
-#define MIHOYOEMOTION_EMOTIONGROUPEDPHONEMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D041530)
+#define MIHOYOEMOTION_EMOTIONGROUPEDPHONEMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D594FA0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int EmotionGroupedPhonemes_TypeDefinitionIndex = 39982;
+	inline static constexpr unsigned int EmotionGroupedPhonemes_TypeDefinitionIndex = 38076;
 
-	class EmotionGroupedPhonemes : public ::miHoYoEmotion::SerializableDictionary_2<::System::Int32, ::miHoYoEmotion::PhonemeShapeListWrapper*>
+	class EmotionGroupedPhonemes
 	{
 	public:
 		::System::Void _ctor()

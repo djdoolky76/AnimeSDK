@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HOCDHMEPPEG.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class EventArgs; }
+
+#define FOMLKPDIJHO_NAFFPBOEJLB_CKCAODIBHAO_OFFSET UNITYSDK_OFFSET(0x156D2700)
+#define FOMLKPDIJHO_NAFFPBOEJLB_GFHGIDKPOHE_OFFSET UNITYSDK_OFFSET(0x156D2620)
+#define FOMLKPDIJHO_NAFFPBOEJLB_KAMBILAIIHE_OFFSET UNITYSDK_OFFSET(0x156D2410)
+#define FOMLKPDIJHO_NAFFPBOEJLB_KKFNPONHGEM_OFFSET UNITYSDK_OFFSET(0x156D2790)
+#define FOMLKPDIJHO_NAFFPBOEJLB_MHHJPBJILBJ_OFFSET UNITYSDK_OFFSET(0x156D2060)
+#define FOMLKPDIJHO_NAFFPBOEJLB_OHIENHKHOIF_OFFSET UNITYSDK_OFFSET(0x156D2460)
+#define FOMLKPDIJHO_NAFFPBOEJLB__CTOR_OFFSET UNITYSDK_OFFSET(0x156D2400)
+
+inline static constexpr unsigned int FOMLKPDIJHO_NAFFPBOEJLB_TypeDefinitionIndex = 49995;
+
+class FOMLKPDIJHO_NAFFPBOEJLB : public ::System::Object
+{
+public:
+	::HOCDHMEPPEG KOHEGCMCHJE; // 0x10
+	::HOCDHMEPPEG PEAANPCBMFO; // 0x40
+	::System::Int32 MGNMJMACKLO; // 0x70
+	::System::Boolean HLJPINPGIJN; // 0x74
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FOMLKPDIJHO_NAFFPBOEJLB__CTOR_OFFSET))(this);
+	}
+
+	::System::Void MHHJPBJILBJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FOMLKPDIJHO_NAFFPBOEJLB_MHHJPBJILBJ_OFFSET))(this);
+	}
+
+	::System::Void KAMBILAIIHE(::System::EventArgs* KOIBHLHLMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + FOMLKPDIJHO_NAFFPBOEJLB_KAMBILAIIHE_OFFSET))(this, KOIBHLHLMFC);
+	}
+
+	::System::Void GFHGIDKPOHE(::System::EventArgs* KOIBHLHLMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + FOMLKPDIJHO_NAFFPBOEJLB_GFHGIDKPOHE_OFFSET))(this, KOIBHLHLMFC);
+	}
+
+	::System::Void OHIENHKHOIF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FOMLKPDIJHO_NAFFPBOEJLB_OHIENHKHOIF_OFFSET))(this);
+	}
+
+	::System::Void CKCAODIBHAO(::System::EventArgs* KOIBHLHLMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + FOMLKPDIJHO_NAFFPBOEJLB_CKCAODIBHAO_OFFSET))(this, KOIBHLHLMFC);
+	}
+
+	::System::Void KKFNPONHGEM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FOMLKPDIJHO_NAFFPBOEJLB_KKFNPONHGEM_OFFSET))(this);
+	}
+};

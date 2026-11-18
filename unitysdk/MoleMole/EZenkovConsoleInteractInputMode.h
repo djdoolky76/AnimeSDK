@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EZenkovConsoleInteractInputMode_TypeDefinitionIndex = 90999;
+	inline static constexpr unsigned int EZenkovConsoleInteractInputMode_TypeDefinitionIndex = 59804;
 
 	enum class EZenkovConsoleInteractInputMode : ::System::Int32
 	{
-		ModernV2 = 2,
-		Classic = 0,
 		Modern = 1,
+		Classic = 0,
+		ModernV2 = 2,
 	};
 }

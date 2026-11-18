@@ -1,39 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/FrameData.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Playables/ScriptPlayable_1.h"
 #include "unitysdk/UnityEngine/Timeline/ActivationControlPlayable_InitialState.h"
 #include "unitysdk/UnityEngine/Timeline/ActivationControlPlayable_PostPlaybackState.h"
+#include "unitysdk/UnityEngine/Playables/FrameData.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
+#include "unitysdk/UnityEngine/Playables/ScriptPlayable_1.h"
 
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F81D540)
-#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1F81D8D0)
-#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1F81D780)
-#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1F81DB80)
-#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1F81DCE0)
-#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1F81DA30)
-#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F81DEA0)
-#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F81DE90)
+#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE_CREATE_OFFSET UNITYSDK_OFFSET(0x1FC32F10)
+#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1FC332A0)
+#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1FC33150)
+#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1FC33550)
+#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1FC336B0)
+#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1FC33400)
+#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC33870)
+#define UNITYENGINE_TIMELINE_ACTIVATIONCONTROLPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC33860)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ActivationControlPlayable_TypeDefinitionIndex = 33021;
+	inline static constexpr unsigned int ActivationControlPlayable_TypeDefinitionIndex = 32480;
 
 	class ActivationControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		static ::System::Boolean* StaticGet_SkipActivationControl()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivationControlPlayable_TypeDefinitionIndex)->GetStaticField(0x13610);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivationControlPlayable_TypeDefinitionIndex)->GetStaticField(0x14340);
 		}
 		::UnityEngine::GameObject* gameObject; // 0x10
-		::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState postPlayback; // 0x18
-		::UnityEngine::Timeline::ActivationControlPlayable_InitialState m_InitialState; // 0x1C
+		::UnityEngine::Timeline::ActivationControlPlayable_InitialState m_InitialState; // 0x18
+		::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState postPlayback; // 0x1C
 
 		::System::Void _ctor()
 		{

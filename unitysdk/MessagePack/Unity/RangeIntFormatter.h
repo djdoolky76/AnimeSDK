@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/RangeInt.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_RANGEINTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA9A710)
-#define MESSAGEPACK_UNITY_RANGEINTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA9A6D0)
-#define MESSAGEPACK_UNITY_RANGEINTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9A8B0)
+#define MESSAGEPACK_UNITY_RANGEINTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EDCB780)
+#define MESSAGEPACK_UNITY_RANGEINTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EDCB740)
+#define MESSAGEPACK_UNITY_RANGEINTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDCB920)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int RangeIntFormatter_TypeDefinitionIndex = 30923;
+	inline static constexpr unsigned int RangeIntFormatter_TypeDefinitionIndex = 29898;
 
 	class RangeIntFormatter : public ::System::Object
 	{

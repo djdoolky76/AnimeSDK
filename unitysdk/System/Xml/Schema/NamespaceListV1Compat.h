@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTV1COMPAT_ALLOWS_OFFSET UNITYSDK_OFFSET(0x1F108D50)
-#define SYSTEM_XML_SCHEMA_NAMESPACELISTV1COMPAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F108D40)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTV1COMPAT_ALLOWS_OFFSET UNITYSDK_OFFSET(0x1F4CA750)
+#define SYSTEM_XML_SCHEMA_NAMESPACELISTV1COMPAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4CA740)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int NamespaceListV1Compat_TypeDefinitionIndex = 2071;
+	inline static constexpr unsigned int NamespaceListV1Compat_TypeDefinitionIndex = 2070;
 
 	class NamespaceListV1Compat : public ::System::Xml::Schema::NamespaceList
 	{

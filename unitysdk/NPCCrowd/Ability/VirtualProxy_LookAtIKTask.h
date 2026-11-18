@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdTaskBase.h"
+#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeActiveStates.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
@@ -12,16 +12,16 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_LOOKATIKTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xF76B210)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_LOOKATIKTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xF76B1B0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_LOOKATIKTASK_LINK_OFFSET UNITYSDK_OFFSET(0xF76B140)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_LOOKATIKTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0xF76B280)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_LOOKATIKTASK_TICK_OFFSET UNITYSDK_OFFSET(0xF76B320)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_LOOKATIKTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xF76B3D0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_LOOKATIKTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xFD240B0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_LOOKATIKTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xFD24050)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_LOOKATIKTASK_LINK_OFFSET UNITYSDK_OFFSET(0xFD23FE0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_LOOKATIKTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0xFD24120)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_LOOKATIKTASK_TICK_OFFSET UNITYSDK_OFFSET(0xFD241C0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_LOOKATIKTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xFD24270)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_LookAtIKTask_TypeDefinitionIndex = 43923;
+	inline static constexpr unsigned int VirtualProxy_LookAtIKTask_TypeDefinitionIndex = 68267;
 
 	class VirtualProxy_LookAtIKTask : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdTaskBase
 	{

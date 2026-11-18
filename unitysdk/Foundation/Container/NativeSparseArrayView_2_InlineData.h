@@ -4,12 +4,12 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeSparseArrayView_2_InlineData_TypeDefinitionIndex = 8616;
+	inline static constexpr unsigned int NativeSparseArrayView_2_InlineData_TypeDefinitionIndex = 9058;
 
-	template <typename TUserData, typename T>
-	struct NativeSparseArrayView_2_InlineData
+	template <typename T1, typename T2>
+	struct alignas(8) NativeSparseArrayView_2_InlineData
 	{
-		TUserData Data; // 0x0
+		T1 Data; // 0x0
 		::System::Int64 FirstFreeIndex; // 0x0
 		::System::Int64 FreeIndexNum; // 0x0
 	};

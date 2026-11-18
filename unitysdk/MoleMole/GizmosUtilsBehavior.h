@@ -4,18 +4,19 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_GIZMOSUTILSBEHAVIOR_CLEARINSTANCE_OFFSET UNITYSDK_OFFSET(0x149ECFD0)
-#define MOLEMOLE_GIZMOSUTILSBEHAVIOR_FINDINSTANCE_OFFSET UNITYSDK_OFFSET(0x149ECDA0)
-#define MOLEMOLE_GIZMOSUTILSBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x149ED1B0)
+#define MOLEMOLE_GIZMOSUTILSBEHAVIOR_CLEARINSTANCE_OFFSET UNITYSDK_OFFSET(0x130DD000)
+#define MOLEMOLE_GIZMOSUTILSBEHAVIOR_FINDINSTANCE_OFFSET UNITYSDK_OFFSET(0x130DCDD0)
+#define MOLEMOLE_GIZMOSUTILSBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x130DD1E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GizmosUtilsBehavior_TypeDefinitionIndex = 48029;
+	inline static constexpr unsigned int GizmosUtilsBehavior_TypeDefinitionIndex = 80014;
 
 	class GizmosUtilsBehavior : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean Enable; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::Action* OnDrawGizmosAction; // 0x20
 
 		::System::Void _ctor()

@@ -6,18 +6,19 @@
 class AkEnvironment;
 namespace UnityEngine { class BoxCollider; }
 
-#define AKENVIRONMENTPORTAL_GETAUXSENDVALUEFORPOSITION_OFFSET UNITYSDK_OFFSET(0x1FAF3850)
-#define AKENVIRONMENTPORTAL_GET_BOXCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1FAF31D0)
-#define AKENVIRONMENTPORTAL_GET_ENVIRONMENTSSHAREAUXBUS_OFFSET UNITYSDK_OFFSET(0x1FAF3360)
-#define AKENVIRONMENTPORTAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAF3D20)
+#define AKENVIRONMENTPORTAL_GETAUXSENDVALUEFORPOSITION_OFFSET UNITYSDK_OFFSET(0x1FEFF540)
+#define AKENVIRONMENTPORTAL_GET_BOXCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1FEFEEC0)
+#define AKENVIRONMENTPORTAL_GET_ENVIRONMENTSSHAREAUXBUS_OFFSET UNITYSDK_OFFSET(0x1FEFF050)
+#define AKENVIRONMENTPORTAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1FEFFA10)
 
-inline static constexpr unsigned int AkEnvironmentPortal_TypeDefinitionIndex = 33778;
+inline static constexpr unsigned int AkEnvironmentPortal_TypeDefinitionIndex = 33324;
 
 class AkEnvironmentPortal : public ::UnityEngine::MonoBehaviour
 {
 public:
 	// static const ::System::Int32 MAX_ENVIRONMENTS_PER_PORTAL = 0x2; // 0x0
 	::UnityEngine::Vector3 axis; // 0x18
+	::System::Byte _padding0[0x4];
 	::Il2CppArray<::AkEnvironment*>* environments; // 0x28
 	::UnityEngine::BoxCollider* m_BoxCollider; // 0x30
 

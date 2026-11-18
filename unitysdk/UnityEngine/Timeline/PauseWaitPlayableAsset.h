@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class PauseWaitBehavior; }
 
-#define UNITYENGINE_TIMELINE_PAUSEWAITPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F991030)
-#define UNITYENGINE_TIMELINE_PAUSEWAITPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F991100)
-#define UNITYENGINE_TIMELINE_PAUSEWAITPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F991110)
+#define UNITYENGINE_TIMELINE_PAUSEWAITPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FD7AAD0)
+#define UNITYENGINE_TIMELINE_PAUSEWAITPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FD7ABB0)
+#define UNITYENGINE_TIMELINE_PAUSEWAITPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD7ABC0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int PauseWaitPlayableAsset_TypeDefinitionIndex = 32971;
+	inline static constexpr unsigned int PauseWaitPlayableAsset_TypeDefinitionIndex = 32426;
 
 	class PauseWaitPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

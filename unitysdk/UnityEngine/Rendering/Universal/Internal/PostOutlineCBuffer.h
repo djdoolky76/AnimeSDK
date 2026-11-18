@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PostOutlineCBuffer_TypeDefinitionIndex = 27336;
+	inline static constexpr unsigned int PostOutlineCBuffer_TypeDefinitionIndex = 26167;
 
 	struct alignas(4) PostOutlineCBuffer
 	{

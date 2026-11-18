@@ -3,14 +3,14 @@
 #include "unitysdk/NPCCrowd/AI/BaseActionConfig.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_AIACTIONRETURNTOPATHFOLLOWCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x6D95C0)
-#define NPCCROWD_AI_AIACTIONRETURNTOPATHFOLLOWCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x6D9610)
+#define NPCCROWD_AI_AIACTIONRETURNTOPATHFOLLOWCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x7A4460)
+#define NPCCROWD_AI_AIACTIONRETURNTOPATHFOLLOWCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x7A44B0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionReturnToPathFollowConfig_TypeDefinitionIndex = 68671;
+	inline static constexpr unsigned int AIActionReturnToPathFollowConfig_TypeDefinitionIndex = 55730;
 
-	struct alignas(8) AIActionReturnToPathFollowConfig
+	struct alignas(4) AIActionReturnToPathFollowConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 

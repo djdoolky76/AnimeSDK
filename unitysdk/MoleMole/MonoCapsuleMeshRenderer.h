@@ -1,34 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
 namespace UnityEngine { class CapsuleCollider; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x199578A0)
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x199575E0)
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_0DD631A5D18F762A_OFFSET UNITYSDK_OFFSET(0x19958BE0)
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_6A042D020D7DEEED_OFFSET UNITYSDK_OFFSET(0x19957AB0)
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_E2C05663B5DE5BEA_OFFSET UNITYSDK_OFFSET(0x199588F0)
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x19958630)
-#define MOLEMOLE_MONOCAPSULEMESHRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x199588A0)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER_ICAMFADOIHC_OFFSET UNITYSDK_OFFSET(0x1A915A70)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A914730)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER_JDKPJBMKKEI_OFFSET UNITYSDK_OFFSET(0x1A915780)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER_JLOCGHHLKBM_OFFSET UNITYSDK_OFFSET(0x1A914940)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1A914470)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A9154C0)
+#define MOLEMOLE_MONOCAPSULEMESHRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A915730)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoCapsuleMeshRenderer_TypeDefinitionIndex = 74131;
+	inline static constexpr unsigned int MonoCapsuleMeshRenderer_TypeDefinitionIndex = 91371;
 
 	class MonoCapsuleMeshRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Int32 Field_5_7 = 0x10; // 0x0
-		// static const ::System::Int32 Field_5_6 = 0x8; // 0x0
-		::UnityEngine::Transform* Field_5_2; // 0x18
-		::UnityEngine::Vector3 Field_5_1; // 0x20
-		::UnityEngine::Mesh* Field_5_0; // 0x30
+		// static const ::System::Int32 HBENONOCOCF = 0x10; // 0x0
+		// static const ::System::Int32 DOBMJGMKFIN = 0x8; // 0x0
+		::UnityEngine::Transform* HPEFMJFCIHN; // 0x18
+		::UnityEngine::Vector3 MKEGNKPNOAB; // 0x20
+		::System::Byte _padding0[0x4];
+		::UnityEngine::Mesh* BMCABGEMEOP; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -40,9 +41,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Initialize(::UnityEngine::Material* a1, ::UnityEngine::CapsuleCollider* a2, ::UnityEngine::Transform* a3)
+		::System::Void Initialize(::UnityEngine::Material* AEIHFBNNLBP, ::UnityEngine::CapsuleCollider* DKMCMJOACMB, ::UnityEngine::Transform* HODAIDNDKHD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::UnityEngine::CapsuleCollider*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_INITIALIZE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::UnityEngine::CapsuleCollider*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_INITIALIZE_OFFSET))(this, AEIHFBNNLBP, DKMCMJOACMB, HODAIDNDKHD);
 		}
 
 		::System::Void OnDestroy()
@@ -50,19 +51,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_ONDESTROY_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_E2C05663B5DE5BEA(::Il2CppArray<::UnityEngine::Vector3>* a1, ::Il2CppArray<::UnityEngine::Vector3>* a2, ::Il2CppArray<::UnityEngine::Vector2>* a3, ::System::Int32& a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Single a7, ::System::Single a8, ::System::Boolean a9)
+		static ::UnityEngine::Mesh* JLOCGHHLKBM(::System::Single NCCDJLDKFGA, ::System::Single KKAMDFNMMJH, ::System::Int32 MBPAGFGBAFA, ::System::Int32 CHBMGIHCJPJ)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_E2C05663B5DE5BEA_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::UnityEngine::Mesh*(*)(::System::Single, ::System::Single, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_JLOCGHHLKBM_OFFSET))(NCCDJLDKFGA, KKAMDFNMMJH, MBPAGFGBAFA, CHBMGIHCJPJ);
 		}
 
-		static ::UnityEngine::Mesh* Method_5_6A042D020D7DEEED(::System::Single a1, ::System::Single a2, ::System::Int32 a3, ::System::Int32 a4)
+		static ::System::Void ICAMFADOIHC(::Il2CppArray<::UnityEngine::Vector3>* DDCMDFBCOCJ, ::Il2CppArray<::UnityEngine::Vector3>* AGLPILADKGJ, ::Il2CppArray<::UnityEngine::Vector2>* CHPCHCGAFIN, ::System::Int32& FCHPEBMHEBA, ::System::Int32 MBPAGFGBAFA, ::System::Single CKAPDIELIEL, ::System::Single BFMMEICFNCD, ::System::Single MMFKCJOPJLC, ::System::Single MAFFLKEBDKF, ::System::Boolean NGKPICICOHL)
 		{
-			return ((::UnityEngine::Mesh*(*)(::System::Single, ::System::Single, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_6A042D020D7DEEED_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Int32&, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_ICAMFADOIHC_OFFSET))(DDCMDFBCOCJ, AGLPILADKGJ, CHPCHCGAFIN, FCHPEBMHEBA, MBPAGFGBAFA, CKAPDIELIEL, BFMMEICFNCD, MMFKCJOPJLC, MAFFLKEBDKF, NGKPICICOHL);
 		}
 
-		static ::System::Void Method_5_0DD631A5D18F762A(::Il2CppArray<::UnityEngine::Vector3>* a1, ::Il2CppArray<::UnityEngine::Vector3>* a2, ::Il2CppArray<::UnityEngine::Vector2>* a3, ::System::Int32& a4, ::System::Int32 a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Single a9, ::System::Boolean a10)
+		static ::System::Void JDKPJBMKKEI(::Il2CppArray<::UnityEngine::Vector3>* DDCMDFBCOCJ, ::Il2CppArray<::UnityEngine::Vector3>* AGLPILADKGJ, ::Il2CppArray<::UnityEngine::Vector2>* CHPCHCGAFIN, ::System::Int32& FCHPEBMHEBA, ::System::Int32 MBPAGFGBAFA, ::System::Int32 CHBMGIHCJPJ, ::System::Single NCCDJLDKFGA, ::System::Single FGAGIIBLHDD, ::System::Boolean NGKPICICOHL)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Int32&, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_METHOD_5_0DD631A5D18F762A_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Int32&, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOCAPSULEMESHRENDERER_JDKPJBMKKEI_OFFSET))(DDCMDFBCOCJ, AGLPILADKGJ, CHPCHCGAFIN, FCHPEBMHEBA, MBPAGFGBAFA, CHBMGIHCJPJ, NCCDJLDKFGA, FGAGIIBLHDD, NGKPICICOHL);
 		}
 	};
 }

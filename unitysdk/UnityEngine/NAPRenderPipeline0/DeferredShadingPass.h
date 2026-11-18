@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/DeferredShadingPass___c__DisplayClass27_0.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/DeferredShadingPerFrameConstants.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderTargetHandle.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Rendering/AttachmentDescriptor.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
-#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/DeferredShadingPass___c__DisplayClass27_0.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
+#include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_ADDTEXTURETRANSITIONFORPOSTGENERATEHALFSPECULAR_OFFSET UNITYSDK_OFFSET(0x1E7C0350)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E7C06E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7CAA90)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS__EXECUTE_G__ADDTEXTURETRANSITIONFORGENERATEHALFSPECULAR_27_0_OFFSET UNITYSDK_OFFSET(0x1E7C80B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_ADDTEXTURETRANSITIONFORPOSTGENERATEHALFSPECULAR_OFFSET UNITYSDK_OFFSET(0x1E96CF10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E96D2A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E977650)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS__EXECUTE_G__ADDTEXTURETRANSITIONFORGENERATEHALFSPECULAR_27_0_OFFSET UNITYSDK_OFFSET(0x1E974C70)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DeferredShadingPass_TypeDefinitionIndex = 5829;
+	inline static constexpr unsigned int DeferredShadingPass_TypeDefinitionIndex = 5835;
 
 	class DeferredShadingPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
-		static ::System::Boolean* StaticGet_s_UseLossyForMotionVector()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DeferredShadingPass_TypeDefinitionIndex)->GetStaticField(0x2A90);
-		}
 		static ::UnityEngine::Vector2Int* StaticGet_s_PreScreenSize()
 		{
-			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(DeferredShadingPass_TypeDefinitionIndex)->GetStaticField(0x2A94);
+			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(DeferredShadingPass_TypeDefinitionIndex)->GetStaticField(0x2A10);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::DeferredShadingPerFrameConstants* StaticGet_FrameConstants()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::DeferredShadingPerFrameConstants*)Il2CppClass::FromTypeDefinitionIndex(DeferredShadingPass_TypeDefinitionIndex)->GetStaticField(0x2A9C);
+			return (::UnityEngine::NAPRenderPipeline0::DeferredShadingPerFrameConstants*)Il2CppClass::FromTypeDefinitionIndex(DeferredShadingPass_TypeDefinitionIndex)->GetStaticField(0x2A18);
+		}
+		static ::System::Boolean* StaticGet_s_UseLossyForMotionVector()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DeferredShadingPass_TypeDefinitionIndex)->GetStaticField(0x2A24);
 		}
 		::Il2CppArray<::UnityEngine::Rendering::RenderTargetIdentifier>* m_ColorBuffers; // 0xA8
 		::UnityEngine::Rendering::RenderTargetIdentifier m_UsedColorBuffer; // 0xB0
@@ -51,6 +51,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::System::Boolean m_EnableOpaquePostProcess; // 0xFB
 		::System::Boolean m_MotionVectorOn; // 0xFC
 		::System::Boolean m_SubPassDeferred; // 0xFD
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Rendering::AttachmentDescriptor m_ColorAttachDesc; // 0x100
 		::UnityEngine::Rendering::AttachmentDescriptor m_OutColorAttachDesc; // 0x178
 		::UnityEngine::Rendering::AttachmentDescriptor m_MotionVectorAttachDesc; // 0x1F0
@@ -71,9 +72,9 @@ namespace UnityEngine::NAPRenderPipeline0
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::ScriptableRenderContext&, ::UnityEngine::NAPRenderPipeline0::RenderingData&, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData&))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS_EXECUTE_OFFSET))(this, context, renderingData, postCullRenderingData);
 		}
 
-		static ::System::Void _Execute_g__AddTextureTransitionForGenerateHalfSpecular_27_0(::UnityEngine::NAPRenderPipeline0::DeferredShadingPass___c__DisplayClass27_0& a1)
+		static ::System::Void _Execute_g__AddTextureTransitionForGenerateHalfSpecular_27_0(::UnityEngine::NAPRenderPipeline0::DeferredShadingPass___c__DisplayClass27_0& param_0)
 		{
-			return ((::System::Void(*)(::UnityEngine::NAPRenderPipeline0::DeferredShadingPass___c__DisplayClass27_0&))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS__EXECUTE_G__ADDTEXTURETRANSITIONFORGENERATEHALFSPECULAR_27_0_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::NAPRenderPipeline0::DeferredShadingPass___c__DisplayClass27_0&))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_DEFERREDSHADINGPASS__EXECUTE_G__ADDTEXTURETRANSITIONFORGENERATEHALFSPECULAR_27_0_OFFSET))(param_0);
 		}
 	};
 }

@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Container/NativeFlatStorage_3.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/Unity/Collections/NativeArrayOptions.h"
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeArrayData_3_TypeDefinitionIndex = 8516;
+	inline static constexpr unsigned int NativeArrayData_3_TypeDefinitionIndex = 8993;
 
-	template <typename TUserData, typename T, typename TPointer>
-	struct NativeArrayData_3
+	template <typename T1, typename T2, typename T3>
+	struct alignas(8) NativeArrayData_3
 	{
-		::Foundation::Container::NativeFlatStorage_3<TUserData, T, TPointer> _storage; // 0x0
+		::Foundation::Container::NativeFlatStorage_3<T1, T2, T3> _storage; // 0x0
 	};
 }

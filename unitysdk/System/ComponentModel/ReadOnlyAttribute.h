@@ -4,29 +4,29 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_READONLYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D616160)
-#define SYSTEM_COMPONENTMODEL_READONLYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D6161C0)
-#define SYSTEM_COMPONENTMODEL_READONLYATTRIBUTE_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x1D616150)
-#define SYSTEM_COMPONENTMODEL_READONLYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1D6161D0)
-#define SYSTEM_COMPONENTMODEL_READONLYATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D616260)
-#define SYSTEM_COMPONENTMODEL_READONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D616140)
+#define SYSTEM_COMPONENTMODEL_READONLYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DADAB50)
+#define SYSTEM_COMPONENTMODEL_READONLYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DADABB0)
+#define SYSTEM_COMPONENTMODEL_READONLYATTRIBUTE_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x1DADAB40)
+#define SYSTEM_COMPONENTMODEL_READONLYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1DADABC0)
+#define SYSTEM_COMPONENTMODEL_READONLYATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DADAC50)
+#define SYSTEM_COMPONENTMODEL_READONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DADAB30)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ReadOnlyAttribute_TypeDefinitionIndex = 2966;
+	inline static constexpr unsigned int ReadOnlyAttribute_TypeDefinitionIndex = 2965;
 
 	class ReadOnlyAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::ReadOnlyAttribute** StaticGet_No()
+		static ::System::ComponentModel::ReadOnlyAttribute** StaticGet_Yes()
 		{
 			return (::System::ComponentModel::ReadOnlyAttribute**)Il2CppClass::FromTypeDefinitionIndex(ReadOnlyAttribute_TypeDefinitionIndex)->GetStaticField(0x2BD0);
 		}
-		static ::System::ComponentModel::ReadOnlyAttribute** StaticGet_Default()
+		static ::System::ComponentModel::ReadOnlyAttribute** StaticGet_No()
 		{
 			return (::System::ComponentModel::ReadOnlyAttribute**)Il2CppClass::FromTypeDefinitionIndex(ReadOnlyAttribute_TypeDefinitionIndex)->GetStaticField(0x2BD8);
 		}
-		static ::System::ComponentModel::ReadOnlyAttribute** StaticGet_Yes()
+		static ::System::ComponentModel::ReadOnlyAttribute** StaticGet_Default()
 		{
 			return (::System::ComponentModel::ReadOnlyAttribute**)Il2CppClass::FromTypeDefinitionIndex(ReadOnlyAttribute_TypeDefinitionIndex)->GetStaticField(0x2BE0);
 		}

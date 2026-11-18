@@ -3,20 +3,20 @@
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 #include "unitysdk/MoleMole/Config/AnimatorBeHitTag.h"
 
-namespace MoleMole::Config { class ConfigSpecialEffectHitData_SpecialHitEffectMapItem; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C464ED0)
+#define MOLEMOLE_CONFIG_CONFIGSPECIALEFFECTHITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D9D10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSpecialEffectHitData_TypeDefinitionIndex = 70355;
+	inline static constexpr unsigned int ConfigSpecialEffectHitData_TypeDefinitionIndex = 55950;
 
 	class ConfigSpecialEffectHitData : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimatorBeHitTag, ::System::Collections::Generic::List_1<::MoleMole::Config::ConfigSpecialEffectHitData_SpecialHitEffectMapItem*>*>* specialHitEffectLists; // 0x58
+		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::AnimatorBeHitTag, ::System::Collections::Generic::List_1<::System::Object*>*>* specialHitEffectLists; // 0x58
 
 		::System::Void _ctor()
 		{

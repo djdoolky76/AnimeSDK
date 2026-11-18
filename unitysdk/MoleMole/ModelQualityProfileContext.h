@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/GraphicSettingProfileContextBase.h"
 #include "unitysdk/NapLodController_NapLODLevel.h"
 
-#define MOLEMOLE_MODELQUALITYPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17383330)
+#define MOLEMOLE_MODELQUALITYPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13EEF850)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ModelQualityProfileContext_TypeDefinitionIndex = 43834;
+	inline static constexpr unsigned int ModelQualityProfileContext_TypeDefinitionIndex = 66968;
 
 	class ModelQualityProfileContext : public ::MoleMole::GraphicSettingProfileContextBase
 	{

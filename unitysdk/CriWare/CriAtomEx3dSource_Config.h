@@ -2,15 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX3DSOURCE_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x424EC0)
+#define CRIWARE_CRIATOMEX3DSOURCE_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x393410)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx3dSource_Config_TypeDefinitionIndex = 34933;
+	inline static constexpr unsigned int CriAtomEx3dSource_Config_TypeDefinitionIndex = 34482;
 
 	struct alignas(4) CriAtomEx3dSource_Config
 	{
 		::System::Boolean enableVoicePriorityDecay; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::UInt32 randomPositionListMaxLength; // 0x14
 
 		::System::Void _ctor(::System::Boolean enableVoicePriorityDecay, ::System::UInt32 randomPositionListMaxLength)

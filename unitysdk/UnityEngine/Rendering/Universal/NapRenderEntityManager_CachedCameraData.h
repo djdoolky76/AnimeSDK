@@ -8,7 +8,7 @@ namespace UnityEngine { class Camera; }
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapRenderEntityManager_CachedCameraData_TypeDefinitionIndex = 27971;
+	inline static constexpr unsigned int NapRenderEntityManager_CachedCameraData_TypeDefinitionIndex = 26514;
 
 	struct alignas(8) NapRenderEntityManager_CachedCameraData
 	{

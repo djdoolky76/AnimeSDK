@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/StateTreeGameplay/VirtualProxy_StateTreeCommonTaskBase.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVECTOR3INSPHERETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1CB96990)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVECTOR3INSPHERETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1CB96930)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVECTOR3INSPHERETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB96A00)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVECTOR3INSPHERETASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1EC3B670)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVECTOR3INSPHERETASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1EC3B610)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_RANDOMVECTOR3INSPHERETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3B6E0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualProxy_RandomVector3InSphereTask_TypeDefinitionIndex = 47150;
+	inline static constexpr unsigned int VirtualProxy_RandomVector3InSphereTask_TypeDefinitionIndex = 49532;
 
 	class VirtualProxy_RandomVector3InSphereTask : public ::StateTreeGameplay::VirtualProxy_StateTreeCommonTaskBase
 	{

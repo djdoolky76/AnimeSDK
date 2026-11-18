@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UISuibianTempleExpeditionAreaWidgetController; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEEXPEDITIONPAGECONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1676DEF0)
-#define MOLEMOLE_UISUIBIANTEMPLEEXPEDITIONPAGECONTROLLER___C__DISPLAYCLASS25_0__FINDAREAGAMEOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x1676DF00)
+#define MOLEMOLE_UISUIBIANTEMPLEEXPEDITIONPAGECONTROLLER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164B6150)
+#define MOLEMOLE_UISUIBIANTEMPLEEXPEDITIONPAGECONTROLLER___C__DISPLAYCLASS25_0__FINDAREAGAMEOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x164B6160)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleExpeditionPageController___c__DisplayClass25_0_TypeDefinitionIndex = 62509;
+	inline static constexpr unsigned int UISuibianTempleExpeditionPageController___c__DisplayClass25_0_TypeDefinitionIndex = 92893;
 
 	class UISuibianTempleExpeditionPageController___c__DisplayClass25_0 : public ::System::Object
 	{

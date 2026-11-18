@@ -2,27 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace ZXing::QrCode::Internal { class Version_ECB; }
-
-#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GETECBLOCKS_OFFSET UNITYSDK_OFFSET(0x1BEB4EA0)
-#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_ECCODEWORDSPERBLOCK_OFFSET UNITYSDK_OFFSET(0x1BEB4E90)
-#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_NUMBLOCKS_OFFSET UNITYSDK_OFFSET(0x1BEA15B0)
-#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_TOTALECCODEWORDS_OFFSET UNITYSDK_OFFSET(0x1BEA12F0)
-#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB4DA0)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GETECBLOCKS_OFFSET UNITYSDK_OFFSET(0x1C342B00)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_ECCODEWORDSPERBLOCK_OFFSET UNITYSDK_OFFSET(0x1C342AF0)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_NUMBLOCKS_OFFSET UNITYSDK_OFFSET(0x1C32F210)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_TOTALECCODEWORDS_OFFSET UNITYSDK_OFFSET(0x1C32EF50)
+#define ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C342A00)
 
 namespace ZXing::QrCode::Internal
 {
-	inline static constexpr unsigned int Version_ECBlocks_TypeDefinitionIndex = 19470;
+	inline static constexpr unsigned int Version_ECBlocks_TypeDefinitionIndex = 18624;
 
 	class Version_ECBlocks : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::ZXing::QrCode::Internal::Version_ECB*>* ecBlocks; // 0x10
+		::Il2CppArray<::System::Object*>* ecBlocks; // 0x10
 		::System::Int32 ecCodewordsPerBlock; // 0x18
 
-		::System::Void _ctor(::System::Int32 ecCodewordsPerBlock, ::Il2CppArray<::ZXing::QrCode::Internal::Version_ECB*>* ecBlocks)
+		::System::Void _ctor(::System::Int32 ecCodewordsPerBlock, ::Il2CppArray<::System::Object*>* ecBlocks)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::ZXing::QrCode::Internal::Version_ECB*>*))((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS__CTOR_OFFSET))(this, ecCodewordsPerBlock, ecBlocks);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS__CTOR_OFFSET))(this, ecCodewordsPerBlock, ecBlocks);
 		}
 
 		::System::Int32 get_ECCodewordsPerBlock()
@@ -40,9 +38,9 @@ namespace ZXing::QrCode::Internal
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GET_TOTALECCODEWORDS_OFFSET))(this);
 		}
 
-		::Il2CppArray<::ZXing::QrCode::Internal::Version_ECB*>* getECBlocks()
+		::Il2CppArray<::System::Object*>* getECBlocks()
 		{
-			return ((::Il2CppArray<::ZXing::QrCode::Internal::Version_ECB*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GETECBLOCKS_OFFSET))(this);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_VERSION_ECBLOCKS_GETECBLOCKS_OFFSET))(this);
 		}
 	};
 }

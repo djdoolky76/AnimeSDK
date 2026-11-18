@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace UnityEngine::InputSystem { class PlayerInput; }
-
-#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUTMANAGER_PLAYERJOINEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5C700)
+#define UNITYENGINE_INPUTSYSTEM_PLAYERINPUTMANAGER_PLAYERJOINEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CA780)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int PlayerInputManager_PlayerJoinedEvent_TypeDefinitionIndex = 32327;
+	inline static constexpr unsigned int PlayerInputManager_PlayerJoinedEvent_TypeDefinitionIndex = 31776;
 
-	class PlayerInputManager_PlayerJoinedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*>
+	class PlayerInputManager_PlayerJoinedEvent
 	{
 	public:
 		::System::Void _ctor()

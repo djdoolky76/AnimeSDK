@@ -10,28 +10,28 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class PBDDeformer; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define NAPSCENEANIMATIONCONTROLER_ADDPROXYTOCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1067C4A0)
-#define NAPSCENEANIMATIONCONTROLER_AUTOBINDPARTICLES_OFFSET UNITYSDK_OFFSET(0x1067C5E0)
-#define NAPSCENEANIMATIONCONTROLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1067C410)
-#define NAPSCENEANIMATIONCONTROLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1067D5B0)
-#define NAPSCENEANIMATIONCONTROLER_PAUSE_OFFSET UNITYSDK_OFFSET(0x1067C8B0)
-#define NAPSCENEANIMATIONCONTROLER_REMOVEPROXYFROMCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1067C550)
-#define NAPSCENEANIMATIONCONTROLER_REPLAY_OFFSET UNITYSDK_OFFSET(0x1067CF60)
-#define NAPSCENEANIMATIONCONTROLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1067D720)
-#define NAPSCENEANIMATIONCONTROLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1067D600)
+#define NAPSCENEANIMATIONCONTROLER_ADDPROXYTOCONTROLLER_OFFSET UNITYSDK_OFFSET(0xF15E8D0)
+#define NAPSCENEANIMATIONCONTROLER_AUTOBINDPARTICLES_OFFSET UNITYSDK_OFFSET(0xF15EA10)
+#define NAPSCENEANIMATIONCONTROLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xF15E840)
+#define NAPSCENEANIMATIONCONTROLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xF15F9F0)
+#define NAPSCENEANIMATIONCONTROLER_PAUSE_OFFSET UNITYSDK_OFFSET(0xF15ECE0)
+#define NAPSCENEANIMATIONCONTROLER_REMOVEPROXYFROMCONTROLLER_OFFSET UNITYSDK_OFFSET(0xF15E980)
+#define NAPSCENEANIMATIONCONTROLER_REPLAY_OFFSET UNITYSDK_OFFSET(0xF15F390)
+#define NAPSCENEANIMATIONCONTROLER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF15FB60)
+#define NAPSCENEANIMATIONCONTROLER__CTOR_OFFSET UNITYSDK_OFFSET(0xF15FA40)
 
-inline static constexpr unsigned int NapSceneAnimationControler_TypeDefinitionIndex = 81393;
+inline static constexpr unsigned int NapSceneAnimationControler_TypeDefinitionIndex = 76170;
 
 class NapSceneAnimationControler : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::NapSceneAnimationControler** StaticGet_instance()
 	{
-		return (::NapSceneAnimationControler**)Il2CppClass::FromTypeDefinitionIndex(NapSceneAnimationControler_TypeDefinitionIndex)->GetStaticField(0x38690);
+		return (::NapSceneAnimationControler**)Il2CppClass::FromTypeDefinitionIndex(NapSceneAnimationControler_TypeDefinitionIndex)->GetStaticField(0x47740);
 	}
 	static ::System::Int32* StaticGet__GlobalPauseNapTime()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapSceneAnimationControler_TypeDefinitionIndex)->GetStaticField(0xD650);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NapSceneAnimationControler_TypeDefinitionIndex)->GetStaticField(0x10780);
 	}
 	::System::Collections::Generic::HashSet_1<::NapSceneAnimationDynamicProxy*>* dynamicProxies; // 0x18
 	::Il2CppArray<::UnityEngine::PBDDeformer*>* pbdDeformer; // 0x20

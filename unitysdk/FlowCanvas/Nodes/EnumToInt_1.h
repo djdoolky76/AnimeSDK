@@ -2,13 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 
-namespace FlowCanvas { class Port; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int EnumToInt_1_TypeDefinitionIndex = 64992;
+	inline static constexpr unsigned int EnumToInt_1_TypeDefinitionIndex = 73200;
 
 	template <typename T>
 	class EnumToInt_1 : public ::FlowCanvas::Nodes::FlowControlNode

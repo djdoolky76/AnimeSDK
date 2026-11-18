@@ -7,21 +7,22 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define LITJSON_OBJECTMETADATA_GET_ELEMENTTYPE_OFFSET UNITYSDK_OFFSET(0x9B9910)
-#define LITJSON_OBJECTMETADATA_GET_ISDICTIONARY_OFFSET UNITYSDK_OFFSET(0x41FD70)
-#define LITJSON_OBJECTMETADATA_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x3C9DA0)
-#define LITJSON_OBJECTMETADATA_SET_ELEMENTTYPE_OFFSET UNITYSDK_OFFSET(0x324D50)
-#define LITJSON_OBJECTMETADATA_SET_ISDICTIONARY_OFFSET UNITYSDK_OFFSET(0x622AD0)
-#define LITJSON_OBJECTMETADATA_SET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x3C9DB0)
+#define LITJSON_OBJECTMETADATA_GET_ELEMENTTYPE_OFFSET UNITYSDK_OFFSET(0x8D0A10)
+#define LITJSON_OBJECTMETADATA_GET_ISDICTIONARY_OFFSET UNITYSDK_OFFSET(0x3E3C90)
+#define LITJSON_OBJECTMETADATA_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x3CED50)
+#define LITJSON_OBJECTMETADATA_SET_ELEMENTTYPE_OFFSET UNITYSDK_OFFSET(0x358B00)
+#define LITJSON_OBJECTMETADATA_SET_ISDICTIONARY_OFFSET UNITYSDK_OFFSET(0x3E3C80)
+#define LITJSON_OBJECTMETADATA_SET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x4254B0)
 
 namespace LitJson
 {
-	inline static constexpr unsigned int ObjectMetadata_TypeDefinitionIndex = 8359;
+	inline static constexpr unsigned int ObjectMetadata_TypeDefinitionIndex = 7939;
 
 	struct alignas(8) ObjectMetadata
 	{
 		::System::Type* element_type; // 0x10
 		::System::Boolean is_dictionary; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::IDictionary_2<::System::String*, ::LitJson::PropertyMetadata>* properties; // 0x20
 
 		::System::Type* get_ElementType()

@@ -3,7 +3,7 @@
 
 namespace System::CodeDom
 {
-	inline static constexpr unsigned int CodeRegionMode_TypeDefinitionIndex = 4273;
+	inline static constexpr unsigned int CodeRegionMode_TypeDefinitionIndex = 4272;
 
 	enum class CodeRegionMode : ::System::Int32
 	{

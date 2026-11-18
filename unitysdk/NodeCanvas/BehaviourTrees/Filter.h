@@ -10,14 +10,14 @@ namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Component; }
 
-#define NODECANVAS_BEHAVIOURTREES_FILTER_COOLDOWN_OFFSET UNITYSDK_OFFSET(0x1E53F4E0)
-#define NODECANVAS_BEHAVIOURTREES_FILTER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E53F1D0)
-#define NODECANVAS_BEHAVIOURTREES_FILTER_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1E53F1C0)
-#define NODECANVAS_BEHAVIOURTREES_FILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E53F530)
+#define NODECANVAS_BEHAVIOURTREES_FILTER_COOLDOWN_OFFSET UNITYSDK_OFFSET(0x1E7B3550)
+#define NODECANVAS_BEHAVIOURTREES_FILTER_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E7B3240)
+#define NODECANVAS_BEHAVIOURTREES_FILTER_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1E7B3220)
+#define NODECANVAS_BEHAVIOURTREES_FILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B35A0)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int Filter_TypeDefinitionIndex = 30988;
+	inline static constexpr unsigned int Filter_TypeDefinitionIndex = 30266;
 
 	class Filter : public ::NodeCanvas::BehaviourTrees::BTDecorator
 	{
@@ -26,8 +26,9 @@ namespace NodeCanvas::BehaviourTrees
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* coolDownTime; // 0x80
 		::NodeCanvas::BehaviourTrees::Filter_FilterMode filterMode; // 0x88
 		::System::Boolean inactiveWhenLimited; // 0x8C
-		::NodeCanvas::BehaviourTrees::Filter_Policy policy; // 0x90
-		::System::Single currentTime; // 0x94
+		::System::Byte _padding0[0x3];
+		::System::Single currentTime; // 0x90
+		::NodeCanvas::BehaviourTrees::Filter_Policy policy; // 0x94
 		::System::Int32 executedCount; // 0x98
 
 		::System::Void _ctor()

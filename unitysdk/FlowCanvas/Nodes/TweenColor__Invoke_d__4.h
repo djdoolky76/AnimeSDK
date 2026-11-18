@@ -6,28 +6,29 @@
 
 namespace FlowCanvas::Nodes { class TweenColor; }
 
-#define FLOWCANVAS_NODES_TWEENCOLOR__INVOKE_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EBB5700)
-#define FLOWCANVAS_NODES_TWEENCOLOR__INVOKE_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EBB5880)
-#define FLOWCANVAS_NODES_TWEENCOLOR__INVOKE_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EBB58E0)
-#define FLOWCANVAS_NODES_TWEENCOLOR__INVOKE_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EBB5890)
-#define FLOWCANVAS_NODES_TWEENCOLOR__INVOKE_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EBB56F0)
-#define FLOWCANVAS_NODES_TWEENCOLOR__INVOKE_D__4__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB56E0)
+#define FLOWCANVAS_NODES_TWEENCOLOR__INVOKE_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EF87FD0)
+#define FLOWCANVAS_NODES_TWEENCOLOR__INVOKE_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EF88150)
+#define FLOWCANVAS_NODES_TWEENCOLOR__INVOKE_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EF881B0)
+#define FLOWCANVAS_NODES_TWEENCOLOR__INVOKE_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EF88160)
+#define FLOWCANVAS_NODES_TWEENCOLOR__INVOKE_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EF87FC0)
+#define FLOWCANVAS_NODES_TWEENCOLOR__INVOKE_D__4__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF87FB0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TweenColor__Invoke_d__4_TypeDefinitionIndex = 29899;
+	inline static constexpr unsigned int TweenColor__Invoke_d__4_TypeDefinitionIndex = 29780;
 
+	template <typename T1, typename T2, typename T3, typename T4>
 	class TweenColor__Invoke_d__4 : public ::System::Object
 	{
 	public:
 		::FlowCanvas::Nodes::TweenColor* __4__this; // 0x10
 		::System::Object* __2__current; // 0x18
-		::ParadoxNotion::Animation::EaseType interpolation; // 0x20
-		::System::Single _t_5__2; // 0x24
-		::UnityEngine::Color to; // 0x28
+		::UnityEngine::Color to; // 0x20
+		::System::Single duration; // 0x30
+		::System::Int32 __1__state; // 0x34
 		::UnityEngine::Color from; // 0x38
-		::System::Single duration; // 0x48
-		::System::Int32 __1__state; // 0x4C
+		::System::Single _t_5__2; // 0x48
+		::ParadoxNotion::Animation::EaseType interpolation; // 0x4C
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

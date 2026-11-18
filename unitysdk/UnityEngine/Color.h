@@ -5,53 +5,53 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_COLOR_ALPHAMULTIPLIED_OFFSET UNITYSDK_OFFSET(0xA5D0E0)
-#define UNITYENGINE_COLOR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA44C20)
-#define UNITYENGINE_COLOR_EQUALS_OFFSET UNITYSDK_OFFSET(0xA5CF60)
-#define UNITYENGINE_COLOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA5CEE0)
-#define UNITYENGINE_COLOR_GET_BLACK_OFFSET UNITYSDK_OFFSET(0x1EB5D4E0)
-#define UNITYENGINE_COLOR_GET_BLUE_OFFSET UNITYSDK_OFFSET(0x1EB5D4C0)
-#define UNITYENGINE_COLOR_GET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EB5D540)
-#define UNITYENGINE_COLOR_GET_CYAN_OFFSET UNITYSDK_OFFSET(0x1EB5D500)
-#define UNITYENGINE_COLOR_GET_GAMMA_OFFSET UNITYSDK_OFFSET(0xA5D1E0)
-#define UNITYENGINE_COLOR_GET_GRAYSCALE_OFFSET UNITYSDK_OFFSET(0xA5D140)
-#define UNITYENGINE_COLOR_GET_GRAY_OFFSET UNITYSDK_OFFSET(0x1EB5D520)
-#define UNITYENGINE_COLOR_GET_GREEN_OFFSET UNITYSDK_OFFSET(0x1EB5D4B0)
-#define UNITYENGINE_COLOR_GET_GREY_OFFSET UNITYSDK_OFFSET(0x1EB5D530)
-#define UNITYENGINE_COLOR_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xA5D260)
-#define UNITYENGINE_COLOR_GET_LINEAR_OFFSET UNITYSDK_OFFSET(0xA5D170)
-#define UNITYENGINE_COLOR_GET_MAGENTA_OFFSET UNITYSDK_OFFSET(0x1EB5D510)
-#define UNITYENGINE_COLOR_GET_MAXCOLORCOMPONENT_OFFSET UNITYSDK_OFFSET(0xA5D250)
-#define UNITYENGINE_COLOR_GET_RED_OFFSET UNITYSDK_OFFSET(0x1EB5D4A0)
-#define UNITYENGINE_COLOR_GET_WHITE_OFFSET UNITYSDK_OFFSET(0x1EB5D4D0)
-#define UNITYENGINE_COLOR_GET_YELLOW_OFFSET UNITYSDK_OFFSET(0x1EB5D4F0)
-#define UNITYENGINE_COLOR_HSVTORGB_1_OFFSET UNITYSDK_OFFSET(0x1EB5DB90)
-#define UNITYENGINE_COLOR_HSVTORGB_OFFSET UNITYSDK_OFFSET(0x1EB5DA40)
-#define UNITYENGINE_COLOR_LERPUNCLAMPED_OFFSET UNITYSDK_OFFSET(0x1EB5D400)
-#define UNITYENGINE_COLOR_LERP_OFFSET UNITYSDK_OFFSET(0x1EB5D3C0)
-#define UNITYENGINE_COLOR_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1EB5D260)
-#define UNITYENGINE_COLOR_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1EB5D300)
-#define UNITYENGINE_COLOR_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1EB5D320)
-#define UNITYENGINE_COLOR_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1EB5D670)
-#define UNITYENGINE_COLOR_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1EB5D030)
-#define UNITYENGINE_COLOR_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1EB5D370)
-#define UNITYENGINE_COLOR_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x1EB5D2C0)
-#define UNITYENGINE_COLOR_OP_MULTIPLY_2_OFFSET UNITYSDK_OFFSET(0x1EB5D2E0)
-#define UNITYENGINE_COLOR_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1EB5D2A0)
-#define UNITYENGINE_COLOR_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1EB5D280)
-#define UNITYENGINE_COLOR_RGBMULTIPLIED_1_OFFSET UNITYSDK_OFFSET(0xA5D110)
-#define UNITYENGINE_COLOR_RGBMULTIPLIED_OFFSET UNITYSDK_OFFSET(0xA5D0B0)
-#define UNITYENGINE_COLOR_RGBTOHSVHELPER_OFFSET UNITYSDK_OFFSET(0x1EB5D9A0)
-#define UNITYENGINE_COLOR_RGBTOHSV_OFFSET UNITYSDK_OFFSET(0x1EB5D810)
-#define UNITYENGINE_COLOR_SET_ITEM_OFFSET UNITYSDK_OFFSET(0xA5D270)
-#define UNITYENGINE_COLOR_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0xA5CED0)
-#define UNITYENGINE_COLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA5CEC0)
-#define UNITYENGINE_COLOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA5CEA0)
-#define UNITYENGINE_COLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x5E7E90)
+#define UNITYENGINE_COLOR_ALPHAMULTIPLIED_OFFSET UNITYSDK_OFFSET(0x95AB70)
+#define UNITYENGINE_COLOR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9267D0)
+#define UNITYENGINE_COLOR_EQUALS_OFFSET UNITYSDK_OFFSET(0x95A9F0)
+#define UNITYENGINE_COLOR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x95A970)
+#define UNITYENGINE_COLOR_GET_BLACK_OFFSET UNITYSDK_OFFSET(0x1F022730)
+#define UNITYENGINE_COLOR_GET_BLUE_OFFSET UNITYSDK_OFFSET(0x1F022710)
+#define UNITYENGINE_COLOR_GET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F022790)
+#define UNITYENGINE_COLOR_GET_CYAN_OFFSET UNITYSDK_OFFSET(0x1F022750)
+#define UNITYENGINE_COLOR_GET_GAMMA_OFFSET UNITYSDK_OFFSET(0x95AC70)
+#define UNITYENGINE_COLOR_GET_GRAYSCALE_OFFSET UNITYSDK_OFFSET(0x95ABD0)
+#define UNITYENGINE_COLOR_GET_GRAY_OFFSET UNITYSDK_OFFSET(0x1F022770)
+#define UNITYENGINE_COLOR_GET_GREEN_OFFSET UNITYSDK_OFFSET(0x1F022700)
+#define UNITYENGINE_COLOR_GET_GREY_OFFSET UNITYSDK_OFFSET(0x1F022780)
+#define UNITYENGINE_COLOR_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x95ACF0)
+#define UNITYENGINE_COLOR_GET_LINEAR_OFFSET UNITYSDK_OFFSET(0x95AC00)
+#define UNITYENGINE_COLOR_GET_MAGENTA_OFFSET UNITYSDK_OFFSET(0x1F022760)
+#define UNITYENGINE_COLOR_GET_MAXCOLORCOMPONENT_OFFSET UNITYSDK_OFFSET(0x95ACE0)
+#define UNITYENGINE_COLOR_GET_RED_OFFSET UNITYSDK_OFFSET(0x1F0226F0)
+#define UNITYENGINE_COLOR_GET_WHITE_OFFSET UNITYSDK_OFFSET(0x1F022720)
+#define UNITYENGINE_COLOR_GET_YELLOW_OFFSET UNITYSDK_OFFSET(0x1F022740)
+#define UNITYENGINE_COLOR_HSVTORGB_1_OFFSET UNITYSDK_OFFSET(0x1F022DE0)
+#define UNITYENGINE_COLOR_HSVTORGB_OFFSET UNITYSDK_OFFSET(0x1F022C90)
+#define UNITYENGINE_COLOR_LERPUNCLAMPED_OFFSET UNITYSDK_OFFSET(0x1F022650)
+#define UNITYENGINE_COLOR_LERP_OFFSET UNITYSDK_OFFSET(0x1F022610)
+#define UNITYENGINE_COLOR_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1F0224B0)
+#define UNITYENGINE_COLOR_OP_DIVISION_OFFSET UNITYSDK_OFFSET(0x1F022550)
+#define UNITYENGINE_COLOR_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F022570)
+#define UNITYENGINE_COLOR_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F0228C0)
+#define UNITYENGINE_COLOR_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F022280)
+#define UNITYENGINE_COLOR_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1F0225C0)
+#define UNITYENGINE_COLOR_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x1F022510)
+#define UNITYENGINE_COLOR_OP_MULTIPLY_2_OFFSET UNITYSDK_OFFSET(0x1F022530)
+#define UNITYENGINE_COLOR_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1F0224F0)
+#define UNITYENGINE_COLOR_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1F0224D0)
+#define UNITYENGINE_COLOR_RGBMULTIPLIED_1_OFFSET UNITYSDK_OFFSET(0x95ABA0)
+#define UNITYENGINE_COLOR_RGBMULTIPLIED_OFFSET UNITYSDK_OFFSET(0x95AB40)
+#define UNITYENGINE_COLOR_RGBTOHSVHELPER_OFFSET UNITYSDK_OFFSET(0x1F022BF0)
+#define UNITYENGINE_COLOR_RGBTOHSV_OFFSET UNITYSDK_OFFSET(0x1F022A60)
+#define UNITYENGINE_COLOR_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x95AD00)
+#define UNITYENGINE_COLOR_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x95A960)
+#define UNITYENGINE_COLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x95A950)
+#define UNITYENGINE_COLOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x95A930)
+#define UNITYENGINE_COLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x759E10)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Color_TypeDefinitionIndex = 5291;
+	inline static constexpr unsigned int Color_TypeDefinitionIndex = 5293;
 
 	struct alignas(4) Color
 	{
@@ -90,145 +90,199 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_EQUALS_OFFSET))(this, other);
 		}
 
+		/*
 		::System::Boolean Equals_1(::UnityEngine::Color other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_EQUALS_1_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color op_Addition(::UnityEngine::Color a, ::UnityEngine::Color b)
 		{
 			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_OP_ADDITION_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color op_Subtraction(::UnityEngine::Color a, ::UnityEngine::Color b)
 		{
 			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_OP_SUBTRACTION_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color op_Multiply(::UnityEngine::Color a, ::UnityEngine::Color b)
 		{
 			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_OP_MULTIPLY_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color op_Multiply_1(::UnityEngine::Color a, ::System::Single b)
 		{
 			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_OP_MULTIPLY_1_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color op_Multiply_2(::System::Single b, ::UnityEngine::Color a)
 		{
 			return ((::UnityEngine::Color(*)(::System::Single, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_OP_MULTIPLY_2_OFFSET))(b, a);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color op_Division(::UnityEngine::Color a, ::System::Single b)
 		{
 			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_OP_DIVISION_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::Color lhs, ::UnityEngine::Color rhs)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_OP_EQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::UnityEngine::Color lhs, ::UnityEngine::Color rhs)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_OP_INEQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color Lerp(::UnityEngine::Color a, ::UnityEngine::Color b, ::System::Single t)
 		{
 			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_LERP_OFFSET))(a, b, t);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color LerpUnclamped(::UnityEngine::Color a, ::UnityEngine::Color b, ::System::Single t)
 		{
 			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_LERPUNCLAMPED_OFFSET))(a, b, t);
 		}
+		*/
 
+		/*
 		::UnityEngine::Color RGBMultiplied(::System::Single multiplier)
 		{
 			return ((::UnityEngine::Color(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_RGBMULTIPLIED_OFFSET))(this, multiplier);
 		}
+		*/
 
+		/*
 		::UnityEngine::Color AlphaMultiplied(::System::Single multiplier)
 		{
 			return ((::UnityEngine::Color(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_ALPHAMULTIPLIED_OFFSET))(this, multiplier);
 		}
+		*/
 
+		/*
 		::UnityEngine::Color RGBMultiplied_1(::UnityEngine::Color multiplier)
 		{
 			return ((::UnityEngine::Color(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_RGBMULTIPLIED_1_OFFSET))(this, multiplier);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color get_red()
 		{
 			return ((::UnityEngine::Color(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_RED_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color get_green()
 		{
 			return ((::UnityEngine::Color(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_GREEN_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color get_blue()
 		{
 			return ((::UnityEngine::Color(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_BLUE_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color get_white()
 		{
 			return ((::UnityEngine::Color(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_WHITE_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color get_black()
 		{
 			return ((::UnityEngine::Color(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_BLACK_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color get_yellow()
 		{
 			return ((::UnityEngine::Color(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_YELLOW_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color get_cyan()
 		{
 			return ((::UnityEngine::Color(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_CYAN_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color get_magenta()
 		{
 			return ((::UnityEngine::Color(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_MAGENTA_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color get_gray()
 		{
 			return ((::UnityEngine::Color(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_GRAY_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color get_grey()
 		{
 			return ((::UnityEngine::Color(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_GREY_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color get_clear()
 		{
 			return ((::UnityEngine::Color(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_CLEAR_OFFSET))();
 		}
+		*/
 
 		::System::Single get_grayscale()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_GRAYSCALE_OFFSET))(this);
 		}
 
+		/*
 		::UnityEngine::Color get_linear()
 		{
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_LINEAR_OFFSET))(this);
 		}
+		*/
 
+		/*
 		::UnityEngine::Color get_gamma()
 		{
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_GET_GAMMA_OFFSET))(this);
 		}
+		*/
 
 		::System::Single get_maxColorComponent()
 		{
@@ -259,24 +313,30 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_SET_ITEM_OFFSET))(this, index, value);
 		}
 
+		/*
 		static ::System::Void RGBToHSV(::UnityEngine::Color rgbColor, ::System::Single& H, ::System::Single& S, ::System::Single& V)
 		{
 			return ((::System::Void(*)(::UnityEngine::Color, ::System::Single&, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_RGBTOHSV_OFFSET))(rgbColor, H, S, V);
 		}
+		*/
 
 		static ::System::Void RGBToHSVHelper(::System::Single offset, ::System::Single dominantcolor, ::System::Single colorone, ::System::Single colortwo, ::System::Single& H, ::System::Single& S, ::System::Single& V)
 		{
 			return ((::System::Void(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single&, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_RGBTOHSVHELPER_OFFSET))(offset, dominantcolor, colorone, colortwo, H, S, V);
 		}
 
+		/*
 		static ::UnityEngine::Color HSVToRGB(::System::Single H, ::System::Single S, ::System::Single V)
 		{
 			return ((::UnityEngine::Color(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_HSVTORGB_OFFSET))(H, S, V);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Color HSVToRGB_1(::System::Single H, ::System::Single S, ::System::Single V, ::System::Boolean hdr)
 		{
 			return ((::UnityEngine::Color(*)(::System::Single, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR_HSVTORGB_1_OFFSET))(H, S, V, hdr);
 		}
+		*/
 	};
 }

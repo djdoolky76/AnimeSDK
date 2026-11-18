@@ -1,40 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlexBuffers/FlxMap.h"
-#include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/Foundation/ViewObject/EntityBuildContext.h"
 #include "unitysdk/MoleMole/Config/ConfigAnimatorBoolParam.h"
 #include "unitysdk/MoleMole/Config/ConfigAnimatorFloatParam.h"
 #include "unitysdk/MoleMole/Config/ConfigAnimatorIntParam.h"
 #include "unitysdk/MoleMole/Config/ConfigAnimatorTriggerParam.h"
 #include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
+#include "unitysdk/Foundation/ViewObject/EntityBuildContext.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-class Class_0_16E4307DCC419505_198;
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
+class OHDHAGLCAEB;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x116E49B0)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x116E34C0)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x116E35C0)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x116E3430)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x116E4460)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x116E3A00)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x116E35B0)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x116E44C0)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x116E3A80)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x116E4A30)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x116E4820)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x116E4320)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x116E4F80)
-#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x116E4F90)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0xFAA4830)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0xFAA3340)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0xFAA3440)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0xFAA32B0)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xFAA42E0)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0xFAA3880)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0xFAA3430)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0xFAA4340)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0xFAA3900)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0xFAA48B0)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0xFAA46A0)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0xFAA41A0)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0xFAA4E00)
+#define MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0xFAA4E10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorParamTrait_TypeDefinitionIndex = 41327;
+	inline static constexpr unsigned int AnimatorParamTrait_TypeDefinitionIndex = 53552;
 
 	class AnimatorParamTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -64,9 +64,9 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void ExposeMember(::Class_0_16E4307DCC419505_198* processor, ::System::String* prefix)
+		::System::Void ExposeMember(::OHDHAGLCAEB* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
@@ -84,19 +84,19 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::AnimatorParamTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::AnimatorParamTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		static ::MoleMole::Config::AnimatorParamTrait* ParseFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::AnimatorParamTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+			return ((::MoleMole::Config::AnimatorParamTrait*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
 		::System::Boolean BuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& buildContext)
@@ -109,9 +109,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT_ONPOSTENTITYREADY_OFFSET))(this, entityHandle);
 		}
 
-		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_198* P0, ::System::String* P1)
+		::System::Void __base_ExposeMember(::OHDHAGLCAEB* P0, ::System::String* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ANIMATORPARAMTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 	};
 }

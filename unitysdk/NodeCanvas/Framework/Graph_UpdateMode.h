@@ -3,7 +3,7 @@
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Graph_UpdateMode_TypeDefinitionIndex = 29750;
+	inline static constexpr unsigned int Graph_UpdateMode_TypeDefinitionIndex = 30025;
 
 	enum class Graph_UpdateMode : ::System::Int32
 	{

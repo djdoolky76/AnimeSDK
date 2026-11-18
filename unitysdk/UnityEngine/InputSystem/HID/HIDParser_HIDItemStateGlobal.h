@@ -3,16 +3,17 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/HID/HID_UsagePage.h"
+#include "unitysdk/UnityEngine/InputSystem/HID/HIDParser_HIDItemStateLocal.h"
 
-#define UNITYENGINE_INPUTSYSTEM_HID_HIDPARSER_HIDITEMSTATEGLOBAL_GETPHYSICALMAX_OFFSET UNITYSDK_OFFSET(0xA5B040)
-#define UNITYENGINE_INPUTSYSTEM_HID_HIDPARSER_HIDITEMSTATEGLOBAL_GETPHYSICALMIN_OFFSET UNITYSDK_OFFSET(0xA5AF40)
-#define UNITYENGINE_INPUTSYSTEM_HID_HIDPARSER_HIDITEMSTATEGLOBAL_GETUSAGEPAGE_OFFSET UNITYSDK_OFFSET(0xA5AEC0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HIDPARSER_HIDITEMSTATEGLOBAL_GETPHYSICALMAX_OFFSET UNITYSDK_OFFSET(0x93C0C0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HIDPARSER_HIDITEMSTATEGLOBAL_GETPHYSICALMIN_OFFSET UNITYSDK_OFFSET(0x93BFC0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HIDPARSER_HIDITEMSTATEGLOBAL_GETUSAGEPAGE_OFFSET UNITYSDK_OFFSET(0x93BF40)
 
 namespace UnityEngine::InputSystem::HID
 {
-	inline static constexpr unsigned int HIDParser_HIDItemStateGlobal_TypeDefinitionIndex = 32425;
+	inline static constexpr unsigned int HIDParser_HIDItemStateGlobal_TypeDefinitionIndex = 31874;
 
-	struct alignas(4) HIDParser_HIDItemStateGlobal
+	struct alignas(8) HIDParser_HIDItemStateGlobal
 	{
 		::System::Nullable_1<::System::Int32> usagePage; // 0x10
 		::System::Nullable_1<::System::Int32> logicalMinimum; // 0x18
@@ -25,12 +26,10 @@ namespace UnityEngine::InputSystem::HID
 		::System::Nullable_1<::System::Int32> reportCount; // 0x50
 		::System::Nullable_1<::System::Int32> reportId; // 0x58
 
-		/*
 		::UnityEngine::InputSystem::HID::HID_UsagePage GetUsagePage(::System::Int32 index, ::UnityEngine::InputSystem::HID::HIDParser_HIDItemStateLocal& localItemState)
 		{
 			return ((::UnityEngine::InputSystem::HID::HID_UsagePage(*)(::PVOID, ::System::Int32, ::UnityEngine::InputSystem::HID::HIDParser_HIDItemStateLocal&))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_HID_HIDPARSER_HIDITEMSTATEGLOBAL_GETUSAGEPAGE_OFFSET))(this, index, localItemState);
 		}
-		*/
 
 		::System::Int32 GetPhysicalMin()
 		{

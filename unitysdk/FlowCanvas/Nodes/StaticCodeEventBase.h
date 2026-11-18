@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection { class EventInfo; }
 
-#define FLOWCANVAS_NODES_STATICCODEEVENTBASE_GET_EVENTINFO_OFFSET UNITYSDK_OFFSET(0x1DFCB3B0)
-#define FLOWCANVAS_NODES_STATICCODEEVENTBASE_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1DFCB4E0)
-#define FLOWCANVAS_NODES_STATICCODEEVENTBASE_SETEVENT_OFFSET UNITYSDK_OFFSET(0x1DFCB430)
-#define FLOWCANVAS_NODES_STATICCODEEVENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCB630)
+#define FLOWCANVAS_NODES_STATICCODEEVENTBASE_GET_EVENTINFO_OFFSET UNITYSDK_OFFSET(0x1E3F4480)
+#define FLOWCANVAS_NODES_STATICCODEEVENTBASE_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1E3F45B0)
+#define FLOWCANVAS_NODES_STATICCODEEVENTBASE_SETEVENT_OFFSET UNITYSDK_OFFSET(0x1E3F4500)
+#define FLOWCANVAS_NODES_STATICCODEEVENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F4700)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int StaticCodeEventBase_TypeDefinitionIndex = 30491;
+	inline static constexpr unsigned int StaticCodeEventBase_TypeDefinitionIndex = 30762;
 
 	class StaticCodeEventBase : public ::FlowCanvas::Nodes::EventNode
 	{
 	public:
-		::System::Type* targetType; // 0xA8
-		::System::String* eventName; // 0xB0
+		::System::String* eventName; // 0xA8
+		::System::Type* targetType; // 0xB0
 
 		::System::Void _ctor()
 		{

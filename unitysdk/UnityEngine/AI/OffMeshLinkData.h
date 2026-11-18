@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/AI/OffMeshLinkType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_AI_OFFMESHLINKDATA_GET_ENDPOS_OFFSET UNITYSDK_OFFSET(0x97A360)
+#define UNITYENGINE_AI_OFFMESHLINKDATA_GET_ENDPOS_OFFSET UNITYSDK_OFFSET(0x8B7F70)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int OffMeshLinkData_TypeDefinitionIndex = 27996;
+	inline static constexpr unsigned int OffMeshLinkData_TypeDefinitionIndex = 27414;
 
 	struct alignas(4) OffMeshLinkData
 	{

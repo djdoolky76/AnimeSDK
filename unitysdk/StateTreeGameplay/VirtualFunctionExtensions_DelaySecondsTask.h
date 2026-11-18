@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/StateTreeGameplay/DelaySecondsTask.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
+#include "unitysdk/StateTreeGameplay/DelaySecondsTask.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DELAYSECONDSTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1A686810)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DELAYSECONDSTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1A686930)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DELAYSECONDSTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1A6868B0)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DELAYSECONDSTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1A686A00)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DELAYSECONDSTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1C680AD0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DELAYSECONDSTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1C680BF0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DELAYSECONDSTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1C680B70)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_DELAYSECONDSTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1C680CC0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_DelaySecondsTask_TypeDefinitionIndex = 77564;
+	inline static constexpr unsigned int VirtualFunctionExtensions_DelaySecondsTask_TypeDefinitionIndex = 45196;
 
 	class VirtualFunctionExtensions_DelaySecondsTask : public ::System::Object
 	{

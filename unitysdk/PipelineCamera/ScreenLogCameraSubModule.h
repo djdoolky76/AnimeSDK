@@ -4,14 +4,14 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ScreenLogCameraSubModule_TypeDefinitionIndex = 38297;
+	inline static constexpr unsigned int ScreenLogCameraSubModule_TypeDefinitionIndex = 36299;
 
 	class ScreenLogCameraSubModule : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_DebugCameraDataBlender()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ScreenLogCameraSubModule_TypeDefinitionIndex)->GetStaticField(0x8C90);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ScreenLogCameraSubModule_TypeDefinitionIndex)->GetStaticField(0x9150);
 		}
 	};
 }

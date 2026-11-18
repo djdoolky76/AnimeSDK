@@ -1,0 +1,102 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/UIActivityDuelBaseCardContainerWidgetController.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+
+class GNILCHDJMCL;
+class HFFHPFCJGBO;
+class NGJGLFFBIFB;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIScaryNightInLevelTidyCardWidgetController; }
+namespace MoleMole::ScaryNight { class UIScaryNightInLevelBaseCardDraggingWidgetController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_ADDDRAGLISTENER_OFFSET UNITYSDK_OFFSET(0x19901A10)
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_CLEARDRAGLISTENER_OFFSET UNITYSDK_OFFSET(0x19901880)
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_CLOSECARDWIDGET_OFFSET UNITYSDK_OFFSET(0x199015C0)
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_GET_TARGETCARDCOUNT_OFFSET UNITYSDK_OFFSET(0x19900FE0)
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_GET__HOLDER_OFFSET UNITYSDK_OFFSET(0x19900F80)
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19901550)
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19901790)
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x19901830)
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_OPENCARDWIDGET_OFFSET UNITYSDK_OFFSET(0x19900FF0)
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_PLLMJAJNGIA_OFFSET UNITYSDK_OFFSET(0x19901D20)
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19901BE0)
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19901C70)
+#define MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x19901D10)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIActivityDuelCardSortWidgetController_TypeDefinitionIndex = 74850;
+
+	class UIActivityDuelCardSortWidgetController : public ::MoleMole::UIActivityDuelBaseCardContainerWidgetController
+	{
+	public:
+		::System::Collections::Generic::List_1<::MoleMole::ScaryNight::UIScaryNightInLevelBaseCardDraggingWidgetController*>* DKAELFLGKOA; // 0x2E0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::NGJGLFFBIFB* get__holder()
+		{
+			return ((::NGJGLFFBIFB*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_GET__HOLDER_OFFSET))(this);
+		}
+
+		::System::Int32 get_TargetCardCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_GET_TARGETCARDCOUNT_OFFSET))(this);
+		}
+
+		::HFFHPFCJGBO* OpenCardWidget(::System::Int32 index)
+		{
+			return ((::HFFHPFCJGBO*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_OPENCARDWIDGET_OFFSET))(this, index);
+		}
+
+		::System::Void CloseCardWidget(::HFFHPFCJGBO* card)
+		{
+			return ((::System::Void(*)(::PVOID, ::HFFHPFCJGBO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_CLOSECARDWIDGET_OFFSET))(this, card);
+		}
+
+		::GNILCHDJMCL* get__viewModel()
+		{
+			return ((::GNILCHDJMCL*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void OnCreateViewModel(::LIBOIKJGAIH& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void ClearDragListener()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_CLEARDRAGLISTENER_OFFSET))(this);
+		}
+
+		::System::Void AddDragListener(::MoleMole::ScaryNight::UIScaryNightInLevelBaseCardDraggingWidgetController* draggingCard)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::ScaryNight::UIScaryNightInLevelBaseCardDraggingWidgetController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_ADDDRAGLISTENER_OFFSET))(this, draggingCard);
+		}
+
+		::System::Void __base_OnCreateViewModel(::LIBOIKJGAIH& P0, ::MoleMole::UIControlReference* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void PLLMJAJNGIA(::MoleMole::UIScaryNightInLevelTidyCardWidgetController* OFJCKDMPPFO)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIScaryNightInLevelTidyCardWidgetController*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYDUELCARDSORTWIDGETCONTROLLER_PLLMJAJNGIA_OFFSET))(this, OFJCKDMPPFO);
+		}
+	};
+}

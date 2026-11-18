@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/InputSystem/XR/XRController.h"
 
-#define UNITYENGINE_INPUTSYSTEM_XR_XRCONTROLLERWITHRUMBLE_SENDIMPULSE_OFFSET UNITYSDK_OFFSET(0x1F7EA4B0)
-#define UNITYENGINE_INPUTSYSTEM_XR_XRCONTROLLERWITHRUMBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7EA4F0)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRCONTROLLERWITHRUMBLE_SENDIMPULSE_OFFSET UNITYSDK_OFFSET(0x1FBFE410)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRCONTROLLERWITHRUMBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBFE450)
 
 namespace UnityEngine::InputSystem::XR
 {
-	inline static constexpr unsigned int XRControllerWithRumble_TypeDefinitionIndex = 32336;
+	inline static constexpr unsigned int XRControllerWithRumble_TypeDefinitionIndex = 31785;
 
 	class XRControllerWithRumble : public ::UnityEngine::InputSystem::XR::XRController
 	{

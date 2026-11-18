@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 
 namespace MoleMole::FlowCanvas::Nodes { class LD_GetRallyQuestCondProgress_ProgressPair; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETRALLYQUESTCONDPROGRESS_INVOKE_OFFSET UNITYSDK_OFFSET(0x192490D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETRALLYQUESTCONDPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19249420)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETRALLYQUESTCONDPROGRESS_INVOKE_OFFSET UNITYSDK_OFFSET(0x11914D70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETRALLYQUESTCONDPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x119150C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetRallyQuestCondProgress_TypeDefinitionIndex = 55728;
+	inline static constexpr unsigned int LD_GetRallyQuestCondProgress_TypeDefinitionIndex = 74236;
 
-	class LD_GetRallyQuestCondProgress : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::MoleMole::FlowCanvas::Nodes::LD_GetRallyQuestCondProgress_ProgressPair*, ::System::Int32>
+	class LD_GetRallyQuestCondProgress
 	{
 	public:
 		::System::Void _ctor()

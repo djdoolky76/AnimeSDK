@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOW_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x16C3EF30)
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOW_METHOD_2_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x16C3EFA0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C3EF80)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOW_GBFDGJHMKFK_OFFSET UNITYSDK_OFFSET(0x1A02C570)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOW_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1A02C500)
+#define MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02C550)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityTimeSlow_TypeDefinitionIndex = 63370;
+	inline static constexpr unsigned int ConfigEntityTimeSlow_TypeDefinitionIndex = 91305;
 
 	class ConfigEntityTimeSlow : public ::MoleMole::Config::ConfigEntityTimeSlowBase
 	{
@@ -21,6 +21,7 @@ namespace MoleMole::Config
 		::System::Single speedMinTime; // 0x2C
 		::System::Single accSpeedDurationEnd; // 0x30
 		::System::Boolean ignorePriorityAtEnd; // 0x34
+		::System::Byte _padding0[0x3];
 		::System::String* accSpeedCurveKeyBeginWithLibrary; // 0x38
 		::System::String* accSpeedCurveKeyEndWithLibrary; // 0x40
 
@@ -34,9 +35,9 @@ namespace MoleMole::Config
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOW_GET_DURATION_OFFSET))(this);
 		}
 
-		::System::Single Method_2_5323F2DF46A044DA()
+		::System::Single GBFDGJHMKFK()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOW_METHOD_2_5323F2DF46A044DA_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYTIMESLOW_GBFDGJHMKFK_OFFSET))(this);
 		}
 	};
 }

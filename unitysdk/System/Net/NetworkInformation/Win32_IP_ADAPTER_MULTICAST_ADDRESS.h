@@ -6,9 +6,9 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_IP_ADAPTER_MULTICAST_ADDRESS_TypeDefinitionIndex = 3844;
+	inline static constexpr unsigned int Win32_IP_ADAPTER_MULTICAST_ADDRESS_TypeDefinitionIndex = 3843;
 
-	struct alignas(8) Win32_IP_ADAPTER_MULTICAST_ADDRESS
+	struct alignas(4) Win32_IP_ADAPTER_MULTICAST_ADDRESS
 	{
 		::System::Net::NetworkInformation::Win32LengthFlagsUnion LengthFlags; // 0x10
 		::System::IntPtr Next; // 0x18

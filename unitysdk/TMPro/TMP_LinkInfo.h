@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace TMPro { class TMP_Text; }
 
-#define TMPRO_TMP_LINKINFO_GETLINKID_OFFSET UNITYSDK_OFFSET(0xACB0F0)
-#define TMPRO_TMP_LINKINFO_GETLINKTEXT_OFFSET UNITYSDK_OFFSET(0xACB0E0)
-#define TMPRO_TMP_LINKINFO_SETLINKID_OFFSET UNITYSDK_OFFSET(0xACB0D0)
+#define TMPRO_TMP_LINKINFO_GETLINKID_OFFSET UNITYSDK_OFFSET(0x9B16A0)
+#define TMPRO_TMP_LINKINFO_GETLINKTEXT_OFFSET UNITYSDK_OFFSET(0x9B1690)
+#define TMPRO_TMP_LINKINFO_SETLINKID_OFFSET UNITYSDK_OFFSET(0x9B1680)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_LinkInfo_TypeDefinitionIndex = 39907;
+	inline static constexpr unsigned int TMP_LinkInfo_TypeDefinitionIndex = 37907;
 
 	struct alignas(8) TMP_LinkInfo
 	{
@@ -21,6 +21,7 @@ namespace TMPro
 		::System::Int32 linkIdLength; // 0x20
 		::System::Int32 linkTextfirstCharacterIndex; // 0x24
 		::System::Int32 linkTextLength; // 0x28
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Char>* linkID; // 0x30
 
 		::System::Void SetLinkID(::Il2CppArray<::System::Char>* text, ::System::Int32 startIndex, ::System::Int32 length)

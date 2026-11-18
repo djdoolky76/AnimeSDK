@@ -5,21 +5,21 @@
 
 namespace MoleMole::Config { class ScreenEffectFloat; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYPANINIPROJECTIONEFFECT_GETCROPTOFIT_OFFSET UNITYSDK_OFFSET(0x1B7EC2B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYPANINIPROJECTIONEFFECT_GETDISTANCE_OFFSET UNITYSDK_OFFSET(0x1B7EC230)
-#define MOLEMOLE_CONFIG_CONFIGENTITYPANINIPROJECTIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7EC330)
+#define MOLEMOLE_CONFIG_CONFIGENTITYPANINIPROJECTIONEFFECT_GETCROPTOFIT_OFFSET UNITYSDK_OFFSET(0x1929E2C0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYPANINIPROJECTIONEFFECT_GETDISTANCE_OFFSET UNITYSDK_OFFSET(0x1929E240)
+#define MOLEMOLE_CONFIG_CONFIGENTITYPANINIPROJECTIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1929E340)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityPaniniProjectionEffect_TypeDefinitionIndex = 66532;
+	inline static constexpr unsigned int ConfigEntityPaniniProjectionEffect_TypeDefinitionIndex = 48452;
 
 	class ConfigEntityPaniniProjectionEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectFloat* cropToFit; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* distance; // 0x48
-		::MoleMole::Config::ScreenEffectFieldHandleType cropToFitHandleType; // 0x50
-		::MoleMole::Config::ScreenEffectFieldHandleType distanceHandleType; // 0x54
+		::MoleMole::Config::ScreenEffectFloat* distance; // 0x40
+		::MoleMole::Config::ScreenEffectFloat* cropToFit; // 0x48
+		::MoleMole::Config::ScreenEffectFieldHandleType distanceHandleType; // 0x50
+		::MoleMole::Config::ScreenEffectFieldHandleType cropToFitHandleType; // 0x54
 
 		::System::Void _ctor()
 		{

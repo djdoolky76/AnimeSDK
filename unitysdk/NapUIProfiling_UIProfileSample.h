@@ -5,19 +5,21 @@
 
 namespace UnityEngine { class Transform; }
 
-#define NAPUIPROFILING_UIPROFILESAMPLE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F8A0140)
-#define NAPUIPROFILING_UIPROFILESAMPLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAB6C10)
+#define NAPUIPROFILING_UIPROFILESAMPLE_CREATE_OFFSET UNITYSDK_OFFSET(0x1FC7C9F0)
+#define NAPUIPROFILING_UIPROFILESAMPLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x99CF20)
 
-inline static constexpr unsigned int NapUIProfiling_UIProfileSample_TypeDefinitionIndex = 19184;
+inline static constexpr unsigned int NapUIProfiling_UIProfileSample_TypeDefinitionIndex = 18338;
 
-struct alignas(1) NapUIProfiling_UIProfileSample
+struct alignas(4) NapUIProfiling_UIProfileSample
 {
 	::System::Boolean _active; // 0x10
 
+	/*
 	static ::NapUIProfiling_UIProfileSample Create(::NapUIProfiling_UIFuncionType type, ::UnityEngine::Transform* uiTransform)
 	{
 		return ((::NapUIProfiling_UIProfileSample(*)(::NapUIProfiling_UIFuncionType, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + NAPUIPROFILING_UIPROFILESAMPLE_CREATE_OFFSET))(type, uiTransform);
 	}
+	*/
 
 	::System::Void Dispose()
 	{

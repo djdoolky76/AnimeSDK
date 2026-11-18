@@ -6,15 +6,15 @@
 namespace MoleMole { class CameraModuleAvatarAnimStateData; }
 namespace MoleMole { class CameraModuleDirectionData; }
 
-#define MOLEMOLE_CAMERADELAYDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x116CBA50)
-#define MOLEMOLE_CAMERADELAYDATA_LERP_OFFSET UNITYSDK_OFFSET(0x116CB660)
-#define MOLEMOLE_CAMERADELAYDATA_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x116CB5F0)
-#define MOLEMOLE_CAMERADELAYDATA_ZERO_OFFSET UNITYSDK_OFFSET(0x116CB5A0)
-#define MOLEMOLE_CAMERADELAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x116CB9A0)
+#define MOLEMOLE_CAMERADELAYDATA_CLONE_OFFSET UNITYSDK_OFFSET(0xFA8A390)
+#define MOLEMOLE_CAMERADELAYDATA_LERP_OFFSET UNITYSDK_OFFSET(0xFA89FA0)
+#define MOLEMOLE_CAMERADELAYDATA_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0xFA89F30)
+#define MOLEMOLE_CAMERADELAYDATA_ZERO_OFFSET UNITYSDK_OFFSET(0xFA89EE0)
+#define MOLEMOLE_CAMERADELAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xFA8A2E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraDelayData_TypeDefinitionIndex = 86956;
+	inline static constexpr unsigned int CameraDelayData_TypeDefinitionIndex = 38909;
 
 	class CameraDelayData : public ::System::Object
 	{
@@ -40,6 +40,7 @@ namespace MoleMole
 		::System::Single DELAY_SoftZoneHeight; // 0x68
 		::System::Single DELAY_BiasX; // 0x6C
 		::System::Single DELAY_BiasY; // 0x70
+		::System::Byte _padding0[0x4];
 		::MoleMole::CameraModuleDirectionData* DELAY_LOOKAT_MOVEDIRCETION_RADIO; // 0x78
 		::MoleMole::CameraModuleAvatarAnimStateData* DELAY_LOOKAT_ANIMSTATE_RADIO; // 0x80
 

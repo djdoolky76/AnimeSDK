@@ -5,36 +5,38 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define EFFECTCASTRECORDER_AWAKE_OFFSET UNITYSDK_OFFSET(0x13EEAAA0)
-#define EFFECTCASTRECORDER_BEGIN_OFFSET UNITYSDK_OFFSET(0x13EEADA0)
-#define EFFECTCASTRECORDER_END_OFFSET UNITYSDK_OFFSET(0x13EEAF30)
-#define EFFECTCASTRECORDER_GET_ENABLEERRORWHILELIMIT_OFFSET UNITYSDK_OFFSET(0x13EEAD90)
-#define EFFECTCASTRECORDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x13EEA850)
-#define EFFECTCASTRECORDER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13EEBB40)
-#define EFFECTCASTRECORDER_SET_ENABLEERRORWHILELIMIT_OFFSET UNITYSDK_OFFSET(0x13EEACD0)
-#define EFFECTCASTRECORDER_START_OFFSET UNITYSDK_OFFSET(0x13EEAB30)
-#define EFFECTCASTRECORDER_TIMEFILENAMEPATH_OFFSET UNITYSDK_OFFSET(0x13EEAE10)
-#define EFFECTCASTRECORDER_UPDATE_OFFSET UNITYSDK_OFFSET(0x13EEAF80)
-#define EFFECTCASTRECORDER_WRITEFILEIFNEED_OFFSET UNITYSDK_OFFSET(0x13EEB020)
-#define EFFECTCASTRECORDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13EEBC20)
-#define EFFECTCASTRECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x13EEBBB0)
+#define EFFECTCASTRECORDER_AWAKE_OFFSET UNITYSDK_OFFSET(0xF9EC520)
+#define EFFECTCASTRECORDER_BEGIN_OFFSET UNITYSDK_OFFSET(0xF9EC820)
+#define EFFECTCASTRECORDER_END_OFFSET UNITYSDK_OFFSET(0xF9EC9B0)
+#define EFFECTCASTRECORDER_GET_ENABLEERRORWHILELIMIT_OFFSET UNITYSDK_OFFSET(0xF9EC810)
+#define EFFECTCASTRECORDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xF9EC2D0)
+#define EFFECTCASTRECORDER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xF9ED5C0)
+#define EFFECTCASTRECORDER_SET_ENABLEERRORWHILELIMIT_OFFSET UNITYSDK_OFFSET(0xF9EC750)
+#define EFFECTCASTRECORDER_START_OFFSET UNITYSDK_OFFSET(0xF9EC5B0)
+#define EFFECTCASTRECORDER_TIMEFILENAMEPATH_OFFSET UNITYSDK_OFFSET(0xF9EC890)
+#define EFFECTCASTRECORDER_UPDATE_OFFSET UNITYSDK_OFFSET(0xF9ECA00)
+#define EFFECTCASTRECORDER_WRITEFILEIFNEED_OFFSET UNITYSDK_OFFSET(0xF9ECAA0)
+#define EFFECTCASTRECORDER__CCTOR_OFFSET UNITYSDK_OFFSET(0xF9ED6A0)
+#define EFFECTCASTRECORDER__CTOR_OFFSET UNITYSDK_OFFSET(0xF9ED630)
 
-inline static constexpr unsigned int EffectCastRecorder_TypeDefinitionIndex = 51835;
+inline static constexpr unsigned int EffectCastRecorder_TypeDefinitionIndex = 89819;
 
 class EffectCastRecorder : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_s_HashSet()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EffectCastRecorder_TypeDefinitionIndex)->GetStaticField(0x3E680);
+		return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EffectCastRecorder_TypeDefinitionIndex)->GetStaticField(0x43410);
 	}
 	static ::EffectCastRecorder** StaticGet_s_instance()
 	{
-		return (::EffectCastRecorder**)Il2CppClass::FromTypeDefinitionIndex(EffectCastRecorder_TypeDefinitionIndex)->GetStaticField(0x3E688);
+		return (::EffectCastRecorder**)Il2CppClass::FromTypeDefinitionIndex(EffectCastRecorder_TypeDefinitionIndex)->GetStaticField(0x43418);
 	}
 	::System::Boolean m_EnableErrorWhileLimit; // 0x18
+	::System::Byte _padding0[0x3];
 	::System::Single interval; // 0x1C
 	::System::Boolean isRecording; // 0x20
+	::System::Byte _padding1[0x7];
 	::System::String* fileName; // 0x28
 	::System::Single leftTime; // 0x30
 

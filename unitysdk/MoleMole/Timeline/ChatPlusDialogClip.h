@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class ChatPlusDialogBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x108278C0)
-#define MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x108278B0)
-#define MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_METHOD_4_0B1EB5C9B94BAB66_OFFSET UNITYSDK_OFFSET(0x10827B20)
-#define MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_METHOD_4_CF8BA38996D09531_OFFSET UNITYSDK_OFFSET(0x10827C00)
-#define MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x10827C60)
+#define MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x15AD8A60)
+#define MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x15AD8A50)
+#define MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_JPDKEPKOMPP_OFFSET UNITYSDK_OFFSET(0x15AD8DB0)
+#define MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_KOPLHACOBFC_OFFSET UNITYSDK_OFFSET(0x15AD8CD0)
+#define MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x15AD8E10)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ChatPlusDialogClip_TypeDefinitionIndex = 49507;
+	inline static constexpr unsigned int ChatPlusDialogClip_TypeDefinitionIndex = 53914;
 
 	class ChatPlusDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -36,19 +36,19 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* AMNIHACKELI)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_CREATEPLAYABLE_OFFSET))(this, MHPNGBGGMMN, AMNIHACKELI);
 		}
 
-		::System::Boolean Method_4_0B1EB5C9B94BAB66()
+		::System::Boolean KOPLHACOBFC()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_METHOD_4_0B1EB5C9B94BAB66_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_KOPLHACOBFC_OFFSET))(this);
 		}
 
-		::System::Boolean Method_4_CF8BA38996D09531()
+		::System::Boolean JPDKEPKOMPP()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_METHOD_4_CF8BA38996D09531_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_CHATPLUSDIALOGCLIP_JPDKEPKOMPP_OFFSET))(this);
 		}
 	};
 }

@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace System { class AsyncCallback; }
-namespace System { class IAsyncResult; }
-namespace System { class Object; }
-
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int ValueGetter_2_TypeDefinitionIndex = 7640;
+	inline static constexpr unsigned int ValueGetter_2_TypeDefinitionIndex = 7652;
 
-	template <typename InstanceType, typename FieldType>
+	template <typename T1, typename T2>
 	class ValueGetter_2 : public ::System::MulticastDelegate
 	{
 	public:

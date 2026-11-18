@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINERENDERERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x746AC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_OUTLINERENDERERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x79EEB0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int OutlineRendererConfig_TypeDefinitionIndex = 27581;
+	inline static constexpr unsigned int OutlineRendererConfig_TypeDefinitionIndex = 26728;
 
 	struct alignas(8) OutlineRendererConfig
 	{

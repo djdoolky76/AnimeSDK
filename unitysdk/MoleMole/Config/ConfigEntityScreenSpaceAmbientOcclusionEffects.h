@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigEntityScreenSpaceAmbientOcclusionEffect
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x11704030)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENSPACEAMBIENTOCCLUSIONEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC0D50)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityScreenSpaceAmbientOcclusionEffects_TypeDefinitionIndex = 49884;
+	inline static constexpr unsigned int ConfigEntityScreenSpaceAmbientOcclusionEffects_TypeDefinitionIndex = 83185;
 
 	class ConfigEntityScreenSpaceAmbientOcclusionEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{

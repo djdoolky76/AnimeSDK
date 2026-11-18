@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Decimal.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_DECIMALCONSTANTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D82E0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_DECIMALCONSTANTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC35D80)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int DecimalConstantAttribute_TypeDefinitionIndex = 1400;
+	inline static constexpr unsigned int DecimalConstantAttribute_TypeDefinitionIndex = 1399;
 
 	class DecimalConstantAttribute : public ::System::Attribute
 	{

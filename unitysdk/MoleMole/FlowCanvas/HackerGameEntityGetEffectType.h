@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 #include "unitysdk/MoleMole/StatusEffectType.h"
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYGETEFFECTTYPE_INVOKE_OFFSET UNITYSDK_OFFSET(0x118AE2F0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYGETEFFECTTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x118AE3A0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYGETEFFECTTYPE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1622D470)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEENTITYGETEFFECTTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1622D520)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameEntityGetEffectType_TypeDefinitionIndex = 64290;
+	inline static constexpr unsigned int HackerGameEntityGetEffectType_TypeDefinitionIndex = 73695;
 
-	class HackerGameEntityGetEffectType : public ::FlowCanvas::Nodes::PureFunctionNode_2<::MoleMole::StatusEffectType, ::MoleMole::ChessEntity*>
+	class HackerGameEntityGetEffectType
 	{
 	public:
 		::System::Void _ctor()

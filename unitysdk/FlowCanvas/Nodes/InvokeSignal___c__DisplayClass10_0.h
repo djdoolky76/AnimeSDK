@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class InvokeSignal; }
 
-#define FLOWCANVAS_NODES_INVOKESIGNAL___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A5D30)
-#define FLOWCANVAS_NODES_INVOKESIGNAL___C__DISPLAYCLASS10_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E7A5D40)
+#define FLOWCANVAS_NODES_INVOKESIGNAL___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA56DA0)
+#define FLOWCANVAS_NODES_INVOKESIGNAL___C__DISPLAYCLASS10_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1EA56DB0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int InvokeSignal___c__DisplayClass10_0_TypeDefinitionIndex = 30884;
+	inline static constexpr unsigned int InvokeSignal___c__DisplayClass10_0_TypeDefinitionIndex = 29217;
 
 	class InvokeSignal___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::FlowOutput* exit; // 0x10
-		::FlowCanvas::Nodes::InvokeSignal* __4__this; // 0x18
+		::FlowCanvas::Nodes::InvokeSignal* __4__this; // 0x10
+		::FlowCanvas::FlowOutput* exit; // 0x18
 
 		::System::Void _ctor()
 		{

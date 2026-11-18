@@ -7,12 +7,12 @@ namespace UnityEngine { class Canvas; }
 namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI { class GraphicRaycaster; }
 
-#define UNITYENGINE_UI_GRAPHICRAYCASTTARGETCACHEDATA_GETKEY_OFFSET UNITYSDK_OFFSET(0xA58920)
-#define UNITYENGINE_UI_GRAPHICRAYCASTTARGETCACHEDATA_UPDATECACHE_OFFSET UNITYSDK_OFFSET(0xA58970)
+#define UNITYENGINE_UI_GRAPHICRAYCASTTARGETCACHEDATA_GETKEY_OFFSET UNITYSDK_OFFSET(0x939A20)
+#define UNITYENGINE_UI_GRAPHICRAYCASTTARGETCACHEDATA_UPDATECACHE_OFFSET UNITYSDK_OFFSET(0x939A70)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GraphicRaycastTargetCacheData_TypeDefinitionIndex = 19217;
+	inline static constexpr unsigned int GraphicRaycastTargetCacheData_TypeDefinitionIndex = 18371;
 
 	struct alignas(8) GraphicRaycastTargetCacheData
 	{

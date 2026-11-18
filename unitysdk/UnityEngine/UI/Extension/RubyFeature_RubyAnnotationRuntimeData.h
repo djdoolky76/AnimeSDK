@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/UI/Extension/RubyFeature_RubyMeasureResult.h"
 #include "unitysdk/UnityEngine/UI/Extension/RubyFeature_RubyTagParams.h"
+#include "unitysdk/UnityEngine/Color32.h"
 
 namespace System { class String; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int RubyFeature_RubyAnnotationRuntimeData_TypeDefinitionIndex = 74239;
+	inline static constexpr unsigned int RubyFeature_RubyAnnotationRuntimeData_TypeDefinitionIndex = 74770;
 
 	struct alignas(8) RubyFeature_RubyAnnotationRuntimeData
 	{

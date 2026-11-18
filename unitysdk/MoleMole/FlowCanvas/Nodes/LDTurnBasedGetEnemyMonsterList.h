@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
-#include "unitysdk/MoleMole/FlowCanvas/Nodes/LDTurnBasedGetEnemyMonsterList_Element.h"
 
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETENEMYMONSTERLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x19BE54F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETENEMYMONSTERLIST_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x19BE4FF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETENEMYMONSTERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE5530)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETENEMYMONSTERLIST___BASE_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x19BE5590)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETENEMYMONSTERLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A090ED0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETENEMYMONSTERLIST_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1A0909D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETENEMYMONSTERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A090F10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETENEMYMONSTERLIST___BASE_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1A090F70)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDTurnBasedGetEnemyMonsterList_TypeDefinitionIndex = 45320;
+	inline static constexpr unsigned int LDTurnBasedGetEnemyMonsterList_TypeDefinitionIndex = 50299;
 
-	class LDTurnBasedGetEnemyMonsterList : public ::FlowCanvas::Nodes::PureFunctionNode_1<::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LDTurnBasedGetEnemyMonsterList_Element>*>
+	class LDTurnBasedGetEnemyMonsterList
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LDTurnBasedGetEnemyMonsterList_Element>* _waveEnemies; // 0x30
+		::System::Collections::Generic::List_1<::System::Object*>* _waveEnemies; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -29,9 +28,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETENEMYMONSTERLIST_ONGRAPHSTARTED_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LDTurnBasedGetEnemyMonsterList_Element>* Invoke()
+		::System::Collections::Generic::List_1<::System::Object*>* Invoke()
 		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::FlowCanvas::Nodes::LDTurnBasedGetEnemyMonsterList_Element>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETENEMYMONSTERLIST_INVOKE_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LDTURNBASEDGETENEMYMONSTERLIST_INVOKE_OFFSET))(this);
 		}
 
 		::System::Void __base_OnGraphStarted()

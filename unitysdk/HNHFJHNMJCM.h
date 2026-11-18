@@ -1,0 +1,108 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IOOIHHOJOPI.h"
+
+class ADEJAGFCBHK;
+class GCIMMDDIFBJ;
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+class MonoUITableScrollV2;
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine { class Transform; }
+
+#define HNHFJHNMJCM_ALEFDHBNLGB_OFFSET UNITYSDK_OFFSET(0x15BE05C0)
+#define HNHFJHNMJCM_CBIBIFBAIFA_OFFSET UNITYSDK_OFFSET(0x15BE0610)
+#define HNHFJHNMJCM_EFKGNFCEENK_OFFSET UNITYSDK_OFFSET(0x15BE02B0)
+#define HNHFJHNMJCM_GKHLLOJKOGN_OFFSET UNITYSDK_OFFSET(0x15BE05D0)
+#define HNHFJHNMJCM_HAJEKPJNGBD_OFFSET UNITYSDK_OFFSET(0x15BE05F0)
+#define HNHFJHNMJCM_HMIPPEIFHEJ_OFFSET UNITYSDK_OFFSET(0x15BE05B0)
+#define HNHFJHNMJCM_KAMBDFLMKJE_OFFSET UNITYSDK_OFFSET(0x15BE0640)
+#define HNHFJHNMJCM_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x15BE0230)
+#define HNHFJHNMJCM_NKLKGBPKEFP_OFFSET UNITYSDK_OFFSET(0x15BE0630)
+#define HNHFJHNMJCM_OHHBAPCMJAE_OFFSET UNITYSDK_OFFSET(0x15BE05E0)
+#define HNHFJHNMJCM_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x15BE0030)
+#define HNHFJHNMJCM_OOKLIMNOHIK_OFFSET UNITYSDK_OFFSET(0x15BE0620)
+#define HNHFJHNMJCM_PNPEBBMBKAF_OFFSET UNITYSDK_OFFSET(0x15BE0600)
+#define HNHFJHNMJCM__CTOR_OFFSET UNITYSDK_OFFSET(0x15BE0520)
+
+inline static constexpr unsigned int HNHFJHNMJCM_TypeDefinitionIndex = 41260;
+
+class HNHFJHNMJCM : public ::IOOIHHOJOPI
+{
+public:
+	::GCIMMDDIFBJ* _KDEAFKIIKPH_k__BackingField; // 0x28
+	::MonoUITableScrollV2* _LFAJCKFBGFP_k__BackingField; // 0x30
+	::LGINJIKKBJA* _BCAJDOLAHON_k__BackingField; // 0x38
+	::ADEJAGFCBHK* _OOBJFANKOGM_k__BackingField; // 0x40
+	::UnityEngine::Transform* _JHBDJJOEPGC_k__BackingField; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HNHFJHNMJCM__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::GCIMMDDIFBJ* HMIPPEIFHEJ()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_HMIPPEIFHEJ_OFFSET))(this);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::System::Void ALEFDHBNLGB(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_ALEFDHBNLGB_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void GKHLLOJKOGN(::UnityEngine::Transform* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_GKHLLOJKOGN_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void OHHBAPCMJAE(::MonoUITableScrollV2* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MonoUITableScrollV2*))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_OHHBAPCMJAE_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LGINJIKKBJA* HAJEKPJNGBD()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_HAJEKPJNGBD_OFFSET))(this);
+	}
+
+	::UnityEngine::Transform* PNPEBBMBKAF()
+	{
+		return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_PNPEBBMBKAF_OFFSET))(this);
+	}
+
+	::MonoUITableScrollV2* CBIBIFBAIFA()
+	{
+		return ((::MonoUITableScrollV2*(*)(::PVOID))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_CBIBIFBAIFA_OFFSET))(this);
+	}
+
+	::System::Void OOKLIMNOHIK(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_OOKLIMNOHIK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void NKLKGBPKEFP(::ADEJAGFCBHK* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::ADEJAGFCBHK*))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_NKLKGBPKEFP_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void EFKGNFCEENK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_EFKGNFCEENK_OFFSET))(this);
+	}
+
+	::ADEJAGFCBHK* KAMBDFLMKJE()
+	{
+		return ((::ADEJAGFCBHK*(*)(::PVOID))((::PBYTE)hIl2Cpp + HNHFJHNMJCM_KAMBDFLMKJE_OFFSET))(this);
+	}
+};

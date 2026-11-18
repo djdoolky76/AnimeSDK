@@ -1,76 +1,82 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/ConfigUICommon_Input_ButtonType.h"
-#include "unitysdk/MoleMole/ConfigUICommon_Input_MobileButtonPositionInfo.h"
 #include "unitysdk/MoleMole/ConfigUICommon_Input_PositionType.h"
 #include "unitysdk/MoleMole/ConfigUICommon_Input_SceneType.h"
-#include "unitysdk/MoleMole/UIButtonSizeHandler_Enum_3_608988A2A0052BE9.h"
-#include "unitysdk/MoleMole/UIButtonSizeHandler_Enum_3_697FB47520476257.h"
-#include "unitysdk/MoleMole/UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD.h"
+#include "unitysdk/MoleMole/UIButtonSizeHandler_KNILJNGFNCP.h"
+#include "unitysdk/MoleMole/UIButtonSizeHandler_MNJBEPIPEOO.h"
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/MoleMole/ConfigUICommon_Input_MobileButtonPositionInfo.h"
+#include "unitysdk/MoleMole/UIPhysicalPosHandler_BDCIINGEKMH.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
 namespace MoleMole { class ConfigUICommon_Input_ConfigMobilePanelLayout; }
 namespace MoleMole { class UserLocalDataItem_OverrideMobileButtonPanel; }
 namespace UnityEngine { class Canvas; }
 
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_APPLYLAYOUTRESULT_OFFSET UNITYSDK_OFFSET(0x19575310)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_APPLYUGUIMINMAX_OFFSET UNITYSDK_OFFSET(0x19574810)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_CALCULATELAYOUT_OFFSET UNITYSDK_OFFSET(0x19573200)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_GETLAYOUTRESULT_OFFSET UNITYSDK_OFFSET(0x19574BF0)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_09B8F368BEF6ADA5_OFFSET UNITYSDK_OFFSET(0x19575B00)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_293D61F1DB5EB198_OFFSET UNITYSDK_OFFSET(0x195749D0)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_4B72F72501001F72_OFFSET UNITYSDK_OFFSET(0x19574610)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_5DEA19B34BC85FA0_OFFSET UNITYSDK_OFFSET(0x19573F90)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_6426CAFBEED664F1_OFFSET UNITYSDK_OFFSET(0x19573C50)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_674D580DCE26571A_OFFSET UNITYSDK_OFFSET(0x195758D0)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_9E570C2DADF4691D_OFFSET UNITYSDK_OFFSET(0x19575F60)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_A19744BDC4B8D47C_1_OFFSET UNITYSDK_OFFSET(0x19575D80)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_A19744BDC4B8D47C_OFFSET UNITYSDK_OFFSET(0x19575BA0)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_A8270C103EB5FD67_OFFSET UNITYSDK_OFFSET(0x19573F10)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_B6B10A3BCDE37B6E_OFFSET UNITYSDK_OFFSET(0x19573FE0)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_B8F56BD3150D8B1B_OFFSET UNITYSDK_OFFSET(0x19573EB0)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_C74E50CBD41F0264_OFFSET UNITYSDK_OFFSET(0x195765F0)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x195765B0)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_EB1FBCCF65ECC7D3_OFFSET UNITYSDK_OFFSET(0x19575930)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x195758C0)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_F95FBE5CF2CC8D6E_OFFSET UNITYSDK_OFFSET(0x19575720)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19572F90)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19572E40)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x195730E0)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER_SETBUTTONTYPE_OFFSET UNITYSDK_OFFSET(0x19572DB0)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19575780)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19575730)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x195757A0)
-#define MOLEMOLE_UIBUTTONSIZEHANDLER___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19575830)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_AJLHDDDDNHH_OFFSET UNITYSDK_OFFSET(0x19663A20)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_APPLYLAYOUTRESULT_OFFSET UNITYSDK_OFFSET(0x19664D80)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_APPLYUGUIMINMAX_OFFSET UNITYSDK_OFFSET(0x19664280)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_BMOGOLBNPCF_OFFSET UNITYSDK_OFFSET(0x196660E0)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_CALCULATELAYOUT_OFFSET UNITYSDK_OFFSET(0x19662D00)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_DIHEAENGGOC_OFFSET UNITYSDK_OFFSET(0x19665D40)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_DJFLFBMCHLH_OFFSET UNITYSDK_OFFSET(0x19665210)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_EEJLGPENPMA_OFFSET UNITYSDK_OFFSET(0x196658B0)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_GETLAYOUTRESULT_OFFSET UNITYSDK_OFFSET(0x19664660)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_GET_ISBUTTONMODE_OFFSET UNITYSDK_OFFSET(0x19662800)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_GHDGDPMONDA_OFFSET UNITYSDK_OFFSET(0x19662850)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_GHNAIJKPLKK_OFFSET UNITYSDK_OFFSET(0x196637A0)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_HCIACPPDKGD_OFFSET UNITYSDK_OFFSET(0x19665A40)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_IGCLGNLFMKK_OFFSET UNITYSDK_OFFSET(0x196652B0)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_ILHIIDBCNEC_OFFSET UNITYSDK_OFFSET(0x19665BE0)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_IMEEHLLLGDJ_OFFSET UNITYSDK_OFFSET(0x19664440)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_INBMNEKNPMA_OFFSET UNITYSDK_OFFSET(0x19663AA0)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_INLEAIPJAHP_OFFSET UNITYSDK_OFFSET(0x19664080)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_KCHJPIBHHPP_OFFSET UNITYSDK_OFFSET(0x19663AF0)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_KCOMMPBPJEF_OFFSET UNITYSDK_OFFSET(0x19665F40)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_KDOIBCBFBAG_OFFSET UNITYSDK_OFFSET(0x19665220)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_KFJICOHPNJL_OFFSET UNITYSDK_OFFSET(0x19665C70)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_KINAEDGIABH_OFFSET UNITYSDK_OFFSET(0x19665190)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19662A90)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19662940)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x19662BE0)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_PIBOKBGAAIA_OFFSET UNITYSDK_OFFSET(0x19665DA0)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_PIOOPLAPDPK_OFFSET UNITYSDK_OFFSET(0x19665A00)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_SETBUTTONSCENEOVERRIDE_OFFSET UNITYSDK_OFFSET(0x196628B0)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_SETBUTTONTYPE_OFFSET UNITYSDK_OFFSET(0x196626E0)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER_SETSCENETYPE_OFFSET UNITYSDK_OFFSET(0x19662770)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x196651F0)
+#define MOLEMOLE_UIBUTTONSIZEHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x196651A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIButtonSizeHandler_TypeDefinitionIndex = 62111;
+	inline static constexpr unsigned int UIButtonSizeHandler_TypeDefinitionIndex = 58802;
 
 	class UIButtonSizeHandler : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
-		static ::System::Single* StaticGet_Field_6_10()
+		static ::UnityEngine::Vector2* StaticGet_LGJKBKMCDBI()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIButtonSizeHandler_TypeDefinitionIndex)->GetStaticField(0x12610);
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UIButtonSizeHandler_TypeDefinitionIndex)->GetStaticField(0x13550);
 		}
-		static ::UnityEngine::Vector2* StaticGet_Field_6_11()
+		static ::System::Single* StaticGet_GEBOLAMCLOF()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UIButtonSizeHandler_TypeDefinitionIndex)->GetStaticField(0x12614);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(UIButtonSizeHandler_TypeDefinitionIndex)->GetStaticField(0x13558);
 		}
 		::MoleMole::ConfigUICommon_Input_ButtonType _buttonTypeV2; // 0x18
 		::MoleMole::ConfigUICommon_Input_SceneType _sceneTypeV2; // 0x1C
 		::MoleMole::ConfigUICommon_Input_PositionType _positionTypeV2; // 0x20
 		::System::Single _xSize; // 0x24
 		::System::Single _ySize; // 0x28
-		::MoleMole::UIButtonSizeHandler_Enum_3_697FB47520476257 _constraintSizeType; // 0x2C
-		::UnityEngine::Canvas* Field_6_9; // 0x30
-		::System::Boolean Field_6_8; // 0x38
-		::System::Boolean Field_6_15; // 0x39
-		::System::Boolean Field_6_14; // 0x3A
-		::System::Boolean Field_6_13; // 0x3B
+		::MoleMole::UIButtonSizeHandler_MNJBEPIPEOO _constraintSizeType; // 0x2C
+		::MoleMole::ConfigUICommon_Input_SceneType NPGKODLFKEM; // 0x30
+		::System::Byte _padding0[0x4];
+		::UnityEngine::Canvas* LHHCBJMINFM; // 0x38
+		::System::Boolean JJJFLPOLELO; // 0x40
+		::System::Boolean IANHKOLCODN; // 0x41
+		::System::Boolean NHBJNGHHKMC; // 0x42
+		::System::Boolean _ADPHDBHIELK_k__BackingField; // 0x43
 
 		::System::Void _ctor()
 		{
@@ -82,9 +88,24 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER__CCTOR_OFFSET))();
 		}
 
-		::System::Void SetButtonType(::MoleMole::ConfigUICommon_Input_ButtonType a1)
+		::System::Void SetButtonType(::MoleMole::ConfigUICommon_Input_ButtonType DFOLAGMLFPB)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::ConfigUICommon_Input_ButtonType))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_SETBUTTONTYPE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::ConfigUICommon_Input_ButtonType))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_SETBUTTONTYPE_OFFSET))(this, DFOLAGMLFPB);
+		}
+
+		::System::Void SetSceneType(::MoleMole::ConfigUICommon_Input_SceneType DAKFBIOBNBN)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::ConfigUICommon_Input_SceneType))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_SETSCENETYPE_OFFSET))(this, DAKFBIOBNBN);
+		}
+
+		::System::Boolean get_IsButtonMode()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_GET_ISBUTTONMODE_OFFSET))(this);
+		}
+
+		::System::Void SetButtonSceneOverride(::MoleMole::ConfigUICommon_Input_SceneType DAKFBIOBNBN)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::ConfigUICommon_Input_SceneType))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_SETBUTTONSCENEOVERRIDE_OFFSET))(this, DAKFBIOBNBN);
 		}
 
 		::System::Void OnEnable()
@@ -107,114 +128,119 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_CALCULATELAYOUT_OFFSET))(this);
 		}
 
-		::MoleMole::UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD GetLayoutResult(::System::Single a1)
+		::MoleMole::UIPhysicalPosHandler_BDCIINGEKMH GetLayoutResult(::System::Single ODDJPOJDPMH)
 		{
-			return ((::MoleMole::UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_GETLAYOUTRESULT_OFFSET))(this, a1);
+			return ((::MoleMole::UIPhysicalPosHandler_BDCIINGEKMH(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_GETLAYOUTRESULT_OFFSET))(this, ODDJPOJDPMH);
 		}
 
-		::System::Void ApplyLayoutResult(::MoleMole::UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD a1)
+		::System::Void ApplyLayoutResult(::MoleMole::UIPhysicalPosHandler_BDCIINGEKMH EKAAIJAKBPM)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::UIPhysicalPosHandler_Struct_2_D246F7D888B87AFD))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_APPLYLAYOUTRESULT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIPhysicalPosHandler_BDCIINGEKMH))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_APPLYLAYOUTRESULT_OFFSET))(this, EKAAIJAKBPM);
 		}
 
-		::System::Void ApplyUguiMinMax(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
+		::System::Void ApplyUguiMinMax(::UnityEngine::Vector2 INADNNOPKDE, ::UnityEngine::Vector2 AHFLBPBELCI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_APPLYUGUIMINMAX_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_APPLYUGUIMINMAX_OFFSET))(this, INADNNOPKDE, AHFLBPBELCI);
 		}
 
-		::System::Void __base_OnDisable()
+		::System::Boolean DJFLFBMCHLH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER___BASE_ONDISABLE_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_DJFLFBMCHLH_OFFSET))(this);
 		}
 
-		::System::Void __base_OnEnable()
+		static ::MoleMole::ConfigUICommon_Input_ButtonType AJLHDDDDNHH(::MoleMole::ConfigUICommon_Input_ButtonType PNIBHPIGMME)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER___BASE_ONENABLE_OFFSET))(this);
+			return ((::MoleMole::ConfigUICommon_Input_ButtonType(*)(::MoleMole::ConfigUICommon_Input_ButtonType))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_AJLHDDDDNHH_OFFSET))(PNIBHPIGMME);
 		}
 
-		::System::Boolean Method_6_F0088C88851A7DFB()
+		::MoleMole::ConfigUICommon_Input_MobileButtonPositionInfo KCHJPIBHHPP()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_F0088C88851A7DFB_OFFSET))(this);
+			return ((::MoleMole::ConfigUICommon_Input_MobileButtonPositionInfo(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_KCHJPIBHHPP_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2Int Method_6_674D580DCE26571A()
+		::System::Boolean GHNAIJKPLKK()
 		{
-			return ((::UnityEngine::Vector2Int(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_674D580DCE26571A_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_GHNAIJKPLKK_OFFSET))(this);
 		}
 
-		::MoleMole::ConfigUICommon_Input_ConfigMobilePanelLayout* Method_6_EB1FBCCF65ECC7D3()
+		::UnityEngine::Canvas* INLEAIPJAHP()
 		{
-			return ((::MoleMole::ConfigUICommon_Input_ConfigMobilePanelLayout*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_EB1FBCCF65ECC7D3_OFFSET))(this);
+			return ((::UnityEngine::Canvas*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_INLEAIPJAHP_OFFSET))(this);
 		}
 
-		::System::Single Method_6_293D61F1DB5EB198()
+		::System::Void KDOIBCBFBAG()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_293D61F1DB5EB198_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_KDOIBCBFBAG_OFFSET))(this);
 		}
 
-		::MoleMole::ConfigUICommon_Input_MobileButtonPositionInfo Method_6_B6B10A3BCDE37B6E()
+		::UnityEngine::Vector2 IGCLGNLFMKK()
 		{
-			return ((::MoleMole::ConfigUICommon_Input_MobileButtonPositionInfo(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_B6B10A3BCDE37B6E_OFFSET))(this);
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_IGCLGNLFMKK_OFFSET))(this);
 		}
 
-		static ::MoleMole::ConfigUICommon_Input_ButtonType Method_6_5DEA19B34BC85FA0(::MoleMole::ConfigUICommon_Input_ButtonType a1)
+		::MoleMole::ConfigUICommon_Input_ConfigMobilePanelLayout* EEJLGPENPMA()
 		{
-			return ((::MoleMole::ConfigUICommon_Input_ButtonType(*)(::MoleMole::ConfigUICommon_Input_ButtonType))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_5DEA19B34BC85FA0_OFFSET))(a1);
+			return ((::MoleMole::ConfigUICommon_Input_ConfigMobilePanelLayout*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_EEJLGPENPMA_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_6426CAFBEED664F1()
+		::System::Void PIOOPLAPDPK()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_6426CAFBEED664F1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_PIOOPLAPDPK_OFFSET))(this);
 		}
 
-		::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel* Method_6_A19744BDC4B8D47C()
+		::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel* HCIACPPDKGD()
 		{
-			return ((::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_A19744BDC4B8D47C_OFFSET))(this);
+			return ((::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_HCIACPPDKGD_OFFSET))(this);
 		}
 
-		::System::Int32 Method_6_09B8F368BEF6ADA5()
+		::UnityEngine::Vector2 KINAEDGIABH()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_09B8F368BEF6ADA5_OFFSET))(this);
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_KINAEDGIABH_OFFSET))(this);
 		}
 
-		::MoleMole::UIButtonSizeHandler_Enum_3_608988A2A0052BE9 Method_6_B8F56BD3150D8B1B()
+		static ::MoleMole::ConfigUICommon_Input_ButtonType INBMNEKNPMA(::MoleMole::ConfigUICommon_Input_ButtonType PNIBHPIGMME)
 		{
-			return ((::MoleMole::UIButtonSizeHandler_Enum_3_608988A2A0052BE9(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_B8F56BD3150D8B1B_OFFSET))(this);
+			return ((::MoleMole::ConfigUICommon_Input_ButtonType(*)(::MoleMole::ConfigUICommon_Input_ButtonType))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_INBMNEKNPMA_OFFSET))(PNIBHPIGMME);
 		}
 
-		::UnityEngine::Vector2 Method_6_9E570C2DADF4691D()
+		::System::Void ILHIIDBCNEC()
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_9E570C2DADF4691D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_ILHIIDBCNEC_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector2 Method_6_F95FBE5CF2CC8D6E()
+		::System::Single IMEEHLLLGDJ()
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_F95FBE5CF2CC8D6E_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_IMEEHLLLGDJ_OFFSET))(this);
 		}
 
-		::System::Void Method_6_CA373AA1C7054598()
+		::System::Int32 KFJICOHPNJL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_KFJICOHPNJL_OFFSET))(this);
 		}
 
-		::UnityEngine::Canvas* Method_6_4B72F72501001F72()
+		::UnityEngine::Vector2Int DIHEAENGGOC()
 		{
-			return ((::UnityEngine::Canvas*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_4B72F72501001F72_OFFSET))(this);
+			return ((::UnityEngine::Vector2Int(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_DIHEAENGGOC_OFFSET))(this);
 		}
 
-		static ::MoleMole::ConfigUICommon_Input_ButtonType Method_6_A8270C103EB5FD67(::MoleMole::ConfigUICommon_Input_ButtonType a1)
+		::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel* PIBOKBGAAIA()
 		{
-			return ((::MoleMole::ConfigUICommon_Input_ButtonType(*)(::MoleMole::ConfigUICommon_Input_ButtonType))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_A8270C103EB5FD67_OFFSET))(a1);
+			return ((::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_PIBOKBGAAIA_OFFSET))(this);
 		}
 
-		::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel* Method_6_A19744BDC4B8D47C_1()
+		::MoleMole::UIButtonSizeHandler_KNILJNGFNCP GHDGDPMONDA()
 		{
-			return ((::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_A19744BDC4B8D47C_1_OFFSET))(this);
+			return ((::MoleMole::UIButtonSizeHandler_KNILJNGFNCP(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_GHDGDPMONDA_OFFSET))(this);
 		}
 
-		::System::Void Method_6_C74E50CBD41F0264(::System::Boolean a1)
+		::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel* KCOMMPBPJEF()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_METHOD_6_C74E50CBD41F0264_OFFSET))(this, a1);
+			return ((::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_KCOMMPBPJEF_OFFSET))(this);
+		}
+
+		::System::Void BMOGOLBNPCF(::System::Boolean EGEGIMGMJHN)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBUTTONSIZEHANDLER_BMOGOLBNPCF_OFFSET))(this, EGEGIMGMJHN);
 		}
 	};
 }

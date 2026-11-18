@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelShootGameConfig_WaveType_TypeDefinitionIndex = 52691;
+	inline static constexpr unsigned int LevelShootGameConfig_WaveType_TypeDefinitionIndex = 40519;
 
 	enum class LevelShootGameConfig_WaveType : ::System::Int32
 	{

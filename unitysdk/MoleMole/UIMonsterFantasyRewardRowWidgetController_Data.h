@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_562;
+class BJBMLMHDOME;
 
-#define MOLEMOLE_UIMONSTERFANTASYREWARDROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x189CD310)
+#define MOLEMOLE_UIMONSTERFANTASYREWARDROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1904E050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterFantasyRewardRowWidgetController_Data_TypeDefinitionIndex = 55262;
+	inline static constexpr unsigned int UIMonsterFantasyRewardRowWidgetController_Data_TypeDefinitionIndex = 48209;
 
 	class UIMonsterFantasyRewardRowWidgetController_Data : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_562* Template; // 0x10
+		::BJBMLMHDOME* Template; // 0x10
 
 		::System::Void _ctor()
 		{

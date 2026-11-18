@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
-#include "unitysdk/MessagePack/MessagePackWriter.h"
 #include "unitysdk/System/Object.h"
 
-namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int TypeFormatter_1_TypeDefinitionIndex = 31315;
+	inline static constexpr unsigned int TypeFormatter_1_TypeDefinitionIndex = 30670;
 
 	template <typename T>
 	class TypeFormatter_1 : public ::System::Object

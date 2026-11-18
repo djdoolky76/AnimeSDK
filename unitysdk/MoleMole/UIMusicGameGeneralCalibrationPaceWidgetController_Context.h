@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_B9082A0CB4C1635D.h"
+#include "unitysdk/HNKFDFJGKEO.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONPACEWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17462F70)
+#define MOLEMOLE_UIMUSICGAMEGENERALCALIBRATIONPACEWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x193B8090)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMusicGameGeneralCalibrationPaceWidgetController_Context_TypeDefinitionIndex = 88785;
+	inline static constexpr unsigned int UIMusicGameGeneralCalibrationPaceWidgetController_Context_TypeDefinitionIndex = 86448;
 
 	class UIMusicGameGeneralCalibrationPaceWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_B9082A0CB4C1635D source; // 0x28
+		::HNKFDFJGKEO source; // 0x28
 
 		::System::Void _ctor()
 		{

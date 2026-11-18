@@ -3,7 +3,7 @@
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int Workflow_TypeDefinitionIndex = 26826;
+	inline static constexpr unsigned int Workflow_TypeDefinitionIndex = 26777;
 
 	enum class Workflow : ::System::Int32
 	{

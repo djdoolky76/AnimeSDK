@@ -5,10 +5,10 @@
 
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_BYTEMATCHER_ADDMAPPING_OFFSET UNITYSDK_OFFSET(0x1DCE50D0)
-#define SYSTEM_BYTEMATCHER_MATCH_OFFSET UNITYSDK_OFFSET(0x1DCE5250)
-#define SYSTEM_BYTEMATCHER_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1DCE51E0)
-#define SYSTEM_BYTEMATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCE5800)
+#define SYSTEM_BYTEMATCHER_ADDMAPPING_OFFSET UNITYSDK_OFFSET(0x1E0D7B30)
+#define SYSTEM_BYTEMATCHER_MATCH_OFFSET UNITYSDK_OFFSET(0x1E0D7CB0)
+#define SYSTEM_BYTEMATCHER_STARTSWITH_OFFSET UNITYSDK_OFFSET(0x1E0D7C40)
+#define SYSTEM_BYTEMATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0D8260)
 
 namespace System
 {
@@ -17,8 +17,8 @@ namespace System
 	class ByteMatcher : public ::System::Object
 	{
 	public:
-		::System::Collections::Hashtable* map; // 0x10
-		::System::Collections::Hashtable* starts; // 0x18
+		::System::Collections::Hashtable* starts; // 0x10
+		::System::Collections::Hashtable* map; // 0x18
 
 		::System::Void _ctor()
 		{

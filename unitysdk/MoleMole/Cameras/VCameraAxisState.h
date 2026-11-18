@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_704132FA2B264CA8.h"
+#include "unitysdk/LCONDDIBFNC.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_GET_CURRENTSPEED_OFFSET UNITYSDK_OFFSET(0x7F6380)
-#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_34EFA4157E7AE41F_OFFSET UNITYSDK_OFFSET(0x7F6490)
-#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_3735E71D7B6AFF5B_OFFSET UNITYSDK_OFFSET(0x7F6400)
-#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_4F602D3B9C6B3EFC_OFFSET UNITYSDK_OFFSET(0x7F6520)
-#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_705AF43C01ED360A_OFFSET UNITYSDK_OFFSET(0x7F64A0)
-#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_76F7CA8BB59F9F60_1_OFFSET UNITYSDK_OFFSET(0x7F6580)
-#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_76F7CA8BB59F9F60_OFFSET UNITYSDK_OFFSET(0x7F63F0)
-#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x7F6530)
-#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x7F6390)
+#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_APIGOJIPLOL_OFFSET UNITYSDK_OFFSET(0x6D5330)
+#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_GET_CURRENTSPEED_OFFSET UNITYSDK_OFFSET(0x6D52C0)
+#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_GGANBFAPGFB_OFFSET UNITYSDK_OFFSET(0x6D5350)
+#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_IKPJFEINGKN_OFFSET UNITYSDK_OFFSET(0x6D5340)
+#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_KLIPMGFMJEJ_OFFSET UNITYSDK_OFFSET(0x6D5440)
+#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x6D5360)
+#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_OKJCHFGIKBH_OFFSET UNITYSDK_OFFSET(0x6D53B0)
+#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_OMPNEADPGOA_OFFSET UNITYSDK_OFFSET(0x6D5450)
+#define MOLEMOLE_CAMERAS_VCAMERAAXISSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x6D52D0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int VCameraAxisState_TypeDefinitionIndex = 71477;
+	inline static constexpr unsigned int VCameraAxisState_TypeDefinitionIndex = 65213;
 
 	struct alignas(4) VCameraAxisState
 	{
@@ -26,15 +26,17 @@ namespace MoleMole::Cameras
 		::System::Single m_AccelTime; // 0x18
 		::System::Single m_DecelTime; // 0x1C
 		::System::Boolean m_InvertInput; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single m_MinValue; // 0x24
 		::System::Single m_MaxValue; // 0x28
 		::System::Boolean m_Wrap; // 0x2C
+		::System::Byte _padding1[0x3];
 		::System::Single mCurrentSpeed; // 0x30
-		::Enum_3_704132FA2B264CA8 _vCameraAxisType; // 0x34
+		::LCONDDIBFNC _vCameraAxisType; // 0x34
 
-		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Boolean a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::String* a7, ::System::Boolean a8, ::Enum_3_704132FA2B264CA8 a9)
+		::System::Void _ctor(::System::Single FBCNNPLFAAG, ::System::Single GOKEGHENOGP, ::System::Boolean HCOKBKFECIC, ::System::Single ENONGEJAKOP, ::System::Single NKAJIJCGBDO, ::System::Single OLAIKCEEABF, ::System::String* HIAIKHDFCLN, ::System::Boolean LDOAABMMOOF, ::LCONDDIBFNC ANNLHEDMCGK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single, ::System::Single, ::System::Single, ::System::String*, ::System::Boolean, ::Enum_3_704132FA2B264CA8))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single, ::System::Single, ::System::Single, ::System::String*, ::System::Boolean, ::LCONDDIBFNC))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE__CTOR_OFFSET))(this, FBCNNPLFAAG, GOKEGHENOGP, HCOKBKFECIC, ENONGEJAKOP, NKAJIJCGBDO, OLAIKCEEABF, HIAIKHDFCLN, LDOAABMMOOF, ANNLHEDMCGK);
 		}
 
 		::System::Single get_CurrentSpeed()
@@ -42,39 +44,39 @@ namespace MoleMole::Cameras
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_GET_CURRENTSPEED_OFFSET))(this);
 		}
 
-		::System::Single Method_2_76F7CA8BB59F9F60()
+		::System::Single APIGOJIPLOL()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_76F7CA8BB59F9F60_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_APIGOJIPLOL_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_3735E71D7B6AFF5B(::System::Single a1, ::System::Single a2)
+		::System::Single IKPJFEINGKN()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_3735E71D7B6AFF5B_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_IKPJFEINGKN_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_34EFA4157E7AE41F(::System::Single a1, ::System::Single a2)
+		::System::Boolean GGANBFAPGFB(::System::Single HLFFCMIFFIB, ::System::Single PMNLNNGEIFM)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_34EFA4157E7AE41F_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_GGANBFAPGFB_OFFSET))(this, HLFFCMIFFIB, PMNLNNGEIFM);
 		}
 
-		::System::Single Method_2_705AF43C01ED360A()
+		::System::Void NPOLNFDBOOD()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_705AF43C01ED360A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_NPOLNFDBOOD_OFFSET))(this);
 		}
 
-		::System::Single Method_2_4F602D3B9C6B3EFC()
+		::System::Boolean OKJCHFGIKBH(::System::Single PMNLNNGEIFM, ::System::Single BAGLLCBFGED)
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_4F602D3B9C6B3EFC_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_OKJCHFGIKBH_OFFSET))(this, PMNLNNGEIFM, BAGLLCBFGED);
 		}
 
-		::System::Void Method_2_CA373AA1C7054598()
+		::System::Single KLIPMGFMJEJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_KLIPMGFMJEJ_OFFSET))(this);
 		}
 
-		::System::Single Method_2_76F7CA8BB59F9F60_1()
+		::System::Single OMPNEADPGOA()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_METHOD_2_76F7CA8BB59F9F60_1_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_VCAMERAAXISSTATE_OMPNEADPGOA_OFFSET))(this);
 		}
 	};
 }

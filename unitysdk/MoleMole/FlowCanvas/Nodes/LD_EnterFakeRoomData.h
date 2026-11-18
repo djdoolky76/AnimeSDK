@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTERFAKEROOMDATA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x107D6480)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTERFAKEROOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x107D6540)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTERFAKEROOMDATA__REGISTERPORTS_B__1_0_OFFSET UNITYSDK_OFFSET(0x107D6580)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTERFAKEROOMDATA_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1430A390)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTERFAKEROOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1430A450)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ENTERFAKEROOMDATA__REGISTERPORTS_B__1_0_OFFSET UNITYSDK_OFFSET(0x1430A490)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_EnterFakeRoomData_TypeDefinitionIndex = 74376;
+	inline static constexpr unsigned int LD_EnterFakeRoomData_TypeDefinitionIndex = 81556;
 
 	class LD_EnterFakeRoomData : public ::FlowCanvas::Nodes::FlowControlNode
 	{

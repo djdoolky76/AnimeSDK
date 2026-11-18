@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_URBANMAPZENKOVWISHSCROLLVIEWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x162F31F0)
+#define MOLEMOLE_URBANMAPZENKOVWISHSCROLLVIEWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xE543500)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UrbanMapZenkovWishScrollViewContext_TypeDefinitionIndex = 63973;
+	inline static constexpr unsigned int UrbanMapZenkovWishScrollViewContext_TypeDefinitionIndex = 81334;
 
 	class UrbanMapZenkovWishScrollViewContext : public ::MoleMole::UIControllerContextBase
 	{

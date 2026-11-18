@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/CommandLineSettingBase_2.h"
 #include "unitysdk/System/Nullable_1.h"
 
 namespace MoleMole { class LoopSubdivisionProfileContext; }
 
-#define MOLEMOLE_COMMANDLINELOOPSUBDIVISION_METHOD_2_8C4EB15C90E465ED_OFFSET UNITYSDK_OFFSET(0x12EEC0C0)
-#define MOLEMOLE_COMMANDLINELOOPSUBDIVISION_METHOD_2_B803F7DBC34AF411_OFFSET UNITYSDK_OFFSET(0x12EEBFA0)
-#define MOLEMOLE_COMMANDLINELOOPSUBDIVISION__CTOR_OFFSET UNITYSDK_OFFSET(0x12EEC080)
+#define MOLEMOLE_COMMANDLINELOOPSUBDIVISION_ALEKEEINDAO_OFFSET UNITYSDK_OFFSET(0x127606E0)
+#define MOLEMOLE_COMMANDLINELOOPSUBDIVISION_PMKOMFHNKOE_OFFSET UNITYSDK_OFFSET(0x12760800)
+#define MOLEMOLE_COMMANDLINELOOPSUBDIVISION__CTOR_OFFSET UNITYSDK_OFFSET(0x127607C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineLoopSubdivision_TypeDefinitionIndex = 71184;
+	inline static constexpr unsigned int CommandLineLoopSubdivision_TypeDefinitionIndex = 48774;
 
-	class CommandLineLoopSubdivision : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::LoopSubdivisionProfileContext*, ::MoleMole::CommandLineLoopSubdivision*>
+	class CommandLineLoopSubdivision
 	{
 	public:
 		::System::Nullable_1<::System::Boolean> enable; // 0x18
@@ -24,14 +23,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINELOOPSUBDIVISION__CTOR_OFFSET))(this);
 		}
 
-		::MoleMole::CommandLineLoopSubdivision* Method_2_B803F7DBC34AF411(::MoleMole::LoopSubdivisionProfileContext* a1)
+		::MoleMole::CommandLineLoopSubdivision* ALEKEEINDAO(::MoleMole::LoopSubdivisionProfileContext* LJBPECKCCEA)
 		{
-			return ((::MoleMole::CommandLineLoopSubdivision*(*)(::PVOID, ::MoleMole::LoopSubdivisionProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINELOOPSUBDIVISION_METHOD_2_B803F7DBC34AF411_OFFSET))(this, a1);
+			return ((::MoleMole::CommandLineLoopSubdivision*(*)(::PVOID, ::MoleMole::LoopSubdivisionProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINELOOPSUBDIVISION_ALEKEEINDAO_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::MoleMole::LoopSubdivisionProfileContext* Method_2_8C4EB15C90E465ED(::MoleMole::LoopSubdivisionProfileContext* a1)
+		::MoleMole::LoopSubdivisionProfileContext* PMKOMFHNKOE(::MoleMole::LoopSubdivisionProfileContext* LJBPECKCCEA)
 		{
-			return ((::MoleMole::LoopSubdivisionProfileContext*(*)(::PVOID, ::MoleMole::LoopSubdivisionProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINELOOPSUBDIVISION_METHOD_2_8C4EB15C90E465ED_OFFSET))(this, a1);
+			return ((::MoleMole::LoopSubdivisionProfileContext*(*)(::PVOID, ::MoleMole::LoopSubdivisionProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINELOOPSUBDIVISION_PMKOMFHNKOE_OFFSET))(this, LJBPECKCCEA);
 		}
 	};
 }

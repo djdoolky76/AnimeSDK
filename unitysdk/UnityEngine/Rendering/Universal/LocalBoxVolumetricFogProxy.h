@@ -4,34 +4,34 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALBOXVOLUMETRICFOGPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CB173F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALBOXVOLUMETRICFOGPROXY_REFRESHMPB_OFFSET UNITYSDK_OFFSET(0x1CB17440)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALBOXVOLUMETRICFOGPROXY_START_OFFSET UNITYSDK_OFFSET(0x1CB176D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALBOXVOLUMETRICFOGPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB17790)
-#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALBOXVOLUMETRICFOGPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB17720)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALBOXVOLUMETRICFOGPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CED87A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALBOXVOLUMETRICFOGPROXY_REFRESHMPB_OFFSET UNITYSDK_OFFSET(0x1CED87F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALBOXVOLUMETRICFOGPROXY_START_OFFSET UNITYSDK_OFFSET(0x1CED8A80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALBOXVOLUMETRICFOGPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CED8B40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_LOCALBOXVOLUMETRICFOGPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED8AD0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int LocalBoxVolumetricFogProxy_TypeDefinitionIndex = 27279;
+	inline static constexpr unsigned int LocalBoxVolumetricFogProxy_TypeDefinitionIndex = 27364;
 
 	class LocalBoxVolumetricFogProxy : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet__CustomMaskZ()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalBoxVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x7190);
-		}
-		static ::System::Int32* StaticGet__CustomMaskA()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalBoxVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x7194);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalBoxVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x7200);
 		}
 		static ::System::Int32* StaticGet__LocalSphereFogParams1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalBoxVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x7198);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalBoxVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x7204);
+		}
+		static ::System::Int32* StaticGet__CustomMaskA()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalBoxVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x7208);
 		}
 		static ::System::Int32* StaticGet__FogScatterColor()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalBoxVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x719C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalBoxVolumetricFogProxy_TypeDefinitionIndex)->GetStaticField(0x720C);
 		}
 		::UnityEngine::Color fogScatterColor; // 0x18
 		::System::Single fadePow; // 0x28

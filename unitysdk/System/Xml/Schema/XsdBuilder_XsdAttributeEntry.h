@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/Schema/SchemaNames_Token.h"
+#include "unitysdk/System/Object.h"
 
 namespace System::Xml::Schema { class XsdBuilder_XsdBuildFunction; }
 
-#define SYSTEM_XML_SCHEMA_XSDBUILDER_XSDATTRIBUTEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE3C790)
+#define SYSTEM_XML_SCHEMA_XSDBUILDER_XSDATTRIBUTEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2BC330)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XsdBuilder_XsdAttributeEntry_TypeDefinitionIndex = 2224;
+	inline static constexpr unsigned int XsdBuilder_XsdAttributeEntry_TypeDefinitionIndex = 2223;
 
 	class XsdBuilder_XsdAttributeEntry : public ::System::Object
 	{

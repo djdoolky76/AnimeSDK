@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTPHASE_BEGIN_OFFSET UNITYSDK_OFFSET(0x13690410)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTPHASE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x136902D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x136904B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTPHASE__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x136904F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTPHASE__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x136905B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTPHASE_BEGIN_OFFSET UNITYSDK_OFFSET(0x13569C30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTPHASE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13569AF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x13569CD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTPHASE__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x13569D10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETLEVELQUESTPHASE__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x13569DD0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetLevelQuestPhase_TypeDefinitionIndex = 81162;
+	inline static constexpr unsigned int LDGetLevelQuestPhase_TypeDefinitionIndex = 49213;
 
 	class LDGetLevelQuestPhase : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::Int32>* levelQuestID; // 0xA8
-		::FlowCanvas::FlowInput* input; // 0xB0
-		::FlowCanvas::ValueOutput_1<::System::Int32>* levelPhase; // 0xB8
-		::FlowCanvas::FlowOutput* output; // 0xC0
+		::FlowCanvas::FlowInput* input; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* levelQuestID; // 0xB0
+		::FlowCanvas::FlowOutput* output; // 0xB8
+		::FlowCanvas::ValueOutput_1<::System::Int32>* levelPhase; // 0xC0
 
 		::System::Void _ctor()
 		{

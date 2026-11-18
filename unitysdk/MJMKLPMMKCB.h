@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/MHAKJKLLPBA.h"
+
+#define MJMKLPMMKCB_CJIJADLCJEN_OFFSET UNITYSDK_OFFSET(0x6C9BB0)
+#define MJMKLPMMKCB_JLIMOLHLFAK_OFFSET UNITYSDK_OFFSET(0x6C9B30)
+
+inline static constexpr unsigned int MJMKLPMMKCB_TypeDefinitionIndex = 57810;
+
+struct alignas(4) MJMKLPMMKCB
+{
+	::MHAKJKLLPBA JLIMOLHLFAK(::MHAKJKLLPBA& JKBLDFBGBPK)
+	{
+		return ((::MHAKJKLLPBA(*)(::PVOID, ::MHAKJKLLPBA&))((::PBYTE)hIl2Cpp + MJMKLPMMKCB_JLIMOLHLFAK_OFFSET))(this, JKBLDFBGBPK);
+	}
+
+	::MHAKJKLLPBA CJIJADLCJEN(::MHAKJKLLPBA& JKBLDFBGBPK)
+	{
+		return ((::MHAKJKLLPBA(*)(::PVOID, ::MHAKJKLLPBA&))((::PBYTE)hIl2Cpp + MJMKLPMMKCB_CJIJADLCJEN_OFFSET))(this, JKBLDFBGBPK);
+	}
+};

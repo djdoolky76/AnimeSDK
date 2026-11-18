@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
-namespace NodeCanvas::Framework { class GraphOwner; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SendEvent_1_TypeDefinitionIndex = 30504;
+	inline static constexpr unsigned int SendEvent_1_TypeDefinitionIndex = 29755;
 
 	template <typename T>
-	class SendEvent_1 : public ::NodeCanvas::Framework::ActionTask_1<::NodeCanvas::Framework::GraphOwner*>
+	class SendEvent_1
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::String*>* eventName; // 0x0

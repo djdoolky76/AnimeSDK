@@ -1,64 +1,64 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_5F152DBF108B0858.h"
-#include "unitysdk/Enum_3_DFCB42601400F441_2.h"
+#include "unitysdk/BDEHNBMOHMG.h"
+#include "unitysdk/EFIFKJHLKCF.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_57F7F2BF8C55D6B6;
-class Class_2_D02DABCF41CDA271;
-class Class_2_E23E4CB2769CC93F;
+class GBINEPNHKKO;
+class IDGDIFDMIDP;
+class JGBMOOJHMBF;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_CIRCLEDATA_OFFSET UNITYSDK_OFFSET(0x17D8FD00)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_CIRCLEMEMBERDATA_OFFSET UNITYSDK_OFFSET(0x17D8FD20)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_EXTRAREPORTTYPES_OFFSET UNITYSDK_OFFSET(0x17D8FD60)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_IDENTITY_OFFSET UNITYSDK_OFFSET(0x17D8FCC0)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x17D8FC80)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_ISREALPLAYER_OFFSET UNITYSDK_OFFSET(0x17D8FCE0)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_MODULEID_OFFSET UNITYSDK_OFFSET(0x17D8FCA0)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_OVERRIDEREPORTBTNACTION_OFFSET UNITYSDK_OFFSET(0x17D8FD40)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SETUPCIRCLEPARAMS_OFFSET UNITYSDK_OFFSET(0x17D8FDF0)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SETUPREPORTPARAMS_OFFSET UNITYSDK_OFFSET(0x17D8FE50)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_CIRCLEDATA_OFFSET UNITYSDK_OFFSET(0x17D8FD10)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_CIRCLEMEMBERDATA_OFFSET UNITYSDK_OFFSET(0x17D8FD30)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_EXTRAREPORTTYPES_OFFSET UNITYSDK_OFFSET(0x17D8FD70)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_IDENTITY_OFFSET UNITYSDK_OFFSET(0x17D8FCD0)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_INFO_OFFSET UNITYSDK_OFFSET(0x17D8FC90)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_ISREALPLAYER_OFFSET UNITYSDK_OFFSET(0x17D8FCF0)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_MODULEID_OFFSET UNITYSDK_OFFSET(0x17D8FCB0)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_OVERRIDEREPORTBTNACTION_OFFSET UNITYSDK_OFFSET(0x17D8FD50)
-#define MOLEMOLE_UIFRIENDDETAILCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D8FD80)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_CIRCLEDATA_OFFSET UNITYSDK_OFFSET(0x178382C0)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_CIRCLEMEMBERDATA_OFFSET UNITYSDK_OFFSET(0x178382E0)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_EXTRAREPORTTYPES_OFFSET UNITYSDK_OFFSET(0x17838320)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_IDENTITY_OFFSET UNITYSDK_OFFSET(0x17838280)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x17838240)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_ISREALPLAYER_OFFSET UNITYSDK_OFFSET(0x178382A0)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_MODULEID_OFFSET UNITYSDK_OFFSET(0x17838260)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_OVERRIDEREPORTBTNACTION_OFFSET UNITYSDK_OFFSET(0x17838300)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SETUPCIRCLEPARAMS_OFFSET UNITYSDK_OFFSET(0x178383B0)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SETUPREPORTPARAMS_OFFSET UNITYSDK_OFFSET(0x17838410)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_CIRCLEDATA_OFFSET UNITYSDK_OFFSET(0x178382D0)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_CIRCLEMEMBERDATA_OFFSET UNITYSDK_OFFSET(0x178382F0)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_EXTRAREPORTTYPES_OFFSET UNITYSDK_OFFSET(0x17838330)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_IDENTITY_OFFSET UNITYSDK_OFFSET(0x17838290)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_INFO_OFFSET UNITYSDK_OFFSET(0x17838250)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_ISREALPLAYER_OFFSET UNITYSDK_OFFSET(0x178382B0)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_MODULEID_OFFSET UNITYSDK_OFFSET(0x17838270)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_OVERRIDEREPORTBTNACTION_OFFSET UNITYSDK_OFFSET(0x17838310)
+#define MOLEMOLE_UIFRIENDDETAILCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17838340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendDetailContext_TypeDefinitionIndex = 75130;
+	inline static constexpr unsigned int UIFriendDetailContext_TypeDefinitionIndex = 43936;
 
 	class UIFriendDetailContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_D02DABCF41CDA271* _CircleMemberData_k__BackingField; // 0x28
-		::UnityEngine::Events::UnityAction* _overrideReportBtnAction_k__BackingField; // 0x30
-		::System::Collections::Generic::List_1<::Enum_3_DFCB42601400F441_2>* _extraReportTypes_k__BackingField; // 0x38
-		::Class_1_57F7F2BF8C55D6B6* _Info_k__BackingField; // 0x40
-		::Class_2_E23E4CB2769CC93F* _CircleData_k__BackingField; // 0x48
-		::System::Boolean _isRealPlayer_k__BackingField; // 0x50
+		::UnityEngine::Events::UnityAction* _overrideReportBtnAction_k__BackingField; // 0x28
+		::GBINEPNHKKO* _CircleMemberData_k__BackingField; // 0x30
+		::IDGDIFDMIDP* _CircleData_k__BackingField; // 0x38
+		::System::Collections::Generic::List_1<::BDEHNBMOHMG>* _extraReportTypes_k__BackingField; // 0x40
+		::JGBMOOJHMBF* _Info_k__BackingField; // 0x48
+		::EFIFKJHLKCF _Identity_k__BackingField; // 0x50
 		::System::Int32 _ModuleID_k__BackingField; // 0x54
-		::Enum_3_5F152DBF108B0858 _Identity_k__BackingField; // 0x58
+		::System::Boolean _isRealPlayer_k__BackingField; // 0x58
 
-		::System::Void _ctor(::Class_1_57F7F2BF8C55D6B6* playerInfo, ::System::Int32 ModuleID, ::Enum_3_5F152DBF108B0858 identityID, ::System::Boolean isRealPlayer)
+		::System::Void _ctor(::JGBMOOJHMBF* playerInfo, ::System::Int32 ModuleID, ::EFIFKJHLKCF identityID, ::System::Boolean isRealPlayer)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_57F7F2BF8C55D6B6*, ::System::Int32, ::Enum_3_5F152DBF108B0858, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT__CTOR_OFFSET))(this, playerInfo, ModuleID, identityID, isRealPlayer);
+			return ((::System::Void(*)(::PVOID, ::JGBMOOJHMBF*, ::System::Int32, ::EFIFKJHLKCF, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT__CTOR_OFFSET))(this, playerInfo, ModuleID, identityID, isRealPlayer);
 		}
 
-		::Class_1_57F7F2BF8C55D6B6* get_Info()
+		::JGBMOOJHMBF* get_Info()
 		{
-			return ((::Class_1_57F7F2BF8C55D6B6*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_INFO_OFFSET))(this);
+			return ((::JGBMOOJHMBF*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_INFO_OFFSET))(this);
 		}
 
-		::System::Void set_Info(::Class_1_57F7F2BF8C55D6B6* value)
+		::System::Void set_Info(::JGBMOOJHMBF* value)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_57F7F2BF8C55D6B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_INFO_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::JGBMOOJHMBF*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_INFO_OFFSET))(this, value);
 		}
 
 		::System::Int32 get_ModuleID()
@@ -71,14 +71,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_MODULEID_OFFSET))(this, value);
 		}
 
-		::Enum_3_5F152DBF108B0858 get_Identity()
+		::EFIFKJHLKCF get_Identity()
 		{
-			return ((::Enum_3_5F152DBF108B0858(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_IDENTITY_OFFSET))(this);
+			return ((::EFIFKJHLKCF(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_IDENTITY_OFFSET))(this);
 		}
 
-		::System::Void set_Identity(::Enum_3_5F152DBF108B0858 value)
+		::System::Void set_Identity(::EFIFKJHLKCF value)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_5F152DBF108B0858))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_IDENTITY_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::EFIFKJHLKCF))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_IDENTITY_OFFSET))(this, value);
 		}
 
 		::System::Boolean get_isRealPlayer()
@@ -91,24 +91,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_ISREALPLAYER_OFFSET))(this, value);
 		}
 
-		::Class_2_E23E4CB2769CC93F* get_CircleData()
+		::IDGDIFDMIDP* get_CircleData()
 		{
-			return ((::Class_2_E23E4CB2769CC93F*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_CIRCLEDATA_OFFSET))(this);
+			return ((::IDGDIFDMIDP*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_CIRCLEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_CircleData(::Class_2_E23E4CB2769CC93F* value)
+		::System::Void set_CircleData(::IDGDIFDMIDP* value)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_E23E4CB2769CC93F*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_CIRCLEDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::IDGDIFDMIDP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_CIRCLEDATA_OFFSET))(this, value);
 		}
 
-		::Class_2_D02DABCF41CDA271* get_CircleMemberData()
+		::GBINEPNHKKO* get_CircleMemberData()
 		{
-			return ((::Class_2_D02DABCF41CDA271*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_CIRCLEMEMBERDATA_OFFSET))(this);
+			return ((::GBINEPNHKKO*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_CIRCLEMEMBERDATA_OFFSET))(this);
 		}
 
-		::System::Void set_CircleMemberData(::Class_2_D02DABCF41CDA271* value)
+		::System::Void set_CircleMemberData(::GBINEPNHKKO* value)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_D02DABCF41CDA271*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_CIRCLEMEMBERDATA_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::GBINEPNHKKO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_CIRCLEMEMBERDATA_OFFSET))(this, value);
 		}
 
 		::UnityEngine::Events::UnityAction* get_overrideReportBtnAction()
@@ -121,24 +121,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_OVERRIDEREPORTBTNACTION_OFFSET))(this, value);
 		}
 
-		::System::Collections::Generic::List_1<::Enum_3_DFCB42601400F441_2>* get_extraReportTypes()
+		::System::Collections::Generic::List_1<::BDEHNBMOHMG>* get_extraReportTypes()
 		{
-			return ((::System::Collections::Generic::List_1<::Enum_3_DFCB42601400F441_2>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_EXTRAREPORTTYPES_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::BDEHNBMOHMG>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_GET_EXTRAREPORTTYPES_OFFSET))(this);
 		}
 
-		::System::Void set_extraReportTypes(::System::Collections::Generic::List_1<::Enum_3_DFCB42601400F441_2>* value)
+		::System::Void set_extraReportTypes(::System::Collections::Generic::List_1<::BDEHNBMOHMG>* value)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Enum_3_DFCB42601400F441_2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_EXTRAREPORTTYPES_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::BDEHNBMOHMG>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SET_EXTRAREPORTTYPES_OFFSET))(this, value);
 		}
 
-		::System::Void SetupCircleParams(::Class_2_E23E4CB2769CC93F* circleDataExt, ::Class_2_D02DABCF41CDA271* memberData)
+		::System::Void SetupCircleParams(::IDGDIFDMIDP* circleDataExt, ::GBINEPNHKKO* memberData)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_E23E4CB2769CC93F*, ::Class_2_D02DABCF41CDA271*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SETUPCIRCLEPARAMS_OFFSET))(this, circleDataExt, memberData);
+			return ((::System::Void(*)(::PVOID, ::IDGDIFDMIDP*, ::GBINEPNHKKO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SETUPCIRCLEPARAMS_OFFSET))(this, circleDataExt, memberData);
 		}
 
-		::System::Void SetupReportParams(::UnityEngine::Events::UnityAction* overrideReportBtnAction, ::System::Collections::Generic::List_1<::Enum_3_DFCB42601400F441_2>* extraReportTypes)
+		::System::Void SetupReportParams(::UnityEngine::Events::UnityAction* overrideReportBtnAction, ::System::Collections::Generic::List_1<::BDEHNBMOHMG>* extraReportTypes)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*, ::System::Collections::Generic::List_1<::Enum_3_DFCB42601400F441_2>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SETUPREPORTPARAMS_OFFSET))(this, overrideReportBtnAction, extraReportTypes);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*, ::System::Collections::Generic::List_1<::BDEHNBMOHMG>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIFRIENDDETAILCONTEXT_SETUPREPORTPARAMS_OFFSET))(this, overrideReportBtnAction, extraReportTypes);
 		}
 	};
 }

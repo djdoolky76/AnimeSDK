@@ -17,42 +17,42 @@ namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_CALCULATEFIXEDHOLDTIMER_OFFSET UNITYSDK_OFFSET(0x134FA600)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETCURVEVALUE_1_OFFSET UNITYSDK_OFFSET(0x134FB2F0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETCURVEVALUE_2_OFFSET UNITYSDK_OFFSET(0x134FB580)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETCURVEVALUE_3_OFFSET UNITYSDK_OFFSET(0x134FB830)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETCURVEVALUE_4_OFFSET UNITYSDK_OFFSET(0x134FBAA0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETCURVEVALUE_OFFSET UNITYSDK_OFFSET(0x134FB060)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_1_OFFSET UNITYSDK_OFFSET(0x134FBC90)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_2_OFFSET UNITYSDK_OFFSET(0x134FBD00)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_3_OFFSET UNITYSDK_OFFSET(0x134FBD70)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_4_OFFSET UNITYSDK_OFFSET(0x134FBE00)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_5_OFFSET UNITYSDK_OFFSET(0x134FBEA0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_6_OFFSET UNITYSDK_OFFSET(0x134FBF20)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_7_OFFSET UNITYSDK_OFFSET(0x134FC030)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_8_OFFSET UNITYSDK_OFFSET(0x134FC120)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_OFFSET UNITYSDK_OFFSET(0x134FBC20)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_1_OFFSET UNITYSDK_OFFSET(0x134FA6B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_2_OFFSET UNITYSDK_OFFSET(0x134F9D90)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_3_OFFSET UNITYSDK_OFFSET(0x134FA8A0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_4_OFFSET UNITYSDK_OFFSET(0x134FA9E0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_5_OFFSET UNITYSDK_OFFSET(0x134FAB60)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_6_OFFSET UNITYSDK_OFFSET(0x134FACD0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_OFFSET UNITYSDK_OFFSET(0x134FA480)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_1_OFFSET UNITYSDK_OFFSET(0x134FAF10)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_2_OFFSET UNITYSDK_OFFSET(0x134FAF70)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_3_OFFSET UNITYSDK_OFFSET(0x134FAFD0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_4_OFFSET UNITYSDK_OFFSET(0x134FB1D0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_5_OFFSET UNITYSDK_OFFSET(0x134FB270)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_6_OFFSET UNITYSDK_OFFSET(0x134FB470)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_7_OFFSET UNITYSDK_OFFSET(0x134FB740)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_8_OFFSET UNITYSDK_OFFSET(0x134FB9B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_OFFSET UNITYSDK_OFFSET(0x134FAEB0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x134FA390)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_CALCULATEFIXEDHOLDTIMER_OFFSET UNITYSDK_OFFSET(0x1B91D5A0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETCURVEVALUE_1_OFFSET UNITYSDK_OFFSET(0x1B91E2A0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETCURVEVALUE_2_OFFSET UNITYSDK_OFFSET(0x1B91E530)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETCURVEVALUE_3_OFFSET UNITYSDK_OFFSET(0x1B91E7E0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETCURVEVALUE_4_OFFSET UNITYSDK_OFFSET(0x1B91EA50)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETCURVEVALUE_OFFSET UNITYSDK_OFFSET(0x1B91E010)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_1_OFFSET UNITYSDK_OFFSET(0x1B91EBD0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_2_OFFSET UNITYSDK_OFFSET(0x1B91EC40)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_3_OFFSET UNITYSDK_OFFSET(0x1B91ECB0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_4_OFFSET UNITYSDK_OFFSET(0x1B91ED20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_5_OFFSET UNITYSDK_OFFSET(0x1B91EDB0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_6_OFFSET UNITYSDK_OFFSET(0x1B91EE50)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_7_OFFSET UNITYSDK_OFFSET(0x1B91EED0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_8_OFFSET UNITYSDK_OFFSET(0x1B91EFE0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_9_OFFSET UNITYSDK_OFFSET(0x1B91F0D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_1_OFFSET UNITYSDK_OFFSET(0x1B91D650)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_2_OFFSET UNITYSDK_OFFSET(0x1B91CD30)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_3_OFFSET UNITYSDK_OFFSET(0x1B91D850)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_4_OFFSET UNITYSDK_OFFSET(0x1B91D990)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_5_OFFSET UNITYSDK_OFFSET(0x1B91DB10)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_6_OFFSET UNITYSDK_OFFSET(0x1B91DC80)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETHOLDVALUE_OFFSET UNITYSDK_OFFSET(0x1B91D420)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_1_OFFSET UNITYSDK_OFFSET(0x1B91DE60)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_2_OFFSET UNITYSDK_OFFSET(0x1B91DEC0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_3_OFFSET UNITYSDK_OFFSET(0x1B91DF20)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_4_OFFSET UNITYSDK_OFFSET(0x1B91DF80)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_5_OFFSET UNITYSDK_OFFSET(0x1B91E180)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_6_OFFSET UNITYSDK_OFFSET(0x1B91E220)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_7_OFFSET UNITYSDK_OFFSET(0x1B91E420)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_8_OFFSET UNITYSDK_OFFSET(0x1B91E6F0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_9_OFFSET UNITYSDK_OFFSET(0x1B91E960)
+#define MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B91D330)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityScreenEffectBase_TypeDefinitionIndex = 74950;
+	inline static constexpr unsigned int ConfigEntityScreenEffectBase_TypeDefinitionIndex = 47728;
 
 	class ConfigEntityScreenEffectBase : public ::System::Object
 	{
@@ -60,17 +60,18 @@ namespace MoleMole::Config
 		::System::String* EndCurveKey; // 0x10
 		::System::String* StartCurveKey; // 0x18
 		::System::Single StartTime; // 0x20
-		::System::Int32 Priority; // 0x24
-		::System::Single EndTime; // 0x28
-		::System::Single HoldTime; // 0x2C
-		::System::Boolean EnableInterrupt; // 0x30
-		::System::Boolean ValidInBlackCurtain; // 0x31
-		::System::Boolean EnablePermanent; // 0x32
-		::System::Boolean HoldPermanently; // 0x33
-		::System::Single HoldLoopDuration; // 0x34
-		::System::Boolean IgnoreWitchTimescale; // 0x38
-		::System::Boolean IgnoreOwnerTimescale; // 0x39
-		::System::Boolean IgnoreWorldTimescale; // 0x3A
+		::System::Boolean HoldPermanently; // 0x24
+		::System::Boolean IgnoreOwnerTimescale; // 0x25
+		::System::Boolean EnablePermanent; // 0x26
+		::System::Byte _padding0[0x1];
+		::System::Single HoldTime; // 0x28
+		::System::Int32 Priority; // 0x2C
+		::System::Single HoldLoopDuration; // 0x30
+		::System::Boolean IgnoreWorldTimescale; // 0x34
+		::System::Boolean ValidInBlackCurtain; // 0x35
+		::System::Boolean EnableInterrupt; // 0x36
+		::System::Boolean IgnoreWitchTimescale; // 0x37
+		::System::Single EndTime; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -117,94 +118,94 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_CALCULATEFIXEDHOLDTIMER_OFFSET))(this, timer, realHoldTime, finalTimer, finalHoldTime);
 		}
 
-		::UnityEngine::Texture* GetStartValue(::UnityEngine::Texture* startValue, ::UnityEngine::Texture* endValue, ::System::Single curTime)
+		::UnityEngine::Texture* GetStartValue_1(::UnityEngine::Texture* startValue, ::UnityEngine::Texture* endValue, ::System::Single curTime)
 		{
-			return ((::UnityEngine::Texture*(*)(::PVOID, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_OFFSET))(this, startValue, endValue, curTime);
+			return ((::UnityEngine::Texture*(*)(::PVOID, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_1_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::UnityEngine::Gradient* GetStartValue_1(::UnityEngine::Gradient* startValue, ::UnityEngine::Gradient* endValue, ::System::Single curTime)
+		::UnityEngine::Gradient* GetStartValue_2(::UnityEngine::Gradient* startValue, ::UnityEngine::Gradient* endValue, ::System::Single curTime)
 		{
-			return ((::UnityEngine::Gradient*(*)(::PVOID, ::UnityEngine::Gradient*, ::UnityEngine::Gradient*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_1_OFFSET))(this, startValue, endValue, curTime);
+			return ((::UnityEngine::Gradient*(*)(::PVOID, ::UnityEngine::Gradient*, ::UnityEngine::Gradient*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_2_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::System::Boolean GetStartValue_2(::System::Boolean startValue, ::System::Boolean endValue, ::System::Single curTime)
+		::System::Boolean GetStartValue_3(::System::Boolean startValue, ::System::Boolean endValue, ::System::Single curTime)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_2_OFFSET))(this, startValue, endValue, curTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_3_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::System::Int32 GetStartValue_3(::System::Int32 startValue, ::System::Int32 endValue, ::System::Single curTime)
+		::System::Int32 GetStartValue_4(::System::Int32 startValue, ::System::Int32 endValue, ::System::Single curTime)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_3_OFFSET))(this, startValue, endValue, curTime);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_4_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::System::Single GetStartValue_4(::System::Single startValue, ::System::Single endValue, ::System::Single curTime)
+		::System::Single GetStartValue_5(::System::Single startValue, ::System::Single endValue, ::System::Single curTime)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_4_OFFSET))(this, startValue, endValue, curTime);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_5_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::UnityEngine::Vector2 GetStartValue_5(::UnityEngine::Vector2 startValue, ::UnityEngine::Vector2 endValue, ::System::Single curTime)
+		::UnityEngine::Vector2 GetStartValue_6(::UnityEngine::Vector2 startValue, ::UnityEngine::Vector2 endValue, ::System::Single curTime)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_5_OFFSET))(this, startValue, endValue, curTime);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_6_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::UnityEngine::Vector3 GetStartValue_6(::UnityEngine::Vector3 startValue, ::UnityEngine::Vector3 endValue, ::System::Single curTime)
+		::UnityEngine::Vector3 GetStartValue_7(::UnityEngine::Vector3 startValue, ::UnityEngine::Vector3 endValue, ::System::Single curTime)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_6_OFFSET))(this, startValue, endValue, curTime);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_7_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::UnityEngine::Vector4 GetStartValue_7(::UnityEngine::Vector4 startValue, ::UnityEngine::Vector4 endValue, ::System::Single curTime)
+		::UnityEngine::Vector4 GetStartValue_8(::UnityEngine::Vector4 startValue, ::UnityEngine::Vector4 endValue, ::System::Single curTime)
 		{
-			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_7_OFFSET))(this, startValue, endValue, curTime);
+			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_8_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::UnityEngine::Color GetStartValue_8(::UnityEngine::Color startValue, ::UnityEngine::Color endValue, ::System::Single curTime)
+		::UnityEngine::Color GetStartValue_9(::UnityEngine::Color startValue, ::UnityEngine::Color endValue, ::System::Single curTime)
 		{
-			return ((::UnityEngine::Color(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_8_OFFSET))(this, startValue, endValue, curTime);
+			return ((::UnityEngine::Color(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETSTARTVALUE_9_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::UnityEngine::Texture* GetEndValue(::UnityEngine::Texture* startValue, ::UnityEngine::Texture* endValue, ::System::Single curTime)
+		::UnityEngine::Texture* GetEndValue_1(::UnityEngine::Texture* startValue, ::UnityEngine::Texture* endValue, ::System::Single curTime)
 		{
-			return ((::UnityEngine::Texture*(*)(::PVOID, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_OFFSET))(this, startValue, endValue, curTime);
+			return ((::UnityEngine::Texture*(*)(::PVOID, ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_1_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::UnityEngine::Gradient* GetEndValue_1(::UnityEngine::Gradient* startValue, ::UnityEngine::Gradient* endValue, ::System::Single curTime)
+		::UnityEngine::Gradient* GetEndValue_2(::UnityEngine::Gradient* startValue, ::UnityEngine::Gradient* endValue, ::System::Single curTime)
 		{
-			return ((::UnityEngine::Gradient*(*)(::PVOID, ::UnityEngine::Gradient*, ::UnityEngine::Gradient*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_1_OFFSET))(this, startValue, endValue, curTime);
+			return ((::UnityEngine::Gradient*(*)(::PVOID, ::UnityEngine::Gradient*, ::UnityEngine::Gradient*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_2_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::System::Boolean GetEndValue_2(::System::Boolean startValue, ::System::Boolean endValue, ::System::Single curTime)
+		::System::Boolean GetEndValue_3(::System::Boolean startValue, ::System::Boolean endValue, ::System::Single curTime)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_2_OFFSET))(this, startValue, endValue, curTime);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_3_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::System::Int32 GetEndValue_3(::System::Int32 startValue, ::System::Int32 endValue, ::System::Single curTime)
+		::System::Int32 GetEndValue_4(::System::Int32 startValue, ::System::Int32 endValue, ::System::Single curTime)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_3_OFFSET))(this, startValue, endValue, curTime);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_4_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::System::Single GetEndValue_4(::System::Single startValue, ::System::Single endValue, ::System::Single curTime)
+		::System::Single GetEndValue_5(::System::Single startValue, ::System::Single endValue, ::System::Single curTime)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_4_OFFSET))(this, startValue, endValue, curTime);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_5_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::UnityEngine::Vector2 GetEndValue_5(::UnityEngine::Vector2 startValue, ::UnityEngine::Vector2 endValue, ::System::Single curTime)
+		::UnityEngine::Vector2 GetEndValue_6(::UnityEngine::Vector2 startValue, ::UnityEngine::Vector2 endValue, ::System::Single curTime)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_5_OFFSET))(this, startValue, endValue, curTime);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_6_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::UnityEngine::Vector3 GetEndValue_6(::UnityEngine::Vector3 startValue, ::UnityEngine::Vector3 endValue, ::System::Single curTime)
+		::UnityEngine::Vector3 GetEndValue_7(::UnityEngine::Vector3 startValue, ::UnityEngine::Vector3 endValue, ::System::Single curTime)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_6_OFFSET))(this, startValue, endValue, curTime);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_7_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::UnityEngine::Vector4 GetEndValue_7(::UnityEngine::Vector4 startValue, ::UnityEngine::Vector4 endValue, ::System::Single curTime)
+		::UnityEngine::Vector4 GetEndValue_8(::UnityEngine::Vector4 startValue, ::UnityEngine::Vector4 endValue, ::System::Single curTime)
 		{
-			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_7_OFFSET))(this, startValue, endValue, curTime);
+			return ((::UnityEngine::Vector4(*)(::PVOID, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_8_OFFSET))(this, startValue, endValue, curTime);
 		}
 
-		::UnityEngine::Color GetEndValue_8(::UnityEngine::Color startValue, ::UnityEngine::Color endValue, ::System::Single curTime)
+		::UnityEngine::Color GetEndValue_9(::UnityEngine::Color startValue, ::UnityEngine::Color endValue, ::System::Single curTime)
 		{
-			return ((::UnityEngine::Color(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_8_OFFSET))(this, startValue, endValue, curTime);
+			return ((::UnityEngine::Color(*)(::PVOID, ::UnityEngine::Color, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGENTITYSCREENEFFECTBASE_GETENDVALUE_9_OFFSET))(this, startValue, endValue, curTime);
 		}
 
 		::System::Single GetCurveValue(::System::String* curveKey, ::System::Single startValue, ::System::Single endValue, ::System::Single curTime, ::System::Single totalTime)

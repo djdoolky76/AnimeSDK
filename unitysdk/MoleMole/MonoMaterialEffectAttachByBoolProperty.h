@@ -2,55 +2,56 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/BaseMonoMaterialEffectAttach.h"
 
-class Class_0_16E4307DCC419505_254;
+class PPLBILJNDGF;
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY_METHOD_6_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x13851E20)
-#define MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY_METHOD_6_DFB814365CC3427C_OFFSET UNITYSDK_OFFSET(0x13851880)
-#define MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY_ONATTACH_OFFSET UNITYSDK_OFFSET(0x13851830)
-#define MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x13851E60)
+#define MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY_AMEGHCHMIOD_OFFSET UNITYSDK_OFFSET(0x139F7260)
+#define MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY_NLGHCKOOMPL_OFFSET UNITYSDK_OFFSET(0x139F7800)
+#define MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY_ONATTACH_OFFSET UNITYSDK_OFFSET(0x139F7210)
+#define MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x139F7840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoMaterialEffectAttachByBoolProperty_TypeDefinitionIndex = 46892;
+	inline static constexpr unsigned int MonoMaterialEffectAttachByBoolProperty_TypeDefinitionIndex = 65575;
 
 	class MonoMaterialEffectAttachByBoolProperty : public ::MoleMole::BaseMonoMaterialEffectAttach
 	{
 	public:
-		// static const ::System::Single Field_6_13; // 0x0
-		// static const ::System::Single Field_6_12; // 0x0
+		// static const ::System::Single CHHMJLOMFEP; // 0x0
+		// static const ::System::Single KJFBHLAHBCF; // 0x0
 		::System::String* floatPropertyKey; // 0x20
-		::System::Int32 Field_6_7; // 0x28
+		::System::Int32 OLBJHIFBDBO; // 0x28
 		::System::Int32 curveIx; // 0x2C
-		::Class_0_16E4307DCC419505_254* Field_6_5; // 0x30
-		::UnityEngine::Renderer* Field_6_4; // 0x38
+		::PPLBILJNDGF* LEOKEOFNDLH; // 0x30
+		::UnityEngine::Renderer* BGHMFOCAHKH; // 0x38
 		::System::Int32 _materialIndex; // 0x40
+		::System::Byte _padding0[0x4];
 		::System::String* Keyword; // 0x48
-		::UnityEngine::Material* Field_6_9; // 0x50
+		::UnityEngine::Material* PPLDAAJLAJH; // 0x50
 		::System::String* MatName; // 0x58
-		::System::Boolean Field_6_15; // 0x60
-		::System::Boolean Field_6_14; // 0x61
+		::System::Boolean KJKBCMKPBBA; // 0x60
+		::System::Boolean OMOBAFIBBMJ; // 0x61
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void OnAttach(::Class_0_16E4307DCC419505_254* a1)
+		::System::Void OnAttach(::PPLBILJNDGF* KECKGDFIALJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_254*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY_ONATTACH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PPLBILJNDGF*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY_ONATTACH_OFFSET))(this, KECKGDFIALJ);
 		}
 
-		::System::Void Method_6_CA373AA1C7054598()
+		::System::Void NLGHCKOOMPL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY_METHOD_6_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY_NLGHCKOOMPL_OFFSET))(this);
 		}
 
-		::System::Void Method_6_DFB814365CC3427C(::Class_0_16E4307DCC419505_254* a1)
+		::System::Void AMEGHCHMIOD(::PPLBILJNDGF* KECKGDFIALJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_254*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY_METHOD_6_DFB814365CC3427C_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PPLBILJNDGF*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOMATERIALEFFECTATTACHBYBOOLPROPERTY_AMEGHCHMIOD_OFFSET))(this, KECKGDFIALJ);
 		}
 	};
 }

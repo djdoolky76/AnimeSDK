@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/System/Net/Sockets/TransmitFileOptions.h"
+#include "unitysdk/System/MulticastDelegate.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NET_SOCKETS_SOCKET_SENDFILEHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E28F320)
-#define SYSTEM_NET_SOCKETS_SOCKET_SENDFILEHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E28F3C0)
-#define SYSTEM_NET_SOCKETS_SOCKET_SENDFILEHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E28ECE0)
-#define SYSTEM_NET_SOCKETS_SOCKET_SENDFILEHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E28ECC0)
+#define SYSTEM_NET_SOCKETS_SOCKET_SENDFILEHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E50B360)
+#define SYSTEM_NET_SOCKETS_SOCKET_SENDFILEHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E50B400)
+#define SYSTEM_NET_SOCKETS_SOCKET_SENDFILEHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E50AD10)
+#define SYSTEM_NET_SOCKETS_SOCKET_SENDFILEHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E50AD00)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int Socket_SendFileHandler_TypeDefinitionIndex = 3653;
+	inline static constexpr unsigned int Socket_SendFileHandler_TypeDefinitionIndex = 3652;
 
 	class Socket_SendFileHandler : public ::System::MulticastDelegate
 	{

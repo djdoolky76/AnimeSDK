@@ -1,33 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/Foundation/ViewObject/EntityBuildContext.h"
-#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 
-class Class_0_16E4307DCC419505_198;
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
+class OHDHAGLCAEB;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1A9413B0)
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1A9409E0)
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A940AE0)
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A9409D0)
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A941010)
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1A940C80)
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1A940AD0)
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A941070)
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1A940D00)
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A941220)
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1A940ED0)
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9414E0)
-#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1A9414F0)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1B8B2090)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1B8B16C0)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B8B17C0)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B8B16B0)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8B1CF0)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1B8B1960)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1B8B17B0)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8B1D50)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B8B19E0)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8B1F00)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1B8B1BB0)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B21C0)
+#define MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1B8B21D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HackerLittleRobotTrait_TypeDefinitionIndex = 77333;
+	inline static constexpr unsigned int HackerLittleRobotTrait_TypeDefinitionIndex = 73169;
 
 	class HackerLittleRobotTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -54,9 +54,9 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void ExposeMember(::Class_0_16E4307DCC419505_198* processor, ::System::String* prefix)
+		::System::Void ExposeMember(::OHDHAGLCAEB* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
@@ -74,19 +74,19 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::HackerLittleRobotTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::HackerLittleRobotTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		static ::MoleMole::Config::HackerLittleRobotTrait* ParseFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::HackerLittleRobotTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+			return ((::MoleMole::Config::HackerLittleRobotTrait*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
 		::System::Boolean BuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& buildContext)
@@ -94,9 +94,9 @@ namespace MoleMole::Config
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT_BUILDENTITYCOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_198* P0, ::System::String* P1)
+		::System::Void __base_ExposeMember(::OHDHAGLCAEB* P0, ::System::String* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKERLITTLEROBOTTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 	};
 }

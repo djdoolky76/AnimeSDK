@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/LogicMessageBase.h"
 
-#define MOLEMOLE_UNLOCKPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x12B24810)
-#define MOLEMOLE_UNLOCKPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x12B247F0)
+#define MOLEMOLE_UNLOCKPOPSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x13EB02B0)
+#define MOLEMOLE_UNLOCKPOPSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x13EB0290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UnlockPopShow_TypeDefinitionIndex = 64813;
+	inline static constexpr unsigned int UnlockPopShow_TypeDefinitionIndex = 49546;
 
 	class UnlockPopShow : public ::MoleMole::LogicMessageBase
 	{

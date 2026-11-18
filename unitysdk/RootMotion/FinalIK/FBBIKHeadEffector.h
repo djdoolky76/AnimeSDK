@@ -4,30 +4,30 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RootMotion::FinalIK { class FBBIKHeadEffector_BendBone; }
 namespace RootMotion::FinalIK { class FullBodyBipedIK; }
 namespace RootMotion::FinalIK { class IKEffector; }
 namespace RootMotion::FinalIK { class IKSolver_UpdateDelegate; }
+namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_CCDPASS_OFFSET UNITYSDK_OFFSET(0x1F2914C0)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_CHESTDIRECTION_OFFSET UNITYSDK_OFFSET(0x1F290870)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_ITERATE_OFFSET UNITYSDK_OFFSET(0x1F291AC0)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_LERPSOLVERPOSITION_OFFSET UNITYSDK_OFFSET(0x1F292A30)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F2933B0)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_ONFIXTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x1F28F5A0)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_ONPOSTUPDATE_OFFSET UNITYSDK_OFFSET(0x1F292B30)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_ONPREREAD_OFFSET UNITYSDK_OFFSET(0x1F28FE10)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_ONSTOREDEFAULTLOCALSTATE_OFFSET UNITYSDK_OFFSET(0x1F28EB70)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_POSTSTRETCHING_OFFSET UNITYSDK_OFFSET(0x1F292EE0)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_SOLVE_OFFSET UNITYSDK_OFFSET(0x1F292970)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_SPINEBEND_OFFSET UNITYSDK_OFFSET(0x1F290E70)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_START_OFFSET UNITYSDK_OFFSET(0x1F28E6B0)
-#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F293800)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_CCDPASS_OFFSET UNITYSDK_OFFSET(0x1F6AB870)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_CHESTDIRECTION_OFFSET UNITYSDK_OFFSET(0x1F6AAC20)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_ITERATE_OFFSET UNITYSDK_OFFSET(0x1F6ABE70)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_LERPSOLVERPOSITION_OFFSET UNITYSDK_OFFSET(0x1F6ACDE0)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F6AD760)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_ONFIXTRANSFORMS_OFFSET UNITYSDK_OFFSET(0x1F6A9950)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_ONPOSTUPDATE_OFFSET UNITYSDK_OFFSET(0x1F6ACEE0)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_ONPREREAD_OFFSET UNITYSDK_OFFSET(0x1F6AA1C0)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_ONSTOREDEFAULTLOCALSTATE_OFFSET UNITYSDK_OFFSET(0x1F6A8F20)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_POSTSTRETCHING_OFFSET UNITYSDK_OFFSET(0x1F6AD290)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_SOLVE_OFFSET UNITYSDK_OFFSET(0x1F6ACD20)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_SPINEBEND_OFFSET UNITYSDK_OFFSET(0x1F6AB220)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR_START_OFFSET UNITYSDK_OFFSET(0x1F6A8A70)
+#define ROOTMOTION_FINALIK_FBBIKHEADEFFECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6ADBB0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int FBBIKHeadEffector_TypeDefinitionIndex = 38854;
+	inline static constexpr unsigned int FBBIKHeadEffector_TypeDefinitionIndex = 36944;
 
 	class FBBIKHeadEffector : public ::UnityEngine::MonoBehaviour
 	{
@@ -37,19 +37,22 @@ namespace RootMotion::FinalIK
 		::System::Single bodyWeight; // 0x24
 		::System::Single thighWeight; // 0x28
 		::System::Boolean handsPullBody; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::Single rotationWeight; // 0x30
 		::System::Single bodyClampWeight; // 0x34
 		::System::Single headClampWeight; // 0x38
 		::System::Single bendWeight; // 0x3C
-		::Il2CppArray<::RootMotion::FinalIK::FBBIKHeadEffector_BendBone*>* bendBones; // 0x40
+		::Il2CppArray<::System::Object*>* bendBones; // 0x40
 		::System::Single CCDWeight; // 0x48
 		::System::Single roll; // 0x4C
 		::System::Single damper; // 0x50
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::UnityEngine::Transform*>* CCDBones; // 0x58
 		::System::Single postStretchWeight; // 0x60
 		::System::Single maxStretch; // 0x64
 		::System::Single stretchDamper; // 0x68
 		::System::Boolean fixHead; // 0x6C
+		::System::Byte _padding2[0x3];
 		::Il2CppArray<::UnityEngine::Transform*>* stretchBones; // 0x70
 		::UnityEngine::Vector3 chestDirection; // 0x78
 		::System::Single chestDirectionWeight; // 0x84
@@ -70,6 +73,7 @@ namespace RootMotion::FinalIK
 		::Il2CppArray<::UnityEngine::Quaternion>* ccdDefaultLocalRotations; // 0x118
 		::UnityEngine::Vector3 headLocalPosition; // 0x120
 		::UnityEngine::Quaternion headLocalRotation; // 0x12C
+		::System::Byte _padding3[0x4];
 		::Il2CppArray<::UnityEngine::Vector3>* stretchLocalPositions; // 0x140
 		::Il2CppArray<::UnityEngine::Quaternion>* stretchLocalRotations; // 0x148
 		::Il2CppArray<::UnityEngine::Vector3>* chestLocalPositions; // 0x150

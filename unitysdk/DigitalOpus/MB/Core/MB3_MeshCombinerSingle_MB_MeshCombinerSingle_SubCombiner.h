@@ -14,20 +14,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics { class Stopwatch; }
 namespace UnityEngine { class GameObject; }
 
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_APPLYSHOWHIDE_OFFSET UNITYSDK_OFFSET(0x1EEA20B0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1EEA1FF0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_APPLY_2_OFFSET UNITYSDK_OFFSET(0x1EE9F020)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_APPLY_OFFSET UNITYSDK_OFFSET(0x1EE9E6D0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_INSTANCE2COMBINED_MAPADD_OFFSET UNITYSDK_OFFSET(0x1EE9A190)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_INSTANCE2COMBINED_MAPREMOVE_OFFSET UNITYSDK_OFFSET(0x1EE9A220)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__ADDTOCOMBINED_OFFSET UNITYSDK_OFFSET(0x1EE9A370)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA27B0)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__SHOWHIDEGAMEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1EE9A280)
-#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__UPDATEGAMEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1EE9DD50)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_APPLYSHOWHIDE_OFFSET UNITYSDK_OFFSET(0x1F224080)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1F223FC0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_APPLY_2_OFFSET UNITYSDK_OFFSET(0x1F220FF0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_APPLY_OFFSET UNITYSDK_OFFSET(0x1F2206A0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_INSTANCE2COMBINED_MAPADD_OFFSET UNITYSDK_OFFSET(0x1F21C160)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_INSTANCE2COMBINED_MAPREMOVE_OFFSET UNITYSDK_OFFSET(0x1F21C1F0)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__ADDTOCOMBINED_OFFSET UNITYSDK_OFFSET(0x1F21C340)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F224780)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__SHOWHIDEGAMEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1F21C250)
+#define DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__UPDATEGAMEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1F21FD20)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_MeshCombinerSingle_MB_MeshCombinerSingle_SubCombiner_TypeDefinitionIndex = 94577;
+	inline static constexpr unsigned int MB3_MeshCombinerSingle_MB_MeshCombinerSingle_SubCombiner_TypeDefinitionIndex = 96264;
 
 	class MB3_MeshCombinerSingle_MB_MeshCombinerSingle_SubCombiner : public ::System::Object
 	{
@@ -37,14 +37,14 @@ namespace DigitalOpus::MB::Core
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void instance2Combined_MapAdd(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>*& _instance2combined_map, ::UnityEngine::GameObject* gameObjectID, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject* dgo)
+		static ::System::Void instance2Combined_MapAdd(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Object*>*& _instance2combined_map, ::UnityEngine::GameObject* gameObjectID, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject* dgo)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>*&, ::UnityEngine::GameObject*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_INSTANCE2COMBINED_MAPADD_OFFSET))(_instance2combined_map, gameObjectID, dgo);
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Object*>*&, ::UnityEngine::GameObject*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_INSTANCE2COMBINED_MAPADD_OFFSET))(_instance2combined_map, gameObjectID, dgo);
 		}
 
-		static ::System::Void instance2Combined_MapRemove(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>*& _instance2combined_map, ::UnityEngine::GameObject* gameObjectID)
+		static ::System::Void instance2Combined_MapRemove(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Object*>*& _instance2combined_map, ::UnityEngine::GameObject* gameObjectID)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>*&, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_INSTANCE2COMBINED_MAPREMOVE_OFFSET))(_instance2combined_map, gameObjectID);
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Object*>*&, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER_INSTANCE2COMBINED_MAPREMOVE_OFFSET))(_instance2combined_map, gameObjectID);
 		}
 
 		static ::System::Boolean _ShowHideGameObjects(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle* c)
@@ -52,14 +52,14 @@ namespace DigitalOpus::MB::Core
 			return ((::System::Boolean(*)(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__SHOWHIDEGAMEOBJECTS_OFFSET))(c);
 		}
 
-		static ::System::Boolean _AddToCombined(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle* c, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags newChannels, ::System::Int32 totalAddVerts, ::System::Int32 totalDeleteVerts, ::System::Int32 numResultMats, ::System::Int32 totalAddBlendShapes, ::System::Int32 totalDeleteBlendShapes, ::Il2CppArray<::System::Int32>* totalAddSubmeshTris, ::Il2CppArray<::System::Int32>* totalDeleteSubmeshTris, ::Il2CppArray<::System::Int32>* _goToDelete, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>* toAddDGOs, ::Il2CppArray<::UnityEngine::GameObject*>* _goToAdd, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_UVAdjuster_Atlas* uvAdjuster, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_IVertexAndTriangleProcessor*& oldMeshData, ::System::Diagnostics::Stopwatch* sw)
+		static ::System::Boolean _AddToCombined(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle* c, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags newChannels, ::System::Int32 totalAddVerts, ::System::Int32 totalDeleteVerts, ::System::Int32 numResultMats, ::System::Int32 totalAddBlendShapes, ::System::Int32 totalDeleteBlendShapes, ::Il2CppArray<::System::Int32>* totalAddSubmeshTris, ::Il2CppArray<::System::Int32>* totalDeleteSubmeshTris, ::Il2CppArray<::System::Int32>* _goToDelete, ::System::Collections::Generic::List_1<::System::Object*>* toAddDGOs, ::Il2CppArray<::UnityEngine::GameObject*>* _goToAdd, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_UVAdjuster_Atlas* uvAdjuster, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_IVertexAndTriangleProcessor*& oldMeshData, ::System::Diagnostics::Stopwatch* sw)
 		{
-			return ((::System::Boolean(*)(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle*, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>*, ::Il2CppArray<::UnityEngine::GameObject*>*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_UVAdjuster_Atlas*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_IVertexAndTriangleProcessor*&, ::System::Diagnostics::Stopwatch*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__ADDTOCOMBINED_OFFSET))(c, newChannels, totalAddVerts, totalDeleteVerts, numResultMats, totalAddBlendShapes, totalDeleteBlendShapes, totalAddSubmeshTris, totalDeleteSubmeshTris, _goToDelete, toAddDGOs, _goToAdd, uvAdjuster, oldMeshData, sw);
+			return ((::System::Boolean(*)(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle*, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::System::Collections::Generic::List_1<::System::Object*>*, ::Il2CppArray<::UnityEngine::GameObject*>*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_UVAdjuster_Atlas*, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_IVertexAndTriangleProcessor*&, ::System::Diagnostics::Stopwatch*))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__ADDTOCOMBINED_OFFSET))(c, newChannels, totalAddVerts, totalDeleteVerts, numResultMats, totalAddBlendShapes, totalDeleteBlendShapes, totalAddSubmeshTris, totalDeleteSubmeshTris, _goToDelete, toAddDGOs, _goToAdd, uvAdjuster, oldMeshData, sw);
 		}
 
-		static ::System::Boolean _UpdateGameObjects(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle* combiner, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>* dgosToUpdate, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags newChannels, ::System::Boolean updateVertices, ::System::Boolean updateNormals, ::System::Boolean updateTangents, ::System::Boolean updateUV, ::System::Boolean updateUV2, ::System::Boolean updateUV3, ::System::Boolean updateUV4, ::System::Boolean updateUV5, ::System::Boolean updateUV6, ::System::Boolean updateUV7, ::System::Boolean updateUV8, ::System::Boolean updateColors, ::System::Boolean updateSkinningInfo, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_UVAdjuster_Atlas* uVAdjuster, ::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL)
+		static ::System::Boolean _UpdateGameObjects(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle* combiner, ::System::Collections::Generic::List_1<::System::Object*>* dgosToUpdate, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags newChannels, ::System::Boolean updateVertices, ::System::Boolean updateNormals, ::System::Boolean updateTangents, ::System::Boolean updateUV, ::System::Boolean updateUV2, ::System::Boolean updateUV3, ::System::Boolean updateUV4, ::System::Boolean updateUV5, ::System::Boolean updateUV6, ::System::Boolean updateUV7, ::System::Boolean updateUV8, ::System::Boolean updateColors, ::System::Boolean updateSkinningInfo, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_UVAdjuster_Atlas* uVAdjuster, ::DigitalOpus::MB::Core::MB2_LogLevel LOG_LEVEL)
 		{
-			return ((::System::Boolean(*)(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle*, ::System::Collections::Generic::List_1<::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_MB_DynamicGameObject*>*, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_UVAdjuster_Atlas*, ::DigitalOpus::MB::Core::MB2_LogLevel))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__UPDATEGAMEOBJECTS_OFFSET))(combiner, dgosToUpdate, newChannels, updateVertices, updateNormals, updateTangents, updateUV, updateUV2, updateUV3, updateUV4, updateUV5, updateUV6, updateUV7, updateUV8, updateColors, updateSkinningInfo, uVAdjuster, LOG_LEVEL);
+			return ((::System::Boolean(*)(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle*, ::System::Collections::Generic::List_1<::System::Object*>*, ::DigitalOpus::MB::Core::MB_MeshVertexChannelFlags, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::DigitalOpus::MB::Core::MB3_MeshCombinerSingle_UVAdjuster_Atlas*, ::DigitalOpus::MB::Core::MB2_LogLevel))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_MB3_MESHCOMBINERSINGLE_MB_MESHCOMBINERSINGLE_SUBCOMBINER__UPDATEGAMEOBJECTS_OFFSET))(combiner, dgosToUpdate, newChannels, updateVertices, updateNormals, updateTangents, updateUV, updateUV2, updateUV3, updateUV4, updateUV5, updateUV6, updateUV7, updateUV8, updateColors, updateSkinningInfo, uVAdjuster, LOG_LEVEL);
 		}
 
 		static ::System::Boolean Apply(::DigitalOpus::MB::Core::MB3_MeshCombinerSingle* combiner, ::DigitalOpus::MB::Core::MB3_MeshCombiner_GenerateUV2Delegate* uv2GenerationMethod)

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_SPEAKERACTIONCFG_USESUBID_OFFSET UNITYSDK_OFFSET(0x136A7980)
-#define MOLEMOLE_GALGAME_SPEAKERACTIONCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x136A79F0)
+#define MOLEMOLE_GALGAME_SPEAKERACTIONCFG_USESUBID_OFFSET UNITYSDK_OFFSET(0x1357E1A0)
+#define MOLEMOLE_GALGAME_SPEAKERACTIONCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1357E210)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int SpeakerActionCfg_TypeDefinitionIndex = 44596;
+	inline static constexpr unsigned int SpeakerActionCfg_TypeDefinitionIndex = 62984;
 
 	class SpeakerActionCfg : public ::System::Object
 	{
@@ -18,6 +18,7 @@ namespace MoleMole::GalGame
 		::System::Int32 SpeakerNpcTag; // 0x14
 		::System::String* SpeakerMember; // 0x18
 		::System::Int32 FacialActionID; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::String* FacialAniKey; // 0x28
 		::System::String* FacialBubbleKey; // 0x30
 

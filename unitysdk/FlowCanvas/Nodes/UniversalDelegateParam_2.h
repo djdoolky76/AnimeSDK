@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/UniversalDelegateParam_1.h"
 
-namespace FlowCanvas { class FlowNode; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int UniversalDelegateParam_2_TypeDefinitionIndex = 30037;
+	inline static constexpr unsigned int UniversalDelegateParam_2_TypeDefinitionIndex = 29340;
 
-	template <typename TArray, typename TValue>
-	class UniversalDelegateParam_2 : public ::FlowCanvas::Nodes::UniversalDelegateParam_1<TArray>
+	template <typename T1, typename T2>
+	class UniversalDelegateParam_2
 	{
 	public:
-		::Il2CppArray<::FlowCanvas::ValueInput_1<TValue>*>* valueInputs; // 0x0
+		::Il2CppArray<::FlowCanvas::ValueInput_1<T1>*>* valueInputs; // 0x0
 	};
 }

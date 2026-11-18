@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/VolumeProfile_NativeSRP.h"
 
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2677C0)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E267840)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E385010)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E385090)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeProfile_TypeDefinitionIndex = 27304;
+	inline static constexpr unsigned int VolumeProfile_TypeDefinitionIndex = 26240;
 
 	class VolumeProfile : public ::UnityEngine::NAPRenderPipeline0::VolumeProfile_NativeSRP
 	{

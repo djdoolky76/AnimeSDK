@@ -9,13 +9,13 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FastAction_3_TypeDefinitionIndex = 39761;
+	inline static constexpr unsigned int FastAction_3_TypeDefinitionIndex = 37761;
 
-	template <typename A, typename B, typename C>
+	template <typename T1, typename T2, typename T3>
 	class FastAction_3 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>* delegates; // 0x0
-		::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>* lookup; // 0x0
+		::System::Collections::Generic::LinkedList_1<::System::Action_3<::System::Object*, ::System::Object*, ::System::Object*>*>* delegates; // 0x0
+		::System::Collections::Generic::Dictionary_2<::System::Action_3<::System::Object*, ::System::Object*, ::System::Object*>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<::System::Object*, ::System::Object*, ::System::Object*>*>*>* lookup; // 0x0
 	};
 }

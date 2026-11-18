@@ -3,11 +3,11 @@
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int CallCameraEffectActionType_TypeDefinitionIndex = 80202;
+	inline static constexpr unsigned int CallCameraEffectActionType_TypeDefinitionIndex = 40964;
 
 	enum class CallCameraEffectActionType : ::System::Int32
 	{
-		Stop = 1,
 		Start = 0,
+		Stop = 1,
 	};
 }

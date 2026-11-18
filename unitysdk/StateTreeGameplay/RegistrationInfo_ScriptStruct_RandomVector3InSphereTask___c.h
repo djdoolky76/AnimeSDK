@@ -3,21 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 namespace UnrealTypes { class ICppStructOps; }
+namespace UnrealTypes { class ScriptStruct; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3INSPHERETASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13458800)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3INSPHERETASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13458840)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3INSPHERETASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x13458850)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3INSPHERETASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D202150)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3INSPHERETASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D202190)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3INSPHERETASK___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D2021A0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3INSPHERETASK___C___CCTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0x1D202200)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_RandomVector3InSphereTask___c_TypeDefinitionIndex = 72826;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_RandomVector3InSphereTask___c_TypeDefinitionIndex = 64846;
 
 	class RegistrationInfo_ScriptStruct_RandomVector3InSphereTask___c : public ::System::Object
 	{
 	public:
-		static ::StateTreeGameplay::RegistrationInfo_ScriptStruct_RandomVector3InSphereTask___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::StateTreeGameplay::RegistrationInfo_ScriptStruct_RandomVector3InSphereTask___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3InSphereTask___c_TypeDefinitionIndex)->GetStaticField(0x34100);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3InSphereTask___c_TypeDefinitionIndex)->GetStaticField(0x36490);
 		}
 
 		static ::System::Void _cctor()
@@ -30,9 +32,14 @@ namespace StateTreeGameplay
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3INSPHERETASK___C__CTOR_OFFSET))(this);
 		}
 
-		::UnrealTypes::ICppStructOps* __cctor_b__2_0()
+		::UnrealTypes::ScriptStruct* __cctor_b__2_0()
 		{
-			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3INSPHERETASK___C___CCTOR_B__2_0_OFFSET))(this);
+			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3INSPHERETASK___C___CCTOR_B__2_0_OFFSET))(this);
+		}
+
+		::UnrealTypes::ICppStructOps* __cctor_b__2_1()
+		{
+			return ((::UnrealTypes::ICppStructOps*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3INSPHERETASK___C___CCTOR_B__2_1_OFFSET))(this);
 		}
 	};
 }

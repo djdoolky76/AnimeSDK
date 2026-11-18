@@ -9,14 +9,14 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ComputeBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPCAPSULEAO_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1E605C60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPCAPSULEAO_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E605AB0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPCAPSULEAO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E605CF0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPCAPSULEAO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E605BA0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPCAPSULEAO_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1E84E720)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPCAPSULEAO_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E84E570)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPCAPSULEAO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E84E7B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPCAPSULEAO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E84E660)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NapCapsuleAo_TypeDefinitionIndex = 6017;
+	inline static constexpr unsigned int NapCapsuleAo_TypeDefinitionIndex = 6025;
 
 	class NapCapsuleAo : public ::System::Object
 	{
@@ -31,6 +31,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		}
 		::System::Collections::Generic::List_1<::UnityEngine::NAPRenderPipeline0::NapCapsuleAoLightData>* lightListForCapAO; // 0x10
 		::System::Int32 m_Kernel; // 0x18
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::UInt32>* defaultCurrentLightIndexBuffer; // 0x20
 		::UnityEngine::ComputeBuffer* m_LightListBuffer; // 0x28
 		::UnityEngine::ComputeBuffer* m_LightIndexBuffer; // 0x30

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_ONEVENTPATTERNDESTROY_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x1924C720)
-#define MOLEMOLE_FLOWCANVAS_NODES_ONEVENTPATTERNDESTROY__CTOR_OFFSET UNITYSDK_OFFSET(0x1924C760)
+#define MOLEMOLE_FLOWCANVAS_NODES_ONEVENTPATTERNDESTROY_GET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x119183C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_ONEVENTPATTERNDESTROY__CTOR_OFFSET UNITYSDK_OFFSET(0x11918400)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int OnEventPatternDestroy_TypeDefinitionIndex = 40382;
+	inline static constexpr unsigned int OnEventPatternDestroy_TypeDefinitionIndex = 92471;
 
 	class OnEventPatternDestroy : public ::MoleMole::FlowCanvas::Nodes::ShootGamePatternEvent
 	{

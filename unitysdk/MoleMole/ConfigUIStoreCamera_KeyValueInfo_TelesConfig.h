@@ -5,11 +5,11 @@
 namespace MoleMole { class ConfigCameraTelescope; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGUISTORECAMERA_KEYVALUEINFO_TELESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C529060)
+#define MOLEMOLE_CONFIGUISTORECAMERA_KEYVALUEINFO_TELESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD16270)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIStoreCamera_KeyValueInfo_TelesConfig_TypeDefinitionIndex = 54104;
+	inline static constexpr unsigned int ConfigUIStoreCamera_KeyValueInfo_TelesConfig_TypeDefinitionIndex = 54176;
 
 	class ConfigUIStoreCamera_KeyValueInfo_TelesConfig : public ::System::Object
 	{

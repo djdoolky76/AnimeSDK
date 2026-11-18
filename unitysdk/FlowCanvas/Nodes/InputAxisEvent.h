@@ -4,22 +4,23 @@
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define FLOWCANVAS_NODES_INPUTAXISEVENT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EB7E120)
-#define FLOWCANVAS_NODES_INPUTAXISEVENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EB7E200)
-#define FLOWCANVAS_NODES_INPUTAXISEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7E210)
-#define FLOWCANVAS_NODES_INPUTAXISEVENT__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1EB7E250)
-#define FLOWCANVAS_NODES_INPUTAXISEVENT__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x1EB7E260)
+#define FLOWCANVAS_NODES_INPUTAXISEVENT_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EF4DEB0)
+#define FLOWCANVAS_NODES_INPUTAXISEVENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EF4DF90)
+#define FLOWCANVAS_NODES_INPUTAXISEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF4DFA0)
+#define FLOWCANVAS_NODES_INPUTAXISEVENT__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x1EF4DFE0)
+#define FLOWCANVAS_NODES_INPUTAXISEVENT__REGISTERPORTS_B__4_1_OFFSET UNITYSDK_OFFSET(0x1EF4DFF0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int InputAxisEvent_TypeDefinitionIndex = 31084;
+	inline static constexpr unsigned int InputAxisEvent_TypeDefinitionIndex = 29922;
 
 	class InputAxisEvent : public ::FlowCanvas::Nodes::EventNode
 	{
 	public:
 		::FlowCanvas::FlowOutput* o; // 0xA8
-		::System::Boolean calledLastFrame; // 0xB0
-		::System::Single horizontal; // 0xB4
+		::System::Single horizontal; // 0xB0
+		::System::Boolean calledLastFrame; // 0xB4
+		::System::Byte _padding0[0x3];
 		::System::Single vertical; // 0xB8
 
 		::System::Void _ctor()

@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8B770)
+#define MOLEMOLE_UIROARINSTORECOOKIEITEMWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16785ED0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoarinStoreCookieItemWidgetController_Context_TypeDefinitionIndex = 46433;
+	inline static constexpr unsigned int UIRoarinStoreCookieItemWidgetController_Context_TypeDefinitionIndex = 91927;
 
 	class UIRoarinStoreCookieItemWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

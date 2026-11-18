@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UINEWBIEGUIDEFETCHCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1867B9B0)
+#define MOLEMOLE_UINEWBIEGUIDEFETCHCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x147E3250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINewbieGuideFetchContext_TypeDefinitionIndex = 86959;
+	inline static constexpr unsigned int UINewbieGuideFetchContext_TypeDefinitionIndex = 84126;
 
 	class UINewbieGuideFetchContext : public ::MoleMole::UIControllerContextBase
 	{

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
-#include "unitysdk/Struct_2_4C8453486C91E3A1_18.h"
+#include "unitysdk/NPAAPNEKAEP.h"
 
-#define MOLEMOLE_UIRABDEPOSITORYUPTIPSWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1757C670)
+#define MOLEMOLE_UIRABDEPOSITORYUPTIPSWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF3C70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABDepositoryUpTipsWidgetController_Context_TypeDefinitionIndex = 52808;
+	inline static constexpr unsigned int UIRABDepositoryUpTipsWidgetController_Context_TypeDefinitionIndex = 82755;
 
 	class UIRABDepositoryUpTipsWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Struct_2_4C8453486C91E3A1_18 ChangeValue; // 0x28
+		::NPAAPNEKAEP ChangeValue; // 0x28
 
 		::System::Void _ctor()
 		{

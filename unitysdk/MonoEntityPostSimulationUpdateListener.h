@@ -4,10 +4,10 @@
 
 namespace System { class Action; }
 
-#define MONOENTITYPOSTSIMULATIONUPDATELISTENER_POSTSIMULATIONUPDATE_OFFSET UNITYSDK_OFFSET(0x1353E0C0)
-#define MONOENTITYPOSTSIMULATIONUPDATELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1353E110)
+#define MONOENTITYPOSTSIMULATIONUPDATELISTENER_POSTSIMULATIONUPDATE_OFFSET UNITYSDK_OFFSET(0xEB3BBA0)
+#define MONOENTITYPOSTSIMULATIONUPDATELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0xEB3BBF0)
 
-inline static constexpr unsigned int MonoEntityPostSimulationUpdateListener_TypeDefinitionIndex = 81154;
+inline static constexpr unsigned int MonoEntityPostSimulationUpdateListener_TypeDefinitionIndex = 59574;
 
 class MonoEntityPostSimulationUpdateListener : public ::UnityEngine::MonoBehaviour
 {

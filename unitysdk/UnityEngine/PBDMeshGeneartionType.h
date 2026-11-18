@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PBDMeshGeneartionType_TypeDefinitionIndex = 19151;
+	inline static constexpr unsigned int PBDMeshGeneartionType_TypeDefinitionIndex = 18305;
 
 	enum class PBDMeshGeneartionType : ::System::Int32
 	{

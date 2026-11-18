@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int IScrollReceiver_TypeDefinitionIndex = 57301;
+	inline static constexpr unsigned int IScrollReceiver_TypeDefinitionIndex = 57859;
 
 	class IScrollReceiver
 	{

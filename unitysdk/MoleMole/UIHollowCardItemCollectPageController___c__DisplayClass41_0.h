@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_988;
+class MLILBAKCGJA;
 namespace MoleMole { class UIHollowCardItemCollectPageController; }
 
-#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18ED90D0)
-#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS41_0__REFRESHTAB_B__0_OFFSET UNITYSDK_OFFSET(0x18ED90E0)
+#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x199DAD70)
+#define MOLEMOLE_UIHOLLOWCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS41_0__REFRESHTAB_B__0_OFFSET UNITYSDK_OFFSET(0x199DAD80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardItemCollectPageController___c__DisplayClass41_0_TypeDefinitionIndex = 53991;
+	inline static constexpr unsigned int UIHollowCardItemCollectPageController___c__DisplayClass41_0_TypeDefinitionIndex = 88077;
 
 	class UIHollowCardItemCollectPageController___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHollowCardItemCollectPageController* __4__this; // 0x10
-		::Class_2_208CC9941471731A_988* templateExt; // 0x18
+		::MLILBAKCGJA* templateExt; // 0x10
+		::MoleMole::UIHollowCardItemCollectPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

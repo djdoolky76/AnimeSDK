@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Timeline/PaniniProjectionBehaviour_Struct_2_E658502528B7C034_6.h"
+#include "unitysdk/MoleMole/Timeline/PaniniProjectionBehaviour_OBCMCANEJEP.h"
 #include "unitysdk/MoleMole/Timeline/PostProcessBehaviourBase.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
@@ -8,33 +8,36 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine::Rendering::Universal { class PaniniProjection; }
 
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x129E45D0)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET UNITYSDK_OFFSET(0x129E5480)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_METHOD_4_5FC63A1AC659F0AE_OFFSET UNITYSDK_OFFSET(0x129E4C20)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET UNITYSDK_OFFSET(0x129E54A0)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET UNITYSDK_OFFSET(0x129E5490)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET UNITYSDK_OFFSET(0x129E5470)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_METHOD_4_CBB3E29629343F37_OFFSET UNITYSDK_OFFSET(0x129E47A0)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x129E4B90)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x129E5090)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x129E5240)
-#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x129E5450)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_APOJAEPLEFJ_OFFSET UNITYSDK_OFFSET(0x18824F30)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET UNITYSDK_OFFSET(0x18824D60)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_GHDJIEJFFKG_OFFSET UNITYSDK_OFFSET(0x18825C00)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_KBDIIEDMPHD_OFFSET UNITYSDK_OFFSET(0x18825C30)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_ODLBLHOKABA_OFFSET UNITYSDK_OFFSET(0x188253B0)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_OGPBBOPCBKO_OFFSET UNITYSDK_OFFSET(0x18825C10)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x18825320)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_PDEDKHJDBDD_OFFSET UNITYSDK_OFFSET(0x18825C20)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x18825820)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x188259D0)
+#define MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x18825BE0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int PaniniProjectionBehaviour_TypeDefinitionIndex = 58335;
+	inline static constexpr unsigned int PaniniProjectionBehaviour_TypeDefinitionIndex = 78052;
 
 	class PaniniProjectionBehaviour : public ::MoleMole::Timeline::PostProcessBehaviourBase
 	{
 	public:
-		::MoleMole::Timeline::PaniniProjectionBehaviour_Struct_2_E658502528B7C034_6 _methodParm; // 0x18
+		::MoleMole::Timeline::PaniniProjectionBehaviour_OBCMCANEJEP _methodParm; // 0x18
 		::System::Boolean enabled; // 0x2C
 		::System::Boolean active_distance; // 0x2D
 		::System::Boolean use_distance; // 0x2E
+		::System::Byte _padding0[0x1];
 		::System::Single distance; // 0x30
 		::System::Boolean active_cropToFit; // 0x34
 		::System::Boolean use_cropToFit; // 0x35
+		::System::Byte _padding1[0x2];
 		::System::Single cropToFit; // 0x38
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Rendering::Universal::PaniniProjection* _PaniniProjection; // 0x40
 
 		::System::Void _ctor()
@@ -42,54 +45,54 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void CopyValueFromComp(::System::Object* a1)
+		::System::Void CopyValueFromComp(::System::Object* NEEMKJBIIBC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_COPYVALUEFROMCOMP_OFFSET))(this, NEEMKJBIIBC);
 		}
 
-		::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
+		::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable HKOFGPMIFHB)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET))(this, HKOFGPMIFHB);
 		}
 
-		::System::Void ProcessFrame(::System::Object* a1)
+		::System::Void ProcessFrame(::System::Object* NEEMKJBIIBC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_PROCESSFRAME_OFFSET))(this, NEEMKJBIIBC);
 		}
 
-		::System::Void SetValue(::System::String* a1, ::System::Single a2)
+		::System::Void SetValue(::System::String* KEKLFCCONCL, ::System::Single EEKENHBPKGO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_SETVALUE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_SETVALUE_OFFSET))(this, KEKLFCCONCL, EEKENHBPKGO);
 		}
 
-		::System::Void Method_4_B072873681D4192B(::System::Object* a1)
+		::UnityEngine::Rendering::Universal::PaniniProjection* APOJAEPLEFJ(::System::Object* NEEMKJBIIBC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_METHOD_4_B072873681D4192B_OFFSET))(this, a1);
+			return ((::UnityEngine::Rendering::Universal::PaniniProjection*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_APOJAEPLEFJ_OFFSET))(this, NEEMKJBIIBC);
 		}
 
-		::System::Void Method_4_5FC63A1AC659F0AE()
+		::System::Void GHDJIEJFFKG(::System::Object* MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_METHOD_4_5FC63A1AC659F0AE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_GHDJIEJFFKG_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void Method_4_324AEE341AAA7A1B(::UnityEngine::Playables::Playable a1)
+		::System::Void OGPBBOPCBKO(::System::String* MIALFKCCCPI, ::System::Single KMGKAIDEIBA)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_METHOD_4_324AEE341AAA7A1B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_OGPBBOPCBKO_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 
-		::System::Void Method_4_B072873681D4192B_1(::System::Object* a1)
+		::System::Void PDEDKHJDBDD(::UnityEngine::Playables::Playable MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_METHOD_4_B072873681D4192B_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_PDEDKHJDBDD_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::UnityEngine::Rendering::Universal::PaniniProjection* Method_4_CBB3E29629343F37(::System::Object* a1)
+		::System::Void KBDIIEDMPHD(::System::Object* MIALFKCCCPI)
 		{
-			return ((::UnityEngine::Rendering::Universal::PaniniProjection*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_METHOD_4_CBB3E29629343F37_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_KBDIIEDMPHD_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void Method_4_63F7844DC2D57F6C(::System::String* a1, ::System::Single a2)
+		::System::Void ODLBLHOKABA()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_METHOD_4_63F7844DC2D57F6C_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_PANINIPROJECTIONBEHAVIOUR_ODLBLHOKABA_OFFSET))(this);
 		}
 	};
 }

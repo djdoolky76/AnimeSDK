@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int ThirdpartyMethod_TypeDefinitionIndex = 20604;
+	inline static constexpr unsigned int ThirdpartyMethod_TypeDefinitionIndex = 19762;
 
 	enum class ThirdpartyMethod : ::System::Int32
 	{
@@ -12,5 +12,6 @@ namespace MiHoYo::SDK::PC::OS
 		Google = 1,
 		Facebook = 2,
 		Twitter = 3,
+		Discord = 4,
 	};
 }

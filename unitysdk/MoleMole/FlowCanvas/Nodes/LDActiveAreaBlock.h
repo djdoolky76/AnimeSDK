@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDACTIVEAREABLOCK_INVOKE_OFFSET UNITYSDK_OFFSET(0x19B07740)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDACTIVEAREABLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x19B07A10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDACTIVEAREABLOCK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A8E4750)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDACTIVEAREABLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E4A20)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDActiveAreaBlock_TypeDefinitionIndex = 57452;
+	inline static constexpr unsigned int LDActiveAreaBlock_TypeDefinitionIndex = 48036;
 
-	class LDActiveAreaBlock : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::Int32, ::System::Int32>
+	class LDActiveAreaBlock
 	{
 	public:
 		::System::Void _ctor()

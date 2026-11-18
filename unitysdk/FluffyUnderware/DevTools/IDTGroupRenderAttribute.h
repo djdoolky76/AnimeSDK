@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int IDTGroupRenderAttribute_TypeDefinitionIndex = 28913;
+	inline static constexpr unsigned int IDTGroupRenderAttribute_TypeDefinitionIndex = 28352;
 
 	class IDTGroupRenderAttribute
 	{

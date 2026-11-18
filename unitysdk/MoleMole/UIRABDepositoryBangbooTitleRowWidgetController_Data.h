@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIRABDEPOSITORYBANGBOOTITLEROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17489EA0)
+#define MOLEMOLE_UIRABDEPOSITORYBANGBOOTITLEROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1679BFB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABDepositoryBangbooTitleRowWidgetController_Data_TypeDefinitionIndex = 86116;
+	inline static constexpr unsigned int UIRABDepositoryBangbooTitleRowWidgetController_Data_TypeDefinitionIndex = 90882;
 
 	class UIRABDepositoryBangbooTitleRowWidgetController_Data : public ::MoleMole::RABDepositoryBangbooBaseData
 	{
 	public:
-		::System::String* SubTitle; // 0x28
-		::System::String* Title; // 0x30
+		::System::String* Title; // 0x28
+		::System::String* SubTitle; // 0x30
 		::System::Int32 LeftNum; // 0x38
 		::System::Int32 RightNum; // 0x3C
 

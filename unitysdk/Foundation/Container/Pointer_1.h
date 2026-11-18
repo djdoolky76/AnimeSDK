@@ -4,12 +4,12 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int Pointer_1_TypeDefinitionIndex = 8684;
+	inline static constexpr unsigned int Pointer_1_TypeDefinitionIndex = 8853;
 
 	template <typename T>
-	struct Pointer_1
+	struct alignas(8) Pointer_1
 	{
-		::System::Byte* _buffer; // 0x0
+		::PVOID _buffer; // 0x0
 		::System::Int64 Stride; // 0x0
 	};
 }

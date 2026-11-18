@@ -4,21 +4,21 @@
 #include "unitysdk/MoleMole/HollowChessboard/ScreenDynamicBuildSection.h"
 #include "unitysdk/MoleMole/HollowChessboard/ScreenDynamicBuildSectionHelperType.h"
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_SCREENDYNAMICBUILDSECTIONCONFIG_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x19257BD0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_SCREENDYNAMICBUILDSECTIONCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x19257C20)
-#define MOLEMOLE_HOLLOWCHESSBOARD_SCREENDYNAMICBUILDSECTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19257C10)
-#define MOLEMOLE_HOLLOWCHESSBOARD_SCREENDYNAMICBUILDSECTIONCONFIG___BASE_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x19257C30)
+#define MOLEMOLE_HOLLOWCHESSBOARD_SCREENDYNAMICBUILDSECTIONCONFIG_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x11924D30)
+#define MOLEMOLE_HOLLOWCHESSBOARD_SCREENDYNAMICBUILDSECTIONCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x11924D80)
+#define MOLEMOLE_HOLLOWCHESSBOARD_SCREENDYNAMICBUILDSECTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11924D70)
+#define MOLEMOLE_HOLLOWCHESSBOARD_SCREENDYNAMICBUILDSECTIONCONFIG___BASE_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x11924D90)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ScreenDynamicBuildSectionConfig_TypeDefinitionIndex = 67936;
+	inline static constexpr unsigned int ScreenDynamicBuildSectionConfig_TypeDefinitionIndex = 40332;
 
 	class ScreenDynamicBuildSectionConfig : public ::MoleMole::HollowChessboard::ScreenDynamicBuildSection
 	{
 	public:
 		static ::MoleMole::HollowChessboard::RenderSequenceSectionType* StaticGet_SectionType()
 		{
-			return (::MoleMole::HollowChessboard::RenderSequenceSectionType*)Il2CppClass::FromTypeDefinitionIndex(ScreenDynamicBuildSectionConfig_TypeDefinitionIndex)->GetStaticField(0x125E0);
+			return (::MoleMole::HollowChessboard::RenderSequenceSectionType*)Il2CppClass::FromTypeDefinitionIndex(ScreenDynamicBuildSectionConfig_TypeDefinitionIndex)->GetStaticField(0x13520);
 		}
 		::MoleMole::HollowChessboard::ScreenDynamicBuildSectionHelperType ScreenDynamicBuildSectionHelperType; // 0x18
 

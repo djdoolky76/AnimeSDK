@@ -4,12 +4,12 @@
 
 namespace DigitalOpus::MB::Core { class MB2_TexturePacker_Image; }
 
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_IMAGEWIDTHCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1FB79040)
-#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_IMAGEWIDTHCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB79080)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_IMAGEWIDTHCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1FF79C80)
+#define DIGITALOPUS_MB_CORE_MB2_TEXTUREPACKER_IMAGEWIDTHCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF79CC0)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB2_TexturePacker_ImageWidthComparer_TypeDefinitionIndex = 94614;
+	inline static constexpr unsigned int MB2_TexturePacker_ImageWidthComparer_TypeDefinitionIndex = 96301;
 
 	class MB2_TexturePacker_ImageWidthComparer : public ::System::Object
 	{

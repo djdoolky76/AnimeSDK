@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDRECT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F9AA050)
-#define BEHAVIORDESIGNER_RUNTIME_SHAREDRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9AA120)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDRECT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1FDB0B70)
+#define BEHAVIORDESIGNER_RUNTIME_SHAREDRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDB0C40)
 
 namespace BehaviorDesigner::Runtime
 {
-	inline static constexpr unsigned int SharedRect_TypeDefinitionIndex = 33928;
+	inline static constexpr unsigned int SharedRect_TypeDefinitionIndex = 33474;
 
-	class SharedRect : public ::BehaviorDesigner::Runtime::SharedVariable_1<::UnityEngine::Rect>
+	class SharedRect
 	{
 	public:
 		::System::Void _ctor()

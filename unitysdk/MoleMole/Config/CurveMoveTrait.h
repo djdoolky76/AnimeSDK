@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
 
-class Class_0_16E4307DCC419505_198;
-class Class_1_236FD73ABC492E3F;
-class Class_1_BE29B49AC03370B6;
+class EKHEOJOFLLA;
+class FKNIEPCILLG;
+class OHDHAGLCAEB;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1C468150)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1C468250)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1C4680D0)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C4695C0)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1C468920)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C469C10)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1C468240)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C469620)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1C4689A0)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x1C469CF0)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C469A80)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1C469480)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C46A050)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1C46A060)
-#define MOLEMOLE_CONFIG_CURVEMOVETRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C46A070)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1C6DD8E0)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1C6DD9E0)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1C6DD860)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C6DED60)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1C6DE0C0)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C6DF3B0)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1C6DD9D0)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C6DEDC0)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1C6DE140)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x1C6DF400)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C6DF220)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1C6DEC20)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6DF760)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x1C6DF770)
+#define MOLEMOLE_CONFIG_CURVEMOVETRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C6DF780)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CurveMoveTrait_TypeDefinitionIndex = 85807;
+	inline static constexpr unsigned int CurveMoveTrait_TypeDefinitionIndex = 48719;
 
 	class CurveMoveTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -64,9 +64,9 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void ExposeMember(::Class_0_16E4307DCC419505_198* processor, ::System::String* prefix)
+		::System::Void ExposeMember(::OHDHAGLCAEB* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
@@ -84,24 +84,24 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::CurveMoveTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::CurveMoveTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		static ::MoleMole::Config::CurveMoveTrait* ParseFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::CurveMoveTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+			return ((::MoleMole::Config::CurveMoveTrait*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Boolean GenerateComponent(::Class_1_BE29B49AC03370B6* buildContext)
+		::System::Boolean GenerateComponent(::EKHEOJOFLLA* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
+			return ((::System::Boolean(*)(::PVOID, ::EKHEOJOFLLA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
 		::System::Void OnPostEntityReady(::MoleMole::EntityHandle entity)
@@ -109,14 +109,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT_ONPOSTENTITYREADY_OFFSET))(this, entity);
 		}
 
-		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_198* P0, ::System::String* P1)
+		::System::Void __base_ExposeMember(::OHDHAGLCAEB* P0, ::System::String* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 
-		::System::Boolean __base_GenerateComponent(::Class_1_BE29B49AC03370B6* P0)
+		::System::Boolean __base_GenerateComponent(::EKHEOJOFLLA* P0)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::EKHEOJOFLLA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CURVEMOVETRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

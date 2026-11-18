@@ -1,0 +1,105 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class PGFBGFBDBAH;
+class PGFBGFBDBAH_LIGMMPDPPDA;
+namespace System { class String; }
+namespace UnityEngine { class RenderTexture; }
+namespace UnityEngine::Events { class UnityAction; }
+
+#define PGFBGFBDBAH_KLFCODDMLLG_BOJKHHMMFPO_OFFSET UNITYSDK_OFFSET(0x119797E0)
+#define PGFBGFBDBAH_KLFCODDMLLG_CHEHBICLDHO_OFFSET UNITYSDK_OFFSET(0x11979070)
+#define PGFBGFBDBAH_KLFCODDMLLG_CINCGJNBAOE_OFFSET UNITYSDK_OFFSET(0x11979190)
+#define PGFBGFBDBAH_KLFCODDMLLG_COICANCLFPE_OFFSET UNITYSDK_OFFSET(0x119786A0)
+#define PGFBGFBDBAH_KLFCODDMLLG_GBHMIIGIKME_OFFSET UNITYSDK_OFFSET(0x11979560)
+#define PGFBGFBDBAH_KLFCODDMLLG_GDPOPGCOJPG_OFFSET UNITYSDK_OFFSET(0x119793C0)
+#define PGFBGFBDBAH_KLFCODDMLLG_GMADAEEILDE_OFFSET UNITYSDK_OFFSET(0x11979260)
+#define PGFBGFBDBAH_KLFCODDMLLG_JOOIPIIFMLP_OFFSET UNITYSDK_OFFSET(0x11979360)
+#define PGFBGFBDBAH_KLFCODDMLLG_LDCPGLEAIFL_OFFSET UNITYSDK_OFFSET(0x11978B10)
+#define PGFBGFBDBAH_KLFCODDMLLG_MHMLJLIEKOH_OFFSET UNITYSDK_OFFSET(0x11979DB0)
+#define PGFBGFBDBAH_KLFCODDMLLG_MKDODCGJLML_OFFSET UNITYSDK_OFFSET(0x11979780)
+#define PGFBGFBDBAH_KLFCODDMLLG_PAGDAJCFABP_OFFSET UNITYSDK_OFFSET(0x11979D40)
+#define PGFBGFBDBAH_KLFCODDMLLG_PGCPAOFHDCC_OFFSET UNITYSDK_OFFSET(0x11977D50)
+#define PGFBGFBDBAH_KLFCODDMLLG__CTOR_OFFSET UNITYSDK_OFFSET(0x11977D40)
+
+inline static constexpr unsigned int PGFBGFBDBAH_KLFCODDMLLG_TypeDefinitionIndex = 46107;
+
+class PGFBGFBDBAH_KLFCODDMLLG : public ::System::Object
+{
+public:
+	::UnityEngine::Events::UnityAction* JEKAIFBMLEO; // 0x10
+	::UnityEngine::Events::UnityAction* FLAEADBPGAF; // 0x18
+	::PGFBGFBDBAH_LIGMMPDPPDA* PMGGOIECDHC; // 0x20
+	::PGFBGFBDBAH* KLHPEBKNIFB; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG__CTOR_OFFSET))(this);
+	}
+
+	::System::Void PGCPAOFHDCC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_PGCPAOFHDCC_OFFSET))(this);
+	}
+
+	::System::Single COICANCLFPE()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_COICANCLFPE_OFFSET))(this);
+	}
+
+	::System::Void LDCPGLEAIFL(::System::Single FEKJMJOPFJC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_LDCPGLEAIFL_OFFSET))(this, FEKJMJOPFJC);
+	}
+
+	::System::Boolean CHEHBICLDHO()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_CHEHBICLDHO_OFFSET))(this);
+	}
+
+	::System::Void CINCGJNBAOE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_CINCGJNBAOE_OFFSET))(this);
+	}
+
+	::System::Boolean GMADAEEILDE()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_GMADAEEILDE_OFFSET))(this);
+	}
+
+	::UnityEngine::RenderTexture* JOOIPIIFMLP()
+	{
+		return ((::UnityEngine::RenderTexture*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_JOOIPIIFMLP_OFFSET))(this);
+	}
+
+	::System::String* GDPOPGCOJPG()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_GDPOPGCOJPG_OFFSET))(this);
+	}
+
+	::System::Single GBHMIIGIKME()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_GBHMIIGIKME_OFFSET))(this);
+	}
+
+	::UnityEngine::Events::UnityAction* MKDODCGJLML()
+	{
+		return ((::UnityEngine::Events::UnityAction*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_MKDODCGJLML_OFFSET))(this);
+	}
+
+	::System::String* BOJKHHMMFPO()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_BOJKHHMMFPO_OFFSET))(this);
+	}
+
+	::UnityEngine::Events::UnityAction* PAGDAJCFABP()
+	{
+		return ((::UnityEngine::Events::UnityAction*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_PAGDAJCFABP_OFFSET))(this);
+	}
+
+	::UnityEngine::Events::UnityAction* MHMLJLIEKOH()
+	{
+		return ((::UnityEngine::Events::UnityAction*(*)(::PVOID))((::PBYTE)hIl2Cpp + PGFBGFBDBAH_KLFCODDMLLG_MHMLJLIEKOH_OFFSET))(this);
+	}
+};

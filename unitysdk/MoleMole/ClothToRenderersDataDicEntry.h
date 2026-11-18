@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/DataStructures/Lists/EasySerializeDictionaryEntry_2.h"
 
-namespace MoleMole { class ClothRenderers; }
-namespace MoleMole { class ClothWrapper; }
-
-#define MOLEMOLE_CLOTHTORENDERERSDATADICENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x16C2A010)
+#define MOLEMOLE_CLOTHTORENDERERSDATADICENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x18B82C70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ClothToRenderersDataDicEntry_TypeDefinitionIndex = 65797;
+	inline static constexpr unsigned int ClothToRenderersDataDicEntry_TypeDefinitionIndex = 82473;
 
-	class ClothToRenderersDataDicEntry : public ::MoleMole::DataStructures::Lists::EasySerializeDictionaryEntry_2<::MoleMole::ClothWrapper*, ::MoleMole::ClothRenderers*>
+	class ClothToRenderersDataDicEntry
 	{
 	public:
 		::System::Void _ctor()

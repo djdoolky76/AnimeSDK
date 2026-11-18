@@ -4,20 +4,20 @@
 
 namespace UnityEngine::UI { class LayoutRebuilder_DelayScope; }
 
-#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F582640)
-#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F582680)
-#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1F582690)
+#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F963870)
+#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9638B0)
+#define UNITYENGINE_UI_LAYOUTREBUILDER_DELAYSCOPE___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1F9638C0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int LayoutRebuilder_DelayScope___c_TypeDefinitionIndex = 19259;
+	inline static constexpr unsigned int LayoutRebuilder_DelayScope___c_TypeDefinitionIndex = 18413;
 
 	class LayoutRebuilder_DelayScope___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UI::LayoutRebuilder_DelayScope___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::UnityEngine::UI::LayoutRebuilder_DelayScope___c**)Il2CppClass::FromTypeDefinitionIndex(LayoutRebuilder_DelayScope___c_TypeDefinitionIndex)->GetStaticField(0x8800);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(LayoutRebuilder_DelayScope___c_TypeDefinitionIndex)->GetStaticField(0x87F0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,11 +5,11 @@
 namespace NPCCrowd::Accessories { class NPCAccessoryAvatarAssetsSO; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSPACKEDSO__CTOR_OFFSET UNITYSDK_OFFSET(0xD88ACB0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSPACKEDSO__CTOR_OFFSET UNITYSDK_OFFSET(0xED60820)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAvatarAssetsPackedSO_TypeDefinitionIndex = 87651;
+	inline static constexpr unsigned int NPCAccessoryAvatarAssetsPackedSO_TypeDefinitionIndex = 57030;
 
 	class NPCAccessoryAvatarAssetsPackedSO : public ::UnityEngine::ScriptableObject
 	{

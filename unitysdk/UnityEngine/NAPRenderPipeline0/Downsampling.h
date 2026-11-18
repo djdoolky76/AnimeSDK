@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int Downsampling_TypeDefinitionIndex = 5888;
+	inline static constexpr unsigned int Downsampling_TypeDefinitionIndex = 5894;
 
 	enum class Downsampling : ::System::Int32
 	{

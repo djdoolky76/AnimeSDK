@@ -4,12 +4,12 @@
 #include "unitysdk/MoleMole/ConfigUICommon_Input_PositionType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_USERLOCALDATAITEM_OVERRIDEMOBILEBUTTONPOSITION_METHOD_1_10B2E41DFBEA7152_OFFSET UNITYSDK_OFFSET(0x14105010)
-#define MOLEMOLE_USERLOCALDATAITEM_OVERRIDEMOBILEBUTTONPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x14105000)
+#define MOLEMOLE_USERLOCALDATAITEM_OVERRIDEMOBILEBUTTONPOSITION_DGNAAPGKIPL_OFFSET UNITYSDK_OFFSET(0x120A60A0)
+#define MOLEMOLE_USERLOCALDATAITEM_OVERRIDEMOBILEBUTTONPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x120A6090)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UserLocalDataItem_OverrideMobileButtonPosition_TypeDefinitionIndex = 70353;
+	inline static constexpr unsigned int UserLocalDataItem_OverrideMobileButtonPosition_TypeDefinitionIndex = 89805;
 
 	class UserLocalDataItem_OverrideMobileButtonPosition : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_USERLOCALDATAITEM_OVERRIDEMOBILEBUTTONPOSITION__CTOR_OFFSET))(this);
 		}
 
-		::MoleMole::UserLocalDataItem_OverrideMobileButtonPosition* Method_1_10B2E41DFBEA7152()
+		::MoleMole::UserLocalDataItem_OverrideMobileButtonPosition* DGNAAPGKIPL()
 		{
-			return ((::MoleMole::UserLocalDataItem_OverrideMobileButtonPosition*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_USERLOCALDATAITEM_OVERRIDEMOBILEBUTTONPOSITION_METHOD_1_10B2E41DFBEA7152_OFFSET))(this);
+			return ((::MoleMole::UserLocalDataItem_OverrideMobileButtonPosition*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_USERLOCALDATAITEM_OVERRIDEMOBILEBUTTONPOSITION_DGNAAPGKIPL_OFFSET))(this);
 		}
 	};
 }

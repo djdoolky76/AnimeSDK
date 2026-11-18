@@ -6,12 +6,12 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Xml { class XmlAttribute; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F10BDA0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F10BD20)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F4CD7B0)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4CD730)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlAttributeEventArgs_TypeDefinitionIndex = 1854;
+	inline static constexpr unsigned int XmlAttributeEventArgs_TypeDefinitionIndex = 1853;
 
 	class XmlAttributeEventArgs : public ::System::EventArgs
 	{
@@ -19,8 +19,8 @@ namespace System::Xml::Serialization
 		::System::Object* o; // 0x10
 		::System::Xml::XmlAttribute* attr; // 0x18
 		::System::String* qnames; // 0x20
-		::System::Int32 lineNumber; // 0x28
-		::System::Int32 linePosition; // 0x2C
+		::System::Int32 linePosition; // 0x28
+		::System::Int32 lineNumber; // 0x2C
 
 		::System::Void _ctor(::System::Xml::XmlAttribute* attr, ::System::Int32 lineNumber, ::System::Int32 linePosition, ::System::Object* o, ::System::String* qnames)
 		{

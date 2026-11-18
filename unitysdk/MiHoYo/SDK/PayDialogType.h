@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PayDialogType_TypeDefinitionIndex = 20212;
+	inline static constexpr unsigned int PayDialogType_TypeDefinitionIndex = 19358;
 
 	enum class PayDialogType : ::System::Int32
 	{

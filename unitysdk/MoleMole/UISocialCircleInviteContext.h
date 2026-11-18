@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_BE6BF7909AD9D940;
+class FBHPDPBIGPK;
 
-#define MOLEMOLE_UISOCIALCIRCLEINVITECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13011270)
+#define MOLEMOLE_UISOCIALCIRCLEINVITECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15D63F70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleInviteContext_TypeDefinitionIndex = 54902;
+	inline static constexpr unsigned int UISocialCircleInviteContext_TypeDefinitionIndex = 65201;
 
 	class UISocialCircleInviteContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_BE6BF7909AD9D940* Info; // 0x28
+		::FBHPDPBIGPK* Info; // 0x28
 
 		::System::Void _ctor()
 		{

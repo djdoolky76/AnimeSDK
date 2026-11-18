@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_C4E182242E3E9AF6.h"
-#include "unitysdk/MoleMole/DataStructures/Common/Optional_1.h"
+#include "unitysdk/PCNOJLGFMPO.h"
 
-#define MOLEMOLE_CONFIG_ZIPLINE_OPTIONALMOVEDIRECTIONTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F60D0)
+#define MOLEMOLE_CONFIG_ZIPLINE_OPTIONALMOVEDIRECTIONTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1279FE10)
 
 namespace MoleMole::Config::ZipLine
 {
-	inline static constexpr unsigned int OptionalMoveDirectionType_TypeDefinitionIndex = 64948;
+	inline static constexpr unsigned int OptionalMoveDirectionType_TypeDefinitionIndex = 71026;
 
-	class OptionalMoveDirectionType : public ::MoleMole::DataStructures::Common::Optional_1<::Enum_3_C4E182242E3E9AF6>
+	class OptionalMoveDirectionType
 	{
 	public:
-		::System::Void _ctor(::Enum_3_C4E182242E3E9AF6 a1)
+		::System::Void _ctor(::PCNOJLGFMPO EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_C4E182242E3E9AF6))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ZIPLINE_OPTIONALMOVEDIRECTIONTYPE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PCNOJLGFMPO))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ZIPLINE_OPTIONALMOVEDIRECTIONTYPE__CTOR_OFFSET))(this, EGEGIMGMJHN);
 		}
 	};
 }

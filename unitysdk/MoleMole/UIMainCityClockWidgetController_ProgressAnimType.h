@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityClockWidgetController_ProgressAnimType_TypeDefinitionIndex = 85922;
+	inline static constexpr unsigned int UIMainCityClockWidgetController_ProgressAnimType_TypeDefinitionIndex = 50225;
 
 	enum class UIMainCityClockWidgetController_ProgressAnimType : ::System::Int32
 	{
-		CrossDayReverse = 3,
-		CrossDayFadeOut = 4,
 		CrossDay = 2,
+		CrossDayFadeOut = 4,
 		None = 0,
+		CrossDayReverse = 3,
 		Advance = 1,
 	};
 }

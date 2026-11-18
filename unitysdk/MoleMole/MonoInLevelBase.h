@@ -10,22 +10,22 @@ namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_MONOINLEVELBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x14A0FFD0)
-#define MOLEMOLE_MONOINLEVELBASE_LOADSPRITEASYNC_OFFSET UNITYSDK_OFFSET(0x14A10900)
-#define MOLEMOLE_MONOINLEVELBASE_LOADSPRITE_OFFSET UNITYSDK_OFFSET(0x14A105E0)
-#define MOLEMOLE_MONOINLEVELBASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14A10070)
-#define MOLEMOLE_MONOINLEVELBASE_SETUPIMAGESPRITE_1_OFFSET UNITYSDK_OFFSET(0x14A10850)
-#define MOLEMOLE_MONOINLEVELBASE_SETUPIMAGESPRITE_OFFSET UNITYSDK_OFFSET(0x14A10260)
-#define MOLEMOLE_MONOINLEVELBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x14A10A00)
+#define MOLEMOLE_MONOINLEVELBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x13106D50)
+#define MOLEMOLE_MONOINLEVELBASE_LOADSPRITEASYNC_OFFSET UNITYSDK_OFFSET(0x13107680)
+#define MOLEMOLE_MONOINLEVELBASE_LOADSPRITE_OFFSET UNITYSDK_OFFSET(0x13107360)
+#define MOLEMOLE_MONOINLEVELBASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x13106DF0)
+#define MOLEMOLE_MONOINLEVELBASE_SETUPIMAGESPRITE_1_OFFSET UNITYSDK_OFFSET(0x131075D0)
+#define MOLEMOLE_MONOINLEVELBASE_SETUPIMAGESPRITE_OFFSET UNITYSDK_OFFSET(0x13106FE0)
+#define MOLEMOLE_MONOINLEVELBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x13107780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoInLevelBase_TypeDefinitionIndex = 52856;
+	inline static constexpr unsigned int MonoInLevelBase_TypeDefinitionIndex = 84513;
 
 	class MonoInLevelBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>* Field_5_0; // 0x18
+		::System::Collections::Generic::List_1<::Foundation::AssetRequestHandle>* DDEMKFDHFBO; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -42,24 +42,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOINLEVELBASE_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void SetupImageSprite(::UnityEngine::Transform* a1, ::System::String* a2)
+		::System::Void SetupImageSprite(::UnityEngine::Transform* LNEEMAGIHLB, ::System::String* FNJPKKAHJAJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOINLEVELBASE_SETUPIMAGESPRITE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOINLEVELBASE_SETUPIMAGESPRITE_OFFSET))(this, LNEEMAGIHLB, FNJPKKAHJAJ);
 		}
 
-		::System::Void SetupImageSprite_1(::UnityEngine::UI::Image* a1, ::System::String* a2)
+		::System::Void SetupImageSprite_1(::UnityEngine::UI::Image* CGJEBPGPIHO, ::System::String* FNJPKKAHJAJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOINLEVELBASE_SETUPIMAGESPRITE_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOINLEVELBASE_SETUPIMAGESPRITE_1_OFFSET))(this, CGJEBPGPIHO, FNJPKKAHJAJ);
 		}
 
-		::UnityEngine::Sprite* LoadSprite(::System::String* a1)
+		::UnityEngine::Sprite* LoadSprite(::System::String* CJBJONJDOLI)
 		{
-			return ((::UnityEngine::Sprite*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOINLEVELBASE_LOADSPRITE_OFFSET))(this, a1);
+			return ((::UnityEngine::Sprite*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOINLEVELBASE_LOADSPRITE_OFFSET))(this, CJBJONJDOLI);
 		}
 
-		::System::Void LoadSpriteAsync(::System::String* a1, ::System::Action_1<::UnityEngine::Sprite*>* a2)
+		::System::Void LoadSpriteAsync(::System::String* CJBJONJDOLI, ::System::Action_1<::UnityEngine::Sprite*>* NKIFJCDNCFI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOINLEVELBASE_LOADSPRITEASYNC_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOINLEVELBASE_LOADSPRITEASYNC_OFFSET))(this, CJBJONJDOLI, NKIFJCDNCFI);
 		}
 	};
 }

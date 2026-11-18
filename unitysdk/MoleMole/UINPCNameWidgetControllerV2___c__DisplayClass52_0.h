@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_2CD6915EC12D64B9;
+class ILKICKDDECB;
 namespace MoleMole { class UINPCNameWidgetControllerV2; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UINPCNAMEWIDGETCONTROLLERV2___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184F7AF0)
-#define MOLEMOLE_UINPCNAMEWIDGETCONTROLLERV2___C__DISPLAYCLASS52_0__PLAYDIFFTRACKICONANIM_B__0_OFFSET UNITYSDK_OFFSET(0x184F7BD0)
-#define MOLEMOLE_UINPCNAMEWIDGETCONTROLLERV2___C__DISPLAYCLASS52_0__PLAYDIFFTRACKICONANIM_B__1_OFFSET UNITYSDK_OFFSET(0x184F7B00)
+#define MOLEMOLE_UINPCNAMEWIDGETCONTROLLERV2___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB2300)
+#define MOLEMOLE_UINPCNAMEWIDGETCONTROLLERV2___C__DISPLAYCLASS52_0__PLAYDIFFTRACKICONANIM_B__0_OFFSET UNITYSDK_OFFSET(0x18EB23E0)
+#define MOLEMOLE_UINPCNAMEWIDGETCONTROLLERV2___C__DISPLAYCLASS52_0__PLAYDIFFTRACKICONANIM_B__1_OFFSET UNITYSDK_OFFSET(0x18EB2310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINPCNameWidgetControllerV2___c__DisplayClass52_0_TypeDefinitionIndex = 71004;
+	inline static constexpr unsigned int UINPCNameWidgetControllerV2___c__DisplayClass52_0_TypeDefinitionIndex = 40239;
 
 	class UINPCNameWidgetControllerV2___c__DisplayClass52_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UINPCNameWidgetControllerV2* __4__this; // 0x10
-		::UnityEngine::GameObject* trackIconObject; // 0x18
-		::Class_1_2CD6915EC12D64B9* trackIconAnim; // 0x20
+		::UnityEngine::GameObject* trackIconObject; // 0x10
+		::MoleMole::UINPCNameWidgetControllerV2* __4__this; // 0x18
+		::ILKICKDDECB* trackIconAnim; // 0x20
 
 		::System::Void _ctor()
 		{

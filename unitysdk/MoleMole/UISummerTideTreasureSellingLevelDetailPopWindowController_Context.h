@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UISUMMERTIDETREASURESELLINGLEVELDETAILPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x160F3250)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGLEVELDETAILPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x167DC570)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerTideTreasureSellingLevelDetailPopWindowController_Context_TypeDefinitionIndex = 60758;
+	inline static constexpr unsigned int UISummerTideTreasureSellingLevelDetailPopWindowController_Context_TypeDefinitionIndex = 58579;
 
 	class UISummerTideTreasureSellingLevelDetailPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

@@ -5,20 +5,20 @@
 namespace MoleMole { class UIFlowerShopPrep_EmptyPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIFLOWERSHOPPREP_EMPTYPAGECONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18057F60)
-#define MOLEMOLE_UIFLOWERSHOPPREP_EMPTYPAGECONTROLLER___C__DISPLAYCLASS11_0__OPENMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x18057F70)
-#define MOLEMOLE_UIFLOWERSHOPPREP_EMPTYPAGECONTROLLER___C__DISPLAYCLASS11_0__OPENMAINPAGE_B__1_OFFSET UNITYSDK_OFFSET(0x18058120)
+#define MOLEMOLE_UIFLOWERSHOPPREP_EMPTYPAGECONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1999B870)
+#define MOLEMOLE_UIFLOWERSHOPPREP_EMPTYPAGECONTROLLER___C__DISPLAYCLASS11_0__OPENMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1999B880)
+#define MOLEMOLE_UIFLOWERSHOPPREP_EMPTYPAGECONTROLLER___C__DISPLAYCLASS11_0__OPENMAINPAGE_B__1_OFFSET UNITYSDK_OFFSET(0x1999BA30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerShopPrep_EmptyPageController___c__DisplayClass11_0_TypeDefinitionIndex = 56633;
+	inline static constexpr unsigned int UIFlowerShopPrep_EmptyPageController___c__DisplayClass11_0_TypeDefinitionIndex = 54932;
 
 	class UIFlowerShopPrep_EmptyPageController___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::System::Action* pageCloseAction; // 0x10
-		::System::Action* __9__1; // 0x18
-		::MoleMole::UIFlowerShopPrep_EmptyPageController* __4__this; // 0x20
+		::System::Action* __9__1; // 0x10
+		::MoleMole::UIFlowerShopPrep_EmptyPageController* __4__this; // 0x18
+		::System::Action* pageCloseAction; // 0x20
 
 		::System::Void _ctor()
 		{

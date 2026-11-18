@@ -2,14 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/AbstractCustomEvent.h"
 
-namespace Foundation { template <typename T> class CustomEventAction_1; }
-namespace System { template <typename T> class Action_1; }
-
 namespace Foundation
 {
-	inline static constexpr unsigned int CustomEventAction_1_TypeDefinitionIndex = 7848;
+	inline static constexpr unsigned int CustomEventAction_1_TypeDefinitionIndex = 8189;
 
-	template <typename TKey1>
+	template <typename T>
 	class CustomEventAction_1 : public ::Foundation::AbstractCustomEvent
 	{
 	public:

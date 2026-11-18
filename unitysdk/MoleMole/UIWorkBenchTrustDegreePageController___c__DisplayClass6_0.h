@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_2_6D99A03C58ED2B6E_5;
+class FKLMEMBPANH;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWorkBenchTrustDegreePageController___c__DisplayClass6_0_TypeDefinitionIndex = 58034;
+	inline static constexpr unsigned int UIWorkBenchTrustDegreePageController___c__DisplayClass6_0_TypeDefinitionIndex = 42268;
 
 	struct alignas(8) UIWorkBenchTrustDegreePageController___c__DisplayClass6_0
 	{
-		::Class_2_6D99A03C58ED2B6E_5* campTemplate; // 0x10
+		::FKLMEMBPANH* campTemplate; // 0x10
 	};
 }

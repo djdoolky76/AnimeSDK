@@ -6,13 +6,14 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int CellDiffusionConfigParas_TypeDefinitionIndex = 62365;
+	inline static constexpr unsigned int CellDiffusionConfigParas_TypeDefinitionIndex = 74396;
 
 	struct alignas(8) CellDiffusionConfigParas
 	{
 		::System::Single BlendRatio; // 0x10
 		::System::Single noiseRange; // 0x14
 		::System::Single RemapDurationInTotalPercent; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* RemapFunc; // 0x20
 		::UnityEngine::AnimationCurve* SearchRatioPercentCurve; // 0x28
 	};

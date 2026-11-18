@@ -4,14 +4,14 @@
 #include "unitysdk/NPCCrowd/Animation/NPCUnionAnimatorManager_NPCAnimationStateParams.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_AIACTIONTESTCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x608490)
-#define NPCCROWD_AI_AIACTIONTESTCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x6084E0)
+#define NPCCROWD_AI_AIACTIONTESTCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x793900)
+#define NPCCROWD_AI_AIACTIONTESTCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x793950)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionTestConfig_TypeDefinitionIndex = 41536;
+	inline static constexpr unsigned int AIActionTestConfig_TypeDefinitionIndex = 84961;
 
-	struct alignas(8) AIActionTestConfig
+	struct alignas(4) AIActionTestConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 		::NPCCrowd::Animation::NPCUnionAnimatorManager_NPCAnimationStateParams key; // 0x18

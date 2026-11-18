@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScreenSpaceShadowResolvePass___c__DisplayClass19_0.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ShadowQuality.h"
-#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
+#include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScreenSpaceShadowResolvePass___c__DisplayClass19_0.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
@@ -17,42 +17,44 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA13740)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EA16210)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_GETFRUSTUMCUBE_OFFSET UNITYSDK_OFFSET(0x1EA12B10)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_ISHALFRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1EA13680)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_SETLOCALRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1EA13330)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1EA162B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA162C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA12990)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS__EXECUTE_G__SETTEXTURETRANSITIONFORRESOLVESHADOWS_19_0_OFFSET UNITYSDK_OFFSET(0x1EA16020)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EC93F30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EC96A00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_GETFRUSTUMCUBE_OFFSET UNITYSDK_OFFSET(0x1EC93300)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_ISHALFRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1EC93E70)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_SETLOCALRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x1EC93B20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_SETUP_OFFSET UNITYSDK_OFFSET(0x1EC96AA0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC96AB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC93180)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS__EXECUTE_G__SETTEXTURETRANSITIONFORRESOLVESHADOWS_19_0_OFFSET UNITYSDK_OFFSET(0x1EC96810)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ScreenSpaceShadowResolvePass_TypeDefinitionIndex = 5841;
+	inline static constexpr unsigned int ScreenSpaceShadowResolvePass_TypeDefinitionIndex = 5847;
 
 	class ScreenSpaceShadowResolvePass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::System::String** StaticGet_Keyword__HALFRES_SHADOW()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ScreenSpaceShadowResolvePass_TypeDefinitionIndex)->GetStaticField(0x5720);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ScreenSpaceShadowResolvePass_TypeDefinitionIndex)->GetStaticField(0x5620);
 		}
 		static ::UnityEngine::Mesh** StaticGet_frustumCube()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(ScreenSpaceShadowResolvePass_TypeDefinitionIndex)->GetStaticField(0x5728);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(ScreenSpaceShadowResolvePass_TypeDefinitionIndex)->GetStaticField(0x5628);
 		}
 		::System::Int32 m_ShadowMask_Id; // 0xA8
 		::System::Int32 m_ShadowMaskTemp_Id; // 0xAC
 		::System::Int32 _ShadowBlurRadiusAndInvSampleCount; // 0xB0
 		::System::Int32 _ShadowSampleCount; // 0xB4
 		::System::Int32 _TintShadowBlurRadius; // 0xB8
+		::System::Byte _padding0[0x4];
 		::UnityEngine::NAPRenderPipeline0::ProfilingSampler* m_ProfilingSampler; // 0xC0
 		::UnityEngine::RenderTextureDescriptor m_ShadowMaskRTDescriptor; // 0xC8
 		::UnityEngine::Rendering::RenderTargetIdentifier m_TargetIdentifier; // 0x100
 		::System::Int32 m_TargetWidth; // 0x128
 		::System::Int32 m_TargetHeight; // 0x12C
 		::System::Boolean m_RequirePerObjectShadowPass; // 0x130
+		::System::Byte _padding1[0x7];
 		::UnityEngine::MaterialPropertyBlock* m_MaterialPropertyBlock; // 0x138
 
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent evt, ::UnityEngine::ComputeShader* blurCS)
@@ -95,9 +97,9 @@ namespace UnityEngine::NAPRenderPipeline0
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_SETUP_OFFSET))(this, requirePerObjectShadowPass);
 		}
 
-		static ::System::Void _Execute_g__SetTextureTransitionForResolveShadows_19_0(::UnityEngine::NAPRenderPipeline0::ScreenSpaceShadowResolvePass___c__DisplayClass19_0& a1)
+		static ::System::Void _Execute_g__SetTextureTransitionForResolveShadows_19_0(::UnityEngine::NAPRenderPipeline0::ScreenSpaceShadowResolvePass___c__DisplayClass19_0& param_0)
 		{
-			return ((::System::Void(*)(::UnityEngine::NAPRenderPipeline0::ScreenSpaceShadowResolvePass___c__DisplayClass19_0&))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS__EXECUTE_G__SETTEXTURETRANSITIONFORRESOLVESHADOWS_19_0_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::NAPRenderPipeline0::ScreenSpaceShadowResolvePass___c__DisplayClass19_0&))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS__EXECUTE_G__SETTEXTURETRANSITIONFORRESOLVESHADOWS_19_0_OFFSET))(param_0);
 		}
 	};
 }

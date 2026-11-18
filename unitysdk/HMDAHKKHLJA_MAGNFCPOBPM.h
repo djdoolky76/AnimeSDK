@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class HMDAHKKHLJA;
+class HMDAHKKHLJA_IDEEKPMHKIC;
+
+#define HMDAHKKHLJA_MAGNFCPOBPM_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x17A5E350)
+#define HMDAHKKHLJA_MAGNFCPOBPM_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x17A5E750)
+#define HMDAHKKHLJA_MAGNFCPOBPM_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x17A5E7B0)
+#define HMDAHKKHLJA_MAGNFCPOBPM_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x17A5E760)
+#define HMDAHKKHLJA_MAGNFCPOBPM_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17A5E340)
+#define HMDAHKKHLJA_MAGNFCPOBPM__CTOR_OFFSET UNITYSDK_OFFSET(0x17A5E330)
+
+inline static constexpr unsigned int HMDAHKKHLJA_MAGNFCPOBPM_TypeDefinitionIndex = 85928;
+
+class HMDAHKKHLJA_MAGNFCPOBPM : public ::System::Object
+{
+public:
+	::System::Object* IDBEJJEKGDI; // 0x10
+	::HMDAHKKHLJA* KLHPEBKNIFB; // 0x18
+	::HMDAHKKHLJA_IDEEKPMHKIC* PGDOJBDJBOL; // 0x20
+	::System::Int32 MDPILDGFNHN; // 0x28
+
+	::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HMDAHKKHLJA_MAGNFCPOBPM__CTOR_OFFSET))(this, MDPILDGFNHN);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HMDAHKKHLJA_MAGNFCPOBPM_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HMDAHKKHLJA_MAGNFCPOBPM_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + HMDAHKKHLJA_MAGNFCPOBPM_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HMDAHKKHLJA_MAGNFCPOBPM_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + HMDAHKKHLJA_MAGNFCPOBPM_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

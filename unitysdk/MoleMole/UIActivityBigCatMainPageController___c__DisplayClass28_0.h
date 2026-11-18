@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_AE02BC8285203464_18;
+class AOJKLCGGPAK;
 namespace MoleMole { class UIActivityBigCatMainPageController; }
 
-#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173CC470)
-#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__DISPLAYCLASS28_0__REFRESHFINALREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x173CC480)
+#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13F35C30)
+#define MOLEMOLE_UIACTIVITYBIGCATMAINPAGECONTROLLER___C__DISPLAYCLASS28_0__REFRESHFINALREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x13F35C40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBigCatMainPageController___c__DisplayClass28_0_TypeDefinitionIndex = 82385;
+	inline static constexpr unsigned int UIActivityBigCatMainPageController___c__DisplayClass28_0_TypeDefinitionIndex = 67320;
 
 	class UIActivityBigCatMainPageController___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIActivityBigCatMainPageController* __4__this; // 0x10
-		::Class_3_AE02BC8285203464_18* task; // 0x18
+		::AOJKLCGGPAK* task; // 0x10
+		::MoleMole::UIActivityBigCatMainPageController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

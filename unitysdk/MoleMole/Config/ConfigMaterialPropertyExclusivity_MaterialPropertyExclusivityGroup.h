@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYEXCLUSIVITY_MATERIALPROPERTYEXCLUSIVITYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1486A180)
+#define MOLEMOLE_CONFIG_CONFIGMATERIALPROPERTYEXCLUSIVITY_MATERIALPROPERTYEXCLUSIVITYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x11E99460)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMaterialPropertyExclusivity_MaterialPropertyExclusivityGroup_TypeDefinitionIndex = 46926;
+	inline static constexpr unsigned int ConfigMaterialPropertyExclusivity_MaterialPropertyExclusivityGroup_TypeDefinitionIndex = 88529;
 
 	class ConfigMaterialPropertyExclusivity_MaterialPropertyExclusivityGroup : public ::System::Object
 	{

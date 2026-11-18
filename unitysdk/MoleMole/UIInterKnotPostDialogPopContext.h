@@ -3,26 +3,27 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIInterKnotPostDialogPopContext_EOpenMode.h"
 
-class Class_3_854C71C0BEC81CDA;
-class Class_3_E342D954CB576697;
+class GLAHOCGCKCF;
+class PHECEIPKGFA;
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17AC92F0)
+#define MOLEMOLE_UIINTERKNOTPOSTDIALOGPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x175F7E50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPostDialogPopContext_TypeDefinitionIndex = 67855;
+	inline static constexpr unsigned int UIInterKnotPostDialogPopContext_TypeDefinitionIndex = 60625;
 
 	class UIInterKnotPostDialogPopContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_3_854C71C0BEC81CDA* FansChangeInfo; // 0x28
+		::System::Action* OnHide; // 0x28
 		::System::String* from; // 0x30
-		::Class_3_E342D954CB576697* PostData; // 0x38
-		::System::Action* OnHide; // 0x40
-		::MoleMole::UIInterKnotPostDialogPopContext_EOpenMode OpenMode; // 0x48
-		::System::Boolean ClientPost; // 0x4C
+		::PHECEIPKGFA* PostData; // 0x38
+		::GLAHOCGCKCF* FansChangeInfo; // 0x40
+		::System::Boolean ClientPost; // 0x48
+		::System::Byte _padding0[0x3];
+		::MoleMole::UIInterKnotPostDialogPopContext_EOpenMode OpenMode; // 0x4C
 
 		::System::Void _ctor()
 		{

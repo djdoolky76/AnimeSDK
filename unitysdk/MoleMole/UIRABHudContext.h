@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/BFJIMHBAHBI.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
-#include "unitysdk/Struct_2_2CC23FE9C9AEC1B7.h"
 
-class Class_2_742C838C9195275D;
+class JJOKKBDDGNN;
 namespace UnityEngine { class Canvas; }
 
-#define MOLEMOLE_UIRABHUDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12FF1A30)
+#define MOLEMOLE_UIRABHUDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15D3CAF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABHudContext_TypeDefinitionIndex = 48519;
+	inline static constexpr unsigned int UIRABHudContext_TypeDefinitionIndex = 58724;
 
 	class UIRABHudContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Struct_2_2CC23FE9C9AEC1B7 hudData; // 0x28
-		::Class_2_742C838C9195275D* slot; // 0x48
+		::BFJIMHBAHBI hudData; // 0x28
+		::JJOKKBDDGNN* slot; // 0x48
 		::UnityEngine::Canvas* root; // 0x50
 
 		::System::Void _ctor()

@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER_ADDHOLLOWPOPWINDOWEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19618840)
+#define MOLEMOLE_UIHOLLOWMAINPAGECONTROLLER_ADDHOLLOWPOPWINDOWEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18F2B460)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowMainPageController_AddHollowPopWindowEvent_TypeDefinitionIndex = 73659;
+	inline static constexpr unsigned int UIHollowMainPageController_AddHollowPopWindowEvent_TypeDefinitionIndex = 84599;
 
 	class UIHollowMainPageController_AddHollowPopWindowEvent : public ::System::Object
 	{
 	public:
-		::System::Int32 PopId; // 0x10
-		::System::Boolean OnShowExitBtnNew; // 0x14
+		::System::Boolean OnShowExitBtnNew; // 0x10
+		::System::Byte _padding0[0x3];
+		::System::Int32 PopId; // 0x14
 
 		::System::Void _ctor()
 		{

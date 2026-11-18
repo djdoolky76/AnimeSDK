@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooPageController_InputPeriod_TypeDefinitionIndex = 91538;
+	inline static constexpr unsigned int UIRidusGotBooPageController_InputPeriod_TypeDefinitionIndex = 45850;
 
 	enum class UIRidusGotBooPageController_InputPeriod : ::System::Int32
 	{
+		Normal = 1,
 		None = 0,
 		Fever = 2,
-		Normal = 1,
 	};
 }

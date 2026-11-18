@@ -6,13 +6,13 @@ namespace BehaviorDesigner::Runtime { class PrecompiledTypeDeserializer; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_BEHAVIORTREEDESERIALIZATION_PRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZATION_METHOD_1_9E86D16B476C4CAF_OFFSET UNITYSDK_OFFSET(0x1CBC77D0)
-#define MOLEMOLE_BEHAVIORTREEDESERIALIZATION_PRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZATION_METHOD_1_A33108F24FD72EA4_OFFSET UNITYSDK_OFFSET(0x1CBC77F0)
-#define MOLEMOLE_BEHAVIORTREEDESERIALIZATION_PRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZATION_SETPRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZER_OFFSET UNITYSDK_OFFSET(0x1CBC7770)
+#define MOLEMOLE_BEHAVIORTREEDESERIALIZATION_PRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZATION_EDBBFFMAAAP_OFFSET UNITYSDK_OFFSET(0x1E029DB0)
+#define MOLEMOLE_BEHAVIORTREEDESERIALIZATION_PRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZATION_JMDEKPONKMF_OFFSET UNITYSDK_OFFSET(0x1E045B90)
+#define MOLEMOLE_BEHAVIORTREEDESERIALIZATION_PRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZATION_SETPRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZER_OFFSET UNITYSDK_OFFSET(0x1E029D50)
 
 namespace MoleMole::BehaviorTreeDeserialization
 {
-	inline static constexpr unsigned int PrecompiledTypeDeserializationDatabaseInitialization_TypeDefinitionIndex = 93822;
+	inline static constexpr unsigned int PrecompiledTypeDeserializationDatabaseInitialization_TypeDefinitionIndex = 95582;
 
 	class PrecompiledTypeDeserializationDatabaseInitialization : public ::System::Object
 	{
@@ -22,14 +22,14 @@ namespace MoleMole::BehaviorTreeDeserialization
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BEHAVIORTREEDESERIALIZATION_PRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZATION_SETPRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZER_OFFSET))();
 		}
 
-		static ::System::Void Method_1_9E86D16B476C4CAF(::System::Collections::Generic::Dictionary_2<::System::String*, ::BehaviorDesigner::Runtime::PrecompiledTypeDeserializer*>*& a1)
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::BehaviorDesigner::Runtime::PrecompiledTypeDeserializer*>* EDBBFFMAAAP()
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::BehaviorDesigner::Runtime::PrecompiledTypeDeserializer*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_BEHAVIORTREEDESERIALIZATION_PRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZATION_METHOD_1_9E86D16B476C4CAF_OFFSET))(a1);
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::BehaviorDesigner::Runtime::PrecompiledTypeDeserializer*>*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BEHAVIORTREEDESERIALIZATION_PRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZATION_EDBBFFMAAAP_OFFSET))();
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::BehaviorDesigner::Runtime::PrecompiledTypeDeserializer*>* Method_1_A33108F24FD72EA4()
+		static ::System::Void JMDEKPONKMF(::System::Collections::Generic::Dictionary_2<::System::String*, ::BehaviorDesigner::Runtime::PrecompiledTypeDeserializer*>*& JOLOMBILNJJ)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::BehaviorDesigner::Runtime::PrecompiledTypeDeserializer*>*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_BEHAVIORTREEDESERIALIZATION_PRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZATION_METHOD_1_A33108F24FD72EA4_OFFSET))();
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::BehaviorDesigner::Runtime::PrecompiledTypeDeserializer*>*&))((::PBYTE)hIl2Cpp + MOLEMOLE_BEHAVIORTREEDESERIALIZATION_PRECOMPILEDTYPEDESERIALIZATIONDATABASEINITIALIZATION_JMDEKPONKMF_OFFSET))(JOLOMBILNJJ);
 		}
 	};
 }

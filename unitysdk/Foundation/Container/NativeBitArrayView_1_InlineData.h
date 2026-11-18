@@ -4,12 +4,12 @@
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeBitArrayView_1_InlineData_TypeDefinitionIndex = 8695;
+	inline static constexpr unsigned int NativeBitArrayView_1_InlineData_TypeDefinitionIndex = 9024;
 
-	template <typename TUserData>
-	struct NativeBitArrayView_1_InlineData
+	template <typename T>
+	struct alignas(8) NativeBitArrayView_1_InlineData
 	{
-		TUserData Data; // 0x0
+		T Data; // 0x0
 		::System::Int64 Length; // 0x0
 	};
 }

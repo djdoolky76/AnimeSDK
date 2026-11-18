@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 #include "unitysdk/MoleMole/GameplayTag.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STRINGLISTTOGAMEPLAYTAGLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DBA700)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_STRINGLISTTOGAMEPLAYTAGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19DBA890)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STRINGLISTTOGAMEPLAYTAGLIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B40B20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_STRINGLISTTOGAMEPLAYTAGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x12B40CB0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_StringListToGamePlayTagList_TypeDefinitionIndex = 78502;
+	inline static constexpr unsigned int LD_StringListToGamePlayTagList_TypeDefinitionIndex = 67452;
 
-	class LD_StringListToGamePlayTagList : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Collections::Generic::List_1<::MoleMole::GameplayTag>*, ::System::Collections::Generic::List_1<::System::String*>*>
+	class LD_StringListToGamePlayTagList
 	{
 	public:
 		::System::Void _ctor()

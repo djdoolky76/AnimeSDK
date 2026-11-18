@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class MeshRendererBehavior; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_MESHRENDERERPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FB20080)
-#define MOLEMOLE_TIMELINE_MESHRENDERERPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FB20070)
-#define MOLEMOLE_TIMELINE_MESHRENDERERPLAYABLEASSET_INITCLIP_OFFSET UNITYSDK_OFFSET(0x1FB20150)
-#define MOLEMOLE_TIMELINE_MESHRENDERERPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB20170)
+#define MOLEMOLE_TIMELINE_MESHRENDERERPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FF1A9F0)
+#define MOLEMOLE_TIMELINE_MESHRENDERERPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FF1A9E0)
+#define MOLEMOLE_TIMELINE_MESHRENDERERPLAYABLEASSET_INITCLIP_OFFSET UNITYSDK_OFFSET(0x1FF1AAD0)
+#define MOLEMOLE_TIMELINE_MESHRENDERERPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1AAF0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MeshRendererPlayableAsset_TypeDefinitionIndex = 32841;
+	inline static constexpr unsigned int MeshRendererPlayableAsset_TypeDefinitionIndex = 32292;
 
 	class MeshRendererPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

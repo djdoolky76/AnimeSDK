@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_208CC9941471731A_612;
+class ANPJANGHICC;
 namespace MoleMole { class UIInterKnotNewsWidgetController; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIINTERKNOTNEWSWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164F14B0)
-#define MOLEMOLE_UIINTERKNOTNEWSWIDGETCONTROLLER___C__DISPLAYCLASS14_0__UPDATEGETBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x164F14C0)
-#define MOLEMOLE_UIINTERKNOTNEWSWIDGETCONTROLLER___C__DISPLAYCLASS14_0__UPDATEGETBUTTON_G__SETBTN_1_OFFSET UNITYSDK_OFFSET(0x164F1680)
+#define MOLEMOLE_UIINTERKNOTNEWSWIDGETCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x197A8100)
+#define MOLEMOLE_UIINTERKNOTNEWSWIDGETCONTROLLER___C__DISPLAYCLASS14_0__UPDATEGETBUTTON_B__0_OFFSET UNITYSDK_OFFSET(0x197A8110)
+#define MOLEMOLE_UIINTERKNOTNEWSWIDGETCONTROLLER___C__DISPLAYCLASS14_0__UPDATEGETBUTTON_G__SETBTN_1_OFFSET UNITYSDK_OFFSET(0x197A82D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotNewsWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 82246;
+	inline static constexpr unsigned int UIInterKnotNewsWidgetController___c__DisplayClass14_0_TypeDefinitionIndex = 92847;
 
 	class UIInterKnotNewsWidgetController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::Class_2_208CC9941471731A_612* template_; // 0x10
-		::MoleMole::UIInterKnotNewsWidgetController* __4__this; // 0x18
+		::MoleMole::UIInterKnotNewsWidgetController* __4__this; // 0x10
+		::ANPJANGHICC* template_; // 0x18
 
 		::System::Void _ctor()
 		{

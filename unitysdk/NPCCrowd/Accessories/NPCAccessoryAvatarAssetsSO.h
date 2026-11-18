@@ -14,14 +14,14 @@ namespace NPCCrowd::Accessories { class NPCAccessoryLodMeshAssets; }
 namespace NPCCrowd::Accessories { class NPCAccessoryMDBPose; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO_GET_BNEEDREADGPUSLOTDATA_OFFSET UNITYSDK_OFFSET(0xF8610A0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO_REFRESHASSETS_OFFSET UNITYSDK_OFFSET(0xF861060)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0xF861110)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO__CTOR_OFFSET UNITYSDK_OFFSET(0xF8613C0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO_GET_BNEEDREADGPUSLOTDATA_OFFSET UNITYSDK_OFFSET(0xEE85FA0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO_REFRESHASSETS_OFFSET UNITYSDK_OFFSET(0xEE85F60)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0xEE86010)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYAVATARASSETSSO__CTOR_OFFSET UNITYSDK_OFFSET(0xEE862C0)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAvatarAssetsSO_TypeDefinitionIndex = 84988;
+	inline static constexpr unsigned int NPCAccessoryAvatarAssetsSO_TypeDefinitionIndex = 46237;
 
 	class NPCAccessoryAvatarAssetsSO : public ::UnityEngine::ScriptableObject
 	{
@@ -32,10 +32,12 @@ namespace NPCCrowd::Accessories
 		::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessoryMDBPose*>* accMDBPoses; // 0x28
 		::System::Collections::Generic::List_1<::NPCCrowd::Accessories::NPCAccessoryLodMeshAssets*>* meshAssets; // 0x30
 		::System::Boolean bHasAnimation; // 0x38
+		::System::Byte _padding0[0x7];
 		::NPCCrowd::Accessories::NPCAccessoryAnimationAssetsSO* animation; // 0x40
 		::Foundation::AssetPath avatarAssetPath; // 0x48
 		::System::Boolean useDitherMaterial; // 0x58
 		::System::Boolean bUseSimpleAsset; // 0x59
+		::System::Byte _padding1[0x6];
 		::NPCCrowd::NPCSoftMeshPath* commonSimpleMeshRef; // 0x60
 		::NPCCrowd::NPCSoftMaterialPath* commonSimpleMaterialRef; // 0x68
 		::NPCCrowd::NPCSoftMaterialPath* commonSimpleDitherMaterialRef; // 0x70

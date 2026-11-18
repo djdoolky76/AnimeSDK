@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Mono/MonoAssemblyName.h"
 #include "unitysdk/System/Configuration/Assemblies/AssemblyHashAlgorithm.h"
 #include "unitysdk/System/Configuration/Assemblies/AssemblyVersionCompatibility.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Reflection/AssemblyContentType.h"
 #include "unitysdk/System/Reflection/AssemblyNameFlags.h"
 #include "unitysdk/System/Reflection/ProcessorArchitecture.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/Mono/MonoAssemblyName.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class String; }
@@ -16,26 +16,26 @@ namespace System::Reflection { class Assembly; }
 namespace System::Reflection { class StrongNameKeyPair; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_CLONE_OFFSET UNITYSDK_OFFSET(0x1DDE1160)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_COMPUTEPUBLICKEYTOKEN_OFFSET UNITYSDK_OFFSET(0x1DDE0AD0)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_CREATE_OFFSET UNITYSDK_OFFSET(0x1DDE12C0)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_FILLNAME_OFFSET UNITYSDK_OFFSET(0x1DDDF610)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_GETNATIVENAME_OFFSET UNITYSDK_OFFSET(0x1DDE12B0)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1DDE0C20)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_GETPUBLICKEYTOKEN_OFFSET UNITYSDK_OFFSET(0x1DDE0820)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1DDE0090)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_GET_ISPUBLICKEYVALID_OFFSET UNITYSDK_OFFSET(0x1DDE0A10)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1DDE0080)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_GET_PUBLIC_TOKEN_OFFSET UNITYSDK_OFFSET(0x1DDE0BB0)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_INTERNALGETPUBLICKEYTOKEN_OFFSET UNITYSDK_OFFSET(0x1DDE0520)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_ONDESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1DDE11F0)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_PARSEASSEMBLYNAME_OFFSET UNITYSDK_OFFSET(0x1DDDF3A0)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_SETPUBLICKEY_OFFSET UNITYSDK_OFFSET(0x1DDE0C00)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_SET_VERSION_OFFSET UNITYSDK_OFFSET(0x1DDE0700)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDE07C0)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DDDF3B0)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DDDFBE0)
-#define SYSTEM_REFLECTION_ASSEMBLYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDDF390)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_CLONE_OFFSET UNITYSDK_OFFSET(0x1E261E80)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_COMPUTEPUBLICKEYTOKEN_OFFSET UNITYSDK_OFFSET(0x1E2617F0)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_CREATE_OFFSET UNITYSDK_OFFSET(0x1E261FE0)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_FILLNAME_OFFSET UNITYSDK_OFFSET(0x1E260330)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_GETNATIVENAME_OFFSET UNITYSDK_OFFSET(0x1E261FD0)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1E261940)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_GETPUBLICKEYTOKEN_OFFSET UNITYSDK_OFFSET(0x1E261540)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1E260DB0)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_GET_ISPUBLICKEYVALID_OFFSET UNITYSDK_OFFSET(0x1E261730)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E260DA0)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_GET_PUBLIC_TOKEN_OFFSET UNITYSDK_OFFSET(0x1E2618D0)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_INTERNALGETPUBLICKEYTOKEN_OFFSET UNITYSDK_OFFSET(0x1E261240)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_ONDESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1E261F10)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_PARSEASSEMBLYNAME_OFFSET UNITYSDK_OFFSET(0x1E2600C0)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_SETPUBLICKEY_OFFSET UNITYSDK_OFFSET(0x1E261920)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_SET_VERSION_OFFSET UNITYSDK_OFFSET(0x1E261420)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2614E0)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E2600D0)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E260900)
+#define SYSTEM_REFLECTION_ASSEMBLYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2600B0)
 
 namespace System::Reflection
 {
@@ -57,6 +57,7 @@ namespace System::Reflection
 		::Il2CppArray<::System::Byte>* publicKey; // 0x48
 		::Il2CppArray<::System::Byte>* keyToken; // 0x50
 		::System::Configuration::Assemblies::AssemblyVersionCompatibility versioncompat; // 0x58
+		::System::Byte _padding0[0x4];
 		::System::Version* version; // 0x60
 		::System::Reflection::ProcessorArchitecture processor_architecture; // 0x68
 		::System::Reflection::AssemblyContentType contentType; // 0x6C
@@ -116,9 +117,9 @@ namespace System::Reflection
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYNAME_INTERNALGETPUBLICKEYTOKEN_OFFSET))(this);
 		}
 
-		static ::System::Void get_public_token(::System::Byte* token, ::System::Byte* pubkey, ::System::Int32 len)
+		static ::System::Void get_public_token(::PVOID token, ::PVOID pubkey, ::System::Int32 len)
 		{
-			return ((::System::Void(*)(::System::Byte*, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYNAME_GET_PUBLIC_TOKEN_OFFSET))(token, pubkey, len);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYNAME_GET_PUBLIC_TOKEN_OFFSET))(token, pubkey, len);
 		}
 
 		::Il2CppArray<::System::Byte>* ComputePublicKeyToken()
@@ -146,14 +147,14 @@ namespace System::Reflection
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYNAME_ONDESERIALIZATION_OFFSET))(this, sender);
 		}
 
-		static ::Mono::MonoAssemblyName* GetNativeName(::System::IntPtr assembly_ptr)
+		static ::PVOID GetNativeName(::System::IntPtr assembly_ptr)
 		{
-			return ((::Mono::MonoAssemblyName*(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYNAME_GETNATIVENAME_OFFSET))(assembly_ptr);
+			return ((::PVOID(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYNAME_GETNATIVENAME_OFFSET))(assembly_ptr);
 		}
 
-		::System::Void FillName(::Mono::MonoAssemblyName* native, ::System::String* codeBase, ::System::Boolean addVersion, ::System::Boolean addPublickey, ::System::Boolean defaultToken, ::System::Boolean assemblyRef)
+		::System::Void FillName(::PVOID native, ::System::String* codeBase, ::System::Boolean addVersion, ::System::Boolean addPublickey, ::System::Boolean defaultToken, ::System::Boolean assemblyRef)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::MonoAssemblyName*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYNAME_FILLNAME_OFFSET))(this, native, codeBase, addVersion, addPublickey, defaultToken, assemblyRef);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYNAME_FILLNAME_OFFSET))(this, native, codeBase, addVersion, addPublickey, defaultToken, assemblyRef);
 		}
 
 		static ::System::Reflection::AssemblyName* Create(::System::Reflection::Assembly* assembly, ::System::Boolean fillCodebase)

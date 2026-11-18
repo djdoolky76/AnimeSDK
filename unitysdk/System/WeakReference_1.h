@@ -1,10 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
-namespace System::Runtime::Serialization { class SerializationInfo; }
+#include "unitysdk/System/Object.h"
 
 namespace System
 {

@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_ABILITY_FNPCABILITYSTEERINGFRAGMENT_RESET_OFFSET UNITYSDK_OFFSET(0x667430)
+#define NPCCROWD_ABILITY_FNPCABILITYSTEERINGFRAGMENT_RESET_OFFSET UNITYSDK_OFFSET(0x5FFCD0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int FNPCAbilitySteeringFragment_TypeDefinitionIndex = 41523;
+	inline static constexpr unsigned int FNPCAbilitySteeringFragment_TypeDefinitionIndex = 83921;
 
 	struct alignas(4) FNPCAbilitySteeringFragment
 	{

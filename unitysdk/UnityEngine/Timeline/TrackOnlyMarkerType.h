@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_TRACKONLYMARKERTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F964FA0)
+#define UNITYENGINE_TIMELINE_TRACKONLYMARKERTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD64010)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackOnlyMarkerType_TypeDefinitionIndex = 33049;
+	inline static constexpr unsigned int TrackOnlyMarkerType_TypeDefinitionIndex = 32508;
 
 	class TrackOnlyMarkerType : public ::System::Attribute
 	{

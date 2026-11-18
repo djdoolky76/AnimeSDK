@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
 #include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/System/Object.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEUINT64BLOCKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E53BAC0)
-#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEUINT64BLOCKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E53BA40)
-#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEUINT64BLOCKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E53BB10)
-#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEUINT64BLOCKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E53BA30)
+#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEUINT64BLOCKFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7AFB10)
+#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEUINT64BLOCKFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E7AFA90)
+#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEUINT64BLOCKFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7AFB60)
+#define MESSAGEPACK_FORMATTERS_NULLABLEFORCEUINT64BLOCKFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AFA80)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NullableForceUInt64BlockFormatter_TypeDefinitionIndex = 30536;
+	inline static constexpr unsigned int NullableForceUInt64BlockFormatter_TypeDefinitionIndex = 29551;
 
 	class NullableForceUInt64BlockFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::NullableForceUInt64BlockFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::NullableForceUInt64BlockFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableForceUInt64BlockFormatter_TypeDefinitionIndex)->GetStaticField(0x261D0);
+			return (::MessagePack::Formatters::NullableForceUInt64BlockFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableForceUInt64BlockFormatter_TypeDefinitionIndex)->GetStaticField(0x26E00);
 		}
 
 		::System::Void _ctor()

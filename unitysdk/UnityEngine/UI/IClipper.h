@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IClipper_TypeDefinitionIndex = 19196;
+	inline static constexpr unsigned int IClipper_TypeDefinitionIndex = 18350;
 
 	class IClipper
 	{

@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int NNHBCNLBCFF_BLOJLEFLHBI_TypeDefinitionIndex = 85185;
+
+enum class NNHBCNLBCFF_BLOJLEFLHBI : ::System::Int32
+{
+	PRELOAD_NPC = 5,
+	LOAD_REAL_ECS = 2,
+	TOTAL = 14,
+	LOGIN_LOADING = 11,
+	PRELOAD_AVATARS = 7,
+	PRELOAD_UI = 4,
+	VIEW_OBJECT = 13,
+	PRELOAD_LEVEL_EFFECT = 8,
+	LOAD_PERP_STAGE = 3,
+	NAP_STREAMING = 12,
+	END_VIDEO = 10,
+	PRELOAD_ASSETS = 6,
+	PREPARE_VIDEO = 0,
+	START_VIDEO = 1,
+	PRELOAD_MONSTERS = 9,
+};

@@ -4,29 +4,30 @@
 #include "unitysdk/MoleMole/MonsterHatredLineSubSystem_HatredLineState.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_06419CA21ECB69E6;
-class Class_3_C93CC3D2C2AC4067;
+class CAPAFILOMGC;
+class GEIHCPAOKKK;
 class ScreenSpaceSplineRenderer;
 namespace System { class String; }
 
-#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1739CD70)
-#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA_LINKTOWTARGET_OFFSET UNITYSDK_OFFSET(0x1739C7B0)
-#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA_UNLINK_OFFSET UNITYSDK_OFFSET(0x1739CBD0)
-#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1739CE20)
+#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x13F09170)
+#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA_LINKTOWTARGET_OFFSET UNITYSDK_OFFSET(0x13F08BB0)
+#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA_UNLINK_OFFSET UNITYSDK_OFFSET(0x13F08FD0)
+#define MOLEMOLE_MONSTERHATREDLINESUBSYSTEM_HATREDLINELINKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13F09220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonsterHatredLineSubSystem_HatredLineLinkData_TypeDefinitionIndex = 44942;
+	inline static constexpr unsigned int MonsterHatredLineSubSystem_HatredLineLinkData_TypeDefinitionIndex = 57916;
 
 	class MonsterHatredLineSubSystem_HatredLineLinkData : public ::System::Object
 	{
 	public:
-		::Class_3_C93CC3D2C2AC4067* sourceCharacterModelComponent; // 0x10
+		::ScreenSpaceSplineRenderer* linkedSplineRenderer; // 0x10
 		::MoleMole::EntityHandle SourceEntity; // 0x18
-		::Class_3_06419CA21ECB69E6* attackTargetComponent; // 0x28
-		::MoleMole::EntityHandle TargetEntity; // 0x30
-		::ScreenSpaceSplineRenderer* linkedSplineRenderer; // 0x40
+		::MoleMole::EntityHandle TargetEntity; // 0x28
+		::GEIHCPAOKKK* sourceCharacterModelComponent; // 0x38
+		::CAPAFILOMGC* attackTargetComponent; // 0x40
 		::System::Boolean assetLoaded; // 0x48
+		::System::Byte _padding0[0x3];
 		::MoleMole::MonsterHatredLineSubSystem_HatredLineState currentHatredLineState; // 0x4C
 
 		::System::Void _ctor()

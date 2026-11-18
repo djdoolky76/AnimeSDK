@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class FJOKOGDDBIN;
+
+#define DCBIKALEPHJ_COJHLIEODLH_AIEGNGPHPOD_OFFSET UNITYSDK_OFFSET(0x147C0330)
+#define DCBIKALEPHJ_COJHLIEODLH_OOOECDDDKDI_OFFSET UNITYSDK_OFFSET(0x147C0270)
+#define DCBIKALEPHJ_COJHLIEODLH__CTOR_OFFSET UNITYSDK_OFFSET(0x147C0260)
+
+inline static constexpr unsigned int DCBIKALEPHJ_COJHLIEODLH_TypeDefinitionIndex = 92559;
+
+class DCBIKALEPHJ_COJHLIEODLH : public ::System::Object
+{
+public:
+	::System::Int32 MDJFJPHNGCK; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DCBIKALEPHJ_COJHLIEODLH__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 OOOECDDDKDI(::FJOKOGDDBIN* MDLNMDJMMJP)
+	{
+		return ((::System::Int32(*)(::PVOID, ::FJOKOGDDBIN*))((::PBYTE)hIl2Cpp + DCBIKALEPHJ_COJHLIEODLH_OOOECDDDKDI_OFFSET))(this, MDLNMDJMMJP);
+	}
+
+	::System::Int32 AIEGNGPHPOD(::FJOKOGDDBIN* MDLNMDJMMJP)
+	{
+		return ((::System::Int32(*)(::PVOID, ::FJOKOGDDBIN*))((::PBYTE)hIl2Cpp + DCBIKALEPHJ_COJHLIEODLH_AIEGNGPHPOD_OFFSET))(this, MDLNMDJMMJP);
+	}
+};

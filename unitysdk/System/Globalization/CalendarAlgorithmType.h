@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CalendarAlgorithmType_TypeDefinitionIndex = 703;
+	inline static constexpr unsigned int CalendarAlgorithmType_TypeDefinitionIndex = 702;
 
 	enum class CalendarAlgorithmType : ::System::Int32
 	{

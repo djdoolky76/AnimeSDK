@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ParadoxNotion/Design/CallbackAttribute.h"
 
-#define FLOWCANVAS_FLOWNODE_GATHERPORTSCALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E720D80)
+#define FLOWCANVAS_FLOWNODE_GATHERPORTSCALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C60E0)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowNode_GatherPortsCallbackAttribute_TypeDefinitionIndex = 31242;
+	inline static constexpr unsigned int FlowNode_GatherPortsCallbackAttribute_TypeDefinitionIndex = 29428;
 
 	class FlowNode_GatherPortsCallbackAttribute : public ::ParadoxNotion::Design::CallbackAttribute
 	{

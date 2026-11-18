@@ -4,15 +4,15 @@
 #include "unitysdk/UnityEngine/Experimental/AI/PolygonId.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_EXPERIMENTAL_AI_NAVMESHLOCATION_GET_POLYGON_OFFSET UNITYSDK_OFFSET(0x259D70)
-#define UNITYENGINE_EXPERIMENTAL_AI_NAVMESHLOCATION_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x41F0A0)
-#define UNITYENGINE_EXPERIMENTAL_AI_NAVMESHLOCATION__CTOR_OFFSET UNITYSDK_OFFSET(0xAB1290)
+#define UNITYENGINE_EXPERIMENTAL_AI_NAVMESHLOCATION_GET_POLYGON_OFFSET UNITYSDK_OFFSET(0x282350)
+#define UNITYENGINE_EXPERIMENTAL_AI_NAVMESHLOCATION_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x3CFA20)
+#define UNITYENGINE_EXPERIMENTAL_AI_NAVMESHLOCATION__CTOR_OFFSET UNITYSDK_OFFSET(0x997420)
 
 namespace UnityEngine::Experimental::AI
 {
-	inline static constexpr unsigned int NavMeshLocation_TypeDefinitionIndex = 28016;
+	inline static constexpr unsigned int NavMeshLocation_TypeDefinitionIndex = 27434;
 
-	struct alignas(8) NavMeshLocation
+	struct alignas(4) NavMeshLocation
 	{
 		::UnityEngine::Experimental::AI::PolygonId _polygon_k__BackingField; // 0x10
 		::UnityEngine::Vector3 _position_k__BackingField; // 0x18

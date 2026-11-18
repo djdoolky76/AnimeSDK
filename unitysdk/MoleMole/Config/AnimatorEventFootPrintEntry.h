@@ -5,20 +5,20 @@
 namespace MoleMole::Config { class AnimatorEvent; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTFOOTPRINTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x12EEF170)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTFOOTPRINTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12EEF1F0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTFOOTPRINTENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x12763880)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTFOOTPRINTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x12763900)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventFootPrintEntry_TypeDefinitionIndex = 61765;
+	inline static constexpr unsigned int AnimatorEventFootPrintEntry_TypeDefinitionIndex = 84375;
 
 	class AnimatorEventFootPrintEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{
 	public:
-		::System::String* MoveType; // 0x58
-		::System::String* AudioEventName; // 0x60
-		::System::String* FootType; // 0x68
-		::System::String* MoveState; // 0x70
+		::System::String* FootType; // 0x58
+		::System::String* MoveState; // 0x60
+		::System::String* AudioEventName; // 0x68
+		::System::String* MoveType; // 0x70
 
 		::System::Void _ctor()
 		{

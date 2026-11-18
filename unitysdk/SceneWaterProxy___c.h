@@ -5,22 +5,22 @@
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine { class GameObject; }
 
-#define SCENEWATERPROXY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F96F600)
-#define SCENEWATERPROXY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F96F640)
-#define SCENEWATERPROXY___C__SETWAVECENTERPOS_B__7_0_OFFSET UNITYSDK_OFFSET(0x1F96F650)
+#define SCENEWATERPROXY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD6E6A0)
+#define SCENEWATERPROXY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD6E6E0)
+#define SCENEWATERPROXY___C__SETWAVECENTERPOS_B__7_0_OFFSET UNITYSDK_OFFSET(0x1FD6E6F0)
 
-inline static constexpr unsigned int SceneWaterProxy___c_TypeDefinitionIndex = 38711;
+inline static constexpr unsigned int SceneWaterProxy___c_TypeDefinitionIndex = 36711;
 
 class SceneWaterProxy___c : public ::System::Object
 {
 public:
-	static ::SceneWaterProxy___c** StaticGet___9()
+	static ::System::Object** StaticGet___9()
 	{
-		return (::SceneWaterProxy___c**)Il2CppClass::FromTypeDefinitionIndex(SceneWaterProxy___c_TypeDefinitionIndex)->GetStaticField(0x2A710);
+		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(SceneWaterProxy___c_TypeDefinitionIndex)->GetStaticField(0x2BA70);
 	}
 	static ::System::Predicate_1<::UnityEngine::GameObject*>** StaticGet___9__7_0()
 	{
-		return (::System::Predicate_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(SceneWaterProxy___c_TypeDefinitionIndex)->GetStaticField(0x2A718);
+		return (::System::Predicate_1<::UnityEngine::GameObject*>**)Il2CppClass::FromTypeDefinitionIndex(SceneWaterProxy___c_TypeDefinitionIndex)->GetStaticField(0x2BA78);
 	}
 
 	static ::System::Void _cctor()

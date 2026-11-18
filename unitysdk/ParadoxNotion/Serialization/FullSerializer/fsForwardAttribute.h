@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSFORWARDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC3B10)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSFORWARDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF963D0)
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int fsForwardAttribute_TypeDefinitionIndex = 30998;
+	inline static constexpr unsigned int fsForwardAttribute_TypeDefinitionIndex = 29981;
 
 	class fsForwardAttribute : public ::System::Attribute
 	{

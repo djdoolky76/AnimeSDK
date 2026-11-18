@@ -5,12 +5,12 @@
 namespace MoleMole { class UISummerFishPlayPageController; }
 namespace System { class String; }
 
-#define MOLEMOLE_UISUMMERFISHPLAYPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167798B0)
-#define MOLEMOLE_UISUMMERFISHPLAYPAGECONTROLLER___C__DISPLAYCLASS18_0__SHOWNEWTIPS_B__0_OFFSET UNITYSDK_OFFSET(0x167798C0)
+#define MOLEMOLE_UISUMMERFISHPLAYPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164C1B00)
+#define MOLEMOLE_UISUMMERFISHPLAYPAGECONTROLLER___C__DISPLAYCLASS18_0__SHOWNEWTIPS_B__0_OFFSET UNITYSDK_OFFSET(0x164C1B10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishPlayPageController___c__DisplayClass18_0_TypeDefinitionIndex = 54761;
+	inline static constexpr unsigned int UISummerFishPlayPageController___c__DisplayClass18_0_TypeDefinitionIndex = 64776;
 
 	class UISummerFishPlayPageController___c__DisplayClass18_0 : public ::System::Object
 	{

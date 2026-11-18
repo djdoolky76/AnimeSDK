@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/DPKOIBEFPAO.h"
+
+class BIOEANJKLPH;
+class CBKOHMOCLBM;
+class MAEHCKPIDMO;
+namespace System { class String; }
+
+#define HDPIBAEIAFB_CJGLDAPJCLB_OFFSET UNITYSDK_OFFSET(0x17E3EA80)
+#define HDPIBAEIAFB_KNDMMHPDPIB_OFFSET UNITYSDK_OFFSET(0x17E3E7F0)
+#define HDPIBAEIAFB_PBJDHAOHFEF_OFFSET UNITYSDK_OFFSET(0x17E3E930)
+#define HDPIBAEIAFB__CTOR_OFFSET UNITYSDK_OFFSET(0x17E3E790)
+
+inline static constexpr unsigned int HDPIBAEIAFB_TypeDefinitionIndex = 79893;
+
+class HDPIBAEIAFB : public ::System::Object
+{
+public:
+	::MAEHCKPIDMO* DAAAEJDBNFI; // 0x10
+
+	::System::Void _ctor(::CBKOHMOCLBM* FAIPFCNDLDE)
+	{
+		return ((::System::Void(*)(::PVOID, ::CBKOHMOCLBM*))((::PBYTE)hIl2Cpp + HDPIBAEIAFB__CTOR_OFFSET))(this, FAIPFCNDLDE);
+	}
+
+	::DPKOIBEFPAO KNDMMHPDPIB(::BIOEANJKLPH* CMGOALOFDKK)
+	{
+		return ((::DPKOIBEFPAO(*)(::PVOID, ::BIOEANJKLPH*))((::PBYTE)hIl2Cpp + HDPIBAEIAFB_KNDMMHPDPIB_OFFSET))(this, CMGOALOFDKK);
+	}
+
+	::BIOEANJKLPH* PBJDHAOHFEF(::System::String* LKJGIIABCPD)
+	{
+		return ((::BIOEANJKLPH*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HDPIBAEIAFB_PBJDHAOHFEF_OFFSET))(this, LKJGIIABCPD);
+	}
+
+	::DPKOIBEFPAO CJGLDAPJCLB(::System::String* LKJGIIABCPD)
+	{
+		return ((::DPKOIBEFPAO(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + HDPIBAEIAFB_CJGLDAPJCLB_OFFSET))(this, LKJGIIABCPD);
+	}
+};

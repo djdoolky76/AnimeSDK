@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_EXTENSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB7E50)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_EXTENSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B9070)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int ExtensionAttribute_TypeDefinitionIndex = 1401;
+	inline static constexpr unsigned int ExtensionAttribute_TypeDefinitionIndex = 1400;
 
 	class ExtensionAttribute : public ::System::Attribute
 	{

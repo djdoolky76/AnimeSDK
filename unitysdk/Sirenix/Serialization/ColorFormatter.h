@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/MinimalBaseFormatter_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 
 namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
 
-#define SIRENIX_SERIALIZATION_COLORFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1EDCB230)
-#define SIRENIX_SERIALIZATION_COLORFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1EDCB3A0)
-#define SIRENIX_SERIALIZATION_COLORFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDCB580)
-#define SIRENIX_SERIALIZATION_COLORFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDCB520)
+#define SIRENIX_SERIALIZATION_COLORFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1F17FFD0)
+#define SIRENIX_SERIALIZATION_COLORFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1F180140)
+#define SIRENIX_SERIALIZATION_COLORFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F180320)
+#define SIRENIX_SERIALIZATION_COLORFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1802C0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ColorFormatter_TypeDefinitionIndex = 7581;
+	inline static constexpr unsigned int ColorFormatter_TypeDefinitionIndex = 7593;
 
-	class ColorFormatter : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::UnityEngine::Color>
+	class ColorFormatter
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_FloatSerializer()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ColorFormatter_TypeDefinitionIndex)->GetStaticField(0x6550);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ColorFormatter_TypeDefinitionIndex)->GetStaticField(0x6470);
 		}
 
 		::System::Void _ctor()

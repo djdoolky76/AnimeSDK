@@ -4,20 +4,20 @@
 
 namespace UnrealTypes { class ICppStructOps; }
 
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEMPTYINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB53030)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEMPTYINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB53070)
-#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEMPTYINSTANCEDATA___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1FB53080)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEMPTYINSTANCEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF49B50)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEMPTYINSTANCEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF49B90)
+#define STATETREECORE_REGISTRATIONINFO_SCRIPTSTRUCT_STATETREEEMPTYINSTANCEDATA___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1FF49BA0)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeEmptyInstanceData___c_TypeDefinitionIndex = 31599;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_StateTreeEmptyInstanceData___c_TypeDefinitionIndex = 31036;
 
 	class RegistrationInfo_ScriptStruct_StateTreeEmptyInstanceData___c : public ::System::Object
 	{
 	public:
-		static ::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreeEmptyInstanceData___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::StateTreeCore::RegistrationInfo_ScriptStruct_StateTreeEmptyInstanceData___c**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeEmptyInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x26B50);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_StateTreeEmptyInstanceData___c_TypeDefinitionIndex)->GetStaticField(0x27C10);
 		}
 
 		static ::System::Void _cctor()

@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_9631DA8CB6F86BD4;
+class MDLHOCBNDMD;
 namespace MoleMole { class UIBangbooModGarageDialogPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18519E00)
-#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__DOBUY_B__0_OFFSET UNITYSDK_OFFSET(0x18519E10)
-#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__DOBUY_B__1_OFFSET UNITYSDK_OFFSET(0x18519EB0)
+#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A23AA70)
+#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__DOBUY_B__0_OFFSET UNITYSDK_OFFSET(0x1A23AA80)
+#define MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__DOBUY_B__1_OFFSET UNITYSDK_OFFSET(0x1A23AB20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooModGarageDialogPopWindowController___c__DisplayClass12_0_TypeDefinitionIndex = 64332;
+	inline static constexpr unsigned int UIBangbooModGarageDialogPopWindowController___c__DisplayClass12_0_TypeDefinitionIndex = 90209;
 
 	class UIBangbooModGarageDialogPopWindowController___c__DisplayClass12_0 : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _DoBuy_b__0(::Class_1_9631DA8CB6F86BD4* param)
+		::System::Void _DoBuy_b__0(::MDLHOCBNDMD* param)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_9631DA8CB6F86BD4*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__DOBUY_B__0_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::MDLHOCBNDMD*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBANGBOOMODGARAGEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS12_0__DOBUY_B__0_OFFSET))(this, param);
 		}
 
 		::System::Void _DoBuy_b__1()

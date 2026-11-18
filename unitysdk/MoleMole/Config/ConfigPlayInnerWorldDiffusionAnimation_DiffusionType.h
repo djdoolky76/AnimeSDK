@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigPlayInnerWorldDiffusionAnimation_DiffusionType_TypeDefinitionIndex = 56597;
+	inline static constexpr unsigned int ConfigPlayInnerWorldDiffusionAnimation_DiffusionType_TypeDefinitionIndex = 66937;
 
 	enum class ConfigPlayInnerWorldDiffusionAnimation_DiffusionType : ::System::Int32
 	{
-		None = 0,
-		Expand = 1,
 		Contract = 2,
+		Expand = 1,
+		None = 0,
 	};
 }

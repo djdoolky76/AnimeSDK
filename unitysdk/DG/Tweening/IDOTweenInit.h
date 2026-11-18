@@ -3,7 +3,7 @@
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int IDOTweenInit_TypeDefinitionIndex = 28446;
+	inline static constexpr unsigned int IDOTweenInit_TypeDefinitionIndex = 27885;
 
 	class IDOTweenInit
 	{

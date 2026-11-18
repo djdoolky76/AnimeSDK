@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AHBAMDNLADD_OMFHFCCFNIM.h"
+#include "unitysdk/LPHCMONINBH.h"
+#include "unitysdk/LPHCMONINBH_PCBAFNPNEGI.h"
+#include "unitysdk/MoleMole/UICameraAtom.h"
+
+class PFMILGFHOEM;
+namespace MoleMole::Config { class ConfigHollowCameraEasing; }
+
+#define AHBAMDNLADD_DLEPPHCJKDM_OFFSET UNITYSDK_OFFSET(0x14212560)
+#define AHBAMDNLADD_HHIMJNGLBPH_OFFSET UNITYSDK_OFFSET(0x14212580)
+#define AHBAMDNLADD_IMKFHOHPIFF_OFFSET UNITYSDK_OFFSET(0x142123D0)
+#define AHBAMDNLADD_LNFFPAGOEMM_OFFSET UNITYSDK_OFFSET(0x14212350)
+#define AHBAMDNLADD_NEDFCEGCNBN_OFFSET UNITYSDK_OFFSET(0x14212340)
+#define AHBAMDNLADD_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x14212360)
+#define AHBAMDNLADD__CTOR_OFFSET UNITYSDK_OFFSET(0x14212550)
+
+inline static constexpr unsigned int AHBAMDNLADD_TypeDefinitionIndex = 65453;
+
+class AHBAMDNLADD : public ::LPHCMONINBH
+{
+public:
+	::MoleMole::Config::ConfigHollowCameraEasing* BNGNKNLMLDB; // 0x78
+	::AHBAMDNLADD_OMFHFCCFNIM _KOALHNEIBKC_k__BackingField; // 0x80
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AHBAMDNLADD__CTOR_OFFSET))(this);
+	}
+
+	::LPHCMONINBH_PCBAFNPNEGI NEDFCEGCNBN()
+	{
+		return ((::LPHCMONINBH_PCBAFNPNEGI(*)(::PVOID))((::PBYTE)hIl2Cpp + AHBAMDNLADD_NEDFCEGCNBN_OFFSET))(this);
+	}
+
+	::System::Boolean LNFFPAGOEMM()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AHBAMDNLADD_LNFFPAGOEMM_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::MoleMole::UICameraAtom GFCABMLNGDK, ::MoleMole::UICameraAtom HFAMGAICNHP)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UICameraAtom, ::MoleMole::UICameraAtom))((::PBYTE)hIl2Cpp + AHBAMDNLADD_OJENCMOGDKL_OFFSET))(this, GFCABMLNGDK, HFAMGAICNHP);
+	}
+
+	::PFMILGFHOEM* IMKFHOHPIFF(::MoleMole::UICameraAtom GFCABMLNGDK, ::MoleMole::UICameraAtom HFAMGAICNHP)
+	{
+		return ((::PFMILGFHOEM*(*)(::PVOID, ::MoleMole::UICameraAtom, ::MoleMole::UICameraAtom))((::PBYTE)hIl2Cpp + AHBAMDNLADD_IMKFHOHPIFF_OFFSET))(this, GFCABMLNGDK, HFAMGAICNHP);
+	}
+
+	::AHBAMDNLADD_OMFHFCCFNIM DLEPPHCJKDM()
+	{
+		return ((::AHBAMDNLADD_OMFHFCCFNIM(*)(::PVOID))((::PBYTE)hIl2Cpp + AHBAMDNLADD_DLEPPHCJKDM_OFFSET))(this);
+	}
+
+	::System::Void HHIMJNGLBPH(::AHBAMDNLADD_OMFHFCCFNIM EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::AHBAMDNLADD_OMFHFCCFNIM))((::PBYTE)hIl2Cpp + AHBAMDNLADD_HHIMJNGLBPH_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

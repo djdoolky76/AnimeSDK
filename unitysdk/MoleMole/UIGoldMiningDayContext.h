@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_9196D09A7539E4F5.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
+#include "unitysdk/NAGFHFBHMCJ.h"
 
-#define MOLEMOLE_UIGOLDMININGDAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x199CB7B0)
+#define MOLEMOLE_UIGOLDMININGDAYCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E62980)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGoldMiningDayContext_TypeDefinitionIndex = 90847;
+	inline static constexpr unsigned int UIGoldMiningDayContext_TypeDefinitionIndex = 68235;
 
 	class UIGoldMiningDayContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_9196D09A7539E4F5 oepnType; // 0x28
+		::NAGFHFBHMCJ oepnType; // 0x28
 
 		::System::Void _ctor()
 		{

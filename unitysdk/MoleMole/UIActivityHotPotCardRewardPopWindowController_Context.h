@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTCARDREWARDPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x196EAF60)
+#define MOLEMOLE_UIACTIVITYHOTPOTCARDREWARDPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F8E170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotCardRewardPopWindowController_Context_TypeDefinitionIndex = 86156;
+	inline static constexpr unsigned int UIActivityHotPotCardRewardPopWindowController_Context_TypeDefinitionIndex = 81612;
 
 	class UIActivityHotPotCardRewardPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

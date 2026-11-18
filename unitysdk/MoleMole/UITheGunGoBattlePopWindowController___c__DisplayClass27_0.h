@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7D02A4FBAD99FB31;
+class KHHLFJLLECE;
 namespace MoleMole { class UITheGunGoBattlePopWindowController; }
 
-#define MOLEMOLE_UITHEGUNGOBATTLEPOPWINDOWCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x130384E0)
-#define MOLEMOLE_UITHEGUNGOBATTLEPOPWINDOWCONTROLLER___C__DISPLAYCLASS27_0__SETHEAD_B__0_OFFSET UNITYSDK_OFFSET(0x130384F0)
+#define MOLEMOLE_UITHEGUNGOBATTLEPOPWINDOWCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10557780)
+#define MOLEMOLE_UITHEGUNGOBATTLEPOPWINDOWCONTROLLER___C__DISPLAYCLASS27_0__SETHEAD_B__0_OFFSET UNITYSDK_OFFSET(0x10557790)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITheGunGoBattlePopWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 44473;
+	inline static constexpr unsigned int UITheGunGoBattlePopWindowController___c__DisplayClass27_0_TypeDefinitionIndex = 56550;
 
 	class UITheGunGoBattlePopWindowController___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UITheGunGoBattlePopWindowController* __4__this; // 0x10
-		::Class_1_7D02A4FBAD99FB31* slotData; // 0x18
+		::KHHLFJLLECE* slotData; // 0x18
 
 		::System::Void _ctor()
 		{

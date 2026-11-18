@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/BehaviourTrees/BTNodeNested_1.h"
 #include "unitysdk/NodeCanvas/Framework/Status.h"
 
 namespace NodeCanvas::Framework { class BBParameter; }
@@ -10,23 +9,23 @@ namespace NodeCanvas::StateMachines { class FSM; }
 namespace System { class String; }
 namespace UnityEngine { class Component; }
 
-#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM_GET_SUBGRAPHPARAMETER_OFFSET UNITYSDK_OFFSET(0x1EF90470)
-#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM_GET_SUBGRAPH_OFFSET UNITYSDK_OFFSET(0x1EF903B0)
-#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF90480)
-#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM_ONFSMFINISH_OFFSET UNITYSDK_OFFSET(0x1EF90880)
-#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM_ONRESET_OFFSET UNITYSDK_OFFSET(0x1EF90890)
-#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM_SET_SUBGRAPH_OFFSET UNITYSDK_OFFSET(0x1EF90410)
-#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF909E0)
+#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM_GET_SUBGRAPHPARAMETER_OFFSET UNITYSDK_OFFSET(0x1F2FF6F0)
+#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM_GET_SUBGRAPH_OFFSET UNITYSDK_OFFSET(0x1F2FF630)
+#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1F2FF700)
+#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM_ONFSMFINISH_OFFSET UNITYSDK_OFFSET(0x1F2FFB10)
+#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F2FFB20)
+#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM_SET_SUBGRAPH_OFFSET UNITYSDK_OFFSET(0x1F2FF690)
+#define NODECANVAS_BEHAVIOURTREES_NESTEDFSM__CTOR_OFFSET UNITYSDK_OFFSET(0x1F2FFC80)
 
 namespace NodeCanvas::BehaviourTrees
 {
-	inline static constexpr unsigned int NestedFSM_TypeDefinitionIndex = 29874;
+	inline static constexpr unsigned int NestedFSM_TypeDefinitionIndex = 29678;
 
-	class NestedFSM : public ::NodeCanvas::BehaviourTrees::BTNodeNested_1<::NodeCanvas::StateMachines::FSM*>
+	class NestedFSM
 	{
 	public:
-		::System::String* failureState; // 0x90
-		::System::String* successState; // 0x98
+		::System::String* successState; // 0x90
+		::System::String* failureState; // 0x98
 		::NodeCanvas::Framework::BBParameter_1<::NodeCanvas::StateMachines::FSM*>* _nestedFSM; // 0xA0
 
 		::System::Void _ctor()

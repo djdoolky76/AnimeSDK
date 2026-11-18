@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_MARKAREASTART_INVOKE_OFFSET UNITYSDK_OFFSET(0x19247330)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_MARKAREASTART__CTOR_OFFSET UNITYSDK_OFFSET(0x192473C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_MARKAREASTART_INVOKE_OFFSET UNITYSDK_OFFSET(0x11912FA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_MARKAREASTART__CTOR_OFFSET UNITYSDK_OFFSET(0x11913030)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_MarkAreaStart_TypeDefinitionIndex = 61777;
+	inline static constexpr unsigned int LD_AbyssS2_MarkAreaStart_TypeDefinitionIndex = 81632;
 
-	class LD_AbyssS2_MarkAreaStart : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Int32>
+	class LD_AbyssS2_MarkAreaStart
 	{
 	public:
 		::System::Void _ctor()

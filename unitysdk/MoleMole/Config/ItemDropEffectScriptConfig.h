@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_ITEMDROPEFFECTSCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A941510)
+#define MOLEMOLE_CONFIG_ITEMDROPEFFECTSCRIPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B21F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ItemDropEffectScriptConfig_TypeDefinitionIndex = 74835;
+	inline static constexpr unsigned int ItemDropEffectScriptConfig_TypeDefinitionIndex = 56621;
 
 	class ItemDropEffectScriptConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

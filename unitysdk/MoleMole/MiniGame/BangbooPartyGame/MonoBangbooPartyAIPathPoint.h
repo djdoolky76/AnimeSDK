@@ -4,16 +4,17 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOBANGBOOPARTYAIPATHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x13849340)
+#define MOLEMOLE_MINIGAME_BANGBOOPARTYGAME_MONOBANGBOOPARTYAIPATHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x139EEBF0)
 
 namespace MoleMole::MiniGame::BangbooPartyGame
 {
-	inline static constexpr unsigned int MonoBangbooPartyAIPathPoint_TypeDefinitionIndex = 80366;
+	inline static constexpr unsigned int MonoBangbooPartyAIPathPoint_TypeDefinitionIndex = 45926;
 
 	class MonoBangbooPartyAIPathPoint : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean IsFirst; // 0x18
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::MoleMole::MiniGame::BangbooPartyGame::MonoBangbooPartyAIPathPoint*>* NextLinks; // 0x20
 		::UnityEngine::GameObject* BlockingDoor; // 0x28
 		::System::Boolean IsJump; // 0x30

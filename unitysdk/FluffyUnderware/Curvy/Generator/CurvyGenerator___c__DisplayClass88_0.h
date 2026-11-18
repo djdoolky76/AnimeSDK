@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CURVYGENERATOR___C__DISPLAYCLASS88_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC1CB0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CURVYGENERATOR___C__DISPLAYCLASS88_0__UPDATEMODULESRECURSIVEINPUTS_B__1_OFFSET UNITYSDK_OFFSET(0x1EEC1CC0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CURVYGENERATOR___C__DISPLAYCLASS88_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F248A70)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CURVYGENERATOR___C__DISPLAYCLASS88_0__UPDATEMODULESRECURSIVEINPUTS_B__1_OFFSET UNITYSDK_OFFSET(0x1F248A80)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CurvyGenerator___c__DisplayClass88_0_TypeDefinitionIndex = 39659;
+	inline static constexpr unsigned int CurvyGenerator___c__DisplayClass88_0_TypeDefinitionIndex = 37704;
 
 	class CurvyGenerator___c__DisplayClass88_0 : public ::System::Object
 	{

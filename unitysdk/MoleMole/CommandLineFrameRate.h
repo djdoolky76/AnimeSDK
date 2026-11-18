@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/CommandLineSettingBase_2.h"
 #include "unitysdk/System/Nullable_1.h"
 
 namespace MoleMole { class FrameRateProfileContext; }
 
-#define MOLEMOLE_COMMANDLINEFRAMERATE_METHOD_2_47D9418D793AEC80_OFFSET UNITYSDK_OFFSET(0x150E5690)
-#define MOLEMOLE_COMMANDLINEFRAMERATE_METHOD_2_638C4D5CE624AD09_OFFSET UNITYSDK_OFFSET(0x150E5580)
-#define MOLEMOLE_COMMANDLINEFRAMERATE__CTOR_OFFSET UNITYSDK_OFFSET(0x150E5650)
+#define MOLEMOLE_COMMANDLINEFRAMERATE_ALEKEEINDAO_OFFSET UNITYSDK_OFFSET(0x192252E0)
+#define MOLEMOLE_COMMANDLINEFRAMERATE_PMKOMFHNKOE_OFFSET UNITYSDK_OFFSET(0x192253F0)
+#define MOLEMOLE_COMMANDLINEFRAMERATE__CTOR_OFFSET UNITYSDK_OFFSET(0x192253B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CommandLineFrameRate_TypeDefinitionIndex = 84580;
+	inline static constexpr unsigned int CommandLineFrameRate_TypeDefinitionIndex = 56230;
 
-	class CommandLineFrameRate : public ::MoleMole::CommandLineSettingBase_2<::MoleMole::FrameRateProfileContext*, ::MoleMole::CommandLineFrameRate*>
+	class CommandLineFrameRate
 	{
 	public:
 		::System::Nullable_1<::System::Int32> FrameRate; // 0x18
@@ -23,14 +22,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEFRAMERATE__CTOR_OFFSET))(this);
 		}
 
-		::MoleMole::CommandLineFrameRate* Method_2_638C4D5CE624AD09(::MoleMole::FrameRateProfileContext* a1)
+		::MoleMole::CommandLineFrameRate* ALEKEEINDAO(::MoleMole::FrameRateProfileContext* LJBPECKCCEA)
 		{
-			return ((::MoleMole::CommandLineFrameRate*(*)(::PVOID, ::MoleMole::FrameRateProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEFRAMERATE_METHOD_2_638C4D5CE624AD09_OFFSET))(this, a1);
+			return ((::MoleMole::CommandLineFrameRate*(*)(::PVOID, ::MoleMole::FrameRateProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEFRAMERATE_ALEKEEINDAO_OFFSET))(this, LJBPECKCCEA);
 		}
 
-		::MoleMole::FrameRateProfileContext* Method_2_47D9418D793AEC80(::MoleMole::FrameRateProfileContext* a1)
+		::MoleMole::FrameRateProfileContext* PMKOMFHNKOE(::MoleMole::FrameRateProfileContext* LJBPECKCCEA)
 		{
-			return ((::MoleMole::FrameRateProfileContext*(*)(::PVOID, ::MoleMole::FrameRateProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEFRAMERATE_METHOD_2_47D9418D793AEC80_OFFSET))(this, a1);
+			return ((::MoleMole::FrameRateProfileContext*(*)(::PVOID, ::MoleMole::FrameRateProfileContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_COMMANDLINEFRAMERATE_PMKOMFHNKOE_OFFSET))(this, LJBPECKCCEA);
 		}
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int UnsafeNclNativeMethods_TypeDefinitionIndex = 3480;
+	inline static constexpr unsigned int UnsafeNclNativeMethods_TypeDefinitionIndex = 3479;
 
 	class UnsafeNclNativeMethods : public ::System::Object
 	{

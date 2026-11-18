@@ -4,7 +4,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int RngToolkit_IntFloatUnion_TypeDefinitionIndex = 82976;
+	inline static constexpr unsigned int RngToolkit_IntFloatUnion_TypeDefinitionIndex = 39256;
 
 	struct alignas(4) RngToolkit_IntFloatUnion
 	{

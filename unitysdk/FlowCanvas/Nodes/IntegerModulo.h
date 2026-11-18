@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_INTEGERMODULO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E7226B0)
-#define FLOWCANVAS_NODES_INTEGERMODULO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7226C0)
+#define FLOWCANVAS_NODES_INTEGERMODULO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E9C79D0)
+#define FLOWCANVAS_NODES_INTEGERMODULO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C79E0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IntegerModulo_TypeDefinitionIndex = 31119;
+	inline static constexpr unsigned int IntegerModulo_TypeDefinitionIndex = 29735;
 
-	class IntegerModulo : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Int32, ::System::Int32, ::System::Int32>
+	class IntegerModulo
 	{
 	public:
 		::System::Void _ctor()

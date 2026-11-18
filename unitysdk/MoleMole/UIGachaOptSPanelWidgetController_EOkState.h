@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGachaOptSPanelWidgetController_EOkState_TypeDefinitionIndex = 66999;
+	inline static constexpr unsigned int UIGachaOptSPanelWidgetController_EOkState_TypeDefinitionIndex = 46281;
 
 	enum class UIGachaOptSPanelWidgetController_EOkState : ::System::Int32
 	{

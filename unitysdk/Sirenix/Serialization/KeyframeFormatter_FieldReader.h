@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int KeyframeFormatter_FieldReader_TypeDefinitionIndex = 7588;
+	inline static constexpr unsigned int KeyframeFormatter_FieldReader_TypeDefinitionIndex = 7600;
 
 	struct alignas(8) KeyframeFormatter_FieldReader
 	{

@@ -5,17 +5,18 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NPCCROWD_AI_AIACTIONTELEPORTCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x830CA0)
-#define NPCCROWD_AI_AIACTIONTELEPORTCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x830CF0)
+#define NPCCROWD_AI_AIACTIONTELEPORTCONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x5907D0)
+#define NPCCROWD_AI_AIACTIONTELEPORTCONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x590820)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionTeleportConfig_TypeDefinitionIndex = 84284;
+	inline static constexpr unsigned int AIActionTeleportConfig_TypeDefinitionIndex = 87300;
 
-	struct alignas(8) AIActionTeleportConfig
+	struct alignas(4) AIActionTeleportConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 		::System::Boolean findPlayerPosAround; // 0x18
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 position; // 0x1C
 		::UnityEngine::Quaternion rotation; // 0x28
 

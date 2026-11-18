@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_MoveToTask.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORMOVETOTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xF76AFD0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORMOVETOTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xF76B040)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORMOVETOTASK_LINK_OFFSET UNITYSDK_OFFSET(0xF76AF60)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORMOVETOTASK_TICK_OFFSET UNITYSDK_OFFSET(0xF76B0B0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORMOVETOTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xF76B130)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORMOVETOTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xFD23E70)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORMOVETOTASK_EXITSTATE_OFFSET UNITYSDK_OFFSET(0xFD23EE0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORMOVETOTASK_LINK_OFFSET UNITYSDK_OFFSET(0xFD23E00)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORMOVETOTASK_TICK_OFFSET UNITYSDK_OFFSET(0xFD23F50)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_ATTRACTORMOVETOTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xFD23FD0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_AttractorMoveToTask_TypeDefinitionIndex = 49378;
+	inline static constexpr unsigned int VirtualProxy_AttractorMoveToTask_TypeDefinitionIndex = 85528;
 
 	class VirtualProxy_AttractorMoveToTask : public ::NPCCrowd::Ability::VirtualProxy_MoveToTask
 	{

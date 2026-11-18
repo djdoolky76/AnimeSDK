@@ -4,20 +4,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define LEAVESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEDF7C0)
+#define LEAVESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D26FF50)
 
-inline static constexpr unsigned int LeavesData_TypeDefinitionIndex = 27031;
+inline static constexpr unsigned int LeavesData_TypeDefinitionIndex = 27000;
 
 class LeavesData : public ::System::Object
 {
 public:
-	static ::UnityEngine::Vector3* StaticGet_InactivePosition()
-	{
-		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(LeavesData_TypeDefinitionIndex)->GetStaticField(0x6080);
-	}
 	static ::LeavesData_int2x5* StaticGet_EdgeTable()
 	{
-		return (::LeavesData_int2x5*)Il2CppClass::FromTypeDefinitionIndex(LeavesData_TypeDefinitionIndex)->GetStaticField(0x608C);
+		return (::LeavesData_int2x5*)Il2CppClass::FromTypeDefinitionIndex(LeavesData_TypeDefinitionIndex)->GetStaticField(0x60A0);
+	}
+	static ::UnityEngine::Vector3* StaticGet_InactivePosition()
+	{
+		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(LeavesData_TypeDefinitionIndex)->GetStaticField(0x60C8);
 	}
 	// static const ::System::Int32 VerticesPerLeaf = 0x4; // 0x0
 	// static const ::System::Int32 EdgesPerLeaf = 0x5; // 0x0

@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FLUFFYUNDERWARE_DEVTOOLS_DTTIME_GET_DELTATIME_OFFSET UNITYSDK_OFFSET(0x1EA4DC50)
-#define FLUFFYUNDERWARE_DEVTOOLS_DTTIME_GET_TIMESINCESTARTUP_OFFSET UNITYSDK_OFFSET(0x1EA4DC30)
-#define FLUFFYUNDERWARE_DEVTOOLS_DTTIME_INITIALIZEEDITORTIME_OFFSET UNITYSDK_OFFSET(0x1EA4DC80)
-#define FLUFFYUNDERWARE_DEVTOOLS_DTTIME_UPDATEEDITORTIME_OFFSET UNITYSDK_OFFSET(0x1EA4DCB0)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTTIME_GET_DELTATIME_OFFSET UNITYSDK_OFFSET(0x1ED568D0)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTTIME_GET_TIMESINCESTARTUP_OFFSET UNITYSDK_OFFSET(0x1ED568B0)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTTIME_INITIALIZEEDITORTIME_OFFSET UNITYSDK_OFFSET(0x1ED56900)
+#define FLUFFYUNDERWARE_DEVTOOLS_DTTIME_UPDATEEDITORTIME_OFFSET UNITYSDK_OFFSET(0x1ED56930)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int DTTime_TypeDefinitionIndex = 28940;
+	inline static constexpr unsigned int DTTime_TypeDefinitionIndex = 28379;
 
 	class DTTime : public ::System::Object
 	{
 	public:
 		static ::System::Single* StaticGet__EditorDeltaTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DTTime_TypeDefinitionIndex)->GetStaticField(0x78B0);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DTTime_TypeDefinitionIndex)->GetStaticField(0x7CA0);
 		}
 		static ::System::Single* StaticGet__EditorLastTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DTTime_TypeDefinitionIndex)->GetStaticField(0x78B4);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DTTime_TypeDefinitionIndex)->GetStaticField(0x7CA4);
 		}
 
 		static ::System::Double get_TimeSinceStartup()

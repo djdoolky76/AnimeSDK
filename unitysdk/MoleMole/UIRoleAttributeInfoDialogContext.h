@@ -5,17 +5,17 @@
 class IUIProperty;
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MOLEMOLE_UIROLEATTRIBUTEINFODIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15E731D0)
+#define MOLEMOLE_UIROLEATTRIBUTEINFODIALOGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17D884C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleAttributeInfoDialogContext_TypeDefinitionIndex = 70685;
+	inline static constexpr unsigned int UIRoleAttributeInfoDialogContext_TypeDefinitionIndex = 56286;
 
 	class UIRoleAttributeInfoDialogContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::IList_1<::System::Int32>* HitTypes; // 0x28
-		::IUIProperty* AvatarInfo; // 0x30
+		::IUIProperty* AvatarInfo; // 0x28
+		::System::Collections::Generic::IList_1<::System::Int32>* HitTypes; // 0x30
 		::System::Collections::Generic::IList_1<::System::Int32>* DmgElems; // 0x38
 		::System::Int32 InitSelectedIndex; // 0x40
 		::System::Int32 ProfessionID; // 0x44

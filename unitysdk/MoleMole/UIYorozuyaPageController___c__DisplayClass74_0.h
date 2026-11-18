@@ -5,12 +5,12 @@
 namespace MoleMole { class UIYorozuyaPageController; }
 namespace MoleMole { class UIYorozuyaTips; }
 
-#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS74_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10AF6010)
-#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS74_0__STARTFAIRY_B__0_OFFSET UNITYSDK_OFFSET(0x10AF6020)
+#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS74_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16719950)
+#define MOLEMOLE_UIYOROZUYAPAGECONTROLLER___C__DISPLAYCLASS74_0__STARTFAIRY_B__0_OFFSET UNITYSDK_OFFSET(0x16719960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaPageController___c__DisplayClass74_0_TypeDefinitionIndex = 54559;
+	inline static constexpr unsigned int UIYorozuyaPageController___c__DisplayClass74_0_TypeDefinitionIndex = 42096;
 
 	class UIYorozuyaPageController___c__DisplayClass74_0 : public ::System::Object
 	{

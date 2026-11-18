@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/AssetPath.h"
-#include "unitysdk/NPCCrowd/NPCSoftAssetPath_1.h"
 
-namespace UnityEngine { class Avatar; }
-
-#define NPCCROWD_NPCSOFTAVATARPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0xF6162C0)
-#define NPCCROWD_NPCSOFTAVATARPATH__CTOR_OFFSET UNITYSDK_OFFSET(0xF6162A0)
+#define NPCCROWD_NPCSOFTAVATARPATH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15F492C0)
+#define NPCCROWD_NPCSOFTAVATARPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x15F492A0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCSoftAvatarPath_TypeDefinitionIndex = 56450;
+	inline static constexpr unsigned int NPCSoftAvatarPath_TypeDefinitionIndex = 87839;
 
-	class NPCSoftAvatarPath : public ::NPCCrowd::NPCSoftAssetPath_1<::UnityEngine::Avatar*>
+	class NPCSoftAvatarPath
 	{
 	public:
 		::System::Void _ctor()

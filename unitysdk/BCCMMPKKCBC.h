@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EMCCOLIGOPC_FHJKNMCPDAK.h"
+#include "unitysdk/GPJMHAAEIKO.h"
+#include "unitysdk/NCJLKIIGPIC.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/EMCCOLIGOPC.h"
+
+namespace System { class Object; }
+
+#define BCCMMPKKCBC_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x937CB0)
+#define BCCMMPKKCBC_EQUALS_OFFSET UNITYSDK_OFFSET(0x937BF0)
+#define BCCMMPKKCBC_FLFPNGEPLLO_OFFSET UNITYSDK_OFFSET(0x1EDECB10)
+#define BCCMMPKKCBC_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x937CC0)
+#define BCCMMPKKCBC_HLPHPBAODIF_OFFSET UNITYSDK_OFFSET(0x937D60)
+#define BCCMMPKKCBC_JGBGPJACDOG_OFFSET UNITYSDK_OFFSET(0x937DD0)
+#define BCCMMPKKCBC__CTOR_OFFSET UNITYSDK_OFFSET(0x3D9940)
+
+inline static constexpr unsigned int BCCMMPKKCBC_TypeDefinitionIndex = 18767;
+
+struct alignas(4) BCCMMPKKCBC
+{
+	::NCJLKIIGPIC FJBPAKNMBLB; // 0x10
+	::GPJMHAAEIKO LOIEHBLKDPE; // 0x14
+	::EMCCOLIGOPC_FHJKNMCPDAK NBHCOOCBAHN; // 0x18
+
+	::System::Void _ctor(::NCJLKIIGPIC CGNGIBNMDHP, ::GPJMHAAEIKO CBHKCCOFHKA, ::EMCCOLIGOPC_FHJKNMCPDAK BKDNPCDDMKP)
+	{
+		return ((::System::Void(*)(::PVOID, ::NCJLKIIGPIC, ::GPJMHAAEIKO, ::EMCCOLIGOPC_FHJKNMCPDAK))((::PBYTE)hIl2Cpp + BCCMMPKKCBC__CTOR_OFFSET))(this, CGNGIBNMDHP, CBHKCCOFHKA, BKDNPCDDMKP);
+	}
+
+	/*
+	::System::Boolean Equals(::BCCMMPKKCBC LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::BCCMMPKKCBC))((::PBYTE)hIl2Cpp + BCCMMPKKCBC_EQUALS_OFFSET))(this, LIBPKNHDIGP);
+	}
+	*/
+
+	::System::Boolean Equals_1(::System::Object* EIFONLCJOPG)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + BCCMMPKKCBC_EQUALS_1_OFFSET))(this, EIFONLCJOPG);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BCCMMPKKCBC_GETHASHCODE_OFFSET))(this);
+	}
+
+	::System::Int32 HLPHPBAODIF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BCCMMPKKCBC_HLPHPBAODIF_OFFSET))(this);
+	}
+
+	::System::Boolean JGBGPJACDOG(::System::Object* MIALFKCCCPI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + BCCMMPKKCBC_JGBGPJACDOG_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	/*
+	static ::BCCMMPKKCBC FLFPNGEPLLO(::EMCCOLIGOPC HAOCENELOMG)
+	{
+		return ((::BCCMMPKKCBC(*)(::EMCCOLIGOPC))((::PBYTE)hIl2Cpp + BCCMMPKKCBC_FLFPNGEPLLO_OFFSET))(HAOCENELOMG);
+	}
+	*/
+};

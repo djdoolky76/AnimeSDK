@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_DYNAMICUNLOADPRIORITYUTIL_FROMINT_OFFSET UNITYSDK_OFFSET(0xF614D50)
-#define NPCCROWD_DYNAMICUNLOADPRIORITYUTIL_TODISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xF614C60)
+#define NPCCROWD_DYNAMICUNLOADPRIORITYUTIL_FROMINT_OFFSET UNITYSDK_OFFSET(0x15F47D60)
+#define NPCCROWD_DYNAMICUNLOADPRIORITYUTIL_TODISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x15F47C70)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int DynamicUnloadPriorityUtil_TypeDefinitionIndex = 90574;
+	inline static constexpr unsigned int DynamicUnloadPriorityUtil_TypeDefinitionIndex = 53354;
 
 	class DynamicUnloadPriorityUtil : public ::System::Object
 	{

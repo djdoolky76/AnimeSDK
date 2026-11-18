@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_CANMOVEBYUSERINTIMELINE_OFFSET UNITYSDK_OFFSET(0x1A5F5790)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1A5F56E0)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_METHOD_5_652F102150AC9967_OFFSET UNITYSDK_OFFSET(0x1A5F5830)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_METHOD_5_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x1A5F5870)
-#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F57D0)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_ACNEJFLOKKC_OFFSET UNITYSDK_OFFSET(0x19D01910)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_BPMKEKLABAP_OFFSET UNITYSDK_OFFSET(0x19D018D0)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_CANMOVEBYUSERINTIMELINE_OFFSET UNITYSDK_OFFSET(0x19D01830)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19D01780)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19D01870)
 
 namespace MoleMole::Timeline::ZNet
 {
-	inline static constexpr unsigned int ZNetAbilityScriptSupportTrack_TypeDefinitionIndex = 65780;
+	inline static constexpr unsigned int ZNetAbilityScriptSupportTrack_TypeDefinitionIndex = 82296;
 
 	class ZNetAbilityScriptSupportTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -25,9 +25,9 @@ namespace MoleMole::Timeline::ZNet
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* JEIDPPCEHLD, ::UnityEngine::Timeline::TimelineClip* PHGBOCIDLEI)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_CREATEPLAYABLE_OFFSET))(this, MHPNGBGGMMN, JEIDPPCEHLD, PHGBOCIDLEI);
 		}
 
 		::System::Boolean CanMoveByUserInTimeline()
@@ -35,14 +35,14 @@ namespace MoleMole::Timeline::ZNet
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_CANMOVEBYUSERINTIMELINE_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable Method_5_652F102150AC9967(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
+		::UnityEngine::Playables::Playable BPMKEKLABAP(::UnityEngine::Playables::PlayableGraph MIALFKCCCPI, ::UnityEngine::GameObject* KMGKAIDEIBA, ::UnityEngine::Timeline::TimelineClip* FDHMCIFPNCK)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_METHOD_5_652F102150AC9967_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_BPMKEKLABAP_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
 		}
 
-		::System::Boolean Method_5_F0088C88851A7DFB()
+		::System::Boolean ACNEJFLOKKC()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_METHOD_5_F0088C88851A7DFB_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTSUPPORTTRACK_ACNEJFLOKKC_OFFSET))(this);
 		}
 	};
 }

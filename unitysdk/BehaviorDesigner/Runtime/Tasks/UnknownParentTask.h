@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/ParentTask.h"
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNKNOWNPARENTTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F837980)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNKNOWNPARENTTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC446F0)
 
 namespace BehaviorDesigner::Runtime::Tasks
 {
-	inline static constexpr unsigned int UnknownParentTask_TypeDefinitionIndex = 34016;
+	inline static constexpr unsigned int UnknownParentTask_TypeDefinitionIndex = 33562;
 
 	class UnknownParentTask : public ::BehaviorDesigner::Runtime::Tasks::ParentTask
 	{

@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BHJEMOBFFFG.h"
+#include "unitysdk/EAIOHODECAO.h"
+
+class DMFCAPLHHON;
+namespace System { class String; }
+
+#define MIIAJCKCECD_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x1F01AED0)
+#define MIIAJCKCECD_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x1F0199E0)
+#define MIIAJCKCECD__CTOR_OFFSET UNITYSDK_OFFSET(0x1F01AEC0)
+
+inline static constexpr unsigned int MIIAJCKCECD_TypeDefinitionIndex = 36075;
+
+class MIIAJCKCECD : public ::EAIOHODECAO
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIIAJCKCECD__CTOR_OFFSET))(this);
+	}
+
+	::EAIOHODECAO* OJENCMOGDKL(::DMFCAPLHHON* AAOCANGHBDG, ::BHJEMOBFFFG DPHCBOBHNGI, ::System::String* FMMNDNJDCBF, ::System::String* MNEIGDIOHDE)
+	{
+		return ((::EAIOHODECAO*(*)(::PVOID, ::DMFCAPLHHON*, ::BHJEMOBFFFG, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIIAJCKCECD_OJENCMOGDKL_OFFSET))(this, AAOCANGHBDG, DPHCBOBHNGI, FMMNDNJDCBF, MNEIGDIOHDE);
+	}
+
+	::EAIOHODECAO* ECNOGHHOPPF(::DMFCAPLHHON* MIALFKCCCPI, ::BHJEMOBFFFG KMGKAIDEIBA, ::System::String* FDHMCIFPNCK, ::System::String* MPBJAGIKPJM)
+	{
+		return ((::EAIOHODECAO*(*)(::PVOID, ::DMFCAPLHHON*, ::BHJEMOBFFFG, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIIAJCKCECD_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM);
+	}
+};

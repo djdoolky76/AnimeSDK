@@ -9,19 +9,19 @@ namespace MoleMole::Battle { class Entity; }
 namespace UnityEngine { class BoxCollider; }
 namespace UnityEngine { class Rigidbody; }
 
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x144E3BE0)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_9D3E788D6AA8892A_OFFSET UNITYSDK_OFFSET(0x144E3CC0)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0x144E3F10)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_FA61D402EDC76748_OFFSET UNITYSDK_OFFSET(0x144E36D0)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x144E2DC0)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x144E2C70)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x144E2F10)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_START_OFFSET UNITYSDK_OFFSET(0x144E2B00)
-#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE__CTOR_OFFSET UNITYSDK_OFFSET(0x144E4030)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_HMNNFPJAHMI_OFFSET UNITYSDK_OFFSET(0x10431060)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_IJNDGMPHHJP_OFFSET UNITYSDK_OFFSET(0x10430B50)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_IKOJFLNKIDG_OFFSET UNITYSDK_OFFSET(0x10431140)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_NBFDPKPDADC_OFFSET UNITYSDK_OFFSET(0x10431390)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x10430240)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x104300F0)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x10430390)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_START_OFFSET UNITYSDK_OFFSET(0x1042FF80)
+#define MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE__CTOR_OFFSET UNITYSDK_OFFSET(0x104314B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoBuddyClimbObstancle_TypeDefinitionIndex = 79939;
+	inline static constexpr unsigned int MonoBuddyClimbObstancle_TypeDefinitionIndex = 70422;
 
 	class MonoBuddyClimbObstancle : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,17 +31,19 @@ namespace MoleMole
 		::System::Single stepLow; // 0x20
 		::System::Single stepSpeed; // 0x24
 		::System::Single climbTimer; // 0x28
-		::UnityEngine::LayerMask Field_5_5; // 0x2C
-		::Il2CppArray<::UnityEngine::RaycastHit>* Field_5_4; // 0x30
-		::System::Boolean Field_5_11; // 0x38
-		::MoleMole::Battle::Entity* Field_5_10; // 0x40
-		::System::Single Field_5_9; // 0x48
-		::System::Single Field_5_8; // 0x4C
-		::System::Single Field_5_15; // 0x50
+		::UnityEngine::LayerMask FBNGKPGLADH; // 0x2C
+		::Il2CppArray<::UnityEngine::RaycastHit>* DGDEFOCBJAC; // 0x30
+		::System::Boolean KLGOLNGGKNM; // 0x38
+		::System::Byte _padding0[0x7];
+		::MoleMole::Battle::Entity* CJHKKDKFGJE; // 0x40
+		::System::Single HACJFKBLODH; // 0x48
+		::System::Single MGFBHAFEHHB; // 0x4C
+		::System::Single GLGOOKBDEOK; // 0x50
 		::System::Boolean isOpen; // 0x54
-		::UnityEngine::Rigidbody* Field_5_13; // 0x58
-		::System::Single Field_5_12; // 0x60
-		::System::Single Field_5_19; // 0x64
+		::System::Byte _padding1[0x3];
+		::UnityEngine::Rigidbody* CFCDGNIJMNL; // 0x58
+		::System::Single MOCBLOAHMBC; // 0x60
+		::System::Single NACGECEJGOE; // 0x64
 
 		::System::Void _ctor()
 		{
@@ -68,24 +70,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_ONFIXEDUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_FA61D402EDC76748(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single& a3, ::UnityEngine::BoxCollider*& a4)
+		::System::Void HMNNFPJAHMI()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single&, ::UnityEngine::BoxCollider*&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_FA61D402EDC76748_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_HMNNFPJAHMI_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9D3E788D6AA8892A(::System::Single a1)
+		::System::Void IKOJFLNKIDG(::System::Single EJAOAGGJHHA)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_9D3E788D6AA8892A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_IKOJFLNKIDG_OFFSET))(this, EJAOAGGJHHA);
 		}
 
-		::System::Void Method_5_1290EA767C459179()
+		::System::Void IJNDGMPHHJP(::UnityEngine::Vector3 PDODAFIEJJO, ::UnityEngine::Vector3 KGMLKDGAJGN, ::System::Single& PMEHNJABPAN, ::UnityEngine::BoxCollider*& LMPJGPGDDPJ)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_1290EA767C459179_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single&, ::UnityEngine::BoxCollider*&))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_IJNDGMPHHJP_OFFSET))(this, PDODAFIEJJO, KGMLKDGAJGN, PMEHNJABPAN, LMPJGPGDDPJ);
 		}
 
-		::System::Void Method_5_F4ADC37B63F4E9EF()
+		::System::Void NBFDPKPDADC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_METHOD_5_F4ADC37B63F4E9EF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOBUDDYCLIMBOBSTANCLE_NBFDPKPDADC_OFFSET))(this);
 		}
 	};
 }

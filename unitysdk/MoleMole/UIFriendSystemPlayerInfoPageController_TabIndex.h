@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendSystemPlayerInfoPageController_TabIndex_TypeDefinitionIndex = 54358;
+	inline static constexpr unsigned int UIFriendSystemPlayerInfoPageController_TabIndex_TypeDefinitionIndex = 38902;
 
 	enum class UIFriendSystemPlayerInfoPageController_TabIndex : ::System::Byte
 	{
-		PersonalInfo = 0x0,
-		RopeMaker = 0x1,
+		PersonalInfo = 0,
+		RopeMaker = 1,
 	};
 }

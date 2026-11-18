@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int UriParser_UriQuirksVersion_TypeDefinitionIndex = 2688;
+	inline static constexpr unsigned int UriParser_UriQuirksVersion_TypeDefinitionIndex = 2687;
 
 	enum class UriParser_UriQuirksVersion : ::System::Int32
 	{

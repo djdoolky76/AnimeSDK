@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_PREVIOUSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9E6720)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_PREVIOUSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8F9140)
 
 namespace Mono::Globalization::Unicode
 {
@@ -11,7 +11,8 @@ namespace Mono::Globalization::Unicode
 	struct alignas(8) SimpleCollator_PreviousInfo
 	{
 		::System::Int32 Code; // 0x10
-		::System::Byte* SortKey; // 0x18
+		::System::Byte _padding0[0x4];
+		::PVOID SortKey; // 0x18
 
 		::System::Void _ctor(::System::Boolean dummy)
 		{

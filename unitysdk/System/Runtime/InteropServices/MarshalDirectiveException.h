@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALDIRECTIVEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C3262F0)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALDIRECTIVEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C326380)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALDIRECTIVEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C326230)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALDIRECTIVEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C89D870)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALDIRECTIVEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C89D900)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALDIRECTIVEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C89D7B0)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int MarshalDirectiveException_TypeDefinitionIndex = 1433;
+	inline static constexpr unsigned int MarshalDirectiveException_TypeDefinitionIndex = 1432;
 
 	class MarshalDirectiveException : public ::System::SystemException
 	{

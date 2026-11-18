@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Security/Interface/AlertDescription.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_errorstate.h"
 #include "unitysdk/Mono/Unity/UnityTls_unitytls_x509verify_result.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Mono/Unity/UnityTls_unitytls_errorstate.h"
 
 namespace System { class String; }
 
-#define MONO_UNITY_DEBUG_CHECKANDTHROW_1_OFFSET UNITYSDK_OFFSET(0x1D69F870)
-#define MONO_UNITY_DEBUG_CHECKANDTHROW_OFFSET UNITYSDK_OFFSET(0x1D69F7D0)
+#define MONO_UNITY_DEBUG_CHECKANDTHROW_1_OFFSET UNITYSDK_OFFSET(0x1DB99A90)
+#define MONO_UNITY_DEBUG_CHECKANDTHROW_OFFSET UNITYSDK_OFFSET(0x1DB999F0)
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int Debug_TypeDefinitionIndex = 2523;
+	inline static constexpr unsigned int Debug_TypeDefinitionIndex = 2522;
 
 	class Debug : public ::System::Object
 	{

@@ -4,25 +4,29 @@
 #include "unitysdk/Foundation/StateMachine/Parameter.h"
 #include "unitysdk/Foundation/StateMachine/ParameterType.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/BitSet256.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/Unity/Collections/NativeSlice_1.h"
 
-#define FOUNDATION_STATEMACHINE_CONDITION_CHECKBOOL_OFFSET UNITYSDK_OFFSET(0x1F562960)
-#define FOUNDATION_STATEMACHINE_CONDITION_CHECKFLOAT_OFFSET UNITYSDK_OFFSET(0x1F5628D0)
-#define FOUNDATION_STATEMACHINE_CONDITION_CHECKINT_OFFSET UNITYSDK_OFFSET(0x1F562910)
-#define FOUNDATION_STATEMACHINE_CONDITION_CHECKTRIGGER_OFFSET UNITYSDK_OFFSET(0x1F562980)
-#define FOUNDATION_STATEMACHINE_CONDITION_CHECK_1_OFFSET UNITYSDK_OFFSET(0x1F562990)
-#define FOUNDATION_STATEMACHINE_CONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0xAA8920)
-#define FOUNDATION_STATEMACHINE_CONDITION_EQUALS_OFFSET UNITYSDK_OFFSET(0xAA8900)
-#define FOUNDATION_STATEMACHINE_CONDITION_GET_PARAMINDEX_OFFSET UNITYSDK_OFFSET(0x324690)
-#define FOUNDATION_STATEMACHINE_CONDITION_GET_PARAMTYPE_OFFSET UNITYSDK_OFFSET(0xAA88E0)
-#define FOUNDATION_STATEMACHINE_CONDITION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xAA88F0)
+#define FOUNDATION_STATEMACHINE_CONDITION_CHECKBOOL_OFFSET UNITYSDK_OFFSET(0x1F91A1D0)
+#define FOUNDATION_STATEMACHINE_CONDITION_CHECKFLOAT_OFFSET UNITYSDK_OFFSET(0x1F91A140)
+#define FOUNDATION_STATEMACHINE_CONDITION_CHECKINT_OFFSET UNITYSDK_OFFSET(0x1F91A180)
+#define FOUNDATION_STATEMACHINE_CONDITION_CHECKTRIGGER_OFFSET UNITYSDK_OFFSET(0x1F91A1F0)
+#define FOUNDATION_STATEMACHINE_CONDITION_CHECK_1_OFFSET UNITYSDK_OFFSET(0x1F91A200)
+#define FOUNDATION_STATEMACHINE_CONDITION_CHECK_OFFSET UNITYSDK_OFFSET(0x98ECB0)
+#define FOUNDATION_STATEMACHINE_CONDITION_EQUALS_OFFSET UNITYSDK_OFFSET(0x98EC90)
+#define FOUNDATION_STATEMACHINE_CONDITION_GET_PARAMINDEX_OFFSET UNITYSDK_OFFSET(0x3583D0)
+#define FOUNDATION_STATEMACHINE_CONDITION_GET_PARAMTYPE_OFFSET UNITYSDK_OFFSET(0x98EC70)
+#define FOUNDATION_STATEMACHINE_CONDITION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x98EC80)
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int Condition_TypeDefinitionIndex = 8619;
+	inline static constexpr unsigned int Condition_TypeDefinitionIndex = 8753;
 
 	struct alignas(4) Condition
 	{
 		::System::UInt16 _data; // 0x10
+		::System::Byte _padding0[0x2];
 		::Foundation::StateMachine::Parameter _threshold; // 0x14
 
 		::System::Int32 get_ParamIndex()
@@ -40,22 +44,22 @@ namespace Foundation::StateMachine
 			return ((::Foundation::StateMachine::ConditionType(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_STATEMACHINE_CONDITION_GET_TYPE_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::Foundation::StateMachine::Condition other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::StateMachine::Condition))((::PBYTE)hIl2Cpp + FOUNDATION_STATEMACHINE_CONDITION_EQUALS_OFFSET))(this, other);
 		}
-
-		/*
-		::System::Boolean Check(::System::ReadOnlySpan_1<::Foundation::StateMachine::Parameter> params)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ReadOnlySpan_1<::Foundation::StateMachine::Parameter>))((::PBYTE)hIl2Cpp + FOUNDATION_STATEMACHINE_CONDITION_CHECK_OFFSET))(this, params);
-		}
 		*/
 
-		/*
-		static ::Foundation::BitSet256 Check_1(::System::ReadOnlySpan_1<::Foundation::StateMachine::Parameter> params, ::Unity::Collections::NativeSlice_1<::Foundation::StateMachine::Condition> conditions)
+		::System::Boolean Check(::System::ReadOnlySpan_1_F48FB86071006F3E<::Foundation::StateMachine::Parameter> params)
 		{
-			return ((::Foundation::BitSet256(*)(::System::ReadOnlySpan_1<::Foundation::StateMachine::Parameter>, ::Unity::Collections::NativeSlice_1<::Foundation::StateMachine::Condition>))((::PBYTE)hIl2Cpp + FOUNDATION_STATEMACHINE_CONDITION_CHECK_1_OFFSET))(params, conditions);
+			return ((::System::Boolean(*)(::PVOID, ::System::ReadOnlySpan_1_F48FB86071006F3E<::Foundation::StateMachine::Parameter>))((::PBYTE)hIl2Cpp + FOUNDATION_STATEMACHINE_CONDITION_CHECK_OFFSET))(this, params);
+		}
+
+		/*
+		static ::Foundation::BitSet256 Check_1(::System::ReadOnlySpan_1_F48FB86071006F3E<::Foundation::StateMachine::Parameter> params, ::Unity::Collections::NativeSlice_1<::Foundation::StateMachine::Condition> conditions)
+		{
+			return ((::Foundation::BitSet256(*)(::System::ReadOnlySpan_1_F48FB86071006F3E<::Foundation::StateMachine::Parameter>, ::Unity::Collections::NativeSlice_1<::Foundation::StateMachine::Condition>))((::PBYTE)hIl2Cpp + FOUNDATION_STATEMACHINE_CONDITION_CHECK_1_OFFSET))(params, conditions);
 		}
 		*/
 

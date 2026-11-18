@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-namespace System { class Object; }
-
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CUSTOMCONSTANTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE8B3C0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CUSTOMCONSTANTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D424490)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CustomConstantAttribute_TypeDefinitionIndex = 1398;
+	inline static constexpr unsigned int CustomConstantAttribute_TypeDefinitionIndex = 1397;
 
 	class CustomConstantAttribute : public ::System::Attribute
 	{

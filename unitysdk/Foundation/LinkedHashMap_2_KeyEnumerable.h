@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/LinkedHashMap_2_Entry.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LinkedHashMap_2_KeyEnumerable_TypeDefinitionIndex = 8460;
+	inline static constexpr unsigned int LinkedHashMap_2_KeyEnumerable_TypeDefinitionIndex = 8240;
 
-	template <typename TKey, typename TValue>
-	struct LinkedHashMap_2_KeyEnumerable
+	template <typename T1, typename T2>
+	struct alignas(8) LinkedHashMap_2_KeyEnumerable
 	{
-		::System::Collections::Generic::LinkedList_1<::Foundation::LinkedHashMap_2_Entry<TKey, TValue>>* _order; // 0x0
+		::System::Collections::Generic::LinkedList_1<::System::Object*>* _order; // 0x0
 	};
 }

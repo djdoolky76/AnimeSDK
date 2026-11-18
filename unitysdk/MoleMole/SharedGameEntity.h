@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/BehaviorDesigner/Runtime/SharedVariable_1.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_SHAREDGAMEENTITY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x145071A0)
-#define MOLEMOLE_SHAREDGAMEENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x14507270)
+#define MOLEMOLE_SHAREDGAMEENTITY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1C0BEB20)
+#define MOLEMOLE_SHAREDGAMEENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0BEBF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SharedGameEntity_TypeDefinitionIndex = 84526;
+	inline static constexpr unsigned int SharedGameEntity_TypeDefinitionIndex = 65114;
 
-	class SharedGameEntity : public ::BehaviorDesigner::Runtime::SharedVariable_1<::MoleMole::Battle::Entity*>
+	class SharedGameEntity
 	{
 	public:
 		::System::Void _ctor()

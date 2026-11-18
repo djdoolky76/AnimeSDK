@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 namespace UnityEngine::Timeline { class EventTriggerZoneInfo; }
 
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1F2437F0)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1F243780)
-#define UNITYENGINE_TIMELINE_EVENTTRIGGERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F243AE0)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1F5F9B80)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1F5F9B10)
+#define UNITYENGINE_TIMELINE_EVENTTRIGGERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F9E70)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int EventTriggerBehaviour_TypeDefinitionIndex = 32943;
+	inline static constexpr unsigned int EventTriggerBehaviour_TypeDefinitionIndex = 32398;
 
 	class EventTriggerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

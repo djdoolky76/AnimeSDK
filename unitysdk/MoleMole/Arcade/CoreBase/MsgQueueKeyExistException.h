@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_ARCADE_COREBASE_MSGQUEUEKEYEXISTEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EDD45C0)
-#define MOLEMOLE_ARCADE_COREBASE_MSGQUEUEKEYEXISTEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EDD4640)
-#define MOLEMOLE_ARCADE_COREBASE_MSGQUEUEKEYEXISTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD4540)
+#define MOLEMOLE_ARCADE_COREBASE_MSGQUEUEKEYEXISTEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EFA5C70)
+#define MOLEMOLE_ARCADE_COREBASE_MSGQUEUEKEYEXISTEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EFA5CF0)
+#define MOLEMOLE_ARCADE_COREBASE_MSGQUEUEKEYEXISTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA5BF0)
 
 namespace MoleMole::Arcade::CoreBase
 {
-	inline static constexpr unsigned int MsgQueueKeyExistException_TypeDefinitionIndex = 29551;
+	inline static constexpr unsigned int MsgQueueKeyExistException_TypeDefinitionIndex = 29112;
 
 	class MsgQueueKeyExistException : public ::System::Exception
 	{
@@ -20,14 +20,14 @@ namespace MoleMole::Arcade::CoreBase
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_COREBASE_MSGQUEUEKEYEXISTEXCEPTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::String* a1)
+		::System::Void _ctor_1(::System::String* NAPFALLANDL)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_COREBASE_MSGQUEUEKEYEXISTEXCEPTION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_COREBASE_MSGQUEUEKEYEXISTEXCEPTION__CTOR_1_OFFSET))(this, NAPFALLANDL);
 		}
 
-		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2)
+		::System::Void _ctor_2(::System::String* NAPFALLANDL, ::System::Exception* BDLKAKKCAII)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_COREBASE_MSGQUEUEKEYEXISTEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_COREBASE_MSGQUEUEKEYEXISTEXCEPTION__CTOR_2_OFFSET))(this, NAPFALLANDL, BDLKAKKCAII);
 		}
 	};
 }

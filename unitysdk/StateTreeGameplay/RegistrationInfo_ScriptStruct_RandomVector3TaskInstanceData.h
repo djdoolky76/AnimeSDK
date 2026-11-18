@@ -8,39 +8,39 @@ namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructParams; }
 namespace UnrealTypes { class StructPropertyParams; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3TASKINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C13E760)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3TASKINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C13E2C0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3TASKINSTANCEDATA_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1CB62CE0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_SCRIPTSTRUCT_RANDOMVECTOR3TASKINSTANCEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB627B0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex = 50239;
+	inline static constexpr unsigned int RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex = 79925;
 
 	class RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::FloatPropertyParams** StaticGet_Property_Radius()
-		{
-			return (::UnrealTypes::FloatPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3B1C0);
-		}
 		static ::UnrealTypes::ScriptStruct** StaticGet_ScriptStruct()
 		{
-			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3B1C8);
+			return (::UnrealTypes::ScriptStruct**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3D070);
 		}
 		static ::UnrealTypes::StructPropertyParams** StaticGet_Property_RandomVector()
 		{
-			return (::UnrealTypes::StructPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3B1D0);
+			return (::UnrealTypes::StructPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3D078);
 		}
-		static ::UnrealTypes::StructParams** StaticGet_StructParams()
+		static ::UnrealTypes::FloatPropertyParams** StaticGet_Property_Radius()
 		{
-			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3B1D8);
+			return (::UnrealTypes::FloatPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3D080);
 		}
 		static ::UnrealTypes::StructPropertyParams** StaticGet_Property_Center()
 		{
-			return (::UnrealTypes::StructPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3B1E0);
+			return (::UnrealTypes::StructPropertyParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3D088);
+		}
+		static ::UnrealTypes::StructParams** StaticGet_StructParams()
+		{
+			return (::UnrealTypes::StructParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3D090);
 		}
 		static ::Il2CppArray<::UnrealTypes::PropertyParamsBase*>** StaticGet_Properties()
 		{
-			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3B1E8);
+			return (::Il2CppArray<::UnrealTypes::PropertyParamsBase*>**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_ScriptStruct_RandomVector3TaskInstanceData_TypeDefinitionIndex)->GetStaticField(0x3D098);
 		}
 
 		static ::System::Void _cctor()

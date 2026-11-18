@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class FMHDMLBDIJC;
+class LDKAJKFFOED;
+
+#define LDKAJKFFOED_OJJPBHIJELI_DAHNGNFGOAD_OFFSET UNITYSDK_OFFSET(0x17684530)
+#define LDKAJKFFOED_OJJPBHIJELI_JIBOINDBGLE_OFFSET UNITYSDK_OFFSET(0x17684590)
+#define LDKAJKFFOED_OJJPBHIJELI_JPKODOJOGOI_OFFSET UNITYSDK_OFFSET(0x17684610)
+#define LDKAJKFFOED_OJJPBHIJELI_LNPGDHKNNJA_OFFSET UNITYSDK_OFFSET(0x17684430)
+#define LDKAJKFFOED_OJJPBHIJELI__CTOR_OFFSET UNITYSDK_OFFSET(0x17684420)
+
+inline static constexpr unsigned int LDKAJKFFOED_OJJPBHIJELI_TypeDefinitionIndex = 90510;
+
+class LDKAJKFFOED_OJJPBHIJELI : public ::System::Object
+{
+public:
+	::LDKAJKFFOED* KLHPEBKNIFB; // 0x10
+	::FMHDMLBDIJC* BLFMEHNGIPN; // 0x18
+	::System::Int32 KCNOHOOPNAH; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDKAJKFFOED_OJJPBHIJELI__CTOR_OFFSET))(this);
+	}
+
+	::System::Single LNPGDHKNNJA()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + LDKAJKFFOED_OJJPBHIJELI_LNPGDHKNNJA_OFFSET))(this);
+	}
+
+	::System::Object* DAHNGNFGOAD()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + LDKAJKFFOED_OJJPBHIJELI_DAHNGNFGOAD_OFFSET))(this);
+	}
+
+	::System::Boolean JIBOINDBGLE()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + LDKAJKFFOED_OJJPBHIJELI_JIBOINDBGLE_OFFSET))(this);
+	}
+
+	::System::Void JPKODOJOGOI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDKAJKFFOED_OJJPBHIJELI_JPKODOJOGOI_OFFSET))(this);
+	}
+};

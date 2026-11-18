@@ -3,13 +3,13 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIButtonEx_ClickSoundType_TypeDefinitionIndex = 85043;
+	inline static constexpr unsigned int UIButtonEx_ClickSoundType_TypeDefinitionIndex = 48605;
 
 	enum class UIButtonEx_ClickSoundType : ::System::Int32
 	{
-		Default = 0,
-		Negative = 2,
 		Mute = -1,
+		Negative = 2,
 		Tab = 1,
+		Default = 0,
 	};
 }

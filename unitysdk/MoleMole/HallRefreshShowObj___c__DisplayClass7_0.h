@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_371D7DE9D8405613;
-class Class_2_B7F42AAEE22538C5;
-class Class_3_06B506F3349584D7;
+class GDEJGKHDNBG;
+class JGPGPIFEMCI;
+class OBGAOILIIFG;
 namespace MoleMole { class HallRefreshShowObj; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x129A7880)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__ONPROCESS_B__7_OFFSET UNITYSDK_OFFSET(0x129A7A50)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__ONPROCESS_G__ALLOCATELIST_4_OFFSET UNITYSDK_OFFSET(0x129A7AB0)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__ONPROCESS_G__CHANGETIME_2_OFFSET UNITYSDK_OFFSET(0x129A9F10)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__ONPROCESS_G__CHANGE_1_OFFSET UNITYSDK_OFFSET(0x129A7B50)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__ONPROCESS_G__DEALLOCATELIST_5_OFFSET UNITYSDK_OFFSET(0x129AA0F0)
-#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__ONPROCESS_G__REGISTERAVATARSETPOSITION_0_OFFSET UNITYSDK_OFFSET(0x129A7890)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12466C60)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__ONPROCESS_B__7_OFFSET UNITYSDK_OFFSET(0x12466E30)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__ONPROCESS_G__ALLOCATELIST_4_OFFSET UNITYSDK_OFFSET(0x12466EA0)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__ONPROCESS_G__CHANGETIME_2_OFFSET UNITYSDK_OFFSET(0x12469320)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__ONPROCESS_G__CHANGE_1_OFFSET UNITYSDK_OFFSET(0x12466F40)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__ONPROCESS_G__DEALLOCATELIST_5_OFFSET UNITYSDK_OFFSET(0x12469500)
+#define MOLEMOLE_HALLREFRESHSHOWOBJ___C__DISPLAYCLASS7_0__ONPROCESS_G__REGISTERAVATARSETPOSITION_0_OFFSET UNITYSDK_OFFSET(0x12466C70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HallRefreshShowObj___c__DisplayClass7_0_TypeDefinitionIndex = 44138;
+	inline static constexpr unsigned int HallRefreshShowObj___c__DisplayClass7_0_TypeDefinitionIndex = 65510;
 
 	class HallRefreshShowObj___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_3_06B506F3349584D7*>* delList; // 0x10
-		::Class_2_B7F42AAEE22538C5* hallScene; // 0x18
-		::System::Collections::Generic::List_1<::Class_3_06B506F3349584D7*>* hideList; // 0x20
-		::Class_2_371D7DE9D8405613* localHallScene; // 0x28
-		::System::Collections::Generic::List_1<::Class_3_06B506F3349584D7*>* showList; // 0x30
-		::System::Collections::Generic::List_1<::Class_3_06B506F3349584D7*>* interactList; // 0x38
-		::MoleMole::HallRefreshShowObj* __4__this; // 0x40
-		::System::Collections::Generic::List_1<::Class_3_06B506F3349584D7*>* addList; // 0x48
+		::OBGAOILIIFG* localHallScene; // 0x10
+		::MoleMole::HallRefreshShowObj* __4__this; // 0x18
+		::System::Collections::Generic::List_1<::JGPGPIFEMCI*>* addList; // 0x20
+		::System::Collections::Generic::List_1<::JGPGPIFEMCI*>* hideList; // 0x28
+		::GDEJGKHDNBG* hallScene; // 0x30
+		::System::Collections::Generic::List_1<::JGPGPIFEMCI*>* delList; // 0x38
+		::System::Collections::Generic::List_1<::JGPGPIFEMCI*>* interactList; // 0x40
+		::System::Collections::Generic::List_1<::JGPGPIFEMCI*>* showList; // 0x48
 		::System::Boolean timeChanged; // 0x50
 
 		::System::Void _ctor()

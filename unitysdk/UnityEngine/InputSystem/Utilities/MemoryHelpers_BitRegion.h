@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_BITREGION_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xAA3C00)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_BITREGION_OVERLAP_OFFSET UNITYSDK_OFFSET(0xAA3C20)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_BITREGION__CTOR_1_OFFSET UNITYSDK_OFFSET(0xAA3C10)
-#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_BITREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x312BA0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_BITREGION_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x98A2E0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_BITREGION_OVERLAP_OFFSET UNITYSDK_OFFSET(0x98A300)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_BITREGION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x98A2F0)
+#define UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_BITREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x2E4140)
 
 namespace UnityEngine::InputSystem::Utilities
 {
-	inline static constexpr unsigned int MemoryHelpers_BitRegion_TypeDefinitionIndex = 32677;
+	inline static constexpr unsigned int MemoryHelpers_BitRegion_TypeDefinitionIndex = 32126;
 
 	struct alignas(4) MemoryHelpers_BitRegion
 	{
@@ -31,9 +31,11 @@ namespace UnityEngine::InputSystem::Utilities
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_BITREGION_GET_ISEMPTY_OFFSET))(this);
 		}
 
+		/*
 		::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion Overlap(::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion other)
 		{
 			return ((::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion(*)(::PVOID, ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UTILITIES_MEMORYHELPERS_BITREGION_OVERLAP_OFFSET))(this, other);
 		}
+		*/
 	};
 }

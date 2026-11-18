@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowChessboardResult3DModelController_LightLerpState_TypeDefinitionIndex = 49226;
+	inline static constexpr unsigned int UIHollowChessboardResult3DModelController_LightLerpState_TypeDefinitionIndex = 72982;
 
 	enum class UIHollowChessboardResult3DModelController_LightLerpState : ::System::Int32
 	{

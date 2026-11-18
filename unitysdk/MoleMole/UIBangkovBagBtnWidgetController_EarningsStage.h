@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovBagBtnWidgetController_EarningsStage_TypeDefinitionIndex = 46944;
+	inline static constexpr unsigned int UIBangkovBagBtnWidgetController_EarningsStage_TypeDefinitionIndex = 41024;
 
 	enum class UIBangkovBagBtnWidgetController_EarningsStage : ::System::Int32
 	{

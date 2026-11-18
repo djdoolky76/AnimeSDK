@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_STRINGPARSER_PARSETODICTIONARY_OFFSET UNITYSDK_OFFSET(0x1F786030)
-#define FOUNDATION_STRINGPARSER_PARSETOINTLIST_OFFSET UNITYSDK_OFFSET(0x1F785E70)
+#define FOUNDATION_STRINGPARSER_PARSETODICTIONARY_OFFSET UNITYSDK_OFFSET(0x1F9CC330)
+#define FOUNDATION_STRINGPARSER_PARSETOINTLIST_OFFSET UNITYSDK_OFFSET(0x1F9CC170)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int StringParser_TypeDefinitionIndex = 7940;
+	inline static constexpr unsigned int StringParser_TypeDefinitionIndex = 8699;
 
 	class StringParser : public ::System::Object
 	{

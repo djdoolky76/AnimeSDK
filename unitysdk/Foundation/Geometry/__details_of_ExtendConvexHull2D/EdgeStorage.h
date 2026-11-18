@@ -6,9 +6,9 @@
 
 namespace Foundation::Geometry::__details_of_ExtendConvexHull2D
 {
-	inline static constexpr unsigned int EdgeStorage_TypeDefinitionIndex = 8818;
+	inline static constexpr unsigned int EdgeStorage_TypeDefinitionIndex = 9043;
 
-	struct alignas(8) EdgeStorage
+	struct alignas(4) EdgeStorage
 	{
 		::Foundation::Geometry::Segment2D Segment; // 0x10
 		::Foundation::Geometry::EllipseArc2D EllipseArc; // 0x10

@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRidusGotBooSetIconInfoWidgetController_ItemType_TypeDefinitionIndex = 80444;
+	inline static constexpr unsigned int UIRidusGotBooSetIconInfoWidgetController_ItemType_TypeDefinitionIndex = 84951;
 
 	enum class UIRidusGotBooSetIconInfoWidgetController_ItemType : ::System::Int32
 	{
-		Clothing = 0,
 		Anim = 1,
+		Clothing = 0,
 	};
 }

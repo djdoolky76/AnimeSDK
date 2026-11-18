@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_4A628DAD59F70BCB_1;
+class ALNKCOCJJAG;
 namespace MoleMole { class SuibianTempleDailyPaperContext; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175B6000)
-#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER___C__DISPLAYCLASS28_0__OPENDAILY_B__0_OFFSET UNITYSDK_OFFSET(0x175B6010)
+#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185B1330)
+#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER___C__DISPLAYCLASS28_0__OPENDAILY_B__0_OFFSET UNITYSDK_OFFSET(0x185B1340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleMainPageController___c__DisplayClass28_0_TypeDefinitionIndex = 89149;
+	inline static constexpr unsigned int UISuibianTempleMainPageController___c__DisplayClass28_0_TypeDefinitionIndex = 42371;
 
 	class UISuibianTempleMainPageController___c__DisplayClass28_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OpenDaily_b__0(::Class_3_4A628DAD59F70BCB_1* _)
+		::System::Void _OpenDaily_b__0(::ALNKCOCJJAG* _)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_4A628DAD59F70BCB_1*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER___C__DISPLAYCLASS28_0__OPENDAILY_B__0_OFFSET))(this, _);
+			return ((::System::Void(*)(::PVOID, ::ALNKCOCJJAG*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER___C__DISPLAYCLASS28_0__OPENDAILY_B__0_OFFSET))(this, _);
 		}
 	};
 }

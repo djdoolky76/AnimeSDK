@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/UniWebViewMessage.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/MiHoYo/SDK/UniWebViewMessage.h"
 
 namespace MiHoYo::SDK { class ProtocolManager; }
 namespace MiHoYo::SDK { class Web; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D64F0)
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS53_0__OPENPROTOCOLWEBVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1C7D6500)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAE4930)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS53_0__OPENPROTOCOLWEBVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1CAE4940)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager___c__DisplayClass53_0_TypeDefinitionIndex = 20164;
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass53_0_TypeDefinitionIndex = 19310;
 
 	class ProtocolManager___c__DisplayClass53_0 : public ::System::Object
 	{

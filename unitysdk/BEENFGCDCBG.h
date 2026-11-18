@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class AFMMAIKKACF;
+class ALGKMLLALFG;
+class EHGPNGPADCB;
+namespace MoleMole { class UIHollowChessboard3DModelController; }
+
+#define BEENFGCDCBG_CHCGMACMJLD_OFFSET UNITYSDK_OFFSET(0x14385430)
+#define BEENFGCDCBG_CLALMOCJIBB_OFFSET UNITYSDK_OFFSET(0x143853A0)
+#define BEENFGCDCBG_CMFOMGGDPPA_OFFSET UNITYSDK_OFFSET(0x14385480)
+#define BEENFGCDCBG_FGGAFENLMHP_OFFSET UNITYSDK_OFFSET(0x143850D0)
+#define BEENFGCDCBG_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0x14384950)
+#define BEENFGCDCBG_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0x14385310)
+#define BEENFGCDCBG_OKJCHFGIKBH_OFFSET UNITYSDK_OFFSET(0x14385140)
+#define BEENFGCDCBG__CTOR_OFFSET UNITYSDK_OFFSET(0x14384940)
+
+inline static constexpr unsigned int BEENFGCDCBG_TypeDefinitionIndex = 75207;
+
+class BEENFGCDCBG
+{
+public:
+	::MoleMole::UIHollowChessboard3DModelController* JOLDOMEIKEF; // 0x30
+	::ALGKMLLALFG* JOKIHJCIMGA; // 0x38
+	::System::Int32 CHPJFHDIIMK; // 0x40
+	::System::Int32 DNHABCHNMLE; // 0x44
+	::System::Single HACJFKBLODH; // 0x48
+
+	::System::Void _ctor(::EHGPNGPADCB* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::EHGPNGPADCB*))((::PBYTE)hIl2Cpp + BEENFGCDCBG__CTOR_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Void GLEJMKLOMBP(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + BEENFGCDCBG_GLEJMKLOMBP_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void FGGAFENLMHP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BEENFGCDCBG_FGGAFENLMHP_OFFSET))(this);
+	}
+
+	::System::Void OKJCHFGIKBH(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + BEENFGCDCBG_OKJCHFGIKBH_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void LIDIODHDJAF(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + BEENFGCDCBG_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void CLALMOCJIBB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BEENFGCDCBG_CLALMOCJIBB_OFFSET))(this);
+	}
+
+	::System::Void CHCGMACMJLD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BEENFGCDCBG_CHCGMACMJLD_OFFSET))(this);
+	}
+
+	::System::Void CMFOMGGDPPA(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + BEENFGCDCBG_CMFOMGGDPPA_OFFSET))(this, MIALFKCCCPI);
+	}
+};

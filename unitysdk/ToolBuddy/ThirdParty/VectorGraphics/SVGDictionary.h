@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2.h"
 
-namespace System { class Object; }
-namespace System { class String; }
-
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA879F0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE74AA0)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDictionary_TypeDefinitionIndex = 31733;
+	inline static constexpr unsigned int SVGDictionary_TypeDefinitionIndex = 31171;
 
-	class SVGDictionary : public ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>
+	class SVGDictionary
 	{
 	public:
 		::System::Void _ctor()

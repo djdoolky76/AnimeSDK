@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11709EB0)
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA___C__DISPLAYCLASS5_0__RELOADFROMFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x11709EC0)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC6F70)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA___C__DISPLAYCLASS5_0__RELOADFROMFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xFAC6F80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHighLightAirCombatCamera___c__DisplayClass5_0_TypeDefinitionIndex = 82356;
+	inline static constexpr unsigned int ConfigHighLightAirCombatCamera___c__DisplayClass5_0_TypeDefinitionIndex = 38574;
 
 	class ConfigHighLightAirCombatCamera___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::System::String* dataName; // 0x10
-		::System::Action_1<::System::String*>* finishCallback; // 0x18
-		::System::Action_1<::System::Single>* moveOneStepCallback; // 0x20
+		::System::Action_1<::System::Single>* moveOneStepCallback; // 0x10
+		::System::String* dataName; // 0x18
+		::System::Action_1<::System::String*>* finishCallback; // 0x20
 		::System::Single progressSpan; // 0x28
 
 		::System::Void _ctor()

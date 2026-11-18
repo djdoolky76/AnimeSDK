@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define MOLEMOLE_TIMELINE_MIHOYOEFFECTTAGCONTROLTRACK_TAGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19999770)
+#define MOLEMOLE_TIMELINE_MIHOYOEFFECTTAGCONTROLTRACK_TAGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x14BD4DE0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int MihoyoEffectTagControlTrack_TagItem_TypeDefinitionIndex = 47345;
+	inline static constexpr unsigned int MihoyoEffectTagControlTrack_TagItem_TypeDefinitionIndex = 65194;
 
 	class MihoyoEffectTagControlTrack_TagItem : public ::System::Object
 	{

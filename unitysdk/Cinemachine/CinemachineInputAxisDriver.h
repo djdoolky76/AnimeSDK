@@ -1,17 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Cinemachine/AxisBase.h"
+#include "unitysdk/Cinemachine/AxisState.h"
 
 namespace System { class String; }
 
-#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_CLAMPVALUE_OFFSET UNITYSDK_OFFSET(0xAACA90)
-#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_1_OFFSET UNITYSDK_OFFSET(0xAACA30)
-#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_OFFSET UNITYSDK_OFFSET(0xAACA20)
-#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_VALIDATE_OFFSET UNITYSDK_OFFSET(0xAA12E0)
+#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_CLAMPVALUE_OFFSET UNITYSDK_OFFSET(0x995AC0)
+#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_1_OFFSET UNITYSDK_OFFSET(0x995A60)
+#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_OFFSET UNITYSDK_OFFSET(0x995A50)
+#define CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_VALIDATE_OFFSET UNITYSDK_OFFSET(0x987920)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineInputAxisDriver_TypeDefinitionIndex = 34748;
+	inline static constexpr unsigned int CinemachineInputAxisDriver_TypeDefinitionIndex = 34294;
 
 	struct alignas(8) CinemachineInputAxisDriver
 	{
@@ -19,6 +21,7 @@ namespace Cinemachine
 		::System::Single multiplier; // 0x10
 		::System::Single accelTime; // 0x14
 		::System::Single decelTime; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* name; // 0x20
 		::System::Single inputValue; // 0x28
 		::System::Single mCurrentSpeed; // 0x2C
@@ -28,25 +31,19 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_VALIDATE_OFFSET))(this);
 		}
 
-		/*
 		::System::Boolean Update(::System::Single deltaTime, ::Cinemachine::AxisBase& axis)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::Cinemachine::AxisBase&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_OFFSET))(this, deltaTime, axis);
 		}
-		*/
 
-		/*
 		::System::Boolean Update_1(::System::Single deltaTime, ::Cinemachine::AxisState& axis)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::Cinemachine::AxisState&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_UPDATE_1_OFFSET))(this, deltaTime, axis);
 		}
-		*/
 
-		/*
 		::System::Single ClampValue(::Cinemachine::AxisBase& axis, ::System::Single v)
 		{
 			return ((::System::Single(*)(::PVOID, ::Cinemachine::AxisBase&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEINPUTAXISDRIVER_CLAMPVALUE_OFFSET))(this, axis, v);
 		}
-		*/
 	};
 }

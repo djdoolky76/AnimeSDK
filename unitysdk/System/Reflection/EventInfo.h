@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Mono/RuntimeEventHandle.h"
 #include "unitysdk/System/Reflection/MemberInfo.h"
 #include "unitysdk/System/Reflection/MemberTypes.h"
+#include "unitysdk/Mono/RuntimeEventHandle.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
 
 namespace System { class Delegate; }
@@ -11,19 +11,19 @@ namespace System { class Type; }
 namespace System::Reflection { class EventInfo_AddEventAdapter; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_083577508CCFDAF3_OFFSET UNITYSDK_OFFSET(0x1E445DB0)
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_16AFF369BBFEA348_1_OFFSET UNITYSDK_OFFSET(0x1E445AC0)
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_16AFF369BBFEA348_OFFSET UNITYSDK_OFFSET(0x1E445A40)
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_49E3FA61F17A6A16_OFFSET UNITYSDK_OFFSET(0x1E4457F0)
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1E445800)
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_89C61BA98593C1C4_1_OFFSET UNITYSDK_OFFSET(0x1E445E00)
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_89C61BA98593C1C4_OFFSET UNITYSDK_OFFSET(0x1E445DD0)
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_9A44EF76E735EBFC_OFFSET UNITYSDK_OFFSET(0x1E445BC0)
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_A8FC6ACEB00A3EC2_OFFSET UNITYSDK_OFFSET(0x1E445E30)
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x1E445DC0)
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_DF325AA53F4BA122_OFFSET UNITYSDK_OFFSET(0x1E4456E0)
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_EDE5CBFDEE657CD2_OFFSET UNITYSDK_OFFSET(0x1E445EA0)
-#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_FFF4D309248F80D6_OFFSET UNITYSDK_OFFSET(0x1E445810)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_0_OFFSET UNITYSDK_OFFSET(0x1E6CE6C0)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_10_10_OFFSET UNITYSDK_OFFSET(0x1E6CEC70)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_11_11_OFFSET UNITYSDK_OFFSET(0x1E6CEC80)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_12_12_OFFSET UNITYSDK_OFFSET(0x1E6CEC90)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_13_13_OFFSET UNITYSDK_OFFSET(0x1E6CECC0)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_14_14_OFFSET UNITYSDK_OFFSET(0x1E6CECF0)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_15_15_OFFSET UNITYSDK_OFFSET(0x1E6CED60)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_1_1_OFFSET UNITYSDK_OFFSET(0x1E6CE5A0)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_2_2_OFFSET UNITYSDK_OFFSET(0x1E6CE6B0)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_3_3_OFFSET UNITYSDK_OFFSET(0x1E6CE6D0)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_4_4_OFFSET UNITYSDK_OFFSET(0x1E6CE900)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_7_7_OFFSET UNITYSDK_OFFSET(0x1E6CE980)
+#define SYSTEM_REFLECTION_EVENTINFO_METHOD_9_9_OFFSET UNITYSDK_OFFSET(0x1E6CEA80)
 
 namespace System::Reflection
 {
@@ -32,71 +32,71 @@ namespace System::Reflection
 	class EventInfo : public ::System::Reflection::MemberInfo
 	{
 	public:
-		::System::Reflection::EventInfo_AddEventAdapter* Field_2_0; // 0x10
+		::System::Reflection::EventInfo_AddEventAdapter* Field_0; // 0x10
 
-		::System::Void Method_2_832295EC279E5994()
+		::System::Void Method_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_0_OFFSET))(this);
 		}
 
-		::System::Type* Method_2_DF325AA53F4BA122()
+		::System::Type* Method_1_1()
 		{
-			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_DF325AA53F4BA122_OFFSET))(this);
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_1_1_OFFSET))(this);
 		}
 
-		::System::Reflection::MemberTypes Method_2_49E3FA61F17A6A16()
+		::System::Reflection::MemberTypes Method_2_2()
 		{
-			return ((::System::Reflection::MemberTypes(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_49E3FA61F17A6A16_OFFSET))(this);
+			return ((::System::Reflection::MemberTypes(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_2_OFFSET))(this);
 		}
 
-		::System::Void Method_2_FFF4D309248F80D6(::System::Object* target, ::System::Delegate* handler)
+		::System::Void Method_3_3(::System::Object* target, ::System::Delegate* handler)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Delegate*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_FFF4D309248F80D6_OFFSET))(this, target, handler);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Delegate*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_3_3_OFFSET))(this, target, handler);
 		}
 
-		::System::Reflection::MethodInfo* Method_2_16AFF369BBFEA348()
+		::System::Reflection::MethodInfo* Method_4_4()
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_16AFF369BBFEA348_OFFSET))(this);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_4_4_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodInfo* Method_2_16AFF369BBFEA348_1()
+		::System::Reflection::MethodInfo* Method_7_7()
 		{
-			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_16AFF369BBFEA348_1_OFFSET))(this);
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_7_7_OFFSET))(this);
 		}
 
-		::System::Void Method_2_9A44EF76E735EBFC(::System::Object* target, ::System::Delegate* handler)
+		::System::Void Method_9_9(::System::Object* target, ::System::Delegate* handler)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Delegate*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_9A44EF76E735EBFC_OFFSET))(this, target, handler);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Delegate*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_9_9_OFFSET))(this, target, handler);
 		}
 
-		::System::Boolean Method_2_083577508CCFDAF3(::System::Object* obj)
+		::System::Boolean Method_10_10(::System::Object* obj)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_083577508CCFDAF3_OFFSET))(this, obj);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_10_10_OFFSET))(this, obj);
 		}
 
-		::System::Int32 Method_2_C74CF020AA42ED85()
+		::System::Int32 Method_11_11()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_C74CF020AA42ED85_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_11_11_OFFSET))(this);
 		}
 
-		static ::System::Boolean Method_2_89C61BA98593C1C4(::System::Reflection::EventInfo* left, ::System::Reflection::EventInfo* right)
+		static ::System::Boolean Method_12_12(::System::Reflection::EventInfo* left, ::System::Reflection::EventInfo* right)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::EventInfo*, ::System::Reflection::EventInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_89C61BA98593C1C4_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::System::Reflection::EventInfo*, ::System::Reflection::EventInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_12_12_OFFSET))(left, right);
 		}
 
-		static ::System::Boolean Method_2_89C61BA98593C1C4_1(::System::Reflection::EventInfo* left, ::System::Reflection::EventInfo* right)
+		static ::System::Boolean Method_13_13(::System::Reflection::EventInfo* left, ::System::Reflection::EventInfo* right)
 		{
-			return ((::System::Boolean(*)(::System::Reflection::EventInfo*, ::System::Reflection::EventInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_89C61BA98593C1C4_1_OFFSET))(left, right);
+			return ((::System::Boolean(*)(::System::Reflection::EventInfo*, ::System::Reflection::EventInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_13_13_OFFSET))(left, right);
 		}
 
-		static ::System::Reflection::EventInfo* Method_2_A8FC6ACEB00A3EC2(::System::IntPtr event_handle, ::System::IntPtr type_handle)
+		static ::System::Reflection::EventInfo* Method_14_14(::System::IntPtr event_handle, ::System::IntPtr type_handle)
 		{
-			return ((::System::Reflection::EventInfo*(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_A8FC6ACEB00A3EC2_OFFSET))(event_handle, type_handle);
+			return ((::System::Reflection::EventInfo*(*)(::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_14_14_OFFSET))(event_handle, type_handle);
 		}
 
-		static ::System::Reflection::EventInfo* Method_2_EDE5CBFDEE657CD2(::Mono::RuntimeEventHandle handle, ::System::RuntimeTypeHandle reflectedType)
+		static ::System::Reflection::EventInfo* Method_15_15(::Mono::RuntimeEventHandle handle, ::System::RuntimeTypeHandle reflectedType)
 		{
-			return ((::System::Reflection::EventInfo*(*)(::Mono::RuntimeEventHandle, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_2_EDE5CBFDEE657CD2_OFFSET))(handle, reflectedType);
+			return ((::System::Reflection::EventInfo*(*)(::Mono::RuntimeEventHandle, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_METHOD_15_15_OFFSET))(handle, reflectedType);
 		}
 	};
 }

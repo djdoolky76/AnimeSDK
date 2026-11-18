@@ -5,11 +5,11 @@
 
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 
-#define MOLEMOLE_CAMERAS_TOPVIEWCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x150E2FA0)
+#define MOLEMOLE_CAMERAS_TOPVIEWCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19222DD0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int TopViewCameraConfig_TypeDefinitionIndex = 63618;
+	inline static constexpr unsigned int TopViewCameraConfig_TypeDefinitionIndex = 89356;
 
 	class TopViewCameraConfig : public ::System::Object
 	{
@@ -17,9 +17,11 @@ namespace MoleMole::Cameras
 		::UnityEngine::Vector3 location; // 0x10
 		::UnityEngine::Vector3 euler; // 0x1C
 		::System::Single fieldOfView; // 0x28
+		::System::Byte _padding0[0x4];
 		::MoleMole::Cameras::CameraTrackBlending* blendIn; // 0x30
 		::MoleMole::Cameras::CameraTrackBlending* blendOut; // 0x38
 		::System::Boolean enableDrag; // 0x40
+		::System::Byte _padding1[0x3];
 		::System::Single maxDragSpeed; // 0x44
 		::System::Single dragScreenRatio; // 0x48
 

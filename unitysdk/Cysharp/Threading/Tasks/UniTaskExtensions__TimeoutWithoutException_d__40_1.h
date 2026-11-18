@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/DelayType.h"
+#include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/System/TimeSpan.h"
+#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class Object; }
+namespace System::Threading { class CancellationTokenSource; }
+
+namespace Cysharp::Threading::Tasks
+{
+	inline static constexpr unsigned int UniTaskExtensions__TimeoutWithoutException_d__40_1_TypeDefinitionIndex = 31365;
+
+	template <typename T>
+	struct alignas(8) UniTaskExtensions__TimeoutWithoutException_d__40_1
+	{
+		::System::Int32 __1__state; // 0x0
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::ValueTuple_2<::System::Boolean, T>> __t__builder; // 0x0
+		::System::TimeSpan timeout; // 0x0
+		::Cysharp::Threading::Tasks::DelayType delayType; // 0x0
+		::Cysharp::Threading::Tasks::PlayerLoopTiming timeoutCheckTiming; // 0x0
+		::Cysharp::Threading::Tasks::UniTask_1<T> task; // 0x0
+		::System::Threading::CancellationTokenSource* taskCancellationTokenSource; // 0x0
+		::System::Threading::CancellationTokenSource* _delayCancellationTokenSource_5__2; // 0x0
+		::System::Object* __u__1; // 0x0
+	};
+}

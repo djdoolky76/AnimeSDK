@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_STATICSCENEOBJECTWIDGET___C_METHOD_1_832295EC279E5994_1_OFFSET UNITYSDK_OFFSET(0x191BA240)
-#define MOLEMOLE_STATICSCENEOBJECTWIDGET___C_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x191BA230)
-#define MOLEMOLE_STATICSCENEOBJECTWIDGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x191BA1E0)
-#define MOLEMOLE_STATICSCENEOBJECTWIDGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x191BA220)
+#define MOLEMOLE_STATICSCENEOBJECTWIDGET___C_BGMAJGNEEFI_OFFSET UNITYSDK_OFFSET(0x162F4F80)
+#define MOLEMOLE_STATICSCENEOBJECTWIDGET___C_EFMCOHHINDD_OFFSET UNITYSDK_OFFSET(0x162F4F90)
+#define MOLEMOLE_STATICSCENEOBJECTWIDGET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162F4F30)
+#define MOLEMOLE_STATICSCENEOBJECTWIDGET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162F4F70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int StaticSceneObjectWidget___c_TypeDefinitionIndex = 56000;
+	inline static constexpr unsigned int StaticSceneObjectWidget___c_TypeDefinitionIndex = 55060;
 
 	class StaticSceneObjectWidget___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__15_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(StaticSceneObjectWidget___c_TypeDefinitionIndex)->GetStaticField(0x46EB0);
-		}
-		static ::MoleMole::StaticSceneObjectWidget___c** StaticGet___9()
-		{
-			return (::MoleMole::StaticSceneObjectWidget___c**)Il2CppClass::FromTypeDefinitionIndex(StaticSceneObjectWidget___c_TypeDefinitionIndex)->GetStaticField(0x46EB8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(StaticSceneObjectWidget___c_TypeDefinitionIndex)->GetStaticField(0x46D00);
 		}
 		static ::System::Action** StaticGet___9__15_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(StaticSceneObjectWidget___c_TypeDefinitionIndex)->GetStaticField(0x46EC0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(StaticSceneObjectWidget___c_TypeDefinitionIndex)->GetStaticField(0x46D08);
+		}
+		static ::System::Action** StaticGet___9__15_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(StaticSceneObjectWidget___c_TypeDefinitionIndex)->GetStaticField(0x46D10);
 		}
 
 		static ::System::Void _cctor()
@@ -39,14 +39,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICSCENEOBJECTWIDGET___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_832295EC279E5994()
+		::System::Void BGMAJGNEEFI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICSCENEOBJECTWIDGET___C_METHOD_1_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICSCENEOBJECTWIDGET___C_BGMAJGNEEFI_OFFSET))(this);
 		}
 
-		::System::Void Method_1_832295EC279E5994_1()
+		::System::Void EFMCOHHINDD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICSCENEOBJECTWIDGET___C_METHOD_1_832295EC279E5994_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_STATICSCENEOBJECTWIDGET___C_EFMCOHHINDD_OFFSET))(this);
 		}
 	};
 }

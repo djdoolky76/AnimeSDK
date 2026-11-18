@@ -2,20 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace UnityEngine::NAPRenderPipeline0 { template <typename T1, typename T2> class DictionaryPool_2___c; }
-
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DictionaryPool_2___c_TypeDefinitionIndex = 5976;
+	inline static constexpr unsigned int DictionaryPool_2___c_TypeDefinitionIndex = 5984;
 
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class DictionaryPool_2___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::DictionaryPool_2___c<TKey, TValue>** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::DictionaryPool_2___c<TKey, TValue>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryPool_2___c_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(DictionaryPool_2___c_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 	};
 }

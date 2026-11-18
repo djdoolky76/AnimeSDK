@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/TerrainMatType.h"
-#include "unitysdk/MoleMole/MonoZone3D_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace MoleMole { class MonoTerrainSubZone3D; }
-
-#define MOLEMOLE_MONOTERRAINZONE3D_GETTERRAINMATTYPE_OFFSET UNITYSDK_OFFSET(0x10813900)
-#define MOLEMOLE_MONOTERRAINZONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x10813960)
+#define MOLEMOLE_MONOTERRAINZONE3D_GETTERRAINMATTYPE_OFFSET UNITYSDK_OFFSET(0x15AC4B20)
+#define MOLEMOLE_MONOTERRAINZONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x15AC4B80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTerrainZone3D_TypeDefinitionIndex = 69320;
+	inline static constexpr unsigned int MonoTerrainZone3D_TypeDefinitionIndex = 55559;
 
-	class MonoTerrainZone3D : public ::MoleMole::MonoZone3D_1<::MoleMole::MonoTerrainSubZone3D*>
+	class MonoTerrainZone3D
 	{
 	public:
 		::MoleMole::Config::TerrainMatType DefaultTerrainMat; // 0x20
@@ -24,9 +21,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONE3D__CTOR_OFFSET))(this);
 		}
 
-		::MoleMole::Config::TerrainMatType GetTerrainMatType(::UnityEngine::Vector3 a1)
+		::MoleMole::Config::TerrainMatType GetTerrainMatType(::UnityEngine::Vector3 CKPGOKHECCH)
 		{
-			return ((::MoleMole::Config::TerrainMatType(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONE3D_GETTERRAINMATTYPE_OFFSET))(this, a1);
+			return ((::MoleMole::Config::TerrainMatType(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTERRAINZONE3D_GETTERRAINMATTYPE_OFFSET))(this, CKPGOKHECCH);
 		}
 	};
 }

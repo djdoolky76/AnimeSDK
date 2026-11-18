@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_ENUMFLAGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA516B0)
+#define FLUFFYUNDERWARE_DEVTOOLS_ENUMFLAGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5A330)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int EnumFlagAttribute_TypeDefinitionIndex = 28969;
+	inline static constexpr unsigned int EnumFlagAttribute_TypeDefinitionIndex = 28408;
 
 	class EnumFlagAttribute : public ::FluffyUnderware::DevTools::DTPropertyAttribute
 	{

@@ -5,12 +5,12 @@
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int ConicSection2D_1_TypeDefinitionIndex = 8606;
+	inline static constexpr unsigned int ConicSection2D_1_TypeDefinitionIndex = 8780;
 
-	template <typename TShape>
-	struct ConicSection2D_1
+	template <typename T>
+	struct alignas(8) ConicSection2D_1
 	{
 		::Foundation::Geometry::ConicSection2D Expression; // 0x0
-		TShape Shape; // 0x0
+		T Shape; // 0x0
 	};
 }

@@ -1,0 +1,71 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class CBMNPCAPJIF;
+
+#define EEBLNDKIOAM_AGIKHMIDCKN_OFFSET UNITYSDK_OFFSET(0x1353A340)
+#define EEBLNDKIOAM_APLIPAKAPCC_OFFSET UNITYSDK_OFFSET(0x1353A720)
+#define EEBLNDKIOAM_JONDLGJGJHC_OFFSET UNITYSDK_OFFSET(0x1353A5A0)
+#define EEBLNDKIOAM_KPDIPAGPFID_OFFSET UNITYSDK_OFFSET(0x1353A470)
+#define EEBLNDKIOAM_NDNLGGJPKIC_OFFSET UNITYSDK_OFFSET(0x1353A640)
+#define EEBLNDKIOAM_NMINGOCOFOI_OFFSET UNITYSDK_OFFSET(0x1353A3D0)
+#define EEBLNDKIOAM_PLFGKCELAAC_OFFSET UNITYSDK_OFFSET(0x1353A690)
+#define EEBLNDKIOAM_PMLNHFGDHAA_OFFSET UNITYSDK_OFFSET(0x1353A730)
+#define EEBLNDKIOAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1353A2F0)
+
+inline static constexpr unsigned int EEBLNDKIOAM_TypeDefinitionIndex = 78749;
+
+class EEBLNDKIOAM : public ::System::Object
+{
+public:
+	::Il2CppArray<::System::Int32>* DKLOBDEBONA; // 0x10
+	::Il2CppArray<::System::Int32>* NIOOEFIKLPC; // 0x18
+	::Il2CppArray<::System::Int32>* LGJAHJEKLLI; // 0x20
+	::CBMNPCAPJIF* _NEHLLIBBDGF_k__BackingField; // 0x28
+
+	::System::Void _ctor(::CBMNPCAPJIF* EJANOMALBNM)
+	{
+		return ((::System::Void(*)(::PVOID, ::CBMNPCAPJIF*))((::PBYTE)hIl2Cpp + EEBLNDKIOAM__CTOR_OFFSET))(this, EJANOMALBNM);
+	}
+
+	::System::Int32 AGIKHMIDCKN()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EEBLNDKIOAM_AGIKHMIDCKN_OFFSET))(this);
+	}
+
+	::System::Int32 NMINGOCOFOI()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EEBLNDKIOAM_NMINGOCOFOI_OFFSET))(this);
+	}
+
+	::System::Int32 KPDIPAGPFID()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EEBLNDKIOAM_KPDIPAGPFID_OFFSET))(this);
+	}
+
+	::System::Int32 JONDLGJGJHC()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EEBLNDKIOAM_JONDLGJGJHC_OFFSET))(this);
+	}
+
+	::System::Int32 PLFGKCELAAC()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EEBLNDKIOAM_PLFGKCELAAC_OFFSET))(this);
+	}
+
+	::System::Int32 NDNLGGJPKIC()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + EEBLNDKIOAM_NDNLGGJPKIC_OFFSET))(this);
+	}
+
+	::System::Void APLIPAKAPCC(::CBMNPCAPJIF* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::CBMNPCAPJIF*))((::PBYTE)hIl2Cpp + EEBLNDKIOAM_APLIPAKAPCC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::CBMNPCAPJIF* PMLNHFGDHAA()
+	{
+		return ((::CBMNPCAPJIF*(*)(::PVOID))((::PBYTE)hIl2Cpp + EEBLNDKIOAM_PMLNHFGDHAA_OFFSET))(this);
+	}
+};

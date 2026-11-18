@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONINFO_FOLLOWANIMATIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x13DE8950)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYANIMATIONINFO_FOLLOWANIMATIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE0C54A0)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryAnimationInfo_FollowAnimationClip_TypeDefinitionIndex = 50970;
+	inline static constexpr unsigned int NPCAccessoryAnimationInfo_FollowAnimationClip_TypeDefinitionIndex = 69680;
 
 	class NPCAccessoryAnimationInfo_FollowAnimationClip : public ::System::Object
 	{

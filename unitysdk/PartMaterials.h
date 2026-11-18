@@ -4,14 +4,15 @@
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/System/Object.h"
 
-#define PARTMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x18B44330)
+#define PARTMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x194C4CF0)
 
-inline static constexpr unsigned int PartMaterials_TypeDefinitionIndex = 58580;
+inline static constexpr unsigned int PartMaterials_TypeDefinitionIndex = 73336;
 
 class PartMaterials : public ::System::Object
 {
 public:
 	::ENPCAvatarBodyPart partType; // 0x10
+	::System::Byte _padding0[0x4];
 	::Il2CppArray<::Foundation::AssetPath>* partMaterialAssetPaths; // 0x18
 
 	::System::Void _ctor()

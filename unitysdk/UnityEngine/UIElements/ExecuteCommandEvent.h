@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/UIElements/CommandEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_EXECUTECOMMANDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF8E10)
+#define UNITYENGINE_UIELEMENTS_EXECUTECOMMANDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5ADFA0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int ExecuteCommandEvent_TypeDefinitionIndex = 28097;
+	inline static constexpr unsigned int ExecuteCommandEvent_TypeDefinitionIndex = 27515;
 
-	class ExecuteCommandEvent : public ::UnityEngine::UIElements::CommandEventBase_1<::UnityEngine::UIElements::ExecuteCommandEvent*>
+	class ExecuteCommandEvent
 	{
 	public:
 		::System::Void _ctor()

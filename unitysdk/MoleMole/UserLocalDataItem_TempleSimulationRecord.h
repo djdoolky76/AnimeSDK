@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_USERLOCALDATAITEM_TEMPLESIMULATIONRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x174C1530)
+#define MOLEMOLE_USERLOCALDATAITEM_TEMPLESIMULATIONRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x18C3D970)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UserLocalDataItem_TempleSimulationRecord_TypeDefinitionIndex = 70342;
+	inline static constexpr unsigned int UserLocalDataItem_TempleSimulationRecord_TypeDefinitionIndex = 89802;
 
 	class UserLocalDataItem_TempleSimulationRecord : public ::System::Object
 	{
@@ -17,6 +17,7 @@ namespace MoleMole
 		::System::Collections::Generic::Dictionary_2<::System::DateTime, ::System::Boolean>* RecordTime; // 0x10
 		::System::DateTime SelectNoPopTime; // 0x18
 		::System::Boolean IsMultiSelectMode; // 0x20
+		::System::Byte _padding0[0x7];
 		::System::Int64 NextRefreshTime; // 0x28
 
 		::System::Void _ctor()

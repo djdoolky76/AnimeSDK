@@ -4,17 +4,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_LEVELADDONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD703A0)
+#define MOLEMOLE_CONFIG_LEVELADDONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190B5440)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelAddOnConfig_TypeDefinitionIndex = 44746;
+	inline static constexpr unsigned int LevelAddOnConfig_TypeDefinitionIndex = 72993;
 
 	class LevelAddOnConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		// static const ::System::String* LEVEL_ADDON_CONFIG_PATH; // 0x0
 		::System::Boolean Deprecated; // 0x58
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::System::String*>* allGraphs; // 0x60
 
 		::System::Void _ctor()

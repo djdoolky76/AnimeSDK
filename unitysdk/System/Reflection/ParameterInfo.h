@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Reflection/CallingConventions.h"
 #include "unitysdk/System/Reflection/ParameterAttributes.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class String; }
@@ -11,25 +11,25 @@ namespace System::Reflection { class MemberInfo; }
 namespace System::Runtime::InteropServices { class MarshalAsAttribute; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_001BA322A634F317_OFFSET UNITYSDK_OFFSET(0x1E446380)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_08FDEBD8D01774E4_OFFSET UNITYSDK_OFFSET(0x1E446B80)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_0E9CD5BE0B9B7B7D_OFFSET UNITYSDK_OFFSET(0x1E446BD0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x1E4467B0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_1724EA74DE9CE64C_OFFSET UNITYSDK_OFFSET(0x1E446B40)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_4D657599804A2D94_OFFSET UNITYSDK_OFFSET(0x1E446AB0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_5A6F21CC19C5EDF3_OFFSET UNITYSDK_OFFSET(0x1E446B00)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_7FA212012BF4615B_OFFSET UNITYSDK_OFFSET(0x1E446C60)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_8183E4C3E9FAC82D_OFFSET UNITYSDK_OFFSET(0x1E4461E0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1E4461D0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_A99467CE9479C990_OFFSET UNITYSDK_OFFSET(0x1E446760)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x1E4467C0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_DEB409BBC483B3E1_OFFSET UNITYSDK_OFFSET(0x1E446BE0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_E450ECF301C56542_OFFSET UNITYSDK_OFFSET(0x1E4467A0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_E5F116DB69E8300A_OFFSET UNITYSDK_OFFSET(0x1E4467D0)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_F0088C88851A7DFB_1_OFFSET UNITYSDK_OFFSET(0x1E446780)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_F0088C88851A7DFB_2_OFFSET UNITYSDK_OFFSET(0x1E446790)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_F0088C88851A7DFB_3_OFFSET UNITYSDK_OFFSET(0x1E446370)
-#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x1E446770)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_0_OFFSET UNITYSDK_OFFSET(0x1E6CF090)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_10_10_OFFSET UNITYSDK_OFFSET(0x1E6CF680)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_11_11_OFFSET UNITYSDK_OFFSET(0x1E6CF690)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_12_12_OFFSET UNITYSDK_OFFSET(0x1E6CF970)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_13_13_OFFSET UNITYSDK_OFFSET(0x1E6CF9C0)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_14_14_OFFSET UNITYSDK_OFFSET(0x1E6CFA00)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_15_15_OFFSET UNITYSDK_OFFSET(0x1E6CFA40)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_16_16_OFFSET UNITYSDK_OFFSET(0x1E6CFA90)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_17_17_OFFSET UNITYSDK_OFFSET(0x1E6CFAA0)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_18_18_OFFSET UNITYSDK_OFFSET(0x1E6CFB20)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_1_OFFSET UNITYSDK_OFFSET(0x1E6CF0A0)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_2_2_OFFSET UNITYSDK_OFFSET(0x1E6CF240)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_3_3_OFFSET UNITYSDK_OFFSET(0x1E6CF620)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_4_4_OFFSET UNITYSDK_OFFSET(0x1E6CF630)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_5_5_OFFSET UNITYSDK_OFFSET(0x1E6CF640)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_6_6_OFFSET UNITYSDK_OFFSET(0x1E6CF650)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_7_7_OFFSET UNITYSDK_OFFSET(0x1E6CF230)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_8_8_OFFSET UNITYSDK_OFFSET(0x1E6CF660)
+#define SYSTEM_REFLECTION_PARAMETERINFO_METHOD_9_9_OFFSET UNITYSDK_OFFSET(0x1E6CF670)
 
 namespace System::Reflection
 {
@@ -38,107 +38,107 @@ namespace System::Reflection
 	class ParameterInfo : public ::System::Object
 	{
 	public:
-		::System::Type* Field_1_3; // 0x10
-		::System::Object* Field_1_2; // 0x18
-		::System::Reflection::MemberInfo* Field_1_1; // 0x20
-		::System::String* Field_1_0; // 0x28
-		::System::Int32 Field_1_7; // 0x30
-		::System::Reflection::ParameterAttributes Field_1_6; // 0x34
-		::System::Runtime::InteropServices::MarshalAsAttribute* Field_1_5; // 0x38
+		::System::Type* Field_0; // 0x10
+		::System::Object* Field_1; // 0x18
+		::System::Reflection::MemberInfo* Field_2; // 0x20
+		::System::String* Field_3; // 0x28
+		::System::Int32 Field_4; // 0x30
+		::System::Reflection::ParameterAttributes Field_5; // 0x34
+		::System::Runtime::InteropServices::MarshalAsAttribute* Field_6; // 0x38
 
-		::System::Void Method_1_832295EC279E5994()
+		::System::Void Method_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_0_OFFSET))(this);
 		}
 
-		::System::String* Method_1_8183E4C3E9FAC82D()
+		::System::String* Method_1_1()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_8183E4C3E9FAC82D_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_1_OFFSET))(this);
 		}
 
-		static ::System::Void Method_1_001BA322A634F317(::System::Text::StringBuilder* sb, ::Il2CppArray<::System::Reflection::ParameterInfo*>* p, ::System::Reflection::CallingConventions callingConvention, ::System::Boolean serialization)
+		static ::System::Void Method_2_2(::System::Text::StringBuilder* sb, ::Il2CppArray<::System::Reflection::ParameterInfo*>* p, ::System::Reflection::CallingConventions callingConvention, ::System::Boolean serialization)
 		{
-			return ((::System::Void(*)(::System::Text::StringBuilder*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*, ::System::Reflection::CallingConventions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_001BA322A634F317_OFFSET))(sb, p, callingConvention, serialization);
+			return ((::System::Void(*)(::System::Text::StringBuilder*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*, ::System::Reflection::CallingConventions, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_2_2_OFFSET))(sb, p, callingConvention, serialization);
 		}
 
-		::System::Type* Method_1_A99467CE9479C990()
+		::System::Type* Method_3_3()
 		{
-			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_A99467CE9479C990_OFFSET))(this);
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_3_3_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_F0088C88851A7DFB()
+		::System::Boolean Method_4_4()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_4_4_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_F0088C88851A7DFB_1()
+		::System::Boolean Method_5_5()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_F0088C88851A7DFB_1_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_5_5_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_F0088C88851A7DFB_2()
+		::System::Boolean Method_6_6()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_F0088C88851A7DFB_2_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_6_6_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_F0088C88851A7DFB_3()
+		::System::Boolean Method_7_7()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_F0088C88851A7DFB_3_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_7_7_OFFSET))(this);
 		}
 
-		::System::Reflection::MemberInfo* Method_1_E450ECF301C56542()
+		::System::Reflection::MemberInfo* Method_8_8()
 		{
-			return ((::System::Reflection::MemberInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_E450ECF301C56542_OFFSET))(this);
+			return ((::System::Reflection::MemberInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_8_8_OFFSET))(this);
 		}
 
-		::System::String* Method_1_126AB3935214AA22()
+		::System::String* Method_9_9()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_126AB3935214AA22_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_9_9_OFFSET))(this);
 		}
 
-		::System::Int32 Method_1_C74CF020AA42ED85()
+		::System::Int32 Method_10_10()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_C74CF020AA42ED85_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_10_10_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Object*>* Method_1_E5F116DB69E8300A()
+		::Il2CppArray<::System::Object*>* Method_11_11()
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_E5F116DB69E8300A_OFFSET))(this);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_11_11_OFFSET))(this);
 		}
 
-		::System::Object* Method_1_4D657599804A2D94()
+		::System::Object* Method_12_12()
 		{
-			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_4D657599804A2D94_OFFSET))(this);
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_12_12_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Object*>* Method_1_5A6F21CC19C5EDF3(::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* Method_13_13(::System::Boolean inherit)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_5A6F21CC19C5EDF3_OFFSET))(this, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_13_13_OFFSET))(this, inherit);
 		}
 
-		::Il2CppArray<::System::Object*>* Method_1_1724EA74DE9CE64C(::System::Type* attributeType, ::System::Boolean inherit)
+		::Il2CppArray<::System::Object*>* Method_14_14(::System::Type* attributeType, ::System::Boolean inherit)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_1724EA74DE9CE64C_OFFSET))(this, attributeType, inherit);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_14_14_OFFSET))(this, attributeType, inherit);
 		}
 
-		::System::Object* Method_1_08FDEBD8D01774E4(::System::Runtime::Serialization::StreamingContext context)
+		::System::Object* Method_15_15(::System::Runtime::Serialization::StreamingContext context)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_08FDEBD8D01774E4_OFFSET))(this, context);
+			return ((::System::Object*(*)(::PVOID, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_15_15_OFFSET))(this, context);
 		}
 
-		::System::Boolean Method_1_0E9CD5BE0B9B7B7D(::System::Type* attributeType, ::System::Boolean inherit)
+		::System::Boolean Method_16_16(::System::Type* attributeType, ::System::Boolean inherit)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_0E9CD5BE0B9B7B7D_OFFSET))(this, attributeType, inherit);
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_16_16_OFFSET))(this, attributeType, inherit);
 		}
 
-		static ::System::Reflection::ParameterInfo* Method_1_DEB409BBC483B3E1(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member)
+		static ::System::Reflection::ParameterInfo* Method_17_17(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member)
 		{
-			return ((::System::Reflection::ParameterInfo*(*)(::System::Reflection::ParameterInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_DEB409BBC483B3E1_OFFSET))(pinfo, member);
+			return ((::System::Reflection::ParameterInfo*(*)(::System::Reflection::ParameterInfo*, ::System::Reflection::MemberInfo*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_17_17_OFFSET))(pinfo, member);
 		}
 
-		static ::System::Reflection::ParameterInfo* Method_1_7FA212012BF4615B(::System::Type* type, ::System::Reflection::MemberInfo* member, ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs)
+		static ::System::Reflection::ParameterInfo* Method_18_18(::System::Type* type, ::System::Reflection::MemberInfo* member, ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs)
 		{
-			return ((::System::Reflection::ParameterInfo*(*)(::System::Type*, ::System::Reflection::MemberInfo*, ::System::Runtime::InteropServices::MarshalAsAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_1_7FA212012BF4615B_OFFSET))(type, member, marshalAs);
+			return ((::System::Reflection::ParameterInfo*(*)(::System::Type*, ::System::Reflection::MemberInfo*, ::System::Runtime::InteropServices::MarshalAsAttribute*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_PARAMETERINFO_METHOD_18_18_OFFSET))(type, member, marshalAs);
 		}
 	};
 }

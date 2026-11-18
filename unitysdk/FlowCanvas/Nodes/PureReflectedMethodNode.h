@@ -11,32 +11,32 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection { class MethodInfo; }
 
-#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE_CALL_OFFSET UNITYSDK_OFFSET(0x1E6CBCD0)
-#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E6CBBA0)
-#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE_REGISTERINPUT_OFFSET UNITYSDK_OFFSET(0x1E6CC640)
-#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE_REGISTEROUTPUT_OFFSET UNITYSDK_OFFSET(0x1E6CC4E0)
-#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1E6CC8F0)
-#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6CCD40)
+#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE_CALL_OFFSET UNITYSDK_OFFSET(0x1E954F60)
+#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E954E30)
+#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE_REGISTERINPUT_OFFSET UNITYSDK_OFFSET(0x1E9558C0)
+#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE_REGISTEROUTPUT_OFFSET UNITYSDK_OFFSET(0x1E955770)
+#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1E955B70)
+#define FLOWCANVAS_NODES_PUREREFLECTEDMETHODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E955FC0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int PureReflectedMethodNode_TypeDefinitionIndex = 30113;
+	inline static constexpr unsigned int PureReflectedMethodNode_TypeDefinitionIndex = 30934;
 
 	class PureReflectedMethodNode : public ::FlowCanvas::Nodes::BaseReflectedMethodNode
 	{
 	public:
-		::Il2CppArray<::System::Object*>* callParams; // 0x98
-		::Il2CppArray<::FlowCanvas::ValueInput*>* arrayInputs; // 0xA0
-		::System::Object* resultObject; // 0xA8
-		::System::Type* arrayParamsType; // 0xB0
-		::System::String* wrapInNodeGraphName; // 0xB8
-		::System::Object* instanceObject; // 0xC0
+		::System::String* wrapInNodeGraphName; // 0x98
+		::System::Object* resultObject; // 0xA0
+		::System::String* wrapOutNodeGraphName; // 0xA8
+		::Il2CppArray<::FlowCanvas::ValueInput*>* inputs; // 0xB0
+		::Il2CppArray<::System::Object*>* callParams; // 0xB8
+		::System::Type* arrayParamsType; // 0xC0
 		::FlowCanvas::ValueInput* instanceInput; // 0xC8
-		::Il2CppArray<::FlowCanvas::ValueInput*>* inputs; // 0xD0
-		::System::String* wrapOutNodeGraphName; // 0xD8
-		::System::Int32 arrayParamsInput; // 0xE0
-		::System::Int32 wrapOutNodeIndex; // 0xE4
-		::System::Int32 wrapInNodeIndex; // 0xE8
+		::System::Object* instanceObject; // 0xD0
+		::Il2CppArray<::FlowCanvas::ValueInput*>* arrayInputs; // 0xD8
+		::System::Int32 wrapOutNodeIndex; // 0xE0
+		::System::Int32 wrapInNodeIndex; // 0xE4
+		::System::Int32 arrayParamsInput; // 0xE8
 
 		::System::Void _ctor()
 		{

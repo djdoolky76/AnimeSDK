@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKSERVER_LOGINRESULTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCC1140)
+#define MIHOYO_SDK_MIHOYOSDKSERVER_LOGINRESULTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F151A00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer_LoginResultModel_TypeDefinitionIndex = 37365;
+	inline static constexpr unsigned int MiHoYoSDKServer_LoginResultModel_TypeDefinitionIndex = 35343;
 
 	class MiHoYoSDKServer_LoginResultModel : public ::System::Object
 	{
@@ -22,8 +22,10 @@ namespace MiHoYo::SDK
 		::System::String* comboToken; // 0x28
 		::System::String* deviceId; // 0x30
 		::System::Boolean guest; // 0x38
+		::System::Byte _padding0[0x3];
 		::System::Int32 loginType; // 0x3C
 		::System::Boolean isNewRegister; // 0x40
+		::System::Byte _padding1[0x7];
 		::System::String* onlineId; // 0x48
 		::System::String* psAccountId; // 0x50
 		::System::String* ext; // 0x58

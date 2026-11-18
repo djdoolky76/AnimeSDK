@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class CJIEIHEDMME;
+
+#define KPEPCPLPAIO_FCEJILELAEF_OFFSET UNITYSDK_OFFSET(0x151752E0)
+#define KPEPCPLPAIO_HFGBILKLDNB_OFFSET UNITYSDK_OFFSET(0x151750B0)
+
+inline static constexpr unsigned int KPEPCPLPAIO_TypeDefinitionIndex = 60012;
+
+class KPEPCPLPAIO : public ::System::Object
+{
+public:
+	static ::System::Void HFGBILKLDNB(::CJIEIHEDMME* PACEGKMABFN, ::CJIEIHEDMME* COIEONGEDME)
+	{
+		return ((::System::Void(*)(::CJIEIHEDMME*, ::CJIEIHEDMME*))((::PBYTE)hIl2Cpp + KPEPCPLPAIO_HFGBILKLDNB_OFFSET))(PACEGKMABFN, COIEONGEDME);
+	}
+
+	static ::System::Void FCEJILELAEF(::CJIEIHEDMME* PACEGKMABFN, ::CJIEIHEDMME* COIEONGEDME)
+	{
+		return ((::System::Void(*)(::CJIEIHEDMME*, ::CJIEIHEDMME*))((::PBYTE)hIl2Cpp + KPEPCPLPAIO_FCEJILELAEF_OFFSET))(PACEGKMABFN, COIEONGEDME);
+	}
+};

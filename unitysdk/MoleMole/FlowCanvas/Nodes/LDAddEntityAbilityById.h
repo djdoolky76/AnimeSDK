@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDADDENTITYABILITYBYID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1382FAE0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDADDENTITYABILITYBYID__CTOR_OFFSET UNITYSDK_OFFSET(0x1382FD80)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDADDENTITYABILITYBYID_INVOKE_OFFSET UNITYSDK_OFFSET(0x139D4DC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDADDENTITYABILITYBYID__CTOR_OFFSET UNITYSDK_OFFSET(0x139D5060)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDAddEntityAbilityById_TypeDefinitionIndex = 62005;
+	inline static constexpr unsigned int LDAddEntityAbilityById_TypeDefinitionIndex = 81966;
 
-	class LDAddEntityAbilityById : public ::FlowCanvas::Nodes::CallableActionNode_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::List_1<::System::Int32>*>
+	class LDAddEntityAbilityById
 	{
 	public:
 		::System::Void _ctor()

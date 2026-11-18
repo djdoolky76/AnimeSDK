@@ -5,11 +5,11 @@
 namespace NPCCrowd::AI { class FeaturePointPathRef; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_FEATUREPOINTPATHREFLIST__CTOR_OFFSET UNITYSDK_OFFSET(0xF0CA380)
+#define NPCCROWD_AI_FEATUREPOINTPATHREFLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x114B3B50)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int FeaturePointPathRefList_TypeDefinitionIndex = 85749;
+	inline static constexpr unsigned int FeaturePointPathRefList_TypeDefinitionIndex = 47126;
 
 	class FeaturePointPathRefList : public ::System::Object
 	{

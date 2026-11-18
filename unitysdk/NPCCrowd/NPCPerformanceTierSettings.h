@@ -4,7 +4,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCPerformanceTierSettings_TypeDefinitionIndex = 65032;
+	inline static constexpr unsigned int NPCPerformanceTierSettings_TypeDefinitionIndex = 89472;
 
 	struct alignas(4) NPCPerformanceTierSettings
 	{

@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/DLMMAMJGPCI.h"
+#include "unitysdk/EKLMJGLFFED.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class String; }
+
+#define LKEJGLHLBOH_CLINHKACEEN_OFFSET UNITYSDK_OFFSET(0x3AE120)
+#define LKEJGLHLBOH_DPIHOJBBGLA_OFFSET UNITYSDK_OFFSET(0x784D80)
+#define LKEJGLHLBOH_GMKFPMJDLGB_OFFSET UNITYSDK_OFFSET(0x784E40)
+#define LKEJGLHLBOH_JOAOBPCBBKP_OFFSET UNITYSDK_OFFSET(0x3AE690)
+#define LKEJGLHLBOH_LOGMNFFOOCB_OFFSET UNITYSDK_OFFSET(0x16375770)
+#define LKEJGLHLBOH_OLNNMIDNIAD_OFFSET UNITYSDK_OFFSET(0x784E10)
+#define LKEJGLHLBOH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x784D70)
+
+inline static constexpr unsigned int LKEJGLHLBOH_TypeDefinitionIndex = 57010;
+
+struct alignas(4) LKEJGLHLBOH
+{
+	::DLMMAMJGPCI _OCBANNMAGAK_k__BackingField; // 0x10
+	::EKLMJGLFFED _BIJFLAKFODI_k__BackingField; // 0x68
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + LKEJGLHLBOH_TOSTRING_OFFSET))(this);
+	}
+
+	/*
+	static ::LKEJGLHLBOH LOGMNFFOOCB()
+	{
+		return ((::LKEJGLHLBOH(*)())((::PBYTE)hIl2Cpp + LKEJGLHLBOH_LOGMNFFOOCB_OFFSET))();
+	}
+	*/
+
+	::DLMMAMJGPCI JOAOBPCBBKP()
+	{
+		return ((::DLMMAMJGPCI(*)(::PVOID))((::PBYTE)hIl2Cpp + LKEJGLHLBOH_JOAOBPCBBKP_OFFSET))(this);
+	}
+
+	::System::String* DPIHOJBBGLA()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + LKEJGLHLBOH_DPIHOJBBGLA_OFFSET))(this);
+	}
+
+	::EKLMJGLFFED OLNNMIDNIAD()
+	{
+		return ((::EKLMJGLFFED(*)(::PVOID))((::PBYTE)hIl2Cpp + LKEJGLHLBOH_OLNNMIDNIAD_OFFSET))(this);
+	}
+
+	::System::Void CLINHKACEEN(::DLMMAMJGPCI EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::DLMMAMJGPCI))((::PBYTE)hIl2Cpp + LKEJGLHLBOH_CLINHKACEEN_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void GMKFPMJDLGB(::EKLMJGLFFED EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::EKLMJGLFFED))((::PBYTE)hIl2Cpp + LKEJGLHLBOH_GMKFPMJDLGB_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

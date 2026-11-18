@@ -4,7 +4,7 @@
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int DHParameters_TypeDefinitionIndex = 2452;
+	inline static constexpr unsigned int DHParameters_TypeDefinitionIndex = 2451;
 
 	struct alignas(8) DHParameters
 	{

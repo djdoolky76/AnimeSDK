@@ -4,19 +4,19 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGCHANGEBGFADE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E4260)
+#define MOLEMOLE_CONFIG_CONFIGCHANGEBGFADE__CTOR_OFFSET UNITYSDK_OFFSET(0x19296EB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChangeBGFade_TypeDefinitionIndex = 44060;
+	inline static constexpr unsigned int ConfigChangeBGFade_TypeDefinitionIndex = 48138;
 
 	class ConfigChangeBGFade : public ::System::Object
 	{
 	public:
 		::UnityEngine::AnimationCurve* FadeInSpeed; // 0x10
 		::UnityEngine::AnimationCurve* FadeOutSpeed; // 0x18
-		::System::Single FadeOutDuration; // 0x20
-		::System::Single FadeInDuration; // 0x24
+		::System::Single FadeInDuration; // 0x20
+		::System::Single FadeOutDuration; // 0x24
 
 		::System::Void _ctor()
 		{

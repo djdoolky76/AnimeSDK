@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Win32Dll_THREADENTRY32_TypeDefinitionIndex = 20054;
+	inline static constexpr unsigned int Win32Dll_THREADENTRY32_TypeDefinitionIndex = 19200;
 
 	struct alignas(4) Win32Dll_THREADENTRY32
 	{

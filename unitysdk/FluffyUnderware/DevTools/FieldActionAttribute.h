@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_FIELDACTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA55580)
+#define FLUFFYUNDERWARE_DEVTOOLS_FIELDACTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5E200)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int FieldActionAttribute_TypeDefinitionIndex = 28931;
+	inline static constexpr unsigned int FieldActionAttribute_TypeDefinitionIndex = 28370;
 
 	class FieldActionAttribute : public ::FluffyUnderware::DevTools::ActionAttribute
 	{

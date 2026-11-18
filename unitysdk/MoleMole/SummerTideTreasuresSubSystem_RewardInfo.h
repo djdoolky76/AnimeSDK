@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SummerTideTreasuresSubSystem_RewardInfo_TypeDefinitionIndex = 80770;
+	inline static constexpr unsigned int SummerTideTreasuresSubSystem_RewardInfo_TypeDefinitionIndex = 69668;
 
 	struct alignas(4) SummerTideTreasuresSubSystem_RewardInfo
 	{

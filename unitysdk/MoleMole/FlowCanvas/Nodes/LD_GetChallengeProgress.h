@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
-class Class_1_A26009A270D71B3D;
+class NCDMMMLNAMM;
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
@@ -11,27 +11,28 @@ namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace MoleMole::Battle { class ChallengeSubTypeItem; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCHALLENGEPROGRESS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x118C1F70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCHALLENGEPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x118C2110)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCHALLENGEPROGRESS__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x118C2190)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCHALLENGEPROGRESS__REGISTERPORTS_B__9_1_OFFSET UNITYSDK_OFFSET(0x118C21A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCHALLENGEPROGRESS__REGISTERPORTS_B__9_2_OFFSET UNITYSDK_OFFSET(0x118C21B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCHALLENGEPROGRESS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x162413E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCHALLENGEPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x16241580)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCHALLENGEPROGRESS__REGISTERPORTS_B__9_0_OFFSET UNITYSDK_OFFSET(0x16241600)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCHALLENGEPROGRESS__REGISTERPORTS_B__9_1_OFFSET UNITYSDK_OFFSET(0x16241610)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETCHALLENGEPROGRESS__REGISTERPORTS_B__9_2_OFFSET UNITYSDK_OFFSET(0x16241620)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetChallengeProgress_TypeDefinitionIndex = 49251;
+	inline static constexpr unsigned int LD_GetChallengeProgress_TypeDefinitionIndex = 39449;
 
 	class LD_GetChallengeProgress : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::System::String* _cacheStrProg; // 0xA8
-		::FlowCanvas::ValueOutput_1<::System::String*>* stringProgressOutput; // 0xB0
-		::FlowCanvas::ValueInput_1<::Class_1_A26009A270D71B3D*>* challengeItem; // 0xB8
-		::FlowCanvas::FlowInput* updateProgress; // 0xC0
+		::FlowCanvas::ValueInput_1<::NCDMMMLNAMM*>* challengeItem; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::ChallengeSubTypeItem*>* challengeSubTypeItem; // 0xB0
+		::FlowCanvas::ValueOutput_1<::System::String*>* stringProgressOutput; // 0xB8
+		::System::String* _cacheStrProg; // 0xC0
 		::FlowCanvas::FlowOutput* onChangeProgress; // 0xC8
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::ChallengeSubTypeItem*>* challengeSubTypeItem; // 0xD0
-		::System::Boolean _hasFirstCall; // 0xD8
-		::System::Single _preProg; // 0xDC
+		::FlowCanvas::FlowInput* updateProgress; // 0xD0
+		::System::Single _preProg; // 0xD8
+		::System::Boolean _hasFirstCall; // 0xDC
+		::System::Byte _padding0[0x3];
 		::System::Single _cacheProg; // 0xE0
 
 		::System::Void _ctor()

@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class MeshRenderer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPRENDERERLIGHTMAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DDF80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPRENDERERLIGHTMAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C986E20)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int NapRendererLightMapData_TypeDefinitionIndex = 27233;
+	inline static constexpr unsigned int NapRendererLightMapData_TypeDefinitionIndex = 26633;
 
 	class NapRendererLightMapData : public ::System::Object
 	{

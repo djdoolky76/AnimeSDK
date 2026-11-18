@@ -5,40 +5,40 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E0CE30)
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18E0CE70)
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__ONUIINIT_B__10_1_OFFSET UNITYSDK_OFFSET(0x18E0CE80)
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__ONUIINIT_B__10_2_OFFSET UNITYSDK_OFFSET(0x18E0CF00)
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__ONUIINIT_B__10_3_OFFSET UNITYSDK_OFFSET(0x18E0CF80)
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__REFRESHWEAPONREWARD_B__22_2_OFFSET UNITYSDK_OFFSET(0x18E0D5F0)
-#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__REFRESHWEAPONREWARD_G__ONINFOBTNCLICK_22_1_OFFSET UNITYSDK_OFFSET(0x18E0D0E0)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A11DDD0)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11DE10)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__ONUIINIT_B__10_1_OFFSET UNITYSDK_OFFSET(0x1A11DE20)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__ONUIINIT_B__10_2_OFFSET UNITYSDK_OFFSET(0x1A11DEA0)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__ONUIINIT_B__10_3_OFFSET UNITYSDK_OFFSET(0x1A11DF20)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__REFRESHWEAPONREWARD_B__22_2_OFFSET UNITYSDK_OFFSET(0x1A11E590)
+#define MOLEMOLE_UIACTIVITYFISHMAINPAGECONTROLLER___C__REFRESHWEAPONREWARD_G__ONINFOBTNCLICK_22_1_OFFSET UNITYSDK_OFFSET(0x1A11E080)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityFishMainPageController___c_TypeDefinitionIndex = 61340;
+	inline static constexpr unsigned int UIActivityFishMainPageController___c_TypeDefinitionIndex = 46850;
 
 	class UIActivityFishMainPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Int32, ::System::UInt32>** StaticGet___9__22_2()
-		{
-			return (::System::Func_2<::System::Int32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x428D0);
-		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__10_1()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x428D8);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x41E70);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__10_2()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x428E0);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x41E78);
 		}
-		static ::MoleMole::UIActivityFishMainPageController___c** StaticGet___9()
+		static ::System::Func_2<::System::Int32, ::System::UInt32>** StaticGet___9__22_2()
 		{
-			return (::MoleMole::UIActivityFishMainPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x428E8);
+			return (::System::Func_2<::System::Int32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x41E80);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x41E88);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__10_3()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x428F0);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIActivityFishMainPageController___c_TypeDefinitionIndex)->GetStaticField(0x41E90);
 		}
 
 		static ::System::Void _cctor()

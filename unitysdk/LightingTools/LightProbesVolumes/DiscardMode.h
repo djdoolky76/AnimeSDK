@@ -3,7 +3,7 @@
 
 namespace LightingTools::LightProbesVolumes
 {
-	inline static constexpr unsigned int DiscardMode_TypeDefinitionIndex = 94446;
+	inline static constexpr unsigned int DiscardMode_TypeDefinitionIndex = 96133;
 
 	enum class DiscardMode : ::System::Int32
 	{

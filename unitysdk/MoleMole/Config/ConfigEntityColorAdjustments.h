@@ -7,11 +7,11 @@ namespace MoleMole::Config { class ConfigEntityColorAdjustment; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5AAA0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCOLORADJUSTMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1909F810)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityColorAdjustments_TypeDefinitionIndex = 86108;
+	inline static constexpr unsigned int ConfigEntityColorAdjustments_TypeDefinitionIndex = 53668;
 
 	class ConfigEntityColorAdjustments : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -23,6 +23,7 @@ namespace MoleMole::Config
 		::System::Single DefaultSaturation; // 0x74
 		::System::Single DefaultDesaturate; // 0x78
 		::System::Boolean DefaultApplyLutToSkybox; // 0x7C
+		::System::Byte _padding0[0x3];
 		::System::Single DefaultSkySaturation; // 0x80
 		::System::Single DefaultSkyContrast; // 0x84
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigEntityColorAdjustment*>* Effects; // 0x88

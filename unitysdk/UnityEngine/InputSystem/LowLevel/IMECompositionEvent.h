@@ -3,15 +3,16 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/IMECompositionString.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputEvent.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_IMECOMPOSITIONEVENT_CREATE_OFFSET UNITYSDK_OFFSET(0x1E782770)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_IMECOMPOSITIONEVENT_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0xA38570)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_IMECOMPOSITIONEVENT_CREATE_OFFSET UNITYSDK_OFFSET(0x1EA04C50)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_IMECOMPOSITIONEVENT_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x919B30)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int IMECompositionEvent_TypeDefinitionIndex = 32526;
+	inline static constexpr unsigned int IMECompositionEvent_TypeDefinitionIndex = 31975;
 
 	struct alignas(4) IMECompositionEvent
 	{
@@ -20,16 +21,16 @@ namespace UnityEngine::InputSystem::LowLevel
 		::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent; // 0x10
 		::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString; // 0x24
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_IMECOMPOSITIONEVENT_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::LowLevel::IMECompositionEvent Create(::System::Int32 deviceId, ::System::String* compositionString, ::System::Double time)
 		{
 			return ((::UnityEngine::InputSystem::LowLevel::IMECompositionEvent(*)(::System::Int32, ::System::String*, ::System::Double))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_IMECOMPOSITIONEVENT_CREATE_OFFSET))(deviceId, compositionString, time);
 		}
+		*/
 	};
 }

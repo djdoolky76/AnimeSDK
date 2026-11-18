@@ -5,13 +5,14 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdMontageManager_MontageLayerMetaCache_TypeDefinitionIndex = 66975;
+	inline static constexpr unsigned int NPCCrowdMontageManager_MontageLayerMetaCache_TypeDefinitionIndex = 39856;
 
 	struct alignas(8) NPCCrowdMontageManager_MontageLayerMetaCache
 	{
 		::NPCCrowd::Animation::MontageTrackTypeFlags trackTypeMask; // 0x10
 		::System::Int32 animLayerMask; // 0x14
 		::System::Int32 sequenceLayerMask; // 0x18
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Single>* animLayerDurations; // 0x20
 		::Il2CppArray<::System::Single>* sequenceLayerDurations; // 0x28
 	};

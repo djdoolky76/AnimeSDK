@@ -1,24 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_7177740ACDCD76B5.h"
+#include "unitysdk/DLBOCPNMMOH.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_B9416AD3CF7CE7E5;
+class DCFKHKBLIMA;
 
-#define MOLEMOLE_UIRABDEPOSITORYELEMENTUPROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x188634A0)
+#define MOLEMOLE_UIRABDEPOSITORYELEMENTUPROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18245200)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABDepositoryElementUpRowWidgetController_Context_TypeDefinitionIndex = 60890;
+	inline static constexpr unsigned int UIRABDepositoryElementUpRowWidgetController_Context_TypeDefinitionIndex = 45064;
 
 	class UIRABDepositoryElementUpRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_B9416AD3CF7CE7E5* BuddyData; // 0x28
-		::System::Int32 BeforeStar; // 0x30
-		::System::Int32 AfterStar; // 0x34
+		::DCFKHKBLIMA* BuddyData; // 0x28
+		::System::Int32 AfterStar; // 0x30
+		::DLBOCPNMMOH AttrId; // 0x34
 		::System::Boolean Empty; // 0x38
-		::Enum_3_7177740ACDCD76B5 AttrId; // 0x3C
+		::System::Byte _padding0[0x3];
+		::System::Int32 BeforeStar; // 0x3C
 
 		::System::Void _ctor()
 		{

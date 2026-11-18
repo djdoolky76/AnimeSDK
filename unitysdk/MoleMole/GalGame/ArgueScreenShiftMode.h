@@ -3,11 +3,11 @@
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int ArgueScreenShiftMode_TypeDefinitionIndex = 87283;
+	inline static constexpr unsigned int ArgueScreenShiftMode_TypeDefinitionIndex = 79104;
 
 	enum class ArgueScreenShiftMode : ::System::Int32
 	{
-		Normal = 0,
 		Shake = 1,
+		Normal = 0,
 	};
 }

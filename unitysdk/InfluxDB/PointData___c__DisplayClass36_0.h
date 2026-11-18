@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedDictionary_2; }
 
-#define INFLUXDB_POINTDATA___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F62E680)
-#define INFLUXDB_POINTDATA___C__DISPLAYCLASS36_0__EQUALS_B__0_OFFSET UNITYSDK_OFFSET(0x1F62E690)
-#define INFLUXDB_POINTDATA___C__DISPLAYCLASS36_0__EQUALS_B__1_OFFSET UNITYSDK_OFFSET(0x1F62E750)
+#define INFLUXDB_POINTDATA___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7D67A0)
+#define INFLUXDB_POINTDATA___C__DISPLAYCLASS36_0__EQUALS_B__0_OFFSET UNITYSDK_OFFSET(0x1F7D67B0)
+#define INFLUXDB_POINTDATA___C__DISPLAYCLASS36_0__EQUALS_B__1_OFFSET UNITYSDK_OFFSET(0x1F7D6870)
 
 namespace InfluxDB
 {
-	inline static constexpr unsigned int PointData___c__DisplayClass36_0_TypeDefinitionIndex = 8236;
+	inline static constexpr unsigned int PointData___c__DisplayClass36_0_TypeDefinitionIndex = 8630;
 
 	class PointData___c__DisplayClass36_0 : public ::System::Object
 	{

@@ -5,9 +5,9 @@
 
 namespace UnityEngine { class MeshRenderer; }
 
-#define LIGHTMAPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E659A40)
+#define LIGHTMAPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DD450)
 
-inline static constexpr unsigned int LightmapInfo_TypeDefinitionIndex = 27180;
+inline static constexpr unsigned int LightmapInfo_TypeDefinitionIndex = 26333;
 
 class LightmapInfo : public ::System::Object
 {

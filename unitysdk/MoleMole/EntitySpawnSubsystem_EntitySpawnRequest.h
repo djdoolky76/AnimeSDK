@@ -4,25 +4,26 @@
 #include "unitysdk/MoleMole/EntityHandle.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_8300C0E13E94E2DB;
+class ANAKBKOHGEB;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNREQUEST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x118AA670)
-#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x118AA660)
+#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNREQUEST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16229B30)
+#define MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x16229B20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EntitySpawnSubsystem_EntitySpawnRequest_TypeDefinitionIndex = 82971;
+	inline static constexpr unsigned int EntitySpawnSubsystem_EntitySpawnRequest_TypeDefinitionIndex = 87043;
 
 	class EntitySpawnSubsystem_EntitySpawnRequest : public ::System::Object
 	{
 	public:
 		::Foundation::ViewObject::ViewObjectHandle OwnerVo; // 0x10
-		::MoleMole::EntityHandle Entity; // 0x20
-		::Class_1_8300C0E13E94E2DB* Creator; // 0x30
-		::System::Action_1<::MoleMole::EntityHandle>* OnComplete; // 0x38
+		::ANAKBKOHGEB* Creator; // 0x20
+		::System::Action_1<::MoleMole::EntityHandle>* OnComplete; // 0x28
+		::MoleMole::EntityHandle Entity; // 0x30
 		::System::Boolean IsWaiting; // 0x40
 		::System::Boolean IsCancelled; // 0x41
+		::System::Byte _padding0[0x2];
 		::System::Int32 Priority; // 0x44
 
 		::System::Void _ctor()
@@ -30,9 +31,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNREQUEST__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Foundation::ViewObject::ViewObjectHandle ownerVo, ::Class_1_8300C0E13E94E2DB* creator, ::System::Int32 priority, ::System::Action_1<::MoleMole::EntityHandle>* onComplete)
+		::System::Void _ctor_1(::Foundation::ViewObject::ViewObjectHandle ownerVo, ::ANAKBKOHGEB* creator, ::System::Int32 priority, ::System::Action_1<::MoleMole::EntityHandle>* onComplete)
 		{
-			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle, ::Class_1_8300C0E13E94E2DB*, ::System::Int32, ::System::Action_1<::MoleMole::EntityHandle>*))((::PBYTE)hIl2Cpp + MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNREQUEST__CTOR_1_OFFSET))(this, ownerVo, creator, priority, onComplete);
+			return ((::System::Void(*)(::PVOID, ::Foundation::ViewObject::ViewObjectHandle, ::ANAKBKOHGEB*, ::System::Int32, ::System::Action_1<::MoleMole::EntityHandle>*))((::PBYTE)hIl2Cpp + MOLEMOLE_ENTITYSPAWNSUBSYSTEM_ENTITYSPAWNREQUEST__CTOR_1_OFFSET))(this, ownerVo, creator, priority, onComplete);
 		}
 	};
 }

@@ -4,20 +4,20 @@
 
 namespace System::Text { class StringBuilder; }
 
-#define FOUNDATION_NAPSTRING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9C04A0)
-#define FOUNDATION_NAPSTRING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C04E0)
-#define FOUNDATION_NAPSTRING___C___CCTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0x1E9C04F0)
+#define FOUNDATION_NAPSTRING___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA7C690)
+#define FOUNDATION_NAPSTRING___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7C6D0)
+#define FOUNDATION_NAPSTRING___C___CCTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0x1EA7C6E0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NapString___c_TypeDefinitionIndex = 8034;
+	inline static constexpr unsigned int NapString___c_TypeDefinitionIndex = 8141;
 
 	class NapString___c : public ::System::Object
 	{
 	public:
-		static ::Foundation::NapString___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Foundation::NapString___c**)Il2CppClass::FromTypeDefinitionIndex(NapString___c_TypeDefinitionIndex)->GetStaticField(0x6800);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NapString___c_TypeDefinitionIndex)->GetStaticField(0x6740);
 		}
 
 		static ::System::Void _cctor()

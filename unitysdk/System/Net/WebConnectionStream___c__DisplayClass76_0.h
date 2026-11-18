@@ -6,18 +6,18 @@ namespace System { class IAsyncResult; }
 namespace System::Net { class SimpleAsyncResult; }
 namespace System::Net { class WebConnectionStream; }
 
-#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD1400)
-#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS76_0__SETHEADERSASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1DAD1410)
+#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF12100)
+#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS76_0__SETHEADERSASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1DF12110)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebConnectionStream___c__DisplayClass76_0_TypeDefinitionIndex = 3572;
+	inline static constexpr unsigned int WebConnectionStream___c__DisplayClass76_0_TypeDefinitionIndex = 3571;
 
 	class WebConnectionStream___c__DisplayClass76_0 : public ::System::Object
 	{
 	public:
-		::System::Net::SimpleAsyncResult* result; // 0x10
-		::System::Net::WebConnectionStream* __4__this; // 0x18
+		::System::Net::WebConnectionStream* __4__this; // 0x10
+		::System::Net::SimpleAsyncResult* result; // 0x18
 
 		::System::Void _ctor()
 		{

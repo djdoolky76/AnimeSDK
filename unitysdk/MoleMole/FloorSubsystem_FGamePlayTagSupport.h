@@ -7,19 +7,19 @@ namespace FluffyUnderware::Curvy { class CurvySpline; }
 namespace MoleMole { class FloorSubsystem; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MOLEMOLE_FLOORSUBSYSTEM_FGAMEPLAYTAGSUPPORT_ONVISITONE_OFFSET UNITYSDK_OFFSET(0x1A03EF90)
-#define MOLEMOLE_FLOORSUBSYSTEM_FGAMEPLAYTAGSUPPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A03EF80)
+#define MOLEMOLE_FLOORSUBSYSTEM_FGAMEPLAYTAGSUPPORT_ONVISITONE_OFFSET UNITYSDK_OFFSET(0x1A7B9770)
+#define MOLEMOLE_FLOORSUBSYSTEM_FGAMEPLAYTAGSUPPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7B9760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FloorSubsystem_FGamePlayTagSupport_TypeDefinitionIndex = 79591;
+	inline static constexpr unsigned int FloorSubsystem_FGamePlayTagSupport_TypeDefinitionIndex = 50121;
 
 	class FloorSubsystem_FGamePlayTagSupport : public ::System::Object
 	{
 	public:
-		::FluffyUnderware::Curvy::CurvySpline* SearchSpline; // 0x10
-		::MoleMole::FloorSubsystem* _owner; // 0x18
-		::System::Action_2<::FluffyUnderware::Curvy::CurvySpline*, ::Foundation::Unreal::FGameplayTag>* _action; // 0x20
+		::System::Action_2<::FluffyUnderware::Curvy::CurvySpline*, ::Foundation::Unreal::FGameplayTag>* _action; // 0x10
+		::FluffyUnderware::Curvy::CurvySpline* SearchSpline; // 0x18
+		::MoleMole::FloorSubsystem* _owner; // 0x20
 
 		::System::Void _ctor(::MoleMole::FloorSubsystem* owner, ::System::Action_2<::FluffyUnderware::Curvy::CurvySpline*, ::Foundation::Unreal::FGameplayTag>* action)
 		{

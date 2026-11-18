@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class TransparentSettingsPassNativeState; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_TRANSPARENTSETTINGSPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E607A10)
-#define UNITYENGINE_NAPRENDERPIPELINE0_TRANSPARENTSETTINGSPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1E6079E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_TRANSPARENTSETTINGSPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E607950)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TRANSPARENTSETTINGSPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E850B00)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TRANSPARENTSETTINGSPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1E850AD0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TRANSPARENTSETTINGSPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E850A40)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int TransparentSettingsPass_NativeImpl_TypeDefinitionIndex = 5760;
+	inline static constexpr unsigned int TransparentSettingsPass_NativeImpl_TypeDefinitionIndex = 5765;
 
 	class TransparentSettingsPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

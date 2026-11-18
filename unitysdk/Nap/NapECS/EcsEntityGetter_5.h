@@ -6,12 +6,12 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4,
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsEntityGetter_5_TypeDefinitionIndex = 37953;
+	inline static constexpr unsigned int EcsEntityGetter_5_TypeDefinitionIndex = 35928;
 
-	template <typename T1, typename T2, typename T3, typename T4, typename TResult>
-	struct EcsEntityGetter_5
+	template <typename T1, typename T2, typename T3, typename T4, typename T5>
+	struct alignas(8) EcsEntityGetter_5
 	{
-		TResult Result; // 0x0
-		::System::Func_5<T1, T2, T3, T4, TResult>* _getter; // 0x0
+		T1 Result; // 0x0
+		::System::Func_5<T2, T3, T4, T5, T5>* _getter; // 0x0
 	};
 }

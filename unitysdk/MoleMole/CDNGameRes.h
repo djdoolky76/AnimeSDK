@@ -6,13 +6,13 @@ namespace Foundation { class VersionFileInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CDNGAMERES_GET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x177B2FD0)
-#define MOLEMOLE_CDNGAMERES_SET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x177B2FE0)
-#define MOLEMOLE_CDNGAMERES__CTOR_OFFSET UNITYSDK_OFFSET(0x177B2FF0)
+#define MOLEMOLE_CDNGAMERES_GET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x174DB060)
+#define MOLEMOLE_CDNGAMERES_SET_VERSIONS_LIST_OFFSET UNITYSDK_OFFSET(0x174DB070)
+#define MOLEMOLE_CDNGAMERES__CTOR_OFFSET UNITYSDK_OFFSET(0x174DB080)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CDNGameRes_TypeDefinitionIndex = 72052;
+	inline static constexpr unsigned int CDNGameRes_TypeDefinitionIndex = 69369;
 
 	class CDNGameRes : public ::System::Object
 	{
@@ -34,9 +34,9 @@ namespace MoleMole
 			return ((::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CDNGAMERES_GET_VERSIONS_LIST_OFFSET))(this);
 		}
 
-		::System::Void set_versions_list(::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>* a1)
+		::System::Void set_versions_list(::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CDNGAMERES_SET_VERSIONS_LIST_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Foundation::VersionFileInfo*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CDNGAMERES_SET_VERSIONS_LIST_OFFSET))(this, EGEGIMGMJHN);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IEntity_TypeDefinitionIndex = 18820;
+	inline static constexpr unsigned int IEntity_TypeDefinitionIndex = 17970;
 
 	class IEntity
 	{

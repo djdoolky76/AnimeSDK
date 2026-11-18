@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSDESERIALIZEOVERWRITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E546280)
+#define PARADOXNOTION_SERIALIZATION_FULLSERIALIZER_FSDESERIALIZEOVERWRITE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BA300)
 
 namespace ParadoxNotion::Serialization::FullSerializer
 {
-	inline static constexpr unsigned int fsDeserializeOverwrite_TypeDefinitionIndex = 30839;
+	inline static constexpr unsigned int fsDeserializeOverwrite_TypeDefinitionIndex = 29761;
 
 	class fsDeserializeOverwrite : public ::System::Attribute
 	{

@@ -8,14 +8,14 @@ namespace Cinemachine { class ConfinerOven; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider2D; }
 
-#define CINEMACHINE_CINEMACHINECONFINER2D_SHAPECACHE_CALCULATEDELTATRANSFORMATIONMATRIX_OFFSET UNITYSDK_OFFSET(0xAACC00)
-#define CINEMACHINE_CINEMACHINECONFINER2D_SHAPECACHE_INVALIDATE_OFFSET UNITYSDK_OFFSET(0xAACB40)
-#define CINEMACHINE_CINEMACHINECONFINER2D_SHAPECACHE_ISVALID_OFFSET UNITYSDK_OFFSET(0xAACBF0)
-#define CINEMACHINE_CINEMACHINECONFINER2D_SHAPECACHE_VALIDATECACHE_OFFSET UNITYSDK_OFFSET(0xAACBE0)
+#define CINEMACHINE_CINEMACHINECONFINER2D_SHAPECACHE_CALCULATEDELTATRANSFORMATIONMATRIX_OFFSET UNITYSDK_OFFSET(0x995C30)
+#define CINEMACHINE_CINEMACHINECONFINER2D_SHAPECACHE_INVALIDATE_OFFSET UNITYSDK_OFFSET(0x995B70)
+#define CINEMACHINE_CINEMACHINECONFINER2D_SHAPECACHE_ISVALID_OFFSET UNITYSDK_OFFSET(0x995C20)
+#define CINEMACHINE_CINEMACHINECONFINER2D_SHAPECACHE_VALIDATECACHE_OFFSET UNITYSDK_OFFSET(0x995C10)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineConfiner2D_ShapeCache_TypeDefinitionIndex = 34661;
+	inline static constexpr unsigned int CinemachineConfiner2D_ShapeCache_TypeDefinitionIndex = 34207;
 
 	struct alignas(8) CinemachineConfiner2D_ShapeCache
 	{
@@ -27,6 +27,7 @@ namespace Cinemachine
 		::System::Single m_maxWindowSize; // 0xA4
 		::System::Single m_maxComputationTimePerFrameInSeconds; // 0xA8
 		::UnityEngine::Matrix4x4 m_bakedToWorld; // 0xAC
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Collider2D* m_boundingShape2D; // 0xF0
 
 		::System::Void Invalidate()

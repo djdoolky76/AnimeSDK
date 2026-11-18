@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/GalGame/ArgueGeneralUIState.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_GALGAME_ARGUEGENERALUISTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16853400)
+#define MOLEMOLE_GALGAME_ARGUEGENERALUISTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10D1E190)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int ArgueGeneralUIStateConfig_TypeDefinitionIndex = 66174;
+	inline static constexpr unsigned int ArgueGeneralUIStateConfig_TypeDefinitionIndex = 76142;
 
 	class ArgueGeneralUIStateConfig : public ::System::Object
 	{

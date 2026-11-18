@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/AnimationTrack.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_SKINOVERRIDEANIMATIONTRACK_PREPOSTPROCESSTRACK_OFFSET UNITYSDK_OFFSET(0x1F112250)
-#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_SKINOVERRIDEANIMATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1124B0)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_SKINOVERRIDEANIMATIONTRACK_PREPOSTPROCESSTRACK_OFFSET UNITYSDK_OFFSET(0x1F486470)
+#define MOLEMOLE_TIMELINE_OVERRIDEANIMATION_SKINOVERRIDEANIMATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4866D0)
 
 namespace MoleMole::Timeline::OverrideAnimation
 {
-	inline static constexpr unsigned int SkinOverrideAnimationTrack_TypeDefinitionIndex = 32865;
+	inline static constexpr unsigned int SkinOverrideAnimationTrack_TypeDefinitionIndex = 32317;
 
 	class SkinOverrideAnimationTrack : public ::UnityEngine::Timeline::AnimationTrack
 	{
 	public:
-		::System::Int32 unitId; // 0x150
+		::System::Int32 unitId; // 0x178
 
 		::System::Void _ctor()
 		{

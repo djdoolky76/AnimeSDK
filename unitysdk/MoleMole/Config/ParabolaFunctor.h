@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Config/ParabolaFunctor_Struct_2_35F396C03964A94A_1.h"
-#include "unitysdk/MoleMole/Config/ParabolaFunctor_Struct_2_FD8E1D4014EE315F_2.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/MoleMole/Config/ParabolaFunctor_JEOOFMIELEL.h"
+#include "unitysdk/MoleMole/Config/ParabolaFunctor_PGHPCBGEGJO.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_GET_MAXSPEED_OFFSET UNITYSDK_OFFSET(0x1A944190)
-#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_GET_MINSPEED_OFFSET UNITYSDK_OFFSET(0x1A944180)
-#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_0C67EA73BDAA242B_OFFSET UNITYSDK_OFFSET(0x1A944360)
-#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_410411F5350F30F9_OFFSET UNITYSDK_OFFSET(0x1A944E20)
-#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_65826E9FF35F7900_OFFSET UNITYSDK_OFFSET(0x1A944B90)
-#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_ABAC497FE8FC6E22_OFFSET UNITYSDK_OFFSET(0x1A944C70)
-#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_B474DEED52ADAB27_OFFSET UNITYSDK_OFFSET(0x1A9441B0)
-#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_C31FE32D79BFFEB7_OFFSET UNITYSDK_OFFSET(0x1A944A00)
-#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_D24D3797E398F290_OFFSET UNITYSDK_OFFSET(0x1A9446F0)
-#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_E550A4AE810A09E8_OFFSET UNITYSDK_OFFSET(0x1A944440)
-#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9441A0)
+#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_BGGKAOOGGCH_OFFSET UNITYSDK_OFFSET(0x1B8B5520)
+#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_GET_MAXSPEED_OFFSET UNITYSDK_OFFSET(0x1B8B4E80)
+#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_GET_MINSPEED_OFFSET UNITYSDK_OFFSET(0x1B8B4E70)
+#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_GJCCDHBMDLD_OFFSET UNITYSDK_OFFSET(0x1B8B5050)
+#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_IMNCKPMMBLI_OFFSET UNITYSDK_OFFSET(0x1B8B56D0)
+#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_KLMLAONPDOI_OFFSET UNITYSDK_OFFSET(0x1B8B5790)
+#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_KNOHPFNLJGN_OFFSET UNITYSDK_OFFSET(0x1B8B5440)
+#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_LMNGELHBBON_OFFSET UNITYSDK_OFFSET(0x1B8B5A40)
+#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_MMNAGDNGJKL_OFFSET UNITYSDK_OFFSET(0x1B8B5130)
+#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR_NNAGLHOJFPJ_OFFSET UNITYSDK_OFFSET(0x1B8B4EA0)
+#define MOLEMOLE_CONFIG_PARABOLAFUNCTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B4E90)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ParabolaFunctor_TypeDefinitionIndex = 46200;
+	inline static constexpr unsigned int ParabolaFunctor_TypeDefinitionIndex = 76158;
 
 	class ParabolaFunctor : public ::System::Object
 	{
@@ -49,44 +49,44 @@ namespace MoleMole::Config
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_GET_MAXSPEED_OFFSET))(this);
 		}
 
-		::System::Single Method_1_B474DEED52ADAB27(::MoleMole::Config::ParabolaFunctor_Struct_2_35F396C03964A94A_1 a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4, ::System::Single& a5)
+		::System::Single NNAGLHOJFPJ(::MoleMole::Config::ParabolaFunctor_PGHPCBGEGJO CENDLIKDNJA, ::System::Single NKDHDAJFKCC, ::System::Single IAKPGBCAAKM, ::System::Boolean CGHFEJEBLHI, ::System::Single& FNIOPKPHDEH)
 		{
-			return ((::System::Single(*)(::PVOID, ::MoleMole::Config::ParabolaFunctor_Struct_2_35F396C03964A94A_1, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_B474DEED52ADAB27_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Single(*)(::PVOID, ::MoleMole::Config::ParabolaFunctor_PGHPCBGEGJO, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_NNAGLHOJFPJ_OFFSET))(this, CENDLIKDNJA, NKDHDAJFKCC, IAKPGBCAAKM, CGHFEJEBLHI, FNIOPKPHDEH);
 		}
 
-		::MoleMole::Config::ParabolaFunctor_Struct_2_FD8E1D4014EE315F_2 Method_1_E550A4AE810A09E8(::System::Single a1, ::System::Single a2)
+		::MoleMole::Config::ParabolaFunctor_JEOOFMIELEL MMNAGDNGJKL(::MoleMole::Config::ParabolaFunctor_PGHPCBGEGJO CENDLIKDNJA, ::System::Single NFDCFCBBLEF, ::System::Single GNBHIFFJNDJ)
 		{
-			return ((::MoleMole::Config::ParabolaFunctor_Struct_2_FD8E1D4014EE315F_2(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_E550A4AE810A09E8_OFFSET))(this, a1, a2);
+			return ((::MoleMole::Config::ParabolaFunctor_JEOOFMIELEL(*)(::PVOID, ::MoleMole::Config::ParabolaFunctor_PGHPCBGEGJO, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_MMNAGDNGJKL_OFFSET))(this, CENDLIKDNJA, NFDCFCBBLEF, GNBHIFFJNDJ);
 		}
 
-		::System::Single Method_1_65826E9FF35F7900(::MoleMole::Config::ParabolaFunctor_Struct_2_35F396C03964A94A_1 a1, ::System::Single a2, ::System::Single a3)
+		static ::System::Void IMNCKPMMBLI(::UnityEngine::Vector3 AKAGDEFAGJA, ::UnityEngine::Vector3 PIBHDJBFAAJ, ::UnityEngine::Vector3 PLIKKJLOAJK, ::System::Single ODCFGECEOGA, ::System::Single KKIAHJODOIA, ::System::Single MDPPNMIPDMP)
 		{
-			return ((::System::Single(*)(::PVOID, ::MoleMole::Config::ParabolaFunctor_Struct_2_35F396C03964A94A_1, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_65826E9FF35F7900_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_IMNCKPMMBLI_OFFSET))(AKAGDEFAGJA, PIBHDJBFAAJ, PLIKKJLOAJK, ODCFGECEOGA, KKIAHJODOIA, MDPPNMIPDMP);
 		}
 
-		::System::Boolean Method_1_C31FE32D79BFFEB7(::MoleMole::Config::ParabolaFunctor_Struct_2_FD8E1D4014EE315F_2& a1, ::MoleMole::Config::ParabolaFunctor_Struct_2_FD8E1D4014EE315F_2& a2)
+		::System::Single BGGKAOOGGCH(::MoleMole::Config::ParabolaFunctor_PGHPCBGEGJO CENDLIKDNJA, ::System::Single NKDHDAJFKCC, ::System::Single IAKPGBCAAKM, ::System::Single GCBHFANNDCD, ::System::Single& FNIOPKPHDEH)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Config::ParabolaFunctor_Struct_2_FD8E1D4014EE315F_2&, ::MoleMole::Config::ParabolaFunctor_Struct_2_FD8E1D4014EE315F_2&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_C31FE32D79BFFEB7_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::MoleMole::Config::ParabolaFunctor_PGHPCBGEGJO, ::System::Single, ::System::Single, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_BGGKAOOGGCH_OFFSET))(this, CENDLIKDNJA, NKDHDAJFKCC, IAKPGBCAAKM, GCBHFANNDCD, FNIOPKPHDEH);
 		}
 
-		::MoleMole::Config::ParabolaFunctor_Struct_2_FD8E1D4014EE315F_2 Method_1_D24D3797E398F290(::MoleMole::Config::ParabolaFunctor_Struct_2_35F396C03964A94A_1 a1, ::System::Single a2, ::System::Single a3)
+		::MoleMole::Config::ParabolaFunctor_JEOOFMIELEL KLMLAONPDOI(::System::Single NFDCFCBBLEF, ::System::Single GNBHIFFJNDJ)
 		{
-			return ((::MoleMole::Config::ParabolaFunctor_Struct_2_FD8E1D4014EE315F_2(*)(::PVOID, ::MoleMole::Config::ParabolaFunctor_Struct_2_35F396C03964A94A_1, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_D24D3797E398F290_OFFSET))(this, a1, a2, a3);
+			return ((::MoleMole::Config::ParabolaFunctor_JEOOFMIELEL(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_KLMLAONPDOI_OFFSET))(this, NFDCFCBBLEF, GNBHIFFJNDJ);
 		}
 
-		::System::Single Method_1_0C67EA73BDAA242B(::System::Single a1, ::System::Single a2, ::System::Boolean a3, ::System::Single a4)
+		::System::Boolean LMNGELHBBON(::MoleMole::Config::ParabolaFunctor_JEOOFMIELEL& DJCNCELJPOM, ::MoleMole::Config::ParabolaFunctor_JEOOFMIELEL& FENCLNENPFL)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_0C67EA73BDAA242B_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Config::ParabolaFunctor_JEOOFMIELEL&, ::MoleMole::Config::ParabolaFunctor_JEOOFMIELEL&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_LMNGELHBBON_OFFSET))(this, DJCNCELJPOM, FENCLNENPFL);
 		}
 
-		static ::System::Void Method_1_410411F5350F30F9(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
+		::System::Single KNOHPFNLJGN(::MoleMole::Config::ParabolaFunctor_PGHPCBGEGJO CENDLIKDNJA, ::System::Single NFDCFCBBLEF, ::System::Single GNBHIFFJNDJ)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_410411F5350F30F9_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Single(*)(::PVOID, ::MoleMole::Config::ParabolaFunctor_PGHPCBGEGJO, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_KNOHPFNLJGN_OFFSET))(this, CENDLIKDNJA, NFDCFCBBLEF, GNBHIFFJNDJ);
 		}
 
-		::System::Single Method_1_ABAC497FE8FC6E22(::MoleMole::Config::ParabolaFunctor_Struct_2_35F396C03964A94A_1 a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single& a5)
+		::System::Single GJCCDHBMDLD(::System::Single DCKBFJGHBAI, ::System::Single GNBHIFFJNDJ, ::System::Boolean CGHFEJEBLHI, ::System::Single JPKEBDGEBPI)
 		{
-			return ((::System::Single(*)(::PVOID, ::MoleMole::Config::ParabolaFunctor_Struct_2_35F396C03964A94A_1, ::System::Single, ::System::Single, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_METHOD_1_ABAC497FE8FC6E22_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_PARABOLAFUNCTOR_GJCCDHBMDLD_OFFSET))(this, DCKBFJGHBAI, GNBHIFFJNDJ, CGHFEJEBLHI, JPKEBDGEBPI);
 		}
 	};
 }

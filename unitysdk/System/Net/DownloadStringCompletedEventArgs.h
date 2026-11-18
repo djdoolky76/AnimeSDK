@@ -6,13 +6,13 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NET_DOWNLOADSTRINGCOMPLETEDEVENTARGS_GET_RESULT_OFFSET UNITYSDK_OFFSET(0x1E28A100)
-#define SYSTEM_NET_DOWNLOADSTRINGCOMPLETEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E28A120)
-#define SYSTEM_NET_DOWNLOADSTRINGCOMPLETEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E28A080)
+#define SYSTEM_NET_DOWNLOADSTRINGCOMPLETEDEVENTARGS_GET_RESULT_OFFSET UNITYSDK_OFFSET(0x1E506150)
+#define SYSTEM_NET_DOWNLOADSTRINGCOMPLETEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E506170)
+#define SYSTEM_NET_DOWNLOADSTRINGCOMPLETEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5060D0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int DownloadStringCompletedEventArgs_TypeDefinitionIndex = 3462;
+	inline static constexpr unsigned int DownloadStringCompletedEventArgs_TypeDefinitionIndex = 3461;
 
 	class DownloadStringCompletedEventArgs : public ::System::ComponentModel::AsyncCompletedEventArgs
 	{

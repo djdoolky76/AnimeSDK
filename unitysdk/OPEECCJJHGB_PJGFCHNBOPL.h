@@ -1,0 +1,76 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class OPEECCJJHGB;
+class OPEECCJJHGB_BNODOEOOENC;
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define OPEECCJJHGB_PJGFCHNBOPL_JPCPBBAMDGJ_OFFSET UNITYSDK_OFFSET(0x16C4B380)
+#define OPEECCJJHGB_PJGFCHNBOPL_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x16C4B390)
+#define OPEECCJJHGB_PJGFCHNBOPL_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MOLEMOLE_AUDIO_AUDIOMUSICMODULE_MUSICEVENTSTATE__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16C4B590)
+#define OPEECCJJHGB_PJGFCHNBOPL_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_MOLEMOLE_AUDIO_AUDIOMUSICMODULE_MUSICEVENTSTATE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16C4B520)
+#define OPEECCJJHGB_PJGFCHNBOPL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16C4B610)
+#define OPEECCJJHGB_PJGFCHNBOPL_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16C4B580)
+#define OPEECCJJHGB_PJGFCHNBOPL_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x16C4B530)
+#define OPEECCJJHGB_PJGFCHNBOPL_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16C4B360)
+#define OPEECCJJHGB_PJGFCHNBOPL__CTOR_OFFSET UNITYSDK_OFFSET(0x16C4B340)
+
+inline static constexpr unsigned int OPEECCJJHGB_PJGFCHNBOPL_TypeDefinitionIndex = 88588;
+
+class OPEECCJJHGB_PJGFCHNBOPL : public ::System::Object
+{
+public:
+	::OPEECCJJHGB_BNODOEOOENC* IDBEJJEKGDI; // 0x10
+	::OPEECCJJHGB* KLHPEBKNIFB; // 0x18
+	::System::Object* GHANCJDIDBC; // 0x20
+	::System::Byte _padding0[0x20];
+	::System::Int32 MDPILDGFNHN; // 0x48
+	::System::Int32 FPDDAGHMOJB; // 0x4C
+
+	::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OPEECCJJHGB_PJGFCHNBOPL__CTOR_OFFSET))(this, MDPILDGFNHN);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OPEECCJJHGB_PJGFCHNBOPL_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + OPEECCJJHGB_PJGFCHNBOPL_MOVENEXT_OFFSET))(this);
+	}
+
+	::OPEECCJJHGB_BNODOEOOENC* System_Collections_Generic_IEnumerator_MoleMole_Audio_AudioMusicModule_MusicEventState__get_Current()
+	{
+		return ((::OPEECCJJHGB_BNODOEOOENC*(*)(::PVOID))((::PBYTE)hIl2Cpp + OPEECCJJHGB_PJGFCHNBOPL_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_MOLEMOLE_AUDIO_AUDIOMUSICMODULE_MUSICEVENTSTATE__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OPEECCJJHGB_PJGFCHNBOPL_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + OPEECCJJHGB_PJGFCHNBOPL_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IEnumerator_1<::System::Object*>* System_Collections_Generic_IEnumerable_MoleMole_Audio_AudioMusicModule_MusicEventState__GetEnumerator()
+	{
+		return ((::System::Collections::Generic::IEnumerator_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OPEECCJJHGB_PJGFCHNBOPL_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MOLEMOLE_AUDIO_AUDIOMUSICMODULE_MUSICEVENTSTATE__GETENUMERATOR_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+	{
+		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + OPEECCJJHGB_PJGFCHNBOPL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+	}
+
+	::System::Void JPCPBBAMDGJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OPEECCJJHGB_PJGFCHNBOPL_JPCPBBAMDGJ_OFFSET))(this);
+	}
+};

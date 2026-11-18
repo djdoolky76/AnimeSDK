@@ -2,14 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_2_208CC9941471731A_222;
+class DBMLGNBFJCD;
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVHSStoreWidgetWidgetController___c__DisplayClass53_1_TypeDefinitionIndex = 42755;
+	inline static constexpr unsigned int UIVHSStoreWidgetWidgetController___c__DisplayClass53_1_TypeDefinitionIndex = 68412;
 
+	template <typename T>
 	struct alignas(8) UIVHSStoreWidgetWidgetController___c__DisplayClass53_1
 	{
-		::Class_2_208CC9941471731A_222* collectionTemplate; // 0x10
+		::DBMLGNBFJCD* collectionTemplate; // 0x10
 	};
 }

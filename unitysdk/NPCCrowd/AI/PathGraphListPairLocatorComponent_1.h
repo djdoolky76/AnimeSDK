@@ -6,7 +6,7 @@ namespace NPCCrowd::AI { template <typename T> class PathGraphListLocatorCompone
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphListPairLocatorComponent_1_TypeDefinitionIndex = 71188;
+	inline static constexpr unsigned int PathGraphListPairLocatorComponent_1_TypeDefinitionIndex = 50766;
 
 	template <typename T>
 	class PathGraphListPairLocatorComponent_1 : public ::NPCCrowd::AI::PathGraphLocatorComponent

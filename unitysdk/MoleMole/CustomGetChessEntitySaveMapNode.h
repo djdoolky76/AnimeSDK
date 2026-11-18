@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/Nodes/CustomGetVariableNode_2.h"
 
-namespace MoleMole { class ChessEntity; }
-
-#define MOLEMOLE_CUSTOMGETCHESSENTITYSAVEMAPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC4FC0)
+#define MOLEMOLE_CUSTOMGETCHESSENTITYSAVEMAPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A06B030)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CustomGetChessEntitySaveMapNode_TypeDefinitionIndex = 79701;
+	inline static constexpr unsigned int CustomGetChessEntitySaveMapNode_TypeDefinitionIndex = 39884;
 
-	class CustomGetChessEntitySaveMapNode : public ::MoleMole::FlowCanvas::Nodes::CustomGetVariableNode_2<::MoleMole::ChessEntity*, ::System::Int32>
+	class CustomGetChessEntitySaveMapNode
 	{
 	public:
 		::System::Void _ctor()

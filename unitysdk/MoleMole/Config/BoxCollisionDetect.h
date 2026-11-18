@@ -4,14 +4,14 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_BOXCOLLISIONDETECT_ATTACHPATTERNMETHOD_OFFSET UNITYSDK_OFFSET(0x116F8110)
-#define MOLEMOLE_CONFIG_BOXCOLLISIONDETECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x116F81D0)
-#define MOLEMOLE_CONFIG_BOXCOLLISIONDETECT__CTOR_OFFSET UNITYSDK_OFFSET(0x116F8240)
-#define MOLEMOLE_CONFIG_BOXCOLLISIONDETECT___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x116F8260)
+#define MOLEMOLE_CONFIG_BOXCOLLISIONDETECT_ATTACHPATTERNMETHOD_OFFSET UNITYSDK_OFFSET(0xFAB6280)
+#define MOLEMOLE_CONFIG_BOXCOLLISIONDETECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0xFAB6340)
+#define MOLEMOLE_CONFIG_BOXCOLLISIONDETECT__CTOR_OFFSET UNITYSDK_OFFSET(0xFAB63B0)
+#define MOLEMOLE_CONFIG_BOXCOLLISIONDETECT___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xFAB63D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int BoxCollisionDetect_TypeDefinitionIndex = 40973;
+	inline static constexpr unsigned int BoxCollisionDetect_TypeDefinitionIndex = 70918;
 
 	class BoxCollisionDetect : public ::MoleMole::Config::CollisionDetect
 	{
@@ -19,8 +19,8 @@ namespace MoleMole::Config
 		::System::String* eHorizontalOff; // 0x80
 		::System::String* eVerticalOff; // 0x88
 		::System::Single height; // 0x90
-		::System::Single distance; // 0x94
-		::System::Single width; // 0x98
+		::System::Single width; // 0x94
+		::System::Single distance; // 0x98
 
 		::System::Void _ctor()
 		{

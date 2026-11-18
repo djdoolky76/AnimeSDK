@@ -2,20 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_AF5BA1C65F12F4B1_Class_2_35FBCE11E39E6839;
-template <typename T> class Class_0_16E4307DCC419505_164;
+class EKGAHGCJOAN_PLPDLPGLIAD;
+namespace System { class Object; }
+template <typename T> class JIOLFCAGOFH_1;
 
-#define MOLEMOLE_UIZENKOVTALENTPOINTWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1165EDD0)
+#define MOLEMOLE_UIZENKOVTALENTPOINTWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14E55FF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovTalentPointWidgetController_Context_TypeDefinitionIndex = 43259;
+	inline static constexpr unsigned int UIZenkovTalentPointWidgetController_Context_TypeDefinitionIndex = 61072;
 
 	class UIZenkovTalentPointWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_AF5BA1C65F12F4B1_Class_2_35FBCE11E39E6839* Node; // 0x28
-		::Class_0_16E4307DCC419505_164<::Class_2_AF5BA1C65F12F4B1_Class_2_35FBCE11E39E6839*>* CurrentSelectedNode; // 0x30
+		::JIOLFCAGOFH_1<::System::Object*>* CurrentSelectedNode; // 0x28
+		::EKGAHGCJOAN_PLPDLPGLIAD* Node; // 0x30
 		::System::Boolean ShowInfoOnly; // 0x38
 
 		::System::Void _ctor()

@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ConditionTask_1.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
-namespace UnityEngine { class Animator; }
 
-#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKBOOL_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E7B86D0)
-#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKBOOL_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1E7B8930)
-#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B89C0)
+#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKBOOL_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EA697A0)
+#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKBOOL_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EA69A00)
+#define NODECANVAS_TASKS_CONDITIONS_MECANIMCHECKBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA69A90)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int MecanimCheckBool_TypeDefinitionIndex = 31199;
+	inline static constexpr unsigned int MecanimCheckBool_TypeDefinitionIndex = 29251;
 
-	class MecanimCheckBool : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Animator*>
+	class MecanimCheckBool
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::Boolean>* value; // 0x60

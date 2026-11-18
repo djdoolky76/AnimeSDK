@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/LatentActionNode_4.h"
 #include "unitysdk/ParadoxNotion/Animation/EaseType.h"
 
 namespace System::Collections { class IEnumerator; }
 
-#define FLOWCANVAS_NODES_TWEENFLOAT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1DFCBB40)
-#define FLOWCANVAS_NODES_TWEENFLOAT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DFCBB60)
-#define FLOWCANVAS_NODES_TWEENFLOAT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1DFCBB50)
-#define FLOWCANVAS_NODES_TWEENFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCBBF0)
+#define FLOWCANVAS_NODES_TWEENFLOAT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E3F4C10)
+#define FLOWCANVAS_NODES_TWEENFLOAT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E3F4C30)
+#define FLOWCANVAS_NODES_TWEENFLOAT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E3F4C20)
+#define FLOWCANVAS_NODES_TWEENFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F4CC0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TweenFloat_TypeDefinitionIndex = 31210;
+	inline static constexpr unsigned int TweenFloat_TypeDefinitionIndex = 30063;
 
-	class TweenFloat : public ::FlowCanvas::Nodes::LatentActionNode_4<::System::Single, ::System::Single, ::System::Single, ::ParadoxNotion::Animation::EaseType>
+	class TweenFloat
 	{
 	public:
 		::System::Single _value_k__BackingField; // 0x60

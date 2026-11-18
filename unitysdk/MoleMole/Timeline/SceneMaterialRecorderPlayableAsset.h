@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class SceneMaterialRecorderBehavior; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F993DE0)
-#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F993EB0)
-#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERPLAYABLEASSET_GET_RECORDER_OFFSET UNITYSDK_OFFSET(0x1F993DD0)
-#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERPLAYABLEASSET_INITDATA_OFFSET UNITYSDK_OFFSET(0x1F993EC0)
-#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F993ED0)
+#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FD8DC00)
+#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FD8DCE0)
+#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERPLAYABLEASSET_GET_RECORDER_OFFSET UNITYSDK_OFFSET(0x1FD8DBF0)
+#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERPLAYABLEASSET_INITDATA_OFFSET UNITYSDK_OFFSET(0x1FD8DCF0)
+#define MOLEMOLE_TIMELINE_SCENEMATERIALRECORDERPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD8DD00)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int SceneMaterialRecorderPlayableAsset_TypeDefinitionIndex = 32830;
+	inline static constexpr unsigned int SceneMaterialRecorderPlayableAsset_TypeDefinitionIndex = 32281;
 
 	class SceneMaterialRecorderPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueTuple_2.h"
-#include "unitysdk/UnityEngine/Bounds.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/LightShadows.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/NativeAdditionalLightDataFogParams.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/NativeAdditionalLightData_NativeSRP.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/AddLightMode.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/CGAvatarLightType.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/LightLodJobData.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/LightLodQuality.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/LightOptimizeConfig_LightGroundDiscardType.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/LightOptimizeConfig_LightOptimizeType.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/UniversalAdditionalLightData_LightLodConfigData.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/UniversalAdditionalLightData_LightUsage.h"
 #include "unitysdk/UnityEngine/Rendering/VisibleLight.h"
+#include "unitysdk/UnityEngine/Bounds.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/LightShadows.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/NativeAdditionalLightDataFogParams.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/LightLodJobData.h"
+#include "unitysdk/UnityEngine/Rendering/Universal/UniversalAdditionalLightData_LightLodConfigData.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -27,73 +27,73 @@ namespace UnityEngine::Rendering::Universal { class LightOcclusionMask; }
 namespace UnityEngine::Rendering::Universal { class LightOptimizeConfig; }
 namespace UnityEngine::Rendering::Universal { class MonoCGAvatarPart; }
 namespace UnityEngine::Rendering::Universal { class RedirectObject; }
-namespace UnityEngine::Rendering::Universal { class UniversalAdditionalLightDataExtensionV1_2; }
+namespace UnityEngine::Rendering::Universal { template <typename T1, typename T2> class UniversalAdditionalLightDataExtensionV1_2; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C5E89C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_CLEAROPTIMIZABLELIGHT_OFFSET UNITYSDK_OFFSET(0x1C5E9360)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GETFOGPARAMS_OFFSET UNITYSDK_OFFSET(0x1C5EA070)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GETHASHFORLIGHT_OFFSET UNITYSDK_OFFSET(0x1C5E91C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GETSPOTBOUNDINGSPHERERADIUSANDCENTER_OFFSET UNITYSDK_OFFSET(0x1C5E8C40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_ADDLIGHTMODE_OFFSET UNITYSDK_OFFSET(0x1C5E83D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_ISDYNAMICLIGHT_OFFSET UNITYSDK_OFFSET(0x1C5E83B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_ISHIZCULLINGVALID_OFFSET UNITYSDK_OFFSET(0x1C5E8880)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_LIGHTC_OFFSET UNITYSDK_OFFSET(0x1C5E84E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_LIGHTRANGE_OFFSET UNITYSDK_OFFSET(0x1C5E8810)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_LODNEEDFORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x1C5EA650)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_OLDSHADOWTYPE_OFFSET UNITYSDK_OFFSET(0x1C5E87E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_USAGE_OFFSET UNITYSDK_OFFSET(0x1C5E87F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_USESLOWATTENUATION_OFFSET UNITYSDK_OFFSET(0x1C5E8840)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_USEZEROATTENUATION_OFFSET UNITYSDK_OFFSET(0x1C5E8860)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_VOLUMETRICFOG_SHADOWINTENSITY_OFFSET UNITYSDK_OFFSET(0x1C5E83C0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_INITIALIZEV1_2EXTENSION_OFFSET UNITYSDK_OFFSET(0x1C5E8BD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_LODNEEDCOMMONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C5EA570)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_LODNEEDFORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x1C5EA5E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C5E7E90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C5E7760)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x1C5E82F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x1C5E8350)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_ONREALDISABLE_OFFSET UNITYSDK_OFFSET(0x1C5E7F50)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_ONREALENABLE_OFFSET UNITYSDK_OFFSET(0x1C5E7820)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_REGISTEROPTIMIZABLELIGHT_OFFSET UNITYSDK_OFFSET(0x1C5E9600)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SETHALFLAMBERTANDLIGHTOCCLUDERVALUE_OFFSET UNITYSDK_OFFSET(0x1C5E8D60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SETLIGHTENABLED_OFFSET UNITYSDK_OFFSET(0x1C5E8780)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SETLIGHTSHADOWSTRENGTH_OFFSET UNITYSDK_OFFSET(0x1C5E86B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SETLIGHTSHADOWTYPE_OFFSET UNITYSDK_OFFSET(0x1C5E8720)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SETLIGHTWITHQUALITYCONFIG_1_OFFSET UNITYSDK_OFFSET(0x1C5EA6F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SETLIGHTWITHQUALITYCONFIG_OFFSET UNITYSDK_OFFSET(0x1C5EA670)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SET_ADDLIGHTMODE_OFFSET UNITYSDK_OFFSET(0x1C5E83E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SET_LODNEEDFORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x1C5EA660)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SET_USAGE_OFFSET UNITYSDK_OFFSET(0x1C5E8800)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SET_USESLOWATTENUATION_OFFSET UNITYSDK_OFFSET(0x1C5E8850)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SET_USEZEROATTENUATION_OFFSET UNITYSDK_OFFSET(0x1C5E8870)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_START_OFFSET UNITYSDK_OFFSET(0x1C5E88E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_UPDATEDYNAMICLIGHT_OFFSET UNITYSDK_OFFSET(0x1C5EA0E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5EB440)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5EB250)
-#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA___BASE_GETFOGPARAMS_OFFSET UNITYSDK_OFFSET(0x1C5EB610)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CA7BD50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_CLEAROPTIMIZABLELIGHT_OFFSET UNITYSDK_OFFSET(0x1CA7C6F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GETFOGPARAMS_OFFSET UNITYSDK_OFFSET(0x1CA7D400)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GETHASHFORLIGHT_OFFSET UNITYSDK_OFFSET(0x1CA7C550)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GETSPOTBOUNDINGSPHERERADIUSANDCENTER_OFFSET UNITYSDK_OFFSET(0x1CA7BFD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_ADDLIGHTMODE_OFFSET UNITYSDK_OFFSET(0x1CA7B760)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_ISDYNAMICLIGHT_OFFSET UNITYSDK_OFFSET(0x1CA7B740)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_ISHIZCULLINGVALID_OFFSET UNITYSDK_OFFSET(0x1CA7BC10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_LIGHTC_OFFSET UNITYSDK_OFFSET(0x1CA7B870)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_LIGHTRANGE_OFFSET UNITYSDK_OFFSET(0x1CA7BBA0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_LODNEEDFORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x1CA7D9E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_OLDSHADOWTYPE_OFFSET UNITYSDK_OFFSET(0x1CA7BB70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_USAGE_OFFSET UNITYSDK_OFFSET(0x1CA7BB80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_USESLOWATTENUATION_OFFSET UNITYSDK_OFFSET(0x1CA7BBD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_USEZEROATTENUATION_OFFSET UNITYSDK_OFFSET(0x1CA7BBF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_GET_VOLUMETRICFOG_SHADOWINTENSITY_OFFSET UNITYSDK_OFFSET(0x1CA7B750)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_INITIALIZEV1_2EXTENSION_OFFSET UNITYSDK_OFFSET(0x1CA7BF60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_LODNEEDCOMMONUPDATE_OFFSET UNITYSDK_OFFSET(0x1CA7D900)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_LODNEEDFORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x1CA7D970)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CA7B220)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CA7AAF0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_ONLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0x1CA7B680)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_ONLIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x1CA7B6E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_ONREALDISABLE_OFFSET UNITYSDK_OFFSET(0x1CA7B2E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_ONREALENABLE_OFFSET UNITYSDK_OFFSET(0x1CA7ABB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_REGISTEROPTIMIZABLELIGHT_OFFSET UNITYSDK_OFFSET(0x1CA7C990)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SETHALFLAMBERTANDLIGHTOCCLUDERVALUE_OFFSET UNITYSDK_OFFSET(0x1CA7C0F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SETLIGHTENABLED_OFFSET UNITYSDK_OFFSET(0x1CA7BB10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SETLIGHTSHADOWSTRENGTH_OFFSET UNITYSDK_OFFSET(0x1CA7BA40)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SETLIGHTSHADOWTYPE_OFFSET UNITYSDK_OFFSET(0x1CA7BAB0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SETLIGHTWITHQUALITYCONFIG_1_OFFSET UNITYSDK_OFFSET(0x1CA7DA80)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SETLIGHTWITHQUALITYCONFIG_OFFSET UNITYSDK_OFFSET(0x1CA7DA00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SET_ADDLIGHTMODE_OFFSET UNITYSDK_OFFSET(0x1CA7B770)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SET_LODNEEDFORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x1CA7D9F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SET_USAGE_OFFSET UNITYSDK_OFFSET(0x1CA7BB90)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SET_USESLOWATTENUATION_OFFSET UNITYSDK_OFFSET(0x1CA7BBE0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_SET_USEZEROATTENUATION_OFFSET UNITYSDK_OFFSET(0x1CA7BC00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_START_OFFSET UNITYSDK_OFFSET(0x1CA7BC70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA_UPDATEDYNAMICLIGHT_OFFSET UNITYSDK_OFFSET(0x1CA7D470)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA7E7D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7E5E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_UNIVERSALADDITIONALLIGHTDATA___BASE_GETFOGPARAMS_OFFSET UNITYSDK_OFFSET(0x1CA7E9A0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int UniversalAdditionalLightData_TypeDefinitionIndex = 27571;
+	inline static constexpr unsigned int UniversalAdditionalLightData_TypeDefinitionIndex = 27121;
 
 	class UniversalAdditionalLightData : public ::UnityEngine::NAPRenderPipeline0::NativeAdditionalLightData_NativeSRP
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData*, ::System::Boolean>>** StaticGet_all()
 		{
-			return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData*, ::System::Boolean>>**)Il2CppClass::FromTypeDefinitionIndex(UniversalAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0x219E0);
+			return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData*, ::System::Boolean>>**)Il2CppClass::FromTypeDefinitionIndex(UniversalAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0x22D20);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VisibleLight>*>** StaticGet_s_OptimizableLights()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VisibleLight>*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0x219E8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VisibleLight>*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0x22D28);
 		}
 		static ::System::Collections::Generic::Queue_1<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VisibleLight>*>** StaticGet_s_CachedList()
 		{
-			return (::System::Collections::Generic::Queue_1<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VisibleLight>*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0x219F0);
+			return (::System::Collections::Generic::Queue_1<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VisibleLight>*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0x22D30);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::LightOcclusionMask*>** StaticGet_s_OcclusionMaskList()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::LightOcclusionMask*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0x219F8);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::LightOcclusionMask*>**)Il2CppClass::FromTypeDefinitionIndex(UniversalAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0x22D38);
 		}
 		static ::System::Int32* StaticGet_toonLightCount()
 		{
@@ -104,7 +104,7 @@ namespace UnityEngine::Rendering::Universal
 		// static const ::System::Single specularFadeDistanceMultiplier; // 0x0
 		// static const ::System::Single shadowFadeStartDistance; // 0x0
 		// static const ::System::Single shadowFadeDistanceMultiplier; // 0x0
-		// static const ::System::Boolean DebugShowBound; // 0x0
+		// static const ::System::Boolean DebugShowBound = 0x1; // 0x0
 		// static const ::System::Int32 kMaxSplitCount = 0x8; // 0x0
 		::System::Single fakeFogRange; // 0x188
 		::System::Single fakeFogZOffset; // 0x18C
@@ -114,16 +114,21 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single avatarShadowMultiplier; // 0x19C
 		::System::Boolean syncLightColor; // 0x1A0
 		::System::Boolean isDynamicLight; // 0x1A1
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Rendering::Universal::LightLodQuality qualityMask; // 0x1A4
 		::UnityEngine::Rendering::Universal::LightOptimizeConfig_LightOptimizeType lightOptimizeType; // 0x1A8
 		::System::Boolean isRTXOnlyLight; // 0x1AC
+		::System::Byte _padding1[0x3];
 		::Il2CppArray<::UnityEngine::Rendering::Universal::LightOptimizeConfig*>* qualityConfig; // 0x1B0
-		::System::Boolean qualityConfigInitialized; // 0x1B8
-		::System::Boolean overrideMainLightSpecular; // 0x1B9
+		::System::Boolean ignoreGlobalLightLodBias; // 0x1B8
+		::System::Boolean qualityConfigInitialized; // 0x1B9
+		::System::Boolean overrideMainLightSpecular; // 0x1BA
+		::System::Byte _padding2[0x1];
 		::UnityEngine::Color mainLightSpecularColor; // 0x1BC
 		::UnityEngine::Vector3 mainLightSpecularDirection; // 0x1CC
 		::System::Boolean overrideGlobalVolumetricFogParams; // 0x1D8
 		::System::Boolean volumetricFog_UsePhysicalBasedCalculation; // 0x1D9
+		::System::Byte _padding3[0x2];
 		::System::Int32 volumetricFog_MaxStepCount; // 0x1DC
 		::System::Single volumetricFog_PunctualLightMultiplier; // 0x1E0
 		::System::Single volumetricFog_PunctualLightFadePower; // 0x1E4
@@ -134,11 +139,13 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single volumetricFog_Jittering; // 0x1F8
 		::System::Single volumetricFog_Dithering; // 0x1FC
 		::System::Boolean cgUnlockDirLightCompletely; // 0x200
+		::System::Byte _padding4[0x3];
 		::UnityEngine::Rendering::Universal::CGAvatarLightType avatarLightType; // 0x204
 		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::RedirectObject*>* avatars; // 0x208
 		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::MonoCGAvatarPart*>* avatarRenderers; // 0x210
 		::System::Single avatarSpecularIntensity; // 0x218
 		::System::Boolean useCustomGradient; // 0x21C
+		::System::Byte _padding5[0x3];
 		::UnityEngine::Color postShallowTint; // 0x220
 		::UnityEngine::Color postShallowFadeTint; // 0x230
 		::UnityEngine::Color postShadowTint; // 0x240
@@ -146,9 +153,11 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::Color postSssTint; // 0x260
 		::UnityEngine::Color postShadowFadeTint; // 0x270
 		::System::Boolean outlineIntensityEnabled; // 0x280
+		::System::Byte _padding6[0x3];
 		::System::Single lightOccluderMaskAttenuation; // 0x284
 		::System::Single halfLambertPow; // 0x288
 		::System::Boolean useHalfLambert; // 0x28C
+		::System::Byte _padding7[0x3];
 		::System::Single outlineIntensity; // 0x290
 		::System::Int32 MaxSplitCount; // 0x294
 		::System::Single MaxBoundDimLength; // 0x298
@@ -158,18 +167,22 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single DepthTestNearClip; // 0x2B0
 		::System::Boolean disableHizCulling; // 0x2B4
 		::System::Boolean isLightMask; // 0x2B5
+		::System::Byte _padding8[0x2];
 		::System::Single halfLambertIntensity; // 0x2B8
 		::System::Boolean enableHalfLambert; // 0x2BC
 		::System::Boolean useIndependentGIColor; // 0x2BD
+		::System::Byte _padding9[0x2];
 		::UnityEngine::Color independentGIColor; // 0x2C0
 		::System::Single volumetricFog_ShadowIntensity; // 0x2D0
 		::UnityEngine::LightShadows oldShadowConfig; // 0x2D4
 		::UnityEngine::Light* lightC; // 0x2D8
 		::System::Boolean isFirstTimeEnable; // 0x2E0
+		::System::Byte _padding10[0x3];
 		::UnityEngine::Vector3 preDynamicLightPositon; // 0x2E4
 		::UnityEngine::Vector3 preDynamicLightEulerAngle; // 0x2F0
 		::System::Int32 preUpdateFrame; // 0x2FC
 		::System::Boolean _lodNeedForceUpdate_k__BackingField; // 0x300
+		::System::Byte _padding11[0x3];
 		::System::Single lightLodBaseFadeDistance; // 0x304
 		::System::Single diffuseFadeEndDistance; // 0x308
 		::System::Single specularFadeEndDistance; // 0x30C

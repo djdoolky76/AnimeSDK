@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IMODCHBPGEJ.h"
+#include "unitysdk/KKHJIPHJNAJ.h"
+
+class AMHGCFJOJHJ;
+class BIPBNDIFDOL;
+class EBPKIAGDKPA;
+class PGDOEHGHFDF;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define ACCKNPIHFFB_GCHILHLEOLD_OFFSET UNITYSDK_OFFSET(0x134A6AD0)
+#define ACCKNPIHFFB_IFHLCOKBCNA_OFFSET UNITYSDK_OFFSET(0x134A69B0)
+#define ACCKNPIHFFB_JPOENMNOKGO_OFFSET UNITYSDK_OFFSET(0x134A6870)
+#define ACCKNPIHFFB_ONPIDMAFDIK_OFFSET UNITYSDK_OFFSET(0x134A6800)
+#define ACCKNPIHFFB_PMKGJLLMOAE_OFFSET UNITYSDK_OFFSET(0x134A6AC0)
+#define ACCKNPIHFFB__CTOR_OFFSET UNITYSDK_OFFSET(0x134A66F0)
+
+inline static constexpr unsigned int ACCKNPIHFFB_TypeDefinitionIndex = 65921;
+
+class ACCKNPIHFFB : public ::IMODCHBPGEJ
+{
+public:
+	::System::Collections::Generic::List_1<::PGDOEHGHFDF*>* HLGMKLMFKEE; // 0x50
+	::System::Single OOHKNIMHJKN; // 0x58
+	::System::Int32 APJGHNMKNDK; // 0x5C
+	::System::Single JCADOOMFONN; // 0x60
+
+	::System::Void _ctor(::EBPKIAGDKPA* DFMKILICPFB, ::AMHGCFJOJHJ* MEPOKLMKCBF, ::BIPBNDIFDOL* LMHNJIBCLJF)
+	{
+		return ((::System::Void(*)(::PVOID, ::EBPKIAGDKPA*, ::AMHGCFJOJHJ*, ::BIPBNDIFDOL*))((::PBYTE)hIl2Cpp + ACCKNPIHFFB__CTOR_OFFSET))(this, DFMKILICPFB, MEPOKLMKCBF, LMHNJIBCLJF);
+	}
+
+	::System::Void ONPIDMAFDIK(::System::Single PMNLNNGEIFM)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ACCKNPIHFFB_ONPIDMAFDIK_OFFSET))(this, PMNLNNGEIFM);
+	}
+
+	::System::Void IFHLCOKBCNA(::System::Boolean JBHJIOCBHGB, ::BIPBNDIFDOL* LMHNJIBCLJF, ::KKHJIPHJNAJ CDJLDLLNFGA)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::BIPBNDIFDOL*, ::KKHJIPHJNAJ))((::PBYTE)hIl2Cpp + ACCKNPIHFFB_IFHLCOKBCNA_OFFSET))(this, JBHJIOCBHGB, LMHNJIBCLJF, CDJLDLLNFGA);
+	}
+
+	::System::Void PMKGJLLMOAE(::System::Single MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ACCKNPIHFFB_PMKGJLLMOAE_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void JPOENMNOKGO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACCKNPIHFFB_JPOENMNOKGO_OFFSET))(this);
+	}
+
+	::System::Void GCHILHLEOLD(::System::Boolean MIALFKCCCPI, ::BIPBNDIFDOL* KMGKAIDEIBA, ::KKHJIPHJNAJ FDHMCIFPNCK)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::BIPBNDIFDOL*, ::KKHJIPHJNAJ))((::PBYTE)hIl2Cpp + ACCKNPIHFFB_GCHILHLEOLD_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK);
+	}
+};

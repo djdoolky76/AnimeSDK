@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class AnimationParamsTriggerBehaviour; }
 
-#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F994700)
-#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F9946F0)
-#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERCLIP_INITANIMATIONCOMP_OFFSET UNITYSDK_OFFSET(0x1F9947D0)
-#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9947E0)
+#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FD8E530)
+#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FD8E520)
+#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERCLIP_INITANIMATIONCOMP_OFFSET UNITYSDK_OFFSET(0x1FD8E610)
+#define UNITYENGINE_TIMELINE_ANIMATIONPARAMSTRIGGERCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD8E620)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AnimationParamsTriggerClip_TypeDefinitionIndex = 32877;
+	inline static constexpr unsigned int AnimationParamsTriggerClip_TypeDefinitionIndex = 32329;
 
 	class AnimationParamsTriggerClip : public ::UnityEngine::Playables::PlayableAsset
 	{

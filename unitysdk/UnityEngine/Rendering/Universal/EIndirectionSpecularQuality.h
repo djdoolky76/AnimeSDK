@@ -3,11 +3,11 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int EIndirectionSpecularQuality_TypeDefinitionIndex = 27909;
+	inline static constexpr unsigned int EIndirectionSpecularQuality_TypeDefinitionIndex = 27070;
 
 	enum class EIndirectionSpecularQuality : ::System::Int32
 	{
-		CubeMapWithBlend = 1,
 		SingleCubeMap = 0,
+		CubeMapWithBlend = 1,
 	};
 }

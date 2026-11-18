@@ -4,14 +4,14 @@
 
 namespace System { class Object; }
 
-#define MONO_RUNTIMEPROPERTYHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0xA1A6A0)
-#define MONO_RUNTIMEPROPERTYHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x325570)
+#define MONO_RUNTIMEPROPERTYHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x90E690)
+#define MONO_RUNTIMEPROPERTYHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x359320)
 
 namespace Mono
 {
 	inline static constexpr unsigned int RuntimePropertyHandle_TypeDefinitionIndex = 12;
 
-	struct alignas(8) RuntimePropertyHandle
+	struct alignas(4) RuntimePropertyHandle
 	{
 		::System::IntPtr value; // 0x10
 

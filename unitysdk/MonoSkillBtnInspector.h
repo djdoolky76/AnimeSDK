@@ -10,36 +10,36 @@ namespace System::Text { class StringBuilder; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define MONOSKILLBTNINSPECTOR_ADD_OFFSET UNITYSDK_OFFSET(0x1166BDF0)
-#define MONOSKILLBTNINSPECTOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1166B360)
-#define MONOSKILLBTNINSPECTOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1166B2B0)
-#define MONOSKILLBTNINSPECTOR_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1166B410)
-#define MONOSKILLBTNINSPECTOR_REMOVE_OFFSET UNITYSDK_OFFSET(0x1166C320)
-#define MONOSKILLBTNINSPECTOR_START_OFFSET UNITYSDK_OFFSET(0x1166B0B0)
-#define MONOSKILLBTNINSPECTOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1166B470)
-#define MONOSKILLBTNINSPECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1166C6D0)
-#define MONOSKILLBTNINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1166C570)
+#define MONOSKILLBTNINSPECTOR_ADD_OFFSET UNITYSDK_OFFSET(0x14E63920)
+#define MONOSKILLBTNINSPECTOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x14E62E90)
+#define MONOSKILLBTNINSPECTOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x14E62DE0)
+#define MONOSKILLBTNINSPECTOR_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x14E62F40)
+#define MONOSKILLBTNINSPECTOR_REMOVE_OFFSET UNITYSDK_OFFSET(0x14E63E50)
+#define MONOSKILLBTNINSPECTOR_START_OFFSET UNITYSDK_OFFSET(0x14E62BE0)
+#define MONOSKILLBTNINSPECTOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x14E62FA0)
+#define MONOSKILLBTNINSPECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x14E64200)
+#define MONOSKILLBTNINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x14E640A0)
 
-inline static constexpr unsigned int MonoSkillBtnInspector_TypeDefinitionIndex = 90707;
+inline static constexpr unsigned int MonoSkillBtnInspector_TypeDefinitionIndex = 89550;
 
 class MonoSkillBtnInspector : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Text::StringBuilder** StaticGet__sb()
-	{
-		return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(MonoSkillBtnInspector_TypeDefinitionIndex)->GetStaticField(0x3A9D0);
-	}
 	static ::System::Collections::Generic::List_1<::MonoSkillBtnInspector*>** StaticGet_InstancePool()
 	{
-		return (::System::Collections::Generic::List_1<::MonoSkillBtnInspector*>**)Il2CppClass::FromTypeDefinitionIndex(MonoSkillBtnInspector_TypeDefinitionIndex)->GetStaticField(0x3A9D8);
+		return (::System::Collections::Generic::List_1<::MonoSkillBtnInspector*>**)Il2CppClass::FromTypeDefinitionIndex(MonoSkillBtnInspector_TypeDefinitionIndex)->GetStaticField(0x3C850);
 	}
-	static ::UnityEngine::Vector2* StaticGet__scrollPos()
+	static ::System::Text::StringBuilder** StaticGet__sb()
 	{
-		return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(MonoSkillBtnInspector_TypeDefinitionIndex)->GetStaticField(0xDD60);
+		return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(MonoSkillBtnInspector_TypeDefinitionIndex)->GetStaticField(0x3C858);
 	}
 	static ::System::Boolean* StaticGet__isShow()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoSkillBtnInspector_TypeDefinitionIndex)->GetStaticField(0xDD68);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonoSkillBtnInspector_TypeDefinitionIndex)->GetStaticField(0xDDD0);
+	}
+	static ::UnityEngine::Vector2* StaticGet__scrollPos()
+	{
+		return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(MonoSkillBtnInspector_TypeDefinitionIndex)->GetStaticField(0xDDD4);
 	}
 	::System::Collections::Generic::List_1<::System::String*>* BindAnimatorStateNameList; // 0x18
 	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* _hashToNameDic; // 0x20

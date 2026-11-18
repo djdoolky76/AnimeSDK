@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/BitSet256.h"
 #include "unitysdk/Foundation/StateMachine/StateId.h"
+#include "unitysdk/Foundation/BitSet256.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FOUNDATION_STATEMACHINE_TRANSITION_CHECK_OFFSET UNITYSDK_OFFSET(0xAD09E0)
-#define FOUNDATION_STATEMACHINE_TRANSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC0BEB0)
-#define FOUNDATION_STATEMACHINE_TRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xAD09C0)
+#define FOUNDATION_STATEMACHINE_TRANSITION_CHECK_OFFSET UNITYSDK_OFFSET(0x9B7040)
+#define FOUNDATION_STATEMACHINE_TRANSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x2000CC50)
+#define FOUNDATION_STATEMACHINE_TRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x9B7020)
 
 namespace Foundation::StateMachine
 {
-	inline static constexpr unsigned int Transition_TypeDefinitionIndex = 8870;
+	inline static constexpr unsigned int Transition_TypeDefinitionIndex = 8837;
 
-	struct alignas(8) Transition
+	struct alignas(4) Transition
 	{
 		static ::Foundation::StateMachine::Transition* StaticGet_Invalid()
 		{
-			return (::Foundation::StateMachine::Transition*)Il2CppClass::FromTypeDefinitionIndex(Transition_TypeDefinitionIndex)->GetStaticField(0x3BF0);
+			return (::Foundation::StateMachine::Transition*)Il2CppClass::FromTypeDefinitionIndex(Transition_TypeDefinitionIndex)->GetStaticField(0x3BB0);
 		}
 		::Foundation::BitSet256 _condition; // 0x10
 		::Foundation::StateMachine::StateId _destination; // 0x30

@@ -4,11 +4,11 @@
 
 namespace MoleMole { class MonoEffectPluginFade; }
 
-#define MOLEMOLE_EFFECTSIMULATE_NESNORMALFXDATACACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x192354B0)
+#define MOLEMOLE_EFFECTSIMULATE_NESNORMALFXDATACACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x119003A0)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int NESNormalFxDataCache_TypeDefinitionIndex = 55976;
+	inline static constexpr unsigned int NESNormalFxDataCache_TypeDefinitionIndex = 44673;
 
 	class NESNormalFxDataCache : public ::MoleMole::EffectSimulate::NESDataCacheBase
 	{

@@ -4,7 +4,7 @@
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int ConcurrentBag_1_Enumerator_TypeDefinitionIndex = 4002;
+	inline static constexpr unsigned int ConcurrentBag_1_Enumerator_TypeDefinitionIndex = 4001;
 
 	template <typename T>
 	class ConcurrentBag_1_Enumerator : public ::System::Object

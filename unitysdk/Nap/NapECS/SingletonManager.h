@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define NAP_NAPECS_SINGLETONMANAGER_ADDSINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C85ACF0)
-#define NAP_NAPECS_SINGLETONMANAGER_REMOVESINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C85AE90)
-#define NAP_NAPECS_SINGLETONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C85AFF0)
+#define NAP_NAPECS_SINGLETONMANAGER_ADDSINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x1CE22FD0)
+#define NAP_NAPECS_SINGLETONMANAGER_REMOVESINGLETONINSTANCE_OFFSET UNITYSDK_OFFSET(0x1CE23170)
+#define NAP_NAPECS_SINGLETONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE232D0)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int SingletonManager_TypeDefinitionIndex = 37950;
+	inline static constexpr unsigned int SingletonManager_TypeDefinitionIndex = 36045;
 
 	class SingletonManager : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet__singletons()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(SingletonManager_TypeDefinitionIndex)->GetStaticField(0x2A420);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(SingletonManager_TypeDefinitionIndex)->GetStaticField(0x2B790);
 		}
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet__staticSingetons()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SingletonManager_TypeDefinitionIndex)->GetStaticField(0x2A428);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SingletonManager_TypeDefinitionIndex)->GetStaticField(0x2B798);
 		}
 
 		static ::System::Void _cctor()

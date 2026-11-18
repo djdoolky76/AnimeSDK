@@ -4,11 +4,11 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIGENERALOPTIONDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x184085F0)
+#define MOLEMOLE_UIGENERALOPTIONDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2DC40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralOptionDialogPopWindowController_Context_TypeDefinitionIndex = 87759;
+	inline static constexpr unsigned int UIGeneralOptionDialogPopWindowController_Context_TypeDefinitionIndex = 70353;
 
 	class UIGeneralOptionDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

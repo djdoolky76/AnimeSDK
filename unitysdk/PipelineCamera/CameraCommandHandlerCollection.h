@@ -7,11 +7,11 @@ namespace PipelineCamera { class CameraCommandUnSpawnSubModules; }
 namespace PipelineCamera { class ICameraCommand; }
 namespace System { template <typename T> class Action_1; }
 
-#define PIPELINECAMERA_CAMERACOMMANDHANDLERCOLLECTION_SENDCAMERACOMMAND_OFFSET UNITYSDK_OFFSET(0xA94940)
+#define PIPELINECAMERA_CAMERACOMMANDHANDLERCOLLECTION_SENDCAMERACOMMAND_OFFSET UNITYSDK_OFFSET(0x977510)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraCommandHandlerCollection_TypeDefinitionIndex = 38137;
+	inline static constexpr unsigned int CameraCommandHandlerCollection_TypeDefinitionIndex = 36139;
 
 	struct alignas(8) CameraCommandHandlerCollection
 	{

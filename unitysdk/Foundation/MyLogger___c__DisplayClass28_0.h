@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F697DE0)
-#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS28_0__DRAWGIZMOSCALE_B__0_OFFSET UNITYSDK_OFFSET(0x1F697DF0)
+#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A6F70)
+#define FOUNDATION_MYLOGGER___C__DISPLAYCLASS28_0__DRAWGIZMOSCALE_B__0_OFFSET UNITYSDK_OFFSET(0x1F3A6F80)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MyLogger___c__DisplayClass28_0_TypeDefinitionIndex = 8385;
+	inline static constexpr unsigned int MyLogger___c__DisplayClass28_0_TypeDefinitionIndex = 8161;
 
 	class MyLogger___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
 		::UnityEngine::Quaternion rotate; // 0x10
-		::UnityEngine::Vector3 pos; // 0x20
-		::System::Single size; // 0x2C
+		::System::Single size; // 0x20
+		::UnityEngine::Vector3 pos; // 0x24
 
 		::System::Void _ctor()
 		{

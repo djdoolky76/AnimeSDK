@@ -4,7 +4,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int IsNativeStruct_1_TypeDefinitionIndex = 28302;
+	inline static constexpr unsigned int IsNativeStruct_1_TypeDefinitionIndex = 27719;
 
 	template <typename T>
 	class IsNativeStruct_1 : public ::System::Object

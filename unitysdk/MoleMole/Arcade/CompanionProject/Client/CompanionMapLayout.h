@@ -9,24 +9,24 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FBB2840)
-#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_DESTROYTEMPALTEOBJECT_OFFSET UNITYSDK_OFFSET(0x1FBB2B70)
-#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1FBB2830)
-#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_INSTANTIATESELECTTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1FBB2D60)
-#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_INSTANTIATETEMPLATE_OFFSET UNITYSDK_OFFSET(0x1FBB28E0)
-#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FBB2890)
-#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBB2EF0)
+#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FDF7B90)
+#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_DESTROYTEMPALTEOBJECT_OFFSET UNITYSDK_OFFSET(0x1FDF7EC0)
+#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1FDF7B80)
+#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_INSTANTIATESELECTTEMPLATE_OFFSET UNITYSDK_OFFSET(0x1FDF80B0)
+#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_INSTANTIATETEMPLATE_OFFSET UNITYSDK_OFFSET(0x1FDF7C30)
+#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FDF7BE0)
+#define MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDF8240)
 
 namespace MoleMole::Arcade::CompanionProject::Client
 {
-	inline static constexpr unsigned int CompanionMapLayout_TypeDefinitionIndex = 94838;
+	inline static constexpr unsigned int CompanionMapLayout_TypeDefinitionIndex = 96395;
 
 	class CompanionMapLayout : public ::MoleMole::MiniGame::MiniGameManifest
 	{
 	public:
-		static ::MoleMole::Arcade::CompanionProject::Client::CompanionMapLayout** StaticGet_Field_6_0()
+		static ::MoleMole::Arcade::CompanionProject::Client::CompanionMapLayout** StaticGet_ECMMKCJLBMD()
 		{
-			return (::MoleMole::Arcade::CompanionProject::Client::CompanionMapLayout**)Il2CppClass::FromTypeDefinitionIndex(CompanionMapLayout_TypeDefinitionIndex)->GetStaticField(0x52650);
+			return (::MoleMole::Arcade::CompanionProject::Client::CompanionMapLayout**)Il2CppClass::FromTypeDefinitionIndex(CompanionMapLayout_TypeDefinitionIndex)->GetStaticField(0x52E10);
 		}
 		::UnityEngine::GameObject* template_; // 0x50
 		::UnityEngine::GameObject* selectTemplate; // 0x58
@@ -38,6 +38,7 @@ namespace MoleMole::Arcade::CompanionProject::Client
 		::System::Single DieEffectDuration; // 0x88
 		::System::Single FlyDuration; // 0x8C
 		::System::Single ShopCameraMoveDuration; // 0x90
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GoodsPoints; // 0x98
 		::System::Collections::Generic::List_1<::UnityEngine::Animator*>* GoodsPointParents; // 0xA0
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GoodsShadows; // 0xA8
@@ -46,6 +47,7 @@ namespace MoleMole::Arcade::CompanionProject::Client
 		::UnityEngine::GameObject* TipsTemplate; // 0xC0
 		::UnityEngine::AnimationCurve* TipsAnim; // 0xC8
 		::System::Single TipsAnimDuration; // 0xD0
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* TipsSPAnim; // 0xD8
 		::System::Single TipsSPAnimDuration; // 0xE0
 		::System::Single TipsAnimBaseScale; // 0xE4
@@ -78,9 +80,9 @@ namespace MoleMole::Arcade::CompanionProject::Client
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_INSTANTIATETEMPLATE_OFFSET))(this);
 		}
 
-		::System::Void DestroyTempalteObject(::UnityEngine::GameObject* a1)
+		::System::Void DestroyTempalteObject(::UnityEngine::GameObject* LHPFMGBDFPN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_DESTROYTEMPALTEOBJECT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_COMPANIONPROJECT_CLIENT_COMPANIONMAPLAYOUT_DESTROYTEMPALTEOBJECT_OFFSET))(this, LHPFMGBDFPN);
 		}
 
 		::UnityEngine::GameObject* InstantiateSelectTemplate()

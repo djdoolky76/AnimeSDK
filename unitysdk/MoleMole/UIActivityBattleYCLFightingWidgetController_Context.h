@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_4_01F9221F8B6A9296_Enum_3_05BF65C41833FF20.h"
+#include "unitysdk/ADDEBPHFFIF_EGCGFAGAFPD.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIACTIVITYBATTLEYCLFIGHTINGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E5210)
+#define MOLEMOLE_UIACTIVITYBATTLEYCLFIGHTINGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A757600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBattleYCLFightingWidgetController_Context_TypeDefinitionIndex = 89031;
+	inline static constexpr unsigned int UIActivityBattleYCLFightingWidgetController_Context_TypeDefinitionIndex = 52741;
 
 	class UIActivityBattleYCLFightingWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_4_01F9221F8B6A9296_Enum_3_05BF65C41833FF20 activityBattleType; // 0x28
-		::System::Int32 activityID; // 0x2C
+		::System::Int32 activityID; // 0x28
+		::ADDEBPHFFIF_EGCGFAGAFPD activityBattleType; // 0x2C
 
 		::System::Void _ctor()
 		{

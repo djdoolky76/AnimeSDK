@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Security/AccessControl/ControlFlags.h"
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICSECURITYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E127080)
+#define SYSTEM_SECURITY_ACCESSCONTROL_GENERICSECURITYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E493530)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int GenericSecurityDescriptor_TypeDefinitionIndex = 984;
+	inline static constexpr unsigned int GenericSecurityDescriptor_TypeDefinitionIndex = 983;
 
 	class GenericSecurityDescriptor : public ::System::Object
 	{

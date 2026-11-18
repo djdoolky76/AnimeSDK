@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AOJKLCGGPAK;
+class CJIEIHEDMME;
+class GMCPAFDJNLH;
+
+#define FFGCMHKKEMD_HKBMAGHDKFM_OFFSET UNITYSDK_OFFSET(0x1713FEA0)
+#define FFGCMHKKEMD_KOLFLBAMBGO_OFFSET UNITYSDK_OFFSET(0x1713FBE0)
+#define FFGCMHKKEMD_MDBPMPPCOPD_OFFSET UNITYSDK_OFFSET(0x17140160)
+
+inline static constexpr unsigned int FFGCMHKKEMD_TypeDefinitionIndex = 87115;
+
+class FFGCMHKKEMD : public ::System::Object
+{
+public:
+	static ::GMCPAFDJNLH* KOLFLBAMBGO(::System::Int32 HHEGANCPILH, ::System::Boolean NKFFHBCDGCP)
+	{
+		return ((::GMCPAFDJNLH*(*)(::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + FFGCMHKKEMD_KOLFLBAMBGO_OFFSET))(HHEGANCPILH, NKFFHBCDGCP);
+	}
+
+	static ::GMCPAFDJNLH* HKBMAGHDKFM(::System::Int32 HHEGANCPILH, ::System::Boolean NKFFHBCDGCP)
+	{
+		return ((::GMCPAFDJNLH*(*)(::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + FFGCMHKKEMD_HKBMAGHDKFM_OFFSET))(HHEGANCPILH, NKFFHBCDGCP);
+	}
+
+	static ::System::Boolean MDBPMPPCOPD(::CJIEIHEDMME* LNFLBDAFKJA, ::AOJKLCGGPAK* PLBEAIIJADM)
+	{
+		return ((::System::Boolean(*)(::CJIEIHEDMME*, ::AOJKLCGGPAK*))((::PBYTE)hIl2Cpp + FFGCMHKKEMD_MDBPMPPCOPD_OFFSET))(LNFLBDAFKJA, PLBEAIIJADM);
+	}
+};

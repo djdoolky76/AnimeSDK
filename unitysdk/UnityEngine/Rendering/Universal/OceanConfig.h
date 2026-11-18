@@ -7,30 +7,39 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
+namespace System { class String; }
 namespace UnityEngine { class Cubemap; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C516340)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9C3360)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OCEANCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C3170)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OceanConfig_TypeDefinitionIndex = 27623;
+	inline static constexpr unsigned int OceanConfig_TypeDefinitionIndex = 27048;
 
 	class OceanConfig : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_CoastlineCopyFieldNames()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(OceanConfig_TypeDefinitionIndex)->GetStaticField(0x24420);
+		}
 		::System::Boolean Enabled; // 0x10
 		::System::Boolean Interactable; // 0x11
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Vector3 ExtraVelocity; // 0x14
 		::System::Single MeshCullingThreshold; // 0x20
 		::System::Single FrustumCullingFOVBias; // 0x24
 		::System::Boolean DisableSSPR; // 0x28
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector2 WaveScale; // 0x2C
 		::System::Single WaveMapSize; // 0x34
 		::System::Single NormalScale; // 0x38
 		::System::Single TimeScale; // 0x3C
 		::System::Single WindAngle; // 0x40
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Texture2D* DetailNoramalMap; // 0x48
 		::System::Single DetailNormalMapSize; // 0x50
 		::System::Single DetailNormalMapSpeed; // 0x54
@@ -46,6 +55,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single Smothness; // 0xA0
 		::System::Single SpecularOffset; // 0xA4
 		::System::Single SpecularDetailNormalEnhance; // 0xA8
+		::System::Byte _padding3[0x4];
 		::UnityEngine::Cubemap* ReflectionCube; // 0xB0
 		::System::Single ReflectSmothness; // 0xB8
 		::System::Single RTXReflectSmoothness; // 0xBC
@@ -58,11 +68,13 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single FoamFade; // 0xDC
 		::System::Single FoamIntensity; // 0xE0
 		::System::Boolean FoamToonMode; // 0xE4
+		::System::Byte _padding4[0x3];
 		::UnityEngine::Color FoamColor; // 0xE8
 		::UnityEngine::Vector2 FoamTiling; // 0xF8
 		::System::Single FoamLength; // 0x100
 		::System::Single FoamFalloff; // 0x104
 		::System::Boolean FoamSharp; // 0x108
+		::System::Byte _padding5[0x3];
 		::System::Single FoamClipping; // 0x10C
 		::System::Single FoamSpeed; // 0x110
 		::System::Single FoamRippleDist; // 0x114
@@ -73,10 +85,12 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single WetnessIntensity; // 0x128
 		::System::Single WetnessExtraSmoothness; // 0x12C
 		::System::Boolean useWetnessMask; // 0x130
+		::System::Byte _padding6[0x7];
 		::UnityEngine::Texture2D* wetnessMask; // 0x138
 		::UnityEngine::Vector4 wetnessMaskPositionScale; // 0x140
 		::UnityEngine::Vector4 maskChannelWeight; // 0x150
 		::System::Boolean EnableCoastline; // 0x160
+		::System::Byte _padding7[0x7];
 		::UnityEngine::Texture2D* CoastlineMap; // 0x168
 		::UnityEngine::Vector4 CoastlineLocationScale; // 0x170
 		::System::Single CoastlineDecode; // 0x180
@@ -90,6 +104,7 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::Vector4 CoastlineWaveProfileDecode; // 0x1A4
 		::System::Single CoastlineVelocityScale; // 0x1B4
 		::System::Boolean _foldCaustic; // 0x1B8
+		::System::Byte _padding8[0x7];
 		::UnityEngine::Texture2D* CoastlineCausticMap; // 0x1C0
 		::System::Single CoastlineCausticSize; // 0x1C8
 		::System::Single CoastlineCausticMaxDepth; // 0x1CC
@@ -101,6 +116,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single CoastlineCausticShadowMaskIntensity; // 0x1E4
 		::System::Boolean CoastlineCausticEnableDirectional; // 0x1E8
 		::System::Boolean _foldFoam; // 0x1E9
+		::System::Byte _padding9[0x6];
 		::UnityEngine::Texture2D* CoastlineFoamMap; // 0x1F0
 		::UnityEngine::Color32 CoastlineFoamColor; // 0x1F8
 		::System::Single CoastlineFoamScale; // 0x1FC
@@ -125,6 +141,11 @@ namespace UnityEngine::Rendering::Universal
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_OCEANCONFIG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_OCEANCONFIG__CCTOR_OFFSET))();
 		}
 	};
 }

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Resources/UltimateResourceFallbackLocation.h"
+#include "unitysdk/System/Attribute.h"
 
 namespace System { class String; }
 
-#define SYSTEM_RESOURCES_NEUTRALRESOURCESLANGUAGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E122E10)
+#define SYSTEM_RESOURCES_NEUTRALRESOURCESLANGUAGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E48F2F0)
 
 namespace System::Resources
 {

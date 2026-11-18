@@ -7,16 +7,16 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net { class Base64Stream; }
 
-#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_COMPLETEREAD_OFFSET UNITYSDK_OFFSET(0x1D3FB550)
-#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_END_OFFSET UNITYSDK_OFFSET(0x1D3FB9B0)
-#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_ONREAD_OFFSET UNITYSDK_OFFSET(0x1D3FB770)
-#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_READ_OFFSET UNITYSDK_OFFSET(0x1D3FB5D0)
-#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3FBA30)
-#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FB4B0)
+#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_COMPLETEREAD_OFFSET UNITYSDK_OFFSET(0x1D883510)
+#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_END_OFFSET UNITYSDK_OFFSET(0x1D883970)
+#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_ONREAD_OFFSET UNITYSDK_OFFSET(0x1D883730)
+#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT_READ_OFFSET UNITYSDK_OFFSET(0x1D883590)
+#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8839F0)
+#define SYSTEM_NET_BASE64STREAM_READASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D883470)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int Base64Stream_ReadAsyncResult_TypeDefinitionIndex = 3433;
+	inline static constexpr unsigned int Base64Stream_ReadAsyncResult_TypeDefinitionIndex = 3432;
 
 	class Base64Stream_ReadAsyncResult : public ::System::Net::LazyAsyncResult
 	{
@@ -25,8 +25,8 @@ namespace System::Net
 		{
 			return (::System::AsyncCallback**)Il2CppClass::FromTypeDefinitionIndex(Base64Stream_ReadAsyncResult_TypeDefinitionIndex)->GetStaticField(0x2E10);
 		}
-		::Il2CppArray<::System::Byte>* buffer; // 0x48
-		::System::Net::Base64Stream* parent; // 0x50
+		::System::Net::Base64Stream* parent; // 0x48
+		::Il2CppArray<::System::Byte>* buffer; // 0x50
 		::System::Int32 count; // 0x58
 		::System::Int32 offset; // 0x5C
 		::System::Int32 read; // 0x60

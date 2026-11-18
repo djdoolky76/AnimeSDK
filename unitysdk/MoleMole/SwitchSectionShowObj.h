@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_205B03D40B9BD873.h"
+#include "unitysdk/FAKODLEPJOA.h"
 #include "unitysdk/MoleMole/LogicMessageBase.h"
 
-class Class_3_9F8B7B204F0D8E1D_30;
+class AIMJIBJFFBD;
 
-#define MOLEMOLE_SWITCHSECTIONSHOWOBJ_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x13ADC750)
-#define MOLEMOLE_SWITCHSECTIONSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x13ADC780)
-#define MOLEMOLE_SWITCHSECTIONSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x13ADC760)
+#define MOLEMOLE_SWITCHSECTIONSHOWOBJ_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1A0989D0)
+#define MOLEMOLE_SWITCHSECTIONSHOWOBJ_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x1A098A00)
+#define MOLEMOLE_SWITCHSECTIONSHOWOBJ__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0989E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SwitchSectionShowObj_TypeDefinitionIndex = 78758;
+	inline static constexpr unsigned int SwitchSectionShowObj_TypeDefinitionIndex = 52489;
 
 	class SwitchSectionShowObj : public ::MoleMole::LogicMessageBase
 	{
 	public:
-		::Class_3_9F8B7B204F0D8E1D_30* _ntf; // 0x20
+		::AIMJIBJFFBD* _ntf; // 0x20
 
-		::System::Void _ctor(::Class_3_9F8B7B204F0D8E1D_30* ntf, ::Enum_3_205B03D40B9BD873 page)
+		::System::Void _ctor(::AIMJIBJFFBD* ntf, ::FAKODLEPJOA page)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_9F8B7B204F0D8E1D_30*, ::Enum_3_205B03D40B9BD873))((::PBYTE)hIl2Cpp + MOLEMOLE_SWITCHSECTIONSHOWOBJ__CTOR_OFFSET))(this, ntf, page);
+			return ((::System::Void(*)(::PVOID, ::AIMJIBJFFBD*, ::FAKODLEPJOA))((::PBYTE)hIl2Cpp + MOLEMOLE_SWITCHSECTIONSHOWOBJ__CTOR_OFFSET))(this, ntf, page);
 		}
 
 		::System::Int32 get_Priority()

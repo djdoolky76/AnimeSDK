@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_D375C91CCE5D3999;
+class CJIEIHEDMME;
 
-#define MOLEMOLE_UIACTIVITYCOREAWARDCOMPONENTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC47B0)
+#define MOLEMOLE_UIACTIVITYCOREAWARDCOMPONENTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18845100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCoreAwardComponentContext_TypeDefinitionIndex = 50420;
+	inline static constexpr unsigned int UIActivityCoreAwardComponentContext_TypeDefinitionIndex = 91021;
 
 	class UIActivityCoreAwardComponentContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_D375C91CCE5D3999* componentActivityData; // 0x28
+		::CJIEIHEDMME* componentActivityData; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_ARCADE_BALLSRACE_BRCONSTANTCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFA0A30)
+#define MOLEMOLE_ARCADE_BALLSRACE_BRCONSTANTCFG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9EF20)
 
 namespace MoleMole::Arcade::BallsRace
 {
-	inline static constexpr unsigned int BrConstantCfg_TypeDefinitionIndex = 91928;
+	inline static constexpr unsigned int BrConstantCfg_TypeDefinitionIndex = 93492;
 
 	class BrConstantCfg : public ::System::Object
 	{
@@ -38,12 +38,14 @@ namespace MoleMole::Arcade::BallsRace
 		::System::Single FeverDeccStartTime; // 0x8C
 		::Il2CppArray<::System::Single>* HorizontalAccelerations; // 0x90
 		::System::Single ScorePerUnit; // 0x98
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Single>* HorizontalDecelerations; // 0xA0
 		::Il2CppArray<::System::Single>* SpeedLevelDurations; // 0xA8
 		::System::Boolean IsHJump; // 0xB0
 		::System::Boolean GenerateSpike; // 0xB1
 		::System::Boolean ReadTable; // 0xB2
 		::System::Boolean TrackReadTable; // 0xB3
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::System::Int32>* TargetTrackIds; // 0xB8
 		::System::Boolean Invincible; // 0xC0
 

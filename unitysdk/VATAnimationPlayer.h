@@ -1,30 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
-#include "unitysdk/VATAnimationPlayer_AnimationStage.h"
 
+namespace System { class Object; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define VATANIMATIONPLAYER_APPLYFRAMETORENDERERS_OFFSET UNITYSDK_OFFSET(0x1C3FA720)
-#define VATANIMATIONPLAYER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C3FA510)
-#define VATANIMATIONPLAYER_PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x1C3FA620)
-#define VATANIMATIONPLAYER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C3FAA30)
-#define VATANIMATIONPLAYER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3FAC10)
-#define VATANIMATIONPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3FAB70)
+#define VATANIMATIONPLAYER_APPLYFRAMETORENDERERS_OFFSET UNITYSDK_OFFSET(0x1BA15310)
+#define VATANIMATIONPLAYER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BA15100)
+#define VATANIMATIONPLAYER_PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x1BA15210)
+#define VATANIMATIONPLAYER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BA15620)
+#define VATANIMATIONPLAYER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA15800)
+#define VATANIMATIONPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA15760)
 
-inline static constexpr unsigned int VATAnimationPlayer_TypeDefinitionIndex = 80224;
+inline static constexpr unsigned int VATAnimationPlayer_TypeDefinitionIndex = 87365;
 
 class VATAnimationPlayer : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 {
 public:
 	static ::System::Int32* StaticGet__Frame()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VATAnimationPlayer_TypeDefinitionIndex)->GetStaticField(0x12F30);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VATAnimationPlayer_TypeDefinitionIndex)->GetStaticField(0x12BC0);
 	}
 	::System::Boolean useUnifiedSpeed; // 0x58
+	::System::Byte _padding0[0x3];
 	::System::Single playSpeed; // 0x5C
-	::Il2CppArray<::VATAnimationPlayer_AnimationStage>* stages; // 0x60
+	::Il2CppArray<::System::Object*>* stages; // 0x60
 	::Il2CppArray<::UnityEngine::Renderer*>* renderers; // 0x68
 	::UnityEngine::MaterialPropertyBlock* mpb; // 0x70
 	::System::Int32 currentStage; // 0x78

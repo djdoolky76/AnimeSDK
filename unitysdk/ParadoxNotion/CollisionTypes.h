@@ -3,7 +3,7 @@
 
 namespace ParadoxNotion
 {
-	inline static constexpr unsigned int CollisionTypes_TypeDefinitionIndex = 30694;
+	inline static constexpr unsigned int CollisionTypes_TypeDefinitionIndex = 29759;
 
 	enum class CollisionTypes : ::System::Int32
 	{

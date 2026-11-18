@@ -5,7 +5,7 @@
 
 namespace PipeSplineDeformation
 {
-	inline static constexpr unsigned int PipeSplineGpuBuildResult_TypeDefinitionIndex = 27525;
+	inline static constexpr unsigned int PipeSplineGpuBuildResult_TypeDefinitionIndex = 26202;
 
 	struct alignas(4) PipeSplineGpuBuildResult
 	{

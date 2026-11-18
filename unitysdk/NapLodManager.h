@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Singleton_1.h"
 #include "unitysdk/NapLodController_NapLODLevel.h"
 
 class NapLodController;
@@ -8,23 +7,23 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MdbComponent; }
 
-#define NAPLODMANAGER_APPLYAVATARBODYLEVEL_OFFSET UNITYSDK_OFFSET(0x102CCB60)
-#define NAPLODMANAGER_APPLYAVATARFACELEVEL_OFFSET UNITYSDK_OFFSET(0x102CCE00)
-#define NAPLODMANAGER_GET_AVATARBODYLEVEL_OFFSET UNITYSDK_OFFSET(0x102CCAE0)
-#define NAPLODMANAGER_GET_AVATARFACELEVEL_OFFSET UNITYSDK_OFFSET(0x102CCD80)
-#define NAPLODMANAGER_REGISTERAVATARLODCONTROLLER_OFFSET UNITYSDK_OFFSET(0x102CCF50)
-#define NAPLODMANAGER_SET_AVATARBODYLEVEL_OFFSET UNITYSDK_OFFSET(0x102CCAF0)
-#define NAPLODMANAGER_SET_AVATARFACELEVEL_OFFSET UNITYSDK_OFFSET(0x102CCD90)
-#define NAPLODMANAGER_UNREGISTERAVATARLODCONTROLLER_OFFSET UNITYSDK_OFFSET(0x102CD170)
-#define NAPLODMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x102CD340)
+#define NAPLODMANAGER_APPLYAVATARBODYLEVEL_OFFSET UNITYSDK_OFFSET(0x1365B210)
+#define NAPLODMANAGER_APPLYAVATARFACELEVEL_OFFSET UNITYSDK_OFFSET(0x1365B4C0)
+#define NAPLODMANAGER_GET_AVATARBODYLEVEL_OFFSET UNITYSDK_OFFSET(0x1365B190)
+#define NAPLODMANAGER_GET_AVATARFACELEVEL_OFFSET UNITYSDK_OFFSET(0x1365B440)
+#define NAPLODMANAGER_REGISTERAVATARLODCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1365B610)
+#define NAPLODMANAGER_SET_AVATARBODYLEVEL_OFFSET UNITYSDK_OFFSET(0x1365B1A0)
+#define NAPLODMANAGER_SET_AVATARFACELEVEL_OFFSET UNITYSDK_OFFSET(0x1365B450)
+#define NAPLODMANAGER_UNREGISTERAVATARLODCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1365B830)
+#define NAPLODMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1365BA00)
 
-inline static constexpr unsigned int NapLodManager_TypeDefinitionIndex = 81840;
+inline static constexpr unsigned int NapLodManager_TypeDefinitionIndex = 62482;
 
-class NapLodManager : public ::Foundation::Singleton_1<::NapLodManager*>
+class NapLodManager
 {
 public:
-	::System::Collections::Generic::List_1<::NapLodController*>* allAvatarFaceControllers; // 0x10
-	::System::Collections::Generic::List_1<::NapLodController*>* allAvatarBodyControllers; // 0x18
+	::System::Collections::Generic::List_1<::NapLodController*>* allAvatarBodyControllers; // 0x10
+	::System::Collections::Generic::List_1<::NapLodController*>* allAvatarFaceControllers; // 0x18
 	::System::Collections::Generic::HashSet_1<::UnityEngine::MdbComponent*>* allMdb; // 0x20
 	::NapLodController_NapLODLevel avatarFaceLevel; // 0x28
 	::NapLodController_NapLODLevel avatarBodyLevel; // 0x2C

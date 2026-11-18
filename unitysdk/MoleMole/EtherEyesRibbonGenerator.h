@@ -7,18 +7,18 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B522CF0)
-#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_METHOD_5_40EBA7013E4CCDDF_OFFSET UNITYSDK_OFFSET(0x1B522CA0)
-#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_METHOD_5_6675531D375F235D_OFFSET UNITYSDK_OFFSET(0x1B5230A0)
-#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_METHOD_5_9AB55F553C4AC6E8_OFFSET UNITYSDK_OFFSET(0x1B523850)
-#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_METHOD_5_F29D7A7F508EABE1_OFFSET UNITYSDK_OFFSET(0x1B5257D0)
-#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B522BA0)
-#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B523040)
-#define MOLEMOLE_ETHEREYESRIBBONGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B525760)
+#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_AWAKE_OFFSET UNITYSDK_OFFSET(0x142ED8D0)
+#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_FLLIHNCMAFH_OFFSET UNITYSDK_OFFSET(0x142EE430)
+#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_ILEFFMHKNAA_OFFSET UNITYSDK_OFFSET(0x142EDC80)
+#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_JMPNKFCKKFG_OFFSET UNITYSDK_OFFSET(0x142F03B0)
+#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_LOFMNKAMILC_OFFSET UNITYSDK_OFFSET(0x142ED880)
+#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x142ED780)
+#define MOLEMOLE_ETHEREYESRIBBONGENERATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x142EDC20)
+#define MOLEMOLE_ETHEREYESRIBBONGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x142F0340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int EtherEyesRibbonGenerator_TypeDefinitionIndex = 49413;
+	inline static constexpr unsigned int EtherEyesRibbonGenerator_TypeDefinitionIndex = 63782;
 
 	class EtherEyesRibbonGenerator : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,15 +31,17 @@ namespace MoleMole
 		::System::Single desiredSegmentLength; // 0x34
 		::System::Single midAlphaBand; // 0x38
 		::System::Single midAlpha; // 0x3C
-		::UnityEngine::MeshFilter* Field_5_9; // 0x40
-		::UnityEngine::Mesh* Field_5_8; // 0x48
-		::UnityEngine::Vector3 Field_5_15; // 0x50
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_14; // 0x60
-		::Il2CppArray<::System::Int32>* Field_5_13; // 0x68
-		::System::Single Field_5_12; // 0x70
-		::System::Single Field_5_19; // 0x74
-		::System::Boolean Field_5_18; // 0x78
-		::System::Single Field_5_17; // 0x7C
+		::UnityEngine::MeshFilter* AMNGEBLNNCE; // 0x40
+		::UnityEngine::Mesh* BEEGIMMGFPF; // 0x48
+		::UnityEngine::Vector3 LPMHCCJLHBK; // 0x50
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::UnityEngine::Vector3>* JHGGBAHLIFA; // 0x60
+		::Il2CppArray<::System::Int32>* EDHOMAEMICB; // 0x68
+		::System::Single IDKKBPGBPLN; // 0x70
+		::System::Single KLMOBMIEMJB; // 0x74
+		::System::Boolean MOJIGDCILEK; // 0x78
+		::System::Byte _padding1[0x3];
+		::System::Single IHDIFINLOHC; // 0x7C
 
 		::System::Void _ctor()
 		{
@@ -61,24 +63,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYESRIBBONGENERATOR_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_40EBA7013E4CCDDF()
+		::System::Void LOFMNKAMILC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYESRIBBONGENERATOR_METHOD_5_40EBA7013E4CCDDF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYESRIBBONGENERATOR_LOFMNKAMILC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_F29D7A7F508EABE1()
+		::System::Boolean ILEFFMHKNAA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYESRIBBONGENERATOR_METHOD_5_F29D7A7F508EABE1_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYESRIBBONGENERATOR_ILEFFMHKNAA_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_6675531D375F235D()
+		::System::Void JMPNKFCKKFG()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYESRIBBONGENERATOR_METHOD_5_6675531D375F235D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYESRIBBONGENERATOR_JMPNKFCKKFG_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9AB55F553C4AC6E8()
+		::System::Void FLLIHNCMAFH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYESRIBBONGENERATOR_METHOD_5_9AB55F553C4AC6E8_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ETHEREYESRIBBONGENERATOR_FLLIHNCMAFH_OFFSET))(this);
 		}
 	};
 }

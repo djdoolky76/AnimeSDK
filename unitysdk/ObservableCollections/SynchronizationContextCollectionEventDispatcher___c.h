@@ -4,20 +4,20 @@
 
 namespace ObservableCollections { class ICollectionEventDispatcher; }
 
-#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9BE880)
-#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9BE8C0)
-#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1F9BE8D0)
+#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDBE150)
+#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDBE190)
+#define OBSERVABLECOLLECTIONS_SYNCHRONIZATIONCONTEXTCOLLECTIONEVENTDISPATCHER___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x1FDBE1A0)
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int SynchronizationContextCollectionEventDispatcher___c_TypeDefinitionIndex = 28739;
+	inline static constexpr unsigned int SynchronizationContextCollectionEventDispatcher___c_TypeDefinitionIndex = 28161;
 
 	class SynchronizationContextCollectionEventDispatcher___c : public ::System::Object
 	{
 	public:
-		static ::ObservableCollections::SynchronizationContextCollectionEventDispatcher___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::ObservableCollections::SynchronizationContextCollectionEventDispatcher___c**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextCollectionEventDispatcher___c_TypeDefinitionIndex)->GetStaticField(0x244C0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextCollectionEventDispatcher___c_TypeDefinitionIndex)->GetStaticField(0x25570);
 		}
 
 		static ::System::Void _cctor()

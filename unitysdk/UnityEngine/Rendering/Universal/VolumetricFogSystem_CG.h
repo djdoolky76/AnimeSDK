@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/VolumetricFogSystem_Base.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/CullingResults.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
@@ -13,31 +13,31 @@ namespace UnityEngine::NAPRenderPipeline0 { class IWeatherConfig; }
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class DynamicArray_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG_DRAWPOSTLIGHTEFFECTFOREFFECT_OFFSET UNITYSDK_OFFSET(0x1F824C80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG_DRAWPOSTLIGHTEFFECTFOROPAQUEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F826130)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG_DRAWPUNCTUALLIGHTVOLUMETRICFOG_OFFSET UNITYSDK_OFFSET(0x1F827A10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F829BA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG___BASE_DRAWPOSTLIGHTEFFECTFOREFFECT_OFFSET UNITYSDK_OFFSET(0x1F829BF0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG___BASE_DRAWPOSTLIGHTEFFECTFOROPAQUEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F829C00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG___BASE_DRAWPUNCTUALLIGHTVOLUMETRICFOG_OFFSET UNITYSDK_OFFSET(0x1F829C10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG_DRAWPOSTLIGHTEFFECTFOREFFECT_OFFSET UNITYSDK_OFFSET(0x1F921550)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG_DRAWPOSTLIGHTEFFECTFOROPAQUEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F922A00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG_DRAWPUNCTUALLIGHTVOLUMETRICFOG_OFFSET UNITYSDK_OFFSET(0x1F9242F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F926480)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG___BASE_DRAWPOSTLIGHTEFFECTFOREFFECT_OFFSET UNITYSDK_OFFSET(0x1F9264D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG___BASE_DRAWPOSTLIGHTEFFECTFOROPAQUEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F9264E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICFOGSYSTEM_CG___BASE_DRAWPUNCTUALLIGHTVOLUMETRICFOG_OFFSET UNITYSDK_OFFSET(0x1F9264F0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VolumetricFogSystem_CG_TypeDefinitionIndex = 26872;
+	inline static constexpr unsigned int VolumetricFogSystem_CG_TypeDefinitionIndex = 27154;
 
 	class VolumetricFogSystem_CG : public ::UnityEngine::NAPRenderPipeline0::VolumetricFogSystem_Base
 	{
 	public:
-		static ::UnityEngine::Material** StaticGet_s_MaterialCGVolumetricFog()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(VolumetricFogSystem_CG_TypeDefinitionIndex)->GetStaticField(0x23B40);
-		}
 		static ::UnityEngine::Shader** StaticGet_s_ShaderCGVolumetricFog()
 		{
-			return (::UnityEngine::Shader**)Il2CppClass::FromTypeDefinitionIndex(VolumetricFogSystem_CG_TypeDefinitionIndex)->GetStaticField(0x23B48);
+			return (::UnityEngine::Shader**)Il2CppClass::FromTypeDefinitionIndex(VolumetricFogSystem_CG_TypeDefinitionIndex)->GetStaticField(0x24B20);
 		}
-		::UnityEngine::MaterialPropertyBlock* postLightPropertyBlock; // 0x68
-		::UnityEngine::Material* postLightLutMat; // 0x70
+		static ::UnityEngine::Material** StaticGet_s_MaterialCGVolumetricFog()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(VolumetricFogSystem_CG_TypeDefinitionIndex)->GetStaticField(0x24B28);
+		}
+		::UnityEngine::Material* postLightLutMat; // 0x68
+		::UnityEngine::MaterialPropertyBlock* postLightPropertyBlock; // 0x70
 		::UnityEngine::Material* postLightMat; // 0x78
 		::System::Int32 _SpecialControlParams; // 0x80
 

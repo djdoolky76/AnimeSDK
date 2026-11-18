@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
-#include "unitysdk/Enum_3_24F60EA0D4DCCDF0.h"
+#include "unitysdk/GJDFOIIBBPN.h"
 #include "unitysdk/MoleMole/Cameras/OverShoulderCameraData.h"
-#include "unitysdk/MoleMole/Cameras/ScopedOverShoulderCamera_Enum_3_55C6DDFDFD9F932E.h"
+#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTaskVoid.h"
 #include "unitysdk/PipelineCamera/CameraVariableFetchContext_1.h"
 #include "unitysdk/PipelineCamera/ScopedDelegateHandle.h"
-#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
-#include "unitysdk/Struct_2_52A902145F5BE513.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 namespace MoleMole::Cameras { class OverShoulderCameraConfig; }
@@ -24,84 +22,88 @@ namespace PipelineCamera { template <typename T> class CameraVariableSubModule_1
 namespace PipelineCamera { template <typename T> class ICameraSubModuleBuilder_1; }
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x116CE080)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_047914517574764A_OFFSET UNITYSDK_OFFSET(0x116CEA60)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_0781F88D06095A03_OFFSET UNITYSDK_OFFSET(0x116CF890)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_0E1BDEE095A16B6B_OFFSET UNITYSDK_OFFSET(0x116D1610)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1A0585D5DEE6FF31_1_OFFSET UNITYSDK_OFFSET(0x116D12B0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1A0585D5DEE6FF31_OFFSET UNITYSDK_OFFSET(0x116CE8B0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1A6927D0798C1CDA_1_OFFSET UNITYSDK_OFFSET(0x116D0800)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1A6927D0798C1CDA_OFFSET UNITYSDK_OFFSET(0x116CE570)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1B5794BDF8196D6D_OFFSET UNITYSDK_OFFSET(0x116CFB80)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1D4018D4200358D0_1_OFFSET UNITYSDK_OFFSET(0x116CFE10)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1D4018D4200358D0_2_OFFSET UNITYSDK_OFFSET(0x116D1490)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1D4018D4200358D0_3_OFFSET UNITYSDK_OFFSET(0x116CF7B0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x116CE3E0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_31933D7A1B9AEFE3_OFFSET UNITYSDK_OFFSET(0x116D0880)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x116D1DF0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x116CFDD0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_3CC38AF70CC6E8C9_OFFSET UNITYSDK_OFFSET(0x116CFE70)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_3D5054820AEEE699_OFFSET UNITYSDK_OFFSET(0x116D1370)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x116CE7F0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_40E490E2772D5D75_OFFSET UNITYSDK_OFFSET(0x116CE840)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_479759059E440327_OFFSET UNITYSDK_OFFSET(0x116CE4D0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_4AB9012B5D01108B_1_OFFSET UNITYSDK_OFFSET(0x116D0530)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_4AB9012B5D01108B_OFFSET UNITYSDK_OFFSET(0x116CE970)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_4D9AF0772C5D0480_OFFSET UNITYSDK_OFFSET(0x116D1C90)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_565B23350997A3F9_OFFSET UNITYSDK_OFFSET(0x116CE5F0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_77577333B4681208_OFFSET UNITYSDK_OFFSET(0x116CE430)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_782C2E4E446641D7_OFFSET UNITYSDK_OFFSET(0x116CF810)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_7B46F7DB18ADE361_OFFSET UNITYSDK_OFFSET(0x116D0150)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_8417CDEB7B154E29_1_OFFSET UNITYSDK_OFFSET(0x116D1160)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_8417CDEB7B154E29_OFFSET UNITYSDK_OFFSET(0x116CE220)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_882E82750C05A3D7_OFFSET UNITYSDK_OFFSET(0x116CDDD0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_8B5519E0E1747D4E_OFFSET UNITYSDK_OFFSET(0x116CFAF0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_8BAA4FB7D9C1E719_OFFSET UNITYSDK_OFFSET(0x116CE690)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_8D4118C8A6074696_OFFSET UNITYSDK_OFFSET(0x116CE370)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_8E7482C252877E8A_OFFSET UNITYSDK_OFFSET(0x116D2240)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_A5E8F32B3838589E_1_OFFSET UNITYSDK_OFFSET(0x116D1220)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_A5E8F32B3838589E_OFFSET UNITYSDK_OFFSET(0x116CE2E0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_AFF53793124C3328_OFFSET UNITYSDK_OFFSET(0x116D0BF0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_C0B52E1F228C38E1_OFFSET UNITYSDK_OFFSET(0x116D14F0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_C0FE531EFFDBAC16_OFFSET UNITYSDK_OFFSET(0x116D1E60)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_C946F64728403EED_OFFSET UNITYSDK_OFFSET(0x116CDFA0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_E5940FD4C3F5FA89_OFFSET UNITYSDK_OFFSET(0x116D08D0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_E7BC66F94B7A6CBF_OFFSET UNITYSDK_OFFSET(0x116D0620)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_FF7B2911BBACA4A9_OFFSET UNITYSDK_OFFSET(0x116D0BA0)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0x116CE210)
-#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x116CDBD0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_AGMANPGHJMI_OFFSET UNITYSDK_OFFSET(0xFA8E6B0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_ANJAOOMDFLA_OFFSET UNITYSDK_OFFSET(0xFA8D040)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_BHPACPHOIEI_OFFSET UNITYSDK_OFFSET(0xFA8F4C0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_BIHAHOPMLOK_OFFSET UNITYSDK_OFFSET(0xFA90A40)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_BIIPHEJKMGF_1_OFFSET UNITYSDK_OFFSET(0xFA8CDE0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_BIIPHEJKMGF_OFFSET UNITYSDK_OFFSET(0xFA8CD20)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CDGLGBHGDKJ_OFFSET UNITYSDK_OFFSET(0xFA8DAA0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CDIFHCKCOAF_OFFSET UNITYSDK_OFFSET(0xFA8F020)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CFHBPGGKCFN_OFFSET UNITYSDK_OFFSET(0xFA8CA90)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CFMOAEGAFOI_1_OFFSET UNITYSDK_OFFSET(0xFA8DE00)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CFMOAEGAFOI_OFFSET UNITYSDK_OFFSET(0xFA8DD40)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CMJEFJBCGEM_OFFSET UNITYSDK_OFFSET(0xFA8CFD0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_COKNIICCODC_OFFSET UNITYSDK_OFFSET(0xFA8E470)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DCGHCHJDGHL_1_OFFSET UNITYSDK_OFFSET(0xFA8DB90)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DCGHCHJDGHL_OFFSET UNITYSDK_OFFSET(0xFA8CF10)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DGFKLHFDDPA_OFFSET UNITYSDK_OFFSET(0xFA8D7D0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFA8CB80)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DKCDMPBOLMJ_OFFSET UNITYSDK_OFFSET(0xFA8E030)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DMLDAMPEEOK_OFFSET UNITYSDK_OFFSET(0xFA8C8C0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DNJONIOAPEB_OFFSET UNITYSDK_OFFSET(0xFA8E560)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_EBJMJDJFGFN_OFFSET UNITYSDK_OFFSET(0xFA90280)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_ECPJGHMMCHM_OFFSET UNITYSDK_OFFSET(0xFA8D740)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_GBGJGANGMKP_OFFSET UNITYSDK_OFFSET(0xFA8DE80)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_GIAOBHOJCDP_OFFSET UNITYSDK_OFFSET(0xFA8E840)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_GJBHJGINONO_OFFSET UNITYSDK_OFFSET(0xFA8E650)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_GPOJJKMMALM_OFFSET UNITYSDK_OFFSET(0xFA90D50)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_IANFKEENEMM_OFFSET UNITYSDK_OFFSET(0xFA90210)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_IDMCPALFOBI_OFFSET UNITYSDK_OFFSET(0xFA8F400)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_IPLPGKJGPJC_OFFSET UNITYSDK_OFFSET(0xFA8CE70)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_JENPOKBKPPM_OFFSET UNITYSDK_OFFSET(0xFA8E700)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_JLFNAHONPGB_OFFSET UNITYSDK_OFFSET(0xFA8D330)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_KABCOEEHDED_OFFSET UNITYSDK_OFFSET(0xFA8E510)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_KGMELLKGHED_OFFSET UNITYSDK_OFFSET(0xFA8E7C0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_KOOLECKPLID_1_OFFSET UNITYSDK_OFFSET(0xFA90C50)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_KOOLECKPLID_OFFSET UNITYSDK_OFFSET(0xFA90BD0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_LBIBFIIECKJ_OFFSET UNITYSDK_OFFSET(0xFA90EB0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_LOPAIJCMDFL_OFFSET UNITYSDK_OFFSET(0xFA8DC20)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_MCAPOBKKBLG_OFFSET UNITYSDK_OFFSET(0xFA8DFE0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_NANIGDCDLCI_OFFSET UNITYSDK_OFFSET(0xFA8F450)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_NBFODDEFGJA_OFFSET UNITYSDK_OFFSET(0xFA8E210)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_NJENCPFFOLN_OFFSET UNITYSDK_OFFSET(0xFA90920)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_OMHJFMDGNEO_OFFSET UNITYSDK_OFFSET(0xFA8E760)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_PDLKOHHOKEH_OFFSET UNITYSDK_OFFSET(0xFA90B30)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_PEOKGFJCHLP_OFFSET UNITYSDK_OFFSET(0xFA90D10)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_PODJBKEIJIJ_OFFSET UNITYSDK_OFFSET(0xFA8EDC0)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0xFA8CD10)
+#define MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xFA8C6B0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int ScopedOverShoulderCamera_TypeDefinitionIndex = 77551;
+	inline static constexpr unsigned int ScopedOverShoulderCamera_TypeDefinitionIndex = 51947;
 
 	class ScopedOverShoulderCamera : public ::System::Object
 	{
 	public:
 		static ::System::UInt32* StaticGet_CreateCount()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ScopedOverShoulderCamera_TypeDefinitionIndex)->GetStaticField(0x125C0);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ScopedOverShoulderCamera_TypeDefinitionIndex)->GetStaticField(0x134F0);
 		}
-		// static const ::Enum_3_24F60EA0D4DCCDF0 PIPELINE_CAMERA_PRIORITY; // 0x0
+		// static const ::NBGELMBGLKD PIPELINE_CAMERA_PRIORITY = 0x1; // 0x0
 		::System::UInt32 _createCountIndex; // 0x10
-		::MoleMole::Utils::TaskBasedEventCollection_1<::MoleMole::Cameras::ScopedOverShoulderCamera_Enum_3_55C6DDFDFD9F932E>* _events; // 0x18
+		::System::Byte _padding0[0x4];
+		::MoleMole::Utils::TaskBasedEventCollection_1<::System::Object*>* _events; // 0x18
 		::System::Boolean _isCameraSetup; // 0x20
 		::System::Boolean _blendInAimingEnabled; // 0x21
+		::System::Byte _padding1[0x2];
 		::System::Single _blendInTime; // 0x24
 		::MoleMole::Cameras::OverShoulderCameraData _cameraData; // 0x28
 		::PipelineCamera::CameraVariableSubModule_1<::PipelineCamera::WorldBasicCameraData>* _subModule; // 0x270
 		::UnityEngine::Vector3 _lastVisualFocusPosition; // 0x278
 		::System::Boolean _isInFocusTargetMode; // 0x284
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Vector3 _curFocusTargetPos; // 0x288
 		::System::Single _focusTargetRotateDampSpeed; // 0x294
 		::MoleMole::Cameras::OverShoulderCameraConfig* _config; // 0x298
-		::Struct_2_52A902145F5BE513 _context; // 0x2A0
+		::GJDFOIIBBPN _context; // 0x2A0
 		::MoleMole::Cameras::OverrideOverShoulderCameraConfig* _overrideConfig; // 0x3C8
 		::System::Boolean _isMuteManualRotate; // 0x3D0
 
-		::System::Void _ctor(::MoleMole::Cameras::OverShoulderCameraConfig* a1, ::Struct_2_52A902145F5BE513& a2, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* a3)
+		::System::Void _ctor(::MoleMole::Cameras::OverShoulderCameraConfig* DFMKILICPFB, ::GJDFOIIBBPN& AAOCANGHBDG, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* EKPAIOGJEPO)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::Struct_2_52A902145F5BE513&, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::GJDFOIIBBPN&, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA__CTOR_OFFSET))(this, DFMKILICPFB, AAOCANGHBDG, EKPAIOGJEPO);
 		}
 
 		static ::System::Void _cctor()
@@ -114,219 +116,224 @@ namespace MoleMole::Cameras
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Single Method_1_8417CDEB7B154E29()
+		::System::Single BIIPHEJKMGF()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_8417CDEB7B154E29_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_BIIPHEJKMGF_OFFSET))(this);
 		}
 
-		::System::Void Method_1_8D4118C8A6074696(::UnityEngine::Quaternion a1)
+		::System::Boolean IPLPGKJGPJC()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_8D4118C8A6074696_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_IPLPGKJGPJC_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_1D4018D4200358D0()
+		::System::String* CMJEFJBCGEM()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CMJEFJBCGEM_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_77577333B4681208()
+		::PipelineCamera::ScopedDelegateHandle ANJAOOMDFLA(::MoleMole::Cameras::OverShoulderCameraConfig* DFMKILICPFB, ::GJDFOIIBBPN& AAOCANGHBDG, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* EKPAIOGJEPO)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_77577333B4681208_OFFSET))(this);
+			return ((::PipelineCamera::ScopedDelegateHandle(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::GJDFOIIBBPN&, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_ANJAOOMDFLA_OFFSET))(this, DFMKILICPFB, AAOCANGHBDG, EKPAIOGJEPO);
 		}
 
-		::System::Void Method_1_479759059E440327(::System::Single a1)
+		::System::Single ECPJGHMMCHM(::System::Single ELHMOANKHFM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_479759059E440327_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_ECPJGHMMCHM_OFFSET))(this, ELHMOANKHFM);
 		}
 
-		::System::String* Method_1_1A6927D0798C1CDA(::MoleMole::Cameras::OverShoulderCameraConfig* a1, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* a2, ::MoleMole::Cameras::CameraTrackBlending* a3)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> DGFKLHFDDPA(::System::Single DMAFDMDAGKK, ::System::Single NHFLBHJHOIC)
 		{
-			return ((::System::String*(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*, ::MoleMole::Cameras::CameraTrackBlending*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1A6927D0798C1CDA_OFFSET))(this, a1, a2, a3);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DGFKLHFDDPA_OFFSET))(this, DMAFDMDAGKK, NHFLBHJHOIC);
 		}
 
-		static ::MoleMole::Cameras::ScopedOverShoulderCamera* Method_1_565B23350997A3F9(::MoleMole::Cameras::OverShoulderCameraConfig* a1, ::Struct_2_52A902145F5BE513& a2, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* a3)
+		::System::Void CDGLGBHGDKJ(::System::Boolean GCDKMFLGLIJ, ::System::Single IBCAFNKFIDH, ::System::Boolean IIFLMEBNLDG, ::System::Single FLKMOKLIPKN)
 		{
-			return ((::MoleMole::Cameras::ScopedOverShoulderCamera*(*)(::MoleMole::Cameras::OverShoulderCameraConfig*, ::Struct_2_52A902145F5BE513&, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_565B23350997A3F9_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Single, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CDGLGBHGDKJ_OFFSET))(this, GCDKMFLGLIJ, IBCAFNKFIDH, IIFLMEBNLDG, FLKMOKLIPKN);
 		}
 
-		::UnityEngine::Vector2 Method_1_8BAA4FB7D9C1E719(::System::Single a1, ::System::Single a2)
+		::System::Single DCGHCHJDGHL()
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_8BAA4FB7D9C1E719_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DCGHCHJDGHL_OFFSET))(this);
 		}
 
-		::System::Void Method_1_3E7178C5ECF017DB(::System::Boolean a1)
+		::PipelineCamera::ICameraSubModuleBuilder_1<::PipelineCamera::WorldBasicCameraData>* LOPAIJCMDFL(::MoleMole::Cameras::OverShoulderCameraConfig* EJJNGFCGNAK, ::GJDFOIIBBPN& PLDOCICBAHO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_3E7178C5ECF017DB_OFFSET))(this, a1);
+			return ((::PipelineCamera::ICameraSubModuleBuilder_1<::PipelineCamera::WorldBasicCameraData>*(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::GJDFOIIBBPN&))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_LOPAIJCMDFL_OFFSET))(this, EJJNGFCGNAK, PLDOCICBAHO);
 		}
 
-		::System::Void Method_1_882E82750C05A3D7(::MoleMole::Cameras::OverShoulderCameraConfig* a1, ::Struct_2_52A902145F5BE513& a2, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* a3)
+		::System::String* CFMOAEGAFOI()
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::Struct_2_52A902145F5BE513&, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_882E82750C05A3D7_OFFSET))(this, a1, a2, a3);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CFMOAEGAFOI_OFFSET))(this);
 		}
 
-		::System::Void Method_1_40E490E2772D5D75(::UnityEngine::Vector3 a1)
+		::UnityEngine::Vector2 GBGJGANGMKP(::System::Single DMAFDMDAGKK, ::System::Single NHFLBHJHOIC)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_40E490E2772D5D75_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_GBGJGANGMKP_OFFSET))(this, DMAFDMDAGKK, NHFLBHJHOIC);
 		}
 
-		::System::String* Method_1_1A0585D5DEE6FF31()
+		::System::Void DMLDAMPEEOK(::MoleMole::Cameras::OverShoulderCameraConfig* DFMKILICPFB, ::GJDFOIIBBPN& AAOCANGHBDG, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* EKPAIOGJEPO)
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1A0585D5DEE6FF31_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::GJDFOIIBBPN&, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DMLDAMPEEOK_OFFSET))(this, DFMKILICPFB, AAOCANGHBDG, EKPAIOGJEPO);
 		}
 
-		::UnityEngine::Vector3 Method_1_4AB9012B5D01108B()
+		::Cysharp::Threading::Tasks::UniTaskVoid CFHBPGGKCFN(::MoleMole::Cameras::OverShoulderCameraConfig* DFMKILICPFB, ::GJDFOIIBBPN AAOCANGHBDG, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* EKPAIOGJEPO)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_4AB9012B5D01108B_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTaskVoid(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::GJDFOIIBBPN, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CFHBPGGKCFN_OFFSET))(this, DFMKILICPFB, AAOCANGHBDG, EKPAIOGJEPO);
 		}
 
-		::System::Void Method_1_047914517574764A(::System::Boolean a1)
+		::MoleMole::Cameras::OverShoulderCameraConfig* MCAPOBKKBLG()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_047914517574764A_OFFSET))(this, a1);
+			return ((::MoleMole::Cameras::OverShoulderCameraConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_MCAPOBKKBLG_OFFSET))(this);
 		}
 
-		::System::ValueTuple_2<::System::Single, ::System::Single> Method_1_782C2E4E446641D7(::UnityEngine::Vector3 a1)
+		::System::Single DKCDMPBOLMJ()
 		{
-			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_782C2E4E446641D7_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DKCDMPBOLMJ_OFFSET))(this);
 		}
 
-		::System::Single Method_1_A5E8F32B3838589E(::MoleMole::Cameras::OverShoulderCameraConfig* a1, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* a2, ::MoleMole::Cameras::CameraTrackBlending* a3)
+		static ::MoleMole::Cameras::ScopedOverShoulderCamera* COKNIICCODC(::MoleMole::Cameras::OverShoulderCameraConfig* DFMKILICPFB, ::GJDFOIIBBPN& AAOCANGHBDG, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* EKPAIOGJEPO)
 		{
-			return ((::System::Single(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*, ::MoleMole::Cameras::CameraTrackBlending*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_A5E8F32B3838589E_OFFSET))(this, a1, a2, a3);
+			return ((::MoleMole::Cameras::ScopedOverShoulderCamera*(*)(::MoleMole::Cameras::OverShoulderCameraConfig*, ::GJDFOIIBBPN&, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_COKNIICCODC_OFFSET))(DFMKILICPFB, AAOCANGHBDG, EKPAIOGJEPO);
 		}
 
-		::System::Single Method_1_0781F88D06095A03(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		::System::Void KABCOEEHDED(::System::Boolean NGJMKJNOGJN)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_0781F88D06095A03_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_KABCOEEHDED_OFFSET))(this, NGJMKJNOGJN);
 		}
 
-		::PipelineCamera::WorldBasicCameraData Method_1_1B5794BDF8196D6D(::System::Single a1)
+		::UnityEngine::Vector3 DNJONIOAPEB()
 		{
-			return ((::PipelineCamera::WorldBasicCameraData(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1B5794BDF8196D6D_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DNJONIOAPEB_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_391A84BCD9F51317()
+		::System::Boolean GJBHJGINONO()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_GJBHJGINONO_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_1D4018D4200358D0_1()
+		::System::Single AGMANPGHJMI()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1D4018D4200358D0_1_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_AGMANPGHJMI_OFFSET))(this);
 		}
 
-		::PipelineCamera::ScopedDelegateHandle Method_1_3CC38AF70CC6E8C9(::MoleMole::Cameras::OverShoulderCameraConfig* a1, ::Struct_2_52A902145F5BE513& a2, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* a3)
+		::System::Boolean JENPOKBKPPM()
 		{
-			return ((::PipelineCamera::ScopedDelegateHandle(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::Struct_2_52A902145F5BE513&, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_3CC38AF70CC6E8C9_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_JENPOKBKPPM_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_1_4AB9012B5D01108B_1()
+		::System::Void OMHJFMDGNEO(::System::Single FNIOPKPHDEH)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_4AB9012B5D01108B_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_OMHJFMDGNEO_OFFSET))(this, FNIOPKPHDEH);
 		}
 
-		::System::Single Method_1_E7BC66F94B7A6CBF()
+		::System::ValueTuple_2<::System::Single, ::System::Single> KGMELLKGHED(::UnityEngine::Vector3 HODAIDNDKHD)
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_E7BC66F94B7A6CBF_OFFSET))(this);
+			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_KGMELLKGHED_OFFSET))(this, HODAIDNDKHD);
 		}
 
-		::System::String* Method_1_1A6927D0798C1CDA_1(::MoleMole::Cameras::OverShoulderCameraConfig* a1, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* a2, ::MoleMole::Cameras::CameraTrackBlending* a3)
+		::PipelineCamera::WorldBasicCameraData GIAOBHOJCDP(::PipelineCamera::CameraVariableFetchContext_1<::PipelineCamera::WorldBasicCameraData> ILNDOANENID)
 		{
-			return ((::System::String*(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*, ::MoleMole::Cameras::CameraTrackBlending*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1A6927D0798C1CDA_1_OFFSET))(this, a1, a2, a3);
+			return ((::PipelineCamera::WorldBasicCameraData(*)(::PVOID, ::PipelineCamera::CameraVariableFetchContext_1<::PipelineCamera::WorldBasicCameraData>))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_GIAOBHOJCDP_OFFSET))(this, ILNDOANENID);
 		}
 
-		::MoleMole::Cameras::OverShoulderCameraConfig* Method_1_31933D7A1B9AEFE3()
+		::PipelineCamera::WorldBasicCameraData PODJBKEIJIJ(::System::Single PMNLNNGEIFM)
 		{
-			return ((::MoleMole::Cameras::OverShoulderCameraConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_31933D7A1B9AEFE3_OFFSET))(this);
+			return ((::PipelineCamera::WorldBasicCameraData(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_PODJBKEIJIJ_OFFSET))(this, PMNLNNGEIFM);
 		}
 
-		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> Method_1_E5940FD4C3F5FA89(::System::Single a1, ::System::Single a2)
+		::System::Void JLFNAHONPGB(::MoleMole::Cameras::OverShoulderCameraConfig* DFMKILICPFB, ::GJDFOIIBBPN& AAOCANGHBDG, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* EKPAIOGJEPO, ::PipelineCamera::CameraCommandSpawnSubModules*& INBNCFGMKCL, ::PipelineCamera::CameraCommandUnSpawnSubModules*& MJJIOHKLAKK)
 		{
-			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_E5940FD4C3F5FA89_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::GJDFOIIBBPN&, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*, ::PipelineCamera::CameraCommandSpawnSubModules*&, ::PipelineCamera::CameraCommandUnSpawnSubModules*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_JLFNAHONPGB_OFFSET))(this, DFMKILICPFB, AAOCANGHBDG, EKPAIOGJEPO, INBNCFGMKCL, MJJIOHKLAKK);
 		}
 
-		::System::Single Method_1_FF7B2911BBACA4A9()
+		::System::Boolean IDMCPALFOBI()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_FF7B2911BBACA4A9_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_IDMCPALFOBI_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTaskVoid Method_1_C946F64728403EED(::MoleMole::Cameras::OverShoulderCameraConfig* a1, ::Struct_2_52A902145F5BE513 a2, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* a3)
+		::System::Void NANIGDCDLCI(::UnityEngine::Vector3 CKPGOKHECCH)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTaskVoid(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::Struct_2_52A902145F5BE513, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_C946F64728403EED_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_NANIGDCDLCI_OFFSET))(this, CKPGOKHECCH);
 		}
 
-		::PipelineCamera::WorldBasicCameraData Method_1_AFF53793124C3328(::PipelineCamera::CameraVariableFetchContext_1<::PipelineCamera::WorldBasicCameraData> a1)
+		::System::Void BHPACPHOIEI(::System::Boolean DCDDHCKNDNF)
 		{
-			return ((::PipelineCamera::WorldBasicCameraData(*)(::PVOID, ::PipelineCamera::CameraVariableFetchContext_1<::PipelineCamera::WorldBasicCameraData>))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_AFF53793124C3328_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_BHPACPHOIEI_OFFSET))(this, DCDDHCKNDNF);
 		}
 
-		::System::Single Method_1_8417CDEB7B154E29_1()
+		::System::Void IANFKEENEMM(::UnityEngine::Quaternion BFBELMDIAHI)
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_8417CDEB7B154E29_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_IANFKEENEMM_OFFSET))(this, BFBELMDIAHI);
 		}
 
-		::System::String* Method_1_1A0585D5DEE6FF31_1()
+		::System::Single DCGHCHJDGHL_1(::MoleMole::Cameras::OverShoulderCameraConfig* DFMKILICPFB, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* EKPAIOGJEPO, ::MoleMole::Cameras::CameraTrackBlending* LCGIBGFDOFO)
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1A0585D5DEE6FF31_1_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*, ::MoleMole::Cameras::CameraTrackBlending*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_DCGHCHJDGHL_1_OFFSET))(this, DFMKILICPFB, EKPAIOGJEPO, LCGIBGFDOFO);
 		}
 
-		::System::Void Method_1_3D5054820AEEE699(::System::Boolean a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
+		::System::Void EBJMJDJFGFN(::MoleMole::Cameras::OverShoulderCameraConfig*& DFMKILICPFB, ::GJDFOIIBBPN& AAOCANGHBDG, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*& EKPAIOGJEPO)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_3D5054820AEEE699_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*&, ::GJDFOIIBBPN&, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_EBJMJDJFGFN_OFFSET))(this, DFMKILICPFB, AAOCANGHBDG, EKPAIOGJEPO);
 		}
 
-		::System::Boolean Method_1_1D4018D4200358D0_2()
+		::System::Void NJENCPFFOLN(::System::Boolean LNGOJNPBNJL, ::UnityEngine::Vector3 MGLDGBPKBDK, ::System::Single CPMEKIKJEFD)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1D4018D4200358D0_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_NJENCPFFOLN_OFFSET))(this, LNGOJNPBNJL, MGLDGBPKBDK, CPMEKIKJEFD);
 		}
 
-		::System::Single Method_1_A5E8F32B3838589E_1(::MoleMole::Cameras::OverShoulderCameraConfig* a1, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* a2, ::MoleMole::Cameras::CameraTrackBlending* a3)
+		::UnityEngine::Vector3 BIHAHOPMLOK()
 		{
-			return ((::System::Single(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*, ::MoleMole::Cameras::CameraTrackBlending*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_A5E8F32B3838589E_1_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_BIHAHOPMLOK_OFFSET))(this);
 		}
 
-		::PipelineCamera::ICameraSubModuleBuilder_1<::PipelineCamera::WorldBasicCameraData>* Method_1_C0B52E1F228C38E1(::MoleMole::Cameras::OverShoulderCameraConfig* a1, ::Struct_2_52A902145F5BE513& a2)
+		::PipelineCamera::ICameraSubModuleBuilder_1<::PipelineCamera::WorldBasicCameraData>* CDIFHCKCOAF(::MoleMole::Cameras::OverShoulderCameraConfig* EJJNGFCGNAK, ::GJDFOIIBBPN& PLDOCICBAHO)
 		{
-			return ((::PipelineCamera::ICameraSubModuleBuilder_1<::PipelineCamera::WorldBasicCameraData>*(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::Struct_2_52A902145F5BE513&))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_C0B52E1F228C38E1_OFFSET))(this, a1, a2);
+			return ((::PipelineCamera::ICameraSubModuleBuilder_1<::PipelineCamera::WorldBasicCameraData>*(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::GJDFOIIBBPN&))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CDIFHCKCOAF_OFFSET))(this, EJJNGFCGNAK, PLDOCICBAHO);
 		}
 
-		::System::Void Method_1_0E1BDEE095A16B6B(::MoleMole::Cameras::OverShoulderCameraConfig*& a1, ::Struct_2_52A902145F5BE513& a2, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*& a3)
+		::System::Void PDLKOHHOKEH(::System::Single PMNLNNGEIFM)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*&, ::Struct_2_52A902145F5BE513&, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_0E1BDEE095A16B6B_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_PDLKOHHOKEH_OFFSET))(this, PMNLNNGEIFM);
 		}
 
-		::System::Boolean Method_1_4D9AF0772C5D0480(::UnityEngine::Quaternion& a1)
+		::System::String* CFMOAEGAFOI_1(::MoleMole::Cameras::OverShoulderCameraConfig* DFMKILICPFB, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* EKPAIOGJEPO, ::MoleMole::Cameras::CameraTrackBlending* LCGIBGFDOFO)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_4D9AF0772C5D0480_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*, ::MoleMole::Cameras::CameraTrackBlending*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_CFMOAEGAFOI_1_OFFSET))(this, DFMKILICPFB, EKPAIOGJEPO, LCGIBGFDOFO);
 		}
 
-		::System::String* Method_1_35EA095E1AFDD9C8()
+		::System::Single BIIPHEJKMGF_1(::MoleMole::Cameras::OverShoulderCameraConfig* DFMKILICPFB, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* EKPAIOGJEPO, ::MoleMole::Cameras::CameraTrackBlending* LCGIBGFDOFO)
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_35EA095E1AFDD9C8_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*, ::MoleMole::Cameras::CameraTrackBlending*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_BIIPHEJKMGF_1_OFFSET))(this, DFMKILICPFB, EKPAIOGJEPO, LCGIBGFDOFO);
 		}
 
-		::PipelineCamera::ICameraSubModuleBuilder_1<::PipelineCamera::WorldBasicCameraData>* Method_1_C0FE531EFFDBAC16(::MoleMole::Cameras::OverShoulderCameraConfig* a1, ::Struct_2_52A902145F5BE513& a2)
+		::System::String* KOOLECKPLID(::MoleMole::Cameras::OverShoulderCameraConfig* DFMKILICPFB, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* EKPAIOGJEPO, ::MoleMole::Cameras::CameraTrackBlending* LCGIBGFDOFO)
 		{
-			return ((::PipelineCamera::ICameraSubModuleBuilder_1<::PipelineCamera::WorldBasicCameraData>*(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::Struct_2_52A902145F5BE513&))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_C0FE531EFFDBAC16_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*, ::MoleMole::Cameras::CameraTrackBlending*))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_KOOLECKPLID_OFFSET))(this, DFMKILICPFB, EKPAIOGJEPO, LCGIBGFDOFO);
 		}
 
-		::System::Void Method_1_8E7482C252877E8A(::System::Single a1)
+		::System::String* KOOLECKPLID_1()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_8E7482C252877E8A_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_KOOLECKPLID_1_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_1D4018D4200358D0_3()
+		::System::Single NBFODDEFGJA(::System::Single ELHMOANKHFM, ::System::Single GDBANLBHNJK, ::System::Single DNFNKBNBJHM)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_1D4018D4200358D0_3_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_NBFODDEFGJA_OFFSET))(this, ELHMOANKHFM, GDBANLBHNJK, DNFNKBNBJHM);
 		}
 
-		::System::Single Method_1_8B5519E0E1747D4E(::System::Single a1)
+		::System::Boolean PEOKGFJCHLP()
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_8B5519E0E1747D4E_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_PEOKGFJCHLP_OFFSET))(this);
 		}
 
-		::System::Void Method_1_7B46F7DB18ADE361(::MoleMole::Cameras::OverShoulderCameraConfig* a1, ::Struct_2_52A902145F5BE513& a2, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig* a3, ::PipelineCamera::CameraCommandSpawnSubModules*& a4, ::PipelineCamera::CameraCommandUnSpawnSubModules*& a5)
+		::System::Boolean GPOJJKMMALM(::UnityEngine::Quaternion& GJNLCLDFFIN)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Cameras::OverShoulderCameraConfig*, ::Struct_2_52A902145F5BE513&, ::MoleMole::Cameras::OverrideOverShoulderCameraConfig*, ::PipelineCamera::CameraCommandSpawnSubModules*&, ::PipelineCamera::CameraCommandUnSpawnSubModules*&))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_METHOD_1_7B46F7DB18ADE361_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_GPOJJKMMALM_OFFSET))(this, GJNLCLDFFIN);
+		}
+
+		::System::Boolean LBIBFIIECKJ()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CAMERAS_SCOPEDOVERSHOULDERCAMERA_LBIBFIIECKJ_OFFSET))(this);
 		}
 	};
 }

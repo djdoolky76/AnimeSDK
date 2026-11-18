@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace SQLite { class SQLiteConnectionWithLock; }
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass86_0_1_TypeDefinitionIndex = 39137;
+	inline static constexpr unsigned int SQLiteAsyncConnection___c__DisplayClass86_0_1_TypeDefinitionIndex = 37137;
 
 	template <typename T>
 	class SQLiteAsyncConnection___c__DisplayClass86_0_1 : public ::System::Object

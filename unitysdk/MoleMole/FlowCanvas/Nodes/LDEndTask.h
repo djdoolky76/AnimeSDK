@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/TaskCompletionSourceNodeHandle.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19DAE150)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK_START_OFFSET UNITYSDK_OFFSET(0x19DAE240)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x19DAE3A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x19DAE3E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12B34530)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK_START_OFFSET UNITYSDK_OFFSET(0x12B34620)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x12B34780)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENDTASK__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x12B347C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEndTask_TypeDefinitionIndex = 59406;
+	inline static constexpr unsigned int LDEndTask_TypeDefinitionIndex = 50213;
 
 	class LDEndTask : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _output; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::TaskCompletionSourceNodeHandle>* taskInput; // 0xB0
+		::FlowCanvas::ValueInput_1<::MoleMole::TaskCompletionSourceNodeHandle>* taskInput; // 0xA8
+		::FlowCanvas::FlowOutput* _output; // 0xB0
 
 		::System::Void _ctor()
 		{

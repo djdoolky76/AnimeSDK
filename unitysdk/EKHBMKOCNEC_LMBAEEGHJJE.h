@@ -1,0 +1,186 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIBMJLOJLKD.h"
+
+class FGCOIBFFCHB;
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+
+#define EKHBMKOCNEC_LMBAEEGHJJE_ABNPAKFAIKL_OFFSET UNITYSDK_OFFSET(0x11A98AC0)
+#define EKHBMKOCNEC_LMBAEEGHJJE_BBOJOOOBHCO_OFFSET UNITYSDK_OFFSET(0x11A98C70)
+#define EKHBMKOCNEC_LMBAEEGHJJE_BINHAEMDNDH_OFFSET UNITYSDK_OFFSET(0x11A98C20)
+#define EKHBMKOCNEC_LMBAEEGHJJE_DJJCKFNNDJG_OFFSET UNITYSDK_OFFSET(0x11A98C50)
+#define EKHBMKOCNEC_LMBAEEGHJJE_ECEMCFNEGIL_OFFSET UNITYSDK_OFFSET(0x11A98C40)
+#define EKHBMKOCNEC_LMBAEEGHJJE_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x11A98AE0)
+#define EKHBMKOCNEC_LMBAEEGHJJE_EPEIBCNOGEM_OFFSET UNITYSDK_OFFSET(0x11A98AB0)
+#define EKHBMKOCNEC_LMBAEEGHJJE_GGJBODIHKKB_OFFSET UNITYSDK_OFFSET(0x11A98C90)
+#define EKHBMKOCNEC_LMBAEEGHJJE_HAPDLPIEPIL_OFFSET UNITYSDK_OFFSET(0x11A98BC0)
+#define EKHBMKOCNEC_LMBAEEGHJJE_HLBBFJEHDLM_OFFSET UNITYSDK_OFFSET(0x11A98C60)
+#define EKHBMKOCNEC_LMBAEEGHJJE_HLFICKBJFKM_OFFSET UNITYSDK_OFFSET(0x11A98C10)
+#define EKHBMKOCNEC_LMBAEEGHJJE_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x11A989E0)
+#define EKHBMKOCNEC_LMBAEEGHJJE_LACKMCCHMMP_OFFSET UNITYSDK_OFFSET(0x11A98B90)
+#define EKHBMKOCNEC_LMBAEEGHJJE_LGEJMKPAJIH_OFFSET UNITYSDK_OFFSET(0x11A98BB0)
+#define EKHBMKOCNEC_LMBAEEGHJJE_LHBFDHEJEKA_OFFSET UNITYSDK_OFFSET(0x11A98BF0)
+#define EKHBMKOCNEC_LMBAEEGHJJE_LPCLHGIKKJN_OFFSET UNITYSDK_OFFSET(0x11A98BE0)
+#define EKHBMKOCNEC_LMBAEEGHJJE_MLHHONKFJBF_OFFSET UNITYSDK_OFFSET(0x11A98AD0)
+#define EKHBMKOCNEC_LMBAEEGHJJE_NDAEIPNFBLD_OFFSET UNITYSDK_OFFSET(0x11A98C80)
+#define EKHBMKOCNEC_LMBAEEGHJJE_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x11A98780)
+#define EKHBMKOCNEC_LMBAEEGHJJE_OLLPMJPAPKK_OFFSET UNITYSDK_OFFSET(0x11A98C00)
+#define EKHBMKOCNEC_LMBAEEGHJJE_PBFDFPBOMBG_OFFSET UNITYSDK_OFFSET(0x11A98B80)
+#define EKHBMKOCNEC_LMBAEEGHJJE_PJAHFGCNFFK_OFFSET UNITYSDK_OFFSET(0x11A98CA0)
+#define EKHBMKOCNEC_LMBAEEGHJJE_PLDDKHLLKIO_OFFSET UNITYSDK_OFFSET(0x11A98C30)
+#define EKHBMKOCNEC_LMBAEEGHJJE_PMAAPKCGBPO_OFFSET UNITYSDK_OFFSET(0x11A98BA0)
+#define EKHBMKOCNEC_LMBAEEGHJJE_PPGBHNIJOIB_OFFSET UNITYSDK_OFFSET(0x11A98BD0)
+#define EKHBMKOCNEC_LMBAEEGHJJE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A98AA0)
+
+inline static constexpr unsigned int EKHBMKOCNEC_LMBAEEGHJJE_TypeDefinitionIndex = 57755;
+
+class EKHBMKOCNEC_LMBAEEGHJJE : public ::GIBMJLOJLKD
+{
+public:
+	::UnityEngine::GameObject* _LOCCBIBAAPA_k__BackingField; // 0x18
+	::UnityEngine::GameObject* _JANEPAFIHOB_k__BackingField; // 0x20
+	::UnityEngine::GameObject* _MPBLPJALFCB_k__BackingField; // 0x28
+	::FGCOIBFFCHB* _NDGOFLKMNLC_k__BackingField; // 0x30
+	::FGCOIBFFCHB* _GKMAKNFFLOI_k__BackingField; // 0x38
+	::UnityEngine::RectTransform* _ICOIFNOBEMO_k__BackingField; // 0x40
+	::UnityEngine::GameObject* _KMMCKCPKONJ_k__BackingField; // 0x48
+	::UnityEngine::RectTransform* _AGAMHMGFJIG_k__BackingField; // 0x50
+	::LGINJIKKBJA* _EBJAHAEDOLG_k__BackingField; // 0x58
+	::UnityEngine::UI::Extension::UILocalizationText* _LIBOBCDFCFA_k__BackingField; // 0x60
+	::UnityEngine::UI::Extension::UILocalizationText* _HIKDJBNKFBK_k__BackingField; // 0x68
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::UnityEngine::GameObject* EPEIBCNOGEM()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_EPEIBCNOGEM_OFFSET))(this);
+	}
+
+	::System::Void ABNPAKFAIKL(::UnityEngine::UI::Extension::UILocalizationText* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_ABNPAKFAIKL_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::FGCOIBFFCHB* MLHHONKFJBF()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_MLHHONKFJBF_OFFSET))(this);
+	}
+
+	::System::Void ECNOGHHOPPF(::HNLACBJDCGI* MIALFKCCCPI, ::MoleMole::UIControlCollection* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+
+	::UnityEngine::UI::Extension::UILocalizationText* PBFDFPBOMBG()
+	{
+		return ((::UnityEngine::UI::Extension::UILocalizationText*(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_PBFDFPBOMBG_OFFSET))(this);
+	}
+
+	::System::Void LACKMCCHMMP(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_LACKMCCHMMP_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LGINJIKKBJA* PMAAPKCGBPO()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_PMAAPKCGBPO_OFFSET))(this);
+	}
+
+	::System::Void LGEJMKPAJIH(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_LGEJMKPAJIH_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void HAPDLPIEPIL(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_HAPDLPIEPIL_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::GameObject* PPGBHNIJOIB()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_PPGBHNIJOIB_OFFSET))(this);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::System::Void LPCLHGIKKJN(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_LPCLHGIKKJN_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::FGCOIBFFCHB* LHBFDHEJEKA()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_LHBFDHEJEKA_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* OLLPMJPAPKK()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_OLLPMJPAPKK_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* HLFICKBJFKM()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_HLFICKBJFKM_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* BINHAEMDNDH()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_BINHAEMDNDH_OFFSET))(this);
+	}
+
+	::UnityEngine::UI::Extension::UILocalizationText* PLDDKHLLKIO()
+	{
+		return ((::UnityEngine::UI::Extension::UILocalizationText*(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_PLDDKHLLKIO_OFFSET))(this);
+	}
+
+	::System::Void ECEMCFNEGIL(::UnityEngine::UI::Extension::UILocalizationText* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_ECEMCFNEGIL_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void DJJCKFNNDJG(::UnityEngine::RectTransform* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_DJJCKFNNDJG_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void HLBBFJEHDLM(::UnityEngine::RectTransform* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_HLBBFJEHDLM_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void BBOJOOOBHCO(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_BBOJOOOBHCO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::RectTransform* NDAEIPNFBLD()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_NDAEIPNFBLD_OFFSET))(this);
+	}
+
+	::System::Void GGJBODIHKKB(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_GGJBODIHKKB_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void PJAHFGCNFFK(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + EKHBMKOCNEC_LMBAEEGHJJE_PJAHFGCNFFK_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

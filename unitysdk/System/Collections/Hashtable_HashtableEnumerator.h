@@ -1,33 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/DictionaryEntry.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Collections/DictionaryEntry.h"
 
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_CLONE_OFFSET UNITYSDK_OFFSET(0x1D67BC70)
-#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D67BF10)
-#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_GET_ENTRY_OFFSET UNITYSDK_OFFSET(0x1D67BE90)
-#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1D67BD10)
-#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D67BFC0)
-#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D67BD80)
-#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D67C030)
-#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D67BC30)
+#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_CLONE_OFFSET UNITYSDK_OFFSET(0x1DB49000)
+#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1DB492A0)
+#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_GET_ENTRY_OFFSET UNITYSDK_OFFSET(0x1DB49220)
+#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1DB490A0)
+#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1DB49340)
+#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1DB49110)
+#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1DB493B0)
+#define SYSTEM_COLLECTIONS_HASHTABLE_HASHTABLEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB48FC0)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int Hashtable_HashtableEnumerator_TypeDefinitionIndex = 1463;
+	inline static constexpr unsigned int Hashtable_HashtableEnumerator_TypeDefinitionIndex = 1462;
 
 	class Hashtable_HashtableEnumerator : public ::System::Object
 	{
 	public:
-		::System::Object* currentValue; // 0x10
-		::System::Collections::Hashtable* hashtable; // 0x18
-		::System::Object* currentKey; // 0x20
-		::System::Int32 bucket; // 0x28
-		::System::Int32 version; // 0x2C
-		::System::Int32 getObjectRetType; // 0x30
-		::System::Boolean current; // 0x34
+		::System::Object* currentKey; // 0x10
+		::System::Object* currentValue; // 0x18
+		::System::Collections::Hashtable* hashtable; // 0x20
+		::System::Int32 getObjectRetType; // 0x28
+		::System::Boolean current; // 0x2C
+		::System::Byte _padding0[0x3];
+		::System::Int32 bucket; // 0x30
+		::System::Int32 version; // 0x34
 
 		::System::Void _ctor(::System::Collections::Hashtable* hashtable, ::System::Int32 getObjRetType)
 		{

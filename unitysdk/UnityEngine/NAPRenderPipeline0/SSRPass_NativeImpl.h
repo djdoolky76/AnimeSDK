@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class SSRPassNativeState; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F34A360)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1F34A390)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F34A2E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F770BC0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1F770BF0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SSRPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F770B40)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SSRPass_NativeImpl_TypeDefinitionIndex = 5770;
+	inline static constexpr unsigned int SSRPass_NativeImpl_TypeDefinitionIndex = 5775;
 
 	class SSRPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

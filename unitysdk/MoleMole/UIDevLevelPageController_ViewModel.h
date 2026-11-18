@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F5ACAAB9AA1EB49.h"
+#include "unitysdk/JJEJBPGJPJN.h"
 
-class Class_0_16E4307DCC419505_135;
+class KOGPMKOGCLC;
 
-#define MOLEMOLE_UIDEVLEVELPAGECONTROLLER_VIEWMODEL_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x19716060)
-#define MOLEMOLE_UIDEVLEVELPAGECONTROLLER_VIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19716050)
+#define MOLEMOLE_UIDEVLEVELPAGECONTROLLER_VIEWMODEL_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x19FB7210)
+#define MOLEMOLE_UIDEVLEVELPAGECONTROLLER_VIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB7200)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDevLevelPageController_ViewModel_TypeDefinitionIndex = 63871;
+	inline static constexpr unsigned int UIDevLevelPageController_ViewModel_TypeDefinitionIndex = 72652;
 
-	class UIDevLevelPageController_ViewModel : public ::Class_1_5F5ACAAB9AA1EB49
+	class UIDevLevelPageController_ViewModel : public ::JJEJBPGJPJN
 	{
 	public:
-		::System::Void _ctor(::Class_0_16E4307DCC419505_135* autoDisposePool)
+		::System::Void _ctor(::KOGPMKOGCLC* autoDisposePool)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_135*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDEVLEVELPAGECONTROLLER_VIEWMODEL__CTOR_OFFSET))(this, autoDisposePool);
+			return ((::System::Void(*)(::PVOID, ::KOGPMKOGCLC*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIDEVLEVELPAGECONTROLLER_VIEWMODEL__CTOR_OFFSET))(this, autoDisposePool);
 		}
 
 		::System::Void OnCreateProperty()

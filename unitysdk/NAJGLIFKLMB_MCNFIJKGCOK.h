@@ -1,0 +1,138 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIBMJLOJLKD.h"
+
+class GCIMMDDIFBJ;
+class HNLACBJDCGI;
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine { class GameObject; }
+
+#define NAJGLIFKLMB_MCNFIJKGCOK_ABPCHJMNBCI_OFFSET UNITYSDK_OFFSET(0x120E4950)
+#define NAJGLIFKLMB_MCNFIJKGCOK_ACCKPLNJMNO_OFFSET UNITYSDK_OFFSET(0x120E4960)
+#define NAJGLIFKLMB_MCNFIJKGCOK_ADCPKCHOFMN_OFFSET UNITYSDK_OFFSET(0x120E4970)
+#define NAJGLIFKLMB_MCNFIJKGCOK_BCCCGBMIIBG_OFFSET UNITYSDK_OFFSET(0x120E4920)
+#define NAJGLIFKLMB_MCNFIJKGCOK_BDCBEPLIFOE_OFFSET UNITYSDK_OFFSET(0x120E4A50)
+#define NAJGLIFKLMB_MCNFIJKGCOK_DJIPOGINAFF_OFFSET UNITYSDK_OFFSET(0x120E4A20)
+#define NAJGLIFKLMB_MCNFIJKGCOK_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x120E4980)
+#define NAJGLIFKLMB_MCNFIJKGCOK_EEKNAADGKKL_OFFSET UNITYSDK_OFFSET(0x120E4900)
+#define NAJGLIFKLMB_MCNFIJKGCOK_EHJFIHPPMIK_OFFSET UNITYSDK_OFFSET(0x120E4930)
+#define NAJGLIFKLMB_MCNFIJKGCOK_FGBGJNKEGBH_OFFSET UNITYSDK_OFFSET(0x120E4940)
+#define NAJGLIFKLMB_MCNFIJKGCOK_GKJGBBLCNEI_OFFSET UNITYSDK_OFFSET(0x120E48E0)
+#define NAJGLIFKLMB_MCNFIJKGCOK_GKMHPOFELFA_OFFSET UNITYSDK_OFFSET(0x120E48F0)
+#define NAJGLIFKLMB_MCNFIJKGCOK_KKKNNCDGJLK_OFFSET UNITYSDK_OFFSET(0x120E4A40)
+#define NAJGLIFKLMB_MCNFIJKGCOK_MOCIPMLLBCO_OFFSET UNITYSDK_OFFSET(0x120E48D0)
+#define NAJGLIFKLMB_MCNFIJKGCOK_NCFNKMBELPA_OFFSET UNITYSDK_OFFSET(0x120E4A30)
+#define NAJGLIFKLMB_MCNFIJKGCOK_NNDPOIHMLON_OFFSET UNITYSDK_OFFSET(0x120E4910)
+#define NAJGLIFKLMB_MCNFIJKGCOK_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x120E4740)
+#define NAJGLIFKLMB_MCNFIJKGCOK_OPNANEPHCJI_OFFSET UNITYSDK_OFFSET(0x120E4A60)
+#define NAJGLIFKLMB_MCNFIJKGCOK__CTOR_OFFSET UNITYSDK_OFFSET(0x120E48C0)
+
+inline static constexpr unsigned int NAJGLIFKLMB_MCNFIJKGCOK_TypeDefinitionIndex = 83095;
+
+class NAJGLIFKLMB_MCNFIJKGCOK : public ::GIBMJLOJLKD
+{
+public:
+	::UnityEngine::GameObject* _EGNAJAFPOPD_k__BackingField; // 0x18
+	::UnityEngine::GameObject* _OFHFDBHCIMC_k__BackingField; // 0x20
+	::UnityEngine::GameObject* _GDMPIJAIDMB_k__BackingField; // 0x28
+	::UnityEngine::GameObject* _ODNGJFHBKBF_k__BackingField; // 0x30
+	::UnityEngine::GameObject* _FPCBLAGMGHH_k__BackingField; // 0x38
+	::UnityEngine::GameObject* _GPLDEMGDMJI_k__BackingField; // 0x40
+	::UnityEngine::GameObject* _KIMDIKCPKAM_k__BackingField; // 0x48
+	::GCIMMDDIFBJ* _OINDDCMKAEP_k__BackingField; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::System::Void MOCIPMLLBCO(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_MOCIPMLLBCO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::GCIMMDDIFBJ* GKJGBBLCNEI()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_GKJGBBLCNEI_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* GKMHPOFELFA()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_GKMHPOFELFA_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* EEKNAADGKKL()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_EEKNAADGKKL_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* NNDPOIHMLON()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_NNDPOIHMLON_OFFSET))(this);
+	}
+
+	::System::Void BCCCGBMIIBG(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_BCCCGBMIIBG_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void EHJFIHPPMIK(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_EHJFIHPPMIK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void FGBGJNKEGBH(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_FGBGJNKEGBH_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::GameObject* ABPCHJMNBCI()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_ABPCHJMNBCI_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* ACCKPLNJMNO()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_ACCKPLNJMNO_OFFSET))(this);
+	}
+
+	::System::Void ADCPKCHOFMN(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_ADCPKCHOFMN_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void ECNOGHHOPPF(::HNLACBJDCGI* MIALFKCCCPI, ::MoleMole::UIControlCollection* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+
+	::UnityEngine::GameObject* DJIPOGINAFF()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_DJIPOGINAFF_OFFSET))(this);
+	}
+
+	::System::Void NCFNKMBELPA(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_NCFNKMBELPA_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void KKKNNCDGJLK(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_KKKNNCDGJLK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::GameObject* BDCBEPLIFOE()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_BDCBEPLIFOE_OFFSET))(this);
+	}
+
+	::System::Void OPNANEPHCJI(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + NAJGLIFKLMB_MCNFIJKGCOK_OPNANEPHCJI_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

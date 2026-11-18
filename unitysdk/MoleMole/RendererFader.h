@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_RENDERERFADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19986F10)
-#define MOLEMOLE_RENDERERFADER__CTOR_OFFSET UNITYSDK_OFFSET(0x19986F70)
+#define MOLEMOLE_RENDERERFADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14BC0790)
+#define MOLEMOLE_RENDERERFADER__CTOR_OFFSET UNITYSDK_OFFSET(0x14BC07F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RendererFader_TypeDefinitionIndex = 48607;
+	inline static constexpr unsigned int RendererFader_TypeDefinitionIndex = 43373;
 
 	class RendererFader : public ::System::Object
 	{

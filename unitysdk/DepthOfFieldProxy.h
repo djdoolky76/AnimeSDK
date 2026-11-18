@@ -4,13 +4,13 @@
 
 namespace UnityEngine::Rendering::Universal { class DepthOfField; }
 
-#define DEPTHOFFIELDPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x12F5AF00)
-#define DEPTHOFFIELDPROXY_COPYVALUEFROM_OFFSET UNITYSDK_OFFSET(0x12F5B2D0)
-#define DEPTHOFFIELDPROXY_SETVALUETO_OFFSET UNITYSDK_OFFSET(0x12F5B5B0)
-#define DEPTHOFFIELDPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x12F5B560)
-#define DEPTHOFFIELDPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x12F5BA70)
+#define DEPTHOFFIELDPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x13E69A00)
+#define DEPTHOFFIELDPROXY_COPYVALUEFROM_OFFSET UNITYSDK_OFFSET(0x13E69DD0)
+#define DEPTHOFFIELDPROXY_SETVALUETO_OFFSET UNITYSDK_OFFSET(0x13E6A0B0)
+#define DEPTHOFFIELDPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x13E6A060)
+#define DEPTHOFFIELDPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x13E6A570)
 
-inline static constexpr unsigned int DepthOfFieldProxy_TypeDefinitionIndex = 82367;
+inline static constexpr unsigned int DepthOfFieldProxy_TypeDefinitionIndex = 85260;
 
 class DepthOfFieldProxy : public ::UnityEngine::MonoBehaviour
 {
@@ -19,6 +19,7 @@ public:
 	::System::Single gaussianEnd; // 0x1C
 	::System::Single gaussianMaxRadius; // 0x20
 	::System::Boolean highQualitySampling; // 0x24
+	::System::Byte _padding0[0x3];
 	::System::Single focusDistance; // 0x28
 	::System::Single aperture; // 0x2C
 	::System::Single focalLength; // 0x30

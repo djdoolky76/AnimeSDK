@@ -3,20 +3,20 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EChallengeType_TypeDefinitionIndex = 18060;
+	inline static constexpr unsigned int EChallengeType_TypeDefinitionIndex = 12414;
 
 	enum class EChallengeType : ::System::Int16
 	{
-		BattleTime = 1,
-		AttackCount = 6,
-		Damage = 3,
 		Dodge = 2,
-		BeHitCount = 5,
-		ContinusKill = 8,
-		KillCount = 4,
-		QTECount = 7,
-		HurtHPPercent = 11,
 		LimitBattle = 10,
+		AttackCount = 6,
+		QTECount = 7,
+		BattleTime = 1,
+		KillCount = 4,
+		ContinusKill = 8,
 		BackAttackCount = 9,
+		BeHitCount = 5,
+		HurtHPPercent = 11,
+		Damage = 3,
 	};
 }

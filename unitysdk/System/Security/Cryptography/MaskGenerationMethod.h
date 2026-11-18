@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MASKGENERATIONMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3328B0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MASKGENERATIONMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A9DD0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int MaskGenerationMethod_TypeDefinitionIndex = 1074;
+	inline static constexpr unsigned int MaskGenerationMethod_TypeDefinitionIndex = 1073;
 
 	class MaskGenerationMethod : public ::System::Object
 	{

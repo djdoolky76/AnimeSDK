@@ -1,0 +1,170 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIBMJLOJLKD.h"
+
+class FGCOIBFFCHB;
+class GCIMMDDIFBJ;
+class HNLACBJDCGI;
+namespace MoleMole { class MonoGamepadModule; }
+namespace MoleMole { class UIControlCollection; }
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine::UI::Extension { class UILocalizationText; }
+template <typename T> class KNLFLMMHALL_1;
+
+#define FNMIKJJLFBB_APIKBPKGIHC_ADGIBPDKLIO_OFFSET UNITYSDK_OFFSET(0x10EC53D0)
+#define FNMIKJJLFBB_APIKBPKGIHC_BHGLBAALAPC_OFFSET UNITYSDK_OFFSET(0x10EC5380)
+#define FNMIKJJLFBB_APIKBPKGIHC_COJAMOKNCAK_OFFSET UNITYSDK_OFFSET(0x10EC53A0)
+#define FNMIKJJLFBB_APIKBPKGIHC_DCMACGGGIHK_OFFSET UNITYSDK_OFFSET(0x10EC5520)
+#define FNMIKJJLFBB_APIKBPKGIHC_DDOBEOJNECA_OFFSET UNITYSDK_OFFSET(0x10EC5390)
+#define FNMIKJJLFBB_APIKBPKGIHC_DKLECGGDKNA_OFFSET UNITYSDK_OFFSET(0x10EC53C0)
+#define FNMIKJJLFBB_APIKBPKGIHC_DNIKMFDLBAG_OFFSET UNITYSDK_OFFSET(0x10EC53F0)
+#define FNMIKJJLFBB_APIKBPKGIHC_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x10EC5460)
+#define FNMIKJJLFBB_APIKBPKGIHC_FHIDEFKEOKD_OFFSET UNITYSDK_OFFSET(0x10EC5500)
+#define FNMIKJJLFBB_APIKBPKGIHC_GIMABNPOKAM_OFFSET UNITYSDK_OFFSET(0x10EC5430)
+#define FNMIKJJLFBB_APIKBPKGIHC_GJKJFGKNLMD_OFFSET UNITYSDK_OFFSET(0x10EC53B0)
+#define FNMIKJJLFBB_APIKBPKGIHC_HGOLDAGFNLC_OFFSET UNITYSDK_OFFSET(0x10EC5530)
+#define FNMIKJJLFBB_APIKBPKGIHC_IJGJBCCJPGE_OFFSET UNITYSDK_OFFSET(0x10EC53E0)
+#define FNMIKJJLFBB_APIKBPKGIHC_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x10EC52D0)
+#define FNMIKJJLFBB_APIKBPKGIHC_KOGHOGPOOEH_OFFSET UNITYSDK_OFFSET(0x10EC5440)
+#define FNMIKJJLFBB_APIKBPKGIHC_LNLNHEMFAEC_OFFSET UNITYSDK_OFFSET(0x10EC5450)
+#define FNMIKJJLFBB_APIKBPKGIHC_MACGDCIGFGL_OFFSET UNITYSDK_OFFSET(0x10EC50E0)
+#define FNMIKJJLFBB_APIKBPKGIHC_MCNAOEPLALB_OFFSET UNITYSDK_OFFSET(0x10EC5510)
+#define FNMIKJJLFBB_APIKBPKGIHC_NLNMPBFKKEM_OFFSET UNITYSDK_OFFSET(0x10EC5400)
+#define FNMIKJJLFBB_APIKBPKGIHC_OIEIDPINOHE_OFFSET UNITYSDK_OFFSET(0x10EC5410)
+#define FNMIKJJLFBB_APIKBPKGIHC_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x10EC4E90)
+#define FNMIKJJLFBB_APIKBPKGIHC_PPAFGBILMME_OFFSET UNITYSDK_OFFSET(0x10EC5420)
+#define FNMIKJJLFBB_APIKBPKGIHC__CTOR_OFFSET UNITYSDK_OFFSET(0x10EC5370)
+
+inline static constexpr unsigned int FNMIKJJLFBB_APIKBPKGIHC_TypeDefinitionIndex = 75305;
+
+class FNMIKJJLFBB_APIKBPKGIHC : public ::GIBMJLOJLKD
+{
+public:
+	::GCIMMDDIFBJ* _JOBNOAHEMHD_k__BackingField; // 0x18
+	::MoleMole::MonoGamepadModule* _NFKDAKAJCNF_k__BackingField; // 0x20
+	::FGCOIBFFCHB* _EOCCMIBPGCJ_k__BackingField; // 0x28
+	::UnityEngine::RectTransform* _KGAJKJOLEFB_k__BackingField; // 0x30
+	::FGCOIBFFCHB* _HAGLGFGLKJN_k__BackingField; // 0x38
+	::GCIMMDDIFBJ* _NOLFHNFBJAF_k__BackingField; // 0x40
+	::System::Collections::Generic::List_1<::KNLFLMMHALL_1<::System::Object*>*>* _HAIFNEMHJAJ_k__BackingField; // 0x48
+	::UnityEngine::GameObject* _AFCICEEBPGO_k__BackingField; // 0x50
+	::UnityEngine::UI::Extension::UILocalizationText* _MEFGOFNPPMO_k__BackingField; // 0x58
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::System::Void BHGLBAALAPC(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_BHGLBAALAPC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Collections::Generic::List_1<::KNLFLMMHALL_1<::System::Object*>*>* DDOBEOJNECA()
+	{
+		return ((::System::Collections::Generic::List_1<::KNLFLMMHALL_1<::System::Object*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_DDOBEOJNECA_OFFSET))(this);
+	}
+
+	::System::Void COJAMOKNCAK(::UnityEngine::UI::Extension::UILocalizationText* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Extension::UILocalizationText*))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_COJAMOKNCAK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::MoleMole::MonoGamepadModule* GJKJFGKNLMD()
+	{
+		return ((::MoleMole::MonoGamepadModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_GJKJFGKNLMD_OFFSET))(this);
+	}
+
+	::GCIMMDDIFBJ* DKLECGGDKNA()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_DKLECGGDKNA_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* ADGIBPDKLIO()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_ADGIBPDKLIO_OFFSET))(this);
+	}
+
+	::FGCOIBFFCHB* IJGJBCCJPGE()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_IJGJBCCJPGE_OFFSET))(this);
+	}
+
+	::FGCOIBFFCHB* DNIKMFDLBAG()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_DNIKMFDLBAG_OFFSET))(this);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::System::Void NLNMPBFKKEM(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_NLNMPBFKKEM_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void OIEIDPINOHE(::System::Collections::Generic::List_1<::KNLFLMMHALL_1<::System::Object*>*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::KNLFLMMHALL_1<::System::Object*>*>*))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_OIEIDPINOHE_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::RectTransform* PPAFGBILMME()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_PPAFGBILMME_OFFSET))(this);
+	}
+
+	::System::Void GIMABNPOKAM(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_GIMABNPOKAM_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void KOGHOGPOOEH(::UnityEngine::RectTransform* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_KOGHOGPOOEH_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::UI::Extension::UILocalizationText* LNLNHEMFAEC()
+	{
+		return ((::UnityEngine::UI::Extension::UILocalizationText*(*)(::PVOID))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_LNLNHEMFAEC_OFFSET))(this);
+	}
+
+	::System::Void ECNOGHHOPPF(::HNLACBJDCGI* MIALFKCCCPI, ::MoleMole::UIControlCollection* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+
+	::System::Void FHIDEFKEOKD(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_FHIDEFKEOKD_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Collections::Generic::List_1<::KNLFLMMHALL_1<::System::Object*>*>* MACGDCIGFGL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* GCAOGFBGMMH)
+	{
+		return ((::System::Collections::Generic::List_1<::KNLFLMMHALL_1<::System::Object*>*>*(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_MACGDCIGFGL_OFFSET))(this, JMJGHFAOMNH, GCAOGFBGMMH);
+	}
+
+	::GCIMMDDIFBJ* MCNAOEPLALB()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_MCNAOEPLALB_OFFSET))(this);
+	}
+
+	::System::Void DCMACGGGIHK(::UnityEngine::GameObject* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_DCMACGGGIHK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void HGOLDAGFNLC(::MoleMole::MonoGamepadModule* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*))((::PBYTE)hIl2Cpp + FNMIKJJLFBB_APIKBPKGIHC_HGOLDAGFNLC_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

@@ -5,13 +5,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class NameValueHeaderValue; }
-namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONEXTENSIONS_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1E839FE0)
+#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONEXTENSIONS_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1EADF260)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int CollectionExtensions_TypeDefinitionIndex = 26700;
+	inline static constexpr unsigned int CollectionExtensions_TypeDefinitionIndex = 26068;
 
 	class CollectionExtensions : public ::System::Object
 	{

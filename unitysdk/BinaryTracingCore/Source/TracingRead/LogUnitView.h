@@ -8,18 +8,18 @@ namespace BinaryTracingCore::Source::TracingTools { class LogUnit; }
 namespace ReadTools::Core { class IMetaContainers; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BINARYTRACINGCORE_SOURCE_TRACINGREAD_LOGUNITVIEW_READ_OFFSET UNITYSDK_OFFSET(0x1F64E900)
-#define BINARYTRACINGCORE_SOURCE_TRACINGREAD_LOGUNITVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1F64F420)
+#define BINARYTRACINGCORE_SOURCE_TRACINGREAD_LOGUNITVIEW_READ_OFFSET UNITYSDK_OFFSET(0x1FA31110)
+#define BINARYTRACINGCORE_SOURCE_TRACINGREAD_LOGUNITVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA31C30)
 
 namespace BinaryTracingCore::Source::TracingRead
 {
-	inline static constexpr unsigned int LogUnitView_TypeDefinitionIndex = 34605;
+	inline static constexpr unsigned int LogUnitView_TypeDefinitionIndex = 34151;
 
 	class LogUnitView : public ::System::Object
 	{
 	public:
-		::BinaryTracingCore::Source::TracingTools::LogUnit* unit; // 0x10
-		::System::Collections::Generic::List_1<::BinaryTracingCore::Source::TracingRead::LogPropertyView*>* views; // 0x18
+		::System::Collections::Generic::List_1<::BinaryTracingCore::Source::TracingRead::LogPropertyView*>* views; // 0x10
+		::BinaryTracingCore::Source::TracingTools::LogUnit* unit; // 0x18
 		::BinaryTracingCore::Source::TracingTools::LogMeta* meta; // 0x20
 		::System::Boolean IsInComplete; // 0x28
 

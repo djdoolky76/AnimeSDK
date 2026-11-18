@@ -5,10 +5,10 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int Inline4List_1_TypeDefinitionIndex = 38307;
+	inline static constexpr unsigned int Inline4List_1_TypeDefinitionIndex = 36309;
 
 	template <typename T>
-	struct Inline4List_1
+	struct alignas(8) Inline4List_1
 	{
 		::System::ValueTuple_4<T, T, T, T> _inlineItems; // 0x0
 		::Il2CppArray<T>* _items; // 0x0

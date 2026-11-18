@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_6.h"
 
-class Class_3_B20F2CFBAA024FE3;
+class GOAJFEFIODL;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETUPUIACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x107D3570)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSETUPUIACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x107D36C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETUPUIACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x14307470)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSETUPUIACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x143075D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSetupUIAction_TypeDefinitionIndex = 49661;
+	inline static constexpr unsigned int LDSetupUIAction_TypeDefinitionIndex = 57303;
 
-	class LDSetupUIAction : public ::FlowCanvas::Nodes::CallableActionNode_6<::System::Collections::Generic::List_1<::System::String*>*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Boolean, ::System::Int32, ::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>
+	class LDSetupUIAction
 	{
 	public:
-		::Class_3_B20F2CFBAA024FE3* _cacheActionConfig; // 0x30
+		::GOAJFEFIODL* _cacheActionConfig; // 0x30
 
 		::System::Void _ctor()
 		{

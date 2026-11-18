@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D375C91CCE5D3999;
+class CJIEIHEDMME;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIACTIVITYCHAINV2WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11D9F450)
-#define MOLEMOLE_UIACTIVITYCHAINV2WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11D9F490)
-#define MOLEMOLE_UIACTIVITYCHAINV2WIDGETCONTROLLER___C__REFRESHSHOWTABLE_B__31_0_OFFSET UNITYSDK_OFFSET(0x11D9F4A0)
+#define MOLEMOLE_UIACTIVITYCHAINV2WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18995780)
+#define MOLEMOLE_UIACTIVITYCHAINV2WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x189957C0)
+#define MOLEMOLE_UIACTIVITYCHAINV2WIDGETCONTROLLER___C__REFRESHSHOWTABLE_B__31_0_OFFSET UNITYSDK_OFFSET(0x189957D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityChainV2WidgetController___c_TypeDefinitionIndex = 86407;
+	inline static constexpr unsigned int UIActivityChainV2WidgetController___c_TypeDefinitionIndex = 75660;
 
 	class UIActivityChainV2WidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_D375C91CCE5D3999*>** StaticGet___9__31_0()
+		static ::System::Comparison_1<::CJIEIHEDMME*>** StaticGet___9__31_0()
 		{
-			return (::System::Comparison_1<::Class_1_D375C91CCE5D3999*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityChainV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4FE80);
+			return (::System::Comparison_1<::CJIEIHEDMME*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityChainV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4EA10);
 		}
-		static ::MoleMole::UIActivityChainV2WidgetController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityChainV2WidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityChainV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4FE88);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIActivityChainV2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4EA18);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYCHAINV2WIDGETCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _RefreshShowTable_b__31_0(::Class_1_D375C91CCE5D3999* x, ::Class_1_D375C91CCE5D3999* y)
+		::System::Int32 _RefreshShowTable_b__31_0(::CJIEIHEDMME* x, ::CJIEIHEDMME* y)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_D375C91CCE5D3999*, ::Class_1_D375C91CCE5D3999*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYCHAINV2WIDGETCONTROLLER___C__REFRESHSHOWTABLE_B__31_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::CJIEIHEDMME*, ::CJIEIHEDMME*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYCHAINV2WIDGETCONTROLLER___C__REFRESHSHOWTABLE_B__31_0_OFFSET))(this, x, y);
 		}
 	};
 }

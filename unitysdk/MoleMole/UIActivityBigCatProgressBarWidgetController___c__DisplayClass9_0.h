@@ -5,12 +5,12 @@
 namespace MoleMole { class UIActivityBigCatProgressBarWidgetController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIACTIVITYBIGCATPROGRESSBARWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18937BF0)
-#define MOLEMOLE_UIACTIVITYBIGCATPROGRESSBARWIDGETCONTROLLER___C__DISPLAYCLASS9_0__GETREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x18937C00)
+#define MOLEMOLE_UIACTIVITYBIGCATPROGRESSBARWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17E936A0)
+#define MOLEMOLE_UIACTIVITYBIGCATPROGRESSBARWIDGETCONTROLLER___C__DISPLAYCLASS9_0__GETREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x17E936B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBigCatProgressBarWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 79400;
+	inline static constexpr unsigned int UIActivityBigCatProgressBarWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 62433;
 
 	class UIActivityBigCatProgressBarWidgetController___c__DisplayClass9_0 : public ::System::Object
 	{

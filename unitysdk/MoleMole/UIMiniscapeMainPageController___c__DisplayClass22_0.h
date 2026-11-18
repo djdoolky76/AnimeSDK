@@ -6,12 +6,12 @@ namespace MoleMole { class UIMiniscapeMainPageController; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179F1CA0)
-#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__DISPLAYCLASS22_0__DOPLAYPROGRESSANIM_B__1_OFFSET UNITYSDK_OFFSET(0x179F1CB0)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1796B780)
+#define MOLEMOLE_UIMINISCAPEMAINPAGECONTROLLER___C__DISPLAYCLASS22_0__DOPLAYPROGRESSANIM_B__1_OFFSET UNITYSDK_OFFSET(0x1796B790)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniscapeMainPageController___c__DisplayClass22_0_TypeDefinitionIndex = 88201;
+	inline static constexpr unsigned int UIMiniscapeMainPageController___c__DisplayClass22_0_TypeDefinitionIndex = 65263;
 
 	class UIMiniscapeMainPageController___c__DisplayClass22_0 : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace MoleMole
 		::MoleMole::UIMiniscapeMainPageController* __4__this; // 0x10
 		::System::Action_1<::System::Single>* onSetProgress; // 0x18
 		::System::Action* onFinish; // 0x20
-		::System::Single duration; // 0x28
+		::System::Single curProgress; // 0x28
 		::System::Single prvProgress; // 0x2C
-		::System::Single curProgress; // 0x30
+		::System::Single duration; // 0x30
 
 		::System::Void _ctor()
 		{

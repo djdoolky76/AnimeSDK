@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2.h"
 
-namespace UnityEngine::Experimental::TerrainAPI { class TerrainUtility_TerrainMap; }
-
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINGROUPS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAC0490)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINGROUPS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FECD940)
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
-	inline static constexpr unsigned int TerrainUtility_TerrainGroups_TypeDefinitionIndex = 33123;
+	inline static constexpr unsigned int TerrainUtility_TerrainGroups_TypeDefinitionIndex = 32583;
 
-	class TerrainUtility_TerrainGroups : public ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Experimental::TerrainAPI::TerrainUtility_TerrainMap*>
+	class TerrainUtility_TerrainGroups
 	{
 	public:
 		::System::Void _ctor()

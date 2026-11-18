@@ -3,12 +3,12 @@
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyPlane_TypeDefinitionIndex = 39618;
+	inline static constexpr unsigned int CurvyPlane_TypeDefinitionIndex = 37629;
 
 	enum class CurvyPlane : ::System::Int32
 	{
-		YZ = 2,
 		XY = 0,
 		XZ = 1,
+		YZ = 2,
 	};
 }

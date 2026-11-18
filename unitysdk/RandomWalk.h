@@ -4,16 +4,17 @@
 
 namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define RANDOMWALK_START_OFFSET UNITYSDK_OFFSET(0x1CB91100)
-#define RANDOMWALK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CB911D0)
-#define RANDOMWALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB912D0)
+#define RANDOMWALK_START_OFFSET UNITYSDK_OFFSET(0x1374C8E0)
+#define RANDOMWALK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1374C9B0)
+#define RANDOMWALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1374CAB0)
 
-inline static constexpr unsigned int RandomWalk_TypeDefinitionIndex = 51652;
+inline static constexpr unsigned int RandomWalk_TypeDefinitionIndex = 75090;
 
 class RandomWalk : public ::UnityEngine::MonoBehaviour
 {
 public:
 	::System::Single m_Range; // 0x18
+	::System::Byte _padding0[0x4];
 	::UnityEngine::AI::NavMeshAgent* m_Agent; // 0x20
 
 	::System::Void _ctor()

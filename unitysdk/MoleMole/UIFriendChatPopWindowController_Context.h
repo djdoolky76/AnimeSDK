@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_BE6BF7909AD9D940;
-class Class_2_E23E4CB2769CC93F;
+class FBHPDPBIGPK;
+class IDGDIFDMIDP;
 
-#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x170E60E0)
+#define MOLEMOLE_UIFRIENDCHATPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17094010)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFriendChatPopWindowController_Context_TypeDefinitionIndex = 66610;
+	inline static constexpr unsigned int UIFriendChatPopWindowController_Context_TypeDefinitionIndex = 77448;
 
 	class UIFriendChatPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_BE6BF7909AD9D940* friendBriefInfo; // 0x28
-		::Class_2_E23E4CB2769CC93F* CircleDataExt; // 0x30
+		::IDGDIFDMIDP* CircleDataExt; // 0x28
+		::FBHPDPBIGPK* friendBriefInfo; // 0x30
 
 		::System::Void _ctor()
 		{

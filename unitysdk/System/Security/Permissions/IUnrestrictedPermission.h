@@ -3,7 +3,7 @@
 
 namespace System::Security::Permissions
 {
-	inline static constexpr unsigned int IUnrestrictedPermission_TypeDefinitionIndex = 953;
+	inline static constexpr unsigned int IUnrestrictedPermission_TypeDefinitionIndex = 952;
 
 	class IUnrestrictedPermission
 	{

@@ -5,24 +5,26 @@
 #include "unitysdk/MS/Internal/Xml/XPath/Operator_Op.h"
 #include "unitysdk/System/Xml/XPath/XPathResultType.h"
 
-#define MS_INTERNAL_XML_XPATH_OPERATOR_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1D555CC0)
-#define MS_INTERNAL_XML_XPATH_OPERATOR_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1D555CB0)
-#define MS_INTERNAL_XML_XPATH_OPERATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D555CE0)
-#define MS_INTERNAL_XML_XPATH_OPERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D555CA0)
+namespace System { class Object; }
+
+#define MS_INTERNAL_XML_XPATH_OPERATOR_GET_RETURNTYPE_OFFSET UNITYSDK_OFFSET(0x1DA50BC0)
+#define MS_INTERNAL_XML_XPATH_OPERATOR_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1DA50BB0)
+#define MS_INTERNAL_XML_XPATH_OPERATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA50BE0)
+#define MS_INTERNAL_XML_XPATH_OPERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA50BA0)
 
 namespace MS::Internal::Xml::XPath
 {
-	inline static constexpr unsigned int Operator_TypeDefinitionIndex = 1646;
+	inline static constexpr unsigned int Operator_TypeDefinitionIndex = 1645;
 
 	class Operator : public ::MS::Internal::Xml::XPath::AstNode
 	{
 	public:
-		static ::Il2CppArray<::MS::Internal::Xml::XPath::Operator_Op>** StaticGet_invertOp()
+		static ::Il2CppArray<::System::Object*>** StaticGet_invertOp()
 		{
-			return (::Il2CppArray<::MS::Internal::Xml::XPath::Operator_Op>**)Il2CppClass::FromTypeDefinitionIndex(Operator_TypeDefinitionIndex)->GetStaticField(0x1E10);
+			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(Operator_TypeDefinitionIndex)->GetStaticField(0x1E10);
 		}
-		::MS::Internal::Xml::XPath::AstNode* opnd1; // 0x10
-		::MS::Internal::Xml::XPath::AstNode* opnd2; // 0x18
+		::MS::Internal::Xml::XPath::AstNode* opnd2; // 0x10
+		::MS::Internal::Xml::XPath::AstNode* opnd1; // 0x18
 		::MS::Internal::Xml::XPath::Operator_Op opType; // 0x20
 
 		::System::Void _ctor(::MS::Internal::Xml::XPath::Operator_Op op, ::MS::Internal::Xml::XPath::AstNode* opnd1, ::MS::Internal::Xml::XPath::AstNode* opnd2)

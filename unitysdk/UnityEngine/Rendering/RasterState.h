@@ -5,21 +5,21 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA55100)
-#define UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0xA550A0)
-#define UNITYENGINE_RENDERING_RASTERSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA551A0)
-#define UNITYENGINE_RENDERING_RASTERSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA65590)
-#define UNITYENGINE_RENDERING_RASTERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA55080)
+#define UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x935AB0)
+#define UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x935A50)
+#define UNITYENGINE_RENDERING_RASTERSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x935B50)
+#define UNITYENGINE_RENDERING_RASTERSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDA1DD0)
+#define UNITYENGINE_RENDERING_RASTERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x935A30)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RasterState_TypeDefinitionIndex = 6251;
+	inline static constexpr unsigned int RasterState_TypeDefinitionIndex = 6266;
 
 	struct alignas(4) RasterState
 	{
 		static ::UnityEngine::Rendering::RasterState* StaticGet_defaultValue()
 		{
-			return (::UnityEngine::Rendering::RasterState*)Il2CppClass::FromTypeDefinitionIndex(RasterState_TypeDefinitionIndex)->GetStaticField(0x2580);
+			return (::UnityEngine::Rendering::RasterState*)Il2CppClass::FromTypeDefinitionIndex(RasterState_TypeDefinitionIndex)->GetStaticField(0x2500);
 		}
 		::UnityEngine::Rendering::CullMode m_CullingMode; // 0x10
 		::System::Int32 m_OffsetUnits; // 0x14
@@ -39,10 +39,12 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE__CCTOR_OFFSET))();
 		}
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::RasterState other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::RasterState))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RASTERSTATE_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{

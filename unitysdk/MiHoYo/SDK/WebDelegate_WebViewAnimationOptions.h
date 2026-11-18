@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_WebViewAnimationOptions_TypeDefinitionIndex = 19921;
+	inline static constexpr unsigned int WebDelegate_WebViewAnimationOptions_TypeDefinitionIndex = 19066;
 
 	enum class WebDelegate_WebViewAnimationOptions : ::System::Int32
 	{

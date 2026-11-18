@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/XmlSqlBinaryReader_SymbolTables.h"
+#include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_XMLSQLBINARYREADER_NESTEDBINXML__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA366D0)
+#define SYSTEM_XML_XMLSQLBINARYREADER_NESTEDBINXML__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED18E00)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlSqlBinaryReader_NestedBinXml_TypeDefinitionIndex = 1677;
+	inline static constexpr unsigned int XmlSqlBinaryReader_NestedBinXml_TypeDefinitionIndex = 1676;
 
 	class XmlSqlBinaryReader_NestedBinXml : public ::System::Object
 	{

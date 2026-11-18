@@ -5,17 +5,17 @@
 namespace System { class Object; }
 namespace System::Net { class IPAddress; }
 
-#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_EQUALS_OFFSET UNITYSDK_OFFSET(0x99C250)
-#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x99C2D0)
-#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_GET_ADDRESS_OFFSET UNITYSDK_OFFSET(0x259D70)
-#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_GET_INTERFACE_OFFSET UNITYSDK_OFFSET(0x32EEE0)
-#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D411B90)
-#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1D411CC0)
-#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x351680)
+#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_EQUALS_OFFSET UNITYSDK_OFFSET(0x8CB150)
+#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8CB1D0)
+#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_GET_ADDRESS_OFFSET UNITYSDK_OFFSET(0x282350)
+#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_GET_INTERFACE_OFFSET UNITYSDK_OFFSET(0x363D60)
+#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D899B30)
+#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1D899C60)
+#define SYSTEM_NET_SOCKETS_IPPACKETINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x3B58E0)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int IPPacketInformation_TypeDefinitionIndex = 3643;
+	inline static constexpr unsigned int IPPacketInformation_TypeDefinitionIndex = 3642;
 
 	struct alignas(8) IPPacketInformation
 	{
@@ -37,15 +37,19 @@ namespace System::Net::Sockets
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_GET_INTERFACE_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::System::Net::Sockets::IPPacketInformation packetInformation1, ::System::Net::Sockets::IPPacketInformation packetInformation2)
 		{
 			return ((::System::Boolean(*)(::System::Net::Sockets::IPPacketInformation, ::System::Net::Sockets::IPPacketInformation))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_OP_EQUALITY_OFFSET))(packetInformation1, packetInformation2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::System::Net::Sockets::IPPacketInformation packetInformation1, ::System::Net::Sockets::IPPacketInformation packetInformation2)
 		{
 			return ((::System::Boolean(*)(::System::Net::Sockets::IPPacketInformation, ::System::Net::Sockets::IPPacketInformation))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_IPPACKETINFORMATION_OP_INEQUALITY_OFFSET))(packetInformation1, packetInformation2);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* comparand)
 		{

@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define DIGITALOPUS_MB_CORE_MB3_KMEANSCLUSTERING_DATAPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F889F40)
+#define DIGITALOPUS_MB_CORE_MB3_KMEANSCLUSTERING_DATAPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FCA4F70)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB3_KMeansClustering_DataPoint_TypeDefinitionIndex = 94553;
+	inline static constexpr unsigned int MB3_KMeansClustering_DataPoint_TypeDefinitionIndex = 96240;
 
 	class MB3_KMeansClustering_DataPoint : public ::System::Object
 	{

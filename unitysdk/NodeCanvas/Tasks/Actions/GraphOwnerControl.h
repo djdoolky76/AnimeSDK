@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 #include "unitysdk/NodeCanvas/Tasks/Actions/GraphOwnerControl_Control.h"
 
-namespace NodeCanvas::Framework { class GraphOwner; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 
-#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL_DO_OFFSET UNITYSDK_OFFSET(0x1EB88700)
-#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EB88370)
-#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB88440)
-#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1EB887E0)
-#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL_YIELDDO_OFFSET UNITYSDK_OFFSET(0x1EB886B0)
-#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB88850)
-#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL__ONEXECUTE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1EB88860)
+#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL_DO_OFFSET UNITYSDK_OFFSET(0x1EF58460)
+#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EF580D0)
+#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EF581A0)
+#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1EF58540)
+#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL_YIELDDO_OFFSET UNITYSDK_OFFSET(0x1EF58410)
+#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF585B0)
+#define NODECANVAS_TASKS_ACTIONS_GRAPHOWNERCONTROL__ONEXECUTE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1EF585C0)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int GraphOwnerControl_TypeDefinitionIndex = 29960;
+	inline static constexpr unsigned int GraphOwnerControl_TypeDefinitionIndex = 29499;
 
-	class GraphOwnerControl : public ::NodeCanvas::Framework::ActionTask_1<::NodeCanvas::Framework::GraphOwner*>
+	class GraphOwnerControl
 	{
 	public:
-		::NodeCanvas::Tasks::Actions::GraphOwnerControl_Control control; // 0x60
-		::System::Boolean waitActionFinish; // 0x64
+		::System::Boolean waitActionFinish; // 0x60
+		::System::Byte _padding0[0x3];
+		::NodeCanvas::Tasks::Actions::GraphOwnerControl_Control control; // 0x64
 
 		::System::Void _ctor()
 		{

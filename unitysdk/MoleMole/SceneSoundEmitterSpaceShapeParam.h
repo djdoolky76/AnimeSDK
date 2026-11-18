@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/SceneSoundEmitterSpaceShapeParam_Enum_3_65588CBC858FFB6D.h"
+#include "unitysdk/MoleMole/SceneSoundEmitterSpaceShapeParam_MMFFFLCKEGD.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
 
-#define MOLEMOLE_SCENESOUNDEMITTERSPACESHAPEPARAM_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x1809CFA0)
-#define MOLEMOLE_SCENESOUNDEMITTERSPACESHAPEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1809D000)
+#define MOLEMOLE_SCENESOUNDEMITTERSPACESHAPEPARAM_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x198D1F40)
+#define MOLEMOLE_SCENESOUNDEMITTERSPACESHAPEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x198D1FA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneSoundEmitterSpaceShapeParam_TypeDefinitionIndex = 52135;
+	inline static constexpr unsigned int SceneSoundEmitterSpaceShapeParam_TypeDefinitionIndex = 42374;
 
 	class SceneSoundEmitterSpaceShapeParam : public ::System::Object
 	{
 	public:
-		::MoleMole::SceneSoundEmitterSpaceShapeParam_Enum_3_65588CBC858FFB6D shape; // 0x10
+		::MoleMole::SceneSoundEmitterSpaceShapeParam_MMFFFLCKEGD shape; // 0x10
 		::UnityEngine::Vector3 positionOffset; // 0x14
 		::UnityEngine::Vector3 eulerAngle; // 0x20
 		::UnityEngine::Vector3 boxSize; // 0x2C

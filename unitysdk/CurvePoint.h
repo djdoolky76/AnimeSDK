@@ -2,16 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/LargeVector.h"
 
-#define CURVEPOINT_GET_T_OFFSET UNITYSDK_OFFSET(0x846960)
-#define CURVEPOINT_GET_VECTOR_OFFSET UNITYSDK_OFFSET(0x31CCF0)
-#define CURVEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x846980)
+#define CURVEPOINT_GET_T_OFFSET UNITYSDK_OFFSET(0x7E93C0)
+#define CURVEPOINT_GET_VECTOR_OFFSET UNITYSDK_OFFSET(0x2E38E0)
+#define CURVEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x7E93E0)
 
-inline static constexpr unsigned int CurvePoint_TypeDefinitionIndex = 75572;
+inline static constexpr unsigned int CurvePoint_TypeDefinitionIndex = 61998;
 
 struct alignas(8) CurvePoint
 {
 	::System::Single t; // 0x10
+	::System::Byte _padding0[0x4];
 	::Il2CppArray<::UnityEngine::Vector2>* vector; // 0x18
 
 	::System::Void _ctor(::System::Single _theta, ::Il2CppArray<::UnityEngine::Vector2>* _vector)
@@ -24,10 +26,8 @@ struct alignas(8) CurvePoint
 		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CURVEPOINT_GET_T_OFFSET))(this);
 	}
 
-	/*
 	::LargeVector get_Vector()
 	{
 		return ((::LargeVector(*)(::PVOID))((::PBYTE)hIl2Cpp + CURVEPOINT_GET_VECTOR_OFFSET))(this);
 	}
-	*/
 };

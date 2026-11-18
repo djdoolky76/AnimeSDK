@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int INapRenderEventProxy_TypeDefinitionIndex = 27524;
+	inline static constexpr unsigned int INapRenderEventProxy_TypeDefinitionIndex = 27363;
 
 	class INapRenderEventProxy
 	{

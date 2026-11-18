@@ -5,12 +5,12 @@
 
 namespace Nap::NapECS { class EcsSystem; }
 
-#define NAP_NAPECS_ECSSYSTEMCONTEXTTLSDATA_SET_PHASE_OFFSET UNITYSDK_OFFSET(0x622AD0)
-#define NAP_NAPECS_ECSSYSTEMCONTEXTTLSDATA_SET_SYSTEM_OFFSET UNITYSDK_OFFSET(0x324D50)
+#define NAP_NAPECS_ECSSYSTEMCONTEXTTLSDATA_SET_PHASE_OFFSET UNITYSDK_OFFSET(0x3E3C80)
+#define NAP_NAPECS_ECSSYSTEMCONTEXTTLSDATA_SET_SYSTEM_OFFSET UNITYSDK_OFFSET(0x358B00)
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsSystemContextTLSData_TypeDefinitionIndex = 37921;
+	inline static constexpr unsigned int EcsSystemContextTLSData_TypeDefinitionIndex = 35947;
 
 	struct alignas(8) EcsSystemContextTLSData
 	{

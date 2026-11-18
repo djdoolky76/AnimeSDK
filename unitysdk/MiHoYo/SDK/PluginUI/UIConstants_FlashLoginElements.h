@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_FlashLoginElements_TypeDefinitionIndex = 37840;
+	inline static constexpr unsigned int UIConstants_FlashLoginElements_TypeDefinitionIndex = 35838;
 
 	class UIConstants_FlashLoginElements : public ::System::Object
 	{

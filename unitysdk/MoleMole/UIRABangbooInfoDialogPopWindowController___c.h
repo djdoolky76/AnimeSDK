@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIRABANGBOOINFODIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1845E050)
-#define MOLEMOLE_UIRABANGBOOINFODIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1845E090)
-#define MOLEMOLE_UIRABANGBOOINFODIALOGPOPWINDOWCONTROLLER___C__REFRESHNOTIFICATIONS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1845E0A0)
+#define MOLEMOLE_UIRABANGBOOINFODIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18EE6E40)
+#define MOLEMOLE_UIRABANGBOOINFODIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18EE6E80)
+#define MOLEMOLE_UIRABANGBOOINFODIALOGPOPWINDOWCONTROLLER___C__REFRESHNOTIFICATIONS_B__17_0_OFFSET UNITYSDK_OFFSET(0x18EE6E90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABangbooInfoDialogPopWindowController___c_TypeDefinitionIndex = 75276;
+	inline static constexpr unsigned int UIRABangbooInfoDialogPopWindowController___c_TypeDefinitionIndex = 77932;
 
 	class UIRABangbooInfoDialogPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIRABangbooInfoDialogPopWindowController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIRABangbooInfoDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIRABangbooInfoDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x47300);
-		}
 		static ::System::Func_2<::System::UInt32, ::System::Int32>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRABangbooInfoDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x47308);
+			return (::System::Func_2<::System::UInt32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIRABangbooInfoDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4C520);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIRABangbooInfoDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4C528);
 		}
 
 		static ::System::Void _cctor()

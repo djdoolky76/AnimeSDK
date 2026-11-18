@@ -5,9 +5,9 @@
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define MONORENDERENTITY_MULTIPLESKELETONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E659AD0)
+#define MONORENDERENTITY_MULTIPLESKELETONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DD4E0)
 
-inline static constexpr unsigned int MonoRenderEntity_MultipleSkeletons_TypeDefinitionIndex = 27697;
+inline static constexpr unsigned int MonoRenderEntity_MultipleSkeletons_TypeDefinitionIndex = 27217;
 
 class MonoRenderEntity_MultipleSkeletons : public ::System::Object
 {

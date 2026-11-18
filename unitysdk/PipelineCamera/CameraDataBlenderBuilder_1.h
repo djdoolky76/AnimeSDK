@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace PipelineCamera { class ICameraDataBlender; }
-
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraDataBlenderBuilder_1_TypeDefinitionIndex = 38240;
+	inline static constexpr unsigned int CameraDataBlenderBuilder_1_TypeDefinitionIndex = 36242;
 
-	template <typename TPriority>
+	template <typename T>
 	class CameraDataBlenderBuilder_1 : public ::System::Object
 	{
 	public:

@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/StateTreeCore/StateTreeConditionBase.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/System/Object.h"
 
-#define STATETREECORE_VIRTUALFUNCTIONEXTENSIONS_STATETREECONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1F6DA720)
+#define STATETREECORE_VIRTUALFUNCTIONEXTENSIONS_STATETREECONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1FA8B980)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_StateTreeConditionBase_TypeDefinitionIndex = 31523;
+	inline static constexpr unsigned int VirtualFunctionExtensions_StateTreeConditionBase_TypeDefinitionIndex = 30960;
 
 	class VirtualFunctionExtensions_StateTreeConditionBase : public ::System::Object
 	{

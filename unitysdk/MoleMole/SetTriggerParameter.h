@@ -3,32 +3,32 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_3_F33F9DC5F4112336;
+class NLNIIPDCABP;
 namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections { class IEnumerator; }
 
-#define MOLEMOLE_SETTRIGGERPARAMETER_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x14A211E0)
-#define MOLEMOLE_SETTRIGGERPARAMETER_ONRESET_OFFSET UNITYSDK_OFFSET(0x14A216B0)
-#define MOLEMOLE_SETTRIGGERPARAMETER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x14A213A0)
-#define MOLEMOLE_SETTRIGGERPARAMETER_RESETVALUE_OFFSET UNITYSDK_OFFSET(0x14A21620)
-#define MOLEMOLE_SETTRIGGERPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x14A21730)
-#define MOLEMOLE_SETTRIGGERPARAMETER___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x14A217C0)
-#define MOLEMOLE_SETTRIGGERPARAMETER___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x14A21850)
-#define MOLEMOLE_SETTRIGGERPARAMETER___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x14A218E0)
+#define MOLEMOLE_SETTRIGGERPARAMETER_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x131193B0)
+#define MOLEMOLE_SETTRIGGERPARAMETER_ONRESET_OFFSET UNITYSDK_OFFSET(0x13119880)
+#define MOLEMOLE_SETTRIGGERPARAMETER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13119570)
+#define MOLEMOLE_SETTRIGGERPARAMETER_RESETVALUE_OFFSET UNITYSDK_OFFSET(0x131197F0)
+#define MOLEMOLE_SETTRIGGERPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x13119900)
+#define MOLEMOLE_SETTRIGGERPARAMETER___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13119990)
+#define MOLEMOLE_SETTRIGGERPARAMETER___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x13119A20)
+#define MOLEMOLE_SETTRIGGERPARAMETER___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13119AB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetTriggerParameter_TypeDefinitionIndex = 41564;
+	inline static constexpr unsigned int SetTriggerParameter_TypeDefinitionIndex = 92573;
 
 	class SetTriggerParameter : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::Class_3_F33F9DC5F4112336* animatorComponent; // 0x58
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
-		::BehaviorDesigner::Runtime::SharedString* paramaterName; // 0x68
-		::MoleMole::Battle::Entity* ownerEntity; // 0x70
+		::MoleMole::Battle::Entity* ownerEntity; // 0x58
+		::BehaviorDesigner::Runtime::SharedString* paramaterName; // 0x60
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
+		::NLNIIPDCABP* animatorComponent; // 0x70
 		::System::Int32 hashID; // 0x78
 
 		::System::Void _ctor()

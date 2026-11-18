@@ -3,7 +3,7 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int WatcherChangeTypes_TypeDefinitionIndex = 3238;
+	inline static constexpr unsigned int WatcherChangeTypes_TypeDefinitionIndex = 3237;
 
 	enum class WatcherChangeTypes : ::System::Int32
 	{

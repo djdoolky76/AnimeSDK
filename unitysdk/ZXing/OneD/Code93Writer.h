@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/ZXing/OneD/OneDimensionalCodeWriter.h"
 #include "unitysdk/ZXing/BarcodeFormat.h"
 #include "unitysdk/ZXing/EncodeHintType.h"
-#include "unitysdk/ZXing/OneD/OneDimensionalCodeWriter.h"
 
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_CODE93WRITER_APPENDPATTERN_OFFSET UNITYSDK_OFFSET(0x1BE8D220)
-#define ZXING_ONED_CODE93WRITER_COMPUTECHECKSUMINDEX_OFFSET UNITYSDK_OFFSET(0x1BE8D370)
-#define ZXING_ONED_CODE93WRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1BE8C460)
-#define ZXING_ONED_CODE93WRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1BE8C3B0)
-#define ZXING_ONED_CODE93WRITER_TOINTARRAY_OFFSET UNITYSDK_OFFSET(0x1BE8D140)
-#define ZXING_ONED_CODE93WRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE82400)
+#define ZXING_ONED_CODE93WRITER_APPENDPATTERN_OFFSET UNITYSDK_OFFSET(0x1C31AEA0)
+#define ZXING_ONED_CODE93WRITER_COMPUTECHECKSUMINDEX_OFFSET UNITYSDK_OFFSET(0x1C31AFF0)
+#define ZXING_ONED_CODE93WRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1C31A0E0)
+#define ZXING_ONED_CODE93WRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1C31A030)
+#define ZXING_ONED_CODE93WRITER_TOINTARRAY_OFFSET UNITYSDK_OFFSET(0x1C31ADC0)
+#define ZXING_ONED_CODE93WRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C310080)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int Code93Writer_TypeDefinitionIndex = 19451;
+	inline static constexpr unsigned int Code93Writer_TypeDefinitionIndex = 18605;
 
 	class Code93Writer : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{

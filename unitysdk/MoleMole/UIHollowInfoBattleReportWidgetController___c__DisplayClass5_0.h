@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIHollowInfoBattleReportWidgetController; }
 
-#define MOLEMOLE_UIHOLLOWINFOBATTLEREPORTWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164D10A0)
-#define MOLEMOLE_UIHOLLOWINFOBATTLEREPORTWIDGETCONTROLLER___C__DISPLAYCLASS5_0__UPDATEUI_B__0_OFFSET UNITYSDK_OFFSET(0x164D10B0)
+#define MOLEMOLE_UIHOLLOWINFOBATTLEREPORTWIDGETCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19786C00)
+#define MOLEMOLE_UIHOLLOWINFOBATTLEREPORTWIDGETCONTROLLER___C__DISPLAYCLASS5_0__UPDATEUI_B__0_OFFSET UNITYSDK_OFFSET(0x19786C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowInfoBattleReportWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 52016;
+	inline static constexpr unsigned int UIHollowInfoBattleReportWidgetController___c__DisplayClass5_0_TypeDefinitionIndex = 93108;
 
 	class UIHollowInfoBattleReportWidgetController___c__DisplayClass5_0 : public ::System::Object
 	{

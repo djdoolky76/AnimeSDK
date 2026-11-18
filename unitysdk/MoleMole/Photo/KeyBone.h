@@ -6,7 +6,7 @@ namespace UnityEngine { class Transform; }
 
 namespace MoleMole::Photo
 {
-	inline static constexpr unsigned int KeyBone_TypeDefinitionIndex = 73141;
+	inline static constexpr unsigned int KeyBone_TypeDefinitionIndex = 53413;
 
 	struct alignas(8) KeyBone
 	{

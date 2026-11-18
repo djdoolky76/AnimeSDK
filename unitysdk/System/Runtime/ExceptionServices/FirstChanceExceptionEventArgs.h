@@ -4,7 +4,7 @@
 
 namespace System::Runtime::ExceptionServices
 {
-	inline static constexpr unsigned int FirstChanceExceptionEventArgs_TypeDefinitionIndex = 1371;
+	inline static constexpr unsigned int FirstChanceExceptionEventArgs_TypeDefinitionIndex = 1370;
 
 	class FirstChanceExceptionEventArgs : public ::System::EventArgs
 	{

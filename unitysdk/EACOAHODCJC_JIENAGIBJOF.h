@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+#define EACOAHODCJC_JIENAGIBJOF_BELMMCONAJH_OFFSET UNITYSDK_OFFSET(0x16BC7DA0)
+#define EACOAHODCJC_JIENAGIBJOF_GLFDDNKFCME_OFFSET UNITYSDK_OFFSET(0x794650)
+#define EACOAHODCJC_JIENAGIBJOF__CTOR_OFFSET UNITYSDK_OFFSET(0x794630)
+
+inline static constexpr unsigned int EACOAHODCJC_JIENAGIBJOF_TypeDefinitionIndex = 78260;
+
+struct alignas(4) EACOAHODCJC_JIENAGIBJOF
+{
+	::System::Int32 HDCOGNIILJH; // 0x10
+	::System::Int32 PMCNDKMMFDG; // 0x14
+	::System::Int32 OHMAFDDJJIB; // 0x18
+	::System::Single LHLJKGGNIJE; // 0x1C
+	::System::Boolean FDJHEBHLJLD; // 0x20
+
+	::System::Void _ctor(::System::Int32 NPAKMAGBOCH, ::System::Int32 CKELOFDFEEM, ::System::Int32 KBDJAMBKEMK, ::System::Single OJJKACGJPPF)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + EACOAHODCJC_JIENAGIBJOF__CTOR_OFFSET))(this, NPAKMAGBOCH, CKELOFDFEEM, KBDJAMBKEMK, OJJKACGJPPF);
+	}
+
+	/*
+	static ::EACOAHODCJC_JIENAGIBJOF BELMMCONAJH(::System::Int32 NPAKMAGBOCH)
+	{
+		return ((::EACOAHODCJC_JIENAGIBJOF(*)(::System::Int32))((::PBYTE)hIl2Cpp + EACOAHODCJC_JIENAGIBJOF_BELMMCONAJH_OFFSET))(NPAKMAGBOCH);
+	}
+	*/
+
+	/*
+	::System::Boolean GLFDDNKFCME(::EACOAHODCJC_JIENAGIBJOF& LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::EACOAHODCJC_JIENAGIBJOF&))((::PBYTE)hIl2Cpp + EACOAHODCJC_JIENAGIBJOF_GLFDDNKFCME_OFFSET))(this, LIBPKNHDIGP);
+	}
+	*/
+};

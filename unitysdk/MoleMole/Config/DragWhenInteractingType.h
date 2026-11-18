@@ -3,11 +3,11 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DragWhenInteractingType_TypeDefinitionIndex = 53295;
+	inline static constexpr unsigned int DragWhenInteractingType_TypeDefinitionIndex = 53817;
 
 	enum class DragWhenInteractingType : ::System::Int32
 	{
-		Continue = 1,
 		Interrupt = 0,
+		Continue = 1,
 	};
 }

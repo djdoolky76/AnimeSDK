@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_6.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 #include "unitysdk/ProtoScript/AimRectColor.h"
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECTBYCELL_INVOKE_OFFSET UNITYSDK_OFFSET(0x149D5690)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECTBYCELL_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x149D57A0)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECTBYCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x149D5820)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECTBYCELL___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x149D58B0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECTBYCELL_INVOKE_OFFSET UNITYSDK_OFFSET(0x130C52F0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECTBYCELL_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x130C5400)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECTBYCELL__CTOR_OFFSET UNITYSDK_OFFSET(0x130C5480)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECTBYCELL___BASE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x130C5510)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameUpdateAimRectByCell_TypeDefinitionIndex = 59771;
+	inline static constexpr unsigned int HackerGameUpdateAimRectByCell_TypeDefinitionIndex = 70558;
 
-	class HackerGameUpdateAimRectByCell : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_6<::MoleMole::HollowChessboard::HollowCell, ::System::Boolean, ::ProtoScript::AimRectColor, ::System::Boolean, ::System::Boolean, ::System::Boolean>
+	class HackerGameUpdateAimRectByCell
 	{
 	public:
 		::MoleMole::HollowChessboard::HollowCell _cell; // 0x30

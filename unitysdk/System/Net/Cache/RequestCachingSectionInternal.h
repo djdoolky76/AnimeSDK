@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_CACHE_REQUESTCACHINGSECTIONINTERNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6206E0)
+#define SYSTEM_NET_CACHE_REQUESTCACHINGSECTIONINTERNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE50B0)
 
 namespace System::Net::Cache
 {
-	inline static constexpr unsigned int RequestCachingSectionInternal_TypeDefinitionIndex = 3864;
+	inline static constexpr unsigned int RequestCachingSectionInternal_TypeDefinitionIndex = 3863;
 
 	class RequestCachingSectionInternal : public ::System::Object
 	{

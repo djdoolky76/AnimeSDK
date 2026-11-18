@@ -12,11 +12,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGTEAMENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B918A20)
+#define MOLEMOLE_CONFIG_CONFIGTEAMENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x192503A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigTeamEntity_TypeDefinitionIndex = 85292;
+	inline static constexpr unsigned int ConfigTeamEntity_TypeDefinitionIndex = 42974;
 
 	class ConfigTeamEntity : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -24,10 +24,12 @@ namespace MoleMole::Config
 		::System::Collections::Generic::List_1<::System::String*>* DefaultAbilities; // 0x58
 		::System::Collections::Generic::List_1<::System::String*>* DefaultGlobalAbilities; // 0x60
 		::System::Boolean EnableTeamNewFeverExQTELog; // 0x68
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::System::Single>* FeverGradeList; // 0x70
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* FeverAvatarNumReviseRatioMap; // 0x78
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::FeverSoundType, ::System::Int32>* FeverSoundDict; // 0x80
 		::System::Boolean EnableTeamComboFeverExQTELog; // 0x88
+		::System::Byte _padding1[0x3];
 		::System::Single ComboFadeTickTime; // 0x8C
 		::System::Boolean EnableComboFadeTick; // 0x90
 		::System::Boolean EnableComboRatioFadeTick; // 0x91
@@ -38,6 +40,7 @@ namespace MoleMole::Config
 		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigTeamComboSetting*>* TeamComboSettingList; // 0xA0
 		::System::Collections::Generic::List_1<::System::String*>* ComboNumSpritePathList; // 0xA8
 		::System::Boolean EnableFeverSystemLog; // 0xB0
+		::System::Byte _padding2[0x7];
 		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigFeverLevel*>* FeverLevelConfigList; // 0xB8
 		::MoleMole::Config::ConfigFeverMode* FeverModeConfig; // 0xC0
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::FeverBeingHitType, ::System::Single>* FeverBeHitEffectModifyDict; // 0xC8

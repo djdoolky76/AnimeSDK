@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETSPAWNPOINTPOS_INVOKE_OFFSET UNITYSDK_OFFSET(0x19DB8E00)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETSPAWNPOINTPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB9090)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETSPAWNPOINTPOS_INVOKE_OFFSET UNITYSDK_OFFSET(0x12B3F220)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETSPAWNPOINTPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3F4B0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetSpawnPointPos_TypeDefinitionIndex = 67527;
+	inline static constexpr unsigned int LD_GetSpawnPointPos_TypeDefinitionIndex = 53613;
 
-	class LD_GetSpawnPointPos : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::UnityEngine::Vector3, ::System::String*>
+	class LD_GetSpawnPointPos
 	{
 	public:
 		::System::Void _ctor()

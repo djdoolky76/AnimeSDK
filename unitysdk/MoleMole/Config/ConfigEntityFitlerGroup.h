@@ -6,12 +6,12 @@ namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class ConfigEntityFilter; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYFITLERGROUP_PASS_OFFSET UNITYSDK_OFFSET(0x16C3EBA0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYFITLERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16C3ED00)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFITLERGROUP_PASS_OFFSET UNITYSDK_OFFSET(0x18B95690)
+#define MOLEMOLE_CONFIG_CONFIGENTITYFITLERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18B957F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityFitlerGroup_TypeDefinitionIndex = 67227;
+	inline static constexpr unsigned int ConfigEntityFitlerGroup_TypeDefinitionIndex = 65968;
 
 	class ConfigEntityFitlerGroup : public ::System::Object
 	{

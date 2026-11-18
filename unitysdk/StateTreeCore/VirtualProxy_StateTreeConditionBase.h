@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/VirtualProxy_StateTreeNodeBase.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 
-#define STATETREECORE_VIRTUALPROXY_STATETREECONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1FC30EB0)
-#define STATETREECORE_VIRTUALPROXY_STATETREECONDITIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC30F10)
+#define STATETREECORE_VIRTUALPROXY_STATETREECONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x2003D780)
+#define STATETREECORE_VIRTUALPROXY_STATETREECONDITIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x2003D7E0)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int VirtualProxy_StateTreeConditionBase_TypeDefinitionIndex = 31524;
+	inline static constexpr unsigned int VirtualProxy_StateTreeConditionBase_TypeDefinitionIndex = 30961;
 
 	class VirtualProxy_StateTreeConditionBase : public ::StateTreeCore::VirtualProxy_StateTreeNodeBase
 	{

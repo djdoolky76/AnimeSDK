@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_THREADING_TASKS_PARALLEL_LOOPTIMER_LIMITEXCEEDED_OFFSET UNITYSDK_OFFSET(0x9DAFA0)
-#define SYSTEM_THREADING_TASKS_PARALLEL_LOOPTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x9DAED0)
+#define SYSTEM_THREADING_TASKS_PARALLEL_LOOPTIMER_LIMITEXCEEDED_OFFSET UNITYSDK_OFFSET(0x8EBA50)
+#define SYSTEM_THREADING_TASKS_PARALLEL_LOOPTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x8EB980)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int Parallel_LoopTimer_TypeDefinitionIndex = 888;
+	inline static constexpr unsigned int Parallel_LoopTimer_TypeDefinitionIndex = 887;
 
 	struct alignas(4) Parallel_LoopTimer
 	{

@@ -3,18 +3,18 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIGrandMarcelAdventurePageContext_RoomType.h"
 
-class Class_1_BE6BF7909AD9D940;
+class FBHPDPBIGPK;
 
-#define MOLEMOLE_UIMARCELFRIENDCARDROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19011010)
+#define MOLEMOLE_UIMARCELFRIENDCARDROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15D102A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMarcelFriendCardRowWidgetController_Context_TypeDefinitionIndex = 53359;
+	inline static constexpr unsigned int UIMarcelFriendCardRowWidgetController_Context_TypeDefinitionIndex = 41068;
 
 	class UIMarcelFriendCardRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_BE6BF7909AD9D940* briefInfo; // 0x28
+		::FBHPDPBIGPK* briefInfo; // 0x28
 		::MoleMole::UIGrandMarcelAdventurePageContext_RoomType CurRoomType; // 0x30
 		::System::Boolean isFriendInRoom; // 0x34
 

@@ -9,18 +9,20 @@
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture3D; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICCLOUDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E265970)
+#define UNITYENGINE_RENDERING_UNIVERSAL_VOLUMETRICCLOUDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3831B0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int VolumetricCloudConfig_TypeDefinitionIndex = 27508;
+	inline static constexpr unsigned int VolumetricCloudConfig_TypeDefinitionIndex = 27085;
 
 	class VolumetricCloudConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean enabled; // 0x10
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 boundCenter; // 0x14
 		::UnityEngine::Vector3 boundSize; // 0x20
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Texture2D* cloudGradientMap; // 0x30
 		::UnityEngine::Texture2D* cloudMap; // 0x38
 		::System::Single cloudMapSize; // 0x40
@@ -47,6 +49,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single cloudMultiScatteringOcclusion; // 0xCC
 		::System::Single cloudFogScale; // 0xD0
 		::System::Boolean previewFallback; // 0xD4
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Texture2D* fallbackCloudMap; // 0xD8
 		::System::Single fallbackCloudMapSize; // 0xE0
 		::System::Single fallbackCloudHeight; // 0xE4

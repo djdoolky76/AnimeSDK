@@ -26,12 +26,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA_GETCAMERASTRETCHV2_OFFSET UNITYSDK_OFFSET(0x1B7ED0B0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7ED240)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA_GETCAMERASTRETCHV2_OFFSET UNITYSDK_OFFSET(0x1929F3C0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARDCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1929F550)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboardCamera_TypeDefinitionIndex = 59020;
+	inline static constexpr unsigned int ConfigHollowChessboardCamera_TypeDefinitionIndex = 74973;
 
 	class ConfigHollowChessboardCamera : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -54,6 +54,7 @@ namespace MoleMole::Config
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigAnimationCurveGroup*>* AnimationCurveDict; // 0xC8
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraMoveToCenter*>* configMoveToCenterDic; // 0xD0
 		::System::Boolean IsTriggerSafeArea; // 0xD8
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraSafeZone>* ConfigHollowCameraSafeArea; // 0xE0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowCameraFollow*>* configFolloCameraDict; // 0xE8
 		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowCameraPieceAudioVolumeRank>* configPieceAudioVolumeRankList; // 0xF0

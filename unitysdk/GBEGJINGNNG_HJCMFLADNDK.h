@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JJEJBPGJPJN.h"
+#include "unitysdk/MoleMole/EUILayoutPlatform.h"
+
+template <typename T> class LJHFMILANJA_1;
+
+#define GBEGJINGNNG_HJCMFLADNDK_CBGOLMDALKP_OFFSET UNITYSDK_OFFSET(0xBB7FF30)
+#define GBEGJINGNNG_HJCMFLADNDK_ENPJLBAGLFO_OFFSET UNITYSDK_OFFSET(0xBB7FF60)
+#define GBEGJINGNNG_HJCMFLADNDK_GHNLHIIEIGI_OFFSET UNITYSDK_OFFSET(0xBB7FF20)
+#define GBEGJINGNNG_HJCMFLADNDK_KEOPMHKLLEC_OFFSET UNITYSDK_OFFSET(0xBB7FF40)
+#define GBEGJINGNNG_HJCMFLADNDK_ODOGEIJHEPE_OFFSET UNITYSDK_OFFSET(0xBB7FF50)
+#define GBEGJINGNNG_HJCMFLADNDK_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xBB7FE50)
+#define GBEGJINGNNG_HJCMFLADNDK_PDBGIPIINKP_OFFSET UNITYSDK_OFFSET(0xBB7FF70)
+#define GBEGJINGNNG_HJCMFLADNDK__CTOR_OFFSET UNITYSDK_OFFSET(0xBB7FF10)
+
+inline static constexpr unsigned int GBEGJINGNNG_HJCMFLADNDK_TypeDefinitionIndex = 59380;
+
+class GBEGJINGNNG_HJCMFLADNDK : public ::JJEJBPGJPJN
+{
+public:
+	::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>* _JEMCINJBOEN_k__BackingField; // 0x88
+	::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>* _HBGDIDCNLPG_k__BackingField; // 0x90
+	::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>* _NKEHGOHIDCJ_k__BackingField; // 0x98
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GBEGJINGNNG_HJCMFLADNDK__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnCreateProperty()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GBEGJINGNNG_HJCMFLADNDK_ONCREATEPROPERTY_OFFSET))(this);
+	}
+
+	::System::Void GHNLHIIEIGI(::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>*))((::PBYTE)hIl2Cpp + GBEGJINGNNG_HJCMFLADNDK_GHNLHIIEIGI_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>* CBGOLMDALKP()
+	{
+		return ((::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GBEGJINGNNG_HJCMFLADNDK_CBGOLMDALKP_OFFSET))(this);
+	}
+
+	::System::Void KEOPMHKLLEC(::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>*))((::PBYTE)hIl2Cpp + GBEGJINGNNG_HJCMFLADNDK_KEOPMHKLLEC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>* ODOGEIJHEPE()
+	{
+		return ((::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GBEGJINGNNG_HJCMFLADNDK_ODOGEIJHEPE_OFFSET))(this);
+	}
+
+	::System::Void ENPJLBAGLFO(::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>*))((::PBYTE)hIl2Cpp + GBEGJINGNNG_HJCMFLADNDK_ENPJLBAGLFO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>* PDBGIPIINKP()
+	{
+		return ((::LJHFMILANJA_1<::MoleMole::EUILayoutPlatform>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GBEGJINGNNG_HJCMFLADNDK_PDBGIPIINKP_OFFSET))(this);
+	}
+};

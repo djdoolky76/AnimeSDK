@@ -5,24 +5,24 @@
 namespace Foundation { class ReservedObjectPool; }
 namespace System { template <typename T> class Action_1; }
 
-#define FOUNDATION_UNITYOBJPOOL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1503AF20)
-#define FOUNDATION_UNITYOBJPOOL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1503AF60)
-#define FOUNDATION_UNITYOBJPOOL___C__RELEASEALLRESERVEDOBJECTPOOL_B__4_0_OFFSET UNITYSDK_OFFSET(0x1503AF70)
+#define FOUNDATION_UNITYOBJPOOL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x116D11A0)
+#define FOUNDATION_UNITYOBJPOOL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x116D11E0)
+#define FOUNDATION_UNITYOBJPOOL___C__RELEASEALLRESERVEDOBJECTPOOL_B__4_0_OFFSET UNITYSDK_OFFSET(0x116D11F0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int UnityObjPool___c_TypeDefinitionIndex = 84353;
+	inline static constexpr unsigned int UnityObjPool___c_TypeDefinitionIndex = 68376;
 
 	class UnityObjPool___c : public ::System::Object
 	{
 	public:
-		static ::Foundation::UnityObjPool___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Foundation::UnityObjPool___c**)Il2CppClass::FromTypeDefinitionIndex(UnityObjPool___c_TypeDefinitionIndex)->GetStaticField(0x50560);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UnityObjPool___c_TypeDefinitionIndex)->GetStaticField(0x40970);
 		}
 		static ::System::Action_1<::Foundation::ReservedObjectPool*>** StaticGet___9__4_0()
 		{
-			return (::System::Action_1<::Foundation::ReservedObjectPool*>**)Il2CppClass::FromTypeDefinitionIndex(UnityObjPool___c_TypeDefinitionIndex)->GetStaticField(0x50568);
+			return (::System::Action_1<::Foundation::ReservedObjectPool*>**)Il2CppClass::FromTypeDefinitionIndex(UnityObjPool___c_TypeDefinitionIndex)->GetStaticField(0x40978);
 		}
 
 		static ::System::Void _cctor()

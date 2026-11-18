@@ -6,17 +6,20 @@ namespace UnityEngine { class GameObject; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoZenkovResultPageConfig_NumberConfig_TypeDefinitionIndex = 73721;
+	inline static constexpr unsigned int MonoZenkovResultPageConfig_NumberConfig_TypeDefinitionIndex = 87884;
 
 	struct alignas(8) MonoZenkovResultPageConfig_NumberConfig
 	{
 		::UnityEngine::GameObject* GameObject; // 0x10
 		::System::Boolean RandomizeStartNumber; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Int32 StartNumber; // 0x1C
 		::System::Boolean RandomizeNextNumber; // 0x20
+		::System::Byte _padding1[0x3];
 		::System::Single NomalizedOffset; // 0x24
 		::System::Single Speed; // 0x28
 		::System::Boolean SampleEndAnimIntervalFromCurve; // 0x2C
+		::System::Byte _padding2[0x3];
 		::System::Single EndAnimInterval; // 0x30
 	};
 }

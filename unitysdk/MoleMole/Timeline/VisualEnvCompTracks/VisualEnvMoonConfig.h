@@ -6,19 +6,19 @@
 
 class WeatherConfig;
 
-#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_1374F5C8C30BDCEE_OFFSET UNITYSDK_OFFSET(0x1B21AEE0)
-#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_167EDA53C47E20A4_OFFSET UNITYSDK_OFFSET(0x1B21A950)
-#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_29DFCCC291F2C3F0_OFFSET UNITYSDK_OFFSET(0x1B21A6D0)
-#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_7144A3A3D733A906_OFFSET UNITYSDK_OFFSET(0x1B21AB80)
-#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_97FA89D8D3694CF1_OFFSET UNITYSDK_OFFSET(0x1B21AFC0)
-#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_A1ADC999CFACEB89_OFFSET UNITYSDK_OFFSET(0x1B21A800)
-#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1B21AD40)
-#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_D635BC10208DDAB9_OFFSET UNITYSDK_OFFSET(0x1B21ADD0)
-#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B21AB60)
+#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_BJLELCAIHLP_OFFSET UNITYSDK_OFFSET(0x1C0E20D0)
+#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_DHDANLOBHFJ_OFFSET UNITYSDK_OFFSET(0x1C0E2230)
+#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_FMLOHPFMEDK_OFFSET UNITYSDK_OFFSET(0x1C0E21A0)
+#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_GHEBADNHCKH_OFFSET UNITYSDK_OFFSET(0x1C0E1CE0)
+#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_HEGPPHAGDCO_OFFSET UNITYSDK_OFFSET(0x1C0E1A60)
+#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_IIHOMIJLDMI_OFFSET UNITYSDK_OFFSET(0x1C0E1B90)
+#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_NGPINNOAPDG_OFFSET UNITYSDK_OFFSET(0x1C0E1F10)
+#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_NJIOPMCBIOI_OFFSET UNITYSDK_OFFSET(0x1C0E2310)
+#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0E1EF0)
 
 namespace MoleMole::Timeline::VisualEnvCompTracks
 {
-	inline static constexpr unsigned int VisualEnvMoonConfig_TypeDefinitionIndex = 78029;
+	inline static constexpr unsigned int VisualEnvMoonConfig_TypeDefinitionIndex = 78239;
 
 	class VisualEnvMoonConfig : public ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig
 	{
@@ -42,44 +42,44 @@ namespace MoleMole::Timeline::VisualEnvCompTracks
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_29DFCCC291F2C3F0(::WeatherConfig* a1)
+		::System::Void HEGPPHAGDCO(::WeatherConfig* HMOGPGGAJLO)
 		{
-			return ((::System::Void(*)(::PVOID, ::WeatherConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_29DFCCC291F2C3F0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::WeatherConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_HEGPPHAGDCO_OFFSET))(this, HMOGPGGAJLO);
 		}
 
-		::System::Void Method_2_A1ADC999CFACEB89()
+		::System::Void IIHOMIJLDMI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_A1ADC999CFACEB89_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_IIHOMIJLDMI_OFFSET))(this);
 		}
 
-		::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* Method_2_167EDA53C47E20A4(::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* a1, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* a2)
+		::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* GHEBADNHCKH(::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* CEJEKGEMEDG, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* POHKMAABHMN)
 		{
-			return ((::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*(*)(::PVOID, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_167EDA53C47E20A4_OFFSET))(this, a1, a2);
+			return ((::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*(*)(::PVOID, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_GHEBADNHCKH_OFFSET))(this, CEJEKGEMEDG, POHKMAABHMN);
 		}
 
-		::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* Method_2_7144A3A3D733A906(::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* a1, ::System::Single a2)
+		::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* NGPINNOAPDG(::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* CEJEKGEMEDG, ::System::Single LJHKPBDPDLG)
 		{
-			return ((::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*(*)(::PVOID, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_7144A3A3D733A906_OFFSET))(this, a1, a2);
+			return ((::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*(*)(::PVOID, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_NGPINNOAPDG_OFFSET))(this, CEJEKGEMEDG, LJHKPBDPDLG);
 		}
 
-		::System::Void Method_2_CA373AA1C7054598()
+		::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* BJLELCAIHLP(::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* MIALFKCCCPI, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* KMGKAIDEIBA)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+			return ((::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*(*)(::PVOID, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_BJLELCAIHLP_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 
-		::System::Void Method_2_D635BC10208DDAB9(::WeatherConfig* a1)
+		::System::Void FMLOHPFMEDK()
 		{
-			return ((::System::Void(*)(::PVOID, ::WeatherConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_D635BC10208DDAB9_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_FMLOHPFMEDK_OFFSET))(this);
 		}
 
-		::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* Method_2_1374F5C8C30BDCEE(::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* a1, ::System::Single a2)
+		::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* DHDANLOBHFJ(::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* MIALFKCCCPI, ::System::Single KMGKAIDEIBA)
 		{
-			return ((::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*(*)(::PVOID, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_1374F5C8C30BDCEE_OFFSET))(this, a1, a2);
+			return ((::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*(*)(::PVOID, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_DHDANLOBHFJ_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
 		}
 
-		::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* Method_2_97FA89D8D3694CF1(::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* a1, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig* a2)
+		::System::Void NJIOPMCBIOI(::WeatherConfig* MIALFKCCCPI)
 		{
-			return ((::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*(*)(::PVOID, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*, ::MoleMole::Timeline::AutoGenerateComps::CompTimelineBaseConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_METHOD_2_97FA89D8D3694CF1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::WeatherConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONFIG_NJIOPMCBIOI_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

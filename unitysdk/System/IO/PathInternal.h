@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_IO_PATHINTERNAL_HASILLEGALCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1E120270)
+#define SYSTEM_IO_PATHINTERNAL_HASILLEGALCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1E48C750)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int PathInternal_TypeDefinitionIndex = 672;
+	inline static constexpr unsigned int PathInternal_TypeDefinitionIndex = 671;
 
 	class PathInternal : public ::System::Object
 	{

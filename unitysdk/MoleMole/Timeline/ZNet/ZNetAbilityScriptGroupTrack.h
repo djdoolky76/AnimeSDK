@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTGROUPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19741B80)
+#define MOLEMOLE_TIMELINE_ZNET_ZNETABILITYSCRIPTGROUPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B9790)
 
 namespace MoleMole::Timeline::ZNet
 {
-	inline static constexpr unsigned int ZNetAbilityScriptGroupTrack_TypeDefinitionIndex = 89320;
+	inline static constexpr unsigned int ZNetAbilityScriptGroupTrack_TypeDefinitionIndex = 53805;
 
 	class ZNetAbilityScriptGroupTrack : public ::MoleMole::Timeline::ZNet::ZNetGroupTrack
 	{

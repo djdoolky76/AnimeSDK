@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Dest/Math/AAB3.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Dest/Math/AAB3.h"
 
 namespace Dest::Math { class Rand; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DEST_MATH_POINTSFILTER_DATA_BINARYSEARCH_1_OFFSET UNITYSDK_OFFSET(0x1F27D940)
-#define DEST_MATH_POINTSFILTER_DATA_BINARYSEARCH_OFFSET UNITYSDK_OFFSET(0x1F27D8B0)
-#define DEST_MATH_POINTSFILTER_DATA_CALCGRIDINDICES_OFFSET UNITYSDK_OFFSET(0x1F27D9D0)
-#define DEST_MATH_POINTSFILTER_DATA_FILTER_OFFSET UNITYSDK_OFFSET(0x1F27DA20)
-#define DEST_MATH_POINTSFILTER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F27D770)
+#define DEST_MATH_POINTSFILTER_DATA_BINARYSEARCH_1_OFFSET UNITYSDK_OFFSET(0x1F68C060)
+#define DEST_MATH_POINTSFILTER_DATA_BINARYSEARCH_OFFSET UNITYSDK_OFFSET(0x1F68BFD0)
+#define DEST_MATH_POINTSFILTER_DATA_CALCGRIDINDICES_OFFSET UNITYSDK_OFFSET(0x1F68C0F0)
+#define DEST_MATH_POINTSFILTER_DATA_FILTER_OFFSET UNITYSDK_OFFSET(0x1F68C140)
+#define DEST_MATH_POINTSFILTER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1F68BE90)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int PointsFilter_Data_TypeDefinitionIndex = 35460;
+	inline static constexpr unsigned int PointsFilter_Data_TypeDefinitionIndex = 35033;
 
 	class PointsFilter_Data : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Collections::Generic::List_1<::System::Int32>*>* _grid; // 0x10
-		::Dest::Math::Rand* _rand; // 0x18
+		::Dest::Math::Rand* _rand; // 0x10
+		::System::Object* _grid; // 0x18
 		::Il2CppArray<::UnityEngine::Vector3>* _points; // 0x20
-		::System::Single _cellSize; // 0x28
-		::UnityEngine::Vector3 _max; // 0x2C
-		::System::Int32 _cellsX; // 0x38
-		::System::Int32 _cellsZ; // 0x3C
-		::System::Int32 _cellsY; // 0x40
-		::UnityEngine::Vector3 _min; // 0x44
-		::System::Single _radius; // 0x50
+		::UnityEngine::Vector3 _max; // 0x28
+		::System::Single _radius; // 0x34
+		::UnityEngine::Vector3 _min; // 0x38
+		::System::Int32 _cellsY; // 0x44
+		::System::Single _cellSize; // 0x48
+		::System::Int32 _cellsX; // 0x4C
+		::System::Int32 _cellsZ; // 0x50
 
 		::System::Void _ctor(::Il2CppArray<::UnityEngine::Vector3>* points, ::System::Single radius, ::Dest::Math::Rand* rand, ::Dest::Math::AAB3 aab)
 		{

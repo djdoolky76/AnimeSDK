@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
-#define FLOWCANVAS_NODES_WHILE_DOWHILE_OFFSET UNITYSDK_OFFSET(0x1E8B9B60)
-#define FLOWCANVAS_NODES_WHILE_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1E8B9A20)
-#define FLOWCANVAS_NODES_WHILE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1E8B9A30)
-#define FLOWCANVAS_NODES_WHILE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1E8B9A60)
-#define FLOWCANVAS_NODES_WHILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B9BE0)
+#define FLOWCANVAS_NODES_WHILE_DOWHILE_OFFSET UNITYSDK_OFFSET(0x1EB7F420)
+#define FLOWCANVAS_NODES_WHILE_ONGRAPHSTARTED_OFFSET UNITYSDK_OFFSET(0x1EB7F2F0)
+#define FLOWCANVAS_NODES_WHILE_ONGRAPHSTOPED_OFFSET UNITYSDK_OFFSET(0x1EB7F300)
+#define FLOWCANVAS_NODES_WHILE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EB7F330)
+#define FLOWCANVAS_NODES_WHILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7F4A0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int While_TypeDefinitionIndex = 30292;
+	inline static constexpr unsigned int While_TypeDefinitionIndex = 30234;
 
 	class While : public ::FlowCanvas::Nodes::FlowControlNode
 	{

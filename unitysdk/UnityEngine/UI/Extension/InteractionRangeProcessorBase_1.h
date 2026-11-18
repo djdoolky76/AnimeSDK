@@ -5,12 +5,11 @@
 
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
-namespace UnityEngine::UI::Extension { template <typename T> class InteractionRangeParam_1; }
 namespace UnityEngine::UI::Extension { template <typename T> class Range_1; }
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int InteractionRangeProcessorBase_1_TypeDefinitionIndex = 56069;
+	inline static constexpr unsigned int InteractionRangeProcessorBase_1_TypeDefinitionIndex = 86626;
 
 	template <typename T>
 	class InteractionRangeProcessorBase_1 : public ::UnityEngine::UI::Extension::InteractionRangeProcessorBase

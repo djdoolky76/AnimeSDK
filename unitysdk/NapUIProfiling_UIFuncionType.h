@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NapUIProfiling_UIFuncionType_TypeDefinitionIndex = 19183;
+inline static constexpr unsigned int NapUIProfiling_UIFuncionType_TypeDefinitionIndex = 18337;
 
 enum class NapUIProfiling_UIFuncionType : ::System::Int32
 {

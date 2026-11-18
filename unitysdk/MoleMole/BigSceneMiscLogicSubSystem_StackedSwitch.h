@@ -3,24 +3,23 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-namespace MoleMole { class BigSceneMiscLogicSubSystem_StackedSwitch_Disposable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_STACKEDSWITCH_CLEAR_OFFSET UNITYSDK_OFFSET(0xF11DE00)
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_STACKEDSWITCH_POP_1_OFFSET UNITYSDK_OFFSET(0xF11DCA0)
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_STACKEDSWITCH_POP_OFFSET UNITYSDK_OFFSET(0xF11DA20)
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_STACKEDSWITCH_PUSH_OFFSET UNITYSDK_OFFSET(0xF11D530)
-#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_STACKEDSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0xF11DEC0)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_STACKEDSWITCH_CLEAR_OFFSET UNITYSDK_OFFSET(0xFFB5750)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_STACKEDSWITCH_POP_1_OFFSET UNITYSDK_OFFSET(0xFFB55F0)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_STACKEDSWITCH_POP_OFFSET UNITYSDK_OFFSET(0xFFB5370)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_STACKEDSWITCH_PUSH_OFFSET UNITYSDK_OFFSET(0xFFB4EF0)
+#define MOLEMOLE_BIGSCENEMISCLOGICSUBSYSTEM_STACKEDSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0xFFB5810)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BigSceneMiscLogicSubSystem_StackedSwitch_TypeDefinitionIndex = 51414;
+	inline static constexpr unsigned int BigSceneMiscLogicSubSystem_StackedSwitch_TypeDefinitionIndex = 39726;
 
 	class BigSceneMiscLogicSubSystem_StackedSwitch : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::MoleMole::BigSceneMiscLogicSubSystem_StackedSwitch_Disposable*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*>>* _tags; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::Object*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*>>* _tags; // 0x10
 
 		::System::Void _ctor()
 		{

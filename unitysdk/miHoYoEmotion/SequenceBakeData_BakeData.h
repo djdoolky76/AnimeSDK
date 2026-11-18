@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/miHoYoEmotion/TransitionType.h"
 
-#define MIHOYOEMOTION_SEQUENCEBAKEDATA_BAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D04F560)
+#define MIHOYOEMOTION_SEQUENCEBAKEDATA_BAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A3060)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int SequenceBakeData_BakeData_TypeDefinitionIndex = 40036;
+	inline static constexpr unsigned int SequenceBakeData_BakeData_TypeDefinitionIndex = 38025;
 
 	class SequenceBakeData_BakeData : public ::System::Object
 	{

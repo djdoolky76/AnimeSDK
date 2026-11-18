@@ -6,10 +6,10 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define INSTANCEOPTIMIZEMANAGER_BAKEINSTANCEINFO_OFFSET UNITYSDK_OFFSET(0x135B5AE0)
-#define INSTANCEOPTIMIZEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x135B6350)
+#define INSTANCEOPTIMIZEMANAGER_BAKEINSTANCEINFO_OFFSET UNITYSDK_OFFSET(0x18717160)
+#define INSTANCEOPTIMIZEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x187179E0)
 
-inline static constexpr unsigned int InstanceOptimizeManager_TypeDefinitionIndex = 64376;
+inline static constexpr unsigned int InstanceOptimizeManager_TypeDefinitionIndex = 85479;
 
 class InstanceOptimizeManager : public ::UnityEngine::MonoBehaviour
 {

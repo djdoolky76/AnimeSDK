@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpKnownHeaderNames_TypeDefinitionIndex = 3316;
+	inline static constexpr unsigned int HttpKnownHeaderNames_TypeDefinitionIndex = 3315;
 
 	class HttpKnownHeaderNames : public ::System::Object
 	{

@@ -3,18 +3,18 @@
 
 namespace Foundation::ViewObject
 {
-	inline static constexpr unsigned int EViewObjectComponentCustomEvent_TypeDefinitionIndex = 49021;
+	inline static constexpr unsigned int EViewObjectComponentCustomEvent_TypeDefinitionIndex = 83220;
 
 	enum class EViewObjectComponentCustomEvent : ::System::Int32
 	{
-		None = 0,
-		OnUpdateSuite = 2,
 		OnVoTriggerEnter = 5,
+		OnUpdateSuite = 2,
 		OnControllablePossessed = 3,
-		OnGroupMemberActiveStateChanged = 1,
-		OnControllableUnpossessed = 4,
 		OnGameplayTagChange = 8,
-		OnVoTriggerStopListening = 7,
+		None = 0,
+		OnControllableUnpossessed = 4,
 		OnVoTriggerExit = 6,
+		OnVoTriggerStopListening = 7,
+		OnGroupMemberActiveStateChanged = 1,
 	};
 }

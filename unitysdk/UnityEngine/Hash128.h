@@ -5,26 +5,26 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_HASH128_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0xA113E0)
-#define UNITYENGINE_HASH128_COMPARETO_OFFSET UNITYSDK_OFFSET(0xA112A0)
-#define UNITYENGINE_HASH128_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA11380)
-#define UNITYENGINE_HASH128_EQUALS_OFFSET UNITYSDK_OFFSET(0xA11300)
-#define UNITYENGINE_HASH128_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA113C0)
-#define UNITYENGINE_HASH128_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xA11280)
-#define UNITYENGINE_HASH128_GET_U64_0_OFFSET UNITYSDK_OFFSET(0x259D70)
-#define UNITYENGINE_HASH128_GET_U64_1_OFFSET UNITYSDK_OFFSET(0x31CCF0)
-#define UNITYENGINE_HASH128_INTERNAL_HASH128TOSTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1E3169C0)
-#define UNITYENGINE_HASH128_INTERNAL_HASH128TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3169B0)
-#define UNITYENGINE_HASH128_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E316A50)
-#define UNITYENGINE_HASH128_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1E316930)
-#define UNITYENGINE_HASH128_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1E316910)
-#define UNITYENGINE_HASH128_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA112E0)
-#define UNITYENGINE_HASH128__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA11260)
-#define UNITYENGINE_HASH128__CTOR_OFFSET UNITYSDK_OFFSET(0x6245C0)
+#define UNITYENGINE_HASH128_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x9045A0)
+#define UNITYENGINE_HASH128_COMPARETO_OFFSET UNITYSDK_OFFSET(0x904460)
+#define UNITYENGINE_HASH128_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x904540)
+#define UNITYENGINE_HASH128_EQUALS_OFFSET UNITYSDK_OFFSET(0x9044C0)
+#define UNITYENGINE_HASH128_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x904580)
+#define UNITYENGINE_HASH128_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x904440)
+#define UNITYENGINE_HASH128_GET_U64_0_OFFSET UNITYSDK_OFFSET(0x282350)
+#define UNITYENGINE_HASH128_GET_U64_1_OFFSET UNITYSDK_OFFSET(0x2E38E0)
+#define UNITYENGINE_HASH128_INTERNAL_HASH128TOSTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1E5418D0)
+#define UNITYENGINE_HASH128_INTERNAL_HASH128TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5418C0)
+#define UNITYENGINE_HASH128_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E541960)
+#define UNITYENGINE_HASH128_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1E541840)
+#define UNITYENGINE_HASH128_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1E541820)
+#define UNITYENGINE_HASH128_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9044A0)
+#define UNITYENGINE_HASH128__CTOR_1_OFFSET UNITYSDK_OFFSET(0x904420)
+#define UNITYENGINE_HASH128__CTOR_OFFSET UNITYSDK_OFFSET(0x6C98D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Hash128_TypeDefinitionIndex = 5277;
+	inline static constexpr unsigned int Hash128_TypeDefinitionIndex = 5279;
 
 	struct alignas(4) Hash128
 	{
@@ -58,30 +58,36 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_HASH128_GET_ISVALID_OFFSET))(this);
 		}
 
+		/*
 		::System::Int32 CompareTo(::UnityEngine::Hash128 rhs)
 		{
 			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Hash128))((::PBYTE)hIl2Cpp + UNITYENGINE_HASH128_COMPARETO_OFFSET))(this, rhs);
 		}
+		*/
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_HASH128_TOSTRING_OFFSET))(this);
 		}
 
+		/*
 		static ::System::String* Internal_Hash128ToString(::UnityEngine::Hash128 hash128)
 		{
 			return ((::System::String*(*)(::UnityEngine::Hash128))((::PBYTE)hIl2Cpp + UNITYENGINE_HASH128_INTERNAL_HASH128TOSTRING_OFFSET))(hash128);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* obj)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_HASH128_EQUALS_OFFSET))(this, obj);
 		}
 
+		/*
 		::System::Boolean Equals_1(::UnityEngine::Hash128 obj)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Hash128))((::PBYTE)hIl2Cpp + UNITYENGINE_HASH128_EQUALS_1_OFFSET))(this, obj);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{
@@ -93,24 +99,32 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_HASH128_COMPARETO_1_OFFSET))(this, obj);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::Hash128 hash1, ::UnityEngine::Hash128 hash2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Hash128, ::UnityEngine::Hash128))((::PBYTE)hIl2Cpp + UNITYENGINE_HASH128_OP_EQUALITY_OFFSET))(hash1, hash2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_LessThan(::UnityEngine::Hash128 x, ::UnityEngine::Hash128 y)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Hash128, ::UnityEngine::Hash128))((::PBYTE)hIl2Cpp + UNITYENGINE_HASH128_OP_LESSTHAN_OFFSET))(x, y);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_GreaterThan(::UnityEngine::Hash128 x, ::UnityEngine::Hash128 y)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Hash128, ::UnityEngine::Hash128))((::PBYTE)hIl2Cpp + UNITYENGINE_HASH128_OP_GREATERTHAN_OFFSET))(x, y);
 		}
+		*/
 
+		/*
 		static ::System::String* Internal_Hash128ToString_Injected(::UnityEngine::Hash128& hash128)
 		{
 			return ((::System::String*(*)(::UnityEngine::Hash128&))((::PBYTE)hIl2Cpp + UNITYENGINE_HASH128_INTERNAL_HASH128TOSTRING_INJECTED_OFFSET))(hash128);
 		}
+		*/
 	};
 }

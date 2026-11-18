@@ -1,16 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_C6E8F7731271F88A.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
-#include "unitysdk/MoleMole/ChessboardPathLink.h"
 #include "unitysdk/MoleMole/Config/ChessboardTimeLineConfig.h"
-#include "unitysdk/MoleMole/Config/ConfigHollowChessboard_BubbleReasonType.h"
-#include "unitysdk/MoleMole/Config/ConfigHollowChessboard_ConfigHollowChessPieceEdge.h"
-#include "unitysdk/MoleMole/Config/ConfigHollowChessboard_PieceChangeStructType.h"
-#include "unitysdk/MoleMole/Config/ConfigHollowChessboard_TVModelData.h"
-#include "unitysdk/MoleMole/Config/ConfigHollowChessboard_TvSwitchType.h"
+#include "unitysdk/MoleMole/ChessboardPathLink.h"
 #include "unitysdk/MoleMole/HollowChessPieceSizeType.h"
 #include "unitysdk/MoleMole/Vector2Int.h"
+#include "unitysdk/OMDJLKPMLMM.h"
 #include "unitysdk/ProtoScript/NodeState.h"
 #include "unitysdk/ProtoScript/NodeVisible.h"
 #include "unitysdk/UnityEngine/Color.h"
@@ -39,13 +34,8 @@ namespace MoleMole::Config { class ConfigHollowChessboardObservation; }
 namespace MoleMole::Config { class ConfigHollowChessboardPerformID; }
 namespace MoleMole::Config { class ConfigHollowChessboardScreenUI; }
 namespace MoleMole::Config { class ConfigHollowChessboardSystem; }
-namespace MoleMole::Config { class ConfigHollowChessboard_BubbleConfig; }
 namespace MoleMole::Config { class ConfigHollowChessboard_ItemCollectConfigData; }
-namespace MoleMole::Config { class ConfigHollowChessboard_PieceChangeStructConfigGroup; }
-namespace MoleMole::Config { class ConfigHollowChessboard_RangeCurveItem; }
 namespace MoleMole::Config { class ConfigHollowChessboard_TvMoveConfig; }
-namespace MoleMole::Config { class ConfigHollowChessboard_TvSwitchConfig; }
-namespace MoleMole::Config { class ConfigHollowChessboard_WeightedPerformingConfig; }
 namespace MoleMole::Config { class ConfigHollowHackerGame; }
 namespace MoleMole::Config { class ConfigHollowMoveEvent; }
 namespace MoleMole::Config { class ConfigHollowNpcPushBack; }
@@ -60,6 +50,7 @@ namespace MoleMole::HollowChessboard { class CellDiffusionTableConfig; }
 namespace MoleMole::HollowChessboard { class EffectRoleTableConfig; }
 namespace MoleMole::HollowChessboard { class HollowTipConfig; }
 namespace MoleMole::HollowChessboard { class PieceMaterialChangeConfig; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -67,47 +58,53 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GETANIMLISTVALUEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x16C41A80)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GETCHESSBOARDPATHZDELTA_OFFSET UNITYSDK_OFFSET(0x16C41B70)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GETCHESSBOARDPATHZ_OFFSET UNITYSDK_OFFSET(0x16C41B00)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GETCONVEYERBELTCAMERAMOVECURVE_OFFSET UNITYSDK_OFFSET(0x16C41880)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GETPUSHDISTANCECAMERAMOVECURVE_OFFSET UNITYSDK_OFFSET(0x16C417B0)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GETSPRINGCAMERAMOVECURVE_OFFSET UNITYSDK_OFFSET(0x16C41950)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GET_CORETVOVERLAYEFFS_OFFSET UNITYSDK_OFFSET(0x16C41470)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GET_DEFAULTPATHLINKRES_OFFSET UNITYSDK_OFFSET(0x16C41A20)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GET_NORMALTVOVERLAYEFFS_OFFSET UNITYSDK_OFFSET(0x16C41160)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GET_TVSCC_OFFSET UNITYSDK_OFFSET(0x16C41780)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_TESTFILTER_OFFSET UNITYSDK_OFFSET(0x16C41D50)
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x16C41FA0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GETANIMLISTVALUEDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1A02E920)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GETCHESSBOARDPATHZDELTA_OFFSET UNITYSDK_OFFSET(0x1A02EA10)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GETCHESSBOARDPATHZ_OFFSET UNITYSDK_OFFSET(0x1A02E9A0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GETCONVEYERBELTCAMERAMOVECURVE_OFFSET UNITYSDK_OFFSET(0x1A02E720)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GETPUSHDISTANCECAMERAMOVECURVE_OFFSET UNITYSDK_OFFSET(0x1A02E650)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GETSPRINGCAMERAMOVECURVE_OFFSET UNITYSDK_OFFSET(0x1A02E7F0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GET_CORETVOVERLAYEFFS_OFFSET UNITYSDK_OFFSET(0x1A02E310)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GET_DEFAULTPATHLINKRES_OFFSET UNITYSDK_OFFSET(0x1A02E8C0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GET_NORMALTVOVERLAYEFFS_OFFSET UNITYSDK_OFFSET(0x1A02E000)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_GET_TVSCC_OFFSET UNITYSDK_OFFSET(0x1A02E620)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_TESTFILTER_OFFSET UNITYSDK_OFFSET(0x1A02EBF0)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02EE40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_TypeDefinitionIndex = 59221;
+	inline static constexpr unsigned int ConfigHollowChessboard_TypeDefinitionIndex = 46302;
 
 	class ConfigHollowChessboard : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		::System::Boolean EnableNewEntity; // 0x58
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ChessboardTimeLineConfig>* PerformanceConfigGroup; // 0x60
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigHollowChessboard_PieceChangeStructType, ::MoleMole::Config::ConfigHollowChessboard_PieceChangeStructConfigGroup*>* PieceChangeStructConfigGroupDic; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* PieceChangeStructConfigGroupDic; // 0x68
 		::System::Single riseDuration; // 0x70
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* riseCurve; // 0x78
 		::System::Single refreshViewDelayTime; // 0x80
 		::System::Single lightDuration; // 0x84
 		::System::Single lightDelay; // 0x88
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* lightCurve; // 0x90
 		::System::Single sinkDelayTime; // 0x98
 		::System::Single sinkDuration; // 0x9C
 		::UnityEngine::AnimationCurve* sinkCurve; // 0xA0
 		::System::Boolean isRefreshViewBeforeSink; // 0xA8
+		::System::Byte _padding3[0x3];
 		::System::Single sinkLightDuration; // 0xAC
 		::System::Single sinkLightDelay; // 0xB0
+		::System::Byte _padding4[0x4];
 		::UnityEngine::AnimationCurve* sinkLightCurve; // 0xB8
 		::System::Single emptyTvBaseZ; // 0xC0
 		::System::Single emptyTvOffsetZ; // 0xC4
 		::System::Single emptyBrightnessMax; // 0xC8
 		::System::Single emptyBrightnessMin; // 0xCC
 		::System::Int32 emptyBrightnessRange; // 0xD0
+		::System::Byte _padding5[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _normalTvOverlayEffs; // 0xD8
 		::System::Collections::Generic::List_1<::System::String*>* normalTvOverlayEffPathes; // 0xE0
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _coreTvOverlayEffs; // 0xE8
@@ -118,10 +115,12 @@ namespace MoleMole::Config
 		::System::Boolean tvPoolDebugToggle3D; // 0xFB
 		::System::Boolean chessboardViewerDebugToggle; // 0xFC
 		::System::Boolean chessboardViewerEnableQuadTree; // 0xFD
+		::System::Byte _padding6[0x2];
 		::System::Int32 chessboardQuadTreeMaxLevel; // 0x100
 		::System::Int32 chessboardQuadTreeRegionNum; // 0x104
 		::System::Boolean chessboardQuadTreeDebugToggle; // 0x108
 		::System::Boolean chessboardBorderDebugToggle; // 0x109
+		::System::Byte _padding7[0x2];
 		::System::Single chessboardVisibleOffsetZ; // 0x10C
 		::UnityEngine::Vector2 tvShellModelPoolSize; // 0x110
 		::UnityEngine::Vector2 tvBigShellModelPoolSize; // 0x118
@@ -129,12 +128,14 @@ namespace MoleMole::Config
 		::System::Single tvGiNeighborIntensity; // 0x124
 		::System::Single tvGiCornerIntensity; // 0x128
 		::UnityEngine::Vector3 tvScc; // 0x12C
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessPieceSizeType, ::MoleMole::Config::ConfigHollowChessboard_TVModelData>*>* TvModelPreset; // 0x138
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessPieceSizeType, ::System::Object*>*>* TvModelPreset; // 0x138
 		::System::String* modelScreenPath1x1; // 0x140
 		::System::String* modelScreenPath2x2; // 0x148
 		::System::Boolean isTextureSheetSync; // 0x150
+		::System::Byte _padding8[0x3];
 		::System::Int32 placeHolderChesspieceW; // 0x154
 		::System::Int32 placeHolderChesspieceH; // 0x158
+		::System::Byte _padding9[0x4];
 		::MoleMole::Config::ConfigBlockedChessPiece* blockedChesspiece; // 0x160
 		::MoleMole::Config::ConfigFinishedChessPiece* finishedChesspiece; // 0x168
 		::MoleMole::Config::ConfigFrontVideoChessPiece* frontVideoChessPiece; // 0x170
@@ -157,7 +158,8 @@ namespace MoleMole::Config
 		::System::String* ConveyerBeltFinalShakeB2U; // 0x1D0
 		::System::String* ConveyerBeltFinalShakeU2B; // 0x1D8
 		::System::Single ConveyerBeltCameraMoveInitDelayTime; // 0x1E0
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_RangeCurveItem*>* ConveyerBeltCameraMoveCurveGroup; // 0x1E8
+		::System::Byte _padding10[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* ConveyerBeltCameraMoveCurveGroup; // 0x1E8
 		::System::Single PushDistanceDelayTime; // 0x1F0
 		::System::Single PushDistanceStartDelayTime; // 0x1F4
 		::System::Int32 PushDistanceAudioID; // 0x1F8
@@ -174,50 +176,59 @@ namespace MoleMole::Config
 		::System::String* PushDistanceFinalShakeB2U; // 0x230
 		::System::String* PushDistanceFinalShakeU2B; // 0x238
 		::System::Single PushDistanceFinalShakeDelay; // 0x240
+		::System::Byte _padding11[0x4];
 		::UnityEngine::AnimationCurve* PushDistanceFinalOverDistanceCurve; // 0x248
 		::System::Single PushDistanceFinalOverTime; // 0x250
 		::System::Single PushDistancePathDelayTime; // 0x254
 		::System::Single PushDistancePathStartTime; // 0x258
 		::System::Single PushDistanceNoEventFreeDelay; // 0x25C
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_RangeCurveItem*>* PushDistanceCameraMoveCurveGroup; // 0x260
+		::System::Collections::Generic::List_1<::System::Object*>* PushDistanceCameraMoveCurveGroup; // 0x260
 		::System::Int32 SpringAudioID; // 0x268
 		::System::Single SpringStartTime; // 0x26C
 		::System::Single SpringStartFocusTime; // 0x270
 		::System::Single SpringChargeDistanceRatioX; // 0x274
 		::System::Single SpringChargeDistanceRatioY; // 0x278
+		::System::Byte _padding12[0x4];
 		::UnityEngine::AnimationCurve* SpringChargeDistanceCurve; // 0x280
 		::System::Single SpringDelayTime; // 0x288
 		::System::Single SpringPathStartTime; // 0x28C
 		::System::Single SpringPathDelayTime; // 0x290
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_RangeCurveItem*>* SpringCameraMoveCurveGroup; // 0x298
+		::System::Byte _padding13[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* SpringCameraMoveCurveGroup; // 0x298
 		::System::Single SpringCameraMoveAddtionalTime; // 0x2A0
 		::System::Single SpringFinalOverTime; // 0x2A4
 		::System::Single SpringFinalOverDistanceRatioX; // 0x2A8
 		::System::Single SpringFinalOverDistanceRatioY; // 0x2AC
 		::UnityEngine::AnimationCurve* SpringFinalOverDistanceCurve; // 0x2B0
 		::System::Single StringFinalShakeDelay; // 0x2B8
+		::System::Byte _padding14[0x4];
 		::System::String* StringFinalShakeR2L; // 0x2C0
 		::System::String* StringFinalShakeL2R; // 0x2C8
 		::System::String* StringFinalShakeB2U; // 0x2D0
 		::System::String* StringFinalShakeU2B; // 0x2D8
 		::System::Single PushAsPlayerDelayTime; // 0x2E0
 		::System::Boolean IsSyncPathTextureSheet; // 0x2E4
+		::System::Byte _padding15[0x3];
 		::System::Collections::Generic::List_1<::ProtoScript::NodeState>* NodeStateShowLinkView; // 0x2E8
 		::System::Collections::Generic::List_1<::ProtoScript::NodeVisible>* VisibleStateShowLinkView; // 0x2F0
-		::System::Collections::Generic::List_1<::Enum_3_C6E8F7731271F88A>* SubStateShowLinkView; // 0x2F8
+		::System::Collections::Generic::List_1<::OMDJLKPMLMM>* SubStateShowLinkView; // 0x2F8
 		::System::Boolean IsOpenPathLinkView; // 0x300
+		::System::Byte _padding16[0x7];
 		::System::Collections::Generic::Dictionary_2<::MoleMole::ChessboardPathLink, ::System::Int32>* PathLinkResDict; // 0x308
 		::System::Boolean IsOpenPathLinkViewFinished; // 0x310
+		::System::Byte _padding17[0x7];
 		::System::Collections::Generic::Dictionary_2<::MoleMole::ChessboardPathLink, ::System::Int32>* PathLinkResDictFinished; // 0x318
 		::System::Boolean IsOpenPathLinkViewStamina; // 0x320
+		::System::Byte _padding18[0x7];
 		::System::Collections::Generic::Dictionary_2<::MoleMole::ChessboardPathLink, ::System::Int32>* PathLinkResDictStamina; // 0x328
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::MoleMole::Config::ChessboardPathConfig*>* GlobalPathLinkResDict; // 0x330
 		::System::Single FrameReflectionRadius; // 0x338
 		::System::Single FrameReflectionIntensity; // 0x33C
 		::System::String* VideoBlendTextureSheet; // 0x340
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigHollowChessboard_TvSwitchType, ::MoleMole::Config::ConfigHollowChessboard_TvSwitchConfig*>* TvSwitchConfigDic; // 0x348
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* TvSwitchConfigDic; // 0x348
 		::MoleMole::Config::ConfigHollowChessboard_TvMoveConfig* tvMoveConfig; // 0x350
 		::System::Single fishTVDuration; // 0x358
+		::System::Byte _padding19[0x4];
 		::UnityEngine::AnimationCurve* fishTVCurve; // 0x360
 		::System::Single fishUpDelta; // 0x368
 		::System::Single fishTVDownDuration; // 0x36C
@@ -233,6 +244,7 @@ namespace MoleMole::Config
 		::MoleMole::Config::ChessboardCoinSoundConfig* addCoin1; // 0x3B0
 		::MoleMole::Config::ChessboardCoinSoundConfig* addCoin2; // 0x3B8
 		::System::Boolean EnableAcceleration; // 0x3C0
+		::System::Byte _padding20[0x7];
 		::MoleMole::Config::ChessboardScreenEffectConfigV2* AccelerationConfig; // 0x3C8
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessPieceSizeType, ::System::String*>*>* effectReplaceDic; // 0x3D0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* chessboardEffectAudioIDDic; // 0x3D8
@@ -241,17 +253,19 @@ namespace MoleMole::Config
 		::UnityEngine::Color SoldOutColor; // 0x3E8
 		::UnityEngine::Color CurseColor1; // 0x3F8
 		::UnityEngine::Color CurseColor2; // 0x408
-		::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_BubbleConfig*>* OtherStructBubbleConfig; // 0x418
-		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::ConfigHollowChessboard_BubbleReasonType, ::System::Collections::Generic::List_1<::MoleMole::Config::ConfigHollowChessboard_BubbleConfig*>*>* BubbleConfigMap; // 0x420
+		::System::Collections::Generic::List_1<::System::Object*>* OtherStructBubbleConfig; // 0x418
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::List_1<::System::Object*>*>* BubbleConfigMap; // 0x420
 		::System::Single OpenEventDelay; // 0x428
 		::System::Single CloseEventDelay; // 0x42C
 		::System::Boolean EnableTimeScale; // 0x430
+		::System::Byte _padding21[0x3];
 		::UnityEngine::Vector2 PlayerVisibleRegionW; // 0x434
 		::UnityEngine::Vector2 PlayerVisibleRegionH; // 0x43C
 		::System::Boolean PlayerVisibleRegionDebugToggle; // 0x444
-		::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessPieceSizeType, ::MoleMole::Config::ConfigHollowChessboard_ConfigHollowChessPieceEdge>* chessPieceEdge; // 0x448
+		::System::Byte _padding22[0x3];
+		::System::Collections::Generic::Dictionary_2<::MoleMole::HollowChessPieceSizeType, ::System::Object*>* chessPieceEdge; // 0x448
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigAnimationCurveGroup*>* AnimationCurveDict; // 0x450
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigHollowChessboard_WeightedPerformingConfig*>* WeightedPerformingConfigs; // 0x458
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* WeightedPerformingConfigs; // 0x458
 		::MoleMole::Config::ConfigHollowChangeChessboard* HollowChangeChessboardConfig; // 0x460
 		::MoleMole::Config::ConfigHollowChessboard_ItemCollectConfigData* ItemCollectConfig; // 0x468
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigChessboardFilter*>* ChessboardFilter; // 0x470
@@ -267,6 +281,7 @@ namespace MoleMole::Config
 		::System::Int32 AwakeFromSleepSoundID; // 0x4B0
 		::System::Boolean UseBlessAsOverload; // 0x4B4
 		::System::Boolean ClearAccelerate; // 0x4B5
+		::System::Byte _padding23[0x2];
 		::System::Int32 PushBoxPlayerMoveAudioID; // 0x4B8
 		::System::Int32 PushBoxPushAudioID; // 0x4BC
 		::System::Int32 PushBoxBoxSlideAudioID; // 0x4C0
@@ -280,9 +295,11 @@ namespace MoleMole::Config
 		::MoleMole::Config::ConfigHollowChessboardIndicatorLight* IndicatorLightConfig; // 0x4F8
 		::UnityEngine::Vector3 HudOffset; // 0x500
 		::System::Boolean LoopBlendEnd; // 0x50C
+		::System::Byte _padding24[0x3];
 		::MoleMole::HollowChessboard::CellDiffusionTableConfig* DiffusionTableConfig; // 0x510
 		::System::Single BeatsTime; // 0x518
 		::System::Boolean OpenBeatsLog; // 0x51C
+		::System::Byte _padding25[0x3];
 		::MoleMole::Config::ConfigHollowChessboardObservation* ObservationConfig; // 0x520
 		::MoleMole::Config::ConfigHollowNpcPushBack* HollowNpcPushBackConfig; // 0x528
 		::MoleMole::Config::ConfigHollowMoveEvent* HollowMoveEventConfig; // 0x530

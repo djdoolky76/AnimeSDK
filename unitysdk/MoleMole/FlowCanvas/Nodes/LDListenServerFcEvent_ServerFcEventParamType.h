@@ -3,7 +3,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDListenServerFcEvent_ServerFcEventParamType_TypeDefinitionIndex = 88138;
+	inline static constexpr unsigned int LDListenServerFcEvent_ServerFcEventParamType_TypeDefinitionIndex = 51537;
 
 	enum class LDListenServerFcEvent_ServerFcEventParamType : ::System::Int32
 	{

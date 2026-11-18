@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHARACTERISMALE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B52F360)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHARACTERISMALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52F490)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHARACTERISMALE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x142F9F40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHARACTERISMALE__CTOR_OFFSET UNITYSDK_OFFSET(0x142FA070)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCharacterIsMale_TypeDefinitionIndex = 83456;
+	inline static constexpr unsigned int LDCharacterIsMale_TypeDefinitionIndex = 48311;
 
 	class LDCharacterIsMale : public ::FlowCanvas::Nodes::FlowControlNode
 	{

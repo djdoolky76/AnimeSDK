@@ -2,14 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/InputSystem/InputProcessor.h"
 
-namespace System { class Object; }
-namespace UnityEngine::InputSystem { class InputControl; }
-
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputProcessor_1_TypeDefinitionIndex = 32246;
+	inline static constexpr unsigned int InputProcessor_1_TypeDefinitionIndex = 31695;
 
-	template <typename TValue>
+	template <typename T>
 	class InputProcessor_1 : public ::UnityEngine::InputSystem::InputProcessor
 	{
 	public:

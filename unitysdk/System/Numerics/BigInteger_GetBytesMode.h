@@ -3,7 +3,7 @@
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int BigInteger_GetBytesMode_TypeDefinitionIndex = 6386;
+	inline static constexpr unsigned int BigInteger_GetBytesMode_TypeDefinitionIndex = 6392;
 
 	enum class BigInteger_GetBytesMode : ::System::Int32
 	{

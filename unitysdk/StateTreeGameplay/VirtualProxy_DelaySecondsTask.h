@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/StateTreeGameplay/VirtualProxy_StateTreeCommonTaskBase.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALPROXY_DELAYSECONDSTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1EC68490)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_DELAYSECONDSTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1EC68570)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_DELAYSECONDSTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1EC68510)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_DELAYSECONDSTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1EC68620)
-#define STATETREEGAMEPLAY_VIRTUALPROXY_DELAYSECONDSTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC686F0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_DELAYSECONDSTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1EBC60B0)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_DELAYSECONDSTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1EBC6190)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_DELAYSECONDSTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1EBC6130)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_DELAYSECONDSTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1EBC6240)
+#define STATETREEGAMEPLAY_VIRTUALPROXY_DELAYSECONDSTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC6310)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualProxy_DelaySecondsTask_TypeDefinitionIndex = 72897;
+	inline static constexpr unsigned int VirtualProxy_DelaySecondsTask_TypeDefinitionIndex = 73866;
 
 	class VirtualProxy_DelaySecondsTask : public ::StateTreeGameplay::VirtualProxy_StateTreeCommonTaskBase
 	{

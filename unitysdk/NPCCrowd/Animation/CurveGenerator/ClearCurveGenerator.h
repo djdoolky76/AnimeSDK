@@ -4,9 +4,9 @@
 
 namespace NPCCrowd::Animation::CurveGenerator
 {
-	inline static constexpr unsigned int ClearCurveGenerator_TypeDefinitionIndex = 78734;
+	inline static constexpr unsigned int ClearCurveGenerator_TypeDefinitionIndex = 47739;
 
-	struct alignas(1) ClearCurveGenerator
+	struct alignas(4) ClearCurveGenerator
 	{
 	};
 }

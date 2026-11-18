@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Security/AccessControl/AceFlags.h"
 #include "unitysdk/System/Security/AccessControl/AceQualifier.h"
 #include "unitysdk/System/Security/AccessControl/AceType.h"
 #include "unitysdk/System/Security/AccessControl/ObjectAceFlags.h"
 #include "unitysdk/System/Security/AccessControl/QualifiedAce.h"
+#include "unitysdk/System/Guid.h"
 
 namespace System::Security::Principal { class SecurityIdentifier; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_CONVERTTYPE_OFFSET UNITYSDK_OFFSET(0x1DC06CE0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_GETBINARYFORM_OFFSET UNITYSDK_OFFSET(0x1DC07220)
-#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_GET_BINARYLENGTH_OFFSET UNITYSDK_OFFSET(0x1DC071C0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_GET_INHERITEDOBJECTACETYPEPRESENT_OFFSET UNITYSDK_OFFSET(0x1DC07130)
-#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_GET_OBJECTACETYPEPRESENT_OFFSET UNITYSDK_OFFSET(0x1DC07120)
-#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_READGUID_OFFSET UNITYSDK_OFFSET(0x1DC07140)
-#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_WRITEGUID_OFFSET UNITYSDK_OFFSET(0x1DC07450)
-#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DC06DC0)
-#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC06C30)
+#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_CONVERTTYPE_OFFSET UNITYSDK_OFFSET(0x1DF87B60)
+#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_GETBINARYFORM_OFFSET UNITYSDK_OFFSET(0x1DF880A0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_GET_BINARYLENGTH_OFFSET UNITYSDK_OFFSET(0x1DF88040)
+#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_GET_INHERITEDOBJECTACETYPEPRESENT_OFFSET UNITYSDK_OFFSET(0x1DF87FB0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_GET_OBJECTACETYPEPRESENT_OFFSET UNITYSDK_OFFSET(0x1DF87FA0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_READGUID_OFFSET UNITYSDK_OFFSET(0x1DF87FC0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE_WRITEGUID_OFFSET UNITYSDK_OFFSET(0x1DF882D0)
+#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DF87C40)
+#define SYSTEM_SECURITY_ACCESSCONTROL_OBJECTACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF87AB0)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int ObjectAce_TypeDefinitionIndex = 994;
+	inline static constexpr unsigned int ObjectAce_TypeDefinitionIndex = 993;
 
 	class ObjectAce : public ::System::Security::AccessControl::QualifiedAce
 	{
 	public:
-		::System::Security::AccessControl::ObjectAceFlags object_ace_flags; // 0x30
-		::System::Guid object_ace_type; // 0x34
-		::System::Guid inherited_object_type; // 0x44
+		::System::Guid object_ace_type; // 0x30
+		::System::Guid inherited_object_type; // 0x40
+		::System::Security::AccessControl::ObjectAceFlags object_ace_flags; // 0x50
 
 		::System::Void _ctor(::System::Security::AccessControl::AceFlags aceFlags, ::System::Security::AccessControl::AceQualifier qualifier, ::System::Int32 accessMask, ::System::Security::Principal::SecurityIdentifier* sid, ::System::Security::AccessControl::ObjectAceFlags flags, ::System::Guid type, ::System::Guid inheritedType, ::System::Boolean isCallback, ::Il2CppArray<::System::Byte>* opaque)
 		{

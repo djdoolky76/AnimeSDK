@@ -4,10 +4,10 @@
 
 namespace FlatBuffers
 {
-	inline static constexpr unsigned int Offset_1_TypeDefinitionIndex = 6733;
+	inline static constexpr unsigned int Offset_1_TypeDefinitionIndex = 6740;
 
 	template <typename T>
-	struct Offset_1
+	struct alignas(4) Offset_1
 	{
 		::System::Int32 Value; // 0x0
 	};

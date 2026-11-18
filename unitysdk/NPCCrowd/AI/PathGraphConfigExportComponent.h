@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NPCCROWD_AI_PATHGRAPHCONFIGEXPORTCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x10294D50)
+#define NPCCROWD_AI_PATHGRAPHCONFIGEXPORTCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x115B2EA0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphConfigExportComponent_TypeDefinitionIndex = 60557;
+	inline static constexpr unsigned int PathGraphConfigExportComponent_TypeDefinitionIndex = 61448;
 
 	class PathGraphConfigExportComponent : public ::NPCCrowd::AI::PathGraphFeaturePointComponent
 	{

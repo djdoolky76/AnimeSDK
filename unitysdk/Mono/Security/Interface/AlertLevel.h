@@ -3,11 +3,11 @@
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int AlertLevel_TypeDefinitionIndex = 2424;
+	inline static constexpr unsigned int AlertLevel_TypeDefinitionIndex = 2423;
 
 	enum class AlertLevel : ::System::Byte
 	{
-		Warning = 0x1,
-		Fatal = 0x2,
+		Warning = 1,
+		Fatal = 2,
 	};
 }

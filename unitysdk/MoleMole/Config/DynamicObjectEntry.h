@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_DYNAMICOBJECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1350B490)
+#define MOLEMOLE_CONFIG_DYNAMICOBJECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92F900)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DynamicObjectEntry_TypeDefinitionIndex = 88434;
+	inline static constexpr unsigned int DynamicObjectEntry_TypeDefinitionIndex = 41317;
 
 	class DynamicObjectEntry : public ::System::Object
 	{

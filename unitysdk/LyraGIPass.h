@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderTargetHandle.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define LYRAGIPASS_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1D2EBB30)
-#define LYRAGIPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D2EBDB0)
-#define LYRAGIPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D2EBE20)
-#define LYRAGIPASS_UPDATEBAKEDCLIPMAP_OFFSET UNITYSDK_OFFSET(0x1D2EBB80)
-#define LYRAGIPASS_VISUALIZE_OFFSET UNITYSDK_OFFSET(0x1D2EBC80)
-#define LYRAGIPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2EBAA0)
-#define LYRAGIPASS___BASE_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1D2EBE70)
-#define LYRAGIPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D2EBE80)
+#define LYRAGIPASS_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1D430420)
+#define LYRAGIPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D4306A0)
+#define LYRAGIPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D430710)
+#define LYRAGIPASS_UPDATEBAKEDCLIPMAP_OFFSET UNITYSDK_OFFSET(0x1D430470)
+#define LYRAGIPASS_VISUALIZE_OFFSET UNITYSDK_OFFSET(0x1D430570)
+#define LYRAGIPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D430390)
+#define LYRAGIPASS___BASE_CONFIGURE_OFFSET UNITYSDK_OFFSET(0x1D430760)
+#define LYRAGIPASS___BASE_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1D430770)
 
-inline static constexpr unsigned int LyraGIPass_TypeDefinitionIndex = 26862;
+inline static constexpr unsigned int LyraGIPass_TypeDefinitionIndex = 26928;
 
 class LyraGIPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 {

@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class Material; }
 
-#define NAPSCENEMAP3DCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x157CB840)
+#define NAPSCENEMAP3DCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12916410)
 
-inline static constexpr unsigned int NapSceneMap3DConfig_TypeDefinitionIndex = 86039;
+inline static constexpr unsigned int NapSceneMap3DConfig_TypeDefinitionIndex = 38600;
 
 class NapSceneMap3DConfig : public ::System::Object
 {

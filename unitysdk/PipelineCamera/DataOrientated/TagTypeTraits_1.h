@@ -4,7 +4,7 @@
 
 namespace PipelineCamera::DataOrientated
 {
-	inline static constexpr unsigned int TagTypeTraits_1_TypeDefinitionIndex = 38403;
+	inline static constexpr unsigned int TagTypeTraits_1_TypeDefinitionIndex = 36405;
 
 	template <typename T>
 	class TagTypeTraits_1 : public ::System::Object
@@ -14,6 +14,6 @@ namespace PipelineCamera::DataOrientated
 		{
 			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(TagTypeTraits_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		// static const ::System::Boolean IsValid; // 0x0
+		// static const ::System::Boolean IsValid = 0x1; // 0x0
 	};
 }

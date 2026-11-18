@@ -8,12 +8,12 @@ namespace MiHoYo::SDK::PC::OS { class XboxPayInfo; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_XBOXPAYMENTNETWORKREQUEST_DETECTPAY_OFFSET UNITYSDK_OFFSET(0x1CEACDB0)
-#define MIHOYO_SDK_PC_OS_XBOXPAYMENTNETWORKREQUEST_RETRIEVETOKEN_OFFSET UNITYSDK_OFFSET(0x1CEAB260)
+#define MIHOYO_SDK_PC_OS_XBOXPAYMENTNETWORKREQUEST_DETECTPAY_OFFSET UNITYSDK_OFFSET(0x1D4AF4E0)
+#define MIHOYO_SDK_PC_OS_XBOXPAYMENTNETWORKREQUEST_RETRIEVETOKEN_OFFSET UNITYSDK_OFFSET(0x1D4AD980)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxPaymentNetworkRequest_TypeDefinitionIndex = 20787;
+	inline static constexpr unsigned int XboxPaymentNetworkRequest_TypeDefinitionIndex = 19991;
 
 	class XboxPaymentNetworkRequest : public ::System::Object
 	{

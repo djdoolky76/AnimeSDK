@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class ConfigHollowChessboard_ChessEffectBaseList; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_TVMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1625F160)
+#define MOLEMOLE_CONFIG_CONFIGHOLLOWCHESSBOARD_TVMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B18B40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_TvMoveConfig_TypeDefinitionIndex = 59232;
+	inline static constexpr unsigned int ConfigHollowChessboard_TvMoveConfig_TypeDefinitionIndex = 46362;
 
 	class ConfigHollowChessboard_TvMoveConfig : public ::System::Object
 	{

@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_F2DAD7F45F518868;
+class COCJHGGDBCA;
 namespace System { template <typename T> class Action_1; }
 
-#define NPCCROWD_GAMEPLAYTASK_NPCGAMEPLAYTASKCONTAINERSUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF776390)
-#define NPCCROWD_GAMEPLAYTASK_NPCGAMEPLAYTASKCONTAINERSUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF7763D0)
-#define NPCCROWD_GAMEPLAYTASK_NPCGAMEPLAYTASKCONTAINERSUBSYSTEM___C__UPDATE_B__2_0_OFFSET UNITYSDK_OFFSET(0xF7763E0)
+#define NPCCROWD_GAMEPLAYTASK_NPCGAMEPLAYTASKCONTAINERSUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFD2F550)
+#define NPCCROWD_GAMEPLAYTASK_NPCGAMEPLAYTASKCONTAINERSUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFD2F590)
+#define NPCCROWD_GAMEPLAYTASK_NPCGAMEPLAYTASKCONTAINERSUBSYSTEM___C__UPDATE_B__2_0_OFFSET UNITYSDK_OFFSET(0xFD2F5A0)
 
 namespace NPCCrowd::GameplayTask
 {
-	inline static constexpr unsigned int NPCGameplayTaskContainerSubSystem___c_TypeDefinitionIndex = 57432;
+	inline static constexpr unsigned int NPCGameplayTaskContainerSubSystem___c_TypeDefinitionIndex = 60381;
 
 	class NPCGameplayTaskContainerSubSystem___c : public ::System::Object
 	{
 	public:
-		static ::NPCCrowd::GameplayTask::NPCGameplayTaskContainerSubSystem___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::NPCCrowd::GameplayTask::NPCGameplayTaskContainerSubSystem___c**)Il2CppClass::FromTypeDefinitionIndex(NPCGameplayTaskContainerSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x49560);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NPCGameplayTaskContainerSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x47700);
 		}
-		static ::System::Action_1<::Class_3_F2DAD7F45F518868*>** StaticGet___9__2_0()
+		static ::System::Action_1<::COCJHGGDBCA*>** StaticGet___9__2_0()
 		{
-			return (::System::Action_1<::Class_3_F2DAD7F45F518868*>**)Il2CppClass::FromTypeDefinitionIndex(NPCGameplayTaskContainerSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x49568);
+			return (::System::Action_1<::COCJHGGDBCA*>**)Il2CppClass::FromTypeDefinitionIndex(NPCGameplayTaskContainerSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x47708);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace NPCCrowd::GameplayTask
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_GAMEPLAYTASK_NPCGAMEPLAYTASKCONTAINERSUBSYSTEM___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Update_b__2_0(::Class_3_F2DAD7F45F518868* npcComp)
+		::System::Void _Update_b__2_0(::COCJHGGDBCA* npcComp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_GAMEPLAYTASK_NPCGAMEPLAYTASKCONTAINERSUBSYSTEM___C__UPDATE_B__2_0_OFFSET))(this, npcComp);
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_GAMEPLAYTASK_NPCGAMEPLAYTASKCONTAINERSUBSYSTEM___C__UPDATE_B__2_0_OFFSET))(this, npcComp);
 		}
 	};
 }

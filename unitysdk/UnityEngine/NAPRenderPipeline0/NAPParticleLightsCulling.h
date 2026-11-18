@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/ParticleLightsCullingOptions.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/CameraData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/ParticleLightsCullingOptions.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/VisibleLight.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { template <typename T> class DynamicArray_1; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_AFTERRENDERERINGINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EE257B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_AFTERRENDERERING_OFFSET UNITYSDK_OFFSET(0x1EE25770)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_DOCULLINGINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EE25750)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_DOCULLING_OFFSET UNITYSDK_OFFSET(0x1EE256A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_GETLIGHTSNUMAFTERCULLING_OFFSET UNITYSDK_OFFSET(0x1EE25760)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_INITIALIZEPOSTCULLLIGHTDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EE257F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_INITIALIZEPOSTCULLLIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1EE257C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE25800)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_AFTERRENDERERINGINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F18BF70)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_AFTERRENDERERING_OFFSET UNITYSDK_OFFSET(0x1F18BF30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_DOCULLINGINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F18BF10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_DOCULLING_OFFSET UNITYSDK_OFFSET(0x1F18BE60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_GETLIGHTSNUMAFTERCULLING_OFFSET UNITYSDK_OFFSET(0x1F18BF20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_INITIALIZEPOSTCULLLIGHTDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F18BFB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_INITIALIZEPOSTCULLLIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1F18BF80)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING__CTOR_OFFSET UNITYSDK_OFFSET(0x1F18BFC0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NAPParticleLightsCulling_TypeDefinitionIndex = 5704;
+	inline static constexpr unsigned int NAPParticleLightsCulling_TypeDefinitionIndex = 5708;
 
 	class NAPParticleLightsCulling : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::NAPRenderPipeline0::ParticleLightsCullingOptions* StaticGet_s_CachedParticleLightsCullingOptions()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ParticleLightsCullingOptions*)Il2CppClass::FromTypeDefinitionIndex(NAPParticleLightsCulling_TypeDefinitionIndex)->GetStaticField(0x2F10);
-		}
 		static ::System::Int32* StaticGet_s_MainCameraLightsNumAfterCulling()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NAPParticleLightsCulling_TypeDefinitionIndex)->GetStaticField(0x2F14);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NAPParticleLightsCulling_TypeDefinitionIndex)->GetStaticField(0x2E90);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ParticleLightsCullingOptions* StaticGet_s_CachedParticleLightsCullingOptions()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ParticleLightsCullingOptions*)Il2CppClass::FromTypeDefinitionIndex(NAPParticleLightsCulling_TypeDefinitionIndex)->GetStaticField(0x2E94);
 		}
 
 		::System::Void _ctor()
@@ -60,9 +60,9 @@ namespace UnityEngine::NAPRenderPipeline0
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_GETLIGHTSNUMAFTERCULLING_OFFSET))();
 		}
 
-		static ::System::Void DoCullingInternal(::System::Void* visibleLights, ::System::Int32 lightsCount, ::UnityEngine::Vector3& cameraPos, ::UnityEngine::NAPRenderPipeline0::ParticleLightsCullingOptions& options)
+		static ::System::Void DoCullingInternal(::PVOID visibleLights, ::System::Int32 lightsCount, ::UnityEngine::Vector3& cameraPos, ::UnityEngine::NAPRenderPipeline0::ParticleLightsCullingOptions& options)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::Int32, ::UnityEngine::Vector3&, ::UnityEngine::NAPRenderPipeline0::ParticleLightsCullingOptions&))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_DOCULLINGINTERNAL_OFFSET))(visibleLights, lightsCount, cameraPos, options);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3&, ::UnityEngine::NAPRenderPipeline0::ParticleLightsCullingOptions&))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_DOCULLINGINTERNAL_OFFSET))(visibleLights, lightsCount, cameraPos, options);
 		}
 
 		static ::System::Void AfterRendereringInternal()
@@ -70,9 +70,9 @@ namespace UnityEngine::NAPRenderPipeline0
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_AFTERRENDERERINGINTERNAL_OFFSET))();
 		}
 
-		static ::System::Void InitializePostCullLightDataInternal(::System::Void* visibleLights, ::System::Int32 lightsCount, ::System::Int32 mainLightIndex, ::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Int32>* otherLightShadowData, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData& postCullLightData)
+		static ::System::Void InitializePostCullLightDataInternal(::PVOID visibleLights, ::System::Int32 lightsCount, ::System::Int32 mainLightIndex, ::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Int32>* otherLightShadowData, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData& postCullLightData)
 		{
-			return ((::System::Void(*)(::System::Void*, ::System::Int32, ::System::Int32, ::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Int32>*, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData&))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_INITIALIZEPOSTCULLLIGHTDATAINTERNAL_OFFSET))(visibleLights, lightsCount, mainLightIndex, otherLightShadowData, postCullLightData);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::NAPRenderPipeline0::DynamicArray_1<::System::Int32>*, ::UnityEngine::NAPRenderPipeline0::PostCullRenderingData&))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_NAPPARTICLELIGHTSCULLING_INITIALIZEPOSTCULLLIGHTDATAINTERNAL_OFFSET))(visibleLights, lightsCount, mainLightIndex, otherLightShadowData, postCullLightData);
 		}
 	};
 }

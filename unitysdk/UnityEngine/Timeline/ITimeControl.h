@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ITimeControl_TypeDefinitionIndex = 33026;
+	inline static constexpr unsigned int ITimeControl_TypeDefinitionIndex = 32485;
 
 	class ITimeControl
 	{

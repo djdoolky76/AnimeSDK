@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_F2DAD7F45F518868;
+class COCJHGGDBCA;
 namespace MoleMole::Battle { class Entity; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -14,116 +14,115 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Texture; }
-template <typename T1, typename T2> class __f__AnonymousType6_2;
 
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_0DB53A04AF2597E4_OFFSET UNITYSDK_OFFSET(0x136DEC10)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_223290708FE6B4C6_OFFSET UNITYSDK_OFFSET(0x136DE560)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_2B917544C027ED29_OFFSET UNITYSDK_OFFSET(0x136DEB00)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_302188AA432F08AA_OFFSET UNITYSDK_OFFSET(0x136DE240)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_44AC943DFF18693F_OFFSET UNITYSDK_OFFSET(0x136DE680)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_528944FB63DE170C_OFFSET UNITYSDK_OFFSET(0x136DED60)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_54C80DACA31A4ADB_OFFSET UNITYSDK_OFFSET(0x136DE8D0)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_5EECFC6619279D4B_1_OFFSET UNITYSDK_OFFSET(0x136DEA30)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_5EECFC6619279D4B_OFFSET UNITYSDK_OFFSET(0x136DE130)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_759AFCF2BF5D3491_OFFSET UNITYSDK_OFFSET(0x136DE8F0)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_94CD2F87AE459EC1_OFFSET UNITYSDK_OFFSET(0x136DE1E0)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_A9FFECBFF3B37957_OFFSET UNITYSDK_OFFSET(0x136DE2D0)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_B08FC0AA48DF0A92_1_OFFSET UNITYSDK_OFFSET(0x136DE920)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_B08FC0AA48DF0A92_OFFSET UNITYSDK_OFFSET(0x136DE450)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_B49FA16035C399F0_OFFSET UNITYSDK_OFFSET(0x136DEAE0)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_B85A3C10FC475D06_OFFSET UNITYSDK_OFFSET(0x136DE8C0)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_EADEFBC41A801594_OFFSET UNITYSDK_OFFSET(0x136DE3E0)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_EE1273EA49EE5423_OFFSET UNITYSDK_OFFSET(0x136DEF00)
-#define MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_F9B8906257C832C2_OFFSET UNITYSDK_OFFSET(0x136DE830)
-#define MOLEMOLE_MONONPCINDICATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x136DE0E0)
-#define MOLEMOLE_MONONPCINDICATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x136DE120)
+#define MOLEMOLE_MONONPCINDICATOR___C_ANPHMFLGFCO_OFFSET UNITYSDK_OFFSET(0x135BE770)
+#define MOLEMOLE_MONONPCINDICATOR___C_BDNFCCDJNNL_OFFSET UNITYSDK_OFFSET(0x135BE7D0)
+#define MOLEMOLE_MONONPCINDICATOR___C_CGBPJEMFDEK_OFFSET UNITYSDK_OFFSET(0x135BE980)
+#define MOLEMOLE_MONONPCINDICATOR___C_CHGHLALMBAL_OFFSET UNITYSDK_OFFSET(0x135BECC0)
+#define MOLEMOLE_MONONPCINDICATOR___C_DHAIMLNCDAH_OFFSET UNITYSDK_OFFSET(0x135BECE0)
+#define MOLEMOLE_MONONPCINDICATOR___C_EKIJCNMLKHA_OFFSET UNITYSDK_OFFSET(0x135BE8F0)
+#define MOLEMOLE_MONONPCINDICATOR___C_GKGLFFGJBNI_OFFSET UNITYSDK_OFFSET(0x135BF260)
+#define MOLEMOLE_MONONPCINDICATOR___C_HBOPKFFDKHE_OFFSET UNITYSDK_OFFSET(0x135BE6B0)
+#define MOLEMOLE_MONONPCINDICATOR___C_HMAIKNCLDHF_OFFSET UNITYSDK_OFFSET(0x135BEDC0)
+#define MOLEMOLE_MONONPCINDICATOR___C_IENIOOPNNJF_OFFSET UNITYSDK_OFFSET(0x135BE5A0)
+#define MOLEMOLE_MONONPCINDICATOR___C_JBPDJFHEFIN_OFFSET UNITYSDK_OFFSET(0x135BE6E0)
+#define MOLEMOLE_MONONPCINDICATOR___C_KLADBPBIGPE_OFFSET UNITYSDK_OFFSET(0x135BEA90)
+#define MOLEMOLE_MONONPCINDICATOR___C_LGBHCEBFONB_OFFSET UNITYSDK_OFFSET(0x135BF110)
+#define MOLEMOLE_MONONPCINDICATOR___C_LMLFMMOFDBA_OFFSET UNITYSDK_OFFSET(0x135BECF0)
+#define MOLEMOLE_MONONPCINDICATOR___C_LPMNDGLGFNB_OFFSET UNITYSDK_OFFSET(0x135BEF60)
+#define MOLEMOLE_MONONPCINDICATOR___C_MJPDNBLCPNI_OFFSET UNITYSDK_OFFSET(0x135BEDA0)
+#define MOLEMOLE_MONONPCINDICATOR___C_OELECIJLLCA_OFFSET UNITYSDK_OFFSET(0x135BEBB0)
+#define MOLEMOLE_MONONPCINDICATOR___C_PJCKKPAHBAL_OFFSET UNITYSDK_OFFSET(0x135BEB40)
+#define MOLEMOLE_MONONPCINDICATOR___C_PJEEANMNJBJ_OFFSET UNITYSDK_OFFSET(0x135BF370)
+#define MOLEMOLE_MONONPCINDICATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x135BE550)
+#define MOLEMOLE_MONONPCINDICATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x135BE590)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoNPCIndicator___c_TypeDefinitionIndex = 43796;
+	inline static constexpr unsigned int MonoNPCIndicator___c_TypeDefinitionIndex = 68088;
 
 	class MonoNPCIndicator___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_3<::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>*, ::UnityEngine::Texture*, ::UnityEngine::Texture*>** StaticGet___9__41_4()
+		static ::System::Func_2<::COCJHGGDBCA*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SkinnedMeshRenderer*>*>** StaticGet___9__42_0()
 		{
-			return (::System::Func_3<::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>*, ::UnityEngine::Texture*, ::UnityEngine::Texture*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D740);
-		}
-		static ::System::Func_2<::Class_3_F2DAD7F45F518868*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MeshFilter*>*>** StaticGet___9__42_1()
-		{
-			return (::System::Func_2<::Class_3_F2DAD7F45F518868*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MeshFilter*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D748);
+			return (::System::Func_2<::COCJHGGDBCA*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SkinnedMeshRenderer*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41C40);
 		}
 		static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*>** StaticGet___9__39_1()
 		{
-			return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D750);
-		}
-		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>** StaticGet___9__41_0()
-		{
-			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D758);
-		}
-		static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::Boolean>** StaticGet___9__39_0()
-		{
-			return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D760);
-		}
-		static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*>** StaticGet___9__40_0()
-		{
-			return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D768);
-		}
-		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__39_2()
-		{
-			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D770);
-		}
-		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__40_1()
-		{
-			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D778);
-		}
-		static ::System::Func_2<::UnityEngine::AnimationClip*, ::System::Int64>** StaticGet___9__45_3()
-		{
-			return (::System::Func_2<::UnityEngine::AnimationClip*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D780);
-		}
-		static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*>** StaticGet___9__43_0()
-		{
-			return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D788);
-		}
-		static ::System::Func_2<::UnityEngine::Texture*, ::System::Boolean>** StaticGet___9__41_5()
-		{
-			return (::System::Func_2<::UnityEngine::Texture*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D790);
-		}
-		static ::System::Func_2<::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Texture*>*>** StaticGet___9__41_3()
-		{
-			return (::System::Func_2<::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Texture*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D798);
+			return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41C48);
 		}
 		static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::Boolean>** StaticGet___9__37_0()
 		{
-			return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D7A0);
+			return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41C50);
 		}
-		static ::System::Func_3<::UnityEngine::Renderer*, ::UnityEngine::Material*, ::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>*>** StaticGet___9__41_1()
+		static ::System::Func_3<::UnityEngine::Renderer*, ::UnityEngine::Material*, ::System::Object*>** StaticGet___9__41_1()
 		{
-			return (::System::Func_3<::UnityEngine::Renderer*, ::UnityEngine::Material*, ::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D7A8);
+			return (::System::Func_3<::UnityEngine::Renderer*, ::UnityEngine::Material*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41C58);
 		}
-		static ::System::Func_2<::UnityEngine::Animator*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>*>** StaticGet___9__45_2()
+		static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*>** StaticGet___9__40_0()
 		{
-			return (::System::Func_2<::UnityEngine::Animator*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D7B0);
+			return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41C60);
 		}
-		static ::System::Func_2<::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>*, ::System::Boolean>** StaticGet___9__41_2()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D7B8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41C68);
 		}
-		static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Animator*>*>** StaticGet___9__45_0()
+		static ::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Texture*>*>** StaticGet___9__41_3()
 		{
-			return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Animator*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D7C0);
+			return (::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Texture*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41C70);
 		}
-		static ::System::Func_2<::Class_3_F2DAD7F45F518868*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SkinnedMeshRenderer*>*>** StaticGet___9__42_0()
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__41_2()
 		{
-			return (::System::Func_2<::Class_3_F2DAD7F45F518868*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SkinnedMeshRenderer*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D7C8);
-		}
-		static ::MoleMole::MonoNPCIndicator___c** StaticGet___9()
-		{
-			return (::MoleMole::MonoNPCIndicator___c**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D7D0);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41C78);
 		}
 		static ::System::Func_2<::UnityEngine::Animator*, ::System::Boolean>** StaticGet___9__45_1()
 		{
-			return (::System::Func_2<::UnityEngine::Animator*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x4D7D8);
+			return (::System::Func_2<::UnityEngine::Animator*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41C80);
+		}
+		static ::System::Func_2<::UnityEngine::Texture*, ::System::Boolean>** StaticGet___9__41_5()
+		{
+			return (::System::Func_2<::UnityEngine::Texture*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41C88);
+		}
+		static ::System::Func_2<::COCJHGGDBCA*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MeshFilter*>*>** StaticGet___9__42_1()
+		{
+			return (::System::Func_2<::COCJHGGDBCA*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MeshFilter*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41C90);
+		}
+		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__39_2()
+		{
+			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41C98);
+		}
+		static ::System::Func_2<::UnityEngine::Animator*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>*>** StaticGet___9__45_2()
+		{
+			return (::System::Func_2<::UnityEngine::Animator*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41CA0);
+		}
+		static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*>** StaticGet___9__43_0()
+		{
+			return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41CA8);
+		}
+		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__40_1()
+		{
+			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41CB0);
+		}
+		static ::System::Func_2<::UnityEngine::AnimationClip*, ::System::Int64>** StaticGet___9__45_3()
+		{
+			return (::System::Func_2<::UnityEngine::AnimationClip*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41CB8);
+		}
+		static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Animator*>*>** StaticGet___9__45_0()
+		{
+			return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Animator*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41CC0);
+		}
+		static ::System::Func_3<::System::Object*, ::UnityEngine::Texture*, ::UnityEngine::Texture*>** StaticGet___9__41_4()
+		{
+			return (::System::Func_3<::System::Object*, ::UnityEngine::Texture*, ::UnityEngine::Texture*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41CC8);
+		}
+		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>** StaticGet___9__41_0()
+		{
+			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41CD0);
+		}
+		static ::System::Func_2<::MoleMole::Battle::Entity*, ::System::Boolean>** StaticGet___9__39_0()
+		{
+			return (::System::Func_2<::MoleMole::Battle::Entity*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoNPCIndicator___c_TypeDefinitionIndex)->GetStaticField(0x41CD8);
 		}
 
 		static ::System::Void _cctor()
@@ -136,99 +135,99 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>* Method_1_5EECFC6619279D4B(::MoleMole::Battle::Entity* a1)
+		::System::Boolean IENIOOPNNJF(::UnityEngine::Texture* JGMECENFEJJ)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_5EECFC6619279D4B_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_IENIOOPNNJF_OFFSET))(this, JGMECENFEJJ);
 		}
 
-		::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>* Method_1_94CD2F87AE459EC1(::UnityEngine::Renderer* a1, ::UnityEngine::Material* a2)
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>* HBOPKFFDKHE(::UnityEngine::Animator* ICAAMDMMDDJ)
 		{
-			return ((::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>*(*)(::PVOID, ::UnityEngine::Renderer*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_94CD2F87AE459EC1_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>*(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_HBOPKFFDKHE_OFFSET))(this, ICAAMDMMDDJ);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::UnityEngine::SkinnedMeshRenderer*>* Method_1_302188AA432F08AA(::Class_3_F2DAD7F45F518868* a1)
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::MeshFilter*>* JBPDJFHEFIN(::COCJHGGDBCA* GBELIHABEDH)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::SkinnedMeshRenderer*>*(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_302188AA432F08AA_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::MeshFilter*>*(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_JBPDJFHEFIN_OFFSET))(this, GBELIHABEDH);
 		}
 
-		::System::Boolean Method_1_A9FFECBFF3B37957(::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>* a1)
+		::System::Object* ANPHMFLGFCO(::UnityEngine::Renderer* DLJPLHKELCO, ::UnityEngine::Material* KNNDDLMOKCG)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_A9FFECBFF3B37957_OFFSET))(this, a1);
+			return ((::System::Object*(*)(::PVOID, ::UnityEngine::Renderer*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_ANPHMFLGFCO_OFFSET))(this, DLJPLHKELCO, KNNDDLMOKCG);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>* Method_1_EADEFBC41A801594(::MoleMole::Battle::Entity* a1)
+		::System::Boolean BDNFCCDJNNL(::UnityEngine::Animator* ICAAMDMMDDJ)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_EADEFBC41A801594_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_BDNFCCDJNNL_OFFSET))(this, ICAAMDMMDDJ);
 		}
 
-		::System::Boolean Method_1_B08FC0AA48DF0A92(::UnityEngine::Renderer* a1)
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::SkinnedMeshRenderer*>* EKIJCNMLKHA(::COCJHGGDBCA* GBELIHABEDH)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_B08FC0AA48DF0A92_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::SkinnedMeshRenderer*>*(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_EKIJCNMLKHA_OFFSET))(this, GBELIHABEDH);
 		}
 
-		::System::Boolean Method_1_223290708FE6B4C6(::UnityEngine::Animator* a1)
+		::System::Boolean CGBPJEMFDEK(::System::Object* MMNIPHGBHJF)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_223290708FE6B4C6_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_CGBPJEMFDEK_OFFSET))(this, MMNIPHGBHJF);
 		}
 
-		::System::Boolean Method_1_44AC943DFF18693F(::MoleMole::Battle::Entity* a1)
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>* KLADBPBIGPE(::MoleMole::Battle::Entity* KECKGDFIALJ)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_44AC943DFF18693F_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_KLADBPBIGPE_OFFSET))(this, KECKGDFIALJ);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::UnityEngine::MeshFilter*>* Method_1_F9B8906257C832C2(::Class_3_F2DAD7F45F518868* a1)
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>* PJCKKPAHBAL(::MoleMole::Battle::Entity* KECKGDFIALJ)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::MeshFilter*>*(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_F9B8906257C832C2_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_PJCKKPAHBAL_OFFSET))(this, KECKGDFIALJ);
 		}
 
-		::UnityEngine::Texture* Method_1_B85A3C10FC475D06(::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>* a1, ::UnityEngine::Texture* a2)
+		::System::Boolean OELECIJLLCA(::UnityEngine::Renderer* HOICBOEIAMB)
 		{
-			return ((::UnityEngine::Texture*(*)(::PVOID, ::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>*, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_B85A3C10FC475D06_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_OELECIJLLCA_OFFSET))(this, HOICBOEIAMB);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>* Method_1_54C80DACA31A4ADB(::UnityEngine::Renderer* a1)
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>* CHGHLALMBAL(::UnityEngine::Renderer* DLJPLHKELCO)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_54C80DACA31A4ADB_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_CHGHLALMBAL_OFFSET))(this, DLJPLHKELCO);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>* Method_1_759AFCF2BF5D3491(::UnityEngine::Animator* a1)
+		::UnityEngine::Texture* DHAIMLNCDAH(::System::Object* MMNIPHGBHJF, ::UnityEngine::Texture* GLBPBKDPCBD)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>*(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_759AFCF2BF5D3491_OFFSET))(this, a1);
+			return ((::UnityEngine::Texture*(*)(::PVOID, ::System::Object*, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_DHAIMLNCDAH_OFFSET))(this, MMNIPHGBHJF, GLBPBKDPCBD);
 		}
 
-		::System::Boolean Method_1_B08FC0AA48DF0A92_1(::UnityEngine::Renderer* a1)
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>* LMLFMMOFDBA(::MoleMole::Battle::Entity* KECKGDFIALJ)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_B08FC0AA48DF0A92_1_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_LMLFMMOFDBA_OFFSET))(this, KECKGDFIALJ);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>* Method_1_5EECFC6619279D4B_1(::MoleMole::Battle::Entity* a1)
+		::System::Int64 MJPDNBLCPNI(::UnityEngine::AnimationClip* PHGBOCIDLEI)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_5EECFC6619279D4B_1_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_MJPDNBLCPNI_OFFSET))(this, PHGBOCIDLEI);
 		}
 
-		::System::Int64 Method_1_B49FA16035C399F0(::UnityEngine::AnimationClip* a1)
+		::System::Boolean HMAIKNCLDHF(::MoleMole::Battle::Entity* KECKGDFIALJ)
 		{
-			return ((::System::Int64(*)(::PVOID, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_B49FA16035C399F0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_HMAIKNCLDHF_OFFSET))(this, KECKGDFIALJ);
 		}
 
-		::System::Boolean Method_1_2B917544C027ED29(::UnityEngine::Texture* a1)
+		::System::Boolean LPMNDGLGFNB(::MoleMole::Battle::Entity* KECKGDFIALJ)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_2B917544C027ED29_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_LPMNDGLGFNB_OFFSET))(this, KECKGDFIALJ);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Texture*>* Method_1_0DB53A04AF2597E4(::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>* a1)
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Texture*>* LGBHCEBFONB(::System::Object* MMNIPHGBHJF)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Texture*>*(*)(::PVOID, ::__f__AnonymousType6_2<::UnityEngine::Renderer*, ::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_0DB53A04AF2597E4_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Texture*>*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_LGBHCEBFONB_OFFSET))(this, MMNIPHGBHJF);
 		}
 
-		::System::Boolean Method_1_528944FB63DE170C(::MoleMole::Battle::Entity* a1)
+		::System::Boolean GKGLFFGJBNI(::UnityEngine::Renderer* HOICBOEIAMB)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_528944FB63DE170C_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_GKGLFFGJBNI_OFFSET))(this, HOICBOEIAMB);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Animator*>* Method_1_EE1273EA49EE5423(::MoleMole::Battle::Entity* a1)
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Animator*>* PJEEANMNJBJ(::MoleMole::Battle::Entity* KECKGDFIALJ)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Animator*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_METHOD_1_EE1273EA49EE5423_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Animator*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONONPCINDICATOR___C_PJEEANMNJBJ_OFFSET))(this, KECKGDFIALJ);
 		}
 	};
 }

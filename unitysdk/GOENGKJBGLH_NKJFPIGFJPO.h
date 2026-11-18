@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIBMJLOJLKD.h"
+
+class HNLACBJDCGI;
+class ShaderAniHelp;
+namespace MoleMole { class UIControlCollection; }
+
+#define GOENGKJBGLH_NKJFPIGFJPO_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x1491ABE0)
+#define GOENGKJBGLH_NKJFPIGFJPO_FABDOLIPEJK_OFFSET UNITYSDK_OFFSET(0x1491ABC0)
+#define GOENGKJBGLH_NKJFPIGFJPO_FEDAGMOKOBP_OFFSET UNITYSDK_OFFSET(0x1491ABB0)
+#define GOENGKJBGLH_NKJFPIGFJPO_JKDILLIHOLH_OFFSET UNITYSDK_OFFSET(0x1491ABA0)
+#define GOENGKJBGLH_NKJFPIGFJPO_NDADBFHFKNI_OFFSET UNITYSDK_OFFSET(0x1491ABD0)
+#define GOENGKJBGLH_NKJFPIGFJPO_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x1491AAE0)
+#define GOENGKJBGLH_NKJFPIGFJPO__CTOR_OFFSET UNITYSDK_OFFSET(0x1491AB90)
+
+inline static constexpr unsigned int GOENGKJBGLH_NKJFPIGFJPO_TypeDefinitionIndex = 71186;
+
+class GOENGKJBGLH_NKJFPIGFJPO : public ::GIBMJLOJLKD
+{
+public:
+	::ShaderAniHelp* _NDHKHOOOJFP_k__BackingField; // 0x18
+	::ShaderAniHelp* _MKOIOGKCPGH_k__BackingField; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOENGKJBGLH_NKJFPIGFJPO__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + GOENGKJBGLH_NKJFPIGFJPO_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::System::Void JKDILLIHOLH(::ShaderAniHelp* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::ShaderAniHelp*))((::PBYTE)hIl2Cpp + GOENGKJBGLH_NKJFPIGFJPO_JKDILLIHOLH_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void FEDAGMOKOBP(::ShaderAniHelp* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::ShaderAniHelp*))((::PBYTE)hIl2Cpp + GOENGKJBGLH_NKJFPIGFJPO_FEDAGMOKOBP_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::ShaderAniHelp* FABDOLIPEJK()
+	{
+		return ((::ShaderAniHelp*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOENGKJBGLH_NKJFPIGFJPO_FABDOLIPEJK_OFFSET))(this);
+	}
+
+	::ShaderAniHelp* NDADBFHFKNI()
+	{
+		return ((::ShaderAniHelp*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOENGKJBGLH_NKJFPIGFJPO_NDADBFHFKNI_OFFSET))(this);
+	}
+
+	::System::Void ECNOGHHOPPF(::HNLACBJDCGI* MIALFKCCCPI, ::MoleMole::UIControlCollection* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + GOENGKJBGLH_NKJFPIGFJPO_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+};

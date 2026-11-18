@@ -9,14 +9,14 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SHARE_DONPROPERTYCHANGED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C3802C0)
-#define SHARE_DONPROPERTYCHANGED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C3802F0)
-#define SHARE_DONPROPERTYCHANGED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C37FDA0)
-#define SHARE_DONPROPERTYCHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0x1C37FD80)
+#define SHARE_DONPROPERTYCHANGED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EE0D9B0)
+#define SHARE_DONPROPERTYCHANGED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EE0D9E0)
+#define SHARE_DONPROPERTYCHANGED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EE0D490)
+#define SHARE_DONPROPERTYCHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE0D480)
 
 namespace Share
 {
-	inline static constexpr unsigned int DOnPropertyChanged_TypeDefinitionIndex = 8995;
+	inline static constexpr unsigned int DOnPropertyChanged_TypeDefinitionIndex = 10490;
 
 	class DOnPropertyChanged : public ::System::MulticastDelegate
 	{

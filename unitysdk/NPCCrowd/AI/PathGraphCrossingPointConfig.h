@@ -1,26 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/AI/PathGraphCrossingPointConfig_NodeInfo.h"
 #include "unitysdk/NPCCrowd/AI/PathGraphCrossingPointConfig_StopMode.h"
 #include "unitysdk/NPCCrowd/AI/PathGraphFeaturePointConfig.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_PATHGRAPHCROSSINGPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10B396F0)
+#define NPCCROWD_AI_PATHGRAPHCROSSINGPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172C03C0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphCrossingPointConfig_TypeDefinitionIndex = 51389;
+	inline static constexpr unsigned int PathGraphCrossingPointConfig_TypeDefinitionIndex = 75603;
 
 	class PathGraphCrossingPointConfig : public ::NPCCrowd::AI::PathGraphFeaturePointConfig
 	{
 	public:
 		::NPCCrowd::AI::PathGraphCrossingPointConfig_StopMode stopMode; // 0x48
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* stopNodePositionList; // 0x50
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* startNodePositionList; // 0x58
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphCrossingPointConfig_NodeInfo>* stopSplineNodeInfoList; // 0x60
-		::System::Collections::Generic::List_1<::NPCCrowd::AI::PathGraphCrossingPointConfig_NodeInfo>* startSplineNodeInfoList; // 0x68
+		::System::Collections::Generic::List_1<::System::Object*>* stopSplineNodeInfoList; // 0x60
+		::System::Collections::Generic::List_1<::System::Object*>* startSplineNodeInfoList; // 0x68
 
 		::System::Void _ctor()
 		{

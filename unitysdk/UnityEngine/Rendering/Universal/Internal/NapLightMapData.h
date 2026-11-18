@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rendering/SphericalHarmonicsL2.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Texture2D; }
@@ -14,21 +15,22 @@ namespace UnityEngine::Rendering::Universal::Internal { class NapReflectionProbe
 namespace UnityEngine::Rendering::Universal::Internal { class NapReflectionProbeDataV2; }
 namespace UnityEngine::Rendering::Universal::Internal { class NapRendererLightMapData; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPDATA_GETLOADEDSCENE_OFFSET UNITYSDK_OFFSET(0x1CEFAD70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPDATA_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CEFAEC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPDATA_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CEFAE80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPDATA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CEFAB70)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPDATA_REGISTERDYNAMICLOADEDTEXTURE_OFFSET UNITYSDK_OFFSET(0x1CEFAA20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFAF00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPDATA_GETLOADEDSCENE_OFFSET UNITYSDK_OFFSET(0x1D28BA20)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPDATA_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D28BB70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPDATA_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D28BB30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPDATA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D28B830)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPDATA_REGISTERDYNAMICLOADEDTEXTURE_OFFSET UNITYSDK_OFFSET(0x1D28B6E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPLIGHTMAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D28BBB0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int NapLightMapData_TypeDefinitionIndex = 27793;
+	inline static constexpr unsigned int NapLightMapData_TypeDefinitionIndex = 26306;
 
 	class NapLightMapData : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean isKodamaMode; // 0x18
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::UnityEngine::Rendering::Universal::Internal::NapRendererLightMapData*>* renderDataForLightMap; // 0x20
 		::Il2CppArray<::UnityEngine::Texture2D*>* lightMap; // 0x28
 		::Il2CppArray<::UnityEngine::Texture2D*>* areaDirect; // 0x30
@@ -43,7 +45,7 @@ namespace UnityEngine::Rendering::Universal::Internal
 		::UnityEngine::Rendering::Universal::NapCharacterGI* characterGI; // 0x78
 		::System::String* sceneName; // 0x80
 		::UnityEngine::Rendering::Universal::Internal::NapLightMapData_FakeReflectionCubeArrayReqHandle* preCachedHandle; // 0x88
-		::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::Internal::NapLightMapData_FakeReflectionCubeArrayReqHandle*>* assetHandleList; // 0x90
+		::System::Collections::Generic::HashSet_1<::System::Object*>* assetHandleList; // 0x90
 
 		::System::Void _ctor()
 		{

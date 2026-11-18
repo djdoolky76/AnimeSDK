@@ -1,59 +1,54 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_3EDF246633A325B0.h"
-#include "unitysdk/MoleMole/UIRoarinStoreCollectRowWidgetController_CollectItemData.h"
-#include "unitysdk/MoleMole/UIRoarinStoreItemWidgetController_CardData.h"
+#include "unitysdk/GMFAKIPCDED.h"
 #include "unitysdk/MoleMole/UIWindowController.h"
-#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+#include "unitysdk/MoleMole/UIRoarinStoreCollectRowWidgetController_CollectItemData.h"
 
-class Class_2_208CC9941471731A_278;
-class Class_2_4A88E57BA317354F;
-class Class_3_1F60EA4E6E9D8147;
+class BJCLCAJNCKH;
+class IFOKHAFFEKC;
+class KLHJMDEAIOO;
 namespace MoleMole { class UIControlReference; }
 namespace MoleMole { class UIControllerContextBase; }
 namespace System { class EventArgs; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_BUILDITEM_OFFSET UNITYSDK_OFFSET(0x17D42EB0)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_BUILDLOCKEDCARDS_OFFSET UNITYSDK_OFFSET(0x17D43810)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_BUILDREQUIRECARDS_OFFSET UNITYSDK_OFFSET(0x17D431B0)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x17D42560)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x17D42570)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x17D42690)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_ONROARINSTOREREFRESH_OFFSET UNITYSDK_OFFSET(0x17D42870)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x17D42730)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_PREPARECOLLECTLIST_OFFSET UNITYSDK_OFFSET(0x17D42920)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_REFRESHCOLLECTLIST_OFFSET UNITYSDK_OFFSET(0x17D427A0)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_REGISTEREVENTWHENUIOPEN_OFFSET UNITYSDK_OFFSET(0x17D425E0)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_SORTBYSTATE_OFFSET UNITYSDK_OFFSET(0x17D43100)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_SORTLIST_OFFSET UNITYSDK_OFFSET(0x17D42DF0)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D43950)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x17D43960)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x17D43A00)
-#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER___BASE_REGISTEREVENTWHENUIOPEN_OFFSET UNITYSDK_OFFSET(0x17D43A90)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_AIAHCKAEAPN_OFFSET UNITYSDK_OFFSET(0x166C9C80)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_DAAJNNAJDDN_OFFSET UNITYSDK_OFFSET(0x166C9290)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_DJONFBHKLJC_OFFSET UNITYSDK_OFFSET(0x166C98F0)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x166C8620)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_HCNMGLFFLEL_OFFSET UNITYSDK_OFFSET(0x166C87F0)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_IHKMNJDEJGP_OFFSET UNITYSDK_OFFSET(0x166C91E0)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_IJHMCMJKLLG_OFFSET UNITYSDK_OFFSET(0x166C9A30)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_MALFGOCBAGJ_OFFSET UNITYSDK_OFFSET(0x166C8C50)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_OGMPOGIHBIK_OFFSET UNITYSDK_OFFSET(0x166C8BE0)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_OMILKIMGCEM_OFFSET UNITYSDK_OFFSET(0x166C9120)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x166C86E0)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x166C8780)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_REGISTEREVENTWHENUIOPEN_OFFSET UNITYSDK_OFFSET(0x166C8630)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x166C88C0)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x166C8A20)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x166C8AC0)
+#define MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER___BASE_REGISTEREVENTWHENUIOPEN_OFFSET UNITYSDK_OFFSET(0x166C8B50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoarinStoreCollectPageController_TypeDefinitionIndex = 66481;
+	inline static constexpr unsigned int UIRoarinStoreCollectPageController_TypeDefinitionIndex = 54584;
 
 	class UIRoarinStoreCollectPageController : public ::MoleMole::UIWindowController
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData>* _collectItemDatas; // 0x318
+		::System::Collections::Generic::List_1<::System::Object*>* NKCGNKCOPPK; // 0x320
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_3EDF246633A325B0 get_windowType()
+		::GMFAKIPCDED get_windowType()
 		{
-			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
-		}
-
-		::Class_2_4A88E57BA317354F* get__viewModel()
-		{
-			return ((::Class_2_4A88E57BA317354F*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_GET__VIEWMODEL_OFFSET))(this);
+			return ((::GMFAKIPCDED(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
 		}
 
 		::System::Void RegisterEventWhenUIOpen()
@@ -61,9 +56,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_REGISTEREVENTWHENUIOPEN_OFFSET))(this);
 		}
 
-		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
+		::System::Void OnCreateViewModel(::LIBOIKJGAIH& binderInfo, ::MoleMole::UIControlReference* controlReference)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
 		}
 
 		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
@@ -71,49 +66,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
 		}
 
-		::System::Void OnRoarinStoreRefresh(::System::EventArgs* args)
+		::System::Void __base_OnCreateViewModel(::LIBOIKJGAIH& P0, ::MoleMole::UIControlReference* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_ONROARINSTOREREFRESH_OFFSET))(this, args);
-		}
-
-		::System::Void RefreshCollectList()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_REFRESHCOLLECTLIST_OFFSET))(this);
-		}
-
-		::System::Collections::Generic::List_1<::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData>* PrepareCollectList()
-		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_PREPARECOLLECTLIST_OFFSET))(this);
-		}
-
-		::System::Collections::Generic::List_1<::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData>* SortList(::System::Collections::Generic::List_1<::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData>* itemDatas)
-		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData>*(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_SORTLIST_OFFSET))(this, itemDatas);
-		}
-
-		::System::Int32 SortByState(::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData lhs, ::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData rhs)
-		{
-			return ((::System::Int32(*)(::PVOID, ::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData, ::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_SORTBYSTATE_OFFSET))(this, lhs, rhs);
-		}
-
-		::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData BuildItem(::Class_2_208CC9941471731A_278* configTemplate)
-		{
-			return ((::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData(*)(::PVOID, ::Class_2_208CC9941471731A_278*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_BUILDITEM_OFFSET))(this, configTemplate);
-		}
-
-		::System::Collections::Generic::List_1<::MoleMole::UIRoarinStoreItemWidgetController_CardData>* BuildRequireCards(::Class_3_1F60EA4E6E9D8147* roarinStoreExchangeState)
-		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::UIRoarinStoreItemWidgetController_CardData>*(*)(::PVOID, ::Class_3_1F60EA4E6E9D8147*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_BUILDREQUIRECARDS_OFFSET))(this, roarinStoreExchangeState);
-		}
-
-		::System::Collections::Generic::List_1<::MoleMole::UIRoarinStoreItemWidgetController_CardData>* BuildLockedCards(::System::Int32 roarinStoreExchangeId)
-		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::UIRoarinStoreItemWidgetController_CardData>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_BUILDLOCKEDCARDS_OFFSET))(this, roarinStoreExchangeId);
-		}
-
-		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
 		}
 
 		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
@@ -124,6 +79,51 @@ namespace MoleMole
 		::System::Void __base_RegisterEventWhenUIOpen()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER___BASE_REGISTEREVENTWHENUIOPEN_OFFSET))(this);
+		}
+
+		::System::Void HCNMGLFFLEL()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_HCNMGLFFLEL_OFFSET))(this);
+		}
+
+		::System::Int32 IHKMNJDEJGP(::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData FFKBEGIHIGG, ::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData CKADGLGJJAB)
+		{
+			return ((::System::Int32(*)(::PVOID, ::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData, ::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_IHKMNJDEJGP_OFFSET))(this, FFKBEGIHIGG, CKADGLGJJAB);
+		}
+
+		::BJCLCAJNCKH* OGMPOGIHBIK()
+		{
+			return ((::BJCLCAJNCKH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_OGMPOGIHBIK_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::Object*>* DAAJNNAJDDN(::KLHJMDEAIOO* DBMADHPPJCB)
+		{
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID, ::KLHJMDEAIOO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_DAAJNNAJDDN_OFFSET))(this, DBMADHPPJCB);
+		}
+
+		::System::Collections::Generic::List_1<::System::Object*>* MALFGOCBAGJ()
+		{
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_MALFGOCBAGJ_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::Object*>* OMILKIMGCEM(::System::Collections::Generic::List_1<::System::Object*>* IAKMIHBCMNF)
+		{
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_OMILKIMGCEM_OFFSET))(this, IAKMIHBCMNF);
+		}
+
+		::System::Void AIAHCKAEAPN(::System::EventArgs* KOIBHLHLMFC)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_AIAHCKAEAPN_OFFSET))(this, KOIBHLHLMFC);
+		}
+
+		::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData IJHMCMJKLLG(::IFOKHAFFEKC* MHOIIOPHFFA)
+		{
+			return ((::MoleMole::UIRoarinStoreCollectRowWidgetController_CollectItemData(*)(::PVOID, ::IFOKHAFFEKC*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_IJHMCMJKLLG_OFFSET))(this, MHOIIOPHFFA);
+		}
+
+		::System::Collections::Generic::List_1<::System::Object*>* DJONFBHKLJC(::System::Int32 DJMAJKFDBAH)
+		{
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIROARINSTORECOLLECTPAGECONTROLLER_DJONFBHKLJC_OFFSET))(this, DJMAJKFDBAH);
 		}
 	};
 }

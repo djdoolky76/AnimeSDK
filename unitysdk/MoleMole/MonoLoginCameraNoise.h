@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 
-class Class_2_5F64140FAB2210F3;
+class GHICACFMBNP;
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace MoleMole::Config { class ConfigCameraNoise; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Camera; }
 
-#define MOLEMOLE_MONOLOGINCAMERANOISE_AWAKE_OFFSET UNITYSDK_OFFSET(0x17916BB0)
-#define MOLEMOLE_MONOLOGINCAMERANOISE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x17916D10)
-#define MOLEMOLE_MONOLOGINCAMERANOISE_STARTNOISE_OFFSET UNITYSDK_OFFSET(0x17916950)
-#define MOLEMOLE_MONOLOGINCAMERANOISE_TICK_OFFSET UNITYSDK_OFFSET(0x17916FA0)
-#define MOLEMOLE_MONOLOGINCAMERANOISE__CTOR_OFFSET UNITYSDK_OFFSET(0x179175E0)
+#define MOLEMOLE_MONOLOGINCAMERANOISE_AWAKE_OFFSET UNITYSDK_OFFSET(0x14B00000)
+#define MOLEMOLE_MONOLOGINCAMERANOISE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x14B00160)
+#define MOLEMOLE_MONOLOGINCAMERANOISE_STARTNOISE_OFFSET UNITYSDK_OFFSET(0x14AFFDA0)
+#define MOLEMOLE_MONOLOGINCAMERANOISE_TICK_OFFSET UNITYSDK_OFFSET(0x14B00400)
+#define MOLEMOLE_MONOLOGINCAMERANOISE__CTOR_OFFSET UNITYSDK_OFFSET(0x14B00A40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoLoginCameraNoise_TypeDefinitionIndex = 73633;
+	inline static constexpr unsigned int MonoLoginCameraNoise_TypeDefinitionIndex = 89680;
 
 	class MonoLoginCameraNoise : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
@@ -27,7 +27,7 @@ namespace MoleMole
 		::System::Single noiseBlendDuration; // 0x6C
 		::UnityEngine::AnimationCurve* noiseBlendSpeedCurve; // 0x70
 		::UnityEngine::Camera* _mainCam; // 0x78
-		::Class_2_5F64140FAB2210F3* _cameraClipPost; // 0x80
+		::GHICACFMBNP* _cameraClipPost; // 0x80
 
 		::System::Void _ctor()
 		{

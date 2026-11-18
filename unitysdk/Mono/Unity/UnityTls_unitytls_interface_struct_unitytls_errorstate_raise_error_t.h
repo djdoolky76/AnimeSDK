@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Unity/UnityTls_unitytls_error_code.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_errorstate.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D610B50)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D610BD0)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D610840)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T__CTOR_OFFSET UNITYSDK_OFFSET(0x1D610820)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DAD5560)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DAD55E0)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DAD5250)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD5240)
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_errorstate_raise_error_t_TypeDefinitionIndex = 2549;
+	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_errorstate_raise_error_t_TypeDefinitionIndex = 2548;
 
 	class UnityTls_unitytls_interface_struct_unitytls_errorstate_raise_error_t : public ::System::MulticastDelegate
 	{
@@ -25,14 +24,14 @@ namespace Mono::Unity
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Void Invoke(::Mono::Unity::UnityTls_unitytls_errorstate* errorState, ::Mono::Unity::UnityTls_unitytls_error_code errorCode)
+		::System::Void Invoke(::PVOID errorState, ::Mono::Unity::UnityTls_unitytls_error_code errorCode)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_errorstate*, ::Mono::Unity::UnityTls_unitytls_error_code))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T_INVOKE_OFFSET))(this, errorState, errorCode);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::Mono::Unity::UnityTls_unitytls_error_code))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T_INVOKE_OFFSET))(this, errorState, errorCode);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Mono::Unity::UnityTls_unitytls_errorstate* errorState, ::Mono::Unity::UnityTls_unitytls_error_code errorCode, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::PVOID errorState, ::Mono::Unity::UnityTls_unitytls_error_code errorCode, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_errorstate*, ::Mono::Unity::UnityTls_unitytls_error_code, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T_BEGININVOKE_OFFSET))(this, errorState, errorCode, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::PVOID, ::Mono::Unity::UnityTls_unitytls_error_code, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_ERRORSTATE_RAISE_ERROR_T_BEGININVOKE_OFFSET))(this, errorState, errorCode, callback, object);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* result)

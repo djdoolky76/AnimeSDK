@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_LAYERCONFIG_DEEPCOPY_OFFSET UNITYSDK_OFFSET(0x17275240)
-#define MOLEMOLE_CHESSSTATEMACHINE_LAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17275280)
+#define MOLEMOLE_CHESSSTATEMACHINE_LAYERCONFIG_DEEPCOPY_OFFSET UNITYSDK_OFFSET(0x163E5D70)
+#define MOLEMOLE_CHESSSTATEMACHINE_LAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x163E5DB0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int LayerConfig_TypeDefinitionIndex = 83124;
+	inline static constexpr unsigned int LayerConfig_TypeDefinitionIndex = 76613;
 
 	class LayerConfig : public ::MoleMole::ChessStateMachine::ConfigBase
 	{

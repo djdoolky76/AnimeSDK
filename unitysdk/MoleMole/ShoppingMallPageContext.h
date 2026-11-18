@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_402812A65CC3A690;
+class AMAJILNNDMA;
 
-#define MOLEMOLE_SHOPPINGMALLPAGECONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x129DA060)
-#define MOLEMOLE_SHOPPINGMALLPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x129DA1A0)
-#define MOLEMOLE_SHOPPINGMALLPAGECONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x129DA200)
+#define MOLEMOLE_SHOPPINGMALLPAGECONTEXT_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x1249E700)
+#define MOLEMOLE_SHOPPINGMALLPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1249E840)
+#define MOLEMOLE_SHOPPINGMALLPAGECONTEXT___BASE_APPLYJUMPPARAS_OFFSET UNITYSDK_OFFSET(0x1249E8A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShoppingMallPageContext_TypeDefinitionIndex = 58917;
+	inline static constexpr unsigned int ShoppingMallPageContext_TypeDefinitionIndex = 56515;
 
 	class ShoppingMallPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_402812A65CC3A690* ItemDataPair; // 0x28
-		::System::Int32 TabGroupID; // 0x30
-		::System::Int32 TabID; // 0x34
-		::System::Int32 RecommendID; // 0x38
+		::AMAJILNNDMA* ItemDataPair; // 0x28
+		::System::Int32 TabID; // 0x30
+		::System::Int32 RecommendID; // 0x34
+		::System::Int32 TabGroupID; // 0x38
 
 		::System::Void _ctor()
 		{

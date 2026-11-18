@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UIImgEventTrigger_CameraControlType_TypeDefinitionIndex = 71311;
+	inline static constexpr unsigned int UIImgEventTrigger_CameraControlType_TypeDefinitionIndex = 90297;
 
 	enum class UIImgEventTrigger_CameraControlType : ::System::Int32
 	{

@@ -2,17 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace QWER { template <typename T1, typename T2> class CSkipList_2; }
-namespace QWER { template <typename T1, typename T2> class CSkipList_2_KeyValueEnumerator; }
-
 namespace QWER
 {
-	inline static constexpr unsigned int CSkipList_2_KeyEnumerator_TypeDefinitionIndex = 8906;
+	inline static constexpr unsigned int CSkipList_2_KeyEnumerator_TypeDefinitionIndex = 9130;
 
-	template <typename T, typename U>
+	template <typename T1, typename T2>
 	class CSkipList_2_KeyEnumerator : public ::System::Object
 	{
 	public:
-		::QWER::CSkipList_2_KeyValueEnumerator<T, U>* m_oEnumerator; // 0x0
+		::System::Object* m_oEnumerator; // 0x0
 	};
 }

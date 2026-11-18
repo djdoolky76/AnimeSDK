@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CameraType_TypeDefinitionIndex = 5215;
+	inline static constexpr unsigned int CameraType_TypeDefinitionIndex = 5217;
 
 	enum class CameraType : ::System::Int32
 	{

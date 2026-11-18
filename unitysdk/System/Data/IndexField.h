@@ -5,14 +5,14 @@
 namespace System { class Object; }
 namespace System::Data { class DataColumn; }
 
-#define SYSTEM_DATA_INDEXFIELD_EQUALS_OFFSET UNITYSDK_OFFSET(0xA1A070)
-#define SYSTEM_DATA_INDEXFIELD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA1A0D0)
-#define SYSTEM_DATA_INDEXFIELD_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E3E3A10)
-#define SYSTEM_DATA_INDEXFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x33DF30)
+#define SYSTEM_DATA_INDEXFIELD_EQUALS_OFFSET UNITYSDK_OFFSET(0x90E060)
+#define SYSTEM_DATA_INDEXFIELD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x90E0C0)
+#define SYSTEM_DATA_INDEXFIELD_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E668510)
+#define SYSTEM_DATA_INDEXFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x36F120)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int IndexField_TypeDefinitionIndex = 39338;
+	inline static constexpr unsigned int IndexField_TypeDefinitionIndex = 37338;
 
 	struct alignas(8) IndexField
 	{
@@ -24,10 +24,12 @@ namespace System::Data
 			return ((::System::Void(*)(::PVOID, ::System::Data::DataColumn*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DATA_INDEXFIELD__CTOR_OFFSET))(this, column, isDescending);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::System::Data::IndexField if1, ::System::Data::IndexField if2)
 		{
 			return ((::System::Boolean(*)(::System::Data::IndexField, ::System::Data::IndexField))((::PBYTE)hIl2Cpp + SYSTEM_DATA_INDEXFIELD_OP_EQUALITY_OFFSET))(if1, if2);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* obj)
 		{

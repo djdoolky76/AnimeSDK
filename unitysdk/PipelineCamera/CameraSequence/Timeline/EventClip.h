@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace PipelineCamera::CameraSequence { class CameraSequenceEvent; }
 namespace UnityEngine { class GameObject; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_EVENTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FC6C8F0)
-#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_EVENTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6C9E0)
+#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_EVENTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x2006FC10)
+#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_EVENTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x2006FD00)
 
 namespace PipelineCamera::CameraSequence::Timeline
 {
-	inline static constexpr unsigned int EventClip_TypeDefinitionIndex = 94418;
+	inline static constexpr unsigned int EventClip_TypeDefinitionIndex = 96105;
 
 	class EventClip : public ::UnityEngine::Playables::PlayableAsset
 	{

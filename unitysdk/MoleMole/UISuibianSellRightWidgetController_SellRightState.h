@@ -3,15 +3,15 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianSellRightWidgetController_SellRightState_TypeDefinitionIndex = 58046;
+	inline static constexpr unsigned int UISuibianSellRightWidgetController_SellRightState_TypeDefinitionIndex = 68020;
 
 	enum class UISuibianSellRightWidgetController_SellRightState : ::System::Int32
 	{
+		UpShelveEnough = 3,
 		None = -1,
 		DownShelve = 4,
-		HasSameProductTypeInOtherShelve = 1,
-		UpShelveEnough = 3,
-		GoResearch = 0,
 		UpShelveNotEnough = 2,
+		GoResearch = 0,
+		HasSameProductTypeInOtherShelve = 1,
 	};
 }

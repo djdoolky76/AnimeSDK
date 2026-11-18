@@ -11,21 +11,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class Stream; }
 
-#define READTOOLS_CORE_BINARYLOGLOADER_ONSERIALIZEDUNIT_OFFSET UNITYSDK_OFFSET(0x1F655520)
-#define READTOOLS_CORE_BINARYLOGLOADER_TRYGETLOGMETA_OFFSET UNITYSDK_OFFSET(0x1F64F070)
-#define READTOOLS_CORE_BINARYLOGLOADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F655380)
-#define READTOOLS_CORE_BINARYLOGLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6553C0)
+#define READTOOLS_CORE_BINARYLOGLOADER_ONSERIALIZEDUNIT_OFFSET UNITYSDK_OFFSET(0x1FA37D40)
+#define READTOOLS_CORE_BINARYLOGLOADER_TRYGETLOGMETA_OFFSET UNITYSDK_OFFSET(0x1FA31880)
+#define READTOOLS_CORE_BINARYLOGLOADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA37BA0)
+#define READTOOLS_CORE_BINARYLOGLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA37BE0)
 
 namespace ReadTools::Core
 {
-	inline static constexpr unsigned int BinaryLogLoader_TypeDefinitionIndex = 34607;
+	inline static constexpr unsigned int BinaryLogLoader_TypeDefinitionIndex = 34153;
 
 	class BinaryLogLoader : public ::System::Object
 	{
 	public:
-		::BinaryTracingFramework::Serialize::ReadLinker* readLinker; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Guid, ::BinaryTracingCore::Source::TracingTools::LogMeta*>* LogMetaMap; // 0x18
-		::System::Collections::Generic::List_1<::BinaryTracingCore::Source::TracingTools::LogBlock*>* LogBlocks; // 0x20
+		::System::Collections::Generic::List_1<::BinaryTracingCore::Source::TracingTools::LogBlock*>* LogBlocks; // 0x10
+		::BinaryTracingFramework::Serialize::ReadLinker* readLinker; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Guid, ::BinaryTracingCore::Source::TracingTools::LogMeta*>* LogMetaMap; // 0x20
 
 		static ::System::Void _cctor()
 		{

@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWOPTIONPOPWINDOW_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13694A90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWOPTIONPOPWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x13694BD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWOPTIONPOPWINDOW__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x13694C10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWOPTIONPOPWINDOW__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x13695500)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWOPTIONPOPWINDOW__REGISTERPORTS_B__5_2_OFFSET UNITYSDK_OFFSET(0x13695390)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWOPTIONPOPWINDOW__REGISTERPORTS_B__5_3_OFFSET UNITYSDK_OFFSET(0x136954C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWOPTIONPOPWINDOW_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1356E600)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWOPTIONPOPWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1356E740)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWOPTIONPOPWINDOW__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1356E780)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWOPTIONPOPWINDOW__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x1356F080)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWOPTIONPOPWINDOW__REGISTERPORTS_B__5_2_OFFSET UNITYSDK_OFFSET(0x1356EF10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWOPTIONPOPWINDOW__REGISTERPORTS_B__5_3_OFFSET UNITYSDK_OFFSET(0x1356F040)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowOptionPopWindow_TypeDefinitionIndex = 60694;
+	inline static constexpr unsigned int LDShowOptionPopWindow_TypeDefinitionIndex = 75853;
 
 	class LDShowOptionPopWindow : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* output; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::Int32>* specialPopID; // 0xA8
 		::FlowCanvas::FlowOutput* notOpen; // 0xB0
-		::FlowCanvas::ValueInput_1<::System::Int32>* specialPopID; // 0xB8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isServerOnce; // 0xC0
-		::FlowCanvas::FlowOutput* onClosed; // 0xC8
+		::FlowCanvas::FlowOutput* output; // 0xB8
+		::FlowCanvas::FlowOutput* onClosed; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isServerOnce; // 0xC8
 
 		::System::Void _ctor()
 		{

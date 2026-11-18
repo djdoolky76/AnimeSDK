@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/FocusUISpecialIconParam.h"
 
-class Class_3_1F4762C34AABBBF6_1;
+class MFHGKCPFCNC;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_BUILDPARAMFROMAREA_OFFSET UNITYSDK_OFFSET(0x1B1AEFC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_GETAREAAFFIXICONPATHBYAREAID_OFFSET UNITYSDK_OFFSET(0x1B1AF950)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_GETAREAICONPATHBYAREAID_OFFSET UNITYSDK_OFFSET(0x1B1AF800)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1AEB80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AFAA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_BUILDPARAMFROMAREA_OFFSET UNITYSDK_OFFSET(0x14AE3650)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_GETAREAAFFIXICONPATHBYAREAID_OFFSET UNITYSDK_OFFSET(0x14AE3FF0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_GETAREAICONPATHBYAREAID_OFFSET UNITYSDK_OFFSET(0x14AE3E90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_INVOKE_OFFSET UNITYSDK_OFFSET(0x14AE3210)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x14AE4140)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetAreaFocusUISpecialParam_TypeDefinitionIndex = 40502;
+	inline static constexpr unsigned int LD_AbyssS2_GetAreaFocusUISpecialParam_TypeDefinitionIndex = 41050;
 
-	class LD_AbyssS2_GetAreaFocusUISpecialParam : public ::FlowCanvas::Nodes::PureFunctionNode_2<::MoleMole::FlowCanvas::Nodes::FocusUISpecialIconParam, ::System::Int32>
+	class LD_AbyssS2_GetAreaFocusUISpecialParam
 	{
 	public:
 		::System::Void _ctor()
@@ -30,9 +29,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::MoleMole::FlowCanvas::Nodes::FocusUISpecialIconParam(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_INVOKE_OFFSET))(this, areaSelectIndex);
 		}
 
-		::MoleMole::FlowCanvas::Nodes::FocusUISpecialIconParam BuildParamFromArea(::System::Collections::Generic::IList_1<::Class_3_1F4762C34AABBBF6_1*>* areaList, ::System::Collections::Generic::IList_1<::System::Int32>* routeIndexList)
+		::MoleMole::FlowCanvas::Nodes::FocusUISpecialIconParam BuildParamFromArea(::System::Collections::Generic::IList_1<::MFHGKCPFCNC*>* areaList, ::System::Collections::Generic::IList_1<::System::Int32>* routeIndexList)
 		{
-			return ((::MoleMole::FlowCanvas::Nodes::FocusUISpecialIconParam(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_3_1F4762C34AABBBF6_1*>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_BUILDPARAMFROMAREA_OFFSET))(this, areaList, routeIndexList);
+			return ((::MoleMole::FlowCanvas::Nodes::FocusUISpecialIconParam(*)(::PVOID, ::System::Collections::Generic::IList_1<::MFHGKCPFCNC*>*, ::System::Collections::Generic::IList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_BUILDPARAMFROMAREA_OFFSET))(this, areaList, routeIndexList);
 		}
 
 		::System::String* GetAreaAffixIconPathByAreaID(::System::Int32 routePointID)
@@ -40,9 +39,9 @@ namespace MoleMole::FlowCanvas::Nodes
 			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_GETAREAAFFIXICONPATHBYAREAID_OFFSET))(this, routePointID);
 		}
 
-		::System::String* GetAreaIconPathByAreaID(::Class_3_1F4762C34AABBBF6_1* rfMapArea)
+		::System::String* GetAreaIconPathByAreaID(::MFHGKCPFCNC* rfMapArea)
 		{
-			return ((::System::String*(*)(::PVOID, ::Class_3_1F4762C34AABBBF6_1*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_GETAREAICONPATHBYAREAID_OFFSET))(this, rfMapArea);
+			return ((::System::String*(*)(::PVOID, ::MFHGKCPFCNC*))((::PBYTE)hIl2Cpp + MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETAREAFOCUSUISPECIALPARAM_GETAREAICONPATHBYAREAID_OFFSET))(this, rfMapArea);
 		}
 	};
 }

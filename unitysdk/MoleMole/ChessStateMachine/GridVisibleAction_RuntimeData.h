@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDVISIBLEACTION_RUNTIMEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x8B6530)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDVISIBLEACTION_RUNTIMEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x785DB0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int GridVisibleAction_RuntimeData_TypeDefinitionIndex = 50292;
+	inline static constexpr unsigned int GridVisibleAction_RuntimeData_TypeDefinitionIndex = 52824;
 
-	struct alignas(1) GridVisibleAction_RuntimeData
+	struct alignas(4) GridVisibleAction_RuntimeData
 	{
 		::System::Void Reset()
 		{

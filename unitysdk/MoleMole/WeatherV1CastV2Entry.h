@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_WEATHERV1CASTV2ENTRY_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x730E60)
+#define MOLEMOLE_WEATHERV1CASTV2ENTRY_FFCPIEDHBDP_OFFSET UNITYSDK_OFFSET(0x71EC80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int WeatherV1CastV2Entry_TypeDefinitionIndex = 68163;
+	inline static constexpr unsigned int WeatherV1CastV2Entry_TypeDefinitionIndex = 55240;
 
 	struct alignas(8) WeatherV1CastV2Entry
 	{
@@ -18,9 +18,9 @@ namespace MoleMole
 		::MoleMole::Config::WeatherType weatherType; // 0x14
 		::System::String* castKey; // 0x18
 
-		::System::Boolean Method_2_1D4018D4200358D0()
+		::System::Boolean FFCPIEDHBDP()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_WEATHERV1CASTV2ENTRY_METHOD_2_1D4018D4200358D0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_WEATHERV1CASTV2ENTRY_FFCPIEDHBDP_OFFSET))(this);
 		}
 	};
 }

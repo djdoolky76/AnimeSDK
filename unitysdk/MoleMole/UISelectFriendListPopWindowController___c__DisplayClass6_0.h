@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_BE6BF7909AD9D940;
+class FBHPDPBIGPK;
 
-#define MOLEMOLE_UISELECTFRIENDLISTPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179BF700)
-#define MOLEMOLE_UISELECTFRIENDLISTPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONCLICKSENDMSGBTN_B__0_OFFSET UNITYSDK_OFFSET(0x179BF710)
+#define MOLEMOLE_UISELECTFRIENDLISTPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C83CF0)
+#define MOLEMOLE_UISELECTFRIENDLISTPOPWINDOWCONTROLLER___C__DISPLAYCLASS6_0__ONCLICKSENDMSGBTN_B__0_OFFSET UNITYSDK_OFFSET(0x19C83D00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISelectFriendListPopWindowController___c__DisplayClass6_0_TypeDefinitionIndex = 58797;
+	inline static constexpr unsigned int UISelectFriendListPopWindowController___c__DisplayClass6_0_TypeDefinitionIndex = 65421;
 
 	class UISelectFriendListPopWindowController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::Class_1_BE6BF7909AD9D940* info; // 0x10
+		::FBHPDPBIGPK* info; // 0x10
 
 		::System::Void _ctor()
 		{

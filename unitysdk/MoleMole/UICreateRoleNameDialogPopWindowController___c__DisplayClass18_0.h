@@ -7,19 +7,19 @@ namespace MoleMole { class UICreateRoleNameDialogPopWindowController; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UICREATEROLENAMEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_0__CLOSEWINDOW_B__0_OFFSET UNITYSDK_OFFSET(0x192C6480)
-#define MOLEMOLE_UICREATEROLENAMEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_0__CLOSEWINDOW_B__1_OFFSET UNITYSDK_OFFSET(0x192C6520)
-#define MOLEMOLE_UICREATEROLENAMEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x192C6470)
+#define MOLEMOLE_UICREATEROLENAMEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_0__CLOSEWINDOW_B__0_OFFSET UNITYSDK_OFFSET(0x18918500)
+#define MOLEMOLE_UICREATEROLENAMEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_0__CLOSEWINDOW_B__1_OFFSET UNITYSDK_OFFSET(0x189185A0)
+#define MOLEMOLE_UICREATEROLENAMEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189184F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICreateRoleNameDialogPopWindowController___c__DisplayClass18_0_TypeDefinitionIndex = 59213;
+	inline static constexpr unsigned int UICreateRoleNameDialogPopWindowController___c__DisplayClass18_0_TypeDefinitionIndex = 67802;
 
 	class UICreateRoleNameDialogPopWindowController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UICreateRoleNameDialogContext* context; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action* __9__1; // 0x10
+		::MoleMole::UICreateRoleNameDialogContext* context; // 0x18
 		::System::String* cacheInput; // 0x20
 		::MoleMole::UICreateRoleNameDialogPopWindowController* __4__this; // 0x28
 

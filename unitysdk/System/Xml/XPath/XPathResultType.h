@@ -3,7 +3,7 @@
 
 namespace System::Xml::XPath
 {
-	inline static constexpr unsigned int XPathResultType_TypeDefinitionIndex = 1845;
+	inline static constexpr unsigned int XPathResultType_TypeDefinitionIndex = 1844;
 
 	enum class XPathResultType : ::System::Int32
 	{

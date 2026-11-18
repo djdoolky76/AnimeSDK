@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_UpdateKinect_TypeDefinitionIndex = 5562;
+	inline static constexpr unsigned int EarlyUpdate_UpdateKinect_TypeDefinitionIndex = 5565;
 
-	struct alignas(1) EarlyUpdate_UpdateKinect
+	struct alignas(4) EarlyUpdate_UpdateKinect
 	{
 	};
 }

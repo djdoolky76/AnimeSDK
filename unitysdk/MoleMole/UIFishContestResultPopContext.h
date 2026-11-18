@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_2A154C6D4517B879;
+class EHEAJPCNGEN;
 namespace System { class Action; }
-template <typename T1, typename T2> class Class_1_516A565475879095;
+template <typename T1, typename T2> class ELKFEFPPPFL_2;
 
-#define MOLEMOLE_UIFISHCONTESTRESULTPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D624A0)
+#define MOLEMOLE_UIFISHCONTESTRESULTPOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D70C10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishContestResultPopContext_TypeDefinitionIndex = 73768;
+	inline static constexpr unsigned int UIFishContestResultPopContext_TypeDefinitionIndex = 78161;
 
 	class UIFishContestResultPopContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::System::Action* OnClose; // 0x28
-		::Class_1_2A154C6D4517B879* FishData; // 0x30
-		::Class_1_516A565475879095<::System::UInt32, ::System::UInt32>* RewardItemMap; // 0x38
+		::ELKFEFPPPFL_2<::System::UInt32, ::System::UInt32>* RewardItemMap; // 0x30
+		::EHEAJPCNGEN* FishData; // 0x38
 		::System::UInt32 RewardTypeMask; // 0x40
-		::System::Boolean HideNew; // 0x44
-		::System::Boolean ForceBg; // 0x45
+		::System::Boolean ForceBg; // 0x44
+		::System::Boolean HideNew; // 0x45
 
 		::System::Void _ctor()
 		{

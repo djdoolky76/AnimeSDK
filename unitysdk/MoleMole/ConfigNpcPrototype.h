@@ -5,11 +5,11 @@
 namespace MoleMole { class NpcPrototypeDataInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGNPCPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4861D0)
+#define MOLEMOLE_CONFIGNPCPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C702D10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNpcPrototype_TypeDefinitionIndex = 52716;
+	inline static constexpr unsigned int ConfigNpcPrototype_TypeDefinitionIndex = 52933;
 
 	class ConfigNpcPrototype : public ::Foundation::MihoyoSerializedScriptableObject
 	{

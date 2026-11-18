@@ -6,11 +6,11 @@
 namespace DG::Tweening { class Tween; }
 namespace UnityEngine::Events { class UnityEvent; }
 
-#define DG_TWEENING_CORE_ABSANIMATIONCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB89A50)
+#define DG_TWEENING_CORE_ABSANIMATIONCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF8B2B0)
 
 namespace DG::Tweening::Core
 {
-	inline static constexpr unsigned int ABSAnimationComponent_TypeDefinitionIndex = 35140;
+	inline static constexpr unsigned int ABSAnimationComponent_TypeDefinitionIndex = 34689;
 
 	class ABSAnimationComponent : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,6 +23,7 @@ namespace DG::Tweening::Core
 		::System::Boolean hasOnStepComplete; // 0x20
 		::System::Boolean hasOnComplete; // 0x21
 		::System::Boolean hasOnTweenCreated; // 0x22
+		::System::Byte _padding0[0x5];
 		::UnityEngine::Events::UnityEvent* onStart; // 0x28
 		::UnityEngine::Events::UnityEvent* onPlay; // 0x30
 		::UnityEngine::Events::UnityEvent* onUpdate; // 0x38

@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Utils/NapCameraSequenceContext.h"
-#include "unitysdk/PipelineCamera/CameraSequence/CameraSequenceMemberPath.h"
 #include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 
-#define MOLEMOLE_UTILS_LEVELFAILEDCAMERASEQUENCECONTEXT_CALCULATEDESIREDFIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x174C17B0)
-#define MOLEMOLE_UTILS_LEVELFAILEDCAMERASEQUENCECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x174C1B20)
+#define MOLEMOLE_UTILS_LEVELFAILEDCAMERASEQUENCECONTEXT_CALCULATEDESIREDFIELDOFVIEW_OFFSET UNITYSDK_OFFSET(0x18C3DBF0)
+#define MOLEMOLE_UTILS_LEVELFAILEDCAMERASEQUENCECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C3DF60)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int LevelFailedCameraSequenceContext_TypeDefinitionIndex = 72851;
+	inline static constexpr unsigned int LevelFailedCameraSequenceContext_TypeDefinitionIndex = 67751;
 
 	class LevelFailedCameraSequenceContext : public ::MoleMole::Utils::NapCameraSequenceContext
 	{

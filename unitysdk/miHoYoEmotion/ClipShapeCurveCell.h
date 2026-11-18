@@ -7,21 +7,23 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MIHOYOEMOTION_CLIPSHAPECURVECELL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0344D0)
+#define MIHOYOEMOTION_CLIPSHAPECURVECELL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D587A90)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int ClipShapeCurveCell_TypeDefinitionIndex = 40067;
+	inline static constexpr unsigned int ClipShapeCurveCell_TypeDefinitionIndex = 37999;
 
 	class ClipShapeCurveCell : public ::System::Object
 	{
 	public:
 		::System::Int32 index; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* curve; // 0x18
 		::System::String* blendShapeName; // 0x20
 		::System::Int32 indexInModelBindingList; // 0x28
 		::miHoYoEmotion::ClipShapeManager_CurveBinding_BindingType type; // 0x2C
 		::miHoYoEmotion::ClipShapeManager_CurveBinding_BoneParamType boneParamType; // 0x30
+		::System::Byte _padding1[0x4];
 		::System::String* boneName; // 0x38
 
 		::System::Void _ctor()

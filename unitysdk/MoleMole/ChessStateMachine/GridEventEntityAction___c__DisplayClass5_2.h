@@ -4,22 +4,23 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-class Class_1_5A6771CD0CA2718D;
-class Class_1_F762CCF3DE84394E;
+class AEONPIHMGJK;
+class MPKBDIJDMAP;
 
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__CTOR_OFFSET UNITYSDK_OFFSET(0x11456810)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__RUN_B__1_OFFSET UNITYSDK_OFFSET(0x11456A60)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__RUN_B__2_OFFSET UNITYSDK_OFFSET(0x11456A90)
-#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__RUN_B__3_OFFSET UNITYSDK_OFFSET(0x11456A40)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__CTOR_OFFSET UNITYSDK_OFFSET(0x131C47C0)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__RUN_B__1_OFFSET UNITYSDK_OFFSET(0x131C4A10)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__RUN_B__2_OFFSET UNITYSDK_OFFSET(0x131C4A40)
+#define MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__RUN_B__3_OFFSET UNITYSDK_OFFSET(0x131C49F0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int GridEventEntityAction___c__DisplayClass5_2_TypeDefinitionIndex = 68859;
+	inline static constexpr unsigned int GridEventEntityAction___c__DisplayClass5_2_TypeDefinitionIndex = 54130;
 
+	template <typename T1, typename T2>
 	class GridEventEntityAction___c__DisplayClass5_2 : public ::System::Object
 	{
 	public:
-		::Class_1_F762CCF3DE84394E* pieceMultiPlayerHelper; // 0x10
+		::AEONPIHMGJK* pieceMultiPlayerHelper; // 0x10
 
 		::System::Void _ctor()
 		{
@@ -31,14 +32,14 @@ namespace MoleMole::ChessStateMachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__RUN_B__3_OFFSET))(this);
 		}
 
-		::System::Void _Run_b__1(::Class_1_5A6771CD0CA2718D* p, ::UnityEngine::Vector4 scc, ::System::Int32 i)
+		::System::Void _Run_b__1(::MPKBDIJDMAP* p, ::UnityEngine::Vector4 scc, ::System::Int32 i)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_5A6771CD0CA2718D*, ::UnityEngine::Vector4, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__RUN_B__1_OFFSET))(this, p, scc, i);
+			return ((::System::Void(*)(::PVOID, ::MPKBDIJDMAP*, ::UnityEngine::Vector4, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__RUN_B__1_OFFSET))(this, p, scc, i);
 		}
 
-		::System::Void _Run_b__2(::Class_1_5A6771CD0CA2718D* p, ::UnityEngine::Color c, ::System::Int32 i)
+		::System::Void _Run_b__2(::MPKBDIJDMAP* p, ::UnityEngine::Color c, ::System::Int32 i)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_5A6771CD0CA2718D*, ::UnityEngine::Color, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__RUN_B__2_OFFSET))(this, p, c, i);
+			return ((::System::Void(*)(::PVOID, ::MPKBDIJDMAP*, ::UnityEngine::Color, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_GRIDEVENTENTITYACTION___C__DISPLAYCLASS5_2__RUN_B__2_OFFSET))(this, p, c, i);
 		}
 	};
 }

@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JJEJBPGJPJN.h"
+
+class BLMBCHLEPOG;
+template <typename T> class LJHFMILANJA_1;
+
+#define NELAHMCEGDK_ALGDLJGCEHD_OFFSET UNITYSDK_OFFSET(0x11F71340)
+#define NELAHMCEGDK_DJALKGHNHMK_OFFSET UNITYSDK_OFFSET(0x11F71380)
+#define NELAHMCEGDK_EKIFPEICBMK_OFFSET UNITYSDK_OFFSET(0x11F71350)
+#define NELAHMCEGDK_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x11F71060)
+#define NELAHMCEGDK_PENDMLPCMKB_OFFSET UNITYSDK_OFFSET(0x11F71370)
+#define NELAHMCEGDK_POPALILKCGI_OFFSET UNITYSDK_OFFSET(0x11F71210)
+#define NELAHMCEGDK_PPIFNHNGCGO_OFFSET UNITYSDK_OFFSET(0x11F71360)
+#define NELAHMCEGDK__CTOR_OFFSET UNITYSDK_OFFSET(0x11F71200)
+
+inline static constexpr unsigned int NELAHMCEGDK_TypeDefinitionIndex = 89991;
+
+class NELAHMCEGDK : public ::JJEJBPGJPJN
+{
+public:
+	::LJHFMILANJA_1<::BLMBCHLEPOG*>* _NIIOHJPLBJF_k__BackingField; // 0x88
+	::LJHFMILANJA_1<::System::Int32>* _HHNNKGPFJNO_k__BackingField; // 0x90
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NELAHMCEGDK__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnCreateProperty()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NELAHMCEGDK_ONCREATEPROPERTY_OFFSET))(this);
+	}
+
+	::System::Void POPALILKCGI(::System::Int32 HFMHOELKCAJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NELAHMCEGDK_POPALILKCGI_OFFSET))(this, HFMHOELKCAJ);
+	}
+
+	::System::Void ALGDLJGCEHD(::LJHFMILANJA_1<::System::Int32>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::System::Int32>*))((::PBYTE)hIl2Cpp + NELAHMCEGDK_ALGDLJGCEHD_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void EKIFPEICBMK(::LJHFMILANJA_1<::BLMBCHLEPOG*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::BLMBCHLEPOG*>*))((::PBYTE)hIl2Cpp + NELAHMCEGDK_EKIFPEICBMK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LJHFMILANJA_1<::System::Int32>* PPIFNHNGCGO()
+	{
+		return ((::LJHFMILANJA_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NELAHMCEGDK_PPIFNHNGCGO_OFFSET))(this);
+	}
+
+	::LJHFMILANJA_1<::BLMBCHLEPOG*>* PENDMLPCMKB()
+	{
+		return ((::LJHFMILANJA_1<::BLMBCHLEPOG*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NELAHMCEGDK_PENDMLPCMKB_OFFSET))(this);
+	}
+
+	::System::Int32 DJALKGHNHMK()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NELAHMCEGDK_DJALKGHNHMK_OFFSET))(this);
+	}
+};

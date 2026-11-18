@@ -2,19 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_SCHEMA_XDRBUILDER_GROUPCONTENT_COPY_1_OFFSET UNITYSDK_OFFSET(0x1E497430)
-#define SYSTEM_XML_SCHEMA_XDRBUILDER_GROUPCONTENT_COPY_OFFSET UNITYSDK_OFFSET(0x1E49E0E0)
-#define SYSTEM_XML_SCHEMA_XDRBUILDER_GROUPCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E495A50)
+#define SYSTEM_XML_SCHEMA_XDRBUILDER_GROUPCONTENT_COPY_1_OFFSET UNITYSDK_OFFSET(0x1E6FB220)
+#define SYSTEM_XML_SCHEMA_XDRBUILDER_GROUPCONTENT_COPY_OFFSET UNITYSDK_OFFSET(0x1E701EA0)
+#define SYSTEM_XML_SCHEMA_XDRBUILDER_GROUPCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F97F0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XdrBuilder_GroupContent_TypeDefinitionIndex = 2100;
+	inline static constexpr unsigned int XdrBuilder_GroupContent_TypeDefinitionIndex = 2099;
 
 	class XdrBuilder_GroupContent : public ::System::Object
 	{
 	public:
 		::System::Boolean _HasMaxAttr; // 0x10
 		::System::Boolean _HasMinAttr; // 0x11
+		::System::Byte _padding0[0x2];
 		::System::Int32 _Order; // 0x14
 		::System::UInt32 _MaxVal; // 0x18
 		::System::UInt32 _MinVal; // 0x1C

@@ -10,15 +10,15 @@ class AkSpatialAudioInitSettings;
 class AkUnityPlatformSpecificSettings;
 namespace System { class String; }
 
-#define AKCOMMONADVANCEDSETTINGS_COPYTO_1_OFFSET UNITYSDK_OFFSET(0x1F9D2220)
-#define AKCOMMONADVANCEDSETTINGS_COPYTO_2_OFFSET UNITYSDK_OFFSET(0x1F9D2500)
-#define AKCOMMONADVANCEDSETTINGS_COPYTO_3_OFFSET UNITYSDK_OFFSET(0x1F9D2510)
-#define AKCOMMONADVANCEDSETTINGS_COPYTO_4_OFFSET UNITYSDK_OFFSET(0x1F9D2650)
-#define AKCOMMONADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F9D2020)
-#define AKCOMMONADVANCEDSETTINGS_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1F9D2660)
-#define AKCOMMONADVANCEDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9D2740)
+#define AKCOMMONADVANCEDSETTINGS_COPYTO_1_OFFSET UNITYSDK_OFFSET(0x1FDD2430)
+#define AKCOMMONADVANCEDSETTINGS_COPYTO_2_OFFSET UNITYSDK_OFFSET(0x1FDD2710)
+#define AKCOMMONADVANCEDSETTINGS_COPYTO_3_OFFSET UNITYSDK_OFFSET(0x1FDD2720)
+#define AKCOMMONADVANCEDSETTINGS_COPYTO_4_OFFSET UNITYSDK_OFFSET(0x1FDD2860)
+#define AKCOMMONADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1FDD2230)
+#define AKCOMMONADVANCEDSETTINGS_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1FDD2870)
+#define AKCOMMONADVANCEDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDD2950)
 
-inline static constexpr unsigned int AkCommonAdvancedSettings_TypeDefinitionIndex = 33701;
+inline static constexpr unsigned int AkCommonAdvancedSettings_TypeDefinitionIndex = 33247;
 
 class AkCommonAdvancedSettings : public ::System::Object
 {
@@ -26,15 +26,19 @@ public:
 	::System::UInt32 m_IOMemorySize; // 0x10
 	::System::Single m_TargetAutoStreamBufferLengthMs; // 0x14
 	::System::Boolean m_UseStreamCache; // 0x18
+	::System::Byte _padding0[0x3];
 	::System::UInt32 m_MaximumPinnedBytesInCache; // 0x1C
 	::System::Boolean m_EnableGameSyncPreparation; // 0x20
+	::System::Byte _padding1[0x3];
 	::System::UInt32 m_ContinuousPlaybackLookAhead; // 0x24
 	::System::UInt32 m_MonitorQueuePoolSize; // 0x28
 	::System::UInt32 m_MaximumHardwareTimeoutMs; // 0x2C
 	::System::Boolean m_DebugOutOfRangeCheckEnabled; // 0x30
+	::System::Byte _padding2[0x3];
 	::System::Single m_DebugOutOfRangeLimit; // 0x34
 	::AkCommonAdvancedSettings_SpatialAudioSettings* m_SpatialAudioSettings; // 0x38
 	::System::Boolean m_RenderDuringFocusLoss; // 0x40
+	::System::Byte _padding3[0x7];
 	::System::String* m_SoundBankPersistentDataPath; // 0x48
 	::System::Boolean m_UseAsyncOpen; // 0x50
 

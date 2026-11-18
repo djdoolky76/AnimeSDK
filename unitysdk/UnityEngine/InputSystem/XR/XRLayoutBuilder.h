@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/InputSystem/Layouts/InputDeviceDescription.h"
 #include "unitysdk/UnityEngine/InputSystem/XR/FeatureType.h"
+#include "unitysdk/UnityEngine/InputSystem/Layouts/InputDeviceDescription.h"
 #include "unitysdk/UnityEngine/InputSystem/XR/XRFeatureDescriptor.h"
 
 namespace System { class String; }
@@ -11,35 +11,35 @@ namespace UnityEngine::InputSystem::Layouts { class InputControlLayout; }
 namespace UnityEngine::InputSystem::LowLevel { class InputDeviceExecuteCommandDelegate; }
 namespace UnityEngine::InputSystem::XR { class XRDeviceDescriptor; }
 
-#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0x1CE5FB10)
-#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_CONVERTPOTENTIALALIASTONAME_OFFSET UNITYSDK_OFFSET(0x1CE5F6B0)
-#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_GETPARENTCONTROLNAME_OFFSET UNITYSDK_OFFSET(0x1CE5F900)
-#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_GETSIZEOFFEATURE_OFFSET UNITYSDK_OFFSET(0x1CE5F0F0)
-#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_ISPOSECONTROL_OFFSET UNITYSDK_OFFSET(0x1CE5F940)
-#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_ISSUBCONTROL_OFFSET UNITYSDK_OFFSET(0x1CE5F8D0)
-#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_ONFINDLAYOUTFORDEVICE_OFFSET UNITYSDK_OFFSET(0x1CE5F310)
-#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_SANITIZESTRING_OFFSET UNITYSDK_OFFSET(0x1CE5F140)
-#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE60E60)
-#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5F6A0)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0x1D3CDB90)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_CONVERTPOTENTIALALIASTONAME_OFFSET UNITYSDK_OFFSET(0x1D3CD730)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_GETPARENTCONTROLNAME_OFFSET UNITYSDK_OFFSET(0x1D3CD980)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_GETSIZEOFFEATURE_OFFSET UNITYSDK_OFFSET(0x1D3CD170)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_ISPOSECONTROL_OFFSET UNITYSDK_OFFSET(0x1D3CD9C0)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_ISSUBCONTROL_OFFSET UNITYSDK_OFFSET(0x1D3CD950)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_ONFINDLAYOUTFORDEVICE_OFFSET UNITYSDK_OFFSET(0x1D3CD390)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER_SANITIZESTRING_OFFSET UNITYSDK_OFFSET(0x1D3CD1C0)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3CEEE0)
+#define UNITYENGINE_INPUTSYSTEM_XR_XRLAYOUTBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CD720)
 
 namespace UnityEngine::InputSystem::XR
 {
-	inline static constexpr unsigned int XRLayoutBuilder_TypeDefinitionIndex = 32340;
+	inline static constexpr unsigned int XRLayoutBuilder_TypeDefinitionIndex = 31789;
 
 	class XRLayoutBuilder : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::InputSystem::XR::FeatureType>** StaticGet_poseSubControlTypes()
-		{
-			return (::Il2CppArray<::UnityEngine::InputSystem::XR::FeatureType>**)Il2CppClass::FromTypeDefinitionIndex(XRLayoutBuilder_TypeDefinitionIndex)->GetStaticField(0x27BC0);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_poseSubControlNames()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(XRLayoutBuilder_TypeDefinitionIndex)->GetStaticField(0x27BC8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(XRLayoutBuilder_TypeDefinitionIndex)->GetStaticField(0x28CA0);
 		}
-		::UnityEngine::InputSystem::XR::XRDeviceDescriptor* descriptor; // 0x10
-		::System::String* parentLayout; // 0x18
-		::System::String* interfaceName; // 0x20
+		static ::Il2CppArray<::UnityEngine::InputSystem::XR::FeatureType>** StaticGet_poseSubControlTypes()
+		{
+			return (::Il2CppArray<::UnityEngine::InputSystem::XR::FeatureType>**)Il2CppClass::FromTypeDefinitionIndex(XRLayoutBuilder_TypeDefinitionIndex)->GetStaticField(0x28CA8);
+		}
+		::System::String* interfaceName; // 0x10
+		::UnityEngine::InputSystem::XR::XRDeviceDescriptor* descriptor; // 0x18
+		::System::String* parentLayout; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -6,7 +6,7 @@
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int RBDManager_ParticleData_TypeDefinitionIndex = 27070;
+	inline static constexpr unsigned int RBDManager_ParticleData_TypeDefinitionIndex = 26546;
 
 	struct alignas(4) RBDManager_ParticleData
 	{

@@ -4,13 +4,14 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_UIRECYCLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS59_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15101E40)
-#define MOLEMOLE_UIRECYCLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS59_1__ONSORTERMARKDELETECLICK_B__1_OFFSET UNITYSDK_OFFSET(0x15101E50)
+#define MOLEMOLE_UIRECYCLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS59_1__CTOR_OFFSET UNITYSDK_OFFSET(0x147FE870)
+#define MOLEMOLE_UIRECYCLEDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS59_1__ONSORTERMARKDELETECLICK_B__1_OFFSET UNITYSDK_OFFSET(0x147FE880)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRecycleDialogPopWindowController___c__DisplayClass59_1_TypeDefinitionIndex = 67834;
+	inline static constexpr unsigned int UIRecycleDialogPopWindowController___c__DisplayClass59_1_TypeDefinitionIndex = 42928;
 
+	template <typename T>
 	class UIRecycleDialogPopWindowController___c__DisplayClass59_1 : public ::System::Object
 	{
 	public:

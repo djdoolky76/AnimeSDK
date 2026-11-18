@@ -5,20 +5,20 @@
 namespace MoleMole { class UIGalgamePageController; }
 namespace MoleMole::GalGame { class GalgameArgueNPCEnterAction; }
 
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS29_0__CREATEARGUEENTERAVATARNAMEPLAYABLE_B__0_OFFSET UNITYSDK_OFFSET(0x18AD3210)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS29_0__CREATEARGUEENTERAVATARNAMEPLAYABLE_B__1_OFFSET UNITYSDK_OFFSET(0x18AD3320)
-#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD3200)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS29_0__CREATEARGUEENTERAVATARNAMEPLAYABLE_B__0_OFFSET UNITYSDK_OFFSET(0x180A39D0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS29_0__CREATEARGUEENTERAVATARNAMEPLAYABLE_B__1_OFFSET UNITYSDK_OFFSET(0x180A3AF0)
+#define MOLEMOLE_UIGALGAMEPAGECONTROLLER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180A39C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController___c__DisplayClass29_0_TypeDefinitionIndex = 62810;
+	inline static constexpr unsigned int UIGalgamePageController___c__DisplayClass29_0_TypeDefinitionIndex = 44787;
 
 	class UIGalgamePageController___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::GalGame::GalgameArgueNPCEnterAction* rightEnterAction; // 0x10
+		::MoleMole::GalGame::GalgameArgueNPCEnterAction* leftEnterAction; // 0x10
 		::MoleMole::UIGalgamePageController* __4__this; // 0x18
-		::MoleMole::GalGame::GalgameArgueNPCEnterAction* leftEnterAction; // 0x20
+		::MoleMole::GalGame::GalgameArgueNPCEnterAction* rightEnterAction; // 0x20
 
 		::System::Void _ctor()
 		{

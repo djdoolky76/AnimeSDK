@@ -1,0 +1,70 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sirenix/OdinInspector/ValueDropdownItem_1.h"
+#include "unitysdk/System/Object.h"
+
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1FEA7710)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SIRENIX_ODININSPECTOR_VALUEDROPDOWNITEM_SYSTEM_INT32___GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1FEA78C0)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SIRENIX_ODININSPECTOR_VALUEDROPDOWNITEM_SYSTEM_INT32___GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1FEA7800)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1FEA7930)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1FEA7870)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1FEA7820)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1FEA7700)
+#define MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD__CTOR_OFFSET UNITYSDK_OFFSET(0x1FEA76E0)
+
+namespace MoleMole::Arcade::BallPit
+{
+	inline static constexpr unsigned int BallPitGameConsole_LPLGKELFAPD_TypeDefinitionIndex = 94945;
+
+	class BallPitGameConsole_LPLGKELFAPD : public ::System::Object
+	{
+	public:
+		::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32> IDBEJJEKGDI; // 0x10
+		::System::Byte _padding0[0x10];
+		::System::Int32 FPDDAGHMOJB; // 0x28
+		::System::Int32 MDPILDGFNHN; // 0x2C
+
+		::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD__CTOR_OFFSET))(this, MDPILDGFNHN);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_MOVENEXT_OFFSET))(this);
+		}
+
+		::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32> System_Collections_Generic_IEnumerator_Sirenix_OdinInspector_ValueDropdownItem_System_Int32___get_Current()
+		{
+			return ((::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SIRENIX_ODININSPECTOR_VALUEDROPDOWNITEM_SYSTEM_INT32___GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IEnumerator_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>>* System_Collections_Generic_IEnumerable_Sirenix_OdinInspector_ValueDropdownItem_System_Int32___GetEnumerator()
+		{
+			return ((::System::Collections::Generic::IEnumerator_1<::Sirenix::OdinInspector::ValueDropdownItem_1<::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SIRENIX_ODININSPECTOR_VALUEDROPDOWNITEM_SYSTEM_INT32___GETENUMERATOR_OFFSET))(this);
+		}
+
+		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_ARCADE_BALLPIT_BALLPITGAMECONSOLE_LPLGKELFAPD_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+		}
+	};
+}

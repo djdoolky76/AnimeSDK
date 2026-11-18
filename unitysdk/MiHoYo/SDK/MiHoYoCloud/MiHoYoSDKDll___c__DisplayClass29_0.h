@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class InvokeResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D769670)
-#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS29_0__ONGETINVOKERESPONSE_B__0_OFFSET UNITYSDK_OFFSET(0x1D769680)
+#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC1620)
+#define MIHOYO_SDK_MIHOYOCLOUD_MIHOYOSDKDLL___C__DISPLAYCLASS29_0__ONGETINVOKERESPONSE_B__0_OFFSET UNITYSDK_OFFSET(0x1DEC1630)
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass29_0_TypeDefinitionIndex = 21222;
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass29_0_TypeDefinitionIndex = 20427;
 
 	class MiHoYoSDKDll___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::MiHoYo::SDK::InvokeResponseModel* resp; // 0x18
+		::MiHoYo::SDK::InvokeResponseModel* resp; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
 		::System::Int32 indexResp; // 0x20
 
 		::System::Void _ctor()

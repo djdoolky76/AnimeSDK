@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define UNITYENGINE_RENDERING_SHAREDMATERIALCACHE_GETMATERIALS_OFFSET UNITYSDK_OFFSET(0x1C5AF890)
-#define UNITYENGINE_RENDERING_SHAREDMATERIALCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AF830)
+#define UNITYENGINE_RENDERING_SHAREDMATERIALCACHE_GETMATERIALS_OFFSET UNITYSDK_OFFSET(0x1CA411B0)
+#define UNITYENGINE_RENDERING_SHAREDMATERIALCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA41150)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SharedMaterialCache_TypeDefinitionIndex = 27465;
+	inline static constexpr unsigned int SharedMaterialCache_TypeDefinitionIndex = 26242;
 
 	class SharedMaterialCache : public ::UnityEngine::Rendering::MaterialCacheBase
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/PCShortcutWheelOperateType.h"
 #include "unitysdk/MoleMole/SystemSettingContextBase.h"
 
-#define MOLEMOLE_PCSHORTCUTWHEELOPERATETYPESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x190A6110)
+#define MOLEMOLE_PCSHORTCUTWHEELOPERATETYPESETTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1810EB20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int PCShortcutWheelOperateTypeSettingContext_TypeDefinitionIndex = 53502;
+	inline static constexpr unsigned int PCShortcutWheelOperateTypeSettingContext_TypeDefinitionIndex = 48581;
 
 	class PCShortcutWheelOperateTypeSettingContext : public ::MoleMole::SystemSettingContextBase
 	{

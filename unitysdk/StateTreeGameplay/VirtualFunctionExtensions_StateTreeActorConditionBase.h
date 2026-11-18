@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeGameplay/StateTreeActorConditionBase.h"
-#include "unitysdk/System/Object.h"
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_STATETREEACTORCONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1D33E4A0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_STATETREEACTORCONDITIONBASE_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1D9E4C30)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_StateTreeActorConditionBase_TypeDefinitionIndex = 48897;
+	inline static constexpr unsigned int VirtualFunctionExtensions_StateTreeActorConditionBase_TypeDefinitionIndex = 77947;
 
 	class VirtualFunctionExtensions_StateTreeActorConditionBase : public ::System::Object
 	{

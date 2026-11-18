@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/Foundation/Container/HierarchicalHashGrid2D_2.h"
 #include "unitysdk/Foundation/Container/NativeHashSet_2.h"
 #include "unitysdk/NPCCrowd/Ability/FNPCAIBlackboardFragment.h"
@@ -9,20 +10,19 @@
 #include "unitysdk/NPCCrowd/Ability/NPCEntityNativeData.h"
 #include "unitysdk/NPCCrowd/Ability/NavigationObstacleItem.h"
 #include "unitysdk/NPCCrowd/Ability/NavigationObstacleItemEqualsFunc.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Ability { class NPCAbilityRuntimeData; }
 
-#define NPCCROWD_AI_NPCFINDATTRACTORPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x114D6A30)
-#define NPCCROWD_AI_NPCFINDATTRACTORPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0x114D5D50)
-#define NPCCROWD_AI_NPCFINDATTRACTORPROCESSOR_RETURNTOINITSTATE_OFFSET UNITYSDK_OFFSET(0x114D5C10)
-#define NPCCROWD_AI_NPCFINDATTRACTORPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x114D6C60)
+#define NPCCROWD_AI_NPCFINDATTRACTORPROCESSOR_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0xE1B1C50)
+#define NPCCROWD_AI_NPCFINDATTRACTORPROCESSOR_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE1B0F70)
+#define NPCCROWD_AI_NPCFINDATTRACTORPROCESSOR_RETURNTOINITSTATE_OFFSET UNITYSDK_OFFSET(0xE1B0E30)
+#define NPCCROWD_AI_NPCFINDATTRACTORPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE1B1E80)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCFindAttractorProcessor_TypeDefinitionIndex = 65212;
+	inline static constexpr unsigned int NPCFindAttractorProcessor_TypeDefinitionIndex = 77273;
 
 	class NPCFindAttractorProcessor : public ::System::Object
 	{

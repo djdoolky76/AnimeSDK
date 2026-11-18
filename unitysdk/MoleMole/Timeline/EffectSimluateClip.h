@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class EffectSimluateBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x190BC340)
-#define MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x190BC330)
-#define MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x190BC490)
+#define MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18123EC0)
+#define MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x18123EB0)
+#define MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18124010)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int EffectSimluateClip_TypeDefinitionIndex = 75855;
+	inline static constexpr unsigned int EffectSimluateClip_TypeDefinitionIndex = 63120;
 
 	class EffectSimluateClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -31,9 +31,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* NJOAJLDJCCJ)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_EFFECTSIMLUATECLIP_CREATEPLAYABLE_OFFSET))(this, MHPNGBGGMMN, NJOAJLDJCCJ);
 		}
 	};
 }

@@ -6,18 +6,18 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define PEROBJECTSHADOWGIZMOS_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x1C5A1200)
-#define PEROBJECTSHADOWGIZMOS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5A2440)
-#define PEROBJECTSHADOWGIZMOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A2430)
+#define PEROBJECTSHADOWGIZMOS_DRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0x1CA32BF0)
+#define PEROBJECTSHADOWGIZMOS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA33E10)
+#define PEROBJECTSHADOWGIZMOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA33E00)
 
-inline static constexpr unsigned int PerObjectShadowGizmos_TypeDefinitionIndex = 27659;
+inline static constexpr unsigned int PerObjectShadowGizmos_TypeDefinitionIndex = 27044;
 
 class PerObjectShadowGizmos : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>>** StaticGet_wireLines()
 	{
-		return (::Il2CppArray<::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>>**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowGizmos_TypeDefinitionIndex)->GetStaticField(0x21CC0);
+		return (::Il2CppArray<::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>>**)Il2CppClass::FromTypeDefinitionIndex(PerObjectShadowGizmos_TypeDefinitionIndex)->GetStaticField(0x22FD0);
 	}
 	::System::Int32 index; // 0x10
 	::System::Boolean gizmosWorldSpaceBounds; // 0x14
@@ -25,6 +25,7 @@ public:
 	::System::Boolean gizmosResolveMesh; // 0x16
 	::System::Boolean gizmosWorldToUvBounds; // 0x17
 	::System::Boolean gizmosCullingSphere; // 0x18
+	::System::Byte _padding0[0x3];
 	::UnityEngine::Vector2Int perObjectShadowResolution; // 0x1C
 	::System::Single alpha; // 0x24
 	::PerObjectShadowGizmosContext c; // 0x28

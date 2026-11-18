@@ -6,12 +6,12 @@
 
 namespace MoleMole::Cameras { class CameraTrackSetting; }
 
-#define MOLEMOLE_CAMERASCREENDRAGCONFIG_GETTRACK_OFFSET UNITYSDK_OFFSET(0x116CC150)
-#define MOLEMOLE_CAMERASCREENDRAGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x116CC680)
+#define MOLEMOLE_CAMERASCREENDRAGCONFIG_GETTRACK_OFFSET UNITYSDK_OFFSET(0xFA8AA90)
+#define MOLEMOLE_CAMERASCREENDRAGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xFA8AFC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraScreenDragConfig_TypeDefinitionIndex = 84063;
+	inline static constexpr unsigned int CameraScreenDragConfig_TypeDefinitionIndex = 70644;
 
 	class CameraScreenDragConfig : public ::System::Object
 	{
@@ -21,6 +21,7 @@ namespace MoleMole
 		::System::Single DRAG_TO_EXIT_DURATION; // 0x30
 		::System::Single NapCamOrbitLerpTime; // 0x34
 		::System::Single NapCamOrbitSplineCurvature; // 0x38
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::MoleMole::CameraOrbit>* NapCameraOrbits; // 0x40
 		::MoleMole::CameraOrbit NapTopCameraOrbit; // 0x48
 		::System::Single NapCamTopOrbitSplineCurvature; // 0x50

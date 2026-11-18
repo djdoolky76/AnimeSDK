@@ -4,25 +4,25 @@
 
 namespace Dest::Math { class OdeFunction; }
 
-#define DEST_MATH_ODERUNGEKUTTA4_GET_STEP_OFFSET UNITYSDK_OFFSET(0x1F27B2A0)
-#define DEST_MATH_ODERUNGEKUTTA4_SET_STEP_OFFSET UNITYSDK_OFFSET(0x1F27B2B0)
-#define DEST_MATH_ODERUNGEKUTTA4_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F27B3F0)
-#define DEST_MATH_ODERUNGEKUTTA4__CTOR_OFFSET UNITYSDK_OFFSET(0x1F27B2E0)
+#define DEST_MATH_ODERUNGEKUTTA4_GET_STEP_OFFSET UNITYSDK_OFFSET(0x1F6899C0)
+#define DEST_MATH_ODERUNGEKUTTA4_SET_STEP_OFFSET UNITYSDK_OFFSET(0x1F6899D0)
+#define DEST_MATH_ODERUNGEKUTTA4_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F689B10)
+#define DEST_MATH_ODERUNGEKUTTA4__CTOR_OFFSET UNITYSDK_OFFSET(0x1F689A00)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int OdeRungeKutta4_TypeDefinitionIndex = 35418;
+	inline static constexpr unsigned int OdeRungeKutta4_TypeDefinitionIndex = 34991;
 
 	class OdeRungeKutta4 : public ::Dest::Math::OdeSolver
 	{
 	public:
-		::Il2CppArray<::System::Single>* _temp4; // 0x28
-		::Il2CppArray<::System::Single>* _temp2; // 0x30
-		::Il2CppArray<::System::Single>* _temp3; // 0x38
-		::Il2CppArray<::System::Single>* _yTemp; // 0x40
-		::Il2CppArray<::System::Single>* _temp1; // 0x48
-		::System::Single _halfStep; // 0x50
-		::System::Single _sixthStep; // 0x54
+		::Il2CppArray<::System::Single>* _yTemp; // 0x28
+		::Il2CppArray<::System::Single>* _temp4; // 0x30
+		::Il2CppArray<::System::Single>* _temp1; // 0x38
+		::Il2CppArray<::System::Single>* _temp2; // 0x40
+		::Il2CppArray<::System::Single>* _temp3; // 0x48
+		::System::Single _sixthStep; // 0x50
+		::System::Single _halfStep; // 0x54
 
 		::System::Void _ctor(::System::Int32 dim, ::System::Single step, ::Dest::Math::OdeFunction* function)
 		{

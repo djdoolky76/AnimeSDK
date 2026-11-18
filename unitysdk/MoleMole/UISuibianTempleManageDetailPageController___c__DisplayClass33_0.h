@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_D3384FC764485EA3.h"
+#include "unitysdk/ADLCDHJKFIO.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UISuibianTempleManageDetailPageController; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEMANAGEDETAILPAGECONTROLLER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1848C1C0)
-#define MOLEMOLE_UISUIBIANTEMPLEMANAGEDETAILPAGECONTROLLER___C__DISPLAYCLASS33_0__REFRESHBG_B__1_OFFSET UNITYSDK_OFFSET(0x1848C1D0)
-#define MOLEMOLE_UISUIBIANTEMPLEMANAGEDETAILPAGECONTROLLER___C__DISPLAYCLASS33_0__REFRESHBG_G__PLAYFADEIN_0_OFFSET UNITYSDK_OFFSET(0x1848C210)
+#define MOLEMOLE_UISUIBIANTEMPLEMANAGEDETAILPAGECONTROLLER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17176D40)
+#define MOLEMOLE_UISUIBIANTEMPLEMANAGEDETAILPAGECONTROLLER___C__DISPLAYCLASS33_0__REFRESHBG_B__1_OFFSET UNITYSDK_OFFSET(0x17176D50)
+#define MOLEMOLE_UISUIBIANTEMPLEMANAGEDETAILPAGECONTROLLER___C__DISPLAYCLASS33_0__REFRESHBG_G__PLAYFADEIN_0_OFFSET UNITYSDK_OFFSET(0x17176D90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleManageDetailPageController___c__DisplayClass33_0_TypeDefinitionIndex = 88598;
+	inline static constexpr unsigned int UISuibianTempleManageDetailPageController___c__DisplayClass33_0_TypeDefinitionIndex = 53524;
 
 	class UISuibianTempleManageDetailPageController___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UISuibianTempleManageDetailPageController* __4__this; // 0x10
 		::UnityEngine::Transform* oldBG; // 0x18
-		::Enum_3_D3384FC764485EA3 to; // 0x20
+		::ADLCDHJKFIO to; // 0x20
 
 		::System::Void _ctor()
 		{

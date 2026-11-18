@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class String; }
-
 namespace ICSharpCode::SharpZipLib::Core
 {
-	inline static constexpr unsigned int INameTransform_TypeDefinitionIndex = 6790;
+	inline static constexpr unsigned int INameTransform_TypeDefinitionIndex = 6797;
 
 	class INameTransform
 	{

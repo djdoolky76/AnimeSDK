@@ -7,12 +7,13 @@ namespace System { class Object; }
 
 namespace System::Runtime::InteropServices::ComTypes
 {
-	inline static constexpr unsigned int STGMEDIUM_TypeDefinitionIndex = 3134;
+	inline static constexpr unsigned int STGMEDIUM_TypeDefinitionIndex = 3133;
 
 	struct alignas(8) STGMEDIUM
 	{
 		::System::Object* pUnkForRelease; // 0x10
 		::System::Runtime::InteropServices::ComTypes::TYMED tymed; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::IntPtr unionmember; // 0x20
 	};
 }

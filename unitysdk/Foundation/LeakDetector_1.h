@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int LeakDetector_1_TypeDefinitionIndex = 8200;
+	inline static constexpr unsigned int LeakDetector_1_TypeDefinitionIndex = 8335;
 
 	template <typename T>
 	class LeakDetector_1 : public ::System::Object

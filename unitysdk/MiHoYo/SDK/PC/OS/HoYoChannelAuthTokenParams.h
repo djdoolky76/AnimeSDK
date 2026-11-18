@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1CEA5CC0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEA5CD0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1D4A8400)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A8410)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelAuthTokenParams_TypeDefinitionIndex = 20689;
+	inline static constexpr unsigned int HoYoChannelAuthTokenParams_TypeDefinitionIndex = 19886;
 
 	class HoYoChannelAuthTokenParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{
 	public:
-		::System::String* identity; // 0x18
-		::System::Boolean forceRefresh; // 0x20
+		::System::String* identity; // 0x20
+		::System::Boolean forceRefresh; // 0x28
 
 		::System::Void _ctor()
 		{

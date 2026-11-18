@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/EffectSimulate/ESMatAnimBehavior_2.h"
-#include "unitysdk/MoleMole/EffectSimulate/ESMatFloatAnimation_Struct_2_9C1A4F1511EE364E_1.h"
 #include "unitysdk/UnityEngine/NAPBatch/BatchItemValueType.h"
+#include "unitysdk/MoleMole/EffectSimulate/ESMatFloatAnimation_JONMJGBCFIH.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace MoleMole::EffectSimulate { class FloatCurve; }
@@ -11,24 +10,24 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_GET_XKEYFRAME_OFFSET UNITYSDK_OFFSET(0x16281340)
-#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_192E62CFC6E9FB45_OFFSET UNITYSDK_OFFSET(0x16281180)
-#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_1CA6C4F493FC98BF_OFFSET UNITYSDK_OFFSET(0x16281170)
-#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x162814B0)
-#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_3ABD0165571B5EF8_OFFSET UNITYSDK_OFFSET(0x16280DB0)
-#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_3C081D06DA6B1B22_OFFSET UNITYSDK_OFFSET(0x16281210)
-#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_3E71E839BC291F9E_OFFSET UNITYSDK_OFFSET(0x16280D20)
-#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_7957AE4AE3456213_OFFSET UNITYSDK_OFFSET(0x16281290)
-#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_C446CE6A5E1982BC_OFFSET UNITYSDK_OFFSET(0x16281300)
-#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_FB4B868BEA22A20E_OFFSET UNITYSDK_OFFSET(0x16280F70)
-#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_SET_XKEYFRAME_OFFSET UNITYSDK_OFFSET(0x16281380)
-#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x16281410)
+#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_ACHCPCABEBM_OFFSET UNITYSDK_OFFSET(0x19B36FA0)
+#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_DLDPKDBONAJ_OFFSET UNITYSDK_OFFSET(0x19B37030)
+#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_EPHLDGCMPGA_OFFSET UNITYSDK_OFFSET(0x19B37420)
+#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_FOFNJCIGEFM_OFFSET UNITYSDK_OFFSET(0x19B375B0)
+#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_GDKDOHEHBNA_OFFSET UNITYSDK_OFFSET(0x19B37430)
+#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_GET_XKEYFRAME_OFFSET UNITYSDK_OFFSET(0x19B375F0)
+#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_IIKHBHEDFIF_OFFSET UNITYSDK_OFFSET(0x19B37220)
+#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_IKFFPJCBECD_OFFSET UNITYSDK_OFFSET(0x19B37760)
+#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_KGHBBDNMFDE_OFFSET UNITYSDK_OFFSET(0x19B37540)
+#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_MEKOCMKPLKD_OFFSET UNITYSDK_OFFSET(0x19B374C0)
+#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_SET_XKEYFRAME_OFFSET UNITYSDK_OFFSET(0x19B37630)
+#define MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19B376C0)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESMatFloatAnimation_TypeDefinitionIndex = 53194;
+	inline static constexpr unsigned int ESMatFloatAnimation_TypeDefinitionIndex = 53857;
 
-	class ESMatFloatAnimation : public ::MoleMole::EffectSimulate::ESMatAnimBehavior_2<::MoleMole::EffectSimulate::FloatCurve*, ::System::Single>
+	class ESMatFloatAnimation
 	{
 	public:
 		::System::Single xBaseVal; // 0xA0
@@ -38,34 +37,34 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector4 Method_5_3E71E839BC291F9E(::System::Single a1, ::UnityEngine::NAPBatch::BatchItemValueType& a2)
+		::UnityEngine::Vector4 ACHCPCABEBM(::System::Single GEGOALONGBI, ::UnityEngine::NAPBatch::BatchItemValueType& LOACBJBANNC)
 		{
-			return ((::UnityEngine::Vector4(*)(::PVOID, ::System::Single, ::UnityEngine::NAPBatch::BatchItemValueType&))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_3E71E839BC291F9E_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Vector4(*)(::PVOID, ::System::Single, ::UnityEngine::NAPBatch::BatchItemValueType&))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_ACHCPCABEBM_OFFSET))(this, GEGOALONGBI, LOACBJBANNC);
 		}
 
-		::System::Single Method_5_3ABD0165571B5EF8()
+		::System::Single DLDPKDBONAJ()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_3ABD0165571B5EF8_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_DLDPKDBONAJ_OFFSET))(this);
 		}
 
-		::System::String* Method_5_FB4B868BEA22A20E(::MoleMole::EffectSimulate::FloatCurve* a1, ::System::Single a2, ::System::Single a3, ::System::Int32 a4)
+		::System::String* IIKHBHEDFIF(::MoleMole::EffectSimulate::FloatCurve* GIMHHMOMJBI, ::System::Single AHAFNGEDPLI, ::System::Single GEGOALONGBI, ::System::Int32 GEJCKFFFKCL)
 		{
-			return ((::System::String*(*)(::PVOID, ::MoleMole::EffectSimulate::FloatCurve*, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_FB4B868BEA22A20E_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::String*(*)(::PVOID, ::MoleMole::EffectSimulate::FloatCurve*, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_IIKHBHEDFIF_OFFSET))(this, GIMHHMOMJBI, AHAFNGEDPLI, GEGOALONGBI, GEJCKFFFKCL);
 		}
 
-		::System::Void Method_5_3C081D06DA6B1B22(::UnityEngine::MaterialPropertyBlock* a1, ::System::Single a2)
+		::System::Void MEKOCMKPLKD(::UnityEngine::MaterialPropertyBlock* IKFBHKAEKDB, ::System::Single GEGOALONGBI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_3C081D06DA6B1B22_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_MEKOCMKPLKD_OFFSET))(this, IKFBHKAEKDB, GEGOALONGBI);
 		}
 
-		::System::Single Method_5_7957AE4AE3456213(::UnityEngine::MaterialPropertyBlock* a1)
+		::System::Single KGHBBDNMFDE(::UnityEngine::MaterialPropertyBlock* IKFBHKAEKDB)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_7957AE4AE3456213_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::MaterialPropertyBlock*))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_KGHBBDNMFDE_OFFSET))(this, IKFBHKAEKDB);
 		}
 
-		::System::Collections::Generic::List_1<::System::String*>* Method_5_C446CE6A5E1982BC()
+		::System::Collections::Generic::List_1<::System::String*>* FOFNJCIGEFM()
 		{
-			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_C446CE6A5E1982BC_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_FOFNJCIGEFM_OFFSET))(this);
 		}
 
 		::System::Single get_xKeyFrame()
@@ -73,24 +72,24 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_GET_XKEYFRAME_OFFSET))(this);
 		}
 
-		::System::Void set_xKeyFrame(::System::Single a1)
+		::System::Void set_xKeyFrame(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_SET_XKEYFRAME_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_SET_XKEYFRAME_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		static ::System::Void Method_5_192E62CFC6E9FB45(::UnityEngine::AnimationCurve* a1, ::System::Single a2, ::MoleMole::EffectSimulate::ESMatFloatAnimation_Struct_2_9C1A4F1511EE364E_1& a3)
+		static ::System::Void GDKDOHEHBNA(::UnityEngine::AnimationCurve* PAAFCGCBADL, ::System::Single MPAMOGGNEEM, ::MoleMole::EffectSimulate::ESMatFloatAnimation_JONMJGBCFIH& param_2)
 		{
-			return ((::System::Void(*)(::UnityEngine::AnimationCurve*, ::System::Single, ::MoleMole::EffectSimulate::ESMatFloatAnimation_Struct_2_9C1A4F1511EE364E_1&))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_192E62CFC6E9FB45_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::AnimationCurve*, ::System::Single, ::MoleMole::EffectSimulate::ESMatFloatAnimation_JONMJGBCFIH&))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_GDKDOHEHBNA_OFFSET))(PAAFCGCBADL, MPAMOGGNEEM, param_2);
 		}
 
-		::System::Boolean Method_5_391A84BCD9F51317()
+		static ::System::Single EPHLDGCMPGA(::System::Single EHPJNLMOPAL, ::MoleMole::EffectSimulate::ESMatFloatAnimation_JONMJGBCFIH& param_1)
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Single(*)(::System::Single, ::MoleMole::EffectSimulate::ESMatFloatAnimation_JONMJGBCFIH&))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_EPHLDGCMPGA_OFFSET))(EHPJNLMOPAL, param_1);
 		}
 
-		static ::System::Single Method_5_1CA6C4F493FC98BF(::System::Single a1, ::MoleMole::EffectSimulate::ESMatFloatAnimation_Struct_2_9C1A4F1511EE364E_1& a2)
+		::System::Boolean IKFFPJCBECD()
 		{
-			return ((::System::Single(*)(::System::Single, ::MoleMole::EffectSimulate::ESMatFloatAnimation_Struct_2_9C1A4F1511EE364E_1&))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_METHOD_5_1CA6C4F493FC98BF_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESMATFLOATANIMATION_IKFFPJCBECD_OFFSET))(this);
 		}
 	};
 }

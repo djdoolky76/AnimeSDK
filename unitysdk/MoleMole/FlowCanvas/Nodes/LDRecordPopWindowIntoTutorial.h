@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDPOPWINDOWINTOTUTORIAL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x149DFB50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDPOPWINDOWINTOTUTORIAL_START_OFFSET UNITYSDK_OFFSET(0x149DFC40)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDPOPWINDOWINTOTUTORIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x149DFEB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDPOPWINDOWINTOTUTORIAL_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x130CF7F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDPOPWINDOWINTOTUTORIAL_START_OFFSET UNITYSDK_OFFSET(0x130CF8E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRECORDPOPWINDOWINTOTUTORIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x130CFB50)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRecordPopWindowIntoTutorial_TypeDefinitionIndex = 82492;
+	inline static constexpr unsigned int LDRecordPopWindowIntoTutorial_TypeDefinitionIndex = 51589;
 
 	class LDRecordPopWindowIntoTutorial : public ::FlowCanvas::Nodes::FlowControlNode
 	{

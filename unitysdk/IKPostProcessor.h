@@ -9,13 +9,13 @@ namespace RootMotion::FinalIK { class ArmIK; }
 namespace UnityEngine { class AnimageComponent; }
 namespace UnityEngine { class Transform; }
 
-#define IKPOSTPROCESSOR_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x101AD960)
-#define IKPOSTPROCESSOR_ONANIMATORIK_OFFSET UNITYSDK_OFFSET(0x101AE220)
-#define IKPOSTPROCESSOR_ONLATEANIMAGEIK_OFFSET UNITYSDK_OFFSET(0x101AE300)
-#define IKPOSTPROCESSOR_START_OFFSET UNITYSDK_OFFSET(0x101AD810)
-#define IKPOSTPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x101AE8B0)
+#define IKPOSTPROCESSOR_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x16AA6050)
+#define IKPOSTPROCESSOR_ONANIMATORIK_OFFSET UNITYSDK_OFFSET(0x16AA6910)
+#define IKPOSTPROCESSOR_ONLATEANIMAGEIK_OFFSET UNITYSDK_OFFSET(0x16AA69F0)
+#define IKPOSTPROCESSOR_START_OFFSET UNITYSDK_OFFSET(0x16AA5F00)
+#define IKPOSTPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA6FA0)
 
-inline static constexpr unsigned int IKPostProcessor_TypeDefinitionIndex = 90723;
+inline static constexpr unsigned int IKPostProcessor_TypeDefinitionIndex = 38935;
 
 class IKPostProcessor : public ::UnityEngine::MonoBehaviour
 {
@@ -24,6 +24,7 @@ public:
 	::UnityEngine::Transform* FollowBone; // 0x20
 	::System::Single HandRotScale; // 0x28
 	::UnityEngine::Quaternion FollowBoneBindRot; // 0x2C
+	::System::Byte _padding0[0x4];
 	::RootMotion::FinalIK::ArmIK* armIk; // 0x40
 	::UnityEngine::AnimageComponent* animageComponent; // 0x48
 	::UnityEngine::StringIDWrapper handNameWrapper; // 0x50

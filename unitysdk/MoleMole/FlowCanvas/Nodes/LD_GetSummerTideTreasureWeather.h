@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_1.h"
 #include "unitysdk/MoleMole/Config/WeatherType.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETSUMMERTIDETREASUREWEATHER_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A8D4E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETSUMMERTIDETREASUREWEATHER__CTOR_OFFSET UNITYSDK_OFFSET(0x13A8D620)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETSUMMERTIDETREASUREWEATHER_INVOKE_OFFSET UNITYSDK_OFFSET(0x14667D60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_GETSUMMERTIDETREASUREWEATHER__CTOR_OFFSET UNITYSDK_OFFSET(0x14667EA0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_GetSummerTideTreasureWeather_TypeDefinitionIndex = 90508;
+	inline static constexpr unsigned int LD_GetSummerTideTreasureWeather_TypeDefinitionIndex = 70011;
 
-	class LD_GetSummerTideTreasureWeather : public ::FlowCanvas::Nodes::PureFunctionNode_1<::MoleMole::Config::WeatherType>
+	class LD_GetSummerTideTreasureWeather
 	{
 	public:
 		::System::Void _ctor()

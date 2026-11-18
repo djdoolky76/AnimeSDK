@@ -3,7 +3,7 @@
 
 namespace MoleMole::MiniGame::TartarusHounds::View
 {
-	inline static constexpr unsigned int HoundSandAnimationCtrl_AnimationType_TypeDefinitionIndex = 86227;
+	inline static constexpr unsigned int HoundSandAnimationCtrl_AnimationType_TypeDefinitionIndex = 58156;
 
 	enum class HoundSandAnimationCtrl_AnimationType : ::System::Int32
 	{

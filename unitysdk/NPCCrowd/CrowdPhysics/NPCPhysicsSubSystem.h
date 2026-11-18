@@ -3,44 +3,44 @@
 #include "unitysdk/NPCCrowd/NPCCrowdModuleSubSystemBase.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_F2DAD7F45F518868;
+class COCJHGGDBCA;
 namespace Nap::NapECS { class EcsEntity; }
 namespace Nap::NapECS { class EcsWorld; }
 namespace System { template <typename T> class Action_1; }
 
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xD89CB90)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_INITCOLLIDER_OFFSET UNITYSDK_OFFSET(0xD89CE40)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_ONENTITYADD_OFFSET UNITYSDK_OFFSET(0xD89CCE0)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATEAVATARDITHERCALLBACK_OFFSET UNITYSDK_OFFSET(0xD89D4B0)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATEAVATARDITHER_OFFSET UNITYSDK_OFFSET(0xD89D5E0)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xD89D290)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xD89DB10)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD89DAF0)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xD89DB70)
-#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD89DC90)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0xED79990)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_INITCOLLIDER_OFFSET UNITYSDK_OFFSET(0xED79C40)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_ONENTITYADD_OFFSET UNITYSDK_OFFSET(0xED79AE0)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATEAVATARDITHERCALLBACK_OFFSET UNITYSDK_OFFSET(0x15FA07A0)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATEAVATARDITHER_OFFSET UNITYSDK_OFFSET(0x15FA08D0)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xED7A0A0)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x15FA0E30)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x15FA0E10)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM___BASE_CREATEFILTERS_OFFSET UNITYSDK_OFFSET(0x15FA0E90)
+#define NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM___BASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x15FA0FB0)
 
 namespace NPCCrowd::CrowdPhysics
 {
-	inline static constexpr unsigned int NPCPhysicsSubSystem_TypeDefinitionIndex = 77137;
+	inline static constexpr unsigned int NPCPhysicsSubSystem_TypeDefinitionIndex = 83716;
 
 	class NPCPhysicsSubSystem : public ::NPCCrowd::NPCCrowdModuleSubSystemBase
 	{
 	public:
-		static ::System::Action_1<::Class_3_F2DAD7F45F518868*>** StaticGet_s_updateAvatarDitherCallback()
+		static ::System::Action_1<::COCJHGGDBCA*>** StaticGet_s_updateAvatarDitherCallback()
 		{
-			return (::System::Action_1<::Class_3_F2DAD7F45F518868*>**)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x51C20);
-		}
-		static ::UnityEngine::Vector3* StaticGet__localAvatarPosition()
-		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x12EB0);
+			return (::System::Action_1<::COCJHGGDBCA*>**)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x4EE80);
 		}
 		static ::UnityEngine::Vector3* StaticGet__avatarPosition()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x12EBC);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x12B20);
 		}
 		static ::System::Boolean* StaticGet__hasLocalAvatarPosition()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x12EC8);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x12B2C);
+		}
+		static ::UnityEngine::Vector3* StaticGet__localAvatarPosition()
+		{
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(NPCPhysicsSubSystem_TypeDefinitionIndex)->GetStaticField(0x12B30);
 		}
 		// static const ::System::Single FadeInDistance; // 0x0
 		// static const ::System::Single FadeOutDistance; // 0x0
@@ -65,9 +65,9 @@ namespace NPCCrowd::CrowdPhysics
 			return ((::System::Void(*)(::Nap::NapECS::EcsEntity*))((::PBYTE)hIl2Cpp + NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_ONENTITYADD_OFFSET))(ecsEntity);
 		}
 
-		static ::System::Void InitCollider(::Class_3_F2DAD7F45F518868* npcComp)
+		static ::System::Void InitCollider(::COCJHGGDBCA* npcComp)
 		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_INITCOLLIDER_OFFSET))(npcComp);
+			return ((::System::Void(*)(::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_INITCOLLIDER_OFFSET))(npcComp);
 		}
 
 		::System::Void Update(::System::Single deltaTime)
@@ -75,14 +75,14 @@ namespace NPCCrowd::CrowdPhysics
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATE_OFFSET))(this, deltaTime);
 		}
 
-		static ::System::Void UpdateAvatarDitherCallback(::Class_3_F2DAD7F45F518868* npcComponent)
+		static ::System::Void UpdateAvatarDitherCallback(::COCJHGGDBCA* npcComponent)
 		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATEAVATARDITHERCALLBACK_OFFSET))(npcComponent);
+			return ((::System::Void(*)(::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATEAVATARDITHERCALLBACK_OFFSET))(npcComponent);
 		}
 
-		static ::System::Void UpdateAvatarDither(::Class_3_F2DAD7F45F518868* npcComponent, ::UnityEngine::Vector3 mainControlPosition, ::System::Boolean hasLocalAvatarPosition, ::UnityEngine::Vector3 localAvatarPosition)
+		static ::System::Void UpdateAvatarDither(::COCJHGGDBCA* npcComponent, ::UnityEngine::Vector3 mainControlPosition, ::System::Boolean hasLocalAvatarPosition, ::UnityEngine::Vector3 localAvatarPosition)
 		{
-			return ((::System::Void(*)(::Class_3_F2DAD7F45F518868*, ::UnityEngine::Vector3, ::System::Boolean, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATEAVATARDITHER_OFFSET))(npcComponent, mainControlPosition, hasLocalAvatarPosition, localAvatarPosition);
+			return ((::System::Void(*)(::COCJHGGDBCA*, ::UnityEngine::Vector3, ::System::Boolean, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + NPCCROWD_CROWDPHYSICS_NPCPHYSICSSUBSYSTEM_UPDATEAVATARDITHER_OFFSET))(npcComponent, mainControlPosition, hasLocalAvatarPosition, localAvatarPosition);
 		}
 
 		::System::Void __base_CreateFilters(::Nap::NapECS::EcsWorld* P0)

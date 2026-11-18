@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int ICustomDeviceReset_TypeDefinitionIndex = 32495;
+	inline static constexpr unsigned int ICustomDeviceReset_TypeDefinitionIndex = 31944;
 
 	class ICustomDeviceReset
 	{

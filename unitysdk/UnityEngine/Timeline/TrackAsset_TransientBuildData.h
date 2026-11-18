@@ -7,12 +7,12 @@ namespace UnityEngine::Timeline { class IMarker; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define UNITYENGINE_TIMELINE_TRACKASSET_TRANSIENTBUILDDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xAB82F0)
-#define UNITYENGINE_TIMELINE_TRACKASSET_TRANSIENTBUILDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1F964D20)
+#define UNITYENGINE_TIMELINE_TRACKASSET_TRANSIENTBUILDDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x99E550)
+#define UNITYENGINE_TIMELINE_TRACKASSET_TRANSIENTBUILDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1FD63D90)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackAsset_TransientBuildData_TypeDefinitionIndex = 32911;
+	inline static constexpr unsigned int TrackAsset_TransientBuildData_TypeDefinitionIndex = 32366;
 
 	struct alignas(8) TrackAsset_TransientBuildData
 	{
@@ -20,10 +20,12 @@ namespace UnityEngine::Timeline
 		::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* clipList; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* markerList; // 0x20
 
+		/*
 		static ::UnityEngine::Timeline::TrackAsset_TransientBuildData Create()
 		{
 			return ((::UnityEngine::Timeline::TrackAsset_TransientBuildData(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_TRANSIENTBUILDDATA_CREATE_OFFSET))();
 		}
+		*/
 
 		::System::Void Clear()
 		{

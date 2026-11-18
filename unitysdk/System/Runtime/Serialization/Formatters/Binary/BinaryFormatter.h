@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/FormatterAssemblyStyle.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/FormatterTypeStyle.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/TypeFilterLevel.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
+#include "unitysdk/System/Object.h"
 
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -15,20 +15,20 @@ namespace System::Runtime::Serialization { class ISurrogateSelector; }
 namespace System::Runtime::Serialization { class SerializationBinder; }
 namespace System::Runtime::Serialization::Formatters::Binary { class TypeInformation; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_DESERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1DDE6C40)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_DESERIALIZE_2_OFFSET UNITYSDK_OFFSET(0x1DDE6C30)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DDE2880)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_GETTYPEINFORMATION_OFFSET UNITYSDK_OFFSET(0x1DDE7000)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_SERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1DDE6E50)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_SERIALIZE_2_OFFSET UNITYSDK_OFFSET(0x1DDE6E70)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DDE25E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDE72E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DDE6C10)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE25B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_DESERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1E267940)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_DESERIALIZE_2_OFFSET UNITYSDK_OFFSET(0x1E267930)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E2635A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_GETTYPEINFORMATION_OFFSET UNITYSDK_OFFSET(0x1E267D00)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_SERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1E267B50)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_SERIALIZE_2_OFFSET UNITYSDK_OFFSET(0x1E267B70)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E263300)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E267FE0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E267910)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2632D0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int BinaryFormatter_TypeDefinitionIndex = 1215;
+	inline static constexpr unsigned int BinaryFormatter_TypeDefinitionIndex = 1214;
 
 	class BinaryFormatter : public ::System::Object
 	{
@@ -37,13 +37,13 @@ namespace System::Runtime::Serialization::Formatters::Binary
 		{
 			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>**)Il2CppClass::FromTypeDefinitionIndex(BinaryFormatter_TypeDefinitionIndex)->GetStaticField(0xA20);
 		}
-		::System::Runtime::Serialization::ISurrogateSelector* m_surrogates; // 0x10
-		::System::Runtime::Serialization::SerializationBinder* m_binder; // 0x18
-		::Il2CppArray<::System::Object*>* m_crossAppDomainArray; // 0x20
-		::System::Runtime::Serialization::StreamingContext m_context; // 0x28
-		::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle m_assemblyFormat; // 0x38
-		::System::Runtime::Serialization::Formatters::FormatterTypeStyle m_typeFormat; // 0x3C
-		::System::Runtime::Serialization::Formatters::TypeFilterLevel m_securityLevel; // 0x40
+		::System::Runtime::Serialization::StreamingContext m_context; // 0x10
+		::System::Runtime::Serialization::SerializationBinder* m_binder; // 0x20
+		::System::Runtime::Serialization::ISurrogateSelector* m_surrogates; // 0x28
+		::Il2CppArray<::System::Object*>* m_crossAppDomainArray; // 0x30
+		::System::Runtime::Serialization::Formatters::FormatterTypeStyle m_typeFormat; // 0x38
+		::System::Runtime::Serialization::Formatters::TypeFilterLevel m_securityLevel; // 0x3C
+		::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle m_assemblyFormat; // 0x40
 
 		::System::Void _ctor()
 		{

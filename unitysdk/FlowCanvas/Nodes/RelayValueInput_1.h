@@ -4,11 +4,10 @@
 
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace System { class String; }
-namespace System { class Type; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int RelayValueInput_1_TypeDefinitionIndex = 31381;
+	inline static constexpr unsigned int RelayValueInput_1_TypeDefinitionIndex = 29475;
 
 	template <typename T>
 	class RelayValueInput_1 : public ::FlowCanvas::Nodes::RelayValueInputBase

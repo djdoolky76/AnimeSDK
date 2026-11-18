@@ -1,26 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/MonoEffectPluginBase.h"
-#include "unitysdk/MoleMole/MonoEffectPluginDither_Enum_3_626104752F139FF0.h"
-#include "unitysdk/MoleMole/MonoEffectPluginDither_Enum_3_B450F0E0409F4988.h"
+#include "unitysdk/MoleMole/MonoEffectPluginDither_ALEAKBOKLIM.h"
+#include "unitysdk/MoleMole/MonoEffectPluginDither_AMBNPJLGAOB.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINDITHER__CTOR_OFFSET UNITYSDK_OFFSET(0x13AB0590)
+#define MOLEMOLE_MONOEFFECTPLUGINDITHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1468D3E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginDither_TypeDefinitionIndex = 75338;
+	inline static constexpr unsigned int MonoEffectPluginDither_TypeDefinitionIndex = 68226;
 
 	class MonoEffectPluginDither : public ::MoleMole::MonoEffectPluginBase
 	{
 	public:
-		::MoleMole::MonoEffectPluginDither_Enum_3_B450F0E0409F4988 mode; // 0x18
-		::MoleMole::MonoEffectPluginDither_Enum_3_626104752F139FF0 effectKind; // 0x1C
+		::MoleMole::MonoEffectPluginDither_AMBNPJLGAOB mode; // 0x18
+		::MoleMole::MonoEffectPluginDither_ALEAKBOKLIM effectKind; // 0x1C
 		::System::String* ditherKey; // 0x20
 		::System::Boolean IsIgnoreList; // 0x28
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::HashSet_1<::UnityEngine::Renderer*>* rendererSelectList; // 0x30
 
 		::System::Void _ctor()

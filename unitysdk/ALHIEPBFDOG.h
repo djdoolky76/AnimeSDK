@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MGMDCPJNDAJ.h"
+#include "unitysdk/System/Object.h"
+
+class EINNDDBIPAM;
+
+#define ALHIEPBFDOG_CLLPBBKFMIO_OFFSET UNITYSDK_OFFSET(0x17CDEEC0)
+#define ALHIEPBFDOG_FPDPEFELAFM_OFFSET UNITYSDK_OFFSET(0x17CDDB60)
+#define ALHIEPBFDOG_GCIBFBLHJGD_OFFSET UNITYSDK_OFFSET(0x17CDDF40)
+#define ALHIEPBFDOG_HKFIGLACKCO_OFFSET UNITYSDK_OFFSET(0x17CDE070)
+#define ALHIEPBFDOG_MCBPJOPKMPF_OFFSET UNITYSDK_OFFSET(0x17CDE4A0)
+#define ALHIEPBFDOG_MGBNMDMECKM_OFFSET UNITYSDK_OFFSET(0x17CDE830)
+#define ALHIEPBFDOG_NJLDGNPJPCO_OFFSET UNITYSDK_OFFSET(0x17CDE560)
+#define ALHIEPBFDOG_PCNCJKKCBHP_OFFSET UNITYSDK_OFFSET(0x17CDDD10)
+
+inline static constexpr unsigned int ALHIEPBFDOG_TypeDefinitionIndex = 78329;
+
+class ALHIEPBFDOG : public ::System::Object
+{
+public:
+	static ::EINNDDBIPAM* FPDPEFELAFM()
+	{
+		return ((::EINNDDBIPAM*(*)())((::PBYTE)hIl2Cpp + ALHIEPBFDOG_FPDPEFELAFM_OFFSET))();
+	}
+
+	static ::EINNDDBIPAM* PCNCJKKCBHP()
+	{
+		return ((::EINNDDBIPAM*(*)())((::PBYTE)hIl2Cpp + ALHIEPBFDOG_PCNCJKKCBHP_OFFSET))();
+	}
+
+	static ::MGMDCPJNDAJ GCIBFBLHJGD()
+	{
+		return ((::MGMDCPJNDAJ(*)())((::PBYTE)hIl2Cpp + ALHIEPBFDOG_GCIBFBLHJGD_OFFSET))();
+	}
+
+	static ::MGMDCPJNDAJ HKFIGLACKCO()
+	{
+		return ((::MGMDCPJNDAJ(*)())((::PBYTE)hIl2Cpp + ALHIEPBFDOG_HKFIGLACKCO_OFFSET))();
+	}
+
+	static ::System::Void MCBPJOPKMPF()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ALHIEPBFDOG_MCBPJOPKMPF_OFFSET))();
+	}
+
+	static ::System::Void NJLDGNPJPCO()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ALHIEPBFDOG_NJLDGNPJPCO_OFFSET))();
+	}
+
+	static ::System::Void MGBNMDMECKM()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ALHIEPBFDOG_MGBNMDMECKM_OFFSET))();
+	}
+
+	static ::System::Void CLLPBBKFMIO(::System::Int32 FOLKIBNJNHM)
+	{
+		return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + ALHIEPBFDOG_CLLPBBKFMIO_OFFSET))(FOLKIBNJNHM);
+	}
+};

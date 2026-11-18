@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int IPerCameraLensFlareData_TypeDefinitionIndex = 5912;
+	inline static constexpr unsigned int IPerCameraLensFlareData_TypeDefinitionIndex = 5918;
 
 	class IPerCameraLensFlareData
 	{

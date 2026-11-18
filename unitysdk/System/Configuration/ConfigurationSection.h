@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Configuration/ConfigurationElement.h"
 
-#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_ISMODIFIED_OFFSET UNITYSDK_OFFSET(0x1FC6BD70)
-#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_RESETMODIFIED_OFFSET UNITYSDK_OFFSET(0x1FC6BDB0)
-#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6BD30)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_ISMODIFIED_OFFSET UNITYSDK_OFFSET(0x2006F370)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_RESETMODIFIED_OFFSET UNITYSDK_OFFSET(0x2006F3B0)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x2006F330)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int ConfigurationSection_TypeDefinitionIndex = 2507;
+	inline static constexpr unsigned int ConfigurationSection_TypeDefinitionIndex = 2506;
 
 	class ConfigurationSection : public ::System::Configuration::ConfigurationElement
 	{

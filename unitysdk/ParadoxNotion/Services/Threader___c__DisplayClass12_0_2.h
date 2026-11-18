@@ -7,15 +7,15 @@ namespace System { template <typename T> class Action_1; }
 
 namespace ParadoxNotion::Services
 {
-	inline static constexpr unsigned int Threader___c__DisplayClass12_0_2_TypeDefinitionIndex = 30279;
+	inline static constexpr unsigned int Threader___c__DisplayClass12_0_2_TypeDefinitionIndex = 29292;
 
-	template <typename TResult, typename T1>
+	template <typename T1, typename T2>
 	class Threader___c__DisplayClass12_0_2 : public ::System::Object
 	{
 	public:
-		TResult result; // 0x0
-		::System::Func_2<T1, TResult>* function; // 0x0
-		T1 parameter1; // 0x0
-		::System::Action_1<TResult>* callback; // 0x0
+		T1 result; // 0x0
+		::System::Func_2<T2, T2>* function; // 0x0
+		T2 parameter1; // 0x0
+		::System::Action_1<T2>* callback; // 0x0
 	};
 }

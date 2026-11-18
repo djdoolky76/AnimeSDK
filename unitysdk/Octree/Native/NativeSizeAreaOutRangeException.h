@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define OCTREE_NATIVE_NATIVESIZEAREAOUTRANGEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1214E260)
+#define OCTREE_NATIVE_NATIVESIZEAREAOUTRANGEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16F98CC0)
 
 namespace Octree::Native
 {
-	inline static constexpr unsigned int NativeSizeAreaOutRangeException_TypeDefinitionIndex = 49676;
+	inline static constexpr unsigned int NativeSizeAreaOutRangeException_TypeDefinitionIndex = 45566;
 
 	class NativeSizeAreaOutRangeException : public ::System::Exception
 	{

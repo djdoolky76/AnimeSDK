@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERECOVER_INVOKE_OFFSET UNITYSDK_OFFSET(0x118B53F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERECOVER__CTOR_OFFSET UNITYSDK_OFFSET(0x118B5480)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERECOVER_INVOKE_OFFSET UNITYSDK_OFFSET(0x162345A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETGENERICSCORERECOVER__CTOR_OFFSET UNITYSDK_OFFSET(0x16234630)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetGenericScoreRecover_TypeDefinitionIndex = 61207;
+	inline static constexpr unsigned int LDGetGenericScoreRecover_TypeDefinitionIndex = 58259;
 
-	class LDGetGenericScoreRecover : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Single, ::System::String*>
+	class LDGetGenericScoreRecover
 	{
 	public:
 		::System::Void _ctor()

@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/Foundation/AssetRequestHandle.h"
-#include "unitysdk/System/Object.h"
 
-class Class_1_380E15D819BCBADA;
+class GIEDOGIBIMC;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x19DC2590)
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_222951B8BA7FC1B0_OFFSET UNITYSDK_OFFSET(0x19DC2F30)
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_44C6956149352354_OFFSET UNITYSDK_OFFSET(0x19DC25A0)
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_6156EF6FFD0A172B_OFFSET UNITYSDK_OFFSET(0x19DC2370)
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_62167C28EC14CC63_OFFSET UNITYSDK_OFFSET(0x19DC2B00)
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_D12B7AF287E2C1C1_OFFSET UNITYSDK_OFFSET(0x19DC22F0)
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_DD788187B6D83B98_OFFSET UNITYSDK_OFFSET(0x19DC2630)
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_EE0137E8EED79B71_OFFSET UNITYSDK_OFFSET(0x19DC2450)
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x19DC2440)
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_RESET_OFFSET UNITYSDK_OFFSET(0x19DC2140)
-#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DC2250)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_DCMPBIJMDJM_OFFSET UNITYSDK_OFFSET(0x12B49A10)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_IKMENOAKDFD_OFFSET UNITYSDK_OFFSET(0x12B4A2C0)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_ILOIJGCLNBL_OFFSET UNITYSDK_OFFSET(0x12B49AE0)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_JHGGINBEFPK_OFFSET UNITYSDK_OFFSET(0x12B4A020)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_NBJFMOLDOHK_OFFSET UNITYSDK_OFFSET(0x12B4A2D0)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_NKLNCMGDCJO_OFFSET UNITYSDK_OFFSET(0x12B49530)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_OBCMFBAHHGA_OFFSET UNITYSDK_OFFSET(0x12B49F10)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_PEAFFJIJFMO_OFFSET UNITYSDK_OFFSET(0x12B49F90)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_PMGBGAHFOOF_OFFSET UNITYSDK_OFFSET(0x12B49A00)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_RESET_OFFSET UNITYSDK_OFFSET(0x12B49380)
+#define MOLEMOLE_GROUPCHALLENGECONFIGMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12B49490)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GroupChallengeConfigManager_TypeDefinitionIndex = 63371;
+	inline static constexpr unsigned int GroupChallengeConfigManager_TypeDefinitionIndex = 51486;
 
 	class GroupChallengeConfigManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_380E15D819BCBADA*>** StaticGet_Field_1_0()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::GIEDOGIBIMC*>** StaticGet_DONBLIIMPPI()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_1_380E15D819BCBADA*>**)Il2CppClass::FromTypeDefinitionIndex(GroupChallengeConfigManager_TypeDefinitionIndex)->GetStaticField(0x36790);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::GIEDOGIBIMC*>**)Il2CppClass::FromTypeDefinitionIndex(GroupChallengeConfigManager_TypeDefinitionIndex)->GetStaticField(0x46CA0);
 		}
 
 		static ::System::Void _cctor()
@@ -44,49 +44,49 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_RESET_OFFSET))();
 		}
 
-		static ::Il2CppArray<::Foundation::AssetPath>* Method_1_D12B7AF287E2C1C1()
+		static ::System::Boolean NKLNCMGDCJO(::Foundation::AssetPath CJBJONJDOLI, ::Foundation::AssetRequestHandle& FCEIKAIDHPM)
 		{
-			return ((::Il2CppArray<::Foundation::AssetPath>*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_D12B7AF287E2C1C1_OFFSET))();
+			return ((::System::Boolean(*)(::Foundation::AssetPath, ::Foundation::AssetRequestHandle&))((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_NKLNCMGDCJO_OFFSET))(CJBJONJDOLI, FCEIKAIDHPM);
 		}
 
-		static ::System::Boolean Method_1_F0088C88851A7DFB()
+		static ::System::String* PMGBGAHFOOF()
 		{
-			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_F0088C88851A7DFB_OFFSET))();
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_PMGBGAHFOOF_OFFSET))();
 		}
 
-		static ::Il2CppArray<::Foundation::AssetPath>* Method_1_6156EF6FFD0A172B()
+		static ::Il2CppArray<::Foundation::AssetPath>* DCMPBIJMDJM()
 		{
-			return ((::Il2CppArray<::Foundation::AssetPath>*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_6156EF6FFD0A172B_OFFSET))();
+			return ((::Il2CppArray<::Foundation::AssetPath>*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_DCMPBIJMDJM_OFFSET))();
 		}
 
-		static ::System::Boolean Method_1_EE0137E8EED79B71(::System::Int32 a1, ::Class_1_380E15D819BCBADA*& a2)
+		static ::System::Void ILOIJGCLNBL()
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::Class_1_380E15D819BCBADA*&))((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_EE0137E8EED79B71_OFFSET))(a1, a2);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_ILOIJGCLNBL_OFFSET))();
 		}
 
-		static ::System::String* Method_1_126AB3935214AA22()
+		static ::System::Collections::IEnumerator* PEAFFJIJFMO(::System::Single HBFKHANEEND, ::System::Action_1<::System::Single>* JOLIEKHCGDJ)
 		{
-			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_126AB3935214AA22_OFFSET))();
+			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_PEAFFJIJFMO_OFFSET))(HBFKHANEEND, JOLIEKHCGDJ);
 		}
 
-		static ::System::Collections::IEnumerator* Method_1_44C6956149352354(::System::Single a1, ::System::Action_1<::System::Single>* a2)
+		static ::GIEDOGIBIMC* JHGGINBEFPK(::System::Int32 AEIAFDJOACK)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::System::Single, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_44C6956149352354_OFFSET))(a1, a2);
+			return ((::GIEDOGIBIMC*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_JHGGINBEFPK_OFFSET))(AEIAFDJOACK);
 		}
 
-		static ::System::Boolean Method_1_DD788187B6D83B98(::Foundation::AssetPath a1, ::Foundation::AssetRequestHandle& a2)
+		static ::System::Boolean IKMENOAKDFD()
 		{
-			return ((::System::Boolean(*)(::Foundation::AssetPath, ::Foundation::AssetRequestHandle&))((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_DD788187B6D83B98_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_IKMENOAKDFD_OFFSET))();
 		}
 
-		static ::System::Void Method_1_62167C28EC14CC63()
+		static ::System::Boolean NBJFMOLDOHK(::System::Int32 AEIAFDJOACK, ::GIEDOGIBIMC*& DFMKILICPFB)
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_62167C28EC14CC63_OFFSET))();
+			return ((::System::Boolean(*)(::System::Int32, ::GIEDOGIBIMC*&))((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_NBJFMOLDOHK_OFFSET))(AEIAFDJOACK, DFMKILICPFB);
 		}
 
-		static ::Class_1_380E15D819BCBADA* Method_1_222951B8BA7FC1B0(::System::Int32 a1)
+		static ::Il2CppArray<::Foundation::AssetPath>* OBCMFBAHHGA()
 		{
-			return ((::Class_1_380E15D819BCBADA*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_METHOD_1_222951B8BA7FC1B0_OFFSET))(a1);
+			return ((::Il2CppArray<::Foundation::AssetPath>*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_GROUPCHALLENGECONFIGMANAGER_OBCMFBAHHGA_OFFSET))();
 		}
 	};
 }

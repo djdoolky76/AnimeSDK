@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOINBRUSHINGGETLEVELSCORE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B52F870)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCOINBRUSHINGGETLEVELSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52FA30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOINBRUSHINGGETLEVELSCORE_INVOKE_OFFSET UNITYSDK_OFFSET(0x142FA450)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCOINBRUSHINGGETLEVELSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x142FA610)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCoinBrushingGetLevelScore_TypeDefinitionIndex = 67374;
+	inline static constexpr unsigned int LDCoinBrushingGetLevelScore_TypeDefinitionIndex = 49592;
 
-	class LDCoinBrushingGetLevelScore : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Int32>
+	class LDCoinBrushingGetLevelScore
 	{
 	public:
 		::System::Void _ctor()

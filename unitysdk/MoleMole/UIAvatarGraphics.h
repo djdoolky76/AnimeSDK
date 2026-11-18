@@ -10,37 +10,37 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_UIAVATARGRAPHICS_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0x18BF1D90)
-#define MOLEMOLE_UIAVATARGRAPHICS_DISABLEOVERRIDEHAIRSHADOWMAINLIGHT_OFFSET UNITYSDK_OFFSET(0x18BF1B80)
-#define MOLEMOLE_UIAVATARGRAPHICS_DISABLEOVERRIDEMAINLIGHT_OFFSET UNITYSDK_OFFSET(0x18BF1560)
-#define MOLEMOLE_UIAVATARGRAPHICS_ENABLEOVERRIDEHAIRSHADOWMAINLIGHT_OFFSET UNITYSDK_OFFSET(0x18BF17A0)
-#define MOLEMOLE_UIAVATARGRAPHICS_ENABLEOVERRIDEMAINLIGHT_1_OFFSET UNITYSDK_OFFSET(0x18BF1160)
-#define MOLEMOLE_UIAVATARGRAPHICS_ENABLEOVERRIDEMAINLIGHT_OFFSET UNITYSDK_OFFSET(0x18BF0C60)
-#define MOLEMOLE_UIAVATARGRAPHICS_GETHAIRSHADOWOFFSETS_OFFSET UNITYSDK_OFFSET(0x18BF0010)
-#define MOLEMOLE_UIAVATARGRAPHICS_GETOVERRIDEMAINLIGHTDIR_OFFSET UNITYSDK_OFFSET(0x18BF07D0)
-#define MOLEMOLE_UIAVATARGRAPHICS_GETOVERRIDEMAINLIGHT_OFFSET UNITYSDK_OFFSET(0x18BF0AE0)
-#define MOLEMOLE_UIAVATARGRAPHICS_GET_ALLINSTANCEDMATS_OFFSET UNITYSDK_OFFSET(0x18BEFB90)
-#define MOLEMOLE_UIAVATARGRAPHICS_GET_AVATARRENDERERS_OFFSET UNITYSDK_OFFSET(0x18BEFB30)
-#define MOLEMOLE_UIAVATARGRAPHICS_METHOD_7_95CD76A019E3B038_OFFSET UNITYSDK_OFFSET(0x18BF09F0)
-#define MOLEMOLE_UIAVATARGRAPHICS_METHOD_7_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x18BF1E40)
-#define MOLEMOLE_UIAVATARGRAPHICS_METHOD_7_F25C0338DA33E33E_OFFSET UNITYSDK_OFFSET(0x18BF0EA0)
-#define MOLEMOLE_UIAVATARGRAPHICS_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18BEFC30)
-#define MOLEMOLE_UIAVATARGRAPHICS_RESETHAIRSHADOWOFFSETS_OFFSET UNITYSDK_OFFSET(0x18BF0490)
-#define MOLEMOLE_UIAVATARGRAPHICS_SETHAIRSHADOWOFFSETS_OFFSET UNITYSDK_OFFSET(0x18BEFC80)
-#define MOLEMOLE_UIAVATARGRAPHICS__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF1DE0)
+#define MOLEMOLE_UIAVATARGRAPHICS_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0x188724E0)
+#define MOLEMOLE_UIAVATARGRAPHICS_DISABLEOVERRIDEHAIRSHADOWMAINLIGHT_OFFSET UNITYSDK_OFFSET(0x188722D0)
+#define MOLEMOLE_UIAVATARGRAPHICS_DISABLEOVERRIDEMAINLIGHT_OFFSET UNITYSDK_OFFSET(0x18871CB0)
+#define MOLEMOLE_UIAVATARGRAPHICS_ENABLEOVERRIDEHAIRSHADOWMAINLIGHT_OFFSET UNITYSDK_OFFSET(0x18871EF0)
+#define MOLEMOLE_UIAVATARGRAPHICS_ENABLEOVERRIDEMAINLIGHT_1_OFFSET UNITYSDK_OFFSET(0x188718B0)
+#define MOLEMOLE_UIAVATARGRAPHICS_ENABLEOVERRIDEMAINLIGHT_OFFSET UNITYSDK_OFFSET(0x188713B0)
+#define MOLEMOLE_UIAVATARGRAPHICS_ENINKHGCFBF_OFFSET UNITYSDK_OFFSET(0x188715F0)
+#define MOLEMOLE_UIAVATARGRAPHICS_GETHAIRSHADOWOFFSETS_OFFSET UNITYSDK_OFFSET(0x18870740)
+#define MOLEMOLE_UIAVATARGRAPHICS_GETOVERRIDEMAINLIGHTDIR_OFFSET UNITYSDK_OFFSET(0x18870F00)
+#define MOLEMOLE_UIAVATARGRAPHICS_GETOVERRIDEMAINLIGHT_OFFSET UNITYSDK_OFFSET(0x18871210)
+#define MOLEMOLE_UIAVATARGRAPHICS_GET_ALLINSTANCEDMATS_OFFSET UNITYSDK_OFFSET(0x188702C0)
+#define MOLEMOLE_UIAVATARGRAPHICS_GET_AVATARRENDERERS_OFFSET UNITYSDK_OFFSET(0x18870260)
+#define MOLEMOLE_UIAVATARGRAPHICS_NCLONEMFNNN_OFFSET UNITYSDK_OFFSET(0x18872590)
+#define MOLEMOLE_UIAVATARGRAPHICS_NJBGFKBGPMG_OFFSET UNITYSDK_OFFSET(0x18871120)
+#define MOLEMOLE_UIAVATARGRAPHICS_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18870360)
+#define MOLEMOLE_UIAVATARGRAPHICS_RESETHAIRSHADOWOFFSETS_OFFSET UNITYSDK_OFFSET(0x18870BC0)
+#define MOLEMOLE_UIAVATARGRAPHICS_SETHAIRSHADOWOFFSETS_OFFSET UNITYSDK_OFFSET(0x188703B0)
+#define MOLEMOLE_UIAVATARGRAPHICS__CTOR_OFFSET UNITYSDK_OFFSET(0x18872530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarGraphics_TypeDefinitionIndex = 49591;
+	inline static constexpr unsigned int UIAvatarGraphics_TypeDefinitionIndex = 63330;
 
 	class UIAvatarGraphics : public ::MoleMole::MonoRenderHandlerForAvatar
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Renderer*>* Field_7_1; // 0x2DA8
-		::Il2CppArray<::UnityEngine::Material*>* Field_7_0; // 0x2DB0
-		::System::Boolean Field_7_7; // 0x2DB8
-		::System::Boolean Field_7_6; // 0x2DB9
-		::System::Boolean Field_7_5; // 0x2DBA
+		::Il2CppArray<::UnityEngine::Renderer*>* MIBMIBAMHDE; // 0x2DC0
+		::Il2CppArray<::UnityEngine::Material*>* AOELADKLBCG; // 0x2DC8
+		::System::Boolean KFOBIOADLOI; // 0x2DD0
+		::System::Boolean MOLNHALEKIE; // 0x2DD1
+		::System::Boolean KJGOLFOJPPE; // 0x2DD2
 
 		::System::Void _ctor()
 		{
@@ -62,9 +62,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void SetHairShadowOffsets(::System::Single a1, ::System::Single a2)
+		::System::Void SetHairShadowOffsets(::System::Single HPDACNPGOGO, ::System::Single IIKDIDGLOAF)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_SETHAIRSHADOWOFFSETS_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_SETHAIRSHADOWOFFSETS_OFFSET))(this, HPDACNPGOGO, IIKDIDGLOAF);
 		}
 
 		::UnityEngine::Vector2 GetHairShadowOffsets()
@@ -77,24 +77,24 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_RESETHAIRSHADOWOFFSETS_OFFSET))(this);
 		}
 
-		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> GetOverrideMainLightDir(::UnityEngine::Vector4 a1)
+		::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3> GetOverrideMainLightDir(::UnityEngine::Vector4 FCAJAIHDFBP)
 		{
-			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_GETOVERRIDEMAINLIGHTDIR_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_GETOVERRIDEMAINLIGHTDIR_OFFSET))(this, FCAJAIHDFBP);
 		}
 
-		::System::ValueTuple_2<::UnityEngine::Quaternion, ::UnityEngine::Quaternion> GetOverrideMainLight(::UnityEngine::Vector4 a1)
+		::System::ValueTuple_2<::UnityEngine::Quaternion, ::UnityEngine::Quaternion> GetOverrideMainLight(::UnityEngine::Vector4 FCAJAIHDFBP)
 		{
-			return ((::System::ValueTuple_2<::UnityEngine::Quaternion, ::UnityEngine::Quaternion>(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_GETOVERRIDEMAINLIGHT_OFFSET))(this, a1);
+			return ((::System::ValueTuple_2<::UnityEngine::Quaternion, ::UnityEngine::Quaternion>(*)(::PVOID, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_GETOVERRIDEMAINLIGHT_OFFSET))(this, FCAJAIHDFBP);
 		}
 
-		::System::Void EnableOverrideMainLight(::System::Boolean a1, ::UnityEngine::Vector4 a2)
+		::System::Void EnableOverrideMainLight(::System::Boolean BJKDPCGOEPG, ::UnityEngine::Vector4 FCAJAIHDFBP)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_ENABLEOVERRIDEMAINLIGHT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_ENABLEOVERRIDEMAINLIGHT_OFFSET))(this, BJKDPCGOEPG, FCAJAIHDFBP);
 		}
 
-		::System::Void EnableOverrideMainLight_1(::System::Boolean a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Quaternion a3)
+		::System::Void EnableOverrideMainLight_1(::System::Boolean BJKDPCGOEPG, ::UnityEngine::Quaternion CGONANJKEAH, ::UnityEngine::Quaternion GEHLDGMDLDK)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_ENABLEOVERRIDEMAINLIGHT_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_ENABLEOVERRIDEMAINLIGHT_1_OFFSET))(this, BJKDPCGOEPG, CGONANJKEAH, GEHLDGMDLDK);
 		}
 
 		::System::Void DisableOverrideMainLight()
@@ -102,9 +102,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_DISABLEOVERRIDEMAINLIGHT_OFFSET))(this);
 		}
 
-		::System::Void EnableOverrideHairShadowMainLight(::System::Boolean a1, ::UnityEngine::Vector2 a2)
+		::System::Void EnableOverrideHairShadowMainLight(::System::Boolean OAGEKCLHOGH, ::UnityEngine::Vector2 EPDFNAPOPJM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_ENABLEOVERRIDEHAIRSHADOWMAINLIGHT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_ENABLEOVERRIDEHAIRSHADOWMAINLIGHT_OFFSET))(this, OAGEKCLHOGH, EPDFNAPOPJM);
 		}
 
 		::System::Void DisableOverrideHairShadowMainLight()
@@ -117,19 +117,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_CLEARRENDERERS_OFFSET))(this);
 		}
 
-		::System::Void Method_7_F25C0338DA33E33E(::System::Boolean a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
+		::UnityEngine::Vector3 NJBGFKBGPMG(::System::Single KLHBOGEAEAH, ::System::Single AEAJNKFJJBG)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_METHOD_7_F25C0338DA33E33E_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_NJBGFKBGPMG_OFFSET))(this, KLHBOGEAEAH, AEAJNKFJJBG);
 		}
 
-		::UnityEngine::Vector3 Method_7_95CD76A019E3B038(::System::Single a1, ::System::Single a2)
+		::System::Void ENINKHGCFBF(::System::Boolean BJKDPCGOEPG, ::UnityEngine::Vector3 MPMENAIAEHG, ::UnityEngine::Vector3 CIEJNPELFDL)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_METHOD_7_95CD76A019E3B038_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_ENINKHGCFBF_OFFSET))(this, BJKDPCGOEPG, MPMENAIAEHG, CIEJNPELFDL);
 		}
 
-		::System::Void Method_7_E3DE31A03057E055()
+		::System::Void NCLONEMFNNN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_METHOD_7_E3DE31A03057E055_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIAVATARGRAPHICS_NCLONEMFNNN_OFFSET))(this);
 		}
 	};
 }

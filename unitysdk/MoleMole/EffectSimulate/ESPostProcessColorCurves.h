@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ScreenEffectFieldHandleType.h"
-#include "unitysdk/MoleMole/EffectSimulate/ESPostProcessBehavior_1.h"
 
 namespace MoleMole::Config { class ConfigEntityColorCurvesEffects; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurve; }
-namespace UnityEngine::Rendering::Universal { class ColorCurves; }
 
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_186AA054E8326968_OFFSET UNITYSDK_OFFSET(0x1B58E0F0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x1B58D430)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_73117257A02AFFB8_OFFSET UNITYSDK_OFFSET(0x1B58F970)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1B58D570)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_A6544B958241856F_OFFSET UNITYSDK_OFFSET(0x1B58D580)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_D35B60AE823B8CC1_OFFSET UNITYSDK_OFFSET(0x1B58D7F0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_DF249C0E36759C3F_1_OFFSET UNITYSDK_OFFSET(0x1B5904B0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_DF249C0E36759C3F_OFFSET UNITYSDK_OFFSET(0x1B5902E0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_E7F1AECA7CFF8AAD_OFFSET UNITYSDK_OFFSET(0x1B58E0E0)
-#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B590680)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_AAOGMJFNGIB_OFFSET UNITYSDK_OFFSET(0x1BA6F790)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_AFPCLLAALBH_OFFSET UNITYSDK_OFFSET(0x1BA71910)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_AJIPNBANCOC_OFFSET UNITYSDK_OFFSET(0x1BA6F520)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_ALJEEEAPCBH_OFFSET UNITYSDK_OFFSET(0x1BA70090)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_BAHGDCGIEKL_OFFSET UNITYSDK_OFFSET(0x1BA70080)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_IEFBPLNILIE_OFFSET UNITYSDK_OFFSET(0x1BA6F510)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_NNEGPFCPCAB_OFFSET UNITYSDK_OFFSET(0x1BA6F3D0)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_ONPGLGIFOJJ_OFFSET UNITYSDK_OFFSET(0x1BA72450)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_PEDOJDBBGPC_OFFSET UNITYSDK_OFFSET(0x1BA72280)
+#define MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA72620)
 
 namespace MoleMole::EffectSimulate
 {
-	inline static constexpr unsigned int ESPostProcessColorCurves_TypeDefinitionIndex = 53354;
+	inline static constexpr unsigned int ESPostProcessColorCurves_TypeDefinitionIndex = 42990;
 
-	class ESPostProcessColorCurves : public ::MoleMole::EffectSimulate::ESPostProcessBehavior_1<::UnityEngine::Rendering::Universal::ColorCurves*>
+	class ESPostProcessColorCurves
 	{
 	public:
 		::MoleMole::Config::ConfigEntityColorCurvesEffects* m_stAsset; // 0xB0
@@ -35,36 +33,52 @@ namespace MoleMole::EffectSimulate
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolDefault_satVsSat; // 0xE8
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolDefault_lumVsSat; // 0xF0
 		::System::Boolean _VolPreVal_master_overrideState; // 0xF8
+		::System::Byte _padding0[0x7];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_master; // 0x100
 		::System::Boolean _VolPreVal_red_overrideState; // 0x108
+		::System::Byte _padding1[0x7];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_red; // 0x110
 		::System::Boolean _VolPreVal_green_overrideState; // 0x118
+		::System::Byte _padding2[0x7];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_green; // 0x120
 		::System::Boolean _VolPreVal_blue_overrideState; // 0x128
+		::System::Byte _padding3[0x7];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_blue; // 0x130
 		::System::Boolean _VolPreVal_hueVsHue_overrideState; // 0x138
+		::System::Byte _padding4[0x7];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_hueVsHue; // 0x140
 		::System::Boolean _VolPreVal_hueVsSat_overrideState; // 0x148
+		::System::Byte _padding5[0x7];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_hueVsSat; // 0x150
 		::System::Boolean _VolPreVal_satVsSat_overrideState; // 0x158
+		::System::Byte _padding6[0x7];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_satVsSat; // 0x160
 		::System::Boolean _VolPreVal_lumVsSat_overrideState; // 0x168
+		::System::Byte _padding7[0x7];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* _VolPreVal_lumVsSat; // 0x170
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_master_FieldHandleType; // 0x178
+		::System::Byte _padding8[0x4];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_master; // 0x180
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_red_FieldHandleType; // 0x188
+		::System::Byte _padding9[0x4];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_red; // 0x190
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_green_FieldHandleType; // 0x198
+		::System::Byte _padding10[0x4];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_green; // 0x1A0
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_blue_FieldHandleType; // 0x1A8
+		::System::Byte _padding11[0x4];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_blue; // 0x1B0
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hueVsHue_FieldHandleType; // 0x1B8
+		::System::Byte _padding12[0x4];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_hueVsHue; // 0x1C0
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_hueVsSat_FieldHandleType; // 0x1C8
+		::System::Byte _padding13[0x4];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_hueVsSat; // 0x1D0
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_satVsSat_FieldHandleType; // 0x1D8
+		::System::Byte _padding14[0x4];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_satVsSat; // 0x1E0
 		::MoleMole::Config::ScreenEffectFieldHandleType ESPP_lumVsSat_FieldHandleType; // 0x1E8
+		::System::Byte _padding15[0x4];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* ESPP_lumVsSat; // 0x1F0
 
 		::System::Void _ctor()
@@ -72,49 +86,49 @@ namespace MoleMole::EffectSimulate
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_41A074549EF25F63()
+		::System::Void NNEGPFCPCAB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_41A074549EF25F63_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_NNEGPFCPCAB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_832295EC279E5994()
+		::System::Void IEFBPLNILIE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_IEFBPLNILIE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_A6544B958241856F()
+		::System::Void AJIPNBANCOC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_A6544B958241856F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_AJIPNBANCOC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_D35B60AE823B8CC1()
+		::System::Void AAOGMJFNGIB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_D35B60AE823B8CC1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_AAOGMJFNGIB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_E7F1AECA7CFF8AAD(::System::Single a1)
+		::System::Void BAHGDCGIEKL(::System::Single PBKKBBHOCLC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_E7F1AECA7CFF8AAD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_BAHGDCGIEKL_OFFSET))(this, PBKKBBHOCLC);
 		}
 
-		::System::Void Method_5_186AA054E8326968(::System::Single a1)
+		::System::Void ALJEEEAPCBH(::System::Single HIIOCANBKAM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_186AA054E8326968_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_ALJEEEAPCBH_OFFSET))(this, HIIOCANBKAM);
 		}
 
-		::System::Void Method_5_73117257A02AFFB8(::System::Single a1)
+		::System::Void AFPCLLAALBH(::System::Single FDLDIDFMCIG)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_73117257A02AFFB8_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_AFPCLLAALBH_OFFSET))(this, FDLDIDFMCIG);
 		}
 
-		::System::Void Method_5_DF249C0E36759C3F(::System::Single a1)
+		::System::Void PEDOJDBBGPC(::System::Single AHAFNGEDPLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_DF249C0E36759C3F_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_PEDOJDBBGPC_OFFSET))(this, AHAFNGEDPLI);
 		}
 
-		::System::Void Method_5_DF249C0E36759C3F_1(::System::Single a1)
+		::System::Void ONPGLGIFOJJ(::System::Single AHAFNGEDPLI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_METHOD_5_DF249C0E36759C3F_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_EFFECTSIMULATE_ESPOSTPROCESSCOLORCURVES_ONPGLGIFOJJ_OFFSET))(this, AHAFNGEDPLI);
 		}
 	};
 }

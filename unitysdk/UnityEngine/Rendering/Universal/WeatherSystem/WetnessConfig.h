@@ -1,25 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WETNESSCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1BC739E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WETNESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC73C70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WETNESSCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x16E88E70)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WETNESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E89100)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int WetnessConfig_TypeDefinitionIndex = 27654;
+	inline static constexpr unsigned int WetnessConfig_TypeDefinitionIndex = 27274;
 
-	class WetnessConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::WetnessConfig*>
+	class WetnessConfig
 	{
 	public:
 		::System::Single wetness; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Texture* wetnessNoise; // 0x20
 		::System::Single wetnessNoiseTilling; // 0x28
 		::UnityEngine::Vector2 wetnessNoiseClampRange; // 0x2C
 		::System::Boolean wetnessApplyAllSurface; // 0x34
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector2 porosity; // 0x38
 
 		::System::Void _ctor()

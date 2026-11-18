@@ -1,21 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/ParadoxNotion/Serialization/fsRecoveryProcessor_2.h"
 
-namespace NodeCanvas::Framework { class BBParameter; }
-namespace NodeCanvas::Framework::Internal { class MissingBBParameterType; }
 namespace ParadoxNotion::Serialization::FullSerializer { class fsData; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NODECANVAS_FRAMEWORK_INTERNAL_FSBBPARAMETERPROCESSOR_ONBEFOREDESERIALIZEAFTERINSTANCECREATION_OFFSET UNITYSDK_OFFSET(0x1DAF02F0)
-#define NODECANVAS_FRAMEWORK_INTERNAL_FSBBPARAMETERPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF06E0)
+#define NODECANVAS_FRAMEWORK_INTERNAL_FSBBPARAMETERPROCESSOR_ONBEFOREDESERIALIZEAFTERINSTANCECREATION_OFFSET UNITYSDK_OFFSET(0x1D48E3D0)
+#define NODECANVAS_FRAMEWORK_INTERNAL_FSBBPARAMETERPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D48E7C0)
 
 namespace NodeCanvas::Framework::Internal
 {
-	inline static constexpr unsigned int fsBBParameterProcessor_TypeDefinitionIndex = 30878;
+	inline static constexpr unsigned int fsBBParameterProcessor_TypeDefinitionIndex = 30178;
 
-	class fsBBParameterProcessor : public ::ParadoxNotion::Serialization::fsRecoveryProcessor_2<::NodeCanvas::Framework::BBParameter*, ::NodeCanvas::Framework::Internal::MissingBBParameterType*>
+	class fsBBParameterProcessor
 	{
 	public:
 		::System::Void _ctor()

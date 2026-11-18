@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/DebugForCPInspector_BuffInfo.h"
-#include "unitysdk/DebugForCPInspector_EffInfo.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 
-#define DEBUGFORCPINSPECTOR_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC50DC0)
-#define DEBUGFORCPINSPECTOR_RESETDATA_OFFSET UNITYSDK_OFFSET(0x1EC50D70)
-#define DEBUGFORCPINSPECTOR_START_OFFSET UNITYSDK_OFFSET(0x1EC50390)
-#define DEBUGFORCPINSPECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC52A20)
-#define DEBUGFORCPINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC52830)
+#define DEBUGFORCPINSPECTOR_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1EF26950)
+#define DEBUGFORCPINSPECTOR_RESETDATA_OFFSET UNITYSDK_OFFSET(0x1EF26900)
+#define DEBUGFORCPINSPECTOR_START_OFFSET UNITYSDK_OFFSET(0x1EF25F20)
+#define DEBUGFORCPINSPECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF285B0)
+#define DEBUGFORCPINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF283C0)
 
-inline static constexpr unsigned int DebugForCPInspector_TypeDefinitionIndex = 94698;
+inline static constexpr unsigned int DebugForCPInspector_TypeDefinitionIndex = 96427;
 
 class DebugForCPInspector : public ::UnityEngine::MonoBehaviour
 {
 public:
-	static ::System::Comparison_1<::DebugForCPInspector_EffInfo>** StaticGet_CompareMethord()
+	static ::System::Comparison_1<::System::Object*>** StaticGet_CompareMethord()
 	{
-		return (::System::Comparison_1<::DebugForCPInspector_EffInfo>**)Il2CppClass::FromTypeDefinitionIndex(DebugForCPInspector_TypeDefinitionIndex)->GetStaticField(0x52720);
+		return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(DebugForCPInspector_TypeDefinitionIndex)->GetStaticField(0x52E90);
 	}
-	static ::System::Comparison_1<::DebugForCPInspector_BuffInfo>** StaticGet_CompareBuffMethord()
+	static ::System::Comparison_1<::System::Object*>** StaticGet_CompareBuffMethord()
 	{
-		return (::System::Comparison_1<::DebugForCPInspector_BuffInfo>**)Il2CppClass::FromTypeDefinitionIndex(DebugForCPInspector_TypeDefinitionIndex)->GetStaticField(0x52728);
+		return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(DebugForCPInspector_TypeDefinitionIndex)->GetStaticField(0x52E98);
 	}
 	::UnityEngine::UI::Text* entityText; // 0x18
 	::UnityEngine::UI::Text* cpText; // 0x20
@@ -45,11 +44,12 @@ public:
 	::System::Int32 effectCount; // 0x70
 	::System::Int32 buffCount; // 0x74
 	::System::Int32 lootsCount; // 0x78
-	::System::Collections::Generic::List_1<::DebugForCPInspector_EffInfo>* effectSort; // 0x80
+	::System::Byte _padding0[0x4];
+	::System::Collections::Generic::List_1<::System::Object*>* effectSort; // 0x80
 	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* effectsDict; // 0x88
 	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* globalBuffsDict; // 0x90
 	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* buffsDict; // 0x98
-	::System::Collections::Generic::List_1<::DebugForCPInspector_BuffInfo>* buffInfosSort; // 0xA0
+	::System::Collections::Generic::List_1<::System::Object*>* buffInfosSort; // 0xA0
 
 	::System::Void _ctor()
 	{

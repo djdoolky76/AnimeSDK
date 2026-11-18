@@ -7,18 +7,18 @@ namespace MoleMole::MiniGame::TartarusHounds::View { class ViewEntityBlock; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_VIEWENTITYGAME_GRIDPAGE_CLEAR_OFFSET UNITYSDK_OFFSET(0x16864400)
-#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_VIEWENTITYGAME_GRIDPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x168644A0)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_VIEWENTITYGAME_GRIDPAGE_CLEAR_OFFSET UNITYSDK_OFFSET(0x10D2F0A0)
+#define MOLEMOLE_MINIGAME_TARTARUSHOUNDS_VIEW_VIEWENTITYGAME_GRIDPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D2F140)
 
 namespace MoleMole::MiniGame::TartarusHounds::View
 {
-	inline static constexpr unsigned int ViewEntityGame_GridPage_TypeDefinitionIndex = 43901;
+	inline static constexpr unsigned int ViewEntityGame_GridPage_TypeDefinitionIndex = 48287;
 
 	class ViewEntityGame_GridPage : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* pageRoot; // 0x10
-		::System::Collections::Generic::List_1<::MoleMole::MiniGame::TartarusHounds::View::ViewEntityBlock*>* pageGrids; // 0x18
+		::System::Collections::Generic::List_1<::MoleMole::MiniGame::TartarusHounds::View::ViewEntityBlock*>* pageGrids; // 0x10
+		::UnityEngine::Transform* pageRoot; // 0x18
 		::System::Collections::Generic::List_1<::MoleMole::MiniGame::TartarusHounds::View::SandBlockView*>* levelGapGrids; // 0x20
 		::System::Int32 levelId; // 0x28
 

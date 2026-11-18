@@ -4,7 +4,7 @@
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int OwnedMemory_1_TypeDefinitionIndex = 1442;
+	inline static constexpr unsigned int OwnedMemory_1_TypeDefinitionIndex = 1441;
 
 	template <typename T>
 	class OwnedMemory_1 : public ::System::Object

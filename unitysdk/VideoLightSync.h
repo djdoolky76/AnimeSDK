@@ -9,14 +9,14 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Light; }
 namespace UnityEngine::Rendering::Universal { class UniversalAdditionalLightData; }
 
-#define VIDEOLIGHTSYNC_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1879CBF0)
-#define VIDEOLIGHTSYNC_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1879C840)
-#define VIDEOLIGHTSYNC_TURNOFFLIGHT_OFFSET UNITYSDK_OFFSET(0x1879CC70)
-#define VIDEOLIGHTSYNC_UPDATEVIDEOFRAME_OFFSET UNITYSDK_OFFSET(0x1879D0A0)
-#define VIDEOLIGHTSYNC_UPDATEVIDEONAME_OFFSET UNITYSDK_OFFSET(0x1879CEF0)
-#define VIDEOLIGHTSYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1879D170)
+#define VIDEOLIGHTSYNC_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BF53570)
+#define VIDEOLIGHTSYNC_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BF531C0)
+#define VIDEOLIGHTSYNC_TURNOFFLIGHT_OFFSET UNITYSDK_OFFSET(0x1BF535F0)
+#define VIDEOLIGHTSYNC_UPDATEVIDEOFRAME_OFFSET UNITYSDK_OFFSET(0x1BF53A10)
+#define VIDEOLIGHTSYNC_UPDATEVIDEONAME_OFFSET UNITYSDK_OFFSET(0x1BF53870)
+#define VIDEOLIGHTSYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF53AE0)
 
-inline static constexpr unsigned int VideoLightSync_TypeDefinitionIndex = 79563;
+inline static constexpr unsigned int VideoLightSync_TypeDefinitionIndex = 89524;
 
 class VideoLightSync : public ::UnityEngine::MonoBehaviour
 {
@@ -25,8 +25,10 @@ public:
 	::UnityEngine::Light* screenLight; // 0x20
 	::UnityEngine::Rendering::Universal::UniversalAdditionalLightData* lightData; // 0x28
 	::System::Boolean hasLightData; // 0x30
+	::System::Byte _padding0[0x3];
 	::System::Int32 currentVideoIndex; // 0x34
 	::System::Int32 currentFrame; // 0x38
+	::System::Byte _padding1[0x4];
 	::System::Collections::Generic::List_1<::UnityEngine::Color>* colors; // 0x40
 	::System::Int32 colorCount; // 0x48
 	::UnityEngine::Color currentColor; // 0x4C

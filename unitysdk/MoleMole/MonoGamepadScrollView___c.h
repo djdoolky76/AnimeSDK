@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_MONOGAMEPADSCROLLVIEW___C_METHOD_1_01082DC8B658A680_OFFSET UNITYSDK_OFFSET(0x11D4CB80)
-#define MOLEMOLE_MONOGAMEPADSCROLLVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11D4CB30)
-#define MOLEMOLE_MONOGAMEPADSCROLLVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11D4CB70)
+#define MOLEMOLE_MONOGAMEPADSCROLLVIEW___C_MKAAMIDJKDL_OFFSET UNITYSDK_OFFSET(0x1193AF60)
+#define MOLEMOLE_MONOGAMEPADSCROLLVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1193AF10)
+#define MOLEMOLE_MONOGAMEPADSCROLLVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1193AF50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoGamepadScrollView___c_TypeDefinitionIndex = 82511;
+	inline static constexpr unsigned int MonoGamepadScrollView___c_TypeDefinitionIndex = 51871;
 
 	class MonoGamepadScrollView___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::UnityEngine::RectTransform*>** StaticGet___9__21_2()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::UnityEngine::RectTransform*>**)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadScrollView___c_TypeDefinitionIndex)->GetStaticField(0x4A980);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadScrollView___c_TypeDefinitionIndex)->GetStaticField(0x51780);
 		}
-		static ::MoleMole::MonoGamepadScrollView___c** StaticGet___9()
+		static ::System::Comparison_1<::UnityEngine::RectTransform*>** StaticGet___9__23_2()
 		{
-			return (::MoleMole::MonoGamepadScrollView___c**)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadScrollView___c_TypeDefinitionIndex)->GetStaticField(0x4A988);
+			return (::System::Comparison_1<::UnityEngine::RectTransform*>**)Il2CppClass::FromTypeDefinitionIndex(MonoGamepadScrollView___c_TypeDefinitionIndex)->GetStaticField(0x51788);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSCROLLVIEW___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 Method_1_01082DC8B658A680(::UnityEngine::RectTransform* a1, ::UnityEngine::RectTransform* a2)
+		::System::Int32 MKAAMIDJKDL(::UnityEngine::RectTransform* FFKBEGIHIGG, ::UnityEngine::RectTransform* CKADGLGJJAB)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSCROLLVIEW___C_METHOD_1_01082DC8B658A680_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOGAMEPADSCROLLVIEW___C_MKAAMIDJKDL_OFFSET))(this, FFKBEGIHIGG, CKADGLGJJAB);
 		}
 	};
 }

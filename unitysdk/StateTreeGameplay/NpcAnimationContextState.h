@@ -5,17 +5,18 @@
 
 namespace NPCCrowd::Ability { class NPCAbility; }
 
-#define STATETREEGAMEPLAY_NPCANIMATIONCONTEXTSTATE_FLUSHSTARTPLAY_OFFSET UNITYSDK_OFFSET(0x96B010)
-#define STATETREEGAMEPLAY_NPCANIMATIONCONTEXTSTATE_TRIGGERPLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x96AFB0)
+#define STATETREEGAMEPLAY_NPCANIMATIONCONTEXTSTATE_FLUSHSTARTPLAY_OFFSET UNITYSDK_OFFSET(0x70B890)
+#define STATETREEGAMEPLAY_NPCANIMATIONCONTEXTSTATE_TRIGGERPLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x70B830)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int NpcAnimationContextState_TypeDefinitionIndex = 47161;
+	inline static constexpr unsigned int NpcAnimationContextState_TypeDefinitionIndex = 39719;
 
 	struct alignas(4) NpcAnimationContextState
 	{
 		::System::Boolean IsPlaying; // 0x10
 		::StateTreeGameplay::ContextTrigger StartTrigger; // 0x11
+		::System::Byte _padding0[0x2];
 		::System::Int32 AnimationID; // 0x14
 
 		::System::Boolean TriggerPlayAnimation(::System::Int32 animationID)

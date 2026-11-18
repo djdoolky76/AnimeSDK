@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RootMotion/FinalIK/OffsetModifier.h"
 
-namespace RootMotion::FinalIK { class PenetrationAvoidance_Avoider; }
+namespace System { class Object; }
 
-#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1F8B0F00)
-#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8B0F80)
+#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE_ONMODIFYOFFSET_OFFSET UNITYSDK_OFFSET(0x1FC4E560)
+#define ROOTMOTION_FINALIK_PENETRATIONAVOIDANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC4E5E0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int PenetrationAvoidance_TypeDefinitionIndex = 38902;
+	inline static constexpr unsigned int PenetrationAvoidance_TypeDefinitionIndex = 36956;
 
 	class PenetrationAvoidance : public ::RootMotion::FinalIK::OffsetModifier
 	{
 	public:
-		::Il2CppArray<::RootMotion::FinalIK::PenetrationAvoidance_Avoider*>* avoiders; // 0x30
+		::Il2CppArray<::System::Object*>* avoiders; // 0x30
 
 		::System::Void _ctor()
 		{

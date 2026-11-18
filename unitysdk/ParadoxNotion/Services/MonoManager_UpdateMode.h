@@ -3,12 +3,12 @@
 
 namespace ParadoxNotion::Services
 {
-	inline static constexpr unsigned int MonoManager_UpdateMode_TypeDefinitionIndex = 29826;
+	inline static constexpr unsigned int MonoManager_UpdateMode_TypeDefinitionIndex = 29961;
 
 	enum class MonoManager_UpdateMode : ::System::Int32
 	{
-		FixedUpdate = 2,
-		LateUpdate = 1,
 		NormalUpdate = 0,
+		LateUpdate = 1,
+		FixedUpdate = 2,
 	};
 }

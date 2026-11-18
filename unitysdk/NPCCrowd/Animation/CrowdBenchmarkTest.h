@@ -1,29 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Animation/CrowdUnitTestBase.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple_3.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_ANIMATION_CROWDBENCHMARKTEST_GETCROWDNPCTESTCASES_OFFSET UNITYSDK_OFFSET(0x13DF2160)
-#define NPCCROWD_ANIMATION_CROWDBENCHMARKTEST_GET_UNITTESTCASENAME_OFFSET UNITYSDK_OFFSET(0x13DF2120)
-#define NPCCROWD_ANIMATION_CROWDBENCHMARKTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x13DF2470)
-#define NPCCROWD_ANIMATION_CROWDBENCHMARKTEST__GETCROWDNPCTESTCASES_B__7_0_OFFSET UNITYSDK_OFFSET(0x13DF2600)
-#define NPCCROWD_ANIMATION_CROWDBENCHMARKTEST___BASE_GETCROWDNPCTESTCASES_OFFSET UNITYSDK_OFFSET(0x13DF26F0)
+#define NPCCROWD_ANIMATION_CROWDBENCHMARKTEST_GETCROWDNPCTESTCASES_OFFSET UNITYSDK_OFFSET(0xE0CED00)
+#define NPCCROWD_ANIMATION_CROWDBENCHMARKTEST_GET_UNITTESTCASENAME_OFFSET UNITYSDK_OFFSET(0xE0CECC0)
+#define NPCCROWD_ANIMATION_CROWDBENCHMARKTEST__CTOR_OFFSET UNITYSDK_OFFSET(0xE0CF3B0)
+#define NPCCROWD_ANIMATION_CROWDBENCHMARKTEST__GETCROWDNPCTESTCASES_B__8_0_OFFSET UNITYSDK_OFFSET(0xE0CF540)
+#define NPCCROWD_ANIMATION_CROWDBENCHMARKTEST___BASE_GETCROWDNPCTESTCASES_OFFSET UNITYSDK_OFFSET(0xE0CF630)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int CrowdBenchmarkTest_TypeDefinitionIndex = 41516;
+	inline static constexpr unsigned int CrowdBenchmarkTest_TypeDefinitionIndex = 57515;
 
 	class CrowdBenchmarkTest : public ::NPCCrowd::Animation::CrowdUnitTestBase
 	{
 	public:
 		::System::Int32 spawnCount; // 0x10
 		::System::Boolean bEnableTagIdWhiteList; // 0x14
+		::System::Byte _padding0[0x3];
 		::System::Collections::Generic::List_1<::System::UInt32>* spawnNPCTagIds; // 0x18
 		::System::Boolean bEnablePrefabIdWhiteList; // 0x20
+		::System::Byte _padding1[0x7];
 		::System::Collections::Generic::List_1<::System::Int32>* npcPrefabIds; // 0x28
+		::System::Boolean bEnableUniquePrefabId; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -35,19 +38,19 @@ namespace NPCCrowd::Animation
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBENCHMARKTEST_GET_UNITTESTCASENAME_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>* GetCrowdNpcTestCases()
+		::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>>* GetCrowdNpcTestCases()
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBENCHMARKTEST_GETCROWDNPCTESTCASES_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBENCHMARKTEST_GETCROWDNPCTESTCASES_OFFSET))(this);
 		}
 
-		::System::Boolean _GetCrowdNpcTestCases_b__7_0(::System::UInt32 n)
+		::System::Boolean _GetCrowdNpcTestCases_b__8_0(::System::UInt32 n)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBENCHMARKTEST__GETCROWDNPCTESTCASES_B__7_0_OFFSET))(this, n);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBENCHMARKTEST__GETCROWDNPCTESTCASES_B__8_0_OFFSET))(this, n);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>* __base_GetCrowdNpcTestCases()
+		::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>>* __base_GetCrowdNpcTestCases()
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBENCHMARKTEST___BASE_GETCROWDNPCTESTCASES_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CROWDBENCHMARKTEST___BASE_GETCROWDNPCTESTCASES_OFFSET))(this);
 		}
 	};
 }

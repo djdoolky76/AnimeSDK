@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SHARE_CTOCHANGEINFOOFPROPERTY_GET_CURVALUE_OFFSET UNITYSDK_OFFSET(0x1C0BE840)
-#define SHARE_CTOCHANGEINFOOFPROPERTY_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1C0BE830)
-#define SHARE_CTOCHANGEINFOOFPROPERTY_GET_TOADDVALUE_OFFSET UNITYSDK_OFFSET(0x1C0BE850)
-#define SHARE_CTOCHANGEINFOOFPROPERTY_SET_TOADDVALUE_OFFSET UNITYSDK_OFFSET(0x1C0BE860)
-#define SHARE_CTOCHANGEINFOOFPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0BE870)
+#define SHARE_CTOCHANGEINFOOFPROPERTY_GET_CURVALUE_OFFSET UNITYSDK_OFFSET(0x1FD7F620)
+#define SHARE_CTOCHANGEINFOOFPROPERTY_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1FD7F610)
+#define SHARE_CTOCHANGEINFOOFPROPERTY_GET_TOADDVALUE_OFFSET UNITYSDK_OFFSET(0x1FD7F630)
+#define SHARE_CTOCHANGEINFOOFPROPERTY_SET_TOADDVALUE_OFFSET UNITYSDK_OFFSET(0x1FD7F640)
+#define SHARE_CTOCHANGEINFOOFPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD7F650)
 
 namespace Share
 {
-	inline static constexpr unsigned int CToChangeInfoOfProperty_TypeDefinitionIndex = 11213;
+	inline static constexpr unsigned int CToChangeInfoOfProperty_TypeDefinitionIndex = 10950;
 
 	class CToChangeInfoOfProperty : public ::System::Object
 	{
 	public:
 		::System::Int32 _ToAddValue_k__BackingField; // 0x10
-		::System::UInt16 _PropertyType_k__BackingField; // 0x14
-		::System::Int32 _CurValue_k__BackingField; // 0x18
+		::System::Int32 _CurValue_k__BackingField; // 0x14
+		::System::UInt16 _PropertyType_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::UInt16 dwPropertyType, ::System::Int32 dwCurValue, ::System::Int32 dwToAddValue)
 		{

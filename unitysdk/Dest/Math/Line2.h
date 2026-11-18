@@ -2,38 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/Dest/Math/AAB2.h"
+#include "unitysdk/Dest/Math/Box2.h"
+#include "unitysdk/Dest/Math/Circle2.h"
 
 namespace System { class String; }
 
-#define DEST_MATH_LINE2_ANGLEBETWEENTWOLINES_OFFSET UNITYSDK_OFFSET(0xAD55A0)
-#define DEST_MATH_LINE2_CREATEBETWEENANDEQUIDISTANTTOPOINTS_OFFSET UNITYSDK_OFFSET(0x1FC51100)
-#define DEST_MATH_LINE2_CREATEFROMTWOPOINTS_1_OFFSET UNITYSDK_OFFSET(0x1FC51000)
-#define DEST_MATH_LINE2_CREATEFROMTWOPOINTS_OFFSET UNITYSDK_OFFSET(0x1FC50F80)
-#define DEST_MATH_LINE2_CREATEPARALLELTOGIVENLINEATGIVENDISTANCE_OFFSET UNITYSDK_OFFSET(0x1FC51170)
-#define DEST_MATH_LINE2_CREATEPERPTOLINETRHOUGHPOINT_OFFSET UNITYSDK_OFFSET(0x1FC51080)
-#define DEST_MATH_LINE2_DISTANCETO_OFFSET UNITYSDK_OFFSET(0xAD4A20)
-#define DEST_MATH_LINE2_EVAL_OFFSET UNITYSDK_OFFSET(0xAC41A0)
-#define DEST_MATH_LINE2_PROJECT_OFFSET UNITYSDK_OFFSET(0xAD54B0)
-#define DEST_MATH_LINE2_QUERYSIDENEGATIVE_1_OFFSET UNITYSDK_OFFSET(0xAD4E60)
-#define DEST_MATH_LINE2_QUERYSIDENEGATIVE_2_OFFSET UNITYSDK_OFFSET(0xAD5090)
-#define DEST_MATH_LINE2_QUERYSIDENEGATIVE_3_OFFSET UNITYSDK_OFFSET(0xAD5350)
-#define DEST_MATH_LINE2_QUERYSIDENEGATIVE_OFFSET UNITYSDK_OFFSET(0xAD4BE0)
-#define DEST_MATH_LINE2_QUERYSIDEPOSITIVE_1_OFFSET UNITYSDK_OFFSET(0xAD4F70)
-#define DEST_MATH_LINE2_QUERYSIDEPOSITIVE_2_OFFSET UNITYSDK_OFFSET(0xAD5180)
-#define DEST_MATH_LINE2_QUERYSIDEPOSITIVE_3_OFFSET UNITYSDK_OFFSET(0xAD5400)
-#define DEST_MATH_LINE2_QUERYSIDEPOSITIVE_OFFSET UNITYSDK_OFFSET(0xAD4C80)
-#define DEST_MATH_LINE2_QUERYSIDE_1_OFFSET UNITYSDK_OFFSET(0xAD4D30)
-#define DEST_MATH_LINE2_QUERYSIDE_2_OFFSET UNITYSDK_OFFSET(0xAD5080)
-#define DEST_MATH_LINE2_QUERYSIDE_3_OFFSET UNITYSDK_OFFSET(0xAD5270)
-#define DEST_MATH_LINE2_QUERYSIDE_OFFSET UNITYSDK_OFFSET(0xAD4B20)
-#define DEST_MATH_LINE2_SIGNEDDISTANCETO_OFFSET UNITYSDK_OFFSET(0xAD4990)
-#define DEST_MATH_LINE2_TOSTRING_OFFSET UNITYSDK_OFFSET(0xAD5660)
-#define DEST_MATH_LINE2__CTOR_1_OFFSET UNITYSDK_OFFSET(0x346F70)
-#define DEST_MATH_LINE2__CTOR_OFFSET UNITYSDK_OFFSET(0x3D1D30)
+#define DEST_MATH_LINE2_ANGLEBETWEENTWOLINES_OFFSET UNITYSDK_OFFSET(0x9BBB80)
+#define DEST_MATH_LINE2_CREATEBETWEENANDEQUIDISTANTTOPOINTS_OFFSET UNITYSDK_OFFSET(0x200548F0)
+#define DEST_MATH_LINE2_CREATEFROMTWOPOINTS_1_OFFSET UNITYSDK_OFFSET(0x200547F0)
+#define DEST_MATH_LINE2_CREATEFROMTWOPOINTS_OFFSET UNITYSDK_OFFSET(0x20054770)
+#define DEST_MATH_LINE2_CREATEPARALLELTOGIVENLINEATGIVENDISTANCE_OFFSET UNITYSDK_OFFSET(0x20054960)
+#define DEST_MATH_LINE2_CREATEPERPTOLINETRHOUGHPOINT_OFFSET UNITYSDK_OFFSET(0x20054870)
+#define DEST_MATH_LINE2_DISTANCETO_OFFSET UNITYSDK_OFFSET(0x9BB000)
+#define DEST_MATH_LINE2_EVAL_OFFSET UNITYSDK_OFFSET(0x9ABCD0)
+#define DEST_MATH_LINE2_PROJECT_OFFSET UNITYSDK_OFFSET(0x9BBA90)
+#define DEST_MATH_LINE2_QUERYSIDENEGATIVE_1_OFFSET UNITYSDK_OFFSET(0x9BB440)
+#define DEST_MATH_LINE2_QUERYSIDENEGATIVE_2_OFFSET UNITYSDK_OFFSET(0x9BB670)
+#define DEST_MATH_LINE2_QUERYSIDENEGATIVE_3_OFFSET UNITYSDK_OFFSET(0x9BB930)
+#define DEST_MATH_LINE2_QUERYSIDENEGATIVE_OFFSET UNITYSDK_OFFSET(0x9BB1C0)
+#define DEST_MATH_LINE2_QUERYSIDEPOSITIVE_1_OFFSET UNITYSDK_OFFSET(0x9BB550)
+#define DEST_MATH_LINE2_QUERYSIDEPOSITIVE_2_OFFSET UNITYSDK_OFFSET(0x9BB760)
+#define DEST_MATH_LINE2_QUERYSIDEPOSITIVE_3_OFFSET UNITYSDK_OFFSET(0x9BB9E0)
+#define DEST_MATH_LINE2_QUERYSIDEPOSITIVE_OFFSET UNITYSDK_OFFSET(0x9BB260)
+#define DEST_MATH_LINE2_QUERYSIDE_1_OFFSET UNITYSDK_OFFSET(0x9BB310)
+#define DEST_MATH_LINE2_QUERYSIDE_2_OFFSET UNITYSDK_OFFSET(0x9BB660)
+#define DEST_MATH_LINE2_QUERYSIDE_3_OFFSET UNITYSDK_OFFSET(0x9BB850)
+#define DEST_MATH_LINE2_QUERYSIDE_OFFSET UNITYSDK_OFFSET(0x9BB100)
+#define DEST_MATH_LINE2_SIGNEDDISTANCETO_OFFSET UNITYSDK_OFFSET(0x9BAF70)
+#define DEST_MATH_LINE2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9BBC40)
+#define DEST_MATH_LINE2__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3657B0)
+#define DEST_MATH_LINE2__CTOR_OFFSET UNITYSDK_OFFSET(0x6708E0)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int Line2_TypeDefinitionIndex = 35425;
+	inline static constexpr unsigned int Line2_TypeDefinitionIndex = 34998;
 
 	struct alignas(4) Line2
 	{
@@ -50,30 +53,40 @@ namespace Dest::Math
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2__CTOR_1_OFFSET))(this, center, direction);
 		}
 
+		/*
 		static ::Dest::Math::Line2 CreateFromTwoPoints(::UnityEngine::Vector2& p0, ::UnityEngine::Vector2& p1)
 		{
 			return ((::Dest::Math::Line2(*)(::UnityEngine::Vector2&, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_CREATEFROMTWOPOINTS_OFFSET))(p0, p1);
 		}
+		*/
 
+		/*
 		static ::Dest::Math::Line2 CreateFromTwoPoints_1(::UnityEngine::Vector2 p0, ::UnityEngine::Vector2 p1)
 		{
 			return ((::Dest::Math::Line2(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_CREATEFROMTWOPOINTS_1_OFFSET))(p0, p1);
 		}
+		*/
 
+		/*
 		static ::Dest::Math::Line2 CreatePerpToLineTrhoughPoint(::Dest::Math::Line2 line, ::UnityEngine::Vector2 point)
 		{
 			return ((::Dest::Math::Line2(*)(::Dest::Math::Line2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_CREATEPERPTOLINETRHOUGHPOINT_OFFSET))(line, point);
 		}
+		*/
 
+		/*
 		static ::Dest::Math::Line2 CreateBetweenAndEquidistantToPoints(::UnityEngine::Vector2 point0, ::UnityEngine::Vector2 point1)
 		{
 			return ((::Dest::Math::Line2(*)(::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_CREATEBETWEENANDEQUIDISTANTTOPOINTS_OFFSET))(point0, point1);
 		}
+		*/
 
+		/*
 		static ::Dest::Math::Line2 CreateParallelToGivenLineAtGivenDistance(::Dest::Math::Line2 line, ::System::Single distance)
 		{
 			return ((::Dest::Math::Line2(*)(::Dest::Math::Line2, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_CREATEPARALLELTOGIVENLINEATGIVENDISTANCE_OFFSET))(line, distance);
 		}
+		*/
 
 		::UnityEngine::Vector2 Eval(::System::Single t)
 		{
@@ -105,78 +118,62 @@ namespace Dest::Math
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_QUERYSIDEPOSITIVE_OFFSET))(this, point, epsilon);
 		}
 
-		/*
 		::System::Int32 QuerySide_1(::Dest::Math::Box2& box, ::System::Single epsilon)
 		{
 			return ((::System::Int32(*)(::PVOID, ::Dest::Math::Box2&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_QUERYSIDE_1_OFFSET))(this, box, epsilon);
 		}
-		*/
 
-		/*
 		::System::Boolean QuerySideNegative_1(::Dest::Math::Box2& box, ::System::Single epsilon)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Dest::Math::Box2&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_QUERYSIDENEGATIVE_1_OFFSET))(this, box, epsilon);
 		}
-		*/
 
-		/*
 		::System::Boolean QuerySidePositive_1(::Dest::Math::Box2& box, ::System::Single epsilon)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Dest::Math::Box2&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_QUERYSIDEPOSITIVE_1_OFFSET))(this, box, epsilon);
 		}
-		*/
 
-		/*
 		::System::Int32 QuerySide_2(::Dest::Math::AAB2& box, ::System::Single epsilon)
 		{
 			return ((::System::Int32(*)(::PVOID, ::Dest::Math::AAB2&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_QUERYSIDE_2_OFFSET))(this, box, epsilon);
 		}
-		*/
 
-		/*
 		::System::Boolean QuerySideNegative_2(::Dest::Math::AAB2& box, ::System::Single epsilon)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Dest::Math::AAB2&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_QUERYSIDENEGATIVE_2_OFFSET))(this, box, epsilon);
 		}
-		*/
 
-		/*
 		::System::Boolean QuerySidePositive_2(::Dest::Math::AAB2& box, ::System::Single epsilon)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Dest::Math::AAB2&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_QUERYSIDEPOSITIVE_2_OFFSET))(this, box, epsilon);
 		}
-		*/
 
-		/*
 		::System::Int32 QuerySide_3(::Dest::Math::Circle2& circle, ::System::Single epsilon)
 		{
 			return ((::System::Int32(*)(::PVOID, ::Dest::Math::Circle2&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_QUERYSIDE_3_OFFSET))(this, circle, epsilon);
 		}
-		*/
 
-		/*
 		::System::Boolean QuerySideNegative_3(::Dest::Math::Circle2& circle, ::System::Single epsilon)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Dest::Math::Circle2&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_QUERYSIDENEGATIVE_3_OFFSET))(this, circle, epsilon);
 		}
-		*/
 
-		/*
 		::System::Boolean QuerySidePositive_3(::Dest::Math::Circle2& circle, ::System::Single epsilon)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Dest::Math::Circle2&, ::System::Single))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_QUERYSIDEPOSITIVE_3_OFFSET))(this, circle, epsilon);
 		}
-		*/
 
 		::UnityEngine::Vector2 Project(::UnityEngine::Vector2 point)
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_PROJECT_OFFSET))(this, point);
 		}
 
+		/*
 		::System::Single AngleBetweenTwoLines(::Dest::Math::Line2 anotherLine, ::System::Boolean acuteAngleDesired)
 		{
 			return ((::System::Single(*)(::PVOID, ::Dest::Math::Line2, ::System::Boolean))((::PBYTE)hIl2Cpp + DEST_MATH_LINE2_ANGLEBETWEENTWOLINES_OFFSET))(this, anotherLine, acuteAngleDesired);
 		}
+		*/
 
 		::System::String* ToString()
 		{

@@ -1,60 +1,59 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_6A96CF8852C977C2.h"
+#include "unitysdk/JLEKMHHGMEM.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class Mono2dMapData_IconInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_METHOD_1_025E4B1A2211CF52_OFFSET UNITYSDK_OFFSET(0x136D4790)
-#define MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_METHOD_1_8D61BE16C9463302_OFFSET UNITYSDK_OFFSET(0x136D62C0)
-#define MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_METHOD_1_D78B51BFDA4B8B32_OFFSET UNITYSDK_OFFSET(0x136D49C0)
-#define MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_METHOD_1_E876C8B6D3B840A6_1_OFFSET UNITYSDK_OFFSET(0x136D5680)
-#define MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_METHOD_1_E876C8B6D3B840A6_OFFSET UNITYSDK_OFFSET(0x136D4A40)
-#define MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x136D4700)
+#define MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_BIMJJEMAKLD_OFFSET UNITYSDK_OFFSET(0x135B16B0)
+#define MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_IPFHLMPAPLB_OFFSET UNITYSDK_OFFSET(0x135B07B0)
+#define MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_LHFAMBGHPAI_OFFSET UNITYSDK_OFFSET(0x135B22F0)
+#define MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_NKLNCMGDCJO_OFFSET UNITYSDK_OFFSET(0x135B1630)
+#define MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_OAHLNNFEJPA_OFFSET UNITYSDK_OFFSET(0x135B09E0)
+#define MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x135B0720)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int Mono2dMapData_IconInfoGroup_TypeDefinitionIndex = 77953;
+	inline static constexpr unsigned int Mono2dMapData_IconInfoGroup_TypeDefinitionIndex = 75761;
 
 	class Mono2dMapData_IconInfoGroup : public ::System::Object
 	{
 	public:
 		::UnityEngine::RectTransform* ContentRoot; // 0x10
-		::System::Collections::Generic::List_1<::MoleMole::Mono2dMapData_IconInfo*>* IconInfos; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* IconInfos; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::RectTransform*>* _iconRects; // 0x20
-		::Enum_3_6A96CF8852C977C2 IconType; // 0x28
+		::JLEKMHHGMEM IconType; // 0x28
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_025E4B1A2211CF52()
+		::System::Void IPFHLMPAPLB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_METHOD_1_025E4B1A2211CF52_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_IPFHLMPAPLB_OFFSET))(this);
 		}
 
-		::System::Void Method_1_D78B51BFDA4B8B32()
+		::System::Void OAHLNNFEJPA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_METHOD_1_D78B51BFDA4B8B32_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_OAHLNNFEJPA_OFFSET))(this);
 		}
 
-		::System::Void Method_1_8D61BE16C9463302()
+		::System::Void NKLNCMGDCJO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_METHOD_1_8D61BE16C9463302_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_NKLNCMGDCJO_OFFSET))(this);
 		}
 
-		::System::Void Method_1_E876C8B6D3B840A6()
+		::System::Void BIMJJEMAKLD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_METHOD_1_E876C8B6D3B840A6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_BIMJJEMAKLD_OFFSET))(this);
 		}
 
-		::System::Void Method_1_E876C8B6D3B840A6_1()
+		::System::Void LHFAMBGHPAI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_METHOD_1_E876C8B6D3B840A6_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONO2DMAPDATA_ICONINFOGROUP_LHFAMBGHPAI_OFFSET))(this);
 		}
 	};
 }

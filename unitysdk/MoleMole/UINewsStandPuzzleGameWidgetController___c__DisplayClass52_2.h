@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UINewsStandPuzzleGameWidgetController___c__DisplayClass52_1; }
-
-#define MOLEMOLE_UINEWSSTANDPUZZLEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS52_2__CHECKCOMPLETE_B__3_OFFSET UNITYSDK_OFFSET(0x18349BD0)
-#define MOLEMOLE_UINEWSSTANDPUZZLEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS52_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18349BC0)
+#define MOLEMOLE_UINEWSSTANDPUZZLEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS52_2__CHECKCOMPLETE_B__3_OFFSET UNITYSDK_OFFSET(0x1840B1F0)
+#define MOLEMOLE_UINEWSSTANDPUZZLEGAMEWIDGETCONTROLLER___C__DISPLAYCLASS52_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1840B1E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UINewsStandPuzzleGameWidgetController___c__DisplayClass52_2_TypeDefinitionIndex = 50642;
+	inline static constexpr unsigned int UINewsStandPuzzleGameWidgetController___c__DisplayClass52_2_TypeDefinitionIndex = 39635;
 
+	template <typename T1, typename T2>
 	class UINewsStandPuzzleGameWidgetController___c__DisplayClass52_2 : public ::System::Object
 	{
 	public:
-		::MoleMole::UINewsStandPuzzleGameWidgetController___c__DisplayClass52_1* CS___8__locals2; // 0x10
+		::System::Object* CS___8__locals2; // 0x10
 		::System::Int32 savedChapterIdx; // 0x18
 
 		::System::Void _ctor()

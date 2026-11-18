@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Playables/ScriptPlayable_1.h"
-#include "unitysdk/UnityEngine/Timeline/ImgSplitScreenGroupBehavior_ClearCtx.h"
 #include "unitysdk/UnityEngine/Timeline/ImgSplitScreenGroupBehavior___c__DisplayClass16_0.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 
 namespace MoleMole { class ComicImgStyle; }
 namespace System { class Object; }
@@ -20,50 +19,49 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::Timeline { class ComicGroupTrack; }
 namespace UnityEngine::Timeline { class ImageExchangeEvent; }
 namespace UnityEngine::Timeline { class ImgSplitScreenGroupPlayableAsset; }
-namespace UnityEngine::Timeline { class ImgSplitScreenGroupPlayableAsset_SpriteItem; }
 namespace UnityEngine::Timeline { class PictureDecorateEvent; }
 namespace UnityEngine::Timeline { class SplitScreenEvent; }
 namespace UnityEngine::Timeline { class TimelineAsset; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 namespace UnityEngine::Timeline { class VoiceDecorateEvent; }
 
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_COMINIT_OFFSET UNITYSDK_OFFSET(0x1F0E4540)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1F0E1CB0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_GETBELONGPOS_OFFSET UNITYSDK_OFFSET(0x1F0E4370)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_GETIFHIDEINSPLITSCREEN_OFFSET UNITYSDK_OFFSET(0x1F0E51B0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_GETSELFCOMICGROUPTRACK_OFFSET UNITYSDK_OFFSET(0x1F0E53A0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_HANDLESPLITANIM_OFFSET UNITYSDK_OFFSET(0x1F0E2250)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_IMAGEEXCHANGE_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1F0E51A0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F0E1DF0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_INITPARTOFFSETMAP_OFFSET UNITYSDK_OFFSET(0x1F0E1E10)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_PICTUREDECORATIONCOM_INIT_OFFSET UNITYSDK_OFFSET(0x1F0E53E0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_PICTUREDECORATIONCOM_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1F0E53F0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1F0E49D0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_SPLITIMGCOM_INIT_OFFSET UNITYSDK_OFFSET(0x1F0E47B0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_SPLITIMGCOM_RESET_OFFSET UNITYSDK_OFFSET(0x1F0E5130)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_SPLITIMGCOM_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1F0E42F0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_TAGSNEEDCLEAR_OFFSET UNITYSDK_OFFSET(0x1F0E4820)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_VOICEDECORATIONCOM_INIT_OFFSET UNITYSDK_OFFSET(0x1F0E53B0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_VOICEDECORATIONCOM_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1F0E53D0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_VOICEDECORATIONCOM_TOFINISHSTATE_OFFSET UNITYSDK_OFFSET(0x1F0E53C0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0E54A0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0E5400)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR__INITPARTOFFSETMAP_G__RECORDMAP_16_0_OFFSET UNITYSDK_OFFSET(0x1F0E3A30)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_COMINIT_OFFSET UNITYSDK_OFFSET(0x1F441030)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1F43E770)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_GETBELONGPOS_OFFSET UNITYSDK_OFFSET(0x1F440E60)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_GETIFHIDEINSPLITSCREEN_OFFSET UNITYSDK_OFFSET(0x1F441CC0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_GETSELFCOMICGROUPTRACK_OFFSET UNITYSDK_OFFSET(0x1F441EB0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_HANDLESPLITANIM_OFFSET UNITYSDK_OFFSET(0x1F43ED10)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_IMAGEEXCHANGE_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1F441CB0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F43E8B0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_INITPARTOFFSETMAP_OFFSET UNITYSDK_OFFSET(0x1F43E8D0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_PICTUREDECORATIONCOM_INIT_OFFSET UNITYSDK_OFFSET(0x1F441EF0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_PICTUREDECORATIONCOM_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1F441F00)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1F4414E0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_SPLITIMGCOM_INIT_OFFSET UNITYSDK_OFFSET(0x1F4412C0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_SPLITIMGCOM_RESET_OFFSET UNITYSDK_OFFSET(0x1F441C40)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_SPLITIMGCOM_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1F440DE0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_TAGSNEEDCLEAR_OFFSET UNITYSDK_OFFSET(0x1F441330)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_VOICEDECORATIONCOM_INIT_OFFSET UNITYSDK_OFFSET(0x1F441EC0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_VOICEDECORATIONCOM_SIMULATE_OFFSET UNITYSDK_OFFSET(0x1F441EE0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_VOICEDECORATIONCOM_TOFINISHSTATE_OFFSET UNITYSDK_OFFSET(0x1F441ED0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F441FB0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F441F10)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR__INITPARTOFFSETMAP_G__RECORDMAP_16_0_OFFSET UNITYSDK_OFFSET(0x1F440520)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImgSplitScreenGroupBehavior_TypeDefinitionIndex = 32973;
+	inline static constexpr unsigned int ImgSplitScreenGroupBehavior_TypeDefinitionIndex = 32428;
 
 	class ImgSplitScreenGroupBehavior : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		static ::UnityEngine::Timeline::ComicGroupTrack** StaticGet_CurComicGroupTrack()
 		{
-			return (::UnityEngine::Timeline::ComicGroupTrack**)Il2CppClass::FromTypeDefinitionIndex(ImgSplitScreenGroupBehavior_TypeDefinitionIndex)->GetStaticField(0x28050);
+			return (::UnityEngine::Timeline::ComicGroupTrack**)Il2CppClass::FromTypeDefinitionIndex(ImgSplitScreenGroupBehavior_TypeDefinitionIndex)->GetStaticField(0x29130);
 		}
 		static ::System::Boolean* StaticGet_MUTE_BEHABIOUR()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ImgSplitScreenGroupBehavior_TypeDefinitionIndex)->GetStaticField(0x7F50);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ImgSplitScreenGroupBehavior_TypeDefinitionIndex)->GetStaticField(0x8350);
 		}
 		// static const ::System::Single kUnsetTime; // 0x0
 		// static const ::System::String* ARROW_PATH; // 0x0
@@ -72,13 +70,14 @@ namespace UnityEngine::Timeline
 		// static const ::System::String* MAX_RANGE_CONTENT_PATH; // 0x0
 		// static const ::System::String* MAX_RANGE_ROOT_PATH; // 0x0
 		// static const ::System::String* MAX_RANGE_TEXT_PATH; // 0x0
-		::System::Collections::Generic::HashSet_1<::UnityEngine::Timeline::ImgSplitScreenGroupBehavior_ClearCtx>* m_arrClearTags; // 0x10
-		::UnityEngine::Timeline::TimelineAsset* m_stTimelineData; // 0x18
+		::UnityEngine::Timeline::ComicGroupTrack* m_stComicGroupTrack; // 0x10
+		::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset* m_stData; // 0x18
 		::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Vector2>*>* m_mapPartOffset; // 0x20
-		::UnityEngine::Timeline::ComicGroupTrack* m_stComicGroupTrack; // 0x28
-		::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset* m_stData; // 0x30
-		::System::Single m_LastTime; // 0x38
-		::System::Boolean m_bComIsInit; // 0x3C
+		::System::Collections::Generic::HashSet_1<::System::Object*>* m_arrClearTags; // 0x28
+		::UnityEngine::Timeline::TimelineAsset* m_stTimelineData; // 0x30
+		::System::Boolean m_bComIsInit; // 0x38
+		::System::Byte _padding0[0x3];
+		::System::Single m_LastTime; // 0x3C
 
 		::System::Void _ctor()
 		{
@@ -140,9 +139,9 @@ namespace UnityEngine::Timeline
 			return ((::UnityEngine::Timeline::ComicGroupTrack*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_GETSELFCOMICGROUPTRACK_OFFSET))(this);
 		}
 
-		::System::Void SplitImgCom_Init(::UnityEngine::GameObject* go, ::MoleMole::ComicImgStyle* styleData, ::System::Collections::Generic::List_1<::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset_SpriteItem*>* spriteItems)
+		::System::Void SplitImgCom_Init(::UnityEngine::GameObject* go, ::MoleMole::ComicImgStyle* styleData, ::System::Collections::Generic::List_1<::System::Object*>* spriteItems)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::MoleMole::ComicImgStyle*, ::System::Collections::Generic::List_1<::UnityEngine::Timeline::ImgSplitScreenGroupPlayableAsset_SpriteItem*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_SPLITIMGCOM_INIT_OFFSET))(this, go, styleData, spriteItems);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::MoleMole::ComicImgStyle*, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_SPLITIMGCOM_INIT_OFFSET))(this, go, styleData, spriteItems);
 		}
 
 		::System::Void SplitImgCom_Simulate(::UnityEngine::GameObject* go, ::UnityEngine::Timeline::SplitScreenEvent* e, ::System::Single progress)
@@ -185,9 +184,9 @@ namespace UnityEngine::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR_PICTUREDECORATIONCOM_SIMULATE_OFFSET))(this, go, progress);
 		}
 
-		::System::Void _InitPartOffsetMap_g__RecordMap_16_0(::UnityEngine::Timeline::ImgSplitScreenGroupBehavior___c__DisplayClass16_0& a1)
+		::System::Void _InitPartOffsetMap_g__RecordMap_16_0(::UnityEngine::Timeline::ImgSplitScreenGroupBehavior___c__DisplayClass16_0& param_0)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::ImgSplitScreenGroupBehavior___c__DisplayClass16_0&))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR__INITPARTOFFSETMAP_G__RECORDMAP_16_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::ImgSplitScreenGroupBehavior___c__DisplayClass16_0&))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPBEHAVIOR__INITPARTOFFSETMAP_G__RECORDMAP_16_0_OFFSET))(this, param_0);
 		}
 	};
 }

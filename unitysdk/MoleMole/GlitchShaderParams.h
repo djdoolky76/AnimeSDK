@@ -7,24 +7,25 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_GLITCHSHADERPARAMS_AWAKE_OFFSET UNITYSDK_OFFSET(0x17907030)
-#define MOLEMOLE_GLITCHSHADERPARAMS_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x179071E0)
-#define MOLEMOLE_GLITCHSHADERPARAMS_METHOD_5_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x17907080)
-#define MOLEMOLE_GLITCHSHADERPARAMS_UPDATE_OFFSET UNITYSDK_OFFSET(0x17907310)
-#define MOLEMOLE_GLITCHSHADERPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x17907360)
+#define MOLEMOLE_GLITCHSHADERPARAMS_AJIMPCPMAHH_OFFSET UNITYSDK_OFFSET(0x14AED390)
+#define MOLEMOLE_GLITCHSHADERPARAMS_AWAKE_OFFSET UNITYSDK_OFFSET(0x14AED340)
+#define MOLEMOLE_GLITCHSHADERPARAMS_KEDEPOMAEMI_OFFSET UNITYSDK_OFFSET(0x14AED4F0)
+#define MOLEMOLE_GLITCHSHADERPARAMS_UPDATE_OFFSET UNITYSDK_OFFSET(0x14AED620)
+#define MOLEMOLE_GLITCHSHADERPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x14AED670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GlitchShaderParams_TypeDefinitionIndex = 51388;
+	inline static constexpr unsigned int GlitchShaderParams_TypeDefinitionIndex = 72035;
 
 	class GlitchShaderParams : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Int32 Field_5_3; // 0x18
-		::UnityEngine::Vector4 Field_5_2; // 0x1C
-		::UnityEngine::Renderer* Field_5_1; // 0x30
-		::UnityEngine::Transform* Field_5_0; // 0x38
-		::UnityEngine::MaterialPropertyBlock* Field_5_7; // 0x40
+		::System::Int32 IPEMEIMPFFH; // 0x18
+		::UnityEngine::Vector4 POOIOKJFMFI; // 0x1C
+		::System::Byte _padding0[0x4];
+		::UnityEngine::Renderer* KAPAGFKJMIJ; // 0x30
+		::UnityEngine::Transform* CNGFOPNJNLG; // 0x38
+		::UnityEngine::MaterialPropertyBlock* BEGMMDCKLHH; // 0x40
 
 		::System::Void _ctor()
 		{
@@ -41,14 +42,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GLITCHSHADERPARAMS_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_89D1F247B9D324EE()
+		::System::Void KEDEPOMAEMI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GLITCHSHADERPARAMS_METHOD_5_89D1F247B9D324EE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GLITCHSHADERPARAMS_KEDEPOMAEMI_OFFSET))(this);
 		}
 
-		::System::Void Method_5_1290EA767C459179()
+		::System::Void AJIMPCPMAHH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GLITCHSHADERPARAMS_METHOD_5_1290EA767C459179_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GLITCHSHADERPARAMS_AJIMPCPMAHH_OFFSET))(this);
 		}
 	};
 }

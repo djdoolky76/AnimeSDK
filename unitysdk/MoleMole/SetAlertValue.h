@@ -3,28 +3,28 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_4_C2BA23F5AA27FA67;
+class FLNIDONOPNI;
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace MoleMole { class SharedGameEntity; }
 
-#define MOLEMOLE_SETALERTVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x136ECDD0)
-#define MOLEMOLE_SETALERTVALUE_ONSTART_OFFSET UNITYSDK_OFFSET(0x136ECBE0)
-#define MOLEMOLE_SETALERTVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x136ECD20)
-#define MOLEMOLE_SETALERTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x136ECE20)
-#define MOLEMOLE_SETALERTVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x136ECEB0)
-#define MOLEMOLE_SETALERTVALUE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x136ECF40)
-#define MOLEMOLE_SETALERTVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x136ECFD0)
+#define MOLEMOLE_SETALERTVALUE_ONRESET_OFFSET UNITYSDK_OFFSET(0x19CEA830)
+#define MOLEMOLE_SETALERTVALUE_ONSTART_OFFSET UNITYSDK_OFFSET(0x19CEA630)
+#define MOLEMOLE_SETALERTVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19CEA780)
+#define MOLEMOLE_SETALERTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CEA880)
+#define MOLEMOLE_SETALERTVALUE___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x19CEA910)
+#define MOLEMOLE_SETALERTVALUE___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x19CEA9A0)
+#define MOLEMOLE_SETALERTVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19CEAA30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetAlertValue_TypeDefinitionIndex = 48483;
+	inline static constexpr unsigned int SetAlertValue_TypeDefinitionIndex = 57319;
 
 	class SetAlertValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
 		::BehaviorDesigner::Runtime::SharedFloat* TargetSharedValue; // 0x58
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
-		::Class_4_C2BA23F5AA27FA67* _enterBattleComponent; // 0x68
+		::FLNIDONOPNI* _enterBattleComponent; // 0x60
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
 
 		::System::Void _ctor()
 		{

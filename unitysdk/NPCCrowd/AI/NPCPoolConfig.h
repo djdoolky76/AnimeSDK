@@ -6,16 +6,17 @@
 namespace NPCCrowd::AI { class CrowdConditionBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_NPCPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF5FB4D0)
+#define NPCCROWD_AI_NPCPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE77F930)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int NPCPoolConfig_TypeDefinitionIndex = 49760;
+	inline static constexpr unsigned int NPCPoolConfig_TypeDefinitionIndex = 51321;
 
 	class NPCPoolConfig : public ::System::Object
 	{
 	public:
 		::System::Int32 PoolID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::NPCCrowd::AI::CrowdConditionBase*>* poolConditions; // 0x18
 		::System::Collections::Generic::List_1<::NPCCrowd::AI::NPCIDItem>* npcIDList; // 0x20
 

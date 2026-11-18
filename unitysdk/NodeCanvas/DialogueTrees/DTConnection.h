@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NodeCanvas/Framework/Connection.h"
 
-#define NODECANVAS_DIALOGUETREES_DTCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9B2D0)
+#define NODECANVAS_DIALOGUETREES_DTCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDCC350)
 
 namespace NodeCanvas::DialogueTrees
 {
-	inline static constexpr unsigned int DTConnection_TypeDefinitionIndex = 31148;
+	inline static constexpr unsigned int DTConnection_TypeDefinitionIndex = 29822;
 
 	class DTConnection : public ::NodeCanvas::Framework::Connection
 	{

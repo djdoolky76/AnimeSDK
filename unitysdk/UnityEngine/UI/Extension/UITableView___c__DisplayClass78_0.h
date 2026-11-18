@@ -5,12 +5,12 @@
 namespace UnityEngine::UI::Extension { class UITableView; }
 namespace UnityEngine::UI::Extension { class UITableViewCell; }
 
-#define UNITYENGINE_UI_EXTENSION_UITABLEVIEW___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D62A0)
-#define UNITYENGINE_UI_EXTENSION_UITABLEVIEW___C__DISPLAYCLASS78_0__GETCELL_B__0_OFFSET UNITYSDK_OFFSET(0x1D5D62B0)
+#define UNITYENGINE_UI_EXTENSION_UITABLEVIEW___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D64AC30)
+#define UNITYENGINE_UI_EXTENSION_UITABLEVIEW___C__DISPLAYCLASS78_0__GETCELL_B__0_OFFSET UNITYSDK_OFFSET(0x1D64AC40)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UITableView___c__DisplayClass78_0_TypeDefinitionIndex = 65411;
+	inline static constexpr unsigned int UITableView___c__DisplayClass78_0_TypeDefinitionIndex = 79714;
 
 	class UITableView___c__DisplayClass78_0 : public ::System::Object
 	{

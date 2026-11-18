@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AutoAimSearchMode_TypeDefinitionIndex = 53704;
+	inline static constexpr unsigned int AutoAimSearchMode_TypeDefinitionIndex = 85162;
 
 	enum class AutoAimSearchMode : ::System::Int32
 	{

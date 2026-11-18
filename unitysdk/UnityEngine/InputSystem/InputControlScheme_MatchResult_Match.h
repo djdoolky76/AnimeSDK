@@ -4,23 +4,25 @@
 #include "unitysdk/UnityEngine/InputSystem/InputControlList_1.h"
 #include "unitysdk/UnityEngine/InputSystem/InputControlScheme_DeviceRequirement.h"
 
+namespace System { class Object; }
 namespace UnityEngine::InputSystem { class InputControl; }
 namespace UnityEngine::InputSystem { class InputDevice; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_MATCHRESULT_MATCH_GET_CONTROL_OFFSET UNITYSDK_OFFSET(0xA663A0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_MATCHRESULT_MATCH_GET_DEVICE_OFFSET UNITYSDK_OFFSET(0xA663E0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_MATCHRESULT_MATCH_GET_ISOPTIONAL_OFFSET UNITYSDK_OFFSET(0xA66480)
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_MATCHRESULT_MATCH_GET_REQUIREMENTINDEX_OFFSET UNITYSDK_OFFSET(0x325570)
-#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_MATCHRESULT_MATCH_GET_REQUIREMENT_OFFSET UNITYSDK_OFFSET(0xA66440)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_MATCHRESULT_MATCH_GET_CONTROL_OFFSET UNITYSDK_OFFSET(0x946780)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_MATCHRESULT_MATCH_GET_DEVICE_OFFSET UNITYSDK_OFFSET(0x9467C0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_MATCHRESULT_MATCH_GET_ISOPTIONAL_OFFSET UNITYSDK_OFFSET(0x946860)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_MATCHRESULT_MATCH_GET_REQUIREMENTINDEX_OFFSET UNITYSDK_OFFSET(0x359320)
+#define UNITYENGINE_INPUTSYSTEM_INPUTCONTROLSCHEME_MATCHRESULT_MATCH_GET_REQUIREMENT_OFFSET UNITYSDK_OFFSET(0x946820)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputControlScheme_MatchResult_Match_TypeDefinitionIndex = 32209;
+	inline static constexpr unsigned int InputControlScheme_MatchResult_Match_TypeDefinitionIndex = 31658;
 
 	struct alignas(8) InputControlScheme_MatchResult_Match
 	{
 		::System::Int32 m_RequirementIndex; // 0x10
-		::Il2CppArray<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>* m_Requirements; // 0x18
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::System::Object*>* m_Requirements; // 0x18
 		::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> m_Controls; // 0x20
 
 		::UnityEngine::InputSystem::InputControl* get_control()

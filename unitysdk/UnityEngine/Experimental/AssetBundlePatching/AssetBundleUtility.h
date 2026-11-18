@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_EXPERIMENTAL_ASSETBUNDLEPATCHING_ASSETBUNDLEUTILITY_USEENGINEBUNDLEINDEX_OFFSET UNITYSDK_OFFSET(0x1FC52620)
+#define UNITYENGINE_EXPERIMENTAL_ASSETBUNDLEPATCHING_ASSETBUNDLEUTILITY_USEENGINEBUNDLEINDEX_OFFSET UNITYSDK_OFFSET(0x20046610)
 
 namespace UnityEngine::Experimental::AssetBundlePatching
 {
-	inline static constexpr unsigned int AssetBundleUtility_TypeDefinitionIndex = 7686;
+	inline static constexpr unsigned int AssetBundleUtility_TypeDefinitionIndex = 7698;
 
 	class AssetBundleUtility : public ::System::Object
 	{

@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ParameterizedStrings_FormatParam.h"
 
 namespace System { class ParameterizedStrings_LowLevelStack; }
 namespace System { class String; }
 
-#define SYSTEM_PARAMETERIZEDSTRINGS_ASBOOL_OFFSET UNITYSDK_OFFSET(0x1C6D6140)
-#define SYSTEM_PARAMETERIZEDSTRINGS_ASINT_OFFSET UNITYSDK_OFFSET(0x1C6D6130)
-#define SYSTEM_PARAMETERIZEDSTRINGS_EVALUATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1C6D4C10)
-#define SYSTEM_PARAMETERIZEDSTRINGS_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C6D4A20)
-#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPRINTF_OFFSET UNITYSDK_OFFSET(0x1C6D5BD0)
-#define SYSTEM_PARAMETERIZEDSTRINGS_GETDYNAMICORSTATICVARIABLES_OFFSET UNITYSDK_OFFSET(0x1C6D6050)
-#define SYSTEM_PARAMETERIZEDSTRINGS_SNPRINTF_1_OFFSET UNITYSDK_OFFSET(0x1C6D63B0)
-#define SYSTEM_PARAMETERIZEDSTRINGS_SNPRINTF_OFFSET UNITYSDK_OFFSET(0x1C6D62E0)
-#define SYSTEM_PARAMETERIZEDSTRINGS_STRINGFROMASCIIBYTES_OFFSET UNITYSDK_OFFSET(0x1C6D6150)
+#define SYSTEM_PARAMETERIZEDSTRINGS_ASBOOL_OFFSET UNITYSDK_OFFSET(0x1CC33C80)
+#define SYSTEM_PARAMETERIZEDSTRINGS_ASINT_OFFSET UNITYSDK_OFFSET(0x1CC33C70)
+#define SYSTEM_PARAMETERIZEDSTRINGS_EVALUATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1CC32750)
+#define SYSTEM_PARAMETERIZEDSTRINGS_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1CC32560)
+#define SYSTEM_PARAMETERIZEDSTRINGS_FORMATPRINTF_OFFSET UNITYSDK_OFFSET(0x1CC33710)
+#define SYSTEM_PARAMETERIZEDSTRINGS_GETDYNAMICORSTATICVARIABLES_OFFSET UNITYSDK_OFFSET(0x1CC33B90)
+#define SYSTEM_PARAMETERIZEDSTRINGS_SNPRINTF_1_OFFSET UNITYSDK_OFFSET(0x1CC33EF0)
+#define SYSTEM_PARAMETERIZEDSTRINGS_SNPRINTF_OFFSET UNITYSDK_OFFSET(0x1CC33E20)
+#define SYSTEM_PARAMETERIZEDSTRINGS_STRINGFROMASCIIBYTES_OFFSET UNITYSDK_OFFSET(0x1CC33C90)
 
 namespace System
 {
@@ -28,14 +27,14 @@ namespace System
 			return (::System::ParameterizedStrings_LowLevelStack**)Il2CppClass::FromTypeDefinitionIndex(ParameterizedStrings_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 
-		static ::System::String* Evaluate(::System::String* format, ::Il2CppArray<::System::ParameterizedStrings_FormatParam>* args)
+		static ::System::String* Evaluate(::System::String* format, ::Il2CppArray<::System::Object*>* args)
 		{
-			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::ParameterizedStrings_FormatParam>*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_EVALUATE_OFFSET))(format, args);
+			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_EVALUATE_OFFSET))(format, args);
 		}
 
-		static ::System::String* EvaluateInternal(::System::String* format, ::System::Int32& pos, ::Il2CppArray<::System::ParameterizedStrings_FormatParam>* args, ::System::ParameterizedStrings_LowLevelStack* stack, ::Il2CppArray<::System::ParameterizedStrings_FormatParam>*& dynamicVars, ::Il2CppArray<::System::ParameterizedStrings_FormatParam>*& staticVars)
+		static ::System::String* EvaluateInternal(::System::String* format, ::System::Int32& pos, ::Il2CppArray<::System::Object*>* args, ::System::ParameterizedStrings_LowLevelStack* stack, ::Il2CppArray<::System::Object*>*& dynamicVars, ::Il2CppArray<::System::Object*>*& staticVars)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::Int32&, ::Il2CppArray<::System::ParameterizedStrings_FormatParam>*, ::System::ParameterizedStrings_LowLevelStack*, ::Il2CppArray<::System::ParameterizedStrings_FormatParam>*&, ::Il2CppArray<::System::ParameterizedStrings_FormatParam>*&))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_EVALUATEINTERNAL_OFFSET))(format, pos, args, stack, dynamicVars, staticVars);
+			return ((::System::String*(*)(::System::String*, ::System::Int32&, ::Il2CppArray<::System::Object*>*, ::System::ParameterizedStrings_LowLevelStack*, ::Il2CppArray<::System::Object*>*&, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_EVALUATEINTERNAL_OFFSET))(format, pos, args, stack, dynamicVars, staticVars);
 		}
 
 		static ::System::Boolean AsBool(::System::Int32 i)
@@ -53,14 +52,14 @@ namespace System
 			return ((::System::String*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_STRINGFROMASCIIBYTES_OFFSET))(buffer, offset, length);
 		}
 
-		static ::System::Int32 snprintf(::System::Byte* str, ::System::IntPtr size, ::System::String* format, ::System::String* arg1)
+		static ::System::Int32 snprintf(::PVOID str, ::System::IntPtr size, ::System::String* format, ::System::String* arg1)
 		{
-			return ((::System::Int32(*)(::System::Byte*, ::System::IntPtr, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_SNPRINTF_OFFSET))(str, size, format, arg1);
+			return ((::System::Int32(*)(::PVOID, ::System::IntPtr, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_SNPRINTF_OFFSET))(str, size, format, arg1);
 		}
 
-		static ::System::Int32 snprintf_1(::System::Byte* str, ::System::IntPtr size, ::System::String* format, ::System::Int32 arg1)
+		static ::System::Int32 snprintf_1(::PVOID str, ::System::IntPtr size, ::System::String* format, ::System::Int32 arg1)
 		{
-			return ((::System::Int32(*)(::System::Byte*, ::System::IntPtr, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_SNPRINTF_1_OFFSET))(str, size, format, arg1);
+			return ((::System::Int32(*)(::PVOID, ::System::IntPtr, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_SNPRINTF_1_OFFSET))(str, size, format, arg1);
 		}
 
 		static ::System::String* FormatPrintF(::System::String* format, ::System::Object* arg)
@@ -68,9 +67,9 @@ namespace System
 			return ((::System::String*(*)(::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_FORMATPRINTF_OFFSET))(format, arg);
 		}
 
-		static ::Il2CppArray<::System::ParameterizedStrings_FormatParam>* GetDynamicOrStaticVariables(::System::Char c, ::Il2CppArray<::System::ParameterizedStrings_FormatParam>*& dynamicVars, ::Il2CppArray<::System::ParameterizedStrings_FormatParam>*& staticVars, ::System::Int32& index)
+		static ::Il2CppArray<::System::Object*>* GetDynamicOrStaticVariables(::System::Char c, ::Il2CppArray<::System::Object*>*& dynamicVars, ::Il2CppArray<::System::Object*>*& staticVars, ::System::Int32& index)
 		{
-			return ((::Il2CppArray<::System::ParameterizedStrings_FormatParam>*(*)(::System::Char, ::Il2CppArray<::System::ParameterizedStrings_FormatParam>*&, ::Il2CppArray<::System::ParameterizedStrings_FormatParam>*&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_GETDYNAMICORSTATICVARIABLES_OFFSET))(c, dynamicVars, staticVars, index);
+			return ((::Il2CppArray<::System::Object*>*(*)(::System::Char, ::Il2CppArray<::System::Object*>*&, ::Il2CppArray<::System::Object*>*&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_GETDYNAMICORSTATICVARIABLES_OFFSET))(c, dynamicVars, staticVars, index);
 		}
 	};
 }

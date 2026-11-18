@@ -4,19 +4,20 @@
 
 namespace System { class String; }
 
-#define SPINE_UNITY_SPINEATTRIBUTEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C19D010)
+#define SPINE_UNITY_SPINEATTRIBUTEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F80BA30)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineAttributeBase_TypeDefinitionIndex = 40180;
+	inline static constexpr unsigned int SpineAttributeBase_TypeDefinitionIndex = 38200;
 
 	class SpineAttributeBase : public ::UnityEngine::PropertyAttribute
 	{
 	public:
-		::System::String* startsWith; // 0x10
-		::System::String* dataField; // 0x18
+		::System::String* dataField; // 0x10
+		::System::String* startsWith; // 0x18
 		::System::Boolean includeNone; // 0x20
 		::System::Boolean fallbackToTextField; // 0x21
+		::System::Boolean avoidGenericMenu; // 0x22
 
 		::System::Void _ctor()
 		{

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_794BA983EDDBCFDE_Class_2_AC381588EA11BF2E;
+class MLJGMELKNCC_NLFALJLBKNN;
 namespace MoleMole { class UIPrivateMessageConversionWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIPRIVATEMESSAGECONVERSIONWIDGETCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17D2F100)
-#define MOLEMOLE_UIPRIVATEMESSAGECONVERSIONWIDGETCONTROLLER___C__DISPLAYCLASS22_0__SETREPLAY_B__0_OFFSET UNITYSDK_OFFSET(0x17D2F110)
-#define MOLEMOLE_UIPRIVATEMESSAGECONVERSIONWIDGETCONTROLLER___C__DISPLAYCLASS22_0__SETREPLAY_B__1_OFFSET UNITYSDK_OFFSET(0x17D2F2A0)
+#define MOLEMOLE_UIPRIVATEMESSAGECONVERSIONWIDGETCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19072EB0)
+#define MOLEMOLE_UIPRIVATEMESSAGECONVERSIONWIDGETCONTROLLER___C__DISPLAYCLASS22_0__SETREPLAY_B__0_OFFSET UNITYSDK_OFFSET(0x19072EC0)
+#define MOLEMOLE_UIPRIVATEMESSAGECONVERSIONWIDGETCONTROLLER___C__DISPLAYCLASS22_0__SETREPLAY_B__1_OFFSET UNITYSDK_OFFSET(0x19073050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPrivateMessageConversionWidgetController___c__DisplayClass22_0_TypeDefinitionIndex = 70680;
+	inline static constexpr unsigned int UIPrivateMessageConversionWidgetController___c__DisplayClass22_0_TypeDefinitionIndex = 57256;
 
 	class UIPrivateMessageConversionWidgetController___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::Class_1_794BA983EDDBCFDE_Class_2_AC381588EA11BF2E* singleMessage; // 0x18
+		::MLJGMELKNCC_NLFALJLBKNN* singleMessage; // 0x10
+		::System::Action* __9__1; // 0x18
 		::MoleMole::UIPrivateMessageConversionWidgetController* __4__this; // 0x20
 
 		::System::Void _ctor()

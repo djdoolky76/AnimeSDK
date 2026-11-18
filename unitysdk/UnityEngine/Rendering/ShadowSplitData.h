@@ -5,26 +5,27 @@
 #include "unitysdk/UnityEngine/Rendering/ShadowSplitData__m_layerCullingDistances_e__FixedBuffer.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/Plane.h"
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_SHADOWSPLITDATA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA3A9D0)
-#define UNITYENGINE_RENDERING_SHADOWSPLITDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0xA3A990)
-#define UNITYENGINE_RENDERING_SHADOWSPLITDATA_GETCULLINGPLANE_OFFSET UNITYSDK_OFFSET(0xA3A970)
-#define UNITYENGINE_RENDERING_SHADOWSPLITDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA3AA50)
-#define UNITYENGINE_RENDERING_SHADOWSPLITDATA_GET_CULLINGPLANECOUNT_OFFSET UNITYSDK_OFFSET(0x325570)
-#define UNITYENGINE_RENDERING_SHADOWSPLITDATA_SET_SHADOWCASCADEBLENDCULLINGFACTOR_OFFSET UNITYSDK_OFFSET(0xA3A960)
-#define UNITYENGINE_RENDERING_SHADOWSPLITDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7D9AA0)
+#define UNITYENGINE_RENDERING_SHADOWSPLITDATA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x918940)
+#define UNITYENGINE_RENDERING_SHADOWSPLITDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x918900)
+#define UNITYENGINE_RENDERING_SHADOWSPLITDATA_GETCULLINGPLANE_OFFSET UNITYSDK_OFFSET(0x9188E0)
+#define UNITYENGINE_RENDERING_SHADOWSPLITDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9189C0)
+#define UNITYENGINE_RENDERING_SHADOWSPLITDATA_GET_CULLINGPLANECOUNT_OFFSET UNITYSDK_OFFSET(0x359320)
+#define UNITYENGINE_RENDERING_SHADOWSPLITDATA_SET_SHADOWCASCADEBLENDCULLINGFACTOR_OFFSET UNITYSDK_OFFSET(0x9188D0)
+#define UNITYENGINE_RENDERING_SHADOWSPLITDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E986760)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShadowSplitData_TypeDefinitionIndex = 6263;
+	inline static constexpr unsigned int ShadowSplitData_TypeDefinitionIndex = 6278;
 
 	struct alignas(4) ShadowSplitData
 	{
 		static ::System::Int32* StaticGet_maximumCullingPlaneCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShadowSplitData_TypeDefinitionIndex)->GetStaticField(0x2C00);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShadowSplitData_TypeDefinitionIndex)->GetStaticField(0x2B80);
 		}
 		::System::Int32 m_CullingPlaneCount; // 0x10
 		::UnityEngine::Rendering::ShadowSplitData__m_CullingPlanes_e__FixedBuffer m_CullingPlanes; // 0x14
@@ -49,17 +50,17 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SHADOWSPLITDATA_SET_SHADOWCASCADEBLENDCULLINGFACTOR_OFFSET))(this, value);
 		}
 
-		/*
 		::UnityEngine::Plane GetCullingPlane(::System::Int32 index)
 		{
 			return ((::UnityEngine::Plane(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SHADOWSPLITDATA_GETCULLINGPLANE_OFFSET))(this, index);
 		}
-		*/
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::ShadowSplitData other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::ShadowSplitData))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SHADOWSPLITDATA_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{

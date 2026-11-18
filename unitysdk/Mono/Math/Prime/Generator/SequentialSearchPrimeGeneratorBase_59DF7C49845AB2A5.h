@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Mono/Math/Prime/Generator/PrimeGeneratorBase_1CF29D458CDD0AC7.h"
+
+namespace Mono::Math { class BigInteger_195A9C52A7AD8B6F; }
+namespace System { class Object; }
+
+#define MONO_MATH_PRIME_GENERATOR_SEQUENTIALSEARCHPRIMEGENERATORBASE_59DF7C49845AB2A5_GENERATENEWPRIME_1_OFFSET UNITYSDK_OFFSET(0x1FF9D5E0)
+#define MONO_MATH_PRIME_GENERATOR_SEQUENTIALSEARCHPRIMEGENERATORBASE_59DF7C49845AB2A5_GENERATENEWPRIME_OFFSET UNITYSDK_OFFSET(0x1FF9D5C0)
+#define MONO_MATH_PRIME_GENERATOR_SEQUENTIALSEARCHPRIMEGENERATORBASE_59DF7C49845AB2A5_GENERATESEARCHBASE_OFFSET UNITYSDK_OFFSET(0x1FF9D4D0)
+#define MONO_MATH_PRIME_GENERATOR_SEQUENTIALSEARCHPRIMEGENERATORBASE_59DF7C49845AB2A5_ISPRIMEACCEPTABLE_OFFSET UNITYSDK_OFFSET(0x1FF9DB60)
+#define MONO_MATH_PRIME_GENERATOR_SEQUENTIALSEARCHPRIMEGENERATORBASE_59DF7C49845AB2A5__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF9DB70)
+
+namespace Mono::Math::Prime::Generator
+{
+	inline static constexpr unsigned int SequentialSearchPrimeGeneratorBase_59DF7C49845AB2A5_TypeDefinitionIndex = 2488;
+
+	class SequentialSearchPrimeGeneratorBase_59DF7C49845AB2A5 : public ::Mono::Math::Prime::Generator::PrimeGeneratorBase_1CF29D458CDD0AC7
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_GENERATOR_SEQUENTIALSEARCHPRIMEGENERATORBASE_59DF7C49845AB2A5__CTOR_OFFSET))(this);
+		}
+
+		::Mono::Math::BigInteger_195A9C52A7AD8B6F* GenerateSearchBase(::System::Int32 bits, ::System::Object* context)
+		{
+			return ((::Mono::Math::BigInteger_195A9C52A7AD8B6F*(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_GENERATOR_SEQUENTIALSEARCHPRIMEGENERATORBASE_59DF7C49845AB2A5_GENERATESEARCHBASE_OFFSET))(this, bits, context);
+		}
+
+		::Mono::Math::BigInteger_195A9C52A7AD8B6F* GenerateNewPrime(::System::Int32 bits)
+		{
+			return ((::Mono::Math::BigInteger_195A9C52A7AD8B6F*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_GENERATOR_SEQUENTIALSEARCHPRIMEGENERATORBASE_59DF7C49845AB2A5_GENERATENEWPRIME_OFFSET))(this, bits);
+		}
+
+		::Mono::Math::BigInteger_195A9C52A7AD8B6F* GenerateNewPrime_1(::System::Int32 bits, ::System::Object* context)
+		{
+			return ((::Mono::Math::BigInteger_195A9C52A7AD8B6F*(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_GENERATOR_SEQUENTIALSEARCHPRIMEGENERATORBASE_59DF7C49845AB2A5_GENERATENEWPRIME_1_OFFSET))(this, bits, context);
+		}
+
+		::System::Boolean IsPrimeAcceptable(::Mono::Math::BigInteger_195A9C52A7AD8B6F* bi, ::System::Object* context)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Mono::Math::BigInteger_195A9C52A7AD8B6F*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_GENERATOR_SEQUENTIALSEARCHPRIMEGENERATORBASE_59DF7C49845AB2A5_ISPRIMEACCEPTABLE_OFFSET))(this, bi, context);
+		}
+	};
+}

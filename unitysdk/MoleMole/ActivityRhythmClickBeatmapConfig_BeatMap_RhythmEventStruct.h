@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityRhythmClickBeatmapConfig_BeatMap_RhythmEventStruct_TypeDefinitionIndex = 65344;
+	inline static constexpr unsigned int ActivityRhythmClickBeatmapConfig_BeatMap_RhythmEventStruct_TypeDefinitionIndex = 89890;
 
 	struct alignas(8) ActivityRhythmClickBeatmapConfig_BeatMap_RhythmEventStruct
 	{
@@ -21,10 +21,12 @@ namespace MoleMole
 		::System::Collections::Generic::List_1<::System::Boolean>* patternList; // 0x28
 		::System::String* effectName; // 0x30
 		::System::Boolean isOn; // 0x38
+		::System::Byte _padding0[0x7];
 		::System::String* SwitchGuideSoundName; // 0x40
 		::System::String* SwitchInteractSoundName; // 0x48
 		::System::Boolean speedUpTextOn; // 0x50
 		::System::Boolean LongPressTextOn; // 0x51
+		::System::Byte _padding1[0x2];
 		::System::Int32 row; // 0x54
 		::System::Int32 y; // 0x58
 	};

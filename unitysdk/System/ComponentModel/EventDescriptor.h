@@ -3,18 +3,15 @@
 #include "unitysdk/System/ComponentModel/MemberDescriptor.h"
 
 namespace System { class Attribute; }
-namespace System { class Delegate; }
-namespace System { class Object; }
 namespace System { class String; }
-namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_EVENTDESCRIPTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D3F0D50)
-#define SYSTEM_COMPONENTMODEL_EVENTDESCRIPTOR__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D3F0D60)
-#define SYSTEM_COMPONENTMODEL_EVENTDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F0D40)
+#define SYSTEM_COMPONENTMODEL_EVENTDESCRIPTOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D878CC0)
+#define SYSTEM_COMPONENTMODEL_EVENTDESCRIPTOR__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D878CD0)
+#define SYSTEM_COMPONENTMODEL_EVENTDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D878CB0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int EventDescriptor_TypeDefinitionIndex = 2877;
+	inline static constexpr unsigned int EventDescriptor_TypeDefinitionIndex = 2876;
 
 	class EventDescriptor : public ::System::ComponentModel::MemberDescriptor
 	{

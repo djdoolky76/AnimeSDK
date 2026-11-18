@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/SceneMark/SceneMarkData_1.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_SCENEMARK_TARGETUIANCHORMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x129D97F0)
+#define MOLEMOLE_SCENEMARK_TARGETUIANCHORMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x1249DA10)
 
 namespace MoleMole::SceneMark
 {
-	inline static constexpr unsigned int TargetUIAnchorMark_TypeDefinitionIndex = 76243;
+	inline static constexpr unsigned int TargetUIAnchorMark_TypeDefinitionIndex = 47330;
 
-	class TargetUIAnchorMark : public ::MoleMole::SceneMark::SceneMarkData_1<::MoleMole::SceneMark::TargetUIAnchorMark*>
+	class TargetUIAnchorMark
 	{
 	public:
 		::System::String* StyleName; // 0x18

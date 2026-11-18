@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/XmlSpace.h"
+#include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 namespace System::Text { class Encoding; }
 namespace System::Xml { class XmlNameTable; }
 namespace System::Xml { class XmlNamespaceManager; }
 
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_HASDTDINFO_OFFSET UNITYSDK_OFFSET(0x1D580730)
-#define SYSTEM_XML_XMLPARSERCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D580550)
-#define SYSTEM_XML_XMLPARSERCONTEXT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D5805A0)
-#define SYSTEM_XML_XMLPARSERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D580500)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_HASDTDINFO_OFFSET UNITYSDK_OFFSET(0x1DA7B7E0)
+#define SYSTEM_XML_XMLPARSERCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DA7B600)
+#define SYSTEM_XML_XMLPARSERCONTEXT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DA7B650)
+#define SYSTEM_XML_XMLPARSERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA7B5B0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlParserContext_TypeDefinitionIndex = 1708;
+	inline static constexpr unsigned int XmlParserContext_TypeDefinitionIndex = 1707;
 
 	class XmlParserContext : public ::System::Object
 	{
 	public:
-		::System::Xml::XmlNamespaceManager* _nsMgr; // 0x10
-		::System::String* _docTypeName; // 0x18
-		::System::String* _xmlLang; // 0x20
-		::System::String* _baseURI; // 0x28
-		::System::String* _pubId; // 0x30
-		::System::Xml::XmlNameTable* _nt; // 0x38
+		::System::String* _baseURI; // 0x10
+		::System::String* _internalSubset; // 0x18
+		::System::String* _pubId; // 0x20
+		::System::String* _sysId; // 0x28
+		::System::String* _docTypeName; // 0x30
+		::System::Xml::XmlNamespaceManager* _nsMgr; // 0x38
 		::System::Text::Encoding* _encoding; // 0x40
-		::System::String* _internalSubset; // 0x48
-		::System::String* _sysId; // 0x50
+		::System::Xml::XmlNameTable* _nt; // 0x48
+		::System::String* _xmlLang; // 0x50
 		::System::Xml::XmlSpace _xmlSpace; // 0x58
 
 		::System::Void _ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::System::String* xmlLang, ::System::Xml::XmlSpace xmlSpace)

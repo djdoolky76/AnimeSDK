@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MoleMole { class UIAbyssEntrancePageController___c__DisplayClass40_0; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__DISPLAYCLASS40_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18E02190)
-#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__DISPLAYCLASS40_1__TRYSHOWENDANIMSANDEFFECTS_UNITASK_B__0_OFFSET UNITYSDK_OFFSET(0x18E021A0)
-#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__DISPLAYCLASS40_1__TRYSHOWENDANIMSANDEFFECTS_UNITASK_B__1_OFFSET UNITYSDK_OFFSET(0x18E02240)
+#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__DISPLAYCLASS40_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A113550)
+#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__DISPLAYCLASS40_1__TRYSHOWENDANIMSANDEFFECTS_UNITASK_B__0_OFFSET UNITYSDK_OFFSET(0x1A113560)
+#define MOLEMOLE_UIABYSSENTRANCEPAGECONTROLLER___C__DISPLAYCLASS40_1__TRYSHOWENDANIMSANDEFFECTS_UNITASK_B__1_OFFSET UNITYSDK_OFFSET(0x1A113600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssEntrancePageController___c__DisplayClass40_1_TypeDefinitionIndex = 57568;
+	inline static constexpr unsigned int UIAbyssEntrancePageController___c__DisplayClass40_1_TypeDefinitionIndex = 91009;
 
+	template <typename T>
 	class UIAbyssEntrancePageController___c__DisplayClass40_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIAbyssEntrancePageController___c__DisplayClass40_0* CS___8__locals1; // 0x10
+		::System::Object* CS___8__locals1; // 0x10
 		::System::Action* __9__1; // 0x18
 		::System::Int32 groupID; // 0x20
 

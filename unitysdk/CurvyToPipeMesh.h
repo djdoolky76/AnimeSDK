@@ -6,9 +6,9 @@ namespace FluffyUnderware::Curvy { class CurvySpline; }
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define CURVYTOPIPEMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x128BFC20)
+#define CURVYTOPIPEMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x12056940)
 
-inline static constexpr unsigned int CurvyToPipeMesh_TypeDefinitionIndex = 53734;
+inline static constexpr unsigned int CurvyToPipeMesh_TypeDefinitionIndex = 82307;
 
 class CurvyToPipeMesh : public ::UnityEngine::MonoBehaviour
 {
@@ -33,14 +33,19 @@ public:
 	::System::Boolean showStartNode; // 0x3F
 	::System::Boolean showMiddleNodes; // 0x40
 	::System::Boolean showEndNode; // 0x41
+	::System::Byte _padding0[0x2];
 	::System::Single slideSpotSize; // 0x44
 	::System::Single slideFadeDistance; // 0x48
 	::System::Boolean overrideStartFadeDistance; // 0x4C
+	::System::Byte _padding1[0x3];
 	::System::Single startFadeDistance; // 0x50
 	::System::Boolean overrideMiddleFadeDistance; // 0x54
+	::System::Byte _padding2[0x3];
 	::System::Single middleFadeDistance; // 0x58
 	::System::Boolean overrideEndFadeDistance; // 0x5C
+	::System::Byte _padding3[0x3];
 	::System::Single endFadeDistance; // 0x60
+	::System::Byte _padding4[0x4];
 	::UnityEngine::Material* pipeMaterial; // 0x68
 	::System::String* bakeOutputPath; // 0x70
 

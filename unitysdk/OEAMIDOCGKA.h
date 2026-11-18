@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JJEJBPGJPJN.h"
+
+class CCJAFCMLHJH;
+template <typename T> class LJHFMILANJA_1;
+
+#define OEAMIDOCGKA_ALGDLJGCEHD_OFFSET UNITYSDK_OFFSET(0xE1484C0)
+#define OEAMIDOCGKA_DJALKGHNHMK_OFFSET UNITYSDK_OFFSET(0xE1483C0)
+#define OEAMIDOCGKA_EKIFPEICBMK_OFFSET UNITYSDK_OFFSET(0xE1483B0)
+#define OEAMIDOCGKA_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xE1481F0)
+#define OEAMIDOCGKA_PENDMLPCMKB_OFFSET UNITYSDK_OFFSET(0xE148600)
+#define OEAMIDOCGKA_POPALILKCGI_OFFSET UNITYSDK_OFFSET(0xE1484D0)
+#define OEAMIDOCGKA_PPIFNHNGCGO_OFFSET UNITYSDK_OFFSET(0xE1483A0)
+#define OEAMIDOCGKA__CTOR_OFFSET UNITYSDK_OFFSET(0xE148390)
+
+inline static constexpr unsigned int OEAMIDOCGKA_TypeDefinitionIndex = 67458;
+
+class OEAMIDOCGKA : public ::JJEJBPGJPJN
+{
+public:
+	::LJHFMILANJA_1<::System::Int32>* _HHNNKGPFJNO_k__BackingField; // 0x88
+	::LJHFMILANJA_1<::CCJAFCMLHJH*>* _NIIOHJPLBJF_k__BackingField; // 0x90
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OEAMIDOCGKA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnCreateProperty()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OEAMIDOCGKA_ONCREATEPROPERTY_OFFSET))(this);
+	}
+
+	::LJHFMILANJA_1<::System::Int32>* PPIFNHNGCGO()
+	{
+		return ((::LJHFMILANJA_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OEAMIDOCGKA_PPIFNHNGCGO_OFFSET))(this);
+	}
+
+	::System::Void EKIFPEICBMK(::LJHFMILANJA_1<::CCJAFCMLHJH*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::CCJAFCMLHJH*>*))((::PBYTE)hIl2Cpp + OEAMIDOCGKA_EKIFPEICBMK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Int32 DJALKGHNHMK()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + OEAMIDOCGKA_DJALKGHNHMK_OFFSET))(this);
+	}
+
+	::System::Void ALGDLJGCEHD(::LJHFMILANJA_1<::System::Int32>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::System::Int32>*))((::PBYTE)hIl2Cpp + OEAMIDOCGKA_ALGDLJGCEHD_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void POPALILKCGI(::System::Int32 HFMHOELKCAJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + OEAMIDOCGKA_POPALILKCGI_OFFSET))(this, HFMHOELKCAJ);
+	}
+
+	::LJHFMILANJA_1<::CCJAFCMLHJH*>* PENDMLPCMKB()
+	{
+		return ((::LJHFMILANJA_1<::CCJAFCMLHJH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OEAMIDOCGKA_PENDMLPCMKB_OFFSET))(this);
+	}
+};

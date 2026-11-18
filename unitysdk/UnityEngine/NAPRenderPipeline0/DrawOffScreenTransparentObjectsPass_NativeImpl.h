@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/LayerMask.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/RenderQueueRange.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 #include "unitysdk/UnityEngine/Rendering/StencilState.h"
+#include "unitysdk/UnityEngine/LayerMask.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class DrawOffScreenTransparentObjectsPassNativeState; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOFFSCREENTRANSPARENTOBJECTSPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA5F5A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOFFSCREENTRANSPARENTOBJECTSPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EA5F5D0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOFFSCREENTRANSPARENTOBJECTSPASS_NATIVEIMPL_SETUP_1_OFFSET UNITYSDK_OFFSET(0x1EA5F510)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOFFSCREENTRANSPARENTOBJECTSPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1EA5F490)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOFFSCREENTRANSPARENTOBJECTSPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5F3E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOFFSCREENTRANSPARENTOBJECTSPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1ED9BDE0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOFFSCREENTRANSPARENTOBJECTSPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1ED9BE10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOFFSCREENTRANSPARENTOBJECTSPASS_NATIVEIMPL_SETUP_1_OFFSET UNITYSDK_OFFSET(0x1ED9BD50)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOFFSCREENTRANSPARENTOBJECTSPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1ED9BCD0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAWOFFSCREENTRANSPARENTOBJECTSPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED9BC20)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int DrawOffScreenTransparentObjectsPass_NativeImpl_TypeDefinitionIndex = 5778;
+	inline static constexpr unsigned int DrawOffScreenTransparentObjectsPass_NativeImpl_TypeDefinitionIndex = 5783;
 
 	class DrawOffScreenTransparentObjectsPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

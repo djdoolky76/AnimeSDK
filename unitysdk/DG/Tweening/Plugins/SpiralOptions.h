@@ -6,7 +6,7 @@
 
 namespace DG::Tweening::Plugins
 {
-	inline static constexpr unsigned int SpiralOptions_TypeDefinitionIndex = 35138;
+	inline static constexpr unsigned int SpiralOptions_TypeDefinitionIndex = 34687;
 
 	struct alignas(4) SpiralOptions
 	{
@@ -15,6 +15,7 @@ namespace DG::Tweening::Plugins
 		::System::Single speed; // 0x18
 		::DG::Tweening::SpiralMode mode; // 0x1C
 		::System::Boolean snapping; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single unit; // 0x24
 		::UnityEngine::Quaternion axisQ; // 0x28
 	};

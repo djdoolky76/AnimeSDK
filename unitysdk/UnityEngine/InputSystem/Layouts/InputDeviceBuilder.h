@@ -3,7 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/Layouts/InputControlLayout_CacheRefInstance.h"
 #include "unitysdk/UnityEngine/InputSystem/Layouts/InputControlLayout_ControlItem.h"
+#include "unitysdk/UnityEngine/InputSystem/Layouts/InputDeviceBuilder_RefInstance.h"
+#include "unitysdk/UnityEngine/InputSystem/Layouts/InputDeviceDescription.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/InternedString.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -12,58 +16,57 @@ namespace UnityEngine::InputSystem { class InputControl; }
 namespace UnityEngine::InputSystem { class InputDevice; }
 namespace UnityEngine::InputSystem::Layouts { class InputControlLayout; }
 
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDCHILDCONTROLIFMISSING_OFFSET UNITYSDK_OFFSET(0xA38160)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDCHILDCONTROLS_OFFSET UNITYSDK_OFFSET(0xA38010)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDCHILDCONTROL_OFFSET UNITYSDK_OFFSET(0xA38040)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDPARENTDISPLAYNAMERECURSIVE_OFFSET UNITYSDK_OFFSET(0x1E781F00)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDPROCESSORS_OFFSET UNITYSDK_OFFSET(0x1E781510)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_APPLYUSESTATEFROM_OFFSET UNITYSDK_OFFSET(0x1E780430)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_CHILDCONTROLOVERRIDEPATH_OFFSET UNITYSDK_OFFSET(0xA380F0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_COMPUTESTATELAYOUT_OFFSET UNITYSDK_OFFSET(0x1E77FCF0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA37E10)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_FINALIZECONTROLHIERARCHYRECURSIVE_OFFSET UNITYSDK_OFFSET(0xA38280)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_FINALIZECONTROLHIERARCHY_OFFSET UNITYSDK_OFFSET(0xA38270)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_FINDORLOADLAYOUT_OFFSET UNITYSDK_OFFSET(0x1E77EBE0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_FINISH_OFFSET UNITYSDK_OFFSET(0xA37D60)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1E782390)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_INSERTCHILDCONTROLOVERRIDE_OFFSET UNITYSDK_OFFSET(0xA380E0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_INSERTCHILDCONTROL_OFFSET UNITYSDK_OFFSET(0xA38230)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_INSTANTIATELAYOUT_1_OFFSET UNITYSDK_OFFSET(0xA37FD0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_INSTANTIATELAYOUT_OFFSET UNITYSDK_OFFSET(0xA37F50)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_REF_OFFSET UNITYSDK_OFFSET(0x1E7823D0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_RESET_OFFSET UNITYSDK_OFFSET(0xA37EB0)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_SETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xA38260)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_SETFORMAT_OFFSET UNITYSDK_OFFSET(0x1E781480)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_SETUP_OFFSET UNITYSDK_OFFSET(0xA37D00)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_SHIFTCHILDINDICESINHIERARCHYONEUP_OFFSET UNITYSDK_OFFSET(0x1E781B90)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDCHILDCONTROLIFMISSING_OFFSET UNITYSDK_OFFSET(0x919720)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDCHILDCONTROLS_OFFSET UNITYSDK_OFFSET(0x9195D0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDCHILDCONTROL_OFFSET UNITYSDK_OFFSET(0x919600)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDPARENTDISPLAYNAMERECURSIVE_OFFSET UNITYSDK_OFFSET(0x1EA043E0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDPROCESSORS_OFFSET UNITYSDK_OFFSET(0x1EA03A00)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_APPLYUSESTATEFROM_OFFSET UNITYSDK_OFFSET(0x1EA02910)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_CHILDCONTROLOVERRIDEPATH_OFFSET UNITYSDK_OFFSET(0x9196B0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_COMPUTESTATELAYOUT_OFFSET UNITYSDK_OFFSET(0x1EA021D0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x919400)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_FINALIZECONTROLHIERARCHYRECURSIVE_OFFSET UNITYSDK_OFFSET(0x919840)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_FINALIZECONTROLHIERARCHY_OFFSET UNITYSDK_OFFSET(0x919830)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_FINDORLOADLAYOUT_OFFSET UNITYSDK_OFFSET(0x1EA010D0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_FINISH_OFFSET UNITYSDK_OFFSET(0x919350)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1EA04870)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_INSERTCHILDCONTROLOVERRIDE_OFFSET UNITYSDK_OFFSET(0x9196A0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_INSERTCHILDCONTROL_OFFSET UNITYSDK_OFFSET(0x9197F0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_INSTANTIATELAYOUT_1_OFFSET UNITYSDK_OFFSET(0x919590)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_INSTANTIATELAYOUT_OFFSET UNITYSDK_OFFSET(0x919540)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_REF_OFFSET UNITYSDK_OFFSET(0x1EA048B0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_RESET_OFFSET UNITYSDK_OFFSET(0x9194A0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_SETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x919820)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_SETFORMAT_OFFSET UNITYSDK_OFFSET(0x1EA03970)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_SETUP_OFFSET UNITYSDK_OFFSET(0x9192F0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_SHIFTCHILDINDICESINHIERARCHYONEUP_OFFSET UNITYSDK_OFFSET(0x1EA04070)
 
 namespace UnityEngine::InputSystem::Layouts
 {
-	inline static constexpr unsigned int InputDeviceBuilder_TypeDefinitionIndex = 32617;
+	inline static constexpr unsigned int InputDeviceBuilder_TypeDefinitionIndex = 32066;
 
 	struct alignas(8) InputDeviceBuilder
 	{
 		static ::UnityEngine::InputSystem::Layouts::InputDeviceBuilder* StaticGet_s_Instance()
 		{
-			return (::UnityEngine::InputSystem::Layouts::InputDeviceBuilder*)Il2CppClass::FromTypeDefinitionIndex(InputDeviceBuilder_TypeDefinitionIndex)->GetStaticField(0x27740);
+			return (::UnityEngine::InputSystem::Layouts::InputDeviceBuilder*)Il2CppClass::FromTypeDefinitionIndex(InputDeviceBuilder_TypeDefinitionIndex)->GetStaticField(0x28820);
 		}
 		static ::System::Int32* StaticGet_s_InstanceRef()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(InputDeviceBuilder_TypeDefinitionIndex)->GetStaticField(0x7D10);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(InputDeviceBuilder_TypeDefinitionIndex)->GetStaticField(0x8110);
 		}
 		// static const ::System::UInt32 kSizeForControlUsingStateFromOtherControl = 0xFFFFFFFF; // 0x0
 		::UnityEngine::InputSystem::InputDevice* m_Device; // 0x10
 		::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance m_LayoutCacheRef; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* m_ChildControlOverrides; // 0x20
+		::System::Byte _padding0[0x7];
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* m_ChildControlOverrides; // 0x20
 		::System::Collections::Generic::List_1<::System::UInt32>* m_StateOffsetToControlMap; // 0x28
 		::System::Text::StringBuilder* m_StringBuilder; // 0x30
 
-		/*
 		::System::Void Setup(::UnityEngine::InputSystem::Utilities::InternedString layout, ::UnityEngine::InputSystem::Utilities::InternedString variants, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_SETUP_OFFSET))(this, layout, variants, deviceDescription);
 		}
-		*/
 
 		::UnityEngine::InputSystem::InputDevice* Finish()
 		{
@@ -80,59 +83,45 @@ namespace UnityEngine::InputSystem::Layouts
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_RESET_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::InputSystem::InputControl* InstantiateLayout(::UnityEngine::InputSystem::Utilities::InternedString layout, ::UnityEngine::InputSystem::Utilities::InternedString variants, ::UnityEngine::InputSystem::Utilities::InternedString name, ::UnityEngine::InputSystem::InputControl* parent)
 		{
 			return ((::UnityEngine::InputSystem::InputControl*(*)(::PVOID, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::InputControl*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_INSTANTIATELAYOUT_OFFSET))(this, layout, variants, name, parent);
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::InputControl* InstantiateLayout_1(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::UnityEngine::InputSystem::Utilities::InternedString variants, ::UnityEngine::InputSystem::Utilities::InternedString name, ::UnityEngine::InputSystem::InputControl* parent)
 		{
 			return ((::UnityEngine::InputSystem::InputControl*(*)(::PVOID, ::UnityEngine::InputSystem::Layouts::InputControlLayout*, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::InputControl*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_INSTANTIATELAYOUT_1_OFFSET))(this, layout, variants, name, parent);
 		}
-		*/
 
-		/*
 		::System::Void AddChildControls(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::UnityEngine::InputSystem::Utilities::InternedString variants, ::UnityEngine::InputSystem::InputControl* parent, ::System::Boolean& haveChildrenUsingStateFromOtherControls)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::Layouts::InputControlLayout*, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::InputControl*, ::System::Boolean&))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDCHILDCONTROLS_OFFSET))(this, layout, variants, parent, haveChildrenUsingStateFromOtherControls);
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::InputControl* AddChildControl(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::UnityEngine::InputSystem::Utilities::InternedString variants, ::UnityEngine::InputSystem::InputControl* parent, ::System::Boolean& haveChildrenUsingStateFromOtherControls, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem controlItem, ::System::Int32 childIndex, ::System::String* nameOverride)
 		{
 			return ((::UnityEngine::InputSystem::InputControl*(*)(::PVOID, ::UnityEngine::InputSystem::Layouts::InputControlLayout*, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::InputControl*, ::System::Boolean&, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDCHILDCONTROL_OFFSET))(this, layout, variants, parent, haveChildrenUsingStateFromOtherControls, controlItem, childIndex, nameOverride);
 		}
-		*/
 
 		::System::Void InsertChildControlOverride(::UnityEngine::InputSystem::InputControl* parent, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem& controlItem)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem&))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_INSERTCHILDCONTROLOVERRIDE_OFFSET))(this, parent, controlItem);
 		}
 
-		/*
 		::System::String* ChildControlOverridePath(::UnityEngine::InputSystem::InputControl* parent, ::UnityEngine::InputSystem::Utilities::InternedString controlName)
 		{
 			return ((::System::String*(*)(::PVOID, ::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::Utilities::InternedString))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_CHILDCONTROLOVERRIDEPATH_OFFSET))(this, parent, controlName);
 		}
-		*/
 
-		/*
 		::System::Void AddChildControlIfMissing(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::UnityEngine::InputSystem::Utilities::InternedString variants, ::UnityEngine::InputSystem::InputControl* parent, ::System::Boolean& haveChildrenUsingStateFromOtherControls, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem& controlItem)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::Layouts::InputControlLayout*, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::InputControl*, ::System::Boolean&, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem&))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_ADDCHILDCONTROLIFMISSING_OFFSET))(this, layout, variants, parent, haveChildrenUsingStateFromOtherControls, controlItem);
 		}
-		*/
 
-		/*
 		::UnityEngine::InputSystem::InputControl* InsertChildControl(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::UnityEngine::InputSystem::Utilities::InternedString variant, ::UnityEngine::InputSystem::InputControl* parent, ::System::Boolean& haveChildrenUsingStateFromOtherControls, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem& controlItem)
 		{
 			return ((::UnityEngine::InputSystem::InputControl*(*)(::PVOID, ::UnityEngine::InputSystem::Layouts::InputControlLayout*, ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::InputControl*, ::System::Boolean&, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem&))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_INSERTCHILDCONTROL_OFFSET))(this, layout, variant, parent, haveChildrenUsingStateFromOtherControls, controlItem);
 		}
-		*/
 
 		static ::System::Void ApplyUseStateFrom(::UnityEngine::InputSystem::InputControl* parent, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem& controlItem, ::UnityEngine::InputSystem::Layouts::InputControlLayout* layout)
 		{
@@ -184,16 +173,16 @@ namespace UnityEngine::InputSystem::Layouts
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::InputControl*, ::System::Int32, ::Il2CppArray<::UnityEngine::InputSystem::InputControl*>*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_FINALIZECONTROLHIERARCHYRECURSIVE_OFFSET))(this, control, controlIndex, allControls, noisy, dontReset);
 		}
 
+		/*
 		static ::UnityEngine::InputSystem::Layouts::InputDeviceBuilder& get_instance()
 		{
 			return ((::UnityEngine::InputSystem::Layouts::InputDeviceBuilder&(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_GET_INSTANCE_OFFSET))();
 		}
+		*/
 
-		/*
 		static ::UnityEngine::InputSystem::Layouts::InputDeviceBuilder_RefInstance Ref()
 		{
 			return ((::UnityEngine::InputSystem::Layouts::InputDeviceBuilder_RefInstance(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTDEVICEBUILDER_REF_OFFSET))();
 		}
-		*/
 	};
 }

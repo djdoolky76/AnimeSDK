@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ReservedObjectPoolDataHandle.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/ReservedObjectPoolDataHandle.h"
 
 namespace Foundation { class ReservedObjectPool; }
 namespace System { class String; }
@@ -9,15 +9,15 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define FOUNDATION_UNITYOBJPOOL_GETRESERVEDOBJECTPOOL_OFFSET UNITYSDK_OFFSET(0x1503ABB0)
-#define FOUNDATION_UNITYOBJPOOL_INSTANTIATEWITHOUTPOOLASYNC_OFFSET UNITYSDK_OFFSET(0x1503A7B0)
-#define FOUNDATION_UNITYOBJPOOL_INSTANTIATEWITHOUTPOOL_OFFSET UNITYSDK_OFFSET(0x1503A720)
-#define FOUNDATION_UNITYOBJPOOL_INSTANTIATEWITHPOOL_OFFSET UNITYSDK_OFFSET(0x1503A8B0)
-#define FOUNDATION_UNITYOBJPOOL_RELEASEALLRESERVEDOBJECTPOOL_OFFSET UNITYSDK_OFFSET(0x1503AC80)
+#define FOUNDATION_UNITYOBJPOOL_GETRESERVEDOBJECTPOOL_OFFSET UNITYSDK_OFFSET(0x116D0E30)
+#define FOUNDATION_UNITYOBJPOOL_INSTANTIATEWITHOUTPOOLASYNC_OFFSET UNITYSDK_OFFSET(0x116D0A20)
+#define FOUNDATION_UNITYOBJPOOL_INSTANTIATEWITHOUTPOOL_OFFSET UNITYSDK_OFFSET(0x116D0990)
+#define FOUNDATION_UNITYOBJPOOL_INSTANTIATEWITHPOOL_OFFSET UNITYSDK_OFFSET(0x116D0B30)
+#define FOUNDATION_UNITYOBJPOOL_RELEASEALLRESERVEDOBJECTPOOL_OFFSET UNITYSDK_OFFSET(0x116D0F00)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int UnityObjPool_TypeDefinitionIndex = 84352;
+	inline static constexpr unsigned int UnityObjPool_TypeDefinitionIndex = 68374;
 
 	class UnityObjPool : public ::System::Object
 	{

@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HOCDHMEPPEG.h"
+#include "unitysdk/System/Object.h"
+
+class FPKIFHKCBEK;
+class HKFAINPOONL;
+
+#define HKFAINPOONL_HEPCGEALEBC_IIFFFKPHNDP_OFFSET UNITYSDK_OFFSET(0x19E2F080)
+#define HKFAINPOONL_HEPCGEALEBC_LILNAECNAMD_OFFSET UNITYSDK_OFFSET(0x19E2F070)
+#define HKFAINPOONL_HEPCGEALEBC_PMKDGJOKKAM_OFFSET UNITYSDK_OFFSET(0x19E2F060)
+#define HKFAINPOONL_HEPCGEALEBC__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2F050)
+
+inline static constexpr unsigned int HKFAINPOONL_HEPCGEALEBC_TypeDefinitionIndex = 68254;
+
+class HKFAINPOONL_HEPCGEALEBC : public ::System::Object
+{
+public:
+	::HOCDHMEPPEG ECLGGGCDNKC; // 0x10
+	::HOCDHMEPPEG OIEOPBKEMJN; // 0x40
+	::HKFAINPOONL* KLHPEBKNIFB; // 0x70
+	::System::Int32 LBDNPPNGNBF; // 0x78
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HKFAINPOONL_HEPCGEALEBC__CTOR_OFFSET))(this);
+	}
+
+	::System::Void PMKDGJOKKAM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HKFAINPOONL_HEPCGEALEBC_PMKDGJOKKAM_OFFSET))(this);
+	}
+
+	::System::Void LILNAECNAMD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HKFAINPOONL_HEPCGEALEBC_LILNAECNAMD_OFFSET))(this);
+	}
+
+	::System::Void IIFFFKPHNDP(::FPKIFHKCBEK* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::FPKIFHKCBEK*))((::PBYTE)hIl2Cpp + HKFAINPOONL_HEPCGEALEBC_IIFFFKPHNDP_OFFSET))(this, LJBPECKCCEA);
+	}
+};

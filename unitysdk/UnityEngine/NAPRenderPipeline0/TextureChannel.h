@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int TextureChannel_TypeDefinitionIndex = 5875;
+	inline static constexpr unsigned int TextureChannel_TypeDefinitionIndex = 5881;
 
 	enum class TextureChannel : ::System::Int32
 	{

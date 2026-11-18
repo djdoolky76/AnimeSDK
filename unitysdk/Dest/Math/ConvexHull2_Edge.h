@@ -4,24 +4,24 @@
 
 namespace Dest::Math { class Query2; }
 
-#define DEST_MATH_CONVEXHULL2_EDGE_DELETESELF_OFFSET UNITYSDK_OFFSET(0x1F965070)
-#define DEST_MATH_CONVEXHULL2_EDGE_GETINDICES_OFFSET UNITYSDK_OFFSET(0x1F9650A0)
-#define DEST_MATH_CONVEXHULL2_EDGE_GETSIGN_OFFSET UNITYSDK_OFFSET(0x1F964FD0)
-#define DEST_MATH_CONVEXHULL2_EDGE_INSERT_OFFSET UNITYSDK_OFFSET(0x1F965040)
-#define DEST_MATH_CONVEXHULL2_EDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F964FC0)
+#define DEST_MATH_CONVEXHULL2_EDGE_DELETESELF_OFFSET UNITYSDK_OFFSET(0x1FD640E0)
+#define DEST_MATH_CONVEXHULL2_EDGE_GETINDICES_OFFSET UNITYSDK_OFFSET(0x1FD64110)
+#define DEST_MATH_CONVEXHULL2_EDGE_GETSIGN_OFFSET UNITYSDK_OFFSET(0x1FD64040)
+#define DEST_MATH_CONVEXHULL2_EDGE_INSERT_OFFSET UNITYSDK_OFFSET(0x1FD640B0)
+#define DEST_MATH_CONVEXHULL2_EDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD64030)
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ConvexHull2_Edge_TypeDefinitionIndex = 35330;
+	inline static constexpr unsigned int ConvexHull2_Edge_TypeDefinitionIndex = 34903;
 
 	class ConvexHull2_Edge : public ::System::Object
 	{
 	public:
-		::Dest::Math::ConvexHull2_Edge* E1; // 0x10
-		::Dest::Math::ConvexHull2_Edge* E0; // 0x18
+		::Dest::Math::ConvexHull2_Edge* E0; // 0x10
+		::Dest::Math::ConvexHull2_Edge* E1; // 0x18
 		::System::Int32 Sign; // 0x20
-		::System::Int32 V1; // 0x24
-		::System::Int32 Time; // 0x28
+		::System::Int32 Time; // 0x24
+		::System::Int32 V1; // 0x28
 		::System::Int32 V0; // 0x2C
 
 		::System::Void _ctor(::System::Int32 v0, ::System::Int32 v1)

@@ -6,9 +6,9 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Rendering::Universal { class VisualEnvironmentE; }
 
-#define PREVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F96C730)
+#define PREVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD6B7A0)
 
-inline static constexpr unsigned int PreviewModel_TypeDefinitionIndex = 38708;
+inline static constexpr unsigned int PreviewModel_TypeDefinitionIndex = 36708;
 
 class PreviewModel : public ::UnityEngine::MonoBehaviour
 {
@@ -16,6 +16,7 @@ public:
 	::UnityEngine::GameObject* avatarShow; // 0x18
 	::System::String* avatarPath; // 0x20
 	::System::Boolean isPrefab; // 0x28
+	::System::Byte _padding0[0x7];
 	::UnityEngine::Rendering::Universal::VisualEnvironmentE* volum; // 0x30
 	::System::Boolean showErrorDialog; // 0x38
 	::System::Boolean hasShowError; // 0x39

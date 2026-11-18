@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIPCMLEONLI.h"
+
+class PNJDGHBEMLK;
+
+#define NGDAGFIOEDK_FEIAPJFMECM_FENPLGEJDLF_OFFSET UNITYSDK_OFFSET(0x1158A920)
+#define NGDAGFIOEDK_FEIAPJFMECM_GDCCCBKBEJN_OFFSET UNITYSDK_OFFSET(0x1158A8E0)
+#define NGDAGFIOEDK_FEIAPJFMECM_MIMEMKIJFKE_OFFSET UNITYSDK_OFFSET(0x1158AC70)
+#define NGDAGFIOEDK_FEIAPJFMECM_PHOADBJGFBE_OFFSET UNITYSDK_OFFSET(0x1158AD00)
+#define NGDAGFIOEDK_FEIAPJFMECM__CTOR_OFFSET UNITYSDK_OFFSET(0x1158AC30)
+
+inline static constexpr unsigned int NGDAGFIOEDK_FEIAPJFMECM_TypeDefinitionIndex = 49787;
+
+class NGDAGFIOEDK_FEIAPJFMECM : public ::GIPCMLEONLI
+{
+public:
+	::PNJDGHBEMLK* AJDKIGOKOFF; // 0x40
+	::System::Single MOKIKLEHPKC; // 0x48
+	::System::Single EPPCCEEAHLN; // 0x4C
+	::System::Boolean CMGJAIEHFPO; // 0x50
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NGDAGFIOEDK_FEIAPJFMECM__CTOR_OFFSET))(this);
+	}
+
+	::System::Void GDCCCBKBEJN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NGDAGFIOEDK_FEIAPJFMECM_GDCCCBKBEJN_OFFSET))(this);
+	}
+
+	::System::Void FENPLGEJDLF(::System::Single PBCAAADNEPK)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NGDAGFIOEDK_FEIAPJFMECM_FENPLGEJDLF_OFFSET))(this, PBCAAADNEPK);
+	}
+
+	::System::Void MIMEMKIJFKE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NGDAGFIOEDK_FEIAPJFMECM_MIMEMKIJFKE_OFFSET))(this);
+	}
+
+	::System::Void PHOADBJGFBE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NGDAGFIOEDK_FEIAPJFMECM_PHOADBJGFBE_OFFSET))(this);
+	}
+};

@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBIRTHEDITCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x197F1400)
+#define MOLEMOLE_UIBIRTHEDITCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19845320)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBirthEditContext_TypeDefinitionIndex = 43763;
+	inline static constexpr unsigned int UIBirthEditContext_TypeDefinitionIndex = 65500;
 
 	class UIBirthEditContext : public ::MoleMole::UIControllerContextBase
 	{

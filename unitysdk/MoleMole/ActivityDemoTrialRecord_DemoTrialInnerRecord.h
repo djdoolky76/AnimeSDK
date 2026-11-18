@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_ACTIVITYDEMOTRIALRECORD_DEMOTRIALINNERRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0xF1197C0)
+#define MOLEMOLE_ACTIVITYDEMOTRIALRECORD_DEMOTRIALINNERRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x14D9C1F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityDemoTrialRecord_DemoTrialInnerRecord_TypeDefinitionIndex = 46805;
+	inline static constexpr unsigned int ActivityDemoTrialRecord_DemoTrialInnerRecord_TypeDefinitionIndex = 57202;
 
 	class ActivityDemoTrialRecord_DemoTrialInnerRecord : public ::System::Object
 	{

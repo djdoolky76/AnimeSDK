@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimatorRecorderMode_TypeDefinitionIndex = 6623;
+	inline static constexpr unsigned int AnimatorRecorderMode_TypeDefinitionIndex = 6629;
 
 	enum class AnimatorRecorderMode : ::System::Int32
 	{

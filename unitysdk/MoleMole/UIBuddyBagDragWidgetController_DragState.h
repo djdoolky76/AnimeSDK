@@ -3,14 +3,14 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBuddyBagDragWidgetController_DragState_TypeDefinitionIndex = 59478;
+	inline static constexpr unsigned int UIBuddyBagDragWidgetController_DragState_TypeDefinitionIndex = 56964;
 
 	enum class UIBuddyBagDragWidgetController_DragState : ::System::Int32
 	{
-		None = 0,
-		Draging_Component = 3,
 		DragEnd = 4,
 		Draging_Item = 2,
+		None = 0,
+		Draging_Component = 3,
 		StartDrag = 1,
 	};
 }

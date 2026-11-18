@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_EA8F026699B496CE;
+class FLOMKKHDOFB;
 
-#define MOLEMOLE_UIREPELFIGHTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A86410)
+#define MOLEMOLE_UIREPELFIGHTINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16780910)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRepelFightingContext_TypeDefinitionIndex = 64721;
+	inline static constexpr unsigned int UIRepelFightingContext_TypeDefinitionIndex = 79051;
 
 	class UIRepelFightingContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_EA8F026699B496CE* groupData; // 0x28
+		::FLOMKKHDOFB* groupData; // 0x28
 		::System::Int32 focusLevelIndex; // 0x30
 
 		::System::Void _ctor()

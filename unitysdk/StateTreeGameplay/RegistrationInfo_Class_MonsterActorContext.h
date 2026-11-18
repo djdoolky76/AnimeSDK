@@ -1,32 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnrealTypes/FObjectInitializer.h"
 
 namespace UnrealTypes { class Class; }
 namespace UnrealTypes { class ClassParams; }
+namespace UnrealTypes { class Object; }
 
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_CLASS_MONSTERACTORCONTEXT_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D5D26C0)
-#define STATETREEGAMEPLAY_REGISTRATIONINFO_CLASS_MONSTERACTORCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5D25B0)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_CLASS_MONSTERACTORCONTEXT_CONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1D646A50)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_CLASS_MONSTERACTORCONTEXT_ENSURERUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D646C00)
+#define STATETREEGAMEPLAY_REGISTRATIONINFO_CLASS_MONSTERACTORCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D646AA0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int RegistrationInfo_Class_MonsterActorContext_TypeDefinitionIndex = 68959;
+	inline static constexpr unsigned int RegistrationInfo_Class_MonsterActorContext_TypeDefinitionIndex = 43150;
 
 	class RegistrationInfo_Class_MonsterActorContext : public ::System::Object
 	{
 	public:
-		static ::UnrealTypes::ClassParams** StaticGet_ClassParams()
-		{
-			return (::UnrealTypes::ClassParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_Class_MonsterActorContext_TypeDefinitionIndex)->GetStaticField(0x45A30);
-		}
 		static ::UnrealTypes::Class** StaticGet_Class()
 		{
-			return (::UnrealTypes::Class**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_Class_MonsterActorContext_TypeDefinitionIndex)->GetStaticField(0x45A38);
+			return (::UnrealTypes::Class**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_Class_MonsterActorContext_TypeDefinitionIndex)->GetStaticField(0x4B350);
+		}
+		static ::UnrealTypes::ClassParams** StaticGet_ClassParams()
+		{
+			return (::UnrealTypes::ClassParams**)Il2CppClass::FromTypeDefinitionIndex(RegistrationInfo_Class_MonsterActorContext_TypeDefinitionIndex)->GetStaticField(0x4B358);
 		}
 
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_CLASS_MONSTERACTORCONTEXT__CCTOR_OFFSET))();
+		}
+
+		static ::UnrealTypes::Object* Constructor(::UnrealTypes::FObjectInitializer& initializer)
+		{
+			return ((::UnrealTypes::Object*(*)(::UnrealTypes::FObjectInitializer&))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_REGISTRATIONINFO_CLASS_MONSTERACTORCONTEXT_CONSTRUCTOR_OFFSET))(initializer);
 		}
 
 		static ::System::Void EnsureRuntimeInitialize()

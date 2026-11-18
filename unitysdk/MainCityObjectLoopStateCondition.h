@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MAINCITYOBJECTLOOPSTATECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x116C5C10)
+#define MAINCITYOBJECTLOOPSTATECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xFA84110)
 
-inline static constexpr unsigned int MainCityObjectLoopStateCondition_TypeDefinitionIndex = 62656;
+inline static constexpr unsigned int MainCityObjectLoopStateCondition_TypeDefinitionIndex = 90486;
 
 class MainCityObjectLoopStateCondition : public ::System::Object
 {

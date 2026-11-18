@@ -4,9 +4,9 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BigSceneMiscLogicSubSystem_StoryModeMonsterAdjustmentFlags_TypeDefinitionIndex = 51413;
+	inline static constexpr unsigned int BigSceneMiscLogicSubSystem_StoryModeMonsterAdjustmentFlags_TypeDefinitionIndex = 39729;
 
-	struct alignas(1) BigSceneMiscLogicSubSystem_StoryModeMonsterAdjustmentFlags
+	struct alignas(4) BigSceneMiscLogicSubSystem_StoryModeMonsterAdjustmentFlags
 	{
 		::System::Boolean MonsterCreatedFlag; // 0x10
 		::System::Boolean MonsterAdjustedFlag; // 0x11

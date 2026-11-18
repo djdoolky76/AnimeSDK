@@ -5,9 +5,9 @@
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTls_unitytls_errorstate_TypeDefinitionIndex = 2526;
+	inline static constexpr unsigned int UnityTls_unitytls_errorstate_TypeDefinitionIndex = 2525;
 
-	struct alignas(8) UnityTls_unitytls_errorstate
+	struct alignas(4) UnityTls_unitytls_errorstate
 	{
 		::System::UInt32 magic; // 0x10
 		::Mono::Unity::UnityTls_unitytls_error_code code; // 0x14

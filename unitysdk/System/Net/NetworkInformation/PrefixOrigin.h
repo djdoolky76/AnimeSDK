@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int PrefixOrigin_TypeDefinitionIndex = 3737;
+	inline static constexpr unsigned int PrefixOrigin_TypeDefinitionIndex = 3736;
 
 	enum class PrefixOrigin : ::System::Int32
 	{

@@ -4,17 +4,10 @@
 
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
-namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class LabelTarget; }
-namespace System::Linq::Expressions { class ParameterExpression; }
-namespace System::Linq::Expressions { template <typename T> class Expression_1; }
-namespace System::Runtime::CompilerServices { template <typename T> class CallSiteBinder_LambdaSignature_1; }
-namespace System::Runtime::CompilerServices { template <typename T> class CallSite_1; }
-namespace System::Runtime::CompilerServices { template <typename T> class RuleCache_1; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITEBINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F339270)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITEBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F339260)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITEBINDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7552D0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLSITEBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7552C0)
 
 namespace System::Runtime::CompilerServices
 {

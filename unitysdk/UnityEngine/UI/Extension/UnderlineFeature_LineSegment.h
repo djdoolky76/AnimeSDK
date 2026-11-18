@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int UnderlineFeature_LineSegment_TypeDefinitionIndex = 75318;
+	inline static constexpr unsigned int UnderlineFeature_LineSegment_TypeDefinitionIndex = 64286;
 
 	struct alignas(4) UnderlineFeature_LineSegment
 	{

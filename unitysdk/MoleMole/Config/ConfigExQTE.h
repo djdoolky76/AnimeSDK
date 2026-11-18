@@ -4,16 +4,17 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGEXQTE__CTOR_OFFSET UNITYSDK_OFFSET(0xF13AB50)
+#define MOLEMOLE_CONFIG_CONFIGEXQTE__CTOR_OFFSET UNITYSDK_OFFSET(0xFFD3BB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigExQTE_TypeDefinitionIndex = 59621;
+	inline static constexpr unsigned int ConfigExQTE_TypeDefinitionIndex = 53816;
 
 	class ConfigExQTE : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		::System::Single ExQTERateBase; // 0x58
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::Single>* ExQTERateByFeverLevelList; // 0x60
 
 		::System::Void _ctor()

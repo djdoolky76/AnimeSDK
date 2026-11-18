@@ -3,25 +3,25 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EHollowEventType_TypeDefinitionIndex = 9982;
+	inline static constexpr unsigned int EHollowEventType_TypeDefinitionIndex = 10151;
 
 	enum class EHollowEventType : ::System::Int16
 	{
-		Begin = 10,
-		None = 0,
-		Battle_Normal = 31,
+		Battle_Boss = 33,
 		Dialog_Special = 43,
 		ChangeLevel_Fight = 24,
 		BattleEnd = 22,
+		Battle_Normal = 31,
 		Dialog_Positive = 41,
-		Dialog = 40,
+		Dialog_Negative = 42,
+		Battle = 30,
+		End = 20,
+		ChangeLevel_Interact = 23,
+		Begin = 10,
 		All = 1,
 		Battle_Elite = 32,
-		Battle_Boss = 33,
-		ChangeLevel_Interact = 23,
-		Dialog_Negative = 42,
-		End = 20,
+		Dialog = 40,
+		None = 0,
 		InteractEnd = 21,
-		Battle = 30,
 	};
 }

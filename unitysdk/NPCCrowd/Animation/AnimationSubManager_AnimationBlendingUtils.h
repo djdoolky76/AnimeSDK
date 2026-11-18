@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/EnumAsFlag_1.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AdjustmentBlendingBone.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AdjustmentBlendingPerBoneCollection_1.h"
 #include "unitysdk/System/Object.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONBLENDINGUTILS_ENSURE01_OFFSET UNITYSDK_OFFSET(0xD88D990)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONBLENDINGUTILS_GETLOOPCOUNT_OFFSET UNITYSDK_OFFSET(0xD88D9F0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONBLENDINGUTILS_ENSURE01_OFFSET UNITYSDK_OFFSET(0xED64900)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONBLENDINGUTILS_GETLOOPCOUNT_OFFSET UNITYSDK_OFFSET(0xED64960)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AnimationBlendingUtils_TypeDefinitionIndex = 88287;
+	inline static constexpr unsigned int AnimationSubManager_AnimationBlendingUtils_TypeDefinitionIndex = 81161;
 
 	class AnimationSubManager_AnimationBlendingUtils : public ::System::Object
 	{

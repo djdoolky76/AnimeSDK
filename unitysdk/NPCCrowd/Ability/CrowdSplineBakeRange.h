@@ -4,7 +4,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int CrowdSplineBakeRange_TypeDefinitionIndex = 40742;
+	inline static constexpr unsigned int CrowdSplineBakeRange_TypeDefinitionIndex = 72243;
 
 	struct alignas(4) CrowdSplineBakeRange
 	{

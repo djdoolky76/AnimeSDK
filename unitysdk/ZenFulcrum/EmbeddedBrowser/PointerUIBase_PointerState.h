@@ -7,12 +7,13 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PointerUIBase_PointerState_TypeDefinitionIndex = 33298;
+	inline static constexpr unsigned int PointerUIBase_PointerState_TypeDefinitionIndex = 32758;
 
 	struct alignas(4) PointerUIBase_PointerState
 	{
 		::System::Int32 id; // 0x10
 		::System::Boolean is2D; // 0x14
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector2 position2D; // 0x18
 		::UnityEngine::Ray position3D; // 0x20
 		::ZenFulcrum::EmbeddedBrowser::MouseButton activeButtons; // 0x38

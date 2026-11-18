@@ -2,18 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIZENKOVSTAGEREWARDDIALOGPOPWINDOWCONTROLLER_CONTEXT_AUTO_OFFSET UNITYSDK_OFFSET(0x1165EA90)
-#define MOLEMOLE_UIZENKOVSTAGEREWARDDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1165ED80)
+#define MOLEMOLE_UIZENKOVSTAGEREWARDDIALOGPOPWINDOWCONTROLLER_CONTEXT_AUTO_OFFSET UNITYSDK_OFFSET(0x14E55CB0)
+#define MOLEMOLE_UIZENKOVSTAGEREWARDDIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x14E55FA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovStageRewardDialogPopWindowController_Context_TypeDefinitionIndex = 77817;
+	inline static constexpr unsigned int UIZenkovStageRewardDialogPopWindowController_Context_TypeDefinitionIndex = 46036;
 
 	class UIZenkovStageRewardDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Int64 Cost; // 0x28
-		::System::Int32 ZkDungeonId; // 0x30
+		::System::Int32 ZkDungeonId; // 0x28
+		::System::Byte _padding0[0x4];
+		::System::Int64 Cost; // 0x30
 		::System::Int64 Value; // 0x38
 
 		::System::Void _ctor()

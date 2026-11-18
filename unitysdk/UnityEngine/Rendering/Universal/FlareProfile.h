@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/FlareProfile_NativeSRP.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAREPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC7E460)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAREPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D17F6E0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FlareProfile_TypeDefinitionIndex = 27747;
+	inline static constexpr unsigned int FlareProfile_TypeDefinitionIndex = 26755;
 
 	class FlareProfile : public ::UnityEngine::NAPRenderPipeline0::FlareProfile_NativeSRP
 	{

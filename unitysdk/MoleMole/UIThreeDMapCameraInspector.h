@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Camera; }
 
-#define MOLEMOLE_UITHREEDMAPCAMERAINSPECTOR_PRINTCAMERADATA_OFFSET UNITYSDK_OFFSET(0x119FC550)
-#define MOLEMOLE_UITHREEDMAPCAMERAINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x119FCE80)
+#define MOLEMOLE_UITHREEDMAPCAMERAINSPECTOR_PRINTCAMERADATA_OFFSET UNITYSDK_OFFSET(0x15632220)
+#define MOLEMOLE_UITHREEDMAPCAMERAINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15632B50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIThreeDMapCameraInspector_TypeDefinitionIndex = 68403;
+	inline static constexpr unsigned int UIThreeDMapCameraInspector_TypeDefinitionIndex = 61953;
 
 	class UIThreeDMapCameraInspector : public ::UnityEngine::MonoBehaviour
 	{

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_3E87D0E270DB206F;
+class LDBMFLMDPGJ;
 
-#define MOLEMOLE_UIBANGBOOMICROWEBPICTUREBOOKINFODIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19784460)
+#define MOLEMOLE_UIBANGBOOMICROWEBPICTUREBOOKINFODIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D23CE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangbooMicroWebPictureBookInfoDialogPopWindowController_Context_TypeDefinitionIndex = 63005;
+	inline static constexpr unsigned int UIBangbooMicroWebPictureBookInfoDialogPopWindowController_Context_TypeDefinitionIndex = 71284;
 
 	class UIBangbooMicroWebPictureBookInfoDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_3E87D0E270DB206F* RowData; // 0x28
+		::LDBMFLMDPGJ* RowData; // 0x28
 		::System::Boolean IsShowByGetPictureBook; // 0x30
 
 		::System::Void _ctor()

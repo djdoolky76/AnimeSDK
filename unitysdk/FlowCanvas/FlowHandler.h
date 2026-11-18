@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define FLOWCANVAS_FLOWHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D0559B0)
-#define FLOWCANVAS_FLOWHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D055A20)
-#define FLOWCANVAS_FLOWHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D0554E0)
-#define FLOWCANVAS_FLOWHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0540D0)
+#define FLOWCANVAS_FLOWHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D5CFDA0)
+#define FLOWCANVAS_FLOWHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D5CFE10)
+#define FLOWCANVAS_FLOWHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D5CF8D0)
+#define FLOWCANVAS_FLOWHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CE4D0)
 
 namespace FlowCanvas
 {
-	inline static constexpr unsigned int FlowHandler_TypeDefinitionIndex = 30195;
+	inline static constexpr unsigned int FlowHandler_TypeDefinitionIndex = 30852;
 
 	class FlowHandler : public ::System::MulticastDelegate
 	{

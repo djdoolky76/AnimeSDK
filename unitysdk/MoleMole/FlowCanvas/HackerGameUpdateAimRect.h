@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_6.h"
 #include "unitysdk/ProtoScript/AimRectColor.h"
 
 namespace MoleMole { class ChessEntity; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1382D820)
-#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1382D8F0)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x139D2B00)
+#define MOLEMOLE_FLOWCANVAS_HACKERGAMEUPDATEAIMRECT__CTOR_OFFSET UNITYSDK_OFFSET(0x139D2BD0)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackerGameUpdateAimRect_TypeDefinitionIndex = 88578;
+	inline static constexpr unsigned int HackerGameUpdateAimRect_TypeDefinitionIndex = 41933;
 
-	class HackerGameUpdateAimRect : public ::FlowCanvas::Nodes::CallableActionNode_6<::MoleMole::ChessEntity*, ::System::Boolean, ::ProtoScript::AimRectColor, ::System::Boolean, ::System::Boolean, ::System::Boolean>
+	class HackerGameUpdateAimRect
 	{
 	public:
 		::System::Void _ctor()

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Ability/VirtualProxy_StateTreeCrowdConditionBase.h"
+#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/StateTreeCore/StateTreeDataView.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/UnrealTypes/DataValidationResult.h"
 #include "unitysdk/UnrealTypes/FReadOnlyStructView.h"
 #include "unitysdk/UnrealTypes/FStructView.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
@@ -11,15 +11,15 @@
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x12D0C940)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x12D0CA60)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_LINK_OFFSET UNITYSDK_OFFSET(0x12D0C9F0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x12D0CAC0)
-#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x12D0CB30)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_COMPILE_OFFSET UNITYSDK_OFFSET(0x1378D210)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1378D330)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_LINK_OFFSET UNITYSDK_OFFSET(0x1378D2C0)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION_TESTCONDITION_OFFSET UNITYSDK_OFFSET(0x1378D390)
+#define NPCCROWD_ABILITY_VIRTUALPROXY_HASREACTIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1378D400)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualProxy_HasReactionCondition_TypeDefinitionIndex = 58763;
+	inline static constexpr unsigned int VirtualProxy_HasReactionCondition_TypeDefinitionIndex = 80276;
 
 	class VirtualProxy_HasReactionCondition : public ::NPCCrowd::Ability::VirtualProxy_StateTreeCrowdConditionBase
 	{

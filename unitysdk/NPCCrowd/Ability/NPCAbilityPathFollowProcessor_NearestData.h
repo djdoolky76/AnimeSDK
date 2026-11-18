@@ -5,13 +5,14 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int NPCAbilityPathFollowProcessor_NearestData_TypeDefinitionIndex = 68219;
+	inline static constexpr unsigned int NPCAbilityPathFollowProcessor_NearestData_TypeDefinitionIndex = 84143;
 
 	struct alignas(4) NPCAbilityPathFollowProcessor_NearestData
 	{
 		::UnityEngine::Vector3 position; // 0x10
 		::System::Int32 pathID; // 0x1C
-		::System::Byte nearestControlPointIdx; // 0x20
+		::System::UInt16 nearestControlPointIdx; // 0x20
+		::System::Byte _padding0[0x2];
 		::System::Int32 laneIdx; // 0x24
 		::System::Boolean forward; // 0x28
 	};

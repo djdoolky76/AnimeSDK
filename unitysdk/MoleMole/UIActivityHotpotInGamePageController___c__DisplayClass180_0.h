@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIActivityHotpotFoodItemRightWidgetController; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER___C__DISPLAYCLASS180_0__ADDFOODTOPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x192DC690)
-#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER___C__DISPLAYCLASS180_0__CTOR_OFFSET UNITYSDK_OFFSET(0x192DC680)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER___C__DISPLAYCLASS180_0__ADDFOODTOPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x19B92940)
+#define MOLEMOLE_UIACTIVITYHOTPOTINGAMEPAGECONTROLLER___C__DISPLAYCLASS180_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B92930)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotInGamePageController___c__DisplayClass180_0_TypeDefinitionIndex = 87265;
+	inline static constexpr unsigned int UIActivityHotpotInGamePageController___c__DisplayClass180_0_TypeDefinitionIndex = 43532;
 
 	class UIActivityHotpotInGamePageController___c__DisplayClass180_0 : public ::System::Object
 	{

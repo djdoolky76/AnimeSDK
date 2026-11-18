@@ -8,15 +8,15 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceContextVariableAccessor_1_Accessor_1_TypeDefinitionIndex = 38606;
+	inline static constexpr unsigned int CameraSequenceContextVariableAccessor_1_Accessor_1_TypeDefinitionIndex = 36606;
 
-	template <typename T, typename TResult>
+	template <typename T>
 	class CameraSequenceContextVariableAccessor_1_Accessor_1 : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::PipelineCamera::CameraSequence::CameraSequenceMemberPath, ::System::Func_2<T, TResult>*>** StaticGet_AccessorInvokers()
+		static ::System::Collections::Generic::Dictionary_2<::PipelineCamera::CameraSequence::CameraSequenceMemberPath, ::System::Func_2<T, T>*>** StaticGet_AccessorInvokers()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::PipelineCamera::CameraSequence::CameraSequenceMemberPath, ::System::Func_2<T, TResult>*>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessor_1_Accessor_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Collections::Generic::Dictionary_2<::PipelineCamera::CameraSequence::CameraSequenceMemberPath, ::System::Func_2<T, T>*>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceContextVariableAccessor_1_Accessor_1_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 	};
 }

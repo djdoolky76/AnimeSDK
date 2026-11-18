@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int EKodamaGIType_TypeDefinitionIndex = 5856;
+	inline static constexpr unsigned int EKodamaGIType_TypeDefinitionIndex = 5862;
 
 	enum class EKodamaGIType : ::System::Int32
 	{

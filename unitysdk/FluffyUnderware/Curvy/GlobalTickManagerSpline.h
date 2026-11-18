@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_8649573A691533F8.h"
 
-class Class_0_16E4307DCC419505;
+class POEGBDNCMML;
 namespace FluffyUnderware::Curvy { class CurvySplineUnityUpdater; }
 namespace FluffyUnderware::Curvy::Controllers { class CurvyControllerUnityUpdater; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-template <typename T> class Class_1_3B365E645019A36F;
+template <typename T> class KHFCEKPIBJH_1;
 
-#define FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE_INITDELAYREFRESHLIST_OFFSET UNITYSDK_OFFSET(0x1F86D5B0)
-#define FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1F86D6C0)
-#define FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1F86D670)
-#define FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F86D620)
-#define FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F86D710)
+#define FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE_INITDELAYREFRESHLIST_OFFSET UNITYSDK_OFFSET(0x1FC88E80)
+#define FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE_ONFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1FC88F90)
+#define FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1FC88F40)
+#define FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1FC88EF0)
+#define FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC88FE0)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int GlobalTickManagerSpline_TypeDefinitionIndex = 39450;
+	inline static constexpr unsigned int GlobalTickManagerSpline_TypeDefinitionIndex = 37573;
 
-	class GlobalTickManagerSpline : public ::Class_2_8649573A691533F8<::FluffyUnderware::Curvy::GlobalTickManagerSpline*>
+	class GlobalTickManagerSpline
 	{
 	public:
-		::Class_1_3B365E645019A36F<::FluffyUnderware::Curvy::CurvySplineUnityUpdater*>* _curvySplineUpdaters; // 0x18
-		::Class_1_3B365E645019A36F<::FluffyUnderware::Curvy::Controllers::CurvyControllerUnityUpdater*>* _curvyControllerUpdaters; // 0x20
+		::KHFCEKPIBJH_1<::FluffyUnderware::Curvy::CurvySplineUnityUpdater*>* _curvySplineUpdaters; // 0x18
+		::KHFCEKPIBJH_1<::FluffyUnderware::Curvy::Controllers::CurvyControllerUnityUpdater*>* _curvyControllerUpdaters; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void InitDelayRefreshList(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505*>* delayRefreshList)
+		::System::Void InitDelayRefreshList(::System::Collections::Generic::List_1<::POEGBDNCMML*>* delayRefreshList)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505*>*))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE_INITDELAYREFRESHLIST_OFFSET))(this, delayRefreshList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::POEGBDNCMML*>*))((::PBYTE)hIl2Cpp + FLUFFYUNDERWARE_CURVY_GLOBALTICKMANAGERSPLINE_INITDELAYREFRESHLIST_OFFSET))(this, delayRefreshList);
 		}
 
 		::System::Void OnUpdate()

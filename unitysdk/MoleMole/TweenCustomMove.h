@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/DG/Tweening/Ease.h"
 #include "unitysdk/DG/Tweening/Plugins/Options/VectorOptions.h"
-#include "unitysdk/MoleMole/TweenCustomMove_Enum_3_1C3254749E217D06.h"
+#include "unitysdk/DG/Tweening/Ease.h"
+#include "unitysdk/MoleMole/TweenCustomMove_GGJLJHOMHIA.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
@@ -11,23 +11,23 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_TWEENCUSTOMMOVE_AWAKE_OFFSET UNITYSDK_OFFSET(0x129EA9F0)
-#define MOLEMOLE_TWEENCUSTOMMOVE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x129EB6D0)
-#define MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_351060D64F7F438E_OFFSET UNITYSDK_OFFSET(0x129EBA30)
-#define MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_3BBB9CF20E8D97ED_OFFSET UNITYSDK_OFFSET(0x129EB880)
-#define MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_3BC8B8F2BB08C1C2_OFFSET UNITYSDK_OFFSET(0x129EB970)
-#define MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_3E586421BA588EFD_OFFSET UNITYSDK_OFFSET(0x129EAA40)
-#define MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_7889C2BF81803C86_OFFSET UNITYSDK_OFFSET(0x129EAF00)
-#define MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_8D61BE16C9463302_1_OFFSET UNITYSDK_OFFSET(0x129EBB20)
-#define MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_8D61BE16C9463302_OFFSET UNITYSDK_OFFSET(0x129EBAE0)
-#define MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_A7A81E55D90E048E_OFFSET UNITYSDK_OFFSET(0x129EB230)
-#define MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_E69F3DFB7CDFE412_OFFSET UNITYSDK_OFFSET(0x129EB7A0)
-#define MOLEMOLE_TWEENCUSTOMMOVE_START_OFFSET UNITYSDK_OFFSET(0x129EADA0)
-#define MOLEMOLE_TWEENCUSTOMMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x129EB820)
+#define MOLEMOLE_TWEENCUSTOMMOVE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1882B460)
+#define MOLEMOLE_TWEENCUSTOMMOVE_DDAJAPPHDNK_OFFSET UNITYSDK_OFFSET(0x1882C210)
+#define MOLEMOLE_TWEENCUSTOMMOVE_DDIDAODPACJ_OFFSET UNITYSDK_OFFSET(0x1882C550)
+#define MOLEMOLE_TWEENCUSTOMMOVE_DGFNNDOHGCE_OFFSET UNITYSDK_OFFSET(0x1882C590)
+#define MOLEMOLE_TWEENCUSTOMMOVE_GOFILNECGNH_OFFSET UNITYSDK_OFFSET(0x1882B970)
+#define MOLEMOLE_TWEENCUSTOMMOVE_HFOJJFFLFCE_OFFSET UNITYSDK_OFFSET(0x1882C4A0)
+#define MOLEMOLE_TWEENCUSTOMMOVE_HJLCBFGMDJB_OFFSET UNITYSDK_OFFSET(0x1882B4B0)
+#define MOLEMOLE_TWEENCUSTOMMOVE_IIGPIBMKANK_OFFSET UNITYSDK_OFFSET(0x1882BCA0)
+#define MOLEMOLE_TWEENCUSTOMMOVE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1882C140)
+#define MOLEMOLE_TWEENCUSTOMMOVE_NJEDEGHFCAJ_OFFSET UNITYSDK_OFFSET(0x1882C3E0)
+#define MOLEMOLE_TWEENCUSTOMMOVE_PPDPIMGIDCI_OFFSET UNITYSDK_OFFSET(0x1882C2F0)
+#define MOLEMOLE_TWEENCUSTOMMOVE_START_OFFSET UNITYSDK_OFFSET(0x1882B810)
+#define MOLEMOLE_TWEENCUSTOMMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1882C290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TweenCustomMove_TypeDefinitionIndex = 56921;
+	inline static constexpr unsigned int TweenCustomMove_TypeDefinitionIndex = 45661;
 
 	class TweenCustomMove : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,18 +35,21 @@ namespace MoleMole
 		::System::Single duration; // 0x18
 		::System::Single delay; // 0x1C
 		::DG::Tweening::Ease ease; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* curve; // 0x28
 		::UnityEngine::Vector2 from; // 0x30
 		::UnityEngine::Vector2 to; // 0x38
-		::MoleMole::TweenCustomMove_Enum_3_1C3254749E217D06 fromAxisType; // 0x40
-		::MoleMole::TweenCustomMove_Enum_3_1C3254749E217D06 toAxisType; // 0x44
+		::MoleMole::TweenCustomMove_GGJLJHOMHIA fromAxisType; // 0x40
+		::MoleMole::TweenCustomMove_GGJLJHOMHIA toAxisType; // 0x44
 		::System::Boolean onlyControlX; // 0x48
 		::System::Boolean onlyControlY; // 0x49
 		::System::Boolean IgnoreStartSet; // 0x4A
-		::UnityEngine::RectTransform* Field_5_8; // 0x50
-		::UnityEngine::Camera* Field_5_15; // 0x58
-		::System::Boolean Field_5_14; // 0x60
-		::DG::Tweening::Core::TweenerCore_3<::UnityEngine::Vector2, ::UnityEngine::Vector2, ::DG::Tweening::Plugins::Options::VectorOptions>* Field_5_13; // 0x68
+		::System::Byte _padding1[0x5];
+		::UnityEngine::RectTransform* OBLEMFDIIOD; // 0x50
+		::UnityEngine::Camera* GKKMNEPLONG; // 0x58
+		::System::Boolean AGCOMBOJDGK; // 0x60
+		::System::Byte _padding2[0x7];
+		::DG::Tweening::Core::TweenerCore_3<::UnityEngine::Vector2, ::UnityEngine::Vector2, ::DG::Tweening::Plugins::Options::VectorOptions>* GGHLDDPHEID; // 0x68
 
 		::System::Void _ctor()
 		{
@@ -68,49 +71,49 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_3E586421BA588EFD()
+		::System::Void DDAJAPPHDNK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_3E586421BA588EFD_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_DDAJAPPHDNK_OFFSET))(this);
 		}
 
-		::System::Void Method_5_E69F3DFB7CDFE412()
+		::System::Void NJEDEGHFCAJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_E69F3DFB7CDFE412_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_NJEDEGHFCAJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_3BC8B8F2BB08C1C2()
+		::System::Void PPDPIMGIDCI(::UnityEngine::Vector2 HFMHOELKCAJ)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_3BC8B8F2BB08C1C2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_PPDPIMGIDCI_OFFSET))(this, HFMHOELKCAJ);
 		}
 
-		::UnityEngine::Vector2 Method_5_351060D64F7F438E()
+		::System::Boolean GOFILNECGNH(::MoleMole::TweenCustomMove_GGJLJHOMHIA OBNIAHNMHPF, ::UnityEngine::Vector2 CAJNIPBNIOJ, ::UnityEngine::Vector2& POHFOEJCOEC)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_351060D64F7F438E_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::TweenCustomMove_GGJLJHOMHIA, ::UnityEngine::Vector2, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_GOFILNECGNH_OFFSET))(this, OBNIAHNMHPF, CAJNIPBNIOJ, POHFOEJCOEC);
 		}
 
-		::System::Void Method_5_8D61BE16C9463302()
+		::System::Void IIGPIBMKANK(::UnityEngine::Vector2 IACKHFCLPJI)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_8D61BE16C9463302_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_IIGPIBMKANK_OFFSET))(this, IACKHFCLPJI);
 		}
 
-		::System::Void Method_5_3BBB9CF20E8D97ED(::UnityEngine::Vector2 a1)
+		::System::Void DDIDAODPACJ()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_3BBB9CF20E8D97ED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_DDIDAODPACJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_A7A81E55D90E048E(::UnityEngine::Vector2 a1)
+		::System::Void DGFNNDOHGCE()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_A7A81E55D90E048E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_DGFNNDOHGCE_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_7889C2BF81803C86(::MoleMole::TweenCustomMove_Enum_3_1C3254749E217D06 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2& a3)
+		::UnityEngine::Vector2 HFOJJFFLFCE()
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::TweenCustomMove_Enum_3_1C3254749E217D06, ::UnityEngine::Vector2, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_7889C2BF81803C86_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_HFOJJFFLFCE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_8D61BE16C9463302_1()
+		::System::Void HJLCBFGMDJB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_METHOD_5_8D61BE16C9463302_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENCUSTOMMOVE_HJLCBFGMDJB_OFFSET))(this);
 		}
 	};
 }

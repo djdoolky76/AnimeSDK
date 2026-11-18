@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Video
 {
-	inline static constexpr unsigned int VideoSource_TypeDefinitionIndex = 19426;
+	inline static constexpr unsigned int VideoSource_TypeDefinitionIndex = 18580;
 
 	enum class VideoSource : ::System::Int32
 	{

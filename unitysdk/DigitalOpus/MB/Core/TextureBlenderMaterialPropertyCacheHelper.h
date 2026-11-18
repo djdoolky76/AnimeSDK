@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/DigitalOpus/MB/Core/TextureBlenderMaterialPropertyCacheHelper_MaterialPropertyPair.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Material; }
 
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERMATERIALPROPERTYCACHEHELPER_ALLNONTEXTUREPROPERTYVALUESAREEQUAL_OFFSET UNITYSDK_OFFSET(0x1F798220)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERMATERIALPROPERTYCACHEHELPER_CACHEMATERIALPROPERTY_OFFSET UNITYSDK_OFFSET(0x1F798490)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERMATERIALPROPERTYCACHEHELPER_GETVALUEIFALLSOURCEARETHESAMEORDEFAULT_OFFSET UNITYSDK_OFFSET(0x1F798530)
-#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERMATERIALPROPERTYCACHEHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F798720)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERMATERIALPROPERTYCACHEHELPER_ALLNONTEXTUREPROPERTYVALUESAREEQUAL_OFFSET UNITYSDK_OFFSET(0x1FB9D240)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERMATERIALPROPERTYCACHEHELPER_CACHEMATERIALPROPERTY_OFFSET UNITYSDK_OFFSET(0x1FB9D4B0)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERMATERIALPROPERTYCACHEHELPER_GETVALUEIFALLSOURCEARETHESAMEORDEFAULT_OFFSET UNITYSDK_OFFSET(0x1FB9D550)
+#define DIGITALOPUS_MB_CORE_TEXTUREBLENDERMATERIALPROPERTYCACHEHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB9D740)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int TextureBlenderMaterialPropertyCacheHelper_TypeDefinitionIndex = 94515;
+	inline static constexpr unsigned int TextureBlenderMaterialPropertyCacheHelper_TypeDefinitionIndex = 96202;
 
 	class TextureBlenderMaterialPropertyCacheHelper : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::DigitalOpus::MB::Core::TextureBlenderMaterialPropertyCacheHelper_MaterialPropertyPair, ::System::Object*>* nonTexturePropertyValuesForSourceMaterials; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* nonTexturePropertyValuesForSourceMaterials; // 0x10
 
 		::System::Void _ctor()
 		{

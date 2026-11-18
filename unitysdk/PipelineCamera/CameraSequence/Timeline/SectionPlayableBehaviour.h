@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 namespace PipelineCamera::CameraSequence::Timeline { class SectionClip; }
 
-#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_SECTIONPLAYABLEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1FC6CC80)
-#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_SECTIONPLAYABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6CC90)
+#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_SECTIONPLAYABLEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x2006FFA0)
+#define PIPELINECAMERA_CAMERASEQUENCE_TIMELINE_SECTIONPLAYABLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x2006FFB0)
 
 namespace PipelineCamera::CameraSequence::Timeline
 {
-	inline static constexpr unsigned int SectionPlayableBehaviour_TypeDefinitionIndex = 94421;
+	inline static constexpr unsigned int SectionPlayableBehaviour_TypeDefinitionIndex = 96108;
 
 	class SectionPlayableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -2,19 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/Foundation/Function/Sinusoidal.h"
+#include "unitysdk/Foundation/Function/WithConstant_1.h"
 
-#define FOUNDATION_GEOMETRY_ELLIPSE2D_GETPARAM_OFFSET UNITYSDK_OFFSET(0xAA85A0)
-#define FOUNDATION_GEOMETRY_ELLIPSE2D_GETPOINTX_OFFSET UNITYSDK_OFFSET(0xAA83E0)
-#define FOUNDATION_GEOMETRY_ELLIPSE2D_GETPOINTY_OFFSET UNITYSDK_OFFSET(0xAA8480)
-#define FOUNDATION_GEOMETRY_ELLIPSE2D_GETPOINT_1_OFFSET UNITYSDK_OFFSET(0xAA8520)
-#define FOUNDATION_GEOMETRY_ELLIPSE2D_GETPOINT_OFFSET UNITYSDK_OFFSET(0xAA8330)
-#define FOUNDATION_GEOMETRY_ELLIPSE2D__CTOR_OFFSET UNITYSDK_OFFSET(0xAA8260)
+#define FOUNDATION_GEOMETRY_ELLIPSE2D_GETPARAM_OFFSET UNITYSDK_OFFSET(0x98E930)
+#define FOUNDATION_GEOMETRY_ELLIPSE2D_GETPOINTX_OFFSET UNITYSDK_OFFSET(0x98E770)
+#define FOUNDATION_GEOMETRY_ELLIPSE2D_GETPOINTY_OFFSET UNITYSDK_OFFSET(0x98E810)
+#define FOUNDATION_GEOMETRY_ELLIPSE2D_GETPOINT_1_OFFSET UNITYSDK_OFFSET(0x98E8B0)
+#define FOUNDATION_GEOMETRY_ELLIPSE2D_GETPOINT_OFFSET UNITYSDK_OFFSET(0x98E6C0)
+#define FOUNDATION_GEOMETRY_ELLIPSE2D__CTOR_OFFSET UNITYSDK_OFFSET(0x98E5F0)
 
 namespace Foundation::Geometry
 {
-	inline static constexpr unsigned int Ellipse2D_TypeDefinitionIndex = 8658;
+	inline static constexpr unsigned int Ellipse2D_TypeDefinitionIndex = 8963;
 
-	struct alignas(8) Ellipse2D
+	struct alignas(4) Ellipse2D
 	{
 		::UnityEngine::Vector2 Center; // 0x10
 		::System::Double Alpha; // 0x18
@@ -33,19 +35,15 @@ namespace Foundation::Geometry
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_ELLIPSE2D_GETPOINT_OFFSET))(this, t);
 		}
 
-		/*
 		::Foundation::Function::WithConstant_1<::Foundation::Function::Sinusoidal> GetPointX()
 		{
 			return ((::Foundation::Function::WithConstant_1<::Foundation::Function::Sinusoidal>(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_ELLIPSE2D_GETPOINTX_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::Foundation::Function::WithConstant_1<::Foundation::Function::Sinusoidal> GetPointY()
 		{
 			return ((::Foundation::Function::WithConstant_1<::Foundation::Function::Sinusoidal>(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_GEOMETRY_ELLIPSE2D_GETPOINTY_OFFSET))(this);
 		}
-		*/
 
 		::UnityEngine::Vector2 GetPoint_1(::System::Double sinTheta, ::System::Double cosTheta)
 		{

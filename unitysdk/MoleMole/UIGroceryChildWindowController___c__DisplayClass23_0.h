@@ -4,19 +4,19 @@
 
 namespace MoleMole { class UIGroceryChildWindowController; }
 
-#define MOLEMOLE_UIGROCERYCHILDWINDOWCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186CEE30)
-#define MOLEMOLE_UIGROCERYCHILDWINDOWCONTROLLER___C__DISPLAYCLASS23_0__DOBUY_B__0_OFFSET UNITYSDK_OFFSET(0x186CEE40)
+#define MOLEMOLE_UIGROCERYCHILDWINDOWCONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184D6E30)
+#define MOLEMOLE_UIGROCERYCHILDWINDOWCONTROLLER___C__DISPLAYCLASS23_0__DOBUY_B__0_OFFSET UNITYSDK_OFFSET(0x184D6E40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGroceryChildWindowController___c__DisplayClass23_0_TypeDefinitionIndex = 88164;
+	inline static constexpr unsigned int UIGroceryChildWindowController___c__DisplayClass23_0_TypeDefinitionIndex = 68804;
 
 	class UIGroceryChildWindowController___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
 		::MoleMole::UIGroceryChildWindowController* __4__this; // 0x10
-		::System::UInt32 goodsId; // 0x18
-		::System::UInt32 tabDataId; // 0x1C
+		::System::UInt32 tabDataId; // 0x18
+		::System::UInt32 goodsId; // 0x1C
 
 		::System::Void _ctor()
 		{

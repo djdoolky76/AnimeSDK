@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_8289F2785D9AA990;
-class Class_3_C93CC3D2C2AC4067;
+class AGJFDPBLDDF;
+class GEIHCPAOKKK;
 namespace MoleMole { class AfterImage; }
 namespace MoleMole { class FollowAnimator; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_AFTERIMAGEOBJECT_AWAKE_OFFSET UNITYSDK_OFFSET(0x12EDD390)
-#define MOLEMOLE_AFTERIMAGEOBJECT_BEGINBLURSHADOW_OFFSET UNITYSDK_OFFSET(0x12EDD420)
-#define MOLEMOLE_AFTERIMAGEOBJECT_METHOD_5_102A1038C38883F3_OFFSET UNITYSDK_OFFSET(0x12EDDD80)
-#define MOLEMOLE_AFTERIMAGEOBJECT_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x12EDDBC0)
-#define MOLEMOLE_AFTERIMAGEOBJECT_METHOD_5_3A158F2DBB2E47FE_OFFSET UNITYSDK_OFFSET(0x12EDD650)
-#define MOLEMOLE_AFTERIMAGEOBJECT_METHOD_5_F5E47CC27E96B888_OFFSET UNITYSDK_OFFSET(0x12EDE090)
-#define MOLEMOLE_AFTERIMAGEOBJECT_METHOD_5_F655FFE0347E3008_OFFSET UNITYSDK_OFFSET(0x12EDE020)
-#define MOLEMOLE_AFTERIMAGEOBJECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12EDDDD0)
-#define MOLEMOLE_AFTERIMAGEOBJECT_STOPBLURSHADOW_OFFSET UNITYSDK_OFFSET(0x12EDDAA0)
-#define MOLEMOLE_AFTERIMAGEOBJECT_UPDATE_OFFSET UNITYSDK_OFFSET(0x12EDDC90)
-#define MOLEMOLE_AFTERIMAGEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x12EDDFD0)
+#define MOLEMOLE_AFTERIMAGEOBJECT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1274F730)
+#define MOLEMOLE_AFTERIMAGEOBJECT_BEGINBLURSHADOW_OFFSET UNITYSDK_OFFSET(0x1274F7C0)
+#define MOLEMOLE_AFTERIMAGEOBJECT_CENFOFONDFN_OFFSET UNITYSDK_OFFSET(0x12750120)
+#define MOLEMOLE_AFTERIMAGEOBJECT_CPPHHNGGCPJ_OFFSET UNITYSDK_OFFSET(0x12750440)
+#define MOLEMOLE_AFTERIMAGEOBJECT_ELJMIDHGECN_OFFSET UNITYSDK_OFFSET(0x1274FF60)
+#define MOLEMOLE_AFTERIMAGEOBJECT_JBFOPOFLHNM_OFFSET UNITYSDK_OFFSET(0x1274F9F0)
+#define MOLEMOLE_AFTERIMAGEOBJECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x12750170)
+#define MOLEMOLE_AFTERIMAGEOBJECT_PIPGAGDAHEE_OFFSET UNITYSDK_OFFSET(0x127503C0)
+#define MOLEMOLE_AFTERIMAGEOBJECT_STOPBLURSHADOW_OFFSET UNITYSDK_OFFSET(0x1274FE40)
+#define MOLEMOLE_AFTERIMAGEOBJECT_UPDATE_OFFSET UNITYSDK_OFFSET(0x12750030)
+#define MOLEMOLE_AFTERIMAGEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x12750370)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AfterImageObject_TypeDefinitionIndex = 74173;
+	inline static constexpr unsigned int AfterImageObject_TypeDefinitionIndex = 44436;
 
 	class AfterImageObject : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,15 +32,18 @@ namespace MoleMole
 		::System::String* prefabPath; // 0x18
 		::UnityEngine::Transform* TargetRoot; // 0x20
 		::System::Boolean use2ndFixedMaterial; // 0x28
-		::MoleMole::AfterImage* Field_5_7; // 0x30
-		::MoleMole::FollowAnimator* Field_5_6; // 0x38
+		::System::Byte _padding0[0x7];
+		::MoleMole::AfterImage* IAPEAPJKOGH; // 0x30
+		::MoleMole::FollowAnimator* PEFLPDADHPC; // 0x38
 		::System::Boolean UseLowPrefab; // 0x40
-		::UnityEngine::GameObject* Field_5_4; // 0x48
-		::System::Boolean Field_5_11; // 0x50
-		::System::Boolean Field_5_10; // 0x51
-		::Class_3_C93CC3D2C2AC4067* Field_5_9; // 0x58
-		::Class_1_8289F2785D9AA990* Field_5_8; // 0x60
-		::System::Boolean Field_5_15; // 0x68
+		::System::Byte _padding1[0x7];
+		::UnityEngine::GameObject* GPBOLNKLBJP; // 0x48
+		::System::Boolean APNNODMBFKP; // 0x50
+		::System::Boolean MKJFJPMCOEK; // 0x51
+		::System::Byte _padding2[0x6];
+		::GEIHCPAOKKK* LEOKEOFNDLH; // 0x58
+		::AGJFDPBLDDF* CGLBABFPANL; // 0x60
+		::System::Boolean MHJKCFANKBD; // 0x68
 
 		::System::Void _ctor()
 		{
@@ -52,14 +55,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void BeginBlurShadow(::System::Int32 a1, ::System::Single a2, ::System::Single a3, ::Class_3_C93CC3D2C2AC4067* a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Single a7)
+		::System::Void BeginBlurShadow(::System::Int32 MLJMAOLJIBH, ::System::Single FAOPLCFLJLE, ::System::Single BBHIMJMPIGL, ::GEIHCPAOKKK* KECKGDFIALJ, ::System::Boolean KFFBHGGPGPG, ::System::Boolean FCMPANBIMHM, ::System::Single MDPPNMIPDMP)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::Class_3_C93CC3D2C2AC4067*, ::System::Boolean, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_BEGINBLURSHADOW_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::GEIHCPAOKKK*, ::System::Boolean, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_BEGINBLURSHADOW_OFFSET))(this, MLJMAOLJIBH, FAOPLCFLJLE, BBHIMJMPIGL, KECKGDFIALJ, KFFBHGGPGPG, FCMPANBIMHM, MDPPNMIPDMP);
 		}
 
-		::System::Void StopBlurShadow(::System::Boolean a1)
+		::System::Void StopBlurShadow(::System::Boolean FCMPANBIMHM)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_STOPBLURSHADOW_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_STOPBLURSHADOW_OFFSET))(this, FCMPANBIMHM);
 		}
 
 		::System::Void Update()
@@ -72,29 +75,29 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_5_F655FFE0347E3008(::System::Boolean a1)
+		::System::Void ELJMIDHGECN()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_METHOD_5_F655FFE0347E3008_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_ELJMIDHGECN_OFFSET))(this);
 		}
 
-		::System::Void Method_5_F5E47CC27E96B888(::System::Boolean a1)
+		::System::Void CENFOFONDFN()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_METHOD_5_F5E47CC27E96B888_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_CENFOFONDFN_OFFSET))(this);
 		}
 
-		::System::Void Method_5_33ACA6CB2ABC73F7()
+		::System::Void JBFOPOFLHNM(::System::Int32 MLJMAOLJIBH, ::System::Single FAOPLCFLJLE, ::System::Single BBHIMJMPIGL, ::GEIHCPAOKKK* KECKGDFIALJ, ::System::Boolean KFFBHGGPGPG, ::System::Single MDPPNMIPDMP)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_METHOD_5_33ACA6CB2ABC73F7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::GEIHCPAOKKK*, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_JBFOPOFLHNM_OFFSET))(this, MLJMAOLJIBH, FAOPLCFLJLE, BBHIMJMPIGL, KECKGDFIALJ, KFFBHGGPGPG, MDPPNMIPDMP);
 		}
 
-		::System::Void Method_5_3A158F2DBB2E47FE(::System::Int32 a1, ::System::Single a2, ::System::Single a3, ::Class_3_C93CC3D2C2AC4067* a4, ::System::Boolean a5, ::System::Single a6)
+		::System::Void CPPHHNGGCPJ(::System::Boolean FIPHFGHNNBE)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::Class_3_C93CC3D2C2AC4067*, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_METHOD_5_3A158F2DBB2E47FE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_CPPHHNGGCPJ_OFFSET))(this, FIPHFGHNNBE);
 		}
 
-		::System::Void Method_5_102A1038C38883F3()
+		::System::Void PIPGAGDAHEE(::System::Boolean DEFJLANCGGO)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_METHOD_5_102A1038C38883F3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_AFTERIMAGEOBJECT_PIPGAGDAHEE_OFFSET))(this, DEFJLANCGGO);
 		}
 	};
 }

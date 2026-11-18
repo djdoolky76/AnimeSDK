@@ -5,29 +5,29 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18365090)
-#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183650D0)
-#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__INITSORT_B__16_0_OFFSET UNITYSDK_OFFSET(0x183650E0)
-#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__INITSORT_B__16_2_OFFSET UNITYSDK_OFFSET(0x183650F0)
+#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x187C9310)
+#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x187C9350)
+#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__INITSORT_B__16_0_OFFSET UNITYSDK_OFFSET(0x187C9360)
+#define MOLEMOLE_UIHOLLOWCARDCOLLECTWIDGETCONTROLLER___C__INITSORT_B__16_2_OFFSET UNITYSDK_OFFSET(0x187C9370)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardCollectWidgetController___c_TypeDefinitionIndex = 66578;
+	inline static constexpr unsigned int UIHollowCardCollectWidgetController___c_TypeDefinitionIndex = 84545;
 
 	class UIHollowCardCollectWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIHollowCardCollectWidgetController___c** StaticGet___9()
+		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__16_2()
 		{
-			return (::MoleMole::UIHollowCardCollectWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4DA30);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4FA20);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4FA28);
 		}
 		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4DA38);
-		}
-		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__16_2()
-		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4DA40);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardCollectWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4FA30);
 		}
 
 		static ::System::Void _cctor()

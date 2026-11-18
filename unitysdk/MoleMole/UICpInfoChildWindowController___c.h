@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MoleMole/UICpInfoChildWindowController_UITagInfo.h"
 #include "unitysdk/MoleMole/UICpInfoChildWindowController_UIViewInfo.h"
-#include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UICPINFOCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F00D400)
-#define MOLEMOLE_UICPINFOCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1F00D440)
-#define MOLEMOLE_UICPINFOCHILDWINDOWCONTROLLER___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1F00D450)
-#define MOLEMOLE_UICPINFOCHILDWINDOWCONTROLLER___C___CCTOR_B__53_1_OFFSET UNITYSDK_OFFSET(0x1F00D470)
+#define MOLEMOLE_UICPINFOCHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF96AC0)
+#define MOLEMOLE_UICPINFOCHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF96B00)
+#define MOLEMOLE_UICPINFOCHILDWINDOWCONTROLLER___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1FF96B10)
+#define MOLEMOLE_UICPINFOCHILDWINDOWCONTROLLER___C___CCTOR_B__53_1_OFFSET UNITYSDK_OFFSET(0x1FF96B30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICpInfoChildWindowController___c_TypeDefinitionIndex = 94836;
+	inline static constexpr unsigned int UICpInfoChildWindowController___c_TypeDefinitionIndex = 96557;
 
 	class UICpInfoChildWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UICpInfoChildWindowController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UICpInfoChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UICpInfoChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x52640);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UICpInfoChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x52DC0);
 		}
 
 		static ::System::Void _cctor()

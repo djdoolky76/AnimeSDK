@@ -1,30 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_GET_1_OFFSET UNITYSDK_OFFSET(0x8094D0)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_GET_OFFSET UNITYSDK_OFFSET(0x809480)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_ISROOT_OFFSET UNITYSDK_OFFSET(0x809460)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_ISVALID_OFFSET UNITYSDK_OFFSET(0x809470)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x14BB5D70)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x14BB5D60)
-#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX__CCTOR_OFFSET UNITYSDK_OFFSET(0x14BB5D80)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_GET_1_OFFSET UNITYSDK_OFFSET(0x808790)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_GET_OFFSET UNITYSDK_OFFSET(0x808740)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_ISROOT_OFFSET UNITYSDK_OFFSET(0x808720)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_ISVALID_OFFSET UNITYSDK_OFFSET(0x808730)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1ADE8BE0)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1ADE8BD0)
+#define FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADE8BF0)
 
 namespace Foundation::Unreal
 {
-	inline static constexpr unsigned int FGameplayTagNodeIndex_TypeDefinitionIndex = 13617;
+	inline static constexpr unsigned int FGameplayTagNodeIndex_TypeDefinitionIndex = 14358;
 
-	struct alignas(2) FGameplayTagNodeIndex
+	struct alignas(4) FGameplayTagNodeIndex
 	{
-		static ::Foundation::Unreal::FGameplayTagNodeIndex* StaticGet_Invalid()
-		{
-			return (::Foundation::Unreal::FGameplayTagNodeIndex*)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagNodeIndex_TypeDefinitionIndex)->GetStaticField(0x3DF0);
-		}
 		static ::Foundation::Unreal::FGameplayTagNodeIndex* StaticGet_Root()
 		{
-			return (::Foundation::Unreal::FGameplayTagNodeIndex*)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagNodeIndex_TypeDefinitionIndex)->GetStaticField(0x3DF2);
+			return (::Foundation::Unreal::FGameplayTagNodeIndex*)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagNodeIndex_TypeDefinitionIndex)->GetStaticField(0x3DB0);
+		}
+		static ::Foundation::Unreal::FGameplayTagNodeIndex* StaticGet_Invalid()
+		{
+			return (::Foundation::Unreal::FGameplayTagNodeIndex*)Il2CppClass::FromTypeDefinitionIndex(FGameplayTagNodeIndex_TypeDefinitionIndex)->GetStaticField(0x3DB2);
 		}
 		::System::UInt16 Index; // 0x10
 
@@ -51,20 +52,24 @@ namespace Foundation::Unreal
 		*/
 
 		/*
-		::Foundation::Unreal::FGameplayTagNodeView Get_1(::System::ReadOnlySpan_1<::Foundation::Unreal::FGameplayTagNode> nodeTree)
+		::Foundation::Unreal::FGameplayTagNodeView Get_1(::System::ReadOnlySpan_1_F48FB86071006F3E<::Foundation::Unreal::FGameplayTagNode> nodeTree)
 		{
-			return ((::Foundation::Unreal::FGameplayTagNodeView(*)(::PVOID, ::System::ReadOnlySpan_1<::Foundation::Unreal::FGameplayTagNode>))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_GET_1_OFFSET))(this, nodeTree);
+			return ((::Foundation::Unreal::FGameplayTagNodeView(*)(::PVOID, ::System::ReadOnlySpan_1_F48FB86071006F3E<::Foundation::Unreal::FGameplayTagNode>))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_GET_1_OFFSET))(this, nodeTree);
 		}
 		*/
 
+		/*
 		static ::System::Int32 op_Implicit(::Foundation::Unreal::FGameplayTagNodeIndex index)
 		{
 			return ((::System::Int32(*)(::Foundation::Unreal::FGameplayTagNodeIndex))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_OP_IMPLICIT_OFFSET))(index);
 		}
+		*/
 
+		/*
 		static ::Foundation::Unreal::FGameplayTagNodeIndex op_Explicit(::System::Int32 index)
 		{
 			return ((::Foundation::Unreal::FGameplayTagNodeIndex(*)(::System::Int32))((::PBYTE)hIl2Cpp + FOUNDATION_UNREAL_FGAMEPLAYTAGNODEINDEX_OP_EXPLICIT_OFFSET))(index);
 		}
+		*/
 	};
 }

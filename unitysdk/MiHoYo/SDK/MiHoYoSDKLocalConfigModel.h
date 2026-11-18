@@ -6,17 +6,18 @@ namespace MiHoYo::SDK { class MiHoYoSDKConfigUrlModel; }
 namespace MiHoYo::SDK { class MiHoYoSDKEOSParametersModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKLOCALCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E2430)
+#define MIHOYO_SDK_MIHOYOSDKLOCALCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD4D080)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKLocalConfigModel_TypeDefinitionIndex = 37398;
+	inline static constexpr unsigned int MiHoYoSDKLocalConfigModel_TypeDefinitionIndex = 35376;
 
 	class MiHoYoSDKLocalConfigModel : public ::System::Object
 	{
 	public:
 		::System::String* area; // 0x10
 		::System::Int32 env; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* app_id; // 0x20
 		::System::String* app_key; // 0x28
 		::System::String* channel_id; // 0x30
@@ -26,6 +27,7 @@ namespace MiHoYo::SDK
 		::System::String* google_client_id; // 0x50
 		::System::String* domain_prefix; // 0x58
 		::System::Boolean enable_crash_sdk; // 0x60
+		::System::Byte _padding1[0x7];
 		::System::String* api_sdk_domain; // 0x68
 		::System::String* game_api_domain; // 0x70
 		::System::String* user_mihoyo_domain; // 0x78

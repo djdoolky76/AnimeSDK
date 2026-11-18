@@ -1,0 +1,96 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GMFAKIPCDED.h"
+#include "unitysdk/MoleMole/UIWindowController.h"
+
+class DGNKFBHKLMI;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIControllerContextBase; }
+namespace MoleMole { class UIZenkovAltarGetBuffDialogPopWindowController_Context; }
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x14E49D90)
+#define MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_HAAIEKALNLM_OFFSET UNITYSDK_OFFSET(0x14E4A4C0)
+#define MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_MLBHHAFJFED_OFFSET UNITYSDK_OFFSET(0x14E4A060)
+#define MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x14E4A270)
+#define MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x14E4A300)
+#define MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x14E49DA0)
+#define MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x14E49F30)
+#define MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x14E4A370)
+#define MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x14E4A380)
+#define MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x14E4A410)
+#define MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x14E4A420)
+#define MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET UNITYSDK_OFFSET(0x14E4A430)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIZenkovAltarGetBuffDialogPopWindowController_TypeDefinitionIndex = 88159;
+
+	class UIZenkovAltarGetBuffDialogPopWindowController : public ::MoleMole::UIWindowController
+	{
+	public:
+		::DGNKFBHKLMI* _view; // 0x320
+		::MoleMole::UIZenkovAltarGetBuffDialogPopWindowController_Context* DAAAEJDBNFI; // 0x328
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::GMFAKIPCDED get_windowType()
+		{
+			return ((::GMFAKIPCDED(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnUIOpen(::MoleMole::UIControllerContextBase* openCtrlContext)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_ONUIOPEN_OFFSET))(this, openCtrlContext);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIOpen(::MoleMole::UIControllerContextBase* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER___BASE_ONUIOPEN_OFFSET))(this, P0);
+		}
+
+		::System::Collections::Generic::List_1<::System::Object*>* MLBHHAFJFED(::System::Collections::Generic::List_1<::System::Object*>* DKPPEPAEBMF)
+		{
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_MLBHHAFJFED_OFFSET))(this, DKPPEPAEBMF);
+		}
+
+		::System::Void HAAIEKALNLM()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVALTARGETBUFFDIALOGPOPWINDOWCONTROLLER_HAAIEKALNLM_OFFSET))(this);
+		}
+	};
+}

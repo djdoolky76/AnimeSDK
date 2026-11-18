@@ -1,41 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ArraySegment_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/ArraySegment_1.h"
 
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define SYSTEM_NET_VALIDATIONHELPER_EXCEPTIONMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D476ED0)
-#define SYSTEM_NET_VALIDATIONHELPER_HASHSTRING_OFFSET UNITYSDK_OFFSET(0x1D4770C0)
-#define SYSTEM_NET_VALIDATIONHELPER_ISBLANKSTRING_OFFSET UNITYSDK_OFFSET(0x1D4771D0)
-#define SYSTEM_NET_VALIDATIONHELPER_ISINVALIDHTTPSTRING_OFFSET UNITYSDK_OFFSET(0x1D477150)
-#define SYSTEM_NET_VALIDATIONHELPER_MAKEEMPTYARRAYNULL_OFFSET UNITYSDK_OFFSET(0x1D476EA0)
-#define SYSTEM_NET_VALIDATIONHELPER_MAKESTRINGNULL_OFFSET UNITYSDK_OFFSET(0x1D476EC0)
-#define SYSTEM_NET_VALIDATIONHELPER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D476F70)
-#define SYSTEM_NET_VALIDATIONHELPER_VALIDATERANGE_OFFSET UNITYSDK_OFFSET(0x1D4771F0)
-#define SYSTEM_NET_VALIDATIONHELPER_VALIDATESEGMENT_OFFSET UNITYSDK_OFFSET(0x1D477200)
-#define SYSTEM_NET_VALIDATIONHELPER_VALIDATETCPPORT_OFFSET UNITYSDK_OFFSET(0x1D4771E0)
-#define SYSTEM_NET_VALIDATIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4772B0)
+#define SYSTEM_NET_VALIDATIONHELPER_EXCEPTIONMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D932030)
+#define SYSTEM_NET_VALIDATIONHELPER_HASHSTRING_OFFSET UNITYSDK_OFFSET(0x1D932220)
+#define SYSTEM_NET_VALIDATIONHELPER_ISBLANKSTRING_OFFSET UNITYSDK_OFFSET(0x1D932330)
+#define SYSTEM_NET_VALIDATIONHELPER_ISINVALIDHTTPSTRING_OFFSET UNITYSDK_OFFSET(0x1D9322B0)
+#define SYSTEM_NET_VALIDATIONHELPER_MAKEEMPTYARRAYNULL_OFFSET UNITYSDK_OFFSET(0x1D932000)
+#define SYSTEM_NET_VALIDATIONHELPER_MAKESTRINGNULL_OFFSET UNITYSDK_OFFSET(0x1D932020)
+#define SYSTEM_NET_VALIDATIONHELPER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D9320D0)
+#define SYSTEM_NET_VALIDATIONHELPER_VALIDATERANGE_OFFSET UNITYSDK_OFFSET(0x1D932350)
+#define SYSTEM_NET_VALIDATIONHELPER_VALIDATESEGMENT_OFFSET UNITYSDK_OFFSET(0x1D932360)
+#define SYSTEM_NET_VALIDATIONHELPER_VALIDATETCPPORT_OFFSET UNITYSDK_OFFSET(0x1D932340)
+#define SYSTEM_NET_VALIDATIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D932410)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ValidationHelper_TypeDefinitionIndex = 3296;
+	inline static constexpr unsigned int ValidationHelper_TypeDefinitionIndex = 3295;
 
 	class ValidationHelper : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Char>** StaticGet_InvalidMethodChars()
+		static ::Il2CppArray<::System::Char>** StaticGet_InvalidParamChars()
 		{
 			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x3A70);
 		}
+		static ::Il2CppArray<::System::Char>** StaticGet_InvalidMethodChars()
+		{
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x3A78);
+		}
 		static ::Il2CppArray<::System::String*>** StaticGet_EmptyArray()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x3A78);
-		}
-		static ::Il2CppArray<::System::Char>** StaticGet_InvalidParamChars()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x3A80);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x3A80);
 		}
 
 		static ::System::Void _cctor()

@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_FA5F50563E60AFBA.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/MGHNAPKHBOG.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_CB7F0487F7A6164A;
+class OAMAMDGEJKH;
 namespace MoleMole::Battle { class Entity; }
 namespace MoleMole::Config { class ConfigEntityFitlerGroup; }
 namespace MoleMole::Config { class ConfigTargetSelector; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_362775B16C5200E9_OFFSET UNITYSDK_OFFSET(0x14378670)
-#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_47AAF35A19FE0AC5_OFFSET UNITYSDK_OFFSET(0x143779C0)
-#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_66D499ED31BFADB3_OFFSET UNITYSDK_OFFSET(0x14377E90)
-#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_8B62F4A57E9D5D14_OFFSET UNITYSDK_OFFSET(0x14378090)
-#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_8E9F7E1960DBA771_OFFSET UNITYSDK_OFFSET(0x14376D40)
-#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_B7399609554C9FE3_OFFSET UNITYSDK_OFFSET(0x14377BF0)
-#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_E9405DA82FD30275_OFFSET UNITYSDK_OFFSET(0x14377D10)
-#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_FF51A47BF962B849_OFFSET UNITYSDK_OFFSET(0x14361530)
-#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x143777C0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_BGJAKDDIJND_OFFSET UNITYSDK_OFFSET(0x121C1ED0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_CLDMMLKAJNH_OFFSET UNITYSDK_OFFSET(0x121C3150)
+#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_HLBICAJCONK_OFFSET UNITYSDK_OFFSET(0x121C2B70)
+#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_IAGAHGGEADC_OFFSET UNITYSDK_OFFSET(0x121C36F0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_KCHABHAOHFE_OFFSET UNITYSDK_OFFSET(0x121C34F0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_LEFBCBONKDF_OFFSET UNITYSDK_OFFSET(0x121AB2A0)
+#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_MANELMPCGKA_OFFSET UNITYSDK_OFFSET(0x121C3A40)
+#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET_OKPIFHOADOF_OFFSET UNITYSDK_OFFSET(0x121C3810)
+#define MOLEMOLE_CONFIG_CONFIGLOCKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x121C2970)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLockTarget_TypeDefinitionIndex = 79082;
+	inline static constexpr unsigned int ConfigLockTarget_TypeDefinitionIndex = 39786;
 
 	class ConfigLockTarget : public ::System::Object
 	{
 	public:
 		::MoleMole::Config::ConfigEntityFitlerGroup* filterGroup; // 0x10
 		::MoleMole::Config::ConfigTargetSelector* targetSelector; // 0x18
-		::System::Collections::Generic::List_1<::Class_1_CB7F0487F7A6164A*>* debugCandidateList; // 0x20
-		::System::Collections::Generic::List_1<::Class_1_CB7F0487F7A6164A*>* candidateListByDistance; // 0x28
-		::System::Collections::Generic::List_1<::Class_1_CB7F0487F7A6164A*>* candidateListByDistancePerEntity; // 0x30
+		::System::Collections::Generic::List_1<::OAMAMDGEJKH*>* debugCandidateList; // 0x20
+		::System::Collections::Generic::List_1<::OAMAMDGEJKH*>* candidateListByDistance; // 0x28
+		::System::Collections::Generic::List_1<::OAMAMDGEJKH*>* candidateListByDistancePerEntity; // 0x30
 		::System::Collections::Generic::List_1<::System::UInt32>* filteredCandidateList; // 0x38
 
 		::System::Void _ctor()
@@ -40,44 +40,44 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET__CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::Class_1_CB7F0487F7A6164A*>* Method_1_8E9F7E1960DBA771(::MoleMole::Battle::Entity* a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Single a3, ::UnityEngine::Vector3 a4, ::System::Boolean& a5)
+		::System::Collections::Generic::List_1<::OAMAMDGEJKH*>* BGJAKDDIJND(::MoleMole::Battle::Entity* AMNIHACKELI, ::System::Collections::Generic::List_1<::System::UInt32>* NMLHOFLPLCD, ::System::Single KGKGLNJAJGN, ::UnityEngine::Vector3 MDEICMIHPPC, ::System::Boolean& OKJLNMAKEML)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_CB7F0487F7A6164A*>*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Single, ::UnityEngine::Vector3, ::System::Boolean&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_8E9F7E1960DBA771_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Collections::Generic::List_1<::OAMAMDGEJKH*>*(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Single, ::UnityEngine::Vector3, ::System::Boolean&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_BGJAKDDIJND_OFFSET))(this, AMNIHACKELI, NMLHOFLPLCD, KGKGLNJAJGN, MDEICMIHPPC, OKJLNMAKEML);
 		}
 
-		::System::Collections::Generic::List_1<::System::UInt32>* Method_1_47AAF35A19FE0AC5(::MoleMole::Battle::Entity* a1)
+		::System::Void HLBICAJCONK(::System::Collections::Generic::List_1<::System::UInt32>* NMLHOFLPLCD)
 		{
-			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_47AAF35A19FE0AC5_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_HLBICAJCONK_OFFSET))(this, NMLHOFLPLCD);
 		}
 
-		::Struct_2_FA5F50563E60AFBA Method_1_FF51A47BF962B849(::MoleMole::Battle::Entity* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>* a8)
+		::MGHNAPKHBOG CLDMMLKAJNH(::MGHNAPKHBOG HCOKBKFECIC)
 		{
-			return ((::Struct_2_FA5F50563E60AFBA(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_FF51A47BF962B849_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::MGHNAPKHBOG(*)(::PVOID, ::MGHNAPKHBOG))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_CLDMMLKAJNH_OFFSET))(this, HCOKBKFECIC);
 		}
 
-		::System::Boolean Method_1_E9405DA82FD30275(::MoleMole::Battle::Entity* a1)
+		::System::Collections::Generic::List_1<::System::UInt32>* KCHABHAOHFE(::MoleMole::Battle::Entity* OMPHGGCEIBD)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_E9405DA82FD30275_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_KCHABHAOHFE_OFFSET))(this, OMPHGGCEIBD);
 		}
 
-		::System::Collections::Generic::List_1<::System::UInt32>* Method_1_66D499ED31BFADB3(::MoleMole::Battle::Entity* a1)
+		::System::Collections::Generic::List_1<::System::UInt32>* OKPIFHOADOF(::MoleMole::Battle::Entity* OMPHGGCEIBD)
 		{
-			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_66D499ED31BFADB3_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_OKPIFHOADOF_OFFSET))(this, OMPHGGCEIBD);
 		}
 
-		::System::Void Method_1_8B62F4A57E9D5D14(::System::Collections::Generic::List_1<::System::UInt32>* a1)
+		::MGHNAPKHBOG LEFBCBONKDF(::MoleMole::Battle::Entity* AMNIHACKELI, ::System::Boolean IMNFFBEOLCD, ::System::Boolean GDBMNPFHEMF, ::System::Boolean GHCOJHODPLJ, ::System::Boolean JCKGCHEOBCA, ::System::Boolean LLOOEPCHLBN, ::System::Boolean KCFDOHCLAKL, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>* JCLLEIHKKMA, ::MoleMole::Battle::Entity* HGLDEJMEIBC)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_8B62F4A57E9D5D14_OFFSET))(this, a1);
+			return ((::MGHNAPKHBOG(*)(::PVOID, ::MoleMole::Battle::Entity*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Func_3<::MoleMole::Battle::Entity*, ::MoleMole::Battle::Entity*, ::System::Boolean>*, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_LEFBCBONKDF_OFFSET))(this, AMNIHACKELI, IMNFFBEOLCD, GDBMNPFHEMF, GHCOJHODPLJ, JCKGCHEOBCA, LLOOEPCHLBN, KCFDOHCLAKL, JCLLEIHKKMA, HGLDEJMEIBC);
 		}
 
-		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* Method_1_B7399609554C9FE3(::MoleMole::Battle::Entity* a1)
+		::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>* IAGAHGGEADC(::MoleMole::Battle::Entity* AMNIHACKELI)
 		{
-			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_B7399609554C9FE3_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::MoleMole::Battle::Entity*>*(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_IAGAHGGEADC_OFFSET))(this, AMNIHACKELI);
 		}
 
-		::Struct_2_FA5F50563E60AFBA Method_1_362775B16C5200E9(::Struct_2_FA5F50563E60AFBA a1)
+		::System::Boolean MANELMPCGKA(::MoleMole::Battle::Entity* HOLFNDIMGJJ)
 		{
-			return ((::Struct_2_FA5F50563E60AFBA(*)(::PVOID, ::Struct_2_FA5F50563E60AFBA))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_METHOD_1_362775B16C5200E9_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOCKTARGET_MANELMPCGKA_OFFSET))(this, HOLFNDIMGJJ);
 		}
 	};
 }

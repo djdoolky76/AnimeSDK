@@ -7,41 +7,46 @@
 namespace MoleMole::Config { class ConfigSoundActionGeneral; }
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINEDATA_GETDEFAULTNEEDDISPLAYTIMELINERESOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1B6CD1F0)
-#define MOLEMOLE_TIMELINEDATA_GETIGNORETIMELINERESOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1B6CD1B0)
-#define MOLEMOLE_TIMELINEDATA_GET_AUDIORESPATH_OFFSET UNITYSDK_OFFSET(0x1B6CD080)
-#define MOLEMOLE_TIMELINEDATA_GET_FINALTIMELINERESPATH_OFFSET UNITYSDK_OFFSET(0x1B6CD090)
-#define MOLEMOLE_TIMELINEDATA_GET_RESPATH_OFFSET UNITYSDK_OFFSET(0x1B6CD070)
-#define MOLEMOLE_TIMELINEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6CD240)
-#define MOLEMOLE_TIMELINEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CD230)
+#define MOLEMOLE_TIMELINEDATA_GETDEFAULTNEEDDISPLAYTIMELINERESOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1A73F440)
+#define MOLEMOLE_TIMELINEDATA_GETIGNORETIMELINERESOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1A73F400)
+#define MOLEMOLE_TIMELINEDATA_GET_AUDIORESPATH_OFFSET UNITYSDK_OFFSET(0x1A73F2D0)
+#define MOLEMOLE_TIMELINEDATA_GET_FINALTIMELINERESPATH_OFFSET UNITYSDK_OFFSET(0x1A73F2E0)
+#define MOLEMOLE_TIMELINEDATA_GET_RESPATH_OFFSET UNITYSDK_OFFSET(0x1A73F2C0)
+#define MOLEMOLE_TIMELINEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A73F490)
+#define MOLEMOLE_TIMELINEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A73F480)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TimelineData_TypeDefinitionIndex = 52083;
+	inline static constexpr unsigned int TimelineData_TypeDefinitionIndex = 78814;
 
 	class TimelineData : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_C_LanStrList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TimelineData_TypeDefinitionIndex)->GetStaticField(0x3CCE0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TimelineData_TypeDefinitionIndex)->GetStaticField(0x3EBC0);
 		}
 		// static const ::System::String* C_PlayableAffix; // 0x0
 		::System::String* _resPath; // 0x10
 		::System::String* _audioResPath; // 0x18
 		::System::Boolean IgnoreTimelineResOverride; // 0x20
+		::System::Boolean SyncFinalCameraState; // 0x21
+		::System::Byte _padding0[0x6];
 		::System::String* timelineResPath; // 0x28
 		::System::String* timelineResPathFemale; // 0x30
 		::System::String* beginBGMEvent; // 0x38
 		::System::String* endBGMEvent; // 0x40
 		::System::Single endBGMDelayTime; // 0x48
+		::System::Byte _padding1[0x4];
 		::MoleMole::Config::ConfigSoundActionGeneral* beginSoundAction; // 0x50
 		::MoleMole::Config::ConfigSoundActionGeneral* endSoundAction; // 0x58
 		::System::Boolean customSoundFadBehaviour; // 0x60
 		::System::Boolean soundNotStopPlaying; // 0x61
+		::System::Byte _padding2[0x2];
 		::System::Int32 soundFadeTime; // 0x64
 		::AkCurveInterpolation soundFadeCurve; // 0x68
 		::System::Boolean EnableOverrideDirectorWrapMode; // 0x6C
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Playables::DirectorWrapMode OverrideDirectorWrapMode; // 0x70
 
 		::System::Void _ctor()

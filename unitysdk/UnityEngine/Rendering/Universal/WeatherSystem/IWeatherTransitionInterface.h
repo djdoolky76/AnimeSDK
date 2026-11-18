@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int IWeatherTransitionInterface_TypeDefinitionIndex = 27244;
+	inline static constexpr unsigned int IWeatherTransitionInterface_TypeDefinitionIndex = 27057;
 
 	class IWeatherTransitionInterface
 	{

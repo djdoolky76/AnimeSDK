@@ -3,7 +3,7 @@
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int MeshVertexAttributes_TypeDefinitionIndex = 28260;
+	inline static constexpr unsigned int MeshVertexAttributes_TypeDefinitionIndex = 27678;
 
 	enum class MeshVertexAttributes : ::System::Int32
 	{

@@ -4,15 +4,16 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SCHEMA_FACETSCHECKER_FACETSCOMPILER_MAP__CTOR_OFFSET UNITYSDK_OFFSET(0x4520A0)
+#define SYSTEM_XML_SCHEMA_FACETSCHECKER_FACETSCOMPILER_MAP__CTOR_OFFSET UNITYSDK_OFFSET(0x4046C0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int FacetsChecker_FacetsCompiler_Map_TypeDefinitionIndex = 2054;
+	inline static constexpr unsigned int FacetsChecker_FacetsCompiler_Map_TypeDefinitionIndex = 2053;
 
 	struct alignas(8) FacetsChecker_FacetsCompiler_Map
 	{
 		::System::Char match; // 0x10
+		::System::Byte _padding0[0x6];
 		::System::String* replacement; // 0x18
 
 		::System::Void _ctor(::System::Char m, ::System::String* r)

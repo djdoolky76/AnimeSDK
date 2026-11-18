@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigMaterialKeywordCondition; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGMATERIALKEYWORDCONDITIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x13501770)
+#define MOLEMOLE_CONFIG_CONFIGMATERIALKEYWORDCONDITIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B925130)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMaterialKeywordConditions_TypeDefinitionIndex = 66360;
+	inline static constexpr unsigned int ConfigMaterialKeywordConditions_TypeDefinitionIndex = 67379;
 
 	class ConfigMaterialKeywordConditions : public ::Foundation::MihoyoSerializedScriptableObject
 	{

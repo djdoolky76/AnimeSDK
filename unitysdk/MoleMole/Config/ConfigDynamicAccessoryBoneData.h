@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGDYNAMICACCESSORYBONEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1146EA70)
+#define MOLEMOLE_CONFIG_CONFIGDYNAMICACCESSORYBONEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x131E1FB0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigDynamicAccessoryBoneData_TypeDefinitionIndex = 90083;
+	inline static constexpr unsigned int ConfigDynamicAccessoryBoneData_TypeDefinitionIndex = 40914;
 
 	class ConfigDynamicAccessoryBoneData : public ::System::Object
 	{

@@ -1,0 +1,169 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IHNCCABJGPA.h"
+#include "unitysdk/KOLFGAALPJM.h"
+#include "unitysdk/MFEIKFOLILJ.h"
+
+class EIMGMBNCJON;
+class KOHPAOOBMGD;
+class OMKHOPABFDJ;
+class PPPHCHDBPKE;
+namespace System { class Object; }
+namespace System { class String; }
+template <typename T> class DFDEIDBBGHG_1;
+template <typename T> class INKCDCHNIJD_1;
+
+#define NALBINOGOJE_AGNKHOHENBD_OFFSET UNITYSDK_OFFSET(0x1C7AFBA0)
+#define NALBINOGOJE_BODOFCJDMIC_OFFSET UNITYSDK_OFFSET(0x1C7AF960)
+#define NALBINOGOJE_CNEDMCLLNHA_OFFSET UNITYSDK_OFFSET(0x1C7AF940)
+#define NALBINOGOJE_DEJBOKDOGCD_OFFSET UNITYSDK_OFFSET(0x1C7AF9F0)
+#define NALBINOGOJE_DGNAAPGKIPL_OFFSET UNITYSDK_OFFSET(0x1C7AF440)
+#define NALBINOGOJE_DKHALDDAFFC_OFFSET UNITYSDK_OFFSET(0x1C7AF380)
+#define NALBINOGOJE_EFGBEHCBDNI_OFFSET UNITYSDK_OFFSET(0x1C7AF950)
+#define NALBINOGOJE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1C7AF670)
+#define NALBINOGOJE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C7AF5F0)
+#define NALBINOGOJE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C7AF6B0)
+#define NALBINOGOJE_GIALDDHFBLF_OFFSET UNITYSDK_OFFSET(0x1C7AF540)
+#define NALBINOGOJE_GNJDPDMEBHE_OFFSET UNITYSDK_OFFSET(0x1C7AFC40)
+#define NALBINOGOJE_HBDBJDANMLP_OFFSET UNITYSDK_OFFSET(0x1C7AF390)
+#define NALBINOGOJE_JKELAOKCLJP_OFFSET UNITYSDK_OFFSET(0x1C7AF860)
+#define NALBINOGOJE_LEHECPACPJD_OFFSET UNITYSDK_OFFSET(0x1C7AFB10)
+#define NALBINOGOJE_METHOD_19_OFFSET UNITYSDK_OFFSET(0x1C7AFAD0)
+#define NALBINOGOJE_MNGHBPNCMPK_OFFSET UNITYSDK_OFFSET(0x1C7AF830)
+#define NALBINOGOJE_NNMIABKFEOJ_1_OFFSET UNITYSDK_OFFSET(0x1C7AF910)
+#define NALBINOGOJE_NNMIABKFEOJ_OFFSET UNITYSDK_OFFSET(0x1C7AF8E0)
+#define NALBINOGOJE_NPOLNFDBOOD_OFFSET UNITYSDK_OFFSET(0x1C7AF970)
+#define NALBINOGOJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C7AF7B0)
+#define NALBINOGOJE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C7AFA30)
+#define NALBINOGOJE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7AF3A0)
+
+inline static constexpr unsigned int NALBINOGOJE_TypeDefinitionIndex = 22233;
+
+class NALBINOGOJE : public ::IHNCCABJGPA
+{
+public:
+	static ::KOHPAOOBMGD** StaticGet_ELKODHCMHMN()
+	{
+		return (::KOHPAOOBMGD**)Il2CppClass::FromTypeDefinitionIndex(NALBINOGOJE_TypeDefinitionIndex)->GetStaticField(0x1E680);
+	}
+	static ::INKCDCHNIJD_1<::System::UInt32>** StaticGet_JFKCFPFGMKD()
+	{
+		return (::INKCDCHNIJD_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(NALBINOGOJE_TypeDefinitionIndex)->GetStaticField(0x1E688);
+	}
+	::DFDEIDBBGHG_1<::System::UInt32>* OFAOBCLLBDH; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NALBINOGOJE__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NALBINOGOJE__CCTOR_OFFSET))();
+	}
+
+	::System::UInt16 DKHALDDAFFC()
+	{
+		return ((::System::UInt16(*)(::PVOID))((::PBYTE)hIl2Cpp + NALBINOGOJE_DKHALDDAFFC_OFFSET))(this);
+	}
+
+	::EIMGMBNCJON* HBDBJDANMLP()
+	{
+		return ((::EIMGMBNCJON*(*)(::PVOID))((::PBYTE)hIl2Cpp + NALBINOGOJE_HBDBJDANMLP_OFFSET))(this);
+	}
+
+	::NALBINOGOJE* DGNAAPGKIPL()
+	{
+		return ((::NALBINOGOJE*(*)(::PVOID))((::PBYTE)hIl2Cpp + NALBINOGOJE_DGNAAPGKIPL_OFFSET))(this);
+	}
+
+	::System::Boolean Equals(::System::Object* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + NALBINOGOJE_EQUALS_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Boolean Equals_1(::NALBINOGOJE* LIBPKNHDIGP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::NALBINOGOJE*))((::PBYTE)hIl2Cpp + NALBINOGOJE_EQUALS_1_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NALBINOGOJE_GETHASHCODE_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NALBINOGOJE_TOSTRING_OFFSET))(this);
+	}
+
+	::System::Void MNGHBPNCMPK(::OMKHOPABFDJ* AJMCCOEAIFE)
+	{
+		return ((::System::Void(*)(::PVOID, ::OMKHOPABFDJ*))((::PBYTE)hIl2Cpp + NALBINOGOJE_MNGHBPNCMPK_OFFSET))(this, AJMCCOEAIFE);
+	}
+
+	::System::Int32 JKELAOKCLJP()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NALBINOGOJE_JKELAOKCLJP_OFFSET))(this);
+	}
+
+	::System::Void NNMIABKFEOJ(::NALBINOGOJE* LIBPKNHDIGP)
+	{
+		return ((::System::Void(*)(::PVOID, ::NALBINOGOJE*))((::PBYTE)hIl2Cpp + NALBINOGOJE_NNMIABKFEOJ_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	::System::Void NNMIABKFEOJ_1(::PPPHCHDBPKE* HLFFCMIFFIB)
+	{
+		return ((::System::Void(*)(::PVOID, ::PPPHCHDBPKE*))((::PBYTE)hIl2Cpp + NALBINOGOJE_NNMIABKFEOJ_1_OFFSET))(this, HLFFCMIFFIB);
+	}
+
+	::System::Void CNEDMCLLNHA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NALBINOGOJE_CNEDMCLLNHA_OFFSET))(this);
+	}
+
+	::System::Void EFGBEHCBDNI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NALBINOGOJE_EFGBEHCBDNI_OFFSET))(this);
+	}
+
+	::System::Void BODOFCJDMIC(::System::Boolean EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NALBINOGOJE_BODOFCJDMIC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void NPOLNFDBOOD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NALBINOGOJE_NPOLNFDBOOD_OFFSET))(this);
+	}
+
+	::System::Void DEJBOKDOGCD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NALBINOGOJE_DEJBOKDOGCD_OFFSET))(this);
+	}
+
+	::System::Void GIALDDHFBLF(::NALBINOGOJE* LIBPKNHDIGP)
+	{
+		return ((::System::Void(*)(::PVOID, ::NALBINOGOJE*))((::PBYTE)hIl2Cpp + NALBINOGOJE_GIALDDHFBLF_OFFSET))(this, LIBPKNHDIGP);
+	}
+
+	static ::NALBINOGOJE* Method_19()
+	{
+		return ((::NALBINOGOJE*(*)())((::PBYTE)hIl2Cpp + NALBINOGOJE_METHOD_19_OFFSET))();
+	}
+
+	::System::Void LEHECPACPJD(::KOLFGAALPJM& AJMCCOEAIFE)
+	{
+		return ((::System::Void(*)(::PVOID, ::KOLFGAALPJM&))((::PBYTE)hIl2Cpp + NALBINOGOJE_LEHECPACPJD_OFFSET))(this, AJMCCOEAIFE);
+	}
+
+	::System::Void AGNKHOHENBD(::MFEIKFOLILJ& HLFFCMIFFIB)
+	{
+		return ((::System::Void(*)(::PVOID, ::MFEIKFOLILJ&))((::PBYTE)hIl2Cpp + NALBINOGOJE_AGNKHOHENBD_OFFSET))(this, HLFFCMIFFIB);
+	}
+
+	::DFDEIDBBGHG_1<::System::UInt32>* GNJDPDMEBHE()
+	{
+		return ((::DFDEIDBBGHG_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NALBINOGOJE_GNJDPDMEBHE_OFFSET))(this);
+	}
+};

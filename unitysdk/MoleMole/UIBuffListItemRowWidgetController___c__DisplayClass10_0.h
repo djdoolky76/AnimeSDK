@@ -5,12 +5,12 @@
 namespace MoleMole { class UIBuffListItemRowWidgetController; }
 namespace MoleMole { class UIBuffListItemRowWidgetController_BuffListItemData; }
 
-#define MOLEMOLE_UIBUFFLISTITEMROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16D61F10)
-#define MOLEMOLE_UIBUFFLISTITEMROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x16D61F20)
+#define MOLEMOLE_UIBUFFLISTITEMROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17EDC9F0)
+#define MOLEMOLE_UIBUFFLISTITEMROWWIDGETCONTROLLER___C__DISPLAYCLASS10_0__ONSCROLLITEMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x17EDCA00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBuffListItemRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 61635;
+	inline static constexpr unsigned int UIBuffListItemRowWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 63963;
 
 	class UIBuffListItemRowWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{

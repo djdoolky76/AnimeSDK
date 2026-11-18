@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_F2DAD7F45F518868;
+class COCJHGGDBCA;
 namespace System { template <typename T> class Action_1; }
 
-#define NPCCROWD_LOD_NPCCROWDVISIBLESUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13DF5700)
-#define NPCCROWD_LOD_NPCCROWDVISIBLESUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13DF5740)
-#define NPCCROWD_LOD_NPCCROWDVISIBLESUBSYSTEM___C__PREPARERENDERERVISIBILITYQUERY_B__18_0_OFFSET UNITYSDK_OFFSET(0x13DF5750)
+#define NPCCROWD_LOD_NPCCROWDVISIBLESUBSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE0D3960)
+#define NPCCROWD_LOD_NPCCROWDVISIBLESUBSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE0D39A0)
+#define NPCCROWD_LOD_NPCCROWDVISIBLESUBSYSTEM___C__PREPARERENDERERVISIBILITYQUERY_B__19_0_OFFSET UNITYSDK_OFFSET(0xE0D39B0)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdVisibleSubSystem___c_TypeDefinitionIndex = 47201;
+	inline static constexpr unsigned int NPCCrowdVisibleSubSystem___c_TypeDefinitionIndex = 92535;
 
 	class NPCCrowdVisibleSubSystem___c : public ::System::Object
 	{
 	public:
-		static ::NPCCrowd::Lod::NPCCrowdVisibleSubSystem___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::NPCCrowd::Lod::NPCCrowdVisibleSubSystem___c**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdVisibleSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x41060);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdVisibleSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x45790);
 		}
-		static ::System::Action_1<::Class_3_F2DAD7F45F518868*>** StaticGet___9__18_0()
+		static ::System::Action_1<::COCJHGGDBCA*>** StaticGet___9__19_0()
 		{
-			return (::System::Action_1<::Class_3_F2DAD7F45F518868*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdVisibleSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x41068);
+			return (::System::Action_1<::COCJHGGDBCA*>**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdVisibleSubSystem___c_TypeDefinitionIndex)->GetStaticField(0x45798);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace NPCCrowd::Lod
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDVISIBLESUBSYSTEM___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PrepareRendererVisibilityQuery_b__18_0(::Class_3_F2DAD7F45F518868* npcComp)
+		::System::Void _PrepareRendererVisibilityQuery_b__19_0(::COCJHGGDBCA* npcComp)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F2DAD7F45F518868*))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDVISIBLESUBSYSTEM___C__PREPARERENDERERVISIBILITYQUERY_B__18_0_OFFSET))(this, npcComp);
+			return ((::System::Void(*)(::PVOID, ::COCJHGGDBCA*))((::PBYTE)hIl2Cpp + NPCCROWD_LOD_NPCCROWDVISIBLESUBSYSTEM___C__PREPARERENDERERVISIBILITYQUERY_B__19_0_OFFSET))(this, npcComp);
 		}
 	};
 }

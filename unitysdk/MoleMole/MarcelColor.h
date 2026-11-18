@@ -3,13 +3,13 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MarcelColor_TypeDefinitionIndex = 71960;
+	inline static constexpr unsigned int MarcelColor_TypeDefinitionIndex = 39779;
 
 	enum class MarcelColor : ::System::Int32
 	{
-		Value_2 = 2,
-		Value_0 = 0,
-		Value_3 = 3,
-		Value_1 = 1,
+		______ = 3,
+		______ = 0,
+		______ = 1,
+		______ = 2,
 	};
 }

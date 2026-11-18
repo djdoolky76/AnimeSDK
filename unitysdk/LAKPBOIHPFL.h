@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BLPJECICNDE.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
+
+class FKNIEPCILLG;
+namespace System { class String; }
+
+#define LAKPBOIHPFL_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x15DDC590)
+#define LAKPBOIHPFL_FROMFLX_OFFSET UNITYSDK_OFFSET(0x15DDC800)
+#define LAKPBOIHPFL_IAEALJJMOKA_OFFSET UNITYSDK_OFFSET(0x15DDC5F0)
+#define LAKPBOIHPFL_PDHKICNJNGG_OFFSET UNITYSDK_OFFSET(0x15DDC880)
+#define LAKPBOIHPFL__CTOR_OFFSET UNITYSDK_OFFSET(0x15DDCCE0)
+
+inline static constexpr unsigned int LAKPBOIHPFL_TypeDefinitionIndex = 72999;
+
+class LAKPBOIHPFL : public ::System::Object
+{
+public:
+	::System::Object* GPIOJBLKFAJ; // 0x10
+	::System::String* CPPBEJCMFME; // 0x18
+	::BLPJECICNDE KGJGBAJEAPJ; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LAKPBOIHPFL__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean FromBinary(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + LAKPBOIHPFL_FROMBINARY_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
+	}
+
+	::System::Boolean FromFlx(::FlexBuffers::FlxValue HHIJHDFHPOI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + LAKPBOIHPFL_FROMFLX_OFFSET))(this, HHIJHDFHPOI);
+	}
+
+	::System::Boolean IAEALJJMOKA(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + LAKPBOIHPFL_IAEALJJMOKA_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
+	}
+
+	::System::Boolean PDHKICNJNGG(::FlexBuffers::FlxMap HHIJHDFHPOI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + LAKPBOIHPFL_PDHKICNJNGG_OFFSET))(this, HHIJHDFHPOI);
+	}
+};

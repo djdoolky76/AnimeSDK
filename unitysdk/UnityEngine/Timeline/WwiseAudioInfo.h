@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_TIMELINE_WWISEAUDIOINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3ACDA0)
+#define UNITYENGINE_TIMELINE_WWISEAUDIOINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6E8BC0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int WwiseAudioInfo_TypeDefinitionIndex = 33076;
+	inline static constexpr unsigned int WwiseAudioInfo_TypeDefinitionIndex = 32535;
 
 	class WwiseAudioInfo : public ::System::Object
 	{

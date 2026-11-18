@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_2DDAC2F6C97EB8AD;
-class Class_1_9B5953640339AD7B;
+class CLPEHLLCADI;
+class GCFEDDFHGLD;
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_PERLINNOISECONFIG_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x144E4BA0)
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_PERLINNOISECONFIG_NOISEPOINT_OFFSET UNITYSDK_OFFSET(0x144E49E0)
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_PERLINNOISECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x144E4DE0)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_PERLINNOISECONFIG_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x104329D0)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_PERLINNOISECONFIG_NOISEPOINT_OFFSET UNITYSDK_OFFSET(0x10432810)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_PERLINNOISECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10432C10)
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int PerlinNoiseConfig_TypeDefinitionIndex = 57967;
+	inline static constexpr unsigned int PerlinNoiseConfig_TypeDefinitionIndex = 43769;
 
 	class PerlinNoiseConfig : public ::System::Object
 	{
@@ -22,13 +22,16 @@ namespace MoleMole::MonoEffectContrllerModule
 		::System::Boolean Enable; // 0x10
 		::System::Boolean EnableStrengthRandom; // 0x11
 		::System::Boolean EnableFrequenceRandom; // 0x12
+		::System::Byte _padding0[0x1];
 		::UnityEngine::Vector3 NoiseStrength; // 0x14
 		::UnityEngine::Vector3 NoiseStrengthExt; // 0x20
 		::System::Int32 Frequence; // 0x2C
 		::System::Int32 FrequenceExt; // 0x30
 		::System::Boolean EnableDynamicByTime; // 0x34
+		::System::Byte _padding1[0x3];
 		::System::Single TimeScale; // 0x38
 		::System::Boolean EnableBlendCurve; // 0x3C
+		::System::Byte _padding2[0x3];
 		::UnityEngine::AnimationCurve* NoiseBlendCurve; // 0x40
 
 		::System::Void _ctor()
@@ -41,9 +44,9 @@ namespace MoleMole::MonoEffectContrllerModule
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_PERLINNOISECONFIG_NOISEPOINT_OFFSET))(this, inValue, overrideStrength, overriderFrequence, time, globalTime);
 		}
 
-		::Class_1_9B5953640339AD7B* CreateInstance(::Class_1_2DDAC2F6C97EB8AD* randomGenerator)
+		::GCFEDDFHGLD* CreateInstance(::CLPEHLLCADI* randomGenerator)
 		{
-			return ((::Class_1_9B5953640339AD7B*(*)(::PVOID, ::Class_1_2DDAC2F6C97EB8AD*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_PERLINNOISECONFIG_CREATEINSTANCE_OFFSET))(this, randomGenerator);
+			return ((::GCFEDDFHGLD*(*)(::PVOID, ::CLPEHLLCADI*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_PERLINNOISECONFIG_CREATEINSTANCE_OFFSET))(this, randomGenerator);
 		}
 	};
 }

@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class ScreenSpaceShadowResolvePassNativeState; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E7D3370)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E7D33A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1E7D3340)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D32C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E97FF60)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E97FF90)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1E97FF30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCREENSPACESHADOWRESOLVEPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E97FEB0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ScreenSpaceShadowResolvePass_NativeImpl_TypeDefinitionIndex = 5776;
+	inline static constexpr unsigned int ScreenSpaceShadowResolvePass_NativeImpl_TypeDefinitionIndex = 5781;
 
 	class ScreenSpaceShadowResolvePass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

@@ -4,13 +4,13 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 #include "unitysdk/MoleMole/Config/EnterBattleState.h"
 
-#define MOLEMOLE_CHECKENTERBATTLESTATEBASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12A2D4B0)
-#define MOLEMOLE_CHECKENTERBATTLESTATEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x12A2D510)
-#define MOLEMOLE_CHECKENTERBATTLESTATEBASE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12A2D5A0)
+#define MOLEMOLE_CHECKENTERBATTLESTATEBASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19274C30)
+#define MOLEMOLE_CHECKENTERBATTLESTATEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19274C90)
+#define MOLEMOLE_CHECKENTERBATTLESTATEBASE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19274D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CheckEnterBattleStateBase_TypeDefinitionIndex = 60216;
+	inline static constexpr unsigned int CheckEnterBattleStateBase_TypeDefinitionIndex = 81666;
 
 	class CheckEnterBattleStateBase : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{

@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1FB20DF0)
-#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB20EC0)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1FF1B770)
+#define UNITYENGINE_TIMELINE_IMGSPLITSCREENGROUPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1B840)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ImgSplitScreenGroupTrack_TypeDefinitionIndex = 32983;
+	inline static constexpr unsigned int ImgSplitScreenGroupTrack_TypeDefinitionIndex = 32438;
 
 	class ImgSplitScreenGroupTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

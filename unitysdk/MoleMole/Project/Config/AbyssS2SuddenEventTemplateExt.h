@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/FlatBuffers/Config/AbyssS2SuddenEventTemplate.h"
-#include "unitysdk/Struct_2_3E75877A2888D88A_937.h"
+#include "unitysdk/LLFIEKLMILG.h"
 
-class Class_0_16E4307DCC419505_7;
+class KGBFLHNJHHN;
 
-#define MOLEMOLE_PROJECT_CONFIG_ABYSSS2SUDDENEVENTTEMPLATEEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A193C70)
+#define MOLEMOLE_PROJECT_CONFIG_ABYSSS2SUDDENEVENTTEMPLATEEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E190F0)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int AbyssS2SuddenEventTemplateExt_TypeDefinitionIndex = 13424;
+	inline static constexpr unsigned int AbyssS2SuddenEventTemplateExt_TypeDefinitionIndex = 14932;
 
 	class AbyssS2SuddenEventTemplateExt : public ::MoleMole::FlatBuffers::Config::AbyssS2SuddenEventTemplate
 	{
 	public:
-		::System::Void _ctor(::Struct_2_3E75877A2888D88A_937 data, ::Class_0_16E4307DCC419505_7* notify)
+		::System::Void _ctor(::LLFIEKLMILG data, ::KGBFLHNJHHN* notify)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_3E75877A2888D88A_937, ::Class_0_16E4307DCC419505_7*))((::PBYTE)hIl2Cpp + MOLEMOLE_PROJECT_CONFIG_ABYSSS2SUDDENEVENTTEMPLATEEXT__CTOR_OFFSET))(this, data, notify);
+			return ((::System::Void(*)(::PVOID, ::LLFIEKLMILG, ::KGBFLHNJHHN*))((::PBYTE)hIl2Cpp + MOLEMOLE_PROJECT_CONFIG_ABYSSS2SUDDENEVENTTEMPLATEEXT__CTOR_OFFSET))(this, data, notify);
 		}
 	};
 }

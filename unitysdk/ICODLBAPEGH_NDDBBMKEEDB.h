@@ -1,0 +1,73 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIBMJLOJLKD.h"
+
+class GCIMMDDIFBJ;
+class HNLACBJDCGI;
+namespace MoleMole { class UIControlCollection; }
+namespace UnityEngine { class RectTransform; }
+
+#define ICODLBAPEGH_NDDBBMKEEDB_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x16F59BF0)
+#define ICODLBAPEGH_NDDBBMKEEDB_EPEIBCNOGEM_OFFSET UNITYSDK_OFFSET(0x16F59BD0)
+#define ICODLBAPEGH_NDDBBMKEEDB_HMIMEJEAJMP_OFFSET UNITYSDK_OFFSET(0x16F59BA0)
+#define ICODLBAPEGH_NDDBBMKEEDB_ICFIOPLOOPB_OFFSET UNITYSDK_OFFSET(0x16F59BE0)
+#define ICODLBAPEGH_NDDBBMKEEDB_INFLECGMKFB_OFFSET UNITYSDK_OFFSET(0x16F59BC0)
+#define ICODLBAPEGH_NDDBBMKEEDB_KNJIKMMJGOK_OFFSET UNITYSDK_OFFSET(0x16F59BB0)
+#define ICODLBAPEGH_NDDBBMKEEDB_LPCLHGIKKJN_OFFSET UNITYSDK_OFFSET(0x16F59B90)
+#define ICODLBAPEGH_NDDBBMKEEDB_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x16F59A80)
+#define ICODLBAPEGH_NDDBBMKEEDB__CTOR_OFFSET UNITYSDK_OFFSET(0x16F59B80)
+
+inline static constexpr unsigned int ICODLBAPEGH_NDDBBMKEEDB_TypeDefinitionIndex = 71445;
+
+class ICODLBAPEGH_NDDBBMKEEDB : public ::GIBMJLOJLKD
+{
+public:
+	::GCIMMDDIFBJ* _IHHILBMPLPC_k__BackingField; // 0x18
+	::UnityEngine::RectTransform* _LOCCBIBAAPA_k__BackingField; // 0x20
+	::UnityEngine::RectTransform* _LBKJDMINEOK_k__BackingField; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ICODLBAPEGH_NDDBBMKEEDB__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + ICODLBAPEGH_NDDBBMKEEDB_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::System::Void LPCLHGIKKJN(::UnityEngine::RectTransform* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + ICODLBAPEGH_NDDBBMKEEDB_LPCLHGIKKJN_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::RectTransform* HMIMEJEAJMP()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + ICODLBAPEGH_NDDBBMKEEDB_HMIMEJEAJMP_OFFSET))(this);
+	}
+
+	::System::Void KNJIKMMJGOK(::GCIMMDDIFBJ* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::GCIMMDDIFBJ*))((::PBYTE)hIl2Cpp + ICODLBAPEGH_NDDBBMKEEDB_KNJIKMMJGOK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void INFLECGMKFB(::UnityEngine::RectTransform* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + ICODLBAPEGH_NDDBBMKEEDB_INFLECGMKFB_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::UnityEngine::RectTransform* EPEIBCNOGEM()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + ICODLBAPEGH_NDDBBMKEEDB_EPEIBCNOGEM_OFFSET))(this);
+	}
+
+	::GCIMMDDIFBJ* ICFIOPLOOPB()
+	{
+		return ((::GCIMMDDIFBJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + ICODLBAPEGH_NDDBBMKEEDB_ICFIOPLOOPB_OFFSET))(this);
+	}
+
+	::System::Void ECNOGHHOPPF(::HNLACBJDCGI* MIALFKCCCPI, ::MoleMole::UIControlCollection* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + ICODLBAPEGH_NDDBBMKEEDB_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+};

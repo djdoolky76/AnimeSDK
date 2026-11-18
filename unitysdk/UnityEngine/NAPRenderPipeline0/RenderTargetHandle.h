@@ -1,30 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA353B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x826600)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x325570)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_GET_ID_OFFSET UNITYSDK_OFFSET(0x325570)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xA35320)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_INIT_OFFSET UNITYSDK_OFFSET(0xA35300)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E607060)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E607070)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_SET_ID_OFFSET UNITYSDK_OFFSET(0x3253A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E607080)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x914680)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x44D8D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x359320)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_GET_ID_OFFSET UNITYSDK_OFFSET(0x359320)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x9145F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_INIT_OFFSET UNITYSDK_OFFSET(0x9145D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E850150)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E850160)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_SET_ID_OFFSET UNITYSDK_OFFSET(0x359150)
+#define UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E850170)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int RenderTargetHandle_TypeDefinitionIndex = 5950;
+	inline static constexpr unsigned int RenderTargetHandle_TypeDefinitionIndex = 5956;
 
 	struct alignas(4) RenderTargetHandle
 	{
 		static ::UnityEngine::NAPRenderPipeline0::RenderTargetHandle* StaticGet_CameraTarget()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::RenderTargetHandle*)Il2CppClass::FromTypeDefinitionIndex(RenderTargetHandle_TypeDefinitionIndex)->GetStaticField(0x2300);
+			return (::UnityEngine::NAPRenderPipeline0::RenderTargetHandle*)Il2CppClass::FromTypeDefinitionIndex(RenderTargetHandle_TypeDefinitionIndex)->GetStaticField(0x2280);
 		}
 		::System::Int32 _id_k__BackingField; // 0x10
 
@@ -48,17 +49,17 @@ namespace UnityEngine::NAPRenderPipeline0
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_INIT_OFFSET))(this, shaderProperty);
 		}
 
-		/*
 		::UnityEngine::Rendering::RenderTargetIdentifier Identifier()
 		{
 			return ((::UnityEngine::Rendering::RenderTargetIdentifier(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_IDENTIFIER_OFFSET))(this);
 		}
-		*/
 
+		/*
 		::System::Boolean Equals(::UnityEngine::NAPRenderPipeline0::RenderTargetHandle other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::NAPRenderPipeline0::RenderTargetHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{
@@ -70,14 +71,18 @@ namespace UnityEngine::NAPRenderPipeline0
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_GETHASHCODE_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::NAPRenderPipeline0::RenderTargetHandle c1, ::UnityEngine::NAPRenderPipeline0::RenderTargetHandle c2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::NAPRenderPipeline0::RenderTargetHandle, ::UnityEngine::NAPRenderPipeline0::RenderTargetHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_OP_EQUALITY_OFFSET))(c1, c2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::UnityEngine::NAPRenderPipeline0::RenderTargetHandle c1, ::UnityEngine::NAPRenderPipeline0::RenderTargetHandle c2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::NAPRenderPipeline0::RenderTargetHandle, ::UnityEngine::NAPRenderPipeline0::RenderTargetHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_NAPRENDERPIPELINE0_RENDERTARGETHANDLE_OP_INEQUALITY_OFFSET))(c1, c2);
 		}
+		*/
 	};
 }

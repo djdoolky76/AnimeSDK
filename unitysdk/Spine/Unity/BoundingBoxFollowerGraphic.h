@@ -1,44 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CachedMonoBehaviour_1.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace Spine { class Attachment; }
 namespace Spine { class BoundingBoxAttachment; }
+namespace Spine { class Skeleton; }
 namespace Spine { class Skin; }
 namespace Spine { class Slot; }
+namespace Spine::Unity { class ISkeletonRenderer; }
 namespace Spine::Unity { class SkeletonGraphic; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class PolygonCollider2D; }
 
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_ADDCOLLIDERSFORSKIN_OFFSET UNITYSDK_OFFSET(0x1C164920)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_CLEARSTATE_OFFSET UNITYSDK_OFFSET(0x1C1651E0)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_DISPOSEEXCESSCOLLIDERSAFTER_OFFSET UNITYSDK_OFFSET(0x1C164DA0)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_GET_CURRENTATTACHMENTNAME_OFFSET UNITYSDK_OFFSET(0x1C163770)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_GET_CURRENTATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1C163760)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_GET_CURRENTCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1C163780)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_GET_ISTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C163790)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_GET_SLOT_OFFSET UNITYSDK_OFFSET(0x1C163750)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_HANDLEREBUILD_OFFSET UNITYSDK_OFFSET(0x1C1642A0)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C1637B0)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1C165340)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_MATCHATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1C165360)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C165000)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C163EF0)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_START_OFFSET UNITYSDK_OFFSET(0x1C1637A0)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C165960)
-#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C165820)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_ADDCOLLIDERSFORSKIN_OFFSET UNITYSDK_OFFSET(0x1FBF3A40)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_CLEARSTATE_OFFSET UNITYSDK_OFFSET(0x1FBF4320)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_DISPOSEEXCESSCOLLIDERSAFTER_OFFSET UNITYSDK_OFFSET(0x1FBF3EE0)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_GET_CURRENTATTACHMENTNAME_OFFSET UNITYSDK_OFFSET(0x1FBF3030)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_GET_CURRENTATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1FBF3020)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_GET_CURRENTCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1FBF3040)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_GET_ISTRIGGER_OFFSET UNITYSDK_OFFSET(0x1FBF3050)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_GET_SLOT_OFFSET UNITYSDK_OFFSET(0x1FBF3010)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_HANDLEREBUILD_OFFSET UNITYSDK_OFFSET(0x1FBF3A30)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1FBF3070)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1FBF4480)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_MATCHATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1FBF44F0)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1FBF4140)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1FBF37B0)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_START_OFFSET UNITYSDK_OFFSET(0x1FBF3060)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBF4B20)
+#define SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBF49B0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int BoundingBoxFollowerGraphic_TypeDefinitionIndex = 40107;
+	inline static constexpr unsigned int BoundingBoxFollowerGraphic_TypeDefinitionIndex = 38123;
 
-	class BoundingBoxFollowerGraphic : public ::CachedMonoBehaviour_1<::Spine::Unity::BoundingBoxFollowerGraphic*>
+	class BoundingBoxFollowerGraphic : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Boolean* StaticGet_DebugMessages()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BoundingBoxFollowerGraphic_TypeDefinitionIndex)->GetStaticField(0x9A00);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BoundingBoxFollowerGraphic_TypeDefinitionIndex)->GetStaticField(0x9EA0);
 		}
 		::Spine::Unity::SkeletonGraphic* skeletonGraphic; // 0x18
 		::System::String* slotName; // 0x20
@@ -46,12 +48,15 @@ namespace Spine::Unity
 		::System::Boolean usedByEffector; // 0x29
 		::System::Boolean usedByComposite; // 0x2A
 		::System::Boolean clearStateOnDisable; // 0x2B
+		::System::Byte _padding0[0x4];
 		::Spine::Slot* slot; // 0x30
 		::Spine::BoundingBoxAttachment* currentAttachment; // 0x38
 		::System::String* currentAttachmentName; // 0x40
 		::UnityEngine::PolygonCollider2D* currentCollider; // 0x48
-		::System::Collections::Generic::Dictionary_2<::Spine::BoundingBoxAttachment*, ::UnityEngine::PolygonCollider2D*>* colliderTable; // 0x50
-		::System::Collections::Generic::Dictionary_2<::Spine::BoundingBoxAttachment*, ::System::String*>* nameTable; // 0x58
+		::System::Boolean skinBoneEnabled; // 0x50
+		::System::Byte _padding1[0x7];
+		::System::Collections::Generic::Dictionary_2<::Spine::BoundingBoxAttachment*, ::UnityEngine::PolygonCollider2D*>* colliderTable; // 0x58
+		::System::Collections::Generic::Dictionary_2<::Spine::BoundingBoxAttachment*, ::System::String*>* nameTable; // 0x60
 
 		::System::Void _ctor()
 		{
@@ -98,9 +103,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Void HandleRebuild(::Spine::Unity::SkeletonGraphic* sr)
+		::System::Void HandleRebuild(::Spine::Unity::ISkeletonRenderer* sr)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonGraphic*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_HANDLEREBUILD_OFFSET))(this, sr);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_HANDLEREBUILD_OFFSET))(this, sr);
 		}
 
 		::System::Void Initialize(::System::Boolean overwrite)
@@ -108,9 +113,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_INITIALIZE_OFFSET))(this, overwrite);
 		}
 
-		::System::Void AddCollidersForSkin(::Spine::Skin* skin, ::System::Int32 slotIndex, ::Il2CppArray<::UnityEngine::PolygonCollider2D*>* previousColliders, ::System::Single scale, ::System::Int32& collidersCount)
+		::System::Void AddCollidersForSkin(::Spine::Skin* skin, ::Spine::Skeleton* skeleton, ::System::Int32 slotIndex, ::Il2CppArray<::UnityEngine::PolygonCollider2D*>* previousColliders, ::System::Single scale, ::System::Int32& collidersCount)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Skin*, ::System::Int32, ::Il2CppArray<::UnityEngine::PolygonCollider2D*>*, ::System::Single, ::System::Int32&))((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_ADDCOLLIDERSFORSKIN_OFFSET))(this, skin, slotIndex, previousColliders, scale, collidersCount);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skin*, ::Spine::Skeleton*, ::System::Int32, ::Il2CppArray<::UnityEngine::PolygonCollider2D*>*, ::System::Single, ::System::Int32&))((::PBYTE)hIl2Cpp + SPINE_UNITY_BOUNDINGBOXFOLLOWERGRAPHIC_ADDCOLLIDERSFORSKIN_OFFSET))(this, skin, skeleton, slotIndex, previousColliders, scale, collidersCount);
 		}
 
 		::System::Void OnDisable()

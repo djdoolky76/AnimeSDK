@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_TVModelData_TypeDefinitionIndex = 59274;
+	inline static constexpr unsigned int ConfigHollowChessboard_TVModelData_TypeDefinitionIndex = 46320;
 
 	struct alignas(8) ConfigHollowChessboard_TVModelData
 	{

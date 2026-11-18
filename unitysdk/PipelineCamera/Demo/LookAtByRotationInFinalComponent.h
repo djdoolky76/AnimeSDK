@@ -7,24 +7,26 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define PIPELINECAMERA_DEMO_LOOKATBYROTATIONINFINALCOMPONENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F9E71A0)
-#define PIPELINECAMERA_DEMO_LOOKATBYROTATIONINFINALCOMPONENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F9E71E0)
-#define PIPELINECAMERA_DEMO_LOOKATBYROTATIONINFINALCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9E7220)
+#define PIPELINECAMERA_DEMO_LOOKATBYROTATIONINFINALCOMPONENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1FDECAF0)
+#define PIPELINECAMERA_DEMO_LOOKATBYROTATIONINFINALCOMPONENT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FDECB30)
+#define PIPELINECAMERA_DEMO_LOOKATBYROTATIONINFINALCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDECB70)
 
 namespace PipelineCamera::Demo
 {
-	inline static constexpr unsigned int LookAtByRotationInFinalComponent_TypeDefinitionIndex = 38413;
+	inline static constexpr unsigned int LookAtByRotationInFinalComponent_TypeDefinitionIndex = 36415;
 
 	class LookAtByRotationInFinalComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Camera* _camera; // 0x18
 		::System::Boolean _isCameraValid; // 0x20
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Transform* lookAt; // 0x28
 		::UnityEngine::Vector2 lookAtScreenOffset; // 0x30
 		::System::Single fieldOfView; // 0x38
 		::Foundation::RotateVectorPolicy rotateType; // 0x3C
 		::System::Boolean fixedAspectRatio; // 0x3D
+		::System::Byte _padding1[0x2];
 		::System::Single aspectRatio; // 0x40
 
 		::System::Void _ctor()

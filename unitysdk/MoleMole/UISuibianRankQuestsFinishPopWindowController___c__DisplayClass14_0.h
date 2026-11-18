@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UISuibianStartRowWidgetController; }
 
-#define MOLEMOLE_UISUIBIANRANKQUESTSFINISHPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179C78E0)
-#define MOLEMOLE_UISUIBIANRANKQUESTSFINISHPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__REFRESHVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x179C78F0)
+#define MOLEMOLE_UISUIBIANRANKQUESTSFINISHPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8C520)
+#define MOLEMOLE_UISUIBIANRANKQUESTSFINISHPOPWINDOWCONTROLLER___C__DISPLAYCLASS14_0__REFRESHVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x19C8C530)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianRankQuestsFinishPopWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 70177;
+	inline static constexpr unsigned int UISuibianRankQuestsFinishPopWindowController___c__DisplayClass14_0_TypeDefinitionIndex = 66413;
 
 	class UISuibianRankQuestsFinishPopWindowController___c__DisplayClass14_0 : public ::System::Object
 	{

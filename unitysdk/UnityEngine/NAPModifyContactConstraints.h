@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NAPModifyContactConstraints_TypeDefinitionIndex = 7770;
+	inline static constexpr unsigned int NAPModifyContactConstraints_TypeDefinitionIndex = 7785;
 
 	enum class NAPModifyContactConstraints : ::System::Int32
 	{

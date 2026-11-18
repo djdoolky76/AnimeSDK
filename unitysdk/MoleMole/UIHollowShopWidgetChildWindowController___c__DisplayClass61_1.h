@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_A8AC9106F37BFB35;
-namespace MoleMole { class UIHollowShopWidgetChildWindowController___c__DisplayClass61_0; }
+class HFEJONNMHCN;
 
-#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1961A760)
+#define MOLEMOLE_UIHOLLOWSHOPWIDGETCHILDWINDOWCONTROLLER___C__DISPLAYCLASS61_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18F2D370)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass61_1_TypeDefinitionIndex = 65881;
+	inline static constexpr unsigned int UIHollowShopWidgetChildWindowController___c__DisplayClass61_1_TypeDefinitionIndex = 61284;
 
+	template <typename T>
 	class UIHollowShopWidgetChildWindowController___c__DisplayClass61_1 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHollowShopWidgetChildWindowController___c__DisplayClass61_0* CS___8__locals1; // 0x10
-		::Class_3_A8AC9106F37BFB35* shop; // 0x18
+		::HFEJONNMHCN* shop; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

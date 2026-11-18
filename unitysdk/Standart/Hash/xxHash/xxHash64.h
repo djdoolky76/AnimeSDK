@@ -1,58 +1,58 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ArraySegment_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-#include "unitysdk/System/Span_1.h"
+#include "unitysdk/System/ArraySegment_1.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 
 namespace System { class String; }
 namespace System::IO { class Stream; }
 
-#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_1_OFFSET UNITYSDK_OFFSET(0x1E19A620)
-#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_2_OFFSET UNITYSDK_OFFSET(0x1E19A6F0)
-#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_3_OFFSET UNITYSDK_OFFSET(0x1E19A760)
-#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_4_OFFSET UNITYSDK_OFFSET(0x1E19A820)
-#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_5_OFFSET UNITYSDK_OFFSET(0x1E19A8E0)
-#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_6_OFFSET UNITYSDK_OFFSET(0x1E19B080)
-#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_OFFSET UNITYSDK_OFFSET(0x1E19A550)
-#define STANDART_HASH_XXHASH_XXHASH64_UNSAFECOMPUTEHASH_OFFSET UNITYSDK_OFFSET(0x1E19B1C0)
-#define STANDART_HASH_XXHASH_XXHASH64_XXH64_AVALANCHE_OFFSET UNITYSDK_OFFSET(0x1E19A200)
-#define STANDART_HASH_XXHASH_XXHASH64_XXH64_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1E19A280)
-#define STANDART_HASH_XXHASH_XXHASH64_XXH64_MERGEROUND_OFFSET UNITYSDK_OFFSET(0x1E19A130)
-#define STANDART_HASH_XXHASH_XXHASH64_XXH64_OFFSET UNITYSDK_OFFSET(0x1E1997B0)
-#define STANDART_HASH_XXHASH_XXHASH64_XXH64_ROUND_OFFSET UNITYSDK_OFFSET(0x1E19A0C0)
-#define STANDART_HASH_XXHASH_XXHASH64_XXH_ROTL64_OFFSET UNITYSDK_OFFSET(0x1E1997A0)
-#define STANDART_HASH_XXHASH_XXHASH64__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E19B230)
-#define STANDART_HASH_XXHASH_XXHASH64___INLINE__XXH64_OFFSET UNITYSDK_OFFSET(0x1E198D70)
-#define STANDART_HASH_XXHASH_XXHASH64___INLINE__XXH64_STREAM_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1E1993A0)
-#define STANDART_HASH_XXHASH_XXHASH64___INLINE__XXH64_STREAM_PROCESS_OFFSET UNITYSDK_OFFSET(0x1E199230)
+#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_1_OFFSET UNITYSDK_OFFSET(0x1E0AACF0)
+#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_2_OFFSET UNITYSDK_OFFSET(0x1E0AADC0)
+#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_3_OFFSET UNITYSDK_OFFSET(0x1E0AAE30)
+#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_4_OFFSET UNITYSDK_OFFSET(0x1E0AAEF0)
+#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_5_OFFSET UNITYSDK_OFFSET(0x1E0AAFB0)
+#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_6_OFFSET UNITYSDK_OFFSET(0x1E0AB750)
+#define STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_OFFSET UNITYSDK_OFFSET(0x1E0AAC20)
+#define STANDART_HASH_XXHASH_XXHASH64_UNSAFECOMPUTEHASH_OFFSET UNITYSDK_OFFSET(0x1E0AB890)
+#define STANDART_HASH_XXHASH_XXHASH64_XXH64_AVALANCHE_OFFSET UNITYSDK_OFFSET(0x1E0AA8D0)
+#define STANDART_HASH_XXHASH_XXHASH64_XXH64_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1E0AA950)
+#define STANDART_HASH_XXHASH_XXHASH64_XXH64_MERGEROUND_OFFSET UNITYSDK_OFFSET(0x1E0AA800)
+#define STANDART_HASH_XXHASH_XXHASH64_XXH64_OFFSET UNITYSDK_OFFSET(0x1E0A9E80)
+#define STANDART_HASH_XXHASH_XXHASH64_XXH64_ROUND_OFFSET UNITYSDK_OFFSET(0x1E0AA790)
+#define STANDART_HASH_XXHASH_XXHASH64_XXH_ROTL64_OFFSET UNITYSDK_OFFSET(0x1E0A9E70)
+#define STANDART_HASH_XXHASH_XXHASH64__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0AB900)
+#define STANDART_HASH_XXHASH_XXHASH64___INLINE__XXH64_OFFSET UNITYSDK_OFFSET(0x1E0A9440)
+#define STANDART_HASH_XXHASH_XXHASH64___INLINE__XXH64_STREAM_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1E0A9A70)
+#define STANDART_HASH_XXHASH_XXHASH64___INLINE__XXH64_STREAM_PROCESS_OFFSET UNITYSDK_OFFSET(0x1E0A9900)
 
 namespace Standart::Hash::xxHash
 {
-	inline static constexpr unsigned int xxHash64_TypeDefinitionIndex = 8475;
+	inline static constexpr unsigned int xxHash64_TypeDefinitionIndex = 8515;
 
 	class xxHash64 : public ::System::Object
 	{
 	public:
 		static ::System::UInt64* StaticGet_XXH_PRIME64_1()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash64_TypeDefinitionIndex)->GetStaticField(0x3630);
-		}
-		static ::System::UInt64* StaticGet_XXH_PRIME64_3()
-		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash64_TypeDefinitionIndex)->GetStaticField(0x3638);
-		}
-		static ::System::UInt64* StaticGet_XXH_PRIME64_4()
-		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash64_TypeDefinitionIndex)->GetStaticField(0x3640);
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash64_TypeDefinitionIndex)->GetStaticField(0x3560);
 		}
 		static ::System::UInt64* StaticGet_XXH_PRIME64_5()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash64_TypeDefinitionIndex)->GetStaticField(0x3648);
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash64_TypeDefinitionIndex)->GetStaticField(0x3568);
+		}
+		static ::System::UInt64* StaticGet_XXH_PRIME64_3()
+		{
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash64_TypeDefinitionIndex)->GetStaticField(0x3570);
+		}
+		static ::System::UInt64* StaticGet_XXH_PRIME64_4()
+		{
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash64_TypeDefinitionIndex)->GetStaticField(0x3578);
 		}
 		static ::System::UInt64* StaticGet_XXH_PRIME64_2()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash64_TypeDefinitionIndex)->GetStaticField(0x3650);
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(xxHash64_TypeDefinitionIndex)->GetStaticField(0x3580);
 		}
 
 		static ::System::Void _cctor()
@@ -60,9 +60,9 @@ namespace Standart::Hash::xxHash
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64__CCTOR_OFFSET))();
 		}
 
-		static ::System::UInt64 __inline__XXH64(::System::Byte* input, ::System::Int32 len, ::System::UInt64 seed)
+		static ::System::UInt64 __inline__XXH64(::PVOID input, ::System::Int32 len, ::System::UInt64 seed)
 		{
-			return ((::System::UInt64(*)(::System::Byte*, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64___INLINE__XXH64_OFFSET))(input, len, seed);
+			return ((::System::UInt64(*)(::PVOID, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64___INLINE__XXH64_OFFSET))(input, len, seed);
 		}
 
 		static ::System::Void __inline__XXH64_stream_process(::Il2CppArray<::System::Byte>* input, ::System::Int32 len, ::System::UInt64& v1, ::System::UInt64& v2, ::System::UInt64& v3, ::System::UInt64& v4)
@@ -80,9 +80,9 @@ namespace Standart::Hash::xxHash
 			return ((::System::UInt64(*)(::System::UInt64, ::System::Int32))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_XXH_ROTL64_OFFSET))(x, r);
 		}
 
-		static ::System::UInt64 XXH64(::System::Byte* input, ::System::Int32 len, ::System::UInt64 seed)
+		static ::System::UInt64 XXH64(::PVOID input, ::System::Int32 len, ::System::UInt64 seed)
 		{
-			return ((::System::UInt64(*)(::System::Byte*, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_XXH64_OFFSET))(input, len, seed);
+			return ((::System::UInt64(*)(::PVOID, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_XXH64_OFFSET))(input, len, seed);
 		}
 
 		static ::System::UInt64 XXH64_round(::System::UInt64 acc, ::System::UInt64 input)
@@ -100,9 +100,9 @@ namespace Standart::Hash::xxHash
 			return ((::System::UInt64(*)(::System::UInt64))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_XXH64_AVALANCHE_OFFSET))(hash);
 		}
 
-		static ::System::UInt64 XXH64_finalize(::System::UInt64 hash, ::System::Byte* ptr, ::System::Int32 len)
+		static ::System::UInt64 XXH64_finalize(::System::UInt64 hash, ::PVOID ptr, ::System::Int32 len)
 		{
-			return ((::System::UInt64(*)(::System::UInt64, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_XXH64_FINALIZE_OFFSET))(hash, ptr, len);
+			return ((::System::UInt64(*)(::System::UInt64, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_XXH64_FINALIZE_OFFSET))(hash, ptr, len);
 		}
 
 		static ::System::UInt64 ComputeHash(::Il2CppArray<::System::Byte>* data, ::System::Int32 length, ::System::UInt64 seed)
@@ -120,14 +120,14 @@ namespace Standart::Hash::xxHash
 			return ((::System::UInt64(*)(::System::ArraySegment_1<::System::Byte>, ::System::UInt64))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_2_OFFSET))(data, seed);
 		}
 
-		static ::System::UInt64 ComputeHash_3(::System::Span_1<::System::Byte> data, ::System::Int32 length, ::System::UInt64 seed)
+		static ::System::UInt64 ComputeHash_3(::System::Span_1_9011FAD97750D224<::System::Byte> data, ::System::Int32 length, ::System::UInt64 seed)
 		{
-			return ((::System::UInt64(*)(::System::Span_1<::System::Byte>, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_3_OFFSET))(data, length, seed);
+			return ((::System::UInt64(*)(::System::Span_1_9011FAD97750D224<::System::Byte>, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_3_OFFSET))(data, length, seed);
 		}
 
-		static ::System::UInt64 ComputeHash_4(::System::ReadOnlySpan_1<::System::Byte> data, ::System::Int32 length, ::System::UInt64 seed)
+		static ::System::UInt64 ComputeHash_4(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Byte> data, ::System::Int32 length, ::System::UInt64 seed)
 		{
-			return ((::System::UInt64(*)(::System::ReadOnlySpan_1<::System::Byte>, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_4_OFFSET))(data, length, seed);
+			return ((::System::UInt64(*)(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Byte>, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_4_OFFSET))(data, length, seed);
 		}
 
 		static ::System::UInt64 ComputeHash_5(::System::IO::Stream* stream, ::System::Int32 bufferSize, ::System::UInt64 seed)
@@ -140,9 +140,9 @@ namespace Standart::Hash::xxHash
 			return ((::System::UInt64(*)(::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_COMPUTEHASH_6_OFFSET))(str, seed);
 		}
 
-		static ::System::UInt64 UnsafeComputeHash(::System::Byte* ptr, ::System::Int32 length, ::System::UInt64 seed)
+		static ::System::UInt64 UnsafeComputeHash(::PVOID ptr, ::System::Int32 length, ::System::UInt64 seed)
 		{
-			return ((::System::UInt64(*)(::System::Byte*, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_UNSAFECOMPUTEHASH_OFFSET))(ptr, length, seed);
+			return ((::System::UInt64(*)(::PVOID, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + STANDART_HASH_XXHASH_XXHASH64_UNSAFECOMPUTEHASH_OFFSET))(ptr, length, seed);
 		}
 	};
 }

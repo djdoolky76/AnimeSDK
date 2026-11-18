@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_E23E4CB2769CC93F;
+class IDGDIFDMIDP;
 
-#define MOLEMOLE_UISOCIALCIRCLEINFODIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A2CAF0)
+#define MOLEMOLE_UISOCIALCIRCLEINFODIALOGPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15C70180)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleInfoDialogPopWindowController_Context_TypeDefinitionIndex = 54690;
+	inline static constexpr unsigned int UISocialCircleInfoDialogPopWindowController_Context_TypeDefinitionIndex = 73184;
 
 	class UISocialCircleInfoDialogPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_E23E4CB2769CC93F* SocialCircleData; // 0x28
+		::IDGDIFDMIDP* SocialCircleData; // 0x28
 
 		::System::Void _ctor()
 		{

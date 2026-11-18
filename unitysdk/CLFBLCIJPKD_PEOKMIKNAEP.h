@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CLFBLCIJPKD_GKFINBOHJEP.h"
+
+#define CLFBLCIJPKD_PEOKMIKNAEP_BLPGBMJMAJF_OFFSET UNITYSDK_OFFSET(0x1533ED90)
+#define CLFBLCIJPKD_PEOKMIKNAEP_KJOHEMDIHNJ_OFFSET UNITYSDK_OFFSET(0x1533EF10)
+#define CLFBLCIJPKD_PEOKMIKNAEP__CTOR_OFFSET UNITYSDK_OFFSET(0x1533EE80)
+
+inline static constexpr unsigned int CLFBLCIJPKD_PEOKMIKNAEP_TypeDefinitionIndex = 88464;
+
+class CLFBLCIJPKD_PEOKMIKNAEP : public ::CLFBLCIJPKD_GKFINBOHJEP
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_PEOKMIKNAEP__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 BLPGBMJMAJF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_PEOKMIKNAEP_BLPGBMJMAJF_OFFSET))(this);
+	}
+
+	::System::Int32 KJOHEMDIHNJ()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLFBLCIJPKD_PEOKMIKNAEP_KJOHEMDIHNJ_OFFSET))(this);
+	}
+};

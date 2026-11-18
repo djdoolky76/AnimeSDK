@@ -5,19 +5,19 @@
 namespace FluffyUnderware::Curvy::Generator { class CGModule; }
 namespace FluffyUnderware::Curvy::Generator { class ModuleInfoAttribute; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_INFORMATIONPROVIDER_GETINFORMATION_OFFSET UNITYSDK_OFFSET(0x1EFB3670)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_INFORMATIONPROVIDER_GET_INFORMATION_OFFSET UNITYSDK_OFFSET(0x1EFAE760)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_INFORMATIONPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB1270)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_INFORMATIONPROVIDER_GETINFORMATION_OFFSET UNITYSDK_OFFSET(0x1F320C00)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_INFORMATIONPROVIDER_GET_INFORMATION_OFFSET UNITYSDK_OFFSET(0x1F31BD00)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_CGMODULE_INFORMATIONPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F31E810)
 
 namespace FluffyUnderware::Curvy::Generator
 {
-	inline static constexpr unsigned int CGModule_InformationProvider_TypeDefinitionIndex = 39713;
+	inline static constexpr unsigned int CGModule_InformationProvider_TypeDefinitionIndex = 37616;
 
 	class CGModule_InformationProvider : public ::System::Object
 	{
 	public:
-		::FluffyUnderware::Curvy::Generator::CGModule* module; // 0x10
-		::FluffyUnderware::Curvy::Generator::ModuleInfoAttribute* moduleInformation; // 0x18
+		::FluffyUnderware::Curvy::Generator::ModuleInfoAttribute* moduleInformation; // 0x10
+		::FluffyUnderware::Curvy::Generator::CGModule* module; // 0x18
 
 		::System::Void _ctor(::FluffyUnderware::Curvy::Generator::CGModule* module)
 		{

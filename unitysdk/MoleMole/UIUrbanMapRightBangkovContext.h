@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UrbanMapBangkovScrollViewContext; }
 
-#define MOLEMOLE_UIURBANMAPRIGHTBANGKOVCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x112C1DE0)
+#define MOLEMOLE_UIURBANMAPRIGHTBANGKOVCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1055DF10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIUrbanMapRightBangkovContext_TypeDefinitionIndex = 74367;
+	inline static constexpr unsigned int UIUrbanMapRightBangkovContext_TypeDefinitionIndex = 72031;
 
 	class UIUrbanMapRightBangkovContext : public ::MoleMole::UIControllerContextBase
 	{

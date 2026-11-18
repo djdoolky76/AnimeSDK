@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
+#include "unitysdk/UnityEngine/Color.h"
 
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define MOLEMOLE_TIMELINE_TVGROUPMATERIALBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x173BC2A0)
+#define MOLEMOLE_TIMELINE_TVGROUPMATERIALBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x13F28540)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int TVGroupMaterialBehaviour_TypeDefinitionIndex = 61171;
+	inline static constexpr unsigned int TVGroupMaterialBehaviour_TypeDefinitionIndex = 83196;
 
 	class TVGroupMaterialBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -18,10 +18,12 @@ namespace MoleMole::Timeline
 		::UnityEngine::Timeline::TimelineClip* Clip; // 0x10
 		::Il2CppArray<::UnityEngine::MeshRenderer*>* renderers; // 0x18
 		::System::Boolean customParam; // 0x20
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Color color; // 0x24
 		::UnityEngine::Color screenBaseColor; // 0x34
 		::UnityEngine::Color screenColor; // 0x44
 		::System::Boolean oldCRT; // 0x54
+		::System::Byte _padding1[0x3];
 		::System::Single screenAspect; // 0x58
 		::System::Single pixelAspect; // 0x5C
 		::System::Single scanlineBrightness; // 0x60

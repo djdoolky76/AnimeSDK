@@ -5,19 +5,19 @@
 namespace MoleMole { class UIBirthEditDialogPopWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBIRTHEDITDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D28490)
-#define MOLEMOLE_UIBIRTHEDITDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__FINALSETBIRTHDAY_B__0_OFFSET UNITYSDK_OFFSET(0x18D284A0)
-#define MOLEMOLE_UIBIRTHEDITDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__FINALSETBIRTHDAY_B__1_OFFSET UNITYSDK_OFFSET(0x18D28680)
+#define MOLEMOLE_UIBIRTHEDITDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D352D0)
+#define MOLEMOLE_UIBIRTHEDITDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__FINALSETBIRTHDAY_B__0_OFFSET UNITYSDK_OFFSET(0x18D352E0)
+#define MOLEMOLE_UIBIRTHEDITDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS13_0__FINALSETBIRTHDAY_B__1_OFFSET UNITYSDK_OFFSET(0x18D354C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBirthEditDialogPopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 83010;
+	inline static constexpr unsigned int UIBirthEditDialogPopWindowController___c__DisplayClass13_0_TypeDefinitionIndex = 90222;
 
 	class UIBirthEditDialogPopWindowController___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBirthEditDialogPopWindowController* __4__this; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action* __9__1; // 0x10
+		::MoleMole::UIBirthEditDialogPopWindowController* __4__this; // 0x18
 		::System::UInt32 chooseDay; // 0x20
 		::System::UInt32 chooseMonth; // 0x24
 

@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS50_0__CANCEL_B__0_OFFSET UNITYSDK_OFFSET(0x1757B260)
-#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1757B250)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS50_0__CANCEL_B__0_OFFSET UNITYSDK_OFFSET(0x18FF2880)
+#define MOLEMOLE_UIQUESTIONSANSWERWIDGETCONTROLLER___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF2870)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIQuestionsAnswerWidgetController___c__DisplayClass50_0_TypeDefinitionIndex = 88943;
+	inline static constexpr unsigned int UIQuestionsAnswerWidgetController___c__DisplayClass50_0_TypeDefinitionIndex = 53758;
 
 	class UIQuestionsAnswerWidgetController___c__DisplayClass50_0 : public ::System::Object
 	{

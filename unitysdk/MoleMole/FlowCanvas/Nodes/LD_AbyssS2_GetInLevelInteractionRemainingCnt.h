@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETINLEVELINTERACTIONREMAININGCNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B1AFFD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETINLEVELINTERACTIONREMAININGCNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B0140)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETINLEVELINTERACTIONREMAININGCNT_INVOKE_OFFSET UNITYSDK_OFFSET(0x14AE4680)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_ABYSSS2_GETINLEVELINTERACTIONREMAININGCNT__CTOR_OFFSET UNITYSDK_OFFSET(0x14AE47F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_AbyssS2_GetInLevelInteractionRemainingCnt_TypeDefinitionIndex = 51401;
+	inline static constexpr unsigned int LD_AbyssS2_GetInLevelInteractionRemainingCnt_TypeDefinitionIndex = 84245;
 
-	class LD_AbyssS2_GetInLevelInteractionRemainingCnt : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Int32, ::MoleMole::Battle::Entity*>
+	class LD_AbyssS2_GetInLevelInteractionRemainingCnt
 	{
 	public:
 		::System::Void _ctor()

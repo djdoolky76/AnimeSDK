@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int NapStringInternCacheBackendLRU_Slot_TypeDefinitionIndex = 8367;
+	inline static constexpr unsigned int NapStringInternCacheBackendLRU_Slot_TypeDefinitionIndex = 8099;
 
 	struct alignas(8) NapStringInternCacheBackendLRU_Slot
 	{

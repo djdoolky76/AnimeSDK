@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIFoodQteActivityMainPageController; }
 
-#define MOLEMOLE_UIFOODQTEACTIVITYMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19386B50)
-#define MOLEMOLE_UIFOODQTEACTIVITYMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__ONSTATEENTER_B__0_OFFSET UNITYSDK_OFFSET(0x19386B60)
+#define MOLEMOLE_UIFOODQTEACTIVITYMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16ECFFB0)
+#define MOLEMOLE_UIFOODQTEACTIVITYMAINPAGECONTROLLER___C__DISPLAYCLASS23_0__ONSTATEENTER_B__0_OFFSET UNITYSDK_OFFSET(0x16ECFFC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFoodQteActivityMainPageController___c__DisplayClass23_0_TypeDefinitionIndex = 50398;
+	inline static constexpr unsigned int UIFoodQteActivityMainPageController___c__DisplayClass23_0_TypeDefinitionIndex = 52103;
 
 	class UIFoodQteActivityMainPageController___c__DisplayClass23_0 : public ::System::Object
 	{

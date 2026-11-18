@@ -3,20 +3,21 @@
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AdjustmentBlendingWarpingPerBoneSampleData.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGWARPINGTICKDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x10648D00)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ADJUSTMENTBLENDINGWARPINGTICKDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xE1C92C0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingWarpingTickData_TypeDefinitionIndex = 88366;
+	inline static constexpr unsigned int AnimationSubManager_AdjustmentBlendingWarpingTickData_TypeDefinitionIndex = 81167;
 
 	struct alignas(4) AnimationSubManager_AdjustmentBlendingWarpingTickData
 	{
 		static ::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingWarpingTickData* StaticGet_Default()
 		{
-			return (::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingWarpingTickData*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AdjustmentBlendingWarpingTickData_TypeDefinitionIndex)->GetStaticField(0xBC00);
+			return (::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingWarpingTickData*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AdjustmentBlendingWarpingTickData_TypeDefinitionIndex)->GetStaticField(0xBCB0);
 		}
 		::System::Boolean PreviousIsTicking; // 0x10
 		::System::Boolean CurrentIsTicking; // 0x11
+		::System::Byte _padding0[0x2];
 		::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingWarpingPerBoneSampleData PreviousRootSampleData; // 0x14
 		::NPCCrowd::Animation::AnimationSubManager_AdjustmentBlendingWarpingPerBoneSampleData CurrentRootSampleData; // 0x54
 

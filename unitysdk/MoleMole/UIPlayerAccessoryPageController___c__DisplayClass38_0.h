@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12FDF140)
-#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS38_0__SETSWITCHBTNSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x12FDF150)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15D2A250)
+#define MOLEMOLE_UIPLAYERACCESSORYPAGECONTROLLER___C__DISPLAYCLASS38_0__SETSWITCHBTNSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x15D2A260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerAccessoryPageController___c__DisplayClass38_0_TypeDefinitionIndex = 51570;
+	inline static constexpr unsigned int UIPlayerAccessoryPageController___c__DisplayClass38_0_TypeDefinitionIndex = 43419;
 
 	class UIPlayerAccessoryPageController___c__DisplayClass38_0 : public ::System::Object
 	{

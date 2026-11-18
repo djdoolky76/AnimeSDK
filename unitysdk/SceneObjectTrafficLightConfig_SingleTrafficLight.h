@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SCENEOBJECTTRAFFICLIGHTCONFIG_SINGLETRAFFICLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1878D930)
+#define SCENEOBJECTTRAFFICLIGHTCONFIG_SINGLETRAFFICLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF44EB0)
 
-inline static constexpr unsigned int SceneObjectTrafficLightConfig_SingleTrafficLight_TypeDefinitionIndex = 67257;
+inline static constexpr unsigned int SceneObjectTrafficLightConfig_SingleTrafficLight_TypeDefinitionIndex = 87324;
 
 class SceneObjectTrafficLightConfig_SingleTrafficLight : public ::System::Object
 {

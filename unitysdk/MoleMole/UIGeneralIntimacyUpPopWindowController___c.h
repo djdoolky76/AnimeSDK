@@ -5,24 +5,24 @@
 namespace MoleMole { class UIGeneralIntimacyUpPopWindowController_Context; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIGENERALINTIMACYUPPOPWINDOWCONTROLLER___C__ADDCONTEXT_B__11_0_OFFSET UNITYSDK_OFFSET(0x19FAC7E0)
-#define MOLEMOLE_UIGENERALINTIMACYUPPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FAC790)
-#define MOLEMOLE_UIGENERALINTIMACYUPPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19FAC7D0)
+#define MOLEMOLE_UIGENERALINTIMACYUPPOPWINDOWCONTROLLER___C__ADDCONTEXT_B__11_0_OFFSET UNITYSDK_OFFSET(0x18940BD0)
+#define MOLEMOLE_UIGENERALINTIMACYUPPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18940B80)
+#define MOLEMOLE_UIGENERALINTIMACYUPPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18940BC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralIntimacyUpPopWindowController___c_TypeDefinitionIndex = 66242;
+	inline static constexpr unsigned int UIGeneralIntimacyUpPopWindowController___c_TypeDefinitionIndex = 47183;
 
 	class UIGeneralIntimacyUpPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::MoleMole::UIGeneralIntimacyUpPopWindowController_Context*>** StaticGet___9__11_0()
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__11_0()
 		{
-			return (::System::Comparison_1<::MoleMole::UIGeneralIntimacyUpPopWindowController_Context*>**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralIntimacyUpPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x49060);
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralIntimacyUpPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x46F60);
 		}
-		static ::MoleMole::UIGeneralIntimacyUpPopWindowController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIGeneralIntimacyUpPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralIntimacyUpPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x49068);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIGeneralIntimacyUpPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x46F68);
 		}
 
 		static ::System::Void _cctor()

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderTargetHandle.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/RenderTextureDescriptor.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
@@ -14,14 +14,14 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPSECONDARYBLOOMPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E4810A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPSECONDARYBLOOMPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E482170)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPSECONDARYBLOOMPASS_NAPSECONDARYBLOOMPASSBLUR_OFFSET UNITYSDK_OFFSET(0x1E481D70)
-#define UNITYENGINE_NAPRENDERPIPELINE0_NAPSECONDARYBLOOMPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E480F70)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPSECONDARYBLOOMPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E6487D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPSECONDARYBLOOMPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1E6498A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPSECONDARYBLOOMPASS_NAPSECONDARYBLOOMPASSBLUR_OFFSET UNITYSDK_OFFSET(0x1E6494A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_NAPSECONDARYBLOOMPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6486A0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int NapSecondaryBloomPass_TypeDefinitionIndex = 5836;
+	inline static constexpr unsigned int NapSecondaryBloomPass_TypeDefinitionIndex = 5842;
 
 	class NapSecondaryBloomPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

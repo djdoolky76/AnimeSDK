@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_SHADERGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1688FCD0)
+#define MOLEMOLE_SHADERGENERATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10D5D220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShaderGenerateConfig_TypeDefinitionIndex = 46758;
+	inline static constexpr unsigned int ShaderGenerateConfig_TypeDefinitionIndex = 63068;
 
 	class ShaderGenerateConfig : public ::System::Object
 	{

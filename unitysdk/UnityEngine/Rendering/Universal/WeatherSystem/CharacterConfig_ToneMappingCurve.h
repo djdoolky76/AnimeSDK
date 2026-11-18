@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_CHARACTERCONFIG_TONEMAPPINGCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E266AC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_CHARACTERCONFIG_TONEMAPPINGCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E384300)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int CharacterConfig_ToneMappingCurve_TypeDefinitionIndex = 27116;
+	inline static constexpr unsigned int CharacterConfig_ToneMappingCurve_TypeDefinitionIndex = 27132;
 
 	class CharacterConfig_ToneMappingCurve : public ::System::Object
 	{

@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/CameraData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableCullingParameters.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::NAPRenderPipeline0 { class ConsoleVariableBool; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL_ENABLELOCALLIGHTCACHEONCAMERA_OFFSET UNITYSDK_OFFSET(0x1E7CC4E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL_EXECUTE_IMPL_OFFSET UNITYSDK_OFFSET(0x1E7CC230)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E7CC240)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL_SETUPCULLINGPARAMETER_OFFSET UNITYSDK_OFFSET(0x1E7CC2B0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1E7CC210)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7CC5A0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7CC1B0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL_ENABLELOCALLIGHTCACHEONCAMERA_OFFSET UNITYSDK_OFFSET(0x1E9790E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL_EXECUTE_IMPL_OFFSET UNITYSDK_OFFSET(0x1E978E30)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E978E40)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL_SETUPCULLINGPARAMETER_OFFSET UNITYSDK_OFFSET(0x1E978EB0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1E978E10)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9791A0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PUNCTUALLIGHTSHADOWCASTERPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E978DB0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PunctualLightShadowCasterPass_NativeImpl_TypeDefinitionIndex = 5719;
+	inline static constexpr unsigned int PunctualLightShadowCasterPass_NativeImpl_TypeDefinitionIndex = 5724;
 
 	class PunctualLightShadowCasterPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool** StaticGet_ForceAlwaysUpdate()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool**)Il2CppClass::FromTypeDefinitionIndex(PunctualLightShadowCasterPass_NativeImpl_TypeDefinitionIndex)->GetStaticField(0x5220);
+			return (::UnityEngine::NAPRenderPipeline0::ConsoleVariableBool**)Il2CppClass::FromTypeDefinitionIndex(PunctualLightShadowCasterPass_NativeImpl_TypeDefinitionIndex)->GetStaticField(0x5120);
 		}
 
 		::System::Void _ctor(::UnityEngine::NAPRenderPipeline0::RenderPassEvent evt)

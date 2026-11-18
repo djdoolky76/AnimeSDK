@@ -2,16 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/Security/MobileTlsContext.h"
 #include "unitysdk/Mono/Security/Interface/TlsProtocols.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_errorstate.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_key.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_key_ref.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_tlsctx.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_x509list.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_x509list_ref.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_x509name.h"
 #include "unitysdk/Mono/Unity/UnityTls_unitytls_x509verify_result.h"
 #include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
 #include "unitysdk/System/Security/Authentication/SslProtocols.h"
+#include "unitysdk/Mono/Unity/UnityTls_unitytls_x509list_ref.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
@@ -26,68 +20,69 @@ namespace System { class String; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1C8625D0)
-#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1C85F660)
-#define MONO_UNITY_UNITYTLSCONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C861590)
-#define MONO_UNITY_UNITYTLSCONTEXT_EXTRACTNATIVEKEYANDCHAINFROMMANAGEDCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1C8608F0)
-#define MONO_UNITY_UNITYTLSCONTEXT_FINISHHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1C861CB0)
-#define MONO_UNITY_UNITYTLSCONTEXT_FLUSH_OFFSET UNITYSDK_OFFSET(0x1C860D10)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_CONNECTIONINFO_OFFSET UNITYSDK_OFFSET(0x1C860CB0)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_HASCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C860C90)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_ISAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1C860CA0)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_ISREMOTECERTIFICATEAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1C860CC0)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_LOCALCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1C860CD0)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_NEGOTIATEDPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1C860CF0)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_REMOTECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1C860CE0)
-#define MONO_UNITY_UNITYTLSCONTEXT_PROCESSHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1C861A10)
-#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1C862140)
-#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C85F400)
-#define MONO_UNITY_UNITYTLSCONTEXT_READ_OFFSET UNITYSDK_OFFSET(0x1C860D20)
-#define MONO_UNITY_UNITYTLSCONTEXT_SHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1C8611F0)
-#define MONO_UNITY_UNITYTLSCONTEXT_STARTHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1C861690)
-#define MONO_UNITY_UNITYTLSCONTEXT_TRACECALLBACK_OFFSET UNITYSDK_OFFSET(0x1C85F7B0)
-#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1C8624B0)
-#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C85F540)
-#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1C861F40)
-#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_OFFSET UNITYSDK_OFFSET(0x1C85F2C0)
-#define MONO_UNITY_UNITYTLSCONTEXT_WRITE_OFFSET UNITYSDK_OFFSET(0x1C860F90)
-#define MONO_UNITY_UNITYTLSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C85F960)
+#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1CFA2DA0)
+#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1CF9FE60)
+#define MONO_UNITY_UNITYTLSCONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CFA1D70)
+#define MONO_UNITY_UNITYTLSCONTEXT_EXTRACTNATIVEKEYANDCHAINFROMMANAGEDCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1CFA10E0)
+#define MONO_UNITY_UNITYTLSCONTEXT_FINISHHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1CFA24A0)
+#define MONO_UNITY_UNITYTLSCONTEXT_FLUSH_OFFSET UNITYSDK_OFFSET(0x1CFA1500)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_CONNECTIONINFO_OFFSET UNITYSDK_OFFSET(0x1CFA14A0)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_HASCONTEXT_OFFSET UNITYSDK_OFFSET(0x1CFA1480)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_ISAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1CFA1490)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_ISREMOTECERTIFICATEAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1CFA14B0)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_LOCALCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1CFA14C0)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_NEGOTIATEDPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1CFA14E0)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_REMOTECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1CFA14D0)
+#define MONO_UNITY_UNITYTLSCONTEXT_PROCESSHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1CFA2200)
+#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1CFA2920)
+#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CF9FC00)
+#define MONO_UNITY_UNITYTLSCONTEXT_READ_OFFSET UNITYSDK_OFFSET(0x1CFA1510)
+#define MONO_UNITY_UNITYTLSCONTEXT_SHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1CFA19D0)
+#define MONO_UNITY_UNITYTLSCONTEXT_STARTHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1CFA1E80)
+#define MONO_UNITY_UNITYTLSCONTEXT_TRACECALLBACK_OFFSET UNITYSDK_OFFSET(0x1CF9FFB0)
+#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1CFA2C80)
+#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CF9FD40)
+#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1CFA2730)
+#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_OFFSET UNITYSDK_OFFSET(0x1CF9FAC0)
+#define MONO_UNITY_UNITYTLSCONTEXT_WRITE_OFFSET UNITYSDK_OFFSET(0x1CFA1770)
+#define MONO_UNITY_UNITYTLSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA0160)
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTlsContext_TypeDefinitionIndex = 2579;
+	inline static constexpr unsigned int UnityTlsContext_TypeDefinitionIndex = 2578;
 
 	class UnityTlsContext : public ::Mono::Net::Security::MobileTlsContext
 	{
 	public:
-		// static const ::System::Boolean ActivateTracing; // 0x0
-		::System::Security::Cryptography::X509Certificates::X509Certificate* localClientCertificate; // 0x48
-		::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* certificateCallback; // 0x50
-		::Mono::Security::Interface::MonoTlsConnectionInfo* connectioninfo; // 0x58
-		::Il2CppArray<::System::Byte>* readBuffer; // 0x60
-		::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* readCallback; // 0x68
-		::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate; // 0x70
-		::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback* traceCallback; // 0x78
-		::Il2CppArray<::System::Byte>* writeBuffer; // 0x80
-		::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* verifyCallback; // 0x88
-		::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* writeCallback; // 0x90
-		::System::Exception* lastException; // 0x98
-		::Mono::Unity::UnityTls_unitytls_x509list* requestedClientCertChain; // 0xA0
-		::System::Runtime::InteropServices::GCHandle handle; // 0xA8
-		::System::Boolean closedGraceful; // 0xAC
-		::System::Boolean hasContext; // 0xAD
-		::System::Boolean isAuthenticated; // 0xAE
-		::Mono::Unity::UnityTls_unitytls_key* requestedClientKey; // 0xB0
-		::Mono::Unity::UnityTls_unitytls_tlsctx* tlsContext; // 0xB8
+		// static const ::System::Boolean ActivateTracing = 0x0; // 0x0
+		::Mono::Security::Interface::MonoTlsConnectionInfo* connectioninfo; // 0x48
+		::Il2CppArray<::System::Byte>* writeBuffer; // 0x50
+		::System::Exception* lastException; // 0x58
+		::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* certificateCallback; // 0x60
+		::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* writeCallback; // 0x68
+		::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback* traceCallback; // 0x70
+		::Il2CppArray<::System::Byte>* readBuffer; // 0x78
+		::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate; // 0x80
+		::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* readCallback; // 0x88
+		::System::Security::Cryptography::X509Certificates::X509Certificate* localClientCertificate; // 0x90
+		::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* verifyCallback; // 0x98
+		::PVOID tlsContext; // 0xA0
+		::PVOID requestedClientKey; // 0xA8
+		::System::Runtime::InteropServices::GCHandle handle; // 0xB0
+		::System::Boolean isAuthenticated; // 0xB4
+		::System::Boolean hasContext; // 0xB5
+		::System::Boolean closedGraceful; // 0xB6
+		::System::Byte _padding0[0x1];
+		::PVOID requestedClientCertChain; // 0xB8
 
 		::System::Void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::System::Boolean serverMode, ::System::String* targetHost, ::System::Security::Authentication::SslProtocols enabledProtocols, ::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates, ::System::Boolean askForClientCert)
 		{
 			return ((::System::Void(*)(::PVOID, ::Mono::Net::Security::MobileAuthenticatedStream*, ::System::Boolean, ::System::String*, ::System::Security::Authentication::SslProtocols, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT__CTOR_OFFSET))(this, parent, serverMode, targetHost, enabledProtocols, serverCertificate, clientCertificates, askForClientCert);
 		}
 
-		static ::System::Void ExtractNativeKeyAndChainFromManagedCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* cert, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState, ::Mono::Unity::UnityTls_unitytls_x509list*& nativeCertChain, ::Mono::Unity::UnityTls_unitytls_key*& nativeKey)
+		static ::System::Void ExtractNativeKeyAndChainFromManagedCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* cert, ::PVOID errorState, ::PVOID& nativeCertChain, ::PVOID& nativeKey)
 		{
-			return ((::System::Void(*)(::System::Security::Cryptography::X509Certificates::X509Certificate*, ::Mono::Unity::UnityTls_unitytls_errorstate*, ::Mono::Unity::UnityTls_unitytls_x509list*&, ::Mono::Unity::UnityTls_unitytls_key*&))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_EXTRACTNATIVEKEYANDCHAINFROMMANAGEDCERTIFICATE_OFFSET))(cert, errorState, nativeCertChain, nativeKey);
+			return ((::System::Void(*)(::System::Security::Cryptography::X509Certificates::X509Certificate*, ::PVOID, ::PVOID&, ::PVOID&))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_EXTRACTNATIVEKEYANDCHAINFROMMANAGEDCERTIFICATE_OFFSET))(cert, errorState, nativeCertChain, nativeKey);
 		}
 
 		::System::Boolean get_HasContext()
@@ -165,49 +160,49 @@ namespace Mono::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_FINISHHANDSHAKE_OFFSET))(this);
 		}
 
-		static ::System::IntPtr WriteCallback(::System::Void* userData, ::System::Byte* data, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState)
+		static ::System::IntPtr WriteCallback(::PVOID userData, ::PVOID data, ::System::IntPtr bufferLen, ::PVOID errorState)
 		{
-			return ((::System::IntPtr(*)(::System::Void*, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_OFFSET))(userData, data, bufferLen, errorState);
+			return ((::System::IntPtr(*)(::PVOID, ::PVOID, ::System::IntPtr, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_OFFSET))(userData, data, bufferLen, errorState);
 		}
 
-		::System::IntPtr WriteCallback_1(::System::Byte* data, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState)
+		::System::IntPtr WriteCallback_1(::PVOID data, ::System::IntPtr bufferLen, ::PVOID errorState)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_1_OFFSET))(this, data, bufferLen, errorState);
+			return ((::System::IntPtr(*)(::PVOID, ::PVOID, ::System::IntPtr, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_1_OFFSET))(this, data, bufferLen, errorState);
 		}
 
-		static ::System::IntPtr ReadCallback(::System::Void* userData, ::System::Byte* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState)
+		static ::System::IntPtr ReadCallback(::PVOID userData, ::PVOID buffer, ::System::IntPtr bufferLen, ::PVOID errorState)
 		{
-			return ((::System::IntPtr(*)(::System::Void*, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_OFFSET))(userData, buffer, bufferLen, errorState);
+			return ((::System::IntPtr(*)(::PVOID, ::PVOID, ::System::IntPtr, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_OFFSET))(userData, buffer, bufferLen, errorState);
 		}
 
-		::System::IntPtr ReadCallback_1(::System::Byte* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState)
+		::System::IntPtr ReadCallback_1(::PVOID buffer, ::System::IntPtr bufferLen, ::PVOID errorState)
 		{
-			return ((::System::IntPtr(*)(::PVOID, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_1_OFFSET))(this, buffer, bufferLen, errorState);
+			return ((::System::IntPtr(*)(::PVOID, ::PVOID, ::System::IntPtr, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_1_OFFSET))(this, buffer, bufferLen, errorState);
 		}
 
-		static ::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback(::System::Void* userData, ::Mono::Unity::UnityTls_unitytls_x509list_ref chain, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState)
+		static ::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback(::PVOID userData, ::Mono::Unity::UnityTls_unitytls_x509list_ref chain, ::PVOID errorState)
 		{
-			return ((::Mono::Unity::UnityTls_unitytls_x509verify_result(*)(::System::Void*, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_OFFSET))(userData, chain, errorState);
+			return ((::Mono::Unity::UnityTls_unitytls_x509verify_result(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_OFFSET))(userData, chain, errorState);
 		}
 
-		::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback_1(::Mono::Unity::UnityTls_unitytls_x509list_ref chain, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState)
+		::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback_1(::Mono::Unity::UnityTls_unitytls_x509list_ref chain, ::PVOID errorState)
 		{
-			return ((::Mono::Unity::UnityTls_unitytls_x509verify_result(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_1_OFFSET))(this, chain, errorState);
+			return ((::Mono::Unity::UnityTls_unitytls_x509verify_result(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_x509list_ref, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_1_OFFSET))(this, chain, errorState);
 		}
 
-		static ::System::Void CertificateCallback(::System::Void* userData, ::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::System::Byte* cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls_unitytls_x509name* caList, ::System::IntPtr caListLen, ::Mono::Unity::UnityTls_unitytls_x509list_ref* chain, ::Mono::Unity::UnityTls_unitytls_key_ref* key, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState)
+		static ::System::Void CertificateCallback(::PVOID userData, ::PVOID ctx, ::PVOID cn, ::System::IntPtr cnLen, ::PVOID caList, ::System::IntPtr caListLen, ::PVOID chain, ::PVOID key, ::PVOID errorState)
 		{
-			return ((::System::Void(*)(::System::Void*, ::Mono::Unity::UnityTls_unitytls_tlsctx*, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_x509name*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_x509list_ref*, ::Mono::Unity::UnityTls_unitytls_key_ref*, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_OFFSET))(userData, ctx, cn, cnLen, caList, caListLen, chain, key, errorState);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::PVOID, ::System::IntPtr, ::PVOID, ::System::IntPtr, ::PVOID, ::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_OFFSET))(userData, ctx, cn, cnLen, caList, caListLen, chain, key, errorState);
 		}
 
-		::System::Void CertificateCallback_1(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::System::Byte* cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls_unitytls_x509name* caList, ::System::IntPtr caListLen, ::Mono::Unity::UnityTls_unitytls_x509list_ref* chain, ::Mono::Unity::UnityTls_unitytls_key_ref* key, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState)
+		::System::Void CertificateCallback_1(::PVOID ctx, ::PVOID cn, ::System::IntPtr cnLen, ::PVOID caList, ::System::IntPtr caListLen, ::PVOID chain, ::PVOID key, ::PVOID errorState)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Unity::UnityTls_unitytls_tlsctx*, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_x509name*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_x509list_ref*, ::Mono::Unity::UnityTls_unitytls_key_ref*, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_1_OFFSET))(this, ctx, cn, cnLen, caList, caListLen, chain, key, errorState);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::PVOID, ::System::IntPtr, ::PVOID, ::System::IntPtr, ::PVOID, ::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_1_OFFSET))(this, ctx, cn, cnLen, caList, caListLen, chain, key, errorState);
 		}
 
-		static ::System::Void TraceCallback(::System::Void* userData, ::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::System::Byte* traceMessage, ::System::IntPtr traceMessageLen)
+		static ::System::Void TraceCallback(::PVOID userData, ::PVOID ctx, ::PVOID traceMessage, ::System::IntPtr traceMessageLen)
 		{
-			return ((::System::Void(*)(::System::Void*, ::Mono::Unity::UnityTls_unitytls_tlsctx*, ::System::Byte*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_TRACECALLBACK_OFFSET))(userData, ctx, traceMessage, traceMessageLen);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLSCONTEXT_TRACECALLBACK_OFFSET))(userData, ctx, traceMessage, traceMessageLen);
 		}
 	};
 }

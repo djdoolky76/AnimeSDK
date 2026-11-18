@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/AbyssS2_WorkGrid_V2.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/MoleMole/AbyssS2_GenConfigMeta.h"
 
 namespace System { class Object; }
 
-#define MOLEMOLE_ABYSSS2_WORKGRID_LINE_CREATELINE_OFFSET UNITYSDK_OFFSET(0x17790600)
-#define MOLEMOLE_ABYSSS2_WORKGRID_LINE_EQUALS_OFFSET UNITYSDK_OFFSET(0x86EB50)
-#define MOLEMOLE_ABYSSS2_WORKGRID_LINE_ISPOINTINSIDE_OFFSET UNITYSDK_OFFSET(0x86EB60)
-#define MOLEMOLE_ABYSSS2_WORKGRID_LINE___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x86EB90)
+#define MOLEMOLE_ABYSSS2_WORKGRID_LINE_CREATELINE_OFFSET UNITYSDK_OFFSET(0x174B9600)
+#define MOLEMOLE_ABYSSS2_WORKGRID_LINE_EQUALS_OFFSET UNITYSDK_OFFSET(0x7A9300)
+#define MOLEMOLE_ABYSSS2_WORKGRID_LINE_ISPOINTINSIDE_OFFSET UNITYSDK_OFFSET(0x7A9310)
+#define MOLEMOLE_ABYSSS2_WORKGRID_LINE___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x7A9340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_WorkGrid_Line_TypeDefinitionIndex = 87612;
+	inline static constexpr unsigned int AbyssS2_WorkGrid_Line_TypeDefinitionIndex = 93054;
 
 	struct alignas(4) AbyssS2_WorkGrid_Line
 	{
@@ -31,12 +32,10 @@ namespace MoleMole
 		}
 		*/
 
-		/*
 		::System::Boolean IsPointInside(::MoleMole::AbyssS2_GenConfigMeta meta, ::System::Int32 qID)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::MoleMole::AbyssS2_GenConfigMeta, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_ABYSSS2_WORKGRID_LINE_ISPOINTINSIDE_OFFSET))(this, meta, qID);
 		}
-		*/
 
 		::System::Boolean __base_Equals(::System::Object* P0)
 		{

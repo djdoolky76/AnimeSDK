@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_HOLLOWCARDCOMBINEANIMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC45A0)
+#define MOLEMOLE_HOLLOWCARDCOMBINEANIMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12B4BAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int HollowCardCombineAnimationConfig_TypeDefinitionIndex = 74710;
+	inline static constexpr unsigned int HollowCardCombineAnimationConfig_TypeDefinitionIndex = 74064;
 
 	class HollowCardCombineAnimationConfig : public ::System::Object
 	{
 	public:
-		::System::String* BigCard; // 0x10
-		::System::String* SmallCard; // 0x18
+		::System::String* SmallCard; // 0x10
+		::System::String* BigCard; // 0x18
 
 		::System::Void _ctor()
 		{

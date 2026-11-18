@@ -3,12 +3,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigAttackPatternType_TypeDefinitionIndex = 82962;
+	inline static constexpr unsigned int ConfigAttackPatternType_TypeDefinitionIndex = 77000;
 
 	enum class ConfigAttackPatternType : ::System::Int32
 	{
-		AttackPatternList = 1,
 		ContinuousAttackPatternList = 2,
 		AttackPattern = 0,
+		AttackPatternList = 1,
 	};
 }

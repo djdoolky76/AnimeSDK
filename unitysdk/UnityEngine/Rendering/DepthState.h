@@ -5,17 +5,17 @@
 
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA56320)
-#define UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0xA56300)
-#define UNITYENGINE_RENDERING_DEPTHSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA56380)
-#define UNITYENGINE_RENDERING_DEPTHSTATE_GET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1EA75900)
-#define UNITYENGINE_RENDERING_DEPTHSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x342140)
+#define UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x936CD0)
+#define UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x936CB0)
+#define UNITYENGINE_RENDERING_DEPTHSTATE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x936D30)
+#define UNITYENGINE_RENDERING_DEPTHSTATE_GET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1EDB20C0)
+#define UNITYENGINE_RENDERING_DEPTHSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x43DB60)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DepthState_TypeDefinitionIndex = 6243;
+	inline static constexpr unsigned int DepthState_TypeDefinitionIndex = 6258;
 
-	struct alignas(1) DepthState
+	struct alignas(4) DepthState
 	{
 		::System::Byte m_WriteEnabled; // 0x10
 		::System::SByte m_CompareFunction; // 0x11
@@ -25,15 +25,19 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Rendering::CompareFunction))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE__CTOR_OFFSET))(this, writeEnabled, compareFunction);
 		}
 
+		/*
 		static ::UnityEngine::Rendering::DepthState get_defaultValue()
 		{
 			return ((::UnityEngine::Rendering::DepthState(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE_GET_DEFAULTVALUE_OFFSET))();
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::DepthState other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::DepthState))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEPTHSTATE_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{

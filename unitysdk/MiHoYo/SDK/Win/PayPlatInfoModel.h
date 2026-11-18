@@ -6,17 +6,18 @@
 namespace MiHoYo::SDK::Win { class MerchantInfoModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_PAYPLATINFOMODEL_GETPAYPLATTYPE_OFFSET UNITYSDK_OFFSET(0x1D4C8050)
-#define MIHOYO_SDK_WIN_PAYPLATINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4C8190)
+#define MIHOYO_SDK_WIN_PAYPLATINFOMODEL_GETPAYPLATTYPE_OFFSET UNITYSDK_OFFSET(0x1DA4C180)
+#define MIHOYO_SDK_WIN_PAYPLATINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4C2C0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayPlatInfoModel_TypeDefinitionIndex = 21352;
+	inline static constexpr unsigned int PayPlatInfoModel_TypeDefinitionIndex = 20557;
 
 	class PayPlatInfoModel : public ::System::Object
 	{
 	public:
 		::System::Boolean is_recommend; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::String* market_word; // 0x18
 		::MiHoYo::SDK::Win::MerchantInfoModel* merchant_info; // 0x20
 		::System::String* pay_plat; // 0x28
@@ -25,6 +26,7 @@ namespace MiHoYo::SDK::Win
 		::System::String* market_id; // 0x40
 		::System::Boolean use_market; // 0x48
 		::System::Boolean use_official_qrcode; // 0x49
+		::System::Byte _padding1[0x6];
 		::System::String* real_cashier_id; // 0x50
 
 		::System::Void _ctor()

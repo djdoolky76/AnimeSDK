@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_MONOUICAMERA_AWAKE_OFFSET UNITYSDK_OFFSET(0x18091DF0)
-#define MOLEMOLE_MONOUICAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x18091EF0)
+#define MOLEMOLE_MONOUICAMERA_AWAKE_OFFSET UNITYSDK_OFFSET(0x12B83030)
+#define MOLEMOLE_MONOUICAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x12B83130)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUICamera_TypeDefinitionIndex = 59790;
+	inline static constexpr unsigned int MonoUICamera_TypeDefinitionIndex = 45826;
 
 	class MonoUICamera : public ::UnityEngine::MonoBehaviour
 	{

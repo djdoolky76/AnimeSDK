@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class Draw3DUIPassNativeState; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAW3DUIPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E3179C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_DRAW3DUIPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E317940)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAW3DUIPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1E5428D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_DRAW3DUIPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E542850)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int Draw3DUIPass_NativeImpl_TypeDefinitionIndex = 5737;
+	inline static constexpr unsigned int Draw3DUIPass_NativeImpl_TypeDefinitionIndex = 5742;
 
 	class Draw3DUIPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

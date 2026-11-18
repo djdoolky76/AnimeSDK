@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_18814BC9826CDED5;
+class HHNJOADIIOM;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E02F20)
-#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18E02F60)
-#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__SORTPROPS_B__26_0_OFFSET UNITYSDK_OFFSET(0x18E02F70)
+#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1142E0)
+#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A114320)
+#define MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__SORTPROPS_B__26_0_OFFSET UNITYSDK_OFFSET(0x1A114330)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2MapRefreshPageController___c_TypeDefinitionIndex = 91334;
+	inline static constexpr unsigned int UIAbyssS2MapRefreshPageController___c_TypeDefinitionIndex = 51169;
 
 	class UIAbyssS2MapRefreshPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_18814BC9826CDED5*>** StaticGet___9__26_0()
+		static ::System::Comparison_1<::HHNJOADIIOM*>** StaticGet___9__26_0()
 		{
-			return (::System::Comparison_1<::Class_1_18814BC9826CDED5*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2MapRefreshPageController___c_TypeDefinitionIndex)->GetStaticField(0x428C0);
+			return (::System::Comparison_1<::HHNJOADIIOM*>**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2MapRefreshPageController___c_TypeDefinitionIndex)->GetStaticField(0x48880);
 		}
-		static ::MoleMole::UIAbyssS2MapRefreshPageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIAbyssS2MapRefreshPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2MapRefreshPageController___c_TypeDefinitionIndex)->GetStaticField(0x428C8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIAbyssS2MapRefreshPageController___c_TypeDefinitionIndex)->GetStaticField(0x48888);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _SortProps_b__26_0(::Class_1_18814BC9826CDED5* a, ::Class_1_18814BC9826CDED5* b)
+		::System::Int32 _SortProps_b__26_0(::HHNJOADIIOM* a, ::HHNJOADIIOM* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_18814BC9826CDED5*, ::Class_1_18814BC9826CDED5*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__SORTPROPS_B__26_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::HHNJOADIIOM*, ::HHNJOADIIOM*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIABYSSS2MAPREFRESHPAGECONTROLLER___C__SORTPROPS_B__26_0_OFFSET))(this, a, b);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Events
 {
-	inline static constexpr unsigned int UnityEventCallState_TypeDefinitionIndex = 5493;
+	inline static constexpr unsigned int UnityEventCallState_TypeDefinitionIndex = 5496;
 
 	enum class UnityEventCallState : ::System::Int32
 	{

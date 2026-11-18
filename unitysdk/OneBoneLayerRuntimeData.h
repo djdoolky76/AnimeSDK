@@ -6,7 +6,7 @@
 
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int OneBoneLayerRuntimeData_TypeDefinitionIndex = 86684;
+inline static constexpr unsigned int OneBoneLayerRuntimeData_TypeDefinitionIndex = 91137;
 
 struct alignas(8) OneBoneLayerRuntimeData
 {
@@ -15,6 +15,7 @@ struct alignas(8) OneBoneLayerRuntimeData
 	::UnityEngine::Transform* MasterForwardBone; // 0x20
 	::UnityEngine::Quaternion MasterBoneAnimposeLocalRot; // 0x28
 	::UnityEngine::Vector3 MasterForwardBoneBindPos; // 0x38
+	::System::Byte _padding0[0x4];
 	::Il2CppArray<::UnityEngine::Transform*>* DrivenBones; // 0x48
 	::Il2CppArray<::UnityEngine::Vector3>* DirVec; // 0x50
 };

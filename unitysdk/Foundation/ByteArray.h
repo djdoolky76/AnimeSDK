@@ -4,28 +4,28 @@
 
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define FOUNDATION_BYTEARRAY_GET_OFFSET UNITYSDK_OFFSET(0x1E751F10)
-#define FOUNDATION_BYTEARRAY_INITBUF_OFFSET UNITYSDK_OFFSET(0x1E752140)
-#define FOUNDATION_BYTEARRAY_MOVEPOSITION_OFFSET UNITYSDK_OFFSET(0x1E752210)
-#define FOUNDATION_BYTEARRAY_RELEASE_OFFSET UNITYSDK_OFFSET(0x1E752070)
-#define FOUNDATION_BYTEARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x1E752280)
-#define FOUNDATION_BYTEARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E752310)
-#define FOUNDATION_BYTEARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E752060)
+#define FOUNDATION_BYTEARRAY_GET_OFFSET UNITYSDK_OFFSET(0x1EA27A20)
+#define FOUNDATION_BYTEARRAY_INITBUF_OFFSET UNITYSDK_OFFSET(0x1EA27C50)
+#define FOUNDATION_BYTEARRAY_MOVEPOSITION_OFFSET UNITYSDK_OFFSET(0x1EA27D20)
+#define FOUNDATION_BYTEARRAY_RELEASE_OFFSET UNITYSDK_OFFSET(0x1EA27B80)
+#define FOUNDATION_BYTEARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x1EA27D90)
+#define FOUNDATION_BYTEARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA27E20)
+#define FOUNDATION_BYTEARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA27B70)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ByteArray_TypeDefinitionIndex = 8269;
+	inline static constexpr unsigned int ByteArray_TypeDefinitionIndex = 7855;
 
 	class ByteArray : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Queue_1<::Foundation::ByteArray*>** StaticGet__pool()
 		{
-			return (::System::Collections::Generic::Queue_1<::Foundation::ByteArray*>**)Il2CppClass::FromTypeDefinitionIndex(ByteArray_TypeDefinitionIndex)->GetStaticField(0x73A0);
+			return (::System::Collections::Generic::Queue_1<::Foundation::ByteArray*>**)Il2CppClass::FromTypeDefinitionIndex(ByteArray_TypeDefinitionIndex)->GetStaticField(0x73C0);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_byteBuf()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(ByteArray_TypeDefinitionIndex)->GetStaticField(0x73A8);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(ByteArray_TypeDefinitionIndex)->GetStaticField(0x73C8);
 		}
 		::Il2CppArray<::System::Byte>* bytes; // 0x10
 		::System::Int32 pos; // 0x18

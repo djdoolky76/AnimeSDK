@@ -3,13 +3,13 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DownSampleLevel_TypeDefinitionIndex = 27881;
+	inline static constexpr unsigned int DownSampleLevel_TypeDefinitionIndex = 27255;
 
 	enum class DownSampleLevel : ::System::Int32
 	{
-		Eighth = 3,
 		None = 0,
-		Quarter = 2,
+		Eighth = 3,
 		Half = 1,
+		Quarter = 2,
 	};
 }

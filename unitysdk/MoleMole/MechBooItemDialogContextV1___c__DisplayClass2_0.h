@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV1___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13849270)
-#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV1___C__DISPLAYCLASS2_0__GETPARTBUILDLIST_B__1_OFFSET UNITYSDK_OFFSET(0x13849280)
+#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV1___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x139EEB20)
+#define MOLEMOLE_MECHBOOITEMDIALOGCONTEXTV1___C__DISPLAYCLASS2_0__GETPARTBUILDLIST_B__1_OFFSET UNITYSDK_OFFSET(0x139EEB30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MechBooItemDialogContextV1___c__DisplayClass2_0_TypeDefinitionIndex = 78664;
+	inline static constexpr unsigned int MechBooItemDialogContextV1___c__DisplayClass2_0_TypeDefinitionIndex = 52261;
 
 	class MechBooItemDialogContextV1___c__DisplayClass2_0 : public ::System::Object
 	{

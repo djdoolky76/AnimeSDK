@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ObjectPool_1_PooledObject.h"
 #include "unitysdk/System/Object.h"
 
 namespace Foundation { template <typename T> class ObjectPool_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int HashSetPool_1_TypeDefinitionIndex = 8477;
+	inline static constexpr unsigned int HashSetPool_1_TypeDefinitionIndex = 7819;
 
 	template <typename T>
 	class HashSetPool_1 : public ::System::Object

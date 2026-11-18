@@ -3,16 +3,16 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerFishClickButtonWidgetController_EButtonState_TypeDefinitionIndex = 53863;
+	inline static constexpr unsigned int UISummerFishClickButtonWidgetController_EButtonState_TypeDefinitionIndex = 43888;
 
 	enum class UISummerFishClickButtonWidgetController_EButtonState : ::System::Int32
 	{
-		WaitFish = 1,
-		WaitBattle = 3,
-		Normal = 6,
 		QTE = 2,
+		WaitFish = 1,
+		Normal = 6,
+		LongPress = 5,
 		None = 0,
 		ContinueClick = 4,
-		LongPress = 5,
+		WaitBattle = 3,
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCCullScheduler_SoftPoolEntry_TypeDefinitionIndex = 88981;
+	inline static constexpr unsigned int NPCCullScheduler_SoftPoolEntry_TypeDefinitionIndex = 69725;
 
 	struct alignas(4) NPCCullScheduler_SoftPoolEntry
 	{

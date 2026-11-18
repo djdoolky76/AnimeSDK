@@ -6,13 +6,14 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsWebInstaller_StatusInfo_TypeDefinitionIndex = 34975;
+	inline static constexpr unsigned int CriFsWebInstaller_StatusInfo_TypeDefinitionIndex = 34524;
 
-	struct alignas(8) CriFsWebInstaller_StatusInfo
+	struct alignas(4) CriFsWebInstaller_StatusInfo
 	{
 		::CriWare::CriFsWebInstaller_Status status; // 0x10
 		::CriWare::CriFsWebInstaller_Error error; // 0x14
 		::System::Int32 httpStatusCode; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::Int64 contentsSize; // 0x20
 		::System::Int64 receivedSize; // 0x28
 	};

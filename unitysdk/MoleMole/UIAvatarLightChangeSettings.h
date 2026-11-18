@@ -5,15 +5,16 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIAVATARLIGHTCHANGESETTINGS_ONCONFIGCHANGED_OFFSET UNITYSDK_OFFSET(0x8C9F80)
+#define MOLEMOLE_UIAVATARLIGHTCHANGESETTINGS_ONCONFIGCHANGED_OFFSET UNITYSDK_OFFSET(0x7F6D80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarLightChangeSettings_TypeDefinitionIndex = 80154;
+	inline static constexpr unsigned int UIAvatarLightChangeSettings_TypeDefinitionIndex = 42396;
 
 	struct alignas(8) UIAvatarLightChangeSettings
 	{
 		::MoleMole::EAvatarLightChangeType changeType; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* curverKey; // 0x18
 		::System::Single duration; // 0x20
 

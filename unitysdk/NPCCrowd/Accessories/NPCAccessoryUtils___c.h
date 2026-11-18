@@ -6,29 +6,29 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10C939A0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10C939E0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYUTILS___C__GET_FORCESHOWEDACCESSORYITEMTYPES_B__34_0_OFFSET UNITYSDK_OFFSET(0x10C939F0)
-#define NPCCROWD_ACCESSORIES_NPCACCESSORYUTILS___C__GET_FORCESHOWEDACCESSORYITEMTYPES_B__34_1_OFFSET UNITYSDK_OFFSET(0x10C93A60)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2D1950)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB2D1990)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYUTILS___C__GET_FORCESHOWEDACCESSORYITEMTYPES_B__34_0_OFFSET UNITYSDK_OFFSET(0xB2D19A0)
+#define NPCCROWD_ACCESSORIES_NPCACCESSORYUTILS___C__GET_FORCESHOWEDACCESSORYITEMTYPES_B__34_1_OFFSET UNITYSDK_OFFSET(0xB2D1A10)
 
 namespace NPCCrowd::Accessories
 {
-	inline static constexpr unsigned int NPCAccessoryUtils___c_TypeDefinitionIndex = 72016;
+	inline static constexpr unsigned int NPCAccessoryUtils___c_TypeDefinitionIndex = 51500;
 
 	class NPCAccessoryUtils___c : public ::System::Object
 	{
 	public:
-		static ::NPCCrowd::Accessories::NPCAccessoryUtils___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::NPCCrowd::Accessories::NPCAccessoryUtils___c**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryUtils___c_TypeDefinitionIndex)->GetStaticField(0x40F60);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryUtils___c_TypeDefinitionIndex)->GetStaticField(0x456B0);
 		}
 		static ::System::Func_2<::NPCCrowd::Accessories::ENPCAccessoryItemType, ::System::Boolean>** StaticGet___9__34_1()
 		{
-			return (::System::Func_2<::NPCCrowd::Accessories::ENPCAccessoryItemType, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryUtils___c_TypeDefinitionIndex)->GetStaticField(0x40F68);
+			return (::System::Func_2<::NPCCrowd::Accessories::ENPCAccessoryItemType, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryUtils___c_TypeDefinitionIndex)->GetStaticField(0x456B8);
 		}
 		static ::System::Func_2<::System::String*, ::NPCCrowd::Accessories::ENPCAccessoryItemType>** StaticGet___9__34_0()
 		{
-			return (::System::Func_2<::System::String*, ::NPCCrowd::Accessories::ENPCAccessoryItemType>**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryUtils___c_TypeDefinitionIndex)->GetStaticField(0x40F70);
+			return (::System::Func_2<::System::String*, ::NPCCrowd::Accessories::ENPCAccessoryItemType>**)Il2CppClass::FromTypeDefinitionIndex(NPCAccessoryUtils___c_TypeDefinitionIndex)->GetStaticField(0x456C0);
 		}
 
 		static ::System::Void _cctor()

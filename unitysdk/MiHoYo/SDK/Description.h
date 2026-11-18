@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
+namespace System { class Enum; }
 namespace System { class String; }
-namespace System { struct Enum; }
 
-#define MIHOYO_SDK_DESCRIPTION_GETFROM_OFFSET UNITYSDK_OFFSET(0x1D94ACA0)
-#define MIHOYO_SDK_DESCRIPTION_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1D94AC70)
-#define MIHOYO_SDK_DESCRIPTION_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1D94AC80)
-#define MIHOYO_SDK_DESCRIPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D94AC90)
+#define MIHOYO_SDK_DESCRIPTION_GETFROM_OFFSET UNITYSDK_OFFSET(0x1EE7E700)
+#define MIHOYO_SDK_DESCRIPTION_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1EE7E6D0)
+#define MIHOYO_SDK_DESCRIPTION_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1EE7E6E0)
+#define MIHOYO_SDK_DESCRIPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7E6F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Description_TypeDefinitionIndex = 37346;
+	inline static constexpr unsigned int Description_TypeDefinitionIndex = 35335;
 
 	class Description : public ::System::Attribute
 	{

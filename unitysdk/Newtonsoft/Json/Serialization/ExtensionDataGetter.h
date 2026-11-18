@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATAGETTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6E6460)
-#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATAGETTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6E6490)
-#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATAGETTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6E5F40)
-#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATAGETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6E5F20)
+#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATAGETTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FADEC30)
+#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATAGETTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FADEC60)
+#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATAGETTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FADE710)
+#define NEWTONSOFT_JSON_SERIALIZATION_EXTENSIONDATAGETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FADE700)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int ExtensionDataGetter_TypeDefinitionIndex = 7127;
+	inline static constexpr unsigned int ExtensionDataGetter_TypeDefinitionIndex = 7134;
 
 	class ExtensionDataGetter : public ::System::MulticastDelegate
 	{

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_3.h"
 
 namespace MoleMole::FlowCanvas { class HackModify; }
 
-#define MOLEMOLE_FLOWCANVAS_HACKSHARDEDINFOUPDATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A7F960)
-#define MOLEMOLE_FLOWCANVAS_HACKSHARDEDINFOUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A7F9F0)
+#define MOLEMOLE_FLOWCANVAS_HACKSHARDEDINFOUPDATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465A170)
+#define MOLEMOLE_FLOWCANVAS_HACKSHARDEDINFOUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1465A200)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int HackShardedInfoUpdate_TypeDefinitionIndex = 90740;
+	inline static constexpr unsigned int HackShardedInfoUpdate_TypeDefinitionIndex = 47068;
 
-	class HackShardedInfoUpdate : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_3<::MoleMole::FlowCanvas::HackModify*, ::System::Int32, ::System::Int32>
+	class HackShardedInfoUpdate
 	{
 	public:
 		::System::Void _ctor()

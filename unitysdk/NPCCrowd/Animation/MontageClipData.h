@@ -6,7 +6,7 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageClipData_TypeDefinitionIndex = 86836;
+	inline static constexpr unsigned int MontageClipData_TypeDefinitionIndex = 78877;
 
 	struct alignas(4) MontageClipData
 	{

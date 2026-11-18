@@ -1,31 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/CutSceneEndMode.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 
-class Class_0_16E4307DCC419505_416;
+class IAEOCKOHIMH;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_FLOWCANVASDELAYTIME_OFFSET UNITYSDK_OFFSET(0x1B7FB8C0)
-#define MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_INPUTMUTEDELAYTIME_OFFSET UNITYSDK_OFFSET(0x1B7FB870)
-#define MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_SHOWUIDELAYTIME_OFFSET UNITYSDK_OFFSET(0x1B7FB910)
-#define MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_SETUP_OFFSET UNITYSDK_OFFSET(0x1B7FB960)
-#define MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FBA60)
+#define MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_FLOWCANVASDELAYTIME_OFFSET UNITYSDK_OFFSET(0x192AED40)
+#define MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_INPUTMUTEDELAYTIME_OFFSET UNITYSDK_OFFSET(0x192AECF0)
+#define MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_SHOWUIDELAYTIME_OFFSET UNITYSDK_OFFSET(0x192AED90)
+#define MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_SETUP_OFFSET UNITYSDK_OFFSET(0x192AEDE0)
+#define MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192AEEE0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CutScenePerformConfig_TypeDefinitionIndex = 63500;
+	inline static constexpr unsigned int CutScenePerformConfig_TypeDefinitionIndex = 57620;
 
 	class CutScenePerformConfig : public ::System::Object
 	{
 	public:
 		::System::String* CameraShotKey; // 0x10
-		::MoleMole::Config::CutSceneEndMode finishMode; // 0x18
-		::System::Boolean IsGroupShotData; // 0x19
-		::System::Single InputMuteDelayTime; // 0x1C
-		::System::Single ShowUIDelayTime; // 0x20
-		::System::Single FlowCanvasDelayTime; // 0x24
+		::System::Single ShowUIDelayTime; // 0x18
+		::System::Single FlowCanvasDelayTime; // 0x1C
+		::MoleMole::Config::CutSceneEndMode finishMode; // 0x20
+		::System::Boolean IsGroupShotData; // 0x21
+		::System::Byte _padding0[0x2];
+		::System::Single InputMuteDelayTime; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -47,9 +48,9 @@ namespace MoleMole::Config
 			return ((::System::Nullable_1<::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_GET_SHOWUIDELAYTIME_OFFSET))(this);
 		}
 
-		::System::Void MoleMole_Config_IScenePerformConfig_Setup(::Class_0_16E4307DCC419505_416* node)
+		::System::Void MoleMole_Config_IScenePerformConfig_Setup(::IAEOCKOHIMH* node)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_416*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_SETUP_OFFSET))(this, node);
+			return ((::System::Void(*)(::PVOID, ::IAEOCKOHIMH*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CUTSCENEPERFORMCONFIG_MOLEMOLE_CONFIG_ISCENEPERFORMCONFIG_SETUP_OFFSET))(this, node);
 		}
 	};
 }

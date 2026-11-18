@@ -9,14 +9,14 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPCCROWD_AI_POPULATIONTIMECONFIG_GETPOOLREFS_OFFSET UNITYSDK_OFFSET(0x951C7A0)
-#define NPCCROWD_AI_POPULATIONTIMECONFIG_ISWEATHERMATCHED_OFFSET UNITYSDK_OFFSET(0x951C840)
-#define NPCCROWD_AI_POPULATIONTIMECONFIG_TRYGETOVERRIDEMOVEMENTSTYLE_OFFSET UNITYSDK_OFFSET(0x951C8D0)
-#define NPCCROWD_AI_POPULATIONTIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x951C940)
+#define NPCCROWD_AI_POPULATIONTIMECONFIG_GETPOOLREFS_OFFSET UNITYSDK_OFFSET(0x13181EE0)
+#define NPCCROWD_AI_POPULATIONTIMECONFIG_ISWEATHERMATCHED_OFFSET UNITYSDK_OFFSET(0x13181F80)
+#define NPCCROWD_AI_POPULATIONTIMECONFIG_TRYGETOVERRIDEMOVEMENTSTYLE_OFFSET UNITYSDK_OFFSET(0x13182010)
+#define NPCCROWD_AI_POPULATIONTIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13182080)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PopulationTimeConfig_TypeDefinitionIndex = 66033;
+	inline static constexpr unsigned int PopulationTimeConfig_TypeDefinitionIndex = 57301;
 
 	class PopulationTimeConfig : public ::System::Object
 	{
@@ -25,6 +25,7 @@ namespace NPCCrowd::AI
 		::ProtoScript::TimePeriodType timePeriodType; // 0x14
 		::NPCCrowd::NPCCrowdUtils_CrowdWeatherTypeFlag weatherFlags; // 0x18
 		::System::Boolean overrideMovementStyle; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::String* movementStyle; // 0x20
 		::System::Collections::Generic::List_1<::NPCCrowd::AI::PopulationPoolRef>* npcPools; // 0x28
 

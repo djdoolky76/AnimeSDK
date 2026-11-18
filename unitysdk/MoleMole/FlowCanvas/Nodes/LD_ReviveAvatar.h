@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_REVIVEAVATAR_INVOKE_OFFSET UNITYSDK_OFFSET(0x16851A90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_REVIVEAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x16851B40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_REVIVEAVATAR_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D1C820)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_REVIVEAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x10D1C8D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_ReviveAvatar_TypeDefinitionIndex = 61737;
+	inline static constexpr unsigned int LD_ReviveAvatar_TypeDefinitionIndex = 65512;
 
-	class LD_ReviveAvatar : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::Collections::Generic::List_1<::System::Int32>*, ::System::Single>
+	class LD_ReviveAvatar
 	{
 	public:
 		::System::Void _ctor()

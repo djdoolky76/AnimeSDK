@@ -6,25 +6,25 @@
 
 namespace UnityEngine { class AnimationClip; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSTATE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1127DB50)
-#define NPCCROWD_ANIMATION_ANIMATIONSTATE_GETTIME_OFFSET UNITYSDK_OFFSET(0x1127DAB0)
-#define NPCCROWD_ANIMATION_ANIMATIONSTATE_SETTARGETWEIGHT_OFFSET UNITYSDK_OFFSET(0x1127D880)
-#define NPCCROWD_ANIMATION_ANIMATIONSTATE_SETTIME_OFFSET UNITYSDK_OFFSET(0x1127D9F0)
-#define NPCCROWD_ANIMATION_ANIMATIONSTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1127D920)
-#define NPCCROWD_ANIMATION_ANIMATIONSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1127D840)
+#define NPCCROWD_ANIMATION_ANIMATIONSTATE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11F9D6D0)
+#define NPCCROWD_ANIMATION_ANIMATIONSTATE_GETTIME_OFFSET UNITYSDK_OFFSET(0x11F9D630)
+#define NPCCROWD_ANIMATION_ANIMATIONSTATE_SETTARGETWEIGHT_OFFSET UNITYSDK_OFFSET(0x11F9D400)
+#define NPCCROWD_ANIMATION_ANIMATIONSTATE_SETTIME_OFFSET UNITYSDK_OFFSET(0x11F9D570)
+#define NPCCROWD_ANIMATION_ANIMATIONSTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0x11F9D4A0)
+#define NPCCROWD_ANIMATION_ANIMATIONSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x11F9D3C0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationState_TypeDefinitionIndex = 54511;
+	inline static constexpr unsigned int AnimationState_TypeDefinitionIndex = 88577;
 
 	class AnimationState : public ::System::Object
 	{
 	public:
-		::UnityEngine::Playables::Playable playable; // 0x10
-		::System::Single fadeSpeed; // 0x20
-		::UnityEngine::Playables::PlayableGraph graph; // 0x28
-		::System::Single targetWeight; // 0x38
-		::System::Single weight; // 0x3C
+		::UnityEngine::Playables::PlayableGraph graph; // 0x10
+		::UnityEngine::Playables::Playable playable; // 0x20
+		::System::Single fadeSpeed; // 0x30
+		::System::Single targetWeight; // 0x34
+		::System::Single weight; // 0x38
 
 		::System::Void _ctor(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AnimationClip* clip)
 		{

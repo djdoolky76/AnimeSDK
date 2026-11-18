@@ -7,16 +7,16 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define AKBANK_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FAF2610)
-#define AKBANK_GET_BANKNAME_OFFSET UNITYSDK_OFFSET(0x1FAF27F0)
-#define AKBANK_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1FAF2850)
-#define AKBANK_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1FAF2720)
-#define AKBANK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FAF2770)
-#define AKBANK_START_OFFSET UNITYSDK_OFFSET(0x1FAF2680)
-#define AKBANK_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1FAF2700)
-#define AKBANK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FAF2A50)
+#define AKBANK_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FEFE300)
+#define AKBANK_GET_BANKNAME_OFFSET UNITYSDK_OFFSET(0x1FEFE4E0)
+#define AKBANK_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1FEFE540)
+#define AKBANK_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1FEFE410)
+#define AKBANK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FEFE460)
+#define AKBANK_START_OFFSET UNITYSDK_OFFSET(0x1FEFE370)
+#define AKBANK_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1FEFE3F0)
+#define AKBANK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FEFE740)
 
-inline static constexpr unsigned int AkBank_TypeDefinitionIndex = 33772;
+inline static constexpr unsigned int AkBank_TypeDefinitionIndex = 33318;
 
 class AkBank : public ::AkTriggerHandler
 {
@@ -25,6 +25,7 @@ public:
 	::System::Boolean decodeBank; // 0x38
 	::System::Boolean loadAsynchronous; // 0x39
 	::System::Boolean saveDecodedBank; // 0x3A
+	::System::Byte _padding0[0x5];
 	::System::Collections::Generic::List_1<::System::Int32>* unloadTriggerList; // 0x40
 	::System::String* bankNameInternal; // 0x48
 	::Il2CppArray<::System::Byte>* valueGuidInternal; // 0x50

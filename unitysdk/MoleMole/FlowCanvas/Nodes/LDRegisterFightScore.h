@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_2.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERFIGHTSCORE_INVOKE_OFFSET UNITYSDK_OFFSET(0x118B9B50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERFIGHTSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x118B9CC0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERFIGHTSCORE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16238CD0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREGISTERFIGHTSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x16238E40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDRegisterFightScore_TypeDefinitionIndex = 69063;
+	inline static constexpr unsigned int LDRegisterFightScore_TypeDefinitionIndex = 73491;
 
-	class LDRegisterFightScore : public ::FlowCanvas::Nodes::CallableActionNode_2<::System::Int32, ::System::Int32>
+	class LDRegisterFightScore
 	{
 	public:
 		::System::Void _ctor()

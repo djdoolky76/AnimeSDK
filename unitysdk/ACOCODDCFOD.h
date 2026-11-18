@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class LFAGLCFKOMP;
+class MLJGMELKNCC_KCKGMDBGMDB;
+
+#define ACOCODDCFOD_AGEBDNDAGCP_OFFSET UNITYSDK_OFFSET(0x16FD5830)
+#define ACOCODDCFOD_COMPARE_OFFSET UNITYSDK_OFFSET(0x16FD5740)
+#define ACOCODDCFOD_FOOPNCBOIGP_OFFSET UNITYSDK_OFFSET(0x16FD5820)
+#define ACOCODDCFOD__CTOR_OFFSET UNITYSDK_OFFSET(0x16FD57E0)
+
+inline static constexpr unsigned int ACOCODDCFOD_TypeDefinitionIndex = 81689;
+
+class ACOCODDCFOD : public ::System::Object
+{
+public:
+	::LFAGLCFKOMP* _LHCBPMKAGEJ_k__BackingField; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACOCODDCFOD__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 Compare(::MLJGMELKNCC_KCKGMDBGMDB* FFKBEGIHIGG, ::MLJGMELKNCC_KCKGMDBGMDB* CKADGLGJJAB)
+	{
+		return ((::System::Int32(*)(::PVOID, ::MLJGMELKNCC_KCKGMDBGMDB*, ::MLJGMELKNCC_KCKGMDBGMDB*))((::PBYTE)hIl2Cpp + ACOCODDCFOD_COMPARE_OFFSET))(this, FFKBEGIHIGG, CKADGLGJJAB);
+	}
+
+	::System::Void FOOPNCBOIGP(::LFAGLCFKOMP* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LFAGLCFKOMP*))((::PBYTE)hIl2Cpp + ACOCODDCFOD_FOOPNCBOIGP_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LFAGLCFKOMP* AGEBDNDAGCP()
+	{
+		return ((::LFAGLCFKOMP*(*)(::PVOID))((::PBYTE)hIl2Cpp + ACOCODDCFOD_AGEBDNDAGCP_OFFSET))(this);
+	}
+};

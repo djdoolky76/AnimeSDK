@@ -5,15 +5,16 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NapBundleInfo_TypeDefinitionIndex = 7682;
+	inline static constexpr unsigned int NapBundleInfo_TypeDefinitionIndex = 7694;
 
-	struct alignas(8) NapBundleInfo
+	struct alignas(4) NapBundleInfo
 	{
 		::System::UInt64 hashName; // 0x10
 		::System::UInt32 offset; // 0x18
 		::System::UInt32 fileSize; // 0x1C
 		::System::UInt64 fileHash; // 0x20
 		::System::Byte locationIndex; // 0x28
+		::System::Byte _padding0[0x3];
 		::UnityEngine::NapResourceFileType resourceFileType; // 0x2C
 	};
 }

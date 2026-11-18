@@ -1,23 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/MatPropertyType.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherMaterialTransitionType.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WEATHERMATERIALTRANSITIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA8560)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WEATHERMATERIALTRANSITIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A97A0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int WeatherMaterialTransitionData_TypeDefinitionIndex = 26858;
+	inline static constexpr unsigned int WeatherMaterialTransitionData_TypeDefinitionIndex = 26144;
 
 	class WeatherMaterialTransitionData : public ::System::Object
 	{
 	public:
 		::UnityEngine::Rendering::Universal::WeatherSystem::WeatherMaterialTransitionType weatherMaterialTransitionType; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* propertyName; // 0x18
 		::UnityEngine::Rendering::Universal::WeatherSystem::MatPropertyType matPropertyType; // 0x20
 		::System::Single transitionFloatValue; // 0x24

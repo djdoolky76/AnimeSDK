@@ -4,13 +4,14 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS34_1__CTOR_OFFSET UNITYSDK_OFFSET(0x197F1700)
-#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS34_1__OPENSELECTROLEPAGE_B__4_OFFSET UNITYSDK_OFFSET(0x197F1840)
+#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS34_1__CTOR_OFFSET UNITYSDK_OFFSET(0x19845620)
+#define MOLEMOLE_UIBOSSCHALLENGEINFOWIDGETCONTROLLER___C__DISPLAYCLASS34_1__OPENSELECTROLEPAGE_B__4_OFFSET UNITYSDK_OFFSET(0x19845760)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossChallengeInfoWidgetController___c__DisplayClass34_1_TypeDefinitionIndex = 80232;
+	inline static constexpr unsigned int UIBossChallengeInfoWidgetController___c__DisplayClass34_1_TypeDefinitionIndex = 48205;
 
+	template <typename T>
 	class UIBossChallengeInfoWidgetController___c__DisplayClass34_1 : public ::System::Object
 	{
 	public:

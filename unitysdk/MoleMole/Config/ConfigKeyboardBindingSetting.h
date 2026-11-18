@@ -3,12 +3,12 @@
 #include "unitysdk/MoleMole/Config/ConfigSubSystemSettingBase.h"
 #include "unitysdk/MoleMole/ESystemSettingType.h"
 
-#define MOLEMOLE_CONFIG_CONFIGKEYBOARDBINDINGSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x14376D20)
-#define MOLEMOLE_CONFIG_CONFIGKEYBOARDBINDINGSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x14376D30)
+#define MOLEMOLE_CONFIG_CONFIGKEYBOARDBINDINGSETTING_GET_SYSTEMSETTINGTYPE_OFFSET UNITYSDK_OFFSET(0x121C1EB0)
+#define MOLEMOLE_CONFIG_CONFIGKEYBOARDBINDINGSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x121C1EC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigKeyboardBindingSetting_TypeDefinitionIndex = 66308;
+	inline static constexpr unsigned int ConfigKeyboardBindingSetting_TypeDefinitionIndex = 76729;
 
 	class ConfigKeyboardBindingSetting : public ::MoleMole::Config::ConfigSubSystemSettingBase
 	{

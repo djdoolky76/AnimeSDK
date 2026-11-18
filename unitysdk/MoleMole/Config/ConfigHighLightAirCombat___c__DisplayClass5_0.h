@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B90A100)
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT___C__DISPLAYCLASS5_0__RELOADFROMFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1B90A110)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x192410A0)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBAT___C__DISPLAYCLASS5_0__RELOADFROMFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x192410B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHighLightAirCombat___c__DisplayClass5_0_TypeDefinitionIndex = 66517;
+	inline static constexpr unsigned int ConfigHighLightAirCombat___c__DisplayClass5_0_TypeDefinitionIndex = 60830;
 
 	class ConfigHighLightAirCombat___c__DisplayClass5_0 : public ::System::Object
 	{

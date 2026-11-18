@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTARGETAREAUI_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A81350)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTARGETAREAUI__CTOR_OFFSET UNITYSDK_OFFSET(0x13A815B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTARGETAREAUI_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465BB60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDDESTROYTARGETAREAUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1465BDC0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDDestroyTargetAreaUI_TypeDefinitionIndex = 69386;
+	inline static constexpr unsigned int LDDestroyTargetAreaUI_TypeDefinitionIndex = 49569;
 
-	class LDDestroyTargetAreaUI : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Boolean, ::System::Collections::Generic::List_1<::System::String*>*>
+	class LDDestroyTargetAreaUI
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::String*>* paramList; // 0x40

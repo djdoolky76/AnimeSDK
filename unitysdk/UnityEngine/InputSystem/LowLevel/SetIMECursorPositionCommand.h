@@ -3,15 +3,16 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/LowLevel/InputDeviceCommand.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_SETIMECURSORPOSITIONCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1EB437B0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_SETIMECURSORPOSITIONCOMMAND_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x31CCF0)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_SETIMECURSORPOSITIONCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0xA5BA20)
-#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_SETIMECURSORPOSITIONCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EB4BF90)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_SETIMECURSORPOSITIONCOMMAND_CREATE_OFFSET UNITYSDK_OFFSET(0x1EED4330)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_SETIMECURSORPOSITIONCOMMAND_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x2E38E0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_SETIMECURSORPOSITIONCOMMAND_GET_TYPESTATIC_OFFSET UNITYSDK_OFFSET(0x93CAB0)
+#define UNITYENGINE_INPUTSYSTEM_LOWLEVEL_SETIMECURSORPOSITIONCOMMAND_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EEDCB00)
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int SetIMECursorPositionCommand_TypeDefinitionIndex = 32489;
+	inline static constexpr unsigned int SetIMECursorPositionCommand_TypeDefinitionIndex = 31938;
 
 	struct alignas(4) SetIMECursorPositionCommand
 	{
@@ -19,28 +20,26 @@ namespace UnityEngine::InputSystem::LowLevel
 		::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand; // 0x10
 		::UnityEngine::Vector2 m_Position; // 0x18
 
-		/*
 		static ::UnityEngine::InputSystem::Utilities::FourCC get_Type()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_SETIMECURSORPOSITIONCOMMAND_GET_TYPE_OFFSET))();
 		}
-		*/
 
 		::UnityEngine::Vector2 get_position()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_SETIMECURSORPOSITIONCOMMAND_GET_POSITION_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_SETIMECURSORPOSITIONCOMMAND_GET_TYPESTATIC_OFFSET))(this);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand Create(::UnityEngine::Vector2 cursorPosition)
 		{
 			return ((::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_LOWLEVEL_SETIMECURSORPOSITIONCOMMAND_CREATE_OFFSET))(cursorPosition);
 		}
+		*/
 	};
 }

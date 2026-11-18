@@ -3,12 +3,12 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDStarRandomPositionByAnchorTask_State_TypeDefinitionIndex = 40342;
+	inline static constexpr unsigned int LDStarRandomPositionByAnchorTask_State_TypeDefinitionIndex = 38538;
 
 	enum class LDStarRandomPositionByAnchorTask_State : ::System::Int32
 	{
-		Pause = 2,
 		Stop = 0,
 		Runing = 1,
+		Pause = 2,
 	};
 }

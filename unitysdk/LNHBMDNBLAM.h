@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OGEDMNDIDHA.h"
+
+namespace System { class String; }
+template <typename T> class EILBPOADDGK_1;
+
+#define LNHBMDNBLAM_FHLAJOBHPND_OFFSET UNITYSDK_OFFSET(0x1E2F6490)
+#define LNHBMDNBLAM_FKPHDBCBDPB_OFFSET UNITYSDK_OFFSET(0x1E2F6520)
+#define LNHBMDNBLAM_NBMPHHICPIE_OFFSET UNITYSDK_OFFSET(0x1E2F64D0)
+#define LNHBMDNBLAM_PKOGNPKCHHE_OFFSET UNITYSDK_OFFSET(0x1E2F64E0)
+#define LNHBMDNBLAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2F6E80)
+
+inline static constexpr unsigned int LNHBMDNBLAM_TypeDefinitionIndex = 93859;
+
+class LNHBMDNBLAM
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LNHBMDNBLAM__CTOR_OFFSET))(this);
+	}
+
+	::System::String* FHLAJOBHPND()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + LNHBMDNBLAM_FHLAJOBHPND_OFFSET))(this);
+	}
+
+	::System::Int32 NBMPHHICPIE()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + LNHBMDNBLAM_NBMPHHICPIE_OFFSET))(this);
+	}
+
+	::EILBPOADDGK_1<::OGEDMNDIDHA>* PKOGNPKCHHE()
+	{
+		return ((::EILBPOADDGK_1<::OGEDMNDIDHA>*(*)(::PVOID))((::PBYTE)hIl2Cpp + LNHBMDNBLAM_PKOGNPKCHHE_OFFSET))(this);
+	}
+
+	static ::EILBPOADDGK_1<::OGEDMNDIDHA>* FKPHDBCBDPB()
+	{
+		return ((::EILBPOADDGK_1<::OGEDMNDIDHA>*(*)())((::PBYTE)hIl2Cpp + LNHBMDNBLAM_FKPHDBCBDPB_OFFSET))();
+	}
+};

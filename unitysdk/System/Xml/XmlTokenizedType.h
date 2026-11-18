@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTokenizedType_TypeDefinitionIndex = 1806;
+	inline static constexpr unsigned int XmlTokenizedType_TypeDefinitionIndex = 1805;
 
 	enum class XmlTokenizedType : ::System::Int32
 	{
@@ -16,7 +16,7 @@ namespace System::Xml
 		NMTOKEN = 6,
 		NMTOKENS = 7,
 		NOTATION = 8,
-		Value_9 = 9,
+		ENUMERATION = 9,
 		QName = 10,
 		NCName = 11,
 		None = 12,

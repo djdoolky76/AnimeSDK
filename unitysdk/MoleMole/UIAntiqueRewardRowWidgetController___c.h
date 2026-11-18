@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIANTIQUEREWARDROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x196F5A00)
-#define MOLEMOLE_UIANTIQUEREWARDROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x196F5A40)
-#define MOLEMOLE_UIANTIQUEREWARDROWWIDGETCONTROLLER___C__ONGETREWARDBUTTON_B__8_0_OFFSET UNITYSDK_OFFSET(0x196F5A50)
+#define MOLEMOLE_UIANTIQUEREWARDROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F98890)
+#define MOLEMOLE_UIANTIQUEREWARDROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19F988D0)
+#define MOLEMOLE_UIANTIQUEREWARDROWWIDGETCONTROLLER___C__ONGETREWARDBUTTON_B__8_0_OFFSET UNITYSDK_OFFSET(0x19F988E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAntiqueRewardRowWidgetController___c_TypeDefinitionIndex = 42383;
+	inline static constexpr unsigned int UIAntiqueRewardRowWidgetController___c_TypeDefinitionIndex = 48717;
 
 	class UIAntiqueRewardRowWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__8_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAntiqueRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36AD0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIAntiqueRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38C60);
 		}
-		static ::MoleMole::UIAntiqueRewardRowWidgetController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIAntiqueRewardRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIAntiqueRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x36AD8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIAntiqueRewardRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x38C68);
 		}
 
 		static ::System::Void _cctor()

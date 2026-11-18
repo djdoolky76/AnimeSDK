@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIArcadeAchievementTipsRowWidgetController; }
 
-#define MOLEMOLE_UIARCADEACHIEVEMENTTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS7_0__AFTERFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x19553520)
-#define MOLEMOLE_UIARCADEACHIEVEMENTTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19553510)
+#define MOLEMOLE_UIARCADEACHIEVEMENTTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS7_0__AFTERFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x19642110)
+#define MOLEMOLE_UIARCADEACHIEVEMENTTIPSROWWIDGETCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19642100)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIArcadeAchievementTipsRowWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 79832;
+	inline static constexpr unsigned int UIArcadeAchievementTipsRowWidgetController___c__DisplayClass7_0_TypeDefinitionIndex = 91715;
 
 	class UIArcadeAchievementTipsRowWidgetController___c__DisplayClass7_0 : public ::System::Object
 	{

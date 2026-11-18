@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GJGPLDIHGID.h"
+#include "unitysdk/LIBOIKJGAIH.h"
+
+class IOOIHHOJOPI;
+namespace UnityEngine { class GameObject; }
+
+#define EGOOOJBOEJK_EJGAIMLGDPO_OFFSET UNITYSDK_OFFSET(0x16997EA0)
+#define EGOOOJBOEJK_EJMLADDEHAE_OFFSET UNITYSDK_OFFSET(0x16997C80)
+#define EGOOOJBOEJK_LKNBCFOKJLO_OFFSET UNITYSDK_OFFSET(0x16997E90)
+#define EGOOOJBOEJK_MOKINDNACHI_OFFSET UNITYSDK_OFFSET(0x16997DD0)
+#define EGOOOJBOEJK_NPKBDILPMHJ_OFFSET UNITYSDK_OFFSET(0x16997EB0)
+#define EGOOOJBOEJK_PILPKINFMBA_OFFSET UNITYSDK_OFFSET(0x16997E20)
+#define EGOOOJBOEJK__CTOR_OFFSET UNITYSDK_OFFSET(0x16997E80)
+
+inline static constexpr unsigned int EGOOOJBOEJK_TypeDefinitionIndex = 84561;
+
+class EGOOOJBOEJK : public ::GJGPLDIHGID
+{
+public:
+	::UnityEngine::GameObject* LBKDMFGMMMA; // 0xA8
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGOOOJBOEJK__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EJMLADDEHAE(::LIBOIKJGAIH& EIEOJFEPMAB, ::IOOIHHOJOPI* IOKOLJDCKPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::IOOIHHOJOPI*))((::PBYTE)hIl2Cpp + EGOOOJBOEJK_EJMLADDEHAE_OFFSET))(this, EIEOJFEPMAB, IOKOLJDCKPN);
+	}
+
+	::System::Void MOKINDNACHI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGOOOJBOEJK_MOKINDNACHI_OFFSET))(this);
+	}
+
+	::System::Void PILPKINFMBA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGOOOJBOEJK_PILPKINFMBA_OFFSET))(this);
+	}
+
+	::System::Void LKNBCFOKJLO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGOOOJBOEJK_LKNBCFOKJLO_OFFSET))(this);
+	}
+
+	::System::Void EJGAIMLGDPO(::LIBOIKJGAIH& MIALFKCCCPI, ::IOOIHHOJOPI* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::IOOIHHOJOPI*))((::PBYTE)hIl2Cpp + EGOOOJBOEJK_EJGAIMLGDPO_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+
+	::System::Void NPKBDILPMHJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGOOOJBOEJK_NPKBDILPMHJ_OFFSET))(this);
+	}
+};

@@ -1,0 +1,115 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class ABDNHCCOFAN;
+class LKPHLOELDOO;
+class NEAMGDNOKGA;
+class SceneObjectStateClientServer;
+
+#define OMMOIECDCNF_BDAKPEDGPPK_OFFSET UNITYSDK_OFFSET(0xFB9AD70)
+#define OMMOIECDCNF_CABJAFGHMIG_OFFSET UNITYSDK_OFFSET(0xFB9AE10)
+#define OMMOIECDCNF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFB9AAE0)
+#define OMMOIECDCNF_EGABKOCCKOI_OFFSET UNITYSDK_OFFSET(0xFB9AC20)
+#define OMMOIECDCNF_GGCBPIFCDHP_OFFSET UNITYSDK_OFFSET(0xFB9AE00)
+#define OMMOIECDCNF_GGGDOFGGCHF_OFFSET UNITYSDK_OFFSET(0xFB9AC10)
+#define OMMOIECDCNF_GMBFANOGKAN_OFFSET UNITYSDK_OFFSET(0xFB9AC30)
+#define OMMOIECDCNF_ILBBHFJGOJP_OFFSET UNITYSDK_OFFSET(0xFB9AD50)
+#define OMMOIECDCNF_JAALLGJEFKP_OFFSET UNITYSDK_OFFSET(0xFB9AC00)
+#define OMMOIECDCNF_LDFIIFGHHHA_OFFSET UNITYSDK_OFFSET(0xFB9AE30)
+#define OMMOIECDCNF_NIAGJLPIFFC_OFFSET UNITYSDK_OFFSET(0xFB9AE20)
+#define OMMOIECDCNF_OFMHDDHDADI_OFFSET UNITYSDK_OFFSET(0xFB9AD60)
+#define OMMOIECDCNF_OLAJNCBNDIO_OFFSET UNITYSDK_OFFSET(0xFB9AEA0)
+#define OMMOIECDCNF_ONCREATE_OFFSET UNITYSDK_OFFSET(0xFB9A9D0)
+#define OMMOIECDCNF_UPDATE_OFFSET UNITYSDK_OFFSET(0xFB9AB20)
+#define OMMOIECDCNF__CTOR_OFFSET UNITYSDK_OFFSET(0xFB9ABE0)
+
+inline static constexpr unsigned int OMMOIECDCNF_TypeDefinitionIndex = 73886;
+
+class OMMOIECDCNF
+{
+public:
+	::LKPHLOELDOO* _DOPOKKBPKAI_k__BackingField; // 0x10
+	::SceneObjectStateClientServer* _JPANNEIDAJK_k__BackingField; // 0x18
+	::NEAMGDNOKGA* _AOMKFEKFELE_k__BackingField; // 0x20
+	::ABDNHCCOFAN* _PMOJCIPGOML_k__BackingField; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OMMOIECDCNF__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnCreate()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OMMOIECDCNF_ONCREATE_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OMMOIECDCNF_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Update(::System::Single PMNLNNGEIFM)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + OMMOIECDCNF_UPDATE_OFFSET))(this, PMNLNNGEIFM);
+	}
+
+	::System::Void JAALLGJEFKP(::SceneObjectStateClientServer* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::SceneObjectStateClientServer*))((::PBYTE)hIl2Cpp + OMMOIECDCNF_JAALLGJEFKP_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void GGGDOFGGCHF(::ABDNHCCOFAN* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABDNHCCOFAN*))((::PBYTE)hIl2Cpp + OMMOIECDCNF_GGGDOFGGCHF_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LKPHLOELDOO* EGABKOCCKOI()
+	{
+		return ((::LKPHLOELDOO*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMMOIECDCNF_EGABKOCCKOI_OFFSET))(this);
+	}
+
+	::System::Void GMBFANOGKAN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OMMOIECDCNF_GMBFANOGKAN_OFFSET))(this);
+	}
+
+	::ABDNHCCOFAN* ILBBHFJGOJP()
+	{
+		return ((::ABDNHCCOFAN*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMMOIECDCNF_ILBBHFJGOJP_OFFSET))(this);
+	}
+
+	::System::Void OFMHDDHDADI(::LKPHLOELDOO* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LKPHLOELDOO*))((::PBYTE)hIl2Cpp + OMMOIECDCNF_OFMHDDHDADI_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void BDAKPEDGPPK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OMMOIECDCNF_BDAKPEDGPPK_OFFSET))(this);
+	}
+
+	::System::Void GGCBPIFCDHP(::NEAMGDNOKGA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::NEAMGDNOKGA*))((::PBYTE)hIl2Cpp + OMMOIECDCNF_GGCBPIFCDHP_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::SceneObjectStateClientServer* CABJAFGHMIG()
+	{
+		return ((::SceneObjectStateClientServer*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMMOIECDCNF_CABJAFGHMIG_OFFSET))(this);
+	}
+
+	::NEAMGDNOKGA* NIAGJLPIFFC()
+	{
+		return ((::NEAMGDNOKGA*(*)(::PVOID))((::PBYTE)hIl2Cpp + OMMOIECDCNF_NIAGJLPIFFC_OFFSET))(this);
+	}
+
+	::System::Void LDFIIFGHHHA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OMMOIECDCNF_LDFIIFGHHHA_OFFSET))(this);
+	}
+
+	::System::Void OLAJNCBNDIO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OMMOIECDCNF_OLAJNCBNDIO_OFFSET))(this);
+	}
+};

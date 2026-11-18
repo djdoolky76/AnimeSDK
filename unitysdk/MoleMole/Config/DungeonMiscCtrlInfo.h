@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_5CD8071E94907A55.h"
+#include "unitysdk/LBIHODCHCPC.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
-#include "unitysdk/System/Object.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 
-#define MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x11711590)
-#define MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_FROMFLX_OFFSET UNITYSDK_OFFSET(0x11711180)
-#define MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_METHOD_1_1D8C60247E81BA7F_OFFSET UNITYSDK_OFFSET(0x117115F0)
-#define MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_METHOD_1_7493FC0605E5A625_OFFSET UNITYSDK_OFFSET(0x11711200)
-#define MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11711820)
+#define MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0xFACD6A0)
+#define MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_FROMFLX_OFFSET UNITYSDK_OFFSET(0xFACD290)
+#define MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_IAEALJJMOKA_OFFSET UNITYSDK_OFFSET(0xFACD700)
+#define MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_PDHKICNJNGG_OFFSET UNITYSDK_OFFSET(0xFACD310)
+#define MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xFACD930)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DungeonMiscCtrlInfo_TypeDefinitionIndex = 82314;
+	inline static constexpr unsigned int DungeonMiscCtrlInfo_TypeDefinitionIndex = 69281;
 
 	class DungeonMiscCtrlInfo : public ::System::Object
 	{
 	public:
-		::Enum_3_5CD8071E94907A55 CtrlType; // 0x10
+		::LBIHODCHCPC CtrlType; // 0x10
 		::System::Boolean EnableCtrl; // 0x14
 
 		::System::Void _ctor()
@@ -28,24 +28,24 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_FROMFLX_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_FROMFLX_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean FromBinary(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_FROMBINARY_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 
-		::System::Boolean Method_1_1D8C60247E81BA7F(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean IAEALJJMOKA(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_METHOD_1_1D8C60247E81BA7F_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_IAEALJJMOKA_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 
-		::System::Boolean Method_1_7493FC0605E5A625(::FlexBuffers::FlxMap a1)
+		::System::Boolean PDHKICNJNGG(::FlexBuffers::FlxMap HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_METHOD_1_7493FC0605E5A625_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DUNGEONMISCCTRLINFO_PDHKICNJNGG_OFFSET))(this, HHIJHDFHPOI);
 		}
 	};
 }

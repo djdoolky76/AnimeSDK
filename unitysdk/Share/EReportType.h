@@ -3,13 +3,13 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EReportType_TypeDefinitionIndex = 15663;
+	inline static constexpr unsigned int EReportType_TypeDefinitionIndex = 12576;
 
 	enum class EReportType : ::System::Int16
 	{
-		Fairy = 0,
 		Task = 2,
-		Dialog = 1,
 		DialogInFairy = 3,
+		Fairy = 0,
+		Dialog = 1,
 	};
 }

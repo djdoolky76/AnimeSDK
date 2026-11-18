@@ -4,20 +4,20 @@
 
 namespace UnityEngine::Rendering { class MaterialCacheBase_CacheEntry; }
 
-#define UNITYENGINE_RENDERING_MATERIALCACHEBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11092A40)
-#define UNITYENGINE_RENDERING_MATERIALCACHEBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11092A80)
-#define UNITYENGINE_RENDERING_MATERIALCACHEBASE___C___CCTOR_B__15_0_OFFSET UNITYSDK_OFFSET(0x11092A90)
+#define UNITYENGINE_RENDERING_MATERIALCACHEBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x108B9780)
+#define UNITYENGINE_RENDERING_MATERIALCACHEBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x108B97C0)
+#define UNITYENGINE_RENDERING_MATERIALCACHEBASE___C___CCTOR_B__15_0_OFFSET UNITYSDK_OFFSET(0x108B97D0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int MaterialCacheBase___c_TypeDefinitionIndex = 27307;
+	inline static constexpr unsigned int MaterialCacheBase___c_TypeDefinitionIndex = 26504;
 
 	class MaterialCacheBase___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::MaterialCacheBase___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::MaterialCacheBase___c**)Il2CppClass::FromTypeDefinitionIndex(MaterialCacheBase___c_TypeDefinitionIndex)->GetStaticField(0x23AD0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(MaterialCacheBase___c_TypeDefinitionIndex)->GetStaticField(0x24AB0);
 		}
 
 		static ::System::Void _cctor()

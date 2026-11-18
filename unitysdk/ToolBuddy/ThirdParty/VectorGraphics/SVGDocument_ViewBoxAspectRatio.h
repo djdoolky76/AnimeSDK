@@ -3,7 +3,7 @@
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGDocument_ViewBoxAspectRatio_TypeDefinitionIndex = 31737;
+	inline static constexpr unsigned int SVGDocument_ViewBoxAspectRatio_TypeDefinitionIndex = 31175;
 
 	enum class SVGDocument_ViewBoxAspectRatio : ::System::Int32
 	{

@@ -3,28 +3,28 @@
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/Action.h"
 #include "unitysdk/BehaviorDesigner/Runtime/Tasks/TaskStatus.h"
 
-class Class_3_06419CA21ECB69E6;
+class CAPAFILOMGC;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FOLLOWTARGET_CHECKLOCKTARGETVALID_OFFSET UNITYSDK_OFFSET(0x19DBB830)
-#define MOLEMOLE_FOLLOWTARGET_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x19DBAF60)
-#define MOLEMOLE_FOLLOWTARGET_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19DBB0E0)
-#define MOLEMOLE_FOLLOWTARGET_TRYGETLOCKENTITY_OFFSET UNITYSDK_OFFSET(0x19DBB140)
-#define MOLEMOLE_FOLLOWTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19DBB9D0)
-#define MOLEMOLE_FOLLOWTARGET___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x19DBBA60)
-#define MOLEMOLE_FOLLOWTARGET___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x19DBBAF0)
+#define MOLEMOLE_FOLLOWTARGET_CHECKLOCKTARGETVALID_OFFSET UNITYSDK_OFFSET(0x12B41C50)
+#define MOLEMOLE_FOLLOWTARGET_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12B41380)
+#define MOLEMOLE_FOLLOWTARGET_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12B41500)
+#define MOLEMOLE_FOLLOWTARGET_TRYGETLOCKENTITY_OFFSET UNITYSDK_OFFSET(0x12B41560)
+#define MOLEMOLE_FOLLOWTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x12B41DF0)
+#define MOLEMOLE_FOLLOWTARGET___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12B41E80)
+#define MOLEMOLE_FOLLOWTARGET___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12B41F10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int FollowTarget_TypeDefinitionIndex = 64386;
+	inline static constexpr unsigned int FollowTarget_TypeDefinitionIndex = 86361;
 
 	class FollowTarget : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::Class_3_06419CA21ECB69E6* _attackTargetComponent_follower; // 0x58
-		::MoleMole::Battle::Entity* _followerEntity; // 0x60
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
+		::CAPAFILOMGC* _attackTargetComponent_follower; // 0x58
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::MoleMole::Battle::Entity* _followerEntity; // 0x68
 
 		::System::Void _ctor()
 		{

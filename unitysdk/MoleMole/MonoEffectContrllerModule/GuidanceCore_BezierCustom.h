@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/MonoEffectContrllerModule/GuidanceCoreBase.h"
 
-class Class_1_C8DF2FFACC9F1669;
+class GPMDLEDECJN;
 namespace MoleMole { class BezierCurve; }
-namespace MoleMole::MonoEffectContrllerModule { class MonoEffectPluginController_Class_1_E5308BE9EEBA8B55; }
+namespace MoleMole::MonoEffectContrllerModule { class MonoEffectPluginController_MGNEBGDIIEO; }
 namespace MoleMole::MonoEffectContrllerModule { class PerlinNoiseConfig; }
 
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECORE_BEZIERCUSTOM_GENERATEPATH_OFFSET UNITYSDK_OFFSET(0x199597D0)
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECORE_BEZIERCUSTOM__CTOR_OFFSET UNITYSDK_OFFSET(0x19959A70)
-#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECORE_BEZIERCUSTOM___BASE_GENERATEPATH_OFFSET UNITYSDK_OFFSET(0x19959A80)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECORE_BEZIERCUSTOM_GENERATEPATH_OFFSET UNITYSDK_OFFSET(0x1A917330)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECORE_BEZIERCUSTOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9175D0)
+#define MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECORE_BEZIERCUSTOM___BASE_GENERATEPATH_OFFSET UNITYSDK_OFFSET(0x1A9175E0)
 
 namespace MoleMole::MonoEffectContrllerModule
 {
-	inline static constexpr unsigned int GuidanceCore_BezierCustom_TypeDefinitionIndex = 49880;
+	inline static constexpr unsigned int GuidanceCore_BezierCustom_TypeDefinitionIndex = 80735;
 
 	class GuidanceCore_BezierCustom : public ::MoleMole::MonoEffectContrllerModule::GuidanceCoreBase
 	{
@@ -26,14 +26,14 @@ namespace MoleMole::MonoEffectContrllerModule
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECORE_BEZIERCUSTOM__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_C8DF2FFACC9F1669* GeneratePath(::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_Class_1_E5308BE9EEBA8B55* controller)
+		::GPMDLEDECJN* GeneratePath(::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_MGNEBGDIIEO* controller)
 		{
-			return ((::Class_1_C8DF2FFACC9F1669*(*)(::PVOID, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_Class_1_E5308BE9EEBA8B55*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECORE_BEZIERCUSTOM_GENERATEPATH_OFFSET))(this, controller);
+			return ((::GPMDLEDECJN*(*)(::PVOID, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_MGNEBGDIIEO*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECORE_BEZIERCUSTOM_GENERATEPATH_OFFSET))(this, controller);
 		}
 
-		::Class_1_C8DF2FFACC9F1669* __base_GeneratePath(::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_Class_1_E5308BE9EEBA8B55* P0)
+		::GPMDLEDECJN* __base_GeneratePath(::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_MGNEBGDIIEO* P0)
 		{
-			return ((::Class_1_C8DF2FFACC9F1669*(*)(::PVOID, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_Class_1_E5308BE9EEBA8B55*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECORE_BEZIERCUSTOM___BASE_GENERATEPATH_OFFSET))(this, P0);
+			return ((::GPMDLEDECJN*(*)(::PVOID, ::MoleMole::MonoEffectContrllerModule::MonoEffectPluginController_MGNEBGDIIEO*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOEFFECTCONTRLLERMODULE_GUIDANCECORE_BEZIERCUSTOM___BASE_GENERATEPATH_OFFSET))(this, P0);
 		}
 	};
 }

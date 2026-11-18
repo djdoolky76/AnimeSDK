@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Variable_2.h"
-
-namespace Foundation { class ITimestamp; }
-namespace Foundation { template <typename T> class BehaviorInstance_1; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IBehaviorBlender_1_TypeDefinitionIndex = 8871;
+	inline static constexpr unsigned int IBehaviorBlender_1_TypeDefinitionIndex = 9089;
 
-	template <typename TData>
+	template <typename T>
 	class IBehaviorBlender_1
 	{
 	public:

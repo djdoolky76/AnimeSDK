@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PipelineDebugLevel_TypeDefinitionIndex = 5892;
+	inline static constexpr unsigned int PipelineDebugLevel_TypeDefinitionIndex = 5898;
 
 	enum class PipelineDebugLevel : ::System::Int32
 	{

@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FLOWCANVAS_NODES_SWITCHSTRING_ISCHOICENODE_OFFSET UNITYSDK_OFFSET(0x1EB7F790)
-#define FLOWCANVAS_NODES_SWITCHSTRING_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EB7F530)
-#define FLOWCANVAS_NODES_SWITCHSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7F7A0)
+#define FLOWCANVAS_NODES_SWITCHSTRING_ISCHOICENODE_OFFSET UNITYSDK_OFFSET(0x1EF4F520)
+#define FLOWCANVAS_NODES_SWITCHSTRING_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EF4F2C0)
+#define FLOWCANVAS_NODES_SWITCHSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF4F530)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SwitchString_TypeDefinitionIndex = 30735;
+	inline static constexpr unsigned int SwitchString_TypeDefinitionIndex = 30742;
 
 	class SwitchString : public ::FlowCanvas::Nodes::FlowControlNode
 	{

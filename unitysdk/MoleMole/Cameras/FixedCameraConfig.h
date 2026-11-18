@@ -6,12 +6,12 @@
 
 namespace MoleMole::Cameras { class CameraTrackBlending; }
 
-#define MOLEMOLE_CAMERAS_FIXEDCAMERACONFIG_TRYREADCAM_OFFSET UNITYSDK_OFFSET(0x1279F480)
-#define MOLEMOLE_CAMERAS_FIXEDCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1279F680)
+#define MOLEMOLE_CAMERAS_FIXEDCAMERACONFIG_TRYREADCAM_OFFSET UNITYSDK_OFFSET(0x1C5AE660)
+#define MOLEMOLE_CAMERAS_FIXEDCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AE860)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int FixedCameraConfig_TypeDefinitionIndex = 55057;
+	inline static constexpr unsigned int FixedCameraConfig_TypeDefinitionIndex = 67004;
 
 	class FixedCameraConfig : public ::System::Object
 	{
@@ -22,8 +22,10 @@ namespace MoleMole::Cameras
 		::MoleMole::Cameras::CameraTrackBlending* blendIn; // 0x30
 		::MoleMole::Cameras::CameraTrackBlending* blendOut; // 0x38
 		::System::Boolean enableCameraShake; // 0x40
+		::System::Byte _padding0[0x3];
 		::System::Single cameraShakeRatio; // 0x44
 		::System::Boolean enableCameraZoom; // 0x48
+		::System::Byte _padding1[0x3];
 		::System::Single cameraZoomRatio; // 0x4C
 
 		::System::Void _ctor()

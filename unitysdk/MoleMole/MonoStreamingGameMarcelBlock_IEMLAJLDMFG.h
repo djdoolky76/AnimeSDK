@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace MoleMole { class MonoStreamingGameMarcelBlock; }
+namespace UnityEngine { class Renderer; }
+
+#define MOLEMOLE_MONOSTREAMINGGAMEMARCELBLOCK_IEMLAJLDMFG_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x12B81A10)
+#define MOLEMOLE_MONOSTREAMINGGAMEMARCELBLOCK_IEMLAJLDMFG_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12B82000)
+#define MOLEMOLE_MONOSTREAMINGGAMEMARCELBLOCK_IEMLAJLDMFG_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12B82060)
+#define MOLEMOLE_MONOSTREAMINGGAMEMARCELBLOCK_IEMLAJLDMFG_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x12B82010)
+#define MOLEMOLE_MONOSTREAMINGGAMEMARCELBLOCK_IEMLAJLDMFG_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12B81A00)
+#define MOLEMOLE_MONOSTREAMINGGAMEMARCELBLOCK_IEMLAJLDMFG__CTOR_OFFSET UNITYSDK_OFFSET(0x12B819F0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int MonoStreamingGameMarcelBlock_IEMLAJLDMFG_TypeDefinitionIndex = 92180;
+
+	class MonoStreamingGameMarcelBlock_IEMLAJLDMFG : public ::System::Object
+	{
+	public:
+		::MoleMole::MonoStreamingGameMarcelBlock* KLHPEBKNIFB; // 0x10
+		::UnityEngine::Renderer* MFHMJCMBINK; // 0x18
+		::System::Single IDBEJJEKGDI; // 0x20
+		::System::Single JDJLHCAFGOF; // 0x24
+		::UnityEngine::Vector3 LGNDKMHPIKJ; // 0x28
+		::System::Int32 MDPILDGFNHN; // 0x34
+
+		::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTREAMINGGAMEMARCELBLOCK_IEMLAJLDMFG__CTOR_OFFSET))(this, MDPILDGFNHN);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTREAMINGGAMEMARCELBLOCK_IEMLAJLDMFG_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTREAMINGGAMEMARCELBLOCK_IEMLAJLDMFG_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Single System_Collections_Generic_IEnumerator_System_Single__get_Current()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTREAMINGGAMEMARCELBLOCK_IEMLAJLDMFG_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_SINGLE__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTREAMINGGAMEMARCELBLOCK_IEMLAJLDMFG_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSTREAMINGGAMEMARCELBLOCK_IEMLAJLDMFG_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+	};
+}

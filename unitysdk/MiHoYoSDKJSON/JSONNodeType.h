@@ -3,7 +3,7 @@
 
 namespace MiHoYoSDKJSON
 {
-	inline static constexpr unsigned int JSONNodeType_TypeDefinitionIndex = 37088;
+	inline static constexpr unsigned int JSONNodeType_TypeDefinitionIndex = 35074;
 
 	enum class JSONNodeType : ::System::Int32
 	{

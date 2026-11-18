@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MONO_SECURITY_X509_X520_OID__CTOR_OFFSET UNITYSDK_OFFSET(0x1F603C70)
+#define MONO_SECURITY_X509_X520_OID__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9C2270)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int X520_Oid_TypeDefinitionIndex = 2320;
+	inline static constexpr unsigned int X520_Oid_TypeDefinitionIndex = 2319;
 
 	class X520_Oid : public ::Mono::Security::X509::X520_AttributeTypeAndValue
 	{

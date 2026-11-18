@@ -6,8 +6,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Rendering/AsyncGPUReadbackRequest.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace NPCCrowd::Animation { class NPCCPUAnimationGraphDataset; }
@@ -22,109 +22,121 @@ namespace UnityEngine { class AvatarMask; }
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine::Profiling { class CustomSampler; }
 
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_ADDANIMATORINSTANCE_OFFSET UNITYSDK_OFFSET(0xE9493F0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_BONEDATAREADBACKFLUSHCOMPLETE_OFFSET UNITYSDK_OFFSET(0xE949390)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_BONEDATAREQUESTCOMPELETED_OFFSET UNITYSDK_OFFSET(0xE948F60)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_COLLECTACTIVECLIPINDICESFROMANIMATOR_OFFSET UNITYSDK_OFFSET(0xE949F00)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_COLLECTACTIVECLIPINDICES_OFFSET UNITYSDK_OFFSET(0xE949DE0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_COMPLETEASYNCBONEDATAREQUEST_OFFSET UNITYSDK_OFFSET(0xE948DF0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_ENSUREINTERMEDIATEBUFFERS_OFFSET UNITYSDK_OFFSET(0xE945B30)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_FINDCLIPINDEXBYSTARTFRAME_OFFSET UNITYSDK_OFFSET(0xE94A240)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_GETGPUBONEMASK_OFFSET UNITYSDK_OFFSET(0xE946760)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_GETLODTICKBATCH_OFFSET UNITYSDK_OFFSET(0xE945D80)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_GETLOD_OFFSET UNITYSDK_OFFSET(0xE945EA0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_GET_BUSECLIPGRANULARLOADING_OFFSET UNITYSDK_OFFSET(0xE945900)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_HASMULTILAYERACTIVE_OFFSET UNITYSDK_OFFSET(0xE945AB0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_INITIALIZECLIPATLASOFFSETSBUFFER_OFFSET UNITYSDK_OFFSET(0xE946E90)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_INITIALIZEDATA_OFFSET UNITYSDK_OFFSET(0xE946A70)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_MAKEBONEDATAREQUEST_OFFSET UNITYSDK_OFFSET(0xE9489E0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_READBAKEDBONEDATAFROMTEXTURE_OFFSET UNITYSDK_OFFSET(0xE9486A0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_RELEASEBUFFERS_OFFSET UNITYSDK_OFFSET(0xE9471A0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATAMANUALLY_OFFSET UNITYSDK_OFFSET(0xE9496B0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_ANIMATIONBAKEBUFFER_OFFSET UNITYSDK_OFFSET(0xE947D60)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_ANIMATIONDATABUFFER_OFFSET UNITYSDK_OFFSET(0xE947930)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_ANIMATIONDATA_OFFSET UNITYSDK_OFFSET(0xE947780)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_APPLYBONEUPDATES_OFFSET UNITYSDK_OFFSET(0xE948110)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_CROWDANIMATORCONTROLLERBUFFER_OFFSET UNITYSDK_OFFSET(0xE947EA0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_CROWDLAYERFLAGBUFFER_OFFSET UNITYSDK_OFFSET(0xE947A80)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_DEBUGBUFFER_OFFSET UNITYSDK_OFFSET(0xE947670)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_OFFSET UNITYSDK_OFFSET(0xE946AC0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETLODTICKBATCH_OFFSET UNITYSDK_OFFSET(0xE945E30)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SWITCHANDREMOVEANIMATORINSTANCE_OFFSET UNITYSDK_OFFSET(0xE9494E0)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_UPDATECLIPATLASOFFSETS_OFFSET UNITYSDK_OFFSET(0xE949950)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xE94A400)
-#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE945EE0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_ADDANIMATORINSTANCE_OFFSET UNITYSDK_OFFSET(0x10038650)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_BONEDATAREADBACKFLUSHCOMPLETE_OFFSET UNITYSDK_OFFSET(0x100385F0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_BONEDATAREQUESTCOMPELETED_OFFSET UNITYSDK_OFFSET(0x100381C0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_COLLECTACTIVECLIPINDICESFROMANIMATOR_OFFSET UNITYSDK_OFFSET(0x10039160)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_COLLECTACTIVECLIPINDICES_OFFSET UNITYSDK_OFFSET(0x10039040)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_COMPLETEASYNCBONEDATAREQUEST_OFFSET UNITYSDK_OFFSET(0x10038050)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_ENSUREINTERMEDIATEBUFFERS_OFFSET UNITYSDK_OFFSET(0x10034D90)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_FINDCLIPINDEXBYSTARTFRAME_OFFSET UNITYSDK_OFFSET(0x100394B0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_GETGPUBONEMASK_OFFSET UNITYSDK_OFFSET(0x100359C0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_GETLODTICKBATCH_OFFSET UNITYSDK_OFFSET(0x10034FE0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_GETLOD_OFFSET UNITYSDK_OFFSET(0x10035100)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_GET_BUSECLIPGRANULARLOADING_OFFSET UNITYSDK_OFFSET(0x10034B60)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_HASMULTILAYERACTIVE_OFFSET UNITYSDK_OFFSET(0x10034D10)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_INITIALIZECLIPATLASOFFSETSBUFFER_OFFSET UNITYSDK_OFFSET(0x100360F0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_INITIALIZEDATA_OFFSET UNITYSDK_OFFSET(0x10035CD0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_MAKEBONEDATAREQUEST_OFFSET UNITYSDK_OFFSET(0x10037C40)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_READBAKEDBONEDATAFROMTEXTURE_OFFSET UNITYSDK_OFFSET(0x10037900)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_RELEASEBUFFERS_OFFSET UNITYSDK_OFFSET(0x10036410)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATAMANUALLY_OFFSET UNITYSDK_OFFSET(0x10038910)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_ANIMATIONBAKEBUFFER_OFFSET UNITYSDK_OFFSET(0x10036FC0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_ANIMATIONDATABUFFER_OFFSET UNITYSDK_OFFSET(0x10036B90)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_ANIMATIONDATA_OFFSET UNITYSDK_OFFSET(0x100369E0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_APPLYBONEUPDATES_OFFSET UNITYSDK_OFFSET(0x10037370)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_CROWDANIMATORCONTROLLERBUFFER_OFFSET UNITYSDK_OFFSET(0x10037100)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_CROWDLAYERFLAGBUFFER_OFFSET UNITYSDK_OFFSET(0x10036CE0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_DEBUGBUFFER_OFFSET UNITYSDK_OFFSET(0x100368D0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETANIMATIONDATA_OFFSET UNITYSDK_OFFSET(0x10035D20)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SETLODTICKBATCH_OFFSET UNITYSDK_OFFSET(0x10035090)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_SWITCHANDREMOVEANIMATORINSTANCE_OFFSET UNITYSDK_OFFSET(0x10038740)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA_UPDATECLIPATLASOFFSETS_OFFSET UNITYSDK_OFFSET(0x10038BB0)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x10039670)
+#define NPCCROWD_ANIMATION_NPCCROWDANIMATIONINSTANCERRUNTIMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10035140)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCrowdAnimationInstancerRuntimeData_TypeDefinitionIndex = 91579;
+	inline static constexpr unsigned int NPCCrowdAnimationInstancerRuntimeData_TypeDefinitionIndex = 78278;
 
 	class NPCCrowdAnimationInstancerRuntimeData : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CompleteAsyncBoneDataRequestWait()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData_TypeDefinitionIndex)->GetStaticField(0x3AD60);
-		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_MakeBoneDataRequestWaitJob()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData_TypeDefinitionIndex)->GetStaticField(0x3AD68);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData_TypeDefinitionIndex)->GetStaticField(0x3CBE0);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_CompleteAsyncBoneDataRequestWait()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData_TypeDefinitionIndex)->GetStaticField(0x3CBE8);
 		}
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_sampler_GPUReadBackGPUBoneUpdateJobHandleComplete()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData_TypeDefinitionIndex)->GetStaticField(0x3AD70);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData_TypeDefinitionIndex)->GetStaticField(0x3CBF0);
 		}
 		static ::UnityEngine::Vector4* StaticGet_SingleWeight()
 		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData_TypeDefinitionIndex)->GetStaticField(0xDDE0);
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData_TypeDefinitionIndex)->GetStaticField(0xDE50);
 		}
 		static ::System::Int32* StaticGet__gpuReadBackCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData_TypeDefinitionIndex)->GetStaticField(0xDDF0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NPCCrowdAnimationInstancerRuntimeData_TypeDefinitionIndex)->GetStaticField(0xDE60);
 		}
 		// static const ::System::Int32 MaxTransitionCount = 0x4; // 0x0
-		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCrowdAnimator*>* transitioningAnimators; // 0x10
-		::NPCCrowd::Animation::NPCCrowdAnimationData* prototype; // 0x18
-		::UnityEngine::ComputeBuffer* asyncBoneUpdateFilterBuffer; // 0x20
-		::System::Collections::Generic::HashSet_1<::System::Int32>* activeClipIndices; // 0x28
-		::UnityEngine::ComputeBuffer* animationBakeBuffer; // 0x30
-		::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* boneDataRequestCallback; // 0x38
-		::UnityEngine::ComputeBuffer* intermediateMatricesBuffer; // 0x40
-		::UnityEngine::ComputeBuffer* intermediateValidBuffer; // 0x48
-		::UnityEngine::ComputeBuffer* crowdBoneParentBuffer; // 0x50
-		::UnityEngine::ComputeBuffer* crowdLayerFlagBuffer; // 0x58
-		::UnityEngine::ComputeBuffer* crowdLayerMaskBuffer; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt32>* LODTickBatchCount; // 0x68
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::GPUIAnimationClipData>* animationClipDataDict; // 0x70
-		::UnityEngine::ComputeBuffer* clipAtlasOffsetsBuffer; // 0x78
-		::UnityEngine::ComputeBuffer* crowdAnimatorControllerBuffer; // 0x80
-		::UnityEngine::ComputeBuffer* asyncBoneUpdateDataBuffer; // 0x88
-		::UnityEngine::ComputeBuffer* debugBuffer; // 0x90
-		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCrowdAnimator*>* allNpcCrowdAnimators; // 0x98
-		::UnityEngine::ComputeBuffer* animationDataBuffer; // 0xA0
-		::Unity::Jobs::JobHandle GPUReadBackGPUBoneUpdateJobHandle; // 0xA8
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> exportBoneTransformArray; // 0xB8
-		::System::Int32 maxInstanceCount; // 0xC8
-		::System::Int32 boneGPUMemeoryDataRequestFrame; // 0xCC
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> animationData; // 0xD0
-		::Unity::Collections::NativeArray_1<::System::Int32> bonepParentData; // 0xE0
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> exportBoneTransformArrayBakeUp; // 0xF0
-		::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> bakedAnimationData; // 0x100
-		::Unity::Collections::NativeArray_1<::System::UInt32> animationLayerMask; // 0x110
-		::Unity::Collections::NativeArray_1<::System::Int32> exposedBoneIndexesArray; // 0x120
-		::System::Boolean bIsAnimationDataModified; // 0x130
-		::System::Boolean bIsDisableFrameLerp; // 0x131
-		::System::Boolean bIsWaitingBoneDataRequest; // 0x132
-		::System::Boolean bIsTransformDataModified; // 0x133
-		::System::Int32 _lastSyncedAtlasVersion; // 0x134
-		::Unity::Jobs::JobHandle dependentJob; // 0x138
-		::UnityEngine::Rendering::AsyncGPUReadbackRequest boneGPUMemeoryDataRequest; // 0x148
-		::System::Boolean bIsCrowdAnimatorDataModified; // 0x158
-		::System::Int32 instanceCount; // 0x15C
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> crowdAnimatorControllerData; // 0x160
-		::Unity::Collections::NativeArray_1<::System::UInt32> animationLayerFlags; // 0x170
-		::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> bindPoses; // 0x180
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::ClipAtlasOffsetData> clipAtlasOffsetsData; // 0x190
+		::UnityEngine::ComputeBuffer* crowdAnimatorControllerBuffer; // 0x10
+		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCrowdAnimator*>* allNpcCrowdAnimators; // 0x18
+		::UnityEngine::ComputeBuffer* crowdBoneParentBuffer; // 0x20
+		::UnityEngine::ComputeBuffer* asyncBoneUpdateFilterBuffer; // 0x28
+		::UnityEngine::ComputeBuffer* debugBuffer; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt32>* LODTickBatchCount; // 0x38
+		::UnityEngine::ComputeBuffer* animationBakeBuffer; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::NPCCrowd::Animation::GPUIAnimationClipData>* animationClipDataDict; // 0x48
+		::NPCCrowd::Animation::NPCCrowdAnimationData* prototype; // 0x50
+		::UnityEngine::ComputeBuffer* animationDataBuffer; // 0x58
+		::UnityEngine::ComputeBuffer* crowdLayerFlagBuffer; // 0x60
+		::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* boneDataRequestCallback; // 0x68
+		::UnityEngine::ComputeBuffer* intermediateValidBuffer; // 0x70
+		::UnityEngine::ComputeBuffer* intermediateMatricesBuffer; // 0x78
+		::System::Collections::Generic::HashSet_1<::System::Int32>* activeClipIndices; // 0x80
+		::UnityEngine::ComputeBuffer* crowdLayerMaskBuffer; // 0x88
+		::UnityEngine::ComputeBuffer* clipAtlasOffsetsBuffer; // 0x90
+		::UnityEngine::ComputeBuffer* asyncBoneUpdateDataBuffer; // 0x98
+		::System::Collections::Generic::List_1<::NPCCrowd::Animation::NPCCrowdAnimator*>* transitioningAnimators; // 0xA0
+		::Unity::Collections::NativeArray_1<::System::UInt32> animationLayerMask; // 0xA8
+		::System::Byte _padding0[0x8];
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> animationData; // 0xB8
+		::System::Byte _padding1[0x8];
+		::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> bindPoses; // 0xC8
+		::System::Byte _padding2[0x8];
+		::UnityEngine::Rendering::AsyncGPUReadbackRequest boneGPUMemeoryDataRequest; // 0xD8
+		::Unity::Collections::NativeArray_1<::System::UInt32> animationLayerFlags; // 0xE8
+		::System::Byte _padding3[0x8];
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> crowdAnimatorControllerData; // 0xF8
+		::System::Byte _padding4[0x8];
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::ClipAtlasOffsetData> clipAtlasOffsetsData; // 0x108
+		::System::Byte _padding5[0x8];
+		::Unity::Jobs::JobHandle GPUReadBackGPUBoneUpdateJobHandle; // 0x118
+		::Unity::Collections::NativeArray_1<::System::Int32> bonepParentData; // 0x128
+		::System::Byte _padding6[0x8];
+		::System::Int32 boneGPUMemeoryDataRequestFrame; // 0x138
+		::System::Boolean bIsWaitingBoneDataRequest; // 0x13C
+		::System::Boolean bIsAnimationDataModified; // 0x13D
+		::System::Boolean bIsTransformDataModified; // 0x13E
+		::System::Byte _padding7[0x1];
+		::System::Int32 instanceCount; // 0x140
+		::System::Int32 maxInstanceCount; // 0x144
+		::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> bakedAnimationData; // 0x148
+		::System::Byte _padding8[0x8];
+		::System::Boolean bIsDisableFrameLerp; // 0x158
+		::System::Boolean bIsCrowdAnimatorDataModified; // 0x159
+		::System::Byte _padding9[0x2];
+		::System::Int32 _lastSyncedAtlasVersion; // 0x15C
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> exportBoneTransformArray; // 0x160
+		::System::Byte _padding10[0x8];
+		::Unity::Jobs::JobHandle dependentJob; // 0x170
+		::Unity::Collections::NativeArray_1<::System::Int32> exposedBoneIndexesArray; // 0x180
+		::System::Byte _padding11[0x8];
+		::Unity::Collections::NativeArray_1<::NPCCrowd::Ability::FTransformFragment> exportBoneTransformArrayBakeUp; // 0x190
 
 		::System::Void _ctor(::NPCCrowd::Animation::NPCCrowdAnimationData* inPrototype, ::NPCCrowd::Animation::NPCCPUAnimationGraphDataset* animationData)
 		{

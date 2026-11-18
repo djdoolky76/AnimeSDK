@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_5.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETDYNAMICTARGETVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13A85650)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETDYNAMICTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x13A857B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETDYNAMICTARGETVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1465FE90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDRESETDYNAMICTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1465FFF0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDResetDynamicTargetValue_TypeDefinitionIndex = 70384;
+	inline static constexpr unsigned int LDResetDynamicTargetValue_TypeDefinitionIndex = 44283;
 
-	class LDResetDynamicTargetValue : public ::FlowCanvas::Nodes::CallableFunctionNode_5<::System::Boolean, ::MoleMole::Battle::Entity*, ::System::Boolean, ::System::Boolean, ::System::Boolean>
+	class LDResetDynamicTargetValue
 	{
 	public:
 		::System::Void _ctor()

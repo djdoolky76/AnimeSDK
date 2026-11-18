@@ -1,28 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1_Awaiter.h"
 #include "unitysdk/Foundation/Tuple_2.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace MoleMole { class UISuibianTempleDeployBangbooDetailWidgetController; }
+namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER__OPENTALENTSKILLDETAIL_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x816FC0)
-#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER__OPENTALENTSKILLDETAIL_D__19_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x296F30)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER__OPENTALENTSKILLDETAIL_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x73CAB0)
+#define MOLEMOLE_UISUIBIANTEMPLEDEPLOYBANGBOODETAILWIDGETCONTROLLER__OPENTALENTSKILLDETAIL_D__19_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleDeployBangbooDetailWidgetController__OpenTalentSkillDetail_d__19_TypeDefinitionIndex = 78602;
+	inline static constexpr unsigned int UISuibianTempleDeployBangbooDetailWidgetController__OpenTalentSkillDetail_d__19_TypeDefinitionIndex = 39681;
 
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19>
 	struct alignas(8) UISuibianTempleDeployBangbooDetailWidgetController__OpenTalentSkillDetail_d__19
 	{
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x10
-		::MoleMole::UISuibianTempleDeployBangbooDetailWidgetController* __4__this; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::System::Boolean> __u__1; // 0x28
-		::Foundation::Tuple_2<::System::Int32, ::System::Int32> index; // 0x38
-		::System::Int32 __1__state; // 0x40
-		::System::Boolean force; // 0x44
+		::System::Object* __u__1; // 0x20
+		::System::Byte _padding0[0x8];
+		::MoleMole::UISuibianTempleDeployBangbooDetailWidgetController* __4__this; // 0x30
+		::System::Boolean force; // 0x38
+		::System::Byte _padding1[0x3];
+		::Foundation::Tuple_2<::System::Int32, ::System::Int32> index; // 0x3C
+		::System::Int32 __1__state; // 0x44
 
 		::System::Void MoveNext()
 		{

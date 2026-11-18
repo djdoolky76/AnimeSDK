@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_3_248DACE3BB3053DD;
+class PJGGDJJPPJP;
 namespace MoleMole::Battle { class Entity; }
 namespace UnityEngine { class Collision; }
 
-#define MOLEMOLE_MONOLOGICMOVEMENT_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x1909B050)
-#define MOLEMOLE_MONOLOGICMOVEMENT_METHOD_5_E693A0026D178D8E_OFFSET UNITYSDK_OFFSET(0x1909AF50)
-#define MOLEMOLE_MONOLOGICMOVEMENT_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x1909B060)
-#define MOLEMOLE_MONOLOGICMOVEMENT_SET_OWNER_OFFSET UNITYSDK_OFFSET(0x1909AF00)
-#define MOLEMOLE_MONOLOGICMOVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1909B150)
+#define MOLEMOLE_MONOLOGICMOVEMENT_FPJPCJPOFCE_OFFSET UNITYSDK_OFFSET(0x18102BD0)
+#define MOLEMOLE_MONOLOGICMOVEMENT_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x18102CD0)
+#define MOLEMOLE_MONOLOGICMOVEMENT_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x18102CE0)
+#define MOLEMOLE_MONOLOGICMOVEMENT_SET_OWNER_OFFSET UNITYSDK_OFFSET(0x18102B80)
+#define MOLEMOLE_MONOLOGICMOVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18102DD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoLogicMovement_TypeDefinitionIndex = 46300;
+	inline static constexpr unsigned int MonoLogicMovement_TypeDefinitionIndex = 44578;
 
 	class MonoLogicMovement : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::MoleMole::Battle::Entity* Field_5_0; // 0x18
-		::Class_3_248DACE3BB3053DD* Field_5_7; // 0x20
+		::MoleMole::Battle::Entity* FEFFFPGCIIO; // 0x18
+		::PJGGDJJPPJP* NJBINFPCGEL; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLOGICMOVEMENT__CTOR_OFFSET))(this);
 		}
 
-		::System::Void set_Owner(::MoleMole::Battle::Entity* a1)
+		::System::Void set_Owner(::MoleMole::Battle::Entity* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLOGICMOVEMENT_SET_OWNER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLOGICMOVEMENT_SET_OWNER_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::MoleMole::Battle::Entity* get_Owner()
@@ -37,14 +37,14 @@ namespace MoleMole
 			return ((::MoleMole::Battle::Entity*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLOGICMOVEMENT_GET_OWNER_OFFSET))(this);
 		}
 
-		::System::Void OnCollisionEnter(::UnityEngine::Collision* a1)
+		::System::Void OnCollisionEnter(::UnityEngine::Collision* GMKILPBDCFN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLOGICMOVEMENT_ONCOLLISIONENTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collision*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLOGICMOVEMENT_ONCOLLISIONENTER_OFFSET))(this, GMKILPBDCFN);
 		}
 
-		::System::Void Method_5_E693A0026D178D8E()
+		::System::Void FPJPCJPOFCE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLOGICMOVEMENT_METHOD_5_E693A0026D178D8E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOLOGICMOVEMENT_FPJPCJPOFCE_OFFSET))(this);
 		}
 	};
 }

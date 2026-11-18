@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int BlendPoseDeltaData_TypeDefinitionIndex = 90849;
+inline static constexpr unsigned int BlendPoseDeltaData_TypeDefinitionIndex = 77184;
 
 struct alignas(8) BlendPoseDeltaData
 {

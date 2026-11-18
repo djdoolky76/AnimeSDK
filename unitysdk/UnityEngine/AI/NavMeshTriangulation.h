@@ -5,7 +5,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshTriangulation_TypeDefinitionIndex = 27998;
+	inline static constexpr unsigned int NavMeshTriangulation_TypeDefinitionIndex = 27416;
 
 	struct alignas(8) NavMeshTriangulation
 	{

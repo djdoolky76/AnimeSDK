@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Reflection/ExceptionHandlingClauseOptions.h"
+#include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_REFLECTION_EXCEPTIONHANDLINGCLAUSE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CCB6F40)
-#define SYSTEM_REFLECTION_EXCEPTIONHANDLINGCLAUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB6F30)
+#define SYSTEM_REFLECTION_EXCEPTIONHANDLINGCLAUSE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D1B8160)
+#define SYSTEM_REFLECTION_EXCEPTIONHANDLINGCLAUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B8150)
 
 namespace System::Reflection
 {

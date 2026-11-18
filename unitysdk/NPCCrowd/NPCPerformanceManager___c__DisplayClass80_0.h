@@ -4,12 +4,12 @@
 
 namespace NPCCrowd { class NPCPerformanceManager; }
 
-#define NPCCROWD_NPCPERFORMANCEMANAGER___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10CB37D0)
-#define NPCCROWD_NPCPERFORMANCEMANAGER___C__DISPLAYCLASS80_0__FORCECULLTOCOMPLIANCEIMMEDIATELY_B__0_OFFSET UNITYSDK_OFFSET(0x10CB37E0)
+#define NPCCROWD_NPCPERFORMANCEMANAGER___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB2F42E0)
+#define NPCCROWD_NPCPERFORMANCEMANAGER___C__DISPLAYCLASS80_0__FORCECULLTOCOMPLIANCEIMMEDIATELY_B__0_OFFSET UNITYSDK_OFFSET(0xB2F42F0)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int NPCPerformanceManager___c__DisplayClass80_0_TypeDefinitionIndex = 84703;
+	inline static constexpr unsigned int NPCPerformanceManager___c__DisplayClass80_0_TypeDefinitionIndex = 67154;
 
 	class NPCPerformanceManager___c__DisplayClass80_0 : public ::System::Object
 	{

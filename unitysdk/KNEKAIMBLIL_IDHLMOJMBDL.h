@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class IANDOOLAALI_DLAAJNDJPLO;
+class NKHOMMGFIFO;
+class OAEFGCLEHHO;
+
+#define KNEKAIMBLIL_IDHLMOJMBDL_FMKGLBIPIAP_OFFSET UNITYSDK_OFFSET(0x1516C580)
+#define KNEKAIMBLIL_IDHLMOJMBDL_NKLJNFDNHHC_OFFSET UNITYSDK_OFFSET(0x1516C510)
+#define KNEKAIMBLIL_IDHLMOJMBDL__CTOR_OFFSET UNITYSDK_OFFSET(0x1516C500)
+
+inline static constexpr unsigned int KNEKAIMBLIL_IDHLMOJMBDL_TypeDefinitionIndex = 80715;
+
+class KNEKAIMBLIL_IDHLMOJMBDL : public ::System::Object
+{
+public:
+	::IANDOOLAALI_DLAAJNDJPLO* DLMJCFBENGB; // 0x10
+	::NKHOMMGFIFO* MIJIHGJLCPC; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KNEKAIMBLIL_IDHLMOJMBDL__CTOR_OFFSET))(this);
+	}
+
+	::System::Void NKLJNFDNHHC(::OAEFGCLEHHO* FJMOKFGAGDO)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + KNEKAIMBLIL_IDHLMOJMBDL_NKLJNFDNHHC_OFFSET))(this, FJMOKFGAGDO);
+	}
+
+	::System::Void FMKGLBIPIAP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KNEKAIMBLIL_IDHLMOJMBDL_FMKGLBIPIAP_OFFSET))(this);
+	}
+};

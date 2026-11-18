@@ -1,63 +1,62 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_CAE10C54ABAE6FAF.h"
-#include "unitysdk/MoleMole/UIStrategyGuidePageController_ESortScoreLevel.h"
+#include "unitysdk/OOHBEPCMHMC.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/MoleMole/UIStrategyGuidePageController_ESortScoreLevel.h"
 
-class Class_1_A6C17C8DDACC49CF;
-class Class_2_1824EF69C8E376A3;
+class BPHGNMNLLHF;
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x179C7550)
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__CREATESORTER_B__35_0_OFFSET UNITYSDK_OFFSET(0x179C75A0)
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x179C7590)
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__ONEVALUATEBTNCLICK_B__89_0_OFFSET UNITYSDK_OFFSET(0x179C7680)
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__ONEVALUATEBTNCLICK_B__89_1_OFFSET UNITYSDK_OFFSET(0x179C7690)
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__ONEVALUATEBTNCLICK_B__89_2_OFFSET UNITYSDK_OFFSET(0x179C76A0)
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__ONSKILLBTNCLICK_B__86_0_OFFSET UNITYSDK_OFFSET(0x179C7670)
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__REFRESHRECOMMENDRANDPROPERTYSTR_B__78_0_OFFSET UNITYSDK_OFFSET(0x179C7610)
-#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__REFRESHRECOMMENDTEAMPANEL_B__63_0_OFFSET UNITYSDK_OFFSET(0x179C75B0)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C8BE50)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__CREATESORTER_B__39_0_OFFSET UNITYSDK_OFFSET(0x19C8BEA0)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8BE90)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__GETTOPRECOMMENDPROPERTYID_B__128_1_OFFSET UNITYSDK_OFFSET(0x19C8BF20)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__ONSKILLBTNCLICK_B__115_0_OFFSET UNITYSDK_OFFSET(0x19C8BF10)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__REFRESHEVALUATELEVELICON_B__140_0_OFFSET UNITYSDK_OFFSET(0x19C8BF30)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__REFRESHEVALUATELEVELICON_B__140_1_OFFSET UNITYSDK_OFFSET(0x19C8BF40)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__REFRESHEVALUATELEVELICON_B__140_2_OFFSET UNITYSDK_OFFSET(0x19C8BF50)
+#define MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__REFRESHRECOMMENDRANDPROPERTYSTR_B__107_0_OFFSET UNITYSDK_OFFSET(0x19C8BEB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIStrategyGuidePageController___c_TypeDefinitionIndex = 78613;
+	inline static constexpr unsigned int UIStrategyGuidePageController___c_TypeDefinitionIndex = 52228;
 
 	class UIStrategyGuidePageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIStrategyGuidePageController___c** StaticGet___9()
+		static ::System::Func_2<::System::Object*, ::OOHBEPCMHMC>** StaticGet___9__140_1()
 		{
-			return (::MoleMole::UIStrategyGuidePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x40140);
+			return (::System::Func_2<::System::Object*, ::OOHBEPCMHMC>**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x45300);
 		}
-		static ::System::Func_2<::MoleMole::UIStrategyGuidePageController_ESortScoreLevel, ::Enum_3_CAE10C54ABAE6FAF>** StaticGet___9__89_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::MoleMole::UIStrategyGuidePageController_ESortScoreLevel, ::Enum_3_CAE10C54ABAE6FAF>**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x40148);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x45308);
 		}
-		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__78_0()
+		static ::System::Func_2<::BPHGNMNLLHF*, ::System::Boolean>** StaticGet___9__39_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x40150);
+			return (::System::Func_2<::BPHGNMNLLHF*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x45310);
 		}
-		static ::System::Func_2<::Class_1_A6C17C8DDACC49CF*, ::System::Boolean>** StaticGet___9__63_0()
+		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__107_0()
 		{
-			return (::System::Func_2<::Class_1_A6C17C8DDACC49CF*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x40158);
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x45318);
 		}
-		static ::System::Func_2<::MoleMole::UIStrategyGuidePageController_ESortScoreLevel, ::System::Boolean>** StaticGet___9__89_0()
+		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__128_1()
 		{
-			return (::System::Func_2<::MoleMole::UIStrategyGuidePageController_ESortScoreLevel, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x40160);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x45320);
 		}
-		static ::System::Func_2<::MoleMole::UIStrategyGuidePageController_ESortScoreLevel, ::System::Single>** StaticGet___9__89_2()
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__140_0()
 		{
-			return (::System::Func_2<::MoleMole::UIStrategyGuidePageController_ESortScoreLevel, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x40168);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x45328);
 		}
-		static ::System::Action** StaticGet___9__86_0()
+		static ::System::Action** StaticGet___9__115_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x40170);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x45330);
 		}
-		static ::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Boolean>** StaticGet___9__35_0()
+		static ::System::Func_2<::System::Object*, ::System::Single>** StaticGet___9__140_2()
 		{
-			return (::System::Func_2<::Class_2_1824EF69C8E376A3*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x40178);
+			return (::System::Func_2<::System::Object*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(UIStrategyGuidePageController___c_TypeDefinitionIndex)->GetStaticField(0x45338);
 		}
 
 		static ::System::Void _cctor()
@@ -70,39 +69,39 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _CreateSorter_b__35_0(::Class_2_1824EF69C8E376A3* _)
+		::System::Boolean _CreateSorter_b__39_0(::BPHGNMNLLHF* _)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_2_1824EF69C8E376A3*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__CREATESORTER_B__35_0_OFFSET))(this, _);
+			return ((::System::Boolean(*)(::PVOID, ::BPHGNMNLLHF*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__CREATESORTER_B__39_0_OFFSET))(this, _);
 		}
 
-		::System::Boolean _RefreshRecommendTeamPanel_b__63_0(::Class_1_A6C17C8DDACC49CF* ctx)
+		::System::String* _RefreshRecommendRandPropertyStr_b__107_0(::System::Int32 pid)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_A6C17C8DDACC49CF*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__REFRESHRECOMMENDTEAMPANEL_B__63_0_OFFSET))(this, ctx);
+			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__REFRESHRECOMMENDRANDPROPERTYSTR_B__107_0_OFFSET))(this, pid);
 		}
 
-		::System::String* _RefreshRecommendRandPropertyStr_b__78_0(::System::Int32 pid)
+		::System::Void _OnSkillBtnClick_b__115_0()
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__REFRESHRECOMMENDRANDPROPERTYSTR_B__78_0_OFFSET))(this, pid);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__ONSKILLBTNCLICK_B__115_0_OFFSET))(this);
 		}
 
-		::System::Void _OnSkillBtnClick_b__86_0()
+		::System::Boolean _GetTopRecommendPropertyId_b__128_1(::System::Int32 id)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__ONSKILLBTNCLICK_B__86_0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__GETTOPRECOMMENDPROPERTYID_B__128_1_OFFSET))(this, id);
 		}
 
-		::System::Boolean _OnEvaluateBtnClick_b__89_0(::MoleMole::UIStrategyGuidePageController_ESortScoreLevel item)
+		::System::Boolean _RefreshEvaluateLevelIcon_b__140_0(::MoleMole::UIStrategyGuidePageController_ESortScoreLevel item)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UIStrategyGuidePageController_ESortScoreLevel))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__ONEVALUATEBTNCLICK_B__89_0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::MoleMole::UIStrategyGuidePageController_ESortScoreLevel))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__REFRESHEVALUATELEVELICON_B__140_0_OFFSET))(this, item);
 		}
 
-		::Enum_3_CAE10C54ABAE6FAF _OnEvaluateBtnClick_b__89_1(::MoleMole::UIStrategyGuidePageController_ESortScoreLevel item)
+		::OOHBEPCMHMC _RefreshEvaluateLevelIcon_b__140_1(::MoleMole::UIStrategyGuidePageController_ESortScoreLevel item)
 		{
-			return ((::Enum_3_CAE10C54ABAE6FAF(*)(::PVOID, ::MoleMole::UIStrategyGuidePageController_ESortScoreLevel))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__ONEVALUATEBTNCLICK_B__89_1_OFFSET))(this, item);
+			return ((::OOHBEPCMHMC(*)(::PVOID, ::MoleMole::UIStrategyGuidePageController_ESortScoreLevel))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__REFRESHEVALUATELEVELICON_B__140_1_OFFSET))(this, item);
 		}
 
-		::System::Single _OnEvaluateBtnClick_b__89_2(::MoleMole::UIStrategyGuidePageController_ESortScoreLevel item)
+		::System::Single _RefreshEvaluateLevelIcon_b__140_2(::MoleMole::UIStrategyGuidePageController_ESortScoreLevel item)
 		{
-			return ((::System::Single(*)(::PVOID, ::MoleMole::UIStrategyGuidePageController_ESortScoreLevel))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__ONEVALUATEBTNCLICK_B__89_2_OFFSET))(this, item);
+			return ((::System::Single(*)(::PVOID, ::MoleMole::UIStrategyGuidePageController_ESortScoreLevel))((::PBYTE)hIl2Cpp + MOLEMOLE_UISTRATEGYGUIDEPAGECONTROLLER___C__REFRESHEVALUATELEVELICON_B__140_2_OFFSET))(this, item);
 		}
 	};
 }

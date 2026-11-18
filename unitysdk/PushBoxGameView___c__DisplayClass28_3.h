@@ -1,13 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/EAOGLMKGMGE.h"
 #include "unitysdk/PushBoxCell.h"
-#include "unitysdk/Struct_2_A1A45D8655270887.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int PushBoxGameView___c__DisplayClass28_3_TypeDefinitionIndex = 84514;
+inline static constexpr unsigned int PushBoxGameView___c__DisplayClass28_3_TypeDefinitionIndex = 61725;
 
+template <typename T1, typename T2, typename T3>
 struct alignas(4) PushBoxGameView___c__DisplayClass28_3
 {
-	::PushBoxCell fullIdx; // 0x10
-	::Struct_2_A1A45D8655270887 idxFix; // 0x18
+	::EAOGLMKGMGE idxFix; // 0x10
+	::PushBoxCell fullIdx; // 0x1C
 };

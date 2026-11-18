@@ -8,26 +8,30 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MOLEMOLE_VOPERFORMSUBSYSTEM_NPCNAMESHOWINFO_ADDFLAG_OFFSET UNITYSDK_OFFSET(0x730D50)
-#define MOLEMOLE_VOPERFORMSUBSYSTEM_NPCNAMESHOWINFO_REMOVEFLAG_OFFSET UNITYSDK_OFFSET(0x730DA0)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_NPCNAMESHOWINFO_ADDFLAG_OFFSET UNITYSDK_OFFSET(0x71EBE0)
+#define MOLEMOLE_VOPERFORMSUBSYSTEM_NPCNAMESHOWINFO_REMOVEFLAG_OFFSET UNITYSDK_OFFSET(0x71EC30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int VOPerformSubSystem_NpcNameShowInfo_TypeDefinitionIndex = 60218;
+	inline static constexpr unsigned int VOPerformSubSystem_NpcNameShowInfo_TypeDefinitionIndex = 76191;
 
 	struct alignas(8) VOPerformSubSystem_NpcNameShowInfo
 	{
 		::System::String* configID; // 0x10
 		::MoleMole::VOPerformSubSystem_NpcNameShowTags showTag; // 0x18
 		::System::Boolean bindInteract; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::String* iconKey; // 0x20
 		::Foundation::AssetPath iconFullPath; // 0x28
 		::System::Single heightOffset; // 0x38
 		::System::Boolean autoHide; // 0x3C
+		::System::Byte _padding1[0x3];
 		::System::Single hideRadius; // 0x40
+		::System::Byte _padding2[0x4];
 		::System::Object* guideUserData; // 0x48
 		::System::String* splitStrategy; // 0x50
 		::System::Boolean isGuideTargetExtractPos; // 0x58
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Vector3 extractPos; // 0x5C
 		::System::UInt32 associatedEntityID; // 0x68
 

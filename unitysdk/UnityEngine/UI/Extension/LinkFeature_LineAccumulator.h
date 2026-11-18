@@ -1,16 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Rect.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_UI_EXTENSION_LINKFEATURE_LINEACCUMULATOR_EXPAND_OFFSET UNITYSDK_OFFSET(0x888340)
-#define UNITYENGINE_UI_EXTENSION_LINKFEATURE_LINEACCUMULATOR_FLUSHTO_OFFSET UNITYSDK_OFFSET(0x888430)
-#define UNITYENGINE_UI_EXTENSION_LINKFEATURE_LINEACCUMULATOR_RESET_OFFSET UNITYSDK_OFFSET(0x8882F0)
+#define UNITYENGINE_UI_EXTENSION_LINKFEATURE_LINEACCUMULATOR_EXPAND_OFFSET UNITYSDK_OFFSET(0x801450)
+#define UNITYENGINE_UI_EXTENSION_LINKFEATURE_LINEACCUMULATOR_FLUSHTO_OFFSET UNITYSDK_OFFSET(0x801540)
+#define UNITYENGINE_UI_EXTENSION_LINKFEATURE_LINEACCUMULATOR_RESET_OFFSET UNITYSDK_OFFSET(0x801400)
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int LinkFeature_LineAccumulator_TypeDefinitionIndex = 77781;
+	inline static constexpr unsigned int LinkFeature_LineAccumulator_TypeDefinitionIndex = 83339;
 
 	struct alignas(4) LinkFeature_LineAccumulator
 	{
@@ -30,11 +31,9 @@ namespace UnityEngine::UI::Extension
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_LINKFEATURE_LINEACCUMULATOR_EXPAND_OFFSET))(this, leftX, rightX, topY, botY);
 		}
 
-		/*
 		::System::Void FlushTo(::System::Collections::Generic::List_1<::UnityEngine::Rect>* output)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Rect>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_EXTENSION_LINKFEATURE_LINEACCUMULATOR_FLUSHTO_OFFSET))(this, output);
 		}
-		*/
 	};
 }

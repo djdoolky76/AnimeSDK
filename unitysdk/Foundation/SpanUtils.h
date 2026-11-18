@@ -1,20 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/SpanUtils_ReadOnlySpanIterator_1.h"
-#include "unitysdk/Foundation/SpanUtils_SpanIterator_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-#include "unitysdk/System/Span_1.h"
 
-namespace System { template <typename T> class Predicate_1; }
-
-#define FOUNDATION_SPANUTILS_BEGININDEX_OFFSET UNITYSDK_OFFSET(0x1F562710)
-#define FOUNDATION_SPANUTILS_ENDINDEX_OFFSET UNITYSDK_OFFSET(0x1F562700)
-#define FOUNDATION_SPANUTILS_ENSUREINDEX_OFFSET UNITYSDK_OFFSET(0x1F562720)
+#define FOUNDATION_SPANUTILS_BEGININDEX_OFFSET UNITYSDK_OFFSET(0x1F919F80)
+#define FOUNDATION_SPANUTILS_ENDINDEX_OFFSET UNITYSDK_OFFSET(0x1F919F70)
+#define FOUNDATION_SPANUTILS_ENSUREINDEX_OFFSET UNITYSDK_OFFSET(0x1F919F90)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int SpanUtils_TypeDefinitionIndex = 8711;
+	inline static constexpr unsigned int SpanUtils_TypeDefinitionIndex = 8709;
 
 	class SpanUtils : public ::System::Object
 	{

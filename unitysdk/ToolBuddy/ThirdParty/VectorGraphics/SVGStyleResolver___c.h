@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLERESOLVER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA9F070)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLERESOLVER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9F0B0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLERESOLVER___C__PUSHNODE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1DA9F0C0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLERESOLVER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE8C1A0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLERESOLVER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8C1E0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGSTYLERESOLVER___C__PUSHNODE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1DE8C1F0)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGStyleResolver___c_TypeDefinitionIndex = 31758;
+	inline static constexpr unsigned int SVGStyleResolver___c_TypeDefinitionIndex = 31196;
 
 	class SVGStyleResolver___c : public ::System::Object
 	{
 	public:
-		static ::ToolBuddy::ThirdParty::VectorGraphics::SVGStyleResolver___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::ToolBuddy::ThirdParty::VectorGraphics::SVGStyleResolver___c**)Il2CppClass::FromTypeDefinitionIndex(SVGStyleResolver___c_TypeDefinitionIndex)->GetStaticField(0x26FC0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(SVGStyleResolver___c_TypeDefinitionIndex)->GetStaticField(0x28090);
 		}
 		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SVGStyleResolver___c_TypeDefinitionIndex)->GetStaticField(0x26FC8);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SVGStyleResolver___c_TypeDefinitionIndex)->GetStaticField(0x28098);
 		}
 
 		static ::System::Void _cctor()

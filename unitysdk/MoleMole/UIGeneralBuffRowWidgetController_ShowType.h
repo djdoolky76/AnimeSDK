@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralBuffRowWidgetController_ShowType_TypeDefinitionIndex = 50518;
+	inline static constexpr unsigned int UIGeneralBuffRowWidgetController_ShowType_TypeDefinitionIndex = 56893;
 
 	enum class UIGeneralBuffRowWidgetController_ShowType : ::System::Int32
 	{

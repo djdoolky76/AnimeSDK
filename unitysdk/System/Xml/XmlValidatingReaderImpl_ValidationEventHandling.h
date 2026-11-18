@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/Schema/XmlSeverityType.h"
+#include "unitysdk/System/Object.h"
 
 namespace System { class Exception; }
 namespace System::Xml { class XmlValidatingReaderImpl; }
 namespace System::Xml::Schema { class ValidationEventHandler; }
 
-#define SYSTEM_XML_XMLVALIDATINGREADERIMPL_VALIDATIONEVENTHANDLING_ADDHANDLER_OFFSET UNITYSDK_OFFSET(0x1E4B3F10)
-#define SYSTEM_XML_XMLVALIDATINGREADERIMPL_VALIDATIONEVENTHANDLING_SYSTEM_XML_IVALIDATIONEVENTHANDLING_GET_EVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x1E4B3DC0)
-#define SYSTEM_XML_XMLVALIDATINGREADERIMPL_VALIDATIONEVENTHANDLING_SYSTEM_XML_IVALIDATIONEVENTHANDLING_SENDEVENT_OFFSET UNITYSDK_OFFSET(0x1E4B3DD0)
-#define SYSTEM_XML_XMLVALIDATINGREADERIMPL_VALIDATIONEVENTHANDLING__CTOR_OFFSET UNITYSDK_OFFSET(0x1E4B3DB0)
+#define SYSTEM_XML_XMLVALIDATINGREADERIMPL_VALIDATIONEVENTHANDLING_ADDHANDLER_OFFSET UNITYSDK_OFFSET(0x1E717DC0)
+#define SYSTEM_XML_XMLVALIDATINGREADERIMPL_VALIDATIONEVENTHANDLING_SYSTEM_XML_IVALIDATIONEVENTHANDLING_GET_EVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x1E717C70)
+#define SYSTEM_XML_XMLVALIDATINGREADERIMPL_VALIDATIONEVENTHANDLING_SYSTEM_XML_IVALIDATIONEVENTHANDLING_SENDEVENT_OFFSET UNITYSDK_OFFSET(0x1E717C80)
+#define SYSTEM_XML_XMLVALIDATINGREADERIMPL_VALIDATIONEVENTHANDLING__CTOR_OFFSET UNITYSDK_OFFSET(0x1E717C60)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlValidatingReaderImpl_ValidationEventHandling_TypeDefinitionIndex = 1740;
+	inline static constexpr unsigned int XmlValidatingReaderImpl_ValidationEventHandling_TypeDefinitionIndex = 1739;
 
 	class XmlValidatingReaderImpl_ValidationEventHandling : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::ValidationEventHandler* eventHandler; // 0x10
-		::System::Xml::XmlValidatingReaderImpl* reader; // 0x18
+		::System::Xml::XmlValidatingReaderImpl* reader; // 0x10
+		::System::Xml::Schema::ValidationEventHandler* eventHandler; // 0x18
 
 		::System::Void _ctor(::System::Xml::XmlValidatingReaderImpl* reader)
 		{

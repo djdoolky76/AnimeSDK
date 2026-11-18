@@ -3,7 +3,7 @@
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int EMontageEndBehavior_TypeDefinitionIndex = 46843;
+	inline static constexpr unsigned int EMontageEndBehavior_TypeDefinitionIndex = 87784;
 
 	enum class EMontageEndBehavior : ::System::Int32
 	{

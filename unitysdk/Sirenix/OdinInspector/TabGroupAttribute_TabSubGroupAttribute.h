@@ -5,12 +5,12 @@
 namespace Sirenix::OdinInspector { class TabGroupAttribute; }
 namespace System { class String; }
 
-#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE_TABSUBGROUPATTRIBUTE_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1F772130)
-#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE_TABSUBGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F772040)
+#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE_TABSUBGROUPATTRIBUTE_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x1FB823A0)
+#define SIRENIX_ODININSPECTOR_TABGROUPATTRIBUTE_TABSUBGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB822B0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int TabGroupAttribute_TabSubGroupAttribute_TypeDefinitionIndex = 7367;
+	inline static constexpr unsigned int TabGroupAttribute_TabSubGroupAttribute_TypeDefinitionIndex = 7374;
 
 	class TabGroupAttribute_TabSubGroupAttribute : public ::Sirenix::OdinInspector::PropertyGroupAttribute
 	{

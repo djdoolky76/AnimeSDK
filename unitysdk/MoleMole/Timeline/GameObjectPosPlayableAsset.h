@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class GameObjectPosBehavior; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_GAMEOBJECTPOSPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F0DFD50)
-#define MOLEMOLE_TIMELINE_GAMEOBJECTPOSPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F0DFD40)
-#define MOLEMOLE_TIMELINE_GAMEOBJECTPOSPLAYABLEASSET_INITDATA_OFFSET UNITYSDK_OFFSET(0x1F0DFF10)
-#define MOLEMOLE_TIMELINE_GAMEOBJECTPOSPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DFF30)
+#define MOLEMOLE_TIMELINE_GAMEOBJECTPOSPLAYABLEASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F43C780)
+#define MOLEMOLE_TIMELINE_GAMEOBJECTPOSPLAYABLEASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F43C770)
+#define MOLEMOLE_TIMELINE_GAMEOBJECTPOSPLAYABLEASSET_INITDATA_OFFSET UNITYSDK_OFFSET(0x1F43C940)
+#define MOLEMOLE_TIMELINE_GAMEOBJECTPOSPLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F43C960)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int GameObjectPosPlayableAsset_TypeDefinitionIndex = 32853;
+	inline static constexpr unsigned int GameObjectPosPlayableAsset_TypeDefinitionIndex = 32304;
 
 	class GameObjectPosPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{

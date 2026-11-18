@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CENDGBANCMA.h"
+
+class CFMGIKJLMBJ;
+class FCANCDJBJNG;
+class JDCBKEMMIGF;
+
+#define OIPKDJOPDDB_LLCPLICBCCF_OFFSET UNITYSDK_OFFSET(0x16F7FF70)
+#define OIPKDJOPDDB__CTOR_OFFSET UNITYSDK_OFFSET(0x16F805B0)
+
+inline static constexpr unsigned int OIPKDJOPDDB_TypeDefinitionIndex = 65757;
+
+class OIPKDJOPDDB
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OIPKDJOPDDB__CTOR_OFFSET))(this);
+	}
+
+	::CENDGBANCMA LLCPLICBCCF(::JDCBKEMMIGF* LJBPECKCCEA, ::FCANCDJBJNG* AIBJGMNPFKB, ::CFMGIKJLMBJ*& GOHPINDANII)
+	{
+		return ((::CENDGBANCMA(*)(::PVOID, ::JDCBKEMMIGF*, ::FCANCDJBJNG*, ::CFMGIKJLMBJ*&))((::PBYTE)hIl2Cpp + OIPKDJOPDDB_LLCPLICBCCF_OFFSET))(this, LJBPECKCCEA, AIBJGMNPFKB, GOHPINDANII);
+	}
+};

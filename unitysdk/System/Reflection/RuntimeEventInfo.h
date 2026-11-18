@@ -8,12 +8,12 @@ namespace System::Reflection { class Module; }
 namespace System::Reflection { class RuntimeModule; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_262EF1BBA1394A57_OFFSET UNITYSDK_OFFSET(0x1E122660)
-#define SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_45DB550DE2BB43E0_OFFSET UNITYSDK_OFFSET(0x1E1224F0)
-#define SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_658233F71CDC01ED_1_OFFSET UNITYSDK_OFFSET(0x1E1225F0)
-#define SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_658233F71CDC01ED_OFFSET UNITYSDK_OFFSET(0x1E122580)
-#define SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1E122780)
-#define SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_E0730323297BCBC5_OFFSET UNITYSDK_OFFSET(0x1E122460)
+#define SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_0_OFFSET UNITYSDK_OFFSET(0x1E48EC60)
+#define SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_1_1_OFFSET UNITYSDK_OFFSET(0x1E48E940)
+#define SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_2_2_OFFSET UNITYSDK_OFFSET(0x1E48EA60)
+#define SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_3_OFFSET UNITYSDK_OFFSET(0x1E48EAD0)
+#define SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_4_4_OFFSET UNITYSDK_OFFSET(0x1E48E9D0)
+#define SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_5_5_OFFSET UNITYSDK_OFFSET(0x1E48EB40)
 
 namespace System::Reflection
 {
@@ -22,34 +22,34 @@ namespace System::Reflection
 	class RuntimeEventInfo : public ::System::Reflection::EventInfo
 	{
 	public:
-		::System::Void Method_3_832295EC279E5994()
+		::System::Void Method_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_0_OFFSET))(this);
 		}
 
-		::System::Reflection::Module* Method_3_E0730323297BCBC5()
+		::System::Reflection::Module* Method_1_1()
 		{
-			return ((::System::Reflection::Module*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_E0730323297BCBC5_OFFSET))(this);
+			return ((::System::Reflection::Module*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_1_1_OFFSET))(this);
 		}
 
-		::System::RuntimeType* Method_3_658233F71CDC01ED()
+		::System::RuntimeType* Method_2_2()
 		{
-			return ((::System::RuntimeType*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_658233F71CDC01ED_OFFSET))(this);
+			return ((::System::RuntimeType*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_2_2_OFFSET))(this);
 		}
 
-		::System::RuntimeType* Method_3_658233F71CDC01ED_1()
+		::System::RuntimeType* Method_3_3()
 		{
-			return ((::System::RuntimeType*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_658233F71CDC01ED_1_OFFSET))(this);
+			return ((::System::RuntimeType*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_3_OFFSET))(this);
 		}
 
-		::System::Reflection::RuntimeModule* Method_3_45DB550DE2BB43E0()
+		::System::Reflection::RuntimeModule* Method_4_4()
 		{
-			return ((::System::Reflection::RuntimeModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_45DB550DE2BB43E0_OFFSET))(this);
+			return ((::System::Reflection::RuntimeModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_4_4_OFFSET))(this);
 		}
 
-		::System::Void Method_3_262EF1BBA1394A57(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
+		::System::Void Method_5_5(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_3_262EF1BBA1394A57_OFFSET))(this, info, context);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RUNTIMEEVENTINFO_METHOD_5_5_OFFSET))(this, info, context);
 		}
 	};
 }

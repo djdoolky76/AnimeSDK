@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGVIDEOAUDIOMAPPING_VIDEOAUDIOENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1922C8C0)
+#define MOLEMOLE_CONFIGVIDEOAUDIOMAPPING_VIDEOAUDIOENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x118F73E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigVideoAudioMapping_VideoAudioEntry_TypeDefinitionIndex = 40758;
+	inline static constexpr unsigned int ConfigVideoAudioMapping_VideoAudioEntry_TypeDefinitionIndex = 85605;
 
 	class ConfigVideoAudioMapping_VideoAudioEntry : public ::System::Object
 	{

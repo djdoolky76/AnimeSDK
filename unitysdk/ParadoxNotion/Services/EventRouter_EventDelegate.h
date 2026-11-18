@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/ParadoxNotion/EventData.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/ParadoxNotion/EventData.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define PARADOXNOTION_SERVICES_EVENTROUTER_EVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EB7BF60)
-#define PARADOXNOTION_SERVICES_EVENTROUTER_EVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EB7BFD0)
-#define PARADOXNOTION_SERVICES_EVENTROUTER_EVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EB7BB10)
-#define PARADOXNOTION_SERVICES_EVENTROUTER_EVENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7BAF0)
+#define PARADOXNOTION_SERVICES_EVENTROUTER_EVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF24B80)
+#define PARADOXNOTION_SERVICES_EVENTROUTER_EVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF24BF0)
+#define PARADOXNOTION_SERVICES_EVENTROUTER_EVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF24730)
+#define PARADOXNOTION_SERVICES_EVENTROUTER_EVENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF24720)
 
 namespace ParadoxNotion::Services
 {
-	inline static constexpr unsigned int EventRouter_EventDelegate_TypeDefinitionIndex = 31492;
+	inline static constexpr unsigned int EventRouter_EventDelegate_TypeDefinitionIndex = 29689;
 
 	class EventRouter_EventDelegate : public ::System::MulticastDelegate
 	{

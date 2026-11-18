@@ -4,17 +4,18 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_DEVICEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B84A0)
+#define MIHOYO_SDK_DEVICEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D835B10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DeviceInfo_TypeDefinitionIndex = 19984;
+	inline static constexpr unsigned int DeviceInfo_TypeDefinitionIndex = 19130;
 
 	class DeviceInfo : public ::System::Object
 	{
 	public:
 		::System::String* ip; // 0x10
 		::System::Int32 plat; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* device_id; // 0x20
 		::System::String* device_fp; // 0x28
 		::System::String* device_name; // 0x30

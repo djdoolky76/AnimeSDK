@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_45B62668F0BA5CF8.h"
-#include "unitysdk/Struct_2_EB409772687773A2_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/CKMMPOGHDFI.h"
+#include "unitysdk/JOHNONOOOCH.h"
 
-class Class_3_D92ADC48CDFCC09B_2;
+class NLANCPLMPLB;
 
-#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162622C0)
-#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16262300)
-#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__INITNPCNAME_B__39_0_OFFSET UNITYSDK_OFFSET(0x16262310)
+#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B1BCD0)
+#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B1BD10)
+#define MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__INITNPCNAME_B__38_0_OFFSET UNITYSDK_OFFSET(0x19B1BD20)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigNpcSubTrait___c_TypeDefinitionIndex = 43769;
+	inline static constexpr unsigned int ConfigNpcSubTrait___c_TypeDefinitionIndex = 62238;
 
 	class ConfigNpcSubTrait___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::Config::ConfigNpcSubTrait___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::Config::ConfigNpcSubTrait___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigNpcSubTrait___c_TypeDefinitionIndex)->GetStaticField(0x32430);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ConfigNpcSubTrait___c_TypeDefinitionIndex)->GetStaticField(0x34830);
 		}
-		static ::Class_3_D92ADC48CDFCC09B_2** StaticGet___9__39_0()
+		static ::NLANCPLMPLB** StaticGet___9__38_0()
 		{
-			return (::Class_3_D92ADC48CDFCC09B_2**)Il2CppClass::FromTypeDefinitionIndex(ConfigNpcSubTrait___c_TypeDefinitionIndex)->GetStaticField(0x32438);
+			return (::NLANCPLMPLB**)Il2CppClass::FromTypeDefinitionIndex(ConfigNpcSubTrait___c_TypeDefinitionIndex)->GetStaticField(0x34838);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__CTOR_OFFSET))(this);
 		}
 
-		::Struct_2_45B62668F0BA5CF8 _InitNpcName_b__39_0(::Struct_2_EB409772687773A2_1& target)
+		::JOHNONOOOCH _InitNpcName_b__38_0(::CKMMPOGHDFI& target)
 		{
-			return ((::Struct_2_45B62668F0BA5CF8(*)(::PVOID, ::Struct_2_EB409772687773A2_1&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__INITNPCNAME_B__39_0_OFFSET))(this, target);
+			return ((::JOHNONOOOCH(*)(::PVOID, ::CKMMPOGHDFI&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGNPCSUBTRAIT___C__INITNPCNAME_B__38_0_OFFSET))(this, target);
 		}
 	};
 }

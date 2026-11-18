@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_TIMELINEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1924EE50)
+#define MOLEMOLE_GALGAME_TIMELINEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1191C7A0)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int TimelinePair_TypeDefinitionIndex = 82666;
+	inline static constexpr unsigned int TimelinePair_TypeDefinitionIndex = 68694;
 
 	class TimelinePair : public ::System::Object
 	{

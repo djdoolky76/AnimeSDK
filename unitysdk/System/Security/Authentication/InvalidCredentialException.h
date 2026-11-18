@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/Security/Authentication/AuthenticationException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_SECURITY_AUTHENTICATION_INVALIDCREDENTIALEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D62EFE0)
-#define SYSTEM_SECURITY_AUTHENTICATION_INVALIDCREDENTIALEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D62F070)
-#define SYSTEM_SECURITY_AUTHENTICATION_INVALIDCREDENTIALEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1D62F100)
-#define SYSTEM_SECURITY_AUTHENTICATION_INVALIDCREDENTIALEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D62EF20)
+#define SYSTEM_SECURITY_AUTHENTICATION_INVALIDCREDENTIALEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DAF3960)
+#define SYSTEM_SECURITY_AUTHENTICATION_INVALIDCREDENTIALEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DAF39F0)
+#define SYSTEM_SECURITY_AUTHENTICATION_INVALIDCREDENTIALEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1DAF3A80)
+#define SYSTEM_SECURITY_AUTHENTICATION_INVALIDCREDENTIALEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF38A0)
 
 namespace System::Security::Authentication
 {
-	inline static constexpr unsigned int InvalidCredentialException_TypeDefinitionIndex = 3148;
+	inline static constexpr unsigned int InvalidCredentialException_TypeDefinitionIndex = 3147;
 
 	class InvalidCredentialException : public ::System::Security::Authentication::AuthenticationException
 	{

@@ -13,15 +13,15 @@ namespace UnityEngine::NAPRenderPipeline0 { class MinFloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurveParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class Vector4Parameter; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORCORRECTION_NATIVESRP_INTERPOLATEVOLUMEDATA_OFFSET UNITYSDK_OFFSET(0x1EA894F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORCORRECTION_NATIVESRP_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1EA87F70)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORCORRECTION_NATIVESRP_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1EA87F90)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORCORRECTION_NATIVESRP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA893F0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORCORRECTION_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA87FA0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORCORRECTION_NATIVESRP_INTERPOLATEVOLUMEDATA_OFFSET UNITYSDK_OFFSET(0x1ED818F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORCORRECTION_NATIVESRP_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1ED80370)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORCORRECTION_NATIVESRP_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1ED80390)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORCORRECTION_NATIVESRP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED817F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_CHARACTERCOLORCORRECTION_NATIVESRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED803A0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CharacterColorCorrection_NativeSRP_TypeDefinitionIndex = 6088;
+	inline static constexpr unsigned int CharacterColorCorrection_NativeSRP_TypeDefinitionIndex = 6096;
 
 	class CharacterColorCorrection_NativeSRP : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{
@@ -35,6 +35,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::NAPRenderPipeline0::ColorParameter* sssTint; // 0x68
 		::UnityEngine::NAPRenderPipeline0::ColorParameter* shadowFadeTint; // 0x70
 		::System::Boolean skinColorsInitialized; // 0x78
+		::System::Byte _padding0[0x7];
 		::UnityEngine::NAPRenderPipeline0::ColorParameter* skinShallowTint; // 0x80
 		::UnityEngine::NAPRenderPipeline0::ColorParameter* skinShallowFadeTint; // 0x88
 		::UnityEngine::NAPRenderPipeline0::ColorParameter* skinShadowTint; // 0x90
@@ -66,6 +67,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::NAPRenderPipeline0::TextureCurveParameter* satVsSat; // 0x160
 		::UnityEngine::NAPRenderPipeline0::TextureCurveParameter* lumVsSat; // 0x168
 		::System::Boolean CharacterColorCorrection_enable; // 0x170
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector4 CharacterColorCorrection_ambient; // 0x174
 		::UnityEngine::Vector4 CharacterColorCorrection_shallowTint; // 0x184
 		::UnityEngine::Vector4 CharacterColorCorrection_shallowFadeTint; // 0x194
@@ -75,6 +77,7 @@ namespace UnityEngine::NAPRenderPipeline0
 		::UnityEngine::Vector4 CharacterColorCorrection_shadowFadeTint; // 0x1D4
 		::UnityEngine::Vector4 CharacterColorCorrection_ambientGradient; // 0x1E4
 		::System::Boolean CharacterColorCorrection_useShadowTintAsOutline; // 0x1F4
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Vector4 CharacterColorCorrection_outlineTint; // 0x1F8
 		::System::Single CharacterColorCorrection_toeStrength; // 0x208
 		::System::Single CharacterColorCorrection_toeLength; // 0x20C

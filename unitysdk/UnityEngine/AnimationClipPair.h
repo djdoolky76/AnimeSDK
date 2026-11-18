@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationClip; }
 
-#define UNITYENGINE_ANIMATIONCLIPPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC14010)
+#define UNITYENGINE_ANIMATIONCLIPPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x20014E10)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimationClipPair_TypeDefinitionIndex = 6637;
+	inline static constexpr unsigned int AnimationClipPair_TypeDefinitionIndex = 6644;
 
 	class AnimationClipPair : public ::System::Object
 	{

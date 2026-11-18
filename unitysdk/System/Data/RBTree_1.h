@@ -1,23 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Data/RBTree_1_NodeColor.h"
-#include "unitysdk/System/Data/RBTree_1_NodePath.h"
 #include "unitysdk/System/Data/TreeAccessMethod.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class Array; }
-namespace System::Collections { class IEnumerator; }
-namespace System::Data { template <typename T> class RBTree_1_TreePage; }
-
 namespace System::Data
 {
-	inline static constexpr unsigned int RBTree_1_TypeDefinitionIndex = 39325;
+	inline static constexpr unsigned int RBTree_1_TypeDefinitionIndex = 37325;
 
-	template <typename K>
+	template <typename T>
 	class RBTree_1 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Data::RBTree_1_TreePage<K>*>* _pageTable; // 0x0
+		::Il2CppArray<::System::Object*>* _pageTable; // 0x0
 		::Il2CppArray<::System::Int32>* _pageTableMap; // 0x0
 		::System::Int32 _inUsePageCount; // 0x0
 		::System::Int32 _nextFreePageLine; // 0x0

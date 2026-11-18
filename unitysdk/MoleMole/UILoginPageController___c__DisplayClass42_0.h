@@ -6,13 +6,13 @@ namespace MoleMole { class UILoginPageController; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS42_0__CLOSELOGIN2_B__0_OFFSET UNITYSDK_OFFSET(0x1744A200)
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS42_0__CLOSELOGIN2_B__1_OFFSET UNITYSDK_OFFSET(0x1744A2A0)
-#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1744A1F0)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS42_0__CLOSELOGIN2_B__0_OFFSET UNITYSDK_OFFSET(0x1939DC00)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS42_0__CLOSELOGIN2_B__1_OFFSET UNITYSDK_OFFSET(0x1939DCA0)
+#define MOLEMOLE_UILOGINPAGECONTROLLER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1939DBF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILoginPageController___c__DisplayClass42_0_TypeDefinitionIndex = 46285;
+	inline static constexpr unsigned int UILoginPageController___c__DisplayClass42_0_TypeDefinitionIndex = 39121;
 
 	class UILoginPageController___c__DisplayClass42_0 : public ::System::Object
 	{

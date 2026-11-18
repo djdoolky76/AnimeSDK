@@ -5,18 +5,18 @@
 namespace MoleMole { class UIBaseChatPlusController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBASECHATPLUSCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x192AAD10)
-#define MOLEMOLE_UIBASECHATPLUSCONTROLLER___C__DISPLAYCLASS14_0__PLAYMASKFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x192AADB0)
+#define MOLEMOLE_UIBASECHATPLUSCONTROLLER___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188FB950)
+#define MOLEMOLE_UIBASECHATPLUSCONTROLLER___C__DISPLAYCLASS14_0__PLAYMASKFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0x188FB9F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBaseChatPlusController___c__DisplayClass14_0_TypeDefinitionIndex = 67739;
+	inline static constexpr unsigned int UIBaseChatPlusController___c__DisplayClass14_0_TypeDefinitionIndex = 80186;
 
 	class UIBaseChatPlusController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIBaseChatPlusController* __4__this; // 0x10
-		::System::Action* onFadeOutCompleted; // 0x18
+		::System::Action* onFadeOutCompleted; // 0x10
+		::MoleMole::UIBaseChatPlusController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

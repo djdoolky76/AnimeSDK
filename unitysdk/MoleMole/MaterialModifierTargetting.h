@@ -8,17 +8,17 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 
-#define MOLEMOLE_MATERIALMODIFIERTARGETTING_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1908DBF0)
-#define MOLEMOLE_MATERIALMODIFIERTARGETTING_METHOD_1_00A1233CF10BA4BC_OFFSET UNITYSDK_OFFSET(0x1908DD50)
-#define MOLEMOLE_MATERIALMODIFIERTARGETTING_METHOD_1_0953D3F09BE36E6D_OFFSET UNITYSDK_OFFSET(0x1908E1D0)
-#define MOLEMOLE_MATERIALMODIFIERTARGETTING_METHOD_1_6597F9D2D4A0542F_1_OFFSET UNITYSDK_OFFSET(0x1908DCD0)
-#define MOLEMOLE_MATERIALMODIFIERTARGETTING_METHOD_1_6597F9D2D4A0542F_2_OFFSET UNITYSDK_OFFSET(0x1908E150)
-#define MOLEMOLE_MATERIALMODIFIERTARGETTING_METHOD_1_6597F9D2D4A0542F_OFFSET UNITYSDK_OFFSET(0x1908DC50)
-#define MOLEMOLE_MATERIALMODIFIERTARGETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1908DC40)
+#define MOLEMOLE_MATERIALMODIFIERTARGETTING_BIFJGAGBEGI_OFFSET UNITYSDK_OFFSET(0x180F4A80)
+#define MOLEMOLE_MATERIALMODIFIERTARGETTING_CIIPFOLJAIE_OFFSET UNITYSDK_OFFSET(0x180F4F00)
+#define MOLEMOLE_MATERIALMODIFIERTARGETTING_COANKBABIDM_OFFSET UNITYSDK_OFFSET(0x180F5400)
+#define MOLEMOLE_MATERIALMODIFIERTARGETTING_DISPOSE_OFFSET UNITYSDK_OFFSET(0x180F4A20)
+#define MOLEMOLE_MATERIALMODIFIERTARGETTING_EKGGBBBDOGI_OFFSET UNITYSDK_OFFSET(0x180F4E80)
+#define MOLEMOLE_MATERIALMODIFIERTARGETTING_PEDAEOFCJGI_OFFSET UNITYSDK_OFFSET(0x180F4F80)
+#define MOLEMOLE_MATERIALMODIFIERTARGETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x180F4A70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MaterialModifierTargetting_TypeDefinitionIndex = 82398;
+	inline static constexpr unsigned int MaterialModifierTargetting_TypeDefinitionIndex = 80098;
 
 	class MaterialModifierTargetting : public ::System::Object
 	{
@@ -26,6 +26,7 @@ namespace MoleMole
 		::System::Action_1<::MoleMole::MaterialModifierTargetting*>* OnChanged; // 0x10
 		::UnityEngine::Renderer* renderer; // 0x18
 		::System::Boolean applyAllMaterials; // 0x20
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::System::Int32>* customMaterialIndexList; // 0x28
 
 		::System::Void _ctor()
@@ -38,29 +39,29 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALMODIFIERTARGETTING_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_6597F9D2D4A0542F()
+		::Sirenix::OdinInspector::ValueDropdownList_1<::System::Int32>* BIFJGAGBEGI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALMODIFIERTARGETTING_METHOD_1_6597F9D2D4A0542F_OFFSET))(this);
+			return ((::Sirenix::OdinInspector::ValueDropdownList_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALMODIFIERTARGETTING_BIFJGAGBEGI_OFFSET))(this);
 		}
 
-		::System::Void Method_1_6597F9D2D4A0542F_1()
+		::System::Void EKGGBBBDOGI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALMODIFIERTARGETTING_METHOD_1_6597F9D2D4A0542F_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALMODIFIERTARGETTING_EKGGBBBDOGI_OFFSET))(this);
 		}
 
-		::Sirenix::OdinInspector::ValueDropdownList_1<::System::Int32>* Method_1_00A1233CF10BA4BC()
+		::System::Void CIIPFOLJAIE()
 		{
-			return ((::Sirenix::OdinInspector::ValueDropdownList_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALMODIFIERTARGETTING_METHOD_1_00A1233CF10BA4BC_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALMODIFIERTARGETTING_CIIPFOLJAIE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_6597F9D2D4A0542F_2()
+		::System::Int32 PEDAEOFCJGI(::MoleMole::MonoRenderHandler* AOKHOHCJNFJ)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALMODIFIERTARGETTING_METHOD_1_6597F9D2D4A0542F_2_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID, ::MoleMole::MonoRenderHandler*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALMODIFIERTARGETTING_PEDAEOFCJGI_OFFSET))(this, AOKHOHCJNFJ);
 		}
 
-		::System::Int32 Method_1_0953D3F09BE36E6D(::MoleMole::MonoRenderHandler* a1)
+		::System::Void COANKBABIDM()
 		{
-			return ((::System::Int32(*)(::PVOID, ::MoleMole::MonoRenderHandler*))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALMODIFIERTARGETTING_METHOD_1_0953D3F09BE36E6D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MATERIALMODIFIERTARGETTING_COANKBABIDM_OFFSET))(this);
 		}
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPRENDEREVENTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4DDF30)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_NAPRENDEREVENTPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C986DD0)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int NapRenderEventProxy_TypeDefinitionIndex = 27908;
+	inline static constexpr unsigned int NapRenderEventProxy_TypeDefinitionIndex = 27091;
 
 	class NapRenderEventProxy : public ::UnityEngine::MonoBehaviour
 	{

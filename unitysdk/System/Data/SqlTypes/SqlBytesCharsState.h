@@ -3,7 +3,7 @@
 
 namespace System::Data::SqlTypes
 {
-	inline static constexpr unsigned int SqlBytesCharsState_TypeDefinitionIndex = 39374;
+	inline static constexpr unsigned int SqlBytesCharsState_TypeDefinitionIndex = 37374;
 
 	enum class SqlBytesCharsState : ::System::Int32
 	{

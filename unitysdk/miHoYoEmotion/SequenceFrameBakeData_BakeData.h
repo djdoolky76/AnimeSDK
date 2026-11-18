@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/miHoYoEmotion/SequenceBakeData_BakeData.h"
 
-namespace miHoYoEmotion { class SequenceFrameBakeData_FrameBinding; }
+namespace System { class Object; }
 
-#define MIHOYOEMOTION_SEQUENCEFRAMEBAKEDATA_BAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D04F950)
+#define MIHOYOEMOTION_SEQUENCEFRAMEBAKEDATA_BAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A3450)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int SequenceFrameBakeData_BakeData_TypeDefinitionIndex = 39997;
+	inline static constexpr unsigned int SequenceFrameBakeData_BakeData_TypeDefinitionIndex = 37987;
 
 	class SequenceFrameBakeData_BakeData : public ::miHoYoEmotion::SequenceBakeData_BakeData
 	{
 	public:
-		::Il2CppArray<::miHoYoEmotion::SequenceFrameBakeData_FrameBinding*>* bakedBindings; // 0x18
+		::Il2CppArray<::System::Object*>* bakedBindings; // 0x18
 
 		::System::Void _ctor()
 		{

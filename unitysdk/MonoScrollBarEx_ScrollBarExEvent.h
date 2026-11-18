@@ -1,14 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace UnityEngine::EventSystems { class PointerEventData; }
+#define MONOSCROLLBAREX_SCROLLBAREXEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18F81D40)
 
-#define MONOSCROLLBAREX_SCROLLBAREXEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x11A2F290)
+inline static constexpr unsigned int MonoScrollBarEx_ScrollBarExEvent_TypeDefinitionIndex = 91685;
 
-inline static constexpr unsigned int MonoScrollBarEx_ScrollBarExEvent_TypeDefinitionIndex = 64490;
-
-class MonoScrollBarEx_ScrollBarExEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::EventSystems::PointerEventData*>
+class MonoScrollBarEx_ScrollBarExEvent
 {
 public:
 	::System::Void _ctor()

@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Net/NetworkInformation/TcpState.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Net { class IPEndPoint; }
-
-#define SYSTEM_NET_NETWORKINFORMATION_TCPCONNECTIONINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E97D4A0)
+#define SYSTEM_NET_NETWORKINFORMATION_TCPCONNECTIONINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC55220)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int TcpConnectionInformation_TypeDefinitionIndex = 3744;
+	inline static constexpr unsigned int TcpConnectionInformation_TypeDefinitionIndex = 3743;
 
 	class TcpConnectionInformation : public ::System::Object
 	{

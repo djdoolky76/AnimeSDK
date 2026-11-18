@@ -4,17 +4,18 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_MONSTERINFOEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x168D4FC0)
+#define MOLEMOLE_UIMONSTERCARDINFOPOPWINDOWCONTROLLER_MONSTERINFOEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17C7AE50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMonsterCardInfoPopWindowController_MonsterInfoExt_TypeDefinitionIndex = 66171;
+	inline static constexpr unsigned int UIMonsterCardInfoPopWindowController_MonsterInfoExt_TypeDefinitionIndex = 86428;
 
 	class UIMonsterCardInfoPopWindowController_MonsterInfoExt : public ::System::Object
 	{
 	public:
 		::System::String* m_targetPositionDesc; // 0x10
 		::System::Boolean m_isLocked; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Int32 m_questID; // 0x1C
 
 		::System::Void _ctor()

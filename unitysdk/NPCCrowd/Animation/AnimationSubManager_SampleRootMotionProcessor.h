@@ -2,31 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationProcessPhase.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_Dispatchable.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_SampleRootMotionProcessor_LegacyJob.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_SampleRootMotionProcessor_ParallelJob.h"
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
 namespace NPCCrowd::Animation { class AnimationSubManager; }
 namespace NPCCrowd::Animation { class AnimationSubManager_AvatarArchetypeData; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_CREATEJOB_OFFSET UNITYSDK_OFFSET(0x1128E370)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0x1128DAB0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0x1128D8F0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0x1128D8E0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0x1128D8D0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0x1128D950)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1128E5C0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_CREATEJOB_OFFSET UNITYSDK_OFFSET(0x11FADFE0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_DISPATCH_OFFSET UNITYSDK_OFFSET(0x11FAD720)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_GET_DEBUGNAME_OFFSET UNITYSDK_OFFSET(0x11FAD510)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_GET_MAXPHASE_OFFSET UNITYSDK_OFFSET(0x11FAD500)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_GET_MINPHASE_OFFSET UNITYSDK_OFFSET(0x11FAD4F0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_ONINIT_OFFSET UNITYSDK_OFFSET(0x11FAD5C0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_RESETSTATICSTATE_OFFSET UNITYSDK_OFFSET(0x11FAD570)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x11FAE230)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_SampleRootMotionProcessor_TypeDefinitionIndex = 88337;
+	inline static constexpr unsigned int AnimationSubManager_SampleRootMotionProcessor_TypeDefinitionIndex = 81210;
 
 	class AnimationSubManager_SampleRootMotionProcessor : public ::NPCCrowd::Animation::AnimationSubManager_Dispatchable
 	{
 	public:
-		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_SampleRootMotionProcessor_LegacyJob>* _buffer; // 0x10
+		::Il2CppArray<::System::Object*>* _buffer; // 0x10
 		::NPCCrowd::Animation::AnimationSubManager_SampleRootMotionProcessor_ParallelJob _parallelJob; // 0x18
 
 		::System::Void _ctor()
@@ -49,6 +50,11 @@ namespace NPCCrowd::Animation
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_GET_DEBUGNAME_OFFSET))(this);
 		}
 
+		static ::System::Void ResetStaticState()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_RESETSTATICSTATE_OFFSET))();
+		}
+
 		::System::Void OnInit(::NPCCrowd::Animation::AnimationSubManager* manager)
 		{
 			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Animation::AnimationSubManager*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_ONINIT_OFFSET))(this, manager);
@@ -59,9 +65,9 @@ namespace NPCCrowd::Animation
 			return ((::Unity::Jobs::JobHandle(*)(::PVOID, ::NPCCrowd::Animation::AnimationSubManager*, ::Unity::Jobs::JobHandle))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_DISPATCH_OFFSET))(this, manager, dependsOn);
 		}
 
-		static ::System::Nullable_1<::NPCCrowd::Animation::AnimationSubManager_SampleRootMotionProcessor_LegacyJob> CreateJob(::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData* avatar)
+		static ::System::Nullable_1<::System::Object*> CreateJob(::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData* avatar)
 		{
-			return ((::System::Nullable_1<::NPCCrowd::Animation::AnimationSubManager_SampleRootMotionProcessor_LegacyJob>(*)(::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_CREATEJOB_OFFSET))(avatar);
+			return ((::System::Nullable_1<::System::Object*>(*)(::NPCCrowd::Animation::AnimationSubManager_AvatarArchetypeData*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_SAMPLEROOTMOTIONPROCESSOR_CREATEJOB_OFFSET))(avatar);
 		}
 	};
 }

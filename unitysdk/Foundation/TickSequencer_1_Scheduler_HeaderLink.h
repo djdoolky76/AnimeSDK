@@ -2,17 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
+namespace System { class Object; }
+
 namespace Foundation
 {
-	inline static constexpr unsigned int TickSequencer_1_Scheduler_HeaderLink_TypeDefinitionIndex = 8726;
+	inline static constexpr unsigned int TickSequencer_1_Scheduler_HeaderLink_TypeDefinitionIndex = 8806;
 
-	template <typename TTickingGroup>
-	struct TickSequencer_1_Scheduler_HeaderLink
+	template <typename T>
+	struct alignas(4) TickSequencer_1_Scheduler_HeaderLink
 	{
-		::System::Int32 _index; // 0x0
-		static ::Foundation::TickSequencer_1_Scheduler_HeaderLink<TTickingGroup>* StaticGet_Null()
+		static ::System::Object** StaticGet_Null()
 		{
-			return (::Foundation::TickSequencer_1_Scheduler_HeaderLink<TTickingGroup>*)Il2CppClass::FromTypeDefinitionIndex(TickSequencer_1_Scheduler_HeaderLink_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TickSequencer_1_Scheduler_HeaderLink_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
+		::System::Int32 _index; // 0x0
 	};
 }

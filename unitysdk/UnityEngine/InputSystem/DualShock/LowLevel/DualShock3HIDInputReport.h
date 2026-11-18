@@ -2,14 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/InputSystem/DualShock/LowLevel/DualShock3HIDInputReport__padding3_e__FixedBuffer.h"
+#include "unitysdk/UnityEngine/InputSystem/Utilities/FourCC.h"
 
-#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCK3HIDINPUTREPORT_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0xA37A10)
+#define UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCK3HIDINPUTREPORT_GET_FORMAT_OFFSET UNITYSDK_OFFSET(0x919000)
 
 namespace UnityEngine::InputSystem::DualShock::LowLevel
 {
-	inline static constexpr unsigned int DualShock3HIDInputReport_TypeDefinitionIndex = 32455;
+	inline static constexpr unsigned int DualShock3HIDInputReport_TypeDefinitionIndex = 31904;
 
-	struct alignas(2) DualShock3HIDInputReport
+	struct alignas(4) DualShock3HIDInputReport
 	{
 		::System::UInt16 padding1; // 0x10
 		::System::Byte buttons1; // 0x12
@@ -24,11 +25,9 @@ namespace UnityEngine::InputSystem::DualShock::LowLevel
 		::System::Byte leftTrigger; // 0x22
 		::System::Byte rightTrigger; // 0x23
 
-		/*
 		::UnityEngine::InputSystem::Utilities::FourCC get_format()
 		{
 			return ((::UnityEngine::InputSystem::Utilities::FourCC(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_DUALSHOCK_LOWLEVEL_DUALSHOCK3HIDINPUTREPORT_GET_FORMAT_OFFSET))(this);
 		}
-		*/
 	};
 }

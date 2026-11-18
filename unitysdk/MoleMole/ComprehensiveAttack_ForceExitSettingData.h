@@ -4,11 +4,11 @@
 #include "unitysdk/MoleMole/ComprehensiveAttack_ForceExitStatusType.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_COMPREHENSIVEATTACK_FORCEEXITSETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16C2B3E0)
+#define MOLEMOLE_COMPREHENSIVEATTACK_FORCEEXITSETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18B82DD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ComprehensiveAttack_ForceExitSettingData_TypeDefinitionIndex = 60326;
+	inline static constexpr unsigned int ComprehensiveAttack_ForceExitSettingData_TypeDefinitionIndex = 74995;
 
 	class ComprehensiveAttack_ForceExitSettingData : public ::System::Object
 	{

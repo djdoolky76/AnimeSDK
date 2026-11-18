@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Ability/AttractorFindTask.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORFINDTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x10298710)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORFINDTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x10298620)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORFINDTASK_LINK_OFFSET UNITYSDK_OFFSET(0x10298540)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORFINDTASK_TICK_OFFSET UNITYSDK_OFFSET(0x10298880)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORFINDTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x115B6630)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORFINDTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x115B6540)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORFINDTASK_LINK_OFFSET UNITYSDK_OFFSET(0x115B6460)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_ATTRACTORFINDTASK_TICK_OFFSET UNITYSDK_OFFSET(0x115B67A0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_AttractorFindTask_TypeDefinitionIndex = 78878;
+	inline static constexpr unsigned int VirtualFunctionExtensions_AttractorFindTask_TypeDefinitionIndex = 43750;
 
 	class VirtualFunctionExtensions_AttractorFindTask : public ::System::Object
 	{

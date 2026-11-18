@@ -8,11 +8,11 @@ namespace MoleMole::LevelPerform { class DirectKillAdditionSetting; }
 namespace PipelineCamera::CameraSequence { class CoreDataBindingResolver; }
 namespace PipelineCamera::CameraSequence { class CoreDataCollection; }
 
-#define MOLEMOLE_LEVELPERFORM_LEVELSETTLEMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x129ABF70)
+#define MOLEMOLE_LEVELPERFORM_LEVELSETTLEMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1246D250)
 
 namespace MoleMole::LevelPerform
 {
-	inline static constexpr unsigned int LevelSettlementConfig_TypeDefinitionIndex = 79313;
+	inline static constexpr unsigned int LevelSettlementConfig_TypeDefinitionIndex = 76510;
 
 	class LevelSettlementConfig : public ::System::Object
 	{
@@ -24,6 +24,7 @@ namespace MoleMole::LevelPerform
 		::MoleMole::Cameras::EntityCameraViewConfigByAnisotropicStretch* player; // 0x30
 		::MoleMole::Cameras::EntityCameraViewConfigByAttachPoints* newPlayer; // 0x38
 		::System::Boolean useNewPlayerConfig; // 0x40
+		::System::Byte _padding0[0x7];
 		::MoleMole::Cameras::EntityCameraViewConfigByAnisotropicStretch* target; // 0x48
 		::MoleMole::LevelPerform::DirectKillAdditionSetting* directKill; // 0x50
 		::System::Single moveForwardStartPosition; // 0x58

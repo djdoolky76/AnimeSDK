@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class String; }
-
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int IOdinStringInternCache_TypeDefinitionIndex = 7419;
+	inline static constexpr unsigned int IOdinStringInternCache_TypeDefinitionIndex = 7426;
 
 	class IOdinStringInternCache
 	{

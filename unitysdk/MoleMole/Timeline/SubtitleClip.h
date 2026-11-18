@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Timeline/ClipType.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 namespace MoleMole::Timeline { class SubtitleBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_SUBTITLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B219F10)
-#define MOLEMOLE_TIMELINE_SUBTITLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B219EF0)
-#define MOLEMOLE_TIMELINE_SUBTITLECLIP_GET_CLIPTYPE_OFFSET UNITYSDK_OFFSET(0x1B219F00)
-#define MOLEMOLE_TIMELINE_SUBTITLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B21A1A0)
+#define MOLEMOLE_TIMELINE_SUBTITLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1C0E12A0)
+#define MOLEMOLE_TIMELINE_SUBTITLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1C0E1280)
+#define MOLEMOLE_TIMELINE_SUBTITLECLIP_GET_CLIPTYPE_OFFSET UNITYSDK_OFFSET(0x1C0E1290)
+#define MOLEMOLE_TIMELINE_SUBTITLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0E1530)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int SubtitleClip_TypeDefinitionIndex = 61906;
+	inline static constexpr unsigned int SubtitleClip_TypeDefinitionIndex = 56279;
 
 	class SubtitleClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -38,9 +38,9 @@ namespace MoleMole::Timeline
 			return ((::UnityEngine::Timeline::ClipType(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SUBTITLECLIP_GET_CLIPTYPE_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* AMNIHACKELI)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SUBTITLECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_SUBTITLECLIP_CREATEPLAYABLE_OFFSET))(this, MHPNGBGGMMN, AMNIHACKELI);
 		}
 	};
 }

@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int SerializationNodeDataReaderWriterConfig_TypeDefinitionIndex = 7434;
+	inline static constexpr unsigned int SerializationNodeDataReaderWriterConfig_TypeDefinitionIndex = 7441;
 
 	class SerializationNodeDataReaderWriterConfig : public ::System::Object
 	{

@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_7.h"
 #include "unitysdk/MoleMole/Config/PropertyModifyFunction.h"
 
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_DECREASEHPNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x192475A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_DECREASEHPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19247860)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_DECREASEHPNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x11913210)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_DECREASEHPNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x119134D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_DecreaseHpNode_TypeDefinitionIndex = 67535;
+	inline static constexpr unsigned int LD_DecreaseHpNode_TypeDefinitionIndex = 44180;
 
-	class LD_DecreaseHpNode : public ::FlowCanvas::Nodes::CallableFunctionNode_7<::System::Boolean, ::MoleMole::Battle::Entity*, ::MoleMole::Config::PropertyModifyFunction, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean>
+	class LD_DecreaseHpNode
 	{
 	public:
 		::System::Void _ctor()

@@ -3,24 +3,23 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RootMotion::FinalIK { class Amplifier_Body_EffectorLink; }
 namespace RootMotion::FinalIK { class IKSolverFullBodyBiped; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_FINALIK_AMPLIFIER_BODY_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1EE3E860)
-#define ROOTMOTION_FINALIK_AMPLIFIER_BODY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EE3DF10)
-#define ROOTMOTION_FINALIK_AMPLIFIER_BODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE3E8A0)
+#define ROOTMOTION_FINALIK_AMPLIFIER_BODY_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1F1E1880)
+#define ROOTMOTION_FINALIK_AMPLIFIER_BODY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F1E0F30)
+#define ROOTMOTION_FINALIK_AMPLIFIER_BODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F1E18C0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Amplifier_Body_TypeDefinitionIndex = 38912;
+	inline static constexpr unsigned int Amplifier_Body_TypeDefinitionIndex = 36989;
 
 	class Amplifier_Body : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* transform; // 0x10
 		::UnityEngine::Transform* relativeTo; // 0x18
-		::Il2CppArray<::RootMotion::FinalIK::Amplifier_Body_EffectorLink*>* effectorLinks; // 0x20
+		::Il2CppArray<::System::Object*>* effectorLinks; // 0x20
 		::System::Single verticalWeight; // 0x28
 		::System::Single horizontalWeight; // 0x2C
 		::System::Single speed; // 0x30

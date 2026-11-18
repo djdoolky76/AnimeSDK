@@ -7,22 +7,23 @@ namespace System { class String; }
 namespace miHoYoEmotion { class SequenceFrameBakeData_FrameBindingIndex; }
 namespace miHoYoEmotion { class SequenceFrameBakeData_FrameKey; }
 
-#define MIHOYOEMOTION_SEQUENCEFRAMEBAKEDATA_FRAMEBINDING_APPLY_OFFSET UNITYSDK_OFFSET(0x1D049E40)
-#define MIHOYOEMOTION_SEQUENCEFRAMEBAKEDATA_FRAMEBINDING_GETBINDINGBYKEY_OFFSET UNITYSDK_OFFSET(0x1D049EC0)
-#define MIHOYOEMOTION_SEQUENCEFRAMEBAKEDATA_FRAMEBINDING_RESETFRAME_OFFSET UNITYSDK_OFFSET(0x1D049650)
-#define MIHOYOEMOTION_SEQUENCEFRAMEBAKEDATA_FRAMEBINDING_UPDATEFRAME_OFFSET UNITYSDK_OFFSET(0x1D049BD0)
-#define MIHOYOEMOTION_SEQUENCEFRAMEBAKEDATA_FRAMEBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D04F960)
+#define MIHOYOEMOTION_SEQUENCEFRAMEBAKEDATA_FRAMEBINDING_APPLY_OFFSET UNITYSDK_OFFSET(0x1D59D910)
+#define MIHOYOEMOTION_SEQUENCEFRAMEBAKEDATA_FRAMEBINDING_GETBINDINGBYKEY_OFFSET UNITYSDK_OFFSET(0x1D59D990)
+#define MIHOYOEMOTION_SEQUENCEFRAMEBAKEDATA_FRAMEBINDING_RESETFRAME_OFFSET UNITYSDK_OFFSET(0x1D59D120)
+#define MIHOYOEMOTION_SEQUENCEFRAMEBAKEDATA_FRAMEBINDING_UPDATEFRAME_OFFSET UNITYSDK_OFFSET(0x1D59D6A0)
+#define MIHOYOEMOTION_SEQUENCEFRAMEBAKEDATA_FRAMEBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A3460)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int SequenceFrameBakeData_FrameBinding_TypeDefinitionIndex = 40000;
+	inline static constexpr unsigned int SequenceFrameBakeData_FrameBinding_TypeDefinitionIndex = 37988;
 
 	class SequenceFrameBakeData_FrameBinding : public ::System::Object
 	{
 	public:
 		::miHoYoEmotion::FrameShapeElement_TYPE bindingType; // 0x10
-		::Il2CppArray<::miHoYoEmotion::SequenceFrameBakeData_FrameKey*>* bindingFrames; // 0x18
-		::Il2CppArray<::miHoYoEmotion::SequenceFrameBakeData_FrameBindingIndex*>* bindingIndexes; // 0x20
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::System::Object*>* bindingFrames; // 0x18
+		::Il2CppArray<::System::Object*>* bindingIndexes; // 0x20
 		::System::String* preBindingName; // 0x28
 		::System::Single _timeCnt; // 0x30
 		::System::Int32 _currFrameCnt; // 0x34

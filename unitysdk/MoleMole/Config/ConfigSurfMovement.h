@@ -7,7 +7,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSurfMovement_TypeDefinitionIndex = 74365;
+	inline static constexpr unsigned int ConfigSurfMovement_TypeDefinitionIndex = 65611;
 
 	struct alignas(8) ConfigSurfMovement
 	{
@@ -17,13 +17,16 @@ namespace MoleMole::Config
 		::System::Single AccelerationDuration; // 0x1C
 		::UnityEngine::AnimationCurve* SpeedCurve; // 0x20
 		::System::Single BrakeDuration; // 0x28
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* BrakeSpeedCurve; // 0x30
 		::System::Single SteerPenaltyMaxTime; // 0x38
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* SteerSpeedRatio; // 0x40
 		::UnityEngine::AnimationCurve* ReversePenaltyCurve; // 0x48
 		::System::Single NitroMax; // 0x50
 		::System::Single NitroRecover; // 0x54
 		::System::Single NitroRecoverInDrift; // 0x58
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* NitroRecoverByDriftAngle; // 0x60
 		::System::Single NitroStartThreshold; // 0x68
 		::System::Single NitroCost; // 0x6C
@@ -31,6 +34,7 @@ namespace MoleMole::Config
 		::System::Single BoostAccelDuration; // 0x74
 		::UnityEngine::AnimationCurve* BoostSpeedCurve; // 0x78
 		::System::Single DecelerationDuration; // 0x80
+		::System::Byte _padding3[0x4];
 		::UnityEngine::AnimationCurve* DecelerationCurve; // 0x88
 		::System::Single ShortBoostTimeWindow; // 0x90
 		::System::Single ShortBoostDuration; // 0x94
@@ -50,6 +54,7 @@ namespace MoleMole::Config
 		::System::Single OverflowDecelerateDuration; // 0xD4
 		::UnityEngine::AnimationCurve* OverflowDecelerateDurationCurve; // 0xD8
 		::System::Single OverflowDecelRatioNoInput; // 0xE0
+		::System::Byte _padding4[0x4];
 		::UnityEngine::AnimationCurve* OverflowDecelerateCurve; // 0xE8
 		::System::Single DriftExitSideSpeed; // 0xF0
 		::System::Single DriftAccelDurationRatio; // 0xF4
@@ -58,6 +63,7 @@ namespace MoleMole::Config
 		::System::Single DriftAccelMaxAddSpeed; // 0x104
 		::UnityEngine::AnimationCurve* DriftAccelAddSpeedCurve; // 0x108
 		::System::Single DriftMaxForce; // 0x110
+		::System::Byte _padding5[0x4];
 		::UnityEngine::AnimationCurve* DriftAccelerateCurve; // 0x118
 		::System::Single DriftMaxTotalSpeedRatio; // 0x120
 		::System::Single DriftMaxAngle; // 0x124
@@ -67,6 +73,7 @@ namespace MoleMole::Config
 		::UnityEngine::AnimationCurve* DriftSteerAgainstCurve; // 0x138
 		::UnityEngine::AnimationCurve* DriftSteerBackCurve; // 0x140
 		::System::Single ReDriftCooldown; // 0x148
+		::System::Byte _padding6[0x4];
 		::Il2CppArray<::MoleMole::Config::DriftOverrideConfig*>* DriftOverrideConfigs; // 0x150
 	};
 }

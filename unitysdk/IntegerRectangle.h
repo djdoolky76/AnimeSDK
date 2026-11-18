@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define INTEGERRECTANGLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x90D530)
-#define INTEGERRECTANGLE_GET_ISINITIALIZED_OFFSET UNITYSDK_OFFSET(0x463380)
-#define INTEGERRECTANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x90D500)
+#define INTEGERRECTANGLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x850330)
+#define INTEGERRECTANGLE_GET_ISINITIALIZED_OFFSET UNITYSDK_OFFSET(0x4983D0)
+#define INTEGERRECTANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x850300)
 
-inline static constexpr unsigned int IntegerRectangle_TypeDefinitionIndex = 27951;
+inline static constexpr unsigned int IntegerRectangle_TypeDefinitionIndex = 26227;
 
 struct alignas(4) IntegerRectangle
 {
@@ -29,8 +29,10 @@ struct alignas(4) IntegerRectangle
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INTEGERRECTANGLE_GET_ISINITIALIZED_OFFSET))(this);
 	}
 
+	/*
 	::System::Boolean Equals(::IntegerRectangle other)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::IntegerRectangle))((::PBYTE)hIl2Cpp + INTEGERRECTANGLE_EQUALS_OFFSET))(this, other);
 	}
+	*/
 };

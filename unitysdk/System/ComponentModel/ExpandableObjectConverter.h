@@ -7,13 +7,13 @@ namespace System { class Object; }
 namespace System::ComponentModel { class ITypeDescriptorContext; }
 namespace System::ComponentModel { class PropertyDescriptorCollection; }
 
-#define SYSTEM_COMPONENTMODEL_EXPANDABLEOBJECTCONVERTER_GETPROPERTIESSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1C864F20)
-#define SYSTEM_COMPONENTMODEL_EXPANDABLEOBJECTCONVERTER_GETPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C864D60)
-#define SYSTEM_COMPONENTMODEL_EXPANDABLEOBJECTCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C864D50)
+#define SYSTEM_COMPONENTMODEL_EXPANDABLEOBJECTCONVERTER_GETPROPERTIESSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1CFA5700)
+#define SYSTEM_COMPONENTMODEL_EXPANDABLEOBJECTCONVERTER_GETPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1CFA5540)
+#define SYSTEM_COMPONENTMODEL_EXPANDABLEOBJECTCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA5530)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ExpandableObjectConverter_TypeDefinitionIndex = 2881;
+	inline static constexpr unsigned int ExpandableObjectConverter_TypeDefinitionIndex = 2880;
 
 	class ExpandableObjectConverter : public ::System::ComponentModel::TypeConverter
 	{

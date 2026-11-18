@@ -1,0 +1,72 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FDIGBIBAMIJ.h"
+#include "unitysdk/NNEOINMGHPJ.h"
+#include "unitysdk/System/Object.h"
+
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define NNEOINMGHPJ_BOFHPCMAGAL_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x114B0E10)
+#define NNEOINMGHPJ_BOFHPCMAGAL_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MOLEMOLE_BATTLEMAPCELLUNIQUEINDEX__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x114B0F70)
+#define NNEOINMGHPJ_BOFHPCMAGAL_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_MOLEMOLE_BATTLEMAPCELLUNIQUEINDEX__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x114B0EB0)
+#define NNEOINMGHPJ_BOFHPCMAGAL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x114B0FF0)
+#define NNEOINMGHPJ_BOFHPCMAGAL_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x114B0F20)
+#define NNEOINMGHPJ_BOFHPCMAGAL_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x114B0ED0)
+#define NNEOINMGHPJ_BOFHPCMAGAL_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x114B0E00)
+#define NNEOINMGHPJ_BOFHPCMAGAL__CTOR_OFFSET UNITYSDK_OFFSET(0x114B0DE0)
+
+inline static constexpr unsigned int NNEOINMGHPJ_BOFHPCMAGAL_TypeDefinitionIndex = 76892;
+
+class NNEOINMGHPJ_BOFHPCMAGAL : public ::System::Object
+{
+public:
+	::System::Int32 MDPILDGFNHN; // 0x10
+	::System::Int32 FPDDAGHMOJB; // 0x14
+	::System::UInt16 MILLMBJCANP; // 0x18
+	::FDIGBIBAMIJ IDBEJJEKGDI; // 0x1A
+	::NNEOINMGHPJ KLHPEBKNIFB; // 0x20
+	::System::UInt16 AKAMIFDFHBG; // 0x2C
+	::NNEOINMGHPJ HCMGBCILHEJ; // 0x2E
+	::System::UInt16 CIOAIGPOFPC; // 0x3A
+
+	::System::Void _ctor(::System::Int32 MDPILDGFNHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NNEOINMGHPJ_BOFHPCMAGAL__CTOR_OFFSET))(this, MDPILDGFNHN);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNEOINMGHPJ_BOFHPCMAGAL_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NNEOINMGHPJ_BOFHPCMAGAL_MOVENEXT_OFFSET))(this);
+	}
+
+	::FDIGBIBAMIJ System_Collections_Generic_IEnumerator_MoleMole_BattleMapCellUniqueIndex__get_Current()
+	{
+		return ((::FDIGBIBAMIJ(*)(::PVOID))((::PBYTE)hIl2Cpp + NNEOINMGHPJ_BOFHPCMAGAL_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_MOLEMOLE_BATTLEMAPCELLUNIQUEINDEX__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNEOINMGHPJ_BOFHPCMAGAL_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNEOINMGHPJ_BOFHPCMAGAL_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IEnumerator_1<::FDIGBIBAMIJ>* System_Collections_Generic_IEnumerable_MoleMole_BattleMapCellUniqueIndex__GetEnumerator()
+	{
+		return ((::System::Collections::Generic::IEnumerator_1<::FDIGBIBAMIJ>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNEOINMGHPJ_BOFHPCMAGAL_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_MOLEMOLE_BATTLEMAPCELLUNIQUEINDEX__GETENUMERATOR_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+	{
+		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNEOINMGHPJ_BOFHPCMAGAL_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+	}
+};

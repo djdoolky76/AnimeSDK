@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
@@ -10,25 +10,25 @@ namespace FlowCanvas { template <typename T> class ValueOutput_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSPAWNPOINTNAMELIST_BEGIN_OFFSET UNITYSDK_OFFSET(0x118B6310)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSPAWNPOINTNAMELIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x118B5F50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSPAWNPOINTNAMELIST_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x118B6180)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSPAWNPOINTNAMELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x118B64A0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSPAWNPOINTNAMELIST__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0x118B64E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSPAWNPOINTNAMELIST__REGISTERPORTS_B__7_1_OFFSET UNITYSDK_OFFSET(0x118B64F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSPAWNPOINTNAMELIST_BEGIN_OFFSET UNITYSDK_OFFSET(0x162354C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSPAWNPOINTNAMELIST_INVOKE_OFFSET UNITYSDK_OFFSET(0x16235100)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSPAWNPOINTNAMELIST_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x16235330)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSPAWNPOINTNAMELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x16235650)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSPAWNPOINTNAMELIST__REGISTERPORTS_B__7_0_OFFSET UNITYSDK_OFFSET(0x16235690)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETSPAWNPOINTNAMELIST__REGISTERPORTS_B__7_1_OFFSET UNITYSDK_OFFSET(0x162356A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetSpawnPointNameList_TypeDefinitionIndex = 76403;
+	inline static constexpr unsigned int LDGetSpawnPointNameList_TypeDefinitionIndex = 76245;
 
 	class LDGetSpawnPointNameList : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* anchorGroupNameInput; // 0xA8
+		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::System::String*>*>* _valueOutput; // 0xA8
 		::FlowCanvas::FlowOutput* _flowOutput; // 0xB0
 		::FlowCanvas::FlowInput* _flowInput; // 0xB8
 		::FlowCanvas::ValueOutput_1<::System::Boolean>* _vaildOutput; // 0xC0
-		::FlowCanvas::ValueOutput_1<::System::Collections::Generic::List_1<::System::String*>*>* _valueOutput; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::String*>* anchorGroupNameInput; // 0xC8
 		::System::Collections::Generic::List_1<::System::String*>* curValue; // 0xD0
 
 		::System::Void _ctor()

@@ -3,15 +3,15 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/EventType.h"
 
-#define UNITYENGINE_EVENTINTERESTS_GET_WANTSMOUSEENTERLEAVEWINDOW_OFFSET UNITYSDK_OFFSET(0x458BA0)
-#define UNITYENGINE_EVENTINTERESTS_GET_WANTSMOUSEMOVE_OFFSET UNITYSDK_OFFSET(0x324690)
-#define UNITYENGINE_EVENTINTERESTS_WANTSEVENT_OFFSET UNITYSDK_OFFSET(0xA1B030)
+#define UNITYENGINE_EVENTINTERESTS_GET_WANTSMOUSEENTERLEAVEWINDOW_OFFSET UNITYSDK_OFFSET(0x43DB70)
+#define UNITYENGINE_EVENTINTERESTS_GET_WANTSMOUSEMOVE_OFFSET UNITYSDK_OFFSET(0x3583D0)
+#define UNITYENGINE_EVENTINTERESTS_WANTSEVENT_OFFSET UNITYSDK_OFFSET(0x90F850)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int EventInterests_TypeDefinitionIndex = 6402;
+	inline static constexpr unsigned int EventInterests_TypeDefinitionIndex = 6408;
 
-	struct alignas(1) EventInterests
+	struct alignas(4) EventInterests
 	{
 		::System::Boolean _wantsMouseMove_k__BackingField; // 0x10
 		::System::Boolean _wantsMouseEnterLeaveWindow_k__BackingField; // 0x11

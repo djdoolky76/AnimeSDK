@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/EventSystems/BaseRaycaster.h"
-#include "unitysdk/UnityEngine/EventSystems/RaycastResult.h"
-#include "unitysdk/UnityEngine/InputSystem/UI/TrackedDeviceRaycaster_RaycastHitData.h"
 #include "unitysdk/UnityEngine/InputSystem/Utilities/InlinedArray_1.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
+#include "unitysdk/UnityEngine/EventSystems/RaycastResult.h"
 #include "unitysdk/UnityEngine/Ray.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Canvas; }
@@ -15,48 +15,50 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::InputSystem::UI { class ExtendedPointerEventData; }
 
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_BLOCKINGMASK_OFFSET UNITYSDK_OFFSET(0x1CE5CB50)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_CANVAS_OFFSET UNITYSDK_OFFSET(0x1CE5C9C0)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_CHECKFOR2DOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1CE5CB90)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_CHECKFOR3DOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1CE5CB70)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_EVENTCAMERA_OFFSET UNITYSDK_OFFSET(0x1CE5C720)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_IGNOREREVERSEDGRAPHICS_OFFSET UNITYSDK_OFFSET(0x1CE5CBB0)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x1CE5CBD0)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CE5CD10)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CE5CBF0)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_PERFORMRAYCAST_OFFSET UNITYSDK_OFFSET(0x1CE5CEB0)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x1CE5CE30)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_RAYINTERSECTSRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1CE5E250)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SET_BLOCKINGMASK_OFFSET UNITYSDK_OFFSET(0x1CE5CB60)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SET_CHECKFOR2DOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1CE5CBA0)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SET_CHECKFOR3DOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1CE5CB80)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SET_IGNOREREVERSEDGRAPHICS_OFFSET UNITYSDK_OFFSET(0x1CE5CBC0)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SET_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x1CE5CBE0)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SORTEDRAYCASTGRAPHICS_OFFSET UNITYSDK_OFFSET(0x1CE5DD20)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE5E780)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5E6D0)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_BLOCKINGMASK_OFFSET UNITYSDK_OFFSET(0x1D3CABD0)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_CANVAS_OFFSET UNITYSDK_OFFSET(0x1D3CAA40)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_CHECKFOR2DOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1D3CAC10)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_CHECKFOR3DOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1D3CABF0)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_EVENTCAMERA_OFFSET UNITYSDK_OFFSET(0x1D3CA7A0)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_IGNOREREVERSEDGRAPHICS_OFFSET UNITYSDK_OFFSET(0x1D3CAC30)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_GET_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x1D3CAC50)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D3CAD90)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D3CAC70)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_PERFORMRAYCAST_OFFSET UNITYSDK_OFFSET(0x1D3CAF30)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x1D3CAEB0)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_RAYINTERSECTSRECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1D3CC2D0)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SET_BLOCKINGMASK_OFFSET UNITYSDK_OFFSET(0x1D3CABE0)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SET_CHECKFOR2DOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1D3CAC20)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SET_CHECKFOR3DOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1D3CAC00)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SET_IGNOREREVERSEDGRAPHICS_OFFSET UNITYSDK_OFFSET(0x1D3CAC40)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SET_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x1D3CAC60)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SORTEDRAYCASTGRAPHICS_OFFSET UNITYSDK_OFFSET(0x1D3CBDA0)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3CC800)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CC750)
 
 namespace UnityEngine::InputSystem::UI
 {
-	inline static constexpr unsigned int TrackedDeviceRaycaster_TypeDefinitionIndex = 32393;
+	inline static constexpr unsigned int TrackedDeviceRaycaster_TypeDefinitionIndex = 31842;
 
 	class TrackedDeviceRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster
 	{
 	public:
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_s_SortedGraphics()
+		{
+			return (::System::Collections::Generic::List_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TrackedDeviceRaycaster_TypeDefinitionIndex)->GetStaticField(0x287B0);
+		}
 		static ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*>* StaticGet_s_Instances()
 		{
-			return (::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*>*)Il2CppClass::FromTypeDefinitionIndex(TrackedDeviceRaycaster_TypeDefinitionIndex)->GetStaticField(0x276D0);
+			return (::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*>*)Il2CppClass::FromTypeDefinitionIndex(TrackedDeviceRaycaster_TypeDefinitionIndex)->GetStaticField(0x287B8);
 		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>** StaticGet_s_SortedGraphics()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>**)Il2CppClass::FromTypeDefinitionIndex(TrackedDeviceRaycaster_TypeDefinitionIndex)->GetStaticField(0x276E8);
-		}
-		::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>* m_RaycastResultsCache; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* m_RaycastResultsCache; // 0x20
 		::System::Boolean m_IgnoreReversedGraphics; // 0x28
 		::System::Boolean m_CheckFor2DOcclusion; // 0x29
 		::System::Boolean m_CheckFor3DOcclusion; // 0x2A
+		::System::Byte _padding0[0x1];
 		::System::Single m_MaxDistance; // 0x2C
 		::UnityEngine::LayerMask m_BlockingMask; // 0x30
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Canvas* m_Canvas; // 0x38
 
 		::System::Void _ctor()
@@ -144,9 +146,9 @@ namespace UnityEngine::InputSystem::UI
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::UI::ExtendedPointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_PERFORMRAYCAST_OFFSET))(this, eventData, resultAppendList);
 		}
 
-		::System::Void SortedRaycastGraphics(::UnityEngine::Canvas* canvas, ::UnityEngine::Ray ray, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>* results)
+		::System::Void SortedRaycastGraphics(::UnityEngine::Canvas* canvas, ::UnityEngine::Ray ray, ::System::Collections::Generic::List_1<::System::Object*>* results)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Canvas*, ::UnityEngine::Ray, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SORTEDRAYCASTGRAPHICS_OFFSET))(this, canvas, ray, results);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Canvas*, ::UnityEngine::Ray, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER_SORTEDRAYCASTGRAPHICS_OFFSET))(this, canvas, ray, results);
 		}
 
 		static ::System::Boolean RayIntersectsRectTransform(::UnityEngine::RectTransform* transform, ::UnityEngine::Ray ray, ::UnityEngine::Vector3& worldPosition, ::System::Single& distance)

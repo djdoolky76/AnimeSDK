@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_NapLODUpdateMeshes_TypeDefinitionIndex = 5635;
+	inline static constexpr unsigned int PostLateUpdate_NapLODUpdateMeshes_TypeDefinitionIndex = 5639;
 
-	struct alignas(1) PostLateUpdate_NapLODUpdateMeshes
+	struct alignas(4) PostLateUpdate_NapLODUpdateMeshes
 	{
 	};
 }

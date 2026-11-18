@@ -5,11 +5,11 @@
 namespace MoleMole { class UIMainStoryPageController; }
 namespace MoleMole { class UIMainStoryPageController_PersonalLineRowData; }
 
-#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189C5730)
+#define MOLEMOLE_UIMAINSTORYPAGECONTROLLER___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19046340)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass85_0_TypeDefinitionIndex = 84558;
+	inline static constexpr unsigned int UIMainStoryPageController___c__DisplayClass85_0_TypeDefinitionIndex = 60159;
 
 	class UIMainStoryPageController___c__DisplayClass85_0 : public ::System::Object
 	{

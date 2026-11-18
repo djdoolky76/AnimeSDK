@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HOCDHMEPPEG.h"
+#include "unitysdk/System/Object.h"
+
+#define ALFNJGAOKPC_CKPIFGICLLP_AAHMACBDCPN_OFFSET UNITYSDK_OFFSET(0x12D05690)
+#define ALFNJGAOKPC_CKPIFGICLLP_HOFIFAEOLBM_OFFSET UNITYSDK_OFFSET(0x12D055F0)
+#define ALFNJGAOKPC_CKPIFGICLLP_LIDNPLMPHAL_OFFSET UNITYSDK_OFFSET(0x12D05550)
+#define ALFNJGAOKPC_CKPIFGICLLP__CTOR_OFFSET UNITYSDK_OFFSET(0x12D05540)
+
+inline static constexpr unsigned int ALFNJGAOKPC_CKPIFGICLLP_TypeDefinitionIndex = 41908;
+
+class ALFNJGAOKPC_CKPIFGICLLP : public ::System::Object
+{
+public:
+	::HOCDHMEPPEG LEGHIDIHIHM; // 0x10
+	::HOCDHMEPPEG LMGFIOAMHHB; // 0x40
+	::HOCDHMEPPEG IHLBALNBGKM; // 0x70
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ALFNJGAOKPC_CKPIFGICLLP__CTOR_OFFSET))(this);
+	}
+
+	::System::Void LIDNPLMPHAL(::System::UInt32 GFOPLDDFDIA, ::System::UInt32 ICGFKMAOFOK)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + ALFNJGAOKPC_CKPIFGICLLP_LIDNPLMPHAL_OFFSET))(this, GFOPLDDFDIA, ICGFKMAOFOK);
+	}
+
+	::System::Void HOFIFAEOLBM(::System::UInt32 GFOPLDDFDIA, ::System::UInt32 ICGFKMAOFOK)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + ALFNJGAOKPC_CKPIFGICLLP_HOFIFAEOLBM_OFFSET))(this, GFOPLDDFDIA, ICGFKMAOFOK);
+	}
+
+	::System::Void AAHMACBDCPN(::System::UInt32 GFOPLDDFDIA)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ALFNJGAOKPC_CKPIFGICLLP_AAHMACBDCPN_OFFSET))(this, GFOPLDDFDIA);
+	}
+};

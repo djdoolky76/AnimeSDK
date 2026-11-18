@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Security/Authentication/ExtendedProtection/ChannelBindingKind.h"
 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Security::Authentication::ExtendedProtection { class ChannelBinding; }
 namespace System::Security::Authentication::ExtendedProtection { class TokenBinding; }
 
-#define SYSTEM_NET_TRANSPORTCONTEXT_GETTLSTOKENBINDINGS_OFFSET UNITYSDK_OFFSET(0x1C8882E0)
-#define SYSTEM_NET_TRANSPORTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C888330)
+#define SYSTEM_NET_TRANSPORTCONTEXT_GETTLSTOKENBINDINGS_OFFSET UNITYSDK_OFFSET(0x1CFC8A70)
+#define SYSTEM_NET_TRANSPORTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC8AC0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TransportContext_TypeDefinitionIndex = 3333;
+	inline static constexpr unsigned int TransportContext_TypeDefinitionIndex = 3332;
 
 	class TransportContext : public ::System::Object
 	{

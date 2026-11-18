@@ -6,7 +6,7 @@
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraFollowTargetParam_TypeDefinitionIndex = 38178;
+	inline static constexpr unsigned int CameraFollowTargetParam_TypeDefinitionIndex = 36180;
 
 	struct alignas(4) CameraFollowTargetParam
 	{

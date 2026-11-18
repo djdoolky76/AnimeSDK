@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/UriParser.h"
 
-#define SYSTEM_NETTCPSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7177A0)
+#define SYSTEM_NETTCPSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF7370)
 
 namespace System
 {
-	inline static constexpr unsigned int NetTcpStyleUriParser_TypeDefinitionIndex = 2686;
+	inline static constexpr unsigned int NetTcpStyleUriParser_TypeDefinitionIndex = 2685;
 
 	class NetTcpStyleUriParser : public ::System::UriParser
 	{

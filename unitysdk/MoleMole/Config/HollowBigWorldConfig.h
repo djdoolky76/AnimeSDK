@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_HOLLOWBIGWORLDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1350DD30)
+#define MOLEMOLE_CONFIG_HOLLOWBIGWORLDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B933590)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowBigWorldConfig_TypeDefinitionIndex = 81684;
+	inline static constexpr unsigned int HollowBigWorldConfig_TypeDefinitionIndex = 58531;
 
 	class HollowBigWorldConfig : public ::System::Object
 	{

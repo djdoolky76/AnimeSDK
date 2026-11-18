@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PipelineCamera/CriticalSpringDamper.h"
 #include "unitysdk/PipelineCamera/Demo/Movement/DemoMovementDirection.h"
+#include "unitysdk/PipelineCamera/CriticalSpringDamper.h"
 #include "unitysdk/PipelineCamera/PhysicalCriticalSpringDamper.h"
 #include "unitysdk/PipelineCamera/VelocityBasedPositionDamper_3.h"
-#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
 
 namespace PipelineCamera { template <typename T> class ICameraSubModule_1; }
 namespace PipelineCamera::SubModule { template <typename T> class PivotLocationDamper_1; }
@@ -13,13 +13,13 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Transform; }
 
-#define PIPELINECAMERA_DEMO_FEATURE_DEMOPIVOTDAMPERCOMPONENT_PIPELINECAMERA_ICAMERASUBMODULEBUILDER_PIPELINECAMERA_WORLDBASICCAMERADATA__CONSTRUCT_OFFSET UNITYSDK_OFFSET(0x1F236670)
-#define PIPELINECAMERA_DEMO_FEATURE_DEMOPIVOTDAMPERCOMPONENT_PIPELINECAMERA_ICAMERASUBMODULEBUILDER_PIPELINECAMERA_WORLDBASICCAMERADATA__ONCONSTRUCT_OFFSET UNITYSDK_OFFSET(0x1F236730)
-#define PIPELINECAMERA_DEMO_FEATURE_DEMOPIVOTDAMPERCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F236830)
+#define PIPELINECAMERA_DEMO_FEATURE_DEMOPIVOTDAMPERCOMPONENT_PIPELINECAMERA_ICAMERASUBMODULEBUILDER_PIPELINECAMERA_WORLDBASICCAMERADATA__CONSTRUCT_OFFSET UNITYSDK_OFFSET(0x1F646970)
+#define PIPELINECAMERA_DEMO_FEATURE_DEMOPIVOTDAMPERCOMPONENT_PIPELINECAMERA_ICAMERASUBMODULEBUILDER_PIPELINECAMERA_WORLDBASICCAMERADATA__ONCONSTRUCT_OFFSET UNITYSDK_OFFSET(0x1F646A30)
+#define PIPELINECAMERA_DEMO_FEATURE_DEMOPIVOTDAMPERCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F646B30)
 
 namespace PipelineCamera::Demo::Feature
 {
-	inline static constexpr unsigned int DemoPivotDamperComponent_TypeDefinitionIndex = 38415;
+	inline static constexpr unsigned int DemoPivotDamperComponent_TypeDefinitionIndex = 36417;
 
 	class DemoPivotDamperComponent : public ::UnityEngine::MonoBehaviour
 	{

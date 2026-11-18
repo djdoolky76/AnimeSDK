@@ -8,12 +8,13 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int OneBoneLayer_TypeDefinitionIndex = 52983;
+inline static constexpr unsigned int OneBoneLayer_TypeDefinitionIndex = 38452;
 
 struct alignas(8) OneBoneLayer
 {
 	::System::Boolean DrivenBoneWithoutAnimation; // 0x10
 	::System::Boolean IsNotAnimageIk; // 0x11
+	::System::Byte _padding0[0x6];
 	::System::String* MasterBoneRootName; // 0x18
 	::System::String* MasterBoneName; // 0x20
 	::System::String* MasterForwardBoneName; // 0x28

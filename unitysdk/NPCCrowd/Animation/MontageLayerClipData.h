@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define NPCCROWD_ANIMATION_MONTAGELAYERCLIPDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x7C0AA0)
-#define NPCCROWD_ANIMATION_MONTAGELAYERCLIPDATA___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x7C0AB0)
+#define NPCCROWD_ANIMATION_MONTAGELAYERCLIPDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x70F6F0)
+#define NPCCROWD_ANIMATION_MONTAGELAYERCLIPDATA___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x70F700)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageLayerClipData_TypeDefinitionIndex = 41739;
+	inline static constexpr unsigned int MontageLayerClipData_TypeDefinitionIndex = 65061;
 
 	struct alignas(4) MontageLayerClipData
 	{

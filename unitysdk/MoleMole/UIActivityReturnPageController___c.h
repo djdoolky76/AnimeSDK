@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_36;
-class Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C_1;
-class Class_1_759123AB68473B83;
+class BEDKNLNHIAI;
+class IANDOOLAALI_DLAAJNDJPLO;
+class OAEFGCLEHHO;
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x192E3C90)
-#define MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__CLICKBACKFLOWSURVEY_B__4_0_OFFSET UNITYSDK_OFFSET(0x192E3CE0)
-#define MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x192E3CD0)
-#define MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__INITRETURNPAGEITEMLIST_B__16_0_OFFSET UNITYSDK_OFFSET(0x192E3CF0)
+#define MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B99A60)
+#define MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B99AA0)
+#define MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__INITRETURNPAGEITEMLIST_B__17_0_OFFSET UNITYSDK_OFFSET(0x19B99AC0)
+#define MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__ONGETSURVEYLINK_B__5_0_OFFSET UNITYSDK_OFFSET(0x19B99AB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityReturnPageController___c_TypeDefinitionIndex = 73192;
+	inline static constexpr unsigned int UIActivityReturnPageController___c_TypeDefinitionIndex = 59713;
 
 	class UIActivityReturnPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_759123AB68473B83*>** StaticGet___9__16_0()
+		static ::IANDOOLAALI_DLAAJNDJPLO** StaticGet___9__5_0()
 		{
-			return (::System::Comparison_1<::Class_1_759123AB68473B83*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AA80);
+			return (::IANDOOLAALI_DLAAJNDJPLO**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnPageController___c_TypeDefinitionIndex)->GetStaticField(0x521A0);
 		}
-		static ::Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C_1** StaticGet___9__4_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Class_1_29356A79D0914A09_Class_3_EC22137A5AE21E1C_1**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AA88);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnPageController___c_TypeDefinitionIndex)->GetStaticField(0x521A8);
 		}
-		static ::MoleMole::UIActivityReturnPageController___c** StaticGet___9()
+		static ::System::Comparison_1<::BEDKNLNHIAI*>** StaticGet___9__17_0()
 		{
-			return (::MoleMole::UIActivityReturnPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AA90);
+			return (::System::Comparison_1<::BEDKNLNHIAI*>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityReturnPageController___c_TypeDefinitionIndex)->GetStaticField(0x521B0);
 		}
 
 		static ::System::Void _cctor()
@@ -42,14 +42,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ClickBackFlowSurvey_b__4_0(::Class_0_16E4307DCC419505_36* rcvMessage)
+		::System::Void _OnGetSurveyLink_b__5_0(::OAEFGCLEHHO* rcvMessage)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_36*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__CLICKBACKFLOWSURVEY_B__4_0_OFFSET))(this, rcvMessage);
+			return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__ONGETSURVEYLINK_B__5_0_OFFSET))(this, rcvMessage);
 		}
 
-		::System::Int32 _InitReturnPageItemList_b__16_0(::Class_1_759123AB68473B83* a, ::Class_1_759123AB68473B83* b)
+		::System::Int32 _InitReturnPageItemList_b__17_0(::BEDKNLNHIAI* a, ::BEDKNLNHIAI* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_759123AB68473B83*, ::Class_1_759123AB68473B83*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__INITRETURNPAGEITEMLIST_B__16_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::BEDKNLNHIAI*, ::BEDKNLNHIAI*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYRETURNPAGECONTROLLER___C__INITRETURNPAGEITEMLIST_B__17_0_OFFSET))(this, a, b);
 		}
 	};
 }

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_13E3F12704A36C19;
+class ALODAJDBHPE;
 
-#define MOLEMOLE_UIACTIVITYCOMPTASKHIACONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x180C8E20)
+#define MOLEMOLE_UIACTIVITYCOMPTASKHIACONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x198FFB40)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCompTaskHIAContext_TypeDefinitionIndex = 68160;
+	inline static constexpr unsigned int UIActivityCompTaskHIAContext_TypeDefinitionIndex = 76839;
 
 	class UIActivityCompTaskHIAContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_13E3F12704A36C19* hiaTaskhandler; // 0x28
+		::ALODAJDBHPE* hiaTaskhandler; // 0x28
 
 		::System::Void _ctor()
 		{

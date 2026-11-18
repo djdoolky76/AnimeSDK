@@ -6,24 +6,27 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_HOTPOTFORCEFIELDCONFIG_GET_HASADDITIONALFORCEFIELD_OFFSET UNITYSDK_OFFSET(0x1B921FE0)
-#define MOLEMOLE_CONFIG_HOTPOTFORCEFIELDCONFIG_GET_HASNOISEFORCEFIELD_OFFSET UNITYSDK_OFFSET(0x1B922050)
-#define MOLEMOLE_CONFIG_HOTPOTFORCEFIELDCONFIG_GET_ISRING_OFFSET UNITYSDK_OFFSET(0x1B921FD0)
-#define MOLEMOLE_CONFIG_HOTPOTFORCEFIELDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9220C0)
+#define MOLEMOLE_CONFIG_HOTPOTFORCEFIELDCONFIG_GET_HASADDITIONALFORCEFIELD_OFFSET UNITYSDK_OFFSET(0x1925A090)
+#define MOLEMOLE_CONFIG_HOTPOTFORCEFIELDCONFIG_GET_HASNOISEFORCEFIELD_OFFSET UNITYSDK_OFFSET(0x1925A100)
+#define MOLEMOLE_CONFIG_HOTPOTFORCEFIELDCONFIG_GET_ISRING_OFFSET UNITYSDK_OFFSET(0x1925A080)
+#define MOLEMOLE_CONFIG_HOTPOTFORCEFIELDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1925A170)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HotPotForceFieldConfig_TypeDefinitionIndex = 71490;
+	inline static constexpr unsigned int HotPotForceFieldConfig_TypeDefinitionIndex = 55341;
 
 	class HotPotForceFieldConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::System::Single innerRadius; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* forceCurve; // 0x20
 		::System::Single radialScale; // 0x28
+		::System::Byte _padding1[0x4];
 		::System::String* additionalForceFieldXPath; // 0x30
 		::System::String* additionalForceFieldYPath; // 0x38
 		::System::Single additionalScale; // 0x40
+		::System::Byte _padding2[0x4];
 		::System::String* noiseForceFieldXPath; // 0x48
 		::System::String* noiseForceFieldYPath; // 0x50
 		::System::Single noiseScale; // 0x58

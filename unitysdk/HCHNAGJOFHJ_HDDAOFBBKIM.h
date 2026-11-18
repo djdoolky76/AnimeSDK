@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class DBEEELCGJOA;
+class HCHNAGJOFHJ_ECGLEDDGCFF;
+class MHNMKCKALOP;
+
+#define HCHNAGJOFHJ_HDDAOFBBKIM_EDMKLIFNKPI_OFFSET UNITYSDK_OFFSET(0x1E1C6370)
+#define HCHNAGJOFHJ_HDDAOFBBKIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C6360)
+
+inline static constexpr unsigned int HCHNAGJOFHJ_HDDAOFBBKIM_TypeDefinitionIndex = 94276;
+
+class HCHNAGJOFHJ_HDDAOFBBKIM : public ::System::Object
+{
+public:
+	::MHNMKCKALOP* GEEHGDABNJF; // 0x10
+	::HCHNAGJOFHJ_ECGLEDDGCFF* FGBNBFHOKAA; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HCHNAGJOFHJ_HDDAOFBBKIM__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 EDMKLIFNKPI(::DBEEELCGJOA* EJCBEJMGFAJ, ::DBEEELCGJOA* EBFCACIEKBC)
+	{
+		return ((::System::Int32(*)(::PVOID, ::DBEEELCGJOA*, ::DBEEELCGJOA*))((::PBYTE)hIl2Cpp + HCHNAGJOFHJ_HDDAOFBBKIM_EDMKLIFNKPI_OFFSET))(this, EJCBEJMGFAJ, EBFCACIEKBC);
+	}
+};

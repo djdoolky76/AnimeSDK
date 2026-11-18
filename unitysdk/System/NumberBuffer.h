@@ -1,17 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 
 namespace System { class String; }
 
-#define SYSTEM_NUMBERBUFFER_GET_DIGITS_OFFSET UNITYSDK_OFFSET(0xA8CAD0)
-#define SYSTEM_NUMBERBUFFER_GET_NUMDIGITS_OFFSET UNITYSDK_OFFSET(0xA8CB00)
-#define SYSTEM_NUMBERBUFFER_GET_UNSAFEDIGITS_OFFSET UNITYSDK_OFFSET(0xA8CAF0)
-#define SYSTEM_NUMBERBUFFER_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA8CB80)
+#define SYSTEM_NUMBERBUFFER_GET_DIGITS_OFFSET UNITYSDK_OFFSET(0x972670)
+#define SYSTEM_NUMBERBUFFER_GET_NUMDIGITS_OFFSET UNITYSDK_OFFSET(0x9726A0)
+#define SYSTEM_NUMBERBUFFER_GET_UNSAFEDIGITS_OFFSET UNITYSDK_OFFSET(0x972690)
+#define SYSTEM_NUMBERBUFFER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x972720)
 
 namespace System
 {
-	inline static constexpr unsigned int NumberBuffer_TypeDefinitionIndex = 6555;
+	inline static constexpr unsigned int NumberBuffer_TypeDefinitionIndex = 6561;
 
 	struct alignas(4) NumberBuffer
 	{
@@ -69,16 +70,14 @@ namespace System
 		::System::Byte _b49; // 0x46
 		::System::Byte _b50; // 0x47
 
-		/*
-		::System::Span_1<::System::Byte> get_Digits()
+		::System::Span_1_9011FAD97750D224<::System::Byte> get_Digits()
 		{
-			return ((::System::Span_1<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMBERBUFFER_GET_DIGITS_OFFSET))(this);
+			return ((::System::Span_1_9011FAD97750D224<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMBERBUFFER_GET_DIGITS_OFFSET))(this);
 		}
-		*/
 
-		::System::Byte* get_UnsafeDigits()
+		::PVOID get_UnsafeDigits()
 		{
-			return ((::System::Byte*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMBERBUFFER_GET_UNSAFEDIGITS_OFFSET))(this);
+			return ((::PVOID(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMBERBUFFER_GET_UNSAFEDIGITS_OFFSET))(this);
 		}
 
 		::System::Int32 get_NumDigits()

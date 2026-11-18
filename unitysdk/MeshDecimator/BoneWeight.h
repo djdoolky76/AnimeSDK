@@ -1,25 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/BoneWeight.h"
 
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MESHDECIMATOR_BONEWEIGHT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA0D8B0)
-#define MESHDECIMATOR_BONEWEIGHT_EQUALS_OFFSET UNITYSDK_OFFSET(0xA0D810)
-#define MESHDECIMATOR_BONEWEIGHT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA0D760)
-#define MESHDECIMATOR_BONEWEIGHT_MERGEBONEWEIGHT_OFFSET UNITYSDK_OFFSET(0xA0D700)
-#define MESHDECIMATOR_BONEWEIGHT_MERGE_OFFSET UNITYSDK_OFFSET(0x1E273480)
-#define MESHDECIMATOR_BONEWEIGHT_NORMALIZE_OFFSET UNITYSDK_OFFSET(0xA0D710)
-#define MESHDECIMATOR_BONEWEIGHT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E272A50)
-#define MESHDECIMATOR_BONEWEIGHT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E272C10)
-#define MESHDECIMATOR_BONEWEIGHT_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E272BD0)
-#define MESHDECIMATOR_BONEWEIGHT_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA0D910)
-#define MESHDECIMATOR_BONEWEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0xA0D6C0)
+#define MESHDECIMATOR_BONEWEIGHT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9017D0)
+#define MESHDECIMATOR_BONEWEIGHT_EQUALS_OFFSET UNITYSDK_OFFSET(0x901730)
+#define MESHDECIMATOR_BONEWEIGHT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x901680)
+#define MESHDECIMATOR_BONEWEIGHT_MERGEBONEWEIGHT_OFFSET UNITYSDK_OFFSET(0x901620)
+#define MESHDECIMATOR_BONEWEIGHT_MERGE_OFFSET UNITYSDK_OFFSET(0x1E4EF500)
+#define MESHDECIMATOR_BONEWEIGHT_NORMALIZE_OFFSET UNITYSDK_OFFSET(0x901630)
+#define MESHDECIMATOR_BONEWEIGHT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1E4EEAD0)
+#define MESHDECIMATOR_BONEWEIGHT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E4EEC90)
+#define MESHDECIMATOR_BONEWEIGHT_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1E4EEC50)
+#define MESHDECIMATOR_BONEWEIGHT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x901830)
+#define MESHDECIMATOR_BONEWEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x9015E0)
 
 namespace MeshDecimator
 {
-	inline static constexpr unsigned int BoneWeight_TypeDefinitionIndex = 35473;
+	inline static constexpr unsigned int BoneWeight_TypeDefinitionIndex = 35046;
 
 	struct alignas(4) BoneWeight
 	{
@@ -37,15 +38,19 @@ namespace MeshDecimator
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MESHDECIMATOR_BONEWEIGHT__CTOR_OFFSET))(this, boneIndex0, boneIndex1, boneIndex2, boneIndex3, boneWeight0, boneWeight1, boneWeight2, boneWeight3);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::MeshDecimator::BoneWeight lhs, ::MeshDecimator::BoneWeight rhs)
 		{
 			return ((::System::Boolean(*)(::MeshDecimator::BoneWeight, ::MeshDecimator::BoneWeight))((::PBYTE)hIl2Cpp + MESHDECIMATOR_BONEWEIGHT_OP_EQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::MeshDecimator::BoneWeight lhs, ::MeshDecimator::BoneWeight rhs)
 		{
 			return ((::System::Boolean(*)(::MeshDecimator::BoneWeight, ::MeshDecimator::BoneWeight))((::PBYTE)hIl2Cpp + MESHDECIMATOR_BONEWEIGHT_OP_INEQUALITY_OFFSET))(lhs, rhs);
 		}
+		*/
 
 		/*
 		static ::MeshDecimator::BoneWeight op_Implicit(::UnityEngine::BoneWeight bw)
@@ -74,19 +79,23 @@ namespace MeshDecimator
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MESHDECIMATOR_BONEWEIGHT_EQUALS_OFFSET))(this, obj);
 		}
 
+		/*
 		::System::Boolean Equals_1(::MeshDecimator::BoneWeight other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::MeshDecimator::BoneWeight))((::PBYTE)hIl2Cpp + MESHDECIMATOR_BONEWEIGHT_EQUALS_1_OFFSET))(this, other);
 		}
+		*/
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESHDECIMATOR_BONEWEIGHT_TOSTRING_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Void Merge(::MeshDecimator::BoneWeight& a, ::MeshDecimator::BoneWeight& b)
 		{
 			return ((::System::Void(*)(::MeshDecimator::BoneWeight&, ::MeshDecimator::BoneWeight&))((::PBYTE)hIl2Cpp + MESHDECIMATOR_BONEWEIGHT_MERGE_OFFSET))(a, b);
 		}
+		*/
 	};
 }

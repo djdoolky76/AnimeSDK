@@ -4,10 +4,10 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int ObjectPoolThreadSafe_1_ObjectHandler_1_TypeDefinitionIndex = 7833;
+	inline static constexpr unsigned int ObjectPoolThreadSafe_1_ObjectHandler_1_TypeDefinitionIndex = 8111;
 
-	template <typename T, typename T>
-	struct ObjectPoolThreadSafe_1_ObjectHandler_1
+	template <typename T>
+	struct alignas(8) ObjectPoolThreadSafe_1_ObjectHandler_1
 	{
 		T _object; // 0x0
 	};

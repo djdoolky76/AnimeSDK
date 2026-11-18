@@ -2,16 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIAVATARSKINSETSINGLEWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1601B5B0)
+class KCDKJNPJEDM;
+
+#define MOLEMOLE_UIAVATARSKINSETSINGLEWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15946A00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAvatarSkinSetSingleWidgetController_Data_TypeDefinitionIndex = 57189;
+	inline static constexpr unsigned int UIAvatarSkinSetSingleWidgetController_Data_TypeDefinitionIndex = 68367;
 
 	class UIAvatarSkinSetSingleWidgetController_Data : public ::System::Object
 	{
 	public:
-		::System::Int32 SkinID; // 0x10
+		::KCDKJNPJEDM* PreviewItemContext; // 0x10
 
 		::System::Void _ctor()
 		{

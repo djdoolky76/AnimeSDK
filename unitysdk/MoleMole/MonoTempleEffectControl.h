@@ -8,25 +8,25 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_MONOTEMPLEEFFECTCONTROL_INITTEMPLEPARTICLE_OFFSET UNITYSDK_OFFSET(0x191AE940)
-#define MOLEMOLE_MONOTEMPLEEFFECTCONTROL_METHOD_5_025E4B1A2211CF52_OFFSET UNITYSDK_OFFSET(0x191AE690)
-#define MOLEMOLE_MONOTEMPLEEFFECTCONTROL_METHOD_5_652F3820D8B242FF_OFFSET UNITYSDK_OFFSET(0x191AF170)
-#define MOLEMOLE_MONOTEMPLEEFFECTCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x191AE5D0)
-#define MOLEMOLE_MONOTEMPLEEFFECTCONTROL_START_OFFSET UNITYSDK_OFFSET(0x191AE900)
-#define MOLEMOLE_MONOTEMPLEEFFECTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x191AF120)
+#define MOLEMOLE_MONOTEMPLEEFFECTCONTROL_AJEEBNCNHMN_OFFSET UNITYSDK_OFFSET(0x162E8EE0)
+#define MOLEMOLE_MONOTEMPLEEFFECTCONTROL_DLIDBNKMKCO_OFFSET UNITYSDK_OFFSET(0x162E8400)
+#define MOLEMOLE_MONOTEMPLEEFFECTCONTROL_INITTEMPLEPARTICLE_OFFSET UNITYSDK_OFFSET(0x162E86B0)
+#define MOLEMOLE_MONOTEMPLEEFFECTCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x162E8340)
+#define MOLEMOLE_MONOTEMPLEEFFECTCONTROL_START_OFFSET UNITYSDK_OFFSET(0x162E8670)
+#define MOLEMOLE_MONOTEMPLEEFFECTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x162E8E90)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTempleEffectControl_TypeDefinitionIndex = 69596;
+	inline static constexpr unsigned int MonoTempleEffectControl_TypeDefinitionIndex = 61050;
 
 	class MonoTempleEffectControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::MeshFilter* Mesh; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* Particles; // 0x20
-		::UnityEngine::MeshFilter* Field_5_7; // 0x28
-		::UnityEngine::MeshRenderer* Field_5_6; // 0x30
-		::System::Boolean Field_5_5; // 0x38
+		::UnityEngine::MeshFilter* LNHGBEKOCBM; // 0x28
+		::UnityEngine::MeshRenderer* KEJJBOFBGOG; // 0x30
+		::System::Boolean HPINBCPMHJE; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -43,19 +43,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEMPLEEFFECTCONTROL_START_OFFSET))(this);
 		}
 
-		::System::Void InitTempleParticle(::MoleMole::Battle::Entity* a1)
+		::System::Void InitTempleParticle(::MoleMole::Battle::Entity* KECKGDFIALJ)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEMPLEEFFECTCONTROL_INITTEMPLEPARTICLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Battle::Entity*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEMPLEEFFECTCONTROL_INITTEMPLEPARTICLE_OFFSET))(this, KECKGDFIALJ);
 		}
 
-		::System::Void Method_5_025E4B1A2211CF52()
+		::System::Void DLIDBNKMKCO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEMPLEEFFECTCONTROL_METHOD_5_025E4B1A2211CF52_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEMPLEEFFECTCONTROL_DLIDBNKMKCO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_652F3820D8B242FF()
+		::System::Void AJEEBNCNHMN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEMPLEEFFECTCONTROL_METHOD_5_652F3820D8B242FF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTEMPLEEFFECTCONTROL_AJEEBNCNHMN_OFFSET))(this);
 		}
 	};
 }

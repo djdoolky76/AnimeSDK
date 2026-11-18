@@ -3,7 +3,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TargetArrowUIKind_TypeDefinitionIndex = 64036;
+	inline static constexpr unsigned int TargetArrowUIKind_TypeDefinitionIndex = 61924;
 
 	enum class TargetArrowUIKind : ::System::Int32
 	{

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENEPLANETPATH_SINGLEPATH_ADDPATHPOINT_OFFSET UNITYSDK_OFFSET(0x1D2FCF60)
-#define SCENEPLANETPATH_SINGLEPATH_DELETEPOINT_OFFSET UNITYSDK_OFFSET(0x1D2FD170)
-#define SCENEPLANETPATH_SINGLEPATH_GETLOCALTOWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x1D2FCA30)
-#define SCENEPLANETPATH_SINGLEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FD270)
+#define SCENEPLANETPATH_SINGLEPATH_ADDPATHPOINT_OFFSET UNITYSDK_OFFSET(0x1D444E30)
+#define SCENEPLANETPATH_SINGLEPATH_DELETEPOINT_OFFSET UNITYSDK_OFFSET(0x1D445040)
+#define SCENEPLANETPATH_SINGLEPATH_GETLOCALTOWORLDMATRIX_OFFSET UNITYSDK_OFFSET(0x1D444900)
+#define SCENEPLANETPATH_SINGLEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D445140)
 
-inline static constexpr unsigned int ScenePlanetPath_SinglePath_TypeDefinitionIndex = 27506;
+inline static constexpr unsigned int ScenePlanetPath_SinglePath_TypeDefinitionIndex = 27219;
 
 class ScenePlanetPath_SinglePath : public ::System::Object
 {

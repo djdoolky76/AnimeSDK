@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOEFFECTPLUGINCONSTANTSCREENSIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x118E7250)
+#define MOLEMOLE_MONOEFFECTPLUGINCONSTANTSCREENSIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x162673D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoEffectPluginConstantScreenSize_TypeDefinitionIndex = 67789;
+	inline static constexpr unsigned int MonoEffectPluginConstantScreenSize_TypeDefinitionIndex = 90685;
 
 	class MonoEffectPluginConstantScreenSize : public ::MoleMole::MonoEffectPluginBase
 	{

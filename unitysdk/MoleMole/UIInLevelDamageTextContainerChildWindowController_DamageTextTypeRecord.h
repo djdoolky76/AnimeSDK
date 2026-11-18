@@ -7,9 +7,9 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelDamageTextContainerChildWindowController_DamageTextTypeRecord_TypeDefinitionIndex = 78051;
+	inline static constexpr unsigned int UIInLevelDamageTextContainerChildWindowController_DamageTextTypeRecord_TypeDefinitionIndex = 69646;
 
-	struct alignas(8) UIInLevelDamageTextContainerChildWindowController_DamageTextTypeRecord
+	struct alignas(4) UIInLevelDamageTextContainerChildWindowController_DamageTextTypeRecord
 	{
 		::Foundation::AssetPath Path; // 0x10
 		::UnityEngine::Bounds Bounds; // 0x20

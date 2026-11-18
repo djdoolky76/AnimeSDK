@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_DB32C2DBCDB93B06;
+class GCDMLDNBPMN;
 
-#define MOLEMOLE_UIRABDEPOSITORYSKILLROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17A1CA20)
+#define MOLEMOLE_UIRABDEPOSITORYSKILLROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1799C640)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABDepositorySkillRowWidgetController_Context_TypeDefinitionIndex = 47769;
+	inline static constexpr unsigned int UIRABDepositorySkillRowWidgetController_Context_TypeDefinitionIndex = 45743;
 
 	class UIRABDepositorySkillRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_DB32C2DBCDB93B06* SkillData; // 0x28
+		::GCDMLDNBPMN* SkillData; // 0x28
 
 		::System::Void _ctor()
 		{

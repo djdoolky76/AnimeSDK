@@ -2,25 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace PipelineCamera::CameraSequence { template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8> class CameraSequenceCollection_5___c__17_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
 namespace PipelineCamera::CameraSequence
 {
-	inline static constexpr unsigned int CameraSequenceCollection_5___c__17_3_TypeDefinitionIndex = 38451;
+	inline static constexpr unsigned int CameraSequenceCollection_5___c__17_3_TypeDefinitionIndex = 36450;
 
-	template <typename TSequence, typename TSegment, typename TTrack, typename TAdditiveTrack, typename T, typename T1, typename T2, typename T3>
+	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class CameraSequenceCollection_5___c__17_3 : public ::System::Object
 	{
 	public:
-		static ::PipelineCamera::CameraSequence::CameraSequenceCollection_5___c__17_3<TSequence, TSegment, TTrack, TAdditiveTrack, T, T1, T2, T3>** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::PipelineCamera::CameraSequence::CameraSequenceCollection_5___c__17_3<TSequence, TSegment, TTrack, TAdditiveTrack, T, T1, T2, T3>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceCollection_5___c__17_3_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceCollection_5___c__17_3_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		static ::System::Func_2<TAdditiveTrack, ::System::Collections::Generic::IEnumerable_1<TSegment>*>** StaticGet___9__17_0()
+		static ::System::Func_2<T1, ::System::Collections::Generic::IEnumerable_1<T2>*>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<TAdditiveTrack, ::System::Collections::Generic::IEnumerable_1<TSegment>*>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceCollection_5___c__17_3_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Func_2<T1, ::System::Collections::Generic::IEnumerable_1<T2>*>**)Il2CppClass::FromTypeDefinitionIndex(CameraSequenceCollection_5___c__17_3_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 	};
 }

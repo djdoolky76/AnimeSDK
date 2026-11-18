@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_MATHF_ACOS_OFFSET UNITYSDK_OFFSET(0x1E989EA0)
-#define SYSTEM_MATHF_COS_OFFSET UNITYSDK_OFFSET(0x1E989EC0)
-#define SYSTEM_MATHF_SIN_OFFSET UNITYSDK_OFFSET(0x1E989EE0)
-#define SYSTEM_MATHF_SQRT_OFFSET UNITYSDK_OFFSET(0x1E989F00)
+#define SYSTEM_MATHF_ACOS_OFFSET UNITYSDK_OFFSET(0x1EC61C10)
+#define SYSTEM_MATHF_COS_OFFSET UNITYSDK_OFFSET(0x1EC61C30)
+#define SYSTEM_MATHF_SIN_OFFSET UNITYSDK_OFFSET(0x1EC61C50)
+#define SYSTEM_MATHF_SQRT_OFFSET UNITYSDK_OFFSET(0x1EC61C70)
 
 namespace System
 {
-	inline static constexpr unsigned int MathF_TypeDefinitionIndex = 6380;
+	inline static constexpr unsigned int MathF_TypeDefinitionIndex = 6386;
 
 	class MathF : public ::System::Object
 	{

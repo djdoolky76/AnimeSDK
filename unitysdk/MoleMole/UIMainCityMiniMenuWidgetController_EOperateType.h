@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityMiniMenuWidgetController_EOperateType_TypeDefinitionIndex = 51083;
+	inline static constexpr unsigned int UIMainCityMiniMenuWidgetController_EOperateType_TypeDefinitionIndex = 68968;
 
 	enum class UIMainCityMiniMenuWidgetController_EOperateType : ::System::Int32
 	{

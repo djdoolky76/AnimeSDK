@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NMGCEBIMAFP.h"
+
+class DCFKHKBLIMA;
+
+#define GEFMFCHMAKL_CLLBCMNBLPO_OFFSET UNITYSDK_OFFSET(0x15CDE840)
+#define GEFMFCHMAKL_DHDFFJIPNFH_OFFSET UNITYSDK_OFFSET(0x15CDE7B0)
+#define GEFMFCHMAKL_HEMDPGGPKFK_OFFSET UNITYSDK_OFFSET(0x15CDE5A0)
+#define GEFMFCHMAKL_MHHJPBJILBJ_OFFSET UNITYSDK_OFFSET(0x15CDE610)
+#define GEFMFCHMAKL_NOANBKEACNP_OFFSET UNITYSDK_OFFSET(0x15CDE8D0)
+#define GEFMFCHMAKL__CTOR_OFFSET UNITYSDK_OFFSET(0x15CDE7A0)
+
+inline static constexpr unsigned int GEFMFCHMAKL_TypeDefinitionIndex = 90216;
+
+class GEFMFCHMAKL : public ::NMGCEBIMAFP
+{
+public:
+	::DCFKHKBLIMA* HDOAGIJIBDN; // 0x38
+	::System::Int32 KGGJCGPMAIH; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GEFMFCHMAKL__CTOR_OFFSET))(this);
+	}
+
+	::System::Void HEMDPGGPKFK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GEFMFCHMAKL_HEMDPGGPKFK_OFFSET))(this);
+	}
+
+	::System::Void MHHJPBJILBJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GEFMFCHMAKL_MHHJPBJILBJ_OFFSET))(this);
+	}
+
+	::System::Void DHDFFJIPNFH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GEFMFCHMAKL_DHDFFJIPNFH_OFFSET))(this);
+	}
+
+	::System::Void CLLBCMNBLPO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GEFMFCHMAKL_CLLBCMNBLPO_OFFSET))(this);
+	}
+
+	static ::NMGCEBIMAFP* NOANBKEACNP(::DCFKHKBLIMA* PMIDNALMHOP)
+	{
+		return ((::NMGCEBIMAFP*(*)(::DCFKHKBLIMA*))((::PBYTE)hIl2Cpp + GEFMFCHMAKL_NOANBKEACNP_OFFSET))(PMIDNALMHOP);
+	}
+};

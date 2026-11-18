@@ -6,15 +6,16 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_PRCUBEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA5D2C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_PRCUBEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x95AD50)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int PRCubeData_TypeDefinitionIndex = 6015;
+	inline static constexpr unsigned int PRCubeData_TypeDefinitionIndex = 6023;
 
 	struct alignas(8) PRCubeData
 	{
 		::System::Int32 CubeBlendNum; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* CubeCentersAndWeights; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::Texture*>* CubeTexs; // 0x20
 

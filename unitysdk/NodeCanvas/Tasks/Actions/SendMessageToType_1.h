@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int SendMessageToType_1_TypeDefinitionIndex = 30055;
+	inline static constexpr unsigned int SendMessageToType_1_TypeDefinitionIndex = 29306;
 
 	template <typename T>
 	class SendMessageToType_1 : public ::NodeCanvas::Framework::ActionTask

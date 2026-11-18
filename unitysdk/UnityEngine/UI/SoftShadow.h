@@ -1,87 +1,86 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/AssetRequestHandle.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/UI/BaseMeshEffect.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 
-namespace System { class String; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_SOFTSHADOW_COLORADDPARAMSCHANGED_OFFSET UNITYSDK_OFFSET(0x18C72E80)
-#define UNITYENGINE_UI_SOFTSHADOW_DISTORTIONPARAMSCHANGED_OFFSET UNITYSDK_OFFSET(0x18C72C50)
-#define UNITYENGINE_UI_SOFTSHADOW_ENABLECANVASVERTEXSTREAM_OFFSET UNITYSDK_OFFSET(0x18C729B0)
-#define UNITYENGINE_UI_SOFTSHADOW_GETCANVASTOLOCALMATRIX_OFFSET UNITYSDK_OFFSET(0x18C720A0)
-#define UNITYENGINE_UI_SOFTSHADOW_GETCANVASVARIABLES_OFFSET UNITYSDK_OFFSET(0x18C72290)
-#define UNITYENGINE_UI_SOFTSHADOW_GETMAXMINPOSANDUV_OFFSET UNITYSDK_OFFSET(0x18C723B0)
-#define UNITYENGINE_UI_SOFTSHADOW_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x18C74130)
-#define UNITYENGINE_UI_SOFTSHADOW_MODIFIERSORTORDER_OFFSET UNITYSDK_OFFSET(0x18C748C0)
-#define UNITYENGINE_UI_SOFTSHADOW_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x18C73900)
-#define UNITYENGINE_UI_SOFTSHADOW_ONCANVASHIERARCHYCHANGED_OFFSET UNITYSDK_OFFSET(0x18C728E0)
-#define UNITYENGINE_UI_SOFTSHADOW_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18C73430)
-#define UNITYENGINE_UI_SOFTSHADOW_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18C73390)
-#define UNITYENGINE_UI_SOFTSHADOW_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x18C72730)
-#define UNITYENGINE_UI_SOFTSHADOW_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x18C72810)
-#define UNITYENGINE_UI_SOFTSHADOW_PARAMSCHANGED_OFFSET UNITYSDK_OFFSET(0x18C73090)
-#define UNITYENGINE_UI_SOFTSHADOW_SAVELASTPARAMS_OFFSET UNITYSDK_OFFSET(0x18C731E0)
-#define UNITYENGINE_UI_SOFTSHADOW_START_OFFSET UNITYSDK_OFFSET(0x18C72B70)
-#define UNITYENGINE_UI_SOFTSHADOW_UPDATE_OFFSET UNITYSDK_OFFSET(0x18C732D0)
-#define UNITYENGINE_UI_SOFTSHADOW__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC6FF70)
-#define UNITYENGINE_UI_SOFTSHADOW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C72610)
-#define UNITYENGINE_UI_SOFTSHADOW___BASE_ONCANVASHIERARCHYCHANGED_OFFSET UNITYSDK_OFFSET(0x1FC70050)
-#define UNITYENGINE_UI_SOFTSHADOW___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FC700E0)
-#define UNITYENGINE_UI_SOFTSHADOW___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1FC70170)
-#define UNITYENGINE_UI_SOFTSHADOW___BASE_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x1FC70180)
-#define UNITYENGINE_UI_SOFTSHADOW___BASE_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x1FC70210)
-#define UNITYENGINE_UI_SOFTSHADOW___BASE_START_OFFSET UNITYSDK_OFFSET(0x1FC702A0)
+#define UNITYENGINE_UI_SOFTSHADOW_COLORADDPARAMSCHANGED_OFFSET UNITYSDK_OFFSET(0x1A824B30)
+#define UNITYENGINE_UI_SOFTSHADOW_DISTORTIONPARAMSCHANGED_OFFSET UNITYSDK_OFFSET(0x1A824900)
+#define UNITYENGINE_UI_SOFTSHADOW_ENABLECANVASVERTEXSTREAM_OFFSET UNITYSDK_OFFSET(0x1A824660)
+#define UNITYENGINE_UI_SOFTSHADOW_GETCANVASTOLOCALMATRIX_OFFSET UNITYSDK_OFFSET(0x1A823D50)
+#define UNITYENGINE_UI_SOFTSHADOW_GETCANVASVARIABLES_OFFSET UNITYSDK_OFFSET(0x1A823F40)
+#define UNITYENGINE_UI_SOFTSHADOW_GETMAXMINPOSANDUV_OFFSET UNITYSDK_OFFSET(0x1A824060)
+#define UNITYENGINE_UI_SOFTSHADOW_GETMODIFIEDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1A825DE0)
+#define UNITYENGINE_UI_SOFTSHADOW_MODIFIERSORTORDER_OFFSET UNITYSDK_OFFSET(0x1A826570)
+#define UNITYENGINE_UI_SOFTSHADOW_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1A8255B0)
+#define UNITYENGINE_UI_SOFTSHADOW_ONCANVASHIERARCHYCHANGED_OFFSET UNITYSDK_OFFSET(0x1A824590)
+#define UNITYENGINE_UI_SOFTSHADOW_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A8250E0)
+#define UNITYENGINE_UI_SOFTSHADOW_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A825040)
+#define UNITYENGINE_UI_SOFTSHADOW_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x1A8243E0)
+#define UNITYENGINE_UI_SOFTSHADOW_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x1A8244C0)
+#define UNITYENGINE_UI_SOFTSHADOW_PARAMSCHANGED_OFFSET UNITYSDK_OFFSET(0x1A824D40)
+#define UNITYENGINE_UI_SOFTSHADOW_SAVELASTPARAMS_OFFSET UNITYSDK_OFFSET(0x1A824E90)
+#define UNITYENGINE_UI_SOFTSHADOW_START_OFFSET UNITYSDK_OFFSET(0x1A824820)
+#define UNITYENGINE_UI_SOFTSHADOW_UPDATE_OFFSET UNITYSDK_OFFSET(0x1A824F80)
+#define UNITYENGINE_UI_SOFTSHADOW__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A8265B0)
+#define UNITYENGINE_UI_SOFTSHADOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8242C0)
+#define UNITYENGINE_UI_SOFTSHADOW___BASE_ONCANVASHIERARCHYCHANGED_OFFSET UNITYSDK_OFFSET(0x1A826690)
+#define UNITYENGINE_UI_SOFTSHADOW___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1A826720)
+#define UNITYENGINE_UI_SOFTSHADOW___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A8267B0)
+#define UNITYENGINE_UI_SOFTSHADOW___BASE_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0x1A8267C0)
+#define UNITYENGINE_UI_SOFTSHADOW___BASE_ONTRANSFORMPARENTCHANGED_OFFSET UNITYSDK_OFFSET(0x1A826850)
+#define UNITYENGINE_UI_SOFTSHADOW___BASE_START_OFFSET UNITYSDK_OFFSET(0x1A8268E0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SoftShadow_TypeDefinitionIndex = 72031;
+	inline static constexpr unsigned int SoftShadow_TypeDefinitionIndex = 87260;
 
 	class SoftShadow : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:
-		static ::System::Int32* StaticGet_ShadowColorID()
+		static ::System::Int32* StaticGet_ColorAdd()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xDF90);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xE010);
 		}
 		static ::System::Int32* StaticGet_ParamsID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xDF94);
-		}
-		static ::System::Int32* StaticGet_ColorAdd()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xDF98);
-		}
-		static ::System::Int32* StaticGet_Distortion()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xDF9C);
-		}
-		static ::System::Int32* StaticGet_IterationsID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xDFA0);
-		}
-		static ::System::Int32* StaticGet_DistortionParams()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xDFA4);
-		}
-		static ::System::Int32* StaticGet_ColorUVSpeed()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xDFA8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xE014);
 		}
 		static ::System::Int32* StaticGet_DistortionTex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xDFAC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xE018);
+		}
+		static ::System::Int32* StaticGet_ColorUVSpeed()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xE01C);
+		}
+		static ::System::Int32* StaticGet_IterationsID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xE020);
+		}
+		static ::System::Int32* StaticGet_DistortionParams()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xE024);
 		}
 		static ::System::Int32* StaticGet_ColorAddTex()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xDFB0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xE028);
+		}
+		static ::System::Int32* StaticGet_Distortion()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xE02C);
+		}
+		static ::System::Int32* StaticGet_ShadowColorID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SoftShadow_TypeDefinitionIndex)->GetStaticField(0xE030);
 		}
 		// static const ::System::String* DistortionKeyword; // 0x0
 		// static const ::System::String* RGBSeparateKeyword; // 0x0
@@ -89,26 +88,32 @@ namespace UnityEngine::UI
 		// static const ::System::String* UISoftShadowPath; // 0x0
 		::UnityEngine::Vector2 effectDistance; // 0x20
 		::System::Boolean expandPixels; // 0x28
+		::System::Byte _padding0[0x3];
 		::System::Int32 iterations; // 0x2C
 		::System::Single softRadius; // 0x30
 		::UnityEngine::Color color; // 0x34
 		::System::Boolean distortion; // 0x44
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Texture2D* distortionTex; // 0x48
 		::UnityEngine::Texture2D* distortionTex2; // 0x50
 		::System::Boolean useDistortionTex2; // 0x58
+		::System::Byte _padding2[0x3];
 		::System::Single distortionIntensity; // 0x5C
 		::System::Single rgbSeparate; // 0x60
 		::UnityEngine::Vector2 distortionTiling; // 0x64
 		::UnityEngine::Vector2 distortionOffset; // 0x6C
 		::UnityEngine::Vector2 distortionUVSpeed; // 0x74
 		::System::Boolean colorAdd; // 0x7C
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Texture2D* colorAddTex; // 0x80
 		::UnityEngine::Texture2D* colorAddTex2; // 0x88
 		::System::Boolean useColorAddTex2; // 0x90
+		::System::Byte _padding4[0x3];
 		::UnityEngine::Color colorAddColor; // 0x94
 		::UnityEngine::Vector2 colorTiling; // 0xA4
 		::UnityEngine::Vector2 colorOffset; // 0xAC
 		::UnityEngine::Vector2 colorUVSpeed; // 0xB4
+		::System::Byte _padding5[0x4];
 		::UnityEngine::RectTransform* _rectTransform; // 0xC0
 		::UnityEngine::Canvas* _canvas; // 0xC8
 		::UnityEngine::Canvas* _rootCanvas; // 0xD0
@@ -122,25 +127,31 @@ namespace UnityEngine::UI
 		::System::Single _lastSoftRadius; // 0xFC
 		::UnityEngine::Color _lastColor; // 0x100
 		::System::Boolean _lastDistortion; // 0x110
+		::System::Byte _padding6[0x7];
 		::UnityEngine::Texture2D* _lastDistortionTex; // 0x118
 		::UnityEngine::Texture2D* _lastDistortionTex2; // 0x120
 		::System::Boolean _lastUseDistortionTex2; // 0x128
+		::System::Byte _padding7[0x3];
 		::System::Single _lastDistortionIntensity; // 0x12C
 		::System::Single _lastRgbSeparate; // 0x130
 		::UnityEngine::Vector2 _lastDistortionTiling; // 0x134
 		::UnityEngine::Vector2 _lastDistortionOffset; // 0x13C
 		::UnityEngine::Vector2 _lastDistortionUVSpeed; // 0x144
 		::System::Boolean _lastColorAdd; // 0x14C
+		::System::Byte _padding8[0x3];
 		::UnityEngine::Texture2D* _lastColorAddTex; // 0x150
 		::UnityEngine::Texture2D* _lastColorAddTex2; // 0x158
 		::System::Boolean _lastUseColorAddTex2; // 0x160
+		::System::Byte _padding9[0x3];
 		::UnityEngine::Color _lastColorAddColor; // 0x164
 		::UnityEngine::Vector2 _lastColorTiling; // 0x174
 		::UnityEngine::Vector2 _lastColorOffset; // 0x17C
 		::UnityEngine::Vector2 _lastColorUVSpeed; // 0x184
+		::System::Byte _padding10[0x4];
 		::UnityEngine::Material* _modifiedMaterial; // 0x190
 		::UnityEngine::Material* _maskedModifiedMaterial; // 0x198
 		::System::Boolean _isLoadedMaterial; // 0x1A0
+		::System::Byte _padding11[0x7];
 		::Foundation::AssetRequestHandle _uiSoftShadowHandle; // 0x1A8
 
 		::System::Void _ctor()

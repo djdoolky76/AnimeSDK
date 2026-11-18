@@ -3,7 +3,7 @@
 
 namespace MoleMole::Comic
 {
-	inline static constexpr unsigned int ComicBubbleImgType_TypeDefinitionIndex = 32778;
+	inline static constexpr unsigned int ComicBubbleImgType_TypeDefinitionIndex = 32229;
 
 	enum class ComicBubbleImgType : ::System::Int32
 	{

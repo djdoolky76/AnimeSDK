@@ -1,0 +1,118 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CCMDBHOPKKP.h"
+#include "unitysdk/DJFEAPLNLNA.h"
+#include "unitysdk/MoleMole/MiniUIGame/SimpleParkour/ETrackType.h"
+#include "unitysdk/System/Nullable_1.h"
+
+class AJJOBDLJOPM;
+class DLNNAPHNJLM;
+class GFLEJMCHOBC;
+class JBLLJEIKGBB;
+class PAFFKGCGNBD;
+
+#define GJLHDFPEOIE_AHAJOICAADK_OFFSET UNITYSDK_OFFSET(0x15B1ED00)
+#define GJLHDFPEOIE_CJLIFJNDNGN_OFFSET UNITYSDK_OFFSET(0x15B1EDE0)
+#define GJLHDFPEOIE_DDPIAKMDFHO_OFFSET UNITYSDK_OFFSET(0x15B1EB30)
+#define GJLHDFPEOIE_DJNEAGOCAJM_OFFSET UNITYSDK_OFFSET(0x15B1EDD0)
+#define GJLHDFPEOIE_EPEJAMLKIAI_OFFSET UNITYSDK_OFFSET(0x15B1E900)
+#define GJLHDFPEOIE_GDAGBLNHMFD_OFFSET UNITYSDK_OFFSET(0x15B1ED10)
+#define GJLHDFPEOIE_HDGCDBPMCNL_OFFSET UNITYSDK_OFFSET(0x15B1EA40)
+#define GJLHDFPEOIE_KAAEDMANJHP_OFFSET UNITYSDK_OFFSET(0x15B1ECF0)
+#define GJLHDFPEOIE_KGGIFCHOOOK_OFFSET UNITYSDK_OFFSET(0x15B1E970)
+#define GJLHDFPEOIE_KLFBDIBAALC_OFFSET UNITYSDK_OFFSET(0x15B1E6C0)
+#define GJLHDFPEOIE_LGPCPOKHEFB_OFFSET UNITYSDK_OFFSET(0x15B1E660)
+#define GJLHDFPEOIE_LIPPDJBPLKE_OFFSET UNITYSDK_OFFSET(0x15B1EBE0)
+#define GJLHDFPEOIE_NIJEMEEHOIO_OFFSET UNITYSDK_OFFSET(0x15B1EC30)
+#define GJLHDFPEOIE_OMLMLKFGODN_OFFSET UNITYSDK_OFFSET(0x15B1E830)
+#define GJLHDFPEOIE_PDLLNENDMNH_OFFSET UNITYSDK_OFFSET(0x15B1EDF0)
+#define GJLHDFPEOIE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B1E510)
+
+inline static constexpr unsigned int GJLHDFPEOIE_TypeDefinitionIndex = 83346;
+
+class GJLHDFPEOIE : public ::CCMDBHOPKKP
+{
+public:
+	::JBLLJEIKGBB* CDIPMDAELOG; // 0x40
+	::System::Int32 CMPPMAPNCHC; // 0x48
+
+	::System::Void _ctor(::GFLEJMCHOBC* DFMKILICPFB, ::System::Single ONEFBCAPDPP, ::JBLLJEIKGBB* JNLBPMKIFNK, ::System::Int32 FOAICDFNCPD)
+	{
+		return ((::System::Void(*)(::PVOID, ::GFLEJMCHOBC*, ::System::Single, ::JBLLJEIKGBB*, ::System::Int32))((::PBYTE)hIl2Cpp + GJLHDFPEOIE__CTOR_OFFSET))(this, DFMKILICPFB, ONEFBCAPDPP, JNLBPMKIFNK, FOAICDFNCPD);
+	}
+
+	::AJJOBDLJOPM* LGPCPOKHEFB(::PAFFKGCGNBD* LEHKNMPECHE)
+	{
+		return ((::AJJOBDLJOPM*(*)(::PVOID, ::PAFFKGCGNBD*))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_LGPCPOKHEFB_OFFSET))(this, LEHKNMPECHE);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> KLFBDIBAALC(::System::Single ANODOLODNLJ, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType PPPNLFFEPHO, ::AJJOBDLJOPM* BLOLHKKFHBP, ::System::Boolean GDECGONPELC)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::AJJOBDLJOPM*, ::System::Boolean))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_KLFBDIBAALC_OFFSET))(this, ANODOLODNLJ, PPPNLFFEPHO, BLOLHKKFHBP, GDECGONPELC);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> OMLMLKFGODN(::System::Single ANODOLODNLJ, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType PPPNLFFEPHO, ::AJJOBDLJOPM* BLOLHKKFHBP, ::System::Boolean GDECGONPELC)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::AJJOBDLJOPM*, ::System::Boolean))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_OMLMLKFGODN_OFFSET))(this, ANODOLODNLJ, PPPNLFFEPHO, BLOLHKKFHBP, GDECGONPELC);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> EPEJAMLKIAI(::System::Single ANODOLODNLJ, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType PPPNLFFEPHO, ::PAFFKGCGNBD* LEHKNMPECHE, ::System::Boolean GDECGONPELC)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::PAFFKGCGNBD*, ::System::Boolean))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_EPEJAMLKIAI_OFFSET))(this, ANODOLODNLJ, PPPNLFFEPHO, LEHKNMPECHE, GDECGONPELC);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> KGGIFCHOOOK(::System::Single ANODOLODNLJ, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType PPPNLFFEPHO, ::PAFFKGCGNBD* LEHKNMPECHE, ::System::Boolean GDECGONPELC)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::PAFFKGCGNBD*, ::System::Boolean))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_KGGIFCHOOOK_OFFSET))(this, ANODOLODNLJ, PPPNLFFEPHO, LEHKNMPECHE, GDECGONPELC);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> HDGCDBPMCNL(::System::Single ANODOLODNLJ, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType HGHBBJENLLL, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType GHNLJHOCPKA, ::PAFFKGCGNBD* LEHKNMPECHE, ::System::Boolean GDECGONPELC)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::PAFFKGCGNBD*, ::System::Boolean))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_HDGCDBPMCNL_OFFSET))(this, ANODOLODNLJ, HGHBBJENLLL, GHNLJHOCPKA, LEHKNMPECHE, GDECGONPELC);
+	}
+
+	::System::Single DDPIAKMDFHO(::DJFEAPLNLNA IGAAKDOIPNN, ::AJJOBDLJOPM* BLOLHKKFHBP)
+	{
+		return ((::System::Single(*)(::PVOID, ::DJFEAPLNLNA, ::AJJOBDLJOPM*))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_DDPIAKMDFHO_OFFSET))(this, IGAAKDOIPNN, BLOLHKKFHBP);
+	}
+
+	::System::Void LIPPDJBPLKE(::DLNNAPHNJLM* LHPFMGBDFPN)
+	{
+		return ((::System::Void(*)(::PVOID, ::DLNNAPHNJLM*))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_LIPPDJBPLKE_OFFSET))(this, LHPFMGBDFPN);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> NIJEMEEHOIO(::System::Single MIALFKCCCPI, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType KMGKAIDEIBA, ::PAFFKGCGNBD* FDHMCIFPNCK, ::System::Boolean MPBJAGIKPJM)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::PAFFKGCGNBD*, ::System::Boolean))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_NIJEMEEHOIO_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM);
+	}
+
+	::System::Single KAAEDMANJHP(::DJFEAPLNLNA MIALFKCCCPI, ::AJJOBDLJOPM* KMGKAIDEIBA)
+	{
+		return ((::System::Single(*)(::PVOID, ::DJFEAPLNLNA, ::AJJOBDLJOPM*))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_KAAEDMANJHP_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> AHAJOICAADK(::System::Single MIALFKCCCPI, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType KMGKAIDEIBA, ::AJJOBDLJOPM* FDHMCIFPNCK, ::System::Boolean MPBJAGIKPJM)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::AJJOBDLJOPM*, ::System::Boolean))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_AHAJOICAADK_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> GDAGBLNHMFD(::System::Single MIALFKCCCPI, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType KMGKAIDEIBA, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType FDHMCIFPNCK, ::PAFFKGCGNBD* MPBJAGIKPJM, ::System::Boolean DDMDINPGCFI)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::PAFFKGCGNBD*, ::System::Boolean))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_GDAGBLNHMFD_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM, DDMDINPGCFI);
+	}
+
+	::System::Void DJNEAGOCAJM(::DLNNAPHNJLM* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::DLNNAPHNJLM*))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_DJNEAGOCAJM_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> CJLIFJNDNGN(::System::Single MIALFKCCCPI, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType KMGKAIDEIBA, ::AJJOBDLJOPM* FDHMCIFPNCK, ::System::Boolean MPBJAGIKPJM)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::AJJOBDLJOPM*, ::System::Boolean))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_CJLIFJNDNGN_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM);
+	}
+
+	::System::Nullable_1<::DJFEAPLNLNA> PDLLNENDMNH(::System::Single MIALFKCCCPI, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType KMGKAIDEIBA, ::PAFFKGCGNBD* FDHMCIFPNCK, ::System::Boolean MPBJAGIKPJM)
+	{
+		return ((::System::Nullable_1<::DJFEAPLNLNA>(*)(::PVOID, ::System::Single, ::MoleMole::MiniUIGame::SimpleParkour::ETrackType, ::PAFFKGCGNBD*, ::System::Boolean))((::PBYTE)hIl2Cpp + GJLHDFPEOIE_PDLLNENDMNH_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA, FDHMCIFPNCK, MPBJAGIKPJM);
+	}
+};

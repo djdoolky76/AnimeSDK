@@ -3,22 +3,22 @@
 #include "unitysdk/Sirenix/OdinInspector/SerializedScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_A06B10C4DE479401;
+class NJADBOGPHMC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_BEZIERCURVE_AUTOSMOOTHALL_OFFSET UNITYSDK_OFFSET(0x17273140)
-#define MOLEMOLE_BEZIERCURVE_GETPOSITIONBYNORMALIZETIME_OFFSET UNITYSDK_OFFSET(0x172730C0)
-#define MOLEMOLE_BEZIERCURVE_GET_MAXTIME_OFFSET UNITYSDK_OFFSET(0x17273020)
-#define MOLEMOLE_BEZIERCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x172731C0)
+#define MOLEMOLE_BEZIERCURVE_AUTOSMOOTHALL_OFFSET UNITYSDK_OFFSET(0x163E1BE0)
+#define MOLEMOLE_BEZIERCURVE_GETPOSITIONBYNORMALIZETIME_OFFSET UNITYSDK_OFFSET(0x163E1B60)
+#define MOLEMOLE_BEZIERCURVE_GET_MAXTIME_OFFSET UNITYSDK_OFFSET(0x163E1AC0)
+#define MOLEMOLE_BEZIERCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x163E1C60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BezierCurve_TypeDefinitionIndex = 60947;
+	inline static constexpr unsigned int BezierCurve_TypeDefinitionIndex = 54957;
 
 	class BezierCurve : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_A06B10C4DE479401*>* points; // 0x58
+		::System::Collections::Generic::List_1<::NJADBOGPHMC*>* points; // 0x58
 
 		::System::Void _ctor()
 		{

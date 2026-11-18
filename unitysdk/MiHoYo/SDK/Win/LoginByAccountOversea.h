@@ -12,36 +12,37 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D3E3080)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKAPPLEBUTTON_OFFSET UNITYSDK_OFFSET(0x1D3E6190)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKCLOSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1D3E6590)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKFACEBOOKBUTTON_OFFSET UNITYSDK_OFFSET(0x1D3E6390)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKFORGETPASSWORDBUTTON_OFFSET UNITYSDK_OFFSET(0x1D3E6660)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKGOOGLEBUTTON_OFFSET UNITYSDK_OFFSET(0x1D3E6290)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKLOGINBUTTON_OFFSET UNITYSDK_OFFSET(0x1D3E5940)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKREGISTERBUTTON_OFFSET UNITYSDK_OFFSET(0x1D3E65B0)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKTWITTERBUTTON_OFFSET UNITYSDK_OFFSET(0x1D3E6490)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_GUESTLOGIN_OFFSET UNITYSDK_OFFSET(0x1D3E6110)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_HIDE_OFFSET UNITYSDK_OFFSET(0x1D3E58D0)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_ONBACKBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1D3E60F0)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D3E6710)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_SHOW_OFFSET UNITYSDK_OFFSET(0x1D3E5730)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_START_OFFSET UNITYSDK_OFFSET(0x1D3E5F00)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_UPDATEBACKBTN_OFFSET UNITYSDK_OFFSET(0x1D3E5F90)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_UPDATEBOTTOMCONTENT_OFFSET UNITYSDK_OFFSET(0x1D3E47D0)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1D3E5550)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E6730)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D915F60)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKAPPLEBUTTON_OFFSET UNITYSDK_OFFSET(0x1D9193C0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKCLOSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1D9198C0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKDISCORDBUTTON_OFFSET UNITYSDK_OFFSET(0x1D9197C0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKFACEBOOKBUTTON_OFFSET UNITYSDK_OFFSET(0x1D9195C0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKFORGETPASSWORDBUTTON_OFFSET UNITYSDK_OFFSET(0x1D919990)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKGOOGLEBUTTON_OFFSET UNITYSDK_OFFSET(0x1D9194C0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKLOGINBUTTON_OFFSET UNITYSDK_OFFSET(0x1D918B70)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKREGISTERBUTTON_OFFSET UNITYSDK_OFFSET(0x1D9198E0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKTWITTERBUTTON_OFFSET UNITYSDK_OFFSET(0x1D9196C0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_GUESTLOGIN_OFFSET UNITYSDK_OFFSET(0x1D919340)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_HIDE_OFFSET UNITYSDK_OFFSET(0x1D918B00)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_ONBACKBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1D919320)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1D919A40)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_SHOW_OFFSET UNITYSDK_OFFSET(0x1D918960)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_START_OFFSET UNITYSDK_OFFSET(0x1D919130)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_UPDATEBACKBTN_OFFSET UNITYSDK_OFFSET(0x1D9191C0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_UPDATEBOTTOMCONTENT_OFFSET UNITYSDK_OFFSET(0x1D917740)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1D918780)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D919A60)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginByAccountOversea_TypeDefinitionIndex = 21629;
+	inline static constexpr unsigned int LoginByAccountOversea_TypeDefinitionIndex = 20829;
 
 	class LoginByAccountOversea : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::Win::LoginByAccountOversea** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::LoginByAccountOversea**)Il2CppClass::FromTypeDefinitionIndex(LoginByAccountOversea_TypeDefinitionIndex)->GetStaticField(0x97B0);
+			return (::MiHoYo::SDK::Win::LoginByAccountOversea**)Il2CppClass::FromTypeDefinitionIndex(LoginByAccountOversea_TypeDefinitionIndex)->GetStaticField(0x9770);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* CloseButtonPath; // 0x0
@@ -63,6 +64,7 @@ namespace MiHoYo::SDK::Win
 		// static const ::System::String* AppleButtonPath; // 0x0
 		// static const ::System::String* FaceBookButtonPath; // 0x0
 		// static const ::System::String* TwitterButtonPath; // 0x0
+		// static const ::System::String* DiscordButtonPath; // 0x0
 		::UnityEngine::UI::Button* closeButton; // 0x58
 		::UnityEngine::UI::Button* backButton; // 0x60
 		::UnityEngine::GameObject* testFlagObject; // 0x68
@@ -77,21 +79,23 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::Transform* googleButtonTransform; // 0xB0
 		::UnityEngine::Transform* facebookButtonTransform; // 0xB8
 		::UnityEngine::Transform* twitterButtonTransform; // 0xC0
-		::UnityEngine::UI::Text* accountPlaceholder; // 0xC8
-		::UnityEngine::UI::Text* passwordPlaceholder; // 0xD0
-		::UnityEngine::UI::Text* registerText; // 0xD8
-		::UnityEngine::UI::Text* forgetPwdText; // 0xE0
-		::UnityEngine::UI::Text* loginText; // 0xE8
-		::System::Action* OnClose; // 0xF0
-		::System::Action_2<::System::String*, ::System::String*>* OnLogin; // 0xF8
-		::System::Action* OnRegister; // 0x100
-		::System::Action* OnForgetPwd; // 0x108
-		::System::Action* OnGuest; // 0x110
-		::System::Action* OnApple; // 0x118
-		::System::Action* OnGoogle; // 0x120
-		::System::Action* OnTwitter; // 0x128
-		::System::Action* OnFacebook; // 0x130
-		::System::Action* OnBack; // 0x138
+		::UnityEngine::Transform* discordButtonTransform; // 0xC8
+		::UnityEngine::UI::Text* accountPlaceholder; // 0xD0
+		::UnityEngine::UI::Text* passwordPlaceholder; // 0xD8
+		::UnityEngine::UI::Text* registerText; // 0xE0
+		::UnityEngine::UI::Text* forgetPwdText; // 0xE8
+		::UnityEngine::UI::Text* loginText; // 0xF0
+		::System::Action* OnClose; // 0xF8
+		::System::Action_2<::System::String*, ::System::String*>* OnLogin; // 0x100
+		::System::Action* OnRegister; // 0x108
+		::System::Action* OnForgetPwd; // 0x110
+		::System::Action* OnGuest; // 0x118
+		::System::Action* OnApple; // 0x120
+		::System::Action* OnGoogle; // 0x128
+		::System::Action* OnTwitter; // 0x130
+		::System::Action* OnFacebook; // 0x138
+		::System::Action* OnDiscord; // 0x140
+		::System::Action* OnBack; // 0x148
 
 		::System::Void _ctor()
 		{
@@ -166,6 +170,11 @@ namespace MiHoYo::SDK::Win
 		::System::Void ClickTwitterButton()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKTWITTERBUTTON_OFFSET))(this);
+		}
+
+		::System::Void ClickDiscordButton()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA_CLICKDISCORDBUTTON_OFFSET))(this);
 		}
 
 		::System::Void ClickCloseButton()

@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { class ValueInput; }
-namespace FlowCanvas::Nodes::Legacy { class PureReflectedFieldNode___c__DisplayClass0_0; }
 
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA93030)
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_3__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1EA93040)
-#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_3__REGISTERPORTS_B__3_OFFSET UNITYSDK_OFFSET(0x1EA93050)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC4110)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_3__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1EDC4120)
+#define FLOWCANVAS_NODES_LEGACY_PUREREFLECTEDFIELDNODE___C__DISPLAYCLASS0_3__REGISTERPORTS_B__3_OFFSET UNITYSDK_OFFSET(0x1EDC4130)
 
 namespace FlowCanvas::Nodes::Legacy
 {
-	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass0_3_TypeDefinitionIndex = 30439;
+	inline static constexpr unsigned int PureReflectedFieldNode___c__DisplayClass0_3_TypeDefinitionIndex = 30703;
 
+	template <typename T1, typename T2, typename T3>
 	class PureReflectedFieldNode___c__DisplayClass0_3 : public ::System::Object
 	{
 	public:
-		::System::Object* instance; // 0x10
-		::FlowCanvas::FlowOutput* flowOut; // 0x18
-		::FlowCanvas::ValueInput* instanceInput; // 0x20
-		::FlowCanvas::Nodes::Legacy::PureReflectedFieldNode___c__DisplayClass0_0* CS___8__locals2; // 0x28
+		::FlowCanvas::ValueInput* instanceInput; // 0x10
+		::System::Object* instance; // 0x18
+		::System::Object* CS___8__locals2; // 0x20
+		::FlowCanvas::FlowOutput* flowOut; // 0x28
 		::FlowCanvas::ValueInput* valueInput; // 0x30
 
 		::System::Void _ctor()

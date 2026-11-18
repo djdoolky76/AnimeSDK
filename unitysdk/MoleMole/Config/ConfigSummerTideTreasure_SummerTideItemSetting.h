@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_CONFIGSUMMERTIDETREASURE_SUMMERTIDEITEMSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16C53870)
+#define MOLEMOLE_CONFIG_CONFIGSUMMERTIDETREASURE_SUMMERTIDEITEMSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A03E9E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSummerTideTreasure_SummerTideItemSetting_TypeDefinitionIndex = 45389;
+	inline static constexpr unsigned int ConfigSummerTideTreasure_SummerTideItemSetting_TypeDefinitionIndex = 64217;
 
 	class ConfigSummerTideTreasure_SummerTideItemSetting : public ::System::Object
 	{

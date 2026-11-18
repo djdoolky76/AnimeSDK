@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINEUTILITIES_MAXVALUE_OFFSET UNITYSDK_OFFSET(0x1FAAE300)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_FONTENGINEUTILITIES_MAXVALUE_OFFSET UNITYSDK_OFFSET(0x1FEC1F50)
 
 namespace UnityEngine::TextCore::LowLevel
 {
-	inline static constexpr unsigned int FontEngineUtilities_TypeDefinitionIndex = 33140;
+	inline static constexpr unsigned int FontEngineUtilities_TypeDefinitionIndex = 32600;
 
-	struct alignas(1) FontEngineUtilities
+	struct alignas(4) FontEngineUtilities
 	{
 		static ::System::Int32 MaxValue(::System::Int32 a, ::System::Int32 b, ::System::Int32 c)
 		{

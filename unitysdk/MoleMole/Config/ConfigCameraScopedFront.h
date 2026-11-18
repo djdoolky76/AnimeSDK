@@ -7,12 +7,12 @@ namespace MoleMole::Config { class ScopedFrontCameraControlConfigInput; }
 namespace MoleMole::Photo { class ScopedFrontCameraControlConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERASCOPEDFRONT_GETSCOPEDFRONTCAMERACONTROLCONFIG_OFFSET UNITYSDK_OFFSET(0xF138570)
-#define MOLEMOLE_CONFIG_CONFIGCAMERASCOPEDFRONT__CTOR_OFFSET UNITYSDK_OFFSET(0xF1387F0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASCOPEDFRONT_GETSCOPEDFRONTCAMERACONTROLCONFIG_OFFSET UNITYSDK_OFFSET(0xFFD12F0)
+#define MOLEMOLE_CONFIG_CONFIGCAMERASCOPEDFRONT__CTOR_OFFSET UNITYSDK_OFFSET(0xFFD1570)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraScopedFront_TypeDefinitionIndex = 68077;
+	inline static constexpr unsigned int ConfigCameraScopedFront_TypeDefinitionIndex = 38401;
 
 	class ConfigCameraScopedFront : public ::Foundation::MihoyoSerializedScriptableObject
 	{

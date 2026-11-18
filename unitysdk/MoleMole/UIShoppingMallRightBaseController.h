@@ -2,22 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIWidgetController.h"
 
-namespace MoleMole { class MonoGamepadModule; }
 namespace MoleMole { class ShoppingMallBaseContextBase; }
 namespace MoleMole { class UIControllerContextBase; }
 
-#define MOLEMOLE_UISHOPPINGMALLRIGHTBASECONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x188744E0)
-#define MOLEMOLE_UISHOPPINGMALLRIGHTBASECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18874720)
-#define MOLEMOLE_UISHOPPINGMALLRIGHTBASECONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x18874780)
+#define MOLEMOLE_UISHOPPINGMALLRIGHTBASECONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x18261440)
+#define MOLEMOLE_UISHOPPINGMALLRIGHTBASECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18261680)
+#define MOLEMOLE_UISHOPPINGMALLRIGHTBASECONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x182616E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIShoppingMallRightBaseController_TypeDefinitionIndex = 86872;
+	inline static constexpr unsigned int UIShoppingMallRightBaseController_TypeDefinitionIndex = 61683;
 
 	class UIShoppingMallRightBaseController : public ::MoleMole::UIWidgetController
 	{
 	public:
-		::MoleMole::ShoppingMallBaseContextBase* _baseContext; // 0x2C0
+		::MoleMole::ShoppingMallBaseContextBase* DNHMPMEMPHJ; // 0x2C8
 
 		::System::Void _ctor()
 		{

@@ -6,12 +6,12 @@ namespace MoleMole::HollowChessboard { class CellDiffusionConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_CELLDIFFUSIONTABLECONFIG_GETCELLDIFFUSIONCONFIGCONFIG_OFFSET UNITYSDK_OFFSET(0x19B28ED0)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CELLDIFFUSIONTABLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B29020)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CELLDIFFUSIONTABLECONFIG_GETCELLDIFFUSIONCONFIGCONFIG_OFFSET UNITYSDK_OFFSET(0x1A907D70)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CELLDIFFUSIONTABLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A907EC0)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int CellDiffusionTableConfig_TypeDefinitionIndex = 46144;
+	inline static constexpr unsigned int CellDiffusionTableConfig_TypeDefinitionIndex = 39321;
 
 	class CellDiffusionTableConfig : public ::Sirenix::OdinInspector::SerializedScriptableObject
 	{

@@ -1,17 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/SecurityTunnel_AuthInfo.h"
 #include "unitysdk/System/Object.h"
 
-namespace MiHoYo::SDK { class IKCPChannel; }
-namespace System { class String; }
-namespace System::Net { class IPEndPoint; }
-
-#define MIHOYO_SDK_IKCPCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF843C0)
+#define MIHOYO_SDK_IKCPCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F428730)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int IKCPClient_TypeDefinitionIndex = 37169;
+	inline static constexpr unsigned int IKCPClient_TypeDefinitionIndex = 35155;
 
 	class IKCPClient : public ::System::Object
 	{

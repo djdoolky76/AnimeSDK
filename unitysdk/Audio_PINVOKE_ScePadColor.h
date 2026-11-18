@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Audio_PINVOKE_ScePadColor_TypeDefinitionIndex = 80171;
+inline static constexpr unsigned int Audio_PINVOKE_ScePadColor_TypeDefinitionIndex = 38676;
 
-struct alignas(1) Audio_PINVOKE_ScePadColor
+struct alignas(4) Audio_PINVOKE_ScePadColor
 {
 	::System::Byte r; // 0x10
 	::System::Byte g; // 0x11

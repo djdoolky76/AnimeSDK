@@ -1,31 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_6C9D8350BCED7528.h"
-#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/HDDJDIGKCMD.h"
 #include "unitysdk/MoleMole/ConfigNewbie_TargetPath.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
 
 namespace SimpleJSON { class JSONClass; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x1B500D30)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1B5010B0)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B500D20)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B500CE0)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA___BASE_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x1B5014D0)
-#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA___BASE_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x1B501500)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x142CD8F0)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x142CDC70)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x142CD8E0)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x142CD8A0)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA___BASE_LOADFROMBYTES_OFFSET UNITYSDK_OFFSET(0x142CE140)
+#define MOLEMOLE_CONFIGNEWBIE_HIGHLIGHTDATA___BASE_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x142CE170)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigNewbie_HighLightData_TypeDefinitionIndex = 78131;
+	inline static constexpr unsigned int ConfigNewbie_HighLightData_TypeDefinitionIndex = 55940;
 
 	class ConfigNewbie_HighLightData : public ::MoleMole::ConfigNewbie_TargetPath
 	{
 	public:
-		::System::Boolean disableClick; // 0x28
-		::System::Boolean muteClickNextCB; // 0x29
-		::System::Boolean AddSortingOrder; // 0x2A
-		::System::Boolean SkipConsole; // 0x2B
-		::Enum_3_6C9D8350BCED7528 LightLoopIgnorePlatform; // 0x2C
+		::System::String* comment; // 0x28
+		::System::Boolean disableClick; // 0x30
+		::System::Boolean muteClickNextCB; // 0x31
+		::System::Boolean AddSortingOrder; // 0x32
+		::System::Boolean SkipConsole; // 0x33
+		::HDDJDIGKCMD LightLoopIgnorePlatform; // 0x34
 
 		::System::Void _ctor()
 		{

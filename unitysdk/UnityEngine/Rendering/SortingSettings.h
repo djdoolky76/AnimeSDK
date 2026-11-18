@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Rendering/DistanceMetric.h"
 #include "unitysdk/UnityEngine/Rendering/SortingCriteria.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class Object; }
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA3AB50)
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS_EQUALS_OFFSET UNITYSDK_OFFSET(0xA3AB10)
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA3ABD0)
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS_GET_CRITERIA_OFFSET UNITYSDK_OFFSET(0x970450)
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS_SET_CRITERIA_OFFSET UNITYSDK_OFFSET(0x96F180)
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS_SET_DISTANCEMETRIC_OFFSET UNITYSDK_OFFSET(0x82B8D0)
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xA3AAF0)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x918AC0)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS_EQUALS_OFFSET UNITYSDK_OFFSET(0x918A80)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x918B40)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS_GET_CRITERIA_OFFSET UNITYSDK_OFFSET(0x90DCF0)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS_SET_CRITERIA_OFFSET UNITYSDK_OFFSET(0x90DD00)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS_SET_DISTANCEMETRIC_OFFSET UNITYSDK_OFFSET(0x7875F0)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x918A60)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SortingSettings_TypeDefinitionIndex = 6269;
+	inline static constexpr unsigned int SortingSettings_TypeDefinitionIndex = 6284;
 
 	struct alignas(4) SortingSettings
 	{
@@ -51,10 +51,12 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::DistanceMetric))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGSETTINGS_SET_DISTANCEMETRIC_OFFSET))(this, value);
 		}
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::SortingSettings other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::SortingSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGSETTINGS_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* obj)
 		{

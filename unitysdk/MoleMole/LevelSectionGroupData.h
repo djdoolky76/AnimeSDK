@@ -6,11 +6,11 @@ namespace MoleMole { class LevelSectionData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_LEVELSECTIONGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x136C3BB0)
+#define MOLEMOLE_LEVELSECTIONGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1359FFA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LevelSectionGroupData_TypeDefinitionIndex = 87206;
+	inline static constexpr unsigned int LevelSectionGroupData_TypeDefinitionIndex = 38836;
 
 	class LevelSectionGroupData : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B538380)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIG_CONFIGCUSTOMPROPERTYUIWITHMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5B1020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterScriptConfig_ConfigCustomPropertyUIWithMat_TypeDefinitionIndex = 48406;
+	inline static constexpr unsigned int CharacterScriptConfig_ConfigCustomPropertyUIWithMat_TypeDefinitionIndex = 51784;
 
 	class CharacterScriptConfig_ConfigCustomPropertyUIWithMat : public ::MoleMole::CharacterScriptConfig_ConfigCustomPropertyUI
 	{

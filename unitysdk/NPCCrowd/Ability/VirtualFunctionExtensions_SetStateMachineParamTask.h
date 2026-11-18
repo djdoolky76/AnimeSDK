@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Ability/SetStateMachineParamTask.h"
 #include "unitysdk/StateTreeCore/StateTreeActiveStates.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_SETSTATEMACHINEPARAMTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x12D0C660)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_SETSTATEMACHINEPARAMTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x12D0C5D0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_SETSTATEMACHINEPARAMTASK_LINK_OFFSET UNITYSDK_OFFSET(0x12D0C560)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_SETSTATEMACHINEPARAMTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0x12D0C700)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_SETSTATEMACHINEPARAMTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1378CF30)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_SETSTATEMACHINEPARAMTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1378CEA0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_SETSTATEMACHINEPARAMTASK_LINK_OFFSET UNITYSDK_OFFSET(0x1378CE30)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_SETSTATEMACHINEPARAMTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0x1378CFD0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_SetStateMachineParamTask_TypeDefinitionIndex = 79687;
+	inline static constexpr unsigned int VirtualFunctionExtensions_SetStateMachineParamTask_TypeDefinitionIndex = 54117;
 
 	class VirtualFunctionExtensions_SetStateMachineParamTask : public ::System::Object
 	{

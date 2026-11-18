@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UISUMMERTIDETREASURESELLINGBUFFDESCWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x160F31F0)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGBUFFDESCWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x167DC510)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerTideTreasureSellingBuffDescWidgetController_Context_TypeDefinitionIndex = 70203;
+	inline static constexpr unsigned int UISummerTideTreasureSellingBuffDescWidgetController_Context_TypeDefinitionIndex = 87034;
 
 	class UISummerTideTreasureSellingBuffDescWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

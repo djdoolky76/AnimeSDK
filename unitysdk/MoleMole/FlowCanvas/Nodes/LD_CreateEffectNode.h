@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
@@ -11,40 +11,41 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A05CD50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05D060)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__REGISTERPORTS_B__18_0_OFFSET UNITYSDK_OFFSET(0x1A05D0F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__REGISTERPORTS_B__18_1_OFFSET UNITYSDK_OFFSET(0x1A05D100)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__REGISTERPORTS_B__18_2_OFFSET UNITYSDK_OFFSET(0x1A05EA80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__REGISTERPORTS_B__18_3_OFFSET UNITYSDK_OFFSET(0x1A05EA90)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__REGISTERPORTS_B__18_4_OFFSET UNITYSDK_OFFSET(0x1A05EAA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__REGISTERPORTS_G____CALLFLOWOUT_18_5_OFFSET UNITYSDK_OFFSET(0x1A05EA30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13EDC7F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13EDCB00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__REGISTERPORTS_B__18_0_OFFSET UNITYSDK_OFFSET(0x13EDCB90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__REGISTERPORTS_B__18_1_OFFSET UNITYSDK_OFFSET(0x13EDCBA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__REGISTERPORTS_B__18_2_OFFSET UNITYSDK_OFFSET(0x13EDE530)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__REGISTERPORTS_B__18_3_OFFSET UNITYSDK_OFFSET(0x13EDE540)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__REGISTERPORTS_B__18_4_OFFSET UNITYSDK_OFFSET(0x13EDE550)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_CREATEEFFECTNODE__REGISTERPORTS_G____CALLFLOWOUT_18_5_OFFSET UNITYSDK_OFFSET(0x13EDE4E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_CreateEffectNode_TypeDefinitionIndex = 71176;
+	inline static constexpr unsigned int LD_CreateEffectNode_TypeDefinitionIndex = 90394;
 
 	class LD_CreateEffectNode : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::ValueInput_1<::System::String*>* anchorPosPrefixInput; // 0xA8
-		::FlowCanvas::ValueInput_1<::System::Single>* minimumInput; // 0xB0
-		::System::String* _curExtractPosStr; // 0xB8
-		::System::Collections::Generic::HashSet_1<::System::Int32>* alreadySearchedSet; // 0xC0
-		::MoleMole::Battle::Entity* _createdEffectEntity; // 0xC8
-		::FlowCanvas::ValueInput_1<::System::String*>* extractPos; // 0xD0
-		::FlowCanvas::ValueInput_1<::System::Single>* angleRangeInput; // 0xD8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* IsSpawnOnAnchor; // 0xE0
-		::FlowCanvas::ValueInput_1<::System::Single>* radiusInput; // 0xE8
-		::FlowCanvas::ValueInput_1<::System::Boolean>* isAwayFromTrap; // 0xF0
-		::FlowCanvas::FlowOutput* _flowOutput; // 0xF8
-		::System::String* _spawnPointName; // 0x100
-		::FlowCanvas::ValueInput_1<::System::String*>* effectName; // 0x108
-		::FlowCanvas::ValueInput_1<::System::Boolean>* additivePriorityFirst; // 0x110
-		::System::Boolean lastChooseLeft; // 0x118
-		::System::Boolean IsInteractive; // 0x119
-		::System::Single AnchorPlaneTolerance; // 0x11C
-		::UnityEngine::Vector3 _curExtractPosV3; // 0x120
+		::FlowCanvas::ValueInput_1<::System::Single>* angleRangeInput; // 0xA8
+		::FlowCanvas::ValueInput_1<::System::String*>* effectName; // 0xB0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* isAwayFromTrap; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Single>* minimumInput; // 0xC0
+		::FlowCanvas::ValueInput_1<::System::String*>* extractPos; // 0xC8
+		::FlowCanvas::ValueInput_1<::System::Single>* radiusInput; // 0xD0
+		::System::String* _curExtractPosStr; // 0xD8
+		::FlowCanvas::ValueInput_1<::System::String*>* anchorPosPrefixInput; // 0xE0
+		::FlowCanvas::ValueInput_1<::System::Boolean>* additivePriorityFirst; // 0xE8
+		::System::Collections::Generic::HashSet_1<::System::Int32>* alreadySearchedSet; // 0xF0
+		::System::String* _spawnPointName; // 0xF8
+		::MoleMole::Battle::Entity* _createdEffectEntity; // 0x100
+		::FlowCanvas::FlowOutput* _flowOutput; // 0x108
+		::FlowCanvas::ValueInput_1<::System::Boolean>* IsSpawnOnAnchor; // 0x110
+		::System::Boolean IsInteractive; // 0x118
+		::System::Boolean lastChooseLeft; // 0x119
+		::System::Byte _padding0[0x2];
+		::UnityEngine::Vector3 _curExtractPosV3; // 0x11C
+		::System::Single AnchorPlaneTolerance; // 0x128
 
 		::System::Void _ctor()
 		{

@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HOCDHMEPPEG.h"
+#include "unitysdk/System/Object.h"
+
+class OAEFGCLEHHO;
+
+#define MEPEBKJGODE_BKCIDDEHGGN_AAHMACBDCPN_OFFSET UNITYSDK_OFFSET(0x1852EF70)
+#define MEPEBKJGODE_BKCIDDEHGGN_LIDNPLMPHAL_OFFSET UNITYSDK_OFFSET(0x1852F010)
+#define MEPEBKJGODE_BKCIDDEHGGN__CTOR_OFFSET UNITYSDK_OFFSET(0x1852EF60)
+
+inline static constexpr unsigned int MEPEBKJGODE_BKCIDDEHGGN_TypeDefinitionIndex = 82114;
+
+class MEPEBKJGODE_BKCIDDEHGGN : public ::System::Object
+{
+public:
+	::HOCDHMEPPEG GPELAKKMLBG; // 0x10
+	::HOCDHMEPPEG ABMKEFPKPMD; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MEPEBKJGODE_BKCIDDEHGGN__CTOR_OFFSET))(this);
+	}
+
+	::System::Void AAHMACBDCPN(::OAEFGCLEHHO* NAPFALLANDL)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + MEPEBKJGODE_BKCIDDEHGGN_AAHMACBDCPN_OFFSET))(this, NAPFALLANDL);
+	}
+
+	::System::Void LIDNPLMPHAL(::OAEFGCLEHHO* NAPFALLANDL)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + MEPEBKJGODE_BKCIDDEHGGN_LIDNPLMPHAL_OFFSET))(this, NAPFALLANDL);
+	}
+};

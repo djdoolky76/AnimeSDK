@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTLIGHTFXCOLORCORRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C455830)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_POSTLIGHTFXCOLORCORRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C87D280)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int PostLightFxColorCorrection_TypeDefinitionIndex = 27902;
+	inline static constexpr unsigned int PostLightFxColorCorrection_TypeDefinitionIndex = 26665;
 
 	class PostLightFxColorCorrection : public ::System::Object
 	{
@@ -17,6 +17,7 @@ namespace UnityEngine::Rendering::Universal::Internal
 		::System::Single saturation; // 0x18
 		::System::Boolean lutInvert; // 0x1C
 		::System::Boolean lutToneColors; // 0x1D
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Color lutToneA; // 0x20
 		::UnityEngine::Color lutToneB; // 0x30
 		::System::Single lutMiddlePoint; // 0x40

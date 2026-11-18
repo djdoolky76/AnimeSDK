@@ -6,11 +6,11 @@
 namespace MoleMole::Cameras { class OverShoulderCameraConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_HACKERDRONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172BB950)
+#define MOLEMOLE_CONFIG_HACKERDRONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x164278E0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HackerDroneConfig_TypeDefinitionIndex = 78451;
+	inline static constexpr unsigned int HackerDroneConfig_TypeDefinitionIndex = 55685;
 
 	class HackerDroneConfig : public ::System::Object
 	{
@@ -18,12 +18,14 @@ namespace MoleMole::Config
 		// static const ::System::Single GroupLabelWidth1; // 0x0
 		::System::String* Key; // 0x10
 		::System::Boolean AnimatedRollPitch; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single RollPitchLimit; // 0x1C
 		::System::Single LeftYawLimit; // 0x20
 		::System::Single RightYawLimit; // 0x24
 		::System::Single DampTimeRollPitch; // 0x28
 		::System::Single DampTimeYaw; // 0x2C
 		::UnityEngine::Vector3 InitTargetPositionOffset; // 0x30
+		::System::Byte _padding1[0x4];
 		::MoleMole::Cameras::OverShoulderCameraConfig* OverShoulderCameraConfig; // 0x40
 
 		::System::Void _ctor()

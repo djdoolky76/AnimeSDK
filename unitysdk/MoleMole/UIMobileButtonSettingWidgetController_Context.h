@@ -4,32 +4,32 @@
 #include "unitysdk/MoleMole/ConfigUICommon_Input_PanelType.h"
 #include "unitysdk/MoleMole/ConfigUICommon_Input_SceneType.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
-#include "unitysdk/MoleMole/UserLocalDataItem_OverrideMobileButtonPanel_Enum_3_1165E7D2ED66927D.h"
+#include "unitysdk/MoleMole/UserLocalDataItem_OverrideMobileButtonPanel_NGABCODEKJG.h"
 
 namespace MoleMole { class ConfigUICommon_Input_ConfigMobilePanelLayout; }
 namespace MoleMole { class UserLocalDataItem_OverrideMobileButtonPanel; }
 
-#define MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT_GET_MAXVALUE_OFFSET UNITYSDK_OFFSET(0x189CD0F0)
-#define MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT_GET_MINVALUE_OFFSET UNITYSDK_OFFSET(0x189CD070)
-#define MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT_GET_OVERRIDEMOBILEBUTTONPANEL_OFFSET UNITYSDK_OFFSET(0x189CCBF0)
-#define MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT_GET_RUNTIMEVALUE_OFFSET UNITYSDK_OFFSET(0x189CCEF0)
-#define MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT_SET_RUNTIMEVALUE_OFFSET UNITYSDK_OFFSET(0x189CCFA0)
-#define MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x189CCCF0)
+#define MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT_GET_MAXVALUE_OFFSET UNITYSDK_OFFSET(0x1904DE30)
+#define MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT_GET_MINVALUE_OFFSET UNITYSDK_OFFSET(0x1904DDB0)
+#define MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT_GET_OVERRIDEMOBILEBUTTONPANEL_OFFSET UNITYSDK_OFFSET(0x1904D9A0)
+#define MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT_GET_RUNTIMEVALUE_OFFSET UNITYSDK_OFFSET(0x1904DC30)
+#define MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT_SET_RUNTIMEVALUE_OFFSET UNITYSDK_OFFSET(0x1904DCE0)
+#define MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1904DAA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMobileButtonSettingWidgetController_Context_TypeDefinitionIndex = 76479;
+	inline static constexpr unsigned int UIMobileButtonSettingWidgetController_Context_TypeDefinitionIndex = 90215;
 
 	class UIMobileButtonSettingWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::MoleMole::ConfigUICommon_Input_ConfigMobilePanelLayout* ConfigMobileSettingLayout; // 0x28
-		::MoleMole::ConfigUICommon_Input_PanelType panelType; // 0x30
-		::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel_Enum_3_1165E7D2ED66927D type; // 0x34
+		::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel_NGABCODEKJG type; // 0x30
+		::MoleMole::ConfigUICommon_Input_PanelType panelType; // 0x34
 
-		::System::Void _ctor(::MoleMole::ConfigUICommon_Input_SceneType sceneType, ::MoleMole::ConfigUICommon_Input_PanelPositionType positionType, ::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel_Enum_3_1165E7D2ED66927D settingType)
+		::System::Void _ctor(::MoleMole::ConfigUICommon_Input_SceneType sceneType, ::MoleMole::ConfigUICommon_Input_PanelPositionType positionType, ::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel_NGABCODEKJG settingType)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::ConfigUICommon_Input_SceneType, ::MoleMole::ConfigUICommon_Input_PanelPositionType, ::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel_Enum_3_1165E7D2ED66927D))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET))(this, sceneType, positionType, settingType);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::ConfigUICommon_Input_SceneType, ::MoleMole::ConfigUICommon_Input_PanelPositionType, ::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel_NGABCODEKJG))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMOBILEBUTTONSETTINGWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET))(this, sceneType, positionType, settingType);
 		}
 
 		::MoleMole::UserLocalDataItem_OverrideMobileButtonPanel* get_OverrideMobileButtonPanel()

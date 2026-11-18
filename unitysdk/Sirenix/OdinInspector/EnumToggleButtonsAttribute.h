@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_ENUMTOGGLEBUTTONSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76FF90)
+#define SIRENIX_ODININSPECTOR_ENUMTOGGLEBUTTONSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB801B0)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int EnumToggleButtonsAttribute_TypeDefinitionIndex = 7298;
+	inline static constexpr unsigned int EnumToggleButtonsAttribute_TypeDefinitionIndex = 7305;
 
 	class EnumToggleButtonsAttribute : public ::System::Attribute
 	{

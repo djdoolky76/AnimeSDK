@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CLFBLCIJPKD_FOBIKPLLGLE.h"
+#include "unitysdk/MoleMole/Config/ValueCompareType.h"
+
+#define NBNJMJGKOEO_ELMCEDCADKO_BLPGBMJMAJF_OFFSET UNITYSDK_OFFSET(0x1288A190)
+#define NBNJMJGKOEO_ELMCEDCADKO_CFDPNIAHKAF_OFFSET UNITYSDK_OFFSET(0x1288A200)
+#define NBNJMJGKOEO_ELMCEDCADKO_IAHPLEHJFGB_OFFSET UNITYSDK_OFFSET(0x1288A3C0)
+#define NBNJMJGKOEO_ELMCEDCADKO_JFNIMFIBFHA_OFFSET UNITYSDK_OFFSET(0x1288A460)
+#define NBNJMJGKOEO_ELMCEDCADKO_KJOHEMDIHNJ_OFFSET UNITYSDK_OFFSET(0x1288A580)
+#define NBNJMJGKOEO_ELMCEDCADKO__CTOR_OFFSET UNITYSDK_OFFSET(0x1288A180)
+
+inline static constexpr unsigned int NBNJMJGKOEO_ELMCEDCADKO_TypeDefinitionIndex = 68608;
+
+class NBNJMJGKOEO_ELMCEDCADKO : public ::CLFBLCIJPKD_FOBIKPLLGLE
+{
+public:
+	::System::Int32 NHBLEHKOFNB; // 0x28
+	::MoleMole::Config::ValueCompareType EECEKEPKHCC; // 0x2C
+
+	::System::Void _ctor(::MoleMole::Config::ValueCompareType FAMMCEJDLFE, ::System::Int32 NAFJONIAJKA)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::Config::ValueCompareType, ::System::Int32))((::PBYTE)hIl2Cpp + NBNJMJGKOEO_ELMCEDCADKO__CTOR_OFFSET))(this, FAMMCEJDLFE, NAFJONIAJKA);
+	}
+
+	::System::Int32 BLPGBMJMAJF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NBNJMJGKOEO_ELMCEDCADKO_BLPGBMJMAJF_OFFSET))(this);
+	}
+
+	::System::Void IAHPLEHJFGB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NBNJMJGKOEO_ELMCEDCADKO_IAHPLEHJFGB_OFFSET))(this);
+	}
+
+	::System::Void JFNIMFIBFHA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NBNJMJGKOEO_ELMCEDCADKO_JFNIMFIBFHA_OFFSET))(this);
+	}
+
+	::System::Boolean CFDPNIAHKAF()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NBNJMJGKOEO_ELMCEDCADKO_CFDPNIAHKAF_OFFSET))(this);
+	}
+
+	::System::Int32 KJOHEMDIHNJ()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + NBNJMJGKOEO_ELMCEDCADKO_KJOHEMDIHNJ_OFFSET))(this);
+	}
+};

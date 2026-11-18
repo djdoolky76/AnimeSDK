@@ -3,7 +3,7 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonDataCompatibility_SourceType_TypeDefinitionIndex = 40094;
+	inline static constexpr unsigned int SkeletonDataCompatibility_SourceType_TypeDefinitionIndex = 38109;
 
 	enum class SkeletonDataCompatibility_SourceType : ::System::Int32
 	{

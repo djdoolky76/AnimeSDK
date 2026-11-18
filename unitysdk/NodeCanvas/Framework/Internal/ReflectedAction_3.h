@@ -2,14 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NodeCanvas/Framework/Internal/ReflectedActionWrapper.h"
 
-namespace NodeCanvas::Framework { class BBParameter; }
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace ParadoxNotion { template <typename T1, typename T2, typename T3> class ActionCall_3; }
-namespace System { class Object; }
 
 namespace NodeCanvas::Framework::Internal
 {
-	inline static constexpr unsigned int ReflectedAction_3_TypeDefinitionIndex = 30060;
+	inline static constexpr unsigned int ReflectedAction_3_TypeDefinitionIndex = 30610;
 
 	template <typename T1, typename T2, typename T3>
 	class ReflectedAction_3 : public ::NodeCanvas::Framework::Internal::ReflectedActionWrapper

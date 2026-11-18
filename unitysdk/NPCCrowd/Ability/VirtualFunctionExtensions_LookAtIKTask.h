@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/NPCCrowd/Ability/LookAtIKTask.h"
 #include "unitysdk/StateTreeCore/StateTreeActiveStates.h"
 #include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
-#include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xF602E70)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xF602DE0)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_LINK_OFFSET UNITYSDK_OFFSET(0xF602D70)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0xF602F10)
-#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_TICK_OFFSET UNITYSDK_OFFSET(0xF602FE0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0xE787750)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0xE7876C0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_LINK_OFFSET UNITYSDK_OFFSET(0xE787650)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_STATECOMPLETED_OFFSET UNITYSDK_OFFSET(0xE7877F0)
+#define NPCCROWD_ABILITY_VIRTUALFUNCTIONEXTENSIONS_LOOKATIKTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE7878C0)
 
 namespace NPCCrowd::Ability
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_LookAtIKTask_TypeDefinitionIndex = 72665;
+	inline static constexpr unsigned int VirtualFunctionExtensions_LookAtIKTask_TypeDefinitionIndex = 76396;
 
 	class VirtualFunctionExtensions_LookAtIKTask : public ::System::Object
 	{

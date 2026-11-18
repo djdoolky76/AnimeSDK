@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RootMotion/FinalIK/HitReactionVRIK_Offset.h"
 
-namespace RootMotion::FinalIK { class HitReactionVRIK_PositionOffset_PositionOffsetLink; }
 namespace RootMotion::FinalIK { class VRIK; }
+namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_POSITIONOFFSET_CROSSFADESTART_OFFSET UNITYSDK_OFFSET(0x1FA15C90)
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_POSITIONOFFSET_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1FA15A50)
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_POSITIONOFFSET_ONAPPLY_OFFSET UNITYSDK_OFFSET(0x1FA15D00)
-#define ROOTMOTION_FINALIK_HITREACTIONVRIK_POSITIONOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA16110)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_POSITIONOFFSET_CROSSFADESTART_OFFSET UNITYSDK_OFFSET(0x1FE2FD10)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_POSITIONOFFSET_GETLENGTH_OFFSET UNITYSDK_OFFSET(0x1FE2FAD0)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_POSITIONOFFSET_ONAPPLY_OFFSET UNITYSDK_OFFSET(0x1FE2FD80)
+#define ROOTMOTION_FINALIK_HITREACTIONVRIK_POSITIONOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE30190)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int HitReactionVRIK_PositionOffset_TypeDefinitionIndex = 38890;
+	inline static constexpr unsigned int HitReactionVRIK_PositionOffset_TypeDefinitionIndex = 36845;
 
 	class HitReactionVRIK_PositionOffset : public ::RootMotion::FinalIK::HitReactionVRIK_Offset
 	{
 	public:
 		::System::Int32 forceDirCurveIndex; // 0x48
 		::System::Int32 upDirCurveIndex; // 0x4C
-		::Il2CppArray<::RootMotion::FinalIK::HitReactionVRIK_PositionOffset_PositionOffsetLink*>* offsetLinks; // 0x50
+		::Il2CppArray<::System::Object*>* offsetLinks; // 0x50
 
 		::System::Void _ctor()
 		{

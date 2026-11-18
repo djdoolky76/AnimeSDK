@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/Foundation/AssetPath.h"
 
 namespace MoleMole { class UIDisplayCaseManualPageController; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_UIDISPLAYCASEMANUALPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1804C7D0)
-#define MOLEMOLE_UIDISPLAYCASEMANUALPAGECONTROLLER___C__DISPLAYCLASS18_0__ONRTBUILT_B__0_OFFSET UNITYSDK_OFFSET(0x1804C7E0)
+#define MOLEMOLE_UIDISPLAYCASEMANUALPAGECONTROLLER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19990210)
+#define MOLEMOLE_UIDISPLAYCASEMANUALPAGECONTROLLER___C__DISPLAYCLASS18_0__ONRTBUILT_B__0_OFFSET UNITYSDK_OFFSET(0x19990220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDisplayCaseManualPageController___c__DisplayClass18_0_TypeDefinitionIndex = 46685;
+	inline static constexpr unsigned int UIDisplayCaseManualPageController___c__DisplayClass18_0_TypeDefinitionIndex = 44007;
 
 	class UIDisplayCaseManualPageController___c__DisplayClass18_0 : public ::System::Object
 	{

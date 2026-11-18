@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define NAPSTREAMING_NAPSTREAMINGEDITORMARK_GET_DESC_OFFSET UNITYSDK_OFFSET(0x177E8AB0)
-#define NAPSTREAMING_NAPSTREAMINGEDITORMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x177E8AF0)
+#define NAPSTREAMING_NAPSTREAMINGEDITORMARK_GET_DESC_OFFSET UNITYSDK_OFFSET(0xEEB35C0)
+#define NAPSTREAMING_NAPSTREAMINGEDITORMARK__CTOR_OFFSET UNITYSDK_OFFSET(0xEEB3600)
 
 namespace NapStreaming
 {
-	inline static constexpr unsigned int NapStreamingEditorMark_TypeDefinitionIndex = 50377;
+	inline static constexpr unsigned int NapStreamingEditorMark_TypeDefinitionIndex = 90967;
 
 	class NapStreamingEditorMark : public ::UnityEngine::MonoBehaviour
 	{

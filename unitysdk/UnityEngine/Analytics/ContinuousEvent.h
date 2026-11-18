@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_ANALYTICS_CONTINUOUSEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC435D0)
+#define UNITYENGINE_ANALYTICS_CONTINUOUSEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x200483A0)
 
 namespace UnityEngine::Analytics
 {
-	inline static constexpr unsigned int ContinuousEvent_TypeDefinitionIndex = 93734;
+	inline static constexpr unsigned int ContinuousEvent_TypeDefinitionIndex = 95423;
 
 	class ContinuousEvent : public ::System::Object
 	{

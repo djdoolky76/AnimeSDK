@@ -4,10 +4,10 @@
 
 namespace UnityEngine::InputSystem::LowLevel
 {
-	inline static constexpr unsigned int InputStateHistory_RecordHeader__m_StateWithoutControlIndex_e__FixedBuffer_TypeDefinitionIndex = 32572;
+	inline static constexpr unsigned int InputStateHistory_RecordHeader__m_StateWithoutControlIndex_e__FixedBuffer_TypeDefinitionIndex = 32021;
 
-	struct alignas(1) InputStateHistory_RecordHeader__m_StateWithoutControlIndex_e__FixedBuffer
+	struct alignas(4) InputStateHistory_RecordHeader__m_StateWithoutControlIndex_e__FixedBuffer
 	{
-		::System::Byte data[1]; // 0x0
+		::System::Byte FixedElementField; // 0x10
 	};
 }

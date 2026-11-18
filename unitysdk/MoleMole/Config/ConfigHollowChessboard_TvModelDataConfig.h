@@ -6,11 +6,12 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHollowChessboard_TvModelDataConfig_TypeDefinitionIndex = 59266;
+	inline static constexpr unsigned int ConfigHollowChessboard_TvModelDataConfig_TypeDefinitionIndex = 46371;
 
-	struct alignas(8) ConfigHollowChessboard_TvModelDataConfig
+	struct alignas(4) ConfigHollowChessboard_TvModelDataConfig
 	{
 		::MoleMole::HollowChessPieceSizeType SizeType; // 0x10
+		::System::Byte _padding0[0x4];
 		::MoleMole::Config::ConfigHollowChessboard_TVModelData ModelData; // 0x18
 	};
 }

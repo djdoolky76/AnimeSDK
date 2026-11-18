@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int ScopeLevel_TypeDefinitionIndex = 3738;
+	inline static constexpr unsigned int ScopeLevel_TypeDefinitionIndex = 3737;
 
 	enum class ScopeLevel : ::System::Int32
 	{

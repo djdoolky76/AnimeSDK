@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/EventArgs.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
+#include "unitysdk/System/EventArgs.h"
 
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CE8D230)
-#define SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE8D180)
+#define SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D4262F0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SAFESERIALIZATIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D426240)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SafeSerializationEventArgs_TypeDefinitionIndex = 1156;
+	inline static constexpr unsigned int SafeSerializationEventArgs_TypeDefinitionIndex = 1155;
 
 	class SafeSerializationEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Runtime::Serialization::StreamingContext m_streamingContext; // 0x10
-		::System::Collections::Generic::List_1<::System::Object*>* m_serializedStates; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* m_serializedStates; // 0x10
+		::System::Runtime::Serialization::StreamingContext m_streamingContext; // 0x18
 
 		::System::Void _ctor(::System::Runtime::Serialization::StreamingContext streamingContext)
 		{

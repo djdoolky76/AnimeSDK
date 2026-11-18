@@ -5,12 +5,12 @@
 namespace NodeCanvas::Framework { class IBlackboard; }
 namespace ParadoxNotion::Serialization::FullSerializer { class fsData; }
 
-#define NODECANVAS_FRAMEWORK_BBPARAMETER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B4700)
-#define NODECANVAS_FRAMEWORK_BBPARAMETER___C__DISPLAYCLASS13_0__SETBBFIELDS_B__0_OFFSET UNITYSDK_OFFSET(0x1E7B4710)
+#define NODECANVAS_FRAMEWORK_BBPARAMETER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA657D0)
+#define NODECANVAS_FRAMEWORK_BBPARAMETER___C__DISPLAYCLASS13_0__SETBBFIELDS_B__0_OFFSET UNITYSDK_OFFSET(0x1EA657E0)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int BBParameter___c__DisplayClass13_0_TypeDefinitionIndex = 30409;
+	inline static constexpr unsigned int BBParameter___c__DisplayClass13_0_TypeDefinitionIndex = 30654;
 
 	class BBParameter___c__DisplayClass13_0 : public ::System::Object
 	{

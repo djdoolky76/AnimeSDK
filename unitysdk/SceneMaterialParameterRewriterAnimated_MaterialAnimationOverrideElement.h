@@ -8,16 +8,17 @@
 namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define SCENEMATERIALPARAMETERREWRITERANIMATED_MATERIALANIMATIONOVERRIDEELEMENT_INIT_OFFSET UNITYSDK_OFFSET(0x1CB0EA20)
-#define SCENEMATERIALPARAMETERREWRITERANIMATED_MATERIALANIMATIONOVERRIDEELEMENT_SETMPB_OFFSET UNITYSDK_OFFSET(0x1CB0EAE0)
-#define SCENEMATERIALPARAMETERREWRITERANIMATED_MATERIALANIMATIONOVERRIDEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB0EBE0)
+#define SCENEMATERIALPARAMETERREWRITERANIMATED_MATERIALANIMATIONOVERRIDEELEMENT_INIT_OFFSET UNITYSDK_OFFSET(0x1CECFCE0)
+#define SCENEMATERIALPARAMETERREWRITERANIMATED_MATERIALANIMATIONOVERRIDEELEMENT_SETMPB_OFFSET UNITYSDK_OFFSET(0x1CECFDA0)
+#define SCENEMATERIALPARAMETERREWRITERANIMATED_MATERIALANIMATIONOVERRIDEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CECFEA0)
 
-inline static constexpr unsigned int SceneMaterialParameterRewriterAnimated_MaterialAnimationOverrideElement_TypeDefinitionIndex = 27345;
+inline static constexpr unsigned int SceneMaterialParameterRewriterAnimated_MaterialAnimationOverrideElement_TypeDefinitionIndex = 26646;
 
 class SceneMaterialParameterRewriterAnimated_MaterialAnimationOverrideElement : public ::System::Object
 {
 public:
 	::SceneMaterialParameterRewriterAnimated_MaterialAnimationOverrideElement_Type type; // 0x10
+	::System::Byte _padding0[0x4];
 	::System::String* propertyName; // 0x18
 	::UnityEngine::Color colorValue; // 0x20
 	::UnityEngine::Vector4 vectorValue; // 0x30

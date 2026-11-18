@@ -5,34 +5,34 @@
 namespace Sirenix::Serialization { class ISerializationPolicy; }
 namespace System { class String; }
 
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES_GET_EVERYTHING_OFFSET UNITYSDK_OFFSET(0x1EDCE0B0)
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES_GET_STRICT_OFFSET UNITYSDK_OFFSET(0x1EDCBE60)
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES_GET_UNITY_OFFSET UNITYSDK_OFFSET(0x1EDCE350)
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES_TRYGETBYID_OFFSET UNITYSDK_OFFSET(0x1EDCDF70)
-#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDCE670)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES_GET_EVERYTHING_OFFSET UNITYSDK_OFFSET(0x1F182EA0)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES_GET_STRICT_OFFSET UNITYSDK_OFFSET(0x1F180C10)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES_GET_UNITY_OFFSET UNITYSDK_OFFSET(0x1F183140)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES_TRYGETBYID_OFFSET UNITYSDK_OFFSET(0x1F182D60)
+#define SIRENIX_SERIALIZATION_SERIALIZATIONPOLICIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F183460)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int SerializationPolicies_TypeDefinitionIndex = 7536;
+	inline static constexpr unsigned int SerializationPolicies_TypeDefinitionIndex = 7544;
 
 	class SerializationPolicies : public ::System::Object
 	{
 	public:
-		static ::Sirenix::Serialization::ISerializationPolicy** StaticGet_unityPolicy()
+		static ::System::Object** StaticGet_LOCK()
 		{
-			return (::Sirenix::Serialization::ISerializationPolicy**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies_TypeDefinitionIndex)->GetStaticField(0x6590);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies_TypeDefinitionIndex)->GetStaticField(0x64B0);
 		}
 		static ::Sirenix::Serialization::ISerializationPolicy** StaticGet_everythingPolicy()
 		{
-			return (::Sirenix::Serialization::ISerializationPolicy**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies_TypeDefinitionIndex)->GetStaticField(0x6598);
+			return (::Sirenix::Serialization::ISerializationPolicy**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies_TypeDefinitionIndex)->GetStaticField(0x64B8);
 		}
 		static ::Sirenix::Serialization::ISerializationPolicy** StaticGet_strictPolicy()
 		{
-			return (::Sirenix::Serialization::ISerializationPolicy**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies_TypeDefinitionIndex)->GetStaticField(0x65A0);
+			return (::Sirenix::Serialization::ISerializationPolicy**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies_TypeDefinitionIndex)->GetStaticField(0x64C0);
 		}
-		static ::System::Object** StaticGet_LOCK()
+		static ::Sirenix::Serialization::ISerializationPolicy** StaticGet_unityPolicy()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies_TypeDefinitionIndex)->GetStaticField(0x65A8);
+			return (::Sirenix::Serialization::ISerializationPolicy**)Il2CppClass::FromTypeDefinitionIndex(SerializationPolicies_TypeDefinitionIndex)->GetStaticField(0x64C8);
 		}
 
 		static ::System::Void _cctor()

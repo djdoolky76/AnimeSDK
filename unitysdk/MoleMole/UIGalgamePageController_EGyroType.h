@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGalgamePageController_EGyroType_TypeDefinitionIndex = 62826;
+	inline static constexpr unsigned int UIGalgamePageController_EGyroType_TypeDefinitionIndex = 44788;
 
 	enum class UIGalgamePageController_EGyroType : ::System::Int32
 	{

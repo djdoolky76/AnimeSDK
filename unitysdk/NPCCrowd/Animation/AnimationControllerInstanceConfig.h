@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 #include "unitysdk/MoleMole/Photo/LookAtBoneConfig.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_FootOnGroundSegment.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Blend2dData;
 namespace NPCCrowd::Animation { class AnimationControllerInstanceEntry; }
 namespace NPCCrowd::Animation { class AnimationControllerTemplateConfig; }
 namespace NPCCrowd::Animation { class ICPUAnimationLib; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ISVALID_OFFSET UNITYSDK_OFFSET(0x12D10790)
-#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x12D10750)
-#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x12D10A20)
-#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x12D10B60)
+#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ISVALID_OFFSET UNITYSDK_OFFSET(0x13791060)
+#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x13791020)
+#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x137912F0)
+#define NPCCROWD_ANIMATION_ANIMATIONCONTROLLERINSTANCECONFIG___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x13791430)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationControllerInstanceConfig_TypeDefinitionIndex = 68354;
+	inline static constexpr unsigned int AnimationControllerInstanceConfig_TypeDefinitionIndex = 85447;
 
 	class AnimationControllerInstanceConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -33,6 +33,7 @@ namespace NPCCrowd::Animation
 		::NPCCrowd::Animation::AnimationControllerTemplateConfig* templateConfig; // 0x58
 		::NPCCrowd::Animation::ICPUAnimationLib* AnimationLib; // 0x60
 		::System::Boolean animationControllerConfig; // 0x68
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::NPCCrowd::Animation::AnimationControllerInstanceEntry*>* instances; // 0x70
 		::Il2CppArray<::System::String*>* adjustBones; // 0x78
 		::System::String* leftFootBoneName; // 0x80
@@ -59,6 +60,7 @@ namespace NPCCrowd::Animation
 		::System::Single lookAtHeadClampWeight; // 0x128
 		::System::Single lookAtEyeClampWeight; // 0x12C
 		::System::Int32 lookAtClampSmoothingIteration; // 0x130
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* lookAtSpineWeightCurve; // 0x138
 		::UnityEngine::Vector3 lookAtSpineTargetOffset; // 0x140
 		::System::Single startStretchRatio; // 0x14C
@@ -77,9 +79,10 @@ namespace NPCCrowd::Animation
 		::System::Single pelvisThreshold; // 0x190
 		::System::Single pelvisStiffness; // 0x194
 		::System::Single pelvisDamping; // 0x198
+		::System::Byte _padding2[0x4];
 		::Il2CppArray<::System::Int32>* animIds; // 0x1A0
-		::Il2CppArray<::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_FootOnGroundSegment>*>* leftFootOnGroundSegments; // 0x1A8
-		::Il2CppArray<::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_FootOnGroundSegment>*>* rightFootOnGroundSegments; // 0x1B0
+		::Il2CppArray<::Il2CppArray<::System::Object*>*>* leftFootOnGroundSegments; // 0x1A8
+		::Il2CppArray<::Il2CppArray<::System::Object*>*>* rightFootOnGroundSegments; // 0x1B0
 		::Il2CppArray<::System::Single>* speedScales; // 0x1B8
 		::Blend2dData* boneAdjustBlend2dData; // 0x1C0
 

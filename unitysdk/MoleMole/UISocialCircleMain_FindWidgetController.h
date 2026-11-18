@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIWidgetController.h"
-#include "unitysdk/Struct_2_575273D27F02957E.h"
+#include "unitysdk/LIBOIKJGAIH.h"
 
-class Class_2_F809E1927DB25744;
+class LGKJPKNDKJC;
 namespace MoleMole { class UIControlReference; }
 namespace MoleMole { class UIControllerContextBase; }
 
-#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x15A2D5D0)
-#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x15A2D640)
-#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x15A2D700)
-#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15A2DA90)
-#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x15A2DAF0)
-#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x15A2DB90)
+#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET UNITYSDK_OFFSET(0x15C710B0)
+#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x15C70C60)
+#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_ONSHOW_OFFSET UNITYSDK_OFFSET(0x15C70D20)
+#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15C71120)
+#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x15C71180)
+#define MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER___BASE_ONSHOW_OFFSET UNITYSDK_OFFSET(0x15C71220)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISocialCircleMain_FindWidgetController_TypeDefinitionIndex = 55182;
+	inline static constexpr unsigned int UISocialCircleMain_FindWidgetController_TypeDefinitionIndex = 83419;
 
 	class UISocialCircleMain_FindWidgetController : public ::MoleMole::UIWidgetController
 	{
@@ -26,14 +26,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		::Class_2_F809E1927DB25744* get__viewModel()
+		::System::Void OnCreateViewModel(::LIBOIKJGAIH& binderInfo, ::MoleMole::UIControlReference* controlReference)
 		{
-			return ((::Class_2_F809E1927DB25744*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_GET__VIEWMODEL_OFFSET))(this);
-		}
-
-		::System::Void OnCreateViewModel(::Struct_2_575273D27F02957E& binderInfo, ::MoleMole::UIControlReference* controlReference)
-		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_ONCREATEVIEWMODEL_OFFSET))(this, binderInfo, controlReference);
 		}
 
 		::System::Void OnShow(::MoleMole::UIControllerContextBase* showCtrlContext)
@@ -41,14 +36,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_ONSHOW_OFFSET))(this, showCtrlContext);
 		}
 
-		::System::Void __base_OnCreateViewModel(::Struct_2_575273D27F02957E& P0, ::MoleMole::UIControlReference* P1)
+		::System::Void __base_OnCreateViewModel(::LIBOIKJGAIH& P0, ::MoleMole::UIControlReference* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_575273D27F02957E&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::LIBOIKJGAIH&, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER___BASE_ONCREATEVIEWMODEL_OFFSET))(this, P0, P1);
 		}
 
 		::System::Void __base_OnShow(::MoleMole::UIControllerContextBase* P0)
 		{
 			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControllerContextBase*))((::PBYTE)hIl2Cpp + MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER___BASE_ONSHOW_OFFSET))(this, P0);
+		}
+
+		::LGKJPKNDKJC* OGMPOGIHBIK()
+		{
+			return ((::LGKJPKNDKJC*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UISOCIALCIRCLEMAIN_FINDWIDGETCONTROLLER_OGMPOGIHBIK_OFFSET))(this);
 		}
 	};
 }

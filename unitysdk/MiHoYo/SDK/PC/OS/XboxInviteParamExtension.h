@@ -4,17 +4,18 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXINVITEPARAMEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD09D40)
+#define MIHOYO_SDK_PC_OS_XBOXINVITEPARAMEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D142550)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxInviteParamExtension_TypeDefinitionIndex = 20767;
+	inline static constexpr unsigned int XboxInviteParamExtension_TypeDefinitionIndex = 19971;
 
 	class XboxInviteParamExtension : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* xuids; // 0x10
 		::System::Boolean allowCrossPlatformJoin; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::String* connectionString; // 0x20
 
 		::System::Void _ctor()

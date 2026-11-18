@@ -1,26 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PipelineCamera/WorldBasicCameraDataDeltaFlag.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Nullable_1.h"
 
 namespace PipelineCamera { class ICameraDataBlenderBuilder; }
 namespace PipelineCamera::Blender { class DefaultBlender; }
 namespace System { class String; }
 
-#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING_GENERATEBLENDERBUILDER_OFFSET UNITYSDK_OFFSET(0x1623ADB0)
-#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING_GENERATEBLENDER_OFFSET UNITYSDK_OFFSET(0x1623AC80)
-#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING_GENERATECUTBUILDER_OFFSET UNITYSDK_OFFSET(0x1623AA90)
-#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1623AF60)
+#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING_GENERATEBLENDERBUILDER_OFFSET UNITYSDK_OFFSET(0x10797620)
+#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING_GENERATEBLENDER_OFFSET UNITYSDK_OFFSET(0x107974F0)
+#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING_GENERATECUTBUILDER_OFFSET UNITYSDK_OFFSET(0x10797300)
+#define MOLEMOLE_CAMERAS_CAMERATRACKBLENDING__CTOR_OFFSET UNITYSDK_OFFSET(0x107977D0)
 
 namespace MoleMole::Cameras
 {
-	inline static constexpr unsigned int CameraTrackBlending_TypeDefinitionIndex = 67514;
+	inline static constexpr unsigned int CameraTrackBlending_TypeDefinitionIndex = 64992;
 
 	class CameraTrackBlending : public ::System::Object
 	{
 	public:
 		::System::Single duration; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* curve; // 0x18
 
 		::System::Void _ctor()

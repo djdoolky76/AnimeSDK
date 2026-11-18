@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_07C4412B5A0F6218.h"
+#include "unitysdk/OEFENONCHCI.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIFlowerTimeLinePageController; }
-template <typename T> class Class_0_16E4307DCC419505_164;
+template <typename T> class JIOLFCAGOFH_1;
 
-#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__DISPLAYCLASS11_0__BUILDVIEWMODELDATABINDING_B__5_OFFSET UNITYSDK_OFFSET(0x19723520)
-#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19723510)
+#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__DISPLAYCLASS11_0__BUILDVIEWMODELDATABINDING_B__5_OFFSET UNITYSDK_OFFSET(0x1A3CE440)
+#define MOLEMOLE_UIFLOWERTIMELINEPAGECONTROLLER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3CE430)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerTimeLinePageController___c__DisplayClass11_0_TypeDefinitionIndex = 62486;
+	inline static constexpr unsigned int UIFlowerTimeLinePageController___c__DisplayClass11_0_TypeDefinitionIndex = 72802;
 
 	class UIFlowerTimeLinePageController___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_164<::System::Int32>* source; // 0x10
-		::MoleMole::UIFlowerTimeLinePageController* __4__this; // 0x18
-		::Enum_3_07C4412B5A0F6218 tag; // 0x20
+		::MoleMole::UIFlowerTimeLinePageController* __4__this; // 0x10
+		::JIOLFCAGOFH_1<::System::Int32>* source; // 0x18
+		::OEFENONCHCI tag; // 0x20
 
 		::System::Void _ctor()
 		{

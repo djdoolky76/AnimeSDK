@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
-#include "unitysdk/ParadoxNotion/EventData_1.h"
 #include "unitysdk/UnityEngine/AvatarIKGoal.h"
+#include "unitysdk/ParadoxNotion/EventData_1.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
-namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1DFE03F0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_ONANIMATORIK_OFFSET UNITYSDK_OFFSET(0x1DFE0800)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1DFE0660)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1DFE0730)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE0A60)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E4094C0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_ONANIMATORIK_OFFSET UNITYSDK_OFFSET(0x1E4098D0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E409730)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1E409800)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETIK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E409B30)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int MecanimSetIK_TypeDefinitionIndex = 29732;
+	inline static constexpr unsigned int MecanimSetIK_TypeDefinitionIndex = 30331;
 
-	class MecanimSetIK : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Animator*>
+	class MecanimSetIK
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* weight; // 0x60

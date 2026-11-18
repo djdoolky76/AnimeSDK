@@ -2,27 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_F7CAAD54879BD084;
+class DMCCPINHAGM;
 namespace MoleMole { class UIWeaponLockDialogPopWindowController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIWEAPONLOCKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E31BE0)
-#define MOLEMOLE_UIWEAPONLOCKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_0__EXECUTESMARTLOCKUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x11E31BF0)
-#define MOLEMOLE_UIWEAPONLOCKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_0__EXECUTESMARTLOCKUNLOCK_B__1_OFFSET UNITYSDK_OFFSET(0x11E31C20)
-#define MOLEMOLE_UIWEAPONLOCKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_0__EXECUTESMARTLOCKUNLOCK_B__2_OFFSET UNITYSDK_OFFSET(0x11E31C50)
+#define MOLEMOLE_UIWEAPONLOCKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12F91A70)
+#define MOLEMOLE_UIWEAPONLOCKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_0__EXECUTESMARTLOCKUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x12F91A80)
+#define MOLEMOLE_UIWEAPONLOCKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_0__EXECUTESMARTLOCKUNLOCK_B__1_OFFSET UNITYSDK_OFFSET(0x12F91AB0)
+#define MOLEMOLE_UIWEAPONLOCKDIALOGPOPWINDOWCONTROLLER___C__DISPLAYCLASS33_0__EXECUTESMARTLOCKUNLOCK_B__2_OFFSET UNITYSDK_OFFSET(0x12F91AE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIWeaponLockDialogPopWindowController___c__DisplayClass33_0_TypeDefinitionIndex = 81972;
+	inline static constexpr unsigned int UIWeaponLockDialogPopWindowController___c__DisplayClass33_0_TypeDefinitionIndex = 82828;
 
 	class UIWeaponLockDialogPopWindowController___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_2_F7CAAD54879BD084*>* allARankWeapons; // 0x10
-		::MoleMole::UIWeaponLockDialogPopWindowController* __4__this; // 0x18
-		::System::Int32 completedOps; // 0x20
+		::MoleMole::UIWeaponLockDialogPopWindowController* __4__this; // 0x10
+		::System::Collections::Generic::List_1<::DMCCPINHAGM*>* allARankWeapons; // 0x18
+		::System::Int32 pendingOps; // 0x20
 		::System::Boolean hasLock; // 0x24
-		::System::Int32 pendingOps; // 0x28
+		::System::Byte _padding0[0x3];
+		::System::Int32 completedOps; // 0x28
 
 		::System::Void _ctor()
 		{

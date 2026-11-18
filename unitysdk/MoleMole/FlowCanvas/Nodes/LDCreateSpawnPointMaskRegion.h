@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_4.h"
 #include "unitysdk/MoleMole/SpawnPointMaskRegion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATESPAWNPOINTMASKREGION_INVOKE_OFFSET UNITYSDK_OFFSET(0x149D6DA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATESPAWNPOINTMASKREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x149D7020)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATESPAWNPOINTMASKREGION_INVOKE_OFFSET UNITYSDK_OFFSET(0x130C6A00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCREATESPAWNPOINTMASKREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x130C6C80)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDCreateSpawnPointMaskRegion_TypeDefinitionIndex = 81347;
+	inline static constexpr unsigned int LDCreateSpawnPointMaskRegion_TypeDefinitionIndex = 78039;
 
-	class LDCreateSpawnPointMaskRegion : public ::FlowCanvas::Nodes::CallableActionNode_4<::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::MoleMole::SpawnPointMaskRegion>
+	class LDCreateSpawnPointMaskRegion
 	{
 	public:
 		::System::Void _ctor()

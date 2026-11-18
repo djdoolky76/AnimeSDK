@@ -11,31 +11,31 @@ namespace BehaviorDesigner::Runtime { class SharedVector3; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F9AD400)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET_ONSTART_OFFSET UNITYSDK_OFFSET(0x1F9ACF30)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F9AD0C0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9AD4D0)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F9AD570)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1F9AD600)
-#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1F9AD690)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET_ONRESET_OFFSET UNITYSDK_OFFSET(0x1FDB3F40)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET_ONSTART_OFFSET UNITYSDK_OFFSET(0x1FDB3A70)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1FDB3C00)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1FDB4010)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET___BASE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1FDB40B0)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET___BASE_ONSTART_OFFSET UNITYSDK_OFFSET(0x1FDB4140)
+#define BEHAVIORDESIGNER_RUNTIME_TASKS_UNITY_UNITYANIMATOR_MATCHTARGET___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1FDB41D0)
 
 namespace BehaviorDesigner::Runtime::Tasks::Unity::UnityAnimator
 {
-	inline static constexpr unsigned int MatchTarget_TypeDefinitionIndex = 34452;
+	inline static constexpr unsigned int MatchTarget_TypeDefinitionIndex = 33998;
 
 	class MatchTarget : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::UnityEngine::GameObject* prevGameObject; // 0x58
-		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x60
-		::BehaviorDesigner::Runtime::SharedVector3* matchPosition; // 0x68
-		::UnityEngine::Animator* animator; // 0x70
-		::BehaviorDesigner::Runtime::SharedQuaternion* matchRotation; // 0x78
-		::System::Single startNormalizedTime; // 0x80
+		::UnityEngine::Animator* animator; // 0x58
+		::BehaviorDesigner::Runtime::SharedQuaternion* matchRotation; // 0x60
+		::BehaviorDesigner::Runtime::SharedGameObject* targetGameObject; // 0x68
+		::UnityEngine::GameObject* prevGameObject; // 0x70
+		::BehaviorDesigner::Runtime::SharedVector3* matchPosition; // 0x78
+		::UnityEngine::AvatarTarget targetBodyPart; // 0x80
 		::UnityEngine::Vector3 weightMaskPosition; // 0x84
-		::System::Single targetNormalizedTime; // 0x90
-		::System::Single weightMaskRotation; // 0x94
-		::UnityEngine::AvatarTarget targetBodyPart; // 0x98
+		::System::Single startNormalizedTime; // 0x90
+		::System::Single targetNormalizedTime; // 0x94
+		::System::Single weightMaskRotation; // 0x98
 
 		::System::Void _ctor()
 		{

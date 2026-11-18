@@ -7,11 +7,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_CONFIGFEATURETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x172C0D90)
+#define MOLEMOLE_CONFIGFEATURETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1642DB80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigFeatureTarget_TypeDefinitionIndex = 86557;
+	inline static constexpr unsigned int ConfigFeatureTarget_TypeDefinitionIndex = 70645;
 
 	class ConfigFeatureTarget : public ::System::Object
 	{
@@ -21,12 +21,13 @@ namespace MoleMole
 		::System::Collections::Generic::List_1<::MoleMole::FeatureTargetExtraInfo>* ExtraInfoDict; // 0x28
 		::System::Boolean defaultEnable; // 0x30
 		::System::Boolean enableAsHudFollow; // 0x31
+		::System::Byte _padding0[0x2];
 		::System::Single colliderRadius; // 0x34
 		::System::Boolean overrideColliderRadius; // 0x38
 
-		::System::Void _ctor(::MoleMole::GameplayTag a1, ::UnityEngine::Transform* a2, ::System::Boolean a3)
+		::System::Void _ctor(::MoleMole::GameplayTag AELLPLBJELA, ::UnityEngine::Transform* GKDOFHMDKHA, ::System::Boolean PBEHPKPFFHD)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::GameplayTag, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGFEATURETARGET__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::GameplayTag, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIGFEATURETARGET__CTOR_OFFSET))(this, AELLPLBJELA, GKDOFHMDKHA, PBEHPKPFFHD);
 		}
 	};
 }

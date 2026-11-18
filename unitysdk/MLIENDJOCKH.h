@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MLIENDJOCKH_TypeDefinitionIndex = 21586;
+
+enum class MLIENDJOCKH : ::System::Int32
+{
+	LKDKCFGANDL = 7,
+	FIGOGLDCDJM = 1,
+	FIACFKJICPG = 201,
+	EPNLHELNDNC = 103,
+	JFGCGPOLJAN = 9,
+	GGLOOBGLPJI = 10,
+	CIBLOHCHPME = 6,
+	AIFMGOJFFJO = 100,
+	HCIGODIDJMD = 4,
+	HJBDCACKHFK = 101,
+	AOGFGOKHGNI = 3,
+	OCDJKIONJLP = 102,
+	IFOEBAKIIFK = 2,
+	HKLIIBNHOAB = 5,
+	IIANKBFPPNF = 12,
+	JAHGLLPOBJN = 104,
+	GOHPJCFCDCD = 11,
+	EOBIMEIDDLK = 202,
+	GNDBIMAPICC = 8,
+	DBIHNMBIMPM = 0,
+};

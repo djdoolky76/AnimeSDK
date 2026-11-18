@@ -5,12 +5,12 @@
 namespace MoleMole { class UISuibianTempleCoinWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UISUIBIANTEMPLECOINWIDGETCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A47850)
-#define MOLEMOLE_UISUIBIANTEMPLECOINWIDGETCONTROLLER___C__DISPLAYCLASS34_0__PLAYANIMBYSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x15A47860)
+#define MOLEMOLE_UISUIBIANTEMPLECOINWIDGETCONTROLLER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C8AFA0)
+#define MOLEMOLE_UISUIBIANTEMPLECOINWIDGETCONTROLLER___C__DISPLAYCLASS34_0__PLAYANIMBYSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x15C8AFB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleCoinWidgetController___c__DisplayClass34_0_TypeDefinitionIndex = 81863;
+	inline static constexpr unsigned int UISuibianTempleCoinWidgetController___c__DisplayClass34_0_TypeDefinitionIndex = 64030;
 
 	class UISuibianTempleCoinWidgetController___c__DisplayClass34_0 : public ::System::Object
 	{

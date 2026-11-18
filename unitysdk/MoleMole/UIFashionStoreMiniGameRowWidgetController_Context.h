@@ -4,18 +4,18 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIFASHIONSTOREMINIGAMEROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB00A0)
+#define MOLEMOLE_UIFASHIONSTOREMINIGAMEROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFF5D80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFashionStoreMiniGameRowWidgetController_Context_TypeDefinitionIndex = 56560;
+	inline static constexpr unsigned int UIFashionStoreMiniGameRowWidgetController_Context_TypeDefinitionIndex = 56295;
 
 	class UIFashionStoreMiniGameRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* trails; // 0x28
-		::System::Collections::Generic::List_1<::System::Int32>* beats; // 0x30
-		::System::Collections::Generic::List_1<::System::Int32>* beatTypes; // 0x38
+		::System::Collections::Generic::List_1<::System::Int32>* beats; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* beatTypes; // 0x30
+		::System::Collections::Generic::List_1<::System::Int32>* trails; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_E64C24AE0799EB7C.h"
+#include "unitysdk/HKIPDKIIDOD.h"
 #include "unitysdk/MoleMole/SystemSettingEntryBase.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_JUMPSETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET UNITYSDK_OFFSET(0x13A95050)
-#define MOLEMOLE_JUMPSETTINGENTRY_GET__ISHIDEVERSIONCODE_OFFSET UNITYSDK_OFFSET(0x13A95040)
-#define MOLEMOLE_JUMPSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x13A920D0)
+#define MOLEMOLE_JUMPSETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET UNITYSDK_OFFSET(0x14671520)
+#define MOLEMOLE_JUMPSETTINGENTRY_GET__ISHIDEVERSIONCODE_OFFSET UNITYSDK_OFFSET(0x14671510)
+#define MOLEMOLE_JUMPSETTINGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1466D230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int JumpSettingEntry_TypeDefinitionIndex = 64626;
+	inline static constexpr unsigned int JumpSettingEntry_TypeDefinitionIndex = 39209;
 
 	class JumpSettingEntry : public ::MoleMole::SystemSettingEntryBase
 	{
@@ -28,9 +28,9 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_JUMPSETTINGENTRY_GET__ISHIDEVERSIONCODE_OFFSET))(this);
 		}
 
-		::Enum_3_E64C24AE0799EB7C get_SettingWidgetType()
+		::HKIPDKIIDOD get_SettingWidgetType()
 		{
-			return ((::Enum_3_E64C24AE0799EB7C(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_JUMPSETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET))(this);
+			return ((::HKIPDKIIDOD(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_JUMPSETTINGENTRY_GET_SETTINGWIDGETTYPE_OFFSET))(this);
 		}
 	};
 }

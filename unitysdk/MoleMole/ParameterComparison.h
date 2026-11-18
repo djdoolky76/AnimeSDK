@@ -5,36 +5,36 @@
 #include "unitysdk/MoleMole/AIAnimatorParamType.h"
 #include "unitysdk/MoleMole/AICompareType.h"
 
-class Class_3_F33F9DC5F4112336;
+class NLNIIPDCABP;
 namespace BehaviorDesigner::Runtime { class SharedBool; }
 namespace BehaviorDesigner::Runtime { class SharedFloat; }
 namespace BehaviorDesigner::Runtime { class SharedInt; }
 namespace BehaviorDesigner::Runtime { class SharedString; }
 namespace MoleMole { class SharedGameEntity; }
 
-#define MOLEMOLE_PARAMETERCOMPARISON_COMPAREBOOL_OFFSET UNITYSDK_OFFSET(0x18093BB0)
-#define MOLEMOLE_PARAMETERCOMPARISON_COMPAREFLOAT_OFFSET UNITYSDK_OFFSET(0x18093650)
-#define MOLEMOLE_PARAMETERCOMPARISON_COMPAREINT_OFFSET UNITYSDK_OFFSET(0x18093960)
-#define MOLEMOLE_PARAMETERCOMPARISON_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x180930E0)
-#define MOLEMOLE_PARAMETERCOMPARISON_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x18093480)
-#define MOLEMOLE_PARAMETERCOMPARISON_PARAMCHECK_OFFSET UNITYSDK_OFFSET(0x18093520)
-#define MOLEMOLE_PARAMETERCOMPARISON__CTOR_OFFSET UNITYSDK_OFFSET(0x18093E10)
-#define MOLEMOLE_PARAMETERCOMPARISON___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x18093EB0)
-#define MOLEMOLE_PARAMETERCOMPARISON___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x18093F40)
+#define MOLEMOLE_PARAMETERCOMPARISON_COMPAREBOOL_OFFSET UNITYSDK_OFFSET(0x12B84E00)
+#define MOLEMOLE_PARAMETERCOMPARISON_COMPAREFLOAT_OFFSET UNITYSDK_OFFSET(0x12B84890)
+#define MOLEMOLE_PARAMETERCOMPARISON_COMPAREINT_OFFSET UNITYSDK_OFFSET(0x12B84BA0)
+#define MOLEMOLE_PARAMETERCOMPARISON_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12B84320)
+#define MOLEMOLE_PARAMETERCOMPARISON_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12B846C0)
+#define MOLEMOLE_PARAMETERCOMPARISON_PARAMCHECK_OFFSET UNITYSDK_OFFSET(0x12B84760)
+#define MOLEMOLE_PARAMETERCOMPARISON__CTOR_OFFSET UNITYSDK_OFFSET(0x12B85060)
+#define MOLEMOLE_PARAMETERCOMPARISON___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x12B85100)
+#define MOLEMOLE_PARAMETERCOMPARISON___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x12B85190)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ParameterComparison_TypeDefinitionIndex = 78977;
+	inline static constexpr unsigned int ParameterComparison_TypeDefinitionIndex = 63471;
 
 	class ParameterComparison : public ::BehaviorDesigner::Runtime::Tasks::Conditional
 	{
 	public:
-		::BehaviorDesigner::Runtime::SharedFloat* FloatValue; // 0x50
-		::BehaviorDesigner::Runtime::SharedBool* BoolValue; // 0x58
-		::Class_3_F33F9DC5F4112336* characterAnimatorComponent; // 0x60
-		::BehaviorDesigner::Runtime::SharedString* ParameterName; // 0x68
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x70
-		::BehaviorDesigner::Runtime::SharedInt* IntValue; // 0x78
+		::BehaviorDesigner::Runtime::SharedBool* BoolValue; // 0x50
+		::BehaviorDesigner::Runtime::SharedFloat* FloatValue; // 0x58
+		::BehaviorDesigner::Runtime::SharedString* ParameterName; // 0x60
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x68
+		::BehaviorDesigner::Runtime::SharedInt* IntValue; // 0x70
+		::NLNIIPDCABP* characterAnimatorComponent; // 0x78
 		::MoleMole::AIAnimatorParamType ParameterType; // 0x80
 		::System::Int32 _animatorInstanceId; // 0x84
 		::MoleMole::AICompareType CompareType; // 0x88

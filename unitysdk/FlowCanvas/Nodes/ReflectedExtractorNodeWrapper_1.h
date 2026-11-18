@@ -4,14 +4,13 @@
 
 namespace FlowCanvas::Nodes { class BaseReflectedExtractorNode; }
 namespace System { class String; }
-namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class MemberInfo; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ReflectedExtractorNodeWrapper_1_TypeDefinitionIndex = 30264;
+	inline static constexpr unsigned int ReflectedExtractorNodeWrapper_1_TypeDefinitionIndex = 30906;
 
 	template <typename T>
 	class ReflectedExtractorNodeWrapper_1 : public ::FlowCanvas::FlowNode

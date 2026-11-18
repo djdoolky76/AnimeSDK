@@ -6,9 +6,9 @@ namespace Sirenix::Serialization { class IDataReader; }
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int MultiDimensionalArrayFormatter_2___c__DisplayClass6_0_TypeDefinitionIndex = 7477;
+	inline static constexpr unsigned int MultiDimensionalArrayFormatter_2___c__DisplayClass6_0_TypeDefinitionIndex = 7484;
 
-	template <typename TArray, typename TElement>
+	template <typename T1, typename T2>
 	class MultiDimensionalArrayFormatter_2___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

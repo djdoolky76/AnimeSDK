@@ -1,0 +1,109 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OCIKBEJKPCB.h"
+
+class HGFPBHGPFFM;
+class IPIKMNOIMCH;
+class MPHLLEOEFID;
+class OIHDNHFKHAM;
+namespace MoleMole { class UIEtherInfectionProgressWidgetController; }
+namespace System { class EventArgs; }
+
+#define PABEKNBKNOH_ACFAACMNLEE_OFFSET UNITYSDK_OFFSET(0x12958D70)
+#define PABEKNBKNOH_AFGPFLKDCIF_OFFSET UNITYSDK_OFFSET(0x12958830)
+#define PABEKNBKNOH_BCELJLFNDEI_OFFSET UNITYSDK_OFFSET(0x12958E00)
+#define PABEKNBKNOH_BMFIFOGBABJ_OFFSET UNITYSDK_OFFSET(0x12958A60)
+#define PABEKNBKNOH_DBOCDBDCKBM_OFFSET UNITYSDK_OFFSET(0x12958B00)
+#define PABEKNBKNOH_GACIPCKDNMC_OFFSET UNITYSDK_OFFSET(0x12958C90)
+#define PABEKNBKNOH_JGLFNBBHMEF_OFFSET UNITYSDK_OFFSET(0x12958B70)
+#define PABEKNBKNOH_JMAACLDJJMN_OFFSET UNITYSDK_OFFSET(0x12958870)
+#define PABEKNBKNOH_KCBENEBBOGP_OFFSET UNITYSDK_OFFSET(0x129587F0)
+#define PABEKNBKNOH_KJHFBOCBADC_OFFSET UNITYSDK_OFFSET(0x12958750)
+#define PABEKNBKNOH_LNJOOFKCJNN_OFFSET UNITYSDK_OFFSET(0x129589B0)
+#define PABEKNBKNOH_MCFILHLNBPK_OFFSET UNITYSDK_OFFSET(0x12958C00)
+#define PABEKNBKNOH_NNPDHPGLFFO_OFFSET UNITYSDK_OFFSET(0x12958D10)
+#define PABEKNBKNOH_OOLCMLLACCB_OFFSET UNITYSDK_OFFSET(0x12958B60)
+#define PABEKNBKNOH__CTOR_OFFSET UNITYSDK_OFFSET(0x12958A50)
+
+inline static constexpr unsigned int PABEKNBKNOH_TypeDefinitionIndex = 48050;
+
+class PABEKNBKNOH : public ::OCIKBEJKPCB
+{
+public:
+	::IPIKMNOIMCH* MGPPKBILBLE; // 0x90
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KJHFBOCBADC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH_KJHFBOCBADC_OFFSET))(this);
+	}
+
+	::System::Void KCBENEBBOGP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH_KCBENEBBOGP_OFFSET))(this);
+	}
+
+	::System::Void AFGPFLKDCIF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH_AFGPFLKDCIF_OFFSET))(this);
+	}
+
+	::HGFPBHGPFFM* JMAACLDJJMN()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH_JMAACLDJJMN_OFFSET))(this);
+	}
+
+	::System::Void LNJOOFKCJNN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH_LNJOOFKCJNN_OFFSET))(this);
+	}
+
+	::System::Boolean BMFIFOGBABJ(::OIHDNHFKHAM* FFNKDGGHBPP)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::OIHDNHFKHAM*))((::PBYTE)hIl2Cpp + PABEKNBKNOH_BMFIFOGBABJ_OFFSET))(this, FFNKDGGHBPP);
+	}
+
+	::HGFPBHGPFFM* OOLCMLLACCB()
+	{
+		return ((::HGFPBHGPFFM*(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH_OOLCMLLACCB_OFFSET))(this);
+	}
+
+	::System::Void JGLFNBBHMEF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH_JGLFNBBHMEF_OFFSET))(this);
+	}
+
+	::System::Void MCFILHLNBPK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH_MCFILHLNBPK_OFFSET))(this);
+	}
+
+	::System::Void GACIPCKDNMC(::System::EventArgs* KOIBHLHLMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + PABEKNBKNOH_GACIPCKDNMC_OFFSET))(this, KOIBHLHLMFC);
+	}
+
+	::MPHLLEOEFID* NNPDHPGLFFO()
+	{
+		return ((::MPHLLEOEFID*(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH_NNPDHPGLFFO_OFFSET))(this);
+	}
+
+	::MoleMole::UIEtherInfectionProgressWidgetController* DBOCDBDCKBM()
+	{
+		return ((::MoleMole::UIEtherInfectionProgressWidgetController*(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH_DBOCDBDCKBM_OFFSET))(this);
+	}
+
+	::System::Void ACFAACMNLEE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH_ACFAACMNLEE_OFFSET))(this);
+	}
+
+	::System::Void BCELJLFNDEI()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PABEKNBKNOH_BCELJLFNDEI_OFFSET))(this);
+	}
+};

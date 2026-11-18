@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/CubemapFace.h"
-#include "unitysdk/UnityEngine/RenderBuffer.h"
 #include "unitysdk/UnityEngine/Rendering/RenderBufferLoadAction.h"
 #include "unitysdk/UnityEngine/Rendering/RenderBufferStoreAction.h"
+#include "unitysdk/UnityEngine/CubemapFace.h"
+#include "unitysdk/UnityEngine/RenderBuffer.h"
 
-#define UNITYENGINE_RENDERTARGETSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0xA56200)
+#define UNITYENGINE_RENDERTARGETSETUP__CTOR_OFFSET UNITYSDK_OFFSET(0x936BB0)
 
 namespace UnityEngine
 {
@@ -19,6 +19,7 @@ namespace UnityEngine
 		::System::Int32 mipLevel; // 0x28
 		::UnityEngine::CubemapFace cubemapFace; // 0x2C
 		::System::Int32 depthSlice; // 0x30
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::Rendering::RenderBufferLoadAction>* colorLoad; // 0x38
 		::Il2CppArray<::UnityEngine::Rendering::RenderBufferStoreAction>* colorStore; // 0x40
 		::UnityEngine::Rendering::RenderBufferLoadAction depthLoad; // 0x48

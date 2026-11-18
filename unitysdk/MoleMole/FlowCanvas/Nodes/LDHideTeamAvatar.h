@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDETEAMAVATAR_HIDEAVATAR_OFFSET UNITYSDK_OFFSET(0x13835150)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDETEAMAVATAR_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x13835060)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDETEAMAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x138354E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDETEAMAVATAR__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x13835520)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDETEAMAVATAR_HIDEAVATAR_OFFSET UNITYSDK_OFFSET(0x139DA410)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDETEAMAVATAR_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x139DA320)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDETEAMAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x139DA7A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDHIDETEAMAVATAR__REGISTERPORTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x139DA7E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDHideTeamAvatar_TypeDefinitionIndex = 87755;
+	inline static constexpr unsigned int LDHideTeamAvatar_TypeDefinitionIndex = 49131;
 
 	class LDHideTeamAvatar : public ::FlowCanvas::Nodes::FlowControlNode
 	{

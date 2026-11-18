@@ -3,7 +3,7 @@
 
 namespace Mono::Security::X509::Extensions
 {
-	inline static constexpr unsigned int NetscapeCertTypeExtension_CertTypes_TypeDefinitionIndex = 2339;
+	inline static constexpr unsigned int NetscapeCertTypeExtension_CertTypes_TypeDefinitionIndex = 2338;
 
 	enum class NetscapeCertTypeExtension_CertTypes : ::System::Int32
 	{

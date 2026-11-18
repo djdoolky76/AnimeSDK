@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIHouseRhythmRewardRowWidgetController_HouseRhythmRewardRow_DataBind; }
 
-#define MOLEMOLE_UIHOUSERHYTHMREWARDROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17329C40)
+#define MOLEMOLE_UIHOUSERHYTHMREWARDROWWIDGETCONTROLLER_DATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18CD64D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHouseRhythmRewardRowWidgetController_Data_TypeDefinitionIndex = 53648;
+	inline static constexpr unsigned int UIHouseRhythmRewardRowWidgetController_Data_TypeDefinitionIndex = 64754;
 
 	class UIHouseRhythmRewardRowWidgetController_Data : public ::System::Object
 	{

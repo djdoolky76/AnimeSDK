@@ -8,22 +8,22 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x1B4CC400)
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x1B4CCCB0)
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x1B4CC600)
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4CCEA0)
-#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CCDC0)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x12772FE0)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA_RELOADFROMFILEASYNC_OFFSET UNITYSDK_OFFSET(0x127739F0)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA_RELOADFROMFILE_OFFSET UNITYSDK_OFFSET(0x12773340)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0x12773BE0)
+#define MOLEMOLE_CONFIG_CONFIGHIGHLIGHTAIRCOMBATCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x12773B00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigHighLightAirCombatCamera_TypeDefinitionIndex = 82354;
+	inline static constexpr unsigned int ConfigHighLightAirCombatCamera_TypeDefinitionIndex = 38573;
 
 	class ConfigHighLightAirCombatCamera : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::HighLightAirCombatCameraConfig*>** StaticGet__dicRuntimeConfigs()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::HighLightAirCombatCameraConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHighLightAirCombatCamera_TypeDefinitionIndex)->GetStaticField(0x4D400);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::HighLightAirCombatCameraConfig*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigHighLightAirCombatCamera_TypeDefinitionIndex)->GetStaticField(0x4F860);
 		}
 		// static const ::System::String* DEFAULT_KEY; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::HighLightAirCombatCameraConfig*>* DicConfigs; // 0x58

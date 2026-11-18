@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CustomDamperUtility_DampingType_TypeDefinitionIndex = 66275;
+	inline static constexpr unsigned int CustomDamperUtility_DampingType_TypeDefinitionIndex = 68595;
 
 	enum class CustomDamperUtility_DampingType : ::System::Int32
 	{

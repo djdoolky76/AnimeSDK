@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeNodeBase.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeNodeBase.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace StateTreeCore { class StateTreeLinker; }
 namespace UnrealTypes { class Struct; }
 
-#define STATETREECORE_VIRTUALFUNCTIONEXTENSIONS_STATETREENODEBASE_COMPILE_OFFSET UNITYSDK_OFFSET(0x1F6B5CF0)
-#define STATETREECORE_VIRTUALFUNCTIONEXTENSIONS_STATETREENODEBASE_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1F6B5DA0)
-#define STATETREECORE_VIRTUALFUNCTIONEXTENSIONS_STATETREENODEBASE_LINK_OFFSET UNITYSDK_OFFSET(0x1F6B5D50)
+#define STATETREECORE_VIRTUALFUNCTIONEXTENSIONS_STATETREENODEBASE_COMPILE_OFFSET UNITYSDK_OFFSET(0x1FAF5F40)
+#define STATETREECORE_VIRTUALFUNCTIONEXTENSIONS_STATETREENODEBASE_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1FAF5FF0)
+#define STATETREECORE_VIRTUALFUNCTIONEXTENSIONS_STATETREENODEBASE_LINK_OFFSET UNITYSDK_OFFSET(0x1FAF5FA0)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_StateTreeNodeBase_TypeDefinitionIndex = 31594;
+	inline static constexpr unsigned int VirtualFunctionExtensions_StateTreeNodeBase_TypeDefinitionIndex = 31031;
 
 	class VirtualFunctionExtensions_StateTreeNodeBase : public ::System::Object
 	{

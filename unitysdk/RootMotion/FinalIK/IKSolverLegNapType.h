@@ -3,12 +3,12 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolverLegNapType_TypeDefinitionIndex = 38775;
+	inline static constexpr unsigned int IKSolverLegNapType_TypeDefinitionIndex = 36836;
 
 	enum class IKSolverLegNapType : ::System::Int32
 	{
 		CCDIK = 2,
-		Trigonometric = 0,
 		FABRIK = 1,
+		Trigonometric = 0,
 	};
 }

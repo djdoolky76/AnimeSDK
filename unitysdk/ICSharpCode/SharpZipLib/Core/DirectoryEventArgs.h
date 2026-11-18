@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define ICSHARPCODE_SHARPZIPLIB_CORE_DIRECTORYEVENTARGS_GET_HASMATCHINGFILES_OFFSET UNITYSDK_OFFSET(0x1FB725B0)
-#define ICSHARPCODE_SHARPZIPLIB_CORE_DIRECTORYEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB72540)
+#define ICSHARPCODE_SHARPZIPLIB_CORE_DIRECTORYEVENTARGS_GET_HASMATCHINGFILES_OFFSET UNITYSDK_OFFSET(0x1FF73210)
+#define ICSHARPCODE_SHARPZIPLIB_CORE_DIRECTORYEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF731A0)
 
 namespace ICSharpCode::SharpZipLib::Core
 {
-	inline static constexpr unsigned int DirectoryEventArgs_TypeDefinitionIndex = 6781;
+	inline static constexpr unsigned int DirectoryEventArgs_TypeDefinitionIndex = 6788;
 
 	class DirectoryEventArgs : public ::ICSharpCode::SharpZipLib::Core::ScanEventArgs
 	{

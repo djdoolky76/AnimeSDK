@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackOffset_TypeDefinitionIndex = 32886;
+	inline static constexpr unsigned int TrackOffset_TypeDefinitionIndex = 32338;
 
 	enum class TrackOffset : ::System::Int32
 	{

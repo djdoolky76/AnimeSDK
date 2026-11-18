@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 class WeatherConfig;
 namespace System { class String; }
@@ -16,39 +16,41 @@ namespace System::Reflection { class FieldInfo; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x129E9500)
-#define MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_GET_FOGUSEOLDVERSION_OFFSET UNITYSDK_OFFSET(0x129E94A0)
-#define MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_METHOD_4_C242374E179247ED_OFFSET UNITYSDK_OFFSET(0x129E9B60)
-#define MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_SET_FOGUSEOLDVERSION_OFFSET UNITYSDK_OFFSET(0x129E94B0)
-#define MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET__CCTOR_OFFSET UNITYSDK_OFFSET(0x129E9B50)
-#define MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x129E99D0)
+#define MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18829F30)
+#define MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_GET_FOGUSEOLDVERSION_OFFSET UNITYSDK_OFFSET(0x18829ED0)
+#define MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_HFJBDMGMBLB_OFFSET UNITYSDK_OFFSET(0x1882A580)
+#define MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_SET_FOGUSEOLDVERSION_OFFSET UNITYSDK_OFFSET(0x18829EE0)
+#define MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET__CCTOR_OFFSET UNITYSDK_OFFSET(0x1882A570)
+#define MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1882A3F0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int VisualEnvControlAsset_TypeDefinitionIndex = 64720;
+	inline static constexpr unsigned int VisualEnvControlAsset_TypeDefinitionIndex = 50200;
 
 	class VisualEnvControlAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::FieldInfo*>** StaticGet_weatherFieldsDic()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::FieldInfo*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvControlAsset_TypeDefinitionIndex)->GetStaticField(0x530F0);
+		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::FieldInfo*>** StaticGet_behaviorFieldDic()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::FieldInfo*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvControlAsset_TypeDefinitionIndex)->GetStaticField(0x53620);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::FieldInfo*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvControlAsset_TypeDefinitionIndex)->GetStaticField(0x530F8);
 		}
 		static ::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>** StaticGet_selfFields()
 		{
-			return (::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvControlAsset_TypeDefinitionIndex)->GetStaticField(0x53628);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::FieldInfo*>** StaticGet_weatherFieldsDic()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Reflection::FieldInfo*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvControlAsset_TypeDefinitionIndex)->GetStaticField(0x53630);
+			return (::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>**)Il2CppClass::FromTypeDefinitionIndex(VisualEnvControlAsset_TypeDefinitionIndex)->GetStaticField(0x53100);
 		}
 		::System::Boolean UnInit; // 0x18
 		::System::Boolean fogUseNewVerion; // 0x19
+		::System::Byte _padding0[0x2];
 		::System::Single GIIntensity; // 0x1C
 		::UnityEngine::Color GIColorOffset; // 0x20
 		::System::Single EmissionIntensity; // 0x30
 		::System::Single IBLIntensity; // 0x34
 		::System::Boolean hasGlobalVolumetricFog; // 0x38
+		::System::Byte _padding1[0x3];
 		::System::Single volumetricFogSize; // 0x3C
 		::System::Single volumetricFog_Jittering; // 0x40
 		::System::Single volumetricFog_Dithering; // 0x44
@@ -62,6 +64,7 @@ namespace MoleMole::Timeline
 		::System::Single volumetricFog_ExtraBlurValue; // 0x70
 		::System::Boolean VolumetricFogBlitBeforeEffect; // 0x74
 		::System::Boolean hasLightFogProxy; // 0x75
+		::System::Byte _padding2[0x2];
 		::System::Single lightFogMaxDensity; // 0x78
 		::System::Single lightFogSoftParticleStartFadeDistance; // 0x7C
 		::System::Single lightFogSoftParticleFadeFactor; // 0x80
@@ -84,9 +87,11 @@ namespace MoleMole::Timeline
 		::System::Single cloudLightMinIntervalTime; // 0x110
 		::System::Single cloudLightDurationTime; // 0x114
 		::System::Single cloudShadowIntensity; // 0x118
+		::System::Byte _padding3[0x4];
 		::UnityEngine::Texture* cloudShadow; // 0x120
 		::UnityEngine::Vector4 cloudShadowTileAndOffset; // 0x128
 		::System::Boolean cloudGodRay; // 0x138
+		::System::Byte _padding4[0x3];
 		::UnityEngine::Vector2 cloudShadowMoveSpeed; // 0x13C
 		::UnityEngine::Vector3 cloudShadowRotation; // 0x144
 		::System::Single cloudOffsetY; // 0x150
@@ -96,6 +101,7 @@ namespace MoleMole::Timeline
 		::UnityEngine::Vector3 moonDir; // 0x160
 		::System::Boolean mainLightShadowTint; // 0x16C
 		::System::Boolean EnableAutoExposure; // 0x16D
+		::System::Byte _padding5[0x2];
 		::System::Single AutoExposureCompensation; // 0x170
 		::System::Single rippleSpeed; // 0x174
 		::System::Single rippleDensity; // 0x178
@@ -120,19 +126,19 @@ namespace MoleMole::Timeline
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_GET_FOGUSEOLDVERSION_OFFSET))(this);
 		}
 
-		::System::Void set_fogUseOldVersion(::System::Boolean a1)
+		::System::Void set_fogUseOldVersion(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_SET_FOGUSEOLDVERSION_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_SET_FOGUSEOLDVERSION_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* NJOAJLDJCCJ)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_CREATEPLAYABLE_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_CREATEPLAYABLE_OFFSET))(this, MHPNGBGGMMN, NJOAJLDJCCJ);
 		}
 
-		::System::Void Method_4_C242374E179247ED(::WeatherConfig* a1)
+		::System::Void HFJBDMGMBLB(::WeatherConfig* HMOGPGGAJLO)
 		{
-			return ((::System::Void(*)(::PVOID, ::WeatherConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_METHOD_4_C242374E179247ED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::WeatherConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCONTROLASSET_HFJBDMGMBLB_OFFSET))(this, HMOGPGGAJLO);
 		}
 	};
 }

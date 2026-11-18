@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_OverseaAccountLoginElements_TypeDefinitionIndex = 37881;
+	inline static constexpr unsigned int UIConstants_OverseaAccountLoginElements_TypeDefinitionIndex = 35879;
 
 	class UIConstants_OverseaAccountLoginElements : public ::System::Object
 	{
@@ -24,6 +22,7 @@ namespace MiHoYo::SDK::PluginUI
 		// static const ::System::String* GAME_CENTER_LOGIN_BUTTON; // 0x0
 		// static const ::System::String* APPLE_LOGIN_BUTTON; // 0x0
 		// static const ::System::String* HOYOLAB_LOGIN_BUTTON; // 0x0
+		// static const ::System::String* DISCORD_LOGIN_BUTTON; // 0x0
 		// static const ::System::String* LOGIN_BUTTON; // 0x0
 		// static const ::System::String* TEST_TIPS; // 0x0
 	};

@@ -5,11 +5,11 @@
 namespace MoleMole { class TextureSheetSkipFrameParamXY; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TEXTURESHEETSKIPFRAMEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x136F2B90)
+#define MOLEMOLE_TEXTURESHEETSKIPFRAMEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF25B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TextureSheetSkipFrameParam_TypeDefinitionIndex = 61203;
+	inline static constexpr unsigned int TextureSheetSkipFrameParam_TypeDefinitionIndex = 69234;
 
 	class TextureSheetSkipFrameParam : public ::System::Object
 	{

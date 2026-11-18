@@ -8,11 +8,11 @@ namespace MoleMole::Config { class ConfigGhostMove; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x14863AE0)
+#define MOLEMOLE_CONFIG_CONFIGGHOSTEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x11E90720)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGhostEffects_TypeDefinitionIndex = 63252;
+	inline static constexpr unsigned int ConfigGhostEffects_TypeDefinitionIndex = 49281;
 
 	class ConfigGhostEffects : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -20,6 +20,7 @@ namespace MoleMole::Config
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::Config::ConfigGhostEffect*>* GhostEffects; // 0x58
 		::System::Boolean GhostMoveIgnoreWorldTimeScale; // 0x60
 		::System::Boolean GhostMoveIgnoreOwnerTimeScale; // 0x61
+		::System::Byte _padding0[0x6];
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::CharacterSize, ::MoleMole::Config::ConfigGhostMove*>* GhostMoves; // 0x68
 
 		::System::Void _ctor()

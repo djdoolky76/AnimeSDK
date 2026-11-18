@@ -2,8 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { template <typename T1, typename T2> class Tuple_2; }
-
 namespace System
 {
 	inline static constexpr unsigned int TupleExtensions_TypeDefinitionIndex = 115;

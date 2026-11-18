@@ -1,25 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_B9002106B360C669.h"
+#include "unitysdk/AJCAAAAJKDF.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace MoleMole { class UIRoleEquipReplaceWidgetController; }
 
-#define MOLEMOLE_UIEQUIPDEVELOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1856DB30)
+#define MOLEMOLE_UIEQUIPDEVELOPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1800F0F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIEquipDevelopContext_TypeDefinitionIndex = 66229;
+	inline static constexpr unsigned int UIEquipDevelopContext_TypeDefinitionIndex = 41310;
 
 	class UIEquipDevelopContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
 		::MoleMole::UIRoleEquipReplaceWidgetController* equipReplaceWidget; // 0x28
-		::Class_1_0D6706375CDAAE8C* ItemDevelopData; // 0x30
+		::HGAJKHIMKJP* ItemDevelopData; // 0x30
 		::System::Int32 CloseIndex; // 0x38
 		::System::Boolean CloseOpenDialog; // 0x3C
-		::Enum_3_B9002106B360C669 Type; // 0x40
+		::System::Byte _padding0[0x3];
+		::AJCAAAAJKDF Type; // 0x40
 
 		::System::Void _ctor()
 		{

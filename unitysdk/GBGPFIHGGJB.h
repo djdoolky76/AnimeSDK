@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JJEJBPGJPJN.h"
+
+class DOJMDAEDOKN;
+template <typename T> class LJHFMILANJA_1;
+
+#define GBGPFIHGGJB_ALGDLJGCEHD_OFFSET UNITYSDK_OFFSET(0x125C22A0)
+#define GBGPFIHGGJB_DJALKGHNHMK_OFFSET UNITYSDK_OFFSET(0x125C22B0)
+#define GBGPFIHGGJB_EKIFPEICBMK_OFFSET UNITYSDK_OFFSET(0x125C24E0)
+#define GBGPFIHGGJB_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x125C20F0)
+#define GBGPFIHGGJB_PENDMLPCMKB_OFFSET UNITYSDK_OFFSET(0x125C24F0)
+#define GBGPFIHGGJB_POPALILKCGI_OFFSET UNITYSDK_OFFSET(0x125C23B0)
+#define GBGPFIHGGJB_PPIFNHNGCGO_OFFSET UNITYSDK_OFFSET(0x125C2500)
+#define GBGPFIHGGJB__CTOR_OFFSET UNITYSDK_OFFSET(0x125C2290)
+
+inline static constexpr unsigned int GBGPFIHGGJB_TypeDefinitionIndex = 43280;
+
+class GBGPFIHGGJB : public ::JJEJBPGJPJN
+{
+public:
+	::LJHFMILANJA_1<::System::Int32>* _HHNNKGPFJNO_k__BackingField; // 0x88
+	::LJHFMILANJA_1<::DOJMDAEDOKN*>* _NIIOHJPLBJF_k__BackingField; // 0x90
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GBGPFIHGGJB__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnCreateProperty()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GBGPFIHGGJB_ONCREATEPROPERTY_OFFSET))(this);
+	}
+
+	::System::Void ALGDLJGCEHD(::LJHFMILANJA_1<::System::Int32>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::System::Int32>*))((::PBYTE)hIl2Cpp + GBGPFIHGGJB_ALGDLJGCEHD_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Int32 DJALKGHNHMK()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GBGPFIHGGJB_DJALKGHNHMK_OFFSET))(this);
+	}
+
+	::System::Void POPALILKCGI(::System::Int32 HFMHOELKCAJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GBGPFIHGGJB_POPALILKCGI_OFFSET))(this, HFMHOELKCAJ);
+	}
+
+	::System::Void EKIFPEICBMK(::LJHFMILANJA_1<::DOJMDAEDOKN*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::DOJMDAEDOKN*>*))((::PBYTE)hIl2Cpp + GBGPFIHGGJB_EKIFPEICBMK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LJHFMILANJA_1<::DOJMDAEDOKN*>* PENDMLPCMKB()
+	{
+		return ((::LJHFMILANJA_1<::DOJMDAEDOKN*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GBGPFIHGGJB_PENDMLPCMKB_OFFSET))(this);
+	}
+
+	::LJHFMILANJA_1<::System::Int32>* PPIFNHNGCGO()
+	{
+		return ((::LJHFMILANJA_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GBGPFIHGGJB_PPIFNHNGCGO_OFFSET))(this);
+	}
+};

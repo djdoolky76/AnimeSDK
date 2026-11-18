@@ -4,9 +4,9 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExBeatSync_Info_TypeDefinitionIndex = 34922;
+	inline static constexpr unsigned int CriAtomExBeatSync_Info_TypeDefinitionIndex = 34471;
 
-	struct alignas(8) CriAtomExBeatSync_Info
+	struct alignas(4) CriAtomExBeatSync_Info
 	{
 		::System::IntPtr playerHn; // 0x10
 		::System::UInt32 playbackId; // 0x18
@@ -16,6 +16,7 @@ namespace CriWare
 		::System::Single bpm; // 0x28
 		::System::Int32 offset; // 0x2C
 		::System::UInt32 numBeats; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::IntPtr labelPtr; // 0x38
 	};
 }

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIMAINCITYSIDEBARPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1744FB20)
-#define MOLEMOLE_UIMAINCITYSIDEBARPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1744FB60)
-#define MOLEMOLE_UIMAINCITYSIDEBARPOPWINDOWCONTROLLER___C__ONUIOPEN_B__6_0_OFFSET UNITYSDK_OFFSET(0x1744FB70)
+#define MOLEMOLE_UIMAINCITYSIDEBARPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x193A4C60)
+#define MOLEMOLE_UIMAINCITYSIDEBARPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x193A4CA0)
+#define MOLEMOLE_UIMAINCITYSIDEBARPOPWINDOWCONTROLLER___C__ONUIOPEN_B__7_0_OFFSET UNITYSDK_OFFSET(0x193A4CB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCitySidebarPopWindowController___c_TypeDefinitionIndex = 41479;
+	inline static constexpr unsigned int UIMainCitySidebarPopWindowController___c_TypeDefinitionIndex = 53117;
 
 	class UIMainCitySidebarPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__6_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySidebarPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x45210);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySidebarPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4ACB0);
 		}
-		static ::MoleMole::UIMainCitySidebarPopWindowController___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__7_0()
 		{
-			return (::MoleMole::UIMainCitySidebarPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySidebarPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x45218);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIMainCitySidebarPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x4ACB8);
 		}
 
 		static ::System::Void _cctor()
@@ -34,9 +34,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYSIDEBARPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnUIOpen_b__6_0()
+		::System::Void _OnUIOpen_b__7_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYSIDEBARPOPWINDOWCONTROLLER___C__ONUIOPEN_B__6_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYSIDEBARPOPWINDOWCONTROLLER___C__ONUIOPEN_B__7_0_OFFSET))(this);
 		}
 	};
 }

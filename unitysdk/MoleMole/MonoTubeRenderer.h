@@ -7,87 +7,91 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-namespace System { class String; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshFilter; }
 
-#define MOLEMOLE_MONOTUBERENDERER_AWAKE_OFFSET UNITYSDK_OFFSET(0x108142D0)
-#define MOLEMOLE_MONOTUBERENDERER_FORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x10814000)
-#define MOLEMOLE_MONOTUBERENDERER_GETLENGTHATPOINT_OFFSET UNITYSDK_OFFSET(0x10814260)
-#define MOLEMOLE_MONOTUBERENDERER_GETROTATIONATPOINT_OFFSET UNITYSDK_OFFSET(0x108141D0)
-#define MOLEMOLE_MONOTUBERENDERER_GET_CALCULATETANGENTS_OFFSET UNITYSDK_OFFSET(0x10813E00)
-#define MOLEMOLE_MONOTUBERENDERER_GET_EDGECOUNT_OFFSET UNITYSDK_OFFSET(0x10813D30)
-#define MOLEMOLE_MONOTUBERENDERER_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x10813FE0)
-#define MOLEMOLE_MONOTUBERENDERER_GET_MESH_OFFSET UNITYSDK_OFFSET(0x10813FF0)
-#define MOLEMOLE_MONOTUBERENDERER_GET_POINTS_OFFSET UNITYSDK_OFFSET(0x108139C0)
-#define MOLEMOLE_MONOTUBERENDERER_GET_RADIUSES_OFFSET UNITYSDK_OFFSET(0x10813B60)
-#define MOLEMOLE_MONOTUBERENDERER_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x10813C10)
-#define MOLEMOLE_MONOTUBERENDERER_GET_UVANTISTRETCHING_OFFSET UNITYSDK_OFFSET(0x10813F70)
-#define MOLEMOLE_MONOTUBERENDERER_GET_UVRECT_OFFSET UNITYSDK_OFFSET(0x10813EE0)
-#define MOLEMOLE_MONOTUBERENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x10814050)
-#define MOLEMOLE_MONOTUBERENDERER_MARKDYNAMIC_OFFSET UNITYSDK_OFFSET(0x10814160)
-#define MOLEMOLE_MONOTUBERENDERER_METHOD_5_5EBCF276C230582C_OFFSET UNITYSDK_OFFSET(0x10816230)
-#define MOLEMOLE_MONOTUBERENDERER_METHOD_5_6173AF17811AED4B_OFFSET UNITYSDK_OFFSET(0x108172E0)
-#define MOLEMOLE_MONOTUBERENDERER_METHOD_5_6FE6E0587E8D1F5C_OFFSET UNITYSDK_OFFSET(0x10817670)
-#define MOLEMOLE_MONOTUBERENDERER_METHOD_5_805C56F44231AEF9_OFFSET UNITYSDK_OFFSET(0x10814A10)
-#define MOLEMOLE_MONOTUBERENDERER_METHOD_5_8714CF4AE9195CA2_OFFSET UNITYSDK_OFFSET(0x10816790)
-#define MOLEMOLE_MONOTUBERENDERER_METHOD_5_9AB55F553C4AC6E8_OFFSET UNITYSDK_OFFSET(0x10814B90)
-#define MOLEMOLE_MONOTUBERENDERER_METHOD_5_AE80CBC984AADFD5_OFFSET UNITYSDK_OFFSET(0x10816AA0)
-#define MOLEMOLE_MONOTUBERENDERER_METHOD_5_DAEB67F34AF80609_OFFSET UNITYSDK_OFFSET(0x10817CD0)
-#define MOLEMOLE_MONOTUBERENDERER_METHOD_5_DE5BCBAF4D29B552_OFFSET UNITYSDK_OFFSET(0x10813B10)
-#define MOLEMOLE_MONOTUBERENDERER_SET_CALCULATETANGENTS_OFFSET UNITYSDK_OFFSET(0x10813E10)
-#define MOLEMOLE_MONOTUBERENDERER_SET_EDGECOUNT_OFFSET UNITYSDK_OFFSET(0x10813D40)
-#define MOLEMOLE_MONOTUBERENDERER_SET_POINTS_OFFSET UNITYSDK_OFFSET(0x108139D0)
-#define MOLEMOLE_MONOTUBERENDERER_SET_RADIUSES_OFFSET UNITYSDK_OFFSET(0x10813B70)
-#define MOLEMOLE_MONOTUBERENDERER_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0x10813C20)
-#define MOLEMOLE_MONOTUBERENDERER_SET_UVANTISTRETCHING_OFFSET UNITYSDK_OFFSET(0x10813F80)
-#define MOLEMOLE_MONOTUBERENDERER_SET_UVRECT_OFFSET UNITYSDK_OFFSET(0x10813EF0)
-#define MOLEMOLE_MONOTUBERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x10817C00)
+#define MOLEMOLE_MONOTUBERENDERER_AWAKE_OFFSET UNITYSDK_OFFSET(0x15AC54F0)
+#define MOLEMOLE_MONOTUBERENDERER_BHMNCKNICFL_OFFSET UNITYSDK_OFFSET(0x15AC5C30)
+#define MOLEMOLE_MONOTUBERENDERER_CDHJMNMKNDI_OFFSET UNITYSDK_OFFSET(0x15AC79B0)
+#define MOLEMOLE_MONOTUBERENDERER_CDKHGPILCNF_OFFSET UNITYSDK_OFFSET(0x15AC8890)
+#define MOLEMOLE_MONOTUBERENDERER_DOBOEDMJMOL_OFFSET UNITYSDK_OFFSET(0x15AC7CC0)
+#define MOLEMOLE_MONOTUBERENDERER_ELFLMCMFDBM_OFFSET UNITYSDK_OFFSET(0x15AC4D30)
+#define MOLEMOLE_MONOTUBERENDERER_FHLPGODINLA_OFFSET UNITYSDK_OFFSET(0x15AC5DB0)
+#define MOLEMOLE_MONOTUBERENDERER_FORCEUPDATE_OFFSET UNITYSDK_OFFSET(0x15AC5220)
+#define MOLEMOLE_MONOTUBERENDERER_GETLENGTHATPOINT_OFFSET UNITYSDK_OFFSET(0x15AC5480)
+#define MOLEMOLE_MONOTUBERENDERER_GETROTATIONATPOINT_OFFSET UNITYSDK_OFFSET(0x15AC53F0)
+#define MOLEMOLE_MONOTUBERENDERER_GET_CALCULATETANGENTS_OFFSET UNITYSDK_OFFSET(0x15AC5020)
+#define MOLEMOLE_MONOTUBERENDERER_GET_EDGECOUNT_OFFSET UNITYSDK_OFFSET(0x15AC4F50)
+#define MOLEMOLE_MONOTUBERENDERER_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x15AC5200)
+#define MOLEMOLE_MONOTUBERENDERER_GET_MESH_OFFSET UNITYSDK_OFFSET(0x15AC5210)
+#define MOLEMOLE_MONOTUBERENDERER_GET_POINTS_OFFSET UNITYSDK_OFFSET(0x15AC4BE0)
+#define MOLEMOLE_MONOTUBERENDERER_GET_RADIUSES_OFFSET UNITYSDK_OFFSET(0x15AC4D80)
+#define MOLEMOLE_MONOTUBERENDERER_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x15AC4E30)
+#define MOLEMOLE_MONOTUBERENDERER_GET_UVANTISTRETCHING_OFFSET UNITYSDK_OFFSET(0x15AC5190)
+#define MOLEMOLE_MONOTUBERENDERER_GET_UVRECT_OFFSET UNITYSDK_OFFSET(0x15AC5100)
+#define MOLEMOLE_MONOTUBERENDERER_HNBPFJFILOG_OFFSET UNITYSDK_OFFSET(0x15AC8EF0)
+#define MOLEMOLE_MONOTUBERENDERER_JKNLLGPCOAG_OFFSET UNITYSDK_OFFSET(0x15AC8500)
+#define MOLEMOLE_MONOTUBERENDERER_JODNGKLGDIH_OFFSET UNITYSDK_OFFSET(0x15AC7450)
+#define MOLEMOLE_MONOTUBERENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15AC5270)
+#define MOLEMOLE_MONOTUBERENDERER_MARKDYNAMIC_OFFSET UNITYSDK_OFFSET(0x15AC5380)
+#define MOLEMOLE_MONOTUBERENDERER_SET_CALCULATETANGENTS_OFFSET UNITYSDK_OFFSET(0x15AC5030)
+#define MOLEMOLE_MONOTUBERENDERER_SET_EDGECOUNT_OFFSET UNITYSDK_OFFSET(0x15AC4F60)
+#define MOLEMOLE_MONOTUBERENDERER_SET_POINTS_OFFSET UNITYSDK_OFFSET(0x15AC4BF0)
+#define MOLEMOLE_MONOTUBERENDERER_SET_RADIUSES_OFFSET UNITYSDK_OFFSET(0x15AC4D90)
+#define MOLEMOLE_MONOTUBERENDERER_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0x15AC4E40)
+#define MOLEMOLE_MONOTUBERENDERER_SET_UVANTISTRETCHING_OFFSET UNITYSDK_OFFSET(0x15AC51A0)
+#define MOLEMOLE_MONOTUBERENDERER_SET_UVRECT_OFFSET UNITYSDK_OFFSET(0x15AC5110)
+#define MOLEMOLE_MONOTUBERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x15AC8E20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoTubeRenderer_TypeDefinitionIndex = 71175;
+	inline static constexpr unsigned int MonoTubeRenderer_TypeDefinitionIndex = 93267;
 
 	class MonoTubeRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single Field_5_33; // 0x0
-		// static const ::System::Int32 Field_5_32 = 0xFDE8; // 0x0
-		// static const ::System::String* Field_5_39; // 0x0
+		// static const ::System::Single EKAIGMFEEIK; // 0x0
+		// static const ::System::Int32 MANIPCPIHFG = 0xFDE8; // 0x0
+		// static const ::System::String* LLAGPANNCJB; // 0x0
 		::Il2CppArray<::UnityEngine::Vector3>* _points; // 0x18
 		::System::Single _radius; // 0x20
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Single>* _radiuses; // 0x28
 		::System::Int32 _edgeCount; // 0x30
 		::System::Boolean _calculateTangents; // 0x34
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Rect _uvRect; // 0x38
 		::System::Boolean _uvAntiStretching; // 0x48
-		::UnityEngine::Mesh* Field_5_4; // 0x50
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_11; // 0x58
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_10; // 0x60
-		::Il2CppArray<::System::Int32>* Field_5_9; // 0x68
-		::Il2CppArray<::System::Int32>* Field_5_8; // 0x70
-		::Il2CppArray<::UnityEngine::Vector2>* Field_5_15; // 0x78
-		::Il2CppArray<::UnityEngine::Vector4>* Field_5_14; // 0x80
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_13; // 0x88
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_12; // 0x90
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_19; // 0x98
-		::Il2CppArray<::UnityEngine::Quaternion>* Field_5_18; // 0xA0
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_17; // 0xA8
-		::Il2CppArray<::System::Single>* Field_5_16; // 0xB0
-		::Il2CppArray<::System::Single>* Field_5_23; // 0xB8
-		::Il2CppArray<::System::Single>* Field_5_22; // 0xC0
-		::UnityEngine::Vector3 Field_5_21; // 0xC8
-		::Il2CppArray<::UnityEngine::Vector3>* Field_5_20; // 0xD8
-		::Il2CppArray<::System::Int32>* Field_5_27; // 0xE0
-		::System::Single Field_5_26; // 0xE8
-		::UnityEngine::MeshFilter* Field_5_25; // 0xF0
-		::System::Boolean Field_5_24; // 0xF8
-		::System::Boolean Field_5_31; // 0xF9
-		::System::Boolean Field_5_30; // 0xFA
-		::System::Boolean Field_5_29; // 0xFB
-		::System::Boolean Field_5_28; // 0xFC
-		::System::Boolean Field_5_35; // 0xFD
-		::System::Boolean Field_5_34; // 0xFE
+		::System::Byte _padding2[0x7];
+		::UnityEngine::Mesh* BMCABGEMEOP; // 0x50
+		::Il2CppArray<::UnityEngine::Vector3>* GCAPHPLDFFF; // 0x58
+		::Il2CppArray<::UnityEngine::Vector3>* GMCBAGKBPBC; // 0x60
+		::Il2CppArray<::System::Int32>* LNMOPKMKBGF; // 0x68
+		::Il2CppArray<::System::Int32>* DFFOMIJOAJA; // 0x70
+		::Il2CppArray<::UnityEngine::Vector2>* NCCPIOKIHCP; // 0x78
+		::Il2CppArray<::UnityEngine::Vector4>* BOLEGOEDOPH; // 0x80
+		::Il2CppArray<::UnityEngine::Vector3>* NGBEOHDFPBC; // 0x88
+		::Il2CppArray<::UnityEngine::Vector3>* EKFAIADKDLG; // 0x90
+		::Il2CppArray<::UnityEngine::Vector3>* FLNCNMPLDOF; // 0x98
+		::Il2CppArray<::UnityEngine::Quaternion>* PLBAEKAEDOB; // 0xA0
+		::Il2CppArray<::UnityEngine::Vector3>* IEJENNHLHLP; // 0xA8
+		::Il2CppArray<::System::Single>* ABOKMNOPKPK; // 0xB0
+		::Il2CppArray<::System::Single>* JHCLKLMNIGN; // 0xB8
+		::Il2CppArray<::System::Single>* HKPCKEDGMKC; // 0xC0
+		::UnityEngine::Vector3 OLOIEBFALFC; // 0xC8
+		::System::Byte _padding3[0x4];
+		::Il2CppArray<::UnityEngine::Vector3>* BOGJLIOLAMB; // 0xD8
+		::Il2CppArray<::System::Int32>* BDLJMPHNLCI; // 0xE0
+		::System::Single CLKBJFDGOLJ; // 0xE8
+		::System::Byte _padding4[0x4];
+		::UnityEngine::MeshFilter* JDDGPFHBFJL; // 0xF0
+		::System::Boolean PDPLLIDPKPL; // 0xF8
+		::System::Boolean JDPGFBJENKN; // 0xF9
+		::System::Boolean LAMMGPDBBPI; // 0xFA
+		::System::Boolean LPIFCOHJDBK; // 0xFB
+		::System::Boolean NHMDDCLNILC; // 0xFC
+		::System::Boolean KINANNGNPFG; // 0xFD
+		::System::Boolean EAPMGIAKMFC; // 0xFE
 
 		::System::Void _ctor()
 		{
@@ -99,9 +103,9 @@ namespace MoleMole
 			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_GET_POINTS_OFFSET))(this);
 		}
 
-		::System::Void set_points(::Il2CppArray<::UnityEngine::Vector3>* a1)
+		::System::Void set_points(::Il2CppArray<::UnityEngine::Vector3>* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_POINTS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_POINTS_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::Il2CppArray<::System::Single>* get_radiuses()
@@ -109,9 +113,9 @@ namespace MoleMole
 			return ((::Il2CppArray<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_GET_RADIUSES_OFFSET))(this);
 		}
 
-		::System::Void set_radiuses(::Il2CppArray<::System::Single>* a1)
+		::System::Void set_radiuses(::Il2CppArray<::System::Single>* EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_RADIUSES_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_RADIUSES_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Single get_radius()
@@ -119,9 +123,9 @@ namespace MoleMole
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_GET_RADIUS_OFFSET))(this);
 		}
 
-		::System::Void set_radius(::System::Single a1)
+		::System::Void set_radius(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_RADIUS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_RADIUS_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Int32 get_edgeCount()
@@ -129,9 +133,9 @@ namespace MoleMole
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_GET_EDGECOUNT_OFFSET))(this);
 		}
 
-		::System::Void set_edgeCount(::System::Int32 a1)
+		::System::Void set_edgeCount(::System::Int32 EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_EDGECOUNT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_EDGECOUNT_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Boolean get_calculateTangents()
@@ -139,9 +143,9 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_GET_CALCULATETANGENTS_OFFSET))(this);
 		}
 
-		::System::Void set_calculateTangents(::System::Boolean a1)
+		::System::Void set_calculateTangents(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_CALCULATETANGENTS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_CALCULATETANGENTS_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::UnityEngine::Rect get_uvRect()
@@ -149,9 +153,9 @@ namespace MoleMole
 			return ((::UnityEngine::Rect(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_GET_UVRECT_OFFSET))(this);
 		}
 
-		::System::Void set_uvRect(::UnityEngine::Rect a1)
+		::System::Void set_uvRect(::UnityEngine::Rect EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_UVRECT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_UVRECT_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Boolean get_uvAntiStretching()
@@ -159,9 +163,9 @@ namespace MoleMole
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_GET_UVANTISTRETCHING_OFFSET))(this);
 		}
 
-		::System::Void set_uvAntiStretching(::System::Boolean a1)
+		::System::Void set_uvAntiStretching(::System::Boolean EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_UVANTISTRETCHING_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_SET_UVANTISTRETCHING_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Single get_length()
@@ -184,14 +188,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_MARKDYNAMIC_OFFSET))(this);
 		}
 
-		::UnityEngine::Quaternion GetRotationAtPoint(::System::Int32 a1)
+		::UnityEngine::Quaternion GetRotationAtPoint(::System::Int32 ABHBKFJKINO)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_GETROTATIONATPOINT_OFFSET))(this, a1);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_GETROTATIONATPOINT_OFFSET))(this, ABHBKFJKINO);
 		}
 
-		::System::Single GetLengthAtPoint(::System::Int32 a1)
+		::System::Single GetLengthAtPoint(::System::Int32 ABHBKFJKINO)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_GETLENGTHATPOINT_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_GETLENGTHATPOINT_OFFSET))(this, ABHBKFJKINO);
 		}
 
 		::System::Void Awake()
@@ -204,49 +208,49 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9AB55F553C4AC6E8()
+		static ::System::Int32 ELFLMCMFDBM(::System::Int32 CLNNEACLCEH, ::System::Int32 FNFBFFACNED)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_METHOD_5_9AB55F553C4AC6E8_OFFSET))(this);
+			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_ELFLMCMFDBM_OFFSET))(CLNNEACLCEH, FNFBFFACNED);
 		}
 
-		::System::Void Method_5_6FE6E0587E8D1F5C()
+		::System::Void FHLPGODINLA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_METHOD_5_6FE6E0587E8D1F5C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_FHLPGODINLA_OFFSET))(this);
 		}
 
-		::System::Void Method_5_DAEB67F34AF80609()
+		::System::Void HNBPFJFILOG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_METHOD_5_DAEB67F34AF80609_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_HNBPFJFILOG_OFFSET))(this);
 		}
 
-		::System::Void Method_5_AE80CBC984AADFD5()
+		::System::Void BHMNCKNICFL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_METHOD_5_AE80CBC984AADFD5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_BHMNCKNICFL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_6173AF17811AED4B()
+		::System::Void CDHJMNMKNDI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_METHOD_5_6173AF17811AED4B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_CDHJMNMKNDI_OFFSET))(this);
 		}
 
-		::System::Void Method_5_5EBCF276C230582C()
+		::System::Void JKNLLGPCOAG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_METHOD_5_5EBCF276C230582C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_JKNLLGPCOAG_OFFSET))(this);
 		}
 
-		::System::Void Method_5_8714CF4AE9195CA2()
+		::System::Void CDKHGPILCNF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_METHOD_5_8714CF4AE9195CA2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_CDKHGPILCNF_OFFSET))(this);
 		}
 
-		::System::Void Method_5_805C56F44231AEF9()
+		::System::Void DOBOEDMJMOL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_METHOD_5_805C56F44231AEF9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_DOBOEDMJMOL_OFFSET))(this);
 		}
 
-		static ::System::Int32 Method_5_DE5BCBAF4D29B552(::System::Int32 a1, ::System::Int32 a2)
+		::System::Void JODNGKLGDIH()
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_METHOD_5_DE5BCBAF4D29B552_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOTUBERENDERER_JODNGKLGDIH_OFFSET))(this);
 		}
 	};
 }

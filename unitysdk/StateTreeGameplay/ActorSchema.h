@@ -1,52 +1,58 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Unreal/FName.h"
-#include "unitysdk/StateTreeCore/StateTree.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeExternalDataDesc.h"
 #include "unitysdk/StateTreeCore/StateTreeSchema.h"
+#include "unitysdk/UnrealTypes/TSubclassOf_1.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/UnrealTypes/FObjectInitializer.h"
 #include "unitysdk/UnrealTypes/NativeListView_1.h"
 #include "unitysdk/UnrealTypes/ReadOnlyNativeListView_1.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
-#include "unitysdk/UnrealTypes/TSubclassOf_1.h"
 
+namespace StateTreeCore { class StateTree; }
 namespace StateTreeGameplay { class ActorContext; }
 namespace UnrealTypes { class Class; }
 namespace UnrealTypes { class Object; }
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { template <typename T> class ManagedStructList_1; }
 
-#define STATETREEGAMEPLAY_ACTORSCHEMA_ADDACTORDESC_OFFSET UNITYSDK_OFFSET(0x1E503BF0)
-#define STATETREEGAMEPLAY_ACTORSCHEMA_COLLECTEXTERNALDATA_OFFSET UNITYSDK_OFFSET(0x1E5046F0)
-#define STATETREEGAMEPLAY_ACTORSCHEMA_GETCONTEXTDATADESCS_OFFSET UNITYSDK_OFFSET(0x1E503920)
-#define STATETREEGAMEPLAY_ACTORSCHEMA_GET_ACTORDESC_OFFSET UNITYSDK_OFFSET(0x1E5039F0)
-#define STATETREEGAMEPLAY_ACTORSCHEMA_GET_CONTEXTACTORCLASS_OFFSET UNITYSDK_OFFSET(0x1E503840)
-#define STATETREEGAMEPLAY_ACTORSCHEMA_ISSTRUCTALLOWED_OFFSET UNITYSDK_OFFSET(0x1E504100)
-#define STATETREEGAMEPLAY_ACTORSCHEMA_SETCONTEXTREQUIREMENTS_OFFSET UNITYSDK_OFFSET(0x1E5042D0)
-#define STATETREEGAMEPLAY_ACTORSCHEMA_UPDATECONTEXTACTORDESC_OFFSET UNITYSDK_OFFSET(0x1E503E90)
-#define STATETREEGAMEPLAY_ACTORSCHEMA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E504A20)
-#define STATETREEGAMEPLAY_ACTORSCHEMA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E503A60)
-#define STATETREEGAMEPLAY_ACTORSCHEMA___BASE_GETCONTEXTDATADESCS_OFFSET UNITYSDK_OFFSET(0x1E504A80)
-#define STATETREEGAMEPLAY_ACTORSCHEMA___BASE_ISSTRUCTALLOWED_OFFSET UNITYSDK_OFFSET(0x1E504A90)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_ADDACTORDESC_OFFSET UNITYSDK_OFFSET(0x1E19BE10)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_COLLECTEXTERNALDATA_OFFSET UNITYSDK_OFFSET(0x1E19C840)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_CONSTRUCTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E19CCD0)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_DISPOSEGENIMPL_OFFSET UNITYSDK_OFFSET(0x1E19CD20)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_DISPOSEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E19CD90)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_DISPOSEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1E19CE00)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_GETCONTEXTDATADESCS_OFFSET UNITYSDK_OFFSET(0x1E19BCD0)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_GET_ACTORDESC_OFFSET UNITYSDK_OFFSET(0x1E19BDA0)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_GET_CONTEXTACTORCLASS_OFFSET UNITYSDK_OFFSET(0x1E19BBF0)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_INITIALIZEPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1E19CCC0)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_ISSTRUCTALLOWED_OFFSET UNITYSDK_OFFSET(0x1E19C320)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_SETCONTEXTREQUIREMENTS_OFFSET UNITYSDK_OFFSET(0x1E19C4F0)
+#define STATETREEGAMEPLAY_ACTORSCHEMA_UPDATECONTEXTACTORDESC_OFFSET UNITYSDK_OFFSET(0x1E19C0B0)
+#define STATETREEGAMEPLAY_ACTORSCHEMA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E19CE10)
+#define STATETREEGAMEPLAY_ACTORSCHEMA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E19CB70)
+#define STATETREEGAMEPLAY_ACTORSCHEMA___BASE_GETCONTEXTDATADESCS_OFFSET UNITYSDK_OFFSET(0x1E19CE70)
+#define STATETREEGAMEPLAY_ACTORSCHEMA___BASE_ISSTRUCTALLOWED_OFFSET UNITYSDK_OFFSET(0x1E19CE80)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int ActorSchema_TypeDefinitionIndex = 89835;
+	inline static constexpr unsigned int ActorSchema_TypeDefinitionIndex = 41686;
 
 	class ActorSchema : public ::StateTreeCore::StateTreeSchema
 	{
 	public:
 		static ::Foundation::Unreal::FName* StaticGet_ActorName()
 		{
-			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ActorSchema_TypeDefinitionIndex)->GetStaticField(0x11550);
+			return (::Foundation::Unreal::FName*)Il2CppClass::FromTypeDefinitionIndex(ActorSchema_TypeDefinitionIndex)->GetStaticField(0x13CF0);
 		}
 		::UnrealTypes::ManagedStructList_1<::StateTreeCore::StateTreeExternalDataDesc>* ContextDataDescs; // 0x38
 		::UnrealTypes::TSubclassOf_1<::StateTreeGameplay::ActorContext*> ActorClass; // 0x40
 
-		::System::Void _ctor()
+		::System::Void _ctor(::UnrealTypes::FObjectInitializer& initializer)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_ACTORSCHEMA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnrealTypes::FObjectInitializer&))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_ACTORSCHEMA__CTOR_OFFSET))(this, initializer);
 		}
 
 		static ::System::Void _cctor()
@@ -89,9 +95,34 @@ namespace StateTreeGameplay
 			return ((::System::Boolean(*)(::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>, ::StateTreeCore::StateTreeExecutionContext&))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_ACTORSCHEMA_SETCONTEXTREQUIREMENTS_OFFSET))(actorContext, executionContext);
 		}
 
-		static ::System::Boolean CollectExternalData(::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*> actorContext, ::StateTreeCore::StateTreeExecutionContext& executionContext, ::StateTreeCore::StateTree& stateTree, ::UnrealTypes::ReadOnlyNativeListView_1<::StateTreeCore::StateTreeExternalDataDesc> externalDataDescs, ::UnrealTypes::NativeListView_1<::StateTreeCore::StateTreeDataView> outDataViews)
+		static ::System::Boolean CollectExternalData(::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*> actorContext, ::StateTreeCore::StateTreeExecutionContext& executionContext, ::UnrealTypes::TObjectHandle_1<::StateTreeCore::StateTree*> stateTree, ::UnrealTypes::ReadOnlyNativeListView_1<::StateTreeCore::StateTreeExternalDataDesc> externalDataDescs, ::UnrealTypes::NativeListView_1<::StateTreeCore::StateTreeDataView> outDataViews)
 		{
-			return ((::System::Boolean(*)(::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>, ::StateTreeCore::StateTreeExecutionContext&, ::StateTreeCore::StateTree&, ::UnrealTypes::ReadOnlyNativeListView_1<::StateTreeCore::StateTreeExternalDataDesc>, ::UnrealTypes::NativeListView_1<::StateTreeCore::StateTreeDataView>))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_ACTORSCHEMA_COLLECTEXTERNALDATA_OFFSET))(actorContext, executionContext, stateTree, externalDataDescs, outDataViews);
+			return ((::System::Boolean(*)(::UnrealTypes::TObjectHandle_1<::UnrealTypes::Object*>, ::StateTreeCore::StateTreeExecutionContext&, ::UnrealTypes::TObjectHandle_1<::StateTreeCore::StateTree*>, ::UnrealTypes::ReadOnlyNativeListView_1<::StateTreeCore::StateTreeExternalDataDesc>, ::UnrealTypes::NativeListView_1<::StateTreeCore::StateTreeDataView>))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_ACTORSCHEMA_COLLECTEXTERNALDATA_OFFSET))(actorContext, executionContext, stateTree, externalDataDescs, outDataViews);
+		}
+
+		::System::Void InitializeProperties()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_ACTORSCHEMA_INITIALIZEPROPERTIES_OFFSET))(this);
+		}
+
+		::System::Void ConstructInternal()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_ACTORSCHEMA_CONSTRUCTINTERNAL_OFFSET))(this);
+		}
+
+		::System::Void DisposeGenImpl(::System::Boolean disposing)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_ACTORSCHEMA_DISPOSEGENIMPL_OFFSET))(this, disposing);
+		}
+
+		::System::Void DisposeProperties(::System::Boolean disposing)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_ACTORSCHEMA_DISPOSEPROPERTIES_OFFSET))(this, disposing);
+		}
+
+		::System::Void DisposeInternal(::System::Boolean disposing)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + STATETREEGAMEPLAY_ACTORSCHEMA_DISPOSEINTERNAL_OFFSET))(this, disposing);
 		}
 
 		::UnrealTypes::ReadOnlyNativeListView_1<::StateTreeCore::StateTreeExternalDataDesc> __base_GetContextDataDescs()

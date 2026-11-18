@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlatBuffers/ByteBufferAllocator.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-#include "unitysdk/System/Span_1.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 
-#define FLATBUFFERS_BYTEARRAYALLOCATOR_GET_READONLYSPAN_OFFSET UNITYSDK_OFFSET(0x1F624360)
-#define FLATBUFFERS_BYTEARRAYALLOCATOR_GET_SPAN_OFFSET UNITYSDK_OFFSET(0x1F6242E0)
-#define FLATBUFFERS_BYTEARRAYALLOCATOR_GROWFRONT_OFFSET UNITYSDK_OFFSET(0x1F6241F0)
-#define FLATBUFFERS_BYTEARRAYALLOCATOR_INITBUFFER_OFFSET UNITYSDK_OFFSET(0x1F6241D0)
-#define FLATBUFFERS_BYTEARRAYALLOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6241A0)
+#define FLATBUFFERS_BYTEARRAYALLOCATOR_GET_READONLYSPAN_OFFSET UNITYSDK_OFFSET(0x1F9E30E0)
+#define FLATBUFFERS_BYTEARRAYALLOCATOR_GET_SPAN_OFFSET UNITYSDK_OFFSET(0x1F9E3060)
+#define FLATBUFFERS_BYTEARRAYALLOCATOR_GROWFRONT_OFFSET UNITYSDK_OFFSET(0x1F9E2F70)
+#define FLATBUFFERS_BYTEARRAYALLOCATOR_INITBUFFER_OFFSET UNITYSDK_OFFSET(0x1F9E2F50)
+#define FLATBUFFERS_BYTEARRAYALLOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9E2F20)
 
 namespace FlatBuffers
 {
-	inline static constexpr unsigned int ByteArrayAllocator_TypeDefinitionIndex = 6723;
+	inline static constexpr unsigned int ByteArrayAllocator_TypeDefinitionIndex = 6730;
 
 	class ByteArrayAllocator : public ::FlatBuffers::ByteBufferAllocator
 	{
@@ -29,14 +29,14 @@ namespace FlatBuffers
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FLATBUFFERS_BYTEARRAYALLOCATOR_GROWFRONT_OFFSET))(this, newSize);
 		}
 
-		::System::Span_1<::System::Byte> get_Span()
+		::System::Span_1_9011FAD97750D224<::System::Byte> get_Span()
 		{
-			return ((::System::Span_1<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + FLATBUFFERS_BYTEARRAYALLOCATOR_GET_SPAN_OFFSET))(this);
+			return ((::System::Span_1_9011FAD97750D224<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + FLATBUFFERS_BYTEARRAYALLOCATOR_GET_SPAN_OFFSET))(this);
 		}
 
-		::System::ReadOnlySpan_1<::System::Byte> get_ReadOnlySpan()
+		::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Byte> get_ReadOnlySpan()
 		{
-			return ((::System::ReadOnlySpan_1<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + FLATBUFFERS_BYTEARRAYALLOCATOR_GET_READONLYSPAN_OFFSET))(this);
+			return ((::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + FLATBUFFERS_BYTEARRAYALLOCATOR_GET_READONLYSPAN_OFFSET))(this);
 		}
 
 		::System::Void InitBuffer()

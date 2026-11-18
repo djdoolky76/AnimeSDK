@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_C1067BB4CC216C9A;
+class GILOMLEHBPP;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVEMENUPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E11A80)
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVEMENUPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18E11AC0)
-#define MOLEMOLE_UIACTIVITYHOTPOTSERVEMENUPOPWINDOWCONTROLLER___C__REFRESHITEM_B__23_2_OFFSET UNITYSDK_OFFSET(0x18E11AD0)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVEMENUPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A122AB0)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVEMENUPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A122AF0)
+#define MOLEMOLE_UIACTIVITYHOTPOTSERVEMENUPOPWINDOWCONTROLLER___C__REFRESHITEM_B__23_2_OFFSET UNITYSDK_OFFSET(0x1A122B00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotpotServeMenuPopWindowController___c_TypeDefinitionIndex = 72699;
+	inline static constexpr unsigned int UIActivityHotpotServeMenuPopWindowController___c_TypeDefinitionIndex = 92680;
 
 	class UIActivityHotpotServeMenuPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIActivityHotpotServeMenuPopWindowController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UIActivityHotpotServeMenuPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotpotServeMenuPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32A00);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotpotServeMenuPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34F70);
 		}
-		static ::System::Func_2<::Class_1_C1067BB4CC216C9A*, ::System::Int32>** StaticGet___9__23_2()
+		static ::System::Func_2<::GILOMLEHBPP*, ::System::Int32>** StaticGet___9__23_2()
 		{
-			return (::System::Func_2<::Class_1_C1067BB4CC216C9A*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotpotServeMenuPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x32A08);
+			return (::System::Func_2<::GILOMLEHBPP*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIActivityHotpotServeMenuPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x34F78);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYHOTPOTSERVEMENUPOPWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _RefreshItem_b__23_2(::Class_1_C1067BB4CC216C9A* x)
+		::System::Int32 _RefreshItem_b__23_2(::GILOMLEHBPP* x)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_C1067BB4CC216C9A*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYHOTPOTSERVEMENUPOPWINDOWCONTROLLER___C__REFRESHITEM_B__23_2_OFFSET))(this, x);
+			return ((::System::Int32(*)(::PVOID, ::GILOMLEHBPP*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIACTIVITYHOTPOTSERVEMENUPOPWINDOWCONTROLLER___C__REFRESHITEM_B__23_2_OFFSET))(this, x);
 		}
 	};
 }

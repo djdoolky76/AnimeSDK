@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/EventArgs.h"
 #include "unitysdk/System/IO/WatcherChangeTypes.h"
+#include "unitysdk/System/EventArgs.h"
 
 namespace System { class String; }
 
-#define SYSTEM_IO_FILESYSTEMEVENTARGS_GET_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x1DAB3480)
-#define SYSTEM_IO_FILESYSTEMEVENTARGS_GET_FULLPATH_OFFSET UNITYSDK_OFFSET(0x1DAB3490)
-#define SYSTEM_IO_FILESYSTEMEVENTARGS_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1DAB34A0)
-#define SYSTEM_IO_FILESYSTEMEVENTARGS_SETNAME_OFFSET UNITYSDK_OFFSET(0x1DAB3470)
-#define SYSTEM_IO_FILESYSTEMEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB3400)
+#define SYSTEM_IO_FILESYSTEMEVENTARGS_GET_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x1DEF4270)
+#define SYSTEM_IO_FILESYSTEMEVENTARGS_GET_FULLPATH_OFFSET UNITYSDK_OFFSET(0x1DEF4280)
+#define SYSTEM_IO_FILESYSTEMEVENTARGS_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1DEF4290)
+#define SYSTEM_IO_FILESYSTEMEVENTARGS_SETNAME_OFFSET UNITYSDK_OFFSET(0x1DEF4260)
+#define SYSTEM_IO_FILESYSTEMEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF41F0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int FileSystemEventArgs_TypeDefinitionIndex = 3222;
+	inline static constexpr unsigned int FileSystemEventArgs_TypeDefinitionIndex = 3221;
 
 	class FileSystemEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::String* name; // 0x10
-		::System::String* directory; // 0x18
+		::System::String* directory; // 0x10
+		::System::String* name; // 0x18
 		::System::IO::WatcherChangeTypes changeType; // 0x20
 
 		::System::Void _ctor(::System::IO::WatcherChangeTypes changeType, ::System::String* directory, ::System::String* name)

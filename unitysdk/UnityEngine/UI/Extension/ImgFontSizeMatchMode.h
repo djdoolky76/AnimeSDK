@@ -3,11 +3,11 @@
 
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int ImgFontSizeMatchMode_TypeDefinitionIndex = 58305;
+	inline static constexpr unsigned int ImgFontSizeMatchMode_TypeDefinitionIndex = 56023;
 
 	enum class ImgFontSizeMatchMode : ::System::Int32
 	{
-		None = 0,
 		LineHeight = 1,
+		None = 0,
 	};
 }

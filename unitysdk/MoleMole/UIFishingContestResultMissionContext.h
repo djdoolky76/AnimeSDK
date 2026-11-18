@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_UIFISHINGCONTESTRESULTMISSIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16069CA0)
+#define MOLEMOLE_UIFISHINGCONTESTRESULTMISSIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x183562A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishingContestResultMissionContext_TypeDefinitionIndex = 84402;
+	inline static constexpr unsigned int UIFishingContestResultMissionContext_TypeDefinitionIndex = 85227;
 
 	class UIFishingContestResultMissionContext : public ::MoleMole::UIControllerContextBase
 	{

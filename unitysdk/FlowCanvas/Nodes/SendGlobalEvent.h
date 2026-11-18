@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
 namespace System { class String; }
 
-#define FLOWCANVAS_NODES_SENDGLOBALEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E22AD60)
-#define FLOWCANVAS_NODES_SENDGLOBALEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22AD70)
+#define FLOWCANVAS_NODES_SENDGLOBALEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EBAC5B0)
+#define FLOWCANVAS_NODES_SENDGLOBALEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBAC5C0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int SendGlobalEvent_TypeDefinitionIndex = 30322;
+	inline static constexpr unsigned int SendGlobalEvent_TypeDefinitionIndex = 29968;
 
-	class SendGlobalEvent : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::String*>
+	class SendGlobalEvent
 	{
 	public:
 		::System::Void _ctor()

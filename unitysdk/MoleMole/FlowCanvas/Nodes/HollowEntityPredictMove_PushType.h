@@ -3,7 +3,7 @@
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int HollowEntityPredictMove_PushType_TypeDefinitionIndex = 45359;
+	inline static constexpr unsigned int HollowEntityPredictMove_PushType_TypeDefinitionIndex = 86165;
 
 	enum class HollowEntityPredictMove_PushType : ::System::Int32
 	{

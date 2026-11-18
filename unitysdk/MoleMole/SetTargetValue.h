@@ -5,46 +5,46 @@
 #include "unitysdk/MoleMole/Config/MonsterFunctionType.h"
 #include "unitysdk/MoleMole/Config/TargetValueModifyFunc.h"
 #include "unitysdk/MoleMole/Config/TeamRelationship.h"
-#include "unitysdk/MoleMole/GameplayTag.h"
 #include "unitysdk/MoleMole/SetTargetValue_SelectTargeting.h"
 #include "unitysdk/MoleMole/TargetValueType.h"
+#include "unitysdk/MoleMole/GameplayTag.h"
 
-class Class_3_E2819F45333A39BF;
+class HAFLGNENJDI;
 namespace MoleMole { class SharedGameEntity; }
 namespace MoleMole::Battle { class Entity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SETTARGETVALUE_COLLECTTARGETENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x173A4300)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLALLIEDENTITY_OFFSET UNITYSDK_OFFSET(0x173A3960)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLENEMYENTITY_OFFSET UNITYSDK_OFFSET(0x173A3AE0)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLNEUTRALENTITY_OFFSET UNITYSDK_OFFSET(0x173A3C60)
-#define MOLEMOLE_SETTARGETVALUE_FINDALLSELECTTARGET_OFFSET UNITYSDK_OFFSET(0x173A4090)
-#define MOLEMOLE_SETTARGETVALUE_FINDLOCALAVATAR_OFFSET UNITYSDK_OFFSET(0x173A3DF0)
-#define MOLEMOLE_SETTARGETVALUE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x173A3110)
-#define MOLEMOLE_SETTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x173A32E0)
-#define MOLEMOLE_SETTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x173A4570)
-#define MOLEMOLE_SETTARGETVALUE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x173A47D0)
-#define MOLEMOLE_SETTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x173A4860)
+#define MOLEMOLE_SETTARGETVALUE_COLLECTTARGETENTITYTAGS_OFFSET UNITYSDK_OFFSET(0x13F11DE0)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLALLIEDENTITY_OFFSET UNITYSDK_OFFSET(0x13F11400)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLENEMYENTITY_OFFSET UNITYSDK_OFFSET(0x13F11590)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLNEUTRALENTITY_OFFSET UNITYSDK_OFFSET(0x13F11720)
+#define MOLEMOLE_SETTARGETVALUE_FINDALLSELECTTARGET_OFFSET UNITYSDK_OFFSET(0x13F11B60)
+#define MOLEMOLE_SETTARGETVALUE_FINDLOCALAVATAR_OFFSET UNITYSDK_OFFSET(0x13F118B0)
+#define MOLEMOLE_SETTARGETVALUE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13F10BB0)
+#define MOLEMOLE_SETTARGETVALUE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13F10D70)
+#define MOLEMOLE_SETTARGETVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x13F12060)
+#define MOLEMOLE_SETTARGETVALUE___BASE_ONAWAKE_OFFSET UNITYSDK_OFFSET(0x13F122D0)
+#define MOLEMOLE_SETTARGETVALUE___BASE_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x13F12360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SetTargetValue_TypeDefinitionIndex = 76463;
+	inline static constexpr unsigned int SetTargetValue_TypeDefinitionIndex = 87581;
 
 	class SetTargetValue : public ::BehaviorDesigner::Runtime::Tasks::Action
 	{
 	public:
-		::Il2CppArray<::MoleMole::Config::MonsterFunctionType>* monsterFunctionTypeArray; // 0x58
-		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* relationShipList; // 0x60
-		::System::Collections::Generic::List_1<::System::UInt32>* enemyEntityList; // 0x68
-		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* alliedReleationShipList; // 0x70
+		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* alliedReleationShipList; // 0x58
+		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x60
+		::MoleMole::Battle::Entity* ownerEntity; // 0x68
+		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* relationShipList; // 0x70
 		::System::Collections::Generic::List_1<::MoleMole::Config::TeamRelationship>* neutralRelationShipList; // 0x78
-		::MoleMole::Battle::Entity* ownerEntity; // 0x80
-		::Class_3_E2819F45333A39BF* characterBattleData; // 0x88
-		::MoleMole::SharedGameEntity* SharedOwnerEntity; // 0x90
-		::MoleMole::SetTargetValue_SelectTargeting Target; // 0x98
-		::MoleMole::TargetValueType valueType; // 0x9C
-		::System::Single modifyValue; // 0xA0
-		::MoleMole::Config::TargetValueModifyFunc ModifyType; // 0xA4
+		::HAFLGNENJDI* characterBattleData; // 0x80
+		::System::Collections::Generic::List_1<::System::UInt32>* enemyEntityList; // 0x88
+		::Il2CppArray<::MoleMole::Config::MonsterFunctionType>* monsterFunctionTypeArray; // 0x90
+		::MoleMole::TargetValueType valueType; // 0x98
+		::MoleMole::Config::TargetValueModifyFunc ModifyType; // 0x9C
+		::MoleMole::SetTargetValue_SelectTargeting Target; // 0xA0
+		::System::Single modifyValue; // 0xA4
 
 		::System::Void _ctor()
 		{

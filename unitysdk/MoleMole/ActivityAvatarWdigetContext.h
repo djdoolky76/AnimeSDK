@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_0A16B249216FA488;
+class EDLAOJHICOE;
 
-#define MOLEMOLE_ACTIVITYAVATARWDIGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12795580)
+#define MOLEMOLE_ACTIVITYAVATARWDIGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A21F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ActivityAvatarWdigetContext_TypeDefinitionIndex = 73202;
+	inline static constexpr unsigned int ActivityAvatarWdigetContext_TypeDefinitionIndex = 83217;
 
 	class ActivityAvatarWdigetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_0A16B249216FA488* data; // 0x28
+		::EDLAOJHICOE* data; // 0x28
 
 		::System::Void _ctor()
 		{

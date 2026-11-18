@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AudioVelocityUpdateMode_TypeDefinitionIndex = 18753;
+	inline static constexpr unsigned int AudioVelocityUpdateMode_TypeDefinitionIndex = 17904;
 
 	enum class AudioVelocityUpdateMode : ::System::Int32
 	{

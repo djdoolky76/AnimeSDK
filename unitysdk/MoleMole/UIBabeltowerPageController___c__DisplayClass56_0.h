@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MonoUITableScrollV2_ScrollToTargetContext.h"
+#include "unitysdk/NAPScrollView/DataStruct/ScrollToTargetContext.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole { class UIBabeltowerPageController; }
 
-#define MOLEMOLE_UIBABELTOWERPAGECONTROLLER___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18512130)
-#define MOLEMOLE_UIBABELTOWERPAGECONTROLLER___C__DISPLAYCLASS56_0__SCROLLTOFLOOR_B__0_OFFSET UNITYSDK_OFFSET(0x18512140)
+#define MOLEMOLE_UIBABELTOWERPAGECONTROLLER___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A232D60)
+#define MOLEMOLE_UIBABELTOWERPAGECONTROLLER___C__DISPLAYCLASS56_0__SCROLLTOFLOOR_B__0_OFFSET UNITYSDK_OFFSET(0x1A232D70)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBabeltowerPageController___c__DisplayClass56_0_TypeDefinitionIndex = 88662;
+	inline static constexpr unsigned int UIBabeltowerPageController___c__DisplayClass56_0_TypeDefinitionIndex = 87198;
 
 	class UIBabeltowerPageController___c__DisplayClass56_0 : public ::System::Object
 	{
 	public:
-		::MonoUITableScrollV2_ScrollToTargetContext context; // 0x10
-		::MoleMole::UIBabeltowerPageController* __4__this; // 0x48
+		::MoleMole::UIBabeltowerPageController* __4__this; // 0x10
+		::NAPScrollView::DataStruct::ScrollToTargetContext context; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15EBE0D0)
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBE110)
-#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__SHOWROTATETIP_B__49_0_OFFSET UNITYSDK_OFFSET(0x15EBE120)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14E1B2E0)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14E1B320)
+#define MOLEMOLE_UITRIDICEORACLEDIALOGPOPWINDOWCONTROLLER___C__SHOWROTATETIP_B__49_0_OFFSET UNITYSDK_OFFSET(0x14E1B330)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITriDiceOracleDialogPopWindowController___c_TypeDefinitionIndex = 89302;
+	inline static constexpr unsigned int UITriDiceOracleDialogPopWindowController___c_TypeDefinitionIndex = 85635;
 
 	class UITriDiceOracleDialogPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UITriDiceOracleDialogPopWindowController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UITriDiceOracleDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UITriDiceOracleDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A920);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UITriDiceOracleDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C760);
 		}
 		static ::System::Func_1<::System::String*>** StaticGet___9__49_0()
 		{
-			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UITriDiceOracleDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A928);
+			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UITriDiceOracleDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C768);
 		}
 
 		static ::System::Void _cctor()

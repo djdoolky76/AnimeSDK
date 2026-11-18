@@ -1,180 +1,71 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
+#include "unitysdk/Spine/Physics.h"
 
 namespace Spine { class Bone; }
+namespace Spine { class BonePose; }
+namespace Spine { class IConstraint; }
 namespace Spine { class Skeleton; }
 namespace Spine { class TransformConstraintData; }
 namespace Spine { template <typename T> class ExposedList_1; }
-namespace System { class String; }
 
-#define SPINE_TRANSFORMCONSTRAINT_APPLYABSOLUTELOCAL_OFFSET UNITYSDK_OFFSET(0x1FB91110)
-#define SPINE_TRANSFORMCONSTRAINT_APPLYABSOLUTEWORLD_OFFSET UNITYSDK_OFFSET(0x1FB91B30)
-#define SPINE_TRANSFORMCONSTRAINT_APPLYRELATIVELOCAL_OFFSET UNITYSDK_OFFSET(0x1FB90ED0)
-#define SPINE_TRANSFORMCONSTRAINT_APPLYRELATIVEWORLD_OFFSET UNITYSDK_OFFSET(0x1FB91460)
-#define SPINE_TRANSFORMCONSTRAINT_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1FB92330)
-#define SPINE_TRANSFORMCONSTRAINT_GET_BONES_OFFSET UNITYSDK_OFFSET(0x1FB92240)
-#define SPINE_TRANSFORMCONSTRAINT_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1FB92340)
-#define SPINE_TRANSFORMCONSTRAINT_GET_MIXROTATE_OFFSET UNITYSDK_OFFSET(0x1FB92270)
-#define SPINE_TRANSFORMCONSTRAINT_GET_MIXSCALEX_OFFSET UNITYSDK_OFFSET(0x1FB922D0)
-#define SPINE_TRANSFORMCONSTRAINT_GET_MIXSCALEY_OFFSET UNITYSDK_OFFSET(0x1FB922F0)
-#define SPINE_TRANSFORMCONSTRAINT_GET_MIXSHEARY_OFFSET UNITYSDK_OFFSET(0x1FB92310)
-#define SPINE_TRANSFORMCONSTRAINT_GET_MIXX_OFFSET UNITYSDK_OFFSET(0x1FB92290)
-#define SPINE_TRANSFORMCONSTRAINT_GET_MIXY_OFFSET UNITYSDK_OFFSET(0x1FB922B0)
-#define SPINE_TRANSFORMCONSTRAINT_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1FB92250)
-#define SPINE_TRANSFORMCONSTRAINT_SET_MIXROTATE_OFFSET UNITYSDK_OFFSET(0x1FB92280)
-#define SPINE_TRANSFORMCONSTRAINT_SET_MIXSCALEX_OFFSET UNITYSDK_OFFSET(0x1FB922E0)
-#define SPINE_TRANSFORMCONSTRAINT_SET_MIXSCALEY_OFFSET UNITYSDK_OFFSET(0x1FB92300)
-#define SPINE_TRANSFORMCONSTRAINT_SET_MIXSHEARY_OFFSET UNITYSDK_OFFSET(0x1FB92320)
-#define SPINE_TRANSFORMCONSTRAINT_SET_MIXX_OFFSET UNITYSDK_OFFSET(0x1FB922A0)
-#define SPINE_TRANSFORMCONSTRAINT_SET_MIXY_OFFSET UNITYSDK_OFFSET(0x1FB922C0)
-#define SPINE_TRANSFORMCONSTRAINT_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x1FB92260)
-#define SPINE_TRANSFORMCONSTRAINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1FB92350)
-#define SPINE_TRANSFORMCONSTRAINT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FB90E30)
-#define SPINE_TRANSFORMCONSTRAINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FB90B30)
-#define SPINE_TRANSFORMCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB90860)
+#define SPINE_TRANSFORMCONSTRAINT_COPY_OFFSET UNITYSDK_OFFSET(0x1FF92780)
+#define SPINE_TRANSFORMCONSTRAINT_GET_BONES_OFFSET UNITYSDK_OFFSET(0x1FF931D0)
+#define SPINE_TRANSFORMCONSTRAINT_GET_ISSOURCEACTIVE_OFFSET UNITYSDK_OFFSET(0x1FF931B0)
+#define SPINE_TRANSFORMCONSTRAINT_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x1FF931E0)
+#define SPINE_TRANSFORMCONSTRAINT_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0x1FF931F0)
+#define SPINE_TRANSFORMCONSTRAINT_SORT_OFFSET UNITYSDK_OFFSET(0x1FF92FA0)
+#define SPINE_TRANSFORMCONSTRAINT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FF92820)
+#define SPINE_TRANSFORMCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF92440)
 
 namespace Spine
 {
-	inline static constexpr unsigned int TransformConstraint_TypeDefinitionIndex = 33543;
+	inline static constexpr unsigned int TransformConstraint_TypeDefinitionIndex = 33073;
 
-	class TransformConstraint : public ::System::Object
+	class TransformConstraint
 	{
 	public:
-		::Spine::Bone* target; // 0x10
-		::Spine::TransformConstraintData* data; // 0x18
-		::Spine::ExposedList_1<::Spine::Bone*>* bones; // 0x20
-		::System::Single mixRotate; // 0x28
-		::System::Single mixScaleX; // 0x2C
-		::System::Single mixY; // 0x30
-		::System::Single mixX; // 0x34
-		::System::Single mixScaleY; // 0x38
-		::System::Single mixShearY; // 0x3C
-		::System::Boolean active; // 0x40
+		::Spine::ExposedList_1<::Spine::BonePose*>* bones; // 0x38
+		::Spine::Bone* source; // 0x40
 
 		::System::Void _ctor(::Spine::TransformConstraintData* data, ::Spine::Skeleton* skeleton)
 		{
 			return ((::System::Void(*)(::PVOID, ::Spine::TransformConstraintData*, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT__CTOR_OFFSET))(this, data, skeleton);
 		}
 
-		::System::Void _ctor_1(::Spine::TransformConstraint* constraint, ::Spine::Skeleton* skeleton)
+		::Spine::IConstraint* Copy(::Spine::Skeleton* skeleton)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::TransformConstraint*, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT__CTOR_1_OFFSET))(this, constraint, skeleton);
+			return ((::Spine::IConstraint*(*)(::PVOID, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_COPY_OFFSET))(this, skeleton);
 		}
 
-		::System::Void Update()
+		::System::Void Update(::Spine::Skeleton* skeleton, ::Spine::Physics physics)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_UPDATE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::Spine::Physics))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_UPDATE_OFFSET))(this, skeleton, physics);
 		}
 
-		::System::Void ApplyAbsoluteWorld()
+		::System::Void Sort(::Spine::Skeleton* skeleton)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_APPLYABSOLUTEWORLD_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_SORT_OFFSET))(this, skeleton);
 		}
 
-		::System::Void ApplyRelativeWorld()
+		::System::Boolean get_IsSourceActive()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_APPLYRELATIVEWORLD_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_ISSOURCEACTIVE_OFFSET))(this);
 		}
 
-		::System::Void ApplyAbsoluteLocal()
+		::Spine::ExposedList_1<::Spine::BonePose*>* get_Bones()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_APPLYABSOLUTELOCAL_OFFSET))(this);
+			return ((::Spine::ExposedList_1<::Spine::BonePose*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_BONES_OFFSET))(this);
 		}
 
-		::System::Void ApplyRelativeLocal()
+		::Spine::Bone* get_Source()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_APPLYRELATIVELOCAL_OFFSET))(this);
+			return ((::Spine::Bone*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_SOURCE_OFFSET))(this);
 		}
 
-		::Spine::ExposedList_1<::Spine::Bone*>* get_Bones()
+		::System::Void set_Source(::Spine::Bone* value)
 		{
-			return ((::Spine::ExposedList_1<::Spine::Bone*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_BONES_OFFSET))(this);
-		}
-
-		::Spine::Bone* get_Target()
-		{
-			return ((::Spine::Bone*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_TARGET_OFFSET))(this);
-		}
-
-		::System::Void set_Target(::Spine::Bone* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_SET_TARGET_OFFSET))(this, value);
-		}
-
-		::System::Single get_MixRotate()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_MIXROTATE_OFFSET))(this);
-		}
-
-		::System::Void set_MixRotate(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_SET_MIXROTATE_OFFSET))(this, value);
-		}
-
-		::System::Single get_MixX()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_MIXX_OFFSET))(this);
-		}
-
-		::System::Void set_MixX(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_SET_MIXX_OFFSET))(this, value);
-		}
-
-		::System::Single get_MixY()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_MIXY_OFFSET))(this);
-		}
-
-		::System::Void set_MixY(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_SET_MIXY_OFFSET))(this, value);
-		}
-
-		::System::Single get_MixScaleX()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_MIXSCALEX_OFFSET))(this);
-		}
-
-		::System::Void set_MixScaleX(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_SET_MIXSCALEX_OFFSET))(this, value);
-		}
-
-		::System::Single get_MixScaleY()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_MIXSCALEY_OFFSET))(this);
-		}
-
-		::System::Void set_MixScaleY(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_SET_MIXSCALEY_OFFSET))(this, value);
-		}
-
-		::System::Single get_MixShearY()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_MIXSHEARY_OFFSET))(this);
-		}
-
-		::System::Void set_MixShearY(::System::Single value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_SET_MIXSHEARY_OFFSET))(this, value);
-		}
-
-		::System::Boolean get_Active()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_ACTIVE_OFFSET))(this);
-		}
-
-		::Spine::TransformConstraintData* get_Data()
-		{
-			return ((::Spine::TransformConstraintData*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_GET_DATA_OFFSET))(this);
-		}
-
-		::System::String* ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_TOSTRING_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Spine::Bone*))((::PBYTE)hIl2Cpp + SPINE_TRANSFORMCONSTRAINT_SET_SOURCE_OFFSET))(this, value);
 		}
 	};
 }

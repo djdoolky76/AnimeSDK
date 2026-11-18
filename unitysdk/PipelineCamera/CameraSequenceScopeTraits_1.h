@@ -2,16 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace PipelineCamera::CameraSequence { class ContextDependentAttribute; }
-namespace PipelineCamera::CameraSequence { class ContextExternalAttribute; }
-namespace PipelineCamera::CameraSequence { class ContextFreeAttribute; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class FieldInfo; }
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CameraSequenceScopeTraits_1_TypeDefinitionIndex = 38257;
+	inline static constexpr unsigned int CameraSequenceScopeTraits_1_TypeDefinitionIndex = 36259;
 
 	template <typename T>
 	class CameraSequenceScopeTraits_1 : public ::System::Object

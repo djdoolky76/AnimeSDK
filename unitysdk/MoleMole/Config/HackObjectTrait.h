@@ -1,65 +1,65 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/CameraHackOperateType.h"
+#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
+#include "unitysdk/MoleMole/Config/HackObjectType.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/Foundation/ViewObject/EntityBuildContext.h"
 #include "unitysdk/Foundation/ViewObject/ViewObjectHandle.h"
-#include "unitysdk/MoleMole/Config/CameraHackOperateType.h"
-#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
-#include "unitysdk/MoleMole/Config/HackObjectType.h"
 #include "unitysdk/MoleMole/EntityHandle.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_198;
-class Class_1_236FD73ABC492E3F;
-class Class_1_714AA90574E203E0;
-class Class_1_B6B0D4D95C980CCC;
-class Class_1_B85817849BC6CF88;
-class Class_1_BE29B49AC03370B6;
-class Class_3_07AAFA6F7F79BEB3;
+class ANOKJGCCGAO;
+class BOHMJANLLMM;
+class EKHEOJOFLLA;
+class EPJAODADCEA;
+class FKNIEPCILLG;
+class FLDPBAPLICI;
+class OHDHAGLCAEB;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x172B9AB0)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x172B4D80)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x172B4E80)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x172B4C90)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172B8D80)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x172B6680)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x172B9920)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETGADGETVIEWOBJECTID_OFFSET UNITYSDK_OFFSET(0x172BABC0)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x172B4E70)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETMEMBERCONFIG_1_OFFSET UNITYSDK_OFFSET(0x172B9F50)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETMEMBERCONFIG_OFFSET UNITYSDK_OFFSET(0x172B9E20)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETVALUE_OFFSET UNITYSDK_OFFSET(0x172BAE00)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x172B8DE0)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x172B6700)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_ONPOSTENTITYDISSOCIATE_OFFSET UNITYSDK_OFFSET(0x172BAFB0)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x172BB000)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x172B9790)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x172B8C40)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_1_OFFSET UNITYSDK_OFFSET(0x172B9BB0)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_2_OFFSET UNITYSDK_OFFSET(0x172B9EA0)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_3_OFFSET UNITYSDK_OFFSET(0x172BA580)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_OFFSET UNITYSDK_OFFSET(0x172B99D0)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_SHOULDENABLENPCSPACING_OFFSET UNITYSDK_OFFSET(0x172BAAB0)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TOVECTOR3_OFFSET UNITYSDK_OFFSET(0x172BAA00)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETMONSTERBASEID_1_OFFSET UNITYSDK_OFFSET(0x172BAB10)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETMONSTERBASEID_OFFSET UNITYSDK_OFFSET(0x172BAC20)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETNPCSUBID_OFFSET UNITYSDK_OFFSET(0x172BAC90)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETSCANMAPPINGKEY_OFFSET UNITYSDK_OFFSET(0x172BA1C0)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYRESOLVERUNTIMETRAIT_OFFSET UNITYSDK_OFFSET(0x172BA640)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYRESOLVESCANMAPPINGTRAIT_OFFSET UNITYSDK_OFFSET(0x172BA6D0)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x172BB270)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x172BB2A0)
-#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x172BB2B0)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x16425A20)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x16420A80)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x16420B80)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x16420990)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16424CB0)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x16422480)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x16425890)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETGADGETVIEWOBJECTID_OFFSET UNITYSDK_OFFSET(0x16426B50)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x16420B70)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETMEMBERCONFIG_1_OFFSET UNITYSDK_OFFSET(0x16425EC0)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETMEMBERCONFIG_OFFSET UNITYSDK_OFFSET(0x16425D90)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETVALUE_OFFSET UNITYSDK_OFFSET(0x16426D90)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16424D10)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x16422500)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_ONPOSTENTITYDISSOCIATE_OFFSET UNITYSDK_OFFSET(0x16426F40)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_ONPOSTENTITYREADY_OFFSET UNITYSDK_OFFSET(0x16426F90)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16425700)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x16424B70)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_1_OFFSET UNITYSDK_OFFSET(0x16425B20)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_2_OFFSET UNITYSDK_OFFSET(0x16425E10)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_3_OFFSET UNITYSDK_OFFSET(0x16426510)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_OFFSET UNITYSDK_OFFSET(0x16425940)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_SHOULDENABLENPCSPACING_OFFSET UNITYSDK_OFFSET(0x16426A40)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TOVECTOR3_OFFSET UNITYSDK_OFFSET(0x16426990)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETMONSTERBASEID_1_OFFSET UNITYSDK_OFFSET(0x16426AA0)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETMONSTERBASEID_OFFSET UNITYSDK_OFFSET(0x16426BB0)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETNPCSUBID_OFFSET UNITYSDK_OFFSET(0x16426C20)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETSCANMAPPINGKEY_OFFSET UNITYSDK_OFFSET(0x16426130)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYRESOLVERUNTIMETRAIT_OFFSET UNITYSDK_OFFSET(0x164265D0)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYRESOLVESCANMAPPINGTRAIT_OFFSET UNITYSDK_OFFSET(0x16426660)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x16427200)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x16427230)
+#define MOLEMOLE_CONFIG_HACKOBJECTTRAIT___BASE_GENERATECOMPONENT_OFFSET UNITYSDK_OFFSET(0x16427240)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HackObjectTrait_TypeDefinitionIndex = 69821;
+	inline static constexpr unsigned int HackObjectTrait_TypeDefinitionIndex = 73570;
 
 	class HackObjectTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -74,6 +74,7 @@ namespace MoleMole::Config
 		::System::Single InteractDistanceOffset; // 0x24
 		::System::String* AttachPoint; // 0x28
 		::UnityEngine::Vector3 AttachOffset; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::String* DetectPoint; // 0x40
 		::System::Single HoldTime; // 0x48
 		::System::Boolean OnlyCheckByCameraHackMode; // 0x4C
@@ -89,10 +90,13 @@ namespace MoleMole::Config
 		::System::Boolean CanInteractInCameralMode; // 0x79
 		::System::Boolean CanInteractInDroneMode; // 0x7A
 		::System::Boolean CanInteractInRobotMode; // 0x7B
-		::System::Boolean UseOutLineEffect; // 0x7C
-		::System::Boolean UseOverlapEffect; // 0x7D
+		::System::Boolean CanInteractInGiantMechMode; // 0x7C
+		::System::Boolean UseOutLineEffect; // 0x7D
+		::System::Boolean UseOverlapEffect; // 0x7E
+		::System::Byte _padding1[0x1];
 		::System::Collections::Generic::List_1<::System::Int32>* RelatedConfigIDList; // 0x80
 		::System::Boolean UseForwardAngleRange; // 0x88
+		::System::Byte _padding2[0x3];
 		::System::Single InteractAngleRangeMin; // 0x8C
 		::System::Single InteractAngleRangeMax; // 0x90
 
@@ -116,9 +120,9 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
-		::System::Void ExposeMember(::Class_0_16E4307DCC419505_198* processor, ::System::String* prefix)
+		::System::Void ExposeMember(::OHDHAGLCAEB* processor, ::System::String* prefix)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
 		}
 
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
@@ -136,24 +140,24 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::HackObjectTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::HackObjectTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		static ::MoleMole::Config::HackObjectTrait* ParseFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::HackObjectTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+			return ((::MoleMole::Config::HackObjectTrait*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
-		::System::Boolean GenerateComponent(::Class_1_BE29B49AC03370B6* buildContext)
+		::System::Boolean GenerateComponent(::EKHEOJOFLLA* buildContext)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
+			return ((::System::Boolean(*)(::PVOID, ::EKHEOJOFLLA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GENERATECOMPONENT_OFFSET))(this, buildContext);
 		}
 
 		::System::Boolean BuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& buildContext)
@@ -161,9 +165,9 @@ namespace MoleMole::Config
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_BUILDENTITYCOMPONENT_OFFSET))(this, buildContext);
 		}
 
-		::MoleMole::Config::HackObjectTrait* ResolveRuntimeTrait(::Class_1_BE29B49AC03370B6* buildContext)
+		::MoleMole::Config::HackObjectTrait* ResolveRuntimeTrait(::EKHEOJOFLLA* buildContext)
 		{
-			return ((::MoleMole::Config::HackObjectTrait*(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_OFFSET))(this, buildContext);
+			return ((::MoleMole::Config::HackObjectTrait*(*)(::PVOID, ::EKHEOJOFLLA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_OFFSET))(this, buildContext);
 		}
 
 		::MoleMole::Config::HackObjectTrait* ResolveRuntimeTrait_1(::Foundation::ViewObject::EntityBuildContext buildContext)
@@ -171,9 +175,9 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::HackObjectTrait*(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_1_OFFSET))(this, buildContext);
 		}
 
-		::MoleMole::Config::HackObjectTrait* ResolveRuntimeTrait_2(::Class_3_07AAFA6F7F79BEB3* serverInfo, ::Class_1_B85817849BC6CF88* config, ::Class_1_B6B0D4D95C980CCC* memberConfig)
+		::MoleMole::Config::HackObjectTrait* ResolveRuntimeTrait_2(::EPJAODADCEA* serverInfo, ::FLDPBAPLICI* config, ::ANOKJGCCGAO* memberConfig)
 		{
-			return ((::MoleMole::Config::HackObjectTrait*(*)(::PVOID, ::Class_3_07AAFA6F7F79BEB3*, ::Class_1_B85817849BC6CF88*, ::Class_1_B6B0D4D95C980CCC*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_2_OFFSET))(this, serverInfo, config, memberConfig);
+			return ((::MoleMole::Config::HackObjectTrait*(*)(::PVOID, ::EPJAODADCEA*, ::FLDPBAPLICI*, ::ANOKJGCCGAO*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_RESOLVERUNTIMETRAIT_2_OFFSET))(this, serverInfo, config, memberConfig);
 		}
 
 		::MoleMole::Config::HackObjectTrait* ResolveRuntimeTrait_3(::System::Int32 id, ::System::Int32 typeId)
@@ -196,34 +200,34 @@ namespace MoleMole::Config
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_SHOULDENABLENPCSPACING_OFFSET))(this);
 		}
 
-		static ::Class_1_B6B0D4D95C980CCC* GetMemberConfig(::Class_3_07AAFA6F7F79BEB3* serverInfo)
+		static ::ANOKJGCCGAO* GetMemberConfig(::EPJAODADCEA* serverInfo)
 		{
-			return ((::Class_1_B6B0D4D95C980CCC*(*)(::Class_3_07AAFA6F7F79BEB3*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETMEMBERCONFIG_OFFSET))(serverInfo);
+			return ((::ANOKJGCCGAO*(*)(::EPJAODADCEA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETMEMBERCONFIG_OFFSET))(serverInfo);
 		}
 
-		static ::Class_1_B6B0D4D95C980CCC* GetMemberConfig_1(::Foundation::ViewObject::ViewObjectHandle handle)
+		static ::ANOKJGCCGAO* GetMemberConfig_1(::Foundation::ViewObject::ViewObjectHandle handle)
 		{
-			return ((::Class_1_B6B0D4D95C980CCC*(*)(::Foundation::ViewObject::ViewObjectHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETMEMBERCONFIG_1_OFFSET))(handle);
+			return ((::ANOKJGCCGAO*(*)(::Foundation::ViewObject::ViewObjectHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETMEMBERCONFIG_1_OFFSET))(handle);
 		}
 
-		static ::System::Boolean TryGetScanMappingKey(::Class_3_07AAFA6F7F79BEB3* serverInfo, ::Class_1_B85817849BC6CF88* config, ::Class_1_B6B0D4D95C980CCC* memberConfig, ::System::Int32& id, ::System::Int32& typeId)
+		static ::System::Boolean TryGetScanMappingKey(::EPJAODADCEA* serverInfo, ::FLDPBAPLICI* config, ::ANOKJGCCGAO* memberConfig, ::System::Int32& id, ::System::Int32& typeId)
 		{
-			return ((::System::Boolean(*)(::Class_3_07AAFA6F7F79BEB3*, ::Class_1_B85817849BC6CF88*, ::Class_1_B6B0D4D95C980CCC*, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETSCANMAPPINGKEY_OFFSET))(serverInfo, config, memberConfig, id, typeId);
+			return ((::System::Boolean(*)(::EPJAODADCEA*, ::FLDPBAPLICI*, ::ANOKJGCCGAO*, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETSCANMAPPINGKEY_OFFSET))(serverInfo, config, memberConfig, id, typeId);
 		}
 
-		static ::System::Int32 GetGadgetViewObjectId(::Class_1_B85817849BC6CF88* config, ::Class_1_B6B0D4D95C980CCC* memberConfig)
+		static ::System::Int32 GetGadgetViewObjectId(::FLDPBAPLICI* config, ::ANOKJGCCGAO* memberConfig)
 		{
-			return ((::System::Int32(*)(::Class_1_B85817849BC6CF88*, ::Class_1_B6B0D4D95C980CCC*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETGADGETVIEWOBJECTID_OFFSET))(config, memberConfig);
+			return ((::System::Int32(*)(::FLDPBAPLICI*, ::ANOKJGCCGAO*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_GETGADGETVIEWOBJECTID_OFFSET))(config, memberConfig);
 		}
 
-		static ::System::Boolean TryGetNpcSubId(::Class_1_B85817849BC6CF88* config, ::System::Int32& npcId)
+		static ::System::Boolean TryGetNpcSubId(::FLDPBAPLICI* config, ::System::Int32& npcId)
 		{
-			return ((::System::Boolean(*)(::Class_1_B85817849BC6CF88*, ::System::Int32&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETNPCSUBID_OFFSET))(config, npcId);
+			return ((::System::Boolean(*)(::FLDPBAPLICI*, ::System::Int32&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETNPCSUBID_OFFSET))(config, npcId);
 		}
 
-		static ::System::Boolean TryGetMonsterBaseId(::Class_1_714AA90574E203E0* monsterInfo, ::System::Int32& monsterBaseId)
+		static ::System::Boolean TryGetMonsterBaseId(::BOHMJANLLMM* monsterInfo, ::System::Int32& monsterBaseId)
 		{
-			return ((::System::Boolean(*)(::Class_1_714AA90574E203E0*, ::System::Int32&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETMONSTERBASEID_OFFSET))(monsterInfo, monsterBaseId);
+			return ((::System::Boolean(*)(::BOHMJANLLMM*, ::System::Int32&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_TRYGETMONSTERBASEID_OFFSET))(monsterInfo, monsterBaseId);
 		}
 
 		static ::System::Boolean TryGetMonsterBaseId_1(::System::Int32 monsterId, ::System::Boolean isSubId, ::System::Int32& monsterBaseId)
@@ -251,14 +255,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID, ::MoleMole::EntityHandle))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT_ONPOSTENTITYREADY_OFFSET))(this, entityHandle);
 		}
 
-		::System::Void __base_ExposeMember(::Class_0_16E4307DCC419505_198* P0, ::System::String* P1)
+		::System::Void __base_ExposeMember(::OHDHAGLCAEB* P0, ::System::String* P1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_198*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 
-		::System::Boolean __base_GenerateComponent(::Class_1_BE29B49AC03370B6* P0)
+		::System::Boolean __base_GenerateComponent(::EKHEOJOFLLA* P0)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_BE29B49AC03370B6*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
+			return ((::System::Boolean(*)(::PVOID, ::EKHEOJOFLLA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_HACKOBJECTTRAIT___BASE_GENERATECOMPONENT_OFFSET))(this, P0);
 		}
 	};
 }

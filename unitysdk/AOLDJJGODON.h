@@ -1,0 +1,253 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BHPFNHAOAFA.h"
+#include "unitysdk/FPPAEEAFAGA.h"
+#include "unitysdk/HNGNECAGPNE.h"
+#include "unitysdk/System/Object.h"
+
+class AEDJLOFACHD;
+namespace MoleMole { class MonoGamepadBaseList; }
+namespace MoleMole { class MonoGamepadModule; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Transform; }
+
+#define AOLDJJGODON_ADEJOEKHDBH_OFFSET UNITYSDK_OFFSET(0x11BE0190)
+#define AOLDJJGODON_BCGLJFEMGML_OFFSET UNITYSDK_OFFSET(0x11BDF540)
+#define AOLDJJGODON_CCOKAHEINPK_OFFSET UNITYSDK_OFFSET(0x11BE0A40)
+#define AOLDJJGODON_CGHNDPGMJKM_OFFSET UNITYSDK_OFFSET(0x11BE0180)
+#define AOLDJJGODON_CLOGEIGGGJF_OFFSET UNITYSDK_OFFSET(0x11BDF580)
+#define AOLDJJGODON_CNAKJIGDENP_OFFSET UNITYSDK_OFFSET(0x11BE0C40)
+#define AOLDJJGODON_DDDLPFECFPL_OFFSET UNITYSDK_OFFSET(0x11BDF7F0)
+#define AOLDJJGODON_DDLHJKMBGFN_OFFSET UNITYSDK_OFFSET(0x11BE0C90)
+#define AOLDJJGODON_EDMDKALKCND_OFFSET UNITYSDK_OFFSET(0x11BDE480)
+#define AOLDJJGODON_EECFCIACJLN_OFFSET UNITYSDK_OFFSET(0x11BDEDE0)
+#define AOLDJJGODON_EOHNBMOCNBL_OFFSET UNITYSDK_OFFSET(0x11BDFA40)
+#define AOLDJJGODON_EPHLPJEBIBA_OFFSET UNITYSDK_OFFSET(0x11BDFD60)
+#define AOLDJJGODON_FJFOAAHFLJA_OFFSET UNITYSDK_OFFSET(0x11BDEC40)
+#define AOLDJJGODON_GNCCCCPIGAP_OFFSET UNITYSDK_OFFSET(0x11BDE3D0)
+#define AOLDJJGODON_HHHEHJFEKAF_OFFSET UNITYSDK_OFFSET(0x11BE0C20)
+#define AOLDJJGODON_HHMLJKAKEGD_OFFSET UNITYSDK_OFFSET(0x11BE0CF0)
+#define AOLDJJGODON_HKPJBODNGIE_OFFSET UNITYSDK_OFFSET(0x11BE0A70)
+#define AOLDJJGODON_HLPKOGDEMFF_OFFSET UNITYSDK_OFFSET(0x11BDF4D0)
+#define AOLDJJGODON_HNINOHLPJGG_OFFSET UNITYSDK_OFFSET(0x11BDDFF0)
+#define AOLDJJGODON_HNMDNBJPBCE_OFFSET UNITYSDK_OFFSET(0x11BDFB60)
+#define AOLDJJGODON_IPCBLBMHKPF_OFFSET UNITYSDK_OFFSET(0x11BDF850)
+#define AOLDJJGODON_KGGAAADMDPJ_OFFSET UNITYSDK_OFFSET(0x11BDFDE0)
+#define AOLDJJGODON_KLFFIIJIGNJ_OFFSET UNITYSDK_OFFSET(0x11BDECF0)
+#define AOLDJJGODON_KNJLFLPJHMC_OFFSET UNITYSDK_OFFSET(0x11BDCE60)
+#define AOLDJJGODON_KOGDBKGHCFA_OFFSET UNITYSDK_OFFSET(0x11BDEA40)
+#define AOLDJJGODON_LKLJNFECNHF_OFFSET UNITYSDK_OFFSET(0x11BDE200)
+#define AOLDJJGODON_NACFHHILFLP_OFFSET UNITYSDK_OFFSET(0x11BE0580)
+#define AOLDJJGODON_NAJNJGKLLIH_OFFSET UNITYSDK_OFFSET(0x11BE0360)
+#define AOLDJJGODON_NCOECPGPNHB_OFFSET UNITYSDK_OFFSET(0x11BDF000)
+#define AOLDJJGODON_NJHBOAEOFFH_1_OFFSET UNITYSDK_OFFSET(0x11BDF420)
+#define AOLDJJGODON_NJHBOAEOFFH_OFFSET UNITYSDK_OFFSET(0x11BDF270)
+#define AOLDJJGODON_NJHNPGILJFL_OFFSET UNITYSDK_OFFSET(0x11BDFC80)
+#define AOLDJJGODON_NLFBDBIMANA_OFFSET UNITYSDK_OFFSET(0x11BDCE70)
+#define AOLDJJGODON_NNIPLFGJAJE_OFFSET UNITYSDK_OFFSET(0x11BDFF90)
+#define AOLDJJGODON_OBKNKMBCGKJ_OFFSET UNITYSDK_OFFSET(0x11BE0A60)
+#define AOLDJJGODON_OJJEBKGBJDG_OFFSET UNITYSDK_OFFSET(0x11BE0620)
+#define AOLDJJGODON__CTOR_OFFSET UNITYSDK_OFFSET(0x11BDCC80)
+
+inline static constexpr unsigned int AOLDJJGODON_TypeDefinitionIndex = 67310;
+
+class AOLDJJGODON : public ::System::Object
+{
+public:
+	// static const ::System::Int32 PIEBJBHGKKI = 0x2; // 0x0
+	::System::Collections::Generic::Dictionary_2<::MoleMole::MonoGamepadBaseList*, ::AEDJLOFACHD*>* BBKNJPEACON; // 0x10
+	::System::Collections::Generic::List_1<::AEDJLOFACHD*>* ABEAKJGDKAO; // 0x18
+	::AEDJLOFACHD* _LEKKMNDGAMA_k__BackingField; // 0x20
+	::System::Collections::Generic::List_1<::AEDJLOFACHD*>* NEJJDHBOMIA; // 0x28
+	::System::Collections::Generic::List_1<::MoleMole::MonoGamepadModule*>* MEINFACEKEC; // 0x30
+	::System::Collections::Generic::List_1<::FPPAEEAFAGA>* MIBNKFNCNDG; // 0x38
+	::System::Int32 HEHNEBCGAFC; // 0x40
+	::System::Boolean MEJPFDDHCMN; // 0x44
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KNJLFLPJHMC(::AEDJLOFACHD* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::AEDJLOFACHD*))((::PBYTE)hIl2Cpp + AOLDJJGODON_KNJLFLPJHMC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Boolean NLFBDBIMANA(::AEDJLOFACHD* IAPKABMDJNF)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::AEDJLOFACHD*))((::PBYTE)hIl2Cpp + AOLDJJGODON_NLFBDBIMANA_OFFSET))(this, IAPKABMDJNF);
+	}
+
+	::System::Boolean GNCCCCPIGAP(::AEDJLOFACHD* KPNIHKEKDOC)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::AEDJLOFACHD*))((::PBYTE)hIl2Cpp + AOLDJJGODON_GNCCCCPIGAP_OFFSET))(this, KPNIHKEKDOC);
+	}
+
+	::System::Void KOGDBKGHCFA(::MoleMole::MonoGamepadBaseList* NMCHIJANBBJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadBaseList*))((::PBYTE)hIl2Cpp + AOLDJJGODON_KOGDBKGHCFA_OFFSET))(this, NMCHIJANBBJ);
+	}
+
+	::System::Boolean FJFOAAHFLJA(::AEDJLOFACHD* KPNIHKEKDOC)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::AEDJLOFACHD*))((::PBYTE)hIl2Cpp + AOLDJJGODON_FJFOAAHFLJA_OFFSET))(this, KPNIHKEKDOC);
+	}
+
+	::System::Void KLFFIIJIGNJ(::System::Boolean DEBGKPLOPCG)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AOLDJJGODON_KLFFIIJIGNJ_OFFSET))(this, DEBGKPLOPCG);
+	}
+
+	::System::Void NJHBOAEOFFH(::System::String* OOONELGGOKM, ::System::Boolean NPPMJEIPMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + AOLDJJGODON_NJHBOAEOFFH_OFFSET))(this, OOONELGGOKM, NPPMJEIPMFC);
+	}
+
+	::System::Void HLPKOGDEMFF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_HLPKOGDEMFF_OFFSET))(this);
+	}
+
+	::AEDJLOFACHD* BCGLJFEMGML()
+	{
+		return ((::AEDJLOFACHD*(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_BCGLJFEMGML_OFFSET))(this);
+	}
+
+	::System::Void CLOGEIGGGJF(::MoleMole::MonoGamepadModule* LOFAJNPDGAD, ::System::Boolean CGPBOKCEGAO)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadModule*, ::System::Boolean))((::PBYTE)hIl2Cpp + AOLDJJGODON_CLOGEIGGGJF_OFFSET))(this, LOFAJNPDGAD, CGPBOKCEGAO);
+	}
+
+	::System::Void NCOECPGPNHB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_NCOECPGPNHB_OFFSET))(this);
+	}
+
+	::System::Void EDMDKALKCND(::AEDJLOFACHD* IAPKABMDJNF)
+	{
+		return ((::System::Void(*)(::PVOID, ::AEDJLOFACHD*))((::PBYTE)hIl2Cpp + AOLDJJGODON_EDMDKALKCND_OFFSET))(this, IAPKABMDJNF);
+	}
+
+	::System::Void EOHNBMOCNBL(::MoleMole::MonoGamepadBaseList* NMCHIJANBBJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadBaseList*))((::PBYTE)hIl2Cpp + AOLDJJGODON_EOHNBMOCNBL_OFFSET))(this, NMCHIJANBBJ);
+	}
+
+	::FPPAEEAFAGA EPHLPJEBIBA()
+	{
+		return ((::FPPAEEAFAGA(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_EPHLPJEBIBA_OFFSET))(this);
+	}
+
+	::AEDJLOFACHD* NNIPLFGJAJE(::MoleMole::MonoGamepadBaseList* DJLOKMMLFJC)
+	{
+		return ((::AEDJLOFACHD*(*)(::PVOID, ::MoleMole::MonoGamepadBaseList*))((::PBYTE)hIl2Cpp + AOLDJJGODON_NNIPLFGJAJE_OFFSET))(this, DJLOKMMLFJC);
+	}
+
+	::System::Void EECFCIACJLN(::MoleMole::MonoGamepadBaseList* NMCHIJANBBJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadBaseList*))((::PBYTE)hIl2Cpp + AOLDJJGODON_EECFCIACJLN_OFFSET))(this, NMCHIJANBBJ);
+	}
+
+	::System::Int32 CGHNDPGMJKM()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_CGHNDPGMJKM_OFFSET))(this);
+	}
+
+	::System::Void DDDLPFECFPL(::AEDJLOFACHD* BEKAGNFAFGI, ::System::Boolean NPPMJEIPMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::AEDJLOFACHD*, ::System::Boolean))((::PBYTE)hIl2Cpp + AOLDJJGODON_DDDLPFECFPL_OFFSET))(this, BEKAGNFAFGI, NPPMJEIPMFC);
+	}
+
+	::System::Void NJHNPGILJFL()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_NJHNPGILJFL_OFFSET))(this);
+	}
+
+	::System::Boolean ADEJOEKHDBH(::FPPAEEAFAGA& KMGJPEICNFI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::FPPAEEAFAGA&))((::PBYTE)hIl2Cpp + AOLDJJGODON_ADEJOEKHDBH_OFFSET))(this, KMGJPEICNFI);
+	}
+
+	::System::Void KGGAAADMDPJ()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_KGGAAADMDPJ_OFFSET))(this);
+	}
+
+	::System::Boolean HNINOHLPJGG(::AEDJLOFACHD* KPNIHKEKDOC, ::MoleMole::MonoGamepadBaseList* DJLOKMMLFJC)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::AEDJLOFACHD*, ::MoleMole::MonoGamepadBaseList*))((::PBYTE)hIl2Cpp + AOLDJJGODON_HNINOHLPJGG_OFFSET))(this, KPNIHKEKDOC, DJLOKMMLFJC);
+	}
+
+	::System::Void NAJNJGKLLIH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_NAJNJGKLLIH_OFFSET))(this);
+	}
+
+	::System::Void OJJEBKGBJDG(::MoleMole::MonoGamepadBaseList* KHGFAKJKDGG, ::MoleMole::MonoGamepadBaseList* HODAIDNDKHD)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadBaseList*, ::MoleMole::MonoGamepadBaseList*))((::PBYTE)hIl2Cpp + AOLDJJGODON_OJJEBKGBJDG_OFFSET))(this, KHGFAKJKDGG, HODAIDNDKHD);
+	}
+
+	::System::Boolean CCOKAHEINPK()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_CCOKAHEINPK_OFFSET))(this);
+	}
+
+	::AEDJLOFACHD* OBKNKMBCGKJ()
+	{
+		return ((::AEDJLOFACHD*(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_OBKNKMBCGKJ_OFFSET))(this);
+	}
+
+	::System::Void IPCBLBMHKPF(::AEDJLOFACHD* KPNIHKEKDOC, ::MoleMole::MonoGamepadBaseList* DJLOKMMLFJC)
+	{
+		return ((::System::Void(*)(::PVOID, ::AEDJLOFACHD*, ::MoleMole::MonoGamepadBaseList*))((::PBYTE)hIl2Cpp + AOLDJJGODON_IPCBLBMHKPF_OFFSET))(this, KPNIHKEKDOC, DJLOKMMLFJC);
+	}
+
+	::System::Void HKPJBODNGIE(::MoleMole::MonoGamepadBaseList* AECPJJPNAOF, ::MoleMole::MonoGamepadBaseList* HODAIDNDKHD)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadBaseList*, ::MoleMole::MonoGamepadBaseList*))((::PBYTE)hIl2Cpp + AOLDJJGODON_HKPJBODNGIE_OFFSET))(this, AECPJJPNAOF, HODAIDNDKHD);
+	}
+
+	::UnityEngine::Transform* HNMDNBJPBCE()
+	{
+		return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_HNMDNBJPBCE_OFFSET))(this);
+	}
+
+	::System::Void NACFHHILFLP()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_NACFHHILFLP_OFFSET))(this);
+	}
+
+	::System::Boolean NJHBOAEOFFH_1(::AEDJLOFACHD* BEKAGNFAFGI, ::System::Boolean NPPMJEIPMFC)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::AEDJLOFACHD*, ::System::Boolean))((::PBYTE)hIl2Cpp + AOLDJJGODON_NJHBOAEOFFH_1_OFFSET))(this, BEKAGNFAFGI, NPPMJEIPMFC);
+	}
+
+	::System::Int32 HHHEHJFEKAF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AOLDJJGODON_HHHEHJFEKAF_OFFSET))(this);
+	}
+
+	static ::BHPFNHAOAFA CNAKJIGDENP(::HNGNECAGPNE LHHCBFCOFEI)
+	{
+		return ((::BHPFNHAOAFA(*)(::HNGNECAGPNE))((::PBYTE)hIl2Cpp + AOLDJJGODON_CNAKJIGDENP_OFFSET))(LHHCBFCOFEI);
+	}
+
+	static ::HNGNECAGPNE DDLHJKMBGFN(::HNGNECAGPNE LHHCBFCOFEI)
+	{
+		return ((::HNGNECAGPNE(*)(::HNGNECAGPNE))((::PBYTE)hIl2Cpp + AOLDJJGODON_DDLHJKMBGFN_OFFSET))(LHHCBFCOFEI);
+	}
+
+	::System::Void LKLJNFECNHF(::AEDJLOFACHD* KPNIHKEKDOC, ::MoleMole::MonoGamepadBaseList* DJLOKMMLFJC)
+	{
+		return ((::System::Void(*)(::PVOID, ::AEDJLOFACHD*, ::MoleMole::MonoGamepadBaseList*))((::PBYTE)hIl2Cpp + AOLDJJGODON_LKLJNFECNHF_OFFSET))(this, KPNIHKEKDOC, DJLOKMMLFJC);
+	}
+
+	::System::Void HHMLJKAKEGD(::System::Int32 EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AOLDJJGODON_HHMLJKAKEGD_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

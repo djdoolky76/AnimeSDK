@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915;
+class KGMDCDKMBEJ_HKEFCDFAGCF;
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define MOLEMOLE_UIMAINCITYMINIGAMECHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x168CFC80)
-#define MOLEMOLE_UIMAINCITYMINIGAMECHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x168CFCC0)
-#define MOLEMOLE_UIMAINCITYMINIGAMECHILDWINDOWCONTROLLER___C__ONINFO_B__17_2_OFFSET UNITYSDK_OFFSET(0x168CFCD0)
+#define MOLEMOLE_UIMAINCITYMINIGAMECHILDWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17C757B0)
+#define MOLEMOLE_UIMAINCITYMINIGAMECHILDWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17C757F0)
+#define MOLEMOLE_UIMAINCITYMINIGAMECHILDWINDOWCONTROLLER___C__ONINFO_B__19_2_OFFSET UNITYSDK_OFFSET(0x17C75800)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMaincityMiniGameChildWindowController___c_TypeDefinitionIndex = 79297;
+	inline static constexpr unsigned int UIMaincityMiniGameChildWindowController___c_TypeDefinitionIndex = 61942;
 
 	class UIMaincityMiniGameChildWindowController___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915*, ::System::Int32>** StaticGet___9__17_2()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Converter_2<::Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMaincityMiniGameChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x49170);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIMaincityMiniGameChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x47160);
 		}
-		static ::MoleMole::UIMaincityMiniGameChildWindowController___c** StaticGet___9()
+		static ::System::Converter_2<::System::Object*, ::System::Int32>** StaticGet___9__19_2()
 		{
-			return (::MoleMole::UIMaincityMiniGameChildWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIMaincityMiniGameChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x49178);
+			return (::System::Converter_2<::System::Object*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UIMaincityMiniGameChildWindowController___c_TypeDefinitionIndex)->GetStaticField(0x47168);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYMINIGAMECHILDWINDOWCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _OnInfo_b__17_2(::Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915* t)
+		::System::Int32 _OnInfo_b__19_2(::KGMDCDKMBEJ_HKEFCDFAGCF* t)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_135463D7458ED59A_Class_1_9E89B2D44593C915*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYMINIGAMECHILDWINDOWCONTROLLER___C__ONINFO_B__17_2_OFFSET))(this, t);
+			return ((::System::Int32(*)(::PVOID, ::KGMDCDKMBEJ_HKEFCDFAGCF*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMAINCITYMINIGAMECHILDWINDOWCONTROLLER___C__ONINFO_B__19_2_OFFSET))(this, t);
 		}
 	};
 }

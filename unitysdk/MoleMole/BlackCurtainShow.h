@@ -5,13 +5,13 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_BLACKCURTAINSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x148407A0)
-#define MOLEMOLE_BLACKCURTAINSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x14840840)
-#define MOLEMOLE_BLACKCURTAINSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x148407B0)
+#define MOLEMOLE_BLACKCURTAINSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x11E68240)
+#define MOLEMOLE_BLACKCURTAINSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x11E682E0)
+#define MOLEMOLE_BLACKCURTAINSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x11E68250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BlackCurtainShow_TypeDefinitionIndex = 79152;
+	inline static constexpr unsigned int BlackCurtainShow_TypeDefinitionIndex = 50362;
 
 	class BlackCurtainShow : public ::MoleMole::DisplayMessageBase
 	{

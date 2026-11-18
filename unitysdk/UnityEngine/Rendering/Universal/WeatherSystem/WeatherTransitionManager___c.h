@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::Rendering::Universal::WeatherSystem { class IWeatherTransitionInterface; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WEATHERTRANSITIONMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C522740)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WEATHERTRANSITIONMANAGER___C__CLEANUPNULLREFERENCES_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C522790)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WEATHERTRANSITIONMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C522780)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WEATHERTRANSITIONMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9CFC10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WEATHERTRANSITIONMANAGER___C__CLEANUPNULLREFERENCES_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C9CFC60)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_WEATHERTRANSITIONMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9CFC50)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int WeatherTransitionManager___c_TypeDefinitionIndex = 27497;
+	inline static constexpr unsigned int WeatherTransitionManager___c_TypeDefinitionIndex = 27109;
 
 	class WeatherTransitionManager___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherTransitionManager___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::Universal::WeatherSystem::WeatherTransitionManager___c**)Il2CppClass::FromTypeDefinitionIndex(WeatherTransitionManager___c_TypeDefinitionIndex)->GetStaticField(0x23470);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(WeatherTransitionManager___c_TypeDefinitionIndex)->GetStaticField(0x24480);
 		}
 		static ::System::Predicate_1<::UnityEngine::Rendering::Universal::WeatherSystem::IWeatherTransitionInterface*>** StaticGet___9__10_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::Rendering::Universal::WeatherSystem::IWeatherTransitionInterface*>**)Il2CppClass::FromTypeDefinitionIndex(WeatherTransitionManager___c_TypeDefinitionIndex)->GetStaticField(0x23478);
+			return (::System::Predicate_1<::UnityEngine::Rendering::Universal::WeatherSystem::IWeatherTransitionInterface*>**)Il2CppClass::FromTypeDefinitionIndex(WeatherTransitionManager___c_TypeDefinitionIndex)->GetStaticField(0x24488);
 		}
 
 		static ::System::Void _cctor()

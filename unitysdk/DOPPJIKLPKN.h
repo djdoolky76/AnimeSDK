@@ -1,0 +1,152 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BINGPDLFKIK_FEMLHFGOKKC.h"
+#include "unitysdk/MoleMole/Vector2Int.h"
+#include "unitysdk/ProtoScript/EndHollowMiniGameType.h"
+
+class AFMMAIKKACF;
+class BPNMOPAGMDD;
+class EHGPNGPADCB;
+namespace FlowCanvas { class FlowGraph; }
+namespace MoleMole { class UIHollowChessboard3DModelController; }
+namespace System { class EventArgs; }
+namespace System { class String; }
+
+#define DOPPJIKLPKN_AFNKMJDPILJ_OFFSET UNITYSDK_OFFSET(0xF99D430)
+#define DOPPJIKLPKN_BAJIIBGJLGG_OFFSET UNITYSDK_OFFSET(0xF99FAF0)
+#define DOPPJIKLPKN_BEPCJEOLEND_OFFSET UNITYSDK_OFFSET(0xF99FB00)
+#define DOPPJIKLPKN_CMFOMGGDPPA_OFFSET UNITYSDK_OFFSET(0xF99FA60)
+#define DOPPJIKLPKN_DGPKOEFMFKF_OFFSET UNITYSDK_OFFSET(0xF99DC70)
+#define DOPPJIKLPKN_EKOIPKFGMFN_OFFSET UNITYSDK_OFFSET(0xF99EA50)
+#define DOPPJIKLPKN_ELGOHOLFIKN_OFFSET UNITYSDK_OFFSET(0xF99D110)
+#define DOPPJIKLPKN_FNBIDMJEKDH_OFFSET UNITYSDK_OFFSET(0xF99CDD0)
+#define DOPPJIKLPKN_FNFJFMIAEJI_OFFSET UNITYSDK_OFFSET(0xF99D380)
+#define DOPPJIKLPKN_GANJENHHINH_OFFSET UNITYSDK_OFFSET(0xF99FBC0)
+#define DOPPJIKLPKN_GDMBMPCNDOP_OFFSET UNITYSDK_OFFSET(0xF99DB20)
+#define DOPPJIKLPKN_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0xF99C520)
+#define DOPPJIKLPKN_ICLFEFHAOOL_OFFSET UNITYSDK_OFFSET(0xF99DBE0)
+#define DOPPJIKLPKN_KIMIHBHHBNG_OFFSET UNITYSDK_OFFSET(0xF99C640)
+#define DOPPJIKLPKN_LGDMAAJFKNE_OFFSET UNITYSDK_OFFSET(0xF99C790)
+#define DOPPJIKLPKN_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0xF99F9D0)
+#define DOPPJIKLPKN_OIBKFFAGPNH_OFFSET UNITYSDK_OFFSET(0xF99CE10)
+#define DOPPJIKLPKN_OKJCHFGIKBH_OFFSET UNITYSDK_OFFSET(0xF99CF40)
+#define DOPPJIKLPKN_PJEHNDMNENI_OFFSET UNITYSDK_OFFSET(0xF99C5E0)
+#define DOPPJIKLPKN__CTOR_OFFSET UNITYSDK_OFFSET(0xF99C490)
+
+inline static constexpr unsigned int DOPPJIKLPKN_TypeDefinitionIndex = 64489;
+
+class DOPPJIKLPKN
+{
+public:
+	// static const ::System::String* OODLBEEBOMD; // 0x0
+	::MoleMole::UIHollowChessboard3DModelController* EOJHNCEOOOG; // 0x30
+	::AFMMAIKKACF* AAOCANGHBDG; // 0x38
+	::System::String* EJPAKEACDJH; // 0x40
+	::BINGPDLFKIK_FEMLHFGOKKC OIMIDPHLIAD; // 0x48
+	::MoleMole::Vector2Int DHGJOFANAMC; // 0x58
+	::ProtoScript::EndHollowMiniGameType FDPMDEJANJH; // 0x60
+	::System::Boolean IJGBPBDKHCA; // 0x64
+	::System::Boolean JIOCADMKHGA; // 0x65
+	::System::Boolean KIJKDLEONHD; // 0x66
+	::System::Boolean CAHEBLEPOIC; // 0x67
+
+	::System::Void _ctor(::EHGPNGPADCB* LJBPECKCCEA)
+	{
+		return ((::System::Void(*)(::PVOID, ::EHGPNGPADCB*))((::PBYTE)hIl2Cpp + DOPPJIKLPKN__CTOR_OFFSET))(this, LJBPECKCCEA);
+	}
+
+	::System::Void GLEJMKLOMBP(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_GLEJMKLOMBP_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Boolean FNBIDMJEKDH()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_FNBIDMJEKDH_OFFSET))(this);
+	}
+
+	::System::Void OIBKFFAGPNH()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_OIBKFFAGPNH_OFFSET))(this);
+	}
+
+	::System::Void OKJCHFGIKBH(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_OKJCHFGIKBH_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void FNFJFMIAEJI(::System::EventArgs* KOIBHLHLMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_FNFJFMIAEJI_OFFSET))(this, KOIBHLHLMFC);
+	}
+
+	::System::Void GDMBMPCNDOP(::System::EventArgs* KOIBHLHLMFC)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_GDMBMPCNDOP_OFFSET))(this, KOIBHLHLMFC);
+	}
+
+	::System::Boolean ICLFEFHAOOL()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_ICLFEFHAOOL_OFFSET))(this);
+	}
+
+	::System::Boolean PJEHNDMNENI()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_PJEHNDMNENI_OFFSET))(this);
+	}
+
+	::System::Void KIMIHBHHBNG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_KIMIHBHHBNG_OFFSET))(this);
+	}
+
+	::System::Void AFNKMJDPILJ(::FlowCanvas::FlowGraph* DKALOJNFEEF)
+	{
+		return ((::System::Void(*)(::PVOID, ::FlowCanvas::FlowGraph*))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_AFNKMJDPILJ_OFFSET))(this, DKALOJNFEEF);
+	}
+
+	::System::Void ELGOHOLFIKN(::AFMMAIKKACF* AAOCANGHBDG)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_ELGOHOLFIKN_OFFSET))(this, AAOCANGHBDG);
+	}
+
+	::System::Void EKOIPKFGMFN(::BINGPDLFKIK_FEMLHFGOKKC MLJMLCLJIIJ)
+	{
+		return ((::System::Void(*)(::PVOID, ::BINGPDLFKIK_FEMLHFGOKKC))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_EKOIPKFGMFN_OFFSET))(this, MLJMLCLJIIJ);
+	}
+
+	::System::Void LIDIODHDJAF(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void CMFOMGGDPPA(::AFMMAIKKACF* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::AFMMAIKKACF*))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_CMFOMGGDPPA_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void BAJIIBGJLGG()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_BAJIIBGJLGG_OFFSET))(this);
+	}
+
+	::System::Void LGDMAAJFKNE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_LGDMAAJFKNE_OFFSET))(this);
+	}
+
+	::System::Void BEPCJEOLEND(::System::EventArgs* EIFONLCJOPG)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_BEPCJEOLEND_OFFSET))(this, EIFONLCJOPG);
+	}
+
+	::BPNMOPAGMDD* DGPKOEFMFKF(::System::Boolean GMOJMINEBCP)
+	{
+		return ((::BPNMOPAGMDD*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_DGPKOEFMFKF_OFFSET))(this, GMOJMINEBCP);
+	}
+
+	::System::Void GANJENHHINH(::System::EventArgs* EIFONLCJOPG)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + DOPPJIKLPKN_GANJENHHINH_OFFSET))(this, EIFONLCJOPG);
+	}
+};

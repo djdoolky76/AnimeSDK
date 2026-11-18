@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MiHoYo::SDK::Win { class CNPayPlatManager___c__DisplayClass37_0; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS37_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E8000)
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS37_1__PAY_B__2_OFFSET UNITYSDK_OFFSET(0x1D1E8010)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS37_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8662C0)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__DISPLAYCLASS37_1__PAY_B__2_OFFSET UNITYSDK_OFFSET(0x1D8662D0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int CNPayPlatManager___c__DisplayClass37_1_TypeDefinitionIndex = 21368;
+	inline static constexpr unsigned int CNPayPlatManager___c__DisplayClass37_1_TypeDefinitionIndex = 20572;
 
+	template <typename T>
 	class CNPayPlatManager___c__DisplayClass37_1 : public ::System::Object
 	{
 	public:
-		::System::String* tips; // 0x10
-		::MiHoYo::SDK::Win::CNPayPlatManager___c__DisplayClass37_0* CS___8__locals1; // 0x18
+		::System::Object* CS___8__locals1; // 0x10
+		::System::String* tips; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BGDLBEFAJCE_LPMLLIIHNDE;
+class IANDOOLAALI_DLAAJNDJPLO;
+class OAEFGCLEHHO;
+
+#define BGDLBEFAJCE_OCDEEHHBJLA_ALBMIBELPBB_OFFSET UNITYSDK_OFFSET(0x169F0D10)
+#define BGDLBEFAJCE_OCDEEHHBJLA_GLCAAFAPAGO_OFFSET UNITYSDK_OFFSET(0x169F0C50)
+#define BGDLBEFAJCE_OCDEEHHBJLA__CTOR_OFFSET UNITYSDK_OFFSET(0x169F0C40)
+
+inline static constexpr unsigned int BGDLBEFAJCE_OCDEEHHBJLA_TypeDefinitionIndex = 52505;
+
+class BGDLBEFAJCE_OCDEEHHBJLA : public ::System::Object
+{
+public:
+	::IANDOOLAALI_DLAAJNDJPLO* DLMJCFBENGB; // 0x10
+	::BGDLBEFAJCE_LPMLLIIHNDE* FGBNBFHOKAA; // 0x18
+	::System::Int32 JHIGPMJNKGD; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BGDLBEFAJCE_OCDEEHHBJLA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void GLCAAFAPAGO(::OAEFGCLEHHO* GLAOEHCGCFO)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + BGDLBEFAJCE_OCDEEHHBJLA_GLCAAFAPAGO_OFFSET))(this, GLAOEHCGCFO);
+	}
+
+	::System::Void ALBMIBELPBB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BGDLBEFAJCE_OCDEEHHBJLA_ALBMIBELPBB_OFFSET))(this);
+	}
+};

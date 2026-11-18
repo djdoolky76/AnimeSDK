@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 
 class WeatherConfig;
 namespace MoleMole::Timeline::VisualEnvCompTracks { class VisualEnvMoonControlBehavior; }
 namespace UnityEngine { class GameObject; }
 
-#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONTROLASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1A5F48D0)
-#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONTROLASSET_METHOD_4_2F2C11EE837C55A9_OFFSET UNITYSDK_OFFSET(0x1A5F4AB0)
-#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONTROLASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F4A20)
+#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONTROLASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19D00970)
+#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONTROLASSET_HFJBDMGMBLB_OFFSET UNITYSDK_OFFSET(0x19D00B50)
+#define MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONTROLASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x19D00AC0)
 
 namespace MoleMole::Timeline::VisualEnvCompTracks
 {
-	inline static constexpr unsigned int VisualEnvMoonControlAsset_TypeDefinitionIndex = 85584;
+	inline static constexpr unsigned int VisualEnvMoonControlAsset_TypeDefinitionIndex = 53398;
 
 	class VisualEnvMoonControlAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -26,14 +26,14 @@ namespace MoleMole::Timeline::VisualEnvCompTracks
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONTROLASSET__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
+		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph MHPNGBGGMMN, ::UnityEngine::GameObject* NJOAJLDJCCJ)
 		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONTROLASSET_CREATEPLAYABLE_OFFSET))(this, a1, a2);
+			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONTROLASSET_CREATEPLAYABLE_OFFSET))(this, MHPNGBGGMMN, NJOAJLDJCCJ);
 		}
 
-		::System::Void Method_4_2F2C11EE837C55A9(::WeatherConfig* a1)
+		::System::Void HFJBDMGMBLB(::WeatherConfig* HMOGPGGAJLO)
 		{
-			return ((::System::Void(*)(::PVOID, ::WeatherConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONTROLASSET_METHOD_4_2F2C11EE837C55A9_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::WeatherConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_VISUALENVCOMPTRACKS_VISUALENVMOONCONTROLASSET_HFJBDMGMBLB_OFFSET))(this, HMOGPGGAJLO);
 		}
 	};
 }

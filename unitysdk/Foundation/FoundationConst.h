@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define FOUNDATION_FOUNDATIONCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED8CF00)
+#define FOUNDATION_FOUNDATIONCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE947E0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FoundationConst_TypeDefinitionIndex = 8075;
+	inline static constexpr unsigned int FoundationConst_TypeDefinitionIndex = 8535;
 
 	class FoundationConst : public ::System::Object
 	{

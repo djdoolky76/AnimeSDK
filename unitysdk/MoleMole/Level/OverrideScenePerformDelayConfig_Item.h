@@ -4,11 +4,12 @@
 
 namespace MoleMole::Level
 {
-	inline static constexpr unsigned int OverrideScenePerformDelayConfig_Item_TypeDefinitionIndex = 58962;
+	inline static constexpr unsigned int OverrideScenePerformDelayConfig_Item_TypeDefinitionIndex = 51928;
 
 	struct alignas(4) OverrideScenePerformDelayConfig_Item
 	{
 		::System::Boolean OverrideEnable; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single Override_InputMuteDelayTime; // 0x14
 		::System::Single Override_ShowUIDelayTime; // 0x18
 		::System::Single Override_FlowCanvasDelayTime; // 0x1C

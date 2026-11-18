@@ -2,36 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/SurfGameTriggerDataEntry.h"
 #include "unitysdk/MoleMole/MonoSceneObjectBase.h"
-#include "unitysdk/Struct_2_9A6EB2DDAF7C08FF.h"
+#include "unitysdk/LGNMDDLDMMN.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
 namespace MoleMole { class MonoTriggerEventDispatcher; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Collider; }
 
-#define MOLEMOLE_MONOSURFSCENEOBJECT_GETROTATION_OFFSET UNITYSDK_OFFSET(0x11D59220)
-#define MOLEMOLE_MONOSURFSCENEOBJECT_METHOD_7_3FC8202C055715E2_OFFSET UNITYSDK_OFFSET(0x11D58A50)
-#define MOLEMOLE_MONOSURFSCENEOBJECT_METHOD_7_8CE0803574BB66D7_OFFSET UNITYSDK_OFFSET(0x11D591C0)
-#define MOLEMOLE_MONOSURFSCENEOBJECT_METHOD_7_C240407BAEA69CE9_OFFSET UNITYSDK_OFFSET(0x11D58ED0)
-#define MOLEMOLE_MONOSURFSCENEOBJECT_METHOD_7_FCA7C739F8E5F729_OFFSET UNITYSDK_OFFSET(0x11D590F0)
-#define MOLEMOLE_MONOSURFSCENEOBJECT_METHOD_7_FD647A48096EB173_OFFSET UNITYSDK_OFFSET(0x11D58C00)
-#define MOLEMOLE_MONOSURFSCENEOBJECT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x11D58BB0)
-#define MOLEMOLE_MONOSURFSCENEOBJECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11D589B0)
-#define MOLEMOLE_MONOSURFSCENEOBJECT_ONTRIGGEREVENT_OFFSET UNITYSDK_OFFSET(0x11D58DC0)
-#define MOLEMOLE_MONOSURFSCENEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x11D592B0)
+#define MOLEMOLE_MONOSURFSCENEOBJECT_DALOAOKJKLM_OFFSET UNITYSDK_OFFSET(0x11946570)
+#define MOLEMOLE_MONOSURFSCENEOBJECT_DGAHJACDEGM_OFFSET UNITYSDK_OFFSET(0x119463C0)
+#define MOLEMOLE_MONOSURFSCENEOBJECT_EFCEJPPPGEE_OFFSET UNITYSDK_OFFSET(0x11946840)
+#define MOLEMOLE_MONOSURFSCENEOBJECT_GETROTATION_OFFSET UNITYSDK_OFFSET(0x11946B90)
+#define MOLEMOLE_MONOSURFSCENEOBJECT_JBIMGICMDHM_OFFSET UNITYSDK_OFFSET(0x11946A60)
+#define MOLEMOLE_MONOSURFSCENEOBJECT_LBIAMHEKNKC_OFFSET UNITYSDK_OFFSET(0x11946B30)
+#define MOLEMOLE_MONOSURFSCENEOBJECT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x11946520)
+#define MOLEMOLE_MONOSURFSCENEOBJECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x11946320)
+#define MOLEMOLE_MONOSURFSCENEOBJECT_ONTRIGGEREVENT_OFFSET UNITYSDK_OFFSET(0x11946730)
+#define MOLEMOLE_MONOSURFSCENEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x11946C20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSurfSceneObject_TypeDefinitionIndex = 79259;
+	inline static constexpr unsigned int MonoSurfSceneObject_TypeDefinitionIndex = 71882;
 
 	class MonoSurfSceneObject : public ::MoleMole::MonoSceneObjectBase
 	{
 	public:
-		::UnityEngine::Collider* TriggerCollider; // 0x28
-		::System::Int32 SurfSceneObjectID; // 0x30
-		::MoleMole::Config::SurfGameTriggerDataEntry Field_7_1; // 0x38
-		::System::Boolean Field_7_0; // 0x50
-		::System::Collections::Generic::HashSet_1<::MoleMole::MonoTriggerEventDispatcher*>* Field_7_7; // 0x58
+		::UnityEngine::Collider* TriggerCollider; // 0x38
+		::System::Int32 SurfSceneObjectID; // 0x40
+		::System::Byte _padding0[0x4];
+		::MoleMole::Config::SurfGameTriggerDataEntry CEJENBBHBBG; // 0x48
+		::System::Boolean HLAGLLJGOHB; // 0x60
+		::System::Byte _padding1[0x7];
+		::System::Collections::Generic::HashSet_1<::MoleMole::MonoTriggerEventDispatcher*>* FHFACCFPKOC; // 0x68
 
 		::System::Void _ctor()
 		{
@@ -48,9 +50,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void OnTriggerEvent(::Struct_2_9A6EB2DDAF7C08FF a1)
+		::System::Void OnTriggerEvent(::LGNMDDLDMMN FFNKDGGHBPP)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_9A6EB2DDAF7C08FF))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_ONTRIGGEREVENT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::LGNMDDLDMMN))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_ONTRIGGEREVENT_OFFSET))(this, FFNKDGGHBPP);
 		}
 
 		::UnityEngine::Quaternion GetRotation()
@@ -58,29 +60,29 @@ namespace MoleMole
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_GETROTATION_OFFSET))(this);
 		}
 
-		::System::Void Method_7_C240407BAEA69CE9(::Struct_2_9A6EB2DDAF7C08FF a1)
+		::System::Void DGAHJACDEGM(::MoleMole::MonoTriggerEventDispatcher* ICILGJFKNDB)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_9A6EB2DDAF7C08FF))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_METHOD_7_C240407BAEA69CE9_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoTriggerEventDispatcher*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_DGAHJACDEGM_OFFSET))(this, ICILGJFKNDB);
 		}
 
-		::System::Void Method_7_FD647A48096EB173()
+		::System::Void DALOAOKJKLM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_METHOD_7_FD647A48096EB173_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_DALOAOKJKLM_OFFSET))(this);
 		}
 
-		::System::Void Method_7_FCA7C739F8E5F729(::Struct_2_9A6EB2DDAF7C08FF a1)
+		::System::Void LBIAMHEKNKC(::LGNMDDLDMMN FFNKDGGHBPP)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_9A6EB2DDAF7C08FF))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_METHOD_7_FCA7C739F8E5F729_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::LGNMDDLDMMN))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_LBIAMHEKNKC_OFFSET))(this, FFNKDGGHBPP);
 		}
 
-		::System::Void Method_7_3FC8202C055715E2(::MoleMole::MonoTriggerEventDispatcher* a1)
+		::System::Void EFCEJPPPGEE(::LGNMDDLDMMN FFNKDGGHBPP)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::MonoTriggerEventDispatcher*))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_METHOD_7_3FC8202C055715E2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::LGNMDDLDMMN))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_EFCEJPPPGEE_OFFSET))(this, FFNKDGGHBPP);
 		}
 
-		::System::Void Method_7_8CE0803574BB66D7(::Struct_2_9A6EB2DDAF7C08FF a1)
+		::System::Void JBIMGICMDHM(::LGNMDDLDMMN FFNKDGGHBPP)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_9A6EB2DDAF7C08FF))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_METHOD_7_8CE0803574BB66D7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::LGNMDDLDMMN))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSURFSCENEOBJECT_JBIMGICMDHM_OFFSET))(this, FFNKDGGHBPP);
 		}
 	};
 }

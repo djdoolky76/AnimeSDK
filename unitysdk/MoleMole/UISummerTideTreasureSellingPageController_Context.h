@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/FJGEHPBJKDM.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
-#include "unitysdk/Struct_2_B4AA4B9F04BE3CFD.h"
 
-#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A60660)
+#define MOLEMOLE_UISUMMERTIDETREASURESELLINGPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13BBA740)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISummerTideTreasureSellingPageController_Context_TypeDefinitionIndex = 44293;
+	inline static constexpr unsigned int UISummerTideTreasureSellingPageController_Context_TypeDefinitionIndex = 69145;
 
 	class UISummerTideTreasureSellingPageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Struct_2_B4AA4B9F04BE3CFD WorldHandle; // 0x28
+		::FJGEHPBJKDM WorldHandle; // 0x28
 
 		::System::Void _ctor()
 		{

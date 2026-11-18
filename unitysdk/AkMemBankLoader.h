@@ -7,16 +7,16 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define AKMEMBANKLOADER_ALLOCATEALIGNEDBUFFER_OFFSET UNITYSDK_OFFSET(0x1FBCC060)
-#define AKMEMBANKLOADER_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1FBCBFA0)
-#define AKMEMBANKLOADER_LOADFILE_OFFSET UNITYSDK_OFFSET(0x1FBCC230)
-#define AKMEMBANKLOADER_LOADLOCALIZEDBANK_OFFSET UNITYSDK_OFFSET(0x1FBCBCB0)
-#define AKMEMBANKLOADER_LOADNONLOCALIZEDBANK_OFFSET UNITYSDK_OFFSET(0x1FBCBE40)
-#define AKMEMBANKLOADER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FBCC280)
-#define AKMEMBANKLOADER_START_OFFSET UNITYSDK_OFFSET(0x1FBCBC90)
-#define AKMEMBANKLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBCC3E0)
+#define AKMEMBANKLOADER_ALLOCATEALIGNEDBUFFER_OFFSET UNITYSDK_OFFSET(0x1FFD2A40)
+#define AKMEMBANKLOADER_DOLOADBANK_OFFSET UNITYSDK_OFFSET(0x1FFD2980)
+#define AKMEMBANKLOADER_LOADFILE_OFFSET UNITYSDK_OFFSET(0x1FFD2C10)
+#define AKMEMBANKLOADER_LOADLOCALIZEDBANK_OFFSET UNITYSDK_OFFSET(0x1FFD2690)
+#define AKMEMBANKLOADER_LOADNONLOCALIZEDBANK_OFFSET UNITYSDK_OFFSET(0x1FFD2820)
+#define AKMEMBANKLOADER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FFD2C60)
+#define AKMEMBANKLOADER_START_OFFSET UNITYSDK_OFFSET(0x1FFD2670)
+#define AKMEMBANKLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFD2DC0)
 
-inline static constexpr unsigned int AkMemBankLoader_TypeDefinitionIndex = 33794;
+inline static constexpr unsigned int AkMemBankLoader_TypeDefinitionIndex = 33340;
 
 class AkMemBankLoader : public ::UnityEngine::MonoBehaviour
 {
@@ -26,10 +26,13 @@ public:
 	// static const ::System::Int64 AK_BANK_PLATFORM_DATA_ALIGNMENT_MASK = 0xF; // 0x0
 	::System::String* bankName; // 0x18
 	::System::Boolean isLocalizedBank; // 0x20
+	::System::Byte _padding0[0x7];
 	::System::String* m_bankPath; // 0x28
 	::System::UInt32 ms_bankID; // 0x30
+	::System::Byte _padding1[0x4];
 	::System::IntPtr ms_pInMemoryBankPtr; // 0x38
 	::System::Runtime::InteropServices::GCHandle ms_pinnedArray; // 0x40
+	::System::Byte _padding2[0x4];
 	::UnityEngine::Networking::UnityWebRequest* ms_www; // 0x48
 
 	::System::Void _ctor()

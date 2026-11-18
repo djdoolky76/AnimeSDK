@@ -2,17 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
+namespace System { class Object; }
+
 namespace Foundation
 {
-	inline static constexpr unsigned int TickCollector_1_TimeHeaderLink_TypeDefinitionIndex = 8845;
+	inline static constexpr unsigned int TickCollector_1_TimeHeaderLink_TypeDefinitionIndex = 8739;
 
-	template <typename TTickingGroup>
-	struct TickCollector_1_TimeHeaderLink
+	template <typename T>
+	struct alignas(4) TickCollector_1_TimeHeaderLink
 	{
-		::System::Int32 _index; // 0x0
-		static ::Foundation::TickCollector_1_TimeHeaderLink<TTickingGroup>* StaticGet_Null()
+		static ::System::Object** StaticGet_Null()
 		{
-			return (::Foundation::TickCollector_1_TimeHeaderLink<TTickingGroup>*)Il2CppClass::FromTypeDefinitionIndex(TickCollector_1_TimeHeaderLink_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TickCollector_1_TimeHeaderLink_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
+		::System::Int32 _index; // 0x0
 	};
 }

@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NMICPPGOBJH.h"
+#include "unitysdk/System/Object.h"
+
+class HGAJKHIMKJP;
+class HJPLGGFHHPA;
+class KCPJCJAGGGA;
+namespace System { class String; }
+
+#define GLCAPFEELDN_APADFMDPCBH_OFFSET UNITYSDK_OFFSET(0x16CD0320)
+#define GLCAPFEELDN_CKPFAJBJHGK_OFFSET UNITYSDK_OFFSET(0x16CD03B0)
+#define GLCAPFEELDN_DNKMNFHAIGL_OFFSET UNITYSDK_OFFSET(0x16CD03C0)
+#define GLCAPFEELDN_IDMBKLHIMFC_OFFSET UNITYSDK_OFFSET(0x16CD0270)
+#define GLCAPFEELDN_LEAPEOIOHIF_OFFSET UNITYSDK_OFFSET(0x16CD0370)
+#define GLCAPFEELDN_MGMFKIOLMCK_OFFSET UNITYSDK_OFFSET(0x16CD0280)
+#define GLCAPFEELDN_MOHMDAMLGHI_OFFSET UNITYSDK_OFFSET(0x16CD0130)
+#define GLCAPFEELDN__CTOR_OFFSET UNITYSDK_OFFSET(0x16CCFF70)
+
+inline static constexpr unsigned int GLCAPFEELDN_TypeDefinitionIndex = 60645;
+
+class GLCAPFEELDN : public ::System::Object
+{
+public:
+	::KCPJCJAGGGA* LCBHIANDOFE; // 0x10
+	::HJPLGGFHHPA* PNNHEFHBKMI; // 0x18
+	::NMICPPGOBJH _ILKEPPBOKKI_k__BackingField; // 0x20
+
+	::System::Void _ctor(::System::UInt32 MGMDLMBEDJF)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + GLCAPFEELDN__CTOR_OFFSET))(this, MGMDLMBEDJF);
+	}
+
+	::HGAJKHIMKJP* MOHMDAMLGHI()
+	{
+		return ((::HGAJKHIMKJP*(*)(::PVOID))((::PBYTE)hIl2Cpp + GLCAPFEELDN_MOHMDAMLGHI_OFFSET))(this);
+	}
+
+	::NMICPPGOBJH IDMBKLHIMFC()
+	{
+		return ((::NMICPPGOBJH(*)(::PVOID))((::PBYTE)hIl2Cpp + GLCAPFEELDN_IDMBKLHIMFC_OFFSET))(this);
+	}
+
+	::System::String* MGMFKIOLMCK()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GLCAPFEELDN_MGMFKIOLMCK_OFFSET))(this);
+	}
+
+	::System::Int32 APADFMDPCBH()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GLCAPFEELDN_APADFMDPCBH_OFFSET))(this);
+	}
+
+	::KCPJCJAGGGA* LEAPEOIOHIF()
+	{
+		return ((::KCPJCJAGGGA*(*)(::PVOID))((::PBYTE)hIl2Cpp + GLCAPFEELDN_LEAPEOIOHIF_OFFSET))(this);
+	}
+
+	::System::Void CKPFAJBJHGK(::NMICPPGOBJH EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::NMICPPGOBJH))((::PBYTE)hIl2Cpp + GLCAPFEELDN_CKPFAJBJHGK_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Int32 DNKMNFHAIGL()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GLCAPFEELDN_DNKMNFHAIGL_OFFSET))(this);
+	}
+};

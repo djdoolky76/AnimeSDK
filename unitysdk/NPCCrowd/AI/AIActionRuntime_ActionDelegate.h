@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/AI/ActionContext.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/NPCCrowd/AI/ActionContext.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define NPCCROWD_AI_AIACTIONRUNTIME_ACTIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x114D5A70)
-#define NPCCROWD_AI_AIACTIONRUNTIME_ACTIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x114D5AE0)
-#define NPCCROWD_AI_AIACTIONRUNTIME_ACTIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x114D5780)
-#define NPCCROWD_AI_AIACTIONRUNTIME_ACTIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x114D5760)
+#define NPCCROWD_AI_AIACTIONRUNTIME_ACTIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xE1B0C90)
+#define NPCCROWD_AI_AIACTIONRUNTIME_ACTIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE1B0D00)
+#define NPCCROWD_AI_AIACTIONRUNTIME_ACTIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xE1B09A0)
+#define NPCCROWD_AI_AIACTIONRUNTIME_ACTIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xE1B0990)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionRuntime_ActionDelegate_TypeDefinitionIndex = 89627;
+	inline static constexpr unsigned int AIActionRuntime_ActionDelegate_TypeDefinitionIndex = 79349;
 
 	class AIActionRuntime_ActionDelegate : public ::System::MulticastDelegate
 	{

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGParser_SceneInfo.h"
 #include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/ViewportOptions.h"
+#include "unitysdk/ToolBuddy/ThirdParty/VectorGraphics/SVGParser_SceneInfo.h"
 
 namespace System::IO { class TextReader; }
 
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGPARSER_IMPORTSVG_1_OFFSET UNITYSDK_OFFSET(0x1DA9D9C0)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGPARSER_IMPORTSVG_OFFSET UNITYSDK_OFFSET(0x1DA9D960)
-#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9E410)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGPARSER_IMPORTSVG_1_OFFSET UNITYSDK_OFFSET(0x1DE8AAF0)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGPARSER_IMPORTSVG_OFFSET UNITYSDK_OFFSET(0x1DE8AA90)
+#define TOOLBUDDY_THIRDPARTY_VECTORGRAPHICS_SVGPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8B540)
 
 namespace ToolBuddy::ThirdParty::VectorGraphics
 {
-	inline static constexpr unsigned int SVGParser_TypeDefinitionIndex = 31728;
+	inline static constexpr unsigned int SVGParser_TypeDefinitionIndex = 31166;
 
 	class SVGParser : public ::System::Object
 	{

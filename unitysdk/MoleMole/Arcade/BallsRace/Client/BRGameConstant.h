@@ -5,22 +5,22 @@
 namespace MoleMole::Arcade::BallsRace { class BrConstantCfg; }
 namespace MoleMole::Arcade::BallsRace::Client { class BrClientConstantCfg; }
 
-#define MOLEMOLE_ARCADE_BALLSRACE_CLIENT_BRGAMECONSTANT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E90BEF0)
-#define MOLEMOLE_ARCADE_BALLSRACE_CLIENT_BRGAMECONSTANT_GET_INS_OFFSET UNITYSDK_OFFSET(0x1E90BED0)
-#define MOLEMOLE_ARCADE_BALLSRACE_CLIENT_BRGAMECONSTANT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1E90BF40)
-#define MOLEMOLE_ARCADE_BALLSRACE_CLIENT_BRGAMECONSTANT_SET_INS_OFFSET UNITYSDK_OFFSET(0x1E90BEE0)
-#define MOLEMOLE_ARCADE_BALLSRACE_CLIENT_BRGAMECONSTANT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E90BF90)
+#define MOLEMOLE_ARCADE_BALLSRACE_CLIENT_BRGAMECONSTANT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1EEC8E60)
+#define MOLEMOLE_ARCADE_BALLSRACE_CLIENT_BRGAMECONSTANT_GET_INS_OFFSET UNITYSDK_OFFSET(0x1EEC8E40)
+#define MOLEMOLE_ARCADE_BALLSRACE_CLIENT_BRGAMECONSTANT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1EEC8EB0)
+#define MOLEMOLE_ARCADE_BALLSRACE_CLIENT_BRGAMECONSTANT_SET_INS_OFFSET UNITYSDK_OFFSET(0x1EEC8E50)
+#define MOLEMOLE_ARCADE_BALLSRACE_CLIENT_BRGAMECONSTANT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC8F00)
 
 namespace MoleMole::Arcade::BallsRace::Client
 {
-	inline static constexpr unsigned int BRGameConstant_TypeDefinitionIndex = 93422;
+	inline static constexpr unsigned int BRGameConstant_TypeDefinitionIndex = 95035;
 
 	class BRGameConstant : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
 	public:
 		static ::MoleMole::Arcade::BallsRace::Client::BRGameConstant** StaticGet__Ins_k__BackingField()
 		{
-			return (::MoleMole::Arcade::BallsRace::Client::BRGameConstant**)Il2CppClass::FromTypeDefinitionIndex(BRGameConstant_TypeDefinitionIndex)->GetStaticField(0x52210);
+			return (::MoleMole::Arcade::BallsRace::Client::BRGameConstant**)Il2CppClass::FromTypeDefinitionIndex(BRGameConstant_TypeDefinitionIndex)->GetStaticField(0x52960);
 		}
 		::MoleMole::Arcade::BallsRace::BrConstantCfg* BrCoreCfg; // 0x58
 		::MoleMole::Arcade::BallsRace::Client::BrClientConstantCfg* BrClientCfg; // 0x60

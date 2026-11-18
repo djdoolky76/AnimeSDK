@@ -6,25 +6,25 @@
 
 namespace MoleMole { class ConfigUICoopTeam3D_CameraConfig; }
 
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_AVATARCONFIG_GETPOSITIONBYSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1BD80540)
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_AVATARCONFIG_GETYROTATIONBYSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1BD804D0)
-#define MOLEMOLE_CONFIGUICOOPTEAM3D_AVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD805D0)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_AVATARCONFIG_GETPOSITIONBYSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x190C5F10)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_AVATARCONFIG_GETYROTATIONBYSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x190C5EA0)
+#define MOLEMOLE_CONFIGUICOOPTEAM3D_AVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190C5FA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUICoopTeam3D_AvatarConfig_TypeDefinitionIndex = 47598;
+	inline static constexpr unsigned int ConfigUICoopTeam3D_AvatarConfig_TypeDefinitionIndex = 54376;
 
 	class ConfigUICoopTeam3D_AvatarConfig : public ::System::Object
 	{
 	public:
 		::MoleMole::ConfigUICoopTeam3D_CameraConfig* cameraConfig; // 0x10
-		::UnityEngine::Vector3 PositionRight; // 0x18
-		::System::Single yRotationMiddle; // 0x24
-		::System::Single yRotationLeft; // 0x28
-		::System::Single yRotationRight; // 0x2C
-		::MoleMole::ConfigUICoopTeam3D_CameraConfigEnum eCameraConfigEnum; // 0x30
-		::UnityEngine::Vector3 PositionLeft; // 0x34
-		::UnityEngine::Vector3 PositionMiddle; // 0x40
+		::System::Single yRotationRight; // 0x18
+		::UnityEngine::Vector3 PositionRight; // 0x1C
+		::System::Single yRotationMiddle; // 0x28
+		::UnityEngine::Vector3 PositionMiddle; // 0x2C
+		::System::Single yRotationLeft; // 0x38
+		::UnityEngine::Vector3 PositionLeft; // 0x3C
+		::MoleMole::ConfigUICoopTeam3D_CameraConfigEnum eCameraConfigEnum; // 0x48
 
 		::System::Void _ctor()
 		{

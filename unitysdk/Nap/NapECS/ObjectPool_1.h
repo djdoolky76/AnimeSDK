@@ -3,12 +3,11 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { template <typename T> class Action_1; }
-namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 38022;
+	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 35924;
 
 	template <typename T>
 	class ObjectPool_1 : public ::System::Object

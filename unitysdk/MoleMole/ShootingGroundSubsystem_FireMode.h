@@ -3,11 +3,11 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ShootingGroundSubsystem_FireMode_TypeDefinitionIndex = 78099;
+	inline static constexpr unsigned int ShootingGroundSubsystem_FireMode_TypeDefinitionIndex = 71766;
 
 	enum class ShootingGroundSubsystem_FireMode : ::System::Int32
 	{
-		Normal = 0,
 		UnLimitBullet = 1,
+		Normal = 0,
 	};
 }

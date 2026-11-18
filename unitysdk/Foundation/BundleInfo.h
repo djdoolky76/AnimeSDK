@@ -4,33 +4,34 @@
 #include "unitysdk/Foundation/BundleLocationIndex.h"
 #include "unitysdk/Foundation/ResourceFileType.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/Foundation/BundleLocationInfo.h"
 
 namespace System { class Object; }
 namespace System { class String; }
 
-#define FOUNDATION_BUNDLEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA82E70)
-#define FOUNDATION_BUNDLEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0xA82CC0)
-#define FOUNDATION_BUNDLEINFO_GETBUNDLELOADINFO_OFFSET UNITYSDK_OFFSET(0xA82C60)
-#define FOUNDATION_BUNDLEINFO_GETBUNDLELOCATION_OFFSET UNITYSDK_OFFSET(0xA82C70)
-#define FOUNDATION_BUNDLEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA82D90)
-#define FOUNDATION_BUNDLEINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1EF7B490)
-#define FOUNDATION_BUNDLEINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1EF7B5D0)
-#define FOUNDATION_BUNDLEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA82E80)
-#define FOUNDATION_BUNDLEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF7BD80)
-#define FOUNDATION_BUNDLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA82C30)
-#define FOUNDATION_BUNDLEINFO___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0xA82E90)
-#define FOUNDATION_BUNDLEINFO___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA82F00)
-#define FOUNDATION_BUNDLEINFO___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA82F70)
+#define FOUNDATION_BUNDLEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x93E7B0)
+#define FOUNDATION_BUNDLEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x93E600)
+#define FOUNDATION_BUNDLEINFO_GETBUNDLELOADINFO_OFFSET UNITYSDK_OFFSET(0x93E5A0)
+#define FOUNDATION_BUNDLEINFO_GETBUNDLELOCATION_OFFSET UNITYSDK_OFFSET(0x93E5B0)
+#define FOUNDATION_BUNDLEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x93E6D0)
+#define FOUNDATION_BUNDLEINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1EF055C0)
+#define FOUNDATION_BUNDLEINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1EF05700)
+#define FOUNDATION_BUNDLEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x93E7C0)
+#define FOUNDATION_BUNDLEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF05EB0)
+#define FOUNDATION_BUNDLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x93E570)
+#define FOUNDATION_BUNDLEINFO___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x93E7D0)
+#define FOUNDATION_BUNDLEINFO___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x93E840)
+#define FOUNDATION_BUNDLEINFO___BASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x93E8B0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int BundleInfo_TypeDefinitionIndex = 8292;
+	inline static constexpr unsigned int BundleInfo_TypeDefinitionIndex = 8177;
 
-	struct alignas(8) BundleInfo
+	struct alignas(4) BundleInfo
 	{
 		static ::Foundation::BundleInfo* StaticGet_None()
 		{
-			return (::Foundation::BundleInfo*)Il2CppClass::FromTypeDefinitionIndex(BundleInfo_TypeDefinitionIndex)->GetStaticField(0x3A80);
+			return (::Foundation::BundleInfo*)Il2CppClass::FromTypeDefinitionIndex(BundleInfo_TypeDefinitionIndex)->GetStaticField(0x3800);
 		}
 		::System::UInt64 hashName; // 0x10
 		::System::UInt32 offset; // 0x18
@@ -49,32 +50,36 @@ namespace Foundation
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FOUNDATION_BUNDLEINFO__CCTOR_OFFSET))();
 		}
 
-		/*
 		::Foundation::BundleLocationInfo GetBundleLoadInfo()
 		{
 			return ((::Foundation::BundleLocationInfo(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_BUNDLEINFO_GETBUNDLELOADINFO_OFFSET))(this);
 		}
-		*/
 
 		::Foundation::BundleLocation GetBundleLocation()
 		{
 			return ((::Foundation::BundleLocation(*)(::PVOID))((::PBYTE)hIl2Cpp + FOUNDATION_BUNDLEINFO_GETBUNDLELOCATION_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::Foundation::BundleInfo other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::BundleInfo))((::PBYTE)hIl2Cpp + FOUNDATION_BUNDLEINFO_EQUALS_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::Foundation::BundleInfo left, ::Foundation::BundleInfo right)
 		{
 			return ((::System::Boolean(*)(::Foundation::BundleInfo, ::Foundation::BundleInfo))((::PBYTE)hIl2Cpp + FOUNDATION_BUNDLEINFO_OP_EQUALITY_OFFSET))(left, right);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::Foundation::BundleInfo left, ::Foundation::BundleInfo right)
 		{
 			return ((::System::Boolean(*)(::Foundation::BundleInfo, ::Foundation::BundleInfo))((::PBYTE)hIl2Cpp + FOUNDATION_BUNDLEINFO_OP_INEQUALITY_OFFSET))(left, right);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{

@@ -5,9 +5,9 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlAtomicValue_Union_TypeDefinitionIndex = 2111;
+	inline static constexpr unsigned int XmlAtomicValue_Union_TypeDefinitionIndex = 2110;
 
-	struct alignas(8) XmlAtomicValue_Union
+	struct alignas(4) XmlAtomicValue_Union
 	{
 		::System::Boolean boolVal; // 0x10
 		::System::Double dblVal; // 0x10

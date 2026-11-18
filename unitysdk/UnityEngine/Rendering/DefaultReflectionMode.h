@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DefaultReflectionMode_TypeDefinitionIndex = 6172;
+	inline static constexpr unsigned int DefaultReflectionMode_TypeDefinitionIndex = 6181;
 
 	enum class DefaultReflectionMode : ::System::Int32
 	{

@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_LDREADRABLEVELID_INVOKE_OFFSET UNITYSDK_OFFSET(0x118AE5E0)
-#define MOLEMOLE_FLOWCANVAS_LDREADRABLEVELID__CTOR_OFFSET UNITYSDK_OFFSET(0x118AE710)
+#define MOLEMOLE_FLOWCANVAS_LDREADRABLEVELID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1622D760)
+#define MOLEMOLE_FLOWCANVAS_LDREADRABLEVELID__CTOR_OFFSET UNITYSDK_OFFSET(0x1622D890)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int LDReadRABLevelId_TypeDefinitionIndex = 74544;
+	inline static constexpr unsigned int LDReadRABLevelId_TypeDefinitionIndex = 55733;
 
-	class LDReadRABLevelId : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::System::Int32>
+	class LDReadRABLevelId
 	{
 	public:
 		::System::Void _ctor()

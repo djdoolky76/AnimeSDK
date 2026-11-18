@@ -3,26 +3,26 @@
 
 namespace Mono::Xml
 {
-	inline static constexpr unsigned int MiniParser_CharKind_TypeDefinitionIndex = 2266;
+	inline static constexpr unsigned int MiniParser_CharKind_TypeDefinitionIndex = 2265;
 
 	enum class MiniParser_CharKind : ::System::Byte
 	{
-		LEFT_BR = 0x0,
-		RIGHT_BR = 0x1,
-		SLASH = 0x2,
-		PI_MARK = 0x3,
-		EQ = 0x4,
-		AMP = 0x5,
-		SQUOTE = 0x6,
-		DQUOTE = 0x7,
-		BANG = 0x8,
-		LEFT_SQBR = 0x9,
-		SPACE = 0xA,
-		RIGHT_SQBR = 0xB,
-		TAB = 0xC,
-		CR = 0xD,
-		EOL = 0xE,
-		CHARS = 0xF,
-		UNKNOWN = 0x1F,
+		LEFT_BR = 0,
+		RIGHT_BR = 1,
+		SLASH = 2,
+		PI_MARK = 3,
+		EQ = 4,
+		AMP = 5,
+		SQUOTE = 6,
+		DQUOTE = 7,
+		BANG = 8,
+		LEFT_SQBR = 9,
+		SPACE = 10,
+		RIGHT_SQBR = 11,
+		TAB = 12,
+		CR = 13,
+		EOL = 14,
+		CHARS = 15,
+		UNKNOWN = 31,
 	};
 }

@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeDataView.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
-#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
-#include "unitysdk/StateTreeGameplay/RandomValueFloatTask.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/DataValidationResult.h"
+#include "unitysdk/StateTreeCore/StateTreeDataView.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
+#include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
+#include "unitysdk/StateTreeGameplay/RandomValueFloatTask.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_RANDOMVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1C13ED10)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_RANDOMVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1C13EE40)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_RANDOMVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1C13EDB0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_RANDOMVALUEFLOATTASK_COMPILE_OFFSET UNITYSDK_OFFSET(0x1CB635D0)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_RANDOMVALUEFLOATTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1CB63700)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_RANDOMVALUEFLOATTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1CB63670)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_RandomValueFloatTask_TypeDefinitionIndex = 54977;
+	inline static constexpr unsigned int VirtualFunctionExtensions_RandomValueFloatTask_TypeDefinitionIndex = 63836;
 
 	class VirtualFunctionExtensions_RandomValueFloatTask : public ::System::Object
 	{

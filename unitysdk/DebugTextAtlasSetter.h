@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define DEBUGTEXTATLASSETTER_START_OFFSET UNITYSDK_OFFSET(0x1FC40200)
-#define DEBUGTEXTATLASSETTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FC403F0)
-#define DEBUGTEXTATLASSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC40430)
+#define DEBUGTEXTATLASSETTER_START_OFFSET UNITYSDK_OFFSET(0x200438A0)
+#define DEBUGTEXTATLASSETTER_UPDATE_OFFSET UNITYSDK_OFFSET(0x20043A90)
+#define DEBUGTEXTATLASSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x20043AD0)
 
-inline static constexpr unsigned int DebugTextAtlasSetter_TypeDefinitionIndex = 95355;
+inline static constexpr unsigned int DebugTextAtlasSetter_TypeDefinitionIndex = 96714;
 
 class DebugTextAtlasSetter : public ::UnityEngine::MonoBehaviour
 {

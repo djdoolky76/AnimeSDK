@@ -6,7 +6,7 @@ namespace UnityEngine { class AsyncInstantiateOperation; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AsyncInstantiateOperation_1_TypeDefinitionIndex = 5321;
+	inline static constexpr unsigned int AsyncInstantiateOperation_1_TypeDefinitionIndex = 5323;
 
 	template <typename T>
 	class AsyncInstantiateOperation_1 : public ::UnityEngine::CustomYieldInstruction

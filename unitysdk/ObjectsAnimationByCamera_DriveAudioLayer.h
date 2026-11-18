@@ -6,16 +6,17 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define OBJECTSANIMATIONBYCAMERA_DRIVEAUDIOLAYER_CAPTUREEMITTERWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x18B13790)
-#define OBJECTSANIMATIONBYCAMERA_DRIVEAUDIOLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x18B13980)
+#define OBJECTSANIMATIONBYCAMERA_DRIVEAUDIOLAYER_CAPTUREEMITTERWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x1948DA20)
+#define OBJECTSANIMATIONBYCAMERA_DRIVEAUDIOLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1948DC10)
 
-inline static constexpr unsigned int ObjectsAnimationByCamera_DriveAudioLayer_TypeDefinitionIndex = 75785;
+inline static constexpr unsigned int ObjectsAnimationByCamera_DriveAudioLayer_TypeDefinitionIndex = 38919;
 
 class ObjectsAnimationByCamera_DriveAudioLayer : public ::System::Object
 {
 public:
 	::UnityEngine::GameObject* emitter; // 0x10
 	::UnityEngine::Vector3 emitterWorldPosition; // 0x18
+	::System::Byte _padding0[0x4];
 	::System::String* forwardEventName; // 0x28
 	::System::String* reverseEventName; // 0x30
 	::System::String* forwardStopEventName; // 0x38

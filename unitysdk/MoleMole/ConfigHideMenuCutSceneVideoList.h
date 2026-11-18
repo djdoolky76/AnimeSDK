@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGHIDEMENUCUTSCENEVIDEOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x192156E0)
+#define MOLEMOLE_CONFIGHIDEMENUCUTSCENEVIDEOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x118E8670)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigHideMenuCutSceneVideoList_TypeDefinitionIndex = 46806;
+	inline static constexpr unsigned int ConfigHideMenuCutSceneVideoList_TypeDefinitionIndex = 78121;
 
 	class ConfigHideMenuCutSceneVideoList : public ::Foundation::MihoyoSerializedScriptableObject
 	{

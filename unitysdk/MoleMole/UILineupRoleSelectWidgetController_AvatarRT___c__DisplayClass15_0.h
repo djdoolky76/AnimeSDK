@@ -5,12 +5,12 @@
 namespace MoleMole { class UILineupRoleSelectWidgetController_AvatarRT; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UILINEUPROLESELECTWIDGETCONTROLLER_AVATARRT___C__DISPLAYCLASS15_0__BUILDMODEL_B__0_OFFSET UNITYSDK_OFFSET(0x19134A20)
-#define MOLEMOLE_UILINEUPROLESELECTWIDGETCONTROLLER_AVATARRT___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19134980)
+#define MOLEMOLE_UILINEUPROLESELECTWIDGETCONTROLLER_AVATARRT___C__DISPLAYCLASS15_0__BUILDMODEL_B__0_OFFSET UNITYSDK_OFFSET(0x186B9840)
+#define MOLEMOLE_UILINEUPROLESELECTWIDGETCONTROLLER_AVATARRT___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186B97A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILineupRoleSelectWidgetController_AvatarRT___c__DisplayClass15_0_TypeDefinitionIndex = 90031;
+	inline static constexpr unsigned int UILineupRoleSelectWidgetController_AvatarRT___c__DisplayClass15_0_TypeDefinitionIndex = 84782;
 
 	class UILineupRoleSelectWidgetController_AvatarRT___c__DisplayClass15_0 : public ::System::Object
 	{

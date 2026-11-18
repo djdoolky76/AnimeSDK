@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/InputSystem/HID/HIDSupport_HIDPageUsage.h"
 #include "unitysdk/UnityEngine/InputSystem/Utilities/ReadOnlyArray_1.h"
 
-#define UNITYENGINE_INPUTSYSTEM_HID_HIDSUPPORT_GET_SUPPORTEDHIDUSAGES_OFFSET UNITYSDK_OFFSET(0x1EB40870)
-#define UNITYENGINE_INPUTSYSTEM_HID_HIDSUPPORT_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB40CD0)
-#define UNITYENGINE_INPUTSYSTEM_HID_HIDSUPPORT_SET_SUPPORTEDHIDUSAGES_OFFSET UNITYSDK_OFFSET(0x1EB408B0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HIDSUPPORT_GET_SUPPORTEDHIDUSAGES_OFFSET UNITYSDK_OFFSET(0x1EED13D0)
+#define UNITYENGINE_INPUTSYSTEM_HID_HIDSUPPORT_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1EED1830)
+#define UNITYENGINE_INPUTSYSTEM_HID_HIDSUPPORT_SET_SUPPORTEDHIDUSAGES_OFFSET UNITYSDK_OFFSET(0x1EED1410)
 
 namespace UnityEngine::InputSystem::HID
 {
-	inline static constexpr unsigned int HIDSupport_TypeDefinitionIndex = 32426;
+	inline static constexpr unsigned int HIDSupport_TypeDefinitionIndex = 31875;
 
 	class HIDSupport : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>** StaticGet_s_SupportedHIDUsages()
+		static ::Il2CppArray<::System::Object*>** StaticGet_s_SupportedHIDUsages()
 		{
-			return (::Il2CppArray<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>**)Il2CppClass::FromTypeDefinitionIndex(HIDSupport_TypeDefinitionIndex)->GetStaticField(0x27BD0);
+			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(HIDSupport_TypeDefinitionIndex)->GetStaticField(0x28CB0);
 		}
 
-		static ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> get_supportedHIDUsages()
+		static ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::System::Object*> get_supportedHIDUsages()
 		{
-			return ((::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_HID_HIDSUPPORT_GET_SUPPORTEDHIDUSAGES_OFFSET))();
+			return ((::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::System::Object*>(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_HID_HIDSUPPORT_GET_SUPPORTEDHIDUSAGES_OFFSET))();
 		}
 
-		static ::System::Void set_supportedHIDUsages(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> value)
+		static ::System::Void set_supportedHIDUsages(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::System::Object*> value)
 		{
-			return ((::System::Void(*)(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_HID_HIDSUPPORT_SET_SUPPORTEDHIDUSAGES_OFFSET))(value);
+			return ((::System::Void(*)(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::System::Object*>))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_HID_HIDSUPPORT_SET_SUPPORTEDHIDUSAGES_OFFSET))(value);
 		}
 
 		static ::System::Void Initialize()

@@ -5,20 +5,20 @@
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS_GET_COMPONENTCHANGED_OFFSET UNITYSDK_OFFSET(0x1DAB1E10)
-#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS_GET_TYPECHANGED_OFFSET UNITYSDK_OFFSET(0x1DAB1E20)
-#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DAB1DB0)
-#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB1D30)
+#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS_GET_COMPONENTCHANGED_OFFSET UNITYSDK_OFFSET(0x1DEF2C00)
+#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS_GET_TYPECHANGED_OFFSET UNITYSDK_OFFSET(0x1DEF2C10)
+#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DEF2BA0)
+#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF2B20)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int RefreshEventArgs_TypeDefinitionIndex = 2974;
+	inline static constexpr unsigned int RefreshEventArgs_TypeDefinitionIndex = 2973;
 
 	class RefreshEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Object* componentChanged; // 0x10
-		::System::Type* typeChanged; // 0x18
+		::System::Type* typeChanged; // 0x10
+		::System::Object* componentChanged; // 0x18
 
 		::System::Void _ctor(::System::Object* componentChanged)
 		{

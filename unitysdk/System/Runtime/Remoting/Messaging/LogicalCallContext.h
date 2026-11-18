@@ -11,20 +11,20 @@ namespace System::Runtime::Remoting::Messaging { class CallContextSecurityData; 
 namespace System::Runtime::Remoting::Messaging { class Header; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_CLONE_OFFSET UNITYSDK_OFFSET(0x1C328B70)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C329750)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C328500)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_GET_DATASTORE_OFFSET UNITYSDK_OFFSET(0x1C328450)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_GET_HASINFO_OFFSET UNITYSDK_OFFSET(0x1C3296F0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_GET_HASUSERDATA_OFFSET UNITYSDK_OFFSET(0x1C328B40)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_SETDATA_OFFSET UNITYSDK_OFFSET(0x1C329820)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3299F0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C327CC0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C327CB0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_CLONE_OFFSET UNITYSDK_OFFSET(0x1C8A00F0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C8A0CD0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C89FA80)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_GET_DATASTORE_OFFSET UNITYSDK_OFFSET(0x1C89F9D0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_GET_HASINFO_OFFSET UNITYSDK_OFFSET(0x1C8A0C70)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_GET_HASUSERDATA_OFFSET UNITYSDK_OFFSET(0x1C8A00C0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_SETDATA_OFFSET UNITYSDK_OFFSET(0x1C8A0DA0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8A0F70)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C89F240)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C89F230)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int LogicalCallContext_TypeDefinitionIndex = 1325;
+	inline static constexpr unsigned int LogicalCallContext_TypeDefinitionIndex = 1324;
 
 	class LogicalCallContext : public ::System::Object
 	{
@@ -33,12 +33,12 @@ namespace System::Runtime::Remoting::Messaging
 		{
 			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(LogicalCallContext_TypeDefinitionIndex)->GetStaticField(0x1080);
 		}
-		::Il2CppArray<::System::Runtime::Remoting::Messaging::Header*>* _sendHeaders; // 0x10
-		::System::Runtime::Remoting::Messaging::CallContextSecurityData* m_SecurityData; // 0x18
-		::System::Collections::Hashtable* m_Datastore; // 0x20
-		::Il2CppArray<::System::Runtime::Remoting::Messaging::Header*>* _recvHeaders; // 0x28
-		::System::Runtime::Remoting::Messaging::CallContextRemotingData* m_RemotingData; // 0x30
-		::System::Object* m_HostContext; // 0x38
+		::Il2CppArray<::System::Runtime::Remoting::Messaging::Header*>* _recvHeaders; // 0x10
+		::Il2CppArray<::System::Runtime::Remoting::Messaging::Header*>* _sendHeaders; // 0x18
+		::System::Object* m_HostContext; // 0x20
+		::System::Collections::Hashtable* m_Datastore; // 0x28
+		::System::Runtime::Remoting::Messaging::CallContextSecurityData* m_SecurityData; // 0x30
+		::System::Runtime::Remoting::Messaging::CallContextRemotingData* m_RemotingData; // 0x38
 		::System::Boolean m_IsCorrelationMgr; // 0x40
 
 		::System::Void _ctor()

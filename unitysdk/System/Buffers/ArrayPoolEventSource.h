@@ -3,22 +3,22 @@
 #include "unitysdk/System/Buffers/ArrayPoolEventSource_BufferAllocatedReason.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventSource.h"
 
-#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERALLOCATED_OFFSET UNITYSDK_OFFSET(0x1FC6D580)
-#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERRENTED_OFFSET UNITYSDK_OFFSET(0x1FC6D570)
-#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERRETURNED_OFFSET UNITYSDK_OFFSET(0x1FC6D590)
-#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC6D5F0)
-#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC6D5A0)
+#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERALLOCATED_OFFSET UNITYSDK_OFFSET(0x1DF1AEF0)
+#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERRENTED_OFFSET UNITYSDK_OFFSET(0x1DF1AEE0)
+#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE_BUFFERRETURNED_OFFSET UNITYSDK_OFFSET(0x1DF1AF00)
+#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF1AF60)
+#define SYSTEM_BUFFERS_ARRAYPOOLEVENTSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF1AF10)
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ArrayPoolEventSource_TypeDefinitionIndex = 6526;
+	inline static constexpr unsigned int ArrayPoolEventSource_TypeDefinitionIndex = 3250;
 
 	class ArrayPoolEventSource : public ::System::Diagnostics::Tracing::EventSource
 	{
 	public:
 		static ::System::Buffers::ArrayPoolEventSource** StaticGet_Log()
 		{
-			return (::System::Buffers::ArrayPoolEventSource**)Il2CppClass::FromTypeDefinitionIndex(ArrayPoolEventSource_TypeDefinitionIndex)->GetStaticField(0x5A80);
+			return (::System::Buffers::ArrayPoolEventSource**)Il2CppClass::FromTypeDefinitionIndex(ArrayPoolEventSource_TypeDefinitionIndex)->GetStaticField(0x3200);
 		}
 
 		::System::Void _ctor()

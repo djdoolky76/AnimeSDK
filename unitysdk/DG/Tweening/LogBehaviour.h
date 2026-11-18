@@ -3,7 +3,7 @@
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int LogBehaviour_TypeDefinitionIndex = 28535;
+	inline static constexpr unsigned int LogBehaviour_TypeDefinitionIndex = 27974;
 
 	enum class LogBehaviour : ::System::Int32
 	{

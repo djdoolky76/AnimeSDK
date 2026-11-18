@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/IEJHOJBLOHI.h"
+
+class KBDGKAJPALP;
+class MOFJBAHMGCC;
+class OALIOCKPCCC;
+class OFLPOCHHHLC;
+class OLLCHBFEFBA;
+class PMLCKJBHLLB;
+namespace System { template <typename T1, typename T2> class Action_2; }
+
+#define DKLDEOBAMCA_AJHFLNDCMHD_OFFSET UNITYSDK_OFFSET(0x1CCAC300)
+#define DKLDEOBAMCA_CMFOMGGDPPA_OFFSET UNITYSDK_OFFSET(0x1CCAC3E0)
+#define DKLDEOBAMCA_KHGPLGMDOFC_OFFSET UNITYSDK_OFFSET(0x1CCABF30)
+#define DKLDEOBAMCA_MNEFKNFOABP_OFFSET UNITYSDK_OFFSET(0x1CCAC480)
+#define DKLDEOBAMCA_OKJCHFGIKBH_OFFSET UNITYSDK_OFFSET(0x1CCAC160)
+#define DKLDEOBAMCA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCAC280)
+
+inline static constexpr unsigned int DKLDEOBAMCA_TypeDefinitionIndex = 93495;
+
+class DKLDEOBAMCA : public ::IEJHOJBLOHI
+{
+public:
+	::PMLCKJBHLLB* DAAAEJDBNFI; // 0x28
+	::OLLCHBFEFBA* JDDGPFHBFJL; // 0x30
+	::KBDGKAJPALP* NAEFJGAOJCB; // 0x38
+	::System::Action_2<::OALIOCKPCCC*, ::MOFJBAHMGCC*>* DFPCOINBDCE; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DKLDEOBAMCA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void KHGPLGMDOFC(::OFLPOCHHHLC* GEEHGDABNJF)
+	{
+		return ((::System::Void(*)(::PVOID, ::OFLPOCHHHLC*))((::PBYTE)hIl2Cpp + DKLDEOBAMCA_KHGPLGMDOFC_OFFSET))(this, GEEHGDABNJF);
+	}
+
+	::System::Void OKJCHFGIKBH(::System::Single PMNLNNGEIFM)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + DKLDEOBAMCA_OKJCHFGIKBH_OFFSET))(this, PMNLNNGEIFM);
+	}
+
+	::System::Void AJHFLNDCMHD(::OALIOCKPCCC* BINJNPBJKGB, ::MOFJBAHMGCC* GLIGCJGGLKH)
+	{
+		return ((::System::Void(*)(::PVOID, ::OALIOCKPCCC*, ::MOFJBAHMGCC*))((::PBYTE)hIl2Cpp + DKLDEOBAMCA_AJHFLNDCMHD_OFFSET))(this, BINJNPBJKGB, GLIGCJGGLKH);
+	}
+
+	::System::Void CMFOMGGDPPA(::System::Single MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + DKLDEOBAMCA_CMFOMGGDPPA_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Void MNEFKNFOABP(::OFLPOCHHHLC* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::OFLPOCHHHLC*))((::PBYTE)hIl2Cpp + DKLDEOBAMCA_MNEFKNFOABP_OFFSET))(this, MIALFKCCCPI);
+	}
+};

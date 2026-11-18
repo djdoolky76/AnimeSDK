@@ -15,18 +15,18 @@ namespace UnityEngine::Rendering::Universal { class WeatherGroupScriptableObject
 namespace UnityEngine::Rendering::Universal::WeatherSystem { class LocalWeatherSubVolume; }
 namespace UnityEngine::Rendering::Universal::WeatherSystem { class LocalWeatherVolumeContext; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_GETVALIDLOCALVOLUMECONTEXT_OFFSET UNITYSDK_OFFSET(0x1CB41750)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_GET_CAMERAISINVOLUME_OFFSET UNITYSDK_OFFSET(0x1CB41290)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1CB412A0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CB415D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CB41540)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CB412B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_REFRESHLINKEDOBJECTSTATE_OFFSET UNITYSDK_OFFSET(0x1CB41380)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB42080)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_GETVALIDLOCALVOLUMECONTEXT_OFFSET UNITYSDK_OFFSET(0x1CF03850)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_GET_CAMERAISINVOLUME_OFFSET UNITYSDK_OFFSET(0x1CF03390)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x1CF033A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CF036D0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CF03640)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CF033B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME_REFRESHLINKEDOBJECTSTATE_OFFSET UNITYSDK_OFFSET(0x1CF03480)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_LOCALWEATHERVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF04180)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int LocalWeatherVolume_TypeDefinitionIndex = 26909;
+	inline static constexpr unsigned int LocalWeatherVolume_TypeDefinitionIndex = 27182;
 
 	class LocalWeatherVolume : public ::UnityEngine::MonoBehaviour
 	{
@@ -38,17 +38,23 @@ namespace UnityEngine::Rendering::Universal::WeatherSystem
 		::System::Single fadeOutSpeed; // 0x30
 		::System::Boolean showPreviewBox; // 0x34
 		::System::Boolean useMoreThanOneBox; // 0x35
+		::System::Byte _padding0[0x2];
 		::System::Single extraHandleSize; // 0x38
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::WeatherSystem::LocalWeatherSubVolume*>* subVolumes; // 0x40
 		::Il2CppArray<::UnityEngine::GameObject*>* m_LinkedGameObjects; // 0x48
 		::System::Boolean enableLocalHeightMap; // 0x50
+		::System::Byte _padding2[0x3];
 		::System::Int32 rainHeightExtension; // 0x54
 		::System::Single rainHeightOffset; // 0x58
+		::System::Byte _padding3[0x4];
 		::UnityEngine::Texture* rainHeightMap; // 0x60
 		::UnityEngine::Vector4 rainHeightMapParams; // 0x68
 		::System::Boolean cameraIsInVolume; // 0x78
+		::System::Byte _padding4[0x3];
 		::System::Single weight; // 0x7C
 		::System::Single preWeight; // 0x80
+		::System::Byte _padding5[0x4];
 		::UnityEngine::Rendering::Universal::WeatherConfigScriptableObject* cachedWeatherConfig; // 0x88
 		::System::Int32 cachedLayer; // 0x90
 		::UnityEngine::Bounds defaultBoundBox; // 0x94

@@ -1,86 +1,87 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_3EDF246633A325B0.h"
+#include "unitysdk/GMFAKIPCDED.h"
 #include "unitysdk/MoleMole/UIWindowController.h"
 
-class Class_2_8607800D97BB03E5;
-class Class_2_F9471F3BB5949932_5;
+class AGNMNBGIGJP;
+class MPJBKBGHFGA;
 namespace MoleMole { class UIControlReference; }
 namespace MoleMole { class UIMiniscapeTalentPageController_MiniscapeTalentOneRowData; }
 namespace MoleMole { class UIMiniscapeTalentPageController_MiniscapeTalentPerData; }
 namespace MoleMole { class UIMiniscapeTalentPiontWidgetController; }
 namespace System { class EventArgs; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class RectTransform; }
 
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_CLEARCURVESANIMATEDTAG_OFFSET UNITYSDK_OFFSET(0x1986FB20)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_CLEARCURVESOPENTAG_OFFSET UNITYSDK_OFFSET(0x1986FEC0)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GETANIMATIONTIME_OFFSET UNITYSDK_OFFSET(0x1986FE50)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GETONEROWDATABYCOLUMNINDEX_OFFSET UNITYSDK_OFFSET(0x19871AA0)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GETPERTALENTBYINDEX_OFFSET UNITYSDK_OFFSET(0x19870120)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GETPERTALENTDATABYINDEX_OFFSET UNITYSDK_OFFSET(0x19872040)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GETTALENTCOUNTBYCOLUMNINDEX_OFFSET UNITYSDK_OFFSET(0x1986FCC0)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x1986D810)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ISCANSHOWRESETBUTTON_OFFSET UNITYSDK_OFFSET(0x19871430)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ISHAVEZEROTALENT_OFFSET UNITYSDK_OFFSET(0x1986EF20)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONADDTALENTEVENT_OFFSET UNITYSDK_OFFSET(0x198717D0)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONCREATEALLITEM_OFFSET UNITYSDK_OFFSET(0x1986F190)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x1986D820)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONOKBTN_OFFSET UNITYSDK_OFFSET(0x19870010)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONPERTALENTCLICK_OFFSET UNITYSDK_OFFSET(0x19870300)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONRESETBTN_OFFSET UNITYSDK_OFFSET(0x1986FF20)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONRESETTALENTEVENT_OFFSET UNITYSDK_OFFSET(0x19871870)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONTOGGLE_OFFSET UNITYSDK_OFFSET(0x1986E980)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x1986EB60)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x1986D960)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0x1986ED00)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_PLAYCURVEFILLANIMATION_OFFSET UNITYSDK_OFFSET(0x1986FDC0)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_REFRESHBUTTON_OFFSET UNITYSDK_OFFSET(0x19870880)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_REFRESHLINEMESH_OFFSET UNITYSDK_OFFSET(0x1986FB80)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_SETLINE_OFFSET UNITYSDK_OFFSET(0x1986FBE0)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_SETNEXTTALENTINDEXBYPRETALENTIDLIST_OFFSET UNITYSDK_OFFSET(0x19871EE0)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_SETNEXTTALENTINDEX_OFFSET UNITYSDK_OFFSET(0x19871C30)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_SETPANELDATA_OFFSET UNITYSDK_OFFSET(0x1986E190)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_SHOWRESETBTN_OFFSET UNITYSDK_OFFSET(0x1986EE80)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_SORTPANELDATALIST_OFFSET UNITYSDK_OFFSET(0x19871E60)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_STOPANIMATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1986EBD0)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19872270)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19872130)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER__ONRESETBTN_B__32_0_OFFSET UNITYSDK_OFFSET(0x198723A0)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER__PLAYANIMATION_B__22_0_OFFSET UNITYSDK_OFFSET(0x19872280)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER__PLAYANIMATION_B__22_1_OFFSET UNITYSDK_OFFSET(0x19872310)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x198723D0)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x19872460)
-#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x19872470)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ALKILMKOHIM_OFFSET UNITYSDK_OFFSET(0x17FA2320)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_BPEBHDECMHH_OFFSET UNITYSDK_OFFSET(0x17FA1DF0)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_CBHDNJCDBBJ_OFFSET UNITYSDK_OFFSET(0x17FA09D0)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_CLEARCURVESANIMATEDTAG_OFFSET UNITYSDK_OFFSET(0x17FA01A0)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_CLEARCURVESOPENTAG_OFFSET UNITYSDK_OFFSET(0x17FA0210)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_DHHIOKANKNK_OFFSET UNITYSDK_OFFSET(0x17FA2230)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_DPILEEJMENE_OFFSET UNITYSDK_OFFSET(0x17FA1AB0)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_EPCHAOPOCPP_OFFSET UNITYSDK_OFFSET(0x17FA2920)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_FEOFLFPACPM_OFFSET UNITYSDK_OFFSET(0x17FA2590)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_FGPIMGJDJLF_OFFSET UNITYSDK_OFFSET(0x17FA1780)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_FLHOBGHGCFG_OFFSET UNITYSDK_OFFSET(0x17FA34F0)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_FNKKPCFKMKD_OFFSET UNITYSDK_OFFSET(0x17F9F2D0)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GETANIMATIONTIME_OFFSET UNITYSDK_OFFSET(0x17FA0130)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GETPERTALENTBYINDEX_OFFSET UNITYSDK_OFFSET(0x17FA0280)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GET_WINDOWTYPE_OFFSET UNITYSDK_OFFSET(0x17F9E940)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GILACDANEOO_OFFSET UNITYSDK_OFFSET(0x17FA3460)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_HGDANMPGAJL_OFFSET UNITYSDK_OFFSET(0x17FA2A90)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_HOGJOHHLPBG_OFFSET UNITYSDK_OFFSET(0x17FA3580)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_IDELBKECCDI_OFFSET UNITYSDK_OFFSET(0x17F9FAD0)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_IGLCBAFBHMA_OFFSET UNITYSDK_OFFSET(0x17F9FD20)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_JDLBBIHBCNN_OFFSET UNITYSDK_OFFSET(0x17FA1C60)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_KCCJDLMLFOG_OFFSET UNITYSDK_OFFSET(0x17FA27C0)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_MACHAKGDCAH_OFFSET UNITYSDK_OFFSET(0x17FA1870)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_NBEAHGNGPJJ_OFFSET UNITYSDK_OFFSET(0x17FA1B50)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x17F9E950)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONPERTALENTCLICK_OFFSET UNITYSDK_OFFSET(0x17FA0460)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x17F9FCB0)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x17F9EA90)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_PAODHKFIJGG_OFFSET UNITYSDK_OFFSET(0x17FA1E90)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_PLAYCURVEFILLANIMATION_OFFSET UNITYSDK_OFFSET(0x17FA00A0)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_PLDBNEBKFEL_OFFSET UNITYSDK_OFFSET(0x17F9FF30)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_PMOMOIGIBFK_OFFSET UNITYSDK_OFFSET(0x17FA3430)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_REFRESHLINEMESH_OFFSET UNITYSDK_OFFSET(0x17FA0030)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_SETLINE_OFFSET UNITYSDK_OFFSET(0x17F9FE50)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17FA16C0)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17FA1580)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x17FA16D0)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x17FA1760)
+#define MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x17FA1770)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMiniscapeTalentPageController_TypeDefinitionIndex = 80485;
+	inline static constexpr unsigned int UIMiniscapeTalentPageController_TypeDefinitionIndex = 60870;
 
 	class UIMiniscapeTalentPageController : public ::MoleMole::UIWindowController
 	{
 	public:
 		static ::System::Boolean* StaticGet_IsNeedDelayOnPlayAnimation()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeTalentPageController_TypeDefinitionIndex)->GetStaticField(0xDD00);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIMiniscapeTalentPageController_TypeDefinitionIndex)->GetStaticField(0xDD70);
 		}
-		// static const ::System::String* _talentPageBg1; // 0x0
-		// static const ::System::String* _talentPageBg2; // 0x0
-		::System::Collections::Generic::List_1<::System::String*>* _talentPageBgList; // 0x318
-		::Class_2_F9471F3BB5949932_5* _view; // 0x320
-		::Class_2_8607800D97BB03E5* _model; // 0x328
-		::MoleMole::UIMiniscapeTalentPiontWidgetController* _rightTalentTemplate; // 0x330
-		::MoleMole::UIMiniscapeTalentPiontWidgetController* _rightTalentTemplateBg; // 0x338
-		::UnityEngine::Coroutine* _animationCallBack; // 0x340
-		::UnityEngine::Coroutine* _animationCallBackBg; // 0x348
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*>*>* _panelDataMap; // 0x350
-		::System::Collections::Generic::List_1<::System::Int32>* _avatarList; // 0x358
-		::MoleMole::UIMiniscapeTalentPiontWidgetController* _cacheTalentTemplate; // 0x360
-		::System::UInt32 _currentAvatarId; // 0x368
-		::System::UInt32 _currentTalentId; // 0x36C
+		// static const ::System::String* JNOMKFBKBJF; // 0x0
+		// static const ::System::String* EFEEJLPKIDB; // 0x0
+		::System::Collections::Generic::List_1<::System::String*>* OHFJNMNMDKF; // 0x320
+		::AGNMNBGIGJP* _view; // 0x328
+		::MPJBKBGHFGA* OPOLMJLMHCD; // 0x330
+		::MoleMole::UIMiniscapeTalentPiontWidgetController* AEBIGGEJLMA; // 0x338
+		::MoleMole::UIMiniscapeTalentPiontWidgetController* JBBHHCHLDDE; // 0x340
+		::UnityEngine::Coroutine* FCGBJBPJIAH; // 0x348
+		::UnityEngine::Coroutine* EKCOLIBCGKO; // 0x350
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::Object*>*>* JKMABKFDKDH; // 0x358
+		::System::Collections::Generic::List_1<::System::Int32>* ELIOIKJGDGI; // 0x360
+		::MoleMole::UIMiniscapeTalentPiontWidgetController* DEJBBOHDIAB; // 0x368
+		::System::UInt32 OFGIEHDPHEI; // 0x370
+		::System::UInt32 LPAOLEFNOHI; // 0x374
 
 		::System::Void _ctor()
 		{
@@ -92,9 +93,9 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER__CCTOR_OFFSET))();
 		}
 
-		::Enum_3_3EDF246633A325B0 get_windowType()
+		::GMFAKIPCDED get_windowType()
 		{
-			return ((::Enum_3_3EDF246633A325B0(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
+			return ((::GMFAKIPCDED(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GET_WINDOWTYPE_OFFSET))(this);
 		}
 
 		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
@@ -110,31 +111,6 @@ namespace MoleMole
 		::System::Void OnUIDestroy()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONUIDESTROY_OFFSET))(this);
-		}
-
-		::System::Void OnToggle(::System::Int32 index)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONTOGGLE_OFFSET))(this, index);
-		}
-
-		::System::Void ShowResetBtn()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_SHOWRESETBTN_OFFSET))(this);
-		}
-
-		::System::Void PlayAnimation()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_PLAYANIMATION_OFFSET))(this);
-		}
-
-		::System::Void StopAnimationCallBack()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_STOPANIMATIONCALLBACK_OFFSET))(this);
-		}
-
-		::System::Void OnCreateAllItem()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONCREATEALLITEM_OFFSET))(this);
 		}
 
 		::System::Void SetLine(::UnityEngine::RectTransform* start, ::UnityEngine::RectTransform* end, ::System::Int32 nextColumnIndex, ::System::Boolean isOpen, ::System::Boolean isShowLineAnimation)
@@ -167,26 +143,6 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_CLEARCURVESOPENTAG_OFFSET))(this);
 		}
 
-		::System::Int32 GetTalentCountByColumnIndex(::System::Int32 columnIndex)
-		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GETTALENTCOUNTBYCOLUMNINDEX_OFFSET))(this, columnIndex);
-		}
-
-		::System::Void OnResetBtn()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONRESETBTN_OFFSET))(this);
-		}
-
-		::System::Boolean IsHaveZeroTalent()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ISHAVEZEROTALENT_OFFSET))(this);
-		}
-
-		::System::Void OnOKBtn()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONOKBTN_OFFSET))(this);
-		}
-
 		::MoleMole::UIMiniscapeTalentPiontWidgetController* GetPerTalentByIndex(::System::Int32 columnIndex, ::System::Int32 rowIndex)
 		{
 			return ((::MoleMole::UIMiniscapeTalentPiontWidgetController*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GETPERTALENTBYINDEX_OFFSET))(this, columnIndex, rowIndex);
@@ -195,71 +151,6 @@ namespace MoleMole
 		::System::Void OnPerTalentClick(::MoleMole::UIMiniscapeTalentPiontWidgetController* item, ::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentPerData* templateData)
 		{
 			return ((::System::Void(*)(::PVOID, ::MoleMole::UIMiniscapeTalentPiontWidgetController*, ::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentPerData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONPERTALENTCLICK_OFFSET))(this, item, templateData);
-		}
-
-		::System::Void RefreshButton()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_REFRESHBUTTON_OFFSET))(this);
-		}
-
-		::System::Boolean IsCanShowResetButton()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ISCANSHOWRESETBUTTON_OFFSET))(this);
-		}
-
-		::System::Void OnAddTalentEvent(::System::EventArgs* obj)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONADDTALENTEVENT_OFFSET))(this, obj);
-		}
-
-		::System::Void OnResetTalentEvent(::System::EventArgs* obj)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ONRESETTALENTEVENT_OFFSET))(this, obj);
-		}
-
-		::System::Void SetPanelData()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_SETPANELDATA_OFFSET))(this);
-		}
-
-		::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData* GetOneRowDataByColumnIndex(::System::Collections::Generic::List_1<::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*>* rowDataList, ::System::Int32 columnIndex)
-		{
-			return ((::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GETONEROWDATABYCOLUMNINDEX_OFFSET))(this, rowDataList, columnIndex);
-		}
-
-		::System::Int32 SortPanelDataList(::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData* first, ::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData* second)
-		{
-			return ((::System::Int32(*)(::PVOID, ::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*, ::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_SORTPANELDATALIST_OFFSET))(this, first, second);
-		}
-
-		::System::Void SetNextTalentIndex(::System::Collections::Generic::List_1<::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*>* rowDataList)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_SETNEXTTALENTINDEX_OFFSET))(this, rowDataList);
-		}
-
-		::System::Void SetNextTalentIndexByPreTalentIDList(::System::Collections::Generic::List_1<::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*>* rowDataList, ::System::Collections::Generic::List_1<::System::Int32>* preTalentIDList, ::System::Int32 columnIndex, ::System::Int32 rowIndex)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_SETNEXTTALENTINDEXBYPRETALENTIDLIST_OFFSET))(this, rowDataList, preTalentIDList, columnIndex, rowIndex);
-		}
-
-		::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentPerData* GetPerTalentDataByIndex(::System::Collections::Generic::List_1<::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*>* rowDataList, ::System::Collections::Generic::List_1<::System::Int32>* talentPosByTableConfig)
-		{
-			return ((::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentPerData*(*)(::PVOID, ::System::Collections::Generic::List_1<::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*>*, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GETPERTALENTDATABYINDEX_OFFSET))(this, rowDataList, talentPosByTableConfig);
-		}
-
-		::System::Void _PlayAnimation_b__22_0()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER__PLAYANIMATION_B__22_0_OFFSET))(this);
-		}
-
-		::System::Void _PlayAnimation_b__22_1()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER__PLAYANIMATION_B__22_1_OFFSET))(this);
-		}
-
-		::System::Void _OnResetBtn_b__32_0()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER__ONRESETBTN_B__32_0_OFFSET))(this);
 		}
 
 		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
@@ -275,6 +166,116 @@ namespace MoleMole
 		::System::Void __base_OnUIInit()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentPerData* FGPIMGJDJLF(::System::Collections::Generic::List_1<::System::Object*>* FAIPMCFHPOE, ::System::Collections::Generic::List_1<::System::Int32>* LBMJADDMGAM)
+		{
+			return ((::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentPerData*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Collections::Generic::List_1<::System::Int32>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_FGPIMGJDJLF_OFFSET))(this, FAIPMCFHPOE, LBMJADDMGAM);
+		}
+
+		::System::Void MACHAKGDCAH(::System::EventArgs* EIFONLCJOPG)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_MACHAKGDCAH_OFFSET))(this, EIFONLCJOPG);
+		}
+
+		::System::Void IGLCBAFBHMA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_IGLCBAFBHMA_OFFSET))(this);
+		}
+
+		::System::Void NBEAHGNGPJJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_NBEAHGNGPJJ_OFFSET))(this);
+		}
+
+		::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData* JDLBBIHBCNN(::System::Collections::Generic::List_1<::System::Object*>* FAIPMCFHPOE, ::System::Int32 IGOGBKMLBMM)
+		{
+			return ((::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_JDLBBIHBCNN_OFFSET))(this, FAIPMCFHPOE, IGOGBKMLBMM);
+		}
+
+		::System::Int32 PLDBNEBKFEL(::System::Int32 IGOGBKMLBMM)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_PLDBNEBKFEL_OFFSET))(this, IGOGBKMLBMM);
+		}
+
+		::System::Void BPEBHDECMHH(::System::EventArgs* EIFONLCJOPG)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::EventArgs*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_BPEBHDECMHH_OFFSET))(this, EIFONLCJOPG);
+		}
+
+		::System::Boolean PAODHKFIJGG()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_PAODHKFIJGG_OFFSET))(this);
+		}
+
+		::System::Void DHHIOKANKNK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_DHHIOKANKNK_OFFSET))(this);
+		}
+
+		::System::Void FNKKPCFKMKD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_FNKKPCFKMKD_OFFSET))(this);
+		}
+
+		::System::Void DPILEEJMENE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_DPILEEJMENE_OFFSET))(this);
+		}
+
+		::System::Void KCCJDLMLFOG(::System::Collections::Generic::List_1<::System::Object*>* FAIPMCFHPOE, ::System::Collections::Generic::List_1<::System::Int32>* BFGPPNJDJJP, ::System::Int32 IGOGBKMLBMM, ::System::Int32 GKOLNEHJKAC)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_KCCJDLMLFOG_OFFSET))(this, FAIPMCFHPOE, BFGPPNJDJJP, IGOGBKMLBMM, GKOLNEHJKAC);
+		}
+
+		::System::Void FEOFLFPACPM(::System::Collections::Generic::List_1<::System::Object*>* FAIPMCFHPOE)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_FEOFLFPACPM_OFFSET))(this, FAIPMCFHPOE);
+		}
+
+		::System::Void IDELBKECCDI(::System::Int32 ABHBKFJKINO)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_IDELBKECCDI_OFFSET))(this, ABHBKFJKINO);
+		}
+
+		::System::Void HGDANMPGAJL()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_HGDANMPGAJL_OFFSET))(this);
+		}
+
+		::System::Boolean ALKILMKOHIM()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_ALKILMKOHIM_OFFSET))(this);
+		}
+
+		::System::Void PMOMOIGIBFK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_PMOMOIGIBFK_OFFSET))(this);
+		}
+
+		::System::Void EPCHAOPOCPP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_EPCHAOPOCPP_OFFSET))(this);
+		}
+
+		::System::Void CBHDNJCDBBJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_CBHDNJCDBBJ_OFFSET))(this);
+		}
+
+		::System::Void GILACDANEOO()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_GILACDANEOO_OFFSET))(this);
+		}
+
+		::System::Void FLHOBGHGCFG()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_FLHOBGHGCFG_OFFSET))(this);
+		}
+
+		::System::Int32 HOGJOHHLPBG(::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData* LCDLAKOLLJJ, ::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData* LBOICOIDEIH)
+		{
+			return ((::System::Int32(*)(::PVOID, ::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*, ::MoleMole::UIMiniscapeTalentPageController_MiniscapeTalentOneRowData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIMINISCAPETALENTPAGECONTROLLER_HOGJOHHLPBG_OFFSET))(this, LCDLAKOLLJJ, LBOICOIDEIH);
 		}
 	};
 }

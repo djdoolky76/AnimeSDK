@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_YOROZUYACUBEGRIDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14107370)
+#define MOLEMOLE_YOROZUYACUBEGRIDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x120A8310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int YorozuyaCubeGridData_TypeDefinitionIndex = 47878;
+	inline static constexpr unsigned int YorozuyaCubeGridData_TypeDefinitionIndex = 76314;
 
 	class YorozuyaCubeGridData : public ::System::Object
 	{

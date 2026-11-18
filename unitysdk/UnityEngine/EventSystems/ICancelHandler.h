@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace UnityEngine::EventSystems { class BaseEventData; }
-
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int ICancelHandler_TypeDefinitionIndex = 19381;
+	inline static constexpr unsigned int ICancelHandler_TypeDefinitionIndex = 18535;
 
 	class ICancelHandler
 	{

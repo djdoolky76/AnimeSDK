@@ -3,11 +3,11 @@
 
 namespace Share
 {
-	inline static constexpr unsigned int EDungeonType_TypeDefinitionIndex = 15487;
+	inline static constexpr unsigned int EDungeonType_TypeDefinitionIndex = 14751;
 
 	enum class EDungeonType : ::System::Int16
 	{
-		Hall = 1,
 		Hollow = 2,
+		Hall = 1,
 	};
 }

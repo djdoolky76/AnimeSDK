@@ -7,17 +7,19 @@
 
 namespace NPCCrowd::AI { class AttractorRuntimeData; }
 
-#define NPCCROWD_AI_ATTRACTORCONFLICTQUERYPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x69C960)
-#define NPCCROWD_AI_ATTRACTORCONFLICTQUERYPROCESSOR_EXECUTEJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x69C950)
+#define NPCCROWD_AI_ATTRACTORCONFLICTQUERYPROCESSOR_EXECUTEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x680610)
+#define NPCCROWD_AI_ATTRACTORCONFLICTQUERYPROCESSOR_EXECUTEJOB__CTOR_OFFSET UNITYSDK_OFFSET(0x680600)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AttractorConflictQueryProcessor_ExecuteJob_TypeDefinitionIndex = 73248;
+	inline static constexpr unsigned int AttractorConflictQueryProcessor_ExecuteJob_TypeDefinitionIndex = 80354;
 
 	struct alignas(8) AttractorConflictQueryProcessor_ExecuteJob
 	{
 		::Unity::Collections::NativeArray_1<::System::Boolean> _isUsing; // 0x10
+		::System::Byte _padding0[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::AI::FAttractorBase> attractorBase; // 0x20
+		::System::Byte _padding1[0x8];
 		::Unity::Collections::NativeArray_1<::NPCCrowd::AI::FConflictData> conflictedArea; // 0x30
 
 		::System::Void _ctor(::NPCCrowd::AI::AttractorRuntimeData* runtimeData, ::System::Single deltaTime)

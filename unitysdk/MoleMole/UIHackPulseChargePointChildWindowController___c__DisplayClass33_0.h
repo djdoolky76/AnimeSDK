@@ -6,19 +6,19 @@ namespace MoleMole { class UIHackPulseChargePointChildWindowController; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIHACKPULSECHARGEPOINTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18AF46B0)
-#define MOLEMOLE_UIHACKPULSECHARGEPOINTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS33_0__TRYPLAYROOTFADE_B__0_OFFSET UNITYSDK_OFFSET(0x18AF46C0)
+#define MOLEMOLE_UIHACKPULSECHARGEPOINTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180C54F0)
+#define MOLEMOLE_UIHACKPULSECHARGEPOINTCHILDWINDOWCONTROLLER___C__DISPLAYCLASS33_0__TRYPLAYROOTFADE_B__0_OFFSET UNITYSDK_OFFSET(0x180C5500)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHackPulseChargePointChildWindowController___c__DisplayClass33_0_TypeDefinitionIndex = 74743;
+	inline static constexpr unsigned int UIHackPulseChargePointChildWindowController___c__DisplayClass33_0_TypeDefinitionIndex = 90659;
 
 	class UIHackPulseChargePointChildWindowController___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIHackPulseChargePointChildWindowController* __4__this; // 0x10
-		::System::String* clipName; // 0x18
-		::System::Action* callback; // 0x20
+		::System::Action* callback; // 0x10
+		::MoleMole::UIHackPulseChargePointChildWindowController* __4__this; // 0x18
+		::System::String* clipName; // 0x20
 
 		::System::Void _ctor()
 		{

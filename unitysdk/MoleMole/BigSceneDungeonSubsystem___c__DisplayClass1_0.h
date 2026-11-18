@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_BIGSCENEDUNGEONSUBSYSTEM___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14840440)
-#define MOLEMOLE_BIGSCENEDUNGEONSUBSYSTEM___C__DISPLAYCLASS1_0__ENTERSCENEPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0x14840450)
+#define MOLEMOLE_BIGSCENEDUNGEONSUBSYSTEM___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11E67EE0)
+#define MOLEMOLE_BIGSCENEDUNGEONSUBSYSTEM___C__DISPLAYCLASS1_0__ENTERSCENEPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0x11E67EF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int BigSceneDungeonSubsystem___c__DisplayClass1_0_TypeDefinitionIndex = 44142;
+	inline static constexpr unsigned int BigSceneDungeonSubsystem___c__DisplayClass1_0_TypeDefinitionIndex = 71860;
 
 	class BigSceneDungeonSubsystem___c__DisplayClass1_0 : public ::System::Object
 	{

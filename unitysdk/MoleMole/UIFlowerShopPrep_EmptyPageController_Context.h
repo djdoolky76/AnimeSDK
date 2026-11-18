@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIFLOWERSHOPPREP_EMPTYPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB3DA0)
+#define MOLEMOLE_UIFLOWERSHOPPREP_EMPTYPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFF9A60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerShopPrep_EmptyPageController_Context_TypeDefinitionIndex = 56632;
+	inline static constexpr unsigned int UIFlowerShopPrep_EmptyPageController_Context_TypeDefinitionIndex = 54931;
 
 	class UIFlowerShopPrep_EmptyPageController_Context : public ::MoleMole::UIControllerContextBase
 	{

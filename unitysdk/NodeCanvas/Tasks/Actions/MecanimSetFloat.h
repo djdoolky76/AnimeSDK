@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ActionTask_1.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
-namespace UnityEngine { class Animator; }
 
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E8C53E0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_GET_OFFSET UNITYSDK_OFFSET(0x1E8C5670)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1E8C54D0)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1E8C5770)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_SET_OFFSET UNITYSDK_OFFSET(0x1E8C5550)
-#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C5840)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EB8ACD0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_GET_OFFSET UNITYSDK_OFFSET(0x1EB8AF60)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB8ADC0)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1EB8B060)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT_SET_OFFSET UNITYSDK_OFFSET(0x1EB8AE40)
+#define NODECANVAS_TASKS_ACTIONS_MECANIMSETFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8B130)
 
 namespace NodeCanvas::Tasks::Actions
 {
-	inline static constexpr unsigned int MecanimSetFloat_TypeDefinitionIndex = 30538;
+	inline static constexpr unsigned int MecanimSetFloat_TypeDefinitionIndex = 30352;
 
-	class MecanimSetFloat : public ::NodeCanvas::Framework::ActionTask_1<::UnityEngine::Animator*>
+	class MecanimSetFloat
 	{
 	public:
 		::NodeCanvas::Framework::BBParameter_1<::System::Single>* setTo; // 0x60
 		::NodeCanvas::Framework::BBParameter_1<::System::String*>* parameter; // 0x68
 		::NodeCanvas::Framework::BBParameter_1<::System::Int32>* parameterHashID; // 0x70
-		::System::Single transitTime; // 0x78
-		::System::Single currentValue; // 0x7C
+		::System::Single currentValue; // 0x78
+		::System::Single transitTime; // 0x7C
 
 		::System::Void _ctor()
 		{

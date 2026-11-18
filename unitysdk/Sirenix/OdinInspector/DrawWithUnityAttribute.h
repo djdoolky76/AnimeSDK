@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SIRENIX_ODININSPECTOR_DRAWWITHUNITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76FF10)
+#define SIRENIX_ODININSPECTOR_DRAWWITHUNITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB80130)
 
 namespace Sirenix::OdinInspector
 {
-	inline static constexpr unsigned int DrawWithUnityAttribute_TypeDefinitionIndex = 7293;
+	inline static constexpr unsigned int DrawWithUnityAttribute_TypeDefinitionIndex = 7300;
 
 	class DrawWithUnityAttribute : public ::System::Attribute
 	{

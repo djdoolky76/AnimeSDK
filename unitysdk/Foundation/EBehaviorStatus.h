@@ -3,14 +3,14 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int EBehaviorStatus_TypeDefinitionIndex = 8656;
+	inline static constexpr unsigned int EBehaviorStatus_TypeDefinitionIndex = 8764;
 
 	enum class EBehaviorStatus : ::System::Int32
 	{
+		BlendOut = 3,
 		ReadyToDestroy = 4,
+		Uninitialized = 0,
 		BlendIn = 1,
 		Active = 2,
-		Uninitialized = 0,
-		BlendOut = 3,
 	};
 }

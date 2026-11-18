@@ -2,16 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0AC327AA661D91B2;
 namespace MoleMole::HollowChessboard { class HollowChessboardEffectEventBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine { class ParticleSystem; }
 
-#define MOLEMOLE_CONFIG_HOLLOWCHESSBOARDPARTICLEMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD6FF80)
+#define MOLEMOLE_CONFIG_HOLLOWCHESSBOARDPARTICLEMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x190B5020)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int HollowChessboardParticleModuleConfig_TypeDefinitionIndex = 66080;
+	inline static constexpr unsigned int HollowChessboardParticleModuleConfig_TypeDefinitionIndex = 72113;
 
 	class HollowChessboardParticleModuleConfig : public ::System::Object
 	{

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_SCENEPEFORMANIMATORPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A946630)
+#define MOLEMOLE_CONFIG_SCENEPEFORMANIMATORPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B68D0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ScenePeformAnimatorParam_TypeDefinitionIndex = 46886;
+	inline static constexpr unsigned int ScenePeformAnimatorParam_TypeDefinitionIndex = 83480;
 
 	class ScenePeformAnimatorParam : public ::System::Object
 	{
@@ -17,8 +17,8 @@ namespace MoleMole::Config
 		::System::String* ParamName; // 0x10
 		::MoleMole::Config::ANIM_CTRLER_PARAMS_TYPE ParamType; // 0x18
 		::System::Single FloatVal; // 0x1C
-		::System::Boolean BoolVal; // 0x20
-		::System::Int32 IntVal; // 0x24
+		::System::Int32 IntVal; // 0x20
+		::System::Boolean BoolVal; // 0x24
 
 		::System::Void _ctor()
 		{

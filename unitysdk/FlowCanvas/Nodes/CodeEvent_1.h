@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int CodeEvent_1_TypeDefinitionIndex = 31337;
+	inline static constexpr unsigned int CodeEvent_1_TypeDefinitionIndex = 29384;
 
 	template <typename T>
 	class CodeEvent_1 : public ::FlowCanvas::Nodes::CodeEventBase

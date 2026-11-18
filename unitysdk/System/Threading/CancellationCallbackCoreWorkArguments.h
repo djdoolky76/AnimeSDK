@@ -5,11 +5,11 @@
 namespace System::Threading { class CancellationCallbackInfo; }
 namespace System::Threading { template <typename T> class SparselyPopulatedArrayFragment_1; }
 
-#define SYSTEM_THREADING_CANCELLATIONCALLBACKCOREWORKARGUMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x351680)
+#define SYSTEM_THREADING_CANCELLATIONCALLBACKCOREWORKARGUMENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x3B58E0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int CancellationCallbackCoreWorkArguments_TypeDefinitionIndex = 787;
+	inline static constexpr unsigned int CancellationCallbackCoreWorkArguments_TypeDefinitionIndex = 786;
 
 	struct alignas(8) CancellationCallbackCoreWorkArguments
 	{

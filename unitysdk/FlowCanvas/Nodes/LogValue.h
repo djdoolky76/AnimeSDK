@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
 namespace System { class Object; }
 
-#define FLOWCANVAS_NODES_LOGVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E722840)
-#define FLOWCANVAS_NODES_LOGVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E722850)
+#define FLOWCANVAS_NODES_LOGVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E9C7B60)
+#define FLOWCANVAS_NODES_LOGVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C7B70)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LogValue_TypeDefinitionIndex = 31280;
+	inline static constexpr unsigned int LogValue_TypeDefinitionIndex = 29711;
 
-	class LogValue : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Object*>
+	class LogValue
 	{
 	public:
 		::System::Void _ctor()

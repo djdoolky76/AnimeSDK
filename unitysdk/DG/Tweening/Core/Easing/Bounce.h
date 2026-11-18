@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DG_TWEENING_CORE_EASING_BOUNCE_EASEINOUT_OFFSET UNITYSDK_OFFSET(0x1FBFBFA0)
-#define DG_TWEENING_CORE_EASING_BOUNCE_EASEIN_OFFSET UNITYSDK_OFFSET(0x1FBFBE10)
-#define DG_TWEENING_CORE_EASING_BOUNCE_EASEOUT_OFFSET UNITYSDK_OFFSET(0x1FBFBEF0)
+#define DG_TWEENING_CORE_EASING_BOUNCE_EASEINOUT_OFFSET UNITYSDK_OFFSET(0x1FFFD990)
+#define DG_TWEENING_CORE_EASING_BOUNCE_EASEIN_OFFSET UNITYSDK_OFFSET(0x1FFFD800)
+#define DG_TWEENING_CORE_EASING_BOUNCE_EASEOUT_OFFSET UNITYSDK_OFFSET(0x1FFFD8E0)
 
 namespace DG::Tweening::Core::Easing
 {
-	inline static constexpr unsigned int Bounce_TypeDefinitionIndex = 28605;
+	inline static constexpr unsigned int Bounce_TypeDefinitionIndex = 28044;
 
 	class Bounce : public ::System::Object
 	{

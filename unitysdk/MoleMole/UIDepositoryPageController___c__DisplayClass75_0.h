@@ -6,12 +6,12 @@ namespace MoleMole { class UIDepositoryPageController; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1937A050)
-#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS75_0__ONSORTERMARKDELETECLICK_B__0_OFFSET UNITYSDK_OFFSET(0x1937A060)
+#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16EBFA40)
+#define MOLEMOLE_UIDEPOSITORYPAGECONTROLLER___C__DISPLAYCLASS75_0__ONSORTERMARKDELETECLICK_B__0_OFFSET UNITYSDK_OFFSET(0x16EBFA50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDepositoryPageController___c__DisplayClass75_0_TypeDefinitionIndex = 41671;
+	inline static constexpr unsigned int UIDepositoryPageController___c__DisplayClass75_0_TypeDefinitionIndex = 63591;
 
 	class UIDepositoryPageController___c__DisplayClass75_0 : public ::System::Object
 	{

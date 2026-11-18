@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HOCDHMEPPEG.h"
+#include "unitysdk/System/Object.h"
+
+class OAEFGCLEHHO;
+
+#define IGLIPIMDPGD_OAFABLIEIDH_AAHMACBDCPN_OFFSET UNITYSDK_OFFSET(0x15EBAF40)
+#define IGLIPIMDPGD_OAFABLIEIDH_LIDNPLMPHAL_OFFSET UNITYSDK_OFFSET(0x15EBAFE0)
+#define IGLIPIMDPGD_OAFABLIEIDH__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBAF30)
+
+inline static constexpr unsigned int IGLIPIMDPGD_OAFABLIEIDH_TypeDefinitionIndex = 59830;
+
+class IGLIPIMDPGD_OAFABLIEIDH : public ::System::Object
+{
+public:
+	::HOCDHMEPPEG CAAFEGLOALC; // 0x10
+	::HOCDHMEPPEG OMPPPHOPAFB; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IGLIPIMDPGD_OAFABLIEIDH__CTOR_OFFSET))(this);
+	}
+
+	::System::Void AAHMACBDCPN(::OAEFGCLEHHO* PIIPCLCCOIG)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + IGLIPIMDPGD_OAFABLIEIDH_AAHMACBDCPN_OFFSET))(this, PIIPCLCCOIG);
+	}
+
+	::System::Void LIDNPLMPHAL(::OAEFGCLEHHO* PIIPCLCCOIG)
+	{
+		return ((::System::Void(*)(::PVOID, ::OAEFGCLEHHO*))((::PBYTE)hIl2Cpp + IGLIPIMDPGD_OAFABLIEIDH_LIDNPLMPHAL_OFFSET))(this, PIIPCLCCOIG);
+	}
+};

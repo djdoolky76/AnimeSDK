@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOGINDATAMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD407C0)
+#define MIHOYO_SDK_LOGINDATAMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0595B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LoginDataModel_TypeDefinitionIndex = 19975;
+	inline static constexpr unsigned int LoginDataModel_TypeDefinitionIndex = 19121;
 
 	class LoginDataModel : public ::System::Object
 	{
@@ -19,6 +19,7 @@ namespace MiHoYo::SDK
 		::System::Boolean safe_moblie_required; // 0x19
 		::System::Boolean realperson_required; // 0x1A
 		::System::Boolean reactivate_required; // 0x1B
+		::System::Byte _padding0[0x4];
 		::System::String* realname_operation; // 0x20
 
 		::System::Void _ctor()

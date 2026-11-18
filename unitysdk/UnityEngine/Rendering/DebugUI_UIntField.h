@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/DebugUI_Field_1.h"
 
 namespace System { template <typename T> class Func_1; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_UINTFIELD_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1CA794C0)
-#define UNITYENGINE_RENDERING_DEBUGUI_UINTFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA79560)
-#define UNITYENGINE_RENDERING_DEBUGUI_UINTFIELD___BASE_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1CA79570)
+#define UNITYENGINE_RENDERING_DEBUGUI_UINTFIELD_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1D07ABF0)
+#define UNITYENGINE_RENDERING_DEBUGUI_UINTFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07AC90)
+#define UNITYENGINE_RENDERING_DEBUGUI_UINTFIELD___BASE_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1D07ACA0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_UIntField_TypeDefinitionIndex = 18690;
+	inline static constexpr unsigned int DebugUI_UIntField_TypeDefinitionIndex = 17841;
 
-	class DebugUI_UIntField : public ::UnityEngine::Rendering::DebugUI_Field_1<::System::UInt32>
+	class DebugUI_UIntField
 	{
 	public:
 		::System::Func_1<::System::UInt32>* max; // 0x50

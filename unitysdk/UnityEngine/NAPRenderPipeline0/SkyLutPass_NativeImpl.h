@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class SkyLutPassNativeState; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EB66A60)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1EB66B00)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB66B30)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB669E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1F02A750)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1F02A7F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F02A820)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SKYLUTPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1F02A6D0)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int SkyLutPass_NativeImpl_TypeDefinitionIndex = 5768;
+	inline static constexpr unsigned int SkyLutPass_NativeImpl_TypeDefinitionIndex = 5773;
 
 	class SkyLutPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{
 	public:
 		static ::System::Boolean* StaticGet_s_bForceUpdate()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkyLutPass_NativeImpl_TypeDefinitionIndex)->GetStaticField(0x28B0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SkyLutPass_NativeImpl_TypeDefinitionIndex)->GetStaticField(0x2810);
 		}
 		::UnityEngine::NAPRenderPipeline0::SkyLutPassNativeState* m_NativeState; // 0xA8
 

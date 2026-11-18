@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/GradientColorKey.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_GRADIENTCOLORKEYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA9A3D0)
-#define MESSAGEPACK_UNITY_GRADIENTCOLORKEYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EA9A280)
-#define MESSAGEPACK_UNITY_GRADIENTCOLORKEYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9A690)
+#define MESSAGEPACK_UNITY_GRADIENTCOLORKEYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EDCB440)
+#define MESSAGEPACK_UNITY_GRADIENTCOLORKEYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EDCB2F0)
+#define MESSAGEPACK_UNITY_GRADIENTCOLORKEYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDCB700)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int GradientColorKeyFormatter_TypeDefinitionIndex = 30025;
+	inline static constexpr unsigned int GradientColorKeyFormatter_TypeDefinitionIndex = 30570;
 
 	class GradientColorKeyFormatter : public ::System::Object
 	{

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_TRANSPARENTSETTINGSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA90280)
-#define UNITYENGINE_NAPRENDERPIPELINE0_TRANSPARENTSETTINGSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA901E0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TRANSPARENTSETTINGSPASS_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1ED887D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_TRANSPARENTSETTINGSPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED88730)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int TransparentSettingsPass_TypeDefinitionIndex = 5843;
+	inline static constexpr unsigned int TransparentSettingsPass_TypeDefinitionIndex = 5849;
 
 	class TransparentSettingsPass : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

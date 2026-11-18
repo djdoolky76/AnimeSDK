@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_VERTEX_LERP_OFFSET UNITYSDK_OFFSET(0x1109D2D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_VERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x712B10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_VERTEX_LERP_OFFSET UNITYSDK_OFFSET(0x108C3A10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_VERTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x63E950)
 
 namespace UnityEngine::Rendering::Universal::Internal
 {
-	inline static constexpr unsigned int DecalProjector_Vertex_TypeDefinitionIndex = 27669;
+	inline static constexpr unsigned int DecalProjector_Vertex_TypeDefinitionIndex = 27192;
 
 	struct alignas(4) DecalProjector_Vertex
 	{
@@ -24,9 +24,11 @@ namespace UnityEngine::Rendering::Universal::Internal
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector4, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_VERTEX__CTOR_OFFSET))(this, position, normal, tangent, uv);
 		}
 
+		/*
 		static ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex Lerp(::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex A, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex B, ::System::Single d)
 		{
 			return ((::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex(*)(::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::UnityEngine::Rendering::Universal::Internal::DecalProjector_Vertex, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_INTERNAL_DECALPROJECTOR_VERTEX_LERP_OFFSET))(A, B, d);
 		}
+		*/
 	};
 }

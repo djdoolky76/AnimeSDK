@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIGeneralTipsPopWindowController; }
 
-#define MOLEMOLE_UIGENERALTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EFE3F0)
-#define MOLEMOLE_UIGENERALTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS79_0__SETSHARECLICK_B__0_OFFSET UNITYSDK_OFFSET(0x19F05270)
+#define MOLEMOLE_UIGENERALTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3EDCC0)
+#define MOLEMOLE_UIGENERALTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS79_0__SETBTNTIPSCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x1A3F5BB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralTipsPopWindowController___c__DisplayClass79_0_TypeDefinitionIndex = 40470;
+	inline static constexpr unsigned int UIGeneralTipsPopWindowController___c__DisplayClass79_0_TypeDefinitionIndex = 73783;
 
 	class UIGeneralTipsPopWindowController___c__DisplayClass79_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS79_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _SetShareClick_b__0()
+		::System::Void _SetBtnTipsClick_b__0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS79_0__SETSHARECLICK_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIGENERALTIPSPOPWINDOWCONTROLLER___C__DISPLAYCLASS79_0__SETBTNTIPSCLICK_B__0_OFFSET))(this);
 		}
 	};
 }

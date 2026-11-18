@@ -3,15 +3,15 @@
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCCrowdLodManager_LODRenderRulePriority_TypeDefinitionIndex = 57940;
+	inline static constexpr unsigned int NPCCrowdLodManager_LODRenderRulePriority_TypeDefinitionIndex = 66190;
 
 	enum class NPCCrowdLodManager_LODRenderRulePriority : ::System::Int32
 	{
-		SpawnPathGraph = 250,
-		Low = 100,
-		Normal = 200,
 		Lowest = 0,
-		Highest = 400,
+		Normal = 200,
+		SpawnPathGraph = 250,
 		High = 300,
+		Low = 100,
+		Highest = 400,
 	};
 }

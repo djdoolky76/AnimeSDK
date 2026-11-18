@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_1699D6295DC3F818_1;
+class PLDJFGCHMKK;
 
-#define MOLEMOLE_UIACTIVITYCHECKINGAMEWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E0C7C0)
-#define MOLEMOLE_UIACTIVITYCHECKINGAMEWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x18E0C7D0)
+#define MOLEMOLE_UIACTIVITYCHECKINGAMEWIDGETCONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11DBD0)
+#define MOLEMOLE_UIACTIVITYCHECKINGAMEWIDGETCONTROLLER___C__DISPLAYCLASS10_0__REFRESHREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x1A11DBE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityCheckinGameWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 85010;
+	inline static constexpr unsigned int UIActivityCheckinGameWidgetController___c__DisplayClass10_0_TypeDefinitionIndex = 41743;
 
 	class UIActivityCheckinGameWidgetController___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::Class_3_1699D6295DC3F818_1* reward; // 0x10
+		::PLDJFGCHMKK* reward; // 0x10
 
 		::System::Void _ctor()
 		{

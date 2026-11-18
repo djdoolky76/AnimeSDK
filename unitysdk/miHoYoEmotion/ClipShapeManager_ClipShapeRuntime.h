@@ -5,12 +5,12 @@
 namespace miHoYoEmotion { class ClipShapeElement; }
 namespace miHoYoEmotion { class ClipShapeManager_CurveBindingGrp; }
 
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CLIPSHAPERUNTIME_UPDATERUNTIMEINDEX_OFFSET UNITYSDK_OFFSET(0x1D039920)
-#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CLIPSHAPERUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1D03A3E0)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CLIPSHAPERUNTIME_UPDATERUNTIMEINDEX_OFFSET UNITYSDK_OFFSET(0x1D58CF50)
+#define MIHOYOEMOTION_CLIPSHAPEMANAGER_CLIPSHAPERUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1D58DA10)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int ClipShapeManager_ClipShapeRuntime_TypeDefinitionIndex = 40047;
+	inline static constexpr unsigned int ClipShapeManager_ClipShapeRuntime_TypeDefinitionIndex = 38003;
 
 	class ClipShapeManager_ClipShapeRuntime : public ::miHoYoEmotion::ElementManager_BaseShapeRuntime
 	{

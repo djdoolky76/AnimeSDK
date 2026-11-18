@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OIKGMKDLGAM.h"
+#include "unitysdk/System/Object.h"
+
+class ODLBEJANMEG_BIGFMJOCOOE_FFAIJCHNEIH;
+
+#define ODLBEJANMEG_BIGFMJOCOOE_CBMPCLDCANP_CDOMHGPHJPM_OFFSET UNITYSDK_OFFSET(0x14F6C900)
+#define ODLBEJANMEG_BIGFMJOCOOE_CBMPCLDCANP__CTOR_OFFSET UNITYSDK_OFFSET(0x14F6C8F0)
+
+inline static constexpr unsigned int ODLBEJANMEG_BIGFMJOCOOE_CBMPCLDCANP_TypeDefinitionIndex = 44374;
+
+class ODLBEJANMEG_BIGFMJOCOOE_CBMPCLDCANP : public ::System::Object
+{
+public:
+	::OIKGMKDLGAM GMNFIGBICKH; // 0x10
+	::ODLBEJANMEG_BIGFMJOCOOE_FFAIJCHNEIH* FGBNBFHOKAA; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODLBEJANMEG_BIGFMJOCOOE_CBMPCLDCANP__CTOR_OFFSET))(this);
+	}
+
+	::System::Void CDOMHGPHJPM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODLBEJANMEG_BIGFMJOCOOE_CBMPCLDCANP_CDOMHGPHJPM_OFFSET))(this);
+	}
+};

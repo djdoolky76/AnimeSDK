@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/GameSubsystemBaseEx_1.h"
 #include "unitysdk/MoleMole/GameplayTag.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_DEVELOPSCENEINFODISPLAYSUBSYSTEM_REMOVESCENEINFO_OFFSET UNITYSDK_OFFSET(0x1B52C930)
-#define MOLEMOLE_FLOWCANVAS_NODES_DEVELOPSCENEINFODISPLAYSUBSYSTEM_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x1B52C8D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_DEVELOPSCENEINFODISPLAYSUBSYSTEM_SHOWSCENEINFO_OFFSET UNITYSDK_OFFSET(0x1B52C7F0)
-#define MOLEMOLE_FLOWCANVAS_NODES_DEVELOPSCENEINFODISPLAYSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52C980)
+#define MOLEMOLE_FLOWCANVAS_NODES_DEVELOPSCENEINFODISPLAYSUBSYSTEM_REMOVESCENEINFO_OFFSET UNITYSDK_OFFSET(0x142F7500)
+#define MOLEMOLE_FLOWCANVAS_NODES_DEVELOPSCENEINFODISPLAYSUBSYSTEM_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x142F74A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_DEVELOPSCENEINFODISPLAYSUBSYSTEM_SHOWSCENEINFO_OFFSET UNITYSDK_OFFSET(0x142F73C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_DEVELOPSCENEINFODISPLAYSUBSYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0x142F7550)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int DevelopSceneInfoDisplaySubsystem_TypeDefinitionIndex = 59301;
+	inline static constexpr unsigned int DevelopSceneInfoDisplaySubsystem_TypeDefinitionIndex = 81009;
 
-	class DevelopSceneInfoDisplaySubsystem : public ::MoleMole::GameSubsystemBaseEx_1<::MoleMole::FlowCanvas::Nodes::DevelopSceneInfoDisplaySubsystem*>
+	class DevelopSceneInfoDisplaySubsystem
 	{
 	public:
 		::System::Void _ctor()

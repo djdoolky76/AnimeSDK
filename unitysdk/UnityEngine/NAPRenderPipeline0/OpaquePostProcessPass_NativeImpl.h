@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderPassEvent.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/NAPRenderPipeline0/ScriptableRenderPass.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/PostCullRenderingData.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 #include "unitysdk/UnityEngine/Rendering/ScriptableRenderContext.h"
 
 namespace UnityEngine::NAPRenderPipeline0 { class OpaquePostProcessPassNativeState; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EA6DA80)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1EA6DA50)
-#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6D9D0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_NATIVEIMPL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1EDAA2C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_NATIVEIMPL_SETUP_OFFSET UNITYSDK_OFFSET(0x1EDAA290)
+#define UNITYENGINE_NAPRENDERPIPELINE0_OPAQUEPOSTPROCESSPASS_NATIVEIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDAA210)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int OpaquePostProcessPass_NativeImpl_TypeDefinitionIndex = 5754;
+	inline static constexpr unsigned int OpaquePostProcessPass_NativeImpl_TypeDefinitionIndex = 5759;
 
 	class OpaquePostProcessPass_NativeImpl : public ::UnityEngine::NAPRenderPipeline0::ScriptableRenderPass
 	{

@@ -13,24 +13,26 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE_FILTERQTECAMERABASEINFO_OFFSET UNITYSDK_OFFSET(0x12CA96D0)
-#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE_GETALLCONFIGABILITYIDS_OFFSET UNITYSDK_OFFSET(0x12CA8760)
-#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x12CA98B0)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE_FILTERQTECAMERABASEINFO_OFFSET UNITYSDK_OFFSET(0x19088AE0)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE_GETALLCONFIGABILITYIDS_OFFSET UNITYSDK_OFFSET(0x19087B70)
+#define MOLEMOLE_CHARACTERSCRIPTCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19088CC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CharacterScriptConfigBase_TypeDefinitionIndex = 70279;
+	inline static constexpr unsigned int CharacterScriptConfigBase_TypeDefinitionIndex = 41074;
 
 	class CharacterScriptConfigBase : public ::MoleMole::ICharacterScriptConfig
 	{
 	public:
 		::System::Single OverrideHUDUIHeight; // 0x60
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::String*>* DefaultAbilityList; // 0x68
 		::Il2CppArray<::System::Int32>* ConfigAbilityList; // 0x70
 		::Il2CppArray<::System::String*>* MPBattleAbilityList; // 0x78
 		::Il2CppArray<::System::Int32>* MPConfigAbilityList; // 0x80
 		::MoleMole::Config::ConfigPosRot* UltimatePosRot; // 0x88
 		::System::Boolean CheckStunResetOnlyUseRootPos; // 0x90
+		::System::Byte _padding1[0x3];
 		::System::Single ExtraStunResetDistance; // 0x94
 		::MoleMole::Config::ConfigPosRot* QTEOverridePosRot; // 0x98
 		::MoleMole::Config::ConfigPosRot* ExQTEOverridePosRot; // 0xA0
@@ -38,9 +40,11 @@ namespace MoleMole
 		::MoleMole::Config::ConfigPosRot* BangbooQTEOverridePosRot; // 0xB0
 		::System::Boolean HasBangbooQTE; // 0xB8
 		::System::Boolean IsExtraAvatarCount; // 0xB9
+		::System::Byte _padding2[0x2];
 		::System::Single OverrideBangbooQTEGlobalCD; // 0xBC
 		::System::Boolean UseOverrideBangbooQTEGlobalCD; // 0xC0
 		::System::Boolean QTENoSwitchAvatar; // 0xC1
+		::System::Byte _padding3[0x6];
 		::MoleMole::Config::ConfigPosRot* CommonAidOverridePosRotByBangbooQTE; // 0xC8
 		::MoleMole::QTECameraBaseInfo* DefautQTECameraInfo; // 0xD0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::MoleMole::QTECameraInfo*>*>* QteCameraInfosList; // 0xD8

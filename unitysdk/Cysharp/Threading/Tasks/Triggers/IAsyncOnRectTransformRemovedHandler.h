@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnRectTransformRemovedHandler_TypeDefinitionIndex = 32024;
+	inline static constexpr unsigned int IAsyncOnRectTransformRemovedHandler_TypeDefinitionIndex = 31473;
 
 	class IAsyncOnRectTransformRemovedHandler
 	{

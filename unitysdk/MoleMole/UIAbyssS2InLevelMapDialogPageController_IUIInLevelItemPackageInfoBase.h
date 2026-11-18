@@ -3,7 +3,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2InLevelMapDialogPageController_IUIInLevelItemPackageInfoBase_TypeDefinitionIndex = 59461;
+	inline static constexpr unsigned int UIAbyssS2InLevelMapDialogPageController_IUIInLevelItemPackageInfoBase_TypeDefinitionIndex = 45480;
 
 	class UIAbyssS2InLevelMapDialogPageController_IUIInLevelItemPackageInfoBase
 	{

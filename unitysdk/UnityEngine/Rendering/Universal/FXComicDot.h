@@ -11,13 +11,14 @@ namespace UnityEngine::NAPRenderPipeline0 { class TextureParameter; }
 namespace UnityEngine::Rendering::Universal { class ComicDotTypeParameter; }
 namespace UnityEngine::Rendering::Universal { class ComponentMaskParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1CEF4930)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1CEF49B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF49F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1D285330)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1D285430)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT_ISUBERPOSTOUTLINEACTIVE_OFFSET UNITYSDK_OFFSET(0x1D2853B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D285470)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FXComicDot_TypeDefinitionIndex = 27748;
+	inline static constexpr unsigned int FXComicDot_TypeDefinitionIndex = 26763;
 
 	class FXComicDot : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{
@@ -67,6 +68,16 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::NAPRenderPipeline0::FloatParameter* depthThreshold2; // 0x188
 		::UnityEngine::NAPRenderPipeline0::BoolParameter* pixelationOn; // 0x190
 		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* pixelSize; // 0x198
+		::UnityEngine::NAPRenderPipeline0::BoolParameter* outlineOn; // 0x1A0
+		::UnityEngine::NAPRenderPipeline0::BoolParameter* outlineBlendScanLine; // 0x1A8
+		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* outlineOpacity; // 0x1B0
+		::UnityEngine::NAPRenderPipeline0::FloatParameter* outlineDiffOffset; // 0x1B8
+		::UnityEngine::NAPRenderPipeline0::MinFloatParameter* outlineDepthThreshold; // 0x1C0
+		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* outlineNormalDiffThreshold; // 0x1C8
+		::UnityEngine::NAPRenderPipeline0::FloatParameter* outlineNormalThreshold; // 0x1D0
+		::UnityEngine::NAPRenderPipeline0::FloatParameter* outlineNormalThresholdScale; // 0x1D8
+		::UnityEngine::NAPRenderPipeline0::ColorParameter* outlineColor; // 0x1E0
+		::UnityEngine::NAPRenderPipeline0::BoolParameter* outlineInUberShader; // 0x1E8
 
 		::System::Void _ctor()
 		{
@@ -76,6 +87,11 @@ namespace UnityEngine::Rendering::Universal
 		::System::Boolean IsActive()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT_ISACTIVE_OFFSET))(this);
+		}
+
+		::System::Boolean IsUberPostOutlineActive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_UNIVERSAL_FXCOMICDOT_ISUBERPOSTOUTLINEACTIVE_OFFSET))(this);
 		}
 
 		::System::Boolean IsTileCompatible()

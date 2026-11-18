@@ -5,15 +5,17 @@
 
 namespace UnityEngine { class RectTransform; }
 
-inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginDynamicAllocateItem_LazyRecycleContext_TypeDefinitionIndex = 74960;
+inline static constexpr unsigned int MonoUITableScrollV2_TableScrollPluginDynamicAllocateItem_LazyRecycleContext_TypeDefinitionIndex = 40100;
 
 struct alignas(8) MonoUITableScrollV2_TableScrollPluginDynamicAllocateItem_LazyRecycleContext
 {
 	::System::Boolean recycleDummyFromStart; // 0x10
 	::System::Boolean recycleDummyFromEnd; // 0x11
+	::System::Byte _padding0[0x2];
 	::System::Single totalRecycleSizeFromStart; // 0x14
 	::System::Boolean replaceDummyToRealFromStart; // 0x18
 	::System::Boolean replaceDummyToRealFromEnd; // 0x19
+	::System::Byte _padding1[0x6];
 	::UnityEngine::RectTransform* startItemBeforeReplace; // 0x20
 	::NAPScrollView::DataStruct::ScrollFloat boundsStart_startItemBeforeReplace; // 0x28
 };

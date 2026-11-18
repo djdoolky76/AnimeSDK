@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorZoneLockTarget_SteerDirection_TypeDefinitionIndex = 72641;
+	inline static constexpr unsigned int AnimatorZoneLockTarget_SteerDirection_TypeDefinitionIndex = 88938;
 
 	enum class AnimatorZoneLockTarget_SteerDirection : ::System::Int32
 	{

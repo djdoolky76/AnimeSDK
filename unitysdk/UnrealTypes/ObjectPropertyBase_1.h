@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnrealTypes/ObjectPropertyBase.h"
-#include "unitysdk/UnrealTypes/PropertyFlags.h"
 
-namespace UnrealTypes { class IFieldVariant; }
-namespace UnrealTypes { class ObjectPropertyParams; }
+namespace UnrealTypes { class Class; }
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int ObjectPropertyBase_1_TypeDefinitionIndex = 28380;
+	inline static constexpr unsigned int ObjectPropertyBase_1_TypeDefinitionIndex = 27819;
 
 	template <typename T>
-	class ObjectPropertyBase_1 : public ::UnrealTypes::ObjectPropertyBase
+	class ObjectPropertyBase_1
 	{
 	public:
+		::UnrealTypes::Class* _PropertyClass_k__BackingField; // 0x0
 	};
 }

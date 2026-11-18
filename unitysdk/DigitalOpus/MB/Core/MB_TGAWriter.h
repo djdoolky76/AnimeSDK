@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System::IO { class Stream; }
 
-#define DIGITALOPUS_MB_CORE_MB_TGAWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x1E74BA60)
-#define DIGITALOPUS_MB_CORE_MB_TGAWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x1E74B970)
+#define DIGITALOPUS_MB_CORE_MB_TGAWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x1E9F0D20)
+#define DIGITALOPUS_MB_CORE_MB_TGAWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x1E9F0C30)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int MB_TGAWriter_TypeDefinitionIndex = 94601;
+	inline static constexpr unsigned int MB_TGAWriter_TypeDefinitionIndex = 96288;
 
 	class MB_TGAWriter : public ::System::Object
 	{

@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DBF2701137F18AA6.h"
+#include "unitysdk/MIKOMFIBMBN.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_UICTRLENUM_GET_CTRLID_OFFSET UNITYSDK_OFFSET(0x18569E90)
-#define MOLEMOLE_UICTRLENUM_SET_CTRLID_OFFSET UNITYSDK_OFFSET(0x18569DE0)
-#define MOLEMOLE_UICTRLENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x18569DD0)
+#define MOLEMOLE_UICTRLENUM_GET_CTRLID_OFFSET UNITYSDK_OFFSET(0x1800B3B0)
+#define MOLEMOLE_UICTRLENUM_SET_CTRLID_OFFSET UNITYSDK_OFFSET(0x1800B300)
+#define MOLEMOLE_UICTRLENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1800B2F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICtrlEnum_TypeDefinitionIndex = 80935;
+	inline static constexpr unsigned int UICtrlEnum_TypeDefinitionIndex = 93169;
 
 	class UICtrlEnum : public ::System::Object
 	{
 	public:
 		::System::String* _ctrlName; // 0x10
 
-		::System::Void _ctor(::Enum_3_DBF2701137F18AA6 a1)
+		::System::Void _ctor(::MIKOMFIBMBN HKGCJDDIMAH)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_DBF2701137F18AA6))((::PBYTE)hIl2Cpp + MOLEMOLE_UICTRLENUM__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MIKOMFIBMBN))((::PBYTE)hIl2Cpp + MOLEMOLE_UICTRLENUM__CTOR_OFFSET))(this, HKGCJDDIMAH);
 		}
 
-		::Enum_3_DBF2701137F18AA6 get_CtrlId()
+		::MIKOMFIBMBN get_CtrlId()
 		{
-			return ((::Enum_3_DBF2701137F18AA6(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICTRLENUM_GET_CTRLID_OFFSET))(this);
+			return ((::MIKOMFIBMBN(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICTRLENUM_GET_CTRLID_OFFSET))(this);
 		}
 
-		::System::Void set_CtrlId(::Enum_3_DBF2701137F18AA6 a1)
+		::System::Void set_CtrlId(::MIKOMFIBMBN EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_DBF2701137F18AA6))((::PBYTE)hIl2Cpp + MOLEMOLE_UICTRLENUM_SET_CTRLID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MIKOMFIBMBN))((::PBYTE)hIl2Cpp + MOLEMOLE_UICTRLENUM_SET_CTRLID_OFFSET))(this, EGEGIMGMJHN);
 		}
 	};
 }

@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/CPIPAIBLGHI_GOGABJGNHAK.h"
+
+#define CPIPAIBLGHI_CECDBBHIAJO_OFFSET UNITYSDK_OFFSET(0x13E1DD40)
+#define CPIPAIBLGHI_LBHGFEGMADC_OFFSET UNITYSDK_OFFSET(0x13E1DF10)
+#define CPIPAIBLGHI_LKGNPOODCLM_OFFSET UNITYSDK_OFFSET(0x13E1DB30)
+
+inline static constexpr unsigned int CPIPAIBLGHI_TypeDefinitionIndex = 56876;
+
+class CPIPAIBLGHI : public ::System::Object
+{
+public:
+	static ::System::Boolean LKGNPOODCLM(::CPIPAIBLGHI_GOGABJGNHAK JNDDJMAHNAI)
+	{
+		return ((::System::Boolean(*)(::CPIPAIBLGHI_GOGABJGNHAK))((::PBYTE)hIl2Cpp + CPIPAIBLGHI_LKGNPOODCLM_OFFSET))(JNDDJMAHNAI);
+	}
+
+	static ::System::Boolean CECDBBHIAJO(::CPIPAIBLGHI_GOGABJGNHAK JNDDJMAHNAI)
+	{
+		return ((::System::Boolean(*)(::CPIPAIBLGHI_GOGABJGNHAK))((::PBYTE)hIl2Cpp + CPIPAIBLGHI_CECDBBHIAJO_OFFSET))(JNDDJMAHNAI);
+	}
+
+	static ::System::Boolean LBHGFEGMADC(::CPIPAIBLGHI_GOGABJGNHAK JNDDJMAHNAI)
+	{
+		return ((::System::Boolean(*)(::CPIPAIBLGHI_GOGABJGNHAK))((::PBYTE)hIl2Cpp + CPIPAIBLGHI_LBHGFEGMADC_OFFSET))(JNDDJMAHNAI);
+	}
+};

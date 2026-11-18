@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_B9D6E7E76075C6E2_2;
+class KCHBFMFAGNF;
 namespace MoleMole::Config { class ConfigUISimpleParkourGame_SerializableWaveConfig; }
 namespace MoleMole::Config { class ConfigUISimpleParkourGame_SimpleParkourGlobalConfig; }
 
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME___C__DISPLAYCLASS7_0__APPLYLEVELCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x135099D0)
-#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x135099C0)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME___C__DISPLAYCLASS7_0__APPLYLEVELCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x1B92DE50)
+#define MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92DE40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUISimpleParkourGame___c__DisplayClass7_0_TypeDefinitionIndex = 73978;
+	inline static constexpr unsigned int ConfigUISimpleParkourGame___c__DisplayClass7_0_TypeDefinitionIndex = 64088;
 
 	class ConfigUISimpleParkourGame___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_B9D6E7E76075C6E2_2* _ApplyLevelConfig_b__0(::MoleMole::Config::ConfigUISimpleParkourGame_SerializableWaveConfig* w)
+		::KCHBFMFAGNF* _ApplyLevelConfig_b__0(::MoleMole::Config::ConfigUISimpleParkourGame_SerializableWaveConfig* w)
 		{
-			return ((::Class_1_B9D6E7E76075C6E2_2*(*)(::PVOID, ::MoleMole::Config::ConfigUISimpleParkourGame_SerializableWaveConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME___C__DISPLAYCLASS7_0__APPLYLEVELCONFIG_B__0_OFFSET))(this, w);
+			return ((::KCHBFMFAGNF*(*)(::PVOID, ::MoleMole::Config::ConfigUISimpleParkourGame_SerializableWaveConfig*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGUISIMPLEPARKOURGAME___C__DISPLAYCLASS7_0__APPLYLEVELCONFIG_B__0_OFFSET))(this, w);
 		}
 	};
 }

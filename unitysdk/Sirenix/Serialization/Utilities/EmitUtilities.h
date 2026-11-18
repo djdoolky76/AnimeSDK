@@ -4,23 +4,19 @@
 
 namespace Sirenix::Serialization::Utilities { class WeakValueGetter; }
 namespace Sirenix::Serialization::Utilities { class WeakValueSetter; }
-namespace Sirenix::Serialization::Utilities { template <typename T1, typename T2> class InstanceRefMethodCaller_2; }
-namespace Sirenix::Serialization::Utilities { template <typename T1, typename T2> class ValueGetter_2; }
-namespace Sirenix::Serialization::Utilities { template <typename T> class InstanceRefMethodCaller_1; }
 namespace System { class Type; }
 namespace System::Reflection { class FieldInfo; }
-namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES_CREATEWEAKINSTANCEFIELDGETTER_OFFSET UNITYSDK_OFFSET(0x1FA7FE20)
-#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES_CREATEWEAKINSTANCEFIELDSETTER_OFFSET UNITYSDK_OFFSET(0x1FA7FFB0)
-#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES_CREATEWEAKINSTANCEPROPERTYGETTER_OFFSET UNITYSDK_OFFSET(0x1FA80140)
-#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES_CREATEWEAKINSTANCEPROPERTYSETTER_OFFSET UNITYSDK_OFFSET(0x1FA803A0)
-#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES_GET_CANEMIT_OFFSET UNITYSDK_OFFSET(0x1FA7FE10)
+#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES_CREATEWEAKINSTANCEFIELDGETTER_OFFSET UNITYSDK_OFFSET(0x1FE98F10)
+#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES_CREATEWEAKINSTANCEFIELDSETTER_OFFSET UNITYSDK_OFFSET(0x1FE990A0)
+#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES_CREATEWEAKINSTANCEPROPERTYGETTER_OFFSET UNITYSDK_OFFSET(0x1FE99230)
+#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES_CREATEWEAKINSTANCEPROPERTYSETTER_OFFSET UNITYSDK_OFFSET(0x1FE99490)
+#define SIRENIX_SERIALIZATION_UTILITIES_EMITUTILITIES_GET_CANEMIT_OFFSET UNITYSDK_OFFSET(0x1FE98F00)
 
 namespace Sirenix::Serialization::Utilities
 {
-	inline static constexpr unsigned int EmitUtilities_TypeDefinitionIndex = 7644;
+	inline static constexpr unsigned int EmitUtilities_TypeDefinitionIndex = 7656;
 
 	class EmitUtilities : public ::System::Object
 	{

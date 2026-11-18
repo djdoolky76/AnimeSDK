@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GOGCPGENBKF.h"
+
+class BCHOANCLADD;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define PIBMDOKCLFC_BKJPMPBEHDO_OFFSET UNITYSDK_OFFSET(0x1D629C50)
+#define PIBMDOKCLFC_DOCGMAIMGNJ_OFFSET UNITYSDK_OFFSET(0x1D629550)
+#define PIBMDOKCLFC_EELGMKCENPH_OFFSET UNITYSDK_OFFSET(0x1D629B10)
+#define PIBMDOKCLFC_GLEJMKLOMBP_OFFSET UNITYSDK_OFFSET(0x1D6296C0)
+#define PIBMDOKCLFC_KIDLAFAEBAE_OFFSET UNITYSDK_OFFSET(0x1D629C70)
+#define PIBMDOKCLFC_LIDIODHDJAF_OFFSET UNITYSDK_OFFSET(0x1D629C60)
+#define PIBMDOKCLFC_MFGJKJMLMBF_OFFSET UNITYSDK_OFFSET(0x1D629BC0)
+#define PIBMDOKCLFC_PLPONJAKNEB_OFFSET UNITYSDK_OFFSET(0x1D629840)
+#define PIBMDOKCLFC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6299D0)
+
+inline static constexpr unsigned int PIBMDOKCLFC_TypeDefinitionIndex = 92218;
+
+class PIBMDOKCLFC : public ::GOGCPGENBKF
+{
+public:
+	::System::Collections::Generic::List_1<::GOGCPGENBKF*>* LFPDIFKCKHJ; // 0x40
+
+	::System::Void _ctor(::System::UInt32 MGMDLMBEDJF)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PIBMDOKCLFC__CTOR_OFFSET))(this, MGMDLMBEDJF);
+	}
+
+	::System::Boolean DOCGMAIMGNJ()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PIBMDOKCLFC_DOCGMAIMGNJ_OFFSET))(this);
+	}
+
+	::System::Int32 GLEJMKLOMBP(::BCHOANCLADD* FCHGPPLBGDD)
+	{
+		return ((::System::Int32(*)(::PVOID, ::BCHOANCLADD*))((::PBYTE)hIl2Cpp + PIBMDOKCLFC_GLEJMKLOMBP_OFFSET))(this, FCHGPPLBGDD);
+	}
+
+	::System::Int32 PLPONJAKNEB(::System::Single PBCAAADNEPK)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + PIBMDOKCLFC_PLPONJAKNEB_OFFSET))(this, PBCAAADNEPK);
+	}
+
+	::System::Boolean EELGMKCENPH(::GOGCPGENBKF* HHIJHDFHPOI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::GOGCPGENBKF*))((::PBYTE)hIl2Cpp + PIBMDOKCLFC_EELGMKCENPH_OFFSET))(this, HHIJHDFHPOI);
+	}
+
+	::System::Boolean MFGJKJMLMBF(::GOGCPGENBKF* HHIJHDFHPOI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::GOGCPGENBKF*))((::PBYTE)hIl2Cpp + PIBMDOKCLFC_MFGJKJMLMBF_OFFSET))(this, HHIJHDFHPOI);
+	}
+
+	::System::Int32 BKJPMPBEHDO(::System::Single MIALFKCCCPI)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + PIBMDOKCLFC_BKJPMPBEHDO_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Int32 LIDIODHDJAF(::BCHOANCLADD* MIALFKCCCPI)
+	{
+		return ((::System::Int32(*)(::PVOID, ::BCHOANCLADD*))((::PBYTE)hIl2Cpp + PIBMDOKCLFC_LIDIODHDJAF_OFFSET))(this, MIALFKCCCPI);
+	}
+
+	::System::Boolean KIDLAFAEBAE()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PIBMDOKCLFC_KIDLAFAEBAE_OFFSET))(this);
+	}
+};

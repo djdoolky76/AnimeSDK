@@ -4,26 +4,26 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCOPEDCOMMANDBUFFER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E3185E0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCOPEDCOMMANDBUFFER_GET_1_OFFSET UNITYSDK_OFFSET(0x1E317F10)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCOPEDCOMMANDBUFFER_GET_OFFSET UNITYSDK_OFFSET(0x1E31B7C0)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCOPEDCOMMANDBUFFER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E31B500)
-#define UNITYENGINE_NAPRENDERPIPELINE0_SCOPEDCOMMANDBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E31B780)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCOPEDCOMMANDBUFFER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E5434F0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCOPEDCOMMANDBUFFER_GET_1_OFFSET UNITYSDK_OFFSET(0x1E542E20)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCOPEDCOMMANDBUFFER_GET_OFFSET UNITYSDK_OFFSET(0x1E5466C0)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCOPEDCOMMANDBUFFER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E546400)
+#define UNITYENGINE_NAPRENDERPIPELINE0_SCOPEDCOMMANDBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E546680)
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int ScopedCommandBuffer_TypeDefinitionIndex = 6033;
+	inline static constexpr unsigned int ScopedCommandBuffer_TypeDefinitionIndex = 6041;
 
 	class ScopedCommandBuffer : public ::UnityEngine::Rendering::CommandBuffer
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::NAPRenderPipeline0::ScopedCommandBuffer*>** StaticGet_FreeList()
 		{
-			return (::Il2CppArray<::UnityEngine::NAPRenderPipeline0::ScopedCommandBuffer*>**)Il2CppClass::FromTypeDefinitionIndex(ScopedCommandBuffer_TypeDefinitionIndex)->GetStaticField(0x4F70);
+			return (::Il2CppArray<::UnityEngine::NAPRenderPipeline0::ScopedCommandBuffer*>**)Il2CppClass::FromTypeDefinitionIndex(ScopedCommandBuffer_TypeDefinitionIndex)->GetStaticField(0x4E90);
 		}
 		static ::System::Int32* StaticGet_FreeListCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScopedCommandBuffer_TypeDefinitionIndex)->GetStaticField(0x25E0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ScopedCommandBuffer_TypeDefinitionIndex)->GetStaticField(0x2560);
 		}
 
 		static ::System::Void _cctor()

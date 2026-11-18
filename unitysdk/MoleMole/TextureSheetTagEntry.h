@@ -6,11 +6,11 @@
 namespace Foundation::Unreal { class SerializableGameplayTagQuery; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TEXTURESHEETTAGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x129DAC30)
+#define MOLEMOLE_TEXTURESHEETTAGENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1249F2D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TextureSheetTagEntry_TypeDefinitionIndex = 61195;
+	inline static constexpr unsigned int TextureSheetTagEntry_TypeDefinitionIndex = 66607;
 
 	class TextureSheetTagEntry : public ::System::Object
 	{

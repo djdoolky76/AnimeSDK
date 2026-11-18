@@ -5,11 +5,12 @@
 
 namespace MdbEditor
 {
-	inline static constexpr unsigned int MdbSimWindInfo_TypeDefinitionIndex = 95366;
+	inline static constexpr unsigned int MdbSimWindInfo_TypeDefinitionIndex = 96775;
 
 	struct alignas(4) MdbSimWindInfo
 	{
 		::System::Boolean IsWorldSpace; // 0x10
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 SimWindOrigin; // 0x14
 		::UnityEngine::Vector3 SimWindUnitDir; // 0x20
 		::System::Single SimWindSpeed; // 0x2C

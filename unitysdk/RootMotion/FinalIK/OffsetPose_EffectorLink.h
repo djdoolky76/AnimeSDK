@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RootMotion/FinalIK/FullBodyBipedEffector.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
 
 namespace RootMotion::FinalIK { class IKSolverFullBodyBiped; }
 
-#define ROOTMOTION_FINALIK_OFFSETPOSE_EFFECTORLINK_APPLY_OFFSET UNITYSDK_OFFSET(0x1F8B0A50)
-#define ROOTMOTION_FINALIK_OFFSETPOSE_EFFECTORLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1F8B0EF0)
+#define ROOTMOTION_FINALIK_OFFSETPOSE_EFFECTORLINK_APPLY_OFFSET UNITYSDK_OFFSET(0x1FC4E0B0)
+#define ROOTMOTION_FINALIK_OFFSETPOSE_EFFECTORLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1FC4E550)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int OffsetPose_EffectorLink_TypeDefinitionIndex = 38784;
+	inline static constexpr unsigned int OffsetPose_EffectorLink_TypeDefinitionIndex = 36807;
 
 	class OffsetPose_EffectorLink : public ::System::Object
 	{

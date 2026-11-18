@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEFE7B0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFE7F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND___C__EXECUTE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1CEFE800)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D290160)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2901A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_OPAQUEPOSTPROCESSSECOND___C__EXECUTE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1D2901B0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int OpaquePostProcessSecond___c_TypeDefinitionIndex = 27274;
+	inline static constexpr unsigned int OpaquePostProcessSecond___c_TypeDefinitionIndex = 26316;
 
 	class OpaquePostProcessSecond___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::Vector4, ::System::Single>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::UnityEngine::Vector4, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessSecond___c_TypeDefinitionIndex)->GetStaticField(0x22D40);
+			return (::System::Func_2<::UnityEngine::Vector4, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessSecond___c_TypeDefinitionIndex)->GetStaticField(0x23D20);
 		}
-		static ::UnityEngine::Rendering::Universal::OpaquePostProcessSecond___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::Universal::OpaquePostProcessSecond___c**)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessSecond___c_TypeDefinitionIndex)->GetStaticField(0x22D48);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(OpaquePostProcessSecond___c_TypeDefinitionIndex)->GetStaticField(0x23D28);
 		}
 
 		static ::System::Void _cctor()

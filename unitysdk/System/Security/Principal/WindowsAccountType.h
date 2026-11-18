@@ -3,7 +3,7 @@
 
 namespace System::Security::Principal
 {
-	inline static constexpr unsigned int WindowsAccountType_TypeDefinitionIndex = 1026;
+	inline static constexpr unsigned int WindowsAccountType_TypeDefinitionIndex = 1025;
 
 	enum class WindowsAccountType : ::System::Int32
 	{

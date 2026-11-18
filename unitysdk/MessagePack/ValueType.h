@@ -3,17 +3,17 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int ValueType_TypeDefinitionIndex = 31430;
+	inline static constexpr unsigned int ValueType_TypeDefinitionIndex = 30458;
 
 	enum class ValueType : ::System::Byte
 	{
-		ULong = 0x5,
-		String = 0x7,
-		True = 0x1,
-		Decimal = 0x6,
-		Long = 0x4,
-		Null = 0x0,
-		False = 0x2,
-		Double = 0x3,
+		Long = 4,
+		ULong = 5,
+		True = 1,
+		String = 7,
+		False = 2,
+		Null = 0,
+		Decimal = 6,
+		Double = 3,
 	};
 }

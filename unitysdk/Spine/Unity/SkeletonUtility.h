@@ -2,15 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/Unity/SkeletonUtilityBone_Mode.h"
 #include "unitysdk/Spine/Unity/SkeletonUtilityBone_UpdatePhase.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/Spine/Unity/MeshGeneratorBuffers.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 
 namespace Spine { class Bone; }
 namespace Spine { class BoundingBoxAttachment; }
 namespace Spine { class Skeleton; }
 namespace Spine { class Slot; }
-namespace Spine::Unity { class ISkeletonAnimation; }
 namespace Spine::Unity { class ISkeletonComponent; }
+namespace Spine::Unity { class ISkeletonRenderer; }
 namespace Spine::Unity { class SkeletonGraphic; }
 namespace Spine::Unity { class SkeletonRenderer; }
 namespace Spine::Unity { class SkeletonUtilityBone; }
@@ -23,44 +25,49 @@ namespace UnityEngine { class PolygonCollider2D; }
 namespace UnityEngine { class Rigidbody2D; }
 namespace UnityEngine { class Transform; }
 
-#define SPINE_UNITY_SKELETONUTILITY_ADDBONERIGIDBODY2D_OFFSET UNITYSDK_OFFSET(0x1C197B00)
-#define SPINE_UNITY_SKELETONUTILITY_ADDBOUNDINGBOXASCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C197950)
-#define SPINE_UNITY_SKELETONUTILITY_ADDBOUNDINGBOXGAMEOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1C1976B0)
-#define SPINE_UNITY_SKELETONUTILITY_ADDBOUNDINGBOXGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C1972C0)
-#define SPINE_UNITY_SKELETONUTILITY_ADD_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C197CE0)
-#define SPINE_UNITY_SKELETONUTILITY_COLLECTBONES_OFFSET UNITYSDK_OFFSET(0x1C199BE0)
-#define SPINE_UNITY_SKELETONUTILITY_GETBONEROOT_OFFSET UNITYSDK_OFFSET(0x1C19B780)
-#define SPINE_UNITY_SKELETONUTILITY_GETBOUNDINGBOXBOUNDS_OFFSET UNITYSDK_OFFSET(0x1C1979F0)
-#define SPINE_UNITY_SKELETONUTILITY_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1C198570)
-#define SPINE_UNITY_SKELETONUTILITY_GET_POSITIONSCALE_OFFSET UNITYSDK_OFFSET(0x1C1987D0)
-#define SPINE_UNITY_SKELETONUTILITY_GET_SKELETONCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C1981C0)
-#define SPINE_UNITY_SKELETONUTILITY_GET_SKELETON_OFFSET UNITYSDK_OFFSET(0x1C198470)
-#define SPINE_UNITY_SKELETONUTILITY_HANDLERENDERERRESET_1_OFFSET UNITYSDK_OFFSET(0x1C19A620)
-#define SPINE_UNITY_SKELETONUTILITY_HANDLERENDERERRESET_OFFSET UNITYSDK_OFFSET(0x1C19A360)
-#define SPINE_UNITY_SKELETONUTILITY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C198800)
-#define SPINE_UNITY_SKELETONUTILITY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C198DB0)
-#define SPINE_UNITY_SKELETONUTILITY_REGISTERBONE_OFFSET UNITYSDK_OFFSET(0x1C19A650)
-#define SPINE_UNITY_SKELETONUTILITY_REGISTERCONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1C19A730)
-#define SPINE_UNITY_SKELETONUTILITY_REMOVE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1C197D60)
-#define SPINE_UNITY_SKELETONUTILITY_RESUBSCRIBEEVENTS_OFFSET UNITYSDK_OFFSET(0x1C1987E0)
-#define SPINE_UNITY_SKELETONUTILITY_SETCOLLIDERPOINTSLOCAL_OFFSET UNITYSDK_OFFSET(0x1C162C40)
-#define SPINE_UNITY_SKELETONUTILITY_SPAWNBONERECURSIVELY_OFFSET UNITYSDK_OFFSET(0x1C19C160)
-#define SPINE_UNITY_SKELETONUTILITY_SPAWNBONE_OFFSET UNITYSDK_OFFSET(0x1C19BC70)
-#define SPINE_UNITY_SKELETONUTILITY_SPAWNHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1C19BFF0)
-#define SPINE_UNITY_SKELETONUTILITY_SPAWNROOT_OFFSET UNITYSDK_OFFSET(0x1C19BB00)
-#define SPINE_UNITY_SKELETONUTILITY_START_OFFSET UNITYSDK_OFFSET(0x1C19A350)
-#define SPINE_UNITY_SKELETONUTILITY_UNREGISTERBONE_OFFSET UNITYSDK_OFFSET(0x1C19A6D0)
-#define SPINE_UNITY_SKELETONUTILITY_UNREGISTERCONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1C19A7B0)
-#define SPINE_UNITY_SKELETONUTILITY_UPDATEALLBONES_OFFSET UNITYSDK_OFFSET(0x1C19B520)
-#define SPINE_UNITY_SKELETONUTILITY_UPDATECOMPLETE_OFFSET UNITYSDK_OFFSET(0x1C19B770)
-#define SPINE_UNITY_SKELETONUTILITY_UPDATELOCAL_OFFSET UNITYSDK_OFFSET(0x1C19B480)
-#define SPINE_UNITY_SKELETONUTILITY_UPDATEWORLD_OFFSET UNITYSDK_OFFSET(0x1C19B6C0)
-#define SPINE_UNITY_SKELETONUTILITY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C197DE0)
-#define SPINE_UNITY_SKELETONUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C19C540)
+#define SPINE_UNITY_SKELETONUTILITY_ADDBONERIGIDBODY2D_OFFSET UNITYSDK_OFFSET(0x1F5C7290)
+#define SPINE_UNITY_SKELETONUTILITY_ADDBOUNDINGBOXASCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1F5C6F10)
+#define SPINE_UNITY_SKELETONUTILITY_ADDBOUNDINGBOXGAMEOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1F5C6C70)
+#define SPINE_UNITY_SKELETONUTILITY_ADDBOUNDINGBOXGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F5C6880)
+#define SPINE_UNITY_SKELETONUTILITY_ADD_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F5C7470)
+#define SPINE_UNITY_SKELETONUTILITY_COLLECTBONES_OFFSET UNITYSDK_OFFSET(0x1F5C8F10)
+#define SPINE_UNITY_SKELETONUTILITY_GETBONEROOT_OFFSET UNITYSDK_OFFSET(0x1F5C9C20)
+#define SPINE_UNITY_SKELETONUTILITY_GETBOUNDINGBOXBOUNDS_OFFSET UNITYSDK_OFFSET(0x1F5C7180)
+#define SPINE_UNITY_SKELETONUTILITY_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1F5C81F0)
+#define SPINE_UNITY_SKELETONUTILITY_GET_POSITIONOFFSET_OFFSET UNITYSDK_OFFSET(0x1F5C82F0)
+#define SPINE_UNITY_SKELETONUTILITY_GET_POSITIONSCALE_OFFSET UNITYSDK_OFFSET(0x1F5C82E0)
+#define SPINE_UNITY_SKELETONUTILITY_GET_SKELETONCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1F5C7E80)
+#define SPINE_UNITY_SKELETONUTILITY_GET_SKELETONRENDERER_OFFSET UNITYSDK_OFFSET(0x1F5C7E90)
+#define SPINE_UNITY_SKELETONUTILITY_GET_SKELETON_OFFSET UNITYSDK_OFFSET(0x1F5C8100)
+#define SPINE_UNITY_SKELETONUTILITY_HANDLERENDERERRESET_OFFSET UNITYSDK_OFFSET(0x1F5C9890)
+#define SPINE_UNITY_SKELETONUTILITY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F5C93E0)
+#define SPINE_UNITY_SKELETONUTILITY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F5C8BF0)
+#define SPINE_UNITY_SKELETONUTILITY_ONUTILITYBONECHANGED_OFFSET UNITYSDK_OFFSET(0x1F5C8300)
+#define SPINE_UNITY_SKELETONUTILITY_REGISTERBONE_OFFSET UNITYSDK_OFFSET(0x1F5C98C0)
+#define SPINE_UNITY_SKELETONUTILITY_REGISTERCONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1F5C99A0)
+#define SPINE_UNITY_SKELETONUTILITY_REMOVE_ONRESET_OFFSET UNITYSDK_OFFSET(0x1F5C74F0)
+#define SPINE_UNITY_SKELETONUTILITY_RESUBSCRIBEDEPENDENTEVENTS_OFFSET UNITYSDK_OFFSET(0x1F5C8720)
+#define SPINE_UNITY_SKELETONUTILITY_RESUBSCRIBEEVENTS_OFFSET UNITYSDK_OFFSET(0x1F5C8310)
+#define SPINE_UNITY_SKELETONUTILITY_RESUBSCRIBEINDEPENDENTEVENTS_OFFSET UNITYSDK_OFFSET(0x1F5C8330)
+#define SPINE_UNITY_SKELETONUTILITY_SETCOLLIDERPOINTSLOCAL_OFFSET UNITYSDK_OFFSET(0x1F5C6FB0)
+#define SPINE_UNITY_SKELETONUTILITY_SPAWNBONERECURSIVELY_OFFSET UNITYSDK_OFFSET(0x1F5CA600)
+#define SPINE_UNITY_SKELETONUTILITY_SPAWNBONE_OFFSET UNITYSDK_OFFSET(0x1F5CA100)
+#define SPINE_UNITY_SKELETONUTILITY_SPAWNHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1F5CA4A0)
+#define SPINE_UNITY_SKELETONUTILITY_SPAWNROOT_OFFSET UNITYSDK_OFFSET(0x1F5C9FA0)
+#define SPINE_UNITY_SKELETONUTILITY_START_OFFSET UNITYSDK_OFFSET(0x1F5C93D0)
+#define SPINE_UNITY_SKELETONUTILITY_UNREGISTERBONE_OFFSET UNITYSDK_OFFSET(0x1F5C9940)
+#define SPINE_UNITY_SKELETONUTILITY_UNREGISTERCONSTRAINT_OFFSET UNITYSDK_OFFSET(0x1F5C9A20)
+#define SPINE_UNITY_SKELETONUTILITY_UPDATEALLBONES_OFFSET UNITYSDK_OFFSET(0x1F5C9A80)
+#define SPINE_UNITY_SKELETONUTILITY_UPDATECOMPLETE_OFFSET UNITYSDK_OFFSET(0x1F5C7E70)
+#define SPINE_UNITY_SKELETONUTILITY_UPDATELOCAL_OFFSET UNITYSDK_OFFSET(0x1F5C7DB0)
+#define SPINE_UNITY_SKELETONUTILITY_UPDATETOMESHSCALEANDOFFSET_OFFSET UNITYSDK_OFFSET(0x1F5C7AC0)
+#define SPINE_UNITY_SKELETONUTILITY_UPDATEWORLD_OFFSET UNITYSDK_OFFSET(0x1F5C7DC0)
+#define SPINE_UNITY_SKELETONUTILITY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F5C7570)
+#define SPINE_UNITY_SKELETONUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5CA710)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonUtility_TypeDefinitionIndex = 40150;
+	inline static constexpr unsigned int SkeletonUtility_TypeDefinitionIndex = 38164;
 
 	class SkeletonUtility : public ::UnityEngine::MonoBehaviour
 	{
@@ -68,16 +75,18 @@ namespace Spine::Unity
 		::Spine::Unity::SkeletonUtility_SkeletonUtilityDelegate* OnReset; // 0x18
 		::UnityEngine::Transform* boneRoot; // 0x20
 		::System::Boolean flipBy180DegreeRotation; // 0x28
+		::System::Byte _padding0[0x7];
 		::Spine::Unity::SkeletonRenderer* skeletonRenderer; // 0x30
 		::Spine::Unity::SkeletonGraphic* skeletonGraphic; // 0x38
-		::Spine::Unity::ISkeletonAnimation* skeletonAnimation; // 0x40
-		::Spine::Unity::ISkeletonComponent* skeletonComponent; // 0x48
-		::System::Collections::Generic::List_1<::Spine::Unity::SkeletonUtilityBone*>* boneComponents; // 0x50
-		::System::Collections::Generic::List_1<::Spine::Unity::SkeletonUtilityConstraint*>* constraintComponents; // 0x58
-		::System::Single positionScale; // 0x60
-		::System::Boolean hasOverrideBones; // 0x64
-		::System::Boolean hasConstraints; // 0x65
-		::System::Boolean needToReprocessBones; // 0x66
+		::Spine::Unity::ISkeletonRenderer* skeletonComponent; // 0x40
+		::System::Collections::Generic::List_1<::Spine::Unity::SkeletonUtilityBone*>* boneComponents; // 0x48
+		::System::Collections::Generic::List_1<::Spine::Unity::SkeletonUtilityConstraint*>* constraintComponents; // 0x50
+		::System::Single positionScale; // 0x58
+		::System::Single lastPositionScale; // 0x5C
+		::UnityEngine::Vector2 positionOffset; // 0x60
+		::System::Boolean hasOverrideBones; // 0x68
+		::System::Boolean hasConstraintTargetBones; // 0x69
+		::System::Boolean needToReprocessBones; // 0x6A
 
 		::System::Void _ctor()
 		{
@@ -89,19 +98,19 @@ namespace Spine::Unity
 			return ((::UnityEngine::PolygonCollider2D*(*)(::Spine::Skeleton*, ::System::String*, ::System::String*, ::System::String*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_ADDBOUNDINGBOXGAMEOBJECT_OFFSET))(skeleton, skinName, slotName, attachmentName, parent, isTrigger);
 		}
 
-		static ::UnityEngine::PolygonCollider2D* AddBoundingBoxGameObject_1(::System::String* name, ::Spine::BoundingBoxAttachment* box, ::Spine::Slot* slot, ::UnityEngine::Transform* parent, ::System::Boolean isTrigger)
+		static ::UnityEngine::PolygonCollider2D* AddBoundingBoxGameObject_1(::System::String* name, ::Spine::BoundingBoxAttachment* box, ::Spine::Skeleton* skeleton, ::Spine::Slot* slot, ::UnityEngine::Transform* parent, ::System::Boolean isTrigger)
 		{
-			return ((::UnityEngine::PolygonCollider2D*(*)(::System::String*, ::Spine::BoundingBoxAttachment*, ::Spine::Slot*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_ADDBOUNDINGBOXGAMEOBJECT_1_OFFSET))(name, box, slot, parent, isTrigger);
+			return ((::UnityEngine::PolygonCollider2D*(*)(::System::String*, ::Spine::BoundingBoxAttachment*, ::Spine::Skeleton*, ::Spine::Slot*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_ADDBOUNDINGBOXGAMEOBJECT_1_OFFSET))(name, box, skeleton, slot, parent, isTrigger);
 		}
 
-		static ::UnityEngine::PolygonCollider2D* AddBoundingBoxAsComponent(::Spine::BoundingBoxAttachment* box, ::Spine::Slot* slot, ::UnityEngine::GameObject* gameObject, ::System::Boolean isTrigger)
+		static ::UnityEngine::PolygonCollider2D* AddBoundingBoxAsComponent(::Spine::BoundingBoxAttachment* box, ::Spine::Skeleton* skeleton, ::Spine::Slot* slot, ::UnityEngine::GameObject* gameObject, ::System::Boolean isTrigger)
 		{
-			return ((::UnityEngine::PolygonCollider2D*(*)(::Spine::BoundingBoxAttachment*, ::Spine::Slot*, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_ADDBOUNDINGBOXASCOMPONENT_OFFSET))(box, slot, gameObject, isTrigger);
+			return ((::UnityEngine::PolygonCollider2D*(*)(::Spine::BoundingBoxAttachment*, ::Spine::Skeleton*, ::Spine::Slot*, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_ADDBOUNDINGBOXASCOMPONENT_OFFSET))(box, skeleton, slot, gameObject, isTrigger);
 		}
 
-		static ::System::Void SetColliderPointsLocal(::UnityEngine::PolygonCollider2D* collider, ::Spine::Slot* slot, ::Spine::BoundingBoxAttachment* box, ::System::Single scale)
+		static ::System::Void SetColliderPointsLocal(::UnityEngine::PolygonCollider2D* collider, ::Spine::Skeleton* skeleton, ::Spine::Slot* slot, ::Spine::BoundingBoxAttachment* box, ::System::Single scale)
 		{
-			return ((::System::Void(*)(::UnityEngine::PolygonCollider2D*, ::Spine::Slot*, ::Spine::BoundingBoxAttachment*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_SETCOLLIDERPOINTSLOCAL_OFFSET))(collider, slot, box, scale);
+			return ((::System::Void(*)(::UnityEngine::PolygonCollider2D*, ::Spine::Skeleton*, ::Spine::Slot*, ::Spine::BoundingBoxAttachment*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_SETCOLLIDERPOINTSLOCAL_OFFSET))(collider, skeleton, slot, box, scale);
 		}
 
 		static ::UnityEngine::Bounds GetBoundingBoxBounds(::Spine::BoundingBoxAttachment* boundingBox, ::System::Single depth)
@@ -129,9 +138,19 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_UPDATE_OFFSET))(this);
 		}
 
+		::System::Void UpdateToMeshScaleAndOffset(::Spine::Unity::MeshGeneratorBuffers ignoredParameter)
+		{
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::MeshGeneratorBuffers))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_UPDATETOMESHSCALEANDOFFSET_OFFSET))(this, ignoredParameter);
+		}
+
 		::Spine::Unity::ISkeletonComponent* get_SkeletonComponent()
 		{
 			return ((::Spine::Unity::ISkeletonComponent*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_GET_SKELETONCOMPONENT_OFFSET))(this);
+		}
+
+		::Spine::Unity::ISkeletonRenderer* get_SkeletonRenderer()
+		{
+			return ((::Spine::Unity::ISkeletonRenderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_GET_SKELETONRENDERER_OFFSET))(this);
 		}
 
 		::Spine::Skeleton* get_Skeleton()
@@ -149,9 +168,29 @@ namespace Spine::Unity
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_GET_POSITIONSCALE_OFFSET))(this);
 		}
 
+		::UnityEngine::Vector2 get_PositionOffset()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_GET_POSITIONOFFSET_OFFSET))(this);
+		}
+
+		::System::Void OnUtilityBoneChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_ONUTILITYBONECHANGED_OFFSET))(this);
+		}
+
 		::System::Void ResubscribeEvents()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_RESUBSCRIBEEVENTS_OFFSET))(this);
+		}
+
+		::System::Void ResubscribeIndependentEvents()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_RESUBSCRIBEINDEPENDENTEVENTS_OFFSET))(this);
+		}
+
+		::System::Void ResubscribeDependentEvents()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_RESUBSCRIBEDEPENDENTEVENTS_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -169,14 +208,9 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void HandleRendererReset(::Spine::Unity::SkeletonRenderer* r)
+		::System::Void HandleRendererReset(::Spine::Unity::ISkeletonRenderer* r)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_HANDLERENDERERRESET_OFFSET))(this, r);
-		}
-
-		::System::Void HandleRendererReset_1(::Spine::Unity::SkeletonGraphic* g)
-		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonGraphic*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_HANDLERENDERERRESET_1_OFFSET))(this, g);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_HANDLERENDERERRESET_OFFSET))(this, r);
 		}
 
 		::System::Void RegisterBone(::Spine::Unity::SkeletonUtilityBone* bone)
@@ -204,19 +238,19 @@ namespace Spine::Unity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_COLLECTBONES_OFFSET))(this);
 		}
 
-		::System::Void UpdateLocal(::Spine::Unity::ISkeletonAnimation* anim)
+		::System::Void UpdateLocal(::Spine::Unity::ISkeletonRenderer* skeletonRenderer)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonAnimation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_UPDATELOCAL_OFFSET))(this, anim);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_UPDATELOCAL_OFFSET))(this, skeletonRenderer);
 		}
 
-		::System::Void UpdateWorld(::Spine::Unity::ISkeletonAnimation* anim)
+		::System::Void UpdateWorld(::Spine::Unity::ISkeletonRenderer* skeletonRenderer)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonAnimation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_UPDATEWORLD_OFFSET))(this, anim);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_UPDATEWORLD_OFFSET))(this, skeletonRenderer);
 		}
 
-		::System::Void UpdateComplete(::Spine::Unity::ISkeletonAnimation* anim)
+		::System::Void UpdateComplete(::Spine::Unity::ISkeletonRenderer* skeletonRenderer)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonAnimation*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_UPDATECOMPLETE_OFFSET))(this, anim);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::ISkeletonRenderer*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_UPDATECOMPLETE_OFFSET))(this, skeletonRenderer);
 		}
 
 		::System::Void UpdateAllBones(::Spine::Unity::SkeletonUtilityBone_UpdatePhase phase)

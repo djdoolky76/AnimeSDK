@@ -3,7 +3,7 @@
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputSettings_EditorInputBehaviorInPlayMode_TypeDefinitionIndex = 32314;
+	inline static constexpr unsigned int InputSettings_EditorInputBehaviorInPlayMode_TypeDefinitionIndex = 31763;
 
 	enum class InputSettings_EditorInputBehaviorInPlayMode : ::System::Int32
 	{

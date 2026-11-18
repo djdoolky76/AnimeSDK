@@ -4,17 +4,18 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKREPORTMODEL_DEVICEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E2440)
+#define MIHOYO_SDK_MIHOYOSDKREPORTMODEL_DEVICEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD4D090)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKReportModel_DeviceInfo_TypeDefinitionIndex = 37403;
+	inline static constexpr unsigned int MiHoYoSDKReportModel_DeviceInfo_TypeDefinitionIndex = 35381;
 
 	class MiHoYoSDKReportModel_DeviceInfo : public ::System::Object
 	{
 	public:
 		::System::String* ip; // 0x10
 		::System::Int32 platform; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* systemInfo; // 0x20
 		::System::String* deviceId; // 0x28
 		::System::String* deviceName; // 0x30
@@ -38,6 +39,7 @@ namespace MiHoYo::SDK
 		::System::String* gpuName; // 0xB0
 		::System::Double gpuMemSize; // 0xB8
 		::System::Int32 processorCount; // 0xC0
+		::System::Byte _padding1[0x4];
 		::System::Double processorFrequency; // 0xC8
 		::System::String* processorType; // 0xD0
 

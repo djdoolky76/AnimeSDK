@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UILINEUPLISTROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x182D3470)
-#define MOLEMOLE_UILINEUPLISTROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x182D34B0)
-#define MOLEMOLE_UILINEUPLISTROWWIDGETCONTROLLER___C__ONCLICKDELITEM_B__9_1_OFFSET UNITYSDK_OFFSET(0x182D34C0)
+#define MOLEMOLE_UILINEUPLISTROWWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x173F7B00)
+#define MOLEMOLE_UILINEUPLISTROWWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x173F7B40)
+#define MOLEMOLE_UILINEUPLISTROWWIDGETCONTROLLER___C__ONCLICKDELITEM_B__9_1_OFFSET UNITYSDK_OFFSET(0x173F7B50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILineupListRowWidgetController___c_TypeDefinitionIndex = 72940;
+	inline static constexpr unsigned int UILineupListRowWidgetController___c_TypeDefinitionIndex = 38870;
 
 	class UILineupListRowWidgetController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__9_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupListRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FF40);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UILineupListRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x450E0);
 		}
-		static ::MoleMole::UILineupListRowWidgetController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UILineupListRowWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UILineupListRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3FF48);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UILineupListRowWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x450E8);
 		}
 
 		static ::System::Void _cctor()

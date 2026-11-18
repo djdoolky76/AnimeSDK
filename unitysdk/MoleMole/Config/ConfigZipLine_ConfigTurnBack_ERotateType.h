@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_ConfigTurnBack_ERotateType_TypeDefinitionIndex = 52993;
+	inline static constexpr unsigned int ConfigZipLine_ConfigTurnBack_ERotateType_TypeDefinitionIndex = 54263;
 
 	enum class ConfigZipLine_ConfigTurnBack_ERotateType : ::System::Int32
 	{

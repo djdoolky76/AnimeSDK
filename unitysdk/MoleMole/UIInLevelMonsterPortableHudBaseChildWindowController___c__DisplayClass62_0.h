@@ -5,18 +5,18 @@
 namespace MoleMole { class UIInLevelMonsterPortableHudBaseChildWindowController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIINLEVELMONSTERPORTABLEHUDBASECHILDWINDOWCONTROLLER___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189A0130)
-#define MOLEMOLE_UIINLEVELMONSTERPORTABLEHUDBASECHILDWINDOWCONTROLLER___C__DISPLAYCLASS62_0__PLAYFADEOUTFORPOOL_B__0_OFFSET UNITYSDK_OFFSET(0x189A0140)
+#define MOLEMOLE_UIINLEVELMONSTERPORTABLEHUDBASECHILDWINDOWCONTROLLER___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1901ED20)
+#define MOLEMOLE_UIINLEVELMONSTERPORTABLEHUDBASECHILDWINDOWCONTROLLER___C__DISPLAYCLASS62_0__PLAYFADEOUTFORPOOL_B__0_OFFSET UNITYSDK_OFFSET(0x1901ED30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelMonsterPortableHudBaseChildWindowController___c__DisplayClass62_0_TypeDefinitionIndex = 57370;
+	inline static constexpr unsigned int UIInLevelMonsterPortableHudBaseChildWindowController___c__DisplayClass62_0_TypeDefinitionIndex = 44709;
 
 	class UIInLevelMonsterPortableHudBaseChildWindowController___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onComplete; // 0x10
-		::MoleMole::UIInLevelMonsterPortableHudBaseChildWindowController* __4__this; // 0x18
+		::MoleMole::UIInLevelMonsterPortableHudBaseChildWindowController* __4__this; // 0x10
+		::System::Action* onComplete; // 0x18
 
 		::System::Void _ctor()
 		{

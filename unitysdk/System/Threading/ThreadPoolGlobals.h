@@ -4,11 +4,11 @@
 
 namespace System::Threading { class ThreadPoolWorkQueue; }
 
-#define SYSTEM_THREADING_THREADPOOLGLOBALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D69A380)
+#define SYSTEM_THREADING_THREADPOOLGLOBALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB67730)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadPoolGlobals_TypeDefinitionIndex = 843;
+	inline static constexpr unsigned int ThreadPoolGlobals_TypeDefinitionIndex = 842;
 
 	class ThreadPoolGlobals : public ::System::Object
 	{
@@ -17,25 +17,25 @@ namespace System::Threading
 		{
 			return (::System::Threading::ThreadPoolWorkQueue**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x5D0);
 		}
-		static ::System::Int32* StaticGet_processorCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x130);
-		}
 		static ::System::UInt32* StaticGet_tpQuantum()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x134);
-		}
-		static ::System::Boolean* StaticGet_vmTpInitialized()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x138);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x130);
 		}
 		static ::System::Boolean* StaticGet_tpHosted()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x139);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x134);
+		}
+		static ::System::Boolean* StaticGet_vmTpInitialized()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x135);
 		}
 		static ::System::Boolean* StaticGet_enableWorkerTracking()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x13A);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x136);
+		}
+		static ::System::Int32* StaticGet_processorCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x138);
 		}
 
 		static ::System::Void _cctor()

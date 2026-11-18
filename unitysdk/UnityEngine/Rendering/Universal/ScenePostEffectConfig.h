@@ -8,18 +8,20 @@
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::NAPRenderPipeline0 { class TextureCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTEFFECTCONFIG_GETTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x1DDFF420)
-#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFF490)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTEFFECTCONFIG_GETTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x1E1610B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SCENEPOSTEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1E161120)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ScenePostEffectConfig_TypeDefinitionIndex = 27655;
+	inline static constexpr unsigned int ScenePostEffectConfig_TypeDefinitionIndex = 26820;
 
 	class ScenePostEffectConfig : public ::System::Object
 	{
 	public:
-		::System::Boolean overrideVolumeConfig; // 0x10
-		::System::Boolean overrideChannelMixer; // 0x11
+		::System::Boolean overrideOverrideVolumeConfig; // 0x10
+		::System::Boolean overrideVolumeConfig; // 0x11
+		::System::Boolean overrideChannelMixer; // 0x12
+		::System::Byte _padding0[0x1];
 		::System::Single ChannelMixer_redOutRedIn; // 0x14
 		::System::Single ChannelMixer_redOutGreenIn; // 0x18
 		::System::Single ChannelMixer_redOutBlueIn; // 0x1C
@@ -30,6 +32,7 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single ChannelMixer_blueOutGreenIn; // 0x30
 		::System::Single ChannelMixer_blueOutBlueIn; // 0x34
 		::System::Boolean overrideColorAdjustments; // 0x38
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Color ColorAdjustments_colorFilter; // 0x3C
 		::System::Single ColorAdjustments_contrast; // 0x4C
 		::System::Single ColorAdjustments_hueShift; // 0x50
@@ -37,13 +40,16 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single GBufferOnlySaturation; // 0x58
 		::System::Boolean overrideWhiteBalance; // 0x5C
 		::System::Boolean WhiteBalance_active; // 0x5D
+		::System::Byte _padding2[0x2];
 		::System::Single WhiteBalance_temperature; // 0x60
 		::System::Single WhiteBalance_tint; // 0x64
 		::System::Boolean overrideLiftGammaGain; // 0x68
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Vector4 LiftGammaGain_lift; // 0x6C
 		::UnityEngine::Vector4 LiftGammaGain_gamma; // 0x7C
 		::UnityEngine::Vector4 LiftGammaGain_gain; // 0x8C
 		::System::Boolean overrideShadowsMidtonesHighlights; // 0x9C
+		::System::Byte _padding4[0x3];
 		::UnityEngine::Vector4 ShadowsMidtonesHighlights_shadows; // 0xA0
 		::UnityEngine::Vector4 ShadowsMidtonesHighlights_midtones; // 0xB0
 		::UnityEngine::Vector4 ShadowsMidtonesHighlights_highlights; // 0xC0
@@ -52,10 +58,12 @@ namespace UnityEngine::Rendering::Universal
 		::System::Single ShadowsMidtonesHighlights_highlightsStart; // 0xD8
 		::System::Single ShadowsMidtonesHighlights_highlightsEnd; // 0xDC
 		::System::Boolean overrideSplitToning; // 0xE0
+		::System::Byte _padding5[0x3];
 		::UnityEngine::Color SplitTonings_shadows; // 0xE4
 		::UnityEngine::Color splitToning_highlights; // 0xF4
 		::System::Single splitToning_balance; // 0x104
 		::System::Boolean overrideColorCurve; // 0x108
+		::System::Byte _padding6[0x7];
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* ColorCurve_master; // 0x110
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* ColorCurve_red; // 0x118
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* ColorCurve_green; // 0x120
@@ -66,6 +74,7 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::NAPRenderPipeline0::TextureCurve* ColorCurve_lumVsSat; // 0x148
 		::System::Boolean overrideExposureConfig; // 0x150
 		::System::Boolean EnableAutoExposure; // 0x151
+		::System::Byte _padding7[0x2];
 		::System::Single CharacterAutoExposureIntensity; // 0x154
 		::System::Single AutoExposureCompensation; // 0x158
 		::System::Single FallbackConstantExposureCompensation; // 0x15C

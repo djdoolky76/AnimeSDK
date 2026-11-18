@@ -4,20 +4,21 @@
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 
 namespace MoleMole { class UIInterKnotPageConfig_MainCityQuestTypeRowConfig; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIINTERKNOTPAGECONFIG_GETCOLORCONFIGBYTYPE_OFFSET UNITYSDK_OFFSET(0x182C6F10)
-#define MOLEMOLE_UIINTERKNOTPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x182C7090)
+#define MOLEMOLE_UIINTERKNOTPAGECONFIG_GETCOLORCONFIGBYTYPE_OFFSET UNITYSDK_OFFSET(0x173EB490)
+#define MOLEMOLE_UIINTERKNOTPAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173EB610)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotPageConfig_TypeDefinitionIndex = 88679;
+	inline static constexpr unsigned int UIInterKnotPageConfig_TypeDefinitionIndex = 39731;
 
 	class UIInterKnotPageConfig : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::MoleMole::UIInterKnotPageConfig_MainCityQuestType, ::MoleMole::UIInterKnotPageConfig_MainCityQuestTypeRowConfig*>* rowColorDic; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* rowColorDic; // 0x58
 		::System::Collections::Generic::List_1<::System::Single>* EmptyImageHeight; // 0x60
 		::System::Collections::Generic::List_1<::System::Int32>* EmptyImageQueue; // 0x68
 

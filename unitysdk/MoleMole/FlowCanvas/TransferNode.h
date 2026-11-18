@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableActionNode_1.h"
 
-#define MOLEMOLE_FLOWCANVAS_TRANSFERNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x136A21A0)
-#define MOLEMOLE_FLOWCANVAS_TRANSFERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x136A21F0)
+#define MOLEMOLE_FLOWCANVAS_TRANSFERNODE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1357BE00)
+#define MOLEMOLE_FLOWCANVAS_TRANSFERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1357BE50)
 
 namespace MoleMole::FlowCanvas
 {
-	inline static constexpr unsigned int TransferNode_TypeDefinitionIndex = 91577;
+	inline static constexpr unsigned int TransferNode_TypeDefinitionIndex = 69601;
 
-	class TransferNode : public ::FlowCanvas::Nodes::CallableActionNode_1<::System::Boolean>
+	class TransferNode
 	{
 	public:
 		::System::Void _ctor()

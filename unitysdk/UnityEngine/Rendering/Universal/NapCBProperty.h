@@ -3,26 +3,26 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapCBProperty_TypeDefinitionIndex = 27728;
+	inline static constexpr unsigned int NapCBProperty_TypeDefinitionIndex = 26416;
 
 	enum class NapCBProperty : ::System::Int32
 	{
-		AmbientLightStart = 9,
-		PerObjectShadowResolveST = 38,
-		ToonLightLast = 32,
-		CharacterMainLightData1 = 2,
-		PerObjectShadowData = 37,
-		HeadMatrixWS2OS = 5,
 		PerObjectShadowUvMatrix = 33,
-		AmbientGradientShape = 3,
-		Count = 41,
-		CharacterMainLightData = 1,
-		PerObjectShadowUvMatrixLast = 36,
-		ToonLightStart = 25,
 		HeadSphereNormalCenter = 4,
-		MiddlePointPosition = 0,
-		EntityInfo = 40,
+		PerObjectShadowResolveST = 38,
 		AmbientLightLast = 24,
+		CharacterMainLightData1 = 2,
+		PerObjectShadowUvMatrixLast = 36,
+		CharacterMainLightData = 1,
+		MiddlePointPosition = 0,
 		PerObjectShadowOffsetWS = 39,
+		Count = 41,
+		ToonLightLast = 32,
+		HeadMatrixWS2OS = 5,
+		AmbientGradientShape = 3,
+		AmbientLightStart = 9,
+		EntityInfo = 40,
+		PerObjectShadowData = 37,
+		ToonLightStart = 25,
 	};
 }

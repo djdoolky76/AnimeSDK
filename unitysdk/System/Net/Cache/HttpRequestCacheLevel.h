@@ -3,7 +3,7 @@
 
 namespace System::Net::Cache
 {
-	inline static constexpr unsigned int HttpRequestCacheLevel_TypeDefinitionIndex = 3868;
+	inline static constexpr unsigned int HttpRequestCacheLevel_TypeDefinitionIndex = 3867;
 
 	enum class HttpRequestCacheLevel : ::System::Int32
 	{

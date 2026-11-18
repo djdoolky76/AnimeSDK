@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int DigitShapes_TypeDefinitionIndex = 721;
+	inline static constexpr unsigned int DigitShapes_TypeDefinitionIndex = 720;
 
 	enum class DigitShapes : ::System::Int32
 	{

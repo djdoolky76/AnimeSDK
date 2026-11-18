@@ -5,11 +5,12 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int TermFeatureTestProvider_Entry_TypeDefinitionIndex = 68250;
+inline static constexpr unsigned int TermFeatureTestProvider_Entry_TypeDefinitionIndex = 63990;
 
 struct alignas(8) TermFeatureTestProvider_Entry
 {
 	::UnityEngine::UI::Extension::TermID id; // 0x10
+	::System::Byte _padding0[0x4];
 	::System::String* displayText; // 0x18
 	::System::String* color; // 0x20
 	::System::Boolean hasUnderline; // 0x28

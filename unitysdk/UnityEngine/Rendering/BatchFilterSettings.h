@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/ShadowCastingMode.h"
 
-#define UNITYENGINE_RENDERING_BATCHFILTERSETTINGS_SET_SHADOWCASTINGMODE_OFFSET UNITYSDK_OFFSET(0xA12A60)
+#define UNITYENGINE_RENDERING_BATCHFILTERSETTINGS_SET_SHADOWCASTINGMODE_OFFSET UNITYSDK_OFFSET(0x905C20)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchFilterSettings_TypeDefinitionIndex = 6219;
+	inline static constexpr unsigned int BatchFilterSettings_TypeDefinitionIndex = 6234;
 
 	struct alignas(4) BatchFilterSettings
 	{

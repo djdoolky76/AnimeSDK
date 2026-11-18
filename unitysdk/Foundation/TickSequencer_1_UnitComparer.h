@@ -1,21 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/TickSequencer_1_Unit.h"
 #include "unitysdk/System/Object.h"
-
-namespace Foundation { template <typename T> class TickSequencer_1_UnitComparer; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int TickSequencer_1_UnitComparer_TypeDefinitionIndex = 8731;
+	inline static constexpr unsigned int TickSequencer_1_UnitComparer_TypeDefinitionIndex = 8802;
 
-	template <typename TTickingGroup>
+	template <typename T>
 	class TickSequencer_1_UnitComparer : public ::System::Object
 	{
 	public:
-		static ::Foundation::TickSequencer_1_UnitComparer<TTickingGroup>** StaticGet_Instance()
+		static ::System::Object** StaticGet_Instance()
 		{
-			return (::Foundation::TickSequencer_1_UnitComparer<TTickingGroup>**)Il2CppClass::FromTypeDefinitionIndex(TickSequencer_1_UnitComparer_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TickSequencer_1_UnitComparer_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 	};
 }

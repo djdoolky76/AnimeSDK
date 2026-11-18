@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_2.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_GETAVATARIDBYINDEX_GETAVATARIDBYINDEX_OFFSET UNITYSDK_OFFSET(0x1684F220)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_GETAVATARIDBYINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1684F1D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_GETAVATARIDBYINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1684F460)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_GETAVATARIDBYINDEX_GETAVATARIDBYINDEX_OFFSET UNITYSDK_OFFSET(0x10D19F90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_GETAVATARIDBYINDEX_INVOKE_OFFSET UNITYSDK_OFFSET(0x10D19F40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_AVATAR_GETAVATARIDBYINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x10D1A1D0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_Avatar_GetAvatarIDByIndex_TypeDefinitionIndex = 44337;
+	inline static constexpr unsigned int LD_Avatar_GetAvatarIDByIndex_TypeDefinitionIndex = 88084;
 
-	class LD_Avatar_GetAvatarIDByIndex : public ::FlowCanvas::Nodes::CallableFunctionNode_2<::System::Int32, ::System::Int32>
+	class LD_Avatar_GetAvatarIDByIndex
 	{
 	public:
 		::System::Void _ctor()

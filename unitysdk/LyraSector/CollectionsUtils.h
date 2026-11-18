@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LYRASECTOR_COLLECTIONSUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E23B660)
+#define LYRASECTOR_COLLECTIONSUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E356640)
 
 namespace LyraSector
 {
-	inline static constexpr unsigned int CollectionsUtils_TypeDefinitionIndex = 26820;
+	inline static constexpr unsigned int CollectionsUtils_TypeDefinitionIndex = 26699;
 
 	class CollectionsUtils : public ::System::Object
 	{

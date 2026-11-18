@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_863445FF70B314F5.h"
+#include "unitysdk/IJGIBMLAOEG.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_RABBATTLE3DCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1688B3E0)
+#define MOLEMOLE_RABBATTLE3DCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x10D589A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int RABBattle3DContext_TypeDefinitionIndex = 52982;
+	inline static constexpr unsigned int RABBattle3DContext_TypeDefinitionIndex = 57988;
 
 	class RABBattle3DContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_863445FF70B314F5 PageType; // 0x28
+		::IJGIBMLAOEG PageType; // 0x28
 
 		::System::Void _ctor()
 		{

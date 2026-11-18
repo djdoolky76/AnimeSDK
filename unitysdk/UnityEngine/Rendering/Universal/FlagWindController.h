@@ -6,40 +6,42 @@
 namespace UnityEngine { class PBDDeformer; }
 namespace UnityEngine::Rendering::Universal { class SingleWeatherConfigWind; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_APPLYWIND_OFFSET UNITYSDK_OFFSET(0x1E660C60)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_GET_WINDDIRECTIONWS_OFFSET UNITYSDK_OFFSET(0x1E6607F0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E660BB0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E660820)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1E660C10)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_SET_WINDDIRECTIONWS_OFFSET UNITYSDK_OFFSET(0x1E660810)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_UPDATELOCALWINDDIRECTION_OFFSET UNITYSDK_OFFSET(0x1E660AC0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E661040)
-#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E660FD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_APPLYWIND_OFFSET UNITYSDK_OFFSET(0x1E8E4730)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_GET_WINDDIRECTIONWS_OFFSET UNITYSDK_OFFSET(0x1E8E42C0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E8E4680)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E8E42F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_ONWILLRENDEROBJECT_OFFSET UNITYSDK_OFFSET(0x1E8E46E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_SET_WINDDIRECTIONWS_OFFSET UNITYSDK_OFFSET(0x1E8E42E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER_UPDATELOCALWINDDIRECTION_OFFSET UNITYSDK_OFFSET(0x1E8E4590)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8E4B10)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FLAGWINDCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E4AA0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FlagWindController_TypeDefinitionIndex = 27090;
+	inline static constexpr unsigned int FlagWindController_TypeDefinitionIndex = 26904;
 
 	class FlagWindController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Single* StaticGet_s_GlobalExtraWindIntensity()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(FlagWindController_TypeDefinitionIndex)->GetStaticField(0x54D0);
-		}
 		static ::System::Boolean* StaticGet_enableFlagUpdateCull()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FlagWindController_TypeDefinitionIndex)->GetStaticField(0x54D4);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FlagWindController_TypeDefinitionIndex)->GetStaticField(0x54D0);
+		}
+		static ::System::Single* StaticGet_s_GlobalExtraWindIntensity()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(FlagWindController_TypeDefinitionIndex)->GetStaticField(0x54D4);
 		}
 		::UnityEngine::PBDDeformer* m_Deformer; // 0x18
 		::System::Single windIntensity; // 0x20
 		::System::Boolean useLocalSpaceWindDirection; // 0x24
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 windDirection; // 0x28
 		::System::Single forceRandom; // 0x34
 		::System::Single directionRandom; // 0x38
 		::System::Boolean ignoreMass; // 0x3C
 		::System::Boolean forceIgnoreVisibleCheck; // 0x3D
 		::System::Boolean enableVisibleCheck; // 0x3E
+		::System::Byte _padding1[0x1];
 		::UnityEngine::Vector3 _windDirectionWS_k__BackingField; // 0x40
 		::System::Single m_TimeDelay; // 0x4C
 		::System::Single timeDelay; // 0x50

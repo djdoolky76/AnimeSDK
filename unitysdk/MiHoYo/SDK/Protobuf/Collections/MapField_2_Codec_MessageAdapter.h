@@ -2,16 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MiHoYo::SDK::Protobuf { class CodedInputStream; }
-namespace MiHoYo::SDK::Protobuf { class CodedOutputStream; }
-namespace MiHoYo::SDK::Protobuf::Collections { template <typename T1, typename T2> class MapField_2_Codec; }
-namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
-
 namespace MiHoYo::SDK::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2_Codec_MessageAdapter_TypeDefinitionIndex = 29202;
+	inline static constexpr unsigned int MapField_2_Codec_MessageAdapter_TypeDefinitionIndex = 28641;
 
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class MapField_2_Codec_MessageAdapter : public ::System::Object
 	{
 	public:
@@ -19,8 +14,8 @@ namespace MiHoYo::SDK::Protobuf::Collections
 		{
 			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(MapField_2_Codec_MessageAdapter_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		::MiHoYo::SDK::Protobuf::Collections::MapField_2_Codec<TKey, TValue>* codec; // 0x0
-		TKey _Key_k__BackingField; // 0x0
-		TValue _Value_k__BackingField; // 0x0
+		::System::Object* codec; // 0x0
+		T1 _Key_k__BackingField; // 0x0
+		T2 _Value_k__BackingField; // 0x0
 	};
 }

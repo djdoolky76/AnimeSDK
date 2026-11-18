@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace Nap::NapECS { class IPatchedList; }
-
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int PatchedList_1_TypeDefinitionIndex = 38033;
+	inline static constexpr unsigned int PatchedList_1_TypeDefinitionIndex = 36024;
 
 	template <typename T>
 	class PatchedList_1 : public ::System::Object

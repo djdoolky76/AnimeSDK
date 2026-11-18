@@ -28,6 +28,7 @@ namespace UnityEngine
 		::UnityEngine::Vector4 borderWidths; // 0x90
 		::UnityEngine::Vector4 cornerRadiuses; // 0xA0
 		::System::Boolean smoothCorners; // 0xB0
+		::System::Byte _padding0[0x3];
 		::System::Int32 pass; // 0xB4
 		::UnityEngine::Texture* texture; // 0xB8
 		::UnityEngine::Material* mat; // 0xC0

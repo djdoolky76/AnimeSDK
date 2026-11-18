@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIFORBIDDENAREATALENTLINKWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D714E0)
+#define MOLEMOLE_UIFORBIDDENAREATALENTLINKWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D7FC30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIForbiddenAreaTalentLinkWidgetContext_TypeDefinitionIndex = 48942;
+	inline static constexpr unsigned int UIForbiddenAreaTalentLinkWidgetContext_TypeDefinitionIndex = 87551;
 
 	class UIForbiddenAreaTalentLinkWidgetContext : public ::MoleMole::UIControllerContextBase
 	{

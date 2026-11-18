@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GalGame/MainCityChatPlayableNodeBase.h"
 
-class Class_1_2D5DADE6FF36AA79;
+class BAPNBOCDBHM;
 namespace MoleMole { class UIBaseChatPlayController; }
 namespace MoleMole { class UIMainCityChatPlayContext; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1383F1F0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1383F1E0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x139E6720)
+#define MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x139E6710)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatQuestRecommendNode_TypeDefinitionIndex = 57043;
+	inline static constexpr unsigned int MainCityChatQuestRecommendNode_TypeDefinitionIndex = 56202;
 
 	class MainCityChatQuestRecommendNode : public ::MoleMole::GalGame::MainCityChatPlayableNodeBase
 	{
@@ -21,9 +21,9 @@ namespace MoleMole::GalGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_2D5DADE6FF36AA79* Instantiate(::MoleMole::UIBaseChatPlayController* controller, ::MoleMole::UIMainCityChatPlayContext* context)
+		::BAPNBOCDBHM* Instantiate(::MoleMole::UIBaseChatPlayController* controller, ::MoleMole::UIMainCityChatPlayContext* context)
 		{
-			return ((::Class_1_2D5DADE6FF36AA79*(*)(::PVOID, ::MoleMole::UIBaseChatPlayController*, ::MoleMole::UIMainCityChatPlayContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_INSTANTIATE_OFFSET))(this, controller, context);
+			return ((::BAPNBOCDBHM*(*)(::PVOID, ::MoleMole::UIBaseChatPlayController*, ::MoleMole::UIMainCityChatPlayContext*))((::PBYTE)hIl2Cpp + MOLEMOLE_GALGAME_MAINCITYCHATQUESTRECOMMENDNODE_INSTANTIATE_OFFSET))(this, controller, context);
 		}
 	};
 }

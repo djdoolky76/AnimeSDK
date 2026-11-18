@@ -7,11 +7,12 @@ namespace System { class String; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SMapGroupMemberAnimParam_TypeDefinitionIndex = 60504;
+	inline static constexpr unsigned int SMapGroupMemberAnimParam_TypeDefinitionIndex = 80814;
 
 	struct alignas(8) SMapGroupMemberAnimParam
 	{
 		::UnityEngine::AnimatorControllerParameterType ParameterType; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* ParameterKey; // 0x18
 		::System::Int32 ParameterIntValue; // 0x20
 		::System::Boolean ParameterBoolValue; // 0x24

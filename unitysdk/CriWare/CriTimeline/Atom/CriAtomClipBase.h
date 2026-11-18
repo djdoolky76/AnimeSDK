@@ -3,18 +3,14 @@
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 
-namespace CriWare { class CriAtomExAcb; }
-namespace CriWare { class CriAtomSourceBase; }
-namespace System { class String; }
-
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIPBASE_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FA83960)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIPBASE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1FA83980)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIPBASE_SETCLIPDURATION_OFFSET UNITYSDK_OFFSET(0x1FA83970)
-#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIPBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA839B0)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIPBASE_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FE9CA70)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIPBASE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1FE9CA90)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIPBASE_SETCLIPDURATION_OFFSET UNITYSDK_OFFSET(0x1FE9CA80)
+#define CRIWARE_CRITIMELINE_ATOM_CRIATOMCLIPBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE9CAC0)
 
 namespace CriWare::CriTimeline::Atom
 {
-	inline static constexpr unsigned int CriAtomClipBase_TypeDefinitionIndex = 35041;
+	inline static constexpr unsigned int CriAtomClipBase_TypeDefinitionIndex = 34590;
 
 	class CriAtomClipBase : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -24,6 +20,7 @@ namespace CriWare::CriTimeline::Atom
 		::System::Boolean ignoreBlend; // 0x1A
 		::System::Boolean loopWithinClip; // 0x1B
 		::System::Boolean stopAtClipEnd; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::Double clipDuration; // 0x20
 
 		::System::Void _ctor()

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_CONFIGINI__CTOR_OFFSET UNITYSDK_OFFSET(0x1C7B3230)
+#define MIHOYO_SDK_CONFIGINI__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC1390)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigIni_TypeDefinitionIndex = 20085;
+	inline static constexpr unsigned int ConfigIni_TypeDefinitionIndex = 19231;
 
 	class ConfigIni : public ::System::Object
 	{

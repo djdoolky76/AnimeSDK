@@ -7,7 +7,7 @@
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int NapRenderEntityPrepareInputCustom_TypeDefinitionIndex = 27928;
+	inline static constexpr unsigned int NapRenderEntityPrepareInputCustom_TypeDefinitionIndex = 26776;
 
 	struct alignas(4) NapRenderEntityPrepareInputCustom
 	{
@@ -27,9 +27,10 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::Vector3 cameraPositionWS; // 0xB0
 		::System::Int32 isFirstTimeCalculateRadian; // 0xBC
 		::UnityEngine::Vector4 overridenMainLightColor; // 0xC0
-		::System::Single lockLightAngleRatio; // 0xD0
-		::System::Single fixShadowCoverageOutOfFrustum; // 0xD4
-		::System::Single disableLightBlendShadowTemporalFade; // 0xD8
-		::System::Single dummy; // 0xDC
+		::UnityEngine::Vector4 directionOverrideLightData; // 0xD0
+		::System::Single lockLightAngleRatio; // 0xE0
+		::System::Single fixShadowCoverageOutOfFrustum; // 0xE4
+		::System::Single disableLightBlendShadowTemporalFade; // 0xE8
+		::System::Single customShadowCoverage; // 0xEC
 	};
 }

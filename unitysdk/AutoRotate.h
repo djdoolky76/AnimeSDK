@@ -3,10 +3,10 @@
 #include "unitysdk/RootMotion/Axis.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define AUTOROTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1491FA00)
-#define AUTOROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1491FC10)
+#define AUTOROTATE_UPDATE_OFFSET UNITYSDK_OFFSET(0x18222810)
+#define AUTOROTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18222A20)
 
-inline static constexpr unsigned int AutoRotate_TypeDefinitionIndex = 78575;
+inline static constexpr unsigned int AutoRotate_TypeDefinitionIndex = 49108;
 
 class AutoRotate : public ::UnityEngine::MonoBehaviour
 {

@@ -4,12 +4,12 @@
 
 namespace FluffyUnderware::Curvy::Generator { class CGModuleInputSlot; }
 
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEBUGVMESH_RESET_OFFSET UNITYSDK_OFFSET(0x1F3449B0)
-#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEBUGVMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3449E0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEBUGVMESH_RESET_OFFSET UNITYSDK_OFFSET(0x1F76B1D0)
+#define FLUFFYUNDERWARE_CURVY_GENERATOR_MODULES_DEBUGVMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1F76B200)
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int DebugVMesh_TypeDefinitionIndex = 39524;
+	inline static constexpr unsigned int DebugVMesh_TypeDefinitionIndex = 37532;
 
 	class DebugVMesh : public ::FluffyUnderware::Curvy::Generator::CGModule
 	{

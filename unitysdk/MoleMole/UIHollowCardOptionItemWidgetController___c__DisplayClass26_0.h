@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_E053999CF96A442A;
-class Class_2_1A39E1B51756BF41;
-class Class_2_208CC9941471731A_477;
+class CAAEMKFJGJE;
+class FGCOIBFFCHB;
+class FOLOGHLENFB;
 namespace MoleMole { class UIHollowCardOptionItemWidgetController; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIHOLLOWCARDOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173192B0)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS26_0__REFRESHVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x173192C0)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS26_0__REFRESHVIEW_B__4_OFFSET UNITYSDK_OFFSET(0x17319E70)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS26_0__REFRESHVIEW_G___CHANGECARD_0_OFFSET UNITYSDK_OFFSET(0x173192D0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CC5AD0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS26_0__REFRESHVIEW_B__2_OFFSET UNITYSDK_OFFSET(0x18CC5AE0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS26_0__REFRESHVIEW_B__4_OFFSET UNITYSDK_OFFSET(0x18CC66A0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONITEMWIDGETCONTROLLER___C__DISPLAYCLASS26_0__REFRESHVIEW_G___CHANGECARD_0_OFFSET UNITYSDK_OFFSET(0x18CC5AF0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardOptionItemWidgetController___c__DisplayClass26_0_TypeDefinitionIndex = 41841;
+	inline static constexpr unsigned int UIHollowCardOptionItemWidgetController___c__DisplayClass26_0_TypeDefinitionIndex = 80611;
 
 	class UIHollowCardOptionItemWidgetController___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
-		::Class_2_1A39E1B51756BF41* icon2; // 0x10
-		::MoleMole::UIHollowCardOptionItemWidgetController* __4__this; // 0x18
-		::System::String* icon2Str; // 0x20
-		::Class_2_1A39E1B51756BF41* icon1; // 0x28
-		::Class_2_208CC9941471731A_477* template1; // 0x30
-		::Class_1_E053999CF96A442A* choice; // 0x38
-		::Class_2_208CC9941471731A_477* template2; // 0x40
-		::System::String* icon1Str; // 0x48
+		::FOLOGHLENFB* template2; // 0x10
+		::FGCOIBFFCHB* icon1; // 0x18
+		::FGCOIBFFCHB* icon2; // 0x20
+		::MoleMole::UIHollowCardOptionItemWidgetController* __4__this; // 0x28
+		::CAAEMKFJGJE* choice; // 0x30
+		::System::String* icon1Str; // 0x38
+		::FOLOGHLENFB* template1; // 0x40
+		::System::String* icon2Str; // 0x48
 		::System::Int32 itemid1; // 0x50
 		::System::Int32 itemid2; // 0x54
 

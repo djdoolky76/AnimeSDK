@@ -5,11 +5,11 @@
 namespace MoleMole { class ConfigCurveDataInfo; }
 namespace System { class String; }
 
-#define MOLEMOLE_UIBLURCONFIGCURVEDATAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6427F0)
+#define MOLEMOLE_UIBLURCONFIGCURVEDATAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18066850)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBlurConfigCurveDataInfo_TypeDefinitionIndex = 53201;
+	inline static constexpr unsigned int UIBlurConfigCurveDataInfo_TypeDefinitionIndex = 64702;
 
 	class UIBlurConfigCurveDataInfo : public ::System::Object
 	{

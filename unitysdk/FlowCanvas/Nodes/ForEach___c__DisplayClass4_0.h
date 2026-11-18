@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowBreak; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas::Nodes { class ForEach; }
 
-#define FLOWCANVAS_NODES_FOREACH___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC95D0)
-#define FLOWCANVAS_NODES_FOREACH___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1DFC95E0)
-#define FLOWCANVAS_NODES_FOREACH___C__DISPLAYCLASS4_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1DFC9600)
-#define FLOWCANVAS_NODES_FOREACH___C__DISPLAYCLASS4_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1DFC9620)
-#define FLOWCANVAS_NODES_FOREACH___C__DISPLAYCLASS4_0__REGISTERPORTS_B__3_OFFSET UNITYSDK_OFFSET(0x1DFC9B60)
-#define FLOWCANVAS_NODES_FOREACH___C__DISPLAYCLASS4_0__REGISTERPORTS_B__4_OFFSET UNITYSDK_OFFSET(0x1DFC9B40)
+#define FLOWCANVAS_NODES_FOREACH___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F2660)
+#define FLOWCANVAS_NODES_FOREACH___C__DISPLAYCLASS4_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1E3F2670)
+#define FLOWCANVAS_NODES_FOREACH___C__DISPLAYCLASS4_0__REGISTERPORTS_B__1_OFFSET UNITYSDK_OFFSET(0x1E3F2690)
+#define FLOWCANVAS_NODES_FOREACH___C__DISPLAYCLASS4_0__REGISTERPORTS_B__2_OFFSET UNITYSDK_OFFSET(0x1E3F26B0)
+#define FLOWCANVAS_NODES_FOREACH___C__DISPLAYCLASS4_0__REGISTERPORTS_B__3_OFFSET UNITYSDK_OFFSET(0x1E3F2C00)
+#define FLOWCANVAS_NODES_FOREACH___C__DISPLAYCLASS4_0__REGISTERPORTS_B__4_OFFSET UNITYSDK_OFFSET(0x1E3F2BE0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ForEach___c__DisplayClass4_0_TypeDefinitionIndex = 31145;
+	inline static constexpr unsigned int ForEach___c__DisplayClass4_0_TypeDefinitionIndex = 29959;
 
 	class ForEach___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::FlowCanvas::FlowOutput* fFinish; // 0x10
-		::FlowCanvas::FlowBreak* __9__4; // 0x18
-		::FlowCanvas::FlowOutput* fCurrent; // 0x20
-		::FlowCanvas::Nodes::ForEach* __4__this; // 0x28
+		::FlowCanvas::FlowBreak* __9__4; // 0x10
+		::FlowCanvas::Nodes::ForEach* __4__this; // 0x18
+		::FlowCanvas::FlowOutput* fFinish; // 0x20
+		::FlowCanvas::FlowOutput* fCurrent; // 0x28
 
 		::System::Void _ctor()
 		{

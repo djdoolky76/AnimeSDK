@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/Container/CellLocation.h"
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int IHierarchicalHashGridCompareKeyFunc_1_TypeDefinitionIndex = 8517;
+	inline static constexpr unsigned int IHierarchicalHashGridCompareKeyFunc_1_TypeDefinitionIndex = 9084;
 
 	template <typename T>
 	class IHierarchicalHashGridCompareKeyFunc_1

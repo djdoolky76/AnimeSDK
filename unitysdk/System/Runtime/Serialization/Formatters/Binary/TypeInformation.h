@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_TYPEINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCBD5A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_TYPEINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BE7C0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int TypeInformation_TypeDefinitionIndex = 1222;
+	inline static constexpr unsigned int TypeInformation_TypeDefinitionIndex = 1221;
 
 	class TypeInformation : public ::System::Object
 	{

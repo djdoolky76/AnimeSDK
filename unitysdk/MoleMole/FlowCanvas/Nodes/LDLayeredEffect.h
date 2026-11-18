@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_5.h"
 
 namespace MoleMole::Battle { class Entity; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLAYEREDEFFECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x13835A80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDLAYEREDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x13835C90)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLAYEREDEFFECT_INVOKE_OFFSET UNITYSDK_OFFSET(0x139DAD50)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDLAYEREDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x139DAF60)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDLayeredEffect_TypeDefinitionIndex = 65820;
+	inline static constexpr unsigned int LDLayeredEffect_TypeDefinitionIndex = 80522;
 
-	class LDLayeredEffect : public ::FlowCanvas::Nodes::CallableFunctionNode_5<::System::Boolean, ::MoleMole::Battle::Entity*, ::Il2CppArray<::System::Int32>*, ::System::Boolean, ::System::String*>
+	class LDLayeredEffect
 	{
 	public:
 		::System::Void _ctor()

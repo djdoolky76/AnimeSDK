@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/ObjectHandle.h"
 
 namespace Foundation
 {
-	inline static constexpr unsigned int IObject_TypeDefinitionIndex = 8610;
+	inline static constexpr unsigned int IObject_TypeDefinitionIndex = 8845;
 
 	class IObject
 	{

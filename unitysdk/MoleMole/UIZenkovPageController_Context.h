@@ -1,24 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_912CABDA75E684D1.h"
-#include "unitysdk/Enum_3_C96DD177C1F2A967.h"
+#include "unitysdk/GMKJPFMGGHJ.h"
+#include "unitysdk/IHMFPHBDBAD.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/System/Nullable_1.h"
 
-#define MOLEMOLE_UIZENKOVPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B12240)
+#define MOLEMOLE_UIZENKOVPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12C0E020)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovPageController_Context_TypeDefinitionIndex = 76756;
+	inline static constexpr unsigned int UIZenkovPageController_Context_TypeDefinitionIndex = 88882;
 
 	class UIZenkovPageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Boolean InitOpenMissionPage; // 0x28
-		::Enum_3_912CABDA75E684D1 InitBuildingType; // 0x2C
+		::System::Nullable_1<::IHMFPHBDBAD> InitDelegateSubType; // 0x28
 		::System::Int32 NewbieID; // 0x30
-		::System::Int32 InitDungeonId; // 0x34
-		::System::Nullable_1<::Enum_3_C96DD177C1F2A967> InitDelegateSubType; // 0x38
+		::System::Boolean InitOpenMissionPage; // 0x34
+		::System::Byte _padding0[0x3];
+		::GMKJPFMGGHJ InitBuildingType; // 0x38
+		::System::Int32 InitDungeonId; // 0x3C
 
 		::System::Void _ctor()
 		{

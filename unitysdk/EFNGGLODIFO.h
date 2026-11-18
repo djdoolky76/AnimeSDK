@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/APPJJNBEEJK.h"
+#include "unitysdk/System/Object.h"
+
+class AJLLCFNNPPK;
+class BAAPFKLPPDO;
+class EBLNGJPDFMC;
+class EFJNICKFFJA;
+class EJOBOHPOCIO;
+class FOLPEOFKPJH;
+class HDCNLMKAPAG;
+class KCEGEPBLFEF;
+class KFMDAPOJHGE;
+class LBFGDFFAPEK;
+class LKCFDIEEOKE;
+class LNOODAAKGJM;
+class LOKDPCLGHPG;
+namespace System { class String; }
+
+#define EFNGGLODIFO_NNKDALJHILO_OFFSET UNITYSDK_OFFSET(0x11A6FEB0)
+#define EFNGGLODIFO__CTOR_OFFSET UNITYSDK_OFFSET(0x11A6FE30)
+
+inline static constexpr unsigned int EFNGGLODIFO_TypeDefinitionIndex = 68222;
+
+class EFNGGLODIFO : public ::System::Object
+{
+public:
+	::LKCFDIEEOKE* JBACDFIPICK; // 0x10
+	::HDCNLMKAPAG* INFHKLKKICN; // 0x18
+	::BAAPFKLPPDO* IMJOJBBJHMF; // 0x20
+	::KCEGEPBLFEF* PNNMJCILCPK; // 0x28
+	::EBLNGJPDFMC* DEJBPFIOMFP; // 0x30
+	::LOKDPCLGHPG* DHFNJHAEMIF; // 0x38
+	::System::String* NGHLLDAJJJE; // 0x40
+	::LNOODAAKGJM* PICAAMLIBBI; // 0x48
+	::LBFGDFFAPEK* BKDFKAGINON; // 0x50
+	::KFMDAPOJHGE* OOEHNACCLNM; // 0x58
+	::AJLLCFNNPPK* GPHFGDCEBAD; // 0x60
+	::FOLPEOFKPJH* KIGDJAPHACP; // 0x68
+	::APPJJNBEEJK POJBADOCDFM; // 0x70
+
+	::System::Void _ctor(::EFJNICKFFJA* NGHLLDAJJJE)
+	{
+		return ((::System::Void(*)(::PVOID, ::EFJNICKFFJA*))((::PBYTE)hIl2Cpp + EFNGGLODIFO__CTOR_OFFSET))(this, NGHLLDAJJJE);
+	}
+
+	::System::Boolean NNKDALJHILO(::EJOBOHPOCIO*& LJBPECKCCEA)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::EJOBOHPOCIO*&))((::PBYTE)hIl2Cpp + EFNGGLODIFO_NNKDALJHILO_OFFSET))(this, LJBPECKCCEA);
+	}
+};

@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace Foundation::ViewObject::Subsystem
 {
-	inline static constexpr unsigned int GroupStateChangeData_TypeDefinitionIndex = 71555;
+	inline static constexpr unsigned int GroupStateChangeData_TypeDefinitionIndex = 61415;
 
 	struct alignas(8) GroupStateChangeData
 	{

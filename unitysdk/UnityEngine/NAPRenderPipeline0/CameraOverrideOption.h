@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NAPRenderPipeline0
 {
-	inline static constexpr unsigned int CameraOverrideOption_TypeDefinitionIndex = 5870;
+	inline static constexpr unsigned int CameraOverrideOption_TypeDefinitionIndex = 5876;
 
 	enum class CameraOverrideOption : ::System::Int32
 	{

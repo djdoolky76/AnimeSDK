@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MOLEMOLE_BATTLE_MUTEANIMATORCULL__CTOR_OFFSET UNITYSDK_OFFSET(0x143444C0)
+#define MOLEMOLE_BATTLE_MUTEANIMATORCULL__CTOR_OFFSET UNITYSDK_OFFSET(0x1218DB70)
 
 namespace MoleMole::Battle
 {
-	inline static constexpr unsigned int MuteAnimatorCull_TypeDefinitionIndex = 59666;
+	inline static constexpr unsigned int MuteAnimatorCull_TypeDefinitionIndex = 65935;
 
 	class MuteAnimatorCull : public ::UnityEngine::MonoBehaviour
 	{

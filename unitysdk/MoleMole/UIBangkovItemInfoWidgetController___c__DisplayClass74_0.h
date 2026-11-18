@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_C3F0E3B5AB5977AE_29;
+class FMHDMLBDIJC;
 namespace MoleMole { class UIBangkovItemInfoWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__DISPLAYCLASS74_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19A81660)
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__DISPLAYCLASS74_0__ONCLICKSPLIT_B__0_OFFSET UNITYSDK_OFFSET(0x19A81670)
-#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__DISPLAYCLASS74_0__ONCLICKSPLIT_B__1_OFFSET UNITYSDK_OFFSET(0x19A81880)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__DISPLAYCLASS74_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A351420)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__DISPLAYCLASS74_0__ONCLICKSPLIT_B__0_OFFSET UNITYSDK_OFFSET(0x1A351430)
+#define MOLEMOLE_UIBANGKOVITEMINFOWIDGETCONTROLLER___C__DISPLAYCLASS74_0__ONCLICKSPLIT_B__1_OFFSET UNITYSDK_OFFSET(0x1A351640)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovItemInfoWidgetController___c__DisplayClass74_0_TypeDefinitionIndex = 56442;
+	inline static constexpr unsigned int UIBangkovItemInfoWidgetController___c__DisplayClass74_0_TypeDefinitionIndex = 69216;
 
 	class UIBangkovItemInfoWidgetController___c__DisplayClass74_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::Class_3_C3F0E3B5AB5977AE_29* target; // 0x18
-		::MoleMole::UIBangkovItemInfoWidgetController* __4__this; // 0x20
+		::FMHDMLBDIJC* target; // 0x10
+		::MoleMole::UIBangkovItemInfoWidgetController* __4__this; // 0x18
+		::System::Action* __9__1; // 0x20
 		::System::Int32 maxSplitNum; // 0x28
 
 		::System::Void _ctor()

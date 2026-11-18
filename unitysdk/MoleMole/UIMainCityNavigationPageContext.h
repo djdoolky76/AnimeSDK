@@ -3,11 +3,11 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/MoleMole/UIMainCityNavigationPageContext_NavOriginType.h"
 
-#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x182D72B0)
+#define MOLEMOLE_UIMAINCITYNAVIGATIONPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x173FB230)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityNavigationPageContext_TypeDefinitionIndex = 73383;
+	inline static constexpr unsigned int UIMainCityNavigationPageContext_TypeDefinitionIndex = 47714;
 
 	class UIMainCityNavigationPageContext : public ::MoleMole::UIControllerContextBase
 	{

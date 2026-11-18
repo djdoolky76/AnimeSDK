@@ -1,31 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
-#include "unitysdk/MoleMole/FlowCanvas/Nodes/LDQueryEntityProperty_QueriedBaseProperty.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
+namespace System { class Object; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDQUERYENTITYPROPERTY_INVOKE_OFFSET UNITYSDK_OFFSET(0x129941E0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDQUERYENTITYPROPERTY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12994040)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDQUERYENTITYPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x12994580)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDQUERYENTITYPROPERTY__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x129945C0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDQUERYENTITYPROPERTY__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x129945D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDQUERYENTITYPROPERTY__REGISTERPORTS_B__6_2_OFFSET UNITYSDK_OFFSET(0x129945E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDQUERYENTITYPROPERTY_INVOKE_OFFSET UNITYSDK_OFFSET(0x124533F0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDQUERYENTITYPROPERTY_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x12453250)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDQUERYENTITYPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x12453790)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDQUERYENTITYPROPERTY__REGISTERPORTS_B__6_0_OFFSET UNITYSDK_OFFSET(0x124537D0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDQUERYENTITYPROPERTY__REGISTERPORTS_B__6_1_OFFSET UNITYSDK_OFFSET(0x124537E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDQUERYENTITYPROPERTY__REGISTERPORTS_B__6_2_OFFSET UNITYSDK_OFFSET(0x124537F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDQueryEntityProperty_TypeDefinitionIndex = 52470;
+	inline static constexpr unsigned int LDQueryEntityProperty_TypeDefinitionIndex = 82805;
 
 	class LDQueryEntityProperty : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* _out; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::LDQueryEntityProperty_QueriedBaseProperty>* _property; // 0xB0
-		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _entity; // 0xB8
+		::FlowCanvas::ValueInput_1<::System::Object*>* _property; // 0xA8
+		::FlowCanvas::ValueInput_1<::MoleMole::Battle::Entity*>* _entity; // 0xB0
+		::FlowCanvas::FlowOutput* _out; // 0xB8
 		::System::Boolean _isValid; // 0xC0
+		::System::Byte _padding0[0x7];
 		::System::Double _result; // 0xC8
 
 		::System::Void _ctor()

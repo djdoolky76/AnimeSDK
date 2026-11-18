@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIItemIconBtnWidgetController; }
 
-#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS170_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189B1320)
-#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS170_0__PLAYBANGKOVREWARDAFTERSCAN_B__0_OFFSET UNITYSDK_OFFSET(0x189B1330)
+#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS170_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19031F50)
+#define MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS170_0__PLAYBANGKOVSCANANIMATIONONTIMELINE_B__0_OFFSET UNITYSDK_OFFSET(0x19031F60)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIItemIconBtnWidgetController___c__DisplayClass170_0_TypeDefinitionIndex = 53267;
+	inline static constexpr unsigned int UIItemIconBtnWidgetController___c__DisplayClass170_0_TypeDefinitionIndex = 55101;
 
 	class UIItemIconBtnWidgetController___c__DisplayClass170_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS170_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PlayBangkovRewardAfterScan_b__0()
+		::System::Void _PlayBangkovScanAnimationOnTimeline_b__0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS170_0__PLAYBANGKOVREWARDAFTERSCAN_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIITEMICONBTNWIDGETCONTROLLER___C__DISPLAYCLASS170_0__PLAYBANGKOVSCANANIMATIONONTIMELINE_B__0_OFFSET))(this);
 		}
 	};
 }

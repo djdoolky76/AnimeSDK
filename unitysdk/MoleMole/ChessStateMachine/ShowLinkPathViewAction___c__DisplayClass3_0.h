@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_5A6771CD0CA2718D;
+class MPKBDIJDMAP;
 namespace MoleMole::ChessStateMachine { class ShowLinkPathViewAction; }
 
-#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12A2E8E0)
-#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___C__DISPLAYCLASS3_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x12A2E8F0)
+#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19275FD0)
+#define MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___C__DISPLAYCLASS3_0__RUN_B__0_OFFSET UNITYSDK_OFFSET(0x19275FE0)
 
 namespace MoleMole::ChessStateMachine
 {
-	inline static constexpr unsigned int ShowLinkPathViewAction___c__DisplayClass3_0_TypeDefinitionIndex = 51024;
+	inline static constexpr unsigned int ShowLinkPathViewAction___c__DisplayClass3_0_TypeDefinitionIndex = 44043;
 
 	class ShowLinkPathViewAction___c__DisplayClass3_0 : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace MoleMole::ChessStateMachine
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Run_b__0(::Class_1_5A6771CD0CA2718D* player)
+		::System::Void _Run_b__0(::MPKBDIJDMAP* player)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_5A6771CD0CA2718D*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___C__DISPLAYCLASS3_0__RUN_B__0_OFFSET))(this, player);
+			return ((::System::Void(*)(::PVOID, ::MPKBDIJDMAP*))((::PBYTE)hIl2Cpp + MOLEMOLE_CHESSSTATEMACHINE_SHOWLINKPATHVIEWACTION___C__DISPLAYCLASS3_0__RUN_B__0_OFFSET))(this, player);
 		}
 	};
 }

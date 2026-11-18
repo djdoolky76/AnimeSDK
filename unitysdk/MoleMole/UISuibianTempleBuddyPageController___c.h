@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Func_1; }
 namespace System::Threading { class CancellationTokenSource; }
 
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x160EFF20)
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x160EFF60)
-#define MOLEMOLE_UISUIBIANTEMPLEBUDDYPAGECONTROLLER___C__ONUIINIT_B__4_0_OFFSET UNITYSDK_OFFSET(0x160EFF70)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x167D9210)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x167D9250)
+#define MOLEMOLE_UISUIBIANTEMPLEBUDDYPAGECONTROLLER___C__ONUIINIT_B__4_0_OFFSET UNITYSDK_OFFSET(0x167D9260)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleBuddyPageController___c_TypeDefinitionIndex = 47038;
+	inline static constexpr unsigned int UISuibianTempleBuddyPageController___c_TypeDefinitionIndex = 69451;
 
 	class UISuibianTempleBuddyPageController___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_1<::System::Threading::CancellationTokenSource*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_1<::System::Threading::CancellationTokenSource*>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBuddyPageController___c_TypeDefinitionIndex)->GetStaticField(0x452D0);
+			return (::System::Func_1<::System::Threading::CancellationTokenSource*>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBuddyPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AD80);
 		}
-		static ::MoleMole::UISuibianTempleBuddyPageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UISuibianTempleBuddyPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBuddyPageController___c_TypeDefinitionIndex)->GetStaticField(0x452D8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleBuddyPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AD88);
 		}
 
 		static ::System::Void _cctor()

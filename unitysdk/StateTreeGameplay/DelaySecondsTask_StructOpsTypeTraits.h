@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnrealTypes/StructOpsTraitsBase.h"
 
-#define STATETREEGAMEPLAY_DELAYSECONDSTASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1C13DEE0)
-#define STATETREEGAMEPLAY_DELAYSECONDSTASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C13DEF0)
+#define STATETREEGAMEPLAY_DELAYSECONDSTASK_STRUCTOPSTYPETRAITS_GET_ISPLAINOLDDATA_OFFSET UNITYSDK_OFFSET(0x1CB622E0)
+#define STATETREEGAMEPLAY_DELAYSECONDSTASK_STRUCTOPSTYPETRAITS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB622F0)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int DelaySecondsTask_StructOpsTypeTraits_TypeDefinitionIndex = 44458;
+	inline static constexpr unsigned int DelaySecondsTask_StructOpsTypeTraits_TypeDefinitionIndex = 59496;
 
 	class DelaySecondsTask_StructOpsTypeTraits : public ::UnrealTypes::StructOpsTraitsBase
 	{

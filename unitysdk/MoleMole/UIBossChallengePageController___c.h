@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F57D00757009D1EB;
+class LHIPCHKEHME;
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x197F1D10)
-#define MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x197F1D50)
-#define MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__ONMAINCITYBTNCLICK_B__78_0_OFFSET UNITYSDK_OFFSET(0x197F1D70)
-#define MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__REFRESHSHOPBTNSTATE_B__60_2_OFFSET UNITYSDK_OFFSET(0x197F1D60)
+#define MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19845C30)
+#define MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19845C70)
+#define MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__ONMAINCITYBTNCLICK_B__79_0_OFFSET UNITYSDK_OFFSET(0x19845C90)
+#define MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__REFRESHSHOPBTNSTATE_B__61_2_OFFSET UNITYSDK_OFFSET(0x19845C80)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBossChallengePageController___c_TypeDefinitionIndex = 49472;
+	inline static constexpr unsigned int UIBossChallengePageController___c_TypeDefinitionIndex = 83256;
 
 	class UIBossChallengePageController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIBossChallengePageController___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__79_0()
 		{
-			return (::MoleMole::UIBossChallengePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIBossChallengePageController___c_TypeDefinitionIndex)->GetStaticField(0x32BE0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBossChallengePageController___c_TypeDefinitionIndex)->GetStaticField(0x35100);
 		}
-		static ::System::Func_2<::Class_1_F57D00757009D1EB*, ::System::Boolean>** StaticGet___9__60_2()
+		static ::System::Func_2<::LHIPCHKEHME*, ::System::Boolean>** StaticGet___9__61_2()
 		{
-			return (::System::Func_2<::Class_1_F57D00757009D1EB*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIBossChallengePageController___c_TypeDefinitionIndex)->GetStaticField(0x32BE8);
+			return (::System::Func_2<::LHIPCHKEHME*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIBossChallengePageController___c_TypeDefinitionIndex)->GetStaticField(0x35108);
 		}
-		static ::System::Action** StaticGet___9__78_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIBossChallengePageController___c_TypeDefinitionIndex)->GetStaticField(0x32BF0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIBossChallengePageController___c_TypeDefinitionIndex)->GetStaticField(0x35110);
 		}
 
 		static ::System::Void _cctor()
@@ -41,14 +41,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RefreshShopBtnState_b__60_2(::Class_1_F57D00757009D1EB* good)
+		::System::Boolean _RefreshShopBtnState_b__61_2(::LHIPCHKEHME* good)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F57D00757009D1EB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__REFRESHSHOPBTNSTATE_B__60_2_OFFSET))(this, good);
+			return ((::System::Boolean(*)(::PVOID, ::LHIPCHKEHME*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__REFRESHSHOPBTNSTATE_B__61_2_OFFSET))(this, good);
 		}
 
-		::System::Void _OnMainCityBtnClick_b__78_0()
+		::System::Void _OnMainCityBtnClick_b__79_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__ONMAINCITYBTNCLICK_B__78_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIBOSSCHALLENGEPAGECONTROLLER___C__ONMAINCITYBTNCLICK_B__79_0_OFFSET))(this);
 		}
 	};
 }

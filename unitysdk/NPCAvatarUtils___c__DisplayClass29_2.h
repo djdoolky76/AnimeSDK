@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 
 class NPCAvatarMeshAssetsSO_FNPCAvatarLodMeshAssets;
-class NPCAvatarUtils___c__DisplayClass29_0;
 
-#define NPCAVATARUTILS___C__DISPLAYCLASS29_2__CTOR_OFFSET UNITYSDK_OFFSET(0x11270560)
-#define NPCAVATARUTILS___C__DISPLAYCLASS29_2__ISLODRESVALID_B__1_OFFSET UNITYSDK_OFFSET(0x11270570)
+#define NPCAVATARUTILS___C__DISPLAYCLASS29_2__CTOR_OFFSET UNITYSDK_OFFSET(0x11F8FFA0)
+#define NPCAVATARUTILS___C__DISPLAYCLASS29_2__ISLODRESVALID_B__1_OFFSET UNITYSDK_OFFSET(0x11F8FFB0)
 
-inline static constexpr unsigned int NPCAvatarUtils___c__DisplayClass29_2_TypeDefinitionIndex = 53560;
+inline static constexpr unsigned int NPCAvatarUtils___c__DisplayClass29_2_TypeDefinitionIndex = 47747;
 
+template <typename T1, typename T2>
 class NPCAvatarUtils___c__DisplayClass29_2 : public ::System::Object
 {
 public:
-	::NPCAvatarUtils___c__DisplayClass29_0* CS___8__locals2; // 0x10
+	::System::Object* CS___8__locals2; // 0x10
 	::System::Int32 i; // 0x18
 
 	::System::Void _ctor()

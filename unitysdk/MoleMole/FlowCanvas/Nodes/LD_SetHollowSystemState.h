@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/FlowCanvas/Nodes/HollowSystemStateType.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowInput; }
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETHOLLOWSYSTEMSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19081CD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETHOLLOWSYSTEMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19081DC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETHOLLOWSYSTEMSTATE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x19081E00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETHOLLOWSYSTEMSTATE_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x180E87C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETHOLLOWSYSTEMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x180E88B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SETHOLLOWSYSTEMSTATE__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x180E88F0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SetHollowSystemState_TypeDefinitionIndex = 70767;
+	inline static constexpr unsigned int LD_SetHollowSystemState_TypeDefinitionIndex = 40921;
 
 	class LD_SetHollowSystemState : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::FlowCanvas::FlowOutput* Finish; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::HollowSystemStateType>* SystemState; // 0xB0
-		::FlowCanvas::FlowInput* In; // 0xB8
+		::FlowCanvas::ValueInput_1<::MoleMole::FlowCanvas::Nodes::HollowSystemStateType>* SystemState; // 0xA8
+		::FlowCanvas::FlowInput* In; // 0xB0
+		::FlowCanvas::FlowOutput* Finish; // 0xB8
 
 		::System::Void _ctor()
 		{

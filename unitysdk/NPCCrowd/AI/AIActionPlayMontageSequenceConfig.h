@@ -5,14 +5,14 @@
 #include "unitysdk/NPCCrowd/Animation/ClipSequenceMontageData.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NPCCROWD_AI_AIACTIONPLAYMONTAGESEQUENCECONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x462E70)
-#define NPCCROWD_AI_AIACTIONPLAYMONTAGESEQUENCECONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x462EC0)
+#define NPCCROWD_AI_AIACTIONPLAYMONTAGESEQUENCECONFIG_GETBASEACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x6FE780)
+#define NPCCROWD_AI_AIACTIONPLAYMONTAGESEQUENCECONFIG_ISMULTITHREAD_OFFSET UNITYSDK_OFFSET(0x6FE7D0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int AIActionPlayMontageSequenceConfig_TypeDefinitionIndex = 80873;
+	inline static constexpr unsigned int AIActionPlayMontageSequenceConfig_TypeDefinitionIndex = 87092;
 
-	struct alignas(8) AIActionPlayMontageSequenceConfig
+	struct alignas(4) AIActionPlayMontageSequenceConfig
 	{
 		::NPCCrowd::AI::BaseActionConfig baseConfig; // 0x10
 		::NPCCrowd::Animation::ClipSequenceMontageData sequenceData; // 0x18

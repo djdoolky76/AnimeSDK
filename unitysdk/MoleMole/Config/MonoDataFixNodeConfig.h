@@ -5,20 +5,22 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_MONODATAFIXNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C470800)
+#define MOLEMOLE_CONFIG_MONODATAFIXNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E6BC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int MonoDataFixNodeConfig_TypeDefinitionIndex = 42365;
+	inline static constexpr unsigned int MonoDataFixNodeConfig_TypeDefinitionIndex = 59499;
 
 	class MonoDataFixNodeConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single DataFixCwRotateTime; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* DataFixCwRotateCurve; // 0x20
 		::Il2CppArray<::UnityEngine::Color>* DataFixColors; // 0x28
 		::Il2CppArray<::UnityEngine::Color>* DataFixColorsUnConnect; // 0x30
 		::System::Single DataFixResetCCWTime; // 0x38
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* DataFixResetCCWCurve; // 0x40
 		::System::Single DataFixResetRatio; // 0x48
 		::System::Single DataFixConnectUpdateInterval; // 0x4C

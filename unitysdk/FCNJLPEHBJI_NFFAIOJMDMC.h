@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BPHGNMNLLHF;
+class COEFFKLAFJH;
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+
+#define FCNJLPEHBJI_NFFAIOJMDMC_EJABHIAHIAN_OFFSET UNITYSDK_OFFSET(0x13202E50)
+#define FCNJLPEHBJI_NFFAIOJMDMC_IFDPKDOFOJD_1_OFFSET UNITYSDK_OFFSET(0x13202BC0)
+#define FCNJLPEHBJI_NFFAIOJMDMC_IFDPKDOFOJD_OFFSET UNITYSDK_OFFSET(0x13202B20)
+#define FCNJLPEHBJI_NFFAIOJMDMC_NLLCCPLIENG_OFFSET UNITYSDK_OFFSET(0x13202DD0)
+
+inline static constexpr unsigned int FCNJLPEHBJI_NFFAIOJMDMC_TypeDefinitionIndex = 43197;
+
+class FCNJLPEHBJI_NFFAIOJMDMC : public ::System::Object
+{
+public:
+	static ::COEFFKLAFJH* IFDPKDOFOJD(::BPHGNMNLLHF* JGHNEGMOGHC, ::System::Boolean DPHGAMODKLB)
+	{
+		return ((::COEFFKLAFJH*(*)(::BPHGNMNLLHF*, ::System::Boolean))((::PBYTE)hIl2Cpp + FCNJLPEHBJI_NFFAIOJMDMC_IFDPKDOFOJD_OFFSET))(JGHNEGMOGHC, DPHGAMODKLB);
+	}
+
+	static ::System::Collections::Generic::IReadOnlyList_1<::COEFFKLAFJH*>* EJABHIAHIAN(::System::Boolean OKABJLMDLON)
+	{
+		return ((::System::Collections::Generic::IReadOnlyList_1<::COEFFKLAFJH*>*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + FCNJLPEHBJI_NFFAIOJMDMC_EJABHIAHIAN_OFFSET))(OKABJLMDLON);
+	}
+
+	static ::COEFFKLAFJH* IFDPKDOFOJD_1(::System::Int32 PKMFBJMJCOO, ::System::Boolean DPHGAMODKLB)
+	{
+		return ((::COEFFKLAFJH*(*)(::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + FCNJLPEHBJI_NFFAIOJMDMC_IFDPKDOFOJD_1_OFFSET))(PKMFBJMJCOO, DPHGAMODKLB);
+	}
+
+	static ::COEFFKLAFJH* NLLCCPLIENG(::System::Int32 CJPLACFCFBP)
+	{
+		return ((::COEFFKLAFJH*(*)(::System::Int32))((::PBYTE)hIl2Cpp + FCNJLPEHBJI_NFFAIOJMDMC_NLLCCPLIENG_OFFSET))(CJPLACFCFBP);
+	}
+};

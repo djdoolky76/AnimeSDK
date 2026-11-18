@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERCREATEDATABASE_HIDEMONSTERID_OFFSET UNITYSDK_OFFSET(0x16853200)
-#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERCREATEDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x168531B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERCREATEDATABASE_HIDEMONSTERID_OFFSET UNITYSDK_OFFSET(0x10D1DF90)
+#define MOLEMOLE_FLOWCANVAS_NODES_MONSTERCREATEDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D1DF40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int MonsterCreateDataBase_TypeDefinitionIndex = 85994;
+	inline static constexpr unsigned int MonsterCreateDataBase_TypeDefinitionIndex = 90649;
 
 	class MonsterCreateDataBase : public ::System::Object
 	{
@@ -21,6 +21,7 @@ namespace MoleMole::FlowCanvas::Nodes
 		::System::Int32 monsterId; // 0x18
 		::System::Int32 monsterMappingID; // 0x1C
 		::System::Int32 AIID; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::String* anchorName; // 0x28
 		::UnityEngine::Vector3 anchorOffset; // 0x30
 		::System::Single createInterval; // 0x3C

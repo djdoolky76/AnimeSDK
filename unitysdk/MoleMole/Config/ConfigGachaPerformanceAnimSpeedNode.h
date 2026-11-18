@@ -3,22 +3,22 @@
 #include "unitysdk/MoleMole/Config/ConfigGachaPerformanceAnimSpeedNode_GachaPerformanceAnimSpeed.h"
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEANIMSPEEDNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x16C3F6E0)
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEANIMSPEEDNODE_IFSHOWOFFSETTIME_OFFSET UNITYSDK_OFFSET(0x16C3F750)
-#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEANIMSPEEDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C3F7A0)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEANIMSPEEDNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1A02C580)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEANIMSPEEDNODE_IFSHOWOFFSETTIME_OFFSET UNITYSDK_OFFSET(0x1A02C5F0)
+#define MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEANIMSPEEDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A02C640)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigGachaPerformanceAnimSpeedNode_TypeDefinitionIndex = 61174;
+	inline static constexpr unsigned int ConfigGachaPerformanceAnimSpeedNode_TypeDefinitionIndex = 89375;
 
 	class ConfigGachaPerformanceAnimSpeedNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
 	public:
-		::System::String* AnimCompKey; // 0x18
-		::System::String* OffsetTime; // 0x20
+		::System::String* OffsetTime; // 0x18
+		::System::String* AnimCompKey; // 0x20
 		::MoleMole::Config::ConfigGachaPerformanceAnimSpeedNode_GachaPerformanceAnimSpeed Speed; // 0x28
 
 		::System::Void _ctor()
@@ -26,9 +26,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEANIMSPEEDNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEANIMSPEEDNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGGACHAPERFORMANCEANIMSPEEDNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 
 		::System::Boolean IfShowOffsetTime()

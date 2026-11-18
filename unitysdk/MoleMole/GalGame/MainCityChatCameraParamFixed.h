@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GalGame/MainCityChatCameraParam.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/PipelineCamera/CameraVariableFetchContext_1.h"
 #include "unitysdk/PipelineCamera/WorldBasicCameraData.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
 namespace MoleMole { class UIMainCityChatPlayWidgetController; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED_GENERATECAMERAFUNC_OFFSET UNITYSDK_OFFSET(0x19B18D50)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED__CTOR_OFFSET UNITYSDK_OFFSET(0x19B18DE0)
-#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED__GENERATECAMERAFUNC_B__3_0_OFFSET UNITYSDK_OFFSET(0x19B18DF0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED_GENERATECAMERAFUNC_OFFSET UNITYSDK_OFFSET(0x1A8F64B0)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F6540)
+#define MOLEMOLE_GALGAME_MAINCITYCHATCAMERAPARAMFIXED__GENERATECAMERAFUNC_B__3_0_OFFSET UNITYSDK_OFFSET(0x1A8F6550)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int MainCityChatCameraParamFixed_TypeDefinitionIndex = 85799;
+	inline static constexpr unsigned int MainCityChatCameraParamFixed_TypeDefinitionIndex = 63914;
 
 	class MainCityChatCameraParamFixed : public ::MoleMole::GalGame::MainCityChatCameraParam
 	{

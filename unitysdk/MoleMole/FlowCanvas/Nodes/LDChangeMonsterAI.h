@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 namespace MoleMole::Battle { class Entity; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI_PROCESSCHANGEAI_OFFSET UNITYSDK_OFFSET(0x1B19AFD0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B19AEB0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI__CTOR_OFFSET UNITYSDK_OFFSET(0x1B19B3D0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1B19B410)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI_PROCESSCHANGEAI_OFFSET UNITYSDK_OFFSET(0x1B4ACE20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1B4ACD00)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AD220)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDCHANGEMONSTERAI__REGISTERPORTS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1B4AD260)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDChangeMonsterAI_TypeDefinitionIndex = 87145;
+	inline static constexpr unsigned int LDChangeMonsterAI_TypeDefinitionIndex = 90413;
 
 	class LDChangeMonsterAI : public ::FlowCanvas::Nodes::FlowControlNode
 	{

@@ -3,28 +3,25 @@
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 
 namespace MoleMole { class ConfigCameraTelescope; }
-namespace MoleMole { class ConfigUIStoreCamera_KeyValueInfo_StorePage; }
-namespace MoleMole { class ConfigUIStoreCamera_KeyValueInfo_TelesConfig; }
-namespace MoleMole { class ConfigUIStoreCamera_KeyValueInfo_VirCamConfig; }
-namespace MoleMole { class ConfigUIStoreCamera_KeyValueInfo_VirCamMultiStores; }
 namespace MoleMole { class UIStorePageConfig; }
 namespace MoleMole { class UIVirtualCameraConfigs; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIGUISTORECAMERA_GETUICAMERATELESCOPECONFIG_OFFSET UNITYSDK_OFFSET(0x1B579EC0)
-#define MOLEMOLE_CONFIGUISTORECAMERA_GETUISTOREPAGECONFIG_OFFSET UNITYSDK_OFFSET(0x1B579DE0)
-#define MOLEMOLE_CONFIGUISTORECAMERA_GETUIVIRTUALCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x1B579D00)
-#define MOLEMOLE_CONFIGUISTORECAMERA_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B5793A0)
-#define MOLEMOLE_CONFIGUISTORECAMERA_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B578CA0)
-#define MOLEMOLE_CONFIGUISTORECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B579FA0)
-#define MOLEMOLE_CONFIGUISTORECAMERA___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B57A340)
-#define MOLEMOLE_CONFIGUISTORECAMERA___BASE_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B57A350)
+#define MOLEMOLE_CONFIGUISTORECAMERA_GETUICAMERATELESCOPECONFIG_OFFSET UNITYSDK_OFFSET(0x1BA5DDC0)
+#define MOLEMOLE_CONFIGUISTORECAMERA_GETUISTOREPAGECONFIG_OFFSET UNITYSDK_OFFSET(0x1BA5DCE0)
+#define MOLEMOLE_CONFIGUISTORECAMERA_GETUIVIRTUALCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x1BA5DC00)
+#define MOLEMOLE_CONFIGUISTORECAMERA_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BA5D290)
+#define MOLEMOLE_CONFIGUISTORECAMERA_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BA5CB90)
+#define MOLEMOLE_CONFIGUISTORECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA5DEA0)
+#define MOLEMOLE_CONFIGUISTORECAMERA___BASE_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BA5E240)
+#define MOLEMOLE_CONFIGUISTORECAMERA___BASE_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BA5E250)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIStoreCamera_TypeDefinitionIndex = 54103;
+	inline static constexpr unsigned int ConfigUIStoreCamera_TypeDefinitionIndex = 54172;
 
 	class ConfigUIStoreCamera : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -33,10 +30,10 @@ namespace MoleMole
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::UIVirtualCameraConfigs*>* virtualCameraConfig; // 0x60
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::UIStorePageConfig*>* storePageConfig; // 0x68
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::ConfigCameraTelescope*>* telescopeConfig; // 0x70
-		::System::Collections::Generic::List_1<::MoleMole::ConfigUIStoreCamera_KeyValueInfo_VirCamMultiStores*>* KeyValueInfoList; // 0x78
-		::System::Collections::Generic::List_1<::MoleMole::ConfigUIStoreCamera_KeyValueInfo_VirCamConfig*>* KeyValueInfoList1; // 0x80
-		::System::Collections::Generic::List_1<::MoleMole::ConfigUIStoreCamera_KeyValueInfo_StorePage*>* KeyValueInfoList2; // 0x88
-		::System::Collections::Generic::List_1<::MoleMole::ConfigUIStoreCamera_KeyValueInfo_TelesConfig*>* KeyValueInfoList3; // 0x90
+		::System::Collections::Generic::List_1<::System::Object*>* KeyValueInfoList; // 0x78
+		::System::Collections::Generic::List_1<::System::Object*>* KeyValueInfoList1; // 0x80
+		::System::Collections::Generic::List_1<::System::Object*>* KeyValueInfoList2; // 0x88
+		::System::Collections::Generic::List_1<::System::Object*>* KeyValueInfoList3; // 0x90
 
 		::System::Void _ctor()
 		{

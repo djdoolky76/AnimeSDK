@@ -5,22 +5,22 @@
 class SceneMeshCulledManager_MyTrigger;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SCENEMESHCULLEDMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE8CC40)
-#define SCENEMESHCULLEDMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8CC80)
-#define SCENEMESHCULLEDMANAGER___C__INVISBLEMESH_B__14_0_OFFSET UNITYSDK_OFFSET(0x1DE8CC90)
+#define SCENEMESHCULLEDMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2CA150)
+#define SCENEMESHCULLEDMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2CA190)
+#define SCENEMESHCULLEDMANAGER___C__INVISBLEMESH_B__14_0_OFFSET UNITYSDK_OFFSET(0x1C2CA1A0)
 
-inline static constexpr unsigned int SceneMeshCulledManager___c_TypeDefinitionIndex = 52119;
+inline static constexpr unsigned int SceneMeshCulledManager___c_TypeDefinitionIndex = 65640;
 
 class SceneMeshCulledManager___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::SceneMeshCulledManager_MyTrigger*, ::System::Boolean>** StaticGet___9__14_0()
+	static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__14_0()
 	{
-		return (::System::Func_2<::SceneMeshCulledManager_MyTrigger*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SceneMeshCulledManager___c_TypeDefinitionIndex)->GetStaticField(0x437D0);
+		return (::System::Func_2<::System::Object*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SceneMeshCulledManager___c_TypeDefinitionIndex)->GetStaticField(0x49450);
 	}
-	static ::SceneMeshCulledManager___c** StaticGet___9()
+	static ::System::Object** StaticGet___9()
 	{
-		return (::SceneMeshCulledManager___c**)Il2CppClass::FromTypeDefinitionIndex(SceneMeshCulledManager___c_TypeDefinitionIndex)->GetStaticField(0x437D8);
+		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(SceneMeshCulledManager___c_TypeDefinitionIndex)->GetStaticField(0x49458);
 	}
 
 	static ::System::Void _cctor()

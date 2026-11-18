@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigChessboardPieceProxyModel_PieceProxyModelActionType_TypeDefinitionIndex = 60646;
+	inline static constexpr unsigned int ConfigChessboardPieceProxyModel_PieceProxyModelActionType_TypeDefinitionIndex = 87971;
 
 	enum class ConfigChessboardPieceProxyModel_PieceProxyModelActionType : ::System::Int32
 	{

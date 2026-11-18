@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERNAMES_ISSCENELITSHADER_OFFSET UNITYSDK_OFFSET(0x1E265560)
+#define UNITYENGINE_RENDERING_UNIVERSAL_SHADERNAMES_ISSCENELITSHADER_OFFSET UNITYSDK_OFFSET(0x1E382DA0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int ShaderNames_TypeDefinitionIndex = 27738;
+	inline static constexpr unsigned int ShaderNames_TypeDefinitionIndex = 26925;
 
 	class ShaderNames : public ::System::Object
 	{
@@ -29,6 +29,8 @@ namespace UnityEngine::Rendering::Universal
 		// static const ::System::String* kLitSpeedTree; // 0x0
 		// static const ::System::String* kLitMoss; // 0x0
 		// static const ::System::String* kLitTelevision; // 0x0
+		// static const ::System::String* kLitBillboardTerrain; // 0x0
+		// static const ::System::String* kLitBillboardGrass; // 0x0
 
 		static ::System::Boolean IsSceneLitShader(::System::String*& shaderName)
 		{

@@ -2,12 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace SQLite { class SQLiteConnectionWithLock; }
 namespace SQLite { template <typename T> class AsyncTableQuery_1; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int AsyncTableQuery_1___c__DisplayClass15_0_TypeDefinitionIndex = 39145;
+	inline static constexpr unsigned int AsyncTableQuery_1___c__DisplayClass15_0_TypeDefinitionIndex = 37145;
 
 	template <typename T>
 	class AsyncTableQuery_1___c__DisplayClass15_0 : public ::System::Object

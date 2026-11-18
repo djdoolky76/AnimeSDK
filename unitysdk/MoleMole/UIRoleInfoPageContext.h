@@ -1,35 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_CDAC16D6E8EB95EB.h"
+#include "unitysdk/BLEMFNFDGPD.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_2CCC5D7984CDCED4;
-class Class_2_1824EF69C8E376A3;
+class BPHGNMNLLHF;
+class KJIEDDLNJFC;
 namespace MoleMole { class UIGeneralTokenContext; }
 namespace MoleMole { class UITokenShowConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIROLEINFOPAGECONTEXT_CONSTRUCT_OFFSET UNITYSDK_OFFSET(0x17597700)
-#define MOLEMOLE_UIROLEINFOPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17597A90)
+#define MOLEMOLE_UIROLEINFOPAGECONTEXT_CONSTRUCT_OFFSET UNITYSDK_OFFSET(0x1900F400)
+#define MOLEMOLE_UIROLEINFOPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1900F790)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRoleInfoPageContext_TypeDefinitionIndex = 58640;
+	inline static constexpr unsigned int UIRoleInfoPageContext_TypeDefinitionIndex = 61277;
 
 	class UIRoleInfoPageContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_2CCC5D7984CDCED4*>* _allItems; // 0x28
-		::Class_2_1824EF69C8E376A3* avatarData; // 0x30
-		::System::Int32 targetSubType; // 0x38
-		::System::Boolean forceClickEquip; // 0x3C
-		::System::Boolean forceFriendPreviewMode; // 0x3D
-		::System::Boolean forceOpenWeaponRecommend; // 0x3E
-		::System::Boolean IsFadeInWithBlack; // 0x3F
-		::System::Boolean forceClickWeapon; // 0x40
-		::System::Boolean forcePreviewMode; // 0x41
-		::System::Boolean forceOpenEquipRecommend; // 0x42
-		::Enum_3_CDAC16D6E8EB95EB _usage; // 0x44
+		::System::Collections::Generic::List_1<::KJIEDDLNJFC*>* _allItems; // 0x28
+		::BPHGNMNLLHF* avatarData; // 0x30
+		::System::Int32 forceSelectSkillType; // 0x38
+		::System::Boolean forcePreviewMode; // 0x3C
+		::System::Boolean forceClickWeapon; // 0x3D
+		::System::Boolean forceClickMindscape; // 0x3E
+		::System::Boolean playEquipRecommendChoiceAnimation; // 0x3F
+		::System::Int32 targetSubType; // 0x40
+		::BLEMFNFDGPD _usage; // 0x44
+		::System::Boolean forceFriendPreviewMode; // 0x48
+		::System::Boolean forceClickEquip; // 0x49
+		::System::Boolean forceOpenWeaponRecommend; // 0x4A
+		::System::Boolean IsFadeInWithBlack; // 0x4B
+		::System::Boolean forceOpenEquipRecommend; // 0x4C
+		::System::Byte _padding0[0x3];
+		::System::UInt64 forceSelectWeaponUid; // 0x50
 
 		::System::Void _ctor()
 		{

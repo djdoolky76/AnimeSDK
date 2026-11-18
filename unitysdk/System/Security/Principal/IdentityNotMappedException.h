@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Security::Principal { class IdentityReferenceCollection; }
 
-#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYNOTMAPPEDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1D819EF0)
-#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYNOTMAPPEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D819E60)
-#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYNOTMAPPEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D819DA0)
+#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYNOTMAPPEDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1DD21660)
+#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYNOTMAPPEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DD215D0)
+#define SYSTEM_SECURITY_PRINCIPAL_IDENTITYNOTMAPPEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD21510)
 
 namespace System::Security::Principal
 {
-	inline static constexpr unsigned int IdentityNotMappedException_TypeDefinitionIndex = 1018;
+	inline static constexpr unsigned int IdentityNotMappedException_TypeDefinitionIndex = 1017;
 
 	class IdentityNotMappedException : public ::System::SystemException
 	{

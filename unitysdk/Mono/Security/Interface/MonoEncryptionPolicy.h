@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int MonoEncryptionPolicy_TypeDefinitionIndex = 2438;
+	inline static constexpr unsigned int MonoEncryptionPolicy_TypeDefinitionIndex = 2437;
 
 	enum class MonoEncryptionPolicy : ::System::Int32
 	{

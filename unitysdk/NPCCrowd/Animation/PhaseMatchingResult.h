@@ -1,13 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
-#define NPCCROWD_ANIMATION_PHASEMATCHINGRESULT_GET_COMPAREVECTOR_OFFSET UNITYSDK_OFFSET(0x69E870)
-#define NPCCROWD_ANIMATION_PHASEMATCHINGRESULT_UPDATE_OFFSET UNITYSDK_OFFSET(0x69E820)
+#define NPCCROWD_ANIMATION_PHASEMATCHINGRESULT_GET_COMPAREVECTOR_OFFSET UNITYSDK_OFFSET(0x7099A0)
+#define NPCCROWD_ANIMATION_PHASEMATCHINGRESULT_UPDATE_OFFSET UNITYSDK_OFFSET(0x709950)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int PhaseMatchingResult_TypeDefinitionIndex = 76925;
+	inline static constexpr unsigned int PhaseMatchingResult_TypeDefinitionIndex = 83333;
 
 	struct alignas(4) PhaseMatchingResult
 	{
@@ -17,16 +18,16 @@ namespace NPCCrowd::Animation
 		::System::Single Delta; // 0x14
 		::System::Single DeltaDerivative; // 0x18
 
+		/*
 		::System::Boolean Update(::NPCCrowd::Animation::PhaseMatchingResult result)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::NPCCrowd::Animation::PhaseMatchingResult))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASEMATCHINGRESULT_UPDATE_OFFSET))(this, result);
 		}
+		*/
 
-		/*
 		::UnityEngine::Vector2 get_CompareVector()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_PHASEMATCHINGRESULT_GET_COMPAREVECTOR_OFFSET))(this);
 		}
-		*/
 	};
 }

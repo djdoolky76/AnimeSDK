@@ -5,16 +5,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_KIBANANETBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B87A0)
+#define MIHOYO_SDK_KIBANANETBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D835E10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaNetBoxConfig_TypeDefinitionIndex = 20023;
+	inline static constexpr unsigned int KibanaNetBoxConfig_TypeDefinitionIndex = 19169;
 
 	class KibanaNetBoxConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean enable; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::System::Int32>* status_codes; // 0x18
 		::System::Collections::Generic::List_1<::System::String*>* url_paths; // 0x20
 

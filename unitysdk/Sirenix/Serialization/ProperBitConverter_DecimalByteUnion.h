@@ -5,11 +5,12 @@
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ProperBitConverter_DecimalByteUnion_TypeDefinitionIndex = 7528;
+	inline static constexpr unsigned int ProperBitConverter_DecimalByteUnion_TypeDefinitionIndex = 7536;
 
 	struct alignas(4) ProperBitConverter_DecimalByteUnion
 	{
 		::System::Byte Byte0; // 0x10
+		::System::Decimal Value; // 0x10
 		::System::Byte Byte1; // 0x11
 		::System::Byte Byte2; // 0x12
 		::System::Byte Byte3; // 0x13
@@ -25,6 +26,5 @@ namespace Sirenix::Serialization
 		::System::Byte Byte13; // 0x1D
 		::System::Byte Byte14; // 0x1E
 		::System::Byte Byte15; // 0x1F
-		::System::Decimal Value; // 0x10
 	};
 }

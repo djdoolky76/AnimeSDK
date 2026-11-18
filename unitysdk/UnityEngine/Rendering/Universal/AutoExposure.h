@@ -7,12 +7,12 @@ namespace UnityEngine::NAPRenderPipeline0 { class ClampedFloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class FloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class FloatRangeParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_AUTOEXPOSURE_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1E78D120)
-#define UNITYENGINE_RENDERING_UNIVERSAL_AUTOEXPOSURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78D190)
+#define UNITYENGINE_RENDERING_UNIVERSAL_AUTOEXPOSURE_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1EA3E2B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_AUTOEXPOSURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3E320)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int AutoExposure_TypeDefinitionIndex = 27374;
+	inline static constexpr unsigned int AutoExposure_TypeDefinitionIndex = 26964;
 
 	class AutoExposure : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{

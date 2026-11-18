@@ -3,7 +3,7 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolverVR_RotationOffset_TypeDefinitionIndex = 38950;
+	inline static constexpr unsigned int IKSolverVR_RotationOffset_TypeDefinitionIndex = 37015;
 
 	enum class IKSolverVR_RotationOffset : ::System::Int32
 	{

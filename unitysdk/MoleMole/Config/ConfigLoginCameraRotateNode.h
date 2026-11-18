@@ -3,15 +3,15 @@
 #include "unitysdk/MoleMole/Config/ConfigUIBaseActionNode.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_CONFIG_CONFIGLOGINCAMERAROTATENODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1B54EA90)
-#define MOLEMOLE_CONFIG_CONFIGLOGINCAMERAROTATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54EB00)
+#define MOLEMOLE_CONFIG_CONFIGLOGINCAMERAROTATENODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x1BA2E900)
+#define MOLEMOLE_CONFIG_CONFIGLOGINCAMERAROTATENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2E970)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigLoginCameraRotateNode_TypeDefinitionIndex = 89216;
+	inline static constexpr unsigned int ConfigLoginCameraRotateNode_TypeDefinitionIndex = 50797;
 
 	class ConfigLoginCameraRotateNode : public ::MoleMole::Config::ConfigUIBaseActionNode
 	{
@@ -25,9 +25,9 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOGINCAMERAROTATENODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOGINCAMERAROTATENODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGLOGINCAMERAROTATENODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

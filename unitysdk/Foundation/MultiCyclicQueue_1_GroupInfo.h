@@ -4,10 +4,10 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int MultiCyclicQueue_1_GroupInfo_TypeDefinitionIndex = 7891;
+	inline static constexpr unsigned int MultiCyclicQueue_1_GroupInfo_TypeDefinitionIndex = 8360;
 
-	template <typename TItem>
-	struct MultiCyclicQueue_1_GroupInfo
+	template <typename T>
+	struct alignas(4) MultiCyclicQueue_1_GroupInfo
 	{
 		::System::Int32 Entrance; // 0x0
 		::System::Int32 ItemCount; // 0x0

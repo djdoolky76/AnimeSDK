@@ -3,16 +3,16 @@
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphFeaturePointConfig_FeaturePointType_TypeDefinitionIndex = 84751;
+	inline static constexpr unsigned int PathGraphFeaturePointConfig_FeaturePointType_TypeDefinitionIndex = 91302;
 
 	enum class PathGraphFeaturePointConfig_FeaturePointType : ::System::Int32
 	{
-		None = 0,
 		SpawnPoint = 1,
 		BatchSpawnPoint = 5,
-		GuidePoint = 4,
-		CrossingPoint = 3,
-		ExitPoint = 2,
 		SplineSpawnPoint = 6,
+		CrossingPoint = 3,
+		GuidePoint = 4,
+		ExitPoint = 2,
+		None = 0,
 	};
 }

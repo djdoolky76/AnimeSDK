@@ -1,26 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/ObjectModel/Collection_1.h"
-#include "unitysdk/System/ComponentModel/ListChangedType.h"
-#include "unitysdk/System/ComponentModel/ListSortDirection.h"
 
-namespace System { class Object; }
-namespace System::Collections::Generic { template <typename T> class IList_1; }
-namespace System::ComponentModel { class AddingNewEventArgs; }
 namespace System::ComponentModel { class AddingNewEventHandler; }
-namespace System::ComponentModel { class ListChangedEventArgs; }
 namespace System::ComponentModel { class ListChangedEventHandler; }
-namespace System::ComponentModel { class PropertyChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventHandler; }
-namespace System::ComponentModel { class PropertyDescriptor; }
 namespace System::ComponentModel { class PropertyDescriptorCollection; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int BindingList_1_TypeDefinitionIndex = 2824;
+	inline static constexpr unsigned int BindingList_1_TypeDefinitionIndex = 2823;
 
 	template <typename T>
-	class BindingList_1 : public ::System::Collections::ObjectModel::Collection_1<T>
+	class BindingList_1
 	{
 	public:
 		::System::Int32 addNewPos; // 0x0

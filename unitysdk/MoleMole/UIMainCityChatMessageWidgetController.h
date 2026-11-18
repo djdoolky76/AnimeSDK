@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIWidgetController.h"
 
-#define MOLEMOLE_UIMAINCITYCHATMESSAGEWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16519160)
+#define MOLEMOLE_UIMAINCITYCHATMESSAGEWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x14C90190)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIMainCityChatMessageWidgetController_TypeDefinitionIndex = 86544;
+	inline static constexpr unsigned int UIMainCityChatMessageWidgetController_TypeDefinitionIndex = 72809;
 
 	class UIMainCityChatMessageWidgetController : public ::MoleMole::UIWidgetController
 	{

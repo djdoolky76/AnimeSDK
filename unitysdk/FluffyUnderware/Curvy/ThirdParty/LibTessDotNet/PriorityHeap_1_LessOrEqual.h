@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace System { class AsyncCallback; }
-namespace System { class IAsyncResult; }
-namespace System { class Object; }
-
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int PriorityHeap_1_LessOrEqual_TypeDefinitionIndex = 29035;
+	inline static constexpr unsigned int PriorityHeap_1_LessOrEqual_TypeDefinitionIndex = 28474;
 
-	template <typename TValue>
+	template <typename T>
 	class PriorityHeap_1_LessOrEqual : public ::System::MulticastDelegate
 	{
 	public:

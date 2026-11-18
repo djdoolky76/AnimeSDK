@@ -4,16 +4,17 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_USERQUERYXBOXEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEACD70)
+#define MIHOYO_SDK_PC_OS_USERQUERYXBOXEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4AF4A0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int UserQueryXboxExtension_TypeDefinitionIndex = 20735;
+	inline static constexpr unsigned int UserQueryXboxExtension_TypeDefinitionIndex = 19939;
 
 	class UserQueryXboxExtension : public ::System::Object
 	{
 	public:
 		::System::Boolean isStoreUser; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::String* sandboxId; // 0x18
 		::System::String* countryCode; // 0x20
 

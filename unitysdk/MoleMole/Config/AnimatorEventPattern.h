@@ -6,24 +6,24 @@ namespace MoleMole::Config { class AnimatorEvent; }
 namespace MoleMole::Config { class AnimatorEventEntry; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTPATTERN_CHECKENTRIES_OFFSET UNITYSDK_OFFSET(0x150E7DE0)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTPATTERN_ONPATTERNNAMECHANGED_OFFSET UNITYSDK_OFFSET(0x150E7D90)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTPATTERN_ONREMOVETAG_OFFSET UNITYSDK_OFFSET(0x150E7E80)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0x150E7ED0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTPATTERN_CHECKENTRIES_OFFSET UNITYSDK_OFFSET(0x19227B40)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTPATTERN_ONPATTERNNAMECHANGED_OFFSET UNITYSDK_OFFSET(0x19227AF0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTPATTERN_ONREMOVETAG_OFFSET UNITYSDK_OFFSET(0x19227BE0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTPATTERN__CTOR_OFFSET UNITYSDK_OFFSET(0x19227C30)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventPattern_TypeDefinitionIndex = 54912;
+	inline static constexpr unsigned int AnimatorEventPattern_TypeDefinitionIndex = 68935;
 
 	class AnimatorEventPattern : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::MoleMole::Config::AnimatorEventEntry*>* entries; // 0x10
-		::Il2CppArray<::MoleMole::Config::AnimatorEvent*>* animatorEvents; // 0x18
-		::System::String* _prevName; // 0x20
-		::System::String* name; // 0x28
-		::System::Int32 curEntryNum; // 0x30
-		::System::Int32 _allocatedEntries; // 0x34
+		::System::String* _prevName; // 0x10
+		::System::String* name; // 0x18
+		::Il2CppArray<::MoleMole::Config::AnimatorEventEntry*>* entries; // 0x20
+		::Il2CppArray<::MoleMole::Config::AnimatorEvent*>* animatorEvents; // 0x28
+		::System::Int32 _allocatedEntries; // 0x30
+		::System::Int32 curEntryNum; // 0x34
 
 		::System::Void _ctor()
 		{

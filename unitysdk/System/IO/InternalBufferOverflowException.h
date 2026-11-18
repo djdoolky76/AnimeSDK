@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_IO_INTERNALBUFFEROVERFLOWEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DB82CC0)
-#define SYSTEM_IO_INTERNALBUFFEROVERFLOWEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DB82D50)
-#define SYSTEM_IO_INTERNALBUFFEROVERFLOWEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1DB82DA0)
-#define SYSTEM_IO_INTERNALBUFFEROVERFLOWEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB82C00)
+#define SYSTEM_IO_INTERNALBUFFEROVERFLOWEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DF2AA80)
+#define SYSTEM_IO_INTERNALBUFFEROVERFLOWEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1DF2AB10)
+#define SYSTEM_IO_INTERNALBUFFEROVERFLOWEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1DF2AB60)
+#define SYSTEM_IO_INTERNALBUFFEROVERFLOWEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1DF2A9C0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int InternalBufferOverflowException_TypeDefinitionIndex = 3228;
+	inline static constexpr unsigned int InternalBufferOverflowException_TypeDefinitionIndex = 3227;
 
 	class InternalBufferOverflowException : public ::System::SystemException
 	{

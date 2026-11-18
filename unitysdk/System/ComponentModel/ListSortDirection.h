@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ListSortDirection_TypeDefinitionIndex = 2940;
+	inline static constexpr unsigned int ListSortDirection_TypeDefinitionIndex = 2939;
 
 	enum class ListSortDirection : ::System::Int32
 	{

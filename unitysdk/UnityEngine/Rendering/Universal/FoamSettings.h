@@ -4,16 +4,17 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_FOAMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F1CC0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_FOAMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BF090)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int FoamSettings_TypeDefinitionIndex = 26893;
+	inline static constexpr unsigned int FoamSettings_TypeDefinitionIndex = 26850;
 
 	class FoamSettings : public ::System::Object
 	{
 	public:
 		::System::Int32 foamType; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* basicFoam; // 0x18
 		::UnityEngine::AnimationCurve* liteFoam; // 0x20
 		::UnityEngine::AnimationCurve* mediumFoam; // 0x28

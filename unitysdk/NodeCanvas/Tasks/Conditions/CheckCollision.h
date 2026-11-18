@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ConditionTask_1.h"
 #include "unitysdk/ParadoxNotion/CollisionTypes.h"
-#include "unitysdk/ParadoxNotion/EventData_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/ParadoxNotion/EventData_1.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
-namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class GameObject; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EB79190)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EB79560)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x1EB79580)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x1EB798E0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1EB793D0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EB79240)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB79A90)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1EF21DC0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1EF22190)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x1EF221B0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x1EF22510)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1EF22000)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EF21E70)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKCOLLISION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF226C0)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckCollision_TypeDefinitionIndex = 30571;
+	inline static constexpr unsigned int CheckCollision_TypeDefinitionIndex = 29853;
 
-	class CheckCollision : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Collider*>
+	class CheckCollision
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveGameObjectAs; // 0x60
-		::System::String* objectTag; // 0x68
+		::System::String* objectTag; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveContactPoint; // 0x68
 		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveContactNormal; // 0x70
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::Vector3>* saveContactPoint; // 0x78
-		::System::Boolean specifiedTagOnly; // 0x80
-		::System::Boolean stay; // 0x81
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveGameObjectAs; // 0x78
+		::System::Boolean stay; // 0x80
+		::System::Boolean specifiedTagOnly; // 0x81
+		::System::Byte _padding0[0x2];
 		::ParadoxNotion::CollisionTypes checkType; // 0x84
 
 		::System::Void _ctor()

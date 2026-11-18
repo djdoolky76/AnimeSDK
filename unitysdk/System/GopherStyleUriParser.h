@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/UriParser.h"
 
-#define SYSTEM_GOPHERSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E2330)
+#define SYSTEM_GOPHERSTYLEURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA953D0)
 
 namespace System
 {
-	inline static constexpr unsigned int GopherStyleUriParser_TypeDefinitionIndex = 2683;
+	inline static constexpr unsigned int GopherStyleUriParser_TypeDefinitionIndex = 2682;
 
 	class GopherStyleUriParser : public ::System::UriParser
 	{

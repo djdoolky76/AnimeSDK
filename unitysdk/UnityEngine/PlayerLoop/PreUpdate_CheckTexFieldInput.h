@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreUpdate_CheckTexFieldInput_TypeDefinitionIndex = 5590;
+	inline static constexpr unsigned int PreUpdate_CheckTexFieldInput_TypeDefinitionIndex = 5593;
 
-	struct alignas(1) PreUpdate_CheckTexFieldInput
+	struct alignas(4) PreUpdate_CheckTexFieldInput
 	{
 	};
 }

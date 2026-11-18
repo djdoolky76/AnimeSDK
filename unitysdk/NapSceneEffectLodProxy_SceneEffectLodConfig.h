@@ -9,10 +9,10 @@
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Rendering::Universal::Internal { class INapSceneEffectSimulator; }
 
-#define NAPSCENEEFFECTLODPROXY_SCENEEFFECTLODCONFIG_SETLOD_OFFSET UNITYSDK_OFFSET(0x1C401560)
-#define NAPSCENEEFFECTLODPROXY_SCENEEFFECTLODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C400FC0)
+#define NAPSCENEEFFECTLODPROXY_SCENEEFFECTLODCONFIG_SETLOD_OFFSET UNITYSDK_OFFSET(0x1C827860)
+#define NAPSCENEEFFECTLODPROXY_SCENEEFFECTLODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8272C0)
 
-inline static constexpr unsigned int NapSceneEffectLodProxy_SceneEffectLodConfig_TypeDefinitionIndex = 27395;
+inline static constexpr unsigned int NapSceneEffectLodProxy_SceneEffectLodConfig_TypeDefinitionIndex = 27307;
 
 class NapSceneEffectLodProxy_SceneEffectLodConfig : public ::System::Object
 {

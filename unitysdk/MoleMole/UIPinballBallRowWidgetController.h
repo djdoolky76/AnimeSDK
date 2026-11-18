@@ -1,0 +1,120 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MNKKCBKBILF.h"
+#include "unitysdk/MoleMole/ScrollViewItemWidgetController.h"
+
+class GKEIFMNNDEE;
+class HKCHEGOKELP;
+namespace MoleMole { class UIControlReference; }
+namespace MoleMole { class UIPinballBallRowWidgetController_Data; }
+namespace System { class Object; }
+
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_ONCLICKITEM_OFFSET UNITYSDK_OFFSET(0x17D6A4C0)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x17D69CC0)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_ONITEMSELECT_OFFSET UNITYSDK_OFFSET(0x17D6A870)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x17D69DD0)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x17D69D50)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x17D69B10)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_PDKCHDBODJB_OFFSET UNITYSDK_OFFSET(0x17D69F80)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_PFJCMPHAIPP_OFFSET UNITYSDK_OFFSET(0x17D6AD60)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_PLHMDJBMOEC_OFFSET UNITYSDK_OFFSET(0x17D6A710)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17D6AA60)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER___BASE_ONCLICKITEM_OFFSET UNITYSDK_OFFSET(0x17D6AA70)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET UNITYSDK_OFFSET(0x17D6AA80)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER___BASE_ONITEMSELECT_OFFSET UNITYSDK_OFFSET(0x17D6AB10)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET UNITYSDK_OFFSET(0x17D6ABA0)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET UNITYSDK_OFFSET(0x17D6AC40)
+#define MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET UNITYSDK_OFFSET(0x17D6ACD0)
+
+namespace MoleMole
+{
+	inline static constexpr unsigned int UIPinballBallRowWidgetController_TypeDefinitionIndex = 76899;
+
+	class UIPinballBallRowWidgetController : public ::MoleMole::ScrollViewItemWidgetController
+	{
+	public:
+		::HKCHEGOKELP* _view; // 0x2F8
+		::GKEIFMNNDEE* CEJENBBHBBG; // 0x300
+		::MoleMole::UIPinballBallRowWidgetController_Data* EFFAONJBCOG; // 0x308
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void OnCreateView(::MoleMole::UIControlReference* controlReference)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_ONCREATEVIEW_OFFSET))(this, controlReference);
+		}
+
+		::System::Void OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnScrollItemUpdate(::System::Int32 index, ::System::Object* data, ::System::Boolean init)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_ONSCROLLITEMUPDATE_OFFSET))(this, index, data, init);
+		}
+
+		::System::Void OnClickItem()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_ONCLICKITEM_OFFSET))(this);
+		}
+
+		::System::Void OnItemSelect(::System::Boolean isSelect)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_ONITEMSELECT_OFFSET))(this, isSelect);
+		}
+
+		::System::Void __base_OnClickItem()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER___BASE_ONCLICKITEM_OFFSET))(this);
+		}
+
+		::System::Void __base_OnCreateView(::MoleMole::UIControlReference* P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIControlReference*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER___BASE_ONCREATEVIEW_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnItemSelect(::System::Boolean P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER___BASE_ONITEMSELECT_OFFSET))(this, P0);
+		}
+
+		::System::Void __base_OnScrollItemUpdate(::System::Int32 P0, ::System::Object* P1, ::System::Boolean P2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER___BASE_ONSCROLLITEMUPDATE_OFFSET))(this, P0, P1, P2);
+		}
+
+		::System::Void __base_OnUIDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER___BASE_ONUIDESTROY_OFFSET))(this);
+		}
+
+		::System::Void __base_OnUIInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER___BASE_ONUIINIT_OFFSET))(this);
+		}
+
+		::System::Void PFJCMPHAIPP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_PFJCMPHAIPP_OFFSET))(this);
+		}
+
+		::MNKKCBKBILF PLHMDJBMOEC(::System::Int32 PAEEEHKILOC)
+		{
+			return ((::MNKKCBKBILF(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_PLHMDJBMOEC_OFFSET))(this, PAEEEHKILOC);
+		}
+
+		::System::Void PDKCHDBODJB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIPINBALLBALLROWWIDGETCONTROLLER_PDKCHDBODJB_OFFSET))(this);
+		}
+	};
+}

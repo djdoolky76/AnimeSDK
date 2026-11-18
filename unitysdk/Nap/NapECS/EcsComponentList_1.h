@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Span_1.h"
-
-namespace Nap::NapECS { class EcsComponent; }
 
 namespace Nap::NapECS
 {
-	inline static constexpr unsigned int EcsComponentList_1_TypeDefinitionIndex = 37966;
+	inline static constexpr unsigned int EcsComponentList_1_TypeDefinitionIndex = 36036;
 
 	template <typename T>
 	class EcsComponentList_1 : public ::System::Object

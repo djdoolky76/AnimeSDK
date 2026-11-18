@@ -1,7 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/DG/Tweening/AxisConstraint.h"
 #include "unitysdk/DG/Tweening/Core/ABSAnimationComponent.h"
+#include "unitysdk/DG/Tweening/Plugins/Options/OrientType.h"
+#include "unitysdk/DG/Tweening/AxisConstraint.h"
 #include "unitysdk/DG/Tweening/DOTweenInspectorMode.h"
 #include "unitysdk/DG/Tweening/Ease.h"
 #include "unitysdk/DG/Tweening/HandlesDrawMode.h"
@@ -9,7 +10,6 @@
 #include "unitysdk/DG/Tweening/LoopType.h"
 #include "unitysdk/DG/Tweening/PathMode.h"
 #include "unitysdk/DG/Tweening/PathType.h"
-#include "unitysdk/DG/Tweening/Plugins/Options/OrientType.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
@@ -20,28 +20,28 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define DG_TWEENING_DOTWEENPATH_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FB89AA0)
-#define DG_TWEENING_DOTWEENPATH_DOCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1FB8AF60)
-#define DG_TWEENING_DOTWEENPATH_DOKILL_OFFSET UNITYSDK_OFFSET(0x1FB8AF70)
-#define DG_TWEENING_DOTWEENPATH_DOPAUSE_OFFSET UNITYSDK_OFFSET(0x1FB8AE20)
-#define DG_TWEENING_DOTWEENPATH_DOPLAYBACKWARDS_OFFSET UNITYSDK_OFFSET(0x1FB8AE00)
-#define DG_TWEENING_DOTWEENPATH_DOPLAYFORWARD_OFFSET UNITYSDK_OFFSET(0x1FB8AE10)
-#define DG_TWEENING_DOTWEENPATH_DOPLAY_OFFSET UNITYSDK_OFFSET(0x1FB8ADC0)
-#define DG_TWEENING_DOTWEENPATH_DORESTART_OFFSET UNITYSDK_OFFSET(0x1FB8AE80)
-#define DG_TWEENING_DOTWEENPATH_DOREWIND_OFFSET UNITYSDK_OFFSET(0x1FB8AE70)
-#define DG_TWEENING_DOTWEENPATH_DOTOGGLEPAUSE_OFFSET UNITYSDK_OFFSET(0x1FB8AE60)
-#define DG_TWEENING_DOTWEENPATH_GETDRAWPOINTS_OFFSET UNITYSDK_OFFSET(0x1FB8B090)
-#define DG_TWEENING_DOTWEENPATH_GETFULLWPS_OFFSET UNITYSDK_OFFSET(0x1FB8B160)
-#define DG_TWEENING_DOTWEENPATH_GETTWEEN_OFFSET UNITYSDK_OFFSET(0x1FB8AF80)
-#define DG_TWEENING_DOTWEENPATH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FB8AD90)
-#define DG_TWEENING_DOTWEENPATH_REEVALUATERELATIVETWEEN_OFFSET UNITYSDK_OFFSET(0x1FB8AA70)
-#define DG_TWEENING_DOTWEENPATH_RESET_OFFSET UNITYSDK_OFFSET(0x1FB8AC90)
-#define DG_TWEENING_DOTWEENPATH__AWAKE_B__36_0_OFFSET UNITYSDK_OFFSET(0x1FB8B550)
-#define DG_TWEENING_DOTWEENPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1FB8B340)
+#define DG_TWEENING_DOTWEENPATH_AWAKE_OFFSET UNITYSDK_OFFSET(0x1FF8B300)
+#define DG_TWEENING_DOTWEENPATH_DOCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1FF8C7B0)
+#define DG_TWEENING_DOTWEENPATH_DOKILL_OFFSET UNITYSDK_OFFSET(0x1FF8C7C0)
+#define DG_TWEENING_DOTWEENPATH_DOPAUSE_OFFSET UNITYSDK_OFFSET(0x1FF8C670)
+#define DG_TWEENING_DOTWEENPATH_DOPLAYBACKWARDS_OFFSET UNITYSDK_OFFSET(0x1FF8C650)
+#define DG_TWEENING_DOTWEENPATH_DOPLAYFORWARD_OFFSET UNITYSDK_OFFSET(0x1FF8C660)
+#define DG_TWEENING_DOTWEENPATH_DOPLAY_OFFSET UNITYSDK_OFFSET(0x1FF8C610)
+#define DG_TWEENING_DOTWEENPATH_DORESTART_OFFSET UNITYSDK_OFFSET(0x1FF8C6D0)
+#define DG_TWEENING_DOTWEENPATH_DOREWIND_OFFSET UNITYSDK_OFFSET(0x1FF8C6C0)
+#define DG_TWEENING_DOTWEENPATH_DOTOGGLEPAUSE_OFFSET UNITYSDK_OFFSET(0x1FF8C6B0)
+#define DG_TWEENING_DOTWEENPATH_GETDRAWPOINTS_OFFSET UNITYSDK_OFFSET(0x1FF8C8E0)
+#define DG_TWEENING_DOTWEENPATH_GETFULLWPS_OFFSET UNITYSDK_OFFSET(0x1FF8C9B0)
+#define DG_TWEENING_DOTWEENPATH_GETTWEEN_OFFSET UNITYSDK_OFFSET(0x1FF8C7D0)
+#define DG_TWEENING_DOTWEENPATH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FF8C5E0)
+#define DG_TWEENING_DOTWEENPATH_REEVALUATERELATIVETWEEN_OFFSET UNITYSDK_OFFSET(0x1FF8C2C0)
+#define DG_TWEENING_DOTWEENPATH_RESET_OFFSET UNITYSDK_OFFSET(0x1FF8C4E0)
+#define DG_TWEENING_DOTWEENPATH__AWAKE_B__36_0_OFFSET UNITYSDK_OFFSET(0x1FF8CDA0)
+#define DG_TWEENING_DOTWEENPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF8CB90)
 
 namespace DG::Tweening
 {
-	inline static constexpr unsigned int DOTweenPath_TypeDefinitionIndex = 35132;
+	inline static constexpr unsigned int DOTweenPath_TypeDefinitionIndex = 34681;
 
 	class DOTweenPath : public ::DG::Tweening::Core::ABSAnimationComponent
 	{
@@ -49,8 +49,10 @@ namespace DG::Tweening
 		::System::Single delay; // 0x60
 		::System::Single duration; // 0x64
 		::DG::Tweening::Ease easeType; // 0x68
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* easeCurve; // 0x70
 		::System::Int32 loops; // 0x78
+		::System::Byte _padding1[0x4];
 		::System::String* id; // 0x80
 		::DG::Tweening::LoopType loopType; // 0x88
 		::DG::Tweening::Plugins::Options::OrientType orientType; // 0x8C
@@ -62,10 +64,12 @@ namespace DG::Tweening
 		::System::Boolean relative; // 0xAA
 		::System::Boolean isLocal; // 0xAB
 		::System::Boolean isClosedPath; // 0xAC
+		::System::Byte _padding2[0x3];
 		::System::Int32 pathResolution; // 0xB0
 		::DG::Tweening::PathMode pathMode; // 0xB4
 		::DG::Tweening::AxisConstraint lockRotation; // 0xB8
 		::System::Boolean assignForwardAndUp; // 0xBC
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Vector3 forwardDirection; // 0xC0
 		::UnityEngine::Vector3 upDirection; // 0xCC
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* wps; // 0xD8
@@ -75,10 +79,12 @@ namespace DG::Tweening
 		::DG::Tweening::PathType pathType; // 0xF4
 		::DG::Tweening::HandlesType handlesType; // 0xF8
 		::System::Boolean livePreview; // 0xFC
+		::System::Byte _padding4[0x3];
 		::DG::Tweening::HandlesDrawMode handlesDrawMode; // 0x100
 		::System::Single perspectiveHandleSize; // 0x104
 		::System::Boolean showIndexes; // 0x108
 		::System::Boolean showWpLength; // 0x109
+		::System::Byte _padding5[0x2];
 		::UnityEngine::Color pathColor; // 0x10C
 		::UnityEngine::Vector3 lastSrcPosition; // 0x11C
 		::System::Boolean wpsDropdown; // 0x128

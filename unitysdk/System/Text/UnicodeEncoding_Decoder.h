@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/Text/DecoderNLS.h"
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Text { class UnicodeEncoding; }
 
-#define SYSTEM_TEXT_UNICODEENCODING_DECODER_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x1CE94700)
-#define SYSTEM_TEXT_UNICODEENCODING_DECODER_RESET_OFFSET UNITYSDK_OFFSET(0x1CE946D0)
-#define SYSTEM_TEXT_UNICODEENCODING_DECODER_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1CE94410)
-#define SYSTEM_TEXT_UNICODEENCODING_DECODER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CE93FC0)
-#define SYSTEM_TEXT_UNICODEENCODING_DECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE93F80)
+#define SYSTEM_TEXT_UNICODEENCODING_DECODER_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x1D42D7C0)
+#define SYSTEM_TEXT_UNICODEENCODING_DECODER_RESET_OFFSET UNITYSDK_OFFSET(0x1D42D790)
+#define SYSTEM_TEXT_UNICODEENCODING_DECODER_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1D42D4D0)
+#define SYSTEM_TEXT_UNICODEENCODING_DECODER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D42D080)
+#define SYSTEM_TEXT_UNICODEENCODING_DECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D42D040)
 
 namespace System::Text
 {
@@ -19,8 +19,9 @@ namespace System::Text
 	class UnicodeEncoding_Decoder : public ::System::Text::DecoderNLS
 	{
 	public:
-		::System::Int32 lastByte; // 0x30
-		::System::Char lastChar; // 0x34
+		::System::Char lastChar; // 0x30
+		::System::Byte _padding0[0x2];
+		::System::Int32 lastByte; // 0x34
 
 		::System::Void _ctor(::System::Text::UnicodeEncoding* encoding)
 		{

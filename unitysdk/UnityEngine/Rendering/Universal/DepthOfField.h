@@ -7,15 +7,16 @@ namespace UnityEngine::NAPRenderPipeline0 { class ClampedFloatParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class ClampedIntParameter; }
 namespace UnityEngine::NAPRenderPipeline0 { class MinFloatParameter; }
 namespace UnityEngine::Rendering::Universal { class DepthOfFieldModeParameter; }
+namespace UnityEngine::Rendering::Universal { class DofBlurQualityParameter; }
 namespace UnityEngine::Rendering::Universal { class DofDebugModeParameter; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELD_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1C5AFE30)
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELD_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1C5AFF90)
-#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AFFD0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELD_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1CA41750)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELD_ISTILECOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1CA418B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_DEPTHOFFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA418F0)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int DepthOfField_TypeDefinitionIndex = 27519;
+	inline static constexpr unsigned int DepthOfField_TypeDefinitionIndex = 26525;
 
 	class DepthOfField : public ::UnityEngine::NAPRenderPipeline0::VolumeComponent
 	{
@@ -31,12 +32,13 @@ namespace UnityEngine::Rendering::Universal
 		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* focalLength; // 0x78
 		::UnityEngine::NAPRenderPipeline0::ClampedIntParameter* bladeCount; // 0x80
 		::UnityEngine::NAPRenderPipeline0::BoolParameter* blurQualityHigh; // 0x88
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* bladeCurvature; // 0x90
-		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* bladeRotation; // 0x98
-		::UnityEngine::NAPRenderPipeline0::BoolParameter* forceNoDefaultDof; // 0xA0
-		::UnityEngine::NAPRenderPipeline0::BoolParameter* doDofBeforeTransparent; // 0xA8
-		::UnityEngine::NAPRenderPipeline0::BoolParameter* doDofBeforeTransparentAfterVolumetricFog; // 0xB0
-		::UnityEngine::Rendering::Universal::DofDebugModeParameter* debugMode; // 0xB8
+		::UnityEngine::Rendering::Universal::DofBlurQualityParameter* blurQuality; // 0x90
+		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* bladeCurvature; // 0x98
+		::UnityEngine::NAPRenderPipeline0::ClampedFloatParameter* bladeRotation; // 0xA0
+		::UnityEngine::NAPRenderPipeline0::BoolParameter* forceNoDefaultDof; // 0xA8
+		::UnityEngine::NAPRenderPipeline0::BoolParameter* doDofBeforeTransparent; // 0xB0
+		::UnityEngine::NAPRenderPipeline0::BoolParameter* doDofBeforeTransparentAfterVolumetricFog; // 0xB8
+		::UnityEngine::Rendering::Universal::DofDebugModeParameter* debugMode; // 0xC0
 
 		::System::Void _ctor()
 		{

@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_REMOTING_TYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCBCB70)
+#define SYSTEM_RUNTIME_REMOTING_TYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BDD90)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int TypeEntry_TypeDefinitionIndex = 1262;
+	inline static constexpr unsigned int TypeEntry_TypeDefinitionIndex = 1261;
 
 	class TypeEntry : public ::System::Object
 	{
 	public:
-		::System::String* assembly_name; // 0x10
-		::System::String* type_name; // 0x18
+		::System::String* type_name; // 0x10
+		::System::String* assembly_name; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_ResetFrameStatsAfterPresent_TypeDefinitionIndex = 5547;
+	inline static constexpr unsigned int EarlyUpdate_ResetFrameStatsAfterPresent_TypeDefinitionIndex = 5550;
 
-	struct alignas(1) EarlyUpdate_ResetFrameStatsAfterPresent
+	struct alignas(4) EarlyUpdate_ResetFrameStatsAfterPresent
 	{
 	};
 }

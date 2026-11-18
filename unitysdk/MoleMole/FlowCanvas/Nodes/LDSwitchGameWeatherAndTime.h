@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 #include "unitysdk/MoleMole/Config/TimePeriodType.h"
 #include "unitysdk/MoleMole/Config/WeatherType.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 namespace FlowCanvas { template <typename T> class ValueInput_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHGAMEWEATHERANDTIME_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x107D3E60)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHGAMEWEATHERANDTIME_START_OFFSET UNITYSDK_OFFSET(0x107D3FC0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHGAMEWEATHERANDTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x107D4340)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHGAMEWEATHERANDTIME__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x107D4380)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHGAMEWEATHERANDTIME_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x14307D70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHGAMEWEATHERANDTIME_START_OFFSET UNITYSDK_OFFSET(0x14307ED0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHGAMEWEATHERANDTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x14308250)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSWITCHGAMEWEATHERANDTIME__REGISTERPORTS_B__4_0_OFFSET UNITYSDK_OFFSET(0x14308290)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSwitchGameWeatherAndTime_TypeDefinitionIndex = 87048;
+	inline static constexpr unsigned int LDSwitchGameWeatherAndTime_TypeDefinitionIndex = 52854;
 
 	class LDSwitchGameWeatherAndTime : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
 		::FlowCanvas::ValueInput_1<::MoleMole::Config::TimePeriodType>* sceneTimeInput; // 0xA8
-		::FlowCanvas::ValueInput_1<::MoleMole::Config::WeatherType>* sceneWeatherInput; // 0xB0
+		::FlowCanvas::FlowOutput* Output; // 0xB0
 		::FlowCanvas::ValueInput_1<::System::Boolean>* immediatelyChangeInput; // 0xB8
-		::FlowCanvas::FlowOutput* Output; // 0xC0
+		::FlowCanvas::ValueInput_1<::MoleMole::Config::WeatherType>* sceneWeatherInput; // 0xC0
 
 		::System::Void _ctor()
 		{

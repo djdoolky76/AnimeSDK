@@ -4,12 +4,13 @@
 
 namespace MoleMole { class ConfigWeakPanel_CWeakPanelColor; }
 namespace MoleMole { class ConfigWeakPanel_CWeakPanelColorDic; }
+namespace MoleMole { class ConfigWeakPanel_CWeakPanelRampColor; }
 
-#define MOLEMOLE_CONFIGWEAKPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x14882870)
+#define MOLEMOLE_CONFIGWEAKPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4566E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigWeakPanel_TypeDefinitionIndex = 77978;
+	inline static constexpr unsigned int ConfigWeakPanel_TypeDefinitionIndex = 85869;
 
 	class ConfigWeakPanel : public ::System::Object
 	{
@@ -17,6 +18,7 @@ namespace MoleMole
 		::MoleMole::ConfigWeakPanel_CWeakPanelColorDic* ColorDic; // 0x10
 		::MoleMole::ConfigWeakPanel_CWeakPanelColor* DefaultColor; // 0x18
 		::MoleMole::ConfigWeakPanel_CWeakPanelColor* LockColor; // 0x20
+		::MoleMole::ConfigWeakPanel_CWeakPanelRampColor* WoundRampColor; // 0x28
 
 		::System::Void _ctor()
 		{

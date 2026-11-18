@@ -1,19 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Buffers/ReadOnlySequenceSegment_1.h"
-#include "unitysdk/System/Memory_1.h"
-#include "unitysdk/System/Span_1.h"
 
-namespace Nerdbank::Streams { template <typename T> class Sequence_1_SequenceSegment; }
-namespace System::Buffers { template <typename T> class ArrayPool_1; }
 namespace System::Buffers { template <typename T> class IMemoryOwner_1; }
 
 namespace Nerdbank::Streams
 {
-	inline static constexpr unsigned int Sequence_1_SequenceSegment_TypeDefinitionIndex = 30301;
+	inline static constexpr unsigned int Sequence_1_SequenceSegment_TypeDefinitionIndex = 30928;
 
 	template <typename T>
-	class Sequence_1_SequenceSegment : public ::System::Buffers::ReadOnlySequenceSegment_1<T>
+	class Sequence_1_SequenceSegment
 	{
 	public:
 		static ::System::Boolean* StaticGet_MayContainReferences()

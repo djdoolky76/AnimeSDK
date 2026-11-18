@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_STRINGFLOATPAIR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16C46FC0)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_STRINGFLOATPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x16C46FB0)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_STRINGFLOATPAIR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A032760)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_STRINGFLOATPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A032750)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMonsterAlerts_StringFloatPair_TypeDefinitionIndex = 89849;
+	inline static constexpr unsigned int ConfigMonsterAlerts_StringFloatPair_TypeDefinitionIndex = 85201;
 
 	class ConfigMonsterAlerts_StringFloatPair : public ::System::Object
 	{

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_GETTIMERVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13697880)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_GETTIMERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x13697A20)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_GETTIMERVALUE_INVOKE_OFFSET UNITYSDK_OFFSET(0x13571420)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSMASHBRO_GETTIMERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x135715C0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDSmashBro_GetTimerValue_TypeDefinitionIndex = 46544;
+	inline static constexpr unsigned int LDSmashBro_GetTimerValue_TypeDefinitionIndex = 88576;
 
-	class LDSmashBro_GetTimerValue : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Single, ::System::String*>
+	class LDSmashBro_GetTimerValue
 	{
 	public:
 		::System::Void _ctor()

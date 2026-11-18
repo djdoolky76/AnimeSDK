@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 namespace Spine { class Skeleton; }
 namespace Spine::Unity::Playables { class SpinePlayableHandleBase; }
 namespace System { class Object; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR_ONDIRECTORSTOPPED_OFFSET UNITYSDK_OFFSET(0x1FA8D7E0)
-#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x1FA8D380)
-#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1FA8D610)
-#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1FA8D7F0)
-#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1FA8D950)
-#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR_SETSKELETONSCALEFROMFLIP_OFFSET UNITYSDK_OFFSET(0x1FA8DFD0)
-#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA8E030)
+#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR_ONDIRECTORSTOPPED_OFFSET UNITYSDK_OFFSET(0x1FE80440)
+#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x1FE7FFE0)
+#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1FE80270)
+#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR_ONSTOP_OFFSET UNITYSDK_OFFSET(0x1FE80450)
+#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1FE805B0)
+#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR_SETSKELETONSCALEFROMFLIP_OFFSET UNITYSDK_OFFSET(0x1FE80C30)
+#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPMIXERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE80C90)
 
 namespace Spine::Unity::Playables
 {
-	inline static constexpr unsigned int SpineSkeletonFlipMixerBehaviour_TypeDefinitionIndex = 95352;
+	inline static constexpr unsigned int SpineSkeletonFlipMixerBehaviour_TypeDefinitionIndex = 96711;
 
 	class SpineSkeletonFlipMixerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::UnityEngine::Playables::PlayableDirector* director; // 0x10
 		::Spine::Unity::Playables::SpinePlayableHandleBase* playableHandle; // 0x18
-		::System::Single originalScaleY; // 0x20
-		::System::Single baseScaleX; // 0x24
-		::System::Boolean m_FirstFrameHappened; // 0x28
-		::System::Single baseScaleY; // 0x2C
-		::System::Single originalScaleX; // 0x30
+		::System::Single baseScaleY; // 0x20
+		::System::Single originalScaleX; // 0x24
+		::System::Single originalScaleY; // 0x28
+		::System::Single baseScaleX; // 0x2C
+		::System::Boolean m_FirstFrameHappened; // 0x30
 
 		::System::Void _ctor()
 		{

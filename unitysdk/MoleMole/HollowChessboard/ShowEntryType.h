@@ -3,15 +3,15 @@
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ShowEntryType_TypeDefinitionIndex = 74765;
+	inline static constexpr unsigned int ShowEntryType_TypeDefinitionIndex = 77240;
 
 	enum class ShowEntryType : ::System::Int32
 	{
-		MovieKey = 2,
-		AnimKey = 4,
 		SecondaryMovie = 3,
-		TextureKey = 1,
+		AnimKey = 4,
+		MovieKey = 2,
 		MovieId = 5,
 		AnimID = 0,
+		TextureKey = 1,
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define MOLEMOLE_UIDOUBLEELITEMONSTERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__BINDONCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x186A5EC0)
-#define MOLEMOLE_UIDOUBLEELITEMONSTERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186A52F0)
+#define MOLEMOLE_UIDOUBLEELITEMONSTERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__BINDONCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x184AD540)
+#define MOLEMOLE_UIDOUBLEELITEMONSTERWIDGETCONTROLLER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184AC960)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIDoubleEliteMonsterWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 85102;
+	inline static constexpr unsigned int UIDoubleEliteMonsterWidgetController___c__DisplayClass9_0_TypeDefinitionIndex = 70374;
 
 	class UIDoubleEliteMonsterWidgetController___c__DisplayClass9_0 : public ::System::Object
 	{

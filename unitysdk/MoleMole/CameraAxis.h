@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int CameraAxis_TypeDefinitionIndex = 90178;
+	inline static constexpr unsigned int CameraAxis_TypeDefinitionIndex = 69721;
 
 	struct alignas(4) CameraAxis
 	{

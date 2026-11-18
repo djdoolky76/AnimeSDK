@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/LatentActionNode_4.h"
 #include "unitysdk/ParadoxNotion/Animation/EaseType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace System::Collections { class IEnumerator; }
 
-#define FLOWCANVAS_NODES_TWEENVECTOR3_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EA95130)
-#define FLOWCANVAS_NODES_TWEENVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EA95160)
-#define FLOWCANVAS_NODES_TWEENVECTOR3_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EA95150)
-#define FLOWCANVAS_NODES_TWEENVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA951F0)
+#define FLOWCANVAS_NODES_TWEENVECTOR3_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EDC6170)
+#define FLOWCANVAS_NODES_TWEENVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EDC61A0)
+#define FLOWCANVAS_NODES_TWEENVECTOR3_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EDC6190)
+#define FLOWCANVAS_NODES_TWEENVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC6230)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TweenVector3_TypeDefinitionIndex = 29736;
+	inline static constexpr unsigned int TweenVector3_TypeDefinitionIndex = 29541;
 
-	class TweenVector3 : public ::FlowCanvas::Nodes::LatentActionNode_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::ParadoxNotion::Animation::EaseType>
+	class TweenVector3
 	{
 	public:
 		::UnityEngine::Vector3 _value_k__BackingField; // 0x60

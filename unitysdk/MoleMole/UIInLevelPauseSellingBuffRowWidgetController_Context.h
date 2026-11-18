@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIINLEVELPAUSESELLINGBUFFROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x164E5C90)
+#define MOLEMOLE_UIINLEVELPAUSESELLINGBUFFROWWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1979B510)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPauseSellingBuffRowWidgetController_Context_TypeDefinitionIndex = 71350;
+	inline static constexpr unsigned int UIInLevelPauseSellingBuffRowWidgetController_Context_TypeDefinitionIndex = 82452;
 
 	class UIInLevelPauseSellingBuffRowWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{

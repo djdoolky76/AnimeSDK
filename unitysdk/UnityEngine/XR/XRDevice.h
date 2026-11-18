@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_XR_XRDEVICE_DISABLEAUTOXRCAMERATRACKING_OFFSET UNITYSDK_OFFSET(0x1FC5ED00)
-#define UNITYENGINE_XR_XRDEVICE_INVOKEDEVICELOADED_OFFSET UNITYSDK_OFFSET(0x1FC5ED10)
-#define UNITYENGINE_XR_XRDEVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC5EDD0)
+#define UNITYENGINE_XR_XRDEVICE_DISABLEAUTOXRCAMERATRACKING_OFFSET UNITYSDK_OFFSET(0x200621C0)
+#define UNITYENGINE_XR_XRDEVICE_INVOKEDEVICELOADED_OFFSET UNITYSDK_OFFSET(0x200621D0)
+#define UNITYENGINE_XR_XRDEVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x20062290)
 
 namespace UnityEngine::XR
 {
-	inline static constexpr unsigned int XRDevice_TypeDefinitionIndex = 8898;
+	inline static constexpr unsigned int XRDevice_TypeDefinitionIndex = 9122;
 
 	class XRDevice : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::String*>** StaticGet_deviceLoaded()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(XRDevice_TypeDefinitionIndex)->GetStaticField(0x7600);
+			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(XRDevice_TypeDefinitionIndex)->GetStaticField(0x75F0);
 		}
 
 		static ::System::Void _cctor()

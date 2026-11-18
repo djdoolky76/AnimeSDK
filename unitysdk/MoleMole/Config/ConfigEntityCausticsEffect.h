@@ -11,53 +11,53 @@ namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETBRIGHTNESS_OFFSET UNITYSDK_OFFSET(0x1B54B210)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETHEIGHTOFFSET_OFFSET UNITYSDK_OFFSET(0x1B54B390)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETINDIRECTSCALE_OFFSET UNITYSDK_OFFSET(0x1B54B510)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETLOCALLIGHTSCALE_OFFSET UNITYSDK_OFFSET(0x1B54B490)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETMAINLIGHTSCALE_OFFSET UNITYSDK_OFFSET(0x1B54B410)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETRANGE_OFFSET UNITYSDK_OFFSET(0x1B54B310)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETSPEED_OFFSET UNITYSDK_OFFSET(0x1B54B290)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETSTRENGTH_OFFSET UNITYSDK_OFFSET(0x1B54B6B0)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETTEX_OFFSET UNITYSDK_OFFSET(0x1B54B930)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETTILLING_OFFSET UNITYSDK_OFFSET(0x1B54B590)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETTINT_OFFSET UNITYSDK_OFFSET(0x1B54B610)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETUSE_CAUSTICS_OFFSET UNITYSDK_OFFSET(0x1B54B190)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GET_TEX_OFFSET UNITYSDK_OFFSET(0x1B54B730)
-#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54B9A0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETBRIGHTNESS_OFFSET UNITYSDK_OFFSET(0x1BA2B1D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETHEIGHTOFFSET_OFFSET UNITYSDK_OFFSET(0x1BA2B350)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETINDIRECTSCALE_OFFSET UNITYSDK_OFFSET(0x1BA2B4D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETLOCALLIGHTSCALE_OFFSET UNITYSDK_OFFSET(0x1BA2B450)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETMAINLIGHTSCALE_OFFSET UNITYSDK_OFFSET(0x1BA2B3D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETRANGE_OFFSET UNITYSDK_OFFSET(0x1BA2B2D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETSPEED_OFFSET UNITYSDK_OFFSET(0x1BA2B250)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETSTRENGTH_OFFSET UNITYSDK_OFFSET(0x1BA2B670)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETTEX_OFFSET UNITYSDK_OFFSET(0x1BA2B8E0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETTILLING_OFFSET UNITYSDK_OFFSET(0x1BA2B550)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETTINT_OFFSET UNITYSDK_OFFSET(0x1BA2B5D0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GETUSE_CAUSTICS_OFFSET UNITYSDK_OFFSET(0x1BA2B150)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT_GET_TEX_OFFSET UNITYSDK_OFFSET(0x1BA2B6F0)
+#define MOLEMOLE_CONFIG_CONFIGENTITYCAUSTICSEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2B950)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigEntityCausticsEffect_TypeDefinitionIndex = 89864;
+	inline static constexpr unsigned int ConfigEntityCausticsEffect_TypeDefinitionIndex = 84722;
 
 	class ConfigEntityCausticsEffect : public ::MoleMole::Config::ConfigEntityScreenEffectBase
 	{
 	public:
-		::MoleMole::Config::ScreenEffectBool* Use_Caustics; // 0x40
-		::MoleMole::Config::ScreenEffectFloat* LocalLightScale; // 0x48
-		::MoleMole::Config::ScreenEffectFloat* MainLightScale; // 0x50
-		::MoleMole::Config::ScreenEffectFloat* Brightness; // 0x58
-		::MoleMole::Config::ScreenEffectFloat* Speed; // 0x60
-		::MoleMole::Config::ScreenEffectFloat* IndirectScale; // 0x68
-		::MoleMole::Config::ScreenEffectFloat* Strength; // 0x70
-		::MoleMole::Config::ScreenEffectFloat* HeightOffset; // 0x78
-		::MoleMole::Config::ScreenEffectFloat* Range; // 0x80
-		::System::String* TexPath; // 0x88
+		::MoleMole::Config::ScreenEffectFloat* Speed; // 0x40
+		::MoleMole::Config::ScreenEffectFloat* MainLightScale; // 0x48
+		::MoleMole::Config::ScreenEffectFloat* IndirectScale; // 0x50
+		::MoleMole::Config::ScreenEffectFloat* HeightOffset; // 0x58
+		::MoleMole::Config::ScreenEffectBool* Use_Caustics; // 0x60
+		::MoleMole::Config::ScreenEffectFloat* Range; // 0x68
+		::System::String* TexPath; // 0x70
+		::MoleMole::Config::ScreenEffectColor* Tint; // 0x78
+		::MoleMole::Config::ScreenEffectFloat* Tilling; // 0x80
+		::MoleMole::Config::ScreenEffectFloat* LocalLightScale; // 0x88
 		::UnityEngine::Texture2D* _Tex; // 0x90
-		::MoleMole::Config::ScreenEffectColor* Tint; // 0x98
-		::MoleMole::Config::ScreenEffectFloat* Tilling; // 0xA0
-		::MoleMole::Config::ScreenEffectFieldHandleType RangeHandleType; // 0xA8
+		::MoleMole::Config::ScreenEffectFloat* Brightness; // 0x98
+		::MoleMole::Config::ScreenEffectFloat* Strength; // 0xA0
+		::MoleMole::Config::ScreenEffectFieldHandleType HeightOffsetHandleType; // 0xA8
 		::MoleMole::Config::ScreenEffectFieldHandleType MainLightScaleHandleType; // 0xAC
-		::MoleMole::Config::ScreenEffectFieldHandleType StrengthHandleType; // 0xB0
-		::MoleMole::Config::ScreenEffectFieldHandleType HeightOffsetHandleType; // 0xB4
-		::MoleMole::Config::ScreenEffectFieldHandleType TexHandleType; // 0xB8
+		::MoleMole::Config::ScreenEffectFieldHandleType IndirectScaleHandleType; // 0xB0
+		::MoleMole::Config::ScreenEffectFieldHandleType BrightnessHandleType; // 0xB4
+		::MoleMole::Config::ScreenEffectFieldHandleType TillingHandleType; // 0xB8
 		::MoleMole::Config::ScreenEffectFieldHandleType SpeedHandleType; // 0xBC
-		::MoleMole::Config::ScreenEffectFieldHandleType LocalLightScaleHandleType; // 0xC0
-		::MoleMole::Config::ScreenEffectFieldHandleType TillingHandleType; // 0xC4
-		::MoleMole::Config::ScreenEffectFieldHandleType IndirectScaleHandleType; // 0xC8
-		::MoleMole::Config::ScreenEffectFieldHandleType BrightnessHandleType; // 0xCC
-		::MoleMole::Config::ScreenEffectFieldHandleType Use_CausticsHandleType; // 0xD0
-		::MoleMole::Config::ScreenEffectFieldHandleType TintHandleType; // 0xD4
+		::MoleMole::Config::ScreenEffectFieldHandleType TintHandleType; // 0xC0
+		::MoleMole::Config::ScreenEffectFieldHandleType Use_CausticsHandleType; // 0xC4
+		::MoleMole::Config::ScreenEffectFieldHandleType LocalLightScaleHandleType; // 0xC8
+		::MoleMole::Config::ScreenEffectFieldHandleType TexHandleType; // 0xCC
+		::MoleMole::Config::ScreenEffectFieldHandleType RangeHandleType; // 0xD0
+		::MoleMole::Config::ScreenEffectFieldHandleType StrengthHandleType; // 0xD4
 
 		::System::Void _ctor()
 		{

@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/Authentication/SslProtocols.h"
+#include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_SECURITYPROTOCOL_THROWONNOTALLOWED_OFFSET UNITYSDK_OFFSET(0x1DD2B250)
+#define SYSTEM_NET_SECURITYPROTOCOL_THROWONNOTALLOWED_OFFSET UNITYSDK_OFFSET(0x1E0CBF50)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int SecurityProtocol_TypeDefinitionIndex = 3259;
+	inline static constexpr unsigned int SecurityProtocol_TypeDefinitionIndex = 3258;
 
 	class SecurityProtocol : public ::System::Object
 	{
 	public:
-		// static const ::System::Security::Authentication::SslProtocols AllowedSecurityProtocols; // 0x0
-		// static const ::System::Security::Authentication::SslProtocols DefaultSecurityProtocols; // 0x0
-		// static const ::System::Security::Authentication::SslProtocols SystemDefaultSecurityProtocols; // 0x0
+		// static const ::System::Security::Authentication::SslProtocols AllowedSecurityProtocols = 0xFC0; // 0x0
+		// static const ::System::Security::Authentication::SslProtocols DefaultSecurityProtocols = 0xFC0; // 0x0
+		// static const ::System::Security::Authentication::SslProtocols SystemDefaultSecurityProtocols = 0x0; // 0x0
 
 		static ::System::Void ThrowOnNotAllowed(::System::Security::Authentication::SslProtocols protocols, ::System::Boolean allowNone)
 		{

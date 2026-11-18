@@ -1,29 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/MessagePack/MessagePackReader.h"
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { class DeserializeFunc; }
 
-#define MESSAGEPACK_FORMATTERS_AUTOGEN_FORMATTER_REGISTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x167D3D40)
-#define MESSAGEPACK_FORMATTERS_AUTOGEN_FORMATTER_REGISTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x167D3D80)
-#define MESSAGEPACK_FORMATTERS_AUTOGEN_FORMATTER_REGISTER___C__TST_B__6_0_OFFSET UNITYSDK_OFFSET(0x167D3D90)
+#define MESSAGEPACK_FORMATTERS_AUTOGEN_FORMATTER_REGISTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x164F8CB0)
+#define MESSAGEPACK_FORMATTERS_AUTOGEN_FORMATTER_REGISTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x164F8CF0)
+#define MESSAGEPACK_FORMATTERS_AUTOGEN_FORMATTER_REGISTER___C__TST_B__6_0_OFFSET UNITYSDK_OFFSET(0x164F8D00)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int AutoGen_Formatter_Register___c_TypeDefinitionIndex = 50343;
+	inline static constexpr unsigned int AutoGen_Formatter_Register___c_TypeDefinitionIndex = 75474;
 
 	class AutoGen_Formatter_Register___c : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::AutoGen_Formatter_Register___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MessagePack::Formatters::AutoGen_Formatter_Register___c**)Il2CppClass::FromTypeDefinitionIndex(AutoGen_Formatter_Register___c_TypeDefinitionIndex)->GetStaticField(0x3C6C0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(AutoGen_Formatter_Register___c_TypeDefinitionIndex)->GetStaticField(0x3E890);
 		}
 		static ::MessagePack::Formatters::DeserializeFunc** StaticGet___9__6_0()
 		{
-			return (::MessagePack::Formatters::DeserializeFunc**)Il2CppClass::FromTypeDefinitionIndex(AutoGen_Formatter_Register___c_TypeDefinitionIndex)->GetStaticField(0x3C6C8);
+			return (::MessagePack::Formatters::DeserializeFunc**)Il2CppClass::FromTypeDefinitionIndex(AutoGen_Formatter_Register___c_TypeDefinitionIndex)->GetStaticField(0x3E898);
 		}
 
 		static ::System::Void _cctor()

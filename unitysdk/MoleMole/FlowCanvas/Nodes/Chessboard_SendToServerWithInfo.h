@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableActionNode_2.h"
 #include "unitysdk/MoleMole/Vector2Int.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARD_SENDTOSERVERWITHINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B598FF0)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARD_SENDTOSERVERWITHINFO_MODIFYPLAYERPOS_OFFSET UNITYSDK_OFFSET(0x1B599170)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARD_SENDTOSERVERWITHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B599540)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARD_SENDTOSERVERWITHINFO_INVOKE_OFFSET UNITYSDK_OFFSET(0x13564B10)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARD_SENDTOSERVERWITHINFO_MODIFYPLAYERPOS_OFFSET UNITYSDK_OFFSET(0x13564CA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARD_SENDTOSERVERWITHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x13565070)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int Chessboard_SendToServerWithInfo_TypeDefinitionIndex = 69133;
+	inline static constexpr unsigned int Chessboard_SendToServerWithInfo_TypeDefinitionIndex = 42781;
 
-	class Chessboard_SendToServerWithInfo : public ::MoleMole::FlowCanvas::ChessboardCallableActionNode_2<::MoleMole::Vector2Int, ::System::Boolean>
+	class Chessboard_SendToServerWithInfo
 	{
 	public:
 		::System::Void _ctor()

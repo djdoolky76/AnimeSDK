@@ -5,16 +5,16 @@
 
 namespace System { class Object; }
 
-#define MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x8BBA80)
-#define MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8BBB80)
-#define MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1A94EE70)
-#define MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1A94EFD0)
-#define MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x8BBB90)
-#define MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8BBC00)
+#define MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x815650)
+#define MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x815750)
+#define MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B8C6640)
+#define MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B8C67A0)
+#define MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA___BASE_EQUALS_OFFSET UNITYSDK_OFFSET(0x815760)
+#define MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA___BASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8157D0)
 
 namespace MoleMole::DisplayCase
 {
-	inline static constexpr unsigned int DisplayBaseTransformData_TypeDefinitionIndex = 85571;
+	inline static constexpr unsigned int DisplayBaseTransformData_TypeDefinitionIndex = 66660;
 
 	struct alignas(4) DisplayBaseTransformData
 	{
@@ -22,15 +22,19 @@ namespace MoleMole::DisplayCase
 		::System::Single Yaw; // 0x1C
 		::System::Int32 State; // 0x20
 
+		/*
 		static ::System::Boolean op_Equality(::MoleMole::DisplayCase::DisplayBaseTransformData a, ::MoleMole::DisplayCase::DisplayBaseTransformData b)
 		{
 			return ((::System::Boolean(*)(::MoleMole::DisplayCase::DisplayBaseTransformData, ::MoleMole::DisplayCase::DisplayBaseTransformData))((::PBYTE)hIl2Cpp + MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA_OP_EQUALITY_OFFSET))(a, b);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::MoleMole::DisplayCase::DisplayBaseTransformData a, ::MoleMole::DisplayCase::DisplayBaseTransformData b)
 		{
 			return ((::System::Boolean(*)(::MoleMole::DisplayCase::DisplayBaseTransformData, ::MoleMole::DisplayCase::DisplayBaseTransformData))((::PBYTE)hIl2Cpp + MOLEMOLE_DISPLAYCASE_DISPLAYBASETRANSFORMDATA_OP_INEQUALITY_OFFSET))(a, b);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* obj)
 		{

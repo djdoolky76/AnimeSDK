@@ -1,26 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Rendering/Universal/WeatherSystem/WeatherPropertiesBase_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_MAINLIGHTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1C9B5540)
-#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_MAINLIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9B57F0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_MAINLIGHTCONFIG_DOLERP_OFFSET UNITYSDK_OFFSET(0x1CF96D00)
+#define UNITYENGINE_RENDERING_UNIVERSAL_WEATHERSYSTEM_MAINLIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF96FB0)
 
 namespace UnityEngine::Rendering::Universal::WeatherSystem
 {
-	inline static constexpr unsigned int MainLightConfig_TypeDefinitionIndex = 27481;
+	inline static constexpr unsigned int MainLightConfig_TypeDefinitionIndex = 26506;
 
-	class MainLightConfig : public ::UnityEngine::Rendering::Universal::WeatherSystem::WeatherPropertiesBase_1<::UnityEngine::Rendering::Universal::WeatherSystem::MainLightConfig*>
+	class MainLightConfig
 	{
 	public:
 		::System::Boolean mainLightDirTimeOfDay; // 0x18
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 mainLightDir; // 0x1C
 		::UnityEngine::Color mainLightColor; // 0x28
 		::System::Single mainLightIntensity; // 0x38
 		::System::Single interiorDayAndNight; // 0x3C
 		::System::Single interiorSmoothnessScale; // 0x40
 		::System::Boolean mainLightShadowTint; // 0x44
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Color mainLightShadowTintColor; // 0x48
 		::System::Single mainLightShadowTintSourceAngle; // 0x58
 		::System::Single mainLightShadowTintPower; // 0x5C

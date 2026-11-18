@@ -5,22 +5,22 @@
 namespace MoleMole { class ImageSmoothMask; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define MOLEMOLE_IMAGEFORSMOOTHMASK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x107F6F00)
-#define MOLEMOLE_IMAGEFORSMOOTHMASK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x107F6BA0)
-#define MOLEMOLE_IMAGEFORSMOOTHMASK_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x107F6CC0)
-#define MOLEMOLE_IMAGEFORSMOOTHMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x107F6F50)
-#define MOLEMOLE_IMAGEFORSMOOTHMASK___BASE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x107F6FF0)
-#define MOLEMOLE_IMAGEFORSMOOTHMASK___BASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x107F7000)
-#define MOLEMOLE_IMAGEFORSMOOTHMASK___BASE_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x107F70A0)
+#define MOLEMOLE_IMAGEFORSMOOTHMASK_GOKBADGGEMB_OFFSET UNITYSDK_OFFSET(0x1432B9A0)
+#define MOLEMOLE_IMAGEFORSMOOTHMASK_IFHNMAGGFAE_OFFSET UNITYSDK_OFFSET(0x1432B990)
+#define MOLEMOLE_IMAGEFORSMOOTHMASK_KDOIBCBFBAG_OFFSET UNITYSDK_OFFSET(0x1432B9B0)
+#define MOLEMOLE_IMAGEFORSMOOTHMASK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1432B8A0)
+#define MOLEMOLE_IMAGEFORSMOOTHMASK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1432B540)
+#define MOLEMOLE_IMAGEFORSMOOTHMASK_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1432B660)
+#define MOLEMOLE_IMAGEFORSMOOTHMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1432B8F0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ImageForSmoothMask_TypeDefinitionIndex = 57261;
+	inline static constexpr unsigned int ImageForSmoothMask_TypeDefinitionIndex = 75740;
 
 	class ImageForSmoothMask : public ::UnityEngine::UI::Image
 	{
 	public:
-		::MoleMole::ImageSmoothMask* Field_9_0; // 0x140
+		::MoleMole::ImageSmoothMask* KDOKMHKLHJG; // 0x140
 
 		::System::Void _ctor()
 		{
@@ -32,9 +32,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGEFORSMOOTHMASK_ONENABLE_OFFSET))(this);
 		}
 
-		::System::Void OnPopulateMesh(::UnityEngine::UI::VertexHelper* a1)
+		::System::Void OnPopulateMesh(::UnityEngine::UI::VertexHelper* KKHICLCLGDM)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGEFORSMOOTHMASK_ONPOPULATEMESH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGEFORSMOOTHMASK_ONPOPULATEMESH_OFFSET))(this, KKHICLCLGDM);
 		}
 
 		::System::Void OnDestroy()
@@ -42,19 +42,19 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGEFORSMOOTHMASK_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void __base_OnDestroy()
+		::System::Void IFHNMAGGFAE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGEFORSMOOTHMASK___BASE_ONDESTROY_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGEFORSMOOTHMASK_IFHNMAGGFAE_OFFSET))(this);
 		}
 
-		::System::Void __base_OnEnable()
+		::System::Void GOKBADGGEMB(::UnityEngine::UI::VertexHelper* MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGEFORSMOOTHMASK___BASE_ONENABLE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGEFORSMOOTHMASK_GOKBADGGEMB_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void __base_OnPopulateMesh(::UnityEngine::UI::VertexHelper* a1)
+		::System::Void KDOIBCBFBAG()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGEFORSMOOTHMASK___BASE_ONPOPULATEMESH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_IMAGEFORSMOOTHMASK_KDOIBCBFBAG_OFFSET))(this);
 		}
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CASETEST_BATTLEINFOTESTER__CTOR_OFFSET UNITYSDK_OFFSET(0x11451390)
+#define MOLEMOLE_CASETEST_BATTLEINFOTESTER__CTOR_OFFSET UNITYSDK_OFFSET(0x131C2680)
 
 namespace MoleMole::CaseTest
 {
-	inline static constexpr unsigned int BattleInfoTester_TypeDefinitionIndex = 40529;
+	inline static constexpr unsigned int BattleInfoTester_TypeDefinitionIndex = 73513;
 
 	class BattleInfoTester : public ::System::Object
 	{

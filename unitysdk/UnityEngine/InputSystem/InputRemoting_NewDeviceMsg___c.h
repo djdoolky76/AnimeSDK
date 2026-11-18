@@ -6,24 +6,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWDEVICEMSG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE5B860)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWDEVICEMSG___C__CREATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CE5B8B0)
-#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWDEVICEMSG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE5B8A0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWDEVICEMSG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3C98F0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWDEVICEMSG___C__CREATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1D3C9940)
+#define UNITYENGINE_INPUTSYSTEM_INPUTREMOTING_NEWDEVICEMSG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C9930)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputRemoting_NewDeviceMsg___c_TypeDefinitionIndex = 32276;
+	inline static constexpr unsigned int InputRemoting_NewDeviceMsg___c_TypeDefinitionIndex = 31725;
 
 	class InputRemoting_NewDeviceMsg___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputRemoting_NewDeviceMsg___c_TypeDefinitionIndex)->GetStaticField(0x27970);
+			return (::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InputRemoting_NewDeviceMsg___c_TypeDefinitionIndex)->GetStaticField(0x28A50);
 		}
-		static ::UnityEngine::InputSystem::InputRemoting_NewDeviceMsg___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::UnityEngine::InputSystem::InputRemoting_NewDeviceMsg___c**)Il2CppClass::FromTypeDefinitionIndex(InputRemoting_NewDeviceMsg___c_TypeDefinitionIndex)->GetStaticField(0x27978);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(InputRemoting_NewDeviceMsg___c_TypeDefinitionIndex)->GetStaticField(0x28A58);
 		}
 
 		static ::System::Void _cctor()

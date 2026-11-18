@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define FLUFFYUNDERWARE_CURVY_CURVYCONTROLLERTICKMANAGER_SORTACTIVEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0xA800D0)
+#define FLUFFYUNDERWARE_CURVY_CURVYCONTROLLERTICKMANAGER_SORTACTIVEJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x961EE0)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvyControllerTickManager_SortActiveJob_TypeDefinitionIndex = 39466;
+	inline static constexpr unsigned int CurvyControllerTickManager_SortActiveJob_TypeDefinitionIndex = 37635;
 
-	struct alignas(1) CurvyControllerTickManager_SortActiveJob
+	struct alignas(4) CurvyControllerTickManager_SortActiveJob
 	{
 		::System::Void Execute()
 		{

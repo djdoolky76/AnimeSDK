@@ -3,12 +3,10 @@
 #include "unitysdk/System/Object.h"
 
 namespace SQLite { class SQLiteCommand; }
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace SQLite
 {
-	inline static constexpr unsigned int SQLiteCommand__ExecuteQueryScalars_d__14_1_TypeDefinitionIndex = 39069;
+	inline static constexpr unsigned int SQLiteCommand__ExecuteQueryScalars_d__14_1_TypeDefinitionIndex = 37069;
 
 	template <typename T>
 	class SQLiteCommand__ExecuteQueryScalars_d__14_1 : public ::System::Object

@@ -4,17 +4,18 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_VERSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E2420)
+#define MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_VERSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD4D070)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKGameReportModel_VersionInfo_TypeDefinitionIndex = 37391;
+	inline static constexpr unsigned int MiHoYoSDKGameReportModel_VersionInfo_TypeDefinitionIndex = 35369;
 
 	class MiHoYoSDKGameReportModel_VersionInfo : public ::System::Object
 	{
 	public:
 		::System::String* client_version; // 0x10
 		::System::Int32 sdk_env; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* sdk_version; // 0x20
 		::System::String* log_version; // 0x28
 

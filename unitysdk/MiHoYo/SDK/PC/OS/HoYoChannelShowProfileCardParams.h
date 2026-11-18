@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1D4AF580)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4AF590)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1DA33250)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWPROFILECARDPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA33260)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelShowProfileCardParams_TypeDefinitionIndex = 20705;
+	inline static constexpr unsigned int HoYoChannelShowProfileCardParams_TypeDefinitionIndex = 19903;
 
 	class HoYoChannelShowProfileCardParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{
 	public:
-		::System::String* xuid; // 0x18
+		::System::String* xuid; // 0x20
 
 		::System::Void _ctor()
 		{

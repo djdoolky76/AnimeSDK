@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_UpdatePBDSkinnedMeshes_TypeDefinitionIndex = 5639;
+	inline static constexpr unsigned int PostLateUpdate_UpdatePBDSkinnedMeshes_TypeDefinitionIndex = 5643;
 
-	struct alignas(1) PostLateUpdate_UpdatePBDSkinnedMeshes
+	struct alignas(4) PostLateUpdate_UpdatePBDSkinnedMeshes
 	{
 	};
 }

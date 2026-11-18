@@ -2,49 +2,49 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_84A668B8DE4853ED;
+class BPKHADAMILM;
 namespace System { class Action; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__APPENDBUILDINGWISHITEMS_B__71_0_OFFSET UNITYSDK_OFFSET(0x1749FD60)
-#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1749FD10)
-#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1749FD50)
-#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__ONCLICKSHOPBTN02_B__128_0_OFFSET UNITYSDK_OFFSET(0x174A0080)
-#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__SORTNORMALQUESTLIST_B__74_0_OFFSET UNITYSDK_OFFSET(0x1749FD70)
-#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__SORTSEASONQUESTLIST_B__78_0_OFFSET UNITYSDK_OFFSET(0x174A0010)
-#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__SORTWEEKLYQUESTLIST_B__77_0_OFFSET UNITYSDK_OFFSET(0x1749FF90)
+#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__APPENDBUILDINGWISHITEMS_B__86_0_OFFSET UNITYSDK_OFFSET(0x18C137E0)
+#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C13790)
+#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18C137D0)
+#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__ONCLICKSHOPBTN02_B__156_0_OFFSET UNITYSDK_OFFSET(0x18C13BF0)
+#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__SORTNORMALBYSTATUS_B__96_0_OFFSET UNITYSDK_OFFSET(0x18C137F0)
+#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__SORTSEASONQUESTLIST_B__100_0_OFFSET UNITYSDK_OFFSET(0x18C13B80)
+#define MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__SORTWEEKLYQUESTLIST_B__99_0_OFFSET UNITYSDK_OFFSET(0x18C13B00)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex = 88481;
+	inline static constexpr unsigned int UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex = 51354;
 
 	class UIZenkovDelegateBoardPageController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__128_0()
+		static ::System::Comparison_1<::BPKHADAMILM*>** StaticGet___9__100_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex)->GetStaticField(0x453B0);
+			return (::System::Comparison_1<::BPKHADAMILM*>**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AE60);
 		}
-		static ::System::Comparison_1<::Class_1_84A668B8DE4853ED*>** StaticGet___9__78_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::Class_1_84A668B8DE4853ED*>**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex)->GetStaticField(0x453B8);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AE68);
 		}
-		static ::System::Predicate_1<::Class_1_84A668B8DE4853ED*>** StaticGet___9__71_0()
+		static ::System::Comparison_1<::BPKHADAMILM*>** StaticGet___9__99_0()
 		{
-			return (::System::Predicate_1<::Class_1_84A668B8DE4853ED*>**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex)->GetStaticField(0x453C0);
+			return (::System::Comparison_1<::BPKHADAMILM*>**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AE70);
 		}
-		static ::System::Comparison_1<::Class_1_84A668B8DE4853ED*>** StaticGet___9__77_0()
+		static ::System::Action** StaticGet___9__156_0()
 		{
-			return (::System::Comparison_1<::Class_1_84A668B8DE4853ED*>**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex)->GetStaticField(0x453C8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AE78);
 		}
-		static ::System::Comparison_1<::Class_1_84A668B8DE4853ED*>** StaticGet___9__74_0()
+		static ::System::Predicate_1<::BPKHADAMILM*>** StaticGet___9__86_0()
 		{
-			return (::System::Comparison_1<::Class_1_84A668B8DE4853ED*>**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex)->GetStaticField(0x453D0);
+			return (::System::Predicate_1<::BPKHADAMILM*>**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AE80);
 		}
-		static ::MoleMole::UIZenkovDelegateBoardPageController___c** StaticGet___9()
+		static ::System::Comparison_1<::BPKHADAMILM*>** StaticGet___9__96_0()
 		{
-			return (::MoleMole::UIZenkovDelegateBoardPageController___c**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex)->GetStaticField(0x453D8);
+			return (::System::Comparison_1<::BPKHADAMILM*>**)Il2CppClass::FromTypeDefinitionIndex(UIZenkovDelegateBoardPageController___c_TypeDefinitionIndex)->GetStaticField(0x4AE88);
 		}
 
 		static ::System::Void _cctor()
@@ -57,29 +57,29 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _AppendBuildingWishItems_b__71_0(::Class_1_84A668B8DE4853ED* d)
+		::System::Boolean _AppendBuildingWishItems_b__86_0(::BPKHADAMILM* d)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_84A668B8DE4853ED*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__APPENDBUILDINGWISHITEMS_B__71_0_OFFSET))(this, d);
+			return ((::System::Boolean(*)(::PVOID, ::BPKHADAMILM*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__APPENDBUILDINGWISHITEMS_B__86_0_OFFSET))(this, d);
 		}
 
-		::System::Int32 _SortNormalQuestList_b__74_0(::Class_1_84A668B8DE4853ED* a, ::Class_1_84A668B8DE4853ED* b)
+		::System::Int32 _SortNormalByStatus_b__96_0(::BPKHADAMILM* a, ::BPKHADAMILM* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_84A668B8DE4853ED*, ::Class_1_84A668B8DE4853ED*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__SORTNORMALQUESTLIST_B__74_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::BPKHADAMILM*, ::BPKHADAMILM*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__SORTNORMALBYSTATUS_B__96_0_OFFSET))(this, a, b);
 		}
 
-		::System::Int32 _SortWeeklyQuestList_b__77_0(::Class_1_84A668B8DE4853ED* a, ::Class_1_84A668B8DE4853ED* b)
+		::System::Int32 _SortWeeklyQuestList_b__99_0(::BPKHADAMILM* a, ::BPKHADAMILM* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_84A668B8DE4853ED*, ::Class_1_84A668B8DE4853ED*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__SORTWEEKLYQUESTLIST_B__77_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::BPKHADAMILM*, ::BPKHADAMILM*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__SORTWEEKLYQUESTLIST_B__99_0_OFFSET))(this, a, b);
 		}
 
-		::System::Int32 _SortSeasonQuestList_b__78_0(::Class_1_84A668B8DE4853ED* a, ::Class_1_84A668B8DE4853ED* b)
+		::System::Int32 _SortSeasonQuestList_b__100_0(::BPKHADAMILM* a, ::BPKHADAMILM* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_84A668B8DE4853ED*, ::Class_1_84A668B8DE4853ED*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__SORTSEASONQUESTLIST_B__78_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::BPKHADAMILM*, ::BPKHADAMILM*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__SORTSEASONQUESTLIST_B__100_0_OFFSET))(this, a, b);
 		}
 
-		::System::Void _OnClickShopBtn02_b__128_0()
+		::System::Void _OnClickShopBtn02_b__156_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__ONCLICKSHOPBTN02_B__128_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIZENKOVDELEGATEBOARDPAGECONTROLLER___C__ONCLICKSHOPBTN02_B__156_0_OFFSET))(this);
 		}
 	};
 }

@@ -10,17 +10,19 @@ namespace UnityEngine { class Transform; }
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticleRenderer_JobMeshUpdateState_TypeDefinitionIndex = 34871;
+	inline static constexpr unsigned int UIParticleRenderer_JobMeshUpdateState_TypeDefinitionIndex = 34417;
 
 	struct alignas(8) UIParticleRenderer_JobMeshUpdateState
 	{
 		::System::Boolean isPrepared; // 0x10
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Camera* bakeCamera; // 0x18
 		::UnityEngine::Vector3 scale; // 0x20
 		::UnityEngine::Vector3 psPos; // 0x2C
 		::System::Boolean simulateParticles; // 0x38
 		::System::Boolean runtimeSimulation; // 0x39
 		::System::Boolean needsPrimarySimulate; // 0x3A
+		::System::Byte _padding1[0x1];
 		::System::Single primarySimulateDeltaTime; // 0x3C
 		::UnityEngine::Transform* primarySimulateTransform; // 0x40
 		::UnityEngine::Vector3 primarySimulateOriginWorldPosition; // 0x48

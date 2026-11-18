@@ -5,18 +5,18 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_MONOUIGYRO_MANIPULATEDTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x11902F50)
+#define MOLEMOLE_MONOUIGYRO_MANIPULATEDTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A70F710)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIGyro_ManipulatedTransform_TypeDefinitionIndex = 59964;
+	inline static constexpr unsigned int MonoUIGyro_ManipulatedTransform_TypeDefinitionIndex = 56639;
 
 	class MonoUIGyro_ManipulatedTransform : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* trans; // 0x10
-		::UnityEngine::Vector3 velocity; // 0x18
-		::System::Single speedRatio; // 0x24
+		::System::Single speedRatio; // 0x18
+		::UnityEngine::Vector3 velocity; // 0x1C
 		::System::Single rangeRatio; // 0x28
 		::UnityEngine::Vector3 startPos; // 0x2C
 

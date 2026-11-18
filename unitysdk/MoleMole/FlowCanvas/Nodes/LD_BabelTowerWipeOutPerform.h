@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNode.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWERWIPEOUTPERFORM_INVOKE_OFFSET UNITYSDK_OFFSET(0x107D5D50)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWERWIPEOUTPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x107D5F30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWERWIPEOUTPERFORM_INVOKE_OFFSET UNITYSDK_OFFSET(0x14309C60)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BABELTOWERWIPEOUTPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x14309E40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_BabelTowerWipeOutPerform_TypeDefinitionIndex = 42864;
+	inline static constexpr unsigned int LD_BabelTowerWipeOutPerform_TypeDefinitionIndex = 69688;
 
 	class LD_BabelTowerWipeOutPerform : public ::FlowCanvas::Nodes::CallableActionNode
 	{

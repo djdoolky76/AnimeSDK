@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ButtonPressType_TypeDefinitionIndex = 48754;
+	inline static constexpr unsigned int ButtonPressType_TypeDefinitionIndex = 51116;
 
 	enum class ButtonPressType : ::System::Int32
 	{
 		Down = 0,
-		Up = 2,
 		Pressed = 1,
+		Up = 2,
 	};
 }

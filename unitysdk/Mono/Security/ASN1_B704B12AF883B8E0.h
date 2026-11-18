@@ -1,0 +1,140 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+namespace System::Collections { class ArrayList; }
+
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_ADD_OFFSET UNITYSDK_OFFSET(0x1F7FAE70)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_COMPAREARRAY_OFFSET UNITYSDK_OFFSET(0x1F7FAD10)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_COMPAREVALUE_OFFSET UNITYSDK_OFFSET(0x1F7FAE00)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_DECODETLV_OFFSET UNITYSDK_OFFSET(0x1F7FB6E0)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_DECODE_OFFSET UNITYSDK_OFFSET(0x1F7FA890)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_ELEMENT_OFFSET UNITYSDK_OFFSET(0x1F7FB930)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F7FAD80)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1F7FAF30)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1F7FAA80)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F7FB810)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1F7FAAB0)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_GET_TAG_OFFSET UNITYSDK_OFFSET(0x1F7FAAA0)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F7FAAC0)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_SAVETOFILE_OFFSET UNITYSDK_OFFSET(0x1F7FC120)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F7FABE0)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F7FBA60)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F7FA6D0)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F7FA6C0)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F7FA6E0)
+#define MONO_SECURITY_ASN1_B704B12AF883B8E0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7FA6B0)
+
+namespace Mono::Security
+{
+	inline static constexpr unsigned int ASN1_B704B12AF883B8E0_TypeDefinitionIndex = 2270;
+
+	class ASN1_B704B12AF883B8E0 : public ::System::Object
+	{
+	public:
+		::System::Collections::ArrayList* elist; // 0x10
+		::Il2CppArray<::System::Byte>* m_aValue; // 0x18
+		::System::Byte m_nTag; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::System::Byte tag)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0__CTOR_1_OFFSET))(this, tag);
+		}
+
+		::System::Void _ctor_2(::System::Byte tag, ::Il2CppArray<::System::Byte>* data)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Byte, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0__CTOR_2_OFFSET))(this, tag, data);
+		}
+
+		::System::Void _ctor_3(::Il2CppArray<::System::Byte>* data)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0__CTOR_3_OFFSET))(this, data);
+		}
+
+		::System::Int32 get_Count()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_GET_COUNT_OFFSET))(this);
+		}
+
+		::System::Byte get_Tag()
+		{
+			return ((::System::Byte(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_GET_TAG_OFFSET))(this);
+		}
+
+		::System::Int32 get_Length()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_GET_LENGTH_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::Byte>* get_Value()
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_GET_VALUE_OFFSET))(this);
+		}
+
+		::System::Void set_Value(::Il2CppArray<::System::Byte>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_SET_VALUE_OFFSET))(this, value);
+		}
+
+		::System::Boolean CompareArray(::Il2CppArray<::System::Byte>* array1, ::Il2CppArray<::System::Byte>* array2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_COMPAREARRAY_OFFSET))(this, array1, array2);
+		}
+
+		::System::Boolean Equals(::Il2CppArray<::System::Byte>* asn1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_EQUALS_OFFSET))(this, asn1);
+		}
+
+		::System::Boolean CompareValue(::Il2CppArray<::System::Byte>* value)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_COMPAREVALUE_OFFSET))(this, value);
+		}
+
+		::Mono::Security::ASN1_B704B12AF883B8E0* Add(::Mono::Security::ASN1_B704B12AF883B8E0* asn1)
+		{
+			return ((::Mono::Security::ASN1_B704B12AF883B8E0*(*)(::PVOID, ::Mono::Security::ASN1_B704B12AF883B8E0*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_ADD_OFFSET))(this, asn1);
+		}
+
+		::Il2CppArray<::System::Byte>* GetBytes()
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_GETBYTES_OFFSET))(this);
+		}
+
+		::System::Void Decode(::Il2CppArray<::System::Byte>* asn1, ::System::Int32& anPos, ::System::Int32 anLength)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_DECODE_OFFSET))(this, asn1, anPos, anLength);
+		}
+
+		::System::Void DecodeTLV(::Il2CppArray<::System::Byte>* asn1, ::System::Int32& pos, ::System::Byte& tag, ::System::Int32& length, ::Il2CppArray<::System::Byte>*& content)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Byte&, ::System::Int32&, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_DECODETLV_OFFSET))(this, asn1, pos, tag, length, content);
+		}
+
+		::Mono::Security::ASN1_B704B12AF883B8E0* get_Item(::System::Int32 index)
+		{
+			return ((::Mono::Security::ASN1_B704B12AF883B8E0*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_GET_ITEM_OFFSET))(this, index);
+		}
+
+		::Mono::Security::ASN1_B704B12AF883B8E0* Element(::System::Int32 index, ::System::Byte anTag)
+		{
+			return ((::Mono::Security::ASN1_B704B12AF883B8E0*(*)(::PVOID, ::System::Int32, ::System::Byte))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_ELEMENT_OFFSET))(this, index, anTag);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_TOSTRING_OFFSET))(this);
+		}
+
+		::System::Void SaveToFile(::System::String* filename)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1_B704B12AF883B8E0_SAVETOFILE_OFFSET))(this, filename);
+		}
+	};
+}

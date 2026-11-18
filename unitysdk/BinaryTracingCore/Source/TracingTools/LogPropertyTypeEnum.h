@@ -3,7 +3,7 @@
 
 namespace BinaryTracingCore::Source::TracingTools
 {
-	inline static constexpr unsigned int LogPropertyTypeEnum_TypeDefinitionIndex = 34590;
+	inline static constexpr unsigned int LogPropertyTypeEnum_TypeDefinitionIndex = 34136;
 
 	enum class LogPropertyTypeEnum : ::System::Int32
 	{

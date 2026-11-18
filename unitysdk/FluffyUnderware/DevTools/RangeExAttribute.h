@@ -4,22 +4,23 @@
 
 namespace System { class String; }
 
-#define FLUFFYUNDERWARE_DEVTOOLS_RANGEEXATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EA586A0)
-#define FLUFFYUNDERWARE_DEVTOOLS_RANGEEXATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EA586D0)
-#define FLUFFYUNDERWARE_DEVTOOLS_RANGEEXATTRIBUTE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1EA58700)
-#define FLUFFYUNDERWARE_DEVTOOLS_RANGEEXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA58670)
+#define FLUFFYUNDERWARE_DEVTOOLS_RANGEEXATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED61330)
+#define FLUFFYUNDERWARE_DEVTOOLS_RANGEEXATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1ED61360)
+#define FLUFFYUNDERWARE_DEVTOOLS_RANGEEXATTRIBUTE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1ED61390)
+#define FLUFFYUNDERWARE_DEVTOOLS_RANGEEXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED61300)
 
 namespace FluffyUnderware::DevTools
 {
-	inline static constexpr unsigned int RangeExAttribute_TypeDefinitionIndex = 28967;
+	inline static constexpr unsigned int RangeExAttribute_TypeDefinitionIndex = 28406;
 
 	class RangeExAttribute : public ::FluffyUnderware::DevTools::DTPropertyAttribute
 	{
 	public:
-		::System::String* MinFieldOrPropertyName; // 0x30
-		::System::String* MaxFieldOrPropertyName; // 0x38
-		::System::Single MaxValue; // 0x40
-		::System::Boolean Slider; // 0x44
+		::System::String* MaxFieldOrPropertyName; // 0x30
+		::System::String* MinFieldOrPropertyName; // 0x38
+		::System::Boolean Slider; // 0x40
+		::System::Byte _padding0[0x3];
+		::System::Single MaxValue; // 0x44
 		::System::Single MinValue; // 0x48
 
 		::System::Void _ctor(::System::Single minValue, ::System::Single maxValue, ::System::String* label, ::System::String* tooltip)

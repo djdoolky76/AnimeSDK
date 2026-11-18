@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
-#include "unitysdk/UnityEngine/Plane.h"
-#include "unitysdk/UnityEngine/Rendering/ShadowDrawingSettings.h"
 #include "unitysdk/UnityEngine/Rendering/Universal/GpuGrassShadowType.h"
+#include "unitysdk/UnityEngine/Plane.h"
+#include "unitysdk/UnityEngine/NAPRenderPipeline0/RenderingData.h"
+#include "unitysdk/UnityEngine/Rendering/ShadowDrawingSettings.h"
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine::NAPRenderPipeline0 { class ProfilingSampler; }
@@ -13,65 +13,65 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering::Universal { class GPUGrassProxy; }
 namespace UnityEngine::Rendering::Universal { class UniversalRenderPipelineAsset; }
 
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_CHECKNEEDGPUGRASS_OFFSET UNITYSDK_OFFSET(0x1C42B3E0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_DRAWGRASSITEM_OFFSET UNITYSDK_OFFSET(0x1C414AA0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_DRAWGRASSSHADOWCASTER_OFFSET UNITYSDK_OFFSET(0x1C415F00)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_DRAWGRASSSOFTEDGE_OFFSET UNITYSDK_OFFSET(0x1C4311D0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_GETENABLESOFTEDGE_OFFSET UNITYSDK_OFFSET(0x1C431120)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_ISSUPPORTEDGRASSCAMERA_OFFSET UNITYSDK_OFFSET(0x1C430CD0)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_PREPAREGPUGRASSDRAWDATA_OFFSET UNITYSDK_OFFSET(0x1C430E80)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1C430B40)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1C430C20)
-#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4315A0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_CHECKNEEDGPUGRASS_OFFSET UNITYSDK_OFFSET(0x1C84E9B0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_DRAWGRASSITEM_OFFSET UNITYSDK_OFFSET(0x1C83AD50)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_DRAWGRASSSHADOWCASTER_OFFSET UNITYSDK_OFFSET(0x1C83C060)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_DRAWGRASSSOFTEDGE_OFFSET UNITYSDK_OFFSET(0x1C854790)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_GETENABLESOFTEDGE_OFFSET UNITYSDK_OFFSET(0x1C8546E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_ISSUPPORTEDGRASSCAMERA_OFFSET UNITYSDK_OFFSET(0x1C854290)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_PREPAREGPUGRASSDRAWDATA_OFFSET UNITYSDK_OFFSET(0x1C854440)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1C854100)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1C8541E0)
+#define UNITYENGINE_RENDERING_UNIVERSAL_GPUGRASSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C854B60)
 
 namespace UnityEngine::Rendering::Universal
 {
-	inline static constexpr unsigned int GPUGrassManager_TypeDefinitionIndex = 27407;
+	inline static constexpr unsigned int GPUGrassManager_TypeDefinitionIndex = 26152;
 
 	class GPUGrassManager : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Plane>** StaticGet_planes()
+		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_SamplerForSoftEdge()
 		{
-			return (::Il2CppArray<::UnityEngine::Plane>**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x23BB0);
-		}
-		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::GPUGrassProxy*>** StaticGet_proxyList()
-		{
-			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::GPUGrassProxy*>**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x23BB8);
-		}
-		static ::UnityEngine::Profiling::CustomSampler** StaticGet_m_SamplerForCulling()
-		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x23BC0);
-		}
-		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_SamplerForGBuffer()
-		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x23BC8);
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x24BA0);
 		}
 		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_SamplerForShadow()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x23BD0);
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x24BA8);
 		}
-		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_SamplerForSoftEdge()
+		static ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::GPUGrassProxy*>** StaticGet_proxyList()
 		{
-			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x23BD8);
+			return (::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::Universal::GPUGrassProxy*>**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x24BB0);
+		}
+		static ::UnityEngine::Profiling::CustomSampler** StaticGet_m_SamplerForCulling()
+		{
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x24BB8);
+		}
+		static ::Il2CppArray<::UnityEngine::Plane>** StaticGet_planes()
+		{
+			return (::Il2CppArray<::UnityEngine::Plane>**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x24BC0);
+		}
+		static ::UnityEngine::NAPRenderPipeline0::ProfilingSampler** StaticGet_m_SamplerForGBuffer()
+		{
+			return (::UnityEngine::NAPRenderPipeline0::ProfilingSampler**)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x24BC8);
 		}
 		static ::UnityEngine::Rendering::Universal::GpuGrassShadowType* StaticGet_gpuGrassShadowType()
 		{
-			return (::UnityEngine::Rendering::Universal::GpuGrassShadowType*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x76D0);
-		}
-		static ::System::Boolean* StaticGet_enableBakedDecal()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x76D4);
-		}
-		static ::System::Boolean* StaticGet_needDrawGPUGrass()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x76D5);
+			return (::UnityEngine::Rendering::Universal::GpuGrassShadowType*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x7760);
 		}
 		static ::System::Int32* StaticGet_m_GlobalMeshLodBias()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x76D8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x7764);
 		}
-		// static const ::System::Boolean kEnableSoftEdge; // 0x0
+		static ::System::Boolean* StaticGet_enableBakedDecal()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x7768);
+		}
+		static ::System::Boolean* StaticGet_needDrawGPUGrass()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GPUGrassManager_TypeDefinitionIndex)->GetStaticField(0x7769);
+		}
+		// static const ::System::Boolean kEnableSoftEdge = 0x1; // 0x0
 
 		static ::System::Void _cctor()
 		{

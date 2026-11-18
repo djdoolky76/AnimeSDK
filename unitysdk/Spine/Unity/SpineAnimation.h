@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define SPINE_UNITY_SPINEANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C19CFB0)
+#define SPINE_UNITY_SPINEANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1FF45340)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineAnimation_TypeDefinitionIndex = 40183;
+	inline static constexpr unsigned int SpineAnimation_TypeDefinitionIndex = 38203;
 
 	class SpineAnimation : public ::Spine::Unity::SpineAttributeBase
 	{
 	public:
-		::System::Void _ctor(::System::String* startsWith, ::System::String* dataField, ::System::Boolean includeNone, ::System::Boolean fallbackToTextField)
+		::System::Void _ctor(::System::String* startsWith, ::System::String* dataField, ::System::Boolean includeNone, ::System::Boolean fallbackToTextField, ::System::Boolean avoidGenericMenu)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEANIMATION__CTOR_OFFSET))(this, startsWith, dataField, includeNone, fallbackToTextField);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEANIMATION__CTOR_OFFSET))(this, startsWith, dataField, includeNone, fallbackToTextField, avoidGenericMenu);
 		}
 	};
 }

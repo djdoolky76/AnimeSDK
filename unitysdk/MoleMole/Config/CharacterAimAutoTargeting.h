@@ -6,13 +6,15 @@ namespace System { class String; }
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int CharacterAimAutoTargeting_TypeDefinitionIndex = 60242;
+	inline static constexpr unsigned int CharacterAimAutoTargeting_TypeDefinitionIndex = 81889;
 
 	struct alignas(8) CharacterAimAutoTargeting
 	{
 		::System::Boolean enabled; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single range; // 0x14
 		::System::Single duration; // 0x18
+		::System::Byte _padding1[0x4];
 		::System::String* speedCurve; // 0x20
 	};
 }

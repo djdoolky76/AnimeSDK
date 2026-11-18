@@ -2,9 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-inline static constexpr unsigned int AssemblyRef_TypeDefinitionIndex = 2257;
+inline static constexpr unsigned int AssemblyRef_TypeDefinitionIndex = 2256;
 
 class AssemblyRef : public ::System::Object
 {

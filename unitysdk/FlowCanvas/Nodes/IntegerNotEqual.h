@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_3.h"
 
-#define FLOWCANVAS_NODES_INTEGERNOTEQUAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DAD7600)
-#define FLOWCANVAS_NODES_INTEGERNOTEQUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD7610)
+#define FLOWCANVAS_NODES_INTEGERNOTEQUAL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D4756E0)
+#define FLOWCANVAS_NODES_INTEGERNOTEQUAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4756F0)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int IntegerNotEqual_TypeDefinitionIndex = 30699;
+	inline static constexpr unsigned int IntegerNotEqual_TypeDefinitionIndex = 29191;
 
-	class IntegerNotEqual : public ::FlowCanvas::Nodes::PureFunctionNode_3<::System::Boolean, ::System::Int32, ::System::Int32>
+	class IntegerNotEqual
 	{
 	public:
 		::System::Void _ctor()

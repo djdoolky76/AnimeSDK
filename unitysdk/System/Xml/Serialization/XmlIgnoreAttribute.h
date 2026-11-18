@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_XML_SERIALIZATION_XMLIGNOREATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F0712E0)
+#define SYSTEM_XML_SERIALIZATION_XMLIGNOREATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F4090F0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlIgnoreAttribute_TypeDefinitionIndex = 1886;
+	inline static constexpr unsigned int XmlIgnoreAttribute_TypeDefinitionIndex = 1885;
 
 	class XmlIgnoreAttribute : public ::System::Attribute
 	{

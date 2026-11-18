@@ -6,16 +6,17 @@
 
 namespace MoleMole::Battle { class Entity; }
 
-#define STATETREEGAMEPLAY_GRAPHEVENTCONTEXTSTATE_FLUSHSENDEVENT_OFFSET UNITYSDK_OFFSET(0x881D20)
-#define STATETREEGAMEPLAY_GRAPHEVENTCONTEXTSTATE_TRIGGERSENDEVENT_OFFSET UNITYSDK_OFFSET(0x881CB0)
+#define STATETREEGAMEPLAY_GRAPHEVENTCONTEXTSTATE_FLUSHSENDEVENT_OFFSET UNITYSDK_OFFSET(0x81D290)
+#define STATETREEGAMEPLAY_GRAPHEVENTCONTEXTSTATE_TRIGGERSENDEVENT_OFFSET UNITYSDK_OFFSET(0x81D220)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int GraphEventContextState_TypeDefinitionIndex = 40808;
+	inline static constexpr unsigned int GraphEventContextState_TypeDefinitionIndex = 78202;
 
 	struct alignas(4) GraphEventContextState
 	{
 		::StateTreeGameplay::ContextTrigger Trigger; // 0x10
+		::System::Byte _padding0[0x3];
 		::Foundation::Unreal::FGameplayTag EventTag; // 0x14
 
 		::System::Boolean TriggerSendEvent(::Foundation::Unreal::FGameplayTag eventTag)

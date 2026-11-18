@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BKCJAIFHNKF.h"
+#include "unitysdk/LGCNEDCMPKM.h"
+#include "unitysdk/NEIGJHNJNFL.h"
+
+class KCBEGMCCKCA;
+class MKBBPOFGLOF;
+namespace System { class String; }
+template <typename T> class KCMIFNGABDC_1;
+
+#define OADGJGAJILP_ELMEFBBHCEG_OFFSET UNITYSDK_OFFSET(0xFB3C700)
+#define OADGJGAJILP_EMDHPLFEHKI_OFFSET UNITYSDK_OFFSET(0xFB3C950)
+#define OADGJGAJILP_FEDNEKFMGNF_OFFSET UNITYSDK_OFFSET(0xFB3C530)
+#define OADGJGAJILP_GDEOPIBNOIN_OFFSET UNITYSDK_OFFSET(0xFB3C8C0)
+#define OADGJGAJILP_LHLLFJDCOOF_OFFSET UNITYSDK_OFFSET(0xFB3C600)
+#define OADGJGAJILP__CTOR_OFFSET UNITYSDK_OFFSET(0xFB3C7C0)
+
+inline static constexpr unsigned int OADGJGAJILP_TypeDefinitionIndex = 89581;
+
+class OADGJGAJILP : public ::BKCJAIFHNKF
+{
+public:
+	::MKBBPOFGLOF* MMFNFINOFPN; // 0x18
+	::KCMIFNGABDC_1<::System::String*>* JFHLOIOCKFG; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OADGJGAJILP__CTOR_OFFSET))(this);
+	}
+
+	::System::Void FEDNEKFMGNF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OADGJGAJILP_FEDNEKFMGNF_OFFSET))(this);
+	}
+
+	::System::Void LHLLFJDCOOF(::KCBEGMCCKCA* MHPNGBGGMMN, ::LGCNEDCMPKM& BKBGPKNGNMF)
+	{
+		return ((::System::Void(*)(::PVOID, ::KCBEGMCCKCA*, ::LGCNEDCMPKM&))((::PBYTE)hIl2Cpp + OADGJGAJILP_LHLLFJDCOOF_OFFSET))(this, MHPNGBGGMMN, BKBGPKNGNMF);
+	}
+
+	::System::Void ELMEFBBHCEG(::LGCNEDCMPKM& BKBGPKNGNMF, ::NEIGJHNJNFL DIHNFECKHMD)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGCNEDCMPKM&, ::NEIGJHNJNFL))((::PBYTE)hIl2Cpp + OADGJGAJILP_ELMEFBBHCEG_OFFSET))(this, BKBGPKNGNMF, DIHNFECKHMD);
+	}
+
+	::System::Void GDEOPIBNOIN()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OADGJGAJILP_GDEOPIBNOIN_OFFSET))(this);
+	}
+
+	::System::Boolean EMDHPLFEHKI(::LGCNEDCMPKM AAOCANGHBDG, ::NEIGJHNJNFL LJBPECKCCEA)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::LGCNEDCMPKM, ::NEIGJHNJNFL))((::PBYTE)hIl2Cpp + OADGJGAJILP_EMDHPLFEHKI_OFFSET))(this, AAOCANGHBDG, LJBPECKCCEA);
+	}
+};

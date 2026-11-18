@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_GLOBALIZATION_GLOBALIZATIONASSEMBLY_GETGLOBALIZATIONRESOURCEBYTEPTR_OFFSET UNITYSDK_OFFSET(0x1E1201A0)
-#define SYSTEM_GLOBALIZATION_GLOBALIZATIONASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E120250)
+#define SYSTEM_GLOBALIZATION_GLOBALIZATIONASSEMBLY_GETGLOBALIZATIONRESOURCEBYTEPTR_OFFSET UNITYSDK_OFFSET(0x1E48C680)
+#define SYSTEM_GLOBALIZATION_GLOBALIZATIONASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E48C730)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int GlobalizationAssembly_TypeDefinitionIndex = 723;
+	inline static constexpr unsigned int GlobalizationAssembly_TypeDefinitionIndex = 722;
 
 	class GlobalizationAssembly : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace System::Globalization
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_GLOBALIZATIONASSEMBLY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Byte* GetGlobalizationResourceBytePtr(::System::Reflection::Assembly* assembly, ::System::String* tableName)
+		static ::PVOID GetGlobalizationResourceBytePtr(::System::Reflection::Assembly* assembly, ::System::String* tableName)
 		{
-			return ((::System::Byte*(*)(::System::Reflection::Assembly*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_GLOBALIZATIONASSEMBLY_GETGLOBALIZATIONRESOURCEBYTEPTR_OFFSET))(assembly, tableName);
+			return ((::PVOID(*)(::System::Reflection::Assembly*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_GLOBALIZATIONASSEMBLY_GETGLOBALIZATIONRESOURCEBYTEPTR_OFFSET))(assembly, tableName);
 		}
 	};
 }

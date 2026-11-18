@@ -5,13 +5,13 @@
 
 namespace Ara { class AraTrail; }
 
-#define ARASAMPLES_WALLPLAYERCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F644020)
-#define ARASAMPLES_WALLPLAYERCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F6440B0)
-#define ARASAMPLES_WALLPLAYERCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F6445A0)
+#define ARASAMPLES_WALLPLAYERCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F9FAA60)
+#define ARASAMPLES_WALLPLAYERCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F9FAAF0)
+#define ARASAMPLES_WALLPLAYERCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9FAFE0)
 
 namespace AraSamples
 {
-	inline static constexpr unsigned int WallPlayerController_TypeDefinitionIndex = 33555;
+	inline static constexpr unsigned int WallPlayerController_TypeDefinitionIndex = 33101;
 
 	class WallPlayerController : public ::UnityEngine::MonoBehaviour
 	{
@@ -19,6 +19,7 @@ namespace AraSamples
 		::System::Single speed; // 0x18
 		::System::Int32 boardSize; // 0x1C
 		::System::Int32 maxTrailLenght; // 0x20
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::Color>* colors; // 0x28
 		::System::Int32 coordX; // 0x30
 		::System::Int32 coordZ; // 0x34

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGMETACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B500C80)
+#define MOLEMOLE_CONFIGMETACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x142CD840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigMetaConfig_TypeDefinitionIndex = 78166;
+	inline static constexpr unsigned int ConfigMetaConfig_TypeDefinitionIndex = 47089;
 
 	class ConfigMetaConfig : public ::Foundation::MihoyoSerializedScriptableObject
 	{

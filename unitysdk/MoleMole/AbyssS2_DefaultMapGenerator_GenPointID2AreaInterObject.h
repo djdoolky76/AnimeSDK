@@ -6,30 +6,30 @@ namespace MoleMole { class AbyssS2_DefaultRng; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_ADDAREACOUNT_OFFSET UNITYSDK_OFFSET(0x1778F070)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_ADDAREAINDEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1778F250)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_GETAREACOUNT_OFFSET UNITYSDK_OFFSET(0x1778EF50)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_GETAREAINDEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1778F130)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_PREPAREGENAREASERIALID_OFFSET UNITYSDK_OFFSET(0x1778FE10)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_SETPOINTID2AREA_OFFSET UNITYSDK_OFFSET(0x17790260)
-#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1778F310)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_ADDAREACOUNT_OFFSET UNITYSDK_OFFSET(0x174B8070)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_ADDAREAINDEXCOUNT_OFFSET UNITYSDK_OFFSET(0x174B8250)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_GETAREACOUNT_OFFSET UNITYSDK_OFFSET(0x174B7F50)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_GETAREAINDEXCOUNT_OFFSET UNITYSDK_OFFSET(0x174B8130)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_PREPAREGENAREASERIALID_OFFSET UNITYSDK_OFFSET(0x174B8E10)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT_SETPOINTID2AREA_OFFSET UNITYSDK_OFFSET(0x174B9260)
+#define MOLEMOLE_ABYSSS2_DEFAULTMAPGENERATOR_GENPOINTID2AREAINTEROBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x174B8310)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int AbyssS2_DefaultMapGenerator_GenPointID2AreaInterObject_TypeDefinitionIndex = 87619;
+	inline static constexpr unsigned int AbyssS2_DefaultMapGenerator_GenPointID2AreaInterObject_TypeDefinitionIndex = 93069;
 
 	class AbyssS2_DefaultMapGenerator_GenPointID2AreaInterObject : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* historyAreaIDIndexCounter; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* floorRouteCounter; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* historyAreaIDCounter; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* areaIDCounter; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* pointID2AreaResult; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* floorRouteCounter; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* pointID2AreaIndexResult; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* guaranteeAreaIDs; // 0x30
-		::MoleMole::AbyssS2_DefaultRng* _areaSerialGen; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* pointID2AreaResult; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* areaIDCounter; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* areaIDIndexCounter; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* areaIDIndexCounter; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* guaranteeAreaIDs; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* historyAreaIDIndexCounter; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* historyAreaIDCounter; // 0x48
+		::MoleMole::AbyssS2_DefaultRng* _areaSerialGen; // 0x50
 		::System::Int64 innerSeed; // 0x58
 
 		::System::Void _ctor(::System::Int64 inSeed)

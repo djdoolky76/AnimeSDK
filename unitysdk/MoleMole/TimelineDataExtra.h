@@ -12,12 +12,12 @@ namespace System::Collections { class IEnumerable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_TIMELINEDATAEXTRA_GETIDS_OFFSET UNITYSDK_OFFSET(0x129EA4A0)
-#define MOLEMOLE_TIMELINEDATAEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x129EA5E0)
+#define MOLEMOLE_TIMELINEDATAEXTRA_GETIDS_OFFSET UNITYSDK_OFFSET(0x1882AF10)
+#define MOLEMOLE_TIMELINEDATAEXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x1882B050)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TimelineDataExtra_TypeDefinitionIndex = 85139;
+	inline static constexpr unsigned int TimelineDataExtra_TypeDefinitionIndex = 90381;
 
 	class TimelineDataExtra : public ::System::Object
 	{
@@ -26,17 +26,21 @@ namespace MoleMole
 		::System::Boolean IncludeAllEntities; // 0x11
 		::System::Boolean IncludeAllLocalAvatar; // 0x12
 		::System::Boolean IncludeAllServerEntities; // 0x13
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::Int32>* ServerEntityTags; // 0x18
 		::System::String* InvisibleTargetDataKey; // 0x20
 		::Il2CppArray<::System::String*>* InvisibleTargetDataKeys; // 0x28
 		::System::Boolean NeedClearEffectOnStartEnd; // 0x30
+		::System::Byte _padding1[0x7];
 		::System::String* EffectCasterTargetDataKey; // 0x38
 		::System::Boolean NeedClearBulletEffectOnStart; // 0x40
 		::System::Boolean NeedClearCameraEffectOnStart; // 0x41
 		::System::Boolean NeedResetAnimOnStartEnd; // 0x42
+		::System::Byte _padding2[0x5];
 		::System::String* ResetAnimTargetDataKey; // 0x48
 		::System::Boolean DynamicObjectSwitchOpen; // 0x50
 		::System::Boolean DynamicObjectActive; // 0x51
+		::System::Byte _padding3[0x6];
 		::System::Collections::Generic::List_1<::MoleMole::GameplayTag>* TagList; // 0x58
 		::MoleMole::GameplayTag TargetLayer; // 0x60
 		::System::Boolean DisableHizCulling; // 0x70
@@ -49,6 +53,7 @@ namespace MoleMole
 		::System::Boolean muteMonsterCameraDither; // 0x77
 		::System::Boolean muteBuddyCameraDither; // 0x78
 		::System::Boolean muteCustomAbilityTarget; // 0x79
+		::System::Byte _padding4[0x6];
 		::System::Collections::Generic::List_1<::System::String*>* CustomAbilityTargetKeyList; // 0x80
 		::System::Boolean ForceSyncLoad; // 0x88
 		::System::Boolean ForceDisableAllColliderInTimelinePrefab; // 0x89
@@ -56,14 +61,17 @@ namespace MoleMole
 		::System::Boolean disableLightDistanceCulling; // 0x8B
 		::System::Boolean ForceDisableRuntimeRebindEntityComp; // 0x8C
 		::System::Boolean ForceStopAllOngoingChat; // 0x8D
+		::System::Byte _padding5[0x2];
 		::System::String* ParentTransformEntityTag; // 0x90
 		::System::String* ParentTransformSceneObjTag; // 0x98
 		::MoleMole::TimelineTransformCalculatorBase* RootTransformCalculator; // 0xA0
 		::System::Boolean IsFollowParentTransform; // 0xA8
 		::System::Boolean CameraApplyOnTransitionYRatio; // 0xA9
+		::System::Byte _padding6[0x2];
 		::System::Single CameraOnTransitionYRatioValue; // 0xAC
 		::System::Single CameraOnTransitionPolarAngle; // 0xB0
 		::System::Boolean AutoCalRecoverPolarAngle; // 0xB4
+		::System::Byte _padding7[0x3];
 		::System::Collections::Generic::Dictionary_2<::MoleMole::GameplayTag, ::MoleMole::TLStartEndEntityAnimatorParamControl*>* EntityAnimatorParamControlDict; // 0xB8
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RuntimeTimelineBindingReplaceDict; // 0xC0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RuntimeTimelineSyncTransformDict; // 0xC8
@@ -73,11 +81,14 @@ namespace MoleMole
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::GameplayTag>* RootTransformSceneObjTagRebindDict; // 0xE8
 		::System::Boolean EnableSeamlessTimeline; // 0xF0
 		::System::Boolean EnableSeamlessTimelineBlendIn; // 0xF1
+		::System::Byte _padding8[0x6];
 		::Cinemachine::CinemachineBlendDefinition SeamlessTimelineCameraCustomBlendIn; // 0xF8
 		::System::Boolean EnableSeamlessTimelineBlendOut; // 0x108
+		::System::Byte _padding9[0x7];
 		::Cinemachine::CinemachineBlendDefinition SeamlessTimelineCameraCustomBlendOut; // 0x110
 		::System::Boolean UsePipelineBlendCamera; // 0x120
 		::System::Boolean skipTimelineCutsceneFadeOut; // 0x121
+		::System::Byte _padding10[0x2];
 		::MoleMole::ParallelTimelineTimeScaleType ParallelTimelineTickTimeScaleType; // 0x124
 
 		::System::Void _ctor()

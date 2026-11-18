@@ -1,17 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Reflection/BindingFlags.h"
-#include "unitysdk/System/Reflection/ParameterModifier.h"
 
-namespace System { class String; }
-namespace System { class Type; }
-namespace System::Globalization { class CultureInfo; }
-namespace System::Reflection { class FieldInfo; }
-namespace System::Reflection { class MethodBase; }
-namespace System::Reflection { class PropertyInfo; }
-
-#define SYSTEM_REFLECTION_BINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E121B30)
+#define SYSTEM_REFLECTION_BINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E48E010)
 
 namespace System::Reflection
 {

@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInterKnotNewsPanelLevelRowWidgetController_BtnState_TypeDefinitionIndex = 90974;
+	inline static constexpr unsigned int UIInterKnotNewsPanelLevelRowWidgetController_BtnState_TypeDefinitionIndex = 53657;
 
 	enum class UIInterKnotNewsPanelLevelRowWidgetController_BtnState : ::System::Int32
 	{
-		NotReached = 0,
 		Available = 1,
+		NotReached = 0,
 		Taken = 2,
 	};
 }

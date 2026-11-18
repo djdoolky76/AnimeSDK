@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_1_90F86E90A663D1B4;
+class MLFNDKLHDIM;
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x184BD230)
-#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x184BD260)
-#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED_INVOKE_OFFSET UNITYSDK_OFFSET(0x184BCD10)
-#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0x184BCCF0)
+#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x18D01890)
+#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x18D018C0)
+#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED_INVOKE_OFFSET UNITYSDK_OFFSET(0x18D01370)
+#define MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0x18D01360)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UILineupSelectContext_OnSelectionChanged_TypeDefinitionIndex = 52586;
+	inline static constexpr unsigned int UILineupSelectContext_OnSelectionChanged_TypeDefinitionIndex = 81300;
 
 	class UILineupSelectContext_OnSelectionChanged : public ::System::MulticastDelegate
 	{
@@ -24,14 +24,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Void Invoke(::Class_1_90F86E90A663D1B4* data)
+		::System::Void Invoke(::MLFNDKLHDIM* data)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_90F86E90A663D1B4*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED_INVOKE_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::MLFNDKLHDIM*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED_INVOKE_OFFSET))(this, data);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Class_1_90F86E90A663D1B4* data, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::MLFNDKLHDIM* data, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_1_90F86E90A663D1B4*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED_BEGININVOKE_OFFSET))(this, data, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::MLFNDKLHDIM*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MOLEMOLE_UILINEUPSELECTCONTEXT_ONSELECTIONCHANGED_BEGININVOKE_OFFSET))(this, data, callback, object);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* result)

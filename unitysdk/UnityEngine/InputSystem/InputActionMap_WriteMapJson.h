@@ -1,28 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/InputSystem/InputActionMap_BindingJson.h"
-#include "unitysdk/UnityEngine/InputSystem/InputActionMap_WriteActionJson.h"
 
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine::InputSystem { class InputActionMap; }
 
-#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_WRITEMAPJSON_FROMMAP_OFFSET UNITYSDK_OFFSET(0x1F378C10)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_WRITEMAPJSON_FROMMAP_OFFSET UNITYSDK_OFFSET(0x1F789F90)
 
 namespace UnityEngine::InputSystem
 {
-	inline static constexpr unsigned int InputActionMap_WriteMapJson_TypeDefinitionIndex = 32163;
+	inline static constexpr unsigned int InputActionMap_WriteMapJson_TypeDefinitionIndex = 31612;
 
 	struct alignas(8) InputActionMap_WriteMapJson
 	{
 		::System::String* name; // 0x10
 		::System::String* id; // 0x18
-		::Il2CppArray<::UnityEngine::InputSystem::InputActionMap_WriteActionJson>* actions; // 0x20
-		::Il2CppArray<::UnityEngine::InputSystem::InputActionMap_BindingJson>* bindings; // 0x28
+		::Il2CppArray<::System::Object*>* actions; // 0x20
+		::Il2CppArray<::System::Object*>* bindings; // 0x28
 
+		/*
 		static ::UnityEngine::InputSystem::InputActionMap_WriteMapJson FromMap(::UnityEngine::InputSystem::InputActionMap* map)
 		{
 			return ((::UnityEngine::InputSystem::InputActionMap_WriteMapJson(*)(::UnityEngine::InputSystem::InputActionMap*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONMAP_WRITEMAPJSON_FROMMAP_OFFSET))(map);
 		}
+		*/
 	};
 }

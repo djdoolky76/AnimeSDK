@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int IXmlLineInfo_TypeDefinitionIndex = 1792;
+	inline static constexpr unsigned int IXmlLineInfo_TypeDefinitionIndex = 1791;
 
 	class IXmlLineInfo
 	{

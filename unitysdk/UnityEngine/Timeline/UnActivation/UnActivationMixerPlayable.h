@@ -1,34 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Timeline/BaseTimeline/BaseTimelineBehavior.h"
+#include "unitysdk/UnityEngine/Timeline/UnActivation/UnActivationTrack_PostPlaybackState.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Playables/ScriptPlayable_1.h"
-#include "unitysdk/UnityEngine/Timeline/UnActivation/UnActivationTrack_PostPlaybackState.h"
 
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F24CAE0)
-#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_GET_POSTPLAYBACKSTATE_OFFSET UNITYSDK_OFFSET(0x1F24CB70)
-#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1F24CB90)
-#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1F24CDB0)
-#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_RECOVERSTATE_OFFSET UNITYSDK_OFFSET(0x1F24CD30)
-#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_SET_POSTPLAYBACKSTATE_OFFSET UNITYSDK_OFFSET(0x1F24CB80)
-#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F24D290)
+#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F603250)
+#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_GET_POSTPLAYBACKSTATE_OFFSET UNITYSDK_OFFSET(0x1F6032E0)
+#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F603460)
+#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x1F603300)
+#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_ONPROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1F6037A0)
+#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1F603770)
+#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_RECOVERSTATE_OFFSET UNITYSDK_OFFSET(0x1F6035C0)
+#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x1F6035F0)
+#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_SET_POSTPLAYBACKSTATE_OFFSET UNITYSDK_OFFSET(0x1F6032F0)
+#define UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F603C60)
 
 namespace UnityEngine::Timeline::UnActivation
 {
-	inline static constexpr unsigned int UnActivationMixerPlayable_TypeDefinitionIndex = 33080;
+	inline static constexpr unsigned int UnActivationMixerPlayable_TypeDefinitionIndex = 32539;
 
-	class UnActivationMixerPlayable : public ::UnityEngine::Playables::PlayableBehaviour
+	class UnActivationMixerPlayable : public ::MoleMole::Timeline::BaseTimeline::BaseTimelineBehavior
 	{
 	public:
-		::UnityEngine::GameObject* m_BoundGameObject; // 0x10
-		::UnityEngine::Timeline::UnActivation::UnActivationTrack_PostPlaybackState m_PostPlaybackState; // 0x18
-		::System::Boolean m_BoundGameObjectInitialStateIsActive; // 0x1C
-		::System::Boolean isInClip; // 0x1D
+		::UnityEngine::GameObject* m_BoundGameObject; // 0x18
+		::System::Boolean m_BoundGameObjectInitialStateIsActive; // 0x20
+		::System::Boolean isInClip; // 0x21
+		::System::Byte _padding0[0x2];
+		::UnityEngine::Timeline::UnActivation::UnActivationTrack_PostPlaybackState m_PostPlaybackState; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -55,14 +59,29 @@ namespace UnityEngine::Timeline::UnActivation
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_ONPLAYABLEDESTROY_OFFSET))(this, playable);
 		}
 
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_ONDESTROY_OFFSET))(this);
+		}
+
 		::System::Void RecoverState()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_RECOVERSTATE_OFFSET))(this);
 		}
 
+		::System::Void SetActive(::System::Boolean active)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_SETACTIVE_OFFSET))(this, active);
+		}
+
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_PROCESSFRAME_OFFSET))(this, playable, info, playerData);
+		}
+
+		::System::Void OnProcessFrame(::UnityEngine::Playables::Playable rootPlayable, ::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData, ::System::Single weight, ::System::Int32 mixerIndex)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_UNACTIVATION_UNACTIVATIONMIXERPLAYABLE_ONPROCESSFRAME_OFFSET))(this, rootPlayable, playable, info, playerData, weight, mixerIndex);
 		}
 	};
 }

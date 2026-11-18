@@ -6,26 +6,26 @@ namespace MoleMole { class QuestTipPopShow; }
 namespace MoleMole { class UIMainCityPageController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13ACEF20)
-#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__0_OFFSET UNITYSDK_OFFSET(0x13ACEF30)
-#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__1_OFFSET UNITYSDK_OFFSET(0x13ACF540)
-#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__2_OFFSET UNITYSDK_OFFSET(0x13ACF5F0)
-#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__3_OFFSET UNITYSDK_OFFSET(0x13ACF620)
-#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__4_OFFSET UNITYSDK_OFFSET(0x13ACF6D0)
+#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x146A87A0)
+#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__0_OFFSET UNITYSDK_OFFSET(0x146A87B0)
+#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__1_OFFSET UNITYSDK_OFFSET(0x146A8DC0)
+#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__2_OFFSET UNITYSDK_OFFSET(0x146A8E70)
+#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__3_OFFSET UNITYSDK_OFFSET(0x146A8EA0)
+#define MOLEMOLE_QUESTTIPPOPSHOW___C__DISPLAYCLASS7_0__ONPROCESS_B__4_OFFSET UNITYSDK_OFFSET(0x146A8F50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int QuestTipPopShow___c__DisplayClass7_0_TypeDefinitionIndex = 81513;
+	inline static constexpr unsigned int QuestTipPopShow___c__DisplayClass7_0_TypeDefinitionIndex = 40640;
 
 	class QuestTipPopShow___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::MoleMole::UIMainCityPageController* mainPage; // 0x10
-		::MoleMole::QuestTipPopShow* __4__this; // 0x18
-		::System::Action* __9__4; // 0x20
-		::System::Action* __9__3; // 0x28
-		::System::Action* __9__1; // 0x30
-		::System::Action* __9__2; // 0x38
+		::System::Action* __9__1; // 0x10
+		::System::Action* __9__4; // 0x18
+		::MoleMole::UIMainCityPageController* mainPage; // 0x20
+		::System::Action* __9__2; // 0x28
+		::MoleMole::QuestTipPopShow* __4__this; // 0x30
+		::System::Action* __9__3; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -4,21 +4,21 @@
 
 namespace System { class Version; }
 
-#define SYSTEM_NET_HTTPVERSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D407AA0)
-#define SYSTEM_NET_HTTPVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D407A90)
+#define SYSTEM_NET_HTTPVERSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D88FA40)
+#define SYSTEM_NET_HTTPVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D88FA30)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpVersion_TypeDefinitionIndex = 3281;
+	inline static constexpr unsigned int HttpVersion_TypeDefinitionIndex = 3280;
 
 	class HttpVersion : public ::System::Object
 	{
 	public:
-		static ::System::Version** StaticGet_Version11()
+		static ::System::Version** StaticGet_Version10()
 		{
 			return (::System::Version**)Il2CppClass::FromTypeDefinitionIndex(HttpVersion_TypeDefinitionIndex)->GetStaticField(0x2E90);
 		}
-		static ::System::Version** StaticGet_Version10()
+		static ::System::Version** StaticGet_Version11()
 		{
 			return (::System::Version**)Il2CppClass::FromTypeDefinitionIndex(HttpVersion_TypeDefinitionIndex)->GetStaticField(0x2E98);
 		}

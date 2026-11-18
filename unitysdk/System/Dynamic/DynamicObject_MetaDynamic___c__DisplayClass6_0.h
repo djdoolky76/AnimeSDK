@@ -7,8 +7,8 @@ namespace System::Dynamic { class DynamicObject_MetaDynamic; }
 namespace System::Dynamic { class GetMemberBinder; }
 namespace System::Dynamic { class InvokeMemberBinder; }
 
-#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS6_0__BINDINVOKEMEMBER_B__0_OFFSET UNITYSDK_OFFSET(0x1F7B9890)
-#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B9880)
+#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS6_0__BINDINVOKEMEMBER_B__0_OFFSET UNITYSDK_OFFSET(0x1FBCAC80)
+#define SYSTEM_DYNAMIC_DYNAMICOBJECT_METADYNAMIC___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1FBCAC70)
 
 namespace System::Dynamic
 {
@@ -17,8 +17,8 @@ namespace System::Dynamic
 	class DynamicObject_MetaDynamic___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Dynamic::DynamicMetaObject*>* args; // 0x10
-		::System::Dynamic::InvokeMemberBinder* binder; // 0x18
+		::System::Dynamic::InvokeMemberBinder* binder; // 0x10
+		::Il2CppArray<::System::Dynamic::DynamicMetaObject*>* args; // 0x18
 
 		::System::Void _ctor()
 		{

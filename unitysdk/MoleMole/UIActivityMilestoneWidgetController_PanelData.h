@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_UIACTIVITYMILESTONEWIDGETCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x191FC7A0)
+#define MOLEMOLE_UIACTIVITYMILESTONEWIDGETCONTROLLER_PANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20EDA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityMilestoneWidgetController_PanelData_TypeDefinitionIndex = 71867;
+	inline static constexpr unsigned int UIActivityMilestoneWidgetController_PanelData_TypeDefinitionIndex = 68793;
 
 	class UIActivityMilestoneWidgetController_PanelData : public ::System::Object
 	{

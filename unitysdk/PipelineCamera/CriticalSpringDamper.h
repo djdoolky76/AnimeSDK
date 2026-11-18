@@ -1,15 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/PipelineCamera/VelocityBasedDampingStatus.h"
 
-#define PIPELINECAMERA_CRITICALSPRINGDAMPER_GET_STIFFNESS_OFFSET UNITYSDK_OFFSET(0xA2E5E0)
-#define PIPELINECAMERA_CRITICALSPRINGDAMPER_PIPELINECAMERA_IVELOCITYBASEDDAMPER_PROCESS_OFFSET UNITYSDK_OFFSET(0xA2E640)
-#define PIPELINECAMERA_CRITICALSPRINGDAMPER_PROCESS_OFFSET UNITYSDK_OFFSET(0xA2E630)
-#define PIPELINECAMERA_CRITICALSPRINGDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x324A50)
+#define PIPELINECAMERA_CRITICALSPRINGDAMPER_GET_STIFFNESS_OFFSET UNITYSDK_OFFSET(0x913380)
+#define PIPELINECAMERA_CRITICALSPRINGDAMPER_PIPELINECAMERA_IVELOCITYBASEDDAMPER_PROCESS_OFFSET UNITYSDK_OFFSET(0x9133E0)
+#define PIPELINECAMERA_CRITICALSPRINGDAMPER_PROCESS_OFFSET UNITYSDK_OFFSET(0x9133D0)
+#define PIPELINECAMERA_CRITICALSPRINGDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x358800)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int CriticalSpringDamper_TypeDefinitionIndex = 38320;
+	inline static constexpr unsigned int CriticalSpringDamper_TypeDefinitionIndex = 36322;
 
 	struct alignas(4) CriticalSpringDamper
 	{
@@ -25,18 +26,14 @@ namespace PipelineCamera
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CRITICALSPRINGDAMPER_GET_STIFFNESS_OFFSET))(this);
 		}
 
-		/*
 		::PipelineCamera::VelocityBasedDampingStatus Process(::PipelineCamera::VelocityBasedDampingStatus& current, ::PipelineCamera::VelocityBasedDampingStatus& target, ::PipelineCamera::VelocityBasedDampingStatus& lastTarget, ::System::Single deltaTime)
 		{
 			return ((::PipelineCamera::VelocityBasedDampingStatus(*)(::PVOID, ::PipelineCamera::VelocityBasedDampingStatus&, ::PipelineCamera::VelocityBasedDampingStatus&, ::PipelineCamera::VelocityBasedDampingStatus&, ::System::Single))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CRITICALSPRINGDAMPER_PROCESS_OFFSET))(this, current, target, lastTarget, deltaTime);
 		}
-		*/
 
-		/*
 		::PipelineCamera::VelocityBasedDampingStatus PipelineCamera_IVelocityBasedDamper_Process(::PipelineCamera::VelocityBasedDampingStatus& current, ::PipelineCamera::VelocityBasedDampingStatus& target, ::PipelineCamera::VelocityBasedDampingStatus& lastTarget, ::System::Single deltaTime)
 		{
 			return ((::PipelineCamera::VelocityBasedDampingStatus(*)(::PVOID, ::PipelineCamera::VelocityBasedDampingStatus&, ::PipelineCamera::VelocityBasedDampingStatus&, ::PipelineCamera::VelocityBasedDampingStatus&, ::System::Single))((::PBYTE)hIl2Cpp + PIPELINECAMERA_CRITICALSPRINGDAMPER_PIPELINECAMERA_IVELOCITYBASEDDAMPER_PROCESS_OFFSET))(this, current, target, lastTarget, deltaTime);
 		}
-		*/
 	};
 }

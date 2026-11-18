@@ -7,31 +7,31 @@
 namespace MoleMole::Config { class PatternShape; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGWINDFIELDPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x143841E0)
+#define MOLEMOLE_CONFIG_CONFIGWINDFIELDPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8AC540)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigWindFieldProperty_TypeDefinitionIndex = 66530;
+	inline static constexpr unsigned int ConfigWindFieldProperty_TypeDefinitionIndex = 60319;
 
 	class ConfigWindFieldProperty : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* ZoneTagsBlacklist; // 0x10
-		::Il2CppArray<::System::String*>* ZoneTags; // 0x18
-		::System::String* DistanceVelocityCurve; // 0x20
+		::System::String* DistanceVelocityCurve; // 0x10
+		::Il2CppArray<::System::String*>* ZoneTagsTemplateList; // 0x18
+		::Il2CppArray<::System::String*>* ZoneTagsTemplateBlacklist; // 0x20
 		::MoleMole::Config::PatternShape* WindDetectPattern; // 0x28
-		::System::String* MassVelocityCurve; // 0x30
-		::Il2CppArray<::System::String*>* ZoneTagsTemplateBlacklist; // 0x38
-		::Il2CppArray<::System::String*>* ZoneTagsTemplateList; // 0x40
-		::System::Single EnterRangeLerpTime; // 0x48
-		::MoleMole::Config::WindDirectionType directionType; // 0x4C
+		::Il2CppArray<::System::String*>* ZoneTags; // 0x30
+		::Il2CppArray<::System::String*>* ZoneTagsBlacklist; // 0x38
+		::System::String* MassVelocityCurve; // 0x40
+		::MoleMole::Config::WindDirectionType directionType; // 0x48
+		::System::Single ExitRangeLerpTime; // 0x4C
 		::System::Int32 ResistBreakLevel; // 0x50
 		::MoleMole::Config::HitForwardType WindForwardType; // 0x54
-		::System::Boolean Allied; // 0x58
-		::System::Boolean Neutral; // 0x59
-		::System::Boolean ForceAttackInvincibleTarget; // 0x5A
-		::System::Boolean Enemy; // 0x5B
-		::System::Single ExitRangeLerpTime; // 0x5C
+		::System::Boolean ForceAttackInvincibleTarget; // 0x58
+		::System::Boolean Allied; // 0x59
+		::System::Boolean Enemy; // 0x5A
+		::System::Boolean Neutral; // 0x5B
+		::System::Single EnterRangeLerpTime; // 0x5C
 
 		::System::Void _ctor()
 		{

@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JJEJBPGJPJN.h"
+
+template <typename T> class LJHFMILANJA_1;
+
+#define IAJGNNOIEAK_LADOODDCPMG_CKPKMFPLAAG_OFFSET UNITYSDK_OFFSET(0x15E93880)
+#define IAJGNNOIEAK_LADOODDCPMG_HLKAALFLEHC_OFFSET UNITYSDK_OFFSET(0x15E93890)
+#define IAJGNNOIEAK_LADOODDCPMG_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x15E937F0)
+#define IAJGNNOIEAK_LADOODDCPMG__CTOR_OFFSET UNITYSDK_OFFSET(0x15E93870)
+
+inline static constexpr unsigned int IAJGNNOIEAK_LADOODDCPMG_TypeDefinitionIndex = 62590;
+
+class IAJGNNOIEAK_LADOODDCPMG : public ::JJEJBPGJPJN
+{
+public:
+	::LJHFMILANJA_1<::System::Int32>* _LCIAFGMDLPG_k__BackingField; // 0x88
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IAJGNNOIEAK_LADOODDCPMG__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OnCreateProperty()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IAJGNNOIEAK_LADOODDCPMG_ONCREATEPROPERTY_OFFSET))(this);
+	}
+
+	::LJHFMILANJA_1<::System::Int32>* CKPKMFPLAAG()
+	{
+		return ((::LJHFMILANJA_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IAJGNNOIEAK_LADOODDCPMG_CKPKMFPLAAG_OFFSET))(this);
+	}
+
+	::System::Void HLKAALFLEHC(::LJHFMILANJA_1<::System::Int32>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJHFMILANJA_1<::System::Int32>*))((::PBYTE)hIl2Cpp + IAJGNNOIEAK_LADOODDCPMG_HLKAALFLEHC_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

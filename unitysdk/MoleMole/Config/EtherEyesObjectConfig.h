@@ -3,47 +3,46 @@
 #include "unitysdk/MoleMole/Config/EtherEyesObjectType.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/FlexBuffers/FlxMap.h"
+#include "unitysdk/FlexBuffers/FlxValue.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
 
-#define MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x843770)
-#define MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_FROMFLX_OFFSET UNITYSDK_OFFSET(0x8436E0)
-#define MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_METHOD_2_723D4849983651D2_OFFSET UNITYSDK_OFFSET(0x8437D0)
-#define MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_METHOD_2_D4DA1493472613E6_OFFSET UNITYSDK_OFFSET(0x8437E0)
+#define MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x7EBDD0)
+#define MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_FROMFLX_OFFSET UNITYSDK_OFFSET(0x7EBD40)
+#define MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_IAEALJJMOKA_OFFSET UNITYSDK_OFFSET(0x7EBE30)
+#define MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_PDHKICNJNGG_OFFSET UNITYSDK_OFFSET(0x7EBE40)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int EtherEyesObjectConfig_TypeDefinitionIndex = 89919;
+	inline static constexpr unsigned int EtherEyesObjectConfig_TypeDefinitionIndex = 58965;
 
 	struct alignas(4) EtherEyesObjectConfig
 	{
 		::MoleMole::Config::EtherEyesObjectType EtherEyesObjectType; // 0x10
 		::System::Boolean canInteract; // 0x14
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 ZoomLockOffset; // 0x18
 		::System::Boolean UseSpecialHighLightEffect; // 0x24
 
-		/*
-		::System::Boolean FromFlx(::FlexBuffers::FlxValue a1)
+		::System::Boolean FromFlx(::FlexBuffers::FlxValue HHIJHDFHPOI)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_FROMFLX_OFFSET))(this, a1);
-		}
-		*/
-
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_FROMBINARY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_FROMFLX_OFFSET))(this, HHIJHDFHPOI);
 		}
 
-		::System::Boolean Method_2_723D4849983651D2(::Class_1_236FD73ABC492E3F* a1, ::System::Int32 a2)
+		::System::Boolean FromBinary(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_METHOD_2_723D4849983651D2_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_FROMBINARY_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
 
-		/*
-		::System::Boolean Method_2_D4DA1493472613E6(::FlexBuffers::FlxMap a1)
+		::System::Boolean IAEALJJMOKA(::FKNIEPCILLG* EAIMGHKJLNF, ::System::Int32 PIIOJAOKMDK)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_METHOD_2_D4DA1493472613E6_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_IAEALJJMOKA_OFFSET))(this, EAIMGHKJLNF, PIIOJAOKMDK);
 		}
-		*/
+
+		::System::Boolean PDHKICNJNGG(::FlexBuffers::FlxMap HHIJHDFHPOI)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxMap))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_ETHEREYESOBJECTCONFIG_PDHKICNJNGG_OFFSET))(this, HHIJHDFHPOI);
+		}
 	};
 }

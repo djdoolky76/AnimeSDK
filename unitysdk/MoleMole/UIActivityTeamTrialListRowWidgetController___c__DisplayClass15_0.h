@@ -5,12 +5,12 @@
 namespace MoleMole { class UIActivityTeamTrialListRowWidgetController; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UIACTIVITYTEAMTRIALLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E24FC0)
-#define MOLEMOLE_UIACTIVITYTEAMTRIALLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__PLAYUNLOCKANIM_B__0_OFFSET UNITYSDK_OFFSET(0x18E24FD0)
+#define MOLEMOLE_UIACTIVITYTEAMTRIALLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1360A0)
+#define MOLEMOLE_UIACTIVITYTEAMTRIALLISTROWWIDGETCONTROLLER___C__DISPLAYCLASS15_0__PLAYUNLOCKANIM_B__0_OFFSET UNITYSDK_OFFSET(0x1A1360B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityTeamTrialListRowWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 69852;
+	inline static constexpr unsigned int UIActivityTeamTrialListRowWidgetController___c__DisplayClass15_0_TypeDefinitionIndex = 77115;
 
 	class UIActivityTeamTrialListRowWidgetController___c__DisplayClass15_0 : public ::System::Object
 	{

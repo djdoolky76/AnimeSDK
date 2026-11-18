@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_0C451C94475DA3D1;
+class IIBINLMOGLF;
 
-#define MOLEMOLE_UIHARDCOREBOSSBATTLERANKINGPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA9F40)
+#define MOLEMOLE_UIHARDCOREBOSSBATTLERANKINGPAGECONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C71D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHardCoreBossBattleRankingPageController_Context_TypeDefinitionIndex = 49750;
+	inline static constexpr unsigned int UIHardCoreBossBattleRankingPageController_Context_TypeDefinitionIndex = 43515;
 
 	class UIHardCoreBossBattleRankingPageController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_0C451C94475DA3D1* SeasonData; // 0x28
+		::IIBINLMOGLF* SeasonData; // 0x28
 		::System::UInt32 DefaultModeId; // 0x30
 
 		::System::Void _ctor()

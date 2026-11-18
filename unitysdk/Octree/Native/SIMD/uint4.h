@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define OCTREE_NATIVE_SIMD_UINT4_EQUALS_OFFSET UNITYSDK_OFFSET(0x8870E0)
-#define OCTREE_NATIVE_SIMD_UINT4_OP_EXCLUSIVEOR_OFFSET UNITYSDK_OFFSET(0x18C18670)
-#define OCTREE_NATIVE_SIMD_UINT4__CTOR_OFFSET UNITYSDK_OFFSET(0x6245C0)
+#define OCTREE_NATIVE_SIMD_UINT4_EQUALS_OFFSET UNITYSDK_OFFSET(0x8004A0)
+#define OCTREE_NATIVE_SIMD_UINT4_OP_EXCLUSIVEOR_OFFSET UNITYSDK_OFFSET(0x1A7D6360)
+#define OCTREE_NATIVE_SIMD_UINT4__CTOR_OFFSET UNITYSDK_OFFSET(0x6C98D0)
 
 namespace Octree::Native::SIMD
 {
-	inline static constexpr unsigned int uint4_TypeDefinitionIndex = 86491;
+	inline static constexpr unsigned int uint4_TypeDefinitionIndex = 92467;
 
 	struct alignas(4) uint4
 	{
@@ -22,14 +22,18 @@ namespace Octree::Native::SIMD
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_SIMD_UINT4__CTOR_OFFSET))(this, x, y, z, w);
 		}
 
+		/*
 		static ::Octree::Native::SIMD::uint4 op_ExclusiveOr(::Octree::Native::SIMD::uint4 lhs, ::Octree::Native::SIMD::uint4 rhs)
 		{
 			return ((::Octree::Native::SIMD::uint4(*)(::Octree::Native::SIMD::uint4, ::Octree::Native::SIMD::uint4))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_SIMD_UINT4_OP_EXCLUSIVEOR_OFFSET))(lhs, rhs);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::Octree::Native::SIMD::uint4 other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Octree::Native::SIMD::uint4))((::PBYTE)hIl2Cpp + OCTREE_NATIVE_SIMD_UINT4_EQUALS_OFFSET))(this, other);
 		}
+		*/
 	};
 }

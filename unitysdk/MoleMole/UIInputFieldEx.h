@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/InputField.h"
 
-namespace MoleMole { class UIInputFieldEx_Class_1_640B090AA43C41B2; }
+namespace MoleMole { class UIInputFieldEx_NNDJGHLENBK; }
 namespace System { class Action; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
 
-#define MOLEMOLE_UIINPUTFIELDEX_AWAKE_OFFSET UNITYSDK_OFFSET(0x164F0210)
-#define MOLEMOLE_UIINPUTFIELDEX_BIND_OFFSET UNITYSDK_OFFSET(0x164F0480)
-#define MOLEMOLE_UIINPUTFIELDEX_CANCELSELECT_OFFSET UNITYSDK_OFFSET(0x164F03F0)
-#define MOLEMOLE_UIINPUTFIELDEX_METHOD_8_3923AB821AB9D6A6_OFFSET UNITYSDK_OFFSET(0x164F0810)
-#define MOLEMOLE_UIINPUTFIELDEX_ONDESELECT_OFFSET UNITYSDK_OFFSET(0x164F0340)
-#define MOLEMOLE_UIINPUTFIELDEX_ONSELECT_OFFSET UNITYSDK_OFFSET(0x164F0280)
-#define MOLEMOLE_UIINPUTFIELDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x164F0630)
-#define MOLEMOLE_UIINPUTFIELDEX___BASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x164F0690)
-#define MOLEMOLE_UIINPUTFIELDEX___BASE_ONDESELECT_OFFSET UNITYSDK_OFFSET(0x164F06A0)
-#define MOLEMOLE_UIINPUTFIELDEX___BASE_ONSELECT_OFFSET UNITYSDK_OFFSET(0x164F0750)
+#define MOLEMOLE_UIINPUTFIELDEX_AWAKE_OFFSET UNITYSDK_OFFSET(0x197A6FE0)
+#define MOLEMOLE_UIINPUTFIELDEX_BIND_OFFSET UNITYSDK_OFFSET(0x197A7250)
+#define MOLEMOLE_UIINPUTFIELDEX_CANCELSELECT_OFFSET UNITYSDK_OFFSET(0x197A71C0)
+#define MOLEMOLE_UIINPUTFIELDEX_GPGLNOBDBGJ_OFFSET UNITYSDK_OFFSET(0x197A7460)
+#define MOLEMOLE_UIINPUTFIELDEX_JPDHANFJNLI_OFFSET UNITYSDK_OFFSET(0x197A7580)
+#define MOLEMOLE_UIINPUTFIELDEX_KHOHPDMFLLO_OFFSET UNITYSDK_OFFSET(0x197A7530)
+#define MOLEMOLE_UIINPUTFIELDEX_MPDMBMPNHLC_OFFSET UNITYSDK_OFFSET(0x197A7470)
+#define MOLEMOLE_UIINPUTFIELDEX_ONDESELECT_OFFSET UNITYSDK_OFFSET(0x197A7110)
+#define MOLEMOLE_UIINPUTFIELDEX_ONSELECT_OFFSET UNITYSDK_OFFSET(0x197A7050)
+#define MOLEMOLE_UIINPUTFIELDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x197A7400)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInputFieldEx_TypeDefinitionIndex = 74008;
+	inline static constexpr unsigned int UIInputFieldEx_TypeDefinitionIndex = 55479;
 
 	class UIInputFieldEx : public ::UnityEngine::UI::InputField
 	{
@@ -37,14 +37,14 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void OnSelect(::UnityEngine::EventSystems::BaseEventData* a1)
+		::System::Void OnSelect(::UnityEngine::EventSystems::BaseEventData* DIHNFECKHMD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_ONSELECT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_ONSELECT_OFFSET))(this, DIHNFECKHMD);
 		}
 
-		::System::Void OnDeselect(::UnityEngine::EventSystems::BaseEventData* a1)
+		::System::Void OnDeselect(::UnityEngine::EventSystems::BaseEventData* DIHNFECKHMD)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_ONDESELECT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_ONDESELECT_OFFSET))(this, DIHNFECKHMD);
 		}
 
 		::System::Void CancelSelect()
@@ -52,29 +52,29 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_CANCELSELECT_OFFSET))(this);
 		}
 
-		::System::Void Bind(::MoleMole::UIInputFieldEx_Class_1_640B090AA43C41B2* a1)
+		::System::Void Bind(::MoleMole::UIInputFieldEx_NNDJGHLENBK* HNOPAJLDCFB)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::UIInputFieldEx_Class_1_640B090AA43C41B2*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_BIND_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::UIInputFieldEx_NNDJGHLENBK*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_BIND_OFFSET))(this, HNOPAJLDCFB);
 		}
 
-		::System::Void __base_Awake()
+		::System::Void GPGLNOBDBGJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX___BASE_AWAKE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_GPGLNOBDBGJ_OFFSET))(this);
 		}
 
-		::System::Void __base_OnDeselect(::UnityEngine::EventSystems::BaseEventData* a1)
+		::System::Void MPDMBMPNHLC(::UnityEngine::EventSystems::BaseEventData* MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX___BASE_ONDESELECT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_MPDMBMPNHLC_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void __base_OnSelect(::UnityEngine::EventSystems::BaseEventData* a1)
+		::System::Void KHOHPDMFLLO(::System::Boolean PFPJFCGFNFL)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX___BASE_ONSELECT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_KHOHPDMFLLO_OFFSET))(this, PFPJFCGFNFL);
 		}
 
-		::System::Void Method_8_3923AB821AB9D6A6(::System::Boolean a1)
+		::System::Void JPDHANFJNLI(::UnityEngine::EventSystems::BaseEventData* MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_METHOD_8_3923AB821AB9D6A6_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::BaseEventData*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIINPUTFIELDEX_JPDHANFJNLI_OFFSET))(this, MIALFKCCCPI);
 		}
 	};
 }

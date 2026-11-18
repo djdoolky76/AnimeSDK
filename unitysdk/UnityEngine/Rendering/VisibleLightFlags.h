@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VisibleLightFlags_TypeDefinitionIndex = 6275;
+	inline static constexpr unsigned int VisibleLightFlags_TypeDefinitionIndex = 6290;
 
 	enum class VisibleLightFlags : ::System::Int32
 	{

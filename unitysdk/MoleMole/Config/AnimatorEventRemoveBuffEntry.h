@@ -5,12 +5,12 @@
 
 namespace MoleMole::Config { class AnimatorEvent; }
 
-#define MOLEMOLE_CONFIG_ANIMATOREVENTREMOVEBUFFENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x134E9F60)
-#define MOLEMOLE_CONFIG_ANIMATOREVENTREMOVEBUFFENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x134E9FE0)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTREMOVEBUFFENTRY_CREATEANIMATIONEVENT_OFFSET UNITYSDK_OFFSET(0x11A57590)
+#define MOLEMOLE_CONFIG_ANIMATOREVENTREMOVEBUFFENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x11A57610)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int AnimatorEventRemoveBuffEntry_TypeDefinitionIndex = 46561;
+	inline static constexpr unsigned int AnimatorEventRemoveBuffEntry_TypeDefinitionIndex = 88526;
 
 	class AnimatorEventRemoveBuffEntry : public ::MoleMole::Config::AnimatorEventEntry
 	{

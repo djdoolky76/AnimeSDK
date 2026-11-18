@@ -5,11 +5,11 @@
 namespace MoleMole::Config { class InteractionCommonData; }
 namespace MoleMole::Config { class SkinPreviewData; }
 
-#define MOLEMOLE_CONFIG_CONFIGSKINPREVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4B6400)
+#define MOLEMOLE_CONFIG_CONFIGSKINPREVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1653DE80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSkinPreview_TypeDefinitionIndex = 58936;
+	inline static constexpr unsigned int ConfigSkinPreview_TypeDefinitionIndex = 81472;
 
 	class ConfigSkinPreview : public ::Foundation::MihoyoSerializedScriptableObject
 	{

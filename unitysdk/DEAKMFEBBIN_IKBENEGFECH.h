@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class CFMGIKJLMBJ;
+class DEAKMFEBBIN;
+class MLJGMELKNCC_ONKAPFOMFDK;
+namespace System { template <typename T> class Action_1; }
+
+#define DEAKMFEBBIN_IKBENEGFECH_GDPDOCHJMJO_OFFSET UNITYSDK_OFFSET(0x149972E0)
+#define DEAKMFEBBIN_IKBENEGFECH_GMGCGJDHGAF_OFFSET UNITYSDK_OFFSET(0x14997400)
+#define DEAKMFEBBIN_IKBENEGFECH_OHJICICPLDA_OFFSET UNITYSDK_OFFSET(0x14996F50)
+#define DEAKMFEBBIN_IKBENEGFECH__CTOR_OFFSET UNITYSDK_OFFSET(0x14996F40)
+
+inline static constexpr unsigned int DEAKMFEBBIN_IKBENEGFECH_TypeDefinitionIndex = 67713;
+
+class DEAKMFEBBIN_IKBENEGFECH : public ::System::Object
+{
+public:
+	::DEAKMFEBBIN* KLHPEBKNIFB; // 0x10
+	::System::Action_1<::System::Boolean>* EDNJGMKPFHG; // 0x18
+	::MLJGMELKNCC_ONKAPFOMFDK* AHJDBCPGMBM; // 0x20
+	::System::Action_1<::CFMGIKJLMBJ*>* DLMJCFBENGB; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DEAKMFEBBIN_IKBENEGFECH__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OHJICICPLDA(::CFMGIKJLMBJ* JBLGEGMELPE)
+	{
+		return ((::System::Void(*)(::PVOID, ::CFMGIKJLMBJ*))((::PBYTE)hIl2Cpp + DEAKMFEBBIN_IKBENEGFECH_OHJICICPLDA_OFFSET))(this, JBLGEGMELPE);
+	}
+
+	::System::Void GDPDOCHJMJO(::CFMGIKJLMBJ* BHDNBGLCNOM)
+	{
+		return ((::System::Void(*)(::PVOID, ::CFMGIKJLMBJ*))((::PBYTE)hIl2Cpp + DEAKMFEBBIN_IKBENEGFECH_GDPDOCHJMJO_OFFSET))(this, BHDNBGLCNOM);
+	}
+
+	::System::Void GMGCGJDHGAF(::CFMGIKJLMBJ* BHDNBGLCNOM)
+	{
+		return ((::System::Void(*)(::PVOID, ::CFMGIKJLMBJ*))((::PBYTE)hIl2Cpp + DEAKMFEBBIN_IKBENEGFECH_GMGCGJDHGAF_OFFSET))(this, BHDNBGLCNOM);
+	}
+};

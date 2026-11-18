@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Protocol::Tls
 {
-	inline static constexpr unsigned int CipherAlgorithmType_TypeDefinitionIndex = 2346;
+	inline static constexpr unsigned int CipherAlgorithmType_TypeDefinitionIndex = 2345;
 
 	enum class CipherAlgorithmType : ::System::Int32
 	{

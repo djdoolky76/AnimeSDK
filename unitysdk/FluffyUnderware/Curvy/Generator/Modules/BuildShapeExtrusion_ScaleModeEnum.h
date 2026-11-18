@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::Generator::Modules
 {
-	inline static constexpr unsigned int BuildShapeExtrusion_ScaleModeEnum_TypeDefinitionIndex = 39538;
+	inline static constexpr unsigned int BuildShapeExtrusion_ScaleModeEnum_TypeDefinitionIndex = 37510;
 
 	enum class BuildShapeExtrusion_ScaleModeEnum : ::System::Int32
 	{

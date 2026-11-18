@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define LAIMPORTANTSIGN__CTOR_OFFSET UNITYSDK_OFFSET(0x1509BCD0)
+#define LAIMPORTANTSIGN__CTOR_OFFSET UNITYSDK_OFFSET(0x16C6E5A0)
 
-inline static constexpr unsigned int LaImportantSign_TypeDefinitionIndex = 74541;
+inline static constexpr unsigned int LaImportantSign_TypeDefinitionIndex = 89826;
 
 class LaImportantSign : public ::UnityEngine::MonoBehaviour
 {

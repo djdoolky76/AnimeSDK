@@ -9,25 +9,26 @@
 
 namespace UnityEngine::UIElements::StyleSheets { class StyleValuePropertyReader; }
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D00DDC0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D00D910)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5C2FC0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C2B10)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int VisualElementStylesData_TypeDefinitionIndex = 28233;
+	inline static constexpr unsigned int VisualElementStylesData_TypeDefinitionIndex = 27651;
 
 	class VisualElementStylesData : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader** StaticGet_s_StyleValuePropertyReader()
 		{
-			return (::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader**)Il2CppClass::FromTypeDefinitionIndex(VisualElementStylesData_TypeDefinitionIndex)->GetStaticField(0x23DA0);
+			return (::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader**)Il2CppClass::FromTypeDefinitionIndex(VisualElementStylesData_TypeDefinitionIndex)->GetStaticField(0x24D90);
 		}
 		static ::UnityEngine::UIElements::StyleSheets::VisualElementStylesData** StaticGet_none()
 		{
-			return (::UnityEngine::UIElements::StyleSheets::VisualElementStylesData**)Il2CppClass::FromTypeDefinitionIndex(VisualElementStylesData_TypeDefinitionIndex)->GetStaticField(0x23DA8);
+			return (::UnityEngine::UIElements::StyleSheets::VisualElementStylesData**)Il2CppClass::FromTypeDefinitionIndex(VisualElementStylesData_TypeDefinitionIndex)->GetStaticField(0x24D98);
 		}
 		::System::Boolean isShared; // 0x10
+		::System::Byte _padding0[0x3];
 		::UnityEngine::UIElements::StyleLength width; // 0x14
 		::UnityEngine::UIElements::StyleLength height; // 0x24
 		::UnityEngine::UIElements::StyleLength maxWidth; // 0x34
@@ -57,6 +58,7 @@ namespace UnityEngine::UIElements::StyleSheets
 		::UnityEngine::UIElements::StyleFloat borderRightWidth; // 0x1C0
 		::UnityEngine::UIElements::StyleFloat borderBottomWidth; // 0x1CC
 		::UnityEngine::UIElements::StyleFloat opacity; // 0x1D8
+		::System::Byte _padding1[0x4];
 		::UnityEngine::UIElements::StyleCursor cursor; // 0x1E8
 		::UnityEngine::UIElements::StyleInt visibility; // 0x210
 		::UnityEngine::UIElements::StyleInt display; // 0x21C

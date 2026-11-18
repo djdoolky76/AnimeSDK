@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
 class GaussianBlurVolumeTimelineBehaviour;
 namespace System { class Object; }
@@ -13,20 +13,20 @@ namespace UnityEngine::Rendering::Universal { class GaussianBlur; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define GAUSSIANBLURVOLUMETIMELINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1561A2D0)
-#define GAUSSIANBLURVOLUMETIMELINEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1561ADE0)
-#define GAUSSIANBLURVOLUMETIMELINEMIXER___BASE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1561AE70)
+#define GAUSSIANBLURVOLUMETIMELINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1816A390)
+#define GAUSSIANBLURVOLUMETIMELINEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1816AEA0)
+#define GAUSSIANBLURVOLUMETIMELINEMIXER___BASE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1816AF30)
 
-inline static constexpr unsigned int GaussianBlurVolumeTimelineMixer_TypeDefinitionIndex = 44978;
+inline static constexpr unsigned int GaussianBlurVolumeTimelineMixer_TypeDefinitionIndex = 50804;
 
 class GaussianBlurVolumeTimelineMixer : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::GaussianBlurVolumeTimelineBehaviour*>* ClipToBehaviourMap; // 0x10
-	::UnityEngine::Playables::PlayableDirector* Director; // 0x18
+	::UnityEngine::Playables::PlayableDirector* Director; // 0x10
+	::UnityEngine::Timeline::TrackAsset* Track; // 0x18
 	::UnityEngine::Rendering::Universal::GaussianBlur* VolComponent; // 0x20
-	::UnityEngine::Timeline::TrackAsset* Track; // 0x28
-	::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TimelineClip*>* _allClips; // 0x30
+	::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TimelineClip*>* _allClips; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::GaussianBlurVolumeTimelineBehaviour*>* ClipToBehaviourMap; // 0x30
 
 	::System::Void _ctor()
 	{

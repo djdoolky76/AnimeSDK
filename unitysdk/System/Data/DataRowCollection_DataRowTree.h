@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Data/RBTree_1.h"
 
 namespace System::Data { class DataRow; }
 
-#define SYSTEM_DATA_DATAROWCOLLECTION_DATAROWTREE_COMPARENODE_OFFSET UNITYSDK_OFFSET(0x1EC24060)
-#define SYSTEM_DATA_DATAROWCOLLECTION_DATAROWTREE_COMPARESATELITETREENODE_OFFSET UNITYSDK_OFFSET(0x1EC240A0)
-#define SYSTEM_DATA_DATAROWCOLLECTION_DATAROWTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC23FF0)
+#define SYSTEM_DATA_DATAROWCOLLECTION_DATAROWTREE_COMPARENODE_OFFSET UNITYSDK_OFFSET(0x1EFDF260)
+#define SYSTEM_DATA_DATAROWCOLLECTION_DATAROWTREE_COMPARESATELITETREENODE_OFFSET UNITYSDK_OFFSET(0x1EFDF2A0)
+#define SYSTEM_DATA_DATAROWCOLLECTION_DATAROWTREE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFDF1F0)
 
 namespace System::Data
 {
-	inline static constexpr unsigned int DataRowCollection_DataRowTree_TypeDefinitionIndex = 39258;
+	inline static constexpr unsigned int DataRowCollection_DataRowTree_TypeDefinitionIndex = 37258;
 
-	class DataRowCollection_DataRowTree : public ::System::Data::RBTree_1<::System::Data::DataRow*>
+	class DataRowCollection_DataRowTree
 	{
 	public:
 		::System::Void _ctor()

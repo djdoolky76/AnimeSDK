@@ -1,239 +1,238 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/SuperDebug_LogModule.h"
-#include "unitysdk/MoleMole/SuperDebug___c__DisplayClass102_0.h"
-#include "unitysdk/Struct_2_028911ED0AD7AF8F.h"
 #include "unitysdk/System/DateTime.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/LogType.h"
+#include "unitysdk/FBHIKNMOHCG.h"
+#include "unitysdk/MoleMole/SuperDebug___c__DisplayClass102_0.h"
+#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_22EF0C22B6FD8CD9;
-class Class_1_A0197E0666BA1E42;
+class CHKEGIGCOAN;
+class GMDFPBGPJDK;
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Func_1; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class GUIStyle; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_SUPERDEBUG_ASSERTTHROW_OFFSET UNITYSDK_OFFSET(0x1E9C8C30)
-#define MOLEMOLE_SUPERDEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x1E9C8B80)
-#define MOLEMOLE_SUPERDEBUG_CLOSEALLDEBUGS_OFFSET UNITYSDK_OFFSET(0x1E9C94E0)
-#define MOLEMOLE_SUPERDEBUG_DEBUGLOCALCUBE_OFFSET UNITYSDK_OFFSET(0x1E9CD7B0)
-#define MOLEMOLE_SUPERDEBUG_DEBUGPOINT_OFFSET UNITYSDK_OFFSET(0x1E9CD620)
-#define MOLEMOLE_SUPERDEBUG_DELETECATEGORYINWINDOW_OFFSET UNITYSDK_OFFSET(0x1E9C63B0)
-#define MOLEMOLE_SUPERDEBUG_DELETELOGINWINDOW_OFFSET UNITYSDK_OFFSET(0x1E9C6490)
-#define MOLEMOLE_SUPERDEBUG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E9CA5E0)
-#define MOLEMOLE_SUPERDEBUG_DRAWARROW_1_OFFSET UNITYSDK_OFFSET(0x1E9CC100)
-#define MOLEMOLE_SUPERDEBUG_DRAWARROW_OFFSET UNITYSDK_OFFSET(0x1E9CBED0)
-#define MOLEMOLE_SUPERDEBUG_DRAWCIRCLE_OFFSET UNITYSDK_OFFSET(0x1E9CC670)
-#define MOLEMOLE_SUPERDEBUG_DRAWCYLINDER_OFFSET UNITYSDK_OFFSET(0x1E9CCBF0)
-#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCAPSULEFROMDETECT_OFFSET UNITYSDK_OFFSET(0x1E9CC7D0)
-#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCAPSULE_1_OFFSET UNITYSDK_OFFSET(0x1E9CCEE0)
-#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCAPSULE_OFFSET UNITYSDK_OFFSET(0x1E9CCD10)
-#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCUBEFROMDETECT_OFFSET UNITYSDK_OFFSET(0x1E9CCFE0)
-#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCUBE_1_OFFSET UNITYSDK_OFFSET(0x1E9CD4B0)
-#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCUBE_OFFSET UNITYSDK_OFFSET(0x1E9CD280)
-#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCYLINDERFROMDETECT_OFFSET UNITYSDK_OFFSET(0x1E9CC9E0)
-#define MOLEMOLE_SUPERDEBUG_DRAWFAN_OFFSET UNITYSDK_OFFSET(0x1E9CC240)
-#define MOLEMOLE_SUPERDEBUG_DRAWLINEARROW_OFFSET UNITYSDK_OFFSET(0x1E9CB410)
-#define MOLEMOLE_SUPERDEBUG_DRAWLINEFROMDETECT_OFFSET UNITYSDK_OFFSET(0x1E9CAA20)
-#define MOLEMOLE_SUPERDEBUG_DRAWLINE_1_OFFSET UNITYSDK_OFFSET(0x1E9CB100)
-#define MOLEMOLE_SUPERDEBUG_DRAWLINE_OFFSET UNITYSDK_OFFSET(0x1E9CAD60)
-#define MOLEMOLE_SUPERDEBUG_DRAWSPHERE_1_OFFSET UNITYSDK_OFFSET(0x1E9CC5A0)
-#define MOLEMOLE_SUPERDEBUG_DRAWSPHERE_OFFSET UNITYSDK_OFFSET(0x1E9CC400)
-#define MOLEMOLE_SUPERDEBUG_DRAWTEXT_OFFSET UNITYSDK_OFFSET(0x1E9CD970)
-#define MOLEMOLE_SUPERDEBUG_ENABLEALLFLAG_OFFSET UNITYSDK_OFFSET(0x1E9CA2D0)
-#define MOLEMOLE_SUPERDEBUG_FORMATLOGSTRING_1_OFFSET UNITYSDK_OFFSET(0x1E9C8A10)
-#define MOLEMOLE_SUPERDEBUG_FORMATLOGSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C8980)
-#define MOLEMOLE_SUPERDEBUG_GETSWITCHFLAG_OFFSET UNITYSDK_OFFSET(0x1E9C6630)
-#define MOLEMOLE_SUPERDEBUG_GET_DRAWDEBUGLINE_OFFSET UNITYSDK_OFFSET(0x1E9C6B10)
-#define MOLEMOLE_SUPERDEBUG_GET_IMPL_OFFSET UNITYSDK_OFFSET(0x1E9C9830)
-#define MOLEMOLE_SUPERDEBUG_INITDEBUGSWITCH_OFFSET UNITYSDK_OFFSET(0x1E9C99E0)
-#define MOLEMOLE_SUPERDEBUG_INIT_OFFSET UNITYSDK_OFFSET(0x1E9C98E0)
-#define MOLEMOLE_SUPERDEBUG_ISERRORLOGGINGENABLED_OFFSET UNITYSDK_OFFSET(0x1E9C6C80)
-#define MOLEMOLE_SUPERDEBUG_ISSWITCHON_OFFSET UNITYSDK_OFFSET(0x1E9C6570)
-#define MOLEMOLE_SUPERDEBUG_ISUSELOGWIN_OFFSET UNITYSDK_OFFSET(0x1E9C6CC0)
-#define MOLEMOLE_SUPERDEBUG_LINE_OFFSET UNITYSDK_OFFSET(0x1E9CA680)
-#define MOLEMOLE_SUPERDEBUG_LOGALLERROR_OFFSET UNITYSDK_OFFSET(0x1E9C73F0)
-#define MOLEMOLE_SUPERDEBUG_LOGASSERTION_OFFSET UNITYSDK_OFFSET(0x1E9C8660)
-#define MOLEMOLE_SUPERDEBUG_LOGERRORFORMAT_OFFSET UNITYSDK_OFFSET(0x1E9C80D0)
-#define MOLEMOLE_SUPERDEBUG_LOGERRORINWINDOW_1_OFFSET UNITYSDK_OFFSET(0x1E9C6110)
-#define MOLEMOLE_SUPERDEBUG_LOGERRORINWINDOW_OFFSET UNITYSDK_OFFSET(0x1E9C5F80)
-#define MOLEMOLE_SUPERDEBUG_LOGERRORWITHOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1E9C8240)
-#define MOLEMOLE_SUPERDEBUG_LOGERRORWITHOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1E9C82F0)
-#define MOLEMOLE_SUPERDEBUG_LOGERRORWITHOBJECT_OFFSET UNITYSDK_OFFSET(0x1E9C8180)
-#define MOLEMOLE_SUPERDEBUG_LOGERROR_1_OFFSET UNITYSDK_OFFSET(0x1E9C7F60)
-#define MOLEMOLE_SUPERDEBUG_LOGERROR_2_OFFSET UNITYSDK_OFFSET(0x1E9C8010)
-#define MOLEMOLE_SUPERDEBUG_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1E9C7E30)
-#define MOLEMOLE_SUPERDEBUG_LOGEXCEPTIONINWINDOW_1_OFFSET UNITYSDK_OFFSET(0x1E9C6300)
-#define MOLEMOLE_SUPERDEBUG_LOGEXCEPTIONINWINDOW_OFFSET UNITYSDK_OFFSET(0x1E9C6170)
-#define MOLEMOLE_SUPERDEBUG_LOGEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x1E9C85C0)
-#define MOLEMOLE_SUPERDEBUG_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1E9C83C0)
-#define MOLEMOLE_SUPERDEBUG_LOGFILE_OFFSET UNITYSDK_OFFSET(0x1E9C74A0)
-#define MOLEMOLE_SUPERDEBUG_LOGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1E9C6F30)
-#define MOLEMOLE_SUPERDEBUG_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1E9C6E90)
-#define MOLEMOLE_SUPERDEBUG_LOGINFO_OFFSET UNITYSDK_OFFSET(0x1E9C7070)
-#define MOLEMOLE_SUPERDEBUG_LOGINWINDOW_1_OFFSET UNITYSDK_OFFSET(0x1E9C5B30)
-#define MOLEMOLE_SUPERDEBUG_LOGINWINDOW_OFFSET UNITYSDK_OFFSET(0x1E9C57A0)
-#define MOLEMOLE_SUPERDEBUG_LOGNAVMESHASYNC_OFFSET UNITYSDK_OFFSET(0x1E9C71D0)
-#define MOLEMOLE_SUPERDEBUG_LOGPROTO_OFFSET UNITYSDK_OFFSET(0x1E9C7360)
-#define MOLEMOLE_SUPERDEBUG_LOGWARNINGFILE_OFFSET UNITYSDK_OFFSET(0x1E9C7C40)
-#define MOLEMOLE_SUPERDEBUG_LOGWARNINGFORMAT_OFFSET UNITYSDK_OFFSET(0x1E9C7A50)
-#define MOLEMOLE_SUPERDEBUG_LOGWARNINGINWINDOW_1_OFFSET UNITYSDK_OFFSET(0x1E9C5F20)
-#define MOLEMOLE_SUPERDEBUG_LOGWARNINGINWINDOW_OFFSET UNITYSDK_OFFSET(0x1E9C5B90)
-#define MOLEMOLE_SUPERDEBUG_LOGWARNINGWITHOBJECT_OFFSET UNITYSDK_OFFSET(0x1E9C7B80)
-#define MOLEMOLE_SUPERDEBUG_LOGWARNING_1_OFFSET UNITYSDK_OFFSET(0x1E9C79A0)
-#define MOLEMOLE_SUPERDEBUG_LOGWARNING_2_OFFSET UNITYSDK_OFFSET(0x1E9C7AE0)
-#define MOLEMOLE_SUPERDEBUG_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1E9C7910)
-#define MOLEMOLE_SUPERDEBUG_LOGWITHOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1E9C7790)
-#define MOLEMOLE_SUPERDEBUG_LOGWITHOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1E9C7860)
-#define MOLEMOLE_SUPERDEBUG_LOGWITHOBJECT_OFFSET UNITYSDK_OFFSET(0x1E9C76D0)
-#define MOLEMOLE_SUPERDEBUG_LOG_1_OFFSET UNITYSDK_OFFSET(0x1E9C6FC0)
-#define MOLEMOLE_SUPERDEBUG_LOG_2_OFFSET UNITYSDK_OFFSET(0x1E9C7130)
-#define MOLEMOLE_SUPERDEBUG_LOG_OFFSET UNITYSDK_OFFSET(0x1E9C6E00)
-#define MOLEMOLE_SUPERDEBUG_RESETLOGMODULEHELPER_OFFSET UNITYSDK_OFFSET(0x1E9C6840)
-#define MOLEMOLE_SUPERDEBUG_SETDEBUGSWITCHFLAG_OFFSET UNITYSDK_OFFSET(0x1E9C9FB0)
-#define MOLEMOLE_SUPERDEBUG_SETLOGENABLED_OFFSET UNITYSDK_OFFSET(0x1E9C6780)
-#define MOLEMOLE_SUPERDEBUG_TIMEEND_OFFSET UNITYSDK_OFFSET(0x1E9C96B0)
-#define MOLEMOLE_SUPERDEBUG_TIMESTART_OFFSET UNITYSDK_OFFSET(0x1E9C9610)
-#define MOLEMOLE_SUPERDEBUG_TRANSFORMBYPIXEL_1_OFFSET UNITYSDK_OFFSET(0x1E9CDE20)
-#define MOLEMOLE_SUPERDEBUG_TRANSFORMBYPIXEL_OFFSET UNITYSDK_OFFSET(0x1E9CDCE0)
-#define MOLEMOLE_SUPERDEBUG_UPDATEFRAME_OFFSET UNITYSDK_OFFSET(0x1E9C6C00)
-#define MOLEMOLE_SUPERDEBUG_VERYIMPORTANTASSERT_1_OFFSET UNITYSDK_OFFSET(0x1E9C9320)
-#define MOLEMOLE_SUPERDEBUG_VERYIMPORTANTASSERT_OFFSET UNITYSDK_OFFSET(0x1E9C9190)
-#define MOLEMOLE_SUPERDEBUG_VERYIMPORTANTERROR_1_OFFSET UNITYSDK_OFFSET(0x1E9C8F20)
-#define MOLEMOLE_SUPERDEBUG_VERYIMPORTANTERROR_OFFSET UNITYSDK_OFFSET(0x1E9C8D80)
-#define MOLEMOLE_SUPERDEBUG_VERYIMPORTANTLOG_OFFSET UNITYSDK_OFFSET(0x1E9C8CE0)
-#define MOLEMOLE_SUPERDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9C6880)
-#define MOLEMOLE_SUPERDEBUG__INITDEBUGSWITCH_G__SETDEBUGSWITCH_101_0_OFFSET UNITYSDK_OFFSET(0x1E9C9B40)
-#define MOLEMOLE_SUPERDEBUG__LOGERROR_OFFSET UNITYSDK_OFFSET(0x1E9C7EC0)
-#define MOLEMOLE_SUPERDEBUG__LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1E9C8450)
-#define MOLEMOLE_SUPERDEBUG__LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1E9C5D90)
-#define MOLEMOLE_SUPERDEBUG__LOG_OFFSET UNITYSDK_OFFSET(0x1E9C59A0)
-#define MOLEMOLE_SUPERDEBUG__PRINT_OFFSET UNITYSDK_OFFSET(0x1E9C8720)
-#define MOLEMOLE_SUPERDEBUG__SETDEBUGSWITCHFLAG_G__SAVEPREFS_102_0_OFFSET UNITYSDK_OFFSET(0x1E9CA240)
-#define MOLEMOLE_SUPERDEBUG___PRINT_G__DEBUGLOGWARNING_80_1_OFFSET UNITYSDK_OFFSET(0x1E9CDF80)
-#define MOLEMOLE_SUPERDEBUG___PRINT_G__DEBUGLOG_80_0_OFFSET UNITYSDK_OFFSET(0x1E9CDF70)
+#define MOLEMOLE_SUPERDEBUG_ASSERTTHROW_OFFSET UNITYSDK_OFFSET(0x1EA82A90)
+#define MOLEMOLE_SUPERDEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x1EA829E0)
+#define MOLEMOLE_SUPERDEBUG_CLOSEALLDEBUGS_OFFSET UNITYSDK_OFFSET(0x1EA83340)
+#define MOLEMOLE_SUPERDEBUG_DEBUGLOCALCUBE_OFFSET UNITYSDK_OFFSET(0x1EA87620)
+#define MOLEMOLE_SUPERDEBUG_DEBUGPOINT_OFFSET UNITYSDK_OFFSET(0x1EA87490)
+#define MOLEMOLE_SUPERDEBUG_DELETECATEGORYINWINDOW_OFFSET UNITYSDK_OFFSET(0x1EA80220)
+#define MOLEMOLE_SUPERDEBUG_DELETELOGINWINDOW_OFFSET UNITYSDK_OFFSET(0x1EA80300)
+#define MOLEMOLE_SUPERDEBUG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EA84440)
+#define MOLEMOLE_SUPERDEBUG_DRAWARROW_1_OFFSET UNITYSDK_OFFSET(0x1EA85F70)
+#define MOLEMOLE_SUPERDEBUG_DRAWARROW_OFFSET UNITYSDK_OFFSET(0x1EA85D40)
+#define MOLEMOLE_SUPERDEBUG_DRAWCIRCLE_OFFSET UNITYSDK_OFFSET(0x1EA864E0)
+#define MOLEMOLE_SUPERDEBUG_DRAWCYLINDER_OFFSET UNITYSDK_OFFSET(0x1EA86A60)
+#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCAPSULEFROMDETECT_OFFSET UNITYSDK_OFFSET(0x1EA86640)
+#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCAPSULE_1_OFFSET UNITYSDK_OFFSET(0x1EA86D50)
+#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCAPSULE_OFFSET UNITYSDK_OFFSET(0x1EA86B80)
+#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCUBEFROMDETECT_OFFSET UNITYSDK_OFFSET(0x1EA86E50)
+#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCUBE_1_OFFSET UNITYSDK_OFFSET(0x1EA87320)
+#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCUBE_OFFSET UNITYSDK_OFFSET(0x1EA870F0)
+#define MOLEMOLE_SUPERDEBUG_DRAWDEBUGCYLINDERFROMDETECT_OFFSET UNITYSDK_OFFSET(0x1EA86850)
+#define MOLEMOLE_SUPERDEBUG_DRAWFAN_OFFSET UNITYSDK_OFFSET(0x1EA860B0)
+#define MOLEMOLE_SUPERDEBUG_DRAWLINEARROW_OFFSET UNITYSDK_OFFSET(0x1EA85280)
+#define MOLEMOLE_SUPERDEBUG_DRAWLINEFROMDETECT_OFFSET UNITYSDK_OFFSET(0x1EA84890)
+#define MOLEMOLE_SUPERDEBUG_DRAWLINE_1_OFFSET UNITYSDK_OFFSET(0x1EA84F70)
+#define MOLEMOLE_SUPERDEBUG_DRAWLINE_OFFSET UNITYSDK_OFFSET(0x1EA84BD0)
+#define MOLEMOLE_SUPERDEBUG_DRAWSPHERE_1_OFFSET UNITYSDK_OFFSET(0x1EA86410)
+#define MOLEMOLE_SUPERDEBUG_DRAWSPHERE_OFFSET UNITYSDK_OFFSET(0x1EA86270)
+#define MOLEMOLE_SUPERDEBUG_DRAWTEXT_OFFSET UNITYSDK_OFFSET(0x1EA877E0)
+#define MOLEMOLE_SUPERDEBUG_ENABLEALLFLAG_OFFSET UNITYSDK_OFFSET(0x1EA84130)
+#define MOLEMOLE_SUPERDEBUG_FORMATLOGSTRING_1_OFFSET UNITYSDK_OFFSET(0x1EA82870)
+#define MOLEMOLE_SUPERDEBUG_FORMATLOGSTRING_OFFSET UNITYSDK_OFFSET(0x1EA827E0)
+#define MOLEMOLE_SUPERDEBUG_GETSWITCHFLAG_OFFSET UNITYSDK_OFFSET(0x1EA804A0)
+#define MOLEMOLE_SUPERDEBUG_GET_DRAWDEBUGLINE_OFFSET UNITYSDK_OFFSET(0x1EA80970)
+#define MOLEMOLE_SUPERDEBUG_GET_IMPL_OFFSET UNITYSDK_OFFSET(0x1EA83690)
+#define MOLEMOLE_SUPERDEBUG_INITDEBUGSWITCH_OFFSET UNITYSDK_OFFSET(0x1EA83840)
+#define MOLEMOLE_SUPERDEBUG_INIT_OFFSET UNITYSDK_OFFSET(0x1EA83740)
+#define MOLEMOLE_SUPERDEBUG_ISERRORLOGGINGENABLED_OFFSET UNITYSDK_OFFSET(0x1EA80AE0)
+#define MOLEMOLE_SUPERDEBUG_ISSWITCHON_OFFSET UNITYSDK_OFFSET(0x1EA803E0)
+#define MOLEMOLE_SUPERDEBUG_ISUSELOGWIN_OFFSET UNITYSDK_OFFSET(0x1EA80B20)
+#define MOLEMOLE_SUPERDEBUG_LINE_OFFSET UNITYSDK_OFFSET(0x1EA844F0)
+#define MOLEMOLE_SUPERDEBUG_LOGALLERROR_OFFSET UNITYSDK_OFFSET(0x1EA81250)
+#define MOLEMOLE_SUPERDEBUG_LOGASSERTION_OFFSET UNITYSDK_OFFSET(0x1EA824C0)
+#define MOLEMOLE_SUPERDEBUG_LOGERRORFORMAT_OFFSET UNITYSDK_OFFSET(0x1EA81F30)
+#define MOLEMOLE_SUPERDEBUG_LOGERRORINWINDOW_1_OFFSET UNITYSDK_OFFSET(0x1EA7FF80)
+#define MOLEMOLE_SUPERDEBUG_LOGERRORINWINDOW_OFFSET UNITYSDK_OFFSET(0x1EA7FDF0)
+#define MOLEMOLE_SUPERDEBUG_LOGERRORWITHOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1EA820A0)
+#define MOLEMOLE_SUPERDEBUG_LOGERRORWITHOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1EA82150)
+#define MOLEMOLE_SUPERDEBUG_LOGERRORWITHOBJECT_OFFSET UNITYSDK_OFFSET(0x1EA81FE0)
+#define MOLEMOLE_SUPERDEBUG_LOGERROR_1_OFFSET UNITYSDK_OFFSET(0x1EA81DC0)
+#define MOLEMOLE_SUPERDEBUG_LOGERROR_2_OFFSET UNITYSDK_OFFSET(0x1EA81E70)
+#define MOLEMOLE_SUPERDEBUG_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1EA81C90)
+#define MOLEMOLE_SUPERDEBUG_LOGEXCEPTIONINWINDOW_1_OFFSET UNITYSDK_OFFSET(0x1EA80170)
+#define MOLEMOLE_SUPERDEBUG_LOGEXCEPTIONINWINDOW_OFFSET UNITYSDK_OFFSET(0x1EA7FFE0)
+#define MOLEMOLE_SUPERDEBUG_LOGEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x1EA82420)
+#define MOLEMOLE_SUPERDEBUG_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1EA82220)
+#define MOLEMOLE_SUPERDEBUG_LOGFILE_OFFSET UNITYSDK_OFFSET(0x1EA81300)
+#define MOLEMOLE_SUPERDEBUG_LOGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1EA80D90)
+#define MOLEMOLE_SUPERDEBUG_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1EA80CF0)
+#define MOLEMOLE_SUPERDEBUG_LOGINFO_OFFSET UNITYSDK_OFFSET(0x1EA80ED0)
+#define MOLEMOLE_SUPERDEBUG_LOGINWINDOW_1_OFFSET UNITYSDK_OFFSET(0x1EA7F9A0)
+#define MOLEMOLE_SUPERDEBUG_LOGINWINDOW_OFFSET UNITYSDK_OFFSET(0x1EA7F610)
+#define MOLEMOLE_SUPERDEBUG_LOGNAVMESHASYNC_OFFSET UNITYSDK_OFFSET(0x1EA81030)
+#define MOLEMOLE_SUPERDEBUG_LOGPROTO_OFFSET UNITYSDK_OFFSET(0x1EA811C0)
+#define MOLEMOLE_SUPERDEBUG_LOGWARNINGFILE_OFFSET UNITYSDK_OFFSET(0x1EA81AA0)
+#define MOLEMOLE_SUPERDEBUG_LOGWARNINGFORMAT_OFFSET UNITYSDK_OFFSET(0x1EA818B0)
+#define MOLEMOLE_SUPERDEBUG_LOGWARNINGINWINDOW_1_OFFSET UNITYSDK_OFFSET(0x1EA7FD90)
+#define MOLEMOLE_SUPERDEBUG_LOGWARNINGINWINDOW_OFFSET UNITYSDK_OFFSET(0x1EA7FA00)
+#define MOLEMOLE_SUPERDEBUG_LOGWARNINGWITHOBJECT_OFFSET UNITYSDK_OFFSET(0x1EA819E0)
+#define MOLEMOLE_SUPERDEBUG_LOGWARNING_1_OFFSET UNITYSDK_OFFSET(0x1EA81800)
+#define MOLEMOLE_SUPERDEBUG_LOGWARNING_2_OFFSET UNITYSDK_OFFSET(0x1EA81940)
+#define MOLEMOLE_SUPERDEBUG_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1EA81770)
+#define MOLEMOLE_SUPERDEBUG_LOGWITHOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1EA815F0)
+#define MOLEMOLE_SUPERDEBUG_LOGWITHOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1EA816C0)
+#define MOLEMOLE_SUPERDEBUG_LOGWITHOBJECT_OFFSET UNITYSDK_OFFSET(0x1EA81530)
+#define MOLEMOLE_SUPERDEBUG_LOG_1_OFFSET UNITYSDK_OFFSET(0x1EA80E20)
+#define MOLEMOLE_SUPERDEBUG_LOG_2_OFFSET UNITYSDK_OFFSET(0x1EA80F90)
+#define MOLEMOLE_SUPERDEBUG_LOG_OFFSET UNITYSDK_OFFSET(0x1EA80C60)
+#define MOLEMOLE_SUPERDEBUG_RESETLOGMODULEHELPER_OFFSET UNITYSDK_OFFSET(0x1EA806B0)
+#define MOLEMOLE_SUPERDEBUG_SETDEBUGSWITCHFLAG_OFFSET UNITYSDK_OFFSET(0x1EA83E10)
+#define MOLEMOLE_SUPERDEBUG_SETLOGENABLED_OFFSET UNITYSDK_OFFSET(0x1EA805F0)
+#define MOLEMOLE_SUPERDEBUG_TIMEEND_OFFSET UNITYSDK_OFFSET(0x1EA83510)
+#define MOLEMOLE_SUPERDEBUG_TIMESTART_OFFSET UNITYSDK_OFFSET(0x1EA83470)
+#define MOLEMOLE_SUPERDEBUG_TRANSFORMBYPIXEL_1_OFFSET UNITYSDK_OFFSET(0x1EA87C90)
+#define MOLEMOLE_SUPERDEBUG_TRANSFORMBYPIXEL_OFFSET UNITYSDK_OFFSET(0x1EA87B50)
+#define MOLEMOLE_SUPERDEBUG_UPDATEFRAME_OFFSET UNITYSDK_OFFSET(0x1EA80A60)
+#define MOLEMOLE_SUPERDEBUG_VERYIMPORTANTASSERT_1_OFFSET UNITYSDK_OFFSET(0x1EA83180)
+#define MOLEMOLE_SUPERDEBUG_VERYIMPORTANTASSERT_OFFSET UNITYSDK_OFFSET(0x1EA82FF0)
+#define MOLEMOLE_SUPERDEBUG_VERYIMPORTANTERROR_1_OFFSET UNITYSDK_OFFSET(0x1EA82D80)
+#define MOLEMOLE_SUPERDEBUG_VERYIMPORTANTERROR_OFFSET UNITYSDK_OFFSET(0x1EA82BE0)
+#define MOLEMOLE_SUPERDEBUG_VERYIMPORTANTLOG_OFFSET UNITYSDK_OFFSET(0x1EA82B40)
+#define MOLEMOLE_SUPERDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA806F0)
+#define MOLEMOLE_SUPERDEBUG__INITDEBUGSWITCH_G__SETDEBUGSWITCH_101_0_OFFSET UNITYSDK_OFFSET(0x1EA839A0)
+#define MOLEMOLE_SUPERDEBUG__LOGERROR_OFFSET UNITYSDK_OFFSET(0x1EA81D20)
+#define MOLEMOLE_SUPERDEBUG__LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1EA822B0)
+#define MOLEMOLE_SUPERDEBUG__LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1EA7FC00)
+#define MOLEMOLE_SUPERDEBUG__LOG_OFFSET UNITYSDK_OFFSET(0x1EA7F810)
+#define MOLEMOLE_SUPERDEBUG__PRINT_OFFSET UNITYSDK_OFFSET(0x1EA82580)
+#define MOLEMOLE_SUPERDEBUG__SETDEBUGSWITCHFLAG_G__SAVEPREFS_102_0_OFFSET UNITYSDK_OFFSET(0x1EA840A0)
+#define MOLEMOLE_SUPERDEBUG___PRINT_G__DEBUGLOGWARNING_80_1_OFFSET UNITYSDK_OFFSET(0x1EA87DF0)
+#define MOLEMOLE_SUPERDEBUG___PRINT_G__DEBUGLOG_80_0_OFFSET UNITYSDK_OFFSET(0x1EA87DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SuperDebug_TypeDefinitionIndex = 7956;
+	inline static constexpr unsigned int SuperDebug_TypeDefinitionIndex = 7951;
 
 	class SuperDebug : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::Boolean>** StaticGet_DEBUG_SWITCH()
+		{
+			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6750);
+		}
 		static ::Il2CppArray<::System::Boolean>** StaticGet_LogFile_Switch()
 		{
-			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6850);
-		}
-		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet_sendToServerAction()
-		{
-			return (::System::Action_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6858);
-		}
-		static ::Il2CppArray<::UnityEngine::Color>** StaticGet__Colors()
-		{
-			return (::Il2CppArray<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6860);
-		}
-		static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_FillEntityAttachPattern()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6868);
-		}
-		static ::Class_1_A0197E0666BA1E42** StaticGet__impl()
-		{
-			return (::Class_1_A0197E0666BA1E42**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6870);
-		}
-		static ::System::Action_3<::UnityEngine::LogType, ::System::String*, ::UnityEngine::Object*>** StaticGet__bufferLog()
-		{
-			return (::System::Action_3<::UnityEngine::LogType, ::System::String*, ::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6878);
-		}
-		static ::UnityEngine::GUIStyle** StaticGet__guiStyle()
-		{
-			return (::UnityEngine::GUIStyle**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6880);
+			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6758);
 		}
 		static ::System::String** StaticGet_debugLabel()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6888);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6760);
 		}
-		static ::Il2CppArray<::System::Boolean>** StaticGet_DEBUG_SWITCH()
+		static ::System::Action_3<::UnityEngine::LogType, ::System::String*, ::UnityEngine::Object*>** StaticGet__bufferLog()
 		{
-			return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6890);
+			return (::System::Action_3<::UnityEngine::LogType, ::System::String*, ::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6768);
 		}
-		static ::System::Boolean* StaticGet_showTextureDetectRange()
+		static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_FillEntityAttachPattern()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35C0);
+			return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6770);
 		}
-		static ::System::Boolean* StaticGet__isInit()
+		static ::UnityEngine::GUIStyle** StaticGet__guiStyle()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35C1);
+			return (::UnityEngine::GUIStyle**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6778);
 		}
-		static ::System::Boolean* StaticGet_enablePredicateDebugDraw()
+		static ::GMDFPBGPJDK** StaticGet__impl()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35C2);
+			return (::GMDFPBGPJDK**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6780);
 		}
-		static ::UnityEngine::Color* StaticGet_detectBoundsWinkLineColor()
+		static ::Il2CppArray<::UnityEngine::Color>** StaticGet__Colors()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35C4);
+			return (::Il2CppArray<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6788);
 		}
-		static ::System::Single* StaticGet_detectBoundsWinkLineDuration()
+		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet_sendToServerAction()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35D4);
+			return (::System::Action_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x6790);
 		}
 		static ::System::Boolean* StaticGet_showHitWallLine()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35D8);
-		}
-		static ::System::Boolean* StaticGet_showDebugFinalVelocity()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35D9);
-		}
-		static ::System::DateTime* StaticGet_startTime()
-		{
-			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35E0);
-		}
-		static ::System::Int32* StaticGet_CurFrameCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35E8);
-		}
-		static ::System::Boolean* StaticGet_showDebugLine()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35EC);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x34F0);
 		}
 		static ::System::Boolean* StaticGet_showCheckLine()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35ED);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x34F1);
+		}
+		static ::System::Boolean* StaticGet_showDebugFinalVelocity()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x34F2);
 		}
 		static ::System::Boolean* StaticGet__aiJobActive()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35EE);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x34F3);
 		}
-		static ::System::Boolean* StaticGet_enableZoneDebugDraw()
+		static ::System::Int32* StaticGet_CurFrameCount()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35EF);
-		}
-		static ::UnityEngine::Color* StaticGet_detectBoundsContinueLineColor()
-		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x35F0);
-		}
-		static ::UnityEngine::Color* StaticGet_detectBoundsWinkLineColorPre()
-		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3600);
-		}
-		static ::UnityEngine::Color* StaticGet_detectBoundsContinueLineColorPre()
-		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3610);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x34F4);
 		}
 		static ::System::Single* StaticGet_detectBoundsContinueDuration()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3620);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x34F8);
+		}
+		static ::System::Single* StaticGet_detectBoundsWinkLineDuration()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x34FC);
+		}
+		static ::UnityEngine::Color* StaticGet_detectBoundsContinueLineColorPre()
+		{
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3500);
+		}
+		static ::UnityEngine::Color* StaticGet_detectBoundsContinueLineColor()
+		{
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3510);
+		}
+		static ::UnityEngine::Color* StaticGet_detectBoundsWinkLineColor()
+		{
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3520);
+		}
+		static ::System::Boolean* StaticGet__isInit()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3530);
+		}
+		static ::System::DateTime* StaticGet_startTime()
+		{
+			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3538);
+		}
+		static ::UnityEngine::Color* StaticGet_detectBoundsWinkLineColorPre()
+		{
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3540);
+		}
+		static ::System::Boolean* StaticGet_enablePredicateDebugDraw()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3550);
+		}
+		static ::System::Boolean* StaticGet_showTextureDetectRange()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3551);
+		}
+		static ::System::Boolean* StaticGet_enableZoneDebugDraw()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3552);
+		}
+		static ::System::Boolean* StaticGet_showDebugLine()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3553);
 		}
 		// static const ::System::String* NavMeshAsyncLogPrefix; // 0x0
 
@@ -242,44 +241,44 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void LogInWindow(::MoleMole::SuperDebug_LogModule module, ::System::String* key, ::System::Object* value, ::UnityEngine::Object* go, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>* options)
+		static ::System::Void LogInWindow(::MoleMole::SuperDebug_LogModule module, ::System::String* key, ::System::Object* value, ::UnityEngine::Object* go, ::Il2CppArray<::CHKEGIGCOAN*>* options)
 		{
-			return ((::System::Void(*)(::MoleMole::SuperDebug_LogModule, ::System::String*, ::System::Object*, ::UnityEngine::Object*, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGINWINDOW_OFFSET))(module, key, value, go, options);
+			return ((::System::Void(*)(::MoleMole::SuperDebug_LogModule, ::System::String*, ::System::Object*, ::UnityEngine::Object*, ::Il2CppArray<::CHKEGIGCOAN*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGINWINDOW_OFFSET))(module, key, value, go, options);
 		}
 
-		static ::System::Void LogInWindow_1(::System::String* key, ::System::Object* value, ::UnityEngine::Object* go, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>* options)
+		static ::System::Void LogInWindow_1(::System::String* key, ::System::Object* value, ::UnityEngine::Object* go, ::Il2CppArray<::CHKEGIGCOAN*>* options)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Object*, ::UnityEngine::Object*, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGINWINDOW_1_OFFSET))(key, value, go, options);
+			return ((::System::Void(*)(::System::String*, ::System::Object*, ::UnityEngine::Object*, ::Il2CppArray<::CHKEGIGCOAN*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGINWINDOW_1_OFFSET))(key, value, go, options);
 		}
 
-		static ::System::Void LogWarningInWindow(::MoleMole::SuperDebug_LogModule module, ::System::String* key, ::System::Object* value, ::UnityEngine::Object* go, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>* options)
+		static ::System::Void LogWarningInWindow(::MoleMole::SuperDebug_LogModule module, ::System::String* key, ::System::Object* value, ::UnityEngine::Object* go, ::Il2CppArray<::CHKEGIGCOAN*>* options)
 		{
-			return ((::System::Void(*)(::MoleMole::SuperDebug_LogModule, ::System::String*, ::System::Object*, ::UnityEngine::Object*, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGWARNINGINWINDOW_OFFSET))(module, key, value, go, options);
+			return ((::System::Void(*)(::MoleMole::SuperDebug_LogModule, ::System::String*, ::System::Object*, ::UnityEngine::Object*, ::Il2CppArray<::CHKEGIGCOAN*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGWARNINGINWINDOW_OFFSET))(module, key, value, go, options);
 		}
 
-		static ::System::Void LogWarningInWindow_1(::System::String* key, ::System::Object* value, ::UnityEngine::Object* go, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>* options)
+		static ::System::Void LogWarningInWindow_1(::System::String* key, ::System::Object* value, ::UnityEngine::Object* go, ::Il2CppArray<::CHKEGIGCOAN*>* options)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Object*, ::UnityEngine::Object*, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGWARNINGINWINDOW_1_OFFSET))(key, value, go, options);
+			return ((::System::Void(*)(::System::String*, ::System::Object*, ::UnityEngine::Object*, ::Il2CppArray<::CHKEGIGCOAN*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGWARNINGINWINDOW_1_OFFSET))(key, value, go, options);
 		}
 
-		static ::System::Void LogErrorInWindow(::MoleMole::SuperDebug_LogModule module, ::System::String* key, ::System::Object* value, ::UnityEngine::Object* go, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>* options)
+		static ::System::Void LogErrorInWindow(::MoleMole::SuperDebug_LogModule module, ::System::String* key, ::System::Object* value, ::UnityEngine::Object* go, ::Il2CppArray<::CHKEGIGCOAN*>* options)
 		{
-			return ((::System::Void(*)(::MoleMole::SuperDebug_LogModule, ::System::String*, ::System::Object*, ::UnityEngine::Object*, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGERRORINWINDOW_OFFSET))(module, key, value, go, options);
+			return ((::System::Void(*)(::MoleMole::SuperDebug_LogModule, ::System::String*, ::System::Object*, ::UnityEngine::Object*, ::Il2CppArray<::CHKEGIGCOAN*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGERRORINWINDOW_OFFSET))(module, key, value, go, options);
 		}
 
-		static ::System::Void LogErrorInWindow_1(::System::String* key, ::System::Object* value, ::UnityEngine::Object* go, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>* options)
+		static ::System::Void LogErrorInWindow_1(::System::String* key, ::System::Object* value, ::UnityEngine::Object* go, ::Il2CppArray<::CHKEGIGCOAN*>* options)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Object*, ::UnityEngine::Object*, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGERRORINWINDOW_1_OFFSET))(key, value, go, options);
+			return ((::System::Void(*)(::System::String*, ::System::Object*, ::UnityEngine::Object*, ::Il2CppArray<::CHKEGIGCOAN*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGERRORINWINDOW_1_OFFSET))(key, value, go, options);
 		}
 
-		static ::System::Void LogExceptionInWindow(::MoleMole::SuperDebug_LogModule module, ::System::String* key, ::System::Exception* value, ::UnityEngine::Object* go, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>* options)
+		static ::System::Void LogExceptionInWindow(::MoleMole::SuperDebug_LogModule module, ::System::String* key, ::System::Exception* value, ::UnityEngine::Object* go, ::Il2CppArray<::CHKEGIGCOAN*>* options)
 		{
-			return ((::System::Void(*)(::MoleMole::SuperDebug_LogModule, ::System::String*, ::System::Exception*, ::UnityEngine::Object*, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGEXCEPTIONINWINDOW_OFFSET))(module, key, value, go, options);
+			return ((::System::Void(*)(::MoleMole::SuperDebug_LogModule, ::System::String*, ::System::Exception*, ::UnityEngine::Object*, ::Il2CppArray<::CHKEGIGCOAN*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGEXCEPTIONINWINDOW_OFFSET))(module, key, value, go, options);
 		}
 
-		static ::System::Void LogExceptionInWindow_1(::System::String* key, ::System::Exception* value, ::UnityEngine::Object* go, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>* options)
+		static ::System::Void LogExceptionInWindow_1(::System::String* key, ::System::Exception* value, ::UnityEngine::Object* go, ::Il2CppArray<::CHKEGIGCOAN*>* options)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Exception*, ::UnityEngine::Object*, ::Il2CppArray<::Class_1_22EF0C22B6FD8CD9*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGEXCEPTIONINWINDOW_1_OFFSET))(key, value, go, options);
+			return ((::System::Void(*)(::System::String*, ::System::Exception*, ::UnityEngine::Object*, ::Il2CppArray<::CHKEGIGCOAN*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LOGEXCEPTIONINWINDOW_1_OFFSET))(key, value, go, options);
 		}
 
 		static ::System::Void DeleteCategoryInWindow(::MoleMole::SuperDebug_LogModule categoryKey)
@@ -562,9 +561,9 @@ namespace MoleMole
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_TIMEEND_OFFSET))();
 		}
 
-		static ::Class_1_A0197E0666BA1E42* get_Impl()
+		static ::GMDFPBGPJDK* get_Impl()
 		{
-			return ((::Class_1_A0197E0666BA1E42*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_GET_IMPL_OFFSET))();
+			return ((::GMDFPBGPJDK*(*)())((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_GET_IMPL_OFFSET))();
 		}
 
 		static ::System::Void Init()
@@ -597,9 +596,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::System::Int32, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_LINE_OFFSET))(type, start, end, color, duration, depthTest);
 		}
 
-		static ::System::Void DrawLineFromDetect(::MoleMole::SuperDebug_LogModule type, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::Struct_2_028911ED0AD7AF8F debugInfo, ::System::Nullable_1<::UnityEngine::Color> color, ::System::Single duration, ::System::Boolean depthTest)
+		static ::System::Void DrawLineFromDetect(::MoleMole::SuperDebug_LogModule type, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::FBHIKNMOHCG debugInfo, ::System::Nullable_1<::UnityEngine::Color> color, ::System::Single duration, ::System::Boolean depthTest)
 		{
-			return ((::System::Void(*)(::MoleMole::SuperDebug_LogModule, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::Struct_2_028911ED0AD7AF8F, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_DRAWLINEFROMDETECT_OFFSET))(type, start, end, debugInfo, color, duration, depthTest);
+			return ((::System::Void(*)(::MoleMole::SuperDebug_LogModule, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::FBHIKNMOHCG, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG_DRAWLINEFROMDETECT_OFFSET))(type, start, end, debugInfo, color, duration, depthTest);
 		}
 
 		static ::System::Void DrawLine(::MoleMole::SuperDebug_LogModule type, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::System::Nullable_1<::UnityEngine::Color> color, ::System::Single duration, ::System::Boolean depthTest)
@@ -727,9 +726,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG__INITDEBUGSWITCH_G__SETDEBUGSWITCH_101_0_OFFSET))(startIndex, switchKey);
 		}
 
-		static ::System::Void _SetDebugSwitchFlag_g__SavePrefs_102_0(::System::String* switchKey, ::MoleMole::SuperDebug___c__DisplayClass102_0& a2)
+		static ::System::Void _SetDebugSwitchFlag_g__SavePrefs_102_0(::System::String* switchKey, ::MoleMole::SuperDebug___c__DisplayClass102_0& param_1)
 		{
-			return ((::System::Void(*)(::System::String*, ::MoleMole::SuperDebug___c__DisplayClass102_0&))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG__SETDEBUGSWITCHFLAG_G__SAVEPREFS_102_0_OFFSET))(switchKey, a2);
+			return ((::System::Void(*)(::System::String*, ::MoleMole::SuperDebug___c__DisplayClass102_0&))((::PBYTE)hIl2Cpp + MOLEMOLE_SUPERDEBUG__SETDEBUGSWITCHFLAG_G__SAVEPREFS_102_0_OFFSET))(switchKey, param_1);
 		}
 	};
 }

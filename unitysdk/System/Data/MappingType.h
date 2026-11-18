@@ -3,7 +3,7 @@
 
 namespace System::Data
 {
-	inline static constexpr unsigned int MappingType_TypeDefinitionIndex = 39315;
+	inline static constexpr unsigned int MappingType_TypeDefinitionIndex = 37315;
 
 	enum class MappingType : ::System::Int32
 	{

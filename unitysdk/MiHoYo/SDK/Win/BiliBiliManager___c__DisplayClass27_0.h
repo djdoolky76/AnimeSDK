@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C915080)
+#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF448F0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass27_0_TypeDefinitionIndex = 21420;
+	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass27_0_TypeDefinitionIndex = 20620;
 
 	class BiliBiliManager___c__DisplayClass27_0 : public ::System::Object
 	{

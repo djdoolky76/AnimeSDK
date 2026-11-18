@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/TweenBar_Enum_3_185F70E2A0CB2E94.h"
-#include "unitysdk/MoleMole/Tween_1.h"
+#include "unitysdk/MoleMole/TweenBar_GJPMCHMKBOG.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace MoleMole { class MonoMaskSlider; }
@@ -9,35 +8,37 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Slider; }
 
-#define MOLEMOLE_TWEENBAR_BEGIN_1_OFFSET UNITYSDK_OFFSET(0x19745B30)
-#define MOLEMOLE_TWEENBAR_BEGIN_OFFSET UNITYSDK_OFFSET(0x197459B0)
-#define MOLEMOLE_TWEENBAR_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x197450C0)
-#define MOLEMOLE_TWEENBAR_INITINFO_OFFSET UNITYSDK_OFFSET(0x19745670)
-#define MOLEMOLE_TWEENBAR_METHOD_7_09C1B2AAF50AED97_OFFSET UNITYSDK_OFFSET(0x19745730)
-#define MOLEMOLE_TWEENBAR_METHOD_7_8C4AEC0BC1CA0CB4_OFFSET UNITYSDK_OFFSET(0x19745140)
-#define MOLEMOLE_TWEENBAR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19745800)
-#define MOLEMOLE_TWEENBAR_RESETSTART_OFFSET UNITYSDK_OFFSET(0x197458C0)
-#define MOLEMOLE_TWEENBAR_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x197450D0)
-#define MOLEMOLE_TWEENBAR_START_OFFSET UNITYSDK_OFFSET(0x197455F0)
-#define MOLEMOLE_TWEENBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x19745C70)
-#define MOLEMOLE_TWEENBAR___BASE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x19745CA0)
-#define MOLEMOLE_TWEENBAR___BASE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x19745C90)
-#define MOLEMOLE_TWEENBAR___BASE_START_OFFSET UNITYSDK_OFFSET(0x19745D30)
+#define MOLEMOLE_TWEENBAR_BEGIN_1_OFFSET UNITYSDK_OFFSET(0x1A0BD4F0)
+#define MOLEMOLE_TWEENBAR_BEGIN_OFFSET UNITYSDK_OFFSET(0x1A0BD370)
+#define MOLEMOLE_TWEENBAR_DFJPMOOOLHM_OFFSET UNITYSDK_OFFSET(0x1A0BD0F0)
+#define MOLEMOLE_TWEENBAR_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A0BCA80)
+#define MOLEMOLE_TWEENBAR_ILHIIDBCNEC_OFFSET UNITYSDK_OFFSET(0x1A0BD6F0)
+#define MOLEMOLE_TWEENBAR_INITINFO_OFFSET UNITYSDK_OFFSET(0x1A0BD030)
+#define MOLEMOLE_TWEENBAR_NIGDIMFIAEJ_OFFSET UNITYSDK_OFFSET(0x1A0BD650)
+#define MOLEMOLE_TWEENBAR_NOPPGJBPFNF_OFFSET UNITYSDK_OFFSET(0x1A0BCB00)
+#define MOLEMOLE_TWEENBAR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A0BD1C0)
+#define MOLEMOLE_TWEENBAR_PECPJKGEJKM_OFFSET UNITYSDK_OFFSET(0x1A0BD6E0)
+#define MOLEMOLE_TWEENBAR_RESETSTART_OFFSET UNITYSDK_OFFSET(0x1A0BD280)
+#define MOLEMOLE_TWEENBAR_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A0BCA90)
+#define MOLEMOLE_TWEENBAR_START_OFFSET UNITYSDK_OFFSET(0x1A0BCFB0)
+#define MOLEMOLE_TWEENBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0BD630)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TweenBar_TypeDefinitionIndex = 84864;
+	inline static constexpr unsigned int TweenBar_TypeDefinitionIndex = 70143;
 
-	class TweenBar : public ::MoleMole::Tween_1<::System::Single>
+	class TweenBar
 	{
 	public:
-		::MoleMole::TweenBar_Enum_3_185F70E2A0CB2E94 barSliderType; // 0x88
+		::MoleMole::TweenBar_GJPMCHMKBOG barSliderType; // 0x88
+		::System::Byte _padding0[0x4];
 		::MoleMole::MonoMaskSlider* monoMaskSlider; // 0x90
 		::UnityEngine::UI::Slider* imageSlider; // 0x98
 		::UnityEngine::UI::Image* imageBar; // 0xA0
-		::System::Single Field_7_5; // 0xA8
-		::System::Boolean Field_7_4; // 0xAC
-		::UnityEngine::Vector2 Field_7_11; // 0xB0
+		::System::Single IDAFENHHAFC; // 0xA8
+		::System::Boolean AOKCPCOCIAG; // 0xAC
+		::System::Byte _padding1[0x3];
+		::UnityEngine::Vector2 OJDLCBAGGDC; // 0xB0
 
 		::System::Void _ctor()
 		{
@@ -49,9 +50,9 @@ namespace MoleMole
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_value(::System::Single a1)
+		::System::Void set_value(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_SET_VALUE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_SET_VALUE_OFFSET))(this, EGEGIMGMJHN);
 		}
 
 		::System::Void Start()
@@ -59,9 +60,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_START_OFFSET))(this);
 		}
 
-		::System::Void Method_7_09C1B2AAF50AED97(::System::Single a1, ::System::Boolean a2)
+		::System::Void DFJPMOOOLHM(::System::Single CKELPHPMECF, ::System::Boolean GNFAABJPKPN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_METHOD_7_09C1B2AAF50AED97_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_DFJPMOOOLHM_OFFSET))(this, CKELPHPMECF, GNFAABJPKPN);
 		}
 
 		::System::Void InitInfo()
@@ -79,34 +80,34 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_RESETSTART_OFFSET))(this);
 		}
 
-		static ::MoleMole::TweenBar* Begin(::UnityEngine::GameObject* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
+		static ::MoleMole::TweenBar* Begin(::UnityEngine::GameObject* NJOAJLDJCCJ, ::System::Single KDEHMPGOCEP, ::System::Single PADJNMGMGHO, ::System::Single MDPPNMIPDMP, ::System::Single DLBFEAOALML)
 		{
-			return ((::MoleMole::TweenBar*(*)(::UnityEngine::GameObject*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_BEGIN_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::MoleMole::TweenBar*(*)(::UnityEngine::GameObject*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_BEGIN_OFFSET))(NJOAJLDJCCJ, KDEHMPGOCEP, PADJNMGMGHO, MDPPNMIPDMP, DLBFEAOALML);
 		}
 
-		static ::MoleMole::TweenBar* Begin_1(::MoleMole::TweenBar* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
+		static ::MoleMole::TweenBar* Begin_1(::MoleMole::TweenBar* HBNBIBADGNH, ::System::Single KDEHMPGOCEP, ::System::Single PADJNMGMGHO, ::System::Single MDPPNMIPDMP, ::System::Single DLBFEAOALML)
 		{
-			return ((::MoleMole::TweenBar*(*)(::MoleMole::TweenBar*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_BEGIN_1_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::MoleMole::TweenBar*(*)(::MoleMole::TweenBar*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_BEGIN_1_OFFSET))(HBNBIBADGNH, KDEHMPGOCEP, PADJNMGMGHO, MDPPNMIPDMP, DLBFEAOALML);
 		}
 
-		::System::Void __base_set_value(::System::Single a1)
+		::System::Void NIGDIMFIAEJ()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR___BASE_SET_VALUE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_NIGDIMFIAEJ_OFFSET))(this);
 		}
 
-		::System::Void __base_OnDisable()
+		::System::Void PECPJKGEJKM(::System::Single MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR___BASE_ONDISABLE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_PECPJKGEJKM_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void __base_Start()
+		::System::Void NOPPGJBPFNF(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR___BASE_START_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_NOPPGJBPFNF_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Void Method_7_8C4AEC0BC1CA0CB4(::System::Single a1)
+		::System::Void ILHIIDBCNEC()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_METHOD_7_8C4AEC0BC1CA0CB4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENBAR_ILHIIDBCNEC_OFFSET))(this);
 		}
 	};
 }

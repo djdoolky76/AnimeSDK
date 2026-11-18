@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-#include "unitysdk/System/Span_1.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
+#include "unitysdk/System/Span_1_9011FAD97750D224.h"
 
 namespace System { class String; }
 
-#define FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEHASH_1_OFFSET UNITYSDK_OFFSET(0x1B83E1D0)
-#define FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEHASH_2_OFFSET UNITYSDK_OFFSET(0x1B83E0A0)
-#define FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEHASH_OFFSET UNITYSDK_OFFSET(0x1B83DE20)
-#define FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEUTF8HASH_1_OFFSET UNITYSDK_OFFSET(0x1B83EF90)
-#define FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEUTF8HASH_2_OFFSET UNITYSDK_OFFSET(0x1B83E760)
-#define FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEUTF8HASH_OFFSET UNITYSDK_OFFSET(0x1B83E630)
-#define FOUNDATION_AUTOREGISTRYNAMEHASH_ENCODEUTF8_OFFSET UNITYSDK_OFFSET(0x1B83F0C0)
+#define FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEHASH_1_OFFSET UNITYSDK_OFFSET(0x18A6A300)
+#define FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEHASH_2_OFFSET UNITYSDK_OFFSET(0x18A6A1D0)
+#define FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEHASH_OFFSET UNITYSDK_OFFSET(0x18A69F50)
+#define FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEUTF8HASH_1_OFFSET UNITYSDK_OFFSET(0x18A6B0C0)
+#define FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEUTF8HASH_2_OFFSET UNITYSDK_OFFSET(0x18A6A890)
+#define FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEUTF8HASH_OFFSET UNITYSDK_OFFSET(0x18A6A760)
+#define FOUNDATION_AUTOREGISTRYNAMEHASH_ENCODEUTF8_OFFSET UNITYSDK_OFFSET(0x18A6B1F0)
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AutoRegistryNameHash_TypeDefinitionIndex = 8276;
+	inline static constexpr unsigned int AutoRegistryNameHash_TypeDefinitionIndex = 8694;
 
 	class AutoRegistryNameHash : public ::System::Object
 	{
@@ -35,9 +35,9 @@ namespace Foundation
 			return ((::System::UInt64(*)(::System::String*, ::System::UInt64))((::PBYTE)hIl2Cpp + FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEHASH_1_OFFSET))(name, seed);
 		}
 
-		static ::System::UInt64 ComputeHash_2(::System::ReadOnlySpan_1<::System::Char> name, ::System::UInt64 seed)
+		static ::System::UInt64 ComputeHash_2(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Char> name, ::System::UInt64 seed)
 		{
-			return ((::System::UInt64(*)(::System::ReadOnlySpan_1<::System::Char>, ::System::UInt64))((::PBYTE)hIl2Cpp + FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEHASH_2_OFFSET))(name, seed);
+			return ((::System::UInt64(*)(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Char>, ::System::UInt64))((::PBYTE)hIl2Cpp + FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEHASH_2_OFFSET))(name, seed);
 		}
 
 		static ::System::UInt64 ComputeUtf8Hash(::System::String* name)
@@ -50,14 +50,14 @@ namespace Foundation
 			return ((::System::UInt64(*)(::System::String*, ::System::UInt64))((::PBYTE)hIl2Cpp + FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEUTF8HASH_1_OFFSET))(name, seed);
 		}
 
-		static ::System::UInt64 ComputeUtf8Hash_2(::System::ReadOnlySpan_1<::System::Char> name, ::System::UInt64 seed)
+		static ::System::UInt64 ComputeUtf8Hash_2(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Char> name, ::System::UInt64 seed)
 		{
-			return ((::System::UInt64(*)(::System::ReadOnlySpan_1<::System::Char>, ::System::UInt64))((::PBYTE)hIl2Cpp + FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEUTF8HASH_2_OFFSET))(name, seed);
+			return ((::System::UInt64(*)(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Char>, ::System::UInt64))((::PBYTE)hIl2Cpp + FOUNDATION_AUTOREGISTRYNAMEHASH_COMPUTEUTF8HASH_2_OFFSET))(name, seed);
 		}
 
-		static ::System::Int32 EncodeUtf8(::System::ReadOnlySpan_1<::System::Char> chars, ::System::Span_1<::System::Byte> bytes)
+		static ::System::Int32 EncodeUtf8(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Char> chars, ::System::Span_1_9011FAD97750D224<::System::Byte> bytes)
 		{
-			return ((::System::Int32(*)(::System::ReadOnlySpan_1<::System::Char>, ::System::Span_1<::System::Byte>))((::PBYTE)hIl2Cpp + FOUNDATION_AUTOREGISTRYNAMEHASH_ENCODEUTF8_OFFSET))(chars, bytes);
+			return ((::System::Int32(*)(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Char>, ::System::Span_1_9011FAD97750D224<::System::Byte>))((::PBYTE)hIl2Cpp + FOUNDATION_AUTOREGISTRYNAMEHASH_ENCODEUTF8_OFFSET))(chars, bytes);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreePropertyAccessCompatibility_TypeDefinitionIndex = 31621;
+	inline static constexpr unsigned int StateTreePropertyAccessCompatibility_TypeDefinitionIndex = 31058;
 
 	enum class StateTreePropertyAccessCompatibility : ::System::Int32
 	{

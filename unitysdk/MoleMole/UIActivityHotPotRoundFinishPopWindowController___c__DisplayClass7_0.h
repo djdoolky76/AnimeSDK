@@ -4,12 +4,12 @@
 
 namespace MoleMole { class UIActivityHotPotRoundFinishPopWindowController; }
 
-#define MOLEMOLE_UIACTIVITYHOTPOTROUNDFINISHPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E11740)
-#define MOLEMOLE_UIACTIVITYHOTPOTROUNDFINISHPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x18E11750)
+#define MOLEMOLE_UIACTIVITYHOTPOTROUNDFINISHPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A122770)
+#define MOLEMOLE_UIACTIVITYHOTPOTROUNDFINISHPOPWINDOWCONTROLLER___C__DISPLAYCLASS7_0__REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1A122780)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityHotPotRoundFinishPopWindowController___c__DisplayClass7_0_TypeDefinitionIndex = 67214;
+	inline static constexpr unsigned int UIActivityHotPotRoundFinishPopWindowController___c__DisplayClass7_0_TypeDefinitionIndex = 52198;
 
 	class UIActivityHotPotRoundFinishPopWindowController___c__DisplayClass7_0 : public ::System::Object
 	{

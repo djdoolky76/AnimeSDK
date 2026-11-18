@@ -8,11 +8,12 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehicleAutomicConfig_TypeDefinitionIndex = 75825;
+	inline static constexpr unsigned int VehicleAutomicConfig_TypeDefinitionIndex = 76448;
 
 	struct alignas(8) VehicleAutomicConfig
 	{
 		::System::Boolean enableAssistDrive; // 0x10
+		::System::Byte _padding0[0x3];
 		::MoleMole::Vehicle::VehicleSensorOutline outline; // 0x14
 		::UnityEngine::LayerMask sensorCollisionMask; // 0x1C
 		::System::Single autoDriveNoInputTime; // 0x20

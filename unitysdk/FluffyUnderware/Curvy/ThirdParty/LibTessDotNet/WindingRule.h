@@ -3,7 +3,7 @@
 
 namespace FluffyUnderware::Curvy::ThirdParty::LibTessDotNet
 {
-	inline static constexpr unsigned int WindingRule_TypeDefinitionIndex = 29041;
+	inline static constexpr unsigned int WindingRule_TypeDefinitionIndex = 28480;
 
 	enum class WindingRule : ::System::Int32
 	{

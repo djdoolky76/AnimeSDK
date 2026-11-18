@@ -1,29 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_13.h"
-#include "unitysdk/Enum_3_F4A33839AB405E63.h"
-#include "unitysdk/MoleMole/UIBangkovBagPageController_LocalBangkovItemInfo.h"
+#include "unitysdk/AKLBGAKHAOC.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
+#include "unitysdk/OFDKEANKAIL.h"
 
-template <typename T> class Class_0_16E4307DCC419505_164;
-template <typename T> class Class_0_16E4307DCC41950C_14;
+namespace System { class Object; }
+namespace System { template <typename T> class Action_1; }
+template <typename T> class JIOLFCAGOFH_1;
+template <typename T> class LGFJMNEABJP_1;
 
-#define MOLEMOLE_UIBANGKOVBAGSUBPANELWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18C04050)
+#define MOLEMOLE_UIBANGKOVBAGSUBPANELWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x188846D0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangkovBagSubPanelWidgetController_Context_TypeDefinitionIndex = 84595;
+	inline static constexpr unsigned int UIBangkovBagSubPanelWidgetController_Context_TypeDefinitionIndex = 66500;
 
 	class UIBangkovBagSubPanelWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_0_16E4307DCC419505_164<::System::Int64>* SelectedItemSumValue; // 0x28
-		::Class_0_16E4307DCC41950C_14<::MoleMole::UIBangkovBagPageController_LocalBangkovItemInfo>* SelectedItemList; // 0x30
-		::Class_0_16E4307DCC419505_164<::System::Boolean>* IsInMultiSellMode; // 0x38
-		::Enum_3_ED790DAC948A65A9_13 PlayType; // 0x40
-		::System::Boolean HideEquipSection; // 0x44
-		::System::Boolean HideEquipEmptySlots; // 0x45
-		::Enum_3_F4A33839AB405E63 ShowPageType; // 0x48
+		::JIOLFCAGOFH_1<::System::Int64>* SelectedItemSumValue; // 0x28
+		::System::Action_1<::System::Int32>* onBagTabLick; // 0x30
+		::JIOLFCAGOFH_1<::System::Boolean>* IsInMultiSellMode; // 0x38
+		::LGFJMNEABJP_1<::System::Object*>* SelectedItemList; // 0x40
+		::System::Boolean HideEquipSection; // 0x48
+		::System::Boolean IsWarehousePage; // 0x49
+		::System::Boolean HideEquipEmptySlots; // 0x4A
+		::System::Byte _padding0[0x1];
+		::OFDKEANKAIL PlayType; // 0x4C
+		::AKLBGAKHAOC ShowPageType; // 0x50
 
 		::System::Void _ctor()
 		{

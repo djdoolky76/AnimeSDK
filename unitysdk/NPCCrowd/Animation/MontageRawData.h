@@ -2,14 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Animation/MontageClipType.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/NPCCrowd/Animation/MontageClipTimeData.h"
 
-#define NPCCROWD_ANIMATION_MONTAGERAWDATA_GETCLIPTYPE_OFFSET UNITYSDK_OFFSET(0x669100)
-#define NPCCROWD_ANIMATION_MONTAGERAWDATA_GETDURATION_OFFSET UNITYSDK_OFFSET(0x6691C0)
-#define NPCCROWD_ANIMATION_MONTAGERAWDATA_GETTIMEDATA_OFFSET UNITYSDK_OFFSET(0x669150)
+#define NPCCROWD_ANIMATION_MONTAGERAWDATA_GETCLIPTYPE_OFFSET UNITYSDK_OFFSET(0x601930)
+#define NPCCROWD_ANIMATION_MONTAGERAWDATA_GETDURATION_OFFSET UNITYSDK_OFFSET(0x6019F0)
+#define NPCCROWD_ANIMATION_MONTAGERAWDATA_GETTIMEDATA_OFFSET UNITYSDK_OFFSET(0x601980)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int MontageRawData_TypeDefinitionIndex = 76655;
+	inline static constexpr unsigned int MontageRawData_TypeDefinitionIndex = 67611;
 
 	struct alignas(4) MontageRawData
 	{
@@ -19,6 +20,7 @@ namespace NPCCrowd::Animation
 		::NPCCrowd::Animation::MontageClipType clipType; // 0x1C
 		::System::Int32 clipID; // 0x20
 		::System::Boolean loop; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::Single fadeinTIme; // 0x28
 
 		::NPCCrowd::Animation::MontageClipType GetClipType()
@@ -26,12 +28,10 @@ namespace NPCCrowd::Animation
 			return ((::NPCCrowd::Animation::MontageClipType(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_MONTAGERAWDATA_GETCLIPTYPE_OFFSET))(this);
 		}
 
-		/*
 		::NPCCrowd::Animation::MontageClipTimeData GetTimeData()
 		{
 			return ((::NPCCrowd::Animation::MontageClipTimeData(*)(::PVOID))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_MONTAGERAWDATA_GETTIMEDATA_OFFSET))(this);
 		}
-		*/
 
 		::System::Single GetDuration()
 		{

@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_LoginSuccessTipAccountIcons_TypeDefinitionIndex = 37834;
+	inline static constexpr unsigned int UIConstants_LoginSuccessTipAccountIcons_TypeDefinitionIndex = 35832;
 
 	class UIConstants_LoginSuccessTipAccountIcons : public ::System::Object
 	{
@@ -18,6 +16,7 @@ namespace MiHoYo::SDK::PluginUI
 		// static const ::System::String* TWITTER_ACCOUNT; // 0x0
 		// static const ::System::String* GOOGLE_ACCOUNT; // 0x0
 		// static const ::System::String* APPLE_ACCOUNT; // 0x0
+		// static const ::System::String* DISCORD_ACCOUNT; // 0x0
 		// static const ::System::String* MIHOYO_PHONE_ACCOUNT; // 0x0
 		// static const ::System::String* MIHOYO_EMAIL_ACCOUNT; // 0x0
 		// static const ::System::String* MIHOYO_USER_ACCOUNT; // 0x0

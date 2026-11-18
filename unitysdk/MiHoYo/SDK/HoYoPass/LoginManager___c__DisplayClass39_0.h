@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D768B20)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS39_0__GETCROSSTOKENURLWITHLOGINSTATUS_B__0_OFFSET UNITYSDK_OFFSET(0x1D768B30)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC0AD0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS39_0__GETCROSSTOKENURLWITHLOGINSTATUS_B__0_OFFSET UNITYSDK_OFFSET(0x1DEC0AE0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass39_0_TypeDefinitionIndex = 20422;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass39_0_TypeDefinitionIndex = 19570;
 
 	class LoginManager___c__DisplayClass39_0 : public ::System::Object
 	{

@@ -7,24 +7,24 @@ namespace System { class IFormatProvider; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITY_MATHEMATICS_FLOAT3X3_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xA60120)
-#define UNITY_MATHEMATICS_FLOAT3X3_EQUALS_OFFSET UNITYSDK_OFFSET(0xA600A0)
-#define UNITY_MATHEMATICS_FLOAT3X3_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xA60130)
-#define UNITY_MATHEMATICS_FLOAT3X3_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0xA607B0)
-#define UNITY_MATHEMATICS_FLOAT3X3_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA601B0)
-#define UNITY_MATHEMATICS_FLOAT3X3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBCFD50)
-#define UNITY_MATHEMATICS_FLOAT3X3__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA60020)
-#define UNITY_MATHEMATICS_FLOAT3X3__CTOR_OFFSET UNITYSDK_OFFSET(0xA5FFC0)
+#define UNITY_MATHEMATICS_FLOAT3X3_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x9406D0)
+#define UNITY_MATHEMATICS_FLOAT3X3_EQUALS_OFFSET UNITYSDK_OFFSET(0x940650)
+#define UNITY_MATHEMATICS_FLOAT3X3_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x9406E0)
+#define UNITY_MATHEMATICS_FLOAT3X3_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x940D60)
+#define UNITY_MATHEMATICS_FLOAT3X3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x940760)
+#define UNITY_MATHEMATICS_FLOAT3X3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF805E0)
+#define UNITY_MATHEMATICS_FLOAT3X3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9405D0)
+#define UNITY_MATHEMATICS_FLOAT3X3__CTOR_OFFSET UNITYSDK_OFFSET(0x940570)
 
 namespace Unity::Mathematics
 {
-	inline static constexpr unsigned int float3x3_TypeDefinitionIndex = 32733;
+	inline static constexpr unsigned int float3x3_TypeDefinitionIndex = 32182;
 
 	struct alignas(4) float3x3
 	{
 		static ::Unity::Mathematics::float3x3* StaticGet_identity()
 		{
-			return (::Unity::Mathematics::float3x3*)Il2CppClass::FromTypeDefinitionIndex(float3x3_TypeDefinitionIndex)->GetStaticField(0x7E00);
+			return (::Unity::Mathematics::float3x3*)Il2CppClass::FromTypeDefinitionIndex(float3x3_TypeDefinitionIndex)->GetStaticField(0x8200);
 		}
 		::Unity::Mathematics::float3 c0; // 0x10
 		::Unity::Mathematics::float3 c1; // 0x1C
@@ -45,10 +45,12 @@ namespace Unity::Mathematics
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_FLOAT3X3__CCTOR_OFFSET))();
 		}
 
+		/*
 		::System::Boolean Equals(::Unity::Mathematics::float3x3 rhs)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Unity::Mathematics::float3x3))((::PBYTE)hIl2Cpp + UNITY_MATHEMATICS_FLOAT3X3_EQUALS_OFFSET))(this, rhs);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* o)
 		{

@@ -4,10 +4,10 @@
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_PoseInertializationBoneDeltaData32___storage_e__FixedBuffer_TypeDefinitionIndex = 88346;
+	inline static constexpr unsigned int AnimationSubManager_PoseInertializationBoneDeltaData32___storage_e__FixedBuffer_TypeDefinitionIndex = 81141;
 
 	struct alignas(4) AnimationSubManager_PoseInertializationBoneDeltaData32___storage_e__FixedBuffer
 	{
-		::System::Single data[32]; // 0x0
+		::System::Single FixedElementField; // 0x10
 	};
 }

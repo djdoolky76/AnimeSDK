@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Color.h"
+
+#define MOLEMOLE_AUDIO_MONOSOUND_SIMPLEMASTS_WATCHER_COBFILEACEJ_ADMNLKLOADK_OFFSET UNITYSDK_OFFSET(0x18B76980)
+#define MOLEMOLE_AUDIO_MONOSOUND_SIMPLEMASTS_WATCHER_COBFILEACEJ_ANPBCLAFCJB_OFFSET UNITYSDK_OFFSET(0x18B76860)
+#define MOLEMOLE_AUDIO_MONOSOUND_SIMPLEMASTS_WATCHER_COBFILEACEJ_FHCFMGPEOON_OFFSET UNITYSDK_OFFSET(0x18B767D0)
+#define MOLEMOLE_AUDIO_MONOSOUND_SIMPLEMASTS_WATCHER_COBFILEACEJ_GKILMCJEOCO_OFFSET UNITYSDK_OFFSET(0x18B76740)
+#define MOLEMOLE_AUDIO_MONOSOUND_SIMPLEMASTS_WATCHER_COBFILEACEJ__CTOR_OFFSET UNITYSDK_OFFSET(0x18B766E0)
+
+namespace MoleMole::Audio
+{
+	inline static constexpr unsigned int MonoSound_SimpleMASTS_Watcher_COBFILEACEJ_TypeDefinitionIndex = 57324;
+
+	class MonoSound_SimpleMASTS_Watcher_COBFILEACEJ : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::System::Single>* POMFDCJEMLP; // 0x10
+		::System::Single ODADIECFGCG; // 0x18
+		::System::Int32 OAHAHLEKAHP; // 0x1C
+		::System::Single GMLBFEAOGDC; // 0x20
+		::System::Single BPMPLOKDANB; // 0x24
+		::System::Single KAJEINAABPN; // 0x28
+
+		::System::Void _ctor(::System::Int32 KMKBJKOEBMF)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_AUDIO_MONOSOUND_SIMPLEMASTS_WATCHER_COBFILEACEJ__CTOR_OFFSET))(this, KMKBJKOEBMF);
+		}
+
+		::UnityEngine::Color GKILMCJEOCO(::System::Single EGEGIMGMJHN)
+		{
+			return ((::UnityEngine::Color(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_AUDIO_MONOSOUND_SIMPLEMASTS_WATCHER_COBFILEACEJ_GKILMCJEOCO_OFFSET))(this, EGEGIMGMJHN);
+		}
+
+		::UnityEngine::Color FHCFMGPEOON(::System::Single EGEGIMGMJHN)
+		{
+			return ((::UnityEngine::Color(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_AUDIO_MONOSOUND_SIMPLEMASTS_WATCHER_COBFILEACEJ_FHCFMGPEOON_OFFSET))(this, EGEGIMGMJHN);
+		}
+
+		::System::Void ANPBCLAFCJB(::System::Single EGEGIMGMJHN)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_AUDIO_MONOSOUND_SIMPLEMASTS_WATCHER_COBFILEACEJ_ANPBCLAFCJB_OFFSET))(this, EGEGIMGMJHN);
+		}
+
+		::System::Single ADMNLKLOADK(::System::Int32 IIFMJFJOOCK)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_AUDIO_MONOSOUND_SIMPLEMASTS_WATCHER_COBFILEACEJ_ADMNLKLOADK_OFFSET))(this, IIFMJFJOOCK);
+		}
+	};
+}

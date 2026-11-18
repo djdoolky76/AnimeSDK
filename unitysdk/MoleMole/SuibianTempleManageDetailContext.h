@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_D3384FC764485EA3.h"
+#include "unitysdk/ADLCDHJKFIO.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_SUIBIANTEMPLEMANAGEDETAILCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x173A8D00)
+#define MOLEMOLE_SUIBIANTEMPLEMANAGEDETAILCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13F148A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SuibianTempleManageDetailContext_TypeDefinitionIndex = 90403;
+	inline static constexpr unsigned int SuibianTempleManageDetailContext_TypeDefinitionIndex = 79402;
 
 	class SuibianTempleManageDetailContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Enum_3_D3384FC764485EA3 OpenType; // 0x28
+		::ADLCDHJKFIO OpenType; // 0x28
 
 		::System::Void _ctor()
 		{

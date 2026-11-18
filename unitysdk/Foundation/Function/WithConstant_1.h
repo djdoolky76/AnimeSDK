@@ -4,10 +4,10 @@
 
 namespace Foundation::Function
 {
-	inline static constexpr unsigned int WithConstant_1_TypeDefinitionIndex = 8576;
+	inline static constexpr unsigned int WithConstant_1_TypeDefinitionIndex = 8762;
 
 	template <typename T>
-	struct WithConstant_1
+	struct alignas(8) WithConstant_1
 	{
 		T Function; // 0x0
 		::System::Double Constant; // 0x0

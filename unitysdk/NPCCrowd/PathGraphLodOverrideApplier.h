@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NPCCrowd/Lod/LodDistanceOverrideEntry.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/NPCCrowd/Lod/LodDistanceOverrideEntry.h"
 
 namespace NPCCrowd::AI { class PathGraphAssetSO; }
 
-#define NPCCROWD_PATHGRAPHLODOVERRIDEAPPLIER_APPLYALLFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x9546EB0)
-#define NPCCROWD_PATHGRAPHLODOVERRIDEAPPLIER_CLEARALLFROMCONFIG_OFFSET UNITYSDK_OFFSET(0x9547260)
-#define NPCCROWD_PATHGRAPHLODOVERRIDEAPPLIER_COMPUTEOVERRIDEDISTANCES_OFFSET UNITYSDK_OFFSET(0x9546C00)
+#define NPCCROWD_PATHGRAPHLODOVERRIDEAPPLIER_APPLYALLFROMCONFIG_OFFSET UNITYSDK_OFFSET(0xE1267B0)
+#define NPCCROWD_PATHGRAPHLODOVERRIDEAPPLIER_CLEARALLFROMCONFIG_OFFSET UNITYSDK_OFFSET(0xE126B60)
+#define NPCCROWD_PATHGRAPHLODOVERRIDEAPPLIER_COMPUTEOVERRIDEDISTANCES_OFFSET UNITYSDK_OFFSET(0xE126500)
 
 namespace NPCCrowd
 {
-	inline static constexpr unsigned int PathGraphLodOverrideApplier_TypeDefinitionIndex = 90824;
+	inline static constexpr unsigned int PathGraphLodOverrideApplier_TypeDefinitionIndex = 40046;
 
 	class PathGraphLodOverrideApplier : public ::System::Object
 	{

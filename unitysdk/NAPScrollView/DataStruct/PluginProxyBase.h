@@ -1,0 +1,197 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/NAPScrollView/DataStruct/ScrollFloat.h"
+#include "unitysdk/NAPScrollView/DataStruct/ScrollToTargetContext.h"
+#include "unitysdk/NAPScrollView/DataStruct/TempRecycleScope.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace MoleMole { class ScrollViewItemWidgetController; }
+namespace System { template <typename T> class Action_1; }
+namespace System { template <typename T> class Func_1; }
+namespace System::Collections::Generic { template <typename T> class Queue_1; }
+namespace UnityEngine { class GameObject; }
+
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_ADJUSTPOSITION_OFFSET UNITYSDK_OFFSET(0x18F929F0)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_BEGINDRAGFEATURE_OFFSET UNITYSDK_OFFSET(0x18F92AB0)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_BEGINDRAGSCROLLBARFEATURE_OFFSET UNITYSDK_OFFSET(0x18F92B30)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_BEGINMOUSESCROLLFEATURE_OFFSET UNITYSDK_OFFSET(0x18F92BB0)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_DODAMPINNER_OFFSET UNITYSDK_OFFSET(0x18F92990)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_DODAMP_OFFSET UNITYSDK_OFFSET(0x18F92950)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_DOGRIDALIGN_OFFSET UNITYSDK_OFFSET(0x18F92C30)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_DUMPFEATURESTATE_OFFSET UNITYSDK_OFFSET(0x18F92A30)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_ENDDRAGFEATURE_OFFSET UNITYSDK_OFFSET(0x18F92AF0)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_ENDDRAGSCROLLBARFEATURE_OFFSET UNITYSDK_OFFSET(0x18F92B70)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_ENDMOUSESCROLLFEATURE_OFFSET UNITYSDK_OFFSET(0x18F92BF0)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_GET_MINCELLSIZE_OFFSET UNITYSDK_OFFSET(0x18F92CB0)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_GET_ROLLINGVELOCITYLIST_OFFSET UNITYSDK_OFFSET(0x18F92F20)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_GET_ROLLINGVELOCITY_OFFSET UNITYSDK_OFFSET(0x18F92F10)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_INITCELLSIZE_1_OFFSET UNITYSDK_OFFSET(0x18F92D00)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_INITCELLSIZE_OFFSET UNITYSDK_OFFSET(0x18F92CC0)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_LAZYRECYCLEGETDATAINDEXBYITEMGO_OFFSET UNITYSDK_OFFSET(0x18F92F30)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_MARKDYNAMICALLOCATEITEMDIRTYFROMPARENT_OFFSET UNITYSDK_OFFSET(0x18F92DA0)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_POPTEMPRECYCLESCOPE_OFFSET UNITYSDK_OFFSET(0x18F92E80)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_PUSHTEMPRECYCLESCOPE_OFFSET UNITYSDK_OFFSET(0x18F92E30)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_RECORDDIRTY_OFFSET UNITYSDK_OFFSET(0x18F92910)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_RECYCLESCROLLITEM_OFFSET UNITYSDK_OFFSET(0x18F92DE0)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_REGISTERCUSTOMTEMPLATEPROVIDER_OFFSET UNITYSDK_OFFSET(0x18F92D50)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_ROLLINGONCONTENTENDDRAG_OFFSET UNITYSDK_OFFSET(0x18F92ED0)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_SCROLLTOTARGET_OFFSET UNITYSDK_OFFSET(0x18F92F80)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_SETCURRENTPOSITIONTOCONTENTALIGNTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x18F92C70)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_SIMULATEGRIDALIGNIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x18F92A70)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_UPDATEFEATURE_OFFSET UNITYSDK_OFFSET(0x18F928D0)
+#define NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F92FF0)
+
+namespace NAPScrollView::DataStruct
+{
+	inline static constexpr unsigned int PluginProxyBase_TypeDefinitionIndex = 53040;
+
+	class PluginProxyBase : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void UpdateFeature()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_UPDATEFEATURE_OFFSET))(this);
+		}
+
+		::System::Void RecordDirty()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_RECORDDIRTY_OFFSET))(this);
+		}
+
+		::System::Boolean DoDamp()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_DODAMP_OFFSET))(this);
+		}
+
+		::System::Boolean DoDampInner(::System::Single ratio)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_DODAMPINNER_OFFSET))(this, ratio);
+		}
+
+		::System::Void AdjustPosition()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_ADJUSTPOSITION_OFFSET))(this);
+		}
+
+		::System::Void DumpFeatureState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_DUMPFEATURESTATE_OFFSET))(this);
+		}
+
+		::System::Void SimulateGridAlignImmediately()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_SIMULATEGRIDALIGNIMMEDIATELY_OFFSET))(this);
+		}
+
+		::System::Void BeginDragFeature()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_BEGINDRAGFEATURE_OFFSET))(this);
+		}
+
+		::System::Void EndDragFeature()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_ENDDRAGFEATURE_OFFSET))(this);
+		}
+
+		::System::Void BeginDragScrollBarFeature()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_BEGINDRAGSCROLLBARFEATURE_OFFSET))(this);
+		}
+
+		::System::Void EndDragScrollBarFeature()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_ENDDRAGSCROLLBARFEATURE_OFFSET))(this);
+		}
+
+		::System::Void BeginMouseScrollFeature()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_BEGINMOUSESCROLLFEATURE_OFFSET))(this);
+		}
+
+		::System::Void EndMouseScrollFeature()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_ENDMOUSESCROLLFEATURE_OFFSET))(this);
+		}
+
+		::System::Boolean DoGridAlign()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_DOGRIDALIGN_OFFSET))(this);
+		}
+
+		::System::Void SetCurrentPositionToContentAlignTargetPosition()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_SETCURRENTPOSITIONTOCONTENTALIGNTARGETPOSITION_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector2 get_MinCellSize()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_GET_MINCELLSIZE_OFFSET))(this);
+		}
+
+		::System::Void InitCellSize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_INITCELLSIZE_OFFSET))(this);
+		}
+
+		::System::Void InitCellSize_1(::System::Int32 templateIndex)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_INITCELLSIZE_1_OFFSET))(this, templateIndex);
+		}
+
+		::System::Void RegisterCustomTemplateProvider(::System::Func_1<::UnityEngine::GameObject*>* provider, ::System::Action_1<::UnityEngine::GameObject*>* afterUseCustomTemplate)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Func_1<::UnityEngine::GameObject*>*, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_REGISTERCUSTOMTEMPLATEPROVIDER_OFFSET))(this, provider, afterUseCustomTemplate);
+		}
+
+		::System::Void MarkDynamicAllocateItemDirtyFromParent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_MARKDYNAMICALLOCATEITEMDIRTYFROMPARENT_OFFSET))(this);
+		}
+
+		::System::Void RecycleScrollItem(::MoleMole::ScrollViewItemWidgetController* item)
+		{
+			return ((::System::Void(*)(::PVOID, ::MoleMole::ScrollViewItemWidgetController*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_RECYCLESCROLLITEM_OFFSET))(this, item);
+		}
+
+		::System::Void PushTempRecycleScope(::NAPScrollView::DataStruct::TempRecycleScope scope)
+		{
+			return ((::System::Void(*)(::PVOID, ::NAPScrollView::DataStruct::TempRecycleScope))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_PUSHTEMPRECYCLESCOPE_OFFSET))(this, scope);
+		}
+
+		::System::Void PopTempRecycleScope(::NAPScrollView::DataStruct::TempRecycleScope scope)
+		{
+			return ((::System::Void(*)(::PVOID, ::NAPScrollView::DataStruct::TempRecycleScope))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_POPTEMPRECYCLESCOPE_OFFSET))(this, scope);
+		}
+
+		::System::Void RollingOnContentEndDrag()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_ROLLINGONCONTENTENDDRAG_OFFSET))(this);
+		}
+
+		::System::Single get_RollingVelocity()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_GET_ROLLINGVELOCITY_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::Queue_1<::NAPScrollView::DataStruct::ScrollFloat>* get_RollingVelocityList()
+		{
+			return ((::System::Collections::Generic::Queue_1<::NAPScrollView::DataStruct::ScrollFloat>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_GET_ROLLINGVELOCITYLIST_OFFSET))(this);
+		}
+
+		::System::Int32 LazyRecycleGetDataIndexByItemGO(::UnityEngine::GameObject* go)
+		{
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_LAZYRECYCLEGETDATAINDEXBYITEMGO_OFFSET))(this, go);
+		}
+
+		::System::Void ScrollToTarget(::NAPScrollView::DataStruct::ScrollToTargetContext context)
+		{
+			return ((::System::Void(*)(::PVOID, ::NAPScrollView::DataStruct::ScrollToTargetContext))((::PBYTE)hIl2Cpp + NAPSCROLLVIEW_DATASTRUCT_PLUGINPROXYBASE_SCROLLTOTARGET_OFFSET))(this, context);
+		}
+	};
+}

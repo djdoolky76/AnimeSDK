@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MOLEMOLE_MONOSUBZONE3D_CONTAINS_OFFSET UNITYSDK_OFFSET(0x129D4A60)
-#define MOLEMOLE_MONOSUBZONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x129D4AC0)
+#define MOLEMOLE_MONOSUBZONE3D_CONTAINS_OFFSET UNITYSDK_OFFSET(0x12498C70)
+#define MOLEMOLE_MONOSUBZONE3D__CTOR_OFFSET UNITYSDK_OFFSET(0x12498CD0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoSubZone3D_TypeDefinitionIndex = 85529;
+	inline static constexpr unsigned int MonoSubZone3D_TypeDefinitionIndex = 51813;
 
 	class MonoSubZone3D : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,9 +20,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSUBZONE3D__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Contains(::UnityEngine::Vector3 a1)
+		::System::Boolean Contains(::UnityEngine::Vector3 CKPGOKHECCH)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSUBZONE3D_CONTAINS_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOSUBZONE3D_CONTAINS_OFFSET))(this, CKPGOKHECCH);
 		}
 	};
 }

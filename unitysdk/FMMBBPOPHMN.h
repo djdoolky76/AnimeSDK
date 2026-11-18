@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HGAJKHIMKJP.h"
+#include "unitysdk/Share/EItemType.h"
+
+class CFMGIKJLMBJ;
+class DOMAEPCCGEK;
+class FOLOGHLENFB;
+
+#define FMMBBPOPHMN_GKILDJBDCAP_OFFSET UNITYSDK_OFFSET(0x14110300)
+#define FMMBBPOPHMN_MFPLKMFPPLK_OFFSET UNITYSDK_OFFSET(0x14110310)
+#define FMMBBPOPHMN_MGEAEGODOJO_OFFSET UNITYSDK_OFFSET(0x14110430)
+#define FMMBBPOPHMN_OACKAILALIP_OFFSET UNITYSDK_OFFSET(0x141103D0)
+#define FMMBBPOPHMN__CTOR_OFFSET UNITYSDK_OFFSET(0x14110290)
+
+inline static constexpr unsigned int FMMBBPOPHMN_TypeDefinitionIndex = 45263;
+
+class FMMBBPOPHMN : public ::HGAJKHIMKJP
+{
+public:
+	::DOMAEPCCGEK* IODBDPOLPKA; // 0x70
+
+	::System::Void _ctor(::System::UInt64 KGIOFDBFGAM, ::System::Int32 OIKFFGKDHME, ::FOLOGHLENFB* DFMKILICPFB, ::System::Int32 OHOGDOMNHNK)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt64, ::System::Int32, ::FOLOGHLENFB*, ::System::Int32))((::PBYTE)hIl2Cpp + FMMBBPOPHMN__CTOR_OFFSET))(this, KGIOFDBFGAM, OIKFFGKDHME, DFMKILICPFB, OHOGDOMNHNK);
+	}
+
+	::Share::EItemType GKILDJBDCAP()
+	{
+		return ((::Share::EItemType(*)(::PVOID))((::PBYTE)hIl2Cpp + FMMBBPOPHMN_GKILDJBDCAP_OFFSET))(this);
+	}
+
+	::System::Void MFPLKMFPPLK(::CFMGIKJLMBJ* JKHIHIBHDPH)
+	{
+		return ((::System::Void(*)(::PVOID, ::CFMGIKJLMBJ*))((::PBYTE)hIl2Cpp + FMMBBPOPHMN_MFPLKMFPPLK_OFFSET))(this, JKHIHIBHDPH);
+	}
+
+	::System::Boolean OACKAILALIP()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FMMBBPOPHMN_OACKAILALIP_OFFSET))(this);
+	}
+
+	::System::Void MGEAEGODOJO(::CFMGIKJLMBJ* MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::CFMGIKJLMBJ*))((::PBYTE)hIl2Cpp + FMMBBPOPHMN_MGEAEGODOJO_OFFSET))(this, MIALFKCCCPI);
+	}
+};

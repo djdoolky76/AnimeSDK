@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace UnityEngine::UI::Extension { template <typename T> class Range_1; }
-
 namespace UnityEngine::UI::Extension
 {
-	inline static constexpr unsigned int Range_1_TypeDefinitionIndex = 52249;
+	inline static constexpr unsigned int Range_1_TypeDefinitionIndex = 46663;
 
 	template <typename T>
 	class Range_1 : public ::System::Object

@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_1A39E1B51756BF41;
+class FGCOIBFFCHB;
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine::UI { class Image; }
 
-#define MOLEMOLE_UICOOPTEACHTABWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AA98A0)
-#define MOLEMOLE_UICOOPTEACHTABWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18AA98E0)
-#define MOLEMOLE_UICOOPTEACHTABWIDGETCONTROLLER___C__REFRESHVIEW_B__10_0_OFFSET UNITYSDK_OFFSET(0x18AA98F0)
+#define MOLEMOLE_UICOOPTEACHTABWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18078D50)
+#define MOLEMOLE_UICOOPTEACHTABWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18078D90)
+#define MOLEMOLE_UICOOPTEACHTABWIDGETCONTROLLER___C__REFRESHVIEW_B__10_0_OFFSET UNITYSDK_OFFSET(0x18078DA0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UICoopTeachTabWidgetController___c_TypeDefinitionIndex = 41004;
+	inline static constexpr unsigned int UICoopTeachTabWidgetController___c_TypeDefinitionIndex = 82672;
 
 	class UICoopTeachTabWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UICoopTeachTabWidgetController___c** StaticGet___9()
+		static ::System::Converter_2<::FGCOIBFFCHB*, ::UnityEngine::UI::Image*>** StaticGet___9__10_0()
 		{
-			return (::MoleMole::UICoopTeachTabWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UICoopTeachTabWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CF60);
+			return (::System::Converter_2<::FGCOIBFFCHB*, ::UnityEngine::UI::Image*>**)Il2CppClass::FromTypeDefinitionIndex(UICoopTeachTabWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EE40);
 		}
-		static ::System::Converter_2<::Class_2_1A39E1B51756BF41*, ::UnityEngine::UI::Image*>** StaticGet___9__10_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Converter_2<::Class_2_1A39E1B51756BF41*, ::UnityEngine::UI::Image*>**)Il2CppClass::FromTypeDefinitionIndex(UICoopTeachTabWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3CF68);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UICoopTeachTabWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x3EE48);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOOPTEACHTABWIDGETCONTROLLER___C__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::UI::Image* _RefreshView_b__10_0(::Class_2_1A39E1B51756BF41* x)
+		::UnityEngine::UI::Image* _RefreshView_b__10_0(::FGCOIBFFCHB* x)
 		{
-			return ((::UnityEngine::UI::Image*(*)(::PVOID, ::Class_2_1A39E1B51756BF41*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOOPTEACHTABWIDGETCONTROLLER___C__REFRESHVIEW_B__10_0_OFFSET))(this, x);
+			return ((::UnityEngine::UI::Image*(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UICOOPTEACHTABWIDGETCONTROLLER___C__REFRESHVIEW_B__10_0_OFFSET))(this, x);
 		}
 	};
 }

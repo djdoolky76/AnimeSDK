@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_DYNAMICFLOAT_EDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F5880)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_DYNAMICFLOAT_EDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19D01920)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor_TypeDefinitionIndex = 70263;
+	inline static constexpr unsigned int ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor_TypeDefinitionIndex = 56689;
 
 	class ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor : public ::System::Object
 	{

@@ -1,38 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Tween_1.h"
 
 namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Graphic; }
 
-#define MOLEMOLE_TWEENALPHA_BEGIN_OFFSET UNITYSDK_OFFSET(0x191C19F0)
-#define MOLEMOLE_TWEENALPHA_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x191C1570)
-#define MOLEMOLE_TWEENALPHA_METHOD_7_50C397B5C3CE86EA_OFFSET UNITYSDK_OFFSET(0x191C1C30)
-#define MOLEMOLE_TWEENALPHA_METHOD_7_7AA82CF1473452F1_OFFSET UNITYSDK_OFFSET(0x191C1910)
-#define MOLEMOLE_TWEENALPHA_METHOD_7_CD2EC0D03CAA1ECD_OFFSET UNITYSDK_OFFSET(0x191C15F0)
-#define MOLEMOLE_TWEENALPHA_METHOD_7_DE49A82407E8E3A4_OFFSET UNITYSDK_OFFSET(0x191C17C0)
-#define MOLEMOLE_TWEENALPHA_METHOD_7_F46FD0FF6D95C209_OFFSET UNITYSDK_OFFSET(0x191C13E0)
-#define MOLEMOLE_TWEENALPHA_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x191C1580)
-#define MOLEMOLE_TWEENALPHA_START_OFFSET UNITYSDK_OFFSET(0x191C1240)
-#define MOLEMOLE_TWEENALPHA__CTOR_OFFSET UNITYSDK_OFFSET(0x191C1B70)
-#define MOLEMOLE_TWEENALPHA___BASE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x191C1B90)
-#define MOLEMOLE_TWEENALPHA___BASE_START_OFFSET UNITYSDK_OFFSET(0x191C1BA0)
+#define MOLEMOLE_TWEENALPHA_BEGIN_OFFSET UNITYSDK_OFFSET(0x162FCCB0)
+#define MOLEMOLE_TWEENALPHA_DFJPMOOOLHM_OFFSET UNITYSDK_OFFSET(0x162FCBD0)
+#define MOLEMOLE_TWEENALPHA_FIOMCHNHDCF_OFFSET UNITYSDK_OFFSET(0x162FC6A0)
+#define MOLEMOLE_TWEENALPHA_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x162FC830)
+#define MOLEMOLE_TWEENALPHA_NIGDIMFIAEJ_OFFSET UNITYSDK_OFFSET(0x162FCF50)
+#define MOLEMOLE_TWEENALPHA_PDKAHFENOFB_OFFSET UNITYSDK_OFFSET(0x162FC8B0)
+#define MOLEMOLE_TWEENALPHA_PECPJKGEJKM_OFFSET UNITYSDK_OFFSET(0x162FCE50)
+#define MOLEMOLE_TWEENALPHA_PLFBKOLEIGI_OFFSET UNITYSDK_OFFSET(0x162FCA80)
+#define MOLEMOLE_TWEENALPHA_PNAHDKPJLKK_OFFSET UNITYSDK_OFFSET(0x162FCE60)
+#define MOLEMOLE_TWEENALPHA_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x162FC840)
+#define MOLEMOLE_TWEENALPHA_START_OFFSET UNITYSDK_OFFSET(0x162FC500)
+#define MOLEMOLE_TWEENALPHA__CTOR_OFFSET UNITYSDK_OFFSET(0x162FCE30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int TweenAlpha_TypeDefinitionIndex = 78031;
+	inline static constexpr unsigned int TweenAlpha_TypeDefinitionIndex = 78841;
 
-	class TweenAlpha : public ::MoleMole::Tween_1<::System::Single>
+	class TweenAlpha
 	{
 	public:
 		::System::Boolean includeChildren; // 0x88
-		::System::Boolean Field_7_2; // 0x89
-		::System::Single Field_7_1; // 0x8C
-		::UnityEngine::Transform* Field_7_0; // 0x90
-		::Il2CppArray<::UnityEngine::UI::Graphic*>* Field_7_7; // 0x98
-		::UnityEngine::CanvasGroup* Field_7_6; // 0xA0
+		::System::Boolean NMDFNFHHBDN; // 0x89
+		::System::Byte _padding0[0x2];
+		::System::Single GCAMMDBAPCD; // 0x8C
+		::UnityEngine::Transform* KPHBLGMKOMD; // 0x90
+		::Il2CppArray<::UnityEngine::UI::Graphic*>* LHIKEAKDOJO; // 0x98
+		::UnityEngine::CanvasGroup* MCNOFHCGNJG; // 0xA0
 
 		::System::Void _ctor()
 		{
@@ -49,49 +49,49 @@ namespace MoleMole
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_GET_VALUE_OFFSET))(this);
 		}
 
-		::System::Void set_value(::System::Single a1)
+		::System::Void set_value(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_SET_VALUE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_SET_VALUE_OFFSET))(this, EGEGIMGMJHN);
 		}
 
-		::System::Void Method_7_7AA82CF1473452F1(::System::Single a1, ::System::Boolean a2)
+		::System::Void DFJPMOOOLHM(::System::Single CKELPHPMECF, ::System::Boolean GNFAABJPKPN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_METHOD_7_7AA82CF1473452F1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_DFJPMOOOLHM_OFFSET))(this, CKELPHPMECF, GNFAABJPKPN);
 		}
 
-		static ::MoleMole::TweenAlpha* Begin(::UnityEngine::GameObject* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
+		static ::MoleMole::TweenAlpha* Begin(::UnityEngine::GameObject* NJOAJLDJCCJ, ::System::Single KDEHMPGOCEP, ::System::Single PADJNMGMGHO, ::System::Single MDPPNMIPDMP, ::System::Single DLBFEAOALML)
 		{
-			return ((::MoleMole::TweenAlpha*(*)(::UnityEngine::GameObject*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_BEGIN_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::MoleMole::TweenAlpha*(*)(::UnityEngine::GameObject*, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_BEGIN_OFFSET))(NJOAJLDJCCJ, KDEHMPGOCEP, PADJNMGMGHO, MDPPNMIPDMP, DLBFEAOALML);
 		}
 
-		::System::Void __base_set_value(::System::Single a1)
+		::System::Void PECPJKGEJKM(::System::Single MIALFKCCCPI)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA___BASE_SET_VALUE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_PECPJKGEJKM_OFFSET))(this, MIALFKCCCPI);
 		}
 
-		::System::Void __base_Start()
+		::System::Void PLFBKOLEIGI(::UnityEngine::Transform* ACDOKEGBJAO, ::System::Single KBNECHHGNEP)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA___BASE_START_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_PLFBKOLEIGI_OFFSET))(this, ACDOKEGBJAO, KBNECHHGNEP);
 		}
 
-		::UnityEngine::Transform* Method_7_CD2EC0D03CAA1ECD()
+		::UnityEngine::CanvasGroup* FIOMCHNHDCF()
 		{
-			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_METHOD_7_CD2EC0D03CAA1ECD_OFFSET))(this);
+			return ((::UnityEngine::CanvasGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_FIOMCHNHDCF_OFFSET))(this);
 		}
 
-		::Il2CppArray<::UnityEngine::UI::Graphic*>* Method_7_50C397B5C3CE86EA()
+		::UnityEngine::Transform* PDKAHFENOFB()
 		{
-			return ((::Il2CppArray<::UnityEngine::UI::Graphic*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_METHOD_7_50C397B5C3CE86EA_OFFSET))(this);
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_PDKAHFENOFB_OFFSET))(this);
 		}
 
-		::System::Void Method_7_DE49A82407E8E3A4(::UnityEngine::Transform* a1, ::System::Single a2)
+		::Il2CppArray<::UnityEngine::UI::Graphic*>* PNAHDKPJLKK()
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_METHOD_7_DE49A82407E8E3A4_OFFSET))(this, a1, a2);
+			return ((::Il2CppArray<::UnityEngine::UI::Graphic*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_PNAHDKPJLKK_OFFSET))(this);
 		}
 
-		::UnityEngine::CanvasGroup* Method_7_F46FD0FF6D95C209()
+		::System::Void NIGDIMFIAEJ()
 		{
-			return ((::UnityEngine::CanvasGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_METHOD_7_F46FD0FF6D95C209_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TWEENALPHA_NIGDIMFIAEJ_OFFSET))(this);
 		}
 	};
 }

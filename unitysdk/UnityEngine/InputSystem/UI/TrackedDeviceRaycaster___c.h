@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAD96C0)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD9700)
-#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER___C__SORTEDRAYCASTGRAPHICS_B__25_0_OFFSET UNITYSDK_OFFSET(0x1EAD9710)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE2D950)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2D990)
+#define UNITYENGINE_INPUTSYSTEM_UI_TRACKEDDEVICERAYCASTER___C__SORTEDRAYCASTGRAPHICS_B__25_0_OFFSET UNITYSDK_OFFSET(0x1EE2D9A0)
 
 namespace UnityEngine::InputSystem::UI
 {
-	inline static constexpr unsigned int TrackedDeviceRaycaster___c_TypeDefinitionIndex = 32395;
+	inline static constexpr unsigned int TrackedDeviceRaycaster___c_TypeDefinitionIndex = 31844;
 
 	class TrackedDeviceRaycaster___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>** StaticGet___9__25_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>**)Il2CppClass::FromTypeDefinitionIndex(TrackedDeviceRaycaster___c_TypeDefinitionIndex)->GetStaticField(0x27770);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TrackedDeviceRaycaster___c_TypeDefinitionIndex)->GetStaticField(0x28850);
 		}
-		static ::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster___c** StaticGet___9()
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__25_0()
 		{
-			return (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster___c**)Il2CppClass::FromTypeDefinitionIndex(TrackedDeviceRaycaster___c_TypeDefinitionIndex)->GetStaticField(0x27778);
+			return (::System::Comparison_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TrackedDeviceRaycaster___c_TypeDefinitionIndex)->GetStaticField(0x28858);
 		}
 
 		static ::System::Void _cctor()

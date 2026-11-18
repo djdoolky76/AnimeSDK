@@ -7,28 +7,28 @@
 namespace MoleMole::Config { class CharacterAimModeConfig; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCONTROLLABLEOBJECTCOMMONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x116FE5E0)
+#define MOLEMOLE_CONFIG_CONFIGCONTROLLABLEOBJECTCOMMONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xFABCF10)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigControllableObjectCommonParam_TypeDefinitionIndex = 78563;
+	inline static constexpr unsigned int ConfigControllableObjectCommonParam_TypeDefinitionIndex = 91553;
 
 	class ConfigControllableObjectCommonParam : public ::System::Object
 	{
 	public:
-		::System::String* backToAvatarScreenEffectName; // 0x10
-		::System::String* screenEffectName; // 0x18
-		::System::String* overrideBackToAvatarBlackCurveKey; // 0x20
-		::MoleMole::Config::CharacterAimModeConfig* AimCameraConfig; // 0x28
-		::System::Single overrideBackToAvatarSwitchCameraDuration; // 0x30
-		::MoleMole::Config::ScreenEffectType backToAvatarScreenEffectType; // 0x34
-		::System::Single overrideSwitchCameraDuration; // 0x38
-		::System::Boolean isCutReturn; // 0x3C
-		::System::Boolean setInitAimTarget; // 0x3D
-		::System::Boolean disableOverShoulderCamera; // 0x3E
-		::MoleMole::Config::ScreenEffectType screenEffectType; // 0x40
-		::System::Single cutDurration; // 0x44
-		::UnityEngine::Vector3 initAimTargetOffset; // 0x48
+		::MoleMole::Config::CharacterAimModeConfig* AimCameraConfig; // 0x10
+		::System::String* overrideBackToAvatarBlackCurveKey; // 0x18
+		::System::String* screenEffectName; // 0x20
+		::System::String* backToAvatarScreenEffectName; // 0x28
+		::MoleMole::Config::ScreenEffectType screenEffectType; // 0x30
+		::UnityEngine::Vector3 initAimTargetOffset; // 0x34
+		::System::Single cutDurration; // 0x40
+		::System::Single overrideSwitchCameraDuration; // 0x44
+		::MoleMole::Config::ScreenEffectType backToAvatarScreenEffectType; // 0x48
+		::System::Single overrideBackToAvatarSwitchCameraDuration; // 0x4C
+		::System::Boolean setInitAimTarget; // 0x50
+		::System::Boolean isCutReturn; // 0x51
+		::System::Boolean disableOverShoulderCamera; // 0x52
 
 		::System::Void _ctor()
 		{

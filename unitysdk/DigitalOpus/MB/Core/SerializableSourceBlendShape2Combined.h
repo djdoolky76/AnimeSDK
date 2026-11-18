@@ -2,19 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace DigitalOpus::MB::Core { class MB3_MeshCombiner_MBBlendShapeKey; }
-namespace DigitalOpus::MB::Core { class MB3_MeshCombiner_MBBlendShapeValue; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define DIGITALOPUS_MB_CORE_SERIALIZABLESOURCEBLENDSHAPE2COMBINED_DEBUGPRINT_OFFSET UNITYSDK_OFFSET(0x1EEAA010)
-#define DIGITALOPUS_MB_CORE_SERIALIZABLESOURCEBLENDSHAPE2COMBINED_GENERATEMAPFROMSERIALIZEDDATA_OFFSET UNITYSDK_OFFSET(0x1EEAA400)
-#define DIGITALOPUS_MB_CORE_SERIALIZABLESOURCEBLENDSHAPE2COMBINED_SETBUFFERS_OFFSET UNITYSDK_OFFSET(0x1EEA9FF0)
-#define DIGITALOPUS_MB_CORE_SERIALIZABLESOURCEBLENDSHAPE2COMBINED__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAA840)
+#define DIGITALOPUS_MB_CORE_SERIALIZABLESOURCEBLENDSHAPE2COMBINED_DEBUGPRINT_OFFSET UNITYSDK_OFFSET(0x1F22C030)
+#define DIGITALOPUS_MB_CORE_SERIALIZABLESOURCEBLENDSHAPE2COMBINED_GENERATEMAPFROMSERIALIZEDDATA_OFFSET UNITYSDK_OFFSET(0x1F22C420)
+#define DIGITALOPUS_MB_CORE_SERIALIZABLESOURCEBLENDSHAPE2COMBINED_SETBUFFERS_OFFSET UNITYSDK_OFFSET(0x1F22C010)
+#define DIGITALOPUS_MB_CORE_SERIALIZABLESOURCEBLENDSHAPE2COMBINED__CTOR_OFFSET UNITYSDK_OFFSET(0x1F22C860)
 
 namespace DigitalOpus::MB::Core
 {
-	inline static constexpr unsigned int SerializableSourceBlendShape2Combined_TypeDefinitionIndex = 94600;
+	inline static constexpr unsigned int SerializableSourceBlendShape2Combined_TypeDefinitionIndex = 96287;
 
 	class SerializableSourceBlendShape2Combined : public ::System::Object
 	{
@@ -39,9 +37,9 @@ namespace DigitalOpus::MB::Core
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_SERIALIZABLESOURCEBLENDSHAPE2COMBINED_DEBUGPRINT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::DigitalOpus::MB::Core::MB3_MeshCombiner_MBBlendShapeKey*, ::DigitalOpus::MB::Core::MB3_MeshCombiner_MBBlendShapeValue*>* GenerateMapFromSerializedData()
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* GenerateMapFromSerializedData()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::DigitalOpus::MB::Core::MB3_MeshCombiner_MBBlendShapeKey*, ::DigitalOpus::MB::Core::MB3_MeshCombiner_MBBlendShapeValue*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_SERIALIZABLESOURCEBLENDSHAPE2COMBINED_GENERATEMAPFROMSERIALIZEDDATA_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + DIGITALOPUS_MB_CORE_SERIALIZABLESOURCEBLENDSHAPE2COMBINED_GENERATEMAPFROMSERIALIZEDDATA_OFFSET))(this);
 		}
 	};
 }

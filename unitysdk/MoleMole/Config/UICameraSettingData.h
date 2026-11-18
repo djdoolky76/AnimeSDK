@@ -6,18 +6,18 @@
 namespace MoleMole::Config { class UICameraTransformInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_UICAMERASETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F4D80)
+#define MOLEMOLE_CONFIG_UICAMERASETTINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1279EAC0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int UICameraSettingData_TypeDefinitionIndex = 44935;
+	inline static constexpr unsigned int UICameraSettingData_TypeDefinitionIndex = 56484;
 
 	class UICameraSettingData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Config::UICameraInfoShowType, ::MoleMole::Config::UICameraTransformInfo*>* uiPlatformCameraTransInfo; // 0x10
-		::System::Boolean isOverrideCameraTransInfo; // 0x18
-		::System::Boolean applyLUTAfterEverything; // 0x19
+		::System::Boolean applyLUTAfterEverything; // 0x18
+		::System::Boolean isOverrideCameraTransInfo; // 0x19
 
 		::System::Void _ctor()
 		{

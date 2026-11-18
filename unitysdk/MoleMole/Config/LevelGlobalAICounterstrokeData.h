@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_CONFIG_LEVELGLOBALAICOUNTERSTROKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1626A090)
+#define MOLEMOLE_CONFIG_LEVELGLOBALAICOUNTERSTROKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B24820)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int LevelGlobalAICounterstrokeData_TypeDefinitionIndex = 61749;
+	inline static constexpr unsigned int LevelGlobalAICounterstrokeData_TypeDefinitionIndex = 86438;
 
 	class LevelGlobalAICounterstrokeData : public ::System::Object
 	{

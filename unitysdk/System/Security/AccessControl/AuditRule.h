@@ -7,11 +7,11 @@
 
 namespace System::Security::Principal { class IdentityReference; }
 
-#define SYSTEM_SECURITY_ACCESSCONTROL_AUDITRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DCFBE70)
+#define SYSTEM_SECURITY_ACCESSCONTROL_AUDITRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0EE7C0)
 
 namespace System::Security::AccessControl
 {
-	inline static constexpr unsigned int AuditRule_TypeDefinitionIndex = 970;
+	inline static constexpr unsigned int AuditRule_TypeDefinitionIndex = 969;
 
 	class AuditRule : public ::System::Security::AccessControl::AuthorizationRule
 	{

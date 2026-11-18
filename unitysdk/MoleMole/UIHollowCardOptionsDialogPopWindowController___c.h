@@ -5,39 +5,39 @@
 namespace System { class Action; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x199D5F00)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x199D5F40)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__EXITCHOICEEVENT_B__28_1_OFFSET UNITYSDK_OFFSET(0x199D6090)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__INIT_B__11_0_OFFSET UNITYSDK_OFFSET(0x199D5F50)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__INIT_B__11_2_OFFSET UNITYSDK_OFFSET(0x199D6070)
-#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__ONCHOICERESPONSE_B__26_1_OFFSET UNITYSDK_OFFSET(0x199D6080)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E6D220)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6D260)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__EXITCHOICEEVENT_B__28_1_OFFSET UNITYSDK_OFFSET(0x18E6D3C0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__INIT_B__11_0_OFFSET UNITYSDK_OFFSET(0x18E6D270)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__INIT_B__11_2_OFFSET UNITYSDK_OFFSET(0x18E6D3A0)
+#define MOLEMOLE_UIHOLLOWCARDOPTIONSDIALOGPOPWINDOWCONTROLLER___C__ONCHOICERESPONSE_B__26_1_OFFSET UNITYSDK_OFFSET(0x18E6D3B0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex = 87601;
+	inline static constexpr unsigned int UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex = 70959;
 
 	class UIHollowCardOptionsDialogPopWindowController___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::UIHollowCardOptionsDialogPopWindowController___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__28_1()
 		{
-			return (::MoleMole::UIHollowCardOptionsDialogPopWindowController___c**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A4D0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C2C0);
 		}
 		static ::UnityEngine::Events::UnityAction** StaticGet___9__11_0()
 		{
-			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A4D8);
+			return (::UnityEngine::Events::UnityAction**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C2C8);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C2D0);
 		}
 		static ::System::Action** StaticGet___9__11_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A4E0);
-		}
-		static ::System::Action** StaticGet___9__28_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A4E8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C2D8);
 		}
 		static ::System::Action** StaticGet___9__26_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3A4F0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIHollowCardOptionsDialogPopWindowController___c_TypeDefinitionIndex)->GetStaticField(0x3C2E0);
 		}
 
 		static ::System::Void _cctor()

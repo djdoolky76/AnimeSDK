@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/RouterEventNode_1.h"
 #include "unitysdk/ParadoxNotion/EventData_1.h"
 
 namespace FlowCanvas { class FlowOutput; }
@@ -8,28 +7,28 @@ namespace ParadoxNotion::Services { class EventRouter; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define FLOWCANVAS_NODES_TRIGGEREVENTS_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1E22BDC0)
-#define FLOWCANVAS_NODES_TRIGGEREVENTS_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1E22BF00)
-#define FLOWCANVAS_NODES_TRIGGEREVENTS_ONTRIGGERSTAY_OFFSET UNITYSDK_OFFSET(0x1E22BE60)
-#define FLOWCANVAS_NODES_TRIGGEREVENTS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1E22B880)
-#define FLOWCANVAS_NODES_TRIGGEREVENTS_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1E22B9A0)
-#define FLOWCANVAS_NODES_TRIGGEREVENTS_UNSUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1E22BBB0)
-#define FLOWCANVAS_NODES_TRIGGEREVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22BFA0)
-#define FLOWCANVAS_NODES_TRIGGEREVENTS__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1E22BFF0)
-#define FLOWCANVAS_NODES_TRIGGEREVENTS__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x1E22C000)
+#define FLOWCANVAS_NODES_TRIGGEREVENTS_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1EBAD5D0)
+#define FLOWCANVAS_NODES_TRIGGEREVENTS_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1EBAD710)
+#define FLOWCANVAS_NODES_TRIGGEREVENTS_ONTRIGGERSTAY_OFFSET UNITYSDK_OFFSET(0x1EBAD670)
+#define FLOWCANVAS_NODES_TRIGGEREVENTS_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1EBAD0D0)
+#define FLOWCANVAS_NODES_TRIGGEREVENTS_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1EBAD1F0)
+#define FLOWCANVAS_NODES_TRIGGEREVENTS_UNSUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1EBAD3E0)
+#define FLOWCANVAS_NODES_TRIGGEREVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBAD7B0)
+#define FLOWCANVAS_NODES_TRIGGEREVENTS__REGISTERPORTS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1EBAD800)
+#define FLOWCANVAS_NODES_TRIGGEREVENTS__REGISTERPORTS_B__5_1_OFFSET UNITYSDK_OFFSET(0x1EBAD810)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int TriggerEvents_TypeDefinitionIndex = 30157;
+	inline static constexpr unsigned int TriggerEvents_TypeDefinitionIndex = 29310;
 
-	class TriggerEvents : public ::FlowCanvas::Nodes::RouterEventNode_1<::UnityEngine::Collider*>
+	class TriggerEvents
 	{
 	public:
-		::FlowCanvas::FlowOutput* onStay; // 0xC0
-		::UnityEngine::GameObject* other; // 0xC8
-		::UnityEngine::Collider* receiver; // 0xD0
-		::FlowCanvas::FlowOutput* onExit; // 0xD8
-		::FlowCanvas::FlowOutput* onEnter; // 0xE0
+		::FlowCanvas::FlowOutput* onEnter; // 0xC0
+		::UnityEngine::Collider* receiver; // 0xC8
+		::FlowCanvas::FlowOutput* onStay; // 0xD0
+		::UnityEngine::GameObject* other; // 0xD8
+		::FlowCanvas::FlowOutput* onExit; // 0xE0
 
 		::System::Void _ctor()
 		{

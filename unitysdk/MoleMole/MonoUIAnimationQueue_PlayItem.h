@@ -6,12 +6,13 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoUIAnimationQueue_PlayItem_TypeDefinitionIndex = 63444;
+	inline static constexpr unsigned int MonoUIAnimationQueue_PlayItem_TypeDefinitionIndex = 49834;
 
 	struct alignas(8) MonoUIAnimationQueue_PlayItem
 	{
 		::UnityEngine::AnimationClip* clip; // 0x10
 		::System::Boolean isLoop; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single duration; // 0x1C
 	};
 }

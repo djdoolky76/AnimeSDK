@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_1_29B277056E3DA58E;
-class Class_1_F71F7FB55BBEB1D9;
+class MBHOGLGMFEM;
+class NHPPHFMEHCK;
 
-#define MOLEMOLE_UIGROCERYCHILDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x186CEDE0)
+#define MOLEMOLE_UIGROCERYCHILDCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x184D6DE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGroceryChildContext_TypeDefinitionIndex = 80426;
+	inline static constexpr unsigned int UIGroceryChildContext_TypeDefinitionIndex = 51285;
 
 	class UIGroceryChildContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_1_29B277056E3DA58E* ShopEntity; // 0x28
-		::Class_1_F71F7FB55BBEB1D9* StoreData; // 0x30
+		::NHPPHFMEHCK* ShopEntity; // 0x28
+		::MBHOGLGMFEM* StoreData; // 0x30
 
 		::System::Void _ctor()
 		{

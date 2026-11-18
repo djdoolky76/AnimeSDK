@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Foundation/AssetPath.h"
 #include "unitysdk/Foundation/MihoyoSerializedScriptableObject.h"
 #include "unitysdk/MoleMole/Config/ConfigUIScriptableAnimationV2IndexEntry.h"
+#include "unitysdk/Foundation/AssetPath.h"
 
-namespace System { class String; }
-
-#define MOLEMOLE_CONFIG_CONFIGUISCRIPTABLEANIMATIONV2INDEX_GET_INDEXASSETPATH_OFFSET UNITYSDK_OFFSET(0x14384100)
-#define MOLEMOLE_CONFIG_CONFIGUISCRIPTABLEANIMATIONV2INDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x14384150)
+#define MOLEMOLE_CONFIG_CONFIGUISCRIPTABLEANIMATIONV2INDEX_GET_INDEXASSETPATH_OFFSET UNITYSDK_OFFSET(0x1B8AC460)
+#define MOLEMOLE_CONFIG_CONFIGUISCRIPTABLEANIMATIONV2INDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8AC4B0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigUIScriptableAnimationV2Index_TypeDefinitionIndex = 65715;
+	inline static constexpr unsigned int ConfigUIScriptableAnimationV2Index_TypeDefinitionIndex = 62485;
 
 	class ConfigUIScriptableAnimationV2Index : public ::Foundation::MihoyoSerializedScriptableObject
 	{

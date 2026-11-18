@@ -3,12 +3,12 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIActivityBattleCommonRecordPopWindowController_RecordType_TypeDefinitionIndex = 71840;
+	inline static constexpr unsigned int UIActivityBattleCommonRecordPopWindowController_RecordType_TypeDefinitionIndex = 90330;
 
 	enum class UIActivityBattleCommonRecordPopWindowController_RecordType : ::System::Int32
 	{
-		None = 2,
 		Last = 1,
+		None = 2,
 		Best = 0,
 	};
 }

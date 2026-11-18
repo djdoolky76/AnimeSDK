@@ -4,7 +4,7 @@
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigCinemaFogParam_TypeDefinitionIndex = 55848;
+	inline static constexpr unsigned int ConfigCinemaFogParam_TypeDefinitionIndex = 61009;
 
 	struct alignas(4) ConfigCinemaFogParam
 	{

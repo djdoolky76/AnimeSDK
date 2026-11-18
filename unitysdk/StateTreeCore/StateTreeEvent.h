@@ -7,28 +7,28 @@
 namespace UnrealTypes { class ScriptStruct; }
 namespace UnrealTypes { class StructOpsTraitsBase; }
 
-#define STATETREECORE_STATETREEEVENT_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x825680)
-#define STATETREECORE_STATETREEEVENT_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x259D70)
-#define STATETREECORE_STATETREEEVENT_CREATE_OFFSET UNITYSDK_OFFSET(0x1FC3DBF0)
-#define STATETREECORE_STATETREEEVENT_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0xAD3CD0)
-#define STATETREECORE_STATETREEEVENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x296F30)
-#define STATETREECORE_STATETREEEVENT_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0x3CADC0)
-#define STATETREECORE_STATETREEEVENT_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0xAD3D90)
-#define STATETREECORE_STATETREEEVENT_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0x825680)
-#define STATETREECORE_STATETREEEVENT_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x259D70)
-#define STATETREECORE_STATETREEEVENT_RESET_OFFSET UNITYSDK_OFFSET(0xAD3D30)
-#define STATETREECORE_STATETREEEVENT_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREEEVENT__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x825680)
-#define STATETREECORE_STATETREEEVENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC3DDC0)
+#define STATETREECORE_STATETREEEVENT_COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x651840)
+#define STATETREECORE_STATETREEEVENT_COPYCREATE_OFFSET UNITYSDK_OFFSET(0x282350)
+#define STATETREECORE_STATETREEEVENT_CREATE_OFFSET UNITYSDK_OFFSET(0x2003AF30)
+#define STATETREECORE_STATETREEEVENT_DEFAULTCREATE_OFFSET UNITYSDK_OFFSET(0x9B9120)
+#define STATETREECORE_STATETREEEVENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2BEAE0)
+#define STATETREECORE_STATETREEEVENT_GET_STATICSTRUCT_OFFSET UNITYSDK_OFFSET(0x3B9490)
+#define STATETREECORE_STATETREEEVENT_GET_STRUCTOPSTRAITS_OFFSET UNITYSDK_OFFSET(0x9B91E0)
+#define STATETREECORE_STATETREEEVENT_MOVEASSIGN_OFFSET UNITYSDK_OFFSET(0x651840)
+#define STATETREECORE_STATETREEEVENT_MOVECREATE_OFFSET UNITYSDK_OFFSET(0x282350)
+#define STATETREECORE_STATETREEEVENT_RESET_OFFSET UNITYSDK_OFFSET(0x9B9180)
+#define STATETREECORE_STATETREEEVENT_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREEEVENT__COPYASSIGN_OFFSET UNITYSDK_OFFSET(0x651840)
+#define STATETREECORE_STATETREEEVENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x2003B100)
 
 namespace StateTreeCore
 {
-	inline static constexpr unsigned int StateTreeEvent_TypeDefinitionIndex = 31527;
+	inline static constexpr unsigned int StateTreeEvent_TypeDefinitionIndex = 30964;
 
 	struct alignas(4) StateTreeEvent
 	{
 		static ::UnrealTypes::StructOpsTraitsBase** StaticGet_StaticStructOpsTraits()
 		{
-			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(StateTreeEvent_TypeDefinitionIndex)->GetStaticField(0x26F80);
+			return (::UnrealTypes::StructOpsTraitsBase**)Il2CppClass::FromTypeDefinitionIndex(StateTreeEvent_TypeDefinitionIndex)->GetStaticField(0x28050);
 		}
 		::Foundation::Unreal::FGameplayTag Tag; // 0x10
 
@@ -42,35 +42,47 @@ namespace StateTreeCore
 			return ((::UnrealTypes::ScriptStruct*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEVENT_GET_STATICSTRUCT_OFFSET))(this);
 		}
 
+		/*
 		static ::StateTreeCore::StateTreeEvent Create()
 		{
 			return ((::StateTreeCore::StateTreeEvent(*)())((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEVENT_CREATE_OFFSET))();
 		}
+		*/
 
+		/*
 		::StateTreeCore::StateTreeEvent DefaultCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreeEvent(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEVENT_DEFAULTCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::StateTreeCore::StateTreeEvent CopyCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreeEvent(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEVENT_COPYCREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::StateTreeCore::StateTreeEvent MoveCreate(::Unity::Collections::Allocator allocator)
 		{
 			return ((::StateTreeCore::StateTreeEvent(*)(::PVOID, ::Unity::Collections::Allocator))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEVENT_MOVECREATE_OFFSET))(this, allocator);
 		}
+		*/
 
+		/*
 		::System::Void CopyAssign(::StateTreeCore::StateTreeEvent& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTreeEvent&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEVENT_COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 
+		/*
 		::System::Void MoveAssign(::StateTreeCore::StateTreeEvent& temp)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTreeEvent&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEVENT_MOVEASSIGN_OFFSET))(this, temp);
 		}
+		*/
 
 		::System::Void Reset()
 		{
@@ -87,9 +99,11 @@ namespace StateTreeCore
 			return ((::UnrealTypes::StructOpsTraitsBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEVENT_GET_STRUCTOPSTRAITS_OFFSET))(this);
 		}
 
+		/*
 		::System::Void UnrealTypes_IStruct_StateTreeCore_StateTreeEvent__CopyAssign(::StateTreeCore::StateTreeEvent& other)
 		{
 			return ((::System::Void(*)(::PVOID, ::StateTreeCore::StateTreeEvent&))((::PBYTE)hIl2Cpp + STATETREECORE_STATETREEEVENT_UNREALTYPES_ISTRUCT_STATETREECORE_STATETREEEVENT__COPYASSIGN_OFFSET))(this, other);
 		}
+		*/
 	};
 }

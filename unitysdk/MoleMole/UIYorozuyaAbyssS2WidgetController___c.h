@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_48A3D3A34C52331D_55;
+class NKJLGFPNLBD;
 namespace MoleMole { class UIYorozuyaQuestRow02WidgetController; }
 namespace System { class Action; }
 namespace System { class String; }
@@ -10,54 +10,54 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11C28880)
-#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11C288C0)
-#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__ONBEGINBATTLE_B__59_0_OFFSET UNITYSDK_OFFSET(0x11C28F40)
-#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__ONGETSELECTROLECONTEXT_B__60_0_OFFSET UNITYSDK_OFFSET(0x11C28F80)
-#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__55_0_OFFSET UNITYSDK_OFFSET(0x11C28930)
-#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__55_1_OFFSET UNITYSDK_OFFSET(0x11C28A40)
-#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__SETCHAPTERSCROLLVIEW_B__34_1_OFFSET UNITYSDK_OFFSET(0x11C288D0)
-#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__SETCHAPTERSCROLLVIEW_B__34_4_OFFSET UNITYSDK_OFFSET(0x11C28900)
-#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C___CTOR_B__103_0_OFFSET UNITYSDK_OFFSET(0x11C28FE0)
+#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11388450)
+#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11388490)
+#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__ONBEGINBATTLE_B__59_0_OFFSET UNITYSDK_OFFSET(0x11388B10)
+#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__ONGETSELECTROLECONTEXT_B__60_0_OFFSET UNITYSDK_OFFSET(0x11388B50)
+#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__55_0_OFFSET UNITYSDK_OFFSET(0x11388500)
+#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__55_1_OFFSET UNITYSDK_OFFSET(0x11388610)
+#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__SETCHAPTERSCROLLVIEW_B__34_1_OFFSET UNITYSDK_OFFSET(0x113884A0)
+#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__SETCHAPTERSCROLLVIEW_B__34_4_OFFSET UNITYSDK_OFFSET(0x113884D0)
+#define MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C___CTOR_B__103_0_OFFSET UNITYSDK_OFFSET(0x11388BB0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex = 77403;
+	inline static constexpr unsigned int UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex = 74360;
 
 	class UIYorozuyaAbyssS2WidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_3_48A3D3A34C52331D_55*>** StaticGet___9__59_0()
-		{
-			return (::System::Action_1<::Class_3_48A3D3A34C52331D_55*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37100);
-		}
 		static ::System::Comparison_1<::MoleMole::UIYorozuyaQuestRow02WidgetController*>** StaticGet___9__34_1()
 		{
-			return (::System::Comparison_1<::MoleMole::UIYorozuyaQuestRow02WidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37108);
-		}
-		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__60_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37110);
-		}
-		static ::System::Action** StaticGet___9__55_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37118);
-		}
-		static ::System::Comparison_1<::MoleMole::UIYorozuyaQuestRow02WidgetController*>** StaticGet___9__34_4()
-		{
-			return (::System::Comparison_1<::MoleMole::UIYorozuyaQuestRow02WidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37120);
-		}
-		static ::MoleMole::UIYorozuyaAbyssS2WidgetController___c** StaticGet___9()
-		{
-			return (::MoleMole::UIYorozuyaAbyssS2WidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37128);
-		}
-		static ::System::Action** StaticGet___9__55_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37130);
+			return (::System::Comparison_1<::MoleMole::UIYorozuyaQuestRow02WidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x392D0);
 		}
 		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__103_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x37138);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x392D8);
+		}
+		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__60_0()
+		{
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x392E0);
+		}
+		static ::System::Action_1<::NKJLGFPNLBD*>** StaticGet___9__59_0()
+		{
+			return (::System::Action_1<::NKJLGFPNLBD*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x392E8);
+		}
+		static ::System::Comparison_1<::MoleMole::UIYorozuyaQuestRow02WidgetController*>** StaticGet___9__34_4()
+		{
+			return (::System::Comparison_1<::MoleMole::UIYorozuyaQuestRow02WidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x392F0);
+		}
+		static ::System::Action** StaticGet___9__55_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x392F8);
+		}
+		static ::System::Action** StaticGet___9__55_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x39300);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UIYorozuyaAbyssS2WidgetController___c_TypeDefinitionIndex)->GetStaticField(0x39308);
 		}
 
 		static ::System::Void _cctor()
@@ -90,9 +90,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__ONHOLLOWRECONNECTHANDLE_B__55_1_OFFSET))(this);
 		}
 
-		::System::Void _OnBeginBattle_b__59_0(::Class_3_48A3D3A34C52331D_55* res)
+		::System::Void _OnBeginBattle_b__59_0(::NKJLGFPNLBD* res)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_48A3D3A34C52331D_55*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__ONBEGINBATTLE_B__59_0_OFFSET))(this, res);
+			return ((::System::Void(*)(::PVOID, ::NKJLGFPNLBD*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIYOROZUYAABYSSS2WIDGETCONTROLLER___C__ONBEGINBATTLE_B__59_0_OFFSET))(this, res);
 		}
 
 		::System::String* _OnGetSelectRoleContext_b__60_0(::System::Int32 id)

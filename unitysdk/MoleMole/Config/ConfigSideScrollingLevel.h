@@ -10,11 +10,11 @@ namespace MoleMole::Config { class ConfigSideScrollingCamera; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGSIDESCROLLINGLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x16C50E50)
+#define MOLEMOLE_CONFIG_CONFIGSIDESCROLLINGLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A03C1F0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigSideScrollingLevel_TypeDefinitionIndex = 49372;
+	inline static constexpr unsigned int ConfigSideScrollingLevel_TypeDefinitionIndex = 70248;
 
 	class ConfigSideScrollingLevel : public ::Foundation::MihoyoSerializedScriptableObject
 	{
@@ -38,6 +38,7 @@ namespace MoleMole::Config
 		::System::Int32 HeatMaxEnterConditionKillNum; // 0xC0
 		::System::Single HeatMaxEnterConditionKillTime; // 0xC4
 		::System::Single HeatMaxHoldTime; // 0xC8
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::MoleMole::Battle::SideScrollingScoreGetType, ::System::Single>* ScoreMap; // 0xD0
 		::System::String* ScoreExPunchCustomEvenetKey; // 0xD8
 		::System::Single ScoreGetAddRatioByAbyssHeatBuff; // 0xE0

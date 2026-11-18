@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Timeline/RecorderUnitType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Keyframe.h"
 #include "unitysdk/UnityEngine/Timeline/KFrameFieldType.h"
+#include "unitysdk/UnityEngine/Keyframe.h"
 
 namespace MoleMole::Timeline { class RuntimeKeyFrame; }
 namespace System { class String; }
 
-#define MOLEMOLE_TIMELINE_KEYFRAMEMBP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F23DC60)
-#define MOLEMOLE_TIMELINE_KEYFRAMEMBP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F23DBE0)
+#define MOLEMOLE_TIMELINE_KEYFRAMEMBP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F5F3F70)
+#define MOLEMOLE_TIMELINE_KEYFRAMEMBP__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F3EF0)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int KeyframeMBP_TypeDefinitionIndex = 32791;
+	inline static constexpr unsigned int KeyframeMBP_TypeDefinitionIndex = 32242;
 
 	class KeyframeMBP : public ::System::Object
 	{

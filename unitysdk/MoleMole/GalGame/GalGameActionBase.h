@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MOLEMOLE_GALGAME_GALGAMEACTIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEB930)
+#define MOLEMOLE_GALGAME_GALGAMEACTIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x162C8880)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalGameActionBase_TypeDefinitionIndex = 56483;
+	inline static constexpr unsigned int GalGameActionBase_TypeDefinitionIndex = 51265;
 
 	class GalGameActionBase : public ::System::Object
 	{

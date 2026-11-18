@@ -5,21 +5,21 @@
 namespace System::Runtime::Serialization { class ObjectHolder; }
 namespace System::Runtime::Serialization { class ObjectHolderList; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTHOLDERLISTENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C6E51A0)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTHOLDERLISTENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C6E50B0)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTHOLDERLISTENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E5080)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTHOLDERLISTENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CC42C40)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTHOLDERLISTENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1CC42B50)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTHOLDERLISTENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC42B20)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int ObjectHolderListEnumerator_TypeDefinitionIndex = 1154;
+	inline static constexpr unsigned int ObjectHolderListEnumerator_TypeDefinitionIndex = 1153;
 
 	class ObjectHolderListEnumerator : public ::System::Object
 	{
 	public:
 		::System::Runtime::Serialization::ObjectHolderList* m_list; // 0x10
-		::System::Boolean m_isFixupEnumerator; // 0x18
-		::System::Int32 m_currPos; // 0x1C
-		::System::Int32 m_startingVersion; // 0x20
+		::System::Int32 m_currPos; // 0x18
+		::System::Int32 m_startingVersion; // 0x1C
+		::System::Boolean m_isFixupEnumerator; // 0x20
 
 		::System::Void _ctor(::System::Runtime::Serialization::ObjectHolderList* list, ::System::Boolean isFixupEnumerator)
 		{

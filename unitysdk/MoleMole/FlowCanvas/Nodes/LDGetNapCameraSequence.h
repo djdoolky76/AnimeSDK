@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_1.h"
 
-namespace MoleMole::Utils { class NapCameraSequence; }
-
-#define MOLEMOLE_FLOWCANVAS_NODES_LDGETNAPCAMERASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A99E290)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDGETNAPCAMERASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D0E1A0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDGetNapCameraSequence_TypeDefinitionIndex = 77611;
+	inline static constexpr unsigned int LDGetNapCameraSequence_TypeDefinitionIndex = 84552;
 
-	class LDGetNapCameraSequence : public ::FlowCanvas::Nodes::CallableFunctionNode_1<::MoleMole::Utils::NapCameraSequence*>
+	class LDGetNapCameraSequence
 	{
 	public:
 		::System::Void _ctor()

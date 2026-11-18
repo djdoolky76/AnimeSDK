@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_E21DA91F1EC19317_Enum_3_3DC591911FF43A91_1.h"
+#include "unitysdk/LJOBPBEAFDA_CFAOIBFEIJH.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_E21DA91F1EC19317;
+class LJOBPBEAFDA;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTDETECTIONSURROGATE_TOCONFIG_OFFSET UNITYSDK_OFFSET(0x1B54F110)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTDETECTIONSURROGATE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B54EF40)
-#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTDETECTIONSURROGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54EEC0)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTDETECTIONSURROGATE_TOCONFIG_OFFSET UNITYSDK_OFFSET(0x1BA31ED0)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTDETECTIONSURROGATE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BA31D00)
+#define MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTDETECTIONSURROGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA31C80)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigMonsterAlerts_ConfigMonsterAlertDetectionSurrogate_TypeDefinitionIndex = 89844;
+	inline static constexpr unsigned int ConfigMonsterAlerts_ConfigMonsterAlertDetectionSurrogate_TypeDefinitionIndex = 85200;
 
 	class ConfigMonsterAlerts_ConfigMonsterAlertDetectionSurrogate : public ::System::Object
 	{
@@ -25,7 +25,8 @@ namespace MoleMole::Config
 		::System::Single HeigtOffset; // 0x20
 		::System::Single Radius; // 0x24
 		::System::String* BasedAttachPoint; // 0x28
-		::Class_1_E21DA91F1EC19317_Enum_3_3DC591911FF43A91_1 TagFilterType; // 0x30
+		::LJOBPBEAFDA_CFAOIBFEIJH TagFilterType; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::String*>* ZoneTags; // 0x38
 
 		::System::Void _ctor()
@@ -33,14 +34,14 @@ namespace MoleMole::Config
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTDETECTIONSURROGATE__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::Class_1_E21DA91F1EC19317* src)
+		::System::Void _ctor_1(::LJOBPBEAFDA* src)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E21DA91F1EC19317*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTDETECTIONSURROGATE__CTOR_1_OFFSET))(this, src);
+			return ((::System::Void(*)(::PVOID, ::LJOBPBEAFDA*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTDETECTIONSURROGATE__CTOR_1_OFFSET))(this, src);
 		}
 
-		::Class_1_E21DA91F1EC19317* ToConfig()
+		::LJOBPBEAFDA* ToConfig()
 		{
-			return ((::Class_1_E21DA91F1EC19317*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTDETECTIONSURROGATE_TOCONFIG_OFFSET))(this);
+			return ((::LJOBPBEAFDA*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGMONSTERALERTS_CONFIGMONSTERALERTDETECTIONSURROGATE_TOCONFIG_OFFSET))(this);
 		}
 	};
 }

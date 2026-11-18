@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NNBBHIKOIDJ_GKJFGEMFLMB.h"
+#include "unitysdk/System/Object.h"
+
+class DLJIIKDGIFF;
+template <typename T> class EGCFDLCBMOJ_1;
+
+#define NNBBHIKOIDJ_BEFORERECYCLE_OFFSET UNITYSDK_OFFSET(0xFD0E170)
+#define NNBBHIKOIDJ_CHIINAJLAGJ_OFFSET UNITYSDK_OFFSET(0xFD0E090)
+#define NNBBHIKOIDJ_DESTRUCTOR_OFFSET UNITYSDK_OFFSET(0xFD0E350)
+#define NNBBHIKOIDJ_FDJJFCFMOGP_OFFSET UNITYSDK_OFFSET(0xFD0DF50)
+#define NNBBHIKOIDJ_ONCGJHPIIGN_OFFSET UNITYSDK_OFFSET(0xFD0E270)
+#define NNBBHIKOIDJ__CTOR_OFFSET UNITYSDK_OFFSET(0xFD0E1D0)
+
+inline static constexpr unsigned int NNBBHIKOIDJ_TypeDefinitionIndex = 49018;
+
+class NNBBHIKOIDJ : public ::System::Object
+{
+public:
+	::EGCFDLCBMOJ_1<::System::Object*>* LINLMFAOHIK; // 0x10
+
+	::System::Void _ctor(::NNBBHIKOIDJ_GKJFGEMFLMB FCPCLIJNDLA)
+	{
+		return ((::System::Void(*)(::PVOID, ::NNBBHIKOIDJ_GKJFGEMFLMB))((::PBYTE)hIl2Cpp + NNBBHIKOIDJ__CTOR_OFFSET))(this, FCPCLIJNDLA);
+	}
+
+	::System::Int32 FDJJFCFMOGP(::DLJIIKDGIFF* KHGFAKJKDGG, ::DLJIIKDGIFF* HODAIDNDKHD)
+	{
+		return ((::System::Int32(*)(::PVOID, ::DLJIIKDGIFF*, ::DLJIIKDGIFF*))((::PBYTE)hIl2Cpp + NNBBHIKOIDJ_FDJJFCFMOGP_OFFSET))(this, KHGFAKJKDGG, HODAIDNDKHD);
+	}
+
+	::System::Void BeforeRecycle()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNBBHIKOIDJ_BEFORERECYCLE_OFFSET))(this);
+	}
+
+	::System::Void Destructor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNBBHIKOIDJ_DESTRUCTOR_OFFSET))(this);
+	}
+
+	::System::Boolean CHIINAJLAGJ(::NNBBHIKOIDJ_GKJFGEMFLMB FCPCLIJNDLA)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::NNBBHIKOIDJ_GKJFGEMFLMB))((::PBYTE)hIl2Cpp + NNBBHIKOIDJ_CHIINAJLAGJ_OFFSET))(this, FCPCLIJNDLA);
+	}
+
+	::System::Void ONCGJHPIIGN(::NNBBHIKOIDJ_GKJFGEMFLMB FCPCLIJNDLA)
+	{
+		return ((::System::Void(*)(::PVOID, ::NNBBHIKOIDJ_GKJFGEMFLMB))((::PBYTE)hIl2Cpp + NNBBHIKOIDJ_ONCGJHPIIGN_OFFSET))(this, FCPCLIJNDLA);
+	}
+};

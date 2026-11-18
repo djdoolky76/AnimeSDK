@@ -5,29 +5,29 @@
 namespace MoleMole { class UISuibianTempleCoinWidgetController; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x151224A0)
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__CREATEPOPDATA_B__63_0_OFFSET UNITYSDK_OFFSET(0x15122590)
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x151224E0)
-#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__REFRESHSMALLCHANGELIST_B__46_0_OFFSET UNITYSDK_OFFSET(0x151224F0)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14821570)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__CREATEPOPDATA_B__63_0_OFFSET UNITYSDK_OFFSET(0x14821660)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x148215B0)
+#define MOLEMOLE_UISUIBIANTEMPLESELLWIDGETCONTROLLER___C__REFRESHSMALLCHANGELIST_B__46_0_OFFSET UNITYSDK_OFFSET(0x148215C0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleSellWidgetController___c_TypeDefinitionIndex = 45984;
+	inline static constexpr unsigned int UISuibianTempleSellWidgetController___c_TypeDefinitionIndex = 77373;
 
 	class UISuibianTempleSellWidgetController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::MoleMole::UISuibianTempleCoinWidgetController*>** StaticGet___9__46_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::MoleMole::UISuibianTempleCoinWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleSellWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x47360);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleSellWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4C570);
 		}
 		static ::System::Comparison_1<::System::Int32>** StaticGet___9__63_0()
 		{
-			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleSellWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x47368);
+			return (::System::Comparison_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleSellWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4C578);
 		}
-		static ::MoleMole::UISuibianTempleSellWidgetController___c** StaticGet___9()
+		static ::System::Comparison_1<::MoleMole::UISuibianTempleCoinWidgetController*>** StaticGet___9__46_0()
 		{
-			return (::MoleMole::UISuibianTempleSellWidgetController___c**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleSellWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x47370);
+			return (::System::Comparison_1<::MoleMole::UISuibianTempleCoinWidgetController*>**)Il2CppClass::FromTypeDefinitionIndex(UISuibianTempleSellWidgetController___c_TypeDefinitionIndex)->GetStaticField(0x4C580);
 		}
 
 		static ::System::Void _cctor()

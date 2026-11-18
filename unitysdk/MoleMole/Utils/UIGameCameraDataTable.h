@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/Utils/NapDictionaryBasedDataTable_1.h"
 
-namespace MoleMole::Utils { class UIGameCameraDataTableEntry; }
-
-#define MOLEMOLE_UTILS_UIGAMECAMERADATATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x162F5A30)
+#define MOLEMOLE_UTILS_UIGAMECAMERADATATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xE544730)
 
 namespace MoleMole::Utils
 {
-	inline static constexpr unsigned int UIGameCameraDataTable_TypeDefinitionIndex = 54876;
+	inline static constexpr unsigned int UIGameCameraDataTable_TypeDefinitionIndex = 54757;
 
-	class UIGameCameraDataTable : public ::MoleMole::Utils::NapDictionaryBasedDataTable_1<::MoleMole::Utils::UIGameCameraDataTableEntry*>
+	class UIGameCameraDataTable
 	{
 	public:
 		::System::Void _ctor()

@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaParticle.h"
 
-namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
-
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUPBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FDF00)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUPBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB0E30)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaGroupBase_TypeDefinitionIndex = 2159;
+	inline static constexpr unsigned int XmlSchemaGroupBase_TypeDefinitionIndex = 2158;
 
 	class XmlSchemaGroupBase : public ::System::Xml::Schema::XmlSchemaParticle
 	{

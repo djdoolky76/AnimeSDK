@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/MoveNextSource.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
 
@@ -12,7 +11,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncTriggerBase_1_AsyncTriggerEnumerator_TypeDefinitionIndex = 31938;
+	inline static constexpr unsigned int AsyncTriggerBase_1_AsyncTriggerEnumerator_TypeDefinitionIndex = 31387;
 
 	template <typename T>
 	class AsyncTriggerBase_1_AsyncTriggerEnumerator : public ::Cysharp::Threading::Tasks::MoveNextSource

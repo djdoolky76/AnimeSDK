@@ -1,0 +1,77 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MLJGPKJJPIL.h"
+
+class ADEJAGFCBHK;
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+namespace MoleMole { class UIControlCollection; }
+namespace MoleMole { class UIGeneralButtonController; }
+
+#define NCCDOBEEAIP_KEHJFPLDFNP_COHJMMJFEEG_OFFSET UNITYSDK_OFFSET(0x17273E90)
+#define NCCDOBEEAIP_KEHJFPLDFNP_DNMJFBOAOBM_OFFSET UNITYSDK_OFFSET(0x17273E70)
+#define NCCDOBEEAIP_KEHJFPLDFNP_EFKGNFCEENK_OFFSET UNITYSDK_OFFSET(0x17273C10)
+#define NCCDOBEEAIP_KEHJFPLDFNP_HIFONBMOMML_OFFSET UNITYSDK_OFFSET(0x17273E80)
+#define NCCDOBEEAIP_KEHJFPLDFNP_JKBHIPEBLIA_OFFSET UNITYSDK_OFFSET(0x17273EA0)
+#define NCCDOBEEAIP_KEHJFPLDFNP_NLPPAKILKMB_OFFSET UNITYSDK_OFFSET(0x17273E50)
+#define NCCDOBEEAIP_KEHJFPLDFNP_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x17273A70)
+#define NCCDOBEEAIP_KEHJFPLDFNP_PDGHPHFDINK_OFFSET UNITYSDK_OFFSET(0x17273E60)
+#define NCCDOBEEAIP_KEHJFPLDFNP__CTOR_OFFSET UNITYSDK_OFFSET(0x17273DC0)
+
+inline static constexpr unsigned int NCCDOBEEAIP_KEHJFPLDFNP_TypeDefinitionIndex = 50903;
+
+class NCCDOBEEAIP_KEHJFPLDFNP : public ::MLJGPKJJPIL
+{
+public:
+	// static const ::System::String* HGFIJIMOMPE; // 0x0
+	// static const ::System::String* NALJPOCNEOM; // 0x0
+	// static const ::System::String* MLAKGFAJNHO; // 0x0
+	::MoleMole::UIGeneralButtonController* _KHIJGEFIGOL_k__BackingField; // 0x28
+	::ADEJAGFCBHK* _EPBGHCODBAM_k__BackingField; // 0x30
+	::LGINJIKKBJA* _NPDHHEEKOKH_k__BackingField; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NCCDOBEEAIP_KEHJFPLDFNP__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + NCCDOBEEAIP_KEHJFPLDFNP_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::System::Void NLPPAKILKMB(::MoleMole::UIGeneralButtonController* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::UIGeneralButtonController*))((::PBYTE)hIl2Cpp + NCCDOBEEAIP_KEHJFPLDFNP_NLPPAKILKMB_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::ADEJAGFCBHK* PDGHPHFDINK()
+	{
+		return ((::ADEJAGFCBHK*(*)(::PVOID))((::PBYTE)hIl2Cpp + NCCDOBEEAIP_KEHJFPLDFNP_PDGHPHFDINK_OFFSET))(this);
+	}
+
+	::MoleMole::UIGeneralButtonController* DNMJFBOAOBM()
+	{
+		return ((::MoleMole::UIGeneralButtonController*(*)(::PVOID))((::PBYTE)hIl2Cpp + NCCDOBEEAIP_KEHJFPLDFNP_DNMJFBOAOBM_OFFSET))(this);
+	}
+
+	::System::Void HIFONBMOMML(::ADEJAGFCBHK* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::ADEJAGFCBHK*))((::PBYTE)hIl2Cpp + NCCDOBEEAIP_KEHJFPLDFNP_HIFONBMOMML_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void COHJMMJFEEG(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + NCCDOBEEAIP_KEHJFPLDFNP_COHJMMJFEEG_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LGINJIKKBJA* JKBHIPEBLIA()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + NCCDOBEEAIP_KEHJFPLDFNP_JKBHIPEBLIA_OFFSET))(this);
+	}
+
+	::System::Void EFKGNFCEENK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NCCDOBEEAIP_KEHJFPLDFNP_EFKGNFCEENK_OFFSET))(this);
+	}
+};

@@ -4,12 +4,12 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int Dual_2_TypeDefinitionIndex = 8781;
+	inline static constexpr unsigned int Dual_2_TypeDefinitionIndex = 8982;
 
-	template <typename T, typename TPolicy>
-	struct Dual_2
+	template <typename T1, typename T2>
+	struct alignas(8) Dual_2
 	{
-		T real; // 0x0
-		T dual; // 0x0
+		T1 real; // 0x0
+		T1 dual; // 0x0
 	};
 }

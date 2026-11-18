@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/DisplayMessageBase.h"
 
-class Class_1_0D6706375CDAAE8C;
+class HGAJKHIMKJP;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GETCARDLISTSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x129A75A0)
-#define MOLEMOLE_GETCARDLISTSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x129A75F0)
-#define MOLEMOLE_GETCARDLISTSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x129A75B0)
+#define MOLEMOLE_GETCARDLISTSHOW_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x12466980)
+#define MOLEMOLE_GETCARDLISTSHOW_ONPROCESS_OFFSET UNITYSDK_OFFSET(0x124669D0)
+#define MOLEMOLE_GETCARDLISTSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x12466990)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GetCardListShow_TypeDefinitionIndex = 42410;
+	inline static constexpr unsigned int GetCardListShow_TypeDefinitionIndex = 59731;
 
 	class GetCardListShow : public ::MoleMole::DisplayMessageBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* items; // 0x28
+		::System::Collections::Generic::List_1<::HGAJKHIMKJP*>* items; // 0x28
 
-		::System::Void _ctor(::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>* itemDatas)
+		::System::Void _ctor(::System::Collections::Generic::List_1<::HGAJKHIMKJP*>* itemDatas)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_0D6706375CDAAE8C*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_GETCARDLISTSHOW__CTOR_OFFSET))(this, itemDatas);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::HGAJKHIMKJP*>*))((::PBYTE)hIl2Cpp + MOLEMOLE_GETCARDLISTSHOW__CTOR_OFFSET))(this, itemDatas);
 		}
 
 		::System::Int32 get_Priority()

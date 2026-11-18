@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A48B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B1A48C0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B6760)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDSHOWSCENEINFO___C__DISPLAYCLASS7_0__REGISTERPORTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B4B6770)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDShowSceneInfo___c__DisplayClass7_0_TypeDefinitionIndex = 71472;
+	inline static constexpr unsigned int LDShowSceneInfo___c__DisplayClass7_0_TypeDefinitionIndex = 47026;
 
 	class LDShowSceneInfo___c__DisplayClass7_0 : public ::System::Object
 	{

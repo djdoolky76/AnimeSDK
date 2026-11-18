@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MonoUIHideItem_CounterType_TypeDefinitionIndex = 83750;
+inline static constexpr unsigned int MonoUIHideItem_CounterType_TypeDefinitionIndex = 55499;
 
 enum class MonoUIHideItem_CounterType : ::System::Int32
 {
-	Minus = 1,
 	Add = 0,
+	Minus = 1,
 };

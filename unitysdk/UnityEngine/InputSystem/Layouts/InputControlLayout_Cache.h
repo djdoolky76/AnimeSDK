@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::InputSystem::Layouts { class InputControlLayout; }
 
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CACHE_CLEAR_OFFSET UNITYSDK_OFFSET(0x36D760)
-#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CACHE_FINDORLOADLAYOUT_OFFSET UNITYSDK_OFFSET(0xA5B8A0)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CACHE_CLEAR_OFFSET UNITYSDK_OFFSET(0x3DDF60)
+#define UNITYENGINE_INPUTSYSTEM_LAYOUTS_INPUTCONTROLLAYOUT_CACHE_FINDORLOADLAYOUT_OFFSET UNITYSDK_OFFSET(0x93C930)
 
 namespace UnityEngine::InputSystem::Layouts
 {
-	inline static constexpr unsigned int InputControlLayout_Cache_TypeDefinitionIndex = 32613;
+	inline static constexpr unsigned int InputControlLayout_Cache_TypeDefinitionIndex = 32062;
 
 	struct alignas(8) InputControlLayout_Cache
 	{

@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
 
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONCLIPINFO_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE941DE0)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONCLIPINFO_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0xE941F80)
-#define NPCCROWD_ANIMATION_NPCCPUANIMATIONCLIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE942130)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONCLIPINFO_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x10031000)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONCLIPINFO_UNLOADEDASSETS_OFFSET UNITYSDK_OFFSET(0x100311A0)
+#define NPCCROWD_ANIMATION_NPCCPUANIMATIONCLIPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x10031350)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int NPCCPUAnimationClipInfo_TypeDefinitionIndex = 56126;
+	inline static constexpr unsigned int NPCCPUAnimationClipInfo_TypeDefinitionIndex = 56526;
 
 	class NPCCPUAnimationClipInfo : public ::System::Object
 	{
@@ -23,6 +23,7 @@ namespace NPCCrowd::Animation
 		::System::Int32 animationID; // 0x10
 		::NPCCrowd::Animation::ENPCCPUAnimationClipAvatarMaskType clipType; // 0x14
 		::NPCCrowd::Animation::ENPCAnimationAvatarMaskType maskType; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationClip* _clip; // 0x20
 		::Foundation::AssetRequestHandle clipHandle; // 0x28
 		::System::String* clipPath; // 0x48

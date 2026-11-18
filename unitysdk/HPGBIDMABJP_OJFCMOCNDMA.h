@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PKLFCIEFPNA.h"
+
+class HGAJKHIMKJP;
+
+#define HPGBIDMABJP_OJFCMOCNDMA_LPDECIMPMBB_OFFSET UNITYSDK_OFFSET(0x17A634F0)
+#define HPGBIDMABJP_OJFCMOCNDMA__CTOR_OFFSET UNITYSDK_OFFSET(0x17A634B0)
+
+inline static constexpr unsigned int HPGBIDMABJP_OJFCMOCNDMA_TypeDefinitionIndex = 48807;
+
+class HPGBIDMABJP_OJFCMOCNDMA
+{
+public:
+	::PKLFCIEFPNA MKFGIDLIGHE; // 0x18
+
+	::System::Void _ctor(::PKLFCIEFPNA GCPNPLDHGJN)
+	{
+		return ((::System::Void(*)(::PVOID, ::PKLFCIEFPNA))((::PBYTE)hIl2Cpp + HPGBIDMABJP_OJFCMOCNDMA__CTOR_OFFSET))(this, GCPNPLDHGJN);
+	}
+
+	::System::Void LPDECIMPMBB(::HGAJKHIMKJP* IPMMCGDMODG)
+	{
+		return ((::System::Void(*)(::PVOID, ::HGAJKHIMKJP*))((::PBYTE)hIl2Cpp + HPGBIDMABJP_OJFCMOCNDMA_LPDECIMPMBB_OFFSET))(this, IPMMCGDMODG);
+	}
+};

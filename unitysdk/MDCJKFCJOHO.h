@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+
+class AEFFKKLLLOI;
+class GHJKAEPFCCH;
+class GKFPDFNFFMD;
+class LJEEPGADBCD;
+namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
+
+#define MDCJKFCJOHO_BNFDOJPKBMO_OFFSET UNITYSDK_OFFSET(0x11F360F0)
+#define MDCJKFCJOHO_CPDDJICNNJL_OFFSET UNITYSDK_OFFSET(0x11F35FA0)
+#define MDCJKFCJOHO_FHLLHAHFGCL_OFFSET UNITYSDK_OFFSET(0x11F36180)
+#define MDCJKFCJOHO_MBJAINNBOGP_OFFSET UNITYSDK_OFFSET(0x11F36050)
+#define MDCJKFCJOHO_NMBJIKEJKCK_1_OFFSET UNITYSDK_OFFSET(0x11F35EE0)
+#define MDCJKFCJOHO_NMBJIKEJKCK_OFFSET UNITYSDK_OFFSET(0x11F35E30)
+#define MDCJKFCJOHO__CTOR_OFFSET UNITYSDK_OFFSET(0x11F35E10)
+
+inline static constexpr unsigned int MDCJKFCJOHO_TypeDefinitionIndex = 66858;
+
+class MDCJKFCJOHO
+{
+public:
+	::LJEEPGADBCD* FNEKMIEDMEP; // 0x20
+
+	::System::Void _ctor(::LJEEPGADBCD* JFPDJGAMELP)
+	{
+		return ((::System::Void(*)(::PVOID, ::LJEEPGADBCD*))((::PBYTE)hIl2Cpp + MDCJKFCJOHO__CTOR_OFFSET))(this, JFPDJGAMELP);
+	}
+
+	::GKFPDFNFFMD* NMBJIKEJKCK(::GHJKAEPFCCH* EMDMMMDOBJH)
+	{
+		return ((::GKFPDFNFFMD*(*)(::PVOID, ::GHJKAEPFCCH*))((::PBYTE)hIl2Cpp + MDCJKFCJOHO_NMBJIKEJKCK_OFFSET))(this, EMDMMMDOBJH);
+	}
+
+	::System::Void CPDDJICNNJL(::GHJKAEPFCCH* EMDMMMDOBJH)
+	{
+		return ((::System::Void(*)(::PVOID, ::GHJKAEPFCCH*))((::PBYTE)hIl2Cpp + MDCJKFCJOHO_CPDDJICNNJL_OFFSET))(this, EMDMMMDOBJH);
+	}
+
+	::GKFPDFNFFMD* NMBJIKEJKCK_1(::UnityEngine::Events::UnityAction_1<::System::Boolean>* PABLEDCGDGM, ::System::Boolean HAFDIMGJBHC, ::AEFFKKLLLOI* JIHDHGPNHGI)
+	{
+		return ((::GKFPDFNFFMD*(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::System::Boolean>*, ::System::Boolean, ::AEFFKKLLLOI*))((::PBYTE)hIl2Cpp + MDCJKFCJOHO_NMBJIKEJKCK_1_OFFSET))(this, PABLEDCGDGM, HAFDIMGJBHC, JIHDHGPNHGI);
+	}
+
+	::UnityEngine::Vector4 MBJAINNBOGP()
+	{
+		return ((::UnityEngine::Vector4(*)(::PVOID))((::PBYTE)hIl2Cpp + MDCJKFCJOHO_MBJAINNBOGP_OFFSET))(this);
+	}
+
+	::System::Boolean BNFDOJPKBMO()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MDCJKFCJOHO_BNFDOJPKBMO_OFFSET))(this);
+	}
+
+	::GKFPDFNFFMD* FHLLHAHFGCL()
+	{
+		return ((::GKFPDFNFFMD*(*)(::PVOID))((::PBYTE)hIl2Cpp + MDCJKFCJOHO_FHLLHAHFGCL_OFFSET))(this);
+	}
+};

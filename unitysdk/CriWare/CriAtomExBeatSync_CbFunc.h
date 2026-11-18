@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CriWare/CriAtomExBeatSync_Info.h"
 #include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/CriWare/CriAtomExBeatSync_Info.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FA3CF80)
-#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FA3CFF0)
-#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FA3CC90)
-#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA3CC70)
+#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1FE48E90)
+#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1FE48F00)
+#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FE48BA0)
+#define CRIWARE_CRIATOMEXBEATSYNC_CBFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE48B90)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExBeatSync_CbFunc_TypeDefinitionIndex = 34923;
+	inline static constexpr unsigned int CriAtomExBeatSync_CbFunc_TypeDefinitionIndex = 34472;
 
 	class CriAtomExBeatSync_CbFunc : public ::System::MulticastDelegate
 	{

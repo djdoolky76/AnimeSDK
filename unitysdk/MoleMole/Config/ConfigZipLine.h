@@ -25,27 +25,31 @@ namespace MoleMole::Config { class ConfigZipLine_TransitionMode_FixedTargetPoint
 namespace MoleMole::Config { class ConfigZipLine_TransitionMode_FloatTargetPoint; }
 namespace MoleMole::Config { class ConfigZipLine_TransitionMode_PredicateTargetPoint; }
 
-#define MOLEMOLE_CONFIG_CONFIGZIPLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1350A420)
+#define MOLEMOLE_CONFIG_CONFIGZIPLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92E890)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigZipLine_TypeDefinitionIndex = 52991;
+	inline static constexpr unsigned int ConfigZipLine_TypeDefinitionIndex = 54254;
 
 	class ConfigZipLine : public ::Foundation::MihoyoSerializedScriptableObject
 	{
 	public:
 		::System::Boolean SwitchToLocalAvatar; // 0x58
+		::System::Byte _padding0[0x3];
 		::System::Single enterSplineTime; // 0x5C
 		::System::Single enterSplineTimeOut; // 0x60
 		::System::Single exitSplineSpeedRatio; // 0x64
 		::System::Single exitSplineMaxTime; // 0x68
+		::System::Byte _padding1[0x4];
 		::MoleMole::Config::ConfigZipLine_ConfigSpeedModifier_MinMax* configSpeedModifier_MinMax; // 0x70
 		::MoleMole::Config::ConfigZipLine_SpeedMode speedMode; // 0x78
+		::System::Byte _padding2[0x4];
 		::MoleMole::Config::ConfigZipLine_SpeedMode_Tangent_Acceleration* speedMode_Tangent_Acceleration; // 0x80
 		::MoleMole::Config::ConfigZipLine_SpeedMode_Tangent_FinalSpeed_Acceleration* speedMode_Tangent_FinalSpeed_Acceleration; // 0x88
 		::MoleMole::Config::ConfigZipLine_SpeedMode_Tangent_FinalSpeed_Resistance* speedMode_Tangent_FinalSpeed_Resistance; // 0x90
 		::MoleMole::Config::ConfigZipLine_SpeedCalculator* speedCalculator; // 0x98
 		::MoleMole::Config::ConfigZipLine_TransitionMode transitionMode; // 0xA0
+		::System::Byte _padding3[0x4];
 		::MoleMole::Config::ConfigZipLine_TransitionMode_FixedTargetPoint* transitionModeFixedTargetPoint; // 0xA8
 		::MoleMole::Config::ConfigZipLine_TransitionMode_FloatTargetPoint* transitionModeFloatTargetPoint; // 0xB0
 		::MoleMole::Config::ConfigZipLine_TransitionMode_PredicateTargetPoint* transitionModePredicateTargetPoint; // 0xB8
@@ -63,6 +67,7 @@ namespace MoleMole::Config
 		::UnityEngine::Vector2 avatarPitchRange; // 0x118
 		::UnityEngine::Vector2 avatarPitchRange_Other; // 0x120
 		::System::Single avatarRollPredicateTime; // 0x128
+		::System::Byte _padding4[0x4];
 		::MoleMole::Config::ConfigZipLine_ConfigFailed* configFailed; // 0x130
 		::MoleMole::Config::ConfigZipLine_ConfigTurnBack* configTurnBack; // 0x138
 		::MoleMole::Config::ConfigZipLine_TransitionRotationMode transitionRotationMode; // 0x140

@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FluffyUnderware/Curvy/SplineProcessor.h"
 
-namespace System { class String; }
 namespace UnityEngine { class EdgeCollider2D; }
 
-#define FLUFFYUNDERWARE_CURVY_CURVYSPLINETOEDGECOLLIDER2D_GET_EDGECOLLIDER_OFFSET UNITYSDK_OFFSET(0x1F4954B0)
-#define FLUFFYUNDERWARE_CURVY_CURVYSPLINETOEDGECOLLIDER2D_REFRESH_OFFSET UNITYSDK_OFFSET(0x1F495640)
-#define FLUFFYUNDERWARE_CURVY_CURVYSPLINETOEDGECOLLIDER2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1F495DD0)
+#define FLUFFYUNDERWARE_CURVY_CURVYSPLINETOEDGECOLLIDER2D_GET_EDGECOLLIDER_OFFSET UNITYSDK_OFFSET(0x1F887460)
+#define FLUFFYUNDERWARE_CURVY_CURVYSPLINETOEDGECOLLIDER2D_REFRESH_OFFSET UNITYSDK_OFFSET(0x1F8875F0)
+#define FLUFFYUNDERWARE_CURVY_CURVYSPLINETOEDGECOLLIDER2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1F887D80)
 
 namespace FluffyUnderware::Curvy
 {
-	inline static constexpr unsigned int CurvySplineToEdgeCollider2D_TypeDefinitionIndex = 39643;
+	inline static constexpr unsigned int CurvySplineToEdgeCollider2D_TypeDefinitionIndex = 37630;
 
 	class CurvySplineToEdgeCollider2D : public ::FluffyUnderware::Curvy::SplineProcessor
 	{

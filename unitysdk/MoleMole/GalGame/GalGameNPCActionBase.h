@@ -3,23 +3,25 @@
 #include "unitysdk/MoleMole/GalGame/GalGameActionBase.h"
 #include "unitysdk/MoleMole/GalGame/GalNPCLocation.h"
 
+namespace MoleMole::GalGame { class GalSwitchPoseRelatedParam; }
 namespace System { class String; }
 
-#define MOLEMOLE_GALGAME_GALGAMENPCACTIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16854FA0)
+#define MOLEMOLE_GALGAME_GALGAMENPCACTIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D1EE00)
 
 namespace MoleMole::GalGame
 {
-	inline static constexpr unsigned int GalGameNPCActionBase_TypeDefinitionIndex = 62644;
+	inline static constexpr unsigned int GalGameNPCActionBase_TypeDefinitionIndex = 51674;
 
 	class GalGameNPCActionBase : public ::MoleMole::GalGame::GalGameActionBase
 	{
 	public:
-		::System::String* avatarFacialKey; // 0x10
-		::System::String* avatarName; // 0x18
-		::System::String* avatarPoseKey; // 0x20
-		::System::String* avatarShowingKey; // 0x28
-		::System::Int32 actorId; // 0x30
-		::MoleMole::GalGame::GalNPCLocation location; // 0x34
+		::System::String* avatarPoseKey; // 0x10
+		::System::String* avatarShowingKey; // 0x18
+		::System::String* avatarName; // 0x20
+		::MoleMole::GalGame::GalSwitchPoseRelatedParam* switchPoseRelatedParam; // 0x28
+		::System::String* avatarFacialKey; // 0x30
+		::MoleMole::GalGame::GalNPCLocation location; // 0x38
+		::System::Int32 actorId; // 0x3C
 
 		::System::Void _ctor()
 		{

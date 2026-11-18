@@ -2,52 +2,53 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/BitSet64.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationProcessPhase.h"
-#include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationScheduler_Node.h"
 #include "unitysdk/NPCCrowd/Animation/AnimationSubManager_AnimationScheduler_PhaseEvent.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
+#include "unitysdk/System/ReadOnlySpan_1_F48FB86071006F3E.h"
 
-namespace NPCCrowd::Animation { class AnimationSubManager_AnimationScheduler_OperationBuffer; }
 namespace NPCCrowd::Animation { class AnimationSubManager_AnimationScheduler_OperationBufferBuilder; }
-namespace NPCCrowd::Animation { class AnimationSubManager_IAnimationProcessor; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_DISPATCH_1_OFFSET UNITYSDK_OFFSET(0x1193E770)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_DISPATCH_OFFSET UNITYSDK_OFFSET(0x7560E0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_HANDLEENDINDEX_OFFSET UNITYSDK_OFFSET(0x7560D0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_INVOKE_OFFSET UNITYSDK_OFFSET(0x755FA0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_PREPARE_OFFSET UNITYSDK_OFFSET(0x755FE0)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_PROCESS_OFFSET UNITYSDK_OFFSET(0x756040)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_REMOVEDEPENDENCY_1_OFFSET UNITYSDK_OFFSET(0x1193E660)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_REMOVEDEPENDENCY_OFFSET UNITYSDK_OFFSET(0x1193E510)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_SCHEDULE_1_OFFSET UNITYSDK_OFFSET(0x756030)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_SCHEDULE_OFFSET UNITYSDK_OFFSET(0x756020)
-#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1193E8C0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_DISPATCH_1_OFFSET UNITYSDK_OFFSET(0x105F0090)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_DISPATCH_OFFSET UNITYSDK_OFFSET(0x6331C0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_HANDLEENDINDEX_OFFSET UNITYSDK_OFFSET(0x6331B0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_INVOKE_OFFSET UNITYSDK_OFFSET(0x633080)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_PREPARE_OFFSET UNITYSDK_OFFSET(0x6330C0)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_PROCESS_OFFSET UNITYSDK_OFFSET(0x633120)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_REMOVEDEPENDENCY_1_OFFSET UNITYSDK_OFFSET(0x105EFF80)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_REMOVEDEPENDENCY_OFFSET UNITYSDK_OFFSET(0x105EFE30)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_SCHEDULE_1_OFFSET UNITYSDK_OFFSET(0x633110)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_SCHEDULE_OFFSET UNITYSDK_OFFSET(0x633100)
+#define NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM__CCTOR_OFFSET UNITYSDK_OFFSET(0x105F01E0)
 
 namespace NPCCrowd::Animation
 {
-	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_ScheduleAlgorithm_TypeDefinitionIndex = 88361;
+	inline static constexpr unsigned int AnimationSubManager_AnimationScheduler_ScheduleAlgorithm_TypeDefinitionIndex = 81182;
 
 	struct alignas(8) AnimationSubManager_AnimationScheduler_ScheduleAlgorithm
 	{
-		static ::System::Action_4<::System::Int32, ::Foundation::BitSet64, ::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node>, ::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_OperationBufferBuilder*>** StaticGet_DispatchDelegate()
+		static ::System::Action_4<::System::Int32, ::Foundation::BitSet64, ::Unity::Collections::NativeArray_1<::System::Object*>, ::System::Object*>** StaticGet_DispatchDelegate()
 		{
-			return (::System::Action_4<::System::Int32, ::Foundation::BitSet64, ::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node>, ::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_OperationBufferBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AnimationScheduler_ScheduleAlgorithm_TypeDefinitionIndex)->GetStaticField(0x45640);
+			return (::System::Action_4<::System::Int32, ::Foundation::BitSet64, ::Unity::Collections::NativeArray_1<::System::Object*>, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AnimationScheduler_ScheduleAlgorithm_TypeDefinitionIndex)->GetStaticField(0x4B0B0);
 		}
 		static ::System::Action_3<::System::Int32, ::Unity::Collections::NativeArray_1<::Foundation::BitSet64>, ::Unity::Collections::NativeArray_1<::System::Int32>>** StaticGet_AddByOrderDelegate()
 		{
-			return (::System::Action_3<::System::Int32, ::Unity::Collections::NativeArray_1<::Foundation::BitSet64>, ::Unity::Collections::NativeArray_1<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AnimationScheduler_ScheduleAlgorithm_TypeDefinitionIndex)->GetStaticField(0x45648);
+			return (::System::Action_3<::System::Int32, ::Unity::Collections::NativeArray_1<::Foundation::BitSet64>, ::Unity::Collections::NativeArray_1<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AnimationScheduler_ScheduleAlgorithm_TypeDefinitionIndex)->GetStaticField(0x4B0B8);
 		}
 		static ::Foundation::BitSet64* StaticGet_EventMask()
 		{
-			return (::Foundation::BitSet64*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AnimationScheduler_ScheduleAlgorithm_TypeDefinitionIndex)->GetStaticField(0x101D0);
+			return (::Foundation::BitSet64*)Il2CppClass::FromTypeDefinitionIndex(AnimationSubManager_AnimationScheduler_ScheduleAlgorithm_TypeDefinitionIndex)->GetStaticField(0x115F0);
 		}
 		::Foundation::BitSet64 _remaining; // 0x10
 		::Foundation::BitSet64 _dispatchable; // 0x18
 		::Foundation::BitSet64 _noDispatchable; // 0x20
-		::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node> _nodes; // 0x28
+		::Unity::Collections::NativeArray_1<::System::Object*> _nodes; // 0x28
+		::System::Byte _padding0[0x8];
 		::Unity::Collections::NativeArray_1<::Foundation::BitSet64> _prerequisite; // 0x38
+		::System::Byte _padding1[0x8];
 		::Unity::Collections::NativeArray_1<::System::Int32> _processorOrder; // 0x48
 
 		static ::System::Void _cctor()
@@ -55,19 +56,15 @@ namespace NPCCrowd::Animation
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM__CCTOR_OFFSET))();
 		}
 
-		/*
-		::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_OperationBuffer*>* Invoke(::System::ReadOnlySpan_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node> nodes, ::System::ReadOnlySpan_1<::NPCCrowd::Animation::AnimationSubManager_IAnimationProcessor*> processors)
+		::Il2CppArray<::System::Object*>* Invoke(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Object*> nodes, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Object*> processors)
 		{
-			return ((::Il2CppArray<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_OperationBuffer*>*(*)(::PVOID, ::System::ReadOnlySpan_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node>, ::System::ReadOnlySpan_1<::NPCCrowd::Animation::AnimationSubManager_IAnimationProcessor*>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_INVOKE_OFFSET))(this, nodes, processors);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Object*>, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Object*>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_INVOKE_OFFSET))(this, nodes, processors);
 		}
-		*/
 
-		/*
-		::System::Void Prepare(::System::ReadOnlySpan_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node> nodes, ::System::ReadOnlySpan_1<::NPCCrowd::Animation::AnimationSubManager_IAnimationProcessor*> processors)
+		::System::Void Prepare(::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Object*> nodes, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Object*> processors)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node>, ::System::ReadOnlySpan_1<::NPCCrowd::Animation::AnimationSubManager_IAnimationProcessor*>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_PREPARE_OFFSET))(this, nodes, processors);
+			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Object*>, ::System::ReadOnlySpan_1_F48FB86071006F3E<::System::Object*>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_PREPARE_OFFSET))(this, nodes, processors);
 		}
-		*/
 
 		::System::Boolean Schedule(::NPCCrowd::Animation::AnimationSubManager_AnimationProcessPhase phase, ::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_OperationBufferBuilder*& builder)
 		{
@@ -94,19 +91,19 @@ namespace NPCCrowd::Animation
 			return ((::Foundation::BitSet64(*)(::PVOID, ::System::Int32, ::Unity::Collections::NativeArray_1<::Foundation::BitSet64>, ::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_OperationBufferBuilder*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_DISPATCH_OFFSET))(this, nodeIndex, noDispatchableQueue, builder);
 		}
 
-		static ::System::Void Dispatch_1(::Foundation::BitSet64 nodeIndices, ::Foundation::BitSet64 prerequisite, ::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node> nodes, ::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_OperationBufferBuilder* builder)
+		static ::System::Void Dispatch_1(::Foundation::BitSet64 nodeIndices, ::Foundation::BitSet64 prerequisite, ::Unity::Collections::NativeArray_1<::System::Object*> nodes, ::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_OperationBufferBuilder* builder)
 		{
-			return ((::System::Void(*)(::Foundation::BitSet64, ::Foundation::BitSet64, ::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node>, ::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_OperationBufferBuilder*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_DISPATCH_1_OFFSET))(nodeIndices, prerequisite, nodes, builder);
+			return ((::System::Void(*)(::Foundation::BitSet64, ::Foundation::BitSet64, ::Unity::Collections::NativeArray_1<::System::Object*>, ::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_OperationBufferBuilder*))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_DISPATCH_1_OFFSET))(nodeIndices, prerequisite, nodes, builder);
 		}
 
-		static ::Foundation::BitSet64 RemoveDependency(::System::Int32 index, ::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node> nodes, ::Unity::Collections::NativeArray_1<::Foundation::BitSet64> prerequisite, ::Unity::Collections::NativeArray_1<::System::Int32> order)
+		static ::Foundation::BitSet64 RemoveDependency(::System::Int32 index, ::Unity::Collections::NativeArray_1<::System::Object*> nodes, ::Unity::Collections::NativeArray_1<::Foundation::BitSet64> prerequisite, ::Unity::Collections::NativeArray_1<::System::Int32> order)
 		{
-			return ((::Foundation::BitSet64(*)(::System::Int32, ::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node>, ::Unity::Collections::NativeArray_1<::Foundation::BitSet64>, ::Unity::Collections::NativeArray_1<::System::Int32>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_REMOVEDEPENDENCY_OFFSET))(index, nodes, prerequisite, order);
+			return ((::Foundation::BitSet64(*)(::System::Int32, ::Unity::Collections::NativeArray_1<::System::Object*>, ::Unity::Collections::NativeArray_1<::Foundation::BitSet64>, ::Unity::Collections::NativeArray_1<::System::Int32>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_REMOVEDEPENDENCY_OFFSET))(index, nodes, prerequisite, order);
 		}
 
-		static ::Foundation::BitSet64 RemoveDependency_1(::Foundation::BitSet64 indices, ::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node> nodes, ::Unity::Collections::NativeArray_1<::Foundation::BitSet64> prerequisite, ::Unity::Collections::NativeArray_1<::System::Int32> order)
+		static ::Foundation::BitSet64 RemoveDependency_1(::Foundation::BitSet64 indices, ::Unity::Collections::NativeArray_1<::System::Object*> nodes, ::Unity::Collections::NativeArray_1<::Foundation::BitSet64> prerequisite, ::Unity::Collections::NativeArray_1<::System::Int32> order)
 		{
-			return ((::Foundation::BitSet64(*)(::Foundation::BitSet64, ::Unity::Collections::NativeArray_1<::NPCCrowd::Animation::AnimationSubManager_AnimationScheduler_Node>, ::Unity::Collections::NativeArray_1<::Foundation::BitSet64>, ::Unity::Collections::NativeArray_1<::System::Int32>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_REMOVEDEPENDENCY_1_OFFSET))(indices, nodes, prerequisite, order);
+			return ((::Foundation::BitSet64(*)(::Foundation::BitSet64, ::Unity::Collections::NativeArray_1<::System::Object*>, ::Unity::Collections::NativeArray_1<::Foundation::BitSet64>, ::Unity::Collections::NativeArray_1<::System::Int32>))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_ANIMATIONSUBMANAGER_ANIMATIONSCHEDULER_SCHEDULEALGORITHM_REMOVEDEPENDENCY_1_OFFSET))(indices, nodes, prerequisite, order);
 		}
 	};
 }

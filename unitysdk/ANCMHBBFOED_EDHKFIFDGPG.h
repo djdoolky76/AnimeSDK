@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class DEDDPKGLKHI_OBJJGPCGHJK;
+namespace System { class Action; }
+
+#define ANCMHBBFOED_EDHKFIFDGPG_CHCGMACMJLD_OFFSET UNITYSDK_OFFSET(0x1266D4B0)
+#define ANCMHBBFOED_EDHKFIFDGPG_HFBPONNNLBA_OFFSET UNITYSDK_OFFSET(0x1266D200)
+#define ANCMHBBFOED_EDHKFIFDGPG_HLBKHEFJAPH_OFFSET UNITYSDK_OFFSET(0x1266D540)
+#define ANCMHBBFOED_EDHKFIFDGPG_JNENFEELMBP_OFFSET UNITYSDK_OFFSET(0x1266D530)
+#define ANCMHBBFOED_EDHKFIFDGPG_NJIJOCMEKBO_OFFSET UNITYSDK_OFFSET(0x1266D4F0)
+#define ANCMHBBFOED_EDHKFIFDGPG_PMLILGDNPPC_OFFSET UNITYSDK_OFFSET(0x1266D5A0)
+#define ANCMHBBFOED_EDHKFIFDGPG__CTOR_OFFSET UNITYSDK_OFFSET(0x1266D590)
+
+inline static constexpr unsigned int ANCMHBBFOED_EDHKFIFDGPG_TypeDefinitionIndex = 55175;
+
+class ANCMHBBFOED_EDHKFIFDGPG : public ::System::Object
+{
+public:
+	::DEDDPKGLKHI_OBJJGPCGHJK* AKMKHBHHKNP; // 0x10
+	::System::Boolean _OHOMBEILHNF_k__BackingField; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ANCMHBBFOED_EDHKFIFDGPG__CTOR_OFFSET))(this);
+	}
+
+	::System::Void HFBPONNNLBA(::System::Action* EJGDHCIBCJH)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ANCMHBBFOED_EDHKFIFDGPG_HFBPONNNLBA_OFFSET))(this, EJGDHCIBCJH);
+	}
+
+	::System::Void NJIJOCMEKBO()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ANCMHBBFOED_EDHKFIFDGPG_NJIJOCMEKBO_OFFSET))(this);
+	}
+
+	::System::Void CHCGMACMJLD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ANCMHBBFOED_EDHKFIFDGPG_CHCGMACMJLD_OFFSET))(this);
+	}
+
+	::System::Boolean JNENFEELMBP()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ANCMHBBFOED_EDHKFIFDGPG_JNENFEELMBP_OFFSET))(this);
+	}
+
+	::System::Int32 HLBKHEFJAPH()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ANCMHBBFOED_EDHKFIFDGPG_HLBKHEFJAPH_OFFSET))(this);
+	}
+
+	::System::Void PMLILGDNPPC(::System::Boolean EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ANCMHBBFOED_EDHKFIFDGPG_PMLILGDNPPC_OFFSET))(this, EGEGIMGMJHN);
+	}
+};

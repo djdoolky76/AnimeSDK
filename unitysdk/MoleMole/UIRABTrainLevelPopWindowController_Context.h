@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIRABTRAINLEVELPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1757F480)
+#define MOLEMOLE_UIRABTRAINLEVELPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF6AC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIRABTrainLevelPopWindowController_Context_TypeDefinitionIndex = 47893;
+	inline static constexpr unsigned int UIRABTrainLevelPopWindowController_Context_TypeDefinitionIndex = 48889;
 
 	class UIRABTrainLevelPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

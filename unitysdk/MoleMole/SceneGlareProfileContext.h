@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GraphicSettingProfileContextBase.h"
 
-#define MOLEMOLE_SCENEGLAREPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x129D89A0)
+#define MOLEMOLE_SCENEGLAREPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1249CBC0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneGlareProfileContext_TypeDefinitionIndex = 59576;
+	inline static constexpr unsigned int SceneGlareProfileContext_TypeDefinitionIndex = 72849;
 
 	class SceneGlareProfileContext : public ::MoleMole::GraphicSettingProfileContextBase
 	{

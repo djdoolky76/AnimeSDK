@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NPCCrowd/Animation/CPUStateMachine/AnimationData.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/NPCCrowd/Animation/CPUStateMachine/SharedStateData.h"
 
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONCLIPDATA_GET_HASADDITIONALANIMATION_OFFSET UNITYSDK_OFFSET(0x6AA510)
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONCLIPDATA_GET_SAMPLETIME_OFFSET UNITYSDK_OFFSET(0x6AA4C0)
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONCLIPDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x6AA560)
-#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONCLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x6AA530)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONCLIPDATA_GET_HASADDITIONALANIMATION_OFFSET UNITYSDK_OFFSET(0x5D1E10)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONCLIPDATA_GET_SAMPLETIME_OFFSET UNITYSDK_OFFSET(0x5D1DC0)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONCLIPDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x5D1E60)
+#define NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONCLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x5D1E30)
 
 namespace NPCCrowd::Animation::CPUStateMachine
 {
-	inline static constexpr unsigned int AnimationClipData_TypeDefinitionIndex = 63112;
+	inline static constexpr unsigned int AnimationClipData_TypeDefinitionIndex = 66371;
 
-	struct alignas(8) AnimationClipData
+	struct alignas(4) AnimationClipData
 	{
 		::System::Double Time; // 0x10
 		::System::Single Speed; // 0x18
@@ -25,12 +26,10 @@ namespace NPCCrowd::Animation::CPUStateMachine
 			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Animation::CPUStateMachine::AnimationData, ::System::Double, ::System::Single, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONCLIPDATA__CTOR_OFFSET))(this, clip, time, speed, next, layerIndex);
 		}
 
-		/*
 		::System::Void _ctor_1(::NPCCrowd::Animation::CPUStateMachine::SharedStateData sharedState)
 		{
 			return ((::System::Void(*)(::PVOID, ::NPCCrowd::Animation::CPUStateMachine::SharedStateData))((::PBYTE)hIl2Cpp + NPCCROWD_ANIMATION_CPUSTATEMACHINE_ANIMATIONCLIPDATA__CTOR_1_OFFSET))(this, sharedState);
 		}
-		*/
 
 		::System::Single get_SampleTime()
 		{

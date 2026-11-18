@@ -1,31 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/DateTime.h"
 
 namespace Mono::Security { class ASN1; }
 namespace System { class String; }
 
-#define MONO_SECURITY_ASN1CONVERT_FROMDATETIME_OFFSET UNITYSDK_OFFSET(0x1F4C3140)
-#define MONO_SECURITY_ASN1CONVERT_FROMINT32_OFFSET UNITYSDK_OFFSET(0x1F4C3470)
-#define MONO_SECURITY_ASN1CONVERT_FROMOID_OFFSET UNITYSDK_OFFSET(0x1F4C3600)
-#define MONO_SECURITY_ASN1CONVERT_FROMUNSIGNEDBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1F4C3690)
-#define MONO_SECURITY_ASN1CONVERT_TODATETIME_OFFSET UNITYSDK_OFFSET(0x1F4C3AD0)
-#define MONO_SECURITY_ASN1CONVERT_TOINT32_OFFSET UNITYSDK_OFFSET(0x1F4C3760)
-#define MONO_SECURITY_ASN1CONVERT_TOOID_OFFSET UNITYSDK_OFFSET(0x1F4C3870)
+#define MONO_SECURITY_ASN1CONVERT_FROMINT32_OFFSET UNITYSDK_OFFSET(0x1D3FA5E0)
+#define MONO_SECURITY_ASN1CONVERT_FROMOID_OFFSET UNITYSDK_OFFSET(0x1D3FA770)
+#define MONO_SECURITY_ASN1CONVERT_TODATETIME_OFFSET UNITYSDK_OFFSET(0x1D3FAB70)
+#define MONO_SECURITY_ASN1CONVERT_TOINT32_OFFSET UNITYSDK_OFFSET(0x1D3FA800)
+#define MONO_SECURITY_ASN1CONVERT_TOOID_OFFSET UNITYSDK_OFFSET(0x1D3FA910)
 
 namespace Mono::Security
 {
-	inline static constexpr unsigned int ASN1Convert_TypeDefinitionIndex = 2272;
+	inline static constexpr unsigned int ASN1Convert_TypeDefinitionIndex = 49;
 
 	class ASN1Convert : public ::System::Object
 	{
 	public:
-		static ::Mono::Security::ASN1* FromDateTime(::System::DateTime dt)
-		{
-			return ((::Mono::Security::ASN1*(*)(::System::DateTime))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1CONVERT_FROMDATETIME_OFFSET))(dt);
-		}
-
 		static ::Mono::Security::ASN1* FromInt32(::System::Int32 value)
 		{
 			return ((::Mono::Security::ASN1*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1CONVERT_FROMINT32_OFFSET))(value);
@@ -34,11 +27,6 @@ namespace Mono::Security
 		static ::Mono::Security::ASN1* FromOid(::System::String* oid)
 		{
 			return ((::Mono::Security::ASN1*(*)(::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1CONVERT_FROMOID_OFFSET))(oid);
-		}
-
-		static ::Mono::Security::ASN1* FromUnsignedBigInteger(::Il2CppArray<::System::Byte>* big)
-		{
-			return ((::Mono::Security::ASN1*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_ASN1CONVERT_FROMUNSIGNEDBIGINTEGER_OFFSET))(big);
 		}
 
 		static ::System::Int32 ToInt32(::Mono::Security::ASN1* asn1)

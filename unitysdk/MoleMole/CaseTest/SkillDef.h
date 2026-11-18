@@ -4,18 +4,20 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CASETEST_SKILLDEF__CTOR_OFFSET UNITYSDK_OFFSET(0xF128430)
+#define MOLEMOLE_CASETEST_SKILLDEF__CTOR_OFFSET UNITYSDK_OFFSET(0xFFBFE90)
 
 namespace MoleMole::CaseTest
 {
-	inline static constexpr unsigned int SkillDef_TypeDefinitionIndex = 71795;
+	inline static constexpr unsigned int SkillDef_TypeDefinitionIndex = 88506;
 
 	class SkillDef : public ::System::Object
 	{
 	public:
 		::System::Int32 skillID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* skillName; // 0x18
 		::System::Int32 replayTime; // 0x20
+		::System::Byte _padding1[0x4];
 		::System::String* skillAbilityStr; // 0x28
 		::System::Boolean DisableReset; // 0x30
 

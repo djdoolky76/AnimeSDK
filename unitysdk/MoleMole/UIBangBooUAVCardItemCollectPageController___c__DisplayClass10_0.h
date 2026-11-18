@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_CFC1DA8C3898E356;
+class AGFBDEFDLAM;
 
-#define MOLEMOLE_UIBANGBOOUAVCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18021160)
-#define MOLEMOLE_UIBANGBOOUAVCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS10_0__INITREWARDBTN_B__0_OFFSET UNITYSDK_OFFSET(0x18021170)
+#define MOLEMOLE_UIBANGBOOUAVCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19185710)
+#define MOLEMOLE_UIBANGBOOUAVCARDITEMCOLLECTPAGECONTROLLER___C__DISPLAYCLASS10_0__INITREWARDBTN_B__0_OFFSET UNITYSDK_OFFSET(0x19185720)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIBangBooUAVCardItemCollectPageController___c__DisplayClass10_0_TypeDefinitionIndex = 56672;
+	inline static constexpr unsigned int UIBangBooUAVCardItemCollectPageController___c__DisplayClass10_0_TypeDefinitionIndex = 41549;
 
 	class UIBangBooUAVCardItemCollectPageController___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::Class_2_CFC1DA8C3898E356* compBtnData; // 0x10
+		::AGFBDEFDLAM* compBtnData; // 0x10
 
 		::System::Void _ctor()
 		{

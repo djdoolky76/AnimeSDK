@@ -7,12 +7,12 @@ namespace Sirenix::Serialization { class IFormatter; }
 namespace Sirenix::Serialization { class ISerializationPolicy; }
 namespace System { class Type; }
 
-#define SIRENIX_SERIALIZATION_COLORBLOCKFORMATTERLOCATOR_TRYGETFORMATTER_OFFSET UNITYSDK_OFFSET(0x1EFDF330)
-#define SIRENIX_SERIALIZATION_COLORBLOCKFORMATTERLOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFDF500)
+#define SIRENIX_SERIALIZATION_COLORBLOCKFORMATTERLOCATOR_TRYGETFORMATTER_OFFSET UNITYSDK_OFFSET(0x1F38CEA0)
+#define SIRENIX_SERIALIZATION_COLORBLOCKFORMATTERLOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F38D070)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int ColorBlockFormatterLocator_TypeDefinitionIndex = 7579;
+	inline static constexpr unsigned int ColorBlockFormatterLocator_TypeDefinitionIndex = 7591;
 
 	class ColorBlockFormatterLocator : public ::System::Object
 	{

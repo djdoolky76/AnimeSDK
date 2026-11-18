@@ -5,11 +5,11 @@
 namespace MoleMole { class CameraShotData; }
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCAMERACUTSCENES_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B547770)
+#define MOLEMOLE_CONFIG_CONFIGCAMERACUTSCENES_KEYVALUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA272A0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCameraCutscenes_KeyValueInfo_TypeDefinitionIndex = 69878;
+	inline static constexpr unsigned int ConfigCameraCutscenes_KeyValueInfo_TypeDefinitionIndex = 90122;
 
 	class ConfigCameraCutscenes_KeyValueInfo : public ::System::Object
 	{

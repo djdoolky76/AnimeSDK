@@ -4,7 +4,7 @@
 
 namespace Sirenix::Utilities
 {
-	inline static constexpr unsigned int ArrayUtilities_TypeDefinitionIndex = 6481;
+	inline static constexpr unsigned int ArrayUtilities_TypeDefinitionIndex = 6487;
 
 	class ArrayUtilities : public ::System::Object
 	{

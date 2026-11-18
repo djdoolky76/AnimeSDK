@@ -3,7 +3,7 @@
 
 namespace UnrealTypes
 {
-	inline static constexpr unsigned int NativeStructList_1_IPredicate_TypeDefinitionIndex = 28297;
+	inline static constexpr unsigned int NativeStructList_1_IPredicate_TypeDefinitionIndex = 27714;
 
 	template <typename T>
 	class NativeStructList_1_IPredicate

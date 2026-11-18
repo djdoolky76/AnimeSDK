@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace System::Threading { template <typename T> class ThreadLocal_1_LinkedSlot; }
+namespace System { class Object; }
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadLocal_1_LinkedSlotVolatile_TypeDefinitionIndex = 803;
+	inline static constexpr unsigned int ThreadLocal_1_LinkedSlotVolatile_TypeDefinitionIndex = 802;
 
 	template <typename T>
-	struct ThreadLocal_1_LinkedSlotVolatile
+	struct alignas(8) ThreadLocal_1_LinkedSlotVolatile
 	{
-		::System::Threading::ThreadLocal_1_LinkedSlot<T>* Value; // 0x0
+		::System::Object* Value; // 0x0
 	};
 }

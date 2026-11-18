@@ -5,14 +5,14 @@
 
 namespace UnityEngine { class Transform; }
 
-#define MIHOYOEMOTION_BONESHAPE_SETNEUTRAL_OFFSET UNITYSDK_OFFSET(0x1D026300)
-#define MIHOYOEMOTION_BONESHAPE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D026650)
-#define MIHOYOEMOTION_BONESHAPE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D0266F0)
-#define MIHOYOEMOTION_BONESHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0265E0)
+#define MIHOYOEMOTION_BONESHAPE_SETNEUTRAL_OFFSET UNITYSDK_OFFSET(0x1D5797E0)
+#define MIHOYOEMOTION_BONESHAPE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D579B30)
+#define MIHOYOEMOTION_BONESHAPE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D579BD0)
+#define MIHOYOEMOTION_BONESHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D579AC0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int BoneShape_TypeDefinitionIndex = 40030;
+	inline static constexpr unsigned int BoneShape_TypeDefinitionIndex = 38077;
 
 	class BoneShape : public ::System::Object
 	{
@@ -23,6 +23,7 @@ namespace miHoYoEmotion
 		::UnityEngine::Vector3 endScale; // 0x30
 		::System::Boolean lockPosition; // 0x3C
 		::System::Boolean lockRotation; // 0x3D
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Vector3 neutralPosition; // 0x40
 		::UnityEngine::Vector3 neutralRotation; // 0x4C
 		::UnityEngine::Vector3 neutralScale; // 0x58

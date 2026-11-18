@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/ExtractorNode_4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLOWCANVAS_NODES_EXTRACTVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E8B71B0)
-#define FLOWCANVAS_NODES_EXTRACTVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B71E0)
+#define FLOWCANVAS_NODES_EXTRACTVECTOR3_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EB7CAD0)
+#define FLOWCANVAS_NODES_EXTRACTVECTOR3__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7CB00)
 
 namespace FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ExtractVector3_TypeDefinitionIndex = 30497;
+	inline static constexpr unsigned int ExtractVector3_TypeDefinitionIndex = 30903;
 
-	class ExtractVector3 : public ::FlowCanvas::Nodes::ExtractorNode_4<::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single>
+	class ExtractVector3
 	{
 	public:
 		::System::Void _ctor()

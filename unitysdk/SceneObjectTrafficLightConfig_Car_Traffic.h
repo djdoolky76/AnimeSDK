@@ -8,14 +8,15 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENEOBJECTTRAFFICLIGHTCONFIG_CAR_TRAFFIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3F590)
+#define SCENEOBJECTTRAFFICLIGHTCONFIG_CAR_TRAFFIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1F0460)
 
-inline static constexpr unsigned int SceneObjectTrafficLightConfig_Car_Traffic_TypeDefinitionIndex = 67259;
+inline static constexpr unsigned int SceneObjectTrafficLightConfig_Car_Traffic_TypeDefinitionIndex = 87326;
 
 class SceneObjectTrafficLightConfig_Car_Traffic : public ::System::Object
 {
 public:
 	::MoleMole::TrafficLightType type; // 0x10
+	::System::Byte _padding0[0x4];
 	::System::String* red_path; // 0x18
 	::System::String* yellow_path; // 0x20
 	::System::String* green_path; // 0x28

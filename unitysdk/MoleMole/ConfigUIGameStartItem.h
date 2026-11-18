@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/ConfigLazyLoadItem_1.h"
 
-namespace MoleMole { class ConfigUICommon_GameStart; }
-
-#define MOLEMOLE_CONFIGUIGAMESTARTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD9F90)
+#define MOLEMOLE_CONFIGUIGAMESTARTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xFFF5FE0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigUIGameStartItem_TypeDefinitionIndex = 42369;
+	inline static constexpr unsigned int ConfigUIGameStartItem_TypeDefinitionIndex = 40715;
 
-	class ConfigUIGameStartItem : public ::MoleMole::ConfigLazyLoadItem_1<::MoleMole::ConfigUICommon_GameStart*>
+	class ConfigUIGameStartItem
 	{
 	public:
 		::System::Void _ctor()

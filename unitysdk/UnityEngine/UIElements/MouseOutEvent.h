@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/UIElements/MouseEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_MOUSEOUTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D001C10)
+#define UNITYENGINE_UIELEMENTS_MOUSEOUTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B6DA0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseOutEvent_TypeDefinitionIndex = 28147;
+	inline static constexpr unsigned int MouseOutEvent_TypeDefinitionIndex = 27565;
 
-	class MouseOutEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseOutEvent*>
+	class MouseOutEvent
 	{
 	public:
 		::System::Void _ctor()

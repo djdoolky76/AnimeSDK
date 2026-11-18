@@ -1,30 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 #include "unitysdk/FlexBuffers/FlxMap.h"
 #include "unitysdk/FlexBuffers/FlxValue.h"
 #include "unitysdk/Foundation/ViewObject/EntityBuildContext.h"
-#include "unitysdk/MoleMole/Config/ConfigViewObjectTraitBase.h"
 
-class Class_1_236FD73ABC492E3F;
+class FKNIEPCILLG;
+class OHDHAGLCAEB;
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1BD68330)
-#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x1BD67AB0)
-#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x1BD67A60)
-#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BD67F70)
-#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x1BD67BC0)
-#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x1BD67BB0)
-#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BD67FD0)
-#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x1BD67C40)
-#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BD68180)
-#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x1BD67E10)
-#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD68380)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_BUILDENTITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0x190ADD70)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_CLONE_OFFSET UNITYSDK_OFFSET(0x190AD4A0)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x190AD5A0)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_FOREACHREFTYPEMEMBER_OFFSET UNITYSDK_OFFSET(0x190AD450)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190AD9D0)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_FROMFLX_OFFSET UNITYSDK_OFFSET(0x190AD640)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_GETHASHNUM_OFFSET UNITYSDK_OFFSET(0x190AD590)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_INTERNALFROMBINARY_OFFSET UNITYSDK_OFFSET(0x190ADA30)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_INTERNALFROMFLX_OFFSET UNITYSDK_OFFSET(0x190AD6C0)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x190ADBE0)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_PARSEFROMFLX_OFFSET UNITYSDK_OFFSET(0x190AD890)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x190ADDC0)
+#define MOLEMOLE_CONFIG_DITHEROBJECTTRAIT___BASE_EXPOSEMEMBER_OFFSET UNITYSDK_OFFSET(0x190ADE00)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int DitherObjectTrait_TypeDefinitionIndex = 65402;
+	inline static constexpr unsigned int DitherObjectTrait_TypeDefinitionIndex = 91899;
 
 	class DitherObjectTrait : public ::MoleMole::Config::ConfigViewObjectTraitBase
 	{
@@ -51,6 +54,11 @@ namespace MoleMole::Config
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_GETHASHNUM_OFFSET))(this);
 		}
 
+		::System::Void ExposeMember(::OHDHAGLCAEB* processor, ::System::String* prefix)
+		{
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_EXPOSEMEMBER_OFFSET))(this, processor, prefix);
+		}
+
 		::System::Boolean FromFlx(::FlexBuffers::FlxValue node)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_FROMFLX_OFFSET))(this, node);
@@ -66,24 +74,29 @@ namespace MoleMole::Config
 			return ((::MoleMole::Config::DitherObjectTrait*(*)(::FlexBuffers::FlxValue))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_PARSEFROMFLX_OFFSET))(node);
 		}
 
-		::System::Boolean FromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean FromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_FROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		::System::Boolean InternalFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		::System::Boolean InternalFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
+			return ((::System::Boolean(*)(::PVOID, ::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_INTERNALFROMBINARY_OFFSET))(this, byteArray, threadFlag);
 		}
 
-		static ::MoleMole::Config::DitherObjectTrait* ParseFromBinary(::Class_1_236FD73ABC492E3F* byteArray, ::System::Int32 threadFlag)
+		static ::MoleMole::Config::DitherObjectTrait* ParseFromBinary(::FKNIEPCILLG* byteArray, ::System::Int32 threadFlag)
 		{
-			return ((::MoleMole::Config::DitherObjectTrait*(*)(::Class_1_236FD73ABC492E3F*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
+			return ((::MoleMole::Config::DitherObjectTrait*(*)(::FKNIEPCILLG*, ::System::Int32))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_PARSEFROMBINARY_OFFSET))(byteArray, threadFlag);
 		}
 
 		::System::Boolean BuildEntityComponent(::Foundation::ViewObject::EntityBuildContext& buildContext)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Foundation::ViewObject::EntityBuildContext&))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DITHEROBJECTTRAIT_BUILDENTITYCOMPONENT_OFFSET))(this, buildContext);
+		}
+
+		::System::Void __base_ExposeMember(::OHDHAGLCAEB* P0, ::System::String* P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::OHDHAGLCAEB*, ::System::String*))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_DITHEROBJECTTRAIT___BASE_EXPOSEMEMBER_OFFSET))(this, P0, P1);
 		}
 	};
 }

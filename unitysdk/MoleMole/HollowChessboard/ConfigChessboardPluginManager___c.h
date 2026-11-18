@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_27CCD45BA8768483_2;
+class LLCFODKNNLB;
 namespace System { template <typename T> class Action_1; }
 
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGCHESSBOARDPLUGINMANAGER___C_METHOD_1_3B10EBB5408EF02E_OFFSET UNITYSDK_OFFSET(0x19BF6250)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGCHESSBOARDPLUGINMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BF6200)
-#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGCHESSBOARDPLUGINMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF6240)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGCHESSBOARDPLUGINMANAGER___C_LFLODPCJPOE_OFFSET UNITYSDK_OFFSET(0x162D0FE0)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGCHESSBOARDPLUGINMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162D0F90)
+#define MOLEMOLE_HOLLOWCHESSBOARD_CONFIGCHESSBOARDPLUGINMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162D0FD0)
 
 namespace MoleMole::HollowChessboard
 {
-	inline static constexpr unsigned int ConfigChessboardPluginManager___c_TypeDefinitionIndex = 61882;
+	inline static constexpr unsigned int ConfigChessboardPluginManager___c_TypeDefinitionIndex = 62586;
 
 	class ConfigChessboardPluginManager___c : public ::System::Object
 	{
 	public:
-		static ::MoleMole::HollowChessboard::ConfigChessboardPluginManager___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::HollowChessboard::ConfigChessboardPluginManager___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigChessboardPluginManager___c_TypeDefinitionIndex)->GetStaticField(0x48DE0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ConfigChessboardPluginManager___c_TypeDefinitionIndex)->GetStaticField(0x46CB0);
 		}
-		static ::System::Action_1<::Class_1_27CCD45BA8768483_2*>** StaticGet___9__7_0()
+		static ::System::Action_1<::LLCFODKNNLB*>** StaticGet___9__7_0()
 		{
-			return (::System::Action_1<::Class_1_27CCD45BA8768483_2*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigChessboardPluginManager___c_TypeDefinitionIndex)->GetStaticField(0x48DE8);
+			return (::System::Action_1<::LLCFODKNNLB*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigChessboardPluginManager___c_TypeDefinitionIndex)->GetStaticField(0x46CB8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MoleMole::HollowChessboard
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_CONFIGCHESSBOARDPLUGINMANAGER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_3B10EBB5408EF02E(::Class_1_27CCD45BA8768483_2* a1)
+		::System::Void LFLODPCJPOE(::LLCFODKNNLB* CIMFKACAGNI)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_27CCD45BA8768483_2*))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_CONFIGCHESSBOARDPLUGINMANAGER___C_METHOD_1_3B10EBB5408EF02E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::LLCFODKNNLB*))((::PBYTE)hIl2Cpp + MOLEMOLE_HOLLOWCHESSBOARD_CONFIGCHESSBOARDPLUGINMANAGER___C_LFLODPCJPOE_OFFSET))(this, CIMFKACAGNI);
 		}
 	};
 }

@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
 
 namespace FlowCanvas::Macros { class MacroNodeWrapper; }
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_GRAPH_MARCONODEWRAPPER_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E22CEB0)
-#define MESSAGEPACK_FORMATTERS_GRAPH_MARCONODEWRAPPER_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E22CAA0)
-#define MESSAGEPACK_FORMATTERS_GRAPH_MARCONODEWRAPPER_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E22D3D0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_MARCONODEWRAPPER_FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EBAE6D0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_MARCONODEWRAPPER_FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EBAE2C0)
+#define MESSAGEPACK_FORMATTERS_GRAPH_MARCONODEWRAPPER_FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBAEBF0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Graph_MarcoNodeWrapper_Formatter_TypeDefinitionIndex = 30763;
+	inline static constexpr unsigned int Graph_MarcoNodeWrapper_Formatter_TypeDefinitionIndex = 30308;
 
 	class Graph_MarcoNodeWrapper_Formatter : public ::System::Object
 	{

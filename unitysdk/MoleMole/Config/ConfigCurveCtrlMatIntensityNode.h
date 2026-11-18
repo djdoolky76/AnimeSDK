@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/Config/ConfigCurveCtrlBaseNode.h"
 
-class Class_1_D72537470FC2F779;
+class ADCIIHIOAMH;
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIG_CONFIGCURVECTRLMATINTENSITYNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x177D8030)
-#define MOLEMOLE_CONFIG_CONFIGCURVECTRLMATINTENSITYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x177D80A0)
+#define MOLEMOLE_CONFIG_CONFIGCURVECTRLMATINTENSITYNODE_GETUIANIMATIONNODE_OFFSET UNITYSDK_OFFSET(0x174F7F80)
+#define MOLEMOLE_CONFIG_CONFIGCURVECTRLMATINTENSITYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x174F7FF0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigCurveCtrlMatIntensityNode_TypeDefinitionIndex = 75439;
+	inline static constexpr unsigned int ConfigCurveCtrlMatIntensityNode_TypeDefinitionIndex = 51101;
 
 	class ConfigCurveCtrlMatIntensityNode : public ::MoleMole::Config::ConfigCurveCtrlBaseNode
 	{
 	public:
-		::System::String* TargetColor; // 0x48
+		::System::String* TargetMats; // 0x48
 		::System::String* MatProperty; // 0x50
-		::System::String* TargetMats; // 0x58
+		::System::String* TargetColor; // 0x58
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCURVECTRLMATINTENSITYNODE__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_D72537470FC2F779* GetUIAnimationNode()
+		::ADCIIHIOAMH* GetUIAnimationNode()
 		{
-			return ((::Class_1_D72537470FC2F779*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCURVECTRLMATINTENSITYNODE_GETUIANIMATIONNODE_OFFSET))(this);
+			return ((::ADCIIHIOAMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_CONFIG_CONFIGCURVECTRLMATINTENSITYNODE_GETUIANIMATIONNODE_OFFSET))(this);
 		}
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace System::Security::Cryptography { class KeySizes; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD01E60)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1DD01DF0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0F47A0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E0F4730)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int Rijndael_TypeDefinitionIndex = 1081;
+	inline static constexpr unsigned int Rijndael_TypeDefinitionIndex = 1080;
 
 	class Rijndael : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{

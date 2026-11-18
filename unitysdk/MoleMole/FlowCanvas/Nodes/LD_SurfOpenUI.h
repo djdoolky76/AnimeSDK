@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Flow.h"
 #include "unitysdk/FlowCanvas/Nodes/CallableActionNodeBase.h"
+#include "unitysdk/FlowCanvas/Flow.h"
 
 namespace FlowCanvas { class FlowNode; }
 namespace FlowCanvas { class FlowOutput; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFOPENUI_ONREGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x19B17BA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFOPENUI_START_OFFSET UNITYSDK_OFFSET(0x19B17C70)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFOPENUI__CTOR_OFFSET UNITYSDK_OFFSET(0x19B17DA0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFOPENUI_ONREGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x1A8F4B40)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFOPENUI_START_OFFSET UNITYSDK_OFFSET(0x1A8F4C10)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_SURFOPENUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8F4D40)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_SurfOpenUI_TypeDefinitionIndex = 80936;
+	inline static constexpr unsigned int LD_SurfOpenUI_TypeDefinitionIndex = 54928;
 
 	class LD_SurfOpenUI : public ::FlowCanvas::Nodes::CallableActionNodeBase
 	{

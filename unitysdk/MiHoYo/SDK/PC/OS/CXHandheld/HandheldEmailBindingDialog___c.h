@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldEmailBindingDialog; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA100D0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DA10110)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C__SHOW_B__71_0_OFFSET UNITYSDK_OFFSET(0x1DA10120)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC2C390)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1DC2C3D0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C__SHOW_B__71_0_OFFSET UNITYSDK_OFFSET(0x1DC2C3E0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldEmailBindingDialog___c_TypeDefinitionIndex = 20902;
+	inline static constexpr unsigned int HandheldEmailBindingDialog___c_TypeDefinitionIndex = 20106;
 
 	class HandheldEmailBindingDialog___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::PC::OS::CXHandheld::HandheldEmailBindingDialog___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::PC::OS::CXHandheld::HandheldEmailBindingDialog___c**)Il2CppClass::FromTypeDefinitionIndex(HandheldEmailBindingDialog___c_TypeDefinitionIndex)->GetStaticField(0xB490);
-		}
 		static ::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldEmailBindingDialog*>** StaticGet___9__71_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldEmailBindingDialog*>**)Il2CppClass::FromTypeDefinitionIndex(HandheldEmailBindingDialog___c_TypeDefinitionIndex)->GetStaticField(0xB498);
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldEmailBindingDialog*>**)Il2CppClass::FromTypeDefinitionIndex(HandheldEmailBindingDialog___c_TypeDefinitionIndex)->GetStaticField(0xB450);
+		}
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(HandheldEmailBindingDialog___c_TypeDefinitionIndex)->GetStaticField(0xB458);
 		}
 
 		static ::System::Void _cctor()

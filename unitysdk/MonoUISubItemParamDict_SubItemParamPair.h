@@ -5,14 +5,15 @@
 
 class MonoUISubItemParamDict_SubItemParam;
 
-#define MONOUISUBITEMPARAMDICT_SUBITEMPARAMPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x11E58130)
+#define MONOUISUBITEMPARAMDICT_SUBITEMPARAMPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x12FC67C0)
 
-inline static constexpr unsigned int MonoUISubItemParamDict_SubItemParamPair_TypeDefinitionIndex = 83594;
+inline static constexpr unsigned int MonoUISubItemParamDict_SubItemParamPair_TypeDefinitionIndex = 91087;
 
 class MonoUISubItemParamDict_SubItemParamPair : public ::System::Object
 {
 public:
 	::MonoUISubItemParamDict_ESubItemParamType type; // 0x10
+	::System::Byte _padding0[0x4];
 	::MonoUISubItemParamDict_SubItemParam* param; // 0x18
 
 	::System::Void _ctor()

@@ -1,22 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_AD73F3F0692AA278.h"
+#include "unitysdk/HDAHILBOJEC.h"
 #include "unitysdk/MoleMole/Project/Config/PointBaseData.h"
 
 namespace MoleMole::Project::Config { class CollisionShapeData; }
 
-#define MOLEMOLE_PROJECT_CONFIG_TARGETPOINTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB9C560)
+#define MOLEMOLE_PROJECT_CONFIG_TARGETPOINTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFE6110)
 
 namespace MoleMole::Project::Config
 {
-	inline static constexpr unsigned int TargetPointData_TypeDefinitionIndex = 10558;
+	inline static constexpr unsigned int TargetPointData_TypeDefinitionIndex = 9587;
 
 	class TargetPointData : public ::MoleMole::Project::Config::PointBaseData
 	{
 	public:
 		::System::Int32 order; // 0x20
+		::System::Byte _padding0[0x4];
 		::MoleMole::Project::Config::CollisionShapeData* collisionShape; // 0x28
-		::Enum_3_AD73F3F0692AA278 missionStatusStatus; // 0x30
+		::HDAHILBOJEC missionStatusStatus; // 0x30
 
 		::System::Void _ctor()
 		{

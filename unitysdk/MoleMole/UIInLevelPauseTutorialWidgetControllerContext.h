@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIINLEVELPAUSETUTORIALWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x189A0A20)
+#define MOLEMOLE_UIINLEVELPAUSETUTORIALWIDGETCONTROLLERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1901FC50)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIInLevelPauseTutorialWidgetControllerContext_TypeDefinitionIndex = 78054;
+	inline static constexpr unsigned int UIInLevelPauseTutorialWidgetControllerContext_TypeDefinitionIndex = 67622;
 
 	class UIInLevelPauseTutorialWidgetControllerContext : public ::MoleMole::UIControllerContextBase
 	{

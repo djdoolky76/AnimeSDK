@@ -6,11 +6,11 @@ namespace MoleMole::Config { class ConfigDynamicAccessoryData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MOLEMOLE_CONFIG_CONFIGVERSIONEDDYNAMICACCESSORIES__CTOR_OFFSET UNITYSDK_OFFSET(0x177E4340)
+#define MOLEMOLE_CONFIG_CONFIGVERSIONEDDYNAMICACCESSORIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1A76BDD0)
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int ConfigVersionedDynamicAccessories_TypeDefinitionIndex = 58331;
+	inline static constexpr unsigned int ConfigVersionedDynamicAccessories_TypeDefinitionIndex = 43253;
 
 	class ConfigVersionedDynamicAccessories : public ::Foundation::MihoyoSerializedScriptableObject
 	{

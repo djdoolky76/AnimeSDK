@@ -3,7 +3,7 @@
 
 namespace MoleMole::Config
 {
-	inline static constexpr unsigned int SceneChessboardCutSceneConfig_BodySize_TypeDefinitionIndex = 51690;
+	inline static constexpr unsigned int SceneChessboardCutSceneConfig_BodySize_TypeDefinitionIndex = 52082;
 
 	enum class SceneChessboardCutSceneConfig_BodySize : ::System::Int32
 	{

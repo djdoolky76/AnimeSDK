@@ -6,34 +6,34 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Slider; }
 namespace UnityEngine::UI { class Text; }
 
-#define MOLEMOLE_MONOFPSCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x129B34D0)
-#define MOLEMOLE_MONOFPSCONTROLLER_METHOD_5_627594C270CB38B4_OFFSET UNITYSDK_OFFSET(0x129B3AD0)
-#define MOLEMOLE_MONOFPSCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x129B3760)
-#define MOLEMOLE_MONOFPSCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x129B3A80)
-#define MOLEMOLE_MONOFPSCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x129B3A20)
+#define MOLEMOLE_MONOFPSCONTROLLER_AFNOALNPOIN_OFFSET UNITYSDK_OFFSET(0x12475950)
+#define MOLEMOLE_MONOFPSCONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x12475350)
+#define MOLEMOLE_MONOFPSCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0x124755E0)
+#define MOLEMOLE_MONOFPSCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x12475900)
+#define MOLEMOLE_MONOFPSCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x124758A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int MonoFPSController_TypeDefinitionIndex = 69485;
+	inline static constexpr unsigned int MonoFPSController_TypeDefinitionIndex = 76551;
 
 	class MonoFPSController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_Field_5_4()
+		static ::System::String** StaticGet_NIINEACEKMG()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MonoFPSController_TypeDefinitionIndex)->GetStaticField(0x50F40);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MonoFPSController_TypeDefinitionIndex)->GetStaticField(0x41BC0);
 		}
-		static ::System::Int32* StaticGet_Field_5_5()
+		static ::System::Int32* StaticGet_MMPPHMOGOGP()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSController_TypeDefinitionIndex)->GetStaticField(0x12860);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSController_TypeDefinitionIndex)->GetStaticField(0xF040);
 		}
-		static ::System::Int32* StaticGet_Field_5_6()
+		static ::System::Int32* StaticGet_FJFCDDINDFP()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSController_TypeDefinitionIndex)->GetStaticField(0x12864);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoFPSController_TypeDefinitionIndex)->GetStaticField(0xF044);
 		}
-		::UnityEngine::UI::Text* Field_5_0; // 0x18
-		::UnityEngine::UI::Slider* Field_5_7; // 0x20
-		::System::Int32 Field_5_11; // 0x28
+		::UnityEngine::UI::Text* FCCLIEJAKLI; // 0x18
+		::UnityEngine::UI::Slider* LGGEPNMJIOB; // 0x20
+		::System::Int32 CENMNHMGNGF; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -55,9 +55,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOFPSCONTROLLER_START_OFFSET))(this);
 		}
 
-		::System::Void Method_5_627594C270CB38B4(::System::Single a1)
+		::System::Void AFNOALNPOIN(::System::Single EGEGIMGMJHN)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOFPSCONTROLLER_METHOD_5_627594C270CB38B4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MOLEMOLE_MONOFPSCONTROLLER_AFNOALNPOIN_OFFSET))(this, EGEGIMGMJHN);
 		}
 	};
 }

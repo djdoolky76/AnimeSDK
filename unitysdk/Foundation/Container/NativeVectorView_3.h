@@ -1,16 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Foundation/Container/NativeFlatStorageView_3.h"
-#include "unitysdk/Foundation/Container/NativeVectorView_3_InlineData.h"
 #include "unitysdk/System/ValueType.h"
+
+namespace System { class Object; }
 
 namespace Foundation::Container
 {
-	inline static constexpr unsigned int NativeVectorView_3_TypeDefinitionIndex = 8635;
+	inline static constexpr unsigned int NativeVectorView_3_TypeDefinitionIndex = 8831;
 
-	template <typename TUserData, typename T1, typename T2>
-	struct NativeVectorView_3
+	template <typename T1, typename T2, typename T3>
+	struct alignas(8) NativeVectorView_3
 	{
-		::Foundation::Container::NativeFlatStorageView_3<::Foundation::Container::NativeVectorView_3_InlineData<TUserData, T1, T2>, T1, T2> _view; // 0x0
+		::Foundation::Container::NativeFlatStorageView_3<::System::Object*, T1, T2> _view; // 0x0
 	};
 }

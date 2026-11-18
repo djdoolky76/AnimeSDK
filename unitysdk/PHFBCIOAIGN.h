@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OOPDODNABBE.h"
+
+class BHLCBBEEJIJ;
+
+#define PHFBCIOAIGN_ALLKLDODJLM_OFFSET UNITYSDK_OFFSET(0x1A7F1540)
+#define PHFBCIOAIGN_EHODHGDBMGB_OFFSET UNITYSDK_OFFSET(0x1A7F1090)
+#define PHFBCIOAIGN_FJNODENNOOK_OFFSET UNITYSDK_OFFSET(0x1A7F1950)
+#define PHFBCIOAIGN_HNPIDMBLNLB_OFFSET UNITYSDK_OFFSET(0x1A7F19E0)
+#define PHFBCIOAIGN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7F1020)
+
+inline static constexpr unsigned int PHFBCIOAIGN_TypeDefinitionIndex = 56636;
+
+class PHFBCIOAIGN
+{
+public:
+	::System::Void _ctor(::BHLCBBEEJIJ* KPFNAMACIDA)
+	{
+		return ((::System::Void(*)(::PVOID, ::BHLCBBEEJIJ*))((::PBYTE)hIl2Cpp + PHFBCIOAIGN__CTOR_OFFSET))(this, KPFNAMACIDA);
+	}
+
+	::System::Void EHODHGDBMGB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PHFBCIOAIGN_EHODHGDBMGB_OFFSET))(this);
+	}
+
+	::System::Void ALLKLDODJLM(::OOPDODNABBE FCPCLIJNDLA)
+	{
+		return ((::System::Void(*)(::PVOID, ::OOPDODNABBE))((::PBYTE)hIl2Cpp + PHFBCIOAIGN_ALLKLDODJLM_OFFSET))(this, FCPCLIJNDLA);
+	}
+
+	::System::Void FJNODENNOOK()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PHFBCIOAIGN_FJNODENNOOK_OFFSET))(this);
+	}
+
+	::System::Void HNPIDMBLNLB(::OOPDODNABBE MIALFKCCCPI)
+	{
+		return ((::System::Void(*)(::PVOID, ::OOPDODNABBE))((::PBYTE)hIl2Cpp + PHFBCIOAIGN_HNPIDMBLNLB_OFFSET))(this, MIALFKCCCPI);
+	}
+};

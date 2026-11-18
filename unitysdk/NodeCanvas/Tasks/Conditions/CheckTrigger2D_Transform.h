@@ -1,34 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/NodeCanvas/Framework/ConditionTask_1.h"
-#include "unitysdk/ParadoxNotion/EventData_1.h"
 #include "unitysdk/ParadoxNotion/TriggerTypes.h"
+#include "unitysdk/ParadoxNotion/EventData_1.h"
 
 namespace NodeCanvas::Framework { template <typename T> class BBParameter_1; }
 namespace System { class String; }
 namespace UnityEngine { class Collider2D; }
 namespace UnityEngine { class GameObject; }
-namespace UnityEngine { class Transform; }
 
-#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E730BB0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1E730C60)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E730E10)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E730C80)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM_ONTRIGGERENTER2D_OFFSET UNITYSDK_OFFSET(0x1E730FA0)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM_ONTRIGGEREXIT2D_OFFSET UNITYSDK_OFFSET(0x1E731150)
-#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E731300)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM_GET_INFO_OFFSET UNITYSDK_OFFSET(0x1E9D5EB0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM_ONCHECK_OFFSET UNITYSDK_OFFSET(0x1E9D5F60)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E9D6110)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E9D5F80)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM_ONTRIGGERENTER2D_OFFSET UNITYSDK_OFFSET(0x1E9D62A0)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM_ONTRIGGEREXIT2D_OFFSET UNITYSDK_OFFSET(0x1E9D6450)
+#define NODECANVAS_TASKS_CONDITIONS_CHECKTRIGGER2D_TRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D6600)
 
 namespace NodeCanvas::Tasks::Conditions
 {
-	inline static constexpr unsigned int CheckTrigger2D_Transform_TypeDefinitionIndex = 30103;
+	inline static constexpr unsigned int CheckTrigger2D_Transform_TypeDefinitionIndex = 30460;
 
-	class CheckTrigger2D_Transform : public ::NodeCanvas::Framework::ConditionTask_1<::UnityEngine::Transform*>
+	class CheckTrigger2D_Transform
 	{
 	public:
-		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveGameObjectAs; // 0x60
-		::System::String* objectTag; // 0x68
+		::System::String* objectTag; // 0x60
+		::NodeCanvas::Framework::BBParameter_1<::UnityEngine::GameObject*>* saveGameObjectAs; // 0x68
 		::System::Boolean specifiedTagOnly; // 0x70
 		::System::Boolean stay; // 0x71
+		::System::Byte _padding0[0x2];
 		::ParadoxNotion::TriggerTypes CheckType; // 0x74
 
 		::System::Void _ctor()

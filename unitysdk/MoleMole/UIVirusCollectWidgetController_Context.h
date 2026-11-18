@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_8019553DE28C70A1_Enum_3_D1D49B5EF8F4C317.h"
+#include "unitysdk/EDMNFDCNFPM_CGBNNDKNPEA.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIVIRUSCOLLECTWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x11E30B50)
+#define MOLEMOLE_UIVIRUSCOLLECTWIDGETCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x12F909E0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIVirusCollectWidgetController_Context_TypeDefinitionIndex = 49564;
+	inline static constexpr unsigned int UIVirusCollectWidgetController_Context_TypeDefinitionIndex = 90559;
 
 	class UIVirusCollectWidgetController_Context : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_8019553DE28C70A1_Enum_3_D1D49B5EF8F4C317 levelType; // 0x28
+		::EDMNFDCNFPM_CGBNNDKNPEA levelType; // 0x28
 
 		::System::Void _ctor()
 		{

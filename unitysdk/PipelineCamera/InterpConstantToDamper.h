@@ -1,14 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
+#include "unitysdk/PipelineCamera/ValueBasedDampingStatus.h"
 
-#define PIPELINECAMERA_INTERPCONSTANTTODAMPER_PIPELINECAMERA_IVALUEBASEDDAMPER_PROCESS_OFFSET UNITYSDK_OFFSET(0xA94FC0)
-#define PIPELINECAMERA_INTERPCONSTANTTODAMPER_PROCESS_OFFSET UNITYSDK_OFFSET(0xA94FB0)
-#define PIPELINECAMERA_INTERPCONSTANTTODAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x324A50)
+#define PIPELINECAMERA_INTERPCONSTANTTODAMPER_PIPELINECAMERA_IVALUEBASEDDAMPER_PROCESS_OFFSET UNITYSDK_OFFSET(0x977B90)
+#define PIPELINECAMERA_INTERPCONSTANTTODAMPER_PROCESS_OFFSET UNITYSDK_OFFSET(0x977B80)
+#define PIPELINECAMERA_INTERPCONSTANTTODAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x358800)
 
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int InterpConstantToDamper_TypeDefinitionIndex = 38316;
+	inline static constexpr unsigned int InterpConstantToDamper_TypeDefinitionIndex = 36318;
 
 	struct alignas(4) InterpConstantToDamper
 	{
@@ -19,18 +20,14 @@ namespace PipelineCamera
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + PIPELINECAMERA_INTERPCONSTANTTODAMPER__CTOR_OFFSET))(this, interpConstantSpeed);
 		}
 
-		/*
 		::PipelineCamera::ValueBasedDampingStatus Process(::PipelineCamera::ValueBasedDampingStatus& current, ::PipelineCamera::ValueBasedDampingStatus& target, ::PipelineCamera::ValueBasedDampingStatus& lastTarget, ::System::Single deltaTime)
 		{
 			return ((::PipelineCamera::ValueBasedDampingStatus(*)(::PVOID, ::PipelineCamera::ValueBasedDampingStatus&, ::PipelineCamera::ValueBasedDampingStatus&, ::PipelineCamera::ValueBasedDampingStatus&, ::System::Single))((::PBYTE)hIl2Cpp + PIPELINECAMERA_INTERPCONSTANTTODAMPER_PROCESS_OFFSET))(this, current, target, lastTarget, deltaTime);
 		}
-		*/
 
-		/*
 		::PipelineCamera::ValueBasedDampingStatus PipelineCamera_IValueBasedDamper_Process(::PipelineCamera::ValueBasedDampingStatus& current, ::PipelineCamera::ValueBasedDampingStatus& target, ::PipelineCamera::ValueBasedDampingStatus& lastTarget, ::System::Single deltaTime)
 		{
 			return ((::PipelineCamera::ValueBasedDampingStatus(*)(::PVOID, ::PipelineCamera::ValueBasedDampingStatus&, ::PipelineCamera::ValueBasedDampingStatus&, ::PipelineCamera::ValueBasedDampingStatus&, ::System::Single))((::PBYTE)hIl2Cpp + PIPELINECAMERA_INTERPCONSTANTTODAMPER_PIPELINECAMERA_IVALUEBASEDDAMPER_PROCESS_OFFSET))(this, current, target, lastTarget, deltaTime);
 		}
-		*/
 	};
 }

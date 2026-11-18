@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/GraphicSettingProfileContextBase.h"
 
-#define MOLEMOLE_LOOPSUBDIVISIONPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x129AC070)
+#define MOLEMOLE_LOOPSUBDIVISIONPROFILECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1246D350)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int LoopSubdivisionProfileContext_TypeDefinitionIndex = 68213;
+	inline static constexpr unsigned int LoopSubdivisionProfileContext_TypeDefinitionIndex = 39463;
 
 	class LoopSubdivisionProfileContext : public ::MoleMole::GraphicSettingProfileContextBase
 	{
 	public:
-		::System::Boolean IsGlobal; // 0x18
-		::System::Boolean enable; // 0x19
+		::System::Boolean enable; // 0x18
+		::System::Boolean IsGlobal; // 0x19
 
 		::System::Void _ctor()
 		{

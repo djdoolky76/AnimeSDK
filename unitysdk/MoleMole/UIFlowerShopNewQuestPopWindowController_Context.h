@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIFLOWERSHOPNEWQUESTPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F9E7A0)
+#define MOLEMOLE_UIFLOWERSHOPNEWQUESTPOPWINDOWCONTROLLER_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18931D20)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFlowerShopNewQuestPopWindowController_Context_TypeDefinitionIndex = 57252;
+	inline static constexpr unsigned int UIFlowerShopNewQuestPopWindowController_Context_TypeDefinitionIndex = 80494;
 
 	class UIFlowerShopNewQuestPopWindowController_Context : public ::MoleMole::UIControllerContextBase
 	{

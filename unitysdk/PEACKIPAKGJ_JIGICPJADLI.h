@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/PEACKIPAKGJ_JMOHCNOLABL.h"
+
+class PEACKIPAKGJ;
+
+#define PEACKIPAKGJ_JIGICPJADLI_EDHIOJJJDEA_OFFSET UNITYSDK_OFFSET(0x136F58A0)
+#define PEACKIPAKGJ_JIGICPJADLI_IANNBONCHBG_OFFSET UNITYSDK_OFFSET(0x136F5920)
+#define PEACKIPAKGJ_JIGICPJADLI__CTOR_OFFSET UNITYSDK_OFFSET(0x136F5860)
+
+inline static constexpr unsigned int PEACKIPAKGJ_JIGICPJADLI_TypeDefinitionIndex = 88680;
+
+class PEACKIPAKGJ_JIGICPJADLI : public ::PEACKIPAKGJ_JMOHCNOLABL
+{
+public:
+	::System::Void _ctor(::PEACKIPAKGJ* CLDIIILGGHP)
+	{
+		return ((::System::Void(*)(::PVOID, ::PEACKIPAKGJ*))((::PBYTE)hIl2Cpp + PEACKIPAKGJ_JIGICPJADLI__CTOR_OFFSET))(this, CLDIIILGGHP);
+	}
+
+	::System::Boolean EDHIOJJJDEA(::System::Boolean AIJIDAJJDMH)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PEACKIPAKGJ_JIGICPJADLI_EDHIOJJJDEA_OFFSET))(this, AIJIDAJJDMH);
+	}
+
+	::System::Boolean IANNBONCHBG(::System::Boolean MIALFKCCCPI)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PEACKIPAKGJ_JIGICPJADLI_IANNBONCHBG_OFFSET))(this, MIALFKCCCPI);
+	}
+};

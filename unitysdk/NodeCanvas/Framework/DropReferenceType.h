@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define NODECANVAS_FRAMEWORK_DROPREFERENCETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DB34D90)
+#define NODECANVAS_FRAMEWORK_DROPREFERENCETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA7C30)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int DropReferenceType_TypeDefinitionIndex = 30771;
+	inline static constexpr unsigned int DropReferenceType_TypeDefinitionIndex = 30892;
 
 	class DropReferenceType : public ::System::Attribute
 	{

@@ -2,12 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System::Buffers { template <typename T> class IMemoryOwner_1; }
 namespace System::Buffers { template <typename T> class MemoryPool_1; }
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int MemoryPool_1_TypeDefinitionIndex = 6579;
+	inline static constexpr unsigned int MemoryPool_1_TypeDefinitionIndex = 6585;
 
 	template <typename T>
 	class MemoryPool_1 : public ::System::Object

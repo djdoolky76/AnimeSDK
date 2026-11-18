@@ -4,10 +4,10 @@
 
 namespace Foundation
 {
-	inline static constexpr unsigned int FixedArray2_1_TypeDefinitionIndex = 8555;
+	inline static constexpr unsigned int FixedArray2_1_TypeDefinitionIndex = 8946;
 
 	template <typename T>
-	struct FixedArray2_1
+	struct alignas(8) FixedArray2_1
 	{
 		T _slot1; // 0x0
 		T _slot2; // 0x0

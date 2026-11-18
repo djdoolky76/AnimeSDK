@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_2_DF73794ED874FFFB;
+class ALGKMLLALFG;
 
-#define MOLEMOLE_UIHOLLOWEVENTWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19FEE110)
+#define MOLEMOLE_UIHOLLOWEVENTWIDGETCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A293060)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIHollowEventWidgetContext_TypeDefinitionIndex = 68951;
+	inline static constexpr unsigned int UIHollowEventWidgetContext_TypeDefinitionIndex = 60944;
 
 	class UIHollowEventWidgetContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::Class_2_DF73794ED874FFFB* graph; // 0x28
+		::ALGKMLLALFG* graph; // 0x28
 
-		::System::Void _ctor(::Class_2_DF73794ED874FFFB* graph)
+		::System::Void _ctor(::ALGKMLLALFG* graph)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_DF73794ED874FFFB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWEVENTWIDGETCONTEXT__CTOR_OFFSET))(this, graph);
+			return ((::System::Void(*)(::PVOID, ::ALGKMLLALFG*))((::PBYTE)hIl2Cpp + MOLEMOLE_UIHOLLOWEVENTWIDGETCONTEXT__CTOR_OFFSET))(this, graph);
 		}
 	};
 }

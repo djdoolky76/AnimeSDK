@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeRunStatus.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/StateTreeCore/StateTreeExecutionContext.h"
 #include "unitysdk/StateTreeCore/StateTreeTransitionResult.h"
 #include "unitysdk/StateTreeGameplay/SendGraphEventTask.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnrealTypes/TObjectHandle_1.h"
 
 namespace UnrealTypes { class Struct; }
 
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_SENDGRAPHEVENTTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1F1CB0C0)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_SENDGRAPHEVENTTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1F1CB040)
-#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_SENDGRAPHEVENTTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1F1CB150)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_SENDGRAPHEVENTTASK_ENTERSTATE_OFFSET UNITYSDK_OFFSET(0x1D204380)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_SENDGRAPHEVENTTASK_GETINSTANCEDATATYPE_OFFSET UNITYSDK_OFFSET(0x1D204300)
+#define STATETREEGAMEPLAY_VIRTUALFUNCTIONEXTENSIONS_SENDGRAPHEVENTTASK_TICK_OFFSET UNITYSDK_OFFSET(0x1D204410)
 
 namespace StateTreeGameplay
 {
-	inline static constexpr unsigned int VirtualFunctionExtensions_SendGraphEventTask_TypeDefinitionIndex = 60436;
+	inline static constexpr unsigned int VirtualFunctionExtensions_SendGraphEventTask_TypeDefinitionIndex = 42006;
 
 	class VirtualFunctionExtensions_SendGraphEventTask : public ::System::Object
 	{

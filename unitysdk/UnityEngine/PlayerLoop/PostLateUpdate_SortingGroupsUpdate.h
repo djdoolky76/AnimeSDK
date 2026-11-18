@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_SortingGroupsUpdate_TypeDefinitionIndex = 5642;
+	inline static constexpr unsigned int PostLateUpdate_SortingGroupsUpdate_TypeDefinitionIndex = 5646;
 
-	struct alignas(1) PostLateUpdate_SortingGroupsUpdate
+	struct alignas(4) PostLateUpdate_SortingGroupsUpdate
 	{
 	};
 }

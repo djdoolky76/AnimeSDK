@@ -1,26 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_01FD82FDF13C7F48.h"
+#include "unitysdk/DDCKFEDCLEA.h"
 #include "unitysdk/System/Object.h"
 
 namespace MoleMole::Config { class DynamicFloat; }
 namespace MoleMole::Config { class EffectAutoDynamicValue; }
 namespace MoleMole::Timeline { class ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor; }
 
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_METHOD_1_02DAEF5283702E75_OFFSET UNITYSDK_OFFSET(0x190CC570)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_METHOD_1_914D8C3F79DB2AF9_OFFSET UNITYSDK_OFFSET(0x190CCA30)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_METHOD_1_9DA2AA71419777F5_OFFSET UNITYSDK_OFFSET(0x190CC990)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_METHOD_1_DF7E81ADDCFE3A0C_OFFSET UNITYSDK_OFFSET(0x190CC4D0)
-#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER__CTOR_OFFSET UNITYSDK_OFFSET(0x190CC4C0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_AIMFJCPEEIK_OFFSET UNITYSDK_OFFSET(0x19B77A30)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_IOEOCGDPHBF_OFFSET UNITYSDK_OFFSET(0x19B77BD0)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_LDEBGMHHEEI_OFFSET UNITYSDK_OFFSET(0x19B77990)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_MENBGOENAJM_OFFSET UNITYSDK_OFFSET(0x19B77B30)
+#define MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B77980)
 
 namespace MoleMole::Timeline
 {
-	inline static constexpr unsigned int ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_TypeDefinitionIndex = 70262;
+	inline static constexpr unsigned int ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_TypeDefinitionIndex = 56688;
 
 	class ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower : public ::System::Object
 	{
 	public:
-		::Enum_3_01FD82FDF13C7F48 EffectTarget; // 0x10
+		::DDCKFEDCLEA EffectTarget; // 0x10
+		::System::Byte _padding0[0x4];
 		::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor* EffStartSizeX; // 0x18
 		::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor* EffStartSizeY; // 0x20
 		::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor* EffFadeInTime; // 0x28
@@ -32,24 +33,24 @@ namespace MoleMole::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER__CTOR_OFFSET))(this);
 		}
 
-		static ::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor* Method_1_DF7E81ADDCFE3A0C(::MoleMole::Config::DynamicFloat* a1)
+		static ::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor* LDEBGMHHEEI(::MoleMole::Config::DynamicFloat* GEGOALONGBI)
 		{
-			return ((::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor*(*)(::MoleMole::Config::DynamicFloat*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_METHOD_1_DF7E81ADDCFE3A0C_OFFSET))(a1);
+			return ((::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor*(*)(::MoleMole::Config::DynamicFloat*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_LDEBGMHHEEI_OFFSET))(GEGOALONGBI);
 		}
 
-		::System::Void Method_1_02DAEF5283702E75(::MoleMole::Config::EffectAutoDynamicValue* a1)
+		::MoleMole::Config::EffectAutoDynamicValue* AIMFJCPEEIK(::MoleMole::Config::EffectAutoDynamicValue* CJEKDBFDGID)
 		{
-			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::EffectAutoDynamicValue*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_METHOD_1_02DAEF5283702E75_OFFSET))(this, a1);
+			return ((::MoleMole::Config::EffectAutoDynamicValue*(*)(::PVOID, ::MoleMole::Config::EffectAutoDynamicValue*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_AIMFJCPEEIK_OFFSET))(this, CJEKDBFDGID);
 		}
 
-		static ::MoleMole::Config::DynamicFloat* Method_1_9DA2AA71419777F5(::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor* a1)
+		::System::Void IOEOCGDPHBF(::MoleMole::Config::EffectAutoDynamicValue* CJEKDBFDGID)
 		{
-			return ((::MoleMole::Config::DynamicFloat*(*)(::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_METHOD_1_9DA2AA71419777F5_OFFSET))(a1);
+			return ((::System::Void(*)(::PVOID, ::MoleMole::Config::EffectAutoDynamicValue*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_IOEOCGDPHBF_OFFSET))(this, CJEKDBFDGID);
 		}
 
-		::MoleMole::Config::EffectAutoDynamicValue* Method_1_914D8C3F79DB2AF9(::MoleMole::Config::EffectAutoDynamicValue* a1)
+		static ::MoleMole::Config::DynamicFloat* MENBGOENAJM(::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor* GEGOALONGBI)
 		{
-			return ((::MoleMole::Config::EffectAutoDynamicValue*(*)(::PVOID, ::MoleMole::Config::EffectAutoDynamicValue*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_METHOD_1_914D8C3F79DB2AF9_OFFSET))(this, a1);
+			return ((::MoleMole::Config::DynamicFloat*(*)(::MoleMole::Timeline::ZNetEffectPlayableAsset_EffectAutoDynamicInfo_EditorShower_DynamicFloat_Editor*))((::PBYTE)hIl2Cpp + MOLEMOLE_TIMELINE_ZNETEFFECTPLAYABLEASSET_EFFECTAUTODYNAMICINFO_EDITORSHOWER_MENBGOENAJM_OFFSET))(GEGOALONGBI);
 		}
 	};
 }

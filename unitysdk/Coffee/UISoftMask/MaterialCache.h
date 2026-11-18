@@ -8,20 +8,20 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Material; }
 
-#define COFFEE_UISOFTMASK_MATERIALCACHE_REGISTER_OFFSET UNITYSDK_OFFSET(0x1F8D97F0)
-#define COFFEE_UISOFTMASK_MATERIALCACHE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1F8D9AC0)
-#define COFFEE_UISOFTMASK_MATERIALCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8D9FE0)
+#define COFFEE_UISOFTMASK_MATERIALCACHE_REGISTER_OFFSET UNITYSDK_OFFSET(0x1FCE7FF0)
+#define COFFEE_UISOFTMASK_MATERIALCACHE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1FCE82C0)
+#define COFFEE_UISOFTMASK_MATERIALCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCE87E0)
 
 namespace Coffee::UISoftMask
 {
-	inline static constexpr unsigned int MaterialCache_TypeDefinitionIndex = 94432;
+	inline static constexpr unsigned int MaterialCache_TypeDefinitionIndex = 96119;
 
 	class MaterialCache : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Hash128, ::Coffee::UISoftMask::MaterialEntry*>** StaticGet_s_MaterialMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Hash128, ::Coffee::UISoftMask::MaterialEntry*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialCache_TypeDefinitionIndex)->GetStaticField(0x52530);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Hash128, ::Coffee::UISoftMask::MaterialEntry*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialCache_TypeDefinitionIndex)->GetStaticField(0x52CD0);
 		}
 
 		static ::System::Void _cctor()

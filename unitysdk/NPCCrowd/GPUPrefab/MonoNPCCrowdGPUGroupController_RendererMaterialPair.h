@@ -7,7 +7,7 @@ namespace UnityEngine { class Renderer; }
 
 namespace NPCCrowd::GPUPrefab
 {
-	inline static constexpr unsigned int MonoNPCCrowdGPUGroupController_RendererMaterialPair_TypeDefinitionIndex = 56500;
+	inline static constexpr unsigned int MonoNPCCrowdGPUGroupController_RendererMaterialPair_TypeDefinitionIndex = 39091;
 
 	struct alignas(8) MonoNPCCrowdGPUGroupController_RendererMaterialPair
 	{

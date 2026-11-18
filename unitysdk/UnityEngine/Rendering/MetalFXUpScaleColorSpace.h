@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int MetalFXUpScaleColorSpace_TypeDefinitionIndex = 6200;
+	inline static constexpr unsigned int MetalFXUpScaleColorSpace_TypeDefinitionIndex = 6209;
 
 	enum class MetalFXUpScaleColorSpace : ::System::Int32
 	{

@@ -4,26 +4,26 @@
 #include "unitysdk/SGF/SEvent/DelegateEx.h"
 #include "unitysdk/System/Object.h"
 
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GETLISTENERCOUNT_OFFSET UNITYSDK_OFFSET(0x1F699DF0)
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GET_CUSTOMDEBUGNAME_OFFSET UNITYSDK_OFFSET(0x1F699E30)
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GET_HASLISTENER_OFFSET UNITYSDK_OFFSET(0x1F699DE0)
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GET__METHODS_OFFSET UNITYSDK_OFFSET(0x1F699E50)
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_SET_CUSTOMDEBUGNAME_OFFSET UNITYSDK_OFFSET(0x1F699E40)
-#define SGF_SEVENT_ABSTRACTSIGNALCOMMON__CTOR_OFFSET UNITYSDK_OFFSET(0x1F699EE0)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GETLISTENERCOUNT_OFFSET UNITYSDK_OFFSET(0x1F3AB6E0)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GET_CUSTOMDEBUGNAME_OFFSET UNITYSDK_OFFSET(0x1F3AB720)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GET_HASLISTENER_OFFSET UNITYSDK_OFFSET(0x1F3AB6D0)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_GET__METHODS_OFFSET UNITYSDK_OFFSET(0x1F3AB740)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON_SET_CUSTOMDEBUGNAME_OFFSET UNITYSDK_OFFSET(0x1F3AB730)
+#define SGF_SEVENT_ABSTRACTSIGNALCOMMON__CTOR_OFFSET UNITYSDK_OFFSET(0x1F3AB7D0)
 
 namespace SGF::SEvent
 {
-	inline static constexpr unsigned int AbstractSignalCommon_TypeDefinitionIndex = 7842;
+	inline static constexpr unsigned int AbstractSignalCommon_TypeDefinitionIndex = 8419;
 
 	class AbstractSignalCommon : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_EnableDetailDebugName_ForInvoke()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AbstractSignalCommon_TypeDefinitionIndex)->GetStaticField(0x135E0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AbstractSignalCommon_TypeDefinitionIndex)->GetStaticField(0x14310);
 		}
-		::Il2CppArray<::SGF::SEvent::DelegateEx>* __methods; // 0x10
-		::SGF::SEvent::AbstractSignalCommon_SCustomDebugName _customDebugName; // 0x18
+		::SGF::SEvent::AbstractSignalCommon_SCustomDebugName _customDebugName; // 0x10
+		::Il2CppArray<::SGF::SEvent::DelegateEx>* __methods; // 0x20
 		::System::Int32 _methodCount; // 0x28
 		::System::Int32 _capacity; // 0x2C
 

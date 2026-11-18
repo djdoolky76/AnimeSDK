@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F5ACAAB9AA1EB49.h"
+#include "unitysdk/JJEJBPGJPJN.h"
 
-template <typename T> class Class_0_16E4307DCC419505_163;
+template <typename T> class IHECGHKOIPM_1;
 
-#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER_UISTATE_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x15E93390)
-#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER_UISTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x15E93750)
+#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER_UISTATE_ONCREATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x17DB0950)
+#define MOLEMOLE_UISUIBIANTEMPLEMAINPAGECONTROLLER_UISTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17DB0D10)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UISuibianTempleMainPageController_UIState_TypeDefinitionIndex = 89145;
+	inline static constexpr unsigned int UISuibianTempleMainPageController_UIState_TypeDefinitionIndex = 42369;
 
-	class UISuibianTempleMainPageController_UIState : public ::Class_1_5F5ACAAB9AA1EB49
+	class UISuibianTempleMainPageController_UIState : public ::JJEJBPGJPJN
 	{
 	public:
-		::Class_0_16E4307DCC419505_163<::System::Int32>* SimulationValue; // 0x80
+		::IHECGHKOIPM_1<::System::Int32>* SimulationValue; // 0x88
 
 		::System::Void _ctor()
 		{

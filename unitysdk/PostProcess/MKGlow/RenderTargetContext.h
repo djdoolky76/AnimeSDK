@@ -1,35 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/PostProcess/MKGlow/RenderTarget.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/RenderTargetSetup.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetBinding.h"
+#include "unitysdk/UnityEngine/RenderTargetSetup.h"
+#include "unitysdk/PostProcess/MKGlow/RenderTarget.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define POSTPROCESS_MKGLOW_RENDERTARGETCONTEXT_SETRENDERTARGETCONTEXT_1_OFFSET UNITYSDK_OFFSET(0x1D5ECFA0)
-#define POSTPROCESS_MKGLOW_RENDERTARGETCONTEXT_SETRENDERTARGETCONTEXT_OFFSET UNITYSDK_OFFSET(0x1D5ECC00)
-#define POSTPROCESS_MKGLOW_RENDERTARGETCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5ED3B0)
+#define POSTPROCESS_MKGLOW_RENDERTARGETCONTEXT_SETRENDERTARGETCONTEXT_1_OFFSET UNITYSDK_OFFSET(0x1D8BA2C0)
+#define POSTPROCESS_MKGLOW_RENDERTARGETCONTEXT_SETRENDERTARGETCONTEXT_OFFSET UNITYSDK_OFFSET(0x1D8B9F20)
+#define POSTPROCESS_MKGLOW_RENDERTARGETCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8BA6D0)
 
 namespace PostProcess::MKGlow
 {
-	inline static constexpr unsigned int RenderTargetContext_TypeDefinitionIndex = 27056;
+	inline static constexpr unsigned int RenderTargetContext_TypeDefinitionIndex = 26241;
 
 	class RenderTargetContext : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Rendering::RenderTargetBinding>** StaticGet__mrtBindingsSRP()
-		{
-			return (::Il2CppArray<::UnityEngine::Rendering::RenderTargetBinding>**)Il2CppClass::FromTypeDefinitionIndex(RenderTargetContext_TypeDefinitionIndex)->GetStaticField(0x23980);
-		}
 		static ::Il2CppArray<::UnityEngine::RenderTargetSetup>** StaticGet__mrtBindingsLegacy()
 		{
-			return (::Il2CppArray<::UnityEngine::RenderTargetSetup>**)Il2CppClass::FromTypeDefinitionIndex(RenderTargetContext_TypeDefinitionIndex)->GetStaticField(0x23988);
+			return (::Il2CppArray<::UnityEngine::RenderTargetSetup>**)Il2CppClass::FromTypeDefinitionIndex(RenderTargetContext_TypeDefinitionIndex)->GetStaticField(0x24960);
+		}
+		static ::Il2CppArray<::UnityEngine::Rendering::RenderTargetBinding>** StaticGet__mrtBindingsSRP()
+		{
+			return (::Il2CppArray<::UnityEngine::Rendering::RenderTargetBinding>**)Il2CppClass::FromTypeDefinitionIndex(RenderTargetContext_TypeDefinitionIndex)->GetStaticField(0x24968);
 		}
 		static ::System::Int32* StaticGet__renderTargetCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderTargetContext_TypeDefinitionIndex)->GetStaticField(0x7270);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderTargetContext_TypeDefinitionIndex)->GetStaticField(0x72D0);
 		}
 
 		static ::System::Void _cctor()

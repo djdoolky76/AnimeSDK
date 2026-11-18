@@ -1,40 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Sirenix/Serialization/KeyframeFormatter_FieldReader.h"
-#include "unitysdk/Sirenix/Serialization/MinimalBaseFormatter_1.h"
 #include "unitysdk/UnityEngine/Keyframe.h"
 
 namespace Sirenix::Serialization { class IDataReader; }
 namespace Sirenix::Serialization { class IDataWriter; }
 namespace Sirenix::Serialization { template <typename T> class Serializer_1; }
+namespace System { class Object; }
 
-#define SIRENIX_SERIALIZATION_KEYFRAMEFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1FA7D150)
-#define SIRENIX_SERIALIZATION_KEYFRAMEFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1FA7DEA0)
-#define SIRENIX_SERIALIZATION_KEYFRAMEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA7CD90)
-#define SIRENIX_SERIALIZATION_KEYFRAMEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FA7E3C0)
+#define SIRENIX_SERIALIZATION_KEYFRAMEFORMATTER_READ_OFFSET UNITYSDK_OFFSET(0x1FE96240)
+#define SIRENIX_SERIALIZATION_KEYFRAMEFORMATTER_WRITE_OFFSET UNITYSDK_OFFSET(0x1FE96F90)
+#define SIRENIX_SERIALIZATION_KEYFRAMEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE95E80)
+#define SIRENIX_SERIALIZATION_KEYFRAMEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE974B0)
 
 namespace Sirenix::Serialization
 {
-	inline static constexpr unsigned int KeyframeFormatter_TypeDefinitionIndex = 7586;
+	inline static constexpr unsigned int KeyframeFormatter_TypeDefinitionIndex = 7598;
 
-	class KeyframeFormatter : public ::Sirenix::Serialization::MinimalBaseFormatter_1<::UnityEngine::Keyframe>
+	class KeyframeFormatter
 	{
 	public:
 		static ::Sirenix::Serialization::Serializer_1<::System::Int32>** StaticGet_IntSerializer()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(KeyframeFormatter_TypeDefinitionIndex)->GetStaticField(0x6160);
-		}
-		static ::Il2CppArray<::Sirenix::Serialization::KeyframeFormatter_FieldReader>** StaticGet_FieldReaders()
-		{
-			return (::Il2CppArray<::Sirenix::Serialization::KeyframeFormatter_FieldReader>**)Il2CppClass::FromTypeDefinitionIndex(KeyframeFormatter_TypeDefinitionIndex)->GetStaticField(0x6168);
+			return (::Sirenix::Serialization::Serializer_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(KeyframeFormatter_TypeDefinitionIndex)->GetStaticField(0x6060);
 		}
 		static ::Sirenix::Serialization::Serializer_1<::System::Single>** StaticGet_FloatSerializer()
 		{
-			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(KeyframeFormatter_TypeDefinitionIndex)->GetStaticField(0x6170);
+			return (::Sirenix::Serialization::Serializer_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(KeyframeFormatter_TypeDefinitionIndex)->GetStaticField(0x6068);
+		}
+		static ::Il2CppArray<::System::Object*>** StaticGet_FieldReaders()
+		{
+			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(KeyframeFormatter_TypeDefinitionIndex)->GetStaticField(0x6070);
 		}
 		static ::System::Boolean* StaticGet_Is_In_2018_1_Or_Above()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(KeyframeFormatter_TypeDefinitionIndex)->GetStaticField(0x32E0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(KeyframeFormatter_TypeDefinitionIndex)->GetStaticField(0x3260);
 		}
 
 		static ::System::Void _cctor()

@@ -1,0 +1,163 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GIBMJLOJLKD.h"
+
+class FGCOIBFFCHB;
+class HNLACBJDCGI;
+class LGINJIKKBJA;
+namespace MoleMole { class MonoGamepadCustomList; }
+namespace MoleMole { class MonoGamepadSelectable; }
+namespace MoleMole { class MonoUIColorCollection; }
+namespace MoleMole { class NotificationBadgeEx; }
+namespace MoleMole { class UIControlCollection; }
+namespace MoleMole { class UIItemIconBtnSmallWidgetController; }
+template <typename T> class MEKABAIJMNM_1;
+
+#define CEBPKIGJJBD_LCGHEABJACF_APANJDNEJPM_OFFSET UNITYSDK_OFFSET(0x199FB770)
+#define CEBPKIGJJBD_LCGHEABJACF_CJHHMHFAHDM_OFFSET UNITYSDK_OFFSET(0x199FB850)
+#define CEBPKIGJJBD_LCGHEABJACF_CJJICNAAEFF_OFFSET UNITYSDK_OFFSET(0x199FB780)
+#define CEBPKIGJJBD_LCGHEABJACF_DJEJNBMCPPC_OFFSET UNITYSDK_OFFSET(0x199FB6B0)
+#define CEBPKIGJJBD_LCGHEABJACF_ECNOGHHOPPF_OFFSET UNITYSDK_OFFSET(0x199FB790)
+#define CEBPKIGJJBD_LCGHEABJACF_ENJENAJGHFI_OFFSET UNITYSDK_OFFSET(0x199FB710)
+#define CEBPKIGJJBD_LCGHEABJACF_EPFFMGJDLFN_OFFSET UNITYSDK_OFFSET(0x199FB6D0)
+#define CEBPKIGJJBD_LCGHEABJACF_GAOEOOGLIAB_OFFSET UNITYSDK_OFFSET(0x199FB6F0)
+#define CEBPKIGJJBD_LCGHEABJACF_GGJBODIHKKB_OFFSET UNITYSDK_OFFSET(0x199FB840)
+#define CEBPKIGJJBD_LCGHEABJACF_HPFBMMEMBBL_OFFSET UNITYSDK_OFFSET(0x199FB740)
+#define CEBPKIGJJBD_LCGHEABJACF_JFNBMOEDJKH_OFFSET UNITYSDK_OFFSET(0x199FB700)
+#define CEBPKIGJJBD_LCGHEABJACF_JGJPKPMLAHB_OFFSET UNITYSDK_OFFSET(0x199FB830)
+#define CEBPKIGJJBD_LCGHEABJACF_KGEBDLGBGNM_OFFSET UNITYSDK_OFFSET(0x199FB5A0)
+#define CEBPKIGJJBD_LCGHEABJACF_LPJDGLNMMJI_OFFSET UNITYSDK_OFFSET(0x199FB6E0)
+#define CEBPKIGJJBD_LCGHEABJACF_MKFIKDIEEDC_OFFSET UNITYSDK_OFFSET(0x199FB6A0)
+#define CEBPKIGJJBD_LCGHEABJACF_NKNCKFJJAKD_OFFSET UNITYSDK_OFFSET(0x199FB730)
+#define CEBPKIGJJBD_LCGHEABJACF_NPGHMJNGOCN_OFFSET UNITYSDK_OFFSET(0x199FB760)
+#define CEBPKIGJJBD_LCGHEABJACF_ODBDPEEPINO_OFFSET UNITYSDK_OFFSET(0x199FB750)
+#define CEBPKIGJJBD_LCGHEABJACF_OJENCMOGDKL_OFFSET UNITYSDK_OFFSET(0x199FB340)
+#define CEBPKIGJJBD_LCGHEABJACF_OLLPMJPAPKK_OFFSET UNITYSDK_OFFSET(0x199FB6C0)
+#define CEBPKIGJJBD_LCGHEABJACF_PKCCJCHHILF_OFFSET UNITYSDK_OFFSET(0x199FB720)
+#define CEBPKIGJJBD_LCGHEABJACF__CTOR_OFFSET UNITYSDK_OFFSET(0x199FB690)
+
+inline static constexpr unsigned int CEBPKIGJJBD_LCGHEABJACF_TypeDefinitionIndex = 57911;
+
+class CEBPKIGJJBD_LCGHEABJACF : public ::GIBMJLOJLKD
+{
+public:
+	::MoleMole::NotificationBadgeEx* _CLNCPACBPCP_k__BackingField; // 0x18
+	::MoleMole::MonoUIColorCollection* _KFJKFLDDHLL_k__BackingField; // 0x20
+	::MEKABAIJMNM_1<::MoleMole::UIItemIconBtnSmallWidgetController*>* _IIPFGFPMPJL_k__BackingField; // 0x28
+	::LGINJIKKBJA* _JANEPAFIHOB_k__BackingField; // 0x30
+	::MoleMole::MonoGamepadCustomList* _GDCINCHIIEM_k__BackingField; // 0x38
+	::MoleMole::MonoUIColorCollection* _JJHBFGLCDEL_k__BackingField; // 0x40
+	::FGCOIBFFCHB* _EOMOJEGEGKM_k__BackingField; // 0x48
+	::MoleMole::MonoGamepadSelectable* _OLKPNNCJCFD_k__BackingField; // 0x50
+	::FGCOIBFFCHB* _ALFLGOHLNFC_k__BackingField; // 0x58
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF__CTOR_OFFSET))(this);
+	}
+
+	::System::Void OJENCMOGDKL(::HNLACBJDCGI* JMJGHFAOMNH, ::MoleMole::UIControlCollection* FJHDNIKAKLO)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_OJENCMOGDKL_OFFSET))(this, JMJGHFAOMNH, FJHDNIKAKLO);
+	}
+
+	::MEKABAIJMNM_1<::MoleMole::UIItemIconBtnSmallWidgetController*>* MKFIKDIEEDC()
+	{
+		return ((::MEKABAIJMNM_1<::MoleMole::UIItemIconBtnSmallWidgetController*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_MKFIKDIEEDC_OFFSET))(this);
+	}
+
+	::System::Void DJEJNBMCPPC(::MoleMole::NotificationBadgeEx* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::NotificationBadgeEx*))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_DJEJNBMCPPC_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::LGINJIKKBJA* OLLPMJPAPKK()
+	{
+		return ((::LGINJIKKBJA*(*)(::PVOID))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_OLLPMJPAPKK_OFFSET))(this);
+	}
+
+	::MoleMole::MonoUIColorCollection* EPFFMGJDLFN()
+	{
+		return ((::MoleMole::MonoUIColorCollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_EPFFMGJDLFN_OFFSET))(this);
+	}
+
+	::MoleMole::NotificationBadgeEx* LPJDGLNMMJI()
+	{
+		return ((::MoleMole::NotificationBadgeEx*(*)(::PVOID))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_LPJDGLNMMJI_OFFSET))(this);
+	}
+
+	::System::Void GAOEOOGLIAB(::MoleMole::MonoUIColorCollection* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoUIColorCollection*))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_GAOEOOGLIAB_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::FGCOIBFFCHB* JFNBMOEDJKH()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_JFNBMOEDJKH_OFFSET))(this);
+	}
+
+	::System::Void KGEBDLGBGNM()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_KGEBDLGBGNM_OFFSET))(this);
+	}
+
+	::FGCOIBFFCHB* ENJENAJGHFI()
+	{
+		return ((::FGCOIBFFCHB*(*)(::PVOID))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_ENJENAJGHFI_OFFSET))(this);
+	}
+
+	::System::Void PKCCJCHHILF(::MoleMole::MonoUIColorCollection* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoUIColorCollection*))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_PKCCJCHHILF_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void NKNCKFJJAKD(::MoleMole::MonoGamepadCustomList* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadCustomList*))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_NKNCKFJJAKD_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::MoleMole::MonoUIColorCollection* HPFBMMEMBBL()
+	{
+		return ((::MoleMole::MonoUIColorCollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_HPFBMMEMBBL_OFFSET))(this);
+	}
+
+	::System::Void ODBDPEEPINO(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_ODBDPEEPINO_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void NPGHMJNGOCN(::MoleMole::MonoGamepadSelectable* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MoleMole::MonoGamepadSelectable*))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_NPGHMJNGOCN_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void APANJDNEJPM(::FGCOIBFFCHB* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::FGCOIBFFCHB*))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_APANJDNEJPM_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::MoleMole::MonoGamepadCustomList* CJJICNAAEFF()
+	{
+		return ((::MoleMole::MonoGamepadCustomList*(*)(::PVOID))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_CJJICNAAEFF_OFFSET))(this);
+	}
+
+	::System::Void ECNOGHHOPPF(::HNLACBJDCGI* MIALFKCCCPI, ::MoleMole::UIControlCollection* KMGKAIDEIBA)
+	{
+		return ((::System::Void(*)(::PVOID, ::HNLACBJDCGI*, ::MoleMole::UIControlCollection*))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_ECNOGHHOPPF_OFFSET))(this, MIALFKCCCPI, KMGKAIDEIBA);
+	}
+
+	::System::Void JGJPKPMLAHB(::MEKABAIJMNM_1<::MoleMole::UIItemIconBtnSmallWidgetController*>* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::MEKABAIJMNM_1<::MoleMole::UIItemIconBtnSmallWidgetController*>*))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_JGJPKPMLAHB_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::System::Void GGJBODIHKKB(::LGINJIKKBJA* EGEGIMGMJHN)
+	{
+		return ((::System::Void(*)(::PVOID, ::LGINJIKKBJA*))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_GGJBODIHKKB_OFFSET))(this, EGEGIMGMJHN);
+	}
+
+	::MoleMole::MonoGamepadSelectable* CJHHMHFAHDM()
+	{
+		return ((::MoleMole::MonoGamepadSelectable*(*)(::PVOID))((::PBYTE)hIl2Cpp + CEBPKIGJJBD_LCGHEABJACF_CJHHMHFAHDM_OFFSET))(this);
+	}
+};

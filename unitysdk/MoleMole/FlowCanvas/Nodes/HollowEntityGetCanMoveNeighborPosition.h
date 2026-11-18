@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardPureFunctionNode_3.h"
-#include "unitysdk/MoleMole/FlowCanvas/Nodes/HollowEntityGetCanMoveNeighborPosition_Param.h"
 #include "unitysdk/MoleMole/Vector2Int.h"
 #include "unitysdk/Share/GridDir.h"
+#include "unitysdk/MoleMole/FlowCanvas/Nodes/HollowEntityGetCanMoveNeighborPosition_Param.h"
 
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYGETCANMOVENEIGHBORPOSITION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B5995B0)
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYGETCANMOVENEIGHBORPOSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B599B60)
-#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYGETCANMOVENEIGHBORPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B599AB0)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYGETCANMOVENEIGHBORPOSITION_INVOKE_OFFSET UNITYSDK_OFFSET(0x135650E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYGETCANMOVENEIGHBORPOSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x13565690)
+#define MOLEMOLE_FLOWCANVAS_NODES_HOLLOWENTITYGETCANMOVENEIGHBORPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x135655E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int HollowEntityGetCanMoveNeighborPosition_TypeDefinitionIndex = 47535;
+	inline static constexpr unsigned int HollowEntityGetCanMoveNeighborPosition_TypeDefinitionIndex = 52587;
 
-	class HollowEntityGetCanMoveNeighborPosition : public ::MoleMole::FlowCanvas::ChessboardPureFunctionNode_3<::System::Collections::Generic::IList_1<::MoleMole::Vector2Int>*, ::System::UInt32, ::MoleMole::FlowCanvas::Nodes::HollowEntityGetCanMoveNeighborPosition_Param>
+	class HollowEntityGetCanMoveNeighborPosition
 	{
 	public:
 		static ::Il2CppArray<::Share::GridDir>** StaticGet_GRID_DIR_FOUR()
 		{
-			return (::Il2CppArray<::Share::GridDir>**)Il2CppClass::FromTypeDefinitionIndex(HollowEntityGetCanMoveNeighborPosition_TypeDefinitionIndex)->GetStaticField(0x4D530);
+			return (::Il2CppArray<::Share::GridDir>**)Il2CppClass::FromTypeDefinitionIndex(HollowEntityGetCanMoveNeighborPosition_TypeDefinitionIndex)->GetStaticField(0x50BF0);
 		}
 		::System::Collections::Generic::List_1<::MoleMole::Vector2Int>* _canMoveNeighborIndex; // 0x30
 

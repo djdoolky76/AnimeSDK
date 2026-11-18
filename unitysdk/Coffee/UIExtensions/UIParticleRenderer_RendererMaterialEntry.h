@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Material; }
 
-#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_RENDERERMATERIALENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2F76E0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLERENDERER_RENDERERMATERIALENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1F14E0)
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticleRenderer_RendererMaterialEntry_TypeDefinitionIndex = 34865;
+	inline static constexpr unsigned int UIParticleRenderer_RendererMaterialEntry_TypeDefinitionIndex = 34411;
 
 	class UIParticleRenderer_RendererMaterialEntry : public ::System::Object
 	{

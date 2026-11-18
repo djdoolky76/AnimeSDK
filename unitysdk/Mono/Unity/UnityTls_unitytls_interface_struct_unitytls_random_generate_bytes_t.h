@@ -1,20 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_errorstate.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D6118A0)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D611910)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D611560)
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T__CTOR_OFFSET UNITYSDK_OFFSET(0x1D611540)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1DAD62B0)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1DAD6320)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T_INVOKE_OFFSET UNITYSDK_OFFSET(0x1DAD5F60)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T__CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD5F50)
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_random_generate_bytes_t_TypeDefinitionIndex = 2578;
+	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_unitytls_random_generate_bytes_t_TypeDefinitionIndex = 2577;
 
 	class UnityTls_unitytls_interface_struct_unitytls_random_generate_bytes_t : public ::System::MulticastDelegate
 	{
@@ -24,14 +23,14 @@ namespace Mono::Unity
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Void Invoke(::System::Byte* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState)
+		::System::Void Invoke(::PVOID buffer, ::System::IntPtr bufferLen, ::PVOID errorState)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T_INVOKE_OFFSET))(this, buffer, bufferLen, errorState);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::IntPtr, ::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T_INVOKE_OFFSET))(this, buffer, bufferLen, errorState);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Byte* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::PVOID buffer, ::System::IntPtr bufferLen, ::PVOID errorState, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Byte*, ::System::IntPtr, ::Mono::Unity::UnityTls_unitytls_errorstate*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T_BEGININVOKE_OFFSET))(this, buffer, bufferLen, errorState, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::PVOID, ::System::IntPtr, ::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_UNITYTLS_RANDOM_GENERATE_BYTES_T_BEGININVOKE_OFFSET))(this, buffer, bufferLen, errorState, callback, object);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* result)

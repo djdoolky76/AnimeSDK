@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-#define MOLEMOLE_UIABYSSS2EVENTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B235670)
+#define MOLEMOLE_UIABYSSS2EVENTCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0FB840)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIAbyssS2EventContext_TypeDefinitionIndex = 52870;
+	inline static constexpr unsigned int UIAbyssS2EventContext_TypeDefinitionIndex = 64769;
 
 	class UIAbyssS2EventContext : public ::MoleMole::UIControllerContextBase
 	{

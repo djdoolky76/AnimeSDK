@@ -6,9 +6,9 @@
 
 namespace UnityEngine { class Transform; }
 
-#define DYNAMICBONEV2_UPDATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F5F1080)
+#define DYNAMICBONEV2_UPDATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1F9AF650)
 
-inline static constexpr unsigned int DynamicBoneV2_UpdateConfig_TypeDefinitionIndex = 35291;
+inline static constexpr unsigned int DynamicBoneV2_UpdateConfig_TypeDefinitionIndex = 34864;
 
 class DynamicBoneV2_UpdateConfig : public ::System::Object
 {
@@ -17,6 +17,7 @@ public:
 	::DynamicBoneV2_UpdateMode m_UpdateMode; // 0x14
 	::DynamicBoneV2_FreezeAxis m_FreezeAxis; // 0x18
 	::System::Boolean m_DistantDisable; // 0x1C
+	::System::Byte _padding0[0x3];
 	::UnityEngine::Transform* m_ReferenceObject; // 0x20
 	::System::Single m_DistanceToObject; // 0x28
 

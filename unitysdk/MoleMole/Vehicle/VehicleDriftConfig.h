@@ -6,7 +6,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace MoleMole::Vehicle
 {
-	inline static constexpr unsigned int VehicleDriftConfig_TypeDefinitionIndex = 74309;
+	inline static constexpr unsigned int VehicleDriftConfig_TypeDefinitionIndex = 63902;
 
 	struct alignas(8) VehicleDriftConfig
 	{
@@ -20,8 +20,10 @@ namespace MoleMole::Vehicle
 		::System::Single driftInTurnRadiusMin; // 0x30
 		::System::Single driftInTurnRadiusMax; // 0x34
 		::System::Single driftInAdjustmentDuration; // 0x38
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* driftInAdjustmentCurve; // 0x40
 		::System::Single onGoingBlendDuration; // 0x48
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* onGoingBlendCurve; // 0x50
 		::System::Single onGoingTurnRadius; // 0x58
 		::System::Single driftOutAdjustmentDuration; // 0x5C

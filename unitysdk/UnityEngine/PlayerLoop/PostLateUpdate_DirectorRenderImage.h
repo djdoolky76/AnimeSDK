@@ -4,9 +4,9 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_DirectorRenderImage_TypeDefinitionIndex = 5644;
+	inline static constexpr unsigned int PostLateUpdate_DirectorRenderImage_TypeDefinitionIndex = 5648;
 
-	struct alignas(1) PostLateUpdate_DirectorRenderImage
+	struct alignas(4) PostLateUpdate_DirectorRenderImage
 	{
 	};
 }

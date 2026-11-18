@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace PipelineCamera { class ICameraCommonContext; }
-
 namespace PipelineCamera
 {
-	inline static constexpr unsigned int ICameraPipelineBuilder_1_TypeDefinitionIndex = 38203;
+	inline static constexpr unsigned int ICameraPipelineBuilder_1_TypeDefinitionIndex = 36205;
 
 	template <typename T>
 	class ICameraPipelineBuilder_1

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FlowCanvas/Nodes/FlowControlNode.h"
 
-class Class_2_DE63F91C3C802C47;
+class GEDILNJLFHM;
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREADBLOCKCONFIG_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x118B9210)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDREADBLOCKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x118B9560)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREADBLOCKCONFIG_REGISTERPORTS_OFFSET UNITYSDK_OFFSET(0x162383A0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDREADBLOCKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x162386E0)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDReadBlockConfig_TypeDefinitionIndex = 51653;
+	inline static constexpr unsigned int LDReadBlockConfig_TypeDefinitionIndex = 75944;
 
 	class LDReadBlockConfig : public ::FlowCanvas::Nodes::FlowControlNode
 	{
 	public:
-		::Class_2_DE63F91C3C802C47* template_; // 0xA8
+		::GEDILNJLFHM* template_; // 0xA8
 
 		::System::Void _ctor()
 		{

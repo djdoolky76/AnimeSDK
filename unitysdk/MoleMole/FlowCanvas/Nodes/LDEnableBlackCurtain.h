@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/CallableFunctionNode_3.h"
 
 namespace FlowCanvas { class FlowNode; }
 namespace FlowCanvas { class FlowOutput; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAIN_INVOKE_OFFSET UNITYSDK_OFFSET(0x13832AA0)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAIN_ONREGISTEREXTRAPORTS_OFFSET UNITYSDK_OFFSET(0x13832D80)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x13832E10)
-#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAIN___BASE_ONREGISTEREXTRAPORTS_OFFSET UNITYSDK_OFFSET(0x13832E30)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAIN_INVOKE_OFFSET UNITYSDK_OFFSET(0x139D7D70)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAIN_ONREGISTEREXTRAPORTS_OFFSET UNITYSDK_OFFSET(0x139D8050)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x139D80E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LDENABLEBLACKCURTAIN___BASE_ONREGISTEREXTRAPORTS_OFFSET UNITYSDK_OFFSET(0x139D8100)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LDEnableBlackCurtain_TypeDefinitionIndex = 48267;
+	inline static constexpr unsigned int LDEnableBlackCurtain_TypeDefinitionIndex = 75136;
 
-	class LDEnableBlackCurtain : public ::FlowCanvas::Nodes::CallableFunctionNode_3<::System::Boolean, ::System::Single, ::UnityEngine::AnimationCurve*>
+	class LDEnableBlackCurtain
 	{
 	public:
 		::FlowCanvas::FlowOutput* _onFinish; // 0x40

@@ -5,12 +5,12 @@
 namespace NodeCanvas::Framework { class Connection; }
 namespace NodeCanvas::Framework { class Node; }
 
-#define NODECANVAS_FRAMEWORK_NODE___C__DISPLAYCLASS113_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C2760)
-#define NODECANVAS_FRAMEWORK_NODE___C__DISPLAYCLASS113_0__ISCHILDOF_B__0_OFFSET UNITYSDK_OFFSET(0x1E8C2770)
+#define NODECANVAS_FRAMEWORK_NODE___C__DISPLAYCLASS113_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB88050)
+#define NODECANVAS_FRAMEWORK_NODE___C__DISPLAYCLASS113_0__ISCHILDOF_B__0_OFFSET UNITYSDK_OFFSET(0x1EB88060)
 
 namespace NodeCanvas::Framework
 {
-	inline static constexpr unsigned int Node___c__DisplayClass113_0_TypeDefinitionIndex = 30209;
+	inline static constexpr unsigned int Node___c__DisplayClass113_0_TypeDefinitionIndex = 29491;
 
 	class Node___c__DisplayClass113_0 : public ::System::Object
 	{

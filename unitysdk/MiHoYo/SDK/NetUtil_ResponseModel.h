@@ -5,17 +5,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETUTIL_RESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCE630)
+#define MIHOYO_SDK_NETUTIL_RESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C464040)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil_ResponseModel_TypeDefinitionIndex = 20294;
+	inline static constexpr unsigned int NetUtil_ResponseModel_TypeDefinitionIndex = 19440;
 
 	class NetUtil_ResponseModel : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x10
 		::System::Int32 retcode; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* message; // 0x20
 
 		::System::Void _ctor()

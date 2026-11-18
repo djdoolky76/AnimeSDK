@@ -1,34 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_B4F9C1A2827CAB53.h"
+#include "unitysdk/CEOOCBFJOOH.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-namespace MoleMole { class GeneralDetailWithTabContext_TabEntry; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_GENERALDETAILWITHTABCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1737B430)
+#define MOLEMOLE_GENERALDETAILWITHTABCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x13EE5600)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int GeneralDetailWithTabContext_TypeDefinitionIndex = 60892;
+	inline static constexpr unsigned int GeneralDetailWithTabContext_TypeDefinitionIndex = 48415;
 
 	class GeneralDetailWithTabContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::MoleMole::GeneralDetailWithTabContext_TabEntry*>* Tabs; // 0x28
-		::System::Action* CancelBtnCb; // 0x30
+		::System::Action* CancelBtnCb; // 0x28
+		::System::Action* CloseCb; // 0x30
 		::System::Action* OkBtnCb; // 0x38
-		::System::String* OkBtnText; // 0x40
-		::System::Action* CloseCb; // 0x48
-		::System::String* CancelBtnText; // 0x50
-		::System::Int32 InitialTabIndex; // 0x58
-		::Enum_3_B4F9C1A2827CAB53 OkBtnState; // 0x5C
-		::Enum_3_B4F9C1A2827CAB53 CancelBtnState; // 0x60
-		::System::Boolean ShowCancelBtn; // 0x64
-		::System::Boolean ShowOkBtn; // 0x65
-		::System::Boolean ShowClose; // 0x66
+		::System::String* CancelBtnText; // 0x40
+		::System::String* OkBtnText; // 0x48
+		::System::Collections::Generic::List_1<::System::Object*>* Tabs; // 0x50
+		::CEOOCBFJOOH OkBtnState; // 0x58
+		::CEOOCBFJOOH CancelBtnState; // 0x5C
+		::System::Int32 InitialTabIndex; // 0x60
+		::System::Boolean ShowOkBtn; // 0x64
+		::System::Boolean ShowClose; // 0x65
+		::System::Boolean ShowCancelBtn; // 0x66
 
 		::System::Void _ctor()
 		{

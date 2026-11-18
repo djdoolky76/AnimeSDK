@@ -4,11 +4,11 @@
 
 namespace MoleMole { class UIPlayerSkinSwitchWidgetController; }
 
-#define MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179969B0)
+#define MOLEMOLE_UIPLAYERSKINSWITCHWIDGETCONTROLLER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BBA590)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIPlayerSkinSwitchWidgetController___c__DisplayClass36_0_TypeDefinitionIndex = 42654;
+	inline static constexpr unsigned int UIPlayerSkinSwitchWidgetController___c__DisplayClass36_0_TypeDefinitionIndex = 61254;
 
 	class UIPlayerSkinSwitchWidgetController___c__DisplayClass36_0 : public ::System::Object
 	{

@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sirenix/OdinInspector/SerializedMonoBehaviour.h"
 
-namespace MoleMole { class SceneSoundData_SubAreaConfig; }
 namespace MoleMole { class SceneSoundObjDataItem; }
 namespace MoleMole { class SceneSoundPolygonData; }
 namespace MoleMole { class SceneSoundPortalData; }
 namespace MoleMole::Audio { class MonoSceneSoundItem; }
 namespace MoleMole::Config { class ConfigSoundActionGeneral; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_SCENESOUNDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x129D9810)
+#define MOLEMOLE_SCENESOUNDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1249DA30)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int SceneSoundData_TypeDefinitionIndex = 49902;
+	inline static constexpr unsigned int SceneSoundData_TypeDefinitionIndex = 71269;
 
 	class SceneSoundData : public ::Sirenix::OdinInspector::SerializedMonoBehaviour
 	{
@@ -25,13 +25,14 @@ namespace MoleMole
 		::MoleMole::Config::ConfigSoundActionGeneral* leaveSceneAction; // 0x60
 		::System::String* heightToRTPCName; // 0x68
 		::System::Single heightToRTPCBase; // 0x70
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::MoleMole::SceneSoundObjDataItem*>* objDataItems; // 0x78
 		::System::Collections::Generic::List_1<::MoleMole::SceneSoundPolygonData*>* polygonDataItems; // 0x80
 		::System::Collections::Generic::List_1<::MoleMole::Audio::MonoSceneSoundItem*>* monoSoundItems; // 0x88
 		::System::Collections::Generic::List_1<::MoleMole::SceneSoundPortalData*>* portalDataItems; // 0x90
 		::System::Int32 listenerSidePortalCount; // 0x98
 		::System::Int32 maxRoutingHops; // 0x9C
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MoleMole::SceneSoundData_SubAreaConfig*>* subAreaConfig; // 0xA0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* subAreaConfig; // 0xA0
 
 		::System::Void _ctor()
 		{

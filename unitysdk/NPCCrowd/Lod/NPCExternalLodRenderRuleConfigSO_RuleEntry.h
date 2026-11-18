@@ -6,11 +6,11 @@
 
 namespace Sirenix::OdinInspector { template <typename T> class ValueDropdownList_1; }
 
-#define NPCCROWD_LOD_NPCEXTERNALLODRENDERRULECONFIGSO_RULEENTRY_GETKEYOPTIONS_OFFSET UNITYSDK_OFFSET(0x669220)
+#define NPCCROWD_LOD_NPCEXTERNALLODRENDERRULECONFIGSO_RULEENTRY_GETKEYOPTIONS_OFFSET UNITYSDK_OFFSET(0x601B30)
 
 namespace NPCCrowd::Lod
 {
-	inline static constexpr unsigned int NPCExternalLodRenderRuleConfigSO_RuleEntry_TypeDefinitionIndex = 57441;
+	inline static constexpr unsigned int NPCExternalLodRenderRuleConfigSO_RuleEntry_TypeDefinitionIndex = 51772;
 
 	struct alignas(4) NPCExternalLodRenderRuleConfigSO_RuleEntry
 	{

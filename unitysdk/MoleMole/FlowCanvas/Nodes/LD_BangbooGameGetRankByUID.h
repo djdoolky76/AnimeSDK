@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/FlowCanvas/Nodes/PureFunctionNode_2.h"
 
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BANGBOOGAMEGETRANKBYUID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1A05C940)
-#define MOLEMOLE_FLOWCANVAS_NODES_LD_BANGBOOGAMEGETRANKBYUID__CTOR_OFFSET UNITYSDK_OFFSET(0x1A05C990)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BANGBOOGAMEGETRANKBYUID_INVOKE_OFFSET UNITYSDK_OFFSET(0x13EDC3E0)
+#define MOLEMOLE_FLOWCANVAS_NODES_LD_BANGBOOGAMEGETRANKBYUID__CTOR_OFFSET UNITYSDK_OFFSET(0x13EDC430)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int LD_BangbooGameGetRankByUID_TypeDefinitionIndex = 47131;
+	inline static constexpr unsigned int LD_BangbooGameGetRankByUID_TypeDefinitionIndex = 58980;
 
-	class LD_BangbooGameGetRankByUID : public ::FlowCanvas::Nodes::PureFunctionNode_2<::System::Int32, ::System::UInt32>
+	class LD_BangbooGameGetRankByUID
 	{
 	public:
 		::System::Void _ctor()

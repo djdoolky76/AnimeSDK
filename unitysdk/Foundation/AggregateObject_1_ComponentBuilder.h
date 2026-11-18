@@ -3,16 +3,15 @@
 #include "unitysdk/System/Object.h"
 
 namespace Foundation { template <typename T> class AggregateObject_1; }
-namespace Foundation { template <typename T> class AggregateObject_1_ComponentBuilder; }
 
 namespace Foundation
 {
-	inline static constexpr unsigned int AggregateObject_1_ComponentBuilder_TypeDefinitionIndex = 8754;
+	inline static constexpr unsigned int AggregateObject_1_ComponentBuilder_TypeDefinitionIndex = 8863;
 
-	template <typename TEvent>
+	template <typename T>
 	class AggregateObject_1_ComponentBuilder : public ::System::Object
 	{
 	public:
-		::Foundation::AggregateObject_1<TEvent>* _object; // 0x0
+		::Foundation::AggregateObject_1<T>* _object; // 0x0
 	};
 }

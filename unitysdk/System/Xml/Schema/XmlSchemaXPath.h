@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAXPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1DE3C780)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAXPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1E2BC320)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaXPath_TypeDefinitionIndex = 2162;
+	inline static constexpr unsigned int XmlSchemaXPath_TypeDefinitionIndex = 2161;
 
 	class XmlSchemaXPath : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{

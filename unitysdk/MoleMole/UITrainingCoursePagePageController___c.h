@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_E081FCEC8F87505A;
+class ALDOKCCIFNB;
 namespace MoleMole { class UILineupSelectContext_BeginBattleDel; }
 namespace System { class Action; }
 
-#define MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16783380)
-#define MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x167833C0)
-#define MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__ONENTERSELECT_B__15_0_OFFSET UNITYSDK_OFFSET(0x167833D0)
-#define MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__ONENTERSELECT_B__15_1_OFFSET UNITYSDK_OFFSET(0x16783600)
+#define MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x164CB6D0)
+#define MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x164CB710)
+#define MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__ONENTERSELECT_B__15_0_OFFSET UNITYSDK_OFFSET(0x164CB720)
+#define MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__ONENTERSELECT_B__15_1_OFFSET UNITYSDK_OFFSET(0x164CB950)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UITrainingCoursePagePageController___c_TypeDefinitionIndex = 72212;
+	inline static constexpr unsigned int UITrainingCoursePagePageController___c_TypeDefinitionIndex = 44114;
 
 	class UITrainingCoursePagePageController___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__15_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UITrainingCoursePagePageController___c_TypeDefinitionIndex)->GetStaticField(0x37040);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(UITrainingCoursePagePageController___c_TypeDefinitionIndex)->GetStaticField(0x391D0);
 		}
-		static ::MoleMole::UITrainingCoursePagePageController___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MoleMole::UITrainingCoursePagePageController___c**)Il2CppClass::FromTypeDefinitionIndex(UITrainingCoursePagePageController___c_TypeDefinitionIndex)->GetStaticField(0x37048);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(UITrainingCoursePagePageController___c_TypeDefinitionIndex)->GetStaticField(0x391D8);
 		}
 		static ::MoleMole::UILineupSelectContext_BeginBattleDel** StaticGet___9__15_1()
 		{
-			return (::MoleMole::UILineupSelectContext_BeginBattleDel**)Il2CppClass::FromTypeDefinitionIndex(UITrainingCoursePagePageController___c_TypeDefinitionIndex)->GetStaticField(0x37050);
+			return (::MoleMole::UILineupSelectContext_BeginBattleDel**)Il2CppClass::FromTypeDefinitionIndex(UITrainingCoursePagePageController___c_TypeDefinitionIndex)->GetStaticField(0x391E0);
 		}
 
 		static ::System::Void _cctor()
@@ -46,9 +46,9 @@ namespace MoleMole
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__ONENTERSELECT_B__15_0_OFFSET))(this);
 		}
 
-		::System::Void _OnEnterSelect_b__15_1(::Class_1_E081FCEC8F87505A* data)
+		::System::Void _OnEnterSelect_b__15_1(::ALDOKCCIFNB* data)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E081FCEC8F87505A*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__ONENTERSELECT_B__15_1_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::ALDOKCCIFNB*))((::PBYTE)hIl2Cpp + MOLEMOLE_UITRAININGCOURSEPAGEPAGECONTROLLER___C__ONENTERSELECT_B__15_1_OFFSET))(this, data);
 		}
 	};
 }

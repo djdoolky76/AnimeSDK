@@ -4,11 +4,11 @@
 
 namespace RBDDestruction { class FragmentJsonData; }
 
-#define RBDDESTRUCTION_FRAGMENTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x11091390)
+#define RBDDESTRUCTION_FRAGMENTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x108B80C0)
 
 namespace RBDDestruction
 {
-	inline static constexpr unsigned int FragmentObject_TypeDefinitionIndex = 26860;
+	inline static constexpr unsigned int FragmentObject_TypeDefinitionIndex = 26496;
 
 	class FragmentObject : public ::System::Object
 	{

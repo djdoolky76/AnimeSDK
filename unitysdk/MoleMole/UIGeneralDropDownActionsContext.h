@@ -4,29 +4,29 @@
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 #include "unitysdk/UnityEngine/TextAnchor.h"
 
-class Class_1_777EB91B86430809_1;
+class BHNJJIFLGDB;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define MOLEMOLE_UIGENERALDROPDOWNACTIONSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x186C39B0)
+#define MOLEMOLE_UIGENERALDROPDOWNACTIONSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x184CC750)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIGeneralDropDownActionsContext_TypeDefinitionIndex = 75247;
+	inline static constexpr unsigned int UIGeneralDropDownActionsContext_TypeDefinitionIndex = 77823;
 
 	class UIGeneralDropDownActionsContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::UnityEngine::Transform* LocateRD; // 0x28
-		::UnityEngine::Transform* LocateRT; // 0x30
-		::UnityEngine::Transform* LocateLD; // 0x38
-		::UnityEngine::RectTransform* AutoAnchorCanvas; // 0x40
-		::UnityEngine::Transform* LocateLT; // 0x48
-		::System::Collections::Generic::IReadOnlyList_1<::Class_1_777EB91B86430809_1*>* ButtonContexts; // 0x50
+		::UnityEngine::RectTransform* AutoAnchorCanvas; // 0x28
+		::UnityEngine::Transform* LocateLT; // 0x30
+		::UnityEngine::Transform* LocateRD; // 0x38
+		::UnityEngine::Transform* LocateLD; // 0x40
+		::System::Collections::Generic::IReadOnlyList_1<::BHNJJIFLGDB*>* ButtonContexts; // 0x48
+		::UnityEngine::Transform* LocateRT; // 0x50
 		::MoleMole::InputLogicEventType CloseEventType; // 0x58
-		::System::Boolean AutoAnchor; // 0x5C
-		::UnityEngine::TextAnchor AnchorMode; // 0x60
+		::UnityEngine::TextAnchor AnchorMode; // 0x5C
+		::System::Boolean AutoAnchor; // 0x60
 
 		::System::Void _ctor()
 		{

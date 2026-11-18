@@ -6,17 +6,18 @@ namespace NPCCrowd::AI { class PathGraphConfigComponentSet; }
 namespace NPCCrowd::AI { class PathGraphRef; }
 namespace System { class String; }
 
-#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTV2CONFIG_GET_POINTINDEX_OFFSET UNITYSDK_OFFSET(0x114D96D0)
-#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTV2CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x114D9780)
+#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTV2CONFIG_GET_POINTINDEX_OFFSET UNITYSDK_OFFSET(0xE1B4910)
+#define NPCCROWD_AI_PATHGRAPHFEATUREPOINTV2CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE1B49C0)
 
 namespace NPCCrowd::AI
 {
-	inline static constexpr unsigned int PathGraphFeaturePointV2Config_TypeDefinitionIndex = 40836;
+	inline static constexpr unsigned int PathGraphFeaturePointV2Config_TypeDefinitionIndex = 72236;
 
 	class PathGraphFeaturePointV2Config : public ::System::Object
 	{
 	public:
 		::System::Int32 pointID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* name; // 0x18
 		::NPCCrowd::AI::PathGraphRef* graph; // 0x20
 		::NPCCrowd::AI::PathGraphConfigComponentSet* components; // 0x28

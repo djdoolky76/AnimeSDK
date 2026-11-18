@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace MiHoYo::SDK { class JSONArray; }
+namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDEC440)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS3_0__REQUESTGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1CDEC450)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D35A8F0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS3_0__REQUESTGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1D35A900)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int CDNDataSource___c__DisplayClass3_0_TypeDefinitionIndex = 20930;
+	inline static constexpr unsigned int CDNDataSource___c__DisplayClass3_0_TypeDefinitionIndex = 20134;
 
 	class CDNDataSource___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::JSONObject* queries; // 0x10
-		::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONArray*>* callback; // 0x18
+		::System::Action_3<::System::Int32, ::System::String*, ::MiHoYo::SDK::JSONNode*>* callback; // 0x10
+		::MiHoYo::SDK::JSONObject* queries; // 0x18
 
 		::System::Void _ctor()
 		{

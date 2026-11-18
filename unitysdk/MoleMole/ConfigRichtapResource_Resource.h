@@ -6,24 +6,25 @@
 
 namespace System { class String; }
 
-#define MOLEMOLE_CONFIGRICHTAPRESOURCE_RESOURCE_GETAMPLITUDE_OFFSET UNITYSDK_OFFSET(0x19FFB620)
-#define MOLEMOLE_CONFIGRICHTAPRESOURCE_RESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FFB6E0)
+#define MOLEMOLE_CONFIGRICHTAPRESOURCE_RESOURCE_GETAMPLITUDE_OFFSET UNITYSDK_OFFSET(0x1A7771D0)
+#define MOLEMOLE_CONFIGRICHTAPRESOURCE_RESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A777290)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int ConfigRichtapResource_Resource_TypeDefinitionIndex = 46052;
+	inline static constexpr unsigned int ConfigRichtapResource_Resource_TypeDefinitionIndex = 91333;
 
 	class ConfigRichtapResource_Resource : public ::System::Object
 	{
 	public:
-		::System::String* relativePath; // 0x10
-		::Foundation::AssetPath assetPath; // 0x18
-		::System::Single amplitude; // 0x28
+		::Foundation::AssetPath assetPath; // 0x10
+		::System::String* relativePath; // 0x20
+		::System::Boolean autoStop; // 0x28
+		::System::Byte _padding0[0x3];
 		::MoleMole::ConfigRichtapResource_RichTapResourceType resourceType; // 0x2C
-		::System::Int32 durationMs; // 0x30
-		::System::UInt32 hashId; // 0x34
-		::System::Int32 priority; // 0x38
-		::System::Boolean autoStop; // 0x3C
+		::System::UInt32 hashId; // 0x30
+		::System::Int32 priority; // 0x34
+		::System::Int32 durationMs; // 0x38
+		::System::Single amplitude; // 0x3C
 
 		::System::Void _ctor()
 		{

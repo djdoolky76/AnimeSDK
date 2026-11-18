@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MoleMole/UIControllerContextBase.h"
 
-class Class_3_9D33A2E94B3E53DC;
+class FANBKJPNEDB;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOLEMOLE_UIFISHQUICKSELECTPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x19384240)
+#define MOLEMOLE_UIFISHQUICKSELECTPOPWINDOWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16ECD6A0)
 
 namespace MoleMole
 {
-	inline static constexpr unsigned int UIFishQuickSelectPopWindowContext_TypeDefinitionIndex = 86456;
+	inline static constexpr unsigned int UIFishQuickSelectPopWindowContext_TypeDefinitionIndex = 90959;
 
 	class UIFishQuickSelectPopWindowContext : public ::MoleMole::UIControllerContextBase
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_3_9D33A2E94B3E53DC*>* fishList; // 0x28
+		::System::Collections::Generic::List_1<::FANBKJPNEDB*>* fishList; // 0x28
 
 		::System::Void _ctor()
 		{

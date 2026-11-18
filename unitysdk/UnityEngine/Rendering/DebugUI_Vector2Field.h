@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rendering/DebugUI_Field_1.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_DEBUGUI_VECTOR2FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA79670)
+#define UNITYENGINE_RENDERING_DEBUGUI_VECTOR2FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07ADA0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_Vector2Field_TypeDefinitionIndex = 18698;
+	inline static constexpr unsigned int DebugUI_Vector2Field_TypeDefinitionIndex = 17849;
 
-	class DebugUI_Vector2Field : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityEngine::Vector2>
+	class DebugUI_Vector2Field
 	{
 	public:
 		::System::Int32 decimals; // 0x50

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaAnnotated.h"
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F14EA20)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1F522490)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaContent_TypeDefinitionIndex = 2132;
+	inline static constexpr unsigned int XmlSchemaContent_TypeDefinitionIndex = 2131;
 
 	class XmlSchemaContent : public ::System::Xml::Schema::XmlSchemaAnnotated
 	{

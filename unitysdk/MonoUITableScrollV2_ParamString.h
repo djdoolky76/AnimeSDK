@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MonoUITableScrollV2_Param_1.h"
 
 namespace System { class String; }
 
-#define MONOUITABLESCROLLV2_PARAMSTRING_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x112F2E00)
-#define MONOUITABLESCROLLV2_PARAMSTRING_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x112F2D60)
-#define MONOUITABLESCROLLV2_PARAMSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x112F2DE0)
+#define MONOUITABLESCROLLV2_PARAMSTRING_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x10597AC0)
+#define MONOUITABLESCROLLV2_PARAMSTRING_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x10597A20)
+#define MONOUITABLESCROLLV2_PARAMSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x10597AA0)
 
-inline static constexpr unsigned int MonoUITableScrollV2_ParamString_TypeDefinitionIndex = 75009;
+inline static constexpr unsigned int MonoUITableScrollV2_ParamString_TypeDefinitionIndex = 40093;
 
-class MonoUITableScrollV2_ParamString : public ::MonoUITableScrollV2_Param_1<::System::String*>
+class MonoUITableScrollV2_ParamString
 {
 public:
 	::System::Void _ctor()

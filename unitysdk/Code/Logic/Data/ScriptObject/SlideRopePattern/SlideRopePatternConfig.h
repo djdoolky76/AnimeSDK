@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_SLIDEROPEPATTERNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1652B0E0)
+#define CODE_LOGIC_DATA_SCRIPTOBJECT_SLIDEROPEPATTERN_SLIDEROPEPATTERNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A25C40)
 
 namespace Code::Logic::Data::ScriptObject::SlideRopePattern
 {
-	inline static constexpr unsigned int SlideRopePatternConfig_TypeDefinitionIndex = 50614;
+	inline static constexpr unsigned int SlideRopePatternConfig_TypeDefinitionIndex = 74163;
 
 	class SlideRopePatternConfig : public ::System::Object
 	{

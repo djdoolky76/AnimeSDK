@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MoleMole/FlowCanvas/ChessboardCallableFunctionNode_5.h"
 #include "unitysdk/MoleMole/HollowChessboard/HollowCell.h"
 
 namespace MoleMole { class UIHollowChessPieceParticle; }
 namespace System { class String; }
 
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDPIECEPLAYEFFECTBYKEYV4_INVOKE_OFFSET UNITYSDK_OFFSET(0x144BA110)
-#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDPIECEPLAYEFFECTBYKEYV4__CTOR_OFFSET UNITYSDK_OFFSET(0x144BA3B0)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDPIECEPLAYEFFECTBYKEYV4_INVOKE_OFFSET UNITYSDK_OFFSET(0x10402A80)
+#define MOLEMOLE_FLOWCANVAS_NODES_CHESSBOARDPIECEPLAYEFFECTBYKEYV4__CTOR_OFFSET UNITYSDK_OFFSET(0x10402D20)
 
 namespace MoleMole::FlowCanvas::Nodes
 {
-	inline static constexpr unsigned int ChessboardPiecePlayEffectByKeyV4_TypeDefinitionIndex = 61911;
+	inline static constexpr unsigned int ChessboardPiecePlayEffectByKeyV4_TypeDefinitionIndex = 74017;
 
-	class ChessboardPiecePlayEffectByKeyV4 : public ::MoleMole::FlowCanvas::ChessboardCallableFunctionNode_5<::MoleMole::UIHollowChessPieceParticle*, ::System::String*, ::MoleMole::HollowChessboard::HollowCell, ::System::Boolean, ::System::Boolean>
+	class ChessboardPiecePlayEffectByKeyV4
 	{
 	public:
 		::System::Void _ctor()
